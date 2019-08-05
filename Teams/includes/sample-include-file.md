@@ -1,0 +1,1 @@
+<span data-ttu-id="5c1eb-101">포함 파일 샘플-이 텍스트를 직접 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="5c1eb-101">Sample include file - just replace this text with your own.</span></span>
