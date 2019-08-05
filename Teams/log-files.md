@@ -1,0 +1,113 @@
+---
+title: Microsoft 팀 문제 해결에서 로그 파일 사용
+ms.reviewer: ''
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.date: 09/25/2017
+ms.topic: troubleshooting
+ms.service: msteams
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
+search.appverid: MET150
+description: Microsoft 팀에서 생성 하는 디버그, 미디어, 데스크톱 로그, 찾을 수 있는 위치, 문제 해결에 도움이 되는 방법에 대해 알아봅니다.
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: f5e670ffb90c91735578668bc42d1622386a0613
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "36184067"
+---
+<a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft 팀 문제 해결에서 로그 파일 사용
+=================================================
+
+Microsoft 팀의 문제 해결을 지원 하기 위해 사용할 수 있는 세 가지 유형의 로그 파일이 클라이언트에서 자동으로 생성 됩니다.
+
+-   디버그 로그
+
+-   미디어 로그
+
+-   데스크톱 로그
+
+Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 디버그 로그가 필요 합니다. 지원 요청을 만들기 전에 이러한 로그에 로그인 하면 Microsoft에서 문제 해결을 빠르게 시작할 수 있습니다. Microsoft에서 요청 하는 경우에만 미디어 또는 데스크톱 로그가 필요 합니다.
+
+다음 표에서는 다양 한 클라이언트 및 관련 로그에 대해 간략하게 설명 합니다. 로그 파일은 클라이언트 및 운영 체제와 관련 된 위치에 저장 됩니다.
+
+
+|클라이언트측 |디버깅이|데스크톱이|미디어|
+|---------|---------|---------|---------|
+|웹    |축         |-         |-         |
+|창을     |축         |축         |축         |
+|Mac OSX     |축         |축         |축         |
+|Io     |-         |-         |-         |
+|Android     |-         |-         |-         |
+
+지원 되는 운영 체제 및 브라우저의 전체 목록은 [Microsoft 팀 용 클라이언트 가져오기를](get-clients.md)참조 하세요.
+
+<a name="debug-logs"></a>디버그 로그
+---------------------------
+
+가장 일반적인 로그가 며 모든 Microsoft 지원 사례에 필요 합니다. 디버그 로그는 브라우저 기반 클라이언트를 비롯 하 여 Windows 및 Mac 데스크톱 클라이언트에 의해 생성 됩니다. 로그는 텍스트 기반 이며 아래쪽에서 읽습니다. 모든 텍스트 기반 편집기를 사용 하 여 읽을 수 있으며, 클라이언트에 로그인 할 때 새 로그가 만들어집니다.
+
+디버그 로그에는 다음과 같은 데이터 흐름이 표시 됩니다.
+
+-   로그인
+
+-   중앙 계층 서비스에 대 한 연결 요청
+
+-   통화/대화
+
+디버그 로그는 다음 OS 관련 메서드를 사용 하 여 생성 됩니다.
+
+-   창을
+
+      바로 가기 키: Ctrl + Alt + Shift + 1
+
+-   Mac OSX:
+
+      바로 가기 키: Option + Command + Shift + 1
+
+디버그 로그는 다음 폴더에 자동으로 다운로드 됩니다.
+
+-   Windows:% userprofile%\\다운로드
+
+-   Mac OSX: 다운로드
+
+-   브라우저: 디버그 로그를 기본 저장 위치에 저장 하 라는 메시지가 표시 됩니다.
+
+<a name="media-logs"></a>미디어 로그
+---------------------------
+
+미디어 로그에는 오디오, 비디오, 화면 공유에 대 한 진단 데이터가 포함 되어 있습니다. 요청 시에만 지원 서비스 케이스에 필요 하며 Microsoft만 검사할 수 있습니다. 다음 표에서는 로그 위치에 대해 간략하게 설명 합니다.
+
+
+|클라이언트측 |위치 |
+|---------|---------|
+|창을     |%appdata%\Microsoft\Teams\media-stack\*         |
+|            |%appdata%\Microsoft\Teams\skylib\*
+|            |%appdata%\Microsoft\Teams\media-stack\*         |
+|Mac OSX     |~/Library/Application 지원/Microsoft/팀/미디어-스택입니다\*. 블로그         |
+|            |~/Library/Application 지원/Microsoft/팀/skylib\*/블로그         |
+
+
+
+<a name="desktop-logs"></a>데스크톱 로그
+---------------------
+
+데스크톱 로그 (부트스트래퍼 로그 라고도 함)는 데스크톱 클라이언트와 브라우저 간에 발생 하는 로그 데이터를 포함 합니다. 이 로그는 미디어 로그와 마찬가지로, Microsoft에서 요청 하는 경우에만 필요 합니다. 로그는 텍스트 기반 이며, 텍스트 기반 편집기를 사용 하 여 하향식 형식으로 읽을 수 있습니다.
+
+창을
+
+1.  응용 프로그램 트레이에서 **Microsoft 팀 아이콘** 을 마우스 오른쪽 단추로 클릭 하 고 **로그 가져오기를** 선택 합니다.
+
+Mac OsX:
+
+1.  **도움말** 풀 다운 메뉴에서 **로그 가져오기를** 선택 합니다.
+
+|클라이언트측 |위치 |
+|---------|---------|
+|창을     |%appdata%\Microsoft\Teams\logs.txt         |
+|Mac OSX     |~/Library/Application 지원/Microsoft/팀/로그. t e         |

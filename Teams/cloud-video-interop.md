@@ -1,0 +1,122 @@
+---
+title: Microsoft 팀을 위한 클라우드 비디오 Interop
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.topic: conceptual
+ms.service: msteams
+search.appverid: MET150
+ms.reviewer: srividhc
+description: 클라우드 비디오 Interop는 타사 회의실 장치를 사용 하 여 Microsoft 팀 모임에 참가 합니다.
+localization_priority: Normal
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 7a09da58b0f845bf8915458b7f5216a334d4012d
+ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "36184007"
+---
+# <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 팀을 위한 클라우드 비디오 Interop
+
+CVI (Cloud Video Interop)는 타사 모임 채팅방 (telepresence) 및 개인 비디오 장치 (VTCs)에서 Microsoft 팀 모임에 참가할 수 있도록 하는 Microsoft의 정식 타사 솔루션입니다.
+ 
+Microsoft 팀에서는 오디오, 비디오, 콘텐츠 공유가 포함 된 모임에서 풍부한 온라인 콘텐츠 공동 작업을 할 수 있습니다. 이 작업은 데스크톱 및 웹 클라이언트를 통해 가능 하며, Microsoft 팀과 기본적으로 통합 되는 여러 파트너 장치를 통해 가능 합니다. 그러나 많은 고객이 비디오 teleconferencing 및 개인 영상 통신 장치에 이미 투자 하 고 있어 업그레이드 비용이 많이 듭니다. 클라우드 비디오 Interop는 업그레이드 준비가 될 때까지 기존 솔루션을 계속 사용할 수 있도록 해 주는 간편한 솔루션을 제공 합니다.
+
+클라우드 비디오 Interop를 사용 하 여 Microsoft 팀은 회의실 또는 팀 클라이언트 내에서 모든 참가자에 대해 기본 모임 환경을 제공 합니다.
+
+### <a name="is-cloud-video-interop-for-me"></a>클라우드 비디오 Interop를 사용할 수 있나요?
+
+클라우드 비디오 Interop는 팀 끝점을 사용 하 여 전체 기본 Microsoft 팀 솔루션으로 전환 하는 동안 중간 서비스를 제공 합니다. 제공 되는 서비스는 마이그레이션 경로의 일부 여야 합니다.
+
+클라우드 비디오 Interop는 다음 조건을 충족 하는 고객을 대상으로 합니다.
+
+- Microsoft 팀과 직접 통합할 자격이 없는 회의실 장치 및 개인 영상 장치 배포 (50 + 장치)가 대량으로 배포 됨
+- 클라우드 비디오 Interop 파트너 중 하나에서 지원 됩니다.
+- 기본 Microsoft 팀 솔루션으로 마이그레이션하는 동안 현재 회의실 장치 및 개인 비디오 장치에 투자 가치를 유지 하려고 합니다.
+
+클라우드 비디오 Interop는 훌륭한 중급 솔루션을 제공 하는 반면, 고객은 장기적으로 팀 대화방 시스템과 같은 기본 팀 모임 솔루션을 살펴볼 것을 권장 합니다. 
+
+### <a name="partners-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 파트너
+
+다음 파트너는 Microsoft 팀을 위한 비디오 interop 솔루션을 보유 하 고 있습니다. 회사에서 엔터프라이즈 내에서 이러한 파트너를 조합 하 여 사용 하도록 선택할 수 있습니다. 
+
+|Partner|파트너 솔루션|
+|----|---|
+|![Polycom RealConnect를 나타내는 로고](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect 서비스</a> |
+|![Pexip 무한대를 나타내는 로고](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft 팀 용 pexip 무한대</a> | 
+|![BlueJeans 게이트웨이를 나타내는 로고](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft 팀을 위한 BlueJeans 게이트웨이</a> |
+
+### <a name="cloud-video-interop-overview"></a>클라우드 비디오 Interop 개요
+
+클라우드 비디오 Interop는 기존 영상 회의와 개인 비디오 디바이스 솔루션 (온-프레미스)과 Microsoft 팀 간의 상호 운영성을 제공 하기 위해 파트너가 제공 하는 타사 서비스입니다.
+
+파트너가 제공 하는 솔루션은 완전히 클라우드 기반 또는 부분적/완전히 온-프레미스로 배포할 수 있는 구성 요소로 구성 됩니다. 
+     
+다음 다이어그램은 파트너 솔루션의 상위 수준 아키텍처를 보여 줍니다.
+
+![팀 클라우드 비디오 Interop 파트너 솔루션을 설명 하는 다이어그램](media/teams-cloud-video-interop-partner-solution.png)
+
+
+## <a name="deploy-cloud-video-interop"></a>클라우드 비디오 Interop 배포
+
+클라우드 비디오 Interop 솔루션을 배포 하는 경우 파트너 솔루션을 배포 하는 것을 이해 하는 것이 중요 합니다. 클라우드 비디오 Interop를 배포 하기 위해 수행 해야 하는 일반적인 단계는 다음 다이어그램에 나열 되어 있습니다.
+
+![조직에서 CVI을 배포 하는 방법을 설명 하는 다이어그램](media/deploying-cvi.png)
+
+### <a name="plan"></a>계획
+
+계획 단계에서는 네이티브 팀 장치로 대체 하지 않을 장치를 식별 하 고 이러한 장치를 지원할 수 있는 클라우드 비디오 Interop 파트너를 찾습니다.  
+
+또한 클라우드 비디오 Interop 사용 가능 장치를 사용할 모임을 예약 하는 각 사용자에 대해 라이선스가 필요 하다는 것을 이해 하는 것이 중요 합니다. 정확한 라이선스 요구 사항은 클라우드 비디오 Interop 파트너에서 얻을 수 있습니다. 배포를 시작 하기 전에이에 대 한 자세한 내용을 확인 합니다.
+
+### <a name="configure"></a>구성할
+
+CVI 배포에 대해 선택한 파트너는 조직 내에서 성공적으로 배포 하는 데 필요한 모든 단계로 구성 된 전체 배포 문서를 제공 합니다. 여기에는 방화벽 포트 및 IP 범위, 장치에 대 한 구성 변경 내용, 변경 해야 하는 기타 설정이 포함 됩니다.
+
+### <a name="provision"></a>공급  
+
+구축 단계에서 파트너 구성 가이드에 따라 라이선스를 적절 한 사용자에 게 할당 합니다. 또한 협력 업체에 게 팀 환경에 대 한 액세스를 제공 하기 위해 Azure 승인 프로세스를 거쳐야 할 것입니다. Azure 승인 프로세스에 대 한 자세한 내용은 다음을 참조 하세요.https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
+
+### <a name="schedule"></a>따라
+
+사용자가 클라우드 비디오 Interop를 사용할 수 있게 되 면 Outlook 용 팀 추가 기능을 사용 하 여 예약 된 모든 모임에서 팀 모임에 자동으로 추가 되는 적절 한 추가 정보를 포함 하 여 클라우드 비디오가 Interop 호환 장치는 이러한 모임에 참가할 수 있습니다.
+
+### <a name="join"></a>합류
+
+파트너 솔루션에 따라 여러 가지 방법으로 클라우드 비디오 Interop 사용 가능 모임에 참가할 수 있습니다. 정확한 모임 참가 시나리오는 클라우드 비디오 Interop 파트너에 의해 제공 됩니다. 여기에는 몇 가지 예가 나와 있습니다.
+
+- IVR (대화형 음성 응답) 
+  - Tenantkey @ domain을 사용 하 여 파트너의 IVR에 전화를 걸 수 있습니다.
+  - 파트너 IVR에 있는 경우 VTC conferenceId을 입력 하 라는 메시지가 표시 되 고 팀 회의에 연결 됩니다.
+- 다이렉트 전화 접속 
+  - Tenantkey의 전체 문자열을 사용 하 여 직접 전화 접속 기능을 사용 하 여 파트너의 IVR과 상호 작용 하지 않고 팀 모임에 직접 전화를 걸 수 있습니다. VTC ConferenceId @ domain.
+- 한 번 터치 다이얼 
+  - 통합 된 팀 객실이 있는 경우에는 해당 파트너가 제공 하는 원터치 전화 접속 기능을 사용할 수 있습니다 (다이얼 문자열을 입력할 필요는 없음).
+
+## <a name="manage-cloud-video-interop"></a>클라우드 비디오 Interop 관리
+
+클라우드 비디오 Interop을 배포한 후에는 파트너가 제공 하는 솔루션을 사용 하 여 디바이스를 관리할 수 있습니다. 각 파트너는 라이선스 및 장치 관리를 모두 포함 하는 관리 인터페이스를 제공 합니다. 
+
+보고는 파트너 관리 인터페이스에서 직접 사용할 수도 있습니다. 보고 기능에 대 한 자세한 내용은 선택한 파트너에 게 문의 하세요. 
+
+### <a name="troubleshooting-cloud-video-interop"></a>클라우드 비디오 Interop 문제 해결
+
+클라우드 비디오 Interop는 파트너가 제공 하는 서비스입니다. 문제가 발생 하는 경우 첫 번째 단계는 팀 클라이언트가 설치 된 장치를 연결 하 고 문제를 일으키는 클라우드 비디오 Interop 장치와 동일한 세그먼트에 연결 하는 것입니다. 
+
+이 세그먼트에서 팀이 올바르게 작동 하 고 파트너가 제공한 모든 네트워킹 및 구성 지침을 팔 로우 한 경우에는 협력 업체에 문의 하 여 문제를 해결 해야 합니다. 
+
+## <a name="powershell-for-cloud-video-interop"></a>클라우드 비디오 Interop 용 PowerShell
+
+다음 PowerShell cmdlet을 사용 하 여 클라우드 비디오 Interop 배포를 부분적으로 자동화할 수 있습니다.
+
+- **CsTeamsVideoInteropServicepolicy**: Microsoft는 지원 되는 각 파트너에 대해 미리 구성 된 정책을 제공 하 여 클라우드 비디오 Interop에 사용할 파트너를 지정할 수 있도록 합니다.<br>이 cmdlet을 사용 하 여 조직에서 사용할 수 있는 미리 구성 된 정책을 식별할 수 있습니다. CsTeamsVideoInteropServicePolicy cmdlet을 활용 하 여 하나 이상의 사용자에 게이 정책을 할당할 수 있습니다.
+- **부여-CsTeamsVideoInteropServicePolicy**:이 cmdlet을 사용 하면 조직에서 사용할 미리 생성 된 정책을 할당 하거나 특정 사용자에 게 정책을 할당할 수 있습니다.
+- **CsVideoInteropServiceProvider**:이 cmdlet을 사용 하 여 조직에서 사용 하려는 지원 되는 cvi 파트너에 대 한 정보를 지정 합니다.
+- **CsVideoInteropServiceProvider**:이 cmdlet을 사용 하 여 조직에서 사용 하는 지원 되는 cvi 파트너에 대 한 정보를 업데이트 합니다.
+- **CsVideoInteropServiceProvider**:이 cmdlet을 사용 하 여 조직 내에서 사용 하도록 구성 된 모든 공급자를 가져옵니다.
+- **제거-CsVideoInteropServiceProvider**: 조직에서 더 이상 사용 하지 않는 공급자에 대 한 모든 공급자 정보를 제거 하려면이 cmdlet을 사용 합니다.

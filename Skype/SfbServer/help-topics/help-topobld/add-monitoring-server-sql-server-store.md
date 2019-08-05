@@ -1,0 +1,32 @@
+---
+title: 모니터링 서버 SQL Server 스토어 추가
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+ms.date: 11/17/2018
+audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.tb.AddMonitoringServerSqlStorePage
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
+description: 모니터링 데이터를 저장 하려면 모니터링 서버에 지원 되는 64 비트 버전의 SQL Server 데이터베이스 소프트웨어가 필요 합니다. Sql server 데이터베이스가 상주할 서버의 FQDN (정규화 된 도메인 이름)을 지정 하 여 새 SQL Server 데이터베이스를 정의 하는 것으로, 이전에 모니터링 하는 데 사용할 SQL Server 데이터베이스를 선택 하거나이 인스턴스를 사용할 수 있습니다. 새 SQL Server 데이터베이스 (기본 인스턴스가 될 수 있거나 지정한 명명 된 인스턴스)에 사용할 서버를 선택 합니다.
+ms.openlocfilehash: c6ccf465f5ed34fd6491305d9e9fa6d8309b43e9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "36187149"
+---
+# <a name="add-monitoring-server-sql-server-store"></a>모니터링 서버 SQL Server 스토어 추가
+
+모니터링 데이터를 저장 하려면 모니터링 서버에 지원 되는 64 비트 버전의 SQL Server 데이터베이스 소프트웨어가 필요 합니다. Sql server 데이터베이스가 상주할 서버의 FQDN (정규화 된 도메인 이름)을 지정 하 여 새 SQL Server 데이터베이스를 정의 하는 것으로, 이전에 모니터링 하는 데 사용할 SQL Server 데이터베이스를 선택 하거나이 인스턴스를 사용할 수 있습니다. 새 SQL Server 데이터베이스 (기본 인스턴스가 될 수 있거나 지정한 명명 된 인스턴스)에 사용할 서버를 선택 합니다.
+
+SQL Server 지원에 대 한 자세한 내용은 지원 가능성 설명서의 [데이터베이스 소프트웨어 및 클러스터링 지원을](https://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx) 참조 하세요. 모니터링 데이터베이스의 collocation을 포함 하 여 모니터링 데이터베이스에 대 한 자세한 내용은 [지원 되지 않는 문서에서 지원 되는 서버 위치](https://technet.microsoft.com/library/3be990a1-5485-4b83-b73f-947ac97821f9.aspx) , 계획 설명서의[모니터링 계획](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx) 및 [SQL Server 데이터를 참조 하세요. 배포 설명서의 로그 파일 위치](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) 입니다.
+
+> [!NOTE]
+> 토폴로지를 게시 하는 데 사용 되는 계정에 적절 한 사용자 권한 및 사용 권한이 있는 경우 토폴로지를 게시할 때 모니터링 데이터베이스를 만들 수 있습니다. 나중에 설치 절차의 일부로 포함 하 여 데이터베이스를 만들 수도 있습니다. SQL Server 기반 서버에서 모니터링을 위해 데이터베이스를 설치 하 고 배포 하는 > 데이터베이스 파일을 설치 하는 SQL Server 기반 서버에 대 한 SQL Server sysadmins 그룹의 구성원 이어야 합니다. SQL Server sysadmin 그룹의 구성원이 아닌 경우 데이터베이스 파일을 배포할 때까지 그룹에 추가 하도록 요청 해야 합니다. Sysadmins 그룹의 구성원을 만들 수 없는 경우에는 데이터베이스를 구성 하 고 배포 하는 스크립트를 사용 하 여 SQL Server 데이터베이스 관리자를 제공 해야 합니다. 이러한 절차를 수행 하는 데 필요한 사용자 권한 및 권한에 대 한 자세한 내용은 배포 설명서에서 [SQL Server 배포 권한을](https://technet.microsoft.com/library/56ea0c02-bcf5-4d45-aa13-570531c29074.aspx) 참조 하세요.
+
+

@@ -1,0 +1,502 @@
+---
+title: Microsoft 팀에 대 한 작업 | 서비스 관리 | 화질은
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.topic: conceptual
+ms.service: msteams
+ms.reviewer: dearbeen
+description: 서비스 상태 모니터링, 네트워크 품질 및 사용량 평가 및 확인을 비롯 한 팀 서비스 관리에 필요한 작업 및 활동
+localization_priority: Normal
+search.appverid: MET150
+ms.custom: Teams-upgrade-guidance
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: c8060eae2a354f041b970f61729449eda6179188
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "36184193"
+---
+![여행 다이어그램을 업그레이드 하 여 뛰어난 작업 단계 강조] 운영에 대 한 다양 한 (media/upgrade-banner-op-excellence.png "단계의 강조를 통해 업그레이드 여행 단계")
+
+이 문서는 비즈니스용 Skype에서 팀으로 업그레이드를 완료 하는 즉시 시작 되는 업그레이드 여행에 대 한 작업을 위한 뛰어난 단계의 일부입니다.
+
+# <a name="operate-your-service"></a>서비스 운영
+
+이 문서에서는 업그레이드 한 후 조직의 팀을 성공적으로 운영 하는 데 필요한 요구 사항에 대해 간략하게 설명 합니다. 팀 서비스를 제대로 운영 하 여 조직의 고품질 안정적인 환경을 제공 하 고 있는지 확인할 수 있습니다.
+
+## <a name="introduction-to-the-operations-guide"></a>운영 가이드 소개
+
+운영 가이드에서는 Microsoft 팀에 대 한 서비스 관리 기능의 일부로 필요한 모든 작업 및 활동에 대 한 개요를 제공 합니다.
+
+서비스 관리는 사용자에 게 배포 되 고 사용 하도록 설정 된 후 Microsoft 팀 서비스의 일상 작업을 다루는 광범위 한 항목입니다. 팀 서비스에는 Microsoft Office 365 및 온-프레미스에 배포 되는 인프라 구성 요소 (예: 네트워킹)가 포함 됩니다.
+
+대부분의 조직에 대 한 새로운 개념은 서비스 관리 라는 개념에 해당 하지 않을 수 있습니다. 기존 서비스와 연결 된 프로세스 및 작업을 이미 구현 했을 수 있습니다. 이는 향후에 팀을 지원 하기 위해 지금 서비스 관리 계획을 수립할 때 현재 프로세스를 확장할 수 있다는 사실입니다.
+
+서비스 관리에는 팀의 종단 간 관리에 관련 된 모든 활동과 프로세스가 포함 됩니다. 앞에서 언급 한 것 처럼, Microsoft는 Office 365 서비스 자체에 있는 인프라 인 서비스 관리의 일부 구성 요소 (예, 고객)는 사용자가 팀의 다양 한 측면을 관리 하기 위해 책임을 지는 반면, 네트워크 , 제공 하는 끝점.
+
+이 가이드의 작업 및 활동은 다음 다이어그램에 표시 된 대로 여덟 가지 범주로 그룹화 됩니다. 이러한 각 범주는 다음 섹션에 따라 확장 됩니다.
+
+![작업 및 활동 범주 목록을] 보여 주는 다이어그램 (media/operate-my-service-image1.png "팀에 대 한 서비스 관리를 구성 하는 작업 범주와 활동의 목록을 보여 주는 다이어그램입니다. 또한이 다이어그램은 서비스 관리가 주로 고객 작업을 나타냅니다.")
+
+<table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>팀에 대해 작업을 구현 하는 방법을 결정 합니다.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>운영 가이드를 전체적으로 검토 합니다.</li><li>조직의 목표와 부합 하는 운영 전략을 구현 하 여 팀 작업량의 품질과 안정성을 제공 합니다.</li><li>경력 품질 검토 가이드를 검토 합니다.</li><li> 환경 리뷰를 정기적으로 수행 하 여 팀 구축이 최고 용량으로 운영 되는지 확인 하는 운영 전략을 구현 합니다.</li></ul></td></tr>
+</table>
+
+### <a name="operational-role-mapping"></a>운영 역할 매핑
+
+첫 번째 파일럿 사용자를 사용 하는 경우 운영 작업이 시작 되므로 구상 단계 중에 작업을 undertook 계획은 매우 중요 합니다. 이 가이드에는 고품질 팀 배포를 유지 하기 위해 매일, 매주, 매월 또는 필요한 기준에 따라 수행 해야 하는 작업 및 작업이 나열 되어 있습니다. 이 가이드에서는 이러한 중요 작업 및 작업을 수행 하는 방법에 대 한 정보 및 지침을 제공 합니다.
+
+성공적인 배포의 주요 구성 요소 중 하나는 구상 단계에서 초기에 수행 하는 계획에 특정 활동을 수행할 책임을 결정 하는 것이 포함 되어 있는지 확인 하는 것입니다. 배포에 적용 되는 작업 및 활동을 파악 한 후에는이를 이해 하 고 그 다음에 할당 하는 그룹 또는 개인을 확인 해야 합니다.
+
+식별 하는 각 팀은 식별 된 작업 및 책임에 대해 검토 하 고 동의 하 고 준비를 시작 해야 합니다. 여기에는 교육 및 준비, 직원 계획에 대 한 업데이트 제공 또는 외부 공급자가 배달할 준비가 되었는지 확인이 포함 될 수 있습니다.
+
+이 가이드에 정의 된 활동과 역할은 대부분의 시나리오에서 유효 해야 하지만, 모든 팀 구축은 고유 합니다. 따라서이 가이드를 시작 점으로 사용 하 여 필요에 맞게 작업 및 기본 역할을 사용자 지정할 수 있습니다.
+
+각 책임 팀이 서비스를 실행 하는 데 필요한 작업을 잘 이해 하 고 있는지 확인 합니다. 첫 번째 시험이 시작 되기 전에 각 팀이 조직의 책임을 받아서 승인 하는 것은 매우 중요 합니다.
+
+계약이 적용 된 후에는 해당 팀이 역할을 operationalize 하기 시작 해야 합니다.
+
+<table>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td>
+<td><ul><li>이 문서를 사용 하 여 작업 역할 매핑 연습을 수행 합니다.</li><li>각각의 지원 팀과 회의를 통해 필요한 활동 목록의 각 항목에 이름을 지정 합니다.</li><li>할당 된 역할에 대해 수락 또는 승인을 획득 합니다.</li><li>해당 팀이 필요한 작업을 완료 하는 데 적절 한 교육, 준비, 리소스를 보유 하 고 있는지 확인 합니다.</li></ul></td></table>
+
+### <a name="teams-service-dependencies"></a>팀 서비스 종속성
+
+Microsoft 팀은 팀워크에 대 한 허브를 제공 하기 위해 Office 365에서 기술을 함께 가져옵니다. 예를 들면 다음과 같습니다.
+
+- Azure AD (azure Active Directory)는 팀에 대 한 인증 및 권한 부여 서비스를 제공 합니다.
+
+- Exchange Online은 법률 보류 및 e 검색 같은 고급 기능을 제공 합니다.
+
+- SharePoint Online은 채널에서 파일을 공유할 수 있는 기능을 제공 하 고, 비즈니스용 OneDrive는 개인 채팅 내에서 파일을 공유 하기 위한 메커니즘을 제공 합니다.
+
+조직에서 온-프레미스 인프라에 대 한 기존 투자를 활용할 수도 있습니다. 예를 들어 Azure AD Connect를 활용 하 여 기존의 온-프레미스 Active Directory 계정을 인증에 사용할 수 있습니다. Exchange Online 대신 특정 버전의 Exchange Server를 사용할 수 있습니다.
+
+이러한 기술은 다양 한 공동 작업 및 지능형 통신 제품군을 제공 하기 위해 함께 제공 됩니다. 이 엄격한 통합은 팀의 주요 이점 이지만, 이러한 기술에 대 한 서비스 관리를 위한 요구 사항도 구동 합니다.
+
+이 가이드에서는 팀 서비스를 관리 하는 데 초점을 둔 주요 영역에 대해 설명 합니다. 대부분의 경우 팀이 의존 하는 지원 기술에 대 한 서비스 관리 계획을 보유 하 고 있을 것입니다. 그렇지 않은 경우 해당 기술 구성 요소에 대 한 적절 한 서비스 관리 계획 (온-프레미스 및 온라인)도 설정 해야 합니다. 이렇게 하면 사용자가 팀과 고품질의 안정적인 환경을 즐길 수 있습니다.
+
+#### <a name="references"></a>References
+
+[Microsoft 팀 개요](teams-overview.md)
+
+[Exchange 및 Microsoft 팀의 상호 작용 방식](exchange-teams-interact.md)
+
+[SharePoint Online 및 비즈니스용 OneDrive가 Microsoft 팀과 상호 작용 하는 방법](sharepoint-onedrive-interact.md)
+
+[Microsoft 팀 및 비즈니스용 Skype 공존 및 상호 운용성](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+
+<!--ENDOFSECTION-->
+
+## <a name="operations-guide-activities"></a>운영 가이드 활동
+
+다음 섹션에서는 Microsoft 팀 서비스를 성공적으로 작동 하는 데 필요한 작업에 대 한 개요를 제공 합니다. 여기에는 작업을 이해 하 고 준비 이니셔티브에 도움을 주는 도구, 컨텍스트 정보 및 추가 콘텐츠에 대 한 참조가 포함 됩니다.
+
+<!--ENDOFSECTION-->
+
+## <a name="monitor-service-health"></a>서비스 상태 모니터링
+
+서비스에 영향을 주는 모든 이벤트를 조직의 다른 사용자에 게 미리 알릴 수 있도록 Microsoft 팀 서비스의 전반적인 상태를 이해 하는 것이 중요 합니다. 앞에서 설명한 대로 팀은 Azure Active Directory, Exchange Online, SharePoint Online, 비즈니스용 OneDrive 등의 다른 Office 365 서비스에 의존 합니다. 이 때문에 종속 서비스의 상태를 모니터링 하는 것은 동일 합니다.
+
+이 활동을 사고 관리 프로세스에 통합 하 여 사용자, 헬프데스크 및 운영 팀에 게 사전 정보를 제공 하 여 사용자 에스컬레이션을 처리 하도록 준비 합니다.
+
+다음 섹션에서는 팀 서비스에 영향을 주는 [서비스 인시던트](https://technet.microsoft.com/library/office-365-service-health.aspx#Anchor_1) 를 모니터링 하기 위해 활용할 수 있는 도구에 대해 설명 합니다. 각 도구의 이점에 대 한 요약 및 각각의 도구를 사용 해야 하는 경우 다음 표에 나와 있습니다.
+
+| 모니터링 도구 | 혜택도 | 사용 하는 경우 |
+|---|---|---|
+| Office 365 포털 | 지원 되는 브라우저가 있는 모든 장치에서 사용할 수 있습니다. | 실시간 알림이 필요 하지 않은 경우 사용 합니다. |
+| Office 365 관리 앱 | 모바일 장치에 푸시 알림을 제공 합니다. | 이동 중에 서비스 사고에 대 한 알림을 받아야 하는 경우 사용 합니다. |
+| Microsoft System Center | Microsoft System Center와의 통합. | 고급 모니터링 기능 및 알림 지원이 필요한 경우 사용 합니다. |
+| Office 365 서비스 통신 API | Office 365 서비스 상태에 프로그래밍 방식으로 액세스할 수 있습니다. | 타사 모니터링 도구와 통합 해야 하거나 고유한 솔루션을 만들려는 경우 사용 합니다. |
+
+> [!NOTE]
+> **전역 관리자** 또는 **서비스 관리자** 역할이 할당 된 사용자만 서비스 상태를 볼 수 있습니다.
+
+### <a name="monitoring-with-the-office-365-portal"></a>Office 365 포털을 사용 하 여 모니터링
+
+[Office 365 포털](https://portal.office.com/) 은 종속 서비스 외에도 팀 서비스의 현재 상태를 볼 수 있는 [서비스 상태 대시보드](https://portal.office.com/adminportal/home#/servicehealth) 를 제공 합니다.
+
+### <a name="monitoring-with-the-mobile-app"></a>모바일 앱으로 모니터링
+
+Office 365 관리 앱은 Apple iOS, Android 및 Windows (PC 및 모바일)에서 사용할 수 있습니다. 앱은 서비스 상태와 향후 변경 사항에 대 한 서비스 관리자 정보를 제공 합니다. 앱은 권고가 게시 된 직후에 알림을 받을 수 있는 푸시 알림을 지원 합니다. 이렇게 하면 상태, 상태 및 향후 서비스 변경 사항에 대 한 최신 정보를 얻을 수 있습니다. 알림 지원은 관리자에 게 권장 되는 모니터링 도구입니다. 자세한 내용은 다음을 참조 하세요.
+
+[Office 365 관리 모바일 앱](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+
+[Office 365 관리 모바일 앱 다운로드](https://products.office.com/business/manage-office-365-admin-app)
+
+### <a name="monitoring-with-microsoft-system-center"></a>Microsoft System Center를 사용 하 여 모니터링
+
+Microsoft System Center는 데이터 센터, 클라이언트 장치 및 하이브리드 클라우드 IT 환경을 관리 하는 데 도움이 되는 통합 관리 플랫폼입니다. System Center를 사용 하는 office 365 관리자가 System Center의 Operations Manager 내에서 모든 서비스 통신을 볼 수 있도록 하는 Office 365 관리 팩을 가져오는 옵션이 있습니다. 이 도구를 사용 하면 구독 한 서비스의 상태, 활성 및 해결 된 서비스 인시던트, 메시지 센터 통신 (예정 된 변경 내용)에 액세스할 수 있습니다. 자세한 내용은 다음 [블로그 게시물](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)을 참조 하세요.
+
+System Center를 사용 하 여 팀 서비스 상태 (및 종속 서비스)를 모니터링 하는 경우 관리 팩을 추가로 사용자 지정 하 여 사고에 반응 하도록 식별 된 특정 그룹 또는 개인을 알릴 수 있습니다.
+이러한 그룹에는 서비스 소유자, helpdesks, 두 번째 수준 및 세 번째 수준의 지원 그룹 및 조직의 인시던트 관리자가 포함 될 수 있습니다.
+
+### <a name="monitoring-for-advanced-scenarios"></a>고급 시나리오 모니터링
+
+Office 365 서비스 통신 API를 사용 하 여 프로그래밍 방식으로 Office 365 서비스 상태 및 변경에 액세스 하 여 서비스 상태 및 예정 된 변경 내용을 모니터링할 수 있습니다. 이 API를 사용 하 여 고유한 모니터링 도구를 만들거나 기존 모니터링 도구를 Office 365 서비스 통신에 연결 하 여 환경을 모니터링 하는 방법을 단순화할 수 있습니다. 자세한 내용은 [엔터프라이즈 개발자를 위한 Office 365](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx)을 참조 하세요.
+
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
+
+| 작동이 | 설명 | 주기 | 팀 배정 |
+|---|---|---|---|
+| 서비스 상태 모니터링 | 제공 되는 도구를 사용 하 여 Microsoft 팀 서비스 상태 (및 종속 서비스)를 사전에 모니터링 합니다. 종속 서비스에는 Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Directory가 포함 됩니다. | 실시간 | |
+| 사고 알림 | 팀 서비스에 영향을 주는 이벤트를 내부 관련자에 게 알립니다. 내부 관련자는 사용자, helpdesks, 사건 관리자가 포함 될 수 있습니다. | 필요에 따라 | |
+
+### <a name="references"></a>References
+
+[Office 365 서비스 상태를 확인 하는 방법](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
+
+[Microsoft 팀의 서비스 상태 확인](service-health.md)
+
+[서비스 상태 및 연속성](https://technet.microsoft.com/library/office-365-service-health.aspx)
+
+<!--ENDOFSECTION-->
+
+## <a name="manage-organizational-change"></a>조직 변경 관리
+
+Microsoft 팀은 클라우드 기반 서비스입니다. 그러면 빠른 속도로 새로운 기능과 기능을 제공할 수 있습니다. 지속적인 혁신을 제공 하는 것은 조직에 게 명백한 혜택 이지만, 사용자의 저항력 또는 헬프데스크에 대 한 escalation을 방지 하기 위해 조직 내에서 해당 변경 내용을 적절 하 게 관리 해야 합니다.
+
+팀에 대 한 업데이트가 사용자에 게 자동으로 롤아웃 됩니다. 사용자는 항상 팀 서비스에서 사용할 수 있는 최신 클라이언트와 기능을 보유 하 고 있습니다. 사용자에 게 팀 업데이트 출시를 관리 하는 것은 불가능 하므로 효과적인 의사 소통, 교육 및 채택 프로그램을 통해 변경을 관리 하는 것이 매우 중요 합니다. 사용자가 변경 사항에 대 한 교육을 받은 경우, 혜택에 대해 알리고 새로운 기능&mdash;을 활용 하기 위해 역량을 제공 하는 것이 더 빠르게 변화 하 고 변화를 시작할 수 있습니다.
+
+### <a name="monitoring-for-change"></a>변경 내용 모니터링
+
+변경 관리의 첫 번째 단계는 팀에 대해 계획 된 변경 내용을 모니터링 하는 것입니다. 이러한 변경을 모니터링 하는 가장 좋은 방법은 현재 개발 중이거나 고객에 게 제공 되는 기능을 나열 하거나 완전히 시작 된 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap)사용 하는 것입니다. 제공 된 필터를 사용 하 여 팀 관련 기능을 검색 하거나 추가 분석을 위해 Excel 파일에 대 한 로드맵을 다운로드할 수 있습니다. 각 기능에 대 한 로드맵에는 예상 릴리스 날짜와 함께 간단한 설명이 제공 됩니다.
+
+[Microsoft 팀 블로그에서](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)는 팀 제품 업데이트에 대 한 모범 사례, 추세, 뉴스에 대해 알아볼 수 있습니다. 여기에서 공지를 받을 팀의 주요 기능 업데이트를 찾아 보세요. RSS 피드를 통해 블로그를 구독할 수도 있습니다. 그런 다음, [RSS 피드](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) 를 팀 채널에 직접 추가할 수 있으므로 중요 한 모든 뉴스가 팀 내에서 바로 전달 됩니다.
+
+출시 된 모든 기능은 [Microsoft 팀의 릴리스 정보](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)에 설명 되어 있습니다.
+여기에는 데스크톱, 웹, 모바일 장치에 대해 릴리스된 기능 목록이 나와 있습니다. 동일한 릴리스 노트 집합은 [도움말](get-help-in-microsoft-teams.md)의 **새로운 기능** 탭 에서도 사용할 수 있습니다.
+
+사용할 수 있는 리소스를 숙지 하 고 변경 내용을 모니터링할 해당 소유자를 할당 했는지 확인 합니다.
+
+### <a name="planning-for-change"></a>변경 계획
+
+팀 서비스에 대 한 예정 된 변경 내용을 알게 되었으므로 다음 단계는 적절 하 게 준비 하 고 계획 하는 것입니다. 각 변경을 평가 하 여 사용자에 게 통신 해야 하는 변경 사항, 인식 캠페인, 지원 팀 또는 사용자를 위한 교육, 기능 평가 및 채택 캠페인을 결정 합니다. 이는 조직에서 변경 관리 팀의 주요 역할입니다. 아래에는 변경 계획에 도움이 되는 예제 표의 컬렉션이 나와 있습니다.
+
+#### <a name="feature-cloud-recording-release-date-january-2018"></a>기능: 클라우드 기록 (릴리스 날짜: 1 월 2018)
+
+**일반 트랙**
+
+| 준비 변경 | 상태 | 슬라이드 노트/다음 단계 | 소유주 |
+|---|---|---|---|
+| 법률 리뷰 | 완료 | 이 기능은 교육 팀을 온 보 딩에 대 한 필수 사항입니다. | 프로젝트 팀 |
+
+**기술 변경 관리**
+
+| 준비 변경 | 상태 | 슬라이드 노트/다음 단계 | 소유주 |
+|---|---|---|---|
+| 필수 변경 사항 | ' | 관리자가 확인 된 사용자만 녹화 하도록 설정 해야 합니다. | 지원 팀 |
+| 기술 준비 완료 | ' | | 지원 팀 |
+| | | | |
+
+**사용자 변경 관리**
+
+| 준비 변경 | 상태 | 슬라이드 노트/다음 단계 | 소유주 |
+|---|---|---|---|
+| 사용자에 게 미치는 영향 | 최저값 | | |
+| 사용자 준비 필요 | ' | | |
+| 통신 준비 | 아니요 | 의사 소통 이메일이 초안을 완료 했습니다-검토가 보류 중입니다. | 커뮤니케이션 팀 |
+| 교육 준비 | ' | 교육을 통해 기존 Microsoft 비디오를 활용할 수 있습니다. | 교육 팀 |
+
+**상태 추적**
+
+| 준비 변경 | 상태 | 슬라이드 노트/다음 단계 | 소유주 |
+|---|---|---|---|
+| 릴리스 상태 | 진행 중 | 임원 스폰서의 검토가 보류 중입니다. | 변경 관리 팀 |
+| 로그 오프 해제 | | | |
+| 릴리스 날짜 | | | |
+
+팀과 변경 관리를 계획 하는 방법에 대 한 자세한 내용은 [Microsoft 팀에 대 한 변경 관리 전략 만들기](change-management-strategy.md)를 참조 하세요.
+
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
+
+| 작동이| 설명| 주기| 팀 배정 |
+|---|---|---|---|
+| 변경 모니터| Microsoft 팀 서비스에 대 한 예정 된 변경 사항 모니터링| Daily||
+| 변경 계획| 의사 소통 계획, 인식 캠페인, 교육 등의 새로운 기능과 기능을 평가 하 고 계획 합니다.| 필요에 따라 ||
+| 사용자 준비| 사용자가 예정 된 변경 내용을 사용할 수 있도록 대상 통신, 인식 또는 교육 캠페인을 수행 합니다.| 필요에 따라 ||
+| 지원 팀 준비 | 지원 팀을 준비할 수 있도록 대상 통신, 인식 또는 교육 캠페인을 수행 합니다. 지원 팀에는 "흰색 glove" 팀, helpdesks, 계층 2 또는 계층 3 지원, 외부 파트너 등이 포함 될 수 있습니다. | 필요에 따라 ||
+
+<!--ENDOFSECTION-->
+
+## <a name="assess-teams-usage"></a>팀 사용 평가
+
+초기 파일럿이 시작 되 면 실제 팀 사용량을 측정 하는 정규 흐름을 설정 하는 것이 중요 합니다. 이를 통해 조직에서 실제 사용량을 구상 단계 중 예측 한 사용에 맞게 정렬 하는 방법에 대 한 정보를 얻을 수 있습니다. 이 섹션에서는 팀 사용에 중점을 둘 수 있지만, 전체적으로 Office 365 사용량을 측정 하 고 평가 하는 광범위 한 노력의 일부로 이루어져야 합니다.
+
+배포 초기에 자주 사용 현황을 검토 하면 다음과 같은 기회가 제공 됩니다.
+
+- 사용자가 팀을 사용 하 고 있는지 확인 합니다.
+
+- 조직 전반의 중대 한 문제를 만들기 전에 잠재적 채택 과제를 확인 합니다.
+
+- 구상 단계 요구 사항과 실제 사용량 간에 차이점이 있는지 파악 합니다.
+
+사용 하는 것이 예상과 다르면 배포 문제 이거나 채택 계획이 제대로 실행 되지 않았거나 몇 가지 다른 문제가 발생 했을 수 있습니다. 사용이 낮은 실제 이유에 따라 서비스 관리자는 관련 팀과 공동 작업 하 여 사용 장벽 제거를 지원 해야 합니다.
+
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 사용 하 여 사용 측정
+
+팀의 사용 현황 데이터는 보고 대시보드에서 사용할 수 있습니다. 팀 사용량 데이터는 세 가지 보고서에서 찾을 수 있습니다. 첫 번째 보고서는 사용자가 Office 365의 다양 한 서비스를 사용 하 여 통신 하 고 공동 작업 하는 방법에 대 한 교차 제품 보기를 제공 합니다. 이 보고서는 다음 위치에서 찾을 수 있습니다. [Office 365 활성 사용자 보고서](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
+
+다른 두 보고서는 팀에 따라 달라 지 며 사용자 및 디바이스 관점에서의 팀 사용에 대 한 자세한 정보를 제공 합니다. 두 보고서 모두 여기서 찾을 수 있습니다.
+
+[Microsoft 팀 장치 사용 보고서](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
+
+[Microsoft 팀 사용자 활동 보고서](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+
+#### <a name="required-permissions"></a>필요한 권한
+
+관리 센터의 사용 현황 보고서는 **전역 관리자** 역할이 할당 된 사용자 또는 제품별 관리자 역할 (**Exchange 관리자**, 비즈니스용 **Skype 관리자**, SharePoint)에서 액세스할 수 있습니다. ** 관리자**).
+
+또한 보고서에 대 한 액세스를 필요로 하는 사용자는 **보고서 읽기 프로그램** 역할을 사용할 수 있지만 관리자 수준 권한이 필요한 작업을 수행 하지는 않습니다. 이 역할을 할당 하 여 관련자를 대상으로 하는 모든 사용자에 게 사용 보고서를 제공 하 고, 채택을 모니터링 하 고, 구동 합니다. 사용할 수 있는 다양 한 역할에 대 한 자세한 내용은 [Office 365 관리자 역할 정보](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)를 참조 하세요.
+
+### <a name="assessing-usage"></a>사용 평가
+
+보고 대시보드를 사용 하 여 사용을 측정 한 후에는 프로젝트의 구상 단계 중에 정의한 모든 키 성공 표시기 (KSIs)에 대해 측정 된 사용량을 비교 하는 것이 중요 합니다. 활성 사용량 또는 간접적으로 활성 사용에 연결 된 것으로 정의 될 수 있는 KSI를 정의할 수 있습니다.
+
+추가 사이트 또는 사용자에 게 롤아웃을 다시 시작 하기 전에 실제 및 계획 된 사용량 간의 분산을 확인 하는 것이 중요 합니다. 이러한 활동의 일부로 조직의 학습이를 식별 하 여 다음 일괄 사이트 또는 사용자가 동일한 문제를 방지 하기 위해 활용할 수 있습니다.
+
+먼저, 채택 또는 기술적 문제 인지 정확 하 게 알 수 있습니다. 먼저 아래 항목을 순서 대로 조사 하 여 문제가 어디에 있는지 확인 합니다.
+
+1. [경력을 검토](upgrade-monitor-quality.md)하 여 품질의 유효성을 검사 합니다.
+
+2. 헬프 데스크 팀과 협력 하 여 사용자가 서비스에 액세스 하거나 사용할 수 없도록 하는 추세 기술 문제가 없는지 확인 합니다. 문제 추세가 있는 경우이 문서의 뒷부분에 나와 있는 [끝점 문제 해결](#endpoint-troubleshooting) 섹션을 사용 하 여 지원 하기 전에 문제를 해결 해 보세요.
+
+3. 교육 및 채택 팀과 협력 하 여 사용자 로부터 직접 피드백 수집 (이 문서 뒷부분의 [사용자 정서 평가](#assess-user-sentiment) 참조) 하 고 인식 및 채택 활동의 효율성을 확인 합니다.
+
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
+
+| 작동이 | 설명 | 주기 | 팀 배정 |
+|---|---|---|---|
+| 사용량 측정 (사용 단계) | Onboarded는 사용 단계 중에 사이트가 계속 해 서 수 있으므로 팀 사용량을 측정 하 고 평가 합니다. 필요에 따라 주소 사용 문제가 발생 합니다. | 매주 | |
+| 측정값 사용 | 배포 완료 후 드라이브 값 단계에서 팀 사용량 측정 및 평가 필요에 따라 주소 사용 문제가 발생 합니다. | 격주로 | |
+| (드라이브 값 단계) | | | |
+| 채택 계획 업데이트 | 측정 사용량을 계획 목표와 비교 하는 방법을 기준으로 채택 계획을 업데이트 합니다. | 필요에 따라 | |
+
+### <a name="references"></a>References
+
+[Microsoft 365 관리 센터 정보](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+
+[Microsoft 365 관리 센터의 활동 보고서](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+
+<!--ENDOFSECTION-->
+
+## <a name="assess-user-sentiment"></a>사용자 정서 평가
+
+사용자 정서의 이해는 팀 배포의 성공 여부를 측정 하는 주요 지표 역할을 할 수 있습니다. 사용자 의견은 조직의 변화에 따라 구동 될 수 있습니다. 여기에는 통신 계획, 교육 프로그램 또는 사용자에 게 지원을 제공 하는 방식이 포함 될 수 있습니다.
+
+초기에 의견을 얻고 프로젝트 수명 주기 전체에 걸쳐 사용자 정서 평가를 계속 하는 것이 중요 합니다. 다음 지침을 사용 하 여 조직에서 피드백을 검색 하는 간격을 결정 합니다.
+
+- **프로젝트 시작**: 프로젝트의 시작 부분에서 사용자 정서를 평가 하 여 사용자가 팀 경험에 대해 생각 하는 방식을 조기에 볼 수 있습니다.
+
+- **주요 중요 시점 이후**: 프로젝트 수명 주기 동안 사용자 의견을 수집 하 여 정서를 기준으로 지속적으로 평가 하 고 필요한 사항을 변경할 수 있습니다. 이는 주요 중요 시점 이후에 특히 유용 합니다.
+
+- **프로젝트 결론**: 프로젝트의 끝 부분에서 사용자 정서을 평가 하면 작업을 완료 하는 데 필요한 위치와 이전 설문 조사에 대 한 결과를 비교할 수 있습니다.
+
+- **진행**중: 사용자 정서 무한정 계속 측정 합니다. 사용자 정서 변경 사항은 조직의 환경 또는 팀 서비스 변경 사항으로 인해 발생할 수 있습니다. 사용자 정서을 정기적으로 측정 하 여 서비스 관리 팀이 수행 하는 작업과 조직이 팀 서비스의 변경에 어떻게 반응 하는지 이해할 수 있습니다.
+
+사용자 정서 다양 한 방법을 통해 평가할 수 있습니다. 여기에는 전자 메일 설문 조사, 사람 또는 전화 스타일 인터뷰, 팀 또는 Yammer에서 피드백 채널을 만드는 등의 간단한 작업 등이 포함 됩니다. 자세한 내용은 [Microsoft 팀의 사용자 의견 메서드에 대 한 모범 사례](best-practices-feedback.md)를 참조 하세요.
+
+또한 industrywide 접근 방법을 사용 하 여 다음 섹션에서 설명 하는 NPS (net promotor 점수) 라는 사용자 정서 평가할 수도 있습니다.
+
+### <a name="nps"></a>기록할
+
+NPS (promoter 점수)는 industrywide 고객 충성도 메트릭과 사용자 정서을 평가 하는 데 사용 하는 좋은 방법입니다. NPS는 "동료에 게 팀을 추천할 가능성이 얼마나 되나요?" 라는 두 가지 질문을 하 고 그 뒤에 자유 질문 "이유"를 입력 하 여 계산할 수 있습니다.
+
+NPS는 – 100에서 100 까지의 인덱스 이며, 고객의 willingness을 측정 하 여 회사의 제품이 나 서비스를 권장 합니다. NPS는 전자 메일 또는 다른 전자 수단을 통해 사용자에 게 전달 되는 익명 설문 조사를 기반으로 합니다. NPS는 공급자와 소비자 간의 충성도를 측정 합니다. 이는 한 가지 질문으로 구성 되며, 사용자에 게 추가 설명을 제공 하는 옵션을 사용 하 여 1 ~ 10의 환경을 평가 하도록 요청 합니다. 그러면 사용자는 다음 등급에 따라 분류 됩니다.
+
+- 9 또는 10 Promoters: 충성 매니아는 서비스를 홍보 하 고 다른 플레이어는 연료를 받습니다.
+
+- 7 또는 8은 수동: 만족 되지만 unenthusiastic 다른 서비스 또는 제공에 취약 합니다.
+
+- 1 ~ 6의 Detractors: 서비스를 손상 하 고 성장률을 저해 하는 불만이 있습니다.
+
+![NPS 크기를 보여 주는 다이어그램] (media/operate-my-service-image2.png "이 다이어그램은 NPS 크기를 보여 줍니다. 이 예제에서는 0 ~ 6의 순위가 detractors이 고, 7부터 8까지는 passive이 고, 9 ~ 10은 promoters입니다.")
+
+기본 NPS 번호를 사용 하는 것이 좋지만 사용자 의견을 분석 하는 데 있어 가장 많은 값을 얻을 수 있습니다. 사용자가 다른 사람에 게 팀을 추천 하는 이유를 이해 하는 데 도움이 됩니다. 이러한 메모는 프로젝트 또는 서비스 관리 팀이 품질 서비스를 제공 하는 데 필요한 조정을 이해 하는 데 도움이 되는 소중한 피드백을 제공할 수 있습니다.
+
+조직에 NPS 설문 조사를 제공 하기 위해 자주 사용 하는 온라인 설문 조사 도구를 활용할 수 있습니다.
+
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
+
+| 작동이 | 설명 | 주기 | 팀 배정 |
+|---|---|---|---|
+| 사용자 정서 평가 | 설문 조사 또는 인터뷰를 사용 하거나 팀 또는 Yammer의 피드백 채널을 통해 사용자 정서를 캡처하고 평가 합니다. | 필요에 따라 | |
+| 채택 계획 업데이트 | 사용자 의견을 바탕으로 조직의 드라이브 변경 여기에는 통신 계획, 교육 프로그램 또는 사용자에 게 지원을 제공 하는 방법에 대 한 변경 사항이 포함 될 수 있습니다. | 필요에 따라 | |
+
+### <a name="references"></a>References
+
+[네트 Promoter 점수](https://en.wikipedia.org/wiki/Net_Promoter)
+
+[Yammer를 사용 하 여 의견 수집](https://techcommunity.microsoft.com/t5/Yammer-Blog/The-Microsoft-Teams-team-uses-Yammer/ba-p/55210)
+
+[사용자 의견에 대 한 모범 사례](best-practices-feedback.md)
+
+<!--ENDOFSECTION-->
+
+## <a name="manage-network-quality"></a>네트워크 품질 관리
+
+여러 핵심 계획 요소는 최적화, 오른쪽 크기 조정, 네트워크 인프라를 수정 하 여 Microsoft 팀 서비스에 대 한 고품질 효율적인 경로를 보장 합니다. 계획 작업 및 요구 사항은 [네트워크 준비](upgrade-prepare-environment-prepare-network.md) 지침에서 다룹니다. 네트워크는 업그레이드, 확장 또는 기타 비즈니스 요구 사항으로 인해 시간에 따라 발전 하는 경우가 많습니다. 네트워크 계획 활동에서 팀에 대 한 요구 사항을 고려 하는 것이 중요 합니다.
+
+네트워크 계획은 팀 배포의 중요 한 측면 이지만, 네트워크를 정상 상태로 유지 하 고 변화 하는 비즈니스 또는 기술 요구 사항에 따라 최신 상태를 유지 하는 것은 동일 합니다.
+
+네트워크의 상태를 확인 하기 위해 정기적으로 많은 작업 활동을 수행 해야 합니다.
+
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
+
+| 작동이 | 설명 | 주기 | 팀 배정 |
+|---|---|---|---|
+| Office 365 Ip 및 Url 모니터링 | 제공 된 [RSS 피드](https://go.microsoft.com/fwlink/p/?linkid=236301) 를 사용 하 여 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips) 에 대 한 변경 내용을 모니터링 하 고 해당 네트워킹 그룹에 대 한 변경 요청을 시작 합니다. | Daily | |
+| Office 365 Ip 및 Url에 대 한 변경 내용에 따라 네트워크 업데이트 | 해당 네트워크 구성 요소 (방화벽, 프록시 서버, Vpn, 클라이언트 쪽 방화벽 등)에 대 한 업데이트를 만들어 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips)에 대 한 변경 내용을 반영 합니다. | 필요에 따라 | |
+| 빌드 데이터 제공 | 업데이트 된 서브넷 정보를 품질 챔피언 (또는 관련 투자자)에 제공 하 여 [CQD의 건물 정의가](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) 최신 상태로 유지 되도록 합니다. | 필요에 따라 | |
+| 변경 구현 | 팀 비즈니스 및 기술 요구 사항 변화를 지원 하기 위해 네트워크에서 변경을 구현 합니다. 네트워크 요소에는 다음이 포함 될 수 있습니다.<ul><li>들</li><li>Vpn</li><li>유선 및 Wi-fi 네트워크</li><li>인터넷 연결 및 Express 경로</li><li>DNS</li></ul> | 필요에 따라 | |
+| 네트워크 모니터링 및 보고 | 네트워크 종단을 모니터링 하 여 네트워크 공급자가 제공 하는 기존 타사 네트워크 관리 도구 및 보고 기능을 사용 하 여 가용성, 사용률 및 용량 추세를 확인 합니다. 네트워크 용량 계획에 추세 데이터를 사용 합니다. | 매일, 매주, 매월 | |
+| 용량 계획 | 팀 서비스 소유자와 공동 작업 하 여 추가 용량 변경을 할 수 있는 변화 하는 비즈니스 및 기술 요구 사항을 파악 합니다.  | 필요에 따라 | |
+| 네트워크 문제 해결 및 업데이트 관리 | 팀 helpdesks, 서비스 소유자, 주요 관련자에 게 팀 연결, 안정성 또는 품질과 관련 된 문제를 해결 하 고 수정 하는 데 도움을 줍니다. 네트워크 요소에는 다음이 포함 될 수 있습니다.<ul><li>들</li><li>Vpn</li><li>유선 및 Wi-fi 네트워크</li><li>인터넷 연결 및 Express 경로</li><li>DNS</li></ul> | 필요에 따라 | |
+| 재난 복구 및 고가용성 테스트 | 네트워크 인프라에서 정기적으로 고가용성 및 재해 복구 테스트를 수행 하 여 팀 서비스에 대 한 규정 된 SLOs (서비스 수준 계약) 또는 서비스 수준 동의 (Sla)를 충족 하는지 확인 합니다. | 월간 | |
+
+### <a name="references"></a>References
+
+[Office 365 Url 및 IP 주소 범위](https://aka.ms/o365ips)
+
+[데이터 스키마 빌드](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
+
+<!--ENDOFSECTION-->
+
+## <a name="assess-and-ensure-quality"></a>평가 및 품질 보장
+
+모든 조직에는 품질을 책임을 질 수 있는 그룹 또는 개인이 필요 합니다. 이는 서비스 관리에서 가장 중요 한 역할을 합니다. 품질 챔피언 역할은 사용자의 경험을 열정 하는 사람이 나 그룹에 게 할당 됩니다.
+이 역할에는 환경에서 추세를 식별 하는 기술 및 다른 팀과 협력 하 여 업데이트 관리를 위한 지원이 필요 합니다. 품질 챔피언에서 가장 좋은 후보는 일반적으로 고객 서비스 소유자입니다. 조직의 규모 및 복잡도에 따라 고품질 사용자 환경을 보장 하는 데 필요한 열정을 갖는 사람이 나 그룹을 사용할 수 있습니다.
+
+품질 챔피언은 기존 도구 및 문서화 된 프로세스 (예: CQD) 및 경험 치 리뷰 가이드, 사용자 경험을 모니터링 하 고, 품질 추세를 식별 하 고, 필요한 경우 재구성을 활용 합니다.
+품질 챔피언은 각 팀과 관리 작업을 처리 하 고 진행 상황과 모든 미해결 문제에 대 한 조종 위원회에 보고 해야 합니다.
+
+[경력 품질 검토 가이드](https://aka.ms/qerguide) 에는 사용자 환경 개선에 가장 큰 영향을 주는 주요 영역에서 개선 지침을 평가 하 고 제공 하는 작업이 포함 됩니다. 품질 경험 검토 가이드에서 제공 하는 지침에 따라, 각 영역을 보고 하 고 조사 하 고, 오디오에 집중 하 여 채택을 비롯 하 여 효과를 최대화할 수 있는 기본 도구로 CQD Online을 사용 하는 것에 중점을 두기. 오디오 환경을 개선 하기 위해 네트워크에 대 한 최적화는 비디오 및 데스크톱 공유의 향상 된 기능으로 직접 번역 될 수 있습니다.
+
+품질 챔피언을 일찍 지명할 것을 적극 권장 합니다. 지정 된 후에는 경험 치 검토 가이드의 콘텐츠와 관련 교육 자료를 숙지 하기 시작 해야 합니다.
+
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
+
+| 작동이 | 설명 | 주기 | 팀 배정 |
+|---|---|---|---|
+| 품질 챔피언 지명할 및 교육 | 고품질 챔피언을 지명할 하 고 양성 하세요. | 필요에 따라 | |
+| 경력에 대 한 리뷰를 실시 합니다 (QERs). | QER을 수행 하 여 품질 및 안정성 추세를 식별 하 고 정의 된 대상을 검토 하 고 조직의 주요 관련자에 게 보고 합니다. | 월간 (배포 중 매주) | |
+| 드라이브 업데이트 관리 | QER 평가 및 발견 사항에 따라 조직 전체의 재구성 노력을 조정 합니다. | 필요에 따라 | |
+| CQD에서 데이터 빌드 업데이트 | 네트워크를 변경할 때 CQD에서 새 빌드 정의를 업데이트 하거나 추가 합니다 ( [빌드 정보 업로드](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)참조). | 필요에 따라 | |
+| 품질 챔피언 역할 채우기 | 조직의 품질에 대 한 엔드 투 엔드 책임입니다. 여기에는 다음이 포함 됩니다.<ul><li>QER이 정기적으로 수행 되 고 있는지 확인 합니다.</li><li>품질의 주요 관련자에 게 보고 하세요.</li><li>건물 데이터 정의가 최신 상태 인지 확인 합니다.</li><li>조직 전반의 재구성 노력을 조정 하 여 사용자가 팀과 고품질 환경을 유지할 수 있도록 합니다.</li></ul> | Daily | |
+
+### <a name="references"></a>References
+
+[건물 정보 업로드](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
+
+[경력 품질 검토 가이드](https://aka.ms/qerguide)
+
+<!--ENDOFSECTION-->
+
+## <a name="manage-endpoints"></a>끝점 관리
+
+Microsoft 팀 끝점은 팀 클라이언트를 실행 하는 PC, Mac, 태블릿 또는 모바일 (또는 기타) 장치로 정의할 수 있습니다. *끝점* 이라는 용어는 디바이스 자체를 포괄 하는 것이 아니라 장치의 기본 제공 mic 또는 스피커, 이어폰 또는 최적화 된 헤드셋을 사용 하 여 장치에 연결 하는 방법을 보여 줍니다. 배포 된 후에는 끝점을 잊어버린 것이 아니어야 합니다. 팀 끝점에는 지속적으로 주의를 기울여야 하 고 유지 관리 해야 합니다. 다음 섹션에서는 중점을 둘 특정 영역에 대해 설명 합니다.
+
+### <a name="endpoint-requirements"></a>끝점 요구 사항
+
+팀의 주요 이점 중 하나는 클라이언트가 자동으로 최신 상태로 유지 된다는 것입니다. PC 및 Mac의 클라이언트는 새 빌드를 확인 하는 백그라운드 프로세스를 사용 하 여 업데이트 되며 앱이 유휴 상태일 때 새 클라이언트를 다운로드 합니다. 팀 모바일 앱은 해당 앱 스토어를 통해 최신 상태로 유지 됩니다.
+
+팀 클라이언트에는 기본 소프트웨어 플랫폼의 측면에서 최소 요구 사항이 있습니다. 이러한 요구 사항은 시간이 지남에 따라 변경 될 수 있으므로 변경 내용에 대해 모니터링 하는 것이 중요 합니다. 예를 들어 팀 클라이언트에는 최소 iOS 버전이 있습니다. 클라이언트가 인터넷 브라우저를 사용 하는 경우에도 브라우저는 현재 상태로 유지 되어야 합니다. 지원 되는 플랫폼 목록은 [Microsoft 팀 용 클라이언트 가져오기](get-clients.md)에서 찾을 수 있습니다.
+
+### <a name="endpoint-firewalls"></a>끝점 방화벽
+
+클라이언트쪽 방화벽은 사용자 환경에 큰 영향을 미칠 수 있습니다.
+클라이언트 쪽 방화벽은 통화 음질에 영향을 줄 수 있으며, 통화를 설정 하는 것을 방지 하기도 합니다. 클라이언트 방화벽에 대 한 적절 한 예외 사항이 구성 된 후에는 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips)에 있는 정보를 기반으로 최신으로 유지 해야 합니다. 타사 공급 업체에는 제외를 업데이트 하는 방법에 대 한 특정 지침이 있습니다.
+
+### <a name="wi-fi-drivers"></a>Wi-fi 드라이버
+
+Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이버는 필요 하지 않은 액세스 지점 전환을 유도 하 고 잘못 된 통화 음질을 초래 하는 액세스 지점 간에 적극적인 로밍 동작을 가질 수 있습니다. 잘못 수행 되는 Wi-fi 드라이버는 경험 치 검토를 통해 검색 될 수 있습니다 (자세한 내용은 [경력 검토 가이드](https://aka.ms/qerguide) 참조). 새로운 Wi-fi 드라이버를 모니터링 하 고 일반 사용자 모집단에 배포 하기 전에 테스트 하는지 확인 하는 고품질 프로세스를 구현 하는 것이 필수적입니다.
+
+### <a name="endpoint-management"></a>끝점 관리
+
+지원 되는 끝점 및 인터페이스 디바이스 (예: 헤드셋) 카탈로그를 사용 하 고 유지 관리 해야 합니다. 이 카탈로그에는 구상 및 온보드 단계의 일부로 선택 하 고 유효성을 검사 한 승인 된 디바이스 목록이 포함 됩니다. 일반적으로 조직의 각 가상 사용자가 해당 가상 사용자의 특성 요구를 충족 하기 위해 특정 장치를 선택 합니다. 모든 끝점에는 주기가 있으며, 이러한 장치에 연결 된 공급 업체 계약, 보증, 대체, 배포 및 복구 정책을 관리 해야 합니다.
+
+### <a name="endpoint-troubleshooting"></a>끝점 문제 해결
+
+이전 지침을 팔 로우 한 적이 있는 경우에도 조직의 사용자는 계속 해 서 팀에 문제가 발생할 수 있습니다. 끝점 자체에 문제가 있는 것은 아니지만 문제의 현상은 일반적으로 클라이언트를 통해 사용자에 게 노출 됩니다. 다음 지침은 문제를 해결 하기 위해 수행할 수 있는 일반적인 단계를 제공 하기 위한 것입니다. 포괄적인 문제 해결 가이드는 아닙니다. 단계는 특정 순서 대로 제공 되지만, 문제의 성격에 따라 명시적으로 팔 로우 하는 것이 가능 하지 않을 수 있습니다.
+
+1. **서비스 상태 확인:** 사용자가 겪을 수 있는 문제는 팀 서비스 또는 itsdependent 서비스에 부정적인 영향을 주는 이벤트와 관련이 있을 수 있습니다. 첫 번째 단계에서는 활성 서비스 문제가 없음을 확인 하는 것이 좋습니다. [Office 365 서비스 상태를 확인 하는 방법을](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)참조 하세요. 종속 서비스의 상태 (예: Exchange, SharePoint, 비즈니스용 OneDrive)를 확인 해야 합니다. 서비스 상태에 대 한 모니터링은 이전 섹션에서 [서비스 상태 모니터링](#monitor-service-health)에 자세히 설명 되어 있습니다.
+
+2. **클라이언트 연결의 유효성을 검사 합니다.** 연결 문제로 인해 팀에서 기능 또는 로그인 문제가 발생 합니다. 서비스에 대 한 연결을 확인 하는 것이 좋습니다 (특히 새 사이트 또는 위치에 적용). 각 사이트에 대해 다음 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips) 지침이 제공 되는지 확인 합니다. [Microsoft 네트워크 평가 도구](https://www.microsoft.com/download/details.aspx?id=53885) 를 활용 하 여 연결 테스트를 수행 하 여 미디어 포트가 팀의 기능에 맞게 올바르게 열려 있는지 확인할 수 있습니다. 연결 테스트를 실행 하는 방법에 대 한 자세한 단계는 [네트워크 준비](upgrade-prepare-environment-prepare-network.md) 지침에 나와 있습니다.
+
+3. **알려진 문제점 목록 확인:** 이러한 문제 중 하나가 사용자에 게 부정적인 영향을 미치는지 여부를 확인 하려면 [팀의 알려진 문제점 목록을](known-issues.md) 참조 하세요. 이 문제를 해결 하려면 제공 된 해결 방법 (있는 경우)을 따릅니다.
+
+4. **Microsoft 팀 커뮤니티를 방문 하세요.** [Microsoft 팀 커뮤니티](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) 는 팀을 위한 전용 공간을 제공 합니다. 팀 커뮤니티는 토론 목록, 블로그 게시물, 팀 중심의 공지 사항을 제공 합니다. 질문을 게시 하거나 문제에 대 한 이전 토론을 검색할 수 있습니다.
+
+5. **Microsoft 지원 문의:** 온라인 또는 휴대폰을 통한 팀 관련 문제는 Microsoft 지원에 문의할 수 있습니다. 자세한 내용은 [비즈니스 제품에 대 한 고객 지원 문의](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)를 참조 하세요. 프리미어 고객의 경우 [Microsoft 팀에 대 한 연락처 지원 (프리미어 고객)](https://support.microsoft.com/premier/contacts)의 지침에 따라 지원 요청을 시작할 수 있습니다.
+
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
+
+| 작동이 | 설명 | 주기 | 팀 배정 |
+|---|---|---|---|
+| 끝점 요구 사항 | 팀 끝점이 [Microsoft 팀 용 클라이언트 가져오기](get-clients.md)에 나열 된 팀의 모든 소프트웨어 요구 사항을 계속 충족 하는지 확인 합니다. | 월간 | |
+| 끝점 방화벽 | [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips)에 대 한 정보를 기반으로 끝점 방화벽에 대 한 적절 한 제외를 유지 합니다. 타사 공급 업체는 제외를 유지 하는 방법에 대 한 특정 지침을 제공 합니다. 자동으로 변경 내용을 알리도록 [RSS 피드에](https://support.office.com/o365ip/rss) 가입 합니다. | 필요에 따라 | |
+| Wi-fi 드라이버 | PC에서 Wi-fi 드라이버를 테스트 하 고 업데이트 합니다. CQD ([경력 수준 검토 가이드](https://aka.ms/qerguide))를 사용 하 여 결과의 유효성을 검사 합니다. | 필요에 따라 | |
+| 끝점 관리 | 지원 되는 끝점 및 인터페이스 디바이스 (예: 헤드셋)의 카탈로그를 유지 관리 합니다. 공급 업체 계약, 보증, 배포, 대체 및 복구 정책을 관리 합니다. | 월간 | |
+| 끝점 문제 해결 | 문제 해결 작업에는 연결 확인, 알려진 문제점 목록, 로그 수집, 분석, Microsoft 지원 또는 타사 공급 업체에 대 한 escalation 등이 포함 될 수 있습니다. | 필요에 따라 | |
+
+### <a name="references"></a>References
+
+[Office 365 Url 및 IP 주소 범위](https://aka.ms/o365ips)
+
+[Microsoft 팀 용 클라이언트 가져오기](get-clients.md)
+
+[Microsoft 팀 커뮤니티](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
+
+[Microsoft 팀의 알려진 문제점](known-issues.md)
+
+[Microsoft 팀의 서비스 상태 확인](service-health.md)
+
+[비즈니스 제품에 대 한 고객 지원 문의-관리자 도움말](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+
+[프리미어 지원에 문의](https://support.microsoft.com/premier/contacts)
+
+[팀 문제 해결 비디오](https://www.youtube.com/watch?v=4O4d_7uZTQY)
+
+<!--ENDOFSECTION-->
+
+## <a name="manage-teams"></a>팀 관리
+
+Microsoft 팀 서비스를 배포한 후에는 관리와 관련 된 몇 가지 작업을 수행 해야 합니다. 활동은 서비스 및 개별 사용자 관리부터 라이선스 및 전화 번호 계획 및 프로 비전에 이르기까지 다양 합니다. 다음 섹션에서는 이러한 일반적인 몇 가지 관리 작업에 대해 설명 합니다.
+
+### <a name="service-administration"></a>서비스 관리
+
+팀 서비스에는 테 넌 트 전체를 구성할 수 있는 여러 설정이 있습니다.
+테 넌 트 설정에 대 한 변경 내용은 팀에 대해 사용 하도록 설정 된 모든 사용자에 게 영향을 줍니다. 이러한 설정에 대 한 자세한 목록은 [조직의 Microsoft 팀 설정 관리](enable-features-office-365.md)를 참조 하세요.
+
+### <a name="user-administration"></a>사용자 관리
+
+사용자를 지원 하기 위해 조직에는 다양 한 관련 작업이 필요할 수 있으며, 특정 작업은 조직 마다 다릅니다. 궁극적으로 이러한 작업은 이러한 운영 의무를 할당 한 지원 팀에서 관리 해야 합니다. 다음 작업은 팀에서 사용자를 지원 하기 위해 일반적으로 필요 합니다.
+
+#### <a name="general-tasks"></a>일반 작업
+
+[Microsoft 팀에 대 한 사용자 액세스 관리](user-access.md)
+
+### <a name="team-creation-optional"></a>팀 만들기 (선택 사항)
+
+기본적으로 Exchange Online에서 사서함이 있는 모든 사용자는 Office 365 그룹을 만들 수 있는 권한을 가지 므로 Microsoft 팀의 팀입니다. 더 엄격 하 게 제어 하 고 [새 팀 만들기](assign-roles-permissions.md#permissions-to-create-teams) (그리고 새 Office 365 그룹 만들기)를 제한 하려는 경우 그룹 만들기 및 관리 권한을 관리자 집합에 위임할 수 있습니다. 조직에서이 옵션을 사용 하려는 경우이 문서에서 설명 하는 프로세스를 참조 하 여 사용자가 할당 된 팀이 처리 하는 요청을 제출 하도록 합니다.
+
+<!--ENDOFSECTION-->
+
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
+
+| 작동이 | 설명 | 주기 | 팀 배정 |
+|---|---|---|---|
+| 서비스 관리 | 테 넌 트 전체 팀 설정 관리. | 필요에 따라 | |
+| 사용자 관리 | 팀의 사용자 기반 설정 및 라이선스 관리 | 필요에 따라 | |
+| 라이선스 관리 | [Pstn 사용 보고서](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) 및 [pstn 시간 풀](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) 보고서를 사용 하 여 사용자 및 소비 기반 라이선스 (통화 계획 및 통신 크레딧)에 대 한 현재 및 향후 요구 사항에 대 한 계획을 수립 합니다. | 매주 | |
+| 전화 번호 관리 | 향후 성장을 위해 사용할 수 있는 전화 번호를 관리 하 고 조직의 요구에 맞게 재고 수준을 조정 합니다. | 매주 | |
+| 팀 만들기 (선택 사항) | 팀 만들기 요청을 검토 하 고 처리 합니다. | 필요에 따라 | |
+
+<!--ENDOFSECTION-->
