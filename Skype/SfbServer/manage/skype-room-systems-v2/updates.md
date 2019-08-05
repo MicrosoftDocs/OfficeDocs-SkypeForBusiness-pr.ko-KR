@@ -1,0 +1,51 @@
+---
+title: Microsoft 팀 대화방에 대 한 Windows 업데이트 관리
+ms.author: v-lanac
+author: lanachin
+ms.reviewer: davgroom
+manager: serdars
+ms.date: 10/10/2018
+audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: M365-voice
+ms.assetid: ''
+description: Microsoft 팀 대화방에 대 한 Windows 업데이트 관리
+ms.openlocfilehash: 7ea7197752b42db788b2f67b9ae1c80cdad80177
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "36188520"
+---
+# <a name="manage-windows-updates"></a>Windows 업데이트 관리
+
+Microsoft 팀 대화방은 Windows 10 Enterprise IoT 또는 Windows 10 Enterprise (VL)에서 실행 되며 표준 데스크톱으로 동일한 Windows 업데이트 및 OS 빌드를 받습니다.
+
+Windows 업데이트는 몇 가지 다른 방법으로 관리할 수 있습니다.
+
+## <a name="hands-off-approach"></a>실습 방법 
+- 업데이트는 Windows 업데이트에서 직접 다운로드 하 고 시간이 지난 후에 설치할 수 있습니다. 구성을 변경 하지 않으면 기본 상태입니다.
+- 지연 되지 않는 업데이트는 매일 자동으로 릴리스 중 하나가 설치 됩니다. 
+- 품질 업데이트 및 드라이버는 자동으로 일을 다운로드 하 고 설치 합니다. 
+- 기능 업데이트. 아래 추가 참고 자료를 참조 하세요. 
+
+## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[비즈니스용 Windows 업데이트](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (GPO 또는 Intune)   
+- 업데이트는 WU 또는 WSUS에서 다운로드 되지만 KB의 원래 릴리스 날짜 이후에는 구성 된 지연이 있습니다. 
+- 여러 OU 또는 필터링 된 정책과 함께,이를 통해 관리자가 품질 업데이트를 먼저 설치 하 고 나중에 설치할 장치를 지정할 수 있는 배포 "링"이 허용 됩니다. 이렇게 하면 SCCM에서 Windows 업데이트를 관리 하는 오버 헤드 없이 전체 배포에 대 한 업데이트를 롤아웃하기 전에 시스템 하위 집합의 안정성 및 성능 테스트를 수행할 수 있습니다.
+- 대역폭 관리와 비즈니스용 Windows 업데이트 컨트롤이 제공 되는 경우 비즈니스용 WSUS 및 Windows 업데이트를 동시 [에 구성할](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) 수 있습니다.
+- 기능 업데이트. 아래 추가 참고 자료를 참조 하세요.
+
+## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+- 비즈니스를 위한 Windows 업데이트와 비슷하지만, 각 "링" 내에서 특정 KB의 대상을 지정 하는 추가 옵션 또는 전체 배포를 사용 하는 것과 매우 유사 합니다. 각 업데이트는 지연에 의존 하지 않고 각각 개별적으로 배포 하 고 테스트할 수 있습니다. 
+- 기능 업데이트. 아래 추가 참고 자료를 참조 하세요.
+
+
+### <a name="feature-updates"></a>기능 업데이트
+
+품질 및 비 Deferable 업데이트와 달리 Windows 10 "기능 업데이트" (주요 OS 릴리스)는 Microsoft 테스트 후에만 설치 되며 Microsoft 팀 대화방에서 특정 업데이트 기능을 확인 하 고 유효성을 검사 합니다. 반기 채널 (또는 테스트를 위해 시스템이 설정 된 경우) 또는 사용자의 시도 또는 구성에 따라 수동으로 푸시 하는 경우에도 설치를 허용 하지 않는 경우에는 해당 블록을 제거 해야 합니다.
+
+Microsoft 팀은 핸 끈 접근 방법으로 "부재 중"으로 공간을 확보 하 고 windows 업데이트 때문에 Windows 업데이트를 설치 하거나 장치를 자동으로 다시 부팅 하지 않습니다. 그러나 시스템은 업데이트를 다운로드 하 고 다음 번 다시 부팅 하 여 설치할 때까지 기다립니다. 다른 사용자가 수동으로 다시 부팅 하지 않는 한, 자동으로 야간 부팅 하는 경우 설치가 이루어집니다. Windows 업데이트는 채팅방에서 투명 해야 하며, Windows 업데이트에 의해 UI가 중단 되어서는 안 됩니다.
+
+도메인 참가를 선택 하는 경우 SCCM 또는 WSUS를 사용 하 고, 장치에서 업데이트를 설치 하거나 비즈니스 시간 동안 다시 부팅 하도록 할 수 있는 정책 또는 작업에 특별히 주의를 기울여야 합니다. 배포에 시스템을 다시 부팅 하거나 UI를 통해 Windows 업데이트에 대 한 경고를 받은 경우에는 구성을 확인 하는 것이 더 필요 합니다.
