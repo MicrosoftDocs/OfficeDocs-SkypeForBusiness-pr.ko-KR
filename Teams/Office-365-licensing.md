@@ -1,0 +1,60 @@
+---
+title: Microsoft 팀 용 Office 365 라이선스
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.date: 04/16/2018
+ms.topic: reference
+audience: Admin
+ms.service: msteams
+ms.reviewer: ''
+localization_priority: Normal
+search.appverid: MET150
+description: 다양 한 Office 365 라이선스와 Microsoft 팀을 위한 사용자, 그리고이를 사용 하거나 사용 하지 않도록 설정 하는 방법에 대해 알아봅니다.
+ms.custom:
+- NewAdminCenter_Update
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: d2a87feab04e28f2219acc31cce1d4c60a76a530
+ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "36185057"
+---
+<a name="office-365-licensing-for-microsoft-teams"></a><span data-ttu-id="25957-103">Microsoft 팀 용 Office 365 라이선스</span><span class="sxs-lookup"><span data-stu-id="25957-103">Office 365 licensing for Microsoft Teams</span></span>
+========================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+
+<span data-ttu-id="25957-104">다음 Office 365 구독을 통해 팀의 사용자를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="25957-104">The following Office 365 subscriptions enable users for Teams.</span></span>
+
+|<span data-ttu-id="25957-105">중소 기업 계획</span><span class="sxs-lookup"><span data-stu-id="25957-105">Small Business Plans</span></span>  |<span data-ttu-id="25957-106">엔터프라이즈 계획</span><span class="sxs-lookup"><span data-stu-id="25957-106">Enterprise Plans</span></span>  |<span data-ttu-id="25957-107">교육 계획</span><span class="sxs-lookup"><span data-stu-id="25957-107">Education Plans</span></span>  |<span data-ttu-id="25957-108">개발자 계획</span><span class="sxs-lookup"><span data-stu-id="25957-108">Developer Plans</span></span> |
+|---------|---------|---------|---------|
+|<span data-ttu-id="25957-109">Office 365 비즈니스 주요 기능</span><span class="sxs-lookup"><span data-stu-id="25957-109">Office 365 Business Essentials</span></span>     |<span data-ttu-id="25957-110">Office 365 Enterprise E1</span><span class="sxs-lookup"><span data-stu-id="25957-110">Office 365 Enterprise E1</span></span>  |<span data-ttu-id="25957-111">Office 365 교육</span><span class="sxs-lookup"><span data-stu-id="25957-111">Office 365 Education</span></span> |<span data-ttu-id="25957-112">Office 365 개발자</span><span class="sxs-lookup"><span data-stu-id="25957-112">Office 365 Developer</span></span>     |
+|<span data-ttu-id="25957-113">Office 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="25957-113">Office 365 Business Premium</span></span>     |<span data-ttu-id="25957-114">Office 365 Enterprise E3</span><span class="sxs-lookup"><span data-stu-id="25957-114">Office 365 Enterprise E3</span></span>         |<span data-ttu-id="25957-115">Office 365 교육 플러스</span><span class="sxs-lookup"><span data-stu-id="25957-115">Office 365 Education Plus</span></span>         |      |
+|<span data-ttu-id="25957-116">비즈니스용 Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="25957-116">Microsoft 365 for business</span></span>     |<span data-ttu-id="25957-117">Office 365 Enterprise E4 (사용 중지)</span><span class="sxs-lookup"><span data-stu-id="25957-117">Office 365 Enterprise E4 (retired)</span></span>         |<span data-ttu-id="25957-118">Office 365 교육 E3 (사용 중지)</span><span class="sxs-lookup"><span data-stu-id="25957-118">Office 365 Education E3 (retired)</span></span>         |  |
+|     |<span data-ttu-id="25957-119">Office 365 Enterprise E5</span><span class="sxs-lookup"><span data-stu-id="25957-119">Office 365 Enterprise E5</span></span>         |<span data-ttu-id="25957-120">Office 365 교육 E5</span><span class="sxs-lookup"><span data-stu-id="25957-120">Office 365 Education E5</span></span>  | 
+|     |<span data-ttu-id="25957-121">Office 365 Enterprise F1</span><span class="sxs-lookup"><span data-stu-id="25957-121">Office 365 Enterprise F1</span></span> |    |     | 
+
+<span data-ttu-id="25957-122">팀을 가져오는 방법에 대 한 자세한 내용은 [Microsoft 팀에 대 한 액세스 권한을 얻는 방법](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b) 확인을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="25957-122">For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="25957-123">비영리 조직에 대해서도 팀을 이용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="25957-123">Teams is also available for non-profit organizations.</span></span> <span data-ttu-id="25957-124">팀은 2006 년 7 월 17 일에 미국 정부 클라우드 커뮤니티 (GCC)에 대 한 롤아웃을 시작 하며 8 월 2018 끝에 모든 적격 고객에 게 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="25957-124">Teams will begin rolling out for the US Government Cloud Community (GCC) on July 17 and be available for all eligible customers by the end of August 2018.</span></span> <span data-ttu-id="25957-125">Microsoft 팀을 다른 미국 정부 클라우드 (GCC High 및 DoD)로 가져올 예정입니다.</span><span class="sxs-lookup"><span data-stu-id="25957-125">We are working to bring Microsoft Teams to the other US government clouds (GCC High and DoD) coming soon.</span></span> <span data-ttu-id="25957-126">Microsoft 팀 블로그에서 자세히 보기를 참조 [](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)하세요.</span><span class="sxs-lookup"><span data-stu-id="25957-126">Read more in the Microsoft Teams blog [here](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="25957-127">2018 년 10 월 1 일부 터 500의 일부를 포함 하는 새 Office 365 고객은 팀에 onboarded 비즈니스용 Skype Online에 대 한 액세스 권한을 가질 수 없게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="25957-127">Starting October 1, 2018, new Office 365 customers with 500 seats or less will be onboarded to Teams and will not have access to Skype for Business Online.</span></span> <span data-ttu-id="25957-128">이미 비즈니스용 Skype Online을 사용 하는 테 넌 트가 팀으로 전환할 때까지 계속 진행 (새 사용자 프로 비전 포함) 할 수 있게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="25957-128">Tenants that are already using Skype for Business Online will be able to continue doing so (including provisioning new users) until they complete their transition to Teams.</span></span> <span data-ttu-id="25957-129">자세한 내용은 [지금 Microsoft 팀에서 Office 365의 모임 및 통화에 대 한 기본 클라이언트](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="25957-129">To learn more, see [Microsoft Teams now the primary client for meetings and calling in Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).</span></span>
+        
+<span data-ttu-id="25957-130">팀 핵심 기능 측면에서 Office 365 구독 간에는 차이점이 없습니다.</span><span class="sxs-lookup"><span data-stu-id="25957-130">In terms of Teams core functionalities, there are no differences between the  Office 365 subscriptions.</span></span> <span data-ttu-id="25957-131">준수 기능의 사용 가능성은 올바른 구독 수준에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="25957-131">The availability of the compliance capabilities does rely on the correct subscription level.</span></span> <span data-ttu-id="25957-132">자세한 내용은 [팀의 보안 및 규정 준수 개요](security-compliance-overview.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="25957-132">To learn more, read [Overview of security and compliance in Teams](security-compliance-overview.md).</span></span> <span data-ttu-id="25957-133">각 구독에서 사용할 수 있는 자세한 기능 목록은 [Office 365 플랫폼 서비스 설명을](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="25957-133">For a detailed list of features available in each subscription, see the [Office 365 Platform Service Description](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).</span></span>
+
+<span data-ttu-id="25957-134">**클라우드 음성 기능**: 오디오 회의의 경우 조직에서 전화 접속 모임을 설정 하는 각 사용자에 게 오디오 회의 라이선스를 구입 하 여 할당 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="25957-134">**Cloud voice features**: For Audio Conferencing, your organization will need to buy and assign an Audio Conferencing license to each user who will be setting up dial-in meetings.</span></span> <span data-ttu-id="25957-135">통화 요금제의 경우 각 사용자는 전화 시스템에 국내 또는 국내 및 국제 통화 요금제가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="25957-135">For Calling Plans, each user will need a Phone System plus a Domestic or Domestic and International Calling Plan.</span></span> <span data-ttu-id="25957-136">자세히 알아보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="25957-136">To learn more, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</span></span>
+
+<span data-ttu-id="25957-137">지원 되는 모든 구독 계획은 팀 웹 클라이언트, 데스크톱 클라이언트 및 모바일 앱에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="25957-137">All supported subscription plans are eligible for access to the Teams web client, desktop clients, and mobile apps.</span></span>
+
+<span data-ttu-id="25957-138">독립 실행형 서비스로 팀을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="25957-138">Teams isn't available as a standalone service.</span></span>
+
+> [!TIP]
+> <span data-ttu-id="25957-139">사용자 수준 라이선스를 관리 하려면 [Microsoft 팀에 대 한 사용자 액세스 관리](user-access.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="25957-139">To manage user-level licensing, see [Manage user access to Microsoft Teams](user-access.md).</span></span>
