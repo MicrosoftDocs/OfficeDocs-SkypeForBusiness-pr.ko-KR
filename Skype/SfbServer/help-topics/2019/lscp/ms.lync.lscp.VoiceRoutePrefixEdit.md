@@ -1,0 +1,29 @@
+---
+title: 접두사 편집
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.VoiceRoutePrefixEdit
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
+ROBOTS: NOINDEX, NOFOLLOW
+description: 접두사 또는 시작 번호를 정의 하려면 필요한 경우 +를 포함 하 여이 경로가 처리 해야 하는 숫자 접두사를 추가 합니다. 예를 들어 + 123부터 모든 숫자를 비교할 수 있습니다.
+ms.openlocfilehash: 537884e44b5683a4dd9b83c9f2c0aa02c39e091f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "36196464"
+---
+# <a name="prefix-edit"></a><span data-ttu-id="00ba6-104">접두사 편집</span><span class="sxs-lookup"><span data-stu-id="00ba6-104">Prefix Edit</span></span>
+ 
+<span data-ttu-id="00ba6-105">접두사 또는 시작 번호를 정의 하려면 필요한 경우 +를 포함 하 여이 경로가 처리 해야 하는 숫자 접두사를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="00ba6-105">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary.</span></span> <span data-ttu-id="00ba6-106">예를 들어 + 123부터 모든 숫자를 비교할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="00ba6-106">For example, you can match all numbers starting with +123.</span></span>
+  
+ 
+  
+
