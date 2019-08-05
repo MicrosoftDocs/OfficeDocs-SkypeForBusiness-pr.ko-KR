@@ -1,0 +1,41 @@
+---
+title: tblLastChatId
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+ms.date: 3/9/2015
+audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
+description: tblLastChatId에는 각 사용자에 대해 생성 된 마지막 채팅 ID (및 tblChat 테이블에 사용 됨)가 포함 되어 있습니다.
+ms.openlocfilehash: f14d8090fd3252d88ef747de93a987f51870a63b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "36196628"
+---
+# <a name="tbllastchatid"></a>tblLastChatId
+ 
+tblLastChatId에는 각 사용자에 대해 생성 된 마지막 채팅 ID (및 tblChat 테이블에 사용 됨)가 포함 되어 있습니다.
+  
+**열**
+
+|**열**|**유형**|**설명**|
+|:-----|:-----|:-----|
+|nodeID  <br/> |int, null 아님  <br/> |노드 ID (채팅방에만 입력 하세요).  <br/> |
+|lastChatID  <br/> |bigint, null이 아님  <br/> |마지막으로 사용한 채팅 ID.  <br/> |
+   
+**핵심**
+
+|**열**|**설명**|
+|:-----|:-----|
+|\<nodeID, lastChatID\>  <br/> |기본 키 (nodeID만 처리에 충분 합니다.)  <br/> |
+|nodeID  <br/> |NodeID 테이블에 조회를 포함 하는 외래 키입니다.  <br/> |
+   
+## <a name="see-also"></a>참고 항목
+
+[tblChat](tblchat.md)
