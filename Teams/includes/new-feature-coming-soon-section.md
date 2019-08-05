@@ -1,0 +1,1 @@
+이 기능은 아직 출시 되지 않았습니다. 발표 되었으며 곧 제공 될 예정입니다.관리자 인 경우 [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home)의 메시지 센터에서이 기능을 언제 릴리스할 것인지 확인할 수 있습니다.

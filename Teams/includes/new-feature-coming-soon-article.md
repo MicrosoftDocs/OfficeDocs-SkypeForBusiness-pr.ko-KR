@@ -1,0 +1,1 @@
+이 문서에서는 아직 출시 되지 않은 Microsoft 팀 기능에 대해 설명 합니다. 발표 되었으며 곧 제공 될 예정입니다.관리자 인 경우 [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home)의 메시지 센터에서이 기능을 언제 릴리스할 것인지 확인할 수 있습니다. 예정 된 팀 기능을 계속 유지 하려면 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)확인 하세요.

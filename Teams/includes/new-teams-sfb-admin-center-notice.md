@@ -1,0 +1,1 @@
+새로운 Microsoft 팀 관리 센터는 여기에 있습니다! 2018 년 3 월부터 시작 해 서 현재 비즈니스용 Skype 관리 센터와 Microsoft 365 관리 센터의 Microsoft 팀 환경에서 설정으로 점진적으로 마이그레이션을 진행 했습니다. 설정이 마이그레이션된 경우 알림이 표시 되 고 새 Microsoft 팀 관리 센터에서 해당 설정의 위치로 리디렉션됩니다. 자세한 내용은 [새 Microsoft 팀 관리 센터로 전환 하는 동안 팀 관리](../manage-teams-skypeforbusiness-admin-center.md)를 참조 하세요.
