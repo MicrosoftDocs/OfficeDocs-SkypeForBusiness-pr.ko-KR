@@ -1,0 +1,59 @@
+---
+title: 응답 그룹 큐
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+ms.date: 11/17/2018
+audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.RgsQueueMain
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
+description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성 됩니다. 응답 그룹 큐는 상담원이 전화에 대답할 때까지 응답 그룹에 대 한 통화를 보류 합니다.
+ms.openlocfilehash: d1cfc4a1913c1d7f9cd54086108eb161a57db2cf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "36192060"
+---
+# <a name="response-groups-queue"></a>응답 그룹 큐
+
+응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성 됩니다. 응답 그룹 큐는 상담원이 전화에 대답할 때까지 응답 그룹에 대 한 통화를 보류 합니다.
+
+**응답 그룹** - **큐** 페이지에는 조직에 대해 정의 된 모든 응답 그룹 큐의 목록이 표시 됩니다.
+
+## <a name="tasks-you-can-perform"></a>수행할 수 있는 작업
+
+**응답 그룹** - **큐** 페이지에서 다음 작업을 수행할 수 있습니다.
+
+- 새 큐 만들기
+
+- 기존 큐 변경
+
+- 큐 삭제
+
+## <a name="ui-reference"></a>UI 참조
+
+다음 목록에서는 페이지의 명령에 대해 설명합니다.
+
+- **새로운** 새 큐를 시작 합니다.
+
+- **편집** 선택한 큐를 열어 편집 하거나 목록의 모든 큐를 선택 하거나 선택한 큐를 삭제 합니다.
+
+- **새로 고침** 큐 목록을 새로 고칩니다.
+
+다음 목록에서는 페이지의 필드에 대해 설명합니다.
+
+- **이름** 큐를 식별 하는 고유 이름입니다.
+
+- **서비스** 큐를 호스트 하는 **Applicationserver** 서비스입니다.
+
+- **설명** 큐에 대 한 설명입니다.
+
+응답 그룹 기능 및 기능에 대 한 자세한 내용은 계획 설명서의 [비즈니스용 Skype 서버 2015에서 응답 그룹 응용 프로그램 계획](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 을 참조 하세요. 응답 그룹 큐 작업에 대 한 자세한 내용은 작업 설명서의 [응답 그룹 큐 관리](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) 를 참조 하세요.
+
+

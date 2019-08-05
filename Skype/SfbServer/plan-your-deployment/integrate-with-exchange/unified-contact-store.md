@@ -1,0 +1,45 @@
+---
+title: 비즈니스용 Skype 서버에서 통합 된 연락처 저장소에 대 한 계획
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+ms.date: 6/8/2017
+audience: ITPro
+ms.topic: conceptual
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: IT_Skype16
+ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
+description: '요약: 비즈니스용 Skype 서버를 Exchange 2013와 통합할 계획을 진행 하는 동안이 항목을 검토 하세요.'
+ms.openlocfilehash: 4548773c382b4295ddfbfa141f18f0df8ba367ae
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "36196879"
+---
+# <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 통합 연락처 저장소 계획
+ 
+**요약:** 비즈니스용 Skype 서버와 Exchange 2013 또는 2016을 통합 하기 위해 계획 하는 동안이 항목을 검토 하세요.
+  
+통합 된 대화 상대 저장소는 모든 Microsoft Office 제품에서 일관적인 연락처 환경을 제공 하 고, 사용자가 Exchange 2013에 모든 연락처 정보를 저장할 수 있도록 하 고, 비즈니스용 Skype, Exchange, Outlook에서 전체적으로 정보를 사용할 수 있도록 합니다. 및 Outlook Web Access.
+  
+## <a name="requirements-for-unified-contact-store"></a>통합 연락처 저장소 요구 사항
+
+비즈니스용 Skype 서버에서 통합 된 연락처 저장소를 구현 하려면 다음을 수행 합니다.
+  
+- 비즈니스용 Skype 서버 및 Exchange 2013 또는 2016을 실행 중 이어야 합니다.
+    
+- Skype for Business Server에서 Exchange 2013 또는 2016으로 연락처를 마이그레이션하려면 사용자는 비즈니스용 Skype를 사용 해야 합니다.
+    
+- 사용자 사서함은 Exchange 2013으로 마이그레이션해야 합니다.
+    
+- 비즈니스용 Skype Server와 Exchange 2013 또는 2016 간에 서버 간 인증이 구성 되어 있어야 합니다.
+    
+    > [!NOTE]
+    > 비즈니스용 Skype 서버와 Exchange 2013 또는 2016 간의 인증 설정에 대 한 자세한 요구 사항은 작업의 비즈니스용 [Skype 서버에서 OAuth (서버 간 인증) 및 파트너 응용 프로그램 관리](../../manage/authentication/server-to-server-and-partner-applications.md) 를 참조 하세요. 참조.
+  
+## <a name="see-also"></a>참고 항목
+
+[비즈니스용 Skype 서버에서 통합 된 연락처 저장소 배포](../../deploy/deploy-unified-contact-store.md)
