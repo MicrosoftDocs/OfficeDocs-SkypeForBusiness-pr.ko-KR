@@ -1,6 +1,6 @@
 ---
 title: Microsoft 팀 문제 해결에서 로그 파일 사용
-ms.reviewer: ''
+ms.reviewer: tejeshs
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 생성 하는 디버그, 미디어, 데스크톱 로그, 찾을 수 있는 위치, 문제 해결에 도움이 되는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5e670ffb90c91735578668bc42d1622386a0613
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 2d210c5c2e3e2d9b3b3757c2945c504296f00788
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "36184067"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207137"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft 팀 문제 해결에서 로그 파일 사용
 =================================================

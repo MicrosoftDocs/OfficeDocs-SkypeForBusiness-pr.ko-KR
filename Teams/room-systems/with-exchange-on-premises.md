@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: Exchange 온-프레미스를 사용 하는 하이브리드 환경에서 Microsoft 팀 대화방을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 7e855ece643d3412047b4d01a9250b17f699ac98
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a16b56c6886215f46ca40a7898353af010c840b3
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182321"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207146"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Exchange와 함께 Microsoft 팀 대화방 배포 (온-프레미스)
 
@@ -141,7 +141,13 @@ Exchange를 사용 하 여 Microsoft 팀 회의실을 구내에 배포 하는 �
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. Microsoft 팀 대화방 계정을 사용 하도록 설정 하려면 다음 명령을 실행 합니다.
+2. 계정의 SIP 주소 받기:
+
+  ``` Powershell
+   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+   ```
+
+3. Microsoft 팀 대화방 계정을 사용 하도록 설정 하려면 다음 명령을 실행 합니다.
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress

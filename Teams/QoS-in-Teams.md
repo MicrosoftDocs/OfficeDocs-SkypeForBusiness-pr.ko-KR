@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2344494ed853a992f205b6bdcfd4d702136f99
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: 0f6a48f11dafaff0bc0435e4a01561824c212936
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "36185039"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207175"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft 팀에서 QoS (서비스 품질) 구현
 
@@ -101,7 +101,7 @@ DSCP 값은 패킷 또는 스트림에 제공 되는 우선 순위 (dscp 표시�
 
 다양 한 실시간 스트리밍 작업의 포트 범위에 대 한 상대적 크기는 해당 작업 부하 전용의 총 사용 가능 대역폭의 비율을 설정 합니다. 앞에서 설명한 우편으로 돌아가려면 "Air Mail" 스탬프가 있는 문자는 1 시간 내에 가장 가까운 공항으로, "대량 메일" 표시로 표시 된 작은 패키지는 여러 개의 트럭을 통해 여행 하기 전에 하루 동안 대기할 수 있습니다.
 
-다음 표에서는 Express 경로를 사용 하는 팀의 필수 DSCP 표시와 작업 대기열에 연결 된 포트를 보여줍니다. 이러한 범위는 자신의 환경에서 사용할 사항을 모르는 고객을 위한 좋은 출발점으로 사용할 수 있습니다. 자세한 내용은 [express의 QoS 요구 사항](https://docs.microsoft.com/azure/expressroute/expressroute-qos)읽기를 참고 하세요.
+다음 표에서는 필요한 DSCP 표식 및 제안 된 적절 한 미디어 포트 범위를 팀과 Express에서 모두 사용 하는 방법을 보여 줍니다. 이러한 범위는 자신의 환경에서 사용할 사항을 모르는 고객을 위한 좋은 출발점으로 사용할 수 있습니다. 자세한 내용은 [express의 QoS 요구 사항](https://docs.microsoft.com/azure/expressroute/expressroute-qos)읽기를 참고 하세요.
 
 _권장 되는 초기 포트 범위_
 

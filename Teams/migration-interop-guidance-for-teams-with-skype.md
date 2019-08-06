@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5be7788c8df2247aa33b5c30111808e3606326a6
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: e6656cab6918cfa0b04da28f0197137a300bbf79
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "36184106"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207195"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>비즈니스용 Skype로 팀을 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침
 
@@ -162,7 +162,7 @@ TeamsUpgradePolicy는 들어오는 페더레이션된 채팅 및 통화에 대 �
 
 |모드|볼|
 |---|---|
-|**분리**</br>기본값|사용자가 비즈니스용 Skype와 팀을 함께 실행 합니다. 사용자:</br><ul><li>비즈니스용 Skype 또는 팀 클라이언트에서 채팅 및 VoIP 통화를 시작할 수 있습니다. 참고: 받는 사람 모드에 관계 없이 비즈니스용 Skype를 사용 하는 사용자가 다른 비즈니스용 Skype 사용자에 게 연결 하도록 초기화할 수 없습니다.<li>비즈니스용 skype 클라이언트의 다른 사용자가 비즈니스용 Skype에서 시작한 채팅 & VoIP 통화를 받습니다.<li>팀에서 시작한 채팅 & VoIP 통화를 팀 클라이언트의 다른 사용자가 *동일한 테 넌 트*에 있는 경우이를 받습니다.<li>다른 사용자가 *페더레이션된 테 넌 트*를 사용 하는 경우 비즈니스용 Skype 클라이언트에서 팀에서 시작한 채팅 & VoIP 통화를 받습니다. <li>아래에 명시 된 대로 PSTN 기능을가지고 있습니다.<ul><li>사용자가 비즈니스용 Skype 온-프레미스에 있고 Enterprise Voice를 사용 하는 경우 항상 비즈니스용 Skype에서 PSTN 통화가 시작 되 고 수신 됩니다.<li>사용자가 비즈니스용 Skype Online에 있고 Microsoft 전화 시스템을 사용 하는 경우, 사용자는 항상 비즈니스용 Skype에서 PSTN 통화를 시작 하 고 받습니다.<ul><li>이 작업은 사용자에 게 Microsoft 호출 계획이 있는지 여부에 관계 없이 또는 비즈니스용 skype 클라우드 커넥터 에디션을 통해 PSTN 네트워크에 연결 하거나 비즈니스용 Skype 서버 (하이브리드 voice)의 온-프레미스 배포를 통해 수행 됩니다.<li>참고: Microsoft 팀 전화 시스템 다이렉트 라우팅은 군도 모드에서 지원 되지 않습니다.</ul></ul><li>• 비즈니스용 Skype에서 Microsoft 통화 대기열 및 자동 전화 교환 전화 받기<li>팀 또는 비즈니스용 Skype에서 모임을 예약할 수 있습니다 (기본적으로 두 플러그 인이 표시 됨).<li>비즈니스용 Skype 또는 팀 모임에 참가할 수 있습니다. 모임이 해당 클라이언트에 열립니다.</ul>|
+|**분리**</br>기본값|사용자가 비즈니스용 Skype와 팀을 함께 실행 합니다. 사용자:</br><ul><li>비즈니스용 Skype 또는 팀 클라이언트에서 채팅 및 VoIP 통화를 시작할 수 있습니다. 참고: 받는 사람 모드에 관계 없이 비즈니스용 Skype를 사용 하는 사용자가 다른 비즈니스용 Skype 사용자에 게 연결 하도록 초기화할 수 없습니다.<li>비즈니스용 skype 클라이언트의 다른 사용자가 비즈니스용 Skype에서 시작한 채팅 & VoIP 통화를 받습니다.<li>팀에서 시작한 채팅 & VoIP 통화를 팀 클라이언트의 다른 사용자가 *동일한 테 넌 트*에 있는 경우이를 받습니다.<li>다른 사용자가 *페더레이션된 테 넌 트*를 사용 하는 경우 비즈니스용 Skype 클라이언트에서 팀에서 시작한 채팅 & VoIP 통화를 받습니다. <li>아래에 명시 된 대로 PSTN 기능을가지고 있습니다.<ul><li>사용자가 비즈니스용 Skype 온-프레미스에 있고 Enterprise Voice를 사용 하는 경우 항상 비즈니스용 Skype에서 PSTN 통화가 시작 되 고 수신 됩니다.<li>사용자가 비즈니스용 Skype Online에 있고 Microsoft 전화 시스템을 사용 하는 경우, 사용자는 항상 비즈니스용 Skype에서 PSTN 통화를 시작 하 고 받습니다.<ul><li>이 작업은 사용자에 게 Microsoft 호출 계획이 있는지 여부에 관계 없이 또는 비즈니스용 skype 클라우드 커넥터 에디션을 통해 PSTN 네트워크에 연결 하거나 비즈니스용 Skype 서버 (하이브리드 voice)의 온-프레미스 배포를 통해 수행 됩니다.<li>**참고: Microsoft 팀 전화 시스템 다이렉트 라우팅은 군도 모드에서 지원 되지 않습니다.**</ul></ul><li>비즈니스용 Skype에서 Microsoft 통화 대기열 및 자동 전화 교환 전화를 받습니다.<li>팀 또는 비즈니스용 Skype에서 모임을 예약할 수 있습니다 (기본적으로 두 플러그 인이 표시 됨).<li>비즈니스용 Skype 또는 팀 모임에 참가할 수 있습니다. 모임이 해당 클라이언트에 열립니다.</ul>|
 |**SfBOnly**|사용자가 비즈니스용 Skype만 실행 합니다. 사용자:</br><ul><li>비즈니스용 Skype 에서만 채팅 및 통화를 시작할 수 있습니다.<li>개시자가 비즈니스용 Skype를 사용 하는 팀 사용자가 아닌 경우, 시작 위치에 관계 없이 비즈니스용 Skype 클라이언트에서 채팅/통화를 받습니다. *비즈니스용 skype 모임만 예약할 수 있지만 비즈니스용 skype 또는 팀 모임에 참가할 수 있습니다. <li> </br> *온-프레미스 사용자와의 아일랜드 모드는 SfBOnly 모드의 다른 사용자와 함께 사용 하지 않는 것이 좋습니다. 비즈니스용 Skype를 사용 하는 팀 사용자가 SfBOnly 사용자에 게 전화를 걸거나 채팅을 시작 하는 경우 SfBOnly 사용자에 게 연결할 수 없으며 부재 중 채팅/통화 이메일이 수신 됩니다. *|
 |**SfBWithTeamsCollab**|사용자가 비즈니스용 Skype와 팀을 함께 실행 합니다. 사용자:</br><ul><li>SfBOnly 모드에서 사용자의 기능을 사용 합니다.<li>팀에 그룹 공동 작업 (채널)만 사용 하도록 설정 되어 있습니다. 채팅/통화/모임 예약을 사용할 수 없습니다.</ul>|
 |**SfBWithTeamsCollab</br>andmeetings**|사용자가 비즈니스용 Skype와 팀을 함께 실행 합니다. 사용자:<ul><li>SfBOnly 모드에서 사용자의 채팅 및 통화 기능을 사용 합니다.<li>그룹 공동 작업에 사용할 수 있는 팀 (채널 대화 포함)이 있습니다. 채팅 및 통화는 사용할 수 없습니다.<li>팀 모임만 예약할 수 있지만 비즈니스용 Skype 또는 팀 모임에 참가할 수 있습니다.</ul>|

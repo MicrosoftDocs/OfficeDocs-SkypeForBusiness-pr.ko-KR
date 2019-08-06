@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에서 클라우드 자동 전화 교환 사용 개요
-ms.openlocfilehash: 1a5f1aad4cd983f1f3839f47c54404d168ecf7f0
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 635d9c6548ba807153876d63ad228f69646e93c8
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "36185538"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207036"
 ---
 # <a name="plan-cloud-auto-attendants"></a>클라우드 자동 전화 교환 계획
 
@@ -56,14 +56,14 @@ Exchange 통합 메시징에 사용 되는 자동 전화 교환 (Exchange Server
    자세한 내용은 비즈니스용 [Skype 서버 및 office 365 하이브리드 연결 계획](plan-hybrid-connectivity.md) 을 참조 하 고 비즈니스용 [Skype 서버와 office 365의 하이브리드 연결을 구성](configure-hybrid-connectivity.md)합니다.
 
 - 자동 전화 교환에 전화 번호를 할당 하는 경우에는 [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) 라이선스가 필요 합니다.
-- 각 자동 전화 교환에 대 한 온-프레미스 [리소스 계정을](/MicrosoftTeams/manage-resource-accounts.md) 만들고 전화 번호와 라이선스를 할당 합니다. 
+- 각 자동 전화 교환에 대해 온라인 [리소스 계정](/MicrosoftTeams/manage-resource-accounts.md) 또는 온-프레미스 [리소스 계정을](configure-onprem-ra.md)만들고 전화 번호와 라이선스를 할당 합니다. 
 
 ## <a name="migration-and-interoperability"></a>마이그레이션 및 상호 운용성
 
 비즈니스용 Skype 서버 2019 및/또는 Exchange Server 2019을 배포 하려는 경우, 자동 전화 교환을 계속 지원 하도록 마이그레이션을 신중 하 게 계획 해야 합니다. 다음 사항에 유의 하세요.
 
 - Exchange Server 2019에서 더 이상 Exchange UM 기능을 제공 하지 않음
-- Exchange 통합 메시징 온라인 상태가 만료 모드입니다.
+- Exchange 통합 메시징이 만료 모드입니다.
 - 비즈니스용 Skype 서버 2019이 더 이상 Exchange Online UM과 통합 되지 않음
 
 클라우드 자동 전화 교환는 비즈니스용 Skype 서버 2019, 2015 및 2013으로 구성할 수 있습니다.
@@ -91,7 +91,7 @@ Microsoft는 다음 마이그레이션 경로를 권장 합니다.
 
 ## <a name="additional-planning-resources"></a>추가 계획 리소스
 
-사용자 요구에 대 한 정보를 수집 하는 프로세스, 자동 전화 교환 및 사용자의 구조 계획, 메뉴 프롬프트를 작성 하는 등의 간단한 비즈니스와 같은 자습서에서 [자동 전화 교환을 설정](/microsoftteams/tutorial-org-aa) 하면 온라인 관리 센터에서 계획을 구현 합니다. 자습서를 검토 하 고 연습을 사용 하 여 계획을 만듭니다.
+사용자 요구에 대 한 정보를 수집 하는 프로세스, 자동 전화 교환 및 사용자의 구조 계획, 메뉴 프롬프트를 작성 하는 등의 간단한 비즈니스와 같은 자습서에서 [자동 전화 교환을 설정](/microsoftteams/tutorial-org-aa) 하면 팀 관리 센터에서 계획을 구현 합니다. 자습서를 검토 하 고 연습을 사용 하 여 계획을 만듭니다.
 
 사용자의 요구에 맞는 솔리드 구조와 고객을 효율적으로 안내 하는 스크립트를 사용 하는 경우 [리소스 계정 구성을](configure-onprem-ra.md)진행 합니다.
 
