@@ -1,1 +1,1 @@
-<span data-ttu-id="b3182-101">기능을 관리 하는 방법을 업데이트 하는 경우가 자주 있으므로이 단계가 표시 되는 것과 약간 다를 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b3182-101">We are frequently updating how you can manage features, so the steps here might be a little different from what you see.</span></span>
+<span data-ttu-id="8f31a-101">기능을 관리 하는 방법을 업데이트 하는 경우가 자주 있으므로이 단계가 표시 되는 것과 약간 다를 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8f31a-101">We are frequently updating how you can manage features, so the steps here might be a little different from what you see.</span></span>
