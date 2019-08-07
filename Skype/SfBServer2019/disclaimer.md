@@ -1,2 +1,0 @@
-> [!NOTE]
-> <span data-ttu-id="615b5-101">이 페이지에서는 릴리스 전에 대폭 변경 될 수 있는 시험판 소프트웨어에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="615b5-101">This page describes pre-release software that may change substantially before it is released.</span></span> <span data-ttu-id="615b5-102">모든 스크린 샷을 개체 틀 이라고 하며, 표시 되는 모양과 다를 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="615b5-102">Any screen shots are placeholders and may look different than what you see.</span></span> 
