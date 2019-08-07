@@ -12,10 +12,10 @@ localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: Enter-CcUpdate cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버를 유지 관리 모드로 전환 하 여 해당 버전의 업데이트 프로세스를 준비 합니다. 기기는 즉시 모든 서비스를 중지 하 고, 진행 중인 통화를 종료 하 고, 새로운 통화를 거부 합니다.
 ms.openlocfilehash: 3ff4c1543e3e882a7ccbaf0b9a216ce902a77c5f
-ms.sourcegitcommit: 04c819504e23f9e3a618b57d54411ffb83888fb9
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36197824"
 ---
 # <a name="enter-ccupdate"></a>입력-CcUpdate

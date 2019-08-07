@@ -26,10 +26,10 @@ ms.custom:
 - Calling Plans
 description: 다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 일본에서 사용할 수 있는 Microsoft 팀입니다.
 ms.openlocfilehash: 946a5f6cb5989b7bd9773ba34a0d62e19e2bb479
-ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184790"
 ---
 # <a name="availability-in-japan"></a>일본의 사용 가능 여부

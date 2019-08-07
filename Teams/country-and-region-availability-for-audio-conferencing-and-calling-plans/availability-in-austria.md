@@ -26,10 +26,10 @@ ms.custom:
 - Calling Plans
 description: 다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 오스트리아에서 사용할 수 있는 Microsoft 팀입니다.
 ms.openlocfilehash: 88efe30018a5724ea901e1e1b456b86c74ff4393
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36183236"
 ---
 # <a name="availability-in-austria"></a>오스트리아에서 사용 가능

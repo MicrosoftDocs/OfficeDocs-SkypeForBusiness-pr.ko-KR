@@ -16,10 +16,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1f2b61361a362837314a3cd60bd87da21752df94
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184925"
 ---
 # <a name="quality-of-experience-review-guide"></a>경력 품질 검토 가이드

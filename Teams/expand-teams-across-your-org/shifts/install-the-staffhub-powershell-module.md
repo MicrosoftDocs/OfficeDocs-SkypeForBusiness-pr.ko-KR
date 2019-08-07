@@ -15,10 +15,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2dc7c97a3c8107de3c2515a8f112bbc1993e3d8f
-ms.sourcegitcommit: d4ebbebd5e4bfac27280bdc043fc6edd0722d1d7
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184535"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell 모듈 설치

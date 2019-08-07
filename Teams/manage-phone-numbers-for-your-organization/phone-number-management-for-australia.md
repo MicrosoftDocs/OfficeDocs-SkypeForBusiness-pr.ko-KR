@@ -20,10 +20,10 @@ ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 Microsoft 팀의 오스트레일리아에서 전화 번호를 받고 관리 하는 방법에 대 한 정보를 확인 하세요.
 ms.openlocfilehash: 48858b16694c6129b87847bb4d93c513b63e5f4d
-ms.sourcegitcommit: f26bb86d38c3b45a82e6d77c5aa521360a81ee9b
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184679"
 ---
 # <a name="phone-number-management-for-australia"></a>오스트레일리아 용 전화 번호 관리

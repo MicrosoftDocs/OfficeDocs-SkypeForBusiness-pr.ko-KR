@@ -17,10 +17,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e375452e236e38e036a5fe2413ba0848845587ab
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36181286"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 Url 및 IP 주소 범위

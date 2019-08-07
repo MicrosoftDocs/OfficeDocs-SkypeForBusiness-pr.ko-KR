@@ -12,10 +12,10 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 비즈니스용 Skype Server 또는 Lync 2013에 대 한 업데이트를 찾고 관리 합니다. 링크를 사용 하 여 자세한 정보를 확인 한 다음 업데이트를 다운로드 하세요.
 ms.openlocfilehash: 121c91b4882eb7509dfd19ca2c6261720a4e7fc3
-ms.sourcegitcommit: bf32af175fca0aa64af935e65d0fa261803f04a9
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36197984"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>비즈니스용 Skype 다운로드 및 업데이트

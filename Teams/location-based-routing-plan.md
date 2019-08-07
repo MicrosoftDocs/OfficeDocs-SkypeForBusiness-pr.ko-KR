@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0188afc5201fba6b2fd382be6eca57b987e37644
-ms.sourcegitcommit: 60c868155c7709df35fad23a41330483f8b59fee
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36185021"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅에 대 한 위치 기반 라우팅 계획

@@ -17,10 +17,10 @@ f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e82506a78f907192a43eaf08d5d7d47841ebc1a4
-ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184748"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 설정

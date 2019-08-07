@@ -24,10 +24,10 @@ ms.custom:
 - Calling Plans
 description: 조직의 Microsoft 팀에 대 한 전화 번호를 가져오고 관리 하는 방법에 대해 알아봅니다.
 ms.openlocfilehash: af8586ecfd96ee75105fe7fcec6cf575dbc9f1e3
-ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184784"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>조직의 전화 번호 관리

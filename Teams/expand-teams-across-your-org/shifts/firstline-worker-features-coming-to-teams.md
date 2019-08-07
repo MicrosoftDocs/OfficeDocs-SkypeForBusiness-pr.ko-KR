@@ -13,10 +13,10 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6d4b27e6238f4632179ff6344dac6daff5189f2e
-ms.sourcegitcommit: 6d5f09acdcdc8d5a36f7ac785349209e7496f17d
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184049"
 ---
 # <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>Microsoft 팀에 게 곧 출시 되는 firstline Worker 기능

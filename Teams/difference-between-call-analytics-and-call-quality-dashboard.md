@@ -22,10 +22,10 @@ ms.custom:
 - Reporting
 description: 통화 분석 및 통화 품질 대시보드 및이를 사용 하 여 통화 품질 문제를 모니터링 하 고 해결 하는 시기에 대해 알아봅니다.
 ms.openlocfilehash: 535d3bf6ce2abf69143fb270e01bf4f0c2e230dc
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36183749"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>통화 분석 및 통화 품질 대시보드

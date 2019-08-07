@@ -23,10 +23,10 @@ ms.custom:
 - Phone System
 description: 클라우드 자동 전화 교환 방법과 사용 방법에 대해 알아봅니다.
 ms.openlocfilehash: b3541ad88f29727d07043cba46503d040e6434c0
-ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184670"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>클라우드 자동 전화 교환 이란?

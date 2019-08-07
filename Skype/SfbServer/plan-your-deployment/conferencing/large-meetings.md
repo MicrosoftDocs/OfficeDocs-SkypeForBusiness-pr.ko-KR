@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: '요약: 비즈니스용 Skype 서버에서 대규모 모임을 구현 하 고 관리 하는 모범 사례에 대 한 자세한 내용은이 항목을 참조 하세요.'
 ms.openlocfilehash: 136896a45be36508af419d84bc5bd684c9d8a429
-ms.sourcegitcommit: 3678dbbc8c36010fbf12c57b52281ef4fca9f065
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36197822"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 대규모 모임 계획

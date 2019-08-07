@@ -16,10 +16,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: aaed448429bfa5715250eb7cf28488771c1c785c
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36183704"
 ---
 ![업그레이드 여행의 이해 관계자 상태를 보여 주는 그림] (media/upgrade-banner-stakeholders.png "프로젝트 이해 관계자 팀 수집에 대 한 강조를 통해 업그레이드 여행 단계")

@@ -15,10 +15,10 @@ description: IT 관리자는 테 넌 트 수준에서 게스트를 추가 하 �
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0d65060049204f13d32158ba6c21ee18917df154
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184301"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft 팀에서 게스트 액세스 관리

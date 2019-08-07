@@ -14,10 +14,10 @@ appliesto:
 ms.reviewer: acolonna
 description: 사용자는 상태 메시지의 대리인으로 다른 사용자를 명시적으로 설정할 수 있습니다.
 ms.openlocfilehash: 451577ce033f9a67bbc13ebbe2361083ab035e48
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184175"
 ---
 # <a name="message-delegation"></a>메시지 위임

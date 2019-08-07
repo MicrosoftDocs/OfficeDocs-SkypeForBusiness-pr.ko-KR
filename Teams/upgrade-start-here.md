@@ -16,10 +16,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 22d56297c472736df70ac7b794de0ad8b2090b58
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36185264"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Microsoft 팀 업그레이드 시작 하기
