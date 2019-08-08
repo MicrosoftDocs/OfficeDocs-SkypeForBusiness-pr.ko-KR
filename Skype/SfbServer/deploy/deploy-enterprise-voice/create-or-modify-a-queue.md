@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 비즈니스용 Skype Server Enterprise Voice에서 응답 그룹 큐를 만들거나 수정 합니다.
-ms.openlocfilehash: a19385567a40b958d6941ddeac873211fc92cf3e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b58ec9065eea1cc2dd8686b07ea798ac71c460fa
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190425"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233677"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>비즈니스용 Skype에서 큐 만들기 또는 수정
  

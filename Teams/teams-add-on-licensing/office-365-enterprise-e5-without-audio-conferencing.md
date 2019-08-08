@@ -7,7 +7,7 @@ ms.reviewer: mikedav
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Office 365 Enterprise (오디오 회의 없음) 요금제에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다. '
-ms.openlocfilehash: a44196fadc043fa0d82ae2fcecad0ed9659b9d01
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 31cc96a27fed1d7899177de6335b7d93f5b1f341
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182372"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242606"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5 (오디오 회의 없음)
 

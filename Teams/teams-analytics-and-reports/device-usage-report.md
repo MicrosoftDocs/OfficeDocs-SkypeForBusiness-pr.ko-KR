@@ -10,18 +10,18 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Microsoft 팀 관리 센터에서 팀 디바이스 사용 보고서를 사용 하 여 조직의 사용자가 팀에 연결 되는 방식을 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86d8e2dc145aa8538326b42f5110de69542e8453
-ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
+ms.openlocfilehash: 2acdf94ff3c6eb0a8c3df36059c6b7e51af7e805
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36184607"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245000"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft 팀 장치 사용 보고서
 

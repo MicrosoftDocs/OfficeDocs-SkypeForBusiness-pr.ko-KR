@@ -4,8 +4,9 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
@@ -13,12 +14,12 @@ ms.reviewer: lucarras, jakon
 description: Microsoft 팀에서 개인 채팅, 그룹 채팅 및 채널을 위해 인공 지능을 추가 하 고 개인 채팅, 그룹 채팅 및 채널을 위한 자신만의 봇을 업로드 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a5f7ef2d548031528aa41b9fdb75831fe46d36d
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: 1f5f031b01837980897f2c1f8ad5d306e056257b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "36184073"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239479"
 ---
 <a name="add-bots-for-personal-chats-group-chats-and-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채팅, 그룹 채팅 및 채널을 위한 인공 지능 추가
 ==========================================================

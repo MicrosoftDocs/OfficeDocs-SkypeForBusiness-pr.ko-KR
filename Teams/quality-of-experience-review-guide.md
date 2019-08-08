@@ -7,20 +7,21 @@ ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: CQD (통화 품질 대시보드)를 사용 하 여 Microsoft 팀에 대 한 실시간 미디어 성능을 분석 하는 가이드입니다.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f2b61361a362837314a3cd60bd87da21752df94
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: ba3ff4eca48ea8f64f6d50d647c05af4f2c76c1e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184925"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243734"
 ---
 # <a name="quality-of-experience-review-guide"></a>경력 품질 검토 가이드
 

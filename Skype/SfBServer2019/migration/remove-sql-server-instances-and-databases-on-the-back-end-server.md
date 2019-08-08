@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft SQL Server 데이터베이스 및 인스턴스를 제거한 후에는이를 실행 하는 서버를 제거 하거나 다른 데이터베이스를 사용 하도록 서버를 다시 구성한 후에 제거 합니다. 현재 SQL Server를 중지 하거나 현재 서버를 다시 구성 하 여 데이터베이스를 더 이상 사용 하지 않거나 사용할 수 없는 경우에는이 항목의 절차를 수행 해야 합니다.
-ms.openlocfilehash: 2d0902293c675143609dd720cd33734edd538d87
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6c526499e3036c9a10b8dc92ccc519f21ae8bc96
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197172"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244435"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>백 엔드 서버에서 SQL Server 인스턴스 및 데이터베이스 제거
 

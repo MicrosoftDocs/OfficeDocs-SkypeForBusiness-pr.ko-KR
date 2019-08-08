@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 07/09/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 직접 라우팅, 라이선스 및 의사 결정에 대해 알아봅니다.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a2371c72f24b19b9e3c4fe836a59cbc800ad1c4
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: fa92fcf7c30ecd8dfcecb84c3463f70ba13ee7ef
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "36181973"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240810"
 ---
 # <a name="make-my-service-decisions"></a>내 서비스 결정 하기
 

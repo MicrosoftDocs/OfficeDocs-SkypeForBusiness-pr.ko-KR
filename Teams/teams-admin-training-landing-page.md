@@ -4,6 +4,7 @@ ms.reviewer: ''
 description: 조직에서 Microsoft 팀을 관리 하는 데 필요한 교육 받기
 author: lanachin
 manager: serdars
+audience: admin
 ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: ''
@@ -15,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: 40c17d17408f0359ba54204d363234d0b5d91e49
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 673202003bd1a6203b4e4d7ad9059a6fe15ce6ff
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36184577"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242493"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 팀의 관리 교육
 

@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sbhatta
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: IT 관리자는 테 넌 트 수준에서 게스트를 추가 하 고, 게스트 사용자 정책 및 사용 권한을 설정 및 관리 하 고, 게스트를 초대할 수 있는 사용자를 결정 하 고, 게스트 사용자의 보고서를 가져올 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d65060049204f13d32158ba6c21ee18917df154
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: f3ede35352436074cbf7c94fc9df78100a73a017
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184301"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242123"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft 팀에서 게스트 액세스 관리
 ======================================

@@ -7,10 +7,10 @@ ms.reviewer: mikedav, allancar
 ms.topic: article
 ms.assetid: 1094e7b0-eeb5-4fe4-b2c8-5fe6d80ce178
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+audience: admin
+ms.service: msteams
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Fournir des expériences accessibles à tous est cœur de la 임무 de Microsoft,  i consiste à permettre à chaque personne et à chaque Microsoft offre d'accessibilité a Skype Entreprise et Microsoft 팀의 특별 한 nombre de a s'inscrivent dans son 계약 요새 en-us의 모든 포함을 취소 합니다.
-ms.openlocfilehash: d9102a9eba297a0545e94bc04801e28778a05c9c
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: b03ae1bdf2d5d00f946854794ab23344b96e14cf
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "36184559"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239474"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>비즈니스용 Skype Online 및 프랑스의 Microsoft 팀을 위한 접근성 솔루션
 

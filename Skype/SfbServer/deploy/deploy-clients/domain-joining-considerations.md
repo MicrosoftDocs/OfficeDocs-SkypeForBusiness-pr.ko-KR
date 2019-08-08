@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: 이 항목에서는 Skype 채팅방 시스템 기기 PC를 도메인에 참가 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 934b39a0375085e9b8c18022a4526c76a970aca9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2d2af20173708e199c1de5a205218d3295e7e0d3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196401"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234386"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype 채팅방 시스템 도메인 참가 고려 사항
  

@@ -4,16 +4,17 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.topic: get-started-article
+ms.topic: quickstart
+audience: admin
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 업데이트를 마이그레이션하기 전에 환경에 적용 해야 합니다. 최신 정보는에 대 한 업데이트 리소스 센터를 참조 하세요 https://go.microsoft.com/fwlink/p/?linkid=232630.
-ms.openlocfilehash: 880a29e8f08f0d5d3ca5fc8081befee05688491e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ae964eda0dae2cb3a0d0d3c8c5156ee546f46c91
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "36186582"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239751"
 ---
 # <a name="apply-updates"></a>업데이트 적용
 

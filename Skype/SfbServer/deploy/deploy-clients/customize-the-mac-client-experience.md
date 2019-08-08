@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 이 문서에서는 Mac 클라이언트의 비즈니스용 Skype에서 사용할 수 있는 클라이언트 기본 설정 및 기본값과 앱 외부에서이를 편집 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: fa9b809c742a87a7f522ed211406e2b97cbcfe6d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6b343c076d0fd1736cc6974a5c33103f0b6dfcda
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189585"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234447"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>비즈니스용 Skype에서 Mac 클라이언트 환경 사용자 지정
  

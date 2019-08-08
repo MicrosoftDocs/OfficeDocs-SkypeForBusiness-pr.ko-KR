@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: 비즈니스용 Skype Server Enterprise Voice의 네트워크 사이트에 E9-1 위치 정책을 할당 합니다.
-ms.openlocfilehash: 3653811298e7ce5659d4d416798010b3ac427732
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4a74b1ee44d1e2f34a51d7859235e10649d0e2ee
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197779"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234059"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 사이트에 위치 정책 추가
  

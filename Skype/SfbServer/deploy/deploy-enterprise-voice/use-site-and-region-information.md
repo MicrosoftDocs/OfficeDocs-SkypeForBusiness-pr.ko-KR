@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: 비즈니스용 Skype Server Enterprise Voice에서 특정 사이트 및 지역에 대해서만 미디어 바이패스를 사용 하도록 구성 합니다.
-ms.openlocfilehash: 3a9dc907dd516151e8b6ddd509a43b49c87e3b9f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3bfb3dca6e53316d5c1de71abad976ae9223c787
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197152"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240286"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>미디어 구성 비즈니스용 Skype 서버의 전역 설정 무시 사이트 및 지역 정보 사용
  

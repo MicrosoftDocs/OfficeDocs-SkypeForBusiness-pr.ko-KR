@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 보관 서버를 제거 하려면 연결 된 프런트 엔드 풀, 프런트 엔드 서버, Survivable Branch 기기 및 Survivable Branch 서버에 대 한 종속성을 변경 하거나 선택 취소 해야 합니다. 프런트 엔드 풀, 프런트 엔드 서버, Survivable Branch 기기 및 Survivable Branch 서버의 속성을 편집 하 여 종속성을 제거 합니다. 종속성을 지우고 토폴로지 작성기에서 서버를 삭제 하면 토폴로지 작성기의 관련 데이터베이스 저장소 개체도 삭제 된다는 알림이 표시 됩니다.
-ms.openlocfilehash: 52bba22f678bb4aee1ce406613ce19bb686a78c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d6d7b7f53f9997b17893db079090e1837ce77f4d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197171"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244430"
 ---
 # <a name="remove-the-archiving-server-association"></a>보관 서버 연결 제거
 

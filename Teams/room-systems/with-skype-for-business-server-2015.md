@@ -5,7 +5,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 비즈니스용 Skype 서버를 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: a0e476738cb1ff68020b87624cbcdbabb220c248
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 95b8240d67de801bd63983b37abd92180511b389
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182315"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243215"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>비즈니스용 Skype 서버를 사용 하 여 Microsoft 팀 회의실 배포
   

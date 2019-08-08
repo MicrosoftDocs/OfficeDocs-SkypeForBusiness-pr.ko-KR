@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 팀과 채널을 구조화 하는 방법에 대해 자세히 알아보세요.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 051c22d9b2f4a725797a8356d4a0a76ed15f31d2
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 5d4ed6cb14322569e851236eba86bc3b4470f8c7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36183707"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240774"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft 팀의 팀 및 채널 이해
 

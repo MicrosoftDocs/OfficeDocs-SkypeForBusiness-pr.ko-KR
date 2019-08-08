@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 ms.reviewer: karuanag
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 광범위 한 팀의 결과와 성공을 측정 하는 방법에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f98783ef5baadc1f4f16d9390e4c3d6a6c2f796a
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 9bb0d3e756f746a625e3831c38c6dd41d4c29d6f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184016"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242407"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Microsoft 팀 채택을 위한 결과 및 성공 정의
 

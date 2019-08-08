@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: '요약: 비즈니스용 Skype 서버에서 엔터프라이즈 음성을 사용 하 여 사용자가 전화를 걸고 받을 수 있도록 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 8a94fe28cc492cdeac5eee476d6886fc8674ae13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf9aab0f104582c57e745c95ae5cf8f24f07b3a5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197428"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240612"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 엔터프라이즈 음성에 대 한 사용자 활성화
  

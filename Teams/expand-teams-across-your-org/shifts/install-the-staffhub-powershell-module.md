@@ -5,21 +5,22 @@ ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Microsoft StaffHub PowerShell 모듈을 설치 하 고 연결 하는 방법을 알아봅니다.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dc7c97a3c8107de3c2515a8f112bbc1993e3d8f
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 179276a049a30f1d049521cc3b4db326b988667c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184535"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36246182"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell 모듈 설치
 

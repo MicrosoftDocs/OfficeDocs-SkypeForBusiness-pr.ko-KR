@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: anach
 description: 보존 정책 및 팀에서 관리 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3c253569f642a8833d9bfad6677fe1a17624447
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dc547f30a7ff24b62e93501eba9a46a2e6e3da74
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36180794"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243600"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft 팀의 보존 정책
 

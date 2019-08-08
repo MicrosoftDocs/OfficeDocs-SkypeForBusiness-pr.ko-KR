@@ -11,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: ''
 description: 최신 인증을 사용 하 여 Microsoft 팀에 로그인 하는 방법
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dc79f6913a2996734b34d589f124c440eb9835e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: af7ecffc6dbed108fdc3ec68802aac39aa4f54c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36180693"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243106"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>최신 인증을 사용 하 여 Microsoft 팀에 로그인
 ==========================

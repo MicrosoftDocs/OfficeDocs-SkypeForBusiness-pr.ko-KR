@@ -5,18 +5,18 @@ author: lanachin
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
 description: 이 항목에서는 Microsoft 팀 공간 소프트웨어를 사용 하도록 Lync 대화방 시스템 장치를 마이그레이션하는 방법을 알아봅니다.
-ms.openlocfilehash: 083380674f2329b1281ec6c0ad220ee90abf72d2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d07f214707253dc91495da1d219ed84dab2eec5d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182468"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243369"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>LRS (Lync 채팅방 System) 장치를 Microsoft 팀 대화방으로 마이그레이션
 

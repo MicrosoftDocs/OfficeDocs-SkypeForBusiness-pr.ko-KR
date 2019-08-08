@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 사용자가 자신을 대신 하 여 통화에 응답 하거나 처리할 대리인을 선택할 수 있는 공유 선 모양
-ms.openlocfilehash: 619e011e1af5a765bc86ca6bd68134dc5ab1e9fa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e2e99d214ef493933ed44d28c4a9cbdaeaab1077
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182405"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243115"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft 팀의 공유 선 모양
 
@@ -43,7 +43,12 @@ ms.locfileid: "36182405"
 
 위임 및 공유 선 모양은 구성할 관리 설정이 없기 때문에 사용자 기반 기능입니다. 이 기능을 사용 하는 방법에 대 한 자세한 내용은 [대리인과 전화 회선 공유](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8) 를 참조 하세요.
 
-테 넌 트 관리자는이 기능을 사용 하기 위해 **Teamscallingpolicy allowdelegation** 통한 위임을 설정 해야 합니다.
+테 넌 트 관리자는이 기능을 사용 하기 위해 **Teamscallingpolicy AllowDelegation** 설정 또는 팀 관리 포털을 통해 위임을 사용할 수 있습니다. 
+
+테 넌 트 관리자는 또한 팀 관리 센터에서 사용자에 대 한 위임 관계를 구성할 수 있습니다. 또한 최종 사용자는 팀에서 직접 위임 관계를 구성할 수도 있습니다. 테 넌 트 관리자 또는 사용자는 서로에 대 한 구성을 차단할 수 없지만 팀 관리 센터 및 팀 클라이언트는이 관계를 두 위치에 정확 하 게 표시 해야 합니다. 
+
+> [!IMPORTANT]
+> 테 넌 트 관리자가 사용자에 대 한 위임 기능을 해제 하면 (설정 된 후) 팀 관리 센터에서 해당 사용자에 대 한 위임 관계도 정리 하 여 잘못 된 통화 라우팅이 발생 하지 않도록 해야 합니다.
 
 ## <a name="shared-line-appearance-feature-availability"></a>공유 선 모양 기능 가용성
 

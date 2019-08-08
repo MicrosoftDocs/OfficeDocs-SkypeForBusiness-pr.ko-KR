@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 모든 Survivable Branch 기기 (SBA)는 SBA에 대 한 백업 등록 기관 역할을 하는 프런트 엔드 풀과 연결 되어 있습니다. 프런트 엔드 풀을 비즈니스용 Skype 서버 2019로 마이그레이션하는 경우 풀을 업그레이드 하는 동안 프런트 엔드 풀에서 연결을 해제 해야 하며,이 경우, 해당 풀이 비즈니스용 Skype Server 2019로 마이그레이션된 후에는 SBA를 업그레이드 된 전면 E와 다시 연결할 수 있습니다. nd 풀. 이 작업에는 토폴로지 작성기의 레거시 토폴로지에서의 SBA를 삭제 한 다음 비즈니스용 Skype 서버 2019 토폴로지에 추가 됩니다. 레거시 SBA에 있는 사용자는 먼저 다른 프런트 엔드 풀로 이동한 후에 야 토폴로지에서 SBA를 제거할 수 있습니다. SBA를 비즈니스용 Skype 서버 2019 토폴로지에 추가 하면 해당 사용자는 다시 SBA로 이동할 수 있습니다. 이러한 단계는 다음과 같이 요약할 수 있습니다.
-ms.openlocfilehash: 7cb933018d24dafb978464338f01f97b25e15539
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e5545a2de4eddd65790f425ab888b8fd07faf970
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187332"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239550"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Survivable Branch 기기 연결
 

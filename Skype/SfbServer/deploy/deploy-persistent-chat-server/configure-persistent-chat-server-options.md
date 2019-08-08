@@ -6,17 +6,17 @@ author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: '요약: 비즈니스용 Skype 서버 2015에서 전역, 사이트 또는 풀 수준으로 영구 채팅 서버 옵션을 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 3140689190900bee1633210a455c7af475bb8fa0
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 524e225da84796674a41a2693bc369fa96c8ffb4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197897"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239819"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>영구 채팅 서버 구성 옵션
  

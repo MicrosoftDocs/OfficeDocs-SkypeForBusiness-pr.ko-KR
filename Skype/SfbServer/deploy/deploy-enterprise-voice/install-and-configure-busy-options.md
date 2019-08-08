@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: 비즈니스용 Skype 서버에서 약속 있음 옵션을 설치 하 고 구성 하는 방법에 대해 자세히 알아보세요.
-ms.openlocfilehash: 13f529ddd7bd3b83f9d065599d3a213662da31a4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a0fd235d5db645035ac9a6344c233dfe12a78b7b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189333"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240556"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 사용 중 옵션 설치 및 구성
 

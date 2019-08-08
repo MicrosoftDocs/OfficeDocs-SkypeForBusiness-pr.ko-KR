@@ -8,7 +8,7 @@ ms.reviewer: mikedav
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 추가 기능 라이선스, 각 라이선스에 대해 얻을 수 있는 기능, 제품을 위해 구입 하는 방법, 기존 통신 회사를 사용 하는 방법에 대해 알아보세요. Office 365, 커뮤니케이션 크레딧, 통화 플랜에 대 한 가격 및 계획 세부 정보를 얻을 수 있습니다.
-ms.openlocfilehash: 21a8b26180e4279fa6e735eb362e5703ace209a2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 2c2f3ecb632fda65d92b5c903c698eb9a53fa5ae
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "36184913"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242744"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft 팀 추가 기능 라이선스
 

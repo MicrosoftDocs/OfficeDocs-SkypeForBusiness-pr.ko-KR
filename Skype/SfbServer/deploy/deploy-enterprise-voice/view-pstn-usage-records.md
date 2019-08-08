@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: '요약: 비즈니스용 Skype Server 제어판 또는 비즈니스용 Skype Server Management Shell을 사용 하 여 PSTN 사용 레코드를 보는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: d00fcab8c7f5ad9b8f47d5aecb6c6169e8d43574
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bbc9b7f174ff4b6710009af47dbdcd20e12334d4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197151"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240246"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>비즈니스용 Skype에서 PSTN 사용 레코드 보기
 

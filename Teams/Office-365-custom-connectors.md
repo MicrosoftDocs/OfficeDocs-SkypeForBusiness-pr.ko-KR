@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lucarras
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: 커넥터는 자주 사용 하는 서비스의 콘텐츠 및 업데이트를 채널에 직접 전달 하 여 팀을 최신 상태로 유지 합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce087aed26c22fb97a0ad9b5161927f6a6afea4d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a8235ce9eb950df0c04ab41949500a640376e612
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36184421"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245520"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft 팀에서 Office 365 및 사용자 지정 커넥터 사용
 =======================================================

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 페더레이션은 서로 다른 조직의 사용자가 네트워크 경계를 통해 통신할 수 있도록 하는 두 개 이상의 SIP 도메인 간의 신뢰 관계입니다. 파일럿 풀로 마이그레이션한 후에는 이전 버전의 Edge 서버의 페더레이션 경로에서 비즈니스용 Skype 서버 2019 Edge 서버의 페더레이션 경로로 전환 해야 합니다.
-ms.openlocfilehash: 6b76932c8b988dbed61cba1470f32a51f6585536
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 50c10a4dced237e59c8dad12b5bdee1ef7d970fe
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196969"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239589"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>페더레이션 경로 및 미디어 트래픽 구성
 

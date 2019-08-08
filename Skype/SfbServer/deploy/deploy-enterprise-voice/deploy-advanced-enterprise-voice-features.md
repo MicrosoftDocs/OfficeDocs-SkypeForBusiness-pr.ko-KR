@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: 비즈니스용 Skype 서버에서 고급 엔터프라이즈 음성 기능을 배포 합니다.
-ms.openlocfilehash: 5afc6a2bbf44afbc87ee5ec389f3db1cdc3200f7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9b711c7258abb1ceb479f379aebe677edbdef042
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189036"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245810"
 ---
 # <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 고급 엔터프라이즈 음성 기능 배포
  

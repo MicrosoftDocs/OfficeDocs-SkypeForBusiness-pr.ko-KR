@@ -10,18 +10,18 @@ ms.service: msteams
 ms.reviewer: chenle
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 활동 보고서를 사용 하 여 조직의 사용자가 Microsoft 팀을 사용 하는 방법을 확인 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18076fd3aeb47e0afadaf7eb1917369a1a55ea3b
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 5d7346ef19f70366ec32ad6d7a6bcf24fc98e6e7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "36184910"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242994"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Microsoft 팀을 위한 활동 보고서 사용 
 ========================================

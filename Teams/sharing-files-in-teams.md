@@ -7,20 +7,21 @@ ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
+audience: admin
 search.appverid: MET150
 description: Microsoft 팀은 OneDrive 및 SharePoint의 설정을 사용 하 여 공유를 제어 합니다.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ddb342af669f710bfd9d05c8b21290ebc6e0451
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: 0d9f2060c7b87d58820cf0d90dd8e4dc556297f1
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "36185033"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243162"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Microsoft 팀에서 파일 공유
 

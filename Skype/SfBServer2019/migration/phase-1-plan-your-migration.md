@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 이 섹션에서는 비즈니스용 Skype Server 2019 마이그레이션에 대 한 계획 항목을 다룹니다.
-ms.openlocfilehash: 0a92e5fad665e3c523d07870cf93de273aa57aa6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a6ad11da076decd447d337c6ece6cd93709f32b2
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186663"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244686"
 ---
 # <a name="phase-1-plan-your-migration"></a>1 단계: 마이그레이션 계획
 

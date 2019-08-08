@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: '요약: Exchange Server 및 비즈니스용 Skype 서버에서 보관 한 데이터를 검색 하도록 SharePoint Server를 구성 합니다.'
-ms.openlocfilehash: 2fb4b601e594ca48105afcf2e0c75107b2c6bceb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ef8fde621eddfb83972f6cdd540336c9380c7cd7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188124"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244144"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>보관된 비즈니스용 Skype 데이터를 검색하도록 SharePoint Server 구성
  

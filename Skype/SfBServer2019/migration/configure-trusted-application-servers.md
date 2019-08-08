@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 혼합 환경에서 신뢰할 수 있는 새 응용 프로그램 서버를 만드는 경우 다음 홉 풀을 비즈니스용 Skype 서버 2019 풀로 설정 해야 합니다. 혼합 환경에서는 레거시 풀과 비즈니스용 Skype 서버 2019 풀이 모두 드롭다운 목록에 표시 됩니다. 레거시 풀을 선택 하는 것은 지원 되지 않습니다.
-ms.openlocfilehash: b0dfb9ba1e4744ba3e0ea0c376f67a224e70376a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b715cd7f3f067c5e54dbc085350fcc7f96b5c4be
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191559"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239544"
 ---
 # <a name="configure-trusted-application-servers"></a>신뢰할 수 있는 응용 프로그램 서버 구성
 

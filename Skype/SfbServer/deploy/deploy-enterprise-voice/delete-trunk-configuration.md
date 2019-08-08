@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: '요약: 비즈니스용 Skype 서버 제어판을 사용 하 여 트렁크 구성 설정 모음을 삭제 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 830f5c42e26c4ef7a5ffca0a57fc7e70c2509f83
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5823c47234f912293c7af2a15bf1fcb87ff23e15
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189039"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233509"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 SIP 트렁크 구성 설정의 기존 모음 삭제
  

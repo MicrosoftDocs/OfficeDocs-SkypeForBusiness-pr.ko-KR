@@ -7,6 +7,7 @@ ms.date: 06/08/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sonua
+audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 팀이 다양 한 토폴로지에서 Office 365 흐름을 사용 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: ecdeb6dc4e1e7219dc8c01c710877437661e0ceb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d98f789017c0f5388a0adebd382d947e716d7fc9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36181520"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239356"
 ---
 # <a name="microsoft-teams-call-flows"></a>Microsoft 팀 통화 흐름
 

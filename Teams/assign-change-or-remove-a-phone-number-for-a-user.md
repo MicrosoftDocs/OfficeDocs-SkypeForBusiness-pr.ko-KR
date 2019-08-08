@@ -7,12 +7,12 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Strat_SB_PSTN
-audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 외부 기업과 클라이언트가 통화할 수 있도록 팀 사용자의 회사 전화 번호를 할당, 변경 또는 제거 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ccc8e723b1f4915781c47d416fa05d4cfb9c871d
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: c9d4927b29438c47763941b0d1d73b7fef98c78b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "36184901"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241987"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>사용자의 전화 번호 지정, 변경 또는 제거
 

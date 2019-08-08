@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 조직이 팀으로 전환할 준비가 되었는지 확인 합니다.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ee28253c214cedead827b8e2a077372b0523f6a
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: da70e1207165a9034749382dbbf0ff4444bd9311
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36183968"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242453"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>조직에서 Microsoft 팀을 준비 하는 방법은 무엇 인가요?
 

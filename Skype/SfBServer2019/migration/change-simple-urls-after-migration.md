@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 비즈니스용 Skype 서버는 간단한 Url을 지원 합니다.
-ms.openlocfilehash: 786e3f5d7ed273c0f3c2ccc39ef1b539714de61b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 806003a2639d3861c066248657521ceb58a4e986
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196970"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239705"
 ---
 # <a name="change-simple-urls-after-migration"></a>마이그레이션 후 간단한 Url 변경
 

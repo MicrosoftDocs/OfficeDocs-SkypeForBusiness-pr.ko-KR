@@ -6,20 +6,21 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
+audience: admin
 description: Office 365 OneDrive 및 SharePoint Online 다중 지역에서 팀을 사용 하는 방법에 대해 자세히 알아보세요.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e90e4a3c1ae2886a01802a805da3464cea3d8b50
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d81554517a42fd05b8f81097dc01f8dc72977c72
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36180678"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243834"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Office 365 OneDrive 및 SharePoint Online의 팀 환경에 대 한 복수 지역-지리적으로 지 활성화 된 테 넌 트
 ===========================================

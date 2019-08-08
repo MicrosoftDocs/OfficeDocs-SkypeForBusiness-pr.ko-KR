@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: '요약: 비즈니스용 Skype 서버용으로 미디어 바이패스를 사용 하도록 설정 된 트렁크를 구성 합니다. 이렇게 하면 SIP 트렁크 공급자가 지 원하는 중재 서버 수를 최소화할 수 있습니다.'
-ms.openlocfilehash: 29fd1d4e978306f58e99b4a75cb5255863139888
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3b51cedfbead08cd70b543e9019c351adcc2a4eb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191364"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233890"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 미디어 바이패스를 사용 하 여 트렁크 구성
 

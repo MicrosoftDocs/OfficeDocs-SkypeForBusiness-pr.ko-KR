@@ -7,6 +7,7 @@ ms.date: 2/1/2019
 ms.topic: conceptual
 ms.reviewer: roykuntz
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: 직접 라우팅에 대 한 위치 기반 라우팅과 관련 된 용어 및 개념에 대해 알아봅니다.
 localization_priority: Normal
@@ -16,12 +17,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db6d6892c8a3bda8d30ac61d0458f252a6ac9281
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 9d35b42453ac0eb9d9ae4a3f4c71f4452943a3b0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36185015"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245098"
 ---
 # <a name="location-based-routing-terminology"></a>위치 기반 라우팅 용어
 

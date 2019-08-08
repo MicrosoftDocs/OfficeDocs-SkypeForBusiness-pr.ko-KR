@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: End User
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 사용자가 모임 요청에서 모임 링크를 클릭 하면 모임 참가 페이지에서 사용자 컴퓨터에 이미 설치 되어 있는 클라이언트를 감지 합니다. 클라이언트가 이미 설치 되어 있는 경우 해당 클라이언트에서 모임에 참가 하 고 참석 합니다. 클라이언트가 설치 되어 있지 않으면 기본적으로 웹 앱이 열립니다.
-ms.openlocfilehash: c5f6cd5b1d04b54f8db9f82080bc8dbabefdc11e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1bab2dff25db94b36c41e5824401777006760bfc
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196964"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239562"
 ---
 # <a name="configure-the-meeting-join-page"></a>모임 참가 페이지 구성
 

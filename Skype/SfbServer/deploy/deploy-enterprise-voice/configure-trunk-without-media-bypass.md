@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: '요약: 비즈니스용 Skype 서버용으로 미디어 바이패스를 사용 하지 않고 트렁크를 구성 합니다.'
-ms.openlocfilehash: 1e81f0d700d6dff90eb0bb0f6f61a8810f14bd97
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c60217b6dc127616dfbaf9590c43adec25c20eff
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191358"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233880"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 미디어 바이패스 없이 트렁크 구성
 

@@ -4,20 +4,21 @@ ms.reviewer: ''
 author: kenwith
 ms.author: kenwith
 manager: serdars
+audience: admin
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 description: 이 PowerShell 스크립트를 사용 하 여 대상 컴퓨터 또는 특정 사용자에 대 한 Microsoft 팀을 정리 합니다.
 localization_priority: Normal
-ms.openlocfilehash: f89f35bb34ec3b72cfaec79c651b4c95d5e5bbdd
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: aa5ba0c6e94510449e1afd9c2fc03524c1846f9c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "36182210"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243206"
 ---
 <a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>PowerShell 스크립트 샘플-Microsoft 팀 배포 정리
 -------------------------------------------------------------------------

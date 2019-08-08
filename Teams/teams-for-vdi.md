@@ -7,20 +7,21 @@ ms.date: 04/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rafarhi
+audience: admin
 description: VDI (가상화 데스크톱 인프라) 환경에서 Microsoft 팀을 실행 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 132bd532ae8f7da98edb38a81363b4d5b6501532
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: 1d0680e81799152bfc6eb9a976634384eb70954c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "36184871"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243823"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>가상화 된 데스크톱 인프라 팀
 

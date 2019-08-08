@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 이 지침을 사용 하 여 팀으로 업그레이드 하기 위한 현재 환경을 적절 하 게 평가 하는 요구 사항에 대해 알아보세요.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4193c6de078b196c2d34ffe098f542918d0059ad
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 97b4ec0c46131c1bfae5ca078e59a366a1b64b51
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "36184190"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236106"
 ---
 ![여행 다이어그램 업그레이드, 기술 준비 단계 강조] (media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
 

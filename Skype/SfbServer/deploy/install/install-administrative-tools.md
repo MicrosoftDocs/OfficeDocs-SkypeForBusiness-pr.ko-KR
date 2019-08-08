@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: '요약: 비즈니스용 Skype 서버 설치에 필요한 관리 도구를 설치 하는 방법에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: b700180a18cf7fcac3cb0353ff302edd1ed78584
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 168202048fcd72b16d93cfd410f678cad01b3058
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197737"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244854"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>비즈니스용 Skype 서버에 관리 도구 설치
  

@@ -6,17 +6,17 @@ author: lanachin
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: '요약: 비즈니스용 Skype Server 2015에서 영구 채팅 서버에 대해 고가용성 및 재해 복구를 구성 하는 방법을 알아보려면이 항목을 참조 하세요.'
-ms.openlocfilehash: a771479eccc88c6ff30864a44649fe3d309a7ca2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cfc2843ceb3afba4813cc729856dcd35a4a6439e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196974"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240119"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>영구 채팅 서버를 위한 고가용성 및 재해 복구 구성
  

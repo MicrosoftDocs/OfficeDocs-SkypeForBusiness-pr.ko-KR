@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 이 섹션의 항목에서는 비즈니스용 Skype Server 2019에 대 한 마이그레이션을 완료 한 후 수행 해야 하는 작업에 대해 설명 합니다.
-ms.openlocfilehash: 34977674966ab7c52e14a3036edc71e1e2f44469
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9ac11178132ef08157e08bec63cd20127e9582b1
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186639"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244626"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>7 단계: 마이그레이션 후 작업 완료
 

@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 비즈니스용 Skype Server Enterprise Voice에서 알림 신청에 대 한 공지 사항을 만들거나 삭제 합니다. 이는 할당 되지 않은 번호로의 호출이 처리 되는 방식에 영향을 줍니다.
-ms.openlocfilehash: 6160631473a2ead839346e53f9f63294a7959289
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b9f745a4b3b5a85548cc52cc1e883159a01ec1df
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191352"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233790"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 공지 사항 만들기 또는 삭제
 

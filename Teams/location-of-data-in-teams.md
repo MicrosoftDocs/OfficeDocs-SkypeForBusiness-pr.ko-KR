@@ -5,29 +5,35 @@ ms.author: lolaj
 manager: serdars
 ms.date: 05/09/2019
 ms.topic: reference
+audience: admin
 ms.service: msteams
 ms.reviewer: anach
 description: Microsoft 팀에서 데이터가 저장 되는 위치에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e293cb89875bcaf15172b698735bba86c00635b
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 832fa044379698eae3531c8b340dbd36f922198c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "36184022"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242107"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft 팀의 데이터 위치
 
-팀의 데이터는 Office 365 테 넌 트와 연결 된 지리적 영역에 위치 합니다. 현재, 팀은 오스트레일리아, 캐나다, 프랑스, 인도, 일본, 영국, 미주, APAC 및 EMEA 지역을 지원 합니다. 
+팀의 데이터는 Office 365 테 넌 트와 연결 된 지리적 영역에 위치 합니다. 현재, 팀은 오스트레일리아, 캐나다, 프랑스, 인도, 일본, 영국, 대한민국, 남아프리카, 미주, APAC, EMEA 지역을 지원 합니다. 
 
 > [!IMPORTANT]
-> 현재 팀은 오스트레일리아, 캐나다, 프랑스, 인도, 일본, 그리고 새 테 넌 트에 대해서만 영국에 데이터 영주권을 제공 합니다. 새 테 넌 트가 테 넌 트에서 팀에 로그인 한 사용자가 없는 모든 테 넌 트로 정의 됩니다. 오스트레일리아, 인도, 일본의 기존 테 넌 트에는 계속 해 서 자신의 팀 데이터가 APAC 지역에 저장 됩니다. 캐나다의 기존 테 넌 트는 계속 해 서 해당 데이터를 미주에 저장 합니다. 프랑스와 영국에 있는 기존 테 넌 트의 데이터는 EMEA 지역에 저장 됩니다.
+> 팀은 현재 오스트레일리아, 캐나다, 프랑스, 인도, 일본, 영국, 대한민국, 대한민국, 그리고 새 테 넌 트에 대해서만 남아프리카 공화국로 데이터 영주권을 제공 합니다.
+> 새 테 넌 트가 테 넌 트에서 팀에 로그인 한 사용자가 없는 모든 테 넌 트로 정의 됩니다. 오스트레일리아, 인도, 일본, 대한민국의 기존 테 넌 트는 계속 해 서 자신의 팀 데이터를 APAC 지역에 저장 합니다. 캐나다의 기존 테 넌 트는 계속 해 서 해당 데이터를 미주에 저장 합니다. 프랑스, 영국 및 남아프리카 공화국의 기존 테 넌 트는 EMEA 지역에 저장 된 데이터를 갖습니다.
+
+팀에 대 한 남아프리카 데이터 영주권에 대 한 자세한 내용은 Vargar의 블로그 게시물에서 찾을 수 있으며, [Microsoft 팀은 남아프리카 데이터 영주권를 시작](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Africa-Data-Residency/ba-p/776611)합니다.
+
+팀의 영주권 데이터에 대 한 자세한 내용은 Varun Sagar의 블로그 게시물을 참조 하 여 [Microsoft 팀에서 동남 한국식 Data 영주권을 시작](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Korea-Data-Residency/ba-p/789171)합니다.
 
 팀에 대 한 인도 및 영국 데이터 영주권의 출시에 대해 자세히 알아보려면, Microsoft 팀이 인도 하는 블로그 게시물을 참조 하 여 생산성 [데이터 영주권, 다른 geos가 곧 출시](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827)될 것입니다. 
 

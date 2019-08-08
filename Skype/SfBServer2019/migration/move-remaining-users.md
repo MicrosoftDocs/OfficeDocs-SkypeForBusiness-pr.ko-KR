@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '비즈니스용 Skype server 제어판 또는 비즈니스용 Skype Server Management Shell을 사용 하 여 사용자를 새로운 비즈니스용 Skype Server 2019 배포로 이동할 수 있습니다. 비즈니스용 Skype 서버 2019의 원활한 전환을 위해 몇 가지 요구 사항을 충족 해야 합니다. 이 항목의 절차를 완료 하기 위한 필수 구성 요소에 대 한 자세한 내용은 마이그레이션할 클라이언트 구성을 참조 하세요. 사용자 이동에 대 한 자세한 내용은 4 단계: 파일럿 풀로 테스트 사용자 이동을 참조 하세요.'
-ms.openlocfilehash: 67bc2d3b239e65b5b1c83e2dcda81a1610d5a31c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c12ca52e162c4317dabc59d5de9b74082730882
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186666"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244785"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>나머지 사용자를 비즈니스용 Skype 서버 2019로 이동
 

@@ -6,23 +6,24 @@ manager: serdars
 ms.date: 05/24/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
 description: Microsoft 팀에서 화이트 보드 웹 앱 (미리 보기) 사용에 대 한 자세한 정보
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98dad25767c5269b55a186d6d3c460c6fbd27fc6
-ms.sourcegitcommit: e1532a45df1a43d5af7b5370e3444c3971adb450
+ms.openlocfilehash: 40c372c56cc58ad1f1682c48bf70bef60801fce3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "36183584"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233261"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Microsoft 팀에서 화이트 보드 관리
 ==========================================

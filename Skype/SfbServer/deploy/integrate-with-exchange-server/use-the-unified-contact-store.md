@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: '요약: Exchange Server 및 비즈니스용 Skype 서버용 통합 된 연락처 저장소를 구성 합니다.'
-ms.openlocfilehash: fd70c4b0b3d94ba26b76847ff053bf33d5902799
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2719105478860f0352ae4a4cef75466ec460d475
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188100"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244134"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>통합 연락처 저장소를 사용하도록 비즈니스용 Skype 서버 2015 구성
  

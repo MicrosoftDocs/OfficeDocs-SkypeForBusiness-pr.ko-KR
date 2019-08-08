@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 일반적으로 마이그레이션에 허용 되는 모범 사례는 여러 테스트 사용자를 만들고이를 사용 하 여 시스템 테스트를 수행 하는 것입니다. 이러한 계정을 성공적으로 이동 하 고 테스트 한 후에는 파일럿 프로덕션 사용자 그룹을 식별 하 고 해당 계정을 이동 하 고 유효성 검사 테스트를 수행 해야 합니다. 만족 스러운 결과를 얻을 경우 나머지 사용자를 새 배포로 이동할 수 있습니다.
-ms.openlocfilehash: 081f31982f0e1ab0a9b7eb497d1ea99704a6c97b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e3473e92b3c18c26288495709ee723f98ae2358b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197793"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241741"
 ---
 # <a name="user-migration"></a>사용자 마이그레이션
 

@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 3/7/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: '요약: 비즈니스용 Skype 서버와 Outlook Web App을 통합 합니다.'
-ms.openlocfilehash: d207e366638b8b6fe163d68b527c9b6d33d7a418
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b7c279dc41515d9613d8c000ab9e81164a1ccaa6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188130"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244212"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>온-프레미스 비즈니스용 Skype 서버 및 Outlook Web App 간 통합 구성
 

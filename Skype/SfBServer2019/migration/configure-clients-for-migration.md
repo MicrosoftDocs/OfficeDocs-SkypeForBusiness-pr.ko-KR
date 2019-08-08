@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 이 항목에는 비즈니스용 Skype Server 2019로 마이그레이션하기 전에 수행 해야 하는 권장 되는 클라이언트 배포 단계가 포함 되어 있습니다. 이러한 구성 변경은 Lync Server 2013 또는 비즈니스용 Skype Server 2015에서 이루어져야 합니다.
-ms.openlocfilehash: d37fe866676042fe043eb2caf303e5dc813e7dbd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1a674c6aa0d9082aa9887f618ab3a56dd12c2982
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197141"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239718"
 ---
 # <a name="configure-clients-for-migration"></a>마이그레이션을 위한 클라이언트 구성
 

@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 description: '요약: 비즈니스용 Skype 서버에서 음성 정책, PSTN 사용 레코드 및 음성 경로를 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 5ce6b6b3e93804f648529043b9189110d25cbb08
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3cdc621e163aa8cff4ba2456c3a94ddf30bfcbaf
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197149"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240210"
 ---
 # <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>비즈니스용 Skype에서 음성 정책, PSTN 사용 레코드 및 음성 경로 구성
  

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: XMPP federation는 XMPP (확장할 수 있는 메시징 및 현재 상태 프로토콜)를 기반으로 외부 배포를 정의 합니다. XMPP 구성을 사용 하면 사용자가 다음과 같은 방법으로 XMPP 도메인 사용자에 게 액세스할 수 있습니다.
-ms.openlocfilehash: c5231016729cd40619bbcfe48ebfcf59eff9182a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 01adcbe06718068e84844f704858e04198b197b2
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187335"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239547"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>XMPP 게이트웨이 액세스 정책 및 인증서 구성
 

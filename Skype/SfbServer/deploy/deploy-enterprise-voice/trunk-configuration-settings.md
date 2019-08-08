@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: '요약: 비즈니스용 Skype 서버 제어판을 사용 하 여 트렁크 구성 설정 모음을 새로 만드는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: b3772901f1fa7137a358d4519ea9473f237ba85e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f724526f35a530c19e709e7faa62369e454ea6a4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197155"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240303"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 새 트렁크 구성 설정 모음 만들기 
 

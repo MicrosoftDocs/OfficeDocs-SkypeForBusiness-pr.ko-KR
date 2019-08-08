@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: 비즈니스용 Skype Server Enterprise Voice에서 응답 그룹 배포 성공 여부를 확인 합니다.
-ms.openlocfilehash: f2ff8a9cc4203c25a679d6c3326911f5a3b6d971
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 758836f7003d5f1473801eae4bef400b0e048891
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196290"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240395"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>) 비즈니스용 Skype에서 응답 그룹 배포 확인
  

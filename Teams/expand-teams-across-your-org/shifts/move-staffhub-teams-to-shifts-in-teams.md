@@ -5,19 +5,20 @@ ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Microsoft 팀에서 Microsoft StaffHub 팀 및 일정 데이터를 이동 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56f1501f0b9947ea009c6ebbf697a211dd1118ae
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: cef8c6fbfd5ed0b19d6762b7508b311413d11066
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184571"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233286"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft 팀에서 Microsoft StaffHub 팀을 교대으로 옮기기
 
@@ -118,7 +119,7 @@ foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where
   StaffHub 팀 소유자 및 관리자는 사용자의 전자 메일 주소를 StaffHub 팀 설정 페이지에서 유효한 UPN으로 변경 하 여 비활성 계정을 변환 하 고 StaffHub의 Azure AD 계정에 연결할 수 있습니다.
 
 - 연결 되지 않은 계정을 제거한 다음 UPN을 사용 하 여 계정을 다시 추가 합니다.
-    1. [StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) cmdlet을 실행 하 여 StaffHub 팀에서 프로 비전 되지 않은 계정을 제거 합니다.
+    1. [StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubMember?view=staffhub-ps) cmdlet을 실행 하 여 StaffHub 팀에서 프로 비전 되지 않은 계정을 제거 합니다.
     2. [StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet을 실행 하 여 UPN을 사용 하 여 StaffHub 팀에 계정을 다시 추가 합니다.
 
 - 연결이 연결 되지 않은 사용자 계정을 제거 합니다. 사용자 계정이 더 이상 필요 하지 않은 경우이 옵션을 사용 합니다.

@@ -5,6 +5,7 @@ author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
 ms.topic: reference
+audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -18,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "Microsoft 팀 est l'outil collaboratif d'Office 365? intègre toutes personnes, 추가 \\ t e et outils는 votre équipe + besoin et être이 impliquée. "
-ms.openlocfilehash: 939d55a2b775c03602300d6ce5b9346cb42cd442
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: c79fbe75b34de917feb969313af4d0e7d68785c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "36184541"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239453"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
 

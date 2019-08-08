@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: 비즈니스용 Skype 서버에서 오프 라인 인스턴트 메시지 (IM)를 사용 하거나 사용 하지 않도록 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 77078b6092dc1d23dde1315c505c5baf26798b86
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 363f7c54d682dc619417a8d9601c7beafc8283c6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191535"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235552"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 오프 라인 인스턴트 메시지 (IM) 사용 또는 사용 안 함
  

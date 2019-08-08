@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 이 섹션의 항목에서는 비즈니스용 Skype Server 2019의 배포를 파일럿 배포에서 프로덕션 수준 배포로 이동 하기 전에 완료 해야 하는 작업에 대해 설명 합니다.
-ms.openlocfilehash: cc101ae93bbea9cf3fa7366bdf83676970ad450c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 03aba848f3a0edeb148e6a23166699318ed8150c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186645"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244594"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>6 단계: 파일럿 배포에서 프로덕션으로 이동
 

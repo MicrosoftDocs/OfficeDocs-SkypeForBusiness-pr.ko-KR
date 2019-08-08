@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 description: 비즈니스용 Skype Server Enterprise Voice에서 알림 신청 배포를 확인 하는 중입니다. 이는 할당 되지 않은 번호로의 호출이 처리 되는 방식에 영향을 줍니다.
-ms.openlocfilehash: 108286edc122368bba79587b07f42cc9daf08053
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4b1377d5cfa32e0860f6932320966ea9c5f8fa27
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197707"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240419"
 ---
 # <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>) 비즈니스용 Skype에서 알림 배포 확인
  

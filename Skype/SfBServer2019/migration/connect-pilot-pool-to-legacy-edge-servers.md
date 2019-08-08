@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 비즈니스용 Skype 서버 2019을 배포한 후에는 사이트에 대 한 페더레이션 경로를 구성 해야 합니다. 레거시 설치에 사용 되는 페더레이션 경로를 사용 하기 위해서는이 경로를 사용 하도록 비즈니스용 Skype 서버 2019를 구성 해야 합니다.
-ms.openlocfilehash: 20aacda86c6c49b319859d6f1c175ce6258caddb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7a5a65e1488d5a119e3d11affbbaa9995a06626e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191157"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239555"
 ---
 # <a name="connect-pilot-pool-to-legacy-edge-servers"></a>레거시 Edge 서버에 파일럿 풀 연결
 

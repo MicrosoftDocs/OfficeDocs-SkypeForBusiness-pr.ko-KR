@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft 비즈니스용 Skype Server 2019으로 마이그레이션한 후 System Center Operations Manager와 함께 작동 하도록 비즈니스용 Skype Server 2019를 구성 하는 몇 가지 작업을 완료 해야 합니다.
-ms.openlocfilehash: 141154a8bd678f15fcc919b2dd70a50ca9d4dcca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 098265f5b17ab4d25164495965b3d20a122f61fa
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190026"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239580"
 ---
 # <a name="configure-scom-monitoring"></a>SCOM 모니터링 구성
 

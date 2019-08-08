@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: rowille
 description: 통화 계획 배포를 사용 하 여 전화 시스템의 결과를 측정 하 고 원하는 결과를 얻을 수 있는지 확인 합니다.
@@ -13,12 +14,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: fe438ec45d5cb6e9eb57e6f98bc3e59ace51218e
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b91820b017549fd2d6fc2184f98ccba96bb1523f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "36181961"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244159"
 ---
 # <a name="define-my-success"></a>성공 정의
 
