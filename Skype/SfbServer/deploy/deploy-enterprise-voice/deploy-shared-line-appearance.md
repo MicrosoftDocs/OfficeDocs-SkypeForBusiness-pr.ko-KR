@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: 이 항목에서는 비즈니스용 Skype Server 2015, 2015 누적 업데이트에 대 한 SLA (공유 선 모양)를 배포 하는 방법에 대해 알아봅니다. SLA는 공유 번호 라는 특정 번호에서 여러 통화를 처리 하기 위한 기능입니다.
-ms.openlocfilehash: 04efe0a0b3ae9e89576ca2d52ce45861cde68a9d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d7bbc62912614cabaea5218225b1fbfb499c691
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191937"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233530"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 공유 선 모양 배포
 

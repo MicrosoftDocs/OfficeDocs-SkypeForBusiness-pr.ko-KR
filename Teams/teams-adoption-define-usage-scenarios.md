@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 팀 채택을 실험 단계에서 사용 시나리오를 선택 합니다.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d37ca22f7107598e9e1f084ed5e7dadbdfcba5df
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 85183f76327575b40ff2fb2e68e6c77247e8dd98
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36183950"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242377"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Microsoft 팀에 대 한 사용 시나리오 정의
 

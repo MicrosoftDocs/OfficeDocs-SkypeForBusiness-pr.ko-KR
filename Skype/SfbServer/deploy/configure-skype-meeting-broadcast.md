@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: '요약: 온-프레미스 비즈니스용 skype Server 하이브리드 배포에 대해 Skype 모임 브로드캐스트를 구성 하기 위해 수행 해야 하는 단계에 대해 알아보세요.'
-ms.openlocfilehash: b744ae55fe9c866b2f65c816e471ed077312df13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bd87c64dd1e54c8092186a3e233557ebd11eec77
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192084"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234585"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트에 대 한 온-프레미스 배포 구성
  

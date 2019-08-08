@@ -6,7 +6,7 @@ author: jambirk
 manager: serdars
 ms.date: 7/9/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '요약: 비즈니스용 Skype Server 2019을 설치 하 고 구성 하는 방법을 알아보려면이 링크를 탐색 하세요.'
-ms.openlocfilehash: 0c2779b3ab553dac5eabc2f345b904a1cf6ebe56
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 302b2a7be850e434bbf705e38d6671cdc580b3e0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188193"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242277"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 배포 2019
  

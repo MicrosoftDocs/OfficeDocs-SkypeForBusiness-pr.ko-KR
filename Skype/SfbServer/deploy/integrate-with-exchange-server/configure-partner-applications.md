@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: '요약: Exchange Server 2016 또는 Exchange Server 2013 및 비즈니스용 Skype Server에 대 한 서버 인증을 서버로 구성 합니다.'
-ms.openlocfilehash: 4c7c8a0efb2432403422e33140c1a2fdf3551dd1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5a1958db05ea1e4fae37737512368d509b3c62cf
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197732"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245512"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>비즈니스용 Skype 서버 및 Exchange Server에서 파트너 응용 프로그램 구성
  

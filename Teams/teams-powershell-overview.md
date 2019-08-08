@@ -6,6 +6,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 09/06/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -13,12 +14,12 @@ ms.collection:
 description: PowerShell 컨트롤을 사용 하 여 Microsoft 팀을 관리 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a56783a4958038710440fc899081abfdd24f1dec
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 20e85b2f45977a0a78d0d358c2e8aaa01b9257e4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "36181967"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235134"
 ---
 # <a name="teams-powershell-overview"></a>팀 PowerShell 개요
 

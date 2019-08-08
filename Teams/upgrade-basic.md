@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 비즈니스용 Skype에서 팀으로 업그레이드 하기 위한 10 단계 가속화 작업 계획
 localization_priority: Normal
 search.appverid: MET150
@@ -13,17 +14,17 @@ ms.custom: Teams-upgrade-guidance
 f1keywords:
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-out
 - ms.teamsadmincenter.dashboard.widget.upgrade.scheduled
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 397155766bc966c9591f863a3f97fca59dcb1128
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: a734b98e1e7348e024c8fb3149dda47f6d13dafe
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36185240"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236533"
 ---
 <a name="about-upgrade-basic"></a>
 

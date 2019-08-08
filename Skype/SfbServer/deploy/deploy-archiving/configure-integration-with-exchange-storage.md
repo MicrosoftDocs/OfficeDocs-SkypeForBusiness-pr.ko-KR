@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: '요약: 비즈니스용 Skype 서버에서 Exchange 저장소와의 통합을 구성 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: b58aa090e4e6c51beb1f99ba5dc9020e029c8c39
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 72caf77c81dae538f793afe6f0a94ad6b61d0fa5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190503"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234550"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 Exchange 저장소 통합 구성
  

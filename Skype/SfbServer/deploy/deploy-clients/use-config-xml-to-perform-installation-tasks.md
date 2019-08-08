@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: '요약: Config.xml 파일을 사용 하 여 추가 설치 지침을 지정 하는 방법입니다.'
-ms.openlocfilehash: dc7491899562e665af7d6f63470cf2fc2b904730
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 31ee6c663822c2dab59a21fe5ca80c71cb81abf8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191703"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234825"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Config.xml을 사용 하 여 비즈니스용 Skype 클라이언트에서 설치 작업 수행
 

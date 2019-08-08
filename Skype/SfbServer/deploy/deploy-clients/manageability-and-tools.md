@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Skype 대화방 시스템용 관리 도구에 대해 자세히 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: 4ae57457eb244e7cf72183bfadba0bd0b89d44a6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ce33307babac88f6a0e3145988d0ea8519f86110
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196388"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234221"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype 실 시스템 관리 효율성 및 도구
  

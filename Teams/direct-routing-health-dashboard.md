@@ -4,7 +4,7 @@ ms.reviewer: nmurav
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 상태 대시보드를 사용 하 여 세션 경계 컨트롤러와 직접 라우팅 간의 연결을 모니터링 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 352b23f320a4e2adaa9819952a6e489791294630
-ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
+ms.openlocfilehash: b6ec0c04200fac018b721bfe6c94f8d9bd969a2f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "36184091"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237495"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>직접 라우팅에 대 한 상태 대시보드
 

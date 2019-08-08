@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 대규모 조직에 있거나 비즈니스용 Skype 배포를 많이 사용자 지정한 경우이 지침을 사용 하세요.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68c2f0f74d1f5f2ba13518c8f56afc1244480a14
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 3d34c111302c3e8de173b4c553589ab840495118
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "36185243"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236040"
 ---
 # <a name="upgrade-pro"></a>Pro 업그레이드
 

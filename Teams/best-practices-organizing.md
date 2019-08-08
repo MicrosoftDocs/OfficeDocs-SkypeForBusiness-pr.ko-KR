@@ -6,20 +6,21 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 description: 조직의 요구 사항에 맞게 Microsoft 팀에서 팀을 구성 하는 모범 사례에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b8c368878d8decf056d463d74c159a00206eda8
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: b079ebc84dfef1714243f79daed970fb148b7c5a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184964"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237206"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft 팀에서 팀을 구성 하기 위한 모범 사례
 ======================================================

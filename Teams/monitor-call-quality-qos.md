@@ -5,21 +5,22 @@ ms.author: jambirk
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: jambirk
 description: QoS (서비스 품질) 설정을 사용한 다음 Microsoft 팀에서 분석 및 통화 품질 대시보드를 호출 합니다.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77730db17e900951f0fe1a60b7c0ae2ccdbfbc5b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 70e862adf2aad795a9ef1ab34eaa2de21240a388
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36181247"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239256"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Microsoft 팀에서 QoS를 구현 하 고 통화 품질을 모니터링
 

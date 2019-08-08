@@ -7,14 +7,14 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 localization_priority: Normal
-ms.prod: skypeforbusiness-server-itpro
+ms.prod: skype-for-business-itpro
 description: 이 항목에서는 기존 비즈니스용 Skype Server 또는 Exchange Server 배포를 최신 버전 또는 비즈니스용 Skype Online 또는 Exchange Online으로 마이그레이션하도록 결정할 때 고려해 야 할 사항에 대해 설명 합니다.
-ms.openlocfilehash: b1e7f52da2f036ebf88b4a8986650bfbc20c38b6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 864a777c1fcb483df7f3779e9b105c1af551748e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "36185430"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237473"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>비즈니스용 Skype 서버 및 Exchange Server 마이그레이션 계획
 

@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: '요약: 비즈니스용 Skype 서버에서 Edge 서버 토폴로지를 빌드, 게시 및 내보내기 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: c2df17d107845309242ef1df156f2da56fa2b883
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b20877f805cb0357f6038a822962ad6eb9cdd5e1
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197786"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234140"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 Edge 토폴로지 만들기
  

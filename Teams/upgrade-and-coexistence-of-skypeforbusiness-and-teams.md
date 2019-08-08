@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen, bjwhalen
 description: '비즈니스용 Skype 및 Microsoft 팀 공존 옵션 및 모드에 대해 자세히 설명 하 고 여행를 비즈니스용 Skype에서 팀으로 업그레이드 합니다 (예: 시나리오).'
 localization_priority: Normal
@@ -13,17 +14,17 @@ ms.custom: Teams-upgrade-guidance
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
 - ms.teamsadmincenter.upgradeoverride.learnmore
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d662dfd98aa4706d32a7e9ba3bec06d5e32ae975
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 7509d0f3d6e3e557f6b7ccd388f7b9b340705bba
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "36185234"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236579"
 ---
 ![여행 다이어그램 업그레이드, 배포 및 구현 강조] (media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
 

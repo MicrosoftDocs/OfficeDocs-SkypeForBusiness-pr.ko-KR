@@ -3,6 +3,7 @@ title: Microsoft 팀 클라우드 음성 서비스 배포
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: admin
 ms.date: 05/16/2018
 ms.topic: conceptual
 ms.service: msteams
@@ -10,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 사이트 사용 Playbook을 다운로드 하 여 팀의 출시를 계획 하 고 사용자 채택을 향상 하 고 최적화 하며, 품질 및 만족도를 높입니다.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65878cc54973b67a604b08d3579553bca6ca8e4a
-ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
+ms.openlocfilehash: 17b73629aa874232a449605b45f97ea10e445204
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "36184004"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233029"
 ---
 # <a name="deploy-my-service"></a>내 서비스 배포
 

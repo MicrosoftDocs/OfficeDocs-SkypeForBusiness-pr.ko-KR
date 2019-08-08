@@ -7,20 +7,21 @@ manager: serdars
 ms.date: 04/19/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: Microsoft 팀 관리 센터에서 Microsoft 팀 사용자 설정을 대량으로 관리 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.edit
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a80b39513fe86e0c49cd88988cb3f245129b2d0
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 9585266ff2af124a1b9985c4cf18d842bc45af5c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36184322"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236784"
 ---
 # <a name="edit-microsoft-teams-user-settings-in-bulk"></a>대량으로 Microsoft 팀 사용자 설정 편집
 

@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 비즈니스용 Skype에서 팀으로 업그레이드 하기 위한 10 단계 빠른 작업 계획으로 conjunciton에서 사용할 수 있는 샘플 전자 메일 및 설문 조사
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d34162e2b7f363abd9ecf635cff993cdbd843da
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27dc5a5daf92ce0dad214dcc5cf8c26bbc78ea6d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "36182123"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236390"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>기본 통신 업그레이드를 위한 예제 전자 메일 및 설문 조사
 

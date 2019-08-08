@@ -7,20 +7,21 @@ ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
+audience: admin
 description: 감사 및 보고, 준수 콘텐츠 검색, eDiscovery 등의 Microsoft 팀의 보안 및 규정 준수 기능에 대해 간략하게 설명 합니다.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7582a7890b13c2879a672f87c90e9e646557dbc0
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: d9e9b07ed1ca995d673ef6ea79652cb880c4dff6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "36184868"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243192"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 준수에 대 한 개요
 ======================================================
@@ -121,10 +122,14 @@ Office 365 보안 & 준수에 대 한 자세한 내용은 [향상 된 보안을 
 <a name="location-of-data-in-teams"></a>팀의 데이터 위치
 -------------------------
 
-팀의 데이터는 Office 365 테 넌 트와 연결 된 지리적 영역에 위치 합니다. 현재, 팀은 오스트레일리아, 캐나다, 프랑스, 인도, 일본, 영국, 미주, APAC 및 EMEA 지역을 지원 합니다. 
+팀의 데이터는 Office 365 테 넌 트와 연결 된 지리적 영역에 위치 합니다. 현재, 팀은 오스트레일리아, 캐나다, 프랑스, 인도, 일본, 영국, 대한민국, 남아프리카, 미주, APAC, EMEA 지역을 지원 합니다. 
 
 > [!IMPORTANT]
-> 현재 팀은 오스트레일리아, 캐나다, 프랑스, 인도, 일본, 영국 등의 데이터 영주권 새 테 넌 트 전용으로 사용할 것을 제안 합니다. 새 테 넌 트가 테 넌 트에서 팀에 로그인 한 사용자가 없는 모든 테 넌 트로 정의 됩니다. 오스트레일리아, 인도, 일본의 기존 테 넌 트에는 계속 해 서 자신의 팀 데이터가 APAC 지역에 저장 됩니다. 캐나다의 기존 테 넌 트는 계속 해 서 해당 데이터를 미주에 저장 합니다. 프랑스의 기존 테 넌 트와 영국에는 계속 해 서 해당 데이터가 EMEA 지역에 저장 됩니다.
+> 팀은 현재 오스트레일리아, 캐나다, 프랑스, 인도, 일본, 영국, 대한민국, 대한민국, 그리고 새 테 넌 트에 대해서만 남아프리카 공화국로 데이터 영주권을 제공 합니다. 새 테 넌 트가 테 넌 트에서 팀에 로그인 한 사용자가 없는 모든 테 넌 트로 정의 됩니다. 오스트레일리아, 인도, 일본, 대한민국의 기존 테 넌 트는 계속 해 서 자신의 팀 데이터를 APAC 지역에 저장 합니다. 캐나다의 기존 테 넌 트는 계속 해 서 해당 데이터를 미주에 저장 합니다. 프랑스, 영국 및 남아프리카 공화국의 기존 테 넌 트는 계속 해 서 EMEA 지역에 데이터를 저장 합니다.
+
+팀에 대 한 남아프리카 데이터 영주권에 대 한 자세한 내용은 Vargar의 블로그 게시물에서 찾을 수 있으며, [Microsoft 팀은 남아프리카 데이터 영주권를 시작](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Africa-Data-Residency/ba-p/776611)합니다.
+
+팀의 영주권 데이터에 대 한 자세한 내용은 Varun Sagar의 블로그 게시물을 참조 하 여 [Microsoft 팀에서 동남 한국식 Data 영주권을 시작](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Korea-Data-Residency/ba-p/789171)합니다.
 
 팀에 대 한 인도 및 영국 데이터 영주권의 출시에 대해 자세히 알아보려면, [Microsoft 팀에서 인도 데이터 영주권, 다른 geos가 출시](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827)되는 등의 블로그 게시물을 참조 하세요. 
 

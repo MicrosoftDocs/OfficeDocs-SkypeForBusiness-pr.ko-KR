@@ -5,20 +5,21 @@ ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: ''
 search.appverid: MET150
 description: Microsoft 팀 용 Moodle 통합 앱을 설치 하 고 구성 하는 방법 알아보기
 keywords: 팀 Moodle 앱 통합 플러그 인
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f0350e3dd57988065cc04443aca83c6c19dbab1
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 4b712a6261a73472b6f134e3b38359f30e489cce
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "36183647"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245383"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Microsoft 팀과 Moodle 통합 설치
 

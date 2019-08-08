@@ -6,21 +6,19 @@ manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: reference
-ms.service:
-- msteams
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 이 문서를 참조 하 여 직접 라우팅에 대 한 미디어 경로 국가 코드를 찾습니다.
-ms.openlocfilehash: 8ab2a6b9dbcbb676362c9fc7e39637aff0724a53
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 5956f538df5aefc356e960f8eb2817602ef99884
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36184589"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237460"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>직접 라우팅 미디어 경로 국가 코드
 

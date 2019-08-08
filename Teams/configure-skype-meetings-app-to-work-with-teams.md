@@ -7,19 +7,20 @@ manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: 관리자는 Microsoft 팀 관리 센터를 사용 하 여 팀과 공동 작업 하도록 Skype 모임 앱을 구성할 수 있습니다.
-MS.collection:
+ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8d79a7afa03d071984aac2bdca874ecde7703c8
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 227ac287958634ee699a29990149a494a00b2078
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36184352"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236865"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>팀과 함께 작동 하도록 Skype 모임 앱 구성
 ===================================================

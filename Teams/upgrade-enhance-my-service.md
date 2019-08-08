@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 업그레이드 한 후 팀 서비스를 향상 시킬 수 있는 기회를 정기적으로 평가 하 고 팀 로드맵을 모니터링 하 여 흥미로운 기능을 개선 했습니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3a577f3d43e3eb6942a5fdd1d704a74adfc0b67
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: ff5cbba5f66e409a1c079f7a5f24170adb5c3e41
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36183902"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236462"
 ---
 ![여행 다이어그램을 업그레이드 하 여 뛰어난 작업 단계 강조] 운영에 대 한 다양 한 (media/upgrade-banner-op-excellence.png "단계의 강조를 통해 업그레이드 여행 단계")
 

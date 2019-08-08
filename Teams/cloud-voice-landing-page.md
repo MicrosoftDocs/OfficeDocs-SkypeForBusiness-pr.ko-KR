@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -15,12 +16,12 @@ search.appverid: MET150
 description: 팀에서 클라우드 음성을 배포 하기 위한 랜딩 페이지
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a1d806da91dd2bf84fd7590f777605452370d40
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: d7a17e207911ad4865cef5b82f7fe7f5f143a172
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36183548"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236982"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft 팀의 클라우드 음성
 

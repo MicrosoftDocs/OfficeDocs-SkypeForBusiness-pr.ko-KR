@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: '요약: 비즈니스용 Skype 클라이언트에서 Office 사용자 지정 도구를 사용 하는 방법을 설명 합니다.'
-ms.openlocfilehash: a71ab8947d964dff90510257c4a8b2cbffb3be96
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e7eb331c1b63a9e6a94ae3920e65ef57f426fbb0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197713"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234843"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 OCT (Office 사용자 지정 도구) 사용
  

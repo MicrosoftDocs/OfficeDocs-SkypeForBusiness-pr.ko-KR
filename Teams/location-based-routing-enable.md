@@ -7,6 +7,7 @@ ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: 직접 라우팅에 대해 위치 기반 라우팅을 사용 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
@@ -16,12 +17,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e68b239d00e67d942f80a259facb87c80ddf2a55
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 160a4646ba212c9e654ec06fca2fdd107b2671c7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36181592"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245131"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>직접 라우팅에 위치 기반 라우팅 사용
 

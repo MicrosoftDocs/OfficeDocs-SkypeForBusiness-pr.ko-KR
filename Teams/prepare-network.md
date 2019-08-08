@@ -7,20 +7,21 @@ ms.date: 03/25/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: arachman
+audience: admin
 description: Microsoft 팀 네트워크를 준비 하 고 관리 하는 방법을 알아보세요. 정보에는 네트워크 요구 사항, 대역폭 요구 사항, 추가 고려 사항 등이 포함 됩니다.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 041c391f202ac42b782ffc200db9ad495961fa52
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: 31c06403dc3dec9322e984e012fe597254db8f33
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207151"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235506"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft 팀을 위한 조직의 네트워크 준비
 

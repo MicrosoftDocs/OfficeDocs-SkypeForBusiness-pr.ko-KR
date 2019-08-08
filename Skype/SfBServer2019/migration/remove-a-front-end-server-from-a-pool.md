@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 프런트 엔드 서버는 독립 실행형 컴퓨터로 존재할 수 없습니다. 풀에 하나의 컴퓨터만 있는 경우에도 프런트 엔드 풀로 정의 되어야 합니다.
-ms.openlocfilehash: 5c1cd06e4cbe5cd6cecd8484e9c7874fb5ba590e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 64f0c4134f690005815591bce88b8d058c1bd007
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197175"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244531"
 ---
 # <a name="remove-a-front-end-server-from-a-pool"></a>풀에서 프런트 엔드 서버 제거
 

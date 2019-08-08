@@ -6,6 +6,7 @@ ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
 manager: serdars
+audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
@@ -13,12 +14,12 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d552f73f396ae09ca9f355dbb56f5145298e00b
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 7acbc4df32c7e51fc2bae175410dd68cf7641506
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36183731"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235362"
 ---
 # <a name="teams-for-education"></a>교육용 팀
 

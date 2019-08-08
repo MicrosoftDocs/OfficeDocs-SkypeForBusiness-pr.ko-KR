@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '요약: 비즈니스용 Skype 서버를 Skype 소비자와 연결 하는 방법에 대해 알아보세요. Skype 연결도 라고도 합니다.'
-ms.openlocfilehash: eae06688e06f143011d4bd6559d6bcbb7b9b61aa
-ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
+ms.openlocfilehash: b41e974b2162826f375f2cce2b2eabbae320871b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "36197982"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235707"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 Skype 연결 배포
 

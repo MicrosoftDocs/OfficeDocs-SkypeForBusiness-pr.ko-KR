@@ -8,19 +8,19 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 의료 조직의 팀 템플릿 시작 하기
-ms.openlocfilehash: 38b2067bc91a79ff2efa8bc20726ad14d793aa24
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 437a645a0ab32024e81f3c73ba0db09b08267b3d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36181655"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232253"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>의료 조직의 팀 템플릿 시작 하기
 

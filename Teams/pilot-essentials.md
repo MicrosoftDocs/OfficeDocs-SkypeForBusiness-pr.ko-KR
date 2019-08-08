@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 비즈니스용 Skype를 계속 사용 하면서 팀이 조직에 제공할 수 있는 모든 작업을 살펴보기 위해 Microsoft 팀 파일럿을 시작 하기 위한 지침
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 824b14ba49391720305778e676bb47850d836196
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: fa6f433c3888a9d3b3e20b098562592ea90b5e6f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "36183674"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237857"
 ---
 ![여행 다이어그램 업그레이드, 배포 및 구현 강조 표시] (media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
 

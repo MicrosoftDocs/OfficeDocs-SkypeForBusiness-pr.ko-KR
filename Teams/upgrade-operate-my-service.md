@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 서비스 상태 모니터링, 네트워크 품질 및 사용량 평가 및 확인을 비롯 한 팀 서비스 관리에 필요한 작업 및 활동
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8060eae2a354f041b970f61729449eda6179188
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: b7be47504bab7c12803dee3728fcc872ce3a73ca
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "36184193"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236497"
 ---
 ![여행 다이어그램을 업그레이드 하 여 뛰어난 작업 단계 강조] 운영에 대 한 다양 한 (media/upgrade-banner-op-excellence.png "단계의 강조를 통해 업그레이드 여행 단계")
 

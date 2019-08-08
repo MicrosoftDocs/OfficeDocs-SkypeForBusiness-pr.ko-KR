@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 검사 목록을 완료 하 여 Microsoft 팀 채택을 시작 합니다.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222973b0377e8a8568a5a170aca0a11e23ea2fd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9050959ba070bfae99ee077dedfd1b503bea1c2c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "36182156"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237819"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft 팀 채택 빠른 시작 검사 목록
 

@@ -6,20 +6,21 @@ ms.reviewer: lisawu
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: 보고서를 실행 하 여 조직의 활성 StaffHub 사용자 목록을 가져오는 방법을 알아봅니다.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1d13052751a43f3dba3e17c12d8e66d9afaf9dd
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: eb337fdb79c0977f4bcacd782d6705947b5b8466
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184046"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235389"
 ---
 # <a name="run-a-report-to-show-active-staffhub-usage"></a>보고서를 실행 하 여 활성 StaffHub 사용 현황 표시
 

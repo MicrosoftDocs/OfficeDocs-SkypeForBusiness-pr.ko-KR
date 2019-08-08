@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: '요약: 비즈니스용 Skype 서버의 토폴로지 작성기에서 중재 서버를 정의 하 고 배포 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 61b90bb874d96579d975a1672238a7427350a5dc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 23d1567816c56408b276672fdd0330b0aa3d635c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190089"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245813"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 토폴로지 작성기에서 중재 서버 배포
  

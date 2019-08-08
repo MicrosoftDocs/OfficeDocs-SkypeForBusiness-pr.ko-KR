@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 03/16/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: rowille
 description: 서비스, 네트워크 및 끝점 상태를 관리 하 고 운영 및 품질 챔피언 역할을 정의 하 여 고품질 팀의 사용자 환경을 제공 합니다.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbee758f45e743fa17848af14e960ede5830dcd0
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 76bac106b9655e2c7fe9df9984e455a14db46209
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "36184199"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236511"
 ---
 # <a name="plan-for-service-management-and-quality"></a>서비스 관리 및 품질 계획
 

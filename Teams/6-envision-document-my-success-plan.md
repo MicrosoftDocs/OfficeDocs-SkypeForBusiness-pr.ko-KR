@@ -3,6 +3,7 @@ title: Microsoft 팀의 성공 계획 문서화
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: ITPro
 ms.date: 03/13/2018
 ms.topic: conceptual
 ms.service: msteams
@@ -10,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 배포 모델을 선택 하 고 책임을 맡고 있는 (RACI) 매트릭스를 개발 하 고 실행 및 관리 계획을 만듭니다.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e30450aaf09e6f2a0d1dbee828a1936fce1eea78
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 5f324c703c71adbcabedc71d9a5fdb6a4ce63ca0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "36183527"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245453"
 ---
 # <a name="document-my-success-plan"></a>내 성공 계획 문서화
 

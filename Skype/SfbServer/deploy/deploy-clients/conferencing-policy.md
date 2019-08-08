@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 ms.reviewer: davgroom
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Skype 대화방 시스템 계정에 대 한 회의 정책을 할당 하는 방법을 알아보려면이 항목을 읽으십시오.
-ms.openlocfilehash: 5662778c14d8f987e26b36eaca252fbd8a6ea98c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5c34ad8a397cc18fe6d9b67be421bfd6ce1d4435
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190479"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234486"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype 대화방 시스템 계정에 대 한 회의 정책
  

@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: reference
 ms.service: msteams
+audience: admin
 ms.reviewer: Rowille
 description: Microsoft 팀의 오디오 회의를 IT 관리자에 게 소개 하는 비디오입니다.
 localization_priority: Normal
@@ -16,12 +17,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 435c35ce982ce18b93091f1832645c2c626228b4
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: c9cce3bd2b75c175698518f42cffad3028416127
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "36184232"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235767"
 ---
 <a name="videos-audio-conferencing-in-microsoft-teams"></a>비디오: Microsoft 팀의 오디오 회의
 =============================================

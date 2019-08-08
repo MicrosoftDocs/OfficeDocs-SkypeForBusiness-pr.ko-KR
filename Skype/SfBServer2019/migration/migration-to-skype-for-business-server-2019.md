@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 이 섹션의 항목에서는 비즈니스용 Skype Server 2019로 마이그레이션하는 과정을 안내 합니다.
-ms.openlocfilehash: bd1513e5ca2a33449f982394e4abc15b9616393b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8e58eaa3870e8149e874a1ec196a728976f429f3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196951"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238088"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019 마이그레이션
 

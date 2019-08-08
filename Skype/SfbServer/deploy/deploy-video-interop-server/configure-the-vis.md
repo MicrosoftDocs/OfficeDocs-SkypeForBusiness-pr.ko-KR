@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: '요약: 비즈니스용 Skype 서버에서 VIS (비디오 Interop Server) 역할을 구성 합니다.'
-ms.openlocfilehash: 3c0b211897afdde0fc0a01e255cdc14bc466f65c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9ac7b64b33c48bd4010c1431b5c0d658f223599a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197349"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235684"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 비디오 Interop 서버 구성
  

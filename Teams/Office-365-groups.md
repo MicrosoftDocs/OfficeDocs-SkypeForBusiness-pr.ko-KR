@@ -6,21 +6,22 @@ ms.author: lolaj
 manager: serdars
 ms.date: 04/16/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 description: Microsoft 팀에서 Office 365 그룹 및 그룹 구성원을 사용 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a104200d8138f65e84113e38b19527c070ea2f08
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 9734404e767e9769a44a09fa7afe22bf251e4ba7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "36183521"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245450"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 그룹 및 Microsoft 팀
 =====================================

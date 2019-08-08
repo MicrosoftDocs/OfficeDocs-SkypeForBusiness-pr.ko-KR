@@ -5,22 +5,23 @@ ms.author: kenwith
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 search.appverid: MET150
 description: 비즈니스용 Skype에서 Microsoft 팀으로 여행을 계속 하기 위한 지침
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a9bc092f458533c95e2431ac8f23ba98abd8bd7
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 74471d45e99742774133477f6b978939864aab2e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36183878"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236817"
 ---
 ![여행 다이어그램을 업그레이드 하 여 뛰어난 작업 단계 강조] 운영에 대 한 다양 한 (media/upgrade-banner-op-excellence.png "단계의 강조를 통해 업그레이드 여행 단계")
 

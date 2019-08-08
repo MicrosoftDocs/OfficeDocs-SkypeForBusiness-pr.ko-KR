@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: '요약: 비즈니스용 Skype 서버에서 번역 규칙 작성 도구를 사용 하 여 번역 규칙을 정의 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 13e89fd836c971085a3a1fc40b7e60793e10eb68
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3c72e53044abe44660423bbd9bc1adbbeed2a3ed
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187434"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234002"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 호출 된 ID 프레젠테이션에 대 한 번역 규칙 만들기 또는 수정
 

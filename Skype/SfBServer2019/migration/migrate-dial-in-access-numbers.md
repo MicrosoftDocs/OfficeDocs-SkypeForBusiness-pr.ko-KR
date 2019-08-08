@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 전화 접속 액세스 번호를 비즈니스용 Skype 서버 2019로 마이그레이션하면 contact 개체를 마이그레이션하기 위해 CsApplicationEndpoint cmdlet을 실행 해야 합니다. 레거시 설치 및 비즈니스용 Skype Server 2019 공존 기간 동안 비즈니스용 Skype Server 2019에서 만든 전화 접속 액세스 번호가 레거시 설치에서 만든 전화 접속 액세스 번호와 유사 하 게 작동 합니다 (이 문서에서 설명). 여기.
-ms.openlocfilehash: 83cf8b75bcf9a8d4794ae0f95962f3627d8592c1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 81f100979d009f4f9b48cf9a538ec92095a67ad8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189078"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238733"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>전화 접속 액세스 번호 마이그레이션
 

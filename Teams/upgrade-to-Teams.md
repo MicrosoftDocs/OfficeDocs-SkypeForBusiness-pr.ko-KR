@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 현재 비즈니스용 Skype 배포에 따라 Microsoft 팀에 대 한 업그레이드 경로를 선택 합니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d78df5b35ae0e63544f68fd8fe335cf98eb41033
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31f0e387be6b8dbb4d543b872330377e8fb695d9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "36182105"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235889"
 ---
 ![배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계] (media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
 

@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 팀의 채택을 위해 실험 단계에서 초기에 만든이를 선택한 다음 프로젝트에 대 한 의견을 수집 합니다.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d639b3fc0a0712a9623121673aadfea8a99d0f1
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: eb2c890ad47a6c57a550ec607b84d12dcdf5c26c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36183938"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242308"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Microsoft 팀에 대 한 조기 등록 및 의견 수집
 

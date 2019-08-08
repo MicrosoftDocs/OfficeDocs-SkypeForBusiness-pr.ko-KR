@@ -7,22 +7,23 @@ ms.date: 08/7/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
+audience: admin
 description: Office 365 조 직에 대해 Microsoft 팀을 설정 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e68746631b6e30aedac347c8fb1c0c3c24d26675
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3689d76df2a3f867f3d90149572c185574af46e8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36180429"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36246210"
 ---
 # <a name="enable-teams-in-your-organization"></a>조직에서 팀 사용
 

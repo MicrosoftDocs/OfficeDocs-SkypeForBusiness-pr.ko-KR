@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sbhatta
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: PowerShell을 사용 하 여 Microsoft 팀의 팀에 대 한 게스트 액세스를 허용 하거나 차단 합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b429d4e2411e697c4e3357ebd7b5fc66ab27376
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 7e106dc56f56b5e26dd56384931deeecdd889305
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184289"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235880"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>PowerShell을 사용 하 여 팀에 대 한 게스트 액세스 제어
 ================================================

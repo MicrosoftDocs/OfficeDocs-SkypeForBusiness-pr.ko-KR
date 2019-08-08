@@ -5,22 +5,23 @@ ms.author: dstrome
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: Microsoft 팀과 함께 사용할 Exchange 하이브리드 조직을 구성 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3b41f0ae30fb0c21baab1f7e01b86e79300008e
-ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
+ms.openlocfilehash: 68b2fee13668db8ba3986302d58bc16b0fa89080
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "36182231"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235464"
 ---
 <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Microsoft 팀과 함께 사용할 Exchange 하이브리드 조직 구성
 ======================================================================

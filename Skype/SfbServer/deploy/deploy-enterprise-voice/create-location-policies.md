@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: 비즈니스용 Skype Server Enterprise Voice에서 향상 된 응급 서비스 (E9-1-1) 위치 정책을 구성 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: e3e98394b660174eeb58b259de0121196934ad3c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 24bcd891bd30a007411fd2436219c4c10ead0c24
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190470"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233730"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 위치 정책 만들기
 

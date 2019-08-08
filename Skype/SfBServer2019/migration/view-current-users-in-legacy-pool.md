@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 풀 간에 사용자를 이동할 수 있는 다양 한 방법을 배우기 전에 먼저 레거시 풀에 존재 하는 사용자를 결정 해야 합니다. 레지스트라 풀 열은 레거시 풀에 대해 구성 된 사용자를 식별 합니다. 다음은 비즈니스용 Skype Server 2019 풀로 이동 하는 테스트 사용자입니다.
-ms.openlocfilehash: abcb7066ebcc58e603861985673584249edef1ad
-ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
+ms.openlocfilehash: d5ef86d1750cb0a6bb770adf0c75628d9229d83a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "36197986"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243984"
 ---
 # <a name="view-current-users-in-legacy-pool"></a>레거시 풀의 현재 사용자 보기
 

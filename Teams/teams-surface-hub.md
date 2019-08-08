@@ -13,17 +13,17 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom:
 - Devices
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 086edb4f7c949154dae49cb6a371a1d9d11bc43a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 70398d6718268742205181db3fd21bfc01886c0e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36180675"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235045"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Surface Hub 용 Microsoft 팀 배포
 ======================================

@@ -5,17 +5,17 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: httpsfix
 description: 다음 항목에서는 DNS 항목 업데이트, 콘텐츠 관리 서버 이동, 풀 서비스 해제, 레거시 배포에서 서버 및 풀 비활성화 및 제거에 대 한 지침을 제공 합니다. 이 섹션에 나열 된 절차 중 일부는 필요 하지 않습니다. 설명서를 읽고 사용할 서비스 해제 프로시저를 결정 합니다.
-ms.openlocfilehash: 4110e45b2790204e96205dd9552e14fa9c359446
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5edad470bcd7bcf0340a311a890f73ef01645138
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186642"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237283"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>8 단계: 레거시 풀 서비스 해제
 

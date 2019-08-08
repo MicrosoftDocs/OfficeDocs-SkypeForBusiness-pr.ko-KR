@@ -6,8 +6,9 @@ manager: serdars
 ms.date: 10/10/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 ms.reviewer: karuanag
@@ -15,12 +16,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 도움말을 얻을 수 있는 모든 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc7fca2689810c0f78e14afeb954c161b5c8a2f8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d6089523326d3e445aa189a570938e1604a4bda0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36181646"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245906"
 ---
 <a name="get-help-in-microsoft-teams"></a>Microsoft 팀에서 도움말 보기
 ============================================

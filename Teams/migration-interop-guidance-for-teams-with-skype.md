@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: bjwhalen
 description: 비즈니스용 Skype에서 팀으로 전환 관리에 대 한 지침
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.teamsupgrade.overview
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6656cab6918cfa0b04da28f0197137a300bbf79
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: 6f8cfe994510c8364b4421f45b48bedfb9f2888f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207195"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239310"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>비즈니스용 Skype로 팀을 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침
 

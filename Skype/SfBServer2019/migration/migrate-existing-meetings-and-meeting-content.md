@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 사용자 계정이 비즈니스용 Skype 서버 2019 서버로 이동 되 면 다음 정보가 해당 사용자 계정으로 이동 됩니다.
-ms.openlocfilehash: 4b5c7981374f3e2bf6dc2d87a0b21d972ddb14ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c8f87b46054a93af87c938d3da7a2a86be9cb0bf
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191148"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238513"
 ---
 # <a name="migrate-existing-meetings-and-meeting-content"></a>기존 모임 및 모임 콘텐츠 마이그레이션
 

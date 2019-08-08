@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 관련자를 먼저 참여 한 다음 프로젝트의 범위를 지정 하 여 업그레이드를 계획 합니다.
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c35b8f7c6e400e9788b87fc41c5e5ed23b88b31f
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 8a72e32fc363d00c2da85be70a567551440ba942
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "36185222"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236062"
 ---
 ![팀 업그레이드 여행 다이어그램] (media/upgrade-banner-main.png "프로젝트가 올바른 프로젝트 팀의 성공을 위해 설정 되어 있는지 확인 합니다. 프로젝트 범위, 목표 및 시간 표시 막대를 정의 합니다. 기술 및 사용자 준비 모두를 확인 합니다. 롤아웃 계획을 실행 합니다. 통해 계속 앞서 유지 하 여 결과를 최대화 합니다.")
 

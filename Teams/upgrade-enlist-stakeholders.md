@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 프로젝트 팀이 업그레이드를 위해 관계자에 게 제공할 수 있도록 참여 합니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaed448429bfa5715250eb7cf28488771c1c785c
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: e248d0cc92cea65fe8eb3b4a2c05f70b4c11c124
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36183704"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236461"
 ---
 ![업그레이드 여행의 이해 관계자 상태를 보여 주는 그림] (media/upgrade-banner-stakeholders.png "프로젝트 이해 관계자 팀 수집에 대 한 강조를 통해 업그레이드 여행 단계")
 

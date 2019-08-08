@@ -8,20 +8,21 @@ ms.author: kenwith
 manager: serdars
 layout: LandingPage
 ms.date: 11/20/2018
+audience: admin
 ms.service: msteams
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b32ef752923beeb2d38dfc25443a7d3a9ad4d195
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 211ea38343c2bb62a8dec479c62a2c8c4d1ace9d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "36182087"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236657"
 ---
 # <a name="tools-for-driving-adoption"></a>추진 도구 
 

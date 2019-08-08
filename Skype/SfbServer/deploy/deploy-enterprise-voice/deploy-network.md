@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 비즈니스용 Skype 서버에서 네트워크 지역, 네트워크 사이트 및 네트워크 서브넷 연결을 만들거나 수정 합니다. 이러한 모든 기능은 고급 엔터프라이즈 음성 기능 (미디어 바이패스, 통화 허용 제어 및 위치 기반 라우팅)에 사용 됩니다.
-ms.openlocfilehash: 3ce0f4dcf011f57e25c4741c34135bc4ba62085a
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 237720373c78bcb4a3cb3ad0aed376f2dc136a71
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36197848"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245770"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>비즈니스용 Skype에서 네트워크 지역, 사이트 및 서브넷 배포
 

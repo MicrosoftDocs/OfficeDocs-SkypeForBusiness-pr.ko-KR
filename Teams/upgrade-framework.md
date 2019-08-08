@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 입증 된 성공 프레임 워크를 사용 하 여 비즈니스용 Skype에서 팀으로 조직의 업그레이드를 지원 합니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3049933069b6f7aaa2fcc52f77c6f85f485f34e
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 52564961f3737b3b5ed9c48686adab1fe040b44d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "36185231"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236412"
 ---
 # <a name="about-the-upgrade-framework"></a>업그레이드 프레임 워크 정보
 

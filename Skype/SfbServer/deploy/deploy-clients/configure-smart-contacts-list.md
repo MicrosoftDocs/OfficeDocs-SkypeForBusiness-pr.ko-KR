@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: '요약: 비즈니스용 Skype 클라이언트에서 스마트 연락처 목록 기능을 설정 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 0deb90293ddf4f1a6627eb4bff86d7d8eb0ae5c9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 17981e13c239241f050704b7c98593f95a29ab27
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190473"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234490"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>비즈니스용 Skype 클라이언트에서 스마트 연락처 목록 구성
 

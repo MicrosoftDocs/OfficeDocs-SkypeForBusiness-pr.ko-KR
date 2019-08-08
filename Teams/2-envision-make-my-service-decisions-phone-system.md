@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 통화 요금제와 라이선스 중에서 선택 하 고, 보이스 메일 및 발신자 ID, 전화 번호 취득 또는 전송 등의 응급 위치 및 기능을 구성할 수 있습니다.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 513519e95951676dc9e5a9b69d2fe3c5ace2824b
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: ddc618a4b68c8a620568eba5ae2ed52d17096b30
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "36181964"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233081"
 ---
 # <a name="make-my-service-decisions"></a>내 서비스 결정 하기
 

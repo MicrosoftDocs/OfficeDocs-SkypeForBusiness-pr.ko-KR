@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: 비즈니스용 Skype Server Enterprise Voice에서 그룹 통화 픽업 번호 범위를 만들거나 수정 합니다.
-ms.openlocfilehash: e81762e83598a9089e25536c74754bf11aae704f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3098d7cf1554586dd2fd2ace934682ae58a90489
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190428"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233680"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>비즈니스용 Skype에서 그룹 통화 픽업 번호 범위 만들기 또는 수정
 

@@ -4,22 +4,23 @@ author: dstrome
 ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: Microsoft 팀과 팀 만들기 및 참가, 채널 만들기 등의 다양 한 Exchange 기능 간에 어떤 기능이 존재 하는지 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bedaee766005787bb7b532f4f5561faf91dd35d
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: d89d9ed514eb5246911fe88d5fadc1af79caff1b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184802"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245406"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 및 Microsoft 팀의 상호 작용 방식
 
