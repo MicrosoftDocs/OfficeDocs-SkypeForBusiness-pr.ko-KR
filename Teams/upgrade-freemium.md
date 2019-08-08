@@ -7,22 +7,23 @@ ms.date: 12/20/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
+audience: admin
 search.appverid: MET150
 description: 무료 버전의 Microsoft 팀을 업그레이드 하는 방법 알아보기
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ccc20ae70b21e5a6738c8a0956b7c73cff8b7b9
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 881437654744ef1d314f239ee98b7119e774cd00
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "36184892"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236401"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Microsoft 팀의 무료 Office 365 구독 버전 업그레이드
 ======================================================

@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: 비즈니스용 Skype 서버는 서버 풀링을 사용 하 여 높은 가용성을 제공 하 고, 풀 페어링을 사용한 재해 복구, AlwaysOn 가용성 그룹, 데이터베이스 미러링, SQL 장애 조치 클러스터링을 비롯 한 백 엔드 서버의 높은 가용성 모드 중 몇 가지입니다.
-ms.openlocfilehash: 7997f71fb1f45801436caa50c4d6b258cc1b843b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cb4d39df7f6a12a14c25533d8c6fb1ae95da24d4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197730"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240065"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>고가용성 및 재해 복구 배포
  

@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: lolaj, rowille
 description: 조직에서 Microsoft 팀을 시작 하는 데 도움이 되는 계획 도구, 워크샵, 시작 키트를 참조 하세요.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fe995522f1557ed18c8edc0713f3c219b626dcb
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: fa67b6f788edfabb361b7390ce460f4af812d305
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "36181958"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237645"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>도구 및 워크샵: Microsoft 팀 계획, 제공 및 채택
 

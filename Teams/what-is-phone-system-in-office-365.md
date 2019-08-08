@@ -20,16 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '전화 시스템에서 수행할 수 있는 작업에 대해 알아봅니다. '
-ms.openlocfilehash: 14ac7202232fc69636d4019e701cd562302026dd
-ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
+ms.openlocfilehash: e0b6032d523517f11e02538603d8b4dfcc8ea3a4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "36184823"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237292"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365의 전화 시스템 이란?
-
-## <a name="phone-system-in-office-365-and-skype-for-business-server"></a>Office 365 및 비즈니스용 Skype 서버의 전화 시스템
 
 **전화 시스템** 은 비즈니스용 Skype Online 및 Microsoft 팀을 사용 하 여 Office 365 클라우드에서 통화 제어 및 PBX 기능을 사용 하도록 설정 하기 위한 Microsoft 기술입니다. 전화 시스템을 사용 하면 기존 PBX 시스템을 Office 365에서 제공 하는 기능 집합으로 바꾸고 조직의 클라우드 환경에 긴밀 하 게 통합할 수 있습니다. 기능에 대 한 자세한 내용은 [Office 365에서 전화 시스템을 사용 하 여 얻을 수](here-s-what-you-get-with-phone-system.md)있는 기능을 참조 하세요.
   

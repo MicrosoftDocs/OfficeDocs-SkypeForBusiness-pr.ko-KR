@@ -7,7 +7,7 @@ ms.reviewer: jotaing
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 팀 구성원을 채널 중재자로 추가 하는 방법을 포함 하 여 Microsoft 팀에서 중재를 위해 채널을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 62a184334e337b1e5f30e2373223db1fe52ea477
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: 93fb0a6d8a88979d14031792ccf96a8861629b1d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "36185048"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244978"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft 팀에서 채널 중재 설정 및 관리
 

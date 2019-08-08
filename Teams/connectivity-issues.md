@@ -7,19 +7,20 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: troubleshooting
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 description: 방화벽 또는 프록시 연결로 인해 발생 하는 Microsoft 팀 클라이언트의 연결 문제를 해결 하 고이를 해결 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d208671415e44ca5ec83313d0d8af666534f2b20
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 79718ebc58205cd63ab291f0985e4dd7e452be3e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36180486"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236842"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Microsoft 팀 클라이언트의 연결 문제 해결
 ==============================================================

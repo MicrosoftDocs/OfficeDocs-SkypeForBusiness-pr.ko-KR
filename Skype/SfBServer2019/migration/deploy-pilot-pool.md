@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 비즈니스용 Skype Server 2019 마이그레이션에 필요한 첫 번째 단계 중 하나는 파일럿 풀을 배포 하는 것입니다. 파일럿 풀은 레거시 배포의 비즈니스용 Skype 서버 2019 공존을 테스트 하는 위치입니다. 공존은 모든 사용자와 풀을 비즈니스용 Skype 서버 2019으로 이동할 때까지 지속 되는 임시 상태입니다.
-ms.openlocfilehash: 3642d603b5923a554b8eca41a948125ef25526ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dc0e5b984aaa9ed931f3937b253fbe40aef9b051
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189093"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238858"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>비즈니스용 Skype 서버 배포 2019 파일럿 풀
 

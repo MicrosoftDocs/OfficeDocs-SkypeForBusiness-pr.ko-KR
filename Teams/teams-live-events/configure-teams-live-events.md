@@ -7,21 +7,22 @@ ms.date: 03/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
+audience: admin
 search.appverid: MET150
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 조직에 보유 된 팀의 live 이벤트에 대 한 설정을 관리 하는 방법에 대해 알아봅니다.
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 734186e12187540f65b0c62da8c6ce56e7cb4fbb
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 6a1d60ce0e8796d038c6ea8890066c1aee5f0ec6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184754"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243705"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 설정 구성
 

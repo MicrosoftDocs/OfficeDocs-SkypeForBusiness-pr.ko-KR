@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 비즈니스용 Skype 서버 2019에서 비즈니스용 Skype Server 2019 구성 요소를 포함 하는 네트워크 사이트를 정의 합니다. 사이트는 단일 LAN 또는 고속 광섬유 네트워크로 연결 된 두 대의 네트워크와 같이 고속의 짧은 대기 네트워크로 연결 되는 컴퓨터 집합입니다..
-ms.openlocfilehash: 8f50f25536e330a03440702614f81c09ce74518a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1ad93a512a1aab596e08744f76d74e2e41a9faa5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196953"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238141"
 ---
 # <a name="migration-phases"></a>마이그레이션 단계
 

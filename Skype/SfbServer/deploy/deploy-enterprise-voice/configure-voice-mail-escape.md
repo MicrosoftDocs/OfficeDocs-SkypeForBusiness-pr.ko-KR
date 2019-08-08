@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: '요약: 비즈니스용 skype 서버 관리 셸을 사용 하 여 비즈니스용 Skype 서버에서 음성 메일 esc를 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 89c449f538fee2f5230cb66a664317cada723220
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c9a858ead9261944c162cb10fda63840f8de86d3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191355"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233793"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>비즈니스용 Skype에서 음성 메일 esc 구성
 

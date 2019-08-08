@@ -2,25 +2,26 @@
 title: Microsoft 팀의 운영 가이드
 author: rmw2890
 ms.author: Rowille
+audience: admin
 manager: serdars
 ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 description: 서비스 상태 모니터링, 네트워크 품질과 사용량 평가 및 확인을 비롯 한 팀 서비스 관리에 필요한 작업 및 활동입니다.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bd43155e7a1a4eadc1a372ef3706912ff72cd50
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: a63cac388a777073f5c022e493a5abab51a12add
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "36184229"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244395"
 ---
 # <a name="operate-my-service"></a>내 서비스 운영
 

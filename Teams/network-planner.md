@@ -7,20 +7,21 @@ ms.date: 06/24/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+audience: admin
 description: 네트워크 Planner를 사용 하 여 Microsoft 팀의 네트워크 요구 사항을 결정 하는 방법을 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ea6a4a5989df0a780f75220ec314439f7dafcbe
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
+ms.openlocfilehash: 2f7cd39bce22c9dcbbb1c77b90a5b8956247a198
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "36185072"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239267"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft 팀을 위한 네트워크 Planner 사용
 

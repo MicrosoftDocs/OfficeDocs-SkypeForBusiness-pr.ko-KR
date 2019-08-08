@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: '요약: 비즈니스용 Skype 서버용 보관을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: 813911dba5bfc662ee1c6bea9dab99e34c031e98
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8611f83b6e3504d860cf37a7ad2c24c20b446671
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190485"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234518"
 ---
 # <a name="deploy-archiving-for-skype-for-business-server"></a>비즈니스용 Skype Server에 대 한 아카이빙 배포
  

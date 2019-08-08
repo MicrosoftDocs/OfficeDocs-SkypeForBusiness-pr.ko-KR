@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lucarras
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: 기본 제공 및 사용자 지정 탭을 사용 하 여 대화, 파일, 지도 등과 같은 기능을 포함 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4786d6464eb1264da442aba056f2e93508a3bea4
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: c8fb0fcd1fab0fc51319b72d5557caac836bcb51
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36184379"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237195"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Microsoft 팀에서 기본 제공 및 사용자 지정 탭 사용
 ==================================================

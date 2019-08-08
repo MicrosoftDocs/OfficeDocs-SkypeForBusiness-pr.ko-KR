@@ -6,19 +6,19 @@ ms.reviewer: Turgayo
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: M365-voice
 description: 대규모 배포에서 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 9a5bfd888d3d70703245841a8744449854c6ffb8
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: 48a2ddbed8ca5909ca527f7db872c6fa74737610
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "36184142"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243424"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>System Center Configuration Manager를 사용 하 여 Microsoft 팀 대화방 배포
 

@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: '요약: iOS 용 비즈니스용 Skype 앱을 설치 하 고 테스트 하는 방법입니다.'
-ms.openlocfilehash: 6d2bb63e5005a4e4888017a1dc450db9eaa368ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5bf40e3ed12b5d04c4be6d4b8bf96e8641838153
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196390"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234422"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>IOS 용 비즈니스용 Skype 설치 및 테스트
  

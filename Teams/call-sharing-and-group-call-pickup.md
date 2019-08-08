@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 통화 공유 및 그룹 통화 픽업 사용자는 사용자를 사용할 수 없는 경우 전화를 통해 들어오는 전화를 동료와 공유할 수 있습니다.
-ms.openlocfilehash: 02c6605f3a5ea1df3457eaadea9956727431a827
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: caf472f9829f9cf68ccb87a5081bc0b5cfae28f8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182273"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237170"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft 팀에서 공유 및 그룹 통화 걸기
 
@@ -48,11 +48,13 @@ Microsoft 팀의 통화 공유 및 그룹 통화 픽업 기능을 통해 사용�
 
 통화 그룹 만들기 및 알림 기본 설정은 사용자 구동 기능입니다. 관리자는 사용자를 위해 이러한 기능을 구성할 필요가 없습니다. 보안 그룹 또는 Office 365 그룹에서 통화 그룹을 만들 수 없습니다. 팀에서 만들어야 합니다.
 
-관리자는 사용자에 대 한 **Teamscallingpolicy AllowCallGroups** 설정을 통해 통화 그룹을 사용 하도록 설정 해야 합니다. 관리자는이 사용자가 통화 그룹을 구성할 수 있는지만 제어할 수 있습니다. 비트가 true로 설정 되 면 관리자는 사용자가 원하는 호출 그룹 사용자를 구성 하 고 추가 하는 것을 방지할 수 없습니다.
+관리자는 사용자에 대 한 **Teamscallingpolicy AllowCallGroups** 설정을 통해 통화 그룹을 사용 하도록 설정 해야 합니다. 관리자는 또한 팀 관리자 포털을 통해이를 활성화할 수 있습니다.  또한 구성 된 사용자는 클라이언트를 통해 직접 호출 그룹을 구성할 수 있습니다. 관리자 또는 최종 사용자는 서로에 대 한 구성을 차단할 수 없지만, 팀 관리자 포털 및 팀 클라이언트는이 관계를 두 위치에 정확 하 게 표시 해야 합니다. 
+
+중요: 관리자가 사용자에 대 한 통화 그룹을 끄면 (켜져 있고, 통화 그룹 관계가 구성 된 후) 관리자는 팀 관리 센터의 사용자에 대 한 통화 그룹 관계를 정리 하 여 잘못 된 통화 라우팅이 발생 하지 않도록 해야 합니다. 
 
 ## <a name="limitations"></a>따릅니다
 
-테 넌 트에는 최대 32768 개의 통화 그룹이 포함 될 수 있습니다. 각 통화 그룹에 최대 5 명의 사용자가 있을 수 있습니다. 
+테 넌 트에는 최대 32768 개의 통화 그룹이 포함 될 수 있습니다. 각 통화 그룹에 최대 25 명의 사용자가 있을 수 있습니다. 
 
 ## <a name="more-information"></a>추가 정보
 

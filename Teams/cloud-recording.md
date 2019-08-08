@@ -5,7 +5,8 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 ms.reviewer: sonua
@@ -13,12 +14,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 클라우드 음성 기능을 배포 하기 위한 실용적인 지침입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbb2d8ed9895044dd1cdb52e57663162def6e24b
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: bd749e00966c21677019d5d68d12e88287e96b45
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "36182204"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237033"
 ---
 # <a name="teams-cloud-meeting-recording"></a>팀 클라우드 모임 녹음/녹화
 

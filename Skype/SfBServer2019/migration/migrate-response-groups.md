@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 사용자를 비즈니스용 Skype 서버 2019 풀로 이동한 후에는 응답 그룹을 마이그레이션할 수 있습니다. 응답 그룹 마이그레이션에는 레거시 배포에서 비즈니스용 Skype Server 2019 풀로 에이전트 그룹, 큐, 워크플로, 오디오 파일, 응답 그룹 연락처 개체 복사 등이 포함 됩니다. 레거시 응답 그룹을 마이그레이션한 후에는 응답 그룹에 대 한 호출이 비즈니스용 Skype 서버 2019 풀의 응답 그룹 응용 프로그램에서 처리 됩니다. 응답 그룹에 대 한 호출은 더 이상 레거시 풀에서 처리 되지 않습니다.
-ms.openlocfilehash: cba50526748ca15c04513013e484b0e279410c1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b8d49205f4f54ca7c00a9aed0b6ac176c11cd617
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196958"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238463"
 ---
 # <a name="migrate-response-groups"></a>응답 그룹 마이그레이션
 

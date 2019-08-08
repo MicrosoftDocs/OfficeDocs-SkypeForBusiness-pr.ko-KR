@@ -11,20 +11,20 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: 이 문서에서는 Microsoft 팀 대화방을 지원 하기 위한 요구 사항을 요약 하 여 설명 합니다.
-ms.openlocfilehash: 7e78c2f33a52d5848b8b996c65fefbeabdab4c3e
-ms.sourcegitcommit: dcc5c09e6b891fe44c9d2cf384fe7ef678e7768c
+ms.openlocfilehash: a964511cbb0df2cd4d6843589423e1b7cbe88cd0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "36185144"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243358"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 팀 방에 대 한 요구 사항
 
 이 문서에서는 Microsoft 팀 대화방을 지원 하기 위한 요구 사항을 요약 하 여 설명 합니다. 
 
-배포에는 microsoft 팀 [대화방 배포](room-systems-v2.md) 에 설명 된 대로 계정 만들기와 [microsoft 팀 대화방 콘솔 구성](console.md)에 설명 된 대로 모임 콘솔 설정이 포함 됩니다. 
+배포에는 microsoft 팀 [대화방 배포](room-systems-v2.md) 에 설명 된 대로 계정 만들기와 [microsoft 팀 대화방 콘솔 구성](console.md)에 설명 된 대로 모임 콘솔 설정이 포함 됩니다.
 
-또한 다음을 참조 해야 할 수 있습니다.
+다음을 참조할 수도 있습니다.
 
 - [비즈니스용 Skype 추가 기능 라이선스](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 - [요금제를 기반으로 하는 라이선스 옵션: Microsoft 팀 대화방](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
@@ -33,13 +33,13 @@ ms.locfileid: "36185144"
 > Microsoft 팀 대화방은 Microsoft 팀, Skype for Business Server 2019, 비즈니스용 skype Server 2015 또는 비즈니스용 Skype Online과 함께 사용 하기 위한 것입니다. <br><br>Lync Server 2013와 같은 이전 플랫폼은 Microsoft 팀 대화방에서 작동 하지 않을 것으로 예상 되지 않습니다.
 
 > [!NOTE]
-> 프레미스 Exchange server를 사용 하는 경우 Microsoft 팀 대화방에서 Exchange Server 2013 SP1 이상을 사용 해야 합니다.
+> 프레미스 Exchange server가 있는 경우 Microsoft 팀 대화방에서 Exchange Server 2013 SP1 이상을 사용 해야 합니다.
 
 ## <a name="hardware-requirements"></a>하드웨어 요구 사항
 
-Microsoft 팀 대화방은 오디오 및 비디오 주변 장치에 따라 보조 프로그램을 통해 다양 한 공간 크기에 맞게 확장할 수 있습니다. 이 문서에 나열 된 하드웨어는 Skype 및 팀 회의 모드를 모두 지원 합니다.  오디오 및 비디오 주변 기기는 도킹 디바이스에서 USB 또는 HDMI 연결을 통해 Microsoft 팀 대화방에 연결 합니다. 또한 다음이 필요 합니다.
+Microsoft 팀 공간은 오디오 및 비디오 주변 장치에 따라 보조 프로그램을 통해 다양 한 공간으로 크기를 조정 합니다. 이 문서에 나열 된 하드웨어는 Skype 및 팀 회의 모드를 모두 지원 합니다. 오디오 및 비디오 주변 기기는 도킹 디바이스에서 USB 또는 HDMI 연결을 통해 Microsoft 팀 대화방에 연결 합니다. 또한 다음이 필요 합니다.
 
-- Windows 10 Enterprise 용 부팅 가능한 Windows 설치 미디어로 구성 하는 32GB 이상의 USB 디스크입니다. 
+- Windows 10 Enterprise 용 부팅 가능한 Windows 설치 미디어로 구성 하는 | 32gb 이상의 USB 디스크
 
 - 다음 태블릿 또는 콘솔 중 하나:
 
@@ -47,11 +47,11 @@ Microsoft 팀 대화방은 오디오 및 비디오 주변 장치에 따라 보�
 
 |타블렛|프로세서별|할당할|공간|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 6          |Core i5  |16GB 또는 8GB |128GB 이상  |
-|Surface Pro (다섯째 Gen)  |Core i5  |8GB 또는 4GB  |128GB 이상  |
-|Surface Pro 4          |Core i5  |8GB 또는 4GB  |128GB 이상  |
+|Surface Pro 6| |Core i5||16gb 또는 8gb |128 GB 이상 |
+|Surface Pro (다섯째 Gen) |Core i5 |8gb 또는 4gb |128 GB 이상 |
+|Surface Pro 4 |Core i5 |8gb 또는 4gb |128 GB 이상 |
 
-- 태블릿을 회의실 테이블로 보호 하는 다음 도킹 스테이션 옵션 중 하나입니다. 
+- 태블릿을 회의실 테이블로 보호 하는 다음 도킹 스테이션 옵션 중 하나입니다.
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
 
@@ -64,15 +64,18 @@ Microsoft 팀 대화방은 오디오 및 비디오 주변 장치에 따라 보�
 
 |콘솔|프로세서별|할당할|공간|
 |:-----|:-----|:-----|:-----|
-|[Flex UC에서 crestron M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|코어 i7|8GB |128GB |
-[Flex UC에서 crestron B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|코어 i7|8GB |128GB|
-|[Flex UC에서 crestron C160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|코어 i7|8GB|128GB|
-|[회의실 G2 용 HP 정예 슬라이스](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  | 
-|[Microsoft 팀 대화방으로 준비 된 HP 정예 슬라이스 G2 오디오](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB | 
-|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
-|[Logitech 탭 하기](https://www.logitech.com/en-us/product/microsoft-rooms)|Core i5|8GB |128GB |
-|[옛 alink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|
-|[옛 alink MVC500](https://www.yealink.com/products_126.html)|Core i5|8GB |128GB |
+|[Flex UC에서 crestron M130-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8gb |128 GB |
+|[Flex UC에서 crestron B130-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8gb |128 GB |
+|[Flex UC에서 crestron B140-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8gb |128 GB |
+|[Flex UC에서 crestron M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|코어 i7|8gb |128 GB |
+[Flex UC에서 crestron B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|코어 i7|8gb |128 GB|
+|[Flex UC에서 crestron C160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|코어 i7|8gb|128 GB|
+|[회의실 G2 용 HP 정예 슬라이스](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8gb |128 GB | 
+|[Microsoft 팀 대화방으로 준비 된 HP 정예 슬라이스 G2 오디오](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8gb |128 GB | 
+|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8gb |128 GB | 
+|[Logitech 탭 하기](https://www.logitech.com/en-us/product/microsoft-rooms)|Core i5|8gb |128 GB |
+|[옛 alink MVC800](https://www.yealink.com/products_125.html)|Core i5|8gb|128 GB|
+|[옛 alink MVC500](https://www.yealink.com/products_126.html)|Core i5|8gb |128 GB |
 |||||
 
 > [!NOTE]
@@ -84,35 +87,35 @@ Microsoft 팀 대화방은 오디오 및 비디오 주변 장치에 따라 보�
 |:-----|:-----|
 |[Logitech 집결](https://www.logitech.com/en-us/product/rally-ultra-hd-conferencecam) <br/> |1.2.4 |
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
-|[Logitech 잔](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |오디오-1.0.172  <br/> 비디오-1.0.156  <br/> |
-|[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
-|[Logitech 그룹](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
+|[Logitech 잔](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |오디오-1.0.172 <br/> 비디오-1.0.156 <br/> |
+|[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0 <br/> 1.1.684 <br/> |
+|[Logitech 그룹](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778 <br/> |
 |[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
 |[Logitech PT;Z Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
 |[Logitech PT;Z Pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2) <br/> |
-|[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
+|[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0 <br/> |
 |[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
 |[Polycom 독수리 눈 디렉터 II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
 |[Polycom Trio 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html) <br/> |5.7.2.3205|
-|[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
-|[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
+|[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0 <br/> |
+|[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15 <br/> |
 |[Sennheiser SP30](https://en-us.sennheiser.com/sp-30) <br/> |2.1.52 <br/>|
-|[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
-|[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0  <br/> |
-|[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23  <br/> |
-|[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/) <br/> |100c  <br/> |
+|[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0 <br/> |
+|[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0 <br/> |
+|[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23 <br/> |
+|[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/) <br/> |100c <br/> |
 
 - **USB extender**:
 
-  - 태블릿 도크의 USB 포트는 USB 3.0 호환 가능 합니다. USB 2 .x extender를 사용할 수 있지만, 이렇게 하면 USB 2에 대 한 속도가 far로 제한 되므로 USB 3.0 주변 기기에는 권장 되지 않습니다.
+  - 태블릿 도크의 USB 포트는 USB 3.0 호환 가능 합니다. USB 2 .x extender를 사용할 수 있지만, 이제는 usb 2. x 속도를 할 때, usb 3.0 주변 기기에는 권장 되지 않습니다.
 
   - Extender는 USB 2.0 이상 사양을 충족 해야 합니다.
 
-  - 태블릿 도크는 외부 USB 허브 확장의 두 단계 이상을 지원 합니다. 2 개 이상의 USB 허브를 시리즈에 연결 해야 하는 경우에는 도크 제조업체에 문의 하 여 지원 여부를 확인 해야 합니다.
+  - 태블릿 도크는 외부 USB 허브 확장의 두 단계 이상을 지원 합니다. 2 개 이상의 USB 허브를 시리즈에 연결 해야 하는 경우에는 dock 제조업체에 문의 하 여 지원 되는지 확인 합니다.
 
 - 실내의 유선 GbE 연결. 적절 한 길이의 이더넷 케이블.
 
-- HDMI 연결을 사용 하는 최대 2 개의 1080p 디스플레이 적절 한 길이의 HDMI 케이블.
+- HDMI 연결에 최대 2 1080-p가 표시 됩니다. 적절 한 길이의 HDMI 케이블.
 
 > [!NOTE]
 > 공간 표시의 앞에 사용 되는 소비자 TV는 대기 모드에서 자동으로 활성 비디오 원본으로 전환할 수 있도록 HDMI의 CEC (소비자 전자 컨트롤) 기능을 지원/사용 하도록 설정 해야 합니다. 이 기능은 모든 Tv에서 지원 되지 않습니다. 
@@ -124,33 +127,33 @@ Microsoft 팀 대화방은 오디오 및 비디오 주변 장치에 따라 보�
 
 **Microsoft 팀 대화방 인증 오디오 주변 장치**
 
-|방 종류|인원 수|마이크에서 사람에 게 말하기 까지의 권장 최대 거리|장치-최대 공간 크기|메모|
+|방 종류|인원 수|마이크에서 스피커 까지의 권장 최대 거리|장치-최대 공간 크기|메모|
 |:-----|:-----|:-----|:-----|:-----|
-|**Focus** <br/> 10 ' x 9 '  <br/> |2-4  <br/> |1.5 m  <br/> |Logitech Connect  <br/> |Logitech Connect 디바이스는 로컬 모임 참석자를 캡처하기 위해 공간 (표의 중심이 아님) 앞에 배치 되도록 카메라를 포함 합니다.  <br/> |
-|**Small** <br/> 16 ' x 16 '  <br/> |4-6  <br/> |2.0 m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |용량이 대규모 채팅방에서는 재생 볼륨이 제한 될 수 있습니다.  <br/> |
-|**높음이나** <br/> 18 ' x 20 '  <br/> |6-12  <br/> |2.4 m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech 잔  <br/> Logitech 그룹  <br/> Polycom Trio  <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |Logitech 잔에는 카메라가 포함 되어 있기 때문에 (지역 모임 참석자를 캡처하기 위해 표 중앙이 아님) 카메라를 배치 합니다.  <br/> 일반적으로 긴 사각형 또는 u 자형 표가 있는 채팅방은 추가 위성 마이크를 활용할 수 있습니다.  <br/> S p 220 MS는 데이지 체인을 구성 하는 데 사용 해야 합니다.  <br/> |
-|**용량의** <br/> 15 ' x 32 '  <br/> |12-16  <br/> |3m  <br/> 이 거리는 해당 오디오 장치에 연결 된 각 추가 위성 마이크가 적용 되는 영역에도 해당 됩니다.  <br/> |Logitech 그룹 + 위성 마이크  <br/> Polycom Trio + 위성 마이크  <br/> Polycom CX5100 + 위성 마이크  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS + 위성 마이크  <br/> |이 행에 나열 된 모든 오디오 장치는 위성 마이크 옵션을 지원 합니다.  <br/> CX5100에는 디바이스를 표 중앙에 배치할 수 있도록 기본 제공 360도 카메라가 포함 되어 있습니다.  <br/> S p 220 MS는 데이지 체인을 구성 하는 데 사용 해야 합니다.  <br/> |
+|**Focus** <br/> 10 ' x 9 ' <br/> |2-4 <br/> |1.5 m <br/> |Logitech Connect <br/> |Logitech Connect 디바이스는 로컬 모임 참석자를 캡처하기 위해 공간 (표의 중심이 아님) 앞에 배치 되도록 카메라를 포함 합니다. <br/> |
+|**Small** <br/> 16 ' x 16 ' <br/> |4 – 6 <br/> |2.0 m <br/> |Jabra 510 <br/> Sennheiser SP20 <br/> |용량이 대규모 채팅방에서는 재생 볼륨이 제한 될 수 있습니다. <br/> |
+|**높음이나** <br/> 18 ' x 20 ' <br/> |6 – 12 <br/> |2.4 m <br/> |Jabra 710 <br/> Jabra 810 <br/> Logitech 잔 <br/> Logitech 그룹 <br/> Polycom Trio <br/> Polycom CX5100 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS <br/> |Logitech 잔에는 카메라가 포함 되어 있기 때문에 (지역 모임 참석자를 캡처하기 위해 표 중앙이 아님) 카메라를 배치 합니다. <br/> 일반적으로 위성 마이크 또는 u 자형 표를 사용 하는 채팅방의 방에는 큰 도움이 됩니다. <br/> S p 220 MS는 데이지 체인을 구성 하는 데 사용 해야 합니다. <br/> |
+|**용량의** <br/> 15 ' x 32 ' <br/> |12 – 16 <br/> |3 m <br/> 이 거리는 오디오 장치에 연결 된 각 위성 마이크에 해당 하는 영역에도 적용 됩니다. <br/> |Logitech 그룹 + 위성 마이크 <br/> Polycom Trio + 위성 마이크 <br/> Polycom CX5100 + 위성 마이크 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + 위성 마이크 <br/> |이 행에 나열 된 모든 오디오 장치는 위성 마이크 옵션을 지원 합니다. <br/> CX5100에는 디바이스를 표 중앙에 배치할 수 있도록 기본 제공 360도 카메라가 포함 되어 있습니다. <br/> S p 220 MS는 데이지 체인을 구성 하는 데 사용 해야 합니다. <br/> |
 
 **Microsoft 팀 대화방 인증 영상 주변 장치**
 
 |방 종류|인원 수|장치-최적의 공간 크기|메모|
 |:-----|:-----|:-----|:-----|
-|**Focus** <br/> 10 ' x 9 '  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech 잔  <br/> Polycom CX5100  <br/> ||
-|**Small** <br/> 16 ' x 16 '  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech 잔  <br/> Logitech BRIO  <br/> Logitech PT;Z Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> |Logitech PTZ Pro가 Logitech 그룹과 함께 제공 되는 경우가 많습니다.  <br/> |
-|**높음이나** <br/> 18 ' x 20 '  <br/> |6-12  <br/> |Logitech 잔  <br/> Logitech BRIO  <br/> Logitech PT;Z Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> ||
-|**용량의** <br/> 15 ' x 32 '  <br/> |12-16  <br/> |Logitech PT;Z Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> ||
+|**Focus** <br/> 10 ' x 9 ' <br/> |2-4 <br/> |Logitech Connect <br/> Logitech 잔 <br/> Polycom CX5100 <br/> ||
+|**Small** <br/> 16 ' x 16 ' <br/> |4 – 6 <br/> |Logitech C930e <br/> Logitech 잔 <br/> Logitech BRIO <br/> Logitech PT;Z Pro <br/> Polycom MSR <br/> Polycom CX5100 <br/> |Logitech PTZ Pro가 Logitech 그룹과 함께 제공 되는 경우가 많습니다. <br/> |
+|**높음이나** <br/> 18 ' x 20 ' <br/> |6 – 12 <br/> |Logitech 잔 <br/> Logitech BRIO <br/> Logitech PT;Z Pro <br/> Polycom MSR <br/> Polycom CX5100 <br/> ||
+|**용량의** <br/> 15 ' x 32 ' <br/> |12 – 16 <br/> |Logitech PT;Z Pro <br/> Polycom MSR <br/> Polycom CX5100 <br/> ||
 
  > [!NOTE]
  > 방 디스플레이 해상도의 앞면은 1920x1080p 보다 크지 않도록 설정 해야 합니다.
 
 ## <a name="required-software-downloads"></a>필수 소프트웨어 다운로드
 
-자신의 Microsoft 팀 대화방 이미지를 작성 하려면 [Microsoft 팀 대화방 콘솔 구성](console.md)의 지침을 따릅니다. 이러한 지침은 설치 프로세스에 필요한 모든 소프트웨어를 다운로드 하는 과정을 안내 합니다. 
+자신의 Microsoft 팀 대화방 이미지를 작성 하려면 [Microsoft 팀 대화방 콘솔 구성](console.md)의 지침을 따릅니다. 이 지침에서는 설치 프로세스에 필요한 모든 소프트웨어를 다운로드 하는 방법을 안내 합니다.
 
 > [!NOTE]
 > IT 전문가는 볼륨 라이선스 계약을 통해 Windows 10 Enterprise ISO 파일에 액세스 해야 합니다.
 
-또한 Microsoft 팀 대화방 계정을 제공 하는 데 사용할 수 있는 [SkypeRoomProvisioningScript](https://go.microsoft.com/fwlink/?linkid=870105)의 복사본을 필요할 수도 있습니다.
+[SkypeRoomProvisioningScript](https://go.microsoft.com/fwlink/?linkid=870105) 는 Microsoft 팀 대화방 계정을 제공 하는 데 사용할 수 있는 선택적 다운로드입니다.
 
 ## <a name="see-also"></a>참고 항목
 [모든 번들 찾아보기](https://products.office.com/en-us/microsoft-teams/across-devices/devices)

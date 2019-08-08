@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 비즈니스용 Skype 및 Microsoft 팀의 공존 옵션 및 비즈니스용 Skype 간 상호 운용성에 대해 자세히 설명 합니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e29e6f62167527dced8121abdd213b891de2349b
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 5ba7ae0613bbab87f09a6c290d191d711d583c24
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "36185267"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237531"
 ---
 ![프로젝트 정의 단계를 강조 하 여 여행 다이어그램 업그레이드] (media/upgrade-banner-project-definition.png "프로젝트 정의 단계에 대 한 강조를 사용 하 여 업그레이드 여행 단계")
 

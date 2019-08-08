@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 비즈니스용 skype server 2019 제어판 또는 비즈니스용 Skype Server 2019 Management Shell을 사용 하 여 사용자를 레거시 풀에서 비즈니스용 Skype 서버 2019 파일럿 풀로 이동할 수 있습니다. 아래 예제에서 레지스트라 풀 열에는 레거시 풀이 pool01.contoso.net,이 풀에는 6 명의 사용자가 모두 연결 되어 있습니다. 비즈니스용 skype server 2019 제어판 및 비즈니스용 skype Server Management Shell을 사용 하 여 사용자를 비즈니스용 Skype 서버 2019 풀로 이동 하려면 다음 절차를 사용 합니다.
-ms.openlocfilehash: 23ce56f8bcf759aeeaa9e9a9b64820958c656c6a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 456035cfd917f620383d4dff70f6366cd73d530e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196949"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238079"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>단일 사용자를 시험 운용 풀로 이동
 

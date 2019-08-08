@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 비즈니스용 Skype 서버 2019에 대해 권장 되거나 지원 되는 마이그레이션 절차는 나란히 마이그레이션입니다. 이 항목에서는 나란히 마이그레이션을 사용 해야 하는 이유와 공존 테스트에 대 한 정보를 포함 합니다.
-ms.openlocfilehash: 179ad56dcf4c31abe8b94fb7131dd27dc68bfd96
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ef8a70aa436663b7ff88723800375eeef620b6d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196952"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238085"
 ---
 # <a name="migration-process"></a>마이그레이션 프로세스
 

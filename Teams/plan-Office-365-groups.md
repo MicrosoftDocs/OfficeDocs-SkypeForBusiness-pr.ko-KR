@@ -7,20 +7,21 @@ manager: serdars
 ms.date: 08/29/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 description: 공용 그룹과 개인 그룹 선택, 팀 클라이언트 또는 Office 365 관리 웹 콘솔 사용, 팀에 게 대화 사용에 대해 교육 하는 방법 등 Office 365 그룹에 대 한 계획을 수립할 때의 결정에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aca7dcf2607fd90bfea15ef324034be96770a822
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: b23525181de02cfe8498aa68db5c6c34e9feaded
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "36182057"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237799"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Microsoft 팀에서 팀을 만들 때 발생 하는 Office 365 그룹에 대 한 계획
 ==========================================================

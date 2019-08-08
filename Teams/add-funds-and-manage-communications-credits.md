@@ -7,12 +7,12 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -29,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: '비즈니스용 Skype 서비스용 통신 크레딧 (PSTN 소비)을 지불 하는 방법과 사용자에 게 지속적인 전화 시스템 액세스를 유지 하는 계획을 확인 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 93fb828f434c07b32852711772b6c16613415749
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b6fde8cf36d31caca0c53d977b8844c263a53ff9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182249"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239338"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>자금 추가 및 통신 제작진 관리
 

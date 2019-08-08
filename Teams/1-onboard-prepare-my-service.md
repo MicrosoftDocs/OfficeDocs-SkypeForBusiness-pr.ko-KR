@@ -3,6 +3,7 @@ title: Microsoft 팀 클라우드 음성 서비스 배포 준비
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: ITPro
 ms.date: 03/18/2019
 ms.topic: conceptual
 ms.service: msteams
@@ -10,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 온 보 딩 검사 목록을 사용 하 여 팀을 위한 Office 365을 준비 하 고 팀 핵심 기능, 네트워킹, 클라우드 음성 작업을 구성 합니다.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b29d51d2e92659b7fbae9eb86863a2e4f205a061
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 63b507237cbc9a1d32dc891b99eaf6425528b559
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "36184268"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236568"
 ---
 # <a name="prepare-my-service"></a>내 서비스 준비
 

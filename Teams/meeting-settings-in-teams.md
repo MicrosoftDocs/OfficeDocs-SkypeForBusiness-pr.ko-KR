@@ -14,16 +14,16 @@ localization_priority: Normal
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.meetingsettings.overview
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 사용자가 조직에서 예약한 팀 모임에 대 한 설정을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 10edd2b0b1b665a126fa7528f4b1e24bf88f4fe5
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: c26165abdc753fbe37d3465738200c43b42d087d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "36184139"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236563"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft 팀에서 모임 설정 관리
 

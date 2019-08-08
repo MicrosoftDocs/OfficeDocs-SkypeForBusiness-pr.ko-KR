@@ -6,22 +6,23 @@ manager: serdars
 ms.date: 01/09/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 비즈니스용 Skype 하이브리드 또는 온-프레미스 배포에서 팀으로 업그레이드 하기 위한 고려 사항
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 731a6b30fe2476d180198e88f83e80f24c8e8227
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 873e15e5b1f64e82889bfda6fa30c5b9394dcf3a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "36185219"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235876"
 ---
 ![여행 다이어그램 업그레이드, 배포 및 구현 강조] (media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
 
