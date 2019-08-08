@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,37 +14,37 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: 비즈니스용 Skype Server Enterprise Voice에서 통화 관리 기능을 배포 합니다.
-ms.openlocfilehash: 834a9ecaf39222b81f617f6a917225a17448e5e0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e21ac43e036f9aa12de00faf9d94db6fdffe9132
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191958"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245773"
 ---
-# <a name="deploy-call-management-features-in-skype-for-business"></a><span data-ttu-id="5fc1d-103">비즈니스용 Skype에서 통화 관리 기능 배포</span><span class="sxs-lookup"><span data-stu-id="5fc1d-103">Deploy call management features in Skype for Business</span></span>
+# <a name="deploy-call-management-features-in-skype-for-business"></a><span data-ttu-id="0dce8-103">비즈니스용 Skype에서 통화 관리 기능 배포</span><span class="sxs-lookup"><span data-stu-id="0dce8-103">Deploy call management features in Skype for Business</span></span>
  
-<span data-ttu-id="5fc1d-104">비즈니스용 Skype Server Enterprise Voice에서 통화 관리 기능을 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="5fc1d-104">Deploying call management features in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="0dce8-104">비즈니스용 Skype Server Enterprise Voice에서 통화 관리 기능을 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="0dce8-104">Deploying call management features in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="5fc1d-105">기업 음성 통화 관리 기능은 수신 전화를 라우팅하거나 응답 하는 방법을 제어 합니다.</span><span class="sxs-lookup"><span data-stu-id="5fc1d-105">Enterprise Voice call management features control how incoming calls are routed and answered.</span></span> <span data-ttu-id="5fc1d-106">비즈니스용 Skype Server는 다음 통화 관리 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="5fc1d-106">Skype for Business Server provides the following call management features:</span></span> 
+<span data-ttu-id="0dce8-105">기업 음성 통화 관리 기능은 수신 전화를 라우팅하거나 응답 하는 방법을 제어 합니다.</span><span class="sxs-lookup"><span data-stu-id="0dce8-105">Enterprise Voice call management features control how incoming calls are routed and answered.</span></span> <span data-ttu-id="0dce8-106">비즈니스용 Skype Server는 다음 통화 관리 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="0dce8-106">Skype for Business Server provides the following call management features:</span></span> 
   
-- <span data-ttu-id="5fc1d-107">**통화**대기: 음성 사용자가 통화를 일시적으로 충전 한 다음 같은 전화나 다른 전화기에서 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5fc1d-107">**Call Park**: Enables voice users to temporarily park a call and then pick it up from the same phone or another phone.</span></span>
+- <span data-ttu-id="0dce8-107">**통화**대기: 음성 사용자가 통화를 일시적으로 충전 한 다음 같은 전화나 다른 전화기에서 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0dce8-107">**Call Park**: Enables voice users to temporarily park a call and then pick it up from the same phone or another phone.</span></span>
     
-- <span data-ttu-id="5fc1d-108">**그룹 통화 픽업**: 사용자가 통화 픽업 그룹 번호로 전화를 걸어 픽업 그룹에 할당 된 다른 사용자의 통화에 대 한 응답을 받을 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="5fc1d-108">**Group Call Pickup**: Enables users to answer calls made to another user who is assigned to a pickup group by dialing the call pickup group number.</span></span>
+- <span data-ttu-id="0dce8-108">**그룹 통화 픽업**: 사용자가 통화 픽업 그룹 번호로 전화를 걸어 픽업 그룹에 할당 된 다른 사용자의 통화에 대 한 응답을 받을 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="0dce8-108">**Group Call Pickup**: Enables users to answer calls made to another user who is assigned to a pickup group by dialing the call pickup group number.</span></span>
     
-- <span data-ttu-id="5fc1d-109">**응답 그룹**: 헌트 그룹 또는 IVR (대화형 음성 응답) 질문 및 답변을 사용 하 여 수신 전화를 에이전트 그룹으로 라우팅합니다.</span><span class="sxs-lookup"><span data-stu-id="5fc1d-109">**Response Group**: Routes incoming calls to groups of agents by using hunt groups or interactive voice response (IVR) questions and answers.</span></span>
+- <span data-ttu-id="0dce8-109">**응답 그룹**: 헌트 그룹 또는 IVR (대화형 음성 응답) 질문 및 답변을 사용 하 여 수신 전화를 에이전트 그룹으로 라우팅합니다.</span><span class="sxs-lookup"><span data-stu-id="0dce8-109">**Response Group**: Routes incoming calls to groups of agents by using hunt groups or interactive voice response (IVR) questions and answers.</span></span>
     
-- <span data-ttu-id="5fc1d-110">**공지**사항: 지정 하지 않은 번호에 대 한 통화에 대 한 메시지를 재생 하거나 통화를 다른 곳으로 또는 둘 다로 라우팅합니다.</span><span class="sxs-lookup"><span data-stu-id="5fc1d-110">**Announcement**: Plays a message for calls made to an unassigned number, or routes the call elsewhere, or both.</span></span>
+- <span data-ttu-id="0dce8-110">**공지**사항: 지정 하지 않은 번호에 대 한 통화에 대 한 메시지를 재생 하거나 통화를 다른 곳으로 또는 둘 다로 라우팅합니다.</span><span class="sxs-lookup"><span data-stu-id="0dce8-110">**Announcement**: Plays a message for calls made to an unassigned number, or routes the call elsewhere, or both.</span></span>
     
-<span data-ttu-id="5fc1d-111">이 섹션에서는 엔터프라이즈 음성 배포 중에 이러한 통화 관리 기능을 구성 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="5fc1d-111">This section describes how to configure these call management features during an Enterprise Voice deployment.</span></span>
+<span data-ttu-id="0dce8-111">이 섹션에서는 엔터프라이즈 음성 배포 중에 이러한 통화 관리 기능을 구성 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="0dce8-111">This section describes how to configure these call management features during an Enterprise Voice deployment.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="5fc1d-112">이 섹션의</span><span class="sxs-lookup"><span data-stu-id="5fc1d-112">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0dce8-112">이 섹션의</span><span class="sxs-lookup"><span data-stu-id="0dce8-112">In this section</span></span>
 
-- [<span data-ttu-id="5fc1d-113">비즈니스용 Skype의 통화 공원 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="5fc1d-113">Deployment process for Call Park in Skype for Business</span></span>](deployment-process-for-call-park.md)
+- [<span data-ttu-id="0dce8-113">비즈니스용 Skype의 통화 공원 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="0dce8-113">Deployment process for Call Park in Skype for Business</span></span>](deployment-process-for-call-park.md)
     
-- [<span data-ttu-id="5fc1d-114">비즈니스용 Skype의 그룹 통화 픽업 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="5fc1d-114">Deployment process for Group Call Pickup in Skype for Business</span></span>](deployment-process-for-group-call-pickup.md)
+- [<span data-ttu-id="0dce8-114">비즈니스용 Skype의 그룹 통화 픽업 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="0dce8-114">Deployment process for Group Call Pickup in Skype for Business</span></span>](deployment-process-for-group-call-pickup.md)
     
-- [<span data-ttu-id="5fc1d-115">비즈니스용 Skype의 응답 그룹에 대 한 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="5fc1d-115">Deployment process for Response Group in Skype for Business</span></span>](deployment-process-for-response-group.md)
+- [<span data-ttu-id="0dce8-115">비즈니스용 Skype의 응답 그룹에 대 한 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="0dce8-115">Deployment process for Response Group in Skype for Business</span></span>](deployment-process-for-response-group.md)
     
-- [<span data-ttu-id="5fc1d-116">비즈니스용 Skype 서버의 알림 신청에 대 한 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="5fc1d-116">Deployment process for the Announcement application in Skype for Business Server</span></span>](deployment-process-for-the-announcement-application.md)
+- [<span data-ttu-id="0dce8-116">비즈니스용 Skype 서버의 알림 신청에 대 한 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="0dce8-116">Deployment process for the Announcement application in Skype for Business Server</span></span>](deployment-process-for-the-announcement-application.md)
     
 

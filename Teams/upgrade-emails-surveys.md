@@ -6,37 +6,38 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 비즈니스용 Skype에서 팀으로 업그레이드 하기 위한 10 단계 빠른 작업 계획으로 conjunciton에서 사용할 수 있는 샘플 전자 메일 및 설문 조사
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d34162e2b7f363abd9ecf635cff993cdbd843da
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27dc5a5daf92ce0dad214dcc5cf8c26bbc78ea6d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "36182123"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236390"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a><span data-ttu-id="3efb4-103">기본 통신 업그레이드를 위한 예제 전자 메일 및 설문 조사</span><span class="sxs-lookup"><span data-stu-id="3efb4-103">Sample emails and surveys for Upgrade Basic communications</span></span>
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a><span data-ttu-id="6f7cc-103">기본 통신 업그레이드를 위한 예제 전자 메일 및 설문 조사</span><span class="sxs-lookup"><span data-stu-id="6f7cc-103">Sample emails and surveys for Upgrade Basic communications</span></span>
 
-## <a name="sample-emails"></a><span data-ttu-id="3efb4-104">예제 전자 메일</span><span class="sxs-lookup"><span data-stu-id="3efb4-104">Sample emails</span></span>
+## <a name="sample-emails"></a><span data-ttu-id="6f7cc-104">예제 전자 메일</span><span class="sxs-lookup"><span data-stu-id="6f7cc-104">Sample emails</span></span>
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a><span data-ttu-id="3efb4-105">이해 관계자 전자 메일 (1 단계)</span><span class="sxs-lookup"><span data-stu-id="3efb4-105">Stakeholder email, for step 1</span></span>
+### <a name="stakeholder-email-for-step-1"></a><span data-ttu-id="6f7cc-105">이해 관계자 전자 메일 (1 단계)</span><span class="sxs-lookup"><span data-stu-id="6f7cc-105">Stakeholder email, for step 1</span></span>
 
-<span data-ttu-id="3efb4-106">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="3efb4-106">Subject line:</span></span>
+<span data-ttu-id="6f7cc-106">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="6f7cc-106">Subject line:</span></span>
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-<span data-ttu-id="3efb4-107">전자 메일의 본문:</span><span class="sxs-lookup"><span data-stu-id="3efb4-107">Body of email:</span></span>
+<span data-ttu-id="6f7cc-107">전자 메일의 본문:</span><span class="sxs-lookup"><span data-stu-id="6f7cc-107">Body of email:</span></span>
 
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
@@ -46,19 +47,19 @@ Microsoft has indicated that Teams now has key capabilities that meet our commun
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
 
-[<span data-ttu-id="3efb4-108">1 단계로 돌아가기</span><span class="sxs-lookup"><span data-stu-id="3efb4-108">Return to step 1</span></span>](upgrade-basic.md#step-1)
+[<span data-ttu-id="6f7cc-108">1 단계로 돌아가기</span><span class="sxs-lookup"><span data-stu-id="6f7cc-108">Return to step 1</span></span>](upgrade-basic.md#step-1)
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a><span data-ttu-id="3efb4-109">4 단계에 대해 사용자에 게 전자 메일 알림</span><span class="sxs-lookup"><span data-stu-id="3efb4-109">Notify users email, for step 4</span></span>
+### <a name="notify-users-email-for-step-4"></a><span data-ttu-id="6f7cc-109">4 단계에 대해 사용자에 게 전자 메일 알림</span><span class="sxs-lookup"><span data-stu-id="6f7cc-109">Notify users email, for step 4</span></span>
 
-<span data-ttu-id="3efb4-110">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="3efb4-110">Subject line:</span></span>
+<span data-ttu-id="6f7cc-110">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="6f7cc-110">Subject line:</span></span>
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-<span data-ttu-id="3efb4-111">전자 메일의 본문:</span><span class="sxs-lookup"><span data-stu-id="3efb4-111">Body of email:</span></span>
+<span data-ttu-id="6f7cc-111">전자 메일의 본문:</span><span class="sxs-lookup"><span data-stu-id="6f7cc-111">Body of email:</span></span>
 
 ````
 From instant messaging to meetings to audio calling, we understand how much you rely on technologies like Skype for Business to get your job done. We’re excited to announce that we’ll be transitioning to Microsoft Teams, which provides one solution for your communication and collaboration needs. Teams leverages much of what you know and love about Skype for Business and expands what’s possible, integrating chat (IM), online meetings, calling, file management and a project workspace all into one interface.
@@ -75,19 +76,19 @@ CALL TO ACTION: Get started with Teams today
 If you have questions or need help, please reach out to <<insert company support information>>.
 ````
 
-[<span data-ttu-id="3efb4-112">4 단계로 돌아가기</span><span class="sxs-lookup"><span data-stu-id="3efb4-112">Return to step 4</span></span>](upgrade-basic.md#step-4)
+[<span data-ttu-id="6f7cc-112">4 단계로 돌아가기</span><span class="sxs-lookup"><span data-stu-id="6f7cc-112">Return to step 4</span></span>](upgrade-basic.md#step-4)
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a><span data-ttu-id="3efb4-113">사용자에 게 전자 메일 미리 알림 6 단계</span><span class="sxs-lookup"><span data-stu-id="3efb4-113">Remind users email, for step 6</span></span>
+### <a name="remind-users-email-for-step-6"></a><span data-ttu-id="6f7cc-113">사용자에 게 전자 메일 미리 알림 6 단계</span><span class="sxs-lookup"><span data-stu-id="6f7cc-113">Remind users email, for step 6</span></span>
 
-<span data-ttu-id="3efb4-114">제목 줄: 미리 알림: 팀으로 업그레이드 하기 위해 준비해 보세요.</span><span class="sxs-lookup"><span data-stu-id="3efb4-114">Subject line: REMINDER: Get ready for your upgrade to Teams</span></span>
+<span data-ttu-id="6f7cc-114">제목 줄: 미리 알림: 팀으로 업그레이드 하기 위해 준비해 보세요.</span><span class="sxs-lookup"><span data-stu-id="6f7cc-114">Subject line: REMINDER: Get ready for your upgrade to Teams</span></span>
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
 ```
 
-<span data-ttu-id="3efb4-115">전자 메일의 본문:</span><span class="sxs-lookup"><span data-stu-id="3efb4-115">Body of email:</span></span>
+<span data-ttu-id="6f7cc-115">전자 메일의 본문:</span><span class="sxs-lookup"><span data-stu-id="6f7cc-115">Body of email:</span></span>
 ````
 We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
 
@@ -106,19 +107,19 @@ Tip: If you need assistance with scheduling meetings, T-Bot can help! In the Tea
 Should you have questions about this upgrade, contact <<insert alias or contact info>>.
 ````
 
-[<span data-ttu-id="3efb4-116">6 단계로 돌아가기</span><span class="sxs-lookup"><span data-stu-id="3efb4-116">Return to step 6</span></span>](upgrade-basic.md#step-6)
+[<span data-ttu-id="6f7cc-116">6 단계로 돌아가기</span><span class="sxs-lookup"><span data-stu-id="6f7cc-116">Return to step 6</span></span>](upgrade-basic.md#step-6)
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a><span data-ttu-id="3efb4-117">책임자의 7 단계에 대 한 사용자의 전자 메일 시작</span><span class="sxs-lookup"><span data-stu-id="3efb4-117">Welcome users email from the executive sponsor, for step 7</span></span>
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a><span data-ttu-id="6f7cc-117">책임자의 7 단계에 대 한 사용자의 전자 메일 시작</span><span class="sxs-lookup"><span data-stu-id="6f7cc-117">Welcome users email from the executive sponsor, for step 7</span></span>
 
-<span data-ttu-id="3efb4-118">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="3efb4-118">Subject line:</span></span>
+<span data-ttu-id="6f7cc-118">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="6f7cc-118">Subject line:</span></span>
 
 ```
 PLEASE READ: Skype for Business is now Microsoft Teams
 ```
 
-<span data-ttu-id="3efb4-119">전자 메일의 본문:</span><span class="sxs-lookup"><span data-stu-id="3efb4-119">Body of email:</span></span>
+<span data-ttu-id="6f7cc-119">전자 메일의 본문:</span><span class="sxs-lookup"><span data-stu-id="6f7cc-119">Body of email:</span></span>
 
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
@@ -141,19 +142,19 @@ Regards,
 <<insert executive sponsor name>>
 ````
 
-[<span data-ttu-id="3efb4-120">7 단계로 돌아가기</span><span class="sxs-lookup"><span data-stu-id="3efb4-120">Return to step 7</span></span>](upgrade-basic.md#step-7)
+[<span data-ttu-id="6f7cc-120">7 단계로 돌아가기</span><span class="sxs-lookup"><span data-stu-id="6f7cc-120">Return to step 7</span></span>](upgrade-basic.md#step-7)
 
 <a name="step-9-email"></a>
 
-### <a name="check-in-email-for-step-9"></a><span data-ttu-id="3efb4-121">9 단계의 체크 인 전자 메일</span><span class="sxs-lookup"><span data-stu-id="3efb4-121">Check-in email, for step 9</span></span>
+### <a name="check-in-email-for-step-9"></a><span data-ttu-id="6f7cc-121">9 단계의 체크 인 전자 메일</span><span class="sxs-lookup"><span data-stu-id="6f7cc-121">Check-in email, for step 9</span></span>
 
-<span data-ttu-id="3efb4-122">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="3efb4-122">Subject line:</span></span>
+<span data-ttu-id="6f7cc-122">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="6f7cc-122">Subject line:</span></span>
 
 ```
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
 ```
 
-<span data-ttu-id="3efb4-123">전자 메일의 본문:</span><span class="sxs-lookup"><span data-stu-id="3efb4-123">Body of email:</span></span>
+<span data-ttu-id="6f7cc-123">전자 메일의 본문:</span><span class="sxs-lookup"><span data-stu-id="6f7cc-123">Body of email:</span></span>
 
 ````
 We upgraded to Microsoft Teams just over a week ago and want to hear from you.
@@ -163,19 +164,19 @@ Share your feedback (see sample below) and transition experience with us. Your i
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[<span data-ttu-id="3efb4-124">9 단계로 돌아가기</span><span class="sxs-lookup"><span data-stu-id="3efb4-124">Return to step 9</span></span>](upgrade-basic.md#step-9)
+[<span data-ttu-id="6f7cc-124">9 단계로 돌아가기</span><span class="sxs-lookup"><span data-stu-id="6f7cc-124">Return to step 9</span></span>](upgrade-basic.md#step-9)
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a><span data-ttu-id="3efb4-125">사용자에 게 팀과 채널을 제공 하도록 요청 하는 전자 메일 10 단계</span><span class="sxs-lookup"><span data-stu-id="3efb4-125">Email to ask users to give teams and channels a try, for step 10</span></span>
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a><span data-ttu-id="6f7cc-125">사용자에 게 팀과 채널을 제공 하도록 요청 하는 전자 메일 10 단계</span><span class="sxs-lookup"><span data-stu-id="6f7cc-125">Email to ask users to give teams and channels a try, for step 10</span></span>
 
-<span data-ttu-id="3efb4-126">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="3efb4-126">Subject line:</span></span>
+<span data-ttu-id="6f7cc-126">제목 줄:</span><span class="sxs-lookup"><span data-stu-id="6f7cc-126">Subject line:</span></span>
 
 ```
 CALL TO ACTION: Give teams and channels a try
 ```
 
-<span data-ttu-id="3efb4-127">전자 메일의 본문:</span><span class="sxs-lookup"><span data-stu-id="3efb4-127">Body of email:</span></span>
+<span data-ttu-id="6f7cc-127">전자 메일의 본문:</span><span class="sxs-lookup"><span data-stu-id="6f7cc-127">Body of email:</span></span>
 
 ````
 Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just enabling chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
@@ -190,42 +191,42 @@ Tip: The best use of the Teams workspace comes when the right people join the ri
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[<span data-ttu-id="3efb4-128">10 단계로 돌아가기</span><span class="sxs-lookup"><span data-stu-id="3efb4-128">Return to step 10</span></span>](upgrade-basic.md#step-10)
+[<span data-ttu-id="6f7cc-128">10 단계로 돌아가기</span><span class="sxs-lookup"><span data-stu-id="6f7cc-128">Return to step 10</span></span>](upgrade-basic.md#step-10)
 
 <!--ENDOFSECTION-->
 
 <a name="step-9-surveys"></a>
 
-## <a name="sample-surveys"></a><span data-ttu-id="3efb4-129">샘플 설문 조사</span><span class="sxs-lookup"><span data-stu-id="3efb4-129">Sample surveys</span></span>
+## <a name="sample-surveys"></a><span data-ttu-id="6f7cc-129">샘플 설문 조사</span><span class="sxs-lookup"><span data-stu-id="6f7cc-129">Sample surveys</span></span>
 
-<span data-ttu-id="3efb4-130">팀에서 다음 활동을 수행할 수 있는 숙련 된 시간과 자세한 정보를 알고 싶은 활동이 한 개 이상 있는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="3efb4-130">Indicate how skilled you are at performing the following activities in Teams and if there are one or more activities that you’d like to learn more about.</span></span>
+<span data-ttu-id="6f7cc-130">팀에서 다음 활동을 수행할 수 있는 숙련 된 시간과 자세한 정보를 알고 싶은 활동이 한 개 이상 있는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="6f7cc-130">Indicate how skilled you are at performing the following activities in Teams and if there are one or more activities that you’d like to learn more about.</span></span>
 
-| &nbsp; | <span data-ttu-id="3efb4-131">매우 숙련</span><span class="sxs-lookup"><span data-stu-id="3efb4-131">Very skilled</span></span> | <span data-ttu-id="3efb4-132">약간 숙련</span><span class="sxs-lookup"><span data-stu-id="3efb4-132">Somewhat skilled</span></span> | <span data-ttu-id="3efb4-133">숙련 되지 않음</span><span class="sxs-lookup"><span data-stu-id="3efb4-133">Not skilled at all</span></span> | <span data-ttu-id="3efb4-134">자세한 정보</span><span class="sxs-lookup"><span data-stu-id="3efb4-134">Want to learn more</span></span> | <span data-ttu-id="3efb4-135">해당 없음</span><span class="sxs-lookup"><span data-stu-id="3efb4-135">N/A</span></span> | <span data-ttu-id="3efb4-136">불확실/익숙하지 않음</span><span class="sxs-lookup"><span data-stu-id="3efb4-136">Unsure/not familiar</span></span> | | | | |
+| &nbsp; | <span data-ttu-id="6f7cc-131">매우 숙련</span><span class="sxs-lookup"><span data-stu-id="6f7cc-131">Very skilled</span></span> | <span data-ttu-id="6f7cc-132">약간 숙련</span><span class="sxs-lookup"><span data-stu-id="6f7cc-132">Somewhat skilled</span></span> | <span data-ttu-id="6f7cc-133">숙련 되지 않음</span><span class="sxs-lookup"><span data-stu-id="6f7cc-133">Not skilled at all</span></span> | <span data-ttu-id="6f7cc-134">자세한 정보</span><span class="sxs-lookup"><span data-stu-id="6f7cc-134">Want to learn more</span></span> | <span data-ttu-id="6f7cc-135">해당 없음</span><span class="sxs-lookup"><span data-stu-id="6f7cc-135">N/A</span></span> | <span data-ttu-id="6f7cc-136">불확실/익숙하지 않음</span><span class="sxs-lookup"><span data-stu-id="6f7cc-136">Unsure/not familiar</span></span> | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
-| <span data-ttu-id="3efb4-137">팀과 메신저 대화를 사용 하 여 다른 사용자와 채팅</span><span class="sxs-lookup"><span data-stu-id="3efb4-137">Use Teams for IM/chatting with others</span></span> | | | | | | | | | | |
-| <span data-ttu-id="3efb4-138">온라인 모임에 팀 사용</span><span class="sxs-lookup"><span data-stu-id="3efb4-138">Use Teams for online meetings</span></span> | | | | | | | | | | |
-| <span data-ttu-id="3efb4-139">공동 작업 (팀 및 채널)에 팀 사용</span><span class="sxs-lookup"><span data-stu-id="3efb4-139">Use Teams for collaboration (teams and channels)</span></span> | | | | | | | | | | |
-| <span data-ttu-id="3efb4-140">모바일 장치에서 팀 사용</span><span class="sxs-lookup"><span data-stu-id="3efb4-140">Use Teams on my mobile device</span></span> | | | | | | | | | | |
+| <span data-ttu-id="6f7cc-137">팀과 메신저 대화를 사용 하 여 다른 사용자와 채팅</span><span class="sxs-lookup"><span data-stu-id="6f7cc-137">Use Teams for IM/chatting with others</span></span> | | | | | | | | | | |
+| <span data-ttu-id="6f7cc-138">온라인 모임에 팀 사용</span><span class="sxs-lookup"><span data-stu-id="6f7cc-138">Use Teams for online meetings</span></span> | | | | | | | | | | |
+| <span data-ttu-id="6f7cc-139">공동 작업 (팀 및 채널)에 팀 사용</span><span class="sxs-lookup"><span data-stu-id="6f7cc-139">Use Teams for collaboration (teams and channels)</span></span> | | | | | | | | | | |
+| <span data-ttu-id="6f7cc-140">모바일 장치에서 팀 사용</span><span class="sxs-lookup"><span data-stu-id="6f7cc-140">Use Teams on my mobile device</span></span> | | | | | | | | | | |
 
-| <span data-ttu-id="3efb4-141">**Microsoft 팀을 사용 하는 것을 막는 경우**</span><span class="sxs-lookup"><span data-stu-id="3efb4-141">**What, if anything, is preventing you from using Microsoft Teams?**</span></span> | <span data-ttu-id="3efb4-142">**적용 되는 모두 선택**</span><span class="sxs-lookup"><span data-stu-id="3efb4-142">**Select all that apply**</span></span> |
+| <span data-ttu-id="6f7cc-141">**Microsoft 팀을 사용 하는 것을 막는 경우**</span><span class="sxs-lookup"><span data-stu-id="6f7cc-141">**What, if anything, is preventing you from using Microsoft Teams?**</span></span> | <span data-ttu-id="6f7cc-142">**적용 되는 모두 선택**</span><span class="sxs-lookup"><span data-stu-id="6f7cc-142">**Select all that apply**</span></span> |
 |---|---|
-| <span data-ttu-id="3efb4-143">본 적이 없는 경우</span><span class="sxs-lookup"><span data-stu-id="3efb4-143">I’ve never heard about it</span></span> | <span data-ttu-id="3efb4-144">&#9744;</span><span class="sxs-lookup"><span data-stu-id="3efb4-144">&#9744;</span></span> |
-| <span data-ttu-id="3efb4-145">컴퓨터에 설치 되어 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="3efb4-145">I don’t have it installed on my computer</span></span> | <span data-ttu-id="3efb4-146">&#9744;</span><span class="sxs-lookup"><span data-stu-id="3efb4-146">&#9744;</span></span> |
-| <span data-ttu-id="3efb4-147">나의 혜택 또는 사용자가 작업 하는 사람에 대해 이해할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="3efb4-147">I don't understand how it would benefit me or the people I work with</span></span> | <span data-ttu-id="3efb4-148">&#9744;</span><span class="sxs-lookup"><span data-stu-id="3efb4-148">&#9744;</span></span> |
-| <span data-ttu-id="3efb4-149">필요에 따라 평가할 시간이 없었습니다.</span><span class="sxs-lookup"><span data-stu-id="3efb4-149">I haven't had time to evaluate it for my needs</span></span> | <span data-ttu-id="3efb4-150">&#9744;</span><span class="sxs-lookup"><span data-stu-id="3efb4-150">&#9744;</span></span> |
-| <span data-ttu-id="3efb4-151">통신 및 공동 작업에 대 한 요구 사항을 충족 하는 다른 응용 프로그램을 이미 사용 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3efb4-151">I already use other applications that meet my needs for communication and collaboration</span></span> | <span data-ttu-id="3efb4-152">&#9744;</span><span class="sxs-lookup"><span data-stu-id="3efb4-152">&#9744;</span></span> |
-| <span data-ttu-id="3efb4-153">사용 하기 전에 교육이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="3efb4-153">I would need training before using it</span></span> | <span data-ttu-id="3efb4-154">&#9744;</span><span class="sxs-lookup"><span data-stu-id="3efb4-154">&#9744;</span></span> |
-| <span data-ttu-id="3efb4-155">이를 사용 하려고 했지만 기술 문제나 나쁜 경험이 있는 경우</span><span class="sxs-lookup"><span data-stu-id="3efb4-155">I’ve tried to use it, but had technical issues or a bad experience</span></span> | <span data-ttu-id="3efb4-156">&#9744;</span><span class="sxs-lookup"><span data-stu-id="3efb4-156">&#9744;</span></span> |
-| <span data-ttu-id="3efb4-157">지원 센터에서 내 질문에 대해 도울 수 없음</span><span class="sxs-lookup"><span data-stu-id="3efb4-157">Our support desk couldn't help me with my questions</span></span> | <span data-ttu-id="3efb4-158">&#9744;</span><span class="sxs-lookup"><span data-stu-id="3efb4-158">&#9744;</span></span> |
-| <span data-ttu-id="3efb4-159">현재는 사용 하지 않음</span><span class="sxs-lookup"><span data-stu-id="3efb4-159">Nothing, I currently use it</span></span> | <span data-ttu-id="3efb4-160">&#9744;</span><span class="sxs-lookup"><span data-stu-id="3efb4-160">&#9744;</span></span> |
-| <span data-ttu-id="3efb4-161">기타 (지정 해 주십시오)</span><span class="sxs-lookup"><span data-stu-id="3efb4-161">Other (please specify)</span></span> | <span data-ttu-id="3efb4-162">&#9744;</span><span class="sxs-lookup"><span data-stu-id="3efb4-162">&#9744;</span></span> |
+| <span data-ttu-id="6f7cc-143">본 적이 없는 경우</span><span class="sxs-lookup"><span data-stu-id="6f7cc-143">I’ve never heard about it</span></span> | <span data-ttu-id="6f7cc-144">&#9744;</span><span class="sxs-lookup"><span data-stu-id="6f7cc-144">&#9744;</span></span> |
+| <span data-ttu-id="6f7cc-145">컴퓨터에 설치 되어 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="6f7cc-145">I don’t have it installed on my computer</span></span> | <span data-ttu-id="6f7cc-146">&#9744;</span><span class="sxs-lookup"><span data-stu-id="6f7cc-146">&#9744;</span></span> |
+| <span data-ttu-id="6f7cc-147">나의 혜택 또는 사용자가 작업 하는 사람에 대해 이해할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="6f7cc-147">I don't understand how it would benefit me or the people I work with</span></span> | <span data-ttu-id="6f7cc-148">&#9744;</span><span class="sxs-lookup"><span data-stu-id="6f7cc-148">&#9744;</span></span> |
+| <span data-ttu-id="6f7cc-149">필요에 따라 평가할 시간이 없었습니다.</span><span class="sxs-lookup"><span data-stu-id="6f7cc-149">I haven't had time to evaluate it for my needs</span></span> | <span data-ttu-id="6f7cc-150">&#9744;</span><span class="sxs-lookup"><span data-stu-id="6f7cc-150">&#9744;</span></span> |
+| <span data-ttu-id="6f7cc-151">통신 및 공동 작업에 대 한 요구 사항을 충족 하는 다른 응용 프로그램을 이미 사용 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6f7cc-151">I already use other applications that meet my needs for communication and collaboration</span></span> | <span data-ttu-id="6f7cc-152">&#9744;</span><span class="sxs-lookup"><span data-stu-id="6f7cc-152">&#9744;</span></span> |
+| <span data-ttu-id="6f7cc-153">사용 하기 전에 교육이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f7cc-153">I would need training before using it</span></span> | <span data-ttu-id="6f7cc-154">&#9744;</span><span class="sxs-lookup"><span data-stu-id="6f7cc-154">&#9744;</span></span> |
+| <span data-ttu-id="6f7cc-155">이를 사용 하려고 했지만 기술 문제나 나쁜 경험이 있는 경우</span><span class="sxs-lookup"><span data-stu-id="6f7cc-155">I’ve tried to use it, but had technical issues or a bad experience</span></span> | <span data-ttu-id="6f7cc-156">&#9744;</span><span class="sxs-lookup"><span data-stu-id="6f7cc-156">&#9744;</span></span> |
+| <span data-ttu-id="6f7cc-157">지원 센터에서 내 질문에 대해 도울 수 없음</span><span class="sxs-lookup"><span data-stu-id="6f7cc-157">Our support desk couldn't help me with my questions</span></span> | <span data-ttu-id="6f7cc-158">&#9744;</span><span class="sxs-lookup"><span data-stu-id="6f7cc-158">&#9744;</span></span> |
+| <span data-ttu-id="6f7cc-159">현재는 사용 하지 않음</span><span class="sxs-lookup"><span data-stu-id="6f7cc-159">Nothing, I currently use it</span></span> | <span data-ttu-id="6f7cc-160">&#9744;</span><span class="sxs-lookup"><span data-stu-id="6f7cc-160">&#9744;</span></span> |
+| <span data-ttu-id="6f7cc-161">기타 (지정 해 주십시오)</span><span class="sxs-lookup"><span data-stu-id="6f7cc-161">Other (please specify)</span></span> | <span data-ttu-id="6f7cc-162">&#9744;</span><span class="sxs-lookup"><span data-stu-id="6f7cc-162">&#9744;</span></span> |
 
-<span data-ttu-id="3efb4-163">**Microsoft 팀을 친구/동료에 게 추천할 가능성이 얼마나 되나요? (0 = 모든 것이 불가능 합니다. 10 = 매우 높음)**</span><span class="sxs-lookup"><span data-stu-id="3efb4-163">**How likely are you to recommend Microsoft Teams to a friend/colleague? (0=Not at all likely...10=Extremely likely)**</span></span>
+<span data-ttu-id="6f7cc-163">**Microsoft 팀을 친구/동료에 게 추천할 가능성이 얼마나 되나요? (0 = 모든 것이 불가능 합니다. 10 = 매우 높음)**</span><span class="sxs-lookup"><span data-stu-id="6f7cc-163">**How likely are you to recommend Microsoft Teams to a friend/colleague? (0=Not at all likely...10=Extremely likely)**</span></span>
 
-| <span data-ttu-id="3efb4-164">0</span><span class="sxs-lookup"><span data-stu-id="3efb4-164">0</span></span> | <span data-ttu-id="3efb4-165">raid-1</span><span class="sxs-lookup"><span data-stu-id="3efb4-165">1</span></span> | <span data-ttu-id="3efb4-166">2</span><span class="sxs-lookup"><span data-stu-id="3efb4-166">2</span></span> | <span data-ttu-id="3efb4-167">3-4</span><span class="sxs-lookup"><span data-stu-id="3efb4-167">3</span></span> | <span data-ttu-id="3efb4-168">4(tcp/ipv4)</span><span class="sxs-lookup"><span data-stu-id="3efb4-168">4</span></span> | <span data-ttu-id="3efb4-169">5mb</span><span class="sxs-lookup"><span data-stu-id="3efb4-169">5</span></span> | <span data-ttu-id="3efb4-170">26</span><span class="sxs-lookup"><span data-stu-id="3efb4-170">6</span></span> | <span data-ttu-id="3efb4-171">7</span><span class="sxs-lookup"><span data-stu-id="3efb4-171">7</span></span> | <span data-ttu-id="3efb4-172">20cm(8</span><span class="sxs-lookup"><span data-stu-id="3efb4-172">8</span></span> | <span data-ttu-id="3efb4-173">되었는지</span><span class="sxs-lookup"><span data-stu-id="3efb4-173">9</span></span> | <span data-ttu-id="3efb4-174">1천만</span><span class="sxs-lookup"><span data-stu-id="3efb4-174">10</span></span> |
+| <span data-ttu-id="6f7cc-164">0</span><span class="sxs-lookup"><span data-stu-id="6f7cc-164">0</span></span> | <span data-ttu-id="6f7cc-165">raid-1</span><span class="sxs-lookup"><span data-stu-id="6f7cc-165">1</span></span> | <span data-ttu-id="6f7cc-166">2</span><span class="sxs-lookup"><span data-stu-id="6f7cc-166">2</span></span> | <span data-ttu-id="6f7cc-167">3-4</span><span class="sxs-lookup"><span data-stu-id="6f7cc-167">3</span></span> | <span data-ttu-id="6f7cc-168">4(tcp/ipv4)</span><span class="sxs-lookup"><span data-stu-id="6f7cc-168">4</span></span> | <span data-ttu-id="6f7cc-169">5mb</span><span class="sxs-lookup"><span data-stu-id="6f7cc-169">5</span></span> | <span data-ttu-id="6f7cc-170">26</span><span class="sxs-lookup"><span data-stu-id="6f7cc-170">6</span></span> | <span data-ttu-id="6f7cc-171">7</span><span class="sxs-lookup"><span data-stu-id="6f7cc-171">7</span></span> | <span data-ttu-id="6f7cc-172">20cm(8</span><span class="sxs-lookup"><span data-stu-id="6f7cc-172">8</span></span> | <span data-ttu-id="6f7cc-173">되었는지</span><span class="sxs-lookup"><span data-stu-id="6f7cc-173">9</span></span> | <span data-ttu-id="6f7cc-174">1천만</span><span class="sxs-lookup"><span data-stu-id="6f7cc-174">10</span></span> |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
-[<span data-ttu-id="3efb4-175">9 단계로 돌아가기</span><span class="sxs-lookup"><span data-stu-id="3efb4-175">Return to step 9</span></span>](upgrade-basic.md#step-9)
+[<span data-ttu-id="6f7cc-175">9 단계로 돌아가기</span><span class="sxs-lookup"><span data-stu-id="6f7cc-175">Return to step 9</span></span>](upgrade-basic.md#step-9)
 
 <!--ENDOFSECTION-->
