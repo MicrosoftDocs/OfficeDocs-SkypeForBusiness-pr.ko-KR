@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에 대 한 리소스 계정을 설정 합니다.
-ms.openlocfilehash: 09663b1c539b561a0dc591590c53d22cdb530fee
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207159"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253957"
 ---
 # <a name="configure-resource-accounts"></a>자원 계정 구성
 
@@ -31,7 +31,7 @@ ms.locfileid: "36207159"
 전화 시스템 자동 전화 교환 또는 통화 대기열에 서비스 번호가 필요한 경우 다음 순서에 따라 다양 한 종속성을 충족할 수 있습니다.
 
 1. 서비스 번호 가져오기
-2. 무료 전화 시스템- [가상 사용자 라이선스](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md) 또는 리소스 계정과 함께 사용 하는 유료 전화 시스템 라이선스를 취득 하세요.
+2. 무료 전화 시스템- [가상 사용자 라이선스](/MicrosoftTeams/teams-add-on-licensing/virtual-user) 또는 리소스 계정과 함께 사용 하는 유료 전화 시스템 라이선스를 취득 하세요.
 3. 자원 계정을 만듭니다. 연결 된 리소스 계정이 있는 경우 자동 전화 교환 또는 통화 대기열이 필요 합니다.
 4. 온라인 및 온-프레미스 간의 active directory 동기화가 끝날 때까지 기다립니다.
 5. 전화 시스템 라이선스를 리소스 계정에 할당 합니다.

@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 클라우드 음성 기능을 배포 하기 위한 실용적인 지침입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd749e00966c21677019d5d68d12e88287e96b45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 88f043bec273cb19745e9800fc9cdb85f64c8e7a
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237033"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271404"
 ---
 # <a name="teams-cloud-meeting-recording"></a>팀 클라우드 모임 녹음/녹화
 
@@ -32,7 +32,7 @@ Microsoft 팀에서 사용자는 팀 모임 및 그룹 통화를 녹음/녹화 �
 팀 사용자의 모임이 기록 되도록 하려면 테 넌 트에 대해 Microsoft Stream을 사용 하도록 설정 해야 합니다. 또한 모임 이끌이와 녹음/녹화를 시작 하는 사용자에 게 다음 필수 구성 요소가 필요 합니다.
 
 - 사용자에 게 Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium 또는 Business Essentials가 있습니다.
-- Microsoft Stream에 대 한 사용자 권한이 있어야 합니다.
+- 사용자에 게 Microsoft Stream<sup>1</sup> 에 대 한 라이선스가 있어야 합니다. 
 - 사용자에 게 Microsoft Stream 비디오 업로드 권한이 있음
 - 관리자가 설정한 경우 사용자가 회사 지침을 였음을
 - 사용자가 Microsoft Stream에 저장소를 저장할 충분 한 공간이 있습니다.
@@ -41,6 +41,8 @@ Microsoft 팀에서 사용자는 팀 모임 및 그룹 통화를 녹음/녹화 �
 
 > [!NOTE]
 > 또한 녹음/녹화를 시작 하는 사용자가 자동으로 녹음/녹화를 녹음 여부를 선택할 수 있도록 하려면 사용자의 TeamsMeetingPolicy-AllowTranscription 설정을 true로 설정 해야 합니다.
+
+<sup>1</sup> 사용자에 게 Microsoft Stream에 대 한 모임을 업로드/다운로드할 수 있는 권한이 필요 하지만 모임을 녹음/녹화할 수 있는 라이선스가 필요 하지는 않습니다. 사용자가 Microsoft 팀 모임을 기록 하지 못하도록 차단 하려면 AllowCloudRecording이 $False로 설정 된 TeamsMeetingPolicy를 부여 해야 합니다.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>조직의 사용자를 위한 팀 클라우드 모임 녹음/녹화 설정
 

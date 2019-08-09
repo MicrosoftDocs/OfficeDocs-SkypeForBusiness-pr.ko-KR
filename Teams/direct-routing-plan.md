@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결 하는 방법을 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: d462875103de900823b6754a9694cdada3a7a3e1
-ms.sourcegitcommit: 7ae59d1091ea086b7253c1d8ce85c28fabc5537a
+ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "36185306"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271427"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -55,9 +55,10 @@ Microsoft는 또한 통화 계획과 같은 모든 클라우드 음성 솔루션
 - [라이선스 및 기타 요구 사항](#licensing-and-other-requirements)
 - [SBC 도메인 이름](#sbc-domain-names)
 - [SBC에 대해 신뢰할 수 있는 공용 인증서](#public-trusted-certificate-for-the-sbc)
-- [SIP 신호: Fqdn 및 방화벽 포트](#sip-signaling-fqdns-and-firewall-ports)
+- [SIP 신호: Fqdn](#sip-signaling-fqdns)
+- [SIP 신호: 포트](#sip-signaling-ports)
 - [미디어 트래픽: 포트 범위](#media-traffic-port-ranges)
-- [지원 되는 SBCs](#supported-session-border-controllers-sbcs)
+- [지원 되는 SBCs (세션 경계 컨트롤러)](#supported-session-border-controllers-sbcs)
 
 직접 라우팅 구성에 대 한 자세한 내용은 [직접 라우팅 구성을](direct-routing-configure.md)참조 하세요.
 
@@ -75,7 +76,7 @@ Microsoft는 또한 통화 계획과 같은 모든 클라우드 음성 솔루션
 |SBC에 대 한 FQDN (정규화 된 도메인 이름)|SBC에 대 한 FQDN으로, 여기서 FQDN의 도메인 부분은 Office 365 테 넌 트에서 등록 된 도메인 중 하나입니다. 자세한 내용은 [SBC 도메인 이름을](#sbc-domain-names)참조 하세요.|
 |SBC에 대 한 공용 DNS 항목 |공용 DNS 항목이 SBC FQDN을 공용 IP 주소에 매핑하는 것입니다. |
 |SBC에 대해 신뢰할 수 있는 공용 인증서 |직접 라우팅과 관련 된 모든 통신에 사용할 SBC에 대 한 인증서입니다. 자세한 내용은 [SBC에 대해 신뢰할 수 있는 공개 인증서](#public-trusted-certificate-for-the-sbc)를 참조 하세요.|
-|직접 라우팅 연결 지점 |직접 라우팅의 연결 지점은 다음 세 가지 Fqdn입니다.<br/><br/>`sip.pstnhub.microsoft.com`-전역 FQDN을 먼저 시도해 야 합니다.<br/>`sip2.pstnhub.microsoft.com`-보조 FQDN, 지리적으로 두 번째 우선 순위 영역에 매핑됩니다.<br/>`sip3.pstnhub.microsoft.com`– 3 차 FQDN, 지리적으로 세 번째 우선 순위 영역에 매핑됩니다.<br/><br/>구성 요구 사항에 대 한 자세한 내용은 [SIP 신호: fqdn 및 방화벽 포트](#sip-signaling-fqdns-and-firewall-ports)를 참조 하세요.|
+|직접 라우팅 연결 지점 |직접 라우팅의 연결 지점은 다음 세 가지 Fqdn입니다.<br/><br/>`sip.pstnhub.microsoft.com`-전역 FQDN을 먼저 시도해 야 합니다.<br/>`sip2.pstnhub.microsoft.com`-보조 FQDN, 지리적으로 두 번째 우선 순위 영역에 매핑됩니다.<br/>`sip3.pstnhub.microsoft.com`– 3 차 FQDN, 지리적으로 세 번째 우선 순위 영역에 매핑됩니다.<br/><br/>구성 요구 사항에 대 한 자세한 내용은 [SIP 신호: fqdn](#sip-signaling-fqdns)을 참조 하세요.|
 |다이렉트 라우팅 미디어에 대 한 방화벽 IP 주소 및 포트 |SBC는 클라우드의 다음 서비스와 통신 합니다.<br/><br/>신호를 처리 하는 SIP 프록시<br/>미디어를 처리 하는 미디어 프로세서-매체 바이패스를 사용 하는 경우를 제외 하 고<br/><br/>이 두 서비스에는 Microsoft 클라우드에서이 문서의 뒷부분에 설명 된 별도의 IP 주소가 있습니다.<br/><br/>자세한 내용은 [Office 365 url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)에서 [Microsoft 팀 섹션](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 을 참조 하세요. |
 |미디어 전송 프로필|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내용은 [Office 365 url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 참조 하세요. |
@@ -169,7 +170,17 @@ CSR (인증 서명 요청)을 생성 하 여 SBC에 대 한 인증서를 요청 
 
 Microsoft는 고객 요청에 따라 추가 인증 기관을 추가 하기 위해 노력 하 고 있습니다. 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>SIP 신호: Fqdn 및 방화벽 포트 
+## <a name="sip-signaling-fqdns"></a>SIP 신호: Fqdn 
+
+직접 라우팅은 다음과 같은 Office 365 환경에서 제공 됩니다.
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+
+GCC, GCC High, DoD 등의 [Office 365 및 US 정부 환경](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) 에 대해 자세히 알아보세요.
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 및 Office 365 GCC 환경
 
 직접 라우팅에 대 한 연결 지점은 다음 세 가지 Fqdn입니다.
 
@@ -191,7 +202,44 @@ Fqdn – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.
 - 52.114.7.24 
 - 52.114.14.70
 
-수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다.  방화벽이 DNS 이름을 지원 하면 FQDN sip-all.pstnhub.microsoft.com 위의 모든 IP 주소로 확인 됩니다.  다음 포트를 사용 해야 합니다.
+수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다.  방화벽이 DNS 이름을 지 원하는 경우 FQDN sip-all.pstnhub.microsoft.com 이러한 모든 IP 주소를 확인 합니다. 
+
+
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 환경
+
+직접 라우팅의 연결 지점은 다음 FQDN입니다.
+
+**sip.pstnhub.dod.teams.microsoft.us** – 전역 FQDN. Office 365 DoD 환경은 미국 데이터 센터에만 있으므로 2 차 및 3 차 Fqdn이 없습니다.
+
+Fqdn – sip.pstnhub.dod.teams.microsoft.us는 다음 IP 주소 중 하나로 확인 됩니다.
+
+- 52.127.64.33
+- 52.127.68.34
+
+수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다.  방화벽이 DNS 이름을 지 원하는 경우 FQDN sip.pstnhub.dod.teams.microsoft.us 이러한 모든 IP 주소를 확인 합니다. 
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High 환경
+
+직접 라우팅의 연결 지점은 다음 FQDN입니다.
+
+**sip.pstnhub.gov.teams.microsoft.us** – 전역 FQDN. GCC High 환경은 US 데이터 센터에만 존재 하므로 2 차 및 3 차 Fqdn이 없습니다.
+
+Fqdn – sip.pstnhub.gov.teams.microsoft.us는 다음 IP 주소 중 하나로 확인 됩니다.
+
+- 52.127.88.59
+- 52.127.92.64
+
+수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다.  방화벽이 DNS 이름을 지 원하는 경우 FQDN sip.pstnhub.gov.teams.microsoft.us 이러한 모든 IP 주소를 확인 합니다. 
+
+## <a name="sip-signaling-ports"></a>SIP 신호: 포트
+
+포트 요구 사항은 직접 라우팅이 제공 되는 모든 Office 365 환경에 대해 동일 합니다.
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+
+다음 포트를 사용 해야 합니다.
 
 |**통신량**|**보낸 사람**|**받는 사람**|**원본 포트**|**대상 포트**|
 |:--- |:--- |:--- |:--- |:--- |
@@ -212,11 +260,25 @@ SBC는 DNS 쿼리를 사용 하 여 sip.pstnhub.microsoft.com를 해결 합니�
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>미디어 트래픽: 포트 범위
-참고 미디어 바이패스 없이 직접 라우팅 배포를 위해 ant를 사용 하는 경우 아래 요구 사항이 적용 됩니다. 미디어 우회에 대 한 방화벽 요구 사항에 대 한 자세한 내용은 [다이렉트 라우팅으로 미디어 바이패스 계획](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass) 을 참조 하세요.
+미디어 바이패스 없이 직접 라우팅을 배포 하려는 경우 아래 요구 사항이 적용 됩니다. 미디어 바이패스에 대 한 방화벽 요구 사항에 대해서는 [직접 라우팅의 미디어 바이패스 계획](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)을 참조 하세요.
+
+
 
 미디어 소통량이 Microsoft 클라우드의 별도 서비스에 전달 됩니다. 미디어 트래픽 IP 범위:
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 및 Office 365 GCC 환경
+
 - 52.112.0.0/14 (IP 주소는 52.112.0.1에서 52.115.255.254)입니다.
 
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 환경
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High 환경
+
+- 52.127.88.0/21
+
+### <a name="port-range-applicable-to-all-environments"></a>포트 범위 (모든 환경에 해당)
 미디어 프로세서의 포트 범위는 다음 표에 나와 있습니다. 
 
 |**통신량**|**보낸 사람**|**받는 사람**|**원본 포트**|**대상 포트**|

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6478938f26fb911cd3dc8f6ca8a7972cc906dd8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e6aacceaee811a80a9451f26cc1e8cba6ed56a49
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237674"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271384"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 정부 및 GCC 고급 배포 계획
 
@@ -78,14 +78,14 @@ Microsoft 365 정부-GCC 상위 환경은 클라우드 서비스에 대 한 미�
 |-----------------------------|-----------------------------|----------------|
 | 기반의 | 로그인 | 공간이 |
 | | 늘어 | 공간이 |
-| | 통합 현재 상태 (비즈니스용 Skype 및 팀 통합) | 정부 백로그 |
+| | 통합 현재 상태 (비즈니스용 Skype 및 팀 통합) | 공간이 |
 | 작동이 | 피드 | 공간이 |
 |  | 내 활동 | 공간이 |
 | 채트 | 주제별로 | 공간이 |
 | | 파일이 | 공간이 |
 | | 조직도 | 공간이 |
 | | 작동이 | 공간이 |
-| | InterOp (1:1 팀-비즈니스용 Skype 채팅) | 정부 백로그 |
+| | InterOp (1:1 팀-비즈니스용 Skype 채팅) | 공간이 |
 | 성과 | 채널 메시지 | 공간이 |
 | | 채널 파일 | 공간이 |
 | | OneNote 탭 | 정부 백로그 |

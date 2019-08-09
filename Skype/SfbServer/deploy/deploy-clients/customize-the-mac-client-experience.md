@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 이 문서에서는 Mac 클라이언트의 비즈니스용 Skype에서 사용할 수 있는 클라이언트 기본 설정 및 기본값과 앱 외부에서이를 편집 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 6b343c076d0fd1736cc6974a5c33103f0b6dfcda
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe8e6280fc939283bccb02641672a4fec6d5481c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234447"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271418"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>비즈니스용 Skype에서 Mac 클라이언트 환경 사용자 지정
  
@@ -34,7 +34,7 @@ Mac 클라이언트의 비즈니스용 Skype에서 사용할 수 있는 특정 �
 
 | 키 | 유형 | 값 | 설명 |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDiscoveryURLs    |부울    |0 = 수동 서버 구성  <br/> 1 = 자동 서버 검색 (기본값)    |비즈니스용 Skype에서 로그인 중에 사용할 전송 및 서버를 식별 하는 방법을 지정 합니다. 이 정책 설정을 사용 하도록 설정 하는 경우 **internalautodiscoveryurl** 및 **externalautodiscoveryurl**을 지정 해야 합니다.   |
+|autoDetectAutoDicoveryURLs    |부울    |0 = 수동 서버 구성  <br/> 1 = 자동 서버 검색 (기본값)    |비즈니스용 Skype에서 로그인 중에 사용할 전송 및 서버를 식별 하는 방법을 지정 합니다. 이 정책 설정을 사용 하도록 설정 하는 경우 **internalautodiscoveryurl** 및 **externalautodiscoveryurl**을 지정 해야 합니다.   |
 |internalAutoDiscoveryURL    |문자열    |전체 자동 검색 URL    |내부 자동 검색 URL    |
 |externalAutoDiscoveryURL    |문자열    |전체 자동 검색 URL    |외부 자동 검색 URL    |
 |httpProxyDomain    |문자열    ||HTTP 프록시 도메인    |

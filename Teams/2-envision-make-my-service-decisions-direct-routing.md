@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa92fcf7c30ecd8dfcecb84c3463f70ba13ee7ef
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4d3410616cf3e841ab6689ffd0fea772975b484c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240810"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271438"
 ---
 # <a name="make-my-service-decisions"></a>내 서비스 결정 하기
 
@@ -191,7 +191,7 @@ SBCs는 신호 및 미디어에 대 한 클라우드 서비스와 통신 하기 
 
 각 SBC에서 SIP 신호 및 미디어에 대 한 특정 포트 번호를 정의 하 고 이러한 포트와 연결 된 IP 주소에 대 한 양방향 트래픽을 허용 하도록 방화벽을 구성 해야 합니다.
 
-자세한 내용은 [SIP 신호: fqdn 및 방화벽 포트](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports) 및 [미디어 트래픽: 포트 범위](direct-routing-plan.md#media-traffic-port-ranges)를 참조 하세요.
+자세한 내용은 [SIP 신호: fqdn](direct-routing-plan.md#sip-signaling-fqdns) 및 [미디어 트래픽: 포트 범위](direct-routing-plan.md#media-traffic-port-ranges)를 참조 하세요.
 
 
 > [!NOTE]

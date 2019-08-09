@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: '요약: 비즈니스용 Skype 서버에서 사용 되는 회의 세부 정보 보고서에 대해 알아보세요.'
-ms.openlocfilehash: 5b88ae62c7d06437b3502bd72dd965fc26fbfcb6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 17337624c955dfa174f7b98772fdd836e82891d0
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197642"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271401"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 컨퍼런스 세부 정보 보고서
 
@@ -33,7 +33,7 @@ ms.locfileid: "36197642"
 
 - [사용자 활동 보고서](call-diagnostic-reports-per-user.md) (컨퍼런스 URI 메트릭 클릭)
 
-회의 세부 정보 보고서에서 진단 보고서 (세부 정보) 메트릭을 클릭 하 여 [진단 Repor](diagnostic-report.md) 에 액세스할 수 있습니다.
+회의 정보 보고서에서 진단 보고서 (세부 정보) 메트릭을 클릭 하 여 [진단 보고서](diagnostic-report.md) 에 액세스할 수 있습니다.
 
 ## <a name="filters"></a>필터가
 

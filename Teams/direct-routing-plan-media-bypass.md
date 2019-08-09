@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 이 항목에서는 전화 시스템 다이렉트 라우팅과 함께 미디어 바이패스를 계획 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: db236b1fadb4dcb13d5405402f469afee9eb2dac
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236602"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271449"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>다이렉트 라우팅으로 미디어 바이패스 계획
 
@@ -155,9 +155,17 @@ IP 범위는 52.112.0.0/14입니다 (IP 주소는 52.112.0.1에서 52.115.255.25
 SBC에 아래 설명 된 대로 전송 중계에 대 한 액세스 권한이 있는지 확인 합니다.    
 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>SIP 신호: Fqdn 및 방화벽 포트
+## <a name="sip-signaling-fqdns"></a>SIP 신호: Fqdn
 
 SIP 신호를 위해 FQDN 및 방화벽 요구 사항은 무시할 수 없는 경우와 동일 합니다. 
+
+직접 라우팅은 다음과 같은 Office 365 환경에서 제공 됩니다.
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD, gcc, GCC High, DoD 등의 [office 365 및 US 정부 환경](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) 에 대해 자세히 알아보세요.
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 및 Office 365 GCC 환경
 
 직접 라우팅의 연결 지점은 다음 세 가지 Fqdn입니다.
 
@@ -182,7 +190,43 @@ Fqdn **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com**및 **sip3.pst
 - 52.114.7.24
 - 52.114.14.70
 
-수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다. 방화벽이 DNS 이름을 지원 하면 FQDN **sip-all.pstnhub.microsoft.com** 위의 모든 IP 주소로 확인 됩니다. 다음 포트를 사용 해야 합니다.
+수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다. 방화벽이 DNS 이름을 지 원하는 경우 FQDN **sip-all.pstnhub.microsoft.com** 이러한 모든 IP 주소를 확인 합니다. 
+
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 환경
+
+직접 라우팅의 연결 지점은 다음 FQDN입니다.
+
+**sip.pstnhub.dod.teams.microsoft.us** – 전역 FQDN. Office 365 DoD 환경은 미국 데이터 센터에만 있으므로 2 차 및 3 차 Fqdn이 없습니다.
+
+Fqdn – sip.pstnhub.dod.teams.microsoft.us는 다음 IP 주소 중 하나로 확인 됩니다.
+
+- 52.127.64.33
+- 52.127.68.34
+
+수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다.  방화벽이 DNS 이름을 지 원하는 경우 FQDN sip.pstnhub.dod.teams.microsoft.us 이러한 모든 IP 주소를 확인 합니다. 
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High 환경
+
+직접 라우팅의 연결 지점은 다음 FQDN입니다.
+
+**sip.pstnhub.gov.teams.microsoft.us** – 전역 FQDN. GCC High 환경은 US 데이터 센터에만 존재 하므로 2 차 및 3 차 Fqdn이 없습니다.
+
+Fqdn – sip.pstnhub.gov.teams.microsoft.us는 다음 IP 주소 중 하나로 확인 됩니다.
+
+- 52.127.88.59
+- 52.127.92.64
+
+수신 및 송신 트래픽을 주소에서 주고 받을 수 있도록 방화벽에서 이러한 모든 IP 주소에 대해 포트를 열어야 합니다.  방화벽이 DNS 이름을 지 원하는 경우 FQDN sip.pstnhub.gov.teams.microsoft.us 이러한 모든 IP 주소를 확인 합니다. 
+
+## <a name="sip-signaling-ports"></a>SIP 신호: 포트
+
+포트 요구 사항은 직접 라우팅이 제공 되는 모든 Office 365 환경에 대해 동일 합니다.
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+
+다음 포트를 사용 해야 합니다.
 
 | 통신량 | 보낸 사람 | 받는 사람 | 원본 포트 | 대상 포트|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -210,9 +254,22 @@ UDP/SRTP | 클라이언트측 | 하더라도 | 50 000 – 50 019  | SBC에 정�
 
 ### <a name="requirements-for-using-transport-relays"></a>전송 릴레이를 사용 하기 위한 요구 사항
 
-전송 릴레이는 미디어 프로세서와 같은 범위에 있습니다 (바이패스 이외의 경우): 52.112.0.0/14 (IP 주소는 52.112.0.1에서 52.115.255.254)입니다.
+전송 릴레이는 미디어 프로세서와 같은 범위에 있습니다 (바이패스 이외의 경우). 
 
-팀 전송 릴레이의 포트 범위는 다음 표에 나와 있습니다.
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 및 Office 365 GCC 환경
+
+-52.112.0.0/14 (52.112.0.1에서 52.115.255.254 까지의 IP 주소)
+
+## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 환경
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High 환경
+
+- 52.127.88.0/21
+
+
+모든 환경에 적용 되는 팀 전송 릴레이의 포트 범위는 다음 표에 나와 있습니다.
 
 
 | 통신량 | 보낸 사람 | 받는 사람 | 원본 포트 | 대상 포트|
@@ -236,9 +293,21 @@ UDP/SRTP | 전송 릴레이 | 하더라도 | 50 000-59 999    | SBC에 정의 �
 미디어 프로세서는 항상 음성 응용 프로그램 및 웹 cleints 미디어 경로에 있습니다 (exampe의 경우 팀 cleint Edge 또는 Google Chrome). 요구 사항은 비 바이패스 구성의 경우와 동일 합니다.
 
 
-미디어 소통량에 대 한 IP 범위는 52.112.0.0/14 (IP 주소는 52.112.0.1에서 52.115.255.254)입니다.
+미디어 트래픽 IP 범위는 
 
-미디어 프로세서의 포트 범위는 다음 표에 나와 있습니다.
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 및 Office 365 GCC 환경
+
+-52.112.0.0/14 (52.112.0.1에서 52.115.255.254 까지의 IP 주소)
+
+## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 환경
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High 환경
+
+- 52.127.88.0/21
+
+모든 환경에 적용 되는 미디어 프로세서의 포트 범위는 다음 표에 나와 있습니다.
 
 | 통신량 | 보낸 사람 | 받는 사람 | 원본 포트 | 대상 포트|
 | :-------- | :-------- |:-----------|:--------|:---------|

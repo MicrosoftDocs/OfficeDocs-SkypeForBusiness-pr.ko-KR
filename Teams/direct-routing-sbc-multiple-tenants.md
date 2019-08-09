@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 여러 테 넌 트를 처리 하도록 한 SBC (세션 경계 컨트롤러)를 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: f12e4ac747607a8527021f50794b6fc742ed0b19
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 3aad7aa5b958e9e4129bbf7e3553137768d1f4c1
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36185174"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271460"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테 넌 트에 대 한 세션 경계 컨트롤러 구성
 
@@ -57,6 +57,7 @@ Microsoft는 통신 회사를 관리 하지 않습니다. Microsoft는 Microsoft
 SBC 호스팅 시나리오의 SBCs를 배포 하 고 구성 하는 방법에 대 한 자세한 단계는 SBC 공급 업체의 설명서를 참조 하세요.
 
 - **오디오 코드:** "오디오 코드 SBC를 Microsoft 팀의 직접 라우팅 호스팅 모델 구성에 연결"에 설명 된 SBC 호스팅 시나리오의 구성에 대 한 [직접적인 라우팅 구성 참고 사항](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)입니다. 
+- **오라클:** [직접 라우팅 구성 참고](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)이 SBC 호스팅 시나리오의 구성은 "Microsoft" 섹션에 설명 되어 있습니다. 
 - **리본 통신:**  리본 메뉴의 [커뮤니케이션 SBC 핵심 Microsoft 팀 구성 가이드](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) 를 참조 하세요. 리본 메뉴의 핵심 계열 SBCs를 구성 하는 방법에 대 한 문서를 보려면 [최상의 방법-microsoft 팀에 대해 통신 구성 SBC (직접 라우팅 SBC) Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **TE-시스템 (anynode):**  여러 테 넌 트에 대해 anynode SBC를 구성 하는 방법에 대 한 설명서와 예제는 [TE Systems 커뮤니티 페이지](https://community.te-systems.de/) 를 통해 등록 하십시오.
 
@@ -205,7 +206,7 @@ Microsoft는 직접적인 라우팅의 초기 릴리스에서 새 CSOnlinePSTNGa
 
 그러나이는 다음 두 가지 이유로 인해 최적이 증명 되지 않았습니다.
  
-• **오버 헤드 관리**. 예를 들어 SBC를 해제 하거나 드레이닝 하면 미디어 바이패스를 사용 하거나 사용 하지 않도록 설정 하는 등의 일부 매개 변수가 변경 됩니다. 포트를 변경 하려면 CSonlinePSTNGateway를 실행 하 여 여러 테 넌 트의 매개 변수를 변경 해야 하지만, 실제로는 동일한 SBC입니다. • **오버 헤드 처리**. 트렁크 상태 데이터 수집 및 모니터링-즉, 같은 SBC와 물리적 트렁크가 같은 여러 논리적 trunks에서 수집 된 SIP 옵션으로 라우팅 데이터 처리 속도가 느려집니다.
+• **오버 헤드 관리**. 예를 들어 SBC를 해제 하거나 드레이닝 하면 미디어 바이패스를 사용 하거나 사용 하지 않도록 설정 하는 등의 일부 매개 변수가 변경 됩니다. 포트를 변경 하려면 CSOnlinePSTNGateway를 실행 하 여 여러 테 넌 트의 매개 변수를 변경 해야 하지만, 실제로는 동일한 SBC입니다. • **오버 헤드 처리**. 트렁크 상태 데이터 수집 및 모니터링-즉, 같은 SBC와 물리적 트렁크가 같은 여러 논리적 trunks에서 수집 된 SIP 옵션으로 라우팅 데이터 처리 속도가 느려집니다.
  
 
 이 피드백에 따라 Microsoft는 고객 테 넌 트에 대 한 trunks를 프로 비전 하는 새 논리를 제공 하 고 있습니다.
@@ -226,7 +227,7 @@ Microsoft는 직접적인 라우팅의 초기 릴리스에서 새 CSOnlinePSTNGa
 
 이전 모델에서 반송파 트렁크로 마이그레이션
  
-현재 반송파 호스팅 모델 구현에서 새 모델로의 마이그레이션을 위해, 캐리어가 고객 테 넌 트에 대 한 trunks를 다시 구성 해야 합니다. -CSOnluinePSTNGateway를 사용 하 여 고객 테 넌 트에서 trunks를 제거 합니다 (반송파 테 넌 트에서 트렁크는 떠나).
+현재 반송파 호스팅 모델 구현에서 새 모델로의 마이그레이션을 위해, 캐리어가 고객 테 넌 트에 대 한 trunks를 다시 구성 해야 합니다. Trunks에서 제거-CSOnlinePSTNGateway를 사용 하 여 고객 테 넌 트에서 제거 합니다 (반송파 테 넌 트에 트렁크를 남겨 둠).
 
 지금 바로 통신 회사 및 유도 트렁크 모델을 사용 하 여 모니터링과 프로 비전을 향상 시킬 수 있으므로 최대한 빨리 새로운 솔루션으로 마이그레이션 하는 것을 적극 권장 합니다.
  
