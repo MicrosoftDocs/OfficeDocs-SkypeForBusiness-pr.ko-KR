@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e91b0e25a7844634577083b26d74a48c788bc45b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 38a0368a2fb11fb1f6d1a37e5a7f53a1798733d7
+ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237055"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "36286259"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Microsoft 팀을 위한 클라우드 비디오 Interop 설정
 
-[클라우드 비디오 Interop 파트너를 선택한](cloud-video-interop.md)후에는 배포를 계획 하 고, 프로 비전 세부 정보 및 파트너 테 넌 트 키를 사용 하 여 설정 하 고, 조직의 비디오 Interop 앱에 동의 해야 합니다. 다음 다이어그램은 프로세스를 대략적으로 보여 줍니다. 
+[클라우드 비디오 Interop 파트너를 선택한](cloud-video-interop.md)후에는 배포를 계획 하 고, 프로 비전 세부 정보 및 파트너 테 넌 트 키를 사용 하 여 설정 하 고, 조직의 비디오 Interop 앱에 대 한 동의를 받아야 합니다. 다음 다이어그램은 프로세스를 대략적으로 보여 줍니다. 
 
 ![조직에 CVI 배포](media/deploying-cvi.png)
 
