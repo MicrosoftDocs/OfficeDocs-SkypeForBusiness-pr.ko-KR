@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baeb60f00602052d28a85337387cb0024979360e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 506d33ab48ad35397a500ef8f274ef6a332f8cd1
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237673"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393441"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 정부의 GCC 배포 계획
 
@@ -98,9 +98,9 @@ Office 365의 기능과 기능을 활용할 수 있을 뿐만 아니라, Microso
 | | 공유 하 고 제어권을 부여 합니다. | 공간이 |
 | | 회의실에서 연결 | 공간이 |
 | | 익명 참가 | 공간이 |
-| | 클라우드 기록 | 정부 백로그 |
+| | 클라우드 기록 | 공간이 |
 | | 모임 메모 | 공간이 |
-| | 모임 브로드캐스트 | 정부 백로그 |
+| | 라이브 이벤트 | 공간이 |
 | | 페더레이션된 모임 | 공간이 |
 | | Surface Hub 지원 | 사용할 수 없음 |
 | 전화가 | 상대가 | 공간이 |

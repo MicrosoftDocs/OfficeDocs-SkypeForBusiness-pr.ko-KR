@@ -3,38 +3,6 @@
 
 
 
-## <a name="week-of-july-01-2019"></a>01 년 7 월 1 일, 2019
-
-
-| 게시 날짜 |주제 제목 | 바뀌지 |
-|------|------------|--------|
-| 7/1/2019 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/room-systems/requirements) | 으 |
-| 7/1/2019 | [Microsoft 팀에서 StaffHub 팀을 교대으로 이동](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 으 |
-| 7/1/2019 | [Microsoft 팀 관리자 역할을 사용 하 여 팀 관리](/MicrosoftTeams/using-admin-roles) | 으 |
-| 7/1/2019 | [Microsoft 팀을 배포 하는 방법](/MicrosoftTeams/how-to-roll-out-teams) | 으 |
-| 7/1/2019 | 비즈니스용 Skype를 Microsoft 팀으로 업그레이드 | 제거할 |
-| 7/1/2019 | [Microsoft 팀 시작](/MicrosoftTeams/teams-overview) | 으 |
-| 7/1/2019 | [비즈니스용 Skype에서 Microsoft 팀으로 업그레이드 하는 방법 이해](/MicrosoftTeams/tutorial-journey-skypeforbusiness-to-teams) | 으 |
-| 7/1/2019 | [팀에 게스트 추가](/MicrosoftTeams/add-guests) | 으 |
-| 7/1/2019 | [Microsoft 팀 미리 보기의 정보 장벽](/MicrosoftTeams/information-barriers-in-teams) | 으 |
-| 7/1/2019 | [Microsoft 팀의 관리 교육](/MicrosoftTeams/teams-admin-training-landing-page) | 으 |
-| 7/1/2019 | [Microsoft 팀 장치 사용 보고서](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 으 |
-| 7/1/2019 | [Microsoft 팀 분석 및 보고](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 으 |
-| 7/1/2019 | [Microsoft 팀 사용 보고서](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 으 |
-| 7/1/2019 | [Microsoft 팀 사용자 활동 보고서](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 으 |
-| 7/1/2019 | [Microsoft 팀 live 이벤트는 무엇 인가요?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 으 |
-| 7/3/2019 | [팀에서 자원 계정 관리](/MicrosoftTeams/manage-resource-accounts) | 으 |
-| 7/3/2019 | [팀 업데이트 프로세스](/MicrosoftTeams/teams-client-update) | 으 |
-| 7/3/2019 | [비즈니스용 Skype \| 모드에서의 Microsoft 팀 업그레이드, 공존](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 으 |
-| 7/3/2019 | [클라우드 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으 |
-| 7/3/2019 | [통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으 |
-| 7/3/2019 | [SCCM을 통해 MSI를 사용 하 여 Microsoft 팀 설치](/MicrosoftTeams/msi-deployment) | 으 |
-| 7/3/2019 | [클라우드 자동 전화 교환 이란?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 으 |
-| 7/3/2019 | [일본의 사용 가능 여부](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan) | 으 |
-| 7/3/2019 | [오스트레일리아 용 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | 으 |
-| 7/3/2019 | [Microsoft 팀의 알려진 문제점](/MicrosoftTeams/known-issues) | 으 |
-
-
 ## <a name="week-of-july-08-2019"></a>2008 년 7 월 1 일, 2019
 
 
@@ -196,3 +164,66 @@
 | 8/2/2019 | [Microsoft 팀에서 앱 권한 정책 관리](/MicrosoftTeams/teams-app-permission-policies) | 으 |
 | 8/2/2019 | [Microsoft 팀에서 앱 설치 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 으 |
 | 8/2/2019 | [Microsoft 팀에서 사용자 지정 앱 정책 및 설정 관리](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 으 |
+
+
+## <a name="week-of-august-05-2019"></a>8 월 05 일 주 2019
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 8/5/2019 | [Microsoft 팀에서 서비스 품질 구현](/MicrosoftTeams/qos-in-teams) | 으 |
+| 8/5/2019 | [통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으 |
+| 8/5/2019 | [Microsoft 팀 문제 해결에서 로그 파일 사용](/MicrosoftTeams/log-files) | 으 |
+| 8/5/2019 | [팀에서 자원 계정 관리](/MicrosoftTeams/manage-resource-accounts) | 으 |
+| 8/5/2019 | [비즈니스용 Skype로 팀을 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 으 |
+| 8/5/2019 | [Microsoft 팀을 위한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 으 |
+| 8/5/2019 | [Exchange와 함께 Microsoft 팀 대화방 배포 (온-프레미스)](/MicrosoftTeams/room-systems/with-exchange-on-premises) | 으 |
+| 8/6/2019 | [Microsoft 팀 문제 해결에서 로그 파일 사용](/MicrosoftTeams/log-files) | 으 |
+| 8/6/2019 | [전화 시스템-가상 사용자 라이선스](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 으 |
+| 8/6/2019 | [Microsoft 팀의 운영 가이드](/MicrosoftTeams/1-drive-value-operate-my-service) | 으 |
+| 8/6/2019 | [오디오 회의 성공 정의-Microsoft 팀](/MicrosoftTeams/1-envision-define-my-success-audio-conferencing) | 으 |
+| 8/6/2019 | [오디오 회의, 통화 요금제로 전화 시스템, 전화 시스템 다이렉트 라우팅과 함께 성공 정의-Microsoft 팀](/MicrosoftTeams/1-envision-define-my-success-cloud-voice) | 으 |
+| 8/6/2019 | [통화 요금제를 사용 하 여 전화 시스템의 성공 정의-Microsoft 팀](/MicrosoftTeams/1-envision-define-my-success-phone-system) | 으 |
+| 8/6/2019 | [Microsoft 팀 클라우드 음성 서비스 배포 준비](/MicrosoftTeams/1-onboard-prepare-my-service) | 으 |
+| 8/6/2019 | [Microsoft 팀 서비스 개선](/MicrosoftTeams/2-drive-value-enhance-my-service) | 으 |
+| 8/6/2019 | [오디오 회의 서비스를 결정할 수 있도록 설정-Microsoft 팀](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | 으 |
+| 8/6/2019 | [전화 시스템 다이렉트 라우팅 서비스 결정-Microsoft 팀](/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing) | 으 |
+| 8/6/2019 | [통화 요금제를 사용 하 여 전화 시스템 설정 서비스 결정-Microsoft 팀](/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system) | 으 |
+| 8/6/2019 | [Microsoft 팀을 위한 사용자 준비](/MicrosoftTeams/2-onboard-prepare-my-users) | 으 |
+| 8/6/2019 | [Microsoft 팀 클라우드 음성 작업 부하에 대 한 환경 평가](/MicrosoftTeams/3-envision-evaluate-my-environment) | 으 |
+| 8/6/2019 | [Microsoft 팀 클라우드 음성 서비스 배포](/MicrosoftTeams/3-onboard-deploy-my-service) | 으 |
+| 8/6/2019 | [Microsoft 팀 서비스 관리 계획](/MicrosoftTeams/4-envision-plan-my-service-management) | 으 |
+| 8/6/2019 | [Microsoft 팀의 사용자 환경 계획](/MicrosoftTeams/5-envision-plan-my-users-experience) | 으 |
+| 8/6/2019 | [Microsoft 팀의 성공 계획 문서화](/MicrosoftTeams/6-envision-document-my-success-plan) | 으 |
+| 8/6/2019 | [Microsoft 팀 \| 에서 환경 \| 채택, 검색을 평가 합니다.](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | 으 |
+| 8/6/2019 | [Exchange 및 Microsoft 팀의 상호 작용 방식](/MicrosoftTeams/exchange-teams-interact) | 으 |
+| 8/6/2019 | [Microsoft 팀과 함께 사용할 Exchange 하이브리드 조직 구성](/MicrosoftTeams/exchange-hybrid-organization) | 으 |
+| 8/6/2019 | [질문과 대답-비즈니스용 Skype에서 Microsoft 팀으로 업그레이드](/MicrosoftTeams/faq-journey) | 으 |
+| 8/6/2019 | [Microsoft 팀을 배포 하는 방법](/MicrosoftTeams/how-to-roll-out-teams) | 으 |
+| 8/6/2019 | [Microsoft 팀의 관리 교육](/MicrosoftTeams/itadmin-readiness) | 으 |
+| 8/6/2019 | [Microsoft 팀의 알려진 문제점](/MicrosoftTeams/known-issues) | 으 |
+| 8/6/2019 | [Microsoft 팀 기술 문서](/MicrosoftTeams/microsoft-teams) | 으 |
+| 8/7/2019 | [팀에 대 한 교대](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 으 |
+| 8/7/2019 | [릴리스 정보](/MicrosoftTeams/room-systems/srs2-release-note) | 으 |
+| 8/7/2019 | [Microsoft 팀에서 StaffHub 팀을 교대으로 이동](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 으 |
+| 8/7/2019 | [질문과 대답-비즈니스용 Skype에서 Microsoft 팀으로 업그레이드](/MicrosoftTeams/faq-journey) | 으 |
+| 8/7/2019 | [Azure Monitor를 사용 하 여 Microsoft 팀 회의실 장치 관리](/MicrosoftTeams/room-systems/azure-monitor-manage) | 으 |
+| 8/7/2019 | [알려진 문제점](/MicrosoftTeams/room-systems/known-issues) | 으 |
+| 8/7/2019 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/room-systems/requirements) | 으 |
+| 8/7/2019 | [버전 지원](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | 으 |
+| 8/7/2019 | [Microsoft 팀 대화방에 대 한 Windows 업데이트 관리](/MicrosoftTeams/room-systems/updates) | 으 |
+| 8/7/2019 | [Microsoft 팀에서 피드백 정책 관리](/MicrosoftTeams/manage-feedback-policies-in-teams) | 으 |
+| 8/8/2019 | [Microsoft 팀에서 이벤트 감사 로그 검색](/MicrosoftTeams/audit-log-events) | 으 |
+| 8/8/2019 | [여러 테 넌 트에 대 한 세션 경계 컨트롤러 구성](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 으 |
+| 8/8/2019 | [Microsoft 팀 게스트 액세스 검사 목록](/MicrosoftTeams/guest-access-checklist) | 으 |
+| 8/8/2019 | [도구 및 워크샵-Microsoft 팀 계획, 제공 및 채택](/MicrosoftTeams/planning-workshop-practical-guide) | 으 |
+| 8/8/2019 | [팀 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 으 |
+| 8/8/2019 | [다이렉트 라우팅으로 미디어 바이패스 계획](/MicrosoftTeams/direct-routing-plan-media-bypass) | 으 |
+| 8/8/2019 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 으 |
+| 8/8/2019 | [Microsoft 365 정부 및 GCC 상위 배포 계획-Microsoft 팀](/MicrosoftTeams/plan-for-government-gcc-high) | 으 |
+| 8/8/2019 | [전화 시스템 다이렉트 라우팅 서비스 결정-Microsoft 팀](/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing) | 으 |
+| 8/9/2019 | [Microsoft 팀에서 정책 패키지 관리](/MicrosoftTeams/manage-policy-packages) | 으 |
+| 8/9/2019 | [Microsoft 팀을 위한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 으 |
+| 8/9/2019 | [Microsoft 팀을 위한 클라우드 비디오 Interop 설정](/MicrosoftTeams/cloud-video-interop-for-teams-set-up) | 으 |
+| 8/9/2019 | [정부용 팀](/MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page) | 으 |
+| 8/9/2019 | [Microsoft 팀원 관리 센터에서 팀 관리](/MicrosoftTeams/manage-teams-in-modern-portal) | 으 |

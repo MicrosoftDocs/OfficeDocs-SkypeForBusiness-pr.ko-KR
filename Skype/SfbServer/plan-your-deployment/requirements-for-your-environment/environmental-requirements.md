@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '요약: 비즈니스용 Skype 서버 2015에 대 한 비 서버 요구 사항을 구성 합니다. 배포를 수행 하기 전에 Active Directory, DNS, 인증서, Fileshares 등의 다양 한 기능을 구성할 수 있습니다.'
-ms.openlocfilehash: 68ccac9b4335de6b4f3bea0fba179e7d8e498224
-ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
+ms.openlocfilehash: 59f7bed17c217eda46314d2a133c0d5671682824
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "36197864"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393429"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에 대한 환경 요구 사항
  
@@ -54,6 +54,8 @@ ms.locfileid: "36197864"
 ### <a name="os-for-domain-controllers"></a>도메인 컨트롤러용 OS
 
 그렇다면 어떤 도메인 컨트롤러 OS를 사용할 수 있나요? 여기에는 다음과 같은 목록이 있습니다.
+
+- Windows Server 2019 (비즈니스용 Skype Server 2015 누적 업데이트 5 이상 이어야 함)
   
 - Windows Server 2016
     
@@ -66,6 +68,8 @@ ms.locfileid: "36197864"
 - Windows Server 2008
     
 이제 비즈니스용 Skype 서버 2015를 배포 하는 모든 도메인의 도메인 기능 수준 및 비즈니스용 Skype Server 2015에 배포 하는 포리스트의 포리스트 기능 수준은 다음 중 하나 여야 합니다.
+
+- Windows Server 2019 (비즈니스용 Skype Server 2015 누적 업데이트 5 이상 이어야 함)
   
 - Windows Server 2016
     

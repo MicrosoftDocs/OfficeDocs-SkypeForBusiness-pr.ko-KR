@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89d9ed514eb5246911fe88d5fadc1af79caff1b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b0f3e24d38e877d923e52de3f1c7116853737dc7
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245406"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393432"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 및 Microsoft 팀의 상호 작용 방식
 
@@ -29,11 +29,16 @@ ms.locfileid: "36245406"
 
 전체 팀 경험을 위해서는 모든 사용자가 Exchange Online, SharePoint Online 및 Office 365 그룹 만들기를 사용할 수 있어야 합니다.
 
-사용자의 Exchange 사서함을 온라인 또는 온-프레미스로 호스트할 수 있습니다. Exchange Online 또는 Exchange 전용 vNext에서 호스팅되는 사용자는 팀의 모든 기능을 사용할 수 있습니다. 팀 및 채널을 만들고, 회의를 만들고, 채팅을 하 고, 사용자 프로필 사진을 수정 하 고, 커넥터, 탭, 인공 지능 등을 추가 및 구성할 수 있습니다.
+사용자의 Exchange 사서함을 온라인 또는 온-프레미스로 호스트할 수 있습니다. 그러나 일부 기능을 사용 하려면 Office 365 테 넌 트를 통해 하이브리드 배포를 배치 해야 합니다.
 
-Exchange Online 전용-레거시 또는 Exchange 온-프레미스에 호스팅되는 사용자는 Office 365의 Azure Active Directory로 동기화 되어야 합니다. 팀과 채널을 만들고 참가 하 고 탭과 인공 지능, 채팅 및 통화를 추가 및 구성할 수 있습니다. 그러나 사용자 프로필 사진을 수정 하거나 커넥터를 추가 하 고 구성할 수는 없습니다. 다른 사용자가 구성한 커넥터에서 메시지를 받을 수 있습니다. 모임을 만들고 볼 때, 모임 만들기 및 보기는 Exchange 2016 누적 업데이트 3 (CU3 이상) 이상에 대해 지원 되지만 Exchange 2016 CU3 이상 이전 버전에는 해당 되지 않습니다.
+Exchange Online 또는 Exchange 전용 vNext에서 호스팅되는 사용자는 팀의 모든 기능을 사용할 수 있습니다. 팀 및 채널을 만들고, 회의를 만들고, 채팅을 하 고, 사용자 프로필 사진을 수정 하 고, 커넥터, 탭, 인공 지능 추가 및 구성할 수 있습니다.
 
-다음 표에서는 다양 한 환경에서 Exchange Online이 호스팅되는 사용자에 대 한 정보를 제공 합니다.
+Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Office 365의 Azure Active Directory와 동기화 되어야 합니다. 팀과 채널을 만들고 참가 하 고, 탭 및 인공 지능을 추가 및 구성 하 고, 채팅 및 통화 기능을 활용할 수 있습니다. 그러나 프로필 사진을 수정 하거나, 모임을 관리 하거나, outlook 연락처에 액세스 하거나, 연결선을 관리할 수는 없습니다.
+
+온-프레미스에 호스팅되는 사서함이 있는 사용자는 Azure Active Directory와 동기화 되어야 합니다. 위의 시나리오에서 모든 기능을 사용할 수 있지만, 또한 사용자 프로필 사진을 변경 하 고 모임 관리를 위해 Exchange Server 2016 (누적 업데이트 3)을 제공 하 여 온-프레미스로 실행할 수도 있습니다.
+
+다음 표에서는 Exchange 환경을 기반으로 하는 기능 가용성에 대 한 유용한 빠른 참조를 제공 합니다.
+
 
 **지원 되는 작업:**
 
@@ -41,16 +46,23 @@ Exchange Online 전용-레거시 또는 Exchange 온-프레미스에 호스팅�
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|예 <sup>2</sup>|예 <sup>2</sup>|'|'|'|'|'|'|'|'|'|'|'|
 |**Exchange Online 전용 vNext**|예 <sup>2</sup>|예 <sup>2</sup>|'|'|'|'|'|'|'|'|'|'|'|
-|**Exchange Online 전용 – 레거시** (Azure AD와 동기화 필요)|예 <sup>2</sup>|예 <sup>2, 3</sup>|예 <sup>4|'|아니요|아니요|'|'|아니요|예 <sup>5|'|'|'|
-|**Exchange 온-프레미스** (Azure AD와 동기화 필요)|예 <sup>2</sup>| 예 <sup>2, 3</sup> |예 <sup>4|'|Yes (Exchange 2016 CU3 이상 +)|Yes (Exchange 2016 CU3 이상 +)|'|'|아니요|예 <sup>5|'|'|'|
+|**Exchange Online 전용 – 레거시** (Azure AD와 동기화 필요)|예 <sup>2</sup>|예 <sup>2, 3</sup>|예 <sup>4|'|아니요|아니요|'|'|아니요|예 <sup>5|예 <sup>6|'|'|
+|**Exchange 온-프레미스** (Azure AD와 동기화 필요)|예 <sup>2</sup>| 예 <sup>2, 3</sup> |예 <sup>4|'|Yes (Exchange 2016 CU3 이상 +)|Yes (Exchange 2016 CU3 이상 +)|'|'|아니요|예 <sup>5|예 <sup>6|'|'|
 
-<sup>1</sup> EXCHANGE 2016 cu3 이상 이상 지원  
-모든 호스팅 옵션에 대해 채널 메시지의 준수에 대 한 eDiscovery 및 법적 보류가 <sup>2 개</sup> 지원 됩니다.  
+<sup>1</sup> EXCHANGE 2016 cu3 이상 이상 지원 됩니다.  
+
+모든 호스팅 옵션에 대해 채널 메시지의 준수에 대 한 eDiscovery 및 법적 보류가 <sup>2 개</sup> 지원 됩니다.
+
 <sup>3</sup> 팀 개인 채팅 메시지는이 호스팅 옵션의 법률 보존에 대해 아직 지원 되지 않습니다.
 
 <sup>4</sup> 보존은 온라인 사용자가 메시지를 저장할 때 그림자 사서함을 사용 합니다. [Microsoft 팀은 Exchange 하이브리드 환경에서 팀 사용자를 위해 eDiscovery를 지원](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)합니다.
 
 <sup>5</sup> 팀에서 온-프레미스 Exchange 사서함이 있는 사용자는 Outlook에서 팀과 보이스 메일을 사용할 수 있지만, 음성 메일 메시지는 팀 클라이언트 내에서 보거나 재생할 수 없습니다.
+
+<sup>6</sup> 팀 소유자 중 한 명에 게 커넥터를 추가할 수 있는 경우 해당 팀의 다른 사용자는 자신의 사서함이 온-프레미스 인 경우에도이 작업을 수행할 수 있습니다.
+
+
+추가 정보:
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft 팀을 최대한 활용 하기 위한 요구 사항
 
