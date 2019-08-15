@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 사용자가 조직에서 예약한 팀 모임에 대 한 설정을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c26165abdc753fbe37d3465738200c43b42d087d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b1513e80028137c909f5fc0f854666b1770299c8
+ms.sourcegitcommit: c169b091a630ff78c233a2a2824da122184635d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236563"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "36404606"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft 팀에서 모임 설정 관리
 
@@ -38,7 +38,7 @@ ms.locfileid: "36236563"
 1. 왼쪽 탐색 창에서 **모임** > **모임 설정**으로 이동 합니다.
 2. **참가자**에서 **익명 사용자가 모임에 참가할 수 있도록**설정 합니다.
 
-    ![관리 센터의 모임에 대 한 참가자 설정 스크린샷] (media/meeting-settings-participants.png "Microsoft 팀 관리 센터에서 팀 모임에 대 한 참가자 설정 스크린샷")
+    ![관리 센터의 모임 참가자 설정 스크린샷] (media/meeting-settings-participants.png "Microsoft 팀 관리 센터에서 팀 모임에 대 한 참가자 설정 스크린샷")
 
 익명 사용자가 조직의 사용자가 예약한 모임에 참가 하는 것을 원하지 않는다면이 설정을 끄세요.
 
@@ -73,7 +73,10 @@ ms.locfileid: "36236563"
 
 <a name="bknetwork"> </a>
 
-[Qos (](qos-in-teams.md) 서비스 품질)를 사용 하 여 네트워크 트래픽의 우선 순위를 지정 하는 경우 qos 마커를 사용 하도록 설정 하 고 각 미디어 트래픽 유형에 대해 포트 범위를 설정할 수 있습니다.
+[Qos (](qos-in-teams.md) 서비스 품질)를 사용 하 여 네트워크 트래픽의 우선 순위를 지정 하는 경우 qos 마커를 사용 하도록 설정 하 고 각 미디어 트래픽 유형에 대해 포트 범위를 설정할 수 있습니다. 여러 트래픽 유형에 대해 포트 범위를 설정 하는 것은 실시간 미디어를 처리 하는 단계 중 하나입니다. [팀에서 QoS (서비스 품질)](qos-in-teams.md) 를 자세히 확인 하세요.
+
+> [!IMPORTANT]
+> Microsoft 팀 서비스에 대 한 Microsoft 팀 관리 센터에서 QoS를 사용 하거나 설정을 변경 하는 경우 팀에서 QoS에 대 한 변경 내용을 완벽 하 게 구현 하려면 [모든 사용자 장치](QoS-in-Teams-clients.md) 및 모든 내부 네트워크 장치에 일치 하는 설정을 적용 해야 할 수도 있습니다.
 
  ![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
 
@@ -89,7 +92,7 @@ ms.locfileid: "36236563"
     >
     > 너무 좁은 포트 범위를 선택 하면 통화 손실이 발생 하 고 통화 품질이 저하 될 수 있습니다. 아래 권장 사항은 최소가입니다.
 
- 환경에서 사용할 포트 범위가 확실 하지 않은 경우 다음 설정을 사용 하는 것이 좋습니다. 자세한 내용은 [Microsoft 팀에서 QoS (서비스 품질) 구현을](QoS-in-Teams.md)참조 하세요. 이는 필요한 DSCP 표식 및 제안 된 적절 한 미디어 포트 범위를 팀과 Express에서 모두 사용 하는 것입니다.
+환경에서 사용할 포트 범위가 확실 하지 않은 경우 다음 설정을 사용 하는 것이 좋습니다. 자세한 내용은 [Microsoft 팀에서 QoS (서비스 품질) 구현을](QoS-in-Teams.md)참조 하세요. 이는 필요한 DSCP 표식 및 제안 된 적절 한 미디어 포트 범위를 팀과 Express에서 모두 사용 하는 것입니다.
 
 _포트 범위 및 DSCP 표식_
 
@@ -100,8 +103,6 @@ _포트 범위 및 DSCP 표식_
 |응용 프로그램/화면 공유| 50,040–50,059      |TCP/UDP |awg        |전달 보장 (AF21)|
 | | | | |
 
-\*지정 하는 포트 범위는 겹칠 수 없으며 서로 인접해 야 합니다.
-
-다양 한 트래픽 유형에 대해 포트 범위를 설정 하는 것은 실시간 미디어를 처리 하는 단계 중 하나입니다. [팀에서 QoS (서비스 품질)](qos-in-teams.md) 를 자세히 확인 하세요. Microsoft 팀 관리 센터에서 설정을 사용 하거나 변경 하는 경우 팀에서 QoS에 대 한 변경 내용을 완벽 하 게 구현 하려면 [모든 사용자 장치](QoS-in-Teams-clients.md) 및 내부 네트워크 장치에 일치 하는 설정을 적용 해야 합니다.
+\*지정 하는 포트 범위는 겹칠 수 없으며 서로 옆에 있어야 합니다.
 
 특정 기간 동안 QoS를 사용 하는 경우에는 이러한 세 가지 작업 부하 각각에 대 한 사용 정보가 필요 하며, 사용자는 해당 요구 사항에 따라 변경할 내용을 선택할 수 있습니다. [통화 음질 대시보드가](turning-on-and-using-call-quality-dashboard.md) 도움이 됩니다.
