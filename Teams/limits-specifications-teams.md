@@ -3,7 +3,6 @@ title: Microsoft 팀의 제한 사항 및 사양
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -16,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fba07eb5ba7e0d26b34657826419172b82a7248
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ecd31a243da999704b7d466b3dc93dd66fb7ac25
+ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245374"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36407995"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft 팀의 제한 사항 및 사양
 
@@ -45,7 +44,19 @@ ms.locfileid: "36245374"
 
 &sup3; 30 일 이내에 삭제 된 채널을 복원할 수 있습니다. 30 일 이내에 삭제 된 채널은 팀 제한에 따라 200 채널에 계속 해 서 계산 됩니다. 30 일이 지난 후 삭제 된 채널과 해당 콘텐츠는 영구적으로 삭제 되며 채널은 더 이상 팀 제한에 따라 200 채널에 대해 카운트 되지 않습니다.
 
-## <a name="meetings-and-calls"></a>모임 및 통화 
+## <a name="channel-names"></a>채널 이름
+
+채널 이름에는 다음 문자 또는 단어를 포함할 수 없습니다.
+
+|||
+|---------|---------|
+|자로     | ~ #% & * {} +/\:  < > ? &#124; ' "..        |
+|이 범위의 문자    | 0 ~ 1F<br>80-9F        |
+|단어     | forms, CON, CONIN $, $ OUT $, PRN, AUX, NUL, COM1 to COM9, LPT1 ~ 사용할, desktop.ini, &#95;vti&#95;|
+
+또한 채널 이름은 밑줄 (_) 또는 마침표 (.)로 시작 하거나 마침표 (.)로 끝날 수 없습니다.
+
+## <a name="meetings-and-calls"></a>모임 및 통화
 
 |요소     | 최대 한도 |
 |------------|---------------|
@@ -57,7 +68,12 @@ ms.locfileid: "36245374"
 |------------|---------------|
 |청중 크기 | 1만 참석자 |
 |이벤트 기간 | 4 시간 |
-|Office 365 테 넌 트의 동시 라이브 이벤트 | ~ |
+|1  |Column2 등  |
+|---------|---------|
+|Row1     |         |
+|Row2     |         |
+
+| Office 365 테 넌 트의 동시 라이브 이벤트 | 15 |
 
 Live 이벤트 및 팀의 live 이벤트를 Skype 모임 브로드캐스트에 비교 하는 방법에 대 한 자세한 내용은 [팀 live 이벤트 및 Skype 모임 브로드캐스트](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)를 참고 하세요.
 
