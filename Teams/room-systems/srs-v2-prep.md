@@ -7,17 +7,17 @@ manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: 이 문서에서는 Microsoft 팀 대화방을 배포 하기 위한 인프라 준비에 대해 설명 합니다.
-ms.openlocfilehash: 99f1ab71e2bf65e0d6fde0287a82942569c68169
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1450752b14e509e86f6d2cf0c56ce9693e86265a
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182339"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427855"
 ---
 # <a name="prepare-your-environment"></a>환경 준비
 

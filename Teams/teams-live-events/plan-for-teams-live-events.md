@@ -3,7 +3,7 @@ title: Microsoft 팀에서 실시간 이벤트 계획
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/10/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 실시간 이벤트를 설정 하기 전에 고려해 야 할 사항에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ba4810da9ac940d9562b524ea1473b09bf3ff3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
+ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243662"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36429995"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 계획
 
@@ -42,6 +42,9 @@ Office 365 라이선스는 인증 된 사용자로 라이브 이벤트에 참가
 
 - **팀에서 생성 된 이벤트의 경우**  사용자에 게 팀 라이선스를 할당 해야 합니다.
 - **외부 앱 또는 장치에서 생성 된 이벤트의 경우** 사용자에 게 스트림 라이선스를 할당 해야 합니다.
+
+> [!NOTE]
+> 이제 팀 live 이벤트를 미국 정부 클라우드 커뮤니티 (GCC) 조직에서 사용할 수 있습니다.
 
 라이선스에 대 한 자세한 내용은 [Microsoft 팀 추가 기능 라이선스](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
 

@@ -6,18 +6,18 @@ manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: Exchange 온-프레미스를 사용 하는 하이브리드 환경에서 Microsoft 팀 대화방을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 6d0f7703235e0724b105dd862f2a6549f884d3b2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5000c46e4eb37e068f573aee45310537e1504630
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243270"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427745"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Exchange와 함께 Microsoft 팀 대화방 배포 (온-프레미스)
 

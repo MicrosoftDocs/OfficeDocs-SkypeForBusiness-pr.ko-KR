@@ -7,16 +7,16 @@ manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: 이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.
-ms.openlocfilehash: 5b8cd9c8fb4f84d250b40d99a60a9192ece11c52
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e14785d7ad36485bc083e040470b00dd3286b377
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243292"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427657"
 ---
 # <a name="release-notes"></a>릴리스 정보 
 
@@ -27,6 +27,7 @@ ms.locfileid: "36243292"
 
 |제품 |게시 대상 <br> Microsoft Store |
 |--- |--- |
+|4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
 |4.0.85.0 |04/08/2019 |
 |4.0.78.0 |03/14/2019 |
@@ -54,6 +55,15 @@ ms.locfileid: "36243292"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 팀 대화방 기능 소개 및 문제 해결
+### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
+
+이 업데이트에 도입 된 내용:
+- 사용자가 기존 화이트 보드를 팀의 모임에 지능적으로 포함할 수 있는 새로운 콘텐츠 카메라 기능
+- 콘솔에서 더 많은 기능을 통해 액세스 하는 새로운 측면 막대로 낮은 우선 순위 설정 및 이동 된 설정을 줄일 수 있는 추가 향상 된 콘솔 UI
+- 로컬 콘텐츠 케이블이 연결 되지 않았거나 콘텐츠 카메라가 연결 되지 않은 경우 공유 용지함 단추가 비활성화 됨
+- 이 (가) MTR 시스템 다시 시작 후에만 처음으로 오류가 표시 되는 터치 키보드 관련 문제가 해결 되었습니다.
+- 품질 및 안정성 픽스.
+
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
 
 이 업데이트에 도입 된 내용:
