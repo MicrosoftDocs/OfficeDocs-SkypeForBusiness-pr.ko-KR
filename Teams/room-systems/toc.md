@@ -19,6 +19,7 @@
 ### [System Center Configuration Manager를 사용 하 여](room-systems-scale.md)
 ### [Azure 모니터를 사용 하 여 관리](azure-monitor-deploy.md)
 ### [SRS v1 또는 LRS 마이그레이션](lrs-migration.md)
+### [콘텐츠 카메라](content-camera.md)
 
 ## 관리자
 ### [관리 개요](skype-room-systems-v2.md)
