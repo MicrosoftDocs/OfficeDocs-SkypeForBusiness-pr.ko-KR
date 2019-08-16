@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecd31a243da999704b7d466b3dc93dd66fb7ac25
-ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
+ms.openlocfilehash: 0601ee50046d543bd252c205cd7b55acbf16a323
+ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36407995"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36436362"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft 팀의 제한 사항 및 사양
 
@@ -68,12 +68,7 @@ ms.locfileid: "36407995"
 |------------|---------------|
 |청중 크기 | 1만 참석자 |
 |이벤트 기간 | 4 시간 |
-|1  |Column2 등  |
-|---------|---------|
-|Row1     |         |
-|Row2     |         |
-
-| Office 365 테 넌 트의 동시 라이브 이벤트 | 15 |
+|Office 365 테 넌 트의 동시 라이브 이벤트 | ~ |
 
 Live 이벤트 및 팀의 live 이벤트를 Skype 모임 브로드캐스트에 비교 하는 방법에 대 한 자세한 내용은 [팀 live 이벤트 및 Skype 모임 브로드캐스트](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)를 참고 하세요.
 
