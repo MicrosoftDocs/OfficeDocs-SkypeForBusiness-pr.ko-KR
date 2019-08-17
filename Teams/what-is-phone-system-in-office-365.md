@@ -20,60 +20,60 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '전화 시스템에서 수행할 수 있는 작업에 대해 알아봅니다. '
-ms.openlocfilehash: e0b6032d523517f11e02538603d8b4dfcc8ea3a4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 94fcff8e694eaee7bb57963519f67307f6754644
+ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237292"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36447925"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365의 전화 시스템 이란?
 
-**전화 시스템** 은 비즈니스용 Skype Online 및 Microsoft 팀을 사용 하 여 Office 365 클라우드에서 통화 제어 및 PBX 기능을 사용 하도록 설정 하기 위한 Microsoft 기술입니다. 전화 시스템을 사용 하면 기존 PBX 시스템을 Office 365에서 제공 하는 기능 집합으로 바꾸고 조직의 클라우드 환경에 긴밀 하 게 통합할 수 있습니다. 기능에 대 한 자세한 내용은 [Office 365에서 전화 시스템을 사용 하 여 얻을 수](here-s-what-you-get-with-phone-system.md)있는 기능을 참조 하세요.
+**전화 시스템** 은 비즈니스용 Skype Online 및 Microsoft 팀을 사용 하 여 Office 365 클라우드에서 통화 제어 및 PBX 기능을 사용 하도록 설정 하기 위한 Microsoft 기술입니다. 전화 시스템을 사용 하면 기존 PBX 시스템을 클라우드 환경에 긴밀 하 게 통합 된 Office 365에서 제공 하는 기능 집합으로 바꿀 수 있습니다. 기능에 대 한 자세한 내용은 [Office 365에서 전화 시스템을 사용 하 여 얻을 수](here-s-what-you-get-with-phone-system.md)있는 기능을 참조 하세요.
   
-전화 시스템을 사용 하는 경우 사용자는 비즈니스용 Skype Online 및 Microsoft 팀에서 전화 걸기, 통화 전송, 음소거 및 음소거 해제와 같은 기본적인 통화 제어 작업을 수행할 수 있습니다. 전화 시스템 사용자는 주소록에서 이름을 클릭할 수 있으며 비즈니스용 Skype 또는 Microsoft 팀이 해당 사용자에 게 전화를 겁니다. 전화를 걸고 받으려면 휴대폰 시스템 사용자가 모바일 장치, 랩톱이 나 PC와 함께 헤드셋을 사용 하거나 비즈니스용 Skype 및 Microsoft 팀에서 작동 하는 여러 IP 휴대폰 중 하나를 사용할 수 있습니다. 관리자의 경우 전화 시스템은 메시지, 공동 작업 등에 사용 되는 것과 동일한 관리 콘솔 내에서 전화를 관리할 수 있는 기능을 제공 합니다.
+전화 시스템을 통해 사용자는 비즈니스용 Skype Online 및 Microsoft 팀을 사용 하 여 전화를 걸고 받고, 통화를 전송 하 고, 전화를 음소거 또는 음소거 해제 할 수 있습니다. 전화 시스템 사용자는 주소록의 이름을 클릭 하 고 비즈니스용 Skype 또는 Microsoft 팀이 해당 사용자에 게 전화를 걸 수 있습니다. 전화를 걸고 받으려면 휴대폰 시스템 사용자가 모바일 장치, 랩톱이 나 PC와 함께 헤드셋을 사용 하거나 비즈니스용 Skype 및 Microsoft 팀에서 작동 하는 여러 IP 휴대폰 중 하나를 사용할 수 있습니다. 전화 시스템 관리자는 메시징, 공동 작업 등의 동일한 콘솔에서 전화 옵션 및 설정을 관리할 수 있습니다.
   
 기존 PBX 시스템을 사용 하는 경우 조직의 사용자 간 통화는 전화 시스템 내에서 내부적으로 처리 되며 PSTN으로 이동 하지 않습니다. 이는 조직의 사용자 간 여러 지리적 영역에 해당 하는 통화에 적용 되며, 이러한 내부 통화에 대 한 장거리 비용을 제거 합니다.
   
 유선전화 및 휴대폰으로 전화를 걸 수 있게 하려면 다음 두 가지 방법 중 하나를 사용 하 여 PSTN에 휴대폰 시스템을 연결 합니다.
   
-- Office 365의 통화 요금제 (국내 또는 국내 및 국제)를 구입 합니다. [전화 시스템 및 통화 요금제](calling-plan-landing-page.md) 보기
-    
+- Office 365에 대 한 전화 요금제 (국내 또는 국내 및 국제)를 구입 합니다. [전화 시스템 및 통화 요금제](calling-plan-landing-page.md) 보기
 
-- 온-프레미스 PSTN 연결을 사용 하 여 구내 소프트웨어가 기존 전화 통신 인프라와 연결 됩니다. [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)을 참조 하세요.
-
+- 온-프레미스 PSTN 연결을 사용 합니다. 여기서는 구내 소프트웨어가 기존 전화 통신 인프라와 연결 됩니다. [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)을 참조 하세요.
 
 ## <a name="more-about-calling-plans"></a>통화 요금제에 대 한 자세한 정보
 
-Office 365에서 통화 요금제 추가 기능을 사용 하 여 전 세계의 유선전화 및 휴대 전화로 전화를 걸 수 있습니다 (사용이 허가 되는 서비스 수준에 따라 다름). 사용자가 클라우드에 있고 Microsoft에서 제공 하는 통화 요금제 추가 기능을 사용 하 여 전화 시스템을 사용할 수 있습니다. 통화 요금제를 사용 하는 경우 온-프레미스 서버 배포가 필요 하지 않습니다. 통화 플랜은 Office 365의 전화 시스템 에서만 작동 하며 다른 PBX 시스템에서는 통화 요금제를 사용할 수 없습니다.
+Office 365에서 통화 요금제 추가 기능을 사용 하면 PSTN 연결을 통해 전 세계의 유선전화 및 휴대 전화로 전화를 걸 수 있습니다 (사용 허가 된 서비스 수준에 따라 다름). 사용자가 클라우드에 있고 Microsoft에서 제공 하는 통화 요금제 추가 기능을 사용 하 여 전화 시스템을 사용할 수 있습니다. 통화 요금제에는 온-프레미스 서버 배포가 필요 하지 않습니다. 통화 플랜은 Office 365의 전화 시스템 에서만 작동 하며 다른 PBX 시스템에서는 통화 요금제를 사용할 수 없습니다.
 
 ![PSTN 통화를 사용 하 여 클라우드 PBX를 보여 주는 토폴로지 다이어그램](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
-호출 계획은 Office 365 내에서 작동 하므로이는 온-프레미스 서버 배포가 필요 하지 않은 완전 한 클라우드 제공입니다. 전화를 걸 각 사용자에 게 할당 되는 국내 또는 국내 및 국제 통화 요금제를 사용 하는 것을 선택할 수 있습니다. [자세한 정보를 알고 싶은](calling-plan-landing-page.md)경우
+호출 계획은 Office 365 내에서 작동 하기 때문에이는 온-프레미스 서버 배포가 필요 하지 않은 클라우드를 모두 제공 하는 것입니다. 전화를 걸 각 사용자에 게 할당 되는 국내 또는 국내 및 국제 통화 요금제를 사용 하는 것이 선택 되어 있습니다. [자세한 정보를 알고 싶은](calling-plan-landing-page.md)경우
   
-비즈니스용 Skype Online 또는 Office 365의 Microsoft 팀에서 홈을 사용 하는 사용자는 Office 365 음성 서비스에 액세스할 수 있습니다. Microsoft는 핵심 통화 및 PSTN 서비스의 공급자 이며 사용자의 전화 번호를 제공 하거나 이식 하는 것도 가능 합니다. 
+비즈니스용 Skype Online 또는 Office 365의 Microsoft 팀에서 홈을 사용 하는 사용자는 Office 365 음성 서비스에 액세스할 수 있습니다. Microsoft는 핵심 통화 및 PSTN 서비스의 공급자 이며 사용자의 전화 번호를 제공 하거나 이식 하는 것도 가능 합니다.
   
 Office 365의 통화 요금제를 사용 하 여 조직의 사용자에 게 전화 번호를 검색 하 고 취득 하 고 할당 하 여 조직 내부 및 외부 사용자와 전화를 걸고 받을 수 있습니다.
   
-전화 번호를 사용 하 여 사용자를 식별 하 고 조직 간의 통신을 허용 하므로 모든 유형의 비즈니스에서 사용자가 음성 통화를 보내고 받을 수 있는 것은 중요 한 요구 사항입니다. 전화 번호가 지정 된 사용자는 VoIP 전화기, Pc, 모바일 장치를 포함 하 여 모든 비즈니스용 Skype 및 Microsoft 팀 장치에서 음성 통화를 할 수 있습니다. 
+사용자가 음성 통화를 보내고 받을 수 있는 전화 번호를 사용 하는 모든 유형의 비즈니스는 비즈니스에 중요 한 요구 사항입니다. 전화 번호는 사용자를 식별 하 고 조직 간의 통신을 허용 하는 데 주로 사용 됩니다. 전화 번호가 지정 된 사용자는 VoIP 전화기, Pc, 모바일 장치를 포함 하 여 모든 비즈니스용 Skype 및 Microsoft 팀 장치에서 음성 통화를 할 수 있습니다.
 
-통화 요금제 (국내 및 국내 및 국제)는 특정 하지만 증가 하는 지리적 위치에서 사용할 수 있습니다. 국가 또는 지역에서 [사용 가능한](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 지 확인 하세요. 
+통화 요금제 (국내 및 국제)는 특정 하지만 증가 하는 지리적 위치에서 사용할 수 있습니다. 국가 또는 지역에서 [사용 가능 여부](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 를 확인 합니다.
 
 **시작할 준비가 되셨습니까?**  사용자에 대 한 통화 요금제를 설정 하려면 [통화 요금제 설정을](set-up-calling-plans.md)참조 하세요.  
 
 ## <a name="phone-system-with-services"></a>서비스를 사용 하는 전화 시스템
- 전화 시스템은 다음과 같이 서비스 및 보이스 메일에 사용할 수 있습니다.
+
+ 전화 시스템은 서비스 및 보이스 메일에도 사용할 수 있습니다.
+
 - **자동 전화 교환**  Office 365 자동 전화 교환에서 전화 시스템을 사용 하 여 외부 및 내부 발신자가 메뉴 시스템에서 이동 하 여 조직의 회사 사용자 또는 부서에 게 전화를 걸거나 보내거나 양도할 수 있도록 하는 조직의 메뉴 시스템을 만듭니다. [클라우드 자동 전화 교환 기능](what-are-phone-system-auto-attendants.md) 보기
 
 - **통화 대기열**  전화 시스템을 사용 하면 다른 사람이 조직의 전화 번호로 전화할 때 사용 되는 통화 대기열 인사말을 만들 수 있습니다. 여기에는 통화 대기를 자동으로 전환 하는 기능과 전화를 걸고 있는 사용자가 대기 중인 음악을 수신 대기 하는 동안 통화를 처리 하기 위해 사용할 수 있는 다음 통화 에이전트를 검색 하는 기능이 포함 됩니다. 조직에 대 한 단일 또는 복수 통화 대기열을 만들 수 있습니다. [클라우드 통화 대기열 만들기를](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)참조 하세요.
 
-- 보이스 **메일** 사용자에 대 한 전화 시스템 라이선스를 받은 경우 해당 사용자는 발신자에 의해 남겨진 보이스 메일을 받을 수 있게 됩니다. 전화 시스템 라이선스와 전화 번호를 할당 한 후 사용자에 대 한 클라우드 보이스 메일이 자동으로 설정 되 고 프로 비전 됩니다. [클라우드 보이스 메일 설정을](set-up-phone-system-voicemail.md)참조 하세요.
+- 보이스 **메일** 사용자에 대 한 전화 시스템 라이선스를 받으면 해당 사용자는 발신자에 의해 남겨진 보이스 메일을 받을 수 있습니다. 전화 시스템 라이선스와 전화 번호를 할당 한 후 사용자에 대 한 클라우드 보이스 메일이 자동으로 설정 되 고 프로 비전 됩니다. [클라우드 보이스 메일 설정을](set-up-phone-system-voicemail.md)참조 하세요.
 
 시작할 준비가 되었으면 [조직의 전화 시스템 설정을](setting-up-your-phone-system.md)참조 하세요.
 
 ## <a name="related-topics"></a>관련 항목
+
 - [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [통화 요금제에 사용 되는 다른 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [비즈니스용 Skype Online에서 전화 받기](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
-
