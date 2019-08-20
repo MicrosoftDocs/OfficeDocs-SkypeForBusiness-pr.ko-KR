@@ -11,16 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '요약: PowerShell을 사용 하 여 SEFAUtil 기능을 가져오는 방법에 대 한 자세한 내용은 누적 업데이트 1을 설치한 후 비즈니스용 Skype 서버 2019을 확인 하세요.'
-ms.openlocfilehash: 1c5d8d32c1b7b1b988b0ab39c79e4a7f40752875
-ms.sourcegitcommit: 14700a4faab81a294ac794f25b26619a5ed242a5
+ms.openlocfilehash: 6e0f7fc8e4bbb25564faa8107dec81ae3887b360
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "36198010"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464554"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019에서 PowerShell을 통해 SEFAUtil 기능 사용
 
-SEFAUtil (보조 확장 기능 활성화) 비즈니스용 skype server 관리자와 헬프데스크 상담원은 비즈니스용 Skype 서버 사용자를 대신 하 여 대리인 링, 착신 전환, 그룹 통화 픽업 설정을 구성할 수 있습니다. 또한 관리자는이 도구를 사용 하 여 특정 사용자에 대해 게시 된 통화 라우팅 설정을 쿼리할 수 있습니다. 이 업데이트를 설치한 후에는 현재 SEFAUtil를 통해서만 관리할 수 있는 다음 기능은 PowerShell을 통해서도 관리도 가능 합니다.
+SEFAUtil (보조 확장 기능 활성화) 비즈니스용 skype server 관리자와 헬프데스크 상담원은 비즈니스용 Skype 서버 사용자를 대신 하 여 대리인 링, 착신 전환, 그룹 통화 픽업 설정을 구성할 수 있습니다. 또한 관리자는이 도구를 사용 하 여 특정 사용자에 대해 게시 된 통화 라우팅 설정을 쿼리할 수 있습니다. 비즈니스용 Skype Server 2019 7 월 누적 업데이트를 설치한 후에는 현재 SEFAUtil를 통해서만 관리할 수 있는 다음 기능은 PowerShell을 통해서도 관리도 가능 합니다.
 
 - [착신 전환 설정](#call-forwarding-settings)
 - [위임 설정](#delegation-settings)

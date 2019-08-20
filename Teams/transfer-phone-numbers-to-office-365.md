@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 전화 번호를 팀으로 이식 하기 전에 알아야 할 사항 및이를 전송 하는 포트 순서를 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9c0a7cd6957991257bc0cdb7feedacc8c0c49b24
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 4cd270fd01f0ec023181de7847914d8fdc8239b5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "36184439"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464571"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Office 365에 전화 번호 전송
 
@@ -39,7 +39,7 @@ ms.locfileid: "36184439"
   > [!NOTE]
   > 전화 번호를 미국 영업일 (공개 휴일 또는 주말에는 없음) 으로만 전송 하도록 포트 주문을 처리 합니다.
   
-## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teamss"></a>포트 주문을 생성 하 고 휴대폰 번호를 Teamss로 전송 하는 방법
+## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>포트 주문을 만들고 전화 번호를 팀으로 전송 하는 방법
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]

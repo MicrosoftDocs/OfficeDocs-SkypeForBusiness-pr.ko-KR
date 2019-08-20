@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 179276a049a30f1d049521cc3b4db326b988667c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9ce0d1acec923d09591e8f81b3f500ee9a910f5c
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36246182"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464668"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell 모듈 설치
 
@@ -31,40 +31,29 @@ ms.locfileid: "36246182"
 
 ## <a name="install-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell 모듈 설치
 
-1. [StaffHub PowerShell 모듈](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha)을 다운로드 합니다. 
-2. Windows PowerShell 3.0 이상을 관리자로 엽니다. 이렇게 하려면 **시작**을 클릭 하 고 **windows powershell**을 입력 한 다음 **windows powershell**을 마우스 오른쪽 단추로 클릭 하 고 **관리자 권한으로 실행**을 선택 합니다.
+1. Windows PowerShell 3.0 이상을 관리자로 엽니다. 이렇게 하려면 **시작**을 클릭 하 고 **windows powershell**을 입력 한 다음 **windows powershell**을 마우스 오른쪽 단추로 클릭 하 고 **관리자 권한으로 실행**을 선택 합니다.
     > [!NOTE]
     > 최신 버전의 Windows PowerShell을 얻으려면 [Windows Powershell 설치](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell)를 참조 하세요. 
-3. 다음을 실행 합니다.
+2. 다음을 실행 하 여 현재 안정적인 버전의 StaffHub PowerShell 모듈을 설치 합니다.
 
     ```
-    $ENV:PSModulePath
+    Install-Module -Name MicrosoftStaffHub
     ```
     
+    최신 버전을 설치 해야 하는 경우에만이 명령을 실행할 수 있는데,이는 현재 안정적인 버전 보다 더 instabilities 수 있습니다.`Install-Module -Name MicrosoftStaffHub -AllowPrerelease`
 
-4. 출력에서 폴더 경로를 확인 하 고 다음 단계로 이동 하기 전에 경로의 모든 폴더가 컴퓨터에 있는지 확인 합니다. 폴더가 없는 경우 폴더를 만듭니다.
-5. StaffHub PowerShell 모듈을 설치할 수 있도록 하려면 다음을 실행 합니다.
+     > [!NOTE]
+     > 최신 버전을 더 instabilities 설치 하는 동안 오류가 표시 되는 경우 다음을 실행할 수 있습니다.`Install-Module PowershellGet -Force`
 
-    ```
-    Set-ExecutionPolicy RemoteSigned
-    ```
-
-6. 다음을 실행 합니다. &lt;여기서&gt; path는 2 단계의 출력에서 경로입니다. 예를 들어 경로는 C:\Users\User1\Documents\WindowsPowerShell\Modules. 처럼 표시 될 것입니다.
-
-    각 명령을 개별적으로 실행 해야 합니다.
+3. 다음과 같은 경고 메시지가 표시 될 수 있습니다.
 
     ```
-    Save-Module -Name PowerShellGet -Path <path> -RequiredVersion 1.6.6
-    Install-Module -Name PackageManagement -Force  -AllowClobber
-    Install-Module -Name PowerShellGet -Force  -AllowClobber
-    Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.5-alpha -AllowPrerelease
+    Untrusted repository - You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
     ```
-7. Windows PowerShell을 종료 합니다.
-8. Windows PowerShell 3.0 이상을 전역 관리자로 연 후 다음을 실행 합니다.
 
-    ```
-    Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.5-alpha -AllowPrerelease
-    ```
+을 `Y` 입력 하 `Enter`고을 클릭 합니다.
+ 
+4. Windows PowerShell을 종료 합니다.
 
 ## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell 모듈에 연결
 

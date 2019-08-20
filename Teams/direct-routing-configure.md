@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 전화 시스템 다이렉트 라우팅을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 37fe6fa9355a0892720fa32d2bab30474ddaf12a
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 4013e0fd914630f154f407ad9c70e2c6915723f5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36185183"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464614"
 ---
 # <a name="configure-direct-routing"></a>직접 라우팅 구성
 
@@ -328,8 +328,6 @@ NumberPattern       : ^\+1(425|206) (\d{7})$
 OnlinePstnUsages    : {US and Canada}
 OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
 Name            : Redmond 1
-SuppressCallerId    :
-AlternateCallerId   :
 </pre>
 Redmond 2 경로를 만들려면 다음을 입력 합니다.
 
@@ -485,8 +483,6 @@ PSTN 사용 "국제", 음성 경로 "국제" 음성 라우팅 정책 "제한 사
    OnlinePstnUsages          : {International} 
    OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
    Name                            : International
-   SuppressCallerId          :
-   AlternateCallerId         :
    </pre>
 3. 다음으로 음성 라우팅 정책 "제한 없음"을 만듭니다. PSTN 사용 "Redmond 1" 및 "Redmond"는 전화 번호 "+ 1 425 XXX xx" 및 "+ 1 206 XXX XX XX"를 로컬 또는 온-프레미스 통화로 하는 특별 한 처리를 유지 하기 위해이 음성 라우팅 정책에 재사용 됩니다.
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '요약: 비즈니스용 Skype 서버를 Skype 소비자와 연결 하는 방법에 대해 알아보세요. Skype 연결도 라고도 합니다.'
-ms.openlocfilehash: b41e974b2162826f375f2cce2b2eabbae320871b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235707"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464603"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 Skype 연결 배포
 
@@ -100,7 +100,7 @@ Office 365 Small Business Premium의 경우 Office 365에 로그인 하 고 관�
 
 이전에 비즈니스용 Skype 온-프레미스 배포 및 Skype 간에 페더레이션을 수동으로 프로 비전 하는 데 사용 했던 사이트는 더 이상 필요 하지 않으며 8/15/2019에서 종료 됩니다. Skype를 사용 하는 페더레이션에서는 이제 페더레이션 파트너 검색을 사용 하며,이는 비즈니스용 Skype Online과 페더레이션 하는 데 필요한 메커니즘과 동일 합니다.
 
-이제 기존 공용 IM 인프라를 통해 온-프레미스 비즈니스용 Skype 배포 및 Skype 사용자 간 통신에는 온-프레미스 edge 서버 구성이 비즈니스용 Skype Online과 호환 되어야 합니다.
+이제 기존 공용 IM 인프라를 통해 온-프레미스 비즈니스용 Skype 배포 및 Skype 사용자 간 통신에는 온-프레미스 Edge 서버 구성이 비즈니스용 Skype Online과 호환 되어야 합니다.
 
 > [!NOTE]
 > 비즈니스용 Skype Online과 페더레이션 하는 모든 배포를 포함 하 여 대부분의 고객은 작업을 수행할 필요가 없습니다.
@@ -121,10 +121,10 @@ Office 365 Small Business Premium의 경우 Office 365에 로그인 하 고 관�
 #### <a name="faqs"></a>Faq
 
 **프로비저닝 웹 사이트가 종료 되는 이유는 무엇 인가요?**
-2006에서 배포한 공용 IM (PIC) 프로비저닝 메커니즘 (pic.lync.com)은 더 이상 사용할 수 없으며 8/15/2019에서 종료 됩니다. 대신 공용 IM 페더레이션은 비즈니스용 Skype Online에서 사용 하는 동일한 페더레이션 모델 ("파트너 검색" 이라고 함)을 가정 하 여 온-프레미스 배포를 페더레이션 DNS SRV 레코드에서 공개적으로 검색할 수 있게 합니다.
+2006에서 배포한 공용 IM (PIC) 프로비저닝 메커니즘 (pic.lync.com)은 더 이상 사용할 수 없으며 8/15/2019에서 종료 됩니다. 대신 공용 IM 페더레이션은 해당 페더레이션 DNS SRV 레코드에서 온-프레미스 배포를 공개적으로 검색할 수 있는 비즈니스용 Skype Online에서 사용 하는 것과 동일한 페더레이션 모델 (예: "파트너 검색" 이라고 함)을 가정 합니다.
 
 **이 변경으로 공용 IM 페더레이션이 더 이상 사용 되지 않는다는 것을 의미 합니까?**
-아니요. 공용 IM 페더레이션은 비즈니스용 Skype 온-프레미스 제품이 종료 될 때까지 계속 해 서 다 수 년 동안 지원 될 것입니다.
+아니요. 공용 IM 페더레이션은 비즈니스용 Skype 온-프레미스 제품의 수명이 만료 될 때까지 계속 해 서 다 수 년 동안 지원 될 것입니다.
 
 **회사에서 비즈니스용 Skype Online과 하이브리드 관계 (공유 주소 공간)를 사용 하 고 있는 경우 영향을 받습니까?**
 아니요, 이미 비즈니스용 Skype Online에 페더레이션 중 이므로,이 변경은 귀하에 게 영향을 주지 않습니다.

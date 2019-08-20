@@ -3,7 +3,7 @@ title: Microsoft 팀에서 실시간 이벤트 계획
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/15/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 실시간 이벤트를 설정 하기 전에 고려해 야 할 사항에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
-ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
+ms.openlocfilehash: 1a38fad067f71fff0221a5af2f842ed1e2574d54
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36429995"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464560"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 계획
 
@@ -73,11 +73,12 @@ Office 365 라이선스는 인증 된 사용자로 라이브 이벤트에 참가
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>팀 live 이벤트 및 Skype 모임 브로드캐스트
+
 다음 표에는 라이브 이벤트에 제공 되는 핵심 기능 및 기능과 Skype 모임 브로드캐스트와의 차이가 표시 됩니다. 
 
 |**성능**   |**Skype 모임 브로드캐스트** |**팀에서 생성 된 이벤트** |**외부 앱 또는 장치에서 생성 된 이벤트** |
 |---------|---------|---------|---------|
-|최대 대상 그룹 크기 |1만 참석자 |1만 참석자 * |1만 참석자 * |
+|최대 대상 그룹 크기 |1만 참석자 |1만 참석자<sup>1</sup> |1만 참석자<sup>1</sup> |
 |라이브 이벤트의 최대 지속 시간 |4 시간 |4 시간 |4 시간 |
 |Office 365 테 넌 트 당 최대 동시 라이브 이벤트 수 |~  | ~  | ~  |
 |라이브 이벤트 만들기 |   Skype 모임 브로드캐스트 포털 |팀, 팀을 통한 Yammer | 팀, 팀을 통한 Yammer, 스트림 |
@@ -102,8 +103,7 @@ Office 365 라이선스는 인증 된 사용자로 라이브 이벤트에 참가
 |생산자에 대 한 사후 브로드캐스트 모임 보고서 |&#x2714; |&#x2714; |축 |
 |대상 그룹 정서 분석 – 실시간 투표 설문 & 폴링 |&#x2714; (Microsoft 펄스) |축 |축 |
 
-> [!IMPORTANT]
-> 설정 된 한도가 변경 될 수 있습니다.
+<sup>1</sup> 설정 된 한도가 변경 될 수 있습니다.
 
 ## <a name="regional-availability"></a>지역 가용성
 전세계 여러 지역에서 팀의 실시간 이벤트를 사용할 수 있습니다. 다음 정보는 이벤트 팀 구성원 및 참석자의 가용성을 보여줍니다. 
@@ -118,7 +118,7 @@ Office 365 라이선스는 인증 된 사용자로 라이브 이벤트에 참가
 - 현지 캐나다로 이동
 
 **제외 및 고려 사항**
-- **지역으로 이동:** 영국, 인도, 오스트레일리아, 일본 및 기타 팀 지역 Go는 현재 지원 되지 않습니다.
+- **지역으로 이동:** 영국 및 기타 팀 지역 Go는 현재 지원 되지 않습니다.
 - **중국:** 중국에서는 Azure CDN에 액세스할 수 없으므로 이벤트 팀 구성원 및 참석자가 팀의 라이브 이벤트를 사용 하지 못할 수도 있습니다. 해결 방법은 고객의 회사 네트워크를 통해 CDN에 연결 된 클라이언트를 가져오는 회사 VPN 연결을 사용 하는 것입니다.
 
 ## <a name="next-steps"></a>다음 단계

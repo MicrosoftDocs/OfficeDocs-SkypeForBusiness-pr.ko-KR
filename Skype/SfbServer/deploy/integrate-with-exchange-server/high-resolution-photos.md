@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: '요약: Exchange Server 2016 또는 Exchange Server 2013 및 비즈니스용 Skype 서버에서 고해상도 사진의 사용을 구성 합니다.'
-ms.openlocfilehash: 8d68cb75a053d7eb165383154514ca6ff8d1a941
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1ca9c0077969cab22b8ebfa073d3d0585108503b
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244326"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464657"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 고해상도 사진 사용 구성
  
@@ -56,7 +56,7 @@ Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 새 사진이 사용자 계정에 할당 되었는지 확인 하려면: 진구 Myer에서 비즈니스용 Skype에 로그온 하 여 **옵션**을 선택한 다음 **내 사진을**선택 합니다. 새로 업로드 된 사진은: 진구의 개인 사진으로 표시 되어야 합니다. 또는 관리자가 Internet Explorer를 시작 하 고 다음과 같은 URL로 이동 하 여 사용자의 사진을 확인할 수 있습니다.
   
 ```
-https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&amp;size=HR648x648
+https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648
 ```
 
 관리자가 Internet Explorer를 사용 하 여 사진을 볼 수 있지만 사용자가 비즈니스용 Skype에서 자신의 사진을 볼 수 없는 경우 Exchange Web Services 또는 Exchange 자동 검색 서비스에 연결 문제가 있을 수 있습니다.

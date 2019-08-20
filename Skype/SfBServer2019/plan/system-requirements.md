@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 요약:이 항목을 사용 하 여 비즈니스용 Skype 서버 2019 서버 및 도메인 인프라를 준비 합니다. 서버 팜을 성공적으로 설치 및 배포 하는 데 도움이 되도록 하드웨어, OS, 데이터베이스, 소프트웨어, 모든 시스템 요구 사항, Active Directory 정보 등이 여기에 포함 됩니다.
-ms.openlocfilehash: b173097377c100fcb03b07d7a502e1e6c096608f
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: f54b6647a57cf61cb1ad85ad55985243129242f7
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36198016"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464649"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019에 대 한 시스템 요구 사항
  
@@ -540,10 +540,13 @@ Survivable Branch 기기 인증서 (특히, 비즈니스용 Skype Server 2019에
   
 - 파일 공유는 DAS (직접 연결 저장소) 또는 SAN (저장소 영역 네트워크)에 있어야 하며, 여기에는 DFS (분산 파일 시스템)와 파일 저장소에 대 한 독립 디스크 (RAID)의 중복 배열이 포함 됩니다. Windows Server 2012의 DFS에서 더 읽기 위해서는 [이 DFS 페이지](https://technet.microsoft.com/en-us/library/jj127250.aspx)를 확인 하세요.
     
-- 파일 공유에 대 한 공유 클러스터를 권장 합니다. 계정을 사용 하 고 있는 경우에는 Windows Server 2012 또는 Windows Server 2012 R2를 클러스터 해야 합니다. 최신 Windows의 이유 이전 버전에는 모든 기능을 사용 하도록 설정 하는 적절 한 권한이 없을 수 있습니다. 클러스터 관리자를 사용 하 여 파일 공유를 만들 수 있으며, [클러스터](https://support.microsoft.com/en-us/help/224967) KB 문서를 만드는 것이 이러한 세부 정보에 도움이 됩니다.
+- 파일 공유에 대 한 공유 클러스터를 권장 합니다. 이미 계정을 사용 하 고 있는 경우에는 Windows Server 2012 이상 버전을 클러스터 해야 합니다.
+
+> [!Note]
+> **최신 Windows의 이유** 이전 버전에는 모든 기능을 사용 하도록 설정 하는 적절 한 권한이 없을 수 있습니다. 클러스터 관리자를 사용 하 여 파일 공유를 만들 수 있습니다. 자세한 내용은 [클러스터에서 파일 공유를 만드는 방법](https://support.microsoft.com/help/224967) 에 대 한이 지원 문서를 참조 하세요.
     
 > [!CAUTION]
-> 파일 공유로 NAS (네트워크 연결 저장소)를 사용 하는 것이 지원 되지 않으므로 위에 나열 된 옵션 중 하나를 사용 합니다. 
+> 파일 공유로 NAS (네트워크 연결 저장소)를 사용 하는 것이 지원 되지 않으므로 위에 나열 된 옵션 중 하나를 사용 합니다. 이 지원 제한은 장치 공유 파일 시스템에 액세스 하는 Windows Server 기반 컴퓨터에 파일 시스템 적응성을 제공 해야 하는 NAS 디바이스의 변수 디자인 때문에 발생 합니다.
   
 
 

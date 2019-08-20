@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결 하는 방법을 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 8dc06650a50af5b66931f196c0a1c3d7c5090bc5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271427"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464582"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -87,8 +87,11 @@ Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내
 직접 라우팅 사용자에 게는 Office 365에 할당 된 다음 라이선스가 있어야 합니다. 
 
 - Microsoft 전화 시스템 
-- Microsoft 팀 
+- Microsoft 팀 + 라이선스 Sku에 포함 된 경우 비즈니스용 Skype 요금제 2
 - Microsoft 오디오 회의 
+
+> [!NOTE]
+> 비즈니스용 Skype 요금제가 포함 된 라이선스 SKU에서는 제거 해서는 안 됩니다. 
 
 
 > [!IMPORTANT]

@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 사용자 설정을 마이그레이션하고 사용자를 팀으로 이동 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 1a0b126537c02376eaf28f40e843295aa5582dd3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c655d8ecaa5856a57d7e675676c0ba5e8c2c43d6
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36185448"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464681"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>온-프레미스에서 팀으로 사용자 이동
 
@@ -38,6 +38,11 @@ ms.locfileid: "36185448"
     ![팀으로 사용자를 리디렉션하는 메시지](../media/go-to-teams-page.png)
 
 사용자를 이동 하기 전에 [필수 구성 요소](move-users-between-on-premises-and-cloud.md#prerequisites) 를 검토 하 여 사용자를 클라우드로 이동 해야 합니다. 또한 [팀을 비즈니스용 Skype와 함께 사용 하는 조직의 마이그레이션 및 상호 운용성 지침](/microsoftteams/migration-interop-guidance-for-teams-with-skype)을 검토 해야 합니다.
+
+
+> [!NOTE]
+> 연락처를 팀으로 이동 하려면 프레미스 SfB 계정에서 통합 대화 저장소를 사용 하지 않도록 설정 해야 합니다.
+
 
 온-프레미스에서 팀으로 사용자를 이동 하는 방법에는 다음 두 가지가 있습니다.
 
@@ -86,6 +91,9 @@ ms.locfileid: "36185448"
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>비즈니스용 Skype 온-프레미스 사용자에 게 향후 팀으로 이동 하기
 
 비즈니스용 skype 서버 2015에 있는 온-프레미스 관리 도구 (비즈니스용 Skype Server 2019)는 사용자가 온-프레미스 Skype를 사용 하 여 팀에 게 예정 된 비즈니스의 이동을 알릴 수 있습니다. 이러한 알림을 사용 하면 사용자가 아래와 같이 비즈니스용 Skype 클라이언트 (Win32, Mac, 웹 및 모바일)에 알림을 보게 됩니다. 사용자가 **실행** 단추를 클릭 하면 팀 클라이언트가 설치 되어 있는 경우 시작 됩니다. 그렇지 않으면 사용자가 브라우저에서 웹 버전의 팀으로 탐색 됩니다. 기본적으로 알림을 사용 하도록 설정 하면 Win32 비즈니스용 Skype 클라이언트에서 팀 클라이언트를 자동으로 다운로드 하 여 사용자를 팀 전용 모드로 전환 하기 전에 리치 클라이언트를 사용할 수 있도록 합니다. 그러나이 동작을 사용 하지 않도록 설정할 수도 있습니다.  알림은 온-프레미스 버전 `TeamsUpgradePolicy`을 사용 하 여 구성 되며 Win32 클라이언트에 대 한 자동 다운로드는 온-프레미스 `TeamsUpgradeConfiguration` cmdlet을 통해 제어 됩니다.
+
+> [!TIP]
+> CU8를 사용 하는 비즈니스 2015 Skype에서이 작업을 수행 하려면 일부 서버를 재부팅 해야 할 수 있습니다.
 
 ![예정 된 팀으로 이동 하는 경우의 알림](../media/teams-upgrade-notification.png)
 

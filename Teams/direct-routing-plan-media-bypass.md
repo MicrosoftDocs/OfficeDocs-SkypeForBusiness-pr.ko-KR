@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 이 항목에서는 전화 시스템 다이렉트 라우팅과 함께 미디어 바이패스를 계획 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: a6f13b8f7db767d8a6a16f8f4493f15aeed9af38
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271449"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464593"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>다이렉트 라우팅으로 미디어 바이패스 계획
 
@@ -290,7 +290,7 @@ UDP/SRTP | 전송 릴레이 | 하더라도 | 50 000-59 999    | SBC에 정의 �
 
 ### <a name="requirements-for-using-media-processors"></a>미디어 프로세서 사용에 대 한 요구 사항
 
-미디어 프로세서는 항상 음성 응용 프로그램 및 웹 cleints 미디어 경로에 있습니다 (exampe의 경우 팀 cleint Edge 또는 Google Chrome). 요구 사항은 비 바이패스 구성의 경우와 동일 합니다.
+미디어 프로세서는 항상 음성 응용 프로그램과 웹 클라이언트 (예: Edge 또는 Google Chrome의 팀 클라이언트)에 대 한 미디어 경로에 있습니다. 요구 사항은 비 바이패스 구성의 경우와 동일 합니다.
 
 
 미디어 트래픽 IP 범위는 
@@ -353,7 +353,7 @@ UDP/SRTP | 미디어 프로세서 | 하더라도 | 49 152 – 53 247    | SBC에
 
 미디어 건너뛰기는 모든 팀 끝점에서 지원 됩니다.
 
-참고 webcleints (Microsoft Edge의 팀 웹 앱, Google Chrome 또는 Mozilla Firefox)의 경우에는 호출이 우회로 시작 되는 경우에도이를 우회 되지 않은 것으로 변환 합니다. 이는 자동으로 수행 되며 관리자가 수행할 작업이 필요 하지 않습니다. 
+참고 웹 클라이언트 (Microsoft Edge의 팀 웹 앱, Google Chrome 또는 Mozilla Firefox)의 경우 건너뛰기 통화로 시작 해도 통화가 비 바이패스로 변환 됩니다. 이는 자동으로 수행 되며 관리자의 작업이 필요 하지 않습니다. 
  
 ## <a name="see-also"></a>참고 항목
 
