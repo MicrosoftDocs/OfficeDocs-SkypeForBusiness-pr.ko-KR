@@ -15,18 +15,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0601ee50046d543bd252c205cd7b55acbf16a323
-ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
+ms.openlocfilehash: 54c71dfb692dc5981699babdfdb708c404eb6231
+ms.sourcegitcommit: fd5d48b36d70e3f42e029572fe003ee397db090d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36436362"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36473370"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft 팀의 제한 사항 및 사양
 
 이 문서에서는 팀에 적용 되는 몇 가지 제한 사항, 사양 및 기타 요구 사항을 설명 합니다.
 
-## <a name="teams-and-channels"></a>팀 및 채널 
+## <a name="teams-and-channels"></a>팀 및 채널
 
 |요소    | 최대 한도 |
 |-----------|---------------|
@@ -113,6 +113,17 @@ Microsoft Exchange 백 엔드에서 microsoft 팀 채팅 기능이 작동 하므
 > 메시지 크기, 첨부 파일 및 인라인 이미지 제한은 모든 Office 365 라이선스에서 동일 합니다.
 
 자세한 내용은 [Exchange Online 제한을](https://technet.microsoft.com/library/exchange-online-limits.aspx)참조 하세요.
+
+## <a name="contacts"></a>상대가
+
+팀은 다음 연락처를 사용 합니다.
+
+- 조직의 Active Directory에 있는 연락처
+- 사용자의 Outlook 기본 폴더에 추가 된 연락처
+
+팀 사용자는 조직의 active directory에 있는 모든 사람과 통신할 수 있으며 조직의 active directory에 있는 사용자를 연락처 및 연락처 목록에 추가 하 여**대화 상대** 에 게 **채팅** > 하거나 전화를 **걸**  >  수 있습니다. **연락처**.
+
+팀 사용자는**연락처**를 **호출** > 하 여 조직의 Active Directory에 없는 사람을 연락처로 추가할 수도 있습니다.
 
 ## <a name="browsers"></a>브라우저인
 
