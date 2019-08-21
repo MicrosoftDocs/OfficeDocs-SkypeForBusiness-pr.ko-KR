@@ -12,15 +12,17 @@ ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 description: Live 이벤트를 통해 사용자가 팀, Yammer, 스트림에서 비디오 및 콘텐츠를 대규모 온라인 청중에 게 브로드캐스트할 수 있는 방법을 알아봅니다.
-f1keywords: ms.teamsadmincenter.liveevents.policies
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afb477c4abe6ef2de5971c9c8278b1e4b4fd622c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 355f24a6156e42d8984e360cb6ab06c483b56413
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234167"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483235"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft 팀 live 이벤트는 무엇 인가요?
 

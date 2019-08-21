@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords:
+- ms.teamsadmincenter.callqueues.overview"
 ms.custom:
 - Phone System
 description: Microsoft 팀을 사용 하 여 클라우드 통화 큐 용 전화 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e4fa0b5ab5e5dd248d79286d071d9f5dcaed061f
-ms.sourcegitcommit: fd5d48b36d70e3f42e029572fe003ee397db090d
+ms.openlocfilehash: 8ae41603e3899c379fa09b2b08dd5e111b8405da
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "36473365"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483318"
 ---
 # <a name="create-a-cloud-call-queue"></a>클라우드 통화 대기열 만들기
 

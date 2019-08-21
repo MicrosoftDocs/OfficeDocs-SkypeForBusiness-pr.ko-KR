@@ -16,16 +16,16 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 ms.custom:
 - Calling Plans
 description: 팀에서 통화 계획에 사용 하는 다른 전화 번호 형식에 대해 알아봅니다.
-ms.openlocfilehash: ba328cdac6000c00d2d51f08b68b3092536557ec
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 9dd6996a4ea455c30025b9430735e22079d870ac
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "36184520"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483762"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>통화 요금제에 사용 되는 다른 종류의 전화 번호
 

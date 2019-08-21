@@ -17,16 +17,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 ms.custom:
 - Calling Plans
 description: 조직의 전화 번호를 찾고 가져올 때 라이선스를 할당 한 것 보다 더 많은 전화 번호를 받을 수 있습니다. 그러나이는 구입 하 여 할당 한 전화 번호의 종류와 라이선스 종류에 따라 다릅니다. 통화 요금제에 사용 되는 다른 종류의 전화 번호를 클릭 하 여 Microsoft 팀에 사용 되는 다양 한 전화 번호를 확인할 수 있습니다.
-ms.openlocfilehash: 062ff78f3fc1a56a86735dacf7a52dd3066d4f28
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 33296e8b5be6137dd64d129dc3b5788576b3ee31
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "36184481"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483996"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>받을 수 있는 전화 번호 수는 몇 개입니까?
 

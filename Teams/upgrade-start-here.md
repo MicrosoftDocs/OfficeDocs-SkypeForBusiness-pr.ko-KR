@@ -14,18 +14,30 @@ ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.journeyskypeforbusinessteams
+- ms.teamsadmincenter.dashboard.trainingvideos.journeytoteams
+- ms.teamsadmincenter.dashboard.widget.upgrade.planning
+- ms.teamsadmincenter.dashboard.widget.upgrade.pause
+- ms.teamsadmincenter.dashboard.widget.upgrade.rolledback
+- ms.teamsadmincenter.users.teamsupgradestatuscolumn
+- ms.teamsadmincenter.users.teamsupgradepage
+- ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
+- ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 102572c8ef25ff93ca66a92c94e4ff244918ad31
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ab31a067c9a39909416228e3d580ca28c105b3da
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236051"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483949"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Microsoft 팀 업그레이드 시작 하기
 
 비즈니스용 Skype에서 Microsoft 팀으로의 보류 중인 업그레이드를 축 하 합니다. 팀을 시작 하는 경우, 이미 비즈니스용 Skype와 함께 팀을 사용 하 고 있거나 업그레이드할 준비가 되었는지 여부에 관계 없이 팀으로의 성공적인 여행을 탐색 하는 데 필요한 모든 것이 있는지 확인 합니다.
+
+비즈니스용 Skype Online에서 팀으로 업그레이드 하거나 비즈니스용 Skype 온-프레미스 환경에서 팀으로 업그레이드할지 여부에 관계 없이 업그레이드 프레임 워크는 비즈니스 시나리오에 따라 프로세스를 안내 합니다.
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Microsoft 팀으로 업그레이드 해야 하는 이유
 

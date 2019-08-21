@@ -11,17 +11,21 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: jastark
-f1keywords: ms.teamsadmincenter.assignments.overview
+f1keywords:
+- ms.teamsadmincenter.assignments.overview
+- ms.teamsadmincenter.assignments.tooltip.emaildigest
+- ms.teamsadmincenter.assignments.tooltip.makecode
+- ms.teamsadmincenter.assignments.tooltip.turnitin
 description: 교육 팀의 Microsoft 팀 관리 센터에서 과제를 관리 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71417ccfc3387f030433a6b923e7fd21f32cd854
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0eaaa4782ac1c0f5fa8d1618f89c05d3ffd58e57
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232328"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483982"
 ---
 # <a name="assignments-in-teams-for-education"></a>교육용 팀의 과제
 

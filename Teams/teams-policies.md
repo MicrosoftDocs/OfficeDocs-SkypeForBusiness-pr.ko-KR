@@ -17,15 +17,18 @@ localization_priority: Normal
 search.appverid: MET150
 description: 조직에서 팀 정책을 사용 하 고 관리 하 여 팀과 채널에서 사용자가 수행할 수 있는 작업을 제어 하는 방법에 대해 알아봅니다.
 f1keywords:
+- ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discoverteams
+- ms.teamsadmincenter.teams.teamspolicies.new.tooltip.createchannels
+- ms.teamsadmincenter.teams.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 243492b5429e34d42f6dd452e5fcf04a957cafd2
-ms.sourcegitcommit: 7ae59d1091ea086b7253c1d8ce85c28fabc5537a
+ms.openlocfilehash: 40647aec4f55d3d922f29c853ec84ee175dc8166
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "36185300"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483205"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft 팀에서 팀 정책 관리
 

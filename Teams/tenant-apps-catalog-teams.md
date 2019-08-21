@@ -11,18 +11,20 @@ audience: admin
 description: Microsoft 팀 테 넌 트 앱 카탈로그에서 앱을 게시 하기 위한 지침입니다.
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.apppolicies.publishtenantapps
+f1keywords:
+- ms.teamsadmincenter.apppermspolicies.publishtenantapps
+- ms.teamsadmincenter.apppolicies.publishtenantapps
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8f239a136ae3a2242dba45da5a68e22b8fb29c4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 35f15986fa5977a08cd91ce8cc5ca40ace0daca9
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235101"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36484073"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Microsoft 팀 테 넌 트 앱 카탈로그에서 앱 게시
 =======================================================

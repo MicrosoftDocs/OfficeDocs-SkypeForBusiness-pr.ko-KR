@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords:
+- ms.teamsadmincenter.locations.emergencyaddresses.overview
 - ms.lync.lac.AddressAndLocation
 ms.custom:
 - Calling Plans
 description: '긴급 한 주소, 위치, 긴급 통화 라우팅, 그리고 사용자에 게 계획 하 고 할당 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: c7e1bb719f0292bd605f920517017d2d4f6cae65
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 979fab1cd099d568278efd61d06a3f8a75b04541
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182303"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483870"
 ---
 # <a name="what-are-emergency-locations-addresses-and-call-routing"></a>긴급 위치, 주소 및 통화 라우팅 이란 무엇 인가요?
 

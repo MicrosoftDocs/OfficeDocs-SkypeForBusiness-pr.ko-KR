@@ -11,18 +11,20 @@ audience: admin
 description: Microsoft 팀에서 QoS (서비스 품질)에 대 한 조직의 네트워크를 준비 합니다.
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.meetingsettings.qos
+f1keywords:
+- ms.teamsadmincenter.meetingsettings.qos
+- ms.teamsadmincenter.meetingsettings.network.qosmarkers
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a83142792d7cd4325dd8660fab18c5942b53abb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 20a75acd23f818615630ff4f6ca9e1890ae87cc9
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36246204"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483533"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft 팀에서 QoS (서비스 품질) 구현
 
