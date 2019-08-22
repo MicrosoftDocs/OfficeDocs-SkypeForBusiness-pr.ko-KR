@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: 이 문서에서는 Microsoft 팀 대화방을 배포 하기 위한 인프라 준비에 대해 설명 합니다.
-ms.openlocfilehash: 1450752b14e509e86f6d2cf0c56ce9693e86265a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 5789f8138bf5ab9e12c77a8b2963ff32e7f33586
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427855"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493089"
 ---
 # <a name="prepare-your-environment"></a>환경 준비
 
@@ -61,6 +61,9 @@ ms.locfileid: "36427855"
 
 > [!IMPORTANT]
 > 유선 1 Gbps 네트워크 연결을 사용 하 여 필요한 대역폭을 보유 하 고 있는지 확인 합니다.
+
+> [!NOTE]
+> Microsoft 팀 대화방의 소프트웨어 업데이트는 비즈니스용 Microsoft Store에서 자동으로 다운로드 됩니다. [Microsoft Store 비즈니스 에디션 및 학력에 대 한 필수 구성 요소](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 를 참조 하 여 채팅방 콘솔에서 스토어 및 자동 업데이트에 액세스할 수 있는지 확인 합니다.
   
 ### <a name="certificates"></a>인증
 
@@ -169,3 +172,5 @@ Microsoft 팀 대화방 기본 암호는 "sfb"로 설정 됩니다. Windows 설�
 [Microsoft 팀 대화방 콘솔 구성](console.md)
   
 [Microsoft 팀 대화방 관리](skype-room-systems-v2.md)
+
+[Microsoft Store 비즈니스 에디션 및 교육을 위한 필수 구성 요소](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 

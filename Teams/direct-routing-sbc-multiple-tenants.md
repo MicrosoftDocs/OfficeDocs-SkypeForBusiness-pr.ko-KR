@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 여러 테 넌 트를 처리 하도록 한 SBC (세션 경계 컨트롤러)를 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3aad7aa5b958e9e4129bbf7e3553137768d1f4c1
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: a8ee395a0b588af976151923992efbb32971b43c
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271460"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493129"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테 넌 트에 대 한 세션 경계 컨트롤러 구성
 
@@ -206,28 +206,34 @@ Microsoft는 직접적인 라우팅의 초기 릴리스에서 새 CSOnlinePSTNGa
 
 그러나이는 다음 두 가지 이유로 인해 최적이 증명 되지 않았습니다.
  
-• **오버 헤드 관리**. 예를 들어 SBC를 해제 하거나 드레이닝 하면 미디어 바이패스를 사용 하거나 사용 하지 않도록 설정 하는 등의 일부 매개 변수가 변경 됩니다. 포트를 변경 하려면 CSOnlinePSTNGateway를 실행 하 여 여러 테 넌 트의 매개 변수를 변경 해야 하지만, 실제로는 동일한 SBC입니다. • **오버 헤드 처리**. 트렁크 상태 데이터 수집 및 모니터링-즉, 같은 SBC와 물리적 트렁크가 같은 여러 논리적 trunks에서 수집 된 SIP 옵션으로 라우팅 데이터 처리 속도가 느려집니다.
+- **오버 헤드 관리**. 예를 들어 SBC를 해제 하거나 드레이닝 하면 미디어 바이패스를 사용 하거나 사용 하지 않도록 설정 하는 등의 일부 매개 변수가 변경 됩니다. 포트를 변경 하려면 CSOnlinePSTNGateway를 실행 하 여 여러 테 넌 트의 매개 변수를 변경 해야 하지만, 실제로는 동일한 SBC입니다. 
+
+-  **오버 헤드 처리**. 트렁크 상태 데이터 수집 및 모니터링-즉, 같은 SBC와 물리적 트렁크가 같은 여러 논리적 trunks에서 수집 된 SIP 옵션으로 라우팅 데이터 처리 속도가 느려집니다.
  
 
 이 피드백에 따라 Microsoft는 고객 테 넌 트에 대 한 trunks를 프로 비전 하는 새 논리를 제공 하 고 있습니다.
 
-새로운 두 가지 엔터티가 도입 되었습니다. • CSOnlinePSTNGateway 명령 (예: New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true)을 사용 하 여 반송파 테 넌 트에 등록 된 반송파 트렁크
-• 등록이 필요 하지 않은 파생 트렁크. 이는 단순히 반송파 트렁크에서 추가 된 원하는 호스트 이름입니다. 이는 모든 구성 매개 변수를 반송파 트렁크에서 파생 합니다. 파생 트렁크는 PowerShell에서 만들 필요가 없으며, 반송파 트렁크와의 연결은 FQDN 이름 (아래 세부 정보 참조)을 기반으로 합니다.
+두 개의 새 엔터티가 도입 되었습니다.
+-   CSOnlinePSTNGateway (예: New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true)를 사용 하 여 반송파 테 넌 트에 등록 된 반송파 트렁크
 
-프로 비전 논리 및 예제
+-   등록이 필요 하지 않은 파생 트렁크 이는 단순히 반송파 트렁크에서 추가 된 원하는 호스트 이름입니다. 이는 모든 구성 매개 변수를 반송파 트렁크에서 파생 합니다. 파생 트렁크는 PowerShell에서 만들 필요가 없으며, 반송파 트렁크와의 연결은 FQDN 이름 (아래 세부 정보 참조)을 기반으로 합니다.
 
-• CSOnlinePSTNGateway 명령을 사용 하 여 단일 트렁크 (통신 회사 도메인의 반송파 트렁크)를 설정 하 고 관리 하기만 하면 됩니다. 위의 예제에서 adatum.biz. • 고객 테 넌 트에서 반송파는 파생 트렁크 FQDN을 사용자의 음성 라우팅 정책에 추가 하기만 하면 됩니다. 트렁크 용으로 CSOnlinePSTNGateway를 실행할 필요는 없습니다.
-• 이름에 의해 제안 되는, 파생 트렁크는 반송파 트렁크의 모든 구성 매개 변수를 상속 하거나 파생 합니다. 예: • Customers.adatum.biz – 반송파 테 넌 트에 만들어야 할 반송파 트렁크
-• Sbc1.customers.adatum.biz-PowerShell에서 만들 필요가 없는 고객 테 넌 트의 파생 트렁크입니다.  온라인 음성 라우팅 정책의 고객 테 넌 트에서 파생 트렁크의 이름을 만들지 않고 간단히 추가할 수 있습니다.
+**프로 비전 논리 및 예제**
 
-• 반송파 트렁크 (반송파 테 넌 트)에 대 한 변경 사항은 파생 trunks 자동으로 적용 됩니다. 예를 들어 통신 업체 트렁크에서 SIP 포트를 변경할 수 있으며,이 변경 내용은 파생 된 모든 trunks에 적용 됩니다. Trunks를 구성 하는 새로운 논리는 모든 사용자의 테 넌 트로 이동할 필요가 없으므로 관리를 간소화 하 고 모든 트렁크에서 매개 변수를 변경 합니다.
-• 반송파 트렁크 FQDN 으로만 옵션이 전송 됩니다. 반송파 트렁크의 상태는 파생 된 모든 trunks에 적용 되며 라우팅 결정에 사용 됩니다. 자세한 내용은 [다이렉트 라우팅 옵션](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)을 참고 하세요.
-• 캐리어가 반송파 트렁크를 방전 시킬 수 있으며, 모든 파생 trunks 함께 소모 됩니다. 
+-   통신 사업자는 Set-CSOnlinePSTNGateway 명령을 사용 하 여 단일 트렁크 (통신 회사 도메인의 반송파 트렁크)를 설정 하 고 관리 하기만 하면 됩니다. 위의 예제에서 adatum.biz.
+-   고객 테 넌 트에서 반송파는 파생 트렁크 FQDN을 사용자의 음성 라우팅 정책에 추가 하기만 하면 됩니다. 트렁크 용으로 CSOnlinePSTNGateway를 실행할 필요는 없습니다.
+-    이름이 제안 하는 대로 파생 트렁크는 반송파 트렁크의 모든 구성 매개 변수를 상속 하거나 파생 합니다. 예제의
+-   Customers.adatum.biz – 반송파 테 넌 트에 만들어야 하는 반송파 트렁크입니다.
+-   Sbc1.customers.adatum.biz-고객 테 넌 트에서 PowerShell에서 만들 필요가 없는 파생 트렁크입니다.  온라인 음성 라우팅 정책의 고객 테 넌 트에서 파생 트렁크의 이름을 만들지 않고 간단히 추가할 수 있습니다.
+
+-   반송파 트렁크 (반송파 테 넌 트)에서 이루어진 변경 사항은 모두 파생 trunks에 자동으로 적용 됩니다. 예를 들어 통신 업체 트렁크에서 SIP 포트를 변경할 수 있으며,이 변경 내용은 파생 된 모든 trunks에 적용 됩니다. Trunks를 구성 하는 새로운 논리는 모든 사용자의 테 넌 트로 이동할 필요가 없으므로 관리를 간소화 하 고 모든 트렁크에서 매개 변수를 변경 합니다.
+-   옵션은 반송파 트렁크 FQDN 으로만 전송 됩니다. 반송파 트렁크의 상태는 파생 된 모든 trunks에 적용 되며 라우팅 결정에 사용 됩니다. 자세한 내용은 [다이렉트 라우팅 옵션](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)을 참고 하세요.
+-   반송파는 반송파 트렁크를 방전 시킬 수 있으며, 모든 파생 trunks 함께 소모 됩니다. 
  
 
-이전 모델에서 반송파 트렁크로 마이그레이션
+**이전 모델에서 반송파 트렁크로 마이그레이션**
  
-현재 반송파 호스팅 모델 구현에서 새 모델로의 마이그레이션을 위해, 캐리어가 고객 테 넌 트에 대 한 trunks를 다시 구성 해야 합니다. Trunks에서 제거-CSOnlinePSTNGateway를 사용 하 여 고객 테 넌 트에서 제거 합니다 (반송파 테 넌 트에 트렁크를 남겨 둠).
+현재 반송파 호스팅 모델 구현에서 새 모델로의 마이그레이션을 위해, 캐리어가 고객 테 넌 트에 대 한 trunks를 다시 구성 해야 합니다. CSOnlinePSTNGateway (반송파 테 넌 트에 트렁크를 떠나는)를 사용 하 여 고객 테 넌 트에서 trunks 제거-
 
 지금 바로 통신 회사 및 유도 트렁크 모델을 사용 하 여 모니터링과 프로 비전을 향상 시킬 수 있으므로 최대한 빨리 새로운 솔루션으로 마이그레이션 하는 것을 적극 권장 합니다.
  

@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54c71dfb692dc5981699babdfdb708c404eb6231
-ms.sourcegitcommit: fd5d48b36d70e3f42e029572fe003ee397db090d
+ms.openlocfilehash: 854c6beeccdae6286bc609a226a49b15de1114e6
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "36473370"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493120"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft 팀의 제한 사항 및 사양
 
@@ -43,6 +43,43 @@ ms.locfileid: "36473370"
 &sup2 이 제한에는 보관 된 팀이 포함 됩니다.
 
 &sup3; 30 일 이내에 삭제 된 채널을 복원할 수 있습니다. 30 일 이내에 삭제 된 채널은 팀 제한에 따라 200 채널에 계속 해 서 계산 됩니다. 30 일이 지난 후 삭제 된 채널과 해당 콘텐츠는 영구적으로 삭제 되며 채널은 더 이상 팀 제한에 따라 200 채널에 대해 카운트 되지 않습니다.
+
+## <a name="messaging"></a>메시지
+
+### <a name="chat"></a>채트
+
+팀에서 채팅 목록의 일부인 대화에 참여 하는 사용자는 관리자가 채팅 대화를 검색할 수 있도록 Exchange Online (클라우드 기반) 사서함이 있어야 합니다. 채팅 목록의 일부인 대화는 채팅 참가자의 클라우드 기반 사서함에 저장 되기 때문입니다. 채팅 참가자에 게 Exchange Online 사서함이 없는 경우 관리자는 채팅을 통해 대화를 검색 하거나 보류할 수 없게 됩니다. 예를 들어 Exchange 하이브리드 배포에서 온-프레미스 사서함을 사용 하는 사용자는 팀의 채팅 목록에 속하는 대화에 참여할 수 있습니다. 그러나이 경우 사용자에 게 클라우드 기반 사서함이 없기 때문에 이러한 대화의 콘텐츠를 검색할 수 없으며 보류 되지 않습니다. 자세한 내용은 [Exchange 및 Microsoft 팀의 상호 작용 방식을](exchange-teams-interact.md)참조 하세요.
+
+팀 채팅은 Microsoft Exchange 백 엔드에서 작동 하므로 Exchange 메시징 한도가 팀 내의 채팅 기능에 적용 됩니다.
+
+|요소  | 최대 한도  |
+|---------|---------|
+|개인 채팅<sup>1</sup> 의 사용자 수  | 100    |
+|첨부 파일 수<sup>2</sup>  |1천만     |
+
+<sup>1</sup> 채팅에 20 명 이상의 사용자가 있는 경우에는 Outlook 자동 회신 및 팀 상태 메시지와 같은 채팅 기능을 사용할 수 없게 됩니다. 입력 표시기 영상 및 음성 통화 공유 읽음 확인
+
+<sup>2</sup> 첨부 파일 수가이 제한을 초과 하는 경우 오류 메시지가 표시 됩니다.
+
+### <a name="emailing-a-channel"></a>채널 전자 메일
+
+ 사용자가 팀의 채널에 전자 메일을 보내려고 하는 경우 채널 전자 메일 주소를 사용 합니다. 전자 메일이 채널의 일부인 경우 누구나 회신할 수 있으므로 대화가 시작 됩니다. 다음은 채널에 전자 메일을 보낼 때 적용 되는 몇 가지 제한 사항입니다.
+
+|요소  | 최대 한도  |
+|---------|---------|
+|메시지 크기<sup>1<sup> | 24kb |
+|첨부 파일 수<sup>2</sup>  |명     |
+|각 첨부 파일의 크기 | 10mb 미만 |
+|인라인 이미지의 수<sup>2</sup> |50   |
+
+<sup>1</sup> 메시지가이 제한을 초과 하는 경우 미리 보기 메시지가 생성 되 고 사용자에 게 제공 된 링크에서 원본 전자 메일을 다운로드 하 여 확인 하 라는 메시지가 표시 됩니다.
+
+<sup>2</sup> 첨부 파일 또는 이미지 수가이 제한을 초과 하는 경우 오류 메시지가 표시 됩니다.
+
+자세한 내용은 [Exchange Online 제한을](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)참조 하세요.
+
+> [!NOTE]
+> 모든 Office 365 라이선스에서 메시지 크기, 첨부 파일 및 인라인 이미지 제한은 동일 합니다.
 
 ## <a name="channel-names"></a>채널 이름
 
@@ -91,28 +128,6 @@ SharePoint Online 문서 라이브러리 및 비즈니스용 OneDrive에 파일�
 채널은 팀에 대해 만든 SharePoint Online 사이트 모음 내의 폴더에 따라 지원 되므로 채널 내의 파일 탭은 자신이 속한 팀의 저장 용량 제한을 공유 합니다.
 
 자세한 내용은 [SharePoint Online 제한을](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)참조 하세요.
-
-## <a name="messaging"></a>메시지
-
-Microsoft 팀에서 채팅 목록의 일부인 대화에 참여 하는 사용자는 관리자를 위해 Exchange Online (클라우드 기반) 사서함이 있어야 채팅 대화를 검색할 수 있습니다. 채팅 목록의 일부인 대화는 채팅 참가자의 클라우드 기반 사서함에 저장 되기 때문입니다. 채팅 참가자에 게 Exchange Online 사서함이 없는 경우 관리자는 채팅을 통해 대화를 검색 하거나 보류할 수 없게 됩니다. 예를 들어 Exchange 하이브리드 배포에서 온-프레미스 사서함을 사용 하는 사용자는 Microsoft 팀의 채팅 목록에 속하는 대화에 참여할 수 있습니다. 그러나이 경우 사용자에 게 클라우드 기반 사서함이 없기 때문에 이러한 대화의 콘텐츠를 검색할 수 없으며 보류 되지 않습니다. 자세한 내용은 [Exchange 및 Microsoft 팀의 상호 작용 방식을](exchange-teams-interact.md)참조 하세요.
-
-Microsoft Exchange 백 엔드에서 microsoft 팀 채팅 기능이 작동 하므로 Microsoft 팀 내에서 채팅 기능에 Exchange 메시징 제한을 적용할 수 있습니다. 사용자가 팀의 채널에 전자 메일을 보내려고 하는 경우 채널 전자 메일 주소를 사용 합니다. 전자 메일이 채널의 일부인 경우 누구나 회신 하 여 대화를 시작할 수 있습니다. 다음은 채널에 전자 메일을 보낼 때 적용 되는 몇 가지 제한 사항입니다. 
-
-|요소  | 최대 한도  |
-|---------|---------|
-|개인 채팅의 사용자 수  | 100    |
-|메시지 크기&dagger;  |25kb   |
-|첨부 파일 수&Dagger;  |1천만     |
-|인라인 이미지 수&Dagger; |50   |
-
-&dagger;메시지가이 제한을 초과 하는 경우 미리 보기 메시지가 생성 되 고 사용자에 게 제공 된 링크에서 원래 전자 메일을 보거나 다운로드 하 라는 메시지가 표시 됩니다.
-
-&Dagger;첨부 파일 또는 이미지 수가이 한도를 초과 하는 경우 메시지가 처리 되지 않으며, NDR 전자 메일을 보낸 사람에 게 다시 보내 오류를 알립니다.
-
-> [!NOTE]
-> 메시지 크기, 첨부 파일 및 인라인 이미지 제한은 모든 Office 365 라이선스에서 동일 합니다.
-
-자세한 내용은 [Exchange Online 제한을](https://technet.microsoft.com/library/exchange-online-limits.aspx)참조 하세요.
 
 ## <a name="contacts"></a>상대가
 

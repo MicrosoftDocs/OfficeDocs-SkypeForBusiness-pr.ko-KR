@@ -17,12 +17,12 @@ description: 네트워크 준비, 라이선스 할당, 정책으로 라이브 �
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3848dde21ae45c0354049a69c939ba4bd978bea4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 882a6c708a7aae67a8aafae880d8f0244f5fa8b1
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237371"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493101"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 설정
 
@@ -57,7 +57,7 @@ ms.locfileid: "36237371"
 
 |설정  |설명  |
 |---------|---------|
-|**이름**     |라이브 이벤트 정책 페이지에 표시 되는 정책의 이름입니다. 64 자를 초과 하거나 특수 문자를 사용할 수 없습니다.          |
+|**타이틀이**     |라이브 이벤트 정책 페이지에 나타나는 정책의 제목입니다. 64 자를 초과 하거나 특수 문자를 사용할 수 없습니다.          |
 |**설명**    |이를 사용 하 여 정책에 대 한 간단한 설명을 추가 합니다.         |
 |**일정 허용**     |이 기능을 켜면 조직의 사용자가 팀에서 라이브 이벤트를 만들고 예약할 수 있습니다. 사용자가 외부 앱 또는 장치에서 생성 된 라이브 이벤트를 예약 하도록 하려면 추가 단계가 필요 하다는 것을 알아야 합니다. 자세한 내용은 [사용자가 외부 앱 또는 장치를 사용 하 여 생성 된 이벤트를 예약할 수 있도록 설정을](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)참조 하세요.     |
 |**참석자의 내용에 대 한 기록을 허용 합니다.** |이 설정은 팀에서 생성 된 이벤트에만 적용할 수 있습니다. 이 기능을 켜면 실시간 이벤트 참석자가 이벤트 중에 라이브 캡션과 자막을 볼 수 있습니다.         |

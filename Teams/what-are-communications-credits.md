@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '통신 크레딧 (PSTN 소비) 청구, 요금을 확인 하는 방법, 제공 되는 서비스에 대해 알아봅니다. '
-ms.openlocfilehash: 6de37fb4f995e2af8be640fef62b379c2a1d7b0d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18762b51fc44ed1bc3f63a0e815528174e4afd8a
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182306"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493084"
 ---
 # <a name="what-are-communications-credits"></a>통신 크레딧 이란 무엇 인가요?
 
@@ -75,6 +75,9 @@ ms.locfileid: "36182306"
 각 조직은 서로 다른 통화 계획 볼륨 및 고려 요금을 사용 하 게 됩니다. 현재 서비스 공급자 로부터이 유형의 사용 데이터를 받아야 합니다. 비즈니스용 skype를 이미 서비스 공급자로 사용 하는 조직의 경우 **Microsoft 365 관리 센터** > **보고서** 또는 **비즈니스용 skype 관리 센터** > 보고서에서 사용 현황 데이터를 검토 하 여 가져올 수 있습니다.** **PSTN 사용 **세부 정보.**  > 
   
 통신 크레딧을 설정할 때는 조직의 통화 사용량을 조사 하 여 필요한 금액을 결정 해야 합니다. **PSTN 사용** 정보 보고서를 검토 하 여 통화 사용 정보를 얻을 수 있습니다. 이 보고서를 사용 하 여 통화 데이터 레코드를 Excel로 내보내고 사용자 지정 보고서를 만들 수 있습니다.
+
+> [!NOTE]
+> 의사 소통 요금은 프리미엄 요금 번호에도 사용 됩니다. 발신자가 요금을 지불 합니다.
   
 ## <a name="recommended-funding-amounts"></a>권장 자금 금액
 

@@ -6,7 +6,7 @@ ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 이 문서에서는 Microsoft 팀 회의실 콘솔과 주변 장치를 설정 하는 방법을 설명 합니다.
-ms.openlocfilehash: 1bb1e45eca95628222b799d94c953bb49da1ea17
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 820921cdcf35f4c4072dae3b2029527b98454dc5
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243479"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493057"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft 팀 대화방 콘솔 구성
 
@@ -91,7 +91,10 @@ CreateSrsMedia 스크립트는 다음 작업을 자동화 합니다.
 8. 설치가 완료 되 면 시스템이 종료 됩니다.
     
 시스템이 종료 된 후에는 USB 설치 디스크를 제거 하는 것이 안전 합니다. 이 시점에서 대상 디바이스를 dock에 배치 (dock 기반 제품을 사용 하는 경우) 하 고 회의실에 필요한 주변 장치를 연결한 다음 네트워크에 연결할 수 있습니다. 제조업체 지침을 참조 하세요.
-  
+
+> [!NOTE]
+> Microsoft 팀 대화방의 소프트웨어 업데이트는 비즈니스용 Microsoft Store에서 자동으로 다운로드 됩니다. [Microsoft Store 비즈니스 에디션 및 학력에 대 한 필수 구성 요소](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 를 참조 하 여 채팅방 콘솔에서 스토어 및 자동 업데이트에 액세스할 수 있는지 확인 합니다.  
+
 ### <a name="selecting-a-language"></a>언어 선택 
 
 만든이의 업데이트에서 암시적 언어 선택이 사용자에 게 원하는 실제 응용 프로그램 언어를 제공 하지 않는 시나리오의 ps1 스크립트 (예: 콘솔 앱을 프랑스어로 표시 하려는 경우)를 사용 해야 합니다. 영어를 사용할 수 있습니다.
