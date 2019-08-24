@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e01f4efd8ab9fa532e1a8a6c0c0c158c9fe44fb0
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: efeb467c5cf3cad5e427a26b01f972d40922db21
+ms.sourcegitcommit: 16345e8a19dba6fd1b39f876755088f9d8368f13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483452"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "36620454"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft 팀의 앱에 대 한 관리자 설정
 ==========================================
@@ -62,8 +62,6 @@ Microsoft 팀 관리 센터의 **팀 앱** 에서 조직의 앱을 관리 하는
 자세한 내용은 [팀에서 앱 설치 정책 관리](teams-app-setup-policies.md)를 참고 하세요.
 
 ## <a name="custom-app-policies-and-settings"></a>사용자 지정 앱 정책 및 설정
-
->[!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
 
 조직의 개발자는 팀을 통해 사용자 지정 앱을 만들고 테스트 하 고 다른 사용자에 게 배포할 수 있습니다. .Zip 파일의 앱 패키지를 팀 또는 개인 컨텍스트에서 직접 업로드 하 여 사용자 지정 앱을 팀에 추가할 수 있습니다. 앱 설치 정책을 사용 하 여 조직에서 사용자 지정 앱을 업로드할 수 있는 사용자를 제어할 수 있습니다. 또한 조직 전체 설정을 설정 하 여 사용자가 특정 사용자 지정 앱과 상호 작용할 수 있는지 여부를 제어할 수 있습니다.
 
