@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft 팀의 사용자에 게 전화 회의 ID를 할당 하는 방법과 전화 회의 ID의 매개 변수를 지정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: a41935e324a7ed167efc905bbe274f6ef7c85de5
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 8c4832050626dadd1bec068be262281d1303ef46
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "36183452"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645284"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Microsoft 팀에서 사용자에 게 할당 된 회의 ID 보기 및 다시 설정
 
@@ -84,9 +84,7 @@ ms.locfileid: "36183452"
   
     
 - 전화 회의 ID는 오디오 회의 브리지에 설정 된 길이의 자릿수를 충족 해야 합니다. 전화 회의 Id에는 영문자 또는 특수 문자를 사용할 수 없습니다. 숫자만 사용할 수 있습니다.
-    
-- 모든 오디오 회의 사용자의 전화 회의 ID는 기본적으로 7 자리로 표시 되며 자릿수는 변경할 수 없습니다.
-    
+   
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?
 

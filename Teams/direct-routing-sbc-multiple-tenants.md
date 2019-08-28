@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 여러 테 넌 트를 처리 하도록 한 SBC (세션 경계 컨트롤러)를 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: a8ee395a0b588af976151923992efbb32971b43c
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: d331fa51b8065ba7d1d39c7583beebbc093ddcce
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493129"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645314"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테 넌 트에 대 한 세션 경계 컨트롤러 구성
 
@@ -86,6 +86,7 @@ SBC 호스팅 시나리오의 SBCs를 배포 하 고 구성 하는 방법에 대
 
 SBC는 연결을 인증 하는 데 인증서가 필요 합니다. SBC 호스팅 시나리오의 경우, 반송파는 * \*base_domain (예: \*customers.adatum.biz)* 를 사용 하 여 인증서를 요청 해야 합니다. 이 인증서는 단일 SBC에서 제공 하는 여러 테 넌 트에 대 한 연결을 인증 하는 데 사용할 수 있습니다.
 
+
 다음 표에서는 한 가지 구성의 예를 보여 줍니다.
 
 
@@ -98,6 +99,9 @@ SBC는 연결을 인증 하는 데 인증서가 필요 합니다. SBC 호스팅 
 ||         |         |         |         |         |
 
 기본 및 하위 도메인을 구성 하려면 아래 설명 된 단계를 따르세요. 이 예제에서는 customers.adatum.biz (기본 도메인 이름) 및 한 고객의 하위 도메인 (Woodgrove 은행 테 넌 트의 sbc1.customers.adatum.biz)을 구성 합니다.
+
+> [!NOTE]
+> SbcX.customers.adatum.biz를 사용 하 여 반송파 테 넌 트에서 음성을 사용 하도록 설정 합니다.
 
 ## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>반송파 테 넌 트에 기본 도메인 이름 등록
 

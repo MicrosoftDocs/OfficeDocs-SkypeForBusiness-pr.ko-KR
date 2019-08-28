@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft는 2020 년 2 월에 ExchUMO (Exchange 통합 메시징 Online) 서비스를 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 인식 하 고 비즈니스 연속성을 계획 하기 위해 수행 해야 하는 작업을 요약 합니다.
-ms.openlocfilehash: b9353546012a0cf16f154d330f27f36fd360b5ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0472d142cc9d6b535b950e86e41753c82992bee5
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243897"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645251"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
@@ -23,8 +23,7 @@ ms.locfileid: "36243897"
  
 ExchUMO는 보이스 메일, 자동 전화 교환, 통화 대기열 및 팩스 통합 서비스에 대해 고객에 의해 배포 됩니다. 고객이 비즈니스용 Skype Online 및 Microsoft 팀에서 수천 명의 고객을 지 원하는 전화 시스템 서비스로 마이그레이션하는 데 도움이 되는 Microsoft 계획입니다. 
 
-보이스 메일은 주로 Microsoft 기반 마이그레이션입니다. 고객의 하위 집합에는 관리자의 참여 및 투자가 필요 합니다. 자동 전화 교환 및 통화 대기열에는 관리자 기반 마이그레이션이 있습니다. 관리자는 전화 시스템 자동 전화 교환 서비스에서 기존 ExchUMO 자동 전화 교환 트리를 다시 만들어야 합니다. 타사 PBX와 함께 ExchUMO 기능을 사용 하는 고객은 이러한 서비스가 타사 PBX 시스템을 지원 하지 않기 때문에 전화 시스템 클라우드 서비스로 마이그레이션하지 않습니다. 타사 지원에 대 한 만료 요금제는 [이 블로그에서](https://blogs.technet.microsoft.com/exchange/2017/07/18/discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging
-)작년에 발표 되었으며,이 배포 모델의 고객은 사용자를 Microsoft 통합 커뮤니케이션 플랫폼/서비스 중 하나로 마이그레이션하거나 타사 음성 메일 또는 자동으로 구입할 수 있습니다. 이러한 사용자를 위한 전화 교환 솔루션입니다. 전화 시스템에서는 팩스 통합이 지원 되지 않습니다. 고객은 타사 솔루션으로 마이그레이션해야 합니다. 
+보이스 메일은 주로 Microsoft 기반 마이그레이션입니다. 고객의 하위 집합에 대 한 관리자의 참여 및/또는 투자가 필요할 수 있습니다. 자동 전화 교환은 관리 기반 마이그레이션입니다. 클라우드 자동 전화 교환 클라우드 서비스에서 기존 ExchUMO 자동 전화 교환 트리를 다시 만들어야 합니다. 타사 pbx로 ExchUMO 기능을 소모 하는 고객은 타사 PBX 시스템을 지원 하지 않으므로 Skype 클라우드 서비스로 마이그레이션되지 않습니다. 타사 지원에 대 한 만료 계획이 [이 블로그에서](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)발표 되었으며,이 배포 모델의 고객은 사용자를 Microsoft의 통합 커뮤니케이션 플랫폼/서비스 중 하나로 마이그레이션하거나 타사 음성 메일 및/또는 자동으로 구입할 수 있습니다. 이러한 사용자를 위한 전화 교환 솔루션입니다. 클라우드 기반 서비스에서는 팩스 통합이 지원 되지 않습니다. 고객은 타사 솔루션으로 마이그레이션해야 합니다.
 
 ### <a name="who-is-affected"></a>누가 영향을 받습니까?
 
