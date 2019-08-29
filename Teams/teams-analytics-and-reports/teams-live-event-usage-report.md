@@ -15,18 +15,16 @@ ms.collection:
 description: Microsoft 팀 관리 센터에서 팀 실시간 이벤트 사용 보고서를 사용 하 여 조직의 팀 live 이벤트 활동에 대 한 개요를 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4eacd7df49de824ac6c0a98b7b923331fdee61f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 416c8ee1a5dd2ef2294fc125926e1a83822170b2
+ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239809"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36667067"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft 팀 실시간 이벤트 사용 보고서
 
 Microsoft 팀 관리 센터의 팀 실시간 이벤트 사용 보고서에는 조직에 보관 된 라이브 이벤트에 대 한 활동 개요가 표시 됩니다. 이벤트 상태, 시작 시간, 보기, 각 이벤트에 대 한 프로덕션 유형 등의 사용 정보를 볼 수 있습니다. 사용 추세에 대 한 통찰력을 얻고 조직의 누가 일정을 예약 하 고, 표시 하 고, 라이브 이벤트를 생성 하는지 확인할 수 있습니다. 
-
-![Microsoft 팀 관리 센터의 팀 live 이벤트 사용 현황 보고서] 스크린샷 (../media/teams-live-event-usage-report.png "관리 센터의 팀 사용 보고서") 스크린샷
 
 ## <a name="view-the-report"></a>보고서 보기
 
@@ -35,9 +33,9 @@ Microsoft 팀 관리 센터의 팀 실시간 이벤트 사용 보고서에는 �
 3. ) **이끌이**에서 특정 사용자가 구성한 라이브 이벤트만 표시 하도록 선택할 수 있습니다.
 4. **보고서 실행**을 클릭 합니다.  
 
-## <a name="interpret-the-report"></a>보고서 해석
+    ![팀 관리 센터에서 팀의 live 이벤트 사용 현황 보고서 스크린샷 (설명선 포함] ) (../media/teams-live-event-usage-report-with-callouts.png "팀 관리 센터에서 팀의 live 이벤트 사용 현황 보고서 스크린샷 (설명선 포함") )
 
-![Microsoft 팀 관리 센터의 팀 live 이벤트 사용 현황 보고서] 스크린샷 (../media/teams-live-event-usage-report-with-callouts.png "관리 센터에서 번호가 지정 된 설명선이 있는 팀 live 이벤트 사용 보고서 스크린샷")
+## <a name="interpret-the-report"></a>보고서 해석
 
 |호출 |설명  |
 |--------|-------------|
@@ -56,5 +54,6 @@ Microsoft 팀 관리 센터의 팀 실시간 이벤트 사용 보고서에는 �
 조직이 [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) ecdn 또는 [Kollective](https://kollective.com) ecdn에 대해 사용 하도록 설정 된 경우 파트너 보고서 링크를 클릭 하 여 추가 참석자 분석을 받을 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
+
 - [팀 분석 및 보고](teams-reporting-reference.md)
 - [팀 라이브 이벤트는 무엇 인가요?](../teams-live-events/what-are-teams-live-events.md)
