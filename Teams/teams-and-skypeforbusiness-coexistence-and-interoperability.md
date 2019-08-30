@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89eec1f643204750fb1c35845382639a7e04eb7
-ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
+ms.openlocfilehash: 53ab6c700f1a14700acbcdf1fdfeceb81b7bcbce
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393479"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675357"
 ---
 ![프로젝트 정의 단계를 강조 하 여 여행 다이어그램 업그레이드] (media/upgrade-banner-project-definition.png "프로젝트 정의 단계에 대 한 강조를 사용 하 여 업그레이드 여행 단계")
 
@@ -43,7 +43,7 @@ ms.locfileid: "36393479"
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>팀과 비즈니스용 Skype의 공존
 
-공동 작업 기능 외에도 팀은 채팅, 통화 및 모임 기능을 제공 합니다. 팀 배포를 선택 하는 방법에 따라 이러한 접근 권한 값이 지정 된 사용자에 대해 비즈니스용 Skype에서 제공 하는 기능과 중복 될 수 있습니다. 기본 모드는 기능이 겹치는 비즈니스용 Skype와 함께 팀을 실행 하는 것입니다. 그러나 사용자에 게 해당 사용자에 대해 이러한 기능이 중복 되지 않도록 설계 된 여러 공존 모드 (업그레이드 모드 라고도 함) 중 하나를 할당할 수 있습니다 (예를 들어, 팀과 비즈니스용 Skype의 상호 운용성을 사용할 수 있는 경우). 예를 들어 복잡 한 엔터프라이즈 음성 배포로 인해 비즈니스용 Skype Server 온-프레미스 자산을 보유 하 고 있고 사용자가 가능한 한 빨리 최신 모임을 즐길 수 있도록 하려면 아래에 설명 된 것 처럼 먼저 모임을 평가 하는 것이 좋습니다. 대체 경로입니다.
+공동 작업 기능 외에도 팀은 채팅, 통화 및 모임 기능을 제공 합니다. 팀 배포를 선택 하는 방법에 따라 이러한 접근 권한 값이 지정 된 사용자에 대해 비즈니스용 Skype에서 제공 하는 기능과 중복 될 수 있습니다. 기본 모드는 기능이 겹치는 비즈니스용 Skype와 함께 팀을 실행 하는 것입니다. 그러나 사용자에 게 해당 사용자에 대해 이러한 기능이 중복 되지 않도록 설계 된 여러 공존 모드 (업그레이드 모드 라고도 함) 중 하나를 할당할 수 있습니다 (예를 들어, 팀과 비즈니스용 Skype의 상호 운용성을 사용할 수 있는 경우). 예를 들어 복잡 한 엔터프라이즈 음성 배포로 인해 비즈니스용 Skype Server 온-프레미스 자산을 보유 하 고 있고 사용자가 가능한 한 빨리 최신 모임을 즐길 수 있도록 하려면 [먼저 모임을](meetings-first.md) 평가 하는 것이 좋습니다. 패스가.
 
 조직에 적합 한 경로를 결정 하는 데 도움이 되도록 다음 공존 모드를 검토 하는 것이 좋습니다.
 

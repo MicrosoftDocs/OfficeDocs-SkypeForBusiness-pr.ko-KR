@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의를 사용 하려는 고객에 게 제공 되는 몇 가지 주요 질문입니다.
-ms.openlocfilehash: fe98ac1bab2dfe61f9e511ad9ff14519792bcb36
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3d35665da6ed32d66a2cfa82353ddcf9f60be063
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241864"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675335"
 ---
 # <a name="audio-conferencing-common-questions"></a>오디오 회의 일반적인 질문
 
@@ -95,7 +95,7 @@ ms.locfileid: "36241864"
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>비즈니스용 Skype 서버의 온-프레미스 배포에 참가 하는 사용자가 오디오 회의를 사용할 수 있나요?
 
-현재는 그렇지 않습니다. 그러나 비즈니스용 Skype 서버에서 사용할 수 있는 오디오 회의는 온-프레미스 사용자 용 PSTN 게이트웨이와 함께 계속 사용할 수 있습니다. 
+[모임을 먼저](meetings-first.md)사용 하는 경우 비즈니스용 Skype 서버 사용자는 팀 회의 및 팀 오디오 회의를 통해 혜택을 누릴 수 있습니다. 
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>사용자가 개인 전화 회의 ID를 받을 수 있나요?
 

@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀을 사용 하 여 클라우드 통화 큐 용 전화 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8ae41603e3899c379fa09b2b08dd5e111b8405da
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 9ce7028c5ff56e24cda84536126cba271ee3e2b1
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483318"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675409"
 ---
 # <a name="create-a-cloud-call-queue"></a>클라우드 통화 대기열 만들기
 
@@ -173,7 +173,11 @@ ms.locfileid: "36483318"
 - 보안 그룹
 - 메일 그룹
 
-선택한 통화 상담원은 **** 온라인 사용자가 **전화 시스템** 라이선스와 엔터프라이즈 음성 기능을 사용 하도록 설정 되어 **있거나** 통화 요금제를 보유 하 고 있어야 합니다.
+선택한 통화 에이전트는 다음 중 하나 여야 합니다. 
+
+- 전화 시스템 라이선스 및 Enterprise Voice가 설정 된 온라인 사용자 
+- 통화 요금제를 사용 하는 온라인 사용자
+- Businesss 서버 사용자를 위한 온-프레미스 Skype
 
   > [!NOTE]
   > 이는 온라인 상태인 조직의 사용자에 게 전화를 리디렉션하는 경우에도 적용 됩니다. 이러한 개인에 게는 **전화 시스템** 라이선스와 Enterprise Voice가 설정 되어 **있거나** 통화 요금제가 있어야 합니다. 자세한 내용은 [비즈니스용 Skype 라이선스 할당](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md), [Microsoft 팀 라이선스 할당](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)또는 [사용자에 게 적합 한 통화 계획](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page) 을 참조 하세요.
