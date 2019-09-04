@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 한 곳에서 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대 한 업데이트를 찾아 관리 합니다. 업데이트에 대 한 자세한 정보를 확인 하 고 업데이트를 다운로드 하려면이 페이지의 링크를 사용 하세요.
-ms.openlocfilehash: 7243c607f4855c431256335131f70cd080b6d00c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d0349434785b7acf79cba7bb577cb5ba0b43482a
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234830"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715888"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
@@ -37,6 +37,7 @@ ms.locfileid: "36234830"
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
+|비즈니스용 Skype 서버 2015 누적 업데이트 10 핫픽스 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 년 9 월 |
 |비즈니스용 Skype Server 2015, 웹 구성 요소 서버에 대 한 누적 업데이트 9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 년 5 월 |
 |비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019 년 1 월|
 |비즈니스용 Skype Server 2015, 프론트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 7 |[KB 4340904](https://support.microsoft.com/kb/3134260) |2018 년 7 월 |

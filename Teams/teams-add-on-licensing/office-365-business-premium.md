@@ -18,29 +18,24 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Office 365 Business Premium 요금제를 구입 하는 방법에 대 한 추가 기능 라이선스, 기능 및 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 1372948962e15de861402fa4f9d30e5749204af8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 48cfc0803f062f4ded43821b7db8604a49022fda
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242661"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715910"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
 [Office 365 비즈니스 Premium](https://products.office.com/en/business/office-365-business-premium)이 있는 경우 Microsoft 팀을 사용 하 여 구독 중인 비즈니스의 다른 사용자에 게 전화를 걸 수 있습니다. 예를 들어 비즈니스에 10 명의 사용자가 있는 경우 팀을 사용 하 여 서로 통화 하 고 인스턴트 메시지를 들을 수 있습니다.
 
-**회사 외부의 사용자와 전화를 걸고 받으려면 다음과 같은 세 가지 옵션이 있습니다**.
+**회사 외부의 사용자와 전화를 걸고 받으려면 다음 옵션을 사용할 수 있습니다**.
 
 - **옵션 1**. [무료 팀 앱](https://products.office.com/microsoft-teams/free)을 사용 합니다. 소규모 기업 (예: 1-2 사람)이 있는 경우 팀 앱을 사용 하는 것이 더 나은 방법입니다. 국내 및 국제 전화에 사용 하는 것은 저렴 합니다. 계속 해 서 1:1 및 그룹 오디오 및 비디오 통화를 할 수 있으며 프레젠테이션을 위해 데스크톱을 공유할 수도 있습니다. [기능, 급여 및 결제 옵션을 비교](https://products.office.com/microsoft-teams/free)합니다.
 
      팀을 무료로 사용 하 여 요구 사항에 맞는지 확인 하는 것이 좋습니다. 그러나 두 가지 옵션이 아직 없는 경우
-
-- **옵션 2. 요금제를 유지 하 고 전화 시스템, 국내 또는 국내 및 국제 통화 요금제를 구입**하세요.
-    1. 전화 시스템 추가 기능을 구입 합니다.
     
-    2. [Office 365에 대 한 통화 요금제](../calling-plans-for-office-365.md) 구입-전화 시스템 추가 기능을 구입한 후에만 구매할 수 있습니다.
-    
-- **옵션 3. 요금제를 업그레이드 하 고 전화 시스템, 국내 또는 국내 및 국제 통화 요금제를 구입**합니다.
+- **옵션 2. 요금제를 업그레이드 하 고 전화 시스템, 국내 또는 국내 및 국제 통화 요금제를 구입**합니다.
 
     1. [다른 Office 365 비즈니스 요금제로 전환](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)합니다. 더 저렴 한 비용 인지 확인 하기 위해 Enterprise E5 계획을 평가 하는 것이 좋습니다.
 

@@ -8,19 +8,19 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karuanag
 description: Microsoft 팀에 적용 되는 제한, 사양 및 기타 요구 사항에 대해 알아봅니다.
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 854c6beeccdae6286bc609a226a49b15de1114e6
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 82fbaa955c080446619558a7a90410200f4be604
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493120"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715901"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft 팀의 제한 사항 및 사양
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 온-프레미스 Exchange와 비즈니스용 Skype Online 간에 OAuth 인증을 구성 하면 기능 지원에서 설명 하는 비즈니스용 Skype 및 Exchange 통합 기능을 사용할 수 있습니다.
-ms.openlocfilehash: 3c896e8b430276e5bb48bc425425292a382a1021
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe6d7bbe1be9418b7e960de02e91cecf1c808d2b
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244222"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715810"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>비즈니스용 Skype Online 및 Exchange Server 간 통합 및 OAuth 구성 
 
@@ -142,7 +142,7 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 2. 모바일 클라이언트에 대 한 대화 내용 확인은 Outlook 대화 내용 폴더에 표시 됩니다.
 
-3. 저장 된 채팅 메시지가 [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)를 사용 하 여 제거 폴더의 사용자의 온-프레미스 사서함에 보관 되는지 확인 합니다.
+3. 저장 된 채팅 메시지가 사용자의 온-프레미스 사서함에 [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)를 사용 하 여 제거 폴더에 보관 되어 있는지 확인 합니다.
 
 또는 트래픽을 살펴봅니다. OAuth 핸드셰이크의 트래픽 (기본 인증과 유사 하지는 않음), 특히 아래와 같이 발급자 소통량을 표시 하기 시작 하는 00000004-0000-0ff1-ce00-000000000000 @ (간혹/이전 전달 되는 토큰의 @ 기호)입니다. OAuth의 지점인 사용자 이름 또는 암호는 표시 되지 않습니다. 그러나 ' Office ' 발급자가 표시 되는 경우 (이 경우 ' 4 '는 비즈니스용 Skype 이며 구독 영역입니다.)
 

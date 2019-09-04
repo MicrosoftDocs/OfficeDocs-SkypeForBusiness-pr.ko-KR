@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 비즈니스용 Skype 서버와 비즈니스용 Skype Online 또는 팀 간의 하이브리드 연결을 구현 하기 위한 계획 고려 사항입니다.
-ms.openlocfilehash: 2cca98740aeb991923683ce80b3b33a6ac49fbc6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 65e0f19e536cb2ec9b92fc73a1abb938be3b3c7c
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36185436"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715831"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>비즈니스용 Skype 서버와 Office 365 하이브리드 연결 계획
 
@@ -69,7 +69,7 @@ ms.locfileid: "36185436"
 - Azure Active Directory Connect 온-프레미스 디렉터리를 Office 365와 동기화 합니다. 자세한 내용은 [AZURE AD Connect: 계정 및 사용 권한을](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)참조 하세요.
 - 비즈니스용 Skype 서버 관리 도구.  이는 사용자를 온-프레미스에서 클라우드로 이동 하는 데 필요 합니다. 이러한 도구는 온-프레미스 배포와 인터넷 모두에 대 한 액세스 권한이 있는 서버에 설치 되어 있어야 합니다.
 - 온라인 관리 도구  팀 관리 센터 또는 Windows PowerShell을 사용 하 여 팀과 비즈니스용 Skype Online을 관리할 수 있습니다. PowerShell을 사용 하 여 팀 또는 비즈니스용 Skype Online을 관리 하려면 비즈니스용 Skype Online Connector를 다운로드 하 여 설치 합니다.
-- 공유 SIP 주소 공간을 사용 하도록 설정 하 고 Office 365를 호스팅 공급자로 사용 하도록 온-프레미스 배포를 구성 해야 합니다. 하이브리드 연결을 구성 하는 데 필요한 단계에 대 한 자세한 내용은 [하이브리드 연결 구성을](configure-hybrid-connectivity.md)참조 하세요.
+- 공유 SIP 주소 공간을 사용 하도록 설정 해야 하며, 온-프레미스 배포를 호스팅 공급자로 Office 365을 사용 하도록 구성 해야 합니다. 하이브리드 연결을 구성 하는 데 필요한 단계에 대 한 자세한 내용은 [하이브리드 연결 구성을](configure-hybrid-connectivity.md)참조 하세요.
 
 하이브리드 연결을 구성한 후에는 사용자를 팀 또는 비즈니스용 Skype Online으로 이동할 수 있습니다. 자세한 내용은 온 [-프레미스에서 팀으로 사용자 이동을](move-users-from-on-premises-to-teams.md) 시작 하 고 [온-프레미스에서 비즈니스용 Skype Online으로 이동](move-users-from-on-premises-to-skype-for-business-online.md)을 참조 하세요.
 
