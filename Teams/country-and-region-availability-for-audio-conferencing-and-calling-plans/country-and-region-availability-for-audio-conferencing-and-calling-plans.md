@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 국가/지역을 선택 하 여 오디오 회의, 전화 시스템, 통화 요금제, 통신 크레딧을 사용 하는지 여부, 무료 전화 번호 및 무료 통화 전화번호를 확인할 수 있습니다.
-ms.openlocfilehash: 9a93ecaf9f68f5aa0412253a7a9355a0cfe33445
-ms.sourcegitcommit: 40328f5e80ee992cd0e63655ede9698a35069f15
+ms.openlocfilehash: 05e34a663e2c6e5ff4c2c0359bd0183d03caeb16
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "36185132"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774656"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능 여부
 
@@ -38,7 +38,8 @@ ms.locfileid: "36185132"
 ***
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>국가 또는 지역을 선택 하 여 조직에 사용할 수 있는 항목을 확인 합니다.
 
-> [!div class="op_single_selector"]    
+> [!div class="op_single_selector"]
+> - [알제리](availability-in-algeria.md)    
 > - [아르헨티나](availability-in-argentina.md)
 > - [오스트레일리아](availability-in-australia.md)
 > - [오스트리아](availability-in-austria.md)
@@ -46,10 +47,12 @@ ms.locfileid: "36185132"
 > - [벨로루시](availability-in-belarus.md)
 > - [벨기에](availability-in-belgium.md)
 > - [벨리즈](availability-in-belize.md)
+> - [Benin](availability-in-benin.md)
 > - [보스니아 헤르체고비나](availability-in-bosniaherzegovina.md)
 > - [브라질](availability-in-brazil.md)
 > - [브루나이](availability-in-brunei.md)
 > - [불가리아](availability-in-bulgaria.md)
+> - [캄보디아](availability-in-cambodia.md)
 > - [캐나다](availability-in-canada.md)
 > - [칠레](availability-in-chile.md)
 > - [중국](availability-in-china.md)
@@ -68,6 +71,7 @@ ms.locfileid: "36185132"
 > - [프랑스](availability-in-france.md)
 > - [그루지야](availability-in-georgia.md)
 > - [독일](availability-in-germany.md)
+> - [가 나](availability-in-ghana.md)
 > - [그리스](availability-in-greece.md)
 > - [온두라스](availability-in-honduras.md)
 > - [홍콩 특별 행정구](availability-in-hong-kong.md)
@@ -79,7 +83,9 @@ ms.locfileid: "36185132"
 > - [이탈리아](availability-in-italy.md)
 > - [일본](availability-in-japan.md)
 > - [요르단](availability-in-jordan.md)
+> - [카자흐스탄](availability-in-kazakhstan.md)
 > - [케냐](availability-in-kenya.md)
+> - [쿠웨이트](availability-in-kuwait.md)
 > - [라트비아](availability-in-latvia.md)
 > - [리투아니아](availability-in-lithuania.md)
 > - [룩셈부르크](availability-in-luxembourg.md)
@@ -89,8 +95,11 @@ ms.locfileid: "36185132"
 > - [멕시코](availability-in-mexico.md)
 > - [몰도바](availability-in-moldova.md)
 > - [모나코](availability-in-monaco.md)
+> - [모로코](availability-in-morocco.md)
 > - [네덜란드](availability-in-the-netherlands.md)
 > - [뉴질랜드](availability-in-new-zealand.md)
+> - [니카라과](availability-in-nicaragua.md)
+> - [나이지리아](availability-in-nigeria.md)
 > - [노르웨이](availability-in-norway.md)
 > - [파키스탄](availability-in-pakistan.md)
 > - [파나마](availability-in-panama.md)
@@ -117,6 +126,7 @@ ms.locfileid: "36185132"
 > - [대만](availability-in-taiwan.md)
 > - [태국](availability-in-thailand.md)
 > - [트리니다드 토바고](availability-in-trinidad-and-tobago.md)
+> - [튀니지](availability-in-tunisia.md)
 > - [터키](availability-in-turkey.md)
 > - [우크라이나](availability-in-the-ukraine.md)
 > - [미국 아랍에미리트 (UAE)](availability-in-the-united-arab-emirates-uae.md)
@@ -126,7 +136,7 @@ ms.locfileid: "36185132"
 > - [베네수엘라](availability-in-venezuela.md)
 > - [베트남](availability-in-vietnam.md)
 
-**모든 국가 및 지역이 있는 스프레드시트를 찾고 있는 경우에는 [클라우드 음성 기능 국가/지역 사용 가능 스프레드시트](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-07252019)-(en-us).xlsx?raw=true)를 다운로드 하 여 저장 합니다**.
+**모든 국가 및 지역이 있는 스프레드시트를 찾고 있는 경우에는 [클라우드 음성 기능 국가/지역 사용 가능 스프레드시트](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)를 다운로드 하 여 저장 합니다**.
 
 ***
 

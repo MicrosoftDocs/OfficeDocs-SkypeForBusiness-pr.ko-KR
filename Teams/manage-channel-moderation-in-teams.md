@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 팀 구성원을 채널 중재자로 추가 하는 방법을 포함 하 여 Microsoft 팀에서 중재를 위해 채널을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7fbb0676d8f0874a27766287fead15dc30a97fc6
-ms.sourcegitcommit: 8fb7dd1fa98ba7563542965067d16c533171d4e9
+ms.openlocfilehash: d176c1d0076ea444fb46b69011bad94c0c2b3eb4
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36649755"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775382"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft 팀에서 채널 중재 설정 및 관리
 
@@ -57,13 +57,15 @@ Microsoft 팀에서 팀 소유자는 채널에 대 한 중재를 설정 하 여 
 
 팀에서 채널로 이동 하 고 **기타 옵션 ...** 을 클릭 합니다.  >  **채널을 관리**합니다. 여기서는 중재 기능을 설정 및 해제 하 고 팀 구성원을 중재자로 추가 하 고 기본 설정을 지정할 수 있습니다.
 
+채널 중재는 채널 별로 설정 된 것입니다. 채널 중재에 대 한 테 넌 트 수준 설정은 없습니다. 테 넌 트 수준 채널 중재 설정을 추가 하려면 [팀 UserVoice](https://microsoftteams.uservoice.com/)에 요청 하세요.
+
 ![manage-channel-moderation-in-teams-preferences](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### <a name="turn-on-or-turn-off-moderation-for-a-channel"></a>채널에 대 한 중재 설정 또는 해제
 
-기본적으로 중재는 해제 되어 있으며 새 게시물을 팀 구성원 으로만 제한 하거나 게스트를 포함 하 여 모든 사용자가 새 게시물을 시작 하도록 할 수 있습니다.
+기본적으로 중재는 해제 되어 있으며,이는 일반적인 채널 설정이 팀 소유자 및 팀 구성원에 게 적용 됨을 의미 합니다. 예를 들어 새 게시물을 팀 구성원 으로만 제한 하거나 게스트를 포함 하 여 모든 사용자가 새 게시물을 시작 하도록 할 수 있습니다.
 
-채널에 대 한 중재를 설정 하려면 **채널 중재**에서 설정을 클릭 **** 합니다. 채널 중재가 설정 되어 있는 경우 중재자만 새 게시물을 시작할 수 있습니다. 
+채널에 대 한 중재를 설정 하려면 **채널 중재** **에서 설정을 클릭 합니다**. 채널 중재가 설정 되어 있는 경우 중재자만 새 게시물을 시작할 수 있습니다. 
 
 ### <a name="add-or-remove-channel-moderators"></a>채널 중재자 추가 또는 제거
 

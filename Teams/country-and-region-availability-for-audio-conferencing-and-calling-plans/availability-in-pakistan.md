@@ -3,7 +3,7 @@ title: 파키스탄의 가용성
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 2066d1f9-cbf6-411f-91bb-84d824b4325e
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 파키스탄 용으로 제공 되는 Microsoft 팀입니다.
-ms.openlocfilehash: 29d925bc24f07e9a907b004eb59b8e59e42254fa
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: faa9114fd080b05045bc26c4ff13f8ecc9301893
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182948"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775491"
 ---
 # <a name="availability-in-pakistan"></a>파키스탄의 가용성
 
@@ -71,7 +71,7 @@ ms.locfileid: "36182948"
 |유료 전화 번호를 사용 하 고 계십니까?  <br/> |'  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
    
- 오디오 회의, 자동 전화 교환, 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
+ 파키스탄에서 서비스 번호는 오디오 회의에만 사용할 수 있습니다. 오디오 회의를 위한 유료 및 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
   
 ## <a name="communications-credits"></a>통신 제작진
 

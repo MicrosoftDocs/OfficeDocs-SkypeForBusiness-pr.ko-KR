@@ -2,7 +2,7 @@
 title: 환경 준비
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: 이 문서에서는 Microsoft 팀 대화방을 배포 하기 위한 인프라 준비에 대해 설명 합니다.
-ms.openlocfilehash: 5789f8138bf5ab9e12c77a8b2963ff32e7f33586
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 4f5242d2647810616f0ffaabc1cda938e24147da
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493089"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775059"
 ---
 # <a name="prepare-your-environment"></a>환경 준비
 
@@ -28,22 +28,17 @@ ms.locfileid: "36493089"
 2. 사용할 디바이스에 대해 작동 하는 네트워크/인터넷 연결이 있는지 확인 합니다. 
     
    - DHCP를 사용 하 여 IP 주소를 받을 수 있어야 합니다. (Microsoft 팀 대화방은 첫 번째 단위 시작 시 고정 IP 주소로 구성할 수 없지만 나중에 장치에 대 한 고정 IP를 장치 또는 업스트림 스위치 또는 라우터에서 구성할 수 있습니다.)
-    
    - 이 포트는 다음과 같이 열려 있어야 합니다 (미디어에 대 한 일반 포트 열기 외에).
-    
    - HTTPS: 443
-    
    - HTTP: 80
-    
    - 네트워크가 프록시를 통해 실행 되는 경우에는 프록시 주소 또는 스크립트 정보도 필요 합니다.
     
      > [!NOTE]
-     > Microsoft 팀 대화방은 HDMI 수집 기능 (비디오, 오디오)에 문제가 발생 하는 데 관측 된 HDCP 입력을 지원 하지 않습니다. Microsoft 팀 대화방에 연결 된 스위치에 HDCP 옵션이 설정 되어 있는지 확인 합니다. 
+     > Microsoft 팀 대화방은 HDMI 수집 기능 (비디오, 오디오)에 문제가 발생 하는 데 관측 된 HDCP 입력을 지원 하지 않습니다. Microsoft 팀 대화방에 연결 된 스위치에 HDCP 옵션이 설정 되어 있는지 확인 합니다.
   
-3. Microsoft는 환경을 개선 하기 위해 데이터를 수집 합니다. 데이터를 수집 하려면 다음 허용 목록 사이트가 필요 합니다.
-    
+3. Microsoft는 환경을 개선 하기 위해 데이터를 수집 합니다. Microsoft에서 데이터를 수집 하도록 허용 하려면 다음 사이트를 허용 목록.
+
    - 원격 분석 클라이언트 끝점:https://vortex.data.microsoft.com/
-    
    - 원격 분석 설정 끝점:https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>디바이스 계정 만들기 및 테스트
@@ -79,7 +74,7 @@ Microsoft 팀 대화방 장치는 Exchange Web Services, Microsoft 팀 또는 �
 Microsoft 팀 대화방은 Windows OS에서 프록시 설정을 상속 하도록 디자인 되었습니다. 다음과 같은 방법으로 Windows OS에 액세스 합니다.
   
 1. Microsoft 팀 대화방 UI에서 장치에 대 한 로컬 관리자 암호 (기본 암호는 **sfb**)를 묻는 메시지가 표시 되는 설정 기어 아이콘을 클릭 합니다.
-2. 다음으로 **** **이동** 단추를 탭 한 다음, **관리자** 로그인으로 이동 단추를 클릭 하 고 **관리** 단추 (컴퓨터가 도메인에 가입 되어 있는 경우 **다른 사용자를** 선택한 다음 사용 사용자 이름으로 .\admin 합니다.
+2. **다음으로** **이동** 단추를 탭 한 다음, **관리자** 로그인으로 이동 단추를 클릭 하 고 **관리** 단추 (컴퓨터가 도메인에 가입 되어 있는 경우 **다른 사용자를** 선택한 다음 사용 사용자 이름으로 .\admin 합니다.
 3. **Windows 검색** 상자 왼쪽 아래에서 regedit에 입력 합니다 (화면을 길게 누르거나 마우스 오른쪽 단추로 클릭 하 고 **관리자 권한으로 실행**을 선택 합니다.)
 4. HKEY_USERS 폴더 (컴퓨터 사용자 Sid 목록이 표시 됨)를 클릭 하 여 루트 폴더 HKEY_USERS이 선택 되었는지 확인 합니다.
        
@@ -90,13 +85,13 @@ Microsoft 팀 대화방은 Windows OS에서 프록시 설정을 상속 하도록
  
 8. Skype 키를 열고 HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet 설정으로 이동한 다음, 다음과 같은 설정이 입력 되었는지 확인 합니다. 
     
-    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
-    "MigrateProxy" = dword: 00000001
+    `"MigrateProxy"=dword:00000001`
     
-    "ProxyEnable" = dword: 00000001
+    `"ProxyEnable"=dword:00000001`
     
-    "ProxyServer" = "xx-xx. xx: 8080"
+    `"ProxyServer"="xx.xx.xx.xx:8080"`
     
     ProxyServer가 없는 경우이 키를 문자열로 추가 해야 할 수 있습니다. xx: 8080을 프록시 서버의 ip/host 및 포트로 변경 하세요.
     
@@ -123,7 +118,7 @@ Microsoft 팀 대화방은 Windows OS에서 프록시 설정을 상속 하도록
 |IOS 장치에서 Lync Mobile 2010에 대 한 lync Mobile 푸시 알림 Android, Nokia Symbian 또는 Windows Phone 모바일 장치에는 필요 하지 않습니다.  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니요  <br/> |'  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Skype 원격 분석  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |아니요  <br/> |아니요  <br/> |해당 없음  <br/> |TCP 443  <br/> |
 |Skype 클라이언트 퀵 팁  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |quicktips.skypeforbusiness.com  <br/> |아니요  <br/> |아니요  <br/> |해당 없음  <br/> |TCP 443  <br/> |
-   
+
 > [!NOTE]
 > Contoso.com 및 broadcast.skype.com의 와일드 카드는 Office 365에만 사용 되는 노드의 긴 목록을 나타냅니다. 
   

@@ -3,7 +3,7 @@ title: 이집트의 사용 가능 여부
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 이집트에서 사용할 수 있는 Microsoft 팀입니다.
-ms.openlocfilehash: 410840eac1158a0aed9abadf442cd9e021dd3634
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: b217d69ee353404e63a726dc28cade0ccff7b85a
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36183122"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775447"
 ---
 # <a name="availability-in-egypt"></a>이집트의 사용 가능 여부
 
@@ -68,7 +68,7 @@ ms.locfileid: "36183122"
 |:-----|:-----|
 |유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> |해당 없음  <br/> |
 |유료 전화 번호를 사용 하 고 계십니까?  <br/> |아니요  <br/> |
-|무료 번호를 사용할 수 있나요?  <br/> |아니요 <br/> |
+|무료 번호를 사용할 수 있나요?  <br/> |예 ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    
  오디오 회의, 자동 전화 교환, 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
   

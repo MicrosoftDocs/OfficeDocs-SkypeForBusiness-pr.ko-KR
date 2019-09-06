@@ -3,7 +3,7 @@ title: 러시아의 가용성
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: a1534ecf-fae6-4472-9f3f-c205f547af17
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 및 러시아에서 사용할 수 있는 Microsoft 팀을 위한 Office 365 서비스입니다.
-ms.openlocfilehash: bdf48a912b1afc2a4c273dfb35334fff10d5f564
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 0e283296f2675dc50230a156f92e123a0975c4d5
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182903"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775480"
 ---
 # <a name="availability-in-russia"></a>러시아의 가용성
 
@@ -67,7 +67,7 @@ ms.locfileid: "36182903"
 
 |**요소**|**세부적인**|
 |:-----|:-----|
-|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> |모스크바  <br/> |
+|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> |<ul><li>모스크바 <li>상트페테르부르크 ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</ul>|
 |유료 전화 번호를 사용 하 고 계십니까?  <br/> |'  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
    

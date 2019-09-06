@@ -6,7 +6,7 @@ ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 이 문서에서는 Azure Monitor를 사용 하 여 통합 된 종단 간 방식으로 Microsoft 팀 회의실 디바이스의 관리를 배포 하는 방법을 설명 합니다.
-ms.openlocfilehash: 1f9a6e6ba4da22d8b14f4b1d545c0a6cfb16e14b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4be57f97ef3b0813afef2aefd70c551ee50422ee
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243622"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774687"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Azure Monitor를 사용 하 여 Microsoft 팀 공간 관리 배포
 
@@ -34,13 +34,13 @@ Azure Monitor 내에서 로그 분석을 구성 하 여 Microsoft 팀 회의실 
 상위 수준에서 다음 작업을 수행 해야 합니다.
 
 
-1.  [로그 분석 구성 유효성 검사](azure-monitor-deploy.md#validate_LogAnalytics)
-2.  [로그 분석 관리 설정에 맞게 테스트 장치 구성](azure-monitor-deploy.md#configure_test_devices)
-3.  [사용자 지정 필드 매핑](azure-monitor-deploy.md#Custom_fields)
-4.  [로그 분석에서 Microsoft 팀 회의실 보기 정의](azure-monitor-deploy.md#Define_Views)
-5.  [알림 정의](azure-monitor-deploy.md#Alerts)
-6.  [모든 장치에서 모니터링 하도록 구성](azure-monitor-deploy.md#configure_all_devices)
-7.  [추가 Azure Monitor 솔루션 구성](azure-monitor-deploy.md#Solutions)
+1. [로그 분석 구성 유효성 검사](azure-monitor-deploy.md#validate_LogAnalytics)
+2. [로그 분석 관리 설정에 맞게 테스트 장치 구성](azure-monitor-deploy.md#configure_test_devices)
+3. [사용자 지정 필드 매핑](azure-monitor-deploy.md#Custom_fields)
+4. [로그 분석에서 Microsoft 팀 회의실 보기 정의](azure-monitor-deploy.md#Define_Views)
+5. [알림 정의](azure-monitor-deploy.md#Alerts)
+6. [모든 장치에서 모니터링 하도록 구성](azure-monitor-deploy.md#configure_all_devices)
+7. [추가 Azure Monitor 솔루션 구성](azure-monitor-deploy.md#Solutions)
 
 > [!IMPORTANT]
 > 최소 구성으로 Azure 모니터 로그 분석을 사용 하면 Windows 운영 체제를 실행 하는 컴퓨터를 모니터링할 수 있지만, 모든 Microsoft 팀에 에이전트 배포를 시작 하기 전에 수행 해야 하는 일부 Microsoft 팀 대화방 관련 단계가 남아 있습니다. 채팅방 장치.
@@ -76,7 +76,7 @@ Microsoft 팀 대화방 관련 이벤트를 모니터링 하려면 로그 분석
 
 ### <a name="install-microsoft-monitoring-agents-to-test-devices"></a>Microsoft Monitoring agent를 설치 하 여 장치 테스트
 
-[Azure의 Log Analytics 서비스에 Windows 컴퓨터 연결](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)에 제공 된 지침을 사용 하 여 Microsoft Monitoring agent를 테스트 디바이스에 배포 합니다. 이 문서에서는 Windows 용 Microsoft Monitoring Agent를 배포 하는 단계, 로그 분석 ***작업 영역 ID*** 를 구하는 방법, Microsoft 팀 대화방 ****** 장치를 가져오는 방법에 대 한 자세한 내용 Azure 모니터 배포 및 로그 분석 인스턴스에 대 한 에이전트 연결을 확인 하는 단계입니다.
+[Azure의 Log Analytics 서비스에 Windows 컴퓨터 연결](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)에 제공 된 지침을 사용 하 여 Microsoft Monitoring agent를 테스트 디바이스에 배포 합니다. 이 문서에서는 Windows 용 Microsoft Monitoring Agent를 ***배포 하는*** 단계, 로그 분석 ***작업 영역 ID*** 를 구하는 방법, microsoft 팀 대화방 장치를 가져오는 방법에 대 한 자세한 내용 Azure 모니터 배포 및 로그 분석 인스턴스에 대 한 에이전트 연결을 확인 하는 단계입니다.
 
 ### <a name="generate-sample-microsoft-teams-rooms-events"></a>샘플 Microsoft 팀 대화방 이벤트 생성
 

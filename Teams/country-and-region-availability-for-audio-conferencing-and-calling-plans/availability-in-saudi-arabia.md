@@ -3,7 +3,7 @@ title: 사우디아라비아의 가용성
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 54905c72-2214-47c7-8ac2-7a27597475c5
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 사우디아라비아에서 사용할 수 있는 Microsoft 팀입니다.
-ms.openlocfilehash: f9c4e84669079baa801e9ed7193678e20a4157e0
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 87cbdcf35cf523a68f53b434a7d2d29a3945125f
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182894"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775469"
 ---
 # <a name="availability-in-saudi-arabia"></a>사우디아라비아의 가용성
 
@@ -67,8 +67,8 @@ ms.locfileid: "36182894"
 
 |**요소**|**세부적인**|
 |:-----|:-----|
-|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> |해당 없음  <br/> |
-|유료 전화 번호를 사용 하 고 계십니까?  <br/> |아니요  <br/> |
+|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> | 리야드 ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|유료 전화 번호를 사용 하 고 계십니까?  <br/> |예 ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |'  <br/> |
    
  오디오 회의, 자동 전화 교환, 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.

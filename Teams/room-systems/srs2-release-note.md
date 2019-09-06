@@ -2,7 +2,7 @@
 title: 릴리스 정보
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
@@ -11,21 +11,20 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: 이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.
-ms.openlocfilehash: e14785d7ad36485bc083e040470b00dd3286b377
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 985a261cab4ce9d7cf4bb6949183142a84f76dd0
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427657"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775219"
 ---
-# <a name="release-notes"></a>릴리스 정보 
+# <a name="release-notes"></a>릴리스 정보
 
 이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.
 
-
 ## <a name="version-history"></a>버전 기록
 
-|제품 |게시 대상 <br> Microsoft Store |
+|제품 |게시 대상 <br/> Microsoft Store |
 |--- |--- |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
@@ -55,18 +54,21 @@ ms.locfileid: "36427657"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 팀 대화방 기능 소개 및 문제 해결
+
 ### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
 
 이 업데이트에 도입 된 내용:
+
 - 사용자가 기존 화이트 보드를 팀의 모임에 지능적으로 포함할 수 있는 새로운 콘텐츠 카메라 기능
 - 콘솔에서 더 많은 기능을 통해 액세스 하는 새로운 측면 막대로 낮은 우선 순위 설정 및 이동 된 설정을 줄일 수 있는 추가 향상 된 콘솔 UI
 - 로컬 콘텐츠 케이블이 연결 되지 않았거나 콘텐츠 카메라가 연결 되지 않은 경우 공유 용지함 단추가 비활성화 됨
 - 이 (가) MTR 시스템 다시 시작 후에만 처음으로 오류가 표시 되는 터치 키보드 관련 문제가 해결 되었습니다.
-- 품질 및 안정성 픽스.
+- 품질 및 안정성 수정
 
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
 
 이 업데이트에 도입 된 내용:
+
 - Skype 채팅방 시스템 스토어 앱-"Microsoft 팀 대화방"에 대 한 재 브랜드
 - Microsoft 팀 공간 콘솔 사용자 인터페이스 realigned
 - 테마 업데이트: 콘솔 UI 컨트롤이 색 대비를 유지 하도록 콘솔 배경을 중립 색으로 설정 하는 경우에만 사용자 지정 배경 이미지가 표시 됨 (접근성 요구 사항)
@@ -127,7 +129,7 @@ ms.locfileid: "36427657"
 ### <a name="40270-1012018"></a>4.0.27.0 (10/1/2018)
 
 이 업데이트에 도입 된 내용:
- 
+
 - 나중에 Windows 10 버전 1803 업그레이드를 위해 Microsoft 팀 회의실 앱을 준비 하는 데 필요한 코드 변경 사항
 - 지역화 된 EULAs (특히 노르웨이어)의 서식 문제를 해결 하 여 EULA OOBE 설정 창 보다 더 많은 기능을 사용할 수 없도록 합니다.
 - Microsoft 팀 대화방 응용 프로그램을 레거시 Lync 대화방 시스템에서 실행할 수 있도록 하는 데 필요한 코드 변경 자세한 내용은 [여기](https://aka.ms/lrsupgrade)를 참조 하세요.
@@ -203,11 +205,10 @@ ms.locfileid: "36427657"
 Introduced in this update: 
 - Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) hardware only. -->
 
-
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
 
 이 업데이트에 도입 된 내용:
- 
+
 - "피드백 제공" 기능의 문제를 해결 합니다.
 
 ### <a name="30150-1032017"></a>3.0.15.0 (10/3/2017)
@@ -217,7 +218,6 @@ Introduced in this update:
 - [POLYCOM MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock 하드웨어 지원
 - [Logitech Brio](https://www.logitech.com/en-us/product/brio) 지원
 - 채팅방에 활동이 없을 때 표시 (콘솔 및 프런트 실)에서 절전 모드로 들어가지 못하는 문제를 해결 합니다.
-
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
 
@@ -248,7 +248,6 @@ Introduced in this update:
 - IT 관리자가 원격으로 장치를 구성할 수 있는 기능
  <!-- - Front-of-Room UX shows room details pre-meeting U2 -->
 
-
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 
 이 업데이트에 도입 된 내용:
@@ -261,7 +260,7 @@ Introduced in this update:
 **% D 개 기능:**
 
  **비즈니스용 Skype 제작**
- 
+
 - Skype 모임의 원 터치 참가
 - 화면 채우기 HD 비디오 및 HD 와이드 밴드 오디오를 사용 하는 채팅방에 최적화 된 Skype 모임 환경
 - 모든 참가자가 거주 하는 곳에서 원하는 장치를 사용 하 여 Skype 모임에 연결할 수 있음

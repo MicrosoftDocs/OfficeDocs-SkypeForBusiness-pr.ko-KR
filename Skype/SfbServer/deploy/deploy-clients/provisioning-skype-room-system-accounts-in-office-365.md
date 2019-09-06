@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 이 항목에서는 Office 365에서 Skype 대화방 시스템 계정을 구축 하는 방법에 대해 자세히 알아보세요.
-ms.openlocfilehash: 5df77e9a9e5e3ca67eb831596c12516457a15c45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d247983647641c91376c99bed3a13606027a7e11
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235068"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775392"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Office 365에서 Skype 대화방 시스템 계정 프로 비전
  

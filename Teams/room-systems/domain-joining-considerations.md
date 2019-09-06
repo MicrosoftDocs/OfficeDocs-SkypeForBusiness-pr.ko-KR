@@ -4,19 +4,21 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: 이 항목에서는 Skype 채팅방 시스템 기기 PC를 도메인에 참가 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 02aa02cd0297a9f35db187c3b1b00d6615fbaa39
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: be8fd60b67efb356e09678eef21fbfab425ce304
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243457"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774645"
 ---
+<!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
+
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype 채팅방 시스템 도메인 참가 고려 사항
  
 이 항목에서는 Skype 채팅방 시스템 기기 PC를 도메인에 참가 하는 방법에 대해 알아보세요.
@@ -26,27 +28,17 @@ ms.locfileid: "36243457"
 Skype 채팅방 System 기기 PC를 Active Directory 도메인에 가입 하거나 작업 그룹에 남길 수 있습니다. 이러한 결정을 내리기 전에 다음 사항을 고려 하세요.
   
 - 도메인-Skype 대화방 시스템 기기 PC에 가입 하면 조직의 개인 루트 인증서 체인을 자동으로 가져올 수 있습니다.
-    
 - Domain-Skype 채팅방 System 기기 PC에 가입 하면 도메인 사용자와 그룹의 관리자 권한을 부여할 수 있습니다. 이렇게 하면 로컬 컴퓨터 수준 관리자 계정 암호를 따로 저장할 필요가 없습니다.
-    
 - Skype 채팅방 System 기기 PC를 도메인에 참가 하는 경우, 모든 Skype 룸 시스템 개체가 있는 OU에 대 한 GPO (그룹 정책 개체) 제외를 제공할 수 있도록 별도의 OU (조직 구성 단위)를 만들어야 합니다. 이렇게 하는 경우, Skype 룸 시스템 기기 PC를 도메인에 참가 하기 전에 OU에 기계 개체를 만듭니다.
-    
-- 많은 조직에는 Skype 실 시스템 기기 PC 기능에 영향을 주는 다음과 같은 Gpo가 있습니다. Skype 대화방 시스템 OU에서 Gpo의 상속을 무시 하거나 차단 해야 합니다. 
-    
+- 많은 조직에는 Skype 실 시스템 기기 PC 기능에 영향을 주는 다음과 같은 Gpo가 있습니다. Skype 대화방 시스템 OU에서 Gpo의 상속을 무시 하거나 차단 해야 합니다.
+
   - 로그온 세션 제한 시간 (자동 잠금)
-    
   - 전원 관리 관련 정책
-    
   - 추가 인증 단계 필요
-    
   - 로컬 드라이브에 대 한 액세스 거부
-    
   - 사용자에 게 느린 네트워크 연결을 묻는 메시지 표시
-    
   - 로그온 할 때 특정 프로그램 시작
-    
   - 모든 도메인에 가입 된 컴퓨터에서 다른 도메인 사용자 계정을 만듭니다.
-    
   - Skype 채팅방 시스템에 Windows 업데이트 푸시
     
 - 또는, 기기 PC를 작업 그룹에 그대로 둘 수 있습니다. 데스크톱 Microsoft 팀 또는 비즈니스용 Skype 클라이언트와 마찬가지로,이를 위해서는 Skype 채팅방 시스템 기기 PC에서 루트 인증서 체인을 수동으로 가져와야 합니다. 배포에서 공용 인증서를 사용 하는 경우 (예: Entrust, VeriSign 등)에는 루트 인증서 체인을 가져올 필요가 없습니다. 

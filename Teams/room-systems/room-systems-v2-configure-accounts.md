@@ -5,9 +5,9 @@ author: lanachin
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 이 항목에서는 Exchange 및 비즈니스용 Skype에서 Microsoft 팀 방에 대 한 계정을 구성 하는 방법에 대해 자세히 알아보세요.
-ms.openlocfilehash: 30e887aa09b9013c3db18fb33133d11c639f9fe8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0ba44079e52a644e1d53ae937582a8d209f921da
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243325"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775142"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Microsoft 팀 대화방 계정 구성
  

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 및 Microsoft 팀에서 보스니아 헤르체고비나으로 제공 되는 Office 365 서비스입니다.
-ms.openlocfilehash: f75172efe76a4423872c321484855c8daf04ba9e
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 1d382c02249f39a42f7f61a70c7687367e0cbad4
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36183212"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774483"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>보스니아 &amp; 헤르체고비나의 사용 가능 여부
 
@@ -68,7 +68,7 @@ ms.locfileid: "36183212"
 |**요소**|**세부적인**|
 |:-----|:-----|
 |유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> |해당 없음  <br/> |
-|유료 전화 번호를 사용 하 고 계십니까?  <br/> |아니요  <br/> |
+|유료 전화 번호를 사용 하 고 계십니까?  <br/> |'  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |'  <br/> |
    
  오디오 회의, 자동 전화 교환, 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.

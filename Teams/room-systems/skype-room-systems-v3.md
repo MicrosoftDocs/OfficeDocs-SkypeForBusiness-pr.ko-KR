@@ -2,7 +2,7 @@
 title: Microsoft 팀 대화방 관리 개요
 ms.author: jambirk
 author: jambirk
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -12,14 +12,14 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
 description: Microsoft 팀 대화방 관리 개요.
-ms.openlocfilehash: db1569f86ba0066691b6797517351087307cf38a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 28a48bb4aba417fba076e8c31492e8191e7164c9
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427877"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775098"
 ---
-# <a name="management-overview"></a>관리 개요 
+# <a name="management-overview"></a>관리 개요
 
 Microsoft 팀 대화방 시스템을 사용자가 사용할 수 있도록 하 고 훌륭한 사용자 환경을 제공 하기 위해 지속적인 유지 관리와 작업을 개발 하 고 실행 하는 것이 중요 합니다. 
 
@@ -27,14 +27,12 @@ Microsoft 팀 대화방 시스템을 사용자가 사용할 수 있도록 하 �
 
 Microsoft 팀 대화방 시스템의 모니터링은 다음과 같은 두 가지 주요 활동으로 구성 됩니다.
 
--  장치, 응용 프로그램 및 주변 장치 모니터링
-
--  품질 및 안정성 모니터링 (CQD)
+- 장치, 응용 프로그램 및 주변 장치 모니터링
+- 품질 및 안정성 모니터링 (CQD)
 
 ### <a name="microsoft-teams-rooms-device-application-and-peripheral-device-monitoring"></a>Microsoft 팀 대화방 장치, 응용 프로그램 및 주변 장치 모니터링
 
 사용자가 Microsoft 팀 대화방 단위를 사용할 수 있도록 하려면 단위가 켜져 있고, Microsoft 팀 대화방 응용 프로그램이 올바르게 구성 된 네트워크에 연결 되어 있으며, 제대로 작동 하는 주변 장치에 연결 되어 있어야 합니다. 
-
 
 Microsoft 팀 공간 응용 프로그램 및 연결 된 주변 장치 상태에 대 한 정보는 Microsoft 팀 대화방 응용 프로그램이 Windows 이벤트 로그에 기록 하 고 [로그 항목을 이해](azure-monitor-manage.md#understand-the-log-entries)하는 데 문서화 되어 있습니다. 
 
@@ -43,7 +41,7 @@ Microsoft 팀 공간 응용 프로그램 및 연결 된 주변 장치 상태에 
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |Microsoft 팀 회의실을 부팅할 수 있도록 설정  <br/> |
 |전원 관리-\> AC, 10 분 후 화면 끄기  <br/> 전원 관리-\> AC, 시스템을 절전 모드로 전환 안 함  <br/> |Microsoft 팀 대화방에서 연결 된 디스플레이를 끄고 자동으로 절전 모드 해제 하도록 설정  <br/> |
 |네트 계정/maxpwage: 무제한  <br/> 또는 동등한 방법으로 로컬 계정에서 암호 만료를 비활성화 합니다. 이 작업을 수행 하지 않으면 결국 Skype 계정에 만료 된 비밀 번호에 대 한 로그온 complaining 실패 하 게 됩니다. 이로 인해 컴퓨터의 모든 로컬 계정에 영향을 줄 수 있으므로이를 설정 하지 않으면 상자의 관리 계정도 결국 만료 됩니다.  <br/> |Skype 계정이 항상 로그인 할 수 있도록 합니다.  <br/> |
-   
+
 그룹 정책을 사용 하 여 파일을 전송 하는 방법에 대해서는 [파일 항목 구성을](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)설명 합니다.
   
 ## <a name="remote-management-using-powershell"></a>PowerShell을 사용 하 여 원격 관리

@@ -3,7 +3,7 @@ title: Microsoft 팀 공간 라이선스
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -22,14 +22,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Microsoft 팀 대화방에서 사용할 수 있는 기능에 대해 알아봅니다. '
-ms.openlocfilehash: 8112cdd11f5f5ca192da0780a6a316056e85063b
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: d9908ce78b52e2f1f67040ac51f8ae035d79826c
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "36184076"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775064"
 ---
-# <a name="teams-meeting-room-licensing-update"></a>팀 회의실 라이선스 업데이트 
+# <a name="teams-meeting-room-licensing-update"></a>팀 회의실 라이선스 업데이트
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>공유 통신 디바이스에 대 한 라이선스 솔루션
 
@@ -43,7 +43,7 @@ Microsoft는 microsoft 팀 회의실 및 Microsoft Surface Hub와 같은 회의�
 |오디오 회의|&#x2714; &sup1|
 |Microsoft Intune|&#x2714;|  
 |전세계 가용성 | &#x2714; &sup2|
-|채널 가용성 | EA, EAS, CSP, <br>웹 다이렉트 |
+|채널 가용성 | EA, EAS, CSP, <br/>웹 다이렉트 |
 | | | |
 
 &sup1 가용성 및 포함 된 시간은 지역에 따라 다를 수 있습니다. 서비스 가용성을 확인 하려면 [오디오 회의 및 통화 요금제 국가 및 지역 사용 가능성](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans)을 참조 하세요. 무료 요금, 국내 요금제의 국제 통화 시간 등의 추가 서비스에 대 한 사용량 요금은 적용 될 수 있습니다. 고객이 추가 청구를 방지 하기 위해 이러한 기능을 사용 하지 않도록 설정할 수 있습니다.  

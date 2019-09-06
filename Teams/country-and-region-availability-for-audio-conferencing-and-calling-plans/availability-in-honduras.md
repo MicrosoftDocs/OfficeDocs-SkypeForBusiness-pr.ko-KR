@@ -3,7 +3,7 @@ title: 온두라스의 가용성
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 3662b214-5798-458d-8dcd-0bd563ad01fd
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 및 온두라스 용으로 제공 되는 Microsoft 팀을 위한 Office 365 서비스입니다.
-ms.openlocfilehash: 7bb9d48b9f988b66fdc1d547f6776d70d63bd7a1
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: dac59b3afa79252a9a91b48904935a225c4f55fa
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36183077"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774420"
 ---
 # <a name="availability-in-honduras"></a>온두라스의 가용성
 
@@ -67,9 +67,9 @@ ms.locfileid: "36183077"
 
 |**요소**|**세부적인**|
 |:-----|:-----|
-|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> |해당 없음  <br/> |
-|유료 전화 번호를 사용 하 고 계십니까?  <br/> |아니요  <br/> |
-|무료 번호를 사용할 수 있나요?  <br/> |'  <br/> |
+|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> |Tegucigalpa ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|유료 전화 번호를 사용 하 고 계십니까?  <br/> |예 ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|무료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
    
  오디오 회의, 자동 전화 교환, 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
   

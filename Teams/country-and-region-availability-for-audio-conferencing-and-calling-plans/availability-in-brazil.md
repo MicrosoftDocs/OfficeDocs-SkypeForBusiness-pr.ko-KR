@@ -3,7 +3,7 @@ title: 브라질의 가용성
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 7cd45341-1289-4592-a511-f07556ff9139
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 브라질에서 사용할 수 있는 Microsoft 팀입니다.
-ms.openlocfilehash: 7d9f4509cb81df78ef780fffdb3145e7ec825f3a
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 670b81d973fc47831574a90ec0ab05855cc2685f
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36183200"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774601"
 ---
 # <a name="availability-in-brazil"></a>브라질의 가용성
 
@@ -67,7 +67,7 @@ ms.locfileid: "36183200"
 
 |**요소**|**세부적인**|
 |:-----|:-----|
-|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> | <ul><li>리우데자네이루 de 리우데자네이루 <li>  상투메 상파울로 </ul> |
+|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> | <ul><li>리우데자네이루 de 리우데자네이루 <li>  상투메 상파울로 <li>[요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) 기타 도시</ul> |
 |유료 전화 번호를 사용 하 고 계십니까?  <br/> |'  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |'  <br/> |
    

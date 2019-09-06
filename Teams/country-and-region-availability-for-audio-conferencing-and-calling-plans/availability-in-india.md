@@ -3,7 +3,7 @@ title: 인도의 사용 가능 여부
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: b205d2b2-bb2c-457e-82ba-328742d168b6
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 인도에 사용할 수 있는 Microsoft 팀입니다.
-ms.openlocfilehash: 7a7afac460f8b74a7386293cca75d1f8720a20f6
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: fdb9c6ee9abdb68b605743dbfe77bb594fa68ad0
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36183059"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775425"
 ---
 # <a name="availability-in-india"></a>인도의 사용 가능 여부
 
@@ -43,7 +43,7 @@ ms.locfileid: "36183059"
 |**요소**|**세부적인**|
 |:-----|:-----|
 |음성 회의는 구매할 수 있나요?  <br/> |아니요  <br/> |
-|오디오 회의에 대 한 전화 번호가 자동으로 할당 되나요?  <br/> |예, 다음을 수행 합니다.<br/><ul><li> Mumbai</ul>전용 전화 번호를 원할 경우 [비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.  <br/> |
+|오디오 회의에 대 한 전화 번호가 자동으로 할당 되나요?  <br/> |예, 다음을 수행 합니다.<br/><ul><li> Chennai<li> Mumbai</ul>전용 전화 번호를 원할 경우 [비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.  <br/> |
 |전화 걸기 기능 사용  <br/> |공간이  <br/> |
    
 ## <a name="phone-system"></a>전화 시스템
@@ -67,11 +67,11 @@ ms.locfileid: "36183059"
 
 |**요소**|**세부적인**|
 |:-----|:-----|
-|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> |Mumbai  <br/> |
+|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> |<ul><li>Chennai <li>Mumbai<li>[요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) 기타 도시</ul> |
 |유료 전화 번호를 사용 하 고 계십니까?  <br/> |'  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |'  <br/> |
    
- 오디오 회의, 자동 전화 교환, 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
+ 인도에서 서비스 번호는 오디오 회의에만 사용할 수 있습니다. 오디오 회의를 위한 유료 및 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
   
 ## <a name="communications-credits"></a>통신 제작진
 

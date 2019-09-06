@@ -3,7 +3,7 @@ title: 우루과이의 가용성
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 5ce55c31-59da-4649-9021-ea9e78cfd9ed
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 여기에는 비즈니스용 Skype 용 Office 365 서비스와 우루과이에서 사용할 수 있는 Microsoft 팀이 나와 있습니다.
-ms.openlocfilehash: ddc843f1ac45c629cfa3d20e494124f787726532
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 6e552f46b1cbf6ce8dce55c9da903b0a741eae08
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182756"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775361"
 ---
 # <a name="availability-in-uruguay"></a>우루과이의 가용성
 
@@ -67,8 +67,8 @@ ms.locfileid: "36182756"
 
 |**요소**|**세부적인**|
 |:-----|:-----|
-|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> |해당 없음  <br/> |
-|유료 전화 번호를 사용 하 고 계십니까?  <br/> |아니요  <br/> |
+|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> | Montevideo ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|유료 전화 번호를 사용 하 고 계십니까?  <br/> |예 ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |'  <br/> |
    
  오디오 회의, 자동 전화 교환, 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.

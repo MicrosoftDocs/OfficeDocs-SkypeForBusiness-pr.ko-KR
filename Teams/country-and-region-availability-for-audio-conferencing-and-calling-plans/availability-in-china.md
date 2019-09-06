@@ -3,7 +3,7 @@ title: 중국의 가용성
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 30fde7fa-fb2b-4e73-8217-bdd41bd38567
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 및 중국에서 사용할 수 있는 Microsoft 팀을 위한 Office 365 서비스입니다.
-ms.openlocfilehash: 259118889d9d15be3c1974753c250bfe3b40781b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 394e07327b04634e9edd67f71c77dcc05ac0c226
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36183173"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775458"
 ---
 # <a name="availability-in-china"></a>중국의 가용성
 
@@ -43,7 +43,7 @@ ms.locfileid: "36183173"
 |**요소**|**세부적인**|
 |:-----|:-----|
 |음성 회의는 구매할 수 있나요?  <br/> |아니요  <br/> |
-|오디오 회의에 대 한 전화 번호가 자동으로 할당 되나요?  <br/> |예, 다음을 수행 합니다.<br/><ul><li> 베이징</ul> 전용 전화 번호를 원할 경우 [비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.  <br/> |
+|오디오 회의에 대 한 전화 번호가 자동으로 할당 되나요?  <br/> | 비 지역. 전화 번호가 특정 도시 또는 위치에 연결 되어 있지 않습니다. <br/>  전용 전화 번호를 원할 경우 [비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.  <br/> |
 |전화 걸기 기능 사용  <br/> |공간이  <br/> |
    
 ## <a name="phone-system"></a>전화 시스템
@@ -69,7 +69,7 @@ ms.locfileid: "36183173"
 |:-----|:-----|
 |유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> |베이징  <br/> |
 |유료 전화 번호를 사용 하 고 계십니까?  <br/> |'  <br/> |
-|무료 번호를 사용할 수 있나요?  <br/> |'  <br/> |
+|무료 번호를 사용할 수 있나요?  <br/> |예 ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    
  오디오 회의, 자동 전화 교환, 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
   
