@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b079ebc84dfef1714243f79daed970fb148b7c5a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 32bd7664e8aa8fa8a818b3223e64b09f7982d12f
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237206"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767177"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft 팀에서 팀을 구성 하기 위한 모범 사례
 ======================================================
@@ -30,7 +30,7 @@ ms.locfileid: "36237206"
 
 팀은 공통 목표를 기준으로 함께 모으는 사람들의 모음입니다. 이 사용자 그룹은 부서나 조직 내에 있을 수 있습니다. 이를 함께 제공 하는 것은 그들이 구동 하는 결과입니다. 팀 구성원은 다양 한 속도로 작동 하거나 자산을 다르게 만들 수 있지만, 저희 환경에서는 "고속 팀워크" 이라고 하는 프로세스를 통해 빠르게 공동으로 작업 하 게 됩니다.  
 
-제품에서 팀을 만들기 전에 목표, 프로젝트 또는 작업 항목과 조직의 사용자가 공동으로 제공 하는 데 도움이 될 수 있는 방법을 고려해 야 합니다. 이러한 사용자 또는 그룹을 식별 한 후 팀에 추가 하 여 공동 작업을 시작 합니다. 멤버 자격은 시간이 지남에 따라 변경 될 수 있으므로 각 팀에 대해 여러 소유자를 지정 하는 것이 좋습니다. 자세한 내용은 [팀 관리](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)를 참조 하세요.
+팀을 만들기 전에 목표, 프로젝트 또는 작업 항목과 조직의 사용자를 고려 하 여 공동으로 전달할 수 있도록 합니다. 이러한 사용자 또는 그룹을 식별 한 후 팀에 추가 하 여 공동 작업을 시작 합니다. 멤버 자격은 시간이 지남에 따라 변경 될 수 있으므로 각 팀에 대해 여러 소유자를 지정 하는 것이 좋습니다. 자세한 내용은 [팀 관리](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)를 참조 하세요.
 
 이 짧은 비디오를 통해 조직 간 또는 단일 용도의 팀을 구조화 하는 방법에 대 한 몇 가지 예를 살펴보겠습니다.
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: '요약: 비즈니스용 Skype 서버에서 CDR (통화 정보 기록) 레코드를 사용 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 64a6e7d8d0e633fb3ef4e440932226f1f6f9c11a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 015ac3b57420401894e82c267e9737990ca7affb
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197635"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767060"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 정보 기록 사용
 
@@ -66,7 +66,7 @@ Windows PowerShell 및 **Set-CsCdrConfiguration** cmdlet을 사용 하 여 CDR�
  이 명령은 현재 조직에서 사용 중인 모든 CDR 구성 설정에 대해 CDR를 사용 하도록 설정 합니다.
 
   ```
-  Get-CsCdrConfiguration | Set-CsCdrConfiguration "site:Redmond" -EnableCDR $True
+  Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
 자세한 내용은 [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet에 대 한 도움말 항목을 참조 하세요.

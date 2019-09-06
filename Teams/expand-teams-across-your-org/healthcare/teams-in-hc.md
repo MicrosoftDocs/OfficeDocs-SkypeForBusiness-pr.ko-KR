@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 건강 조직의 팀 시작 하기
-ms.openlocfilehash: d4cebe45d37726dafc4f0e1fbc7c8c13addb9bd5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 380d9c75bc2f7eeb66bc6d0d0f5598d2a243a9da
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232209"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767158"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>건강 조직의 팀 시작 하기
 
@@ -30,7 +30,7 @@ Microsoft 팀은 병원 및 기타 의료 단체에 유용한 다양 한 기능�
 - EHR (전자 건강 보험 기록) 통합 
 - Firstline Worker 시스템 통합 
 
-이는 모임/통화, 메시지와 같은 Microsoft 팀의 기본 기능에 추가 됩니다. 
+이 섹션의 내용은 모임, 통화, 메시지 등 팀의 기본 기능을 기반으로 하며 조직에 이미 배포 된 팀을 배포 했다고 가정 합니다. 아직 팀을 롤아웃하기 않은 경우 먼저 [Microsoft 팀을 배포 하는 방법을](../../How-to-roll-out-teams.md)읽어 보세요.
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>의료 협조-Microsoft 팀 환자 앱
 

@@ -3,7 +3,6 @@ title: Microsoft 365 정부의 GCC 배포 계획-Microsoft 팀
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 506d33ab48ad35397a500ef8f274ef6a332f8cd1
-ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
+ms.openlocfilehash: a167c8a6df85b5d3d861f42ce40f67e845709a77
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393441"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767126"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 정부의 GCC 배포 계획
 
@@ -158,9 +157,9 @@ Office 365의 기능과 기능을 활용할 수 있을 뿐만 아니라, Microso
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>6 단계. 공동 작업을 위해 팀 배포
 
-Microsoft 365 정부-GCC에 onboarded 후에는 [Fasttrack](https://www.microsoft.com/fasttrack) 을 사용 하는 표준 배포 방법과 선택한 파트너를 통해 서비스에 대 한 온보드를 수행할 수 있습니다.
+Microsoft 365 정부-GCC에 onboarded 한 후에 Microsoft 팀을 배포 하 [는 방법](How-to-roll-out-teams.md)에 대해 설명 하는 권장 구축 경로를 따르세요. 채택 및 변경 관리 팀과 팀이 챔피언을 사용 하 여 참여 해야 합니다.
 
-준비가 되 면 팀을 배포 하 여 [팀과 채널을 통해 조직 내에서 공동 작업을 사용 하도록 설정](teams-overview.md)합니다. 채택을 선택 하 고 변경 관리 팀 또는 팀과 함께 챔피언 해야 합니다.
+[Fasttrack](https://www.microsoft.com/fasttrack) 또는 선택한 파트너를 통해 서비스를 온보드 할 수도 있습니다.
 
 ## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>7 단계. 모임 및 음성 용 팀 배포
 

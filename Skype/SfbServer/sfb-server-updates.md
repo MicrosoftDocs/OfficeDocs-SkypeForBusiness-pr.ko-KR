@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 업데이트
-author: lanachin
-ms.author: v-lanac
+author: ariantor
+ms.author: arianr
 manager: serdars
 audience: ITPro
 ms.reviewer: arianr
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 한 곳에서 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대 한 업데이트를 찾아 관리 합니다. 업데이트에 대 한 자세한 정보를 확인 하 고 업데이트를 다운로드 하려면이 페이지의 링크를 사용 하세요.
-ms.openlocfilehash: d0349434785b7acf79cba7bb577cb5ba0b43482a
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 860b71070fea50072ebd8db2f1eded204396261d
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715888"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767174"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
@@ -37,10 +37,10 @@ ms.locfileid: "36715888"
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
-|비즈니스용 Skype 서버 2015 누적 업데이트 10 핫픽스 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 년 9 월 |
+|비즈니스용 Skype 서버 2015 누적 업데이트 10 핫픽스 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 년 9 월 |
 |비즈니스용 Skype Server 2015, 웹 구성 요소 서버에 대 한 누적 업데이트 9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 년 5 월 |
 |비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019 년 1 월|
-|비즈니스용 Skype Server 2015, 프론트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 7 |[KB 4340904](https://support.microsoft.com/kb/3134260) |2018 년 7 월 |
+|비즈니스용 Skype Server 2015, 프론트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018 년 7 월 |
 |Microsoft 비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버의 누적 업데이트 6 핫픽스 2 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018 년 3 월 |
 |비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버의 누적 업데이트 6 핫픽스 1 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018 년 1 월 |
 |비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 6|[KB 4036312](https://support.microsoft.com/kb/4036312) |2017 년 12 월 |

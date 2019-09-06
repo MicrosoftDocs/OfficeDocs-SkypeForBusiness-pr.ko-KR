@@ -7,22 +7,22 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
-ms.date: 03/29/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dba49502056149b7dda3d4533f8186f074fd804
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: baa5e58ab8614db2d5e5c80a01dc594c31308c31
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232242"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767169"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>조직에서 Microsoft 팀 확장
 
-<br>
+이러한 리소스는 표준 팀 배포 지침에 따라 구성 되며 특정 조직 유형에 대 한 팀을 최대한 활용 하도록 설계 되었습니다. 팀을 아직 배포 하지 않은 경우 [Microsoft 팀을 롤 포워드 하는 방법](../How-to-roll-out-teams.md)에 대 한 팀의 권장 경로를 참조 하세요.
+
 <ul class="panelContent cardsFTitle">
  <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page">

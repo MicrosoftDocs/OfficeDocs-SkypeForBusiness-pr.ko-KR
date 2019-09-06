@@ -20,16 +20,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 사용자가 조직에서 예약한 팀 모임에 대 한 설정을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5f45e8498a63397154b98d0dd2ac1469080fe5f6
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 1e5b3fd1c76f4ff925b23b838e2719ec93077f14
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483304"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767197"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft 팀에서 모임 설정 관리
 
-관리자는 팀 모임 설정을 사용 하 여 익명 사용자가 팀 모임에 참가 하 고, 모임 초대를 사용자 지정 하 고, 서비스 품질 (QoS)을 사용할 수 있는지 여부를 제어 하 고, 실시간 트래픽에 대 한 포트 범위를 설정 합니다. 이러한 설정은 사용자가 조직에서 예약 하는 모든 팀 모임에 적용 됩니다. Microsoft 팀 관리 센터의 **** > 모임**모임 설정** 에서 이러한 설정을 관리할 수 있습니다.
+관리자는 팀 모임 설정을 사용 하 여 익명 사용자가 팀 모임에 참가 하 고, 모임 초대를 사용자 지정 하 고, 서비스 품질 (QoS)을 사용할 수 있는지 여부를 제어 하 고, 실시간 트래픽에 대 한 포트 범위를 설정 합니다. 이러한 설정은 사용자가 조직에서 예약 하는 모든 팀 모임에 적용 됩니다. Microsoft 팀 관리 센터의 **모임** > **모임 설정** 에서 이러한 설정을 관리할 수 있습니다.
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>익명 사용자가 모임에 참가할 수 있도록 허용
 
@@ -88,6 +88,8 @@ ms.locfileid: "36483304"
     ![관리 센터의 모임에 대 한 네트워크 설정 스크린샷] (media/meeting-settings-network.png "Microsoft 팀 관리 센터의 팀 모임에 대 한 네트워크 설정 스크린샷")
 
     - QoS에 DSCP 표시를 사용 하는 것을 허용 하려면 **실시간 미디어 트래픽에 qos (서비스 품질) 마커를 삽입**하도록 설정 합니다. 마커를 사용 하는 옵션만 사용할 수 있습니다. 각 트래픽 유형에 대해 사용자 지정 표식을 설정할 수 없습니다. DSCP 마커에 대 한 자세한 내용은 [QoS 구현 방법 선택을](QoS-in-Teams.md#select-a-qos-implementation-method) 참조 하세요.
+    > [!NOTE] 
+    > **실시간 미디어 트래픽에 대 한 QoS (서비스 품질) 마커** 를 설정 하면 UDP 포트 3479 (오디오), 3480 (비디오) 및 3481 (공유)로 전송 릴레이와 통신할 수 있습니다.
     - 포트 범위를 지정 하려면 **각 실시간 미디어 트래픽 형식에 대 한 포트 범위 선택**옆의 **포트 범위 지정**을 선택한 다음 오디오, 비디오 및 화면 공유를 위한 시작 및 종료 포트를 입력 합니다. QoS를 구현 하려면이 옵션을 선택 해야 합니다.
     > [!IMPORTANT]
     > **사용 가능한 포트를 자동으로 사용**을 선택 하는 경우 1024 및 65535 사이의 사용 가능한 포트를 사용 합니다. QoS를 구현 하지 않는 경우에만이 옵션을 사용 합니다.

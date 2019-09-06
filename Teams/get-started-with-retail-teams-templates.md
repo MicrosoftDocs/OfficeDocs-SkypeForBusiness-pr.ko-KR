@@ -3,7 +3,6 @@ title: 정품에서 팀 서식 파일 시작
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/11/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1ef5647ba20b3fd9d3d4378182ea2e8b39b1487b
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36181643"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767104"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>정품에서 팀 서식 파일 시작 
 
@@ -33,7 +32,7 @@ ms.locfileid: "36181643"
 
 이 문서에서는 각 팀 서식 파일과이를 사용 하는 방법을 소개 합니다.
 
-본 문서는 소매점에서 여러 팀을 계획, 배포 및 관리 해야 하는 경우에 적합 합니다.
+본 문서는 소매점에서 여러 팀을 계획, 배포 및 관리 해야 하는 경우에 적합 합니다. 조직에 이미 팀 서비스를 배포 했다고 가정 합니다. 아직 팀을 롤아웃하기 않은 경우 먼저 [Microsoft 팀을 배포 하는 방법을](How-to-roll-out-teams.md)읽어 보세요.
 
 일반적으로 팀 서식 파일에 대 한 자세한 내용은 [팀 서식 파일 시작](get-started-with-teams-templates.md)을 참조 하세요.
 
@@ -63,4 +62,4 @@ ms.locfileid: "36181643"
 
 조직의 관리자 공동 작업 서식 파일을 사용자 지정 하는 권장 방법:
 
-- 조직에 관리자와 관련 된 내부 웹 사이트 (예: SharePoint 사이트)가 있는 경우 관련 팀 채널에서 탭으로 고정 하는 것이 좋습니다 (지침에 대 한 [](get-started-with-teams-templates.md) 설명서 참조).
+- 조직에 관리자와 관련 된 내부 웹 사이트 (예: SharePoint 사이트)가 있는 경우 관련 팀 채널에서 탭으로 고정 하는 것이 좋습니다 (지침 [에 대 한](get-started-with-teams-templates.md) 설명서 참조).

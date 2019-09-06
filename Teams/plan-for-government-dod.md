@@ -3,7 +3,6 @@ title: Microsoft 365 정부 기관-DoD 배포에 대 한 계획-Microsoft 팀
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 247f0209c66a5d6ea1e39e938498eb0f75f9fdab
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 210712e29fb64f587f2d1f2c9281e6383da11da1
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237709"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767186"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Microsoft 365 정부 기관-DoD 배포 계획
 
@@ -153,6 +152,6 @@ Microsoft 365 정부 기관-DoD 환경은 클라우드 서비스에 대 한 미�
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>6 단계. 공동 작업을 위해 팀 배포
 
-Microsoft 365 정부 – DoD를 onboarded 후에는 [Fasttrack](https://www.microsoft.com/fasttrack) 및 선택한 파트너를 사용 하 여 서비스를 온보드 하는 표준 배포 방법을 따를 수 있습니다.
+Microsoft 365 정부 \ e e e – e e onboarded 된 후에는 Microsoft 팀을 배포 하 [는 방법](How-to-roll-out-teams.md)에 대해 설명 하는 권장 되는 배포 경로를 따르세요. 채택 및 변경 관리 팀과 팀이 챔피언을 사용 하 여 참여 해야 합니다.
 
-준비가 되 면 팀을 배포 하 여 [팀과 채널을 통해 조직 내에서 공동 작업을 사용 하도록 설정](teams-overview.md)합니다. 채택을 선택 하 고 변경 관리 팀 또는 팀과 함께 챔피언 해야 합니다.
+[Fasttrack](https://www.microsoft.com/fasttrack) 또는 선택한 파트너를 통해 서비스를 온보드 할 수도 있습니다.

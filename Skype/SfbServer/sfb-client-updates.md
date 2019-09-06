@@ -1,7 +1,7 @@
 ---
 title: Windows Installer (MSI)를 사용 하는 비즈니스용 Skype 버전에 대 한 최신 업데이트
-ms.author: v-lanac
-author: lanachin
+ms.author: phillipg
+author: PhillipGarding
 manager: serdars
 ms.reviewer: qingy
 audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 정품 버전의 비즈니스용 Skype 2016, 비즈니스용 Skype 2015, Lync 2013 클라이언트에 대 한 최신 업데이트 정보에 대 한 링크를 IT 전문가에 게 제공 합니다.
-ms.openlocfilehash: 6ee633bf9aa35d79c6db83371a47a948da6e6bd3
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: d92c9a289742c54c766d22f4322e755699b478c3
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36197832"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767207"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows Installer (MSI)를 사용 하는 비즈니스용 Skype 버전에 대 한 최신 업데이트
 
