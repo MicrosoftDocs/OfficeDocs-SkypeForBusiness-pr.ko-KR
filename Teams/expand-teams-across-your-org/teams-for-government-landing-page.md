@@ -7,22 +7,21 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
-ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 461e3113be6965044d2f60c0a6a59b658a191626
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
+ms.openlocfilehash: 432c9db8e99375ff373755c172bdfa37e4dd65c1
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286215"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767071"
 ---
 # <a name="teams-for-government"></a>정부용 팀
 
-Microsoft 365 정부 환경에서 팀을 계획 하 고 배포 하려면 다음 리소스를 사용 합니다.
+Microsoft 365 정부 환경에서 팀을 배포 하기 위한 특정 고려 사항에 대해 알아보려면 다음 리소스를 사용 합니다. 준비가 되 면 Microsoft 팀을 배포 하 [는 방법](../How-to-roll-out-teams.md)에 대해 설명 하는 것과 동일한 방법으로 팀에 대해 권장 되는 배포 경로를 따릅니다.
 
 <ul class="panelContent cardsFTitle">
     <li>
