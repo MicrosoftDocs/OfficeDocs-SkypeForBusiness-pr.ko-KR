@@ -4,42 +4,42 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: 이 항목에서는 다중 포리스트 온-프레미스 환경에서 Skype 대화방 시스템을 배포 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7de5d285f36ddd1060ba53aa3e142a09a5d421e7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eb5aa2cbe3bef26602279ffa9d4a5dc38a7e7bc2
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234201"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775043"
 ---
-# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a><span data-ttu-id="238b9-103">Skype 대화방 시스템 다중 포리스트 온-프레미스 배포</span><span class="sxs-lookup"><span data-stu-id="238b9-103">Skype Room System multiple forest on-premises deployments</span></span>
+# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a><span data-ttu-id="f7173-103">Skype 대화방 시스템 다중 포리스트 온-프레미스 배포</span><span class="sxs-lookup"><span data-stu-id="f7173-103">Skype Room System multiple forest on-premises deployments</span></span>
  
-<span data-ttu-id="238b9-104">이 항목에서는 다중 포리스트 온-프레미스 환경에서 Skype 대화방 시스템을 배포 하는 방법에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="238b9-104">Read this topic to learn how to deploy Skype Room System in a multiple forest on-premises environment.</span></span>
+<span data-ttu-id="f7173-104">이 항목에서는 다중 포리스트 온-프레미스 환경에서 Skype 대화방 시스템을 배포 하는 방법에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="f7173-104">Read this topic to learn how to deploy Skype Room System in a multiple forest on-premises environment.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="238b9-105">여러 포리스트에 배포 하기 위해 Skype 채팅방 시스템에는 2014 년 8 월 26 일에 릴리스된 Exchange Server 2013 CU6이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="238b9-105">In order to deploy in multiple forests, Skype Room System requires Exchange Server 2013 CU6 released on August 26, 2014.</span></span> <span data-ttu-id="238b9-106">Skype 채팅방 시스템용 기존 사서함을 다시 사용 하지 마세요.</span><span class="sxs-lookup"><span data-stu-id="238b9-106">Avoid re-using an existing mailbox for Skype Room System.</span></span> <span data-ttu-id="238b9-107">Skype 대화방 시스템용 새 (이전 사서함 삭제 및 다시 만들기) 리소스 사서함을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="238b9-107">Use a new (delete old mailbox and re-create) resource mailbox for Skype Room System.</span></span> <span data-ttu-id="238b9-108">사서함을 삭제 하 여 손실 된 모임을 복원 하려면 [삭제 된 사서함 연결 또는 복원을](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="238b9-108">To restore the meetings lost by deleting the mailbox, see [Connect or restore a deleted mailbox](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx).</span></span> 
+> <span data-ttu-id="f7173-105">여러 포리스트에 배포 하기 위해 Skype 채팅방 시스템에는 2014 년 8 월 26 일에 릴리스된 Exchange Server 2013 CU6이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7173-105">In order to deploy in multiple forests, Skype Room System requires Exchange Server 2013 CU6 released on August 26, 2014.</span></span> <span data-ttu-id="f7173-106">Skype 채팅방 시스템용 기존 사서함을 다시 사용 하지 마세요.</span><span class="sxs-lookup"><span data-stu-id="f7173-106">Avoid re-using an existing mailbox for Skype Room System.</span></span> <span data-ttu-id="f7173-107">Skype 대화방 시스템용 새 (이전 사서함 삭제 및 다시 만들기) 리소스 사서함을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7173-107">Use a new (delete old mailbox and re-create) resource mailbox for Skype Room System.</span></span> <span data-ttu-id="f7173-108">사서함을 삭제 하 여 손실 된 모임을 복원 하려면 [삭제 된 사서함 연결 또는 복원을](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f7173-108">To restore the meetings lost by deleting the mailbox, see [Connect or restore a deleted mailbox](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx).</span></span> 
   
-<span data-ttu-id="238b9-109">사서함을 만든 후에는 설정-CalendarProcessing을 사용 하 여 사서함을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="238b9-109">After creating the mailbox, you can use Set-CalendarProcessing to configure the mailbox.</span></span> <span data-ttu-id="238b9-110">자세한 내용은 단일 포리스트 온-프레미스 배포에서 3 ~ 6 단계를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="238b9-110">Refer to steps 3 through 6 under Single forest on-premises deployments for more details.</span></span> <span data-ttu-id="238b9-111">Skype 채팅방 시스템에 대 한 Exchange 리소스 사서함을 만든 후 비즈니스용 skype의 skype 대화방 시스템 계정 활성화의 단계에 따라 단일 포리스트 온-프레미스 배포 아래에서 비즈니스용 Skype에 대 한 계정을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="238b9-111">After creating an Exchange Resource mailbox for Skype Room System, enable the account for Skype for Business by following the steps in Enabling Skype Room System Accounts for Skype for Business under Single forest on-premises deployments.</span></span>
+<span data-ttu-id="f7173-109">사서함을 만든 후에는 설정-CalendarProcessing을 사용 하 여 사서함을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7173-109">After creating the mailbox, you can use Set-CalendarProcessing to configure the mailbox.</span></span> <span data-ttu-id="f7173-110">자세한 내용은 단일 포리스트 온-프레미스 배포에서 3 ~ 6 단계를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f7173-110">Refer to steps 3 through 6 under Single forest on-premises deployments for more details.</span></span> <span data-ttu-id="f7173-111">Skype 채팅방 시스템에 대 한 Exchange 리소스 사서함을 만든 후 비즈니스용 skype의 skype 대화방 시스템 계정 활성화의 단계에 따라 단일 포리스트 온-프레미스 배포 아래에서 비즈니스용 Skype에 대 한 계정을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7173-111">After creating an Exchange Resource mailbox for Skype Room System, enable the account for Skype for Business by following the steps in Enabling Skype Room System Accounts for Skype for Business under Single forest on-premises deployments.</span></span>
   
-## <a name="option-1-create-a-new-resource-mailbox"></a><span data-ttu-id="238b9-112">옵션 1: 새 리소스 사서함 만들기</span><span class="sxs-lookup"><span data-stu-id="238b9-112">Option 1: Create a new resource mailbox</span></span>
+## <a name="option-1-create-a-new-resource-mailbox"></a><span data-ttu-id="f7173-112">옵션 1: 새 리소스 사서함 만들기</span><span class="sxs-lookup"><span data-stu-id="f7173-112">Option 1: Create a new resource mailbox</span></span>
 
-<span data-ttu-id="238b9-113">다중 포리스트 환경에서 Skype 실 시스템을 배포 하려면 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="238b9-113">To deploy Skype Room System in a multi-forest environment:</span></span>
+<span data-ttu-id="f7173-113">다중 포리스트 환경에서 Skype 실 시스템을 배포 하려면 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7173-113">To deploy Skype Room System in a multi-forest environment:</span></span>
   
-1. <span data-ttu-id="238b9-114">Active Directory (인증 포리스트)에서 연결 된 사용자 (LinkedRoomTest)를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="238b9-114">Create a Linked User (LinkedRoomTest) in Active Directory (Authentication Forest).</span></span>
+1. <span data-ttu-id="f7173-114">Active Directory (인증 포리스트)에서 연결 된 사용자 (LinkedRoomTest)를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="f7173-114">Create a Linked User (LinkedRoomTest) in Active Directory (Authentication Forest).</span></span>
     
-2. <span data-ttu-id="238b9-115">Exchange Server Management Shell에서 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="238b9-115">Run the following commands in the Exchange Server Management Shell:</span></span>
+2. <span data-ttu-id="f7173-115">Exchange Server Management Shell에서 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7173-115">Run the following commands in the Exchange Server Management Shell:</span></span>
     
    ```
    $cred = Get-Credential AuthForest\LinkedRoomTest
    new-mailbox -Alias LinkedRoomTest -LinkedMasterAccount AuthForest\LinkedRoomTest -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -UserPrincipalName LinkedRoomTest@ExchangeForest.contoso.comm -Name LinkedRoomTest -LinkedCredential $cred -LinkedRoom
    ```
 
-## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a><span data-ttu-id="238b9-116">옵션 2: 기존 회의실 사서함을 Skype 대화방 시스템 (연결) 리소스 사서함으로 변경</span><span class="sxs-lookup"><span data-stu-id="238b9-116">Option 2: Change an existing room mailbox to Skype Room System (linked) resource mailbox</span></span>
+## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a><span data-ttu-id="f7173-116">옵션 2: 기존 회의실 사서함을 Skype 대화방 시스템 (연결) 리소스 사서함으로 변경</span><span class="sxs-lookup"><span data-stu-id="f7173-116">Option 2: Change an existing room mailbox to Skype Room System (linked) resource mailbox</span></span>
 
 ```
 $cred=Get-Credential AuthForest\LinkedRoomTest1
