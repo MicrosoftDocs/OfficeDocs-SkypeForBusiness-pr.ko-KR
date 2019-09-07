@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에 대 한 리소스 계정을 설정 합니다.
-ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 72c56d8534eeacf9b3430e4439c2f40ab1f51f6d
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253957"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790864"
 ---
 # <a name="configure-resource-accounts"></a>자원 계정 구성
 
@@ -61,7 +61,7 @@ ms.locfileid: "36253957"
    미국 이외의 지역에 거주 하는 경우에는 Microsoft 팀 관리 센터를 사용 하 여 서비스 번호를 얻을 수 없습니다. 미국 이외의 지역에서이를 수행 하는 방법을 확인 하려면 [조직의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) 로 이동 하세요.
 
 2. 전화 시스템 라이선스를 구입 합니다. 보기  
-   - [전화 시스템-가상 사용자 라이선스](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md)
+   - [전화 시스템-가상 사용자 라이선스](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
    - [Office 365 Enterprise E1 및 E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
    - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Office 365 Enterprise E5 비즈니스 소프트웨어](https://products.office.com/business/office-365-enterprise-e5-business-software)
@@ -103,7 +103,7 @@ ms.locfileid: "36253957"
 
 최상위 자동 전화 교환 또는 통화 대기열에 할당 되는 경우, 리소스 계정에는 지정 된 전화번호가 필요 합니다. 사용자 (구독자) 전화 번호를 리소스 계정에 할당할 수 없는 경우에는 서비스 수신자 또는 무료 전화 번호만 사용할 수 있습니다.
 
-  직접 라우팅 하이브리드 번호를 리소스 계정에 할당할 수 있습니다.  자세한 내용은 [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan.md) 을 참조 하세요.
+  직접 라우팅 하이브리드 번호를 리소스 계정에 할당할 수 있습니다.  자세한 내용은 [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) 을 참조 하세요.
 
   > [!NOTE]
   > 자동 전화 교환 및 통화 대기열에 대 한 리소스 계정에 할당 된 직접 라우팅 서비스 번호는 Microsoft 팀 사용자 및 에이전트만 사용할 수 있습니다.
@@ -115,7 +115,7 @@ ms.locfileid: "36253957"
 
 8. 이전에 선택한 전화 시스템 자동 전화 교환 또는 통화 대기열과 리소스 계정을 연결 합니다.
 
-소규모 비즈니스 구현의 예는 Small business에서 사용할 수 있습니다. [예-자동 전화 교환](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) 및 [small business 설정 예-통화 대기열 설정](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml)
+소규모 비즈니스 구현의 예는 Small business에서 사용할 수 있습니다. [예-자동 전화 교환](/microsoftteams/tutorial-org-aa) 및 [small business 설정 예-통화 대기열 설정](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq)
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>전화 번호 없이 자원 계정 만들기
 
@@ -146,11 +146,14 @@ ms.locfileid: "36253957"
    - [클라우드 통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. 이전에 선택한 리소스 계정과 전화 시스템 자동 전화 교환 또는 통화 대기열을 연결 합니다.
 
-소규모 비즈니스 구현의 예는 Small business에서 사용할 수 있습니다. [예-자동 전화 교환](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) 및 [small business 설정 예-통화 대기열 설정](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml)
+소규모 비즈니스 구현의 예는 Small business에서 사용할 수 있습니다. [예-자동 전화 교환](/microsoftteams/tutorial-org-aa) 및 [small business 설정 예-통화 대기열 설정](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq)
 
 ## <a name="test-the-implementation"></a>구현 테스트
 
-구현을 테스트 하는 가장 좋은 방법은 전화 시스템 자동 전화 교환 또는 통화 대기열에 대해 구성 된 번호를 호출 하 고 에이전트 또는 메뉴 중 하나에 연결 하는 것입니다. 관리 센터 작업 창의 **테스트 단추** 를 사용 하 여 테스트 호출을 빠르게 수행할 수도 있습니다. 전화 시스템 자동 전화 교환 또는 통화 대기열을 변경 하려는 경우이를 선택 하 고 작업 창에서 **편집**을 클릭 합니다.
+구현을 테스트 하는 가장 좋은 방법은 전화 시스템 자동 전화 교환 또는 통화 대기열에 대해 구성 된 번호를 호출 하 고 에이전트 또는 메뉴 중 하나에 연결 하는 것입니다. 관리 센터 작업 창의 **테스트 단추** 를 사용 하 여 테스트 호출을 빠르게 수행할 수도 있습니다. 전화 시스템 자동 전화 교환 또는 통화 대기열을 변경 하려는 경우이를 선택 하 고 작업 창에서 **편집**을 클릭 합니다. 
+
+> [!TIP]
+> 리소스 계정에서 통화 큐 또는 자동 전화 교환에 할당 하는 데 문제가 있는 경우 microsoft 팀 [의 알려진 문제점](/MicrosoftTeams/Known-issues#phone-system) 및 Microsoft 팀 블로그에서 [내 하이브리드 응용 프로그램 인스턴스를 해결 하는 방법](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521) 섹션을 참조 하세요.
 
 ## <a name="moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system"></a>Exchange UM 자동 전화 교환 또는 통화 대기열을 전화 시스템으로 이동
 
@@ -180,7 +183,7 @@ Exchange UM에서 전화 시스템으로 마이그레이션한 후에는 통화 
 
 4. 앞에서 설명한 대로 끝점을 사용 하는 전화 시스템 자동 전화 교환 또는 통화 대기열을 구성 합니다.
 
-   Small business 이라는 자습서의 연습을 사용 하는 것이 유용할 수 있습니다. 기존 Exchange UM 시스템의 계층 구조에 대 한 논리적 지도를 만들기 위해 [자동 전화 교환 설정](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) 하기를 예로 나와 있습니다.
+   Small business 이라는 자습서의 연습을 사용 하는 것이 유용할 수 있습니다. 기존 Exchange UM 시스템의 계층 구조에 대 한 논리적 지도를 만들기 위해 [자동 전화 교환 설정](/microsoftteams/tutorial-org-aa) 하기를 예로 나와 있습니다.
 5. 전화 시스템 자동 전화 교환 또는 통화 대기열을 테스트 합니다.
 6. Exchange UM 통화 대기열 또는 자동 전화 교환에 연결 된 전화 번호를 해당 전화 시스템 자동 전화 교환 또는 통화 대기열에 다시 할당 합니다.  
 

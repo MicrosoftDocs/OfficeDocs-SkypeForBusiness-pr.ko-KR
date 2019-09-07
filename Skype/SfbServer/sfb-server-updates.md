@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 한 곳에서 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대 한 업데이트를 찾아 관리 합니다. 업데이트에 대 한 자세한 정보를 확인 하 고 업데이트를 다운로드 하려면이 페이지의 링크를 사용 하세요.
-ms.openlocfilehash: 860b71070fea50072ebd8db2f1eded204396261d
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 25869f25f02c51d952d7eba1c162852d3868d71d
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767174"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790903"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
@@ -30,6 +30,16 @@ ms.locfileid: "36767174"
 |:--- |:--- |:--- |
 |비즈니스용 Skype 서버 2019 누적 업데이트 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 년 7 월 |
 | | | |
+
+### <a name="skype-for-business-server-2019-tools"></a>비즈니스용 Skype 서버 2019 도구
+
+|패키지 이름/링크|릴리스 날짜|
+|:--- |:--- |
+|[A 6.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  2019 년 6 월       |
+|[통합 커뮤니케이션 관리 API 5.0 런타임](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | 2018 년 6 월        |
+|[비즈니스용 Skype 서버 2019, 관리 팩](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | 2018 년 6 월        |
+|||
+
 
 ## <a name="skype-for-business-server-2015-update-history"></a>비즈니스용 Skype 서버 2015 업데이트 기록
 
@@ -54,7 +64,14 @@ ms.locfileid: "36767174"
 |비즈니스용 Skype 서버 2015, 프런트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트|[KB 3061059](https://support.microsoft.com/kb/3061059) |2015 년 6 월 |
 ||||
 
-* * *
+### <a name="skype-for-business-server-2015-tools"></a>비즈니스용 Skype 서버 2015 도구
+
+|패키지 이름/링크|릴리스 날짜|
+|:--- |:--- |
+|[A 5.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  2015 년 5 월       |
+|[통합 커뮤니케이션 관리 API 5.0 런타임](https://www.microsoft.com/en-us/download/details.aspx?id=47344)     |   2015 년 5 월      |
+|[비즈니스용 Skype 서버 2015, 관리 팩](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  2019 년 6 월       |
+|||
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 업데이트 기록
 

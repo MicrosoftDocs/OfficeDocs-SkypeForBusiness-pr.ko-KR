@@ -18,12 +18,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 앱 설정 정책에 대해 알아보고, 앱을 고정 하는 데 사용 하 여 조직의 사용자를 위한 팀을 사용자 지정 하는 방법에 대해 알아봅니다.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 492083de2414d93d5fe6d051374f3525311f8740
-ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
+ms.openlocfilehash: 95d96e3bebdcbe7acfde1bc84da7d7216090e5b3
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "36185321"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790912"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 설치 정책 관리
 
@@ -137,6 +137,8 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 #### <a name="how-many-apps-can-be-added-to-a-policy"></a>정책에 추가할 수 있는 앱은 몇 개입니까?
 
 최소 두 개의 앱을 팀 모바일 클라이언트 (iOS 및 Android)에 고정 해야 합니다. 정책에 두 개 미만의 앱이 있는 경우 모바일 클라이언트에는 정책 설정이 반영 되지 않으며 대신 기존 구성을 계속 사용할 수 있습니다.
+
+정책에 추가할 수 있는 앱 수에는 제한이 없습니다.
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>정책 변경 내용이 적용 되는 데 걸리는 시간
 
