@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '요약: PowerShell을 사용 하 여 SEFAUtil 기능을 가져오는 방법에 대 한 자세한 내용은 누적 업데이트 1을 설치한 후 비즈니스용 Skype 서버 2019을 확인 하세요.'
-ms.openlocfilehash: 6e0f7fc8e4bbb25564faa8107dec81ae3887b360
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 6652e3b76a31ac4b315c70498ac2b01d4467b70e
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464554"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838101"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019에서 PowerShell을 통해 SEFAUtil 기능 사용
 
@@ -30,25 +30,25 @@ SEFAUtil (보조 확장 기능 활성화) 비즈니스용 skype server 관리자
 
 관리자는 PowerShell에서 다음 cmdlet을 사용 하 여 착신 전환 설정을 변경할 수 있습니다.
 
-- `Get-CsUserForwardingSettings -Identity <UserIdParameter>`
+- `Get-CsUserCallForwardingSettings -Identity <UserIdParameter>`
 
 이 cmdlet은 지정 된 사용자의 착신 전환 설정을 개체로 반환 하 고 화면에 동일 하 게 표시 합니다.
 
-- `Set-CsUserForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
+- `Set-CsUserCallForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
 
 이 cmdlet은 지정 된 사용자의 착신 전환 설정을 수정 합니다. 이 cmdlet은 지정 된 사용자의 착신 전환 설정을 개체로 반환 하 고 성공의 경우 화면에 동일 하 게 표시 합니다. 오류가 발생 하는 경우 적절 한 오류 메시지가 표시 됩니다.
 
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
 이 cmdlet은 사용자의 착신 전환 설정을 사용 하지 않도록 설정 합니다 (여기에는 두 개의 다른 매개 변수 예가 표시 됩니다.).
 
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
 이 cmdlet은 사용자의 착신 전환 설정을 수정 합니다.
 
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
 이 cmdlet은 두 개의 매개 변수 예를 사용 하 여 (예를 들어, 보이스 메일에 대 한 응답을 받지 않고, 두 번째는 다른 SimulRing 응답 하지 않음).
 

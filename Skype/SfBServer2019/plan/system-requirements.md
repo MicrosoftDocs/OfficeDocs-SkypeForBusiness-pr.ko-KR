@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 요약:이 항목을 사용 하 여 비즈니스용 Skype 서버 2019 서버 및 도메인 인프라를 준비 합니다. 서버 팜을 성공적으로 설치 및 배포 하는 데 도움이 되도록 하드웨어, OS, 데이터베이스, 소프트웨어, 모든 시스템 요구 사항, Active Directory 정보 등이 여기에 포함 됩니다.
-ms.openlocfilehash: f54b6647a57cf61cb1ad85ad55985243129242f7
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: e14da71795989356f24d7dc6ae72f94a649011e5
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464649"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838120"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019에 대 한 시스템 요구 사항
  
@@ -112,7 +112,7 @@ Edge 서버, 독립형 중재 서버, 디렉터에 권장 되는 하드웨어:
 |**소프트웨어/역할**|**세부적인**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |모든 비즈니스용 Skype 서버 서버에는 Windows PowerShell 3.0가 설치 되어 있어야 합니다.  <br/> • 기본적으로 Windows Server 2016에 설치 되어 있어야 합니다.<br/> |
-|Microsoft .NET Framework  <br/> |WCF 서비스는 Windows 기능으로 설치 된 **기능** 으로, **서버 관리자**에는 처음에 다운로드가 필요 하지 않습니다. <br/> •이 기능을 설치 하거나, 이미 설치 되어 있고, 검사 하는 경우에는 다음과 같이 **HTTP 활성화** 옵션도 선택 되어 설치 되어 있는지 확인 해야 합니다. <br/> ![.NET Framework 4.5 기능 아래에서 HTTP 활성화 옵션을 보여 주는 스크린샷](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> HTTP 정품 인증을 설치 하기 위해 다른 항목을 설치 해야 하는 추가 팝업이 표시 되는 경우 걱정 하지 마세요. 그 게 평소입니다. 확인을 클릭 하 고 계속 진행 합니다. 이 팝업이 표시 되지 않는 경우 해당 항목이 이미 설치 되어 있는 것으로 간주할 수 있습니다.  <br/> Microsoft .NET Framework는 일반적으로 Windows Server 2016이 설치 되어 있는 경우에 설치 됩니다. 비즈니스용 Skype 서버에는 Microsoft .NET Framework 4.7이 필요 하므로 업데이트 해야 합니다. [여기](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) 에서 업데이트를 찾을 수 있습니다.<br/> |
+|Microsoft .NET Framework  <br/> |WCF 서비스는 Windows 기능으로 설치 된 **기능** 으로, **서버 관리자**에는 처음에 다운로드가 필요 하지 않습니다. <br/> •이 기능을 설치 하거나, 이미 설치 되어 있고, 검사 하는 경우에는 다음과 같이 **HTTP 활성화** 옵션도 선택 되어 설치 되어 있는지 확인 해야 합니다. <br/> ![.NET Framework 4.5 기능 아래에서 HTTP 활성화 옵션을 보여 주는 스크린샷](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> HTTP 정품 인증을 설치 하기 위해 다른 항목을 설치 해야 하는 추가 팝업이 표시 되는 경우 걱정 하지 마세요. 그 게 평소입니다. 확인을 클릭 하 고 계속 진행 합니다. 이 팝업이 표시 되지 않는 경우 해당 항목이 이미 설치 되어 있는 것으로 간주할 수 있습니다.  <br/> Microsoft .NET Framework는 일반적으로 Windows Server 2016이 설치 되어 있는 경우에 설치 됩니다. 비즈니스용 Skype Server에는 Microsoft .NET Framework 4.7 또는 4.8이 필요 하므로이를 업데이트 해야 할 것입니다. [여기](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) 에서 업데이트를 찾을 수 있습니다.<br/> |
 |미디어 파운데이션  <br/> |Windows Server 2016의 경우 Windows Media 형식 런타임이 Microsoft 미디어 파운데이션을 사용 하 여 설치 됩니다.  <br/> 회의에 사용 되는 모든 프런트 엔드 서버와 Standard Edition 서버는 Windows Media 형식 런타임을 통해 통화 공원, 알림 및 응답 그룹 응용 프로그램이 공지 사항 및 음악에 대해 재생 하는 Windows Media 오디오 (.wma) 파일을 실행 해야 합니다.  <br/> |
 |Windows Identity Foundation  <br/> |비즈니스용 Skype Server 2019에 대 한 서버 간 인증 시나리오를 지원 하려면 Windows Identity Foundation 3.5이 필요 합니다.  <br/> • Windows Server 2016의 경우 아무 것도 다운로드할 필요가 없습니다. **서버 관리자**를 열고 **역할 및 기능 추가 마법사**로 이동 합니다. **Windows Id 파운데이션 3.5** 이 **기능** 섹션 아래에 나열 됩니다. 선택 되어 있는 경우에는 좋은 방법입니다. 그렇지 않으면 선택 하 고 **다음** 을 클릭 하 여 **설치** 단추에 도달 합니다. <br/> |
 |원격 서버 관리 도구  <br/> |역할 관리 도구: AD DS 및 AD LDS 도구  <br/> |

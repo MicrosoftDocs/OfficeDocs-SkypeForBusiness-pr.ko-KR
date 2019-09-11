@@ -18,12 +18,12 @@ description: IT 관리자는 해당 도메인의 사용자 들이 팀에 참여�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 146ec2f30afa03a3e8519637a4f852f1b0e73cef
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: dedda63d5ec97d914ba6bd1a70b7e5b3f1d9d7ee
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715864"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838115"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft 팀에서 외부 액세스 관리
 ======================================================
@@ -42,6 +42,9 @@ Microsoft 팀 외부 액세스를 사용 하면 다른 도메인의 팀 사용�
 
 > [!IMPORTANT]
 > 현재 Azure AD (Active Directory) 또는 테 넌 트에서 현재 게스트가 아닌 조직 외부의 외부 사용자에 게 Microsoft 팀 앱을 페더레이션 하려면 하이브리드에 대해 올바르게 설정 하 고 비즈니스용 Skype Online으로 이동 해야 합니다. 2/25/2019으로 인해 비즈니스용 Skype Online에서 SIP 프로필을 사용 하지 않고도 팀이 기본 페더레이션을 지원 합니다. 하이브리드 계정을 설정 하 고 팀으로 이동 하는 방법에 대해서는 [비즈니스용 Skype 하이브리드 배포를 팀으로 업그레이드](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)를 참조 하세요.
+
+> [!IMPORTANT]
+> 게스트 사용자는 공존 모드에 대 한 조직 전체 설정을 팔 로우 합니다. 이는 변경할 수 없습니다.
 
 ## <a name="external-access-vs-guest-access"></a>외부 액세스와 게스트 액세스 비교
 
@@ -126,7 +129,7 @@ Microsoft 팀 외부 액세스를 사용 하면 다른 도메인의 팀 사용�
 
 1. 왼쪽 탐색 창에서 **조직 전체 설정** > **외부 액세스**로 이동 합니다.
 
-2. **사용자가 비즈니스용 Skype 및 팀 사용자와 통신할 수** 있도록 설정/해제 **** 를 전환 합니다.
+2. **사용자가 비즈니스용 Skype 및 팀 사용자와 통신할 수** 있도록 설정/해제 **를 전환 합니다.**
 
      ![외부 액세스 스위치 설정 스크린샷](media/manage-external-access-2.png).
 
@@ -134,7 +137,7 @@ Microsoft 팀 외부 액세스를 사용 하면 다른 도메인의 팀 사용�
 
 4. 조직의 사용자와 통신할 수 있는 조직을 제한 하려면 일부 도메인을 제외 하 고 모두 허용 하거나 특정 도메인만 허용할 수 있습니다. 
 
-    - 일부 도메인을 제외 하 고 모두 허용 하려면 **도메인 추가**를 클릭 하 여 차단 하려는 도메인을 추가 합니다. **도메인 추가** 창에서 도메인 이름을 입력 하 고 **차단 됨**을 클릭 한 후 **완료**를 clik. 
+    - 일부 도메인을 제외 하 고 모두 허용 하려면 **도메인 추가**를 클릭 하 여 차단 하려는 도메인을 추가 합니다. **도메인 추가** 창에서 도메인 이름을 입력 하 고 **차단 됨**을 클릭 한 다음 **완료**를 클릭 합니다. 
     - 특정 조직에 대 한 통신을 제한 하려면 **허용 됨**상태의 상태를 사용 하 여 해당 도메인을 목록에 추가 합니다. 허용 목록에 도메인을 추가 하 고 나면 다른 조직과의 통신은 해당 도메인이 허용 목록에 있는 조직 으로만 제한 됩니다. 
 
 5. **저장**을 클릭 합니다.

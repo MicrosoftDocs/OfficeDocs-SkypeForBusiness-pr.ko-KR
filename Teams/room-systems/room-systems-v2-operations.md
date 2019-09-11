@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: 이 항목에서는 차세대 Skype 대화방 시스템인 Microsoft 팀 회의실 관리에 대해 자세히 알아보세요.
-ms.openlocfilehash: 14f4fb23868cc3e4247c700d15851511310db471
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: f5c4cf2a7b0c5f8fc12d94553d6c0f77216d9487
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775233"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838081"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 팀 회의실 유지 관리 및 운영 
  
@@ -43,7 +43,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 확장 모드로 방 디스플레이를 구성 합니다. 이렇게 하면 디스플레이 전원을 켤 때 콘솔 UI가 해당 디스플레이에 복제 되지 않습니다.
   
 > [!NOTE]
-> 공간 표시의 앞에 사용 되는 소비자 TV는 대기 모드에서 자동으로 활성 비디오 원본으로 전환할 수 있도록 HDMI의 CEC (소비자 전자 컨트롤) 기능을 지원/사용 하도록 설정 해야 합니다. 이 기능은 모든 Tv에서 지원 되지 않습니다. 
+> 원본에서 대기 모드를 해제할 때 자동으로 활성 비디오 원본 (예: MTR 콘솔)으로 전환 하려면 특정 조건이 충족 되어야 합니다. 이 기능은 선택 사항 이지만 Microsoft 팀 공간 소프트웨어에서 지원 되며, 기본 하드웨어에서 기능을 지 원하는 경우 제공 됩니다. 채팅방 표시로 사용 되는 소비자 TV는 HDMI의 CEC (소비자 전자 컨트롤) 기능을 지원 해야 합니다.  선택 된 dock 또는 console (CEC를 지원 하지 않을 수 있음) (제조업체 지원 문서 참조)에 따라 원하는 동작을 사용 하도록 설정 하려면 [HD CTL 100의 extron](https://www.extron.com/article/hdctl100ad) 작업 영역 컨트롤러가 필요할 수 있습니다. 
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft 팀 대화방 재설정 (출하 시 복원)
 <a name="Reset"> </a>
@@ -59,7 +59,7 @@ Microsoft 팀 채팅방이 제대로 실행 되 고 있지 않은 경우 공장 
 다음 표에서는 가능한 원격 작업 및이를 수행 하는 데 사용할 수 있는 메서드를 요약 하 여 설명 합니다.
   
 
-|**작업 그룹**|**도메인에 가입 되어 있지 않음**|**도메인 가입 됨**|
+|작업 그룹|도메인에 가입 되어 있지 않음|도메인 가입 됨|
 |:-----|:-----|:-----|
 |했다가  <br/> |원격 데스크톱  <br/> 원격 Powershell  <br/> |원격 데스크톱 (추가 구성 필요)  <br/> 원격 Powershell (추가 구성 필요)  <br/> SCCM  <br/> |
 |OS 업데이트  <br/> |Windows 업데이트  <br/> |Windows 업데이트  <br/> WSUS  <br/> |
@@ -73,7 +73,7 @@ Microsoft 팀 채팅방이 제대로 실행 되 고 있지 않은 경우 공장 
 이 섹션에서는 Microsoft 팀 대화방에서 제대로 작동 하는 데 의존 하는 시스템 설정을 다룹니다. Microsoft 팀 대화방을 도메인에 참가 하는 경우 그룹 정책이 다음 표의 설정을 재정의 하지 않는지 확인 합니다.
   
 
-|**설정**|**가능**|
+|설정|가능|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Microsoft 팀 회의실을 부팅할 수 있도록 설정  <br/> |
 |전원 관리-\> AC, 10 분 후 화면 끄기  <br/> 전원 관리-\> AC, 시스템을 절전 모드로 전환 안 함  <br/> |Microsoft 팀 대화방에서 연결 된 디스플레이를 끄고 자동으로 절전 모드 해제 하도록 설정  <br/> |
@@ -90,15 +90,10 @@ Microsoft 팀 채팅방이 제대로 실행 되 고 있지 않은 경우 공장 
 PowerShell을 사용 하 여 원격으로 다음 관리 작업을 수행할 수 있습니다 (스크립트 샘플은 아래 표 참조).
   
 - 연결 된 장치 가져오기
-    
 - 앱 상태 가져오기
-    
 - 시스템 정보 가져오기
-    
 - 시스템 다시 부팅
-    
 - 로그 검색
-    
 - 파일 전송 (도메인에 가입 된 Microsoft 팀 대화방 필요)
     
 > [!NOTE]
@@ -107,21 +102,15 @@ PowerShell을 사용 하 여 원격으로 다음 관리 작업을 수행할 수 
 예를 들어 다음과 같이 원격 PowerShell을 설정할 수 있습니다.
   
 1. Microsoft 팀 대화방 장치에서 관리자로 로그인 합니다.
-    
 2. 관리자 권한 PowerShell 명령 프롬프트를 엽니다.
-    
 3. Enable-PSRemoting-force 명령을 입력 합니다.
-    
+
 관리 작업을 수행 하려면 다음을 실행 합니다.
   
 1. Microsoft 팀 회의실 장치에서 PowerShell 명령을 실행할 권한이 있는 계정 자격 증명으로 PC에 로그인 합니다.
-    
 2. PC에서 일반 PowerShell 명령 프롬프트를 엽니다.
-    
 3. 아래 표의 명령 텍스트를 복사 하 고 프롬프트에 붙여 넣습니다.
-    
 4. 필드 `<Device fqdn>` 를 사용자 환경에 적합 한 FQDN 값으로 바꿉니다.
-    
 5. * \<경로\> * 를 마스터 SkypeSettings 구성 파일 (또는 테마 이미지)의 파일 이름 및 로컬 경로로 바꿉니다.
     
 연결 된 장치를 얻으려면
@@ -182,7 +171,6 @@ Copy-Item $movefile $targetDevice
 ### <a name="to-update-using-powershell"></a>Powershell을 사용 하 여 업데이트 하려면
 
 1. 설치 [MSI](https://go.microsoft.com/fwlink/?linkid=851168) 에서 장치에 액세스할 수 있는 공유로 패키지를 추출 합니다.
-    
 2. Microsoft 팀 회의실 장치를 대상으로 하는 다음 스크립트를 \<실행\> 하 고 장치 공유에 대 한 공유를 적절 하 게 변경 합니다.
     
 ```
@@ -197,28 +185,15 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Microsoft 팀 대화방 앱이 실행 중일 때 관리 모드로 전환 및 돌아가기
 
 1. 진행 중인 통화를 모두 끊고 홈 화면으로 돌아갑니다.
-    
 2. 기어 아이콘을 선택 하 고 메뉴를 표시 합니다 ( **설정**, **접근성**및 **장치 다시 시작** 옵션).
-    
 3. **설정을**선택 합니다.
-    
-4. 관리자 암호를 입력 합니다. 설정 화면이 표시 됩니다.
-    
-    > [!NOTE]
-    > 디바이스가 도메인에 가입 되어 있지 않으면 기본적으로 로컬 관리 계정 (사용자 이름 "관리자")을 사용 합니다. 이 계정에 대 한 기본 암호는 ' sfb ' 이지만 조직에서 가능한 한 빨리 보안을 변경 하는 것이 좋습니다. 컴퓨터가 도메인에 가입 되어 있는 경우 적절 한 권한 도메인 계정으로 로그인 할 수 있습니다. 
-  
+4. 관리자 암호를 입력 합니다. 설정 화면이 표시 됩니다.  디바이스가 도메인에 가입 되어 있지 않으면 기본적으로 로컬 관리 계정 (사용자 이름 "관리자")을 사용 합니다. 이 계정의 기본 암호는 ' sfb ' 이며, 최대한 빨리 암호를 변경 합니다. 컴퓨터가 도메인에 가입 되어 있는 경우 적절 한 권한 도메인 계정으로 로그인 할 수 있습니다. 
 5. 왼쪽 열에서 **Windows 설정을** 선택 합니다.
-    
 6. **관리자 로그인으로 이동을**선택 합니다.
-    
 7. 관리자 암호를 입력 합니다. 이렇게 하면 앱이 적절 하 게 로그 오프 되 고 Windows 로그인 화면으로 이동 합니다. 
-    
 8. 관리 자격 증명을 사용 하 여 데스크톱에 로그인 합니다. 장치를 관리 하는 데 필요한 권한이 있습니다.
-    
 9. 필요한 관리 작업을 수행 합니다.
-    
 10. 관리자 계정에서 로그 아웃 합니다.
-    
 11. 화면 왼쪽 끝에 있는 사용자 계정 아이콘을 선택한 다음 **Skype**를 선택 하 여 Microsoft 팀 대화방으로 돌아갑니다.
     
     **Skype** 사용자가 목록에 없는 경우 **다른 사용자** 를 선택 하 고 사용자 이름으로 **.\skype** 를 입력 한 후 로그인 해야 할 수 있습니다.
@@ -228,29 +203,21 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Microsoft 팀 대화방 앱이 충돌 하는 경우 관리 모드로 전환 및 돌아가기
 
 1. Windows 키를 다섯 번 빠르게 연속적으로 누릅니다. Windows 로그온 화면이 표시 됩니다. 
-    
 2. 관리 자격 증명을 사용 하 여 데스크톱에 로그인 합니다.
-    
+3. 필요한 관리 작업을 수행 합니다.
+4. 완료 되 면 컴퓨터를 다시 시작 합니다.
+
     > [!NOTE]
     > 이 방법은 Skype 사용자를 끄거나 앱을 정상적으로 종료 하지는 않지만 앱이 응답 하지 않고 다른 방법을 사용할 수 없는 경우에도 사용 합니다. 
-  
-3. 필요한 관리 작업을 수행 합니다.
-    
-4. 완료 되 면 컴퓨터를 다시 시작 합니다.
-    
+
    콘솔이 정상 작동 모드로 다시 시작 되어 Microsoft 팀 회의실 앱을 실행 합니다. 이 절차를 수행할 수 있도록 연결 된 경우 키보드를 제거할 수 있습니다.
    ## <a name="troubleshooting-tips"></a>문제 해결 팁
    <a name="TS"> </a>
 
 - 도메인 경계를 넘어 전송 되는 경우 모임 초대가 표시 되지 않을 수 있습니다 (예: 두 회사 간). 이러한 경우 IT 관리자는 외부 사용자가 모임을 예약할 수 있도록 허용할지 여부를 결정 해야 합니다.
-    
 - Microsoft 팀 대화방은 Exchange 2010를 통해 Exchange 자동 검색 리디렉션을 지원 하지 않습니다.
-    
 - 일반적으로 IT 관리자는 사용 하지 않으려는 오디오 끝점을 비활성화 하는 것이 좋습니다.
-    
 - 룸 미리 보기에 미러 이미지가 표시 되는 경우, IT 관리자는 카메라 전원을 순환 하거나 카메라 리모컨을 사용 하 여 이미지 방향을 대칭 이동 하 여 수정할 수 있습니다.
-    
 - 콘솔 터치 스크린의 손실에 대 한 액세스가 발생 하는 것으로 알려졌습니다. 이러한 경우에는 Microsoft 팀 대화방 시스템을 다시 시작 하 여 문제가 해결 되기도 합니다.
-    
 - 유선 수집을 통해 PC를 콘솔에 연결할 때 로컬 오디오 손실이 발생 하는 것으로 알려져 있습니다. 이러한 경우 PC를 다시 시작 하면 로컬 오디오 재생 문제를 해결할 수 있습니다.
     
