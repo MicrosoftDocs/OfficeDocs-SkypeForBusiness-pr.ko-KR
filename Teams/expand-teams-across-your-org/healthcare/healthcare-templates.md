@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 의료 조직의 팀 템플릿 시작 하기
-ms.openlocfilehash: 437a645a0ab32024e81f3c73ba0db09b08267b3d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9a00d0d707867d009a9bc724d88fd4f9d8e6997f
+ms.sourcegitcommit: 113c00a26c5a6ad22ef24b1bdcd830e7c2cd14ff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232253"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36852842"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>의료 조직의 팀 템플릿 시작 하기
 
@@ -54,7 +54,7 @@ Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (�
 
 ## <a name="how-to-use-first-party-templates"></a>자사 서식 파일을 사용 하는 방법
 
-이 서식 파일을 사용 하려면 요청 본문의 ' template@odata.bind ' 속성을 ' standard '에서 위의 TemplateIDs으로 변경 하면 됩니다.  팀 서식 파일을 배포 하는 방법에 대 한 자세한 내용은 [팀 만들기에 대](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)한 Microsoft Graph 문서를 참조 하세요.
+이 서식 파일을 사용 하려면 요청 본문의 ' template@odata.bind ' 속성을 ' standard '에서 위의 TemplateIDs으로 변경 하면 됩니다.  팀 템플릿을 배포 하는 방법에 대 한 자세한 내용은 [팀을 만드는](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)방법에 대 한 Microsoft Graph 문서를 참조 하세요.
 
 > [!NOTE]
 > 서식 파일의 채널이 일반 탭 아래에 자동으로 생성 됩니다.
