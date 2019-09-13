@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: '요약: 비즈니스용 skype에 비즈니스용 skype Web App 및 Skype 모임 앱을 배포 합니다.'
-ms.openlocfilehash: 8f2449fde2f270834bda50602fe163829f3b725f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 273ffca9ae91973fe9e3953efc914364de382ed4
+ms.sourcegitcommit: 8a20cb7bd1d23e2cf2987f55039748bad60f501b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234396"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "36972879"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 웹 다운로드 가능 클라이언트 배포
 
@@ -140,6 +140,10 @@ Windows Server 2008 R2를 실행 하는 컴퓨터에서 플러그 인 설치가 
    ```
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
+
+> [!NOTE]
+> 비즈니스용 Skype Server 2015 누적 업데이트 5에서 MeetingUxUseCdn를 사용 하는 경우 기본값은 False로 설정 됩니다. 이는 비즈니스용 skype 관리자가 MeetingUxUseCdn를 True로 설정한 경우에도 for Mac 클라이언트가 페더레이션 되지 않은 모임에 게스트로 참가할 수 없는 문제를 일으킵니다. 이 작업을 수행 하려면 비즈니스용 Skype 서버 2015에 누적 업데이트 7, 6.0.9319.534 또는 이후 버전을 설치 해야 합니다. 비즈니스용 skype [Server 2015에서 Skype 모임 앱이 비즈니스용 Skype Web app을 교체할 수 있도록 허용을](https://support.microsoft.com/kb/4132312)참조 하세요.
+
 
 ## <a name="see-also"></a>참고 항목
 <a name="SMA_Enable"> </a>
