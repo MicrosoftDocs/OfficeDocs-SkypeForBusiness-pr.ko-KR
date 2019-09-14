@@ -3,11 +3,10 @@ title: Microsoft 팀에서 팀 보관 또는 삭제
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/18/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: islubin
+ms.reviewer: jastark
 search.appverid: MET150
 description: 팀을 보관 하거나 영구적으로 삭제 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
@@ -18,20 +17,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 125c7954eabcbf5f454d1e9bc96b1c33377ed23f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: cdbc5a03698fc5aa8cd7d686ad0c3038132236f1
+ms.sourcegitcommit: 21ef0846c8d9bc986550d34614bae1cb9eb2ded8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241965"
+ms.lasthandoff: 09/13/2019
+ms.locfileid: "36980578"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft 팀에서 팀 보관 또는 삭제
 ===========================================
 
-시간이 지남에 따라 Microsoft 팀에서 만든 팀이 사용 되지 않거나 프로젝트의 마지막에 팀을 보관 하거나 삭제할 수 있습니다. Microsoft 팀 관리자 인 경우이 문서에 나와 있는 단계를 따라 더 이상 필요 하지 않은 팀을 보관 하거나 삭제할 수 있습니다. 팀을 보관 하면 해당 팀의 모든 작업이 중단 되지만 구성원을 추가 또는 제거 하 고 역할을 업데이트할 수 있으며, 계속 해 서 모든 팀 활동을 채널, 파일 및 채팅에서 볼 수 있습니다. 팀을 삭제 하면 관련 채널, 파일, 채팅의 팀 활동도 삭제 됩니다. 
+시간이 지남에 따라 Microsoft 팀에서 만든 팀이 사용 되지 않거나 프로젝트의 마지막에 팀을 보관 하거나 삭제할 수 있습니다. Microsoft 팀 관리자 인 경우이 문서에 나와 있는 단계를 따라 더 이상 필요 하지 않은 팀을 보관 하거나 삭제할 수 있습니다. 팀을 보관 하면 해당 팀의 모든 작업이 중단 되지만 구성원을 추가 또는 제거 하 고 역할을 업데이트할 수 있으며, 계속 해 서 모든 팀 활동을 채널, 파일 및 채팅에서 볼 수 있습니다. 팀을 삭제 하면 관련 채널, 파일, 채팅의 팀 활동도 삭제 됩니다.
 
 > [!IMPORTANT]
-> 보관 된 팀을 다시 활성화할 수 있지만, 삭제 된 팀의 삭제 취소할 수 없습니다. 팀을 먼저 보관 하 고 더 이상 팀이 필요 하지 않을 때까지 삭제를 연기 하세요.
+> 보관 된 팀은 다시 활성화할 수 있지만 삭제 된 팀은 직접 삭제 취소할 수 없습니다. 팀을 먼저 보관 하 고 더 이상 팀이 필요 하지 않을 때까지 삭제를 연기 하세요.
 
 ## <a name="archive-a-team"></a>팀 보관
 
@@ -63,5 +62,47 @@ ms.locfileid: "36241965"
 3.  **삭제**를 선택 합니다. 확인 메시지가 표시 됩니다.
 4.  **삭제** 를 선택 하 여 팀을 영구적으로 삭제 합니다.
 
+## <a name="restore-a-deleted-team"></a>삭제 된 팀 복원
 
+팀과 연결 된 Office 365 그룹을 복원 하 여 삭제 된 팀을 복원 하려면 다음 단계를 따르세요. 기본적으로 삭제 된 Office 365 그룹은 30 일 동안 보존 됩니다. 그룹을 복원할 수 있으므로이 30 일의 기간이 "일시 삭제" 라고 합니다. 자세히 알아보려면 [삭제 된 Office 365 그룹 복원을](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)참조 하세요.
 
+### <a name="install-the-azureadpreview-module"></a>AzureADPreview 모듈 설치
+
+1. 관리자 권한으로 Windows PowerShell을 엽니다.
+2. 이전 버전의 AzureADPreview 모듈이 설치 되어 있거나 AzureAD 모듈이 설치 되어 있는 경우 다음 중 하나를 실행 하 여 제거 합니다.
+
+    ``` 
+    Uninstall-Module AzureADPreview
+    ```
+
+    ```
+    Uninstall-Module AzureAD
+    ```
+3. 다음을 실행 하 여 최신 버전의 AzureADPreview 모듈을 설치 합니다.
+
+    ```
+    Install-Module AzureADPreview
+    ```    
+
+### <a name="restore-the-deleted-office-365-group"></a>삭제 된 Office 365 그룹 복원
+
+1. Azure AD에 연결 하려면 다음을 실행 합니다.
+    ```
+    Connect-AzureAD
+    ```
+    메시지가 표시 되 면 관리자 계정 및 암호를 사용 하 여 로그인 합니다.  
+2. 다음을 실행 하 여 30 일 보존 기간 내에 그대로 남아 있는 모든 소프트 삭제 된 Office 365 그룹의 목록을 표시 합니다. 그룹이 많은 경우 **-All $True** 매개 변수를 사용 합니다.
+    ```
+    Get-AzureADMSDeletedGroup
+    ``` 
+3. 복원 하려는 그룹을 찾은 다음 Id를 기록해 둡니다.
+4. 그룹을 복원 하려면 다음을 실행 합니다. 여기서 [Id]는 그룹 Id입니다.
+    ```
+    Restore-AzureADMSDeletedDirectoryObject -Id [Id]
+    ```
+5.  다음을 실행 하 여 그룹이 성공적으로 복원 되었는지 확인 하 고 여기서 [Id]는 그룹 Id입니다.
+    ```
+    Get-AzureADGroup -ObjectId [Id]
+    ```
+
+    복원 프로세스가 완료 되는 데 최대 24 시간이 소요 될 수 있으며 그 이후에는 팀과 관련 된 팀 및 콘텐츠 (탭 및 채널 포함)가 팀에 표시 됩니다.
