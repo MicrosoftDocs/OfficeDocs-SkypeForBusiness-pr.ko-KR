@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.directrouting.overview
 description: 직접 라우팅에 대 한 랜딩 페이지
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 965fb26aee3d83550740e2ae7f855559fd9cdb79
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 7ded644f552c233b712f43de212f2269ee6e70b2
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484062"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018804"
 ---
 # <a name="phone-system-direct-routing"></a>전화 시스템 직접 라우팅
 
@@ -75,13 +75,13 @@ ms.locfileid: "36484062"
 | 내가 정의한 음성 라우팅 정책에 어떤 사용자를 할당 해야 하나요? | [음성 라우팅 구성](direct-routing-configure.md#configure-voice-routing)의 예제를 참조 하세요. |
 |||
 
-### <a name="calling-and-interop-policies"></a>통화 및 interop 정책
+### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>TeamsUpgradePolicy를 사용 하 여 팀 클라이언트에서 걸려오는 전화가 있는지 확인
 
-직접 라우팅은 Microsoft 팀 에서만 지원 됩니다. 직접 라우팅을 통해 PSTN 전화를 걸거나 받으려면 팀에서 수신 전화를 받을 수 있도록 필요한 정책을 구성 해야 합니다. 팀 전용 모드로 사용자를 구성 하거나 TeamsCallingPolicy 및 TeamsInteropPolicy를 할당 하 여 기본 호출 클라이언트로 팀을 구성 하 여 팀을 기본 클라이언트로 설정 하도록 사용자를 구성할 수 있습니다.
+직접 라우팅은 Microsoft 팀 에서만 지원 됩니다. 직접 라우팅을 통해 PSTN 통화를 받으려면 팀에서 수신 전화를 받을 수 있도록 TeamsUpgradePolicy를 구성 해야 합니다. 사용자는 TeamsUpgradePolicy의 "UpgradeToTeams" 인스턴스에 할당 하 여 팀 전용 모드 여야 합니다. 
 
 |질문 하기|함수 |
 |:------------|:-------|
-|팀을 기본 통화 클라이언트로 설정 하는 방법은 무엇 인가요? | 자세한 내용은 [Microsoft 팀을 사용자를 위한 기본 호출 클라이언트로 설정을](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users)참조 하세요.|
+|팀 전용 모드의 의미 | 자세한 내용은 [비즈니스용 Skype로 함께 팀을 사용 하는 조직의 마이그레이션 및 상호 운용성 지침](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)을 참조 하세요.|
 |||
 
 ## <a name="additional-deployment-considerations"></a>추가 배포 고려 사항

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 전화 시스템 다이렉트 라우팅을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4013e0fd914630f154f407ad9c70e2c6915723f5
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: d1a763f150004b5c558dd311dd54ed6975dcb0c1
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464614"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018771"
 ---
 # <a name="configure-direct-routing"></a>직접 라우팅 구성
 
@@ -42,7 +42,7 @@ Microsoft 전화 시스템을 구성 하 고 사용자가 직접 라우팅을 �
 
 - [Microsoft 전화 시스템을 사용 하 여 SBC 쌍을 연결 하 고 페어링의 유효성을 검사 합니다.](#pair-the-sbc-to-the-direct-routing-service-of-phone-system)
 - [사용자가 직접 라우팅 서비스를 사용 하도록 설정](#enable-users-for-direct-routing-service)
-- [Microsoft 팀이 사용자를 위한 기본 통화 클라이언트 인지 확인](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
+- Microsoft 팀이 사용자를 위한 기본 통화 클라이언트 인지 확인
 
 ## <a name="pair-the-sbc-to-the-direct-routing-service-of-phone-system"></a>전화 시스템의 다이렉트 라우팅 서비스에 SBC 쌍을 연결 합니다. 
 
@@ -528,9 +528,9 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 결과적으로 John 숲의 통화에 적용 되는 음성 정책에는 제한이 없으며 미국, 캐나다, 국제 통화를 위해 제공 되는 통화 라우팅의 논리에 따라 진행 됩니다.
 
-## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Microsoft 팀을 사용자를 위한 기본 호출 클라이언트로 설정
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Microsoft 팀에서 전화를 걸 수 있도록 사용자에 게 팀 전용 모드 할당
 
-직접 라우팅은 팀 클라이언트를 사용 하는 사용자와의 통화만 라우팅합니다. 조직에서 팀을 사용 하는 경우 업그레이드 정책에서 "팀만" 모드를 설정 하는 것이 좋습니다. 조직에서 비즈니스용 skype Server 또는 비즈니스용 Skype Online을 사용 하는 경우 자세한 내용은 다음 문서를 참조 하 고, [비즈니스 및 팀을 위한 skype에 대 한 공존 및 업그레이드 여행을 이해](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)하는 방법을 알아보세요. 
+다이렉트 라우팅은 팀 클라이언트에서 수신 전화를 받을 수 있도록 사용자가 팀 전용 모드에 있어야 합니다. 사용자를 팀 전용 모드로 전환 하려면 TeamsUpgradePolicy의 "UpgradeToTeams" 인스턴스를 할당 합니다. 조직에서 비즈니스용 skype Server 또는 비즈니스용 Skype Online을 사용 하는 경우 Skype와 팀 간의 정보 상호 운용성에 대해 다음 문서를 참조 하세요. [팀과 skype를 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침 비즈니스에 적합](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)합니다. 
 
 
 ## <a name="see-also"></a>참고 항목

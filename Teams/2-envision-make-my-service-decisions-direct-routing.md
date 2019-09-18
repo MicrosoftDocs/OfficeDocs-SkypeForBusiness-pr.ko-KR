@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d3410616cf3e841ab6689ffd0fea772975b484c
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: c57b3c8950f7e1618f578862290e8fb1696b6bc0
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271438"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018782"
 ---
 # <a name="make-my-service-decisions"></a>내 서비스 결정 하기
 
@@ -271,7 +271,7 @@ SBCs는 신호 및 미디어에 대 한 클라우드 서비스와 통신 하기 
 
 -   TeamsCallingPolicy 및 TeamsInteropPolicy를 할당 하 여 팀을 기본 호출 클라이언트로 구성 합니다.
 
-자세한 내용은 [Microsoft 팀을 사용자를 위한 기본 호출 클라이언트로 설정을](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users)참조 하세요.
+자세한 내용은 [Microsoft 팀에서 전화를 걸 수 있도록 사용자에 게 팀 전용 모드 할당](direct-routing-configure.md#assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams)을 참조 하세요.
 
 
 |         |         |         |

@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 문서에서는 UC 작업을 팀 및/또는 비즈니스용 Skype Online으로 이동 하기 위해 이동 하려는 비즈니스용 Skype (또는 Lync)를 사용 하는 조직에 대해 이러한 통합을 구현 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 46e84f9a65ec7626c5285196af83d63baa46c15e
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 33cbc823fd7aeece1591810d63d2ebf4a348237a
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36185559"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018847"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>팀 및 비즈니스용 Skype에 대 한 클라우드 통합
 
@@ -69,7 +69,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서 온라인으로 통합 �
     - 이제 온-프레미스 디렉터리의 사용자가 AAD에 있습니다.
     - AcquiredCompany. <span>com은 비활성화 된 온라인 SIP 도메인입니다.
     - 일부 사용자는 온라인으로 비즈니스용 Skype Online 또는 팀으로 이동 되었습니다. (자주색 사용자 A 참조)
-10. 모든 사용자를 클라우드로 이동한 후에는 OriginalCompany에 대 한 [비즈니스용 Skype 온-프레미스 배포와 하이브리드를 사용 하지 않도록 설정](cloud-consolidation-disabling-hybrid.md) 합니다. <span>Office 365의 com:  
+10. 모든 사용자를 클라우드로 이동한 후에는 [Originalcompany에 대 한 비즈니스용 Skype 온-프레미스 배포와 하이브리드를 사용 하지 않도록 설정](cloud-consolidation-disabling-hybrid.md) 합니다. <span>Office 365의 com:  
     - Office 365 테 넌 트에서 도메인 분할을 사용 하지 않도록 설정 합니다.
     - OriginalCompany에서 Office 365와 통신 하는 기능을 사용 하지 않도록 설정 합니다. <span>온-프레미스의 com.
     - OriginalCompany에 대 한 DNS 레코드를 업데이트 합니다. <span>Office 365를 가리키는 com입니다.
@@ -168,13 +168,13 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서 온라인으로 통합 �
 하이브리드 환경에서 사용자를 온-프레미스에서 클라우드로 이동 하면이를 비즈니스용 Skype 전용 또는 팀 전용 모드로 이동할 수 있습니다. *사용자를 팀 전용 모드로 이동 하려는 경우 먼저이 섹션을 읽어야 합니다.*
 
 - 팀 전용 모드를 사용자에 게 할당 하면 다른 사용자의 모든 채팅 및 통화가 해당 사용자의 팀 클라이언트에 배치 됩니다. 
-- 팀을 위해 Skype를 사용 하는 사용자와 다른 사용자 간의 채팅 및 통화의 원활한 라우팅이 가능 하 고, 온-프레미스 사용자가 아일랜드 대신 SfB 모드 중 하나를 사용 하 여 TeamsUpgradePolicy를 보장 해야 합니다 (기본값). ). 
+- 비즈니스용 Skype 온-프레미스 사용자가 주로 비즈니스용 skype 클라이언트를 사용 하 고 팀이 아닌 경우, 해당 온-프레미스 사용자로의 라우팅이 항상 비즈니스용 Skype에 연결 되도록 팀이 아닌 TeamsUpgradePolicy 설정을 고려해 보세요. 팀을 위해 Skype를 사용 하는 사용자와 현재 비즈니스를 위해 현재 온-프레미스 사용자 간의 채팅 및 통화에 대 한 적절 한 라우팅이 SfB 모드 중 하 나와 함께 TeamsUpgradePolicy으로 유효한 값을 유지 해야 합니다 (이는 기본값). 
     - 이렇게 하려면 *먼저 TeamsUpgradePolicy의 테 넌 트의 전역 인스턴스를 다음 값 중 하나로 설정 해야 합니다*.
         - SfBWithTeamsCollab (권장)
         - SfBWithTeamsCollabAndMeetings
         - SfBOnly
     - 다음 명령을 사용 하 여 테 넌 트 전역 정책을 부여할 수 있습니다.<br>`Grant-CsTeamsUpgradePolicy -PolicyName SfBWithTeamsCollab -Global`
-    - 참고: 온라인 디렉터리에 SIP 주소가 없는 개별 사용자에 게는 정책을 할당할 수 없기 때문에 현재이 작업을 테 넌 트 차원의 수준에서 수행 해야 합니다. 순수 온-프레미스 배포에 대해 온라인 SIP 도메인을 사용 하지 않도록 설정한 경우 해당 도메인의 사용자는 온라인 디렉터리에 대 한 SIP 주소를 디자인에 따라 표시 하지 않습니다. 따라서 해당 온-프레미스 사용자에 게 정책을 적용 하는 유일한 방법은 테 넌 트 수준에서 할당 하는 것입니다. 반대로, 하이브리드 배포의 경우 사용자가 테 넌 트 전역 정책과는 다른 값을 원하는 경우 정책을 명시적으로 할당할 수 있도록 온라인 디렉터리에 SIP 주소가 있습니다.
+    - 참고: 온라인 디렉터리에 SIP 주소가 없는 개별 사용자에 게는 정책을 할당할 수 없으므로 테 넌 트 전체 수준에서이 작업을 수행 해야 합니다. 순수 온-프레미스 배포에 대해 온라인 SIP 도메인을 사용 하지 않도록 설정한 경우 해당 도메인의 사용자는 온라인 디렉터리에 대 한 SIP 주소를 디자인에 따라 표시 하지 않습니다. 따라서 해당 온-프레미스 사용자에 게 정책을 적용 하는 유일한 방법은 테 넌 트 수준에서 할당 하는 것입니다. 반대로, 하이브리드 배포의 경우 사용자가 테 넌 트 전역 정책과는 다른 값을 원하는 경우 정책을 명시적으로 할당할 수 있도록 온라인 디렉터리에 SIP 주소가 있습니다.
 - 팀 클라이언트 UX는 아직 TeamsUpgradePolicy의 SfB 모드를 준수 하지 않습니다. 예를 들어 이러한 모드에서는 향후에도 팀의 통화 및 채팅 시작이 가능 하지만, 나중에는 그렇지 않습니다. 이로 인해, 상황에 따라 회신이 팀 이나 때때로 비즈니스용 Skype에 있을 수 있으므로 사용자 간에 혼란이 발생할 수 있습니다. 아직 구내에 있는 사용자를 위해 팀과 채팅을 별도로 사용 하지 않도록 설정 하는 것이 좋습니다.
 
 ## <a name="see-also"></a>참고 항목

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 한 곳에서 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대 한 업데이트를 찾아 관리 합니다. 업데이트에 대 한 자세한 정보를 확인 하 고 업데이트를 다운로드 하려면이 페이지의 링크를 사용 하세요.
-ms.openlocfilehash: 836903d8040d9ea040309306533484f68453e375
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: ba23d01b4e5367d816d475a1b5daa8b852b4c23e
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838106"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018762"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
@@ -48,8 +48,22 @@ ms.locfileid: "36838106"
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
 |비즈니스용 Skype 서버 2015 누적 업데이트 10 핫픽스 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 년 8 월 |
-
-| 비즈니스용 Skype 서버 2015 누적 업데이트 10 | [KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 년 7 월 | | 비즈니스용 Skype 서버 2015에 대 한 누적 업데이트 9, 웹 구성 요소 서버 | [KB 4487981](https://support.microsoft.com/kb/4487981)| 5 월 2019 | | 비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버의 누적 업데이트 8 [KB 4464355](https://support.microsoft.com/kb/4464355)| 2019 년 1 월 | | 비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버 |에 대 한 누적 업데이트 7 [KB 4340904](https://support.microsoft.com/kb/4340904) | 2018 년 7 월 | | Microsoft 비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버의 누적 업데이트 6 핫픽스 2 [KB 4086059](https://support.microsoft.com/kb/4086059) | 2018 년 3 월 | | 비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버의 누적 업데이트 6 핫픽스 1 [KB 4074701](https://support.microsoft.com/kb/4074701)| 2018 년 1 월 | | 비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버 |에 대 한 누적 업데이트 6 [KB 4036312](https://support.microsoft.com/kb/4036312) | 2017 년 12 월 | | 비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버 |에 대 한 누적 업데이트 5 [KB 4012621](https://support.microsoft.com/kb/4012621) | 5 월 2017 | | 비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버의 누적 업데이트 4 핫픽스 1 [KB 3207506](https://support.microsoft.com/kb/3207506) | 2017 년 2 월 | | 비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버의 누적 업데이트 4 | [KB 3199093](https://support.microsoft.com/kb/3199093) | 2017 년 11 월 | | 비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버 |에 대 한 누적 업데이트 3 [KB 3149227](https://support.microsoft.com/kb/3149227) | 2016 년 6 월 | | 비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버 |에 대 한 누적 업데이트 2 [KB 3134260](https://support.microsoft.com/kb/3134260) | 2016 년 3 월 | | 비즈니스용 Skype 서버 2015, 프런트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 1 | [KB 3097645](https://support.microsoft.com/kb/3097645) | 2015 년 11 월 | | 비즈니스용 Skype Server 2015, core 구성 요소에 대 한 누적 업데이트 | [KB 3098601](https://support.microsoft.com/kb/3098601) | 2015 년 9 월 | | 비즈니스용 Skype 서버 2015, 프론트 엔드 서버 및 Edge 서버의 누적 업데이트 | [KB 3061059](https://support.microsoft.com/kb/3061059) | 2015 년 6 월 | | | | |
+|비즈니스용 Skype 서버 2015 누적 업데이트 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 년 7 월 |
+|비즈니스용 Skype Server 2015, 웹 구성 요소 서버에 대 한 누적 업데이트 9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 년 5 월 |
+|비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019 년 1 월|
+|비즈니스용 Skype Server 2015, 프론트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018 년 7 월 |
+|Microsoft 비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버의 누적 업데이트 6 핫픽스 2 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018 년 3 월 |
+|비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버의 누적 업데이트 6 핫픽스 1 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018 년 1 월 |
+|비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 6|[KB 4036312](https://support.microsoft.com/kb/4036312) |2017 년 12 월 |
+|비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 5  |[KB 4012621](https://support.microsoft.com/kb/4012621) |2017 년 5 월 |
+|비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버의 누적 업데이트 4 핫픽스 1 |[KB 3207506](https://support.microsoft.com/kb/3207506) |2017 년 2 월 |
+|비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 4 |[KB 3199093](https://support.microsoft.com/kb/3199093) |2017 년 11 월 |
+|비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 3 |[KB 3149227](https://support.microsoft.com/kb/3149227) |2016 년 6 월 |
+|비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 2 |[KB 3134260](https://support.microsoft.com/kb/3134260) |2016 년 3 월 |
+|비즈니스용 Skype Server 2015, 프런트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트 1 |[KB 3097645](https://support.microsoft.com/kb/3097645) |2015 년 11 월 |
+|비즈니스용 Skype Server 2015, core 구성 요소에 대 한 누적 업데이트 |[KB 3098601](https://support.microsoft.com/kb/3098601) |2015 년 9 월 |
+|비즈니스용 Skype 서버 2015, 프런트 엔드 서버 및 Edge 서버에 대 한 누적 업데이트|[KB 3061059](https://support.microsoft.com/kb/3061059) |2015 년 6 월 |
+||||
 
 ### <a name="skype-for-business-server-2015-tools"></a>비즈니스용 Skype 서버 2015 도구
 

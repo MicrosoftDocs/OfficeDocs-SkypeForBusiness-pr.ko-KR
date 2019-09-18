@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀을 사용 하 여 클라우드 통화 큐 용 전화 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9ce7028c5ff56e24cda84536126cba271ee3e2b1
-ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
+ms.openlocfilehash: 99e12ba4ee8bf983a62dee87a82f3bb7b9cb1ccc
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36675409"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018858"
 ---
 # <a name="create-a-cloud-call-queue"></a>클라우드 통화 대기열 만들기
 
@@ -40,7 +40,7 @@ ms.locfileid: "36675409"
 
 [리소스 계정을](manage-resource-accounts.md)사용 하 여 전화 번호를 통화 대기열과 연결 합니다. 전화 큐는 직접 전화를 걸거나 자동 전화 교환에서 선택 하 여 액세스할 수 있습니다.
 
-발신자는 대기 중에 음악을 듣게 되며, 통화는 선입 선출 (FIFO) 순서에 ** 따라 통화 에이전트에 연결 됩니다.
+발신자는 대기 중에 음악을 듣게 되며, 통화 *는 선입 선출 (FIFO* ) 순서에 따라 통화 에이전트에 연결 됩니다.
 
 큐의 모든 호출은 다음 메서드 중 하나를 통해 에이전트로 전송 됩니다.
 
@@ -100,6 +100,9 @@ ms.locfileid: "36675409"
   - Microsoft 팀 iPhone 앱
 
   - Microsoft 팀 Android 앱
+
+    > [!NOTE]
+    > 직접 라우팅 번호로 지정 된 통화 큐는 비즈니스용 Skype 클라이언트, Lync 클라이언트 또는 비즈니스용 Skype IP 휴대폰을 에이전트로 지원 하지 않습니다. 
 
 ## <a name="step-2--getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>2 단계-유료 또는 무료 서비스 전화 번호 가져오기 또는 전송
 
@@ -177,7 +180,7 @@ ms.locfileid: "36675409"
 
 - 전화 시스템 라이선스 및 Enterprise Voice가 설정 된 온라인 사용자 
 - 통화 요금제를 사용 하는 온라인 사용자
-- Businesss 서버 사용자를 위한 온-프레미스 Skype
+- 온-프레미스 비즈니스용 Skype 서버 사용자
 
   > [!NOTE]
   > 이는 온라인 상태인 조직의 사용자에 게 전화를 리디렉션하는 경우에도 적용 됩니다. 이러한 개인에 게는 **전화 시스템** 라이선스와 Enterprise Voice가 설정 되어 **있거나** 통화 요금제가 있어야 합니다. 자세한 내용은 [비즈니스용 Skype 라이선스 할당](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md), [Microsoft 팀 라이선스 할당](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)또는 [사용자에 게 적합 한 통화 계획](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page) 을 참조 하세요.
