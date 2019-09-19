@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Office 365 Business Premium 요금제를 구입 하는 방법에 대 한 추가 기능 라이선스, 기능 및 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 48cfc0803f062f4ded43821b7db8604a49022fda
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 08d9ce55088c83126a6a8d303b4a02d6aa385584
+ms.sourcegitcommit: c6a79bebbbd7c1a1f801f465092a64fb40720296
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715910"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37040739"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -39,7 +39,7 @@ ms.locfileid: "36715910"
 
     1. [다른 Office 365 비즈니스 요금제로 전환](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)합니다. 더 저렴 한 비용 인지 확인 하기 위해 Enterprise E5 계획을 평가 하는 것이 좋습니다.
 
-    2. Enterprise E5 라이선스를 구입 하기로 결정 한 경우 전화 시스템 라이선스가 포함 됩니다. Enterprise E1 또는 E3 라이선스 또는 Office 365 365 business Premium licsense를 사용 하는 경우에는 전화 시스템 추가 기능을 구입 해야 합니다.
+    2. Enterprise E5 라이선스를 구입 하기로 결정 한 경우 전화 시스템 라이선스가 포함 됩니다. 엔터프라이즈 E1 또는 E3 라이선스를 사용 하는 경우에는 전화 시스템 추가 기능을 구입 해야 합니다.
     
     3. [Office 365에 대 한 통화 요금제](../calling-plans-for-office-365.md)구입: 전화 시스템 추가 기능을 구입한 후에만이를 구매할 수 있습니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "36715910"
 
    통신 크레딧을 구입 하는 옵션이 표시 됩니다.
 
-3. 커뮤니케이션 크레딧에 자금을 추가 하려면 **청구** > **** > 플랜**커뮤니케이션 크레딧**으로 이동 하세요.
+3. **커뮤니케이션 크레딧** > 에 자금을 추가 하려면 **청구** > 플랜**커뮤니케이션 크레딧**으로 이동 하세요.
 
     자금을 추가 하 고 자동 충전을 설정/해제할 수 있습니다. 자세한 내용은 [자금 추가 및 통신 제작진 관리](../add-funds-and-manage-communications-credits.md) 를 참조 하세요. 
 
