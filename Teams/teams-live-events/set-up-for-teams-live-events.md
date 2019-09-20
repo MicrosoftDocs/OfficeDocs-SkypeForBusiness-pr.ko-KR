@@ -17,12 +17,12 @@ description: 네트워크 준비, 라이선스 할당, 정책으로 라이브 �
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882a6c708a7aae67a8aafae880d8f0244f5fa8b1
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 973e079cda665005dac55e466d444b09ecddb7da
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493101"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047074"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 설정
 
@@ -53,7 +53,7 @@ ms.locfileid: "36493101"
 
     조직의 요구 사항에 맞게 변경할 수 있는 설정은 다음과 같습니다.
 
-    ![라이브 이벤트 정책 설정 스크린샷] (../media/teams-live-events-policies.png "Microsoft 팀 관리 센터의 라이브 이벤트 정책 설정 스크린샷") 
+    ![Live 이벤트의 스크린샷 정책 설정](../media/teams-live-events-policies.png "Microsoft 팀 관리 센터에 있는 라이브 이벤트 정책 설정의 스크린샷") 
 
 |설정  |설명  |
 |---------|---------|
@@ -108,7 +108,7 @@ Windows PowerShell을 사용 하 여이 작업을 수행할 수도 있습니다.
 
 - **하이브 스트리밍은** 실시간 및 주문형 엔터프라이즈 영상 배포를 위한 간단 하 고 강력한 솔루션을 제공 합니다. Hive는 추가 하드웨어 또는 대역폭이 필요 하지 않으며, 네트워크에 영향을 주지 않고 수천 개의 동시 비디오 뷰어를 사용 하는 안전한 방법을 제공 하는 소프트웨어 기반 솔루션입니다. SDN/eCDN 솔루션을 구입 하기 전에 네트워크에 대 한 영향을 이해 하는 고객의 경우 Hive 스트리밍은 Microsoft 고객을 위한 브라우저 기반 분석 솔루션을 제공 하기도 합니다. [자세한 정보](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
  
-- **Kollective** 는 콘텐츠를 제공 하기 위해 기존 네트워크 인프라를 활용 하는 클라우드 기반 스마트 피어 링 배포 플랫폼으로, 다양 한 양식 (라이브 스트리밍 비디오, 주문형 비디오, 소프트웨어 업데이트, 보안 패치 등)을 더욱 빠르게 수행할 수 있습니다. 안정적이 고 대역폭이 적습니다. 귀하의 보안 플랫폼은 전세계의 가장 저렴 한 금융 기관에서 신뢰 하 고 추가 하드웨어 없이도, 설치 및 유지 관리는 쉽습니다. [자세한 정보](http://www.kollective.com)
+- **Kollective** 는 콘텐츠를 제공 하기 위해 기존 네트워크 인프라를 활용 하는 클라우드 기반 스마트 피어 링 배포 플랫폼으로, 다양 한 양식 (라이브 스트리밍 비디오, 주문형 비디오, 소프트웨어 업데이트, 보안 패치 등)을 더욱 빠르게 수행할 수 있습니다. 안정적이 고 대역폭이 적습니다. 귀하의 보안 플랫폼은 전세계의 가장 저렴 한 금융 기관에서 신뢰 하 고 추가 하드웨어 없이도, 설치 및 유지 관리는 쉽습니다. [자세한 정보](https://kollective.com/microsoft-pilot/)
  
 - **램프 OmniCache** 는 차세대 네트워크 배포를 제공 하 고, 이벤트 제작자가 네트워크 대역폭을 최적화 하 고 성공적인 라이브 이벤트 브로드캐스트 및 요청에 대 한 지원을 지원 합니다. 스트리밍. 팀에서 생성 된 라이브 이벤트에 대 한 램프 OmniCache에 대 한 지원은 곧 제공 될 예정입니다. [자세한 정보](http://www.ramp.com) 
  

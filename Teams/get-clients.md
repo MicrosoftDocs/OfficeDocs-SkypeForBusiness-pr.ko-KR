@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 646305383c8f38671c07f598bc9ff1671890d22f
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 1d656e78ca839255f45e9335ca881c564e07c4cc
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715945"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047103"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft 팀 용 클라이언트 가져오기 
 ===========================
@@ -63,7 +63,7 @@ Windows 클라이언트는 사용자 프로필에 있는 AppData 폴더에 배�
 
 - % LocalAppData%\\Microsoft\\팀
 
-- % LocalAppData%\\Microsoft\\TeamsMeetingsAddin
+- % LocalAppData%\\Microsoft\\TeamsMeetingAddin
 
 - % AppData%\\Microsoft\\팀
 

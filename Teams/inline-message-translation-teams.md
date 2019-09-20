@@ -18,17 +18,17 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b6da80dda90c57a55a75c885b42bc08a824b613
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2eb68a06a24436b6c12e4ee5b59a24a0da92ca7e
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245352"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047085"
 ---
 <a name="turn-on-inline-message-translation-in-microsoft-teams"></a>Microsoft 팀에서 인라인 메시지 번역 켜기 
 =================================================
 
-인라인 메시지 번역은 사용자가 팀 메시지를 Office 365의 개인 언어 설정에서 지정한 [언어로](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) 자동으로 번역할 수 있는 새로운 Microsoft 팀 기능입니다.
+인라인 메시지 번역은 사용자가 팀 메시지를 Office 365의 개인 언어 설정에서 지정한 [언어로](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) 번역할 수 있는 새로운 Microsoft 팀 기능입니다.
 
 조직에 대해 기본적으로 인라인 메시지 번역이 롤아웃 됩니다. 사용자가 팀 클라이언트 내에서이 기능을 사용할 수 있도록 허용 하려면이 설정을 켜야 합니다.
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 2 개의 프런트 엔드 서버만 사용 하는 풀에 대 한 풀 관리, 쿼럼 손실, 특별 단계를 포함 하 여 비즈니스용 Skype 서버의 프론트 엔드 풀 관리에 대해 알아봅니다.
-ms.openlocfilehash: 719a6099ac4bd54d82a833548b2438d0e9d8cc2d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: e42e192d224d509356203c059751624fc706707b
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36197849"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047095"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>프런트 엔드 풀 고가용성 및 관리
  
@@ -52,7 +52,7 @@ ms.locfileid: "36197849"
 |mb  <br/> |되었는지  <br/> |
 |까지  <br/> |1천만  <br/> |
    
-이후 풀이 시작 될 때마다 서버의 85%가 시작 되어야 합니다 (앞의 표에 표시 된 대로). 이 서버 수를 시작할 수 없는 경우 (풀 수준의 쿼럼 손실에 해당 되지 않도록 충분 한 서버를 시작할 수 있음) `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` cmdlet을 사용 하 여이 라우팅 그룹 수준 쿼럼 손실에서 복구 하 고 진행률을 설정할 수 있습니다. 이 cmdlet을 사용 하는 방법에 대 한 자세한 <link Reset-CsPoolRegistrarState>내용은을 참조 하세요.
+이후 풀이 시작 될 때마다 서버의 85%가 시작 되어야 합니다 (앞의 표에 표시 된 대로). 이 서버 수를 시작할 수 없는 경우 (풀 수준의 쿼럼 손실에 해당 되지 않도록 충분 한 서버를 시작할 수 있음) `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` cmdlet을 사용 하 여이 라우팅 그룹 수준 쿼럼 손실에서 복구 하 고 진행률을 설정할 수 있습니다. 이 cmdlet을 사용 하는 방법에 대 한 자세한 내용은 [-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)을 참조 하세요. 
   
 > [!NOTE]
 > 서버 수가 짝수 인 풀에서 비즈니스용 Skype Server는 기본 SQL 데이터베이스를 미러링 모니터로 사용 합니다. 이와 같은 풀에서 기본 데이터베이스를 종료 하 고 미러 복사본으로 전환 하 여 앞의 표에 따라 실행 되지 않도록 충분 한 프런트 엔드 서버를 종료 하면 전체 풀이 중단 됩니다. 자세한 내용은 [데이터베이스 미러링 감시](https://go.microsoft.com/fwlink/?LinkId=393672)를 참조 하세요. 
