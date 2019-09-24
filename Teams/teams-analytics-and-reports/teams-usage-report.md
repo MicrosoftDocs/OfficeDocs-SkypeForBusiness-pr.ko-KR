@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 팀 관리 센터에서 팀 사용 보고서를 사용 하 여 조직의 팀 활동에 대 한 개요를 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d530ba8009cd113354a511b61589b409958ec276
-ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
+ms.openlocfilehash: 512b7844f1eb659758b95b8f0924506ce6542f41
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36667121"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131604"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft 팀 사용 보고서
 
@@ -28,10 +28,10 @@ Microsoft 팀 관리 센터의 팀 사용 보고서에서는 활성 사용자 �
 
 ## <a name="view-the-report"></a>보고서 보기
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **분석 & 보고서**를 클릭 한 다음 **보고서**에서 **팀 사용량**을 선택 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서** > **사용 현황 보고서**를 클릭 합니다. 보고서 **보기** 탭의 **보고서**에서 **팀 사용량**을 선택 합니다.
 2. **날짜 범위**아래에서 범위를 선택 하 고 **보고서 실행**을 클릭 합니다.
 
-![팀 관리 센터에서 설명선이 포함 된 팀 사용 보고서 스크린샷] (../media/teams-reports-teams-usage-with-callouts.png "팀 관리 센터에서 설명선이 포함 된 팀 사용 보고서 스크린샷")
+    ![팀 관리 센터에서 설명선이 포함 된 팀 사용 보고서 스크린샷] (../media/teams-reports-teams-usage-with-callouts.png "팀 관리 센터에서 설명선이 포함 된 팀 사용 보고서 스크린샷")
 
 ## <a name="interpret-the-report"></a>보고서 해석
 
@@ -43,7 +43,7 @@ Microsoft 팀 관리 센터의 팀 사용 보고서에서는 활성 사용자 �
 |**4(tcp/ipv4)**   |범례에서 항목을 클릭 하 여 차트에 표시 되는 내용을 필터링 할 수 있습니다. 예를 들어 **총 활성 사용자**, **팀 & 채널 활성 사용자**, **활성 채널**또는 **메시지** 를 클릭 하 여 각 항목에 관련 된 정보만 표시 합니다. 이 선택을 변경 해도 표의 정보는 변경 되지 않습니다. |
 |**5mb**   |이 표는 팀의 사용량을 분류 하 여 보여 줍니다. <ul><li>**팀 이름은** 팀의 표시 이름입니다. 팀 이름을 클릭 하 여 Microsoft 팀 관리 센터의 팀 설정 페이지로 이동할 수 있습니다. </li> <li>**개인 정보** 는 팀이 비공개 팀 인지 또는 공용 팀 인지를 나타냅니다.</li> <li>**활성 사용자** 는 지정 된 기간에 팀의 활성 사용자 수입니다.</li><li>**게스트** 는 지정 된 기간에 팀의 게스트 수입니다.</li> </li> </ul>사용자 계정이 더 이상 Azure AD에 존재 하지 않는 경우에는 테이블에 사용자 이름이 "--"로 표시 됨을 참고 하세요. <br><br>표에 원하는 정보를 표시 하려면 표에 열을 추가 해야 합니다. |
 |**26**   |**열 편집** 을 선택 하 여 테이블에 열을 추가 하거나 제거 합니다.|
-|**7**   |오프 라인 분석을 위해 보고서를 CSV 파일로 내보낼 수 있습니다. **Excel로 내보내기를**클릭 한 다음 **다운로드** 탭에서 **다운로드** 를 클릭 하 여 준비 된 보고서를 다운로드 합니다.<br><br>![내보낸 보고서를 다운로드 하 여 표시 하는 다운로드 탭 스크린샷](../media/teams-reports-export-to-csv.png)|
+|**7**   |오프 라인 분석을 위해 보고서를 CSV 파일로 내보낼 수 있습니다. **Excel로 내보내기를**클릭 한 다음 **다운로드** 탭에서 **다운로드** 를 클릭 하 여 준비 된 보고서를 다운로드 합니다.<br><br>![내보낸 보고서를 다운로드 하는 것을 보여 주는 다운로드 탭 스크린샷](../media/teams-reports-export-to-csv.png)|
 
 ## <a name="related-topics"></a>관련 항목
 

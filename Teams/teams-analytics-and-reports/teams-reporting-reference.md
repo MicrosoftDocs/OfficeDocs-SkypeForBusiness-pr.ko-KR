@@ -16,12 +16,12 @@ ms.collection:
 description: Microsoft 팀 관리 센터에서 사용할 수 있는 팀 보고서에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29675485d9a23b184641e8fa855fe2d87b4b80ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: de405a89b74a5e772e0f3d58027592d2e6ae4289
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234754"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131579"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft 팀 분석 및 보고
 
@@ -36,7 +36,7 @@ Microsoft 팀에 대 한 새로운 분석 및 보고 환경은 Microsoft 팀 관
 
 ## <a name="teams-reporting-reference"></a>팀 보고 참조
 
-Microsoft 팀 관리 센터에서 사용할 수 있는 팀 보고서 목록과 각 보고서에서 사용할 수 있는 정보에 대 한 개요가 나와 있습니다.
+Microsoft 팀 관리 센터에서 사용할 수 있는 팀 보고서 목록과 각 보고서에서 사용할 수 있는 일부 정보에 대 한 개요가 나와 있습니다.
 
 팀 보고 환경을 지속적으로 개선 하 고 기능 및 기능을 추가 하는 것입니다. 시간이 지남에 따라 Microsoft 팀 관리 센터에서 보고서에 추가 기능을 구축 하 고 새 보고서를 추가할 수 있습니다.
 
@@ -46,6 +46,9 @@ Microsoft 팀 관리 센터에서 사용할 수 있는 팀 보고서 목록과 �
 |[팀 사용자 활동 보고서](user-activity-report.md)  |  사용자가 참가 한 1:1 통화<br/>팀 채팅에 사용자가 게시 한 메시지<br/>사용자가 개인 채팅에 게시 한 메시지<br/>사용자의 마지막 활동 날짜     |
 |[팀 장치 사용 보고서](device-usage-report.md)   |  Windows 사용자<br/>Mac 사용자<br/>iOS 사용자<br/>Android 휴대폰 사용자     |
 |[팀 실시간 이벤트 사용 보고서](teams-live-event-usage-report.md)   |  총 보기<br>시작 시간<br>이벤트 상태<br>구성 도우미<br>여자<br>생산자<br>녹음/녹화 설정<br>프로덕션 유형    |
+|[팀 PSTN 차단 사용자 보고서](pstn-blocked-users-report.md)   |  표시 이름<br>전화 번호<br>설명은<br>작업 유형<br>작업 날짜 및 시간   |
+|[팀 PSTN 사용 보고서-통화 계획](pstn-usage-report.md#calling-plans)|  타임 스탬프<br>사용자 이름<br>전화 번호<br>통화 종류 <br>호출 대상<br>국가 또는 지역 <br>에서 호출 <br>국가 또는 지역에서<br>부과<br>통화<br>시간이<br>국내/국제<br>통화 ID<br>숫자 형식<br>국가 또는 지역<br>전화 회의 ID<br>기능 (라이선스)|
+|[팀 PSTN 사용 보고서-다이렉트 라우팅](pstn-usage-report.md#direct-routing)  |  타임 스탬프<br>표시 이름<br>SIP 주소<br>전화 번호 <br>통화 종류<br>호출 대상<br>시작 시간<br>초대 시간<br>실패 시간<br>종료 시간<br>시간이<br>숫자 형식<br>미디어 바이패스<br>SBC FQDN<br>Azure 지역<br>이벤트 유형<br>최종 SIP 코드<br>최종 Microsoft 하위 코드가<br>최종 SIP 구<br>Coorelation ID  |
 
 > [!NOTE]
 > 팀 보고서에는 활성 사용자 및 활성 팀에 대 한 데이터가 표시 됩니다. 예를 들어 조직의 사용자가 보고서에 대해 지정한 날짜 범위 중 팀에서 활성화 되어 있지 않은 경우 해당 사용자의 데이터는 해당 보고서에 포함 되지 않습니다.

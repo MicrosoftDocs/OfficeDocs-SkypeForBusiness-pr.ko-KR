@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 여러 테 넌 트를 처리 하도록 한 SBC (세션 경계 컨트롤러)를 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: d331fa51b8065ba7d1d39c7583beebbc093ddcce
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: d3defa7be5fc7e2f8c9d96017706329184c4ad59
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645314"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131650"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테 넌 트에 대 한 세션 경계 컨트롤러 구성
 
@@ -120,7 +120,7 @@ SBC는 연결을 인증 하는 데 인증서가 필요 합니다. SBC 호스팅 
 1.  Microsoft 365 관리 센터에서**** > **도메인 추가** **설정** > 으로 이동 합니다.
 2.  **소유 하는 도메인 입력** 상자에 기본 도메인의 FQDN을 입력 합니다. 다음 예제에서는 기본 도메인이 *customers.adatum.biz*.
 
-    ![도메인 추가 페이지를 보여주는 스크린샷](media/direct-routing-2-sbc-add-domain.png)
+    ![도메인 추가 페이지를 보여 주는 스크린샷](media/direct-routing-2-sbc-add-domain.png)
 
 3. **다음**을 클릭 합니다.
 4. 이 예제에서 테 넌 트에서 이미 확인 된 도메인 이름으로 adatum.biz를가지고 있습니다. Customers.adatum.biz는 이미 등록 된 이름에 대 한 하위 도메인이 기 때문에 마법사에서 추가 확인을 요청 하지 않습니다. 그러나 이전에 확인 되지 않은 FQDN을 추가 하는 경우에는 확인 프로세스를 거쳐야 합니다. 확인 프로세스는 [아래에서 설명](#add-a-subdomain-to-the-customer-tenant-and-verify-it)합니다.
@@ -173,7 +173,7 @@ SBC는 연결을 인증 하는 데 인증서가 필요 합니다. SBC 호스팅 
 
 6. 반송파의 DNS 호스팅 공급자에서 이전 단계의 값을 사용 하 여 TXT 레코드를 만듭니다.
 
-    ![TXT 레코드를 만드는 방법을 보여 주는 스크린샷](media/direct-routing-8-sbc-txt-record.png)
+    ![TXT 레코드 만들기를 보여 주는 스크린샷](media/direct-routing-8-sbc-txt-record.png)
 
     자세한 내용은 [Office 365 용 dns 호스팅 공급자에서 dns 레코드 만들기](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)를 참조 하세요.
 
@@ -192,7 +192,7 @@ SBC는 연결을 인증 하는 데 인증서가 필요 합니다. SBC 호스팅 
 
 11. 상태가 **설정 완료**인지 확인 합니다. 
     
-    ![설정 완료 상태를 보여 주는 페이지 스크린샷](media/direct-routing-12-sbc-setup-complete.png)
+    ![설정 완료 상태를 보여 주는 페이지의 스크린샷](media/direct-routing-12-sbc-setup-complete.png)
 
 ### <a name="activate-the-subdomain-name"></a>하위 도메인 이름 활성화
 
@@ -229,6 +229,7 @@ Microsoft는 직접적인 라우팅의 초기 릴리스에서 새 CSOnlinePSTNGa
 -    이름이 제안 하는 대로 파생 트렁크는 반송파 트렁크의 모든 구성 매개 변수를 상속 하거나 파생 합니다. 예제의
 -   Customers.adatum.biz – 반송파 테 넌 트에 만들어야 하는 반송파 트렁크입니다.
 -   Sbc1.customers.adatum.biz-고객 테 넌 트에서 PowerShell에서 만들 필요가 없는 파생 트렁크입니다.  온라인 음성 라우팅 정책의 고객 테 넌 트에서 파생 트렁크의 이름을 만들지 않고 간단히 추가할 수 있습니다.
+-   통신 회사는 파생 트렁크 FQDN을 통신 하는 DNS 레코드를 설정 해야 합니다.
 
 -   반송파 트렁크 (반송파 테 넌 트)에서 이루어진 변경 사항은 모두 파생 trunks에 자동으로 적용 됩니다. 예를 들어 통신 업체 트렁크에서 SIP 포트를 변경할 수 있으며,이 변경 내용은 파생 된 모든 trunks에 적용 됩니다. Trunks를 구성 하는 새로운 논리는 모든 사용자의 테 넌 트로 이동할 필요가 없으므로 관리를 간소화 하 고 모든 트렁크에서 매개 변수를 변경 합니다.
 -   옵션은 반송파 트렁크 FQDN 으로만 전송 됩니다. 반송파 트렁크의 상태는 파생 된 모든 trunks에 적용 되며 라우팅 결정에 사용 됩니다. 자세한 내용은 [다이렉트 라우팅 옵션](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)을 참고 하세요.

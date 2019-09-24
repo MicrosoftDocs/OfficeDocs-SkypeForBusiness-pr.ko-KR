@@ -3,64 +3,6 @@
 
 
 
-## <a name="week-of-august-12-2019"></a>8 월 12 일 (2019 주)
-
-
-| 게시 날짜 |주제 제목 | 바뀌지 |
-|------|------------|--------|
-| 8/13/2019 | [Exchange 및 Microsoft 팀의 상호 작용 방식](/MicrosoftTeams/exchange-teams-interact) | 으 |
-| 8/13/2019 | [Microsoft 365 정부의 GCC 배포 계획-Microsoft 팀](/MicrosoftTeams/plan-for-government-gcc) | 으 |
-| 8/13/2019 | [Microsoft 팀 \| 업그레이드, 군도 모드, Interop 정책](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 으 |
-| 8/13/2019 | [통화 품질 대시보드 켜기 및 사용](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 으 |
-| 8/14/2019 | [질문과 대답-비즈니스용 Skype에서 Microsoft 팀으로 업그레이드](/MicrosoftTeams/faq-journey) | 으 |
-| 8/14/2019 | [모임 설정 관리](/MicrosoftTeams/meeting-settings-in-teams) | 으 |
-| 8/14/2019 | [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 으 |
-| 8/14/2019 | [Microsoft 팀 사용자를 위한 강사 진행 교육 및 비디오](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 으 |
-| 8/14/2019 | [Microsoft 팀의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
-| 8/15/2019 | [Microsoft 팀의 운영 가이드](/MicrosoftTeams/1-drive-value-operate-my-service) | 으 |
-| 8/15/2019 | [Azure Monitor를 사용 하 여 Microsoft 팀 공간 관리 배포](/MicrosoftTeams/room-systems/azure-monitor-deploy) | 으 |
-| 8/15/2019 | [Azure Monitor를 사용 하 여 Microsoft 팀 회의실 장치 관리](/MicrosoftTeams/room-systems/azure-monitor-manage) | 으 |
-| 8/15/2019 | [Azure Monitor를 사용 하 여 Microsoft 팀 공간 관리 계획](/MicrosoftTeams/room-systems/azure-monitor-plan) | 으 |
-| 8/15/2019 | [Microsoft 팀 대화방 콘솔 구성](/MicrosoftTeams/room-systems/console) | 으 |
-| 8/15/2019 | [Skype 채팅방 시스템 도메인 참가 고려 사항](/MicrosoftTeams/room-systems/domain-joining-considerations) | 으 |
-| 8/15/2019 | [Microsoft 팀 대화방](/MicrosoftTeams/room-systems/index) | 으 |
-| 8/15/2019 | [알려진 문제점](/MicrosoftTeams/room-systems/known-issues) | 으 |
-| 8/15/2019 | [Microsoft 팀 대화방으로 Lync 채팅방 시스템 장치 마이그레이션](/MicrosoftTeams/room-systems/lrs-migration) | 으 |
-| 8/15/2019 | [Microsoft 팀 대화방 복구 도구 사용](/MicrosoftTeams/room-systems/recovery-tool) | 으 |
-| 8/15/2019 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/room-systems/requirements) | 으 |
-| 8/15/2019 | [System Center Configuration Manager를 사용 하 여 Microsoft 팀 대화방 배포](/MicrosoftTeams/room-systems/room-systems-scale) | 으 |
-| 8/15/2019 | [Microsoft 팀 대화방 계정 구성](/MicrosoftTeams/room-systems/room-systems-v2-configure-accounts) | 으 |
-| 8/15/2019 | [Microsoft 팀 회의실 유지 관리 및 운영](/MicrosoftTeams/room-systems/room-systems-v2-operations) | 으 |
-| 8/15/2019 | [Microsoft 팀 대화방 배포](/MicrosoftTeams/room-systems/room-systems-v2) | 으 |
-| 8/15/2019 | [Microsoft 팀 회의실 계획](/MicrosoftTeams/room-systems/skype-room-systems-v2-0) | 으 |
-| 8/15/2019 | [Microsoft 팀 대화방 관리 개요](/MicrosoftTeams/room-systems/skype-room-systems-v3) | 으 |
-| 8/15/2019 | [환경 준비](/MicrosoftTeams/room-systems/srs-v2-prep) | 으 |
-| 8/15/2019 | [버전 지원](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | 으 |
-| 8/15/2019 | [릴리스 정보](/MicrosoftTeams/room-systems/srs2-release-note) | 으 |
-| 8/15/2019 | [Microsoft 팀 대화방에 대 한 Windows 업데이트 관리](/MicrosoftTeams/room-systems/updates) | 으 |
-| 8/15/2019 | [Exchange와 함께 Microsoft 팀 대화방 배포 (온-프레미스)](/MicrosoftTeams/room-systems/with-exchange-on-premises) | 으 |
-| 8/15/2019 | [Exchange Online을 사용 하 여 Microsoft 팀 대화방 배포](/MicrosoftTeams/room-systems/with-exchange-online) | 으 |
-| 8/15/2019 | [Office 365를 사용 하 여 Microsoft 팀 대화방 배포](/MicrosoftTeams/room-systems/with-office-365) | 으 |
-| 8/15/2019 | [비즈니스용 Skype 서버를 사용 하 여 Microsoft 팀 회의실 배포](/MicrosoftTeams/room-systems/with-skype-for-business-server-2015) | 으 |
-| 8/15/2019 | [XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리](/MicrosoftTeams/room-systems/xml-config-file) | 으 |
-| 8/15/2019 | [팀 용 전화 및 장치](/MicrosoftTeams/teams-ip-phones) | 으 |
-| 8/15/2019 | [Microsoft 팀에서 실시간 이벤트 계획](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 으 |
-| 8/15/2019 | [Microsoft 팀의 모임 및 회의](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 으 |
-| 8/15/2019 | [Microsoft 팀의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
-| 8/15/2019 | [비즈니스용 Skype \| 모드에서의 Microsoft 팀 업그레이드, 공존](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 으 |
-| 8/15/2019 | [비즈니스를 \| 위한 관련자 참여 비즈니스용 Skype 업그레이드 계획](/MicrosoftTeams/upgrade-enlist-stakeholders) | 으 |
-| 8/15/2019 | [Microsoft 팀 업그레이드 시작 하기](/MicrosoftTeams/upgrade-start-here) | 으 |
-| 8/15/2019 | [비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레이드-Microsoft 팀](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 으 |
-| 8/15/2019 | [Microsoft 팀 \| 으로 업그레이드 비즈니스용 Skype 팀 로드맵](/MicrosoftTeams/upgrade-to-teams) | 으 |
-| 8/16/2019 | [우크라이나어의 사용 가능 여부](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine) | 으 |
-| 8/16/2019 | [XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리](/MicrosoftTeams/room-systems/content-camera) | 으 |
-| 8/16/2019 | [팀에 대 한 교대](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 으 |
-| 8/16/2019 | [전화 시스템-가상 사용자 라이선스](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 으 |
-| 8/16/2019 | [클라우드 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으 |
-| 8/16/2019 | [통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으 |
-| 8/16/2019 | [Office 365의 전화 시스템 이란?](/MicrosoftTeams/what-is-phone-system-in-office-365) | 으 |
-
-
 ## <a name="week-of-august-19-2019"></a>8 월 19 일 (주) 2019
 
 
@@ -238,3 +180,37 @@
 | 9/12/2019 | [빠른 시작-Microsoft 교육 관리자 용 팀](/MicrosoftTeams/teams-quick-start-edu) | 으 |
 | 9/12/2019 | [알려진 문제점](/MicrosoftTeams/room-systems/known-issues) | 으 |
 | 9/13/2019 | [Microsoft 팀에서 팀 보관 또는 삭제](/MicrosoftTeams/archive-or-delete-a-team) | 으 |
+
+
+## <a name="week-of-september-16-2019"></a>주 2019 년 9 월 16 일
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 9/16/2019 | [Microsoft 팀의 관리 교육](/MicrosoftTeams/itadmin-readiness) | 으 |
+| 9/16/2019 | [Microsoft 팀에서 사용자 지정 앱 정책 및 설정 관리](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 으 |
+| 9/17/2019 | [XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리](/MicrosoftTeams/room-systems/xml-config-file) | 으 |
+| 9/17/2019 | [Small business 예-자동 전화 교환 설정](/MicrosoftTeams/tutorial-org-aa) | 으 |
+| 9/17/2019 | [전화 시스템 다이렉트 라우팅 서비스 결정-Microsoft 팀](/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing) | 으 |
+| 9/17/2019 | [통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으 |
+| 9/17/2019 | [직접 라우팅 구성](/MicrosoftTeams/direct-routing-configure) | 으 |
+| 9/17/2019 | [전화 시스템 직접 라우팅](/MicrosoftTeams/direct-routing-landing-page) | 으 |
+| 9/17/2019 | [직접 라우팅 모니터링 및 문제 해결](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | 으 |
+| 9/17/2019 | [Microsoft 팀 상업용 클라우드 평가판 제안 관리](/MicrosoftTeams/iw-trial-teams) | 으 |
+| 9/17/2019 | [Microsoft 팀 보존 정책 FAQ](/MicrosoftTeams/retention-policies-faq) | 으 |
+| 9/17/2019 | [Microsoft 팀의 보존 정책](/MicrosoftTeams/retention-policies) | 으 |
+| 9/18/2019 | [Microsoft 팀 용 Office 365 라이선스](/MicrosoftTeams/office-365-licensing) | 으 |
+| 9/18/2019 | [Microsoft 팀의 조직 전체 출시에 대 한 경로를 선택 합니다.](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | 으 |
+| 9/18/2019 | [팀에서 자원 계정 관리](/MicrosoftTeams/manage-resource-accounts) | 으 |
+| 9/18/2019 | [Microsoft 팀에서 실시간 이벤트 계획](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 으 |
+| 9/18/2019 | [보이스 메일 인사말 및 메시지 용 언어](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | 으 |
+| 9/18/2019 | [Office 365 Business Premium](/MicrosoftTeams/teams-add-on-licensing/office-365-business-premium) | 으 |
+| 9/19/2019 | [Microsoft 팀의 알려진 문제점](/MicrosoftTeams/known-issues) | 으 |
+| 9/19/2019 | [Microsoft 팀 용 클라이언트 가져오기](/MicrosoftTeams/get-clients) | 으 |
+| 9/19/2019 | [Microsoft 팀에서 인라인 메시지 번역 켜기](/MicrosoftTeams/inline-message-translation-teams) | 으 |
+| 9/19/2019 | [Microsoft 팀에서 실시간 이벤트 설정](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 으 |
+| 9/20/2019 | [Exchange 및 Microsoft 팀의 상호 작용 방식](/MicrosoftTeams/exchange-teams-interact) | 으 |
+| 9/20/2019 | [Microsoft 팀의 알려진 문제점](/MicrosoftTeams/known-issues) | 으 |
+| 9/20/2019 | [팀의 사용자 현재 상태](/MicrosoftTeams/presence-admins) | 으 |
+| 9/20/2019 | [Microsoft 팀 \| 업그레이드, 군도 모드, Interop 정책](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 으 |
+| 9/20/2019 | [팀 (30 개)](/MicrosoftTeams/teams-in-30-workshops) | 으 |
