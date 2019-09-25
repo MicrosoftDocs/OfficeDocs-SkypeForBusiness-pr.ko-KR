@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cef8c6fbfd5ed0b19d6762b7508b311413d11066
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5bf9776dbf5a5992354f542436b4904d53d58508
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233286"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142048"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft 팀에서 Microsoft StaffHub 팀을 교대으로 옮기기
 
@@ -88,9 +88,11 @@ Microsoft 365 관리 센터에서 팀 라이선스를 관리 합니다. 자세�
 > [!NOTE]
 > 조직에서 비즈니스용 Skype를 사용 하는 경우 모든 사용자를 팀으로 이동할 준비가 되지 않은 경우, 팀을 비즈니스용 Skype와 함께 실행할 수 있는 Firstline Worker에 대 한 팀을 사용 하도록 설정할 수 있습니다. *아일랜드*라는이 공존 모드에서는 각 클라이언트 앱이 별도의 솔루션으로 작동 합니다. 자세한 내용은 [비즈니스용 Skype 공존 및 상호 운용성에 대해 팀 이해](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)를 참조 하세요.
 
-### <a name="install-the-staffhub-powershell-module"></a>StaffHub PowerShell 모듈 설치
+### <a name="install-the-prerelease-version-of-the-staffhub-powershell-module"></a>StaffHub PowerShell 모듈의 시험판 버전을 설치 합니다.
 
-아직 없는 경우 [StaffHub PowerShell 모듈을 설치](install-the-staffhub-powershell-module.md)합니다. 
+아직 설치 하지 않은 경우 [StaffHub PowerShell 모듈의 시험판 버전을 설치](install-the-staffhub-powershell-module.md)합니다. 
+
+StaffHub 팀을 팀으로 이동 하려면 시험판 버전의 모듈을 설치 해야 합니다.
 
 ### <a name="link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one"></a>StaffHub 팀 구성원에 대 한 Azure AD 계정 연결
 
@@ -126,7 +128,7 @@ foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where
 
 ### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>사용자에 게 FirstlineWorker 앱 설정 정책 할당
 
-팀에는 조직의 Firstline 작업자에 게 가장 중요 한 앱을 강조 표시 하도록 팀을 사용자 지정 하는 데 사용할 수 있는 기본 제공 FirstlineWorker 앱 설정 정책이 포함 되어 있습니다. 이 정책을 사용자에 게 할당 하면, 정책의 앱이 팀의 앱 표시줄에 고정 되므로 빠르고 쉽게 액세스할 수 있습니다. 팀에 추가 된 다른 앱은 앱 표시줄에서 다음을 클릭 하 여 찾을 수 있습니다. ** **팀 데스크톱 및 웹 클라이언트의 앱이 더 있고 팀 모바일 클라이언트에서 위로 살짝 밀어 보세요. 기본적으로 FirstlineWorker 앱 설정 정책에는 활동, 교대, 채팅 및 통화 앱이 포함 됩니다.
+팀에는 조직의 Firstline 작업자에 게 가장 중요 한 앱을 강조 표시 하도록 팀을 사용자 지정 하는 데 사용할 수 있는 기본 제공 FirstlineWorker 앱 설정 정책이 포함 되어 있습니다. 이 정책을 사용자에 게 할당 하면, 정책의 앱이 팀의 앱 표시줄에 고정 되므로 빠르고 쉽게 액세스할 수 있습니다. 팀에 추가 된 다른 앱은 앱 표시줄에서 다음을 클릭 하 여 찾을 수 **있습니다. **팀 데스크톱 및 웹 클라이언트의 앱이 더 있고 팀 모바일 클라이언트에서 위로 살짝 밀어 보세요. 기본적으로 FirstlineWorker 앱 설정 정책에는 활동, 교대, 채팅 및 통화 앱이 포함 됩니다.
 
 FirstlineWorker 앱 설치 정책을 사용자에 게 할당 하는 방법에 대 한 단계는 [FirstlineWorker 앱 설정 정책을 사용 하 여 팀에 고정](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams)을 참조 하세요. 정책을 할당 하면 적용 되는 데 최대 24 시간이 걸릴 수 있습니다.
 

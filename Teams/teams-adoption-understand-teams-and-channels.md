@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d4ed6cb14322569e851236eba86bc3b4470f8c7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c077d49a09210862936d94d46708db95efe4585b
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240774"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142059"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft 팀의 팀 및 채널 이해
 
@@ -32,7 +32,7 @@ ms.locfileid: "36240774"
 
 - 채널은 실제 작업 시간이 완료 된 팀 내의 공동 작업 공간입니다. 
 
-팀과 채널에 대 한 자세한 내용은 [Microsoft 팀의 팀 및 채널 개요](teams-channels-overview.md)를 참조 하세요. 종합적인 팀 채택을 안내 하는 경우 [팀 채택을 가이드](https:aka.ms/teamstoolkit)하세요. 팀 및 Office 365 그룹에 대 한 자세한 내용은 [office 365 그룹 및 Microsoft 팀](office-365-groups.md) 을 참조 하 고 [office 365 그룹에 대해 자세히 알아보세요](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+팀과 채널에 대 한 자세한 내용은 [Microsoft 팀의 팀 및 채널 개요](teams-channels-overview.md)를 참조 하세요. 종합적인 팀 채택을 안내 하는 경우 [팀 채택을 가이드](https://aka.ms/teamstoolkit)하세요. 팀 및 Office 365 그룹에 대 한 자세한 내용은 [office 365 그룹 및 Microsoft 팀](office-365-groups.md) 을 참조 하 고 [office 365 그룹에 대해 자세히 알아보세요](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
