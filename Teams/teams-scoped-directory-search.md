@@ -18,18 +18,21 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 068a37af62ea31c53caed8c9dc22feec6fd60ec6
-ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
+ms.openlocfilehash: 4e3b95e9d8de04abc6299a52a27cf07d95365a4f
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "36184799"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305802"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft 팀 범위 디렉터리 검색 사용
 
 Microsoft 팀 범위 디렉터리 검색을 통해 조직에서 사용자가 조직의 다른 사용자를 찾고 통신 하는 방법을 제어 하는 가상 경계를 만들 수 있습니다. 
 
 Microsoft 팀은 조직에서 사용자에 게 디렉터리에 대 한 사용자 지정 보기를 제공할 수 있습니다. Microsoft 팀은 [Exchange 주소록 정책을](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) 사용 하 여 이러한 사용자 지정 보기를 지원 합니다. 정책을 사용 하도록 설정한 후에는 다른 사용자를 검색 하 여 반환 된 결과 (예: 채팅을 시작 하거나 팀에 구성원을 추가 하는 것)는 구성 된 정책에 따라 범위가 지정 됩니다. 범위 검색이 적용 되는 경우 사용자가 팀을 검색 하거나 검색할 수 없습니다. 
+
+> [!NOTE]
+> Exchange 하이브리드 환경에서이 기능은 온-프레미스 사서함이 아닌 Exchange Online 사서함 에서만 작동 합니다.
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>범위 디렉터리 검색은 언제 사용 해야 하나요?
 
@@ -49,7 +52,7 @@ Microsoft 팀은 조직에서 사용자에 게 디렉터리에 대 한 사용자
 
 2. Microsoft 팀 관리 센터에서 **조직 전체 설정** > **팀 설정을**선택 합니다.
 
-3. **검색**에서 **Exchange 주소록 정책 (apb)을 사용 하는 팀의 범위 디렉터리 검색**옆에 있는 토글을 켭니다 ****.
+3. **검색**에서 **Exchange 주소록 정책 (apb)을 사용 하는 팀의 범위 디렉터리 검색** **옆에 있는 토글을**켭니다.
 
     ![Microsoft 팀 관리 센터의 범위 디렉터리 검색](media/teams-scoped-directory-search-image1.png)
 

@@ -18,12 +18,12 @@ description: IT 관리자는 해당 도메인의 사용자 들이 팀에 참여�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: dedda63d5ec97d914ba6bd1a70b7e5b3f1d9d7ee
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: f39760eb971a333373191b444abbb72395f13737
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838115"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305764"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft 팀에서 외부 액세스 관리
 ======================================================
@@ -70,7 +70,7 @@ Microsoft 팀 외부 액세스를 사용 하면 다른 도메인의 팀 사용�
 | 사용자가 외부 파티로 식별 됨 | ' | ' |
 | 현재 상태 표시 | ' | ' |
 | 부재 중 메시지 표시 됨 | 아니요 | ' |
-| 개별 사용자를 차단할 수 있습니다. | 아니요 | ' |
+| 개별 사용자를 차단할 수 있습니다. | 아니요 | 아니요 |
 | 지원 되는 @mentions | 아니요 | ' |
 | 비공개 통화 만들기 | ' | ' |
 | IP 영상 허용 | ' | ' |

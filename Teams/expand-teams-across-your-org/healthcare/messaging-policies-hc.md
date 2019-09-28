@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 의료 조직의 보안 메시지 시작 하기
-ms.openlocfilehash: 154588eb1008bd1cd2749642fb2b9c994d9fb647
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6fa8ceef15b0f88a4624ebaaeaa177c4f0d1e1e3
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232339"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37306685"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>의료 조직의 보안 메시지 시작 하기
 
@@ -28,7 +28,7 @@ ms.locfileid: "36232339"
 
 관리자 자격 증명을 사용 하 여 로그인 하 고 왼쪽 탐색 창에서 **메시징 정책을** 선택 하 여 [Microsoft 팀 관리 센터](http://admin.teams.microsoft.com) 에서 정책을 쉽게 관리할 수 있습니다.
 
- ![메시지 정책 페이지 스크린샷](../../media/messaging-policies-image1.png)
+ ![메시징 정책 페이지 스크린샷](../../media/messaging-policies-image1.png)
 
 조직의 기존 기본 메시징 정책을 편집 하려면 **전역 (조직 전체 기본값)** 행을 클릭 한 다음 변경 작업을 수행 합니다. 새 사용자 지정 메시징 정책을 만들려면 **새 정책을** 클릭 하 고 설정을 선택 합니다. 완료 되 면 **저장** 을 선택 합니다.
 
@@ -47,8 +47,6 @@ ms.locfileid: "36232339"
     *읽음 확인을 사용한 사용 예:* 위험도가 높은 Jakob Roth는 병원에 게 참석할 수 있습니다.소피아 Krause는 다른 전문가를 포함 하 여 IDT (disciplinary 팀) 의료 노동자의 일부로 작동 하는 nurse이 환자를 담당 하는 기본 의료 코디네이터로 지정 됩니다.  소피아는 doctors 및 기타 nurses에 대 한 그룹 채팅을 시작 하 고 환자를 사용 하 여 주의를 조정 하 고 긴급 문제 분류를 시작 합니다.Nurses 및 doctors는 의료 조정 프로세스에서 환자 관리 계획을 통해 통신 하 고 공동 작업 합니다.  중요 하 고 긴급 한 메시지는 1:1 및 그룹 채팅 대화를 통해 전송 됩니다. 소피아에서는 읽음 확인 기능을 사용 하 여 요청 지원이 지원 되는 메시지를 전달 하 고 대상 의사 또는 nurses에서 읽도록 할 수 있습니다. Jakob의 환자 결과는 가까이에 있으며, 귀하의 의료 팀이 원활 하 게 통신 하기 때문에 집에 더 빨리 전달 됩니다.
 
 ## <a name="priority-notifications"></a>우선 순위 알림
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 

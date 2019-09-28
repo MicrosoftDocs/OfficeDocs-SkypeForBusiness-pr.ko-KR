@@ -26,12 +26,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab31a067c9a39909416228e3d580ca28c105b3da
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 80f35070b520d53db87b21c9c382a116db83ed4b
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483949"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305753"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Microsoft 팀 업그레이드 시작 하기
 
@@ -53,7 +53,7 @@ Microsoft 팀은 채팅, 모임, 통화, 공동 작업, 앱 통합, 파일 저�
  
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Microsoft는 고객에 게 팀으로 업그레이드 하는 데 도움이 되는 것은 무엇 인가요? 
 
-Microsoft는 비즈니스용 Skype에서 팀으로의 전환을 성공적으로 진행 하는 데 최선을 다하고 있습니다. Microsoft는 팀으로 업그레이드를 계획 하 고 실행 하는 데 도움이 되도록 설계 된 검증 되 고 종단간 업그레이드 성공 프레임 워크를 통해 강력한 지침을 제공 합니다. 이 가이드는 계획을 시작 하는 것이 든, 이미 비즈니스용 Skype와 함께 팀을 실행 중이거나, 팀으로 업그레이드할 준비가 되었는지에 관계 없이 업그레이드의 모든 단계에 맞게 설계 되었습니다.
+Microsoft는 비즈니스용 Skype에서 팀으로의 전환을 성공적으로 수행 하기 위해 최선을 다하고 있습니다. Microsoft는 팀으로 업그레이드를 계획 하 고 실행 하는 데 도움이 되도록 설계 된 검증 되 고 종단간 업그레이드 성공 프레임 워크를 통해 강력한 지침을 제공 합니다. 이 가이드는 계획을 시작 하는 것이 든, 이미 비즈니스용 Skype와 함께 팀을 실행 중이거나, 팀으로 업그레이드할 준비가 되었는지에 관계 없이 업그레이드의 모든 단계에 맞게 설계 되었습니다.
 
 업그레이드 계획 및 구현을 용이 하 게 하기 위해 Microsoft는 업그레이드 프레임 워크에 맞게 설계 된 무료 실시간 대화형 업그레이드 계획 워크샵을 호스팅하고 있으며,이를 위해 사용자를 준비 하기 위해 정보를 공유할 수 있습니다. 를 업그레이드 하 고 팀에 대 한 여행에서 조직의 올바른 경로를 식별 합니다. 업그레이드 계획 개요 세션에 참가 [https://aka.ms/SkypeToTeamsPlanning](https://aka.ms/SkypeToTeamsPlanning)합니다.
  
