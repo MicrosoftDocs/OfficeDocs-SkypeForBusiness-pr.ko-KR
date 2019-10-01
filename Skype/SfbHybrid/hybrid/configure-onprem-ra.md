@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에 대 한 리소스 계정을 설정 합니다.
-ms.openlocfilehash: 72c56d8534eeacf9b3430e4439c2f40ab1f51f6d
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 0439532eba2639dc836f62fff94531d4930f03e0
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790864"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328302"
 ---
 # <a name="configure-resource-accounts"></a>자원 계정 구성
 
 비즈니스용 Skype Server 2019 하이브리드 구현은 통합 메시징을 위해 전화 시스템에서 제공 하는 클라우드 서비스만 사용 하 고 Exchange Online과 통합 하지 마세요. 비즈니스용 Skype 서버 2019에서 이제 클라우드 통화 대기열과 자동 전화를 사용할 수 있습니다 [Office 365에서 전화 시스템을](/MicrosoftTeams/here-s-what-you-get-with-phone-system)사용 하 여 다음을 수행 하세요.
 
-비즈니스용 Skype Server 2019에서 전화 시스템 자동 전화 교환 또는 통화 대기열을 사용 하려면 응용 프로그램 끝점 역할을 하는 리소스 계정을 만들고 전화 번호를 할당 하 고 온라인 팀 관리 센터를 사용 하 여 통화 대기열을 구성 해야 합니다. 자동 전화 교환. 이 리소스 계정은이 문서에서 설명 하는 대로 온라인 ( [Microsoft 팀의 리소스 계정 관리](/MicrosoftTeams/manage-resource-accounts) ) 또는 온-프레미스로 할 수 있습니다. 일반적으로 여러 개의 전화 시스템 자동 전화 교환 또는 통화 대기열 노드가 있으며, 각각은 리소스 계정으로 매핑되고 온라인 또는 비즈니스용 Skype 서버 2019에 있습니다.
+비즈니스용 Skype Server 2019에서 전화 시스템 자동 전화 교환 또는 통화 대기열을 사용 하려면 응용 프로그램 끝점 역할을 하는 리소스 계정을 만들고 전화 번호를 할당 하 고 온라인 팀 관리 센터를 사용 하 여 통화 대기열을 구성 해야 합니다. 자동 전화 교환. 이 리소스 계정은이 문서에서 설명 하는 대로 온라인 ( [Microsoft 팀의 자원 계정 관리](/MicrosoftTeams/manage-resource-accounts) ) 또는 온-프레미스로 할 수 있습니다. 일반적으로 여러 개의 전화 시스템 자동 전화 교환 또는 통화 대기열 노드가 있으며, 각각은 리소스 계정으로 매핑되고 온라인 또는 비즈니스용 Skype 서버 2019에 있습니다.
 
 기존 Exchange UM 자동 전화 교환 및 통화 대기열 시스템을 사용 하는 경우 Exchange Server 2019 또는 Exchange online으로 전환 하기 전에 아래 설명 된 대로 세부 정보를 수동으로 기록해 야 하 고 팀 관리 센터를 사용 하 여 완전히 새로운 시스템을 구현 해야 합니다. .
 
@@ -33,7 +33,7 @@ ms.locfileid: "36790864"
 1. 서비스 번호 가져오기
 2. 무료 전화 시스템- [가상 사용자 라이선스](/MicrosoftTeams/teams-add-on-licensing/virtual-user) 또는 리소스 계정과 함께 사용 하는 유료 전화 시스템 라이선스를 취득 하세요.
 3. 자원 계정을 만듭니다. 연결 된 리소스 계정이 있는 경우 자동 전화 교환 또는 통화 대기열이 필요 합니다.
-4. 온라인 및 온-프레미스 간의 active directory 동기화가 끝날 때까지 기다립니다.
+4. 온라인 및 온-프레미스 간에 active directory 동기화가 끝날 때까지 기다립니다.
 5. 전화 시스템 라이선스를 리소스 계정에 할당 합니다.
 6. 서비스 번호를 리소스 계정에 할당 합니다.
 7. 전화 시스템 통화 대기열 또는 자동 전화 교환을 만듭니다.
@@ -46,7 +46,7 @@ ms.locfileid: "36790864"
 생성 하는 전화 시스템 자동 전화 교환 또는 통화 대기열이 중첩 되 고 전화 번호가 필요 하지 않은 경우 프로세스는 다음과 같이 수행 됩니다.
 
 1. 자원 계정 만들기  
-2. 온라인 및 온-프레미스 간 active directory 동기화 대기
+2. 온라인 및 온-프레미스 간에 active directory 동기화 대기
 3. 전화 시스템 자동 전화 교환 또는 통화 대기열 만들기
 4. 리소스 계정을 전화 시스템 자동 전화 교환 또는 통화 대기열과 연결
 
@@ -74,7 +74,7 @@ ms.locfileid: "36790864"
 
     이 명령에 대 한 자세한 내용은 [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 을 참조 하세요.
 
-4. ) 리소스 계정을 만든 후에는 광고가 온라인 및 구내 간에 동기화 될 때까지 기다리거나 동기화를 강제 하 고 전화 시스템 자동 전화 교환 또는 통화 대기열의 온라인 구성으로 계속 진행할 수 있습니다. 강제로 동기화 하려면 AAD Connect를 실행 하는 컴퓨터에서 다음 명령을 실행 합니다 (명령을 실행 하기 위해 이미 로드 `import-module adsync` 해야 하는 경우에는 완료 하지 않은 경우).
+4. ) 리소스 계정을 만든 후에는 광고가 온라인 및 온-프레미스 간에 동기화 될 때까지 기다리거나, 동기화를 강제 하 고 전화 시스템 자동 전화 교환 또는 통화 대기열의 온라인 구성으로 진행할 수 있습니다. 강제로 동기화 하려면 AAD Connect를 실행 하는 컴퓨터에서 다음 명령을 실행 합니다 (명령을 실행 하기 위해 이미 로드 `import-module adsync` 해야 하는 경우에는 완료 하지 않은 경우).
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -119,7 +119,7 @@ ms.locfileid: "36790864"
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>전화 번호 없이 자원 계정 만들기
 
-이 섹션에서는 온-프레미스에 속한 리소스 계정 만들기에 대해 설명 합니다. 온라인 인 리소스 계정을 만들려면 [Microsoft 팀의 자원 계정 관리](/MicrosoftTeams/manage-resource-accounts)에서 설명 합니다.
+이 섹션에서는 온-프레미스에 속한 자원 계정 만들기에 대해 설명 합니다. 온라인 인 리소스 계정을 만들려면 [Microsoft 팀의 자원 계정 관리](/MicrosoftTeams/manage-resource-accounts)에서 설명 합니다.
 
 이러한 단계는 새 전화 시스템 자동 전화 교환 또는 통화 대기열 구조를 만들거나 Exchange UM에서 원래 만든 구조를 다시 만드는 경우에 필요 합니다.
 
@@ -133,7 +133,7 @@ ms.locfileid: "36790864"
 
     이 명령에 대 한 자세한 내용은 [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 을 참조 하세요.
 
-2. ) 리소스 계정을 만든 후에는 광고가 온라인 및 구내 간에 동기화 될 때까지 기다리거나 동기화를 강제 하 고 전화 시스템 자동 전화 교환 또는 통화 대기열의 온라인 구성으로 계속 진행할 수 있습니다. 강제로 동기화 하려면 AAD Connect를 실행 하는 컴퓨터에서 다음 명령을 실행 합니다 (명령을 실행 하기 위해 이미 로드 `import-module adsync` 해야 하는 경우에는 완료 하지 않은 경우).
+2. ) 리소스 계정을 만든 후에는 광고가 온라인 및 온-프레미스 간에 동기화 될 때까지 기다리거나, 동기화를 강제 하 고 전화 시스템 자동 전화 교환 또는 통화 대기열의 온라인 구성으로 진행할 수 있습니다. 강제로 동기화 하려면 AAD Connect를 실행 하는 컴퓨터에서 다음 명령을 실행 합니다 (명령을 실행 하기 위해 이미 로드 `import-module adsync` 해야 하는 경우에는 완료 하지 않은 경우).
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta

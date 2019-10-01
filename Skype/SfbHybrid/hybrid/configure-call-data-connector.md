@@ -10,19 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype Online 도구를 사용 하 여 온-프레미스로 원격 분석을 볼 수 있도록 하는 Call Data Connector 구성에 대 한 지침입니다.
-ms.openlocfilehash: 1851e1e0c430107a27d706f7bc16ad974c5abaed
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 48af644523e9872107c814aa330d2af2d9a4272f
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36185556"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328377"
 ---
 # <a name="configure-call-data-connector"></a>통화 데이터 커넥터 구성
 
-이 문서에서는 비즈니스용 Skype Online for CQD (온라인 통화 품질 대시보드) 및 CA (전화 분석) 도구를 사용 하 여 비즈니스용 Skype 서버 통화 품질 데이터를 볼 수 있는 단일 도구 집합 인 Call Data Connector를 구성 하는 방법을 설명 합니다. 
-
-> [!NOTE]
-> 공용 preview 릴리스에서는 통화 분석 대시보드만 사용할 수 있습니다.
+이 문서에서는 비즈니스용 Skype Online for CQD (온라인 통화 품질 대시보드) 및 CA (전화 분석) 도구를 사용 하 여 비즈니스용 Skype 서버 통화 품질 데이터를 볼 수 있는 단일 도구 집합 인 Call Data Connector를 구성 하는 방법을 설명 합니다.
 
 통화 데이터 커넥터 혜택 및 역할 요구 사항, 하이브리드 연결 설정 등의 필수 구성 요소에 대 한 자세한 내용은 [요금제 호출 데이터 커넥터](plan-call-data-connector.md)를 참고 하세요.
 
@@ -139,8 +136,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>온라인 대시보드를 통해 온-프레미스 데이터 보기
 
- 통화 데이터 커넥터를 사용 하도록 설정한 후에는 통화 분석 대시보드에서의 온-프레미스 통화 데이터를 보고 [낮은 품질의 문제를 해결할](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)수 있습니다.
-
+ 통화 데이터 커넥터를 사용 하도록 설정한 후에는 통화 분석 대시보드에서의 온-프레미스 호출 데이터를 사용 하 여 콜 분석 대시보드의 통화 품질 대시보드에서 [문제 해결](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) 에 대 한 자세한 음질을 확인 하 고 [통화 품질 대시보드를 켜고 사용할 수 있습니다. Microsoft 팀 및 비즈니스용 Skype Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard).
 
 ## <a name="for-more-information"></a>자세한 내용은
 

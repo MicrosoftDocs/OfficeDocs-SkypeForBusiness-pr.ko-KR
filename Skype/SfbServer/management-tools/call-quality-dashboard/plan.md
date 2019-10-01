@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '요약: 통화 품질 대시보드 계획을 수립할 때 고려해 야 할 사항에 대해 알아봅니다.'
-ms.openlocfilehash: 84fa8672e561cbf91714b3d18276de401f2ab377
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c98828f8fed3567a892e20dcab8040bb731c91f2
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186885"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328440"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 통화 품질 대시보드 계획 
  
@@ -27,15 +27,14 @@ ms.locfileid: "36186885"
 비즈니스용 Skype Server 통화 품질 대시보드 (CQD)는 비즈니스용 Skype 서버의 모니터링 서버에 있는 환경 데이터베이스의 품질에 대 한 보고 계층입니다. CQD는 Microsoft SQL Server Analysis Services를 사용 하 여 데이터 집합에서 필터링 및 피벗을 비롯 한 집계 사용 및 통화 품질 정보를 제공 합니다. CQD 기능에는 다음이 포함 됩니다.
   
 - **CQD의 체감 품질 Archive 구성 요소를 통해 체감 품질 데이터의 보관 저장소.** 체감 품질 보관 구성 요소는 모니터링 서버에서 사용할 수 있는 것 보다 훨씬 긴 기간에 대 한 체감 품질 데이터를 저장할 수 있습니다. 이 기능을 사용 하면 데이터를 포함 하 여 보고 창을 한 번에 최대 7 개월 동안 추세와 보고할 수 있습니다.
-    
 - **Microsoft SQL Server Analysis Services의 전원과 속도를 사용 하 여 보고 및 분석** CQD는 Microsoft SQL Analysis Services를 이용 하 여 빠른 요약, 필터 및 피벗 기능을 제공 하 여 분석 큐브를 통해 대시보드의 전원을 켭니다. 실행 속도를 보고 하 고 데이터를 드릴 다운 하는 기능을 통해 분석 시간을 대폭 줄일 수 있습니다.
-    
 - **통화 품질 보고를 위해 최적화 된 새 데이터 스키마입니다.** 큐브에는 음성 품질 보고 및 조사를 위해 디자인 된 스키마가 있습니다. 포털 사용자는 체감 품질 메트릭 데이터베이스 스키마가 필요한 뷰에 매핑되는 방법을 파악 하는 대신 보고 작업에 집중할 수 있습니다. 체감 품질 보관 및 큐브의 조합은 CQD를 통해 보고 및 분석의 복잡성을 줄이는 추상화를 제공 합니다. 체감 품질 보관 데이터베이스 스키마에는 데이터의 전체 값을 향상 시키기 위해 배포 관련 데이터로 채울 수 있는 테이블도 포함 되어 있습니다.
-    
 - **기본 제공 보고서 디자이너 및 현재 위치 보고서 편집** 포털 구성 요소에는 통화 품질 방법론 다음에 모델링 된 여러 개의 기본 제공 보고서가 제공 됩니다. 포털 사용자는 포털의 편집 기능을 통해 보고서를 수정 하 고 새 보고서를 만들 수 있습니다.
-    
 - **보고서 구조 및 분석 큐브 데이터에 대 한 Web API 액세스** 대시보드 보고 프레임 워크는 큐브의 데이터를 표시 하는 유일한 방법은 아닙니다. CQD는 HTML 및 JavaScript를 사용 하 여 CQD 웹 Api에서 데이터를 검색 하 고 사용자 지정 형식으로 데이터를 렌더링 하는 몇 가지 예제를 제공 합니다. 보고서 편집기와 CQD 웹 Api를 함께 사용 하면 보고서 및 사용자 지정 보고서 레이아웃을 빠르게 프로토타입화 할 수 있습니다.
-    
+
+> [!NOTE]
+> 이제 관리자가 [Cqd 버전 3](https://cqd.teams.microsoft.com) (관리자 자격 증명으로 로그인)을 사용 하 여 비즈니스용 Skype 서버 2019를 관리할 수 있습니다. 이를 위해서는 하이브리드 구현과 CDC (Call Data Connector)를 사용 해야 합니다. CDC를 사용 하는 방법에 대 한 자세한 내용은 [통화 데이터 커넥터 계획](/SkypeForBusiness/hybrid/plan-call-data-connector) 을 참조 하세요. CQD 버전 3 설명서의 경우 CQD 버전 3에 대 한 자세한 내용은 [Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) 을 참조 하세요.
+
 ## <a name="cqd-design-goals"></a>CQD 디자인 목표
 
 CQD IT 전문가는 집계 데이터를 사용 하 여 미디어 품질 문제를 발생 하는 환경에서 포커스 영역을 식별할 수 있습니다. It 전문가는 여러 사용자 그룹의 통계를 비교 하 고 경향과 패턴을 확인할 수 있습니다. 개별 전화 문제를 해결 하는 데 중점을 두고 있지는 않지만 지정 된 환경의 여러 사용자에 게 적용 되는 문제 및 솔루션을 식별 합니다. 
@@ -162,8 +161,15 @@ CQD는 여러 개의 비즈니스용 Skype 서버 토폴로지가 있는 경우,
   
 |||
 |:-----|:-----|
+|CQD 2015 <br/> |  <br/> |
 |지원 되는 운영 체제  <br/> |Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2  <br/> |
 |지원 되는 SQL Server  <br/> |Sql Server 2012, SQL Server 2014, SQL Server 2016  <br/> |
+
+|||
+|:-----|:-----|
+|CQD 2019 <br/> |  <br/> |
+|지원 되는 운영 체제  <br/> |Windows Server 2016, Windows Server 2019  <br/> |
+|지원 되는 SQL Server  <br/> |SQL Server 2017, SQL Server 2019  <br/> |
    
 CQD는 Microsoft SQL Server, Microsoft SQL Server Analysis Services, Microsoft 인터넷 정보 서비스를 이용 하므로, CQD의 최소 하드웨어 및 소프트웨어 요구 사항은 기본적으로 해당 종속 구성 요소와 동일 합니다. 그러나 데이터 유효성에 대 한 조직의 요구 사항 (조직이 생성 하는 체감 품질 데이터의 볼륨에 따라 달라질 수 있음)과 배포 비용을 기준으로 추가 배포 고려 사항이 적용 되어야 합니다.
   
@@ -240,6 +246,8 @@ CQD에는 다음과 같은 운영 체제가 필요 합니다.
 - Windows Server 2012 R2 (IIS 8.5 포함)
 
 - Windows Server 2016 (IIS 10.0 포함) (비즈니스용 Skype Server 2019 CQD에만 해당)
+
+- Windows Server 2019 (비즈니스용 Skype Server 2019 CQD에만 해당)
     
 다음은 필수 IIS 역할 서비스 (계층적 순서)입니다.
   
@@ -293,6 +301,8 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 - SQL Server 2016
 
 - SQL Server 2017
+
+- SQL Server 2019 (비즈니스용 Skype Server 2019 CQD에만 해당)
     
 비즈니스 인텔리전스 또는 엔터프라이즈 버전이 성능상의 이유로 적합 합니다. 이러한 버전은 여러 달 이상에 걸쳐 데이터를 처리 하는 데 도움이 되는 여러 파티션 파일을 병렬로 처리할 수 있도록 허용 합니다. 
   

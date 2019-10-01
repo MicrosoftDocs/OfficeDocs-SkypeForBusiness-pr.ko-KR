@@ -21,12 +21,12 @@ f1keywords: ms.teamsadmincenter.voice.callerid.overview
 ms.custom:
 - Calling Plans
 description: 발신자 ID는 CallingLineIdentity 이라는 정책을 사용 하 여 전화 시스템 사용자에 대 한 인바운드와 아웃 바운드 호출 모두에 대해 제어할 수 있습니다.
-ms.openlocfilehash: 31948a8361d8ae5a15ce84549d982d0c7f9adf1b
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: f5357ae8c19182329a7c82651ac74a6727228d03
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484040"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328313"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>조직에서 발신자 ID를 사용 하는 방법
 
@@ -49,7 +49,7 @@ ms.locfileid: "36484040"
   
 - 사용자에 게 할당 된 전화 번호입니다 (기본값).
     
-- Office 365 전화 번호 인벤토리에 있는 통화 요금제에서 *서비스* 및 무료 번호로 분류 된 전화 번호입니다. ** 일반적으로 조직 자동 전화 교환 또는 통화 대기열에 할당 됩니다.
+- Office 365 전화 번호 인벤토리에 있는 통화 요금제 ** 에서 서비스 *및 무료 번호로 분류* 된 전화 번호입니다. 일반적으로 조직 자동 전화 교환 또는 통화 대기열에 할당 됩니다.
     
 - 익명으로 설정 합니다.
     
@@ -77,6 +77,8 @@ EnableUserOverride 특성을 사용 하면 단일 또는 여러 사용자가 자
 |Ac  <br/> |비즈니스용 Skype  <br/> |아니요  <br/> |
    
 ## <a name="inbound-caller-id"></a>인바운드 발신자 ID
+
+숫자가 Azure AD의 사용자와 연결 된 경우 전화 시스템에 외부 전화 번호의 ID가 표시 됩니다. 전화 번호가 Azure AD에 없으면 telco 제공 된 표시 이름이 표시 됩니다 (사용 가능한 경우).
 
 BlockIncomingCallerID 특성을 사용 하면 들어오는 PSTN 호출에 대 한 발신자 ID를 차단할 수 있습니다. 이 특성을 설정할 수 있지만 사용자 설정 페이지에서는 최종 사용자가 사용할 수 없습니다. 현재는 온라인 PSTN 연결 에서만 사용할 수 있습니다.
   

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype Online 원격 분석 도구를 사용 하 여 하이브리드 시나리오에서 온-프레미스 구현을 모니터링 하는 방법에 대해 간략하게 설명 합니다.
-ms.openlocfilehash: dc129ed99e1ed69e3faf5d2a7b6923f818c482eb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3300ad17b109ac069c4f7382f610dd0214b30197
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36185514"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328430"
 ---
 # <a name="plan-call-data-connector"></a>통화 데이터 커넥터 계획
 
@@ -23,8 +23,6 @@ ms.locfileid: "36185514"
 
 이 항목에서는 비즈니스용 Skype Server Call Data Connector를 구현 하기 위한 이점, 계획 고려 사항, 요구 사항에 대해 설명 합니다. 통화 데이터 커넥터를 구성 하는 방법에 대 한 자세한 내용은 [Call Data Connector 구성을](configure-call-data-connector.md)참조 하세요.
 
-> [!NOTE]
-> 공용 preview 릴리스에서는 통화 분석 대시보드만 사용할 수 있습니다.
 
 호출 데이터 커넥터는 더 이상 다른 온-프레미스 및 온라인 도구 집합을 사용 하 여 모든 사용자 통화 품질을 모니터링할 필요가 없기 때문에 하이브리드 환경에서 호출 모니터링을 간소화 합니다. 사용자가 구내 또는 온라인으로 설정 되어 있는지 여부에 관계 없이 전체 조직의 통화 품질을 온라인으로 볼 수 있습니다.
 
@@ -73,6 +71,8 @@ ms.locfileid: "36185514"
 
 > [!IMPORTANT]
 > 프런트 엔드 풀에서 모니터링을 사용할 수 없는 경우에는 Call Data Connector가 작동 하지 않습니다.
+
+- 적절 하 [게 서버에서 서버 인증을](https://docs.microsoft.com/skypeforbusiness/manage/authentication/server-to-server-and-partner-applications)구성 했습니다. 
 
 ## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>온-프레미스 및 온라인 통화 품질 대시보드 (CQD) 보고서 비교
 

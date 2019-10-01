@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '비즈니스의 기능, 사용 가능성 및 전화 시스템 (클라우드 PBX)을 계획 하 고 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: c8725523fbef65b5687e68a860d2f2f3137e649d
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: dd1a9d68646481f9508657db2634b7d3c325396d
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305788"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328367"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능
 
@@ -51,7 +51,7 @@ PBX는 비즈니스 내의 전화 시스템입니다. Office 365 추가 기능�
 |[이전 대화 찾기-Lync](https://support.office.com/article/d1d54123-0301-482e-b047-c82e9e2724a3) <br/> |모든 대화를 메신저 대화, 전화 통화, 즉석, 예약 된 모임 중 어느 곳에서 든 추적 하세요. 통화 기록에 대화가 기록 됩니다.  <br/> |
 |통화 대기/검색  <br/> | 동시에 여러 번 호출할 때 사용 합니다. 다음 인바운드 통화에 응답 하거나 아웃 바운드 통화를 하는 경우, 현재 통화는 자동으로 대기 상태가 됩니다. <br/> |
 |[비즈니스용 Skype 통화 전송](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |통화를 다른 사람에 게 전달 합니다. 또는 사무실을 떠나지 않고 대화를 계속 하려면 PC 또는 IP 휴대폰의 통화를 휴대폰 이나 태블릿에서 전송할 수 있습니다.  <br/> |
-|발신자 ID  <br/> |회사 내에서의 전화에는 회사 디렉터리의 정보를 가져오는 자세한 발신자 ID가 표시 되며,이 번호는 단순히 전화번호 대신 그림과 직책을 표시 합니다. 외부 전화 번호로 전화를 걸어 전화 서비스 공급자가 제공 하는 발신자 ID가 표시 됩니다.   <br/> |
+|발신자 ID  <br/> |회사 내에서의 전화에는 회사 디렉터리의 정보를 가져오는 자세한 발신자 ID가 표시 되며,이 번호는 단순히 전화번호 대신 그림과 직책을 표시 합니다. 외부 전화 번호로 전화를 걸어 전화 서비스 공급자가 제공 하는 발신자 ID가 표시 됩니다. 외부 전화 번호가 회사 디렉터리의 보조 번호 이면 회사 디렉터리의 정보가 표시 됩니다.  <br/> |
 |[클라우드 통화 대기열 만들기](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |클라우드 통화 큐에는 사용자가 조직의 전화 번호를 호출할 때 사용 되는 인사말, 통화 대기를 자동으로 전환 하는 기능, 전화를 거는 사용자가 통화를 처리 하기 위해 사용할 수 있는 다음 통화 에이전트 검색 기능 등이 포함 됩니다. 대기 중인 음악 듣기.  <br/> |
 |[다른 사용자의 상태가 변경 되 면 알림](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | 이 기능을 사용 하면 현재 사용할 수 없는 사람에 게 태그를 지정 하 고 해당 현재 상태를 변경할 때 알림을 받고 전화를 받을 준비가 된 것입니다. <br/> |
 |PC, Mac 및 모바일 클라이언트  <br/> | 이렇게 하면 태블릿 및 휴대 전화에서 Pc 및 데스크톱 IP 전화에 이르기까지 디바이스의 기능을 호출할 수 있습니다. <br/> |

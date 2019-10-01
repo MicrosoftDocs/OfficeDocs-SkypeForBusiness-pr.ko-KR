@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: '요약: 비즈니스용 Skype 서버용 보고 도구인 통화 품질 대시보드에 대해 알아봅니다.'
-ms.openlocfilehash: 62fa3fc477e5cafc837d8a500b900ed65c178bf2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 86c8ef07a583526e3b5a40d69a795bbab8ec7879
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186987"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328387"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 통화 품질 대시보드
  
@@ -27,11 +27,6 @@ ms.locfileid: "36186987"
 이 섹션에는 다음 항목이 포함 되어 있으며, 통화 품질 대시보드를 배포 하기 전에 검토 해야 합니다.
   
 - [비즈니스용 Skype 서버용 통화 품질 대시보드 계획](plan.md)
-    
 - [비즈니스용 Skype 서버용 통화 품질 대시보드 배포](deploy-0.md)
-    
 - [비즈니스용 Skype 서버용 통화 품질 대시보드 사용](use.md)
-    
 - [비즈니스용 Skype 서버에 대 한 통화 품질 대시보드 개발](develop.md)
-    
-
