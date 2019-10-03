@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 클라우드 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6ac4ccea48e70a8bba5e11511379fef5c5a2a861
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 0cac6b1bb7d19e91e4042bcb0673f6c677e77d2e
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349252"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375712"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>클라우드 자동 전화 교환 설정
 
@@ -211,14 +211,15 @@ ms.locfileid: "37349252"
 
     > [!Note]
     > **회사** 사용자는 비즈니스용 Skype 서버 또는 Lync server 2013을 사용 하 여 온-프레미스 사용자 또는 온라인 사용자가 될 수 있습니다.
-    - 다른 **자동 전화 교환**
+
+  - 다른 **자동 전화 교환**
 
        기존 자동 전화 교환을 사용 하 여 하위 메뉴를 포함 하는 두 번째 수준의 메뉴 옵션을 만들 수 있습니다. 이를 중첩 된 자동 전화 교환 이라고 합니다. 중첩 된 자동 전화 교환으로 통화를 보내려면 **회사에서 사용자** 를 선택 하 고 이미 연결 된 자동 전화 교환이 있는 리소스 계정이 나이 자동 전화 교환 만들기가 완료 되 면 자동 전화 교환에 연결 되도록 할당 합니다.
 
         > [!Note]
-        > 설치 된 다른 자동 전화 교환에서 보내는 통화를 포함 하 여 중첩 (또는 두 번째 수준) 자동 전화의 **업무 시간이** 함께 사용 됩니다.
+        > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
 
-       - **음성 응용 프로그램** 이미 생성 된 통화 대기열 또는 자동 전화 교환에 연결 된 리소스 계정의 이름을 선택 합니다.
+    - **음성 응용 프로그램** 이미 생성 된 통화 대기열 또는 자동 전화 교환에 연결 된 리소스 계정의 이름을 선택 합니다.
 
 * * *
 
@@ -231,6 +232,8 @@ ms.locfileid: "37349252"
 선택이 완료 되 면 **다음**을 클릭 합니다.
 
 #### <a name="holiday-call-settings"></a>명절 통화 설정
+
+<a name="holidaygreetings"> </a>
 
 각 자동 전화 교환에 최대 20 개의 예정 휴일을 추가할 수 있습니다.
 
@@ -283,6 +286,7 @@ ms.locfileid: "37349252"
     > [!Note]
     > 기본적으로 휴일 기간 중에 도착 하는 모든 통화는 인사말 이후 연결 해제로 설정 되므로 다른 동작이 필요 하면 리디렉션을 지정 해야 합니다.
 
+<a name="dialscope"></a>
 #### <a name="select-dial-scope-page"></a>전화 걸기 범위 페이지 선택
 
 이 페이지에서 조직에 속한 사용자가 디렉터리에 나열 되 고 조직에 전화를 거는 사용자가 이름으로 다이얼을 사용할 수 있도록 설정할 수 있습니다.

@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 클라우드 자동 전화 교환 방법과 사용 방법에 대해 알아봅니다.
-ms.openlocfilehash: b3541ad88f29727d07043cba46503d040e6434c0
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: fd1fd053c0ecab8e0a36835f6d26127db91431be
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184670"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375690"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>클라우드 자동 전화 교환 이란?
 
@@ -90,7 +90,6 @@ Office 365에서 전화 시스템용 자동 전화 교환을 설정 하려면 [�
 > 음성 인식을 사용 하 여 이름으로 전화 걸기를 사용 하지만 조직의 Active Directory가 8만 사용자 보다 크므로 전화 접속 범위 기능을 사용 하 여 이름으로 전화 걸기 범위를 제한 하지 않은 경우에는 이름으로 전화 걸기는 전화 키패드를 사용 하 여 사용자의 호출자에 대해 계속 작동 합니다. , 음성 입력은 다른 모든 시나리오에서 사용할 수 있습니다. 전화 걸기 범위 기능을 사용 하 여 특정 자동 전화 교환의 이름으로 전화 걸기 범위를 변경 하 여 연결 가능한 이름을 좁힐 수 있습니다.
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>이름-키패드 (DTMF) 항목으로 전화 걸기
-
 전화를 거는 사람들은 상대방의 전체 이름 또는 일부 이름을 지정 하 여 사용자에 게 연락할 수 있습니다. 이름을 입력할 때 사용할 수 있는 다양 한 형식이 있습니다.
 
 조직의 디렉터리를 검색 하는 경우 사용자는 ' 0 ' (영) 키를 사용 하 여 성과 이름 사이에 공백을 표시할 수 있습니다. 이름을 입력할 때 # key를 사용 하 여 키패드 입력을 종료 하 라는 메시지가 표시 됩니다. 예를 들어, 연락 하려는 사람의 이름을 입력 한 후 # 키를 누릅니다. 여러 이름이 있는 경우 전화를 거는 사람에 게 선택할 이름 목록이 제공 됩니다.
