@@ -3,10 +3,9 @@ title: 모임 정책 관리
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: sonua, shalenc
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
@@ -22,19 +21,19 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 팀에서 모임 정책 설정을 관리 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: eff7eb41b5dccba299f8650c5771b33df04e719b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f926704a256bbea551d4aaa32bd98ba87322930c
+ms.sourcegitcommit: 58be786003d5ff703adfcd636585fb1852aba486
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236624"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37391448"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
 ::: zone target="docs"
 모임 정책은 조직의 사용자가 예약한 모임에 대해 모임 참가자가 사용할 수 있는 기능을 제어 하는 데 사용 됩니다. 정책을 만들고 변경한 후 정책에 사용자를 할당할 수 있습니다. Microsoft 팀 관리 센터에서 또는 [PowerShell을 사용](teams-powershell-overview.md)하 여 모임 정책을 관리할 수 있습니다.
 
-모임 시작, 모임 중 또는 모임 이후 사용자의 모임 환경에 영향을 주는 다음과 같은 방법으로 정책을 구현할 수 있습니다. 
+모임 시작, 모임 중 또는 모임 이후 사용자의 모임 환경에 영향을 주는 다음과 같은 방법으로 정책을 구현할 수 있습니다.
 
 |구현 형식  |설명  |
 |---------|---------|
@@ -83,7 +82,7 @@ ms.locfileid: "36236624"
  
 ## <a name="meeting-policy-settings"></a>모임 정책 설정
 
-**모임 정책** 페이지의 기존 정책을 선택 하거나 새 정책을 선택 하 여 **** 새 정책을 추가 하면 다음에 대 한 설정을 구성할 수 있습니다.
+**모임 정책** 페이지의 기존 정책을 선택 하거나 새 **정책을 선택 하 여 새** 정책을 추가 하면 다음에 대 한 설정을 구성할 수 있습니다.
 
 - [일반](#meeting-policy-settings---general)
 - [오디오 & 비디오](#meeting-policy-settings---audio--video)
@@ -104,7 +103,7 @@ ms.locfileid: "36236624"
 
 ### <a name="allow-meet-now-in-channels"></a>채널에서 모임 시작 허용
 
-이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 팀 채널에서 임시 모임을 시작할 수 있는지 여부를 제어 합니다. 이 기능을 설정 하면 사용자가 팀 채널에서 메시지를 게시할 때 작성 상자 아래에 있는 모임 시작 **** 을 클릭 하 여 채널에서 임시 모임을 시작할 수 있습니다.
+이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 팀 채널에서 임시 모임을 시작할 수 있는지 여부를 제어 합니다. 이 기능을 설정 하면 사용자가 팀 채널에서 메시지를 게시할 때 작성 **상자 아래에 있는 모임 시작** 을 클릭 하 여 채널의 임시 모임을 시작할 수 있습니다.
 
 ![메시지 아래에 모임 시작 아이콘을 표시 하는 스크린샷](media/meeting-policies-meet-now.png)
 
@@ -116,7 +115,7 @@ ms.locfileid: "36236624"
 
 이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 Outlook (Windows, Mac, 웹, 모바일)에서 팀 모임을 예약할 수 있는지 여부를 제어 합니다.
 
-![새 모임 예약 기능을 보여주는 스크린샷](media/meeting-policies-outlook-add-in.png)
+![새 모임 예약 기능을 보여 주는 스크린샷](media/meeting-policies-outlook-add-in.png)
 
 이 기능을 해제 하면 사용자가 Outlook에서 새 모임을 만들 때 팀 회의를 예약할 수 없습니다. 예를 들어 Windows의 Outlook에서는 **새 팀 모임** 옵션이 리본 메뉴에 표시 되지 않습니다.
 
@@ -124,7 +123,7 @@ ms.locfileid: "36236624"
 
 이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 팀 채널에서 모임을 예약할 수 있는지 여부를 제어 합니다.  이 기능을 해제 한 경우 팀 채널에서 모임을 시작할 때 사용자가 **모임 예약** 옵션을 사용할 수 없으며 팀의 모임에서 모임을 예약 하는 경우 사용자가 모임 **에 대 한 채널 선택** 옵션을 사용할 수 없습니다.
 
-![팀의 meetion 옵션 일정을 보여주는 스크린샷](media/meeting-policies-schedule-a-meeting.png)
+![팀의 모임 예약 옵션을 보여 주는 스크린샷](media/meeting-policies-schedule-a-meeting.png)
 
 ![모임에 적용할 채널 선택 옵션을 보여 주는 스크린샷](media/meeting-policies-select-a-channel-to-meet-in.png)
 
@@ -142,7 +141,7 @@ ms.locfileid: "36236624"
 - [클라우드 기록 허용](#allow-cloud-recording)
 - [IP 영상 허용](#allow-ip-video)
 - [미디어 비트 전송률 (KBs)](#media-bit-rate-kbs)
-- [실시간 캡션 사용 (곧 출시)](#enable-live-captions-coming-soon)
+- [실시간 캡션 사용 (미리 보기)](#enable-live-captions-preview)
 
 ### <a name="allow-transcription"></a>내용 허용
 
@@ -176,7 +175,7 @@ Daniela에서 구성한 모임은 기록 하 고 Amanda 수 있으며, 정책 �
 
 이는 구성 단위 및 사용자별 정책 조합입니다. 비디오는 모임에 대 한 주요 구성 요소입니다. 일부 조직에서는 관리자가 어떤 사용자의 모임이 비디오를 보유 하 고 있는지 더 자세히 관리할 수 있습니다. 이 설정은 사용자가 호스트 하는 모임 및 사용자가 시작한 1:1 통화 및 그룹 통화에서 비디오를 켤 수 있는지 여부를 제어 합니다. 이 정책을 사용 하도록 설정한 사용자가 구성한 모임에는 모임 참가자가 정책을 사용 하도록 설정한 경우 모임 참가자가 모임에서 비디오 공유를 사용할 수 있습니다. 배정 된 정책이 없는 모임 참가자 (예: 익명 및 페더레이션 참가자)는 모임 이끌이의 정책을 상속 합니다.
 
-![오디오 및 비디오 설정을 사용 하 여 모임을 보여주는 스크린샷](media/meeting-policies-audio-video-settings.png)
+![오디오 및 비디오 설정을 사용 하 여 모임을 보여 주는 스크린샷](media/meeting-policies-audio-video-settings.png)
 
 다음 예제를 살펴보겠습니다.
 
@@ -199,9 +198,17 @@ Daniela에서 비디오를 사용 하 여 Amanda를 호출 하는 경우 Amanda�
 
 CEO 보드 모임 및 팀 라이브 이벤트와 같이 고품질의 비디오 환경을 필요로 하는 모임의 경우 대역폭을 10mbps로 설정 하는 것이 좋습니다. 최대 환경이 설정 된 경우에도 시나리오에 따라 특정 네트워크 조건이 감지 되는 경우 팀 미디어 스택이 낮은 대역폭 조건에 적응 합니다. 
 
-### <a name="enable-live-captions-coming-soon"></a>실시간 캡션 사용 (곧 출시)
+### <a name="enable-live-captions-preview"></a>실시간 캡션 사용 (미리 보기)
 
-이것은 사용자별 정책으로 모임 중에 적용 됩니다. 이 설정을 사용 하는 경우 모임 중에 캡션을 표시 하는 옵션을 사용자가 볼 수 있습니다.
+이것은 사용자별 정책으로 모임 중에 적용 됩니다. 이 설정은 사용자가 참석할는 모임에서 실시간 **캡션 켜기** 옵션을 사용 하 여 live 캡션을 켜고 끌 것인지 여부를 제어 합니다.  
+
+![라이브 캡션 켜기 옵션을 보여 주는 스크린샷](media/meeting-policies-live-captions.png)
+
+|값 설정 |결과가  |
+|---------|---------|
+|**사용 하지 않도록 설정 하 고 사용자가 무시할 수 있음**     | Live 캡션은 모임 중에 사용자에 대해 자동으로 설정 되지 않습니다. 사용자는 오버플로 (**...**) 메뉴에서 **라이브 캡션 켜기** 옵션을 표시 하 여 설정 합니다. 이는 기본 설정입니다. |
+|**비활성화**     | 모임 중에는 사용자가 실시간 캡션을 사용할 수 없습니다. 사용자는이 옵션을 켤 수 없습니다.          |
+
 
 <a name="bkcontentsharing"> </a>
 
@@ -246,7 +253,7 @@ Daniela에서 호스팅하는 모임은 모임 참가자가 전체 화면 또는
 
 사용자에 대해 설정이 꺼져 있으면 **제어권 제공** 옵션을 사용할 수 없습니다.
 
-![제어권 제공 옵션을 사용할 수 없다는 것을 보여 주는 스크린샷](media/meeting-policies-give-control-not-available.png)
+![제어권 부여 옵션을 사용할 수 없음을 보여 주는 스크린샷](media/meeting-policies-give-control-not-available.png)
 
 다음 예제를 살펴보겠습니다.
 
@@ -320,7 +327,6 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 - [자동으로 사람들의 입장](#automatically-admit-people)
 - [익명 사용자가 모임을 시작 하도록 허용](#allow-anonymous-people-to-start-a-meeting)
 - [전화 접속 사용자가 대기실를 우회할 수 있도록 허용](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
-- [이끌이가 대기실 설정 보다 우선 하도록 허용](#allow-organizers-to-override-lobby-settings-coming-soon)
 
 > [!NOTE]
 >모임에 참가 하는 옵션은 각 팀 그룹의 설정 및 연결 방법에 따라 달라 집니다. 그룹에 오디오 회의가 있고이를 사용 하 여 연결 하는 경우 [Office 365의 오디오 회의](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)를 참조 하세요. 팀 그룹에 오디오 회의가 없는 경우 [팀에서 모임 참가](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)를 참조 하세요.
@@ -329,7 +335,7 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 
 이는 이끌이 별 정책입니다. 이 설정은 사용자가 인증 된 사용자가 참여 하 게 될 때까지 자신이 모임에 직접 참가 하거나 대기실에서 대기할지 여부를 제어 합니다.
 
-![대기실에서 사용자와의 모임을 보여주는 스크린샷](media/meeting-policies-lobby.png)
+![대기실에 사용자가 있는 모임을 보여 주는 스크린샷](media/meeting-policies-lobby.png)
 
  모임 이끌이는 모임 초대에서 **모임 옵션** 을 클릭 하 여 자신이 예약한 각 모임에 대해이 설정을 변경할 수 있습니다. **(출시 예정)**
   
@@ -382,31 +388,6 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 |   | 조직의 모든 사용자     |대기실에서 대기         |
 |   | 조직 및 페더레이션된 조직의 모든 사용자      | 대기실에서 대기         |
 
-### <a name="allow-organizers-to-override-lobby-settings-coming-soon"></a>이끌이를 사용 하 여 로비 설정 재정의 (예정 대로)
-
-이는 이끌이 별 정책입니다. 이 설정은 모임 이끌이가 관리자가 설정 하는 **자동으로 사용자** 를 허용 하 고 **전화 접속 사용자가** 새 모임을 예약할 때 대기실를 우회 하도록 하는 로비 설정을 무시할 수 있는지 여부를 제어 합니다. 
-
-모임 이끌이는 모임 초대에서 **모임 옵션** 을 클릭 하 여 자신이 예약한 각 모임에 대 한 로비 설정을 변경할 수 있습니다. 
-
-이 설정은 모임 이끌이가 이끌이 일정을 각 모임에 대해 **자동으로** 허용 하는 사용자 설정을 변경할 수 있는지 여부에 영향을 줍니다.
-
-|이끌이가 대기실 설정 보다 우선 하도록 허용  |자동으로 사람들의 입장  |결과가 |
-|---------|---------|---------|
-|False    | 가      | 이끌이는 설정을 다른 값으로 변경할 수 있습니다. |
-|   | 조직의 모든 사용자       | 이끌이는 설정을 다른 값으로 변경할 수 있습니다.|
-|   | 조직 및 페더레이션된 조직의 모든 사용자       | 이끌이는이를 다른 값으로 변경할 수 있습니다.         |
-|해제    | 가        | 이끌이는 설정을 다른 값으로 변경할 수 있습니다.|
-|   | 조직의 모든 사용자     |이끌이는 **조직의 모든 사용자**에 게 설정을 변경할 수 있습니다. |
-|   | 조직 및 페더레이션된 조직의 모든 사용자      | 이끌이는 대기실 설정을 무시할 수 없습니다. |
-
-이 설정은 모임 이끌이가 **전화 접속 사용자가** 모임 이끌이가 일정을 예약 하는 데 사용 하는 로비 설정을 무시할 수 있는지 여부에 영향을 주는 방법입니다.
-    
-|이끌이가 대기실 설정 보다 우선 하도록 허용  |전화 접속 사용자가 대기실를 우회할 수 있도록 허용  |결과가 |
-|---------|---------|---------|
-|False    |  False        | 이끌이는 설정을 False로 변경할 수 있습니다.       |
-|False      | 해제         | 이끌이는 설정을 True로 변경할 수 있습니다.        |
-|해제     | False        |이끌이는 설정을 False로 변경할 수 있습니다.         |
-|해제      |해제          |이끌이는 로비 설정을 무시할 수 없으며 전화 접속 사용자가 모임에서 대기실를 우회 하는 것을 허용 하지 않습니다.        |
 
 [전체 문서](meeting-policies-in-teams.md)
 
