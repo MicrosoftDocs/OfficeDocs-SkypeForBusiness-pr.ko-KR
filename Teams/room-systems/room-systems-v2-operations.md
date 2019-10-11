@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: 이 항목에서는 차세대 Skype 대화방 시스템인 Microsoft 팀 회의실 관리에 대해 자세히 알아보세요.
-ms.openlocfilehash: f5c4cf2a7b0c5f8fc12d94553d6c0f77216d9487
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: 2ef5bbb7c4b630174c32016fdf1b65d30d82ac52
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838081"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435150"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 팀 회의실 유지 관리 및 운영 
  
@@ -43,7 +43,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 확장 모드로 방 디스플레이를 구성 합니다. 이렇게 하면 디스플레이 전원을 켤 때 콘솔 UI가 해당 디스플레이에 복제 되지 않습니다.
   
 > [!NOTE]
-> 원본에서 대기 모드를 해제할 때 자동으로 활성 비디오 원본 (예: MTR 콘솔)으로 전환 하려면 특정 조건이 충족 되어야 합니다. 이 기능은 선택 사항 이지만 Microsoft 팀 공간 소프트웨어에서 지원 되며, 기본 하드웨어에서 기능을 지 원하는 경우 제공 됩니다. 채팅방 표시로 사용 되는 소비자 TV는 HDMI의 CEC (소비자 전자 컨트롤) 기능을 지원 해야 합니다.  선택 된 dock 또는 console (CEC를 지원 하지 않을 수 있음) (제조업체 지원 문서 참조)에 따라 원하는 동작을 사용 하도록 설정 하려면 [HD CTL 100의 extron](https://www.extron.com/article/hdctl100ad) 작업 영역 컨트롤러가 필요할 수 있습니다. 
+> 원본에서 대기 모드를 해제할 때 자동으로 활성 비디오 원본 (예: MTR 콘솔)으로 전환 하려면 특정 조건이 충족 되어야 합니다. 이 기능은 선택 사항 이지만 Microsoft 팀 공간 소프트웨어에서 지원 되며, 기본 하드웨어에서 기능을 지 원하는 경우 제공 됩니다. 채팅방 표시로 사용 되는 소비자 TV는 HDMI의 CEC (소비자 전자 컨트롤) 기능을 지원 해야 합니다.  선택 된 dock 또는 console (CEC를 지원 하지 않을 수 있음, 제조업체 지원 문서 참조)에 따라, 원하는 기능을 사용 하도록 설정 하려면 hd [-RX-201-C-](https://www.crestron.com/en-US/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) [100](https://www.extron.com/article/hdctl100ad) E와 같은 컨트롤러가 필요할 수 있습니다. 결과가. 
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft 팀 대화방 재설정 (출하 시 복원)
 <a name="Reset"> </a>

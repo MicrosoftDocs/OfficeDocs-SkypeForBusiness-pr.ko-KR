@@ -11,19 +11,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: '요약: Exchange Server 2016 또는 Exchange Server 2013 및 비즈니스용 Skype 서버에서 고해상도 사진의 사용을 구성 합니다.'
-ms.openlocfilehash: 1ca9c0077969cab22b8ebfa073d3d0585108503b
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+description: '요약: Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 또는 Exchange Online 및 비즈니스용 Skype 서버에서 고해상도 사진의 사용을 구성 합니다.'
+ms.openlocfilehash: 08db547dc9ead9d79a50cd17b4496826aa735369
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464657"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434913"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 고해상도 사진 사용 구성
  
-**요약:** Exchange Server 2016 또는 Exchange Server 2013 및 비즈니스용 Skype 서버에서 고해상도 사진의 사용을 구성 합니다.
+**요약:** Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 또는 Exchange Online 및 비즈니스용 Skype 서버에서 고해상도 사진의 사용을 구성 합니다.
   
-비즈니스용 Skype 서버 사진에는 사용자의 Exchange Server 2016 또는 Exchange Server 2013 사서함에 저장할 수 있으며,이는 최대 648 픽셀의 사진 크기를 648 픽셀로 허용 합니다. 또한 Exchange Server는 필요에 따라 다양 한 제품에서 사용할 수 있도록 이러한 사진의 크기를 자동으로 조정 합니다. 일반적으로 다음과 같은 세 가지 사진 크기와 해상도를 의미 합니다.
+비즈니스용 Skype Server에서 사진에는 사용자의 Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 또는 Exchange Online 사서함에 저장할 수 있으며,이를 통해 사진 크기를 최대 648 x 648 x e/x e e 또한 Exchange Server는 필요에 따라 다양 한 제품에서 사용할 수 있도록 이러한 사진의 크기를 자동으로 조정 합니다. 일반적으로 다음과 같은 세 가지 사진 크기와 해상도를 의미 합니다.
   
 - 64 픽셀 x 64 픽셀, Active Directory thumbnailPhoto 특성에 사용 되는 크기 Exchange Server에 사진을 업로드 하는 경우 Exchange에서 자동으로 64 픽셀을 해당 사진의 64 픽셀 버전으로 만들고 사용자의 thumbnailPhoto 특성을 업데이트 합니다. 그러나 반대의 경우도 마찬가지입니다. Active Directory에서 thumbnailPhoto 특성을 수동으로 업데이트 하면 사용자의 Exchange 사서함에 있는 사진이 자동으로 업데이트 되지 않습니다.
     

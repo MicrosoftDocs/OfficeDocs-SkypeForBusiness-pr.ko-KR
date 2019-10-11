@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 팀 관리 센터에서 팀 사용자 활동 보고서를 사용 하 여 조직의 사용자가 팀을 사용 하는 방법을 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd8c33bfa1ebfbeb4ba4c79827c13e4c33f9a340
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: a478e99037194381421f76ce4856f219ef9dd0db
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131603"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439564"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft 팀 사용자 활동 보고서
 
@@ -31,7 +31,7 @@ ms.locfileid: "37131603"
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서** > **사용 현황 보고서**를 클릭 합니다. 보고서 **보기** 탭의 **보고서**에서 **팀 사용자 활동**을 선택 합니다.
 2. **날짜 범위**아래에서 범위를 선택 하 고 **보고서 실행**을 클릭 합니다.
 
-    ![팀 관리 센터에서 설명선이 포함 된 팀 사용자 활동 보고서 스크린샷] (../media/teams-reports-user-activity-with-callouts.png "팀 관리 센터에서 설명선이 포함 된 팀 사용자 활동 보고서 스크린샷")
+    팀 관리 센터의 팀 관리 센터에서 팀의 사용자 활동 ![보고서에 대 한 스크린샷]((../media/teams-reports-user-activity-with-callouts.png "설명선 포함") )
 
 ## <a name="interpret-the-report"></a>보고서 해석
 
@@ -44,6 +44,8 @@ ms.locfileid: "37131603"
 |**5mb**   |테이블을 통해 사용자의 사용을 분류 합니다.   <ul><li>**표시 이름은** 사용자의 표시 이름입니다. 표시 이름을 클릭 하 여 Microsoft 팀 관리 센터의 사용자 설정 페이지로 이동할 수 있습니다.</li><li>**1:1 통화** 는 사용자가 지정 된 기간에 참가 한 1:1 통화 수입니다.</li><li>**채널 메시지** 는 사용자가 지정 된 기간에 팀 채팅에 게시 한 고유 메시지 수입니다.</li> <li>**채팅 메시지** 는 사용자가 지정 된 기간 동안 비공개 채팅에 게시 한 고유 메시지 수입니다.</li>  <li>**마지막 활동** 은 사용자가 팀 활동에 참여 한 마지막 날짜 (UTC)입니다.</li> </ul>사용자 계정이 더 이상 Azure AD에 존재 하지 않는 경우에는 테이블에 사용자 이름이 "--"로 표시 됨을 참고 하세요. <br><br>표에 원하는 정보를 표시 하려면 표에 열을 추가 해야 합니다.
 |**26**   |**열 편집** 을 선택 하 여 테이블에 열을 추가 하거나 제거 합니다. |
 |**7**   |오프 라인 분석을 위해 보고서를 CSV 파일로 내보낼 수 있습니다. **Excel로 내보내기를**클릭 한 다음 **다운로드** 탭에서 **다운로드** 를 클릭 하 여 준비 된 보고서를 다운로드 합니다.<br><br>![내보낸 보고서를 다운로드 하는 것을 보여 주는 다운로드 탭 스크린샷](../media/teams-reports-export-to-csv.png) <br>Excel에서 보고서를 볼 때 팀 ID를 나타내는 **Id** 열이 표시 됩니다. 팀 ID는 일반적으로 영숫자 문자열입니다. **Id** 열이 **\n**으로 표시 되는 경우 사용자가 삭제 될 정보를 요청 했음을 의미 합니다. ||
+
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="related-topics"></a>관련 항목
 

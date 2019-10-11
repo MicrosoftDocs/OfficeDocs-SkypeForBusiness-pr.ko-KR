@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f2e605e86b91fc5d0ea2f22d2aec3941a3d31d9
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 42d15f32cbdf7326ea8daf85860bd451d93ed3f3
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062952"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434958"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 및 Microsoft 팀의 상호 작용 방식
 
@@ -46,7 +46,7 @@ Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Office 365
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|예 <sup>2</sup>|예 <sup>2</sup>|'|'|'|'|'|'|'|'|'|'|'|
 |**Exchange Online 전용 vNext**|예 <sup>2</sup>|예 <sup>2</sup>|'|'|'|'|'|'|'|'|'|'|'|
-|**Exchange Online 전용 – 레거시** (Azure AD와 동기화 필요)|예 <sup>2</sup>|예 <sup>2, 3</sup>|예 <sup>4|'|아니요|아니요|'|'|아니요|예 <sup>5|예 <sup>6|'|'|
+|**Exchange Online 전용-레거시** (Azure AD와 동기화 필요)|예 <sup>2</sup>|예 <sup>2, 3</sup>|예 <sup>4|'|아니요|아니요|'|'|아니요|예 <sup>5|예 <sup>6|'|'|
 |**Exchange 온-프레미스** (Azure AD와 동기화 필요)|예 <sup>2</sup>| 예 <sup>2, 3</sup> |예 <sup>4|'|Yes (Exchange 2016 CU3 이상 +)|Yes (Exchange 2016 CU3 이상 +)|'|'|아니요|예 <sup>5|예 <sup>6|'|'|
 
 <sup>1</sup> EXCHANGE 2016 cu3 이상 이상 지원 됩니다.  
@@ -57,7 +57,7 @@ Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Office 365
 
 <sup>4</sup> 보존은 온라인 사용자가 메시지를 저장할 때 그림자 사서함을 사용 합니다. [Microsoft 팀은 Exchange 하이브리드 환경에서 팀 사용자를 위해 eDiscovery를 지원](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)합니다.
 
-<sup>5</sup> 팀에서 온-프레미스 Exchange 사서함이 있는 사용자는 Outlook에서 팀과 보이스 메일을 사용할 수 있지만, 음성 메일 메시지는 팀 클라이언트 내에서 보거나 재생할 수 없습니다.
+<sup>5 개의</sup> 팀-온-프레미스 Exchange 사서함이 있는 사용자는 Outlook에서 팀과 보이스 메일을 사용할 수 있지만, 음성 메일 메시지는 팀 클라이언트 내에서 보거나 재생할 수 없습니다.
 
 <sup>6</sup> 팀 소유자 중 한 명에 게 커넥터를 추가할 수 있는 경우 해당 팀의 다른 사용자는 자신의 사서함이 온-프레미스 인 경우에도이 작업을 수행할 수 있습니다.
 

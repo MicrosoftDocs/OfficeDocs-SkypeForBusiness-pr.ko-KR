@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 전화 시스템 다이렉트 라우팅을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d1a763f150004b5c558dd311dd54ed6975dcb0c1
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 38938846c594cbb325193e42111ba8dff528f17f
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018771"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434935"
 ---
 # <a name="configure-direct-routing"></a>직접 라우팅 구성
 
@@ -111,7 +111,7 @@ Enabled               : True
 |필수?|이름|설명|기본값|사용할 수 있는 값|유형 및 제한 사항|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |'|Q|SBC의 FQDN 이름입니다. |없음|비 Efqdn 이름, 63 문자 제한|[Active Directory에서 컴퓨터, 도메인, 사이트 및 ou에 대 한 명명 규칙](https://support.microsoft.com/help/909264) 의 허용 및 허용 되지 않는 문자 목록 문자열|
-|아니요|MediaBypass |나중에 사용 하기 위해 예약 된 매개 변수입니다. SBC로 표시 된 매개 변수는 미디어 바이패스를 지원 하 고 관리자가이를 사용 하려고 합니다.|없음|False<br/>해제|부울|
+|아니요|MediaBypass |SBC로 표시 된 매개 변수는 미디어 바이패스를 지원 하 고 관리자가이를 사용 하려고 합니다.|없음|False<br/>해제|부울|
 |'|SipSignallingPort |TLS (전송 계층 보안) 프로토콜을 사용 하 여 직접 라우팅 서비스와 통신 하는 데 사용 되는 수신 대기 포트입니다.|없음|모든 포트|0 ~ 65535 |
 |아니요|FailoverTimeSeconds |10으로 설정 된 경우 (기본값), 게이트웨이에서 응답 하지 않은 아웃 바운드 호출은 10 초 이내에 사용 가능한 다음 트렁크로 라우팅됩니다. 추가 trunks 없으면 통화가 자동으로 삭제 됩니다. 느린 네트워크 및 게이트웨이 응답을 사용 하는 조직에서 호출이 불필요 하 게 손실 될 수 있습니다. 기본값은 10입니다.|1천만|숫자로|Int|
 |아니요|ForwardCallHistory |트렁크를 통해 통화 기록 정보를 전달할지 여부를 나타냅니다. 이 기능을 사용 하도록 설정 하면 Office 365 PSTN 프록시가 두 가지 헤더 인 기록 정보 및 참조 하는 사람을 보냅니다. 기본값은 **False** ($False)입니다. |해제|False<br/>해제|부울|
@@ -532,6 +532,11 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 다이렉트 라우팅은 팀 클라이언트에서 수신 전화를 받을 수 있도록 사용자가 팀 전용 모드에 있어야 합니다. 사용자를 팀 전용 모드로 전환 하려면 TeamsUpgradePolicy의 "UpgradeToTeams" 인스턴스를 할당 합니다. 조직에서 비즈니스용 skype Server 또는 비즈니스용 Skype Online을 사용 하는 경우 Skype와 팀 간의 정보 상호 운용성에 대해 다음 문서를 참조 하세요. [팀과 skype를 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침 비즈니스에 적합](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)합니다. 
 
+
+## <a name="configuring-sending-calls-directly-to-voicemail"></a>전화를 음성 메일로 바로 보내는 방법 구성
+
+직접 라우팅을 사용 하면 사용자에 대 한 통화를 종료 하 고 사용자의 음성 메일로 바로 보낼 수 있습니다. 전화를 음성 메일로 바로 보내려면 불투명 = 앱: 보이스 메일을 요청 URI 헤더에 첨부 하세요. 예를 들어 "sip: user@yourdomain.com; 불투명 = 앱: 보이스".
+이 경우 팀 사용자는 호출 알림을 받지 않게 되며, 통화는 사용자의 보이스 메일에 직접 연결 됩니다.
 
 ## <a name="see-also"></a>참고 항목
 

@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 무료 가상 사용자 라이선스에 대해 알아보세요.
-ms.openlocfilehash: cf51e927a05472b314e5fa193caa8d49f513c0cf
-ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
+ms.openlocfilehash: 96ea4ed71eac8c6b67e4fd4c7964591dcef1f635
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36675346"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435128"
 ---
 # <a name="phone-systemvirtual-user-license"></a>전화 시스템-가상 사용자 라이선스 
 
@@ -52,7 +52,7 @@ Contoso는 자동 전화 교환 및 통화 대기열 시스템 다시 디자인�
 ## <a name="how-to-acquire-phone-systemvirtual-user-licenses"></a>전화 시스템을 구입 하는 방법-가상 사용자 라이선스 
 
 > [!NOTE] 
-> 이 지침을 팔 로우 하는 경우 미리 보기 모드를 사용 하 여 전화 시스템-가상 사용자 라이선스를 구입 합니다.
+> 이 지침을 팔 로우 하는 경우, 전화 시스템을 구입 하기 위해 미리 보기 모드를 끄십시오 (가상 사용자 라이선스).
 
 1. Microsoft 365 관리 센터에 로그인 합니다.
 2. **청구** > **구입 서비스** > **추가 기능 구독** 으로 이동

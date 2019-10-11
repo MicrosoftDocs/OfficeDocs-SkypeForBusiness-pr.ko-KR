@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 클라우드 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 424b6cea41132bd03b9eecfbd2d387697332505f
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37402035"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434967"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>클라우드 자동 전화 교환 설정
 
@@ -44,7 +44,7 @@ ms.locfileid: "37402035"
 ## <a name="step-1--get-started"></a>1 단계-시작 하기
 
 - 자동 전화 교환은 연결 된 리소스 계정이 있어야 합니다. 리소스 계정 및 필요한 모든 라이선스에 대 한 자세한 내용은 [팀에서 자원 계정 관리](manage-resource-accounts.md) 를 참조 하세요. 
-- 
+ 
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
 > [!TIP]
@@ -88,7 +88,7 @@ ms.locfileid: "37402035"
      > [!Note]
      > **조직의** 사용자는 비즈니스용 Skype 서버를 사용 하 여 온-프레미스 사용자 또는 온라인 사용자가 될 수 있습니다.
 
-- **음성 기능**  이미 만들어진 자동 전화 교환 또는 통화 대기열에 연결 된 리소스 계정의 이름을 선택 합니다. 연산자를 요청 하는 호출자가이 위치에서 리디렉션됩니다.  
+- **음성 앱**  이미 만들어진 자동 전화 교환 또는 통화 대기열에 연결 된 리소스 계정의 이름을 선택 합니다. 연산자를 요청 하는 호출자가이 위치에서 리디렉션됩니다.  
 <!--   
 
 - **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
@@ -100,10 +100,11 @@ ms.locfileid: "37402035"
 > Auto attendants created after October 10th, 2019 also create a new [resource account](manage-resource-accounts.md) that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
 -->
 
-* * * 
+* * *
 
-![숫자 3의 아이콘, 이전 스크린샷](media/teamscallout3.png)<a name="timezone"> </a>  
- **표준 시간대** 의 설명선은 자동 전화 교환의 표준 시간대를 설정 하는 데 필요 합니다. 설정이 조직에 대해 나열 된 주 주소의 표준 시간대 또는 다른 표준 시간대와 동일할 수 있습니다. 각 자동 전화 교환은 다른 표준 시간대를 가질 수 있습니다. 자동 전화 교환에 설정 된 업무 시간에도이 표준 시간대가 사용 됩니다.
+<a name="timezone"> </a>
+
+![숫자 3의 아이콘, 이전 스크린샷](media/teamscallout3.png) **표준 시간대** 의 설명선은 자동 전화 교환의 표준 시간대를 설정 하는 데 필요 합니다. 설정이 조직에 대해 나열 된 주 주소의 표준 시간대 또는 다른 표준 시간대와 동일할 수 있습니다. 각 자동 전화 교환은 다른 표준 시간대를 가질 수 있습니다. 자동 전화 교환에 설정 된 업무 시간에도이 표준 시간대가 사용 됩니다.
 
 * * *
 
@@ -147,7 +148,6 @@ ms.locfileid: "37402035"
 ![숫자 3의 아이콘, 이전 스크린샷](media/teamscallout3.png) 의 설명선 **인사말 메시지 입력** 이 옵션을 선택 하는 경우 제공 된 필드에 시스템에서 읽을 텍스트 (최대 1000 자)를 입력 합니다. 예를 들어 "Contoso 시작 '을 입력 합니다. 귀하의 전화는 귀하에 게 중요 합니다. " 출력은 텍스트 음성 통화 소프트웨어로 만들어집니다.
 
 * * *
-
 
 다음 작업에서 통화 **회람** 섹션의 다음 동작에서 전화를 걸 때 수행할 작업을 선택할 수 있습니다. 설정은 **연결 끊기**, **통화 리디렉션**또는 **재생 메뉴 옵션**입니다.
 
@@ -197,13 +197,9 @@ ms.locfileid: "37402035"
 > [!NOTE]
 > 키 \* (반복)와 \# (뒤로)는 시스템에 예약 되어 있으므로 다시 할당할 수 없습니다. 음성 인식 기능을 사용 하는 경우 *를 누르면 "Repeat"와 #이 "뒤로" 음성 명령에 해당 합니다.
 
-![숫자 3의 아이콘, 이전 스크린샷의 설명선](media/teamscallout3.png)
+![메뉴 옵션을 설정 하기 위한 앞의 스크린샷에](media/teamscallout3.png) 표시 되는 숫자 3의 아이콘에는 **+ 다이얼 키 할당** 을 클릭 하 고 다음 옵션에 대 한 정보를 입력 합니다.
 
-메뉴 옵션을 설정 하려면 **+ 전화 할당 키** 를 클릭 하 고 다음 옵션에 대 한 정보를 입력 합니다.
-
-![숫자 4의 아이콘 (이전 스크린샷의 설명선)](media/teamscallout4.png) 
-
-옵션에 대 한 **음성 명령** 열은 최대 64 자를 입력할 수 있으며 "고객 서비스" 또는 "작업 및 Grounds" 등의 여러 단어를 포함할 수 있습니다. 음성 인식 기능을 사용 하도록 설정 하면 이름이 자동으로 인식 되 고, 발신자는 3을 눌러 "3" 이라고 말 하거나 "고객 서비스" 라고 말하여 키 3에 매핑된 옵션을 선택할 수 있습니다.
+![옵션에 대 한 이전 스크린샷](media/teamscallout4.png)  **음성 명령** 열의 설명선 번호 4는 최대 64 자까지 입력할 수 있으며 "고객 서비스" 또는 "작업 및 Grounds" 등의 여러 단어를 포함할 수 있습니다. 음성 인식 기능을 사용 하도록 설정 하면 이름이 자동으로 인식 되 고, 발신자는 3을 눌러 "3" 이라고 말 하거나 "고객 서비스" 라고 말하여 키 3에 매핑된 옵션을 선택할 수 있습니다. 이 텍스트는 "교환원에 게 착신 전환 중" 처럼 서비스 확인 프롬프트에 대 한 텍스트를 음성으로 렌더링 하기도 합니다.
 
 ![이전 스크린샷](media/teamscallout5.png) 에 있는 숫자 5의 아이콘으로 리디렉션 옵션은 해당 키를 누르거나 음성 인식을 사용 하 여 선택한 옵션 **을** 설정 합니다. 통화는 다음으로 전송 될 수 있습니다.
 
@@ -219,13 +215,14 @@ ms.locfileid: "37402035"
 - **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
 - **Group Voicemail** routes the call to a voicemail box that you select.  -->
 
-![이전 스크린샷의 설명선 인 번호 6의 아이콘](media/teamscallout6.png) 
-
-**디렉터리 검색** 이 섹션에서는 **이름으로 전화 걸기를** 사용 하도록 설정 하 고 자동 전화 교환에 대 한 **내선 번호 접속으로 전화를 걸** 수 있습니다. 전화 걸기 범위 (선택 사항) 페이지에서 이러한 서비스에 포함 되지 않는 사용자를 설정할 수 있습니다. 디렉터리 검색은 기본적으로 **없음** 으로 설정 됩니다.
+![이 섹션의 이전 스크린샷](media/teamscallout6.png)  **디렉터리 검색** 에 있는 숫자 6의 아이콘을 사용 하 여 자동 전화 교환에 대 한 **전화 걸기** 및 **내선** 번호로 전화를 걸 수 있습니다. 전화 걸기 범위 (선택 사항) 페이지에서 이러한 서비스에 포함 되지 않는 사용자를 설정할 수 있습니다. 디렉터리 검색은 기본적으로 **없음** 으로 설정 됩니다.
 
 **이름으로 전화 걸기** 이 옵션을 사용 하도록 설정 하는 경우 발신자는 **이름으로 다이얼**을 사용 하 여 조직에서 사용자를 검색할 수 있습니다. 사용자의 이름과 음성 인식이 사용자에 게 일치 하는 것으로 가정 합니다. 전화 걸기 범위 (선택 사항) 페이지에서 이러한 서비스에 포함 되지 않는 사용자를 설정할 수 있습니다. 전화 시스템 라이선스가 있는 모든 온라인 사용자 또는 비즈니스용 Skype 서버를 사용 하 여 온-프레미스에 호스팅되는 사용자는 적격 사용자 이며 이름으로 전화를 걸 수 있습니다.
 
 **내선** 번호 이 옵션을 사용 하도록 설정 하면 사용자가 **확장을 사용 하는 다이얼 플랜을 구성한**경우 전화 내선 번호를 입력 하 여 조직의 사용자와 연결할 수 있습니다. 전화 걸기 범위 (선택 사항) 페이지에서 **전화 접속을 통해** 사용할 수 있거나 사용할 수 없음으로 나열 되는 사용자를 선택할 수 있습니다. 휴대폰 시스템 라이선스가 있는 모든 온라인 사용자 또는 비즈니스용 Skype를 사용 하 여 온-프레미스에 호스팅되는 모든 사용자는 적격 사용자 이며, 내선 번호로 전화 접속을 통해 찾을 수 있습니다.
+
+> [!NOTE]
+> **이름으로 전화 걸기** 및 **내선** 번호를 사용 하 여 사용자의 내선 번호를 알고 있는 경우 호출자에 게 메뉴 옵션 3을 선택 하 고 옵션 3을 tran으로 설정 하는 주 자동 전화 교환 ( **이름으로 전화 걸기**사용 가능)을 만들 수 있습니다. 내선 번호로 전화를 걸기 위해 자동 전화 교환 기능을 사용 하도록 설정 sfer. 
 
 * * *
 
@@ -328,7 +325,9 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 **사용자 지정 사용자 그룹** 이 옵션을 사용 하면 조직에서 이미 만든 Office 365 그룹, 메일 그룹 또는 보안 그룹을 검색 하 고 선택할 수 있습니다. 사용자가 선택 된 Office 365 그룹, 메일 그룹 또는 보안 그룹과 온라인 사용자이 고, **전화 시스템 라이선스가** 있거나, 비즈니스용 Skype Server를 사용 하 여 온-프레미스에 호스팅되는 경우 해당 디렉터리가 디렉터리에 추가 됩니다. 여러 개의 Office 365 그룹, 배포 목록, 보안 그룹을 디렉터리에 추가할 수 있습니다.
 
+<a name="dialscope"> </a>
 
+이 페이지에서 조직에 속한 사용자가 디렉터리에 나열 되 고 조직에 전화를 거는 사용자가 이름으로 다이얼을 사용할 수 있도록 설정할 수 있습니다.
 
 ![숫자 2의 아이콘, 이전 스크린샷](media/teamscallout2.png) 의 설명선이 섹션의 옵션을 **제외** 하면 조직의 디렉터리에서 특정 사용자 또는 사용자 그룹을 제외할 수 있습니다.
 

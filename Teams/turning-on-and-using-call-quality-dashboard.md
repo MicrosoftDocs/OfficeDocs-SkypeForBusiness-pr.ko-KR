@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 참조 하세요. '
-ms.openlocfilehash: 25f141f30691700414c3a24e705c7d8b490fd265
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328356"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435103"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
@@ -40,7 +40,7 @@ CQD (통화 품질 대시보드)는 Microsoft 팀과 비즈니스용 Skype Onlin
 
 ## <a name="latest-changes-and-updates"></a>최신 변경 및 업데이트
 
-CQD 버전 3은 거의 실시간 CQD 대시보드 (지연 시간은 30 분)를 제공 하 고, EUII (최종 사용자 식별 가능 정보)를 사용 하 여 관리자에 게 사용자 수준 확대 기능을 제공 합니다. 또한 다음과 같은 새로운 시나리오를 지원 하기 위해 대화형 작업이 보고 됩니다.
+CQD 버전 3은 거의 실시간 CQD 대시보드 (지연 시간은 30 분)를 제공 하 고, EUII (최종 사용자 식별 가능 정보)를 사용 하 여 관리자에 게 사용자 수준 확대 기능을 제공 합니다. 또한 다음과 같은 새로운 시나리오를 지원 하기 위해 대화형 작업을 보고 합니다.
 
 - 지역별 통화 음질:
   - 국가별 날짜
@@ -129,11 +129,11 @@ CQD v3은 SPD 보고서에서 드릴스루 또는 드릴 다운 필드 사용을
 
 예를 들어 통화 품질 드릴 다운 보고서에서 사용자는 ' 드릴 다운 '에 원하는 날짜를 클릭 하 여 위치 탭으로 이동할 수 있습니다.
 
-    ![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
+![스크린샷: 드릴 스루 보고서를 표시 합니다.](media/CQD-drill-thru-report.png)
 
 위치 탭에서 날짜에 2019-09-22를 추가 하는 등의 여러 날짜를 추가할 수 있습니다.: 2019-09-24: 
 
-    ![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
+![스크린샷: 드릴 스루 보고서에 날짜 추가](media/CQD-add-date.png)
 
 > [!NOTE]
 > 마지막 탭으로 바로 이동 하지 않습니다. 이전 드릴스루 결과에서 필터를 선택 하지 않으면 너무 커서 표에 표시 되지 않습니다.
@@ -339,6 +339,8 @@ CQD 요약 보고서 대시보드의 오른쪽 위 모서리에 있는 설정 �
 ### <a name="building-data-file"></a>데이터 파일 작성
 
 CQD는 빌드 데이터 파일을 사용 하 여 유용한 통화 정보를 제공 합니다. 서브넷 열은 네트워크 + NetworkRange 열을 확장 한 다음 서브넷 열을 호출 레코드의 첫 번째 서브넷 또는 두 번째 서브넷 열에 조인 하 여 건물, 도시, 국가 또는 지역 정보를 표시 합니다. 업로드 하기 전에 유효성 검사를 통과 하려면 업로드 하는 데이터 파일의 형식이 다음 조건을 충족 해야 합니다.
+
+[여기](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true) 에 샘플 서식 파일을 다운로드할 수 있습니다.
   
 - 파일은 tsv 파일 (열은 탭으로 구분) 또는 .csv 파일 (열은 쉼표로 구분) 이어야 합니다.
 - 데이터 파일에 표 머리글 행이 포함 되어 있지 않습니다. 데이터 파일의 첫 줄은 "네트워크"와 같은 머리글 레이블이 아닌 실제 데이터 여야 합니다.
@@ -359,9 +361,7 @@ CQD는 빌드 데이터 파일을 사용 하 여 유용한 통화 정보를 제�
 
 **예제 행:**
 
-```
-192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0
-```
+`192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
 > 네트워크 범위를 사용 하 여 수퍼 네트 (단일 라우팅 접두사가 있는 여러 서브넷의 조합)를 표현할 수 있습니다. 모든 새 건물 업로드가 겹치는 범위에 대해 확인 됩니다. 문서 파일을 이전에 업로드 한 경우에는 현재 파일을 다운로드 한 후 다시 업로드 하 여 겹치는 내용을 식별 하 고 문제를 해결 한 후 다시 업로드 해야 합니다. 이전에 업로드 한 파일의 겹치기로 인해 보고서의 건물에 대해 잘못 된 서브넷 매핑이 발생할 수 있습니다. 특정 VPN 구현에서는 서브넷 정보가 정확 하 게 보고 되지 않습니다. VPN 서브넷을 건물 파일에 추가할 때 서브넷에 대 한 하나의 항목이 아닌 별도의 32 비트 네트워크로 VPN 서브넷의 각 주소에 대해 개별 항목이 추가 되는 것이 좋습니다. 각 행은 동일한 빌드 메타 데이터를 가질 수 있습니다. 예를 들어 172.16.18.0/24에 대 한 한 행이 아닌 256 행이 172.16.18.0/32 및 172.16.18.255/32 (포함) 사이에 있는 각 주소에 대해 한 행이 있어야 합니다.
@@ -382,11 +382,11 @@ CQD는 끝점 데이터 파일을 사용 합니다. 열 값은 호출 레코드�
 
   **필드 순서:**
 
-  EndpointName, EndpointModel, Endpointmodel, EndpointLabel1, EndpointLabel2, EndpointLabel3
+EndpointName, EndpointModel, Endpointmodel, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **예제 행:**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
 ## <a name="create-custom-detailed-reports"></a>사용자 지정 상세 보고서 만들기
 

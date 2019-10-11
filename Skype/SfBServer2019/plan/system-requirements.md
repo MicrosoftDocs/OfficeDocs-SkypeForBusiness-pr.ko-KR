@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 요약:이 항목을 사용 하 여 비즈니스용 Skype 서버 2019 서버 및 도메인 인프라를 준비 합니다. 서버 팜을 성공적으로 설치 및 배포 하는 데 도움이 되도록 하드웨어, OS, 데이터베이스, 소프트웨어, 모든 시스템 요구 사항, Active Directory 정보 등이 여기에 포함 됩니다.
-ms.openlocfilehash: e14da71795989356f24d7dc6ae72f94a649011e5
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: 385aabbf0a3c17abd9a9a22dfdb810720ca76660
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838120"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435166"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019에 대 한 시스템 요구 사항
  
@@ -106,6 +106,9 @@ Edge 서버, 독립형 중재 서버, 디렉터에 권장 되는 하드웨어:
 <a name="Software"> </a>
 
 비즈니스용 Skype 서버 2019을 실행 하는 모든 서버에 설치 하거나 구성 해야 할 몇 가지 사항이 있습니다. 다음 목록에는 특정 서버 역할에 대 한 추가 요구 사항이 포함 되어 있습니다.
+
+> [!IMPORTANT]
+> 비즈니스용 Skype 2019는 .Net Framework 4.8를 지원 합니다. 
   
  **모든 서버:**
   

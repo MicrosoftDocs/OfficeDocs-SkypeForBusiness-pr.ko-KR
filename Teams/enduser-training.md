@@ -14,15 +14,17 @@ ms.collection:
 ms.reviewer: lolaj
 search.appverid: MET150
 description: 조직의 사용자에 게 팀을 배우고 사용할 수 있는 교육 비디오, 자습서 및 기타 리소스.
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1keywords:
+- ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+- ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 148a9a325c38f575a6453ce5011aa605e1a10aa4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ee93aa39cf0c37c3a7defd690582eb6941337ec8
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235324"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439591"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft 팀의 최종 사용자 교육
 
@@ -102,7 +104,7 @@ ms.locfileid: "36235324"
         </a>
     </li>
  <li>
-        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
+        <a href="https://aka.ms/TeamsOnDemand">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -112,7 +114,7 @@ ms.locfileid: "36235324"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>YouTube에서 팀 채널 확인</h3>
+                        <h3>YouTube에서 팀 교육 채널 확인</h3>
                     </div>
                 </div>
             </div>

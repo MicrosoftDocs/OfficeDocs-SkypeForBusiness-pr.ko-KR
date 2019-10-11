@@ -14,12 +14,12 @@ ms.collection:
 description: PowerShell 컨트롤을 사용 하 여 Microsoft 팀을 관리 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20e85b2f45977a0a78d0d358c2e8aaa01b9257e4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 75bb6a982db4ab3986a423cf958ad8e81105380c
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235134"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439586"
 ---
 # <a name="teams-powershell-overview"></a>팀 PowerShell 개요
 
@@ -79,6 +79,9 @@ PowerShell 컨트롤에 대 한 참조 설명서에서는 조사 하는 cmdlet�
 ## <a name="managing-policies-via-powershell"></a>PowerShell을 통해 정책 관리
 
 정책을 관리 하는 cmdlet은 [비즈니스용 Skype cmdlet 모듈](https://www.microsoft.com/en-us/download/details.aspx?id=39366)에 있습니다.
+
+> [!NOTE]
+> 비즈니스용 Skype Online에 연결 되 면 PowerShell 세션에서 cmdlet을 사용할 수 있습니다. 자세한 내용은 [Office 365 PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)를 참조 하세요. 
 
 정책은 개인 사용자에 게 granularly 적용할 수 있는 설정 그룹입니다. 각 정책 형식에는 정책 자체를 만들고, 보고, 삭제 하 고, 업데이트 하 고, 해당 정책을 사용자에 게 할당할 수 있는 고유한 cmdlet 집합이 있습니다. 일반적인 구조는 다음과 같습니다.
 

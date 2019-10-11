@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 945422f6bb61fca8d2b17379a7c9bf4695e7dd09
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 397cabcbba35c153d234bc4355d12e4eb44b5c57
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236544"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435092"
 ---
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>비즈니스용 Skype Online에서 Microsoft 팀으로 사용자 업그레이드
 
@@ -36,6 +36,6 @@ ms.locfileid: "36236544"
 
 | 기본 업그레이드 단계 # | 모드 | PowerShell 명령 |
 |---|---|---|
-| [5mb](upgrade-basic.md#step-5) | Islands + 비즈니스용 Skype 사용자에 게 알림<br>(사용자가 현재 **제도** 모드에 있는 경우 (기본값)이 명령을 사용 합니다.) | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*(예: $SipAddress = ' TestUser@contoso.com ')*<br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingDefaultChatDefault -Identity $SipAddress``` |
-| [5mb](upgrade-basic.md#step-5) | 비즈니스용 skype 전용 + 비즈니스용 Skype 사용자에 게 알림 <br>(사용자가 현재 **비즈니스용 Skype 전용** 모드일 때이 명령 사용) | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress``` <br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingSfBChatSfB -Identity $SipAddress``` |
-| [7](upgrade-basic.md#step-7) | 팀만 | ```Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress``` <br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity $SipAddress``` |
+| [5mb](upgrade-basic.md#step-5) | Islands + 비즈니스용 Skype 사용자에 게 알림<br>(사용자가 현재 **제도** 모드에 있는 경우 (기본값)이 명령을 사용 합니다.) | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*(예: $SipAddress = ' TestUser@contoso.com ')* |
+| [5mb](upgrade-basic.md#step-5) | 비즈니스용 skype 전용 + 비즈니스용 Skype 사용자에 게 알림 <br>(사용자가 현재 **비즈니스용 Skype 전용** 모드일 때이 명령 사용) | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress```  |
+| [7](upgrade-basic.md#step-7) | 팀만 | ```Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress```  |

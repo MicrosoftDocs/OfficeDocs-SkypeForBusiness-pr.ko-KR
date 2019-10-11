@@ -18,21 +18,18 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Microsoft 팀에서 자원 계정 관리에 대 한 자세한 정보
-ms.openlocfilehash: 022163de7c3674fa0123927bad09a389514cc107
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.openlocfilehash: 998436e48acec3552bc88f960d12771d9f1e941b
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37401851"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435161"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft 팀에서 자원 계정 관리
 
-리소스 계정은 Azure AD의 *비활성 사용자 개체* 라고도 하며 일반적인 리소스를 나타내는 데 사용 될 수 있습니다. Exchange에서 회의실을 나타내는 데 사용 될 수 있으며, 예를 들어 전화 번호를 받을 수 있습니다. Microsoft 365 또는 비즈니스용 Skype Server 2019에서 리소스 계정을 사용할 수 있습니다.
+리소스 계정은 Azure AD의 *비활성 사용자 개체* 라고도 하며 일반적인 리소스를 나타내는 데 사용 될 수 있습니다. Exchange에서 회의실을 나타내는 데 사용 될 수 있으며, 예를 들어 전화 번호를 받을 수 있습니다. Microsoft 365 또는 구내에서 비즈니스용 Skype Server 2019를 사용 하 여 리소스 계정을 설정할 수 있습니다.
 
 Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 계정이 하나 이상 있어야 하는 각 전화 시스템 통화 큐 또는 자동 전화 교환이 필요 합니다. 자원 계정이 지정 된 전화 번호에 필요한 지 여부는 다음 다이어그램에 표시 된 것 처럼 관련 통화 대기열 또는 자동 전화 교환의 용도에 따라 달라 집니다. 전화 번호를 리소스 계정에 할당 하기 전에이 문서의 맨 아래에 연결 된 통화 대기열 및 자동 전화 교환 문서를 참조할 수도 있습니다.
-
-> [!IMPORTANT]
-> 전화 번호는 자동 전화 교환 또는 통화 대기열에 직접 할당 되지 않고 자동 전화 교환 또는 통화 대기열에 연결 된 리소스 계정으로 지정 됩니다.
 
 ![리소스 계정 및 사용자 라이선스의 예](media/resource-account.png)
 
@@ -124,7 +121,8 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 ![이전 스크린샷](media/sfbcallout2.png) 의 설명선을 참조 하는 숫자 2의 아이콘은 **편집** 옵션을 사용 하 여 리소스 계정 표시 이름을 편집할 수 있습니다. 완료 되 면 **저장** 을 클릭 합니다.
 ![자원 계정 편집 옵션 스크린샷](media/r-a-edit.png)
 
-<a name="phonenumber"></a>
+<a name="phonenumber"> </a>
+
 ### <a name="assignunassign-phone-numbers-and-services"></a>전화 번호 및 서비스 할당/할당 취소
 
 ![이전 스크린샷](media/sfbcallout3.png) 에서 설명선을 참조 하는 숫자 3의 아이콘입니다. 리소스 계정을 생성 하 고 라이선스를 할당 하면 **할당/할당** 취소를 클릭 하 여 리소스 계정에 서비스 번호를 할당 하거나 리소스를 할당할 수 있습니다. 이미 존재 하는 자동 전화 교환 또는 통화 대기열에 대 한 계정 직접 라우팅 번호 지정은 Cmdlet을 사용 하 여 수행할 수 있습니다. 통화 큐 또는 자동 전화 교환을 계속 만들어야 하는 경우에는 사용자가 만드는 동안 리소스 계정을 연결할 수 있습니다. 완료 되 면 **저장** 을 클릭 합니다.
@@ -133,6 +131,9 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 > [!IMPORTANT]
 > 리소스 계정에 유효한 라이선스가 없는 경우 리소스 계정에 전화 번호를 할당 하려고 하면 내부 검사에서 오류가 발생 합니다. 번호를 할당 하거나 리소스 계정을 통화 대기열 또는 자동 전화 교환에 연결할 수 없습니다.
+
+> [!IMPORTANT]
+> 전화 번호는 자동 전화 교환 또는 통화 대기열에 직접 할당 되지 않고 자동 전화 교환 또는 통화 대기열에 연결 된 리소스 계정으로 지정 됩니다.
 
 ![할당/할당 취소 옵션 스크린샷](media/r-a-assign.png)
 

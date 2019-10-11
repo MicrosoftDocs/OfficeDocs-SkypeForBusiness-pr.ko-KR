@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e346e4e9d94c30454ad42ef5a3c44e12f2cde0
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 46d4edb3b5345fcd2267716968a2987c96259efb
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767115"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435209"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 정부 및 GCC 고급 배포 계획
 
@@ -109,7 +109,7 @@ Microsoft 365 정부-GCC 상위 환경은 클라우드 서비스에 대 한 미�
 | | VoIP 통화 | 공간이 |
 | | 비즈니스용 Skype-팀 전화 | 공간이 |
 | | 통화 요금제 | 사용할 수 없음 |
-| | 오디오 회의 (모임 참가자가 PSTN을 통해 참가 하도록 허용) | 정부 백로그 |
+| | 오디오 회의 (모임 참가자가 PSTN을 통해 참가 하도록 허용) | 공간이 |
 | | Microsoft 전화 시스템 다이렉트 라우팅 | 정부 백로그 |
 | | PSTN 호출자 용 대기실 | 정부 백로그 |
 | | 통화 대기열 | 정부 백로그 |

@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: 이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.
-ms.openlocfilehash: 985a261cab4ce9d7cf4bb6949183142a84f76dd0
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 9bf1cfa76b9049f426dd2b54e77e9461127df092
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775219"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435139"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -26,6 +26,7 @@ ms.locfileid: "36775219"
 
 |제품 |게시 대상 <br/> Microsoft Store |
 |--- |--- |
+|4.2.4.0 |10/07/2019 |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
 |4.0.85.0 |04/08/2019 |
@@ -54,6 +55,13 @@ ms.locfileid: "36775219"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 팀 대화방 기능 소개 및 문제 해결
+
+### <a name="4240-10072019"></a>4.2.4.0 (10/07/2019)
+
+이 업데이트에 도입 된 내용:
+
+- Windows 10 1903 지원. 앱 업데이트 후 몇 일 후에 Windows 10 1903 업데이트가 제공 됩니다.
+- 화면 키보드에 대 한 수정 프로그램이 안정적으로 표시 되지 않음
 
 ### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
 

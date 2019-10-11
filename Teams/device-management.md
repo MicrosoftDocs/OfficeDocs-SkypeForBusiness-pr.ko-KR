@@ -18,17 +18,17 @@ description: 조직에서 팀과 함께 사용 되는 장치를 관리 하는 �
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 871a066644aaca3b899d1c7f8b3c3c55f6a516a5
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 38d716396a61f259a3a1ac90f45b0b5b4b110e33
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483828"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434903"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Microsoft 팀에서 장치 관리
 
 ::: zone target="docs"
-관리자는 Microsoft 팀 & 비즈니스용 Skype 관리 센터에서 조직의 팀과 함께 사용 되는 모든 장치를 관리 합니다. 조직의 장치 인벤토리를 보고 관리 하 고 장치에 대 한 업데이트, 다시 시작, 모니터링 등의 작업을 수행할 수 있습니다. 장치 또는 장치 그룹에 구성 프로필을 만들고 할당할 수도 있습니다. 
+관리자는 Microsoft 팀 관리 센터에서 조직의 팀과 함께 사용 되는 모든 장치를 관리 합니다. 조직의 장치 인벤토리를 보고 관리 하 고 장치에 대 한 업데이트, 다시 시작, 모니터링 등의 작업을 수행할 수 있습니다. 장치 또는 장치 그룹에 구성 프로필을 만들고 할당할 수도 있습니다. 
 
 ## <a name="what-devices-can-you-manage"></a>어떤 장치를 관리할 수 있나요?
 장치가 팀에 대해 인증 되 고 팀에 등록 되어 있어야 합니다. 장치는 사용자가 처음으로 장치에서 팀에 로그인 할 때 자동으로 등록 됩니다. 관리할 수 있는 인증 디바이스 목록은 [전화 회의 전화](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) 및 [일반 전화기](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34)를 참조 하세요.
@@ -40,7 +40,7 @@ ms.locfileid: "36483828"
 
 ![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
 
-1. 왼쪽 탐색 창에서 장치 **** > **관리**로 이동 합니다.
+1. 왼쪽 탐색 창 **에서 장치** > **관리**로 이동 합니다.
 2. **모든 장치**를 선택 합니다.  
 
 ::: zone-end
@@ -67,7 +67,7 @@ ms.locfileid: "36483828"
 
 ![Microsoft 팀 로고를 표시 하는 아이콘](media/teams-logo-30x30.png) 비즈니스용 Skype 관리 센터 & Microsoft 팀 사용
 
-1. 왼쪽 탐색 창에서 장치 **** > **관리**로 이동 합니다.
+1. 왼쪽 탐색 창 **에서 장치** > **관리**로 이동 합니다.
 
 ::: zone-end
 
@@ -81,7 +81,7 @@ ms.locfileid: "36483828"
 
 ![Microsoft 팀 로고를 표시 하는 아이콘](media/teams-logo-30x30.png) 비즈니스용 Skype 관리 센터 & Microsoft 팀 사용
 
-1. 왼쪽 탐색 창에서 장치 **** > **관리**로 이동 합니다.
+1. 왼쪽 탐색 창 **에서 장치** > **관리**로 이동 합니다.
 
 ::: zone-end
 

@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '비즈니스의 기능, 사용 가능성 및 전화 시스템 (클라우드 PBX)을 계획 하 고 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: dd1a9d68646481f9508657db2634b7d3c325396d
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 398dcd2347f51cf4f50ee6fd7d6bfc6e95fe20d6
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328367"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434867"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능
 
@@ -35,7 +35,7 @@ PBX는 비즈니스 내의 전화 시스템입니다. Office 365 추가 기능�
   
 휴대폰 시스템 추가 기능을 사용 하면 인터넷에 접속 하 여 거의 모든 곳에서 전화를 걸고 받고, 통화를 전송 하거나, 음소거 또는 해제 통화와 같은 기본적인 작업을 수행할 수 있습니다. 전세계에서 사용할 수 있습니다! 
   
-자세한 내용은 [전화 시스템의 가격 산정](https://products.office.com/skype-for-business/cloud-pbx#requirements)을 참조 하세요.
+자세한 내용은 [전화 시스템의 가격 산정](https://products.office.com/microsoft-teams/voice-calling#requirements)을 참조 하세요.
   
 ## <a name="phone-system-in-office-365-features"></a>Office 365 기능에서 제공 하는 전화 시스템
 

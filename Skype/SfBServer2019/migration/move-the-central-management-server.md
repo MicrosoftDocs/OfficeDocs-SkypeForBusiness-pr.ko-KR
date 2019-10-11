@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 비즈니스용 Skype Server 2019으로 마이그레이션한 후에는 레거시 서버를 제거 하기 전에 중앙 관리 서버를 비즈니스용 Skype 서버 2019 프런트 엔드 서버 또는 풀로 이동 해야 합니다.
-ms.openlocfilehash: 7ba82a3748a98e2f1bc25cd7c48eceabdf76ac19
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0e13dab272a60967c0ccc676a47954b75170eeb3
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244710"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435189"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>레거시 중앙 관리 서버를 비즈니스용 Skype 서버 2019로 이동
 
@@ -67,7 +67,7 @@ ms.locfileid: "36244710"
 
 1. 중앙 관리 서버가 되는 비즈니스용 Skype Server 2019 서버에서 비즈니스용 Skype 서버 관리 셸이 **RTCUniversalServerAdmins** 그룹의 구성원으로 설치 된 컴퓨터에 로그온 합니다. 또한 SQL Server 데이터베이스 관리자의 사용자 권한 및 권한도 있어야 합니다. 
     
-2. 비즈니스용 Skype 서버 관리 셸을 엽니다.
+2. 비즈니스용 Skype Server Management Shell (관리자 권한으로 실행)을 엽니다.
     
 3. 비즈니스용 Skype 서버 관리 셸에서 다음을 입력 합니다. 
     
