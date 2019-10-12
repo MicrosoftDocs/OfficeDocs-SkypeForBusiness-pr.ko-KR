@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: 이 문서에서는 Microsoft 팀 대화방에 대 한 알려진 문제점을 기능별로 설명 합니다.
-ms.openlocfilehash: 3e3da371a294582fc6a56db7e59615fdbe97c48b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: eaf95f8afd470376ee4f14549b50df8b38d93d34
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775197"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468490"
 ---
 # <a name="known-issues"></a>알려진 문제점 
  
@@ -54,7 +54,7 @@ Microsoft 팀 대화방은 HDMI 수집 기능 (비디오, 오디오)에 문제�
 
 ***
 
-공간 표시의 앞에 사용 되는 소비자 TV는 자동으로 대기 모드에서 활성 비디오 원본으로 전환 하도록 HDMI의 CEC (소비자 전자 컨트롤) 기능을 지원 해야 합니다. 이 기능은 모든 Tv에서 지원 되지 않습니다.
+원본에서 대기 모드를 해제할 때 자동으로 활성 비디오 원본 (예: MTR 콘솔)으로 전환 하려면 특정 조건이 충족 되어야 합니다. 이 기능은 선택 사항 이지만 Microsoft 팀 공간 소프트웨어에서 지원 되며, 기본 하드웨어에서 기능을 지 원하는 경우 제공 됩니다. 채팅방 표시로 사용 되는 소비자 TV는 HDMI의 CEC (소비자 전자 컨트롤) 기능을 지원 해야 합니다.  선택 된 dock 또는 console (CEC를 지원 하지 않을 수 있음) (제조업체 지원 문서 참조)에 따라 원하는 동작을 사용 하도록 설정 하려면 [HD CTL 100의 extron](https://www.extron.com/article/hdctl100ad) 작업 영역 컨트롤러가 필요할 수 있습니다. 
 
 ***
 
@@ -67,6 +67,9 @@ Microsoft 팀 대화방 장치가 도메인에서 신뢰를 상실 한 경우에
 64 비트 버전의 Windows 10 Enterprise 기념일 edition (영어 버전 1607)은 Microsoft 팀 회의실 릴리스 3.0.12.0에서 더 이상 지원 되지 않습니다. 
 ***
 Microsoft 팀 대화방은 다중 창 응용 프로그램 이므로 장치의 HDMI 포트에 연결 하 여 앱이 올바르게 작동 하도록 하는 방 디스플레이가 앞에 있어야 합니다. 테스트 하는 경우에는 HDMI 디스플레이가 연결 되어 있는지 확인 하 고, 아직 표시를 구매 하지 않은 경우에는 dummy HDMI 플러그를 사용 해야 합니다.
+***
+Windows 10 1903는 그래픽 드라이버 문제로 인해 Crestron의 Microsoft 팀 공간 장치에 아직 제공 되지 않습니다.
+
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>참고 항목

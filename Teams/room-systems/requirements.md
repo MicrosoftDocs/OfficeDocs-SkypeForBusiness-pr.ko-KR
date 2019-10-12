@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: 이 문서에서는 Microsoft 팀 대화방을 지원 하기 위한 요구 사항을 요약 하 여 설명 합니다.
-ms.openlocfilehash: f5e78b9731a84841291a93aaeb9e0a25a084c87b
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 98f7b4871133840bc531f563652b335bf706e37f
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439531"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468479"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 팀 방에 대 한 요구 사항
 
@@ -111,7 +111,7 @@ Microsoft 팀 공간은 공간 크기에 따라 다양 한 오디오 및 비디�
 
 #### <a name="usb-extenders"></a>USB extender
 
-- 태블릿 도크의 USB 포트는 USB 3.0 호환 가능 합니다. USB 2 .x extender를 사용할 수 있습니다. 이로 인 한 끝에는 USB 2. x 속도를 제한 하 게 되며 USB 3.0 주변 기기에는 권장 되지 않습니다.
+- 태블릿 도크의 USB 포트는 USB 3.0 호환 가능 합니다. USB 2 .x extender를 사용할 수 있지만, 이렇게 하면 끝에 USB 2. x의 속도를 제한 하 게 됩니다. USB 3.0 주변 기기에는 extender를 사용할 수 없습니다.
 - Extender는 USB 2.0 이상 사양을 충족 해야 합니다.
   - 태블릿 도크는 외부 USB 허브 확장의 두 단계 이상을 지원 합니다. 2 개 이상의 USB 허브를 시리즈에 연결 하는 경우, dock 제조업체에 문의 하 여 시리즈 연결 지원 여부를 확인 합니다.
   - 실내의 유선 GbE 연결. 적절 한 길이의 이더넷 케이블.

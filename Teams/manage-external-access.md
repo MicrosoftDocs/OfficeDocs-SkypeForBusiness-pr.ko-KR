@@ -18,19 +18,19 @@ description: IT 관리자는 해당 도메인의 사용자 들이 팀에 참여�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: f39760eb971a333373191b444abbb72395f13737
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: f2252b14343aa68e4a1dd97bc918b5c9cc30d727
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305764"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468501"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft 팀에서 외부 액세스 관리
 ======================================================
 
 Microsoft 팀 외부 액세스를 사용 하면 다른 도메인의 팀 사용자가 채팅 및 통화에 참가할 수 있습니다. 또한 비즈니스용 Skype Online을 사용 하는 다른 외부 사용자, 비즈니스용 Skype for 프레미스 또는 Skype 까지도 허용할 수 있습니다.
 
-다음과 같은 경우이 문서에 나와 있는 단계를 사용 합니다.
+다음과 같은 경우에 외부 액세스를 사용 합니다.
   
 - 비즈니스의 다른 도메인에 사용자가 있는 경우 (예: Rob@contoso.com 및 Ann@northwindtraders.com)
 

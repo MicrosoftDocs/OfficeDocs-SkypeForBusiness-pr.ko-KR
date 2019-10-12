@@ -11,40 +11,55 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: 이 문서에서는 Microsoft 팀 대화방에 대 한 수명 지원에 대해 설명 합니다.
-ms.openlocfilehash: dbe90d4014439af3f0dc3eeb54d62c5ee5e64c98
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 89706c2459c8f27c71017cc4f2b19395afaf5ead
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775076"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468468"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 팀 대화방 앱 버전 지원
  
-Microsoft 팀의 회의실에 대 한 업데이트를 연간 몇 회 (일반 가용성) 릴리스 날짜에서 12 개월 동안 지원 되는 상태로 릴리스할 예정입니다. 전체 12 개월 동안 기술 지원이 제공 됩니다. 그러나 지원 구조는 이제 최신 버전의 가용성에 따라 달라 지는 두 가지 개별 서비스 단계로 발전 하 고 있습니다.
+Microsoft 팀 대화방 앱은 1 년에 여러 번 업데이트를 받습니다. 각 업데이트는 GA (일반 가용성) 릴리스 날짜에서 12 개월에 지원 됩니다. 전체 12 개월 동안 기술 지원이 제공 됩니다. 그러나 지원 구조는 다음과 같이 최신 버전의 사용 가능성에 따라 달라 지는 다음 두 단계를 포함 하는 동적입니다.
 
-**서비스 및 중요 업데이트 서비스 단계** \- 최신 버전의 Microsoft 팀 대화방을 실행할 때 보안 및 서비스 업데이트를 포함 하는 정기 업데이트를 받게 됩니다.
+- **서비스 및 중요 업데이트 단계** \- 최신 버전의 Microsoft 팀 대화방 앱을 실행 하면 *보안 및 서비스* 업데이트를 포함 하는 정기 업데이트를 받을 수 있습니다.
 
-**보안 업데이트 (전용) 서비스 단계** \- 새 버전이 출시 된 후에는 이전 분기에 대 한 지원은 12 개월 동안의 업데이트 지원 주기 기간에 있는 나머지 12 개에 대 한 보안 업데이트만 감소 합니다.
+- **보안 업데이트 상위** \- 버전의 Microsoft 팀 공간 앱이 출시 되는 경우 이전 버전의 앱은 나머지 12 개월 수명 주기 중에서 *보안 업데이트* 를 사용 하는 지원 수준 감소를 제공 합니다.
 
 > [!NOTE]
-> 최신 버전은 항상 서비스 및 중요 업데이트 서비스 단계에 있습니다. 이는 중요 업데이트를 지 원하는 코드 오류가 발생 하는 경우 픽스를 받기 위해 최신 버전이 설치 되어 있어야 한다는 것을 의미 합니다. 지원 되는 다른 모든 버전은 보안 업데이트를 받을 수만 있습니다.
+> 최신 버전은 항상 서비스 및 중요 업데이트 단계에 있습니다. 중요 업데이트를 지 원하는 코드 오류가 발생 하는 경우에는 최신 버전을 설치 하 여 수정 프로그램을 받을 수도 있어야 합니다. 지원 되는 다른 모든 버전은 보안 업데이트를 받을 수만 있습니다.
 
 이후 버전에 대 한 12 개월 수명 주기가 만료 되거나 두 개 이상의 업데이트가 끝난 후에는 모든 지원이 종료 됩니다. 고객은 지원 되는 버전으로 업데이트 해야 합니다.
 
 모든 릴리스는 [Microsoft 팀 대화방 릴리스 노트](srs2-release-note.md)에 나열 되어 있습니다.
 
-# <a name="os-version-support"></a>OS 버전 지원
+## <a name="windows-10-release-support"></a>Windows 10 릴리스 지원
 
-Microsoft 팀 대화방을 실행 하는 디바이스에 대 한 windows 10 기능 업데이트는 Windows가 릴리스를 업데이트 하는 시점부터 6 개월 동안 제공 되지 않습니다. 이 작업은 비즈니스용 Windows 업데이트 (즉, 반기 채널)와 앱 설정을 통해 Microsoft 팀 공간 장치에 대 한 특수 블록을 추가 하 여 수행 됩니다. 이 기간 동안 Microsoft는 사내와 장치 OEM 파트너를 통해 Microsoft 팀 대화방 앱 및 주변 기기와 연결 된 상태에서 새 Windows 10 기능 릴리스가 작동 하는지 확인 하는 다양 한 테스트를 수행 합니다. 이는 장치 보안, 일관 된 사용자 경험을 보장 하 고 Microsoft 팀 공간 앱을 통해 제공 되는 경험의 품질을 확인 하는 데 중요 합니다. 
+Microsoft 팀 대화방에는 반기 채널 서비스 옵션에서 Windows 10 IoT Enterprise 또는 Windows 10 Enterprise Sku가 필요 합니다. 다음 Windows 10 버전은 지원 되지 않습니다.
 
-이 장치에서 다운로드 하기 위해 Windows 10 기능 업데이트가 제공 되는 시간 블록에서 Microsoft 팀 대화방은 앱 지원 정책에 있는 12 개월 기간에 대 한 특정 Windows 10 기능 릴리스를 지원 합니다. Windows 10의 기능 업데이트는 6 개월 마다 제공 되므로 Microsoft 팀에는 현재 버전에 대 한 지원이 종료 되는 시간을 테스트 하기 위해 두 개 이상의 릴리스가 있음을 의미 하기도 합니다. 이는 또한 Windows 10 버전이 모든 Microsoft 팀 회의실 고객에 게 6 개월 마다 차단 해제 됨을 의미 합니다. 앱이 지속적으로 변경 되 고 차단 되지 않은 마지막 Windows 릴리스에 대해 개발 됩니다. Microsoft 팀 회의실 장치에서 발생 하는 문제에 대 한 앱 수정을 제공 하기 위해 모든 고객에 게 이러한 장치를 지원 되는 windows 버전 지침 내에서 유지 되는 최신 Windows 10 기능 업데이트로 업그레이드할 수 있도록 합니다.
+- Windows 10 Enterprise 장기 서비스 분기 (LTSB)/장기 서비스 채널 (LTSC) 버전
+- Windows 10의 인터넷 (IoT) Enterprise LTSB/LTSC edition
+- Windows 10 Pro 또는 Home edition 등의 다른 Windows 버전
 
-따라서 Microsoft 팀 회의실 장치에는 지원 되는 최소 버전으로 시작 하는 Windows 10 버전 1709이 2019으로 필요 합니다. Windows 10 버전 1703 또는 그 이하의 시스템에는 새로운 앱 릴리스가 제공 되지 않습니다.
+Windows 10 기능 업데이트가 Microsoft 팀 대화방 장치에서 즉시 제공 되거나 업데이트 되지 않습니다. [Windows 10 릴리스 정보](https://docs.microsoft.com/windows/release-information/) 페이지에 게시 된 일반 사용 가능 날짜가 지난 최대 6 개월 후의 의도적인 지연입니다. 지연 시간은 Microsoft 팀 대화방 응용 프로그램, 장치 하드웨어 및 인증 된 오디오 영상 주변 장치에 대 한 Windows 10 릴리스 호환성의 유효성을 검사 하는 데 사용 됩니다. 유효성 검사는 Windows 10의 각 주요 릴리스를 활성 개발 하는 동안 시작 되 고 계속 됩니다. 모든 장치 제조업체가 장치에 대 한 업데이트 된 이미지를 작성 하 고 Microsoft 팀이 해당 이미지를 인증 하 고 테스트 하는지 확인 하기 위해 추가 시간이 필요 합니다. 유효성 검사 기간 동안 Microsoft 팀 대화방 앱은 [비즈니스 그룹 정책에 Windows 업데이트](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) 를 사용 하 여 windows 10 기능 업데이트를 지연 합니다. 호환성 문제가 발견 되 고 해결 된 후 Windows 스토어에서 새 앱 릴리스를 통해 그룹 정책 업데이트를 통해 블록이 리프트 됩니다. Microsoft 팀 대화방 앱을 실행 하는 디바이스는 야간 유지 관리를 다시 부팅 하는 동안 적절 한 Windows 10 릴리스로 자동 업데이트 됩니다. 업데이트를 수동으로 관리 하려는 고객을 위해 MSI 버전을 사용할 수 있게 되었습니다.  
 
-> [!NOTE]
-> Microsoft 팀 대화방 장치가 Windows 10 OS의 다음 버전과 호환 되는 경우이 장치는 자동으로 Windows Update를 통해 다음 버전으로 업데이트 됩니다. Microsoft 팀 대화방 장치는 "받을 업데이트에 대 한 Windows 준비 수준 선택" 및 "시기 선택"을 사용 하 여 windows 10의 다음 릴리스로 수동 또는 WUFB (비즈니스용 Windows 업데이트) 그룹 정책을 업그레이드할 수 없습니다. GPO를 통해 Preview 빌드 및 기능 업데이트 수신 "옵션 이러한 그룹 정책을 사용 하도록 설정 하는 것이 Windows 10 OS 업데이트와 Microsoft 팀 대화방 앱 간의 문제를 야기할 수 있는 것으로 알려져 있습니다.
- 
-<a name="See"> </a> 
+유효성 검사 기간 동안 Microsoft 팀 대화방 장치는 어떤 방법으로도 Windows 10의 다음 릴리스로 **업데이트 되어서는 안 됩니다.** 여기에는 그룹 정책 재정의 또는 System Center 또는 타사 장치 관리 서비스를 사용 하는 것이 포함 됩니다. 이러한 경우에는 Microsoft 팀 대화방 응용 프로그램에 문제가 발생할 수 있으며 장치를 사용할 수 없는 상태로 남을 수도 있습니다.  
+
+다음 표에는 Microsoft 팀 대화방 지원 여부를 확인 하는 권장 및 지원 되는 버전의 Windows 10이 나와 있습니다. 모든 날짜는 ISO 8601 형식 (YYYY-MM-DD)으로 나열 됩니다.
+
+|버전  |사용 가능 날짜   |Microsoft 팀 대화방 지원 상태   |Microsoft 팀 대화방 최소 응용 프로그램 버전 | 권장 OS 빌드  |
+|:---  |:---       |:---                |:---    |:--- |
+| 1903 |2019-05-21 |지원 <br/>권장 |4.2.4.0 |18362.356 |
+| 1809 |2019-03-28 |건너뛰면 <br/>권장 하지 않음 &#x2780; |&#x2014; |&#x2014; |
+| 1803 |2018-07-10 |지원           |4.1.22.0 |17134.191 |
+| 1709 |2018-01-18 |지원 되지 않음       |&#x2014; |&#x2014;|
+| 1703 |2017-07-11 |지원 되지 않음       |&#x2014; |&#x2014;|
+||||| |
+
+지원 되는 버전의 Windows 10을 사용 하는 경우 항상 Microsoft 팀 대화방 앱에 대 한 최신 응용 프로그램 업데이트를 받게 됩니다.  
+
+Windows 10 1809 버전 &#x2780; Microsoft 팀 대화방 응용 프로그램과 호환성 문제가 발생 하 여 사용 하지 않는 것이 좋습니다. 이 특정 문제는 야간 재부팅 후 Microsoft 팀원의 룸 응용 프로그램이 시작 되지 않는 원인이 될 수 있습니다. 이 문제는 Windows 10 1903 버전에서 해결 되었습니다.  
+
 ## <a name="see-also"></a>참고 항목
 
 [Microsoft 팀 대화방 도움말](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
