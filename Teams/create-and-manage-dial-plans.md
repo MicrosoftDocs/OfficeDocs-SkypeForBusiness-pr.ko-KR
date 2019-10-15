@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Office 365에서 통화 다이얼 플랜 (PSTN 통화 다이얼 플랜)을 만들고 관리 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 5254a2d63abeffa0b3452ed309d49272affcaf05
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 6c432f6494355e9ae0d6a46cc787814bee252a29
+ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36184367"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37508792"
 ---
 # <a name="create-and-manage-dial-plans"></a>다이얼 플랜 만들기 및 관리
 
@@ -126,7 +126,7 @@ Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단�
 - 다이얼 플랜의 유효 설정을 테스트 하려면 다음을 실행 합니다.
     
   ```
-  Test-CsEffectiveTenantDialPlan -DialedNumber 14255551234 -Identity 1849827b-a810-40a8-8f77-e94250d4680b_US_TenantDialPlanRedmond
+  Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
     다른 예제 및 매개 변수는 [Test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx)을 참조 하세요.

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Office 365 테 넌 트에서 클라우드 커넥터 통합을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1742fbadec95eb72e46fb6cc46f006e1baeaf8f1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b4c70c5698601a2aa69669da3384b6806af98110
+ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190875"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37508813"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Office 365 테 넌 트와 클라우드 커넥터 통합 구성
  
@@ -112,7 +112,7 @@ Office 365에 사용자를 추가한 후에는 음성 메일을 포함 하 여 O
   ```
 
     > [!NOTE]
-    > 또한 SIP 주소, UPN (사용자 계정 이름), 도메인 이름 및 사용자 이름 (domain\username), Active Directory에서 표시 이름 ("Bob 최소라")을 사용 하 여 사용자의 Id를 지정할 수도 있습니다. 
+    > 사용자 id는 사용자의 SIP 주소, UPN (사용자 계정 이름) 또는 사용자의 Active Directory 표시 이름 (예: "Bob 최소라")을 사용 하 여 지정할 수 있습니다. 별표 (\*) 문자는 사용자 Id로 표시 이름과 함께 사용할 수도 있습니다. 예를 들어 Id "\*smith"는 표시 이름을 문자열 값 "smith"로 끝나는 모든 사용자를 반환 합니다.
   
 그런 다음 아래 스크립트를 사용 하 여 사용자를 추가 하 고 사용 하도록 설정 했는지 확인할 수 있습니다.
   
@@ -169,7 +169,7 @@ P2P 통화가 PSTN 회의로 에스컬레이션 되는 경우 비즈니스용 Sk
     
     라이선스 할당은 비즈니스용 Skype online 디렉터리로의 사용자 전파에만 필요 하다는 점에 유의 하세요. 만든 계정에 Office 365 라이선스 (예: E5)를 할당 하 고 변경 내용을 전파 하는 데 최대 1 시간 동안 다음 cmdlet을 실행 하 여 비즈니스용 Skype online 디렉터리로 사용자 계정이 올바르게 프로 비전 되었는지 확인 하 고 다음을 제거 합니다. 이 계정에서 라이선스를 사용 합니다.
     ```
-   Gets-CsOnlineUser -Identity <UserPrincipalName>
+   Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
 2. 전역 또는 사용자 관리자 자격 증명을 사용 하 여 테 넌 트 Azure AD 원격 PowerShell 세션을 시작한 후 다음 cmdlet을 실행 하 여 1 단계에서 구성한 Azure AD 사용자 계정에 대 한 부서를 "HybridMediationServer"로 설정 합니다.

@@ -3,7 +3,6 @@ title: 팀 업데이트
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/13/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ search.appverid: MET150
 description: 팀 데스크톱 클라이언트가 업데이트 되는 방법에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0fe542c6df89946ad73f14cf9104f973e292aa3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ba6201d0f1b52b7ebfd869ad699c2eb06eb664d8
+ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243845"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37508803"
 ---
 # <a name="teams-update-process"></a>팀 업데이트 프로세스
 
@@ -34,8 +33,7 @@ ms.locfileid: "36243845"
 
 사용자에 게 업데이트를 다운로드 하려면 로그인 해야 합니다. 
 
-7 월 9 일부터 2019, 팀 클라이언트 업데이트는 업데이트 중에 훨씬 낮은 네트워크 대역폭을 사용 합니다. 이 기능은 기본적으로 설정 되어 있으며 관리자 또는 사용자의 작업이 필요 하지 않습니다.
-
+2019 년 7 월 31 일에 팀 클라이언트 업데이트는 업데이트 중 매우 낮은 네트워크 대역폭을 사용 합니다. 이 기능은 기본적으로 설정 되어 있으며 관리자 또는 사용자의 작업이 필요 하지 않습니다.
 
 ## <a name="what-about-updates-to-office-365-proplus"></a>Office 365 ProPlus 업데이트에 대 한 자세한 정보
 
@@ -50,3 +48,15 @@ VDI (가상 데스크톱 인프라)의 팀 클라이언트는 비 VDI 팀 클라
 ## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>관리자가 팀 자동 업데이트 대신 업데이트를 배포할 수 있나요?
 
 팀은 모든 배달 메커니즘을 통해 관리자에 게 업데이트를 배포 하는 기능을 제공 하지 않습니다.
+
+## <a name="servicing-agreement"></a>서비스 계약
+
+최신 온라인 서비스인 팀 클라이언트는 2 주 마다 자동으로 업데이트 됩니다. 팀은 최신 수명 주기 정책에 따라 관리 되므로 사용자가 데스크톱 클라이언트의 최신 버전을 그대로 유지 해야 합니다. 이렇게 하면 사용자에 게 최신 기능, 성능 향상, 보안 및 서비스 안정성이 제공 됩니다.
+
+데스크톱 클라이언트가 만료 되는 경우를 식별 하는 기능을 지원 하기 위해 사용자의 현재 버전이 1 개월 이상 이전이 고 사용할 수 있는 새 버전이 있으면 앱에서 경고가 표시 됩니다. 이 앱 내 메시지는 사용자가 최신 버전의 팀으로 업데이트 하거나 필요한 경우 IT 관리자에 게 연락 하 여이 작업을 수행할 수 있도록 합니다. 3 개월 이상 지난 팀 데스크톱 클라이언트의 사용자에 게는 지금 업데이트 하는 옵션을 제공 하는 차단 페이지 (IT 관리자에 게 연락 하거나 웹의 팀으로 계속)가 표시 됩니다.
+
+팀의 첫 번째 설치 및/또는 최초 실행 시 3 개월 이상의 데스크톱 클라이언트 버전이 앞에서 언급 한 서비스 정보를 시작 하기 전에 28 일 유예 기간을 보유 합니다. 이 기간 동안에는 자동 업데이트 프로세스가 팀 클라이언트를 업데이트 합니다. 업데이트 하지 않은 경우 사용자는 앱에서 최신 버전을 수동으로 업데이트 하거나 필요한 경우 IT 관리자에 게 연락 하 여이에 대 한 알림이 표시 됩니다. 여기에는 Office 365 ProPlus 번들의 일부로 팀 데스크톱 클라이언트를 사용 하는 사용자가 포함 됩니다.
+
+현재 정부 클라우드의 팀 데스크톱 클라이언트는 추가 공지에 도달할 때까지이 서비스 계약에 대 한 예외를 발생 합니다.
+
+새 버전 릴리스에 대 한 자세한 내용은 [메시지 센터](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) 를 확인 하거나 클라이언트의**새로운 기능** 에 대 한 **도움말을 참조** > 하세요.
