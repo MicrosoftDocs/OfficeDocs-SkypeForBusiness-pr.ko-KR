@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 description: 서비스 상태 모니터링, 네트워크 품질과 사용량 평가 및 확인을 비롯 한 팀 서비스 관리에 필요한 작업 및 활동입니다.
 localization_priority: Normal
+ms.collection:
+- M365-voice
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a63cac388a777073f5c022e493a5abab51a12add
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 61d0bc220de81b67c27d21d3ea22c7974a4c84d1
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244395"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517086"
 ---
 # <a name="operate-my-service"></a>내 서비스 운영
 
@@ -39,7 +39,7 @@ ms.locfileid: "36244395"
 
 이 가이드의 작업 및 활동은 다음 다이어그램에 표시 된 대로 여덟 가지 범주로 그룹화 됩니다. 이러한 각 범주는 다음 섹션에 따라 확장 됩니다.
 
-![작업 및 활동 범주 목록을] 보여 주는 다이어그램 (media/operate-my-service-image1.png "팀에 대 한 서비스 관리를 구성 하는 작업 범주와 활동의 목록을 보여 주는 다이어그램입니다. 또한이 다이어그램은 서비스 관리가 주로 고객 작업을 나타냅니다.")
+![](media/operate-my-service-image1.png "팀에 대 한 서비스 관리를 구성 하는 작업 범주와 활동을 보여 주는 다이어그램을 보여 주는 다이어그램 또한이 다이어그램은 서비스 관리가 주로 고객 작업을 나타냅니다.")
 
 
 <table>
@@ -316,7 +316,7 @@ NPS는 – 100에서 100 까지의 인덱스 이며, 고객의 willingness을 �
 
 -   1 ~ 6의 Detractors: 서비스를 손상 하 고 성장률을 저해 하는 불만이 있습니다.
 
-![NPS 크기를 보여 주는 다이어그램] (media/operate-my-service-image2.png "이 다이어그램은 NPS 크기를 보여 줍니다. 이 예제에서는 0 ~ 6의 순위가 detractors이 고, 7부터 8까지는 passive이 고, 9 ~ 10은 promoters입니다.")
+Nps 배율을 보여 ![주는 다이어그램]입니다(media/operate-my-service-image2.png ". 이 예제에서는 0 ~ 6의 순위가 detractors이 고, 7부터 8까지는 passive이 고, 9 ~ 10은 promoters입니다.")
 
 기본 NPS 번호를 사용 하는 것이 좋지만 사용자 의견을 분석 하는 데 있어 가장 많은 값을 얻을 수 있습니다. 사용자가 다른 사람에 게 팀을 추천 하는 이유를 이해 하는 데 도움이 됩니다. 이러한 메모는 프로젝트 또는 서비스 관리 팀이 품질 서비스를 제공 하는 데 필요한 조정을 이해 하는 데 도움이 되는 소중한 피드백을 제공할 수 있습니다.
 
@@ -548,7 +548,7 @@ Microsoft의 번호 인벤토리에 제공 하는 전화 번호의 수에 제한
 
 [경력 품질 검토 가이드](https://aka.ms/qerguide) 에는 아래 그림과 같이 사용자 환경 개선에 가장 큰 영향을 주는 주요 영역에서 개선 지침을 평가 하 고 제공 하는 일련의 활동이 포함 됩니다.
 
-![경력을 검토 하는 동안 검사할 영역 다이어그램] (media/plan-my-service-management-image2.png "경력을 검토 하는 동안에는 오디오, 안정성, 사용자 설문 조사 결과 중에서 검사할 주요 영역입니다.")
+경험 치 ![중에 검사할 영역 다이어그램](media/plan-my-service-management-image2.png ": 경험 치 검토 중에는 오디오, 안정성 및 사용자 설문 조사 결과에 대 한 주요 영역") 을 검토 합니다.
 
 가이드에 설명 된 영역을 지속적으로 평가 하 고 수정 사용자 환경에 부정적인 영향을 줄 수 있습니다. 배포에서 발생 하는 대부분의 사용자 경험 문제는 다음 범주로 그룹화 할 수 있습니다.
 

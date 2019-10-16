@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- M365-collaboration
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +21,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Fournir des expériences accessibles à tous est cœur de la 임무 de Microsoft,  i consiste à permettre à chaque personne et à chaque Microsoft offre d'accessibilité a Skype Entreprise et Microsoft 팀의 특별 한 nombre de a s'inscrivent dans son 계약 요새 en-us의 모든 포함을 취소 합니다.
-ms.openlocfilehash: b03ae1bdf2d5d00f946854794ab23344b96e14cf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c68afb52c2e3abfde9a5e6e06cc79aa87b918dc2
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239474"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516845"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>비즈니스용 Skype Online 및 프랑스의 Microsoft 팀을 위한 접근성 솔루션
 

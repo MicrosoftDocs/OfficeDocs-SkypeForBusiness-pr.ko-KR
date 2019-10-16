@@ -11,16 +11,15 @@ ms.service: msteams
 search.appverid: MET150
 description: 사용자가 팀 채팅 또는 모임에서 데스크톱을 공유할 수 있도록 모임 정책 구성
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f36804fc4d7c28f08ca383ddb09f22ee52f804e7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 99c6e2a5adb9d0f9a4b4e3f6f17b7484bda96a74
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236936"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516889"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft 팀에서 데스크톱 공유 구성
 ============================================
@@ -31,7 +30,7 @@ ms.locfileid: "36236936"
 
 **Microsoft 팀 관리 센터**
 
-1.  > 모임 ******모임 정책을**선택 합니다.
+1.  > 모임**모임 정책을**선택 **합니다**.
 
     ![모임 정책을 선택한 것을 보여 주는 스크린샷](media/configure-desktop-sharing-image1.png)
 

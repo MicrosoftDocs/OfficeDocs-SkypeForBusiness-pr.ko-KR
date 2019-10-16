@@ -8,19 +8,18 @@ ms.date: 12/14/2018
 ms.topic: article
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: mikedav
 description: 오디오 회의, 전화 시스템, 통화 요금제 등의 기능에 대 한 라이선스를 할당 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d51e2cf8a563c5094da923949c8e736aceeb864
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1e5783a2fa0c6479d59e563b9001b736015f20fa
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241886"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515783"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Microsoft 팀 라이선스 할당
 

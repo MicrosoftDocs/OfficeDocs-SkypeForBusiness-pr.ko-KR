@@ -7,19 +7,18 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: lucarras, jakon
 description: Microsoft 팀에서 개인 채팅, 그룹 채팅 및 채널을 위해 인공 지능을 추가 하 고 개인 채팅, 그룹 채팅 및 채널을 위한 자신만의 봇을 업로드 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f5f031b01837980897f2c1f8ad5d306e056257b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7837fd3a832a1764cfde3968b73337069762dab3
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239479"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516836"
 ---
 <a name="add-bots-for-personal-chats-group-chats-and-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채팅, 그룹 채팅 및 채널을 위한 인공 지능 추가
 ==========================================================
@@ -51,7 +50,7 @@ Bot은 팀에 배포 하기 전에 [Bot 프레임 워크 에뮬레이터](https:
 
 1. 봇을 만든 후에는 개발한 봇에 대 한 **응용 프로그램 설정** 으로 이동한 다음 **앱 설정**에서 **MicrosoftAppId** 설정의 값을 복사 합니다. ![Bot에 대 한 응용 프로그램 설정 페이지 스크린샷](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
-2.  팀의 **채팅** 창에서 **채팅 추가 아이콘**을 선택 합니다. 에서 **** 봇의 **Microsoft 앱 ID**를 붙여 넣습니다. ![Microsoft 앱 ID가 강조 표시 된 채팅 창 스크린샷](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
+2.  팀의 **채팅** 창에서 **채팅 추가 아이콘**을 선택 합니다. 에서 **봇**의 **Microsoft 앱 ID**를 붙여 넣습니다. ![Microsoft 앱 ID가 강조 표시 된 채팅 창 스크린샷](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
 
 3. 앱 ID가 **인공 지능 이름** 으로 확인 되 면 해당 봇으로 채팅 대화를 시작할 수 있습니다.
 

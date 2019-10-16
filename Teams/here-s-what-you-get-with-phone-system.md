@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '비즈니스의 기능, 사용 가능성 및 전화 시스템 (클라우드 PBX)을 계획 하 고 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 398dcd2347f51cf4f50ee6fd7d6bfc6e95fe20d6
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 85b60b07dda2283fb91665834c7f6cd4187454cd
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434867"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516867"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능
 
@@ -84,7 +84,7 @@ PBX는 비즈니스 내의 전화 시스템입니다. Office 365 추가 기능�
 
 - [통화 요금제 설정](set-up-calling-plans.md):이 문서에서는 전화 번호를 사용 하 여 설정 하거나 기존 전화 번호를 비즈니스용 Skype로 이전 하는 단계별 지침을 제공 합니다.
     
-- [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions):이 문서에서는 모든 배포 옵션의 레이아웃을 설명 합니다. 또한 전체 클라우드 전용 솔루션 계획에 대 한 정보도 있습니다. 
+- [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions):이 문서에서는 모든 배포 옵션의 레이아웃을 설명 합니다. 또한 전체 클라우드 전용 솔루션 계획에 대 한 정보도 있습니다. 
     
 - [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Office 365에서 전화 시스템을 받기 위해 구입 해야 하는 라이선스에 대해 알아보세요.
     
@@ -100,7 +100,17 @@ PBX는 비즈니스 내의 전화 시스템입니다. Office 365 추가 기능�
 |:-----|:-----|:-----|
 |**리치 클라이언트** <br/> |**모바일 클라이언트** <br/> |**IP 전화** <br/> |
 | Office 365의 지원 되는 모든 PC 및 Mac 클라이언트에서 작동 합니다. <br/> [비즈니스용 Skype 설치](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Office 365 용 Mac 용 Lync 설정 2011](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | 비즈니스용 Skype 클라이언트에는 다음이 포함 됩니다. <br/> [Io](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |비즈니스용 Skype와 호환 되는 많은 수의 일반 전화기를 선택 하세요. [비즈니스용 Skype Online 전화 받기를](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)참조 하세요. <br/> |
-   
+
+## <a name="availability-in-gcc-high-and-dod-clouds"></a>GCC High 및 DoD 클라우드의 가용성
+<a name="bkmk_setup"> </a>
+
+GCC High 및 DoD 클라우드에서는 다음 기능을 아직 사용할 수 없습니다. 
+- [보조 벨소리, 보이스 메일 및 향상 된 위임에 대 한 통화 설정](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- [보이스 메일로 전송](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
+- 검색 표시줄의 전화 번호
+- 대기 중인 음악
+- AAD 역방향 번호 조회
+
 ## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 

@@ -12,15 +12,14 @@ search.appverid: MET150
 description: 관리자는 Microsoft 팀 관리 센터를 사용 하 여 팀과 공동 작업 하도록 Skype 모임 앱을 구성할 수 있습니다.
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 227ac287958634ee699a29990149a494a00b2078
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1f478eaaa1248e7738026f32ae0ccfb7ee03480f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236865"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516925"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>팀과 함께 작동 하도록 Skype 모임 앱 구성
 ===================================================

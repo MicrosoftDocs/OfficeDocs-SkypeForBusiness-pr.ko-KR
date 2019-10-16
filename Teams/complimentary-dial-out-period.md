@@ -9,7 +9,6 @@ ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
 search.appverid: MET150
@@ -22,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: 고객은 비즈니스용 Skype Online 및 Microsoft 팀 PSTN 서비스 사용 약관 및 고객의 볼륨 라이선스 계약에 따라 Office 365 통화 요금제 및 Office 365 오디오 회의를 사용할 수 있습니다.
-ms.openlocfilehash: 4dcc4cbd85c8dbc9b821fd3cd1905c0270dce08c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e5f0d49cfd43b04f5c361564adcc05805d04b594
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236947"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516900"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>오디오 회의 무료 전화 걸기 기간
 

@@ -17,16 +17,15 @@ f1keywords:
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.thirdpartyapps
 - ms.teamsadmincenter.apppolicies.adminsettings
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efeb467c5cf3cad5e427a26b01f972d40922db21
-ms.sourcegitcommit: 16345e8a19dba6fd1b39f876755088f9d8368f13
+ms.openlocfilehash: 7d5ecbab6da3936ba0bb20105c40ef0df2c9a1c4
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "36620454"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516803"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft 팀의 앱에 대 한 관리자 설정
 ==========================================

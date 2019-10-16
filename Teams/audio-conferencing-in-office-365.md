@@ -9,9 +9,8 @@ ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 search.appverid: MET150
 audience: admin
 appliesto:
@@ -21,12 +20,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 87ce2422fd4d14b5b9e2c90921b0fe84630f2887
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: cf8aa0de368803fa957667e239ba6ed0b161c0cb
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235751"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517046"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365의 오디오 회의
 Office 365의 오디오 회의를 통해 사용자는 휴대폰에서 모임에 전화를 걸 수 있습니다. 오디오 회의는 최대 250 전화 참석자를 허용 합니다.

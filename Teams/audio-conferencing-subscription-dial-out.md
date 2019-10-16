@@ -9,9 +9,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '고객은 2019 년 11 월 30 일에 종료 되는 무료 전화 걸기 기능을 제공 합니다.  2019 년 12 월 1 일부 터 각 오디오 회의 구독은이 문서에 설명 된 국가를 지역에 따라 매월 사용자 당 60 분을 제공 합니다. '
-ms.openlocfilehash: 8c60a469684705b2a227711c5bfb22cd6baa9111
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8da1082d0bf7e9a50248e29877309053f706e741
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182291"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515884"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>오디오 회의 구독 "전화 걸기"/"나에 게 전화 하세요" 통화 혜택
 
@@ -64,7 +63,7 @@ ms.locfileid: "36182291"
 
 ## <a name="how-can-i-monitor-minute-pool-usage"></a>분 단위 사용량을 어떻게 모니터링할 수 있나요?
 
-- "레거시" 비즈니스용 Skype 관리 센터에서 전화 걸기 분 풀에 대 한 사용량을 모니터링할 수 있습니다. Microsoft 팀 관리 센터에서 **구형 포털** > **보고서** > **** 로 이동 합니다. 전화 걸기 분 단위는 보고서에 "국가를 시간대에 대 한 아웃 바운드 통화"로 지정 됩니다.
+- "레거시" 비즈니스용 Skype 관리 센터에서 전화 걸기 분 풀에 대 한 사용량을 모니터링할 수 있습니다. Microsoft 팀 관리 센터에서 **구형 포털** > **보고서** > 로 이동**합니다.** 전화 걸기 분 단위는 보고서에 "국가를 시간대에 대 한 아웃 바운드 통화"로 지정 됩니다.
 - 테 넌 트의 전화 접속 시간 풀 사용률이 80% 및 100%에 도달 하면 지정 된 고객의 모든 테 넌 트 관리자에 게 전자 메일 알림이 전송 됩니다.
 
 통신 크레딧을 추가 하는 방법에 대 한 자세한 내용은 [통신 제작진](what-are-communications-credits.md)을 참조 하세요.

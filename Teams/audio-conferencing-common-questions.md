@@ -11,9 +11,8 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의를 사용 하려는 고객에 게 제공 되는 몇 가지 주요 질문입니다.
-ms.openlocfilehash: 3d35665da6ed32d66a2cfa82353ddcf9f60be063
-ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
+ms.openlocfilehash: 7779a732a10f8a55f8bbdbb977ac9850cd2307bd
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36675335"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516991"
 ---
 # <a name="audio-conferencing-common-questions"></a>오디오 회의 일반적인 질문
 

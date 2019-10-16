@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Office 365에서 통화 다이얼 플랜 (PSTN 통화 다이얼 플랜)을 만들고 관리 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 6c432f6494355e9ae0d6a46cc787814bee252a29
-ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
+ms.openlocfilehash: 3b96c2f504096b3f77c7080feda1dac982f46e9c
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/15/2019
-ms.locfileid: "37508792"
+ms.locfileid: "37516675"
 ---
 # <a name="create-and-manage-dial-plans"></a>다이얼 플랜 만들기 및 관리
 

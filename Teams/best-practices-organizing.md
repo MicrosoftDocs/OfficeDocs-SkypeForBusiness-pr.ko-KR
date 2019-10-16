@@ -11,16 +11,15 @@ description: 조직의 요구 사항에 맞게 Microsoft 팀에서 팀을 구성
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32bd7664e8aa8fa8a818b3223e64b09f7982d12f
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: ec5b841cdb184eb6bbad85ee5456ec8f4470983b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767177"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516724"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft 팀에서 팀을 구성 하기 위한 모범 사례
 ======================================================

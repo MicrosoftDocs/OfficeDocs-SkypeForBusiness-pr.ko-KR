@@ -8,19 +8,18 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: Office 365 감사 로그에서 Microsoft 팀 데이터를 검색 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31db1ad74c0819e5dc9bcdb4f7e8e9fd6ae2291d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5d332880756c0173045fc1e5464bd889d0131301
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237266"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516730"
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft 팀에서 이벤트 감사 로그 검색
 ==================================================
@@ -51,7 +50,7 @@ Office 365에서 감사 되는 활동의 전체 목록을 보려면 [office 365 
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>감사 로그에서 팀 데이터 검색
 
-1.  감사 로그를 검색 하려면 [보안 & 준수 센터로](https://go.microsoft.com/fwlink/?linkid=855775)이동 합니다. **검색 & 조사**에서 **감사 로그 검색**을 선택 합니다. ![감사 로그 검색 페이지 스크린샷](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+1.  감사 로그를 검색 하려면 [보안 & 준수 센터로](https://go.microsoft.com/fwlink/?linkid=855775)이동 합니다. **검색 & 조사**에서 **감사 로그 검색**을 선택 합니다.
 
 2.  **검색** 을 사용 하 여 감사 하려는 활동, 날짜 및 사용자를 기준으로 필터링 합니다.
 

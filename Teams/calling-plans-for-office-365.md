@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -25,12 +24,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Skype for business 옵션에 대 한 통화 요금제 (PSTN 통화 요금제)와 조직의 라이선스를 얻는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: c3cafee8dcce326dd20661f919dc57b0e1f1fe26
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 305416df22353743b891df6c7722bededaae0980
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36183992"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516750"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365에 대 한 통화 요금제
 

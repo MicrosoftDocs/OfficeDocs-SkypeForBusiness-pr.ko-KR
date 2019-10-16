@@ -10,15 +10,16 @@ audience: admin
 search.appverid: MET150
 description: 사용자가 Microsoft 팀에서 PSTN 호출을 차단 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e367a69b9ce75b2d7aa4dcfaf55491cef10cfe1f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1c76c8e91c06de0af5a14182f9f7afbde2f7a66e
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237187"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516719"
 ---
 # <a name="understand-how-users-can-block-pstn-calls-on-microsoft-teams-desktop-and-mobile-clients"></a>사용자가 Microsoft 팀 데스크톱 및 모바일 클라이언트에서 PSTN 호출을 차단 하는 방법 이해
 

@@ -7,19 +7,18 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: Microsoft 팀의 콘텐츠 검색에 대해 알아보고 Exchange에서 채널 대화, 파일 업로드 및 SharePoint의 수정 및 OneNote 변경 내용을 검색 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7fe2528ab4f508af7840d820b54919d5b3a5faee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 66621d7c5a2c7110045b1a378a0dcc1df4ccc510
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236814"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517054"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft 팀에서 콘텐츠 검색 사용
 =====================================

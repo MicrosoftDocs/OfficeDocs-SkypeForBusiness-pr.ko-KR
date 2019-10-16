@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: '비즈니스용 Skype 또는 Microsoft 팀 앱을 사용 하지 않을 때 모임 이끌이의 이름 및 pin을 수집 하는 데 사용 되는 회의 브리지에 대 한 설정을 변경 해야 하는 단계를 확인 하세요. '
-ms.openlocfilehash: 97c1439325e5a9a00cacfa26e97078d2c2a91014
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: b7ac85729bafe9d27f9e33cfa22597811b8d3d0b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "36183794"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516955"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>오디오 회의 브리지에 대 한 설정 변경
 

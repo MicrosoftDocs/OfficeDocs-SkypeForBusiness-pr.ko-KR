@@ -10,8 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '비즈니스용 Skype를 설정 하 여 조직의 기본 음성 메일 인사말에 다른 언어를 사용 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 085262a4ae4362aa40d20d3da657db6bcac694a3
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 85631b9f8b1ecbc070bb2c5cc986978236828a52
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328345"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516977"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>인사말 및 전자 메일의 기본 언어 변경
 

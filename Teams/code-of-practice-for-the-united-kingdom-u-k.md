@@ -9,7 +9,6 @@ ms.assetid: 44c6c523-2cd8-43c5-a53c-e9c59489b9c6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -22,12 +21,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: '영국 비즈니스용 Skype에 대 한 통화 요금제 (PSTN 통화 요금제)에 대 한 연습 코드, 도움말을 받을 수 있는 위치, 불만을 제출 하 고 분쟁를 해결 하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: ebe95fcfb5982c3dd2a615fe46c80e091a181783
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ece2fcc6190ba800ba927147f4746a4fc0f2fd0
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182264"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515854"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365의 통화 요금제-영국 (영국)에 대 한 연습 코드
 

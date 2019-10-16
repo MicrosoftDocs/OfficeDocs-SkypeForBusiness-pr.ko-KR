@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 클라우드 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: eeeafb99a7cf1344d973b5963eab5b0c4ee8eaea
+ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434967"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37522773"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>클라우드 자동 전화 교환 설정
 
@@ -219,10 +218,20 @@ ms.locfileid: "37434967"
 
 **이름으로 전화 걸기** 이 옵션을 사용 하도록 설정 하는 경우 발신자는 **이름으로 다이얼**을 사용 하 여 조직에서 사용자를 검색할 수 있습니다. 사용자의 이름과 음성 인식이 사용자에 게 일치 하는 것으로 가정 합니다. 전화 걸기 범위 (선택 사항) 페이지에서 이러한 서비스에 포함 되지 않는 사용자를 설정할 수 있습니다. 전화 시스템 라이선스가 있는 모든 온라인 사용자 또는 비즈니스용 Skype 서버를 사용 하 여 온-프레미스에 호스팅되는 사용자는 적격 사용자 이며 이름으로 전화를 걸 수 있습니다.
 
-**내선** 번호 이 옵션을 사용 하도록 설정 하면 사용자가 **확장을 사용 하는 다이얼 플랜을 구성한**경우 전화 내선 번호를 입력 하 여 조직의 사용자와 연결할 수 있습니다. 전화 걸기 범위 (선택 사항) 페이지에서 **전화 접속을 통해** 사용할 수 있거나 사용할 수 없음으로 나열 되는 사용자를 선택할 수 있습니다. 휴대폰 시스템 라이선스가 있는 모든 온라인 사용자 또는 비즈니스용 Skype를 사용 하 여 온-프레미스에 호스팅되는 모든 사용자는 적격 사용자 이며, 내선 번호로 전화 접속을 통해 찾을 수 있습니다.
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+**내선** 번호 이 옵션 (현재 일부 테 넌 트 에서만 사용 가능)을 사용 하도록 설정 하는 경우 발신자는 휴대폰 내선 번호를 입력 하 여 조직의 사용자와 연결할 수 있습니다. 전화 걸기 범위 (선택 사항) 페이지에서 **전화 접속을 통해** 사용할 수 있거나 사용할 수 없음으로 나열 되는 사용자를 선택할 수 있습니다. 휴대폰 시스템 라이선스가 있는 모든 온라인 사용자 또는 비즈니스용 Skype를 사용 하 여 온-프레미스에 호스팅되는 모든 사용자는 적격 사용자 이며, 내선 번호로 전화 접속을 통해 찾을 수 있습니다.
+
+> [!IMPORTANT]
+> 다음 사항을 준수 하세요.
+>- 내선 번호로 전화를 걸 수 있도록 하려는 사용자는 내선 번호가 [Microsoft 365 관리 센터](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)에서 할당 된 전화번호 또는 휴대 전화 번호의 일부로 지정 되어 있어야 합니다.  사용자 전화 번호 필드에 확장명을 입력 하는 데 필요한 형식은 `+<phonenumber>;ext=<extension>` 또는 `x<extension>`입니다.
+>- 팀 관리 센터에서 확장을 할당 하는 것은 현재 지원 되지 않습니다. [Set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) powershell 명령 또는 Microsoft 365 관리 센터를 사용 해야 합니다.
+>- AAD PhoneNumber를 변경 하기 전에 최대 12 시간까지 걸릴 수 있으며 MobilePhone 특성을 사용할 수 있습니다.
+>- 사용자의 LineUri에 대 한 확장을 정의 하지 마세요. 이는 현재 지원 되지 않습니다.
+>- 자동 전화 교환은 이름으로 전화 걸기 또는 내선 번호를 통해 전화 접속으로 구성할 수 있습니다.
 
 > [!NOTE]
-> **이름으로 전화 걸기** 및 **내선** 번호를 사용 하 여 사용자의 내선 번호를 알고 있는 경우 호출자에 게 메뉴 옵션 3을 선택 하 고 옵션 3을 tran으로 설정 하는 주 자동 전화 교환 ( **이름으로 전화 걸기**사용 가능)을 만들 수 있습니다. 내선 번호로 전화를 걸기 위해 자동 전화 교환 기능을 사용 하도록 설정 sfer. 
+> **이름으로 전화 걸기** 및 **내선** 번호를 사용 하 여 사용자의 내선 번호를 입력 하는 경우 호출자에 게 메뉴 옵션을 선택 하는 주 자동 전화 교환 ( **이름**으로 사용 가능)을 만들고 해당 옵션을 설정할 수 있습니다. 전화를 걸 수 있는 자동 전화 교환으로 통화를 전환 합니다. 
 
 * * *
 

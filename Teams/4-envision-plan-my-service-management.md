@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: 운영 역할 계획 및 고품질 챔피언 지정을 통해 고품질 배포를 제공 하 고 유지 관리 합니다.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44f68e258535959c164ae838c2c146a4a4b207d9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bab0026b14514114f9c6e975046ee561dade6f40
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233026"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516761"
 ---
 # <a name="plan-my-service-management"></a>내 서비스 관리 계획
 
@@ -36,13 +36,13 @@ ms.locfileid: "36233026"
 서비스 관리에는 Microsoft 팀의 종단 간 관리에 관련 된 모든 활동과 프로세스가 포함 됩니다. Office 365 서비스 자체에 포함 되는 인프라 구성 요소인 서비스 관리의 일부 구성 요소는 Microsoft의 책임 이지만, 고객은 팀, 네트워크 및 사용자의 다양 한 측면을 관리 하는 데 책임이 있습니다. 끝점을 제공 합니다.
 고객에 게 팀 서비스 관리에 대 한 자세한 설명과 사용자 환경의 품질을 underpin 하는 주요 구성 요소와의 관련성에 대 한 자세한 내용은 [서비스 관리 및 품질 계획](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide)을 참조 하세요.
 
-![품질의 세 가지 구성 요소 다이어그램] (media/plan-my-service-management-image1.png "품질의 세 가지 구성 요소 (Office 365 서비스, 네트워크, 끝점)의 다이어그램으로, 서비스 관리가 세 가지 모두와 겹치는 방법에 대해 설명 합니다.")
+(media/plan-my-service-management-image1.png "품질의 세 가지 구성 요소 (Office 365 서비스, 네트워크, 끝점)에 대 한 세 가지 품질 다이어그램의 다이어그램으로, 서비스 관리가 세 가지 모두와 겹치는 방법") 에 대해 설명 합니다. ![]
 
 <!--ENDOFSECTION-->
 
 ## <a name="introduction-to-the-operations-guide"></a>운영 가이드 소개 
 
-서비스 관리 **** 에 필요한 세 **** 가지 중요 한 질문에 대 한 답변을 제공 합니다. ****
+서비스 관리에 필요한 세 가지 **중요 한** **질문에 대**한 **답변을 제공**합니다.
 
 [운영 가이드](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) 를 사용 하 여 세 가지 질문에 대 한 해결을 도울 수 있습니다. 이 가이드에서는 매일, 매주, 매월, 필요한 기준에 따라 수행할 작업 목록을 제공 합니다. 이러한 활동 및 작업은 고품질 팀 배포를 유지 관리 하는 데 중요 합니다. 서비스 관리에서 특정 작업을 수행 하는 담당자를 결정 하는 것은 성공적인 배포를 위해 구상 단계의 초기 단계에서 수행 해야 하는 계획의 중요 한 측면입니다. 작업 및 활동을 파악 한 후에는 이해 하 고 그 다음에 자신에 게 할당 하는 그룹 또는 개인이 그 다음에 자신을 확인 해야 합니다. 운영 가이드에서는 각 작업을 수행 하는 방법에 대 한 정보 및 지침과 외부 콘텐츠를 참조 하는 방법에 대해 설명 합니다.
 
@@ -91,7 +91,7 @@ ms.locfileid: "36233026"
 
 품질 경험 검토 가이드에는 아래 그림에 표시 된 것 처럼 사용자 환경을 개선 하는 데 가장 큰 영향을 주는 주요 영역에서 개선 지침을 평가 하 고 제공 하는 일련의 활동이 있습니다.
 
-![품질 경험 검토 중에 검사할 주요 영역 그림] (media/plan-my-service-management-image2.png "품질 경험 검토 중에 오디오, 안정성, 사용자 설문 조사 결과 등을 검사할 주요 영역입니다.")
+![품질 경험 중에 검토할 주요 영역에 대]한 설명(media/plan-my-service-management-image2.png "품질 경험 검토 중에는 오디오, 안정성 및 사용자 설문 조사 결과를 검토 하는 데 중요 한 주요 영역") 에 대해 살펴봅니다.
 
 이 문서에서 설명 하는 영역을 지속적으로 평가 하 고 수정 사용자 환경에 부정적인 영향을 줄 수 있습니다. 배포에서 발생 하는 대부분의 사용자 경험 문제는 다음 범주로 그룹화 할 수 있습니다.
 

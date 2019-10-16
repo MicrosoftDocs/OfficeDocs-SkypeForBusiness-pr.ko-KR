@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 참조 하세요. '
-ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: de5547f8a8cc4ee7284d544b0ef2a980b4d50b0c
+ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435103"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37522762"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
@@ -310,9 +310,15 @@ CQD 요약 보고서 대시보드의 오른쪽 위 모서리에 있는 설정 �
 - 각 무선 AP 및 MAC 주소의 지도
 - 끝점을 끝점으로 설정/모델/형식 등으로 매핑합니다.
   
+> [!NOTE]
+> CQD에 업로드 하는 보고 레이블은 *고객 데이터* 또는 *개인 데이터로*간주 되는 정보를 포함 하 여 Office 365의 계약에 따라 *지원 데이터로* 처리 됩니다. Microsoft에 제공 하지 않을 데이터는 지원 *데이터로*포함 하지 마세요 .이 정보는 지원에 대 한 microsoft 엔지니어가 볼 수 있습니다.
+
 ![스크린샷: 통화 품질 대시보드 테 넌 트 데이터를 표시 합니다.](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
 1. **테 넌 트 데이터 업로드** 페이지에서 드롭다운 메뉴를 사용 하 여 업로드할 데이터 파일 형식을 선택 합니다. 파일 데이터 형식은 파일의 콘텐츠를 나타냅니다 (예: "빌드"는 IP 주소와 빌드 및 기타 지역 정보를 매핑하는 것을 의미 하 고 "끝점"은 끝점 이름 및 끝점 만들기/모델/형식 정보를 매핑하는 것을 의미 합니다.) 현재 CQD는 cqd.teams.microsoft.com (미리 보기 단계에서는 공식적으로 사용할 수 없음)에 대 한 "건물" 및 "끝점" 데이터 형식을 지원 하며, cqd.lync.com는 "건물" 데이터 형식만 지원 합니다.
+
+
+
 2. 파일 데이터 형식을 선택한 후 **찾아보기를** 클릭 하 여 데이터 파일을 선택 합니다.
 
    - 데이터 파일은 tsv (탭으로 구분 된 값) 파일 또는 .csv (쉼표 구분 값) 파일 이어야 합니다. .Csv 파일을 사용 하는 경우 쉼표를 포함 하는 필드는 따옴표로 묶여 있거나 쉼표를 제거 해야 합니다. 예를 들어 건물 이름이 "회사" 인 경우 .csv 파일에 "회사"를 입력 합니다.

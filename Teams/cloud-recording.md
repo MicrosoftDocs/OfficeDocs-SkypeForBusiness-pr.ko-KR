@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 클라우드 음성 기능을 배포 하기 위한 실용적인 지침입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88f043bec273cb19745e9800fc9cdb85f64c8e7a
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 9feaffd1677d96c53dee57b03f9061c6fa8184ce
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271404"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516944"
 ---
 # <a name="teams-cloud-meeting-recording"></a>팀 클라우드 모임 녹음/녹화
 
@@ -64,7 +64,7 @@ Microsoft Stream administrator가 [회사 지침 정책을 설정](https://docs.
 
 ### <a name="turn-on-or-turn-off-cloud-recording"></a>구름 기록 설정 또는 해제
 
-팀 PowerShell의 TeamsMeetingPolicy에서 AllowCloudRecording 설정을 사용 하 여 사용자의 모임을 녹화할 수 있는지 여부를 제어 합니다. Office 365 PowerShell을 사용 하 여 TeamsMeetingPolicy를 관리 하 [](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)는 방법에 대해 자세히 알아볼 수 있습니다.
+팀 PowerShell의 TeamsMeetingPolicy에서 AllowCloudRecording 설정을 사용 하 여 사용자의 모임을 녹화할 수 있는지 여부를 제어 합니다. Office 365 PowerShell을 사용 하 여 TeamsMeetingPolicy를 관리 하는 방법에 대해 자세히 알아볼 [수 있습니다.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 모임 이끌이와 녹음 개시자 모두 모임에 녹음/녹화를 위한 기록 권한이 있어야 합니다. 사용자에 게 사용자 지정 정책을 할당 하지 않은 경우 사용자는 기본적으로 사용 하지 않도록 설정 된 AllowTranscription가 있는 전역 정책을 가져옵니다.
 
@@ -91,7 +91,7 @@ Microsoft Stream administrator가 [회사 지침 정책을 설정](https://docs.
 
 사용자가 팀 회의를 기록할 때 모임이 기록 된 후 자동으로 성적을 생성할지 여부를 확인할 수 있습니다. 관리자가 모임 이끌이 및 녹음/녹화 초기자에 대 한 기록 기능을 사용 하지 않도록 설정한 경우 녹음 개시자는 모임 녹음/녹화를 녹음 수 있는 선택 항목을 가져오지 않습니다.
 
-팀 PowerShell에서 TeamsMeetingPolicy의 AllowTranscription setting을 사용 하 여 기록 개시자가 모임 녹음/녹화를 녹음 하도록 선택할 수 있는지 여부를 제어 합니다. Office 365 PowerShell을 사용 하 여 TeamsMeetingPolicy를 관리 하 [](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)는 방법에 대해 자세히 알아볼 수 있습니다.
+팀 PowerShell에서 TeamsMeetingPolicy의 AllowTranscription setting을 사용 하 여 기록 개시자가 모임 녹음/녹화를 녹음 하도록 선택할 수 있는지 여부를 제어 합니다. Office 365 PowerShell을 사용 하 여 TeamsMeetingPolicy를 관리 하는 방법에 대해 자세히 알아볼 [수 있습니다.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 사용자에 게 사용자 지정 정책을 할당 하지 않으면 기본적으로 사용 하지 않도록 설정 된 AllowTranscription 전역 정책이 부여 됩니다.
 

@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: 온 보 딩 검사 목록을 사용 하 여 팀을 위한 Office 365을 준비 하 고 팀 핵심 기능, 네트워킹, 클라우드 음성 작업을 구성 합니다.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63b507237cbc9a1d32dc891b99eaf6425528b559
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 653b5cf46e0b079af47c282b4110b181e76be915
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236568"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517066"
 ---
 # <a name="prepare-my-service"></a>내 서비스 준비
 
@@ -140,7 +140,7 @@ ms.locfileid: "36236568"
 
 -   언어 기본 설정이 있는 전용 및 공유 오디오 회의 전화 접속 번호 목록이 식별 되 고 구성 되었습니다.
 
--   [통신 제작진](what-are-communications-credits.md) (필요한 경우) 조직에 대해 설정 되어 있습니다.
+-   조직에 대해 [통신 크레딧을](what-are-communications-credits.md) 설정 했습니다 (필요한 경우).
 
 -   오디오 회의 회의 브리지 설정이 식별 되 고 구성 되었습니다 (PIN 길이, 입력/종료 알림, 사용 알림 기본 설정).
 
@@ -158,7 +158,7 @@ ms.locfileid: "36236568"
 
 -   사용자에 게 할당 될 전화 번호를 Microsoft로 구입 또는 이식 했으며, 테 넌 트 포털에서 사용할 수 있습니다.
 
--   [통신 제작진](what-are-communications-credits.md) (필요한 경우) 조직에 대해 설정 되어 있습니다.
+-   조직에 대해 [통신 크레딧을](what-are-communications-credits.md) 설정 했습니다 (필요한 경우).
 
 -   호출 계획 시나리오를 지 원하는 테 넌 트 사용자 정책 및 다이얼 플랜 설정은 식별, 구성 및 적용 되었습니다.
 

@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: 팀 클라이언트 앱을 선택 하 고, 끝점 품질을 계획 하 고, Wi-fi 끝점을 배포 하기 위한 권장 사항을 얻고, 오디오 장치를 선택 합니다.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 688b1d05acb882b08128fa144f28bd8e682d57fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 37b74c631bc8194037b332e821b29fa61cb6530b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235509"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516758"
 ---
 # <a name="plan-my-users-experience"></a>내 사용자 환경 계획
 
@@ -41,7 +41,7 @@ Microsoft 팀에는 웹, 데스크톱 (Windows 및 Mac) 및 모바일 (Android �
 
 아래 다이어그램에서 볼 수 있듯이 끝점은 사용자에 게 품질 경험을 제공 하기 위한 중요 한 빌딩 블록입니다.
 
-![품질의 세 가지 구성 요소를 설명 하는 다이어그램] (media/plan-my-users-experience-image1.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 설명 하는 다이어그램입니다. 끝점에 포커스를 둔 상태")
+품질의 세 가지 구성 요소를 설명 하는 ![품질 다이어그램의 세 가지 구성 요소](media/plan-my-users-experience-image1.png "와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 설명 하는 다이어그램입니다. 끝점에 포커스를 둔 상태")
 
 팀 끝점은 Pc, Mac, 태블릿, 모바일 장치를 비롯 한 다양 한 장치에서 실행 될 수 있습니다. 장치의 기본 제공 마이크/스피커, 이어폰 또는 최적화 된 헤드셋을 사용 하는 것과 같이 장치를 포괄 하는 방법과 사용자가 디바이스에 연결 하는 방법을 경험해 보세요. 최적화 된 헤드셋을 사용 하면 전체적인 사용자 환경이 보강 될 수 있습니다.
 

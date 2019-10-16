@@ -10,8 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 오디오 회의 라이선스를 구입 하는 경우 Microsoft는 조직에 대 한 오디오 회의 브리지를 호스팅 하 고 있습니다. 오디오 회의 브리지는 다른 위치에서 전화 접속 전화 번호를 제공 하므로 모임 이끌이 및 참가자가 휴대폰을 사용 하 여 비즈니스용 Skype 또는 Microsoft 팀 모임에 참가 하는 데 사용할 수 있습니다.
-ms.openlocfilehash: 60095ff820c6aeb13745f5195a6274fa90f5eec0
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 9c4d16f3f68e190549b1e8a1d7b6f3f03e8a44c6
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36184358"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516966"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>오디오 회의 브리지에서 전화 번호 변경
 

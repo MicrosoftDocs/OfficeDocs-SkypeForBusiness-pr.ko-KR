@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: 목표를 정의 하 고, 승인 된 상황을 이해 하 고, 교육 및 지원을 제공 하 여 사용자 채택을 구동 하는 계획을 만듭니다.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 162bb3f2e0b17475618afbb796e9ae8778bdab4a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 026edba5c85fa010ee583b501d1ecc1f18308518
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36246213"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516916"
 ---
 # <a name="prepare-my-users"></a>사용자 준비
 
@@ -46,7 +46,7 @@ ms.locfileid: "36246213"
 
 다음 이미지는 비즈니스용 Skype에서 팀으로 업그레이드 하는 고객에 대 한 비전 대 값 문의 예입니다.
 
-![비전과 값을 표시 하는 두 개의 열] 로 이루어진 테이블 (media/prepare-my-users-new-image1.png "두 개의 열로 이루어진 표 (비전을 사용 하는 경우) (조직 수준) 왼쪽에 있고 값은 무엇 인가요? (사용자 수준) 오른쪽에") 있습니다.
+비전이 표시 된 두 개의 ![열](media/prepare-my-users-new-image1.png "로 이루어진 테이블 (두 열이 있는 경우) (조직 수준) 왼쪽에 있고 값은 무엇 인가요? (사용자 수준) 오른쪽에") 있습니다.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>이 새로운 솔루션에 대 한 구매를 획득 하는 방식으로 사용자에 게 이점과 가치를 어떻게 사용 하 고 있나요?</li></ul></td></tr>
@@ -126,7 +126,7 @@ ms.locfileid: "36246213"
 
 다음 이미지는 가상 사용자 테이블의 예입니다.
 
-![가상 사용자 세부 정보를 나열 하는 값 테이블] (media/prepare-my-users-image2.png "공용 역할, 통신 및 공동 작업 솔루션 종속성이 있는 가상 사용자를 나열 하는 표 임원 가상 사용자에 게 프로필에 대 한 세부 정보 (수명의 일)와 경영진에 게 필요한 기능, 장치, 교육 등이 강조 표시 됩니다.")
+![]가상 사용자에(media/prepare-my-users-image2.png "게 공통 역할, 통신 및 공동 작업 솔루션 종속성을 나열 하는 가상 사용자 정보 테이블을 나열 하는 값 테이블. 임원 가상 사용자에 게 프로필에 대 한 세부 정보 (수명의 일)와 경영진에 게 필요한 기능, 장치, 교육 등이 강조 표시 됩니다.")
 
 각 사용 사례에 대해 프로젝트 팀과 함께 다음을 논의 하세요.
 

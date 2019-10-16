@@ -8,20 +8,18 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 description: 통화 계획 랜딩 페이지
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83e2516ac9fd142c6cb965539ff22c4900811888
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 998c0964239e430451a157bb6d8d0034fc7d19a7
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237176"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517002"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>사용자에 게 적합 한 통화 요금제는 무엇 인가요? 
 

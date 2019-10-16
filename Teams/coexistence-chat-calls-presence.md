@@ -10,17 +10,17 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-voice
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 description: 이 문서는 할당 된 Team를 사용 하는 팀 사용자와 테 넌 트 및 페더레이션 모두에 대 한 채팅, 통화 라우팅 및 현재 상태 간 동작에 대해 설명 합니다. 여기에는 라우팅 최적화, 현재 상태 동작, *레거시* 에서 *아일랜드* 로의 기본 team문제 등급 모드 변경 및 *이전 버전*의 임박한 만료가 포함 됩니다.
-ms.openlocfilehash: 22e931d50c3008a77df6ad6568bd50acbe891c8b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3af54bdfecc7843fbbc095ca0d0cebb91732e648
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236914"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515865"
 ---
 # <a name="coexistence-with-skype-for-business"></a>비즈니스용 Skype와 공존
 
