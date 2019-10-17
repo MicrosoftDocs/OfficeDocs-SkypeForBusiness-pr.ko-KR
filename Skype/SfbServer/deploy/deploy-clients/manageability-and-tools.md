@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Skype 대화방 시스템용 관리 도구에 대해 자세히 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: 51cb9ed85558a97b4afbeed8e4addd2ade6debec
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: c9289d3fffa78dd7ffd94fa17784c1b06c2278b1
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775329"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547261"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype 실 시스템 관리 효율성 및 도구
  
@@ -29,9 +29,6 @@ Skype 대화방 시스템용 관리 도구에 대해 자세히 알아보려면�
   
 - [비즈니스용 Skype 서버에서 SRS v1 관리 웹 포털 배포](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
-## <a name="system-center-operations-manager"></a>System Center Operations Manager
-
-Skype 채팅방 시스템 [관리 팩](https://www.microsoft.com/download/details.aspx?id=42320) 을 다운로드 하 고 scom server에 설치 하 여 시스템 센터 운영 관리자 (scom)를 통해이를 모니터링할 수 있습니다. SCOM를 사용 하 여 알림을 설정 하 고, Skype 대화방 시스템의 상태를 모니터링 하 고, 가동 시간 보고서를 생성할 수 있습니다. Skype 채팅방 시스템에는 SCOM server를 가리키도록 구성할 수 있는 사전 설치 된 모니터링 에이전트가 제공 됩니다. Skype 대화방 시스템에서 모니터링 에이전트를 구성 하는 방법을 알아보려면 Skype 채팅방 시스템 제조업체에서 제공 하는 설치 가이드를 참조 하세요.
   
 ## <a name="exchange-checklist"></a>Exchange 검사 목록
 

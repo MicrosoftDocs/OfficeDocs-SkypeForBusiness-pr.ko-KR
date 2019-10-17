@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac2b42094484ce711760a793053bf619aab66884
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 33a56cb9844a9c40da41d411e537f7cedb2bf2a5
+ms.sourcegitcommit: 61deca3fd35142d210ab8307c21a576b3301ec84
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484007"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37553774"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>비즈니스용 Skype로 팀을 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침
 
@@ -84,7 +84,7 @@ Interop 및 마이그레이션은 TeamsUpgradePolicy를 사용 하 여 "공존 �
 
 |모드|통화 및 채팅|모임 예약<sup>1</sup>|팀 & 채널|사용 사례|
 |---|---|---|---|---|
-|**TeamsOnly<sup>2</sup>**</br>*비즈니스용 Skype Online에 홈이 필요 합니다.*|성과|성과|'|업그레이드 되는 최종 상태입니다. 또한 <500 좌석을 가진 새 테 넌 트의 기본값입니다.|
+|**TeamsOnly<sup>2</sup>**</br>*비즈니스용 Skype Online에 홈이 필요 합니다.*|성과|성과|'|업그레이드 되는 최종 상태입니다. 새 테 넌 트의 기본값 이기도 합니다.|
 |분리|어떤|어떤|'|기본 구성. 단일 사용자가 두 클라이언트를 나란히 평가할 수 있도록 합니다. 채팅 및 통화는 두 클라이언트 중 하나에서 발생할 수 있으므로 사용자는 항상 두 클라이언트를 모두 실행 해야 합니다. 비즈니스용 Skype 환경, 외부 (연합) 통신, PSTN 음성 서비스 및 음성 응용 프로그램, 사무실 통합, 기타 여러 통합이 비즈니스용 Skype에서 계속 해 서 처리 되는 것을 방지 합니다.|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|비즈니스용 Skype|성과|'|"모임 먼저". 현재 온-프레미스 조직을 클라우드로의 통화를 진행할 준비가 되지 않은 경우 팀 모임 기능을 활용할 수 있습니다.|
 |SfBWithTeamsCollab|비즈니스용 Skype|비즈니스용 Skype|'|보다 엄격한 관리 제어가 필요한 복잡 한 조직의 대체 시작 위치입니다.|
@@ -98,7 +98,7 @@ Interop 및 마이그레이션은 TeamsUpgradePolicy를 사용 하 여 "공존 �
 
 <sup>1</sup> 기존 모임에 참가 하는 기능 (팀의 예약 또는 비즈니스용 Skype)은 모드를 통해 제어 되지 않습니다. 기본적으로 사용자는 초대 된 모든 모임에 항상 참가할 수 있습니다.
 
-<sup>2</sup> 개인 사용자에 게 팀 전용 또는 SfbWithTeamsCollabAndMeetings 할당 하는 경우, 이후 해당 사용자가 예약한 모든 비즈니스용 Skype 모임이 팀 모임으로 변환 됩니다. 원할 경우, TeamsUpgradePolicy을 허용 하는 경우를 지정 `-MigrateMeetingsToTeams $false` 하거나 팀 관리 포털에서 확인란을 선택 취소 하 여 이러한 모임을 비즈니스용 Skype 모임으로 남겨둘 수 있습니다.   테 넌 트를 기준으로 TeamsUpgradePolicy 권한을 부여할 때 비즈니스용 Skype에서 팀으로 모임을 변환 하는 기능은 avaialble 되지 않습니다. 
+<sup>2</sup> 개인 사용자에 게 팀 전용 또는 SfbWithTeamsCollabAndMeetings 할당 하는 경우, 이후 해당 사용자가 예약한 모든 비즈니스용 Skype 모임이 팀 모임으로 변환 됩니다. 원할 경우, TeamsUpgradePolicy을 허용 하는 경우를 지정 `-MigrateMeetingsToTeams $false` 하거나 팀 관리 포털에서 확인란을 선택 취소 하 여 이러한 모임을 비즈니스용 Skype 모임으로 남겨둘 수 있습니다.   테 넌 트를 사용 하는 경우 TeamsUpgradePolicy을 비즈니스용 Skype에서 팀으로 변환 하는 기능은 사용할 수 없습니다. 
 
 <sup>3</sup> 현재 팀에 팀 및 채널 기능을 사용 하지 않도록 설정 하는 기능이 없으므로 지금이 활성화 된 상태를 유지 합니다.
 
@@ -143,7 +143,7 @@ TeamsUpgradePolicy는 Mode 및 NotifySfbUsers 라는 두 가지 키 속성을 �
 
 ## <a name="federation-considerations"></a>페더레이션 고려 사항
 
-비즈니스용 Skype를 사용 하 여 팀에서 다른 사용자에 게 페더레이션 하려면 비즈니스용 Skype에서 팀 사용자가 온라인 상태 여야 합니다. 최종적으로 비즈니스용 Skype에 있는 팀 사용자는 팀 전용 사용자와 페더레이션 할 수 있습니다.
+비즈니스용 Skype를 사용 하 여 팀에서 다른 사용자에 게 페더레이션 하려면 비즈니스용 Skype에서 팀 사용자가 온라인 상태 여야 합니다.
 
 TeamsUpgradePolicy는 들어오는 페더레이션된 채팅 및 통화에 대 한 라우팅을 제어 합니다. 페더레이션된 라우팅 동작은 *아일랜드 모드를 제외*하 고 동일한 테 넌 트 시나리오와 동일 합니다.  받는 사람이 아일랜드 모드일 때: 
 - 받는 사람이 *페더레이션 테 넌 트*에 있는 경우 SfB에서 팀이 시작한 채팅 및 통화입니다.

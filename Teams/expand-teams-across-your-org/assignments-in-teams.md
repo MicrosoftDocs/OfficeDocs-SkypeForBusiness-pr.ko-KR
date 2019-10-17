@@ -20,12 +20,12 @@ description: 교육 팀의 Microsoft 팀 관리 센터에서 과제를 관리 �
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eaaa4782ac1c0f5fa8d1618f89c05d3ffd58e57
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 91d74a96cedcd0cdbdfd6b7fcc5ac1b8e261027e
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483982"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547282"
 ---
 # <a name="assignments-in-teams-for-education"></a>교육용 팀의 과제
 
@@ -75,7 +75,7 @@ TurnitinApiUrl는 관리 콘솔의 호스트 주소입니다.
 
 관리 콘솔에서 통합과 통합에 연결 된 API 키를 만들 수 있습니다.
 
-측면 **** 메뉴에서 통합을 선택한 다음 **통합 추가** 를 선택 하 고 통합에 이름을 지정 합니다.
+측면 **메뉴에서 통합** 을 선택한 다음 **통합 추가** 를 선택 하 고 통합에 이름을 지정 합니다.
 ![새 통합 추가를 보여주는 스크린샷](./educationImages/Assignments_mopo_turnitin2.png)
 
 메시지를 팔 로우 하는 경우 TurnitinApiKey이 사용자에 게 제공 됩니다. API 키를 복사 하 여 Microsoft 팀 관리 센터에 붙여넣습니다.  이 시점 에서만 키를 볼 수 있습니다.
@@ -83,6 +83,4 @@ TurnitinApiUrl는 관리 콘솔의 호스트 주소입니다.
 
 이 설정에 대 한 관리 센터에서 **저장** 단추를 클릭 하면 이러한 설정을 적용 하는 데 최대 24 시간이 소요 될 수 있습니다.
 
-[Turnitin 및 Microsoft 팀 간 통합에 대해 자세히 알아보기](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
-
-[Turnitin에 대 한 자세한 정보](https://www.turnitin.com/)
+팀에서 Turnitin 통합 사용을 시작할 준비가 되셨습니까? [초기 access 프로그램](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)에 등록 합니다.

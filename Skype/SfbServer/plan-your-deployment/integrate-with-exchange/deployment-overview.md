@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: '요약: 비즈니스용 Skype 서버와 Exchange 2013 또는 2016을 통합 하기 위해 계획 하는 동안이 항목을 검토 하세요.'
-ms.openlocfilehash: 3b83fdbc7c193056b689d92ddec6061cfc59ca25
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: dfb9eb926cb1ebd046f06597eecc0c2204fea97b
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "36197818"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547271"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>온-프레미스 통합 메시징과 비즈니스용 Skype 통합에 대 한 배포 프로세스 개요
  
@@ -35,7 +35,7 @@ ms.locfileid: "36197818"
   
 |**단계의**|**방법은**|**필수 그룹 및 역할**|**배포 설명서**|
 |:-----|:-----|:-----|:-----|
-|다음 중 하나를 배포 합니다.  <br/> • 사서함  <br/> Microsoft Exchange Server 2010 또는 최신 서비스 팩  <br/> • Microsoft Exchange Server 2013  <br/> • Microsoft Exchange Server 2016  <br/>  |Microsoft Exchange Server 2013를 사용 하는 경우 비즈니스용 Skype 서버와 동일한 포리스트나 다른 포리스트에 다음 Exchange Server 역할을 설치 합니다.  <br/> • 클라이언트 액세스  <br/> • 사서함  <br/> Microsoft Exchange Server 2013 및 UM (통합 메시징)이 다른 포리스트에 설치 되어 있는 경우 비즈니스용 Skype 서버 포리스트를 신뢰 하도록 각 Exchange 포리스트를 구성 합니다.  <br/> Exchange 2010를 사용 하는 경우 비즈니스용 Skype 서버와 동일한 포리스트나 다른 포리스트에 다음 Exchange Server 역할을 설치 합니다.  <br/> • 통합 메시징  <br/> • Hub 전송  <br/> • 클라이언트 액세스  <br/> • 사서함  <br/> 비즈니스용 Skype 서버와 UM (통합 메시징)이 다른 포리스트에 설치 되어 있는 경우 비즈니스용 Skype 서버 포리스트를 신뢰 하도록 각 Exchange 포리스트를 구성 합니다.  <br/> |엔터프라이즈 관리자 (조직의 첫 번째 Exchange 서버인 경우)  <br/> 또는  <br/> Exchange 조직 관리자 (조직의 첫 번째 Exchange 서버가 아닌 경우)  <br/> |현재 버전의 Exchange Server에 대 한 적절 한 설명서를 참조 하세요.  <br/> Exchange Server 2010 또는 최신 서비스 팩 배포 설명서 <br/> Exchange Server 2013 계획 및 DeploymentExchange Server 2016 계획 및 배포|
+|다음 중 하나를 배포 합니다.  <br/> • 사서함  <br/> Microsoft Exchange Server 2010 또는 최신 서비스 팩  <br/> • Microsoft Exchange Server 2013  <br/> • Microsoft Exchange Server 2016  <br/>  |Microsoft Exchange Server 2013를 사용 하는 경우 비즈니스용 Skype 서버와 동일한 포리스트나 다른 포리스트에 다음 Exchange Server 역할을 설치 합니다.  <br/> • 클라이언트 액세스  <br/> • 사서함  <br/> Microsoft Exchange Server 2013 및 UM (통합 메시징)이 다른 포리스트에 설치 되어 있는 경우 비즈니스용 Skype 서버 포리스트를 신뢰 하도록 각 Exchange 포리스트를 구성 합니다.  <br/> Exchange 2010를 사용 하는 경우 비즈니스용 Skype 서버와 동일한 포리스트나 다른 포리스트에 다음 Exchange Server 역할을 설치 합니다.  <br/> • 통합 메시징  <br/> • Hub 전송  <br/> • 클라이언트 액세스  <br/> • 사서함  <br/> 비즈니스용 Skype 서버와 UM (통합 메시징)이 다른 포리스트에 설치 되어 있는 경우 비즈니스용 Skype 서버 포리스트를 신뢰 하도록 각 Exchange 포리스트를 구성 합니다.  <br/> |엔터프라이즈 관리자 (조직의 첫 번째 Exchange 서버인 경우)  <br/> 또는  <br/> Exchange 조직 관리자 (조직의 첫 번째 Exchange 서버가 아닌 경우)  <br/> |현재 버전의 Exchange Server에 대 한 적절 한 설명서를 참조 하세요.  <br/> Exchange Server 2010 또는 최신 서비스 팩 배포 설명서 <br/> Exchange Server 2013 계획 및 배포 <br/> Exchange Server 2016 계획 및 배포|
 |인증서를 설치 합니다.  <br/> |신뢰할 수 있는 루트 CA (인증 기관)에서 각 Exchange UM 서버에 대 한 인증서를 다운로드 하 고 설치 합니다. 이 인증서는 Exchange UM을 실행 하는 서버와 비즈니스용 Skype 서버 간의 상호 전송 수준 보안 (MTLS)에 필요 합니다.  <br/> |관리자  <br/> |[Exchange Server 통합 메시징을 실행 하는 서버에서 인증서 구성](../../deploy/integrate-with-exchange-server/exchangeunified-messaging-for-voice-mail.md#configure-certificates-on-the-server-running-exchange-server-unified-messaging)|
 |새 Exchange UM SIP 다이얼 플랜을 만들고 구성 합니다.  <br/> |Exchange UM 서버에서 조직의 특정 배포 요구 사항에 따라 SIP 다이얼 플랜을 만듭니다.  <br/> |Exchange 조직 관리자  <br/> | [Microsoft Exchange Server에서 통합 메시징 구성](../../deploy/integrate-with-exchange-server/exchangeunified-messaging-for-voice-mail.md#configuring-unified-messaging-on-microsoft-exchange-server) |
 |Exchange UM SIP 다이얼 플랜에 대 한 보안 설정을 구성 합니다.  <br/> |엔터프라이즈 음성 트래픽을 암호화 하려면 **sip** 보안 또는 **보안이**설정 된 Exchange UM SIP 다이얼 플랜에서 보안 설정을 구성 합니다. 이는 환경에서 Lync Phone Edition 장치를 배포 하거나 배포 하는 경우 특히 중요 한 단계입니다. Exchange UM 통합을 사용 하는 환경에서 Lync Phone Edition 장치가 작동 하도록 하려면 비즈니스용 Skype 서버 암호화 설정이 Exchange UM 다이얼 플랜 보안 설정과 일치 해야 합니다. 자세한 내용은 배포 설명서를 참조 하세요.  <br/> |Exchange 조직 관리자  <br/> |Exchange 2010 또는 최신 서비스 팩은 다음을 참조 하세요.  <br/> [UM 다이얼 플랜에서 VoIP 보안을 구성](https://go.microsoft.com/fwlink/p/?LinkId=268697)합니다.  <br/> Exchange 2013의 경우 [통합 메시징을](https://go.microsoft.com/fwlink/p/?LinkId=266579)참조 하세요.  <br/> |
