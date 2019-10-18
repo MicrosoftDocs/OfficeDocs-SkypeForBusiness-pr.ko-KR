@@ -12,19 +12,18 @@ description: 업데이트 된 팀 문서 목록을 봅니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef5084de3b1b43aeea667e1a86048f4d9d919770
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 181b52a21a95156395fd5c5806c9c631b5c89137
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235079"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570094"
 ---
-# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="8ad44-103">Microsoft 팀 콘텐츠 업데이트</span><span class="sxs-lookup"><span data-stu-id="8ad44-103">Microsoft Teams content updates</span></span>
+# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="7fb71-103">Microsoft 팀 콘텐츠 업데이트</span><span class="sxs-lookup"><span data-stu-id="7fb71-103">Microsoft Teams content updates</span></span>
 
-<span data-ttu-id="8ad44-104">이 항목에서는 최근에 변경 된 Microsoft 팀 항목을 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="8ad44-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
+<span data-ttu-id="7fb71-104">이 항목에서는 최근에 변경 된 Microsoft 팀 항목을 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="7fb71-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]
