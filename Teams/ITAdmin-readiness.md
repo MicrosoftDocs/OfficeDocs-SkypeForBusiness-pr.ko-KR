@@ -10,18 +10,19 @@ ms.topic: landing-page
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Training
 - M365-collaboration
 search.appverid: MET150
+f1keywords:
+- ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
 description: Microsoft 팀을 계획, 배포 및 실행 하는 방법을 설명 하는 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e42d9ffb4f32faffd27fa4e0843b2d8df9055cb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237280"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569848"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 팀의 관리 교육
 
@@ -97,6 +98,7 @@ ms.locfileid: "36237280"
 | 네트워크 계획 | [비디오만](https://aka.ms/teams-networking) | [뒤집을](https://aka.ms/teams-networking-deck) |
 | 통화 음질 개요 | [비디오만](https://aka.ms/teams-quality) | [뒤집을](https://aka.ms/teams-quality-deck) |
 | 모임 소개 | [비디오만](https://aka.ms/teams-meetings-intro) | [뒤집을](https://aka.ms/teams-meetings-intro-deck) |
+| 미디어 |[비디오만](https://aka.ms/media-in-teams)  | [뒤집을](https://aka.ms/media-in-teams-deck)|
 | 라이브 이벤트 | [비디오만](https://aka.ms/teams-live-events-session) | [뒤집을](https://aka.ms/teams-live-events-deck) |
 | 전화 시스템 소개 | [비디오만](https://aka.ms/teams-phone-system) | [뒤집을](https://aka.ms/teams-phone-system-deck) |
 | 직접 라우팅 | [비디오만](https://aka.ms/teams-direct-routing) | [뒤집을](https://aka.ms/teams-direct-routing-deck) |

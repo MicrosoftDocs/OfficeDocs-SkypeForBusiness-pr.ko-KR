@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -20,47 +20,47 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 사용자가 Microsoft 팀에서 모임에 참가할 때 이름을 기록할 수 있는지 여부를 사용 하거나 사용 하지 않도록 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 44ae945b8ea17b68652e03ab3cb072e5491c5497
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 20888f206e3ffbca72227ff1b9cd5d5f624101f3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "36183425"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573055"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a><span data-ttu-id="ce9d9-103">사용자가 Microsoft 팀에서 모임에 참가할 때 이름을 기록할 수 있도록 설정</span><span class="sxs-lookup"><span data-stu-id="ce9d9-103">Enable users to record their name when they join a meeting in Microsoft Teams</span></span>
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a><span data-ttu-id="639dd-103">사용자가 Microsoft 팀에서 모임에 참가할 때 이름을 기록할 수 있도록 설정</span><span class="sxs-lookup"><span data-stu-id="639dd-103">Enable users to record their name when they join a meeting in Microsoft Teams</span></span>
 
-<span data-ttu-id="ce9d9-104">Office 365에서 오디오 회의를 설정 하는 경우 전화 번호를 받고 오디오 회의 브리지 라고 합니다.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-104">When you are setting up Audio Conferencing in Office 365, you will receive phone numbers and what is called an audio conferencing bridge.</span></span> <span data-ttu-id="ce9d9-105">회의 브리지에는 전용 또는 공유 전화 번호로 사용할 수 있는 하나 이상의 전화 번호가 포함 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-105">A conferencing bridge can contain one or more phone numbers that can be a dedicated or shared phone number.</span></span>
+<span data-ttu-id="639dd-104">Office 365에서 오디오 회의를 설정 하는 경우 전화 번호를 받고 오디오 회의 브리지 라고 합니다.</span><span class="sxs-lookup"><span data-stu-id="639dd-104">When you are setting up Audio Conferencing in Office 365, you will receive phone numbers and what is called an audio conferencing bridge.</span></span> <span data-ttu-id="639dd-105">회의 브리지에는 전용 또는 공유 전화 번호로 사용할 수 있는 하나 이상의 전화 번호가 포함 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="639dd-105">A conferencing bridge can contain one or more phone numbers that can be a dedicated or shared phone number.</span></span>
   
-<span data-ttu-id="ce9d9-106">회의 브리지가 휴대폰을 사용 하 여 모임에 전화를 거는 사용자에 대 한 통화에 응답 합니다.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-106">The conferencing bridge answers a call for a user who is dialing in to a meeting using a phone.</span></span> <span data-ttu-id="ce9d9-107">회의 브리지는 자동 전화 교환의 음성 프롬프트를 사용 하 여 발신자에 응답 한 다음 설정에 따라 알림을 재생 하 고, 발신자에 게 자신의 이름을 기록 하도록 요청 하 고, 모임 이끌이에게 대 한 PIN 보안을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-107">The conferencing bridge answers the caller with voice prompts from an auto attendant, and then, depending on their settings, can play notifications, ask callers to record their name, and set up the PIN security for meeting organizers.</span></span> <span data-ttu-id="ce9d9-108">모임을 시작 하는 데 사용할 수 있도록 모임 이끌이가 Pin을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-108">PINs are given to meeting organizers to allow them to start a meeting.</span></span> <span data-ttu-id="ce9d9-109">그러나 모임을 시작 하는 데 PIN이 필요 하지 않도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-109">However, you can set it up so a PIN isn't required to start a meeting.</span></span>
+<span data-ttu-id="639dd-106">회의 브리지가 휴대폰을 사용 하 여 모임에 전화를 거는 사용자에 대 한 통화에 응답 합니다.</span><span class="sxs-lookup"><span data-stu-id="639dd-106">The conferencing bridge answers a call for a user who is dialing in to a meeting using a phone.</span></span> <span data-ttu-id="639dd-107">회의 브리지는 자동 전화 교환의 음성 프롬프트를 사용 하 여 발신자에 응답 한 다음 설정에 따라 알림을 재생 하 고, 발신자에 게 자신의 이름을 기록 하도록 요청 하 고, 모임 이끌이에게 대 한 PIN 보안을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="639dd-107">The conferencing bridge answers the caller with voice prompts from an auto attendant, and then, depending on their settings, can play notifications, ask callers to record their name, and set up the PIN security for meeting organizers.</span></span> <span data-ttu-id="639dd-108">모임을 시작 하는 데 사용할 수 있도록 모임 이끌이가 Pin을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="639dd-108">PINs are given to meeting organizers to allow them to start a meeting.</span></span> <span data-ttu-id="639dd-109">그러나 모임을 시작 하는 데 PIN이 필요 하지 않도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="639dd-109">However, you can set it up so a PIN isn't required to start a meeting.</span></span>
 
   
-## <a name="set-whether-callers-should-record-their-name"></a><span data-ttu-id="ce9d9-110">호출자가 자신의 이름을 기록해 야 하는지 여부 설정</span><span class="sxs-lookup"><span data-stu-id="ce9d9-110">Set whether callers should record their name</span></span>
+## <a name="set-whether-callers-should-record-their-name"></a><span data-ttu-id="639dd-110">호출자가 자신의 이름을 기록해 야 하는지 여부 설정</span><span class="sxs-lookup"><span data-stu-id="639dd-110">Set whether callers should record their name</span></span>
 
-<span data-ttu-id="ce9d9-111">![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘</span><span class="sxs-lookup"><span data-stu-id="ce9d9-111">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="639dd-111">![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘</span><span class="sxs-lookup"><span data-stu-id="639dd-111">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="ce9d9-112">왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-112">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
+1. <span data-ttu-id="639dd-112">왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="639dd-112">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
 
-2. <span data-ttu-id="ce9d9-113">**회의 브리지** 페이지 맨 위에서 **브리지 설정을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-113">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
+2. <span data-ttu-id="639dd-113">**회의 브리지** 페이지 맨 위에서 **브리지 설정을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="639dd-113">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
 
-3. <span data-ttu-id="ce9d9-114">모임 항목을 사용 하거나 사용 하지 않도록 설정 **하 고 알림을 종료**합니다.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-114">Enable or disable **Meeting entry and exit notifications**.</span></span>
+3. <span data-ttu-id="639dd-114">모임 항목을 사용 하거나 사용 하지 않도록 설정 **하 고 알림을 종료**합니다.</span><span class="sxs-lookup"><span data-stu-id="639dd-114">Enable or disable **Meeting entry and exit notifications**.</span></span>
 
-4. <span data-ttu-id="ce9d9-115">알림을 사용 하도록 설정 하는 경우 **시작/종료 알림 유형에**서 **이름 또는 전화 번호** 를 선택한 다음 **발신자에 게 모임에 참가 하기 전에 자신의 이름을 기록해 야 합니다.** 를 켭니다.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-115">If enabling notifications, choose **Names or phone numbers** under **Entry/exit announcement type**, and then turn on **Ask callers to record their name before joining a meeting.**</span></span>
+4. <span data-ttu-id="639dd-115">알림을 사용 하도록 설정 하는 경우 **시작/종료 알림 유형에**서 **이름 또는 전화 번호** 를 선택한 다음 **발신자에 게 모임에 참가 하기 전에 자신의 이름을 기록해 야 합니다.** 를 켭니다.</span><span class="sxs-lookup"><span data-stu-id="639dd-115">If enabling notifications, choose **Names or phone numbers** under **Entry/exit announcement type**, and then turn on **Ask callers to record their name before joining a meeting.**</span></span>
 
-6. <span data-ttu-id="ce9d9-116">**저장**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-116">Click **Save**.</span></span>
+6. <span data-ttu-id="639dd-116">**저장**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="639dd-116">Click **Save**.</span></span>
     
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="ce9d9-117">Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?</span><span class="sxs-lookup"><span data-stu-id="ce9d9-117">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="639dd-117">Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?</span><span class="sxs-lookup"><span data-stu-id="639dd-117">Want to know more about Windows PowerShell?</span></span>
 
-<span data-ttu-id="ce9d9-118">Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-118">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="ce9d9-119">Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Office 365를 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-119">With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do.</span></span> <span data-ttu-id="ce9d9-120">Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-120">To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="639dd-118">Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="639dd-118">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="639dd-119">Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Office 365를 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="639dd-119">With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do.</span></span> <span data-ttu-id="639dd-120">Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="639dd-120">To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="ce9d9-121">Office 365 PowerShell을 사용 해야 하는 이유</span><span class="sxs-lookup"><span data-stu-id="ce9d9-121">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="639dd-121">Office 365 PowerShell을 사용 해야 하는 이유</span><span class="sxs-lookup"><span data-stu-id="639dd-121">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="ce9d9-122">Windows PowerShell을 사용 하 여 Office 365를 관리 하는 가장 좋은 방법</span><span class="sxs-lookup"><span data-stu-id="ce9d9-122">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="639dd-122">Windows PowerShell을 사용 하 여 Office 365를 관리 하는 가장 좋은 방법</span><span class="sxs-lookup"><span data-stu-id="639dd-122">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-<span data-ttu-id="ce9d9-123">Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ce9d9-123">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="639dd-123">Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="639dd-123">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="ce9d9-124">관련 항목</span><span class="sxs-lookup"><span data-stu-id="ce9d9-124">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="639dd-124">관련 항목</span><span class="sxs-lookup"><span data-stu-id="639dd-124">Related topics</span></span>
 
-[<span data-ttu-id="ce9d9-125">Office 365에서 오디오 회의 체험 또는 구매</span><span class="sxs-lookup"><span data-stu-id="ce9d9-125">Try or purchase Audio Conferencing in Office 365</span></span>](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[<span data-ttu-id="639dd-125">Office 365에서 오디오 회의 체험 또는 구매</span><span class="sxs-lookup"><span data-stu-id="639dd-125">Try or purchase Audio Conferencing in Office 365</span></span>](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

@@ -8,7 +8,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -18,63 +17,63 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Office 365 Business Premium 요금제를 구입 하는 방법에 대 한 추가 기능 라이선스, 기능 및 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 08d9ce55088c83126a6a8d303b4a02d6aa385584
-ms.sourcegitcommit: c6a79bebbbd7c1a1f801f465092a64fb40720296
+ms.openlocfilehash: 6026c94a7c96f885fc108ec022ed3cc0cbfc9073
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37040739"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571329"
 ---
-# <a name="office-365-business-premium"></a><span data-ttu-id="5a1cc-103">Office 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="5a1cc-103">Office 365 Business Premium</span></span>
+# <a name="office-365-business-premium"></a><span data-ttu-id="c8c21-103">Office 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="c8c21-103">Office 365 Business Premium</span></span>
 
-<span data-ttu-id="5a1cc-104">[Office 365 비즈니스 Premium](https://products.office.com/en/business/office-365-business-premium)이 있는 경우 Microsoft 팀을 사용 하 여 구독 중인 비즈니스의 다른 사용자에 게 전화를 걸 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-104">If you have [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), you can use Microsoft Teams to make calls to other people in your business who are on your subscription.</span></span> <span data-ttu-id="5a1cc-105">예를 들어 비즈니스에 10 명의 사용자가 있는 경우 팀을 사용 하 여 서로 통화 하 고 인스턴트 메시지를 들을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-105">For example, if your business has 10 people, you can use Teams to call and IM each other.</span></span>
+<span data-ttu-id="c8c21-104">[Office 365 비즈니스 Premium](https://products.office.com/en/business/office-365-business-premium)이 있는 경우 Microsoft 팀을 사용 하 여 구독 중인 비즈니스의 다른 사용자에 게 전화를 걸 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-104">If you have [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), you can use Microsoft Teams to make calls to other people in your business who are on your subscription.</span></span> <span data-ttu-id="c8c21-105">예를 들어 비즈니스에 10 명의 사용자가 있는 경우 팀을 사용 하 여 서로 통화 하 고 인스턴트 메시지를 들을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-105">For example, if your business has 10 people, you can use Teams to call and IM each other.</span></span>
 
-<span data-ttu-id="5a1cc-106">**회사 외부의 사용자와 전화를 걸고 받으려면 다음 옵션을 사용할 수 있습니다**.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-106">**To make and receive calls from people external to your business, you have these options**:</span></span>
+<span data-ttu-id="c8c21-106">**회사 외부의 사용자와 전화를 걸고 받으려면 다음 옵션을 사용할 수 있습니다**.</span><span class="sxs-lookup"><span data-stu-id="c8c21-106">**To make and receive calls from people external to your business, you have these options**:</span></span>
 
-- <span data-ttu-id="5a1cc-107">**옵션 1**.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-107">**Option 1**.</span></span> <span data-ttu-id="5a1cc-108">[무료 팀 앱](https://products.office.com/microsoft-teams/free)을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-108">Use the [free Teams app](https://products.office.com/microsoft-teams/free).</span></span> <span data-ttu-id="5a1cc-109">소규모 기업 (예: 1-2 사람)이 있는 경우 팀 앱을 사용 하는 것이 더 나은 방법입니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-109">If you have a very small business (for example, 1-2 people), using the Teams app is the better way to go.</span></span> <span data-ttu-id="5a1cc-110">국내 및 국제 전화에 사용 하는 것은 저렴 합니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-110">It's less expensive to use for domestic and international calls.</span></span> <span data-ttu-id="5a1cc-111">계속 해 서 1:1 및 그룹 오디오 및 비디오 통화를 할 수 있으며 프레젠테이션을 위해 데스크톱을 공유할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-111">You can still make 1:1 and group audio and video calls and share your desktop for presentations.</span></span> <span data-ttu-id="5a1cc-112">[기능, 급여 및 결제 옵션을 비교](https://products.office.com/microsoft-teams/free)합니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-112">[Compare the features, rates, and payment options](https://products.office.com/microsoft-teams/free).</span></span>
+- <span data-ttu-id="c8c21-107">**옵션 1**.</span><span class="sxs-lookup"><span data-stu-id="c8c21-107">**Option 1**.</span></span> <span data-ttu-id="c8c21-108">[무료 팀 앱](https://products.office.com/microsoft-teams/free)을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-108">Use the [free Teams app](https://products.office.com/microsoft-teams/free).</span></span> <span data-ttu-id="c8c21-109">소규모 기업 (예: 1-2 사람)이 있는 경우 팀 앱을 사용 하는 것이 더 나은 방법입니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-109">If you have a very small business (for example, 1-2 people), using the Teams app is the better way to go.</span></span> <span data-ttu-id="c8c21-110">국내 및 국제 전화에 사용 하는 것은 저렴 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-110">It's less expensive to use for domestic and international calls.</span></span> <span data-ttu-id="c8c21-111">계속 해 서 1:1 및 그룹 오디오 및 비디오 통화를 할 수 있으며 프레젠테이션을 위해 데스크톱을 공유할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-111">You can still make 1:1 and group audio and video calls and share your desktop for presentations.</span></span> <span data-ttu-id="c8c21-112">[기능, 급여 및 결제 옵션을 비교](https://products.office.com/microsoft-teams/free)합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-112">[Compare the features, rates, and payment options](https://products.office.com/microsoft-teams/free).</span></span>
 
-     <span data-ttu-id="5a1cc-113">팀을 무료로 사용 하 여 요구 사항에 맞는지 확인 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-113">We recommend starting with Teams free to see if it meets your needs.</span></span> <span data-ttu-id="5a1cc-114">그러나 두 가지 옵션이 아직 없는 경우</span><span class="sxs-lookup"><span data-stu-id="5a1cc-114">However, if it doesn't you still have two options.</span></span>
+     <span data-ttu-id="c8c21-113">팀을 무료로 사용 하 여 요구 사항에 맞는지 확인 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-113">We recommend starting with Teams free to see if it meets your needs.</span></span> <span data-ttu-id="c8c21-114">그러나 두 가지 옵션이 아직 없는 경우</span><span class="sxs-lookup"><span data-stu-id="c8c21-114">However, if it doesn't you still have two options.</span></span>
     
-- <span data-ttu-id="5a1cc-115">**옵션 2. 요금제를 업그레이드 하 고 전화 시스템, 국내 또는 국내 및 국제 통화 요금제를 구입**합니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-115">**Option 2. Upgrade your plan, and buy a Phone System and a Domestic or Domestic and International Calling Plan**.</span></span>
+- <span data-ttu-id="c8c21-115">**옵션 2. 요금제를 업그레이드 하 고 전화 시스템, 국내 또는 국내 및 국제 통화 요금제를 구입**합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-115">**Option 2. Upgrade your plan, and buy a Phone System and a Domestic or Domestic and International Calling Plan**.</span></span>
 
-    1. <span data-ttu-id="5a1cc-116">[다른 Office 365 비즈니스 요금제로 전환](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)합니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-116">[Switch to a different Office 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a).</span></span> <span data-ttu-id="5a1cc-117">더 저렴 한 비용 인지 확인 하기 위해 Enterprise E5 계획을 평가 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-117">We recommend that you evaluate an Enterprise E5 plan to see if it is more cost effective.</span></span>
+    1. <span data-ttu-id="c8c21-116">[다른 Office 365 비즈니스 요금제로 전환](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-116">[Switch to a different Office 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a).</span></span> <span data-ttu-id="c8c21-117">더 저렴 한 비용 인지 확인 하기 위해 Enterprise E5 계획을 평가 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-117">We recommend that you evaluate an Enterprise E5 plan to see if it is more cost effective.</span></span>
 
-    2. <span data-ttu-id="5a1cc-118">Enterprise E5 라이선스를 구입 하기로 결정 한 경우 전화 시스템 라이선스가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-118">If you decide to buy an Enterprise E5 license, it includes a Phone System license.</span></span> <span data-ttu-id="5a1cc-119">엔터프라이즈 E1 또는 E3 라이선스를 사용 하는 경우에는 전화 시스템 추가 기능을 구입 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-119">If you use an Enterprise E1 or E3 license you will need to buy the Phone System add-on.</span></span>
+    2. <span data-ttu-id="c8c21-118">Enterprise E5 라이선스를 구입 하기로 결정 한 경우 전화 시스템 라이선스가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-118">If you decide to buy an Enterprise E5 license, it includes a Phone System license.</span></span> <span data-ttu-id="c8c21-119">엔터프라이즈 E1 또는 E3 라이선스를 사용 하는 경우에는 전화 시스템 추가 기능을 구입 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-119">If you use an Enterprise E1 or E3 license you will need to buy the Phone System add-on.</span></span>
     
-    3. <span data-ttu-id="5a1cc-120">[Office 365에 대 한 통화 요금제](../calling-plans-for-office-365.md)구입: 전화 시스템 추가 기능을 구입한 후에만이를 구매할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-120">Buy a [Calling Plan for Office 365](../calling-plans-for-office-365.md): you can only buy this after you buy the Phone System add-on.</span></span>
+    3. <span data-ttu-id="c8c21-120">[Office 365에 대 한 통화 요금제](../calling-plans-for-office-365.md)구입: 전화 시스템 추가 기능을 구입한 후에만이를 구매할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-120">Buy a [Calling Plan for Office 365](../calling-plans-for-office-365.md): you can only buy this after you buy the Phone System add-on.</span></span>
 
-## <a name="how-to-see-prices-and-buy"></a><span data-ttu-id="5a1cc-121">가격 및 구입을 확인 하는 방법</span><span class="sxs-lookup"><span data-stu-id="5a1cc-121">How to see prices and buy</span></span>
-<span data-ttu-id="5a1cc-122"><a name="bkmk_buypremium"> </a></span><span class="sxs-lookup"><span data-stu-id="5a1cc-122"></span></span>
+## <a name="how-to-see-prices-and-buy"></a><span data-ttu-id="c8c21-121">가격 및 구입을 확인 하는 방법</span><span class="sxs-lookup"><span data-stu-id="c8c21-121">How to see prices and buy</span></span>
+<span data-ttu-id="c8c21-122"><a name="bkmk_buypremium"> </a></span><span class="sxs-lookup"><span data-stu-id="c8c21-122"></span></span>
 
- <span data-ttu-id="5a1cc-123">**오디오 회의를 받으려면:**</span><span class="sxs-lookup"><span data-stu-id="5a1cc-123">**To get Audio Conferencing:**</span></span>
+ <span data-ttu-id="c8c21-123">**오디오 회의를 받으려면:**</span><span class="sxs-lookup"><span data-stu-id="c8c21-123">**To get Audio Conferencing:**</span></span>
 
-1. <span data-ttu-id="5a1cc-124">Microsoft 365 관리 센터에 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-124">Sign in to the Microsoft 365 admin center.</span></span>
+1. <span data-ttu-id="c8c21-124">Microsoft 365 관리 센터에 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-124">Sign in to the Microsoft 365 admin center.</span></span>
 
-2. <span data-ttu-id="5a1cc-125">**청구** > **구입 서비스** > **추가 기능 구독**으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-125">Go to **Billing** > **Purchase services** > **Add-on subscriptions**.</span></span>
+2. <span data-ttu-id="c8c21-125">**청구** > **구입 서비스** > **추가 기능 구독**으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-125">Go to **Billing** > **Purchase services** > **Add-on subscriptions**.</span></span>
 
-   <span data-ttu-id="5a1cc-126">오디오 회의를 구매 하는 데 가격과 옵션이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-126">You'll see the prices and option to buy Audio Conferencing.</span></span>
+   <span data-ttu-id="c8c21-126">오디오 회의를 구매 하는 데 가격과 옵션이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-126">You'll see the prices and option to buy Audio Conferencing.</span></span>
 
-<span data-ttu-id="5a1cc-127">**통신 크레딧을 얻으려면**</span><span class="sxs-lookup"><span data-stu-id="5a1cc-127">**To get Communications Credits**</span></span>
+<span data-ttu-id="c8c21-127">**통신 크레딧을 얻으려면**</span><span class="sxs-lookup"><span data-stu-id="c8c21-127">**To get Communications Credits**</span></span>
 
-1. <span data-ttu-id="5a1cc-128">Microsoft 365 관리 센터에 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-128">Sign in to the Microsoft 365 admin center.</span></span>
+1. <span data-ttu-id="c8c21-128">Microsoft 365 관리 센터에 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-128">Sign in to the Microsoft 365 admin center.</span></span>
 
-2. <span data-ttu-id="5a1cc-129">**청구** > **구입 서비스** > **추가 기능 구독**으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-129">Go to **Billing** > **Purchase services** > **Add-on subscriptions**.</span></span>
+2. <span data-ttu-id="c8c21-129">**청구** > **구입 서비스** > **추가 기능 구독**으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-129">Go to **Billing** > **Purchase services** > **Add-on subscriptions**.</span></span>
 
-   <span data-ttu-id="5a1cc-130">통신 크레딧을 구입 하는 옵션이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-130">You’ll see the option to buy Communications Credits.</span></span>
+   <span data-ttu-id="c8c21-130">통신 크레딧을 구입 하는 옵션이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-130">You’ll see the option to buy Communications Credits.</span></span>
 
-3. <span data-ttu-id="5a1cc-131">**커뮤니케이션 크레딧** > 에 자금을 추가 하려면 **청구** > 플랜**커뮤니케이션 크레딧**으로 이동 하세요.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-131">To add funds to Communications Credits, go to **Billing** > **Subscriptions** > **Communications Credits**.</span></span>
+3. <span data-ttu-id="c8c21-131">**커뮤니케이션 크레딧** > 에 자금을 추가 하려면 **청구** > 플랜**커뮤니케이션 크레딧**으로 이동 하세요.</span><span class="sxs-lookup"><span data-stu-id="c8c21-131">To add funds to Communications Credits, go to **Billing** > **Subscriptions** > **Communications Credits**.</span></span>
 
-    <span data-ttu-id="5a1cc-132">자금을 추가 하 고 자동 충전을 설정/해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-132">You'll be able to add funds and turn Auto recharge on and off.</span></span> <span data-ttu-id="5a1cc-133">자세한 내용은 [자금 추가 및 통신 제작진 관리](../add-funds-and-manage-communications-credits.md) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-133">See [Add funds and manage Communications Credits](../add-funds-and-manage-communications-credits.md) for more information.</span></span> 
+    <span data-ttu-id="c8c21-132">자금을 추가 하 고 자동 충전을 설정/해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-132">You'll be able to add funds and turn Auto recharge on and off.</span></span> <span data-ttu-id="c8c21-133">자세한 내용은 [자금 추가 및 통신 제작진 관리](../add-funds-and-manage-communications-credits.md) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c8c21-133">See [Add funds and manage Communications Credits](../add-funds-and-manage-communications-credits.md) for more information.</span></span> 
 
 
-<span data-ttu-id="5a1cc-134">**전화 시스템 및 통화 요금제를 다운로드 하려면 다음을 수행 합니다.**</span><span class="sxs-lookup"><span data-stu-id="5a1cc-134">**To get Phone System and a Calling Plan:**</span></span>
+<span data-ttu-id="c8c21-134">**전화 시스템 및 통화 요금제를 다운로드 하려면 다음을 수행 합니다.**</span><span class="sxs-lookup"><span data-stu-id="c8c21-134">**To get Phone System and a Calling Plan:**</span></span>
 
-1. <span data-ttu-id="5a1cc-135">E1 또는 E3 요금제로 전환 합니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-135">Switch to the E1 or E3 plan.</span></span>
+1. <span data-ttu-id="c8c21-135">E1 또는 E3 요금제로 전환 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-135">Switch to the E1 or E3 plan.</span></span>
 
-2. <span data-ttu-id="5a1cc-136">Microsoft 365 관리 센터로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-136">Go to the Microsoft 365 admin center.</span></span>
+2. <span data-ttu-id="c8c21-136">Microsoft 365 관리 센터로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-136">Go to the Microsoft 365 admin center.</span></span>
 
-3. <span data-ttu-id="5a1cc-137">**청구** > **구입 서비스** > **추가 기능 구독**으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-137">Go to **Billing** > **Purchase services** > **Add-on subscriptions**.</span></span>
+3. <span data-ttu-id="c8c21-137">**청구** > **구입 서비스** > **추가 기능 구독**으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-137">Go to **Billing** > **Purchase services** > **Add-on subscriptions**.</span></span>
 
-    <span data-ttu-id="5a1cc-138">전화 시스템의 가격 및 구입 옵션이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-138">You'll see the prices for Phone System and the option to buy it.</span></span>
+    <span data-ttu-id="c8c21-138">전화 시스템의 가격 및 구입 옵션이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-138">You'll see the prices for Phone System and the option to buy it.</span></span>
 
-4. <span data-ttu-id="5a1cc-139">**전화 시스템** 라이선스를 구입한 후에는 통화 요금제를 구입 하는 데 사용할 가격 및 옵션이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5a1cc-139">After you buy a **Phone System** license, you'll see the price and option to buy a Calling Plan.</span></span>
+4. <span data-ttu-id="c8c21-139">**전화 시스템** 라이선스를 구입한 후에는 통화 요금제를 구입 하는 데 사용할 가격 및 옵션이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c8c21-139">After you buy a **Phone System** license, you'll see the price and option to buy a Calling Plan.</span></span>
