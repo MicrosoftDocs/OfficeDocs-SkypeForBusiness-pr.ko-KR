@@ -11,7 +11,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '비즈니스의 기능, 사용 가능성 및 전화 시스템 (클라우드 PBX)을 계획 하 고 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 85b60b07dda2283fb91665834c7f6cd4187454cd
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 517083fb4767b54cb79f618875be7572a19faee1
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516867"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565226"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능
 

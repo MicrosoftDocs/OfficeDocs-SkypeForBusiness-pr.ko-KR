@@ -8,7 +8,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -18,12 +17,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Office 365 Enterprise E5 계획에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다. '
-ms.openlocfilehash: f092faaafd15f77c448ba66237c7ab0653aae2d6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 14aa5e8a4c368b5e759a9248d625e4d1a32ba82d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242595"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572479"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 

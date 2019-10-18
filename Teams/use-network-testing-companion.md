@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
@@ -18,12 +17,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: e2fcdb6da76de62e7fca87d822c0c9ecacc68377
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 193bc6b335766da15e28ff805efb0558bdf6ef4d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236635"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568606"
 ---
 <a name="use-the-network-testing-companion"></a>네트워크 테스트 도우미 사용
 =================================

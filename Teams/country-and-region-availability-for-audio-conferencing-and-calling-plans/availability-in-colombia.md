@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 및 Microsoft 팀이 콜롬비아으로 제공 되는 Office 365 서비스입니다.
-ms.openlocfilehash: 348cdeadf532c3b2153c1f10506280f7dda8b0ec
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 339ecb3481c66f49d14c20b9c68c90a4e440d4ca
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36183170"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570507"
 ---
 # <a name="availability-in-colombia"></a>콜롬비아의 사용 가능 여부
 

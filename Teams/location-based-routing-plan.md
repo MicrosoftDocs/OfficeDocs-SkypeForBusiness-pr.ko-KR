@@ -12,17 +12,15 @@ search.appverid: MET150
 description: 직접 라우팅에 대 한 위치 기반 라우팅을 계획 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38097d06cff62481d48c794b83a01a2fa1155b52
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3c11d43f8fcf5418d27ca26e648291969779a8bf
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245120"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570691"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅에 대 한 위치 기반 라우팅 계획
 
@@ -89,7 +87,7 @@ ms.locfileid: "36245120"
 
 다음 다이어그램에서는 각 시나리오에서 위치 기반 라우팅에 사용 되는 제한 사항을 보여 줍니다. 위치 기반 라우팅에 대해 사용 하도록 설정 된 사용자, 네트워크 사이트 및 게이트웨이에는 주위에 테두리가 있습니다. 다이어그램을 가이드로 사용 하 여 각 시나리오에서 위치 기반 라우팅이 작동 하는 방식을 이해할 수 있습니다.  
 
-![위치 기반 라우팅의 시나리오를 보여 주는 다이어그램] (media/lbr-direct-routing.png "위치 기반 라우팅의 시나리오를 보여 주는 다이어그램")
+![위치 기반 라우팅의 시나리오를 보여 주는 다이어그램](media/lbr-direct-routing.png "위치 기반 라우팅의 시나리오를 보여 주는 다이어그램")
 
 ### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>팀 사용자가 PSTN에 대 한 아웃 바운드 통화를 할 수 있습니다.
 
@@ -172,7 +170,7 @@ PSTN 끝점이 관련 된 경우 위치 기반 라우팅은 위치 기반 라우
 
 |사용자가 통화 전달 또는 전달 시작  |PSTN으로 전송  |PSTN으로 전달  |
 |---------|---------|---------|
-|동일한 네트워크 사이트, 위치 기반 라우팅에 사이트 사용 (% 0)   |통화 전송은 Site1에서 User2's 음성 라우팅 정책에 따라 위치 기반 라우팅 사용 Gateway1을 통해서만 라우팅할 수 있습니다.         |통화 착신 전환은 Site1에서 User2's 음성 라우팅 정책에 따라 위치 기반 라우팅 사용 Gateway1만 라우팅할 수 있습니다.         |
+|동일한 네트워크 사이트, 위치 기반 라우팅에 사이트 사용 (%0)   |통화 전송은 Site1에서 User2's 음성 라우팅 정책에 따라 위치 기반 라우팅 사용 Gateway1을 통해서만 라우팅할 수 있습니다.         |통화 착신 전환은 Site1에서 User2's 음성 라우팅 정책에 따라 위치 기반 라우팅 사용 Gateway1만 라우팅할 수 있습니다.         |
 |다른 네트워크 사이트, User3 (위치 기반 라우팅에 대해 사이트 사용 가능)    |통화 전송은 Site1에서 User3's 음성 라우팅 정책에 따라 위치 기반 라우팅 사용 Gateway1을 통해서만 라우팅할 수 있습니다.         |착신 통화는 Site1에서 User3's 음성 라우팅 정책에 따라 위치 기반 라우팅 사용 Gateway1을 통해서만 라우팅할 수 있습니다.         |
 |다른 네트워크 사이트, 사이트에서 위치 기반 라우팅 (User4)을 사용할 수 없습니다.    |통화 전송은 Site1에서 User4's 음성 라우팅 정책에 따라 위치 기반 라우팅 사용 Gateway1을 통해서만 라우팅할 수 있습니다.         |착신 통화는 Site1에서 User4's 음성 라우팅 정책에 따라 위치 기반 라우팅 사용 Gateway1을 통해서만 라우팅할 수 있습니다.         |
 |User5 (알 수 없는 내부 네트워크)     |통화 전송은 Site1에서 User5's 음성 라우팅 정책에 따라 위치 기반 라우팅 사용 Gateway1을 통해서만 라우팅할 수 있습니다.         |착신 통화는 Site1에서 User5's 음성 라우팅 정책에 따라 위치 기반 라우팅 사용 Gateway1을 통해서만 라우팅할 수 있습니다.         |
@@ -201,7 +199,7 @@ PSTN 끝점이 관련 된 경우 위치 기반 라우팅은 위치 기반 라우
 
 |' 사용자 끝점 위치 '  |PSTN 끝점을 동시 링 대상 이라고 합니다. |
 |---------|---------|
-|동일한 네트워크 사이트, 위치 기반 라우팅에 사이트 사용 (% 0)    |통화는 Site1에서 위치 기반 라우팅 Gateway1 (User2's 음성 라우팅 정책 기반)만 라우팅할 수 있습니다.       |
+|동일한 네트워크 사이트, 위치 기반 라우팅에 사이트 사용 (%0)    |통화는 Site1에서 위치 기반 라우팅 Gateway1 (User2's 음성 라우팅 정책 기반)만 라우팅할 수 있습니다.       |
 |User3 (위치 기반 라우팅)에 사용 되는 다른 네트워크 사이트    |통화는 Site1에서 위치 기반 라우팅 Gateway1을 통해서만 라우팅할 수 있습니다 (User3's 음성 라우팅 정책 기준).        |
 |위치 기반 라우팅에 대해 다른 네트워크 사이트를 사용할 수 없습니다 (User4).    |통화는 Site1에서 위치 기반 라우팅 Gateway1을 통해서만 라우팅할 수 있습니다 (User4's 음성 라우팅 정책 기준).         |
 |User5 (알 수 없는 내부 네트워크)    |통화는 Site1에서 위치 기반 라우팅 Gateway1을 통해서만 라우팅할 수 있습니다 (User5's 음성 라우팅 정책 기준).         |

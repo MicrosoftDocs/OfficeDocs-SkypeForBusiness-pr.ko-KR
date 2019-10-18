@@ -10,8 +10,7 @@ ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -24,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 장치, 네트워크 및 연결에 대 한 통화 분석 세부 정보를 사용 하 여 Microsoft 팀과 비즈니스용 Skype 통화 및 모임에서 발생 하는 사용자 문제를 해결할 수 있습니다.
-ms.openlocfilehash: 952cd0f34221f0a7e1203f8ff78edf2abdadb9b1
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 4b2d6a5a18bf0a13f3fd32aecb8ad98192f3851a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36183974"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568637"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>통화 분석을 사용 하 여 통화 품질 저하 문제 해결
 

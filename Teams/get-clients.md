@@ -8,7 +8,6 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
@@ -18,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d656e78ca839255f45e9335ca881c564e07c4cc
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 1e8a77a6d03735769e61f679126b3a5aac7f70e3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047103"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569616"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft 팀 용 클라이언트 가져오기 
 ===========================

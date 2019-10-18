@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Microsoft 팀 관리 센터에서 팀 사용 보고서를 사용 하 여 조직의 팀 활동에 대 한 개요를 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a31d3a6bf374e512dde0549dbbd59ed90904cd0
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 7aba4d3e185052d7c4f5399dd9370a05a4a7dc0a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439575"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570975"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft 팀 사용 보고서
 
@@ -31,7 +30,7 @@ Microsoft 팀 관리 센터의 팀 사용 보고서에서는 활성 사용자 �
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서** > **사용 현황 보고서**를 클릭 합니다. 보고서 **보기** 탭의 **보고서**에서 **팀 사용량**을 선택 합니다.
 2. **날짜 범위**아래에서 범위를 선택 하 고 **보고서 실행**을 클릭 합니다.
 
-    팀 관리자 센터에서 설명선이 포함 된 팀의(../media/teams-reports-teams-usage-with-callouts.png "사용 현황 보고서에 대 한 설명선 스크린샷을") 포함 한 팀 ![관리 센터의 팀 사용 보고서 스크린샷]
+    ![팀 관리 센터에서 설명선이 포함 된 팀 사용 보고서 스크린샷](../media/teams-reports-teams-usage-with-callouts.png "팀 관리 센터에서 설명선이 포함 된 팀 사용 보고서 스크린샷")
 
 ## <a name="interpret-the-report"></a>보고서 해석
 

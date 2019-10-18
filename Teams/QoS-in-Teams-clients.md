@@ -12,16 +12,15 @@ description: Microsoft 팀 클라이언트에 대 한 서비스 품질 (QoS)을 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-voice
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91b761cafa15172ae3fb0126f5059408e1a5f7ca
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 28e6664fa43819493e5b9e02d182bcec44f00905
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36246199"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572566"
 ---
 # <a name="set-qos-on-windows-clients"></a>Windows 클라이언트에서 QoS 설정
 
@@ -52,7 +51,7 @@ _권장 되는 초기 포트 범위_
 
 6. **정책 기반 QoS** 대화 상자의 열기 페이지에 있는 **이름** 상자에 새 정책의 이름을 입력 합니다. **DSCP 값 지정** 을 선택 하 고 값을 **46**로 설정 합니다. **아웃 바운드 스로틀 속도 지정** 을 선택 하지 않은 상태로 두고 **다음**을 클릭 합니다.
 
-7. 다음 페이지에서 **이 실행 파일 이름의 응용** 프로그램만 선택 하 고 **다음**을 클릭 하 **** 여 이름을 입력 합니다. 이 설정은 팀 클라이언트에서 일치 하는 트래픽에만 우선 순위를 지정 하도록 정책에 지시 합니다.
+7. 다음 페이지에서 **이 실행 파일 이름의 응용** 프로그램만 선택 하 고 **다음**을 클릭 하 **여 이름을 입력 합니다.** 이 설정은 팀 클라이언트에서 일치 하는 트래픽에만 우선 순위를 지정 하도록 정책에 지시 합니다.
 
 8. 세 번째 페이지에서 **원본 ip 주소** 와 **대상 ip 주소가** 모두 선택 되어 있는지 확인 하 고 **다음**을 클릭 합니다. 이러한 두 가지 설정은 패킷을 보낸 컴퓨터 (IP 주소)와 패킷을 받을 컴퓨터 (IP 주소)에 관계 없이 패킷이 관리 됨을 보장 합니다.
 
@@ -90,7 +89,7 @@ _권장 되는 초기 포트 범위_
    gpresult /H >gp.html
    ```
 
-   ![Gpresult 명령을 실행 하는 콘솔 창 스크린샷] (media/Qos-in-Teams-Image3.png "Gpresult 명령을 실행 하는 콘솔 창 스크린샷")
+   ![Gpresult 명령을 실행 하는 콘솔 창 스크린샷](media/Qos-in-Teams-Image3.png "Gpresult 명령을 실행 하는 콘솔 창 스크린샷")
 
 3. 생성 된 파일에서 **적용 된 그룹 정책 개체** 의 머리글을 찾아 이전에 만든 그룹 정책 개체의 이름이 적용 된 정책 목록에 있는지 확인 합니다.
 

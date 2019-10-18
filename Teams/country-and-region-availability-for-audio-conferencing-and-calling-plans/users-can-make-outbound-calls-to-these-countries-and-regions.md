@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 이 항목에서는 사용자가 통화 요금제를 사용 하는 경우 아웃 바운드 통화를 수행할 수 있는 모든 국가/지역에 대해 설명 합니다.
-ms.openlocfilehash: ab24f12098a01fbce9e31cb83819f1c10dc28389
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: fd876a66484101c58eaf65d3d78ca57576f2193f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182744"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572513"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>사용자가 다음 국가 및 지역에 대 한 아웃 바운드 통화를 할 수 있습니다.
 

@@ -9,7 +9,6 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 446ff5c3dc5d7e6a33f5d6b3a44a07a8f6514f02
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 7ec568123f92c188d8642f6e5c8907485dc6de05
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434979"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570757"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 팀 앱의 하드웨어 요구 사항
 

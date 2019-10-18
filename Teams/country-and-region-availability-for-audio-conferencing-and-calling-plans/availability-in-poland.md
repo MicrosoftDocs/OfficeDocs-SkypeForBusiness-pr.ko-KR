@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Microsoft 비즈니스용 Skype에 대 한 Office 365 서비스와 폴란드에서 사용할 수 있는 Microsoft 팀입니다.
-ms.openlocfilehash: c2592f266b3851a8b63ffb426717990bd681d324
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: e18d69a973dbd5d9127f246500394cae818a0800
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182936"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37562783"
 ---
 # <a name="availability-in-poland"></a>폴란드의 가용성
 

@@ -9,8 +9,7 @@ ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 통화 분석 및 통화 품질 대시보드 및이를 사용 하 여 통화 품질 문제를 모니터링 하 고 해결 하는 시기에 대해 알아봅니다.
-ms.openlocfilehash: 19652c8b6aa0b0b4dcd709aba107d17e989fd0d4
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 70efd7f17189d9aac2236383a07cfc5fc0a37096
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328420"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571772"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>통화 분석 및 통화 품질 대시보드
 

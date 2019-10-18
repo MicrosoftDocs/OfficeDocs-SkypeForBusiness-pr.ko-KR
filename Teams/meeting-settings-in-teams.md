@@ -17,15 +17,14 @@ f1keywords:
 - ms.teamsadmincenter.meetingsettings.network.ports
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 사용자가 조직에서 예약한 팀 모임에 대 한 설정을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1e5b3fd1c76f4ff925b23b838e2719ec93077f14
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767197"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564936"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft 팀에서 모임 설정 관리
 
@@ -40,7 +39,7 @@ ms.locfileid: "36767197"
 1. 왼쪽 탐색 창에서 **모임** > **모임 설정**으로 이동 합니다.
 2. **참가자**에서 **익명 사용자가 모임에 참가할 수 있도록**설정 합니다.
 
-    ![관리 센터의 모임 참가자 설정 스크린샷] (media/meeting-settings-participants.png "Microsoft 팀 관리 센터에서 팀 모임에 대 한 참가자 설정 스크린샷")
+    ![관리 센터의 모임 참가자 설정 스크린샷](media/meeting-settings-participants.png "Microsoft 팀 관리 센터에서 팀 모임에 대 한 참가자 설정 스크린샷")
 
 익명 사용자가 조직의 사용자가 예약한 모임에 참가 하는 것을 원하지 않는다면이 설정을 끄세요.
 
@@ -63,7 +62,7 @@ ms.locfileid: "36767197"
 1. 왼쪽 탐색 창에서 **모임** > **모임 설정**으로 이동 합니다.
 2. **전자 메일 초대장**에서 다음을 수행 합니다.
 
-    ![사용자 지정할 수 있는 모임 초대 설정의 스크린샷] (media/meeting-settings-invitation.png "팀 모임에 대해 사용자 지정할 수 있는 모임 초대 설정의 스크린샷")
+    ![사용자 지정할 수 있는 모임 초대 설정의 스크린샷](media/meeting-settings-invitation.png "팀 모임에 대해 사용자 지정할 수 있는 모임 초대 설정의 스크린샷")
 
     - **로고 URL** 로고가 저장 된 위치에 URL을 입력 합니다.
     - **올바른 URL** 조직에 다른 사용자가 관심을 가질 수 있도록 법률 웹 사이트가 있는 경우 여기에 URL을 입력 합니다.
@@ -85,7 +84,7 @@ ms.locfileid: "36767197"
 1. 왼쪽 탐색 창에서 **모임** > **모임 설정**으로 이동 합니다.
 2. **네트워크**에서 다음을 수행 합니다.
 
-    ![관리 센터의 모임에 대 한 네트워크 설정 스크린샷] (media/meeting-settings-network.png "Microsoft 팀 관리 센터의 팀 모임에 대 한 네트워크 설정 스크린샷")
+    ![관리 센터의 모임에 대 한 네트워크 설정 스크린샷](media/meeting-settings-network.png "Microsoft 팀 관리 센터의 팀 모임에 대 한 네트워크 설정 스크린샷")
 
     - QoS에 DSCP 표시를 사용 하는 것을 허용 하려면 **실시간 미디어 트래픽에 qos (서비스 품질) 마커를 삽입**하도록 설정 합니다. 마커를 사용 하는 옵션만 사용할 수 있습니다. 각 트래픽 유형에 대해 사용자 지정 표식을 설정할 수 없습니다. DSCP 마커에 대 한 자세한 내용은 [QoS 구현 방법 선택을](QoS-in-Teams.md#select-a-qos-implementation-method) 참조 하세요.
     > [!NOTE] 

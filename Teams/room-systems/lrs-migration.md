@@ -6,17 +6,18 @@ ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 ms.assetid: ''
 description: 이 항목에서는 Microsoft 팀 공간 소프트웨어를 사용 하도록 Lync 대화방 시스템 장치를 마이그레이션하는 방법을 알아봅니다.
-ms.openlocfilehash: d07f214707253dc91495da1d219ed84dab2eec5d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9bf01b334e13de5cb1407443f16223f86c1df929
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243369"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573663"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>LRS (Lync 채팅방 System) 장치를 Microsoft 팀 대화방으로 마이그레이션
 
@@ -41,11 +42,11 @@ Lync 채팅방 시스템을 차세대 Microsoft 팀 대화방으로 업그레이
 
 ### <a name="crestron-hardware-trade-in-program"></a>하드웨어 거래 프로그램에서의 crestron
 
-Crestron은 [SR 시스템의 crestron](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) 또는 Lync 채팅방 시스템 고객 (예: 스마트 또는 Polycom LRS)에 대 한 모든 비 crestron를 제공 합니다. 이 프로그램에 대 한 [](https://support.crestron.com/app/answers/answer_view/a_id/1000220) 세부 정보 보기 또는 <!-- For details, -->[전자 메일](mailto:lrsupgrade@crestron.com) LRS 지원에 대 한 crestron  
+Crestron은 [SR 시스템의 crestron](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) 또는 Lync 채팅방 시스템 고객 (예: 스마트 또는 Polycom LRS)에 대 한 모든 비 crestron를 제공 합니다. 이 [프로그램에](https://support.crestron.com/app/answers/answer_view/a_id/1000220) 대 한 세부 정보 보기 또는 <!-- For details, -->[전자 메일](mailto:lrsupgrade@crestron.com) LRS 지원에 대 한 crestron  
 
 ### <a name="crestron-rl2-upgrade-to-microsoft-teams-rooms"></a>Microsoft 팀 대화방으로 RL2를 업그레이드 하는 crestron
 
-기존 CRESTRON (RL200의 Crestron 함) 고객은 업그레이드 키트를 사용 하 여 RL2를 RL3으로 업그레이드 하는 것이 장치 당 최소 비용으로 인 한 요금으로 업그레이드할 수 있습니다. 이 프로그램에 대 한 [](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT)세부 정보를 참조 하세요.
+기존 CRESTRON (RL200의 Crestron 함) 고객은 업그레이드 키트를 사용 하 여 RL2를 RL3으로 업그레이드 하는 것이 장치 당 최소 비용으로 인 한 요금으로 업그레이드할 수 있습니다. 이 프로그램에 대 한 세부 정보를 [참조 하세요.](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT)
 
 ### <a name="smart-room-systems-upgrade"></a>스마트 실 시스템 업그레이드
 

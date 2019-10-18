@@ -14,18 +14,17 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 f1keywords:
 - ms.teamsadmincenter.callingpolicies.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e97f16097a30172a2ea56eb7fc9808042055f0e
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 788cc0e93b16585f1d3424d3bfa0a62693528740
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483687"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570273"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft 팀의 정책 호출
 ===================================
@@ -101,7 +100,7 @@ Microsoft 팀에서 호출 정책은 사용자가 사용할 수 있는 통화 �
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>PSTN을 통한 무료 바이패스 및 전송 통화 방지 
 
-이로 설정 **** 하면 PSTN을 통해 전화를 보내고, 네트워크를 통해 tolls를 우회 하는 대신 요금을 부과 합니다.
+이로 설정 하면 PSTN을 통해 **전화를 보내고** , 네트워크를 통해 tolls를 우회 하는 대신 요금을 부과 합니다.
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>통화 중에도 다른 용무 중 통화를 이용할 수 있습니다.
 

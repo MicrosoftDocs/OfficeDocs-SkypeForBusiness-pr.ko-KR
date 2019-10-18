@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Office 365 통화 계획 (PSTN 통화 요금제)에서 라이선스를 구입 하 고 설정 하 고, 사용자에 게 긴급 위치 및 전화 번호를 추가 및 할당 하 고, 사용자에 게 새 전화 번호에 대해 설명 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 9f01c73c8374a367beb03db0a14df5dada0c562d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 964748a9af9d7a31d7dd4cc4648353b6724fc54e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "36183815"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571241"
 ---
 # <a name="set-up-calling-plans"></a>통화 요금제 설정
 

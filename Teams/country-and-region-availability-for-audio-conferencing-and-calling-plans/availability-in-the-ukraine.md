@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 여기에는 비즈니스용 Skype 용 Office 365 서비스와 우크라이나어에서 사용할 수 있는 Microsoft 팀이 나와 있습니다.
-ms.openlocfilehash: 1a97f94ffe5c7ef08b948d99f1df72b0b829b993
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 28b16f46c420d8bc2e0bc221d3a76ff8d34424e4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182801"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572546"
 ---
 # <a name="availability-in-the-ukraine"></a>우크라이나어의 사용 가능 여부
 
@@ -77,7 +76,7 @@ ms.locfileid: "36182801"
 
 |**요소**|**세부적인**|
 |:-----|:-----|
-|통신 크레딧을 사용할 수 있나요?  <br/> |'  <br/> |
+|통신 크레딧을 사용할 수 있나요?  <br/> |아니요  <br/> |
    
 설정 하려는 경우 [조직의 통신 크레딧 설정을](../set-up-communications-credits-for-your-organization.md)참조 하세요.
   

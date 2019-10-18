@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 여기에는 비즈니스용 Skype 용 Office 365 서비스와 우루과이에서 사용할 수 있는 Microsoft 팀이 나와 있습니다.
-ms.openlocfilehash: 6e552f46b1cbf6ce8dce55c9da903b0a741eae08
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 2a401e3c89c291611c88a8bbb796a82f7159a864
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775361"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569514"
 ---
 # <a name="availability-in-uruguay"></a>우루과이의 가용성
 

@@ -15,16 +15,15 @@ f1keywords:
 - ms.teamsadmincenter.apppermspolicies.publishtenantapps
 - ms.teamsadmincenter.apppolicies.publishtenantapps
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35f15986fa5977a08cd91ce8cc5ca40ace0daca9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 5affe464ac300d0084916ad8ec0044ca74f8fa6b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484073"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570083"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Microsoft 팀 테 넌 트 앱 카탈로그에서 앱 게시
 =======================================================

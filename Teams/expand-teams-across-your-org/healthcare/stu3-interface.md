@@ -8,17 +8,19 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 팀 환자 앱 EHR 통합
-ms.openlocfilehash: 34fd6bb1ecaf788a55aca877c671c9a51cb07944
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 836c28f339a3936f03315b005c0eedfc49e0f2ba
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "36182033"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569246"
 ---
 # <a name="stu3-interface-specification"></a>STU3 인터페이스 사양
 
@@ -32,7 +34,7 @@ Microsoft 팀 환자 앱을 사용 하도록 FTO r 서버를 설정 또는 재�
 - [문제가](#encounter)
 - [Allergy Intolerance](#allergyintolerance)
 - [통신이](#coverage)
-- [투약 문](#medication-request) (PatientsApp의 DSTU2 버전에서 MedicationOrder를 바꿉니다.)
+- [투약 문](#medication-request) (DSTU2 버전의 PatientsApp에서 MedicationOrder를 대체 합니다.)
 - 위치 (이 리소스에서 필요로 하는 정보가 발생할 수 있음)
 
 > [!NOTE]

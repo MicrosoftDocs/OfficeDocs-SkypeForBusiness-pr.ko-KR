@@ -8,7 +8,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -18,12 +17,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '.GOV, .EDU 및 비영리 조직 계획에 대 한 추가 기능 라이선스 및 기능에 대해 알아보세요. '
-ms.openlocfilehash: b52fdea992d2b759ad7ae252a179e5f6c771327b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d63145cf6a8c761b4454fff212bd0e593ac8f395
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242816"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571216"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>.GOV, .EDU, 비 비영리 조직
 

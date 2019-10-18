@@ -1,5 +1,5 @@
 ---
-title: " 환자 App 및 EHR integration DSTU2 인터페이스"
+title: 환자 App 및 EHR integration DSTU2 인터페이스
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -8,17 +8,19 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 팀 환자 앱 EHR 통합
-ms.openlocfilehash: 85fd90fb338f8b19762dc9433fa1dc281f3cedff
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 179cd031b6e32ee3ed32a6d3be1fa4afaae68cc2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "36182027"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570372"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 인터페이스 사양
 

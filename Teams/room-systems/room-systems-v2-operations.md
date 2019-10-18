@@ -8,15 +8,16 @@ ms.date: 5/10/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 localization_priority: Normal
 description: 이 항목에서는 차세대 Skype 대화방 시스템인 Microsoft 팀 회의실 관리에 대해 자세히 알아보세요.
-ms.openlocfilehash: 2ef5bbb7c4b630174c32016fdf1b65d30d82ac52
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: c764490df9912ca464b1f11d56a2cb376b96c388
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435150"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573608"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 팀 회의실 유지 관리 및 운영 
  

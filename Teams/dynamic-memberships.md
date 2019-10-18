@@ -11,16 +11,15 @@ search.appverid: MET150
 description: AAD를 기반으로 하는 동적 팀 구성원 자격에 대해 알아보세요.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4a0a7d9487b7697bad5ac565b98e605c4cc81dc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3d22c7f068617cd4c5c73c850a37eaa89a0c8efa
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237808"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569899"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>팀의 동적 멤버 자격 개요
 

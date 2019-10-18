@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.custom:
 - Calling Plans
 description: 조직에 대 한 전화 번호 또는 포팅 (전송) 번호를 받고 있는 경우 PSTN 서비스 데스크에서 도움말 및 지원을 받아야 할 수 있습니다.
-ms.openlocfilehash: 147bc55a04e2dc28c6ff28d6e2416cd2ff0334ec
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 72484e6957a17593c6a286505dfce00e051f0762
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483715"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570614"
 ---
 # <a name="pstn-service-desk-help"></a>PSTN 서비스 데스크 도움말
 

@@ -11,16 +11,15 @@ description: Microsoft 팀과 팀 만들기 및 참가, 채널 만들기 등의 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42d15f32cbdf7326ea8daf85860bd451d93ed3f3
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 0eb64afd9e226b3e59e3444b0ed15d2463902c5e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434958"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569865"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 및 Microsoft 팀의 상호 작용 방식
 
