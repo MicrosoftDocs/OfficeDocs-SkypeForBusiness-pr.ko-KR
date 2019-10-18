@@ -6,7 +6,6 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sonua
 audience: admin
@@ -17,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 355f24a6156e42d8984e360cb6ab06c483b56413
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 43a5914c0ad9690859264e5c64e0652a5095decb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483235"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570149"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft 팀 live 이벤트는 무엇 인가요?
 
@@ -38,7 +37,7 @@ Microsoft 365 live 이벤트는 라이브 비디오 스트리밍을 새 수준�
 
 이제 시작 해 보겠습니다. 먼저 Microsoft 365 라이브 이벤트와 관련 된 상위 수준 구성 요소와 연결 되는 방법을 보여 주는 다음 다이어그램을 살펴봅니다. 
 
-![라이브 이벤트의 주요 구성 요소를 보여 주는 다이어그램] (../media/teams-live-events.png  "라이브 이벤트, 스케줄링, 프로덕션, 스트림 플랫폼, 인증 된 타사 eCDN 공급자의 주요 구성 요소를 보여 주는 다이어그램")
+![라이브 이벤트의 주요 구성 요소를 보여 주는 다이어그램](../media/teams-live-events.png  "라이브 이벤트, 스케줄링, 프로덕션, 스트림 플랫폼, 인증 된 타사 eCDN 공급자의 주요 구성 요소를 보여 주는 다이어그램")
 
 ### <a name="event-group-roles"></a>이벤트 그룹 역할
 팀의 라이브 이벤트는 여러 역할 (이끌이, 생산자, 발표자, 참석자)에 게 성공적으로 브로드캐스트하고 이벤트에 참가할 수 있도록 합니다. 자세히 알아보려면 [이벤트 그룹 역할](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles)을 참조 하세요.
@@ -52,18 +51,18 @@ Microsoft 365 live 이벤트는 라이브 비디오 스트리밍을 새 수준�
 ### <a name="scheduling"></a>일정
 팀은 이끌이가 적절 한 참석자 권한으로 이벤트를 만들고, 이벤트 팀 구성원을 지정 하 고, 프로덕션 방법을 선택 하 고, 참석자를 초대할 수 있는 기능을 제공 합니다. Yammer 그룹 내에서 라이브 이벤트를 만든 경우 실시간 이벤트 참석자가 Yammer 대화를 사용 하 여 이벤트의 사람들과 상호 작용할 수 있습니다. 
 
-![새 라이브 이벤트 화면을 보여 주는 스크린샷] 새 라이브 (../media/teams-live-events-schedule.png "이벤트를 만들고 예약 하는 새 라이브 이벤트 화면을 보여 주는 스크린샷")
+![새 라이브 이벤트 화면을 보여 주는 스크린샷](../media/teams-live-events-schedule.png "새 라이브 이벤트를 만들고 예약 하는 새 라이브 이벤트 화면을 보여 주는 스크린샷")
 
 ### <a name="production"></a>프로덕션용
 비디오 입력은 라이브 이벤트의 기반 이므로 단일 웹캠에서 멀티 카메라 프로페셔널 비디오 제작에 이르기까지 다양 하 게 사용할 수 있습니다. Microsoft 365의 라이브 이벤트는 프로덕션 시나리오의 스펙트럼을 지원 하며 웹캠 또는 외부 앱 또는 장치에서 생성 된 이벤트를 사용 하는 팀에서 생성 된 이벤트를 포함 합니다. 프로젝트 요구 사항 및 예산에 따라 이러한 옵션을 선택할 수 있습니다. 이벤트를 생성 하는 방법에는 두 가지가 있습니다.
 
 - **팀**:이 프로덕션 방법을 사용 하면 사용자가 웹캠 또는 팀 대화방 시스템의 A/V 입력을 사용 하 여 팀에서 실시간 이벤트를 생성할 수 있습니다. 이 옵션은 PC에 연결 된 오디오 및 비디오 장치를 사용 하거나 원격 발표자가 이벤트에 참가 하도록 초대 하는 경우 가장 쉽고 빠르게 실행할 수 있는 옵션입니다. 이 옵션을 사용 하면 사용자가 웹캠을 쉽게 사용 하 고 화면을 이벤트에 입력으로 공유할 수 있습니다. 
 
-    ![빠른 시작 방법을 사용 하 여 생성 된 라이브 이벤트를 보여 주는 스크린샷] (../media/teams-live-events-quick-start.png "빠른 시작 프로덕션 방법을 사용 하 여 생성 된 라이브 이벤트를 보여 주는") 스크린샷
+    ![빠른 시작 방법을 사용 하 여 생성 된 라이브 이벤트를 보여 주는 스크린샷](../media/teams-live-events-quick-start.png "빠른 시작 프로덕션 방법을 사용 하 여 생성 된 라이브 이벤트를 보여 주는 스크린샷")
 
 - **외부 앱 또는 장치**: 외부 인코더는 사용자가 [스트림을](https://stream.microsoft.com)사용 하는 외부 하드웨어 또는 소프트웨어 기반 인코더에서 직접 라이브 이벤트를 생성할 수 있도록 합니다. 이 옵션은 mixers (실시간 메시징 프로토콜) 서비스에 대 한 스트리밍을 지 원하는 스튜디오 음질 장비 (예: 미디어)를 사용 하는 경우 가장 적합 합니다. 이 유형의 프로덕션은 일반적으로 executive 마을 halls 같은 대규모의 이벤트에 사용 되며 미디어 믹서의 단일 스트림이 청중에 게 브로드캐스트 됩니다. 
 
-    ![외부 앱 또는 장치를 사용 하 여 생성 된 라이브 이벤트를 보여 주는] 스크린샷 (../media/teams-live-events-external-encoder.png "외부 앱 또는 디바이스 제작 방법을 사용 하 여 생성 된 라이브 이벤트를 보여 주는") 스크린샷
+    ![외부 앱 또는 장치를 사용 하 여 생성 된 라이브 이벤트를 보여 주는 스크린샷](../media/teams-live-events-external-encoder.png "외부 앱 또는 디바이스 제작 방법을 사용 하 여 생성 된 라이브 이벤트를 보여 주는 스크린샷")
 
 ### <a name="streaming-platform"></a>스트리밍 플랫폼
 라이브 이벤트 스트리밍 플랫폼은 다음 부분으로 구성 됩니다.
@@ -80,7 +79,7 @@ ECDN의 목표는 인터넷에서 비디오 콘텐츠를 가져와 네트워크 
 ### <a name="attendee-experience"></a>참석자 환경 
 참석자 환경은 라이브 이벤트의 가장 중요 한 측면이 며 참석자가 문제 없이 라이브 이벤트에 참여할 수 있도록 하는 것이 중요 합니다. 참석자 환경은 Azure Media Player (팀에서 생성 된 이벤트)와 스트림 플레이어 (외부 앱 또는 장치에서 생성 된 이벤트의 경우)를 사용 하 고 데스크톱, 브라우저 및 모바일 (iOS, Android)에서 작동 합니다. Office 365는 두 공동 작업 허브로 Yammer와 팀을 제공 하 고, 실시간 참석자 환경이 이러한 공동 작업 도구에 통합 되어 있습니다. 
 
-![Live 이벤트의 참석자 경험을 보여 주는 스크린샷] (../media/teams-live-events-attendee.png "Live 이벤트의 참석자 경험을 보여 주는 스크린샷")
+![Live 이벤트의 참석자 경험을 보여 주는 스크린샷](../media/teams-live-events-attendee.png "Live 이벤트의 참석자 경험을 보여 주는 스크린샷")
 
 ### <a name="live-event-usage-report"></a>실시간 이벤트 사용 보고서 
 테 넌 트 관리자는 Microsoft 팀 관리 센터에서 실시간 이벤트에 대 한 실제 시간 사용 분석을 볼 수 있습니다.  [실시간 이벤트 사용 보고서](../teams-analytics-and-reports/teams-live-event-usage-report.md) 에는 조직에 보유 된 라이브 이벤트의 활동 개요가 표시 됩니다.  관리자는 이벤트 상태, 시작 시간, 보기, 프로덕션 유형 등의 이벤트 사용 정보를 볼 수 있습니다.  

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '비즈니스용 Skype에서 기본 시스템 메시지에 대해 설정할 수 있는 언어에 대해 알아봅니다. '
-ms.openlocfilehash: 34499cce7635b2c54eb6e086395028179fd849a4
-ms.sourcegitcommit: c6a79bebbbd7c1a1f801f465092a64fb40720296
+ms.openlocfilehash: bae2fccadea6a001c78a8d1f4a1ffabf2f91bae8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37040750"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570716"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>보이스 메일 인사말 및 메시지 용 언어
 

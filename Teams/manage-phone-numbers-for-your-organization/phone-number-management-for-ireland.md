@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 Microsoft 팀의 아일랜드에서 전화 번호를 받고 관리 하는 방법에 대 한 정보를 확인 하세요.
-ms.openlocfilehash: f38e79b28f32c02157c5b0ce4c4820289343122f
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 57cb80ccba7ab099bc51aa89e69d6857c6699dc3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "36184493"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570592"
 ---
 # <a name="phone-number-management-for-ireland"></a>아일랜드의 전화 번호 관리
 

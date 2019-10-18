@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결 하는 방법을 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: 8dc06650a50af5b66931f196c0a1c3d7c5090bc5
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: ab76d3ee8a08b6bf109e1cb235b4f0f3a4fbdcc8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464582"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572149"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -29,7 +28,7 @@ ms.locfileid: "36464582"
 
 Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있습니다.  예를 들어이 접근 권한 값을 사용 하면 다음 다이어그램에 표시 된 것 처럼 Microsoft 팀 클라이언트를 사용 하 여 온-프레미스 PSTN 연결을 구성할 수 있습니다. 
 
-![온-프레미스 PSTN 연결 구성을 보여주는 다이어그램] (media/PlanDirectRouting1-PSTNwithTeams.png "Microsoft 팀 클라이언트를 사용 하 여 온-프레미스 PSTN 연결 구성")
+![온-프레미스 PSTN 연결 구성을 보여주는 다이어그램](media/PlanDirectRouting1-PSTNwithTeams.png "Microsoft 팀 클라이언트를 사용 하 여 온-프레미스 PSTN 연결 구성")
 
   > [!NOTE]
   > 비즈니스용 skype Online을 통해 고객 제공 SBC를 쌍으로 할 수 있지만,이를 위해서는 온-프레미스 비즈니스용 Skype Server 배포 또는 SBC와 Microsoft 클라우드 간에 클라우드 커넥터 라는 특별 한 버전의 비즈니스용 Skype가 필요 합니다. 이 시나리오를 하이브리드 음성 이라고 합니다. 반대로 직접 라우팅은 지원 되는 SBC 및 Microsoft 클라우드 간 직접 연결을 허용 합니다. 
@@ -88,7 +87,7 @@ Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내
 
 - Microsoft 전화 시스템 
 - Microsoft 팀 + 라이선스 Sku에 포함 된 경우 비즈니스용 Skype 요금제 2
-- Microsoft 오디오 회의 
+- Microsoft 오디오 회의 (아래에서 라이선스가 필요한 경우에 대 한 구체적인 예는 노트 및 단락을 참조 하세요.)
 
 > [!NOTE]
 > 비즈니스용 Skype 요금제가 포함 된 라이선스 SKU에서는 제거 해서는 안 됩니다. 
@@ -97,10 +96,12 @@ Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내
 > [!IMPORTANT]
 >  외부 참가자를 전화를 걸고 전화 접속 번호를 제공 하 여 예약 된 모임에 추가 하려는 경우에는 오디오 회의 라이선스가 *필요*합니다.
 
-> [!NOTE]
-> 오디오 회의 라이선스는 다음과 같은 작업을 수행 *해야* 합니다.
-> - 1:1 통화에서 그룹 통화로 에스컬레이션 합니다.
-> - 전화를 걸고 번호를 입력 하 여 예약 된 모임에 외부 참가자를 추가 합니다. 
+
+임시 통화 에스컬레이션 및 오디오 회의 라이선스
+
+팀 사용자는 한 팀에서 PSTN 또는 팀에 게 PSTN 참가자를 호출 하 고이에 대 한 추가를 시작할 수 있습니다. 이 시나리오를 임시 회의 라고 합니다. 통화를 안내 하는 사용자에 게 Microsoft 오디오 회의 라이선스가 지정 되었는지 여부에 따라 호출이 수행 하는 경로가 달라 집니다.
+1. 전화를 거는 팀 사용자가 Microsoft 오디오 회의 라이선스를 할당 한 경우에는 Microsoft 오디오 회의 서비스를 통해 에스컬레이션이 발생 합니다. 기존 통화에 초대 된 원격 PSTN 참가자는 수신 전화에 대 한 알림을 받으며 에스컬레이션을 시작한 팀 사용자에 게 할당 된 Microsoft bridge의 번호를 표시 합니다.
+2. 통화를 담당 하는 팀 사용자에 게 Microsoft 오디오 회의 라이선스가 할당 되어 있지 않으면 직접 라우팅 인터페이스에 연결 된 세션 경계 컨트롤러를 통해 에스컬레이션이 발생 합니다. 통화에 초대 된 원격 PSTN 참가자는 수신 전화에 대 한 알림을 받으며 에스컬레이션을 시작한 팀 사용자의 번호를 표시 합니다. 에스컬레이션에 사용 되는 특정 SBC는 사용자의 라우팅 정책에 의해 정의 됩니다. 
 
 
 또한 다음을 확인 해야 합니다.

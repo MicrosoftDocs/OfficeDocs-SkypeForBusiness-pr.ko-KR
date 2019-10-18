@@ -9,16 +9,17 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
 description: 이 항목에서는 전화 시스템 다이렉트 라우팅과 함께 미디어 바이패스를 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d3991973932ec3ced2ef1a365a7060e2d9449f40
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2931194783e2055c468ec2d7ad1286b9fe1940ae
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237484"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572237"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>직접 라우팅으로 미디어 우회 구성
 

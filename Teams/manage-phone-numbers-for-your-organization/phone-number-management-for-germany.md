@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 독일에서 Microsoft 팀 용 전화 번호를 받고 관리 하는 방법에 대 한 정보를 확인 하세요.
-ms.openlocfilehash: 3cd1d4102131f4e2c545c663999b7a1780e8db28
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 11158e3927539485cb5fc0149ce44aa051fef947
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "36184499"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573143"
 ---
 # <a name="phone-number-management-for-germany"></a>독일의 전화 번호 관리
 

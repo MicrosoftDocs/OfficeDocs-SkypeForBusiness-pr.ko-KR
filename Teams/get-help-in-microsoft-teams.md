@@ -9,19 +9,18 @@ ms.service: msteams
 audience: admin
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 ms.reviewer: karuanag
 search.appverid: MET150
 description: Microsoft 팀에서 도움말을 얻을 수 있는 모든 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6089523326d3e445aa189a570938e1604a4bda0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b1e552ad73bbea9ce35a27fb1c797b03580311d6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245906"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565292"
 ---
 <a name="get-help-in-microsoft-teams"></a>Microsoft 팀에서 도움말 보기
 ============================================
@@ -36,8 +35,8 @@ Microsoft 팀의 도움말 단추는 사용자와 챔피언가 팀을 사용 하
 
  - **비디오** -주문형 영상 콘텐츠를 통해 사용자는 특정 작업을 빠르게 배울 수 있습니다. 계속 해 서 새 비디오가 생성 되므로 자주 확인해 보세요. 물론 인터넷 액세스가 필요 합니다. 
 
- - **새로운 기능** - 
-   신규 또는 업데이트 된 팀 기능에 대 한 사용자 및 팀 소유자의 정기 릴리스 정보입니다.
+ - 새로운 또는 업데이트 된 팀 기능에 대 한 사용자 및 팀 소유자를 위한 **새로운** - 
+   정기 릴리스 정보
 
  - **아이디어 공유** -팀을 개선 하는 방법에 대 한 의견을 항상 알려 드립니다. 이 옵션을 선택 하면 새 기능 요청을 제출 하거나 기존에 투표 하는 데 사용할 수 있는 제품 피드백 포럼으로 이동 합니다. 이 정보는 새로운 기능을 계획할 때 지속적으로 검토 합니다. 
 

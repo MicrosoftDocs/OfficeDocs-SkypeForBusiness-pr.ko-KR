@@ -12,16 +12,15 @@ description: 팀의 현재 상태에 대 한 관리자 정보.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bd57165cbb88df135827ae72fa3952dd8ddd452
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 054c3a639cc5857fb25a7e211a272868477dcb61
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062964"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573220"
 ---
 # <a name="user-presence-in-teams"></a>팀의 사용자 현재 상태
 

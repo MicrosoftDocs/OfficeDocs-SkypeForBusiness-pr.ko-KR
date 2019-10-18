@@ -10,19 +10,21 @@ ms.service: msteams
 search.appverid: MET150
 description: ''
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63e54de51233997eab2ba17ab4f284afd03a21c0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eeab39a68827925fa9805380763f2375910ee793
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232191"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568711"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 사용 중지
 
-2019 년 10 월 1 일에 유효 합니다. Microsoft StaffHub는 곧 종료 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다.
+2019 년 12 월 31 일에 효력을 StaffHub Microsoft는 곧 만료 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다.
 
 이러한 변경은 모든 직원에 게 Microsoft 365을 강화 하기 위한 지속적인 노력의 일부입니다. 팀의 Firstline Worker에 대 한 접근 권한 값을 통해 조직의 모든 직원이 팀을 사용 하 여 업무를 합리화 하 고, 동료와 공동 작업을 진행 하 고, 정보 및 전문성에 액세스 하 여 가장 좋은 업무를 도울 수 있습니다.
 
@@ -32,13 +34,13 @@ ms.locfileid: "36232191"
 
 #### <a name="when-will-staffhub-be-retired"></a>StaffHub는 언제 만료 되나요?
 
-2019 년 4 월 중간에 새 테 넌 트에 대해 더 이상 Microsoft StaffHub를 사용할 수 없으며 기존 테 넌 트의 Office 365 앱 시작 관리자에서 앱에 액세스할 수 없게 됩니다. 현재 사용자는 2019 년 10 월 1 일부 터 서비스를 계속 사용할 수 있지만 추가 기능을 사용할 수 없습니다.
+2019 년 4 월 중간에 새 테 넌 트에 대해 더 이상 Microsoft StaffHub를 사용할 수 없으며 기존 테 넌 트의 Office 365 앱 시작 관리자에서 앱에 액세스할 수 없게 됩니다. 현재 사용자는 2019 년 12 월 31 일까 지 서비스를 계속 사용할 수 있지만 추가 기능은 제공 되지 않습니다.
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>StaffHub가 만료 되 면 어떻게 되나요?
 
-Microsoft StaffHub는 2019 년 10 월 1 일에 모든 사용자의 작동이 중지 됩니다. 앱을 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 사용자에 게 팀을 포함 하는 활성 라이선스가 있고 조직이 팀을 활성화 하는 적절 한 단계를 수행 하는 경우 팀을 전환할 때 StaffHub에서 해당 데이터 및 핵심 기능을 사용할 수 있습니다.
+Microsoft StaffHub는 모든 사용자가 2020 년 1 월 1 일에 작업을 중지 합니다. 앱을 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 사용자에 게 팀을 포함 하는 활성 라이선스가 있고 조직이 팀을 활성화 하는 적절 한 단계를 수행 하는 경우 팀을 전환할 때 StaffHub에서 해당 데이터 및 핵심 기능을 사용할 수 있습니다.
 
-4 월 2019 ~ 10 월 2019 사이에는 StaffHub 사용자가 팀을 사용 하도록 권유 하 여 앱에서 직접 알림을 받게 됩니다.
+StaffHub 사용자는 팀을 사용 하도록 권유 하 여 2019 년 4 월과 12 월 2019 사이에 앱에서 직접 알림을 받습니다.
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>현재 StaffHub에서 제공 하는 모든 기능이 팀에서 제공 되나요?
 
@@ -159,7 +161,7 @@ Azure AD 사용자 계정에 연결 되지 않은 비활성 계정의 경우, �
  
 #### <a name="what-happens-to-chats-in-staffhub"></a>StaffHub의 채팅은 어떻게 되나요?
 
-사용자를 전환 하는 데 도움이 되도록 StaffHub에서 팀으로 데이터 채팅 기록을 마이그레이션할 계획입니다. 팀에서 사용할 수 있는 채팅 기록 크기는 전환을 위해 조직을 구성 하는 순간에 따라 달라 집니다. 2019 년 10 월 1 일 2019을 기준으로 90 일간 데이터를 전환 하는 데 충분 한 시간을 제공 하려면 6 월 30 일 이전에 작업을 수행 하는 것이 좋습니다.
+사용자를 전환 하는 데 도움이 되도록 StaffHub에서 팀으로 데이터 채팅 기록을 마이그레이션할 계획입니다. 팀에서 사용할 수 있는 채팅 기록 크기는 전환을 위해 조직을 구성 하는 순간에 따라 달라 집니다. 2019 년 12 월 31 2019 일까 지 90 일간 데이터를 전환 하는 데 충분 한 시간을 제공 하려면 6 월 30 일 이전에 작업을 수행 하는 것이 좋습니다.
 
 StaffHub 채팅 데이터를 팀으로 이동 하는 것이 중요 하므로 전환이 시작 되기 전에 Microsoft 365 관리 센터에서 Office 365 그룹 만들기가 사용 하도록 설정 되어 있는지 확인 합니다. 2019 년 6 월 30 일에이 서비스를 설정 하지 않으면 이후 마이그레이션 날짜를 반환 하 고 복사 되는 채팅 데이터를 줄여 보세요.
 
@@ -211,4 +213,4 @@ StaffHub Api를 사용 하 여 통합을 구축한 경우 이러한 Api는 더 �
 
 #### <a name="where-can-i-provide-feedback"></a>피드백을 제공 하는 위치는 어디 인가요?
   
-모바일 앱에서 화면 왼쪽 위에 있는 **더 보기** 를 탭 하 고, **설정** > **** 으로 이동 하거나 **, 문제를 보고**합니다. 마찬가지로 데스크톱 및 웹 앱의 화면 왼쪽 아래에서**아이디어 공유** 또는 **문제 보고**를 **참조** > 하세요.
+모바일 앱에서 화면 왼쪽 위에 있는 **더 보기** 를 탭 하 고, **설정** > 으로**이동 하거나** **, 문제를 보고**합니다. 마찬가지로 데스크톱 및 웹 앱의 화면 왼쪽 아래에서**아이디어 공유** 또는 **문제 보고**를 **참조** > 하세요.

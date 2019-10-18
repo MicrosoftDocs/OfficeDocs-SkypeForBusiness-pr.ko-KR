@@ -15,17 +15,15 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
-  - Teams_ITAdmin_PracticalGuidance
-  - Teams_ITAdmin_Training
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 331483c565292d60587de834cbb086af1b956969
-  ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+  ms.openlocfilehash: 058a4d04226869b94c1d3d12c62c95c9351a7b8b
+  ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/24/2019
-  ms.locfileid: "36184244"
+  ms.lasthandoff: 10/17/2019
+  ms.locfileid: "37569422"
 items:
 - durationInMinutes: 1
   content: >

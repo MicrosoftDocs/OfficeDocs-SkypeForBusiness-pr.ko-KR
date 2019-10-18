@@ -12,17 +12,15 @@ search.appverid: MET150
 description: 직접 라우팅에 대 한 위치 기반 라우팅에 대 한 네트워크 지역, 사이트 및 서브넷을 만들고 설정 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f6f6f1e74cc50b37ade03e97106d2befe36a6dd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 240bbce48452edf505a61830891d0fcd6a6d199d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245109"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570702"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>위치 기반 라우팅에 대 한 네트워크 설정 구성
 

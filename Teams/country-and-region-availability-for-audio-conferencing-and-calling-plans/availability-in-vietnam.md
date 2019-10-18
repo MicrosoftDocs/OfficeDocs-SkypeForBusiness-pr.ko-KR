@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 베트남에서 사용할 수 있는 Microsoft 팀입니다.
-ms.openlocfilehash: f65b8685b10d7c21a996aa1c75d95e558f8a3562
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 26b94155b86c79c37556ddedb3138cfcf9dc9d2b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774549"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569431"
 ---
 # <a name="availability-in-vietnam"></a>베트남의 가용성
 

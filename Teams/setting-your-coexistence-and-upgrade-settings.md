@@ -7,7 +7,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: bjwhalen
 search.appverid: MET150
@@ -16,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 581aab3067dcc2e8dbdc579236f340259b5c6e74
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ce472ca1c5307dd8a5573ca076c58e32e2d41df9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243187"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571527"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>공존 및 업그레이드 설정 설정
 
@@ -46,7 +45,7 @@ ms.locfileid: "36243187"
     - **공존** 모드를 설정 합니다.
         - **아일랜드** -사용자가 비즈니스용 Skype와 팀을 동시에 사용할 수 있게 하려는 경우이 설정을 사용 합니다.
         - 비즈니스용 **skype 전용** -사용자가 비즈니스용 skype만을 사용 하도록 하려는 경우이 설정을 사용 합니다.
-        - **팀만** (일부 조직의 경우 미리 보기)-사용자가 팀만 사용 하도록 하려면이 설정을 사용 합니다. 이 설정을 사용 하는 경우에도 사용자는 비즈니스용 Skype에서 호스트 된 모임에 참가할 수 있습니다.
+        - **팀 전용** (일부 조직의 경우 미리 보기)-사용자가 팀만 사용할 수 있도록 하려면이 설정을 사용 합니다. 이 설정을 사용 하는 경우에도 사용자는 비즈니스용 Skype에서 호스트 된 모임에 참가할 수 있습니다.
     - **팀이 업그레이드에 사용할 수 있는 비즈니스용 Skype 사용자에 게 알림을**설정 합니다. 이 기능을 켜면 비즈니스용 Skype 사용자에 게 곧 팀 앱으로 업그레이드 될 것으로 표시 됩니다.
     - **사용자가 비즈니스용 Skype 모임에 참가 하도록 기본 설정 앱**을 설정할 수 있습니다. 이 설정은 비즈니스용 Skype 모임에 참가 하는 데 사용 되는 앱을 결정 하 고 공존 모드 값에 관계 없이 적용 됩니다.
       - **Skype 모임 앱**

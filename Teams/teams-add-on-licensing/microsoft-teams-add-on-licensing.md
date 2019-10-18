@@ -9,7 +9,6 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -19,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 추가 기능 라이선스, 각 라이선스에 대해 얻을 수 있는 기능, 제품을 위해 구입 하는 방법, 기존 통신 회사를 사용 하는 방법에 대해 알아보세요. Office 365, 커뮤니케이션 크레딧, 통화 플랜에 대 한 가격 및 계획 세부 정보를 얻을 수 있습니다.
-ms.openlocfilehash: 2c2f3ecb632fda65d92b5c903c698eb9a53fa5ae
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6b3f850980db71e1347802dd0ab59c38c46e4ebc
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242744"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571205"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft 팀 추가 기능 라이선스
 
@@ -85,7 +84,7 @@ Microsoft 팀 라이선스는 최대한 많은 유연성을 제공 하도록 디
 <!---
 If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
 --->
-하이브리드 사용자에 대해 온-프레미스 PSTN 연결을 사용 하는 경우 ** 사용자 에게만 **전화 시스템** 라이선스를 할당 합니다. 통화 요금제도 지정 **하지 마세요** .
+하이브리드 사용자에 대해 온-프레미스 PSTN 연결을 사용 하는 경우 사용자 에게만 **전화 시스템** 라이선스 *를 할당 합니다* . 통화 요금제도 지정 **하지 마세요** .
 
 온-프레미스 PSTN 연결을 사용 하는 전화 시스템을 포함 하 여 배포 계획에 대 한 자세한 내용은 [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/skypeforbusiness/hybrid/msft-telephony-solutions)을 참조 하세요.
 <!---

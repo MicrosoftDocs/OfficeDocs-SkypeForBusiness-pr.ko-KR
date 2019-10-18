@@ -12,18 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 description: 팀 서식 파일을 사용 하 여 미리 정의 된 채널을 사용 하 여 팀을 만드는 방법을 알아봅니다.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d5832ccce69c9863e364f94c6e850f8d938ac162
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36181631"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569567"
 ---
 # <a name="get-started-with-teams-templates"></a>팀 서식 파일 시작 하기 
 

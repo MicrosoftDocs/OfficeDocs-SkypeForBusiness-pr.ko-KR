@@ -11,17 +11,14 @@ audience: admin
 description: Microsoft 팀 또는 비즈니스용 Skype에서 클라우드 음성 구현을 개선 하기 위해 사용자 의견을 수집 하세요.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c0a18f82eebb926792e7c3450ef1db1eb9f2fad
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4690321129ef9b57e70ec497161acd863f061ef9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233245"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573228"
 ---
 # <a name="user-feedback-surveys"></a>사용자 의견 설문 조사 
 

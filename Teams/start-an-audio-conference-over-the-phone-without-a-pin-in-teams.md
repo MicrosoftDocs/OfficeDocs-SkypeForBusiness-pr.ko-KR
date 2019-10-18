@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '팀 관리 센터에서 익명 호출자가 모임에 참가 하지 않도록 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 522970533565673b3fc68bcd5138006a6f6cf9d0
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: 78b35b65c1bb27d366e8e9fa27c49ef32864081f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "36184430"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570009"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Microsoft 팀에서 PIN을 사용 하지 않고 전화로 오디오 회의 시작
 

@@ -6,17 +6,18 @@ ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: 이 문서에서는 비즈니스용 Skype 또는 팀 구현에서 Azure Monitor를 사용 하 여 Microsoft 팀 회의실 장치를 관리 하기 위한 계획 고려 사항에 대해 설명 합니다.
-ms.openlocfilehash: 6536ee07ef64119d3529c7b9f279df3a7bbbdaed
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: e605f3cba8f6e21bb1da4f8301b54922dc8804d5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36184337"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569921"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Azure Monitor를 사용 하 여 Microsoft 팀 공간 관리 계획
  

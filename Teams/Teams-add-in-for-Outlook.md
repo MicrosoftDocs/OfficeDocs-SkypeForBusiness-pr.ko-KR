@@ -14,16 +14,15 @@ description: Microsoft 팀은 사용자가 Outlook에서 팀 모임을 예약할
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e2c7bae819037d0140fab1fed3625e250b8a4c1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6a8a440859d5bb33dfa5f57fd952f642b0e88dc7
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242065"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569284"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 팀 모임 추가 기능 사용
 =======================================
@@ -39,6 +38,7 @@ ms.locfileid: "36242065"
 > [!NOTE]
 > - 사용자에 게 팀 모임 추가 기능이 표시 되지 않는 경우 Outlook과 팀을 닫도록 지시 하 고 먼저 팀 클라이언트를 다시 시작한 다음 팀에 로그인 한 다음 Outlook 클라이언트를 특정 순서로 다시 시작 합니다.
 > - Windows 7 사용자는 팀 모임 추가 기능을 사용 하기 위해 windows의 [windows에서 유니버설 C 런타임으로 업데이트](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) 를 설치 해야 합니다.
+> - Microsoft Store에서 Office Outlook 설치를 사용 하는 경우 팀 모임 추가 기능이 지원 되지 않습니다. 이 추가 기능을 필요로 하는 사용자는 [S 모드 문서에서 Windows 10의 office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) 에 설명 된 대로 간편 실행 버전의 office를 설치 하는 것이 좋습니다. 
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Mac 용 Outlook에서 팀 모임 추가 기능
 

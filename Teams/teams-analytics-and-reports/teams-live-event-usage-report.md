@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Microsoft 팀 관리 센터에서 팀 실시간 이벤트 사용 보고서를 사용 하 여 조직의 팀 live 이벤트 활동에 대 한 개요를 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0ecd27df1f7bccd9a451f2581d55e5c335b1e0
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 3c391370e757aedcf9ede889fc46f165cfc636f4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131617"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571150"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft 팀 실시간 이벤트 사용 보고서
 
@@ -33,7 +32,7 @@ Microsoft 팀 관리 센터의 팀 실시간 이벤트 사용 보고서에는 �
 3. ) **이끌이**에서 특정 사용자가 구성한 라이브 이벤트만 표시 하도록 선택할 수 있습니다.
 4. **보고서 실행**을 클릭 합니다.  
 
-    ![팀 관리 센터에서 설명선이 포함 된 팀 실시간 이벤트 사용 보고서 스크린샷] (../media/teams-live-event-usage-report-with-callouts.png "팀 관리 센터에서 설명선이 포함 된 팀 실시간 이벤트 사용 보고서 스크린샷")
+    ![팀 관리 센터에서 설명선이 포함 된 팀 실시간 이벤트 사용 보고서 스크린샷](../media/teams-live-event-usage-report-with-callouts.png "팀 관리 센터에서 설명선이 포함 된 팀 실시간 이벤트 사용 보고서 스크린샷")
 
 ## <a name="interpret-the-report"></a>보고서 해석
 

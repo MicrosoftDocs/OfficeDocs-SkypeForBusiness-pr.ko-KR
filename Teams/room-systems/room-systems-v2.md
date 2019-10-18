@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Microsoft 팀 방에 배포 하는 방법에 대해 자세히 알아보려면이 문서를 참조 하세요.
-ms.openlocfilehash: 132c40c674824bb763ea2087318423ca3677f506
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: f040c61bff6a756ab1fbbff5229c6ebc8a150b3c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775131"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573597"
 ---
 # <a name="deployment-overview"></a>배포 개요
 

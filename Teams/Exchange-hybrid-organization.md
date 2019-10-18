@@ -12,16 +12,15 @@ description: Microsoft 팀과 함께 사용할 Exchange 하이브리드 조직�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68b2fee13668db8ba3986302d58bc16b0fa89080
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bd18381a8d889a1cebad04234e56bf11def9197e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235464"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569862"
 ---
 <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Microsoft 팀과 함께 사용할 Exchange 하이브리드 조직 구성
 ======================================================================

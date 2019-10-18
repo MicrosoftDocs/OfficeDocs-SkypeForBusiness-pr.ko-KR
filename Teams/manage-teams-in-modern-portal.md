@@ -13,16 +13,15 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b8937827cb5e3fa80e9ebae93d9958be2cf0f38
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
+ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286242"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571937"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft 팀원 관리 센터에서 팀 관리
 ==========================================
@@ -40,7 +39,7 @@ ms.locfileid: "36286242"
 
 ## <a name="teams-overview-grid"></a>팀 개요 그리드
 
-팀의 관리 도구는 Microsoft 팀 관리 센터의 **팀** 노드 아래에 있습니다. (관리 센터에서 팀 **** > **관리**를 선택 합니다.) 각 팀은 Office 365 그룹에서 지원 되며,이 노드는 조직에서 Microsoft 팀을 사용 하도록 설정 된 그룹의 보기를 제공 합니다.
+팀의 관리 도구는 Microsoft 팀 관리 센터의 **팀** 노드 아래에 있습니다. (관리 센터 **에서 팀** > **관리**를 선택 합니다.) 각 팀은 Office 365 그룹에서 지원 되며,이 노드는 조직에서 Microsoft 팀을 사용 하도록 설정 된 그룹의 보기를 제공 합니다.
 
 ![팀 개요 그리드 스크린샷](media/manage-teams-in-modern-portal-grid.png)  
 

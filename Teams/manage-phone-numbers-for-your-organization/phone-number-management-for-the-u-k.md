@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 영국 (영국)에서 Microsoft 팀을 위한 전화 번호를 받고 관리 하는 방법에 대 한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: 900ebd3e7579e01a40e4c7f0ef273c81d5abbd33
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: bdad256ee68b1ecd6cf07dc7bf67388a6929dc26
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "36184487"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571959"
 ---
 # <a name="phone-number-management-for-the-uk"></a>영국의 전화 번호 관리
 

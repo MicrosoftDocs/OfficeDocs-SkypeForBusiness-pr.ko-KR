@@ -7,18 +7,19 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: 대규모 배포에서 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 48a2ddbed8ca5909ca527f7db872c6fa74737610
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2bd78bd737622515ff0722aa3635cf1ebcc83a29
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243424"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573630"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>System Center Configuration Manager를 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -459,7 +460,7 @@ Active Directory 도메인에 가입 되지 않은 디바이스에 대 한 루�
 
 1.  Windows 10 Enterprise x64 미디어를 구하여 **설치 .wim** 파일을 **운영 체제\\Windows 10 enterprise** 폴더에 복사 합니다.
 
-2.  **** Configuration Manager 콘솔에서 **소프트웨어 라이브러리** \> **운영** \> 체제로 이동한 다음 운영 체제 이미지 **추가**를 선택 합니다.
+2.  Configuration Manager 콘솔에서 **소프트웨어 라이브러리** \> **운영** \> **체제로 이동한**다음 운영 체제 이미지 **추가**를 선택 합니다.
 
 3.  방금 복사한 **설치 .wim** 파일의 경로를 지정 하 고 **다음**을 선택 합니다.
 

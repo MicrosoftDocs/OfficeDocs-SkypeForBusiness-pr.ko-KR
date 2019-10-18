@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Office 용 비즈니스용 Skype 및 El에 대해 제공 되는 Microsoft 팀을 위한 365 서비스입니다.
-ms.openlocfilehash: 81bddbe4d62f5a0f8ba6ef67dd0332ebe7b43560
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: a09dfc3d5ba65e3c5cba01b6d8c91381e04ee930
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36183119"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570430"
 ---
 # <a name="availability-in-el-salvador"></a>엘살바도르의 가용성
 

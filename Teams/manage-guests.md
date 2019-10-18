@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: IT 관리자는 테 넌 트 수준에서 게스트를 추가 하 고, 게스트 사용자 정책 및 사용 권한을 설정 및 관리 하 고, 게스트를 초대할 수 있는 사용자를 결정 하 고, 게스트 사용자의 보고서를 가져올 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3ede35352436074cbf7c94fc9df78100a73a017
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7db3d42a8d4ae44364ee56f6c7f31ce501a34137
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242123"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573170"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft 팀에서 게스트 액세스 관리
 ======================================
@@ -31,7 +31,7 @@ ms.locfileid: "36242123"
     
 IT 관리자는 테 넌 트 수준에서 게스트를 추가 하 고, 게스트 사용자 정책 및 사용 권한을 설정 및 관리 하 고, 게스트 사용자 활동에 대 한 보고서를 가져올 수 있습니다. 이러한 컨트롤은 Microsoft 팀 관리 센터를 통해 사용할 수 있습니다. 게스트 사용자 콘텐츠 및 활동은 Office 365의 나머지와 동일한 준수 및 감사 보호를 사용 합니다.
 
-팀 소유자는 새 게스트를 초대 하 고 기존 디렉터리 게스트 사용자를 팀에 추가할 수 있습니다. 팀 소유자는 팀을 **** > **관리**하는 게스트 사용자를 식별 하 고, **조직 전체 설정** > **게스트 액세스**를 통해 guest에 대 한 채널 관련 기능을 설정 하 고, 게스트의 생성, 업데이트 및 사용을 허용할 수 있습니다. 다음 그림에 표시 된 대로 채널을 삭제 합니다.
+팀 소유자는 새 게스트를 초대 하 고 기존 디렉터리 게스트 사용자를 팀에 추가할 수 있습니다. 팀 소유자 **는 팀을** > **관리**하는 게스트 사용자를 식별 하 고, **조직 전체 설정** > **게스트 액세스**를 통해 guest에 대 한 채널 관련 기능을 설정 하 고, 게스트의 생성, 업데이트 및 사용을 허용할 수 있습니다. 다음 그림에 표시 된 대로 채널을 삭제 합니다.
 
 ![팀의 게스트 사용 권한 설정](media/manage-guest-access-image1.png)
   

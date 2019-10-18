@@ -10,20 +10,22 @@ ms.service: msteams
 search.appverid: MET150
 description: Microsoft 팀에서 Microsoft StaffHub 팀 및 일정 데이터를 이동 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bf9776dbf5a5992354f542436b4904d53d58508
-ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
+ms.openlocfilehash: 03131bd9a89ae5f54fc8318b004385de3e32e26e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37142048"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569685"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft 팀에서 Microsoft StaffHub 팀을 교대으로 옮기기
 
 > [!IMPORTANT]
-> 2019 년 10 월 1 일에 유효 합니다. Microsoft StaffHub는 곧 종료 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다. StaffHub는 2019 년 10 월 1 일에 모든 사용자의 작동이 중지 됩니다. StaffHub를 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 자세한 내용은 [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)을 사용 중지 하세요.
+> 2019 년 12 월 31 일에 효력을 StaffHub Microsoft는 곧 만료 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다. StaffHub는 2019 년 12 월 31 일에 모든 사용자의 작동이 중지 됩니다. StaffHub를 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 자세한 내용은 [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)을 사용 중지 하세요.
 
 팀에서 교대 근무 앱은 일정을 관리 하는 간단한 방법과 매일 수행 되는 교대 전환 및 취소의 일정 한 흐름을 제공 합니다. 팀 구성원은 일정에 액세스 하 고, 앱 및 장치에서 직접 정보를 이동 하 여 기본 설정을 지정 하 고, 일정을 관리 하 고, 휴가를 요청할 수 있습니다.
 
@@ -44,13 +46,13 @@ ms.locfileid: "37142048"
 
 ### <a name="when-to-move-to-teams"></a>팀으로 이동 하는 경우
 
-2019 년 10 월 1 일에 유효 하며, StaffHub가 만료 됩니다. 지금 팀 사용을 시작 하 고 조직의 팀과 사용자를 StaffHub에서 전환 하기 시작 하는 것이 좋습니다. StaffHub에서 가장 일반적으로 사용 되는 기능으로 일정 관리를 사용 하는 경우 팀에서 이동 앱을 진행 하는 것이 좋습니다.
+2019 년 12 월 31 일에 효력을 StaffHub 됩니다. 지금 팀 사용을 시작 하 고 조직의 팀과 사용자를 StaffHub에서 전환 하기 시작 하는 것이 좋습니다. StaffHub에서 가장 일반적으로 사용 되는 기능으로 일정 관리를 사용 하는 경우 팀에서 이동 앱을 진행 하는 것이 좋습니다.
 
 ### <a name="what-is-moved-to-teams"></a>팀으로 이동 하는 항목
 
 StaffHub 팀을 이동 하면 팀 구성원, 사용자 세부 정보, 팀 일정 및 채팅 데이터가 팀으로 이동 됩니다. StaffHub 팀을 이동할 때 파일이 이동 되지 않습니다. StaffHub 팀에 팀으로 이동 하려는 파일이 포함 되어 있는 경우 별도의 단계로 파일을 이동 합니다.
 
-모든 StaffHub 팀에는 해당 하는 Office 365 그룹이 필요 합니다. StaffHub 팀에 Office 365 그룹이 연결 되어 있지 않으면 전환을 지원할 수 있도록 자동으로 만들어집니다. 팀과 StaffHub 간의 팀 및 그룹 명명 차이로 인해 팀에 다른 팀 이름이 표시 될 수 있습니다.
+모든 StaffHub 팀에는 해당 하는 Office 365 그룹이 필요 합니다. StaffHub 팀이 Office 365 그룹과 연결 된 경우 팀을 이동할 때 그룹의 개인 정보 설정이 유지 됩니다. StaffHub 팀에 Office 365 그룹이 연결 되어 있지 않은 경우 개인 정보 보호 설정이 있는 그룹이 전환을 지원할 수 있도록 자동으로 만들어집니다.  팀과 StaffHub 간의 팀 및 그룹 명명 차이로 인해 팀에 다른 팀 이름이 표시 될 수 있습니다. 
 
 StaffHub에서 팀으로 전환 하는 동안 사용자는 더 이상 StaffHub에서 해당 일정에 액세스할 수 없으며 팀에서 이동 하도록 리디렉션됩니다. 중단을 최소화 하 고 사용자가 팀을 채택 하 고 탐색 하도록 하는 것을 권장 하기 위해 조직에서이 변경 내용을 알릴 것을 권장 합니다. Azure AD Premium을 사용 하는 경우 [보고서를 실행](run-report-to-show-staffhub-usage.md) 하 여 조직의 StaffHub 사용자 중 해당 변경 사항에 대해 알고 있어야 하는 목록을 가져올 수 있습니다.  
 
@@ -60,7 +62,7 @@ StaffHub 팀을 팀으로 이동한 후에는 롤백 옵션이 없습니다.
 
 팀이 StaffHub에서 전환 되는 경우 사용자에 대 한 가동 중지 (가능한 경우 두 번째이 하)는 거의 없습니다. 사용자는 팀으로 이동이 완료 될 때까지 StaffHub를 계속 사용할 수 있습니다. 이동이 완료 되 면 팀 구성원은 팀 일정에 액세스 하기 위해 팀의 교대 근무를 사용 해야 한다는 것을 알리는 메시지를 볼 수 있습니다. 다음은 StaffHub 팀이 팀으로 이동한 후 사용자에 게 StaffHub에 표시 되는 메시지의 예입니다.
 
-![사용자에 게 표시 되는 메시지의 예입니다.] (../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "StaffHub 팀이 팀으로 이동한 후 사용자가 StaffHub에 표시 하는 메시지의 예")
+![사용자에 게 표시 되는 메시지의 예입니다.](../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "StaffHub 팀이 팀으로 이동한 후 사용자가 StaffHub에 표시 하는 메시지의 예")
 
 ## <a name="prepare"></a>대비
 
@@ -74,8 +76,10 @@ StaffHub 팀을 팀으로 이동 하기 전에 다음을 확인 하세요.
 - 팀은 테 넌 트의 모든 사용자에 대해 사용 하도록 설정 됩니다.
 - 테 넌 트에서 Office 365 그룹 만들기를 사용 하도록 설정 합니다.
 - StaffHub teamId가 유효 합니다.
+- StaffHub 팀에 팀 소유자가 하나 이상 있습니다.
 - StaffHub 팀은 구성원을 포함 합니다.
 - 모든 StaffHub 팀 구성원은 Azure AD 계정에 연결 됩니다.
+- 모든 StaffHub 팀 구성원에 게 팀 라이선스가 할당 됩니다.  
 
 이러한 선행 조건이 충족 되지 않으면 이동 요청이 실패 합니다.
 
@@ -90,7 +94,7 @@ Microsoft 365 관리 센터에서 팀 라이선스를 관리 합니다. 자세�
 
 ### <a name="install-the-prerelease-version-of-the-staffhub-powershell-module"></a>StaffHub PowerShell 모듈의 시험판 버전을 설치 합니다.
 
-아직 설치 하지 않은 경우 [StaffHub PowerShell 모듈의 시험판 버전을 설치](install-the-staffhub-powershell-module.md)합니다. 
+아직 설치 하지 않은 경우 [StaffHub PowerShell 모듈의 시험판 버전을 설치](install-the-staffhub-powershell-module.md)합니다.
 
 StaffHub 팀을 팀으로 이동 하려면 시험판 버전의 모듈을 설치 해야 합니다.
 
@@ -101,15 +105,21 @@ StaffHub 팀을 팀으로 이동 하려면 시험판 버전의 모듈을 설치 
 - 팀 소유자가 Azure AD 계정이 없는 사용자를 추가 했습니다.
 - 팀 소유자가 사용자를 StaffHub 팀에 초대 했으며 해당 사용자가 초대를 수락 하지 않았습니다.
 
-이러한 사용자에 대 한 Azure AD 계정을 연결할 수 있습니다.  방법은 다음과 같습니다.
+이러한 사용자는 비활성 계정이 있으며 알 수 없음, 초대 또는 InviteRejected 사용자 상태를 표시 합니다. 이러한 사용자에 대 한 Azure AD 계정을 연결할 수 있습니다.  방법은 다음과 같습니다.
 
-#### <a name="get-a-list-of-all-users-on-staffhub-teams-that-have-team-members-that-arent-linked-to-an-azure-ad-account"></a>Azure AD 계정에 연결 되지 않은 팀 구성원이 있는 StaffHub 팀의 모든 사용자 목록 가져오기
+#### <a name="get-a-list-of-all-inactive-accounts-on-staffhub-teams"></a>StaffHub 팀의 모든 비활성 계정 목록 가져오기
 
-다음을 실행 합니다.
+다음을 실행 하 여 StaffHub 팀의 모든 비활성 계정 목록을 가져오고 목록을 CSV 파일로 내보냅니다.
+
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant
-$StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
-foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where {$_.Email -eq $null -or $_.State -eq "Invited"}}
+$InvitedUsersObject = @()
+$StaffHubTeams = Get-StaffHubTeamsForTenant $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
+foreach($team in $StaffHubTeams[0]) { write-host $team.name $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
+foreach($StaffHubUser in $StaffHubUsers) {
+        $InvitedUsersObject  += New-Object PsObject -Property @{         "TeamID"="$($team.Id)"         "TeamName"="$($team.name)"         "MemberID"="$($StaffHubUser.Id)" }
+}
+}
+$InvitedUsersObject | SELECT * $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
 ```
 
 #### <a name="link-the-account"></a>계정 연결
@@ -124,7 +134,7 @@ foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where
     1. [StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubMember?view=staffhub-ps) cmdlet을 실행 하 여 StaffHub 팀에서 프로 비전 되지 않은 계정을 제거 합니다.
     2. [StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet을 실행 하 여 UPN을 사용 하 여 StaffHub 팀에 계정을 다시 추가 합니다.
 
-- 연결이 연결 되지 않은 사용자 계정을 제거 합니다. 사용자 계정이 더 이상 필요 하지 않은 경우이 옵션을 사용 합니다.
+- 비활성 계정을 제거 합니다. 사용자 계정이 더 이상 필요 하지 않은 경우이 옵션을 사용 합니다.
 
 ### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>사용자에 게 FirstlineWorker 앱 설정 정책 할당
 
@@ -179,9 +189,9 @@ Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 다음은 StaffHub 팀을 팀으로 이동 하는 요청을 제출할 때 표시 되는 응답의 예입니다.
 
 ```
-    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
-    ---------------------------------------    ----------------------------------------    ---------------------------          
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
+ jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+---------------------------------------    ----------------------------------------    ---------------------------          
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
 ```
 
 이동 요청의 상태를 확인 하려면 다음을 실행 합니다.
@@ -198,9 +208,9 @@ Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
 다음은 이동을 진행 하는 동안 받은 응답의 예입니다.
 
 ```
-    jobId                                     status       teamId                                     isO365GroupCreated  Error
-    ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
+jobId                                     status       teamId                                     isO365GroupCreated  Error
+----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
 ```
 
 ### <a name="move-files-from-a-staffhub-team-to-teams"></a>StaffHub 팀에서 팀으로 파일 이동
@@ -259,10 +269,10 @@ foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 이미 팀으로 이동 하거나 팀에 이미 있는 팀의 경우, 해당 팀을 이동 하기 위해 작업을 제출할 필요가 없으므로 jobId는 "null"이 됩니다.
 
 ```
-    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
-    ----------------------------------------   -----------------------------------------   --------------------------         
-    null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
+jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+----------------------------------------   -----------------------------------------   --------------------------         
+null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
 ```
 
 #### <a name="move-specific-staffhub-teams"></a>특정 StaffHub 팀 이동
@@ -305,6 +315,32 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 사용 현황 보고서를 통해 사용 패턴을 보다 잘 이해 하 고 조직의 교육 및 통신 작업에 대 한 우선 순위를 지정할 수 있습니다. 전체 팀 사용, 팀에서 사용자가 수행 하는 작업 유형, 사용자가 팀에 연결 하는 방법 등에 대 한 보고서를 실행할 수 있습니다. 자세한 내용은 [microsoft 365 관리 센터의](../../teams-activity-reports.md) [microsoft 팀 관리 센터](../../teams-analytics-and-reports/teams-reporting-reference.md) 및 팀 활동 보고서에서 팀 보고를 참조 하세요.
 
 ## <a name="troubleshooting"></a>해결사
+
+**실패 오류에 대 한 자세한 정보를 얻는 방법**
+
+팀을 이동 하려고 할 때 발생 하는 "실패" 오류에 대 한 자세한 내용을 보려면 다음을 실행 합니다.
+
+```
+Move-StaffHubTeam -TeamId <TeamId>
+$res = Get-TeamMigrationJobStatus -JobId <JobId>
+$res.Status
+```
+
+성공, 실패, InProgress, 대기열에 반환 된 상태 중 하나가 표시 됩니다.
+
+"실패"가 반환 되는 경우 다음을 실행 하 여 오류에 대 한 자세한 정보를 얻습니다.
+
+```
+$res.Result.Error.Innererror
+```
+
+**StaffHub 팀을 이동 하려고 하면 상태가 "실패"로 표시 되 고 "사용자에 대해 해당 SKU 범주를 검색 하지 못했습니다." 오류 메시지가 표시 됩니다.**
+
+하나 이상의 팀 구성원에 게 팀 라이선스가 없는 경우이 문제가 발생할 수 있습니다. Portal.office.com로 이동 하 여 그룹을 찾은 다음 그룹 구성원에 게 팀 라이선스가 할당 되었는지 확인 합니다.
+
+**StaffHub 팀을 이동 하려고 하면 상태가 "실패"로 표시 되 고 "팀 소유자가 없습니다." 오류 메시지가 표시 됩니다.**
+
+StaffHub 팀과 연결 된 그룹에 팀 소유자가 없는 경우이 문제가 발생할 수 있습니다. Portal.office.com로 이동 하 여 그룹을 찾은 다음 하나 이상의 소유자를 그룹에 추가 합니다.
 
 **파일을 StaffHub에서 팀으로 이동 하려고 하면 "사용 권한 거부 됨" 오류 메시지가 표시 됩니다.**
 

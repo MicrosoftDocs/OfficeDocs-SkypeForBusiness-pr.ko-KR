@@ -11,16 +11,15 @@ description: QoS (서비스 품질) 설정을 사용한 다음 Microsoft 팀에�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70e862adf2aad795a9ef1ab34eaa2de21240a388
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 19e97053120f5f28dcd634fd2047fed0abd2dd57
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239256"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573393"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Microsoft 팀에서 QoS를 구현 하 고 통화 품질을 모니터링
 

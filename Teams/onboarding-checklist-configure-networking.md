@@ -11,17 +11,14 @@ audience: admin
 description: 팀을 위해 네트워크를 구성할 때이 검사 목록의 핵심, 할 일 작업 및 활동을 따릅니다.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a9a8c6eb4c015a1fc86f35fac72117766cab326
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6cf45acd7053864dbb92e58444cdcc4b162cec9b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239110"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573342"
 ---
 # <a name="configure-networking"></a>네트워킹 구성
 

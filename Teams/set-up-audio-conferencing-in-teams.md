@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '휴대폰을 사용 하 여 전화 회의에 참가 해야 하는 사용자에 대해 전화 접속 또는 오디오 회의를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 5bf9a4ba1928bd8532a0f97fcb899745ffb65d13
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: 3b9b0b3f7a684c8db5b7b3d8a326750ed12f2bff
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "36184154"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571263"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft 팀을 위한 오디오 회의 설정
 
@@ -113,7 +113,7 @@ ms.locfileid: "36184154"
 ![Microsoft](media/teams-logo-30x30.png) **팀 관리 센터를 사용 하 여**microsoft 팀 로고를 표시 하는 아이콘:
 
 1. 대시보드에서 **사용자**를 클릭 하 고 목록에서 사용자를 선택한 다음 **편집**을 선택 합니다.
-2. **오디오 회의**옆에 있는 **편집** 을 선택 하 고 **오디오 회의** 창의 **유료 번호** 및 무료 번호 목록에서 번호를 선택 **** 합니다.
+2. **오디오 회의**옆에 있는 **편집** 을 선택 하 고 **오디오 회의** 창의 **유료 번호** 및 무료 번호 목록 **에서 번호를** 선택 합니다.
 
 자세한 내용은 [Microsoft를 오디오 회의 공급자로 지정](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)을 참조 하세요.
 

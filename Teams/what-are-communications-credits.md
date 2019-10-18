@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '통신 크레딧 (PSTN 소비) 청구, 요금을 확인 하는 방법, 제공 되는 서비스에 대해 알아봅니다. '
-ms.openlocfilehash: 18762b51fc44ed1bc3f63a0e815528174e4afd8a
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 284c4b04ad1652b7a9ab3cb5d6d9bcb2f0902550
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493084"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568578"
 ---
 # <a name="what-are-communications-credits"></a>통신 크레딧 이란 무엇 인가요?
 

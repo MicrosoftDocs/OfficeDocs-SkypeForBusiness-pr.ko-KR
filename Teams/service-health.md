@@ -9,18 +9,17 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 description: 팀 서비스는 정상 상태이 고 Exchange, SharePoint, 비즈니스용 OneDrive 등의 기타 Office 365 구성 요소를 확인 하는 것이 좋습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 975a004908f0db780fdcee1bccc5fcb3fb685676
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 27eefe990ceb1ccad42779cf99cc0d921eea5618
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243153"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571601"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Microsoft 팀의 서비스 상태 확인
 ===========================================

@@ -11,21 +11,21 @@ search.appverid: MET150
 description: 보고서를 실행 하 여 조직의 활성 StaffHub 사용자 목록을 가져오는 방법을 알아봅니다.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb337fdb79c0977f4bcacd782d6705947b5b8466
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 49091f7d8ada565adea61bf8219c6da828358893
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235389"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569666"
 ---
 # <a name="run-a-report-to-show-active-staffhub-usage"></a>보고서를 실행 하 여 활성 StaffHub 사용 현황 표시
 
 > [!IMPORTANT]
-> 2019 년 10 월 1 일에 유효 합니다. Microsoft StaffHub는 곧 종료 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다. StaffHub는 2019 년 10 월 1 일에 모든 사용자의 작동이 중지 됩니다. StaffHub를 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 자세한 내용은 [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)을 사용 중지 하세요.  
+> 2019 년 12 월 31 일에 효력을 StaffHub Microsoft는 곧 만료 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다. StaffHub는 2019 년 12 월 31 일에 모든 사용자의 작동이 중지 됩니다. StaffHub를 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다. 자세한 내용은 [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)을 사용 중지 하세요.  
 
 이 문서의 단계를 사용 하 여 보고서를 실행 하 여 조직의 활성 StaffHub 사용자 목록을 가져옵니다. 이 정보는 [StaffHub 팀을 Microsoft 팀으로 이동할](move-staffhub-teams-to-shifts-in-teams.md)준비를 할 때 유용 합니다. StaffHub에서 팀으로 전환할 때, 보고서에서 통신에 포함 해야 하는 사람을 알 수 있습니다.
 

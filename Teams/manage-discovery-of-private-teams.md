@@ -10,18 +10,17 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: 팀 갤러리 및 검색 결과의 제안에 따라 Microsoft 팀 사용자가 개인 팀을 검색할 수 있는지 여부를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0c75d0e08290b12cf658b2a84eef609e2d15dc86
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: b60c06299f779ebe798db1ff3df465f1683508ed
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "36184730"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572003"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Microsoft 팀에서 비공개 팀의 검색 관리
 

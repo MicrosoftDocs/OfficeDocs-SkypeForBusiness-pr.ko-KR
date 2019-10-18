@@ -9,15 +9,16 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 ms.assetid: ''
 description: Microsoft 팀 대화방에 대 한 Windows 업데이트 관리
-ms.openlocfilehash: 15e71446e6c0e15630125fb0e0169141f74f5cd0
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: d1de433ae68630073ac5310bb55f0ada34b366d3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775153"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573520"
 ---
 # <a name="manage-windows-updates"></a>Windows 업데이트 관리
 

@@ -8,7 +8,8 @@ ms.topic: conceptual
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: Reporting
 description: Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드에서 사용 하는 차원과 측정값에 대 한 자세한 정보를 확인 하세요.
-ms.openlocfilehash: 7683ebdf4743db1ad8798817c24fe926bd959815
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 6dcbf7b415e2c337968e5c2c3af09efcb02be0a5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328409"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572259"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>통화 품질 대시보드에서 사용할 수 있는 크기 및 측정
 
@@ -392,8 +393,7 @@ CQD의 여러 차원과 측정값에는 첫 또는 초로 레이블이 지정 �
 | 첫 번째 끝점 제품 이름|문자열|첫 번째 끝점의 제품 이름입니다 (비즈니스용 Skype 또는 Microsoft 팀).|
 | 두 번째 끝점 제품 이름|문자열|두 번째 끝점의 제품 이름입니다 (비즈니스용 Skype 또는 Microsoft 팀).|
 | 첫 번째 UserType|열거 문자열|첫 번째 끝점의 사용자 형식입니다. <br/> **사용할 수 있는 값:** 사용자, 서버, 익명, 응용 프로그램, PSTN, 보이스 메일, 알 수 없음 <br/> <br/>**알 수 없음** -받은 정보에 따라 UserType를 결정할 수 없는 경우의 기본값입니다. <br/>**Pstn** -pstn 사용자. <br/>**익명** -팀 사용자 또는 비즈니스용 Skype 방문자. <br/>**Application** -a 봇. <br/>**사용자** -AAD 사용자는 비즈니스용 Skype 사용자 또는 팀 사용자 중 하나일 수 있습니다. <br/>**서버** -회의가 있으면 적어도 한 면은 서버입니다. <br/>보이스 **메일** -음성 메일 서비스에서 끝점에 응답 했습니다.||
-| 두 번째 UserType|열거 문자열|두 번째 끝점의 사용자 형식입니다. <br/> **사용할 수 있는 값:** 사용자, 서버, 익명, 응용 프로그램, PSTN, 보이스 메일, 알 수 없음 <br/> <br/>**알 수 없음** -받은 정보에 따라 UserType를 결정할 수 없는 경우의 기본값입니다. <br/>**Pstn** -pstn 사용자. <br/>**익명** -팀 사용자 또는 비즈니스용 Skype 방문자. <br/>**Application** -a 봇. <br/>**사용자** -AAD 사용자는 비즈니스용 Skype 사용자 또는 팀 사용자 중 하나일 수 있습니다. <br/>**서버** -회의가 있으면 적어도 한 면은 서버입니다.
-<br/>보이스 **메일** -보이스 메일 서비스에서 끝점에 응답 했습니다.||
+| 두 번째 UserType|열거 문자열|두 번째 끝점의 사용자 형식입니다. <br/> **사용할 수 있는 값:** 사용자, 서버, 익명, 응용 프로그램, PSTN, 보이스 메일, 알 수 없음 <br/> <br/>**알 수 없음** -받은 정보에 따라 UserType를 결정할 수 없는 경우의 기본값입니다. <br/>**Pstn** -pstn 사용자. <br/>**익명** -팀 사용자 또는 비즈니스용 Skype 방문자. <br/>**Application** -a 봇. <br/>**사용자** -AAD 사용자는 비즈니스용 Skype 사용자 또는 팀 사용자 중 하나일 수 있습니다. <br/>**서버** -회의가 있으면 적어도 한 면은 서버입니다. <br/>보이스 **메일** -보이스 메일 서비스에서 끝점에 응답 했습니다.||
 |**Datapair**|||
 | 네트워크 연결 세부 정보 쌍  | 열거 쌍 <br/>**사용할 수 있는 값:** <br/> wifi: wifi <br/> wifi: 유선 <br/> 유선: wifi <br/> 유선: 유선 <br/> MobileBB : MobileBB <br/> MobileBB: 기타 <br/> MobileBB: 터널 <br/> MobileBB: wifi <br/> MobileBB: 유선 <br/> 기타: 다른 <br/> 기타: wifi <br/> 기타: 유선 <br/> 터널: 터널 <br/> 터널: wifi <br/> 터널: 유선 <br/> : MobileBB <br/> : 기타 <br/> : 터널 <br/> : wifi <br/> : 유선 <br/> :  | 첫 번째와 두 번째 끝점에 대 한 네트워크 연결 세부 정보 쌍입니다.  | &bull;끝점 네트워크 연결 형식을 알 수 없습니다. 통화를 설정할 수 없는 경우이 문제가 발생할 수 있습니다.   |
 | 사용자 에이전트 범주 쌍  | 열거 쌍  | 첫 번째와 두 번째 끝점에 대 한 사용자 에이전트 범주 쌍입니다. <br/> **예제 값:** AV-MCU: OC  | &bull;끝점 사용자 에이전트는 알려진 형식이 아닙니다.  |

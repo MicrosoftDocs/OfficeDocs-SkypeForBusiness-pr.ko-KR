@@ -11,18 +11,17 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 조직에 보유 된 팀의 live 이벤트에 대 한 설정을 관리 하는 방법에 대해 알아봅니다.
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a1d60ce0e8796d038c6ea8890066c1aee5f0ec6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bb2b0f6c29af383061877562e8e6762965937f5f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243705"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570193"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 설정 구성
 
@@ -30,7 +29,7 @@ ms.locfileid: "36243705"
 
 Microsoft 팀 관리 센터에서 이러한 설정을 쉽게 관리할 수 있습니다. 왼쪽 탐색 창에서 **모임** > **라이브 이벤트 설정**으로 이동 합니다. 
 
-![팀의 라이브 이벤트 설정 스크린샷] (../media/teams-live-events-settings.png "Microsoft 팀 관리 센터에서 구성할 수 있는 팀 live 이벤트 설정 스크린샷") 
+![팀의 라이브 이벤트 설정 스크린샷](../media/teams-live-events-settings.png "Microsoft 팀 관리 센터에서 구성할 수 있는 팀 live 이벤트 설정 스크린샷") 
 
 ## <a name="set-up-event-support-url"></a>이벤트 지원 URL 설정
 
@@ -41,7 +40,7 @@ Microsoft 팀 관리 센터에서 이러한 설정을 쉽게 관리할 수 있�
 1. 왼쪽 탐색 창에서 **모임** > **라이브 이벤트 설정**으로 이동 합니다.
 2. **지원 url**에서 조직의 지원 url을 입력 합니다. 
 
-    ![관리 센터에서 라이브 이벤트에 대 한 URL 설정 지원] (../media/teams-live-events-settings-supporturl.png "팀 라이브 이벤트에 대 한 지원 URL 설정") 스크린샷
+    ![관리 센터에서 라이브 이벤트에 대 한 URL 설정 지원](../media/teams-live-events-settings-supporturl.png "팀 라이브 이벤트에 대 한 지원 URL 설정 스크린샷")
 
 ### <a name="using-windows-powershell"></a>Windows PowerShell 사용
 다음을 실행 합니다.
@@ -58,7 +57,7 @@ Microsoft 비디오 배달 파트너를 통해 SDN (소프트웨어 정의 네�
 1. 왼쪽 탐색 창에서 **모임** > **라이브 이벤트 설정**으로 이동 합니다.
 2. **타사 비디오 배포 공급자**아래에서 다음을 수행 합니다. 
 
-    ![관리 센터의 타사 영상 배포 공급자 설정] (../media/teams-live-events-settings-distribution-provider.png "라이브 이벤트의 타사 비디오 배포 공급자 설정 스크린샷")
+    ![관리 센터의 타사 영상 배포 공급자 설정](../media/teams-live-events-settings-distribution-provider.png "라이브 이벤트의 타사 비디오 배포 공급자 설정 스크린샷")
 
     - **타사 배포 공급자 사용** 타사 비디오 배포 공급자를 사용 하도록 설정 합니다.
     - **SDN 공급자 이름** 사용 중인 공급자를 선택 합니다.

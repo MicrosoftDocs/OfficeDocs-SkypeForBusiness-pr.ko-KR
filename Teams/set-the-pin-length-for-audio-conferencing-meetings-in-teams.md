@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: PIN의 길이 및 요구 사항에 대 한 매개 변수를 알아보고 Microsoft 팀에서 모임의 길이를 설정 하는 방법을 살펴봅니다.
-ms.openlocfilehash: 938e8096cf39c482a2de9f143174e6c261c652d8
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 50c6ffe31e673dc7573ebb27f0eeb2ca78a30918
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "36183440"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571274"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Microsoft 팀에서 오디오 회의 모임에 대 한 PIN 길이 설정
 

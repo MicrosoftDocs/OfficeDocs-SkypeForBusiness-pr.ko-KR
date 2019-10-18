@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 스페인에서 Microsoft 팀을 위한 전화 번호를 받고 관리 하는 방법에 대 한 정보를 확인 하세요.
-ms.openlocfilehash: 40c8400ba90505a9d7287e933ca1bc9f59476f71
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 2b9d3ffd046d58131ebf1cae91ad45482a45fe0a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "36184517"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571970"
 ---
 # <a name="phone-number-management-for-spain"></a>스페인 용 전화 번호 관리
 

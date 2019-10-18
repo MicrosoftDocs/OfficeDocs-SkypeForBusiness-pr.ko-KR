@@ -14,16 +14,15 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.coexistence
 - ms.teamsadmincenter.teamsupgrade.overview
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33a56cb9844a9c40da41d411e537f7cedb2bf2a5
-ms.sourcegitcommit: 61deca3fd35142d210ab8307c21a576b3301ec84
+ms.openlocfilehash: 87fc1401087292e8acd624e0917ead2b7998a2fd
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "37553774"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573404"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>비즈니스용 Skype로 팀을 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침
 

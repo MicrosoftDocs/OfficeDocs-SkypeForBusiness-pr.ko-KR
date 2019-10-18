@@ -12,16 +12,15 @@ description: 공용 그룹과 개인 그룹 선택, 팀 클라이언트 또는 O
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b23525181de02cfe8498aa68db5c6c34e9feaded
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 741ed07971d4db69e8cd05581082f0b041cc2ac7
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237799"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573303"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Microsoft 팀에서 팀을 만들 때 발생 하는 Office 365 그룹에 대 한 계획
 ==========================================================

@@ -11,17 +11,14 @@ ms.reviewer: lolaj, rowille
 description: 조직에서 Microsoft 팀을 시작 하는 데 도움이 되는 계획 도구, 워크샵, 시작 키트를 참조 하세요.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa67b6f788edfabb361b7390ce460f4af812d305
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 71e864364c089b149f0351570fd673a0bf24068e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237645"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573234"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>도구 및 워크샵: Microsoft 팀 계획, 제공 및 채택
 
@@ -50,5 +47,11 @@ ms.locfileid: "36237645"
 [IT 관리자가 팀에 대해 준비](ITAdmin-readiness.md)
 
 [채택을 위한 도구](adopt-tools-and-downloads.md)
+
+[비즈니스용 Skype에서 팀으로 업그레이드 계획 워크숍](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+
+[온-프레미스에서 팀으로 사용자 이동](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+
+[조직의 Microsoft 팀 설정 관리](enable-features-office-365.md)
 
 

@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -19,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 Microsoft 팀의 오스트레일리아에서 전화 번호를 받고 관리 하는 방법에 대 한 정보를 확인 하세요.
-ms.openlocfilehash: 48858b16694c6129b87847bb4d93c513b63e5f4d
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: f8576f383937a9e8889a660619d169cd657d8de7
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184679"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573165"
 ---
 # <a name="phone-number-management-for-australia"></a>오스트레일리아 용 전화 번호 관리
 오스트레일리아에서는 Telstra와 제휴 하 여, 오스트레일리아에 청구 주소가 있는 고객에 대 한 통화 요금제를 구매 하 고 제공 합니다. Telstra는 통화 요금제를 판매 하 고, 호주 사용자 번호를 제공 하 고, 자동 전화 교환 및 통화 대기열에 대 한 사용자 및 서비스 번호에 대 한 전화 번호 관리 지원을 제공 합니다. 그러나 오디오 회의에 대 한 서비스 번호와 라이선스는 계속 해 서 판매 되 고 Office 365에 의해 관리 됩니다.

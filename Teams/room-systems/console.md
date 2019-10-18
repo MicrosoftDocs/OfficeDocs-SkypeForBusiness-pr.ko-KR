@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 이 문서에서는 Microsoft 팀 회의실 콘솔과 주변 장치를 설정 하는 방법을 설명 합니다.
-ms.openlocfilehash: 820921cdcf35f4c4072dae3b2029527b98454dc5
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: f42f89d25a58ce96308318cc732e85f7080b86e5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493057"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569910"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft 팀 대화방 콘솔 구성
 

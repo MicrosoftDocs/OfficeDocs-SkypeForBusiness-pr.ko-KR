@@ -12,19 +12,18 @@ description: 네트워크 Planner를 사용 하 여 Microsoft 팀의 네트워�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.networkplanner.overview
 - ms.teamsadmincenter.networkplanner.personas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69de49397baab5e1a9dc037799aa3ac5ba4f6421
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 2920f33417fa640b99a408441be6d3f49c3f078d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484051"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573368"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft 팀을 위한 네트워크 Planner 사용
 
@@ -90,7 +89,7 @@ ms.locfileid: "36484051"
 
 모든 사이트를 추가한 후 다음과 같이 보고서를 만들 수 있습니다.
 
-1. 보고서 탭 **** 에서 **보고서 시작**을 클릭 합니다.
+1. **보고서 탭에서** **보고서 시작**을 클릭 합니다.
 
 2. 만드는 각 사이트에 대해 사용 가능한 가상 사용자 수를 분산 합니다. Microsoft 권장 가상 사용자를 사용 하는 경우 번호가 자동으로 배포 됩니다 (80% office worker 및 20% 원격 작업자).
 

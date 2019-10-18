@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '전화 시스템에서 수행할 수 있는 작업에 대해 알아봅니다. '
-ms.openlocfilehash: 94fcff8e694eaee7bb57963519f67307f6754644
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: d6bc3d8265059520e3f8448f800de91331e26e01
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447925"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568534"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365의 전화 시스템 이란?
 

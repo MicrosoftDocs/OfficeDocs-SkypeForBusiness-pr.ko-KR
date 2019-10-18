@@ -11,17 +11,14 @@ audience: admin
 description: 팀 또는 비즈니스용 Skype에서 클라우드 음성 기능을 구현할 때 서식 파일을 사용 하 여 전자 메일을 사용자에 게 보냅니다.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a1885b04766ed5c6da271becc2beb58a7d45ca0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f5793678df25f353b2400719fa8d64c3a0acd78
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237465"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573231"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>새 온라인 휴대폰 시스템의 사용자 채택을 활용 하세요.
 

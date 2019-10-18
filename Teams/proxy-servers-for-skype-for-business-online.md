@@ -9,7 +9,8 @@ ms.assetid: 7acaf2c2-35fa-490f-84cd-822e446e0fc7
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: M365-collaboration
+ms.collection:
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 이 문서에서는 팀 또는 비즈니스용 Skype에 프록시 서버를 사용 하는 방법에 대 한 정보를 제공 합니다.
-ms.openlocfilehash: e0733393a40c2d2c2fd62d986a4b4d66d0c2c35f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b06e7aa43dcbcf5aeab9011af72d94460f69cc63
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182447"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573209"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>팀 또는 비즈니스용 Skype Online 용 프록시 서버
 

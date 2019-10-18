@@ -11,17 +11,14 @@ audience: admin
 description: 배포 목표를 식별 하 고 진행 상황을 추적 하며 차단 제거를 위해 주요 관련자 및 프로젝트 리더의 관리 그룹을 식별 합니다.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4f264195a6c378f3724d99677f108abf631fed8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 482779904ba49e945f6b071b3be17fe0a6f290dd
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232866"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570410"
 ---
 # <a name="steering-committee"></a>조종 위원회
 

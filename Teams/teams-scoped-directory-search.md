@@ -12,18 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 description: Microsoft 팀 범위 디렉터리 검색을 사용 하 여 디렉터리의 사용자 지정 된 보기를 제공 하는 방법에 대해 알아봅니다.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4966c2ac6071f0796efeb59248ed3eeacae69a7
-ms.sourcegitcommit: e5a9f276ace283b415f0abd4da6d27433a3d7d3b
+ms.openlocfilehash: 094d83f8f6b21fc5e820235b91fa14820f6b407e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "37495286"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570116"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft 팀 범위 디렉터리 검색 사용
 

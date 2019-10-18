@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: 상태 대시보드를 사용 하 여 세션 경계 컨트롤러와 직접 라우팅 간의 연결을 모니터링 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b6ec0c04200fac018b721bfe6c94f8d9bd969a2f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0424f24e323928f487e8b43ce72e51602f9eab52
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237495"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572204"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>직접 라우팅에 대 한 상태 대시보드
 
@@ -52,7 +51,7 @@ Microsoft 팀 및 비즈니스용 Skype 관리 센터에서 상태 대시보드�
   
    사용 하는 동작은 영향을 받는 호출 수에 따라 달라질 수 있으므로 상태 대시보드에는 매개 변수를 계산 하기 위해 분석 된 호출 수가 표시 됩니다. 통화 수가 100 보다 작은 경우 NER는 매우 낮을 수 있지만 여전히 정상입니다. 
 
-   NER를 계산 하는 데 사용 되는 수식은 다음과 같습니다.
+   NER 계산에 사용 되는 수식은 다음과 같습니다.
 
    NER = 응답 하는 통화 + 사용자 사용 중 + 링 응답 없음 + 터미널 거부 발작 x 100
 
@@ -107,7 +106,7 @@ Microsoft 팀 및 비즈니스용 Skype 관리 센터에서 상태 대시보드�
 
    - 패킷 손실 – 도착 하지 못한 패킷의 척도입니다. 두 끝점 간에 계산 됩니다.
 
-   - Latancy-(라운드트립 시간이 라고도 함)은 신호가 전송 되는 데 걸리는 시간과 해당 신호를 받을 때 걸리는 시간을 합한 시간입니다. 이 시간 지연은 신호의 두 점 사이의 전파 시간으로 구성 됩니다.
+   - 지연 (라운드트립 시간이 라고도 함)은 신호가 전송 되는 데 걸리는 시간과 해당 신호를 수신 하는 데 걸리는 시간을 합한 값입니다. 이 시간 지연은 신호의 두 점 사이의 전파 시간으로 구성 됩니다.
 
    일 수 및 통화 방향 (인바운드/아웃 바운드/모든 스트림)으로 데이터를 밀어 삽입할 수 있습니다.
 

@@ -10,8 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Microsoft 팀 관리 센터를 사용 하 여 조직의 모든 전화 번호 목록과 사용자에 게 할당 되거나 지정 되지 않은 모든 번호를 확인 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c167902c1f012f48ddcdbea00d4219b264f7b3e6
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 9f2dc399e90e5992d05d4c63edf2e07471321d29
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "36184454"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571436"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>조직의 전화 번호 목록 보기
 

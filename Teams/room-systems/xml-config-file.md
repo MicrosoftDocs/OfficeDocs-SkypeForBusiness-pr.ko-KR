@@ -10,14 +10,15 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: 이 문서에서는 사용자 지정 테마 적용을 포함 하 여 Microsoft 팀 대화방 장치에서 사용 하는 기본 설정의 원격 관리에 대해 설명 합니다.
-ms.openlocfilehash: 916eca45a39e7bf0dfe6a35b5985832ef5d580f5
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774916"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573465"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리
 
@@ -131,7 +132,7 @@ ms.locfileid: "36774916"
 
 사용자 지정 테마 이미지 파일은`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` 폴더에 배치 해야 합니다. \<CustomThemeImageUrl\> 변수에 파일 이름과 확장명을 입력 합니다.
   
-이미지 파일은 정확히 3840X1080 픽셀 이어야 하 고 jpg, jpeg, png, bmp 파일 형식 중 하나 여야 합니다. 조직에서 사용자 지정 이미지를 원하는 경우 그래픽 디자이너는 [사용자 지정 테마 Photoshop 서식 파일](https://go.microsoft.com/fwlink/?linkid=870441)을 사용할 수 있습니다. 테마 이미지에 다양 한 요소를 배치 하는 위치와 콘솔 및 표시에 표시 되는 영역에 대 한 자세한 정보를 포함 합니다.
+이미지 파일은 정확히 3840X1080 픽셀 이어야 하 고 jpg, jpeg, png, bmp 파일 형식 중 하나 여야 합니다. 조직에서 사용자 지정 이미지를 원하는 경우 그래픽 디자이너는 [사용자 지정 테마 Photoshop 서식 파일](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)을 사용할 수 있습니다. 여기에는 다양 한 사용자 인터페이스 요소가 테마 이미지의 나머지 부분을 기준으로 하는 위치와 콘솔 및 표시에 표시 되는 영역에 대 한 자세한 내용이 포함 되어 있습니다.
   
 테마 이미지를 인식 하기 위해 장치 시작 시 XML 구성 파일을 업데이트 해야 합니다. 새 XML 파일을 처리 하 고 삭제 하면 해당 디렉터리에서 테마 그래픽 파일이 삭제 됩니다.
   

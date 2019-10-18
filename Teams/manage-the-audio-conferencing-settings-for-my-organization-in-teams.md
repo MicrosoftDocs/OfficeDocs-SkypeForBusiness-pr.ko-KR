@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '사용자와 다른 여러 전화 접속 회의 설정에 전화 접속 회의 라이선스 및 전화 회의 ID를 할당 하려면 Microsoft 팀의 단계를 참조 하세요. '
-ms.openlocfilehash: d5b3b616d8e3a42f5084d8de424c3fd557271b1d
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 7cb0e76771563305ce98445818c77364b0849845
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "36184937"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570578"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 오디오 회의 설정 관리
 
@@ -47,7 +46,7 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
 2. **Microsoft 365 관리 센터**의 왼쪽 탐색 창에서 **사용자** > **활성 사용자**로 이동한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
     
     > [!NOTE]
-    > 동시에 최대 20 명의 사용자에 게 라이선스를 할당 하는 경우 **보기 선택** 드롭다운을 사용 하 여 해당 옵션 중 하나를 선택 하거나 고유한 보기를 만들 수 있습니다. 그런 다음 **편집**을 **** 클릭 하 고 두 번 다음 라이선스를 선택 하 고 **제출을**클릭 합니다.  
+    > 동시에 최대 20 명의 사용자에 게 라이선스를 할당 하는 경우 **보기 선택** 드롭다운을 사용 하 여 해당 옵션 중 하나를 선택 하거나 고유한 보기를 만들 수 있습니다. 그런 다음 **편집**을 클릭 하 고 두 **번 다음 라이선스** 를 선택 하 고 **제출을**클릭 합니다.  
   
 3. 작업 창의 **제품 라이선스**에서 **편집**을 클릭 합니다. 
     

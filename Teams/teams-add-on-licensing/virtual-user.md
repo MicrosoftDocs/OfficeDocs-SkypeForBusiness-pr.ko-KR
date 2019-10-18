@@ -8,7 +8,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -18,12 +17,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 무료 가상 사용자 라이선스에 대해 알아보세요.
-ms.openlocfilehash: 96ea4ed71eac8c6b67e4fd4c7964591dcef1f635
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: ebf98f852610dd5acfea2bcd65daca7b7541b5aa
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435128"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571172"
 ---
 # <a name="phone-systemvirtual-user-license"></a>전화 시스템-가상 사용자 라이선스 
 

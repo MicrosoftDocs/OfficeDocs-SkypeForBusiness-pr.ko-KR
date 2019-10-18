@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 용 Office 365 서비스 및 이스라엘에서 사용할 수 있는 Microsoft 팀입니다.
-ms.openlocfilehash: fd09433ef0a07fc7e48b4f4589110be39aab6922
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 37d22b41bf29cc7e65255fdf024a05a5d243732d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36183050"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571717"
 ---
 # <a name="availability-in-israel"></a>이스라엘의 가용성
 

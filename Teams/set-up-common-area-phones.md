@@ -10,8 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '로비, 수신 지역 및 회의실에 대 한 공통 영역 전화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: a62399c1c7b7b27e35fdea1fc52b9531a1fa25cc
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: fa25de7484d8ac70e924e750c4e7633bfc160c04
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "36184172"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571596"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft 팀을 위한 공통 영역 전화 라이선스 설정
 > [!NOTE]
@@ -77,7 +75,7 @@ ms.locfileid: "36184172"
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>2 단계-휴대폰에 대 한 새 사용자 계정 만들기 및 라이선스 할당
 
-1. Microsoft 365 관리 센터에서 사용자 **** > **활성 사용자** > 가**사용자를 추가**하도록 이동 합니다.
+1. Microsoft 365 관리 센터에서 사용자 > **활성 사용자** > 가 사용자를**추가** **하도록 이동**합니다.
 
 2. 이름에 "Main"과 같은 사용자 이름을 입력 하 고 두 번째 이름에 대해 "수신"을 선택 합니다.
 

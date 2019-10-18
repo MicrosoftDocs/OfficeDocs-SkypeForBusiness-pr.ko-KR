@@ -11,17 +11,14 @@ audience: admin
 description: 팀에서 직접 라우팅을 구성할 때이 검사 목록의 핵심, 할 일 작업 및 활동을 따릅니다.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffb57ce19625c0e4b0cf51598fc2461393cef1e4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 61d23d2aa9aeef58a581233c07ed950b494531b6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239239"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573354"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>Microsoft 팀에서 직접 라우팅 구성
 

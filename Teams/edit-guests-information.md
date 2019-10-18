@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: 관리자가 Azure Active Directory 포털에서 게스트 사용자에 대 한 정보를 편집 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cddb34306e87c461aa9dca19e09347e18cb0ca13
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bd3f2a1fc4e4888731061db6aa251ad88a871496
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235380"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571441"
 ---
 <a name="edit-guest-user-information"></a>게스트 사용자 정보 편집
 ===========================

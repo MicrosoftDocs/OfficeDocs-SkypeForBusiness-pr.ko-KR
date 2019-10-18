@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 및 Microsoft 팀에서 보스니아 헤르체고비나으로 제공 되는 Office 365 서비스입니다.
-ms.openlocfilehash: 1d382c02249f39a42f7f61a70c7687367e0cbad4
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: f170b030acde7ccf07a39d47ae2e914935e1b225
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774483"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571098"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>보스니아 &amp; 헤르체고비나의 사용 가능 여부
 

@@ -9,14 +9,15 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.
-ms.openlocfilehash: 9bf1cfa76b9049f426dd2b54e77e9461127df092
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: d432d12b8f17f12e49ea0622ce3ec97cefb2e36a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435139"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573531"
 ---
 # <a name="release-notes"></a>릴리스 정보
 

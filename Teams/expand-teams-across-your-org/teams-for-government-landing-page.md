@@ -8,16 +8,17 @@ ms.author: v-lanac
 manager: serdars
 audience: admin
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 432c9db8e99375ff373755c172bdfa37e4dd65c1
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: ed301d7791dfffdb5da365d7131b5c114180e920
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767071"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569636"
 ---
 # <a name="teams-for-government"></a>정부용 팀
 

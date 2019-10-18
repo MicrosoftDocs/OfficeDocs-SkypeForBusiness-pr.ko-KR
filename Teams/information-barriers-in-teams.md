@@ -7,18 +7,19 @@ ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-collaboration
 search.appverid: MET150
 ms.reviewer: vikramju
 description: 정보 장벽 및 팀의 영향에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1238e0e4d015a9216523c96e981e3f37ad54c131
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bd9ac22a45d0e76e8f2d31c3d11be726148b3863
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245366"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572072"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 팀의 정보 장벽
 

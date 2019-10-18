@@ -9,7 +9,6 @@ ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 audience: Admin
@@ -22,12 +21,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft는 비즈니스용 Skype를 사용 하는 방법과 사용자에 게 문제가 발생 하는 방식을 이해 하기 위해 인구 조사, 사용, 오류 데이터를 수집 합니다. 데이터는 제품 개선을 계획 하는 데 사용 됩니다.
-ms.openlocfilehash: ff09801ca4810dcb92d778ca2ad3c85482accddd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d5e4e72ac06eb0638ed25dbf48321afd22b503ed
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240977"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571849"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>비즈니스용 Skype 및 Microsoft 팀 데이터 수집 방법
 

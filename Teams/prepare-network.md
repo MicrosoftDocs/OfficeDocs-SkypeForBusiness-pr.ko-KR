@@ -12,16 +12,15 @@ description: Microsoft 팀 네트워크를 준비 하 고 관리 하는 방법�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31c06403dc3dec9322e984e012fe597254db8f33
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a9013eb1048d022244166906edb1737b01757ed6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235506"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573225"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft 팀을 위한 조직의 네트워크 준비
 
@@ -36,8 +35,6 @@ ms.locfileid: "36235506"
 
 이는 두 가지 수준의 네트워크에 영향을 주고 피어 투 피어 시나리오에 대 한 트래픽이 Microsoft 팀 클라이언트 간에 직접 전달 되며, 트래픽은 Office 365 환경과 모임 시나리오에 대 한 Microsoft 팀 클라이언트 간에 전달 됩니다. 트래픽 흐름을 최적화 하려면 내부 네트워크 세그먼트 (예: WAN을 통해 사이트 간)와 네트워크 사이트와 Office 365 사이에 모두 흐름을 허용 해야 합니다. 올바른 포트를 열지 않거나 특정 포트를 능동적으로 차단 하면 성능이 저하 될 수 있습니다.
 
-> [!NOTE]
-> IOS 및 Android 모바일 장치에서 모임이 지원 됩니다. 
 
 Microsoft 팀 내에서 실시간 미디어를 사용 하 여 최적의 환경을 얻으려면 네트워크가 Office 365의 네트워킹 요구 사항을 충족 해야 합니다. 자세한 내용은 [비즈니스용 Skype Online의 미디어 품질과 네트워크 연결 성능을](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)참조 하세요.
 

@@ -14,15 +14,16 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c57ae4978e0cfacf69c9e68fb47d3f28ad5c4f4d
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 307edddf4dce8bd87f717fed6f3c33b11521fb7d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483751"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571893"
 ---
 # <a name="edit-microsoft-teams-user-settings-in-bulk"></a>대량으로 Microsoft 팀 사용자 설정 편집
 

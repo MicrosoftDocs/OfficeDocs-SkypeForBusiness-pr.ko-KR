@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,16 +21,16 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 국가 및 지역에 전화 접속 회의 번호와 자동으로 할당 되는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e5644ab613fec588a901691632d27ebf25e9e80a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d7de04be8fb02e12b97dc964cd0fe8e1c37c821d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182435"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573323"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft 팀에서 오디오 회의를 위한 전화 번호
 
-Microsoft 팀에 대 한 **오디오 회의** 를 설정 하는 경우 전화 접속 전화 번호가 조직에 자동으로 할당 됩니다. 오디오 회의 브리지에 지정 된 전화 번호를 보려면 Microsoft 팀 관리 센터에서 **모임** > **** 시작 페이지로 이동 합니다. 자세한 내용은 [오디오 회의 번호 목록 보기를 참조](see-a-list-of-audio-conferencing-numbers-in-teams.md)하세요.
+Microsoft 팀에 대 한 **오디오 회의** 를 설정 하는 경우 전화 접속 전화 번호가 조직에 자동으로 할당 됩니다. 오디오 회의 브리지에 지정 된 전화 번호를 보려면 Microsoft 팀 관리 센터에서 **모임** > 시작 페이지로 이동**합니다.** 자세한 내용은 [오디오 회의 번호 목록 보기를 참조](see-a-list-of-audio-conferencing-numbers-in-teams.md)하세요.
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>오디오 회의 적용 범위 및 가격
@@ -40,7 +39,7 @@ Microsoft 팀에 대 한 **오디오 회의** 를 설정 하는 경우 전화 �
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>모임 초대의 전화 접속 전화 번호
 
-Microsoft 팀 사용자가 Outlook 또는 Outlook Web App에서 모임을 예약할 때 사용자에 대해 설정 된 기본 오디오 회의 번호가 모임 초대에 포함 됩니다. 한 명 이상의 사용자에 대해 다른 기본 번호를 선택 하려는 경우 사용자로 이동한 다음 사용자를 선택 하 고 **** 사용자의 오디오 회의 설정을 편집 하 여 변경할 수 있습니다. [초대에 포함 된 전화 번호 설정을](set-the-phone-numbers-included-on-invites-in-teams.md)참조 하세요.
+Microsoft 팀 사용자가 Outlook 또는 Outlook Web App에서 모임을 예약할 때 사용자에 대해 설정 된 기본 오디오 회의 번호가 모임 초대에 포함 됩니다. 한 명 이상의 사용자에 대해 다른 기본 번호를 선택 하려는 경우 **사용자로 이동한 다음 사용자를 선택**하 고 사용자의 오디오 회의 설정을 편집 하 여 변경할 수 있습니다. [초대에 포함 된 전화 번호 설정을](set-the-phone-numbers-included-on-invites-in-teams.md)참조 하세요.
   
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>오디오 회의 브리지에 설정 된 전화 접속 전화 번호

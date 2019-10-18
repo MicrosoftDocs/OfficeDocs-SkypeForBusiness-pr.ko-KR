@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: 비즈니스용 Skype Online 및 팀 구성 관점에서 직접 라우팅하기 위해 마이그레이션하는 데 필요한 사항에 대해 알아보세요.
-ms.openlocfilehash: 49980a0364e729fc41e6fe716de336a8a28f85bb
-ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
+ms.openlocfilehash: 9fb644c938c61fd9dd1c78362ad90bfe855e97ec
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "36184850"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572182"
 ---
 # <a name="migrate-to-direct-routing"></a>직접 라우팅으로 마이그레이션
 
@@ -49,15 +48,12 @@ OnPremLineURI |해당 없음|전화 번호는 온-프레미스 광고와 동기�
 |HostedVoiceMailPolicy |BusinessVoice|BusinessVoice|BusinessVoice|BusinessVoice|
 |VoiceRoutingPolicy|값이 있음|값이 있음|값이 있음|해당 없음|
 |OnlineVoiceRoutingPolicy|$Null|$Null|$Null|값이 있음|
-|TeamsUpgradePolicy<sup>1</sup>|TeamsOnly, SfBOnly 또는 군도|$Null|$Null|섬 또는 팀만|
-|TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient – 아래 메모를 읽어 주십시오.|팀 또는 SfB |SfB|SfB|성과|
+|TeamsUpgradePolicy<sup>1</sup>|TeamsOnly, SfBOnly|$Null|$Null|TeamsOnly|
 |TeamsCallingPolicy</br>AllowPrivateCalling|False|해당 없음|해당 없음|False|
 |TeamsCallingPolicy</br>AllowGroupCalling|False|해당 없음|해당 없음|False|
 ||||||
 
 <sup>1</sup> TeamsUpgradePolicy의 오른쪽 모드 선택 시나리오에 따라 다릅니다. [비즈니스용 Skype와 함께 팀을 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침](migration-interop-guidance-for-teams-with-skype.md)에서 서로 다른 모드의 음성 환경에 대해 알아보세요.
-
-<sup>2</sup> 이전에 발표 된 것 처럼 TeamsInteropPolicy가 종료 되며 (Q3을 대상으로 지정 됨) 해당 기능이 TeamsUpgradePolicy에 통합 됩니다. Interop 및 마이그레이션은 현재 사용할 수 있는 TeamsUpgradePolicy에 의해 결정 된 대로 "공존 모드"를 사용 하 여 관리 됩니다. 사용자 모드를 선택 하면 들어오는 통화 및 채팅 라우팅과 사용자가 채팅을 시작 하 고 모임을 예약할 수 있는 클라이언트가 모두 제어 됩니다. TeamsInteropPolicy가 종료 되는 동안에도 phaseout 중에 TeamsUpgradePolicy를 사용 하 여 동시에 설정 해야 합니다.  
 
 이 작업의 일환으로 Microsoft는 최근에 "Microsoft 팀 관리 센터" (최신 포털이 라고도 함)를 업데이트 하 여 공존 모드에 따라 새로운 관리 모델을 반영 합니다. 최신 포털에서 이제 TeamsUpgradePolicy를 구성 하면 TeamsInteropPolicy 일관성 있는 값으로 설정 되므로 TeamsInteropPolicy는 더 이상 사용자 인터페이스에 표시 되지 않습니다. 그러나 PowerShell을 사용 하는 관리자는 적절 한 라우팅이 가능 하도록 TeamsUpgradePolicy 및 TeamsInteropPolicy를 함께 함께 설정 해야 합니다. TeamsUpgradePolicy에 대 한 전환이 완료 된 후에는 TeamsInteropPolicy도 설정 하는 데 더 이상 필요 하지 않습니다.
 

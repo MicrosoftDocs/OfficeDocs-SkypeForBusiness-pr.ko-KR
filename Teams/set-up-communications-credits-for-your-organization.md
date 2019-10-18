@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '사용자 및 조직에 대해 통신 크레딧 (PSTN 소비) 청구 라이선스를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: f19f51662a2a954b268a6c36f6c9dc0b4b90fdd8
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
+ms.openlocfilehash: f1eb46647facce3a849a249cac1b26b2bb9632c8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "36185081"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571585"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>조직의 통신 크레딧 설정
 
@@ -95,7 +94,7 @@ ms.locfileid: "36185081"
     
 3. 작업 창의 **제품 라이선스**에서 **편집**을 클릭 합니다.
     
-4. **제품 라이선스** 페이지에서이 라이선스를 할당 하도록 **통신 크레딧을** 설정/해제 한 다음 **** **저장**을 클릭 합니다.
+4. **제품 라이선스** 페이지에서이 **라이선스를 할당 하도록** **통신 크레딧을** 설정/해제 한 다음 **저장**을 클릭 합니다.
     
     > [!NOTE]
     > **Enterprise E5** 라이선스를 할당 받은 사용자가 있는 경우에도이 작업을 수행 하는 것이 좋습니다.

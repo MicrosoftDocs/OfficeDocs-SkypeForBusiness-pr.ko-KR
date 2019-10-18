@@ -10,15 +10,16 @@ audience: admin
 search.appverid: MET150
 description: 사용자가 오디오에 대 한 컴퓨터를 사용할 수 없는 경우에 휴대폰으로 오디오 부분에 참가할 수 있도록 팀에서 전화 걸기 기능을 설정 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54e9d90a3380358abd0c1e984b90834455eb44e2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8bd9ca9b73d3d2e60b707d0f40ebb1797d4e1a00
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243176"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571549"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>사용자에 게 전화 걸기 기능 설정
 
@@ -34,7 +35,7 @@ Microsoft 팀에서 전화 **걸기** 기능을 통해 사용자는 휴대폰으
 
 **팀 모임 통화 허용**
 
-**오디오 용 전화 사용** 화면에서 사용자가 전화 번호를 입력 한 다음 전화를 클릭 합니다 ****. 모임이 사용자에 게 전화를 걸고 모임에 참가 합니다.
+**오디오 용 전화 사용** 화면에서 사용자가 전화 번호를 입력 한 **다음 전화를 클릭 합니다.** 모임이 사용자에 게 전화를 걸고 모임에 참가 합니다.
 
 ![오디오 사용 화면의 전화 걸기 옵션 스크린샷](media/set-up-the-call-me-feature-for-your-users-call-me.png)
 
@@ -46,9 +47,9 @@ Microsoft 팀에서 전화 **걸기** 기능을 통해 사용자는 휴대폰으
 
 ### <a name="get-a-call-back-when-something-goes-wrong-with-audio-during-a-meeting"></a>모임 중 오디오에 문제가 있는 경우 다시 전화 받기
 
-사용자가 모임 중에 컴퓨터를 사용할 때 오디오 문제가 발생 하는 경우 사용자는 오디오를 사용 하 여 쉽게 전환할 수 있습니다. 팀은 오디오 또는 장치 문제가 발생 하는 경우를 감지 하 고 사용자에 게 콜백 옵션을 **** 표시 하 여 전화를 사용 하도록 리디렉션합니다.
+사용자가 모임 중에 컴퓨터를 사용할 때 오디오 문제가 발생 하는 경우 사용자는 오디오를 사용 하 여 쉽게 전환할 수 있습니다. 팀은 오디오 또는 장치 문제가 발생 하는 경우를 감지 하 고 사용자에 게 **콜백 옵션을** 표시 하 여 전화를 사용 하도록 리디렉션합니다.
 
-다음은 팀에서 마이크를 감지 하지 못하는 **** 경우 표시 되는 메시지 및 콜백 옵션의 예입니다.
+다음은 팀에서 마이크를 감지 하지 못하는 경우 표시 되는 메시지 및 **콜백 옵션의** 예입니다.
 
 ![콜백 옵션 스크린샷](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 

@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 새 로컬 번호 포트 주문 마법사를 사용할 때 계정을 변경할 수 있는 권한이 있는 사용자를 추가 해야 하는 이유를 알아보세요.
-ms.openlocfilehash: e77176b978cb33df2bc4efebae11fb218c3932a5
-ms.sourcegitcommit: 4bb900228cc55e0cbbce8c5b74b7de8df5a2288f
+ms.openlocfilehash: 833bb27aa34b16601485437be9e25e2e41c2bf4e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "36183560"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573382"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>전화 회선 ID 및 통화 파티 이름에 대 한 자세한 정보
 

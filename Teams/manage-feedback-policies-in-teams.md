@@ -10,18 +10,17 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 팀 사용자가 Microsoft에 팀에 대 한 피드백을 제출할 수 있는지 여부를 제어 하는 데 피드백 정책을 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: a181b0af6527e154997ef611be19b08ea026ffa4
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: e43cc46e16a17ad4f059398e99736d14fdee62ee
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715821"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570636"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft 팀에서 피드백 정책 관리
 
@@ -31,7 +30,7 @@ ms.locfileid: "36715821"
 
 **피드백 제공 기능**
 
-팀에 **** > **의견을 제공** 하기 위해 팀에 대 한 의견 및 제안을 사용자에 게 보낼 수 있습니다. **의견 제공** 을 통해 전송 되는 데이터는 "고객 데이터" 또는 "개인 데이터"로 간주 되는 정보를 포함 하 여 Office 365 계약에 "지원 데이터"로 간주 됩니다.
+팀에 > **의견을 제공** **하기 위해**팀에 대 한 의견 및 제안을 사용자에 게 보낼 수 있습니다. **의견 제공** 을 통해 전송 되는 데이터는 "고객 데이터" 또는 "개인 데이터"로 간주 되는 정보를 포함 하 여 Office 365 계약에 "지원 데이터"로 간주 됩니다.
 
 ![팀의 피드백 제공 옵션 스크린샷](media/manage-feedback-policies-in-teams-give-feedback.png)
 
@@ -58,7 +57,7 @@ ms.locfileid: "36715821"
 
 ## <a name="create-a-custom-feedback-policy"></a>사용자 지정 피드백 정책 만들기
 
-이 예제에서는 새 고용 피드백 정책 이라고 하는 피드백 정책을 만들고 피드백 및 설문 조사를 통해 피드백을 제공 하는 **** 기능을 해제 합니다.
+이 예제에서는 새 고용 피드백 정책 이라고 하는 피드백 정책을 만들고 피드백 및 설문 조사 **를 통해 피드백** 을 제공 하는 기능을 해제 합니다.
 
 ```
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled

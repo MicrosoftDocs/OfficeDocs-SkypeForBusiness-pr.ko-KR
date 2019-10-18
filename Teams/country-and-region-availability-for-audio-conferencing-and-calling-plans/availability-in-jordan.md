@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 요르단을 사용할 수 있는 비즈니스용 Skype 및 Microsoft 팀을 위한 Office 365 서비스입니다.
-ms.openlocfilehash: bd3da6716a4449722fadd1b227e96fbe3032cc1e
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 16233770f912b1b5254dca262331be092d955450
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775436"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571684"
 ---
 # <a name="availability-in-jordan"></a>요르단의 가용성
 

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 용 Office 365 서비스와 Microsoft 팀에서 라트비아 용으로 제공 되는 것입니다.
-ms.openlocfilehash: 3c3b933e7dcbbf8ceee8a3863cb9303720468ec0
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: d58ef8c99bf34fd7e2005e760e7127a836b875a9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775403"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571483"
 ---
 # <a name="availability-in-latvia"></a>라트비아의 사용 가능 여부
 

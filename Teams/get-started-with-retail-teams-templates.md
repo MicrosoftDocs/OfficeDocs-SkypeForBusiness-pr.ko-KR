@@ -9,7 +9,6 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 localization_priority: Normal
 search.appverid: MET150
 description: 팀 서식 파일을 사용 하 여 소매업 자의 요구 사항에 맞게 디자인 된 팀 구조를 만드는 방법을 알아봅니다.
@@ -17,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ef5647ba20b3fd9d3d4378182ea2e8b39b1487b
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 2688425d28d1118cc6fa3338e0724dfa92c3c88c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767104"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569611"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>정품에서 팀 서식 파일 시작 
 

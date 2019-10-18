@@ -15,16 +15,15 @@ f1keywords:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20a75acd23f818615630ff4f6ca9e1890ae87cc9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: efa2dfadc760d99f87d8d69137992712c90b32ef
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483533"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572557"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft 팀에서 QoS (서비스 품질) 구현
 
@@ -44,7 +43,7 @@ Qos 우선 순위를 지원 하지 않는 경로의 일부는 통화, 비디오,
 
 _그림 1. 조직의 네트워크와 Office 365 서비스 간의 관계_
 
-![네트워크와 서비스 간의 관계를 보여 주는 그림] (media/Qos-in-Teams-Image1.png "조직의 네트워크와 Office 365 서비스 간의 관계: 온-프레미스 네트워크 및 장치는 interconnect 네트워크로 연결 되며,이는 Office 365 클라우드 음성 및 오디오 회의 서비스와 연결 됩니다.")
+![네트워크와 서비스 간의 관계를 보여 주는 그림](media/Qos-in-Teams-Image1.png "조직의 네트워크와 Office 365 서비스 간의 관계: 온-프레미스 네트워크 및 장치는 interconnect 네트워크로 연결 되며,이는 Office 365 클라우드 음성 및 오디오 회의 서비스와 연결 됩니다.")
 
 대부분의 경우 엔터프라이즈를 클라우드에 연결 하는 네트워크는 관리 되지 않는 네트워크 이며, 이렇게 하면 안전 하 게 QoS 옵션을 설정할 수 없게 됩니다. 주소 종단 간 QoS에서 사용할 수 있는 한 가지 선택 사항은 [Azure express](https://azure.microsoft.com/documentation/articles/expressroute-introduction/)경로 이지만 인바운드 및 아웃 바운드 트래픽 모두에 대해 온-프레미스 네트워크에 QoS를 구현 하는 것이 좋습니다. 이렇게 하면 배포 전체에서 실시간 통신 작업의 품질을 높이고 chokepoints을 줄일 수 있습니다.
 
@@ -70,7 +69,7 @@ QoS를 구현할 때 몇 가지 혼잡 관리 기능 (예: Cisco의 우선 순�
 
 _그림 2. QoS 큐의 예_
 
-![QoS 큐 및 대역폭 디비전 그림] (media/Qos-in-Teams-Image2.png "사용할 수 있는 총 대역폭이 서로 다른 우선 순위를 할당 한 여러 큐 (오디오, 비디오 및 기타 트래픽) 간에 나뉘어 있습니다.")
+![QoS 큐 및 대역폭 디비전 그림](media/Qos-in-Teams-Image2.png "사용할 수 있는 총 대역폭이 서로 다른 우선 순위를 할당 한 여러 큐 (오디오, 비디오 및 기타 트래픽) 간에 나뉘어 있습니다.")
 
 간단한 비유는 QoS에서 데이터 네트워크에 가상 "carpool 레인"을 만들기 때문에 일부 데이터 형식에는 지연이 발생 하지 않을 수 있다는 것입니다. 이러한 레인을 만든 후에는 해당 하는 상대적 크기를 조정할 수 있으며, 사용자에 게 제공 되는 연결 대역폭을 더욱 효과적으로 관리 하는 동시에 조직에서 사용 하는 비즈니스에 대 한 환경을 유지 합니다.
 
@@ -187,7 +186,7 @@ QoS가 유효 하려면 그룹 정책 개체에서 설정한 DSCP 값이 통화�
 
     Source = = "192.168.137.201" 및 IPv4. DifferentiatedServicesField = = 0x2E
 
-    ![표시 필터 대화 상자의 스크린샷 필터] (media/Qos-in-Teams-Image4.png "적용할 필터가 표시 된 네트워크 모니터의 표시 필터 대화 상자")
+    ![표시 필터 대화 상자의 스크린샷 필터](media/Qos-in-Teams-Image4.png "적용할 필터가 표시 된 네트워크 모니터의 표시 필터 대화 상자")
 
 5. **적용** 을 선택 하 여 필터를 활성화 합니다.
 
@@ -195,7 +194,7 @@ QoS가 유효 하려면 그룹 정책 개체에서 설정한 DSCP 값이 통화�
 
 7. **프레임 세부 정보** 창에서 IPv4 목록 항목을 확장 하 고 **DSCP**로 시작 하는 줄의 끝에 있는 값을 확인 합니다.
 
-    ![프레임 세부 정보 대화 상자의 DSCP 설정을 보여 주는 스크린샷] (media/Qos-in-Teams-Image5.png "네트워크 모니터의 프레임 세부 정보 대화 상자에서 DSCP 설정을 강조 표시 합니다.")
+    ![프레임 세부 정보 대화 상자의 DSCP 설정을 보여 주는 스크린샷](media/Qos-in-Teams-Image5.png "네트워크 모니터의 프레임 세부 정보 대화 상자에서 DSCP 설정을 강조 표시 합니다.")
 
 이 예제에서는 DSCP 값이 46로 설정 됩니다. 사용 된 원본 포트는 50019 이며,이는 음성 작업 워크 이기 때문에이는 올바릅니다.
 

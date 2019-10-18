@@ -11,19 +11,21 @@ search.appverid: MET150
 description: 재무, 이벤트 기획, 판매 등 다양 한 요구 사항에 사용할 수 있는 다양 한 팀, 채널 및 앱에 대해 알아봅니다.
 localization_priority: Normal
 f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.msteamsfiles
+- ms.teamsadmincenter.dashboard.helparticle.teamsandchannels
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cab50101f23b9d687d744031c14412b5a65a5dad
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 604ea944d54e71e72d49505f111606beae5343ea
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237511"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570264"
 ---
 > [!NOTE]
 > 팀에서 채팅, 팀, 채널, & 앱을 이해 하려면 다음 정보를 검토 하세요. 그런 다음 팀 [의 채팅, 팀, 채널, & 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 으로 이동 하 여 팀이 출시 하는 중요 한 의사 결정 목록을 살펴봅니다.

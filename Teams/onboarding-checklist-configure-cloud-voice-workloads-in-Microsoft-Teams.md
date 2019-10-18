@@ -11,17 +11,14 @@ ms.reviewer: rowille
 description: 팀에서 클라우드 음성 작업을 구성 하는 경우이 검사 목록의 핵심, 할 일 작업 및 활동을 따릅니다.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c9dd5462b423dd9a609d721a8162444be1ef242
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f1379e5aa495d2f03d887036e960680474aab88b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239247"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573359"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>Microsoft 팀에서 클라우드 음성 작업 부하 구성
 

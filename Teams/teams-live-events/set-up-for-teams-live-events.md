@@ -11,18 +11,17 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 네트워크 준비, 라이선스 할당, 정책으로 라이브 이벤트 기능 설정 및 사용자 예약, 타사 배포 공급자 설정 등의 단계를 통해 팀에서 이벤트에 대 한 라이브를 설정 하는 방법에 대해 알아봅니다.
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 973e079cda665005dac55e466d444b09ecddb7da
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047074"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570160"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 설정
 
@@ -53,7 +52,7 @@ ms.locfileid: "37047074"
 
     조직의 요구 사항에 맞게 변경할 수 있는 설정은 다음과 같습니다.
 
-    ![Live 이벤트의 스크린샷 정책 설정](../media/teams-live-events-policies.png "Microsoft 팀 관리 센터에 있는 라이브 이벤트 정책 설정의 스크린샷") 
+    ![라이브 이벤트 정책 설정 스크린샷](../media/teams-live-events-policies.png "Microsoft 팀 관리 센터의 라이브 이벤트 정책 설정 스크린샷") 
 
 |설정  |설명  |
 |---------|---------|

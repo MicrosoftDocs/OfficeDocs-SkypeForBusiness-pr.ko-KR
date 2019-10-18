@@ -7,19 +7,18 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: annaray
 search.appverid: MET150
 description: 팀 데스크톱 클라이언트가 업데이트 되는 방법에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba6201d0f1b52b7ebfd869ad699c2eb06eb664d8
-ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
+ms.openlocfilehash: ace50cc0f9c59375c5a182cf18559b0a449db109
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37508803"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570259"
 ---
 # <a name="teams-update-process"></a>팀 업데이트 프로세스
 

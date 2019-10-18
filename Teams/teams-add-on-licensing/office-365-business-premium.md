@@ -8,7 +8,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -18,12 +17,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Office 365 Business Premium 요금제를 구입 하는 방법에 대 한 추가 기능 라이선스, 기능 및 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 08d9ce55088c83126a6a8d303b4a02d6aa385584
-ms.sourcegitcommit: c6a79bebbbd7c1a1f801f465092a64fb40720296
+ms.openlocfilehash: 6026c94a7c96f885fc108ec022ed3cc0cbfc9073
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37040739"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571329"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 

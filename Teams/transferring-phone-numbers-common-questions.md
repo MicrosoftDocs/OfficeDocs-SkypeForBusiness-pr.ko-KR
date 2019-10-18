@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 다음은 전화 번호를 팀으로 전송 하는 방법에 대 한 질문과 대답입니다. 답변을 검토 한 후에는 포트 주문을 만들어 전화 번호를 전송할 준비가 되어 있어야 합니다. 자세한 내용은 Office 365에 전화 번호 전송을 참조 하세요.
-ms.openlocfilehash: 4e4a908594f9efdd80094af58dfdde6bc1e58e90
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: a75112170454def65ebcfe333d5e05e2b0dbfa46
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "36184442"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571505"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>전화 번호 전송 일반적인 질문
 

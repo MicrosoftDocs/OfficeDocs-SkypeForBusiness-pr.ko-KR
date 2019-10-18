@@ -12,16 +12,15 @@ description: 교육에서 IT 관리자에 게 유용한 팀 리소스 목록입�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ec791d3e5d712f1e9a35b23e5e89112aeca8a12
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6eb86cd3679b6cd90b646add994760c4d41aa46d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243694"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569987"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>교육 관리자를 위한 Microsoft 팀 리소스
 ==============================================

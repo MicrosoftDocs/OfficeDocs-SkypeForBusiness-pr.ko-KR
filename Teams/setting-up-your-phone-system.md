@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '조직의 전화 시스템 (클라우드 PBX)을 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: e7d833e6170a442f9e97ff867e979bfd52700969
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: 429cedb3d8bad25982e4eacdaa82f82cacfc75ae
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645303"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571538"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>조직에서 전화 시스템 설정
 
@@ -269,7 +268,7 @@ Office 365에서 사용자의 전화 번호를 가져올 수 있을 뿐만 아�
 
 3. 작업 창의 **제품 라이선스**에서 **편집**을 클릭 합니다.
 
-4. **제품 라이선스** 페이지에서이 라이선스를 할당 하도록 **통신 크레딧을** 설정/해제 한 다음 **** **저장**을 클릭 합니다.
+4. **제품 라이선스** 페이지에서이 **라이선스를 할당 하도록** **통신 크레딧을** 설정/해제 한 다음 **저장**을 클릭 합니다.
 
     > [!NOTE]
     > **Enterprise E5** 라이선스를 할당 받은 사용자가 있는 경우에도이 작업을 수행 하는 것이 좋습니다.

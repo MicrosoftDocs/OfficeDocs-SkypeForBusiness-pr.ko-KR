@@ -11,16 +11,15 @@ description: Office 365 OneDrive 및 SharePoint Online 다중 지역에서 팀�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d81554517a42fd05b8f81097dc01f8dc72977c72
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: cf2fac5249f2267c7813c1ba12aade279da094f3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243834"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570237"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Office 365 OneDrive 및 SharePoint Online의 팀 환경에 대 한 복수 지역-지리적으로 지 활성화 된 테 넌 트
 ===========================================

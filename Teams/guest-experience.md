@@ -12,16 +12,16 @@ search.appverid: MET150
 description: 게스트 사용자가 사용할 수 있는 Microsoft 팀 기능에 대해 알아봅니다.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89150f3e4947ee43b013132ea73ae9d38ff14ea
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: e034c7fe8b9e0863bab257b735987ec15c65a3c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434894"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569541"
 ---
 <a name="what-the-guest-experience-is-like"></a>게스트 환경의 의미
 =================================
@@ -32,7 +32,7 @@ ms.locfileid: "37434894"
     
 모든 팀 멤버가 팀 소유자가 게스트를 추가 하 고 게스트 이름을 제공 한다는 것을 알리기 위해 채널 스레드에서 메시지가 표시 됩니다. 팀의 모든 사용자가 쉽게 게스트를 식별할 수 있습니다. 샘플 팀의 다음 스크린샷은 "이 팀에는 게스트"가 표시 되 고 각 게스트 이름 옆에 "(게스트)" 레이블이 표시 됨을 나타냅니다.
     
-![배너 알림 표시 게스트 사용자](media/guest-experience-image2.png "스크린샷에 대 한 마케팅 채널의 일부를 표시 하는 스크린샷에는 팀에 게스트와 게스트가 있는 사용자를 식별 하는 맨 위 배너의 알림이 나와 있습니다. 이름 옆에 word GUEST를 추가할 수 있습니다.")
+![게스트 사용자에 게 배너 알림을 보여 주는 스크린샷](media/guest-experience-image2.png "스크린샷은 Northwind 배너의 마케팅 채널 중 일부를 보여 주며,이는 팀에 게스트와 게스트 사용자가 자신의 이름 옆에 있는 word 게스트로 식별 되었음을 나타내는 알림입니다.")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>팀 구성원 및 게스트 기능 비교
 

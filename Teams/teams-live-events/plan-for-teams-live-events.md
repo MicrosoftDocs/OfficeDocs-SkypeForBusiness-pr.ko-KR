@@ -10,18 +10,17 @@ audience: admin
 ms.reviewer: sonua
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 description: Microsoft 팀에서 실시간 이벤트를 설정 하기 전에 고려해 야 할 사항에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a38fad067f71fff0221a5af2f842ed1e2574d54
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 736d6b8f2000f94806077e8f1739b28be248b136
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464560"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570182"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 계획
 
@@ -115,10 +114,10 @@ Office 365 라이선스는 인증 된 사용자로 라이브 이벤트에 참가
 - 아메리카
 - 유럽/아프리카
 - 아시아 태평양
-- 현지 캐나다로 이동
+- 현지 캐나다, 인도, 오스트레일리아, 일본, 영국으로 이동
 
 **제외 및 고려 사항**
-- **지역으로 이동:** 영국 및 기타 팀 지역 Go는 현재 지원 되지 않습니다.
+- **지역으로 이동:** 위에 나열 된 지역 또는 그 밖의 지역에서는 팀이 현재 지원 되지 않습니다.
 - **중국:** 중국에서는 Azure CDN에 액세스할 수 없으므로 이벤트 팀 구성원 및 참석자가 팀의 라이브 이벤트를 사용 하지 못할 수도 있습니다. 해결 방법은 고객의 회사 네트워크를 통해 CDN에 연결 된 클라이언트를 가져오는 회사 VPN 연결을 사용 하는 것입니다.
 
 ## <a name="next-steps"></a>다음 단계

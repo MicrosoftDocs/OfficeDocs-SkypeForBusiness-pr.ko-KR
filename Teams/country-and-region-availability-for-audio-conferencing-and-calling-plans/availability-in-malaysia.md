@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 Office for Business 용 Skype 및 Microsoft 팀이 말레이시아에 대해 사용할 수 있는 365 서비스입니다.
-ms.openlocfilehash: c9f04cd5fabc325466b4a8d128d87c974c1bb04d
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 0c02613e5ce974371f83b85e5b5a41806d2786d0
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182999"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571461"
 ---
 # <a name="availability-in-malaysia"></a>말레이시아의 가용성
 

@@ -11,17 +11,14 @@ audience: admin
 description: 팀을 구성할 때이 검사 목록의 핵심, 할 일 작업 및 활동을 따릅니다.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1ee5e3ab901cb5bc0fb35aee9dbc03e9b636621
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e6f0f3482258af46b049f22af73e0efe4bc463a6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239230"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573345"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Microsoft 팀 핵심 기능 구성
 

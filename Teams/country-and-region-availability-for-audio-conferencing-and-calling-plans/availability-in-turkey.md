@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 용 Office 365 서비스 및 Microsoft 팀을 터키에서 사용할 수 있는 경우입니다.
-ms.openlocfilehash: 3046d6faa53090c83eafb416e5082653169257bc
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 5480ed00ea21cc83ca36e029c8898d6f1ed3c71c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182759"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572292"
 ---
 # <a name="availability-in-turkey"></a>터키의 가용성
 

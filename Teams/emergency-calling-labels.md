@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Office 365에서 통화 요금제를 사용 하는 경우 응급 통화를 위해 이러한 레이블을 다운로드할 수 있습니다.
-ms.openlocfilehash: 0a8476fbe671b55136db371b5a83f778c3ba22c0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 408ee0224618be1f5701f0bd16b94d643849d2f9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182423"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571871"
 ---
 # <a name="emergency-calling-labels"></a>비상 전화 레이블
 

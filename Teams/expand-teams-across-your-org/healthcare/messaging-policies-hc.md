@@ -8,17 +8,19 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 의료 조직의 보안 메시지 시작 하기
-ms.openlocfilehash: 05a8454201601ebf4e2689f8399547c1af80c971
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 1b4048dc168de0c36c3c322cc9bb7d4e2d9c3958
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434953"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570339"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>의료 조직의 보안 메시지 시작 하기
 

@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '포트 주문 상태를 확인 하 고 해당 사용자가 수행할 수 있는 다양 한 작업에 대해 알아보세요. '
-ms.openlocfilehash: 8725f87fc1bb2afb6e035fca7e9dd3c34d2c8a60
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 34abd630740d654e640818270047d850f34efa2a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182429"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568523"
 ---
 # <a name="whats-the-status-of-my-port-orders-in-teams"></a>팀의 내 포트 주문은 어떤 상태 인가요?
 
