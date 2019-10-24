@@ -25,10 +25,10 @@ ms.custom:
 - LIL_Placement
 description: 'Skype for business 옵션에 대 한 통화 요금제 (PSTN 통화 요금제)와 조직의 라이선스를 얻는 방법에 대해 알아봅니다. '
 ms.openlocfilehash: 305416df22353743b891df6c7722bededaae0980
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37516750"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365에 대 한 통화 요금제

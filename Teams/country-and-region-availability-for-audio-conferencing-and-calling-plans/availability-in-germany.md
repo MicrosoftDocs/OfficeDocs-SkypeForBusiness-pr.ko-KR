@@ -25,10 +25,10 @@ ms.custom:
 - Calling Plans
 description: 다음은 비즈니스용 Skype 및 독일에서 사용할 수 있는 Microsoft 팀을 위한 Office 365 서비스입니다.
 ms.openlocfilehash: a10fc7e69f63842aa67ee208b1f27528debb956d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37569885"
 ---
 # <a name="availability-in-germany"></a>독일의 가용성

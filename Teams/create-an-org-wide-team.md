@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37516653"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft 팀에서 조직 전체 팀 만들기
@@ -27,7 +27,7 @@ ms.locfileid: "37516653"
 
 전역 관리자는 조직 전체의 모든 사용자를 가져오는 공용 팀을 쉽게 만들 수 있으며 사용자가 조직에 참가 하 고 나갈 때 Active Directory를 사용 하 여 구성원을 최신 상태로 유지 합니다. 전역 관리자만 조직 전체 팀을 만들 수 있으며 현재 조직 차원의 팀은 5000 사용자가 아닌 조직으로 제한 됩니다. 테 넌 트 당 조직 차원의 팀 5 개에 대 한 제한도 있습니다. 이러한 요구 사항을 충족 하는 경우 전역 관리자는 팀을 만들 때 **팀을 처음부터 새로** 만들기를 선택 하는 옵션으로 **Org wide** 를 표시 합니다. 
 
-조직 차원의(media/create-org-wide-team.png "팀을 만들기 위한") 조직 차원의 ![팀 스크린샷 만들기]옵션의 조직 전체 기능을 만드는 스크린샷
+![조직 차원의 팀을 만들기 위한 조직 차원의 옵션 스크린샷](media/create-org-wide-team.png "조직 차원의 팀을 만들기 위한 조직 차원의 옵션 스크린샷")
 
 조직 차원의 팀이 만들어지면 모든 전역 관리자가 팀 소유자로 추가 되 고 모든 활성 사용자가 팀 구성원으로 추가 됩니다. 라이선스가 없는 사용자도 팀에 추가 됩니다. 라이선스가 없는 사용자가 처음으로 팀에 로그인 할 때 사용자에 게 Microsoft 팀 상업용 클라우드 평가판 라이선스가 할당 됩니다. 평가판 라이선스에 대 한 자세한 내용은 [팀 상업용 클라우드 평가판 제공 관리](iw-trial-teams.md)를 참조 하세요. 
 

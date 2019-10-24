@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2ab70883c3ac98b6a67fe7f1685d161ffc7d5960
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37516741"
 ---
 <a name="videos-audio-conferencing-in-microsoft-teams"></a>비디오: Microsoft 팀의 오디오 회의

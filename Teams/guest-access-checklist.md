@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e7f019f2260b1e86b422f8b4238439fbd2f1607a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37569544"
 ---
 <a name="teams-guest-access-checklist"></a>팀 게스트 액세스 검사 목록

@@ -1,0 +1,10 @@
+---
+redirect_url: skype-for-business-online-reporting
+redirect_document_id: true
+ms.openlocfilehash: 37ad1c2cfbfe688b4dd24fe905fdceb2c373462c
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37642306"
+---

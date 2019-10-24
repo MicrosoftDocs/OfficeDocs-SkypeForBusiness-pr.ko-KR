@@ -19,10 +19,10 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessart
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 186c83b82c396a21fe0098a561bcd4db13370140
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37571576"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft 팀에 대 한 게스트 액세스 설정 또는 해제

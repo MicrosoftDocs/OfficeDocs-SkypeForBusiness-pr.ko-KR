@@ -15,10 +15,10 @@ ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: '요약: 비즈니스용 Skype 서버에서 Edge 서버의 시스템 요구 사항에 대해 알아보세요.'
 ms.openlocfilehash: 01a5cce8dd1ccb85d322b6c66615d022c8d6c2df
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36187809"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 Edge 서버 시스템 요구 사항
@@ -39,9 +39,9 @@ Edge를 성공적으로 배포 하기 위해 염두에 두어야 하는 구성 �
     
 - [들](system-requirements.md#Firewalls)
     
-- [디렉터](system-requirements.md#Directors) (선택 사항이 며 포함 된 경우 내부 네트워크에 위치 합니다.)
+- [디렉터](system-requirements.md#Directors) (이 항목은 선택 사항이 며 포함 된 경우 내부 네트워크에 위치 하 게 됩니다.)
     
-- [부하 분산 장치](system-requirements.md#LoadBalancers) (DNS 부하 분산 또는 HLB (하드웨어 부하 분산 장치)를 사용할 수 있지만, 단 Edge 서버의 경우이는 필요 하지 않습니다.)
+- [부하 분산 장치](system-requirements.md#LoadBalancers) (DNS 부하 분산 또는 HLB (하드웨어 부하 분산 장치)를 사용할 수 있지만 단 Edge 서버의 경우이는 필요 하지 않습니다.)
     
 다음 각 항목에 대해 자세히 알아보세요.
   
@@ -171,13 +171,13 @@ A/V Edge 서비스를 실행 하는 모든 Edge 서버에 대 한 요구 사항�
   
 - 포트 443에 대 한 역방향 프록시 게시 규칙에서 **정방향 호스트 헤더** 를 **True**로 설정 합니다. 이렇게 하면 원본 URL이 전달 됩니다.
     
-쿠키 기반 선호도 **** 가 필요한 배포의 경우:
+쿠키 기반 선호도 **가 필요한** 배포의 경우:
   
 - 포트 443에 대 한 역방향 프록시 게시 규칙에서 **정방향 호스트 헤더** 를 **True**로 설정 합니다. 이렇게 하면 원본 URL이 전달 됩니다.
     
 - 하드웨어 부하 분산 장치 쿠키는 httpOnly로 표시 **되지 않아야** 합니다.
     
-- 하드웨어 부하 분산 장치 쿠키 **** 에는 만료 시간이 없어야 합니다.
+- 하드웨어 부하 분산 장치 쿠키에는 만료 시간이 **없어야 합니다.**
     
 - 하드웨어 부하 분산 장치 쿠키는 **MS-WSMAN** (웹 서비스에서 예상 하는 값 이며 변경할 수 없음)로 명명 **되어야** 합니다.
     

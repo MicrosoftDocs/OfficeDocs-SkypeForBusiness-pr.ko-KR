@@ -19,10 +19,10 @@ ms.custom:
 - LIL_Placement
 description: 추가 기능 라이선스, 각 라이선스에 대해 얻을 수 있는 기능, 제품을 위해 구입 하는 방법, 기존 통신 회사를 사용 하는 방법에 대해 알아보세요. Office 365, 커뮤니케이션 크레딧, 통화 플랜에 대 한 가격 및 계획 세부 정보를 얻을 수 있습니다.
 ms.openlocfilehash: 6b3f850980db71e1347802dd0ab59c38c46e4ebc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37571205"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft 팀 추가 기능 라이선스

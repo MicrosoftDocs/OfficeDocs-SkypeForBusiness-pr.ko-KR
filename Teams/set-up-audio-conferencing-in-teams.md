@@ -22,10 +22,10 @@ ms.custom:
 - LIL_Placement
 description: '휴대폰을 사용 하 여 전화 회의에 참가 해야 하는 사용자에 대해 전화 접속 또는 오디오 회의를 설정 하는 방법에 대해 알아봅니다. '
 ms.openlocfilehash: 3b9b0b3f7a684c8db5b7b3d8a326750ed12f2bff
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37571263"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft 팀을 위한 오디오 회의 설정

@@ -20,10 +20,10 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 25ed0a4f704663a05364ca05031f89924cc7b3f5
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36483414"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft 팀 채택

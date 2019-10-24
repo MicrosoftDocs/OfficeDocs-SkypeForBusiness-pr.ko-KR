@@ -15,10 +15,10 @@ appliesto:
 - Microsoft Teams
 description: 비즈니스용 Skype Online 및 팀 구성 관점에서 직접 라우팅하기 위해 마이그레이션하는 데 필요한 사항에 대해 알아보세요.
 ms.openlocfilehash: 9fb644c938c61fd9dd1c78362ad90bfe855e97ec
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37572182"
 ---
 # <a name="migrate-to-direct-routing"></a>직접 라우팅으로 마이그레이션
