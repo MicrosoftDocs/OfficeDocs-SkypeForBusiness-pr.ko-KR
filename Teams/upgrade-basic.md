@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31aa30401f345d58c4c30cffbc89c618ea94b0cb
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 03f83053e46350cc7a73f92451797553a9c978ad
+ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483960"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37664953"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -41,7 +41,7 @@ ms.locfileid: "36483960"
 업그레이드 후 비즈니스용 Skype는 어떻게 되나요? 사용자가 팀으로 업그레이드 한 후 (**팀 전용** 모드):
 
 - 비즈니스용 Skype 클라이언트를 사용할 수 없으며 모든 채팅 및 통화가 팀으로 이동 합니다. 이것은 데스크톱에서 클라이언트를 제거 하지 않는 것을 참고 하세요.
-- 업그레이드 전에 예정 된 모든 비즈니스용 Skype 모임이 설계 된 대로 작동 하지만 모든 새 모임이 팀에 예정 되어 있습니다.
+- 업그레이드 전에 예정 된 모든 비즈니스용 Skype 모임이 설계 된 대로 작동 하지만 모든 새 모임이 팀에 예정 되어 있습니다. Outlook에서 더 이상 비즈니스용 Skype 플러그 인을 사용할 수 없습니다. 
 - 사용자가 비즈니스용 Skype에 로그인을 시도 하면 해당 클라이언트에서 팀으로 업그레이드 한 알림을 받게 됩니다.
 - 사용자는 모바일 장치에서 비즈니스용 Skype 클라이언트를 수동으로 제거 해야 합니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "36483960"
 
 *(업그레이드 전 4 ~ 6 주)*
 
-팀은 IM (채팅), 모임 등의 비즈니스용 Skype 기능을 제공 하지만 훨씬 더 많은 작업을 수행할 수도 있습니다. 팀워크의 진정한 허브 인 팀은 작업 그룹에서 프로젝트, 파일, 대화 및 앱을 모두 한 곳에서 관리할 수 있도록 합니다. 조직에서 팀을 사용 하는 방법을 결정 하 고 성공을 위해 환경을 구성 합니다.
+팀은 IM (채팅), 모임 등의 비즈니스용 Skype 기능을 제공 하지만 훨씬 더 많은 작업을 수행할 수도 있습니다. 팀워크의 진정한 허브 인 팀은 작업 그룹에서 프로젝트, 파일, 대화 및 앱을 모두 한 곳에서 관리할 수 있도록 합니다. 기본적으로 팀은 모든 조직에 대해 설정 되어 있습니다. 조직에서 팀을 사용 하는 방법을 결정 하 고 성공을 위해 환경을 구성 합니다. 
 
 > [!Note]
 > 기존 비즈니스용 Skype 고객 인 경우 현재 네트워크 인프라는 이미 팀에 대해 구성 되었을 수 있습니다. 이를 확인 하기 위해 아래에 연결 된 "전체 기술 계획" 지침을 팔 로우 할 수 있습니다 (선택 사항).
@@ -81,9 +81,7 @@ ms.locfileid: "36483960"
 **리소스도**
 
 - [팀 개요](Teams-overview.md)
-- [팀 및 채널에 대 한 자세한 정보](teams-channels-overview.md)
-- [기술 계획 완료](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Microsoft 팀 대화방 관리](https://aka.ms/MTRDocs)
+- Microsoft 팀 시작 (get-started-with-teams-quick-start.md)
 
 [맨 위로 이동](#about-upgrade-basic)
 

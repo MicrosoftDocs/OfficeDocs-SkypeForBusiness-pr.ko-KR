@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 78271e193cb3e74cf2d9c363517546f61b5587ea
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ef70fba7c26315e1c66928722c373b383071771b
+ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570306"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37664979"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 권한 정책 관리
 
@@ -48,7 +48,7 @@ Microsoft 팀 관리 센터에서 앱 권한 정책을 관리 합니다. 설정�
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱** > **권한 정책**으로 이동 합니다.
 2. **조직 전체 설정을**선택 합니다. 그런 다음 패널에서 원하는 설정을 구성할 수 있습니다. 
-    ![새 앱 권한 정책의 스크린샷](media/app-permission-policies-org-wide-settings.png)
+    ![조직 전체 앱 설정 스크린샷](media/app-permission-policies-org-wide-settings.png)
 3. 타사 앱에 대 한 액세스를 제어 하기 위해이 설정을 설정 하거나 **해제 합니다.**
 
     - **팀에서 타사 또는 사용자 지정 앱 허용**:이는 사용자가 타사 또는 사용자 지정 앱을 사용할 수 있는지 여부를 제어 합니다.
@@ -174,5 +174,5 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 특정 사용자에 게 할당 된 앱 권한 정책의 경우, 봇 또는 커넥터 기능이 있는 앱이 허용 된 후 차단 되며,이 앱이 공유 컨텍스트의 일부 사용자 에게만 허용 되는 경우 해당 앱에 대 한 권한이 없는 그룹 채팅 또는 채널의 구성원  봇 또는 커넥터에 의해 게시 된 메시지 기록 및 메시지를 볼 수 있지만 대화형 작업할 수는 없습니다.
 
- ## <a name="related-topics"></a>관련 항목
+ ## <a name="related-topics"></a>관련 주제
 - [팀의 앱에 대 한 관리자 설정](admin-settings.md)
