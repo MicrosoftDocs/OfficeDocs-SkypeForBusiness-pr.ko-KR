@@ -266,12 +266,6 @@
 
 
 
-
-
-
-
-
-
 ## [클라우드 비디오 Interop](cloud-video-interop.md)
 
 ## 라이브 이벤트
@@ -660,15 +654,16 @@
 ## [비즈니스용 Skype Online 단종](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
-## 공존에 대한 자세한 정보
+## 기술 라이브러리
+### [IT 관리자를 위한 업그레이드 지침](upgrade-to-teams-on-prem-overview.md)
 ### [비즈니스용 Skype를 사용한 마이그레이션 및 상호 운용성](migration-interop-guidance-for-teams-with-skype.md)
 ### [비즈니스용 Skype와 공존](coexistence-chat-calls-presence.md)
 ### [Teams 클라이언트 환경 및 공존 모드 준수](teams-client-experience-and-conformance-to-coexistence-modes.md)
-#       
-#        
+
 
 <!-- ============================================================ -->
-
+#       
+#    
 # 하이브리드 연결 
 
 ## [하이브리드 연결 계획](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
