@@ -3,7 +3,6 @@ title: Microsoft 팀에 대 한 게스트 액세스 설정 또는 해제
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,38 +17,36 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 186c83b82c396a21fe0098a561bcd4db13370140
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 20971fd985d4512e8a9bf00db23092f1a6e44702
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37571576"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753353"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft 팀에 대 한 게스트 액세스 설정 또는 해제
 ===================================================
 
-Office 365 관리자는 사용자 또는 조직의 사용자 (특히 팀 소유자)가 게스트를 추가할 수 있으려면 먼저 게스트 기능을 사용 하도록 설정 해야 합니다.
+기본적으로 게스트 액세스가 꺼져 있습니다. Office 365 관리자는 관리자 또는 팀 소유자가 게스트를 추가할 수 있으려면 먼저 팀에 대 한 게스트 액세스를 설정 해야 합니다. 게스트 액세스를 설정 하려면 [게스트 액세스 검사 목록을](guest-access-checklist.md)사용 합니다. 
 
-게스트 설정은 Azure Active Directory에서 설정 됩니다. 변경 내용이 Office 365 조직에서 유효 하 게 유지 되려면 2 시간에서 24 시간 정도 걸립니다. 사용자가 팀에 게스트를 추가 하려고 할 때 "관리자에 게 문의" 라는 메시지가 표시 되 면 게스트 기능을 사용 하도록 설정 하지 않았거나 설정이 아직 유효 하지 않은 것일 수 있습니다.
+게스트 액세스를 설정한 후 변경 내용이 적용 되려면 2-24 시간이 걸립니다. 사용자가 팀에 게스트를 추가 하려고 할 때 "관리자에 게 문의" 라는 메시지가 표시 되 면 게스트 액세스가 설정 되지 않았거나 설정이 아직 유효 하지 않은 것일 수 있습니다.
 
 > [!IMPORTANT]
-> 게스트 액세스 기능을 완벽 하 게 사용할 수 있도록 설정 하려면 Microsoft 팀, Azure Active Directory 및 Office 365 간의 핵심 인증 종속성을 이해 하는 것이 중요 합니다. 자세한 내용은 [Microsoft 팀에서 게스트 액세스 권한 부여](Teams-dependencies.md)를 참조 하세요.
+> 게스트 액세스는 Azure Active Directory, Office 365, SharePoint Online, 팀의 설정에 따라 달라 집니다. 자세한 내용은 [팀에서 게스트 액세스 권한 부여](Teams-dependencies.md)를 참조 하세요.
 
-## <a name="guest-access-vs-external-access-federation"></a>게스트 액세스와 외부 액세스 (페더레이션) 비교
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 게스트 액세스 구성
+## <a name="configure-guest-access-in-the-teams-admin-center"></a>팀 관리 센터에서 게스트 액세스 구성
 
 1.  Microsoft 팀 관리 센터에 로그인 합니다.
 
 2.  **조직 전체 설정** > **게스트 액세스**를 선택 합니다.
 
-3. **Microsoft 팀에서 게스트 액세스 허용** 전환 스위치를 켜기로 설정 **합니다.**
+3. **Microsoft 팀에서 게스트 액세스 허용** 을 **On**으로 설정 합니다.
 
     ![게스트 액세스 스위치를 On으로 설정 허용 ](media/set-up-guests-image1.png)
 
-4.  게스트 사용자에 게 허용할 기능에 따라 **통화**, **모임**, **메시지** **를 설정 하거나** **해제**합니다.
+4.  **호출**, **모임**, **메시지**에서 게스트 사용자에 게 허용할 사항에 따라 각 접근 권한 값에 대해 **설정** 또는 **해제** 를 선택 합니다.
 
     - **개인 전화 걸기** – 게스트가 피어 투 피어 통화를 할 수 있도록 **이 설정을 켭니다** .
     - **IP 비디오 허용** -게스트에서 통화 및 모임에 비디오를 사용할 수 **있도록 설정 합니다** .
@@ -73,45 +70,16 @@ Office 365 관리자는 사용자 또는 조직의 사용자 (특히 팀 소유�
 5.  **저장**을 클릭 합니다.
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>PowerShell을 사용 하 여 게스트 액세스 설정 또는 해제
+[PowerShell을 참조 하 여 게스트 액세스 설정 또는 해제](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)
 
-1.  에서 비즈니스용 Skype Online PowerShell 모듈 다운로드https://www.microsoft.com/en-us/download/details.aspx?id=39366
- 
-2.  비즈니스용 Skype Online 끝점에 PowerShell 세션을 연결 합니다.
 
-    ```
-    Import-Module SkypeOnlineConnector
-    $Cred = Get-Credential
-    $CSSession = New-CsOnlineSession -Credential $Cred
-    Import-PSSession -Session $CSSession
-    ```
-3.  구성을 확인 하 고, `AllowGuestUser` 설정 `$False`된 경우 [CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet을 사용 하 여 설정 `$True`합니다.
-
-    ```
-    Get-CsTeamsClientConfiguration
-
-    Identity                         : Global
-    AllowEmailIntoChannel            : True
-    RestrictedSenderList             :
-    AllowDropBox                     : True
-    AllowBox                         : True
-    AllowGoogleDrive                 : True
-    AllowShareFile                   : True
-    AllowOrganizationTab             : True
-    AllowSkypeBusinessInterop        : True
-    ContentPin                       : RequiredOutsideScheduleMeeting
-    AllowResourceAccountSendMessage  : True
-    ResourceAccountContentAccess     : NoAccess
-    AllowGuestUser                   : True
-    AllowScopedPeopleSearchandAccess : False
-    
-    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
-    ```
-이제 조직의 팀에서 게스트 사용자를 가질 수 있습니다.
-
-## <a name="more-information"></a>추가 정보
-
-게스트 액세스에 대 한 자세한 내용은 다음 비디오를 시청 하세요.
+## <a name="video-adding-guests-in-teams"></a>비디오: 팀에서 게스트 추가
 
 |  |  |
 |---------|---------|
 | Microsoft 팀에서 게스트 추가   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+
+
+## <a name="external-access-federation-vs-guest-access"></a>외부 액세스 (페더레이션) 및 게스트 액세스
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03f83053e46350cc7a73f92451797553a9c978ad
-ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
+ms.openlocfilehash: 425ee7d6821a6765e03e2b9f0d9beaab61858bd4
+ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37664953"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749286"
 ---
-<a name="about-upgrade-basic"></a>
-
 # <a name="upgrade-basic"></a>업그레이드 기본
+
+<a name="about-upgrade-basic"></a>
 
 소규모 조직 또는 비즈니스용 Skype Online for IM (채팅) 및 모임만을 사용 하도록 디자인 됨, 업그레이드 기본 검사 목록은 핵심, 추천 활동, 관련 리소스를 포함 하는 가속화 된 작업 계획입니다. 비즈니스용 Skype에서 팀으로 성공적으로 이동 했습니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "37664953"
 
 <a name="step-2"></a>
 
-## <a name="step-2-prepare-your-organization-for-teams"></a>2 단계. 팀을 위해 조직 준비
+## <a name="step-2-prepare-your-organization-for-teams"></a>2 단계. Teams를 사용하도록 조직 준비
 
 *(업그레이드 전 4 ~ 6 주)*
 
@@ -81,7 +81,7 @@ ms.locfileid: "37664953"
 **리소스도**
 
 - [팀 개요](Teams-overview.md)
-- Microsoft 팀 시작 (get-started-with-teams-quick-start.md)
+- [Microsoft 팀 시작 하기](get-started-with-teams-quick-start.md)
 
 [맨 위로 이동](#about-upgrade-basic)
 
@@ -167,7 +167,7 @@ ms.locfileid: "37664953"
 
 **리소스도**
 
-- [공존 및 업그레이드 설정 설정](setting-your-coexistence-and-upgrade-settings.md)
+- [공존 및 업그레이드 설정 지정](setting-your-coexistence-and-upgrade-settings.md)
 - [샘플 전자 메일: 팀에 대 한 사용자 시작](upgrade-emails-surveys.md#step-7-email)
 
 [맨 위로 이동](#about-upgrade-basic)

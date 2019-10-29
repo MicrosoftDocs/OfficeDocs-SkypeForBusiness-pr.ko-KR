@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: 'Microsoft 팀 내에서 전화 접속 회의 번호를 찾는 방법을 알아보세요. '
 ms.openlocfilehash: cc18194c8a0eea6dbf7c995bb5c661007d33ec1e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/28/2019
 ms.locfileid: "37573426"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Microsoft 팀의 오디오 회의 번호 목록 보기
@@ -62,7 +62,7 @@ Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는
     
 Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
   

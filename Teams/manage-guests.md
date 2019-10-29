@@ -3,7 +3,6 @@ title: Microsoft 팀에서 게스트 액세스 관리
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -15,23 +14,28 @@ search.appverid: MET150
 description: IT 관리자는 테 넌 트 수준에서 게스트를 추가 하 고, 게스트 사용자 정책 및 사용 권한을 설정 및 관리 하 고, 게스트를 초대할 수 있는 사용자를 결정 하 고, 게스트 사용자의 보고서를 가져올 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7db3d42a8d4ae44364ee56f6c7f31ce501a34137
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 41630c14c7d1aa9233f53df3c83bd36081d18682
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37573170"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753293"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft 팀에서 게스트 액세스 관리
 ======================================
 
-**게스트** 는 모든 Office 365 Business Premium, Office 365 Enterprise 및 Office 365 교육 구독에 포함 된 Microsoft 팀의 사용자/라이선스 유형입니다. 추가 Office 365 라이선스가 필요 하지 않습니다. 팀 게스트 액세스는 테 넌 트 수준 설정 이므로 기본적으로 꺼져 있습니다. 게스트 액세스를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 [Microsoft 팀에 대 한 게스트 액세스 설정 또는 해제](set-up-guests.md)를 참조 하세요.
+> [!IMPORTANT]
+> 변경 내용이 적용 되려면 24 시간까지 기다려야 할 수 있습니다. 
 
-**게스트** 사용자/라이선스 형식을 켠 후에는 [조직의 Microsoft 팀 설정 관리](enable-features-office-365.md) 에 설명 된 컨트롤을 통해 게스트에 대 한 설정을 구성 하 고 [새 Microsoft 팀으로 전환 하는 동안 팀을 관리할 수 있습니다. 관리 센터](manage-teams-skypeforbusiness-admin-center.md).     
+**게스트** 는 모든 Office 365 Business Premium, Office 365 Enterprise 및 Office 365 교육 구독에 포함 된 Microsoft 팀의 사용자 유형입니다. 추가 Office 365 라이선스가 필요 하지 않습니다. [게스트 액세스 라이선스](#guest-access-licensing-limits) 에 대 한 자세한 내용을 확인 하세요.
+
+팀 게스트 액세스는 테 넌 트 수준 설정 이므로 기본적으로 꺼져 있습니다. 게스트 액세스를 설정 하는 방법에 대 한 자세한 내용은 [팀에 대 한 게스트 액세스 설정 또는 해제](set-up-guests.md)또는 [게스트 액세스 검사 목록을](guest-access-checklist.md) 사용 하 여 설치를 안내 합니다.
+
+게스트 액세스를 설정한 후에는 [조직의 팀 관리 설정](enable-features-office-365.md) 에서 설명한 컨트롤을 사용 하 여 게스트에 대 한 설정을 구성 하 고 [새 Microsoft 팀 관리 센터로 전환 하는 동안 팀을 관리할](manage-teams-skypeforbusiness-admin-center.md)수 있습니다.     
     
-IT 관리자는 테 넌 트 수준에서 게스트를 추가 하 고, 게스트 사용자 정책 및 사용 권한을 설정 및 관리 하 고, 게스트 사용자 활동에 대 한 보고서를 가져올 수 있습니다. 이러한 컨트롤은 Microsoft 팀 관리 센터를 통해 사용할 수 있습니다. 게스트 사용자 콘텐츠 및 활동은 Office 365의 나머지와 동일한 준수 및 감사 보호를 사용 합니다.
+IT 관리자는 테 넌 트 수준에서 게스트를 추가 하 고, 게스트 사용자 정책 및 사용 권한을 설정 및 관리 하 고, 게스트 사용자 활동에 대 한 보고서를 가져올 수 있습니다. 이러한 컨트롤은 팀 관리 센터에서 사용할 수 있습니다. 게스트 사용자 콘텐츠 및 활동은 Office 365의 나머지 부분과 동일한 준수 및 감사 보호에 속합니다.
 
-팀 소유자는 새 게스트를 초대 하 고 기존 디렉터리 게스트 사용자를 팀에 추가할 수 있습니다. 팀 소유자 **는 팀을** > **관리**하는 게스트 사용자를 식별 하 고, **조직 전체 설정** > **게스트 액세스**를 통해 guest에 대 한 채널 관련 기능을 설정 하 고, 게스트의 생성, 업데이트 및 사용을 허용할 수 있습니다. 다음 그림에 표시 된 대로 채널을 삭제 합니다.
+팀 소유자는 새 게스트를 초대 하 고 팀 관리 센터의 팀에 기존 디렉터리 게스트 사용자를 추가할 수 있습니다. **팀 팀** > **관리** 페이지에서 게스트 사용자를 식별 하 고 **조직 전체 설정** > **게스트 액세스** 페이지에서 게스트에 대 한 채널 관련 기능을 설정 합니다. 설정에는 다음 그림과 같이 게스트가 채널을 만들고 업데이트 하 고 삭제할 수 있도록 허용 하는 것이 포함 됩니다.
 
 ![팀의 게스트 사용 권한 설정](media/manage-guest-access-image1.png)
   
@@ -39,26 +43,30 @@ Azure AD (Active Directory) 포털을 사용 하 여 게스트와 Office 365 및
 
 > [!NOTE]
 > Microsoft 팀은 테 넌 트에 대 한 게스트 사용자 추가를 허용 하거나 방지 하기 위해 항상 Azure AD 외부 설정을 따릅니다. 자세한 내용은 [Microsoft 팀에서 게스트 액세스 권한 부여](Teams-dependencies.md)를 참조 하세요.
+
+
+## <a name="guest-access-licensing-limits"></a>게스트 액세스 라이선스 제한
+
+팀에서 추가할 수 있는 관람객 수를 제한 하지 않습니다. 그러나 테 넌 트에 추가할 수 있는 총 게스트 수는 Azure AD 라이선스가 허용 하는 항목 (일반적으로 사용이 허가 된 사용자 당 게스트 5 개)을 기준으로 합니다. 자세한 내용은 [AZURE AD B2B 공동 작업 라이선스](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)를 참조 하세요.
+
+이러한 라이선스 제한 사항으로 인해 (사용자의 테 넌 트를 최신으로 유지), 게스트 액세스를 정기적으로 검토 하 여 더 이상 필요 하지 않은 액세스 권한이 있는 사용자를 확인 해야 합니다. Azure AD를 사용 하 여 그룹 구성원 또는 응용 프로그램에 할당 된 사용자에 대 한 액세스 검토를 만들 수 있습니다. 되풀이 되는 access 리뷰를 만들면 시간을 절약할 수 있습니다. 응용 프로그램에 대 한 액세스 권한이 있거나 그룹의 구성원 인 사용자를 정기적으로 검토 해야 하는 경우 이러한 검토의 빈도를 정의할 수 있습니다. 
+
+게스트 액세스 검토를 수행 하거나, 게스트에 게 자신의 구성원을 검토 하도록 요청 하거나, 응용 프로그램 소유자나 비즈니스 의사 결정권자에 게 액세스 검토를 수행 하도록 요청 합니다. Azure 포털을 사용 하 여 게스트 액세스 검토를 수행 합니다. 자세한 내용은 [AZURE AD access 리뷰를 사용 하 여 게스트 액세스 관리](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews)를 참조 하세요.
+
+###  <a name="prerequisites-for-azure-ad-access-reviews"></a>Azure AD access 리뷰에 대 한 필수 조건
+
+Microsoft Enterprise Mobility + Security, E5에 포함 되어 있는 Azure AD의 Premium P2 버전에서 Access 리뷰를 사용할 수 있습니다. 자세한 내용은 [Azure Active Directory 버전](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)을 참조 하세요. 검토를 만들거나, 검토를 채우거 나, 액세스를 확인 하 여이 기능과 상호 작용 하는 각 사용자에 게 라이선스가 있어야 합니다.
+
+
+
+## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>게스트 액세스 설정이 적용 되기까지 지연 되는 시간
+
+Azure Active Directory의 게스트 액세스 설정의 경우 변경 내용이 Office 365 조직에 적용 되려면 2-24 시간이 소요 됩니다. 사용자가 팀에 게스트를 추가 하려고 할 때 "관리자에 게 문의" 라는 메시지가 표시 되는 경우 게스트 기능이 설정 되지 않았거나 설정이 아직 유효 하지 않을 수 있습니다. 게스트 액세스 설정 문제에 대 한 도움말은 [팀의 게스트 액세스 문제 해결](troubleshoot-guest-access.md)을 참조 하세요.
+
   
-## <a name="guest-access-vs-external-access-federation"></a>게스트 액세스와 외부 액세스 (페더레이션) 비교
+## <a name="external-access-federation-vs-guest-access"></a>외부 액세스 (페더레이션) 및 게스트 액세스
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
-
-## <a name="review-guest-access-periodically"></a>정기적으로 게스트 액세스 검토
-
-팀에서 사용이 허가 된 각 사용자에 대해 5 개의 게스트를 추가할 수 있습니다. 이러한 제한 사항으로 인해 또는 테 넌 트를 최신 상태로 유지 하려는 경우 게스트 액세스를 정기적으로 검토 하 여 더 이상 필요 하지 않은 액세스 권한이 있는 사용자를 확인 해야 합니다. Azure AD를 사용 하 여 그룹 구성원 또는 응용 프로그램에 할당 된 사용자에 대 한 액세스 검토를 만들 수 있습니다. 되풀이 되는 access 리뷰를 만들면 시간을 절약할 수 있습니다. 응용 프로그램에 대 한 액세스 권한이 있거나 그룹의 구성원 인 사용자를 정기적으로 검토 해야 하는 경우 이러한 검토의 빈도를 정의할 수 있습니다. 
-
-게스트 액세스 검토를 수행 하거나, 게스트에 게 자신의 구성원을 검토 하도록 요청 하거나, 응용 프로그램 소유자나 비즈니스 의사 결정권자에 게 액세스 검토를 수행 하도록 요청 합니다. Azure 포털을 사용 하 여 게스트 액세스 검토를 수행 합니다. 자세한 내용은 [AZURE AD access 리뷰를 사용 하 여 게스트 액세스 관리](https://docs.microsoft.com/en-us/azure/active-directory/governance/manage-guest-access-with-access-reviews)를 참조 하세요.
-
-###  <a name="prerequisites"></a>필요 조건
-
-Microsoft Enterprise Mobility + Security, E5에 포함 되어 있는 Azure AD의 Premium P2 버전에서 Access 리뷰를 사용할 수 있습니다. 자세한 내용은 [Azure Active Directory 버전](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)을 참조 하세요. 검토를 만들거나, 검토를 채우거 나, 액세스를 확인 하 여이 기능과 상호 작용 하는 각 사용자에 게 라이선스가 있어야 합니다.
-
-팀에서 추가할 수 있는 관람객 수를 제한 하지 않습니다. 그러나 테 넌 트에 추가할 수 있는 총 게스트 수는 AAD 라이선스에서 허용 하는 것을 기반으로 합니다. 자세한 내용은 [AZURE AD B2B 공동 작업 라이선스](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance)를 참조 하세요.
-
-## <a name="guest-access-latencies"></a>게스트 액세스 대기 시간
-
-게스트 설정은 Azure AD에서 설정 됩니다. 변경 내용이 Office 365 조직에서 유효 하 게 유지 되려면 2 시간에서 24 시간 정도 걸립니다. 사용자가 팀에 게스트를 추가 하려고 할 때 "관리자에 게 문의" 라는 메시지가 표시 되 면 게스트 기능을 사용 하도록 설정 하지 않았거나 설정이 아직 유효 하지 않은 것일 수 있습니다.
 
 ## <a name="more-information"></a>추가 정보
 

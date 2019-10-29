@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 광범위 한 팀의 결과와 성공을 측정 하는 방법에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bb0d3e756f746a625e3831c38c6dd41d4c29d6f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 24b04571a647838ee4890c813e7f3b83f387c12d
+ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242407"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749276"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Microsoft 팀 채택을 위한 결과 및 성공 정의
 
@@ -75,7 +75,7 @@ ms.locfileid: "36242407"
 | 팀 먼저 | 팀 코어 | 팀의 큰 파일 | Skype 나란히 나란히 | 마이그레이션 |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | 팀과의 선행 클라우드 배포 | 팀에 대 한 수석 공동 작업 시나리오 사용 | 팀 및 조직 전체 팀의 모든 직원 | 팀 및 비즈니스용 Skype 사용 | 비즈니스용 Skype에서 팀으로 사용자 마이그레이션 |
-| -신규 또는 낮음 사용 Office 365 고객에 게 적용 가능 <br/>-고객 관련 시나리오의 팀과 리드 <br/>-통합 된 사용자 환경 및 Office 365 값에 대 한 빠른 시간 강조 표시 <br/>-직렬 구현을 방지 하기 위해 계획 워크 로드를 함께 실시 | -OneDrive 및 SharePoint Online과 함께 팀 사용 <br/>-Microsoft Stream을 사용 하 여 뉴스 리소스와 동영상을 공유 하는 회사 인트라넷 만들기<br/>**향상**된 기능: <br/>성과<br/>SharePoint<br/>Yammer<br/>기획자<br/>PowerApps |-1000 개 미만인 고객의 경우 (현재 제한 사항)<br/>-한 명의 팀과 상호 조직 간 공동 작업 가능<br/>-일반 작업 자동화 (휴가 요청, 직원 설문 조사, 임원 계약) |-팀 핵심 기법을 사용 하 여 공동 작업 가속화<br/>-필요한 크기 및 기능 집합을 기준으로 모임 시나리오 지침 강조 표시</br>-엔터프라이즈 통화, 상호 운용성 및 하이브리드 시나리오에 비즈니스용 Skype 사용<br/>-접근 권한 계획에 공개 로드맵을 사용 합니다. |-계획 고객에 대 한 서비스 전략 로드맵을 만들어 비즈니스용 Skype에서 팀으로 이동<br/>-기능 릴리스 일정에 연결<br/>-쉽게 전환할 수 있도록 나란히 및 팀 코어가 포함 되는 것이 좋습니다.
+| -신규 또는 낮음 사용 Office 365 고객에 게 적용 가능 <br/>-고객 관련 시나리오의 팀과 리드 <br/>-통합 된 사용자 환경 및 Office 365 값에 대 한 빠른 시간 강조 표시 <br/>-직렬 구현을 방지 하기 위해 계획 워크 로드를 함께 실시 | -OneDrive 및 SharePoint Online과 함께 팀 사용 <br/>-Microsoft Stream을 사용 하 여 뉴스 리소스와 동영상을 공유 하는 회사 인트라넷 만들기<br/>**향상**된 기능: <br/>성과<br/>SharePoint<br/>Yammer<br/>기획자<br/>PowerApps |-5000 개 미만인 고객의 경우 (현재 제한 사항)<br/>-한 명의 팀과 상호 조직 간 공동 작업 가능<br/>-일반 작업 자동화 (휴가 요청, 직원 설문 조사, 임원 계약) |-팀 핵심 기법을 사용 하 여 공동 작업 가속화<br/>-필요한 크기 및 기능 집합을 기준으로 모임 시나리오 지침 강조 표시</br>-엔터프라이즈 통화, 상호 운용성 및 하이브리드 시나리오에 비즈니스용 Skype 사용<br/>-접근 권한 계획에 공개 로드맵을 사용 합니다. |-계획 고객에 대 한 서비스 전략 로드맵을 만들어 비즈니스용 Skype에서 팀으로 이동<br/>-기능 릴리스 일정에 연결<br/>-쉽게 전환할 수 있도록 나란히 및 팀 코어가 포함 되는 것이 좋습니다.
 
 다음은 대부분의 고객 조직에 대 한 권장 사항입니다. 그러나 예외는 있습니다. 여기에 포함 되지 않은 시나리오에 대 한 지침을 얻으려면 운전 도입 커뮤니티에서 질문을 하거나 FastTrack 팀 또는 Microsoft 파트너 네트워크에 연락 하세요.
 

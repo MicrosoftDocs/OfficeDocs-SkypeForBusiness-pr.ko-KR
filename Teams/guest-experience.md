@@ -1,9 +1,8 @@
 ---
-title: 게스트 환경의 의미
+title: 게스트 환경의 모양
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/20/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -16,27 +15,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e034c7fe8b9e0863bab257b735987ec15c65a3c9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9b923a92c9fb8a7475d9424861a7204da7f19780
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569541"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753433"
 ---
-<a name="what-the-guest-experience-is-like"></a>게스트 환경의 의미
+<a name="what-the-guest-experience-is-like"></a>게스트 환경의 모양
 =================================
 
-방문자가 팀에 참가 하도록 초대 되는 경우 팀에 대 한 일부 정보와 해당 멤버가 현재 예상 되는 항목을 포함 하는 환영 전자 메일 메시지를 받습니다. 게스트는 팀과 해당 채널에 액세스할 수 있으려면 먼저 전자 메일 메시지에서 초대를 사용 해야 합니다.
+방문자가 팀에 참가 하도록 초대 되 면 환영 전자 메일 메시지를 받습니다. 이 메시지에는 팀에 대 한 몇 가지 정보와 현재 구성원 인 것으로 예상 되는 내용이 포함 됩니다. 게스트는 팀과 해당 채널에 액세스할 수 있으려면 먼저 전자 메일 메시지에서 **Microsoft 팀 열기** 를 선택 하 여 초대를 수락 해야 합니다.
     
 ![환영 전자 메일 메시지의 예를 보여주는 스크린샷](media/guest-experience-image1.png)
     
-모든 팀 멤버가 팀 소유자가 게스트를 추가 하 고 게스트 이름을 제공 한다는 것을 알리기 위해 채널 스레드에서 메시지가 표시 됩니다. 팀의 모든 사용자가 쉽게 게스트를 식별할 수 있습니다. 샘플 팀의 다음 스크린샷은 "이 팀에는 게스트"가 표시 되 고 각 게스트 이름 옆에 "(게스트)" 레이블이 표시 됨을 나타냅니다.
+모든 팀 멤버가 팀 소유자가 게스트를 추가 하 고 게스트 이름을 제공 한다는 것을 알리기 위해 채널 스레드에서 메시지가 표시 됩니다. 팀의 모든 사용자가 쉽게 게스트를 식별할 수 있습니다. 샘플 팀의 다음 스크린샷은 "이 팀에 게스트 있음"이 표시 되 고 각 게스트 이름 옆에 **(게스트)** 레이블이 표시 됩니다.
     
 ![게스트 사용자에 게 배너 알림을 보여 주는 스크린샷](media/guest-experience-image2.png "스크린샷은 Northwind 배너의 마케팅 채널 중 일부를 보여 주며,이는 팀에 게스트와 게스트 사용자가 자신의 이름 옆에 있는 word 게스트로 식별 되었음을 나타내는 알림입니다.")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>팀 구성원 및 게스트 기능 비교
 
-다음 표에서는 조직의 팀 구성원에 대해 사용할 수 있는 Microsoft 팀 기능을 팀의 게스트 사용자가 사용할 수 있는 기능과 비교 합니다.
+다음 표에서는 조직의 팀 구성원과 해당 게스트에 대해 사용할 수 있는 팀 기능을 비교 합니다.
 
 |**팀의 기능**|**조직의 팀 사용자**|**게스트 사용자**|
 |:-----|:-----|:-----|
@@ -56,9 +55,9 @@ ms.locfileid: "37569541"
 |조직도 보기  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |인라인 번역 사용  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
-다음 표에서는 게스트에 대해 사용할 수 있는 통화 및 모임 기능을 보여 줍니다.
+다음 표에서는 다른 유형의 사용자와 비교 하 여 게스트로 사용할 수 있는 통화 및 모임 기능을 보여 줍니다.
 
-| 통화 기능 | 방명록 | E1 및 E3 사용자 | E5 및 EV 사용자 |
+| 통화 기능 | 방명록 | E1 및 E3 사용자 | E5 및 Enterprise 음성 사용자 |
 | --------------- | ----- | -------------- | -------------- |
 | VOIP 통화 | ' | ' | ' |
 | 그룹 통화 | ' | ' | ' |
@@ -91,36 +90,29 @@ ms.locfileid: "37569541"
 
 > [!NOTE]
 > Office 365 관리자는 게스트가 사용할 수 있는 기능을 제어 합니다. 
- 
-## <a name="guest-access-vs-external-access-federation"></a>게스트 액세스와 외부 액세스 (페더레이션) 비교
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
- 
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
-Q&a. 내가 초대 받은 조직을 종료 하는 방법은 무엇 인가요?<br>
-에서. 게스트가 되지 않도록 하는 조직에 초대 된 경우 조직에서 나갈 수 있습니다. 자세한 내용은 [게스트 사용자로 조직 나가기](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization)로 이동 하세요. 또는 조직의 관리자에 게 테 넌 트에서 사용자를 제거 하도록 요청할 수 있습니다. 두 경우 모두 나중에 조직에 액세스 하려는 경우 테 넌 트에 다시 초대 해야 합니다.
+### <a name="how-do-i-leave-an-organization-that-ive-been-invited-to"></a>내가 초대 받은 조직을 종료 하는 방법은 무엇 인가요?
+게스트가 되지 않도록 하는 조직에 초대 된 경우 조직에서 나갈 수 있습니다. 자세한 내용은 [게스트 사용자로 조직 나가기](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)로 이동 하세요. 또는 조직의 관리자에 게 테 넌 트에서 사용자를 제거 하도록 요청할 수 있습니다. 두 경우 모두 나중에 조직에 액세스 하려는 경우 테 넌 트에 다시 초대 해야 합니다.
 
-Q&a. 게스트는 팀 구성원과 동일한 기능을가지고 있나요?<br>
-에서. 아니요. 게스트가 할 수 있는 작업과 수행할 수 없는 작업에 대 한 자세한 내용은이 문서의 [팀 구성원 및 게스트 기능 비교](#comparison-of-team-member-and-guest-capabilities) 를 참고 하세요.
+### <a name="do-guests-have-the-same-capabilities-as-team-members"></a>게스트는 팀 구성원과 동일한 기능을가지고 있나요?
+아니요. 게스트가 할 수 있는 작업과 수행할 수 없는 작업에 대 한 자세한 내용은이 문서의 [팀 구성원 및 게스트 기능 비교](#comparison-of-team-member-and-guest-capabilities) 를 참고 하세요.
 
-Q&a. 초대할 수 있는 게스트는 몇 명 인가요?<br>
-에서. 라이선스가 있는 사용자 당 최대 5 개의 게스트를 추가할 수 있습니다.
+### <a name="do-guests-have-access-to-onedrive-for-business"></a>게스트가 비즈니스용 OneDrive에 액세스할 수 있습니까?
+아니요.
 
-Q&a. 게스트가 비즈니스용 OneDrive에 액세스할 수 있습니까?<br>
-에서. 아니요.
+### <a name="do-guests-have-access-to-sharepoint-files"></a>게스트가 SharePoint 파일에 액세스할 수 있습니까?
+'.
 
-Q&a. 게스트가 SharePoint 파일에 액세스할 수 있습니까?<br>
-에서. '.
+### <a name="can-guests-search-within-files"></a>게스트가 파일 내에서 검색할 수 있나요?
+아니요.
 
-Q&a. 게스트가 파일 내에서 검색할 수 있나요?<br>
-에서. 아니요.
+### <a name="can-guests-attach-files"></a>게스트가 파일을 첨부할 수 있나요?
+예, 게스트는 다음 두 가지 방법으로 파일을 첨부할 수 있습니다.
 
-Q&a. 게스트가 파일을 첨부할 수 있나요?<br>
-에서. 예, 게스트는 다음 두 가지 방법으로 파일을 첨부할 수 있습니다.
-
-   - 왼쪽 창에서 파일을 선택한 다음 파일 위치로 이동 합니다.
+   - 왼쪽 창에서 **파일** 을 선택한 다음 파일 위치로 이동 합니다.
    - 컴퓨터에서 파일을 업로드 합니다.
 
-Q&a. 게스트가 개인 채팅에서 파일을 다운로드할 수 있나요?<br>
-에서. 예, 개인 채팅의 구성원 으로부터 파일을 받은 다음 데스크톱에 다운로드할 수 있습니다.
+### <a name="can-a-guest-download-a-file-in-a-private-chat"></a>게스트가 개인 채팅에서 파일을 다운로드할 수 있나요?
+예, 개인 채팅의 구성원 으로부터 파일을 받은 다음 데스크톱에 다운로드할 수 있습니다.
