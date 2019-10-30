@@ -8,58 +8,69 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft StaffHub PowerShell 모듈의 시험판 버전을 설치 하 고 연결 하는 방법에 대해 알아봅니다.
+description: Microsoft StaffHub PowerShell 모듈을 설치 하 고 연결 하는 방법을 알아봅니다.
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa7f84342b2d4ae16cf801be513e1ae9d6440802
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ef80290e6b8a1ce4de834a000148d60b2c5ef89d
+ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569213"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37775077"
 ---
-# <a name="install-the-microsoft-staffhub-powershell-module"></a><span data-ttu-id="d21fd-103">Microsoft StaffHub PowerShell 모듈 설치</span><span class="sxs-lookup"><span data-stu-id="d21fd-103">Install the Microsoft StaffHub PowerShell module</span></span>
+# <a name="install-the-microsoft-staffhub-powershell-module"></a><span data-ttu-id="bbc05-103">Microsoft StaffHub PowerShell 모듈 설치</span><span class="sxs-lookup"><span data-stu-id="bbc05-103">Install the Microsoft StaffHub PowerShell module</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="d21fd-104">2019 년 12 월 31 일에 효력을 StaffHub Microsoft는 곧 만료 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-104">Effective December 31, 2019, Microsoft StaffHub will be retired.</span></span> <span data-ttu-id="d21fd-105">Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-105">We’re building StaffHub capabilities into Microsoft Teams.</span></span> <span data-ttu-id="d21fd-106">현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-106">Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time.</span></span> <span data-ttu-id="d21fd-107">StaffHub는 2019 년 12 월 31 일에 모든 사용자의 작동이 중지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-107">StaffHub will stop working for all users on December 31, 2019.</span></span> <span data-ttu-id="d21fd-108">StaffHub를 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-108">Anyone who tries to open StaffHub will be shown a message directing them to download Teams.</span></span> <span data-ttu-id="d21fd-109">자세한 내용은 [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)을 사용 중지 하세요.</span><span class="sxs-lookup"><span data-stu-id="d21fd-109">To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).</span></span>  
+> <span data-ttu-id="bbc05-104">2019 년 12 월 31 일에 효력을 StaffHub Microsoft는 곧 만료 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-104">Effective December 31, 2019, Microsoft StaffHub will be retired.</span></span> <span data-ttu-id="bbc05-105">Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-105">We’re building StaffHub capabilities into Microsoft Teams.</span></span> <span data-ttu-id="bbc05-106">현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-106">Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time.</span></span> <span data-ttu-id="bbc05-107">StaffHub는 2019 년 12 월 31 일에 모든 사용자의 작동이 중지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-107">StaffHub will stop working for all users on December 31, 2019.</span></span> <span data-ttu-id="bbc05-108">StaffHub를 열려고 하는 모든 사용자에 게 팀을 다운로드 하도록 지시 하는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-108">Anyone who tries to open StaffHub will be shown a message directing them to download Teams.</span></span> <span data-ttu-id="bbc05-109">자세한 내용은 [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)을 사용 중지 하세요.</span><span class="sxs-lookup"><span data-stu-id="bbc05-109">To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).</span></span>  
 
-<span data-ttu-id="d21fd-110">이 문서의 단계를 사용 하 여 Microsoft StaffHub PowerShell 모듈의 시험판 버전을 설치 하 고 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-110">Use the steps in this article to install and connect to the prerelease version of the Microsoft StaffHub PowerShell module.</span></span> <span data-ttu-id="d21fd-111">[StaffHub 팀을 팀으로 이동](move-staffhub-teams-to-shifts-in-teams.md)하려면이이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-111">You'll need this to [move your StaffHub teams to Teams](move-staffhub-teams-to-shifts-in-teams.md).</span></span>
+<span data-ttu-id="bbc05-110">이 문서의 단계를 사용 하 여 Microsoft StaffHub PowerShell 모듈을 설치 하 고 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-110">Use the steps in this article to install and connect to the Microsoft StaffHub PowerShell module.</span></span> <span data-ttu-id="bbc05-111">[StaffHub 팀을 팀으로 이동](move-staffhub-teams-to-shifts-in-teams.md)하려면이이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-111">You'll need this to [move your StaffHub teams to Teams](move-staffhub-teams-to-shifts-in-teams.md).</span></span>
 
-## <a name="install-the-prerelease-version-of-the-microsoft-staffhub-powershell-module"></a><span data-ttu-id="d21fd-112">Microsoft StaffHub PowerShell 모듈의 시험판 버전을 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-112">Install the prerelease version of the Microsoft StaffHub PowerShell module</span></span>
+## <a name="install-the-microsoft-staffhub-powershell-module"></a><span data-ttu-id="bbc05-112">Microsoft StaffHub PowerShell 모듈 설치</span><span class="sxs-lookup"><span data-stu-id="bbc05-112">Install the Microsoft StaffHub PowerShell module</span></span>
 
-1. <span data-ttu-id="d21fd-113">Windows PowerShell 3.0 이상을 관리자로 엽니다. 이렇게 하려면 **시작**을 클릭 하 고 **windows powershell**을 입력 한 다음 **windows powershell**을 마우스 오른쪽 단추로 클릭 하 고 **관리자 권한으로 실행**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-113">Open Windows PowerShell 3.0 or later as an admin. To do this, click **Start**, type **Windows PowerShell**, right-click **Windows PowerShell**, and then select **Run as administrator**.</span></span>
+1. <span data-ttu-id="bbc05-113">[StaffHub PowerShell 모듈](https://www.powershellgallery.com/packages/MicrosoftStaffHub)을 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-113">Download the [StaffHub PowerShell module](https://www.powershellgallery.com/packages/MicrosoftStaffHub).</span></span>
+2. <span data-ttu-id="bbc05-114">Windows PowerShell 3.0 이상을 관리자로 엽니다. 이렇게 하려면 **시작**을 클릭 하 고 **windows powershell**을 입력 한 다음 **windows powershell**을 마우스 오른쪽 단추로 클릭 하 고 **관리자 권한으로 실행**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-114">Open Windows PowerShell 3.0 or later as an admin. To do this, click **Start**, type **Windows PowerShell**, right-click **Windows PowerShell**, and then select **Run as administrator**.</span></span>
     > [!NOTE]
-    > <span data-ttu-id="d21fd-114">최신 버전의 Windows PowerShell을 얻으려면 [Windows Powershell 설치](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="d21fd-114">To get the latest version of Windows PowerShell, see [Installing Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell).</span></span> 
-2. <span data-ttu-id="d21fd-115">다음을 실행 하 여 StaffHub PowerShell 모듈의 시험판 버전을 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-115">Run the following to install the prerelease version of the StaffHub PowerShell module:</span></span>
+    > <span data-ttu-id="bbc05-115">최신 버전의 Windows PowerShell을 얻으려면 [Windows Powershell 설치](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="bbc05-115">To get the latest version of Windows PowerShell, see [Installing Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell).</span></span>
+3. <span data-ttu-id="bbc05-116">다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-116">Run the following:</span></span>
 
     ```
-    Install-Module -Name MicrosoftStaffHub -AllowPrerelease
+    $ENV:PSModulePath
     ```
-3. <span data-ttu-id="d21fd-116">다음과 같은 경고 메시지가 표시 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-116">You may see the warning message:</span></span>
-
-    ```
-    Untrusted repository - You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
-    ```
-
-    <span data-ttu-id="d21fd-117">를 `Y`입력 하 고을 `Enter`클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-117">Type `Y`, and then click `Enter`.</span></span>
- 
-4. <span data-ttu-id="d21fd-118">Windows PowerShell을 종료 합니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-118">Exit Windows PowerShell.</span></span>
-
-## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a><span data-ttu-id="d21fd-119">Microsoft StaffHub PowerShell 모듈에 연결</span><span class="sxs-lookup"><span data-stu-id="d21fd-119">Connect to the Microsoft StaffHub PowerShell module</span></span>
-
-1. <span data-ttu-id="d21fd-120">다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-120">Run the following:</span></span>
+4. <span data-ttu-id="bbc05-117">출력에서 폴더 경로를 확인 하 고 다음 단계로 이동 하기 전에 경로의 모든 폴더가 컴퓨터에 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-117">Check the folder path in the output and make sure that all folders in the path exist on your computer before you go to the next step.</span></span> <span data-ttu-id="bbc05-118">폴더가 없는 경우 폴더를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-118">If folders are missing, create them.</span></span>
+5. <span data-ttu-id="bbc05-119">StaffHub PowerShell 모듈을 설치할 수 있도록 하려면 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-119">Run the following to allow for installation of the StaffHub PowerShell module:</span></span>
 
     ```
-    Connect-StaffHub
+    Set-ExecutionPolicy RemoteSigned
+    ```
+6. <span data-ttu-id="bbc05-120">다음을 실행 합니다. &lt;여기서&gt; path는 3 단계의 출력에서 경로입니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-120">Run the following, where &lt;path&gt; is the path in the output from step 3.</span></span> <span data-ttu-id="bbc05-121">예를 들어 경로는 C:\Users\User1\Documents\WindowsPowerShell\Modules. 처럼 표시 될 것입니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-121">For example, the path might look like C:\Users\User1\Documents\WindowsPowerShell\Modules.</span></span>
+
+    <span data-ttu-id="bbc05-122">각 명령을 개별적으로 실행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-122">Be sure to run each command separately.</span></span>
+
+    ```
+    Install-Module -Name PackageManagement -Force  -AllowClobber
+    Install-Module -Name PowerShellGet -Force  -AllowClobber
+    ```
+7. <span data-ttu-id="bbc05-123">Windows PowerShell을 종료 합니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-123">Exit Windows PowerShell.</span></span>
+8. <span data-ttu-id="bbc05-124">Windows PowerShell 3.0 이상을 전역 관리자로 연 후 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="bbc05-124">Open Windows PowerShell 3.0 or later as a global admin, and then run the following:</span></span>
+
+    ```
+    Install-Module -Name MicrosoftStaffHub
+
+## Connect to the Microsoft StaffHub PowerShell module
+
+1. Run the following:
+
+    ```
+    <span data-ttu-id="bbc05-125">연결-StaffHub</span><span class="sxs-lookup"><span data-stu-id="bbc05-125">Connect-StaffHub</span></span>
     ```
 
-2. <span data-ttu-id="d21fd-121">메시지가 표시 되 면 전역 관리자로 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="d21fd-121">When you're prompted, log in as a global admin.</span></span>
+2. When you're prompted, log in as a global admin.
 
-## <a name="related-topics"></a><span data-ttu-id="d21fd-122">관련 항목</span><span class="sxs-lookup"><span data-stu-id="d21fd-122">Related topics</span></span>
+## Related topics
 
-- [<span data-ttu-id="d21fd-123">Microsoft StaffHub PowerShell 참조</span><span class="sxs-lookup"><span data-stu-id="d21fd-123">Microsoft StaffHub PowerShell reference</span></span>](https://docs.microsoft.com/en-us/powershell/module/staffhub/?view=staffhub-ps)
-- [<span data-ttu-id="d21fd-124">팀에서 Microsoft StaffHub 팀을 교대으로 옮기기</span><span class="sxs-lookup"><span data-stu-id="d21fd-124">Move your Microsoft StaffHub teams to Shifts in Teams</span></span>](move-staffhub-teams-to-shifts-in-teams.md)
+- [Microsoft StaffHub PowerShell reference](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
+- [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md)
