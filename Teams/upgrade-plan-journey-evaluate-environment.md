@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97b4ec0c46131c1bfae5ca078e59a366a1b64b51
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f4716eac44880ca149fb757d2f16ebfe80ccab65
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236106"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772322"
 ---
-![여행 다이어그램 업그레이드, 기술 준비 단계 강조] (media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
+![여행 다이어그램 업그레이드, 기술 준비 단계 강조](media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 사용자 준비 단계와 병행 하 여 완료 한 활동 인 업그레이드 여행에 대 한 기술 준비 단계의 일부입니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
 
@@ -152,7 +152,7 @@ ms.locfileid: "36236106"
 
 > | 리콜 | 질문 | 메모 |
 > |---|---|---|
-> | 사용자가 사용 중인 데스크톱 OS는 무엇 인가요? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (메모 열에서 버전을 지정 합니다.) <br/> <input type="checkbox">기타 (메모 열의 세부 정보를 참고 하세요.) | |
+> | 사용자가 사용 중인 데스크톱 OS는 무엇 인가요? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (메모 열에서 버전을 지정 합니다.) <br/> <input type="checkbox">Linux (메모 열에 분포 지정) <br/> <input type="checkbox">기타 (메모 열의 세부 정보를 참고 하세요.) | |
 > | 배포 되는 Microsoft Office 버전 <br>이 장치에 대 한 자세한 내용을 확인 하세요. | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Mac 용 Office 2011 <br/> <input type="checkbox">Mac 용 Office 2016 <br/> <input type="checkbox">기타 (메모 열의 세부 정보를 참고 하세요.) | |
 > | 사용 중인 Office 배포 기술 <br>조직에서 | <input type="checkbox">MSI <br/> <input type="checkbox">간편 실행 | |
 > | 허용 및 지원 되는 모바일 장치 <br>사용 중인 플랫폼 <br/>적용 되는 모든 것을 선택 합니다. | <input type="checkbox">창을 <br/> <input type="checkbox">무선 <br/> <input type="checkbox">Io <br/> <input type="checkbox">Android <br/> <input type="checkbox">기타 (메모 열의 세부 정보를 참고 하세요.) | |

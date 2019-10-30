@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: MMS (모임 마이그레이션 서비스)는 백그라운드에서 실행 되며 사용자를 위해 비즈니스용 Skype 및 Microsoft 팀 모임을 자동으로 업데이트 하는 서비스입니다. MMS는 사용자가 모임 마이그레이션 도구를 실행 하 여 비즈니스용 Skype 및 Microsoft 팀 모임을 업데이트 하지 않아도 되도록 설계 되었습니다.
-ms.openlocfilehash: cd7796b600486b672318ecbd67b50ee6d68f43e4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3f643f20937fd13b0d9576640487da30f17dd7bf
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642574"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772282"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>MMS (모임 마이그레이션 서비스) 사용
 
@@ -94,11 +94,11 @@ MMS를 트리거하는 시점부터, 일반적으로 사용자의 모임이 마�
 다음 경우에 MMS는 전화 접속 좌표를 추가, 제거 또는 수정 하기 위해 기존 비즈니스용 Skype 및 Microsoft 팀 모임을 업데이트 합니다.
 
 - 사용자에 게 Microsoft 오디오 회의 서비스 라이선스를 할당 하거나 제거 하는 경우 해당 사용자는 타사 오디오 회의 공급자에 대해 사용 하도록 설정 되지 않은 것입니다.
-- 사용자가 Microsoft 오디오 회의 라이선스를 할당 받은 경우 다른 공급자에서 Microsoft로 사용자의 오디오 회의 공급자를 변경 하는 경우 자세한 내용은 [Microsoft를 오디오 회의 공급자로 지정](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)을 참조 하세요. 또한 [이전에 발표](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)된 것 처럼 2019 년 4 월 1 일에는 제 3 자 오디오 회의 공급자에 대 한 지원이 예약 되어 있다는 점에 유의 하세요.
+- 사용자가 Microsoft 오디오 회의 라이선스를 할당 받은 경우 다른 공급자에서 Microsoft로 사용자의 오디오 회의 공급자를 변경 하는 경우 자세한 내용은 [Microsoft를 오디오 회의 공급자로 지정](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)을 참조 하세요. 또한 [이전에 발표](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)된 것 처럼 2019 년 4 월 1 일에는 제 3 자 오디오 회의 공급자에 대 한 지원이 예약 되어 있다는 점에 유의 하세요.
 - 사용자에 대해 오디오 회의를 사용 하거나 사용 하지 않도록 설정 합니다.
 - 공용 모임을 사용 하도록 구성 된 사용자의 전화 회의 ID를 변경 하거나 다시 설정 하는 경우
 - 사용자를 새 오디오 회의 브리지로 이동 합니다.
-- 오디오 회의 브리지의 전화 번호를 할당 하지 않은 경우 이는 추가 단계가 필요한 복잡 한 시나리오입니다. 자세한 내용은 [오디오 회의 브리지에서 전화 번호 변경을](https://docs.microsoft.com/en-us/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)참조 하세요.
+- 오디오 회의 브리지의 전화 번호를 할당 하지 않은 경우 이는 추가 단계가 필요한 복잡 한 시나리오입니다. 자세한 내용은 [오디오 회의 브리지에서 전화 번호 변경을](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)참조 하세요.
 
 사용자의 오디오 회의 설정에 대 한 모든 변경 내용이 MMS를 트리거하지는 않습니다. 특히 다음 두 가지 변경 사항으로 인해 MMS 업데이트는 수행 되지 않습니다.
 
@@ -174,7 +174,7 @@ Windows PowerShell을 사용 하 여 진행 중인 마이그레이션 상태를 
 1. 어떤 사용자에 게 영향을 미치는지 결정 합니다. 다음 명령을 실행 하 여 영향을 받는 사용자 목록과 보고 된 특정 오류를 가져옵니다.
 
     ```
-    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table Identity, LastMessage
+    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
 2. 영향을 받는 각 사용자에 대해 모임 마이그레이션 도구를 실행 하 여 모임을 수동으로 마이그레이션합니다.
 
@@ -208,7 +208,7 @@ Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

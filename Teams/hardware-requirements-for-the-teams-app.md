@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ec568123f92c188d8642f6e5c8907485dc6de05
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4616b3d78ae8d5e349b4cf29ca9112df77d7a295
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570757"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772352"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 팀 앱의 하드웨어 요구 사항
 
@@ -55,19 +55,40 @@ ms.locfileid: "37570757"
 |음성    |  호환 되는 마이크와 스피커, 헤드셋 마이크 또는 동급 장치       |
 |영상 통화 및 모임 | 영상 통화 및 온라인 모임 환경을 개선 하기 위해 2.0 GHz 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. 선택적 화면 흐림 효과 AVX2 (고급 벡터 확장 2) 지원이 포함 된 프로세서가 필요 하지만 대부분의 최신 2013 Mac 장치 이상에서 지원 됩니다. 지원 되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요.|
 
+## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-linux"></a>Linux에서 팀 데스크톱 앱에 대 한 하드웨어 요구 사항
+
+|**요소가**|**요구 사항**  |
+|---------|---------|
+|컴퓨터 및 프로세서    | 최소 1.6 GHz (또는 그 이상) (32 비트 또는 64 비트).        |
+|Memory     |    2.0 GB RAM     |
+|하드 디스크    | 3.0 GB의 사용 가능한 디스크 공간        |
+|표시    |   1024 x 768 화면 해상도 |
+|그래픽 하드웨어 |  최소 128 MB 그래픽 메모리
+|운영 체제  | DEB, Snap 또는 RPM을 설치할 수 있는 Linux 배포 |
+|비디오만    |  USB 2.0 비디오 카메라       |
+|장치    |   표준 랩탑 카메라, 마이크, 스피커    | 
+|음성    |  호환 되는 마이크와 스피커, 헤드셋 마이크 또는 동급 장치       |
+|영상 통화 및 모임 | 영상 통화 및 온라인 모임 환경을 개선 하기 위해 2.0 GHz 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. 선택적 화면 흐림 효과 AVX2 (고급 벡터 확장 2) 지원이 포함 된 프로세서가 필요 하지만 대부분의 최신 2013 Mac 장치 이상에서 지원 됩니다. 지원 되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요.
+
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>모바일 장치의 팀 앱에 대 한 하드웨어 요구 사항
 
-다음 모바일 플랫폼에서 Microsoft 팀을 사용할 수 있습니다.
+다음 모바일 플랫폼에서 팀을 사용할 수 있습니다.
 
-- Android-Android 4.4 이상이 필요 합니다.
+- Android-Android 5.0 이상이 필요 합니다. Android 휴대폰 및 태블릿과 호환 가능 합니다.
 
-- iOS-iOS 10.0 이상이 필요 합니다. IPhone, iPad, iPod touch와 호환 가능 합니다.
+  지원은 Android의 마지막 네 가지 주요 버전으로 제한 됩니다. Android의 새 주 버전이 릴리스되면 새 버전과 이전 세 가지 버전이 공식적으로 지원 됩니다.
+
+- iOS-iOS 10.0 이상이 필요 합니다. IPhone, iPad, iPod touch와 호환 가능 합니다. 
+
+  IOS의 최신 주 버전 두 개에 대 한 지원이 제한 됩니다. 새 주 버전의 iOS가 릴리스되면 새 버전의 iOS 및 이전 버전이 공식적으로 지원 됩니다.
+
+팀에서 최상의 환경을 활용 하려면 최신 버전의 iOS 및 Android를 사용 하세요.
 
 ## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>VDI (가상 데스크톱 인프라) 환경의 팀 앱에 대 한 하드웨어 요구 사항
 
 가상 환경에서 팀을 실행 하기 위한 요구 사항은 [가상화 된 데스크톱 인프라 팀](teams-for-vdi.md) 을 참조 하세요. 
 
-### <a name="related-topics"></a>관련 항목
+### <a name="related-topics"></a>관련 주제
 - [팀 앱 가져오기](get-clients.md)
 - [모바일 장치에서 Microsoft 팀](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [MSI를 사용 하 여 Microsoft 팀 앱 설치](msi-deployment.md)

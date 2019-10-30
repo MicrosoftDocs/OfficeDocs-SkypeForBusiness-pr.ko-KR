@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: '요약: 비즈니스용 Skype 서버와 Exchange 2013 또는 2016을 통합 하기 위해 계획 하는 동안이 항목을 검토 하세요.'
-ms.openlocfilehash: 3b71dd740440aeab37919bb94ef98eaeb83d4d87
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bed73151b1010dd287c21ea55372e4eb18117665
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196878"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772621"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>비즈니스용 Skype에서 Exchange 통합 메시징 통합 계획
 
@@ -36,7 +36,6 @@ Microsoft Exchange Server 2013 및 2016에서는 Exchange UM을 Exchange 사서�
 - Microsoft Exchange Server 2010 또는 최신 서비스 팩 (비즈니스용 Skype Server 2015에만 해당)
 - Microsoft Exchange Server 2013
 - Microsoft Exchange Server 2016
-- Microsoft Exchange Server 2019 (비즈니스용 Skype Server 2019에만 해당)
 
 > [!NOTE]
 > 이전에는 알려진 대로 Exchange 통합 메시징을 사용할 수 없습니다. 휴대폰 시스템을 사용 하 여 보이스 메일 메시지를 기록한 다음 사용자의 Exchange 사서함에 녹음/녹화를 종료 하는 비즈니스용 Skype 서버 2019에 더 이상 제공 되지 않습니다. 자세한 내용은 [클라우드 보이스 메일 서비스 계획](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 을 참조 하세요.
@@ -94,7 +93,7 @@ Microsoft Exchange Server 2010의 Exchange UM 구성 요소에 대 한 자세한
 
 - Exchange 관리자와 협력 하 여 원활한 통합을 위해 각 사용자가 수행할 작업을 확인 합니다.
 
-- Exchange UM에 대 한 사용자를 사용할 수 있도록 각 UM (통합 메시징) 포리스트에 Exchange 사서함 서버 역할을 배포 합니다. Exchange server 역할을 설치 하는 방법에 대 한 자세한 내용은 Microsoft Exchange Server 2013 설명서를 참조 하세요.
+- Exchange UM에 대 한 사용자를 사용할 수 있도록 각 UM (통합 메시징) 포리스트에 Exchange 사서함 서버 역할을 배포 합니다. Exchange server 역할을 설치 하는 방법에 대 한 자세한 내용은 Microsoft Exchange Server 설명서를 참조 하세요.
 
     > [!IMPORTANT]
     > Exchange UM (통합 메시징)이 설치 되어 있으면 자체 서명 된 인증서를 사용 하도록 구성 됩니다. 자체 서명 된 인증서는 비즈니스용 Skype 서버와 Exchange UM을 서로 신뢰 하지 않으므로 두 서버에서 신뢰 하는 인증 기관에서 별도의 인증서를 요청 해야 합니다.

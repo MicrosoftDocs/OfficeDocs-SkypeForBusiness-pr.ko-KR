@@ -2,7 +2,7 @@
 title: Microsoft 팀에서 StaffHub 팀을 교대으로 이동
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu, gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03131bd9a89ae5f54fc8318b004385de3e32e26e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9468dea64c464b3bfc2f0cec7c53f46e2f388c1f
+ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569685"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37775087"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft 팀에서 Microsoft StaffHub 팀을 교대으로 옮기기
 
@@ -83,7 +83,7 @@ StaffHub 팀을 팀으로 이동 하기 전에 다음을 확인 하세요.
 
 이러한 선행 조건이 충족 되지 않으면 이동 요청이 실패 합니다.
 
-### <a name="assign-teams-licenses"></a>팀 라이선스 할당
+### <a name="assign-teams-licenses"></a>Teams 라이선스 할당
 
 각 사용자는 [적격 요금제](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in) 에서 활성 Microsoft 365 또는 Office 365 라이선스를 보유 하 고 있어야 하며 팀 라이선스를 할당 받아야 합니다. 사용자에 게 팀 라이선스를 할당 하면 팀에 액세스할 수 있습니다.
 
@@ -109,17 +109,29 @@ StaffHub 팀을 팀으로 이동 하려면 시험판 버전의 모듈을 설치 
 
 #### <a name="get-a-list-of-all-inactive-accounts-on-staffhub-teams"></a>StaffHub 팀의 모든 비활성 계정 목록 가져오기
 
-다음을 실행 하 여 StaffHub 팀의 모든 비활성 계정 목록을 가져오고 목록을 CSV 파일로 내보냅니다.
+다음 일련의 명령을 실행 하 여 StaffHub 팀의 모든 비활성 계정 목록을 가져오고 목록을 CSV 파일로 내보냅니다. 각 명령은 개별적으로 실행 되어야 합니다.
 
 ```
 $InvitedUsersObject = @()
-$StaffHubTeams = Get-StaffHubTeamsForTenant $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
-foreach($team in $StaffHubTeams[0]) { write-host $team.name $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
-foreach($StaffHubUser in $StaffHubUsers) {
-        $InvitedUsersObject  += New-Object PsObject -Property @{         "TeamID"="$($team.Id)"         "TeamName"="$($team.name)"         "MemberID"="$($StaffHubUser.Id)" }
+
+$StaffHubTeams = Get-StaffHubTeamsForTenant
+
+$StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
+
+foreach($team in $StaffHubTeams[0])
+{ 
+    Write-host $team.name
+    $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
+    foreach($StaffHubUser in $StaffHubUsers) {
+        $InvitedUsersObject  += New-Object PsObject -Property @{
+          "TeamID"="$($team.Id)"
+          "TeamName"="$($team.name)"
+          "MemberID"="$($StaffHubUser.Id)"
+            }
+    }
 }
-}
-$InvitedUsersObject | SELECT * $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
+
+$InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
 ```
 
 #### <a name="link-the-account"></a>계정 연결
@@ -255,6 +267,7 @@ StaffHub 팀을 대량으로 이동 하려면 다음 단계를 사용 하세요.
 
 ```
 $StaffHubTeams = Get-StaffHubTeamsForTenant
+
 $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 ```
 
@@ -295,6 +308,7 @@ CSV 파일을 만든 후 다음을 실행 하 여 CSV 파일에서 지정한 팀
 
 ```
 $StaffHubTeams = Import-Csv .\teams.csv
+
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
@@ -322,7 +336,9 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 
 ```
 Move-StaffHubTeam -TeamId <TeamId>
+
 $res = Get-TeamMigrationJobStatus -JobId <JobId>
+
 $res.Status
 ```
 
@@ -354,8 +370,8 @@ StaffHub 팀과 연결 된 그룹에 팀 소유자가 없는 경우이 문제가
   Add-PnPFolder -Name General -Folder 'Shared Documents'
   ```  
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [Microsoft 팀을 배포 하는 방법](../../How-to-roll-out-teams.md)
-- [Microsoft StaffHub 사용 중지](microsoft-staffhub-to-be-retired.md)
+- [Microsoft StaffHub 사용 중지 예정](microsoft-staffhub-to-be-retired.md)
 - [Microsoft 팀에서 조직의 교대 근무 앱 관리](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [StaffHub PowerShell 참조](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)

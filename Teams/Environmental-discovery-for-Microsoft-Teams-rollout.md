@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4801545455b9f3d3762ae5b3d3fcce1ffe71eed4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 029d4870a6826866ddff9b712c5acd2b59897b75
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245416"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772402"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 팀 배포 환경 검색
 ===================================================
@@ -116,7 +116,7 @@ ms.locfileid: "36245416"
 > | 사용 중인 팀 기능 및 형식을 | <input type="checkbox">채널 기반 대화 <br/> <input type="checkbox">개인 채팅 <br/> <input type="checkbox">게스트 액세스 <br/> <input type="checkbox">채널 모임 <br/> <input type="checkbox">비공개 모임 <br/> <input type="checkbox">비공개 통화 <br/> <input type="checkbox">Ad-hoc 채널 잔 <br/> <input type="checkbox">모임의 비디오 <br/> <input type="checkbox">모임에서 화면 공유 <br/> <input type="checkbox">오디오 회의 <br/><input type="checkbox">응용 프로그램 (앱)<br> &nbsp;&nbsp; 탭 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; 봇 &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; 연결선 &nbsp; <input type="checkbox"><br><input type="checkbox">사용자 지정 클라우드 저장소 통합 <br>&nbsp;&nbsp; (Box, Dropbox, sharefile, Google &nbsp; Drive) <br/> <input type="checkbox">채널 전자 메일 통합 <br/> <input type="checkbox">기타 (메모 열에서 지정) | |
 > | 팀에 배포 하는 응용 프로그램은 무엇 인가요? | | |
 > | 팀의 접근 권한 값을 구체적으로 차단 했습니까? <br/>예를 들어 메모 열의 세부 정보를 기록해 둡니다. | <input type="checkbox">' <br/> <input type="checkbox">아니요 ||
-> | 사용 중인 팀 클라이언트 | <input type="checkbox">웹 <br/> <input type="checkbox">창을 <br/> <input type="checkbox">Ac <br/> <input type="checkbox">Io <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |
+> | 사용 중인 팀 클라이언트 | <input type="checkbox">웹 <br/> <input type="checkbox">창을 <br/> <input type="checkbox">Ac <br/> <input type="checkbox">Linux <br/>  <input type="checkbox">Io <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |
 > | 팀을 만들 수 있는 권한이 있는 사람은 누구 입니까? | <input type="checkbox">조직의 모든 사용자 <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">특정 사용자 <br>&nbsp;&nbsp; (메모 열에서 지정 합니다 &nbsp;.) | |
 > | 팀의 보안 및 규정 준수 기능을 사용 하 고 있나요? | <input type="checkbox">' <br/> <input type="checkbox">아니요 | |
 
@@ -171,7 +171,7 @@ ms.locfileid: "36245416"
 
 > | 리콜 | 질문 | 메모 |
 > |---|---|---|
-> | 사용자가 사용 중인 데스크톱 OS는 무엇 인가요? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (메모 열에서 버전을 지정 합니다.) <br/> <input type="checkbox">기타 (메모 열의 세부 정보를 참고 하세요.) | |
+> | 사용자가 사용 중인 데스크톱 OS는 무엇 인가요? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (메모 열에서 버전을 지정 합니다.) <br/> <input type="checkbox">Linux (메모 열에 분포 지정) <br/><input type="checkbox">기타 (메모 열의 세부 정보를 참고 하세요.) | |
 > | 배포 되는 Microsoft Office 버전 <br>이 장치에 대 한 자세한 내용을 확인 하세요. | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Mac 용 Office 2011 <br/> <input type="checkbox">Mac 용 Office 2016 <br/> <input type="checkbox">기타 (메모 열의 세부 정보를 참고 하세요.) | |
 > | 사용 중인 Office 배포 기술 <br>조직에서 | <input type="checkbox">MSI <br/> <input type="checkbox">간편 실행 | |
 > | 허용 및 지원 되는 모바일 장치 <br>사용 중인 플랫폼 <br/>적용 되는 모든 것을 선택 합니다. | <input type="checkbox">창을 <br/> <input type="checkbox">무선 <br/> <input type="checkbox">Io <br/> <input type="checkbox">Android <br/> <input type="checkbox">기타 (메모 열의 세부 정보를 참고 하세요.) | |

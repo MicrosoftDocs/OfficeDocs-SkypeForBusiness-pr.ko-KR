@@ -17,17 +17,17 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e8a77a6d03735769e61f679126b3a5aac7f70e3
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: b87737aae65493652f3b87de6bbd1369d6982526
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37569616"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772362"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft 팀 용 클라이언트 가져오기 
 ===========================
 
-Microsoft 팀은 데스크톱 (Windows 및 Mac), 웹, 모바일 (Android 및 iOS)에 사용할 수 있는 클라이언트가 있습니다. 이러한 클라이언트는 모두 활성 인터넷 연결이 필요 하며 오프 라인 모드를 지원 하지 않습니다.
+Microsoft 팀은 데스크톱 (Windows, Mac, Linux), 웹, 모바일 (Android 및 iOS)에 사용할 수 있는 클라이언트가 있습니다. 이러한 클라이언트는 모두 활성 인터넷 연결이 필요 하며 오프 라인 모드를 지원 하지 않습니다.
 
 > [!NOTE]
 > 2018 년 11 월 29 일부 터 Microsoft Store에서 제공 되는 Windows 10 S 용 Microsoft 팀 (Preview) 앱을 더 이상 사용할 수 없게 됩니다. 대신 Windows 10 S 모드를 실행 하는 장치에 팀 데스크톱 클라이언트를 다운로드 하 여 설치할 수 있습니다. 데스크톱 클라이언트를 다운로드 하려면으로 이동 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)합니다. Windows 10 S 모드를 실행 하는 장치에서 팀 데스크톱 클라이언트의 MSI 빌드를 아직 사용할 수 없습니다.
@@ -40,13 +40,13 @@ Microsoft 팀은 데스크톱 (Windows 및 Mac), 웹, 모바일 (Android 및 iOS
 > [!Tip]
 > Windows 데스크톱 클라이언트의 이점과이를 위해 계획 하는 방법 및 배포 하는 방법에 대 한 자세한 내용을 보려면 다음 세션을 시청 하세요. [팀 Windows 데스크톱 클라이언트](https://aka.ms/teams-clients)
 
-Microsoft 팀 데스크톱 클라이언트는 독립 실행형 응용 프로그램이 며 [Office 365 ProPlus 에서도 사용할 수 있습니다](https://docs.microsoft.com/en-us/deployoffice/teams-install). Windows (7 +), 32 비트 및 64 비트 버전, macOS (10.10 +) 모두에서 팀을 사용할 수 있습니다. Windows에서 팀에는 .NET Framework 4.5 이상이 필요 합니다. 팀 설치 관리자가 없는 경우 설치를 제공 합니다. 
+Microsoft 팀 데스크톱 클라이언트는 독립 실행형 응용 프로그램이 며 [Office 365 ProPlus 에서도 사용할 수 있습니다](https://docs.microsoft.com/deployoffice/teams-install). 팀은 Windows (7 +), 32 비트 및 64 비트 버전, macOS (10.10 +), Linux (Debian 패키지 `.deb`, Red Hat 패키지 관리자 `.rpm`)에서 사용할 수 있습니다. Windows에서 팀에는 .NET Framework 4.5 이상이 필요 합니다. 팀 설치 관리자가 없는 경우 설치를 제공 합니다. Linux에서 apt 및 yum과 같은 패키지 관리자는 모든 요구 사항을 설치 하려고 합니다. 그러나이 경우에는 Linux에 팀을 설치 하기 전에 보고 된 요구 사항을 설치 해야 합니다.
 
 데스크톱 클라이언트는 실시간 통신 지원 (오디오, 비디오 및 콘텐츠 공유)을 제공 하 여 팀 모임, 그룹 통화, 개인 일대일 통화를 가능 하 게 합니다.
 
 데스크톱 클라이언트는 최종 사용자가 적절 한 로컬 권한을 갖고 있는 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 경우 직접 다운로드 및 설치할 수 있습니다 (관리자 권한은 PC에 팀 클라이언트를 설치 하는 데는 필요 하지 않지만 Mac에는 필요 하지 않음).
 
-IT 관리자는 Windows (System Center Configuration Manager) 또는 Jamf Pro (macOS)과 같이 조직의 컴퓨터에 설치 파일을 배포 하는 데 선호 하는 방법을 선택할 수 있습니다. Windows 배포용 MSI 패키지를 가져오려면 [msi를 사용 하 여 Microsoft 팀 설치](msi-deployment.md)를 참조 하세요.  
+IT 관리자는 조직의 컴퓨터에 설치 파일을 배포 하는 데 선호 하는 방법을 선택할 수 있습니다. 몇 가지 예로는 System Center Configuration Manager (Windows) 또는 Jamf Pro (macOS)이 있습니다. Windows 배포용 MSI 패키지를 가져오려면 [msi를 사용 하 여 Microsoft 팀 설치](msi-deployment.md)를 참조 하세요.  
 
 > [!NOTE]
 > 이러한 메커니즘을 통해 클라이언트를 배포 하는 것은 향후 업데이트에 대 한 것이 아니라 Microsoft 팀 클라이언트의 초기 설치에만 해당 됩니다.
@@ -99,6 +99,30 @@ IT 관리자는 팀의 관리 되는 배포를 사용 하 여 Jamf Pro와 같은
 
 > [!NOTE]
 > INSTALLER.PKG를 설치 하는 중 문제가 발생 하면 알려주세요. 이 문서의 끝부분에 있는 **피드백** 섹션에서 **제품 피드백**을 클릭 합니다.
+
+### <a name="linux"></a>Linux
+
+Linux 사용자는 Debian `.deb` 패키지를 사용 하거나 red Hat 패키지로 `.rpm`팀을 설치할 수 있습니다. 
+
+[!NOTE] Linux 클라이언트의 팀은 제한 된 미리 보기에서 사용할 수 있습니다. 클라이언트 내에서 `Report a Problem` 를 사용 하 여 버그를 제출 합니다. 알려진 문제는 [알려진 문제점](Known-issues.md)을 참조 하세요.
+
+#### <a name="install-teams-using-deb-package"></a>DEB 패키지를 사용 하 여 팀 설치
+
+1. 에서 https://aka.ms/getteams패키지를 다운로드 합니다.
+2. 다음 중 하나를 사용 하 여 설치 합니다.  
+    - Ubuntu 소프트웨어 도구를 사용 하 여 패키지를 열고 셀프 기반 Linux 앱 설치 프로세스를 진행 합니다.
+    - 또는 터미널을 선호 하는 경우 다음을 입력 합니다.`sudo apt install **teams download file**`
+
+를 입력 `Teams`하 여 작업을 통해서나 터미널을 통해 팀을 시작할 수 있습니다. 
+
+#### <a name="install-teams-using-rpm-package"></a>RPM 패키지를 사용 하 여 팀 설치
+
+1. 에서 https://aka.ms/getteams패키지를 다운로드 합니다.
+2. 다음 중 하나를 사용 하 여 설치 합니다.
+    - Red Hat 패키지 관리 도구를 사용 하 여 패키지를 열고 셀프 기반 Linux 앱 설치 프로세스를 진행 합니다.
+    - 또는 터미널을 선호 하는 경우 다음을 입력 합니다.`sudo yum install **teams download file**`
+
+를 입력 `Teams`하 여 작업을 통해서나 터미널을 통해 팀을 시작할 수 있습니다.
 
 <a name="web-client"></a>웹 클라이언트 
 ----------

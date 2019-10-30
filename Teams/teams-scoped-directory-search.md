@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀 범위 디렉터리 검색 사용
+title: Microsoft Teams 범위 디렉터리 검색 사용
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,14 +17,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 094d83f8f6b21fc5e820235b91fa14820f6b407e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fca0feadf29ce83a8a6867f0e00b06fc0426a203
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570116"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772340"
 ---
-# <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft 팀 범위 디렉터리 검색 사용
+# <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams 범위 디렉터리 검색 사용
 
 Microsoft 팀 범위 디렉터리 검색을 통해 조직에서 사용자가 조직의 다른 사용자를 찾고 통신 하는 방법을 제어 하는 가상 경계를 만들 수 있습니다. 
 
@@ -56,4 +56,5 @@ Microsoft 팀은 조직에서 사용자에 게 디렉터리에 대 한 사용자
     ![Microsoft 팀 관리 센터의 범위 디렉터리 검색](media/teams-scoped-directory-search-image1.png)
 
 
-
+> [!IMPORTANT]
+> 이 변경 사항을 복제 하는 데 최대 24 시간이 걸릴 수 있습니다.
