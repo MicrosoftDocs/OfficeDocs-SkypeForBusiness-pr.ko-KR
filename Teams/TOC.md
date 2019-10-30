@@ -47,21 +47,30 @@
 ### [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams에서 작업할 수 있도록 Skype 모임 앱 구성](configure-skype-meetings-app-to-work-with-teams.md)
 
+## 외부 사용자와 의사 소통
+### [다른 조직의 사용자와 의사 소통](communicate-with-users-from-other-organizations.md)
 
-## 게스트 액세스
-### [게스트 액세스 정보](guest-access.md)
-### [게스트가 팀에 참여하는 방법](guest-joins.md)
-### [게스트 환경의 모양](guest-experience.md)
-### [Teams에서 게스트 액세스 권한 부여](teams-dependencies.md)
-### [Teams에서 게스트 액세스 설정 또는 해제](set-up-guests.md)
-### [Teams에서 게스트 액세스 관리](manage-guests.md)
-### [팀에 게스트 추가](add-guests.md)
-### [팀에서 게스트 사용자 보기](view-guests.md)
-### [게스트 사용자 정보 편집](edit-guests-information.md)
-### [PowerShell을 사용하여 팀에 대한 액세스 권한 제어](guest-access-PowerShell.md)
-### [게스트 액세스 검사 목록](guest-access-checklist.md)
+### 외부 액세스(페더레이션)
+#### [외부 액세스 관리](manage-external-access.md)
+#### [외부 사용자용 기본 Teams 채팅](native-chat-for-external-users.md)
 
-## [외부 액세스(페더레이션)](manage-external-access.md)
+
+### 게스트 액세스
+#### [게스트 액세스 정보](guest-access.md)
+#### [게스트 액세스 검사 목록](guest-access-checklist.md)
+#### [게스트가 팀에 참여하는 방법](guest-joins.md)
+#### [게스트 환경의 모양](guest-experience.md)
+#### [Teams에서 게스트 액세스 권한 부여](teams-dependencies.md)
+#### [Teams에서 게스트 액세스 설정 또는 해제](set-up-guests.md)
+#### [Teams에서 게스트 액세스 관리](manage-guests.md)
+#### [팀에 게스트 추가](add-guests.md)
+#### [팀에서 게스트 사용자 보기](view-guests.md)
+#### [게스트 사용자 정보 편집](edit-guests-information.md)
+#### [PowerShell을 사용하여 게스트 액세스 제어](guest-access-PowerShell.md)
+#### [게스트 액세스 문제 해결](troubleshoot-guest-access.md)
+
+
+
 
 ## Teams 관리
 ### [관리자 역할](using-admin-roles.md)
@@ -719,9 +728,11 @@
 ### [의료 조직을 위한 Teams 서식 파일 시작](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [의료 조직을 위한 보안 메시징 시작](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [메시지 위임](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### [Microsoft Teams에 전자 의료 레코드 통합](expand-teams-across-your-org/healthcare/patients-app.md)
-#### [DSTU2 인터페이스 사양](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-#### [STU3 인터페이스 사양](expand-teams-across-your-org/healthcare/stu3-interface.md)
+### [환자 앱 개요](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### [Microsoft Teams에 전자 의료 레코드 통합](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [DSTU2 인터페이스 사양](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [STU3 인터페이스 사양](expand-teams-across-your-org/healthcare/stu3-interface.md)
+#### [환자 앱에 대한 감사 로그](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [교육용 Teams](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [빠른 시작 - 교육용 Teams 관리](teams-quick-start-edu.yml)
