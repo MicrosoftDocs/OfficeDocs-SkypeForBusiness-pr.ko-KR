@@ -14,12 +14,12 @@ MS.collection:
 appliesto: Microsoft Teams
 ms.reviewer: anach
 description: 팀 용 환자 앱 관리자
-ms.openlocfilehash: 1ed3efc1aa5a6d3eb4554fca6ee3bd7cfe57f4c0
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 85f0d382de11b9259c6839aa8d0e556ad2512f5a
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749560"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885502"
 ---
 # <a name="patients-app-overview"></a>환자 앱 개요
 
@@ -44,6 +44,30 @@ EMR 모드 환자 앱을 사용 하기 위해 환경을 준비 하는 방법에 
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
 
-## <a name="related-topics"></a>관련 주제
+## <a name="frequently-asked-questions-faq"></a>자주 묻는 질문 (FAQ)
+
+**환자 앱 데이터는 어디에 저장 되나요?**
+
+최종 사용자가 열/필드 스키마를 포함 하 여 환자 앱에 입력 한 모든 데이터는 목록 및 목록 항목에 입력 한 실제 데이터 (즉, 환자)가 보안 및 준수 Exchange Online 인프라에 저장 됩니다. 모든 데이터는 팀과 연결 된 그룹 사서함에 저장 됩니다. 이 아키텍처는 환자 앱에서 데이터 영주권, 정부 구름 지원 (향후 출시 예정) 및 eDiscovery 지원 등의 기타 규정 준수/정보 보호 기능을 쉽게 처리할 수 있도록 합니다. 환자 앱은 팀 범위에서 작동 합니다. 팀 당 앱의 인스턴스를 설치 해야 합니다.
+
+<!-- add link to eDiscovery article for the Patients app, Mark Johnson will finalize soon -->
+
+**환자 앱은 어디에서 받을 수 있나요?**
+
+관리자가 조직에 환자 앱을 사용 하도록 설정한 경우, 최종 사용자는 팀 app store로 이동 하 여 환자 앱을 구성원으로 속해 있는 팀에 추가할 수 있습니다. 자세한 내용은 [Microsoft 팀에서 앱 설정 정책 관리](../../teams-app-setup-policies.md)를 참조 하세요.
+
+**팀에서 환자 앱의 여러 인스턴스를 사용할 수 있나요?이는 내 말/단위가 작동 하는 방식입니다.**
+
+현재는 주어진 팀에 대 한 환자 앱의 인스턴스 중 하나만 설치 하 고 일반 채널에만 설치할 수 있습니다. 그러나 앱 내에서 여러 목록을 만들어 다중 채널 또는 격리/구분 시나리오를 처리할 수 있습니다. 기본적으로 팀의 모든 구성원은 일반 채널의 환자 탭에 액세스할 수 있습니다. 
+
+**환자 앱에서 모든 데이터를 내보낼 수 있나요?**
+지금 당장,이 기능은 곧 제공 될 예정입니다. 
+
+**이 앱은 매우 유용 하 게 사용할 수 있으므로 승인 되지 않은 액세스 또는 규정 준수를 방지 하는 감사가 있나요?**
+
+예. 환자 앱의 Microsoft 팀 사용자가 수행한 모든 단일 UI 동작은 감사 되 고 보안 및 준수 센터에서 사용할 수 있습니다. 세부 정보는 [여기](patients-audit.md) 문서에 설명 되어 있습니다.
+
+
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft Teams에 전자 의료 레코드 통합](patients-app.md)

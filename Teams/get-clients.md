@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b87737aae65493652f3b87de6bbd1369d6982526
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: bfc56f9f7b02acda61b0342f28b14da5379bea31
+ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772362"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37886431"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft 팀 용 클라이언트 가져오기 
 ===========================
@@ -104,11 +104,12 @@ IT 관리자는 팀의 관리 되는 배포를 사용 하 여 Jamf Pro와 같은
 
 Linux 사용자는 Debian `.deb` 패키지를 사용 하거나 red Hat 패키지로 `.rpm`팀을 설치할 수 있습니다. 
 
-[!NOTE] Linux 클라이언트의 팀은 제한 된 미리 보기에서 사용할 수 있습니다. 클라이언트 내에서 `Report a Problem` 를 사용 하 여 버그를 제출 합니다. 알려진 문제는 [알려진 문제점](Known-issues.md)을 참조 하세요.
+> [!NOTE] 
+> Linux 클라이언트의 팀은 제한 된 미리 보기에서 사용할 수 있습니다. 클라이언트 내에서 `Report a Problem` 를 사용 하 여 버그를 제출 합니다. 알려진 문제는 [알려진 문제점](Known-issues.md)을 참조 하세요.
 
 #### <a name="install-teams-using-deb-package"></a>DEB 패키지를 사용 하 여 팀 설치
 
-1. 에서 https://aka.ms/getteams패키지를 다운로드 합니다.
+1. 에서 https://aka.ms/getteams패키지를 다운로드 합니다. (Linux 클라이언트는 제한 된 미리 보기 상태 이며 곧 시작 됩니다. 다운로드 페이지에 Linux 클라이언트가 표시 되지 않으면 아직 시작 되지 않은 것입니다.
 2. 다음 중 하나를 사용 하 여 설치 합니다.  
     - Ubuntu 소프트웨어 도구를 사용 하 여 패키지를 열고 셀프 기반 Linux 앱 설치 프로세스를 진행 합니다.
     - 또는 터미널을 선호 하는 경우 다음을 입력 합니다.`sudo apt install **teams download file**`
@@ -117,7 +118,7 @@ Linux 사용자는 Debian `.deb` 패키지를 사용 하거나 red Hat 패키지
 
 #### <a name="install-teams-using-rpm-package"></a>RPM 패키지를 사용 하 여 팀 설치
 
-1. 에서 https://aka.ms/getteams패키지를 다운로드 합니다.
+1. 에서 https://aka.ms/getteams패키지를 다운로드 합니다. (Linux 클라이언트는 제한 된 미리 보기 상태 이며 곧 시작 됩니다. 다운로드 페이지에 Linux 클라이언트가 표시 되지 않으면 아직 시작 되지 않은 것입니다.
 2. 다음 중 하나를 사용 하 여 설치 합니다.
     - Red Hat 패키지 관리 도구를 사용 하 여 패키지를 열고 셀프 기반 Linux 앱 설치 프로세스를 진행 합니다.
     - 또는 터미널을 선호 하는 경우 다음을 입력 합니다.`sudo yum install **teams download file**`

@@ -1,5 +1,5 @@
 ---
-title: 의료 조직의 팀 템플릿 시작 하기
+title: 의료 조직을 위한 Teams 서식 파일 시작
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -14,15 +14,15 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 의료 조직의 팀 템플릿 시작 하기
-ms.openlocfilehash: df917c3a6f1cbf20c9226dd58e4706c4c0e3bc2c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+description: 의료 조직을 위한 Teams 서식 파일 시작
+ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
+ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570350"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37886441"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>의료 조직의 팀 템플릿 시작 하기
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>의료 조직을 위한 Teams 서식 파일 시작
 
 Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (설정, 채널 및 사전 설치 된 앱)을 제공 하 여 빠르고 쉽게 팀을 만들 수 있습니다.
 
@@ -48,6 +48,17 @@ Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (�
 |기본 서식 파일 형식 |baseTemplateId |기준 서식 파일 채널|
 |:--- |:---|:---|
 |건강 보험-병원 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | 알림에서\* <br> 충족\* <br> Custodial <br> 인적 자원 <br> Pharmacy |
+| | |  |
+
+\*자동 즐겨찾기에 
+
+## <a name="care-coordination-template"></a>의료 조정 서식 파일
+
+의료 코디 네이션는 interdisciplinary 및 multidisciplinary 팀을 비롯 한 몇 가지 예를 들어 환자 의료 팀 내에서 의사 소통을 용이 하 게 하기 위한 것입니다. 이 서식 파일에는 독점 환자 응용 프로그램이 미리 로드 되어 있으며 일반 채널에 있습니다. 환자 응용 프로그램을 사용 하 여 환자 및 관련 값과 vitals 목록을 만들고 반올림 및 환자 관리 시나리오에 유용 하 게 사용할 수 있습니다. 
+
+|기본 서식 파일 형식 |baseTemplateId |기준 서식 파일 채널|
+|:--- |:---|:---|
+|의료 보험 협조 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | 사후 처리 검토\* <br> 일정\* <br> 관한\* |
 | | |  |
 
 \*자동 즐겨찾기에 
@@ -163,6 +174,6 @@ Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (�
 
 ## <a name="related-topics"></a>관련 항목
 
-[팀 서식 파일 시작 하기](../../get-started-with-teams-templates.md)
+[Teams 서식 파일 시작](../../get-started-with-teams-templates.md)
 
-[건강 조직의 팀 시작 하기](teams-in-hc.md)
+[의료 조직을 위한 Teams 시작](teams-in-hc.md)

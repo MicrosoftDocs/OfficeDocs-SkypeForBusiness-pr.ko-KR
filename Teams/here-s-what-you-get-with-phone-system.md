@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '비즈니스의 기능, 사용 가능성 및 전화 시스템 (클라우드 PBX)을 계획 하 고 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 517083fb4767b54cb79f618875be7572a19faee1
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 397c8b4b42151a726dec25885ed8924cddb9f181
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565226"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885522"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능
 
@@ -51,7 +51,7 @@ PBX는 비즈니스 내의 전화 시스템입니다. Office 365 추가 기능�
 |통화 대기/검색  <br/> | 동시에 여러 번 호출할 때 사용 합니다. 다음 인바운드 통화에 응답 하거나 아웃 바운드 통화를 하는 경우, 현재 통화는 자동으로 대기 상태가 됩니다. <br/> |
 |[비즈니스용 Skype 통화 전송](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |통화를 다른 사람에 게 전달 합니다. 또는 사무실을 떠나지 않고 대화를 계속 하려면 PC 또는 IP 휴대폰의 통화를 휴대폰 이나 태블릿에서 전송할 수 있습니다.  <br/> |
 |발신자 ID  <br/> |회사 내에서의 전화에는 회사 디렉터리의 정보를 가져오는 자세한 발신자 ID가 표시 되며,이 번호는 단순히 전화번호 대신 그림과 직책을 표시 합니다. 외부 전화 번호로 전화를 걸어 전화 서비스 공급자가 제공 하는 발신자 ID가 표시 됩니다. 외부 전화 번호가 회사 디렉터리의 보조 번호 이면 회사 디렉터리의 정보가 표시 됩니다.  <br/> |
-|[클라우드 통화 대기열 만들기](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |클라우드 통화 큐에는 사용자가 조직의 전화 번호를 호출할 때 사용 되는 인사말, 통화 대기를 자동으로 전환 하는 기능, 전화를 거는 사용자가 통화를 처리 하기 위해 사용할 수 있는 다음 통화 에이전트 검색 기능 등이 포함 됩니다. 대기 중인 음악 듣기.  <br/> |
+|[클라우드 통화 큐 만들기](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |클라우드 통화 큐에는 사용자가 조직의 전화 번호를 호출할 때 사용 되는 인사말, 통화 대기를 자동으로 전환 하는 기능, 전화를 거는 사용자가 통화를 처리 하기 위해 사용할 수 있는 다음 통화 에이전트 검색 기능 등이 포함 됩니다. 대기 중인 음악 듣기.  <br/> |
 |[다른 사용자의 상태가 변경 되 면 알림](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | 이 기능을 사용 하면 현재 사용할 수 없는 사람에 게 태그를 지정 하 고 해당 현재 상태를 변경할 때 알림을 받고 전화를 받을 준비가 된 것입니다. <br/> |
 |PC, Mac 및 모바일 클라이언트  <br/> | 이렇게 하면 태블릿 및 휴대 전화에서 Pc 및 데스크톱 IP 전화에 이르기까지 디바이스의 기능을 호출할 수 있습니다. <br/> |
 |장치 전환  <br/> |다른 장치에서 통화 또는 모임을 재생할 수 있습니다.  <br/> |
@@ -64,7 +64,7 @@ PBX는 비즈니스 내의 전화 시스템입니다. Office 365 추가 기능�
 |[비즈니스용 Skype에서 착신 전환 옵션 설정](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |통화를 즉시 또는 설정한 기간 후에 팀에 보냅니다.  <br/> |
 |[비즈니스용 Skype를 사용 하 여 영상 통화 만들기 및 받기](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 스피커의 이름과 비디오 스트림을 작은 부동 창에서 볼 수 있으므로 항상 질문에 응답할 준비가 된 것입니다. <br/> |
 |[비즈니스용 Skype 음성 메일 및 옵션 확인](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |클라우드 보이스 메일이 작동 하는 방법은 다음과 같습니다. 사용자가 보이스 메일을 받으면 해당 사서함에 음성 메일 메시지가 첨부 파일로 포함 된 전자 메일로 배달 됩니다. 또한 Skype 인증 된 데스크톱 전화기, 모든 Skype for Business 응용 프로그램 또는 Mac 용 Lync 2011을 통해 메시지를 수신할 수 있습니다.  <br/> 클라우드 보이스 메일에는 맞춤형 인사말, 메시지 대기 표시기, 통화와의 회신 등이 포함 됩니다. 모든 보이스 메일을 사서함에 보관 하 고 PC, 모바일 장치 및 IP 휴대폰에 비즈니스용 Skype를 통해 사용할 수 있습니다.  <br/> |
-|대기 중인 음악 | 2019 년 9 월에 제공 되는 전화 시스템은 PSTN (공개 통신 네트워크)에서 외부 통화가 대기 상태로 전환 될 때 서비스에서 정의 하는 기본 음악을 재생 합니다.  이 기능은 통화 대기열에 대 한 통화 외에 일대일 PSTN 간 통화에 적용 됩니다. 이 기능은 다른 플랫폼에 대 한 보류 알림 패리티를 제공 합니다. (다른 모든 플랫폼은 사용자가 대기 상태로 전환할 때 시각적 신호를 제공 하지만, PSTN 발신자는 알 수 없습니다.)  첫 번째 릴리스에서는 관리자가이 기능을 구성할 수 없습니다.| 
+|대기 중인 음악 | 2019 년 9 월에 제공 되는 전화 시스템은 PSTN (공개 통신 네트워크)에서 외부 통화가 대기 상태로 전환 될 때 서비스에서 정의 하는 기본 음악을 재생 합니다.  이 기능은 통화 대기열에 대 한 통화 외에 일대일 PSTN 간 통화에 적용 됩니다. 이 기능은 다른 플랫폼에 대 한 보류 알림 패리티를 제공 합니다. (다른 모든 플랫폼은 사용자가 대기 상태로 전환할 때 시각적 신호를 제공 하지만, PSTN 발신자는 알 수 없습니다.)  첫 번째 릴리스에서는 관리자가이 기능을 구성할 수 없습니다. 또한 consultative는 PSTN 통화 전송에서 지원 되지 않습니다.| 
 |역방향 번호 조회 | 2019 년 9 월에 제공 되는 경우, 전화 시스템은 해당 번호가 AAD의 사용자와 연결 된 경우 외부 전화 번호에 대 한 ID 라고 표시 됩니다. 전화 번호가 AAD에 없으면 사용할 수 있는 telco 제공 된 표시 이름이 표시 됩니다.  |
 
    
@@ -113,7 +113,7 @@ GCC High 및 DoD 클라우드에서는 다음 기능을 아직 사용할 수 없
 ## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 
-[오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능 여부](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
  
