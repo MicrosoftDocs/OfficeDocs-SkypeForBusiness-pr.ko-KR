@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a196fd3de81cf5e68a5fdaf389b3acad9465ef7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ae71be1cfed86597f70b6ed7bfec08b42a2ce256
+ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242319"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37913031"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft 팀을 위한 관리 빠른 시작
 
@@ -31,6 +31,8 @@ ms.locfileid: "36242319"
 - 이전 평가의 관계자가이 제한 된 비즈니스 보 딩에 참여 하는 데 좋은 후보자가 있나요?
 - 이 단계의 좋은 사용 사례를 제안 하는 개인 (또는 개인 그룹)이 있나요?  
 - 조직의 직원 들이 초기에 대 한 평가를 할 수 있을 만큼의 관심이 있고, 의미 있고 정기적인 피드백이 있으신가요? 
+
+자세한 내용은 팀의 관리 [팀 및](plan-teams-governance.md) [수명 주기 관리 계획](plan-teams-lifecycle.md)을 참고 하세요.
 
 ## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![결정 지점을 나타내는 아이콘](media/teams-adoption-decision-icon.png)사항이
 

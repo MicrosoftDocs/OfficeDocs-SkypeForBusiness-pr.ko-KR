@@ -15,14 +15,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2400ef05c65bf69adb820d62e98c93c060641350
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4ab8f3571ac38273f40cc228c05b51c8f00159a1
+ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573254"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37913049"
 ---
-# <a name="plan-for-governance-in-teams"></a>팀의 관리 계획
+# <a name="plan-for-governance-in-teams"></a>Teams에서 거버넌스 계획
 
 팀은 조직에서 요구할 수 있는 모든 관리 기능을 구현 하는 다양 한 도구 집합을 제공 합니다. 이 문서에서는 IT 전문가에 게 관리 요구 사항 및이를 충족 하는 방법에 대 한 질문을 안내 합니다. 
 
@@ -118,7 +118,7 @@ ms.locfileid: "37573254"
 조직에 맞게 구현 하는 방법에 대 한 기술 지침을 포함 하 여 모든 설정에 대 한 자세한 목록은 다음 문서를 참조 하세요.
 
 - [조직의 Microsoft 팀 설정 관리](enable-features-office-365.md)
-- [새 Microsoft 팀 관리 센터로 전환 하는 동안 팀 관리](manage-teams-skypeforbusiness-admin-center.md)
+- [새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리](manage-teams-skypeforbusiness-admin-center.md)
 - [팀에서 모임 정책 관리](meeting-policies-in-teams.md)
 - [팀에서 메시징 정책 관리](messaging-policies-in-teams.md)
 
@@ -130,6 +130,10 @@ ms.locfileid: "37573254"
 
 > [!Important]
 > 조직에 준수 및 보안 요구 사항이 있는 경우 [Microsoft 팀의 보안 및 준수에](security-compliance-overview.md)대 한 개요 문서에서 해당 항목에 대해 제공 되는 심층적인 콘텐츠를 검토 하세요.
+
+## <a name="related-topics"></a>관련 항목
+
+[팀을 위한 관리 빠른 시작](teams-adoption-governance-quick-start.md)
 
 <!--
 ## Teams lifecycle management
