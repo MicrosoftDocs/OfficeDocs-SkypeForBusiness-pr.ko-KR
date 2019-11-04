@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '응급 위치, 장소, 긴급 통화 라우팅, 그리고 사용자에 게 계획 하 고 할당 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: ff29f807f0766889db8e6be4305e994bdc9637fe
-ms.sourcegitcommit: d0f03b8abccdacb675f1063a7532397fd0e91a58
+ms.openlocfilehash: 4dbfe8d2a10c24ae66967030007328d2b9422e34
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "37901907"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925389"
 ---
 # <a name="what-are-emergency-locations-places-and-call-routing"></a>응급 위치, 장소 및 통화 라우팅이란?
 
@@ -59,7 +59,7 @@ ms.locfileid: "37901907"
     > [!IMPORTANT]
     > 주소 또는 도심 주소의 유효성을 검사 하는 경우 정확 하 게 서식이 지정 되었는지 확인 해야 합니다. 구/군/시의 잘못 된 이름 등 부분적으로 올바른 긴급 주소를 입력 해도 여전히 유효성 검사를 통과할 수 있습니다. 유효성 검사 프로세스는 지정 된 주소의 모든 부분을 사용 하 여 통화를 적절 한 긴급 파견 센터로 라우팅할 수 있는 충분 한 정보가 있는지 확인 합니다. 그렇다면 유효성이 검사 된 것으로 반환 되 고 전화 번호에 할당 될 수 있습니다.
   
-3. **전화 번호를 가져옵니다**. 다음 단계는 사용자의 전화 번호를 가져오는 것입니다. Office 365에서 새 전화 번호를 가져오거나 "포팅" 하거나 기존 전화 번호를 Office 365으로 전송 하 여이 작업을 수행할 수 있습니다. 전체 단계를 보려면 [전화 번호를 Office 365으로 전송](transfer-phone-numbers-to-office-365.md)을 참조 하세요.
+3. **전화 번호를 가져옵니다**. 다음 단계는 사용자의 전화 번호를 가져오는 것입니다. Office 365에서 새 전화 번호를 가져오거나 "포팅" 하거나 기존 전화 번호를 Office 365으로 전송 하 여이 작업을 수행할 수 있습니다. 전체 단계를 보려면 [전화 번호를 팀에 옮기기](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)를 참조 하세요.
     
 4. **전화 번호를 할당**합니다. 마지막 단계는 사용자가 전화를 걸고 받을 수 있도록 하는 것입니다. 이렇게 하려면 각 사용자에 게 전화 번호를 할당 해야 합니다. [사용자의 전화 번호 지정, 변경 또는 제거](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) 를 참조 하 여 전화 번호를 할당 합니다.
 

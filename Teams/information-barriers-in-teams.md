@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: 정보 장벽 및 팀의 영향에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a8f67e03ca005ef99a4a2fbfd3c3e05373c53ad
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+ms.openlocfilehash: f3d6d8d603d9ff6ccf20a355e374b58fdf46ffa1
+ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885532"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931806"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 팀의 정보 장벽
 
@@ -27,7 +27,7 @@ ms.locfileid: "37885532"
 > [!NOTE]
 > - 테 넌 트 간에 정보 장벽 그룹을 만들 수 없습니다.
 > - 봇을 사용 하 여 사용자를 추가 하는 것은 버전 1에서 지원 되지 않습니다.
-> - 정보 장벽 버전 1에는 SharePoint 및 비즈니스용 OneDrive에 대 한 지원이 포함 되어 있지 않습니다. SharePoint에서 기능을 사용 하도록 설정 하는 중 이며, 사용할 수 있게 되 면 통신 합니다.
+> - 신규: 팀에 연결 된 SharePoint 사이트에 대 한 정보 장벽 지원은 이제 비공개 미리 보기입니다. 비공개 미리 보기에 참여 하려면 [여기](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) 를 클릭 하세요. .
 
 정보 장벽 정책은 또한 조회 및 검색을 방지 합니다. 따라서 통신 하지 않아야 하는 사람과 통신을 시도 하는 경우에는 사용자 선택에서 해당 사용자를 찾지 못합니다.
 
@@ -76,45 +76,37 @@ IB 준수 관리 역할은 정보 장벽 정책 관리를 담당 합니다. 이 
 - **그룹 채팅** -한 사용자에서 그룹으로의 통신을 더 이상 사용할 수 없는 경우 (예: 사용자가 작업을 변경 하는 경우) 해당 정책을 위반 하는 다른 사용자와 함께 그룹 채팅에서 제거 될 수 있으며 그룹과의 추가 통신은 그렇지 않습니다. 허용. 사용자는 여전히 이전 대화 (읽기 전용)를 볼 수 있지만 그룹과 새로운 대화를 보거나 참여할 수는 없습니다. 통신을 차단 하는 새 정책이 여러 사용자에 게 적용 되는 경우 해당 정책의 영향을 받는 사용자가 그룹 채팅에서 제거 될 수 있습니다. 이전 대화를 계속 볼 수 있습니다. 
 - **팀** -그룹에서 제거 된 모든 사용자가 팀에서 제거 되 고 기존 또는 새 대화를 보거나 참여할 수 없게 됩니다.
 
+
 ## <a name="what-will-users-experience-if-another-user-is-blocked"></a>다른 사용자가 차단 되는 경우 사용자에 게 어떤 문제가 있나요?
 
 현재는 정보 장벽 정책이 다른 사용자를 차단 하는 경우 사용자에 게 다음과 같은 경험을 경험할 수 있습니다.
 
-- **인물 정보 탭** -사용자가 **사람** 탭에서 일부 차단 된 사용자를 볼 수 있습니다. 사용자는 차단 된 사용자를 선택할 수 있습니다.
-- **활동 탭** -사용자가 차단 된 사용자의 **활동** 탭을 방문 하면 게시물이 표시 되지 않습니다. ( **활동** 탭에는 채널 게시물만 표시 되며, 두 사용자 사이에는 공통 채널이 없습니다.)
-- **조직도** -사용자가 차단 된 사용자가 표시 되는 조직도에 액세스 하면 사용자에 게 차트에 대 한 사용자 차단이 표시 되 고 차트에서 작업을 클릭할 수 있지만, 통화 등의 동작은 진행 되지 않습니다.
-- **인물 정보** -사용자가 대화에 참여 하 고 그 후에 차단 되는 경우 다른 사용자는 차단 된 사용자에 대 한 사용자 카드를 계속 볼 수 있습니다. 카드에 나열 된 모든 작업 (예: 통화 및 채팅)은 사용할 수 있지만 동작은 진행 되지 않습니다.
-- **추천** 연락처-제안 된 연락처 목록 (새 사용자에 게 표시 되는 초기 연락처 목록)에서 사용자가 모든 추천 연락처 (차단 된 사용자 포함)를 볼 수 있습니다. 그러나 사용자가 차단 된 사용자의 이름을 클릭 하 여 채팅 창을 열면 메시지가 차단 됩니다.
-- **채팅 연락처** -사용자가 채팅 대화 상대 목록에 차단 된 사용자를 볼 수 있습니다.
-- **대화 상대** 에 게 전화-사용자는 호출 연락처 목록에 있는 차단 된 사용자를 볼 수 있으며, 통화 및 메시지 보내기와 같은 작업이 표시 되지만, 사용자가 차단 된 사용자에 게 전화를 거는 경우에는 통화 또는 메시지가 이동 하지 않습니다.
-- **Skype To 팀 마이그레이션** -비즈니스용 skype 마이그레이션 중-모든 사용자는 정보 장벽 정책에 의해 차단 된 경우에도 팀으로 마이그레이션되고, 위에서 설명한 대로 처리 됩니다.
-
-출시 예정: 정보 장벽 정책이 다른 사용자를 차단 하는 경우 사용자는 다음을 경험할 수 있습니다.
-
 - **인물 정보 탭** -사용자가 대화 **상대** 탭에서 차단 된 사용자를 볼 수 없습니다.
+- **사용자 선택** -차단 된 사용자는 사용자 선택에 표시 되지 않습니다.
 - **활동 탭** -사용자가 차단 된 사용자의 **활동** 탭을 방문 하면 게시물이 표시 되지 않습니다. ( **활동** 탭에는 채널 게시물만 표시 되며, 두 사용자 사이에는 공통 채널이 없습니다.)
 - **조직도** -사용자가 차단 된 사용자가 표시 되는 조직도에 액세스 하는 경우 차단 된 사용자가 조직도에 나타나지 않고 대신 오류 메시지가 표시 됩니다.
 - **인물 정보** -사용자가 대화에 참여 하 고 있고 그 사용자가 차단 되는 경우 사용자 카드에 차단 된 사용자의 이름을 가리키면 다른 사용자에 게 오류 메시지가 표시 됩니다. 카드 (통화 및 채팅 등)에 나열 된 동작을 사용할 수 없습니다.
 - **추천 연락처** -차단 된 사용자는 추천 연락처 목록 (새 사용자에 대해 표시 되는 초기 연락처 목록)에 표시 되지 않습니다.
-- **채팅 연락처** -사용자가 채팅 대화 상대 목록에 차단 된 사용자를 볼 수 없습니다.
+- **채팅 연락처** -사용자가 채팅 대화 상대 목록에서 차단 된 사용자를 볼 수 있지만 차단 되는 사용자를 식별 하 고 사용자가 수행할 수 있는 유일한 동작은 삭제 하는 것입니다. 사용자는이를 클릭 하 여 이전 대화를 볼 수도 있습니다.
 - **대화 상대** 에 게 전화-사용자가 차단 된 사용자를 볼 수 있으 나 차단 되는 사용자를 식별 하 고 사용자가 수행할 수 있는 유일한 동작은 삭제 하는 것입니다.
 - **Skype To 팀 마이그레이션** -비즈니스용 skype 마이그레이션 중-모든 사용자는 정보 장벽 정책에 의해 차단 된 경우에도 팀으로 마이그레이션되고, 위에서 설명한 대로 처리 됩니다.
 
+
+
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
-정보 장애물은 지금 롤아웃 되며 다음 구독에 포함 됩니다.
+팀을 만들 때 SharePoint 사이트를 프로 비전 하 고 파일 환경을 위해 팀과 연결 합니다. 이 SharePoint 사이트 및 파일에 대 한 액세스는 조직의 IB 정책 즉, IB 정책에 따라 IB 세그먼트가 일치 하는 사용자만 액세스를 허용 합니다. 파일 공유 시에도 IB 정책이 허용 됩니다.
 
-- Microsoft 365 E5
-- Office 365 E5
-- Office 365 고급 준수
-- Microsoft 365 E5 준수
+예: Contoso Bank corporation에서 사용자 ' Sesha@contosobank.onmicrosoft.com '은 투자 은행 부문에 속하고 ' Nikita@contosobank.onmicrosoft.com ' 사용자는 세그먼트 권고에 속합니다. 조직의 IB 정책은 이러한 두 세그먼트 간의 통신과 공동 작업을 차단 합니다. 사용자가 투자 은행 부문에 대 한 팀을 만드는 경우 팀과이를 지 원하는 SharePoint 사이트는 투자 은행 부문 사용자만 액세스할 수 있습니다. 사이트 링크를가지고 있는 경우에도 사용자 Nikita 해당 사이트에 액세스할 수 없습니다.
 
-계획 및 가격을 비롯 한 자세한 내용은 [규정 준수 솔루션](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1)을 참조 하세요.
+계획 및 가격을 비롯 한 자세한 내용은 [라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance)을 참조 하세요.
+
 
 ## <a name="more-information"></a>추가 정보
 
 - 정보 장벽에 대해 자세히 알아보려면 [정보 장벽](https://docs.microsoft.com/office365/securitycompliance/information-barriers)을 참조 하세요.
 
-- 정보 장벽 정책을 설정 하려면 [정보 장벽에 대 한 정책 정의](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies) 를 참조 하세요.
+- 정보 장벽 정책을 설정 하려면 [정보 장벽에 대 한 정책 정의](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)를 참조 하세요.
 
 - 정보 장벽 정책을 편집 하거나 제거 하려면 [정보 장벽 정책 편집 (또는 제거)](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md) 을 참조 하세요.
+

@@ -18,10 +18,10 @@ f1keywords:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f5780720cfcd5adcf079c0f3d31423949cecea23
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37573431"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 준수에 대 한 개요
@@ -91,7 +91,7 @@ Office 365 보안 & 준수에 대 한 자세한 내용은 [향상 된 보안을 
 > [!IMPORTANT]
 > 팀 콘텐츠를 검색 하는 데 최대 24 시간이 걸릴 수 있습니다.
 
-<a name="licensing"></a>부여
+<a name="licensing"></a>라이선싱
 ---------------
 
 정보 보호 기능에 도달 하면 Office 365 구독 및 관련 독립 실행형 라이선스에서 사용 가능한 기능 집합을 결정 합니다.
@@ -99,13 +99,13 @@ Office 365 보안 & 준수에 대 한 자세한 내용은 [향상 된 보안을 
 
 | 정보 보호 기능 | Office 365 비즈니스 주요 기능 | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
-|              보관할              |               -                |              -              |            -             |             '             |           '            |
-|        원본 위치 eDiscovery        |               -                |              -              |            -             |             '             |           '            |
-|        고급 eDiscovery        |               -                |              -              |            -             |              -              |           '            |
-|            법률 보류             |               -                |              -              |            -             |             '             |           '            |
-|     콘텐츠 검색 준수     |               -                |             '             |           '            |             '             |           '            |
-|      감사 및 보고       |              '               |             '             |           '            |             '             |           '            |
-|       조건부 액세스\*        |              '               |             '             |           '            |             '             |           '            |
+|              보관할              |               -                |              -              |            -             |             예             |           예            |
+|        원본 위치 eDiscovery        |               -                |              -              |            -             |             예             |           예            |
+|        고급 eDiscovery        |               -                |              -              |            -             |              -              |           예            |
+|            법률 보류             |               -                |              -              |            -             |             예             |           예            |
+|     콘텐츠 검색 준수     |               -                |             예             |           예            |             예             |           예            |
+|      감사 및 보고       |              예               |             예             |           예            |             예             |           예            |
+|       조건부 액세스\*        |              예               |             예             |           예            |             예             |           예            |
 
 > [!NOTE]
 > \*조건부 액세스에 추가 라이선스가 필요 함
@@ -120,7 +120,7 @@ Office 365 보안 & 준수에 대 한 자세한 내용은 [향상 된 보안을 
 
 콘텐츠 검색 및 eDiscovery는 보안 & 준수 센터에서의 실행이 필요 하지 않습니다.
 
-<a name="location-of-data-in-teams"></a>팀의 데이터 위치
+<a name="location-of-data-in-teams"></a>Teams의 데이터 위치
 -------------------------
 
 팀의 데이터는 Office 365 테 넌 트와 연결 된 지리적 영역에 위치 합니다. 현재, 팀은 오스트레일리아, 캐나다, 프랑스, 인도, 일본, 영국, 대한민국, 남아프리카, 미주, APAC, EMEA 지역을 지원 합니다. 

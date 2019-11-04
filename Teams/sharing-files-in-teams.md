@@ -3,7 +3,6 @@ title: Microsoft 팀에서 파일 공유
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -15,19 +14,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b9eee925a61352ef23b9f7c62fbe6fd58df5122
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ae468fdb38c047ae257efeda2465949b1babcb01
+ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568692"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931796"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Microsoft 팀에서 파일 공유
 
-> [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-article.md)]
-
 팀의 파일 공유 기능을 통해 사용자는 조직의 다른 팀 사용자와 콘텐츠를 공유할 수 있습니다. 팀에서 공유 하는 작업은 SharePoint 및 OneDrive에서 구성 된 설정을 기반으로 하므로 SharePoint와 OneDrive에 대해 설정 하는 모든 작업은 팀의 공유를 제어 합니다.
-![팀과 비즈니스용 OneDrive 및 SharePoint 간의 파일 공유가 작동 하는 방식을 나타내는 다이어그램](media/sharing-files-in-teams-image1.png)
+
+![팀, SharePoint, OneDrive가 함께 작동 하는 방법을 보여 주는 다이어그램](media/sharing-files-in-teams-image1.png)
 
 팀 공유: 사용자는 다음을 수행할 수 있습니다.
 

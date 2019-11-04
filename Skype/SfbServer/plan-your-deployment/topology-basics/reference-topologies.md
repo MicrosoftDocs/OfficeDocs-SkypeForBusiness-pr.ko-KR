@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: 대규모, 중급, 소규모 조직을 위한 다이어그램 및 결정을 포함 하 여 비즈니스용 Skype 서버용 참조 토폴로지.
-ms.openlocfilehash: 9ec00fb6aa8d318a1eddec4b16c902e5f0fca5dd
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 7f284b141da25175e3a41545349a0e61f6036019
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197906"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37028355"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 참조 토폴로지
 
@@ -79,7 +79,7 @@ ms.locfileid: "36197906"
 
 - **지점 사이트 배포 옵션** 이 토폴로지의 조직에는 음성 솔루션으로 배포 되는 Enterprise Voice가 있습니다. 지점 사이트 1에 중앙 사이트에 대 한 탄성 광역 네트워크 (WAN) 링크가 없으므로 중앙 사이트에 대 한 WAN 연결이 다운 되는 경우 여러 비즈니스용 Skype 서버 기능을 유지 관리 하도록 Survivable Branch 기기를 배포 했습니다. 그러나 지점 사이트 2에는 탄성 WAN 링크가 있으므로, PSTN (공개 통신 네트워크) 게이트웨이만 필요 합니다. PSTN 게이트웨이가 미디어 바이패스를 지원 하기 때문에 지점 사이트 2에서 중재 서버는 필요 하지 않습니다. 자세한 내용은 [비즈니스용 Skype 서버에서 엔터프라이즈 음성 복원 계획](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)을 참조 하세요.
 
-- **DNS 로드 균형 조정.** 프런트 엔드 풀 및 Edge 서버 풀에는 SIP 트래픽에 대 한 DNS 부하 분산이 배포 되어 있습니다. 이렇게 하면 경계 서버에 대 한 하드웨어 부하 분산 장치가 필요 하지 않으며 하드웨어 로드 균형 조정기는 HTTP 트래픽에만 필요 하므로 다른 풀의 하드웨어 부하 분산 장치 설정 및 유지 관리를 크게 줄일 수 있습니다. 자세한 내용은 (()을 참조 하세요. /.. /plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
+- **DNS 로드 균형 조정.** 프런트 엔드 풀 및 Edge 서버 풀에는 SIP 트래픽에 대 한 DNS 부하 분산이 배포 되어 있습니다. 이렇게 하면 경계 서버에 대 한 하드웨어 부하 분산 장치가 필요 하지 않으며 하드웨어 로드 균형 조정기는 HTTP 트래픽에만 필요 하므로 다른 풀의 하드웨어 부하 분산 장치 설정 및 유지 관리를 크게 줄일 수 있습니다. 자세한 내용은 [DNS 부하 분산](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing)을 참조 하세요.
 
 - **Exchange UM 배포** 이 참조 토폴로지에는 비즈니스용 Skype 서버가 아닌 Microsoft Exchange Server를 실행 하는 UM (Exchange 통합 메시징) 서버가 포함 됩니다.
 

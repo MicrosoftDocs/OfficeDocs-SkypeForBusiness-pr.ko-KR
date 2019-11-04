@@ -1,5 +1,5 @@
 ---
-title: 새 Microsoft 팀 관리 센터로 전환 하는 동안 팀 관리
+title: 새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -20,13 +20,13 @@ appliesto:
 - Microsoft Teams
 - Skype for Business Online
 ms.openlocfilehash: 0d473ffa67b21c4ec3a160a8687a1688ea1d1cf5
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37570583"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>새 Microsoft 팀 관리 센터로 전환 하는 동안 팀 관리
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
 ======================================================
 
 > [!IMPORTANT]
@@ -93,7 +93,7 @@ ms.locfileid: "37570583"
 
 다음 표에서는 마이그레이션 중에 기능을 관리할 수 있는 위치를 보여 줍니다.
 
-|요소  |Microsoft 팀 관리 센터                      |비즈니스용 Skype 관리 센터 (레거시)  |Microsoft 365 관리 센터  |
+|기능  |Microsoft 팀 관리 센터                      |비즈니스용 Skype 관리 센터 (레거시)  |Microsoft 365 관리 센터  |
 |---------|:---------:|:---------:|:---------:|
 |팀 메시징, 모임 및 라이브 이벤트 정책     |     축    |         |         |
 |팀 업그레이드 정책     |    축     |         |         |

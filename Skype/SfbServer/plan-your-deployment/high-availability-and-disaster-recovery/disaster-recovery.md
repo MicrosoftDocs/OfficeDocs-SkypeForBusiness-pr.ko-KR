@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 재난 복구의 경우 비즈니스용 Skype 서버는 한 풀이 중단 되는 경우 장애 조치와 함께 풀 페어링을 제공 합니다.
-ms.openlocfilehash: 15df85790cd7959b88126c5e6bb0e7fd99b836e1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3999b7b8c2dd9b5eea942779f09924c6b5a79210
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196891"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37341934"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 프론트 엔드 풀 재해 복구
  
@@ -56,7 +56,7 @@ ms.locfileid: "36196891"
   
 풀 장애 조치 및 풀 장애 복구를 위해 RPO (복구 시점 목표)에 대 한 엔지니어링 대상은 5 분입니다. 이는 백업 서비스의 복제 지연으로 인해 재해가 발생 하 여 손실 될 수 있는 데이터의 시간 측정값을 나타냅니다. 예를 들어 풀이 오전 10:00 시에 중단 되 고 RPO가 5 분 이면 오전 9:55 사이에 풀에 기록 된 데이터 10:00. M .이 (가) 백업 풀에 복제 되지 않았을 수 있으며, 손실 됩니다.
   
-이 문서의 모든 RTO 및 RPO 번호는 두 개의 데이터 센터가 동일한 월드 지역 내에 있으며, 두 사이트 간에 고속, 짧은 지연 전송을 사용 한다고 가정 합니다. 이러한 번호는 데이터 복제에 백로그가 없는 미리 정의 된 사용자 모델에 대해 4만 동시 활성 사용자 및 20만 사용자가 Lync에 대해 사용 하도록 설정 된 풀에 대해 측정 됩니다. 성능 테스트 및 유효성 검사에 따라 변경 될 수 있습니다.
+이 문서의 모든 RTO 및 RPO 번호는 두 개의 데이터 센터가 동일한 월드 지역 내에 있으며, 두 사이트 간에 고속, 짧은 지연 전송을 사용 한다고 가정 합니다. 이러한 번호는 데이터 복제에 백로그가 없는 미리 정의 된 사용자 모델과 관련 하 여 비즈니스용 Skype에 대해 사용 하도록 설정 된 4만 동시 활성 사용자와 20만 사용자가 있는 풀에 대해 측정 됩니다. 성능 테스트 및 유효성 검사에 따라 변경 될 수 있습니다.
   
 ## <a name="central-management-store-failover"></a>중앙 관리 저장소 장애 조치(failover)
 

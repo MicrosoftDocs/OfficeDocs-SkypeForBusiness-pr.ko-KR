@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Windows 이외의 운영 체제를 사용 하는 조직에서 사용 되는 디바이스에 대해 QoS를 사용 하도록 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: adb879d2319c5eeeb84578907ce57a3a408d9a13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 956fff0e7fc69b1950e35261c02f9f44977510ce
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188532"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37341944"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>비즈니스용 Skype 서버에서 QoS를 사용 하도록 설정 하는 경우 Windows를 기반으로 하지 않는 장치
 
@@ -65,5 +65,9 @@ EnableQoS 속성 값을 False로 설정 하 여 Windows 이외의 운영 체제�
 이렇게 하면 네트워크의 다른 부분에서 서비스 품질을 사용 하지 않도록 설정 하는 동안 네트워크의 일부 부분 (예: Redmond 사이트)에 QoS를 구현할 수 있습니다.
 
 QoS는 Windows PowerShell을 사용 하 여 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 이 옵션은 비즈니스용 Skype Server 제어판에서 사용할 수 없습니다.
+
+> [!NOTE]
+> IOS 버전 6.17 이상 용 비즈니스용 Skype 클라이언트는 이제 QoS를 지원 합니다.  이 QoS 접근 권한 값은 비즈니스용 Skype 클라이언트와 관리 네트워크의 Lync 풀 서버에 직접 등록 된 IP 전화 장치에만 적용 됩니다. QoS는 인터넷 상에 서 라우팅된 트래픽에는 적용 되지 않습니다.
+
 
 

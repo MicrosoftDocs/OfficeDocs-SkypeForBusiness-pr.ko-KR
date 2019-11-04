@@ -14,10 +14,10 @@ description: Microsoft 팀에서 개인 채팅, 그룹 채팅 및 채널을 위�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 7837fd3a832a1764cfde3968b73337069762dab3
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37516836"
 ---
 <a name="add-bots-for-personal-chats-group-chats-and-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채팅, 그룹 채팅 및 채널을 위한 인공 지능 추가

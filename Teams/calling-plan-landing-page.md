@@ -14,14 +14,14 @@ search.appverid: MET150
 description: 통화 계획 랜딩 페이지
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 998c0964239e430451a157bb6d8d0034fc7d19a7
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: d27169d5f65fb693ce49453f7e7c965f867198ad
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517002"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925589"
 ---
-# <a name="which-calling-plan-is-right-for-you"></a>사용자에 게 적합 한 통화 요금제는 무엇 인가요? 
+# <a name="which-calling-plan-is-right-for-you"></a>사용자에게 적합한 통화 플랜은 무엇인가요? 
 
 [시작](get-started-with-teams-quick-start.md)하기를 완료 했습니다. 조직에서 [채팅, 팀, 채널, & 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 을 사용 하 여 팀을 롤아웃 했습니다. [모임 & 회의](deploy-meetings-microsoft-teams-landing-page.md)를 배포 했을 수도 있습니다. 이제 클라우드 음성 작업 부하를 추가할 준비가 되었고, 통화 요금제로 Microsoft 전화 시스템을 사용 하 여 PSTN (공개 교환 전화 네트워크)에 연결 하기로 결정 했습니다. 
 
@@ -54,9 +54,9 @@ Microsoft를 전화 통신 회사로 사용 하려면 통화 요금제 라이선
 사용자에 게 직접 바로 안쪽 전화 접속 (a) 전화 번호를 사용 하 고 있습니까? | 전화 번호를 얻으려면 [3 단계: 전화 번호 받기를](set-up-calling-plans.md#step-3-get-phone-numbers)참고 하세요. |
 |||
 
-### <a name="transfer-phone-numbers-to-office-365"></a>Office 365에 전화 번호 전송
+### <a name="transfer-phone-numbers-to-office-365"></a>Office 365로 전화 번호 전송
 
-현재 서비스 공급자에서 팀으로 전화 번호를 쉽게 전송할 수 있습니다. 전화 번호를 팀으로 이식 하면 Microsoft가 서비스 공급자가 되며 해당 전화 번호로 청구 됩니다. 자세한 내용은 [Office 365으로 전화 번호 전송을](transfer-phone-numbers-to-office-365.md)참조 하세요.
+현재 서비스 공급자에서 팀으로 전화 번호를 쉽게 전송할 수 있습니다. 전화 번호를 팀으로 이식 하면 Microsoft가 서비스 공급자가 되며 해당 전화 번호로 청구 됩니다. 자세한 내용은 [팀으로 전화 번호 전송을](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)참조 하세요.
 
 
 ### <a name="phone-numbers-and-emergency-locations"></a>전화 번호 및 비상 위치

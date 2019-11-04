@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 팀에서 클라우드 음성을 배포 하기 위한 랜딩 페이지
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f60159d2d9d65afd3837a0b48b82ac7e13b8e0df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 969d55f41226d1c6effaf4c183992f15bf48e385
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37515835"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925579"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft 팀의 클라우드 음성
 
@@ -44,7 +44,7 @@ ms.locfileid: "37515835"
 - [통화 요금제가 포함 되어 있는 전화 시스템](calling-plan-landing-page.md)
 - [전화 시스템 직접 라우팅](direct-routing-landing-page.md)
 - [클라우드 음성 배포](cloud-voice-deployment.md)
-- [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - 전화 시스템에 대 한 자세한 내용을 보려면 다음 세션을 시청 하세요. [Microsoft 팀의 전화 시스템 소개](https://aka.ms/teams-phone-system)
 
 
@@ -78,14 +78,14 @@ ms.locfileid: "37515835"
 
 조직의 필요 및 구성에 따라 다음에 대 한 설정을 변경할 수 있습니다.
 
-- 보이스 메일
+- 음성 메일
 - 통화 id
 - Microsoft의 전화 번호
 - 다이얼 플랜
 - 통화 대기열
 - 자동 전화 교환
 
-### <a name="voicemail"></a>보이스 메일
+### <a name="voicemail"></a>음성 메일
 
 Azure 보이스 메일 서비스를 통해 제공 되는 클라우드 보이스 메일은 Exchange 사서함에 대 한 보이스 메일 저축과 지원 하며 타사 전자 메일 시스템을 지원 하지 않습니다. 클라우드 보이스 메일에는 조직의 모든 사용자가 기본적으로 사용 하도록 설정 된 음성 메일의 내용이 포함 됩니다. 비즈니스 요구에 따라 특정 사용자 또는 조직 전체에 대 한 보이스 메일을 사용 하지 않도록 설정 해야 할 수 있습니다.
 
@@ -112,7 +112,7 @@ Microsoft에는 두 가지 유형의 전화 번호, 즉 조직의 사용자에 �
 | :------------|:-------|
 | Microsoft에서 새 전화 번호를 필요로 하는 사용자 위치는 무엇 인가요? | 전화 번호를 가져오는 방법에 대 한 자세한 내용은 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 및 [사용자의 전화 번호 가져오기를](getting-phone-numbers-for-your-users.md)참고 하세요. 
 | 어떤 종류의 전화 번호 (구독자 또는 서비스)가 필요 합니까? | 필요한 전화 번호 유형을 선택 하는 데 도움이 되도록 [통화 요금제에 사용 되는 다른 종류의 전화](different-kinds-of-phone-numbers-used-for-calling-plans.md)번호를 참조 하세요.
-기존 전화 번호를 Office 365으로 이식 하려면 어떻게 하나요?|자세한 내용은 [Office 365으로 전화 번호 전송을](transfer-phone-numbers-to-office-365.md)참조 하세요.
+기존 전화 번호를 팀에 게 이식 하려면 어떻게 하나요?|자세한 내용은 [Microsoft 팀으로 전화 번호 전송을](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)참조 하세요.
 |||
 
 ### <a name="dial-plans"></a>다이얼 플랜
@@ -134,7 +134,7 @@ Office 365의 전화 시스템 기능에 있는 다이얼 플랜은 전화 번�
 
 |질문 하기|함수 |
 |:------------|:-------|
-| 내 조직에 통화 대기열이 필요 한가요? | 자세한 내용은 [클라우드 통화 대기열 만들기](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) 및 [전화 시스템 설정을](setting-up-your-phone-system.md)참조 하세요. |
+| 내 조직에 통화 대기열이 필요 한가요? | 자세한 내용은 [클라우드 통화 대기열 만들기](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) 및 [전화 시스템 설정을](setting-up-your-phone-system.md)참조 하세요. |
 
 ### <a name="auto-attendants"></a>자동 전화 교환
 
@@ -149,8 +149,8 @@ Office 365의 전화 시스템 기능에 있는 다이얼 플랜은 전화 번�
 지원 되는 장치에 대 한 자세한 내용은 다음을 참고 하세요.
 
 - [Microsoft 팀에서 장치 관리](device-management.md)
-- [IP 전화](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [USB 오디오 및 비디오 장치](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [장치에 대 한 지능형 통신](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+- [IP 전화](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [USB 오디오 및 비디오 디바이스](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [장치에 대 한 지능형 통신](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 

@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 올바른 펌웨어를 얻고, 필요한 경우 업데이트 하 고, 라이선스를 할당 하 고, 공통 지역 전화에 대 한 설정을 구성 하는 배포 단계를 알아보세요.
-ms.openlocfilehash: 9f84b8ebbdd9bfab6b146d3f748715a5e0602047
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a245db1a2033f08d50e9a3c1a32f27981a3eb702
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642506"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924899"
 ---
 # <a name="set-up-common-area-phones"></a>공통 지역 전화 설정
 일반적으로 일반 지역 전화 (CAP)는 일부 사용자가 사용할 수 있는 대기실 또는 다른 영역 등의 영역에 배치 됩니다. 예를 들어 수신 지역 전화, 문 휴대폰 또는 회의실 전화, Cap는 사용자가 아닌 장치로 설정 되며 네트워크에 자동으로 로그인 됩니다. 아래 단계에서는 전화 요금제를 사용 하 여 회사에 대 한 이러한 유형의 전화를 배포할 수 있도록 전화 시스템 계정을 설정 하는 방법에 대해 알아봅니다.
@@ -97,7 +97,7 @@ ms.locfileid: "37642506"
 
 자세한 내용은 [사용자의 전화 번호 가져오기를](/microsoftteams/getting-phone-numbers-for-your-users)참조 하세요.
 
-다른 통신 회사와 "*포트*"를 사용 하 여 전화 번호를 받아 Office 365으로 전송할 수도 있습니다. [Office 365에 전화 번호를 전송](/microsoftteams/transfer-phone-numbers-to-office-365)하세요.
+다른 통신 회사와 "*포트*"를 사용 하 여 전화 번호를 받아 Office 365으로 전송할 수도 있습니다. [전화 번호를 팀에 게 양도](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)를 참조 하세요.
 
 ### <a name="step-4---setting-up-your-phone"></a>4 단계-휴대폰 설정
 

@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f234c6fe959d35d2f92e117e28af8d15f0a02819
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 971accd5211c0d8f861ff03db115933f3c75b570
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235904"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925399"
 ---
-![배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계] (media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
+![배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행 배포 및 구현 단계의 일부입니다. 계속 하기 전에 다음 활동을 완료 했는지 확인 합니다.
 
@@ -64,4 +64,4 @@ ms.locfileid: "36235904"
 
 Office 365에서 통화 요금제를 사용 하 고 있지 않은 경우에는 팀으로 업그레이드 하는 과정의 일부로 서 엔터프라이즈 음성 배포를 전화 시스템 다이렉트 라우팅으로 전환 해야 합니다.
 
-자세한 내용은 [전화 시스템 다이렉트 라우팅에 대 한 추가 고려 사항을](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)참조 하세요. Office 365에서 통화 계획을 사용 하려는 경우 [office 365에 전화 번호를 전송](https://docs.microsoft.com/microsoftteams/transfer-phone-numbers-to-office-365)하는 지침을 참조 하세요.
+자세한 내용은 [전화 시스템 다이렉트 라우팅에 대 한 추가 고려 사항을](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)참조 하세요. Office 365에서 통화 계획을 사용할 계획 이라면 [팀에 전화 번호를 전송](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)하는 지침을 참조 하세요.

@@ -17,18 +17,18 @@ search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 f1keyword: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 전화 번호를 Microsoft 팀에 게 이식 하는 데 필요한 지침을 확인 하세요.
-ms.openlocfilehash: 53a2c640a708e5da0ed4c0d30bb678fc3cd2cbe3
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 2fe77c4efb8728a10e433866ddf10309f51934a3
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886968"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925199"
 ---
 # <a name="more-information-about-porting"></a>포팅에 대 한 추가 정보
 
 여기서는 전화 번호를 Microsoft 팀으로 포팅 하는 방법에 대 한 자세한 내용을 확인할 수 있습니다.
 
-자세한 단계별 지침은 팀에 전화 번호 이전을 참조 하세요.
+자세한 단계별 지침은 [팀에 전화 번호 이전](transfer-phone-numbers-to-teams.md)을 참조 하세요.
 
 도움이 필요 하거나 전화 번호를 더 확보 해야 하는 경우 [PSTN 서비스 데스크 도움말을 참조](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)하세요.
 
@@ -106,11 +106,11 @@ BTN (대금 청구 전화 번호)는 청구서에 포함 되 고 서비스 공�
 
 ## <a name="how-do-i-see-the-status-of-my-port-order"></a>내 포트 주문의 상태를 확인 하는 방법은 무엇 인가요?
 
-포트 주문의 상태를 확인 하 시겠습니까?
+[포트 주문의 상태를 확인 하 시겠습니까?](port-order-status.md)
 
 ## <a name="related-topics"></a>관련 항목
 
-- 포트 순서는 무엇 인가요?
+- [포트 순서는 무엇 인가요?](port-order-overview.md)
 - [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)(조직의 전화 번호 관리)
 - [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)

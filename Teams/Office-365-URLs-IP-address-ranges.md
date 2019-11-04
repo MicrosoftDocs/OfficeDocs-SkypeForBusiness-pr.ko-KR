@@ -1,5 +1,5 @@
 ---
-title: Office 365 Url 및 IP 주소 범위
+title: Office 365 URL 및 IP 주소 범위
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,13 +17,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5fc8d5bc41f7cf7a28140b30dd4a488c05b9b876
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37569839"
 ---
-<a name="office-365-urls-and-ip-address-ranges"></a>Office 365 Url 및 IP 주소 범위
+<a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 및 IP 주소 범위
 =====================================
 
 팀에 맞게 올바르게 구성 해야 하는 Url, IP 주소, 포트 및 프로토콜에 대 한 자세한 정보 및 최신 목록의 [Office 365 url 및 ip 주소 범위로](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) 이동 합니다. Microsoft는 Office 365 서비스를 지속적으로 개선 하 고 새로운 기능을 추가 하 여 필요한 포트, Url 및 IP 주소가 시간에 따라 변경 될 수 있음을 의미 합니다. 이 정보를 업데이트 하거나 변경할 때 알림을 받으려면 [RSS를 통해 구독](https://go.microsoft.com/fwlink/p/?linkid=236301) 하는 것이 좋습니다.

@@ -16,6 +16,7 @@
 
 # 채팅, 팀, 채널 및 앱
 ## [배포 계획](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+## [Teams용 관리자를 사용하여 Teams 배포](use-advisor-teams-roll-out.md)
 ## [팀 및 채널 개요](teams-channels-overview.md)
 ## [Teams에서 팀 소유자와 팀 구성원 할당](assign-roles-permissions.md)
 ## [팀의 동적 구성원 개요](dynamic-memberships.md)
@@ -363,8 +364,11 @@
 ### [조직의 전화 번호 목록 보기](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [사용자의 전화 번호 할당, 변경 또는 제거](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [서비스 전화 번호 가져오기](getting-service-phone-numbers.md)
-### [Office 365로 전화 번호 전송](transfer-phone-numbers-to-office-365.md)
-### [전화 번호 전송 자주 묻는 질문](transferring-phone-numbers-common-questions.md)
+### 전화 번호 전송
+#### [포트 순서](phone-number-calling-plans/port-order-overview.md)
+#### [Teams로 전화 번호 전송](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+#### [포트 주문 수동 제출](phone-number-calling-plans/manually-submit-port-order.md)
+#### [포트 주문의 상태 확인](phone-number-calling-plans/port-order-status.md)
 
 ## 통화 라우팅
 ### [다이얼 플랜이 무엇인가요?](what-are-dial-plans.md)

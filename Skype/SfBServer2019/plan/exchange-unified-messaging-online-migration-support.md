@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft는 2020 년 2 월에 ExchUMO (Exchange 통합 메시징 Online) 서비스를 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 인식 하 고 비즈니스 연속성을 계획 하기 위해 수행 해야 하는 작업을 요약 합니다.
-ms.openlocfilehash: 0472d142cc9d6b535b950e86e41753c82992bee5
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645251"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37616091"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
@@ -45,8 +45,8 @@ Microsoft는 ExchUMO의 기능을 사용 하는 다양 한 고객 배포를 식�
 
 |고객 그룹 |시간대  |세부적인  |
 |---------|---------|---------|
-|마이그레이션할 준비가 된 고객<br><br>마이그레이션할 기능:<br><ul><li>보이스 메일</ul>   |   3 월 2019 일  |예제의<ul><li>    간단한 보이스 메일 배포 및 사용 고객<li>마이그레이션을 실행 하기 위해 Microsoft에 대해 설정 된 모든 요구 사항이 있는 고객<ul>|
-|필수 구성 요소가 있는 고객<br><br>마이그레이션할 기능:<br><ul><li>보이스 메일<li>자동 전화 교환<li>통화 대기열</ul> |  일 년 5 월 2019 |예제의 <br><ul><li>하이브리드 구성이 완료 되지 않음<li>하이브리드 PSTN 번호가 설정 되지 않음</ul>|
+|마이그레이션할 준비가 된 고객<br><br>마이그레이션할 기능:<br><ul><li>음성 메일</ul>   |   3 월 2019 일  |예제의<ul><li>    간단한 보이스 메일 배포 및 사용 고객<li>마이그레이션을 실행 하기 위해 Microsoft에 대해 설정 된 모든 요구 사항이 있는 고객<ul>|
+|필수 구성 요소가 있는 고객<br><br>마이그레이션할 기능:<br><ul><li>음성 메일<li>자동 전화 교환<li>통화 대기열</ul> |  일 년 5 월 2019 |예제의 <br><ul><li>하이브리드 구성이 완료 되지 않음<li>하이브리드 PSTN 번호가 설정 되지 않음</ul>|
 |관리 참여를 필요로 하는 고객에 대 한 고객 투자 &<br><br>마이그레이션할 기능:<ul><li>보이스 메일<li>자동 전화 교환<li>통화 대기열<li>팩스 통합</ul>| 2020 년 2 월  | 예제의 <br><ul><li>ExchUMO 서비스는 타사 PBX에서 사용 합니다.<li>PSTN 구독자 액세스 요구 사항이 있는 고객<li>SFB 2010의 고객 (지원 되지 않음)<li>팩스 통합</ul> |
 
 ## <a name="migration-steps"></a>마이그레이션 단계
@@ -102,7 +102,7 @@ Microsoft는 ExchUMO의 기능을 사용 하는 다양 한 고객 배포를 식�
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO 및 Azure 클라우드 기반 서비스 기능 행렬
 
-| Services | 기능 수준 | 요소 | 상속자  | 클라우드 VM/AA  | ExUMO |
+| Services | 기능 수준 | 기능 | 상속자  | 클라우드 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | 서비스 기능| 제 3 자 PBX 지원    | Exchange UM Online에서 SIP 알림 메시지를 사용 하 여 MWI (메시지 대기 표시기)와 같은 타사 PBX에 제공 되는 모든 기능 포함 | 개   | 피지    |
 | VM | 서비스 기능  | 비즈니스용 Skype 서버 지원   |  | 피지 | 피지    |
@@ -208,3 +208,14 @@ Microsoft는 ExchUMO의 기능을 사용 하는 다양 한 고객 배포를 식�
 #### <a name="admin-auto-attendant-management-experience"></a>관리 자동 전화 교환 관리 환경 
 
 자동 전화 교환에 대해 자세히 알아보려면 [클라우드 자동 전화 교환 설정을](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)참조 하세요. 
+
+#### <a name="known-issues"></a>알려진 문제
+
+**공유 사서함:** Exchange UM Online을 사용 하 여 구성 된 공유 사서함은 CVM으로 마이그레이션한 후에도 계속 메시지를 받지만 Outlook을 통해 사용자는 계속 액세스할 수 있습니다. 그러나 이러한 사서함의 인사말 메시지를 변경 하는 데 대 한 액세스는 CVM으로 마이그레이션한 후에는 사용할 수 없습니다. 자동 전화 교환 호출자를 캡처하는 데 사용 되는 공유 사서함이 있는 고객은 자동 전화 교환 및 전화를 건 후 공유 사서함 기능 (에타 10 월 2019)을 활용 해야 합니다.
+  
+**SFB 클라이언트에서 팀 배너로 업그레이드:** CVM 서비스는 Microsoft 팀 인프라를 기반으로 합니다. 비즈니스용 Skype 클라이언트에서 전화를 거는 경우 "사용자 이름으로 인해 비즈니스용 Skype를 사용 하 고 있지 않습니다." 라는 정보 배너가 클라이언트에 표시 될 수 있습니다. 더 풍부한 환경을 위해 팀으로 전환 하거나 Skype 모임을 시작 하세요. "
+이 배너가 나타나지 않도록 하려면 사용자의 비즈니스용 Skype 클라이언트를 최신 C2R 클라이언트 업데이트로 업데이트 해야 합니다. 
+  
+보이스 **메일을 설정 하면 OWA를 사용할 수 있습니다.** 클라이언트에서 "음성 메일 설정"을 클릭 하면 CVM으로 마이그레이션한 후 비즈니스용 Skype 서버 2015/2013 고객을 OWA (Office Web Access) 포털 페이지에 계속 사용 합니다. OWA의 보이스 메일 탭에서 모든 설정이 제거 되었고, 사용자를 CVM 사용자 설정 포털로 이동할 수 있는 리디렉션 링크가 있는 배너가 표시 됩니다. 
+ 
+**인사말 모바일 액세스 변경:** PSTN 구독자 액세스는 CVM에서 지원 되지 않습니다. 원격으로 인사말을 변경 해야 하는 사용자의 경우, "인사말 변경" 메뉴 옵션이 모바일 클라이언트의 보이스 메일 IVR 서비스에 추가 됩니다. 사용자가 모바일 클라이언트 다이얼 패드에서 "1" 키를 누르고 있으면이 서비스를 호출할 수 있습니다. 

@@ -15,12 +15,12 @@ ms.collection:
 description: 클라우드, 동기화 됨, 페더레이션 등의 Microsoft 팀에 있는 다양 한 id 모델에 대해 알아봅니다. Multi-factor authentication에 대해서도 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c7b5d619812284bc60aab7bcc2dbea6e9ec0173
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3e485cc04be2e7bb5220a539d94cdce8e91cb0ec
+ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570743"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931626"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft 팀의 id 모델 및 인증
 ==========================================
@@ -61,4 +61,4 @@ Office 365 계획은 Office 365 서비스에 대 한 사용자 로그인의 보�
 |테 넌 트 형식  |사용 가능한 MFA 두 번째 요소 옵션  |상속자  |
 |---------|---------|---------|
 |**클라우드만**     |Office 365 용 MFA <ul><li>전화 통화</li><li>문자 메시지</li><li>모바일 앱 알림</li><li>모바일 앱 확인 코드</li></ul>        |[Office 365 배포에 대 한 다단계 인증 계획](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**하이브리드 설정 (동기화 또는 페더레이션 Id 모델)**     |<ul><li>Office 365 용 MFA</li><li>Azure MFA 모듈 (ADF 통합)</li><li>실제 또는 가상 스마트 카드 (ADF 통합)</li></ul>         |참고: [AZURE AD federation와 호환 되는 id 공급자](https://go.microsoft.com/fwlink/p/?LinkId=510953) 와 함께 추가 MFA 솔루션을 사용할 수 있습니다.         |
+|**하이브리드 설정 (동기화 또는 페더레이션 Id 모델)**     |<ul><li>Office 365 용 MFA</li><li>Azure MFA 모듈 (ADF 통합)</li><li>실제 또는 가상 스마트 카드 (ADF 통합)</li></ul>         |참고: [AZURE AD Id 공급자 호환성 문서](https://www.microsoft.com/en-us/download/details.aspx?id=56843) 에서는 추가 MFA 솔루션을 사용할 수 있습니다.         |

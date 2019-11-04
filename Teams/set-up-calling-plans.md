@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Office 365 통화 계획 (PSTN 통화 요금제)에서 라이선스를 구입 하 고 설정 하 고, 사용자에 게 긴급 위치 및 전화 번호를 추가 및 할당 하 고, 사용자에 게 새 전화 번호에 대해 설명 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 964748a9af9d7a31d7dd4cc4648353b6724fc54e
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: d52fbfdf3dd4c2fe7b3097db5cd4f97aa8013910
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37571241"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925319"
 ---
 # <a name="set-up-calling-plans"></a>통화 요금제 설정
 
@@ -48,7 +48,7 @@ ms.locfileid: "37571241"
 
 - **비즈니스용 Skype 관리 센터를 사용 합니다.** 일부 국가/지역의 경우 비즈니스용 Skype 관리 센터를 사용 하 여 사용자에 대 한 번호를 얻을 수 있습니다. [사용자의 전화 번호 가져오기를](/microsoftteams/getting-phone-numbers-for-your-users)참조 하세요.
     
-- **기존 번호를 이식 합니다.** 현재 서비스 공급자 또는 전화 통신 회사의 기존 번호를 Office 365으로 이식 하거나 전송할 수 있습니다. 이 작업을 수행 하는 데 도움이 되는 자세한 내용은 [Office 365 전화 번호 전송](transfer-phone-numbers-to-office-365.md) 또는 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 를 참조 하세요.  
+- **기존 번호를 이식 합니다.** 현재 서비스 공급자 또는 전화 통신 회사의 기존 번호를 Office 365으로 이식 하거나 전송할 수 있습니다. 이 작업을 수행 하는 데 도움이 되는 자세한 내용은 조직의 전화 [번호를 팀으로 전송](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 를 참조 하세요.  
   
 - **새 번호에 요청 양식을 사용 합니다.** 때로는 (국가/지역에 따라) 비즈니스용 Skype 관리 센터를 사용 하 여 새 전화 번호를 받을 수 없거나, 특정 전화 번호 또는 지역 코드가 필요 합니다. 그렇다면 양식을 다운로드 하 여 다시 전송 해야 합니다. 자세한 내용은 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 를 참조 하세요. 
 
@@ -132,13 +132,13 @@ Windows PowerShell을 알고 있는 경우 다음 cmdlet을 사용 하 여 사�
 
 
 ## <a name="related-topics"></a>관련 항목
-[전화 번호 전송 일반적인 질문](transferring-phone-numbers-common-questions.md)
+[전화 번호 전송 자주 묻는 질문](transferring-phone-numbers-common-questions.md)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)(조직의 전화 번호 관리)
 
-[비상 통화 약관](emergency-calling-terms-and-conditions.md)
+[긴급 통화 사용 약관](emergency-calling-terms-and-conditions.md)
 
 [비즈니스용 Skype Online: 비상 전화 부인 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

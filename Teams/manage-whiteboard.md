@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a57388e48e73d62b863d886c5510c002509e47
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e30179b955d2ab157dbbf5311845a6697474a7fd
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571915"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925179"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Microsoft 팀에서 화이트 보드 관리
 ==========================================
@@ -31,21 +31,7 @@ Microsoft 화이트 보드는 사람들, 콘텐츠, 아이디어가 함께 제�
 
 사용자는 화이트 보드를 공유 하 여 팀의 모든 참가자가 사용할 수 있도록 할 수 있습니다. 동일한 화이트 보드는 Windows 10, iOS 및 웹 앱의 모든 화이트 보드 응용 프로그램에서 동시에 사용할 수 있습니다.
 
-## <a name="turn-on-or-turn-off-the-whiteboard-app"></a>화이트 보드 앱 설정 또는 해제
-
-화이트 보드 웹 앱을 설정 또는 해제 하려면 다음 단계를 수행 합니다.
-
-1. Microsoft 365 관리 센터로 이동 합니다.
-
-2. **설정** > **서비스 & 추가 기능**으로 이동 합니다.
-
-3. **서비스 & 추가 기능** 페이지에서 아래로 스크롤한 다음 **화이트 보드**를 선택 합니다.
-
-4. 화이트 보드 앱을 켜려면 **화이트 보드** 창에서 **전체 조직에 대해 화이트 보드 켜기 또는 끄기** 로 **전환 합니다.**
-
-    화이트 보드 앱을 **끄려면 화이트 보드 창에서** **전체 조직에 대 한 화이트 보드 설정 또는 해제** **를 전환 합니다.**
-
-5. **저장**을 클릭 합니다.
+화이트 보드 앱을 설정 하거나 해제 하려면 [조직에 Microsoft 화이트 보드 사용](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)을 참조 하세요. 이 설정은 팀만이 아닌 전체 조직에 대 한 화이트 보드를 사용 하거나 사용 하지 않도록 설정 한다는 점에 유의 하세요.
 
 ## <a name="whiteboard-on-surface-hub"></a>Surface Hub의 화이트 보드
 

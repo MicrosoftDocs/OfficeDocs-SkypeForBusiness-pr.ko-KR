@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53424be46dbc857f2a361ec1c3278e2d56fe16d7
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8ad3700b3b0186ba3e95d8f55ad704f37cf33bc7
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516767"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925079"
 ---
 # <a name="evaluate-my-environment"></a>내 환경 평가
 
@@ -42,7 +42,7 @@ ms.locfileid: "37516767"
 
 환경 검색의 일부로, 하드웨어 요구 사항에 따라 오디오 회의 및 전화 시스템을 지원 하기 위해 Pc 및 모바일 장치에 대 한 준비 평가와 같은 최종 사용자 컴퓨팅과 관련 된 모든 문제를 포함 하세요. 소프트웨어 요구 사항.
 
-환경 검색을 통해 [전화 번호를 Microsoft에 전송할지](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)여부를 확인할 수도 있습니다.
+환경 검색을 통해 [전화 번호를 Microsoft에 전송할지](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)여부를 확인할 수도 있습니다.
 이를 파악 하면 조직에서 프로젝트 계획을 적절 하 게 조정 하 여 번호 포팅에 필요한 정보를 준비할 수 있습니다. 환경 검색을 수행 하기 위해 [Microsoft 팀의 환경 검색 출시](environmental-discovery-for-microsoft-teams-rollout.md) 를 사용할 수 있습니다.
 
 <table>
@@ -74,7 +74,7 @@ ms.locfileid: "37516767"
 
 팀은 변화 시킬 수 있는 오디오 및 비디오 기술 (코덱)을 사용 하므로 대부분의 네트워크 상태에서 더 잘 수행 됩니다. 최적의 성능을 유지 하려면 팀을 위해 네트워크를 준비 해야 합니다.
 
-품질의 세 가지 구성 요소를 설명 하는 ![품질 다이어그램의 세 가지 구성 요소](media/evaluate-my-environment-image1.png "와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 설명 하는 다이어그램입니다. 네트워크에 포커스를 둔 상태")
+![품질의 세 가지 구성 요소를 설명 하는 다이어그램](media/evaluate-my-environment-image1.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 설명 하는 다이어그램입니다. 네트워크에 포커스를 둔 상태")
 
 ## <a name="key-takeaways"></a>키 takeaways
 

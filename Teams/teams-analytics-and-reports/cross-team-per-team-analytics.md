@@ -1,5 +1,5 @@
 ---
-title: 팀에서 교차 및 팀 단위 분석 보기
+title: Teams의 교차 팀 및 팀 단위 분석 보기
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -15,13 +15,13 @@ description: 팀에서 사용자가 구성원 인 팀에 대 한 사용 현황 �
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37639104"
 ---
-# <a name="view-cross-team-and-per-team-analytics-in-teams"></a>팀에서 교차 및 팀 단위 분석 보기
+# <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Teams의 교차 팀 및 팀 단위 분석 보기
 
 Microsoft 팀에서 사용자는 자신이 구성원 또는 소유자 인 팀에 대 한 분석을 볼 수 있습니다. 이 정보는 사용자가 팀의 사용 패턴 및 활동에 대 한 통찰력을 제공 합니다. 각 팀의 활성 사용자, 게스트 및 메시지 수와 같은 데이터를 볼 수 있습니다.
 

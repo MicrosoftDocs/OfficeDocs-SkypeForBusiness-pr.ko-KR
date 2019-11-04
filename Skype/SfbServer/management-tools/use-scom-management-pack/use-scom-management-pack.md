@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: '요약: System Center Operations Manager와 함께 사용 하도록 비즈니스용 Skype 서버 2015 인프라를 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: a5f676180508898b433953c37656063bd34bd323
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 5622b09b3d55b4d0d3a3fe026f66b28e3c4be75e
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790895"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "36824551"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>SCOM 관리 팩을 사용 하 여 비즈니스용 Skype 서버 2015 관리
  
@@ -85,7 +85,7 @@ ms.locfileid: "36790895"
 
 다음 기능은 비즈니스용 Skype 서버 2015 관리 팩에 새로 적용 되었습니다.
 
-- ** [2019 년 6 월 업데이트](https://www.microsoft.com/en-in/download/details.aspx?id=47364) 의 변경 사항** 일부 알림에 특수 문자가 제거 되었습니다. 일부 경우 특수 문자가 SCOM 명령 채널 알림 기능을 방해 하는 경우도 있습니다.
+- **2019 년 [9 월 업데이트](https://www.microsoft.com/en-in/download/details.aspx?id=47364) 의 변경 사항** 일부 알림에 특수 문자가 제거 되었습니다. 일부 경우 특수 문자가 SCOM 명령 채널 알림 기능을 방해 하는 경우도 있습니다.
 
 - **자동으로 클라이언트 로그인에 대 한 검색** 비즈니스용 Skype 서버 2015에 로그인 하는 클라이언트 응용 프로그램은 종종 로그인 할 서버를 자동으로 검색 합니다. 이제 가상 트랜잭션은 자동 검색이 올바르게 구성 되었는지 확인 하는 것을 지원 합니다.
     

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '휴대폰을 사용 하 여 전화 회의에 참가 해야 하는 사용자에 대해 전화 접속 또는 오디오 회의를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: a36482dc6c58275491c65ac518e98cdc0ac0b787
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 499a8a8ef05d23c74b030536d33b7a02cd6d9a1a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "37642529"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924979"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>비즈니스용 Skype에 대 한 오디오 회의 설정
 
@@ -63,7 +63,7 @@ ms.locfileid: "37642529"
   
 - **비즈니스용 Skype 관리 센터를 사용**합니다. 일부 국가/지역의 경우 비즈니스용 Skype 관리 센터를 사용 하 여 회의 브리지의 서비스 번호를 얻을 수 있습니다. [서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
     
-- **기존 서비스 번호를 이식**합니다. 현재 서비스 공급자 또는 전화 통신 회사의 기존 번호를 Office 365으로 이식 하거나 이전 합니다. 이 작업을 수행 하는 데 도움이 되는 자세한 정보를 확인 하려면 [전화 번호를 Office 365으로 전송](/microsoftteams/transfer-phone-numbers-to-office-365) 하거나 [조직의 전화 번호를 관리할](/microsoftteams/manage-phone-numbers-for-your-organization) 수 있습니다.  
+- **기존 서비스 번호를 이식**합니다. 현재 서비스 공급자 또는 전화 통신 회사의 기존 번호를 Office 365으로 이식 하거나 이전 합니다. 이 작업을 수행 하는 데 도움이 되는 자세한 내용은 [팀에 전화 번호 전송](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) 또는 [조직에 대 한 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization) 를 참고 하세요.  
   
 - **새 번호에 요청 양식을 사용**합니다. 때로는 (국가/지역에 따라) 비즈니스용 Skype 관리 센터를 사용 하 여 새 서비스 번호를 받을 수 없거나, 특정 전화 번호 또는 지역 코드가 필요 합니다. 그렇다면 양식을 다운로드 하 여 다시 전송 해야 합니다. 자세한 내용은 [조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization) 를 참조 하세요. 
     
@@ -145,8 +145,8 @@ ms.locfileid: "37642529"
 
 [오디오 회의 일반적인 질문](/MicrosoftTeams/audio-conferencing-common-questions)
   
-[비즈니스용 Skype Online 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[비즈니스용 Skype 온라인 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
-[오디오 회의를 위한 전화 번호](phone-numbers-for-audio-conferencing.md)
+[오디오 회의의 전화 번호](phone-numbers-for-audio-conferencing.md)
   
 [온라인 모임 및 컨퍼런스 통화에 대 한 옵션 설정](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

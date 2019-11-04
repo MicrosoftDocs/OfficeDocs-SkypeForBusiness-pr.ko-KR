@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37571937"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft 팀원 관리 센터에서 팀 관리
@@ -132,4 +132,4 @@ ms.locfileid: "37571937"
 
 - [팀 cmdlet 참조](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
 - [팀 관리자 역할을 사용 하 여 팀 관리](using-admin-roles.md)
-- [팀의 수명 주기 관리 계획](plan-teams-lifecycle.md)
+- [Teams에서 수명 주기 관리 계획](plan-teams-lifecycle.md)

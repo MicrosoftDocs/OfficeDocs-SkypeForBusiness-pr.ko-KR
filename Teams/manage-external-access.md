@@ -17,19 +17,19 @@ description: 팀 또는 IT 관리자가 다른 도메인 (페더레이션)에 �
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 071bb1523a0840a798edfe030a1dd52362695df2
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: e6eb1cab6503c443d3fb312769f9f1e0255c294a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753533"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925049"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft 팀에서 외부 액세스 관리
 ======================================================
 
 외부 액세스는 전체 도메인의 외부 팀 사용자가 팀에서 사용자와 모임을 검색, 통화, 채팅 및 설정 하는 방법입니다. 또한 외부 액세스를 사용 하 여 Skype for Business (online 및 온-프레미스) 및 Skype (초기 2020)를 사용 중인 외부 사용자와 통신할 수 있습니다.
 
-외부 사용자에 게 팀과 채널에 대 한 액세스 권한을 부여 하려는 경우 게스트 액세스를 사용 하는 것이 더 좋을 수 있습니다. 외부 액세스와 게스트 액세스의 차이점에 대 한 자세한 내용은 [외부 및 게스트 액세스 비교](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)를 참조 하세요. 
+외부 사용자가 팀과 채널에 액세스할 수 있도록 하려면 게스트 액세스를 사용하는 것이 좋습니다. 외부 액세스와 게스트 액세스의 차이점에 대 한 자세한 내용은 [외부 및 게스트 액세스 비교](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)를 참조 하세요. 
 
 다음과 같은 경우에 외부 액세스를 사용 합니다.
   
@@ -132,7 +132,6 @@ ms.locfileid: "37753533"
 |**비즈니스용 Skype online 사용자가** 다른 Office 365 조 직의 **비즈니스용 skype online 사용자** 와 통신할 수 있도록 합니다.    | 사용자가 다음 업그레이드 모드 중 하나를 사용 하 고 있는 경우 비즈니스용 Skype Online 사용자가 다른 조직의 비즈니스용 Skype Online 사용자와 통신할 수 있습니다. 군도, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 다른 조직의 비즈니스용 Skype Online 사용자는 군도, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 중 하나를 업그레이드 합니다.<br><br>**사용자가 비즈니스용 Skype 및 팀 사용자와 통신할 수** 있도록 하려면 외부 액세스에서 설정을 설정 합니다. 그런 다음 다른 팀 조직의 관리자가 동일한 작업을 수행 하도록 합니다.|
 |비즈니스용 **Skype Online 사용자가** 온-프레미스 조직에서 **비즈니스용 skype 사용자** 와 통신할 수 있도록 합니다.     |사용자가 다음 업그레이드 모드 중 하나를 사용 하 고 있는 경우 비즈니스용 Skype Online 사용자가 온-프레미스 조직에서 비즈니스용 Skype 사용자와 통신할 수 있습니다. 섬, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 다른 조직의 비즈니스용 Skype Online 사용자는 군도, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 중 하나를 업그레이드 합니다.<br><br>**사용자가 비즈니스용 Skype 및 팀 사용자와 통신할 수** 있도록 하려면 외부 액세스에서 설정을 설정 합니다. 그런 다음 다른 팀 조직의 관리자가 동일한 작업을 수행 하도록 합니다.|
 |비즈니스용 **Skype Online 사용자가** **skype 사용자** (조직의 내부 또는 외부)와 통신할 수 있도록 합니다.   |비즈니스용 **skype 사용자가 외부 액세스에서 skype 사용자와 통신할 수** 있도록 설정 합니다.|
-|조직의 **사용자** 가 조직 외부의 **팀 구성원** 에 게 통신 하도록 허용 합니다. | 무료 버전의 팀이 외부 액세스를 사용 하는 방법을 알아보려면 [Microsoft 팀과 Microsoft 팀의 무료 차이점](https://support.office.com/article/differences-between-microsoft-teams-and-microsoft-teams-free-0b69cf39-eb52-49af-b255-60d46fdf8a9c)을 참조 하세요.|
 
 > [!IMPORTANT]
 > 비즈니스용 skype Online 사용자가 조직 내부 또는 외부의 Skype 사용자와 통신할 수 있도록 허용 된 도메인으로 **skype 도메인** 을 추가할 필요는 없습니다. 모든 **Skype 도메인** 은 허용 목록 이며,이는 모든 도메인이 허용 된 것으로 간주 된다는 것을 의미 합니다.
@@ -143,6 +142,6 @@ ms.locfileid: "37753533"
 
 외부 액세스와 게스트 액세스의 차이점에 대해 알아보려면 [다른 조직의 사용자와의 통신](communicate-with-users-from-other-organizations.md)을 참조 하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [외부 (연합) 사용자를 위한 기본 채팅 환경](native-chat-for-external-users.md)

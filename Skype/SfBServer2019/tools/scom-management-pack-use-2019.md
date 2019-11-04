@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '요약: System Center Operations Manager와 함께 사용 하도록 비즈니스용 Skype 서버 2019 인프라를 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 5a0415c0447127b0da2b7670e857dbf1a6185794
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: e08debc645665d8be69ce062930d64421b093433
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36197852"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37318960"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM 관리 팩을 사용 하 여 비즈니스용 Skype 서버 2019 관리
  
@@ -83,7 +83,9 @@ ms.locfileid: "36197852"
 ## <a name="whats-new"></a>새로운 기능
 
 다음 기능은 비즈니스용 Skype 서버 2019 관리 팩에 새로 적용 되었습니다.
-  
+
+- **2019 년 [9 월 업데이트](https://www.microsoft.com/download/details.aspx?id=57511) 의 변경 사항** 일부 알림에 특수 문자가 제거 되었습니다. 일부 경우 특수 문자가 SCOM 명령 채널 알림 기능을 방해 하는 경우도 있습니다.
+
 - **자동으로 클라이언트 로그인에 대 한 검색** 비즈니스용 Skype 서버 2019에 로그인 하는 클라이언트 응용 프로그램은 종종 로그인 할 서버를 자동으로 검색 합니다. 이제 가상 트랜잭션은 자동 검색이 올바르게 구성 되었는지 확인 하는 것을 지원 합니다.
     
 - **사용자 지정 된 가상 트랜잭션 실행 간격** 감시자 노드의 설정 프로세스를 간소화 하기 위해 가상 트랜잭션은 사용자 계정을 공유할 수 있습니다. 이렇게 하면 충돌을 방지 하기 위해 테스트를 직렬화 할 때 테스트가 실행 되는 빈도가 느려집니다. 기본적으로 모든 테스트를 실행할 시간이 있는지 확인 하기 위해 가상 트랜잭션은 15 분 마다 실행 됩니다. 사용자 당 더 많은 사용자 또는 더 적은 수의 테스트를 사용 하기로 선택한 관리자는 이제 실행 간격도 줄일 수 있습니다.

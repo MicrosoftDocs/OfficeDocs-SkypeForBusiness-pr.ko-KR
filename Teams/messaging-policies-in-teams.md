@@ -18,10 +18,10 @@ f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 메시징 정책 및이를 사용 하 여 팀의 채팅 메시지를 제어 하는 방법에 대해 알아봅니다.
 ms.openlocfilehash: bc69b44b47cf068bdea17ed661a873b90af44de5
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37569279"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>팀에서 메시징 정책 관리

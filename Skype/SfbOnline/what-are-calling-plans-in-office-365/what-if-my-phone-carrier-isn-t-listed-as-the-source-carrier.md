@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '해당 캐리어가 비즈니스용 Skype에 나열 되어 있지 않은 경우 수행할 작업에 대해 알아보세요. '
-ms.openlocfilehash: e882a376c8f7b0baf07c42e71c03a84acc16b4c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7d1a9c70ffce63ee1a7ff437cb7157c5b8b5aeab
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642760"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924919"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>내 전화 캐리어가 원본 반송파로 나열 되지 않으면 어떻게 하나요?
 
@@ -36,16 +36,16 @@ ms.locfileid: "37642760"
   
 - 비즈니스용 Skype에서 통신 회사로 번호를 포팅 하는 경우 Level3 표시 될 수 있습니다.
     
-  **자세한 단계별 지침은 [Office 365으로 전화 번호 전송을](/microsoftteams/transfer-phone-numbers-to-office-365)참조 하세요.**
+  **자세한 단계별 지침은 [팀에 전화 번호 이전](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)을 참조 하세요.**
 
     > [!NOTE]
     > 이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.
 
   
 ## <a name="related-topics"></a>관련 항목
-[전화 번호 전송 일반적인 질문](/microsoftteams/transferring-phone-numbers-common-questions)
+[전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[비상 통화 약관](/microsoftteams/emergency-calling-terms-and-conditions)
+[긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [비즈니스용 Skype Online: 비상 전화 부인 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

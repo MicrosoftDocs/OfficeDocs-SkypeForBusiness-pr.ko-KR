@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '휴대폰을 사용 하 여 전화 회의에 참가 해야 하는 사용자에 대해 전화 접속 또는 오디오 회의를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 3b9b0b3f7a684c8db5b7b3d8a326750ed12f2bff
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: d630f6f149f61609209cc4ead23ed7232647cb08
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37571263"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925369"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft 팀을 위한 오디오 회의 설정
 
@@ -65,7 +65,7 @@ ms.locfileid: "37571263"
   
 - **Microsoft 팀 관리 센터를 사용**합니다. 일부 국가/지역의 경우 Microsoft 팀 관리 센터를 사용 하 여 회의 브리지의 서비스 번호를 가져올 수 있습니다. [서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
     
-- **기존 서비스 번호를 이식**합니다. 현재 서비스 공급자 또는 전화 통신 회사의 기존 번호를 Office 365으로 이식 하거나 이전 합니다. 이 작업을 수행 하는 데 도움이 되는 자세한 정보를 확인 하려면 [전화 번호를 Office 365으로 전송](transfer-phone-numbers-to-office-365.md) 하거나 [조직의 전화 번호를 관리할](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 수 있습니다.  
+- **기존 서비스 번호를 이식**합니다. 현재 서비스 공급자 또는 전화 통신 회사의 기존 번호를 Office 365으로 이식 하거나 이전 합니다. 이 작업을 수행 하는 데 도움이 되는 자세한 내용은 [팀에 전화 번호 전송](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직에 대 한 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 를 참고 하세요.  
   
 - **새 번호에 요청 양식을 사용**합니다. 때로는 (국가/지역에 따라) Microsoft 팀 관리 센터를 사용 하 여 새 서비스 번호를 받을 수 없으며, 특정 전화 번호 또는 지역 코드도 필요 합니다. 그렇다면 양식을 다운로드 하 여 다시 전송 해야 합니다. 자세한 내용은 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 를 참조 하세요. 
     

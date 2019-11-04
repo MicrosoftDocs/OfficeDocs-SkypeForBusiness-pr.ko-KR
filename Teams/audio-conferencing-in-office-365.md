@@ -20,12 +20,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: cf8aa0de368803fa957667e239ba6ed0b161c0cb
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 5b7cb2e92a3246b7a3f5098e91c3ab84ad19bbf0
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37517046"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925599"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365의 오디오 회의
 Office 365의 오디오 회의를 통해 사용자는 휴대폰에서 모임에 전화를 걸 수 있습니다. 오디오 회의는 최대 250 전화 참석자를 허용 합니다.
@@ -86,16 +86,16 @@ Office 365의 오디오 회의를 통해 사용자는 휴대폰에서 모임에 
 
 - **비즈니스용 Skype 관리 센터를 사용 합니다.** 일부 국가/지역의 경우 비즈니스용 Skype 관리 센터를 사용 하 여 회의 브리지에 대 한 번호를 얻을 수 있습니다. [서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
     
-- **기존 번호를 이식 합니다.** 현재 서비스 공급자 또는 전화 통신 회사의 기존 번호를 Office 365으로 이식 하거나 전송할 수 있습니다. 이 작업을 수행 하는 데 도움이 되는 자세한 내용은 [Office 365 전화 번호 전송](transfer-phone-numbers-to-office-365.md) 또는 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 를 참조 하세요.  
+- **기존 번호를 이식 합니다.** 현재 서비스 공급자 또는 전화 통신 회사의 기존 번호를 Office 365으로 이식 하거나 전송할 수 있습니다. 이 작업을 수행 하는 데 도움이 되는 자세한 내용은 조직의 전화 [번호를 팀으로 전송](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 를 참조 하세요.  
   
 - **새 번호에 요청 양식을 사용 합니다.** 때로는 (국가/지역에 따라) 비즈니스용 Skype 관리 센터를 사용 하 여 새 전화 번호를 받을 수 없거나, 특정 전화 번호 또는 지역 코드가 필요 합니다. 그렇다면 양식을 다운로드 하 여 다시 전송 해야 합니다. 자세한 내용은 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 를 참조 하세요.
 
 ## <a name="how-do-you-set-it-up"></a>설정 하는 방법은 무엇 인가요?
 사용자를 위해 오디오 회의를 설정한 후에는 [Microsoft 팀을 위한 오디오 회의 설정](set-up-audio-conferencing-in-teams.md) 또는 [비즈니스용 Skype Online에 대 한 오디오 회의 설정](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) (이 작업을 수행 하는 단계)을 참조 하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[비즈니스용 Skype Online 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
 [Microsoft 팀에서 오디오 회의를 위한 전화 번호](phone-numbers-for-audio-conferencing-in-teams.md) 
 

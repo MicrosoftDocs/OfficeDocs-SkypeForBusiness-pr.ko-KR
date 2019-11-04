@@ -8,10 +8,10 @@ manager: serdars
 author: kenwith
 description: 비즈니스용 Skype
 ms.openlocfilehash: 7dd3fe2fe61bc8dadb793a6fa3d9c226a85ce5f7
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37642459"
 ---
 <div id="main" class="v2">
@@ -147,7 +147,7 @@ ms.locfileid: "37642459"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft 팀 대화방</h3>
+                                                    <h3>Microsoft Teams 룸</h3>
                                                     <p>Microsoft 팀 회의실을 계획, 배포 및 관리 하는 방법에 대해 알아보세요.</p>
                                                 </div>
                                             </div>

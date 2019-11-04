@@ -25,10 +25,10 @@ ms.custom:
 - LIL_Placement
 description: 'Skype for business 옵션에 대 한 통화 요금제 (PSTN 통화 요금제)와 조직의 라이선스를 얻는 방법에 대해 알아봅니다. '
 ms.openlocfilehash: 305416df22353743b891df6c7722bededaae0980
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37516750"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365에 대 한 통화 요금제
@@ -49,7 +49,7 @@ ms.locfileid: "37516750"
   
 사용 제한 및 사용 약관에 대 한 자세한 내용은 [오디오 회의 무료 전화 걸기 기간](complimentary-dial-out-period.md)을 참조 하세요.
   
-## <a name="how-to-buy-a-calling-plan"></a>통화 요금제를 구매 하는 방법
+## <a name="how-to-buy-a-calling-plan"></a>통화 플랜을 구입하는 방법
 
 1. <strong>먼저 * * 전화 시스템 추가 기능 라이선스를 구입 해야</strong> 합니다<strong>. 이 작업을 수행 [하려면 Microsoft 365 관리 센터에 로그인](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) 하 고 * * 청구</strong> > **구입 서비스** > **추가 기능 구독** > 을**지금 구입**하세요.
     
@@ -89,13 +89,13 @@ ms.locfileid: "37516750"
 - [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-- [비즈니스용 Skype Online 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+- [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
 - [클라우드 보이스 메일 설정-관리자 도움말](set-up-phone-system-voicemail.md)
     
 - [통화 요금제 설정](set-up-calling-plans.md)
     
-- [자금 추가 및 통신 제작진 관리](add-funds-and-manage-communications-credits.md)
+- [자금 추가 및 통신 크레딧 관리](add-funds-and-manage-communications-credits.md)
  
