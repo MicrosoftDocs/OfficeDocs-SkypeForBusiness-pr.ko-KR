@@ -18,10 +18,10 @@ description: Microsoft 팀을 계획, 배포 및 실행 하는 방법을 설명 
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37569848"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 팀의 관리 교육
@@ -111,8 +111,8 @@ ms.locfileid: "37569848"
 
 <h2>자습서</h2>
 
-- [자습서: 팀의 모임](tutorial-meetings-in-teams.yml)
-- [자습서: 팀의 오디오 회의](tutorial-audio-conferencing.yml)
+- [자습서: Teams에서의 모임](tutorial-meetings-in-teams.yml)
+- [자습서: Teams의 오디오 회의](tutorial-audio-conferencing.yml)
 - [자습서: 팀에서 통화 이해](tutorial-calling-in-teams.yml)
 
 <h2>과정</h2>

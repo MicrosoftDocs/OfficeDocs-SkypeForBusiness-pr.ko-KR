@@ -1,0 +1,168 @@
+---
+title: 포트 순서는 무엇 인가요?
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+ms.reviewer: mikedav, roykuntz, jastark
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+search.appverid: MET150
+audience: Admin
+appliesto:
+- Microsoft Teams
+localization_priority: Normal
+f1keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
+ms.custom:
+- Calling Plans
+description: 포트 주문에 대 한 개요와 서비스 공급자 로부터 팀으로 전화 번호를 전송 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 4edaac3722e8fc37ca856b240171f923a0a99f66
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925683"
+---
+# <a name="whats-a-port-order"></a><span data-ttu-id="ae37d-103">포트 순서는 무엇 인가요?</span><span class="sxs-lookup"><span data-stu-id="ae37d-103">What's a port order?</span></span>
+
+<span data-ttu-id="ae37d-104">현재 전화 서비스 공급자 또는 통신 회사를 보유 하 고 있고 사용자 또는 서비스에 대 한 전화 번호가 이미 있는 경우 "*포트 순서*"를 만들어 해당 전화 번호를 Microsoft 팀으로 전송 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-104">If you currently have a phone service provider or carrier and already have phone numbers for your users or services, you need to create a "*port order*" to transfer those phone numbers to Microsoft Teams.</span></span> <span data-ttu-id="ae37d-105">번호를 받으면 오디오 회의 (회의 브리지 용), 자동 전화 교환, 통화 대기열 등의 사용자 및 서비스에 해당 전화 번호를 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-105">When the numbers are ported over, you can assign those phone numbers to your users and services such as audio conferencing (for conference bridges), auto attendants, and call queues.</span></span>
+  
+<span data-ttu-id="ae37d-106">전화 번호를 팀으로 이식 하면 Microsoft에서 서비스 공급자가 되어 이전 서비스 공급자 또는 통신 회사와 서비스의 연결을 끊을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-106">After you port your phone numbers over to Teams, Microsoft becomes your service provider and you can disconnect your service with your old service provider or carrier.</span></span>
+
+<span data-ttu-id="ae37d-107">이 문서에 나와 있는 정보를 검토 하 여 번호 포팅에 대해 알아 보세요.</span><span class="sxs-lookup"><span data-stu-id="ae37d-107">Review the information in this article to get familiar with number porting.</span></span> <span data-ttu-id="ae37d-108">그 후에는 포트 주문을 만들어 전화 번호를 전송할 준비가 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-108">After that, you should be ready to create a port order and transfer your phone numbers.</span></span> <span data-ttu-id="ae37d-109">단계별 지침은 [팀에 전화 번호 전송을](transfer-phone-numbers-to-teams.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ae37d-109">See [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md) for step-by-step instructions.</span></span>
+  
+## <a name="what-countries-or-regions-support-number-porting"></a><span data-ttu-id="ae37d-110">번호 포팅에 지원 되는 국가 또는 지역</span><span class="sxs-lookup"><span data-stu-id="ae37d-110">What countries or regions support number porting?</span></span>
+
+<span data-ttu-id="ae37d-111">지원 되는 모든 국가 또는 지역에서 전화 번호를 이식 하거나 양도할 수 있지만, 포트 주문 요청을 제출 하는 방법은 전화 번호가 도착 하는 국가 또는 지역에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-111">You can port or transfer phone numbers in all the supported countries or regions, but how you submit a port order request depend on the country or region where the phone numbers come from.</span></span> <span data-ttu-id="ae37d-112">번호 포팅을 지 원하는 국가 및 지역 목록은 [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ae37d-112">For a list of  countries and regions that support number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).</span></span>
+  
+## <a name="what-numbers-can-be-transferred"></a><span data-ttu-id="ae37d-113">전송할 수 있는 번호는 무엇 인가요?</span><span class="sxs-lookup"><span data-stu-id="ae37d-113">What numbers can be transferred?</span></span>
+
+ <span data-ttu-id="ae37d-114">**전송할 수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="ae37d-114">**You can transfer**</span></span>
+  
+<span data-ttu-id="ae37d-115">일반적으로 다음을 포함 하 여 지원 되는 공급자의 전화 번호를 전송할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-115">In general, you can transfer any phone number that's from a supported provider, including:</span></span>
+  
+- <span data-ttu-id="ae37d-116">지역 전화 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-116">Land line phone numbers.</span></span>
+
+- <span data-ttu-id="ae37d-117">휴대폰 및 태블릿에 사용 되는 모바일 장치 전화 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-117">Mobile device phone numbers such as those used for cell phone and tablets.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="ae37d-118">휴대폰 번호 전송은 미국 및 푸에르토리코 에서만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-118">Transferring mobile numbers is only available in the United States and Puerto Rico.</span></span>
+  
+- <span data-ttu-id="ae37d-119">유료 전화 번호.</span><span class="sxs-lookup"><span data-stu-id="ae37d-119">Toll phone numbers.</span></span>
+
+- <span data-ttu-id="ae37d-120">무료 전화 번호.</span><span class="sxs-lookup"><span data-stu-id="ae37d-120">Toll-free phone numbers.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="ae37d-121">UIFN (Universal Freephone Number)을 미국에 양도할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-121">Universal International Freephone Number (UIFN) can't be transferred to us.</span></span> 
+  
+- <span data-ttu-id="ae37d-122">전화 회의 브리지, 자동 전화 교환 등에 사용 되는 서비스 전화 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-122">Service phone numbers such as those used for conference bridges, auto attendants, etc.</span></span>
+
+- <span data-ttu-id="ae37d-123">팩스 전화 번호를 사용할 수는 없지만 팩스에는 사용 될 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-123">Fax phone numbers, but they can't be used for faxing.</span></span> <span data-ttu-id="ae37d-124">사용자에 게 할당 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-124">They have to be assigned to a user.</span></span>
+
+- <span data-ttu-id="ae37d-125">Vonage 또는 RingCentral와 같은 휴대폰 공급자의 VoIP 전화 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-125">VoIP phone numbers from a phone provider such as Vonage or RingCentral.</span></span>
+
+- <span data-ttu-id="ae37d-126">비즈니스용 Skype 하이브리드 전화 번호.</span><span class="sxs-lookup"><span data-stu-id="ae37d-126">Skype for Business hybrid phone numbers.</span></span> <span data-ttu-id="ae37d-127">이러한 번호를 전송 하려면에 <ptn@microsoft.com>전자 메일을 보내 주십시오.</span><span class="sxs-lookup"><span data-stu-id="ae37d-127">If you want to transfer these numbers, email us at <ptn@microsoft.com>.</span></span>
+
+  <span data-ttu-id="ae37d-128">**다음을 전송할 수 없습니다.**</span><span class="sxs-lookup"><span data-stu-id="ae37d-128">**You can't transfer:**</span></span>
+  
+    > [!NOTE]
+    > <span data-ttu-id="ae37d-129">현재는 VoIP 전화 공급자의 전화 번호를 포함 하 여 지원 되는 국가나 지역 이외의 전화 번호나 번호를 양도할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-129">At this time, you can't transfer any phone number or numbers that aren't from a supported country or region, including phone numbers from a VoIP phone provider.</span></span> <span data-ttu-id="ae37d-130">지원 되는 국가/지역 목록은 [오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능성](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ae37d-130">For a list of supported countries/regions, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)</span></span>
+  
+- <span data-ttu-id="ae37d-131">DSL 회선 또는 광대역 인터넷 연결과 같은 데이터 연결에 사용 되는 전화 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-131">Phone numbers used for data connections like for DSL lines or broadband Internet connections.</span></span>
+
+- <span data-ttu-id="ae37d-132">팩스 전용 전화 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-132">Phone numbers dedicated to faxing.</span></span>
+
+    <span data-ttu-id="ae37d-133">팩스에 사용 되는 기존 전용 전화 번호가 있는 경우 이러한 번호를 팀으로 전송할 *수* 있지만, 팩스 서비스는 예상 대로 작동 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-133">If you have existing dedicated phone numbers that are being used for faxing, you  *can*  transfer these numbers over to Teams but your fax services won't continue to work as expected.</span></span> <span data-ttu-id="ae37d-134">전화 시스템, 국내 통화 요금제 또는 국제 통화 요금제에 대 한 라이선스를 보유 하 고 있는 경우에도 팀 고객은 팩스 서비스를 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-134">Faxing services aren't available to Teams customers, even if you have licenses for Phone System, Domestic Calling Plan, or International Calling Plan.</span></span>
+
+    <span data-ttu-id="ae37d-135">전화 번호를 팀으로 이식 하는 경우 팩스를 사용 하는 대신 조직의 사용자에 게이 전화 번호를 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-135">If you port the phone number to Teams, you can assign this phone number to a user in your organization instead of using it for faxing.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="ae37d-136">영국의 경우 현재 지역 코드 0843, 0844, 0845, 0870, 0871, 0872의 공유 비용 번호를 포함 하 여 영국에 거주 하지 않는 번호의 양도 지원 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-136">At this time in the United Kingdom, we currently don't support transferring UK non-geographic numbers including shared cost numbers for area codes 0843, 0844, 0845, 0870, 0871, 0872.</span></span>
+  
+## <a name="what-information-do-i-need-to-provide"></a><span data-ttu-id="ae37d-137">어떤 정보를 제공 해야 하나요?</span><span class="sxs-lookup"><span data-stu-id="ae37d-137">What information do I need to provide?</span></span>
+
+<span data-ttu-id="ae37d-138">현재 통신 업체에 대 한 모든 계정 정보가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-138">You need to have all the account information for your current carrier.</span></span> <span data-ttu-id="ae37d-139">포트 주문에 입력 하는 정보는 대부분 현재 서비스 공급자의 최신 청구서 또는 송장에 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-139">The information that you enter in the port order is mostly found on the most recent bill or invoice from your current service provider.</span></span> <span data-ttu-id="ae37d-140">계정에 해당 하는 이름 및 포트를 원하는 번호를 알아야 할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-140">You also need to know whose name is on the account and what numbers you want to port.</span></span>
+  
+## <a name="what-are-full-port-and-partial-port-transfers"></a><span data-ttu-id="ae37d-141">전체 포트 및 부분 포트 전송 이란?</span><span class="sxs-lookup"><span data-stu-id="ae37d-141">What are full-port and partial-port transfers?</span></span>
+
+<span data-ttu-id="ae37d-142">전화 번호를 팀으로 포팅 하는 경우 모든 번호 또는 일부를 이전 하는 옵션이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-142">When you're porting phone numbers to Teams, you have the option to transfer all your numbers or some of them.</span></span>
+  
+- <span data-ttu-id="ae37d-143">**전체 포트** 이는 모든 번호를 현재 서비스 공급자에서 팀으로 전송 하는 경우입니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-143">**Full-port** This is when you transfer all of your numbers from your current service provider to Teams.</span></span> <span data-ttu-id="ae37d-144">전송할 전화 번호를 묻는 메시지가 표시 되 면 계정에 있는 다른 모든 전화 번호와 함께 BTN (대금 청구 전화 번호)를 *포함 해야 합니다* .</span><span class="sxs-lookup"><span data-stu-id="ae37d-144">When you're asked for the phone numbers you want to transfer, you *must include* the billing telephone number (BTN) along with all of the other phone numbers on your account.</span></span>
+
+    <span data-ttu-id="ae37d-145">예를 들어 BTN가 *+ 1 425-555-1234* 이 고 모든 25 개의 전화 번호 (*+ 1 425-555-1235 ~ 1259*)를 이식 하려고 한다고 가정해 보겠습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-145">For example, let's say your BTN is  *+1 425-555-1234*  and you want to port all of your 25 phone numbers (*+1 425-555-1235 through 1259*).</span></span> <span data-ttu-id="ae37d-146">다음 지침에 따라 번호를 전송 하면 **+ 14255551234-+ 14255551259**을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-146">When you follow the instructions below to transfer your numbers, you would enter: **+14255551234 - +14255551259**.</span></span>
+
+- <span data-ttu-id="ae37d-147">**부분 포트** 현재 서비스 공급자의 일부 전화 번호만 팀으로 전송 하는 경우입니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-147">**Partial-port** This is when you're only transferring some of your phone numbers from your current service provider to Teams.</span></span> <span data-ttu-id="ae37d-148">같은 BTN에 연결 된 일부 전화 번호를 이식 하려는 경우 \* \*는 귀하의 계정에 있는 다른 모든 전화번호와 함께 \* \* BTN를 *포함 하지 않아야 합니다* .</span><span class="sxs-lookup"><span data-stu-id="ae37d-148">When you want to port some of the phone numbers tied to the same BTN, you \*\* *must not include* \*\* the BTN along with all of the other phone numbers on your account.</span></span>
+
+    <span data-ttu-id="ae37d-149">예를 들어, BTN가 *+ 1 425-555-1234* 이 고 25 개의 전화 번호를 5 개 (*+ 1 425-555-1235 ~ 1259*)로만 이식 하려고 한다고 가정해 보겠습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-149">For example, let's say your BTN is  *+1 425-555-1234*  and you want to port only 5 of your 25 phone numbers (*+1 425-555-1235 through 1259*).</span></span> <span data-ttu-id="ae37d-150">다음 지침에 따라 번호를 전송 하면 **+ 1 425 555 1235-+ 1 425 555 1239**을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-150">When you follow the instructions below to transfer your numbers, you would enter: **+1 425 555 1235 - +1 425 555 1239**.</span></span>
+    
+## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a><span data-ttu-id="ae37d-151">한 번에 모든 번호에 대 한 단일 번호 포팅 요청을 제출할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="ae37d-151">Can I submit a single number porting request for all of my numbers at one time?</span></span>
+<span data-ttu-id="ae37d-152"><a name="bkmk_type_1"> </a></span><span class="sxs-lookup"><span data-stu-id="ae37d-152"></span></span>
+
+<span data-ttu-id="ae37d-153">이식 하는 각 통신 업체와 번호 유형에 고유한 요청이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-153">A unique request is needed for each carrier and type of number being ported.</span></span>
+  
+<span data-ttu-id="ae37d-154">예를 들어 다음의 각 숫자 형식에 대해 고유한 번호 포팅 요청을 제출 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-154">For example, you need to submit a unique number porting request for each of the following types of numbers:</span></span>
+  
+- <span data-ttu-id="ae37d-155">로컬 유료 전화 번호 (가입자 번호 또는 지리 번호 라고도 함)</span><span class="sxs-lookup"><span data-stu-id="ae37d-155">Local toll numbers, also known as subscriber numbers or geographic numbers</span></span>
+
+- <span data-ttu-id="ae37d-156">800, 844, 855, 866, 877, 888 등의 지역 번호를 사용 하 여 무료 통화를 받으세요.</span><span class="sxs-lookup"><span data-stu-id="ae37d-156">Toll Free numbers with area codes such as: 800, 844, 855, 866, 877 and 888</span></span>
+
+- <span data-ttu-id="ae37d-157">휴대폰 번호</span><span class="sxs-lookup"><span data-stu-id="ae37d-157">Mobile numbers</span></span>
+
+- <span data-ttu-id="ae37d-158">Office 365에서 오디오 회의에 사용할 수 있는 서비스 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-158">Service numbers that can be used for Audio Conferencing in Office 365.</span></span>
+
+<span data-ttu-id="ae37d-159">각 숫자 형식에 대해 번호 포팅 요청을 제출 하는 방법에 대 한 자세한 내용은 다음을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ae37d-159">Here's more information about how to submit number porting requests for each of these types of numbers:</span></span>
+  
+- <span data-ttu-id="ae37d-160">다른 통신 업체에서 제공 하는 **전화 번호** 를 사용 하려면 각 반송파와 함께 숫자에 대 한 고유한 포팅 요청이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-160">**Phone numbers** provided by different carriers require a unique porting request for numbers with each carrier.</span></span>
+
+- <span data-ttu-id="ae37d-161">800, 844, 855, 866, 877, 888 등의 지역 코드를 사용 하는 무료 **번호** 는 다른 유형의 번호를 사용 하는 번호 포팅 요청에 포함 될 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-161">**Toll-free numbers** with area codes such as: 800, 844, 855, 866, 877 and 888 can't be included in a number porting request with other types of numbers.</span></span> <span data-ttu-id="ae37d-162">이러한 무료 전화 번호를 이식 하려면 [포트 순서를 수동으로 제출](manually-submit-port-order.md)해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-162">To port these toll-free numbers, you must [manually submit a port order](manually-submit-port-order.md).</span></span> <span data-ttu-id="ae37d-163">Microsoft 팀 관리 센터에서 이러한 번호를 이식 할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-163">You can't port these numbers in the Microsoft Teams admin center.</span></span> <span data-ttu-id="ae37d-164">자세한 내용은 [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ae37d-164">For more information, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).</span></span>
+
+    <span data-ttu-id="ae37d-165">사용 하는 국가 및 전화 번호 형식에 대 한 올바른 인증 문자 (LOA)와 포트를 지정할 수 있는 것이 중요 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-165">It's important to use the correct Letter of Authorization (LOA) for the country and type of phone numbers that you want to port.</span></span> <span data-ttu-id="ae37d-166">[필요한 LOA를 다운로드할](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-166">You can [download the LOA that you need here](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).</span></span>
+
+- <span data-ttu-id="ae37d-167">전송에 권한을 부여 하려면 **휴대폰 번호** 에 PIN 코드가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-167">**Mobile numbers** require a PIN code to authorize the transfer.</span></span> <span data-ttu-id="ae37d-168">따라서 별도의 번호 포팅 요청이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-168">Therefore, they need separate number porting request.</span></span>
+
+- <span data-ttu-id="ae37d-169">**서비스 번호** 포팅 요청이 자체적으로 제출 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-169">**Service number** porting requests need to be submitted by themselves.</span></span> <span data-ttu-id="ae37d-170">다른 유형의 번호로 제출할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-170">They can't be submitted with other types of numbers.</span></span>
+
+## <a name="how-long-does-it-take-to-port-numbers"></a><span data-ttu-id="ae37d-171">포트 번호로 걸리는 시간은 얼마나 되나요?</span><span class="sxs-lookup"><span data-stu-id="ae37d-171">How long does it take to port numbers?</span></span>
+<span data-ttu-id="ae37d-172"><a name="bkmk_type_1"> </a></span><span class="sxs-lookup"><span data-stu-id="ae37d-172"></span></span>
+
+<span data-ttu-id="ae37d-173">포트 주문 요청을 완료 한 후에는 7-14 일이 처리 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-173">After you've completed the port order request, it takes between 7-14 days to be processed.</span></span> <span data-ttu-id="ae37d-174">그러나 서비스 공급자에 따라 최대 30 일이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-174">However, depending on your service provider it may take up to 30 days.</span></span> <span data-ttu-id="ae37d-175">전화 번호가 전달 된 후에는 전자 메일을 받게 되며,이를 통해 연락이 완료 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-175">After the phone numbers are ported over, you'll get an email from us to let you that you're good to go.</span></span>
+  
+<span data-ttu-id="ae37d-176">포트 순서의 상태를 확인 하려면 Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **전화 번호로**이동한 다음 **주문 기록을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-176">To check the status of your port order, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, and then click **Order history**.</span></span> <span data-ttu-id="ae37d-177">각 포트 주문 상태가 **상태** 열에 나열 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-177">Each port order status is listed in the **Status** column.</span></span>
+  
+## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a><span data-ttu-id="ae37d-178">사용자 (구독자) 전화 번호를 서비스 번호로 변환할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="ae37d-178">Can user (subscriber) phone numbers be converted to service numbers?</span></span>
+<span data-ttu-id="ae37d-179"><a name="bkmk_type_1"> </a></span><span class="sxs-lookup"><span data-stu-id="ae37d-179"></span></span>
+
+<span data-ttu-id="ae37d-180">예를 들어,</span><span class="sxs-lookup"><span data-stu-id="ae37d-180">Yes they can.</span></span> <span data-ttu-id="ae37d-181">조직의 테 넌 트 GUID와 변환할 전화 번호를 포함 하는 서비스 요청을 제출 하기만 하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-181">All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted.</span></span> <span data-ttu-id="ae37d-182">이렇게 하려면 [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ae37d-182">To do this, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).</span></span>
+
+## <a name="common-mistakes-to-watch-out-for"></a><span data-ttu-id="ae37d-183">조사에 대 한 일반적인 실수</span><span class="sxs-lookup"><span data-stu-id="ae37d-183">Common mistakes to watch out for</span></span>
+<span data-ttu-id="ae37d-184"><a name="bkmk_type_1"> </a></span><span class="sxs-lookup"><span data-stu-id="ae37d-184"></span></span>
+
+<span data-ttu-id="ae37d-185">번호 포팅 작업은 쉽습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-185">Number porting is easy to do.</span></span> <span data-ttu-id="ae37d-186">고객님의 주문은 messed을 받을 수 있지만, 휴대폰 서비스 공급자에 문제가 있는 경우 주문이 불완전 하 고 정보가 누락 되었거나 오타가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-186">Your order can get messed up, however, if there's a problem with the phone service provider, the order is incomplete and missing information, or there are typos.</span></span>
+  
+<span data-ttu-id="ae37d-187">다음은 고객이 번호를 입력 했을 때 표시 되는 가장 일반적인 실수입니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-187">Here are the most common mistakes we see customers make when they port numbers.</span></span> <span data-ttu-id="ae37d-188">고객 지원에 대 한 통화를 직접 저장 하 고 이러한 오류를 한 번 더 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-188">Save yourself a call to customer support and double-check for these errors.</span></span>
+  
+- <span data-ttu-id="ae37d-189">제공 하는 계정 정보가 전화 통신 회사에서 기록 하는 내용과 정확히 일치 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-189">Make sure the account information you give matches exactly what your phone carrier has on record.</span></span> <span data-ttu-id="ae37d-190">일치 하지 않는 정보는 오류의 가장 일반적인 원인이 며 포트 순서를 지연 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-190">Mismatched information is the most common cause of errors and delay your port order.</span></span> <span data-ttu-id="ae37d-191">다음이 참인 지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-191">Verify the following is true:</span></span>
+
+  - <span data-ttu-id="ae37d-192">계정 변경 권한이 있는 이름이 나 사람이 올바른지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-192">Name or person authorized to make changes to the account is correct.</span></span>
+
+  - <span data-ttu-id="ae37d-193">주소가 올바릅니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-193">Address is correct.</span></span>
+
+  - <span data-ttu-id="ae37d-194">계정 번호가 올바릅니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-194">Account number is correct.</span></span>
+
+  - <span data-ttu-id="ae37d-195">BTN가 올바릅니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-195">BTN is correct.</span></span>
+
+- <span data-ttu-id="ae37d-196">이러한 전화 번호에 사용 되는 통화 헌트, 특수 링 등의 고급 통화 제어 기능은 없는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-196">Make sure there are no advanced call control features, for example, Call Hunt, Distinctive Ring, that are enabled on these phone numbers.</span></span>
+
+- <span data-ttu-id="ae37d-197">새로운 서비스를 주문 하거나 현재 서비스 공급자와의 연결을 해제 하지 않았는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-197">Make sure you haven't placed any new service orders or disconnects with your current service provider.</span></span>
+
+- <span data-ttu-id="ae37d-198">모든 숫자가 같은 통신 회사 및 동일한 계정에서 사용 중인지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-198">Make sure all numbers are from the same carrier and the same account.</span></span>
+
+- <span data-ttu-id="ae37d-199">서비스가 활성 상태 인지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-199">Make sure your service is active.</span></span> <span data-ttu-id="ae37d-200">계정을 고정 시키면 계정에 있는 캐리어가 변경 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-200">Freezing the account prevents the change of carriers on the account.</span></span> <span data-ttu-id="ae37d-201">계정을 변경할 권한이 있는 사람은 현재 통신 업체에 주문을 제출 해야 고정을 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-201">The person authorized to make changes to the account must submit an order to the current carrier to remove the freeze.</span></span> <span data-ttu-id="ae37d-202">이 프로세스는 캐리어에 따라 1 ~ 3 주가 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae37d-202">This process can take one to three weeks depending on the carrier.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="ae37d-203">관련 항목</span><span class="sxs-lookup"><span data-stu-id="ae37d-203">Related topics</span></span>
+
+- [<span data-ttu-id="ae37d-204">포트 주문의 상태는 무엇 인가요?</span><span class="sxs-lookup"><span data-stu-id="ae37d-204">What's the status of your port orders?</span></span>](port-order-status.md)
+- [<span data-ttu-id="ae37d-205">통화 요금제에 사용 되는 다른 종류의 전화 번호</span><span class="sxs-lookup"><span data-stu-id="ae37d-205">Different kinds of phone numbers used for Calling Plans</span></span>](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- <span data-ttu-id="ae37d-206">[Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)(조직의 전화 번호 관리)</span><span class="sxs-lookup"><span data-stu-id="ae37d-206">[Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)</span></span>
+- [<span data-ttu-id="ae37d-207">긴급 통화 사용 약관</span><span class="sxs-lookup"><span data-stu-id="ae37d-207">Emergency calling terms and conditions</span></span>](../emergency-calling-terms-and-conditions.md)
+- <span data-ttu-id="ae37d-208">[비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="ae37d-208">[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
