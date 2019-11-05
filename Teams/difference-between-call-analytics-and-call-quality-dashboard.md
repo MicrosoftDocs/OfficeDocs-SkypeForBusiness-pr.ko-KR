@@ -21,11 +21,11 @@ ms.custom:
 - Reporting
 description: 통화 분석 및 통화 품질 대시보드 및이를 사용 하 여 통화 품질 문제를 모니터링 하 고 해결 하는 시기에 대해 알아봅니다.
 ms.openlocfilehash: 70efd7f17189d9aac2236383a07cfc5fc0a37096
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571772"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972469"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>통화 분석 및 통화 품질 대시보드
 
@@ -101,6 +101,6 @@ CQD에 대 한 자세한 내용은 microsoft 팀과 비즈니스용 Skype Online
 
 [통화 분석 설정](set-up-call-analytics.md)
 
-[통화 분석을 사용 하 여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용](turning-on-and-using-call-quality-dashboard.md)

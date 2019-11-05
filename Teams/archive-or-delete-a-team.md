@@ -16,17 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82ba160c1b2a36d67d67b69a0d7eb71bdde4c35f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: ceb699ff4c8d7ba2cf10e1b8e94ca33f60eb9b8d
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515917"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968269"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft 팀에서 팀 보관 또는 삭제
 ===========================================
 
-시간이 지남에 따라 Microsoft 팀에서 만든 팀이 사용 되지 않거나 프로젝트의 마지막에 팀을 보관 하거나 삭제할 수 있습니다. Microsoft 팀 관리자 인 경우이 문서에 나와 있는 단계를 따라 더 이상 필요 하지 않은 팀을 보관 하거나 삭제할 수 있습니다. 팀을 보관 하면 해당 팀의 모든 작업이 중단 되지만 구성원을 추가 또는 제거 하 고 역할을 업데이트할 수 있으며, 계속 해 서 모든 팀 활동을 채널, 파일 및 채팅에서 볼 수 있습니다. 팀을 삭제 하면 관련 채널, 파일, 채팅의 팀 활동도 삭제 됩니다.
+시간이 지남에 따라 Microsoft 팀에서 만든 팀이 사용 되지 않거나 프로젝트의 마지막에 팀을 보관 하거나 삭제할 수 있습니다. Microsoft 팀 관리자 인 경우이 문서에 나와 있는 단계를 따라 더 이상 필요 하지 않은 팀을 보관 하거나 삭제할 수 있습니다.
+
+팀을 보관 하면 해당 팀의 모든 활동이 중단 됩니다. 팀 보관은 팀 및 연결 된 사이트 모음에도 개인 채널을 보관 합니다.  그러나 여전히 구성원을 추가 또는 제거 하 고 역할을 업데이트할 수 있으며, 표준 및 개인 채널, 파일 및 채팅에서 모든 팀 활동을 계속 볼 수 있습니다.
+
+팀을 삭제 하면 표준 및 개인 채널의 팀 활동 (및 연결 된 사이트 모음), 파일 및 채팅도 삭제 됩니다.
 
 > [!IMPORTANT]
 > 보관 된 팀은 다시 활성화할 수 있지만 삭제 된 팀은 직접 삭제 취소할 수 없습니다. 팀을 먼저 보관 하 고 더 이상 팀이 필요 하지 않을 때까지 삭제를 연기 하세요.
@@ -63,7 +67,9 @@ ms.locfileid: "37515917"
 
 ## <a name="restore-a-deleted-team"></a>삭제 된 팀 복원
 
-팀과 연결 된 Office 365 그룹을 복원 하 여 삭제 된 팀을 복원 하려면 다음 단계를 따르세요. 기본적으로 삭제 된 Office 365 그룹은 30 일 동안 보존 됩니다. 그룹을 복원할 수 있으므로이 30 일의 기간이 "일시 삭제" 라고 합니다. 자세히 알아보려면 [삭제 된 Office 365 그룹 복원을](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)참조 하세요.
+팀과 연결 된 Office 365 그룹을 복원 하 여 삭제 된 팀을 복원 하려면 다음 단계를 따르세요. 팀에 대 한 Office 365 그룹 복원 탭, 표준 채널, 개인 채널 및 연결 된 사이트 모음을 비롯 한 팀 콘텐츠를 복원 합니다.
+
+기본적으로 삭제 된 Office 365 그룹은 30 일 동안 보존 됩니다. 그룹을 복원할 수 있으므로이 30 일의 기간이 "일시 삭제" 라고 합니다. 자세히 알아보려면 [삭제 된 Office 365 그룹 복원을](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)참조 하세요.
 
 ### <a name="install-the-azureadpreview-module"></a>AzureADPreview 모듈 설치
 

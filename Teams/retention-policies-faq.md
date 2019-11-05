@@ -15,14 +15,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbeab6df377dd898b9c0d424288300ad7f01fbfc
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37569976"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968309"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Microsoft 팀 보존 정책 FAQ
+
+> [!NOTE]
+> 아직 개인 채널 메시지 보존에 대 한 구성은 지원 하지 않습니다. 개인 채널에서 공유 된 파일을 보존 하는 기능이 지원 됩니다.
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>보존 정책에 설정할 수 있는 정책의 종류는 무엇 이며 어떻게 작동 하나요?
 
@@ -40,7 +43,7 @@ ms.locfileid: "37569976"
 
 ### <a name="what-is-the-default-retention-policy"></a>기본 보존 정책은 무엇입니까? 
 
-기본적으로 팀 채팅, 채널 및 파일 데이터는 영구적으로 유지 됩니다. 사용자는 무언가를 삭제할 수 있지만 보존 정책이 없을 경우 팀 데이터는 항상 Exchange online 사서함 (사용자 및 그룹)에 보관 되며 eDiscovery에 대해 유지 됩니다. 
+기본적으로 팀 채팅, 채널 및 파일 데이터는 영구적으로 유지 됩니다.
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>정책에서 사용자 또는 팀 집합을 대상으로 지정할 수 있습니까? 
 

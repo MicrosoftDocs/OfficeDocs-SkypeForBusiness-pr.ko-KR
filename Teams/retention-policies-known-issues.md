@@ -15,14 +15,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a7dd5bac7c82814befab66247b1bfa8cf4943f6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5565409ea2f3dbb83754ced08a78e12283b1601c
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569965"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968339"
 ---
 # <a name="known-issues-for-retention-policies-in-microsoft-teams"></a>Microsoft 팀의 보존 정책에 대 한 알려진 문제점
+
+> [!NOTE]
+> 아직 개인 채널 메시지 보존에 대 한 구성은 지원 하지 않습니다. 개인 채널에서 공유 된 파일을 보존 하는 기능이 지원 됩니다.
 
 다음은 추적 및 조사 중인 팀의 보존 정책에 대 한 알려진 문제점입니다.
 

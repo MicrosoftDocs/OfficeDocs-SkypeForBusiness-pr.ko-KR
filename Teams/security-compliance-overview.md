@@ -17,12 +17,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5780720cfcd5adcf079c0f3d31423949cecea23
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37573431"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968179"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 준수에 대 한 개요
 ======================================================
@@ -37,7 +37,10 @@ Microsoft 팀은 고객이 기대 하는 고급 보안 및 규정 준수 기능�
 
 또한 Microsoft Intune을 사용 하 여 채널, 채팅 및 파일에 대 한 감사 로그 검색, eDiscovery 및 법률 보존에 대 한 지원도 추가 했습니다. 이러한 설정을 관리 하려면 Office 365 보안 & 준수 센터로 이동 합니다. 
 
-Office 365 보안 & 준수에 대 한 자세한 내용은 [향상 된 보안을 위해 office 365 테 넌 트 구성](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security) 읽기를 참고 하세요.
+Office 365 보안 및 준수에 대 한 자세한 내용은 [향상 된 보안을 위해 office 365 테 넌 트 구성을](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)읽어 보세요.
+
+> [!NOTE]
+> 현재 [개인 채널](private-channels.md) 은 제한 된 보안 및 규정 준수 기능을 지원 합니다. 개인 채널의 모든 보안 및 규정 준수 기능에 대 한 지원은 곧 제공 될 예정입니다.
 
 ## <a name="auditing-and-reporting"></a>감사 및 보고
 
@@ -47,7 +50,7 @@ Office 365 보안 & 준수에 대 한 자세한 내용은 [향상 된 보안을 
 
 콘텐츠 검색을 사용 하 여 풍부한 필터링 기능을 통해 모든 팀 데이터를 검색 하 고 규정 준수 및 소송 지원을 위한 특정 컨테이너에 내보낼 수 있습니다. 이 작업은 eDiscovery 사례와 관계 없이 수행할 수 있습니다. 이렇게 하면 규정 준수 관리자가 모든 사용자에 게 팀 데이터를 수집 하 고 추가 처리를 위해 검토 하 고 내보낼 수 있습니다. Office 365 보안 & 준수 센터에서 Microsoft 팀 콘텐츠에 대 한 규정 준수 콘텐츠 검색을 수행 하는 방법에 대 한 자세한 내용은이 [링크](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) 를 참조 하세요. 
 
-팁: Microsoft 팀을 사용 하 여 Microsoft 팀의 콘텐츠, 즉 채팅 및 채널 메시지, 모임, 통화를 필터링 할 수 있습니다. 
+팁: Microsoft 팀을 사용 하 여 Microsoft 팀의 콘텐츠, 즉 채팅 및 채널 메시지, 모임, 통화를 필터링 할 수 있습니다.
 
 ## <a name="ediscovery"></a>eDiscovery
 

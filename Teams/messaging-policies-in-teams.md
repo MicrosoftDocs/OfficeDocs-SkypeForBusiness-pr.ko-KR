@@ -17,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 메시징 정책 및이를 사용 하 여 팀의 채팅 메시지를 제어 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: bc69b44b47cf068bdea17ed661a873b90af44de5
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3ac3e25dfc6f8ec65922d0265664649de6e9f55c
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37569279"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968239"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>팀에서 메시징 정책 관리
 
@@ -34,7 +34,7 @@ ms.locfileid: "37569279"
 
 ## <a name="change-or-create-a-messaging-policy"></a>메시징 정책 변경 또는 만들기
 
-관리자 자격 증명으로 로그인 하 고 왼쪽 탐색 창에서http://admin.teams.microsoft.com) **메시징 정책을** 선택 하 여 Microsoft 팀 관리 센터에서 쉽게 메시징 정책을 관리할 수 있습니다. 조직의 기존 기본 메시징 정책을 편집 하려면 **전역 (조직 전체 기본값)** 행을 선택 하 고 원하는 대로 변경 합니다. 새 사용자 지정 메시징 정책을 만들려면 **새 정책을**선택 하 고 새 정책의 이름을 지정한 다음 설정을 선택 합니다. 완료 되 면 **저장** 을 선택 합니다.
+관리자 자격 증명으로 로그인 하 고 왼쪽 탐색 창에서https://admin.teams.microsoft.com) **메시징 정책을** 선택 하 여 Microsoft 팀 관리 센터에서 쉽게 메시징 정책을 관리할 수 있습니다. 조직의 기존 기본 메시징 정책을 편집 하려면 **전역 (조직 전체 기본값)** 행을 선택 하 고 원하는 대로 변경 합니다. 새 사용자 지정 메시징 정책을 만들려면 **새 정책을**선택 하 고 새 정책의 이름을 지정한 다음 설정을 선택 합니다. 완료 되 면 **저장** 을 선택 합니다.
 
 예를 들어 보낸 메시지가 삭제 되거나 변경 되지 않도록 하려는 경우를 가정해 보겠습니다. "보낸 메시지 보존" 이라는 새 사용자 지정 정책을 만들고 다음 설정을 해제 합니다.
 
@@ -97,6 +97,9 @@ ms.locfileid: "37569279"
     - **사용 안 함** 이는 사용자가 채팅 또는 채널에서 음성 메시지를 만들 수 없음을 의미 합니다.  
 - **모바일 장치에서 최근 채팅 위에 즐겨찾기 채널 표시** 사용자가 스크롤할 필요가 없도록 즐겨찾기 채널을 모바일 디바이스 화면 위쪽으로 이동 하려면이 설정을 사용 합니다. 
 - **사용자가 그룹 채팅에서 사용자를 제거할 수 있도록 허용** 사용자가 그룹 채팅에서 다른 사용자를 제거할 수 있도록 하려면이 설정을 사용 합니다. 이 기능을 사용 하면 채팅 기록을 잃지 않고 더 적은 그룹의 사람들과 채팅을 계속할 수 있습니다.
+
+> [!NOTE]
+> Giphy를 사용 하는 등 이러한 설정 중 일부는 팀 소유자에 의해 또는 개인 채널 소유자가 개인 채널 수준에 따라 팀 수준에서 구성할 수도 있습니다.
 
 ### <a name="related-topics"></a>관련 항목
 [팀의 모임 정책](meeting-policies-in-teams.md)

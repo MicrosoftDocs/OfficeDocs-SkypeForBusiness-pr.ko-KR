@@ -22,12 +22,12 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 5edaa21f3d9a2438532f8cc7f45f182c105b2f1e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 5bcc084c96ededbf4337057834763e9d53ac4348
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37570138"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968279"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft 팀에서 팀 정책 관리
 
@@ -46,8 +46,8 @@ Microsoft 팀 관리 센터에서 **팀** > **팀 정책** 으로 이동해 서 
     ![팀 정책 설정 스크린샷](media/teams-policies.png)
 4. 원하는 설정을 선택 합니다.
 
-- [**개인 팀**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#discoverteams)검색:이 설정을 사용 하면 사용자가 검색 결과 및 팀 갤러리에서 비공개 팀을 검색할 수 있습니다.
-- [**개인 채널 만들기**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#createchannels):이 설정을 사용 하면 사용자가 개인 채널을 만들 수 있습니다.
+- **개인 팀**검색:<a name="discoverteams"> </a> 이 설정을 사용 하면 사용자가 검색 결과 및 팀 갤러리에서 비공개 팀을 검색할 수 있습니다.
+- **개인 채널 만들기**: <a name="createchannels"> </a>이 설정을 사용 하면 사용자가 개인 채널을 만들 수 있습니다.
 
 5. **저장**을 클릭 합니다.
 
@@ -105,3 +105,4 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing T
 ## <a name="related-topics"></a>관련 항목
 
 - [Teams에서 비공개 팀의 검색 관리](manage-discovery-of-private-teams.md)
+- [팀의 비공개 채널](private-channels.md)

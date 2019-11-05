@@ -3,7 +3,6 @@ title: Microsoft 팀의 보존 정책
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,16 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e78e5837aa0e42f268b50bff47dab6aae71d5d2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 81c42bbe4f6bfc9186365d43906fc9b7f31bf8d2
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569954"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968329"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft 팀의 보존 정책
 
-팀 대화는 영구적 이며 기본적으로 영구적으로 유지 됩니다. 보존 정책 도입으로 관리자는 팀 채팅 및 채널 메시지에 대 한 보안 & 준수 센터에서 보존 정책 (유지 및 삭제)을 구성할 수 있습니다. 이는 특정 기간이 지난 후에 조직이 책임으로 간주 되는 경우 특정 기간에 대 한 준수 (즉, 유지 정책)에 대 한 데이터를 보유 하거나 데이터 제거 (즉, 삭제 정책) 할 수 있습니다. 팀 보존 정책 데이터를 삭제 하면 팀 서비스의 모든 영구 데이터 저장소 위치에서 제거 됩니다. 
+팀 대화는 영구적 이며 기본적으로 영구적으로 유지 됩니다. 보존 정책 도입으로 관리자는 팀 채팅 및 채널 메시지에 대 한 보안 & 준수 센터에서 보존 정책 (유지 및 삭제)을 구성할 수 있습니다. 이는 특정 기간이 지난 후에 조직이 책임으로 간주 되는 경우 특정 기간에 대 한 준수 (즉, 유지 정책)에 대 한 데이터를 보유 하거나 데이터 제거 (즉, 삭제 정책) 할 수 있습니다. 팀 보존 정책 데이터를 삭제 하면 팀 서비스의 모든 영구 데이터 저장소 위치에서 제거 됩니다.
+
+> [!NOTE]
+> 아직 개인 채널 메시지 보존에 대 한 구성은 지원 하지 않습니다. 개인 채널에서 공유 된 파일을 보존 하는 기능이 지원 됩니다.
 
 팀 보존 정책을 관리 하려면 **데이터 관리** > **보존**의 Office 365 보안 & 준수 센터에서 설정 및 cmdlet을 사용 합니다.
 

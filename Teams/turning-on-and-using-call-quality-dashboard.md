@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 참조 하세요. '
-ms.openlocfilehash: a83ebe08ac7cc754cadd59bffa71117f473b470b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d6e97ea5454b8e933424c2e8db595a5af7ac8c8
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568512"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972489"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
@@ -60,7 +60,7 @@ CQD 버전 3은 거의 실시간 CQD 대시보드 (지연 시간은 30 분)를 �
 - 클라이언트 버전: 세션 및 사용자를 각 클라이언트 버전에 대해 계산 하거나 각 클라이언트 버전에 대 한 사용자 이름 드릴 다운을 봅니다. 제품 및 클라이언트 종류에 대 한 미리 작성 된 필터는 특정 클라이언트에 버전을 집중 하는 데 도움이 됩니다.
 - 끝점: PC/Mac의 Make/Model에 매핑된 기계 끝점을 표시 합니다. 만들기/모델 별로 집계 된 품질을 표시 합니다. 매핑 데이터는 데이터 구축과 유사 하 게 업로드 됩니다.
 
-또한 버전 3에서는 EUII 액세스를 사용할 수 없는 경우에 RBAC 지원도 제공 합니다.  
+EUII 액세스를 사용할 수 없는 경우에도 V3 (Advanced CQD)은 RBAC 지원 기능을 제공 합니다.  
 
 관리자는 CQD 버전 3을 통해 비즈니스용 skype 서버 2019 (비즈니스용 Skype Online 및 Microsoft 팀만 해당)을 관리할 수 있습니다. 이를 위해서는 하이브리드 구현과 Call Data Connector를 사용 해야 합니다. 자세한 내용은 [통화 데이터 커넥터 계획](/SkypeForBusiness/hybrid/plan-call-data-connector) 을 참조 하세요.
 
@@ -84,7 +84,7 @@ CQD 버전 1에서 비즈니스용 Skype Server 2015 관리자에 게 제공 되
 
 ## <a name="cqd-near-real-time-nrt-data"></a>CQD 근거리 실시간 (NRT) 데이터
 
-CQD v3은 근거리 실시간 데이터 피드를 이용 합니다. 통화 기록은 통화 종료 후 30 분 이내에 CQD 포털에서 사용할 수 있습니다. NRT 파이프라인의 통화 레코드는 일부 달에만 사용할 수 있으며 데이터 집합에서 제거 됩니다. CQD v3은 v3 파이프라인의 NRT 데이터를 사용 하 여 현재 v2 파이프라인의 데이터를 병합 합니다. 보관 기간의 데이터에 대 한 v2 및 v3 포털의 쿼리는 동일한 결과를 생성 합니다. NRT 데이터 및 NRT 데이터 + PII 기간에 대 한 V2 및 v3 데이터 쿼리는 서로 다릅니다.
+Advanced CQD (V3, 11 월 릴리스 2019)는 거의 실시간 데이터 피드를 사용 합니다. 통화 기록은 통화 종료 후 30 분 이내에 CQD 포털에서 사용할 수 있습니다. NRT 파이프라인의 통화 레코드는 일부 달에만 사용할 수 있으며 데이터 집합에서 제거 됩니다. CQD v3은 v3 파이프라인의 NRT 데이터를 사용 하 여 현재 v2 파이프라인의 데이터를 병합 합니다. 보관 기간의 데이터에 대 한 v2 및 v3 포털의 쿼리는 동일한 결과를 생성 합니다. NRT 데이터 및 NRT 데이터 + PII 기간에 대 한 V2 및 v3 데이터 쿼리는 서로 다릅니다.
 
 ### <a name="piieuii-data"></a>PII/EUII 데이터
 
@@ -170,24 +170,24 @@ CQD 사용을 시작 하기 전에 다음과 같이 Office 365 조직에 대해 
 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-<!-- Siunies, this isn't very clear, it doesn't call out v1 and v2. unsure how to elaborate for v3, please comment -->
+
 CQD 요약 보고서는 자세한 보고서에 대해 계획 된 기능의 하위 집합을 제공 합니다. 버전 간의 차이점은 다음과 같이 요약 됩니다.
   
-|요소|요약 보고서|자세한 보고서|
+|기능|요약 보고서|자세한 보고서|
 |:--- |:--- |:--- |
-|응용 프로그램 공유 메트릭 | 아니요 | ' |
-|고객 건물 정보 지원 | ' | ' |
+|응용 프로그램 공유 메트릭 | 아니요 | 예 |
+|고객 건물 정보 지원 | 예 | 예 |
 |고객 끝점 정보 지원 | <span>Cqd.teams.microsoft.com 에서만<span/> | <span>Cqd.teams.microsoft.com 에서만<span/> |
-|드릴 다운 분석 지원   | 아니요   | '   |
-|미디어 안정성 메트릭   | 아니요   | '   |
-|오래 된 보고서   | '   | '   |
-|개요 보고서   | '   | '   |
-|사용자 단위 보고서 집합   | 아니요   | '   |
-|보고서 집합 사용자 지정 (보고서 추가, 삭제, 수정)   | 아니요   | '   |
-|비디오 기반 화면 공유 메트릭   | 아니요   | '   |
-|비디오 메트릭   | 아니요   | '   |
+|드릴 다운 분석 지원   | 아니요   | 예   |
+|미디어 안정성 메트릭   | 아니요   | 예   |
+|오래 된 보고서   | 예   | 예   |
+|개요 보고서   | 예   | 예   |
+|사용자 단위 보고서 집합   | 아니요   | 예   |
+|보고서 집합 사용자 지정 (보고서 추가, 삭제, 수정)   | 아니요   | 예   |
+|비디오 기반 화면 공유 메트릭   | 아니요   | 예   |
+|비디오 메트릭   | 아니요   | 예   |
 |사용할 수 있는 데이터 양   | 지난 6 개월   | 지난 6 개월   |
-|Microsoft 팀 데이터   | '   | '   |
+|Microsoft 팀 데이터   | 예   | 예   |
 | | | |
 
 ### <a name="out-of-the-box-reports"></a>오래 된 보고서
@@ -211,7 +211,7 @@ CQD의 모든 버전은 전체 통화 품질 정보에 대 한 상위 수준의 
 - **음성 품질 SLA** -비즈니스용 Skype Online 보이스 품질 sla에 포함 된 통화에 대 한 정보를 제공 합니다.
 
 > [!NOTE]
-> CQD 버전 3은 Microsoft 팀, 비즈니스용 Skype Online, 비즈니스용 Skype 서버와 함께 작동 합니다. 비즈니스용 Skype 서버 2019에서 CQD를 사용 하려면 [Call Data Connector를 구성](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector)해야 합니다. 시작 하기 전에 [요금제 호출 데이터 커넥터](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-call-data-connector) 를 참조 하세요.
+> CQD 버전 3은 Microsoft 팀, 비즈니스용 Skype Online, 비즈니스용 Skype 서버와 함께 작동 합니다. 비즈니스용 Skype 서버 2019에서 CQD를 사용 하려면 [Call Data Connector를 구성](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector)해야 합니다. 시작 하기 전에 [요금제 호출 데이터 커넥터](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector) 를 참조 하세요.
 
 - 지역별 통화 음질:
 
@@ -447,12 +447,12 @@ Cqd v2와 CQD v3에는 cqd v2에는 새로운 시나리오가 없기 때문에 C
 
 ## <a name="related-topics"></a>관련 항목
 
-[통화 품질 대시보드에서 사용할 수 있는 크기 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)
+[통화 품질 대시보드의 분류 간소화](stream-classification-in-call-quality-dashboard.md)
 
 [비즈니스용 Skype 통화 분석 설정](set-up-call-analytics.md)
 
-[통화 분석을 사용 하 여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [통화 분석 및 통화 품질 대시보드](difference-between-call-analytics-and-call-quality-dashboard.md)
