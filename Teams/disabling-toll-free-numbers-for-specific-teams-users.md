@@ -20,10 +20,10 @@ ms.custom:
 - Audio Conferencing
 description: 관리자는 이끌이가 무료 전화 번호를 모임에 사용 하는 방법을 제어할 수 있습니다.
 ms.openlocfilehash: e2dddd04f376de69dbbc9579525966bac6351a0a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37572105"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>특정 팀 사용자를 위해 무료 번호를 사용 하지 않도록 설정
@@ -43,7 +43,7 @@ ms.locfileid: "37572105"
 
  - 참가자는 유료 전화 번호를 사용 하 여 이끌이 모임에 계속 참가할 수 있습니다. 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>특정 사용자에 대해 무료 번호 사용 안 함 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>특정 사용자의 무료 전화 번호 사용 안 함 
 
 **Microsoft 팀 관리 센터**에서 다음을 수행 합니다.
 

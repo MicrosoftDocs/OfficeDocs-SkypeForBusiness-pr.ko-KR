@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4616b3d78ae8d5e349b4cf29ca9112df77d7a295
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 282f6f7295fe7763462a9298719466033aa335a4
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772352"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979711"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 팀 앱의 하드웨어 요구 사항
 
@@ -64,7 +64,7 @@ ms.locfileid: "37772352"
 |하드 디스크    | 3.0 GB의 사용 가능한 디스크 공간        |
 |표시    |   1024 x 768 화면 해상도 |
 |그래픽 하드웨어 |  최소 128 MB 그래픽 메모리
-|운영 체제  | DEB, Snap 또는 RPM을 설치할 수 있는 Linux 배포 |
+|운영 체제  | DEB 또는 RPM을 설치할 수 있는 Linux 배포 |
 |비디오만    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 랩탑 카메라, 마이크, 스피커    | 
 |음성    |  호환 되는 마이크와 스피커, 헤드셋 마이크 또는 동급 장치       |

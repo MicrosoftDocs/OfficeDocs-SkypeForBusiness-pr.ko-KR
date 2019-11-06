@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 온-프레미스 Exchange와 비즈니스용 Skype Online 간에 OAuth 인증을 구성 하면 기능 지원에서 설명 하는 비즈니스용 Skype 및 Exchange 통합 기능을 사용할 수 있습니다.
-ms.openlocfilehash: fe6d7bbe1be9418b7e960de02e91cecf1c808d2b
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 1d64f8fe7b2d6dcf276ae34e74c84faf5c93f65a
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715810"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979781"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>비즈니스용 Skype Online 및 Exchange Server 간 통합 및 OAuth 구성 
 
@@ -41,7 +41,7 @@ Exchange server와 비즈니스용 Skype Online의 통합을 구성 하면 [기�
 
 다음 문서의 단계를 수행 합니다.
 
-[Exchange 및 Exchange Online 조 직 간의 OAuth 인증 구성](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Exchange 및 Exchange Online 조 직 간의 OAuth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
 
 ### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>2 단계: 비즈니스용 Skype Online 파트너 응용 프로그램에 대 한 새 메일 사용자 계정 만들기
 
@@ -99,7 +99,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 온-프레미스 Exchange 조직의 Exchange PowerShell에서 방금 만든 PowerShell 스크립트를 실행 합니다. 예: .\ExportAuthCert.ps1
 
-### <a name="step-6-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>6 단계: Azure Active Directory ACS에 온-프레미스 인증 인증서 업로드
+### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>5 단계: Azure Active Directory ACS에 온-프레미스 인증 인증서 업로드
 
 다음으로, Windows PowerShell을 사용 하 여 이전 단계에서 내보낸 온-프레미스 인증 인증서를 Azure Active Directory ACS (Access Control Services)에 업로드 합니다. 이렇게 하려면 Windows PowerShell cmdlet 용 Azure Active Directory 모듈이 이미 설치 되어 있어야 합니다. 설치 되어 있지 않은 경우에 [https://aka.ms/aadposh](https://aka.ms/aadposh) 는 Windows PowerShell 용 Azure Active Directory 모듈 설치로 이동 합니다. Windows PowerShell 용 Azure Active Directory 모듈을 설치한 후 다음 단계를 완료 합니다.
 
@@ -126,7 +126,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 4. 스크립트를 시작 하면 자격 증명 대화 상자가 표시 됩니다. Microsoft Online Azure AD 조직의 테 넌 트 관리자 계정에 대 한 자격 증명을 입력 합니다. 스크립트를 실행 한 후 Azure AD 세션 용 Windows PowerShell을 열어 둡니다. 이는 다음 단계에서 PowerShell 스크립트를 실행 하는 데 사용 됩니다.
 
-### <a name="step-7-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>7 단계: 인증서가 비즈니스용 Skype 서비스 사용자에 게 업로드 되었는지 확인
+### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>6 단계: 인증서가 비즈니스용 Skype 서비스 사용자에 게 업로드 되었는지 확인
 1. Azure Active Directory로 열리고 인증 된 PowerShell에서 다음을 실행 합니다.
 ```
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
@@ -150,6 +150,6 @@ OAuth를 사용 하 여 성공적으로 진행 되 고 있는지 확인 하려�
 
 다음은 [설정의 예](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)입니다. 하지만 원하는 모든 네트워크 추적 도구를 사용 하 여이 프로세스를 실행할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[Exchange 및 Exchange Online 조 직 간의 OAuth 인증 구성](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Exchange 및 Exchange Online 조 직 간의 OAuth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

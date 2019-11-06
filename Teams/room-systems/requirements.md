@@ -12,12 +12,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방을 지원 하기 위한 요구 사항을 요약 하 여 설명 합니다.
-ms.openlocfilehash: f9cdb6acd98fed0c20aed74fc5bdce3dff02b3d6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9173108fa6c7047e7e10e45b59d8038cf2d3446e
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573641"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38001357"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 팀 방에 대 한 요구 사항
 
@@ -86,7 +86,7 @@ Microsoft 팀 공간은 공간 크기에 따라 다양 한 오디오 및 비디�
 |Microsoft 팀 회의실 주변 기기|인증 된 펌웨어 버전 | 카메라가 콘텐츠 카메라 사용 지원|
 |:--- |:--- | :--- |
 |[Huddly IQ에서 crestron](https://www.crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
-|[Logitech BRIO](https://www.logitech.com/en-us/product/brio)   |v240| &#x2714; |
+|[Logitech Brio](https://www.logitech.com/en-us/product/brio)   |V 2.2.50| &#x2714; |
 |[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech 집결](https://www.logitech.com/en-us/product/rally-ultra-hd-conferencecam)   |1.2.4 |
 |[Logitech 잔](http://www.logitech.com/en-us/product/meetup-conferencecam)   |오디오-1.0.172 <br/> 비디오-1.0.156  |

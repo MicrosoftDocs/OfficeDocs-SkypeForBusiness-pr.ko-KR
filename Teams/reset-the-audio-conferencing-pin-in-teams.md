@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: 'Pin에 대해 알아야 할 내용과 Microsoft 팀에서 다시 설정 하는 방법에 대해 알아봅니다. '
 ms.openlocfilehash: 778e9841d3a355597b4b048d79bb62a144eed349
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37568359"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft 팀에서 오디오 회의 PIN 다시 설정
@@ -82,6 +82,6 @@ Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는
     
 Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[사용자의 전화 회의 ID 다시 설정](reset-a-conference-id-for-a-user-in-teams.md)
+[사용자의 회의 ID 다시 설정](reset-a-conference-id-for-a-user-in-teams.md)

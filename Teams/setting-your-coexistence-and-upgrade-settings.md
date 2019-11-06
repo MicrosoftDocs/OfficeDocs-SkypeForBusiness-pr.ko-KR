@@ -16,10 +16,10 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ce472ca1c5307dd8a5573ca076c58e32e2d41df9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571527"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>공존 및 업그레이드 설정 설정
@@ -67,7 +67,7 @@ ms.locfileid: "37571527"
 4. **조직 전체 설정을 사용**하는 것 이외의 **공존 모드** 를 선택 하면 사용자의 비즈니스용 Skype 앱에서 팀으로 업그레이드 하는 알림을 사용할 수 있는 옵션이 제공 됩니다. **비즈니스용 Skype 사용자에 게 알림** 옵션을 설정 하 여 사용자에 대해이 알림을 사용 하도록 설정할 수 있습니다.
 5. 변경한 후 **저장** 을 클릭 합니다.
 
-### <a name="related-topics"></a>관련 항목
+### <a name="related-topics"></a>관련 주제
 [여행 계획](upgrade-plan-journey.md)
 
 [비즈니스용 Skype 및 팀에 대 한 공존 및 업그레이드 여행 이해](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
