@@ -1,0 +1,60 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/**.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg",
+          "**/*.pdf",
+          "**/*.vsdx"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "searchScope": [
+        "Microsoft Teams"
+      ],
+      "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
+      "extendBreadcrumb": "true",
+      "ms.suite": "office",
+      "bilingual_type": "hover over",
+      "contributors_to_exclude": [
+        "dstrome",
+        "daswifty",
+        "MikePlumleyMSFT",
+        "OfficeGSX"
+      ],
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
+      "feedback_product_url": "https://microsoftteams.uservoice.com"
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "OfficeDocs-MicrosoftTeams",
+    "markdownEngineName": "markdig"
+  }
+}
