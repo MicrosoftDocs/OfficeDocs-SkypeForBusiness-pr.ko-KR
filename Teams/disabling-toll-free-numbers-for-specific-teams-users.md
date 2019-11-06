@@ -20,45 +20,45 @@ ms.custom:
 - Audio Conferencing
 description: 관리자는 이끌이가 무료 전화 번호를 모임에 사용 하는 방법을 제어할 수 있습니다.
 ms.openlocfilehash: e2dddd04f376de69dbbc9579525966bac6351a0a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37572105"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-teams-users"></a><span data-ttu-id="de7ec-103">특정 팀 사용자를 위해 무료 번호를 사용 하지 않도록 설정</span><span class="sxs-lookup"><span data-stu-id="de7ec-103">Disabling toll-free numbers for specific Teams users</span></span>
+# <a name="disabling-toll-free-numbers-for-specific-teams-users"></a><span data-ttu-id="d69f2-103">특정 팀 사용자를 위해 무료 번호를 사용 하지 않도록 설정</span><span class="sxs-lookup"><span data-stu-id="d69f2-103">Disabling toll-free numbers for specific Teams users</span></span>
 
-<span data-ttu-id="de7ec-104">조직의 Microsoft 오디오 회의 브리지에 무료 번호가 있는 경우 특정 이끌이의 모임에서 사용을 허용 하거나 방지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="de7ec-104">If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, you can allow or prevent their usage in the meetings of specific organizers.</span></span>  
+<span data-ttu-id="d69f2-104">조직의 Microsoft 오디오 회의 브리지에 무료 번호가 있는 경우 특정 이끌이의 모임에서 사용을 허용 하거나 방지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d69f2-104">If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, you can allow or prevent their usage in the meetings of specific organizers.</span></span>  
 
-<span data-ttu-id="de7ec-105">기본적으로 조직의 모든 사용자는 무료 번호를 사용할 수 있으며, 해당 번호 (사용 가능한 경우)를 참가자가 모임에 참가 하는 데 사용 하는 것을 의미 합니다.</span><span class="sxs-lookup"><span data-stu-id="de7ec-105">By default, all users in your organization are enabled for using toll-free numbers, meaning that those numbers, if available, can be used by participants to join their meetings.</span></span> <span data-ttu-id="de7ec-106">조직의 일부 사용자가이 동작을 원하지 않는 경우에는 무료 번호 사용 제어를 통해 특정 사용자가 모임에서 해당 번호를 사용 하지 못하도록 제한할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="de7ec-106">If this is not the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control.</span></span> 
+<span data-ttu-id="d69f2-105">기본적으로 조직의 모든 사용자는 무료 번호를 사용할 수 있으며, 해당 번호 (사용 가능한 경우)를 참가자가 모임에 참가 하는 데 사용 하는 것을 의미 합니다.</span><span class="sxs-lookup"><span data-stu-id="d69f2-105">By default, all users in your organization are enabled for using toll-free numbers, meaning that those numbers, if available, can be used by participants to join their meetings.</span></span> <span data-ttu-id="d69f2-106">조직의 일부 사용자가이 동작을 원하지 않는 경우에는 무료 번호 사용 제어를 통해 특정 사용자가 모임에서 해당 번호를 사용 하지 못하도록 제한할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d69f2-106">If this is not the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control.</span></span> 
 
-<span data-ttu-id="de7ec-107">특정 이끌이의 무료 전화 번호를 사용 하지 않는 경우 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="de7ec-107">When toll-free numbers are disabled for a given organizer:</span></span> 
- - <span data-ttu-id="de7ec-108">무료 번호는 귀하의 모임 초대에 더 이상 포함 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="de7ec-108">A toll-free number will no longer be included in his or her meeting invites.</span></span> 
- - <span data-ttu-id="de7ec-109">무료 번호는 귀하의 모임 초대에서 참조 되는 "지역 번호 찾기" 페이지에 더 이상 나열 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="de7ec-109">Toll-free numbers will no longer be listed on the "Find a local number" page that is referenced in his or her meeting invites.</span></span> 
- - <span data-ttu-id="de7ec-110">무료 조직의 번호로 전화를 걸어야 하는 경우 참가자가 지정 된 이끌이의 모임에 참가할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="de7ec-110">Participants won't be able to join the meeting of the given organizer if they dial any toll-free number of the organization.</span></span> 
- - <span data-ttu-id="de7ec-111">이끌이의 모든 모임이 자동으로 재조정 되 고 무료 번호가 해당 번호에서 제거 됩니다.</span><span class="sxs-lookup"><span data-stu-id="de7ec-111">All meetings of the organizer will be automatically rescheduled, and the toll-free number will be removed from them.</span></span>  
+<span data-ttu-id="d69f2-107">특정 이끌이의 무료 전화 번호를 사용 하지 않는 경우 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d69f2-107">When toll-free numbers are disabled for a given organizer:</span></span> 
+ - <span data-ttu-id="d69f2-108">무료 번호는 귀하의 모임 초대에 더 이상 포함 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d69f2-108">A toll-free number will no longer be included in his or her meeting invites.</span></span> 
+ - <span data-ttu-id="d69f2-109">무료 번호는 귀하의 모임 초대에서 참조 되는 "지역 번호 찾기" 페이지에 더 이상 나열 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d69f2-109">Toll-free numbers will no longer be listed on the "Find a local number" page that is referenced in his or her meeting invites.</span></span> 
+ - <span data-ttu-id="d69f2-110">무료 조직의 번호로 전화를 걸어야 하는 경우 참가자가 지정 된 이끌이의 모임에 참가할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="d69f2-110">Participants won't be able to join the meeting of the given organizer if they dial any toll-free number of the organization.</span></span> 
+ - <span data-ttu-id="d69f2-111">이끌이의 모든 모임이 자동으로 재조정 되 고 무료 번호가 해당 번호에서 제거 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d69f2-111">All meetings of the organizer will be automatically rescheduled, and the toll-free number will be removed from them.</span></span>  
 
     > [!IMPORTANT]
-    > <span data-ttu-id="de7ec-112">이렇게 하면 해당 모임의 모든 참가자에 게 이끌이의 전자 메일 초대가 모두 다시 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="de7ec-112">This will resend all of the email invites of the organizer to all the participants of those meetings.</span></span> 
+    > <span data-ttu-id="d69f2-112">이렇게 하면 해당 모임의 모든 참가자에 게 이끌이의 전자 메일 초대가 모두 다시 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d69f2-112">This will resend all of the email invites of the organizer to all the participants of those meetings.</span></span> 
 
- - <span data-ttu-id="de7ec-113">참가자는 유료 전화 번호를 사용 하 여 이끌이 모임에 계속 참가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="de7ec-113">Participants can continue joining meetings of the organizer using toll numbers.</span></span> 
+ - <span data-ttu-id="d69f2-113">참가자는 유료 전화 번호를 사용 하 여 이끌이 모임에 계속 참가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d69f2-113">Participants can continue joining meetings of the organizer using toll numbers.</span></span> 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a><span data-ttu-id="de7ec-114">특정 사용자에 대해 무료 번호 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="de7ec-114">Disabling toll-free numbers for specific users</span></span> 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a><span data-ttu-id="d69f2-114">특정 사용자의 무료 전화 번호 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="d69f2-114">Disabling toll-free numbers for specific users</span></span> 
 
-<span data-ttu-id="de7ec-115">**Microsoft 팀 관리 센터**에서 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="de7ec-115">From the **Microsoft Teams admin center**:</span></span>
+<span data-ttu-id="d69f2-115">**Microsoft 팀 관리 센터**에서 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d69f2-115">From the **Microsoft Teams admin center**:</span></span>
 
-1. <span data-ttu-id="de7ec-116">왼쪽 탐색 창에서 **사용자**를 클릭 한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="de7ec-116">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
+1. <span data-ttu-id="d69f2-116">왼쪽 탐색 창에서 **사용자**를 클릭 한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="d69f2-116">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
 
-2. <span data-ttu-id="de7ec-117">**오디오 회의**옆에 있는 **편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="de7ec-117">Next to **Audio Conferencing**, click **Edit**.</span></span>
+2. <span data-ttu-id="d69f2-117">**오디오 회의**옆에 있는 **편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d69f2-117">Next to **Audio Conferencing**, click **Edit**.</span></span>
 
-3. <span data-ttu-id="de7ec-118">**이 사용자의 모임 요청에 무료 전화 번호 포함** 을 **Off**로 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="de7ec-118">Set **Include toll-free numbers in meeting requests from this user** to **Off**.</span></span> 
+3. <span data-ttu-id="d69f2-118">**이 사용자의 모임 요청에 무료 전화 번호 포함** 을 **Off**로 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d69f2-118">Set **Include toll-free numbers in meeting requests from this user** to **Off**.</span></span> 
 
-4. <span data-ttu-id="de7ec-119">**저장을 클릭 합니다.**</span><span class="sxs-lookup"><span data-stu-id="de7ec-119">Click **Save.**</span></span> 
+4. <span data-ttu-id="d69f2-119">**저장을 클릭 합니다.**</span><span class="sxs-lookup"><span data-stu-id="d69f2-119">Click **Save.**</span></span> 
 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
  
-<span data-ttu-id="de7ec-120">**PowerShell 사용**</span><span class="sxs-lookup"><span data-stu-id="de7ec-120">**Using PowerShell**</span></span>  
+<span data-ttu-id="d69f2-120">**PowerShell 사용**</span><span class="sxs-lookup"><span data-stu-id="d69f2-120">**Using PowerShell**</span></span>  
 
-<span data-ttu-id="de7ec-121">자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="de7ec-121">See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="d69f2-121">자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="d69f2-121">See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
