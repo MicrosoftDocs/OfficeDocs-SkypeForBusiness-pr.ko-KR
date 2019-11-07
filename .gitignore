@@ -1,0 +1,12 @@
+log/
+obj/
+_site/
+.optemp/
+_themes*/
+.vs/
+common/
+.vscode/
+
+.openpublishing.buildcore.ps1
+
+
