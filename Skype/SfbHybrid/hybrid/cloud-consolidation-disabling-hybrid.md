@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 부록에는 팀 및 비즈니스용 Skype에 대 한 클라우드 통합의 일부로 서 하이브리드를 사용 하지 않도록 설정 하는 자세한 단계가 포함 되어 있습니다.
-ms.openlocfilehash: d441d9fcc5e4f2cec495efabdbea423eaaec882c
-ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
+ms.openlocfilehash: 7bd0b4c606a84dea08fb568d42fe403f624c522d
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37962059"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010581"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>클라우드로의 마이그레이션을 완료 하기 위해 하이브리드를 사용 하지 않도록 설정
 
@@ -47,8 +47,8 @@ ms.locfileid: "37962059"
 
     |레코드 유형|Name|TTL|값|
     |---|---|---|---|
-    |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed.online.lync.com>. <span>com|
-    |SRV|_cm_tls|3600|100 1 443 sipdir.online.lync.com>. <span>com|
+    |SRV|_sipfederationtls _tcp|3600|100 1 5061 sipfed.online.lync.com>. <span>com|
+    |SRV|_sip _tls|3600|100 1 443 sipdir.online.lync.com>. <span>com|
     |CNAME| lyncdiscover|   3600|   webdir. s e t. <span>com|
     |CNAME| sip|    3600|   sipdir.online.lync.com>. <span>com|
     |CNAME| 조건|   3600|   webdir. s e t. <span>com|
@@ -61,9 +61,8 @@ ms.locfileid: "37962059"
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
     ```
  
-3.  *프레미스의 Office 365 통신 기능을 사용 하지 않도록 설정 합니다.*  
-아래 명령은 온-프레미스 PowerShell 창에서 수행 해야 합니다.  이전에 비즈니스용 Skype Online 세션을 가져온 적이 있는 경우 다음과 같이 새 비즈니스용 Skype PowerShell 세션을 시작 합니다.
-
+3.  *온-프레미스에서 Office 365와 통신 하는 기능을 사용 하지 않도록 설정 합니다.*  
+아래 명령은 온-프레미스 PowerShell 창에서 수행 해야 합니다.
 ```
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
@@ -72,11 +71,11 @@ ms.locfileid: "37962059"
 
 관리자는 온-프레미스 배포를 해제 한 후에도 이전에 비즈니스용 Skype 서버에서 클라우드로 이동한 사용자를 관리할 수 있습니다. 다음과 같은 두 가지 가능성이 있습니다.
 
-- 사용자에 게 이동 하기 전에 lineURI 온-프레미스에 대 한 값이 없습니다. 
+- 사용자에 게 이동 하기 전에 LineURI 온-프레미스에 대 한 값이 없습니다. 
 
-  이 경우 비즈니스용 Skype Online Powershell 모듈의 [Csuser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) 에서-onpremLineUri 매개 변수를 사용 하 여 lineuri를 수정할 수 있습니다.
+  이 경우 비즈니스용 Skype Online PowerShell 모듈의 [CsUser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) 에서-onpremLineUri 매개 변수를 사용 하 여 lineuri를 수정할 수 있습니다.
 
-- 사용자에 게 이동 하기 전에 lineURI 온-프레미스가 있었습니다 (사용자가 Enterprise Voice를 사용할 수 있도록 설정 된 경우). 
+- 사용자에 게 이동 하기 전에 LineURI 온-프레미스가 있었습니다 (사용자가 Enterprise Voice를 사용할 수 있도록 설정 된 경우). 
 
   LineURI를 변경 하려면 온-프레미스 Active Directory에서이 작업을 수행 하 고 값이 Azure AD로 흐를 수 있도록 해야 합니다. 여기에는 온-프레미스 비즈니스용 Skype 서버가 필요 하지 않습니다. 대신,이 특성은 온-프레미스 Active Directory에서 직접 편집할 수 있으며, Active Directory 사용자 및 컴퓨터 MMC 스냅인을 사용 하거나 PowerShell을 사용 하 여 Msrtcsip-gateways. MMC 스냅인을 사용 하는 경우 사용자의 속성 페이지를 열고 특성 편집기 탭을 클릭 한 다음 Msrtcsip-gateways을 찾습니다.
 

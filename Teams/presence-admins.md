@@ -1,5 +1,5 @@
 ---
-title: 팀의 사용자 현재 상태
+title: Teams에서 사용자 현재 상태 확인
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -15,19 +15,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 054c3a639cc5857fb25a7e211a272868477dcb61
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b829fbffa728d3449ba19466d0a2cb85f266c9c2
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573220"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010601"
 ---
-# <a name="user-presence-in-teams"></a>팀의 사용자 현재 상태
+# <a name="user-presence-in-teams"></a>Teams에서 사용자 현재 상태 확인
 
 현재 상태는 Microsoft 팀 (및 Office 365)의 사용자 프로필의 일부로, 다른 사용자에 대 한 현재의 가용성과 상태를 표시 합니다. 다른 사용자가 온라인 상태를 사용할 수 있는 경우 기본적으로 팀을 사용 하는 조직의 모든 사용자가 거의 실시간으로 볼 수 있습니다.
 
 > [!IMPORTANT]
 > 사용자를 **팀 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거 하는 경우 Outlook 및 다른 Office 앱에서 현재 상태는 작동 중지 됩니다. 팀에서 상태는 제대로 작동 합니다. 해결 방법: Outlook (및 다른 Office 앱)에서 현재 상태를 확인 하려면 팀 **전용** 모드로 팀을 실행 하는 경우에도 비즈니스용 Skype를 설치 해야 합니다. Microsoft는이 문제를 알고 있으며 수정 작업을 진행 중입니다.
+
+Outlook에서 팀 현재 상태는 Outlook 2013 데스크톱 앱 이상에서 지원 됩니다.
 
 ## <a name="presence-states-in-teams"></a>팀의 현재 상태
 
@@ -54,7 +56,7 @@ ms.locfileid: "37573220"
 || ![화살표가 있는 자주색 원, 부재 중임을 나타냄](media/Presence_OOF.png) 부재 중|
 |||
  
-사용자는 일부 옵션에 대 한 현재 현재 상태 상태를 수동으로 설정할 수 있으며 해당 상태는 다른 모든 사용자에 게 적용 됩니다. 또한 추가 사용자 현재 상태 정보도 자동으로 업데이트 됩니다. 변경 사항은 사용자 활동 (사용 가능, 자리 비움), Outlook 일정 상태 (모임 중) 또는 팀 앱 상태 (통화 중 발표 됨)에 따라 목록에서 들여쓰기 되는 상태에 기반 합니다.
+사용자는 일부 옵션에 대 한 현재 현재 상태 상태를 수동으로 설정할 수 있으며 해당 상태는 다른 모든 사용자에 게 적용 됩니다. 또한 추가 사용자 현재 상태 정보도 자동으로 업데이트 됩니다. 변경 사항은 사용자 활동 (사용 가능, 자리 비움), Outlook 일정 상태 (모임 중) 또는 팀 앱 상태 (통화 중 발표 됨)에 따라 목록에서 들여쓰기 되는 상태에 기반 합니다. 
 
 현재 현재 상태가 자리 비움으로 다시 설정 되는 데 15 분 비활성 시간 제한이 있습니다.
 
