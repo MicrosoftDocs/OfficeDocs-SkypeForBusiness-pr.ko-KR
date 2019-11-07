@@ -4,15 +4,14 @@
       "docset_name": "OfficeDocs-LyncServer",
       "build_source_folder": "Lync",
       "build_output_subfolder": "OfficeDocs-LyncServer",
-      "locale": "ko-kr",
+      "locale": "ko-KR",
       "monikers": [],
-      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content",
-        "ContextObject": "Toc" 
+        "ContextObject": "Toc"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
@@ -21,9 +20,8 @@
       "docset_name": "OfficeDocs-MicrosoftTeams",
       "build_source_folder": "Teams",
       "build_output_subfolder": "OfficeDocs-MicrosoftTeams",
-      "locale": "ko-kr",
+      "locale": "ko-KR",
       "monikers": [],
-      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -39,9 +37,8 @@
       "docset_name": "OfficeDocs-SkypeForBusiness",
       "build_source_folder": "Skype",
       "build_output_subfolder": "OfficeDocs-SkypeForBusiness",
-      "locale": "ko-kr",
+      "locale": "ko-KR",
       "monikers": [],
-      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -54,18 +51,20 @@
       "version": 0
     }
   ],
-  "notification_subscribers": ["mor-oitac-eng@moravia.com"],
-  "branches_to_filter": ["live"],
+  "notification_subscribers": [],
+  "branches_to_filter": [
+    "live"
+  ],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness",
   "git_repository_branch_open_to_public_contributors": "live",
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
-  "need_preview_pull_request": false,
+  "need_preview_pull_request": true,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.ko-kr",
+      "url": "https://github.com/Microsoft/templates.docs.msft.ko-KR",
       "branch": "master",
       "branch_mapping": {}
     },
