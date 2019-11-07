@@ -18,6 +18,8 @@
 ## [배포 계획](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Teams용 관리자를 사용하여 Teams 배포](use-advisor-teams-roll-out.md)
 ## [팀 및 채널 개요](teams-channels-overview.md)
+## [개인 채널 개요](private-channels.md)
+## [개인 채널의 수명 주기 관리](private-channels-life-cycle-management.md)
 ## [Teams에서 팀 소유자와 팀 구성원 할당](assign-roles-permissions.md)
 ## [팀의 동적 구성원 개요](dynamic-memberships.md)
 ## [Teams에서 팀을 구성하는 방법에 대한 모범 사례](best-practices-organizing.md)
@@ -25,7 +27,6 @@
 ## [팀 및 채널 정책 관리](teams-policies.md)
 ## [Teams에서 비공개 팀의 검색 관리](manage-discovery-of-private-teams.md)
 ## [Teams에서 채널 중재 설정](manage-channel-moderation-in-teams.md)
-## [Teams에서 파일 공유](sharing-files-in-teams.md)
 ## [메시징 정책 관리](messaging-policies-in-teams.md)
 ## [Teams에서 사용자 현재 상태 확인](presence-admins.md)
 ## [Teams의 교차 팀 및 팀 단위 분석 보기](teams-analytics-and-reports/cross-team-per-team-analytics.md)
@@ -101,9 +102,6 @@
 #### [PSTN 사용 현황 보고서](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Teams 라이브 이벤트 사용 현황 보고서](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Microsoft 365 관리 센터의 Teams 활동 보고서](teams-activity-reports.md)
-
-
-
 
 <!-- ============================================================ -->
 
@@ -679,34 +677,66 @@
 #    
 # 하이브리드 연결 
 
-## [하이브리드 연결 계획](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+## [하이브리드 연결 계획](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## 하이브리드 연결 구성
-### [개요](https://docs.microsoft.com/ko-KR/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
-### [하이브리드 환경에 맞게 Azure AD Connect 구성](https://docs.microsoft.com/ko-KR/SkypeForBusiness/hybrid/configure-azure-ad-connect)
-### [비즈니스용 Skype Online 구성](https://docs.microsoft.com/ko-KR/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+### [개요](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### [하이브리드 환경에 맞게 Azure AD Connect 구성](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### [비즈니스용 Skype Online 구성](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
 
 ## 온-프레미스와 클라우드 간에 사용자 이동
-### [개요](https://docs.microsoft.com/ko-KR/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
-### [사용자를 온-프레미스에서 Teams로 이동](https://docs.microsoft.com/ko-KR/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
-### [사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동](https://docs.microsoft.com/ko-KR/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
-### [사용자를 클라우드에서 온-프레미스로 이동](https://docs.microsoft.com/ko-KR/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+### [개요](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### [사용자를 온-프레미스에서 Teams로 이동](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### [사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### [사용자를 클라우드에서 온-프레미스로 이동](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [모임 마이그레이션 관리](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [모임 마이그레이션 관리](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
-## [클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화](https://docs.microsoft.com/ko-KR/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+## [클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
-## [리소스 포리스트 토폴로지 배포](https://docs.microsoft.com/ko-KR/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+## [리소스 포리스트 토폴로지 배포](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
 
 ## Teams 및 비즈니스용 Skype Online을 위한 클라우드 통합
-### [개요](https://docs.microsoft.com/ko-KR/SkypeForBusiness/hybrid/cloud-consolidation)
-### [에지 인증서 업데이트](https://docs.microsoft.com/ko-KR/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
-### [여러 포리스트를 포함하도록 AAD Connect를 업데이트](https://docs.microsoft.com/ko-KR/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+### [개요](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation)
+### [에지 인증서 업데이트](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### [여러 포리스트를 포함하도록 AAD Connect를 업데이트](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
 
-## [Exchange 및 Sharepoint와의 통합](https://docs.microsoft.com/ko-KR/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+## [Exchange 및 Sharepoint와의 통합](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
+#     
+#     
 
-#       
+<!-- ============================================================ -->
+
+# Microsoft 365 Business Voice
+## [Microsoft 365 Business Voice란 무엇인가요?](business-voice/whats-business-voice.md)
+## 구매 전에 알아야 할 사항
+### [Business Voice를 사용하기 위해 구입해야 하는 것](business-voice/what-to-buy.md)
+### [인터넷 연결 확인](business-voice/get-ready-internet.md)
+### [사용자 준비시키기](business-voice/prepare-users.md)
+## [시작 마법사의 실행](business-voice/use-getting-started-wizard.md)
+
+<!--
+## [Things to try](business-voice/things-to-try.md)
+-->
+## 설정 사용자 지정하기
+### [사용자 지정 옵션](business-voice/customize-business-voice.md)
+### [전화번호 이식](business-voice/port-phone-numbers.md)
+### [자동 전화 교환 설정](business-voice/set-up-auto-attendants.md)
+### [통화 정책 설정](business-voice/set-up-policies.md)
+### [정책 패키지 관리](business-voice/policy-packages.md)
+### [추가 사용자 만들기](business-voice/create-users.md)
+### [통화 큐 설정](business-voice/set-up-call-queues.md)
+
+## 설정 관리
+### [한 명 이상의 사용자를 생성합니다](business-voice/create-users.md)
+### [장치 관리](business-voice/manage-devices.md)
+### [통화 품질 모니터링](business-voice/monitor-quality.md)
+### [통화 품질 대시보드](business-voice/analytics-dashboard.md)
+
+## [파트너 리소스](business-voice/partner-resources.md)
+
+#        
 #        
 
 <!-- ============================================================ -->
