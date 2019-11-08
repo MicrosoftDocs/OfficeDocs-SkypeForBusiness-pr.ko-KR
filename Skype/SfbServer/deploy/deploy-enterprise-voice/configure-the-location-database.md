@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 비즈니스용 Skype Server Enterprise Voice에서 E9-1 위치 데이터베이스를 구성, 채우기, 게시 합니다.
-ms.openlocfilehash: 36ddd57e39b51171581c0c6316f165f44879e3f9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5aad449d8d286fb4bd71373be33baea9cbb2c8f3
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233893"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038707"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 위치 데이터베이스 구성
  
@@ -49,7 +49,7 @@ ms.locfileid: "36233893"
 |:-----|:-----|
 |**무선 액세스 지점의** <br/> |\<BSSID\>,\<설명\>,\<위치\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predirectional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<postdirectional\>,\<시\>,\<주\>,\<우편\>,\<국가\>  <br/> |
 |**서브넷** <br/> |\<서브넷\>,\<설명\>,\<위치\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predirectional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<postdirectional\>,\<시\>,\<주\>,\<우편\>,\<국가\>  <br/> |
-|**포트** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<설명\>,\<위치\>,\<CompanyName\>,\<HouseNumber\>,\< HouseNumberSuffix\>,...  <br/> ... \<Predirectional\>,\<StreetName\>,\<StreetSuffix\>,\<postdirectional\>,\<구\>/\<군\>/\<시\>,\< 시/도, 우편 번호 명칭\>  <br/> |
+|**포트** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<설명\>,\<위치\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,...  <br/> ... \<Predirectional\>,\<StreetName\>,\<StreetSuffix\>,\<postdirectional\>,\<구\>/\<군\>/\<시\>,\<주, PostalCode, 국가\>  <br/> |
 |**바꾸려면** <br/> |\<ChassisID\>,\<설명\>,\<위치\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predirectional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<postdirectional\>,\<시\>,\<주\>,\<우편\>,\<국가\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>위치 데이터베이스에 네트워크 요소를 추가 하려면
@@ -89,7 +89,7 @@ ms.locfileid: "36233893"
 3. 다음 cmdlet을 실행 하 여 위치 데이터베이스에 전환 위치를 추가 합니다.
     
    ```
-   Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
+   Set-CsLisSwitch -ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
    또는 다음 cmdlet을 실행 하 고 "스위치인 .csv" 라는 파일을 사용 하 여 스위치 위치를 대량으로 업데이트할 수 있습니다.

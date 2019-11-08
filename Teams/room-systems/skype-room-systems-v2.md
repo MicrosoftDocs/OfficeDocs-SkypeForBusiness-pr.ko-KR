@@ -20,18 +20,18 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Microsoft 팀 대화방에서 사용할 수 있는 기능에 대해 알아봅니다. '
-ms.openlocfilehash: 392f2c44e739eb0f9c2bcb80827d52491a0c5a9d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d6f08cb45905951eda72845ca8bfb21d77c82e4e
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573575"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038737"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>팀 회의실 라이선스 업데이트
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>공유 통신 디바이스에 대 한 라이선스 솔루션
 
-Microsoft는 microsoft 팀 회의실 및 Microsoft Surface Hub와 같은 회의실 장치에 대 한 장치별로 라이선스 모임 및 통화를 위한 전용 SKU를 보유 하 고 있습니다.
+Microsoft는 회의실 장치 (예: Microsoft 팀 회의실 및 Microsoft Surface Hub)에 대 한 디바이스 기준으로 라이선스 모임 및 통화를 위한 전용 SKU를 보유 하 고 있습니다.
 
 ||Microsoft 채팅방 SKU |  
 |:--- |:---: |
@@ -61,7 +61,7 @@ Microsoft는 microsoft 팀 회의실 및 Microsoft Surface Hub와 같은 회의�
 |:-----|:-----|:-----|
 |예약 된 모임 참가  | 회의실 SKU  |비즈니스용 Skype 서버 표준 CAL  |
 |임시 모임 시작 | 회의실 SKU  |비즈니스용 Skype 서버 표준 CAL  <br/> 비즈니스용 Skype Server Enterprise CAL|
-|임시 모임 시작 및 모임에서 전화로 전화 걸기 |  회의실 SKU |비즈니스용 Skype 표준 CAL  <br/> 비즈니스용 Skype Server Enterprise CAL|
+|모임에서 전화를 걸 때 임시 모임 시작 |  회의실 SKU |비즈니스용 Skype 표준 CAL  <br/> 비즈니스용 Skype Server Enterprise CAL|
 |채팅방에 전화 번호를 제공 하 고 채팅방에서 전화를 걸거나 받을 수 있습니다. 또는 전화번호를 사용 하 여 음성 회의에 참가할 수 있습니다.  | 회의실 SKU  |비즈니스용 Skype 서버 표준 CAL  <br/> 비즈니스용 Skype 서버 및 CAL  |
 |Microsoft Intune을 사용 하 여 채팅방 장치 관리 |회의실 SKU  |[온-프레미스 MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) 을 사용한 Microsoft Intune 구독 |
 | |||

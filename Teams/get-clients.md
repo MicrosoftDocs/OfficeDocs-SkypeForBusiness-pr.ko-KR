@@ -18,10 +18,10 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6f7a1cd3002135e2327ca4953ddfbb5b0393242d
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
+ms.lasthandoff: 11/08/2019
 ms.locfileid: "37979701"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft 팀 용 클라이언트 가져오기 
