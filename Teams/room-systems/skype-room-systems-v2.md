@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Microsoft 팀 대화방에서 사용할 수 있는 기능에 대해 알아봅니다. '
-ms.openlocfilehash: d6f08cb45905951eda72845ca8bfb21d77c82e4e
-ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
+ms.openlocfilehash: c822e034512a0e4f7cf24402fb12571d7f48f91d
+ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038737"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38077421"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>팀 회의실 라이선스 업데이트
 
@@ -44,13 +44,16 @@ Microsoft는 회의실 장치 (예: Microsoft 팀 회의실 및 Microsoft Surfac
 |채널 가용성 | EA, EAS, CSP, <br/>웹 다이렉트 |
 | | | |
 
-&sup1 가용성 및 포함 된 시간은 지역에 따라 다를 수 있습니다. 서비스 가용성을 확인 하려면 [오디오 회의 및 통화 요금제 국가 및 지역 사용 가능성](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans)을 참조 하세요. 무료 요금, 국내 요금제의 국제 통화 시간 등의 추가 서비스에 대 한 사용량 요금은 적용 될 수 있습니다. 고객이 추가 청구를 방지 하기 위해 이러한 기능을 사용 하지 않도록 설정할 수 있습니다.  
+&sup1 가용성 및 포함 된 시간은 지역에 따라 다를 수 있습니다. 서비스 가용성을 확인 하려면 [오디오 회의 및 통화 요금제 국가 및 지역 사용 가능성](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans)을 참조 하세요. 무료 요금, 국내 요금제의 국제 통화 시간 등의 추가 서비스에 대 한 사용량 요금은 적용 될 수 있습니다. 고객이 추가 청구를 방지 하기 위해 이러한 기능을 사용 하지 않도록 설정할 수 있습니다.  
 
 &sup2 Sovereign 클라우드에서는 사용할 수 없음  
 
 
 > [!NOTE]
-> 현재 E1, E3, E4, E5 Sku (비즈니스용 skype 독립 실행형 요금제 1 또는 비즈니스용 skype 요금제)를 사용 하는 경우 오디오 회의가 나 Office365 전화 시스템 및 통화 요금제를 사용 하 여 비즈니스용 skype 요금제 2 또는이는 계속 작동 합니다. 그러나 현재 라이선스가 만료 된 후 위의 표에서 간단한 라이선스 모델로 이동 하는 것이 좋습니다.  
+> 현재 E1, E3, E4, E5 Sku (비즈니스용 skype 독립 실행형 요금제 1 또는 비즈니스용 skype 요금제)를 사용 하는 경우 오디오 회의가 나 Office365 전화 시스템 및 통화 요금제를 사용 하 여 비즈니스용 skype 요금제 2 또는이는 계속 작동 합니다. 그러나 현재 라이선스가 만료 된 후 위의 표에서 간단한 라이선스 모델로 이동 하는 것이 좋습니다. 
+
+> [!IMPORTANT]
+> 비즈니스용 Skype 요금제 2를 사용 하는 경우 비즈니스용 skype 전용 모드에서 Microsoft 팀 대화방만 사용할 수 있으며, 모든 모임이 비즈니스용 Skype 모임 임을 의미 합니다. Microsoft 팀 모임에서 회의실을 사용 하도록 설정 하기 위해 Microsoft 채팅방 라이선스를 구입 하는 것이 좋습니다. 
 
 다음 표에는 Microsoft 팀 대화방에서 사용할 수 있는 기능과 이러한 기능을 얻기 위해 구입 해야 할 라이선스가 나와 있습니다.
   

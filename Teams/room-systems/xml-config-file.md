@@ -13,12 +13,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 사용자 지정 테마 적용을 포함 하 여 Microsoft 팀 대화방 장치에서 사용 하는 기본 설정의 원격 관리에 대해 설명 합니다.
-ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f00edb0d3d391daaf3cfa7a6f83e5c2951638236
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573465"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074620"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리
 
@@ -60,7 +60,7 @@ ms.locfileid: "37573465"
     </Devices>
     <Theming>
         <ThemeName>Custom</ThemeName>
-        <CustomThemeImageUrl>folder path</CustomThemeImageUrl>
+        <CustomThemeImageUrl>file name</CustomThemeImageUrl>
         <CustomThemeColor>
             <RedComponent>100</RedComponent>
             <GreenComponent>100</GreenComponent>
@@ -102,7 +102,7 @@ ms.locfileid: "37573465"
 |\<ContentCameraEnhancement>  | 부울 &#x2777; | |True (기본값)로 설정 되 면 화이트 보드 가장자리가 감지 되 고 적절 한 확대/축소가 선택 되며 잉크 줄이 향상 되며 화이트 보드에 쓰는 사용자가 투명 하 게 됩니다.  <br><br> 화이트 보드가 펜을 사용 하 여 그려지지 않으며 대신 카메라를 사용 하 여 스티커 메모, 포스터 또는 기타 미디어를 표시 하는 공간에 대 한 모임 참가자에 게 원시 비디오 피드를 보내려면 false로 설정 합니다.  |
 | \<테마 설정을\>  |컨트롤러 |첫 번째 &#x2776;  |XML 파일과 함께 적용할 수 있는 기능 중 하나는 조직의 사용자 지정 테마입니다. 테마 이름, 배경 이미지 및 색을 지정할 수 있습니다. |
 |\<ThemeName\> |문자열 &#x2778;  || 클라이언트에서 테마를 식별 하는 데 사용 됩니다. 테마 이름 옵션은 기본적으로 제공 되는 미리 설정 된 테마 중 하나 또는 사용자 지정입니다. <br/>  사용자 지정 테마 이름은 항상 이름 *사용자*이름을 사용 합니다. 콘솔에서 기본 또는 사전 설정 중 하나로 클라이언트 UI를 설정할 수 있지만, 사용자 지정 테마를 사용 하려면 관리자가 원격으로 설정 해야 합니다. <br/>  미리 설정 된 테마는 다음과 같습니다. <br/>  기본값 <br/>  파란색 물결선 <br/>  디지털 포리스트 <br/>  Dreamcatcher <br/>  Limeade <br/>  픽셀 완벽 <br/>  로드맵 <br/>  석 <br/>  현재 테마를 사용 하지 않도록 설정 하려면 ThemeName에 "테마 없음"을 사용 합니다.  |
-|\<CustomThemeImageUrl\> |문자열 &#x2778;  ||사용자 지정 테마에는 필수 사항이 고, 그렇지 않으면 선택 사항입니다.   |사용자 지정 테마 이미지에 대 한 자세한 내용은 [사용자 지정 테마 이미지](xml-config-file.md#Themes) 섹션을 참조 하세요.
+|\<CustomThemeImageUrl\> |문자열 &#x2778;  ||사용자 지정 테마에는 필수 사항이 고, 그렇지 않으면 선택 사항입니다. 파일 이름만 입력 합니다.   |사용자 지정 테마 이미지에 대 한 자세한 내용은 [사용자 지정 테마 이미지](xml-config-file.md#Themes) 섹션을 참조 하세요.
 |\<CustomThemeColor\> |컨트롤러 ||\<\>RedComponent \<,\>GreenComponent 및 \<BlueComponent\> 값에 대 한 컨테이너입니다. 이러한 값은 사용자 지정 테마에 필요 합니다. |
 |\<RedComponent\> |Byte (0-255) ||빨강 색 구성 요소를 나타냅니다. |
 |\<GreenComponent\> |Byte (0-255) ||녹색 색 구성 요소를 나타냅니다. |

@@ -16,12 +16,12 @@ description: 다이렉트 라우팅 통화 알림
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 07efe11d304107a5a8606a07f5d1c2a7a130bc0b
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: a031af6a7bdfedfebd6d666b717d03259d92f56c
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37639636"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074610"
 ---
 # <a name="manage-call-notifications"></a>통화 알림 관리
 
@@ -43,7 +43,7 @@ ms.locfileid: "37639636"
 
 이유: SIP 원인 = 200; 텍스트 "통화가 다른 곳에 완료 됨" 
 
-통화는 전화를 걸어 Microsoft 전화 시스템의 통화 정보 레코드에 등록 되지 않습니다. 통화는 최종 SIP 코드 "487", 최종 Microsoft 하위 코드 "540200" 및 최종 SIP 코드 구 "통화를 다른 곳에서 완료 됨"으로 "시도" 하 여 등록 됩니다.   (통화 정보 레코드를 보려면 팀 관리 포털, 분석 및 보고서, 사용 현황 보고서, 그리고 PSNT 사용을 선택 하세요.)
+통화는 전화를 걸어 Microsoft 전화 시스템의 통화 정보 레코드에 등록 되지 않습니다. 통화는 최종 SIP 코드 "487", 최종 Microsoft 하위 코드 "540200" 및 최종 SIP 코드 구 "통화를 다른 곳에서 완료 됨"으로 "시도" 하 여 등록 됩니다.   (통화 정보 레코드를 보려면 팀 관리 포털, 분석 및 보고서, 사용 현황 보고서, PSTN 사용을 선택 하세요.)
 
 
 아래 다이어그램은 포크 1에 대 한 SIP 사다리와 통화 흐름에 대 한 설명과 취소 메시지의 예상 되는 이유를 보여줍니다. 

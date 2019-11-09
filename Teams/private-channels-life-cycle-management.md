@@ -16,16 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 개인 채널 수명 주기를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5fe3f29559e62b6b6b11833304aa7bb13206fe6a
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 0f2a1f9fc4921ae12092655102d4a442fd653df3
+ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37969416"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38077411"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널 수명 주기 관리
 
 여기에서 조직의 [개인 채널](private-channels.md) 수명 주기를 관리 하는 데 필요한 지침을 확인할 수 있습니다.
+
+> [!IMPORTANT]
+> 이 문서의 PowerShell 단계를 사용 하 여 개인 채널을 관리 하는 경우 PowerShell 테스트 갤러리에서 최신 버전의 팀 PowerShell 모듈을 설치 하 고 사용 해야 합니다. 이 작업을 수행 하는 방법에 대 한 단계는 [Powershell 테스트 갤러리에서 최신 팀 PowerShell 모듈 설치](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)를 참조 하세요. 최근에 공개적으로 사용할 수 있는 팀 PowerShell 모듈 (현재 [1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2))은 비공개 채널 관리를 지원 하지 않습니다.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>팀 구성원이 개인 채널을 만들 수 있는지 여부 설정
 
@@ -97,7 +100,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ### <a name="using-powershell"></a>PowerShell 사용
 
 1. 관리자 계정을 사용 하 여 [SharePoint Online 관리 셸에](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) 설치 하 고 연결 합니다.
-2. &lt;Group_id&gt; 가 팀의 그룹 id 인 경우 다음을 실행 합니다. (팀에 대 한 링크에서 그룹 Id를 쉽게 찾을 수 있습니다.)
+2. 팀의 그룹 Id 인 &lt;group_id&gt; 다음을 실행 합니다. (팀에 대 한 링크에서 그룹 Id를 쉽게 찾을 수 있습니다.)
 
     ```
     $sites = get-sposite -template "teamchannel#0"
@@ -111,7 +114,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 [그래프 탐색기](https://developer.microsoft.com/graph/graph-explorer)를 통해 이러한 명령을 수행해 볼 수 있습니다.
 
-1. 다음을 사용 하 여 지정 된 팀의 개인 채널 Id 목록을 가져올 수 있으며, 여기에서 <group_id>는 팀의 그룹 Id입니다. 이후 통화에 필요 합니다. (팀에 대 한 링크에서 그룹 Id를 쉽게 찾을 수 있습니다.)
+1. 다음을 사용 하 여 지정 된 팀의 개인 채널 Id 목록을 가져올 수 있으며, 여기에서 <group_id> 팀의 그룹 Id입니다. 이후 통화에 필요 합니다. (팀에 대 한 링크에서 그룹 Id를 쉽게 찾을 수 있습니다.)
 
     **요청당**
 
@@ -141,7 +144,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-2. SharePoint URL을 가져오려는 각 개인 채널에 대해 다음 요청을 수행 합니다. 여기서 &lt;channel_id&gt; 는 채널 id입니다.
+2. SharePoint URL을 가져오려는 각 개인 채널에 대해 다음 요청을 수행 합니다 ( &lt;channel_id&gt; 는 채널 id).
 
     **요청당**
 
@@ -180,7 +183,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ### <a name="using-powershell"></a>PowerShell 사용
 
 1. 관리자 계정으로 [Microsoft 팀 PowerShell 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams) 을 설치 하 고 연결 합니다.
-2. &lt;Group_id&gt; 이 팀의 그룹 id이 고 &lt;channel_id&gt; 는 채널 id 인 경우 다음을 실행 합니다.
+2. 팀의 그룹 Id이 &lt;고&gt; &lt;channel_id&gt; 채널 id 인 group_id는 다음을 실행 합니다.
 
     **요청당**
 
@@ -218,7 +221,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 [그래프 탐색기](https://developer.microsoft.com/graph/graph-explorer)를 통해 이러한 명령을 수행해 볼 수 있습니다.
 
-1. &lt;Group_id&gt; 은 팀의 그룹 id이 고 &lt;channel_id&gt; 는 채널 id 인 경우 다음을 사용 합니다.
+1. 팀의 그룹 Id이 &lt;고&gt; &lt;channel_id&gt; 채널 id 인 경우에는 다음을 사용 group_id.
 
     **요청당**
 
@@ -254,7 +257,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
           ]
     }
     ```    
-2.  다음을 사용 &lt;하 여 group_id&gt;, &lt;channel_id&gt;및 &lt;id&gt; 가 이전 통화에서 반환 되는 소유자로 구성원을 승격 합니다. 이전 호출 &lt;에서&gt; 반환 &lt;된&gt; id와 userId는 같지 않으며 호환 되지 않습니다. Id &lt;&gt;를 사용 하 고 있는지 확인 합니다.
+2.  다음을 사용 하 여 구성원을 소유자로 승격 &lt;합니다 (group_id&gt;, &lt;channel_id&gt;, &lt;id&gt; 는 이전 호출에서 반환 됩니다. 이전 호출 &lt;에서&gt; 반환 &lt;된&gt; id와 userId는 같지 않으며 호환 되지 않습니다. Id &lt;&gt;를 사용 하 고 있는지 확인 합니다.
 
     **요청당**
 
@@ -283,6 +286,60 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
       "userId": "userId-value",
       "email": "email-value"
      }
+    ```
+
+## <a name="teams-powershell-module"></a>팀 Powershell 모듈
+
+### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>PowerShell 테스트 갤러리에서 최신 팀 PowerShell 모듈 설치
+
+최근에 공개적으로 사용할 수 있는 팀 PowerShell 모듈 (현재 [1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2))은 비공개 채널 관리를 지원 하지 않습니다. 이 단계를 사용 하 여 PowerShell 테스트 갤러리에서 개인 채널 지원 (현재 1.0.18)을 사용 하 여 최신 버전의 팀 PowerShell 모듈을 설치 합니다.
+
+> [!NOTE]
+> PowerShell 테스트 갤러리에서 팀 PowerShell 모듈을 공용 PowerShell 갤러리의 모듈 버전과 나란히 설치 하지 마세요. 이 단계에 따라 먼저 공용 PowerShell 갤러리에서 팀 PowerShell 모듈을 제거 하 고 PowerShell 테스트 갤러리에서 최신 버전의 모듈을 설치 합니다.
+
+1. 모든 기존 PowerShell 세션을 닫습니다.
+2. Windows PowerShell 모듈의 새 인스턴스를 시작 합니다.
+3. 공용 PowerShell 갤러리에서 팀 PowerShell 모듈을 제거 하려면 다음을 실행 합니다.
+
+    ```
+    Uninstall-Module -Name MicrosoftTeams
+    ```
+
+4. 모든 기존 PowerShell 세션을 닫습니다.
+5. Windows PowerShell 모듈을 다시 시작 하 고 다음을 실행 하 여 PowerShell 테스트 갤러리를 신뢰할 수 있는 원본으로 등록 합니다.
+
+    ```
+    Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
+    ```
+
+6. PowerShell 테스트 갤러리에서 최신 팀 PowerShell 모듈을 설치 하려면 다음을 실행 합니다.
+
+    ```
+    Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
+    ```
+
+7. 다음을 실행 하 여 PowerShell 테스트 갤러리에서 최신 버전의 팀 PowerShell 모듈이 성공적으로 설치 되었는지 확인 합니다.
+
+    ```
+    Get-Module -Name MicrosoftTeams
+    ```
+
+#### <a name="update-to-the-latest-version-of-the-teams-powershell-module-from-the-powershell-test-gallery"></a>PowerShell 테스트 갤러리에서 최신 버전의 팀 PowerShell 모듈로 업데이트
+
+PowerShell 테스트 갤러리에서 팀 PowerShell 모듈을 이미 설치한 경우 다음 단계를 사용 하 여 최신 버전으로 업데이트 합니다.
+
+1. 모든 기존 PowerShell 세션을 닫습니다.
+2. Windows PowerShell 모듈의 새 인스턴스를 시작 합니다.
+3. 다음을 실행 하 여 PowerShell 테스트 갤러리에서 현재 설치 된 버전의 팀 PowerShell 모듈을 업데이트 합니다.
+
+    ```
+    Update-Module -Name MicrosoftTeams -Force
+    ```
+
+4. 다음을 실행 하 여 PowerShell 테스트 갤러리에서 최신 버전의 팀 PowerShell 모듈이 성공적으로 설치 되었는지 확인 합니다.
+
+    ```
+    Get-Module -Name MicrosoftTeams
     ```
 
 ## <a name="related-topics"></a>관련 항목

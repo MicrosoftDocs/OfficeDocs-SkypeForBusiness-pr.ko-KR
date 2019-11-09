@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 개인 채널을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1731f210382403320c8faffa57c04bd3486ab172
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: b4937addf861be56a0a90a2c63a0ed6181bdc555
+ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37969386"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38077431"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널
 
@@ -112,10 +112,10 @@ Microsoft 팀의 개인 채널은 팀 내에서 공동 작업을 위해 중요 �
 |설정 편집|아니요|해당 없음|해당 없음|예|아니요|아니요|
 |탭 및 앱 관리|아니요|해당 없음|해당 없음|예<sup>4</sup>|예<sup>5</sup>|아니요|
 
-<sup>1</sup> 관리자가 구성 하는 정책을 통해 사용자가 개인 채널을 만들 수 있다고 가정 합니다.<br>
+<sup>1</sup> 관리자가 구성한 정책에 따라 사용자가 개인 채널을 만들 수 있도록 한다고 가정 합니다.<br>
 <sup>2</sup> 각 팀은 팀 구성원이 개인 채널을 만들 수 있도록 팀 소유자가 설정 또는 해제 하는 설정을 사용 합니다. 팀 소유자는 언제 든 지 개인 채널을 만들 수 있습니다.<br>
 <sup>3</sup> 개인 채널 소유자가 채널의 마지막 소유자가 아닌 것으로 가정 합니다. <br>
-<sup>4</sup> 팀에 개인 채널을 사용 하기 위해 앱이 설치 되어 있어야 합니다.<br>
+<sup>4</sup> 팀이이 앱을 사용 하려면 개인 채널을 설치 해야 합니다.<br>
 <sup>5</sup> 개인 채널 소유자는이를 구성할 수 있습니다.
 
 ### <a name="manage-private-channel-membership-and-settings"></a>개인 채널 멤버 자격 및 설정 관리
