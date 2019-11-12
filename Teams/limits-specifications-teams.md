@@ -11,15 +11,16 @@ description: Microsoft Teams에 적용되는 제한 사항, 사양 및 기타 �
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
+- SPO_Content
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8de3a1b61d706ba2f85e83ec6290378d47cb20fe
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: b11f326f35d7c30ffba29e4247db75800eeb3790
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010521"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231099"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
