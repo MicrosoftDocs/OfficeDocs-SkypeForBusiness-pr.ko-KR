@@ -8,17 +8,18 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
+- SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
 description: 법률 소송 절차에 대해 전자적으로 저장 된 모든 정보를 제출 해야 하는 경우와 같이 eDiscovery를 preform 해야 할 경우 수행할 작업에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27dac8bd72eaac581022431c3786b0f7487d137c
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: e645085130b65283a1841661c4e2885e5ea9cba4
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968049"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231119"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft 팀의 콘텐츠 eDiscovery 조사 수행
 ============================

@@ -12,19 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf2fac5249f2267c7813c1ba12aade279da094f3
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fe181e7ef55b386d4a6eb40bb7e383ca89a956d9
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570237"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231249"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Office 365 OneDrive 및 SharePoint Online의 팀 환경에 대 한 복수 지역-지리적으로 지 활성화 된 테 넌 트
 ===========================================
 
-Microsoft 팀은 Office 365의 팀워크에 대 한 허브 인 그룹 채팅 소프트웨어입니다. Office 365 그룹 서비스는 SharePoint Online 및 비즈니스용 OneDrive와 함께 해당 파일 환경에 따라 구동 됩니다. 테 넌 트가 북미, 유럽, 호주 등의 여러 지리적 위치로 확장 되는 비즈니스용 OneDrive/SharePoint Online의 다중 지역에서 기본 파일 환경이 다중 지역 인식 이므로 파일을 사용 하 여 팀을 경험할 수 있습니다. 공동 작업도 다중 지역에서 인식 됩니다. 이는 원시 파일 환경에서 여러 Geos에 의해 호스팅되는 파일을 팀에 게 제공 하는 주요 최고의 기능입니다.
+Microsoft 팀은 Office 365의 팀워크에 대 한 허브 인 그룹 채팅 소프트웨어입니다. Office 365 그룹 서비스는 SharePoint Online 및 비즈니스용 OneDrive와 함께 해당 파일 환경에 따라 구동 됩니다. 테 넌 트가 북미, 유럽, 호주 등의 여러 지리적 위치로 확장 되는 비즈니스용 OneDrive/SharePoint Online의 경우 기본 파일 환경이 다중 지역 인지 때문에 파일 공동 작업을 통해 팀이 다중 지역으로 인식 될 수도 있습니다. 이는 원시 파일 환경에서 여러 Geos에 의해 호스팅되는 파일을 팀에 게 제공 하는 주요 최고의 기능입니다.
 
 예를 들어 유럽 지역, 영국을 중앙 Geo로 사용 하는 Contoso의 테 넌 트에서 유럽 위성 사용자는 파일 탭의 왼쪽 창에 있는 OneDrive 파일을 볼 수 있지만,이는 유럽 데이터 위치 및 미국 Stat에서 호스트 됩니다. es는 테 넌 트의 중앙 위치입니다. 또한 사용자는 최근 보기 블레이드에서 최근에 사용한 파일에 액세스할 수 있습니다. 최근 파일에는 다른 Geos의 사용자가 사용자와 공유 하는 파일이 포함 되어 있을 수 있으며, 테 넌 트가 확장 된 다른 지리적 위치에서 마스터 될 수 있습니다. 
 

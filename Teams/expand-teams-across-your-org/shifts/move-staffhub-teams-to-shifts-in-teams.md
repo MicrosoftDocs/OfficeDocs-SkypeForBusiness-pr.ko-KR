@@ -13,14 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
+- SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9468dea64c464b3bfc2f0cec7c53f46e2f388c1f
-ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
+ms.openlocfilehash: e7b534950c92cd4f9c7b21ff6a572fb0ba9a5261
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37775087"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231259"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft 팀에서 Microsoft StaffHub 팀을 교대으로 옮기기
 
@@ -302,7 +303,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 
 |I  |
 |---------|
-|TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f<br>TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000|
+|TEAM_4bbc03af c764-497a8a5-1c0708475e5f<br>TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000|
 
 CSV 파일을 만든 후 다음을 실행 하 여 CSV 파일에서 지정한 팀을 이동 합니다.
 
@@ -370,7 +371,7 @@ StaffHub 팀과 연결 된 그룹에 팀 소유자가 없는 경우이 문제가
   Add-PnPFolder -Name General -Folder 'Shared Documents'
   ```  
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 - [Microsoft 팀을 배포 하는 방법](../../How-to-roll-out-teams.md)
 - [Microsoft StaffHub 사용 중지 예정](microsoft-staffhub-to-be-retired.md)
 - [Microsoft 팀에서 조직의 교대 근무 앱 관리](manage-the-shifts-app-for-your-organization-in-teams.md)

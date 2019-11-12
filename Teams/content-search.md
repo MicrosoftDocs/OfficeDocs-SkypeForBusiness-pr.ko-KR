@@ -8,17 +8,18 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
 description: Microsoft 팀의 콘텐츠 검색에 대해 알아보고 Exchange에서 채널 대화, 파일 업로드 및 SharePoint의 수정 및 OneNote 변경 내용을 검색 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faed09a5fafaec559bc4277b75a60d8cc594fa85
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 3042a39d30ca14ff4eda9be6a1042bfca3484bd2
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968289"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231159"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft 팀에서 콘텐츠 검색 사용
 =====================================
@@ -30,7 +31,7 @@ ms.locfileid: "37968289"
 
 자세한 내용은 [Office 365의 콘텐츠 검색](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)을 참고 하세요.
 
-예를 들어 제조 사양 사서함 및 제조 사양 SharePoint 사이트에 대 한 **콘텐츠 검색** 을 사용 하 여 Exchange에서 팀 표준 채널 대화, 파일 업로드 및 SharePoint Online의 수정 내용을 검색할 수 있습니다. OneNote가 변경 됩니다.
+예를 들어 제조 스펙 사서함 및 제조 사양 SharePoint 사이트에 대 한 **콘텐츠 검색** 을 사용 하 여 Exchange에서 팀 표준 채널 대화, sharepoint Online의 파일 업로드 및 수정, OneNote 변경 내용을 검색할 수 있습니다.
 
 또한 **콘텐츠 검색** 에 쿼리 조건을 추가 하 여 반환 되는 결과의 범위를 좁힐 수 있습니다. 위의 예제에서는 "**New Factory 스펙"** 키워드를 사용한 콘텐츠를 찾을 수 있습니다.
 

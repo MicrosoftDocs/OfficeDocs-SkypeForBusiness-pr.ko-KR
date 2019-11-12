@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 이 항목에서는 Office 365에서 Skype 대화방 시스템 계정을 구축 하는 방법에 대해 자세히 알아보세요.
-ms.openlocfilehash: d247983647641c91376c99bed3a13606027a7e11
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 830c0e33a15639f3c78197d084748bb3b2cde600
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775392"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231269"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Office 365에서 Skype 대화방 시스템 계정 프로 비전
  
@@ -91,7 +91,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>비즈니스용 Skype Online 라이선스 할당
 
-이제 비즈니스용 Office 365 또는 비즈니스용 Skype 추가 기능에 [대 한 라이선스 할당 또는 제거](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) 에 설명 된 대로 Office 365 관리 포털을 사용 하 여 비즈니스용 skype Online (계획 2) 또는 비즈니스용 skype Online (계획 3) 라이선스를 할당할 수 있습니다. [ 라이선스](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+이제 비즈니스용 [office 365에 라이선스 할당 또는 제거](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) 또는 비즈니스용 [skype 추가 기능 라이선스](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)에 설명 된 대로 Office 365 관리 포털을 사용 하 여 비즈니스용 skype online (계획 2) 또는 비즈니스용 skype online (계획 3) 라이선스를 할당할 수 있습니다. 
   
 비즈니스용 Skype Online에 대 한 라이선스를 할당 한 후에는 로그인 하 고 비즈니스용 Skype 클라이언트를 사용 하 여 계정이 활성 상태 인지 확인할 수 있습니다.
   
@@ -119,7 +119,9 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
-  
+>[!NOTE] 
+>Skype 대화방 시스템 계정에는 MFA (다단계 인증)가 지원 되지 않습니다. 
+
 ## <a name="password-expiration"></a>비밀 번호 만료
 
 Office 365에서 다른 암호 만료 정책을 구성 하지 않는 한 모든 사용자 계정에 대 한 기본 암호 만료 정책은 90 일입니다. Skype 대화방 시스템 계정의 경우 다음 단계에 따라 암호 사용 기간 제한 없음 설정을 선택할 수 있습니다.

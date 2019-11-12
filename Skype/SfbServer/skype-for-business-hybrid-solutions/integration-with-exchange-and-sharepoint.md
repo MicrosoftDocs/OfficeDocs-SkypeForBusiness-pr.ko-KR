@@ -1,5 +1,5 @@
 ---
-title: Exchange 및 SharePoint와 통합
+title: Exchange 및 Sharepoint와의 통합
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -15,21 +15,22 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 - Strat_SB_Hybrid
+- SPO_Content
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: '요약: Exchange 및 SharePoint와의 비즈니스용 Skype 서버 2015 통합에 대해 알아보세요.'
-ms.openlocfilehash: fa4e6d93dd1538dbeafdb05998c4f57482e0f4f5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18839125faee2dfd27ad3843e37b723f56581ff3
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196498"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231149"
 ---
-# <a name="integration-with-exchange-and-sharepoint"></a>Exchange 및 SharePoint와 통합
+# <a name="integration-with-exchange-and-sharepoint"></a>Exchange 및 Sharepoint와의 통합
 
 **요약:** Exchange 및 SharePoint와의 비즈니스용 Skype 서버 2015 통합에 대해 알아보세요.
 
-Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchange server 2010 및 SharePoint Server (온-프레미스 및 온라인)와 통합을 위해 비즈니스용 Skype 서버 2015 배포를 구성할 수 있습니다. 다음 표에 나열 된 기능은 달리 지정 하지 않는 한 모든 클라이언트에서 지원 됩니다. 클라이언트 지원에 대 한 자세한 내용은 비즈니스용 Skype online 및 비즈니스용 skype Online 클라이언트 비교 표에 대 한 [데스크톱 클라이언트 기능 비교](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) 를 참조 [](https://go.microsoft.com/fwlink/p/?LinkId=281902)하세요.
+Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchange server 2010 및 SharePoint Server (온-프레미스 및 온라인)와 통합을 위해 비즈니스용 Skype 서버 2015 배포를 구성할 수 있습니다. 다음 표에 나열 된 기능은 달리 지정 하지 않는 한 모든 클라이언트에서 지원 됩니다. 클라이언트 지원에 대 한 자세한 내용은 비즈니스용 Skype online 및 비즈니스용 skype Online 클라이언트 비교 표에 대 한 [데스크톱 클라이언트 기능 비교](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) 를 참조 [하세요.](https://go.microsoft.com/fwlink/p/?LinkId=281902)
 
 ## <a name="integration-with-exchange-server"></a>Exchange Server와 통합
 
@@ -38,7 +39,7 @@ Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchan
  **온-프레미스의 비즈니스용 Skype 서버 온-프레미스 및 Exchange**
 
 
-|**요소**|**상속자**|
+|**기능**|**상속자**|
 |:-----|:-----|
 |Outlook에서 메신저 대화/현재 상태  <br/> |자세한 내용은 [메신저 대화 및 현재 상태](https://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx)를 참조 하세요.  <br/> |
 |Outlook을 통해 온라인 모임 예약 및 참가  <br/> |자세한 내용은 [Exchange server와 비즈니스용 Skype 서버 2015 통합](../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)을 참조 하세요.  <br/> |
@@ -58,7 +59,7 @@ Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchan
  **온-프레미스 및 Exchange Online의 비즈니스용 Skype 서버**
 
 
-|**요소**|**상속자**|
+|**기능**|**상속자**|
 |:-----|:-----|
 |Outlook에서 메신저 대화/현재 상태  <br/> |자세한 내용은 온 [-프레미스 비즈니스용 Skype 서버 2015 및 Outlook Web App 간 통합 구성을](../deploy/integrate-with-exchange-server/outlook-web-app.md) 참조 하세요. <br/> |
 |Outlook을 통해 온라인 모임 예약 및 참가  <br/> ||
@@ -78,9 +79,9 @@ Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchan
  **비즈니스용 Skype Online 및 온-프레미스 교환**
 
 
-|**요소**|**상속자**|
+|**기능**|**상속자**|
 |:-----|:-----|
-|Outlook에서 현재 상태  <br/> ||
+|Outlook에서의 현재 상태  <br/> ||
 |Outlook 전자 메일에서 IM, PSTN 통화, Skype 통화 또는 영상 통화를 통해 응답  <br/> ||
 |Outlook을 통해 온라인 모임 예약 및 참가  <br/> ||
 |모바일 클라이언트에서 메신저 대화/현재 상태  <br/> ||
@@ -95,7 +96,7 @@ Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchan
  **비즈니스용 Skype Online 및 Exchange Online**
 
 
-|**요소**|**상속자**|
+|**기능**|**상속자**|
 |:-----|:-----|
 |Outlook에서 메신저 대화/현재 상태  <br/> ||
 |Outlook을 통해 온라인 모임 예약 및 참가  <br/> ||
@@ -110,7 +111,7 @@ Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchan
 |모임 위임  <br/> |두 사용자가 모두 같은 포리스트에 온라인 상태 이거나 둘 다 온 경우에만 지원 됩니다. 자세한 내용은 [비즈니스용 Skype 하이브리드 솔루션](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)을 참조 하세요. <br/> |
 |Exchange에서 콘텐츠 (IM 및 모임) 보관  <br/> ||
 |보관 된 콘텐츠 검색  <br/> ||
-|보이스 메일  <br/> ||
+|음성 메일  <br/> ||
 
 ## <a name="integration-with-sharepoint"></a>SharePoint와 통합
 

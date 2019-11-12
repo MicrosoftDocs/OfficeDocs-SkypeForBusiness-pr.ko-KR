@@ -12,21 +12,22 @@ description: SharePoint Online 및 비즈니스용 OneDrive가 Microsoft 팀과 
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b18cf1f97d0798df5cac4881672c0756cc56616
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 0e48c3e156fed45e447ddcbaaba5300537c651ab
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968249"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231109"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 및 비즈니스용 OneDrive가 Microsoft 팀과 상호 작용 하는 방법
 
 > [!Tip]
 > 다음 세션에서 팀이 Azure Active Directory (AAD), Office 365 그룹, Exchange, SharePoint 및 비즈니스용 OneDrive와 상호 작용 하는 방법에 대해 알아보세요. [Microsoft 팀의 기초](https://aka.ms/teams-foundations)
 
-Microsoft 팀의 각 팀은 SharePoint Online에 팀 사이트가 있으며, 팀의 각 표준 채널은 기본 팀 사이트 문서 라이브러리 내에서 폴더를 가져옵니다. 대화 내에서 공유 된 파일은 문서 라이브러리에 자동으로 추가 되며 SharePoint에 설정 된 사용 권한 및 파일 보안 옵션은 팀 내에 자동으로 반영 됩니다.
+Microsoft 팀의 각 팀은 SharePoint Online에 팀 사이트가 있으며, 팀의 각 표준 채널은 기본 팀 사이트 문서 라이브러리 내에서 폴더를 가져옵니다. 대화 내에서 공유된 파일은 문서 라이브러리에 자동으로 추가되고, SharePoint에 설정된 사용 권한 및 파일 보안 옵션은 Teams에서 자동으로 반영됩니다.
 
 > [!NOTE]
 > 이 문서는 표준 채널에만 적용 됩니다. 개인 채널의 아키텍처가 표준 채널과 다릅니다. 각 개인 채널에는 상위 팀 사이트와는 별도의 SharePoint 사이트 모음이 있습니다. 자세한 내용은 [Microsoft 팀의 개인 채널](private-channels.md)을 참조 하세요.
@@ -35,7 +36,7 @@ Microsoft 팀의 각 팀은 SharePoint Online에 팀 사이트가 있으며, 팀
 
 사용자가 SharePoint Online 라이선스를 할당 하 고 사용 하도록 설정 하지 않은 경우 Office 365의 비즈니스용 OneDrive 저장소가 없습니다. 파일 공유는 표준 채널에서 계속 작동 하지만, 사용자는 Office 365의 비즈니스용 OneDrive 저장소 없이도 채팅에서 파일을 공유할 수 있습니다.
 
-SharePoint Online 문서 라이브러리 및 비즈니스용 OneDrive에 파일을 저장 하면 테 넌 트 수준에서 구성 된 모든 준수 규칙이 따릅니다. 
+SharePoint Online 문서 라이브러리와 비즈니스용 OneDrive에 파일을 저장하면 테넌트 수준에서 구성된 모든 규정 준수 규칙을 따릅니다. 
 
 > [!NOTE]
 > 현재 Microsoft 팀에서는 SharePoint 온-프레미스와 통합이 지원 되지 않습니다.
