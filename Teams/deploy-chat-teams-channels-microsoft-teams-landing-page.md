@@ -16,16 +16,22 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcb22715a5dbb71239e1953b995933ab204255ec
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 907155bea3b73252006f17a512a96123da4153e4
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753443"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290958"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
-Teams는 조직을 위해 즉시 사용 가능한 뛰어난 공동 작업 환경을 제공하고 대부분의 조직에 그 기본 설정이 적합합니다. 이 문서에서는 조직의 프로필 및 비즈니스 요구 사항에 따라 기본 설정을 변경할지 여부를 결정 하는데 도움을 주고 각 변경 내용에 대해 설명을 합니다. 당사는 사용자가 [변경할 가능성이 큰](#core-deployment-decisions) 변경 내용의 핵심 집합에서 시작하여 설정을 두 그룹으로 나누었습니다. 두 번째 그룹은 조직의 요구 사항에 따라 구성하고자 하는 [추가 설정](#additional-deployment-decisions)을 포함합니다.
+Teams는 조직을 위해 즉시 사용 가능한 뛰어난 공동 작업 환경을 제공하고 대부분의 조직에 그 기본 설정이 적합합니다. 이 문서에서는 조직의 프로필 및 비즈니스 요구 사항에 따라 기본 설정을 변경할지 여부를 결정 하는데 도움을 주고 각 변경 내용에 대해 설명을 합니다. 당사는 사용자가 [변경할 가능성이 큰](#core-deployment-decisions) 변경 내용의 핵심 집합에서 시작하여 설정을 두 그룹으로 나누었습니다. 두 번째 그룹은 조직의 요구 사항에 따라 구성하고자 하는 [추가 설정](#additional-deployment-decisions)을 포함합니다. 
+
+시작하려면 당사의 짧은 Teams 채팅, 팀 그리고 채널 비디오(4:30분)를 시청하세요. 
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
+
+*2019년 11월의 새로운 기능*: 이제 [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams를 배포하는 데 도움을 받을 수 있습니다](use-advisor-teams-roll-out.md). Advisor for Teams(미리 보기)는 Teams의 배포 과정을 안내합니다. Advisor for Teams(미리 보기)는 Office 365 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다.
 
 > [!TIP]
 > 초기 Teams 롤아웃을 진행 시 Planner와 같은 추천 앱을 포함하는 것이 좋습니다. Teams의 채택을 진행하면서 다른 [앱, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 추가합니다.
