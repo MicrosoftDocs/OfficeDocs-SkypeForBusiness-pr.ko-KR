@@ -15,14 +15,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 141527e7decdfec2b1070cfdd41897f38a63a458
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 56d622a3a8757ca377c75bea79028dc5587b6bb8
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568381"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290978"
 ---
-# <a name="quality-of-experience-review-guide"></a>경력 품질 검토 가이드
+# <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
 이 가이드는 Microsoft 팀과 비즈니스용 Skype Online의 드라이브 가치 단계에 대해 설명 합니다. 이 가이드의 [Word 버전을 다운로드할](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) 수 있습니다.
@@ -62,15 +62,17 @@ _그림 1-이 가이드 전체에서 다룬 주요 작업 영역_
 
 이 가이드를 사용 하기 전에 CQD에 액세스할 수 있도록 적절 한 테 넌 트 [역할이](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 할당 되어 있는지 확인 합니다.
 
--   **Office 365 전역 관리자 역할** 
+-   **Office 365 전역 관리자** 
 
--   **비즈니스용 Skype 관리자 역할** 
+-   **비즈니스용 Skype 관리자** 
 
--   **팀 서비스 관리자 역할** 
+-   **Teams 서비스 관리자** 
 
--   **팀 의사 소통 지원 엔지니어 역할** 
+-   **Teams 커뮤니케이션 관리자** 
 
--   **팀 의사 소통 지원 전문가 역할** 
+-   **Teams 커뮤니케이션 지원 엔지니어** 
+
+-   **팀 의사 소통 지원 전문가** 
 
 또는 다음 역할을 Office 365 사용자 계정에 할당 하 여 보고 기능에 대 한 액세스만 허용 하도록 할 수 있습니다.
 
@@ -227,7 +229,7 @@ _그림 3-팀과 비즈니스용 Skype Online 배포에 대 한 중요 범주_
 
 #### <a name="service-management-tasks"></a>서비스 관리 작업
 
-클라우드-처음에는 특정 서비스 관리 작업을 수행 하 여 고품질 사용자 환경을 유지 해야 합니다. 이러한 작업은 포화 인터넷 링크 없이 서비스에 도달 하기에 충분 한 대역폭이 있는지 확인 하 고, 서비스 품질 (QoS)이 모든 관리 되는 네트워크 영역에서 적절 한지, 아니면 마지막으로, 즉 [Office 365 IP 범위를 계속 유지 합니다. 방화벽](https://aka.ms/o365ips).
+클라우드-처음에는 특정 서비스 관리 작업을 수행 하 여 고품질 사용자 환경을 유지 해야 합니다. 이러한 작업은 포화 인터넷 링크 없이 서비스에 도달 하기에 충분 한 대역폭이 있는지 확인 하 고, 서비스 품질 (QoS)이 모든 관리 되는 네트워크 영역에서 적절 한지, 아니면 [방화벽에서 Office 365 IP 범위](https://aka.ms/o365ips)를 맨 위로 유지 하는 것이 좋습니다.
 
 #### <a name="network-tasks"></a>네트워크 작업
 
@@ -265,9 +267,6 @@ _그림 3-팀과 비즈니스용 Skype Online 배포에 대 한 중요 범주_
 
 CQD (통화 품질 대시보드)를 사용 하 여 팀과 비즈니스용 Skype 서비스를 사용 하 여 통화 품질을 파악할 수 있습니다. CQD는 비즈니스용 Skype와 팀 관리자 및 네트워크 엔지니어가 네트워크를 최적화 하 고 품질, 안정성 및 사용자 환경에 대 한 가까운 시각을 유지할 수 있도록 설계 되었습니다. CQD는 전체적인 패턴이 명확 하 게 표시 되는 전체 조직에 대 한 집계 원격 분석을 살펴보고, 직원 들이 문제를 해결 하 고 업데이트를 계획 하 여 영향을 최대화할 수 있습니다. CQD는 전반적인 품질, 안정성 및 사용자 환경에 대 한 통찰력을 제공 하는 메트릭의 보고서를 제공 합니다.
 
-> [!Note]
-> CQD에는 PII (개인 식별 정보)가 포함 되어 있지 않습니다. PII는 그 자체로 또는 다른 정보를 사용 하 여 단일 사용자를 식별, 연락 또는 찾거나 컨텍스트에서 개인을 식별 하는 데 사용할 수 있는 정보입니다.
-
 이 가이드는 비즈니스용 Skype Online 또는 팀과의 사용자 경험을 향상 시킬 수 있는 영향을 최대화 하는 데 도움이 되는 CQD의 핵심 개념을 이해 하는 데 도움이 됩니다. [부록](#other-resources)에서 추가 CQD 리소스를 찾을 수 있습니다.
 
 ### <a name="expectations-using-cqd"></a>CQD 사용 예상
@@ -277,18 +276,15 @@ CQD는 경향과 서브넷을 분석 하는 데 유용 하지만 항상 지정 �
 -   CQD는 모든 시나리오에 대 한 근본 원인을 제공 하지 않습니다.
 -   CQD에는 전화 시스템 또는 오디오 회의 스트림이 포함 되지 않습니다.
 -   CQD는 추세에 따라 추가 조사를 위해 영역을 호출 합니다.
--   CQD에는 PII가 포함 되어 있지 않습니다.
 
 ### <a name="report-editions"></a>보고서 버전
 
-CQD Online에는 두 개의 보고서 버전, 즉 요약 및 상세 정보가 있습니다. 화면 위쪽의 파란색 표시줄에 있는 드롭다운 메뉴를 사용 하 여 보고서 버전을 엽니다. 선택한 보고서 에디션의 이름이 화면 맨 위에 표시 됩니다.
+CQD Online에는 두 개의 보고서 버전, 즉 요약 및 상세 정보가 있습니다. 화면 위쪽에 있는 표시줄에 있는 드롭다운 메뉴를 사용 하 여 보고서 버전을 엽니다. 선택한 보고서 에디션의 이름이 화면 맨 위에 표시 됩니다.
 
 -   요약 보고서는 정적 이므로 편집, 다운로드 또는 내보낼 수 없습니다. 
 -   상세 보고서는 완전 하 게 사용자 지정할 수 있으며 CSV 파일에 다운로드, 내보내기 또는 복제 됩니다.
 
 두 버전 간의 차이에 대 한 자세한 설명은 [이 문서](turning-on-and-using-call-quality-dashboard.md)를 참조 하세요.
-
-![요약 보고서가 선택 된 드롭다운 메뉴 스크린샷](media/qerguide-image-reportcategories.png)
 
 _그림 4-CQD 보고서 범주_
 
@@ -363,7 +359,7 @@ CQD는 팀과 비즈니스용 Skype 원격 분석을 모두 보고할 수 있습
 
 요약 보고서 페이지를 수정 하 여 팀만 또는 비즈니스용 Skype를 보려면 화면 맨 위에서 **제품 필터** 드롭다운 메뉴를 선택 하 고 원하는 제품을 선택 합니다.
 
-![필터 옵션을 보여 주는 드롭다운 메뉴 스크린샷](media/qerguide-image-productfilter.png)
+![필터 옵션을 보여 주는 드롭다운 메뉴의 스크린샷](media/qerguide-image-productfilter.png)
 
 _그림 5-제품 필터 선택_
 
@@ -648,7 +644,7 @@ _표 5-파일 구조 작성_
 | 명칭            | 문자열    | 보세요                        | 권장 |
 | 상태              | 문자열    | WA                        | 권장 |
 | 영역인             | 문자열    | MSUS                      | 권장 |
-| InsideCorp         | 부울      | raid-1                         | 필수    |
+| InsideCorp         | 부울      | 1                         | 필수    |
 | ExpressRoute       | 부울      | 0                         | 필수    |
 
 \*CQD에는 필요 하지 않지만,이 템플릿은 빌드 및 네트워크 이름을 표시 하도록 구성 됩니다.
@@ -801,36 +797,6 @@ _그림 17-건물 보고서 없음_
 
 네트워크 계획자는 빌드 매핑 프로세스를 완전히 자동화 하지는 않지만, 네트워크 정보를 네트워크 계획자에 입력 한 후에는 업로드할 수 있도록 준비 된 빌드 파일로 내보낼 수 있습니다.
 
-## <a name="diagnostic-alerts"></a>진단 알림
-
-Microsoft는 CQD 원격 분석을 사전 모니터링 하 여 사용자 환경에 부정적인 영향을 주는 알려진 문제에 대 한 진단 경고를 만듭니다. 그러면 이러한 알림은 메시지 센터를 통해 자동으로 서비스 관리자에 게 전달 됩니다. 다음 표에서는 메시지 센터에 표시 되는 진단 알림과 추가 정보에 대 한 링크를 간략하게 설명 합니다.
-
-_표 6-진단 알림_
-
-| 알림이                                                                | 추가 정보             |
-|----------------------------------------------------------------------|------------------------------|
-| 알려진 잘못 된 클라이언트 버전을 사용 중입니다.                   | [클라이언트 버전](#client-versions)              |
-| 오디오 드라이버로 인해 통화가 끊깁니다.                                 | [장치](#devices)                      |
-| 방화벽의 제한으로 인해 통화 설정 오류가 발생 합니다.         | [설치 실패 조사](#setup-failure-investigations) |
-| 딥 패킷 검사로 인해 통화 설정 실패가 발생 하는 경우                | [설치 실패 조사](#setup-failure-investigations) |
-| Wi-fi 네트워크의 회의실 장치가 통화 품질 저하를 일으킵니다. | [품질 조사](#quality-investigations)       |
-| UDP 트래픽이 제한 되어 통화 품질이 저하 됩니다.         | [NET.TCP](#tcp)                          |
-| VPN 사용량이 통화 음질에 영향을 줍니다.                                  | [품질 조사](#quality-investigations)       |
-
-
-### <a name="message-center"></a>메시지 센터
-
-메시지 센터에서 새로운 업데이트, 기능 또는 문제에 대해 알려줍니다. 메시지 센터는 Microsoft 365 관리 센터에서 서비스 관리자에 게 제공 됩니다. 각 게시물에는 업데이트, 기능 또는 문제가 사용자에 게 미치는 영향에 대 한 간략 한 개요와 자세한 정보에 대 한 링크가 제공 됩니다.
-
-메시지 센터를 열려면 Microsoft 365 관리 센터에서 **상태** > **메시지 센터로**이동 하거나 **홈** 대시보드에서 메시지 센터 카드를 선택 합니다. 대시보드에는 마지막으로 게시 된 세 개의 메시지와 전체 메시지 센터 페이지에 대 한 링크가 표시 됩니다.
- 
-
-![마지막으로 게시 된 세 개의 메시지를 보여 주는 메시지 센터 스크린샷](media/qerguide-image-messagecentercard.png)
-
-_그림 18-메시지 센터 카드_
-
-모바일 장치에서 [Office 365 관리 앱](https://go.microsoft.com/fwlink/p/?linkid=627216) 을 사용 하 여 현재 푸시 알림을 유지 하는 훌륭한 방법인 메시지 센터를 볼 수도 있습니다. 자세한 내용은 [이 문서](https://support.office.com/article/Message-center-in-Office-365-38FB3333-BFCC-4340-A37B-DEDA509C2093)를 참조 하세요.
-
 ## <a name="reliability-investigations"></a>안정성 조사
 
 품질을 개선 하는 첫 번째 단계는 조직에서 안정성의 상태를 평가 하는 것입니다. 안정성은 긍정적 사용자 환경에 필수적 이므로 안정성을 측정 하는 두 가지 구성 요소를 사용 하 여 시작 합니다.
@@ -881,13 +847,9 @@ _그림 19-오디오 안정성-스트림 설정 실패_
 > 이번 달에 대 한 월 연도 보고서 필터를 조정 해야 합니다. **편집**을 선택 하 고 **월 연도** 보고서 필터를 조정 하 여 새 기본 달을 저장 합니다.
 
 
-![설치 실패를 보여주는 스크린샷](media/qerguide-image-setupfailuresbysubnet.png)
+![설치 오류를 보여 주는 스크린샷](media/qerguide-image-setupfailuresbysubnet.png)
 
 _그림 20-서브넷 별 오디오 설정 실패_
-
-##### <a name="diagnostic-alert"></a>진단 알림
-
-진단 경고를 받은 경우 "방화벽의 제한 때문에 호출 설정 실패" 또는 "자세한 패킷 검사로 인해 호출 설정 오류 발생"이 표시 되 면 확인 된 서브넷에 대 한 재구성 작업을 먼저 중점적으로 진행 합니다. 경고에는 호출 안정성에 부정적인 영향을 주는 확인 된 서브넷이 있습니다. 안정성 섹션에 있는 설치 실패 보고서를 사용 하 여 수정을 도울 수 있습니다.
 
 ##### <a name="remediation"></a>업데이트 
 
@@ -956,7 +918,7 @@ _그림 22 – 서브넷에의 한 오류 삭제_
 -   이전 클라이언트 버전
 -   사용자 동작
 
-문제 영역을 발견 한 후에는 [통화 분석](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) 을 사용 하 여 특정 문제에 대 한 해당 건물의 사용자를 자세히 검토할 수 있습니다. 통화 분석에는 PII 데이터가 포함 되며,이를 통해 발생 하는 이유를 더 쉽게 격리할 수 있습니다.
+문제 영역을 발견 한 후에는 [통화 분석](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) 을 사용 하 여 특정 문제에 대 한 해당 건물의 사용자를 자세히 검토할 수 있습니다. 통화 분석에는 추가 PII 데이터가 포함 되어 있으며,이에 대 한 잠재적인 오류 발생 이유를 더 자세히 격리 하는 데 유용할 수 있습니다.
 
 다음 단계에 관계 없이 특정 건물이 나 서브넷에서 문제가 발견 되었음을 헬프 데스크에 알리는 것이 좋습니다. 이 방법으로 수신 전화에 신속 하 게 응답 하 고 사용자에 게 더 효율적으로 대응할 수 있습니다. 그러면 플래그가 지정 된 사용자는 자세히 조사를 위해 엔지니어링 팀에 게 다시 보고할 수 있습니다.
 
@@ -1022,15 +984,9 @@ _그림 23 – 오디오 품질-회의_
 > 공통 서브넷은 널리 사용 되기 때문에 심사 하기가 어렵습니다. 클라이언트의 공용 IP를 표시 하는 별도의 보고서 (두 번째 재귀 로컬 IP)는 일반 네트워크를 사용 하는 수정 사무소를 지원 하기 위해 모든 네트워크 서식 파일에 추가 되었습니다.
 
 
-![불량 오디오 스트림 요약을 보여주는 스크린샷](media/qerguide-image-poorqualitysummary.png)
+![불량 오디오 스트림 요약을 보여 주는 스크린샷](media/qerguide-image-poorqualitysummary.png)
 
 _그림 24 – 오디오 스트림 요약 작성 및 서브넷-회의에의 한 불량_
-
-##### <a name="diagnostic-alert"></a>진단 알림
-
-"Wi-fi 네트워크의 회의실 장치에서 통화 품질이 저하 되는 진단 경고를 받은 경우, 재구성 작업에서 해당 장치를 포함 하 고 우선 순위를 지정 합니다. 불량 통화 음질에 적극적으로 기여 하 고 있는 Wi-fi의 회의실을 확인 하는 알림입니다.
-
-"VPN 사용량이 통화 품질에 영향을 주는 진단 경고"가 표시 되는 경우에는 분할 터널링 솔루션을 조사 하 여 VPN 기기를 우회 하 고 미디어를 직접 서비스에 연결 하도록 허용 합니다. VPN이 통화 음질에 부정적인 영향을 주는지 확인 했습니다.
 
 ##### <a name="remediation"></a>업데이트
 
@@ -1116,10 +1072,6 @@ TCP 사용이 가능한 한 낮게 표시 되기는 하지만, 그렇지 않은 
 
 _그림 27 – 빌드 및 서브넷 회의를 통한 TCP 스트림_
 
-##### <a name="diagnostic-alert"></a>진단 알림
-
-진단 경고를 받은 경우 "UDP 트래픽이 제한 되어 있어 통화 품질이 저하 될 수 있습니다." 해당 서브넷에 대 한 TCP 재구성 작업을 먼저 집중 시킵니다. 이 경고에는 TCP를 사용 하는 것이 통화 음질에 부정적인 영향을 주는 확인 된 서브넷이 있습니다.
-
 ##### <a name="remediation"></a>업데이트
 
 이 보고서는 TCP 사용량의 볼륨에 기여 하는 특정 건물과 서브넷을 식별 합니다. 누락 된 방화벽 규칙을 격리 하는 데 도움이 되는 통화에 사용 된 Microsoft 릴레이 IP를 식별 하는 추가 보고서도 포함 됩니다. 가장 높은 TCP 스트림 볼륨을 보유 하 고 있는 건물에 대 한 수정 노력을 집중 하 여 영향을 최대화 하세요.
@@ -1159,7 +1111,7 @@ _그림 28 – HTTP 프록시 사용이 있는 오디오 스트림_
 
 조직에 인터넷 프록시가 하나만 있는 경우 올바른 [Office 365 url 및 IP 주소 범위 제외](https://aka.ms/o365ips)를 확인 합니다. 조직에 여러 인터넷 프록시가 구성 되어 있는 경우 HTTP 하위 보고서를 사용 하 여 영향을 받는 빌드 또는 서브넷을 격리 합니다.
 
-프록시를 우회 하지 못하는 조직의 경우 비즈니스용 [skype 클라이언트가 직접 시도 하는 대신 프록시 서버를 사용 하 여 로그인 해야 하는 경우에는 프록시 뒤에 위치 하는 경우에만 올바르게 로그인 하도록 구성 되어 있는지 확인 합니다. 연결](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin). 
+프록시를 우회 하지 못하는 조직의 경우 비즈니스용 Skype 클라이언트에서 [직접 연결을 시도 하는 대신 프록시 서버를 사용 하 여 로그인 해야](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin)하는 경우에는 프록시 뒤에 위치 하 여 로그인 하도록 구성 되어 있는지 확인 합니다. 
 
 
 #### <a name="http-proxy-investigations"></a>HTTP 프록시 조사
@@ -1210,10 +1162,6 @@ HTTP 사용의 가장 일반적인 원인에는 프록시에서 발생 하는 �
 
 _그림 30-클라이언트 버전 보고서_
 
-#### <a name="diagnostic-alert"></a>진단 알림
-
-진단 경고를 받은 경우 "성능이 잘못 된 클라이언트 버전이 사용 중" 이라고 표시 되는 경우 먼저 해당 클라이언트 업데이트에 집중 하세요. 이 경고는 이러한 클라이언트가 통화 품질에 부정적인 영향을 주는지 확인 했습니다. 위에 표시 된 클라이언트 & 장치 보고서를 사용 하 여 알려진 문제가 있는 클라이언트가 더 이상 업데이트 되지 않도록 할 수 있습니다.
-
 #### <a name="remediation"></a>업데이트
 
 고품질 사용자 환경에서 중요 한 부분은 관리 되는 클라이언트가 최신 버전의 비즈니스용 Skype를 실행 하 고 있는지 확인 하는 것과 지원 되는 오디오, 비디오, 네트워크 및 USB 드라이버가 최신 상태 인지 확인 하는 것입니다. 이는 여러 가지 이점을 제공 합니다. 
@@ -1262,13 +1210,9 @@ ACR 주관적인 테스트에서 통계적으로 중요 한 사용자 수는 1 (
 > [!Note]
 > 이 보고서를 보면서 같은 장치가 여러 번 보고 되었음을 알 수 있습니다. 이는 디바이스가 CQD에 보고 되는 방식 때문입니다. 하드웨어 및 OS 로캘의 차이로 인해 디바이스 데이터가 보고 되는 방식이 다릅니다.
 
-![디바이스 (마이크) 보고서 스크린샷](media/qerguide-image-devicesmicrophone.png)
+![장치 (마이크) 보고서 스크린샷](media/qerguide-image-devicesmicrophone.png)
 
 _그림 31-장치 (마이크) 보고서_
-
-##### <a name="diagnostic-alert"></a>진단 알림
-
-"오디오 드라이버 때문에 호출이 끊깁니다" 이라고 알리는 진단 경고가 표시 되는 경우에는 해당 드라이버를 먼저 수정에 집중 하세요. 알려진 잘못 된 드라이버로 인해 호출이 삭제 되 고 있으며 통화 신뢰도에 부정적인 영향을 주는 경고가 표시 되었습니다. 클라이언트 & 장치 섹션에 나와 있는 마이크 드라이버 보고서를 사용 하 여 프로세스에 대 한 도움말을 확인할 수 있습니다.
 
 ##### <a name="remediation"></a>업데이트
 
@@ -1337,7 +1281,7 @@ _표 12-네트워크 성능 요구 사항_
 
 -   [CQD](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Configuring%20Call%20Quality%20Dashboard%20to%20monitor%20your%20Skype%20for%20Business%20Online%20Environment) 가이드 및 워크숍 시작 하기
 
--   [통화 품질 대시보드에서 사용할 수 있는 크기 및 측정값](https://aka.ms/cqd-dm)
+-   [통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](https://aka.ms/cqd-dm)
 
 ### <a name="call-analytics-training"></a>통화 분석 교육
 
@@ -1347,7 +1291,7 @@ _표 12-네트워크 성능 요구 사항_
 
 -   [통화 분석 및 통화 품질 대시보드의 차이점은 무엇 인가요?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
--   [통화 분석을 사용 하 여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+-   [통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 ### <a name="call-analytics-support"></a>통화 분석 지원
 

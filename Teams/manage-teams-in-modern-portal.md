@@ -16,26 +16,30 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 0c7adfc2762d632f600f2982445f381139263894
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37571937"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290938"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft 팀원 관리 센터에서 팀 관리
 ==========================================
 
 ## <a name="overview"></a>개요
 
+이 문서에서는 Microsoft 팀 관리 센터의 팀을 위한 관리 도구에 대 한 개요를 제공 합니다. 이 짧은 비디오를 보고 시작 합니다 (3 분).
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
+
 관리자는 조직에서 공동 작업을 위해 설정한 팀을 보거나 업데이트 해야 하거나, 소유 하는 팀이 적은 사용자를 지정 하는 등의 재구성 작업을 수행 해야 할 수 있습니다. Microsoft 팀 PowerShell 모듈 및 Microsoft 팀 관리 센터를 통해 조직에서 사용 되는 팀을 관리할 수 있습니다. 이러한 두 도구 집합을 사용 하는 전체 관리 기능을 보려면 다음 역할 중 하나를 할당 했는지 확인 해야 합니다.
 
 - 전역 관리자
-- 팀 서비스 관리자
+- Teams 서비스 관리자
 
 팀에서 관리자 역할에 대 한 자세한 정보를 확인 하 여 팀을 [관리 하](using-admin-roles.md)고, [microsoft 팀 cmdlet 참조](https://docs.microsoft.com/powershell/teams/?view=teams-ps)에서 팀을 관리 하는 PowerShell cmdlet을 사용 하는 방법에 대해 자세히 알아볼 수 있습니다.
 
-이 문서에서는 Microsoft 팀 관리 센터의 팀을 위한 관리 도구에 대 한 개요를 제공 합니다.
+
 
 ## <a name="teams-overview-grid"></a>팀 개요 그리드
 
@@ -69,7 +73,7 @@ ms.locfileid: "37571937"
 
 ### <a name="archive"></a>보관할
 
-팀을 보관할 수 있습니다. 팀을 보관 하면 팀 내에서 읽기 전용 모드로 전환 됩니다. 관리자는 관리 센터에서 조직을 대신 하 여 팀을 보관 하 고 보관할 수 있습니다. 
+팀을 보관할 수 있습니다. 팀을 보관 하면 팀 내에서 읽기 전용 모드로 전환 됩니다. 관리자는 관리 센터에서 조직을 대신 하 여 팀을 보관 하 고 보관을 취소할 수 있습니다. 
 
 ### <a name="delete"></a>삭제
 
@@ -87,7 +91,7 @@ ms.locfileid: "37571937"
 - 채널을 추가 하거나 제거 합니다 (일반 채널을 제거할 수 없음).
 - 팀 및 그룹 설정을 변경 합니다.
  
-![예제 팀 프로필 스크린샷](media/manage-teams-in-modern-portal-team-profile-page.png)
+![팀 프로필 예제 스크린샷](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## <a name="making-changes-to-teams"></a>팀 변경 하기
 
@@ -116,7 +120,7 @@ ms.locfileid: "37571937"
 
 **"[UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet을 사용 하 여 "**Externaldirectoryobjectid**" 특성으로 Exchange Online powershell을 통해 얻을 수 있는 실제 groupid 인 쿼리의 **{groupid}** 을 (를) 바꿉니다.
 
-1. Access [Graph 탐색기](https://developer.microsoft.com/en-us/graph/graph-explorer)
+1. Access [Graph 탐색기](https://developer.microsoft.com/graph/graph-explorer)
 
 2. 왼쪽 메뉴에서 Graph 탐색기에 로그인 합니다.
 

@@ -12,12 +12,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방을 지원 하기 위한 요구 사항을 요약 하 여 설명 합니다.
-ms.openlocfilehash: 9173108fa6c7047e7e10e45b59d8038cf2d3446e
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 20575670fb9c462fd9cfa7bb0b424b8fcde4c68c
+ms.sourcegitcommit: 4ddd2323ca4902ac68f01c90abbf21ee1d4da160
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38001357"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38303182"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 팀 방에 대 한 요구 사항
 
@@ -74,10 +74,12 @@ Microsoft 팀 공간은 공간 크기에 따라 다양 한 오디오 및 비디�
   |[Logitech 탭 하기](https://www.logitech.com/en-us/product/microsoft-rooms)|Core i5|8gb |128 GB |
   |[옛 alink MVC800](https://www.yealink.com/products_125.html)|Core i5|8gb|128 GB|
   |[옛 alink MVC500](https://www.yealink.com/products_126.html)|Core i5|8gb |128 GB |
-  |||||
+  |[옛 alink MVC300](https://www.yealink.com/products_154.html)|Core i5|8gb |128 GB |
+  ||||||
 
-  > [!NOTE]
-  > 코어 M3 프로세서는 지원 되지 않습니다.
+
+> [!NOTE]
+> 코어 M3 프로세서는 지원 되지 않습니다.
 
 ### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>USB 오디오 및 비디오 주변 장치에 대 한 인증 된 펌웨어 버전
 
@@ -97,6 +99,7 @@ Microsoft 팀 공간은 공간 크기에 따라 다양 한 오디오 및 비디�
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
 |[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
 |[Polycom 독수리 눈 디렉터 II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
+|[Polycom Studio 사운드바](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html)|1.1.2.000570|
 |[Polycom Trio 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml)   |1.2.15   |
@@ -105,8 +108,9 @@ Microsoft 팀 공간은 공간 크기에 따라 다양 한 오디오 및 비디�
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
+|[옛 alink CP900](https://www.yealink.com/products_150.html) | 100.20.0.29|  
 |[Biamp Tesira 전경 AVB VT4 고정 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 천장 2 마이크](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |  |
-||||
+||||||
 
 &Dagger;고객은이 번들에 대해 Dante 인터페이스 또는 Biamp/Sennheiser에서 권장 하는 네트워크 스위치를 선택할 수 있습니다.
 
