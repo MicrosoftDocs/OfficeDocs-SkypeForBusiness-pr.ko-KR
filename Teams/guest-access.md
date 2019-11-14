@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a0bba0c8893ee706061b989f95d4e22619fa4f9
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: ad8b75e244efa0d28709d6c5ff225f1e6676200a
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753283"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290858"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스
 ======================================
@@ -75,6 +75,7 @@ ms.locfileid: "37753283"
 - 팀 찾아보기
 - 개인 채팅에 파일 업로드
 - 게스트는 사용자가 사용자의 전체 전자 메일 ID를 알고 있는 경우에 사용자(팀 외부에서)를 검색하고 찾을 수 있습니다. 이를 방지 하기 위해 IT 관리자는 게스트를 자신의 가상 GAL로 제한하는 기능을 가진 [범위 디렉터리 검색](teams-scoped-directory-search.md)과 같은 패턴을 사용할 수 있습니다.
+- 현재 Teams는 [Azure B2B에서 정의한대로](https://docs.microsoft.com/azure/active-directory/b2b/user-properties) 상태 1 및 상태 2 유형의 게스트 사용자만 지원합니다.
 
 게스트가 Teams에서 수행할 수 있는 작업에 대한 전체 목록을 보려면 [팀 구성원 및 게스트 권한 비교](guest-experience.md#comparison-of-team-member-and-guest-capabilities)를 참조하세요. Office 365 수준에서 게스트 액세스에 대한 자세한 내용은 [Office 365 그룹에 게스트 추가](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)를 참조하세요.
 
