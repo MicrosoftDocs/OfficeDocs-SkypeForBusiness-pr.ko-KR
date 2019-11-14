@@ -1,5 +1,5 @@
 ---
-title: 오디오 회의 구독 "전화 걸기"/"나에 게 전화 하기" 혜택
+title: 오디오 회의 구독 "전화 걸기"/"전화 받기" 혜택
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,18 +20,22 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '고객은 2019 년 11 월 30 일에 종료 되는 무료 전화 걸기 기능을 제공 합니다.  2019 년 12 월 1 일부 터 각 오디오 회의 구독은이 문서에 설명 된 국가를 지역에 따라 매월 사용자 당 60 분을 제공 합니다. '
-ms.openlocfilehash: 8da1082d0bf7e9a50248e29877309053f706e741
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: e98844a1b3d9b00d489cd32e90add357b4b85b57
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515884"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311273"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>오디오 회의 구독 "전화 걸기"/"나에 게 전화 하세요" 통화 혜택
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft 팀 및 비즈니스용 Skype PSTN 오디오 회의
 
 고객은 2019 년 11 월 30 일에 종료 되는 [무료 전화 걸기 기능](complimentary-dial-out-period.md) 을 제공 합니다. 2019 년 12 월 1 일부 터 각 오디오 회의 플랜은 매달 사용자 당 60 분을 제공 하며,이 문서에서 설명 하는 국가의 모든 지역에서 비 premium 번호로 전화를 거는 데 사용할 수 있습니다. 테 넌 트 전화 걸기 분 풀 크기는 *할당 된* 라이선스를 기반으로 하며 구입 하지 않은 라이선스입니다. 이 혜택은 오디오 회의 *월간* 플랜 라이선스에 적용 되며 오디오 회의 분당 요금 라이선스에 따라 확장 되지 않습니다. 
+
+> [!NOTE]
+> 오디오 회의 구독을 사용할 수 있는 국가에 대해서는 2019 년 11 월 30 일 동안 무료 전화 걸기 기간이 종료 되지 않지만 현재 통신 크레딧을 설정할 수 있는 기능은 제공 되지 않습니다. 이러한 특정 국가는 러시아, 대한민국 및 대만입니다.
+
 
 ## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>오디오 회의 "모임에서 전화 걸기" & "나에 게 전화 하기" 정보
 
@@ -56,7 +60,7 @@ ms.locfileid: "37515884"
 
 ## <a name="how-are-minute-pools-calculated"></a>분 풀이 계산 되는 방식
 
-다음 예제를 참조 하세요. 고객은 115 오디오 회의 구독 라이선스를 구입 했으며 미국에는 10 명의 사용자, 영국에는 100 사용자, 짐바브웨에는 5 명의 사용자, 그리고 모든 오디오 회의 구독 라이선스를 할당 하는 경우를 들 수 있습니다. 모든 115 사용자가 모임 이끌이의 사용이 허가 되었는지 여부에 *관계 없이* 모든 지역 (1 개월의 115 사용자 x 60 min = 6900 meeting dial out of minutes)을 공유 합니다. 둥글고. 예를 들어, 짐바브웨 모임 이끌이는 모든 영역에 대해 분 단위 제한을 초과 하는 국가에 전화를 걸 수 있습니다. 
+다음 예제를 참조 하세요. 고객은 115 오디오 회의 구독 라이선스를 구입 했으며 미국에는 10 명의 사용자, 영국에는 100 사용자, 짐바브웨에는 5 명의 사용자, 그리고 모든 오디오 회의 구독 라이선스를 할당 하는 경우를 들 수 있습니다. 모든 115 사용자는 모임 이끌이의 사용이 허가 되거나 실제적으로 어디에 있든 *상관 없이* 모든 지역 (예를 들어 115 사용자 x 60 min = 6900 meeting dial out)에 대 한 그룹을 공유 하 여 해당 국가의 비 premium 번호로 아웃 바운드 통화를 할 수 있습니다. 예를 들어, 짐바브웨 모임 이끌이는 모든 영역에 대해 분 단위 제한을 초과 하는 국가에 전화를 걸 수 있습니다. 
 
 - 1 개월 마다 6900 분을 초과 하는 모든 전화 접속 통화는 게시 된 요금에 대 한 커뮤니케이션 크레딧을 사용 하 여 분당 청구 됩니다. (참고: 고객은 [통신 크레딧을](what-are-communications-credits.md) 설정 하 고 모임 이끌이에게 통신 크레딧 라이선스를 할당 해야 합니다.)
 - 영역에 없는 대상에 대 한 모든 전화 접속 통화에 대 한 국가 목록에는 공개 된 요금에 대 한 커뮤니케이션 크레딧을 사용 하 여 분당 청구 됩니다 (고객이 통신 크레딧을 설정 하 고 통신 크레딧 라이선스를 할당 한 경우). 모임 이끌이에게).
@@ -86,7 +90,7 @@ ms.locfileid: "37515884"
 |프랑스     |
 |독일     |
 |그리스     |
-|홍콩 특별 행정구     |
+|홍콩     |
 |헝가리     |
 |인도     |
 |아일랜드     |
@@ -119,4 +123,4 @@ ms.locfileid: "37515884"
 
 ## <a name="related-topics"></a>관련 항목
 
-[오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능 여부](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

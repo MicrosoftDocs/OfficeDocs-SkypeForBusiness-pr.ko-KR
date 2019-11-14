@@ -15,12 +15,12 @@ description: Microsoft 팀에서 게스트 액세스 문제 해결을 참조 하
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: eefaece55876bc66905716526884fd21303c630e
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 2931a3f5440492aa1ab99a53cd196ab2973eb122
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754364"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311263"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft 팀의 게스트 액세스 문제 해결
 ======================================================
@@ -37,7 +37,7 @@ ms.locfileid: "37754364"
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>게스트가 라이센스 오류를 보고 있는 경우
 
-팀의 게스트 액세스는 Azure AD (Active Directory) Business to Business (B2B) 및 해당 라이선스 모델을 사용 합니다. 게스트 액세스는 모든 Office 365 Business Premium, Office 365 Enterprise 및 Office 365 교육 구독과 함께 제공 됩니다. 추가 Office 365 라이선스가 필요 하지 않습니다.
+팀의 게스트 액세스는 Azure AD (Active Directory) Business to Business (B2B) 및 해당 라이선스 모델을 사용 합니다. 게스트 액세스는 모든 Office 365 Business Premium, Office 365 Enterprise 및 Office 365 Education 구독에 포함되어 있습니다. 추가 Office 365 라이선스가 필요하지 않습니다.
 
 라이선스 오류가 표시 되는 경우에는 [Azure Active DIRECTORY B2B 라이선스 지침](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) 을 참조 하 여 조직에서 게스트 액세스에 대 한 요구 사항에 맞는 라이선스 요구 사항을 결정 해야 합니다.
 
@@ -45,8 +45,11 @@ ms.locfileid: "37754364"
 - 초청 기관에 대해 게스트 라이선스가 계산 됩니다. 필요한 라이선스 수를 계산할 때이를 고려 합니다.
 - 라이선스는 초대 된 게스트가 다른 Office 365 테 넌 트에서 온 것인지 또는 개인 전자 메일 주소를 사용 하는 조직에 게 계산 됩니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="support-for-b2b-user-types"></a>B2B 사용자 유형 지원
+현재 팀은 [AZURE B2B에 정의 된 대로](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)게스트 사용자의 상태 1 및 상태 2 유형만 지원 합니다.
 
-[팀의 게스트 액세스](guest-access.md)
+## <a name="related-topics"></a>관련 항목
+
+[Teams의 게스트 액세스](guest-access.md)
 
 

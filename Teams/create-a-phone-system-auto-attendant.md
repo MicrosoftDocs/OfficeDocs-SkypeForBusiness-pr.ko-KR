@@ -1,7 +1,7 @@
 ---
 title: 클라우드 자동 전화 교환 설정
-ms.author: jambirk
-author: jambirk
+ms.author: kenwith
+author: kenwith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 클라우드 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b1756cc58e485971157c0429e8180a5f5e507ec8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972479"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38318145"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>클라우드 자동 전화 교환 설정
 
@@ -103,7 +103,7 @@ ms.locfileid: "37972479"
 
 <a name="timezone"> </a>
 
-![숫자 3의 아이콘, 이전 스크린샷](media/teamscallout3.png) **표준 시간대** 의 설명선은 자동 전화 교환의 표준 시간대를 설정 하는 데 필요 합니다. 설정이 조직에 대해 나열 된 주 주소의 표준 시간대 또는 다른 표준 시간대와 동일할 수 있습니다. 각 자동 전화 교환은 다른 표준 시간대를 가질 수 있습니다. 자동 전화 교환에 설정 된 업무 시간에도이 표준 시간대가 사용 됩니다.
+![숫자 3의 아이콘, 이전 스크린샷](media/teamscallout3.png) **표준 시간대** 의 설명선은 자동 전화 교환의 표준 시간대를 설정 하는 데 필요 합니다. 설정이 조직에 대해 나열 된 주 주소의 표준 시간대 또는 다른 표준 시간대와 동일할 수 있습니다. 각 자동 전화 교환은 다른 표준 시간대를 가질 수 있습니다. 자동 전화 교환에 설정 된 업무 시간에도이 표준 시간대가 사용 됩니다. 일부 지역에서는 일광 절약을 사용 하는 것이 아니기 때문에 비즈니스 시간 불일치를 방지 하기 위해 올바른 표준 시간대를 설정 해야 합니다. 
 
 * * *
 
@@ -231,7 +231,7 @@ ms.locfileid: "37972479"
 >- 자동 전화 교환은 이름으로 전화 걸기 또는 내선 번호를 통해 전화 접속으로 구성할 수 있습니다.
 
 > [!NOTE]
-> **이름으로 전화 걸기** 및 **내선** 번호를 사용 하 여 사용자의 내선 번호를 입력 하는 경우 호출자에 게 메뉴 옵션을 선택 하는 주 자동 전화 교환 ( **이름**으로 사용 가능)을 만들고 해당 옵션을 설정할 수 있습니다. 전화를 걸 수 있는 자동 전화 교환으로 통화를 전환 합니다.
+> **전화 걸기 이름** 및 **전화** 걸기 기능을 사용 하는 경우 호출자에 게 사용자의 내선 번호를 알고 있는 경우 메뉴 옵션을 선택 하는 기본 자동 전화 교환 ( **이름으로 전화 걸기**사용 가능)을 만들고이 옵션을 설정 하 여 전화를 다이얼에의 한 자동 전화 교환에 사용할 수 있도록 허용 합니다.
 
 * * *
 
@@ -249,7 +249,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 - 전화 걸기 범위
 - 자원 계정
 
-자동 전화 교환에는 리소스 계정이 있어야 하기 때문에 **리소스 계정** 페이지로 진행 하 고 이미 구성한 자원 계정을 연결 하거나 리소스 계정을 만들어 자동으로 연결 하는 옵션이 있습니다. [Microsoft 팀의 자원 계정 관리](manage-resource-accounts.md)에 설명 된 대로 전화 교환 이 자동 전화 교환은 리소스 계정에 연결 될 때까지 사용할 수 없게 됩니다. 이렇게 하려면 화면 맨 아래에 있는 **다음** 단추를 클릭 한 다음 왼쪽 탐색 모음에서 **리소스 계정을** 클릭 하 여 리소스 계정 페이지로 바로 이동 하 고 자동 전화 교환을 리소스 계정에 연결 합니다.
+자동 전화 교환은 리소스 계정이 있어야 하기 때문에 **리소스 계정** 페이지로 진행 하 고 이미 구성한 리소스 계정을 연결 하거나 리소스 계정을 만들고 [Microsoft 팀의 자원 계정 관리](manage-resource-accounts.md)에 설명 된 대로 자동 전화 교환에 연결 하도록 선택할 수 있습니다. 이 자동 전화 교환은 리소스 계정에 연결 될 때까지 사용할 수 없게 됩니다. 이렇게 하려면 화면 맨 아래에 있는 **다음** 단추를 클릭 한 다음 왼쪽 탐색 모음에서 **리소스 계정을** 클릭 하 여 리소스 계정 페이지로 바로 이동 하 고 자동 전화 교환을 리소스 계정에 연결 합니다.
 
 #### <a name="advanced-settings-optional"></a>고급 설정 (선택 사항)
 
@@ -273,7 +273,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 ![숫자 3의 아이콘, 이전 스크린샷](media/teamscallout3.png) 의 설명선에서는 일정을 완전히 지우는 **모든 시간 지우기를** 선택 합니다. 이 옵션을 선택 하 고 설정 해제 한 시간을 유지 하는 것은 권장 되지 않으므로 업무 시간을 완전히 다시 실행 하려는 경우에만이 옵션을 사용 하세요.
 
-![숫자 5의 이전 스크린샷](media/teamscallout4.png)![아이콘에 있는 설명선의 아이콘, 한 주의 시작 또는 종료 시간을 사용자 지정 하는 이전](media/teamscallout5.png) 스크린샷의 설명선에서는 다시 설정할 시간에 **시작** 또는 **종료** 를 클릭 하 고 표시 되는 목록에서 새 시간을 선택 합니다.   이 목록을 사용 하 여 15 분 간격으로 업무 시간을 선택 하 고 여기에서 선택한 업무 시간은 **일반 정보** 페이지에서 설정한 표준 시간대를 기준으로 합니다.
+![숫자 5의 이전 스크린샷](media/teamscallout4.png)![아이콘에 있는 설명선의 아이콘, 특정 요일의 시작 또는 종료 시간을 사용자 지정 하기 위한 이전](media/teamscallout5.png) 스크린샷의 설명선이 표시 되는 목록에서 **시작** 날짜 또는 **종료** 시간을 클릭 하 고 새 시간을 선택 합니다.   이 목록을 사용 하 여 15 분 간격으로 업무 시간을 선택 하 고 여기에서 선택한 업무 시간은 **일반 정보** 페이지에서 설정한 표준 시간대를 기준으로 합니다.
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
@@ -309,7 +309,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 명절 통화 흐름 이름은 최대 64 자까지 사용할 수 있으며, 조직에서 고유 해야 합니다. 예를 들어 같은 조직에서 "추수 감사절" 이라는 두 개의 휴일 통화 흐름을 사용할 수 없습니다. 자동 전화 교환에는 설정한 각 휴일에 대 한 통화 흐름이 있을 수 있지만, 사용자 지정 된 인사말이 아닌 일반적인 동작 집합을 사용 하는 것이 좋습니다.
 
-![숫자 3의 아이콘, 이전 스크린샷](media/teamscallout3.png) 의 설명선은 휴일 통화 흐름에 사용할 수 있는 [인사말](#call-flow) 옵션은 업무 시간 중에 사용할 수 있는 옵션과 같습니다. 인사말이 재생 된 후 **에 수행할 수 있는 작업은** **연결 끊기** 또는 **리디렉션**만 가능 하 고 **리디렉션 옵션을** 선택 하면 해당 연산자가 사용 가능한 선택 항목 중 하나가 아님을 제외 하 고도 유사 합니다. . 휴일 흐름과 관련 된 메뉴를 설정할 수 없습니다.
+![숫자 3의 아이콘, 이전 스크린샷](media/teamscallout3.png) 의 설명선은 휴일 통화 흐름에 사용할 수 있는 [인사말](#call-flow) 옵션은 업무 시간 중에 사용할 수 있는 옵션과 같습니다. 인사말이 재생 된 후 **에 수행할 수 있는 작업은** **연결 끊기** 또는 **리디렉션**만 가능 하 고 **리디렉션 옵션을** 선택 하면 해당 연산자가 사용 가능한 선택 항목 중 하나가 아님을 제외 하 고도 비슷합니다. 휴일 흐름과 관련 된 메뉴를 설정할 수 없습니다.
 
 > [!NOTE]
 > 기본적으로 휴일 기간 중에 수신 되는 모든 통화는 인사말이 끝난 후 **연결을 끊도록** 설정 되므로 사용자 지정 동작을 원하는 경우에는 리디렉션을 지정 해야 합니다.
@@ -414,11 +414,11 @@ PowerShell을 사용 하 여 자동 전화 교환을 만들고 설정할 수도 
 
   - [Windows PowerShell 및 Lync Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Office 365 PowerShell을 사용 해야 하는 이유](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
+  - [Office 365 PowerShell을 사용 해야 하는 이유](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
 - Windows PowerShell에는 Microsoft 365 관리 센터를 사용 하는 경우 한 번에 여러 사용자의 설정을 변경 하는 것과 같은 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요.
 
-  - [Office 365 PowerShell을 사용 하 여 Office 365 관리](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Office 365 PowerShell을 사용 하 여 Office 365 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Windows PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -430,7 +430,7 @@ PowerShell을 사용 하 여 자동 전화 교환을 만들고 설정할 수도 
 
 [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[새로운 CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
+[새로운 CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
 [클라우드 자동 전화 교환 이란?](what-are-phone-system-auto-attendants.md)
 

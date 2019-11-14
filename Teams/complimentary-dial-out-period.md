@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: 고객은 비즈니스용 Skype Online 및 Microsoft 팀 PSTN 서비스 사용 약관 및 고객의 볼륨 라이선스 계약에 따라 Office 365 통화 요금제 및 Office 365 오디오 회의를 사용할 수 있습니다.
-ms.openlocfilehash: e5f0d49cfd43b04f5c361564adcc05805d04b594
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 10f56c62ccac79fcd20b0ca88fd7d71a8fc7c43a
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516900"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311233"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>오디오 회의 무료 전화 걸기 기간
 
@@ -37,6 +37,8 @@ ms.locfileid: "37516900"
 ### <a name="end-of-complimentary-dial-out-period"></a>무료 전화 걸기 기간 종료
 
 2019 년 12 월 1 일부 터 무료 전화 걸기 기능이 종료 됩니다. 자세한 내용은 [오디오 회의 구독 전화 걸기 및 전화를 통해 혜택](audio-conferencing-subscription-dial-out.md) 을 참조 하세요. 
+
+이 변경 내용은 오디오 회의 구독을 사용할 수 있는 국가에는 적용 되지 않지만 현재 통신 크레딧을 설정할 수 있는 기능은 제공 하지 않습니다. 이러한 특정 국가는 러시아, 대한민국 및 대만입니다.
 
 ### <a name="complimentary-dial-out-period-details"></a>무료 전화 걸기 기간 세부 정보
 
@@ -81,7 +83,7 @@ Office 365 오디오 회의 서비스를 채택 하는 고객의 경우 Microsof
 |프랑스  <br/> |
 |독일  <br/> |
 |그리스  <br/> |
-|홍콩 특별 행정구  <br/> |
+|홍콩  <br/> |
 |헝가리  <br/> |
 |인도  <br/> |
 |아일랜드  <br/> |
@@ -112,4 +114,4 @@ Office 365 오디오 회의 서비스를 채택 하는 고객의 경우 Microsof
 |미국  <br/> |
      
 ## <a name="related-topics"></a>관련 항목
-[오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능 여부](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
