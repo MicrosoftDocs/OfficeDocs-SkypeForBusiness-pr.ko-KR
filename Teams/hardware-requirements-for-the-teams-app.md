@@ -17,14 +17,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 282f6f7295fe7763462a9298719466033aa335a4
-ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
+ms.openlocfilehash: 68b263dde1637c5caaf9ec800c83ba047d641a53
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37979711"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638708"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 팀 앱의 하드웨어 요구 사항
+
+다음 섹션의 모든 요구 사항은 팀 데스크톱 앱 및 팀 웹 앱에 모두 적용 됩니다.
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-windows-pc"></a>Windows PC의 팀 데스크톱 앱에 대 한 하드웨어 요구 사항
 
@@ -40,7 +42,7 @@ ms.locfileid: "37979711"
 |비디오만    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 랩탑 카메라, 마이크, 스피커    | 
 |영상 통화 및 모임 | 영상 통화와 온라인 모임 환경을 개선 하기 위해 2.0 GHz 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. 선택 품목인 **배경** 영상 효과에는 고급 벡터 확장 2 (AVX2)가 지원 되는 프로세서가 필요 합니다. 지원 되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요. |
-|팀 라이브 이벤트 | 팀 라이브 이벤트를 생성 하는 경우에는 코어 i5 Kaby 호수 프로세서, 4.0 GB RAM (또는 그 이상) 및 하드웨어 인코더가 있는 컴퓨터를 사용 하는 것이 좋습니다. 지원 되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요. |
+|Teams 라이브 이벤트 | 팀 라이브 이벤트를 생성 하는 경우에는 코어 i5 Kaby 호수 프로세서, 4.0 GB RAM (또는 그 이상) 및 하드웨어 인코더가 있는 컴퓨터를 사용 하는 것이 좋습니다. 지원 되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요. |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Mac의 팀 데스크톱 앱에 대 한 하드웨어 요구 사항
 
@@ -88,7 +90,7 @@ ms.locfileid: "37979711"
 
 가상 환경에서 팀을 실행 하기 위한 요구 사항은 [가상화 된 데스크톱 인프라 팀](teams-for-vdi.md) 을 참조 하세요. 
 
-### <a name="related-topics"></a>관련 주제
+### <a name="related-topics"></a>관련 항목
 - [팀 앱 가져오기](get-clients.md)
 - [모바일 장치에서 Microsoft 팀](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [MSI를 사용 하 여 Microsoft 팀 앱 설치](msi-deployment.md)

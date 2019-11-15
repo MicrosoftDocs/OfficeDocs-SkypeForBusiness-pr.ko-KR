@@ -4,7 +4,6 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -17,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a8a440859d5bb33dfa5f57fd952f642b0e88dc7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
+ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569284"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626984"
 ---
-<a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 팀 모임 추가 기능 사용
+<a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
 
 팀 모임 추가 기능을 통해 사용자는 Outlook에서 팀 모임을 예약할 수 있습니다. Windows, Mac, 웹, 모바일의 Outlook에서 추가 기능을 사용할 수 있습니다.
@@ -36,9 +35,11 @@ ms.locfileid: "37569284"
 ![Outlook 리본 메뉴의 팀 모임 추가 기능 스크린샷](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - Regsvr32 파일을 실행할 수 있는 사용자 권한은 컴퓨터에 설치 되는 팀 추가 기능에 대 한 최소 요구 사항입니다.
 > - 사용자에 게 팀 모임 추가 기능이 표시 되지 않는 경우 Outlook과 팀을 닫도록 지시 하 고 먼저 팀 클라이언트를 다시 시작한 다음 팀에 로그인 한 다음 Outlook 클라이언트를 특정 순서로 다시 시작 합니다.
 > - Windows 7 사용자는 팀 모임 추가 기능을 사용 하기 위해 windows의 [windows에서 유니버설 C 런타임으로 업데이트](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) 를 설치 해야 합니다.
-> - Microsoft Store에서 Office Outlook 설치를 사용 하는 경우 팀 모임 추가 기능이 지원 되지 않습니다. 이 추가 기능을 필요로 하는 사용자는 [S 모드 문서에서 Windows 10의 office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) 에 설명 된 대로 간편 실행 버전의 office를 설치 하는 것이 좋습니다. 
+> - Microsoft Store에서 Office Outlook 설치를 사용 하는 경우 팀 모임 추가 기능이 지원 되지 않습니다. 이 추가 기능을 필요로 하는 사용자는 [S 모드 문서에서 Windows 10의 office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) 에 설명 된 대로 간편 실행 버전의 office를 설치 하는 것이 좋습니다.
+
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Mac 용 Outlook에서 팀 모임 추가 기능
 
@@ -101,8 +102,8 @@ FindTime은 사용자가 회사 간의 모임 시간에 대 한 합의에 도달
 | 분리 | 비즈니스용 Skype |
 | 비즈니스용 Skype 전용 | 비즈니스용 Skype |
 | 팀 공동 작업을 통한 비즈니스용 Skype | 비즈니스용 Skype |
-| 팀 공동 작업 및 모임이 있는 비즈니스용 Skype | 성과 |
-| 팀만 | 성과 |
+| 팀 공동 작업 및 모임이 있는 비즈니스용 Skype | Teams |
+| 팀만 | Teams |
 
 ## <a name="other-considerations"></a>기타 고려 사항
 
@@ -123,7 +124,7 @@ Outlook 용 팀 모임 추가 기능을 설치할 수 없는 경우 다음 문�
 - 로그인 한 사용자 계정 이름에 공백이 포함 되어 있지 않은지 확인 합니다. (이는 알려진 문제로, 이후 업데이트에서 수정 될 예정입니다.)
 - SSO (single sign-on)를 사용 하도록 설정 했는지 확인 합니다.
 
-관리자가 [EWS (Exchange Web Server)에 대 한 액세스를 제어](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)하도록 Microsoft Exchange를 구성한 경우 대리인이 상사를 대신 하 여 팀 모임을 예약할 수 없습니다. 이 구성의 솔루션은 개발 중에 있으며 향후에 출시 될 예정입니다. 
+관리자가 [EWS (Exchange Web Server)에 대 한 액세스를 제어](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)하도록 Microsoft Exchange를 구성한 경우 대리인이 상사를 대신 하 여 팀 모임을 예약할 수 없습니다. 이 구성의 솔루션은 개발 중에 있으며 향후에 출시 될 예정입니다. 
 
 추가 기능을 사용 하지 않도록 설정 하는 방법에 대 한 일반적인 지침은 [Office 프로그램의 추가 기능 보기, 관리 및 설치](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)를 참조 하세요.
 

@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43a5914c0ad9690859264e5c64e0652a5095decb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 822483d1475d083ef18213e94d438d5c2a4eb48c
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570149"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638838"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft 팀 live 이벤트는 무엇 인가요?
 
@@ -73,7 +73,7 @@ Microsoft 365 live 이벤트는 라이브 비디오 스트리밍을 새 수준�
 ### <a name="enterprise-content-delivery-network-ecdn"></a>ECDN (Enterprise 콘텐츠 배달 네트워크)
 ECDN의 목표는 인터넷에서 비디오 콘텐츠를 가져와 네트워크 성능에 영향을 주지 않고 기업 전체에 콘텐츠를 배포 하는 것입니다. 다음 인증 된 eCDN 파트너 중 하나를 사용 하 여 조직 내에 보관 되는 실시간 이벤트에 대 한 네트워크를 최적화할 수 있습니다.
 - [벌](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-- [Kollective](http://www.kollective.com)
+- [Kollective](https://kollective.com/microsoft-pilot/)
 - [경사](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>참석자 환경 

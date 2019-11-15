@@ -16,21 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c7adfc2762d632f600f2982445f381139263894
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 8e0e96b05aff2d1c0e54bf6f1edb33f9b91aad6d
+ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290938"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627034"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft 팀원 관리 센터에서 팀 관리
 ==========================================
 
 ## <a name="overview"></a>개요
 
-이 문서에서는 Microsoft 팀 관리 센터의 팀을 위한 관리 도구에 대 한 개요를 제공 합니다. 이 짧은 비디오를 보고 시작 합니다 (3 분).
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
+이 문서에서는 Microsoft 팀 관리 센터의 팀을 위한 관리 도구에 대 한 개요를 제공 합니다.
 
 관리자는 조직에서 공동 작업을 위해 설정한 팀을 보거나 업데이트 해야 하거나, 소유 하는 팀이 적은 사용자를 지정 하는 등의 재구성 작업을 수행 해야 할 수 있습니다. Microsoft 팀 PowerShell 모듈 및 Microsoft 팀 관리 센터를 통해 조직에서 사용 되는 팀을 관리할 수 있습니다. 이러한 두 도구 집합을 사용 하는 전체 관리 기능을 보려면 다음 역할 중 하나를 할당 했는지 확인 해야 합니다.
 
