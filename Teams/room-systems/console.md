@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 이 문서에서는 Microsoft 팀 회의실 콘솔과 주변 장치를 설정 하는 방법을 설명 합니다.
-ms.openlocfilehash: f42f89d25a58ce96308318cc732e85f7080b86e5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6172e37b53934bc75ae7f5bdf848fd503ffe2e8a
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569910"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675776"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft 팀 대화방 콘솔 구성
 
@@ -99,7 +99,7 @@ CreateSrsMedia 스크립트는 다음 작업을 자동화 합니다.
 만든이의 업데이트에서 암시적 언어 선택이 사용자에 게 원하는 실제 응용 프로그램 언어를 제공 하지 않는 시나리오의 ps1 스크립트 (예: 콘솔 앱을 프랑스어로 표시 하려는 경우)를 사용 해야 합니다. 영어를 사용할 수 있습니다.
   
 > [!NOTE]
-> 다음 지침은 Windows Creator의 업데이트를 사용 하 여 만든 콘솔에만 적용 됩니다. 새 프로비저닝 시스템으로 미디어를 사용 하 여 설정 하지 않은 레거시/시장 시스템에서는 이러한 지침을 사용할 수 없지만,이 수동 작업을 수행 하는 초기 문제 (기념 Edition 설치 과정의 일부로 명시적으로 앱 언어를 설정 합니다.
+> 다음 지침은 Windows Creator의 업데이트를 사용 하 여 만든 콘솔에만 적용 됩니다. 미디어를 새 프로비저닝 시스템으로 설정 하지 않은 레거시/시장 시스템에서는 이러한 지침을 사용할 수 없지만,이 수동 작업을 수행 해야 하는 초기 문제 (예를 들어, 설치의 일부로 앱 언어를 명시적으로 선택할 수 있습니다.)
   
 ### <a name="to-apply-your-desired-language"></a>원하는 언어를 적용 하려면
 
@@ -142,7 +142,7 @@ CreateSrsMedia 스크립트는 다음 작업을 자동화 합니다.
 
 Windows가 설치 된 후에는 Microsoft 팀 대화방 콘솔 앱이 다음에 시작 될 때 또는/reboot 옵션이 선택 된 경우 초기 설정 프로세스로 이동 됩니다.
   
-1. 사용자 계정 화면이 나타납니다. 콘솔과 함께 사용할 룸 계정의 Skype 로그인 주소 (사용자 @ 도메인 형식으로)를 입력 합니다.
+1. 사용자 계정 화면이 나타납니다. 콘솔과 함께 사용할 룸 계정의 Skype 로그인 주소 (user@domain 형식으로)를 입력 합니다.
     
 2. 채팅방 계정에 대 한 암호를 입력 하 고 다시 입력 하 여 확인 합니다.
     
@@ -162,7 +162,7 @@ Windows가 설치 된 후에는 Microsoft 팀 대화방 콘솔 앱이 다음에 
     
 6. **마침을**클릭 합니다.
     
-Microsoft 팀 대화방 콘솔 앱은 바로 위의 자격 증명으로 비즈니스용 Skype Server에 로그인을 시작 하 고 동일한 자격 증명을 사용 하 여 Exchange와 일정을 동기화 하기 시작 해야 합니다. 콘솔 앱을 사용 하는 방법에 대 한 자세한 내용은 [Microsoft 팀 대화방 도움말](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)을 참조 하세요.
+Microsoft 팀 대화방 콘솔 앱은 바로 위의 자격 증명으로 비즈니스용 Skype Server에 로그인을 시작 하 고 동일한 자격 증명을 사용 하 여 Exchange와 일정을 동기화 하기 시작 해야 합니다. 콘솔 앱을 사용 하는 방법에 대 한 자세한 내용은 [Microsoft 팀 대화방 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)을 참조 하세요.
   
 > [!IMPORTANT]
 > Microsoft 팀 대화방은 인증 된 콘솔 하드웨어의 존재 여부에 따라 달라 집니다. Microsoft 팀 공간 콘솔 앱을 포함 하는 올바르게 만든 이미지도 콘솔 하드웨어가 검색 되지 않는 한 초기 설정 절차를 지 나 부팅 되지 않습니다. Surface Pro 기반 솔루션의 경우 Surface Pro는 함께 제공 된 dock 하드웨어에 연결 해야만이 검사를 통과할 수 있습니다.

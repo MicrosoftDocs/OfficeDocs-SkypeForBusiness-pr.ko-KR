@@ -1,7 +1,7 @@
 ---
 title: Azure Monitor를 사용 하 여 Microsoft 팀 공간 관리 계획
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 비즈니스용 Skype 또는 팀 구현에서 Azure Monitor를 사용 하 여 Microsoft 팀 회의실 장치를 관리 하기 위한 계획 고려 사항에 대해 설명 합니다.
-ms.openlocfilehash: e605f3cba8f6e21bb1da4f8301b54922dc8804d5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1e5c41866b02a74bee06b472623919f955691dd9
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569921"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675786"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Azure Monitor를 사용 하 여 Microsoft 팀 공간 관리 계획
  
@@ -25,7 +25,7 @@ ms.locfileid: "37569921"
   
 [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) 는 시작부터 클라우드에서 설계 된 관리 서비스의 모음입니다. Azure는 온-프레미스 리소스를 배포 및 관리 하는 대신 Azure에서 완전히 호스트 됩니다. 구성은 미미 하 고, 몇 분 내에 문자 그대로 실행할 수 있습니다. 일부 사용자 지정 작업을 사용 하면 개별 룸 시스템에 대 한 시스템 상태 또는 오류에 대 한 실시간 알림을 제공 하 여 Microsoft 팀 회의실 회의 시스템을 관리 하는 데 도움이 될 수 있으며, 수천 개의 Microsoft 팀을 관리 하는 일이 발생할 수 있습니다. 회의실 회의실.
   
-이 문서에서는 Microsoft 팀 회의실 회의 디바이스의 Azure Monitor 기반 관리를 구현 하는 데 필요한 요구 사항, 디자인/아키텍처 및 구현 모범 사례에 대해 설명 하 고 세부 문서에 대 한 링크를 제공 합니다. microsoft 팀 공간에 대 한 Azure Monitor 구현 Microsoft 팀 대화방의 지속적인 모니터링을 위한 중요 한 참조 정보. 
+이 문서에서는 microsoft 팀 회의실 회의 디바이스의 Azure Monitor 기반 관리를 구현 하는 데 필요한 요구 사항, 디자인/아키텍처 및 구현 모범 사례에 대해 설명 하 고 microsoft 팀 대화방에 대 한 Azure 모니터 구현에 대 한 자세한 문서 링크를 제공 하 고 팀 대화방의 지속적인 모니터링을 위한 중요 참조 정보에 대해 설명 합니다. 
   
 ## <a name="functional-overview"></a>기능 개요
 

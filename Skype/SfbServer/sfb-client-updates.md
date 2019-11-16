@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 정품 버전의 비즈니스용 Skype 2016, 비즈니스용 Skype 2015, Lync 2013 클라이언트에 대 한 최신 업데이트 정보에 대 한 링크를 IT 전문가에 게 제공 합니다.
 ms.openlocfilehash: 9becadff51cef15527b35dd3fa58c32273c1f3b8
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "38311243"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows Installer (MSI)를 사용 하는 비즈니스용 Skype 버전에 대 한 최신 업데이트

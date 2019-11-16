@@ -13,14 +13,14 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방을 배포 하기 위한 인프라 준비에 대해 설명 합니다.
-ms.openlocfilehash: ada7a7f018d5fb3882a686505488998763c33faf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b7bc3b7791edf88fd6882b67cdaa7d9b65e87741
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573553"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675806"
 ---
-# <a name="prepare-your-environment"></a>환경 준비
+# <a name="prepare-your-environment"></a>작업 환경 준비
 
 이 섹션에서는 Microsoft 팀 대화방의 모든 기능을 사용할 수 있도록 환경을 준비 하는 데 필요한 단계에 대해 간략하게 설명 합니다.
   
@@ -53,7 +53,7 @@ ms.locfileid: "37573553"
 - Active Directory 또는 Azure AD (Azure Active Directory) 인스턴스에 대 한 액세스 및 Microsoft Exchange 및 비즈니스용 Skype 서버에 대 한 액세스가 가능 합니다.
 - DHCP를 사용 하 여 IP 주소를 제공할 수 있는 서버에 액세스 합니다. Microsoft 팀 대화방은 고정 IP 주소로 구성할 수 없습니다.
 - HTTP 포트 80 및 443에 액세스 합니다.
-- 온-프레미스 비즈니스용 Skype Server 구현에 대 한 [서버의 포트 및 프로토콜 요구 사항](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) 에서 설명한 대로 구성 된 TCP 및 UDP 포트 또는 Microsoft 팀 또는 비즈니스용 skype online에 대 한 [Office 365 url 및 IP 주소 범위](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) 구현.
+- 온-프레미스 비즈니스용 Skype Server 구현에 대 한 [서버의 포트 및 프로토콜 요구 사항](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) 에 설명 된 대로 구성 되는 TCP 및 UDP 포트와 Microsoft 팀 또는 비즈니스용 skype online 구현에 대 한 [Office 365 url 및 IP 주소 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
 > [!IMPORTANT]
 > 유선 1 Gbps 네트워크 연결을 사용 하 여 필요한 대역폭을 보유 하 고 있는지 확인 합니다.
@@ -75,16 +75,16 @@ Microsoft 팀 대화방 장치는 Exchange Web Services, Microsoft 팀 또는 �
 Microsoft 팀 대화방은 Windows OS에서 프록시 설정을 상속 하도록 디자인 되었습니다. 다음과 같은 방법으로 Windows OS에 액세스 합니다.
   
 1. Microsoft 팀 대화방 UI에서 장치에 대 한 로컬 관리자 암호 (기본 암호는 **sfb**)를 묻는 메시지가 표시 되는 설정 기어 아이콘을 클릭 합니다.
-2. **다음으로** **이동** 단추를 탭 한 다음, **관리자** 로그인으로 이동 단추를 클릭 하 고 **관리** 단추 (컴퓨터가 도메인에 가입 되어 있는 경우 **다른 사용자를** 선택한 다음 사용 사용자 이름으로 .\admin 합니다.
+2. 다음으로 **이동** 단추를 탭 하 고, **관리자** 로그인으로 이동 단추를 클릭 한 다음 **관리** 단추 (컴퓨터가 도메인에 가입 되어 있는 경우 **다른 사용자** 선택)를 누른 다음 사용자 이름으로 .\admin를 사용 하 여 **설정** 에 대해 살펴보겠습니다.
 3. **Windows 검색** 상자 왼쪽 아래에서 regedit에 입력 합니다 (화면을 길게 누르거나 마우스 오른쪽 단추로 클릭 하 고 **관리자 권한으로 실행**을 선택 합니다.)
-4. HKEY_USERS 폴더 (컴퓨터 사용자 Sid 목록이 표시 됨)를 클릭 하 여 루트 폴더 HKEY_USERS이 선택 되었는지 확인 합니다.
+4. HKEY_USERS 폴더 (컴퓨터 사용자 Sid 목록이 표시 됨)를 클릭 하 여 루트 폴더 HKEY_USERS 선택 되어 있는지 확인 합니다.
        
 5. 파일을 클릭 한 다음 **하이브 로드를 선택 합니다.**
 6. **C:\Users\Skype** 폴더로 이동 하 고 파일 이름 상자 NTUSER를 입력 하 고 열기 단추를 누릅니다.
 
 7. 새로 로드 된 하이브에 대 한 키 이름을 입력 하 라는 메시지가 표시 됩니다. Skype에 입력 하세요 (이제 Skype 사용자를 위한 레지스트리 설정을 볼 수 있습니다).
  
-8. Skype 키를 열고 HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet 설정으로 이동한 다음, 다음과 같은 설정이 입력 되었는지 확인 합니다. 
+8. Skype 키를 열고 HKEY_USERS \Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet 설정을 찾아본 다음이 설정이 입력 되었는지 확인 합니다. 
     
     `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
@@ -108,15 +108,15 @@ Microsoft 팀 대화방은 Windows OS에서 프록시 설정을 상속 하도록
 
 |것|원본 또는 자격 증명|원본 포트|위치로|CDN|Office 365 용 Express 경로|대상 IP|대상 포트|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|인증 및 id  <br/> |[Office 365 인증 및 id를](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) 참조 하세요. <br/> |||
-|포털 및 공유  <br/> |[Office 365 포털 및 공유를](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) 참조 하세요. <br/> |||
-|SIP 신호  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니요  <br/> |'  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|PSOM (영구 공유 개체 모델) 연결 웹 회의  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니요  <br/> |'  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|HTTPS 다운로드  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니요  <br/> |'  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|오디오  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |TCP/UDP 50000-50019  <br/> |\*contoso.com  <br/> |아니요  <br/> |'  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50000-59999  <br/> |
-|비디오만  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |TCP/UDP 50020-50039  <br/> |\*contoso.com  <br/> |아니요  <br/> |'  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50000-59999  <br/> |
-|데스크톱 공유  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |TCP/UDP 50040-50059  <br/> |\*contoso.com  <br/> |아니요  <br/> |'  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50000-59999  <br/> |
-|IOS 장치에서 Lync Mobile 2010에 대 한 lync Mobile 푸시 알림 Android, Nokia Symbian 또는 Windows Phone 모바일 장치에는 필요 하지 않습니다.  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니요  <br/> |'  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
+|인증 및 id  <br/> |[Office 365 인증 및 id를](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) 참조 하세요. <br/> |||
+|포털 및 공유  <br/> |[Office 365 포털 및 공유를](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) 참조 하세요. <br/> |||
+|SIP 신호  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|PSOM (영구 공유 개체 모델) 연결 웹 회의  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|HTTPS 다운로드  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|오디오  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |TCP/UDP 50000-50019  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50000-59999  <br/> |
+|비디오만  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |TCP/UDP 50020-50039  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50000-59999  <br/> |
+|데스크톱 공유  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |TCP/UDP 50040-50059  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50000-59999  <br/> |
+|IOS 장치에서 Lync Mobile 2010에 대 한 lync Mobile 푸시 알림 Android, Nokia Symbian 또는 Windows Phone 모바일 장치에는 필요 하지 않습니다.  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |\*contoso.com  <br/> |아니요  <br/> |예  <br/> |[비즈니스용 Skype IP 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Skype 원격 분석  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |아니요  <br/> |아니요  <br/> |해당 없음  <br/> |TCP 443  <br/> |
 |Skype 클라이언트 퀵 팁  <br/> |클라이언트 컴퓨터 또는 로그온 한 사용자  <br/> |임시 포트  <br/> |quicktips.skypeforbusiness.com  <br/> |아니요  <br/> |아니요  <br/> |해당 없음  <br/> |TCP 443  <br/> |
 

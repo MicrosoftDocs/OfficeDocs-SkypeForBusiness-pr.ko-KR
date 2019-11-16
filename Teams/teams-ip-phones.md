@@ -1,7 +1,7 @@
 ---
 title: 팀 용 전화 및 장치
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dvank, kponnus
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Microsoft 팀에 대해 인증 된 IP 데스크 및 전화 회의 전화
-ms.openlocfilehash: 6025b8c3d3db84e085489f52407e4fc63f39b2eb
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 331c84e9a62b64a1fab33676c296c65f045b53ae
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37570204"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675826"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -44,6 +44,7 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 |전화 모델|펌웨어 버전|릴리스 날짜 |
 |:---|:---|:---|
 |오디오 코드 C450HD | C450HD_TEAMS_0.225 | 2019 년 3 월|
+|오디오 코드 C448HD (CAP 모드에만 해당) | C450HD_TEAMS_0.225 | 2019 년 3 월|
 |M100에서 crestron|2.3875.00068|2018 년 12 월|
 |Flex UC에서 crestron P100-T & UC-P110-T  | 58.15.91.6 |2019 년 1 월|
 |Poly Trio 8500/8800 (공유 모드에만 해당)| 5.9.0.10869|2019 년 6 월|
@@ -51,7 +52,7 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 |옛 alink T55 | 58.15.0.36 |2019 년 5 월|
 |옛 alink CP 960 |73.15.0.20|2018 년 12 월|
 |옛 alink T58 & T56 시리즈 |58.15.0.20|2018 년 12 월|
-||||
+
 
 이러한 장치에서 지원 되는 기능에 대 한 정보는 [Microsoft 팀 전화 기능 집합](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set) 을 참조 하세요.
 
@@ -63,10 +64,10 @@ Microsoft 팀 라이선스는 [Office 365 구독의](/MicrosoftTeams/Office-365-
 
 * * *
 
-인증 프로그램에 참여 하는 공급 업체를 찾고 있는 경우 요구 사항 및 사용 가능한 프로그램에 [참가 하는 방법을](https://docs.microsoft.com/en-us/skypeforbusiness/certification/how-to-join) 참조 하세요.
+인증 프로그램에 참여 하는 공급 업체를 찾고 있는 경우 요구 사항 및 사용 가능한 프로그램에 [참가 하는 방법을](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 참조 하세요.
 
 ## <a name="additional-resources"></a>추가 리소스
 
 [비즈니스용 Skype 및 Microsoft 팀 인증 프로그램](https://docs.microsoft.com/SkypeForBusiness/certification/overview)에 대해 알아보세요.
 
-[Microsoft 팀 전화 및 인증 된 장치를 탐색 합니다.](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
+[Microsoft 팀 전화 및 인증 된 장치를 탐색 합니다.](https://products.office.com/microsoft-teams/across-devices/devices)

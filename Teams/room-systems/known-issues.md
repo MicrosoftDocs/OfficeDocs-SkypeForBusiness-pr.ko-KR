@@ -1,5 +1,5 @@
 ---
-title: 알려진 문제점
+title: 알려진 문제
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -12,14 +12,14 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방에 대 한 알려진 문제점을 기능별로 설명 합니다.
-ms.openlocfilehash: 79bebf69c0d4fc8dabff3e294166e7ab08b79166
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 56d740cce8960e16e04fffc55bf96b46e3128a0c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571392"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675432"
 ---
-# <a name="known-issues"></a>알려진 문제점 
+# <a name="known-issues"></a>알려진 문제 
  
 이 문서에는 Microsoft 팀 대화방의 알려진 문제점에 대 한 기능 영역별로 나와 있습니다.
 <!-- If we get word that one of these issues no longer applies, contact meerak@microsoft.com or msmets@microsoft.com and let them know to EoL the corresponding KB  -->
@@ -37,14 +37,14 @@ ms.locfileid: "37571392"
 
 | 발행 제목 |  동작 \/ 증상 | 알려진 해결 방법 | 기술 자료 문서 |
 |  ---        |      ---             |   ---            | --- |
-|가상 키보드가 없음   | Microsoft 팀 대화방에 정보를 입력 해야 하는 경우 가상 키보드가 표시 되지 않습니다. 이 문제는 Microsoft 팀 대화방이 실행 되는 Surface Pro 4에 Windows 10 크리에이터 업데이트 (버전 1703)가 설치 된 후에 발생 합니다. | 이 문제를 해결 하려면 가상 키보드를 수동으로 여십시오. 이렇게 하려면 다음 단계를 따르세요.<br><br> **1.** 작업 표시줄을 길게 탭 한 다음 **터치 키보드 단추 표시** 를 탭 합니다. 작업 표시줄의 오른쪽에 키보드 아이콘이 표시 됩니다. <br><br> **2.** 키보드 아이콘을 탭 하 여 가상 키보드를 엽니다. | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|가상 키보드가 없음   | Microsoft 팀 대화방에 정보를 입력 해야 하는 경우 가상 키보드가 표시 되지 않습니다. 이 문제는 Microsoft 팀 대화방이 실행 되는 Surface Pro 4에 Windows 10 크리에이터 업데이트 (버전 1703)가 설치 된 후에 발생 합니다. | 이 문제를 해결 하려면 가상 키보드를 수동으로 여십시오. 다음의 단계를 따릅니다:<br><br> **1.** 작업 표시줄을 길게 탭 한 다음 **터치 키보드 단추 표시** 를 탭 합니다. 작업 표시줄의 오른쪽에 키보드 아이콘이 표시 됩니다. <br><br> **2.** 키보드 아이콘을 탭 하 여 가상 키보드를 엽니다. | [KB4037694](https://support.microsoft.com/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>하드웨어
 
 | 발행 제목 |  동작 \/ 증상 | 알려진 해결 방법 | 기술 자료 문서 |
 |  ---        |      ---             |   ---            |   --- |
-| 감지 되지 않은 모니터 | Surface Pro (모델 2017) 장치에서 Microsoft 팀 대화방을 실행 하면 모니터가 검색 되지 않습니다. |  Surface Pro 전원 단추를 20 초 이상 누르고 있습니다. 이렇게 하면 장치가 다시 시작 되 고 그래픽 캐시가 지워집니다. |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
+| 감지 되지 않은 모니터 | Surface Pro (모델 2017) 장치에서 Microsoft 팀 대화방을 실행 하면 모니터가 검색 되지 않습니다. |  Surface Pro 전원 단추를 20 초 이상 누르고 있습니다. 이렇게 하면 장치가 다시 시작 되 고 그래픽 캐시가 지워집니다. |[KB4055681](https://support.microsoft.com/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
 
 <a name="Limits"> </a>
 ## <a name="limitations-and-expected-behaviors"></a>제한 사항 및 예상 동작
@@ -75,6 +75,6 @@ Windows 10 1903는 그래픽 드라이버 문제로 인해 Crestron의 Microsoft
 <a name="See"> </a>  
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 팀 대화방 도움말](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft 팀 대화방 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Microsoft 팀 대화방 관리](skype-room-systems-v2.md)

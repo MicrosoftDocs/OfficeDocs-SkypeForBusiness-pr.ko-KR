@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 이 문서에서는 Microsoft 팀 대화방에 대 한 복구 도구를 사용 하는 방법에 대해 설명 하 고 최신 시스템을 지원 되는 상태로 전환 하는 데 사용 합니다.
-ms.openlocfilehash: 04fd6b4b0786cffb4f1bb050a7b0bbdac8e2e653
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: bc35dc744dac5f04d537f023e790bc89c2c649d0
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573652"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675352"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Microsoft 팀 대화방 복구 도구 사용
  
@@ -65,6 +65,6 @@ ms.locfileid: "37573652"
 <a name="See"> </a>  
 ## <a name="see-also"></a>참고 항목
  
-[Microsoft 팀 대화방 도움말](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft 팀 대화방 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Microsoft 팀 대화방 관리](skype-room-systems-v2.md)

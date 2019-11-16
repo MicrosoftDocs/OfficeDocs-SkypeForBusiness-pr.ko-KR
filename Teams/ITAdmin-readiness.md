@@ -18,10 +18,10 @@ description: Microsoft 팀을 계획, 배포 및 실행 하는 방법을 설명 
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37569848"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 팀의 관리 교육
@@ -102,7 +102,7 @@ ms.locfileid: "37569848"
 | 라이브 이벤트 | [비디오만](https://aka.ms/teams-live-events-session) | [뒤집을](https://aka.ms/teams-live-events-deck) |
 | 전화 시스템 소개 | [비디오만](https://aka.ms/teams-phone-system) | [뒤집을](https://aka.ms/teams-phone-system-deck) |
 | 직접 라우팅 | [비디오만](https://aka.ms/teams-direct-routing) | [뒤집을](https://aka.ms/teams-direct-routing-deck) |
-| 비즈니스용 Skype에서 팀으로 업그레이드 | [비디오 1: 업그레이드 소개](https://aka.ms/teams-upgrade-intro)</br>[비디오 2: 업그레이드 계획](https://aka.ms/teams-upgrade-plan)</br>[비디오 3: 공존 및 상호 운용성](https://aka.ms/teams-upgrade-coexistence-interop)</br>[비디오 4: 관리자 환경](https://aka.ms/teams-upgrade-admin) | [뒤집을](https://aka.ms/teams-upgrade-deck)|
+| 비즈니스용 Skype에서 Teams로 업그레이드 | [비디오 1: 업그레이드 소개](https://aka.ms/teams-upgrade-intro)</br>[비디오 2: 업그레이드 계획](https://aka.ms/teams-upgrade-plan)</br>[비디오 3: 공존 및 상호 운용성](https://aka.ms/teams-upgrade-coexistence-interop)</br>[비디오 4: 관리자 환경](https://aka.ms/teams-upgrade-admin) | [뒤집을](https://aka.ms/teams-upgrade-deck)|
 
 <h2>빠른 시작 가이드</h2>
 

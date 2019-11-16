@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37516653"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft 팀에서 조직 전체 팀 만들기
@@ -70,11 +70,11 @@ ms.locfileid: "37516653"
 
 구성원이 조직 차원의 팀을 팀 소유자로 남겨둘 수는 없지만 자신이 속해 있지 않은 계정을 제거 하 여 팀 명단을 관리할 수 있습니다. **팀을 사용 하 여 조직 전체 팀에서 사용자를 제거**해야 합니다. Microsoft 365 관리 센터 또는 Outlook의 그룹에서 사용자를 제거 하는 다른 방법을 사용 하는 경우 사용자가 조직 전체 팀에 다시 추가 될 수 있습니다.
 
-## <a name="faq"></a>FAQ
+## <a name="faq"></a>자주 묻는 질문(FAQ)
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>팀 클라이언트를 사용 하는 것 외에도 조직 전체 팀을 만들 수 있는 방법이 있나요?
 
-전역 관리자는 팀 클라이언트를 사용 하 여 조직 차원의 팀만 만들 수 있습니다. 조직에서 PowerShell을 사용 하 여 팀을 만드는 것이 제한 되는 경우, 팀을 만들 수 있는 사용자의 보안 그룹에 전역 관리자를 추가 하는 것이 좋습니다. 자세한 내용은 [Office 365 그룹을 만들 수 있는 사용자 관리](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)를 참조 하세요.
+전역 관리자는 팀 클라이언트를 사용 하 여 조직 차원의 팀만 만들 수 있습니다. 조직에서 PowerShell을 사용 하 여 팀을 만드는 것이 제한 되는 경우, 팀을 만들 수 있는 사용자의 보안 그룹에 전역 관리자를 추가 하는 것이 좋습니다. 자세한 내용은 [Office 365 그룹을 만들 수 있는 사용자 관리](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)를 참조하세요.
 
 이 옵션이 선택 되어 있지 않은 경우 PowerShell을 사용 하 여 공용 팀을 만들고 전역 관리자를 팀 소유자로 추가할 수 있습니다. 그런 다음 전역 관리자가 팀 이름 옆에 있는 **추가 옵션** 을 클릭 하 고 **팀 편집**을 클릭 한 다음 조직 전체에 대 한 개인 정보를 변경 하 고 **조직의 모든 사용자가 자동으로 추가**됩니다. 팀 소유자만 **팀 편집** 옵션에 액세스할 수 있고 전역 관리자만 **조직 전체** 옵션을 볼 수 있습니다.
 

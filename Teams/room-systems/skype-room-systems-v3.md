@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀 대화방 관리 개요
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
@@ -13,18 +13,18 @@ ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
 description: Microsoft 팀 대화방 관리 개요.
-ms.openlocfilehash: a55741fced90a62316ab8d046a91ee0364b314fd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cff0b300dc6cc9f3c15e21163554571d49e6540c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573564"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675816"
 ---
 # <a name="management-overview"></a>관리 개요
 
 Microsoft 팀 대화방 시스템을 사용자가 사용할 수 있도록 하 고 훌륭한 사용자 환경을 제공 하기 위해 지속적인 유지 관리와 작업을 개발 하 고 실행 하는 것이 중요 합니다. 
 
-## <a name="monitoring"></a>모니터 
+## <a name="monitoring"></a>모니터링 
 
 Microsoft 팀 대화방 시스템의 모니터링은 다음과 같은 두 가지 주요 활동으로 구성 됩니다.
 
@@ -43,7 +43,7 @@ Microsoft 팀 공간 응용 프로그램 및 연결 된 주변 장치 상태에 
 |전원 관리-\> AC, 10 분 후 화면 끄기  <br/> 전원 관리-\> AC, 시스템을 절전 모드로 전환 안 함  <br/> |Microsoft 팀 대화방에서 연결 된 디스플레이를 끄고 자동으로 절전 모드 해제 하도록 설정  <br/> |
 |네트 계정/maxpwage: 무제한  <br/> 또는 동등한 방법으로 로컬 계정에서 암호 만료를 비활성화 합니다. 이 작업을 수행 하지 않으면 결국 Skype 계정에 만료 된 비밀 번호에 대 한 로그온 complaining 실패 하 게 됩니다. 이로 인해 컴퓨터의 모든 로컬 계정에 영향을 줄 수 있으므로이를 설정 하지 않으면 상자의 관리 계정도 결국 만료 됩니다.  <br/> |Skype 계정이 항상 로그인 할 수 있도록 합니다.  <br/> |
 
-그룹 정책을 사용 하 여 파일을 전송 하는 방법에 대해서는 [파일 항목 구성을](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)설명 합니다.
+그룹 정책을 사용 하 여 파일을 전송 하는 방법에 대해서는 [파일 항목 구성을](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)설명 합니다.
   
 ## <a name="remote-management-using-powershell"></a>PowerShell을 사용 하 여 원격 관리
 <a name="RemotePS"> </a>
@@ -54,7 +54,7 @@ Microsoft Operations Manager Suite를 사용 하 여 Microsoft 팀 회의실 시
 
 |    |     |
 |-----------|------------|
-|![](../media/audio_conferencing_image7.png) <br/>결정 사항|<ul><li>운영 관리 도구 모음을 사용 하 여 Microsoft 팀 회의실 배포를 모니터링 하 고 있는지 확인 합니다.</li><li>전자 메일 알림에 사용할 대상 메일 그룹을 결정 합니다.</li></ul>|
+|![](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>운영 관리 도구 모음을 사용 하 여 Microsoft 팀 회의실 배포를 모니터링 하 고 있는지 확인 합니다.</li><li>전자 메일 알림에 사용할 대상 메일 그룹을 결정 합니다.</li></ul>|
 |![](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>품질 및 안정성 모니터링 방법을 정의 합니다.</li></ul>|
 
 ## <a name="quality-and-reliability-monitoring-cqd"></a>품질 및 안정성 모니터링 (CQD)
@@ -83,7 +83,7 @@ Microsoft 팀 대화방은 Windows 10 Enterprise IoT 또는 Windows 10 Enterpris
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 팀 대화방 도움말](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft 팀 대화방 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Microsoft 팀 회의실 계획](skype-room-systems-v2-0.md)
 

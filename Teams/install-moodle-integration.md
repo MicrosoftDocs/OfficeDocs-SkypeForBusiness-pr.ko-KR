@@ -16,10 +16,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5c6e2d8cfb4e3932d4559a5c5c7b618189da7e57
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37572061"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Microsoft 팀과 Moodle 통합 설치
@@ -151,7 +151,7 @@ Microsoft 팀의 무료 Moodle Assistant 봇에서는 교사와 학생이 Moodle
 1. **새 암호 생성** 단추를 클릭 합니다. 생성 된 암호를 복사 하 여 **팀 설정** 페이지의 **봇 애플리케이션 비밀 번호** 필드에 붙여 넣습니다.
 1. 폼의 맨 아래로 스크롤하고 **변경 내용 저장**을 클릭 합니다.
 
-이제 응용 프로그램 Id 및 암호를 생성 했으므로 Azure에 인공 지능을 배포할 차례입니다. **Azure에 배포** 단추를 클릭 하 고 필요한 정보를 사용 하 여 양식을 작성 합니다 (인공 응용 프로그램 Id, 인공 응용 프로그램 암호 및 Moodle Secret는 **팀 설정** 페이지에 있고, Azure 정보는 **설정** 페이지에 있습니다). . 양식을 작성 한 후에는 확인란을 클릭 하 여 약관에 동의 하 고 **구매** 단추를 클릭 합니다 (모든 Azure 리소스가 무료 계층에 배포 됨).
+이제 응용 프로그램 Id 및 암호를 생성 했으므로 Azure에 인공 지능을 배포할 차례입니다. **Azure에 배포** 단추를 클릭 하 고 필요한 정보를 사용 하 여 양식을 작성 합니다 (인공 응용 프로그램 Id, 인공 응용 프로그램 암호 및 Moodle Secret는 **팀 설정** 페이지에 있고, Azure 정보는 **설정** 페이지에 있습니다). 양식을 작성 한 후에는 확인란을 클릭 하 여 약관에 동의 하 고 **구매** 단추를 클릭 합니다 (모든 Azure 리소스가 무료 계층에 배포 됨).
 
 Azure에 대 한 구축이 완료 되 면 Office 365 Moodle 플러그 인을 해당 메시징 끝점으로 구성 해야 합니다. 먼저 Azure의 봇에서 끝점을 가져와야 합니다. 실행할 작업
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.
-ms.openlocfilehash: d432d12b8f17f12e49ea0622ce3ec97cefb2e36a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e82bd160cf09781605cadaf03245b1cdf31b6908
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573531"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676116"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -225,7 +225,7 @@ Introduced in this update:
 이 업데이트에 도입 된 내용:
 
 - [POLYCOM MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock 하드웨어 지원
-- [Logitech Brio](https://www.logitech.com/en-us/product/brio) 지원
+- [Logitech Brio](https://www.logitech.com/product/brio) 지원
 - 채팅방에 활동이 없을 때 표시 (콘솔 및 프런트 실)에서 절전 모드로 들어가지 못하는 문제를 해결 합니다.
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
@@ -297,9 +297,9 @@ Introduced in this update:
 <a name="See"> </a> 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 팀 대화방 도움말](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft 팀 대화방 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[환경 준비](srs-v2-prep.md)
+[작업 환경 준비](srs-v2-prep.md)
 
 [Microsoft 팀 대화방 지원 현재 분기 버전](srs2-lifecycle-support.md)
 

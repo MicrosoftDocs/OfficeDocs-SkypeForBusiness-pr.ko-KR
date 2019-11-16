@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Office 365를 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 253f25de30d105361f53eeb34d3b6c78e6d41fa2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 467a7300a2912dcaffe66a44f0f6e181d36ced1c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573487"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675442"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365를 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -62,7 +62,7 @@ Microsoft 팀 회의실을 Office 365에 배포 하기 전에 요구 사항을 �
 
      - 계정: ProjectRigel01@contoso.onmicrosoft.com
 
-     - 계정 암호: P @ $ $W 0rd5959
+     - 계정 암호: P@ $ $W 0rd5959
 
      ``` PowerShell
      New-Mailbox -Name "Project-Rigel-01" -Alias ProjectRigel01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID ProjectRigel01@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
@@ -74,7 +74,7 @@ Microsoft 팀 회의실을 Office 365에 배포 하기 전에 요구 사항을 �
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     이 예제에서는 별칭 값 ProjectRigel02를 가진 기존 채팅방 사서함에 대 한 계정을 사용 하도록 설정 하 고 암호를 9898P @ $ $W 0rd으로 설정 합니다. 기존 별칭 값 때문에 계정이 ProjectRigel02@contoso.onmicrosoft.com 것을 참고 하세요.
+     이 예제에서는 별칭 값 ProjectRigel02를 가진 기존 회의실 사서함에 대 한 계정을 사용 하도록 설정 하 고 암호를 9898P@ $ $W 0rd으로 설정 합니다. 기존 별칭 값 때문에 계정이 ProjectRigel02@contoso.onmicrosoft.com 것을 참고 하세요.
 
      ``` PowerShell
      Set-Mailbox -Identity ProjectRigel02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
@@ -107,10 +107,10 @@ Microsoft 팀 회의실을 Office 365에 배포 하기 전에 요구 사항을 �
 
    자세한 구문 및 매개 변수 정보는 [설정-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)를 참조 하세요.
 
-4. `Connect-MsolService -Credential $cred` Powershell cmdlet을 실행 하 여 Active Directory 설정을 만들기 위해 MS Online PowerShell에 연결 합니다.   Active Directory에 대 한 자세한 내용은 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)을 참조 하세요. 
+4. `Connect-MsolService -Credential $cred` Powershell cmdlet을 실행 하 여 Active Directory 설정을 만들기 위해 MS Online PowerShell에 연결 합니다.   Active Directory에 대 한 자세한 내용은 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)을 참조 하세요. 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) 는 지원 되지 않습니다. 
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 는 지원 되지 않습니다. 
 
 5. 암호가 만료 되지 않도록 하려면 다음 구문을 사용 합니다.
 
@@ -205,7 +205,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서 Microsoft 팀 회의실 
 
 4. **라이선스** 옵션을 클릭 합니다.
 
-5. 라이선스 **할당** 섹션에서 사용권 및 Enterprise Voice 필요 조건에 따라 비즈니스용 skype Online (계획 2) 또는 비즈니스용 skype Online (계획 3)을 선택 해야 합니다. Microsoft 팀 방에 클라우드 PBX를 사용 하려면 요금제 3 라이선스를 사용 해야 합니다. 최소한 음성 연결에는 CloudPBX가 필요 합니다. 그런 다음 PSTN 연결 방법을 기반으로 하이브리드 음성 또는 PSTN 통화를 구성 합니다. 자세한 내용은 [Microsoft 팀 공간 라이선스](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) 를 참조 하세요.
+5. 라이선스 **할당** 섹션에서 사용권 및 Enterprise Voice 필요 조건에 따라 비즈니스용 skype Online (계획 2) 또는 비즈니스용 skype Online (계획 3)을 선택 해야 합니다. Microsoft 팀 방에 클라우드 PBX를 사용 하려면 요금제 3 라이선스를 사용 해야 합니다. 최소한 음성 연결에는 CloudPBX가 필요 합니다. 그런 다음 PSTN 연결 방법을 기반으로 하이브리드 음성 또는 PSTN 통화를 구성 합니다. 자세한 내용은 [Microsoft 팀 공간 라이선스](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) 를 참조 하세요.
 
 6. **저장** 을 클릭 하 여 작업을 완료 합니다.
 

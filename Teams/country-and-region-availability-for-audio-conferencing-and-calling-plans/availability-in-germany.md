@@ -25,10 +25,10 @@ ms.custom:
 - Calling Plans
 description: 다음은 비즈니스용 Skype 및 독일에서 사용할 수 있는 Microsoft 팀을 위한 Office 365 서비스입니다.
 ms.openlocfilehash: a10fc7e69f63842aa67ee208b1f27528debb956d
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37569885"
 ---
 # <a name="availability-in-germany"></a>독일의 가용성
@@ -73,7 +73,7 @@ ms.locfileid: "37569885"
    
  오디오 회의, 자동 전화 교환, 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
   
-## <a name="communications-credits"></a>통신 제작진
+## <a name="communications-credits"></a>통신 크레딧
 
 |**기능**|**세부적인**|
 |:-----|:-----|

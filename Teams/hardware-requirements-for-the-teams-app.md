@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68b263dde1637c5caaf9ec800c83ba047d641a53
-ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
+ms.openlocfilehash: 753e134e34c68ab139819d8eaffb0ebfeac571cd
+ms.sourcegitcommit: aad6c02b172a1412d3523a3cb3b3400423c0c3e0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38638708"
+ms.locfileid: "38670195"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 팀 앱의 하드웨어 요구 사항
 
@@ -71,6 +71,14 @@ ms.locfileid: "38638708"
 |장치    |   표준 랩탑 카메라, 마이크, 스피커    | 
 |음성    |  호환 되는 마이크와 스피커, 헤드셋 마이크 또는 동급 장치       |
 |영상 통화 및 모임 | 영상 통화 및 온라인 모임 환경을 개선 하기 위해 2.0 GHz 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. 선택적 화면 흐림 효과 AVX2 (고급 벡터 확장 2) 지원이 포함 된 프로세서가 필요 하지만 대부분의 최신 2013 Mac 장치 이상에서 지원 됩니다. 지원 되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요.
+|지원 되는 Linux 배포판 | Ubuntu 16.04 LTS *, 18.04 LTS, Fedora 30 워크스테이션, RHEL 8 Workstation, CentOS 8
+
+* 새 버전의 libc + + (및 컴파일러 등) 및 업데이트 libc + +를 사용 하 여 리포지토리를 추가 하는 Ubuntu 16.04 LTS에 설치 하는 필수 단계:
+```
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get upgrade
+```
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>모바일 장치의 팀 앱에 대 한 하드웨어 요구 사항
 

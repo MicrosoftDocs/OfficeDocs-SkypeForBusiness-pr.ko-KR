@@ -15,10 +15,10 @@ description: 팀에서 사용자가 구성원 인 팀에 대 한 사용 현황 �
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37639104"
 ---
 # <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Teams의 교차 팀 및 팀 단위 분석 보기

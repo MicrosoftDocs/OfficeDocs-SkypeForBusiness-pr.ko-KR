@@ -23,24 +23,24 @@ ms.custom:
 - LIL_Placement
 description: '휴대폰을 사용 하 여 전화 회의에 참가 해야 하는 사용자에 대해 전화 접속 또는 오디오 회의를 설정 하는 방법에 대해 알아봅니다. '
 ms.openlocfilehash: 499a8a8ef05d23c74b030536d33b7a02cd6d9a1a
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37924979"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>비즈니스용 Skype에 대 한 오디오 회의 설정
 
 조직의 사용자가 모임에 전화를 걸 때 휴대폰을 사용 해야 하는 경우가 있습니다. 비즈니스용 Skype에는 이러한 상황에 대 한 오디오 회의 기능이 포함 되어 있습니다. 모바일 장치 또는 PC에서 비즈니스용 Skype 앱을 사용 하는 대신 휴대폰을 사용 하 여 비즈니스용 Skype 모임으로 전화를 걸 수 있습니다. 
   
-일정을 예약 하거나 리드 회의를 하는 사용자를 위해 오디오 회의를 설정 하기만 하면 됩니다. 전화를 걸 수 있는 모임 참석자는 해당 사용자 또는 다른 설정에 할당 된 라이선스가 필요 하지 않습니다.
+모임 일정을 계획하거나 주도하는 사용자들을 위해 오디오 회의를 설정하기만 하면 됩니다. 전화를 걸 수 있는 모임 참석자는 해당 사용자 또는 다른 설정에 할당 된 라이선스가 필요 하지 않습니다.
   
 오디오 회의에 대 한 질문과 대답은 [오디오 회의 일반적인 질문](/MicrosoftTeams/audio-conferencing-common-questions)을 참조 하세요.
 
 ## <a name="step-1-find-out-if-audio-conferencing-is-available-in-your-countryregion"></a>1 단계: 자신의 국가/지역에서 음성 회의를 사용할 수 있는지 확인
 <a name="__top"> </a>
 
-오디오 회의 [및 통화 요금제에 대 한 국가 및 지역](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) 으로 이동 하 여 오디오 회의에 대 한 사용 가능성 정보를 가져올 국가 또는 지역을 선택 하 고 전화 시스템, 통화 요금제, 유료, 무료 통화에 대 한 정보를 제공 합니다. 숫자 및 통신 크레딧을. 
+오디오 회의 [및 통화 요금제에 대 한 국가 및 지역](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) 으로 이동 하 고, 전화 시스템, 통화 요금제, 유료 및 무료 번호, 통신 크레딧에 대 한 정보를 비롯 하 여 오디오 회의에 대 한 가용성 정보를 얻을 국가 또는 지역을 선택 합니다. 
  
 ## <a name="step-2-get-and-assign-licenses"></a>2 단계: 라이선스 가져오기 및 할당
  

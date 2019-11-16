@@ -20,10 +20,10 @@ appliesto:
 - Microsoft Teams
 - Skype for Business Online
 ms.openlocfilehash: 0d473ffa67b21c4ec3a160a8687a1688ea1d1cf5
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37570583"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
@@ -53,27 +53,27 @@ ms.locfileid: "37570583"
 |사용자 지정 클라우드 저장소     |Google Drive        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
 |사용자 지정 클라우드 저장소     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
 |사용자/라이선스 유형별 설정     |모든 사용자에 대해 Microsoft 팀 설정 또는 해제          |사용 되지 않음<sup>1</sup>        |         |
-|팀 및 채널     |         |Azure Active Directory 그룹 관리로 리디렉션합니다 (현재 환경과 동일).              |클릭할         |
-|팀 및 채널     |         |AAD 그룹 관리로 리디렉션합니다 (현재 환경과 동일).             |클릭할          |
+|팀 및 채널     |         |Azure Active Directory 그룹 관리로 리디렉션합니다 (현재 환경과 동일).              |사용자         |
+|팀 및 채널     |         |AAD 그룹 관리로 리디렉션합니다 (현재 환경과 동일).             |사용자          |
 |들|기본적으로 새 외부 앱 사용|조직 전체 앱 설정|테 넌 트|
 |들|외부 앱 허용|조직 전체 앱 설정|테 넌 트|
-|들|외부 앱의 테스트용 로드 허용<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|클릭할|
-|들|기본 앱<sup>3</sup>|TeamsAppPermissionPolicy|클릭할|
-|들|외부 앱<sup>3</sup>|TeamsAppPermissionPolicy|클릭할|
-|통화 및 모임     |비공개 모임에 대 한 예약 허용         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |클릭할          |
-|통화 및 모임     |Ad hoc 채널 잔 허용         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |클릭할          |
-|통화 및 모임     |채널 모임 예약 허용         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |클릭할          |
-|통화 및 모임     |모임에서 비디오 허용         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |클릭할          |
-|통화 및 모임     |모임에서 화면 공유 허용         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |클릭할          |
-|통화 및 모임     |개인 통화 허용         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |클릭할          |
-|메시지     |사용자가 대화에 gif를 추가할 수 있도록 Giphy 설정         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |클릭할         |
-|메시지     |콘텐츠 등급         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |클릭할         |
-|메시지     |사용자가 편집 하 고 대화에 추가할 수 있는 밈         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |클릭할         |
-|메시지     |사용자가 편집 하 고 대화에 추가할 수 있는 스티커 사용         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |클릭할         |
-|메시지     |소유자가 모든 메시지를 삭제할 수 있도록 허용         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |클릭할         |
-|메시지     |사용자가 자신의 메시지를 편집할 수 있도록 허용         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |클릭할         |
-|메시지     |사용자가 자신의 메시지를 삭제할 수 있도록 허용         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |클릭할         |
-|메시지     |사용자가 개인적으로 채팅 하도록 허용 합니다.         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |클릭할         |
+|들|외부 앱의 테스트용 로드 허용<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|사용자|
+|들|기본 앱<sup>3</sup>|TeamsAppPermissionPolicy|사용자|
+|들|외부 앱<sup>3</sup>|TeamsAppPermissionPolicy|사용자|
+|통화 및 모임     |비공개 모임에 대 한 예약 허용         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |사용자          |
+|통화 및 모임     |Ad hoc 채널 잔 허용         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |사용자          |
+|통화 및 모임     |채널 모임 예약 허용         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |사용자          |
+|통화 및 모임     |모임에서 비디오 허용         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |사용자          |
+|통화 및 모임     |모임에서 화면 공유 허용         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |사용자          |
+|통화 및 모임     |개인 통화 허용         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |사용자          |
+|메시징     |사용자가 대화에 gif를 추가할 수 있도록 Giphy 설정         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |사용자         |
+|메시징     |콘텐츠 등급         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |사용자         |
+|메시징     |사용자가 편집 하 고 대화에 추가할 수 있는 밈         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |사용자         |
+|메시징     |사용자가 편집 하 고 대화에 추가할 수 있는 스티커 사용         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |사용자         |
+|메시징     |소유자가 모든 메시지를 삭제할 수 있도록 허용         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |사용자         |
+|메시징     |사용자가 자신의 메시지를 편집할 수 있도록 허용         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |사용자         |
+|메시징     |사용자가 자신의 메시지를 삭제할 수 있도록 허용         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |사용자         |
+|메시징     |사용자가 개인적으로 채팅 하도록 허용 합니다.         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |사용자         |
 
 <sup>1</sup> 게스트에 사용 되지 않습니다. 이제 게스트를 사용 하거나 사용 하지 않도록 설정 하면 Microsoft 팀 관리 센터에서 관리할 수 있습니다. 비즈니스 Enterprise, .Edu Student, .Edu 교직원 용 팀을 활성화/비활성화 하는 것은 곧 더 이상 사용 되지 않습니다. 이는 Microsoft 365 관리 센터에서 라이선스를 할당 하 여 관리 해야 합니다. [Microsoft 팀에 대 한 사용자 액세스 관리를](user-access.md)참조 하세요.
 <br><br>
@@ -121,24 +121,24 @@ ms.locfileid: "37570583"
 
 |Microsoft 365 관리 센터의 팀 섹션  |설정 이름 (테 넌 트 수준)  |Microsoft 팀 관리 센터 정책   |수준: 테 넌 트 또는 사용자   |
 |---------|---------|---------|---------|  
-| 메시지  |소유자가 보낸 메시지를 삭제할 수 있음 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 클릭할 |
-| 메시지 | 사용자가 보낸 메시지를 삭제할 수 있음 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 클릭할 |
-| 메시지  | 사용자가 보낸 메시지를 편집할 수 있음 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |클릭할|
-| 메시지 | 사용자가 채팅할 수 있도록 허용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 클릭할 |
-| 메시지 | 대화에서 Giphy 사용 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 클릭할 |
-| 메시지 | Giphy 콘텐츠 등급 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 클릭할 |
-| 메시지 | 대화에서 밈 사용  |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 클릭할 |
-| 메시지 | 대화에서 스티커 사용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 클릭할 |
+| 메시징  |소유자가 보낸 메시지를 삭제할 수 있음 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
+| 메시징 | 사용자가 보낸 메시지를 삭제할 수 있음 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
+| 메시징  | 사용자가 보낸 메시지를 편집할 수 있음 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |사용자|
+| 메시징 | 사용자가 채팅할 수 있도록 허용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
+| 메시징 | 대화에서 Giphy 사용 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
+| 메시징 | Giphy 콘텐츠 등급 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
+| 메시징 | 대화에서 밈 사용  |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
+| 메시징 | 대화에서 스티커 사용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
 
 또한 Microsoft 팀 관리 센터 에서만 사용할 수 있는 설정은 다음과 같습니다.
 
 |설정 이름 | Microsoft 팀 관리 센터 정책 | 수준: 테 넌 트 또는 사용자
 |-------------|-------------------------------------|---------|
-|URL 미리 보기 허용 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 클릭할 |
-|사용자가 그룹 채팅에서 사용자를 제거할 수 있도록 허용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 클릭할 |
-|몰입 형 리더의 메시지 보기 허용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| 클릭할 |
-|사용자가 메시지를 번역할 수 있도록 허용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| 클릭할 |
-|읽음 확인 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 클릭할 |
-|사용자는 우선 순위 알림을 보낼 수 있습니다. | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 클릭할 |
-|음성 메시지 만들기 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| 클릭할 |
-|모바일 장치에서 최근 채팅 위에 즐겨찾기 채널 표시 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| 클릭할 |
+|URL 미리 보기 허용 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
+|사용자가 그룹 채팅에서 사용자를 제거할 수 있도록 허용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
+|몰입 형 리더의 메시지 보기 허용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| 사용자 |
+|사용자가 메시지를 번역할 수 있도록 허용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| 사용자 |
+|읽음 확인 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
+|사용자는 우선 순위 알림을 보낼 수 있습니다. | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
+|음성 메시지 만들기 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| 사용자 |
+|모바일 장치에서 최근 채팅 위에 즐겨찾기 채널 표시 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| 사용자 |

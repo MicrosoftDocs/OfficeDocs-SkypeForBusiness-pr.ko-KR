@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 이 문서에서는 Microsoft 팀 대화방에 대 한 수명 지원에 대해 설명 합니다.
-ms.openlocfilehash: 736933c2c47d42073d2f8b90bce6af6755c89338
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 55fde6317fe53102b97f752667d540e33a7b8c8c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573542"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675796"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 팀 대화방 앱 버전 지원
  
@@ -54,7 +54,7 @@ Windows 10 기능 업데이트가 Microsoft 팀 대화방 장치에서 즉시 �
 | 1903 |2019-05-21 |지원 되는 &#x2780;, <br/>권장  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |건너뛰면 <br/>권장 하지 않음 &#x2781;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |지원                             |4.1.22.0 |17134.191|
-| 1709 |2018-01-18 |지원 되지 않음                         |&#x2014; |&#x2014; |
+| 1709 |2018-01-18 |지원되지 않음                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |지원 되지 않음                         |&#x2014; |&#x2014; |
 ||||||
 
@@ -66,7 +66,7 @@ Windows 10 1809 버전 &#x2781; Microsoft 팀 대화방 응용 프로그램과 �
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 팀 대화방 도움말](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft 팀 대화방 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Microsoft 팀 대화방 릴리스 정보](srs2-release-note.md)
 

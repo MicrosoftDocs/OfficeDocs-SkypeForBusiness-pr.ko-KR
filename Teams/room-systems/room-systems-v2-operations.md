@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 이 항목에서는 차세대 Skype 대화방 시스템인 Microsoft 팀 회의실 관리에 대해 자세히 알아보세요.
-ms.openlocfilehash: c764490df9912ca464b1f11d56a2cb376b96c388
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 003ede11615e42ec120d618f0a732df58d10f452
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573608"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675342"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 팀 회의실 유지 관리 및 운영 
  
@@ -25,7 +25,7 @@ ms.locfileid: "37573608"
   
 Microsoft 팀 대화방은 회의실을 다양 한 공동 작업 환경으로 변환 하도록 설계 된 Microsoft의 최신 회의 솔루션입니다. 사용자는 친숙 한 Microsoft 팀 또는 비즈니스용 Skype 인터페이스를 즐길 수 있으며 IT 관리자가 Windows 10 Skype 모임 앱을 쉽게 배포 하 고 관리 하는 데 감사 합니다. Microsoft 팀 공간은 설치 하기 쉽도록 LCD 패널과 같은 기존 장비를 이용 하 여 Microsoft 팀 또는 비즈니스용 Skype를 회의실에 제공할 수 있도록 설계 되었습니다.
   
-추가 구성을 사용 하는 경우 [Azure monitor를 사용 하 여 Microsoft 팀 공간 관리 계획](azure-monitor-plan.md), [microsoft 팀 대화방 관리를 azure 모니터로 배포](azure-monitor-deploy.md), 관리에 설명 된 microsoft Azure Monitor를 사용 하 여 원격 관리를 할 수 있습니다. [ Azure Monitor를 사용 하는 공간 장치](azure-monitor-deploy.md). 사용자 지정 표시 테마 적용을 포함 하 여 [XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 공간 콘솔 설정을 관리할](xml-config-file.md)수도 있습니다. 
+추가 구성을 사용 하는 경우 azure monitor를 사용 하 여 [Microsoft 팀 공간 관리 계획](azure-monitor-plan.md), Azure [모니터로 microsoft 팀 대화방 관리 배포](azure-monitor-deploy.md), [azure Monitor를 사용 하 여 microsoft 팀 회의실 장치 관리](azure-monitor-deploy.md)에 설명 된 microsoft Azure Monitor를 사용 하 여 원격 관리를 할 수 있습니다. 사용자 지정 표시 테마 적용을 포함 하 여 [XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 공간 콘솔 설정을 관리할](xml-config-file.md)수도 있습니다. 
   
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Microsoft 팀 방에 대 한 로그 수집
 <a name="Logs"> </a>
@@ -44,7 +44,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 확장 모드로 방 디스플레이를 구성 합니다. 이렇게 하면 디스플레이 전원을 켤 때 콘솔 UI가 해당 디스플레이에 복제 되지 않습니다.
   
 > [!NOTE]
-> 원본에서 대기 모드를 해제할 때 자동으로 활성 비디오 원본 (예: MTR 콘솔)으로 전환 하려면 특정 조건이 충족 되어야 합니다. 이 기능은 선택 사항 이지만 Microsoft 팀 공간 소프트웨어에서 지원 되며, 기본 하드웨어에서 기능을 지 원하는 경우 제공 됩니다. 채팅방 표시로 사용 되는 소비자 TV는 HDMI의 CEC (소비자 전자 컨트롤) 기능을 지원 해야 합니다.  선택 된 dock 또는 console (CEC를 지원 하지 않을 수 있음, 제조업체 지원 문서 참조)에 따라, 원하는 기능을 사용 하도록 설정 하려면 hd [-RX-201-C-](https://www.crestron.com/en-US/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) [100](https://www.extron.com/article/hdctl100ad) E와 같은 컨트롤러가 필요할 수 있습니다. 결과가. 
+> 원본에서 대기 모드를 해제할 때 자동으로 활성 비디오 원본 (예: MTR 콘솔)으로 전환 하려면 특정 조건이 충족 되어야 합니다. 이 기능은 선택 사항 이지만 Microsoft 팀 공간 소프트웨어에서 지원 되며, 기본 하드웨어에서 기능을 지 원하는 경우 제공 됩니다. 채팅방 표시로 사용 되는 소비자 TV는 HDMI의 CEC (소비자 전자 컨트롤) 기능을 지원 해야 합니다.  선택 된 dock 또는 console (CEC를 지원 하지 않을 수 있음, 제조업체 지원 문서 참조)에 따라, 원하는 동작을 사용 하도록 설정 하려면 hd [-RX-201-C-](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) [100](https://www.extron.com/article/hdctl100ad) E와 같은 컨트롤러가 필요할 수 있습니다. 
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft 팀 대화방 재설정 (출하 시 복원)
 <a name="Reset"> </a>
@@ -167,7 +167,7 @@ Copy-Item $movefile $targetDevice
   
 기본적으로 Microsoft 팀 대화방은 Windows Update에 연결 하 여 운영 체제 및 USB 주변 장치 펌웨어 업데이트를 검색 하 고, 구성 된 업무 시간 외에 설치 합니다. 관리자 계정에 로그인 하 고 설정 앱을 실행 하 여 업무 시간을 구성할 수 있습니다.
   
-업데이트를 수동으로 관리 하 고 [Microsoft Store For Business](https://businessstore.microsoft.com/store) online에서 [오프 라인 앱을 배포](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)하는 것을 수행할 수 없는 경우 [배포 키트](https://go.microsoft.com/fwlink/?linkid=851168) 에서 적절 한 APPX 파일과 종속성을 얻을 수 있습니다 ( SCCM과 함께 사용할 수 있는 [Microsoft 팀 대화방 콘솔을 구성](console.md)하는 지침입니다. 배포 키트 릴리스는 스토어 릴리스에서 지연 되므로 사용 가능한 최신 빌드와 항상 일치 하지 않을 수 있습니다.
+업데이트를 수동으로 관리 하 고 [Microsoft Store For Business](https://businessstore.microsoft.com/store) online에서 [오프 라인 앱을 배포](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)하는 것을 수행할 수 없는 경우 SCCM과 함께 사용할 수 있는 [배포 키트](https://go.microsoft.com/fwlink/?linkid=851168) ( [microsoft 팀 회의실 구성](console.md)지침 참조)에서 적절 한 APPX 파일과 종속성을 얻을 수 있습니다. 배포 키트 릴리스는 스토어 릴리스에서 지연 되므로 사용 가능한 최신 빌드와 항상 일치 하지 않을 수 있습니다.
   
 ### <a name="to-update-using-powershell"></a>Powershell을 사용 하 여 업데이트 하려면
 
