@@ -3,7 +3,7 @@ title: Microsoft 팀에서 정책 패키지 관리
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: sekrantz
+ms.reviewer: sekrantz, aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 정책 패키지를 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: fb01a7e15d43c18e115ecfbd0edb73b4808c2a59
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: ecfc6ae6fb1bb4d9632b8cd04b35dcee6d63359d
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972439"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38679831"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft 팀에서 정책 패키지 관리
 
@@ -41,6 +41,7 @@ Microsoft 팀의 정책 패키지는 조직에서 유사한 역할을 갖는 사
 |Education_PrimaryStudent 패키지    |기본 학생에 게 적용 되는 정책 및 정책 설정 집합을 만듭니다.|
 |Education_SecondaryStudent 패키지    |보조 학생에 게 적용 되는 정책 및 정책 설정 집합을 만듭니다.         |
 |Education_HigherEducationStudent 패키지    |높은 교육 학생 들에 게 적용 되는 정책 및 정책 설정 집합을 만듭니다.|
+|SmallMediumBusiness_BusinessVoice 패키지    |비즈니스 음성 환경에 대 한 앱을 포함 하는 앱 설치 정책을 만듭니다.|
 
 > [!NOTE]
 > 팀의 향후 릴리스에서 정책 패키지를 더 추가 하 게 되므로 최신 정보를 다시 확인 하세요.  
@@ -101,3 +102,7 @@ Microsoft 팀 관리 센터에서 정책 패키지를 보고 할당 하 고 사�
 **정책 패키지를 할당할 때 오류가 표시 되는 경우**
 
 패키지에서 하나 이상의 정책이 성공적으로 만들어지거나 적용 되지 않은 경우이 문제가 발생할 수 있습니다. 정책 패키지를 사용자에 게 다시 할당 합니다. 작업을 다시 시도 하면 일반적으로이 문제가 해결 됩니다.
+
+## <a name="related-topics"></a>관련 항목
+
+[.EDU 관리자를 위한 Microsoft 팀 정책 패키지](policy-packages-edu.md)
