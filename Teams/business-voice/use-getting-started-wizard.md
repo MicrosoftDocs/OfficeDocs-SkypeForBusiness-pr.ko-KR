@@ -15,18 +15,18 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46f6f75ce0ac14193a4f7a8cfccadf8312f92a98
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 8e6ed778af0136516286798b0a7b04602f571de2
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972199"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653534"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>시작 마법사를 사용하여 Business Voice 설정하기
 
 Microsoft 365 Business Voice용 시작 마법사를 사용하면 빠르고 쉽게 Microsoft Teams에서 전화를 걸고 받기 시작할 수 있습니다. 갓 시작한 중소기업에서는 마법사를 사용해 몇 분 안에 전화번호, 통화 메뉴, 인사말 등을 사용할 수 있습니다. 전화 통신 솔루션이 구축된 대기업에서는 모든 사용자를 위해 Business Voice를 설정하기 전에 일부 사용자가 먼저 경험해볼 수 있는 Business Voice 파일럿을 설정할 때 마법사가 도움이 됩니다. 두 경우 모두 마법사가 완료되면 Business Voice 사용을 시작할 수 있습니다.
 
-마법사를 시작하기 전에 이 문서를 읽는 것이 좋습니다. 준비가 되면 [Microsoft 365 관리 센터](https://admin.microsoft.com/AdminPortal/Home#/homepage)에서 마법사를 열 수 있습니다. 구독할 때 사용한 계정 또는 전역 관리자 계정으로 로그인해야 합니다.
+마법사를 시작하기 전에 이 문서를 읽는 것이 좋습니다. 준비가 되었으면 [Microsoft 365 Business Voide 시작](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice) 페이지에서 **시작**을 선택하여 마법사를 열 수 있습니다. 구독할 때 사용한 계정 또는 전역 관리자 계정으로 로그인해야 합니다.
 
 > [!IMPORTANT]
 > 현재 캐나다와 영국에서 Business Voice를 사용할 수 있습니다. 2020년에는 더 많은 국가 및 지역에서 사용할 수 있게 됩니다.
@@ -56,7 +56,7 @@ Microsoft 365 Business Voice용 시작 마법사를 사용하면 빠르고 쉽�
 
 <table>
     <tr>
-        <td>새 현지 전화번호를 설정하는 것 외에도 수신자 부담 번호를 구입하거나 기존 번호를 Microsoft 365에 이식할 수 있습니다. 수신자 부담 번호를 설정하려면 통화 플랜을 구입해야 합니다. 번호를 Microsoft 365에 이식하려면 마법사를 완료한 후 [Teams 관리 센터](https://admin.teams.microsoft.com)에서 옵션을 사용합니다.
+        <td>새 현지 전화번호를 설정하는 것 외에도 수신자 부담 번호를 구입하거나 기존 번호를 Microsoft 365에 이식할 수 있습니다. 수신자 부담 번호를 설정하려면 통화 플랜을 구입해야 합니다. 하나 이상의 번호를 Microsoft 365에 이식하려면 마법사를 완료한 후 [Teams 관리 센터](https://admin.teams.microsoft.com)에서 옵션을 사용합니다.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>
@@ -64,7 +64,7 @@ Microsoft 365 Business Voice용 시작 마법사를 사용하면 빠르고 쉽�
 </table>
 
 > [!IMPORTANT]
-> 기존 전화번호를 Microsoft 365에 이식하도록 선택해도 마법사에 임시 전화번호가 계속 표시됩니다. 이는 정상입니다. 마법사를 종료하고 이식 절차를 완료하면 임시 전화번호가 사용자의 전화번호로 바뀝니다.
+> 하나 이상의 기존 전화번호를 Microsoft 365에 이식하도록 선택해도 마법사에 임시 전화번호가 계속 표시됩니다. 이는 정상입니다. 마법사를 종료하고 이식 절차를 완료하면 임시 전화번호가 사용자의 전화번호로 바뀝니다.
 
 ## <a name="assigning-licenses-to-users"></a>사용자에게 라이선스 할당
 
@@ -96,12 +96,15 @@ Microsoft 365 Business Voice용 시작 마법사를 사용하면 빠르고 쉽�
 <table>
     <tr>
         <td>모든 통화를 특정 사용자에게 착신 전환하거나, 사용자가 옵션을 선택할 수 있도록 통화 메뉴를 설정할 수 있습니다. 통화 메뉴를 생성하는 경우 발신자가 전화기 키패드의 숫자를 누르거나 음성 명령으로 옵션을 말해 선택할 수 있는 옵션을 지정할 수 있습니다. 각 메뉴 옵션은 한 명의 사용자에게 전달할 수 있습니다. <br>
-발신자에게 지침을 제공하는 5MB 이하의 음성 파일(MP3 또는 WAV)을 업로드하거나 지침을 텍스트로 입력할 수 있습니다. Microsoft 365에서는 TTS 기능을 사용해 발신자에게 지침을 읽어줍니다. 발음을 정확히 하기 위해 발음에 맞는 철자를 입력해야 할 수 있습니다.
+        발신자에게 지침을 제공하는 5MB 이하의 음성 파일(MP3 또는 WAV)을 업로드하거나 지침을 텍스트로 입력할 수 있습니다. Microsoft 365에서는 TTS 기능을 사용해 발신자에게 지침을 읽어줍니다. 발음을 정확히 하기 위해 발음에 맞는 철자를 입력해야 할 수 있습니다.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
         </td>
     </tr>
 </table>
+
+> [!IMPORTANT]
+> 시작 마법사를 사용하면 빠르게 실행할 수 있는 간단한 통화 메뉴를 설정할 수 있습니다. 통화 메뉴를 설정하려는 번호가 여러 개인 경우나 좀 더 복잡한 통화 메뉴(자동 전화 교환)를 설정하려는 경우는 마법사를 완료한 후에 [클라우드 자동 전화 교환 설정](set-up-auto-attendants.md)의 단계에 따라 설정할 수 있습니다.
 
 <table>
     <tr>
