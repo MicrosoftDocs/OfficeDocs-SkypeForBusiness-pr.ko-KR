@@ -25,6 +25,7 @@
 ## [Teams에서 팀을 구성하는 방법에 대한 모범 사례](best-practices-organizing.md)
 ## [Teams에서 조직 전체 팀 만들기](create-an-org-wide-team.md)
 ## [팀 및 채널 정책 관리](teams-policies.md)
+## [Teams의 민감도 레이블](sensitivity-labels.md)
 ## [Teams에서 비공개 팀의 검색 관리](manage-discovery-of-private-teams.md)
 ## [Teams에서 채널 중재 설정](manage-channel-moderation-in-teams.md)
 ## [메시징 정책 관리](messaging-policies-in-teams.md)
@@ -772,6 +773,7 @@
 ### [빠른 시작 - 교육용 Teams 관리](teams-quick-start-edu.yml)
 ### [교육용 Teams의 과제](expand-teams-across-your-org/assignments-in-teams.md)
 ### [교육용 Teams 리소스 관리](resources-teams-edu.md)
+### [EDU 관리자용 Microsoft Teams 정책 패키지](policy-packages-edu.md)
 ### [관리자용 Microsoft 교육 거버넌스 FAQ](plan-teams-governance-edu.md)
 ### [Moodle 통합 설치](install-moodle-integration.md)
 
