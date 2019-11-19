@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 571490c07e453c4a33144c01063159cf6ab9d257
-ms.sourcegitcommit: 082f451dd800b92d0b52e37402ecf621a738b4e5
+ms.openlocfilehash: 554ea9b5855a4b177c9f22dd985fc14c4b0e3877
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37973217"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653544"
 ---
 # <a name="how-do-i-get-my-users-ready-for-business-voice"></a>사용자에게 Business Voice를 준비시키려면 어떻게 하나요?
 
@@ -51,7 +51,7 @@ Teams에서 지원되는 모든 장치를 보려면 [Teams 장치 스토어](htt
 
 ## <a name="set-up-voicemail-greetings-and-other-business-voice-features"></a>음성 메일 인사말 및 기타 Business Voice 기능 설정
 
-일반 전화기와 마찬가지로 사용자는 음성 메일 인사말, 착신 전환을 설정하고 벨소리를 선택하는 등의 설정을 할 수 있습니다. 사용자가 설정할 수 있는 모든 항목은 Teams 앱의 **설정**에서 찾을 수 있습니다. 사용자는 [Teams에서 통화 설정을 관리](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)를 참고하여 이러한 기능들을 설정하는 데 도움을 받을 수 있습니다.
+일반 전화기와 마찬가지로 사용자는 음성 메일 인사말, 착신 전환을 설정하고 벨소리를 선택하는 등의 설정을 할 수 있습니다. Teams의 오른쪽 위 모서리에 있는 프로필 사진을 클릭한 후에 **설정** > **통화**를 선택하면 Teams 앱이 표시됩니다. 사용자는 여기에서 모든 기능을 설정할 수 있습니다. 사용자는 [Teams에서 통화 설정을 관리](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)를 참고하여 이러한 기능들을 설정하는 데 도움을 받을 수 있습니다.
 
 ## <a name="learn-what-microsoft-teams-and-business-voice-can-do"></a>Microsoft Teams와 Business Voice가 수행할 수 있는 작업 알아보기
 

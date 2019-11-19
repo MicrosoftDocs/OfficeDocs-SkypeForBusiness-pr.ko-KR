@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dbfd1bdaec48ebe8c6adbed86da431a6f4ecbfc
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 19f26c0bd7ab4fe89770909d81d60abc97aaa8b0
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972279"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653554"
 ---
 # <a name="check-your-internet-connection"></a>인터넷 연결 확인
 
@@ -57,17 +57,17 @@ Business Voice는 Microsoft 365에서 클라우드에 있습니다. Microsoft Te
 수행해야 하는 사항은 다음과 같습니다.
 
 1. 브라우저를 열고 https://admin.teams.microsoft.com로 이동하여 전역 관리자 권한이 있는 계정으로 로그인합니다. Office 365에 등록하는 데 사용한 계정에는 이러한 사용 권한이 있습니다.
-1. **조직 전체 설정**을 열고 **네트워크 플래너**를 선택합니다.
+1. **계획**을 열고 **네트워크 플래너**를 선택합니다.
 1. **네트워크 플랜**에서 **추가**를 선택합니다. 플랜에 이름을 지정하고 **적용**을 선택합니다. 네트워크 플랜은 다음과 같이 보여야 합니다.
 
     ![네트워크 플래너의 메인 화면](../media/network-planner-main.png)
 1. 네트워크 플랜의 이름을(위의 그림에서 **주 사무실**) 클릭합니다.
 1. 다음 페이지에서 **네트워크 사이트**탭의 **네트워크 사이트 추가**를 선택합니다.
-1. 다음의 정보를 입력하고 **저장**을 선택합니다.
+1. 아래 스크린샷에 표시된 항목만 입력하고 **저장**을 선택합니다. 화면의 나머지 항목은 빈 칸으로 두고, **ExpressRoute**나 **WAN에 연결됨** 옵션은 선택하지 않습니다.
 
     ![네트워크 플래너 사이트 정보](../media/network-planner-site-info.png)
 1. **보고서** 탭에서 **보고서 시작**을 선택합니다.
-1. 다음의 정보를 입력하고 **보고서 작성**을 선택합니다.
+1. 다음 정보를 입력하고 **보고서 생성**을 선택하면 Teams에서 필요한 대역폭을 보여주는 보고서가 작성됩니다. 다음 항목에서 보고서를 해석하는 방법을 설명합니다.
 
     ![네트워크 플래너 보고서 정보](../media/network-planner-report-info.png)
 
