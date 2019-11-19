@@ -1,7 +1,7 @@
 ---
 title: 의료 조직을 위한 Teams 서식 파일 시작
-author: jambirk
-ms.author: jambirk
+author: kenwith
+ms.author: kenwith
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 의료 조직을 위한 Teams 서식 파일 시작
-ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 756f9a50dac14575250a521750f80dbe8d1242b8
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886441"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702319"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>의료 조직을 위한 Teams 서식 파일 시작
 
@@ -43,7 +43,7 @@ Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (�
 
 ## <a name="hospital-template"></a>병원 서식 파일
 
-병원 서식 파일은 병원의 여러 wards, pods, 부서 간의 통신과 공동 작업을 위한 것입니다. 이 서식 파일에는 *공지 사항*, *Custodial*, *Pharmacy*를 포함 하 여 여러 가지 작동 채널이 포함 되어 있지만, 아래에는 다양 한 추가 부서나 함께 서식 파일을 확장 하는 스크립트도 나와 있습니다. 원하는 대로 추가, 삭제 또는 편집할 수 있는 전문 중앙 채널 예를 들어 *Endocrinology* 부서가 있지만 *Ophthalmology*에 대 한 채널이 필요 하지 않은 경우 *Endocrinology* 채널을 포함 하 여 *Ophthalmology* 채널을 제거 하도록 스크립트를 적용할 수 있습니다. 이러한 특수 또는 즐겨찾기에 모델 채널은 알림 채도를 방지 하기 위해 자동으로 하지 않는 것이 좋습니다. 일반적으로 사용자는 관련 된 채널을 즐겨 찾는 것입니다.
+병원 서식 파일은 병원의 여러 wards, pods, 부서 간의 통신과 공동 작업을 위한 것입니다. 이 서식 파일에는 *공지 사항*, *Custodial*, *Pharmacy*를 포함 하 여 여러 가지 작동 채널이 포함 되어 있으며,이를 통해 서식 파일을 다양 한 추가 부서나 특별 중심 채널을 통해 확장 하 여 원하는 대로 추가, 삭제 또는 편집할 수 있는 스크립트를 제공 하기도 합니다. 예를 들어 *Endocrinology* 부서가 있지만 *Ophthalmology*에 대 한 채널이 필요 하지 않은 경우 *Endocrinology* 채널을 포함 하 여 *Ophthalmology* 채널을 제거 하도록 스크립트를 적용할 수 있습니다. 이러한 특수 또는 즐겨찾기에 모델 채널은 알림 채도를 방지 하기 위해 자동으로 하지 않는 것이 좋습니다. 일반적으로 사용자는 관련 된 채널을 즐겨 찾는 것입니다.
 
 |기본 서식 파일 형식 |baseTemplateId |기준 서식 파일 채널|
 |:--- |:---|:---|
@@ -52,20 +52,9 @@ Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (�
 
 \*자동 즐겨찾기에 
 
-## <a name="care-coordination-template"></a>의료 조정 서식 파일
-
-의료 코디 네이션는 interdisciplinary 및 multidisciplinary 팀을 비롯 한 몇 가지 예를 들어 환자 의료 팀 내에서 의사 소통을 용이 하 게 하기 위한 것입니다. 이 서식 파일에는 독점 환자 응용 프로그램이 미리 로드 되어 있으며 일반 채널에 있습니다. 환자 응용 프로그램을 사용 하 여 환자 및 관련 값과 vitals 목록을 만들고 반올림 및 환자 관리 시나리오에 유용 하 게 사용할 수 있습니다. 
-
-|기본 서식 파일 형식 |baseTemplateId |기준 서식 파일 채널|
-|:--- |:---|:---|
-|의료 보험 협조 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | 사후 처리 검토\* <br> 일정\* <br> 관한\* |
-| | |  |
-
-\*자동 즐겨찾기에 
-
 ## <a name="how-to-use-first-party-templates"></a>자사 서식 파일을 사용 하는 방법
 
-이 서식 파일을 사용 하려면 요청 본문의 ' template@odata.bind ' 속성을 ' standard '에서 위의 TemplateIDs으로 변경 하면 됩니다.  팀 템플릿을 배포 하는 방법에 대 한 자세한 내용은 [팀을 만드는](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)방법에 대 한 Microsoft Graph 문서를 참조 하세요.
+이 템플릿을 사용 하려면 요청 본문의 ' template@odata. ' 속성을 ' standard '에서 위의 TemplateIDs로 변경 하면 됩니다.  팀 템플릿을 배포 하는 방법에 대 한 자세한 내용은 [팀을 만드는](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)방법에 대 한 Microsoft Graph 문서를 참조 하세요.
 
 > [!NOTE]
 > 서식 파일의 채널이 일반 탭 아래에 자동으로 생성 됩니다.

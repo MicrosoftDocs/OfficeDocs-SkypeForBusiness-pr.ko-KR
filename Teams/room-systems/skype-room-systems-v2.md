@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Microsoft 팀 대화방에서 사용할 수 있는 기능에 대해 알아봅니다. '
-ms.openlocfilehash: 3856eb89c0672c8afde1a148d11ee1361ae51256
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: e02a59d4b1ec99872fd544ab4828e609a1e3ea80
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290928"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702329"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>팀 회의실 라이선스 업데이트
 
@@ -50,7 +50,7 @@ Microsoft는 회의실 장치 (예: Microsoft 팀 회의실 및 Microsoft Surfac
 
 
 > [!NOTE]
-> 현재 E1, E3, E4, E5 Sku (비즈니스용 skype 독립 실행형 요금제 1 또는 비즈니스용 skype 요금제)를 사용 하는 경우 오디오 회의가 나 Office365 전화 시스템 및 통화 요금제를 사용 하 여 비즈니스용 skype 요금제 2 또는이는 계속 작동 합니다. 그러나 현재 라이선스가 만료 된 후 위의 표에서 간단한 라이선스 모델로 이동 하는 것이 좋습니다. 
+> 현재 E1, E3, E4, E5 Sku를 비즈니스용 Skype 요금제를 사용 하는 경우 오디오 회의를 사용 하거나 Office 365 전화 시스템 및 통화 요금제와 함께 사용할 경우 이러한 작업은 계속 작동 합니다. 그러나 현재 라이선스가 만료 된 후 위의 표에서 간단한 라이선스 모델로 이동 하는 것이 좋습니다.  
 
 > [!IMPORTANT]
 > 비즈니스용 Skype 요금제 2를 사용 하는 경우 비즈니스용 skype 전용 모드에서 Microsoft 팀 대화방만 사용할 수 있으며, 모든 모임이 비즈니스용 Skype 모임 임을 의미 합니다. Microsoft 팀 모임에서 회의실을 사용 하도록 설정 하기 위해 Microsoft 채팅방 라이선스를 구입 하는 것이 좋습니다. 

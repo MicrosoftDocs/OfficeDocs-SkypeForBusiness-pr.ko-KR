@@ -12,16 +12,18 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방을 지원 하기 위한 요구 사항을 요약 하 여 설명 합니다.
-ms.openlocfilehash: 7ec4cae76476091a4e4854637a48b258a6bfadb5
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 9e0aa01e72fee194dc57af733adfdfa59e6fce71
+ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675372"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38696818"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 팀 방에 대 한 요구 사항
 
-이 문서에서는 Microsoft 팀 대화방을 지원 하기 위한 요구 사항을 요약 하 여 설명 합니다.
+Microsoft 팀 객실은 공간의 크기와 사용에 따라 다양 한 인증 된 오디오 및 비디오 주변 장치를 사용 하 여 다양 한 공간으로 크기를 조정할 수 있습니다. 마이크, 스피커, 카메라, 공간에 적합 한 표시와 함께 올바른 핵심 장치 및 콘솔을 선택 하면 매우 큰 huddle 공간에 Microsoft 팀 대화방을 배포할 수 있습니다. 매우 많은 회의 공간 및 장소.  [장치 전시](https://products.office.com/microsoft-teams/across-devices)에서 회의실을 구성 하는 데 사용할 수 있는 모든 인증 된 오디오 및 비디오 주변 기기의 전체 집합을 사용할 수 있습니다.
+
+이 문서에는 Microsoft 팀 대화방을 지원 하기 위한 장치 배포 및 구성 요구 사항이 요약 되어 있습니다.
 
 배포에는 microsoft 팀 [대화방 배포](room-systems-v2.md) 에 설명 된 대로 계정 만들기와 [microsoft 팀 대화방 콘솔 구성](console.md)에 설명 된 대로 모임 콘솔 설정이 포함 됩니다.
 
@@ -31,34 +33,18 @@ ms.locfileid: "38675372"
 - [요금제를 기반으로 하는 라이선스 옵션: Microsoft 팀 대화방](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Microsoft 팀 대화방은 Microsoft 팀, Skype for Business Server 2019, 비즈니스용 skype Server 2015 또는 비즈니스용 Skype Online과 함께 사용 하기 위한 것입니다.
+> Microsoft 팀 대화방은 Microsoft 팀, 비즈니스용 Skype 서버 2019, 비즈니스용 skype Server 2015 또는 비즈니스용 Skype Online에 로그인 하 고 이러한 서비스에서 호스트 하는 모임에 참가할 수 있습니다.
 >
-> Lync Server 2013와 같은 이전 플랫폼은 Microsoft 팀 대화방에서 작동 하지 않을 것으로 예상 되지 않습니다. Microsoft 팀 대화방은 21Vianet에서 운영 하는 Office 365 또는 GCC, GCC-높음이나 또는 DoD 환경에서 지원 되지 않습니다.
+> Lync Server 2013 같은 이전 플랫폼은 Microsoft 팀 대화방에서 지원 되지 않습니다. Microsoft 팀 대화방은 21Vianet에서 운영 하는 Office 365에서 지원 되지 않습니다. 또는 GCC 높음이나 이상 또는 DoD 환경
 >
 > 프레미스 Exchange server가 있는 경우 Microsoft 팀 대화방에서 Exchange Server 2013 SP1 이상을 사용 해야 합니다.
 
 ## <a name="hardware-requirements"></a>하드웨어 요구 사항
+하드웨어 배포에는 인증 된 오디오 및 비디오 주변 장치, 그리고 이러한 장치를 함께 통합 하는 케이블링 솔루션 등의 Microsoft 팀 실내 시스템 선택이 포함 됩니다.  이러한 옵션에 대 한 설명은 다음과 같습니다.
 
-Microsoft 팀 공간은 공간 크기에 따라 다양 한 오디오 및 비디오 주변 장치를 사용 하 여 다양 한 공간으로 크기를 조정 합니다. 이 문서에 나열 된 하드웨어는 Skype 및 팀 회의 모드를 모두 지원 합니다. 오디오 및 비디오 주변 기기는 도킹 디바이스에서 USB 또는 HDMI 연결을 통해 Microsoft 팀 대화방에 연결 합니다. 또한 다음이 필요 합니다.
+**지원 되는 Microsoft 팀 대화방 시스템**
 
-- 32 GB 이상의 Windows 10 Enterprise 용 부팅 가능한 Windows 설치 미디어로 구성 하는 더 많은 USB 디스크
-- 다음 태블릿 또는 콘솔 중 하나:
-
-  **지원 되는 태블릿**
-
-  |타블렛|프로세서별|할당할|공간|
-  |:-----|:-----|:-----|:-----|
-  |Surface Pro 6| Core i5 |16gb 또는 8gb |128 GB 이상 |
-  |Surface Pro </br>(다섯째 Gen) |Core i5 |8gb 또는 4gb |128 GB 이상 |
-  |Surface Pro 4 |Core i5 |8gb 또는 4gb |128 GB 이상 |
-
-- 태블릿을 회의실 테이블로 보호 하는 다음 도킹 스테이션 옵션 중 하나입니다.
-
-  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
-  - [SR의 crestr](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-  - [Polycom MSR 시리즈](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
-
-- **지원 되는 다른 Microsoft 팀 대화방 콘솔**
+현재 Microsoft 팀의 모든 회의실 장치 및 번들은 [실내 시스템 제품 전시](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)에서 사용할 수 있습니다.
 
   |콘솔|프로세서별|할당할|공간|
   |:-----|:-----|:-----|:-----|
@@ -77,13 +63,27 @@ Microsoft 팀 공간은 공간 크기에 따라 다양 한 오디오 및 비디�
   |[옛 alink MVC300](https://www.yealink.com/products_154.html)|Core i5|8gb |128 GB |
   ||||||
 
-
 > [!NOTE]
-> 코어 M3 프로세서는 지원 되지 않습니다.
+> - 코어 M3 프로세서는 지원 되지 않습니다.
+> - 32 GB 이상의 USB 드라이브가 Windows 10 Enterprise 용 부팅 가능 Windows 설치 미디어로 구성 되어 있어야 합니다.
+
+**도킹 스타일 시스템에 지원 되는 Surface Pro 태블릿**
+
+  |타블렛|프로세서별|할당할|공간|
+  |:-----|:-----|:-----|:-----|
+  |Surface Pro 6| Core i5 |16gb 또는 8gb |128 GB 이상 |
+  |Surface Pro </br>(다섯째 Gen) |Core i5 |8gb 또는 4gb |128 GB 이상 |
+  |Surface Pro 4 |Core i5 |8gb 또는 4gb |128 GB 이상 |
+
+- 태블릿을 회의실 테이블로 보호 하는 다음 도킹 스테이션 옵션 중 하나입니다.
+
+  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
+  - [SR의 crestr](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+  - [Polycom MSR 시리즈](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>USB 오디오 및 비디오 주변 장치에 대 한 인증 된 펌웨어 버전
 
-이러한 디바이스는 [aka.ms/teamsdevices](https://aka.ms/teamsdevices)에서 사용할 수 있습니다.
+이러한 장치는 [채팅방 시스템 액세서리 제품 소개](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) 및 [https://office.com/teamsdevices](https://office.com/teamsdevices)에서 확인할 수 있습니다.
 
 |Microsoft 팀 회의실 주변 기기|인증 된 펌웨어 버전 | 카메라가 콘텐츠 카메라 사용 지원|
 |:--- |:--- | :--- |

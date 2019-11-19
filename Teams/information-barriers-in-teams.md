@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: 정보 장벽 및 팀의 영향에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfc56ab28be03e0301228eb9220437c2e1ef2673
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 0772a9599a38afc05520b8dcccba3cb463df3409
+ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968259"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38696828"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 팀의 정보 장벽
 
@@ -74,7 +74,7 @@ IB 준수 관리 역할은 정보 장벽 정책 관리를 담당 합니다. 이 
 사용자 간에 기존 채팅 또는 다른 통신이 있는 경우 새 정책이 설정 되거나 기존 정책이 변경 되는 경우 서비스는 기존 통신을 평가 하 여 통신이 계속 발생할 수 있는지 확인 합니다. 
 
 - **1:1 채팅** -두 사용자 간의 통신이 더 이상 허용 되지 않음 (한 명 또는 두 명의 사용자에 게 정책 차단 통신이 적용 되는 경우), 추가 통신은 차단 되 고 채팅 대화는 읽기 전용 상태가 됩니다.
-- **그룹 채팅** -한 사용자에서 그룹으로의 통신을 더 이상 사용할 수 없는 경우 (예: 사용자가 작업을 변경 하는 경우) 해당 정책을 위반 하는 다른 사용자와 함께 그룹 채팅에서 제거 될 수 있으며 그룹과의 추가 통신은 그렇지 않습니다. 허용. 사용자는 여전히 이전 대화 (읽기 전용)를 볼 수 있지만 그룹과 새로운 대화를 보거나 참여할 수는 없습니다. 통신을 차단 하는 새 정책이 여러 사용자에 게 적용 되는 경우 해당 정책의 영향을 받는 사용자가 그룹 채팅에서 제거 될 수 있습니다. 이전 대화를 계속 볼 수 있습니다. 
+- **그룹 채팅** -한 사용자에서 그룹으로의 통신을 더 이상 사용할 수 없는 경우 (예: 사용자가 작업을 변경 하는 경우) 해당 정책을 위반 하는 다른 사용자와 함께 그룹 채팅에서 제거 되 고 그룹과의 추가 통신은 허용 되지 않을 수 있습니다. 사용자는 여전히 이전 대화 (읽기 전용)를 볼 수 있지만 그룹과 새로운 대화를 보거나 참여할 수는 없습니다. 통신을 차단 하는 새 정책이 여러 사용자에 게 적용 되는 경우 해당 정책의 영향을 받는 사용자가 그룹 채팅에서 제거 될 수 있습니다. 이전 대화를 계속 볼 수 있습니다. 
 - **팀** -그룹에서 제거 된 모든 사용자가 팀에서 제거 되 고 기존 또는 새 대화를 보거나 참여할 수 없게 됩니다.
 
 
@@ -92,16 +92,15 @@ IB 준수 관리 역할은 정보 장벽 정책 관리를 담당 합니다. 이 
 - **대화 상대** 에 게 전화-사용자가 차단 된 사용자를 볼 수 있으 나 차단 되는 사용자를 식별 하 고 사용자가 수행할 수 있는 유일한 동작은 삭제 하는 것입니다.
 - **Skype To 팀 마이그레이션** -비즈니스용 skype 마이그레이션 중-모든 사용자는 정보 장벽 정책에 의해 차단 된 경우에도 팀으로 마이그레이션되고, 위에서 설명한 대로 처리 됩니다.
 
-
-
-## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
-
+## <a name="will-files-and-sharepoint-site-experiences-connected-to-teams-honor-ib-policy"></a>팀에 연결 된 파일 및 SharePoint 사이트 환경에서 IB 정책을 준수 하나요?
+ 
 팀을 만들 때 SharePoint 사이트를 프로 비전 하 고 파일 환경을 위해 팀과 연결 합니다. 이 SharePoint 사이트 및 파일에 대 한 액세스는 조직의 IB 정책 즉, IB 정책에 따라 IB 세그먼트가 일치 하는 사용자만 액세스를 허용 합니다. 파일 공유 시에도 IB 정책이 허용 됩니다.
 
 예: Contoso Bank corporation에서 사용자 ' Sesha@contosobank.onmicrosoft.com '은 투자 은행 부문에 속하고 ' Nikita@contosobank.onmicrosoft.com ' 사용자는 세그먼트 권고에 속합니다. 조직의 IB 정책은 이러한 두 세그먼트 간의 통신과 공동 작업을 차단 합니다. 사용자가 투자 은행 부문에 대 한 팀을 만드는 경우 팀과이를 지 원하는 SharePoint 사이트는 투자 은행 부문 사용자만 액세스할 수 있습니다. 사이트 링크를가지고 있는 경우에도 사용자 Nikita 해당 사이트에 액세스할 수 없습니다.
 
-계획 및 가격을 비롯 한 자세한 내용은 [라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance)을 참조 하세요.
+## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
+계획 및 가격을 비롯 한 자세한 내용은 [라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance)을 참조 하세요.
 
 ## <a name="more-information"></a>추가 정보
 

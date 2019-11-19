@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft는 2020 년 2 월에 ExchUMO (Exchange 통합 메시징 Online) 서비스를 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 인식 하 고 비즈니스 연속성을 계획 하기 위해 수행 해야 하는 작업을 요약 합니다.
-ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: abaf16996a6d634bac77118e35b30228c2a43e07
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37616091"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702309"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
@@ -23,7 +23,7 @@ ms.locfileid: "37616091"
  
 ExchUMO는 보이스 메일, 자동 전화 교환, 통화 대기열 및 팩스 통합 서비스에 대해 고객에 의해 배포 됩니다. 고객이 비즈니스용 Skype Online 및 Microsoft 팀에서 수천 명의 고객을 지 원하는 전화 시스템 서비스로 마이그레이션하는 데 도움이 되는 Microsoft 계획입니다. 
 
-보이스 메일은 주로 Microsoft 기반 마이그레이션입니다. 고객의 하위 집합에 대 한 관리자의 참여 및/또는 투자가 필요할 수 있습니다. 자동 전화 교환은 관리 기반 마이그레이션입니다. 클라우드 자동 전화 교환 클라우드 서비스에서 기존 ExchUMO 자동 전화 교환 트리를 다시 만들어야 합니다. 타사 pbx로 ExchUMO 기능을 소모 하는 고객은 타사 PBX 시스템을 지원 하지 않으므로 Skype 클라우드 서비스로 마이그레이션되지 않습니다. 타사 지원에 대 한 만료 계획이 [이 블로그에서](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)발표 되었으며,이 배포 모델의 고객은 사용자를 Microsoft의 통합 커뮤니케이션 플랫폼/서비스 중 하나로 마이그레이션하거나 타사 음성 메일 및/또는 자동으로 구입할 수 있습니다. 이러한 사용자를 위한 전화 교환 솔루션입니다. 클라우드 기반 서비스에서는 팩스 통합이 지원 되지 않습니다. 고객은 타사 솔루션으로 마이그레이션해야 합니다.
+보이스 메일은 주로 Microsoft 기반 마이그레이션입니다. 고객의 하위 집합에 대 한 관리자의 참여 및/또는 투자가 필요할 수 있습니다. 자동 전화 교환은 관리 기반 마이그레이션입니다. 클라우드 자동 전화 교환 클라우드 서비스에서 기존 ExchUMO 자동 전화 교환 트리를 다시 만들어야 합니다. 타사 pbx로 ExchUMO 기능을 소모 하는 고객은 타사 PBX 시스템을 지원 하지 않으므로 Skype 클라우드 서비스로 마이그레이션되지 않습니다. 타사 지원에 대 한 만료 요금제는 [이 블로그에서](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)발표 되었으며,이 배포 모델의 고객은 Microsoft의 통합 커뮤니케이션 플랫폼/서비스 중 하나로 사용자를 마이그레이션하거나 이러한 사용자를 위한 타사 보이스 메일 및/또는 자동 전화 교환 솔루션을 받을 수 있습니다. 클라우드 기반 서비스에서는 팩스 통합이 지원 되지 않습니다. 고객은 타사 솔루션으로 마이그레이션해야 합니다.
 
 ### <a name="who-is-affected"></a>누가 영향을 받습니까?
 
@@ -156,7 +156,7 @@ Microsoft는 ExchUMO의 기능을 사용 하는 다양 한 고객 배포를 식�
 | A | 서비스 기능 | 다중 언어 지원 | 언어 세부 정보:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | 피지 | 피지    |
 | A | 서비스 기능 | 교환원, CQ 또는 사용자에 게 전송 |  | 피지 | 피지    |
 | A | 서비스 기능 | 내부 PSTN 번호로 전송 (RNL)  |  | 피지 | 피지    |
-| A | 서비스 기능 | 외부적으로 PSTN 번호로 전송  |  | Q3CY19 | 피지    |
+| A | 서비스 기능 | 외부적으로 PSTN 번호로 전송  |  | 아래의 알려진 문제 확인 섹션 | 피지    |
 | A | 서비스 기능 | 업무 시간 |  | 피지 | 피지    |
 | A | 서비스 기능 | 메뉴 옵션 | IVR 메뉴 옵션  | 피지 | 피지    |
 | A | 서비스 기능 | AA에 클라우드 PSTN 번호 할당 |  | 피지 | 개    |
@@ -210,6 +210,15 @@ Microsoft는 ExchUMO의 기능을 사용 하는 다양 한 고객 배포를 식�
 자동 전화 교환에 대해 자세히 알아보려면 [클라우드 자동 전화 교환 설정을](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)참조 하세요. 
 
 #### <a name="known-issues"></a>알려진 문제
+
+**PSTN으로 자동 전화 교환 통화 전송** 고객은 자동 전화 교환 호출을 외부 PSTN 번호로 또는 RGS 인스턴스로 이전 하는 데 필요한 요구 사항을 충족 하기 위해 임시로 해결 방법을 구성할 것을 권장 합니다. 
+ 
+PSTN 번호 전송 기능을 사용 하 여 품질 보장 중에 확인 된 문제는 고객이 2020 년 2 월의 예정 된 만료 날짜 이전에 Exchange UMO 서비스 마이그레이션을 시작 하기 전에 수정 되지 않는 것입니다. 해결 방법으로, 관리자는 활성 착신 전환 설정을 사용 하 여 온-프레미스 가상 사용자에 게 자동 전화 교환 호출자를 원하는 PSTN 전화 번호 또는 RGS 전화 번호로 양도할 수 있습니다. 
+ 
+예상 경험
+- 해결 방법 이므로 관리자는 가상 사용자에 게 라이선스를 추가할 필요가 없습니다. 
+- 관리자는 가상 사용자에 게 원하는 번호를 할당 하거나 SBC 숫자 조작 기능을 사용 하 여 PSTN 수신기에 게 표시 되는 발신자 ID를 조작할 수 있습니다. 
+- PSTN 발신자는 통화를 전송 하는 동안 아무런 지연이 발생 하지 않으며, 전송이 성공한 후 자동 전화 교환의 발신자 ID를 계속 해 서 확인 하 게 됩니다.  
 
 **공유 사서함:** Exchange UM Online을 사용 하 여 구성 된 공유 사서함은 CVM으로 마이그레이션한 후에도 계속 메시지를 받지만 Outlook을 통해 사용자는 계속 액세스할 수 있습니다. 그러나 이러한 사서함의 인사말 메시지를 변경 하는 데 대 한 액세스는 CVM으로 마이그레이션한 후에는 사용할 수 없습니다. 자동 전화 교환 호출자를 캡처하는 데 사용 되는 공유 사서함이 있는 고객은 자동 전화 교환 및 전화를 건 후 공유 사서함 기능 (에타 10 월 2019)을 활용 해야 합니다.
   
