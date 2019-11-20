@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 개인 채널 수명 주기를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0f2a1f9fc4921ae12092655102d4a442fd653df3
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: b33df48d6d019015a0e7553619e2e42d29f7ca11
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077411"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714484"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널 수명 주기 관리
 
 여기에서 조직의 [개인 채널](private-channels.md) 수명 주기를 관리 하는 데 필요한 지침을 확인할 수 있습니다.
 
 > [!IMPORTANT]
-> 이 문서의 PowerShell 단계를 사용 하 여 개인 채널을 관리 하는 경우 PowerShell 테스트 갤러리에서 최신 버전의 팀 PowerShell 모듈을 설치 하 고 사용 해야 합니다. 이 작업을 수행 하는 방법에 대 한 단계는 [Powershell 테스트 갤러리에서 최신 팀 PowerShell 모듈 설치](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)를 참조 하세요. 최근에 공개적으로 사용할 수 있는 팀 PowerShell 모듈 (현재 [1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2))은 비공개 채널 관리를 지원 하지 않습니다.
+> 이 문서의 PowerShell 단계를 사용 하 여 개인 채널을 관리 하는 경우 PowerShell 테스트 갤러리에서 최신 버전의 팀 PowerShell 모듈을 설치 하 고 사용 해야 합니다. 이 작업을 수행 하는 방법에 대 한 단계는 [Powershell 테스트 갤러리에서 최신 팀 PowerShell 모듈 설치](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)를 참조 하세요. 최근에 공개적으로 사용할 수 있는 팀 PowerShell 모듈 (현재 [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3))은 비공개 채널 관리를 지원 하지 않습니다.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>팀 구성원이 개인 채널을 만들 수 있는지 여부 설정
 
@@ -292,7 +292,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>PowerShell 테스트 갤러리에서 최신 팀 PowerShell 모듈 설치
 
-최근에 공개적으로 사용할 수 있는 팀 PowerShell 모듈 (현재 [1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2))은 비공개 채널 관리를 지원 하지 않습니다. 이 단계를 사용 하 여 PowerShell 테스트 갤러리에서 개인 채널 지원 (현재 1.0.18)을 사용 하 여 최신 버전의 팀 PowerShell 모듈을 설치 합니다.
+최근에 공개적으로 사용할 수 있는 팀 PowerShell 모듈 (현재 [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3))은 비공개 채널 관리를 지원 하지 않습니다. 이 단계를 사용 하 여 PowerShell 테스트 갤러리에서 개인 채널 지원 (현재 1.0.18)을 사용 하 여 최신 버전의 팀 PowerShell 모듈을 설치 합니다.
 
 > [!NOTE]
 > PowerShell 테스트 갤러리에서 팀 PowerShell 모듈을 공용 PowerShell 갤러리의 모듈 버전과 나란히 설치 하지 마세요. 이 단계에 따라 먼저 공용 PowerShell 갤러리에서 팀 PowerShell 모듈을 제거 하 고 PowerShell 테스트 갤러리에서 최신 버전의 모듈을 설치 합니다.

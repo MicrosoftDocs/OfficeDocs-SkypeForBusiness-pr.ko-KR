@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: 사용자가 조직에서 예약한 팀 모임에 대 한 설정을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564936"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746451"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft 팀에서 모임 설정 관리
 
@@ -32,14 +32,15 @@ ms.locfileid: "37564936"
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>익명 사용자가 모임에 참가할 수 있도록 허용
 
-익명 참가를 사용 하면 모든 사용자가 모임 초대의 링크를 클릭 하 여 익명 사용자로 모임에 참가할 수 있습니다.
+익명 참가를 사용 하면 모든 사용자가 모임 초대의 링크를 클릭 하 여 익명 사용자로 모임에 참가할 수 있습니다. 자세히 알아보려면 [팀 계정 없이 모임 참가](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)를 참고 하세요.
+
 
 ![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
 
 1. 왼쪽 탐색 창에서 **모임** > **모임 설정**으로 이동 합니다.
 2. **참가자**에서 **익명 사용자가 모임에 참가할 수 있도록**설정 합니다.
 
-    ![관리 센터의 모임 참가자 설정 스크린샷](media/meeting-settings-participants.png "Microsoft 팀 관리 센터에서 팀 모임에 대 한 참가자 설정 스크린샷")
+    ![관리 센터의 모임 참가자 설정 스크린샷](media/meeting-settings-participants.png "Microsoft 팀 관리 센터의 팀 모임에 대 한 참가자 설정 스크린샷")
 
 익명 사용자가 조직의 사용자가 예약한 모임에 참가 하는 것을 원하지 않는다면이 설정을 끄세요.
 

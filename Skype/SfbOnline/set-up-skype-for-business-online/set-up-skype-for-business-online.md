@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Online 설정
+title: 비즈니스용 Skype 온라인 설정
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -23,14 +23,14 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: '비즈니스용 Skype를 설치 하도록 조직의 도메인, 사용자, IM, 현재 상태를 설정 하는 방법을 알아봅니다. 오디오 회의, 전화 시스템 및 통화 요금제 및 Skype 모임 브로드캐스트를 설정 하는 방법도 알아봅니다. '
-ms.openlocfilehash: 239e1c39563594ffe1ff106284bbbf912367fb88
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: ffa82896bcc17127a2125bd37fea7ce03b227516
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "37642149"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746321"
 ---
-# <a name="set-up-skype-for-business-online"></a>비즈니스용 Skype Online 설정
+# <a name="set-up-skype-for-business-online"></a>비즈니스용 Skype 온라인 설정
 
 비즈니스용 Skype를 설정 하려면 Office 365 전역 관리자 권한이 있어야 합니다. 웹의 일부분에 대 한 액세스를 제한 하는 방화벽 또는 프록시 서버가 있는 경우 [Microsoft 파트너](https://go.microsoft.com/fwlink/?linkid=391089) 를 고용 하 여 비즈니스용 Skype를 설정 하는 것이 좋습니다.
 
@@ -59,9 +59,7 @@ Office 365 구독으로 Skype를 설정 하는 데 도움이 필요한 것 같�
 
     ![비즈니스용 Skype Online에 등록 한 후 받은 환영 전자 메일의 예입니다. 여기에는 Office 365 사용자 id가 포함 되어 있습니다.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. 관리 센터에 로그인 하 고 Office 365 사용자 ID 및 암호를 입력 합니다. 로그인 하면 Microsoft 365 관리 센터가 표시 됩니다.
-
-    ![비즈니스용 Skype Online 요금제를 사용 하는 경우 관리 센터의 모양을 보여 주는 예입니다.](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
+2. [관리 센터](https://admin.microsoft.com) 에 로그인 하 고 Office 365 사용자 ID 및 암호를 입력 합니다. 
 
 ## <a name="3-set-up-your-domain-and-users"></a>3. 도메인 및 사용자 설정
 <a name="bkmk_users"> </a>

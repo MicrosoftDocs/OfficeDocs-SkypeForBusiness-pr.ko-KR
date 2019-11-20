@@ -1,5 +1,5 @@
 ---
-title: 조직의 통신 크레딧 설정
+title: 조직에 사용할 통신 크레딧 설정
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '사용자 및 조직에 대해 통신 크레딧 (PSTN 소비) 청구 라이선스를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: f1eb46647facce3a849a249cac1b26b2bb9632c8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 202a8555b43902e553b8eadfaaa30b5577a8e4fa
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571585"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714244"
 ---
-# <a name="set-up-communications-credits-for-your-organization"></a>조직의 통신 크레딧 설정
+# <a name="set-up-communications-credits-for-your-organization"></a>조직에 사용할 통신 크레딧 설정
 
-비즈니스용 Skype 및 Microsoft 팀에 무료 전화 번호를 사용 하려는 경우에는 통신 크레딧을 설정 해야 합니다. 또한 통화 요금제 (국내 또는 국제) 및 오디오 회의 사용자에 게 통신 크레딧을 설정 하 고 **목적지**로 전화를 걸 수 있는 기능이 필요한 경우이 좋습니다. 여러 국가/지역이 포함 되어 있지만 일부 대상은 통화 요금제 또는 오디오 회의 구독에 포함 되지 않을 수 있습니다. 통신 크레딧 청구를 설정 하지 않고 사용자에 게 **통신 크레딧** 라이선스를 할당 하지 않은 경우 (해당 국가/지역의 통화 요금제 또는 오디오 회의 계획에 따라 다름) 해당 사용자는 오디오 회의 모임에서 통화 하거나 전화를 걸 수 없습니다. [통신 크레딧을 확인](what-are-communications-credits.md) 하 여 권장 자금을 포함 하 여 더 많은 정보를 얻을 수 있습니다.
+비즈니스용 Skype 및 Microsoft 팀에 무료 전화 번호를 사용 하려는 경우에는 통신 크레딧을 설정 해야 합니다. 또한 통화 요금제 (국내 또는 국제) 및 오디오 회의 사용자에 게 통신 크레딧을 설정 하 고 **목적지**로 전화를 걸 수 있는 기능이 필요한 경우이 좋습니다. 여러 국가/지역이 포함 되어 있지만 일부 대상은 통화 요금제 또는 오디오 회의 구독에 포함 되지 않을 수 있습니다. 통신 크레딧 청구를 설정 하지 않고 사용자에 게 **통신 크레딧** 라이선스를 할당 하지 않으면 해당 국가/지역의 통화 요금제 또는 오디오 회의 요금제에 따라 해당 사용자가 오디오 회의 모임에서 통화 하거나 전화를 걸 수 없습니다. [통신 크레딧을 확인](what-are-communications-credits.md) 하 여 권장 자금을 포함 하 여 더 많은 정보를 얻을 수 있습니다.
   
 > [!NOTE]
 > 비용을 확인 하려면 [여기에서 요금](https://go.microsoft.com/fwlink/p/?LinkId=799523 )을 보세요. 
@@ -44,7 +44,7 @@ ms.locfileid: "37571585"
     
     이 라이선스를 할당 한 후에는 오디오 회의를 설정 해야 합니다. 단계별 지침은 [Office 365에서 오디오 회의 체험 또는 구입](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)을 참조 하세요.
     
-- **전화 시스템** 및 국내 또는 국내 및 국제 통화 요금제 라이선스를 사용자에 게 할당 합니다. [Microsoft 팀 라이선스 할당](assign-teams-licenses.md)을 참조 하세요.
+- **전화 시스템** 및 **국내 또는 국내 및 국제** 통화 요금제 라이선스를 사용자에 게 할당 합니다. [Microsoft 팀 라이선스 할당](assign-teams-licenses.md)을 참조 하세요.
     
     > [!NOTE]
     > 통신 크레딧에는 필요 하지 않지만 **국내 통화 요금제** 또는 **국내 및 국제 통화 요금제** 라이선스도 할당 해야 합니다.
@@ -55,7 +55,7 @@ ms.locfileid: "37571585"
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>2 단계: 조직의 통신 크레딧을 설정
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 새 Office 365 포털에 로그인 합니다.
     
 2. Microsoft 365 관리 센터의 왼쪽 탐색 모음에서 **청구** > **구독** > 으로 이동 하 여**구독을 추가**합니다.
 
@@ -103,7 +103,7 @@ ms.locfileid: "37571585"
 
 다음 링크 중 하나를 방문 하 여 요금제 및 가격을 확인할 수 있습니다.
   
-- [통화 요금제](https://go.microsoft.com/fwlink/?LinkId=799761 )
+- [통화 플랜](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
 - [오디오 회의 계획](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
@@ -113,15 +113,15 @@ ms.locfileid: "37571585"
   
 각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-- [비즈니스용 Skype Online 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+- [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
 - [클라우드 보이스 메일 설정-관리자 도움말](set-up-phone-system-voicemail.md)
     
 - [Office 365에 대 한](calling-plans-for-office-365.md) [통화 계획](set-up-calling-plans.md) 및 통화 계획 설정
     
-- [자금 추가 및 통신 제작진 관리](add-funds-and-manage-communications-credits.md)
+- [자금 추가 및 통신 크레딧 관리](add-funds-and-manage-communications-credits.md)
     
   
  

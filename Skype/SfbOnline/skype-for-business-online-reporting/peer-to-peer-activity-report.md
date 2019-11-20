@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '비즈니스용 Skype 피어 투 피어 활동 보고서를 다운로드 하 여 필요에 맞게 해석 하 고 사용자 지정 하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: 6564c57cee0821aa0e9204692f160b154ee5513b
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 1c25fc6d331e538aacbebd350180ec0a65821ef5
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642496"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746341"
 ---
 # <a name="peer-to-peer-activity-report"></a>피어 투 피어 활동 보고서
 
@@ -43,13 +43,8 @@ ms.locfileid: "37642496"
 
 1. 관리 센터로 이동 하 여 **보고서** > **사용**을 > 합니다.
     
-2. **배정 현황** 페이지의 왼쪽에 있는 **보고서 선택 목록** 에서 비즈니스용 **Skype 피어 투 피어 활동** 을 클릭 합니다. 또는 **비즈니스용 skype 활동 위젯을 클릭** 한 다음 비즈니스용 **skype 활동** 목록에서 비즈니스용 **skype 피어 투 피어 활동** 을 클릭 합니다.
-    
-     ![Skype 피어 투 피어 메뉴 선택 됨](../images/603ec74a-7f39-4e12-8f10-00979f7ee977.PNG)
-  
-    > [!IMPORTANT]
-    > 사용 중인 Office 365 구독에 따라 여기에 표시 된 모든 제품 및 활동 보고서가 표시 되지 않을 수 있습니다. 
-  
+2. **사용 현황** 페이지의 왼쪽에 있는 **보고서 선택 목록** 에서 비즈니스용 **Skype** > **피어 투 피어 활동** 을 선택 합니다. 또는 **비즈니스용 skype 활동 위젯을 클릭** 한 다음 비즈니스용 **skype 활동** 목록에서 비즈니스용 **skype 피어 투 피어 활동** 을 클릭 합니다.
+
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>비즈니스용 Skype 피어 투 피어 활동 보고서 해석
 
 **활동**, **사용자**, **분** 차트를 보고 비즈니스용 Skype 피어 투 피어 활동에 대 한 보기를 얻을 수 있습니다.

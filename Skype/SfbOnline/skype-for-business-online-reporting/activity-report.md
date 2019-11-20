@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '비즈니스용 Skype 활동 보고서, 포함 내용, 데이터를 해석 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 05e3c61a144fb962cfb6c7aca83f2996db17370a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: bedff059e1295714220ff70a7c97439f4b6aeef8
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642462"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746311"
 ---
 # <a name="activity-report"></a>활동 보고서
 
-새 Office 365 **보고서** 대시보드는 조직의 Office 365 제품 전반에 걸친 활동 개요를 보여 줍니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 **비즈니스용 Skype 활동** 보고서를 사용 하 여 사용자가 피어 투 피어 또는 구성 된 회의 세션을 사용 하 고 있거나 회의 세션에 참여 하 고 있는 정도를 확인할 수 있습니다. 
+Office 365 **보고서** 대시보드는 조직의 office 365 제품 전반에 걸친 활동 개요를 보여 줍니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 **비즈니스용 Skype 활동** 보고서를 사용 하 여 사용자가 피어 투 피어 또는 구성 된 회의 세션을 사용 하 고 있거나 회의 세션에 참여 하 고 있는 정도를 확인할 수 있습니다. 
 
 자세한 내용은 [보고서 개요](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 를 확인 하세요.
   
@@ -41,12 +41,8 @@ ms.locfileid: "37642462"
 
 1. 관리 센터로 이동 하 여 **보고서** > **사용**을 > 합니다.
     
-2. **배정 현황** 페이지에서 왼쪽에 있는 **보고서 선택 목록** 에서 **비즈니스용 Skype 활동** 을 클릭 하거나 **비즈니스용 skype 활동** 위젯을 클릭 합니다.
-    
-     ![비즈니스용 Skype 대시보드 위젯.](../images/3925bc24-18fd-471e-8e93-edf5ccd3cdb7.png)
-  
-    > [!IMPORTANT]
-    > 사용 중인 Office 365 구독에 따라 여기에 표시 된 모든 제품 및 보고서가 표시 되지 않을 수 있습니다. 
+2. **배정 현황** 페이지의 왼쪽에 있는 **보고서 선택 목록** 에서 비즈니스용 **skype** > **활동** 을 선택 하거나 비즈니스용 **skype 활동** 위젯을 클릭 합니다.
+
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>비즈니스용 Skype 활동 보고서 해석
 

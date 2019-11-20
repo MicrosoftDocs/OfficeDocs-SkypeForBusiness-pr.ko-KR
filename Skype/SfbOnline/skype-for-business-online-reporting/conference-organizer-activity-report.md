@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '비즈니스용 Skype 컨퍼런스 구성 활동 보고서를 가져오는 방법과이를 해석 하 고 사용자 지정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 77450c0ffd490e295f09951a1c9db9d04db61673
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e93b77859c601131efae69b6ef30199accf031e7
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642794"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746331"
 ---
 # <a name="conference-organizer-activity-report"></a>컨퍼런스 이끌이 활동 보고서
 
@@ -41,12 +41,7 @@ ms.locfileid: "37642794"
 
 1. 관리 센터로 이동 하 여 **보고서** > **사용**을 > 합니다.
     
-2. **배정 현황** 페이지의 왼쪽에 있는 **보고서 선택 목록** 에서 비즈니스용 **Skype 컨퍼런스 이끌이 활동** 을 클릭 합니다. 또는 비즈니스용 skype **활동** 위젯을 클릭 한 다음 비즈니스용 **skype 활동** 목록에서 비즈니스용 **skype 컨퍼런스 이끌이 활동** 을 클릭 합니다.
-    
-     ![비즈니스 컨퍼런스 이끌이 작업이 강조 표시 된 Skype 보고서 메뉴](../images/3fee95f4-efa1-48f2-89af-a705f8f8b732.PNG)
-  
-    > [!IMPORTANT]
-    > 사용 중인 Office 365 구독에 따라 여기에 표시 된 모든 제품 및 활동 보고서가 표시 되지 않을 수 있습니다. 
+2. **배정 현황** 페이지의 왼쪽에 있는 **보고서 선택 목록** 에서 비즈니스용 **Skype** >**컨퍼런스 이끌이 활동** 을 선택 합니다. 또는 비즈니스용 skype **활동** 위젯을 클릭 한 다음 비즈니스용 **skype 활동** 목록에서 비즈니스용 **skype 컨퍼런스 이끌이 활동** 을 클릭 합니다.
   
 ## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>비즈니스용 Skype 컨퍼런스 이끌이 보고서 해석
 
@@ -67,7 +62,7 @@ ms.locfileid: "37642794"
 ***
 ![번호 4](../images/sfbcallout4.png)<br/>대화형 차트와 **사용자** 차트의 실시간 데이터를 사용 하 여 사용 추세를 파악 하 고 조직에 유지 되는 회의가 구성 된 고유한 사용자의 수를 확인 합니다. 여기에는 **IM**, **오디오/비디오**, **응용 프로그램 공유**, **웹**, **전화 접속/외부**타사, 구성 된 회의의 **전화 접속 시작/종료 Microsoft** 와 함께 총 사용자 수가 표시 됩니다. 
 ***
-![숫자 5](../images/sfbcallout5.png)<br/>**회의록** 차트의 대화형 차트와 실시간 데이터를 사용 하 여 사용 추세를 파악 하 고, 사용자가 오디오/비디오를 사용 하 여 회의를 구성할 때 사용 되는 시간 (분)을 확인 하 고, 전화 접속 및 전화 접속을 회의로 Microsoft에 사용할 수 있습니다. 공급자로. 구성 된 회의 중에 사용 되는 **오디오/비디오** 및 **전화 접속 microsoft**의 총 시간 (분)과 **전화 걸기 microsoft 분** 이 표시 됩니다.
+![숫자 5](../images/sfbcallout5.png)<br/>**회의록** 차트의 대화형 차트와 실시간 데이터를 사용 하 여 사용 추세를 파악 하 고, 사용자가 오디오/비디오를 사용 하 여 회의를 구성할 때와 전화 접속 및 전화 걸기-Microsoft를 회의 공급자로 사용 하는 시간 (분)을 확인할 수 있습니다. 구성 된 회의 중에 사용 되는 **오디오/비디오** 및 **전화 접속 microsoft**의 총 시간 (분)과 **전화 걸기 microsoft 분** 이 표시 됩니다.
 ***
 ![숫자 6](../images/sfbcallout6.png)<br/>
 각 차트에는 ' X ' (가로) 및 ' Y ' (세로) 축이 있습니다.

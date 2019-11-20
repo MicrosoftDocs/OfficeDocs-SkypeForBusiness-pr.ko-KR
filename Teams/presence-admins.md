@@ -3,7 +3,6 @@ title: Teams에서 사용자 현재 상태 확인
 author: jambirk
 ms.author: jambirk
 manager: serdars
-ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b829fbffa728d3449ba19466d0a2cb85f266c9c2
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: be40c98a66e5f3023ce375d0a00515832280c7c0
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010601"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714494"
 ---
 # <a name="user-presence-in-teams"></a>Teams에서 사용자 현재 상태 확인
 
@@ -29,7 +28,7 @@ ms.locfileid: "38010601"
 > [!IMPORTANT]
 > 사용자를 **팀 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거 하는 경우 Outlook 및 다른 Office 앱에서 현재 상태는 작동 중지 됩니다. 팀에서 상태는 제대로 작동 합니다. 해결 방법: Outlook (및 다른 Office 앱)에서 현재 상태를 확인 하려면 팀 **전용** 모드로 팀을 실행 하는 경우에도 비즈니스용 Skype를 설치 해야 합니다. Microsoft는이 문제를 알고 있으며 수정 작업을 진행 중입니다.
 
-Outlook에서 팀 현재 상태는 Outlook 2013 데스크톱 앱 이상에서 지원 됩니다.
+Outlook에 있는 팀의 현재 상태는 Outlook 2013 데스크톱 앱 이상에서 지원됩니다.
 
 ## <a name="presence-states-in-teams"></a>팀의 현재 상태
 
@@ -56,11 +55,13 @@ Outlook에서 팀 현재 상태는 Outlook 2013 데스크톱 앱 이상에서 �
 || ![화살표가 있는 자주색 원, 부재 중임을 나타냄](media/Presence_OOF.png) 부재 중|
 |||
  
-사용자는 일부 옵션에 대 한 현재 현재 상태 상태를 수동으로 설정할 수 있으며 해당 상태는 다른 모든 사용자에 게 적용 됩니다. 또한 추가 사용자 현재 상태 정보도 자동으로 업데이트 됩니다. 변경 사항은 사용자 활동 (사용 가능, 자리 비움), Outlook 일정 상태 (모임 중) 또는 팀 앱 상태 (통화 중 발표 됨)에 따라 목록에서 들여쓰기 되는 상태에 기반 합니다. 
+사용자는 일부 옵션에 대 한 현재 현재 상태 상태를 수동으로 설정할 수 있으며 해당 상태는 다른 모든 사용자에 게 적용 됩니다. 또한 추가 사용자 현재 상태 정보도 자동으로 업데이트 됩니다. 변경 사항은 사용자 활동 (사용 가능, 자리 비움), Outlook 일정 상태 (모임 중) 또는 팀 앱 상태 (통화 중 발표 됨)에 따라 목록에서 들여쓰기 되는 상태에 기반 합니다. 현재 현재 상태가 자리 비움으로 다시 설정 되는 데 15 분 비활성 시간 제한이 있습니다.
 
-현재 현재 상태가 자리 비움으로 다시 설정 되는 데 15 분 비활성 시간 제한이 있습니다.
+사용자는 현재 상태에 관계 없이 팀에서 전송 된 모든 채팅 메시지를 받습니다. 다른 사람이 메시지를 보낼 때 사용자가 오프 라인 상태 이면 다음에 사용자가 온라인 상태일 때 채팅 메시지가 팀에 표시 됩니다. 사용자가 방해 금지 상태에 있는 경우 채팅 메시지는 계속 표시 되지만 배너 알림을 표시할 수 없습니다.
 
-사용자는 끊을 수 있는 사용자를 지정할 수 있습니다 (방해 금지 상태에도 연락 하는 경우). 이러한 설정은 팀 클라이언트에서 사용할 수 있습니다.
+사용자는 수신 통화가 음성 메일로 배달 되는 방해 금지 상태를 제외한 모든 현재 상태에서 전화를 받습니다. 받는 사람이 호출자를 차단 하면 통화가 전달 되지 않으며 발신자는 받는 사람의 현재 상태를 오프 라인으로 간주 합니다.
+
+사용자는 팀의 **설정** > **개인 정보** 로 연결 하 여 사용자를 우선 순위 액세스 목록에 추가할 수 있습니다. 우선 순위가 높은 권한이 있는 사용자는 사용자가 방해 금지 상태에 있더라도 사용자에 게 연락할 수 있습니다.
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>비즈니스용 Skype와 팀의 관리 설정
 

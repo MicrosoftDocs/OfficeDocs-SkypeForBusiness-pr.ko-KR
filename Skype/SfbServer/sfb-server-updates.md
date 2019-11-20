@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 한 곳에서 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대 한 업데이트를 찾아 관리 합니다. 업데이트에 대 한 자세한 정보를 확인 하 고 업데이트를 다운로드 하려면이 페이지의 링크를 사용 하세요.
-ms.openlocfilehash: d95776848e27a5d43d273f8ad1caedd40636ab1c
-ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
+ms.openlocfilehash: 86a08c798d04942dd517664bbfed0f67ba8ddc46
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "37276292"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714134"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
@@ -30,8 +30,8 @@ KB 4470124은 게시 된 모든 누적 업데이트 및 핫픽스의 모든 기�
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
-|비즈니스용 Skype 서버 2019 누적 업데이트 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 년 7 월 |
 |비즈니스용 Skype 서버 2019 누적 업데이트 1 핫픽스 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 년 9 월 |
+|비즈니스용 Skype 서버 2019 누적 업데이트 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 년 7 월 |
 | | | |
 
 ### <a name="skype-for-business-server-2019-tools"></a>비즈니스용 Skype 서버 2019 도구
@@ -79,7 +79,7 @@ KB 4470124은 게시 된 모든 누적 업데이트 및 핫픽스의 모든 기�
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 업데이트 기록
 
-[KB 2809243](http://support.microsoft.com/kb/2809243) 에는 릴리스된 모든 누적 업데이트가 포함 되어 있습니다.
+[KB 2809243](https://support.microsoft.com/kb/2809243) 에는 릴리스된 모든 누적 업데이트가 포함 되어 있습니다.
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
@@ -164,7 +164,7 @@ KB 4470124은 게시 된 모든 누적 업데이트 및 핫픽스의 모든 기�
 
 ## <a name="lync-server-2010-update-history"></a>Lync Server 2010 업데이트 기록
 
-[KB 2493736](http://support.microsoft.com/kb/2493736) 에는 릴리스된 모든 누적 업데이트가 포함 되어 있습니다.
+[KB 2493736](https://support.microsoft.com/kb/2493736) 에는 릴리스된 모든 누적 업데이트가 포함 되어 있습니다.
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
@@ -172,7 +172,7 @@ KB 4470124은 게시 된 모든 누적 업데이트 및 핫픽스의 모든 기�
 |Lync Server 2010 누적 업데이트 17|[KB 3148801](https://support.microsoft.com/kb/3148801) |2016 년 4 월 |
 |Lync Server 2010 누적 업데이트 16|[KB 3057803](https://support.microsoft.com/kb/3057803) |2015 년 5 월 |
 |Lync Server 2010 누적 업데이트 15 |[KB 3030726](https://support.microsoft.com/kb/3030726) |2015 년 2 월|
-|Lync Server 2010 누적 업데이트 13|[KB 2982385](http://support.microsoft.com/kb/2982385) </br> [KB 2982388](http://support.microsoft.com/kb/2982388)|2014 년 9 월|
+|Lync Server 2010 누적 업데이트 13|[KB 2982385](https://support.microsoft.com/kb/2982385) </br> [KB 2982388](https://support.microsoft.com/kb/2982388)|2014 년 9 월|
 |Lync Server 2010 누적 업데이트 12 |[KB 2957044](https://support.microsoft.com/kb/2957044) |2014 년 4 월 |
 |Lync Server 2010 누적 업데이트 11 |[KB 2909888](https://support.microsoft.com/kb/2909888) |2014 년 1 월|
 |Lync Server 2010 누적 업데이트 10 |[KB 2889610](https://support.microsoft.com/kb/2889610) |2013 년 10 월|

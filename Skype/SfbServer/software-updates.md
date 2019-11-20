@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 비즈니스용 Skype Server 또는 Lync 2013에 대 한 업데이트를 찾고 관리 합니다. 링크를 사용 하 여 자세한 정보를 확인 한 다음 업데이트를 다운로드 하세요.
-ms.openlocfilehash: 99eadfcc708d13adc7c07d787d58ccb815c7daae
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 858ea89d70e52a78e1750c2036a229deef828f13
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38311223"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746441"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>비즈니스용 Skype 다운로드 및 업데이트
 
@@ -24,9 +24,9 @@ Technet에서 한 번의 _비즈니스용 Skype 다운로드 및 업데이트_ �
 
 - 섹션이 포함 된 [비즈니스용 Skype 클라이언트 업데이트](sfb-client-updates.md) :
     - [비즈니스용 Skype 2016 클라이언트 업데이트](sfb-client-updates.md#skype-for-business-2016-client-updates)
-    - [비즈니스용 Skype 2015 클라이언트 업데이트](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
+    - [비즈니스용 Skype 2015 클라이언트 업데이트](sfb-client-updates.md#skype-for-business-2015-client-updates)
     - [Mac 클라이언트 업데이트의 비즈니스용 Skype](sfb-client-updates.md)
-    - [Lync 2013 클라이언트 업데이트](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
+    - [Lync 2013 클라이언트 업데이트](sfb-client-updates.md)
         - [Lync Phone Edition 업데이트](sfb-client-updates.md#lync-phone-edition-updates)
         - [다운로드 센터의 Lync Phone Edition 클라이언트](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
         - [Lync Basic 2013 평가판 소프트웨어](sfb-client-updates.md)
