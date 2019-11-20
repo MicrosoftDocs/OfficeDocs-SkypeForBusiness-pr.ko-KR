@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad8b75e244efa0d28709d6c5ff225f1e6676200a
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 3ccaf4cae1b82b206ebfd27b185dddaf2ab0eece
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290858"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746291"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스
 ======================================
@@ -79,9 +79,6 @@ ms.locfileid: "38290858"
 
 게스트가 Teams에서 수행할 수 있는 작업에 대한 전체 목록을 보려면 [팀 구성원 및 게스트 권한 비교](guest-experience.md#comparison-of-team-member-and-guest-capabilities)를 참조하세요. Office 365 수준에서 게스트 액세스에 대한 자세한 내용은 [Office 365 그룹에 게스트 추가](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)를 참조하세요.
 
-## <a name="how-does-external-access-federation-compare-to-guest-access"></a>외부 액세스 (페더레이션)는 게스트 액세스와 어떻게 비교하나요?
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>추가 정보
 
