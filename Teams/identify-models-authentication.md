@@ -15,12 +15,12 @@ ms.collection:
 description: 클라우드, 동기화 됨, 페더레이션 등의 Microsoft 팀에 있는 다양 한 id 모델에 대해 알아봅니다. Multi-factor authentication에 대해서도 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e485cc04be2e7bb5220a539d94cdce8e91cb0ec
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: c1aba56bccd78a0492e801299f47199b44c296f2
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931626"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753355"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft 팀의 id 모델 및 인증
 ==========================================
