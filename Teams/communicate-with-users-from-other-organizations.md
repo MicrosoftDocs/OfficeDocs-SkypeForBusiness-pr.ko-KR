@@ -15,17 +15,19 @@ description: 외부 액세스 (페더레이션) 및 게스트 액세스를 사�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: a777baed1d5cc35788b2c4f63741317e34eb7905
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 8132fa07445beb9e9d26195a4269d025169ec94f
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754374"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753385"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams에서 다른 조직의 사용자와 의사소통하기
 ======================================================
 
 조직 외부의 사용자와 의사소통하고 공동 작업을 해야 하는 경우 Microsoft Teams에서 이 작업을 수행하는 두 가지 방법을 제공합니다. 첫 번째 – **외부 액세스** (페더레이션) - 다른 도메인의 사용자를 찾고, 사용자와 통화하고, 채팅할 수 있습니다 (예: contoso.com). 두 번째 – **게스트 액세스** - 전자 메일 주소를 사용하여 사용자를 게스트로 팀에 추가할 수 있습니다. 조직의 다른 사용자와 마찬가지로 게스트와 공동 작업을 할 수 있습니다.
+
+원하는 경우에는 외부 액세스와 게스트 액세스를 모두 사용할 수 있습니다. 이들은 서로 방해되지 않습니다.
 
 높은 수준에서 선택하는 방법 (자세한 비교를 위해 [외부 및 게스트 액세스 비교](#compare-external-and-guest-access)로 이동하세요):
 

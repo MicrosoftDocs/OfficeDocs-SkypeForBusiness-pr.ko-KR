@@ -33,6 +33,7 @@
 ## [Teams의 교차 팀 및 팀 단위 분석 보기](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [팀 만료 및 갱신](team-expiration-renewal.md)
 ## [팀 보관 또는 삭제](archive-or-delete-a-team.md)
+## [Slack에서 Teams로 마이그레이션](migrate-slack-to-teams.md)
 
 
 
