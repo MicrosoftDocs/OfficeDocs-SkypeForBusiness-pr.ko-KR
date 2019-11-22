@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5affe464ac300d0084916ad8ec0044ca74f8fa6b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 42fd9820f6f8ce11b245412a5ae99ed7b43dbc1e
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570083"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793534"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Microsoft 팀 테 넌 트 앱 카탈로그에서 앱 게시
 =======================================================
@@ -45,13 +45,13 @@ Microsoft 팀 테 넌 트 앱 카탈로그를 사용 하 여 조직에 lob (기�
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>테 넌 트 앱 카탈로그로 이동
 
-Microsoft 팀 클라이언트를 시작 하 고 전역 또는 팀 서비스 관리자 자격 증명을 사용 하 여 로그인 합니다. Microsoft 팀 스토어에서 특정 조직 (이 예에서는 Contoso)에 대해 이름이 지정 된 새 섹션을 선택 합니다. 조직의 사용자는 카탈로그에서 앱을 보고 자신이 구성원으로 속해 있는 팀을 위해 설치할 수 있습니다.
+Microsoft 팀 클라이언트를 시작 하 고 전역 또는 팀 서비스 관리자 자격 증명을 사용 하 여 로그인 합니다. 앱의 왼쪽에서 **앱** 을 선택 하 고 특정 조직 (이 예제에서는 Contoso)에 대해 이름이 지정 된 새 섹션을 선택 합니다. 조직의 사용자는 카탈로그에서 앱을 보고 자신이 구성원으로 속해 있는 팀을 위해 설치할 수 있습니다.
 
 ![앱 카탈로그를 보여 주는 팀 앱 스토어의 스크린샷](media/private-app-store-teams-image01.png)
 
 ### <a name="add-an-app-to-the-tenant-apps-catalog"></a>테 넌 트 앱 카탈로그에 앱 추가
 
-1. 스토어에서**Contoso에 대 한** **사용자 지정 앱** > 업로드 업로드를 선택 합니다.
+1. Apps ( **앱** ) 페이지에서**Contoso에 대 한** **사용자 지정 앱** > 업로드 업로드를 선택 합니다.
 
     ![앱 카탈로그를 보여 주는 팀 앱 스토어의 스크린샷](media/private-app-store-teams-image02.png)
 
@@ -75,7 +75,7 @@ Microsoft 팀 클라이언트를 시작 하 고 전역 또는 팀 서비스 관�
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Office 365 관리 포털을 사용 하 여 테 넌 트 앱 카탈로그 관리
 
-버그 수정이 필요한 앱이 있는 경우 Office 365 관리 포털을 통해 앱을 일시적으로 사용 하지 않도록 설정할 수 있습니다. **설정** > **서비스 & 추가 기능** > **Microsoft 팀**을 선택 합니다. 이전 설정 외에도 이제 회사의 앱 전용 섹션이 있습니다. 사용 하거나 사용 하지 않을 앱을 선택할 수 있습니다.
+버그 수정이 필요한 앱이 있는 경우 Microsoft 365 관리 센터 > **팀 관리 센터** > **팀 앱** > **권한 정책** > <정책 이름 (예: "전역 (조직 전체)") > **테 넌 트 > 앱** 은 특정 앱을 차단 하 고 다른 사용자를 모두 허용 하 고 앱을 목록에 추가 하는 등의 기능을 제공 합니다.
 
 ![앱 카탈로그를 보여 주는 팀 앱 스토어의 스크린샷](media/private-app-store-teams-image05.png)
 

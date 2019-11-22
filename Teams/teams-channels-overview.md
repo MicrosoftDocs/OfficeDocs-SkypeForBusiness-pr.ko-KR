@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5051028b93b5170e7accde90412dcac6ceca04d
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 6ea246588e6884e7c7dd2755d7d24aa486d193df
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37968059"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793394"
 ---
 > [!NOTE]
 > 팀에서 채팅, 팀, 채널, & 앱을 이해 하려면 다음 정보를 검토 하세요. 그런 다음 팀 [의 채팅, 팀, 채널, & 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 으로 이동 하 여 팀이 출시 하는 중요 한 의사 결정 목록을 살펴봅니다.
@@ -46,6 +46,8 @@ Microsoft 팀에서 개별 팀이 비즈니스 시나리오에서 자체적으�
 
     - 채널은 대화가 일어나는 위치와 실제 작업이 수행 되는 위치입니다. 채널은 모든 팀 구성원에 게 열려 있을 수도 있고, 더 많은 대상을 선택 해야 하는 경우에는 비공개로 설정할 수 있습니다. 표준 채널은 팀의 모든 구성원이 참가 하 고 [개인 채널이](private-channels.md) 팀 구성원 들의 하위 집합에 대 한 통신을 제한할 수 있는 대화에 대 한 것입니다.
     - 채널은 팀 구성원에 게 해당 값을 늘리는 탭, 연결선, 인공 지능을 포함 하는 앱으로 확장 했을 때 가장 유용 합니다. 자세한 내용은 [팀에서 앱, 인공 & 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 참조 하세요.
+    
+팀 및 채널을 사용 하는 방법에 대 한 도움말은 [팀 및 채널](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)을 확인 하세요.
 
 팀 및 채널을 만들기 위한 모범 사례에 대해 자세히 알아보려면이 짧은 비디오를 참조 하세요.
 

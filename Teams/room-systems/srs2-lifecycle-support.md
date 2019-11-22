@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 이 문서에서는 Microsoft 팀 대화방에 대 한 수명 지원에 대해 설명 합니다.
-ms.openlocfilehash: 55fde6317fe53102b97f752667d540e33a7b8c8c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: a76fc10b2348b1ecd89a8beabc30c104e32ec13c
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675796"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793514"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 팀 대화방 앱 버전 지원
  
@@ -51,6 +51,7 @@ Windows 10 기능 업데이트가 Microsoft 팀 대화방 장치에서 즉시 �
 
 |버전  |사용 가능 날짜   |Microsoft 팀 대화방 지원 상태   |Microsoft 팀 대화방 최소 응용 프로그램 버전 | 권장 OS 빌드  |
 |:---  |:---       |:---                                  |:---     |:---     |
+| 1909 |2019-11-12 |현재 유효성 검사 중 <br/>권장 되지 않음|&#x2014; |&#x2014; |
 | 1903 |2019-05-21 |지원 되는 &#x2780;, <br/>권장  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |건너뛰면 <br/>권장 하지 않음 &#x2781;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |지원                             |4.1.22.0 |17134.191|

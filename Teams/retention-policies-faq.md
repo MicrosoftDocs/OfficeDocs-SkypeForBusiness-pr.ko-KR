@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: fa8e71d167bbb5f5381c66a1a8545a6f94f74e62
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968309"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793504"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Microsoft 팀 보존 정책 FAQ
 
@@ -44,6 +44,10 @@ ms.locfileid: "37968309"
 ### <a name="what-is-the-default-retention-policy"></a>기본 보존 정책은 무엇입니까? 
 
 기본적으로 팀 채팅, 채널 및 파일 데이터는 영구적으로 유지 됩니다.
+
+### <a name="what-licensing-is-required-for-retention-policies"></a>보존 정책에 필요한 라이선스는 무엇 인가요?
+
+보존 정책의 최소 라이선스 요구 사항은 Office 365 E3입니다. 라이선스에 대 한 자세한 내용은 [팀에 대 한 Office 365 라이선스](office-365-licensing.md)를 참조 하세요.
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>정책에서 사용자 또는 팀 집합을 대상으로 지정할 수 있습니까? 
 

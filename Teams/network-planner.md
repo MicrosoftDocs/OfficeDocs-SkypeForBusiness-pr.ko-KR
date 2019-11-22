@@ -18,16 +18,16 @@ f1keywords:
 - ms.teamsadmincenter.networkplanner.personas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2920f33417fa640b99a408441be6d3f49c3f078d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: aaefec635e6744dc7c1197f28ffb056be4a88860
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573368"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793484"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft 팀을 위한 네트워크 Planner 사용
 
-네트워크 Planner는 팀 관리 센터에서 사용할 수 있는 새로운 도구입니다. 이 파일은 **조직 전체 설정** > **네트워크 planner**로 이동해 서 찾을 수 있습니다. 네트워크 Planner를 사용 하 여 조직 내에서 Microsoft 팀 사용자를 연결 하는 데 필요한 네트워크 요구 사항을 확인 하 고 구성 하는 방법에 대해 설명 합니다. 네트워크 세부 정보 및 팀 사용량을 제공 하는 경우 네트워크 계획자는 조직의 실제 위치에서 팀 및 클라우드 음성을 배포 하기 위한 네트워크 요구 사항을 계산 합니다.
+네트워크 Planner는 팀 관리 센터에서 사용할 수 있는 새로운 도구입니다. **Planner** > **네트워크 planner**로 이동한 후이를 찾을 수 있습니다. 네트워크 Planner를 사용 하 여 조직 내에서 Microsoft 팀 사용자를 연결 하는 데 필요한 네트워크 요구 사항을 확인 하 고 구성 하는 방법에 대해 설명 합니다. 네트워크 세부 정보 및 팀 사용량을 제공 하는 경우 네트워크 계획자는 조직의 실제 위치에서 팀 및 클라우드 음성을 배포 하기 위한 네트워크 요구 사항을 계산 합니다.
 
 ![네트워크 Planner 스크린샷](media/network-planner.png)
 
