@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '팀에 대해 새, 포트 또는 기존 번호를 전송 하는 방법과 사용자에 게 변경 내용을 표시 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 2b8dcb2f10f4c5e4452a24fbc9fc4230cffbe874
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 51f436a3b2d462e9984fb9fc09620e7c1a77307d
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925289"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209204"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>사용자의 전화 번호 가져오기
 
@@ -45,7 +45,7 @@ ms.locfileid: "37925289"
 
 ![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
     
-1. 왼쪽 탐색 창에서 **음성** > **전화 번호로**이동한 다음 **새 번호 받기를**클릭 합니다.
+1. 왼쪽 탐색 창에서 **음성** > **전화 번호로**이동한 다음 **추가**를 클릭 합니다.
 2. 주문 이름을 입력 하 고 원하는 경우 설명을 추가 합니다.
 3. 위치 및 수량 페이지에서 다음을 수행 합니다.
     1. **국가 또는 지역**에서 국가 또는 지역을 선택 합니다.
@@ -75,7 +75,7 @@ ms.locfileid: "37925289"
     
 - 전화 번호를 받은 후에는 각 사용자에 게 번호를 할당 해야 합니다. [사용자의 전화 번호 지정, 변경 또는 제거를](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)참조 하세요.
     
-- Microsoft 팀 관리 센터의 **전화 번호** 페이지를 사용 하 여 **전화 번호** 열에 사용 가능한 전화 번호 목록을 표시 하 고, **상태** 열에 전화 번호가 지정 되었는지 확인 하 고, 다음에 대 한 위치를 확인할 수 있습니다. **위치** 열의 전화 번호입니다. 
+- Microsoft 팀 관리 센터의 **전화 번호** 페이지를 사용 하 여 **전화 번호** 열에 사용 가능한 전화 번호 목록을 표시 하 고, **상태** 열에 전화 번호가 할당 되었는지 확인 하 고, **위치** 열에서 전화 번호의 위치를 확인할 수 있습니다. 
 
 > [!NOTE]
 > 이 보다 더 많은 전화 번호를 받으려면 [PSTN 서비스 데스크에 문의 하세요](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).

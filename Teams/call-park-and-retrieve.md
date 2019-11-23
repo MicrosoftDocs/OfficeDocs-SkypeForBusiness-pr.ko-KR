@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: 통화 대기를 사용 하 고 클라우드의 팀 서비스에서 통화를 보류 하는 것을 검색 합니다.
-ms.openlocfilehash: ab70832cde09cf5328e6fa0743c00614c839fc8d
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 9a6f5b6a51a0193625ecd2dab294c2cf454cb21f
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517032"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209184"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>통화 공원 및 Microsoft 팀에서 검색
 
@@ -50,9 +50,9 @@ ms.locfileid: "37517032"
 
 | 성능 | 팀 데스크톱 | 팀 Mac 앱 | 팀 웹 앱 (Edge) |팀 모바일 iOS/Android 앱 | 팀 IP 전화 | 비즈니스용 Skype IP 전화 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| 통화 파킹 | ' | ' | ' | ' | 개봉박두| 아니요 |
-| 파킹 된 통화 검색 | ' | ' | ' | ' | 개봉박두| 아니요 |
-| 통화 링 뒤로 검색 | ' | ' | ' | ' | 개봉박두| 아니요 |
+| 통화 파킹 | 예 | 예 | 예 | 예 | 개봉박두| 아니요 |
+| 파킹 된 통화 검색 | 예 | 예 | 예 | 예 | 개봉박두| 아니요 |
+| 통화 링 뒤로 검색 | 예 | 예 | 예 | 예 | 개봉박두| 아니요 |
 
 ## <a name="configuring-call-park-and-retrieve"></a>통화 공원 구성 및 검색
 
@@ -99,7 +99,7 @@ ms.locfileid: "37517032"
 사용자가 전화를 검색 하 려 할 때 실패 하는 경우 다음을 확인 하세요.
 
 - 사용자가 팀 클라이언트 또는 팀 사용 가능 장치/전화를 사용 하 고 있는지 확인
-- 그룹화-사용자가 통화 공원 그룹의 구성원 입니까?
+- 그룹화 – 사용자가 통화 공원 그룹의 구성원이 며,이는 같은 팀 통화 공원 정책이 할당 된 것을 기반으로 합니다. 
 - 섬 모드 – 팀 섬 모드에서는 통화 공원 및 읽어들이기를 사용할 수 없습니다.
 - 통화가 이미 검색 되었거나 종료 되었습니다.
 

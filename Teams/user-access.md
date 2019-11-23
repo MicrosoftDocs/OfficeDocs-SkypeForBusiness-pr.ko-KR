@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26abd2a69bc8097c4f74cbc85435cda4eec00887
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 11ec004e98c54f8b8e81594c54407fd2078c7f80
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568597"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209074"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft 팀에 대 한 사용자 액세스 관리
 =====================================
@@ -51,9 +51,9 @@ E3 또는 E5와 같은 라이선스 SKU가 사용자에 게 할당 되 면 Micro
 ## <a name="manage-via-powershell"></a>PowerShell을 통해 관리
 
 > [!IMPORTANT]
-> MsolLicenseOptions는 사용자 지정 된 스크립트에서 explictitly identitied 되지 않는 한 이전에 비활성화 한 모든 서비스를 사용 하도록 설정 합니다. 예를 들어 팀을 additonally 사용 하지 않도록 설정 하는 동안 Exchange & Sway를 사용 하지 않도록 설정 하려면 스크립트에서이를 제거 하거나 Exchange & Sway가 확인 된 사용자에 대해 사용 하도록 설정 되어 있어야 합니다. GUI를 이용 하 여이 기능을 관리 하려면 다음을 참조 하세요. [Office 365 라이선스 보고 및 관리 도구-라이선스를 대량으로 제거 할당](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
+> MsolLicenseOptions는 사용자 지정 된 스크립트에서 explictitly identitied 되지 않는 한 이전에 비활성화 한 모든 서비스를 사용 하도록 설정 합니다. 예를 들어 additonally 팀을 사용 하지 않도록 설정 하는 동안 Exchange & Sway를 사용 하지 않도록 설정 하려면 스크립트에이를 포함 하거나 Exchange & 모두 확인 된 사용자에 대해 사용할 수 있게 됩니다. GUI를 사용 하 여이 기능을 관리 하려면 [Office 365 라이선스 보고 및 관리 도구-자세한 내용은 라이선스 제거를 대량으로 할당](https://gallery.technet.microsoft.com/Office365-License-cfd9489c) 을 참조 하세요.
 
-다른 작업을 수행 하는 것 처럼 PowerShell을 통해 팀을 작업 부하 라이선스로 사용 하지 않도록 설정할 수 있습니다. Microsoft 팀에 대 한 서비스 계획 이름은 TEAMS1입니다. GCC의 경우 서비스 계획 이름은 TEAMS_GOV입니다. GCC High의 경우 서비스 계획 이름은 TEAMS_GCCHIGH입니다. DoD의 경우 서비스 계획 이름은 TEAMS_DOD (자세한 내용은 [Office 365 PowerShell을 사용 하 여 서비스에 대 한 액세스 비활성화](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) 를 참조 하세요.)
+다른 작업을 수행 하는 것 처럼 PowerShell을 통해 팀을 작업 부하 라이선스로 사용 하지 않도록 설정할 수 있습니다. Microsoft 팀에 대 한 서비스 계획 이름은 TEAMS1입니다. GCC의 경우 서비스 계획 이름은 TEAMS_GOV입니다. GCC High의 경우 서비스 계획 이름은 TEAMS_GCCHIGH입니다. DoD의 경우 서비스 계획 이름이 TEAMS_DOD 합니다 (자세한 내용은 [Office 365 PowerShell을 사용 하 여 서비스에 대 한 액세스 비활성화](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) 를 참조 하세요.)
 
 **샘플:** 다음은 특정 라이선스 유형의 모든 사용자에 대해 팀을 비활성화 하는 방법에 대 한 간단한 예제입니다. 먼저이 작업을 수행한 다음 파일럿을 위해 액세스 해야 하는 사용자에 대해 개별적으로 사용 하도록 설정 해야 합니다.
 
@@ -61,7 +61,7 @@ E3 또는 E5와 같은 라이선스 SKU가 사용자에 게 할당 되 면 Micro
 
       Get-MsolAccountSku
 
-조직의 이름과 학교에 대 한 계획 (ContosoSchool: ENTERPRISEPACK_STUDENT)을 포함 하는 계획의 이름을 입력 하 고 다음 명령을 실행 합니다.
+조직의 이름과 학교에 대 한 요금제 (ContosoSchool: ENTERPRISEPACK_STUDENT)를 포함 하는 계획의 이름을 입력 하 고 다음 명령을 실행 합니다.
 
       $acctSKU="<plan name>
       $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"

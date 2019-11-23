@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 기본 제공 및 사용자 지정 탭을 사용 하 여 대화, 파일, 지도 등과 같은 기능을 포함 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a9a78f2b611bd586b0e465f8e5045484417d07f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 3cec2b6bef02eaa334bcd50d225edd1f579df038
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517037"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209114"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Microsoft 팀에서 기본 제공 및 사용자 지정 탭 사용
 ==================================================
@@ -53,9 +53,9 @@ ms.locfileid: "37517037"
 
 ## <a name="develop-custom-tabs"></a>사용자 지정 탭 개발
 
-기본 제공 탭 외에, 팀에 통합 하거나 나머지 커뮤니티와 공유 하는 사용자 고유의 탭을 디자인 하 고 개발할 수 있습니다. 적절 한 Office 365 그룹을 구성 하 여 [사용자 지정 탭에](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access) 대 한 액세스를 제어할 수 있습니다.
+기본 제공 탭 외에, 팀에 통합 하거나 나머지 커뮤니티와 공유 하는 사용자 고유의 탭을 디자인 하 고 개발할 수 있습니다. 적절 한 Office 365 그룹을 구성 하 여 [사용자 지정 탭에](https://docs.microsoft.com/microsoftteams/platform/get-started/design#streamline-access) 대 한 액세스를 제어할 수 있습니다.
 
-Microsoft 개발자 네트워크에서는 사용자가 다운로드할 수 있는 [샘플 탭](https://go.microsoft.com/fwlink/?linkid=855787) 을 제공 하 고 고유한 탭을 디자인 하 고 작성 하는 방법에 대해 [자세히](https://go.microsoft.com/fwlink/?linkid=855786) 설명 합니다.
+Microsoft 개발자 네트워크에서는 사용자가 다운로드할 수 있는 [샘플 탭](https://docs.microsoft.com/MicrosoftTeams/platform/samples/code-samples) 을 제공 하 고 고유한 탭을 디자인 하 고 작성 하는 방법에 대해 [자세히](https://docs.microsoft.com/MicrosoftTeams/platform/tabs/design/tabs) 설명 합니다.
 
 ![Microsoft 팀의 사용자 지정 탭을 보여 주는 스크린샷](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 
