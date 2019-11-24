@@ -17,12 +17,12 @@ description: 조직에서 팀과 함께 사용 되는 장치를 관리 하는 �
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1473acc92113cc8788ae5cc27eecc11ad909124
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 06b85012adbf0967889e74fb5765b02c9b2ea18f
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972459"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39211979"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Microsoft 팀에서 장치 관리
 
@@ -30,7 +30,7 @@ ms.locfileid: "37972459"
 관리자는 Microsoft 팀 관리 센터에서 조직의 팀과 함께 사용 되는 모든 장치를 관리 합니다. 조직의 장치 인벤토리를 보고 관리 하 고 장치에 대 한 업데이트, 다시 시작, 모니터링 등의 작업을 수행할 수 있습니다. 장치 또는 장치 그룹에 구성 프로필을 만들고 할당할 수도 있습니다. 
 
 ## <a name="what-devices-can-you-manage"></a>어떤 장치를 관리할 수 있나요?
-장치가 팀에 대해 인증 되 고 팀에 등록 되어 있어야 합니다. 장치는 사용자가 처음으로 장치에서 팀에 로그인 할 때 자동으로 등록 됩니다. 관리할 수 있는 인증 디바이스 목록은 [전화 회의 전화](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) 및 [일반 전화기](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34)를 참조 하세요.
+장치가 팀에 대해 인증 되 고 팀에 등록 되어 있어야 합니다. 장치는 사용자가 처음으로 장치에서 팀에 로그인 할 때 자동으로 등록 됩니다. 관리할 수 있는 인증 디바이스 목록은 [전화 회의 전화](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=16) 및 [일반 전화기](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=34)를 참조 하세요.
 
 > [!NOTE]
 > Microsoft Intune이 있는 경우 장치가 Intune에 자동으로 등록 됩니다. 장치가 등록 되 면 디바이스 호환성이 확인 되 고 조건부 액세스 정책이 장치에 적용 됩니다. 
