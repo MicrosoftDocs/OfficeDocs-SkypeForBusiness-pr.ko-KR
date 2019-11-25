@@ -821,7 +821,7 @@
 
 <!-- ============================================================ -->
 #       
-#        
+#          
 # [교육](training-microsoft-teams-landing-page.md)
 ## [Teams용 강사 진행 교육](instructor-led-training-teams-landing-page.md)
 ## [Teams에 대한 관리자 교육](itadmin-readiness.md)
@@ -836,6 +836,7 @@
 ## Teams 배포 준비
 ### [Teams에 대한 환경 준비 상태 확인](environment-readiness.md)
 ### [Teams에 대한 조직의 네트워크 준비](prepare-network.md)
+### [Teams용 관리자를 사용하여 Teams 배포](use-advisor-teams-roll-out.md)
 ### [Teams에 Network Planner 사용](network-planner.md)
 ### [Network Planner 연습](tutorial-network-planner-example.yml)
 ### [Teams 또는 비즈니스용 Skype Online 용 프록시 서버](proxy-servers-for-skype-for-business-online.md)
