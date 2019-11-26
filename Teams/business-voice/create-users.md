@@ -15,25 +15,25 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd00c4baf7958926c2e27e8141630444e7df637c
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: a789300c7b7b646ab7b7d288ce5679b6fe3dfff2
+ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972079"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39218025"
 ---
 # <a name="create-and-license-users-and-assign-phone-numbers-to-them"></a>사용자를 생성하고 라이선스를 부여고 전화번호를 할당할 수 있습니다.
 
-Microsoft 365 Business Voice를 사용하려면 Microsoft 365 Business Voice(SMS 포함) 라이선스를 포함한 Microsoft 365 계정이 있어야 합니다. Microsoft 365 Business Voice(SMS 포함) 라이선스를 사용해 계정을 만든 후, 이 계정에 전화번호를 할당할 수 있습니다.
+:::no-loc text="Microsoft 365 Business Voice":::를 사용하려면 :::no-loc text="Microsoft 365 Business Voice with SMS"::: 라이선스가 포함된 :::no-loc text="Microsoft 365"::: 계정이 필요합니다. :::no-loc text="Microsoft 365 Business Voice with SMS"::: 라이선스를 사용해 계정을 만든 후, 이 계정에 전화 번호를 할당할 수 있습니다.
 
 ## <a name="create-and-license-users"></a>사용자 생성 및 라이선스 할당
 
-1. 사용자를 한 명 이상 추가하려면 [Office 365에 개별적으로 또는 대량으로 사용자 추가](https://docs.microsoft.com/office365/admin/add-users/add-users)의 단계를 따릅니다.
-2. **제품 라이선스 할당** 창에서 **Microsoft 365 Business Voice(SMS 포함)** 를 선택해야 합니다.
+1. 사용자를 한 명 이상 추가하려면 [사용자를 개별적으로 또는 대량으로 사용자 추가:::no-loc text="Office 365":::](https://docs.microsoft.com/office365/admin/add-users/add-users)의 단계를 따릅니다.
+2. **제품 라이선스 할당** 창에서 **:::no-loc text="Microsoft 365 Business Voice with SMS":::** 를 선택해야 합니다.
 
 ## <a name="assign-phone-numbers-to-users"></a>사용자에게 전화번호 할당
 
-사용자를 생성하고 Microsoft 365 Business Voice(SMS 포함)를 라이선스를 할당하면 사용자에게 전화번호를 할당할 수 있습니다. 대상 사용자에는 아직 할당되지 않은 전화번호 하나가 필요합니다. 할당되지 않은 전화번호가 부족한 경우 이 문서의 뒷부분에 있는 [더 많은 전화번호 받기](#get-more-phone-numbers)를 참조하세요.
+사용자를 생성하고 :::no-loc text="Microsoft 365 Business Voice with SMS"::: 라이선스를 할당하면 사용자에게 전화번호를 할당할 수 있습니다. 대상 사용자에는 아직 할당되지 않은 전화번호 하나가 필요합니다. 할당되지 않은 전화번호가 부족한 경우 이 문서의 뒷부분에 있는 [더 많은 전화번호 받기](#get-more-phone-numbers)를 참조하세요.
 
 1. https://admin.teams.microsoft.com(으)로 이동합니다.
 2. 전화번호 요청을 위한 이름 및 설명을 입력합니다.

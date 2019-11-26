@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 101849cdae4e60b927a99c808ad3e37682f19b03
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 787849735883b25d8cb002c06f3e455438193769
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290848"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209064"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams에 오신 것을 환영합니다.
 조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되면 [Teams 배포 방법](How-to-roll-out-teams.md)과 함께 시작해보겠습니다.
@@ -83,7 +83,7 @@ Teams는 Office 365의 지능형 커뮤니케이션을 위한 기본 클라이�
 
 - 사용자가 초대하는 사용자들과 파일을 저장하고 공유할 수 있는 **비즈니스용 OneDrive**. 사용자가 비즈니스용 OneDrive에 저장하는 콘텐츠는 사용자가 다른 사용자와 공유할 때까지 비공개이기에 공유할 목적이 아니거나 공유할 준비가 되지 않은 개인 및 초안 문서를 저장하는 데 가장 적합한 옵션입니다.
 
-- 조직 전체에서 사용자를 연결할 수 있는 **Yammer**. 회사 전체의 이니셔티브를 주도하고 모범 사례를 공유하며 관심있는 공통 주제, 분야 혹은 관행에 대한 커뮤니티를 구축하세요. 아이디어를 크라우드 소싱하여 회사 전체 사용자들과의 공개 토론을 촉진하세요.
+- 조직 전체에서 사용자를 연결할 수 있는 **Yammer**. 회사 전체의 이니셔티브를 주도하고 모범 사례를 공유하며 관심있는 공통 주제 혹은 업무 분야에 대한 커뮤니티를 구축하세요. 아이디어를 크라우드 소싱하여 회사 전체 사용자들과의 공개 토론을 촉진하세요.
 
 - **Office 앱**은 Word, Excel, PowerPoint 및 OneNote를 비롯하여 사용자가 알고 정기적으로 사용하는 모든 친숙한 도구입니다. 
 
