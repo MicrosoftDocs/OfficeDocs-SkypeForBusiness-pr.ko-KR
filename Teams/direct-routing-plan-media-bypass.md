@@ -1,5 +1,5 @@
 ---
-title: 다이렉트 라우팅으로 미디어 바이패스 계획
+title: 직접 라우팅을 위한 미디어 바이패스 계획
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,14 +14,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 이 항목에서는 전화 시스템 다이렉트 라우팅과 함께 미디어 바이패스를 계획 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: cdfeb5313416730c703a1d0f10e2c7ccdddee1cc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: dbc88f7954708ef3842c0cb7afa67815c70976a6
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572160"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257487"
 ---
-# <a name="plan-for-media-bypass-with-direct-routing"></a>다이렉트 라우팅으로 미디어 바이패스 계획
+# <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
 ## <a name="about-media-bypass-with-direct-routing"></a>다이렉트 라우팅으로 미디어 바이패스 정보
 
@@ -134,7 +134,7 @@ ms.locfileid: "37572160"
 최종 사용자에 대 한 무시할 수 없는 통화에 대 한 미디어 경로 | Always | 열리지 | 
 최종 사용자에 대 한 바이패스 전화의 미디어 경로 | 열리지 | 클라이언트가 공용 IP 주소의 SBC에 연결할 수 없는 경우 | 
 음성 응용 프로그램용 미디어 경로 | Always | 열리지 | 
-코드 변환 가능 (B2BUA)\* | ' | 아니요, 끝점 간 오디오만 릴레이 합니다. | 
+코드 변환 가능 (B2BUA)\* | 예 | 아니요, 끝점 간 오디오만 릴레이 합니다. | 
 전세계 인스턴스 수 및 위치 | 총 8: 미국 동부와 서쪽에 2 개 # 암스테르담 및 더블린의 경우 2 홍콩 및 싱가포르의 2 일본의 2 (Q1CY2019에서 추가 됨)  | 개인
 
 IP 범위는 52.112.0.0/14입니다 (IP 주소는 52.112.0.1에서 52.115.255.254)입니다. 
@@ -145,15 +145,15 @@ IP 범위는 52.112.0.0/14입니다 (IP 주소는 52.112.0.1에서 52.115.255.25
 
 - 전송 릴레이는 B2BUA 되지 않으므로 클라이언트와 SBC 간에 코덱이 변경 되지 않음을 의미 합니다--릴레이를 통해 트래픽이 흐름을 진행 하는 경우에도 마찬가지입니다.
 
-### <a name="use-of-teams-transport-relays-in-escalation-scenarios-if-trunk-is-configured-for-media-bypass"></a>미디어 바이패스를 위해 트렁크가 구성 된 경우 에스컬레이션 시나리오에서 팀의 전송 릴레이를 사용 합니다.
+### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>미디어 바이패스를 위해 트렁크가 구성 된 경우 팀 미디어 프로세서 사용
 
-팀 전송 릴레이는 항상 다음과 같은 시나리오에서 미디어 경로에 있습니다.
+팀 미디어 프로세서는 항상 다음과 같은 시나리오에서 미디어 경로에 삽입 됩니다.
 
 - 1:1에서 그룹 통화로 통화 에스컬레이션
 - 연결이 페더레이션된 팀 사용자에 게 방문
 - 비즈니스용 Skype 사용자에 게 착신 전환 또는 전송
 
-SBC에 아래 설명 된 대로 전송 중계에 대 한 액세스 권한이 있는지 확인 합니다.    
+SBC에 아래 설명 된 대로 미디어 프로세서 및 트랜스포트 릴레이 범위에 대 한 액세스 권한이 있는지 확인 합니다.    
 
 
 ## <a name="sip-signaling-fqdns"></a>SIP 신호: Fqdn
@@ -243,7 +243,7 @@ SIP/TLS| SIP 프록시 | 하더라도 | 1024-65535 | SBC에 정의 됨 |
 
 클라이언트는 SBC의 공용 IP 주소에 지정 된 포트 (표 참조)에 액세스할 수 있어야 합니다. 
 
-참고: 클라이언트가 내부 네트워크에 있는 경우 미디어는 SBC의 공용 IP 주소로 흐릅니다. NAT 장치에서 hairpinning를 구성 하 여 트래픽이 엔터프라이즈 네트워크 장비를 떠나는 일을 받지 않도록 할 수 있습니다.
+참고: 클라이언트가 내부 네트워크에 있는 경우 미디어는 SBC의 공용 IP 주소로 흐릅니다. NAT 장치에서 헤어 고정을 구성할 수 있으므로 트래픽이 기업 네트워크 장비를 떠나는 일은 없습니다.
 
 | 통신량 | 보낸 사람 | 받는 사람 | 원본 포트 | 대상 포트|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -358,7 +358,7 @@ UDP/SRTP | 미디어 프로세서 | 하더라도 | 49 152 – 53 247    | SBC에
  
 ## <a name="see-also"></a>참고 항목
 
-[직접 라우팅으로 미디어 우회 구성](direct-routing-configure-media-bypass.md)
+[직접 라우팅을 위한 미디어 바이패스 구성](direct-routing-configure-media-bypass.md)
 
 
 

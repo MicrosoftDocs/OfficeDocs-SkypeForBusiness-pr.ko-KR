@@ -14,12 +14,29 @@ ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
 description: 대규모 배포에서 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 2bd78bd737622515ff0722aa3635cf1ebcc83a29
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+no-loc:
+- Microsoft
+- Microsoft Corporation
+- Microsoft Teams Rooms
+- Microsoft Teams Room
+- System Center
+- Configuration Manager
+- Windows
+- Surface
+- Surface Pro
+- Windows PE
+- Windows 10
+- Windows 10 Enterprise
+- Azure
+- Azure Monitor
+- Log Analytics
+- Operations Management Suite
+ms.openlocfilehash: d116ea000bc18bf0e9c017b67bfa104dcfa29795
+ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573630"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39218035"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>System Center Configuration Manager를 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -489,7 +506,7 @@ Microsoft 팀 대화방은 Surface Pro 및 Surface Pro 4에서 모두 지원 됩
 
 3.  Configuration Manager 콘솔에서 **소프트웨어 라이브러리** \> **운영 체제** \> **드라이버로**이동한 다음 **드라이버 가져오기를**선택 합니다.
 
-4.  **다음 네트워크 경로 (UNC)에서 모든 드라이버 가져오기를**선택 하 고 원본 폴더 (예\\: C:) 원본\\드라이버\\Surface Pro를 선택한 후 **다음**을 선택 합니다.
+4.  **다음 네트워크 경로 (UNC)에서 모든 드라이버 가져오기를**선택 하 고 원본 폴더 (예: C\\: _Sources\\drivers\\Surface Pro)를 선택한 후 **다음**을 선택 합니다.
 
 5.  **가져온 드라이버에 대 한 세부 정보 지정** 페이지에서 나열 된 모든 드라이버를 선택 하 고 **다음 드라이버 사용 및 컴퓨터에서 설치 하도록 허용**을 선택 합니다.
 
@@ -633,7 +650,7 @@ System Center Configuration Manager에서 작업 순서를 사용 하 여 운영
        -   이 단계를 편집 하 고 명령줄 매개 변수를 업데이트 하 여 **작업 영역 ID** 와 **작업 영역 키**를 지정 합니다.
        -   Operations Management Suite 작업 영역 ID 및 기본 키를 가져오는 방법에 대 한 자세한 내용은 [Azure 모니터링에 대 한 테스트 장치 구성을](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) 참조 하세요.
        -   **SRS v2-Microsoft Monitoring Agent 패키지** 및 **사용 안 함 64 비트 파일 시스템 리디렉션이** 선택 되어 있는지 확인 합니다.
-       -   Microsoft 팀 대화방 배포의 상태를 모니터링 하는 방법에 대 한 자세한 내용은 [Azure 모니터로 Microsoft 팀 대화방 관리 계획](azure-monitor-plan.md), [Azure 모니터로 microsoft 팀 대화방 관리 배포](azure-monitor-deploy.md) 및 [microsoft 관리를 참조 하세요. 팀 대화방 장치/Azure 모니터](azure-monitor-manage.md).
+       -   Microsoft 팀 대화방 배포의 상태를 모니터링 하는 방법에 대 한 자세한 내용은 azure [모니터로 Microsoft 팀 대화방 관리 계획](azure-monitor-plan.md), Azure 모니터로 [microsoft 팀 대화방 관리 배포](azure-monitor-deploy.md) 및 [azure Monitor를 사용 하 여 microsoft 팀 공간 장치 관리](azure-monitor-manage.md)를 참조 하세요.
 
    11. **SRS V2 구성 파일 복사**:이 단계에서는 Microsoft 팀 대화방 배포 키트의 필수 설정 파일과 구성 파일을 로컬 하드 드라이브에 복사 합니다. 이 단계에서는 사용자 지정이 필요 하지 않습니다.
        -   **Srs v2-Srs 응용 프로그램 패키지** 및 **사용 안 함 64 비트 파일 시스템 리디렉션이** 선택 되어 있는지 확인 합니다.
@@ -742,8 +759,8 @@ SMSTS .log 파일은 빌드 프로세스의 단계에 따라 여러 경로 중 �
 | **배포 단계**                                                            | **작업 순서 로그 경로**                         |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
 | WinPE, HDD 형식 앞                                                        | X:\\Windows\\\temp\\smstslog\\smsts. 로그             |
-| HDD 형식 이후 WinPE                                                         | C:\\_smstasksequence\\Logs\\Smstslog\\smsts. 로그    |
-| 구성 관리자 에이전트를 설치 하기 전에 배포 되는 운영 체제 | c:\\_smstasksequence\\Logs\\Smstslog\\smsts. 로그    |
+| HDD 형식 이후 WinPE                                                         | C:\\_SMSTaskSequence\\로그\\Smstslog\\smsts .log    |
+| 구성 관리자 에이전트를 설치 하기 전에 배포 되는 운영 체제 | c:\\_SMSTaskSequence\\로그\\Smstslog\\smsts .log    |
 | 운영 체제 및 구성 관리자 에이전트 배포 됨                   | % windir%\\System32\\ccm\\\\Smstslog\\smsts. i i 로그 |
 | 작업 순서 실행 완료                                                | % windir%\\System32\\ccm\\은\\smsts .log를 기록 합니다.           |
 

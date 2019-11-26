@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결 하는 방법을 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: ab76d3ee8a08b6bf109e1cb235b4f0f3a4fbdcc8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572149"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257477"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -125,7 +125,7 @@ SBC 도메인 이름은 테 넌 트의 "Domains"에 등록 된 이름 중 하나
 
 |**DNS 이름**|**SBC FQDN에 사용할 수 있습니다.**|**FQDN 이름 예제**|
 |:--- |:--- |:--- |
-contoso.com|'|**유효한 이름:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
+contoso.com|예|**유효한 이름:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|아니요|<br/>Onmicrosoft.com 도메인 사용은 SBC 이름에 대해 지원 되지 않습니다.
 
 새 도메인 이름을 사용 하 려 한다고 가정 합니다. 예를 들어 테 넌 트가 테 넌 트에 등록 된 도메인 이름으로 contoso.com sbc1.sip.contoso.com를 사용 하려고 합니다. 이름 sbc1.sip.contoso.com를 사용 하 여 SBC를 쌍으로 만들려면 먼저 테 넌 트의 "Domains"에 도메인 이름 sip.contoso.com을 등록 해야 합니다. 도메인 이름을 등록 하기 전에 sbc1.sip.contoso.com를 사용 하 여 SBC를 연결 하려고 하면 "sbc1.sip.contoso.com" 도메인이이 테 넌 트에 대해 구성 되지 않았으므로 사용할 수 없습니다. "라는 오류 메시지가 표시 됩니다.
@@ -264,7 +264,7 @@ SBC는 DNS 쿼리를 사용 하 여 sip.pstnhub.microsoft.com를 해결 합니�
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>미디어 트래픽: 포트 범위
-미디어 바이패스 없이 직접 라우팅을 배포 하려는 경우 아래 요구 사항이 적용 됩니다. 미디어 바이패스에 대 한 방화벽 요구 사항에 대해서는 [직접 라우팅의 미디어 바이패스 계획](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)을 참조 하세요.
+미디어 바이패스 없이 직접 라우팅을 배포 하려는 경우 아래 요구 사항이 적용 됩니다. 미디어 바이패스에 대 한 방화벽 요구 사항에 대해서는 [직접 라우팅의 미디어 바이패스 계획](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass)을 참조 하세요.
 
 
 
@@ -287,9 +287,8 @@ SBC는 DNS 쿼리를 사용 하 여 sip.pstnhub.microsoft.com를 해결 합니�
 
 |**통신량**|**보낸 사람**|**받는 사람**|**원본 포트**|**대상 포트**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|미디어 프로세서|하더라도|49 152 – 53 247|SBC에 정의 됨|
-|UDP/SRTP|하더라도|미디어 프로세서|SBC에 정의 됨|49 152 – 53 247|
-|
+|UDP/SRTP|미디어 프로세서|하더라도|49152 – 53247|SBC에 정의 됨|
+|UDP/SRTP|하더라도|미디어 프로세서|SBC에 정의 됨|49152 – 53247|
 
   > [!NOTE]
   > Microsoft는 SBC에서 동시에 포트를 두 개 이상 사용할 것을 권장 합니다.
