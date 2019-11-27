@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀의 동적 E911 기능에 대 한 긴급 통화 정책을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
 f1keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 4a1846217734142388fdf3466f68ccadea49c829
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1cd358453aa349fde51e4d66de412e8f9e2b72d5
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37639360"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615748"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 정책 관리
 
@@ -29,7 +29,7 @@ ms.locfileid: "37639360"
 
 조직에서 통화 계획 또는 배포 된 전화 시스템 직접 라우팅을 사용 하는 경우 Microsoft 팀에서 비상 전화 정책을 사용 하 여 조직의 팀 사용자가 긴급 통화를 할 때 수행 되는 작업을 정의할 수 있습니다. 정책을 할당할 사용자가 응급 서비스를 호출할 때 알릴 사람과 알림을 받을 방법을 설정할 수 있습니다. 예를 들어 조직의 보안 데스크에 자동으로 알리기 위해 정책 설정을 구성 하 고 긴급 전화를 수신 하도록 설정할 수 있습니다.  
 
-Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **음성** > **응급 정책** 으로 이동해 서 긴급 통화 정책을 관리할 수 있습니다. 사용자 및 [네트워크 사이트](location-based-routing-terminology.md)에 정책을 할당할 수 있습니다.
+Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **음성** > **응급 정책** 으로 이동해 서 긴급 통화 정책을 관리할 수 있습니다. 사용자 및 [네트워크 사이트](cloud-voice-network-settings.md)에 정책을 할당할 수 있습니다.
 
 사용자의 경우 전역 (조직 차원의 기본값) 정책을 사용 하거나 사용자 지정 정책을 만들고 할당할 수 있습니다. 사용자 지정 정책을 만들고 지정 하지 않으면 사용자가 자동으로 전역 정책을 가져옵니다. 전역 정책의 설정은 편집할 수 있지만 이름을 바꾸거나 삭제할 수 없다는 점에 유의 하세요. 네트워크 사이트의 경우 사용자 지정 정책을 만들고 할당 합니다.
 

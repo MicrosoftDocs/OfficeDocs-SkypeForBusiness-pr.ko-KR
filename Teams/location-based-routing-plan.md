@@ -1,9 +1,8 @@
 ---
-title: 직접 라우팅에 대 한 위치 기반 라우팅 계획
+title: 직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,14 +14,14 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c11d43f8fcf5418d27ca26e648291969779a8bf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 429ed4dcd2996c404b47839de036972d44cc0d26
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570691"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615818"
 ---
-# <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅에 대 한 위치 기반 라우팅 계획
+# <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -49,7 +48,7 @@ ms.locfileid: "37570691"
 
 위치 기반 라우팅은 비즈니스용 Skype 서버에서 사용 하는 것과 동일한 네트워크 지역, 사이트 및 서브넷 정의를 사용 합니다. 특정 위치에 대해 유료 바이패스를 사용 하는 경우 관리자는 해당 위치에 대 한 각 IP 서브넷과 각 PSTN 게이트웨이를 네트워크 사이트에 연결 합니다. 사용자의 위치는 PSTN 통화 시 사용자의 팀 끝점이 연결 된 IP 서브넷에 따라 결정 됩니다. 사용자는 서로 다른 사이트에 있는 여러 팀 클라이언트를 가질 수 있으며,이 경우 위치 기반 라우팅은 해당 끝점의 위치에 따라 각 클라이언트의 라우팅을 개별적으로 적용 합니다. 
 
-이 문서에서 사용 되는 몇 가지 네트워크 용어에 대해 자세히 알아보려면 [위치 기반 라우팅 용어](location-based-routing-terminology.md)를 참조 하세요.
+이 문서에서 사용 되는 몇 가지 네트워크 용어에 대해 자세히 알아보려면 [팀의 클라우드 음성 기능에 대 한 네트워크 설정을](cloud-voice-network-settings.md)참조 하세요.
 
 ## <a name="apply-location-based-routing"></a>위치 기반 라우팅 적용
 
@@ -72,7 +71,7 @@ ms.locfileid: "37570691"
 
 ### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>PSTN 게이트웨이에서 위치 기반 라우팅 적용 
 
-게이트웨이는 사이트에 연결 되어 위치 기반 라우팅에 대해 사용 하도록 설정 된 사용자가 PSTN 통화를 만들거나 받을 때 찾을 수 있는 위치를 결정 합니다. 위치 기반 라우팅에 대해 게이트웨이를 사용 하도록 설정 하 여 위치 기반 라우팅에 대해 사용 하도록 설정 하지 않은 사용자가 사용할 수 없도록 합니다. 동일한 게이트웨이가 여러 사이트에 연결 되어 있을 수 있으며, 사이트에 따라 위치 기반 라우팅에 대해 사용 하도록 설정 되거나 위치 기반 라우팅이 불가능 하도록 구성할 수 있습니다. 
+게이트웨이는 사이트에 연결 되어 위치 기반 라우팅에 대해 사용 하도록 설정 된 사용자가 PSTN 통화를 만들거나 받을 때 찾을 수 있는 위치를 결정 합니다. 위치 기반 라우팅에 대해 게이트웨이를 사용 하도록 설정 하 여 위치 기반 라우팅에 대해 사용 하도록 설정 하지 않은 사용자가 사용할 수 없도록 합니다. 동일한 게이트웨이가 여러 사이트에 연결 되어 있을 수 있으며, 사이트에 따라 위치 기반 라우팅에 대해 사용 하도록 설정 되거나 위치 기반 라우팅이 불가능 하도록 구성할 수 있습니다.
 
 ## <a name="scenarios-for-location-based-routing"></a>위치 기반 라우팅 시나리오
 
@@ -250,8 +249,10 @@ IPv4 및 IPv6 서브넷이 지원 되지만, 일치 여부를 확인할 때 IPv6
 PSTN 통화에 대 한 위치 기반 라우팅 사용 사용자는 다른 사용자 또는 PSTN 번호로 회의를 시작할 수 없습니다. 자동 전화 교환 또는 통화 대기열에 연결 하는 것이 허용 됩니다. 사용자가 회의 라이선스를 보유 한 경우 사용자는 관련 사용자와의 전화 회의를 시작 하 고 회의 브리지를 통해 PSTN을 전화 하 여 전화 회의를 시작 해야 합니다.  
 
 ## <a name="next-steps"></a>다음 단계
+
 [위치 기반 라우팅에 대 한 네트워크 설정 구성](location-based-routing-configure-network-settings.md)으로 이동 합니다.
 
-### <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 항목
+
 - [직접 라우팅에 위치 기반 라우팅 사용](location-based-routing-enable.md)
-- [위치 기반 라우팅 용어](location-based-routing-terminology.md)
+- [팀의 클라우드 음성 기능에 대 한 네트워크 설정](cloud-voice-network-settings.md)

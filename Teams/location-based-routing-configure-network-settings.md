@@ -1,9 +1,8 @@
 ---
-title: 위치 기반 라우팅에 대 한 네트워크 설정 구성
+title: 위치 기반 라우팅의 네트워크 설정 구성
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 audience: admin
@@ -15,96 +14,47 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 240bbce48452edf505a61830891d0fcd6a6d199d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 18df741dad691ba24d6950f132086b1f49b40684
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570702"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615848"
 ---
-# <a name="configure-network-settings-for-location-based-routing"></a>위치 기반 라우팅에 대 한 네트워크 설정 구성
+# <a name="configure-network-settings-for-location-based-routing"></a>위치 기반 라우팅의 네트워크 설정 구성
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 아직 수행 하지 않은 경우 위치 기반 라우팅에 대 한 네트워크 설정을 구성 하기 전에 수행 해야 하는 다른 단계를 검토 하도록 [직접 라우팅 계획 위치 기반 라우팅을](location-based-routing-plan.md) 읽어 보세요.
 
-이 문서에서는 위치 기반 라우팅에 대 한 네트워크 설정을 구성 하는 방법을 설명 합니다. 조직에 직접 전화 시스템 라우팅을 배포한 후 다음 단계는 네트워크 지역, 네트워크 사이트 및 네트워크 서브넷을 만들고 설정 하는 것입니다. 이 문서의 단계를 완료 하려면 PowerShell cmdlet에 대해 잘 알고 있어야 합니다. 자세히 알아보려면 [팀 PowerShell 개요](teams-powershell-overview.md)를 참조 하세요.
+이 문서에서는 위치 기반 라우팅에 대 한 네트워크 설정을 구성 하는 방법을 설명 합니다. 조직에 직접 전화 시스템 라우팅을 배포한 후 다음 단계는 네트워크 지역, 네트워크 사이트 및 네트워크 서브넷을 만들고 설정 하는 것입니다.
 
 ## <a name="define-network-regions"></a>네트워크 지역 정의
- 네트워크 영역은 여러 지리적 영역에 걸친 네트워크의 다양 한 부분을 상호 구성 합니다. [새-Csten앤틸리스 지역](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) cmdlet을 사용 하 여 네트워크 지역을 정의 합니다. 영역 ID 매개 변수는 영역의 지리를 나타내는 논리 이름이 며, 종속성 또는 제한이 없으며 CentralSite &lt;site ID&gt; 매개 변수는 선택 사항입니다. 
 
-```
-New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
-```
-
-이 예제에서는 인도 라는 네트워크 영역을 만듭니다. 
-```
-New-CsTenantNetworkRegion -NetworkRegionID "India"  
-```
+네트워크 지역에는 네트워크 사이트 컬렉션이 포함 되며 여러 지리적 영역에 걸친 네트워크의 다양 한 부분을 상호 구성 합니다. 네트워크 지역을 구성 하는 방법에 대 한 단계는 [팀의 클라우드 기능에 대 한 네트워크 토폴로지 관리](manage-your-network-topology.md)를 참조 하세요.
 
 ## <a name="define-network-sites"></a>네트워크 사이트 정의
 
-[새-Csten앤틸리스 site](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) cmdlet을 사용 하 여 네트워크 사이트를 정의 합니다. 
+네트워크 사이트는 사무실, 건물 집합 또는 캠퍼스와 같이 조직이 실제 장소를 보유 하 고 있는 위치를 나타냅니다. 토폴로지의 각 네트워크 사이트를 네트워크 영역과 연결 해야 합니다. 네트워크 사이트를 구성 하는 방법에 대 한 단계는 [팀에서 클라우드 기능에 대 한 네트워크 토폴로지 관리](manage-your-network-topology.md)를 참조 하세요.
 
-```
-New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
-```
-이 예제에서는 인도 지역에 2 개의 새 네트워크 사이트, 뉴델리 및 Hyderabad을 만듭니다. 
-```
-New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India" 
-New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India" 
-```
-다음 표에는이 예제에 정의 된 네트워크 사이트가 나와 있습니다. 
-
-||사이트 1 |사이트 2 |
-|---------|---------|---------|
-|사이트 ID    |    사이트 1(뉴델리)     |  Site 2 (Hyderabad)       |
-|지역 ID  |     지역 1 (인도)    |   지역 1 (인도)      |
+위치 기반 라우팅에 대 한 모범 사례는 고유한 PSTN 연결이 있는 각 위치에 대해 별도의 사이트를 만드는 것입니다. 위치 기반 라우팅이나 위치 기반 라우팅에 사용할 수 없는 사이트를 만들 수 있습니다. 예를 들어 위치 기반 라우팅에 대해 사용 하도록 설정 되지 않은 사이트를 만들어 해당 사이트로 로밍할 때 PSTN 통화를 할 수 있도록 위치 기반 회람을 사용 하도록 설정 하는 것이 좋습니다.
 
 ## <a name="define-network-subnets"></a>네트워크 서브넷 정의
 
-[새-Csten앤틸리스 subnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet을 사용 하 여 네트워크 서브넷을 정의 하 고 네트워크 사이트에 연결 합니다. 각 내부 서브넷은 한 사이트에만 연결 될 수 있습니다. 
-```
-New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
-```
-이 예제에서는 서브넷 192.168.0.0과 뉴델리 네트워크 사이트 간 연결과 서브넷 2001 간 연결 (4898: e8:25:844e: 926f: 85ad: dd8e 및 Hyderabad network site를 만듭니다.
-```
-New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi" 
-New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad" 
-```
-다음 표에는이 예제에 정의 된 서브넷이 나와 있습니다. 
+각 서브넷은 특정 네트워크 사이트에 연결 되어 있어야 합니다. 여러 서브넷을 동일한 네트워크 사이트에 연결할 수 있지만 여러 사이트를 동일한 서브넷에 연결할 수는 없습니다. 네트워크 서브넷을 구성 하는 방법에 대 한 단계는 [팀의 클라우드 기능에 대 한 네트워크 토폴로지 관리](manage-your-network-topology.md)를 참조 하세요.
 
-||사이트 1 |사이트 2 |
-|---------|---------|---------|
-|서브넷 ID   |    192.168.0.0     |  2001:4898: e8:25:844e: 926f: 85ad: dd8e     |
-|마스킹하  |     fps    |   120      |
-|사이트 ID  | 사이트 (뉴델리) | Site 2 (Hyderabad) |
+위치 기반 라우팅의 경우 팀 끝점이 네트워크에 연결 될 수 있는 위치에 있는 IP 서브넷을 정의 하 고 정의 된 네트워크에 연결 해야 수신자의 부담을 피할 수 있습니다. 서브넷 연결을 사용 하면 위치 기반 라우팅이 끝점을 찾아 지리적으로 지정 된 PSTN 통화를 허용 해야 하는지 여부를 결정할 수 있습니다. IPv6 및 IPv4 서브넷이 모두 지원 됩니다. 팀 종단점이 사이트에 있는지 여부를 결정할 때 위치 기반 라우팅은 먼저 일치 하는 IPv6 주소를 확인 합니다. IPv6 주소가 없으면 위치 기반 라우팅이 IPv4 주소를 확인 합니다.
 
-여러 서브넷의 경우 다음과 같은 스크립트를 사용 하 여 CSV 파일을 가져올 수 있습니다.
-```
-Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
-```
-이 예제에서 CSV 파일은 다음과 같습니다.
-```
-Identity, Mask, SiteID 
-172.11.12.0, 24, Redmond 
-172.11.13.0, 24, Chicago 
-172.11.14.0, 25, Vancouver 
-172.11.15.0, 28, Paris
-```
-## <a name="define-external-subnets"></a>외부 서브넷 정의
-[New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet을 사용 하 여 외부 서브넷을 정의 하 고 테 넌 트에 할당 합니다. 테 넌 트에 대해 무제한 개수의 서브넷을 정의할 수 있습니다. 
-```
-New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
-```
-예를 들면 다음과 같습니다.
-```
-New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
-```
+## <a name="define-trusted-ip-addresses-external-subnets"></a>신뢰할 수 있는 IP 주소 정의 (외부 서브넷)
+
+신뢰할 수 있는 IP 주소는 엔터프라이즈 네트워크의 인터넷 외부 IP 주소 이며 사용자의 끝점이 회사 네트워크 내에 있는지 여부를 확인 하는 데 사용 됩니다. 신뢰할 수 있는 IP 주소를 구성 하는 방법에 대 한 단계는 [팀의 클라우드 기능에 대 한 네트워크 토폴로지 관리](manage-your-network-topology.md)를 참조 하세요.
+
+사용자의 외부 IP 주소가 신뢰할 수 있는 IP 주소 목록에 있는 IP 주소와 일치 하는 경우 위치 기반 라우팅에서 사용자의 끝점이 있는 내부 서브넷을 확인 합니다. 사용자의 외부 IP 주소가 신뢰할 수 있는 IP 주소 목록에 정의 된 IP 주소와 일치 하지 않는 경우 끝점은 알 수 없는 위치에 있는 것으로 분류 되며 위치 기반 라우팅에 대해 사용 하도록 설정 된 사용자에 대 한 PSTN 호출이 차단 됩니다.
 
 ## <a name="next-steps"></a>다음 단계
+
 [직접 라우팅에 대해 위치 기반 라우팅 사용](location-based-routing-enable.md)으로 이동 합니다.
 
-### <a name="related-topics"></a>관련 항목
-- [직접 라우팅에 대 한 위치 기반 라우팅 계획](location-based-routing-plan.md)
-- [위치 기반 라우팅 용어](location-based-routing-terminology.md)
+## <a name="related-topics"></a>관련 항목
+
+- [팀의 클라우드 음성 기능에 대 한 네트워크 설정](cloud-voice-network-settings.md)
