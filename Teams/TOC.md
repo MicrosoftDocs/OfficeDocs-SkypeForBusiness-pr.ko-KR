@@ -115,6 +115,7 @@
 ## [설정이 변경되면 사용자에게 전송되는 전자 메일](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [모임의 시작 및 종료 알림 설정 또는 해제](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [지원 되지 않는 브라우저에서 Teams 모임](unsupported-browsers.md)
 ## [Teams에서 데스크톱 공유 구성](configure-desktop-sharing.md)
 ## [Teams 클라우드 모임 녹음/녹화](cloud-recording.md)
 ## [Outlook에서 Teams 모임 추가 기능 사용](teams-add-in-for-outlook.md)
@@ -339,7 +340,6 @@
 ### [여러 테넌트에 대해 세션 경계 컨트롤러 구성](direct-routing-sbc-multiple-tenants.md)
 ### [직접 라우팅으로 인증된 SBC(Session Border Controller) 목록](direct-routing-border-controllers.md)
 ### 위치 기반 라우팅
-#### [위치 기반 라우팅 용어](location-based-routing-terminology.md)
 #### [직접 라우팅으로 전달되는 위치 기반 라우팅 계획](location-based-routing-plan.md)
 #### [위치 기반 라우팅의 네트워크 설정 구성](location-based-routing-configure-network-settings.md)
 #### [직접 라우팅에 위치 기반 라우팅 사용](location-based-routing-enable.md)
@@ -374,10 +374,15 @@
 ### [다이얼 플랜이 무엇인가요?](what-are-dial-plans.md)
 ### [다이얼 플랜 만들기 및 관리](create-and-manage-dial-plans.md)
 ### [보고 레이블 추가 및 업데이트](learn-more-about-site-upload.md)
+
+## 네트워크 설정 및 토폴로지
+### [클라우드 음성 기능에 대한 네트워크 설정](cloud-voice-network-settings.md)
+### [클라우드 음성 기능에 대한 네트워크 토폴로지 관리](manage-your-network-topology.md)
+
 ## 비상 전화
-### [동적인 긴급 전화 계획 및 구성](configure-dynamic-emergency-calling.md)
+### [개요](what-are-emergency-locations-addresses-and-call-routing.md)
+### [동적인 긴급 전화 구성](configure-dynamic-emergency-calling.md)
 ### 긴급 주소 관리
-#### [응급 위치, 장소 및 통화 라우팅이란?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [조직의 응급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)
 #### [조직의 응급 위치에 대한 장소 추가, 변경 또는 제거](add-change-remove-emergency-place-organization.md)
 #### [사용자의 응급 위치 할당 또는 변경](assign-change-emergency-location-user.md)
