@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: 이 항목에서는 Microsoft 팀 공간 소프트웨어를 사용 하도록 Lync 대화방 시스템 장치를 마이그레이션하는 방법을 알아봅니다.
-ms.openlocfilehash: 377e901446d69e0956ff981b1b45686c949cf61c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 2a324e426368722cf261554b09298f098644d5ba
+ms.sourcegitcommit: 74c06b00ff78dc816a59e6c59e9be87181fc0f3e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675362"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39669276"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>LRS (Lync 채팅방 System) 장치를 Microsoft 팀 대화방으로 마이그레이션
 
@@ -25,7 +25,7 @@ ms.locfileid: "38675362"
 
 Microsoft 팀 대화방 소프트웨어는 모든 Microsoft 팀 회의실 지원 장치에서 모임 및 통화를 위한 비즈니스용 Skype 서버 및 온라인 서비스 외에도 Microsoft 팀과 함께 작동 합니다.
 
-Skype 대화방 시스템 v1 소프트웨어 지원이 종료 된 후에도 기존 장치가 계속 작동할 **수 있습니다** . 그러나이 소프트웨어가 수정 프로그램을 릴리스 해야 하는 소프트웨어 버그에 도달 하는 경우에는 지원 되지 않습니다. SRS v1은 향후 Microsoft에서 더 이상 사용 하지 않는 TLS 1.0/1.1를 사용 합니다. [TLS 1.0/1.1의 중단을 준비](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)하는 방법에 대해 자세히 알아볼 수 있습니다. Microsoft 팀 대화방은 TLS 1.2에 대 한 지원을 추가 하며 10 월 2018 31 일 이전에는 계속 해 서 작동 합니다. 비즈니스용 Skype 온-프레미스 고객은 Microsoft 팀 대화방에서 tls 1.0/1.1의 사용 중단에 대 한 일반 지침에 관계 없이 tls 1.2에 대 한 지원을 알릴 때까지 TLS 1.0/1.1을 비활성화 해서는 안 됩니다.
+Skype 대화방 시스템 v1 소프트웨어 지원이 종료 된 후에도 기존 장치가 계속 작동할 **수 있습니다** . 그러나이 소프트웨어가 수정 프로그램을 릴리스 해야 하는 소프트웨어 버그에 도달 하는 경우에는 지원 되지 않습니다. SRS v1은 향후 Microsoft에서 더 이상 사용 하지 않는 TLS 1.0/1.1를 사용 합니다. [TLS 1.0/1.1의 중단을 준비](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)하는 방법에 대해 자세히 알아볼 수 있습니다. 
 
 ## <a name="which-devices-are-affected"></a>어떤 장치가 영향을 받습니까?
 
@@ -57,8 +57,6 @@ Crestron은 [SR 시스템의 crestron](https://www.crestron.com/products/feature
 
 TLS 1.0/1.1에서는 위에 언급 된 업그레이드 옵션을 사용 하 여 Lync 채팅방 시스템 장치를 Microsoft 팀 방에 업데이트 하도록 계획 하는 것이 좋습니다. 또한 기존 장치를 Microsoft 팀 방에 대해 인증 된 새 장치로 바꾸는 것도 고려할 수 있습니다. 자세한 내용은 [방 장치](https://aka.ms/roomdevices) 를 참조 하 고 [Microsoft 팀 방에 대 한 요구 사항을](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)살펴보세요.  
 
-> [!NOTE]
-> Microsoft 팀 대화방에서는 터치 및 화이트 보드 기능이 아직 지원 되지 않습니다. 터치 및 화이트 보드 지원은 현재 Microsoft 팀 대화방에 대해 계획 되어 있으며 2019에 추가 됩니다.
 
 > [!NOTE]
 > Microsoft 팀 대화방 소프트웨어는 앱 버전 4.0.64.0를 사용 하 여 2018 년 12 월 14 일의 TLS 1.2 프로토콜을 지원 합니다. 온-프레미스 고객의 경우 TLS 1.2를 통해 Microsoft 팀 방에 대 한 통신을 사용 하도록 설정 하려면 비즈니스용 Skype Server 2015 누적 업데이트 CU9) 또는 비즈니스용 Skype 서버 2019 누적 업데이트 1 (CU1)이 필요 합니다. 클라이언트 변경 내용이 정방향이 고 역방향으로 호환 되는 경우 변경 내용이 비즈니스용 Skype Online 고객에 게 영향을 미치지 않습니다.

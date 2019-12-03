@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 이 문서에서는 Microsoft 팀 회의실 콘솔과 주변 장치를 설정 하는 방법을 설명 합니다.
-ms.openlocfilehash: 6172e37b53934bc75ae7f5bdf848fd503ffe2e8a
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: fd09d7e9d70a5912469d4ed2d79a4dc8f465eeb6
+ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675776"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39665441"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft 팀 대화방 콘솔 구성
 
@@ -45,6 +45,9 @@ Microsoft 팀 공간 콘솔 앱을 설치 하려면 최소한 32GB의 용량을 
 
 > [!NOTE]
 > 아래 프로세스는 새 Microsoft 팀 공간 장치를 이미지 하기 위해 설치 미디어를 만드는 것입니다. 기존 장치는 기본적으로 Windows Update 및 Windows 스토어에서 자동으로 업데이트 됩니다.
+
+> [!IMPORTANT]
+> Microsoft 팀 대화방 설치 미디어를 만드는 데 사용 되는 Windows 10 컴퓨터는 대상 설치 미디어로 Windows의 동일한 버전 또는 최신 버전 이어야 합니다.
   
 1. [CreateSrsMedia 스크립트](https://go.microsoft.com/fwlink/?linkid=867842)를 다운로드 합니다.
 2. Windows 10 컴퓨터의 관리자 권한 프롬프트에서 CreateSrsMedia 스크립트를 실행 합니다.
