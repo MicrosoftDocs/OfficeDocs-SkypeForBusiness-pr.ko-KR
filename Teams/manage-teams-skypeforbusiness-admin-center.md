@@ -3,7 +3,6 @@ title: 새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/08/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 0d473ffa67b21c4ec3a160a8687a1688ea1d1cf5
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 3d856e0cb9792e4e83dad9daa3e0716ffd3981c8
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37570583"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679248"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
 ======================================================
@@ -57,7 +56,7 @@ ms.locfileid: "37570583"
 |팀 및 채널     |         |AAD 그룹 관리로 리디렉션합니다 (현재 환경과 동일).             |사용자          |
 |들|기본적으로 새 외부 앱 사용|조직 전체 앱 설정|테 넌 트|
 |들|외부 앱 허용|조직 전체 앱 설정|테 넌 트|
-|들|외부 앱의 테스트용 로드 허용<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|사용자|
+|들|외부 앱의 테스트용 로드 허용<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|사용자|
 |들|기본 앱<sup>3</sup>|TeamsAppPermissionPolicy|사용자|
 |들|외부 앱<sup>3</sup>|TeamsAppPermissionPolicy|사용자|
 |통화 및 모임     |비공개 모임에 대 한 예약 허용         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |사용자          |
@@ -66,7 +65,7 @@ ms.locfileid: "37570583"
 |통화 및 모임     |모임에서 비디오 허용         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |사용자          |
 |통화 및 모임     |모임에서 화면 공유 허용         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |사용자          |
 |통화 및 모임     |개인 통화 허용         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |사용자          |
-|메시징     |사용자가 대화에 gif를 추가할 수 있도록 Giphy 설정         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |사용자         |
+|메시징     |사용자가 대화에 Gif를 추가할 수 있도록 Giphy 설정         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |사용자         |
 |메시징     |콘텐츠 등급         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |사용자         |
 |메시징     |사용자가 편집 하 고 대화에 추가할 수 있는 밈         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |사용자         |
 |메시징     |사용자가 편집 하 고 대화에 추가할 수 있는 스티커 사용         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |사용자         |
@@ -79,7 +78,7 @@ ms.locfileid: "37570583"
 <br><br>
 <sup>2</sup> 테스트용 로드는 다음과 같이 나누어집니다.
 
-- 사용자가 [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)의 사용자 수준에서 관리할 수 있는 앱을 테스트용으로 로드 수 있도록 허용 합니다.
+- 사용자가 [TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)의 사용자 수준에서 관리할 수 있는 앱을 테스트용으로 로드 수 있도록 허용 합니다.
 - 테 넌 트에서 사용자가 조직 전체 앱 설정의 테 넌 트 수준에서 관리할 수 있는 사용자 지정 앱과 상호 작용할 수 있도록 허용 합니다.
  
 <sup>3</sup> TeamsAppPermissionPolicy의 사용자 수준에서 기본 앱 및 외부 앱을 사용 하도록 설정 하거나 사용 하지 않도록 설정할 수 있습니다. 또한 사용자 및 테 넌 트 수준 설정을 재정의 하는 조직 전체 앱 설정에서 테 넌 트 수준에서 앱을 차단할 수 있습니다. 
@@ -113,32 +112,3 @@ ms.locfileid: "37570583"
 ## <a name="manage-settings-after-the-migration"></a>마이그레이션 후 설정 관리
 
 이러한 설정에 대 한 마이그레이션이 완료 되 면 Office 365 관리 센터와 비즈니스용 Skype 관리 센터에서 사용 하지 않도록 설정 하 고 새 Microsoft 팀 관리 센터에서 관리할 수 있습니다.
-
-
-## <a name="edu-migration-june-july-2019"></a>.EDU 마이그레이션 6 월-2019
-
-6 월과 7 월 2019 동안 남은 .EDU 테 넌 트는 이전 관리자 환경 (Microsoft 365 관리 센터)에서 팀 관리 센터로 마이그레이션됩니다. 마이그레이션에 대 한 자세한 내용은 Microsoft 365 관리 센터의 메시지 센터를 확인 하세요. 마이그레이션한 후에 표시 되는 내용은 다음과 같습니다.
-
-|Microsoft 365 관리 센터의 팀 섹션  |설정 이름 (테 넌 트 수준)  |Microsoft 팀 관리 센터 정책   |수준: 테 넌 트 또는 사용자   |
-|---------|---------|---------|---------|  
-| 메시징  |소유자가 보낸 메시지를 삭제할 수 있음 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
-| 메시징 | 사용자가 보낸 메시지를 삭제할 수 있음 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
-| 메시징  | 사용자가 보낸 메시지를 편집할 수 있음 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |사용자|
-| 메시징 | 사용자가 채팅할 수 있도록 허용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
-| 메시징 | 대화에서 Giphy 사용 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
-| 메시징 | Giphy 콘텐츠 등급 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
-| 메시징 | 대화에서 밈 사용  |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
-| 메시징 | 대화에서 스티커 사용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
-
-또한 Microsoft 팀 관리 센터 에서만 사용할 수 있는 설정은 다음과 같습니다.
-
-|설정 이름 | Microsoft 팀 관리 센터 정책 | 수준: 테 넌 트 또는 사용자
-|-------------|-------------------------------------|---------|
-|URL 미리 보기 허용 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
-|사용자가 그룹 채팅에서 사용자를 제거할 수 있도록 허용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
-|몰입 형 리더의 메시지 보기 허용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| 사용자 |
-|사용자가 메시지를 번역할 수 있도록 허용 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| 사용자 |
-|읽음 확인 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
-|사용자는 우선 순위 알림을 보낼 수 있습니다. | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 사용자 |
-|음성 메시지 만들기 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| 사용자 |
-|모바일 장치에서 최근 채팅 위에 즐겨찾기 채널 표시 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| 사용자 |

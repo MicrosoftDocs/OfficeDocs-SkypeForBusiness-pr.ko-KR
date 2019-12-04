@@ -20,19 +20,19 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: 9d700ae83dd62c8308e7a792acd2d97c999649fa
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8a4d7b60485f9411faeb46f8745735039f4dd21b
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570248"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679318"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft 팀에서 사용자 지정 앱 정책 및 설정 관리
 
 > [!NOTE]
 > 앱 Studio를 사용 하려면 [c #/.net 및 App studio에서 Microsoft 팀 플랫폼 시작](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio) 을 참조 하세요. 마지막 단계는 아직 작동 하지 않기 때문에 [microsoft 팀에 앱 패키지를 업로드](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload)하려면 zip을 다운로드 하 여 기존 방법으로 설치 해야 합니다.
 
-관리자는 사용자 지정 앱 정책 및 설정을 사용 하 여 조직에서 Microsoft 팀에 사용자 지정 앱을 업로드할 수 있는 사용자를 제어할 수 있습니다. 관리자는 사용자 지정 앱을 업로드할 수 있는 사용자를 결정 하 고, 관리자와 팀 소유자는 조직의 특정 팀이 사용자 지정 앱을 추가할 수 있도록 허용할지 여부를 결정할 수 있습니다.  
+관리자는 사용자 지정 앱 정책 및 설정을 사용 하 여 조직에서 Microsoft 팀에 사용자 지정 앱을 업로드할 수 있는 사용자를 제어할 수 있습니다. 관리자는 사용자 지정 앱을 업로드할 수 있는 사용자를 결정 하 고, 관리자와 팀 소유자는 조직의 특정 팀이 사용자 지정 앱을 추가할 수 있도록 허용할지 여부를 결정할 수 있습니다.  사용자 지정 앱 정책을 편집 하 고 나면 변경 내용이 적용 되는 데 최대 24 시간이 걸릴 수 있습니다.
 
 ## <a name="overview-of-custom-apps"></a>사용자 지정 앱 개요
 
@@ -103,7 +103,7 @@ ms.locfileid: "37570248"
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>조직 전체에 걸친 사용자 지정 앱 설정 구성
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱** > **권한 정책**으로 이동 합니다.
+1. [Microsoft 팀 관리 센터](https://admin.teams.microsoft.com/)의 왼쪽 탐색 창에서 **팀 앱** > **권한 정책**으로 이동 합니다.
 2. **조직 전체 앱 설정을**클릭 합니다.
 3. **사용자 지정 앱**에서 **사용자 지정 앱과 상호 작용 허용**또는 해제를 설정 합니다.
 
@@ -130,4 +130,4 @@ ms.locfileid: "37570248"
 | 등    | 등        | 등        | 사용자가 팀 소유자 인지 여부에 관계 없이 팀에 사용자 지정 앱을 업로드할 수 있습니다. 사용자는 개인 컨텍스트에서 사용자 지정 앱을 업로드할 수 있습니다.       |
 
  ## <a name="related-topics"></a>관련 항목
-- [팀의 앱에 대 한 관리자 설정](admin-settings.md)
+- [Team에서 앱의 관리 설정](admin-settings.md)
