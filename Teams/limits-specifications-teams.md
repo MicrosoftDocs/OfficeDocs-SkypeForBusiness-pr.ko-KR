@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b11f326f35d7c30ffba29e4247db75800eeb3790
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 098477cc36237736009e1ec2010fea625d08937c
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231099"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679238"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -38,10 +38,11 @@ ms.locfileid: "38231099"
 |전역 관리자가 만들 수 있는 팀의 수        |  500,000   |
 |Office 365 테넌트가 보유할 수 있는 팀의 수    | 500,000&sup2;     |
 |팀당 채널 수    | 200(삭제된 채널 포함)&sup3;         |
+|팀당 비공개 채널 수    |30|
 
 &sup1;Azure Active Directory의 모든 디렉터리 개체는 이 제한에 포함됩니다. 전역 관리자는 [응용 프로그램 사용 권한](https://docs.microsoft.com/graph/permissions-reference)을 사용하여 Microsoft Graph를 호출하는 앱과 마찬가지로 이 제한에서 제외됩니다.
 
-&sup2;이 제한에는 아카이브된 팀이 포함됩니다.
+&sup2;이 제한에는 보관된 팀이 포함됩니다.
 
 &sup3;삭제된 채널은 30일 이내에 복원될 수 있습니다. 이 30일 동안에는 삭제된 채널이 팀당 200채널 한도에 계속 포함됩니다. 30일 후에는 삭제된 채널과 해당 콘텐츠가 영구적으로 삭제되고 채널이 더 이상 팀당 200채널 한도에 포함되지 않습니다.
 
