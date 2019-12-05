@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 이 항목에서는 차세대 Skype 대화방 시스템인 Microsoft 팀 회의실 관리에 대해 자세히 알아보세요.
-ms.openlocfilehash: 003ede11615e42ec120d618f0a732df58d10f452
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: aeab9235b54138d649cee2f5e67a76a109c36c6a
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675342"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842480"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 팀 회의실 유지 관리 및 운영 
  
@@ -49,10 +49,10 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft 팀 대화방 재설정 (출하 시 복원)
 <a name="Reset"> </a>
 
-Microsoft 팀 채팅방이 제대로 실행 되 고 있지 않은 경우 공장 초기화를 수행 하는 데 도움이 될 수 있습니다. **복구** 탭의 설정 앱에서이 작업을 수행할 수 있습니다. **이 PC 초기화**아래에서 **시작**을 선택한 다음 **모두 제거**합니다. 나머지 메시지에 따라 장치를 재설정 합니다.
-  
+Microsoft 팀 채팅방이 제대로 실행 되 고 있지 않은 경우 공장 초기화를 수행 하는 데 도움이 될 수 있습니다. 이렇게 하려면 [Microsoft 팀 대화방 복구 도구](recovery-tool.md) 를 사용 하 여 공장 복원 지침을 따르세요.
+
 > [!NOTE]
-> Microsoft 팀 대화방을 사용할 수 없게 되는 알려진 문제가 있습니다. **내 파일 유지-앱과 설정을 제거 하지만,** Windows 재설정 프로세스 중에 개인 파일 옵션 유지 옵션이 선택 되어 있습니다. 이 옵션을 사용 _하지_ 마세요.
+> Microsoft 팀 대화방을 사용할 수 없게 되는 알려진 문제가 있습니다. **내 파일 유지-앱과 설정을 제거 하지만,** Windows 재설정 프로세스 중에 개인 파일 옵션 유지 옵션이 선택 되어 있습니다. 이 옵션을 사용 *하지* 마세요.
   
 ## <a name="supported-remote-options"></a>지원 되는 원격 옵션
 <a name="RemoteOptions"> </a>

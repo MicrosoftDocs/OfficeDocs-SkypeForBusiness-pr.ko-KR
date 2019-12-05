@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 이 문서를 참조 하 여 직접 라우팅에 대 한 미디어 경로 국가 코드를 찾습니다.
-ms.openlocfilehash: 8607b6720104e743243851ad7edac20811ecd29f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 277544a5b169c2e2e17cea530239e992321d3d46
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572215"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837570"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>직접 라우팅 미디어 경로 국가 코드
 
@@ -46,7 +46,7 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 미국령 사모아  | 문자열로 |
 | (모든)         | 임시로 |
 | 앙골라          | AO |
-| Anguilla        | AL.EXE |
+| Anguilla        | AI |
 | 대륙      | AQ | 
 | 앤티가 바부다 | AG |
 | 아르헨티나       | AR |
@@ -62,7 +62,7 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 벨로루시         | 여 |
 | 벨기에         | 않을 |
 | 벨리즈          | BZ |
-| Benin           | 카트리지로 |
+| 베냉           | 카트리지로 |
 | 버뮤다         | (모두) |
 | 부탄          | BT |
 | 볼리비아         | 상자 |
@@ -122,9 +122,9 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 프랑스 남쪽 지역 | HELP |
 | Gabon           | GA |
 | 감비아          | GM |
-| 그루지야         | GE |
+| 조지아         | GE |
 | 독일         | 로케이터 |
-| 가 나           | GH |
+| 가나           | GH |
 | 지       | GI |
 | 그리스          | GR |
 | 표준시       | GL |

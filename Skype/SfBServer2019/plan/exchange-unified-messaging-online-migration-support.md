@@ -8,22 +8,21 @@ audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection: ''
 description: Microsoft는 2020 년 2 월에 ExchUMO (Exchange 통합 메시징 Online) 서비스를 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 인식 하 고 비즈니스 연속성을 계획 하기 위해 수행 해야 하는 작업을 요약 합니다.
-ms.openlocfilehash: abaf16996a6d634bac77118e35b30228c2a43e07
-ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
+ms.openlocfilehash: 6fe0436d0ae4df2b4eb56a3c84319770b45f3139
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38702309"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842470"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
-2019 년 2 월 8 일 [공지 사항](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) 에 대 한 참조에서 Microsoft는 2020에서 Exchange um Online (ExchUMO) 서비스를 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 알아야 할 사항에 대해 요약 하 여 비즈니스 연속성을 계획 합니다. 
+2019 년 2 월 8 일 [공지 사항](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) 에 대 한 참조에서 Microsoft는 2020에서 Exchange um Online (ExchUMO) 서비스를 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 알아야 할 사항에 대해 요약 하 여 비즈니스 연속성을 계획 합니다.
  
-ExchUMO는 보이스 메일, 자동 전화 교환, 통화 대기열 및 팩스 통합 서비스에 대해 고객에 의해 배포 됩니다. 고객이 비즈니스용 Skype Online 및 Microsoft 팀에서 수천 명의 고객을 지 원하는 전화 시스템 서비스로 마이그레이션하는 데 도움이 되는 Microsoft 계획입니다. 
+ExchUMO는 보이스 메일, 자동 전화 교환, 통화 대기열 및 팩스 통합 서비스에 대해 고객에 의해 배포 됩니다. 고객이 비즈니스용 Skype Online 및 Microsoft 팀에서 수천 명의 고객을 지 원하는 전화 시스템 서비스로 마이그레이션하는 데 도움이 되는 Microsoft 계획입니다.
 
-보이스 메일은 주로 Microsoft 기반 마이그레이션입니다. 고객의 하위 집합에 대 한 관리자의 참여 및/또는 투자가 필요할 수 있습니다. 자동 전화 교환은 관리 기반 마이그레이션입니다. 클라우드 자동 전화 교환 클라우드 서비스에서 기존 ExchUMO 자동 전화 교환 트리를 다시 만들어야 합니다. 타사 pbx로 ExchUMO 기능을 소모 하는 고객은 타사 PBX 시스템을 지원 하지 않으므로 Skype 클라우드 서비스로 마이그레이션되지 않습니다. 타사 지원에 대 한 만료 요금제는 [이 블로그에서](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)발표 되었으며,이 배포 모델의 고객은 Microsoft의 통합 커뮤니케이션 플랫폼/서비스 중 하나로 사용자를 마이그레이션하거나 이러한 사용자를 위한 타사 보이스 메일 및/또는 자동 전화 교환 솔루션을 받을 수 있습니다. 클라우드 기반 서비스에서는 팩스 통합이 지원 되지 않습니다. 고객은 타사 솔루션으로 마이그레이션해야 합니다.
+보이스 메일은 주로 Microsoft 기반 마이그레이션입니다. 고객의 하위 집합에 대 한 관리자의 참여 및/또는 투자가 필요할 수 있습니다. 자동 전화 교환은 관리 기반 마이그레이션입니다. 클라우드 자동 전화 교환 클라우드 서비스에서 기존 ExchUMO 자동 전화 교환 트리를 다시 만들어야 합니다. 타사 pbx로 ExchUMO 기능을 사용 하는 고객은 타사 PBX 시스템을 지원 하지 않기 때문에 Skype 클라우드 서비스로 마이그레이션되지 않습니다. 타사 지원에 대 한 만료 요금제는 [이 블로그에서](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)발표 되었으며,이 배포 모델의 고객은 Microsoft의 통합 커뮤니케이션 플랫폼/서비스 중 하나로 사용자를 마이그레이션하거나 이러한 사용자를 위한 타사 보이스 메일 및/또는 자동 전화 교환 솔루션을 받을 수 있습니다. 클라우드 기반 서비스에서는 팩스 통합이 지원 되지 않습니다. 고객은 타사 솔루션으로 마이그레이션해야 합니다.
 
 ### <a name="who-is-affected"></a>누가 영향을 받습니까?
 
@@ -49,11 +48,11 @@ Microsoft는 ExchUMO의 기능을 사용 하는 다양 한 고객 배포를 식�
 |필수 구성 요소가 있는 고객<br><br>마이그레이션할 기능:<br><ul><li>음성 메일<li>자동 전화 교환<li>통화 대기열</ul> |  일 년 5 월 2019 |예제의 <br><ul><li>하이브리드 구성이 완료 되지 않음<li>하이브리드 PSTN 번호가 설정 되지 않음</ul>|
 |관리 참여를 필요로 하는 고객에 대 한 고객 투자 &<br><br>마이그레이션할 기능:<ul><li>보이스 메일<li>자동 전화 교환<li>통화 대기열<li>팩스 통합</ul>| 2020 년 2 월  | 예제의 <br><ul><li>ExchUMO 서비스는 타사 PBX에서 사용 합니다.<li>PSTN 구독자 액세스 요구 사항이 있는 고객<li>SFB 2010의 고객 (지원 되지 않음)<li>팩스 통합</ul> |
 
-## <a name="migration-steps"></a>마이그레이션 단계
+## <a name="voicemail-migration-steps"></a>보이스 메일 마이그레이션 단계
 
 1.  **알림을 받으세요**
  
-    [블로그 알림과](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) 사용자를 위한 원활한 마이그레이션을 계획 하는 문서를 숙지 하세요. 전화 시스템 보이스 메일 기능에 대 한 자세한 내용은 [비즈니스용 Skype 보이스 메일 및 옵션을 확인](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) 하세요.  
+    [블로그 알림과](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) 사용자를 위한 원활한 마이그레이션을 계획 하는 문서를 숙지 하세요. 전화 시스템 보이스 메일 기능에 대 한 자세한 내용은 [비즈니스용 Skype 보이스 메일 및 옵션을 확인](https://support.office.com/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) 하세요.  
  
 2.  **비즈니스용 Skype 하이브리드 토폴로지 설정**
 
@@ -96,7 +95,28 @@ Microsoft는 ExchUMO의 기능을 사용 하는 다양 한 고객 배포를 식�
  
     - 테 넌 트 ID: 32 문자 숫자 형식으로 0046728c-688a-4472-a38f-098fec60ac6x. 테 넌 트 ID는 Azure AD 아래의 Microsoft 365 관리 포털에서 또는 다음 PowerShell cmdlet을 사용 하 여 찾을 수 있습니다.`Get-CsTenant | Select ObjectId`
  
-    테 넌 트가 성공적으로 마이그레이션된 후 전자 메일 확인을 받습니다. 
+    테 넌 트가 성공적으로 마이그레이션된 후 전자 메일 확인을 받습니다.
+
+## <a name="auto-attendant-migration-guidelines"></a>자동 전화 교환 마이그레이션 지침
+
+Office 365 테 넌 트 관리자는 Microsoft 클라우드 자동 전화 교환 서비스에서 Exchange UM Online 자동 전화 교환을 다시 만들고 해당 온-프레미스 전화 번호를 전환 해야 합니다 (2020 1 ~ 2, UMO 서비스를 사용 하는 경우). 됨. 새 클라우드 자동 전화 교환을 성공적으로 마이그레이션하고 테스트 하는 데 권장 되는 지침입니다. 많은 수의 자동 전화 교환이 있는 경우 [EXCHANGE UM 자동 전화 교환을](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) 사용 하 여 자동 전화 교환의 대량 마이그레이션을 단순화할 수 있습니다.
+
+### <a name="setup"></a>Setup.exe
+
+지난 몇 분간 문제를 방지 하 고 클라우드 자동 전화 교환 서비스의 기능 및 환경을 익힐 수 있도록 새로운 자동 전화 교환의 설정을 시작 하는 것이 좋습니다. 하나 이상의 간격 기능이 필요한 자동 전화 교환의 경우, 배포 준비에 간격 기능을 사용할 수 있는 경우 자동 전화 교환을 만들고 테스트할 수 있습니다. Gap 기능에 대 한 자세한 내용은 [부록](#appendix)을 참조 하세요.
+
+1. Exchange UMO cmdlet을 사용 하 여 기존의 자동 전화 교환 구성을 내보낼 [수 있습니다.](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant)  
+2. Exchange Online PowerShell의 [Export-UMprompt](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/export-umprompt) cmdlet을 사용 하 여 인사말 미디어 파일 (사용 되는 경우)을 내보내고이를. mp3 형식으로 변환 합니다.
+3. [클라우드 자동 전화 교환 계획](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) 의 지침에 따라 Microsoft 팀 관리 센터 또는 Powershell을 사용 하 여 자동 전화 교환을 만들려면 [클라우드 자동 전화 교환을 설정](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) 합니다.
+4. 메뉴 옵션이 변경 된 경우 인사말을 검토 합니다.
+5. 이 문서의 [알려진 문제점](#known-issues) 섹션에 있는 "PSTN으로 자동 전화 교환" 해결 방법을 사용 하 여 응답 그룹에 대 한 전송을 구성 합니다.  
+6. 새로운 자동 전화 교환을 테스트 합니다. 테스트 하려면 내부적으로 호출 하거나 테스트 전화 번호를 할당 합니다.  
+
+### <a name="cutover"></a>단독형
+
+1. 전화 번호를 Exchange UMO 자동 전화 교환에서 새로운 자동 전화 교환으로 전환 합니다.
+2. SIP URI를 contact 개체에서 자원 계정으로 이동 합니다.
+3. 새로 할당 된 전화 번호를 사용 하 여 자동 전화 교환을 테스트 하 고 유효성을 검사 합니다. 
 
 ## <a name="appendix"></a>부록
 
@@ -127,7 +147,7 @@ Microsoft는 ExchUMO의 기능을 사용 하는 다양 한 고객 배포를 식�
 | VM | 사용자 기능 | 보이스 메일 전달  | 받은 보이스 메일을 다른 사용자에 게 전달 | 피지 | 피지    |
 | VM | 사용자 기능 | 사용자 그룹에 음성 메시지 보내기  |보이스 메일 브로드캐스트   | 개 | 피지   |
 | VM | 사용자 기능 | SMS를 사용 하 여 보이스 메일 알림    | 사용자가 새 보이스 메일을가지고 있는 SMS를 받을 수 있습니다.    | 개 | 피지    |
-| VM | 사용자 기능 | 지원 되는 인사말 언어 | 세부 정보:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | 피지 | 피지    |
+| VM | 사용자 기능 | 지원 되는 인사말 언어 | 세부 정보:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | 피지 | 피지    |
 | VM | 사용자 기능 | 통화 응답 규칙 |  | 피지 | 피지    |
 | VM | 사용자 기능 | 전화에서 재생 (PSTN)-메시지 재생 | 내 셀에 전화를 걸어 음성 메시지 듣기  | 개 | 피지    |
 | VM | 사용자 기능 | 전화에서 재생 (인증)-메시지 재생 | 인증 된 장치에서 전화 걸기  | 피지 | 피지    |
@@ -153,7 +173,7 @@ Microsoft는 ExchUMO의 기능을 사용 하는 다양 한 고객 배포를 식�
 | A | 서비스 기능 | Microsoft 팀 지원|  | 피지 | 개    |
 | A | 서비스 기능 | 이름으로 전화 걸기, DTMF 입력    |  | 피지 | 피지    |
 | A | 서비스 기능 | 이름으로 전화 걸기, 음성 입력  |  | 피지 | 피지    |
-| A | 서비스 기능 | 다중 언어 지원 | 언어 세부 정보:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | 피지 | 피지    |
+| A | 서비스 기능 | 다중 언어 지원 | 언어 세부 정보:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | 피지 | 피지    |
 | A | 서비스 기능 | 교환원, CQ 또는 사용자에 게 전송 |  | 피지 | 피지    |
 | A | 서비스 기능 | 내부 PSTN 번호로 전송 (RNL)  |  | 피지 | 피지    |
 | A | 서비스 기능 | 외부적으로 PSTN 번호로 전송  |  | 아래의 알려진 문제 확인 섹션 | 피지    |
@@ -164,7 +184,7 @@ Microsoft는 ExchUMO의 기능을 사용 하는 다양 한 고객 배포를 식�
 | A | 서비스 기능 | 사용자 정의 선택  | 호출자가 조직 사용자의 사용자 지정 목록에 도달 하도록 설정| 피지 | 피지    |
 | A | 서비스 기능 | 시간 및 휴일 처리  |  | 피지 | 피지    |
 | A | 서비스 기능 | 텍스트 읽어주기를 사용 하 여 사용자 지정 인사말  |  | 피지 | 피지    |
-| A | 서비스 기능 | 내선 번호   | 내선 번호를 사용 하 여 사용자에 게 도달  | CY19   | 피지    |
+| A | 서비스 기능 | 내선 번호   | 내선 번호를 사용 하 여 사용자에 게 도달  | 피지   | 피지    |
 | A | 서비스 기능 | AA 발신자가 메시지를 남기기 위한 사서함    |  | CY19   | 피지    |
 | A | 서비스 기능 | AA에 여러 개의 PSTN 번호 할당|  | 피지 | 피지    |
 | A | 테 넌 트-관리자 기능 | 웹 포털 관리   |  | 피지 | 개    |
@@ -201,13 +221,13 @@ Microsoft는 ExchUMO의 기능을 사용 하는 다양 한 고객 배포를 식�
 |VM 메시지에 대 한 Outlook 규칙 | 변경 내용 없음<br>이전에 만든 규칙은 마이그레이션 후 CVM 메시지에 적용 됩니다.
  |
 
-#### <a name="user-management-and-provisioning-in-cvm"></a>CVM의 사용자 관리 및 프로비저닝 
+#### <a name="user-management-and-provisioning-in-cvm"></a>CVM의 사용자 관리 및 프로비저닝
 
 새로운 비즈니스용 Skype 사용자는 클라우드 보이스 메일을 만들 때 자동으로 프로 비전 됩니다. 새 보이스 메일 사용자를 프로 비전 하는 데 추가 관리자 작업 또는 라이선스가 필요 하지 않습니다. 기존 및 새 사용자의 정책 관리에 대해 알아보려면 [클라우드 보이스 메일 설정을](/microsoftteams/set-up-phone-system-voicemail) 참조 하세요.
 
-#### <a name="admin-auto-attendant-management-experience"></a>관리 자동 전화 교환 관리 환경 
+#### <a name="admin-auto-attendant-management-experience"></a>관리 자동 전화 교환 관리 환경
 
-자동 전화 교환에 대해 자세히 알아보려면 [클라우드 자동 전화 교환 설정을](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)참조 하세요. 
+자동 전화 교환에 대해 자세히 알아보려면 [클라우드 자동 전화 교환 설정을](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)참조 하세요.
 
 #### <a name="known-issues"></a>알려진 문제
 
@@ -217,14 +237,14 @@ PSTN 번호 전송 기능을 사용 하 여 품질 보장 중에 확인 된 문�
  
 예상 경험
 - 해결 방법 이므로 관리자는 가상 사용자에 게 라이선스를 추가할 필요가 없습니다. 
-- 관리자는 가상 사용자에 게 원하는 번호를 할당 하거나 SBC 숫자 조작 기능을 사용 하 여 PSTN 수신기에 게 표시 되는 발신자 ID를 조작할 수 있습니다. 
+- 관리자는 가상 사용자에 게 원하는 번호를 할당 하거나 SBC 숫자 조작 기능을 사용 하 여 PSTN 수신기에 게 표시 되는 발신자 ID를 조작할 수 있습니다.
 - PSTN 발신자는 통화를 전송 하는 동안 아무런 지연이 발생 하지 않으며, 전송이 성공한 후 자동 전화 교환의 발신자 ID를 계속 해 서 확인 하 게 됩니다.  
 
 **공유 사서함:** Exchange UM Online을 사용 하 여 구성 된 공유 사서함은 CVM으로 마이그레이션한 후에도 계속 메시지를 받지만 Outlook을 통해 사용자는 계속 액세스할 수 있습니다. 그러나 이러한 사서함의 인사말 메시지를 변경 하는 데 대 한 액세스는 CVM으로 마이그레이션한 후에는 사용할 수 없습니다. 자동 전화 교환 호출자를 캡처하는 데 사용 되는 공유 사서함이 있는 고객은 자동 전화 교환 및 전화를 건 후 공유 사서함 기능 (에타 10 월 2019)을 활용 해야 합니다.
   
 **SFB 클라이언트에서 팀 배너로 업그레이드:** CVM 서비스는 Microsoft 팀 인프라를 기반으로 합니다. 비즈니스용 Skype 클라이언트에서 전화를 거는 경우 "사용자 이름으로 인해 비즈니스용 Skype를 사용 하 고 있지 않습니다." 라는 정보 배너가 클라이언트에 표시 될 수 있습니다. 더 풍부한 환경을 위해 팀으로 전환 하거나 Skype 모임을 시작 하세요. "
-이 배너가 나타나지 않도록 하려면 사용자의 비즈니스용 Skype 클라이언트를 최신 C2R 클라이언트 업데이트로 업데이트 해야 합니다. 
+이 배너가 나타나지 않도록 하려면 사용자의 비즈니스용 Skype 클라이언트를 최신 C2R 클라이언트 업데이트로 업데이트 해야 합니다.
   
-보이스 **메일을 설정 하면 OWA를 사용할 수 있습니다.** 클라이언트에서 "음성 메일 설정"을 클릭 하면 CVM으로 마이그레이션한 후 비즈니스용 Skype 서버 2015/2013 고객을 OWA (Office Web Access) 포털 페이지에 계속 사용 합니다. OWA의 보이스 메일 탭에서 모든 설정이 제거 되었고, 사용자를 CVM 사용자 설정 포털로 이동할 수 있는 리디렉션 링크가 있는 배너가 표시 됩니다. 
+보이스 **메일을 설정 하면 OWA를 사용할 수 있습니다.** 클라이언트에서 "음성 메일 설정"을 클릭 하면 CVM으로 마이그레이션한 후 비즈니스용 Skype 서버 2015/2013 고객을 OWA (Office Web Access) 포털 페이지에 계속 사용 합니다. OWA의 보이스 메일 탭에서 모든 설정이 제거 되었고, 사용자를 CVM 사용자 설정 포털로 이동할 수 있는 리디렉션 링크가 있는 배너가 표시 됩니다.
  
-**인사말 모바일 액세스 변경:** PSTN 구독자 액세스는 CVM에서 지원 되지 않습니다. 원격으로 인사말을 변경 해야 하는 사용자의 경우, "인사말 변경" 메뉴 옵션이 모바일 클라이언트의 보이스 메일 IVR 서비스에 추가 됩니다. 사용자가 모바일 클라이언트 다이얼 패드에서 "1" 키를 누르고 있으면이 서비스를 호출할 수 있습니다. 
+**인사말 모바일 액세스 변경:** PSTN 구독자 액세스는 CVM에서 지원 되지 않습니다. 원격으로 인사말을 변경 해야 하는 사용자의 경우, "인사말 변경" 메뉴 옵션이 모바일 클라이언트의 보이스 메일 IVR 서비스에 추가 됩니다. 사용자가 모바일 클라이언트 다이얼 패드에서 "1" 키를 누르고 있으면이 서비스를 호출할 수 있습니다.

@@ -14,19 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eb64afd9e226b3e59e3444b0ed15d2463902c5e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 622a173985d68260b210d844052d3b08dc5b5b88
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569865"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842430"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 및 Microsoft 팀의 상호 작용 방식
 
 > [!Tip]
 > 다음 세션에서 팀이 Azure Active Directory (AAD), Office 365 그룹, Exchange, SharePoint 및 비즈니스용 OneDrive와 상호 작용 하는 방법에 대해 알아보세요. [Microsoft 팀의 기초](https://aka.ms/teams-foundations)
 
-전체 팀 경험을 위해서는 모든 사용자가 Exchange Online, SharePoint Online 및 Office 365 그룹 만들기를 사용할 수 있어야 합니다.
+전체 Teams 환경에서 모든 사용자에 대해 Exchange Online, SharePoint Online 및 Office 365 그룹 만들기가 가능하도록 설정해야 합니다.
 
 사용자의 Exchange 사서함을 온라인 또는 온-프레미스로 호스트할 수 있습니다. 그러나 일부 기능을 사용 하려면 Office 365 테 넌 트를 통해 하이브리드 배포를 배치 해야 합니다.
 
@@ -41,12 +41,12 @@ Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Office 365
 
 **지원 되는 작업:**
 
-| 사용자의 사서함이 호스트 되는 위치: | eDiscovery| 법률&nbsp;보류 | 보관| 팀 및 채널 관리 |모임 만들기 및 보기| 사용자 프로필 사진 수정 | 통화 기록 | 연락처 관리 | Outlook 연락처에 액세스 | 보이스 메일 |커넥터 추가 및 구성|탭 추가 및 구성|봇 추가 및 구성| 
+| 사용자의 사서함이 호스트 되는 위치: | eDiscovery| 법률&nbsp;보류 | 보관| 팀 및 채널 관리 |모임 만들기 및 보기| 사용자 프로필 사진 수정 | 통화 기록 | 연락처 관리 | Outlook 연락처에 액세스 | 음성 메일 |커넥터 추가 및 구성|탭 추가 및 구성|봇 추가 및 구성| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|예 <sup>2</sup>|예 <sup>2</sup>|'|'|'|'|'|'|'|'|'|'|'|
-|**Exchange Online 전용 vNext**|예 <sup>2</sup>|예 <sup>2</sup>|'|'|'|'|'|'|'|'|'|'|'|
-|**Exchange Online 전용-레거시** (Azure AD와 동기화 필요)|예 <sup>2</sup>|예 <sup>2, 3</sup>|예 <sup>4|'|아니요|아니요|'|'|아니요|예 <sup>5|예 <sup>6|'|'|
-|**Exchange 온-프레미스** (Azure AD와 동기화 필요)|예 <sup>2</sup>| 예 <sup>2, 3</sup> |예 <sup>4|'|Yes (Exchange 2016 CU3 이상 +)|Yes (Exchange 2016 CU3 이상 +)|'|'|아니요|예 <sup>5|예 <sup>6|'|'|
+|**Exchange Online**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예|예|예|예|예|예|예|예|
+|**Exchange Online 전용 vNext**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예|예|예|예|예|예|예|예|
+|**Exchange Online 전용-레거시** (Azure AD와 동기화 필요)|예 <sup>2</sup>|예 <sup>2, 3</sup>|예 <sup>4|예|아니요|아니요|예|예|아니요|예 <sup>5|예 <sup>6|예|예|
+|**Exchange 온-프레미스** (Azure AD와 동기화 필요)|예 <sup>2</sup>| 예 <sup>2, 3</sup> |예 <sup>4|예|Yes (Exchange 2016 CU3 이상 +)|Yes (Exchange 2016 CU3 이상 +)|예|예|아니요|예 <sup>5|예 <sup>6|예|예|
 
 <sup>1</sup> EXCHANGE 2016 cu3 이상 이상 지원 됩니다.  
 
@@ -79,7 +79,7 @@ Microsoft 팀은 다양 한 Office 365 서비스를 사용 하 여 사용자에 
 >Exchange 온-프레미스 및 팀 통합의 경우 AAD 동기화 된 사용자에 대해 필요한 라이선스를 할당 해야 합니다.
 
 > [!IMPORTANT]
-> 사용자를 **팀 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거 하는 경우 Outlook 및 다른 Office 앱에서 현재 상태는 작동 중지 됩니다. 팀에서 상태는 제대로 작동 합니다. 해결 방법: Outlook (및 다른 Office 앱)에서 현재 상태를 확인 하려면 팀 **전용** 모드로 팀을 실행 하는 경우에도 비즈니스용 Skype를 설치 해야 합니다. Microsoft는이 문제를 알고 있으며 수정 작업을 진행 중입니다.
+> 사용자를 **팀 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거 하는 경우 Outlook 및 다른 Office 앱에서 현재 상태가 중지 될 수 있습니다. 팀에서 상태는 제대로 작동 합니다. 이 문제를 해결 하려면 Microsoft 팀의 오른쪽 위 모서리에서 프로필 사진을 선택한 다음 **설정을**선택 합니다. **일반** 탭의 **응용 프로그램**에서 **Office 용 채팅 앱으로 팀 등록 (office 응용 프로그램을 다시 시작 해야 함)** 을 선택 합니다. 이 옵션을 선택한 후 Outlook을 포함 하 여 모든 Office 앱을 닫았다가 다시 엽니다. Outlook을 열면 현재 상태 정보를 사용할 수 있게 됩니다.
 
 ## <a name="additional-considerations"></a>추가 고려 사항
 
