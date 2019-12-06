@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 953cfc1ba7c9b05954859f7bc8ac1db2352b3a0e
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516653"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871724"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft 팀에서 조직 전체 팀 만들기
 
@@ -70,7 +70,7 @@ ms.locfileid: "37516653"
 
 구성원이 조직 차원의 팀을 팀 소유자로 남겨둘 수는 없지만 자신이 속해 있지 않은 계정을 제거 하 여 팀 명단을 관리할 수 있습니다. **팀을 사용 하 여 조직 전체 팀에서 사용자를 제거**해야 합니다. Microsoft 365 관리 센터 또는 Outlook의 그룹에서 사용자를 제거 하는 다른 방법을 사용 하는 경우 사용자가 조직 전체 팀에 다시 추가 될 수 있습니다.
 
-## <a name="faq"></a>자주 묻는 질문(FAQ)
+## <a name="faq"></a>FAQ
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>팀 클라이언트를 사용 하는 것 외에도 조직 전체 팀을 만들 수 있는 방법이 있나요?
 
@@ -81,3 +81,7 @@ ms.locfileid: "37516653"
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>기존 팀을 조직 전체 팀으로 변환 하는 방법이 있나요?
 
 전역 관리자는 팀 클라이언트에서 기존 팀을 편집 하 여 조직 전체 팀으로 변환할 수 있습니다. 팀 이름으로 이동 하 고 **추가 옵션** > 을 클릭 하 여**팀을 편집**합니다.
+
+## <a name="see-also"></a>참고 항목
+
+[Microsoft 팀에서 회사 차원의 팀 만들기](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)에 대 한 비디오를 시청 하세요.

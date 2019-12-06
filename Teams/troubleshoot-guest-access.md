@@ -15,18 +15,18 @@ description: Microsoft 팀에서 게스트 액세스 문제 해결을 참조 하
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 2931a3f5440492aa1ab99a53cd196ab2973eb122
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: e0a3530b7a1f9029d9f671d0a02ef58cbb7907bf
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311263"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871734"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft 팀의 게스트 액세스 문제 해결
 ======================================================
 
 > [!IMPORTANT]
-> 변경 내용이 적용 되려면 최대 24 시간 동안 기다려야 할 수 있습니다. 
+> 변경 내용이 적용 되려면 24 시간까지 기다려야 할 수 있습니다. 
 
 
 - 팀에서 게스트 액세스에 대 한 현재 지원 문제를 확인 하려면 [팀 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)으로 이동 하세요.

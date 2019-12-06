@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 비즈니스용 Skype Online 및 팀 구성 관점에서 직접 라우팅하기 위해 마이그레이션하는 데 필요한 사항에 대해 알아보세요.
-ms.openlocfilehash: 9fb644c938c61fd9dd1c78362ad90bfe855e97ec
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: dd0b2cd1ac6014ea0f6c79a46314eb4e3d5e0380
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37572182"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871714"
 ---
 # <a name="migrate-to-direct-routing"></a>직접 라우팅으로 마이그레이션
 
@@ -89,6 +89,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 ```
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
+> 전역 CsVoiceRoutingPolicy 구성 된 경우이 글로벌 정책과 연결 된 PSTN 사용량을 제거 하는 것이 좋습니다. 
+
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>클라우드 커넥터 에디션을 통해 온-프레미스 PSTN 연결을 사용 하 여 Office 365 전화 시스템에서 마이그레이션 
 
 클라우드 커넥터를 통해 온-프레미스 PSTN 연결을 사용 하 여 전화 시스템을 마이그레이션하는 방법에 대 한 자세한 내용은 다음을 참조 하세요.
