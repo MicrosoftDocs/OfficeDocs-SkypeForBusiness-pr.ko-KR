@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21d0ff8f9cd256010bc4767cf2f6f415b1c808c7
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: 7274669e4567be02efbd2fdeb4c6524ce6e55f38
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679308"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871694"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams 상용 클라우드 평가판 관리
 =======================================================
@@ -27,7 +27,7 @@ ms.locfileid: "39679308"
 Microsoft Teams 상용 클라우드 평가판은 조직에 속한 Microsoft Teams 라이선스가 없는 기존의 Office 365 사용자에게 제품의 1년 평가판을 시작할 수 있는 권한을 제공합니다. 관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다. 
 
 > [!IMPORTANT]
-> Microsoft Teams 상용 클라우드 평가판은 늘어난 Teams의 기능에 대한 추가 서비스 플랜을 포함하도록 업데이트되었으며 이제 조직의 청구 관리자가 소유하고 관리합니다. 따라서 평가판을 더 쉽게 관리할 수 있고 다른 모든 Microsoft 365 서비스와 일관되게 사용할 수 있습니다. 
+> Microsoft Teams Commercial 클라우드 평가판은 2020년 1월부터 Microsoft Teams Exploratory로 대체됩니다. 이 새로운 제품에 대해 알아보려면 [Teams Exploratory 라이센스 관리](teams-exploratory.md)를 읽어보세요.
 
 ## <a name="whats-in-the-offer"></a>제안에 포함된 사항
 
