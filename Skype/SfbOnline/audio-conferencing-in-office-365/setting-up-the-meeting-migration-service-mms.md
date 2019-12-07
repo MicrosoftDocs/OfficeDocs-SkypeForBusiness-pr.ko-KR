@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: MMS (모임 마이그레이션 서비스)는 백그라운드에서 실행 되며 사용자를 위해 비즈니스용 Skype 및 Microsoft 팀 모임을 자동으로 업데이트 하는 서비스입니다. MMS는 사용자가 모임 마이그레이션 도구를 실행 하 여 비즈니스용 Skype 및 Microsoft 팀 모임을 업데이트 하지 않아도 되도록 설계 되었습니다.
-ms.openlocfilehash: 3f643f20937fd13b0d9576640487da30f17dd7bf
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 91fcc1b95e107f36a55516e7f459eb8fae581bbe
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772282"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890532"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>MMS (모임 마이그레이션 서비스) 사용
 
@@ -128,7 +128,7 @@ MMS를 트리거하는 시점부터, 일반적으로 사용자의 모임이 마�
 **SourceMeetingType:**
 - 을 `SourceMeetingType SfB` 사용 하면 Skype for Business 모임만 (온-프레미스 또는 온라인)으로 업데이트 해야 한다는 것을 나타냅니다.
 - 사용 `SourceMeetingType Teams` 은 팀 모임만 업데이트 해야 함을 나타냅니다.
-- 을 `SourceMeetingType All` 사용 하 여 Skyep 비즈니스 모임 및 팀 모임 모두를 업데이트 해야 함을 나타냅니다. 이 값이 SourceMeetingType의 기본값입니다.
+- 을 `SourceMeetingType All` 사용 하 여 비즈니스용 Skype 모임 및 팀 모임을 모두 업데이트 해야 함을 나타냅니다. 이 값이 SourceMeetingType의 기본값입니다.
     
 
 아래 예제에서는 모든 모임이 팀으로 마이그레이션될 수 있도록 사용자 ashaw@contoso.com에 대 한 모임 마이그레이션을 시작 하는 방법을 보여 줍니다.
@@ -208,7 +208,7 @@ Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

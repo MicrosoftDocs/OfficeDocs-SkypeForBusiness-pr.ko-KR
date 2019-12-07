@@ -16,23 +16,23 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 787849735883b25d8cb002c06f3e455438193769
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: ef56b6e62b39d0ef0d9464c9d24b9b34d17e87cc
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209064"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886195"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams에 오신 것을 환영합니다.
 조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되면 [Teams 배포 방법](How-to-roll-out-teams.md)과 함께 시작해보겠습니다.
-
-최종 사용자 Teams 도움말을 찾고 있는 경우 앱의 왼쪽에 있는 **도움말**을 클릭하거나 [Microsoft Teams 도움말 센터](https://support.office.com/teams)로 이동합니다. 교육을 받으려면 [Microsoft Teams 교육](training-microsoft-teams-landing-page.md)으로 이동합니다. 
 
 Teams를 새로 사용하는 사용자로서 자세히 알아보려면 당사의 짧은 [Teams에 오신 것을 환영합니다](https://www.youtube.com/embed/s3aQV3T0D6c) 비디오를 시청하세요(55초).
 
 Teams 관리자를 위한 Teams에 오신 것을 환영합니다 비디오를 놓치지 마세요(3분 조금 초과).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+
+최종 사용자 Teams 도움말을 찾고 있는 경우 앱의 왼쪽에 있는 **도움말**을 클릭하거나 [Microsoft Teams 도움말 센터](https://support.office.com/teams)로 이동합니다. 교육을 받으려면 [Microsoft Teams 교육](training-microsoft-teams-landing-page.md)으로 이동합니다. 
 
 ## <a name="teams-architecture"></a>Teams 아키텍처
 
