@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 907155bea3b73252006f17a512a96123da4153e4
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: c76a50c330a6f67a61edcb29861eecb76312f05a
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290958"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886253"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -31,7 +31,9 @@ Teams는 조직을 위해 즉시 사용 가능한 뛰어난 공동 작업 환경
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-*2019년 11월의 새로운 기능*: 이제 [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams를 배포하는 데 도움을 받을 수 있습니다](use-advisor-teams-roll-out.md). Advisor for Teams(미리 보기)는 Teams의 배포 과정을 안내합니다. Advisor for Teams(미리 보기)는 Office 365 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다.
+*2019년 11월의 새로운 기능*
+ - 사용자는 이제 [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams 배포에 도움을 받을 수 있습니다](use-advisor-teams-roll-out.md). Advisor for Teams(미리 보기)는 Teams의 배포 과정을 안내합니다. Advisor for Teams(미리 보기)는 Office 365 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다.
+ - Teams를 배포, 구성, 관리하는 방법을 보여주는 짧은(8-10분) 비디오를 포함한 [IT YouTube 채널용 Microsoft Teams 중요 기능](https://aka.ms/MicrosoftTeamsforIT)
 
 > [!TIP]
 > 초기 Teams 롤아웃을 진행 시 Planner와 같은 추천 앱을 포함하는 것이 좋습니다. Teams의 채택을 진행하면서 다른 [앱, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 추가합니다.
