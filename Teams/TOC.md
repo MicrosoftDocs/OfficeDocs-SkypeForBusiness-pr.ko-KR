@@ -42,7 +42,6 @@
 ### [개요](deploy-apps-microsoft-teams-landing-page.md)
 ### [앱 사용 권한 및 고려 사항](app-permissions.md)
 ### [Team에서 앱의 관리 설정](admin-settings.md)
-### [Teams에서 개인 채팅, 그룹 채팅 및 채널을 위한 봇 추가](add-bots.md)
 ### [기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)
 ### [Office 365 및 사용자 지정 커넥터 사용](Office-365-custom-connectors.md)
 ### [사용자의 LOB(기간 업무) 앱 관리](manage-your-lob-apps.md)
@@ -866,6 +865,7 @@
 ### [VDI(Virtualized Desktop Infrastructure)용 Teams](teams-for-vdi.md)
 ### [Surface Hub용 Teams 배포](teams-surface-hub.md)
 ### [Teams 클라이언트 업데이트](teams-client-update.md)
+### [설치 및 업데이트 문제 해결](troubleshoot-installation.md)
 
 ## 라이선싱
 ### [Teams에 대한 사용자 액세스 관리](user-access.md)
