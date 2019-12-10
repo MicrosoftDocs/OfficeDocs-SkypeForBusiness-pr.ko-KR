@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 993b01e1ba362b6990c65f067ff2d63d921a1916
-ms.sourcegitcommit: 9d5a83dcb3d86f37cd7714ca92b197696681748b
+ms.openlocfilehash: f8ea5133998e9d11e5ab070ffe66f7e719252ee5
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831601"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919150"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft 팀 용 클라이언트 가져오기 
 
@@ -109,7 +109,8 @@ DEB 또는 RPM 패키지를 설치 하면 패키지 리포지토리가 자동으
 시스템의 패키지 관리자를 사용 하 여 자동 업데이트를 사용 하도록 설정 하는 서명 키가 자동으로 설치 됩니다. 그러나 다음https://packages.microsoft.com/keys/microsoft.asc)위치에서 찾을 수도 있습니다. Microsoft 팀은 매달 제공 되 고 리포지토리가 올바르게 설치 된 경우 시스템의 다른 패키지와 같은 방식으로 시스템 패키지 관리자가 자동 업데이트를 처리 해야 합니다.
 
 > [!NOTE] 
-> Linux 클라이언트의 팀은 제한 된 미리 보기에서 사용할 수 있습니다. 클라이언트 내에서 `Report a Problem` 를 사용 하 여 버그를 제출 합니다. 알려진 문제는 [알려진 문제점](Known-issues.md)을 참조 하세요.
+> 버그를 찾았으면 클라이언트 내에서이를 사용 `Report a Problem` 하 여 제출 합니다. 알려진 문제는 [알려진 문제점](Known-issues.md)을 참조 하세요.
+> Linux 용 팀 지원이 필요한 경우 (Microsoft Q&A) [https://docs.microsoft.com/answers/topics/teams.html]에 linux 포럼 지원 채널을 사용할 수 있습니다. 질문을 게시할 때 태그 `teams-linux` 를 사용 해야 합니다. 
 
 #### <a name="install-teams-using-deb-package"></a>DEB 패키지를 사용 하 여 팀 설치
 

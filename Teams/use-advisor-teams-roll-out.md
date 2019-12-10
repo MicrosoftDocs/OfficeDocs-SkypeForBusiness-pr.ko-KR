@@ -18,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams 배포를 계획하고 완료할 수 있습니다.
-ms.openlocfilehash: f7de348c6f8ca60cc1d062fce79725b4b18d0350
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 63a3ae01dbe47323fd9227e65fa8c38a2d725ddf
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209194"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909474"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -35,6 +35,8 @@ Advisor for Teams는 [Teams 관리 센터](https://admin.teams.microsoft.com)의
 
 > [!IMPORTANT]
 > Advisor for Teams는 Microsoft 365 정부 기관, GCC High 또는 DoD 배포에는 사용할 수 없습니다.
+
+이 [Teams 배포 및 구성 소개](https://youtu.be/o2mlsUubIO4?t=44) 동영상 (Advisor for Teams는 0:50-3:15 분)에서 Advisor for Teams를 확인하세요.
 
 ## <a name="using-advisor-for-teams-preview"></a>Advisor for Teams 사용(미리 보기)
 
