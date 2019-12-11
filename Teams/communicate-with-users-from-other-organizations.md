@@ -15,12 +15,12 @@ description: 외부 액세스 (페더레이션) 및 게스트 액세스를 사�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 39fa50868b60ce78da360d97a2fad5dff9fee09b
-ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
+ms.openlocfilehash: 4d5ed9c5a5a671b3461761ea206edd109df73f22
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39665451"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966771"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams에서 다른 조직의 사용자와 의사소통하기
 ======================================================
@@ -84,7 +84,7 @@ ms.locfileid: "39665451"
 <sup>1</sup> 사용자가 게스트로 추가되어 있고 게스트 테넌트에 게스트로 로그인되어 있는 경우.<br>
 <sup>2</sup> 전자 메일 또는 SIP(Session Initiation Protocol) 주소만 해당.<br>
 <sup>3</sup> 외부 (페더레이션) 채팅은 1:1만 허용합니다.<br>
-<sup>4</sup> Teams의 1:1 채팅은 Teams에서만, 다른 두 조직의 사용자만 지원됩니다. *미리 보기 또는 초기 릴리스 기능입니다.*
+<sup>4</sup> Teams의 1:1 채팅은 Teams에서만, 다른 두 조직의 사용자만 지원됩니다. 
 
 ## <a name="related-topics"></a>관련 항목
 

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52d4410393398e28c1f7ade4af70901703a09418
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6bd65376be278a3d07e5a7a8c4ba69ccd5408090
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568722"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961613"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 교대 근무 앱 관리
 
@@ -37,9 +37,7 @@ Microsoft 팀의 교대 근무 앱은 Firstline Worker를 연결 된 상태로 �
 
 ## <a name="availability-of-shifts"></a>이동 가능
 
-교대는 팀을 포함 하는 모든 Office 365 구독에서 몇 가지 예외를 포함 하 여 사용할 수 있습니다. 예외는 미국 정부 클라우드 커뮤니티 (GCC)와 팀 무료입니다. 교대 근무는 Office 365 미국 정부 또는 팀 무료 제품에서 사용할 수 없습니다.
-
-팀을 포함 하는 Office 365 구독 목록을 비롯 한 팀 라이선스에 대 한 자세한 내용은 [팀 용 office 365 라이선스](../../Office-365-licensing.md)를 참조 하세요.
+이동은 팀을 사용할 수 있는 모든 Enterprise Sku에서 사용할 수 있습니다.
 
 ## <a name="location-of-shifts-data"></a>데이터 이동 위치
 

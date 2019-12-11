@@ -1,5 +1,5 @@
 ---
-title: Microsoft StaffHub 사용 중지
+title: Microsoft StaffHub 사용 중지 예정
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -15,20 +15,20 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eeab39a68827925fa9805380763f2375910ee793
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c4a0abc9dae0d3c5b7f78106136ceaece3472367
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568711"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961603"
 ---
-# <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 사용 중지
+# <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 사용 중지 예정
 
 2019 년 12 월 31 일에 효력을 StaffHub Microsoft는 곧 만료 됩니다. Microsoft 팀에 StaffHub 접근 권한 값을 구축 하 고 있습니다. 현재 팀에는 일정 관리를 위해 교대 근무 앱이 포함 되어 있으며 추가 기능이 시간에 따라 롤아웃 됩니다.
 
 이러한 변경은 모든 직원에 게 Microsoft 365을 강화 하기 위한 지속적인 노력의 일부입니다. 팀의 Firstline Worker에 대 한 접근 권한 값을 통해 조직의 모든 직원이 팀을 사용 하 여 업무를 합리화 하 고, 동료와 공동 작업을 진행 하 고, 정보 및 전문성에 액세스 하 여 가장 좋은 업무를 도울 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 ### <a name="about-staffhub-retirement"></a>StaffHub 만료 정보
 
@@ -64,14 +64,7 @@ StaffHub를 사용 하 여 만든 팀은 StaffHub 에서만 보고 관리할 수
 
 #### <a name="which-plans-is-shifts-available-in"></a>어떤 계획이 이동 가능한 지는?
 
-교대 근무는 다음 계획에서 추가 비용 없이 팀의 일부로 사용할 수 있습니다.
-
-- Office 365 Business Premium 
-- Office 365 Enterprise F1, E1, E3, E5
-- 교육용 Office 365
-- Microsoft 365 F1, E1, E3, E5
-
-자세한 내용은 [교대 사용 가능성](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts)을 참조 하세요.
+이동은 팀을 사용할 수 있는 모든 Enterprise Sku에서 사용할 수 있습니다.
 
 #### <a name="how-do-i-get-shifts"></a>어떻게 변화를 얻을 수 있나요? 
 

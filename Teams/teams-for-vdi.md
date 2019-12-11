@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75d51a6c20593c725863632350d90e2e58626e4d
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: 2ac9b520334b29df8f2fc05808b32f2e73db8557
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890609"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966781"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>가상화 된 데스크톱 인프라 팀
 
@@ -131,7 +131,7 @@ Office 365 ProPlus는 팀의 컴퓨터 단위 설치를 지원 하지 않습니�
     - [32 비트 버전](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
     - [64 비트 버전](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
-    필요한 팀 데스크톱 앱의 최소 버전은 버전 1.2.00.31357입니다.
+    필요한 팀 데스크톱 앱의 최소 버전은 버전 1.2.00.31357입니다. (이전 버전에서는 PSTN 보류가 지원 되지 않음)
 
 2. 다음 명령 중 하나를 실행 하 여이 MSI를 VDI VM에 설치 합니다.
 
