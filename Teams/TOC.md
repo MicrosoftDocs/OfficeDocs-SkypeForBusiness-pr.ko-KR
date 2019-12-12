@@ -353,6 +353,7 @@
 #### [미디어 경로 국가 코드](direct-routing-country-codes.md)
 #### [SBC(Session Border Controller) 연결을 테스트하기 위한 PowerShell 스크립트](sip-tester-powershell-script.md)
 #### [통화 알림 관리](direct-routing-call-notifications.md)
+#### [통화 다시 걸기 봇 설정](direct-routing-ringback-bot.md)
 
 ## 전화 번호
 ### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)(조직의 전화 번호 관리)
