@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ef70fba7c26315e1c66928722c373b383071771b
-ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
+ms.openlocfilehash: 686b0bc48cd2f6df590172d53618d96ca775aae0
+ms.sourcegitcommit: 1bb776e6c03086ca997d45b9b44660c4e426e8a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37664979"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39984538"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 권한 정책 관리
 
@@ -130,11 +130,11 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 그룹의 모든 사용자를 특정 앱 권한 정책에 할당 합니다. 이 예제에서는 HR 앱 권한 정책입니다.
 ```
-$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.UserPrincipalName}
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
 
-## <a name="faq"></a>자주 묻는 질문(FAQ)
+## <a name="faq"></a>FAQ
 
 ### <a name="working-with-app-permission-policies"></a>앱 권한 정책 사용
 
@@ -174,5 +174,5 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 특정 사용자에 게 할당 된 앱 권한 정책의 경우, 봇 또는 커넥터 기능이 있는 앱이 허용 된 후 차단 되며,이 앱이 공유 컨텍스트의 일부 사용자 에게만 허용 되는 경우 해당 앱에 대 한 권한이 없는 그룹 채팅 또는 채널의 구성원  봇 또는 커넥터에 의해 게시 된 메시지 기록 및 메시지를 볼 수 있지만 대화형 작업할 수는 없습니다.
 
- ## <a name="related-topics"></a>관련 주제
-- [팀의 앱에 대 한 관리자 설정](admin-settings.md)
+ ## <a name="related-topics"></a>관련 항목
+- [Team에서 앱의 관리 설정](admin-settings.md)

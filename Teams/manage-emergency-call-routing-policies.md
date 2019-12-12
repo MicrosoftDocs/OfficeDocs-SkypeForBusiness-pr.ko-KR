@@ -14,18 +14,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft 팀의 동적 E911 기능에 대 한 긴급 통화 라우팅 정책을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
+description: Microsoft 팀에서 긴급 통화 라우팅 정책을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: aed3b3d3cbd1023a3370c3c271e07a61179447da
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 704becbffc0168c10ab9f357a6f6ffe8431790d2
+ms.sourcegitcommit: 5243494676ffa039fc0a32e6279e5a9a05675eec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615808"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39986959"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 라우팅 정책 관리
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 조직에 직접 전화 시스템 라우팅을 배포한 경우 Microsoft 팀에서 비상 전화 라우팅 정책을 사용 하 여 비상 전화 번호를 설정 하 고 긴급 통화의 라우팅 방식을 지정할 수 있습니다. 긴급 통화 라우팅 정책은 정책에 할당 된 사용자에 게 향상 된 응급 서비스를 사용할 수 있는지 여부, 비상 서비스를 호출 하는 데 사용 되는 번호 (예: 미국 내 911), 그리고 비상 서비스에 대 한 통화가 라우팅되는 방법을 결정 합니다.
 
@@ -45,6 +43,8 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
 4. 향상 된 응급 서비스를 사용 하도록 설정 하려면 **향상 된 응급 서비스**를 설정 합니다. 향상 된 응급 서비스를 사용 하도록 설정 하면 팀에서 서비스의 정책 및 위치 정보를 검색 하 고 긴급 통화의 일부로 해당 정보를 포함 합니다.
 5. 긴급 번호 중 하나를 정의 합니다. 이렇게 하려면 **비상 번호**에서 다음을 수행 합니다.
     1. **비상 다이얼 문자열**: 비상 다이얼 문자열을 입력 합니다. 이 다이얼 문자열은 통화가 비상 통화로 표시 됨을 나타냅니다.
+        > [!NOTE]
+        > 직접 라우팅의 경우 긴급 전화 다이얼 문자열 앞에 "+"를 사용 하 여 긴급 전화를 보내는 팀 클라이언트에서 멀리 전환 하 고 있습니다. 전환이 완료 될 때까지 긴급 전화 접속 문자열과 일치 하는 음성 경로 패턴은 911 및 + 911와 같이 앞에 "+"가 없는 문자열에 대해 일치가 수행 되도록 해야 합니다. 예를 들어 ^\+? 911 또는. *를 선택 합니다.
     2. **응급 전화 접속 마스크**: 각 비상 전화 번호에 대해 0 개 이상의 비상 다이얼 마스크를 지정할 수 있습니다. 다이얼 마스크는 비상 다이얼 문자열의 값으로 번역 하려는 번호입니다. 이렇게 하면 대체 비상 번호를 사용 하 여 전화를 걸고 통화에도 비상 서비스를 받을 수 있습니다. <br>예를 들어 112을 긴급 전화 접속 마스크 (대부분 유럽의 비상 서비스 번호)로 추가 하 고 비상 다이얼 문자열로 911을 추가할 수 있습니다. 방문 하는 유럽 지역의 팀 사용자는 911이 미국에서 긴급 번호 라는 것을 알지 못할 수 있으며, 112가 전화를 거는 경우 911에 통화가 이루어집니다. 여러 다이얼 마스크를 정의 하려면 각 값을 세미콜론으로 구분 합니다. 예를 들어 112; 212.
     3. **Pstn 사용**: pstn (공개 교환 전화 네트워크) 사용량을 선택 합니다. PSTN 사용은 사용 하도록 승인 된 사용자 로부터 비상 통화를 라우팅하는 데 사용 되는 경로를 결정 하는 데 사용 됩니다. 이 사용과 관련 된 경로는 비상 전화 전용 SIP 트렁크 또는 가까운 공공 안전 응답 시점 (PSAP)으로 긴급 통화를 라우팅하는 비상 위치 Id 번호 (ELIN) 게이트웨이를 가리켜야 합니다.
 

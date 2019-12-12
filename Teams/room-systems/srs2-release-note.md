@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.
-ms.openlocfilehash: e82bd160cf09781605cadaf03245b1cdf31b6908
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 721acfeb04512a75da225a4c638f15e13b4d5d65
+ms.sourcegitcommit: 4093a3e0d4c72777057d78ab06dc7d49d826c5de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676116"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39987861"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -27,6 +27,7 @@ ms.locfileid: "38676116"
 
 |제품 |게시 대상 <br/> Microsoft Store |
 |--- |--- |
+|4.3.21.0 |12/09/2019 |
 |4.2.4.0 |10/07/2019 |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
@@ -56,6 +57,16 @@ ms.locfileid: "38676116"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 팀 대화방 기능 소개 및 문제 해결
+
+### <a name="43210-12092019"></a>4.3.21.0 (12/09/2019)
+
+이 업데이트에 도입 된 내용:
+
+- 이를 제어 하기 위해 근접 기반 통화 및 관리자 설정 자동 응답
+- 장치 구성이 추가 된 장치 관리 설정 UI 새로 고침 정보 탭에서
+- 주 화면으로 다시 방 컨트롤 이동
+- GCC에서 사용할 수 있는 회의실 SKU
+- Surface Pro 기반 시스템에 대 한 콘텐츠 카메라 지원 
 
 ### <a name="4240-10072019"></a>4.2.4.0 (10/07/2019)
 
