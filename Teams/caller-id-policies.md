@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 발신자 ID 정책을 사용 하 고 관리 하 여 조직에서 팀 사용자의 발신자 ID를 변경 하거나 차단 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b30f2f8650d1d875c56254d99efddb2f5fdbb5d0
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: 8a8e235c1adf24e5a11b0b62e7542d5fcae194be
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919372"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39998826"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft 팀의 발신자 ID 정책 관리
 
@@ -104,7 +104,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 그룹의 모든 사용자를 특정 발신자 ID 정책에 할당 합니다. 이 예제에서는 발신자 ID 정책을 지원 합니다.
 ```
-$members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.UserPrincipalName}
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
 

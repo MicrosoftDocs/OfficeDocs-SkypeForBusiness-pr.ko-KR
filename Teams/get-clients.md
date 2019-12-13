@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8ea5133998e9d11e5ab070ffe66f7e719252ee5
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: f3332f25366ea79d69bb95727f01651cb158de53
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919150"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002242"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft 팀 용 클라이언트 가져오기 
 
@@ -110,7 +110,7 @@ DEB 또는 RPM 패키지를 설치 하면 패키지 리포지토리가 자동으
 
 > [!NOTE] 
 > 버그를 찾았으면 클라이언트 내에서이를 사용 `Report a Problem` 하 여 제출 합니다. 알려진 문제는 [알려진 문제점](Known-issues.md)을 참조 하세요.
-> Linux 용 팀 지원이 필요한 경우 (Microsoft Q&A) [https://docs.microsoft.com/answers/topics/teams.html]에 linux 포럼 지원 채널을 사용할 수 있습니다. 질문을 게시할 때 태그 `teams-linux` 를 사용 해야 합니다. 
+> Linux 용 팀 지원이 필요한 경우 [Microsoft Q&A의 Linux 포럼 지원 채널](https://docs.microsoft.com/answers/topics/teams.html)을 사용할 수 있습니다. 질문을 게시할 때 태그 `teams-linux` 를 사용 해야 합니다. 
 
 #### <a name="install-teams-using-deb-package"></a>DEB 패키지를 사용 하 여 팀 설치
 

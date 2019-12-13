@@ -14,18 +14,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft 팀의 동적 E911 기능에 대 한 긴급 통화 정책을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
+description: Microsoft 팀에서 긴급 통화 정책을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
 f1keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 1cd358453aa349fde51e4d66de412e8f9e2b72d5
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: d6dc6f58085fedadf25f80272bc55dcc7723db19
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615748"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39998796"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 정책 관리
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 조직에서 통화 계획 또는 배포 된 전화 시스템 직접 라우팅을 사용 하는 경우 Microsoft 팀에서 비상 전화 정책을 사용 하 여 조직의 팀 사용자가 긴급 통화를 할 때 수행 되는 작업을 정의할 수 있습니다. 정책을 할당할 사용자가 응급 서비스를 호출할 때 알릴 사람과 알림을 받을 방법을 설정할 수 있습니다. 예를 들어 조직의 보안 데스크에 자동으로 알리기 위해 정책 설정을 구성 하 고 긴급 전화를 수신 하도록 설정할 수 있습니다.  
 
@@ -110,7 +108,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 특정 팀 정책에 그룹의 모든 사용자를 할당 합니다. 이 예제에서는 운영 긴급 통화 라우팅 정책입니다.
 ```
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
 

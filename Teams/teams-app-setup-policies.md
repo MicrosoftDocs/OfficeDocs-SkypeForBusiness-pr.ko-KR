@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 앱 설정 정책에 대해 알아보고, 앱을 고정 하는 데 사용 하 여 조직의 사용자를 위한 팀을 사용자 지정 하는 방법에 대해 알아봅니다.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: aaee74017fc6a380c77526b28c19411e413f37d0
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b7f0585c62d7d22e1fc5a7e55c90e59f8cda554d
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570295"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39998856"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 설치 정책 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "37570295"
 
 |팀 데스크톱 클라이언트  |팀 모바일 클라이언트 |
 |---------|---------|
-|![팀 데스크톱 클라이언트를 보여주는 스크린샷](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![팀 모바일 클라이언트를 보여 주는 스크린샷](media/app-setup-policies-mobile-app-bar.png)      |
+|![팀 데스크톱 클라이언트를 보여 주는 스크린샷](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![팀 모바일 클라이언트를 보여 주는 스크린샷](media/app-setup-policies-mobile-app-bar.png)      |
 
 Microsoft 팀 관리 센터에서 앱 설치 정책을 관리할 수 있습니다. 전역 (조직 차원의 기본) 정책을 사용 하거나 사용자 지정 정책을 만들어 사용자에 게 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당 하지 않으면 조직의 사용자가 자동으로 전역 정책을 받습니다.
 
@@ -110,18 +110,18 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 그룹의 모든 사용자를 특정 앱 설정 정책에 할당 합니다. 이 예제에서는 HR 앱 설정 정책입니다.
 ```
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
 
-## <a name="faq"></a>자주 묻는 질문(FAQ)
+## <a name="faq"></a>FAQ
 
 ### <a name="working-with-app-setup-policies"></a>앱 설정 정책 사용
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에 포함 된 기본 제공 앱 설정 정책은 무엇 인가요?
 
 - **전역 (조직 전체 기본값)**: 다른 정책을 할당 하지 않는 한이 기본 정책은 조직의 모든 사용자에 게 적용 됩니다. 전역 정책을 편집 하 여 사용자에 게 가장 중요 한 앱을 고정 합니다.
-- **Firstlineworker**:이 정책은에서 일선 worker 용입니다. 조직의에서 일선 worker에 할당할 수 있습니다. 사용자 지정 정책과 마찬가지로, 설정이 활성화 되도록 사용자에 게 정책을 할당 해야 한다는 것을 이해 하는 것이 중요 합니다. 자세한 내용은이 문서의 [사용자에 게 사용자 지정 앱 설정 정책](#assign-a-custom-app-setup-policy-to-users) 지정 섹션을 참조 하세요.
+- **Firstlineworker**:이 정책은 최초 작업자를 위한 것입니다. 조직의 첫 번째 작업자에 게 할당할 수 있습니다. 사용자 지정 정책과 마찬가지로, 설정이 활성화 되도록 사용자에 게 정책을 할당 해야 한다는 것을 이해 하는 것이 중요 합니다. 자세한 내용은이 문서의 [사용자에 게 사용자 지정 앱 설정 정책](#assign-a-custom-app-setup-policy-to-users) 지정 섹션을 참조 하세요.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>고정 된 앱 추가 창에서 앱을 찾을 수 없는 이유는 무엇 인가요?
 
@@ -171,5 +171,5 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 앱을 제출 하기 전에 로고 지침을 따르고 있는지 확인 합니다. 자세한 내용은 [판매자 대시보드 제출에 대 한 검사 목록](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist)을 참조 하세요. 
 
  ## <a name="related-topics"></a>관련 항목
-- [팀의 앱에 대 한 관리자 설정](admin-settings.md)
+- [Team에서 앱의 관리 설정](admin-settings.md)
 - [팀 클라이언트에서 앱을 테 넌 트 앱 카탈로그에 게시](tenant-apps-catalog-teams.md)

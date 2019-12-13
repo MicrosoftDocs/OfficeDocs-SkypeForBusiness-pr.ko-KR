@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 전화 시스템 다이렉트 라우팅을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a15b679dfa5ac74c6c78242ac40b00e2f24f75a4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 55f4fbb0f4faa70f73c742e8e849bc258dbfd481
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572226"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002302"
 ---
 # <a name="configure-direct-routing"></a>직접 라우팅 구성
 
@@ -109,9 +109,9 @@ Enabled               : True
 
 |필수?|이름|설명|기본값|사용할 수 있는 값|유형 및 제한 사항|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|'|Q|SBC의 FQDN 이름입니다. |없음|비 Efqdn 이름, 63 문자 제한|[Active Directory에서 컴퓨터, 도메인, 사이트 및 ou에 대 한 명명 규칙](https://support.microsoft.com/help/909264) 의 허용 및 허용 되지 않는 문자 목록 문자열|
+|예|Q|SBC의 FQDN 이름입니다. |없음|비 Efqdn 이름, 63 문자 제한|[Active Directory에서 컴퓨터, 도메인, 사이트 및 ou에 대 한 명명 규칙](https://support.microsoft.com/help/909264) 의 허용 및 허용 되지 않는 문자 목록 문자열|
 |아니요|MediaBypass |SBC로 표시 된 매개 변수는 미디어 바이패스를 지원 하 고 관리자가이를 사용 하려고 합니다.|없음|False<br/>해제|부울|
-|'|SipSignallingPort |TLS (전송 계층 보안) 프로토콜을 사용 하 여 직접 라우팅 서비스와 통신 하는 데 사용 되는 수신 대기 포트입니다.|없음|모든 포트|0 ~ 65535 |
+|예|SipSignallingPort |TLS (전송 계층 보안) 프로토콜을 사용 하 여 직접 라우팅 서비스와 통신 하는 데 사용 되는 수신 대기 포트입니다.|없음|모든 포트|0 ~ 65535 |
 |아니요|FailoverTimeSeconds |10으로 설정 된 경우 (기본값), 게이트웨이에서 응답 하지 않은 아웃 바운드 호출은 10 초 이내에 사용 가능한 다음 트렁크로 라우팅됩니다. 추가 trunks 없으면 통화가 자동으로 삭제 됩니다. 느린 네트워크 및 게이트웨이 응답을 사용 하는 조직에서 호출이 불필요 하 게 손실 될 수 있습니다. 기본값은 10입니다.|1천만|숫자로|Int|
 |아니요|ForwardCallHistory |트렁크를 통해 통화 기록 정보를 전달할지 여부를 나타냅니다. 이 기능을 사용 하도록 설정 하면 Office 365 PSTN 프록시가 두 가지 헤더 인 기록 정보 및 참조 하는 사람을 보냅니다. 기본값은 **False** ($False)입니다. |해제|False<br/>해제|부울|
 |아니요|ForwardPAI|PAI(P-Asserted-Identity) 헤더를 통화와 함께 전달할지 여부를 나타냅니다. PAI 헤더를 사용하면 발신자 번호를 확인할 수 있습니다. 사용 하도록 설정한 경우 개인 정보 취급 방침: ID 헤더만 전송 됩니다. 기본값은 **False** ($False)입니다.|해제|False<br/>해제|부울|
@@ -268,9 +268,9 @@ Microsoft 통화 요금제는 Microsoft 통화 계획 라이선스를 사용 하
 
 |**PSTN 사용**|**음성 경로**|**번호 패턴**|**중요도**|**하더라도**|**설명**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|미국만|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|raid-1|sbc1.contoso.biz<br/>sbc2.contoso.biz|호출 되는 번호 + 1 425 XXX XX XX 또는 + 1 206 XXX XX XX의 활성 경로|
+|미국만|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|호출 되는 번호 + 1 425 XXX XX XX 또는 + 1 206 XXX XX XX의 활성 경로|
 |미국만|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|호출 되는 번호에 대 한 백업 경로 + 1 425 XXX XX XX 또는 + 1 206 XXX XX XX|
-|미국만|"기타 + 1"|^\\+ 1 (\d{10}) $|3-4|sbc5.contoso.biz<br/>sbc6.contoso.biz|호출 되는 번호에 대 한 경로 + 1 XXX XXX XX XX (+ 1 425 XXX xx xx 또는 + 1 206 XXX XX xx 제외)|
+|미국만|"기타 + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|호출 되는 번호에 대 한 경로 + 1 XXX XXX XX XX (+ 1 425 XXX xx xx 또는 + 1 206 XXX XX xx 제외)|
 |||||||
 
 모든 경로는 PSTN 사용 "미국 및 캐나다"와 연결 되며, PSTN 사용은 음성 라우팅 정책 "미국 전용"과 연결 됩니다. 이 예제에서는 음성 라우팅 정책이 사용자 Spencer Low에 할당 됩니다.
@@ -446,9 +446,9 @@ John 숲 – 모든 번호로 전화를 걸 수 있습니다. Redmond 번호 범
 
 |**PSTN 사용**|**음성 경로**|**번호 패턴**|**중요도**|**하더라도**|**설명**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|미국만|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|raid-1|sbc1.contoso.biz<br/>sbc2.contoso.biz|호출 수신자 번호 + 1 425 XXX XX XX 또는 + 1 206 XXX XX XX의 활성 경로|
+|미국만|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|호출 수신자 번호 + 1 425 XXX XX XX 또는 + 1 206 XXX XX XX의 활성 경로|
 |미국만|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|호출 수신자 번호 + 1 425 XXX XX XX 또는 + 1 206 XXX XX XX에 대 한 백업 경로|
-|미국만|"기타 + 1"|^\\+ 1 (\d{10}) $|3-4|sbc5.contoso.biz<br/>sbc6>. contoso.biz|호출 수신자 번호 + 1 XXX XXX XX XX (+ 1 425 XXX xx xx 또는 + 1 206 XXX XX xx 제외)의 경로|
+|미국만|"기타 + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>. contoso.biz|호출 수신자 번호 + 1 XXX XXX XX XX (+ 1 425 XXX xx xx 또는 + 1 206 XXX XX xx 제외)의 경로|
 |국제화|국제화|\d +|4(tcp/ipv4)|sbc2.contoso.biz<br/>sbc5.contoso.biz|임의의 숫자 패턴에 대 한 라우팅 |
 
 
@@ -485,15 +485,15 @@ PSTN 사용 "국제", 음성 경로 "국제" 음성 라우팅 정책 "제한 사
    </pre>
 3. 다음으로 음성 라우팅 정책 "제한 없음"을 만듭니다. PSTN 사용 "Redmond 1" 및 "Redmond"는 전화 번호 "+ 1 425 XXX xx" 및 "+ 1 206 XXX XX XX"를 로컬 또는 온-프레미스 통화로 하는 특별 한 처리를 유지 하기 위해이 음성 라우팅 정책에 재사용 됩니다.
 
-```
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-```
+   ```
+   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+   ```
 
-    Take note of the order of PSTN Usages:
+    PSTN 사용 순서를 기록해 둡니다.
 
-    a. If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes. 
+    에서. 다음 예제와 같이 구성 된 사용량으로 "+ 1 425 XXX XX"로 전화를 걸고 나면 통화는 "미국 및 캐나다" 사용에 설정 된 경로를 따르고 특별 한 라우팅 논리가 적용 됩니다. 즉, 통화가 먼저 sbc1.contoso.biz 및 sbc2.contoso.biz를 사용 하 여 라우팅된 다음 백업 경로로 sbc3.contoso.biz 및 sbc4.contoso.biz 됩니다. 
 
-    b.  If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
+    b.  "국제" PSTN 사용이 "미국 및 캐나다" 보다 앞에 있는 경우 + 1 425 XXX XX XX로 거는 호출은 라우팅 논리의 일부로 sbc2.contoso.biz 및 sbc5.contoso.biz로 라우팅됩니다. 명령 입력:
 
     ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"```
 
@@ -529,12 +529,12 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Microsoft 팀에서 전화를 걸 수 있도록 사용자에 게 팀 전용 모드 할당
 
-다이렉트 라우팅은 팀 클라이언트에서 수신 전화를 받을 수 있도록 사용자가 팀 전용 모드에 있어야 합니다. 사용자를 팀 전용 모드로 전환 하려면 TeamsUpgradePolicy의 "UpgradeToTeams" 인스턴스를 할당 합니다. 조직에서 비즈니스용 skype Server 또는 비즈니스용 Skype Online을 사용 하는 경우 Skype와 팀 간의 정보 상호 운용성에 대해 다음 문서를 참조 하세요. [팀과 skype를 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침 비즈니스에 적합](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)합니다. 
+다이렉트 라우팅은 팀 클라이언트에서 수신 전화를 받을 수 있도록 사용자가 팀 전용 모드에 있어야 합니다. 사용자를 팀 전용 모드로 전환 하려면 TeamsUpgradePolicy의 "UpgradeToTeams" 인스턴스를 할당 합니다. 조직에서 비즈니스용 skype Server 또는 비즈니스용 Skype Online을 사용 하는 경우 비즈니스용 [skype로 팀을 함께 사용 하는 조직의 마이그레이션 및 상호 운용성 지침](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)에 대 한 다음 문서를 참조 하세요. 
 
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>전화를 음성 메일로 바로 보내는 방법 구성
 
-직접 라우팅을 사용 하면 사용자에 대 한 통화를 종료 하 고 사용자의 음성 메일로 바로 보낼 수 있습니다. 전화를 음성 메일로 바로 보내려면 불투명 = 앱: 보이스 메일을 요청 URI 헤더에 첨부 하세요. 예를 들어 "sip: user@yourdomain.com; 불투명 = 앱: 보이스".
+직접 라우팅을 사용 하면 사용자에 대 한 통화를 종료 하 고 사용자의 음성 메일로 바로 보낼 수 있습니다. 전화를 음성 메일로 바로 보내려면 불투명 = 앱: 보이스 메일을 요청 URI 헤더에 첨부 하세요. 예를 들어 "sip: user@yourdomain .com, 불투명 = 앱: 보이스".
 이 경우 팀 사용자는 호출 알림을 받지 않게 되며, 통화는 사용자의 보이스 메일에 직접 연결 됩니다.
 
 ## <a name="see-also"></a>참고 항목
