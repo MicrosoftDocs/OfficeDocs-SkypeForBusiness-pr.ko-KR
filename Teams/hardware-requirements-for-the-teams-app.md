@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81fc050df43e6f0c6d179601b1a9186974222276
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: 1c33a0ed8bf88469e6e9ab41a049a1d566cc686b
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966711"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40019962"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 팀 앱의 하드웨어 요구 사항
 
@@ -41,7 +41,7 @@ ms.locfileid: "39966711"
 |.NET 버전    |  .NET 4.5 CLR 이상 필요       |
 |비디오만    |  USB 2.0 비디오 카메라       |
 |디바이스    |   표준 랩탑 카메라, 마이크, 스피커    | 
-|영상 통화 및 모임 | 영상 통화와 온라인 모임 환경을 개선 하기 위해 2.0 GHz 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. 선택 품목인 **배경** 영상 효과에는 고급 벡터 확장 2 (AVX2)가 지원 되는 프로세서가 필요 합니다. 지원 되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요. |
+|영상 통화 및 모임 | <ul><li>영상 통화와 온라인 모임 환경을 개선 하기 위해 2.0 GHz 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>선택 품목인 **배경** 영상 효과에는 고급 벡터 확장 2 (AVX2)가 지원 되는 프로세서가 필요 합니다. 지원 되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요.</li><li>Microsoft 팀 대화방에서 근접 검색을 사용 하 여 모임에 참가 하려면 클라이언트 장치에서 Bluetooth를 사용 하도록 설정 해야 하는 Bluetooth LE가 필요 하며, Windows 클라이언트의 경우 64 비트 팀 클라이언트가 필요 합니다. 32 비트 팀 클라이언트에서는 사용할 수 없습니다.</li></ul> |
 |Teams 라이브 이벤트 | 팀 라이브 이벤트를 생성 하는 경우에는 코어 i5 Kaby 호수 프로세서, 4.0 GB RAM (또는 그 이상) 및 하드웨어 인코더가 있는 컴퓨터를 사용 하는 것이 좋습니다. 지원 되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요. |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Mac의 팀 데스크톱 앱에 대 한 하드웨어 요구 사항
@@ -55,7 +55,7 @@ ms.locfileid: "39966711"
 |운영 체제  |    Mac OS X 10.11 El Capitan 이상     |
 |비디오만  |    호환 가능한 웹캠     |
 |음성    |  호환 되는 마이크와 스피커, 헤드셋 마이크 또는 동급 장치       |
-|영상 통화 및 모임 | 영상 통화 및 온라인 모임 환경을 개선 하기 위해 2.0 GHz 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. 선택적 화면 흐림 효과 AVX2 (고급 벡터 확장 2) 지원이 포함 된 프로세서가 필요 하지만 대부분의 최신 2013 Mac 장치 이상에서 지원 됩니다. 지원 되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요.|
+|영상 통화 및 모임 | 영상 통화 및 온라인 모임 환경을 개선 하기 위해 2.0 GHz 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다.  <ul><li>선택적 **화면 흐림** 효과 AVX2 (고급 벡터 확장 2) 지원이 포함 된 프로세서가 필요 하지만 대부분의 최신 2013 Mac 장치 이상에서 지원 됩니다. 지원 되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요.</li><li>Mac OS에서는 Microsoft 팀 대화방에서 근접 검색을 사용 하 여 모임에 참가할 수 없습니다.</li></ul> |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-linux"></a>Linux에서 팀 데스크톱 앱에 대 한 하드웨어 요구 사항
 
@@ -70,7 +70,7 @@ ms.locfileid: "39966711"
 |비디오만    |  USB 2.0 비디오 카메라       |
 |디바이스    |   표준 랩탑 카메라, 마이크, 스피커    | 
 |음성    |  호환 되는 마이크와 스피커, 헤드셋 마이크 또는 동급 장치       |
-|영상 통화 및 모임 | 영상 통화 및 온라인 모임 환경을 개선 하기 위해 2.0 GHz 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. 선택적 화면 흐림 효과 AVX2 (고급 벡터 확장 2) 지원이 포함 된 프로세서가 필요 하지만 대부분의 최신 2013 Mac 장치 이상에서 지원 됩니다. 지원 되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요.
+|영상 통화 및 모임 | <ul><li>영상 통화 및 온라인 모임 환경을 개선 하기 위해 2.0 GHz 프로세서와 4.0 GB RAM (또는 그 이상)이 있는 컴퓨터를 사용 하는 것이 좋습니다. </li><li>선택적 화면 흐림 효과 AVX2 (고급 벡터 확장 2) 지원이 포함 된 프로세서가 필요 하지만 대부분의 최신 2013 Mac 장치 이상에서 지원 됩니다. 지원 되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항을](hardware-decoders-and-encoders.md) 참조 하세요.</li><li>Linux에서는 Microsoft 팀 대화방에서 근접 검색을 사용 하 여 모임에 참가할 수 없습니다.</li></ul>
 |지원 되는 Linux 배포판 | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 워크스테이션, RHEL 8 Workstation, CentOS 8
 
 

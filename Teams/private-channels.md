@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 개인 채널을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b4937addf861be56a0a90a2c63a0ed6181bdc555
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077431"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020052"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널
 
@@ -101,7 +101,7 @@ Microsoft 팀의 개인 채널은 팀 내에서 공동 작업을 위해 중요 �
 
 다음 표에서는 개인 채널에서 수행할 수 있는 작업 소유자, 구성원, 게스트에 대해 간략하게 설명 합니다.
 
-|함수  |팀 소유자|팀 구성원|팀 게스트|개인 채널 소유자|개인 채널 구성원|개인 채널 게스트|
+|작업  |팀 소유자|팀 구성원|팀 게스트|개인 채널 소유자|개인 채널 구성원|개인 채널 게스트|
 |---------|---------|---------|---------|---------|---------|---------|
 |개인 채널 만들기|예<sup>1</sup>|예<sup>1, 2</sup>|아니요|해당 없음|해당 없음|해당 없음|
 |개인 채널 삭제|예|아니요|아니요|예|아니요|아니요|
@@ -139,6 +139,12 @@ Microsoft 팀의 개인 채널은 팀 내에서 공동 작업을 위해 중요 �
 팀은 개인 채널 SharePoint 사이트 모음의 수명 주기를 관리 합니다. 팀 외부에서 사이트 모음을 삭제 한 경우 백그라운드 작업은 개인 채널이 여전히 활성 상태인 동안 4 시간 내에 사이트를 복원 합니다. 사이트를 삭제 하 고 하드 삭제 한 경우 개인 채널에 대해 새 사이트 모음이 프로 비전 됩니다.
 
 개인 채널이 나 개인 채널이 포함 된 팀이 복원 되 면 사이트 모음이 복원 됩니다. 개인 채널 사이트 모음이 복원 되 고 개인 채널에 대 한 30 일 일시 삭제 창이 지난 경우 사이트 모음은 독립 실행형 사이트 모음으로 작동 합니다.
+
+## <a name="private-channel-message-compliance-records"></a>개인 채널 메시지 준수 레코드
+
+개인 채널로 전송 된 메시지의 레코드는 그룹 사서함이 아닌 모든 비공개 채널 구성원의 사서함으로 전달 됩니다. 레코드의 제목은 전송 된 개인 채널을 나타내도록 서식이 지정 됩니다.
+
+개인 채널 메시지에 대해 eDiscovery 검색을 수행 하는 방법에 대 한 자세한 내용은 [개인 채널 eDiscovery](ediscovery-investigation.md#ediscovery-of-private-channels)를 참조 하세요.
 
 ## <a name="considerations-around-access-in-private-channels"></a>개인 채널의 액세스 관련 고려 사항
 

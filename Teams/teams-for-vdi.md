@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ac9b520334b29df8f2fc05808b32f2e73db8557
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: fd9440ce7c4d35af28e577c9d9e01845f298ef01
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966781"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020062"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>가상화 된 데스크톱 인프라 팀
 
@@ -68,12 +68,14 @@ Citrix 가상 앱 및 데스크톱 (이전의 XenApp 및 XenDesktop)은 VDI의 �
 
 최신 서버 및 클라이언트 요구 사항은 [이 Citrix 웹 사이트](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)를 참조 하세요.
 
-## <a name="install-the-teams-desktop-app-on-vdi"></a>VDI에서 팀 데스크톱 앱 설치
+## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>VDI에서 팀 데스크톱 앱 설치 또는 업데이트
 
 MSI 패키지를 사용 하 여 컴퓨터별 설치 또는 사용자 단위 설치를 사용 하 여 VDI 용 팀 데스크톱 앱을 배포할 수 있습니다. 사용할 접근 방식을 결정 하는 것은 영구적이 든 비영구 설정을 사용 하 고 조직의 관련 기능 필요 여부에 따라 달라 집니다.
 전용 영구적 설정의 경우 두 접근 방법이 모두 작동 합니다.  그러나 비영구 설치의 경우 팀이 효율적으로 작업 하려면 컴퓨터 단위 설치가 필요 합니다. [비 영구적인 설정](#non-persistent-setup) 섹션을 참조 하세요.
 
 컴퓨터 단위 설치의 경우 자동 업데이트를 사용할 수 없습니다. 즉, 팀 앱을 업데이트 하려면 최신 버전으로 업데이트 하기 위해 현재 버전을 제거 해야 합니다. 사용자 단위 설치의 경우 자동 업데이트를 사용할 수 있습니다. 대부분의 VDI 배포의 경우 시스템 단위 설치를 사용 하 여 팀을 배포 하는 것이 좋습니다.
+
+최신 팀 버전으로 업데이트 하려면 제거 절차와 최신 팀 버전 배포를 차례로 시작 합니다.
 
 VDI 환경에서 팀의 AV 최적화가 올바르게 작동 하려면 씬 클라이언트 끝점이 인터넷에 액세스할 수 있어야 합니다. 씬 클라이언트 끝점에서 인터넷 액세스를 사용할 수 없는 경우에는 최적화가 시작 되지 않습니다. 이는 사용자가 최적화 되지 않은 미디어 상태에 있음을 의미 합니다.
 
@@ -93,7 +95,7 @@ VDI 환경에서 팀의 AV 최적화가 올바르게 작동 하려면 씬 클라
 
 비 영구적인 설정에서는 사용자가 로그 아웃 한 후 사용자의 로컬 운영 체제 변경 내용이 보존 되지 않습니다. 이러한 설정은 일반적으로 공유 다중 사용자 세션입니다. VM 구성은 사용자 수와 사용 가능한 실제 box 리소스에 따라 달라 집니다.
 
-비 영구적인 설정의 경우 팀 데스크톱 앱은 골든 이미지에 컴퓨터별 설치 되어 있어야 합니다. 자세한 내용은 [VDI에서 팀 데스크톱 앱 설치](#install-the-teams-desktop-app-on-vdi) 섹션을 참조 하세요. 이렇게 하면 사용자 세션 중에 팀 앱을 효율적으로 실행할 수가 있습니다. 비 영구적인 설정으로 팀을 사용 하려면 효율적인 팀 런타임 데이터 동기화를 위한 프로필 캐싱 관리자도 필요 합니다. 이렇게 하면 사용자 데이터, 프로필 및 설정 등의 적절 한 사용자 관련 정보를 사용 하는 동안 해당 정보가 캐시 됩니다.  다양 한 캐싱 관리자 솔루션을 사용할 수 있습니다. 예를 들어 [Fslogix](https://docs.microsoft.com/fslogix/overview)를 사용할 경우 특정 구성 지침은 캐싱 관리자 공급자에 게 문의 하세요.
+비 영구적인 설정의 경우 팀 데스크톱 앱은 골든 이미지에 컴퓨터별 설치 되어 있어야 합니다. 자세한 내용은 [VDI의 팀 데스크톱 앱 설치 또는 업데이트](#install-or-update-the-teams-desktop-app-on-vdi) 섹션을 참조 하세요. 이렇게 하면 사용자 세션 중에 팀 앱을 효율적으로 실행할 수가 있습니다. 비 영구적인 설정으로 팀을 사용 하려면 효율적인 팀 런타임 데이터 동기화를 위한 프로필 캐싱 관리자도 필요 합니다. 이렇게 하면 사용자 데이터, 프로필 및 설정 등의 적절 한 사용자 관련 정보를 사용 하는 동안 해당 정보가 캐시 됩니다.  다양 한 캐싱 관리자 솔루션을 사용할 수 있습니다. 예를 들어 [Fslogix](https://docs.microsoft.com/fslogix/overview)를 사용할 경우 특정 구성 지침은 캐싱 관리자 공급자에 게 문의 하세요.
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>비 영구적인 설정에 대 한 팀 캐시 된 콘텐츠 제외 목록
 
@@ -110,11 +112,11 @@ VDI에서 Office 365 ProPlus를 사용 하 여 팀을 배포 하는 경우 다�
 
 Office 365 ProPlus를 통해 팀을 배포 하기 전에 먼저 컴퓨터별 설치를 사용 하 여 배포 된 기존 팀 앱을 제거 해야 합니다.
 
-Office 365 ProPlus 팀은 사용자 단위로 설치 됩니다. 자세히 알아보려면 [VDI에서 팀 데스크톱 앱 설치](#install-the-teams-desktop-app-on-vdi) 섹션을 참조 하세요.
+Office 365 ProPlus 팀은 사용자 단위로 설치 됩니다. 자세히 알아보려면 [VDI에서 팀 데스크톱 앱 설치 또는 업데이트](#install-or-update-the-teams-desktop-app-on-vdi) 섹션을 참조 하세요.
 
 #### <a name="teams-deployments-through-office-365-proplus-updates"></a>Office 365 ProPlus 업데이트를 통한 팀 배포
 
-또한 팀은 Office 365 ProPlus의 기존 설치에 추가 됩니다. Office 365 ProPlus는 사용자 당 팀만 설치 하므로 [VDI에서 팀 데스크톱 앱 설치](#install-the-teams-desktop-app-on-vdi) 섹션을 참조 하세요.
+또한 팀은 Office 365 ProPlus의 기존 설치에 추가 됩니다. Office 365 ProPlus는 팀을 사용자별로 설치 하므로 [VDI에서 팀 데스크톱 앱 설치 또는 업데이트](#install-or-update-the-teams-desktop-app-on-vdi) 섹션을 참조 하세요.
 
 #### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>시스템 단위 설치 및 Office 365 ProPlus와 함께 팀 사용
 
@@ -331,7 +333,8 @@ PowerShell을 사용 하 여 모임 정책을 관리 하는 방법에 대해 자
 
 ### <a name="client-deployment-installation-and-setup"></a>클라이언트 배포, 설치 및 설정
 
-- 컴퓨터별 설치의 경우 vdi의 팀이 비 VDI 팀 클라이언트의 방식으로 자동으로 업데이트 되지 않습니다. [VDI에서 팀 데스크톱 앱 설치](#install-the-teams-desktop-app-on-vdi) 섹션에 설명 된 대로 새 MSI를 설치 하 여 VM 이미지를 업데이트 해야 합니다. 최신 버전으로 업데이트 하려면 현재 버전을 제거 해야 합니다.
+- 컴퓨터별 설치의 경우 vdi의 팀이 비 VDI 팀 클라이언트의 방식으로 자동으로 업데이트 되지 않습니다. [VDI에서 팀 데스크톱 앱 설치 또는 업데이트](#install-or-update-the-teams-desktop-app-on-vdi) 섹션에 설명 된 대로 새 MSI를 설치 하 여 VM 이미지를 업데이트 해야 합니다. 최신 버전으로 업데이트 하려면 현재 버전을 제거 해야 합니다.
+- 팀은 사용자 또는 컴퓨터 별로 배포 해야 합니다. 사용자 당 동시 및 컴퓨터 별로 팀을 배포 하는 것은 지원 되지 않습니다.  컴퓨터 또는 사용자 별로 이러한 모드 중 하나로 마이그레이션하려면 제거 절차에 따라 두 모드에 다시 배포 합니다.
 - MacOs 및 Linux 기반 클라이언트는 현재 Citrix에서 지원 되지 않습니다.
 - Citrix는 끝점에 정의 된 명시적 HTTP 프록시 사용을 지원 하지 않습니다. 
 
