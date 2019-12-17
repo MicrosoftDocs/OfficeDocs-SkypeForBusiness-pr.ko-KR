@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd9440ce7c4d35af28e577c9d9e01845f298ef01
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 4c63195f4732931083a12a455b79d77d9c1e6b01
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020062"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069349"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>가상화 된 데스크톱 인프라 팀
 
@@ -130,10 +130,10 @@ Office 365 ProPlus는 팀의 컴퓨터 단위 설치를 지원 하지 않습니�
 
 1. 다음 링크 중 하나를 사용 하 여 VDI VM 운영 체제와 일치 하는 팀 MSI 패키지를 다운로드 합니다.
 
-    - [32 비트 버전](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
-    - [64 비트 버전](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
+    - [32 비트 버전](https://statics.teams.cdn.office.net/production-windows/1.2.00.32462/Teams_windows.msi)
+    - [64 비트 버전](https://statics.teams.cdn.office.net/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
-    필요한 팀 데스크톱 앱의 최소 버전은 버전 1.2.00.31357입니다. (이전 버전에서는 PSTN 보류가 지원 되지 않음)
+    필요한 팀 데스크톱 앱의 최소 버전은 버전 1.2.00.31357입니다. (PSTN 보류가 이전 버전에서 지원 되지 않습니다.)
 
 2. 다음 명령 중 하나를 실행 하 여이 MSI를 VDI VM에 설치 합니다.
 
@@ -155,14 +155,13 @@ Office 365 ProPlus는 팀의 컴퓨터 단위 설치를 지원 하지 않습니�
  
         다음 대화형 로그온 세션에서 팀을 시작 하 고 자격 증명을 요청 합니다.
 
-3. VDI VM에서 MSI 제거 
+3. VDI VM에서 MSI를 제거 합니다. 
 
     팀을 제거 하는 방법에는 두 가지가 있습니다.  
   
     - PowerShell 스크립트 (권장):이 [PowerShell 스크립트](scripts/powershell-script-teams-deployment-clean-up.md) 를 사용 하 여 대상 컴퓨터 또는 사용자의 팀을 정리할 수 있습니다. 대상 컴퓨터의 모든 사용자에 대해 실행 되어야 합니다. 
     
-    - 명령줄:이 방법은 팀을 제거 하지만 팀을 다시 설치 하는 것을 방지 합니다.  
-    다음 명령을 실행 합니다.
+    - 명령줄:이 방법은 팀을 제거 하지만 팀을 다시 설치 하는 것을 방지 합니다. 다음 명령을 실행 합니다.
   
       ```
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -218,7 +217,7 @@ Vdi의 비즈니스용 Skype에서 vdi의 팀으로 마이그레이션하는 경
 
 ### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Chrome 브라우저의 팀과 VDI 용 팀 데스크톱 앱 비교
 
-Chrome 브라우저의 팀은 AV 최적화를 사용 하는 VDI 용 팀 데스크톱 앱의 대체 기능을 제공 하지 않습니다. 채팅 및 공동 작업 환경은 예상 대로 작동 합니다. 미디어를 사용 해야 하는 경우 Chrome 브라우저에서 사용자 기대치를 충족 하지 못할 수 있는 환경이 있습니다.
+Chrome 브라우저의 팀은 AV 최적화를 사용 하는 VDI 용 팀 데스크톱 앱의 대체 기능을 제공 하지 않습니다. 채팅 및 공동 작업 환경은 예상 대로 작동 합니다. 미디어를 사용 해야 하는 경우 Chrome 브라우저에서 사용자 기대치를 충족 하지 못하는 몇 가지 환경이 있습니다.
 
 - 오디오 및 비디오 스트리밍 환경이 최적이 아닐 수 있습니다. 사용자에 게 지연 또는 품질이 저하 될 수 있습니다.
 - 브라우저 설정에서는 장치 설정을 사용할 수 없습니다.

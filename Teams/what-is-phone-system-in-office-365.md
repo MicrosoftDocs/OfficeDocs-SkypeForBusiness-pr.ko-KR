@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '전화 시스템에서 수행할 수 있는 작업에 대해 알아봅니다. '
-ms.openlocfilehash: d6bc3d8265059520e3f8448f800de91331e26e01
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: bd17ff93c2327b63920dc4a180277dfce885de0c
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37568534"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069399"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365의 전화 시스템 이란?
 

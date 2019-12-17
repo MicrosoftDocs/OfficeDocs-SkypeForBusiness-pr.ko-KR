@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37b74c631bc8194037b332e821b29fa61cb6530b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8f12b80fa1914166d48860b15cda7a928ca94ece
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516758"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069199"
 ---
 # <a name="plan-my-users-experience"></a>내 사용자 환경 계획
 
@@ -41,7 +41,7 @@ Microsoft 팀에는 웹, 데스크톱 (Windows 및 Mac) 및 모바일 (Android �
 
 아래 다이어그램에서 볼 수 있듯이 끝점은 사용자에 게 품질 경험을 제공 하기 위한 중요 한 빌딩 블록입니다.
 
-품질의 세 가지 구성 요소를 설명 하는 ![품질 다이어그램의 세 가지 구성 요소](media/plan-my-users-experience-image1.png "와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 설명 하는 다이어그램입니다. 끝점에 포커스를 둔 상태")
+![품질의 세 가지 구성 요소를 설명 하는 다이어그램](media/plan-my-users-experience-image1.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 설명 하는 다이어그램입니다. 끝점에 포커스를 둔 상태")
 
 팀 끝점은 Pc, Mac, 태블릿, 모바일 장치를 비롯 한 다양 한 장치에서 실행 될 수 있습니다. 장치의 기본 제공 마이크/스피커, 이어폰 또는 최적화 된 헤드셋을 사용 하는 것과 같이 장치를 포괄 하는 방법과 사용자가 디바이스에 연결 하는 방법을 경험해 보세요. 최적화 된 헤드셋을 사용 하면 전체적인 사용자 환경이 보강 될 수 있습니다.
 
@@ -88,7 +88,7 @@ Microsoft 팀에서 실시간 작업 부하를 지원 하기 위해 최적화 �
 조직에서 802.11 절전 프로토콜을 지원 하지 않는 무선 액세스 지점 또는 라우터를 사용 하는 경우 Windows 장치에서 실행 되는 Microsoft 팀에서 호출이 손실 되거나 잘못 된 통화 품질이 발생할 수 있습니다. 무선 액세스 지점이 나 라우터를 업그레이드할 수 없는 경우 배터리 전원으로 실행 되는 장치에서 Windows 전원 관리 옵션 설정을 업데이트 해야 합니다. 자세한 내용 및 구성 지침은 다음 [지원 문서](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)에 나와 있습니다.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>조직에 배포할 팀 클라이언트는 무엇 인가요?</li><li>처음에 팀 클라이언트를 사용자에 게 배포 하는 방법은 무엇 인가요?</li><li>끝점 및 장치를 평가 하 여 품질 경험을 위한 팀 요구 사항에 맞는지 확인 하는 책임은 무엇 인가요?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>조직에 배포할 팀 클라이언트는 무엇 인가요?</li><li>처음에 팀 클라이언트를 사용자에 게 배포 하는 방법은 무엇 인가요?</li><li>끝점 및 장치를 평가 하 여 품질 경험을 위한 팀 요구 사항에 맞는지 확인 하는 책임은 무엇 인가요?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>팀 클라이언트를 배포 하기 위해 팔 로우 하는 프로세스를 문서화 합니다.</li><li>끝점 및 장치를 평가 하 고 필요한 경우 업데이트를 수행 합니다.</li></ul></td></tr>
 </table>
 
@@ -106,10 +106,12 @@ Microsoft 팀은 모임 또는 전화 시스템에 사용할 수 있습니다. �
 장치를 선택한 후 파일럿 테스트 계획에 최종 유효성 검사에 포함 합니다. 파일럿에서 설문 조사를 활용 하 여 피드백을 수집 하 여 디바이스 전략이 최적화 되었는지 확인 합니다.
 
 > [!NOTE]
-> 이번에는 비즈니스용 Skype 인증 프로그램을 통해 인증 된 오디오 장치를 사용 하는 것이 좋습니다. 이 프로그램에서 인증 된 장치를 찾으려면 [비즈니스용 Skype For Business 솔루션에 대해 인증 됨 USB 장치](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) 를 참조 하세요.
+> 이번에는 비즈니스용 Skype 인증 프로그램을 통해 인증 된 오디오 장치를 사용 하는 것이 좋습니다. 이 프로그램에서 인증 된 장치를 찾으려면 [Microsoft 팀 디바이스](https://products.office.com/en-us/microsoft-teams/across-devices/devices) 및 [USB 오디오 및 비디오 장치](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)를 참조 하세요.
+
+
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>사용자 및 회의실 환경에 대 한 조직의 전반적인 디바이스 전략을 결정 합니다.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>사용자 및 회의실 환경에 대 한 조직의 전반적인 디바이스 전략을 결정 합니다.</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>조직에 대 한 가상 사용자 대 장치 매핑 연습을 완료 합니다.</li><li>사용자 및 회의실에 대 한 장치를 가져오기 위한 프로세스를 문서화 합니다.</li><li>사용자 및 회의실에 맞게 장치를 배포 하 고 구성 하는 프로세스를 문서화 합니다.</li><li>배포를 시작 하는 초기 장치를 조달 하세요.</li></ul></td></tr>
 </table>
 

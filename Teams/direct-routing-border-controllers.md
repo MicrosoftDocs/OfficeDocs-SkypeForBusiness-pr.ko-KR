@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 사용자가 직접 라우팅으로 SBCs 작업을 인증 하도록 선택 된 SBC 공급 업체와의 협력 파트너.
-ms.openlocfilehash: 5fa0cb728beed0f308a4d168cd149ef1e75e2809
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 529b0b550d60123a94b36944e8f1831acb09839a
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37572248"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069429"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -41,30 +41,30 @@ ms.locfileid: "37572248"
 [직접 라우팅에 대해 자세히 알아보세요](https://aka.ms/dr). 다이렉트 라우팅에 대 한 SBC 인증 프로그램에 대 한 질문이 있는 경우 drsbccertification@microsoft.com에 전자 메일을 전송 해 주십시오.
 
 
-|                                                       공급 업체                                                        |       지원부       | 비 미디어 바이패스 | 미디어 바이패스 | 소프트웨어 버전 |
-|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
+|                                                       공급 업체                                                        |       지원부       | 비 미디어 바이패스 | 미디어 바이패스 | 소프트웨어 버전 | E911 공급자와 Vaidated | ELIN 가능
+|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [오디오 코드](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20 a. 250   |
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20 a. 250   |
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20 a. 250   |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20 a. 250   |
-|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   중일     |  7.20 a. 250  |
-|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7.20 a. 250   |                                                                       
-|                                                                                                                     | 가상 버전 SBC |     &#10004;     |   &#10004;     |  7.20 a. 250 |
-|  [리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 6.2       |
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 6.2       |
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 6.2       |
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 6.2       |
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 6.2       |
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.1     |
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.1     |
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.1    |
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    생각 365 SBC    |     &#10004;     |   중일    |       V 1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |
-|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  | 
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |                                             
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |
-|                     [TE-시스템](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v 3.16.2      |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20 a. 250   |    |    |
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20 a. 250   |     |    |    
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20 a. 250   |     |    |    
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   중일     |  7.20 a. 250  |    |    |    
+|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7.20 a. 250   |    |    |                                                                       
+|                                                                                                                     | 가상 버전 SBC |     &#10004;     |   &#10004;     |  7.20 a. 250 |    |    |    
+|  [리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 6.2       |  Intrado <br>Intrado |   아니요 |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 6.2       |   Intrado <br>Intrado  | 아니요   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 6.2       |  Intrado <br>Intrado    |아니요|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 6.2       |   Intrado <br>Intrado  |  아니요  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 6.2       |   Intrado <br>Intrado |   아니요 |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.1     |     |    |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.1     |    |    |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.1    |     |    |    
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    생각 365 SBC    |     &#10004;     |   중일    |       V 1.4       |     |    |    
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |    |    |    
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |    |    |    
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   |    |    
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   |    |    
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |        |    |                                            
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |    |    |    
+|                     [TE-시스템](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v 3.16.2      |     |    |    
 
 새로운 기능에 대 한 아이디어 등 팀에 대 한 제품 피드백을 제공 하려면 [Uservoice](https://microsoftteams.uservoice.com) 를 방문 하 여 주 버전에 부여 된 인증을 참고 하세요. 이는 주요 버전 다음의 SBC 펌웨어에 숫자가 포함 된 펌웨어가 지원 됨을 의미 합니다.

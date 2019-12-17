@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: 사용자가 조직에서 예약한 팀 모임에 대 한 설정을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: adb1beaa7aff84d2ef51820332bc7f823b124a22
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746451"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069459"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft 팀에서 모임 설정 관리
 
@@ -52,7 +52,7 @@ ms.locfileid: "38746451"
 
 1. 너비가 188 픽셀을 초과 하지 않는 이미지를 만들 수 있습니다 (크기는 매우 작아서 약 30 픽셀).
 2. 이미지를 JPG 또는 PNG 형식으로 저장 합니다.
-3. 조직의 모든 사용자가 액세스할 수 있는 중앙 위치 (예: 네트워크 공유)에 이미지를 저장 합니다.
+3. 초대를 받는 모든 사람이 액세스할 수 있는 위치 (예: 공용 웹 사이트)에 이미지를 저장 합니다.
 
     이제 모임 초대에 추가할 수 있습니다. 다음 단계를 참조 하세요.
 

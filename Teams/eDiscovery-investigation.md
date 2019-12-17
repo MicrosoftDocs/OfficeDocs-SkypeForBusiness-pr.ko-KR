@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 법률 소송 절차에 대해 전자적으로 저장 된 모든 정보를 제출 해야 하는 경우와 같이 eDiscovery를 preform 해야 할 경우 수행할 작업에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e645085130b65283a1841661c4e2885e5ea9cba4
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 205b10c9fc1576b260e72c145239d56b1c71b643
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231119"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069189"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft 팀의 콘텐츠 eDiscovery 조사 수행
 ============================
@@ -42,6 +42,8 @@ ms.locfileid: "38231119"
 3.  사용자의 사서함에서 개인 채팅을 보려면 대화 내용 아래의 팀 채팅 폴더에도 포함 되어 있습니다.
 
 ## <a name="ediscovery-of-guest-to-guest-chats"></a>게스트 대 게스트 채팅 eDiscovery
+
+현재 게스트가 1:1 또는 1: N 채팅에 참여 하는 시나리오의 경우, 해당 채팅 메시지의 eDiscovery이 지원 되지 않습니다. 
 
 사서함이 없으면 게스트 간 채팅 (가정용 테 넌 트 사용자가 없는 1xN 채팅)이 인덱싱되지 않으며 결과적으로 eDiscovery에 포함 되지 않습니다. 게스트 대 게스트 채팅에 eDiscovery 기능을 활용 하기 위해 클라우드 기반 사서함 (또는 팬텀 사서함)을 만들어 1xN 데이터를 저장 합니다. 팀 채팅 데이터는 클라우드 기반 사서함에 저장 된 후 eDiscovery 및 준수 콘텐츠 검색을 위해 인덱싱됩니다.
 

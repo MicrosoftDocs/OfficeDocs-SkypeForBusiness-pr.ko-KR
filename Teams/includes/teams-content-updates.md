@@ -3,53 +3,6 @@
 
 
 
-## <a name="week-of-november-04-2019"></a>7 월 4 일, 2019 주
-
-
-| 게시 날짜 |주제 제목 | 바뀌지 |
-|------|------------|--------|
-| 11/4/2019 | [Microsoft 팀에서 lob (기간 업무) 앱 관리](/MicrosoftTeams/manage-your-lob-apps) | 으 |
-| 11/4/2019 | [Microsoft 팀에서 파일 공유](/MicrosoftTeams/sharing-files-in-teams) | 으 |
-| 11/4/2019 | [통화 품질 대시보드 켜기 및 사용](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 으 |
-| 11/4/2019 | [SharePoint Online 및 비즈니스용 OneDrive가 Microsoft 팀과 상호 작용 하는 방법](/MicrosoftTeams/sharepoint-onedrive-interact) | 으 |
-| 11/4/2019 | [Microsoft 팀에서 팀 보관 또는 삭제](/MicrosoftTeams/archive-or-delete-a-team) | 으 |
-| 11/4/2019 | [Microsoft 팀에서 팀 소유자 및 구성원 지정](/MicrosoftTeams/assign-roles-permissions) | 으 |
-| 11/4/2019 | [Microsoft 팀에서 이벤트 감사 로그 검색](/MicrosoftTeams/audit-log-events) | 으 |
-| 11/4/2019 | [Microsoft 팀에서 팀을 구성 하기 위한 모범 사례](/MicrosoftTeams/best-practices-organizing) | 으 |
-| 11/4/2019 | [Microsoft 팀에서 콘텐츠 검색 사용](/MicrosoftTeams/content-search) | 으 |
-| 11/4/2019 | [Microsoft 팀의 콘텐츠 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 으 |
-| 11/4/2019 | [Teams 서식 파일 시작](/MicrosoftTeams/get-started-with-teams-templates) | 으 |
-| 11/4/2019 | [Microsoft 팀의 정보 장벽](/MicrosoftTeams/information-barriers-in-teams) | 으 |
-| 11/4/2019 | [법률 보류에 Microsoft 팀 사용자 또는 팀 배치](/MicrosoftTeams/legal-hold) | 으 |
-| 11/4/2019 | [팀에서 메시징 정책 관리](/MicrosoftTeams/messaging-policies-in-teams) | 으 |
-| 11/4/2019 | [Microsoft 팀 보존 정책 FAQ](/MicrosoftTeams/retention-policies-faq) | 으 |
-| 11/4/2019 | [Microsoft 팀의 보존 정책에 대 한 알려진 문제점](/MicrosoftTeams/retention-policies-known-issues) | 으 |
-| 11/4/2019 | [Microsoft 팀의 보존 정책](/MicrosoftTeams/retention-policies) | 으 |
-| 11/4/2019 | [Microsoft 팀의 보안 및 준수에 대 한 개요](/MicrosoftTeams/security-compliance-overview) | 으 |
-| 11/4/2019 | [Microsoft 팀의 팀 및 채널 개요](/MicrosoftTeams/teams-channels-overview) | 으 |
-| 11/4/2019 | [Microsoft 팀에서 팀 정책 관리](/MicrosoftTeams/teams-policies) | 으 |
-| 11/4/2019 | [Microsoft 팀 용 클라이언트 가져오기](/MicrosoftTeams/get-clients) | 으 |
-| 11/5/2019 | [Microsoft 팀 용 클라이언트 가져오기](/MicrosoftTeams/get-clients) | 으 |
-| 11/5/2019 | [Microsoft 팀 앱의 하드웨어 요구 사항](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 으 |
-| 11/5/2019 | [Exchange Online을 사용 하 여 Microsoft 팀 대화방 배포](/MicrosoftTeams/room-systems/with-exchange-online) | 으 |
-| 11/5/2019 | Microsoft 팀에서 파일 공유 | 제거할 |
-| 11/5/2019 | [통화 품질 대시보드 켜기 및 사용](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 으 |
-| 11/5/2019 | [팀 용 환자 앱 관리자](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 으 |
-| 11/5/2019 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/room-systems/requirements) | 으 |
-| 11/6/2019 | [바레인의 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | 으 |
-| 11/6/2019 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
-| 11/6/2019 | [Teams에서 사용자 현재 상태 확인](/MicrosoftTeams/presence-admins) | 으 |
-| 11/6/2019 | [비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레이드-Microsoft 팀](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | 으 |
-| 11/6/2019 | [XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리](/MicrosoftTeams/room-systems/content-camera) | 으 |
-| 11/7/2019 | [Microsoft 팀에서 정책 패키지 관리](/MicrosoftTeams/manage-policy-packages) | 으 |
-| 11/7/2019 | [Microsoft 팀 공간 라이선스](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 으 |
-| 11/8/2019 | [전화 시스템 직접 라우팅](/MicrosoftTeams/direct-routing-call-notifications) | 으 |
-| 11/8/2019 | [XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리](/MicrosoftTeams/room-systems/xml-config-file) | 으 |
-| 11/8/2019 | [Microsoft 팀의 개인 채널 수명 주기 관리](/MicrosoftTeams/private-channels-life-cycle-management) | 으 |
-| 11/8/2019 | [Microsoft 팀의 개인 채널](/MicrosoftTeams/private-channels) | 으 |
-| 11/8/2019 | [Microsoft 팀 공간 라이선스](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 으 |
-
-
 ## <a name="week-of-november-11-2019"></a>7 월 11 일 주 2019
 
 
@@ -196,3 +149,50 @@
 | 12/6/2019 | [Microsoft Teams 교육](/MicrosoftTeams/training-microsoft-teams-landing-page) | 으 |
 | 12/6/2019 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/room-systems/requirements) | 으 |
 | 12/6/2019 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
+
+
+## <a name="week-of-december-09-2019"></a>7 월 9 일, 2019
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 12/9/2019 | [Microsoft 팀에서 Office 365 및 사용자 지정 커넥터 사용](/MicrosoftTeams/office-365-custom-connectors) | 으 |
+| 12/9/2019 | Microsoft 팀에서 비공개 채팅 및 채널을 위한 인공 지능 추가 | 제거할 |
+| 12/9/2019 | [Microsoft 팀에서 기본 제공 및 사용자 지정 탭 사용](/MicrosoftTeams/built-in-custom-tabs) | 으 |
+| 12/9/2019 | [Microsoft 팀의 앱, 인공 & 커넥터](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 으 |
+| 12/9/2019 | [Microsoft 팀 대화방 복구 도구 사용](/MicrosoftTeams/room-systems/recovery-tool) | 으 |
+| 12/9/2019 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/room-systems/requirements) | 으 |
+| 12/9/2019 | [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams 배포](/MicrosoftTeams/use-advisor-teams-roll-out) | 으 |
+| 12/9/2019 | [Microsoft Teams의 알려진 문제](/MicrosoftTeams/known-issues) | 으 |
+| 12/9/2019 | [Microsoft 팀의 발신자 ID 정책 관리](/MicrosoftTeams/caller-id-policies) | 으 |
+| 12/9/2019 | [다이얼 플랜 만들기 및 관리](/MicrosoftTeams/create-and-manage-dial-plans) | 으 |
+| 12/9/2019 | [Microsoft 팀 용 클라이언트 가져오기](/MicrosoftTeams/get-clients) | 으 |
+| 12/9/2019 | Microsoft 팀 \| 을 위한 업그레이드 전문가 로드맵 | 제거할 |
+| 12/9/2019 | [다이얼 플랜이 무엇인가요?](/MicrosoftTeams/what-are-dial-plans) | 으 |
+| 12/10/2019 | [Microsoft 팀에서 조직의 교대 근무 앱 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 으 |
+| 12/10/2019 | [Microsoft StaffHub 사용 중지 예정](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 으 |
+| 12/10/2019 | [Microsoft Teams에서 다른 조직의 사용자와 의사소통하기](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 으 |
+| 12/10/2019 | [Microsoft 팀 앱의 하드웨어 요구 사항](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 으 |
+| 12/10/2019 | [Microsoft 팀의 외부 (페더레이션된) 사용자를 위한 기본 채팅 환경](/MicrosoftTeams/native-chat-for-external-users) | 으 |
+| 12/10/2019 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
+| 12/11/2019 | [Microsoft 팀에서 앱 권한 정책 관리](/MicrosoftTeams/teams-app-permission-policies) | 으 |
+| 12/11/2019 | [Microsoft 팀에서 긴급 통화 라우팅 정책 관리](/MicrosoftTeams/manage-emergency-call-routing-policies) | 으 |
+| 12/11/2019 | [Microsoft 팀에서 긴급 통화 정책 관리](/MicrosoftTeams/manage-emergency-calling-policies) | 으 |
+| 12/11/2019 | [릴리스 정보](/MicrosoftTeams/room-systems/srs2-release-note) | 으 |
+| 12/12/2019 | [Microsoft 팀의 발신자 ID 정책 관리](/MicrosoftTeams/caller-id-policies) | 으 |
+| 12/12/2019 | [Microsoft 팀에서 긴급 통화 라우팅 정책 관리](/MicrosoftTeams/manage-emergency-call-routing-policies) | 으 |
+| 12/12/2019 | [Microsoft 팀에서 긴급 통화 정책 관리](/MicrosoftTeams/manage-emergency-calling-policies) | 으 |
+| 12/12/2019 | [Microsoft 팀에서 피드백 정책 관리](/MicrosoftTeams/manage-feedback-policies-in-teams) | 으 |
+| 12/12/2019 | [SCCM을 통해 MSI를 사용 하 여 Microsoft 팀 설치](/MicrosoftTeams/msi-deployment) | 으 |
+| 12/12/2019 | [Microsoft 팀의 민감도 레이블](/MicrosoftTeams/sensitivity-labels) | 으 |
+| 12/12/2019 | [Microsoft 팀에서 앱 설치 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 으 |
+| 12/12/2019 | [Microsoft 팀에서 팀 정책 관리](/MicrosoftTeams/teams-policies) | 으 |
+| 12/12/2019 | [직접 라우팅 구성](/MicrosoftTeams/direct-routing-configure) | 으 |
+| 12/12/2019 | [Microsoft 팀 용 클라이언트 가져오기](/MicrosoftTeams/get-clients) | 으 |
+| 12/13/2019 | [Exchange 및 Microsoft 팀의 상호 작용 방식](/MicrosoftTeams/exchange-teams-interact) | 으 |
+| 12/13/2019 | [Microsoft Teams에서 게스트 액세스 권한 부여](/MicrosoftTeams/teams-dependencies) | 으 |
+| 12/13/2019 | [직접 라우팅 구성](/MicrosoftTeams/direct-routing-configure) | 으 |
+| 12/13/2019 | [Microsoft 팀 앱의 하드웨어 요구 사항](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 으 |
+| 12/13/2019 | [Microsoft 팀의 개인 채널](/MicrosoftTeams/private-channels) | 으 |
+| 12/13/2019 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
+| 12/13/2019 | [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams 배포](/MicrosoftTeams/use-advisor-teams-roll-out) | 으 |
