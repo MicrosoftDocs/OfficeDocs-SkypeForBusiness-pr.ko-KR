@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 팀에서 모임 정책 설정을 관리 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 1407e18387aac5ae9ad5bdaa894d738f48fb3b42
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564969"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744872"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -95,7 +95,7 @@ ms.locfileid: "37564969"
 ## <a name="meeting-policy-settings---general"></a>모임 정책 설정-일반
 
 - [채널에서 모임 시작 허용](#allow-meet-now-in-channels)
-- [바로 비공개 모임 허용 (예정 대로)](#allow-private-meet-now-coming-soon)
+- [지금 비공개 모임 허용](#allow-private-meet-now)
 - [Outlook 추가 기능 허용](#allow-the-outlook-add-in)
 - [채널 모임 예약 허용](#allow-channel-meeting-scheduling)
 - [개인 모임 예약 허용](#allow-scheduling-private-meetings)
@@ -106,7 +106,7 @@ ms.locfileid: "37564969"
 
 ![메시지 아래에 모임 시작 아이콘을 표시 하는 스크린샷](media/meeting-policies-meet-now.png)
 
-### <a name="allow-private-meet-now-coming-soon"></a>바로 비공개 모임 허용 (예정 대로)
+### <a name="allow-private-meet-now"></a>지금 비공개 모임 허용
 
 이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 임시 비공개 모임을 시작할 수 있는지 여부를 제어 합니다.  
 
@@ -138,7 +138,7 @@ ms.locfileid: "37564969"
 
 - [내용 허용](#allow-transcription)
 - [클라우드 기록 허용](#allow-cloud-recording)
-- [IP 영상 허용](#allow-ip-video)
+- [IP 비디오 허용](#allow-ip-video)
 - [미디어 비트 전송률 (KBs)](#media-bit-rate-kbs)
 - [실시간 캡션 사용 (미리 보기)](#enable-live-captions-preview)
 
@@ -160,7 +160,7 @@ ms.locfileid: "37564969"
 
 다음 예제를 살펴보겠습니다.
 
-|클릭할 |모임 정책  |클라우드 기록 허용 |
+|사용자 |모임 정책  |클라우드 기록 허용 |
 |---------|---------|---------|
 |Daniela | 전역   | 해제 |
 |Amanda | Location1MeetingPolicy | False|
@@ -170,7 +170,7 @@ Daniela에서 구성한 모임은 기록 하 고 Amanda 수 있으며, 정책 �
 
 클라우드 모임 기록에 대해 자세히 알아보려면 [팀 클라우드 모임 기록을](cloud-recording.md)참조 하세요.
 
-### <a name="allow-ip-video"></a>IP 영상 허용
+### <a name="allow-ip-video"></a>IP 비디오 허용
 
 이는 구성 단위 및 사용자별 정책 조합입니다. 비디오는 모임에 대 한 주요 구성 요소입니다. 일부 조직에서는 관리자가 어떤 사용자의 모임이 비디오를 보유 하 고 있는지 더 자세히 관리할 수 있습니다. 이 설정은 사용자가 호스트 하는 모임 및 사용자가 시작한 1:1 통화 및 그룹 통화에서 비디오를 켤 수 있는지 여부를 제어 합니다. 이 정책을 사용 하도록 설정한 사용자가 구성한 모임에는 모임 참가자가 정책을 사용 하도록 설정한 경우 모임 참가자가 모임에서 비디오 공유를 사용할 수 있습니다. 배정 된 정책이 없는 모임 참가자 (예: 익명 및 페더레이션 참가자)는 모임 이끌이의 정책을 상속 합니다.
 
@@ -178,7 +178,7 @@ Daniela에서 구성한 모임은 기록 하 고 Amanda 수 있으며, 정책 �
 
 다음 예제를 살펴보겠습니다.
 
-|클릭할 |모임 정책  |IP 영상 허용 |
+|사용자 |모임 정책  |IP 영상 허용 |
 |---------|---------|---------|
 |Daniela   | 전역   | False        |
 |Amanda    | Location1MeetingPolicy        | 해제      |
@@ -233,7 +233,7 @@ CEO 보드 모임 및 팀 라이브 이벤트와 같이 고품질의 비디오 �
 
 다음 예제를 살펴보겠습니다.
 
-|클릭할 |모임 정책 |화면 공유 모드 |
+|사용자 |모임 정책 |화면 공유 모드 |
 |---------|---------|---------|
 |Daniela  | 전역   | 전체 화면 |
 |Amanda   | Location1MeetingPolicy  | 비활성화 |
@@ -256,7 +256,7 @@ Daniela에서 호스팅하는 모임은 모임 참가자가 전체 화면 또는
 
 다음 예제를 살펴보겠습니다.
 
-|클릭할 |모임 정책  |참가자가 제어권을 부여 하거나 요청할 수 있도록 허용 |
+|사용자 |모임 정책  |참가자가 제어권을 부여 하거나 요청할 수 있도록 허용 |
 |---------|---------|---------|
 |Daniela   | 전역   | False       |
 |Babek    | Location1MeetingPolicy        | 해제   |
@@ -280,7 +280,7 @@ Daniela는 다른 참가자에 게 제어권을 부여할 수 없기 때문에 B
 
 다음 예제를 살펴보겠습니다.
 
-|클릭할 |모임 정책  |PowerPoint 공유 허용 |
+|사용자 |모임 정책  |PowerPoint 공유 허용 |
 |---------|---------|---------|
 |Daniela   | 전역   | False       |
 |Amanda   | Location1MeetingPolicy        | 해제   |
@@ -293,7 +293,7 @@ Amanda 모임 이끌이 인 경우에도 모임에서 PowerPoint 슬라이드 �
 
 다음 예제를 살펴보겠습니다.
 
-|클릭할 |모임 정책  |화이트 보드 허용|
+|사용자 |모임 정책  |화이트 보드 허용|
 |---------|---------|---------|
 |Daniela   | 전역   | False       |
 |Amanda   | Location1MeetingPolicy        | 해제   |
@@ -306,7 +306,7 @@ Amanda 모임 이끌이 인 경우에도 모임에서 화이트 보드를 공유
 
 다음 예제를 살펴보겠습니다.
 
-|클릭할 |모임 정책  |공유 메모 허용 |
+|사용자 |모임 정책  |공유 메모 허용 |
 |---------|---------|---------|
 |Daniela   | 전역   | False       |
 |Amanda   | Location1MeetingPolicy | 해제 |
@@ -387,8 +387,6 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 |   | 조직의 모든 사용자     |대기실에서 대기         |
 |   | 조직 및 페더레이션된 조직의 모든 사용자      | 대기실에서 대기         |
 
-
-[전체 문서](meeting-policies-in-teams.md)
 
 ## <a name="related-topics"></a>관련 항목
 [팀의 메시징 정책](messaging-policies-in-teams.md)

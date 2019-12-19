@@ -18,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Microsoft 팀에 대해 인증 된 IP 데스크 및 전화 회의 전화
-ms.openlocfilehash: 331c84e9a62b64a1fab33676c296c65f045b53ae
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: bf14bed7846b8c1b3dea1d79f3ecae99706dc034
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675826"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744852"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -48,6 +48,7 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 |M100에서 crestron|2.3875.00068|2018 년 12 월|
 |Flex UC에서 crestron P100-T & UC-P110-T  | 58.15.91.6 |2019 년 1 월|
 |Poly Trio 8500/8800 (공유 모드에만 해당)| 5.9.0.10869|2019 년 6 월|
+|Poly CCX500 | 1.0.0.2535| 2019 년 12 월|
 |옛 alink VP59 | 91.15.0.16 |2019 년 6 월|
 |옛 alink T55 | 58.15.0.36 |2019 년 5 월|
 |옛 alink CP 960 |73.15.0.20|2018 년 12 월|

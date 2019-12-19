@@ -1,11 +1,11 @@
 ---
-title: 엘살바도르의 가용성
-ms.author: crowe
-author: CarolynRowe
+title: 도미니카의 가용성
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
-ms.assetid: ba39f7c0-3bdd-4cd5-b4bc-dccda2414c3a
+ms.assetid: 1eb066bc-394a-434e-87a2-61d257a7e77d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,52 +23,53 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 Office 용 비즈니스용 Skype 및 El에 대해 제공 되는 Microsoft 팀을 위한 365 서비스입니다.
-ms.openlocfilehash: ee73a0ed7a49d87e84fb9df0c6dcfcb25c90192a
+description: 다음은 Microsoft 비즈니스용 Skype에 대 한 Office 365 서비스와 도미니카에 대해 제공 되는 Microsoft 팀입니다.
+ms.openlocfilehash: e6d9cc4ef19e152944c5d1f82adaa81e16c26bb5
 ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741362"
+ms.locfileid: "40741633"
 ---
-# <a name="availability-in-el-salvador"></a>엘살바도르의 가용성
+# <a name="availability-in-dominica"></a>도미니카의 가용성
 
 [다른 국가 또는 지역을 찾거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능성에 대해 자세히 알아보세요.
 
-다음은 Office 용 비즈니스용 Skype 및 El에 대해 제공 되는 Microsoft 팀을 위한 365 서비스입니다.
+다음은 Microsoft 비즈니스용 Skype에 대 한 Office 365 서비스와 도미니카에 대해 제공 되는 Microsoft 팀입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
 |**기능**|**세부적인**|
 |:-----|:-----|
 |음성 회의는 구매할 수 있나요?  <br/> |예, [분당 요금이](../audio-conferencing-pay-per-minute.md) 부과 됩니다.  <br/> |
-|오디오 회의에 대 한 전화 번호가 자동으로 할당 되나요?  <br/> |아니요 <br/> |
+|오디오 회의에 대 한 전화 번호가 자동으로 할당 되나요?  <br/> |아니요 <br> |
 |전화 걸기 기능 사용  <br/> |통신 크레딧이 필요 합니다.  <br/> |
+   
    
 ## <a name="phone-system"></a>전화 시스템
 
 |**기능**|**세부적인**|
 |:-----|:-----|
-|전화 시스템을 구매할 수 있나요?  <br/> |예  <br/> |
-| 자동 전화 교환 <br/> |공간이  <br/> |
-|통화 대기열  <br/> |공간이  <br/> |
-|음성 메일  <br/> |공간이  <br/> |
+|전화 시스템을 구매할 수 있나요?  <br/> | 예 <br/> |
+|자동 전화 교환 <br/> | 공간이  <br/> |
+|통화 대기열  <br/> | 공간이 <br/> |
+|음성 메일  <br/> | 공간이 <br/> |
    
 ## <a name="calling-plans"></a>통화 플랜
 
 |**기능**|**세부적인**|
 |:-----|:-----|
-|전화 플랜은 구매할 수 있나요?  <br/> |아니요  <br/> |
-|통화 플랜에 사용할 수 있는 시간 (분)  <br/> |해당 없음  <br/> |
+|전화 플랜은 구매할 수 있나요?  <br/> | 아니요 <br/> |
+|통화 플랜에 사용할 수 있는 시간 (분)  <br/> | 해당 없음<br/> |
 |님이 발신 전화를 할 수 있습니까?  <br/> |해당 없음  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스의 유료 및 무료 전화 번호
 
 |**기능**|**세부적인**|
 |:-----|:-----|
-|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> |San 엘살바도르  <br/> |
-|유료 전화 번호를 사용 하 고 계십니까?  <br/> |예  <br/> |
-|무료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
+|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?  <br/> |해당 없음  <br/> |
+|유료 전화 번호를 사용 하 고 계십니까?  <br/> |아니요  <br/> |
+|무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    
  오디오 회의, 자동 전화 교환, 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
   
@@ -86,4 +87,6 @@ ms.locfileid: "40741362"
 
 [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
+  
+ 
 

@@ -3,7 +3,7 @@ title: 캄보디아의 가용성
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 및 캄보디아에서 사용할 수 있는 Microsoft 팀을 위한 Office 365 서비스입니다.
-ms.openlocfilehash: 6d758a5171ecd8af006a6c8afd466b2a0aab5f2d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 438ac6dc00ea92c46143df287a4615879300a540
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37639497"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741372"
 ---
 # <a name="availability-in-cambodia"></a>캄보디아의 가용성
 
@@ -38,24 +38,24 @@ ms.locfileid: "37639497"
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
-|**요소**|**세부적인**|
+|**기능**|**세부적인**|
 |:-----|:-----|
-|음성 회의는 구매할 수 있나요?  <br/> |아니요  <br/> |
+|음성 회의는 구매할 수 있나요?  <br/> |예, [분당 요금이](../audio-conferencing-pay-per-minute.md) 부과 됩니다.  <br/> |
 |오디오 회의에 대 한 전화 번호가 자동으로 할당 되나요?  <br/> |아니요  <br/> |
 |전화 걸기 기능 사용  <br/> | 통신 크레딧이 필요 합니다. <br/> |
    
 ## <a name="phone-system"></a>전화 시스템
 
-|**요소**|**세부적인**|
+|**기능**|**세부적인**|
 |:-----|:-----|
-|전화 시스템을 구매할 수 있나요?  <br/> |'  <br/> |
+|전화 시스템을 구매할 수 있나요?  <br/> |예  <br/> |
 |자동 전화 교환 <br/> |공간이  <br/> |
 |통화 대기열  <br/> |공간이  <br/> |
-|보이스 메일  <br/> |공간이  <br/> |
+|음성 메일  <br/> |공간이  <br/> |
    
-## <a name="calling-plans"></a>통화 요금제
+## <a name="calling-plans"></a>통화 플랜
 
-|**요소**|**세부적인**|
+|**기능**|**세부적인**|
 |:-----|:-----|
 |전화 플랜은 구매할 수 있나요?  <br/> |아니요  <br/> |
 |통화 플랜에 사용할 수 있는 시간 (분)  <br/> |해당 없음  <br/> |
@@ -63,19 +63,19 @@ ms.locfileid: "37639497"
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스의 유료 및 무료 전화 번호
 
-|**요소**|**세부적인**|
+|**기능**|**세부적인**|
 |:-----|:-----|
-|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?   | Phnom Penh ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) |
-|유료 전화 번호를 사용 하 고 계십니까?  <br/> |예 ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
-|무료 번호를 사용할 수 있나요?  <br/> |예 ([요청 시](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?   | Phnom Penh |
+|유료 전화 번호를 사용 하 고 계십니까?  <br/> |예 <br/> |
+|무료 번호를 사용할 수 있나요?  <br/> |아니요 <br/> |
    
  오디오 회의, 자동 전화 교환 및 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 받기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
   
-## <a name="communications-credits"></a>통신 제작진
+## <a name="communications-credits"></a>통신 크레딧
 
-|**요소**|**세부적인**|
+|**기능**|**세부적인**|
 |:-----|:-----|
-|통신 크레딧을 사용할 수 있나요?  <br/> |아니요  <br/> |
+|통신 크레딧을 사용할 수 있나요?  <br/> |예  <br/> |
    
 설정 하려는 경우 [조직의 통신 크레딧 설정을](../set-up-communications-credits-for-your-organization.md)참조 하세요.
   
@@ -83,5 +83,5 @@ ms.locfileid: "37639497"
 
 [비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 
-[오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능 여부](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

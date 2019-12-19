@@ -1,5 +1,5 @@
 ---
-title: 오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능 여부
+title: 오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
@@ -25,35 +25,40 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 국가/지역을 선택 하 여 오디오 회의, 전화 시스템, 통화 요금제, 통신 크레딧을 사용 하는지 여부, 무료 전화 번호 및 무료 통화 전화번호를 확인할 수 있습니다.
-ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573088"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741392"
 ---
-# <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능 여부
+# <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 
 국가 또는 지역을 선택 하 여 조직에서 사용할 수 있는 클라우드 음성 기능을 확인할 수 있습니다.
 ***
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>국가 또는 지역을 선택 하 여 조직에 사용할 수 있는 항목을 확인 합니다.
 
 > [!div class="op_single_selector"]
-> - [알제리](availability-in-algeria.md)    
+> - [알제리](availability-in-algeria.md)
+> - [앤티가 바부다](availability-in-antigua-and-barbuda.md)
 > - [아르헨티나](availability-in-argentina.md)
 > - [오스트레일리아](availability-in-australia.md)
 > - [오스트리아](availability-in-austria.md)
+> - [바하마](availability-in-the-bahamas.md)
 > - [바레인](availability-in-bahrain.md)
+> - [바베이도스](availability-in-barbados.md)
 > - [벨로루시](availability-in-belarus.md)
 > - [벨기에](availability-in-belgium.md)
 > - [벨리즈](availability-in-belize.md)
-> - [Benin](availability-in-benin.md)
+> - [베냉](availability-in-benin.md)
+> - [버뮤다](availability-in-bermuda.md)
 > - [보스니아 헤르체고비나](availability-in-bosniaherzegovina.md)
 > - [브라질](availability-in-brazil.md)
 > - [브루나이](availability-in-brunei.md)
 > - [불가리아](availability-in-bulgaria.md)
 > - [캄보디아](availability-in-cambodia.md)
 > - [캐나다](availability-in-canada.md)
+> - [케이맨 제도](availability-in-the-cayman-islands.md)
 > - [칠레](availability-in-chile.md)
 > - [중국](availability-in-china.md)
 > - [콜롬비아](availability-in-colombia.md)
@@ -62,6 +67,7 @@ ms.locfileid: "37573088"
 > - [키프로스](availability-in-cyprus.md)
 > - [체코](availability-in-the-czech-republic.md)
 > - [덴마크](availability-in-denmark.md)
+> - [도미니카](availability-in-dominica.md)
 > - [도미니카 공화국](availability-in-the-dominican-republic.md)
 > - [에콰도르](availability-in-ecuador.md)
 > - [이집트](availability-in-egypt.md)
@@ -69,18 +75,21 @@ ms.locfileid: "37573088"
 > - [에스토니아](availability-in-estonia.md)
 > - [핀란드](availability-in-finland.md)
 > - [프랑스](availability-in-france.md)
-> - [그루지야](availability-in-georgia.md)
+> - [조지아](availability-in-georgia.md)
 > - [독일](availability-in-germany.md)
-> - [가 나](availability-in-ghana.md)
+> - [가나](availability-in-ghana.md)
 > - [그리스](availability-in-greece.md)
+> - [Grenada](availability-in-grenada.md)
+> - [괌](availability-in-guam.md)
 > - [온두라스](availability-in-honduras.md)
-> - [홍콩 특별 행정구](availability-in-hong-kong.md)
+> - [홍콩](availability-in-hong-kong.md)
 > - [헝가리](availability-in-hungary.md)
 > - [인도](availability-in-india.md)
 > - [인도네시아](availability-in-indonesia.md)
 > - [아일랜드](availability-in-ireland.md)
 > - [이스라엘](availability-in-israel.md)
 > - [이탈리아](availability-in-italy.md)
+> - [자메이카](availability-in-jamaica.md)
 > - [일본](availability-in-japan.md)
 > - [요르단](availability-in-jordan.md)
 > - [카자흐스탄](availability-in-kazakhstan.md)
@@ -89,7 +98,7 @@ ms.locfileid: "37573088"
 > - [라트비아](availability-in-latvia.md)
 > - [리투아니아](availability-in-lithuania.md)
 > - [룩셈부르크](availability-in-luxembourg.md)
-> - [공화국](availability-in-macedonia.md)
+> - [마케도니아](availability-in-macedonia.md)
 > - [말레이시아](availability-in-malaysia.md)
 > - [몰타](availability-in-malta.md)
 > - [멕시코](availability-in-mexico.md)
@@ -112,6 +121,8 @@ ms.locfileid: "37573088"
 > - [카타르](availability-in-qatar.md)
 > - [루마니아](availability-in-romania.md)
 > - [러시아](availability-in-russia.md)
+> - [세인트 크리스토퍼 네비스](availability-in-saint-kitts-and-nevis.md)
+> - [세인트 루시아](availability-in-saint-lucia.md)
 > - [사우디아라비아](availability-in-saudi-arabia.md)
 > - [세르비아](availability-in-serbia.md)
 > - [싱가포르](availability-in-singapore.md)
@@ -129,14 +140,14 @@ ms.locfileid: "37573088"
 > - [튀니지](availability-in-tunisia.md)
 > - [터키](availability-in-turkey.md)
 > - [우크라이나](availability-in-the-ukraine.md)
-> - [미국 아랍에미리트 (UAE)](availability-in-the-united-arab-emirates-uae.md)
+> - [아랍에미리트(UAE)](availability-in-the-united-arab-emirates-uae.md)
 > - [영국](availability-in-the-united-kingdom-u-k.md)
 > - [미국](availability-in-the-united-states-u-s.md)
 > - [우루과이](availability-in-uruguay.md)
 > - [베네수엘라](availability-in-venezuela.md)
 > - [베트남](availability-in-vietnam.md)
 
-**모든 국가 및 지역이 있는 스프레드시트를 찾고 있는 경우에는 [클라우드 음성 기능 국가/지역 사용 가능 스프레드시트](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)를 다운로드 하 여 저장 합니다**.
+**모든 국가 및 지역이 있는 스프레드시트를 찾고 있는 경우에는 [클라우드 음성 기능 국가/지역 사용 가능 스프레드시트](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)를 다운로드 하 여 저장 합니다**.
 
 ***
 
@@ -182,13 +193,13 @@ ms.locfileid: "37573088"
 
 페이지 맨 위에 있는 드롭다운 목록을 사용 하 여 국가 또는 지역을 검색 하 고 사용할 수 있는 서비스를 찾습니다.
 
-### <a name="calling-plans"></a>통화 요금제
+### <a name="calling-plans"></a>통화 플랜
 전화 시스템을 사용 하 여 전화를 걸고 받을 수 있는 통화 요금제가 있습니다. 먼저 사용자에 게 할당할 사용자 (구독자) 전화 번호 (서비스 번호가 아님)를 얻은 다음 통화 요금제를 할당 해야 합니다. 두 가지 유형의 통화 요금제 ( **국내** 및 **국내 및 국제**)를 사용할 수 있습니다. 자세한 내용은 [전화 시스템 및 통화 요금제](../calling-plan-landing-page.md) 를 참조 하세요.
 
 또한 라이선스 정보에 대 한 [전화 시스템 및 통화 요금제 라이선스](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 를 볼 수 있습니다.
 
 > [!NOTE]
-> 국가/지역은 microsoft **365 관리 센터** > **활성 사용자** 의 사용자 라이선스 위치를 기반으로 하며 microsoft 365 관리자의 **조직 프로필** 아래에 나열 된 청구 주소는 **아닙니다** . ** 가운데**. 
+> 국가/지역은 microsoft **365 관리 센터** > **활성 사용자** 의 사용자 라이선스 위치를 기반으로 하며 **microsoft 365 관리 센터**의 **조직 프로필** 아래에 나열 된 청구 주소는 **아닙니다** . 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>서비스에 대 한 유료 및 무료 전화 번호
 
@@ -200,7 +211,7 @@ Office 365의 개별 사용자에 대 한 전화 번호를 가져올 수 있을 
 
 페이지 맨 위에 있는 드롭다운 목록을 사용 하 여 국가 또는 지역을 검색 하 고 사용할 수 있는 서비스를 찾습니다.
 
-### <a name="communications-credits"></a>통신 제작진
+### <a name="communications-credits"></a>통신 크레딧
 
 오디오 회의 및 통화 계획에 대해 통신 크레딧을 설정 하는 것이 좋습니다. **모든 목적지**로 전화를 걸 수 있는 기능이 필요한 사용자 여러 국가/지역이 포함 되어 있지만 일부 대상은 통화 요금제 또는 오디오 회의 구독에 포함 되지 않을 수 있습니다.
   
