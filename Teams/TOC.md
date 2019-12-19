@@ -1,11 +1,22 @@
 <!-- ============================================================ -->
+
 # [Teams에 오신 것을 환영합니다](teams-overview.md)
+
+# [아키텍처 및 전화 통신 솔루션 포스터](teams-architecture-solutions-posters.md)  
+
+# 교육 
+## [개요](training-microsoft-teams-landing-page.md)
+## [Teams용 강사 진행 교육](instructor-led-training-teams-landing-page.md)
+## [Teams에 대한 관리자 교육](itadmin-readiness.md)
+## [Teams에 대한 최종 사용자 교육](enduser-training.md)
+<!-- ============================================================ -->
+#       
+#    
+
 # [Teams를 배포하는 방법](How-to-roll-out-teams.md)
-# [포스터: Teams 아키텍처 & 전화 통신 솔루션](teams-architecture-solutions-posters.md)  
 
 <!-- ============================================================ -->
-
-# 시작
+# 시작하기
 ## [개요](get-started-with-teams-quick-start.md)
 ## [1단계: 첫 번째 팀과 채널 만들기](get-started-with-teams-create-your-first-teams-and-channels.md)
 ## [2단계: 얼리어답터 온보딩](get-started-with-teams-onboard-early-adopters.md)
@@ -34,6 +45,7 @@
 ## [팀 만료 및 갱신](team-expiration-renewal.md)
 ## [팀 보관 또는 삭제](archive-or-delete-a-team.md)
 ## [Slack에서 Teams로 마이그레이션](migrate-slack-to-teams.md)
+## [중소기업을 위한 Teams 서식 파일](smb-templates.md)
 
 
 
@@ -173,101 +185,11 @@
 #### [초대에 포함할 전화 번호 설정](set-the-phone-numbers-included-on-invites-in-teams.md)
 #### [휴대폰에서 PIN 없이 오디오 회의 시작](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
 
-
+### [오디오 회의의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 ### 참조
 #### [오디오 회의 지원되는 언어](audio-conferencing-supported-languages.md)
-
 #### [오디오 회의의 전화 번호](phone-numbers-for-audio-conferencing-in-teams.md)
-
-#### 오디오 회의 및 통화 플랜의 국가 및 지역 가용성
-##### [개요](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-##### [아르헨티나](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
-##### [오스트레일리아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
-##### [오스트리아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
-##### [바레인](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md)
-##### [벨로루시](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md)
-##### [벨기에](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md)
-##### [벨리즈](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md)
-##### [보스니아 헤르체고비나](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md)
-##### [브라질](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md)
-##### [브루나이](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md)
-##### [불가리아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md)
-##### [캐나다](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md)
-##### [칠레](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md)
-##### [중국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md)
-##### [콜롬비아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md)
-##### [코스타리카](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md)
-##### [크로아티아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md)
-##### [키프로스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus.md)
-##### [체코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic.md)
-##### [덴마크](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark.md)
-##### [도미니카 공화국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md)
-##### [에콰도르](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md)
-##### [이집트](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md)
-##### [엘살바도르](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md)
-##### [에스토니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md)
-##### [핀란드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
-##### [프랑스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
-##### [조지아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
-##### [독일](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
-##### [그리스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
-##### [온두라스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md)
-##### [홍콩](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md)
-##### [헝가리](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md)
-##### [인도](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md)
-##### [인도네시아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md)
-##### [아일랜드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md)
-##### [이스라엘](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md)
-##### [이탈리아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md)
-##### [일본](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md)
-##### [요르단](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md)
-##### [케냐](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md)
-##### [라트비아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md)
-##### [리투아니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md)
-##### [룩셈부르크](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md)
-##### [마케도니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md)
-##### [말레이시아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md)
-##### [몰타](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md)
-##### [멕시코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
-##### [몰도바](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
-##### [모나코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md)
-##### [네덜란드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
-##### [뉴질랜드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
-##### [노르웨이](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md)
-##### [파키스탄](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md)
-##### [파나마](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md)
-##### [파라과이](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay.md)
-##### [페루](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md)
-##### [필리핀](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md)
-##### [폴란드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md)
-##### [포르투갈](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md)
-##### [푸에르토리코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md)
-##### [카타르](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md)
-##### [루마니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md)
-##### [러시아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md)
-##### [사우디아라비아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia.md)
-##### [세르비아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md)
-##### [싱가포르](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md)
-##### [슬로바키아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md)
-##### [슬로베니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md)
-##### [남아프리카 공화국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md)
-##### [대한민국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md)
-##### [스페인](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md)
-##### [스리랑카](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md)
-##### [스웨덴](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md)
-##### [스위스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md)
-##### [대만](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md)
-##### [태국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md)
-##### [트리니다드 토바고](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
-##### [터키](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md)
-##### [우크라이나](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md)
-##### [아랍에미리트(UAE)](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md)
-##### [영국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md)
-##### [미국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md)
-##### [우루과이](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
-##### [베네수엘라](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
-##### [베트남](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
 #### [비디오 - Teams의 오디오 회의](audio-conferencing-videos.md)
 
 
@@ -330,6 +252,7 @@
 ### [통화 플랜을 구입하는 방법](calling-plans-for-office-365.md)
 ### [조직의 통화 플랜 설정](set-up-calling-plans.md)
 ### [빠른 시작 가이드: 통화 플랜 구성](configuring-teams-calling-quickstartguide.md)
+### [통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 ## 전화 시스템 직접 라우팅
 
@@ -405,105 +328,6 @@
 
 
 ## 참조
-### 통화 플랜의 국가 및 지역 가용성
-
-#### [개요](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-#### [알제리](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md)
-#### [아르헨티나](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
-#### [오스트레일리아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
-#### [오스트리아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
-#### [바레인](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md)
-#### [벨로루시](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md)
-#### [벨기에](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md)
-#### [벨리즈](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md)
-#### [베냉](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md)
-#### [보스니아 헤르체고비나](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md)
-#### [브라질](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md)
-#### [브루나이](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md)
-#### [불가리아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md)
-#### [캄보디아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md)
-#### [캐나다](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md)
-#### [칠레](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md)
-#### [중국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md)
-#### [콜롬비아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md)
-#### [코스타리카](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md)
-#### [크로아티아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md)
-#### [키프로스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus.md)
-#### [체코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic.md)
-#### [덴마크](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark.md)
-#### [도미니카 공화국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md)
-#### [에콰도르](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md)
-#### [이집트](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md)
-#### [엘살바도르](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md)
-#### [에스토니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md)
-#### [핀란드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
-#### [프랑스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
-#### [조지아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
-#### [독일](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
-#### [가나](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
-#### [그리스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
-#### [온두라스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md)
-#### [홍콩](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md)
-#### [헝가리](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md)
-#### [인도](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md)
-#### [인도네시아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md)
-#### [아일랜드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md)
-#### [이스라엘](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md)
-#### [이탈리아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md)
-#### [일본](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md)
-#### [요르단](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md)
-#### [카자흐스탄](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kazakhstan.md)
-#### [케냐](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md)
-#### [쿠웨이트](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kuwait.md)
-#### [라트비아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md)
-#### [리투아니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md)
-#### [룩셈부르크](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md)
-#### [마케도니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md)
-#### [말레이시아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md)
-#### [몰타](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md)
-#### [멕시코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
-#### [몰도바](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
-#### [모나코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md)
-#### [모로코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md)
-#### [네덜란드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
-#### [뉴질랜드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
-#### [니카라과](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nicaragua.md)
-#### [나이지리아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md)
-#### [노르웨이](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md)
-#### [파키스탄](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md)
-#### [파나마](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md)
-#### [파라과이](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay.md)
-#### [페루](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md)
-#### [필리핀](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md)
-#### [폴란드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md)
-#### [포르투갈](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md)
-#### [푸에르토리코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md)
-#### [카타르](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md)
-#### [루마니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md)
-#### [러시아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md)
-#### [사우디아라비아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia.md)
-#### [세르비아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md)
-#### [싱가포르](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md)
-#### [슬로바키아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md)
-#### [슬로베니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md)
-#### [남아프리카 공화국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md)
-#### [대한민국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md)
-#### [스페인](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md)
-#### [스리랑카](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md)
-#### [스웨덴](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md)
-#### [스위스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md)
-#### [대만](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md)
-#### [태국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md)
-#### [트리니다드 토바고](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
-#### [튀니지](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md)
-#### [터키](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md)
-#### [우크라이나](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md)
-#### [아랍에미리트(UAE)](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md)
-#### [영국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md)
-#### [미국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md)
-#### [우루과이](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
-#### [베네수엘라](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
-#### [베트남](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
 ### 국가 전화 번호 관리 
 #### [오스트레일리아의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 #### [벨기에의 전화 번호 관리](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
@@ -688,11 +512,10 @@
 ### [비즈니스용 Skype를 사용한 마이그레이션 및 상호 운용성](migration-interop-guidance-for-teams-with-skype.md)
 ### [비즈니스용 Skype와 공존](coexistence-chat-calls-presence.md)
 ### [Teams 클라이언트 환경 및 공존 모드 준수](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [공존 및 업그레이드 설정 지정](setting-your-coexistence-and-upgrade-settings.md)
 
 
 <!-- ============================================================ -->
-#       
-#    
 # 하이브리드 연결 
 
 ## [하이브리드 연결 계획](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
@@ -760,8 +583,6 @@
 <!-- ============================================================ -->
 
 
-
-
 # 산업 및 정부 지침
 ## [개요](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Teams 서식 파일 시작](get-started-with-teams-templates.md)
@@ -805,13 +626,6 @@
 
 <!-- ============================================================ -->
 
-# 중소기업 지침
-## [중소기업을 위한 Teams 서식 파일](smb-templates.md)
-#    
-#    
-
-<!-- ============================================================ -->
-
 # 보안 및 규정 준수
 ## [개요](security-compliance-overview.md)
 ## [Teams의 정보 장벽](information-barriers-in-teams.md)
@@ -836,18 +650,28 @@
 
 
 <!-- ============================================================ -->
-#       
-#          
-# [교육](training-microsoft-teams-landing-page.md)
-## [Teams용 강사 진행 교육](instructor-led-training-teams-landing-page.md)
-## [Teams에 대한 관리자 교육](itadmin-readiness.md)
-## [Teams에 대한 최종 사용자 교육](enduser-training.md)
+# 모니터링, 유지 관리 및 문제 해결
+## [통화 품질 모니터링 및 관리](monitor-call-quality-qos.md)
+### [QoE(체감 품질) 검토 가이드](quality-of-experience-review-guide.md)
+### [Teams에 QoS 설정](QoS-in-Teams.md)
+#### [Windows 클라이언트에 QoS 설정](QoS-in-Teams-clients.md)
+### [통화 분석 및 통화 품질 대시보드](difference-between-call-analytics-and-call-quality-dashboard.md)
+### [통화 분석 설정](set-up-call-analytics.md)
+### [통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [통화 품질 대시보드 켜기 및 사용](turning-on-and-using-call-quality-dashboard.md)
+### [통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
+### [통화 품질 대시보드의 분류 간소화](stream-classification-in-call-quality-dashboard.md)
+## [설치 및 업데이트 문제 해결](troubleshoot-installation.md)
+## [Teams 클라이언트의 연결 문제 해결](connectivity-issues.md)
+## [Teams 문제 해결에 로그 파일 사용](log-files.md)
+## [Teams의 서비스 상태 확인](service-health.md)
+## [Teams의 알려진 문제](Known-issues.md)
+## [Teams의 지원 리소스](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 <!-- ============================================================ -->
-
-
-
+#       
+#    
 # 참조
-
 
 ## Teams 배포 준비
 ### [Teams에 대한 환경 준비 상태 확인](environment-readiness.md)
@@ -861,10 +685,6 @@
 ### [Teams에서 수명 주기 관리 계획](plan-teams-lifecycle.md)
 ### [Teams에서 거버넌스 계획](plan-teams-governance.md)
 ### [네트워크 테스트 비교 사용](use-network-testing-companion.md)
-
-
-
-
 
 ## Teams 설치
 ### [Teams용 클라이언트 가져오기](get-clients.md)
@@ -899,7 +719,7 @@
 
 
 ## Office 365와의 상호 운용성
-### [공존 및 업그레이드 설정 지정](setting-your-coexistence-and-upgrade-settings.md)
+
 ### [Office 365 그룹 및 Teams](office-365-groups.md)
 ### [Teams와 기존 Office 365 그룹 향상](enhance-office-365-groups.md)
 ### [Exchange와 Teams의 상호 작용 방식](exchange-teams-interact.md)
@@ -907,7 +727,6 @@
 #### [Exchange Online에서 Teams SMTP 도메인을 허용 도메인으로 추가](smtp-accepted-domain.md)
 ### [SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법](sharepoint-onedrive-interact.md)
 ### [Office 365의 다중 지역 지원 테넌시의 Teams 환경](teams-experience-o365odb-spo-multi-geo.md)
-
 
 
 ## 지원되는 장치
@@ -919,26 +738,6 @@
 ### [비즈니스용 Skype Online용 휴대폰](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
-
-## 문제 해결 및 지원
-### [Teams의 알려진 문제](Known-issues.md)
-### [Teams의 지원 리소스](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Teams 클라이언트의 연결 문제 해결](connectivity-issues.md)
-### [Teams 문제 해결에 로그 파일 사용](log-files.md)
-### [Teams의 서비스 상태 확인](service-health.md)
-### [Teams 정책의 특수 문자 제한 사항](special-character-restrictions-in-policy-names.md)
-
-### [통화 품질 모니터링](monitor-call-quality-qos.md)
-#### [QoE(체감 품질) 검토 가이드](quality-of-experience-review-guide.md)
-#### [Teams에 QoS 설정](QoS-in-Teams.md)
-##### [Windows 클라이언트에 QoS 설정](QoS-in-Teams-clients.md)
-#### [통화 분석 및 통화 품질 대시보드](difference-between-call-analytics-and-call-quality-dashboard.md)
-#### [통화 분석 설정](set-up-call-analytics.md)
-#### [통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-#### [통화 품질 대시보드 켜기 및 사용](turning-on-and-using-call-quality-dashboard.md)
-#### [통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
-#### [통화 품질 대시보드의 분류 간소화](stream-classification-in-call-quality-dashboard.md)
-
 ## Teams PowerShell
 ### [개요](teams-powershell-overview.md)
 ### [Teams용 Cmdlet 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
@@ -946,3 +745,107 @@
 ## [Teams용 개발자 문서](https://docs.microsoft.com/microsoftteams/platform)
 ## [Teams에서 도움말 보기](get-help-in-microsoft-teams.md)
 ## [Teams 콘텐츠 업데이트](teams-updates.md)
+
+
+## 오디오 회의 및 통화 플랜의 국가 및 지역 가용성
+### [개요](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+### [알제리](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md)
+### [앤티쿠아바부다](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda.md)
+### [아르헨티나](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
+### [오스트레일리아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
+### [오스트리아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
+### [바하마](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-bahamas.md)
+### [바레인](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md)
+### [바베이도스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md)
+### [벨로루시](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md)
+### [벨기에](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md)
+### [벨리즈](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md)
+### [베냉](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md)
+### [버뮤다](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md)
+### [보스니아 헤르체고비나](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md)
+### [브라질](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md)
+### [브루나이](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md)
+### [불가리아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md)
+### [캄보디아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md)
+### [캐나다](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md)
+### [케이맨 제도](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-cayman-islands.md)
+### [칠레](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md)
+### [중국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md)
+### [콜롬비아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md)
+### [코스타리카](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md)
+### [크로아티아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md)
+### [키프로스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus.md)
+### [체코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic.md)
+### [덴마크](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark.md)
+### [도미니카](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-dominica.md)
+### [도미니카 공화국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md)
+### [에콰도르](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md)
+### [이집트](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md)
+### [엘살바도르](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md)
+### [에스토니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md)
+### [핀란드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
+### [프랑스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
+### [조지아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
+### [독일](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
+### [그리스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
+### [그레나다](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md)
+### [괌](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md)
+### [온두라스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md)
+### [홍콩](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md)
+### [헝가리](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md)
+### [인도](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md)
+### [인도네시아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md)
+### [아일랜드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md)
+### [이스라엘](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md)
+### [이탈리아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md)
+### [자메이카](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jamaica.md)
+### [일본](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md)
+### [요르단](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md)
+### [케냐](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md)
+### [라트비아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md)
+### [리투아니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md)
+### [룩셈부르크](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md)
+### [마케도니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md)
+### [말레이시아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md)
+### [몰타](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md)
+### [멕시코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
+### [몰도바](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
+### [모나코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md)
+### [네덜란드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
+### [뉴질랜드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
+### [노르웨이](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md)
+### [파키스탄](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md)
+### [파나마](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md)
+### [파라과이](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay.md)
+### [페루](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md)
+### [필리핀](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md)
+### [폴란드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md)
+### [포르투갈](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md)
+### [푸에르토리코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md)
+### [카타르](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md)
+### [루마니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md)
+### [러시아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md)
+### [세인트키츠 네비스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-kitts-and-nevis.md)
+### [세인트루시아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-lucia.md)
+### [사우디아라비아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia.md)
+### [세르비아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md)
+### [싱가포르](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md)
+### [슬로바키아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md)
+### [슬로베니아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md)
+### [남아프리카 공화국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md)
+### [대한민국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md)
+### [스페인](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md)
+### [스리랑카](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md)
+### [스웨덴](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md)
+### [스위스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md)
+### [대만](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md)
+### [태국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md)
+### [트리니다드 토바고](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
+### [터키](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md)
+### [우크라이나](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md)
+### [아랍에미리트(UAE)](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md)
+### [영국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md)
+### [미국](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md)
+### [우루과이](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
+### [베네수엘라](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
+### [베트남](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
