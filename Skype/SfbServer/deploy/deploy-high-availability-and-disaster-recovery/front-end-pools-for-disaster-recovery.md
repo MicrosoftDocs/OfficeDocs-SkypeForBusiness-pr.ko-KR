@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 페어링 된 프런트 엔드 풀을 사용 하 여 재해 복구 보호를 제공 하기로 결정할 수 있지만, 반드시 그럴 필요는 없습니다.
-ms.openlocfilehash: 4aa24c3a5150efbea87cd3837aca9216f047b11e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 550c336569b604ae20199b419dc104af0609c775
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240038"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "39254397"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 재해 복구용으로 쌍을 이루는 프런트 엔드 풀 배포
  
@@ -39,25 +39,27 @@ ms.locfileid: "36240038"
     
 6. 토폴로지 작성기를 사용 하 여 토폴로지를 게시 합니다.
     
-7. 두 풀이 아직 배포 되지 않은 경우 지금 배포 하면 구성이 완료 됩니다. 이 절차의 마지막 두 단계는 건너뛸 수 있습니다.
+7. 두 풀이 아직 배포 되지 않은 경우 지금 배포 하면 구성이 완료 됩니다. 이 절차의 마지막 단계를 건너뛸 수 있습니다.
     
-    그러나 짝이 되는 관계를 정의 하기 전에 풀이 이미 배포 된 경우에는 다음 두 가지 최종 단계를 완료 해야 합니다.
+    그러나 짝이 되는 관계를 정의 하기 전에 풀이 이미 배포 된 경우 다음의 마지막 단계를 완료 해야 합니다.
     
 8. 두 풀의 모든 프런트 엔드 서버에서 다음을 실행 합니다.
     
    ```
-   <system drive>\Program Files\Skype for Business Server 2015\Deployment\Bootstrapper.exe 
+   <system drive>\Program Files\Skype for Business Server 2019\Deployment\Bootstrapper.exe 
    ```
 
     이렇게 하면 백업 페어링에 필요한 다른 서비스가 제대로 작동 합니다.
     
-9. 비즈니스용 Skype 서버 관리 셸 명령 프롬프트에서 다음을 실행 합니다. 
+9. 부트스트래퍼가 두 풀의 모든 프런트 엔드 서버에 있는 백업 연결에 필요한 구성 요소를 설치 하는 것을 마치면, 두 풀의 프런트 엔드 서버에 이전에 적용 한 기존 누적 업데이트를 다시 적용 한 후 계속 합니다. 다음 단계로 이동 합니다.
+
+10. 비즈니스용 Skype 서버 관리 셸 명령 프롬프트에서 다음을 실행 합니다. 
     
    ```
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
-10. 다음 cmdlet을 사용 하 여 두 풀의 사용자 및 컨퍼런스 데이터를 서로 동기화 할 수 있습니다.
+11. 다음 cmdlet을 사용 하 여 두 풀의 사용자 및 컨퍼런스 데이터를 서로 동기화 합니다.
     
     ```
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>

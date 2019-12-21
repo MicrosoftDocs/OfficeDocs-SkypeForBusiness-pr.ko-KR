@@ -16,20 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e248d0cc92cea65fe8eb3b4a2c05f70b4c11c124
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f3e097a49e1ffa2c2a1cad86d8fa020fc24c59d4
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236461"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "36437630"
 ---
-![업그레이드 여행의 이해 관계자 상태를 보여 주는 그림] (media/upgrade-banner-stakeholders.png "프로젝트 이해 관계자 팀 수집에 대 한 강조를 통해 업그레이드 여행 단계")
+![업그레이드 여행의 이해 관계자 상태를 보여 주는 그림](media/upgrade-banner-stakeholders.png "프로젝트 이해 관계자 팀 수집에 대 한 강조를 통해 업그레이드 여행 단계")
 
 이 문서는 프로젝트의 성공에 대해 완료 하는 가장 중요 한 첫 번째 활동 인 업그레이드 여행에 대 한 프로젝트 관련자 단계의 일부입니다.
 
+
 # <a name="enlist-your-project-stakeholders"></a>프로젝트 관련자 참여
 
-프로젝트 인도품 구현에서 책임을 추진 하는 것부터 관계자가 프로젝트의 성공에 대 한 키를 보유 하 고 있습니다. 다음과 같은 두 가지 관계자 (1)에 게 배정할 수 있는 vested 이자 프로젝트의 성공에 대 한 영향을 주는 책임자 스폰서와 _coalition_ 포함 되어 있고 (2) _프로젝트 팀_이 구성 된 기술 및 사용자 준비를 보장 하는 사용자로 서, 프로젝트 계획의 다양 한 작업을 수행 합니다. 이러한 두 그룹 간의 일반적인 스레드는 프로젝트 작업을 예약할 때 완료 하 고 프로젝트 상태를 다시 coalition에 보고 하는 _프로젝트 관리자_입니다.
+프로젝트 인도품 구현에서 책임을 추진 하는 것부터 관계자가 프로젝트의 성공에 대 한 키를 보유 하 고 있습니다. 다음과 같은 두 가지 관계자 (1) 프로젝트의 성공 여부에 대 한 vested 이자에 영향을 주는 임원 및 프로젝트 스폰서를 포함 하 고 프로젝트 _팀_에 게 프로젝트 계획의 다양 한 작업을 완료 하는 기술 및 사용자 준비를 보장 하는 사용자로 구성 된 _coalition_ (2). 이러한 두 그룹 간의 일반적인 스레드는 프로젝트 작업을 예약할 때 완료 하 고 프로젝트 상태를 다시 coalition에 보고 하는 _프로젝트 관리자_입니다.
 
 > [!Tip]
 > 프로젝트의 발신음을 설정 하 고, 예를 들어, 다른 사용자가 자신을 책임 지 게 하는 데 도움이 되는, 이상적인 임원진 스폰서를 식별 하는 시간을 찍습니다. 이는 프로젝트 범위 및 비전에 대 한 권한이 있는 상급 관리자 또는 임원 이어야 합니다. 또한 프로젝트를 시간과 예산을 유지 하는 데 도움이 되도록 차단 및 해결 충돌을 제거 하는 최종 의사 결정권자 여야 합니다.
@@ -38,8 +39,8 @@ ms.locfileid: "36236461"
 
 | | |
 |---|---|
-| ![결정 점을 가리키는 아이콘](media/audio_conferencing_image7.png) <br/>결정 사항 | <ul><li>이 프로젝트에 대 한 관계자 팀 역할을 하는 사용자는 누구 입니까?</li></ul> |
-| ![다음 단계를 설명 하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계 | <ul><li>프로젝트의 범위를 고려 하 고 관련 관계자를 할당 합니다.</li><li>다음 표를 지침으로 사용 하지만이 목록은 모두 포함 되지 않습니다.<br><strong>팁</strong><br>프로젝트의 특정 영역에 대 한 정보를 유지 해야 하는 사람을 책임 지는 사용자를 더 쉽게 구분할 수 있도록 RACI (사용자에 게 상담 [) 매트릭스](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) 를 작성 합니다.</li> |
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점 | <ul><li>이 프로젝트에 대 한 관계자 팀 역할을 하는 사용자는 누구 입니까?</li></ul> |
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계 | <ul><li>프로젝트의 범위를 고려 하 고 관련 관계자를 할당 합니다.</li><li>다음 표를 지침으로 사용 하지만이 목록은 모두 포함 되지 않습니다.<br><strong>팁</strong><br>프로젝트의 특정 영역에 대 한 정보를 유지 해야 하는 사람을 책임 지는 사용자를 더 쉽게 구분할 수 있도록 RACI (사용자에 게 상담 [) 매트릭스](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) 를 작성 합니다.</li> |
 | <li>조종 위원회를 만들 것인지 여부를 결정 하 고 적절 하 게 역할을 지정 합니다.</li></ul> | |
 
 | 역할 | 책임져야 |
