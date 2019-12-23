@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 098477cc36237736009e1ec2010fea625d08937c
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: aa6fad448f0251a44d31c5277b43390daeb3441c
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679238"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823913"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -101,6 +101,18 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 |------------|---------------|
 |모임에 참가 중인 사용자 수  | 250    |
 |최대 PowerPoint 파일 크기 | 2GB|
+
+### <a name="meeting-expiration"></a>모임 만료
+
+|모임 유형  |이만큼 시간이 지나면 모임이 만료됩니다.  |모임을 시작하거나 업데이트할 때마다 만료 시간이 이 시간만큼 연장됩니다.  |
+|---------|---------|---------|
+|모임 시작     |시작 시간 + 8시간         |해당 없음         |
+|정규(종료 시간 없음)     |시작 시간 + 60일         | 60일        |
+|정규(종료 시간 있음)     |종료 시간 + 60일         |60일         |
+|되풀이(종료 시간 없음)     |시작 시간 + 60일         |60일         |
+|되풀이(종료 시간 있음)     |마지막 발생 항목의 종료 시간 + 60일         |60일         |
+
+
 
 ## <a name="teams-live-events"></a>Teams 라이브 이벤트
 
