@@ -3,61 +3,6 @@
 
 
 
-## <a name="week-of-november-11-2019"></a>7 월 11 일 주 2019
-
-
-| 게시 날짜 |주제 제목 | 바뀌지 |
-|------|------------|--------|
-| 11/11/2019 | [SharePoint Online 및 비즈니스용 OneDrive가 Microsoft 팀과 상호 작용 하는 방법](/MicrosoftTeams/sharepoint-onedrive-interact) | 으 |
-| 11/11/2019 | [Microsoft Teams에서 게스트 액세스 권한 부여](/MicrosoftTeams/teams-dependencies) | 으 |
-| 11/11/2019 | [Microsoft 팀에서 콘텐츠 검색 사용](/MicrosoftTeams/content-search) | 으 |
-| 11/11/2019 | [Microsoft 팀의 콘텐츠 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 으 |
-| 11/11/2019 | [Microsoft 팀에서 StaffHub 팀을 교대으로 이동](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 으 |
-| 11/11/2019 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
-| 11/11/2019 | [Office 365 OneDrive 및 SharePoint Online의 팀 환경에 대 한 복수 지역-지리적으로 지 활성화 된 테 넌 트](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 으 |
-| 11/12/2019 | [Microsoft Teams에 오신 것을 환영합니다.](/MicrosoftTeams/teams-overview) | 으 |
-| 11/12/2019 | [Microsoft 팀의 채팅, 팀, 채널, & 앱](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 으 |
-| 11/12/2019 | [Microsoft Teams에서의 모임 및 회의](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 으 |
-| 11/12/2019 | [Microsoft Teams의 게스트 액세스](/MicrosoftTeams/guest-access) | 으 |
-| 11/12/2019 | [Microsoft 팀원 관리 센터에서 팀 관리](/MicrosoftTeams/manage-teams-in-modern-portal) | 으 |
-| 11/12/2019 | [Microsoft 팀에 대 한 경험 치 검토 가이드](/MicrosoftTeams/quality-of-experience-review-guide) | 으 |
-| 11/12/2019 | [Microsoft 팀 공간 라이선스](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 으 |
-| 11/12/2019 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/room-systems/requirements) | 으 |
-| 11/13/2019 | [Microsoft 팀의 AppLocker 응용 프로그램 제어 정책](/MicrosoftTeams/applocker-in-teams) | 으 |
-| 11/13/2019 | [오디오 회의 구독 "전화 걸기"/"전화 받기" 혜택](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | 으 |
-| 11/13/2019 | [무료 전화 걸기 기간](/MicrosoftTeams/complimentary-dial-out-period) | 으 |
-| 11/13/2019 | [클라우드 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으 |
-| 11/13/2019 | [Microsoft 팀의 게스트 액세스 문제 해결](/MicrosoftTeams/troubleshoot-guest-access) | 으 |
-| 11/14/2019 | [Outlook에서 Microsoft 팀 모임 추가 기능 사용](/MicrosoftTeams/teams-add-in-for-outlook) | 으 |
-| 11/14/2019 | [Microsoft 팀원 관리 센터에서 팀 관리](/MicrosoftTeams/manage-teams-in-modern-portal) | 으 |
-| 11/14/2019 | [Microsoft 팀 앱의 하드웨어 요구 사항](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 으 |
-| 11/14/2019 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
-| 11/14/2019 | [Microsoft 팀 live 이벤트는 무엇 인가요?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 으 |
-| 11/14/2019 | [인터넷 연결 확인](/MicrosoftTeams/business-voice/get-ready-internet) | 으 |
-| 11/14/2019 | [사용자에게 Microsoft 365 Business Voice를 준비시키려면 어떻게 하나요?](/MicrosoftTeams/business-voice/prepare-users) | 으 |
-| 11/14/2019 | [시작 마법사를 사용하여 Business Voice 설정하기](/MicrosoftTeams/business-voice/use-getting-started-wizard) | 으 |
-| 11/15/2019 | [Microsoft 팀 앱의 하드웨어 요구 사항](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 으 |
-| 11/15/2019 | [Microsoft 팀에서 정책 패키지 관리](/MicrosoftTeams/manage-policy-packages) | 으 |
-| 11/15/2019 | [Microsoft 팀 용 전화](/MicrosoftTeams/phones-for-teams) | 으 |
-| 11/15/2019 | [Azure Monitor를 사용 하 여 Microsoft 팀 공간 관리 계획](/MicrosoftTeams/room-systems/azure-monitor-plan) | 으 |
-| 11/15/2019 | [Microsoft 팀 대화방 콘솔 구성](/MicrosoftTeams/room-systems/console) | 으 |
-| 11/15/2019 | [XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리](/MicrosoftTeams/room-systems/content-camera) | 으 |
-| 11/15/2019 | [Skype 채팅방 시스템 도메인 참가 고려 사항](/MicrosoftTeams/room-systems/domain-joining-considerations) | 으 |
-| 11/15/2019 | [알려진 문제](/MicrosoftTeams/room-systems/known-issues) | 으 |
-| 11/15/2019 | [Microsoft 팀 대화방으로 Lync 채팅방 시스템 장치 마이그레이션](/MicrosoftTeams/room-systems/lrs-migration) | 으 |
-| 11/15/2019 | [Microsoft 팀 대화방 복구 도구 사용](/MicrosoftTeams/room-systems/recovery-tool) | 으 |
-| 11/15/2019 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/room-systems/requirements) | 으 |
-| 11/15/2019 | [Microsoft 팀 회의실 유지 관리 및 운영](/MicrosoftTeams/room-systems/room-systems-v2-operations) | 으 |
-| 11/15/2019 | [Microsoft 팀 대화방 관리 개요](/MicrosoftTeams/room-systems/skype-room-systems-v3) | 으 |
-| 11/15/2019 | [환경 준비](/MicrosoftTeams/room-systems/srs-v2-prep) | 으 |
-| 11/15/2019 | [버전 지원](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | 으 |
-| 11/15/2019 | [릴리스 정보](/MicrosoftTeams/room-systems/srs2-release-note) | 으 |
-| 11/15/2019 | [Microsoft 팀 대화방에 대 한 Windows 업데이트 관리](/MicrosoftTeams/room-systems/updates) | 으 |
-| 11/15/2019 | [Exchange와 함께 Microsoft 팀 대화방 배포 (온-프레미스)](/MicrosoftTeams/room-systems/with-exchange-on-premises) | 으 |
-| 11/15/2019 | [Office 365를 사용 하 여 Microsoft 팀 대화방 배포](/MicrosoftTeams/room-systems/with-office-365) | 으 |
-| 11/15/2019 | [팀 용 전화 및 장치](/MicrosoftTeams/teams-ip-phones) | 으 |
-
-
 ## <a name="week-of-november-18-2019"></a>11 월 18 일 주 2019
 
 
@@ -196,3 +141,35 @@
 | 12/13/2019 | [Microsoft 팀의 개인 채널](/MicrosoftTeams/private-channels) | 으 |
 | 12/13/2019 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
 | 12/13/2019 | [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams 배포](/MicrosoftTeams/use-advisor-teams-roll-out) | 으 |
+
+
+## <a name="week-of-december-16-2019"></a>12 월 16 일 (2019 주)
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 12/16/2019 | [클라우드 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으 |
+| 12/16/2019 | [Microsoft 팀의 사용자 환경 계획](/MicrosoftTeams/5-envision-plan-my-users-experience) | 으 |
+| 12/16/2019 | [다이얼 플랜 만들기 및 관리](/MicrosoftTeams/create-and-manage-dial-plans) | 으 |
+| 12/16/2019 | [직접 라우팅으로 인증된 SBC(Session Border Controller) 목록](/MicrosoftTeams/direct-routing-border-controllers) | 으 |
+| 12/16/2019 | [Microsoft 팀의 콘텐츠 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 으 |
+| 12/16/2019 | [모임 설정 관리](/MicrosoftTeams/meeting-settings-in-teams) | 으 |
+| 12/16/2019 | [Microsoft Teams 통화 흐름](/MicrosoftTeams/microsoft-teams-online-call-flows) | 으 |
+| 12/16/2019 | [Microsoft 365 정부의 GCC 배포 계획-Microsoft 팀](/MicrosoftTeams/plan-for-government-gcc) | 으 |
+| 12/16/2019 | [릴리스 정보](/MicrosoftTeams/room-systems/srs2-release-note) | 으 |
+| 12/16/2019 | [공존 및 업그레이드 설정 설정](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | 으 |
+| 12/16/2019 | [Teams의 교차 팀 및 팀 단위 분석 보기](/MicrosoftTeams/teams-analytics-and-reports/cross-team-per-team-analytics) | 으 |
+| 12/16/2019 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
+| 12/16/2019 | [다이얼 플랜이 무엇인가요?](/MicrosoftTeams/what-are-dial-plans) | 으 |
+| 12/16/2019 | [Office 365의 전화 시스템 이란?](/MicrosoftTeams/what-is-phone-system-in-office-365) | 으 |
+| 12/17/2019 | [Microsoft 팀 클라이언트에서 서비스 품질 구현](/MicrosoftTeams/qos-in-teams-clients) | 으 |
+| 12/18/2019 | [벨리즈의 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize) | 으 |
+| 12/18/2019 | [캄보디아의 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia) | 으 |
+| 12/18/2019 | [엘살바도르의 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador) | 으 |
+| 12/18/2019 | [온두라스의 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras) | 으 |
+| 12/18/2019 | [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 으 |
+| 12/18/2019 | [직접 라우팅 구성](/MicrosoftTeams/direct-routing-configure) | 으 |
+| 12/18/2019 | [모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 으 |
+| 12/18/2019 | [Microsoft 365 정부 및 GCC 상위 배포 계획-Microsoft 팀](/MicrosoftTeams/plan-for-government-gcc-high) | 으 |
+| 12/18/2019 | [팀 용 전화 및 장치](/MicrosoftTeams/teams-ip-phones) | 으 |
+| 12/19/2019 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |

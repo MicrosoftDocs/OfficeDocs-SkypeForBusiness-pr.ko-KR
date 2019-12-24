@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft는 2020 년 2 월에 ExchUMO (Exchange 통합 메시징 Online) 서비스를 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 인식 하 고 비즈니스 연속성을 계획 하기 위해 수행 해야 하는 작업을 요약 합니다.
-ms.openlocfilehash: 8b8a0590dd53301a93fb9a6b2ed50e0d5dc830ed
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
+ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890582"
+ms.lasthandoff: 12/24/2019
+ms.locfileid: "40854093"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
@@ -185,7 +185,7 @@ Office 365 테 넌 트 관리자는 Microsoft 클라우드 자동 전화 교환 
 | A | 서비스 기능 | 시간 및 휴일 처리  |  | 피지 | 피지    |
 | A | 서비스 기능 | 텍스트 읽어주기를 사용 하 여 사용자 지정 인사말  |  | 피지 | 피지    |
 | A | 서비스 기능 | 내선 번호   | 내선 번호를 사용 하 여 사용자에 게 도달  | 피지   | 피지    |
-| A | 서비스 기능 | AA 발신자가 메시지를 남기기 위한 사서함    |  | CY19   | 피지    |
+| A | 서비스 기능 | AA 발신자가 메시지를 남기기 위한 사서함    |  | 피지   | 피지    |
 | A | 서비스 기능 | AA에 여러 개의 PSTN 번호 할당|  | 피지 | 피지    |
 | A | 테 넌 트-관리자 기능 | 웹 포털 관리   |  | 피지 | 개    |
 | A | 테 넌 트-관리자 기능 | PowerShell cmdlet  |  | 피지 | 피지    |
