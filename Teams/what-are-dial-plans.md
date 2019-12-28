@@ -19,18 +19,18 @@ f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: '팀에서 사용할 수 있는 다이얼 통화 계획의 종류 (PSTN 통화 다이얼 플랜) 및 조직에 대해 하나를 선택 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 0dadb0335f622bb297d4299aafc50a40dafcc583
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: bd41b257af80a3a21da1013e604214d1e0303edf
+ms.sourcegitcommit: 472909325a47cf0ad00bed949d02ab5766d35832
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069329"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "40891217"
 ---
 # <a name="what-are-dial-plans"></a>다이얼 플랜이 무엇인가요?
 
 다이얼 플랜은 통화 권한 부여 및 통화 라우팅과 같은 목적으로 개별 사용자가 사용 하는 전화 번호를 대체 형식 (일반적으로 E)으로 변환 하는 정규화 규칙의 명명 된 집합입니다.
 
-다이얼 플랜은 다양 한 형식으로 표현 된 전화 번호가 대체 형식으로 변환 되는 방식을 정의 하는 하나 이상의 정규화 규칙으로 구성 됩니다. 같은 다이얼 문자열은 다른 다이얼 플랜에서 다르게 해석 및 번역 될 수 있으므로 지정 된 사용자에 게 지정 된 다이얼 플랜에 따라 동일한 전화 번호를 번역 하 여 회람할 수 있습니다.
+다이얼 플랜은 다양 한 형식으로 표현 된 전화 번호가 대체 형식으로 변환 되는 방식을 정의 하는 하나 이상의 정규화 규칙으로 구성 됩니다. 같은 다이얼 문자열은 다른 다이얼 플랜에서 다르게 해석 및 번역 될 수 있으므로 지정 된 사용자에 게 지정 된 다이얼 플랜에 따라 동일한 전화 번호를 번역 하 여 회람할 수 있습니다. 최대 1000 개의 테 넌 트 다이얼 플랜이 있을 수 있습니다.
 
 [다이얼 플랜 만들기 및 관리](create-and-manage-dial-plans.md) 를 참조 하 여 테 넌 트 다이얼 플랜을 만들고 관리 합니다.
 
