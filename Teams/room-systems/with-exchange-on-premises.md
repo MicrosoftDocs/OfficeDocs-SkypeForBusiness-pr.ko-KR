@@ -13,12 +13,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Exchange 온-프레미스를 사용 하는 하이브리드 환경에서 Microsoft 팀 대화방을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 783e5af7f0325ecd78e613b445544c5231db46ab
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cc9b46554bcbef227bc6f721a7af93331d9552ca
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675412"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910056"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Exchange와 함께 Microsoft 팀 대화방 배포 (온-프레미스)
 
@@ -44,11 +44,11 @@ Exchange를 사용 하 여 Microsoft 팀 회의실을 구내에 배포 하는 �
 
   - Office 365 요금제에는 비즈니스용 Skype Online (요금제 2) 이상이 필요 합니다. 요금제는 회의 기능을 지원 해야 합니다.
   
-  - - Microsoft 팀 대화방에 대 한 전화 통신 서비스 공급자를 사용 하 여 엔터프라이즈 음성 (PSTN 전화 통신)이 필요한 경우 비즈니스용 Skype Online이 필요 합니다 (계획 3).
+  - Microsoft 팀 대화방에 대 한 전화 통신 서비스 공급자를 사용 하 여 엔터프라이즈 음성 (PSTN 전화 통신)이 필요한 경우 비즈니스용 Skype Online이 필요 합니다 (계획 3).
   
-  - - 테 넌 트 사용자에 게 Exchange 사서함이 있어야 합니다.
+  - 테 넌 트 사용자에 게 Exchange 사서함이 있어야 합니다.
   
-  - - Microsoft 팀 대화방 계정에는 비즈니스용 Skype Online (계획 2) 또는 비즈니스용 Skype Online (계획 3) 라이선스가 필요 하지만 Exchange Online 라이선스는 필요 하지 않습니다.
+  - Microsoft 팀 대화방 계정에는 비즈니스용 Skype Online (계획 2) 또는 비즈니스용 Skype Online (계획 3) 라이선스가 필요 하지만 Exchange Online 라이선스는 필요 하지 않습니다.
 
 - Microsoft 팀 대화방 계정에 비즈니스용 Skype 서버 라이선스를 할당 합니다.
 
@@ -144,9 +144,9 @@ Exchange를 사용 하 여 Microsoft 팀 회의실을 구내에 배포 하는 �
 
 2. 계정의 SIP 주소 받기:
 
-  ``` Powershell
-   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
-   ```
+   ``` Powershell
+    $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+    ```
 
 3. Microsoft 팀 대화방 계정을 사용 하도록 설정 하려면 다음 명령을 실행 합니다.
 

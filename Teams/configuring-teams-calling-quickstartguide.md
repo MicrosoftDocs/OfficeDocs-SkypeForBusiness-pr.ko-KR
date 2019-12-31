@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87670ea398150e4895f2d87ccc48f60aba2d1377
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: d0bebe58780456435388f9f5c2b5ef75478dda12
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517060"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910006"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>빠른 시작 가이드: Microsoft 팀에서 통화 계획 구성
 ==============================================================
@@ -44,12 +44,12 @@ ms.locfileid: "37517060"
 
 ## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>팀에서 **다이얼 패드** 를 사용 하기 위한 필수 조건
 팀에서 **다이얼 패드** 탭을 사용 하도록 설정 하 고 사용자가 PSTN 통화를 설정 하 고 수신할 수 있도록 하려면 전화 시스템 및 통화 요금제에 대 한 사용자를 프로 비전 해야 합니다. 통화 계획을 설정 하는 방법에 대 한 자세한 내용은 [통화 계획 설정을](https://docs.microsoft.com/microsoftteams/set-up-calling-plans)참조 하세요.
-
+또한 팀 전용 사용자의 경우 팀 호출 정책에 "비공개 통화 허용"이 설정 되어 있는지 확인 해야 합니다. 자세한 내용은 [새 Microsoft 팀 관리 센터로 전환 하는 동안 팀 관리를](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center) 참조 하세요.
 > [!NOTE]
 > 또한 직접 라우팅을 사용 하 여 사용자가 PSTN 전화를 걸고 받을 수 있습니다. 직접 라우팅을 설정 하는 방법에 대 한 자세한 내용은 [직접 라우팅 구성을](https://docs.microsoft.com/microsoftteams/direct-routing-configure)참조 하세요.
 
 ## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>TeamsUpgradePolicy를 사용 하 여 전화를 거는 위치 제어
-팀 또는 비즈니스용 Skype에서 걸려오는 통화 (및 채팅)가 어디에 있는지 제어 하기 위해 관리자는 [Microsoft 팀 관리 센터](https://aka.ms/teamsadmincenter) 를 사용 하거나 [비즈니스용 Skype](https://docs.microsoft.com/powershell/module/skype) 에서 원격 Windows PowerShell 세션을 사용 하 여 TeamsUpgradePolicy를 사용 합니다. cmdlet.
+팀 또는 비즈니스용 Skype에서 걸려오는 통화 (및 채팅)가 어디에 있는지 제어 하기 위해 관리자는 [Microsoft 팀 관리 센터](https://aka.ms/teamsadmincenter) 를 사용 하거나 [비즈니스용 skype](https://docs.microsoft.com/powershell/module/skype) Cmdlet에서 원격 Windows PowerShell 세션을 사용 하 여 TeamsUpgradePolicy를 사용 합니다.
 
 
 TeamsUpgradePolicy의 기본 구성은 팀을 배포 하는 동안 기존 비즈니스 워크플로가 중단 되지 않도록 설계 된 아일랜드 모드입니다. 기본적으로 사용자에 대 한 VoIP, PSTN 및 페더레이션된 통화는 팀에 대 한 인바운드 호출을 사용 하도록 정책을 업데이트할 때까지 계속 해 서 비즈니스용 Skype로 라우팅됩니다.  받는 사람이 아일랜드 모드일 때:

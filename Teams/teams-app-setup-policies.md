@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 팀에서 앱 설정 정책에 대해 알아보고, 앱을 고정 하는 데 사용 하 여 조직의 사용자를 위한 팀을 사용자 지정 하는 방법에 대해 알아봅니다.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b7f0585c62d7d22e1fc5a7e55c90e59f8cda554d
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: 271ffd879ddf55596da0c77765a269570a4878b2
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998856"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910046"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 설치 정책 관리
 
@@ -168,7 +168,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 #### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>조직에서 사용자 지정 팀 앱을 작성 하 고 AppSource 또는 테 넌 트 앱 카탈로그에 게시 했지만 앱이 팀의 앱 표시줄에 고정 되어 있는 경우 앱 아이콘이 예상 대로 표시 되지 않습니다. 이 문제를 해결 하려면 어떻게 하나요? 
 
-앱을 제출 하기 전에 로고 지침을 따르고 있는지 확인 합니다. 자세한 내용은 [판매자 대시보드 제출에 대 한 검사 목록](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist)을 참조 하세요. 
+앱을 제출 하기 전에 로고 지침을 따르고 있는지 확인 합니다. 자세한 내용은 [판매자 대시보드 제출에 대 한 검사 목록](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)을 참조 하세요. 
 
  ## <a name="related-topics"></a>관련 항목
 - [Team에서 앱의 관리 설정](admin-settings.md)

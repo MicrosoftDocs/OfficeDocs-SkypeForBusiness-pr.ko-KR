@@ -3,46 +3,6 @@
 
 
 
-## <a name="week-of-november-18-2019"></a>11 월 18 일 주 2019
-
-
-| 게시 날짜 |주제 제목 | 바뀌지 |
-|------|------------|--------|
-| 11/18/2019 | [Microsoft 팀의 정보 장벽](/MicrosoftTeams/information-barriers-in-teams) | 으 |
-| 11/18/2019 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/room-systems/requirements) | 으 |
-| 11/18/2019 | [통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으 |
-| 11/18/2019 | [의료 조직을 위한 Teams 서식 파일 시작](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | 으 |
-| 11/18/2019 | [Microsoft 팀 공간 라이선스](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 으 |
-| 11/19/2019 | [Teams에서 사용자 현재 상태 확인](/MicrosoftTeams/presence-admins) | 으 |
-| 11/19/2019 | [Microsoft 팀의 개인 채널 수명 주기 관리](/MicrosoftTeams/private-channels-life-cycle-management) | 으 |
-| 11/19/2019 | [Microsoft 팀 공간 라이선스](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 으 |
-| 11/19/2019 | [조직에 사용할 통신 크레딧 설정](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 으 |
-| 11/19/2019 | [Microsoft Teams의 게스트 액세스](/MicrosoftTeams/guest-access) | 으 |
-| 11/19/2019 | [모임 설정 관리](/MicrosoftTeams/meeting-settings-in-teams) | 으 |
-| 11/20/2019 | [Microsoft Teams에서 다른 조직의 사용자와 의사소통하기](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 으 |
-| 11/20/2019 | [조직에서 Microsoft Teams 설정 관리](/MicrosoftTeams/enable-features-office-365) | 으 |
-| 11/20/2019 | [Microsoft 팀 용 클라이언트 가져오기](/MicrosoftTeams/get-clients) | 으 |
-| 11/20/2019 | [Microsoft 팀의 id 모델 및 인증](/MicrosoftTeams/identify-models-authentication) | 으 |
-| 11/20/2019 | [Microsoft 팀의 공유 선 모양](/MicrosoftTeams/shared-line-appearance) | 으 |
-| 11/21/2019 | [Microsoft 팀에서 이벤트 감사 로그 검색](/MicrosoftTeams/audit-log-events) | 으 |
-| 11/21/2019 | [Slack에서 Microsoft Teams로 마이그레이션](/MicrosoftTeams/migrate-slack-to-teams) | 으 |
-| 11/21/2019 | [Microsoft 팀을 위한 네트워크 Planner 사용](/MicrosoftTeams/network-planner) | 으 |
-| 11/21/2019 | [Microsoft 팀 보존 정책 FAQ](/MicrosoftTeams/retention-policies-faq) | 으 |
-| 11/21/2019 | [Microsoft 팀의 보존 정책](/MicrosoftTeams/retention-policies) | 으 |
-| 11/21/2019 | [버전 지원](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | 으 |
-| 11/21/2019 | [Microsoft 팀의 팀 및 채널 개요](/MicrosoftTeams/teams-channels-overview) | 으 |
-| 11/21/2019 | [Microsoft 팀 테 넌 트 앱 카탈로그에서 앱 게시](/MicrosoftTeams/tenant-apps-catalog-teams) | 으 |
-| 11/22/2019 | [Microsoft Teams에 오신 것을 환영합니다.](/MicrosoftTeams/teams-overview) | 으 |
-| 11/22/2019 | [Microsoft 팀에서 기본 제공 및 사용자 지정 탭 사용](/MicrosoftTeams/built-in-custom-tabs) | 으 |
-| 11/22/2019 | [통화 공원 및 Microsoft 팀에서 검색](/MicrosoftTeams/call-park-and-retrieve) | 으 |
-| 11/22/2019 | [통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으 |
-| 11/22/2019 | [Microsoft 팀에서 장치 관리](/MicrosoftTeams/device-management) | 으 |
-| 11/22/2019 | [Microsoft 팀 용 클라이언트 가져오기](/MicrosoftTeams/get-clients) | 으 |
-| 11/22/2019 | [사용자의 전화 번호 가져오기](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 으 |
-| 11/22/2019 | [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams 배포](/MicrosoftTeams/use-advisor-teams-roll-out) | 으 |
-| 11/22/2019 | [Microsoft 팀에 대 한 사용자 액세스 관리](/MicrosoftTeams/user-access) | 으 |
-
-
 ## <a name="week-of-november-25-2019"></a>11 월 25 일 (주) 2019
 
 
@@ -173,3 +133,11 @@
 | 12/18/2019 | [Microsoft 365 정부 및 GCC 상위 배포 계획-Microsoft 팀](/MicrosoftTeams/plan-for-government-gcc-high) | 으 |
 | 12/18/2019 | [팀 용 전화 및 장치](/MicrosoftTeams/teams-ip-phones) | 으 |
 | 12/19/2019 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
+
+
+## <a name="week-of-december-23-2019"></a>7 월 23 일 (2019)
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 12/27/2019 | [다이얼 플랜이 무엇인가요?](/MicrosoftTeams/what-are-dial-plans) | 으 |
