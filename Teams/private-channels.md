@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 개인 채널을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 942070f9c77fb16895dd15e1920198f3604150f9
+ms.sourcegitcommit: 9c743b267b46a475a7da51c0899467960421ad8a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020052"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "40929564"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널
 
@@ -132,7 +132,7 @@ Microsoft 팀의 개인 채널은 팀 내에서 공동 작업을 위해 중요 �
 
 ## <a name="private-channel-sharepoint-sites"></a>개인 채널 SharePoint 사이트
 
-각 개인 채널에는 파일 공유 및 빠른 프로 비전에 최적화 된 고유한 SharePoint 사이트 모음이 있습니다. 별도의 사이트 모음은 팀 소유자가 사이트 모음 내의 모든 자산에 액세스할 수 있는 팀 사이트와 비교 하 여 개인 채널 파일에 대 한 액세스를 개인 채널의 구성원 만으로 제한 하도록 하는 것입니다. 이러한 사이트 모음은 기본적으로 문서 라이브러리를 사용 하 여 만들어지며 [사이트 관리 인터페이스](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04)를 통해 모든 기능을 갖춘 사이트 모음으로 쉽게 향상 될 수 있습니다. 각 사이트 모음은 상위 팀의 사이트 모음과 동일한 지역에서 만들어집니다. 이러한 경량 사이트에는 PowerShell 및 Graph API를 통해 쉽게 관리할 수 있는 사용자 지정 서식 파일 ID 인 "TEAMCHANNEL # 0"이 있습니다.
+각 개인 채널에는 파일 공유 및 빠른 프로 비전에 최적화 된 고유한 SharePoint 사이트 모음이 있습니다. 별도의 사이트 모음은 팀 소유자가 사이트 모음 내의 모든 자산에 액세스할 수 있는 팀 사이트와 비교 하 여 개인 채널 파일에 대 한 액세스를 개인 채널의 구성원 만으로 제한 하도록 하는 것입니다. 이러한 사이트 모음은 기본적으로 문서 라이브러리를 사용 하 여 만들어지며 [사이트 관리 인터페이스](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04)를 통해 모든 기능을 갖춘 사이트 모음으로 쉽게 향상 될 수 있습니다. 각 사이트 모음은 상위 팀의 사이트 모음과 동일한 지역에서 만들어집니다. 이러한 경량 사이트에는 PowerShell 및 Graph API를 통해 쉽게 관리할 수 있는 사용자 지정 서식 파일 ID 인 "TEAMCHANNEL # 0"이 있습니다.  디자인에 따라 SharePoint 관리 센터에 표시 되지 않습니다.
 
 테 넌 트 당 더 많은 수의 사이트 모음을 수용 하기 위해 한도가 50만에서 200만로 늘어났습니다. 개인 채널 사이트 모음은 데이터 분류를 동기화 하 고 상위 팀의 사이트 모음에서 게스트 액세스 권한을 상속 합니다.  사이트 모음 소유자 및 구성원 그룹에 대 한 멤버 자격은 팀 내의 개인 채널 구성원과 동기화 된 상태로 유지 됩니다. SharePoint Online의 소유자 또는 구성원 그룹의 구성원 자격에 대 한 변경 내용은 자동으로 4 시간 내에 개인 채널 구성원으로 되돌려집니다. 특정 사용자가 개인 채널 메시지에 액세스할 필요 없이 문서에 액세스 해야 하는 경우에는 사이트의 방문자 그룹 또는 소유자와 구성원을 구분 하는 새 그룹에 추가 합니다.
 
