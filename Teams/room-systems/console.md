@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 이 문서에서는 Microsoft 팀 회의실 콘솔과 주변 장치를 설정 하는 방법을 설명 합니다.
-ms.openlocfilehash: fd09d7e9d70a5912469d4ed2d79a4dc8f465eeb6
-ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
+ms.openlocfilehash: 2c88dc5ba754e907ab32b41ea1731dc6f367d5a9
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39665441"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952741"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft 팀 대화방 콘솔 구성
 
@@ -133,7 +133,7 @@ CreateSrsMedia 스크립트는 다음 작업을 자동화 합니다.
 11. 관리자 권한 명령 프롬프트를 시작 합니다.
     
 12. 다음 명령을 실행 합니다. 
-    ```
+    ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
@@ -163,7 +163,7 @@ Windows가 설치 된 후에는 Microsoft 팀 대화방 콘솔 앱이 다음에 
     
      각 항목에는 선택할 수 있는 옵션의 드롭다운 메뉴가 있습니다. 각 장치에 대 한 항목을 선택 해야 합니다.
     
-6. **마침을**클릭 합니다.
+6. **마침**을 클릭합니다.
     
 Microsoft 팀 대화방 콘솔 앱은 바로 위의 자격 증명으로 비즈니스용 Skype Server에 로그인을 시작 하 고 동일한 자격 증명을 사용 하 여 Exchange와 일정을 동기화 하기 시작 해야 합니다. 콘솔 앱을 사용 하는 방법에 대 한 자세한 내용은 [Microsoft 팀 대화방 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)을 참조 하세요.
   
@@ -190,7 +190,7 @@ Microsoft 팀 대화방 콘솔은 연결 하는 서버에서 사용 하는 인�
     
 3. 다음 명령을 실행 합니다.
     
-   ```
+   ```PowerShell
    certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
    ```
 
@@ -207,13 +207,13 @@ Microsoft 팀 대화방 콘솔을 도메인에 연결할 수 있습니다. 많�
     
 3. Powershell에 다음 명령을 입력 합니다.
     
-   ```
+   ```PowerShell
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
 예를 들어 정규화 된 도메인이 redmond.corp.microsoft.com Microsoft 팀 대화방 콘솔이 "Resources" OU의 자식인 "Microsoft 팀 대화방" OU에 있어야 하는 경우 명령은 다음과 같이 표시 됩니다.
   
-```
+```PowerShell
 Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
 ```
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e32eb60b238d606ac30fe74c7551e01efe88242a
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: a621c4e1cfcf9e485b68fd96a76d9179cef84a48
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002232"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952601"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>MSI를 사용 하 여 Microsoft 팀 설치
 
@@ -91,11 +91,11 @@ MSI의 기본 동작은 사용자가 로그인 하는 즉시 팀 클라이언트
 - 수동으로 시작 되 면 사용자가 로그인 할 때마다 팀이 자동으로 시작 됩니다.
 
 32 비트 버전
-```
+```PowerShell
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
 64 비트 버전
-```
+```PowerShell
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 

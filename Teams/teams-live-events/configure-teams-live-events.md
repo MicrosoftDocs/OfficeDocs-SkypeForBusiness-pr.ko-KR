@@ -16,12 +16,12 @@ description: 조직에 보유 된 팀의 live 이벤트에 대 한 설정을 관
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb2b0f6c29af383061877562e8e6762965937f5f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6ad9d97c6d4dd6b7eb370bda026dbee3e33f2a32
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570193"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952841"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 설정 구성
 
@@ -44,7 +44,7 @@ Microsoft 팀 관리 센터에서 이러한 설정을 쉽게 관리할 수 있�
 
 ### <a name="using-windows-powershell"></a>Windows PowerShell 사용
 다음을 실행 합니다.
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
 ```
 자세한 내용은 [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)을 참조 하세요.
@@ -68,11 +68,11 @@ Microsoft 비디오 배달 파트너를 통해 SDN (소프트웨어 정의 네�
 공급자 연락처에서 라이선스 ID 또는 API 토큰과 API 서식 파일을 가져온 후 사용 중인 공급자에 따라 다음 중 하나를 실행 합니다.
 
 **벌** 
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
 **Kollective** 
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
 자세한 내용은 [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)을 참조 하세요.
@@ -81,6 +81,6 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 > 외부 앱 또는 장치를 사용 하 여 라이브 이벤트를 만들려는 경우 Microsoft Stream을 사용 하 여 [eCDN 공급자도 구성](https://docs.microsoft.com/stream/network-caching)해야 합니다. 
 
 ### <a name="related-topics"></a>관련 항목
-- [팀 라이브 이벤트는 무엇 인가요?](what-are-teams-live-events.md)
-- [팀의 라이브 이벤트 계획](plan-for-teams-live-events.md)
-- [팀에 대 한 라이브 이벤트 설정](set-up-for-teams-live-events.md)
+- [Teams 라이브 이벤트란?](what-are-teams-live-events.md)
+- [Teams 라이브 이벤트 계획](plan-for-teams-live-events.md)
+- [Teams 라이브 이벤트 설정](set-up-for-teams-live-events.md)

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 이 문서에서는 Azure Monitor를 사용 하 여 통합 된 종단 간 방식으로 Microsoft 팀 회의실 디바이스의 관리를 배포 하는 방법을 설명 합니다.
-ms.openlocfilehash: a7a71fa9fa87bd8cfb424234d6ffcedf46039115
-ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
+ms.openlocfilehash: e428b54f1a91c8443000dafa3270d2283dc1d029
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39218045"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952791"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>관리 :::no-loc text="Microsoft Teams Rooms"::: 배포 대상:::no-loc text="Azure Monitor":::
 
@@ -449,7 +449,7 @@ ms.locfileid: "39218045"
 
 7.  :::no-loc text="Microsoft Teams Rooms":::장치는 두 번째 재부팅으로 :::no-loc text="Microsoft Monitoring"::: 에이전트를 설치 하 고 구성 해야 합니다.
 
-```
+```PowerShell
 # Install-MMAgent.ps1
 <#
 Date:        04/20/2018

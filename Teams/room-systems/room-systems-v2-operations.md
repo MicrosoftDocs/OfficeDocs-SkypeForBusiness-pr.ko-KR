@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 이 항목에서는 차세대 Skype 대화방 시스템인 Microsoft 팀 회의실 관리에 대해 자세히 알아보세요.
-ms.openlocfilehash: aeab9235b54138d649cee2f5e67a76a109c36c6a
-ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
+ms.openlocfilehash: 4e1c554d5ae21d845fed9a543875feb631e0e264
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39842480"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952731"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 팀 회의실 유지 관리 및 운영 
  
@@ -32,7 +32,7 @@ Microsoft 팀 대화방은 회의실을 다양 한 공동 작업 환경으로 �
 
 로그를 수집 하려면 Microsoft 팀 대화방 앱과 함께 제공 되는 로그 수집 스크립트를 호출 해야 합니다. 관리 모드에서 관리자 권한 명령 프롬프트를 시작 하 고 다음 명령을 실행 합니다.
   
-```
+```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 ```
 
@@ -116,7 +116,7 @@ PowerShell을 사용 하 여 원격으로 다음 관리 작업을 수행할 수 
     
 연결 된 장치를 얻으려면
   
-```
+```PowerShell
 invoke-command {Write-Host "VIDEO DEVICES:" 
 gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Image"} | Format-Table Name,Status,Present; Write-Host "AUDIO DEVICES:" 
 gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Media"} | Format-Table Name,Status,Present; Write-Host "DISPLAY DEVICES:" 
@@ -125,26 +125,26 @@ gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Monitor"} | Format-Table N
 
 앱 상태 가져오기
   
-```
+```PowerShell
 invoke-command { $package = get-appxpackage -User Skype -Name Microsoft.SkypeRoomSystem; if ($package -eq $null) {Write-host "SkypeRoomSystems not installed."} else {write-host "SkypeRoomSystem Version : " $package.Version}; $process = Get-Process -Name "Microsoft.SkypeRoomSystem" -ErrorAction SilentlyContinue; if ($process -eq $null) {write-host "App not running."} else {$process | format-list StartTime,Responding}}  -ComputerName <Device fqdn>
 ```
 
 시스템 정보 가져오기
   
-```
+```PowerShell
 invoke-command {gwmi -Class Win32_ComputerSystem | Format-List PartOfDomain,Domain,Workgroup,Manufacturer,Model
 gwmi -Class Win32_Bios | Format-List SerialNumber,SMBIOSBIOSVersion} -ComputerName <Device fqdn>
 ```
 
 시스템 다시 부팅
   
-```
+```PowerShell
 invoke-command { Shutdown /r /t 0 } -ComputerName <Device fqdn>
 ```
 
 로그 검색
   
-```
+```PowerShell
 $targetDevice = "<Device fqdn> "
 $logFile = invoke-command {$output = Powershell.exe -ExecutionPolicy Bypass -File C:\Rigel\x64\Scripts\Provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 Get-ChildItem -Path C:\Rigel\*.zip | Sort-Object -Descending -Property LastWriteTime | Select-Object -First 1} -ComputerName $targetDevice
@@ -154,7 +154,7 @@ Copy-Item -Path $logFile.FullName -Destination .\ -FromSession $session; invoke-
 
 XML 구성 파일 (또는 테마 그래픽) 푸시
   
-```
+```XML
 $movefile = "<path>";
 $targetDevice = "\\<Device fqdn> \Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState\SkypeSettings.xml"; 
 Copy-Item $movefile $targetDevice 
@@ -174,7 +174,7 @@ Copy-Item $movefile $targetDevice
 1. 설치 [MSI](https://go.microsoft.com/fwlink/?linkid=851168) 에서 장치에 액세스할 수 있는 공유로 패키지를 추출 합니다.
 2. Microsoft 팀 회의실 장치를 대상으로 하는 다음 스크립트를 \<실행\> 하 고 장치 공유에 대 한 공유를 적절 하 게 변경 합니다.
     
-```
+```PowerShell
 Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
 ```
 

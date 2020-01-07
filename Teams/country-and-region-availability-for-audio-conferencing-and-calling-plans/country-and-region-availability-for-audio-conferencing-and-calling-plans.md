@@ -1,6 +1,5 @@
 ---
 title: 오디오 회의 및 통화 플랜의 국가 및 지역 가용성
-ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,12 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 국가/지역을 선택 하 여 오디오 회의, 전화 시스템, 통화 요금제, 통신 크레딧을 사용 하는지 여부, 무료 전화 번호 및 무료 통화 전화번호를 확인할 수 있습니다.
-ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 4d7e1f2f4481baf51c6c3f619f47dc9440d957da
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741392"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952441"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 
@@ -40,7 +39,7 @@ ms.locfileid: "40741392"
 
 > [!div class="op_single_selector"]
 > - [알제리](availability-in-algeria.md)
-> - [앤티가 바부다](availability-in-antigua-and-barbuda.md)
+> - [앤티쿠아바부다](availability-in-antigua-and-barbuda.md)
 > - [아르헨티나](availability-in-argentina.md)
 > - [오스트레일리아](availability-in-australia.md)
 > - [오스트리아](availability-in-austria.md)
@@ -79,7 +78,7 @@ ms.locfileid: "40741392"
 > - [독일](availability-in-germany.md)
 > - [가나](availability-in-ghana.md)
 > - [그리스](availability-in-greece.md)
-> - [Grenada](availability-in-grenada.md)
+> - [그레나다](availability-in-grenada.md)
 > - [괌](availability-in-guam.md)
 > - [온두라스](availability-in-honduras.md)
 > - [홍콩](availability-in-hong-kong.md)
@@ -121,8 +120,8 @@ ms.locfileid: "40741392"
 > - [카타르](availability-in-qatar.md)
 > - [루마니아](availability-in-romania.md)
 > - [러시아](availability-in-russia.md)
-> - [세인트 크리스토퍼 네비스](availability-in-saint-kitts-and-nevis.md)
-> - [세인트 루시아](availability-in-saint-lucia.md)
+> - [세인트키츠 네비스](availability-in-saint-kitts-and-nevis.md)
+> - [세인트루시아](availability-in-saint-lucia.md)
 > - [사우디아라비아](availability-in-saudi-arabia.md)
 > - [세르비아](availability-in-serbia.md)
 > - [싱가포르](availability-in-singapore.md)
@@ -147,7 +146,7 @@ ms.locfileid: "40741392"
 > - [베네수엘라](availability-in-venezuela.md)
 > - [베트남](availability-in-vietnam.md)
 
-**모든 국가 및 지역이 있는 스프레드시트를 찾고 있는 경우에는 [클라우드 음성 기능 국가/지역 사용 가능 스프레드시트](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)를 다운로드 하 여 저장 합니다**.
+**모든 국가 및 지역이 있는 스프레드시트를 찾고 있는 경우에는 [클라우드 음성 기능 국가/지역 사용 가능 스프레드시트](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-01012020)-(en-us).xlsx?raw=true)를 다운로드 하 여 저장 합니다**.
 
 ***
 

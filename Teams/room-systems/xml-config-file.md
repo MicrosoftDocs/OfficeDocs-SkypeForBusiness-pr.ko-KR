@@ -13,12 +13,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 사용자 지정 테마 적용을 포함 하 여 Microsoft 팀 대화방 장치에서 사용 하는 기본 설정의 원격 관리에 대해 설명 합니다.
-ms.openlocfilehash: f00edb0d3d391daaf3cfa7a6f83e5c2951638236
-ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
+ms.openlocfilehash: 042e62cda753cc622d3b2a6b614d5eca6880a97c
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38074620"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952461"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리
 
@@ -30,7 +30,7 @@ ms.locfileid: "38074620"
 
 모든 텍스트 편집기를 사용 하 여 설정 파일을 만들 수 있습니다. **Xml 요소** 표에서는이 예제 SkypeSettings (필수 파일 이름) 구성 파일에 표시 되는 요소에 대해 설명 합니다.
   
-```
+```XML
 <SkypeSettings>
     <AutoScreenShare>true</AutoScreenShare>
     <HideMeetingName>true</HideMeetingName>
@@ -93,7 +93,7 @@ ms.locfileid: "38074620"
 |\<SendLogs\> |컨트롤러 |첫 번째 &#x2776;  ||
 |\<EmailAddressForLogsAndFeedback\> |문자열 &#x2778;  || "피드백 제공" 창이 나타날 때 로그를 보낼 수 있는 선택적 전자 메일 주소를 설정 합니다. |
 |\<SendLogsAndFeedback\> |부울 &#x2777;  || True 이면 로그가 관리자에 게 전송 됩니다. False 인 경우, 사용자만 피드백을 관리자에 게 보냅니다 (로그 아님).  |
-| \<장치\>  |컨트롤러 |첫 번째 &#x2776;  | 자식 요소의 연결 된 오디오 장치 이름은 장치 관리자 앱에 나열 된 값과 동일 합니다. 구성에는 현재 콘솔에 연결 되지 않은 A/V 장치와 같이 현재 시스템에 존재 하지 않는 장치가 포함 될 수 있습니다. 해당 디바이스에 대 한 구성이 유지 됩니다.  |
+| \<디바이스\>  |컨트롤러 |첫 번째 &#x2776;  | 자식 요소의 연결 된 오디오 장치 이름은 장치 관리자 앱에 나열 된 값과 동일 합니다. 구성에는 현재 콘솔에 연결 되지 않은 A/V 장치와 같이 현재 시스템에 존재 하지 않는 장치가 포함 될 수 있습니다. 해당 디바이스에 대 한 구성이 유지 됩니다.  |
 |\<MicrophoneForCommunication\> |문자열 &#x2778;  ||회의에서 녹음 장치로 사용 되는 마이크를 설정 합니다. |
 |\<SpeakerForCommunication\> |문자열 &#x2778;  ||회의에 대 한 스피커로 사용할 장치입니다. 이 설정은 통화에 사용 되는 스피커 장치를 설정 하는 데 사용 됩니다. |
 |\<DefaultSpeaker\> |문자열 &#x2778;  ||HDMI 수집 원본에서 오디오를 재생 하는 데 사용 되는 장치입니다. |

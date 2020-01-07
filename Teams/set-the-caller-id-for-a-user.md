@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Office 365의 전화 시스템은 사용자가 할당 한 전화 번호에 해당 하는 기본 발신자 ID를 제공 합니다. 사용자의 발신자 ID (통화 라인 ID 라고도 함)를 변경 하거나 차단할 수 있습니다. 조직에서 발신자 id를 사용 하는 방법을 확인 하 여 조직에서 발신자 ID를 사용 하는 방법에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: 10027fa5b1456bd744f14bae763939b395862d4b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2bee659567f3863b94fe97d408a78f40613d65df
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571296"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952471"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>사용자의 발신자 ID 설정
 Office 365의 전화 시스템은 사용자가 할당 한 전화 번호에 해당 하는 기본 발신자 ID를 제공 합니다. 사용자의 발신자 ID (통화 라인 ID 라고도 함)를 변경 하거나 차단할 수 있습니다. 조직에서 발신자 id를 사용 하는 [방법을](how-can-caller-id-be-used-in-your-organization.md)확인 하 여 조직에서 발신자 id를 사용 하는 방법에 대해 자세히 알아볼 수 있습니다.
@@ -71,7 +71,7 @@ Office 365의 전화 시스템은 사용자가 할당 한 전화 번호에 해�
     
 4. 비즈니스용 skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 설치 해야 합니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688)의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
     
-    자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/EN-US/library/dn568015.aspx)을 참조 하세요.
+    자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/library/dn568015.aspx)을 참조 하세요.
     
 - **Windows PowerShell 세션 시작**
     
@@ -82,72 +82,72 @@ Office 365의 전화 시스템은 사용자가 할당 한 전화 번호에 해�
    > [!NOTE]
    > 비즈니스용 Skype Online Windows PowerShell 모듈을 처음 사용 하는 경우에만 **Import-Module** 명령을 실행 하면 됩니다.
    > 
-   ```
+   ```PowerShell
     Import-Module -Name SkypeOnlineConnector
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://technet.microsoft.com/EN-US/library/dn568015.aspx) 또는 [Windows Powershell 용 컴퓨터 설정을](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)참조 하세요.
+Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://technet.microsoft.com/library/dn568015.aspx) 또는 [Windows Powershell 용 컴퓨터 설정을](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)참조 하세요.
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>조직의 모든 발신자 ID 정책 설정 보기
 
 - 조직의 모든 발신자 ID 정책 설정을 보려면 다음을 실행 합니다.
 
-  ```
+  ```PowerShell
   Get-CsCallingLineIdentity |fl
   ```
-  [CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx)에 대 한 추가 예제 및 세부 정보를 확인 하세요.
+  [CsCallingLineIdentity](https://technet.microsoft.com/library/mt793856.aspx)에 대 한 추가 예제 및 세부 정보를 확인 하세요.
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>조직에 대 한 새 발신자 ID 정책 만들기
 
 
 - 발신자 ID를 익명으로 설정 하는 새 발신자 ID 정책을 만들려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
   ```
   > [!NOTE]  
   > 모든 경우에 "서비스 번호" 필드에는 초기 "+"가 포함 되어서는 안 됩니다.
 
-  [새로운 CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx)에 대 한 추가 예제 및 세부 정보를 확인 하세요.
+  [새로운 CsCallingLineIdentity](https://technet.microsoft.com/library/mt793855.aspx)에 대 한 추가 예제 및 세부 정보를 확인 하세요.
     
 - 만든 새 정책을 Amos 대리석에 적용 하려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
-  [CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  [CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
-이미 정책을 만든 경우 [CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음 [부여-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) cmdlet을 사용 하 여 사용자에 게 설정을 적용할 수 있습니다.
+이미 정책을 만든 경우 [CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음 [부여-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet을 사용 하 여 사용자에 게 설정을 적용할 수 있습니다.
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>들어오는 발신자 ID가 차단 되도록 설정
 
 - 들어오는 발신자 ID를 차단 하려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  [CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx)에 대 한 추가 예제 및 세부 정보를 확인 하세요.
+  [CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx)에 대 한 추가 예제 및 세부 정보를 확인 하세요.
     
 - 조직의 사용자에 게 만든 정책 설정을 적용 하려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
   ```
-    [CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+    [CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
 ### <a name="remove-a-caller-id-policy"></a>발신자 ID 정책 제거
 
 조직에서 정책을 제거 하려면 다음을 실행 합니다.
   
-```
+```PowerShell
 Remove-CsCallingLineIdentity -Identity "My Caller ID Policy"
 ```
 사용자에서 정책을 제거 하려면 다음을 실행 합니다.
   
-```
+```PowerShell
 Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $null
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?
@@ -168,15 +168,15 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
     
   
  ## <a name="related-topics"></a>관련 항목
-[전화 번호 전송 일반적인 질문](/microsoftteams/transferring-phone-numbers-common-questions)
+[전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)
+[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)(조직의 전화 번호 관리)
 
-[전화 회선 ID 및 통화 파티 이름에 대 한 자세한 정보](/skypeforbusiness/what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
+[전화 회선 ID 및 발신자 이름에 대한 자세한 정보](/skypeforbusiness/what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
 
-[비상 통화 약관](/microsoftteams/emergency-calling-terms-and-conditions)
+[긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [비즈니스용 Skype Online: 비상 전화 부인 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
  

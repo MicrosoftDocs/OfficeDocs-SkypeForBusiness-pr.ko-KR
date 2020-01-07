@@ -31,12 +31,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: d116ea000bc18bf0e9c017b67bfa104dcfa29795
-ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
+ms.openlocfilehash: c8d460f4ad94adaccce9fb84b12e37ab5adc0cc6
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39218035"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952751"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>System Center Configuration Manager를 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -299,7 +299,7 @@ Active Directory 도메인에 가입 되지 않은 디바이스에 대 한 루�
 1.  **SRS V2 Set-SRSComputerName 패키지** 폴더에서 **SET-SRSCOMPUTERNAME** 이라는 새 HTML 응용 프로그램을 만듭니다.
 
 2.  **Set-SRSComputerName** 파일에 다음 스크립트를 복사 합니다. 또는 [여기](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)에서 Set-SRSComputerName 파일을 다운로드할 수 있습니다.
-    ```
+    ```HTML
     <!DOCTYPE HTML>
     <html>
     <head>
@@ -409,7 +409,7 @@ Active Directory 도메인에 가입 되지 않은 디바이스에 대 한 루�
 1. **SRS v2-Sysprep 패키지** 폴더에서 **UNATTEND.XML** 이라는 새 XML 파일을 만듭니다.
 
 2. 다음 텍스트를 **Unattend .xml** 파일에 복사 합니다. 또는 [여기](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)에서 unattend.xml 파일을 다운로드할 수 있습니다.
-   ```
+   ```XML
    <?xml version="1.0" encoding="utf-8"?>
    <unattend xmlns="urn:schemas-microsoft-com:unattend">
    <settings pass="specialize">

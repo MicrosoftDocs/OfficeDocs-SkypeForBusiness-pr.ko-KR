@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: 정책 이름에 특수 문자와 문제 해결을 위해 수행할 수 있는 작업에 대해 알아봅니다.
-ms.openlocfilehash: 169f427cc0efc444adfbc7e0f8056337e615f733
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a3e7bccc78641a07b7e2f2b02e12b6fe501f2405
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568659"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952761"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>팀 정책의 특수 문자 제한 사항은 무엇 인가요?
 
@@ -40,7 +40,7 @@ ms.locfileid: "37568659"
 
 **1 단계-PowerShell을 사용 하 여 원격 연결을 설정 합니다.** 
 아직 설치 하지 않은 경우 [Windows PowerShell 용 컴퓨터를 설정](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 합니다.
-```
+```PowerShell
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
  $session = New-CsOnlineSession -Credential $credential
@@ -53,7 +53,7 @@ ms.locfileid: "37568659"
 > [!NOTE]
 > 이 예제는 [메시징](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) 정책에 대 한 것입니다.  단계는 다른 정책 유형의 경우와 동일 하지만 올바른 cmdlet을 사용 해야 합니다. 
 
-  ```
+  ```PowerShell
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
   ```
 
@@ -64,11 +64,11 @@ Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 동일한 설정
 
 이 작업을 실행 하면 새 정책이 만들어지지만, [CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) 를 표시 한 다음 실행 하 여 올바른 설정을 추가 해야 합니다.
 
-  ```
+  ```PowerShell
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
 **4 단계-정책을 할당 합니다.**
- ```
+ ```PowerShell
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
 이 cmdlet에 대 한 자세한 내용은 [CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) 을 참조 하세요.
@@ -76,14 +76,14 @@ Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
 **5 단계-이전 정책 삭제**
 
 이렇게 하면 특수 문자를 사용 하 여 이전 정책이 삭제 됩니다.
-  ```
+  ```PowerShell
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
 이 cmdlet에 대 한 자세한 내용은 [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) 를 참조 하세요.
 
 이 명령이 성공 하면 완료 됩니다. 위의 명령에서 오류를 반환 하는 경우 정책에서 할당 된 모든 사용자를 제거 하기 위해 이전 정책이 사용자에 게 할당 되므로이는 실행 되어야 합니다.
 
-```
+```PowerShell
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell을 사용 하 여 관리 하는 방법을 알고 싶으세요?

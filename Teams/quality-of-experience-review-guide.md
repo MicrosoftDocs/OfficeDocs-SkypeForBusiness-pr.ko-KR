@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56d622a3a8757ca377c75bea79028dc5587b6bb8
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290978"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952811"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
 
@@ -83,7 +83,7 @@ _그림 1-이 가이드 전체에서 다룬 주요 작업 영역_
 팀과 비즈니스용 Skype의 품질을 논의할 때 일반적인 개념을 달성 하는 용어를 정의 하는 것이 중요 합니다. 여기에 정의 된 대로 품질은 서비스 메트릭과 사용자 환경의 조합입니다.
 
 <!-- Note: need to update graphic-->
-![서비스 메트릭 및 사용자 환경 그림](media/qerguide-image-whatisquality.png "Service 메트릭은 불량 스트림 비율, 안정성, 끝점/장치 및 클라이언트 버전으로 구성 됩니다. 사용자 환경은 서비스 품질에 대 한 사용자의 인식으로 구성 됩니다. ")
+![서비스 메트릭 및 사용자 환경 그림](media/qerguide-image-whatisquality.png "서비스 메트릭은 불량 스트림 비율, 안정성, 끝점/장치 및 클라이언트 버전으로 구성 됩니다. 사용자 환경은 서비스의 품질에 대 한 사용자의 인식으로 구성 됩니다.")
 
 _그림 2-품질 이란?_
 
@@ -225,7 +225,7 @@ _그림 3-팀과 비즈니스용 Skype Online 배포에 대 한 중요 범주_
 이러한 범주 중 상당수는 배포 구성의 유효성을 검사 해야 하기 때문에 이러한 작업을 처음 수행 하는 경우에는 이후 반복 보다 더 많은 노력이 소요 됩니다. 정의한 대상을 사용 하 여 원하는 상태를 달성 한 후에는 이러한 작업을 수행 하는 데 도움이 됩니다.
 
 <!--  This is a net new graphic, never was included in the online article. OOPS! -->
-![품질 범주 당 주간 작업 목록](media/qerguide-image-tasks.png "L각 품질 범주에 속하는 주간 작업)
+![품질 범주 당 주간 작업 목록](media/qerguide-image-tasks.png "품질 범주 당 주간 작업 목록")
 
 #### <a name="service-management-tasks"></a>서비스 관리 작업
 
@@ -323,7 +323,7 @@ _그림 4-CQD 보고서 범주_
 
 2. Azure PowerShell 명령 창을 열고 다음 스크립트를 실행 하 고 메시지가 표시 되 면 Office 365 자격 증명을 입력 합니다. 
 
-   ```
+   ```PowerShell
    Login-AzureRmAccount
    ```
 
@@ -345,7 +345,7 @@ _그림 4-CQD 보고서 범주_
 
 2. 다음 명령을 실행 합니다.
 
-   ```
+   ```PowerShell
    (Get-cstenant).tenantid
    ```
 
@@ -367,7 +367,7 @@ _그림 5-제품 필터 선택_
 
 모든 자세한 보고서를 필터링 하려면 브라우저 표시줄에서 URL 끝에 다음을 추가 합니다.
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[FALSE]
 ```
 
@@ -531,7 +531,7 @@ URL 필터를 사용 하 여 특정 차원에 대 한 모든 보고서를 필터
 
 URL 필터를 구현 하려면 브라우저 주소 표시줄에서 URL의 끝에 다음을 추가 합니다.
 
-```
+```PowerShell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
@@ -541,7 +541,7 @@ URL 필터를 구현 하려면 브라우저 주소 표시줄에서 URL의 끝에
 
 팀 또는 비즈니스용 Skype에 대 한 보고서를 필터링 하려면 URL의 끝에 다음을 추가 합니다.
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 
@@ -632,7 +632,7 @@ _표 5-파일 구조 작성_
 
 | 열 이름        | 데이터 형식 | 예                   | 지침    |
 |--------------------|-----------|---------------------------|-------------|
-| 사설망            | 문자열    | 192.168.1.0               | 필수    |
+| 네트워크            | 문자열    | 192.168.1.0               | 필수    |
 | NetworkName        | 문자열    | 미국/시애틀/시애틀-해상-1 | 필수\*  |
 | 네트워크 범위       | 숫자로    | kbps                        | 필수    |
 | BuildingName       | 문자열    | 시애틀-해상-1             | 필수\*  |
@@ -643,7 +643,7 @@ _표 5-파일 구조 작성_
 | ZipCode            | 문자열    | 98001                     | 권장 |
 | 명칭            | 문자열    | 보세요                        | 권장 |
 | 상태              | 문자열    | WA                        | 권장 |
-| 영역인             | 문자열    | MSUS                      | 권장 |
+| 지역             | 문자열    | MSUS                      | 권장 |
 | InsideCorp         | 부울      | 1                         | 필수    |
 | ExpressRoute       | 부울      | 0                         | 필수    |
 
@@ -791,7 +791,7 @@ _그림 17-건물 보고서 없음_
 
 이 도구에 대 한 자세한 내용은 [이 블로그 게시물](https://aka.ms/cqdtools)을 참조 하세요.
 
-#### <a name="network-planner"></a>네트워크 Planner
+#### <a name="network-planner"></a>Network Planner
 
 네트워크 계획자는 몇 가지 간단한 단계 만으로 클라우드 음성 배포에 대 한 네트워크 요구 사항을 결정 하 고 구성 합니다. 조직의 네트워킹 세부 정보 및 클라우드 음성 사용량을 제공 하 여 클라우드 음성 배포에 대 한 네트워크 요구 사항을 대략적으로 계산 하 고, 보고를 위해 이러한 세부 정보를 관리 하 고 내보내고, 추가 조사를 위해 영역을 볼 수 있습니다. 다음 단계를 수행 합니다.
 
@@ -1005,7 +1005,7 @@ _표 10-최대 PSR에 대 한 일반적인 참가자_
 | 업데이트                              | 지침                         |
 |------------------------------------------|----------------------------------|
 | **Wan**                                 | **정체**: 과도 또는 프로비저닝된 네트워크에서 미디어 품질과 관련 된 문제가 발생할 수 있습니다. 네트워크 팀과 협력 하 여 사용자가 인터넷 송신 점까지의 네트워크 연결이 미디어를 지원 하기에 충분 한 대역폭을가지고 있는지 확인 합니다. <br><br>**네트워크 준비 평가 수행**: 네트워크 평가는 예상 대역폭 사용량, 대역폭과 네트워크 변경에 대처 하는 방법, 팀과 비즈니스용 Skype에 대해 권장 되는 네트워킹 방법에 대 한 세부 정보를 제공 합니다. 앞의 표를 원본으로 사용 하면 평가에 대 한 훌륭한 후보자 인 건물이 나 서브넷 목록이 표시 됩니다.<ul><li>[Microsoft 팀 네트워크 준비 상태 평가](3-envision-evaluate-my-environment.md#test-the-network)</li></ul><br>**Microsoft 네트워크 평가 도구:** 간단한 네트워크 성능을 테스트 하는 데이 도구를 사용 하 여 팀 또는 비즈니스용 Skype Online 통화에 네트워크가 얼마나 잘 작동 하는지 확인 합니다. 이 도구를 사용 하 여 서브넷의 성능을 평가 하 고 Microsoft 성능 [요구 사항](https://aka.ms/performancerequirements)에 대 한 네트워크 준비의 유효성을 검사할 수 있습니다.<ul><li>[네트워크 평가 도구 다운로드](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br> |
-| **QoS (서비스 품질)**  | QoS는 대상에 게 유지 되는 시간과 시간에 도달할 수 있도록 혼잡 된 네트워크의 패킷 우선 순위를 지정 하는 데 도움이 되는 검증 된 도구입니다. 대역폭을 제한 하는 사용자 환경의 품질을 최대화 하기 위해 조직 전체에 QoS를 구현 하는 것이 좋습니다. QoS는 일반적으로 높은 수준의 패킷 손실과 관련 된 문제를 해결 하는 데 도움이 되며, 더 적은 각도 (지터 및 왕복 시간)<ul><li>[Microsoft 팀 QoS 지침](qos-in-teams.md)</li></ul> |
+| **QoS(서비스 품질)**  | QoS는 대상에 게 유지 되는 시간과 시간에 도달할 수 있도록 혼잡 된 네트워크의 패킷 우선 순위를 지정 하는 데 도움이 되는 검증 된 도구입니다. 대역폭을 제한 하는 사용자 환경의 품질을 최대화 하기 위해 조직 전체에 QoS를 구현 하는 것이 좋습니다. QoS는 일반적으로 높은 수준의 패킷 손실과 관련 된 문제를 해결 하는 데 도움이 되며, 더 적은 각도 (지터 및 왕복 시간)<ul><li>[Microsoft 팀 QoS 지침](qos-in-teams.md)</li></ul> |
 | **Wi-fi**               | Wi-fi는 통화 품질에 큰 영향을 미칠 수 있습니다. 일반적으로 wi-fi 배포는 VoIP 서비스에 대 한 네트워크 요구 사항을 고려 하지 않으며 품질이 좋지 않은 원인이 될 수 있습니다. Wi-fi 인프라를 최적화 하는 방법에 대 한 자세한 내용은 [wi-fi 계획에 대 한이 문서](/skypeforbusiness/certification/plan-wifi)를 참조 하세요.<br><br>**무선 드라이버**: 무선 드라이버가 최신 상태 인지 확인 합니다. 이렇게 하면 오래 된 드라이버와 관련 하 여 나쁜 사용자 환경을 줄일 수 있습니다. 대부분의 조직에서는 패치 주기에 무선 드라이버를 포함 하지 않으며 이러한 드라이버는 years에 패치가 적용 될 수 있습니다. 대부분의 무선 문제는 무선 드라이버가 최신 상태를 유지 하 여 해결 됩니다.<br><br>**Wmm**: wi-fi 멀티미디어 라고도 하는 wmm (무선 멀티미디어 확장)은 무선 네트워크에 대 한 기본 QoS 기능을 제공 합니다. 최신 무선 네트워크는 여러 장치를 지원 해야 합니다. 이러한 디바이스는 대역폭을 경합 하며, 속도와 대기 시간이 중요 한 VoIP 서비스의 품질 문제를 유발할 수 있습니다. 자세한 내용은 무선 공급 업체에 문의 하 고, 무선 네트워크 상에 서 WMM을 구현 하 여 비즈니스용 Skype 및 팀 매체에 우선 순위를 지정 해 보세요.<br><br>**액세스 지점 조밀도**: 연결점이 너무 멀리 떨어져 있거나 적절 하지 않을 수 있습니다. 잠재적인 간섭을 최소화 하려면 회의실에 추가 액세스 포인트를 배치 하 고 Wi-fi 신호가 약한 벽 또는 기타 개체에 의해 방해 받지 않는 위치에 놓습니다.<br><br>**2.4 ghz ~ 5ghz**: 5ghz는 적은 백그라운드 간섭 및 높은 속도를 제공 하며 wi-fi를 통해 VoIP를 배포할 때 우선 순위를 지정 해야 합니다. 그러나 5ghz는 2.4 GHz 보다 강력 하지 않으며, 쉽게 벽을 관통 하지 않습니다. 건물 레이아웃을 검토 하 여 가장 적합 한 연결에 대해 의존할 수 있는 빈도를 결정 합니다. |
 |**네트워크 장치** | 대규모 조직에서는 수백 개의 장치가 네트워크를 통해 확산 될 수 있습니다. 네트워크 팀과 협력 하 여 사용자의 네트워크 장치가 인터넷으로 유지 되 고 최신 상태 인지 확인 합니다. |
 | **VPN**  | VPN 기기는 전통적으로 실시간 미디어 작업을 처리 하도록 디자인 되지 않았습니다. 일부 VPN 구성은 UDP (미디어에 대 한 기본 프로토콜) 사용을 금지 하 고 TCP에만 의존 합니다. Vpn 분할 터널 솔루션을 구현 하 여 VPN을 낮은 품질의 원본으로 줄이는 것이 좋습니다. |
@@ -1185,7 +1185,7 @@ Office 간편 실행만 사용 하는 경우에는 6 개월 내에 자동으로 
 -   [Office 365 ProPlus의 업데이트 기록](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [비즈니스용 Skype 다운로드 및 업데이트](/SkypeForBusiness/software-updates)
 
-### <a name="devices"></a>장치
+### <a name="devices"></a>디바이스
 
 마이크 장치 보고서를 사용 하려면 SPECIALIST (평균 의견 성과)의 개념을 이해 해야 합니다. SPECIALIST는 인식 되는 음질을 측정 하는 골드 표준 단위입니다. 0에서 5 까지의 정수 등급으로 표시 됩니다.
 
@@ -1297,7 +1297,7 @@ _표 12-네트워크 성능 요구 사항_
 
 -   커뮤니티: [비즈니스용 Skype 미리 보기 프로그램](https://techcommunity.microsoft.com/t5/Skype-for-Business-Preview/bd-p/SkypeforBusinessPreviewProgram)
 
-### <a name="devices"></a>장치
+### <a name="devices"></a>디바이스
 
 -   [비즈니스용 Skype 솔루션 카탈로그 개인 주변 기기 & Pc](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 

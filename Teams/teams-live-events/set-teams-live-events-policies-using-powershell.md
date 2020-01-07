@@ -15,12 +15,12 @@ ms.collection:
 description: PowerShell을 사용 하 여 조직에서 실시간 이벤트를 보유할 수 있는 사용자 및 자신이 만드는 이벤트에서 사용할 수 있는 기능을 제어 하도록 팀에서 정책을 설정 하는 방법의 예
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9f96adcf4aa40b93b89b99013b9bc5ca466c25b
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 0d734cd4a92f3ebd32e2d0e6a24292ae50b456e7
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37570171"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952881"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>PowerShell을 사용 하 여 Microsoft 팀에서 실시간 이벤트 정책 설정
 
@@ -40,11 +40,11 @@ ms.locfileid: "37570171"
 **사용자가 라이브 이벤트를 예약할 수 있도록 허용**
 
 사용자에 게 전역 정책이 할당 되 면 실행 하 고 *AllowBroadcastScheduling* 매개 변수가 *True*로 설정 되어 있는지 확인 합니다.
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
 그런 다음 글로벌 정책에 사용자를 할당 하 고 다음을 실행 합니다.
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
@@ -52,73 +52,73 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 **조직의 모든 사용자가 라이브 이벤트를 예약할 수 있게 하려는 경우**
 
 사용자에 게 전역 정책이 할당 되 면 *AllowBroadcastScheduling* *가 *True*로 설정 되어 있는지 확인 하 고 실행 합니다.
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
 사용자에 게 전역 정책 이외의 정책이 할당 되 면 *-AllowBroadcastScheduling* 가 *True*로 설정 되어 있는지 확인 하 고 실행 합니다.
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
 **조직에서 실시간 이벤트 일정을 사용 하지 않도록 설정 하려는 경우**
 
 라이브 이벤트 일정을 사용 하지 않도록 설정 하려면 다음을 실행 합니다.
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
 조직의 모든 사용자를 전역 정책에 할당 하려면 다음을 실행 합니다.
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
 **많은 사용자가 라이브 이벤트를 예약 하 고 사용자 집합이 일정을 예약 하지 못하도록 하려는 경우**
 
 를 실행 하 고 *AllowBroadcastScheduling* 이 *True*로 설정 되어 있는지 확인 합니다.
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
 그런 다음 글로벌 정책에 사용자 또는 사용자를 할당 하 고 다음을 실행 합니다.
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
 라이브 이벤트 스케줄링을 허용 하지 않는 새 정책 만들기, 실행:
-```
+```PowerShell
 New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
 라이브 이벤트 일정을 사용 하지 않도록 설정 하려면 다음을 실행 합니다.
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
 그런 다음이 정책에 사용자를 할당 하 고 다음을 실행 합니다.
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
 **많은 수의 사용자에 대 한 라이브 이벤트 일정을 사용 하지 않도록 설정 하 고 사용자가 일정을 예약할 수 있도록 하려는 경우**
 
 라이브 이벤트 일정을 사용 하지 않도록 설정 하려면 다음을 실행 합니다.
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
 그런 다음 해당 사용자를 전역 정책에 할당 하 고 다음을 실행 합니다.
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 라이브 이벤트 일정을 허용 하는 정책을 만들려면 다음을 실행 합니다.
-```
+```PowerShell
 New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
 ```
 라이브 이벤트 일정 사용을 설정 하려면 다음을 실행 합니다.
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy -AllowBroadcastScheduling $true
 ```
 그런 다음이 정책에 사용자를 할당 하 고 다음을 실행 합니다.
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
 ```
 ## <a name="set-who-can-join-live-events"></a>라이브 이벤트에 참가할 수 있는 사용자 설정
  
 사용자가 익명 사용자를 포함 하 여 모든 사용자가 참석할 수 있는 이벤트를 만드는 것을 허용 하도록 전역 정책을 설정 합니다.
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
 ## <a name="set-the-recording-option-for-live-events"></a>라이브 이벤트의 기록 옵션 설정
@@ -126,7 +126,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 > 이 설정은 팀에서 생성 된 이벤트에만 적용 됩니다.
 
 라이브 이벤트 기록을 사용 하지 않도록 전역 정책을 설정 합니다.
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
 ## <a name="set-live-captions-and-subtitles-in-live-events"></a>라이브 이벤트에서 실시간 캡션 및 자막 설정
@@ -134,7 +134,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 > 이 설정은 팀에서 생성 된 이벤트에만 적용 됩니다. 
 
 이벤트 참석자에 대 한 실시간 캡션과 자막 (기록)을 설정 하도록 전역 정책을 설정 합니다.
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
