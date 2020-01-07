@@ -788,6 +788,7 @@
 ### [조지아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
 ### [가나](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [독일](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
+### [가나](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [그리스](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
 ### [그레나다](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md)
 ### [괌](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md)
@@ -812,8 +813,8 @@
 ### [몰타](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md)
 ### [멕시코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
 ### [몰도바](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
-### [모로코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md)]
 ### [모나코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md)
+### [모로코](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md)
 ### [네덜란드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
 ### [뉴질랜드](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
 ### [나이지리아](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md)
