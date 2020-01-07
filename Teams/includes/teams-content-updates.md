@@ -3,27 +3,6 @@
 
 
 
-## <a name="week-of-november-25-2019"></a>11 월 25 일 (주) 2019
-
-
-| 게시 날짜 |주제 제목 | 바뀌지 |
-|------|------------|--------|
-| 11/25/2019 | [직접 라우팅을 위한 미디어 바이패스 계획](/MicrosoftTeams/direct-routing-plan-media-bypass) | 으 |
-| 11/25/2019 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 으 |
-| 11/25/2019 | [Microsoft 팀 PSTN 사용 보고서](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 으 |
-| 11/26/2019 | [Office 365 조직에서 Microsoft 팀 설정](/MicrosoftTeams/office-365-set-up) | 으 |
-| 11/26/2019 | [동적인 긴급 전화 구성](/MicrosoftTeams/configure-dynamic-emergency-calling) | 으 |
-| 11/26/2019 | [위치 기반 라우팅의 네트워크 설정 구성](/MicrosoftTeams/location-based-routing-configure-network-settings) | 으 |
-| 11/26/2019 | [직접 라우팅에 위치 기반 라우팅 사용](/MicrosoftTeams/location-based-routing-enable) | 으 |
-| 11/26/2019 | [직접 라우팅으로 전달되는 위치 기반 라우팅 계획](/MicrosoftTeams/location-based-routing-plan) | 으 |
-| 11/26/2019 | 위치 기반 라우팅 용어 | 제거할 |
-| 11/26/2019 | [Microsoft 팀에서 긴급 통화 라우팅 정책 관리](/MicrosoftTeams/manage-emergency-call-routing-policies) | 으 |
-| 11/26/2019 | [Microsoft 팀에서 긴급 통화 정책 관리](/MicrosoftTeams/manage-emergency-calling-policies) | 으 |
-| 11/26/2019 | [비상 전화, 긴급 주소, 긴급 통화 라우팅, 동적 비상 전화 계획](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 으 |
-| 11/26/2019 | [Microsoft Teams 사용자를 위한 강사 진행 교육 및 비디오](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 으 |
-| 11/27/2019 | [일본의 사용 가능 여부](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan) | 으 |
-
-
 ## <a name="week-of-december-02-2019"></a>02 년 12 월 1 일, 2019
 
 
@@ -141,3 +120,11 @@
 | 게시 날짜 |주제 제목 | 바뀌지 |
 |------|------------|--------|
 | 12/27/2019 | [다이얼 플랜이 무엇인가요?](/MicrosoftTeams/what-are-dial-plans) | 으 |
+
+
+## <a name="week-of-december-30-2019"></a>12 월 30 일 주 2019
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 1/2/2020 | [Microsoft 팀의 개인 채널](/MicrosoftTeams/private-channels) | 으 |
