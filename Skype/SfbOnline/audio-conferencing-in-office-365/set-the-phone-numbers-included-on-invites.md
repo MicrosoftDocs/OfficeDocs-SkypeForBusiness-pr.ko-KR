@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '발신자가 비즈니스용 Skype Online 모임에 참가 하는 데 사용할 기본 전화 번호를 만드는 단계를 확인 하세요. '
-ms.openlocfilehash: b7f86f114601bf4e1658a65b5a8d6520c2785e1c
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 33c2f69cbd05efedf5af1bb35c7ea5d560930da4
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642348"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962516"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>비즈니스용 Skype Online의 초대에 포함 된 전화 번호 설정
 
@@ -35,7 +35,7 @@ ms.locfileid: "37642348"
 Office 365의 오디오 회의를 통해 조직의 사용자가 비즈니스용 Skype 모임을 만든 다음 사용자가 휴대폰을 사용 하 여 해당 모임에 전화를 걸 수 있습니다. Office 365에서 Microsoft 오디오 회의 브리지 또는 ACP (승인 된 오디오 회의 공급자)에 의해 호스팅되는 타사 오디오 회의 브리지를 사용 하는 옵션이 있습니다.
   
 > [!NOTE]
-> 오디오 회의에 대 한 모든 전화 접속 번호 목록이 포함 된 리소스가 없습니다. 해당 지역 또는 국가/지역에서 전화 접속 전화 번호를 사용할 수 있는지 확인 하려는 경우 **비즈니스용 Skype 관리 센터** > **음성** > **전화 번호**를 사용 하 고 **** **새 서비스 번호 추가를 클릭 합니다. **. **국가/지역**, **시/지역** , 구/군/ **시** 목록을 사용 하 여 검색을 필터링 합니다. 또한, > 무료 서비스 번호를 찾고 있는 경우에는 **상태/지역** 목록에서 무료 **통화** 를 선택 합니다.
+> 오디오 회의에 대 한 모든 전화 접속 번호 목록이 포함 된 리소스가 없습니다. 해당 지역 또는 국가/지역에서 전화 접속 전화 번호를 사용할 수 있는지 확인 하려는 경우 **비즈니스용 Skype 관리 센터** > **음성** > **전화 번호**를 사용 하 여 **추가** , **새 서비스 번호**를 차례로 클릭 합니다. **국가/지역**, **시/지역** , 구/군/ **시** 목록을 사용 하 여 검색을 필터링 합니다. 또한, > 무료 서비스 번호를 찾고 있는 경우에는 **상태/지역** 목록에서 무료 **통화** 를 선택 합니다.
   
 회의 브리지는 조직의 전화 접속 전화 번호 집합을 제공 합니다. 이 모든 항목은 모임 이끌이가 만든 모임에 참가 하는 데 사용할 수 있지만 모임 초대에 포함 될 모임을 선택할 수 있습니다.
   
@@ -100,7 +100,7 @@ Office 365의 오디오 회의를 통해 조직의 사용자가 비즈니스용 
     
     사용자의 기본 무료 전화 번호를 변경 하려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   +180045551234
   ```
 
@@ -109,25 +109,25 @@ Office 365의 오디오 회의를 통해 조직의 사용자가 비즈니스용 
     > [!NOTE]
     > BridgeID를 찾으려면 **CsOnlineDialInConferencingBridge** cmdlet을 사용 합니다.
   
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
   - 1 ~ + 18005551234 없는 모든 사용자의 기본 무료 전화 번호를 설정 하려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
   - + 18005551234를 기본 무료 번호로 사용 하는 모든 사용자의 기본 무료 무료 전화 번호를 + 18005551239으로 변경 하려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
   - 미국에 거주 하는 모든 사용자의 기본 무료 무료 전화 번호를 + 18005551234으로 설정 하려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
   ## <a name="want-to-learn-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 내용을 확인 하 고 싶으신가요?

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Pin 변경 또는 기본 회의 번호 변경 등의 설정이 사용자에 게 전자 메일을 보내는 것을 허용 하거나 해제 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 28da70d829972a7b9d3659290652c2482d409364
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d4947012e98c45e108a2cc8d9f84bb4f16a24d3c
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642347"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962716"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의 설정이 변경 될 때 전자 메일 보내기 사용 또는 사용 안 함
 
@@ -80,7 +80,7 @@ ms.locfileid: "37642347"
   
 - 전자 메일 보내기를 사용 하지 않으려면 다음을 실행 합니다. 
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
@@ -125,6 +125,6 @@ ms.locfileid: "37642347"
 
 [오디오 회의 설정이 변경 될 때 사용자에 게 전송 되는 전자 메일](emails-sent-to-users-when-their-settings-change.md)
 
-[오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일 보내기](send-an-email-to-a-user-with-their-dial-in-information.md)
+[오디오 회의 정보를 사용하여 사용자에게 전자 메일 보내기](send-an-email-to-a-user-with-their-dial-in-information.md)
 
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Pin에 대해 알아야 할 내용과 비즈니스용 Skype Online에서 다시 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: ca2bbef02b0c6ecdefef700ca316188f5c544070
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a00c36475059a05bb7cf3a9057920b63a09e9a43
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642714"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962696"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의 PIN 다시 설정
 
@@ -81,7 +81,7 @@ PIN은 오디오 회의를 사용 하도록 설정 된 각 비즈니스용 Skype
     
 - 다음을 실행 하 여 Amos 대리석에 대 한 PIN을 설정할 수 있습니다.
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
@@ -104,4 +104,4 @@ PIN은 오디오 회의를 사용 하도록 설정 된 각 비즈니스용 Skype
   
 ## <a name="related-topics"></a>관련 항목
 
-[사용자의 전화 회의 ID 다시 설정](reset-a-conference-id-for-a-user.md)
+[사용자의 회의 ID 다시 설정](reset-a-conference-id-for-a-user.md)

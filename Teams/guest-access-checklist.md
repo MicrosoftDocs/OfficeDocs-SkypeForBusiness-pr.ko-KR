@@ -3,7 +3,6 @@ title: Microsoft 팀 게스트 액세스 검사 목록
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/21/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -16,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcba883166e01bd8a18d6d76b4622df0740500c8
-ms.sourcegitcommit: 000fdb3bc1a0d4dda63fb00bab6a9a9ab0c85ab0
+ms.openlocfilehash: c3354f7b503b2f1ea91c050a751b5d7d9ab0537a
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39813778"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962536"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft 팀 게스트 액세스 검사 목록
 ==========================================
@@ -84,11 +83,11 @@ Microsoft 팀에서 게스트 액세스를 설정 하 고 구성 하는 데 도�
 
 ## <a name="step-3-configure-office-365-groups"></a>3 단계: Office 365 그룹 구성
 
-1. Microsoft 365 관리 센터에서 **설정** > **서비스 & 추가 기능** > **Office 365 그룹**으로 이동 합니다.
-2. 조직에서 그룹 **구성원을 액세스할 수 있도록 그룹 콘텐츠** 를 설정 하도록 허용 해야 **합니다.** 이 설정이 해제 되어 있으면 게스트는 그룹 콘텐츠에 액세스할 수 없게 됩니다.
-3. **그룹 소유자가 조직 외부의 사용자를 그룹에 추가 하도록 허용** 하는 것이 설정 되어 있는지 확인 **합니다.** 이 설정을 끄면 팀 소유자가 새 게스트를 추가할 수 없게 됩니다. 게스트 액세스를 지원 하려면 최소한이 설정이 설정 되어 있어야 합니다.
+1. Microsoft 365 관리 센터에서 **설정** > **서비스 & 추가 기능**으로 이동한 다음 **Office 365 그룹**을 선택 합니다.
 
      ![스크린샷에서는 Office 365 그룹을 표시 하거나 숨깁니다.](media/guest-access-checklist-office365.png)
+2. **조직 외부 회원 그룹 구성원에 게 그룹 콘텐츠 액세스 허용** 확인란을 선택 했는지 확인 합니다. 이 설정을 선택 하지 않으면 게스트가 그룹 컨텐트에 액세스할 수 없게 됩니다.
+3. **그룹 소유자가 조직 외부 사람을 그룹에 추가** 확인란을 선택 했는지 확인 합니다. 이 설정을 선택 하지 않으면 팀 소유자가 새 게스트를 추가할 수 없게 됩니다. 게스트 액세스를 지원 하려면 최소한이 설정이 설정 되어 있어야 합니다.
 
 이러한 설정을 구성 하는 방법에 대 한 자세한 지침은 [office 365 그룹에서 게스트 액세스 관리](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) 및 [office 365 그룹의 게스트 액세스 제어](Teams-dependencies.md#control-guest-access-in-office-365-groups)를 참조 하세요.
  
@@ -115,14 +114,16 @@ Microsoft 팀에서 게스트 액세스를 설정 하 고 구성 하는 데 도�
 
 ## <a name="step-5-verify-sharing-setting-in-sharepoint"></a>5 단계: SharePoint에서 공유 설정 확인
 
-이는 여러분의 두뇌 teaser 한 가지입니다. SharePoint 관리 센터에서 **조직 외부 공유** 설정이 선택 되어 있지 않으면 팀의 게스트 액세스가 작동 하지 않습니다.
-
 1. Microsoft 365 관리 센터에 로그인 합니다.
-2. **관리 센터**를 클릭 한 다음 **SharePoint**를 선택 합니다.
-3. SharePoint 관리 센터에서 **공유**를 선택 합니다.
-4. **조직 외부 공유 허용 안 함** 옵션이 선택 되어 *있지* 않은지 확인 합니다.
+2. **관리 센터**에서 **SharePoint**를 선택 합니다.
+3. 새 SharePoint 관리 센터의 **사이트**에서 **활성 사이트**를 선택 합니다.
+
+    ![SharePoint 관리 센터의 활성 사이트](media/guest-access-checklist-SPOSettings0.png)
+
+3. 사이트를 선택한 다음 **공유**를 클릭 합니다.
+4. 이 옵션이 **사용자** 또는 **신규 및 기존 게스트로**설정 되어 있는지 확인 합니다.
  
-     ![스크린샷에는 SparePoint 온라인 설정 토글의 예가 나와 있습니다.](media/guest-access-checklist-SPOSettings1.png)
+     ![SharePoint Online 설정/해제의 예를 보여 주는 스크린샷](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## <a name="step-6-set-up-guest-user-permissions"></a>6 단계: 게스트 사용자 권한 설정

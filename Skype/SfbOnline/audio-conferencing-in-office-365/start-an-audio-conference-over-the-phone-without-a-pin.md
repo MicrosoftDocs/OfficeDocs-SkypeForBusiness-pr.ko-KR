@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '비즈니스용 Skype 관리 센터에서 또는 PowerShell 스크립트를 사용 하 여 익명 호출자가 모임에 참가 하는 것을 허용 하거나 사용 하지 않도록 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 1cdcbd2f610c3d60ba2fb4e554823d410fd4ae8f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: cfc15835906fbc400830783777027ed7ca1f4e59
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642225"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962496"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 PIN 없이 전화를 통해 음성 회의 시작
 
@@ -57,7 +57,7 @@ ms.locfileid: "37642225"
   
 - 다음을 실행 합니다. 
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true | $false
   ```
 

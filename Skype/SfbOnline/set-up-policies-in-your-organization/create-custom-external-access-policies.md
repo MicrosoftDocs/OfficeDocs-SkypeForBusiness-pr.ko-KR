@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 비즈니스용 Skype Online을 통해 추가 외부 액세스 정책을 만들 수 있습니다. 여러 조합을 사용할 수 있는 클라이언트나 회의 정책과는 달리, 미리 정의 된 세 가지 외부 액세스 정책이 있으며 대부분의 시나리오를 포함할 수 있습니다.
-ms.openlocfilehash: 7f3edac77af8d9948ef7118c0f94b1ec9c3ae6c1
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 978bad4e87e3e7dbe2a9bac5565aa7a6a45ca2df
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642146"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962506"
 ---
 # <a name="create-custom-external-access-policies"></a>사용자 지정 외부 액세스 정책 만들기
 
@@ -35,7 +35,7 @@ ms.locfileid: "37642146"
     
 - 페더레이션 및 소비자 액세스 (_FederationAndPICDefault_)
     
-사용자 지정 외부 정책을 사용 하 여 위의 설정에서 다루지 않는 추가 정책을 만들 수 있습니다. 정책을 만들면 필요한 모든 매개 변수를 설정 해야 하며 나중에 변경할 수 없습니다. 새 사용자 지정 정책을 만들면 Skype 소비자 액세스 또는 정책 등의 기능을 제어 하 여 미리 정의 된 설정으로 검사 되지 않은 공용 클라우드 오디오/비디오를 사용 하지 않도록 설정할 수 있습니다. 사용자 지정 외부 액세스 정책은 클라이언트, 이동성, 회의 정책과 동일한 구문을 따릅니다. 이러한 설정에 대 한 자세한 내용은 [여기](https://technet.microsoft.com/en-us/library/mt228132.aspx)에서 확인할 수 있습니다.
+사용자 지정 외부 정책을 사용 하 여 위의 설정에서 다루지 않는 추가 정책을 만들 수 있습니다. 정책을 만들면 필요한 모든 매개 변수를 설정 해야 하며 나중에 변경할 수 없습니다. 새 사용자 지정 정책을 만들면 Skype 소비자 액세스 또는 정책 등의 기능을 제어 하 여 미리 정의 된 설정으로 검사 되지 않은 공용 클라우드 오디오/비디오를 사용 하지 않도록 설정할 수 있습니다. 사용자 지정 외부 액세스 정책은 클라이언트, 이동성, 회의 정책과 동일한 구문을 따릅니다. 이러한 설정에 대 한 자세한 내용은 [여기](https://technet.microsoft.com/library/mt228132.aspx)에서 확인할 수 있습니다.
   
 이 작업을 수행 하려면 사용자가 지원 되는 버전의 2016 간편 실행 비즈니스용 Skype 앱을 사용 해야 합니다. 다음의 최소 버전의 비즈니스용 Skype 2016 간편 실행 클라이언트를 선택 해야 합니다.
   
@@ -60,7 +60,7 @@ ms.locfileid: "37642146"
     
 4. 비즈니스용 skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 설치 해야 합니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688)의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
     
-    자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/EN-US/library/dn568015.aspx)을 참조 하세요.
+    자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/library/dn568015.aspx)을 참조 하세요.
     
 - **Windows PowerShell 세션 시작**
     
@@ -71,26 +71,26 @@ ms.locfileid: "37642146"
     > [!NOTE]
     > 비즈니스용 Skype Online Windows PowerShell 모듈을 처음 사용 하는 경우에만 **Import-Module** 명령을 실행 하면 됩니다.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://technet.microsoft.com/EN-US/library/dn568015.aspx) 또는 [Windows Powershell 용 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
+   Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://technet.microsoft.com/library/dn568015.aspx) 또는 [Windows Powershell 용 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>사용자를 위한 사용자 지정 외부 액세스 정책 만들기
 
 이 작업을 수행 하려면 다음을 실행 합니다.
   
 > 
->   ```
+>   ```PowerShell
 >   New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
 >   ```
 > 
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
 >   ```
 

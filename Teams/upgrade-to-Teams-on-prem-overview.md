@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: 비즈니스용 Skype에서 팀으로 업그레이드
+description: 비즈니스용 Skype에서 Teams로 업그레이드
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b801f9dfe27aec4cb35dc6d28b80e9dfbf55390
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: 1d33c0ab186013ca00c18b96dad539bd2af0f5ae
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010631"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963086"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>비즈니스용 Skype에서 IT 관리자를 위한 &mdash; 팀으로 업그레이드
 
@@ -75,7 +75,7 @@ Side-by-side 방법을 사용 하는 경우 사용자는 채팅, VoIP 통화, �
 |:------------------ | :------------------- | :------------------ |
 | 수신 되는 채팅 및 통화:|  비즈니스를 위한 팀 또는 비즈니스용 Skype | Teams |
 | 다음에 수신 된 PSTN 통화: | 비즈니스용 Skype <br>(팀에서 PSTN 기능 사용은 군도 모드에서 지원 되지 않습니다.)    | Teams |   
- |늘어  | 비즈니스용 Skype와 팀의 현재 상태는 독립적입니다. 사용자는 사용 하는 클라이언트에 따라 동일한 제도 사용자에 대해 다른 상태가 표시 될 수 있습니다. | 현재 상태는 팀의 사용자 활동만을 기반으로 합니다. 사용 하는 클라이언트에 관계 없이 다른 모든 사용자가 현재 상태를 볼 수 있습니다. | 
+ |현재 상태  | 비즈니스용 Skype와 팀의 현재 상태는 독립적입니다. 사용자는 사용 하는 클라이언트에 따라 동일한 제도 사용자에 대해 다른 상태가 표시 될 수 있습니다. | 현재 상태는 팀의 사용자 활동만을 기반으로 합니다. 사용 하는 클라이언트에 관계 없이 다른 모든 사용자가 현재 상태를 볼 수 있습니다. | 
  | 모임 예약   | 사용자는 팀 또는 비즈니스용 Skype에서 모임을 예약할 수 있습니다. Outlook에서 두 추가 기능을 모두 볼 수 있습니다. |   사용자는 팀 에서만 모임을 예약할 수 있습니다. Outlook에서는 팀 추가 기능만 사용할 수 있습니다. | 
 
 다음 표에는 side-by-side 메서드를 사용 하 여 조직을 팀으로 마이그레이션하는 장단점이 요약 되어 있습니다.
@@ -148,25 +148,25 @@ Side-by-side 방법을 사용 하는 경우 사용자는 채팅, VoIP 통화, �
 
 다른 정책과는 달리, Office 365에서 새 TeamsUpgradePolicy 인스턴스를 만들 수 없습니다. 모든 기존 인스턴스가 서비스에 빌드됩니다.  (Mode는 정책 인스턴스의 이름이 아니라 TeamsUpgradePolicy 내에 있는 속성입니다.) 일부 경우에는 그렇지 않고 정책 인스턴스의 이름은 mode와 동일 합니다. 특히, 팀 전용 모드를 사용자에 게 할당 하는 경우 TeamsUpgradePolicy의 "UpgradeToTeams" 인스턴스가 해당 사용자에 게 부여 됩니다. 다음 명령을 실행 하 여 모든 인스턴스 목록을 볼 수 있습니다.
 
-```
+```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
 ```
 
 온라인 사용자를 팀 전용 모드로 업그레이드 하려면 "UpgradeToTeams" 인스턴스를 할당 합니다. 
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user 
 ```
 
 온-프레미스 비즈니스용 Skype 사용자를 팀 전용 모드로 업그레이드 하려면 온-프레미스 도구 모음에서-CsUser Move 사용자를 사용 합니다.
 
-```
+```PowerShell
 Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
 ```
 
 특정 사용자별 권한 부여 (우선 순위)가 있는 경우를 제외 하 고 테 넌 트에서 모든 사용자에 대 한 모드를 변경 하려면 다음 명령을 실행 합니다.
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 ```
 
@@ -185,13 +185,13 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 사용자가 비즈니스용 Skype Server 온-프레미스에 있는 경우 온-프레미스 도구 모음을 사용 해야 하며 비즈니스용 skype server 2019 또는 CU8 for Business Server 2015의 경우이 필요 합니다. 온-프레미스 PowerShell 창에서 NotifySfbUsers = true를 사용 하 여 TeamsUpgradePolicy의 새 인스턴스를 만듭니다.
 
-```
+```PowerShell
 New-CsTeamsUpgradePolicy -Identity EnableNotification -NotifySfbUsers $true
 ```
 
 그런 다음, 온-프레미스 PowerShell 창을 사용 하 여 원하는 사용자에 게 새 정책을 할당 합니다.
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 ```
 
@@ -249,7 +249,7 @@ Side-by-side 업그레이드 옵션:
 
 1. 다음과 같이 테 넌 트 전체 기본값을 mode SfbWithTeamsCollab로 설정 합니다.
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
    ```
 
@@ -257,13 +257,13 @@ Side-by-side 업그레이드 옵션:
 
    - 사용자가 이미 온라인 상태 이면 다음을 수행 합니다.
 
-     ```
+     ```PowerShell
      Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $username 
      ```
 
    - 사용자가 온-프레미스 인 경우:
 
-     ```
+     ```PowerShell
      Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
      ```
 
@@ -290,7 +290,7 @@ Side-by-side 업그레이드 옵션:
 
 2. 1 단계에서 찾은 각 활성 팀 사용자에 대해 원격 PowerShell에 아일랜드 모드를 할당 합니다. 이를 통해 다음 단계로 이동 하 여 사용자 환경을 변경 하지 않도록 할 수 있습니다.  
 
-   ```
+   ```PowerShell
    $users=get-content “C:\MyPath\users.txt” 
     foreach ($user in $users){ 
     Grant-CsTeamsUpgradePolicy -identity $user -PolicyName Islands} 
@@ -298,7 +298,7 @@ Side-by-side 업그레이드 옵션:
 
 3. SfbWithTeamsCollab에 대해 테 넌 트 전체 정책을 설정 합니다.
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -Global -PolicyName SfbWithTeamsCollab 
    ```
 
@@ -306,13 +306,13 @@ Side-by-side 업그레이드 옵션:
 
    비즈니스용 Skype Online에 속한 사용자의 경우:  
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams 
    ```
 
    비즈니스용 Skype Server 온-프레미스에 속한 사용자의 경우:  
 
-   ```
+   ```PowerShell
    Move-CsUser -Identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
    ```
 
@@ -438,7 +438,7 @@ PSTN 호출 기능이 관련 되어 있으면 팀 전용 모드로 이동할 때
 
 - 기존 팀 또는 비즈니스용 Skype Online 사용자에 게 전화 시스템 라이선스가 할당 되 면 기본적으로 EV 사용이 true로 설정 되지 않습니다.  이는 전화 시스템 라이선스를 할당 하기 전에 온-프레미스 사용자가 클라우드로 이동 하는 경우에도 해당 됩니다. 두 경우 모두 관리자는 다음 cmdlet을 지정 해야 합니다. 
 
-  ```
+  ```PowerShell
   Set-CsUser -EnterpriseVoiceEnabled $True 
   ```
 
@@ -446,14 +446,14 @@ PSTN 호출 기능이 관련 되어 있으면 팀 전용 모드로 이동할 때
 
 이 섹션에서는 모드와 사용 되는 업그레이드 방법에 관계 없이 동일한 조직의 비즈니스용 Skype 클라이언트와 팀을 모두 실행할 때 발생할 수 있는 문제에 대해 간략하게 설명 합니다.
 
-- [Meeting](#meetings)
+- [모임](#meetings)
 - [운용할](#interoperability)
 - [팀 대화-상호 운용성 및 네이티브 스레드](#teams-conversations---interop-versus-native-threads)
-- [늘어](#presence)
-- [Federation](#federation)
+- [현재 상태](#presence)
+- [페더레이션](#federation)
 - [연락처](#contacts)
 
-### <a name="meetings"></a>Meeting
+### <a name="meetings"></a>모임
 
 이 모드에 관계 없이 사용자는 자신이 초대 하는 모든 유형의 모임에 언제 든 지 참가할 수 있습니다 (비즈니스용 Skype 또는 팀).  그러나 사용자는 모임 형식과 일치 하는 해당 클라이언트를 사용 하 여 모임에 참가 해야 합니다.
 
@@ -510,7 +510,7 @@ Interop 통신은 네이티브 팀 대화의 모든 기능을 지원 하지 않�
 
 ![업그레이드 된 비즈니스용 Skype 사용자와의 채팅을 보여 주는 다이어그램](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
 
-### <a name="presence"></a>늘어
+### <a name="presence"></a>현재 상태
 
 지정 된 사용자에 대 한 현재 상태는 클라이언트를 통한 서비스의 사용자 활동을 기반으로 합니다. 그런 다음 다른 사용자가 볼 수 있도록 현재 상태가 게시 됩니다.  비즈니스용 Skype와 팀은 별도의 클라이언트가 있는 별도의 서비스 이므로 각 서비스에는 사용자에 대 한 고유한 현재 상태가 있습니다.   또한 팀의 현재 상태 서비스와 비즈니스용 Skype Online 간에 동기화가 있습니다.  이렇게 하면 한 서비스가 필요한 경우 다른 서비스의 사용자 현재 상태를 게시할 수 있습니다. 
 
@@ -526,7 +526,7 @@ Interop 통신은 네이티브 팀 대화의 모든 기능을 지원 하지 않�
 
 자세한 내용은 [현재 상태](coexistence-chat-calls-presence.md#presence)를 참조 하세요.
 
-### <a name="federation"></a>Federation
+### <a name="federation"></a>페더레이션
 
 비즈니스용 Skype를 사용 하 여 팀에서 다른 사용자에 게 페더레이션 하려면 비즈니스용 Skype에서 팀 사용자를 온라인으로 홈에 설치 해야 합니다. TeamsUpgradePolicy는 들어오는 페더레이션된 채팅 및 통화에 대 한 라우팅을 제어 합니다. 페더레이션된 라우팅 동작은 아일랜드 모드를 제외 하 고 동일한 테 넌 트 시나리오와 동일 합니다. 받는 사람이 아일랜드 모드일 때:
 

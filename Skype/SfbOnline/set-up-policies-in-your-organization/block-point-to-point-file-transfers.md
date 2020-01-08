@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 비즈니스용 Skype Online에서는 기존 회의 정책 설정의 일부로 서 지점간 (P2P) 파일 전송을 제어할 수 있습니다. 그러나이 방법을 사용 하면 사용자가 같은 조직 내에 있거나 다른 조직의 페더레이션 사용자에 게 파일을 전송 하는지 여부에 관계 없이 파일 전송을 허용 하거나 차단할 수 있습니다. 아래 단계에 따라 페더레이션된 조직이 나 파트너와의 P2P 파일 전송을 차단할 수 있습니다.
-ms.openlocfilehash: 8e9f2bba654f2e44e4e7360f46730a6e1d2d9426
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a92382a2fae3fd439aba4246937f1f6bda3c0b36
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642351"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962526"
 ---
 # <a name="block-point-to-point-file-transfers"></a>점 대 점 파일 전송 차단
 
@@ -35,7 +35,7 @@ ms.locfileid: "37642351"
     
 - 전역 외부 사용자 통신 정책 만들기 (_EnableP2PFileTransfer_ 를 _False_로 설정)로 차단 하 고 조직의 사용자에 게 해당 파일을 할당 하도록 설정 합니다. 
     
-이러한 설정에 대 한 자세한 내용은 [여기](https://technet.microsoft.com/en-us/library/mt228132.aspx)에서 확인할 수 있습니다.
+이러한 설정에 대 한 자세한 내용은 [여기](https://technet.microsoft.com/library/mt228132.aspx)에서 확인할 수 있습니다.
   
 조직 외부의 페더레이션 사용자가 정책이 적용 된 사용자에 게 파일을 보내려고 하면 **전송 실패** 오류가 표시 됩니다. 사용자가 파일을 보내려고 하면 **파일 전송이 해제** 오류 메시지가 표시 됩니다.
   
@@ -62,7 +62,7 @@ ms.locfileid: "37642351"
     
 4. 비즈니스용 skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 설치 해야 합니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688)의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
     
-    자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/EN-US/library/dn568015.aspx)을 참조 하세요.
+    자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/library/dn568015.aspx)을 참조 하세요.
     
 - **Windows PowerShell 세션 시작**
     
@@ -73,14 +73,14 @@ ms.locfileid: "37642351"
     > [!NOTE]
     > 비즈니스용 Skype Online Windows PowerShell 모듈을 처음 사용 하는 경우에만 **Import-Module** 명령을 실행 하면 됩니다.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://technet.microsoft.com/EN-US/library/dn568015.aspx) 또는 [Windows Powershell 용 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
+   Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://technet.microsoft.com/library/dn568015.aspx) 또는 [Windows Powershell 용 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>조직에서 P2P 파일 전송을 사용 하지 않도록 설정
 
@@ -88,7 +88,7 @@ ms.locfileid: "37642351"
   
 조직 내부에 대 한 P2P 전송을 허용 하지만 다른 조직에 대 한 외부 파일 전송을 차단 하는 경우 전역 수준 에서만 변경 해야 합니다. 이 작업을 수행 하려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   Set-CsExternalUserCommunicationPolicy -EnableP2PFileTransfer $False
   ```
 
@@ -96,11 +96,11 @@ ms.locfileid: "37642351"
 
 새 정책을 만들고 해당 사용자에 게 부여 하 여 사용자에 게 적용할 수 있습니다. 이 작업을 수행 하려면 다음을 실행 합니다. 
 > 
->   ```
+>   ```PowerShell
 >   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
 >   ```
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
 >   ```
 

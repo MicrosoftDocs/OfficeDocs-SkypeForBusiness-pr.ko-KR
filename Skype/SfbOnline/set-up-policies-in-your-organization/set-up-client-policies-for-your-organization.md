@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 클라이언트 정책은 사용자에 게 제공 되는 비즈니스용 Skype Online의 기능을 결정 하는 데 도움이 됩니다. 예를 들어, 다른 사용자에 게이 권한을 거부 하면서 파일을 전송할 권한을 일부 사용자에 게 부여할 수 있습니다.
-ms.openlocfilehash: c765f26aa1fe6ac1f041773a8aedb0ff48b52db8
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d43094e8fbdbb25276b617f005cd71ce859d1362
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642387"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962566"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>조직의 클라이언트 정책 설정
 
@@ -48,7 +48,7 @@ ms.locfileid: "37642387"
     
 4. 비즈니스용 skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 설치 해야 합니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688)의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
     
-    자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/EN-US/library/dn568015.aspx)을 참조 하세요.
+    자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/library/dn568015.aspx)을 참조 하세요.
     
 - **Windows PowerShell 세션 시작**
     
@@ -59,78 +59,78 @@ ms.locfileid: "37642387"
     > [!NOTE]
     > 비즈니스용 Skype Online Windows PowerShell 모듈을 처음 사용 하는 경우에만 **Import-Module** 명령을 실행 하면 됩니다.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://technet.microsoft.com/EN-US/library/dn568015.aspx) 또는 [Windows Powershell 용 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
+   Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://technet.microsoft.com/library/dn568015.aspx) 또는 [Windows Powershell 용 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>이모티콘 및 현재 상태 알림을 사용 하지 않도록 설정 하 고 메신저 저장 방지
 
 - 이러한 설정에 대 한 새 정책을 만들려면 다음을 실행 합니다.
     
 > 
->   ```
+>   ```PowerShell
 >   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
 >   ```
 
-  [새로운 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  [새로운 CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
 - 만든 새 정책을 조직의 모든 사용자에 게 부여 하려면 다음을 실행 합니다.
     
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
 >   ```
 
-  [부여-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet에 대 한 자세한 정보를 확인 하세요.
+  [부여-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet에 대 한 자세한 정보를 확인 하세요.
     
-정책을 이미 만든 경우에는 [Set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음 사용자에 게 설정을 적용할 수 있도록 [허용-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet을 사용 합니다.
+정책을 이미 만든 경우에는 [Set-csclientpolicy](https://technet.microsoft.com/library/mt779153.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음 사용자에 게 설정을 적용할 수 있도록 [허용-csclientpolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet을 사용 합니다.
   
 ### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>IMs에서 Url 또는 하이퍼링크를 클릭할 수 있도록 설정
 
 - 이러한 설정에 대 한 새 정책을 만들려면 다음을 실행 합니다.
     
 > 
->   ```
+>   ```PowerShell
 >   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
 >   ```
 
-  [새로운 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  [새로운 CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
 - 만든 새 정책을 조직의 모든 사용자에 게 부여 하려면 다음을 실행 합니다.
     
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
 >   ```
 
-  [부여-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet에 대 한 자세한 정보를 확인 하세요.
+  [부여-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet에 대 한 자세한 정보를 확인 하세요.
     
-정책을 이미 만든 경우에는 [Set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음 사용자에 게 설정을 적용할 수 있도록 [허용-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet을 사용 합니다.
+정책을 이미 만든 경우에는 [Set-csclientpolicy](https://technet.microsoft.com/library/mt779153.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음 사용자에 게 설정을 적용할 수 있도록 [허용-csclientpolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet을 사용 합니다.
   
 ### <a name="prevent-showing-recent-contacts"></a>최근 대화 상대 표시 방지
 
 - 이러한 설정에 대 한 새 정책을 만들려면 다음을 실행 합니다.
   > 
-  > ```
+  > ```PowerShell
   > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
   > ```
 
-  [새로운 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  [새로운 CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
 - 만든 새 정책을 Amos 대리석에 부여 하려면 다음을 실행 합니다.
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
   > ```
 
-  [부여-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet에 대 한 자세한 정보를 확인 하세요.
+  [부여-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet에 대 한 자세한 정보를 확인 하세요.
     
-  정책을 이미 만든 경우에는 [Set-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음 사용자에 게 설정을 적용할 수 있도록 [허용-csclientpolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet을 사용 합니다.
+  정책을 이미 만든 경우에는 [Set-csclientpolicy](https://technet.microsoft.com/library/mt779153.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음 사용자에 게 설정을 적용할 수 있도록 [허용-csclientpolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet을 사용 합니다.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?
 

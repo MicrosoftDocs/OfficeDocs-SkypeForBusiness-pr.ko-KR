@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '비즈니스용 Skype Online에서 전화 접속 회의 설정이 변경 되는 경우 전자 메일을 통해 사용자에 게 자동으로 전송 되는 정보에 대해 알아봅니다. '
-ms.openlocfilehash: 4f1916778985012754cc436f37e76f0097dd49e9
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 8a0ecc27e3184b8258db7e094beb9f3c4b64796d
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642577"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962726"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 설정이 변경 될 때 사용자에 게 전송 되는 전자 메일
 
@@ -96,7 +96,7 @@ ms.locfileid: "37642577"
     
 다음을 실행 하 여 전자 메일을 보낸 전자 메일 주소와 전자 메일의 표시 이름 같은 사용자에 게 전송 되는 전자 메일을 변경할 수 있습니다.
   
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble -SendEmailFromDisplayName "Amos Marble"
 ```
 
@@ -126,7 +126,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 1. 모든 사용자의 전자 메일을 보낼 수 없도록 설정 하려면 다음을 실행 합니다.
     
-   ```
+   ```PowerShell
    Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $false
    ```
 
@@ -165,6 +165,6 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 ## <a name="related-topics"></a>관련 항목
 
-[오디오 회의 설정이 변경 될 때 전자 메일 보내기 사용 또는 사용 안 함](enable-or-disable-sending-emails-when-their-settings-change.md)
+[오디오 회의 설정이 변경되면 전자 메일 보내기 사용 또는 사용 안 함](enable-or-disable-sending-emails-when-their-settings-change.md)
   
-[오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일 보내기](send-an-email-to-a-user-with-their-dial-in-information.md)
+[오디오 회의 정보를 사용하여 사용자에게 전자 메일 보내기](send-an-email-to-a-user-with-their-dial-in-information.md)

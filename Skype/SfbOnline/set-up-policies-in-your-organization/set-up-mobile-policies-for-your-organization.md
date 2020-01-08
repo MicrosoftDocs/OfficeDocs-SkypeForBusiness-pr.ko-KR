@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 사용자가 휴대폰 번호를 사용 하 여 휴대폰 전화를 걸고 받을 수 있는 기능 등 모바일 장치에서 비즈니스용 skype 앱에 대 한 skype Online에 연결 하는 방법을 설정할 수 있습니다. mber. 이동성 정책은 전화를 걸거나 받을 때 Wi-fi 연결이 필요한 경우에도 사용할 수 있습니다.
-ms.openlocfilehash: 1e5cb04bbd63c91d1302ace41b1c9bdbaa492574
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 8ade1f69c7374009ea0f19fb1e777df76b45220c
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642991"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962556"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>조직의 모바일 정책 설정
 
@@ -48,7 +48,7 @@ ms.locfileid: "37642991"
     
 4. 비즈니스용 skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 설치 해야 합니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688)의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
     
-    자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/EN-US/library/dn568015.aspx)을 참조 하세요.
+    자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/library/dn568015.aspx)을 참조 하세요.
     
 - **Windows PowerShell 세션 시작**
     
@@ -59,68 +59,68 @@ ms.locfileid: "37642991"
     > [!NOTE]
     > 비즈니스용 Skype Online Windows PowerShell 모듈을 처음 사용 하는 경우에만 **Import-Module** 명령을 실행 하면 됩니다.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://technet.microsoft.com/EN-US/library/dn568015.aspx) 또는 [Windows Powershell 용 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
+   Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://technet.microsoft.com/library/dn568015.aspx) 또는 [Windows Powershell 용 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
 
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>사용자의 비디오에 대 한 WiFi 연결 필요
 
 - 이러한 설정에 대 한 새 정책을 만들려면 다음을 실행 합니다.
   > 
-  > ```
+  > ```PowerShell
   > New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
   > ```
-  > [새로운 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  > [새로운 CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
 - 만든 새 정책을 조직의 모든 사용자에 게 부여 하려면 다음을 실행 합니다.
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
   > ```
-  > [CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  > [CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
-  이미 정책을 만든 경우 [CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음[부여-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet을 사용 하 여 사용자에 게 해당 설정을 적용할 수 있습니다.
+  이미 정책을 만든 경우 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음[부여-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet을 사용 하 여 사용자에 게 해당 설정을 적용할 수 있습니다.
   
 ### <a name="prevent-a-user-from-using-the-skype-for-business-app"></a>사용자가 비즈니스용 Skype 앱을 사용 하지 못하도록 방지
 
 - 이러한 설정에 대 한 새 정책을 만들려면 다음을 실행 합니다.
-  ```
+  ```PowerShell
   New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
   ```
-  [새로운 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  [새로운 CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
 - 만든 새 정책을 Amos 대리석에 부여 하려면 다음을 실행 합니다.  
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
   > ```
-  > [CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  > [CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
-  이미 정책을 만든 경우 [CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음 [부여-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet을 사용 하 여 사용자에 게 해당 설정을 적용할 수 있습니다.
+  이미 정책을 만든 경우 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음 [부여-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet을 사용 하 여 사용자에 게 해당 설정을 적용할 수 있습니다.
   
 ### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>사용자가 모바일 장치를 사용 하 여 IP 통화를 할 수 없도록 설정
 
 - 이러한 설정에 대 한 새 정책을 만들려면 다음을 실행 합니다.
   > 
-  > ```
+  > ```PowerShell
   > New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
   > ```
-  > [새로운 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  > [새로운 CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
 - 만든 새 정책을 조직의 모든 사용자에 게 부여 하려면 다음을 실행 합니다.
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
   > ```
 
-  [CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  [CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
-이미 정책을 만든 경우 [CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음[부여-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet을 사용 하 여 사용자에 게 해당 설정을 적용할 수 있습니다.
+이미 정책을 만든 경우 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음[부여-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet을 사용 하 여 사용자에 게 해당 설정을 적용할 수 있습니다.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?
 

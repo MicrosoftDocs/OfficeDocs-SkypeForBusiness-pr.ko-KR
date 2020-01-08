@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 비즈니스용 Skype에 대 한 전화 접속 회의 공급자를 Microsoft에 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 18792e87b83f9ee69030a6d83fecdbb9513c6f73
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: deaafe36948a6fe3a7eb9eaaf49295c37f627595
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "37642308"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962736"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft를 오디오 회의 공급자로 지정
 
@@ -65,7 +65,7 @@ Microsoft 오디오 회의는 모임 참가자가 조직의 모임에 참가할 
 > 공급자가 다른 공급자에서 **Microsoft**로 변경 되 면 사용자에 대 한 오디오 회의 정보 (컨퍼런스 ID, 유료 및 무료 번호)가 바뀝니다. 공급자를 변경 하기 전에이 정보를 저장 해야 합니다. 
 
   
-소수의 사용자에 대해 공급자를 Microsoft로 변경 하려면 [Enable-get-csonlinedialinconferencinguser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet을 사용 하면 됩니다.
+소수의 사용자에 대해 공급자를 Microsoft로 변경 하려면 [Enable-get-csonlinedialinconferencinguser](https://technet.microsoft.com/library/mt243813.aspx) cmdlet을 사용 하면 됩니다.
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>많은 수의 사용자를 위해 Windows PowerShell 스크립트 사용
@@ -77,27 +77,27 @@ Microsoft 오디오 회의는 모임 참가자가 조직의 모임에 참가할 
 
 **예제 1:** 업데이트 하려는 사용자의 목록을 제공 하 여이 스크립트를 실행할 수 있습니다.
    
-  ```
+  ```PowerShell
 Script.ps1 -UserList <List of users>
 ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
 **예제 2:** 업데이트 하려는 각 사용자의 전자 메일 주소 (별칭)를 포함 하는 .csv 파일을 제공 하 여이 스크립트를 실행할 수 있습니다.
    
-  ```
+  ```PowerShell
 Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
 **예제 3:** 이 예제에서는 조직의 대규모 사용자에 대해이 스크립트를 사용 하 여 오디오 회의 공급자를 상호 통화 (또는 다른 공급자)에서 **Microsoft** 로 변경할 수 있습니다.
     
-  ```
+  ```PowerShell
   Script.ps1 -ACPProviderName <Provider>
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
   스크립트는 다음과 같습니다.
 
-  ```
+  ```PowerShell
   <#
   .SYNOPSIS
 

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: MMS (모임 마이그레이션 서비스)는 백그라운드에서 실행 되며 사용자를 위해 비즈니스용 Skype 및 Microsoft 팀 모임을 자동으로 업데이트 하는 서비스입니다. MMS는 사용자가 모임 마이그레이션 도구를 실행 하 여 비즈니스용 Skype 및 Microsoft 팀 모임을 업데이트 하지 않아도 되도록 설계 되었습니다.
-ms.openlocfilehash: 91fcc1b95e107f36a55516e7f459eb8fae581bbe
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: 187e1e7dbedc57249c2e2cc3c60ea4c365f470c1
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890532"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962546"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>MMS (모임 마이그레이션 서비스) 사용
 
@@ -133,7 +133,7 @@ MMS를 트리거하는 시점부터, 일반적으로 사용자의 모임이 마�
 
 아래 예제에서는 모든 모임이 팀으로 마이그레이션될 수 있도록 사용자 ashaw@contoso.com에 대 한 모임 마이그레이션을 시작 하는 방법을 보여 줍니다.
 
-```
+```PowerShell
 Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
 ```
 
@@ -149,7 +149,7 @@ Windows PowerShell을 사용 하 여 진행 중인 마이그레이션 상태를 
 
 - 모든 MMS 마이그레이션에 대 한 요약 상태를 얻으려면 모든 마이그레이션 상태의 표 형식 보기를 제공 하는 다음 명령을 실행 합니다.
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus -SummaryOnly
 
     State      UserCount
@@ -161,19 +161,19 @@ Windows PowerShell을 사용 하 여 진행 중인 마이그레이션 상태를 
     ```
 - 특정 기간 내의 모든 마이그레이션에 대 한 세부 정보를 모두 보려면 `StartTime` 및 `EndTime` 매개 변수를 사용 합니다. 예를 들어 다음 명령은 2018 년 10 월 1 일부 터 2018 년 10 월 8 일 까지의 모든 마이그레이션에 대해 전체 세부 정보를 반환 합니다.
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus -StartTime "10/1/2018" -EndTime "10/8/2018"
     ```
 - 특정 사용자에 대 한 마이그레이션 상태를 확인 하려면 `Identity` 매개 변수를 사용 합니다. 예를 들어 다음 명령을 실행 하면 사용자 ashaw@contoso.com의 상태가 반환 됩니다.
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus -Identity ashaw@contoso.com
     ```
 실패 한 마이그레이션이 표시 되는 경우 이러한 문제를 해결할 때까지 해당 사용자가 구성한 모임에 대 한 전화 접속을 할 수 없기 때문에, 가능한 한 빨리 해결 하기 위해 조치를 취해야 합니다. 에서 `Get-CsMeetingMigrationStatus` 실패 상태의 마이그레이션이 표시 되는 경우 다음 단계를 수행 합니다.
  
 1. 어떤 사용자에 게 영향을 미치는지 결정 합니다. 다음 명령을 실행 하 여 영향을 받는 사용자 목록과 보고 된 특정 오류를 가져옵니다.
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
 2. 영향을 받는 각 사용자에 대해 모임 마이그레이션 도구를 실행 하 여 모임을 수동으로 마이그레이션합니다.
@@ -194,17 +194,17 @@ MMS는 모든 조직에 대해 기본적으로 사용 하도록 설정 되지만
 예를 들어 조직의 오디오 회의 설정을 대폭 변경 하면서 모든 모임을 수동으로 마이그레이션하거나 MMS를 일시적으로 사용 하지 않도록 설정할 수 있습니다.
 
 조직에 MMS를 사용할 수 있는지 확인 하려면 다음 명령을 실행 합니다. 매개 변수가 있는 `MeetingMigrationEnabled` 경우 MMS를 사용할 `$true`수 있습니다.
-```
+```PowerShell
 Get-CsTenantMigrationConfiguration
 ```
 MMS를 완전히 사용 하거나 사용 하지 않도록 설정 `Set-CsTenantMigrationConfiguration` 하려면 명령을 사용 합니다. 예를 들어 MMS를 사용 하지 않도록 설정 하려면 다음 명령을 실행 합니다.
 
-```
+```PowerShell
 Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 ```
 조직에서 MMS를 사용 하도록 설정 하 고 오디오 회의 업데이트를 사용 하도록 설정 되어 있는지 확인 하려면 출력에서 `AutomaticallyMigrateUserMeetings` 매개 변수 값을 확인 `Get-CsOnlineDialInConferencingTenantSettings`합니다. 오디오 회의에 대 한 MMS를 사용 하거나 사용 `Set-CsOnlineDialInConferencingTenantSettings`하지 않도록 설정 하려면을 사용 합니다. 예를 들어 오디오 회의에 대 한 MMS를 사용 하지 않도록 설정 하려면 다음 명령을 실행 합니다.
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '전화 접속 회의 라이선스 및 전화 회의 ID를 사용자와 여러 다른 전화 접속 회의 설정에 할당 하려면 비즈니스용 Skype Online 단계를 참조 하세요. '
-ms.openlocfilehash: 65c4eba931116b46099d37671700600d2b670489
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: f5597ae2b857569b7890d81577e4fd4252da5106
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642227"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962706"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 조직의 오디오 회의 설정 관리
 
@@ -79,7 +79,7 @@ ms.locfileid: "37642227"
 
 - Windows PowerShell을 사용 하 여 다음을 실행할 수도 있습니다.
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
@@ -97,7 +97,7 @@ ms.locfileid: "37642227"
 
 전자 메일을 보낸 전자 메일 주소 또는 다음을 실행 하 여 전자 메일의 표시 이름 등 사용자에 게 전송 되는 전자 메일을 변경할 수 있습니다.
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
 ```
 
@@ -118,7 +118,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 4. **전화 회의 ID 다시 설정** 창에서 **예**를 클릭 합니다. 사용자에 게 전자 메일을 보내는 경우 전화 회의 ID가 자동으로 만들어지고 새 전화 회의 ID를 사용 하 여 사용자에 게 전자 메일이 전송 됩니다. 기본적으로 사용 하도록 설정 되어 있습니다.
 
     > [!IMPORTANT]
-    >  새 전화 회의 ID를 만든 후에는 발신자가 이전 회의 ID를 사용할 수 없습니다. 사용자에 게 기존 모임 초대를 다시 예약 하 여 새 회의 ID가 초대에 추가 되었는지 알려 주어 야 합니다. 사용자는 비즈니스용 Skype 모임 마이그레이션 도구를 사용 하 여 기존 모임을 업데이트할 수 있습니다. 비즈니스용 skype 모임 업데이트 도구를 다운로드 하 고 설치 하 고 실행 하는 방법에 대 한 자세한 내용은 비즈니스용 [skype 및 Lync 용 모임 업데이트 도구](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), 비즈니스용 [Skype Online, 모임 마이그레이션 도구 (64 비트)](https://go.microsoft.com/fwlink/?LinkID=626047), 비즈니스용 [skype online, 모임 마이그레이션 도구 (32 비트)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+    >  새 전화 회의 ID를 만든 후에는 발신자가 이전 회의 ID를 사용할 수 없습니다. 사용자에 게 기존 모임 초대를 다시 예약 하 여 새 회의 ID가 초대에 추가 되었는지 알려 주어 야 합니다. 사용자는 비즈니스용 Skype 모임 마이그레이션 도구를 사용 하 여 기존 모임을 업데이트할 수 있습니다. 비즈니스용 skype 모임 업데이트 도구를 다운로드 하 고 설치 하 고 실행 하는 방법에 대 한 자세한 내용은 비즈니스용 [skype 및 Lync 용 모임 업데이트 도구](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), 비즈니스용 [Skype Online, 모임 마이그레이션 도구 (64 비트)](https://go.microsoft.com/fwlink/?LinkID=626047), 비즈니스용 [Skype online, 모임 마이그레이션 도구 (32 비트)](https://www.microsoft.com/en-us/download/details.aspx?id=54079)를 참조 하세요.
 
 [사용자의 전화 회의 ID 다시 설정을](reset-a-conference-id-for-a-user.md)참조 하세요.
 
@@ -274,42 +274,42 @@ Windows PowerShell을 사용 하 여 조직 수준에서 관리할 수 있는 �
 조직 수준 설정은 다음과 같습니다.
 
 - **입력/종료 알림 설정** 기본값은 _$true_입니다.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false
   ```
 
 - **이름 기록 설정** 기본값은 _$true_입니다.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -EnableNameRecording $true|false
   ```
 
 - **PIN 길이 설정** 기본값은 5입니다.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -PinLength 7
   ```
 
 - **휴대폰에서 전화 접속 모임만 설정** 기본 _$false_입니다.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true|$false
   ```
 
 - **사용자에 게 전자 메일을 보낼지 여부 설정** 기본값은 _$true_입니다.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
 - **다른 계정에서 전자 메일을 보낼지 여부 설정** 기본값은 _$false_입니다.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromOverride $true|$false
   ```
 
 - **사용자에 게 전송 되는 전자 메일의 보낸 사람 주소 설정** 기본값은 _$null_입니다.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromAddress
   ```
 
 - **사용자에 게 전송 되는 전자 메일의 표시 이름 설정** 기본값은 _$null_입니다.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 

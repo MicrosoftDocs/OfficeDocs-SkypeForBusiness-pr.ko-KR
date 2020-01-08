@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 회의는 비즈니스용 Skype Online의 중요 한 부분입니다. 사용자 그룹을 온라인으로 연결 하 여 슬라이드 및 비디오를 보고, 응용 프로그램을 공유 하 고, 파일을 교환 하 고, 다른 방법으로 통신 및 공동 작업할 수 있습니다.
-ms.openlocfilehash: d20b1a39f83a875d255a812fd86160445691ae2f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a30af18ea18251ff4cc099459083e7df23ba6378
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642844"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962486"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>조직의 회의 정책 설정
 
@@ -52,7 +52,7 @@ ms.locfileid: "37642844"
     
 4. 비즈니스용 skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 설치 해야 합니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688)의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
     
-    자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/EN-US/library/dn568015.aspx)을 참조 하세요.
+    자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/library/dn568015.aspx)을 참조 하세요.
     
 - **Windows PowerShell 세션 시작**
     
@@ -63,70 +63,70 @@ ms.locfileid: "37642844"
     > [!NOTE]
     > 비즈니스용 Skype Online Windows PowerShell 모듈을 처음 사용 하는 경우에만 **Import-Module** 명령을 실행 하면 됩니다.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://technet.microsoft.com/EN-US/library/dn568015.aspx) 또는 [Windows Powershell 용 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
+   Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://technet.microsoft.com/library/dn568015.aspx) 또는 [Windows Powershell 용 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
     
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>모임 중 파일 전송 및 데스크톱 공유 차단
 
 - 이러한 설정에 대 한 새 정책을 만들려면 다음을 실행 합니다.
   > 
-  > ```
+  > ```PowerShell
   > New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
   > ```
-  > [새로운 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  > [새로운 CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
 - 만든 새 정책을 조직의 모든 사용자에 게 부여 하려면 다음을 실행 합니다.
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
   > ```
-  > [CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  > [CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
-  이미 정책을 만든 경우 [CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음[부여-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet을 사용 하 여 사용자에 게 설정을 적용할 수 있습니다.
+  이미 정책을 만든 경우 [CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음[부여-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) cmdlet을 사용 하 여 사용자에 게 설정을 적용할 수 있습니다.
   
 ### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>회의 기록을 차단 하 고 익명 모임 참가자 방지
 
 - 이러한 설정에 대 한 새 정책을 만들려면 다음을 실행 합니다. 
   > 
-  > ```
+  > ```PowerShell
   > New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
   > ```
-  > [새로운 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  > [새로운 CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
 - 만든 새 정책을 Amos 대리석에 부여 하려면 다음을 실행 합니다.
   > 
-  > ```
+  > ```PowerShell
   >  Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
   > ```
-  > [CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  > [CsConferencingPolicy](https://technet.microsoft.com//library/mt779156.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
-이미 정책을 만든 경우 [CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음 [부여-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet을 사용 하 여 사용자에 게 설정을 적용할 수 있습니다.
+이미 정책을 만든 경우 [CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음 [부여-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) cmdlet을 사용 하 여 사용자에 게 설정을 적용할 수 있습니다.
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>모임 콘텐츠를 저장 하지 못하도록 익명 참가자가 모임 및 외부 사용자 기록 차단
 
 - 이러한 설정에 대 한 새 정책을 만들려면 다음을 실행 합니다.  
   > 
-  > ```
+  > ```PowerShell
   > New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
   > ```
-  > [새로운 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+  > [새로운 CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
 - 만든 새 정책을 조직의 모든 사용자에 게 부여 하려면 다음을 실행 합니다.
     
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
 >   ```
 
-[CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
+[CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) cmdlet에 대 한 자세한 내용을 확인 하세요.
     
-이미 정책을 만든 경우 [CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음[부여-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) cmdlet을 사용 하 여 사용자에 게 설정을 적용할 수 있습니다.
+이미 정책을 만든 경우 [CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) cmdlet을 사용 하 여 기존 정책을 변경한 다음[부여-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) cmdlet을 사용 하 여 사용자에 게 설정을 적용할 수 있습니다.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?
 
