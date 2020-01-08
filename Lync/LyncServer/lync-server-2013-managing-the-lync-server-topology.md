@@ -1,0 +1,75 @@
+---
+title: 'Lync Server 2013: Lync Server 토폴로지 관리'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing the Lync Server 2013 topology
+ms:assetid: 323ef486-c907-4036-a2bf-c869b1d7f288
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520973(v=OCS.15)
+ms:contentKeyID: 48183784
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d4e8c5e93ebbbc054ac3bdc9e792cc8376b47449
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40978921"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="managing-the-lync-server-2013-topology"></a>Lync Server 2013 토폴로지 관리
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2012-10-11_
+
+이 섹션의 항목에서는 Lync Server 2013 제어판의 **토폴로지** 페이지를 사용 하 여 수행할 수 있는 작업에 대 한 단계별 절차를 제공 합니다.
+
+<div>
+
+## <a name="in-this-section"></a>이 섹션의 내용
+
+  - [Lync Server 2013를 실행 하는 컴퓨터 목록 보기](lync-server-2013-view-a-list-of-computers-running-lync-server-2013.md)
+
+  - [Lync Server 2013에서 컴퓨터에 실행 중인 서비스의 상태 보기](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
+
+  - [Lync Server 2013에서 서비스에 대 한 세부 정보 보기](lync-server-2013-view-details-about-a-service.md)
+
+  - [Lync Server 2013 서비스 시작 또는 중지](lync-server-2013-start-or-stop-lync-server-services.md)
+
+  - [Lync Server 2013에서 서비스에 대 한 세션 방지](lync-server-2013-prevent-sessions-for-services.md)
+
+  - [Lync Server 2013에서 프런트 엔드 서버 업그레이드 또는 업데이트](lync-server-2013-upgrade-or-update-front-end-servers.md)
+
+  - [Lync Server 2013에서 프런트 엔드 서버 추가 또는 제거](lync-server-2013-add-or-remove-a-front-end-server.md)
+
+  - [Lync Server 2013에서 백 엔드 서버 또는 Standard Edition 서버 업그레이드 또는 업데이트](lync-server-2013-upgrade-or-update-a-back-end-server-or-standard-edition-server.md)
+
+  - [Lync Server 2013에서 Microsoft MSPL (SIP 처리 언어) 응용 프로그램 관리](lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md)
+
+  - [Lync Server 2013의 간단한 Url 관리](lync-server-2013-managing-simple-urls.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

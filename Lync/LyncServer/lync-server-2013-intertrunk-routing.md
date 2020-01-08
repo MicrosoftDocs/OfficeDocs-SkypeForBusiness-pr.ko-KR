@@ -1,0 +1,65 @@
+---
+title: 'Lync Server 2013: 인터트렁크 라우팅'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Intertrunk routing
+ms:assetid: d3a33b4a-8bf4-4a8c-a371-8ef79e740780
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205272(v=OCS.15)
+ms:contentKeyID: 48185442
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3c1b66ea04ed72bab6d33114f52fa9fe96364b48
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40983504"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="intertrunk-routing-in-lync-server-2013"></a>Lync Server 2013의 인터트렁크 라우팅
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2012-10-20_
+
+Lync Server 2013는 ip-pbx (공개 통신 네트워크) 게이트웨이와 IP-PBX를 상호 연결 하 여 PBX 휴대폰의 호출이 PSTN으로 라우팅될 수 있고, 들어오는 PSTN 통화가 PBX (사설 branch exchange) 전화로 라우팅될 수 있습니다. 마찬가지로, Lync Server 2013는 서로 다른 ip-pbx 시스템에서 PBX 전화기 간에 전화를 걸고 받을 수 있도록 두 개 이상의 IP PBX 시스템을 상호 연결할 수 있습니다.
+
+이 intertrunk 라우팅 기능은 Lync Server Management Shell cmdlet, **Set-set-cstrunkconfiguration**, new 매개 변수 PstnUsages를 사용 하 여 구성할 수 있습니다. 이 매개 변수는 사용할 PSTN 사용 레코드 집합을 지정 합니다. 트렁크는이 PSTN 사용량을 사용 하 여 경로를 결정 하 고 모든 수신 전화를 적절 하 게 라우팅합니다.
+
+    Set-CsTrunkConfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
+
+다음 다이어그램에서는 PSTN 게이트웨이와 IP PBX 간에 interconnectivity을 제공 하는 Lync Server 2013을 보여 줍니다.
+
+**게이트웨이 및 IP PBX 간의 intertrunk 라우팅**
+
+Pstn 게이트웨이 ![/i p r-pbx 다이어그램을 연결 하는 Lync SERVER](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "pstn 게이트웨이/i p r-pbx 다이어그램을 연결 하는 lync server")
+
+다음 도표는 Lync Server 2013 interconnecting 두 개의 IP PBX 시스템을 보여 줍니다.
+
+**두 IP Pbx 간의 경로 라우팅**
+
+![Lync server INTERCONNECTING ip-PAX 시스템 다이어그램](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "LYNC server INTERCONNECTING ip-PAX 시스템") 다이어그램
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

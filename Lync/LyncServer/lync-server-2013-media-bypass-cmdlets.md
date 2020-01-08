@@ -1,0 +1,84 @@
+---
+title: 'Lync Server 2013: 미디어 바이패스 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Media bypass cmdlets
+ms:assetid: c3463dd2-2372-41b5-8b49-cbe5c2261b6f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415674(v=OCS.15)
+ms:contentKeyID: 48185334
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 47414dc07b0d26169df9c678283317c3f6c9c7a5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40984092"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="media-bypass-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 미디어 바이패스 cmdlet
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2012-03-21_
+
+미디어 바이패스는 신호 조정 서버를 통과 하는 호출에 대해 가능 하면 미디어 경로에서 중재 서버를 제거 하는 것을 의미 합니다.
+
+<div>
+
+## <a name="media-bypass-cmdlets"></a>미디어 바이패스 Cmdlet
+
+다음 cmdlet을 사용 하 여 미디어 바이패스를 구성 합니다.
+
+**미디어 바이패스**
+
+  - <span></span>  
+    [새-Csnetworkmediabyp을 구성 합니다.](https://technet.microsoft.com/en-us/library/Gg425718(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))
+
+  - <span></span>  
+    [제거-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))
+
+  - <span></span>  
+    [Set-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>참고 항목
+
+
+[Lync Server 2013의 미디어 바이패스 계획](lync-server-2013-planning-for-media-bypass.md)  
+[Lync Server PowerShell 블로그](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

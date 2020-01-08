@@ -1,0 +1,62 @@
+---
+title: 'Lync Server 2013: 가상 트랜잭션 실행'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Running synthetic transactions
+ms:assetid: 2b56c7bd-8956-4fa1-8232-1876b959b258
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720911(v=OCS.15)
+ms:contentKeyID: 63969593
+ms.date: 01/27/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 489b8a02d829f4f12038e3f07559166c1c015b80
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40975349"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="running-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013에서 가상 트랜잭션 실행
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2014-08-18_
+
+가상 트랜잭션은 일반적으로 두 가지 방법으로 수행 됩니다. CsHealthMonitoringConfiguration cmdlet을 사용 하 여 각 등록자 풀에 대 한 테스트 사용자를 설정할 수 있습니다. 이러한 테스트 사용자는 가상 트랜잭션과 함께 사용 하도록 미리 구성한 사용자 쌍입니다. 일반적으로 이러한 계정은 테스트 계정이 며 실제 사용자에 속하는 계정이 아닙니다. 풀에 대해 구성 된 테스트 사용자는 테스트에 관련 된 사용자 계정에 대 한 id를 지정 하 고 해당 자격 증명을 제공할 필요 없이 해당 풀에 대해 가상 트랜잭션을 실행할 수 있습니다.
+
+또는 실제 사용자 계정을 사용 하 여 가상 트랜잭션을 실행할 수 있습니다. 예를 들어 두 명의 사용자가 인스턴트 메시지를 교환할 수 없는 경우 테스트 계정 쌍이 아닌 두 개의 사용자 계정을 사용 하 여 가상 트랜잭션을 실행 한 다음 문제를 진단 하 고 해결 해 볼 수 있습니다. 실제 사용자 계정을 사용 하 여 가상 트랜잭션을 수행 하기로 결정 한 경우 각 사용자에 대 한 로그온 이름과 암호를 제공 해야 합니다.
+
+<div>
+
+## <a name="see-also"></a>참고 항목
+
+
+[Lync Server 2013에서 감시자 노드 테스트 사용자 및 구성 설정 구성](lync-server-2013-configuring-watcher-node-test-users-and-configuration-settings.md)  
+[Lync Server 2013의 종합 거래에 대 한 특별 한 설정 지침](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

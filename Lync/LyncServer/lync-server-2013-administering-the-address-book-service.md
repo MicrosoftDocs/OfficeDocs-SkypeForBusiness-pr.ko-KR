@@ -1,0 +1,383 @@
+---
+title: 'Lync Server 2013: 주소록 서비스 관리'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Administering the Address Book Service
+ms:assetid: 801e4243-9670-4477-aa2f-88b61ecf5351
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429711(v=OCS.15)
+ms:contentKeyID: 48184649
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8acf59a898f8da14b9c5c4151728206cc501ceaf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40985385"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="administering-the-address-book-service-in-lync-server-2013"></a>Lync Server에서 주소록 서비스 관리 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2014-02-05_
+
+Lync Server, Enterprise Edition 또는 Standard Edition Server 배포의 일부로 주소록 서비스는 기본적으로 설치 됩니다. 주소록 서비스에 사용 되는 데이터베이스 (RTCab –)는 SQL Server (Enterprise Edition의 경우 백 엔드 SQL Server, collocated SQL Server의 경우)에 생성 됩니다.
+
+<div>
+
+
+> [!NOTE]  
+> <STRONG>Adsi 편집</STRONG> 을 사용 하 여 Active Directory 도메인 서비스 개체 특성을 편집 하는 방법에 대 한 자세한 내용은 <A href="http://go.microsoft.com/fwlink/?linkid=330427">adsi 편집</A>을 참조 하세요. 특정 주소록 서비스에 대 한 리소스 키트의 도구에 대 한 자세한 내용은 <A href="http://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 리소스 키트 도구</A>를 참조 하세요.
+
+
+
+</div>
+
+<div>
+
+## <a name="address-book-server-phone-number-normalization"></a>주소록 서버 전화 번호 정규화
+
+Lync Server에는 표준화 된 RFC 3966/E-164 휴대폰 번호가 필요 합니다. 형식이 지정 되지 않거나 일관성을 해제 한 전화 번호를 사용 하기 위해 Lync Server는 정규화 규칙에 전달 하기 전에 전화 번호를 전처리 하기 위해 주소록 서버에 의존 합니다. 주소록에서 전화 번호를 사용 하 고 정규화 규칙을 적용 한 경우, Lync Phone Edition과 Lync Mobile 등의 클라이언트에서 이러한 정규화 된 숫자를 사용할 수 있습니다.
+
+이전 버전에서 사용한 정규화 규칙이 일부 조정 없이 제대로 작동 하지 않을 수 있습니다. 정규화 규칙 전에 공백 및 비 필수 문자를 제거 했으므로 regex 식이 제거 된 대시 또는 다른 문자를 구체적으로 찾는 경우에는 정규화 규칙이 실패할 수 있습니다. 정규화 규칙을 검토 하 여 이러한 비 필수 문자를 찾지 못하거나 규칙이 예상 되는 위치에 문자가 표시 되지 않는 경우에도 메시지가 정상적으로 실패 하 고 계속할 수 있는지 확인 해야 합니다.
+
+</div>
+
+<div>
+
+## <a name="user-replicator-and-address-book-server"></a>사용자 복제기 및 주소록 서버
+
+주소록 서버는 사용자 복제기에서 제공 하는 데이터를 사용 하 여 GAL (전체 주소 목록)에서 처음 얻은 정보를 업데이트 합니다. 사용자 복제기는 각 사용자, 연락처 및 그룹의 Active Directory 도메인 서비스 특성을 데이터베이스의 AbUserEntry 테이블에 기록 하 고 주소록 서버는 데이터베이스의 사용자 데이터를 주소록 서버 파일 저장소의 파일에 동기화 하 고 주소록 데이터베이스 RTCab. AbUserEntry 테이블에 대 한 스키마는 **Userguid** 와 **UserData**라는 두 개의 열을 사용 합니다. **Userguid** 는 인덱스 열로, Active Directory 개체의 16 바이트 GUID를 포함 합니다. **UserData** 는 해당 연락처에 대해 앞에서 언급 한 모든 Active Directory 도메인 서비스 특성을 포함 하는 image 열입니다.
+
+사용자 복제기는 AbUserEntry 테이블과 동일한 SQL Server 기반 인스턴스에 있는 구성 테이블을 읽어 쓰려는 Active Directory 특성을 결정 합니다. AbAttribute 테이블에는 **ID**, **이름**, **플래그**, **Enable**의 세 열이 포함 되어 있습니다. 이 테이블은 데이터베이스 설정 중에 만들어집니다. AbAttribute 테이블이 비어 있는 경우 사용자 복제기는 AbUserEntry 테이블 처리 논리를 건너뜁니다. 주소록 서버 특성은 동적 이며, 주소록 서버가 활성화 되 면 주소록 서버에서 처음으로 작성 하는 AbAttribute 테이블에서 검색 됩니다.
+
+주소록 서버 활성화에서 다음 표에 표시 된 값으로 AbAttribute 테이블을 채웁니다.
+
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>I</th>
+<th>이름</th>
+<th>플래그</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>1</p></td>
+<td><p>givenName</p></td>
+<td><p>0x01400000</p></td>
+</tr>
+<tr class="even">
+<td><p>2</p></td>
+<td><p>만들려면</p></td>
+<td><p>0x02400000</p></td>
+</tr>
+<tr class="odd">
+<td><p>3</p></td>
+<td><p>이름</p></td>
+<td><p>0x03420000</p></td>
+</tr>
+<tr class="even">
+<td><p>4(tcp/ipv4)</p></td>
+<td><p>타이틀이</p></td>
+<td><p>0x04000000</p></td>
+</tr>
+<tr class="odd">
+<td><p>5mb</p></td>
+<td><p>mailNickname</p></td>
+<td><p>0x05400000</p></td>
+</tr>
+<tr class="even">
+<td><p>26</p></td>
+<td><p>회사별로</p></td>
+<td><p>0x06000000</p></td>
+</tr>
+<tr class="odd">
+<td><p>7</p></td>
+<td><p>physicalDeliveryOfficeName</p></td>
+<td><p>0x07000000</p></td>
+</tr>
+<tr class="even">
+<td><p>20cm(8</p></td>
+<td><p>msRTCSIP-PrimaryUserAddress</p></td>
+<td><p>0x08520C00</p></td>
+</tr>
+<tr class="odd">
+<td><p>되었는지</p></td>
+<td><p>telephoneNumber</p></td>
+<td><p>0x09022800</p></td>
+</tr>
+<tr class="even">
+<td><p>1천만</p></td>
+<td><p>homePhone</p></td>
+<td><p>0x0A302800</p></td>
+</tr>
+<tr class="odd">
+<td><p>mb</p></td>
+<td><p>모바일</p></td>
+<td><p>0x0B622800</p></td>
+</tr>
+<tr class="even">
+<td><p>까지</p></td>
+<td><p>기타 전화</p></td>
+<td><p>0x0C302000</p></td>
+</tr>
+<tr class="odd">
+<td><p>일자</p></td>
+<td><p>ipPhone</p></td>
+<td><p>0x0D302000</p></td>
+</tr>
+<tr class="even">
+<td><p>13</p></td>
+<td><p>편집</p></td>
+<td><p>0x0E500000</p></td>
+</tr>
+<tr class="odd">
+<td><p>~</p></td>
+<td><p>groupType</p></td>
+<td><p>0x0F010800</p></td>
+</tr>
+<tr class="even">
+<td><p>16</p></td>
+<td><p>부서</p></td>
+<td><p>0x10000000</p></td>
+</tr>
+<tr class="odd">
+<td><p>17@@</p></td>
+<td><p>설명</p></td>
+<td><p>0x11000100</p></td>
+</tr>
+<tr class="even">
+<td><p>awg</p></td>
+<td><p>관리자로</p></td>
+<td><p>0x12040001</p></td>
+</tr>
+<tr class="odd">
+<td><p>인치</p></td>
+<td><p>proxyAddress</p></td>
+<td><p>0x00500 105</p></td>
+</tr>
+<tr class="even">
+<td><p>명</p></td>
+<td><p>msExchHideFromAddressLists</p></td>
+<td><p>0xFF000003</p></td>
+</tr>
+<tr class="odd">
+<td><p>99</p></td>
+<td><p>Id</p></td>
+<td><p>0x99000000</p></td>
+</tr>
+</tbody>
+</table>
+
+
+**ID** 열의 숫자는 고유 해야 하며 다시 사용해 서는 안 됩니다. 또한 256 아래의 ID 값을 유지 하면 주소록 서버에서 작성 한 출력 파일에 공간을 절약할 수 있습니다. 그러나 최대 ID 값은 65535입니다. **이름** 열은 사용자 복제기에서 각 연락처에 대 한 AbUserEntry 테이블에 입력 해야 하는 Active Directory 특성 이름에 해당 합니다. **Flags** 열의 값은 특성의 형식을 정의 하는 데 사용 됩니다. 다음과 같은 유형의 주소록 서버 특성은 **Flags** 열에서 값의 하위 바이트로 표시 되는 사용자 복제기에 의해 인식 됩니다.
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>특성</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>0</p></td>
+<td><p>문자열 특성입니다. 사용자 복제기는 AbUserEntry 테이블에 저장 하기 전에이 형식을 u t f-8로 변환 합니다.</p></td>
+</tr>
+<tr class="even">
+<td><p>이면</p></td>
+<td><p>이진 특성입니다. 사용자 복제기는 변환 하지 않고 blob에 저장 합니다.</p></td>
+</tr>
+<tr class="odd">
+<td><p>0x2</p></td>
+<td><p>String 특성 이지만 특성 값이 tel: &quot;&quot;로 시작 하는 경우에만 포함 됩니다. 이는 주로 여러 개의 값을 갖는 문자열 특성, 특히 <strong>proxyAddresses</strong>에 대 한 것입니다. 이 경우 주소록 서버는 tel: &quot;&quot;로 시작 되는 <strong>proxyAddresses</strong> 항목에만 관심이 있습니다. 따라서 공간을 절약 하기 위해 사용자 복제기는 tel: &quot;&quot;로 시작 하는 항목만 저장 합니다.</p></td>
+</tr>
+<tr class="even">
+<td><p>한다면</p></td>
+<td><p>TRUE 이면 사용자 복제기가 AbUserEntry 테이블에이 연락처를 포함 하지 않도록 하는 부울 문자열 특성입니다. FALSE 인 경우 사용자 복제기는 AbUserEntry 테이블에이 연락처에 대 한 특성을 포함 하지만,이 플래그를 사용 하 여 특정 특성이 아닌 경우에 발생 합니다. 이는 주로 <strong>msExchHideFromAddressLists</strong> 특성에 대 한 다른 특별 사례 유형입니다.</p></td>
+</tr>
+<tr class="odd">
+<td><p>0x4</p></td>
+<td><p>문자열 특성 이지만 특성 값 &quot;이 smtp:&quot; 로 시작 하는 경우에만 포함 되며 기호를 &quot; @ &quot; 포함 합니다.</p></td>
+</tr>
+<tr class="even">
+<td><p>0x5</p></td>
+<td><p>String 특성 이지만 특성 값 &quot;이 tel:&quot; 또는 &quot;smtp:&quot; 로 시작 하 고 기호를 &quot; @ &quot; 포함 하는 경우에만 포함 됩니다.</p></td>
+</tr>
+<tr class="odd">
+<td><p>0x100</p></td>
+<td><p>설정 된 경우 각 연락처에 대해 두 번 이상 표시할 수 있는 다중 값 특성입니다.</p></td>
+</tr>
+<tr class="even">
+<td><p>0x400</p></td>
+<td><p>설정 되 면 연락처에 대 한 전자 메일 사용자 계정 이름 특성을 식별 합니다. 주소록 서버는이 플래그를 사용 하 여 전화 정규화 이벤트 로그 항목에 표시할 특성 값을 식별 합니다.</p></td>
+</tr>
+<tr class="odd">
+<td><p>0x800</p></td>
+<td><p>Set 인 경우 연락처에 대 한 필수 특성을 식별 합니다. Active Directory에이 특성에 대 한 값이 있는 경우에만 주소록 서버에는 AbUserEntry 테이블의 사용자가 포함 됩니다. 필수 특성을 두 개 이상 사용 하는 경우에는 사용자에 게 AbUserEntry 테이블에 포함할 값이 있어야 합니다.</p></td>
+</tr>
+<tr class="even">
+<td><p>0x1000</p></td>
+<td><p>설정 하는 경우 주소록 서버는 항상이 특성의 값을 정규화 합니다.</p></td>
+</tr>
+<tr class="odd">
+<td><p>0x2000</p></td>
+<td><p>설정 하는 경우, <strong>UseNormalizationRules</strong> CMS 설정이 FALSE 인 경우 주소록 서버는 <strong>proxyAddresses</strong>에서 정규화 된 번호를 사용 합니다. 그렇지 않으면 플래그 비트가 0x1000 경우와 동일 하 게 작동 합니다.</p></td>
+</tr>
+<tr class="even">
+<td><p>0x4000</p></td>
+<td><p>설정 하는 경우 주소록 서버는 지정 된 특성에 대해이 값이 있는 AbUserEntry 테이블의 개체를 포함 하지 않습니다. 예를 들어 <strong>msRTCSIP-PrimaryUserAddress</strong> 특성에이 플래그 비트가 설정 되어 있으면이 특성이 있는 연락처가 데이터베이스에 기록 되지 않습니다.</p></td>
+</tr>
+<tr class="odd">
+<td><p>0x8000</p></td>
+<td><p>설정 하는 경우 주소록 서버는 지정 된 특성에 대해이 값이 없는 AbUserEntry 테이블의 개체를 포함 하지 않습니다. 개체에 0x4000 및 0x8000 플래그 비트가 모두 설정 된 경우에는 플래그 비트 값이 0x4000로 설정 된 특성이 우선권을 가지 며 해당 개체가 AbUserEntry 테이블에서 제외 됩니다.</p></td>
+</tr>
+<tr class="even">
+<td><p>0x10000</p></td>
+<td><p>Set 인 경우이는 그룹 개체를 나타냅니다. 사용자 복제기는이 플래그 비트를 사용 하 여 현재 상태가 그룹을 나타내는 <strong>groupType</strong> 특성이 있는 연락처를 포함 합니다 (예: 메일 목록 또는 보안 그룹).</p></td>
+</tr>
+<tr class="odd">
+<td><p>0x20000</p></td>
+<td><p>설정 하는 경우 사용자 복제기는이 플래그 비트를 사용 하 여 디바이스 관련 주소록 서버 파일 (즉, 확장명이 dabs 인 파일)에이 특성을 포함 합니다.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+이전 버전의 Lync Server에서 Active Directory에 변경 내용을 적용 하는 경우 관리자는 **업데이트 CSUserDatabase** 및 **update – CSAddressBook** Windows PowerShell cmdlet을 실행 하 여 Lync Server 사용자 데이터베이스와 rtcab 데이터베이스에 대 한 변경 내용을 즉시 유지 해야 합니다. Lync Server 2013에서 Lync Server 사용자 복제기는 Active Directory에서 변경 된 내용을 선택 하 고 구성 된 간격을 기준으로 Lync Server 사용자 데이터베이스를 업데이트 합니다. 또한 Lync Server 사용자 복제기는 관리자가 CSAddressBook를 실행 하지 않아도 RTCab 데이터베이스에 대 한 변경 내용을 빠르게 전파 합니다. 주소록 웹 쿼리를 사용 하도록 설정 하면 변경 내용이 Lync 클라이언트에의 한 검색 결과에 반영 됩니다. 주소록 파일 다운로드를 사용 하는 경우 관리자는 업데이트 CSAddressBook 실행 하기만 하면 됩니다.
+
+<div>
+
+
+> [!NOTE]  
+> 기본적으로 Lync Server 사용자 복제기는 5 분 마다 자동으로 실행 됩니다. Set-CSUserReplicatorConfiguration-ReplicationCycleInterval &lt; &gt;를 사용 하 여이 간격을 구성할 수 있습니다.
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="filtering-the-address-book"></a>주소록 필터링
+
+주소록 서버 파일에 채워진 사용자는 AbAttribute 테이블에 나열 된 특정 Active Directory 도메인 서비스 특성을 기준으로 제어할 수 있습니다. 필터링에 사용 되는 이러한 특성 중 하나는 **msExchangeHideFromAddressBook** 특성입니다. Exchange 스키마에서 추가한 사용자 특성입니다. 이 특성의 값이 TRUE 인 경우 Exchange Server는이 특성을 사용 하 여 Outlook GAL (전체 주소 목록)에서 연락처를 숨깁니다. 마찬가지로,이 특성의 값이 TRUE 이면 사용자 복제기는 AbUserEntry 테이블에 해당 사용자를 포함 하지 않으며이 사용자는 주소록 서버 파일에 있지 않습니다.
+
+일부 플래그 비트를 사용 하 여 주소록 서버 특성에서 사용할 필터를 정의할 수 있습니다. 예를 들어 특정 플래그 비트가 있으면 특성을 include 특성 또는 exclude 특성으로 식별할 수 있습니다. 사용자 복제기에서는 exclude 특성이 포함 된 연락처를 필터링 하 고 include 특성이 포함 되지 않은 항목을 필터링 합니다.
+
+<div>
+
+
+> [!WARNING]  
+> 주소록 필터링에 대 한 자세한 내용은 <A href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Lync server 2013의 주소록 서버 cmdlet</A>을 참조 하 고 <A href="http://go.microsoft.com/fwlink/?linkid=330430">Lync 2013 주소록 필터링</A>
+
+
+
+</div>
+
+현재 세 가지 다른 필터가 있습니다. 다음 표에는 이러한 필터가 나열 되어 있습니다.
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>특성</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>0x800</p></td>
+<td><p>Set 인 경우 연락처에 대 한 필수 특성을 식별 합니다. 사용자 복제기는이 플래그 비트를 사용 하 여 하나 이상의 필수 특성이 포함 되지 않은 연락처를 필터링 합니다. OuPathId은 항상 설정 되는 필수 특성입니다. 따라서 다른 필수 특성 중 하나 이상을 설정 해야 합니다. 그렇지 않으면 연락처 (즉, 필수 특성의 값이 OuPathId)가 여전히 데이터베이스에 쓰여지지 않습니다. 예를 들어 <strong>telephoneNumber</strong> 및 <strong>homePhone</strong> 이 필수 특성으로 정의 된 경우 이러한 특성 중 하나 이상에 해당 하는 연락처만 데이터베이스에 기록 됩니다.</p></td>
+</tr>
+<tr class="even">
+<td><p>0x4000</p></td>
+<td><p>Set 인 경우 exclude 특성을 식별 합니다. 사용자 복제기는이 플래그 비트를 사용 하 여이 특성을 포함 하는 연락처를 필터링 합니다. 예를 들어 <strong>msRTCSIP-PrimaryUserAddress</strong> 가 exclude 특성으로 정의 된 경우이 특성을 가진 연락처는 데이터베이스에 기록 되지 않습니다.</p></td>
+</tr>
+<tr class="odd">
+<td><p>0x8000</p></td>
+<td><p>Set 인 경우 include 특성을 식별 합니다. 사용자 복제기는이 플래그 비트를 사용 하 여이 특성을 포함 하지 않는 연락처를 필터링 합니다. 예를 들어 <strong>msRTCSIP-PrimaryUserAddress</strong> 가 include 특성으로 정의 되 면이 특성이 있는 연락처만 데이터베이스에 기록 됩니다.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+<div>
+
+
+> [!NOTE]  
+> 0x4000 (exclude 특성) 및 0x8000 (include 특성) 플래그 비트가 설정 된 경우 0x4000 비트는 0x8000 비트를 재정의 하 고 연락처가 제외 됩니다.
+
+
+
+</div>
+
+특정 사용자만 포함 하도록 주소록을 필터링 할 수 있지만, 항목을 제한 하더라도 필터링 된 사용자에 게 연락 하거나 현재 상태를 확인 하는 다른 사용자의 권한은 제한 되지 않습니다. 사용자의 전체 로그인 이름을 입력 하 여 사용자가 언제 든 지 인스턴트 메시지를 찾거나 수동으로 보내거나 주소록에 없는 사용자에 게 전화를 걸 수 있습니다. 또한 Outlook 에서도 사용자의 연락처 정보를 찾을 수 있습니다.
+
+주소록 파일에 전체 연락처 레코드를 포함 하는 동안에는 Lync Server를 사용 하 여 세션 초기화를 위해 구성 되지 않은 사용자와 전자 메일, 전화 또는 엔터프라이즈 음성 통화 (서버에서 Enterprise Voice를 사용 하는 경우)를 시작할 수 있습니다. 프로토콜 (SIP)의 경우, 일부 조직에서는 SIP 지원 사용자만 주소록 서버 항목에 포함 하는 것을 선호 합니다. **MailNickname**, **telephoneNumber**, **homePhone**, **mobile**등 필수 특성의 **Flags** 열에서 0x800 Bit를 지워 SIP 사용 가능 사용자만 포함 하도록 주소록을 필터링 할 수 있습니다. **MsRTCSIP-PrimaryUserAddress** 특성의 **Flags** 열에 0x8000 (include 특성)을 설정 하 여 주소록을 필터링 하 여 SIP 사용 가능 사용자만 포함 하도록 할 수도 있습니다. 또한 주소록 파일에서 서비스 계정을 제외 하는 데 도움이 됩니다.
+
+AbAttribute 테이블을 수정한 후에는 cmdlet **업데이트-CsUserDatabase** 명령을 실행 하 여 AbUserEntry 테이블에서 데이터를 새로 고칠 수 있습니다. UR 복제가 완료 되 면 cmdlet **UpdateCsAddressBook** 명령을 수동으로 실행 하 여 주소록 서버 파일 저장소에서 파일을 업데이트할 수 있습니다.
+
+<div>
+
+
+> [!NOTE]  
+> 주소록 서버를 배치 하는 프런트 엔드 서버는 관리적으로 구성할 수 없습니다. 배포 중에 하나 (일반적으로 첫 번째 프런트 엔드 서버를 배포 하는 경우)가 선택 됩니다. 실패 한 경우 주소록 서비스는 다른 프런트 엔드 서버로 이동 하 고 관리 주의가 필요 하지 않습니다.
+
+
+
+</div>
+
+<div>
+
+
+> [!IMPORTANT]  
+> 다중 포리스트 배포 또는 상위/하위 배포 (Lync 서버로 이동 하기 전에 인프라 통합)에서 인프라를 통합 하거나 수정 하는 경우 주소록 서비스 다운로드 및 주소록 웹 쿼리가 일부 사용자에 게 실패 하는 것을 확인할 수 있습니다. 여러 도메인 또는 포리스트가 있는 배포의 경우 <STRONG>MsRTCSIP-OriginatorSid</STRONG> 특성이 문제를 발생 하는 사용자 개체에 채워집니다. 이 문제를 해결 하려면 이러한 개체에 대해 <STRONG>MsRTCSIP-OriginatorSid</STRONG> 특성을 NULL로 설정 해야 합니다.
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

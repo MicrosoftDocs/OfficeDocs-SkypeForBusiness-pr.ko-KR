@@ -1,0 +1,96 @@
+---
+title: SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버 배포 - 분기 사이트 작업
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploy a Survivable Branch Appliance or Server - branch site task
+ms:assetid: 7989ba29-0419-46dd-892c-4ad3238afd56
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398599(v=OCS.15)
+ms:contentKeyID: 48184586
+ms.date: 10/29/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0f9c50e2c2377ead96f155beb2471419edb9da91
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40983266"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="deploy-a-survivable-branch-appliance-or-server-with-lync-server-2013---branch-site-task"></a>Lync Server 2013을 통해 SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버 배포 - 분기 사이트 작업
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2014-10-28_
+
+[Survivable Branch 기기 또는 Lync server 2013를 사용 하 여 서버를 배포](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)하는 작업을 성공적으로 완료 한 후 지점 사이트에서이 항목에 설명 된 두 가지 절차 중 하나를 수행 합니다-중앙 사이트 작업
+
+<div>
+
+
+> [!IMPORTANT]
+> 이 절차를 수행 하려면 RTCUniversalSBATechnicians 그룹의 구성원 이어야 합니다.
+
+
+
+</div>
+
+<div>
+
+## <a name="to-deploy-the-survivable-branch-appliance"></a>Survivable Branch 기기를 배포 하려면
+
+  - Survivable Branch 기기 배포는 웹 UI (사용자 인터페이스)를 통해 Survivable Branch 기기 공급 업체에서 사용 하도록 설정 합니다. Survivable Branch 기기 배포에 대 한 자세한 내용은 Survivable Branch 기기 공급 업체 문서를 참조 하세요.
+
+</div>
+
+<div>
+
+## <a name="to-deploy-the-survivable-branch-server"></a>Survivable Branch 서버를 배포 하려면
+
+  - 다른 Lync Server 2013 서버 역할을 설치 하는 것과 마찬가지로 Windows Server 2008 R2, Windows Server 2012 또는 Windows Server 2012 R2를 실행 하는 컴퓨터에 Lync Server 2013을 설치 합니다.
+    
+    <div>
+    
+
+    > [!NOTE]
+    > Lync Server 설치에 대 한 자세한 내용은 배포 설명서에서 <A href="lync-server-2013-deploying-lync-server.md">Lync server 2013 배포</A> 를 참조 하세요.
+
+    
+    </div>
+
+**다음 단계**: [Lync Server 2013에서 지점 사이트 복원에 대 한 사용자 구성](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>참고 항목
+
+
+[부록 A: Lync Server 2013에서 Cmdlet을 사용하여 SBA(Survivable Branch Appliance) 배포](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
