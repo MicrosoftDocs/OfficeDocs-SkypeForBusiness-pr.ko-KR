@@ -1,0 +1,168 @@
+---
+title: 'Lync Server 2013: 환경 구성 설정 만들기'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create Quality of Experience configuration settings
+ms:assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521006(v=OCS.15)
+ms:contentKeyID: 48184357
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 947fb50c057fdcc04fe7d1b30d25bc8f5a5f4a02
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40983349"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="create-quality-of-experience-configuration-settings-in-lync-server-2013"></a>Lync Server 2013에서 환경 품질 구성 설정 만들기
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2013-02-23_
+
+경력 (체감 품질) 메트릭은 손실 된 네트워크 패킷 수, 배경 잡음, "지터"의 양 (패킷 지연의 차이) 등을 포함 하 여 조직에서 오디오 및 비디오 통화의 품질을 추적 합니다. 이러한 메트릭은 다른 데이터 (예: 호출 정보 레코드)와는 별도로 데이터베이스에 저장 되며,이를 사용 하 여 기타 데이터 기록과 독립적으로 체감 품질를 활성화 및 비활성화할 수 있습니다.
+
+Microsoft Lync Server 2013을 설치 하면 체감 품질 구성 설정의 단일 전역 컬렉션이 만들어집니다. 또한 관리자는 사이트 범위에서 사용자 지정 설정을 만드는 옵션도 있습니다. 이러한 사이트 범위 설정이 사용 될 때마다 전역 설정 보다 우선적으로 적용 됩니다. 예를 들어 Redmond 사이트에 대 한 사이트 범위 설정을 만드는 경우 전역 설정이 아닌 해당 설정을 사용 하 여 Redmond의 체감 품질를 관리 합니다.
+
+Lync Server 제어판 또는 [CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) cmdlet 중 하나를 사용 하 여 체감 품질 구성 설정을 만들 수 있습니다. Lync Server 제어판을 사용 하 여 새 설정을 만드는 경우 다음 옵션을 사용할 수 있습니다.
+
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>UI 설정</th>
+<th>PowerShell 매개 변수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>이름</p></td>
+<td><p>Identity</p></td>
+<td><p>만들려는 설정의 고유 식별자입니다. 체감 품질 구성 설정은 사이트 범위 에서만 만들 수 있습니다.</p></td>
+</tr>
+<tr class="even">
+<td><p>체감 품질 데이터 모니터링 사용</p></td>
+<td><p>EnableQoE</p></td>
+<td><p>체감 품질 레코드를 수집 하 여 모니터링 데이터베이스에 저장할지 여부를 지정 합니다.</p></td>
+</tr>
+<tr class="odd">
+<td><p>체감 품질 데이터 제거 사용</p></td>
+<td><p>EnablePurging</p></td>
+<td><p><strong>최대 기간에 대해 체감 품질 데이터 유지 (days)</strong> 속성에 정의 된 기간이 경과한 후 레코드를 제거할지 여부를 지정 합니다.</p></td>
+</tr>
+<tr class="even">
+<td><p>최대 기간 (일) 동안 체감 품질 데이터 유지</p></td>
+<td><p>KeepQoEDataForDays</p></td>
+<td><p>데이터베이스에서 삭제 되기 전에 데이터가 저장 되는 일 수 체감 품질. 제거를 사용할 수 없는 경우이 값은 무시 됩니다.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+<div>
+
+
+> [!NOTE]  
+> 새로운 CsQoEConfiguration cmdlet에는 Lync Server 제어판에서 사용할 수 없는 추가 옵션이 포함 되어 있습니다. 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration">새로운 CsQoEConfiguration</A> 도움말 항목을 참조 하세요.
+
+
+
+</div>
+
+<div>
+
+## <a name="to-create-qoe-configuration-settings-by-using-lync-server-control-panel"></a>Lync Server 제어판을 사용 하 여 체감 품질 구성 설정을 만들려면
+
+1.  RTCUniversalServerAdmins 그룹의 구성원 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온 합니다. 자세한 내용은 [Lync Server 2013에서 설치 권한 위임을](lync-server-2013-delegate-setup-permissions.md)참조 하세요.
+
+2.  브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+
+3.  왼쪽 탐색 모음에서 **모니터링 및 보관**을 클릭 한 다음 **경력 데이터 품질**을 클릭 합니다.
+
+4.  **경력 데이터** 페이지에서 **새로 만들기**를 클릭 합니다.
+
+5.  **사이트 선택**에서 정책을 적용할 사이트를 클릭 하 고 **확인**을 클릭 합니다.
+
+6.  **새로운 환경 품질 설정**에서 다음을 수행 합니다.
+    
+      - 모니터링을 켜려면 **체감 품질 데이터 모니터링 사용** 을 선택 합니다.
+    
+      - 제거를 켜려면 **체감 품질 데이터 제거 사용** 을 선택 합니다.
+    
+      - **최대 기간 (일 수)에 대해 체감 품질 유지**를 선택 하 고, 체감 품질 레코드를 보존 해야 하는 최대 기간 (일)을 선택 합니다.
+
+7.  **커밋**을 클릭합니다.
+
+</div>
+
+<div>
+
+## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 체감 품질 구성 설정 만들기
+
+Windows PowerShell 및 New-CsQoEConfiguration cmdlet을 사용 하 여 체감 품질 구성 설정을 만들 수 있습니다. Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+
+<div>
+
+## <a name="to-create-a-new-collection-of-qoe-configuration-settings"></a>체감 품질 구성 설정의 새 컬렉션을 만들려면
+
+  - 이 명령은 Redmond 사이트에 적용 된 체감 품질 구성 설정의 새 컬렉션을 만듭니다.
+    
+        New-CsQoEConfiguration -Identity "site:Redmond"
+
+</div>
+
+<div>
+
+## <a name="to-create-a-new-collection-of-qoe-configuration-settings-where-qoe-monitoring-is-disabled"></a>체감 품질 모니터링을 사용 하지 않도록 설정 된 체감 품질 구성 설정의 새 컬렉션을 만들려면
+
+  - 앞의 명령에서 필수 Id 매개 변수 이외의 매개 변수를 지정 하지 않았으므로 새 구성 설정 모음에는 해당 속성에 대 한 기본값이 사용 됩니다. 다른 속성 값을 사용 하는 설정을 만들려면 간단히 적절 한 매개 변수와 매개 변수 값을 포함 합니다. 예를 들어 기본적으로 체감 품질 녹화 사용 안 함을 허용 하는 환경 구성 설정의 컬렉션을 만들려면 다음과 같은 명령을 사용 합니다.
+    
+        New-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
+
+</div>
+
+<div>
+
+## <a name="to-specify-multiple-property-values-when-creating-a-new-collection-of-qoe-configuration-settings"></a>체감 품질 구성 설정의 새 컬렉션을 만들 때 여러 속성 값을 지정 하려면
+
+  - 여러 매개 변수를 포함 하 여 여러 속성 값을 사용할 수 있습니다. 예를 들어이 명령은 체감 품질 데이터를 30 일간 유지 하 고 3:00 AM에 오래 된 데이터를 제거 하도록 새 설정을 구성 합니다.
+    
+        New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 30 -PurgeHourOfDay 3
+
+</div>
+
+자세한 내용은 [새 CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) cmdlet에 대 한 도움말 항목을 참조 하세요.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

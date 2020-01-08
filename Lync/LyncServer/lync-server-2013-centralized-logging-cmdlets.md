@@ -1,0 +1,121 @@
+---
+title: 'Lync Server 2013: 중앙 로깅 cmdlet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Centralized Logging cmdlets
+ms:assetid: 8ba5bcae-8b99-489c-9355-6e77d4ad9100
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205064(v=OCS.15)
+ms:contentKeyID: 48184743
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 01087b335098e34dc3066fbee31c5e6ec7995698
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40982270"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="centralized-logging-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 중앙 집중화 된 로깅 cmdlet
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2012-10-08_
+
+중앙 로깅 cmdlet은 관리자가 Microsoft Lync Server 2013에서 도입 된 중앙 집중식 로깅 기능을 관리 하 고 구성할 수 있는 방법을 제공 합니다. 중앙 집중화 된 로깅을 통해 관리자는 여러 컴퓨터에서 이벤트 추적을 동시에 사용 하거나 사용 하지 않도록 설정할 수 있습니다.
+
+<div>
+
+## <a name="centralized-logging-cmdlets"></a>중앙 로깅 Cmdlet
+
+중앙 로깅 cmdlet을 사용 하 여 Lync Server 2013에 도입 된 중앙 집중화 된 로깅 서비스를 관리할 수 있습니다.
+
+**중앙 로깅 Cmdlet**
+
+  - [Get-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))
+
+  - [New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))
+
+  - [-CsClsConfiguration 제거](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))
+
+  - [Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))
+
+<!-- end list -->
+
+  - [Search-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619189(v=OCS.15))
+
+  - [표시-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619173(v=OCS.15))
+
+  - [시작-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619190(v=OCS.15))
+
+  - [중지-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619180(v=OCS.15))
+
+  - [Sync-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619169(v=OCS.15))
+
+  - [업데이트-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619170(v=OCS.15))
+
+<!-- end list -->
+
+  - [새-CsClsProvider](https://technet.microsoft.com/en-us/library/JJ619187(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsClsRegion](https://technet.microsoft.com/en-us/library/JJ204879(v=OCS.15))
+
+  - [새-CsClsRegion](https://technet.microsoft.com/en-us/library/JJ204658(v=OCS.15))
+
+  - [-CsClsRegion 제거](https://technet.microsoft.com/en-us/library/JJ204971(v=OCS.15))
+
+  - [Set-CsClsRegion](https://technet.microsoft.com/en-us/library/JJ204746(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsClsScenario](https://technet.microsoft.com/en-us/library/JJ205091(v=OCS.15))
+
+  - [신규-CsClsScenario](https://technet.microsoft.com/en-us/library/JJ205022(v=OCS.15))
+
+  - [-CsClsScenario 제거](https://technet.microsoft.com/en-us/library/JJ205010(v=OCS.15))
+
+  - [Set-CsClsScenario](https://technet.microsoft.com/en-us/library/JJ204622(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsClsSearchTerm](https://technet.microsoft.com/en-us/library/JJ205061(v=OCS.15))
+
+  - [Set-CsClsSearchTerm](https://technet.microsoft.com/en-us/library/JJ204911(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsClsSecurityGroup](https://technet.microsoft.com/en-us/library/JJ205285(v=OCS.15))
+
+  - [새-CsClsSecurityGroup](https://technet.microsoft.com/en-us/library/JJ205359(v=OCS.15))
+
+  - [-CsClsSecurityGroup 제거](https://technet.microsoft.com/en-us/library/JJ204958(v=OCS.15))
+
+  - [Set-CsClsSecurityGroup](https://technet.microsoft.com/en-us/library/JJ204700(v=OCS.15))
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

@@ -1,0 +1,51 @@
+---
+title: Lync Server 2010 대도시 사이트 복구와 Lync Server 2013의 호환성
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Server 2010 metropolitan site resiliency
+ms:assetid: 18673ff6-b664-4a57-a89b-cbda8b129e6a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204715(v=OCS.15)
+ms:contentKeyID: 48183526
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3079f05d9860fd659d19df7b71ee633c0cea3fe2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40984401"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="lync-server-2010-metropolitan-site-resiliency"></a>Lync Server 2010 대도시 사이트 복구
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2014-03-19_
+
+Lync server 2010에 대해 지원 되는 수도권 사이트 복원 솔루션은 Lync Server 2013에서 지원 되지 않습니다. 이 솔루션은 동일한 수도권 영역의 두 데이터 센터에 걸쳐 단일 프런트 엔드 풀을 확장 하는 데 관여 했습니다.
+
+수도권 사이트 복원 솔루션은 전체 데이터 센터의 손실 으로부터 복구 하도록 설계 되었습니다. 두 데이터 센터를 통해 풀을 확장 하는 경우 일반적으로 프런트 엔드의 절반을 두 번째 데이터 센터에 배치 합니다. 전체 데이터 센터가 손실 되는 경우 프런트 엔드 서버의 절반을 손실 하 게 됩니다. 이로 인해 Lync Server 2013의 프런트 엔드 풀에 대 한 새 분산 시스템 모델 문제가 발생할 수 있습니다. 자세한 내용은 [Lync Server 2013의 프런트 엔드 서버, 인스턴트 메시징 및 현재 상태에 대 한 토폴로지 및 구성 요소](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)를 참조 하세요.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

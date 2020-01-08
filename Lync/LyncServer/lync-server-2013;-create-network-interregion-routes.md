@@ -1,0 +1,130 @@
+---
+title: Lync 서버 2013; 네트워크 간 영역 경로 만들기
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+audience: admin
+manager: serdars
+TOCTitle: Create network interregion routes
+ms:assetid: 5555262a-a502-4b01-9593-836dd30064f5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
+ms:contentKeyID: 48184159
+ms.date: 07/23/2014
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0eff2c1dd75258451002a41e0f284c4ad05c9728
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "40979296"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="create-network-interregion-routes-in-lync-server-2013"></a>Lync Server 2013에서 네트워크 간 지역 경로 만들기
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2012-10-20_
+
+*네트워크 연동 지역 경로* 는 네트워크 지역 쌍 간의 경로를 정의 합니다. 통화 허용 제어 배포의 각 네트워크 지역 쌍에는 네트워크 간 지역 경로가 필요 합니다. 이렇게 하면 배포 내의 모든 네트워크 영역이 다른 모든 지역에 액세스할 수 있습니다.
+
+지역 링크는 지역 간 연결에 대 한 대역폭 제한을 설정 하는 반면, 영역 경로에 따라 연결 된 영역이 한 영역에서 다른 지역으로 이동 하는 연결 경로가 결정 됩니다.
+
+네트워크 간 영역 경로 사용에 대 한 자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하세요.
+
+  - [새-Csnetworkinter국가 경로](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
+
+  - [Get-Csnetworkinter국가 경로](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)
+
+  - [Set-Csnetworkinter국가 경로](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
+
+  - [제거-Csnetworkinter국가 경로](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
+
+예제 토폴로지에서는 세 가지 지역 쌍 (북미/EMEA, EMEA/APAC, 북미/APAC) 각각에 대해 네트워크 간 지역 경로를 정의 해야 합니다.
+
+<div>
+
+## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a>Lync Server Management Shell을 사용 하 여 네트워크 간 지역 경로를 만들려면
+
+1.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+
+2.  **새-Csnetworkinter지역 경로** cmdlet을 실행 하 여 필요한 경로를 정의 합니다. 예를 들어 다음을 실행합니다.
+    
+       ```
+        New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
+       ```
+    
+       ```
+        New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
+       ```
+    
+       ```
+        New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
+       ```
+    
+    <div class=" ">
+    
+
+    > [!NOTE]  
+    > 북미/APAC 네트워크 interregion 경로에는 두 개의 네트워크 지역 연결이 없기 때문에 둘 중 연결을 사용 해야 합니다.
+
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a>Lync Server 제어판을 사용 하 여 네트워크 간 지역 경로를 만들려면
+
+1.  브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+
+2.  왼쪽 탐색 모음에서 **네트워크 구성을**클릭 합니다.
+
+3.  **지역 경로** 탐색 단추를 클릭 합니다.
+
+4.  **새로 만들기**를 클릭 합니다.
+
+5.  **새 영역 경로** 페이지에서 **이름을** 클릭 한 다음 네트워크 간 영역 경로의 이름을 입력 합니다.
+
+6.  **네트워크 지역 \#1**을 클릭 한 다음 목록에서 네트워크 지역 \#2로 경로 설정할 네트워크 지역을 클릭 합니다.
+
+7.  **네트워크 지역 \#2**를 클릭 한 다음 목록에서 네트워크 지역 \#1로 경로 설정할 네트워크 지역을 클릭 합니다.
+
+8.  **네트워크 지역 링크** 필드 옆에 있는 **추가** 를 클릭 한 다음 네트워크 간 영역 경로에 사용 될 네트워크 지역 링크를 추가 합니다.
+    
+    <div class=" ">
+    
+
+    > [!NOTE]  
+    > 두 개의 네트워크 지역에 대해 직접 네트워크 지역 링크가 없는 경우 경로를 만들려면 경로를 완료 하는 데 필요한 모든 링크를 추가 해야 합니다. 예를 들어 북미/APAC 네트워크 간 지역 경로 사이에는 직접 네트워크 지역 연결이 없기 때문에 두 개의 네트워크 영역 연결이 필요 합니다.
+
+    
+    </div>
+
+9.  **커밋**을 클릭합니다.
+
+10. 토폴로지에 대 한 네트워크 간 지역 경로 만들기를 완료 하려면 다른 네트워크 통과 지역 경로에 대 한 설정을 사용 하 여 4 ~ 9 단계를 반복 합니다.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
