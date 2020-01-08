@@ -1,0 +1,87 @@
+---
+title: 'Lync Server 2013: 관리 도구 인프라 요구 사항'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Administrative tools infrastructure requirements
+ms:assetid: aa039d01-e721-455f-94c4-076a3aac38bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195766(v=OCS.15)
+ms:contentKeyID: 48185102
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fe2c520bd8af46699f2499efcbcb5ef5a7142339
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40981595"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a>Lync Server 2013의 관리 도구 인프라 요구 사항
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2012-09-27_
+
+Microsoft Lync Server 2013 관리 도구를 설치 하거나 이러한 도구를 사용 하 여 대부분의 관리 작업을 수행 하는 데 필요한 추가 인프라 요구 사항은 없습니다. 특정 시나리오에 대 한 인프라 요구 사항은이 섹션의 항목을 참조 하세요.
+
+<div>
+
+## <a name="in-this-section"></a>이 섹션의 내용
+
+  - [Lync Server 2013의 토폴로지 게시 요구 사항](lync-server-2013-requirements-to-publish-a-topology.md)
+
+  - [Lync Server 2013의 단순 URL 계획](lync-server-2013-planning-for-simple-urls.md)
+
+  - [Lync Server 2013의 단순 URL에 대한 DNS 요구 사항](lync-server-2013-dns-requirements-for-simple-urls.md)
+
+  - [Lync Server 2013에서 단순 URL 편집 또는 구성](lync-server-2013-edit-or-configure-simple-urls.md)
+
+</div>
+
+<div>
+
+## <a name="related-sections"></a>관련 단원
+
+  - [Lync Server 2013 관리 셸](lync-server-2013-lync-server-management-shell.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>참고 항목
+
+
+[Lync Server 2013 관리 도구 설치](lync-server-2013-install-lync-server-administrative-tools.md)  
+
+
+[Lync Server 2013의 관리 도구 소프트웨어 요구 사항](lync-server-2013-administrative-tools-software-requirements.md)  
+
+
+[Lync Server 2013의 설정 및 관리에 필요한 관리자 권한](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

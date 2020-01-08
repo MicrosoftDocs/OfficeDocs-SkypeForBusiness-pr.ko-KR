@@ -1,0 +1,130 @@
+---
+title: 'Lync Server 2013: tblPrincipalMeta'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: tblPrincipalMeta
+ms:assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615009(v=OCS.15)
+ms:contentKeyID: 48184648
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3b9b067b9d04ecb32a3e43dbbd1f8435c00fa0c0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40985433"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="tblprincipalmeta-in-lync-server-2013"></a>Lync Server 2013의 tblPrincipalMeta
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2012-09-12_
+
+tblPrincipalMeta에는 Active Directory 도메인 서비스에서 새로 고쳐야 하는 사용자가 포함 되어 있습니다.
+
+### <a name="columns"></a>열
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>열</th>
+<th>유형</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>prinID</p></td>
+<td><p>int, null 아님</p></td>
+<td><p>Principal ID.</p></td>
+</tr>
+<tr class="even">
+<td><p>prinAffiliationsDirty</p></td>
+<td><p>bit, null이 아님</p></td>
+<td><p>Principal 소속을 새로 고쳐야 하는 경우 True입니다.</p></td>
+</tr>
+<tr class="odd">
+<td><p>prinAttributesDirty</p></td>
+<td><p>bit, null이 아님</p></td>
+<td><p>Principal 특성을 새로 고쳐야 하는 경우 True입니다.</p></td>
+</tr>
+<tr class="even">
+<td><p>prinDeleted</p></td>
+<td><p>bit, null이 아님</p></td>
+<td><p>보안 주체가 삭제 된 경우 True입니다.</p></td>
+</tr>
+<tr class="odd">
+<td><p>tryCount</p></td>
+<td><p>int</p></td>
+<td><p>지금까지 발생 한 AD DS에서 보안 주체의 새로 고침 시도 횟수입니다.</p></td>
+</tr>
+<tr class="even">
+<td><p>lastTry</p></td>
+<td><p>dmtf</p></td>
+<td><p>주 사용자를 새로 고치기 위한 최신 시도의 타임 스탬프입니다. 아직 새로 고침이 시도 되지 않은 경우 null이 될 수 있습니다.</p></td>
+</tr>
+<tr class="odd">
+<td><p>nextTry</p></td>
+<td><p>dmtf</p></td>
+<td><p>예정 된 다음 새로 고침에 대 한 타임 스탬프입니다. 추가 새로 고침이 예약 되지 않은 경우 null이 될 수 있습니다.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+### <a name="keys"></a>핵심
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>열</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>prinID</p></td>
+<td><p>기본 키입니다.</p></td>
+</tr>
+<tr class="even">
+<td><p>prinID</p></td>
+<td><p>TblPrincipal 테이블에 조회를 포함 하는 외래 키입니다.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

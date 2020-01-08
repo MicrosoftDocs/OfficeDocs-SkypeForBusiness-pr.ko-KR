@@ -1,0 +1,186 @@
+---
+title: 'Lync Server 2013: 영구 채팅 서버 풀에 대해 또는 전역적으로 영구 채팅 서버 옵션 구성'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure Persistent Chat Server options globally or for Persistent Chat Server pool
+ms:assetid: 1e8d5245-cd58-4aad-9a1c-35b24189bc40
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204731(v=OCS.15)
+ms:contentKeyID: 48183581
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ed79d1144c1ccb7abeac8dcf7d1f4d44c63e93e5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40983897"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool-in-lync-server-2013"></a>Lync Server 2013에서 영구 채팅 서버 풀에 대해 또는 전역적으로 영구 채팅 서버 옵션 구성
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2012-10-06_
+
+Lync Server 2013 제어판에서 **영구** 채팅 페이지의 영구 채팅 **구성** 섹션을 사용 하 여 모든 영구 채팅 서버 풀 또는 특정 영구 채팅 서버 풀에 적용 되는 영구 채팅 설정을 전역적으로 구성할 수 있습니다.
+
+<div>
+
+
+> [!NOTE]  
+> 영구 채팅 서버를 구성 하 고 사용 하려면 먼저 토폴로지 작성기를 사용 하 여 토폴로지에 영구 채팅 서버 지원을 추가한 다음 토폴로지를 게시 해야 합니다. 자세한 내용은 배포 설명서의 <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync server 2013에서 배포에 영구 채팅 서버 추가</A> 를 참조 하세요.
+
+
+
+</div>
+
+<div>
+
+## <a name="to-configure-persistent-chat-options-globally"></a>영구 채팅 옵션을 전역적으로 구성
+
+1.  CsPersistentChatAdministrator 또는 CsAdministrator 역할에 지정된 사용자 계정에서 내부 배포의 임의 컴퓨터에 로그온합니다.
+
+2.  **시작** 메뉴에서 Lync Server 제어판을 선택 하거나 브라우저 창을 연 다음 관리 URL을 입력 합니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+    
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > Windows PowerShell cmdlet을 사용할 수도 있습니다. 자세한 내용은 배포 설명서의 <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Windows PowerShell cmdlet을 사용 하 여 영구 채팅 서버 구성을</A> 참조 하세요.
+
+    
+    </div>
+
+3.  왼쪽 탐색 메뉴에서 **영구 채팅**을 클릭하고 **영구 채팅 구성**을 클릭합니다.
+
+4.  **영구 채팅 구성** 페이지에서 **새로 만들기를** 클릭 한 다음 **사이트 구성을**클릭 합니다.
+    
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > 사이트에 배포 된 모든 영구 채팅 서버 풀에 구성을 적용 하려면이 옵션을 선택 합니다. 구성을 특정 영구 채팅 서버 풀에 적용 하려면 <STRONG>풀 구성을</STRONG> 클릭 합니다.
+
+    
+    </div>
+
+5.  **사이트 선택**에서 영구 채팅 서버 사이트 구성에 대해 구성할 사이트를 선택 합니다.
+
+6.  **새 영구 채팅 구성**에서 다음을 수행합니다.
+    
+      - **이름**에서 새 구성 설정의 이름을 지정합니다. 기본적으로 사이트 이름은 이미 지정되어 있습니다.
+    
+      - **기본 채팅 기록**에서 첫 번째 요청 시 각 채팅방에 대해 처리할 채팅 메시지 수를 정의합니다. 기본값은 30입니다. 이 설정은 전역 기본값이며, 관리자는 범주별로 채팅 기록을 사용하지 않도록 설정할 수 있습니다.
+        
+        <div>
+        
+
+        > [!IMPORTANT]  
+        > 영구 채팅 서버는 이러한 메시지를 메모리에 캐시 하므로이 번호를 늘리면 더 많은 메시지가 캐시 됩니다. 항상 검색을 통해 기록 콘텐츠에 액세스할 수 있습니다. 기본값은 단순히 채팅방 연결 시 처음 표시되는 최대 메시지 수를 결정합니다.
+
+        
+        </div>
+    
+      - **최대 파일 크기(KB)** 에서 각 채팅 기록의 최대 파일 크기를 선택합니다. 기본값은 20MB(20,000KB)입니다. 이 값은 해당하는 **범주** 설정에 의해 파일 업로드가 사용하도록 설정된 시스템의 각 채팅방에 업로드할 수 있는 파일의 최대 크기입니다.
+        
+        <div>
+        
+
+        > [!IMPORTANT]  
+        > 이 설정은 사용자 지정 응용 프로그램 또는 이전 그룹에서 Office Communications Server 2007 R2&nbsp;그룹 채팅 서버 또는 Lync server 2010를 사용 하 여 클라이언트를 채팅 하기 때문에 서버에서 적용 됩니다. 그룹 채팅을 통해 룸에 파일을 게시할 수 있습니다. Lync 2013 클라이언트에는 파일 업로드/다운로드 기능이 없기 때문에 순수한 Lync 2013 배포 또는 Lync 2013 클라이언트를 사용 하는 경우 영구 채팅 서버 채팅방에 파일을 게시할 수 없습니다.
+
+        
+        </div>
+    
+      - **참가자 업데이트 제한**에서 참가자 업데이트에 대한 제한을 선택합니다. 영구 채팅 서버는 연결 된 사용자 수가이 번호에 도달할 때까지 모든 참가자에 게 대화방에 연결 된 명단 정보를 보냅니다. 기본값은 75입니다. 이 제한은 영구 채팅 서버에서 대화방에 있는 사용자에 대 한 연결 된 클라이언트에 게 명단 업데이트 보내기를 중지 하는 특정 방에 대 한 최대 참가자 수를 나타냅니다.
+    
+      - 원하는 경우 **채팅방 관리 URL**에서 채팅방 관리 URL을 선택합니다. 이 URL은 웹 기반 사용자 지정 채팅방 관리를 위한 URL입니다. 채팅방 관리를 사용자 지정할 필요가 없으며 기본 설정만 사용하는 경우에는 이 옵션을 비워 둡니다. 설정된 URL은 내부 및 외부 채팅방 관리 URL로 표시됩니다.
+        
+        회의실 만들기 환경을 사용자 지정 하 고 특정 비즈니스 워크플로를 포함 하려는 경우 영구 채팅 서버 SDK (소프트웨어 개발 키트)를 사용 하 여 사용자 지정 회의실 관리 솔루션을 빌드하고 여기에 URL을 넣을 수 있습니다. 이 URL은 클라이언트로 전송되므로 사용자가 채팅방을 보거나 만들려고 할 때 사용자 지정 채팅방 관리 솔루션으로 이동하게 됩니다.
+
+7.  **커밋**을 클릭합니다.
+
+</div>
+
+<div>
+
+## <a name="to-configure-persistent-chat-options-for-a-specific-persistent-chat-server-pool"></a>특정 영구 채팅 서버 풀에 대해 영구 채팅 옵션을 구성 하려면
+
+1.  CsPersistentChatAdministrator 또는 CsAdministrator 역할에 지정된 사용자 계정에서 내부 배포의 임의 컴퓨터에 로그온합니다.
+
+2.  **시작** 메뉴에서 Lync Server 제어판을 선택 하거나 브라우저 창을 연 다음 관리 URL을 입력 합니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+    
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > Windows PowerShell cmdlet을 사용할 수도 있습니다. 자세한 내용은 배포 설명서의 <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Windows PowerShell cmdlet을 사용 하 여 영구 채팅 서버 구성을</A> 참조 하세요.
+
+    
+    </div>
+
+3.  왼쪽 탐색 메뉴에서 **영구 채팅**을 클릭하고 **영구 채팅 구성**을 클릭합니다.
+
+4.  **영구 채팅 구성** 페이지에서 **새로 만들기**를 클릭하고 **풀 구성**을 클릭합니다.
+
+5.  **서비스 선택**에서 구성할 영구 채팅 서버 풀과 연결 된 서비스를 선택 합니다.
+
+6.  **새 영구 채팅 구성**에서 다음을 수행합니다.
+    
+      - **이름**에서 새 구성 설정의 이름을 지정합니다. 기본적으로 사이트 풀 이름은 이미 지정되어 있습니다.
+    
+      - **기본 채팅 기록**에서 첫 번째 요청 시 각 채팅방에 대해 처리할 채팅 메시지 수를 정의합니다. 기본값은 30입니다. 이 설정은 전역 기본값이며, 관리자는 범주별로 채팅 기록을 사용하지 않도록 설정할 수 있습니다.
+        
+        <div>
+        
+
+        > [!IMPORTANT]  
+        > 영구 채팅 서버는 이러한 메시지를 메모리에 캐시 하므로이 번호를 늘리면 더 많은 메시지가 캐시 됩니다. 항상 검색을 통해 기록 콘텐츠에 액세스할 수 있습니다. 기본값은 단순히 채팅방 연결 시 처음 표시되는 최대 메시지 수를 결정합니다.
+
+        
+        </div>
+    
+      - **최대 파일 크기(KB)** 에서 각 채팅 기록의 최대 파일 크기를 선택합니다. 기본값은 20MB(20,000KB)입니다. 이 값은 해당하는 **범주** 설정에 의해 파일 업로드가 사용하도록 설정된 시스템의 각 채팅방에 업로드할 수 있는 파일의 최대 크기입니다.
+        
+        <div>
+        
+
+        > [!IMPORTANT]  
+        > 이 설정은 사용자 지정 응용 프로그램 또는 이전 그룹 채팅 클라이언트 (Office Communications Server 2007 R2&nbsp;그룹 채팅 서버 또는 Lync server 2010, 그룹 채팅)가 채팅방에 파일을 게시할 수 있기 때문에 서버에서 적용 됩니다. Lync 2013 클라이언트에는 파일 업로드/다운로드 기능이 없기 때문에 순수한 Lync 2013 배포 또는 Lync 2013 클라이언트를 사용 하는 경우 영구 채팅 서버 채팅방에 파일을 게시할 수 없습니다.
+
+        
+        </div>
+    
+      - **참가자 업데이트 제한**에서 참가자 업데이트에 대한 제한을 선택합니다. 영구 채팅 서버는 연결 된 사용자 수가이 번호에 도달할 때까지 모든 참가자에 게 대화방에 연결 된 명단 정보를 보냅니다. 기본값은 75입니다. 이 제한은 영구 채팅 서버에서 대화방에 있는 사용자에 대 한 연결 된 클라이언트에 게 명단 업데이트 보내기를 중지 하는 특정 방에 대 한 최대 참가자 수를 나타냅니다.
+    
+      - **채팅방 관리 URL**에서 채팅방 관리 URL을 선택합니다. 이 URL은 웹 기반 채팅방 관리 배포를 위한 URL입니다. 채팅방 관리를 사용자 지정할 필요가 없으며 기본 설정만 사용하는 경우에는 이 옵션을 비워 둡니다.
+        
+        회의실 만들기 환경을 사용자 지정 하 고 특정 비즈니스 워크플로를 포함 하려는 경우 영구 채팅 서버 SDK (소프트웨어 개발 키트)를 사용 하 여 사용자 지정 회의실 관리 솔루션을 빌드하고 여기에 URL을 넣을 수 있습니다. 이 URL은 클라이언트로 전송되므로 사용자가 채팅방을 보거나 만들려고 할 때 사용자 지정 채팅방 관리 솔루션으로 이동하게 됩니다.
+
+7.  **커밋**을 클릭합니다.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

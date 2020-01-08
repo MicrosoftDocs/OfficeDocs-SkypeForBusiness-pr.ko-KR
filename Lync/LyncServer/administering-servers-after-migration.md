@@ -1,0 +1,60 @@
+---
+title: 마이그레이션 후 서버 관리
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+audience: Admin
+TOCTitle: Administering servers after migration
+ms:assetid: 7b08f048-c951-4050-b77c-0fff351620e7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205023(v=OCS.15)
+ms:contentKeyID: 48184582
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cc74d02f0d99319d2014262ff9a607d723aaa274
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "40983202"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="administering-servers-after-migration"></a>마이그레이션 후 서버 관리
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2012-09-29_
+
+일반적으로 관리 하려는 서버 버전에 해당 하는 관리 도구를 사용 해야 합니다. Lync Server 2010 및 Lync Server 2013 관리 도구는 같은 컴퓨터에 설치할 수 없습니다. 또한 Lync Server 2013 제어판은 각 서버에 자동으로 설치 되지 않습니다. Lync Server 2013 제어판을 설치 하려면 배포 설명서의 [Lync server 2013 관리 도구 설치](lync-server-2013-install-lync-server-administrative-tools.md) 항목에 있는 절차를 따릅니다.
+
+<div>
+
+
+> [!IMPORTANT]  
+> Lync Server 2013 시험 풀이 배포 된 후에는 lync server 2010 토폴로지 작성기 또는 Lync Server 2010 제어판을 사용 하 여 Lync Server 2013 리소스를 관리할 수 없습니다. Lync server 2013 도구를 사용 하 여 Lync Server 2013 및 Lync Server 2010 리소스를 관리 해야 합니다.
+
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

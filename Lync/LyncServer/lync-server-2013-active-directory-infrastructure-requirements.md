@@ -1,0 +1,82 @@
+---
+title: 'Lync Server 2013: Active Directory 인프라 요구 사항'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Active Directory infrastructure requirements
+ms:assetid: c2086f7b-662f-4179-ab99-2c0311ebd903
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412955(v=OCS.15)
+ms:contentKeyID: 48185318
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2c583fd751bf70814f9aa2fae5f6cfe08bec0202
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40985734"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="active-directory-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013에 대한 Active Directory 인프라 요구 사항
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2013-11-07_
+
+Lync Server 2013에 대 한 Active Directory 도메인 서비스 준비 프로세스를 시작 하기 전에 Active Directory 인프라가 다음 필수 조건을 충족 하는지 확인 합니다.
+
+  - Lync Server를 배포 하는 포리스트에서 모든 글로벌 카탈로그 서버를 포함 하는 모든 도메인 컨트롤러는 다음 운영 체제 중 하나를 실행 합니다.
+    
+      - Windows Server 2012 R2 운영 체제
+    
+      - Windows Server 2012 운영 체제
+    
+      - Windows Server 2008 R2 운영 체제
+    
+      - Windows Server 2008 운영 체제
+    
+      - Windows Server 2008 엔터프라이즈 32 비트
+    
+      - Windows Server 2003 R2 운영 체제의 32 비트 또는 64 비트 버전
+    
+      - 32 비트 또는 64 비트 버전의 Windows Server 2003 운영 체제
+
+  - Lync Server를 배포 하는 모든 도메인은 Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 또는 최소 Windows Server 2003의 도메인 기능 수준으로 발생 합니다.
+
+  - Lync Server를 배포 하는 포리스트는 Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 또는 windows server 2003의 포리스트 기능 수준으로 발생 합니다.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > 도메인 또는 포리스트 기능 수준을 변경 하려면 TechNet 라이브러리에서 "도메인 및 포리스트 기능 수준 올리기"를 참조 하세요 <A href="http://go.microsoft.com/fwlink/p/?linkid=263775">http://go.microsoft.com/fwlink/p/?LinkId=263775</A>.
+
+    
+    </div>
+
+  - 글로벌 카탈로그는 Lync Server 컴퓨터 또는 사용자를 배포 하는 모든 도메인에 배포 됩니다.
+
+Lync Server 2013는 Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008, Windows server 2003 운영 체제의 유니버설 그룹을 지원 합니다. 유니버설 그룹의 구성원은 도메인 트리나 포리스트에 있는 모든 도메인의 다른 그룹 및 계정을 포함할 수 있으며, 도메인 트리나 포리스트의 모든 도메인에서 사용 권한을 할당할 수 있습니다. 관리자 위임과 통합 된 유니버설 그룹 지원으로 Lync 서버 배포의 관리를 단순화할 수 있습니다. 예를 들어 관리자가 둘 다 관리할 수 있도록 한 도메인을 다른 도메인에 추가할 필요는 없습니다.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

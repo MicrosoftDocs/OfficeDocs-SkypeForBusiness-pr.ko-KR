@@ -1,0 +1,81 @@
+---
+title: '7단계: 마이그레이션 후 작업 완료'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 7: Complete post-migration tasks'
+ms:assetid: 709ef27e-78eb-4b63-a62d-348711687b1c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204998(v=OCS.15)
+ms:contentKeyID: 48184485
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8208f2e42fb05532820d72bb89eb69d0ee2f8c9b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40983415"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="phase-7-complete-post-migration-tasks"></a>7단계: 마이그레이션 후 작업 완료
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2012-10-19_
+
+이 섹션의 항목에서는 Lync Server 2013으로 마이그레이션을 완료 한 후 수행 해야 하는 작업에 대해 설명 합니다.
+
+<div>
+
+## <a name="in-this-section"></a>이 섹션의 내용
+
+  - [기존 모임 및 모임 콘텐츠 마이그레이션](migrate-existing-meetings-and-meeting-content.md)
+
+  - [전화 접속 액세스 번호 마이그레이션](migrate-dial-in-access-numbers.md)
+
+  - [통화 대기 응용 프로그램 설정 마이그레이션](migrate-call-park-application-settings.md)
+
+  - [응답 그룹 마이그레이션](migrate-response-groups.md)
+
+  - [주소록 마이그레이션](migrate-address-book.md)
+
+  - [모임 참가 페이지 구성](configure-the-meeting-join-page.md)
+
+  - [레거시 보관 및 모니터링 서버 제거](remove-legacy-archiving-and-monitoring-servers.md)
+
+  - [신뢰할 수 있는 응용 프로그램 서버 구성](configure-trusted-application-servers.md)
+
+  - [Lync Server 2013 클라이언트 배포](deploy-lync-server-2013-clients.md)
+
+  - [SBA(Survivable Branch Appliance) 연결](connect-a-survivable-branch-appliance.md)
+
+  - [SCOM 모니터링 구성](configure-scom-monitoring.md)
+
+  - [공통 지역 전화 마이그레이션](migrate-common-area-phones.md)
+
+  - [아날로그 장치 마이그레이션](migrate-analog-devices.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
