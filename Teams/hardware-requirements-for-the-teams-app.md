@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c33a0ed8bf88469e6e9ab41a049a1d566cc686b
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: fd53a3bb39ba48046ce7670c567f630659daee62
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40019962"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970966"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 팀 앱의 하드웨어 요구 사항
 
@@ -78,11 +78,11 @@ ms.locfileid: "40019962"
 
 다음 모바일 플랫폼에서 팀을 사용할 수 있습니다.
 
-- Android-Android 5.0 이상이 필요 합니다. Android 휴대폰 및 태블릿과 호환 가능 합니다.
+- Android: Android 휴대폰 및 태블릿과 호환 가능 합니다.
 
   지원은 Android의 마지막 네 가지 주요 버전으로 제한 됩니다. Android의 새 주 버전이 릴리스되면 새 버전과 이전 세 가지 버전이 공식적으로 지원 됩니다.
 
-- iOS-iOS 10.0 이상이 필요 합니다. IPhone, iPad, iPod touch와 호환 가능 합니다. 
+- iOS: iPhone, iPad, iPod touch와 호환 가능 합니다. 
 
   IOS의 최신 주 버전 두 개에 대 한 지원이 제한 됩니다. 새 주 버전의 iOS가 릴리스되면 새 버전의 iOS 및 이전 버전이 공식적으로 지원 됩니다.
 

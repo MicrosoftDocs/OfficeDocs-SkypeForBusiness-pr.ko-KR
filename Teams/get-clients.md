@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3332f25366ea79d69bb95727f01651cb158de53
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: 70a0c87060bf4d2a560a997e287b1507e2281ee4
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002242"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970976"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft 팀 용 클라이언트 가져오기 
 
@@ -144,9 +144,9 @@ Microsoft 팀 모바일 앱은 Android 및 iOS에서 사용할 수 있으며 채
 
 Microsoft 팀을 위한 지원 되는 모바일 플랫폼 모바일 앱은 다음과 같습니다.
 
--   **Android**: 5.0 이상
+-   **Android**: 지원은 네 가지 주요 Android 버전으로 제한 됩니다. Android의 새 주 버전이 릴리스되면 새 버전과 이전 세 가지 버전이 공식적으로 지원 됩니다.
 
--   **iOS**: 10.0 이상
+-   **ios**: 지원은 가장 최근의 iOS 주 버전 두 개로 제한 됩니다. 새 주 버전의 iOS가 릴리스되면 새 버전의 iOS 및 이전 버전이 공식적으로 지원 됩니다.
 
 > [!NOTE]
 > 팀이 예상 대로 작동 하도록 하려면 모바일 버전을 공용에서 사용할 수 있어야 합니다.

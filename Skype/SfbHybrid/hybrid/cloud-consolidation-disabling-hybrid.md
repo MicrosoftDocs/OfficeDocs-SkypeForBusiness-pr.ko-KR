@@ -1,5 +1,5 @@
 ---
-title: 클라우드로의 마이그레이션을 완료 하기 위해 하이브리드를 사용 하지 않도록 설정
+title: 클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -19,20 +19,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 부록에는 팀 및 비즈니스용 Skype에 대 한 클라우드 통합의 일부로 서 하이브리드를 사용 하지 않도록 설정 하는 자세한 단계가 포함 되어 있습니다.
-ms.openlocfilehash: 7bd0b4c606a84dea08fb568d42fe403f624c522d
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: d3420c1bd40bbdeeff25747153210c2600d929f6
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010581"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963076"
 ---
-# <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>클라우드로의 마이그레이션을 완료 하기 위해 하이브리드를 사용 하지 않도록 설정
+# <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
 
-모든 사용자를 온-프레미스에서 클라우드로 이동한 후 온-프레미스 비즈니스용 Skype 배포를 해제할 수 있습니다. 하드웨어를 제거 하는 것 외에도 하이브리드를 사용 하지 않도록 설정 하 여 온-프레미스 배포를 Office 365에서 논리적으로 구분 하는 것이 중요 합니다. 하이브리드를 사용 하지 않도록 설정 하는 단계는 3 단계로 구성 됩니다.
+모든 사용자를 온-프레미스에서 클라우드로 이동한 후에는 온-프레미스 비즈니스용 Skype 배포를 해제할 수 있습니다. 하드웨어를 제거하는 것 외에 중요한 단계는 하이브리드를 비활성화하여 Office 365에서 온-프레미스 배포를 논리적으로 분리하는 것입니다. 하이브리드를 사용 하지 않도록 설정 하는 단계는 3 단계로 구성 됩니다.
 
-1. Office 365를 가리키도록 DNS 레코드를 업데이트 합니다.
+1. Office 365를 가리키도록 DNS 레코드를 업데이트합니다.
 
-2. Office 365 테 넌 트에서 split 도메인을 사용 하지 않도록 설정 합니다.
+2. Office 365 테넌트에서 분할 도메인을 사용하지 않도록 설정합니다.
 
 3. 온-프레미스에서 Office 365와 통신 하는 기능을 사용 하지 않도록 설정 합니다.
 
@@ -45,7 +45,7 @@ ms.locfileid: "38010581"
 1.  *Office 365를 가리키도록 DNS를 업데이트 합니다.*
 비즈니스용 Skype 레코드가 온-프레미스 배포 대신 Office 365를 가리키도록 온-프레미스 조직에 대 한 조직의 외부 DNS를 업데이트 해야 합니다. 특히 다음 사항에 유의합니다.
 
-    |레코드 유형|Name|TTL|값|
+    |레코드 유형|이름|TTL|값|
     |---|---|---|---|
     |SRV|_sipfederationtls _tcp|3600|100 1 5061 sipfed.online.lync.com>. <span>com|
     |SRV|_sip _tls|3600|100 1 443 sipdir.online.lync.com>. <span>com|
@@ -57,13 +57,13 @@ ms.locfileid: "38010581"
 2.  *Office 365 테 넌 트에서 공유 SIP 주소 공간을 사용 하지 않도록 설정 합니다.*
 아래 명령은 비즈니스용 Skype Online PowerShell 창에서 수행 해야 합니다.
 
-    ```
+    ```PowerShell
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
     ```
  
 3.  *온-프레미스에서 Office 365와 통신 하는 기능을 사용 하지 않도록 설정 합니다.*  
 아래 명령은 온-프레미스 PowerShell 창에서 수행 해야 합니다.
-```
+```PowerShell
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
 
