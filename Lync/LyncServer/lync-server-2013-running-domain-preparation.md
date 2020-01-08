@@ -1,0 +1,137 @@
+---
+title: 'Lync Server 2013: 도메인 준비 실행'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Running domain preparation
+ms:assetid: 95dab800-1f2c-4506-b36c-99986643b149
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398761(v=OCS.15)
+ms:contentKeyID: 48184847
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 16fdd01b15fe5858129300c3a9f2f26c3d3de672
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40982967"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="running-domain-preparation-for-lync-server-2013"></a><span data-ttu-id="df514-102">Lync Server 2013에 대한 도메인 준비 실행</span><span class="sxs-lookup"><span data-stu-id="df514-102">Running domain preparation for Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="df514-103">_**마지막으로 수정한 주제:** 2013-04-16_</span><span class="sxs-lookup"><span data-stu-id="df514-103">_**Topic Last Modified:** 2013-04-16_</span></span>
+
+<span data-ttu-id="df514-104">설치 또는 Lync Server Management Shell cmdlet을 사용 하 여 도메인을 준비할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="df514-104">You can use Setup or Lync Server Management Shell cmdlets to prepare domains.</span></span> <span data-ttu-id="df514-105">도메인을 준비 하는 cmdlet은 **CsAdDomain을 사용 하도록 설정**합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-105">The cmdlet that prepares a domain is **Enable-CsAdDomain**.</span></span>
+
+<span data-ttu-id="df514-106">도메인 준비는 Lync Server 2013의 Active Directory 도메인 서비스를 준비 하는 마지막 단계입니다.</span><span class="sxs-lookup"><span data-stu-id="df514-106">Domain preparation is the final step in preparing Active Directory Domain Services for Lync Server 2013.</span></span>
+
+<div>
+
+## <a name="to-use-setup-to-prepare-domains"></a><span data-ttu-id="df514-107">설치 프로그램을 사용 하 여 도메인 준비</span><span class="sxs-lookup"><span data-stu-id="df514-107">To use Setup to prepare domains</span></span>
+
+1.  <span data-ttu-id="df514-108">도메인 관리자 그룹의 구성원으로 서 도메인의 모든 서버에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-108">Log on to any server in the domain as a member of the Domain Admins group.</span></span>
+
+2.  <span data-ttu-id="df514-109">Lync Server 2013 설치 폴더 또는 미디어에서 Setup.exe를 실행 하 여 Lync Server 배포 마법사를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-109">From the Lync Server 2013 installation folder or media, run Setup.exe to start the Lync Server Deployment Wizard.</span></span>
+
+3.  <span data-ttu-id="df514-110">**Active Directory 준비**를 클릭한 다음 배포 상태가 확인될 때까지 기다립니다.</span><span class="sxs-lookup"><span data-stu-id="df514-110">Click **Prepare Active Directory**, and then wait for the deployment state to be determined.</span></span>
+
+4.  <span data-ttu-id="df514-111">**5단계: 현재 도메인 준비**에서 **실행**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-111">At **Step 5: Prepare Current Domain**, click **Run**.</span></span>
+
+5.  <span data-ttu-id="df514-112">**도메인 준비** 페이지에서 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-112">On the **Prepare Domain** page, click **Next**.</span></span>
+
+6.  <span data-ttu-id="df514-113">**명령 실행** 페이지에서 **작업 상태: 완료됨**을 찾은 다음 **로그 보기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-113">On the **Executing Commands** page, look for **Task status: Completed**, and then click **View Log**.</span></span>
+
+7.  <span data-ttu-id="df514-114">**작업** 열에서 **도메인 Prep**을 확장 하 고 각 작업의 끝에서 \*\* \<성공\> \*\* 실행 결과를 찾아 도메인 준비가 성공적으로 완료 되었는지 확인 하 고 로그를 닫은 다음 **마침을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-114">Under the **Action** column, expand **Domain Prep**, look for a **\<Success\>** Execution Result at the end of each task to verify that domain preparation completed successfully, close the log, and then click **Finish**.</span></span>
+
+8.  <span data-ttu-id="df514-115">Active directory 복제가 완료 되거나 포리스트 루트 도메인 컨트롤러에 대 한 Active Directory 사이트 및 서비스 스냅인에 나열 된 모든 도메인 컨트롤러로 강제로 복제 될 때까지 기다립니다.</span><span class="sxs-lookup"><span data-stu-id="df514-115">Wait for Active Directory replication to complete or force replication to all the domain controllers listed in the Active Directory Sites and Services snap-in for the forest root domain controller.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-use-cmdlets-to-prepare-the-domain"></a><span data-ttu-id="df514-116">Cmdlet을 사용 하 여 도메인을 준비 하려면</span><span class="sxs-lookup"><span data-stu-id="df514-116">To use cmdlets to prepare the domain</span></span>
+
+1.  <span data-ttu-id="df514-117">도메인 관리자 그룹의 구성원으로 서 도메인의 모든 서버에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-117">Log on to any server in the domain as a member of the Domain Admins group.</span></span>
+
+2.  <span data-ttu-id="df514-118">다음과 같이 Lync Server Core 구성 요소를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-118">Install Lync Server Core components as follows:</span></span>
+    
+    1.  <span data-ttu-id="df514-119">Lync Server 2013 설치 폴더 또는 미디어에서 Setup.exe를 실행 하 여 Lync Server 배포 마법사를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-119">From the Lync Server 2013 installation folder or media, run Setup.exe to start the Lync Server Deployment Wizard.</span></span>
+    
+    2.  <span data-ttu-id="df514-120">Microsoft Visual c + + 재배포 가능 패키지를 설치 하 라는 메시지가 표시 되 면 **예**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-120">If you are prompted to install the Microsoft Visual C++ Redistributable, click **Yes**.</span></span>
+    
+    3.  <span data-ttu-id="df514-121">Lync Server 2013 설정 대화 상자에서 Lync Server 파일을 설치할 위치를 묻는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="df514-121">The Lync Server 2013 Setup dialog box prompts you for a location to install the Lync Server files.</span></span> <span data-ttu-id="df514-122">기본 위치를 선택 하거나 선택한 위치를 **찾은** 다음 **설치**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-122">Choose the default location or **Browse** to a location of your choice, and then click **Install**.</span></span>
+    
+    4.  <span data-ttu-id="df514-123">사용권 계약 페이지에서 **사용권 계약에 동의**를 선택 하 고 **확인**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-123">On the License Agreement page, check **I accept the terms in the license agreement**, and then click **OK**.</span></span> <span data-ttu-id="df514-124">설치 관리자가 Lync Server 2013 핵심 구성 요소를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-124">The installer installs the Lync Server 2013 Core Components.</span></span>
+
+3.  <span data-ttu-id="df514-125">Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-125">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+4.  <span data-ttu-id="df514-126">런</span><span class="sxs-lookup"><span data-stu-id="df514-126">Run:</span></span>
+    
+        Enable-CsAdDomain [-Domain <DomainFQDN>] 
+    
+    <span data-ttu-id="df514-127">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="df514-127">For example:</span></span>
+    
+        Enable-CsAdDomain -Domain domain1.contoso.net 
+    
+    <span data-ttu-id="df514-128">Domain 매개 변수를 지정 하지 않으면 로컬 도메인이 기본값이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="df514-128">If you do not specify the Domain parameter, the default is the local domain.</span></span>
+
+5.  <span data-ttu-id="df514-129">도메인 준비가 완료 되었는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-129">Verify that domain preparation was successful.</span></span> <span data-ttu-id="df514-130">런</span><span class="sxs-lookup"><span data-stu-id="df514-130">Run:</span></span>
+    
+        Get-CsAdDomain [-Domain <Domain FQDN>] [-DomainController <Domain controller FQDN>] [-GlobalCatalog <Global catalog server FQDN>] [-GlobalSettingsDomainController <Domain controller FQDN where global settings are stored>] 
+    
+    <span data-ttu-id="df514-131">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="df514-131">For example:</span></span>
+    
+        Get-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.com
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="df514-132">GlobalSettingsDomainController 매개 변수를 사용 하면 전역 설정이 저장 되는 위치를 표시할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="df514-132">The parameter GlobalSettingsDomainController allows you to indicate where global settings are stored.</span></span> <span data-ttu-id="df514-133">설정이 시스템 컨테이너에 저장 된 경우 (구성 컨테이너로 마이그레이션된 전역 설정이 없는 업그레이드 배포의 경우), Active Directory 포리스트의 루트에 도메인 컨트롤러를 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-133">If your settings are stored in the System container (which is typical with upgrade deployments that have not had the global settings migrated to the Configuration container), you define a domain controller in the root of your Active Directory forest.</span></span> <span data-ttu-id="df514-134">전역 설정이 구성 컨테이너에 있는 경우(설정이 구성 컨테이너로 마이그레이션된 업그레이드 배포 또는 새 배포에서 일반적임) 포리스트에서 도메인 컨트롤러를 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-134">If the global settings are in the Configuration container (which is typical with new deployments or upgrade deployments where the settings have been migrated to the Configuration container), you define any domain controller in the forest.</span></span> <span data-ttu-id="df514-135">이 매개 변수를 지정 하지 않으면 cmdlet은 설정이 구성 컨테이너에 저장 되어 있고 AD&nbsp;DS의 모든 도메인 컨트롤러를 참조 한다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-135">If you do not specify this parameter, the cmdlet assumes that the settings are stored in the Configuration container and refers to any domain controller in AD&nbsp;DS.</span></span>
+
+    
+    </div>
+    
+    <span data-ttu-id="df514-136">**Domain** 매개 변수를 지정 하지 않으면 로컬 도메인이 기본값이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="df514-136">If you do not specify the **Domain** parameter, the default is the local domain.</span></span>
+    
+    <span data-ttu-id="df514-137">이 cmdlet은 도메인 준비에 성공한 경우 **\_LC\_domainsettings STATE\_의 준비** 된 값을 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="df514-137">This cmdlet returns a value of **LC\_DOMAINSETTINGS\_STATE\_READY** if domain preparation was successful.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="df514-138">참고 항목</span><span class="sxs-lookup"><span data-stu-id="df514-138">See Also</span></span>
+
+
+[<span data-ttu-id="df514-139">Lync Server 2013에 대해 cmdlet을 사용하여 도메인 준비 되돌리기</span><span class="sxs-lookup"><span data-stu-id="df514-139">Using cmdlets to reverse domain preparation for Lync Server 2013</span></span>](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)  
+
+
+[<span data-ttu-id="df514-140">Lync Server 2013에 대한 도메인 준비</span><span class="sxs-lookup"><span data-stu-id="df514-140">Preparing domains for Lync Server 2013</span></span>](lync-server-2013-preparing-domains.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

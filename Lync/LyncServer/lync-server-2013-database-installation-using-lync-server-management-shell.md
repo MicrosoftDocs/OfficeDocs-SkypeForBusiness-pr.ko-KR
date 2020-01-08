@@ -1,0 +1,252 @@
+---
+title: 'Lync Server 2013: Lync Server 관리 셸을 사용하여 데이터베이스 설치'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Database installation using Lync Server Management Shell
+ms:assetid: c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398832(v=OCS.15)
+ms:contentKeyID: 48185401
+ms.date: 06/16/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: deac68fb5f20066632bc48a9e9b6244a9bd34fe9
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40982801"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a><span data-ttu-id="6a0a9-102">Lync Server 2013에서 Lync Server 관리 셸을 사용하여 데이터베이스 설치</span><span class="sxs-lookup"><span data-stu-id="6a0a9-102">Database installation using Lync Server Management Shell in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="6a0a9-103">_**마지막으로 수정한 주제:** 2016-06-16_</span><span class="sxs-lookup"><span data-stu-id="6a0a9-103">_**Topic Last Modified:** 2016-06-16_</span></span>
+
+<span data-ttu-id="6a0a9-104">서버 관리자와 SQL Server 관리자 간에 역할과 책임을 분리 하면 구현 지연이 발생할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-104">Separation of roles and responsibilities between server administrators and SQL Server administrators can result in delays in implementation.</span></span> <span data-ttu-id="6a0a9-105">Lync Server 2013는 RBAC (역할 기반 액세스 제어)를 사용 하 여 이러한 문제를 완화 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-105">Lync Server 2013 uses role-based access control (RBAC) to mitigate these difficulties.</span></span> <span data-ttu-id="6a0a9-106">어떤 경우에는 SQL Server 관리자가 RBAC 외부의 SQL Server 기반 서버에서 데이터베이스의 설치를 관리 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-106">In some instances, the SQL Server administrator must manage the installation of databases on the SQL Server-based server outside RBAC.</span></span> <span data-ttu-id="6a0a9-107">Lync Server 2013 관리 셸은 SQL Server 관리자가 올바른 데이터 및 로그 파일을 사용 하 여 데이터베이스를 구성 하도록 디자인 된 Windows PowerShell cmdlet을 실행할 수 있는 방법을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-107">The Lync Server 2013 Management Shell provides a way for the SQL Server administrator to run Windows PowerShell cmdlets designed to configure the databases with the correct data and log files.</span></span> <span data-ttu-id="6a0a9-108">자세한 내용은 [Lync server 2013에서 SQL Server에 대 한 배포 권한을](lync-server-2013-deployment-permissions-for-sql-server.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-108">For details, see [Deployment permissions for SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).</span></span>
+
+<div class=" ">
+
+
+> [!IMPORTANT]  
+> <span data-ttu-id="6a0a9-109">다음 절차에서는 최소한 Lync Server 2013 OCSCore, SQL Server Native Client (sqlncli) Microsoft sql server 2012 관리 개체, microsoft sql Server 2012 및 Microsoft SQL Server 2012 ADOMD.NET에 대 한 CLR 유형이 설치 되어 있다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-109">The following procedure assumes that at a minimum the Lync Server 2013 OCSCore.msi, SQL Server Native Client (sqlncli.msi) Microsoft SQL Server 2012 Management Objects, CLR Types for Microsoft SQL Server 2012 and Microsoft SQL Server 2012 ADOMD.NET are installed.</span></span> <span data-ttu-id="6a0a9-110">OCSCore는 \Setup\AMD64\Setup 디렉터리의 설치 미디어에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-110">The OCSCore.msi is located on the installation media in the \Setup\AMD64\Setup directory.</span></span> <span data-ttu-id="6a0a9-111">나머지 구성 요소는 \Setup\amd64.에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-111">The remaining components are located in \Setup\amd64.</span></span> <span data-ttu-id="6a0a9-112">또한 Lync Server 2013에 대 한 Active Directory 준비가 성공적으로 완료 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-112">Additionally, Active Directory preparation for Lync Server 2013 has been successfully completed.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="6a0a9-113">**설치-CsDatabase** 는 데이터베이스를 설치 하는 데 사용 하는 Windows PowerShell cmdlet입니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-113">**Install-CsDatabase** is the Windows PowerShell cmdlet you use to install the databases.</span></span> <span data-ttu-id="6a0a9-114">**설치-CsDatabase** cmdlet에는 많은 매개 변수가 있지만 여기에서 설명 하는 값 중 몇 가지만 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-114">The **Install-CsDatabase** cmdlet has a large number of parameters, only a few of which are discussed here.</span></span> <span data-ttu-id="6a0a9-115">사용할 수 있는 매개 변수에 대 한 자세한 내용은 Lync Server 2013 관리 셸 설명서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-115">For details about the possible parameters, see the Lync Server 2013 Management Shell documentation.</span></span>
+
+<div class=" ">
+
+
+> [!WARNING]  
+> <span data-ttu-id="6a0a9-116">성능 및 가능성 있는 시간 문제를 방지 하려면 SQL Server 기반 서버를 언급할 때 항상 Fqdn (정규화 된 도메인 이름)을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-116">To avoid performance and possible time-out issues, always use fully qualified domain names (FQDNs) when referring to SQL Server-based servers.</span></span> <span data-ttu-id="6a0a9-117">호스트 이름 전용 참조는 사용 하지 마세요.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-117">Avoid using host name-only references.</span></span> <span data-ttu-id="6a0a9-118">예를 들어 sqlbe01.contoso.net를 사용 하 되 SQLBE01을 사용 하지 마세요.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-118">For example, use sqlbe01.contoso.net, but avoid using SQLBE01.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="6a0a9-119">데이터베이스를 설치 하는 경우 **설치-CsDatabase** 는 다음 세 가지 기본 메서드를 사용 하 여 데이터베이스를 준비 된 SQL server 기반 서버에 배치 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-119">For installing databases, **Install-CsDatabase** uses three primary methods for placing the databases onto the prepared SQL Server-based server:</span></span>
+
+  - <span data-ttu-id="6a0a9-120">DatabasePaths 또는 UseDefaultSqlPath 없이 **설치-CsDatabase** 를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-120">Run **Install-CsDatabase** without DatabasePaths or UseDefaultSqlPath.</span></span> <span data-ttu-id="6a0a9-121">Cmdlet은 기본 제공 알고리즘을 사용 하 여 로그 및 데이터 파일에 가장 적합 한 배치를 결정 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-121">The cmdlet uses a built in algorithm to determine the best placement for the log and data files.</span></span> <span data-ttu-id="6a0a9-122">이 알고리즘은 독립 실행형 SQL Server 구현에 대해서만 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-122">The algorithm only works for stand-alone SQL Server implementations.</span></span>
+
+  - <span data-ttu-id="6a0a9-123">DatabasePaths 매개 변수를 사용 하 여 **설치-CsDatabase** 를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-123">Run **Install-CsDatabase** with the DatabasePaths parameter.</span></span> <span data-ttu-id="6a0a9-124">DatabasePaths 매개 변수가 정의 되어 있는 경우 로그 및 데이터 파일 위치를 최적화 하는 기본 제공 알고리즘이 사용 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-124">The built-in algorithm to optimize log and data file locations is not used if the DatabasePaths parameter is defined.</span></span> <span data-ttu-id="6a0a9-125">이 매개 변수를 사용 하면 로그 및 데이터 파일을 배포할 위치를 정의할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-125">Using this parameter allows you to define the locations where log and data files will be deployed.</span></span>
+
+  - <span data-ttu-id="6a0a9-126">UseDefaultSqlPaths를 사용 하 여 **설치 CsDatabase** 를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-126">Run **Install-CsDatabase** with UseDefaultSqlPaths.</span></span> <span data-ttu-id="6a0a9-127">이 옵션은 기본 제공 알고리즘을 사용 하 여 로그 및 데이터 파일 위치를 최적화 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-127">This option does not use the built-in algorithm to optimize the log and data file locations.</span></span> <span data-ttu-id="6a0a9-128">로그 및 데이터 파일은 SQL Server 관리자가 설정한 기본값에 따라 배포 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-128">Log and data file are deployed according to the defaults set by the SQL Server administrator.</span></span> <span data-ttu-id="6a0a9-129">이러한 경로는 일반적으로 SQL Server에서 로그 및 데이터 파일의 자동 관리를 위해 설정 되며, Lync Server 2013의 설정에는 연결 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-129">These paths are typically set for the purpose of automatic administration of log and data files on the SQL Server in advance, and are not associated with the setup of Lync Server 2013.</span></span>
+
+  - <span data-ttu-id="6a0a9-130">DatabasePathMap 매개 변수를 사용 하 여 각 데이터베이스 및 해당 로그 파일의 위치를 명시적으로 지정할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-130">The DatabasePathMap parameter can also be used to explicitly specify a location for each database and its respective log file.</span></span>
+
+<div>
+
+## <a name="to-use-windows-powershell-cmdlets-to-configure-the-sql-server-central-management-store"></a><span data-ttu-id="6a0a9-131">Windows PowerShell cmdlet을 사용 하 여 SQL Server 중앙 관리 저장소를 구성 하려면</span><span class="sxs-lookup"><span data-stu-id="6a0a9-131">To use Windows PowerShell cmdlets to configure the SQL Server Central Management store</span></span>
+
+1.  <span data-ttu-id="6a0a9-132">모든 컴퓨터에서 SQL Server 기반 서버에 데이터베이스를 만들기 위해 관리 자격 증명을 사용 하 여 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-132">On any computer, log on with administrative credentials for creating the databases on the SQL Server-based server.</span></span> <span data-ttu-id="6a0a9-133">자세한 내용은 [Lync server 2013에서 SQL Server에 대 한 배포 권한을](lync-server-2013-deployment-permissions-for-sql-server.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-133">For details, see [Deployment permissions for SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).</span></span>
+
+2.  <span data-ttu-id="6a0a9-134">Lync Server 2013 관리 셸을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-134">Open the Lync Server 2013 Management Shell.</span></span> <span data-ttu-id="6a0a9-135">Windows PowerShell에 대 한 실행 정책을 조정 하지 않은 경우 Windows PowerShell 스크립트 실행을 허용 하도록 정책을 조정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-135">If you have not adjusted the execution policy for Windows PowerShell, you must adjust the policy to allow Windows PowerShell scripts to run.</span></span> <span data-ttu-id="6a0a9-136">자세한 내용은에서 [http://go.microsoft.com/fwlink/p/?linkId=203093](http://go.microsoft.com/fwlink/p/?linkid=203093)"실행 정책 살펴보기"를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-136">For details, see “Examining the Execution Policy” at [http://go.microsoft.com/fwlink/p/?linkId=203093](http://go.microsoft.com/fwlink/p/?linkid=203093).</span></span>
+
+3.  <span data-ttu-id="6a0a9-137">중앙 관리 저장소를 설치 하려면 **설치-CsDatabase** cmdlet을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-137">Use the **Install-CsDatabase** cmdlet to install the Central Management store.</span></span>
+    
+       ```powershell
+        Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
+        -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
+        -Report <path to report file>
+       ```
+    
+       ```powershell
+        Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
+       ```
+    
+    <div class=" ">
+    
+
+    > [!TIP]  
+    > <span data-ttu-id="6a0a9-138">Report 매개 변수는 선택 사항 이지만 설치 프로세스를 문서화 하는 경우에 유용 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-138">The Report parameter is optional but is useful if you are documenting the installation process.</span></span>
+
+    
+    </div>
+
+4.  <span data-ttu-id="6a0a9-139">**설치-CsDatabase – databasepaths** 는 SQL Server 데이터 및 로그 파일 배치에 정의 된 대로 드라이브의 경로를 정의 하는 최대 6 개의 경로 매개 변수를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-139">**Install-CsDatabase –DatabasePaths** can use up to six path parameters, each defining the paths for the drives as defined in SQL Server Data and Log File Placement.</span></span> <span data-ttu-id="6a0a9-140">Lync Server 2013의 데이터베이스 구성에 대 한 논리 규칙에 따라 드라이브가 2, 4 또는 6의 버킷으로 구문 분석 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-140">By the logical rules of the database configuration in Lync Server 2013, drives are parsed out into buckets of two, four, or six.</span></span> <span data-ttu-id="6a0a9-141">SQL Server 구성 및 버킷 수에 따라 두 개의 경로, 4 개 경로 또는 6 개의 경로를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-141">Depending on your SQL Server configuration and the number of buckets, you will supply two paths, four paths, or six paths.</span></span>
+    
+    <span data-ttu-id="6a0a9-142">드라이브가 세 개 있는 경우 로그는 우선 순위를 사용 하 고 데이터 파일은 다음에 배포 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-142">If you have three drives, the log gets priority and the data files are distributed after.</span></span> <span data-ttu-id="6a0a9-143">6 개의 드라이브로 구성 된 SQL Server 기반 서버의 예:</span><span class="sxs-lookup"><span data-stu-id="6a0a9-143">An example for a SQL Server-based server configured with six drives:</span></span>
+    ```powershell
+    Install-CsDatabase -ConfiguredDatases -SqlServerFqdn sqlbe.contoso.net -DatabasePaths "D:\CSDynLogs","E:\CSRtcLogs","F:\MonCdrArcLogs","G:\MonCdrArchData","H:\AbsAppLog","I:\DynRtcAbsAppData" -Report "C:\Logs\InstallDatabases.html"
+    ```
+5.  <span data-ttu-id="6a0a9-144">데이터베이스 설치가 완료 되 면 Lync Server 2013 관리 셸을 닫거나 토폴로지 작성기에 정의 된 Lync Server 2013에서 구성한 데이터베이스의 설치로 진행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-144">When the database installation completes, you can close Lync Server 2013 Management Shell or proceed to the installation of the Lync Server 2013 configured databases defined in Topology Builder.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-use-windows-powershell-cmdlets-to-configure-the-sql-server-topology-configured-databases"></a><span data-ttu-id="6a0a9-145">Windows PowerShell cmdlet을 사용 하 여 SQL Server 토폴로지 구성 된 데이터베이스를 구성 하려면</span><span class="sxs-lookup"><span data-stu-id="6a0a9-145">To use Windows PowerShell cmdlets to configure the SQL Server topology configured databases</span></span>
+
+1.  <span data-ttu-id="6a0a9-146">Lync Server 2013에 대 한 토폴로지 작성기 구성 데이터베이스를 설치 하려면 Lync Server 2013 관리자가 토폴로지를 게시 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-146">To install the Topology Builder configured databases for Lync Server 2013, the Lync Server 2013 administrator must publish the topology.</span></span> <span data-ttu-id="6a0a9-147">자세한 내용은 배포 설명서의 [Lync Server 2013에서 토폴로지 게시](lync-server-2013-publish-the-topology.md) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-147">For details, see [Publish the topology in Lync Server 2013](lync-server-2013-publish-the-topology.md) in the Deployment documentation.</span></span>
+
+2.  <span data-ttu-id="6a0a9-148">모든 컴퓨터에서 SQL Server 기반 서버에 데이터베이스를 만들기 위해 관리 자격 증명을 사용 하 여 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-148">On any computer, log on with administrative credentials for creating the databases on the SQL Server-based server.</span></span> <span data-ttu-id="6a0a9-149">[Lync server 2013에서 SQL Server에 대 한 배포 권한](lync-server-2013-deployment-permissions-for-sql-server.md)항목을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-149">See the topic, [Deployment permissions for SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).</span></span>
+    
+    <div class=" ">
+    
+
+    > [!IMPORTANT]  
+    > <span data-ttu-id="6a0a9-150">SQL Server 기반 데이터베이스를 구성 하려면 여기에 설명 된 단계를 실행 하는 데 사용 되는 SQL Server 관리자 계정이 SQL Server를 실행 하는 서버에 대 한 sysadmins 그룹 (또는 동등한)의 구성원 이기도 하 고 중앙 관리를 보유 하 고 있는지 확인 합니다. 서버 역할.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-150">To be able to configure the SQL Server-based databases, make sure the SQL Server administrator account used to run the steps described here is also a member of the sysadmins group (or equivalent) on the server running SQL Server and holding the Central Management Server role.</span></span> <span data-ttu-id="6a0a9-151">이는 SQL Server 데이터베이스를 설치 또는 구성 해야 하는 추가 Lync Server 2013 풀을 확인 하는 데 특히 중요 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-151">This is especially important to check for any additional Lync Server 2013 pools which require SQL Server database installation or configuration.</span></span> <span data-ttu-id="6a0a9-152">예를 들어 두 번째 풀 (pool02)을 배포 하는 경우 중앙 관리 서버 역할은 pool01에서 보유 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-152">For example, if you are deploying a second pool (pool02) but the Central Management Server role is held by pool01.</span></span> <span data-ttu-id="6a0a9-153">SQL Server sysadmin 그룹 (또는 동등한)은 SQL Server 기반 데이터베이스 모두에 대 한 사용 권한이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-153">The SQL Server sysadmin group (or equivalent) must have permissions on both SQL Server-based databases.</span></span>
+
+    
+    </div>
+
+3.  <span data-ttu-id="6a0a9-154">Lync Server 2013 관리 셸이 아직 열려 있지 않으면 엽니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-154">Open Lync Server 2013 Management Shell, if it’s not already open.</span></span>
+
+4.  <span data-ttu-id="6a0a9-155">**설치-CsDatabase** cmdlet을 사용 하 여 토폴로지 작성기가 구성 된 데이터베이스를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-155">Use the **Install-CsDatabase** cmdlet to install the Topology Builder configured databases.</span></span>
+    
+       ```powershell
+        Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
+         -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
+       ```
+    
+       ```powershell
+        Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
+        -Report "C:\Logs\InstallDatabases.html"
+       ```
+    
+    <div class=" ">
+    
+
+    > [!TIP]  
+    > <span data-ttu-id="6a0a9-156">Report 매개 변수는 선택 사항 이지만 설치 프로세스를 문서화 하는 경우에 유용 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-156">The Report parameter is optional but is useful if you are documenting the installation process.</span></span>
+
+    
+    </div>
+
+5.  <span data-ttu-id="6a0a9-157">데이터베이스 설치가 완료 되 면 Lync Server 2013 관리 셸을 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-157">When the database installation completes, close Lync Server 2013 Management Shell.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-use-windows-powershell-cmdlets-to-configure-the-sql-server-topology-using-the-databasepathmap-parameter"></a><span data-ttu-id="6a0a9-158">Windows PowerShell cmdlet을 사용 하 여 DatabasePathMap 매개 변수를 사용 하 여 SQL Server 토폴로지를 구성 하려면</span><span class="sxs-lookup"><span data-stu-id="6a0a9-158">To use Windows PowerShell cmdlets to configure the SQL Server topology using the DatabasePathMap parameter</span></span>
+
+1.  <span data-ttu-id="6a0a9-159">Lync server 2013의 데이터베이스를 설치 하려면 Lync Server 관리자가 경로를 만들고 미리 정의 된 규칙 집합에 따라 데이터베이스 파일 및 로그 파일을 배포 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-159">To install databases for Lync Server 2013, the Lync Server administrator must create the paths and deploy the databases files and log files according to a predefined set of rules.</span></span>
+
+2.  <span data-ttu-id="6a0a9-160">모든 컴퓨터에서 SQL Server 기반 서버에 데이터베이스를 만들기 위해 관리 자격 증명을 사용 하 여 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-160">On any computer, log on with administrative credentials for creating the databases on the SQL Server-based server.</span></span> <span data-ttu-id="6a0a9-161">[Lync server 2013에서 SQL Server에 대 한 배포 권한](lync-server-2013-deployment-permissions-for-sql-server.md)항목을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-161">See the topic, [Deployment permissions for SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).</span></span>
+    
+    <div class=" ">
+    
+
+    > [!IMPORTANT]  
+    > <span data-ttu-id="6a0a9-162">SQL Server 기반 데이터베이스를 구성 하려면 여기에 설명 된 단계를 실행 하는 데 사용 되는 SQL Server 관리자 계정이 SQL Server를 실행 하는 서버에 대 한 sysadmins 그룹 (또는 동등한)의 구성원 이기도 하 고 중앙 관리를 보유 하 고 있는지 확인 합니다. 서버 역할.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-162">To be able to configure the SQL Server-based databases, make sure the SQL Server administrator account used to run the steps described here is also a member of the sysadmins group (or equivalent) on the server running SQL Server and holding the Central Management Server role.</span></span> <span data-ttu-id="6a0a9-163">이는 SQL Server 데이터베이스를 설치 또는 구성 해야 하는 추가 Lync Server 풀을 확인 하는 데 특히 중요 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-163">This is especially important to check for any additional Lync Server pools which require SQL Server database installation or configuration.</span></span> <span data-ttu-id="6a0a9-164">예를 들어 두 번째 풀 (pool02)을 배포 하는 경우 중앙 관리 서버 역할은 pool01에서 보유 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-164">For example, if you are deploying a second pool (pool02) but the Central Management Server role is held by pool01.</span></span> <span data-ttu-id="6a0a9-165">SQL Server sysadmin 그룹 (또는 동등한)은 SQL Server 기반 데이터베이스 모두에 대 한 사용 권한이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-165">The SQL Server sysadmin group (or equivalent) must have permissions on both SQL Server-based databases.</span></span>
+
+    
+    </div>
+
+3.  <span data-ttu-id="6a0a9-166">Lync Server Management Shell (아직 열려 있지 않은 경우)을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-166">Open Lync Server Management Shell, if it’s not already open.</span></span>
+
+4.  <span data-ttu-id="6a0a9-167">DatabasePathMap 매개 변수와 PowerShell 해시 테이블과 함께 **설치-csdatabase** cmdlet을 사용 하 여 토폴로지 작성기가 구성 된 데이터베이스를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-167">Use the **Install-CsDatabase** cmdlet with the DatabasePathMap parameter and a PowerShell hash table to install the Topology Builder configured databases.</span></span>
+
+5.  <span data-ttu-id="6a0a9-168">예제 코드에서는 다음과 같이 – DatabasePathMap 매개 변수 및 정의 된 해시 테이블을 사용 하 여 세부적인 방식으로 데이터베이스에 정의 된 경로를 결정할 수 있습니다 (예제에서는 모든 데이터베이스 (.mdf)\\파일에 "c: csdata" 사용) 및 모든 로그 (.ldf)\\파일에 대 한 "c: csdata 로그"가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-168">In the example code, the paths defined for the databases can be determined in a granular manner by using the –DatabasePathMap parameter and a defined hash table as follows (the example uses “C:\\CSData” for all database (.mdf) files, and “C:\\CSLogFiles” for all log (.ldf) files.</span></span> <span data-ttu-id="6a0a9-169">설치-CsDatabase에 의해 필요에 따라 폴더가 생성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-169">Folder will be created as needed by Install-CsDatabase):</span></span>
+    ```powershell
+    $pathmap = @{
+    "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
+    "BackendStore:RtcSharedDatabase:DbPath"="C:\CsData";"BackendStore:RtcSharedDatabase:LogPath"="C:\CsLogFiles"
+    "ABSStore:AbsDatabase:DbPath"="C:\CsData";"ABSStore:AbsDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:RgsConfigDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsConfigDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:RgsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsDynDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:CpsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:CpsDynDatabase:LogPath"="C:\CsLogFiles"
+    "ArchivingStore:ArchivingDatabase:DbPath"="C:\CsData";"ArchivingStore:ArchivingDatabase:LogPath"="C:\CsLogFiles"
+    "MonitoringStore:MonitoringDatabase:DbPath"="C:\CsData";"MonitoringStore:MonitoringDatabase:LogPath"="C:\CsLogFiles"
+    "MonitoringStore:QoEMetricsDatabase:DbPath"="C:\CsData";"MonitoringStore:QoEMetricsDatabase:LogPath"="C:\CsLogFiles"
+    }
+    Install-CsDatabase -ConfigureDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathMap $pathmap
+    ```
+6.  <span data-ttu-id="6a0a9-170">데이터베이스 및 로그 파일은 대상 데이터베이스 서버의 위치를 사용 하 여 명시적으로 명명 되므로 각 서비스 유형의 실제 데이터베이스 및 로그 위치에 대해 특정 위치를 정의할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-170">Because the database and log files are explicitly named with their location on the destination database server, you can define specific locations for each service type’s actual database and log location.</span></span> <span data-ttu-id="6a0a9-171">다음 예에서는 각 특정 서비스 종류에 대 한 데이터베이스를 별도의 디스크에 배치 하 고 연결 된 로그 파일을 다른 컴퓨터에 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-171">The following example puts databases for each specific service type on separate disks, and associated log files on another.</span></span> <span data-ttu-id="6a0a9-172">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-172">For example:</span></span>
+    
+      - <span data-ttu-id="6a0a9-173">"D:\\rtcdatabase"에 대 한 모든 RTC 데이터베이스</span><span class="sxs-lookup"><span data-stu-id="6a0a9-173">All RTC databases to “D:\\RTCDatabase”</span></span>
+    
+      - <span data-ttu-id="6a0a9-174">모든 RTC 로그 파일을 "E:\\RTCLogs"에 추가</span><span class="sxs-lookup"><span data-stu-id="6a0a9-174">All RTC log files to “E:\\RTCLogs”</span></span>
+    
+      - <span data-ttu-id="6a0a9-175">모든 응용 프로그램 저장소 데이터베이스를 "F\\: cpsdatabases"로</span><span class="sxs-lookup"><span data-stu-id="6a0a9-175">All application store databases to “F:\\CPSDatabases”</span></span>
+    
+      - <span data-ttu-id="6a0a9-176">모든 응용 프로그램 스토어는 "G:\\cpslogs"로 기록 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-176">All application store logs to “G:\\CPSLogs”</span></span>
+    
+      - <span data-ttu-id="6a0a9-177">"H:\\RGSDatabases"에 대 한 모든 응답 그룹 저장소 데이터베이스</span><span class="sxs-lookup"><span data-stu-id="6a0a9-177">All response group store databases to “H:\\RGSDatabases”</span></span>
+    
+      - <span data-ttu-id="6a0a9-178">모든 응답 그룹 저장소가 "I: RGSLogs"\\에 기록 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-178">All response group store logs to “I:\\RGSLogs”</span></span>
+    
+      - <span data-ttu-id="6a0a9-179">모든 주소록이 "J: ABSDatabases"로 데이터베이스\\를 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-179">All address book store databases to “J:\\ABSDatabases”</span></span>
+    
+      - <span data-ttu-id="6a0a9-180">모든 주소록 저장소 로그 파일을 "K:\\ABSLogs"로</span><span class="sxs-lookup"><span data-stu-id="6a0a9-180">All address book store log files to “K:\\ABSLogs”</span></span>
+    
+      - <span data-ttu-id="6a0a9-181">모든 보관 저장소 데이터베이스를 "L:\\ArchivingDatabases"로</span><span class="sxs-lookup"><span data-stu-id="6a0a9-181">All archiving store databases to “L:\\ArchivingDatabases”</span></span>
+    
+      - <span data-ttu-id="6a0a9-182">모든 보관 저장소는 "M: ArchivingLogs\\"에 기록 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-182">All archiving store logs to “M:\\ArchivingLogs”</span></span>
+    
+      - <span data-ttu-id="6a0a9-183">"N:\\MonitoringDatabases"에 대 한 모든 모니터링 저장소 데이터베이스</span><span class="sxs-lookup"><span data-stu-id="6a0a9-183">All monitoring store databases to “N:\\MonitoringDatabases”</span></span>
+    
+      - <span data-ttu-id="6a0a9-184">모든 모니터링 저장소 로그 파일을 "O:\\MonitoringLogfiles"로</span><span class="sxs-lookup"><span data-stu-id="6a0a9-184">All monitoring store log files to “O:\\MonitoringLogfiles”</span></span>
+    
+    <!-- end list -->
+    
+    ```powershell    
+    $pathmap = @{
+    "BackendStore:BlobStore:DbPath"="D:\RTCDatabase";"BackendStore:BlobStore:LogPath"="E:\RTCLogs"
+    "BackendStore:RtcSharedDatabase:DbPath"="D:\RTCDatabase";"BackendStore:RtcSharedDatabase:LogPath"="E:\RTCLogs"
+    "ABSStore:AbsDatabase:DbPath"="J:\ABSDatabases";"ABSStore:AbsDatabase:LogPath"="K:\ABSLogs"
+    "ApplicationStore:RgsConfigDatabase:DbPath"="H:\RGSDatabases";"ApplicationStore:RgsConfigDatabase:LogPath"="G:\CPSLogs"
+    "ApplicationStore:RgsDynDatabase:DbPath"="H:\RGSDatabases";"ApplicationStore:RgsDynDatabase:LogPath"="I:\RGSLogs"
+    "ApplicationStore:CpsDynDatabase:DbPath"="F:\CPSDatabases";"ApplicationStore:CpsDynDatabase:LogPath"="G:\CsLogFiles"
+    "ArchivingStore:ArchivingDatabase:DbPath"="M:\ArchivingLogs";"ArchivingStore:ArchivingDatabase:LogPath"="N:\MonitoringDatabases"
+    "MonitoringStore:MonitoringDatabase:DbPath"="N:\MonitoringDatabases";"MonitoringStore:MonitoringDatabase:LogPath"="O:\MonitoringLogfiles"
+    "MonitoringStore:QoEMetricsDatabase:DbPath"="N:\MonitoringDatabases";"MonitoringStore:QoEMetricsDatabase:LogPath"="O:\MonitoringLogfiles"
+    }
+    
+    Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathMap $pathmap
+    ```
+    
+    <span data-ttu-id="6a0a9-185">– DatabasePathMap 매개 변수를 사용 하 여 SQL Server 성능 및 배치 요구 사항에 가장 적합 한 솔루션을 제공 하는 논리 드라이브 문자 매핑 조합을 정의할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-185">Using the –DatabasePathMap parameter, you can define any logical drive letter mapping combination that provides the best solution for your SQL Server performance and placement requirements.</span></span>
+
+<span data-ttu-id="6a0a9-186">**Databasepathmap** 메서드를 사용 하 여 데이터베이스 데이터 파일 및 로그 파일을 구성 하는 경우 토폴로지 작성기를 사용 하는 경우 일반적인 프로세스를 약간 변경 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-186">If you configure your database data files and log files by using the **DatabasePathMap** method, you will need to make a slight change to your normal process when using Topology Builder.</span></span> <span data-ttu-id="6a0a9-187">일반적으로 토폴로지 선택 항목을 정의 하 고 토폴로지를 게시 한 다음 데이터베이스 선택 영역 배포를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-187">Typically, you would define your topology choices, publish the topology, and choose to deploy the database selections.</span></span>
+
+<span data-ttu-id="6a0a9-188">**Databasepathmap** 을 사용한 경우 토폴로지 작성기 프로세스의 세 번째 부분이 이미 수행 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-188">If you have used **DatabasePathMap** you have already accomplished the third part of the Topology Builder process.</span></span> <span data-ttu-id="6a0a9-189">토폴로지 작성기를 실행 하기 전에 완벽 하 게 구성 된 데이터베이스 서버를 보유 하 고 있는 경우에도 모든 서버 역할 및 옵션을 정의할 수 있지만, 데이터베이스 만들기 옵션의 선택을 취소 합니다.</span><span class="sxs-lookup"><span data-stu-id="6a0a9-189">In the case of having a completely configured database server in advance of running Topology Builder, you would still define all of your server roles and options, but deselect the option to create the databases.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

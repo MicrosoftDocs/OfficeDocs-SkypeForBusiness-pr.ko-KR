@@ -1,0 +1,122 @@
+---
+title: 'Lync Server 2013: Lync Server 2013 토폴로지에 보관 데이터베이스 추가'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Adding Archiving databases to the Lync Server 2013 topology
+ms:assetid: 089ab32f-1167-4bb8-a283-fdc6c9613072
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204654(v=OCS.15)
+ms:contentKeyID: 48183338
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fe77c57050d6d6c70d5818405fd657d5a8fd3f0e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40983938"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="adding-archiving-databases-to-the-lync-server-2013-topology"></a><span data-ttu-id="d9c47-102">Lync Server 2013 토폴로지에 보관 데이터베이스 추가</span><span class="sxs-lookup"><span data-stu-id="d9c47-102">Adding Archiving databases to the Lync Server 2013 topology</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="d9c47-103">_**마지막으로 수정한 주제:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="d9c47-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+
+<span data-ttu-id="d9c47-104">보관을 지원 하도록 배포를 구성 하려면 먼저 토폴로지에 보관을 통합 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-104">You must incorporate archiving into your topology before you can configure your deployment to support archiving.</span></span> <span data-ttu-id="d9c47-105">이 항목의 정보는 토폴로지 작성기를 사용 하 여 기존 토폴로지에 보관을 추가 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-105">The information in this topic explains how to use Topology Builder to add archiving to your existing topology.</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="d9c47-106">Microsoft Exchange 통합을 사용 하 여 배포의 모든 사용자에 대해 Exchange 2013 서버에 보관 데이터 및 파일을 저장 하려면 <STRONG>Sql server 스토어 보관</STRONG> 을 지정 하거나 <STRONG>sql server 스토어 미러링</STRONG> 정보를 사용 하지 마세요.</span><span class="sxs-lookup"><span data-stu-id="d9c47-106">If you want to use Microsoft Exchange integration to store archiving data and files on Exchange 2013 servers for all your users in your deployment, do not specify <STRONG>Archiving SQL Server store</STRONG> or <STRONG>Use SQL Server Store mirroring</STRONG> information.</span></span>
+
+
+
+</div>
+
+<div>
+
+## <a name="to-add-archiving-database-support-to-your-topology"></a><span data-ttu-id="d9c47-107">토폴로지에 보관 데이터베이스 지원을 추가 하려면</span><span class="sxs-lookup"><span data-stu-id="d9c47-107">To add Archiving database support to your topology</span></span>
+
+1.  <span data-ttu-id="d9c47-108">Lync Server 2013을 실행 중이거나 Lync Server 관리 도구가 설치 되어 있는 컴퓨터에서 로컬 사용자 그룹의 구성원 인 계정이 나 해당 사용자 권한이 있는 계정으로 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-108">On a computer that is running Lync Server 2013, or on which the Lync Server administrative tools are installed, log on by using an account that is a member of the local Users group (or an account with equivalent user rights).</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="d9c47-109">로컬 사용자 그룹의 구성원 인 계정을 사용 하 여 토폴로지를 정의할 수 있지만 토폴로지에 서버를 추가 하는 데 필요한 토폴로지를 게시 하려면 <STRONG>Domain Admins</STRONG> 그룹 및 <STRONG>RTCUniversalServerAdmins</STRONG> 그룹의 구성원 인 계정을 사용 해야 하며, Lync server 2013 파일 저장소에 사용 하는 파일 공유에 대 한 모든 권한 (즉, 읽기, 쓰기 및 수정)이 있는 경우 (즉, 토폴로지 작성기가 필요한 dacl (임의 액세스 제어 목록)을 구성할 수 있도록 합니다. 또는 해당 권한이 있는 계정</span><span class="sxs-lookup"><span data-stu-id="d9c47-109">You can define a topology by using an account that is a member of the local Users group, but to publish a topology, which is required to add a server to the topology, you must use an account that is a member of the <STRONG>Domain Admins</STRONG> group and the <STRONG>RTCUniversalServerAdmins</STRONG> group, and that has full control permissions (that is, read, write, and modify) on the file share that you are using for the Lync Server 2013 file store (that is, so that Topology Builder can configure the required discretionary access control list (DACLs), or an account with equivalent rights.</span></span>
+
+    
+    </div>
+
+2.  <span data-ttu-id="d9c47-110">토폴로지 작성기를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-110">Start Topology Builder.</span></span>
+
+3.  <span data-ttu-id="d9c47-111">콘솔 트리에서 보관을 배포 하려는 프런트 엔드 풀로 이동한 다음 보관을 배포 하려는 프런트 엔드 풀의 이름을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-111">In the console tree, navigate to the Front End pool in which you want to deploy Archiving, and then click the name of the Front End pool where you want to deploy Archiving.</span></span>
+
+4.  <span data-ttu-id="d9c47-112">**작업** 메뉴에서 **속성 편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-112">In the **Action** menu, click **Edit Properties**.</span></span>
+
+5.  <span data-ttu-id="d9c47-113">**속성 편집** 대화 상자에서 **일반**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-113">In the **Edit Properties** dialog box, click **General**.</span></span>
+
+6.  <span data-ttu-id="d9c47-114">아래로 스크롤하여 **보관**합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-114">Scroll down to **Archiving**.</span></span>
+
+7.  <span data-ttu-id="d9c47-115">**보관** 확인란을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-115">Select the **Archiving** check box.</span></span>
+
+8.  <span data-ttu-id="d9c47-116">**SQL Server 스토어 보관** 에서 다음 중 하나를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-116">Under **Archiving SQL Server store,** do one of the following:</span></span>
+    
+      - <span data-ttu-id="d9c47-117">기존 SQL Server 저장소를 사용 하려면 드롭다운 목록 상자에서 사용 하려는 SQL Server 저장소의 이름을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-117">To use an existing SQL Server store, in the drop-down list box, click the name of the SQL Server store that you want to use.</span></span> <span data-ttu-id="d9c47-118">모든 사용자가 Microsoft Exchange Server 2013 이상에 속한 경우 Exchange의 모든 사용자에 대 한 Lync 통신을 보관할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-118">If all of your users are homed on Microsoft Exchange Server 2013 or above, you can archive Lync communications for all your users in Exchange.</span></span> <span data-ttu-id="d9c47-119">이 경우 SQL Server 보관 저장소를 구성할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-119">In this case, you don’t need to configure SQL Server Archiving store.</span></span>
+    
+      - <span data-ttu-id="d9c47-120">새 SQL Server 저장소를 지정 하려면 **새로 만들기**를 클릭 한 다음 **새 Sql server 저장소 정의** 대화 상자에서 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-120">To specify a new SQL Server store, click **New**, and then in the **Define New SQL Server Store** dialog box, do the following:</span></span>
+        
+          - <span data-ttu-id="d9c47-121">**Sql SERVER fqdn**에서 새 SQL server 저장소를 만들 서버의 FQDN을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-121">In **SQL Server FQDN**, specify the FQDN of the server on which you want to create the new SQL Server store.</span></span>
+        
+          - <span data-ttu-id="d9c47-122">기본 인스턴스 **를 클릭 하** 여 기본 인스턴스를 사용 하거나 다른 인스턴스를 지정 하려면 **명명 된 인스턴스**를 클릭 한 다음 사용할 인스턴스를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-122">Either click **Default Instance** to use the default instance, or, to specify a different instance, click **Named instance**, and then specify the instance you want to use.</span></span>
+        
+          - <span data-ttu-id="d9c47-123">지정 된 SQL Server 인스턴스가 미러링 관계에 있는 경우 **이 SQL 인스턴스는 미러링 관계에 있는** 확인란을 선택한 다음 **미러 포트 번호**에서 포트 번호를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-123">If the specified SQL Server instance is in a mirroring relationship, select the **This SQL instance is in mirroring relation** check box, and then, in **Mirror port number**, specify the port number.</span></span>
+
+9.  <span data-ttu-id="d9c47-124">SQL Server 스토어 미러링을 사용 하려면 **Sql Server 저장소 미러링 사용**을 선택 하 고 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-124">If you want to use SQL Server store mirroring, select **Enable SQL Server Store mirroring**, and then do the following:</span></span>
+    
+      - <span data-ttu-id="d9c47-125">미러링에 대 한 기존 SQL Server 저장소를 사용 하려면 **Sql server 저장소 미러 서버 보관** 드롭다운 목록 상자에서 미러링에 사용할 SQL Server 저장소의 이름을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-125">To use an existing SQL Server store for mirroring, in the **Archiving SQL Server store mirror** drop-down list box, click the name of the SQL Server store that you want to use for mirroring.</span></span>
+    
+      - <span data-ttu-id="d9c47-126">미러링할 새 SQL Server 저장소를 지정 하려면 **새로 만들기**를 클릭 한 다음 **새 SQL server 저장소 정의** 대화 상자에서 다음 중 하나를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-126">To specify a new SQL Server store for mirroring, click **New**, and then in the **Define New SQL Server Store** dialog box, do one of the following:</span></span>
+        
+        1.  <span data-ttu-id="d9c47-127">**Sql SERVER fqdn**에서 새 sql server 저장소를 만들 sql SERVER의 fqdn을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-127">In **SQL Server FQDN**, specify the FQDN of the SQL Server on which you want to create the new SQL Server store.</span></span>
+        
+        2.  <span data-ttu-id="d9c47-128">기본 인스턴스 **를 클릭 하** 여 기본 인스턴스를 사용 하거나 다른 인스턴스를 지정 하려면 **명명 된 인스턴스**를 클릭 한 다음 사용할 인스턴스를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-128">Either click **Default Instance** to use the default instance, or, to specify a different instance, click **Named Instance**, and then specify the instance you want to use.</span></span>
+        
+        3.  <span data-ttu-id="d9c47-129">지정 된 SQL Server 인스턴스가 미러링 관계에 있는 경우 **이 SQL 인스턴스는 미러링 관계에 있는** 확인란을 선택한 다음 **미러 포트 번호**에서 포트 번호를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-129">If the specified SQL Server instance is in a mirroring relationship, select the **This SQL instance is in mirroring relation** check box, and then, in **Mirror port number**, specify the port number.</span></span>
+    
+      - <span data-ttu-id="d9c47-130">SQL Server 미러링 기능을 사용 하도록 설정 하 고 SQL Server 미러링 감시 (주 SQL Server 서버 및 미러 인스턴스의 상태를 검색할 수 있는 별도의 SQL Server 인스턴스)를 포함 하려면 **Sql server 미러링 미러링 모니터를 사용 하 여 자동 장애 조치 사용** 확인란을 선택 하 고 다음 중 하나를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-130">If you enable SQL Server mirroring and want to include a SQL Server mirroring witness (a third, separate SQL Server instance that can detect the health of the primary SQL Server server and mirror instances), select the **Use SQL Server mirroring witness to enable automatic failover** check box, and then do one of the following:</span></span>
+        
+        1.  <span data-ttu-id="d9c47-131">**Sql SERVER fqdn**에서 새 SQL server 미러링 감시를 만들 서버의 FQDN을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-131">In **SQL Server FQDN**, specify the FQDN of the server on which you want to create the new SQL Server mirroring witness.</span></span>
+        
+        2.  <span data-ttu-id="d9c47-132">기본 인스턴스 **를 클릭 하** 여 기본 인스턴스를 사용 하거나 다른 인스턴스를 지정 하려면 **명명 된 인스턴스**를 클릭 한 다음 미러링 모니터에 사용할 인스턴스를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-132">Either click **Default Instance** to use the default instance, or, to specify a different instance, click **Named Instance**, and then specify the instance you want to use for the mirroring witness.</span></span>
+        
+        3.  <span data-ttu-id="d9c47-133">지정 된 SQL Server 인스턴스가 미러링 관계에 있는 경우 **이 SQL 인스턴스는 미러링 관계에 있는** 확인란을 선택한 다음 **미러 포트 번호**에서 포트 번호를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-133">If the specified SQL Server instance is in a mirroring relationship, select the **This SQL instance is in mirroring relation** check box, and then, in **Mirror port number**, specify the port number.</span></span>
+
+10. <span data-ttu-id="d9c47-134">구성을 저장 하려면 **확인**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9c47-134">To save the configuration, click **OK**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

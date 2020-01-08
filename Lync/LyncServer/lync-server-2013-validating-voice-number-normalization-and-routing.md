@@ -1,0 +1,77 @@
+---
+title: 'Lync Server 2013: 음성 번호 정규화 및 라우팅 확인'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Validating voice number normalization and routing
+ms:assetid: a6a825c7-6928-4e80-b7e9-803b7f7ebd13
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720922(v=OCS.15)
+ms:contentKeyID: 63969633
+ms.date: 01/27/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1be8f09304ccf077eb24daf707e536e9c90f84dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40975325"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a><span data-ttu-id="54c73-102">Lync Server 2013에서 음성 번호 정규화 및 라우팅의 유효성을 검사 하는 중</span><span class="sxs-lookup"><span data-stu-id="54c73-102">Validating voice number normalization and routing in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="54c73-103">_**마지막으로 수정한 주제:** 2014-05-19_</span><span class="sxs-lookup"><span data-stu-id="54c73-103">_**Topic Last Modified:** 2014-05-19_</span></span>
+
+<span data-ttu-id="54c73-104">올바른 숫자 정규화 및 라우팅은 함수형 엔터프라이즈 음성 환경에서 매우 중요 합니다.</span><span class="sxs-lookup"><span data-stu-id="54c73-104">Correct number normalization and routing is very important for functional Enterprise Voice environment.</span></span> <span data-ttu-id="54c73-105">특히 PBX (사설 지점 교환)에서 독립 실행형 Lync Server 환경으로 마이그레이션하는 동안, 모든 기존 전화 걸기 규칙을 표시 하 고 문서화 하 고 적절 한 정규화 규칙, 음성 정책 등을 만드는 것이 좋습니다. 전화 용도 및 경로.</span><span class="sxs-lookup"><span data-stu-id="54c73-105">Especially during migrations from private branch exchange (PBX) to stand-alone Lync Server environment, one of the keys to successful migration is to reveal and document all existing dialing rules, and create appropriate normalization rules, voice policies, phone usages and routes.</span></span>
+
+<span data-ttu-id="54c73-106">번호 정규화 및 라우팅의 유효성을 검사 하는 것은 마이그레이션 중에는 물론, 시스템을 안정적으로 작동 하는 경우에도 중요 합니다.</span><span class="sxs-lookup"><span data-stu-id="54c73-106">Validating number normalization and routing is important not only during migrations but also during normal, stable operation of the system.</span></span>
+
+<span data-ttu-id="54c73-107">Lync server 제어판을 사용 하 여 매일이 유효성 검사를 수행 하는 것이 좋습니다 (Lync Server 전역 설정에 게시 된 현재 정규화 규칙 집합에 대해 강력한 테스트 사례 집합 개발부터 시작).</span><span class="sxs-lookup"><span data-stu-id="54c73-107">We recommend conducting this validation daily by using the Lync Server Control Panel, starting with developing a robust set of test cases against the current set of normalization rules that were published in the Lync Server global settings.</span></span> <span data-ttu-id="54c73-108">이러한 테스트 사례는 매일 실행 하 여 다이얼 플랜에 적용 되거나 커밋된 원치 않는 변경 내용을 강조 표시 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="54c73-108">These test cases should be run daily to highlight any unwanted changes that were made and committed to the dial plan.</span></span>
+
+<span data-ttu-id="54c73-109">Lync Server 제어판은 또한 음성 라우팅과 엔터프라이즈 음성 번호 정규화 규칙, 다이얼 플랜, 음성 정책, 경로 변경에 대 한 구성 정보를 시각화, 테스트, 변경, 보관 및 공유 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="54c73-109">Lync Server Control Panel also helps you visualize, test, change, archive, and share configuration information about voice routing and in changing Enterprise Voice number normalization rules, dial plans, voice policy, and routes.</span></span> <span data-ttu-id="54c73-110">다음을 수행 하는 데 사용할 수 있는 추가 기능이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="54c73-110">It has additional features for doing the following:</span></span>
+
+  - <span data-ttu-id="54c73-111">시스템 간에 음성 라우팅 데이터 내보내기 및 가져오기 또는 백업</span><span class="sxs-lookup"><span data-stu-id="54c73-111">Exporting and importing or backing up voice routing data between systems.</span></span>
+
+  - <span data-ttu-id="54c73-112">라이브 시스템에 업로드 하기 전에 구성 변경 내용을 테스트 합니다.</span><span class="sxs-lookup"><span data-stu-id="54c73-112">Testing configuration changes before uploading them to a live system.</span></span>
+
+  - <span data-ttu-id="54c73-113">구성 테스트 사례를 만들고 실행 하 여 데이터를 변경한 후에는 배포 된 시스템에 대 한 변경 내용을 커밋하기 전에이를 유지 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="54c73-113">Creating and running configuration test cases to help ensure the usability of routing data after you make changes to it, but before committing them the changes to a deployed system.</span></span>
+
+  - <span data-ttu-id="54c73-114">필요한 정규식을 작성 하지 않고 숫자 정규화 규칙, 위치 프로필, 음성 정책, 라우팅 데이터를 만들고 변경 합니다.</span><span class="sxs-lookup"><span data-stu-id="54c73-114">Creating and changing number normalization rules, location profiles, voice policy, and routing data without writing the necessary regular expressions.</span></span>
+
+  - <span data-ttu-id="54c73-115">Lync Server Phone Edition과의 호환성을 위해 위치 프로필을 분석 합니다.</span><span class="sxs-lookup"><span data-stu-id="54c73-115">Analyzing a location profile for compatibility with the Lync Server Phone Edition.</span></span>
+
+  - <span data-ttu-id="54c73-116">음성 라우팅 테스트에 대 한 자세한 내용은 [Lync Server 2013의 음성 라우팅 테스트](lync-server-2013-test-voice-routing.md) 에서 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="54c73-116">More information about voice routing tests can be found at [Test voice routing in Lync Server 2013](lync-server-2013-test-voice-routing.md)</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="54c73-117">참고 항목</span><span class="sxs-lookup"><span data-stu-id="54c73-117">See Also</span></span>
+
+
+[<span data-ttu-id="54c73-118">Lync Server 2013에서 음성 라우팅 테스트</span><span class="sxs-lookup"><span data-stu-id="54c73-118">Test voice routing in Lync Server 2013</span></span>](lync-server-2013-test-voice-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

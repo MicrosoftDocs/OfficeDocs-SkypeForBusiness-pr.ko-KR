@@ -1,0 +1,181 @@
+---
+title: 'Lync Server 2013: LIS 서버 구성 테스트'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Testing LIS server configuration
+ms:assetid: 6b06e7ab-522f-41a2-878b-e89cd4e3c6da
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690129(v=OCS.15)
+ms:contentKeyID: 63969614
+ms.date: 01/27/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8e5baed37e4c72da8b8348dab9702b5d22fbbc5e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40976255"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="testing-lis-server-configuration-in-lync-server-2013"></a><span data-ttu-id="8f470-102">Lync Server 2013에서 LIS 서버 구성 테스트</span><span class="sxs-lookup"><span data-stu-id="8f470-102">Testing LIS server configuration in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="8f470-103">_**마지막으로 수정한 주제:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="8f470-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="8f470-104">확인 일정</span><span class="sxs-lookup"><span data-stu-id="8f470-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="8f470-105">Daily</span><span class="sxs-lookup"><span data-stu-id="8f470-105">Daily</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="8f470-106">테스트 도구</span><span class="sxs-lookup"><span data-stu-id="8f470-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="8f470-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="8f470-107">Windows PowerShell</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="8f470-108">권한이 필요 함</span><span class="sxs-lookup"><span data-stu-id="8f470-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="8f470-109">Lync Server Management Shell을 사용 하 여 로컬에서 실행 되는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="8f470-110">Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 CsLisConfiguration cmdlet을 실행 하는 데 필요한 권한이 있는 RBAC 역할을 사용자에 게 할당 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsLisConfiguration cmdlet.</span></span> <span data-ttu-id="8f470-111">이 cmdlet을 사용할 수 있는 모든 RBAC 역할 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisConfiguration&quot;}</code></pre></td>
+</tr>
+</tbody>
+</table>
+
+
+<div>
+
+## <a name="description"></a><span data-ttu-id="8f470-112">설명</span><span class="sxs-lookup"><span data-stu-id="8f470-112">Description</span></span>
+
+<span data-ttu-id="8f470-113">CsLisConfiguration cmdlet은 LIS 웹 서비스에 연결할 수 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-113">The Test-CsLisConfiguration cmdlet verifies your ability to contact the LIS web service.</span></span> <span data-ttu-id="8f470-114">웹 서비스에 연결할 수 있는 경우 특정 위치를 찾을 수 있는지 여부에 관계 없이 테스트가 성공으로 간주 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-114">If the web service can be contacted, then the test will be considered a success, regardless of whether any specific locations can be found.</span></span>
+
+</div>
+
+<div>
+
+## <a name="running-the-test"></a><span data-ttu-id="8f470-115">테스트 실행</span><span class="sxs-lookup"><span data-stu-id="8f470-115">Running the test</span></span>
+
+<span data-ttu-id="8f470-116">테스트 CsLisConfguration cmdlet은 미리 구성 된 테스트 계정 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server에 대해 사용 하도록 설정 된 모든 사용자의 계정을 사용 하 여 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-116">The Test-CsLisConfguration cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server.</span></span> <span data-ttu-id="8f470-117">테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트 중인 Lync Server 풀의 FQDN만 지정 하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-117">To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="8f470-118">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-118">For example:</span></span>
+
+    Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"
+
+<span data-ttu-id="8f470-119">실제 사용자 계정을 사용 하 여이 검사를 실행 하려면 먼저 계정 이름과 암호를 포함 하는 Windows PowerShell 자격 증명 개체를 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-119">To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password.</span></span> <span data-ttu-id="8f470-120">그런 다음 Test-CsLisConfiguration를 호출할 때 해당 자격 증명 개체와 해당 계정에 할당 된 SIP 주소를 포함 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-120">You must then include that credentials object and the SIP address assigned to the account when you call Test-CsLisConfiguration:</span></span>
+
+    $credential = Get-Credential "litwareinc\kenmyer"
+    Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
+
+<span data-ttu-id="8f470-121">자세한 내용은 [테스트 CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration) cmdlet에 대 한 도움말 문서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="8f470-121">For more information, see the Help documentation for the [Test-CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration) cmdlet.</span></span>
+
+</div>
+
+<div>
+
+## <a name="determining-success-or-failure"></a><span data-ttu-id="8f470-122">성공 또는 실패 확인</span><span class="sxs-lookup"><span data-stu-id="8f470-122">Determining success or failure</span></span>
+
+<span data-ttu-id="8f470-123">LIS가 올바르게 구성 되어 있는 경우 결과 속성이 성공으로 표시 된 것과 비슷한 출력을 받게 됩니다 **.**</span><span class="sxs-lookup"><span data-stu-id="8f470-123">If the LIS is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
+
+<span data-ttu-id="8f470-124">TargetUri :https://atl-cs-001.litwareinc.com:443/locationinformation/</span><span class="sxs-lookup"><span data-stu-id="8f470-124">TargetUri : https://atl-cs-001.litwareinc.com:443/locationinformation/</span></span>
+
+<span data-ttu-id="8f470-125">liservice .svc</span><span class="sxs-lookup"><span data-stu-id="8f470-125">liservice.svc</span></span>
+
+<span data-ttu-id="8f470-126">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="8f470-126">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+
+<span data-ttu-id="8f470-127">결과: 성공</span><span class="sxs-lookup"><span data-stu-id="8f470-127">Result : Success</span></span>
+
+<span data-ttu-id="8f470-128">대기 시간: 00:00:06.1616913</span><span class="sxs-lookup"><span data-stu-id="8f470-128">Latency : 00:00:06.1616913</span></span>
+
+<span data-ttu-id="8f470-129">오류</span><span class="sxs-lookup"><span data-stu-id="8f470-129">Error :</span></span>
+
+<span data-ttu-id="8f470-130">있게</span><span class="sxs-lookup"><span data-stu-id="8f470-130">Diagnosis :</span></span>
+
+<span data-ttu-id="8f470-131">지정 된 사용자가 로그온 하거나 로그 오프할 수 없는 경우에는 결과가 실패로 표시 되 고 오류 및 진단 속성에 추가 정보가 기록 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-131">If the specified user can't log on or log off, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+
+<span data-ttu-id="8f470-132">TargetUri :</span><span class="sxs-lookup"><span data-stu-id="8f470-132">TargetUri :</span></span>
+
+<span data-ttu-id="8f470-133">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="8f470-133">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+
+<span data-ttu-id="8f470-134">결과: 실패</span><span class="sxs-lookup"><span data-stu-id="8f470-134">Result : Failure</span></span>
+
+<span data-ttu-id="8f470-135">대기 시간: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="8f470-135">Latency : 00:00:00</span></span>
+
+<span data-ttu-id="8f470-136">오류: 11004, 요청 된 이름은 유효 하지만 요청한 데이터는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-136">Error : 11004, The requested name is valid but no data of the requested</span></span>
+
+<span data-ttu-id="8f470-137">유형을 찾았습니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-137">type was found</span></span>
+
+<span data-ttu-id="8f470-138">있게</span><span class="sxs-lookup"><span data-stu-id="8f470-138">Diagnosis :</span></span>
+
+<span data-ttu-id="8f470-139">테스트-CsLisConfiguration: 토폴로지에 일치 하는 클러스터가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-139">Test-CsLisConfiguration : No matching cluster found in topology.</span></span>
+
+<span data-ttu-id="8f470-140">예를 들어 이전 출력에는 "토폴로지에 일치 하는 클러스터 없음" 메모가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-140">For example, the previous output includes the note “No matching cluster found in topology.”</span></span> <span data-ttu-id="8f470-141">일반적으로 Edge 서버에 대 한 문제를 나타내는 데에는 Edge 서버를 사용 하 여 서비스 공급자에 연결 하 고 주소를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-141">That typically indicates a problem with the Edge Server: the LIS using the Edge Server to connect to the service provider and validate addresses.</span></span>
+
+<span data-ttu-id="8f470-142">테스트-CsLisConfiguration 실패 한 경우에는 다음과 같이 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-142">If Test-CsLisConfiguration fails then you might want to rerun the test, this time including the Verbose parameter:</span></span>
+
+    Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
+
+<span data-ttu-id="8f470-143">Verbose 매개 변수가 포함 된 경우 테스트-CsLisConfiguration는 지정 된 사용자가 Lync Server에 로그온 하는 기능을 검사 한 경우 시도한 각 작업의 단계별 계정을 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-143">When the Verbose parameter is included, Test-CsLisConfiguration will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="8f470-144">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-144">For example:</span></span>
+
+<span data-ttu-id="8f470-145">통화 위치 정보 서비스.</span><span class="sxs-lookup"><span data-stu-id="8f470-145">Calling Location Information Service.</span></span>
+
+<span data-ttu-id="8f470-146">서비스 경로 =https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc</span><span class="sxs-lookup"><span data-stu-id="8f470-146">Service Path = https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc</span></span>
+
+<span data-ttu-id="8f470-147">Subnet =</span><span class="sxs-lookup"><span data-stu-id="8f470-147">Subnet =</span></span>
+
+<span data-ttu-id="8f470-148">BssId = 5</span><span class="sxs-lookup"><span data-stu-id="8f470-148">BssId = 5</span></span>
+
+<span data-ttu-id="8f470-149">ChassisId =</span><span class="sxs-lookup"><span data-stu-id="8f470-149">ChassisId =</span></span>
+
+<span data-ttu-id="8f470-150">PortId =</span><span class="sxs-lookup"><span data-stu-id="8f470-150">PortId =</span></span>
+
+<span data-ttu-id="8f470-151">PortIdSubType = 정의 되지 않은 형식</span><span class="sxs-lookup"><span data-stu-id="8f470-151">PortIdSubType = Undefined Type</span></span>
+
+<span data-ttu-id="8f470-152">Ac</span><span class="sxs-lookup"><span data-stu-id="8f470-152">Mac</span></span>
+
+<span data-ttu-id="8f470-153">' 위치 정보 웹 서비스 요청이 실패 했습니다 (응답 코드 Item400. ').</span><span class="sxs-lookup"><span data-stu-id="8f470-153">An exception 'Location Information Web Service request has failed with a response code Item400.'</span></span> <span data-ttu-id="8f470-154">워크플로 SyntheticTrsnactions를 실행 하는 동안 오류가 발생 했습니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-154">occurred during Workflow Microsoft.Rtc.SyntheticTrsnactions.Workflows.STLisConfigurationWorkflow execution.</span></span>
+
+<span data-ttu-id="8f470-155">이전 출력을 면밀 하 게 검사 하는 경우에는 cmdlet이 위치 정보 서비스를 호출 하려고 시도 하면 실패 한 것을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-155">If you examine the previous output closely, you’ll see that the cmdlet failed after it tried to call the Location Information Service.</span></span> <span data-ttu-id="8f470-156">해당 통화에 사용 된 매개 변수 중 하나는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-156">One of the parameters that were used in that call was this:</span></span>
+
+<span data-ttu-id="8f470-157">BssId = 5</span><span class="sxs-lookup"><span data-stu-id="8f470-157">BssId = 5</span></span>
+
+<span data-ttu-id="8f470-158">이는 기본 BssID (서비스 집합 Id)에 유효한 값이 아닙니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-158">That’s not a valid value for the Basic Service Set Identifier (BssID).</span></span> <span data-ttu-id="8f470-159">대신 BssID는 다음과 유사 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-159">Instead, a BssID should resemble this:</span></span>
+
+<span data-ttu-id="8f470-160">12-34-56-78-90-ab</span><span class="sxs-lookup"><span data-stu-id="8f470-160">12-34-56-78-90-ab</span></span>
+
+</div>
+
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="8f470-161">테스트가 실패할 수 있는 이유</span><span class="sxs-lookup"><span data-stu-id="8f470-161">Reasons why the test might have failed</span></span>
+
+<span data-ttu-id="8f470-162">테스트 CsLisConfiguration가 실패할 수 있는 몇 가지 일반적인 이유는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-162">Here are some common reasons why Test-CsLisConfiguration might fail:</span></span>
+
+  - <span data-ttu-id="8f470-163">잘못 된 매개 변수 값이 제공 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-163">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="8f470-164">앞의 예제에서와 같이 선택적 매개 변수를 올바르게 구성 하거나 테스트에 실패 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-164">As shown in the previous example, the optional parameters must be configured correctly or the test will fail.</span></span> <span data-ttu-id="8f470-165">선택적 매개 변수 없이 명령을 다시 실행 하 여 성공 여부를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f470-165">Rerun the command without the optional parameters and see whether that succeeds.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
