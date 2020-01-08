@@ -1,0 +1,96 @@
+---
+title: 'Lync Server 2013: 인증서 요약 - 역방향 프록시'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate summary - Reverse proxy
+ms:assetid: f2b9a53f-aead-413d-81e9-4a294a010fbb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205381(v=OCS.15)
+ms:contentKeyID: 48185820
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b9a10259ac4a0beb6d79897b26bf446b109801a8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40985725"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="certificate-summary---reverse-proxy-in-lync-server-2013"></a>Lync Server 2013의 인증서 요약 - 역방향 프록시
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**마지막으로 수정한 주제:** 2012-11-14_
+
+역방향 프록시에 대 한 인증서 요구 사항은 Edge 서버의 경우 보다 훨씬 간단 합니다. 제공 된 순서도에는 필요한 요구 사항이 표시 됩니다. 함께 제공 되는 표에는 Edge 서버 토론에서 검토 한 시나리오와 관련 하 여 일반적인 인증서 주체 이름 및 제목 대체 이름이 표시 됩니다. Edge 서버 시나리오에 대 한 자세한 내용은 [Lync server 2013에서 외부 사용자 액세스 시나리오](lync-server-2013-scenarios-for-external-user-access.md)를 참조 하세요.
+
+**역방향 프록시에 대 한 인증서 흐름 차트**
+
+Edge 서버에 대 한 Edge 서버(images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "인증서 흐름") 차트 ![의 인증서 흐름 차트]
+
+### <a name="reverse-proxy-external-interface"></a>리버스 프록시: 외부 인터페이스
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>요소가</th>
+<th>주체 이름</th>
+<th>SAN (주체 대체 이름)/Order</th>
+<th>메모</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>역방향 프록시</p></td>
+<td><p>webext.contoso.com</p></td>
+<td><p>webext.contoso.com</p>
+<p>webdirext.contoso.com</p>
+<p>dialin.contoso.com</p>
+<p>meet.contoso.com</p>
+<p>officewebapps01.contoso.com</p>
+<p>lyncdiscover.contoso.com</p>
+<p>(선택 사항):* contoso.com</p></td>
+<td><p>인증서는 공용 CA 및 서버 EKU를 사용 하 여 발급 해야 합니다. 서비스에는 주소록 서비스, 회의를 위한 메일 그룹 확장 Office Web Apps, Lync IP 장치 게시 규칙이 포함 됩니다. 주체 대체 이름에는 다음이 포함 됩니다.</p>
+<ul>
+<li><p>프런트 엔드 서버 또는 프런트 엔드 풀의 외부 웹 서비스 FQDN</p></li>
+<li><p>디렉터 또는 디렉터 풀에 대 한 외부 웹 서비스 FQDN</p></li>
+<li><p>전화 접속 회의</p></li>
+<li><p>온라인 모임 게시 규칙</p></li>
+<li><p>회의를 위한 Office Web Apps</p></li>
+<li><p>Lyncdiscover (자동 검색)</p></li>
+</ul>
+<p>선택적 와일드 카드는 모임 시작 및 전화 접속 SAN을 모두 대체 합니다.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
