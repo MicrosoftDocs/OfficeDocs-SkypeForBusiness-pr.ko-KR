@@ -1,0 +1,49 @@
+---
+title: 'Lync Server 2013: 통화 허용 제어 서비스에 대한 인프라 요구 사항'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Infrastructure requirements for call admission control
+ms:assetid: 52be8826-5796-407b-92fc-32f29a6a933c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398346(v=OCS.15)
+ms:contentKeyID: 48184157
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6798d6e6ba10fefe761ab830dc8f173032dce805
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40979234"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="infrastructure-requirements-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="99d4f-102">Lync Server 2013의 통화 허용 제어 서비스에 대한 인프라 요구 사항</span><span class="sxs-lookup"><span data-stu-id="99d4f-102">Infrastructure requirements for call admission control in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="99d4f-103">_**마지막으로 수정한 주제:** 2012-08-21_</span><span class="sxs-lookup"><span data-stu-id="99d4f-103">_**Topic Last Modified:** 2012-08-21_</span></span>
+
+<span data-ttu-id="99d4f-104">특별 한 네트워크 라우터 등의 추가 인프라 요구 사항은 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="99d4f-104">No additional infrastructure requirements, such as special network routers, are necessary.</span></span> <span data-ttu-id="99d4f-105">Lync Server 2013을 배포 하면 호출 허용 제어 (CAC) 정책을 적용 하는 데 사용 되는 대역폭 정책 서비스가 자동으로 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="99d4f-105">Deploying Lync Server 2013 will automatically install the Bandwidth Policy Service used to enforce call admission control (CAC) policies.</span></span> <span data-ttu-id="99d4f-106">통화 허용 제어는 Lync를 실행 하는 클라이언트 에서만 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="99d4f-106">Call admission control works only with clients running Lync.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

@@ -1,0 +1,118 @@
+---
+title: 'Lync Server 2013: 원격 통화 제어 계획'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for remote call control
+ms:assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558658(v=OCS.15)
+ms:contentKeyID: 48184371
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8ede2b5d63c57864f478cb8fd9bcd4689a91ab3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40980192"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="planning-for-remote-call-control-in-lync-server-2013"></a><span data-ttu-id="8bcc3-102">Lync Server 2013의 원격 통화 제어 계획</span><span class="sxs-lookup"><span data-stu-id="8bcc3-102">Planning for remote call control in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="8bcc3-103">_**마지막으로 수정한 주제:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="8bcc3-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+
+<span data-ttu-id="8bcc3-104">Lync Server 2013에서 원격 통화 제어 시나리오를 지원 하면 사용자가 데스크톱 컴퓨터에서 Lync 2013을 사용 하 여 개인 브랜치 교환 (PBX) 전화를 제어할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bcc3-104">In Lync Server 2013, support for remote call control scenarios enables users to control their private branch exchange (PBX) phones by using Lync 2013 on their desktop computers.</span></span> <span data-ttu-id="8bcc3-105">이 섹션에서는 원격 통화 제어 기능 및 원격 호출 제어를 배포 하기 위한 요구 사항에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bcc3-105">This section describes remote call control features and requirements for deploying remote call control.</span></span>
+
+<span data-ttu-id="8bcc3-106">PBX와 Lync Server 2013를 통합 하면 사용자가 Lync 2013 UI (사용자 인터페이스)를 사용 하 여 다음과 같은 방법으로 PBX 전화기에 대 한 통화를 제어할 수 있도록 원격 통화 제어가 가능 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bcc3-106">Integration between a PBX and Lync Server 2013 makes it possible for users enabled for remote call control to use the Lync 2013 user interface (UI) to control calls on their PBX phones in the following ways:</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="8bcc3-107">궁극적으로 사용자의 PBX 휴대폰을 호스팅하는 PBX의 기능은 해당 사용자에 게 제공 되는 원격 통화 제어 기능을 결정 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bcc3-107">Ultimately, the capabilities of the PBX that hosts a user’s PBX phone determine the remote call control features that will be available to that user.</span></span>
+
+
+
+</div>
+
+  - <span data-ttu-id="8bcc3-108">발신 통화 만들기</span><span class="sxs-lookup"><span data-stu-id="8bcc3-108">Make an outgoing call</span></span>
+
+  - <span data-ttu-id="8bcc3-109">걸려오는 전화에 응답</span><span class="sxs-lookup"><span data-stu-id="8bcc3-109">Answer an incoming call</span></span>
+
+  - <span data-ttu-id="8bcc3-110">인스턴트 메시지로 걸려오는 전화에 응답</span><span class="sxs-lookup"><span data-stu-id="8bcc3-110">Answer an incoming call with an instant message</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="8bcc3-111">즉, 호출자의 전화 번호를 조직의 GAL (전체 주소 목록)에 있는 인스턴트 메시지 주소, 피호출자의 Lync 대화 상대 목록 또는 페더레이션된 파트너의 조직에 연결할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bcc3-111">That is, when the caller’s phone number can be associated with an instant message address in your organization’s global address list (GAL), in the callee’s Lync Contacts list, or in a federated partner’s organization.</span></span>
+
+    
+    </div>
+
+  - <span data-ttu-id="8bcc3-112">통화 전송</span><span class="sxs-lookup"><span data-stu-id="8bcc3-112">Transfer a call</span></span>
+
+  - <span data-ttu-id="8bcc3-113">걸려오는 전화 전달</span><span class="sxs-lookup"><span data-stu-id="8bcc3-113">Forward an incoming call</span></span>
+
+  - <span data-ttu-id="8bcc3-114">통화를 대기 상태로 두기</span><span class="sxs-lookup"><span data-stu-id="8bcc3-114">Place calls on hold</span></span>
+
+  - <span data-ttu-id="8bcc3-115">여러 동시 통화 간에 전환할 경우</span><span class="sxs-lookup"><span data-stu-id="8bcc3-115">Alternate between multiple concurrent calls</span></span>
+
+  - <span data-ttu-id="8bcc3-116">통화 중에 동시에 두 번째 전화 받기 (즉, 통화 대기)</span><span class="sxs-lookup"><span data-stu-id="8bcc3-116">Answer a second call while already in a call (that is, call waiting)</span></span>
+
+  - <span data-ttu-id="8bcc3-117">다이얼 multifrequency (DTMF) 숫자</span><span class="sxs-lookup"><span data-stu-id="8bcc3-117">Dial dual-tone multifrequency (DTMF) digits</span></span>
+
+  - <span data-ttu-id="8bcc3-118">대화 창에서 Microsoft Office OneNote 노트 작성 프로그램에 노트 입력</span><span class="sxs-lookup"><span data-stu-id="8bcc3-118">In the Conversation window, type notes in Microsoft Office OneNote note-taking program</span></span>
+
+<span data-ttu-id="8bcc3-119">또한 사용자가 원격 통화 제어권을 사용할 수 있는 경우 Lync 2013에서 사용자에 게 다음 통화 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bcc3-119">Additionally, when a user is enabled for remote call control, Lync 2013 provides the user with the following call information:</span></span>
+
+  - <span data-ttu-id="8bcc3-120">발신자의 전화 번호가 원격 통화 제어를 사용 하는 사용자의 Microsoft Office Outlook 메시징 및 공동 작업 클라이언트, Lync 대화 상대 목록 또는 조직의 GAL에 대 한 연락처 목록에 있는 경우 이름으로 발신자를 식별 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bcc3-120">Identification of a caller by name when the caller’s phone number exists in the Contacts list of a remote call control-enabled user’s Microsoft Office Outlook messaging and collaboration client, Lync Contacts list, or your organization’s GAL.</span></span>
+
+  - <span data-ttu-id="8bcc3-121">Outlook의 대화 내용 폴더에 저장 된 이전의 수신 및 발신 통화</span><span class="sxs-lookup"><span data-stu-id="8bcc3-121">Past incoming and outgoing calls, which are saved in the Conversation History folder in Outlook.</span></span>
+
+  - <span data-ttu-id="8bcc3-122">부재 중 전화 알림-사용자의 Outlook 받은 편지함 폴더로 전송 되지만 수신 전화를 받았을 때 Lync가 실행 중인 경우에만 생성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8bcc3-122">Missed call notifications, which are sent to the user’s Outlook Inbox folder, but are generated only if Lync is running when the incoming call is received.</span></span>
+
+<div>
+
+## <a name="remote-call-control-and-enterprise-voice"></a><span data-ttu-id="8bcc3-123">원격 통화 제어 및 엔터프라이즈 음성</span><span class="sxs-lookup"><span data-stu-id="8bcc3-123">Remote Call Control and Enterprise Voice</span></span>
+
+<span data-ttu-id="8bcc3-124">원격 통화 제어 기능은 엔터프라이즈 음성 기능과 구분 되지만 사용자를 모두 사용할 수 있는 것은 아니지만 Enterprise Voice는 원격 통화 제어를 사용 하도록 설정 된 사용자도 사용할 수 있는 기능 하위 집합을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bcc3-124">Although remote call control features are separate from Enterprise Voice features and users cannot be enabled for both, Enterprise Voice provides a subset of features that are also available to users who are enabled for remote call control.</span></span> <span data-ttu-id="8bcc3-125">엔터프라이즈 음성이 배포 되는 경우 원격 통화 제어를 사용 하도록 설정 된 사용자는 Lync를 사용 하 여 다음 엔터프라이즈 음성 기능에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bcc3-125">If Enterprise Voice is deployed, users who are enabled for remote call control can use Lync to access the following Enterprise Voice features:</span></span>
+
+  - <span data-ttu-id="8bcc3-126">다른 Lync 클라이언트로 음성 통화 걸기 및 받기</span><span class="sxs-lookup"><span data-stu-id="8bcc3-126">Make and receive audio calls to another Lync client</span></span>
+
+  - <span data-ttu-id="8bcc3-127">엔터프라이즈 음성 기능을 사용 하도록 설정 된 사용자가 만든 컨퍼런스 오디오 부분 참가</span><span class="sxs-lookup"><span data-stu-id="8bcc3-127">Join the audio portion of a conference created by a user who is enabled for Enterprise Voice</span></span>
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="8bcc3-128">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="8bcc3-128">In This Section</span></span>
+
+  - [<span data-ttu-id="8bcc3-129">Lync Server 2013의 원격 통화 제어에 대한 배포 작업</span><span class="sxs-lookup"><span data-stu-id="8bcc3-129">Deployment tasks for remote call control in Lync Server 2013</span></span>](lync-server-2013-deployment-tasks-for-remote-call-control.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
