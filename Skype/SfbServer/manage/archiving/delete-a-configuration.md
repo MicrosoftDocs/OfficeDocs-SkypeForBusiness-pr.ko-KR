@@ -10,62 +10,62 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: '요약: 비즈니스용 Skype 서버에서 보관 구성을 삭제 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: e2a79949da21c9b3b8e94019375ea0e1f0887353
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 22da9464a4bb6b17c6d4b9aa63ad8990a9152c38
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190377"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992375"
 ---
-# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a><span data-ttu-id="f16e2-103">비즈니스용 Skype 서버에서 보관 구성 삭제</span><span class="sxs-lookup"><span data-stu-id="f16e2-103">Delete an archiving configuration in Skype for Business Server</span></span>
+# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a><span data-ttu-id="ad235-103">비즈니스용 Skype 서버에서 보관 구성 삭제</span><span class="sxs-lookup"><span data-stu-id="ad235-103">Delete an archiving configuration in Skype for Business Server</span></span>
 
-<span data-ttu-id="f16e2-104">**요약:** 비즈니스용 Skype 서버에서 보관 구성을 삭제 하는 방법에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-104">**Summary:** Learn how to delete an archiving configuration in Skype for Business Server.</span></span>
+<span data-ttu-id="ad235-104">**요약:** 비즈니스용 Skype 서버에서 보관 구성을 삭제 하는 방법에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-104">**Summary:** Learn how to delete an archiving configuration in Skype for Business Server.</span></span>
   
-<span data-ttu-id="f16e2-105">사이트 구성 또는 풀 구성을 삭제할 수 있지만, 전역 구성은 삭제할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-105">You can delete a site configuration or pool configuration, but you cannot delete the global configuration.</span></span> <span data-ttu-id="f16e2-106">전역 구성을 삭제 하면 자동으로 기본 값으로 다시 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-106">If you delete the global configuration, it is automatically reset to the default values.</span></span>
+<span data-ttu-id="ad235-105">사이트 구성 또는 풀 구성을 삭제할 수 있지만, 전역 구성은 삭제할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-105">You can delete a site configuration or pool configuration, but you cannot delete the global configuration.</span></span> <span data-ttu-id="ad235-106">전역 구성을 삭제 하면 자동으로 기본 값으로 다시 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-106">If you delete the global configuration, it is automatically reset to the default values.</span></span>
   
-## <a name="delete-an-archiving-configuration-by-using-the-control-panel"></a><span data-ttu-id="f16e2-107">제어판을 사용 하 여 보관 구성 삭제</span><span class="sxs-lookup"><span data-stu-id="f16e2-107">Delete an archiving configuration by using the Control Panel</span></span>
+## <a name="delete-an-archiving-configuration-by-using-the-control-panel"></a><span data-ttu-id="ad235-107">제어판을 사용 하 여 보관 구성 삭제</span><span class="sxs-lookup"><span data-stu-id="ad235-107">Delete an archiving configuration by using the Control Panel</span></span>
 
-<span data-ttu-id="f16e2-108">제어판을 사용 하 여 보관 구성을 삭제 하려면 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-108">To delete an archiving configuration by using the Control Panel:</span></span>
+<span data-ttu-id="ad235-108">제어판을 사용 하 여 보관 구성을 삭제 하려면 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-108">To delete an archiving configuration by using the Control Panel:</span></span>
   
-1. <span data-ttu-id="f16e2-109">CsArchivingAdministrator 또는 CsAdministrator 역할에 할당 된 사용자 계정에서 내부 배포의 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-109">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span> 
+1. <span data-ttu-id="ad235-109">CsArchivingAdministrator 또는 CsAdministrator 역할에 할당 된 사용자 계정에서 내부 배포의 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-109">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span> 
     
-2. <span data-ttu-id="f16e2-110">브라우저 창을 열고 관리자 URL을 입력 하 여 비즈니스용 Skype 서버 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-110">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2. <span data-ttu-id="ad235-110">브라우저 창을 열고 관리자 URL을 입력 하 여 비즈니스용 Skype 서버 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-110">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
     
-3. <span data-ttu-id="f16e2-111">왼쪽 탐색 모음에서 **모니터링 및 보관**을 클릭 한 다음 **구성 보관**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-111">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+3. <span data-ttu-id="ad235-111">왼쪽 탐색 모음에서 **모니터링 및 보관**을 클릭 한 다음 **구성 보관**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-111">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
     
-4. <span data-ttu-id="f16e2-112">보관 구성 목록에서 삭제 하려는 사이트 또는 풀 구성을 클릭 하 고 **편집**을 클릭 한 다음 **삭제**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-112">In the list of archiving configurations, click the site or pool configuration that you want to delete, click **Edit**, and then click **Delete**.</span></span>
+4. <span data-ttu-id="ad235-112">보관 구성 목록에서 삭제 하려는 사이트 또는 풀 구성을 클릭 하 고 **편집**을 클릭 한 다음 **삭제**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-112">In the list of archiving configurations, click the site or pool configuration that you want to delete, click **Edit**, and then click **Delete**.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="f16e2-113">전역 구성을 클릭 해도 되지만 전역 구성을 기본값으로 다시 설정 하려는 경우에만이 옵션을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-113">You can also click the Global configuration, but choose this option only if you want to reset the Global configuration to the default values.</span></span> 
+    > <span data-ttu-id="ad235-113">전역 구성을 클릭 해도 되지만 전역 구성을 기본값으로 다시 설정 하려는 경우에만이 옵션을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-113">You can also click the Global configuration, but choose this option only if you want to reset the Global configuration to the default values.</span></span> 
   
-5. <span data-ttu-id="f16e2-114">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-114">Click **Commit**.</span></span>
+5. <span data-ttu-id="ad235-114">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-114">Click **Commit**.</span></span>
     
-## <a name="delete-an-archiving-configuration-by-using-windows-powershell"></a><span data-ttu-id="f16e2-115">Windows PowerShell을 사용 하 여 보관 구성 삭제</span><span class="sxs-lookup"><span data-stu-id="f16e2-115">Delete an archiving configuration by using Windows PowerShell</span></span>
+## <a name="delete-an-archiving-configuration-by-using-windows-powershell"></a><span data-ttu-id="ad235-115">Windows PowerShell을 사용 하 여 보관 구성 삭제</span><span class="sxs-lookup"><span data-stu-id="ad235-115">Delete an archiving configuration by using Windows PowerShell</span></span>
 
-<span data-ttu-id="f16e2-116">**CsArchivingConfiguration** cmdlet을 사용 하 여 보관 구성을 삭제할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-116">You can also delete an archiving configuration by using the **Remove-CsArchivingConfiguration** cmdlet.</span></span>
+<span data-ttu-id="ad235-116">**CsArchivingConfiguration** cmdlet을 사용 하 여 보관 구성을 삭제할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-116">You can also delete an archiving configuration by using the **Remove-CsArchivingConfiguration** cmdlet.</span></span>
   
-<span data-ttu-id="f16e2-117">예를 들어 다음 명령은 Redmond 사이트에 적용 된 보관 구성 설정을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-117">For example, the following command removes the archiving configuration settings applied to the Redmond site.</span></span> <span data-ttu-id="f16e2-118">사이트 범위에서 구성 된 정책을 삭제 하는 경우 이전에 사이트 정책에서 관리 하는 사용자는 전역 보관 정책에 의해 자동으로 제어 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-118">When a policy configured at the site scope is deleted, users previously managed by the site policy will automatically be governed by the global archiving policy instead:</span></span>
+<span data-ttu-id="ad235-117">예를 들어 다음 명령은 Redmond 사이트에 적용 된 보관 구성 설정을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-117">For example, the following command removes the archiving configuration settings applied to the Redmond site.</span></span> <span data-ttu-id="ad235-118">사이트 범위에서 구성 된 정책을 삭제 하는 경우 이전에 사이트 정책에서 관리 하는 사용자는 전역 보관 정책에 의해 자동으로 제어 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-118">When a policy configured at the site scope is deleted, users previously managed by the site policy will automatically be governed by the global archiving policy instead:</span></span>
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity "site:Redmond"
 ```
 
-<span data-ttu-id="f16e2-119">다음 명령은 서비스 범위에 적용 된 모든 보관 구성 설정을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-119">The following command removes all the archiving configuration settings applied to the service scope:</span></span>
+<span data-ttu-id="ad235-119">다음 명령은 서비스 범위에 적용 된 모든 보관 구성 설정을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-119">The following command removes all the archiving configuration settings applied to the service scope:</span></span>
   
-```
+```PowerShell
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
-<span data-ttu-id="f16e2-120">다음 명령은 Exchange 보관을 사용 하지 않도록 설정한 모든 보관 구성 설정을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-120">The next command removes all the archiving configuration settings where Exchange archiving has been disabled:</span></span>
+<span data-ttu-id="ad235-120">다음 명령은 Exchange 보관을 사용 하지 않도록 설정한 모든 보관 구성 설정을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-120">The next command removes all the archiving configuration settings where Exchange archiving has been disabled:</span></span>
   
-```
+```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 ```
 
-<span data-ttu-id="f16e2-121">또한 **Remove-CsArchivingConfiguration** cmdlet을 사용 하 여 전역 설정을 기본값으로 다시 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-121">You can also use the **Remove-CsArchivingConfiguration** cmdlet to reset the global settings to default values.</span></span> <span data-ttu-id="f16e2-122">예를 들어 전역 수준에서 IM 세션 보관을 사용 하도록 설정한 경우 다음 명령은 전역 수준에서 보관을 해제 하는 기본값을 없음 값으로 다시 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="f16e2-122">For example, suppose you have enabled IM session archiving at the global level; the following command will reset the value to the default of None, which will disable archiving at the global level:</span></span>
+<span data-ttu-id="ad235-121">또한 **Remove-CsArchivingConfiguration** cmdlet을 사용 하 여 전역 설정을 기본값으로 다시 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-121">You can also use the **Remove-CsArchivingConfiguration** cmdlet to reset the global settings to default values.</span></span> <span data-ttu-id="ad235-122">예를 들어 전역 수준에서 IM 세션 보관을 사용 하도록 설정한 경우 다음 명령은 전역 수준에서 보관을 해제 하는 기본값을 없음 값으로 다시 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad235-122">For example, suppose you have enabled IM session archiving at the global level; the following command will reset the value to the default of None, which will disable archiving at the global level:</span></span>
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-<span data-ttu-id="f16e2-123">자세한 내용은 [제거 CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) cmdlet에 대 한 도움말 항목을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f16e2-123">For more information, see the help topic for the [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) cmdlet.</span></span>
+<span data-ttu-id="ad235-123">자세한 내용은 [제거 CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) cmdlet에 대 한 도움말 항목을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ad235-123">For more information, see the help topic for the [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) cmdlet.</span></span>
