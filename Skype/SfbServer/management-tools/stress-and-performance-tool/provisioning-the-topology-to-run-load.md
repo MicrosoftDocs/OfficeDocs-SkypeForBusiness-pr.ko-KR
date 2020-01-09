@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: 사용자가 스트레스 및 성능 도구를 성공적으로 실행할 수 있도록 비즈니스용 Skype 서버 2015 토폴로지를 변경 하거나 프로 비전 합니다.
-ms.openlocfilehash: c7cdc10b3667ac99376904c81309df739e49844a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e58bfce5e618c6e62f272c0acb0b415cbb471d40
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197025"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992495"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>스트레스 및 성능 시나리오에서 부하를 실행할 토폴로지 프로 비전
  
@@ -27,13 +27,13 @@ ms.locfileid: "36197025"
   
 1. Windows PowerShell 실행 정책을 무제한으로 설정 합니다. 현재 설정 되어 있는지 확실 하지 않은 경우 비즈니스용 Skype Server Management Shell을 열고 다음 명령을 실행할 수 있습니다.
     
-   ```
+   ```PowerShell
    Get-ExecutionPolicy
    ```
 
    무제한 값이 반환 되지 않는 경우 다음을 실행 해야 합니다.
     
-   ```
+   ```PowerShell
    Set-ExecutionPolicy -Unrestricted
    ```
 
@@ -45,7 +45,7 @@ ms.locfileid: "36197025"
     
 3. 명령줄에서 스크립트를 실행 하려면 다음을 사용할 수 있습니다.
     
-   ```
+   ```PowerShell
    PowerShell.exe -file <path to the file>
    ```
 

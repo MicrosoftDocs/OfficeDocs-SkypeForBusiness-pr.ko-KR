@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: '요약: 비즈니스용 Skype 서버에 대 한 사용자의 PIN 정책 정보를 봅니다.'
-ms.openlocfilehash: 5f6269b766748d5027c0a8182dd027754cd5cc00
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c61c55f97abc661558089c1d26ee4f5537fcf36b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196902"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991953"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 PIN 정책 정보 보기
  
@@ -44,7 +44,7 @@ Windows PowerShell 및 CsPinPolicy cmdlet을 사용 하 여 PIN 정책을 볼 �
 
 모든 PIN 정책에 대 한 정보를 보려면 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
     
-  ```
+  ```PowerShell
   Get-CsPinPolicy
   ```
 

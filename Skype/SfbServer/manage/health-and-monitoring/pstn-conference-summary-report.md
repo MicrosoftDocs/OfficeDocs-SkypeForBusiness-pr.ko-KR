@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: '요약: 비즈니스용 Skype 서버의 PSTN 컨퍼런스 요약 보고서에 대해 자세히 알아보세요.'
-ms.openlocfilehash: 8b8b108243e257c414e9d6bb101e69fc9701d82e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c0ecb9ae2a5630a8d68b9d22892890617127826a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188727"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992163"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 PSTN 컨퍼런스 요약 보고서
  
@@ -35,7 +35,7 @@ PSTN 회의 요약 보고서는 모니터링 보고서 홈 페이지 에서만 �
   
 표시 해야 할 수 있는 것 처럼 많은 PSTN 회의가 표시 되지 않는 경우 전화 접속 사용자를 허용 하는 회의를 구성 하는 기능은 사용자에 게 할당 된 회의 정책에 따라 달라 집니다. 일부 사용자에 게 PS를 보류할 수 있는 권한이 있는 경우에 유의 하세요. TN-ZA&PLATFORM 회의는 매우 적은 PSTN 회의를 분명히 볼 수 있습니다. Skype for Business 서버 관리 셸에서 다음 명령을 실행 하 여 사용자가 PSTN 회의를 예약할 수 있도록 허용 하는 회의 정책 (있는 경우)을 신속 하 게 확인할 수 있습니다.
   
-```
+```PowerShell
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 ```
 

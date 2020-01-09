@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: '요약: 통화 품질 대시보드의 자습서 및 개발 샘플을 검토 합니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 4eac679950abdff5041bdfb63b633287d06a11e7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e650047fefb865f7fe9af84f93a5f57e7bbf086
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186972"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992865"
 ---
 # <a name="cqd-development-samples"></a>CQD 개발 샘플
 
@@ -64,7 +64,7 @@ CQD는 이미 보고서를 사용자 지정 하는 데 유연성이 많지만 �
 
 필요한 것은 적절 한 매개 변수를 사용 하 여 데이터 서비스에 대 한 호출을 보내고 쿼리 결과를 HTML 표에 표시 하는 것입니다. 다음은 JavaScript 코드의 샘플입니다.
 
-```        
+```javascript        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
             var query = {
                 Dimensions: [{ DataModelName: '[StartDate].[Month]' }],
@@ -132,7 +132,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 JavaScript 코드를 HTML 페이지로 묶어 페이지에 그림에 표시 된 것과 같은 보고서가 표시 됩니다. 전체 html은 다음과 같습니다.
 
-```
+```javascript
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -203,7 +203,7 @@ JavaScript 코드를 HTML 페이지로 묶어 페이지에 그림에 표시 된 
 
 간단한 예제는 다음과 같습니다. 코드에는 리포지토리 서비스에 쿼리를 전송 하 여 해당 식별자를 기반으로 리포지토리 항목의 콘텐츠를 가져오는 간단한 예제 블록이 포함 되어 있습니다. 그리고 다음 코드 (processReportSetData 메서드)는 AJAX 호출을 보내 해당 보고서 집합 내의 각 보고서에 대 한 정의를 가져옵니다. CQD 웹 포털의 ID는 보고서 집합의 ID 이므로 AJAX 통화는 보고서 집합 항목을 반환 합니다. 리포지토리 API 및 특히 GetItems에 대 한 자세한 내용은 [Get 항목](get-items.md)을 참조 하세요. 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -332,7 +332,7 @@ JavaScript 코드를 HTML 페이지로 묶어 페이지에 그림에 표시 된 
 
 2. 필터를 업데이트 합니다. 예제 1의 필터에 대 한 JSON 데이터에는 차원 `[StartDate].[Month]`에 설정 된 하나의 필터가 있습니다. 필터는 JSON 배열 이므로 필터 목록에 추가 차원을 추가할 수 있습니다. 예를 들어 "currentMonth"에 대 한 유선 통화 내에서 서버 클라이언트를 가져오려면 다음 필터를 사용 해야 합니다.
 
-   ```
+   ```javascript
    Filters: [
      { DataModelName: '[StartDate].[Month]', Value: currentMonth, Operand: 0 },
     {
@@ -347,7 +347,7 @@ JavaScript 코드를 HTML 페이지로 묶어 페이지에 그림에 표시 된 
    ],
    ```
 
-   여기서 치수 `[Scenarios].[ScenarioPair]` 는 동등 `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`하 게 설정 됩니다. 은 `[Scenario.][ScenarioPair]` 보고서 만들기를 간소화 하기 위해 만든 특수 차원입니다. 이에 해당 하 `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`는 6 개의 값이 있습니다. 따라서 시나리오를 정의 하기 위해 6 개의 필터 조합을 사용 하는 대신 1 개의 필터를 사용 하기만 하면 됩니다. 이 예제 `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` 에서는 다음을 수행 합니다. 첫 번째는 서버이 고, 두 번째는 서버가 아니고, 두 번째는 내부이 고, 첫 번째 연결 유형은 유선 이며, 두 번째 연결 유형은 유선 이며, " 서버-클라이언트-유선-내부
+   여기서 치수 `[Scenarios].[ScenarioPair]` 는 동등 `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`하 게 설정 됩니다. 은 `[Scenario.][ScenarioPair]` 보고서 만들기를 간소화 하기 위해 만든 특수 차원입니다. 이에 해당 하 `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`는 6 개의 값이 있습니다. 따라서 시나리오를 정의 하기 위해 6 개의 필터 조합을 사용 하는 대신 1 개의 필터를 사용 하기만 하면 됩니다. 이 예제에서는 다음을 수행 `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` 합니다. 첫 번째는 서버이 고, 두 번째는 서버가 아니고, 두 번째는 내부이 고, 첫 번째 연결 유형은 유선이 고, 두 번째 연결 유형은 "서버-클라이언트-유선 내부"의 정확한 정의 인 유선으로 변환 됩니다.
 
 3. 각 시나리오에 대해 하나의 필터 집합을 만듭니다. 그림에서 성과 기록표의 각 행은 다른 필터가 되며 (치수와 단위는 동일 하 게 유지 됨) 다른 시나리오를 나타냅니다. 
 
@@ -360,7 +360,7 @@ JavaScript 코드를 HTML 페이지로 묶어 페이지에 그림에 표시 된 
 
 예제 3 (성과 기록표 샘플)의 HTML 코드:
 
-```
+```html
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

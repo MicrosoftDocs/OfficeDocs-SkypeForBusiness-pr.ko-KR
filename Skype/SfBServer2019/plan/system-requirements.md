@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 요약:이 항목을 사용 하 여 비즈니스용 Skype 서버 2019 서버 및 도메인 인프라를 준비 합니다. 서버 팜을 성공적으로 설치 및 배포 하는 데 도움이 되도록 하드웨어, OS, 데이터베이스, 소프트웨어, 모든 시스템 요구 사항, Active Directory 정보 등이 여기에 포함 됩니다.
-ms.openlocfilehash: 385aabbf0a3c17abd9a9a22dfdb810720ca76660
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 41faef4d02927e25e724b0c70922bdc6c5c3e05a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37435166"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988813"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019에 대 한 시스템 요구 사항
  
@@ -52,7 +52,7 @@ Standard Edition 서버용 권장 하드웨어:
 |%  <br/> |인텔 제온 E5-2673 v3 듀얼 프로세서, 6-코어, 2.4 ghz 이상.  <br/> 인텔 아이테니엄 프로세서는 비즈니스용 Skype 서버 2019 역할에 지원 되지 않습니다.  <br/> |
 |Memory  <br/> |32 기가바이트 (GB).  <br/> |
 |공간  <br/> |어떤  <br/> • 최소 72 GB의 무료 디스크 공간을 제공 하는 8 개 이상의 1만 RPM (raid 10을 사용 하는 RAID 1 및 6을 사용 하는 두 개의 디스크)  <br/> 또는  <br/> • Ssd (고체 드라이브)는 8 1만 RPM 기계적 디스크 드라이브에 동일한 여유 공간 및 유사한 성능을 제공할 수 있습니다.  <br/> |
-|사설망  <br/> |1 Gbps 이상의 듀얼 포트 네트워크 어댑터 (2 개의 네트워크 어댑터를 사용할 수 있지만 단일 MAC 주소 및 단일 IP 주소로 팀에 있어야 함).  <br/> 프런트 엔드 서버, 백 엔드 서버 및 Standard Edition 서버에서는 듀얼 또는 멀티홈 구성이 지원 **되지 않습니다** . <br/> 운영 체제에 표시 되지 않고 서버 하드웨어를 모니터링 하 고 관리 하는 데 사용 되는 동안에는 DRAC 또는 ILO와 같은 대역외 관리 시스템을 사용할 수 있습니다. 이 시나리오는 멀티홈 서버를 구성 하지 않으며 지원 됩니다.  <br/> |
+|네트워크  <br/> |1 Gbps 이상의 듀얼 포트 네트워크 어댑터 (2 개의 네트워크 어댑터를 사용할 수 있지만 단일 MAC 주소 및 단일 IP 주소로 팀에 있어야 함).  <br/> 프런트 엔드 서버, 백 엔드 서버 및 Standard Edition 서버에서는 듀얼 또는 멀티홈 구성이 지원 **되지 않습니다** . <br/> 운영 체제에 표시 되지 않고 서버 하드웨어를 모니터링 하 고 관리 하는 데 사용 되는 동안에는 DRAC 또는 ILO와 같은 대역외 관리 시스템을 사용할 수 있습니다. 이 시나리오는 멀티홈 서버를 구성 하지 않으며 지원 됩니다.  <br/> |
 
 
 프런트 엔드 서버 및 백 엔드 서버에 권장 되는 하드웨어:
@@ -62,7 +62,7 @@ Standard Edition 서버용 권장 하드웨어:
 |%  <br/> |인텔 제온 E5-2673 v3 듀얼 프로세서, 6-코어, 2.4 ghz 이상. <br/> 인텔 아이테니엄 프로세서는 비즈니스용 Skype 서버 2019 역할에 지원 되지 않습니다.  <br/> |
 |Memory  <br/> |64 기가바이트 (GB).  <br/> |
 |공간  <br/> |어떤  <br/> • 최소 72 GB의 무료 디스크 공간을 제공 하는 8 개 이상의 1만 RPM (raid 10을 사용 하는 RAID 1 및 6을 사용 하는 두 개의 디스크)  <br/> 또는  <br/> • Ssd (고체 드라이브)는 8 1만 RPM 기계적 디스크 드라이브에 동일한 여유 공간 및 유사한 성능을 제공할 수 있습니다.  <br/> |
-|사설망  <br/> |1 Gbps 이상의 듀얼 포트 네트워크 어댑터 (2 개의 네트워크 어댑터를 사용할 수 있지만 단일 MAC 주소 및 단일 IP 주소로 팀에 있어야 함).  <br/> 프런트 엔드 서버, 백 엔드 서버 및 Standard Edition 서버에서는 듀얼 또는 멀티홈 구성이 지원 **되지 않습니다** . <br/> 운영 체제에 표시 되지 않고 서버 하드웨어를 모니터링 하 고 관리 하는 데 사용 되는 동안에는 DRAC 또는 ILO와 같은 대역외 관리 시스템을 사용할 수 있습니다. 이 시나리오는 멀티홈 서버를 구성 하지 않으며 지원 됩니다.  <br/> |
+|네트워크  <br/> |1 Gbps 이상의 듀얼 포트 네트워크 어댑터 (2 개의 네트워크 어댑터를 사용할 수 있지만 단일 MAC 주소 및 단일 IP 주소로 팀에 있어야 함).  <br/> 프런트 엔드 서버, 백 엔드 서버 및 Standard Edition 서버에서는 듀얼 또는 멀티홈 구성이 지원 **되지 않습니다** . <br/> 운영 체제에 표시 되지 않고 서버 하드웨어를 모니터링 하 고 관리 하는 데 사용 되는 동안에는 DRAC 또는 ILO와 같은 대역외 관리 시스템을 사용할 수 있습니다. 이 시나리오는 멀티홈 서버를 구성 하지 않으며 지원 됩니다.  <br/> |
    
 Edge 서버, 독립형 중재 서버, 디렉터에 권장 되는 하드웨어:
   
@@ -71,7 +71,7 @@ Edge 서버, 독립형 중재 서버, 디렉터에 권장 되는 하드웨어:
 |%  <br/> |인텔 제온 E5-2673 v3 듀얼 프로세서, 6-코어, 2.4 ghz 이상.  <br/> 인텔 아이테니엄 프로세서는 비즈니스용 Skype 서버 2019 역할에 지원 되지 않습니다.  <br/> |
 |Memory  <br/> |32 기가바이트.  <br/> |
 |공간  <br/> |어떤  <br/> • 최소 72 GB의 무료 디스크 공간을 제공 하는 4 개 이상의 1만 RPM 하드 디스크 드라이브 (디스크가 2 배로 RAID 1 구성 되어 있어야 함).  <br/> 또는  <br/> • Ssd (고체 드라이브)는 4 1만 RPM 기계적 디스크 드라이브에 동일한 여유 공간 및 유사한 성능을 제공할 수 있습니다.  <br/> |
-|사설망  <br/> |1 Gbps 이상의 듀얼 포트 네트워크 어댑터 (2 개의 네트워크 어댑터를 사용할 수 있지만 단일 MAC 주소 및 단일 IP 주소로 팀에 있어야 함).  <br/> 듀얼 또는 멀티홈 구성은 비디오 Interop 서버 및 디렉터에 대해 지원 **되지 않습니다** . <br/> Edge 서버에는 이중 포트 네트워크 어댑터용 1 Gbps 이상 (또는 두 개의 연결 된 네트워크 어댑터와 총 4 개, 단일 MAC 주소와 단일 IP 주소로 그룹화 된 각 쌍 중 총 2 쌍) 인 2 개의 네트워크 인터페이스가 필요 합니다.  <br/> 독립 실행형 중재 서버에서 특정 PSTN IP 주소의 구성을 허용 하는 추가 Nic (네트워크 인터페이스 카드) 설치가 지원 됩니다.  <br/> |
+|네트워크  <br/> |1 Gbps 이상의 듀얼 포트 네트워크 어댑터 (2 개의 네트워크 어댑터를 사용할 수 있지만 단일 MAC 주소 및 단일 IP 주소로 팀에 있어야 함).  <br/> 듀얼 또는 멀티홈 구성은 비디오 Interop 서버 및 디렉터에 대해 지원 **되지 않습니다** . <br/> Edge 서버에는 이중 포트 네트워크 어댑터용 1 Gbps 이상 (또는 두 개의 연결 된 네트워크 어댑터와 총 4 개, 단일 MAC 주소와 단일 IP 주소로 그룹화 된 각 쌍 중 총 2 쌍) 인 2 개의 네트워크 인터페이스가 필요 합니다.  <br/> 독립 실행형 중재 서버에서 특정 PSTN IP 주소의 구성을 허용 하는 추가 Nic (네트워크 인터페이스 카드) 설치가 지원 됩니다.  <br/> |
 
 
 > [!NOTE]
@@ -130,7 +130,7 @@ Edge 서버, 독립형 중재 서버, 디렉터에 권장 되는 하드웨어:
    
 이를 돕기 위해 다음과 같은 샘플 PowerShell 스크립트를 실행 하 여이를 자동화할 수 있습니다.
   
-```
+```PowerShell
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, Telnet-Client, BITS, ManagementOData, Web-Mgmt-Console, Web-Metabase, Web-Lgcy-Mgmt-Console, Web-Lgcy-Scripting, Web-WMI, Web-Scripting-Tools, Web-Mgmt-Service
 ```
 
@@ -184,7 +184,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
   
 또한 다음과 같은 몇 가지 PowerShell 코드가 있습니다.
   
-```
+```PowerShell
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, Telnet-Client
 ```
 
@@ -436,7 +436,7 @@ Single sign-on 인증은 사용자 포리스트에 있는 Active Directory Feder
   
 - 1024, 2048, 4096의 암호화 키 길이가 지원 됩니다. 2048 이상의 키 길이를 권장 합니다.
     
-- 기본 다이제스트 또는 해시 서명 알고리즘은 RSA입니다. ECDH_P256, ECDH_P384 및 ECDH_P521 알고리즘도 지원 됩니다.
+- 기본 다이제스트 또는 해시 서명 알고리즘은 RSA입니다. 또한 ECDH_P256, ECDH_P384 및 ECDH_P521 알고리즘이 지원 됩니다.
     
 이것은 생각 하는 것이 많고, CA에서 인증서를 요청 하는 다양 한 편안 함이 있습니다. 다음의 몇 가지 추가 지침을 사용 하 여 계획을 최대한 쉽게 파악할 수 있습니다.
   

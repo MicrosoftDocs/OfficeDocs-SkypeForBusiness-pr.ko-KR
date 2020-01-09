@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: '요약: 비즈니스용 Skype 서버에서 CDR (통화 정보 기록)를 사용 하는 방법에 대해 알아보세요.'
-ms.openlocfilehash: e0aed0c26672b83cb223ba763eb6224025d68118
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 976f61ac98cb02a0cd69750a581bfa5190156ff7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188625"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991683"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 CDR 구성 정보 보기
  
@@ -39,7 +39,7 @@ Windows PowerShell 및 CsCdrConfiguration cmdlet을 사용 하 여 CDR 구성 �
 
 - 모든 CDR 구성 설정에 대 한 정보를 보려면 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration
   ```
 

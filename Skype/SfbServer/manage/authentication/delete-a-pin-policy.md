@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: '요약: 비즈니스용 Skype 서버용 사용자의 전화 접속 회의 PIN을 삭제 합니다.'
-ms.openlocfilehash: 2f42531480ac4099d574a21a96f1954abc70d1d3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cfdb14ad8107c8d3450e6d50245831f723ca1153
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189669"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992325"
 ---
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 핀 정책 삭제
  
@@ -49,7 +49,7 @@ Windows PowerShell 및 CsPinPolicy cmdlet을 사용 하 여 PIN 정책을 삭제
 
 - 이 명령은 Id RedmondPinPolicy를 사용 하 여 PIN 정책을 제거 합니다.
     
-  ```
+  ```PowerShell
   Remove-CsPinPolicy -Identity "RedmondPinPolicy"
   ```
 
@@ -57,7 +57,7 @@ Windows PowerShell 및 CsPinPolicy cmdlet을 사용 하 여 PIN 정책을 삭제
 
 - 이 명령은 사이트 범위에서 구성 된 PIN 정책을 모두 제거 합니다.
     
-  ```
+  ```PowerShell
   Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
   ```
 
@@ -65,7 +65,7 @@ Windows PowerShell 및 CsPinPolicy cmdlet을 사용 하 여 PIN 정책을 삭제
 
 - 이 항목은 일반 패턴을 사용할 수 있는 PIN 정책 (: G)을 모두 제거 합니다.
     
-  ```
+  ```PowerShell
   et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
   ```
 

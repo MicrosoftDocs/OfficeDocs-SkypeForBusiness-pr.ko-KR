@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버의 고가용성 및 재해 복구를 관리 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: ff30bcdd99a4c92bd8fbd8f0a5c4bcedd8aa63b0
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: d46e34485f231d313475b4fdc5948a7262b324ed
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197957"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991983"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>영구 채팅 서버를 위한 고가용성 및 재해 복구 관리
  
 **요약:** 비즈니스용 Skype 서버 2015에서 영구 채팅 서버의 고가용성 및 재해 복구를 관리 하는 방법에 대해 알아봅니다.
   
-이 항목에서는 영구 채팅 서버 장애 조치 및 실패 복구 방법에 대해 설명 합니다. 이 항목을 읽기 전에 비즈니스용 [Skype server 2015의 영구 채팅 서버에 대 한 고가용성 및 재해 복구 계획](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) 을 읽고 [Skype의 영구 채팅 서버에 대해 고가용성 및 재해 복구를 구성 해야 합니다. 비즈니스 서버 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+이 항목에서는 영구 채팅 서버 장애 조치 및 실패 복구 방법에 대해 설명 합니다. 이 항목을 읽기 전에 비즈니스용 skype server [2015의 영구 채팅 서버에 대 한 고가용성 및 재해 복구 계획](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) 을 읽고 비즈니스용 [skype Server 2015의 영구 채팅 서버에 대해 고가용성 및 재해 복구를 구성](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)해야 합니다.
 
 > [!NOTE]
 > 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만, 비즈니스용 Skype Server 2019에서는 더 이상 지원 되지 않습니다. 팀 에서도 동일한 기능을 사용할 수 있습니다. 자세한 내용은 [Microsoft 팀 업그레이드 시작](/microsoftteams/upgrade-start-here)을 참고 하세요. 영구 채팅을 사용 해야 하는 경우에는이 기능이 필요한 사용자를 팀에 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용 하는 것이 선택 되어 있습니다. 
@@ -55,7 +55,7 @@ ms.locfileid: "36197957"
     
    - 다음 명령을 사용 하 여 로그 전달을 삭제 합니다.
     
-   ```
+   ```SQL
    exec sp_delete_log_shipping_secondary_database mgc
    ```
 
@@ -67,7 +67,7 @@ ms.locfileid: "36197957"
     
    - Mgc 데이터베이스에 대 한 모든 연결 (있는 경우)을 종료 합니다.
     
-   - mgc 데이터베이스에 대 한 연결을 식별 하는 **exec sp_who2** .
+   - **exec** 는 mgc 데이터베이스 연결을 식별 하는 sp_who2.
     
    - ** \<spid\> 를 중단** 하 여 이러한 연결을 종료 합니다.
     
@@ -170,7 +170,7 @@ ms.locfileid: "36197957"
   
 풀을 정상 상태로 복원 하려면 다음 Windows PowerShell 명령을 실행 합니다.
   
-```
+```PowerShell
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 

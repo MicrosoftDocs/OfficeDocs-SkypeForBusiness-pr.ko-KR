@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 조직의 사용자가 Skype 모임 브로드캐스트를 사용 하기 전에 먼저 사용 하도록 설정 해야 합니다. 이렇게 하려면 Windows PowerShell을 사용 하는 방법을 알고 있어야 합니다. Windows PowerShell을 모르는 경우 Microsoft 파트너를 고용 하 여이 단계를 수행 하는 것이 좋습니다.
-ms.openlocfilehash: 1d96ce1bb234ee319af2eeb11442fc15736b8f54
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: edf9c372a98da9e09d7e9040c6d035e389c8b1ec
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642310"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989143"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트 사용
 
@@ -56,7 +56,7 @@ ms.locfileid: "37642310"
     
 7. **Windows PowerShell** 창에서 다음을 실행 하 여 Office 365 조직에 연결 합니다.
     
-   ```
+   ```PowerShell
    $Credential = get-credential
    $O365Session = New-CsOnlineSession -Credential $credential
    Import-PSSession $O365Session
@@ -64,7 +64,7 @@ ms.locfileid: "37642310"
 
 8. 다음을 실행 하 여 현재 Skype 모임 브로드캐스트 구성을 확인 합니다.
     
-   ```
+   ```PowerShell
    Get-CsBroadcastMeetingConfiguration
    ```
 
@@ -74,7 +74,7 @@ ms.locfileid: "37642310"
   
 9. 다음을 실행 하 여 조직에 대해 Skype 모임 브로드캐스트를 사용 하도록 설정 합니다.
     
-   ```
+   ```PowerShell
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 
@@ -99,7 +99,7 @@ ms.locfileid: "37642310"
 
 [Windows PowerShell 및 Lync Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)
   
-[비즈니스용 Skype Online 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[비즈니스용 Skype 온라인 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
  

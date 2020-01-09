@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 풀을 서비스 해제 하기 전에 먼저 레거시 풀의 각 회의 디렉터리에 대해 다음 절차를 수행 해야 합니다.
-ms.openlocfilehash: cc989e752e69db31f338b493c403b8b8d4c252cc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1cd4a3a3359ec1638c3ae93c6ce81d8ba2227b96
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238082"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988943"
 ---
 # <a name="move-conference-directories"></a>회의 디렉터리 이동
 
@@ -26,13 +26,13 @@ ms.locfileid: "36238082"
     
 2. 조직에서 회의 디렉터리의 id를 가져오려면 다음 명령을 실행 합니다.
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory
    ```
 
     앞의 명령은 조직의 모든 회의 디렉터리를 반환 합니다. 따라서 역할을 해제 하려는 풀로 결과를 제한할 수 있습니다. 예를 들어 FQDN (정규화 된 도메인 이름) pool01.contoso.net을 사용 하 여 풀을 해제 하는 경우이 명령을 사용 하 여 반환 된 데이터를 해당 풀의 컨퍼런스 디렉터리로 제한 합니다.
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
    ```
 
@@ -40,19 +40,19 @@ ms.locfileid: "36238082"
     
 3. 회의 디렉터리를 이동 하려면 풀의 각 회의 디렉터리에 대해 다음 명령을 실행 합니다.
     
-   ```
+   ```PowerShell
    Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
    ```
 
     예를 들어, 회의 디렉터리 3을 이동 하려면 다음 명령을 사용 하 여 비즈니스용 Skype 서버 2019 풀을 TargetPool로 지정 합니다.
     
-   ```
+   ```PowerShell
    Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
    ```
 
     풀의 모든 회의 디렉터리를 이동 하려면 다음과 같은 명령을 사용 합니다.
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
    ```
 

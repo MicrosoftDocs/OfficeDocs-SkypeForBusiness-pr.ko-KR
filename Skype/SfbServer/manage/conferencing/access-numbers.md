@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: '요약: 비즈니스용 Skype 서버에서 전화 접속 회의 액세스 번호를 관리 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: e41011c4ba06da7f05d8cb1a52717e707cd2f8bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bd2aff1789c040667062d34b8bc037fd0543c029
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191277"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991923"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 전화 접속 회의 액세스 번호 관리
  
@@ -47,7 +47,7 @@ ms.locfileid: "36191277"
   
 다음 명령은 조직에서 사용 하도록 구성 된 모든 전화 접속 회의 액세스 번호의 컬렉션을 반환 합니다. 
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber
 ```
 
@@ -134,13 +134,13 @@ Skype for Business Server 제어판을 사용 하거나 비즈니스용 Skype �
   
 다음 명령은 Id sip:RedmondDialIn@litwareinc.com를 사용 하 여 전화 접속 회의 액세스 번호의 DisplayName 속성을 수정 합니다. 이 예제에서는 표시 이름이 "Redmond 전화 접속 액세스 번호"로 설정 됩니다.
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -DisplayName "Redmond Dial-In Access Number"
 ```
 
 다음 예제에서 Id sip:RedmondDialIn@litwareinc.com를 사용한 전화 접속 회의 액세스 번호는 Redmond와 시애틀 두 지역을 포함 하도록 수정 됩니다. 이렇게 하려면 Regions 매개 변수를 호출한 다음 두 개의 영역 (쉼표로 구분 된 두 개의 문자열 값)을 입력 합니다. 이 명령은 Redmond 및 시애틀 지역 영역이 이미 다이얼 플랜에 정의 되어 있지 않는 한 실패 합니다.
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
 ```
 
@@ -168,19 +168,19 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
   
 다음 명령은 Id sip:RedmondDialInAccess@litwareinc.com를 사용 하 여 전화 접속 회의 액세스 번호를 삭제 합니다.
   
-```
+```PowerShell
 Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 ```
 
 다음 명령은 북서쪽 지역과 연결 된 전화 접속 회의 액세스 번호를 모두 삭제 합니다.
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
 ```
 
 다음 명령은 이탈리아어가 기본 언어인 모든 전화 접속 회의 액세스 번호를 삭제 합니다.
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 ```
 

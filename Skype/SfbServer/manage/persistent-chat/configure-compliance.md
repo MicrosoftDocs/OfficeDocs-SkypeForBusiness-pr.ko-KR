@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버 준수 서비스를 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 95418a814ac8f4796fbde561c90c5ac051c54725
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: a02384c68c04798ea453b94bf736a2c6ff276397
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197959"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991993"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>영구 채팅 서버에 대한 준수 서비스 구성
 
@@ -45,13 +45,13 @@ ms.locfileid: "36197959"
 
 토폴로지 작성기를 사용 하 여 준수 서비스를 사용 하도록 설정한 후 **CsPersistenChatComplianceConfiguration** cmdlet을 사용 하 여 서비스를 구성할 수 있습니다.
 
-```
+```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
 또는
 
-```
+```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
 ```
 
@@ -77,13 +77,13 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 영구 채팅 준수 서버는 어댑터가 처음 로드 될 때 다음 메서드를 호출 하 게 됩니다. 에 `AdapterConfig` 는 준수 어댑터와 관련 된 지속적인 채팅 준수 구성이 포함 되어 있습니다.
 
-```
+```cpp
 void SetConfig(AdapterConfig config)
 ```
 
 영구 채팅 준수 서버는 변환할 새 데이터가 있는 경우 정기적으로 다음 메서드를 호출 합니다. 이 시간 간격은 영구 채팅 준수 구성 `RunInterval` 에 설정 된 as와 동일 합니다.
 
-```
+```cpp
 void Translate(ConversationCollection conversations)
 ```
 
@@ -97,7 +97,7 @@ void Translate(ConversationCollection conversations)
 
 준수 서비스 출력은 다음 코드 예제에 표시 된 것 처럼 대화 (대화 요소)와 메시지 (메시지 요소) 순으로 분류 됩니다.
 
-```
+```XML
 <?xml version="1.0" encoding="utf-8" ?> 
 <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Conversation>
@@ -114,7 +114,7 @@ void Translate(ConversationCollection conversations)
 
 대화 요소에는 4 개의 요소 (채널, FirstMessage, StartTimeUTC 및 EndTimeUTC)가 포함 됩니다. 채널 요소는 채팅방의 URI (Uniform Resource Identifier)를 포함 하 고 FirstMessage 요소는 Messages 요소의 첫 번째 메시지를 설명 합니다. StartTimeUTC 및 EndTimeUTC 요소는 다음 코드 예제에 표시 된 것 처럼 대화에 대 한 시작 및 종료 시간을 제공 합니다.
 
-```
+```XML
 <<FirstMessage type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
       <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
@@ -123,7 +123,7 @@ void Translate(ConversationCollection conversations)
 
 Message 요소에는 두 개의 요소 (Sender 및 DateTimeUTC)와 세 가지 특성 (유형, 콘텐츠 및 ID)이 포함 되어 있습니다. Sender 요소는 메시지를 보내는 사용자를 나타내고 DateTimeUTC 요소는 다음 코드 예제에 표시 된 대로 이벤트가 발생 하는 시기를 나타냅니다.
 
-```
+```XML
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
@@ -156,7 +156,7 @@ Message 요소에는 두 개의 요소 (Sender 및 DateTimeUTC)와 세 가지 �
 
 참가-사용자가 채팅방에 참가 합니다.
 
-```
+```XML
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
@@ -165,7 +165,7 @@ Message 요소에는 두 개의 요소 (Sender 및 DateTimeUTC)와 세 가지 �
 
 파트-사용자가 채팅방을 벗어납니다.
 
-```
+```XML
 <Message type="PART" content="" id="0">
   < Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1212610602532" string="2008-06-04T20:16:42.5324614Z" long="633482074025324614" /> 
@@ -174,7 +174,7 @@ Message 요소에는 두 개의 요소 (Sender 및 DateTimeUTC)와 세 가지 �
 
 채팅-보낸 사람의 전자 메일 주소입니다.
 
-```
+```XML
 <Message type="CHAT" content="hello" id="1">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1205351800522" string="2008-03-12T19:56:40.522264Z" long="633409486005222640" /> 
@@ -183,7 +183,7 @@ Message 요소에는 두 개의 요소 (Sender 및 DateTimeUTC)와 세 가지 �
 
 배경 채팅-사용자가 채팅 기록에서 콘텐츠를 요청 합니다.
 
-```
+```XML
 <Message type="BACKCHAT" content="backchatcontent" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206034385284" string="2008-03-20T17:33:05.2841594Z" long="633416311852841594" /> 
@@ -192,7 +192,7 @@ Message 요소에는 두 개의 요소 (Sender 및 DateTimeUTC)와 세 가지 �
 
 파일 업로드-사용자가 파일을 업로드 합니다.
 
-```
+```XML
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1205351828975" string="2008-03-12T19:57:08.9755711Z" long="633409486289755711" /> 
@@ -201,7 +201,7 @@ Message 요소에는 두 개의 요소 (Sender 및 DateTimeUTC)와 세 가지 �
 
 파일 다운로드-사용자가 파일을 다운로드 합니다.
 
-```
+```XML
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
   <Sender UserName="kazuto@litwareinc.com" id="10" email="" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1212611141851" string="2008-06-04T20:25:41.8518646Z" long="633482079418518646" /> 
@@ -212,7 +212,7 @@ Message 요소에는 두 개의 요소 (Sender 및 DateTimeUTC)와 세 가지 �
 
 다음 코드 샘플에는 준수 서버의 기본 출력이 포함 되어 있습니다.
 
-```
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="Conversations" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
    <xs:simpleType name="ComplianceMessageType">
@@ -311,7 +311,7 @@ Message 요소에는 두 개의 요소 (Sender 및 DateTimeUTC)와 세 가지 �
 
 다음 코드 샘플에는 샘플 XSL 변환이 포함 되어 있습니다.
 
-```
+```XML
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
    <xsl:output method="xml" encoding="UTF-8" indent="yes" />
 

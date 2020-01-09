@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef80290e6b8a1ce4de834a000148d60b2c5ef89d
-ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
+ms.openlocfilehash: 122a704df184619591f121f088162a045733cf4b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37775077"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992133"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell 모듈 설치
 
@@ -37,40 +37,41 @@ ms.locfileid: "37775077"
     > 최신 버전의 Windows PowerShell을 얻으려면 [Windows Powershell 설치](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell)를 참조 하세요.
 3. 다음을 실행 합니다.
 
-    ```
+    ```PowerShell
     $ENV:PSModulePath
     ```
 4. 출력에서 폴더 경로를 확인 하 고 다음 단계로 이동 하기 전에 경로의 모든 폴더가 컴퓨터에 있는지 확인 합니다. 폴더가 없는 경우 폴더를 만듭니다.
 5. StaffHub PowerShell 모듈을 설치할 수 있도록 하려면 다음을 실행 합니다.
 
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
 6. 다음을 실행 합니다. &lt;여기서&gt; path는 3 단계의 출력에서 경로입니다. 예를 들어 경로는 C:\Users\User1\Documents\WindowsPowerShell\Modules. 처럼 표시 될 것입니다.
 
     각 명령을 개별적으로 실행 해야 합니다.
 
-    ```
+    ```PowerShell
     Install-Module -Name PackageManagement -Force  -AllowClobber
     Install-Module -Name PowerShellGet -Force  -AllowClobber
     ```
 7. Windows PowerShell을 종료 합니다.
 8. Windows PowerShell 3.0 이상을 전역 관리자로 연 후 다음을 실행 합니다.
 
-    ```
+    ```PowerShell
     Install-Module -Name MicrosoftStaffHub
-
-## Connect to the Microsoft StaffHub PowerShell module
-
-1. Run the following:
-
-    ```
-    연결-StaffHub
     ```
 
-2. When you're prompted, log in as a global admin.
+## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell 모듈에 연결
 
-## Related topics
+1. 다음을 실행 합니다.
 
-- [Microsoft StaffHub PowerShell reference](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
-- [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md)
+    ```PowerShell
+    Connect-StaffHub
+    ```
+
+2. 메시지가 표시 되 면 전역 관리자로 로그인 합니다.
+
+## <a name="related-topics"></a>관련 항목
+
+- [Microsoft StaffHub PowerShell 참조](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
+- [Teams에서 Microsoft StaffHub 팀을 교대로 이동](move-staffhub-teams-to-shifts-in-teams.md)

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: '요약: 비즈니스용 Skype 서버에서 모임 구성 설정을 삭제 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: a728f1c1de3470cf505163c5cb25996c190e9026
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cbf63ba635077dd61599d4bc84a740906b662a6c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197718"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991863"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모임 구성 설정 삭제
  
@@ -41,13 +41,13 @@ Skype for Business Server 제어판을 사용 하거나 비즈니스용 Skype Se
   
 다음 명령은 Redmond 사이트에 적용 된 모임 구성 설정을 제거 합니다.
   
-```
+```PowerShell
 Remove-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
 다음 명령을 실행 하면 사이트 범위에 적용 된 모든 모임 구성 설정이 제거 됩니다.
   
-```
+```PowerShell
 Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 ```
 

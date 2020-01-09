@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: 이 섹션의 절차를 사용 하 여 개별 사용자 계정 속성을 수정할 수 있습니다.
-ms.openlocfilehash: fda11a1b52519f3653c841837af20392383cadd1
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: eca88717d0b81ddd7c27fc140df9bdbf7590c5c6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36197858"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991433"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 사용자 계정 속성 사용자 지정
  
@@ -50,7 +50,7 @@ ms.locfileid: "36197858"
     
 3. 왼쪽 탐색 모음에서 **사용자**를 클릭 합니다.
     
-4. **사용자 검색** 상자에 원하는 사용자 계정의 표시 이름, 이름, 성, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 줄의 URI (Uniform resource identifier) 중 일부 또는 전체를 입력 한 다음 찾기를 클릭 합니다. ** **.
+4. **사용자 검색** 상자에 원하는 사용자 계정의 표시 이름, 이름, 성, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 줄의 URI (Uniform resource identifier) 중 일부 또는 전체를 입력 한 다음 **찾기를**클릭 합니다.
     
 5. 표에서 수정 하려는 사용자 계정을 클릭 합니다.
     
@@ -82,7 +82,7 @@ ms.locfileid: "36197858"
     
 3. 왼쪽 탐색 모음에서 **사용자**를 클릭 합니다.
     
-4. **사용자 검색** 상자에 원하는 사용자 계정의 표시 이름, 이름, 성, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 줄의 URI (Uniform resource identifier) 중 일부 또는 전체를 입력 한 다음 찾기를 클릭 합니다. ** **. 
+4. **사용자 검색** 상자에 원하는 사용자 계정의 표시 이름, 이름, 성, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 줄의 URI (Uniform resource identifier) 중 일부 또는 전체를 입력 한 다음 **찾기를**클릭 합니다. 
     
 5. 표에서 특정 사용자 또는 목록에서 사용자를 선택 합니다. 
     
@@ -129,7 +129,7 @@ ms.locfileid: "36197858"
 6. **작업** 메뉴에서 **모든 사용자를 풀로 이동을**클릭 합니다.
     
     > [!NOTE]
-    > 기존 사용자 집합에 필터가 적용 되는 경우 **모든 사용자를 풀로 이동 하** 는 옵션이 사용자의 필터링 된 하위 집합에 해당 하는 것이 아니라 **** 모든 사용자가 사용할 수 있습니다.
+    > 기존 사용자 집합에 필터가 적용 되는 경우 **모든 사용자를 풀로 이동 하** 는 옵션이 사용자의 필터링 된 하위 집합에 해당 하는 것이 아니라 **모든 사용자가 사용할 수** 있습니다.
   
 7. **사용자 이동**에서 **원본 등록자 풀**에서 이동 하려는 사용자 계정이 포함 된 풀을 선택 합니다.
     
@@ -144,7 +144,7 @@ ms.locfileid: "36197858"
 
 1. Windows PowerShell 명령 (로컬 또는 원격)을 실행 하는 방법에 따라 다음과 같이 올바른 비즈니스용 Skype 서버 관리 역할의 구성원으로 로그온 해야 합니다.
     
-   에서. 로컬 컴퓨터에서 명령을 실행 하는 경우 (예: 프런트 엔드 서버에 직접 로그온 하는 경우) 다음을 수행 합니다. 비즈니스용 Skype 서버 관리 셸이 설치 된 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원으로 로그온 하거나 필요한 경우 **대리인 설정 권한에**설명 된 대로 사용자 권한을 부여 합니다.
+   에서. 로컬 컴퓨터에서 명령을 실행 하는 경우 (예: 프런트 엔드 서버에 직접 로그온 하는 경우), 비즈니스용 Skype 서버 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원 또는 **대리인 설정 권한에**명시 된 대로 필요한 사용자 권한으로 설치 된 컴퓨터에 로그온 합니다.
     
    b. 다른 컴퓨터에서 원격으로 명령을 실행 하는 경우 (예: 컴퓨터에 로그온 하 고 표준 Edition 프런트 엔드 서버에서 원격으로 명령을 실행 하는 경우) 다음을 수행 합니다. CsUserAdministrator 역할 또는 CsAdministrator에 할당 된 사용자 계정에서 역할을 설정 하 고 내부 배포의 컴퓨터에 로그온 합니다.
     
@@ -152,7 +152,7 @@ ms.locfileid: "36197858"
     
 3. 단일 사용자를 이동 하려면 다음과 같이 Move-CsUser cmdlet을 사용 합니다.
     
-    ```
+    ```PowerShell
     Move-CsUser -Identity "Pilar Ackerman" -Target "pool01.contoso.net"
     ```
 
@@ -160,13 +160,13 @@ ms.locfileid: "36197858"
     
 4. 많은 수의 사용자를 이동 하려면 **Get-csuser** cmdlet을 사용 하 여 필터를 사용 하 고 사용자의 결과 집합을 **이동-csuser**에 전달 합니다.
     
-    ```
+    ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "CurrentPoolFqdn"} | Move-CsUser -Target "TargetPoolFQDN"
     ```
 
     **Get csuser** 및 **Move csuser** 의 결합 된 명령은 다음과 같이 표시 될 것입니다.
     
-    ```
+    ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "pool02.contoso.net"} | Move-CsUser -Target "pool01.contoso.net"
     ```
 

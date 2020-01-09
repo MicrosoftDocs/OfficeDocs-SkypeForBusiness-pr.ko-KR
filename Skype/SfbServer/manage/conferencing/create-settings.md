@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: '요약: 비즈니스용 Skype 서버에서 모임 구성 설정을 만드는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 3d4f986b850b309d50967da9126b8b4eea08a166
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bcf32d3e250a3bc8b29d34e4c2fd56173dcfd5a6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196427"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991883"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모임 구성 설정 만들기
  
@@ -69,7 +69,7 @@ ms.locfileid: "36196427"
   
 다음 명령은 Redmond 사이트에 대 한 새 모임 구성 설정 집합을 만듭니다.
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
@@ -77,13 +77,13 @@ New-CsMeetingConfiguration -Identity "site:Redmond"
   
 다른 속성 값을 사용 하는 설정을 만들려면 간단히 적절 한 매개 변수와 매개 변수 값을 포함 합니다. 예를 들어 기본적으로 모든 사용자가 발표자로 모임에 참가 하도록 허용 하는 모임 구성 설정의 컬렉션을 만들려면 다음과 같은 명령을 사용 합니다.
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
 여러 매개 변수를 포함 하 여 여러 속성 값을 설정할 수 있습니다. 예를 들어 다음 명령은 모든 사람을 발표자로 모임에 입장할, PSTN 사용자가 모임에 공식적으로 참석할 때까지 대기실에서 대기 하도록 강제 합니다.
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 

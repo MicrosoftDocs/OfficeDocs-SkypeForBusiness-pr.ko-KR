@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: '요약: 비즈니스용 Skype 서버의 통화 속도 평가 기능에 대해 알아보세요.'
-ms.openlocfilehash: e146bba647c9586d96682bf8056417630676726e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6902bdaa9b5021963d128bf67dab7adc8ab1d982
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188709"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991743"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 내 통화 평가
 
@@ -51,7 +51,7 @@ ms.locfileid: "36188709"
 
 기본 기능을 사용 하도록 설정 하는 데 필요한 작업은 없지만 사용자 지정 피드백을 원하는 경우 별도로 사용 하도록 설정 해야 합니다. 다음 Windows PowerShell cmdlet은 사용자 지정 최종 사용자 피드백을 사용 하도록 설정 하 고 간격을 10%에서 80%로 변경 하는 예를 보여 줍니다.
 
-```
+```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
@@ -67,9 +67,9 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 
 |||
 |:-----|:-----|
-|raid-1  <br/> |DistortedSpeech  <br/> |
+|1  <br/> |DistortedSpeech  <br/> |
 |2  <br/> | ElectronicFeedback <br/> |
-|3-4  <br/> | BackgroundNoise <br/> |
+|3  <br/> | BackgroundNoise <br/> |
 |4(tcp/ipv4)  <br/> |MuffledSpeech  <br/> |
 |5mb  <br/> |O  <br/> |
 |mb  <br/> | FrozenVideo <br/> |
@@ -114,7 +114,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 
  **오디오**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -151,7 +151,7 @@ SELECT
 
  **비디오만**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -190,7 +190,7 @@ SELECT
 
 최신 비즈니스용 Skype 클라이언트는 [QoeMetrics]에 없을 수 있는\> 새로운 문제 토큰 id (100)를 보고 합니다. [dbo]. [CallQualityFeedbackTokenDef] 테이블입니다. 최신 토큰 정의를 사용 하 여 데이터베이스 테이블을 업데이트 하려면 아래 SQL 명령을 Microsoft SQL Server Management Studio를 통해 모니터링 데이터베이스에서 실행할 수 있습니다. 이 명령은 [QoeMetrics]의 모든 항목을 바꿉니다. [dbo]. [CallQualityFeedbackTokenDef] 테이블입니다.
 
-```
+```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];
 INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (1,   N'DistortedSpeech'),

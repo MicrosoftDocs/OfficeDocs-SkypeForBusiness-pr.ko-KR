@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: '요약: 비즈니스용 Skype 서버 2015에서 중앙 집중화 된 로깅 서비스 로그 캡처 세션을 시작 하거나 중지 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 49c36620cd58bf113ad1ce7823fcc438d88d8724
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b4da74e05a1eb6f6945f44c0c045c2292e7acca7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186798"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991443"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>비즈니스용 Skype 2015에서 CLS 로그 캡처 시작 또는 중지
  
@@ -37,13 +37,13 @@ ms.locfileid: "36186798"
     
 2. 다음을 입력 하 여 중앙 집중화 된 로깅 서비스를 사용 하 여 로깅 시나리오를 시작 합니다.
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario <name of scenario>
    ```
 
     예를 들어 **AlwaysOn** 시나리오를 시작 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario AlwaysOn
    ```
 
@@ -59,7 +59,7 @@ ms.locfileid: "36186798"
   
 4. 다른 시나리오를 시작 하려면 다음과 같이 실행할 추가 시나리오의 이름과 함께 **시작 CsClsLogging** cmdlet을 사용 합니다 (예: 시나리오 **인증**).
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario Authentication
    ```
 
@@ -74,7 +74,7 @@ ms.locfileid: "36186798"
     
     "Pool01.contoso.net" 풀의 UserReplicator 시나리오에 대 한 로깅 세션을 시작 합니다. 또한 로깅 세션의 기간을 8 시간으로 정의 합니다. 이렇게 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
    ```
 
@@ -96,13 +96,13 @@ ms.locfileid: "36186798"
   
 비즈니스용 Skype Server Management Shell을 사용 하 여 중앙 집중화 된 로깅 서비스 기능을 제어 하려면 CsAdministrator 또는 CsServerAdministrator 역할 기반 액세스 제어 (RBAC) 보안 그룹 또는 사용자 지정 RBAC 역할 중 하나의 구성원 이어야 합니다. 이러한 두 그룹 중 하나가 포함 되어 있습니다. 이 cmdlet이 할당 된 모든 RBAC 역할 목록 (직접 만든 사용자 지정 RBAC 역할 포함)을 반환 하려면 비즈니스용 Skype Server 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
 예를 들면 다음과 같습니다.
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -115,7 +115,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 중앙 로깅 서비스를 쿼리하여 다음을 입력 하 여 현재 실행 중인 시나리오를 확인 합니다.
     
-   ```
+   ```PowerShell
    Show-CsClsLogging
    ```
 
@@ -125,12 +125,12 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 3. 특정 시나리오에서 현재 실행 중인 로깅 세션을 중지 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
    ```
    예를 들면 다음과 같습니다.
     
-   ```
+   ```PowerShell
    Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
    ```
 

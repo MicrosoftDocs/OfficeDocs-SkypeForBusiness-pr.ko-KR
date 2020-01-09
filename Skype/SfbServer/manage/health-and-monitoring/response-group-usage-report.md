@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: '요약: 비즈니스용 Skype 서버의 응답 그룹 응용 프로그램에 대해 알아보세요.'
-ms.openlocfilehash: 6154a1e2d2407f3e7fe6f8eaf9527567724220fd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8d178357646fb8f3bfad82ecdedd81ce19a8107a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188706"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991733"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 응답 그룹 사용 보고서
 
@@ -70,7 +70,7 @@ ms.locfileid: "36188706"
 
 특정 워크플로에 대 한 사용 현황 통계를 검토 하려면 워크플로 URI 상자에 워크플로 URI를 입력 합니다. 참고로, 워크플로 Uri (워크플로와 연결 된 SIP 주소)는 보고서에 표시 되지 않습니다. 즉, 워크플로의 URI를 확인 하는 다른 방법을 찾아야 합니다. 이 작업을 수행 하는 한 가지 방법은 Windows PowerShell과 비즈니스용 Skype Server Management Shell을 사용 하는 것입니다. 예를 들어이 명령은 모든 응답 그룹 워크플로에 대 한 Uri를 반환 합니다.
 
-```
+```PowerShell
 Get-CsRgsWorkflow | Select-Object Name, PrimaryUri
 ```
 
@@ -86,7 +86,7 @@ New Ad Campaign                 sip:newads@litwareinc.com
 
 이 명령은 이름 새 광고 캠페인이 있는 단일 워크플로에 대 한 정보를 반환 합니다.
 
-```
+```PowerShell
 Get-CsRgsWorkflow -Name "New Ad Campaign" | Select-Object Name, PrimaryUri
 ```
 

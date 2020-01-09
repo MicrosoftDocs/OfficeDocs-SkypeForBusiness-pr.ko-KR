@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: '요약: 사용자 서비스의 일부인 사용자 가져오기 작업에 대해 알아봅니다. 사용자 서비스는 통화 품질 대시보드의 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 22223c37dad39f171afc27eb9e0520b8b32335c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6cf2248035c780c2efce6b1f4539a39cd2a5829a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186888"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992615"
 ---
 # <a name="get-users"></a>사용자 가져오기
  
@@ -49,7 +49,7 @@ ms.locfileid: "36186888"
 > [!NOTE]
 > 사용자 개체의 배열이 반환 됩니다. 사용자 개체에 대 한 자세한 내용은 사용자 가져오기를 참조 하세요. 
   
-```
+```json
 [{
 "userId": 0,
 "loginName": "system",

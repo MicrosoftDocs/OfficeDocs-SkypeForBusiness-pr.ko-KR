@@ -11,19 +11,19 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: '요약: 비즈니스용 Skype 서버에 대 한 서버 간 인증 인증서를 할당 합니다.'
-ms.openlocfilehash: 7198c103a771029ec93e589169fafb652f5d8842
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0332ba66c1cad69470b0007c4d9524a3025e0be7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188202"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991773"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>비즈니스용 Skype 서버에 서버 간 인증 인증서 할당
 **요약:** 비즈니스용 Skype Server에 대 한 서버 간 인증 인증서를 할당 합니다.
   
 서버 간 인증 인증서가 비즈니스용 Skype 서버에 이미 할당 되어 있는지 여부를 확인 하려면 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 실행 합니다.
   
-```
+```PowerShell
 Get-CsCertificate -Type OAuthTokenIssuer
 ```
 
@@ -31,7 +31,7 @@ Get-CsCertificate -Type OAuthTokenIssuer
   
 서버 간 인증에 사용할 수 있는 인증서가 없는 경우 새 인증서를 얻고 새 인증서를 가져온 다음이 인증서를 서버 간 인증에 사용할 수 있습니다. 새 인증서를 요청 하 고 얻은 후에는 프런트 엔드 서버 중 하나에 로그온 하 여이 인증서와 유사한 Windows PowerShell 명령을 사용 하 여 해당 인증서를 가져오고 할당할 수 있습니다.
   
-```
+```PowerShell
 Import-CsCertificate -Identity global -Type OAuthTokenIssuer -Path C:\Certificates\ServerToServerAuth.pfx  -Password "P@ssw0rd"
 ```
 
@@ -39,7 +39,7 @@ Import-CsCertificate -Identity global -Type OAuthTokenIssuer -Path C:\Certificat
   
 또는 기존 인증서를 서버 대 서버 인증 인증서로 사용할 수 있습니다. 참고로, 기본 인증서는 서버 간 인증 인증서로 사용할 수 있습니다. 다음 쌍의 Windows PowerShell 명령은 기본 인증서의 손도장 속성 값을 검색 한 다음 해당 값을 사용 하 여 기본 인증서를 서버 간 인증 인증서로 만듭니다.
   
-```
+```PowerShell
 $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
 ```
@@ -50,7 +50,7 @@ CsCertificate cmdlet은 해당 인증서를 가져와 즉시 해당 인증서를
   
 Set-CsCertificate cmdlet을 사용 하 여 새 인증서를 "롤 포워드" 할 수도 있습니다. "롤링"은 사용자가 지정 된 시점에 현재 OAuthTokenIssuer 인증서가 되도록 새 인증서를 구성 한다는 의미입니다. 예를 들어이 명령은 기본 인증서를 검색 한 다음 해당 인증서를 현재 OAuthTokenIssuer 인증서로 구성 하 여 7 월 1 일 (2015)로 사용 합니다.
   
-```
+```PowerShell
 $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -EffectiveDate "7/1/2015" -Roll
 ```

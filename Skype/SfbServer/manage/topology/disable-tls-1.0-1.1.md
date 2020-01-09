@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '요약: 사용자의 환경에서 TLS 1.0 및 1.1의 비활성화를 준비하고 구현합니다.'
-ms.openlocfilehash: f6fa608174bc22bc91512a69cc67a688b9bc7bb9
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
-ms.translationtype: HT
+ms.openlocfilehash: f10bd213be62b2d1dfa705e8ec8e0cc762706ee6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919312"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991553"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 TLS 1.0/1.1 비활성화
 
@@ -193,7 +193,7 @@ PIC(공용 IM 연결)를 Skype 소비자 서비스로의 연결: TLS 1.0/1.1의 
 
 다음의 테스트를 복사하여 메모장에 붙여 넣고 TLSPreReq 또는 원하는 이름으로 바꾼 다음 가져오기를 수행합니다.
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
@@ -245,7 +245,7 @@ Enterprise Edition 풀에 대한 SQL 백엔드의 경우 필수 구성 요소 �
 
 다음의 텍스트를 메모장 파일에 복사하고 **TLSDisable.reg**로 파일의 이름을 변경합니다.
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\00010002]

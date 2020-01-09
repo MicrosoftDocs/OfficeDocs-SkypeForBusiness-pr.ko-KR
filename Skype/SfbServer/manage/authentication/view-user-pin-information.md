@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: '요약: 비즈니스용 Skype 서버에서 사용자 PIN 정보를 봅니다.'
-ms.openlocfilehash: 48b179a8d6e8619c909cb92ba63d9a5869ae8f2e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e0a74d980be4c77c5fe92f9e0d871f238a7271f5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196896"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991943"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자 PIN 정보 보기
  
@@ -69,7 +69,7 @@ Get-CsClientPinInfo cmdlet을 사용 하 여 사용자 PIN 정보를 볼 수 있
 
 사용자의 PIN 정보를 보려면 비즈니스용 Skype 서버 관리 셸에서 다음과 유사한 명령을 입력 한 다음 enter 키를 누릅니다.
     
-  ```
+  ```PowerShell
   Get-CsClientPinInfo -Identity "Ken Myer"
   ```
 

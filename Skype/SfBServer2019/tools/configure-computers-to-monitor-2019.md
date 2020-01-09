@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '요약: 모니터링할 비즈니스용 Skype 서버 2019 컴퓨터에 Operations Manager 에이전트 파일을 설치 하 고 System Center 프록시로 작동 하도록 컴퓨터를 구성 합니다.'
-ms.openlocfilehash: ae5e1c2ab3d8eb17449c391ea321cfb44272368f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4d4abd3f28831ffe386470f1a91c34a3ac0568b9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189759"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989043"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>모니터링할 비즈니스용 Skype 서버 컴퓨터 구성
 
@@ -43,7 +43,7 @@ ms.locfileid: "36189759"
 
 5. 관리 그룹 구성 페이지에서 **관리 그룹 정보 지정** 을 선택 하 고 **다음**을 클릭 합니다.
 
-6. 관리 그룹 구성 페이지의 **관리 그룹 이름** 상자에 Operations Manager 관리 그룹의 이름을 입력 한 다음 관리 서버에 operations manager 서버의 호스트 이름 (예: atl-scom-001)을 입력 합니다. ** **상자입니다. Operations Manager에 사용 되는 포트 번호를 변경한 경우 **관리 서버 포트** 상자에 새 포트 번호를 입력 합니다. 그렇지 않으면 포트를 기본값인 5723으로 두고 **다음**을 클릭 합니다.
+6. 관리 그룹 구성 페이지의 **관리 그룹 이름** 상자에 Operations Manager 관리 그룹의 이름을 입력 하 고 **관리 서버** 상자에 operations manager 서버의 호스트 이름 (예: atl-scom-001)을 입력 합니다. Operations Manager에 사용 되는 포트 번호를 변경한 경우 **관리 서버 포트** 상자에 새 포트 번호를 입력 합니다. 그렇지 않으면 포트를 기본값인 5723으로 두고 **다음**을 클릭 합니다.
 
 7. 에이전트 작업 계정 페이지에서 **로컬 시스템** 을 선택 하 고 **다음**을 클릭 합니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "36189759"
 11. **끝내기**를 클릭 합니다.
 
 System Center 2012의 경우 **시작**을 클릭 하 고 **모든 프로그램**을 클릭 한 다음 **System Center operations manager 2012**을 클릭 하 고 **Operations 2012 Manager Shell**을 클릭 하 여 에이전트가 만들어졌는지 확인할 수 있습니다. Operations Manager 셸에서 다음 Windows PowerShell 명령을 입력 한 다음 enter 키를 누릅니다.
-```
+```PowerShell
 Get-SCOMAgent
 ```
 

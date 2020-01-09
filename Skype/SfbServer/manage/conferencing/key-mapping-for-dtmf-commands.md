@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: '요약: 비즈니스용 Skype 서버에서 DTMF 멀티 주파수) 명령의 키 매핑을 관리 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 713c72941a8cc147b751c82b9dbbfbc2c2d16837
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3bab799bb116d0ded48002eb91898ffc1587543c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189654"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991823"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 DTMF 명령에 대 한 키 매핑 관리
  
@@ -23,7 +23,7 @@ ms.locfileid: "36189654"
   
 전화 접속 회의 사용자는 전화 키패드의 키를 눌러 이중 톤 다중 주파수 (DTMF) 명령을 수행할 수 있습니다. DTMF 명령을 사용 하면 전화 회의에 전화를 거는 사용자가 전화기에서 키패드를 사용 하 여 전화를 걸고 음소거 해제 하거나, 전화를 잠그거나 잠금 취소 하는 등의 회의 설정을 제어할 수 있습니다. 
   
-DTMF 명령에 사용 되는 키를 관리 하려면 비즈니스용 Skype 서버 관리 셸을 사용 하 여 **CsDialinConferencingDtmfConfiguration**, **Set-CsDialinConferencingDtmfConfiguration**및 ** 새로운 CsDialinConferencingDtmfConfiguration** cmdlet.
+DTMF 명령에 사용 되는 키를 관리 하려면 **CsDialinConferencingDtmfConfiguration**, **CsDialinConferencingDtmfConfiguration**및 **CsDialinConferencingDtmfConfiguration** Cmdlet을 사용 하 여 비즈니스용 Skype Server Management Shell을 사용 하세요.
   
 사이트에 대 한 새 DTMF 설정을 만들면 사이트 설정이 전역 설정 보다 우선적으로 적용 됩니다. 
 
@@ -35,13 +35,13 @@ DTMF 명령에 사용 되는 키를 관리 하려면 비즈니스용 Skype 서�
     
 3. 전화 접속 회의에 사용 되는 DTMF 설정을 보려면 명령 프롬프트에서 다음 명령을 실행 합니다.
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingDtmfConfiguration
    ```
 
 4. 전화 접속 회의에 사용 되는 DTMF 설정을 수정 하려면 다음 cmdlet을 실행 하 고 변경 하려는 각 옵션에 대해 누를 키를 지정 합니다.
     
-   ```
+   ```PowerShell
    Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
    [-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
    [-CommandCharacter <* (default) | #>] [-EnableDisableAnnouncementsCommand <default key is 9>]
@@ -53,7 +53,7 @@ DTMF 명령에 사용 되는 키를 관리 하려면 비즈니스용 Skype 서�
     
 다음 예에서는 알림을 사용 하거나 사용 하지 않도록 누른 키와 모든 참가자를 음소거 및 음소거 해제 하기 위해 누른 키를 바꿉니다. Id가 지정 되지 않았으므로 이러한 변경 내용은 전역 DTMF 설정에 적용 됩니다.
   
-```
+```PowerShell
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 

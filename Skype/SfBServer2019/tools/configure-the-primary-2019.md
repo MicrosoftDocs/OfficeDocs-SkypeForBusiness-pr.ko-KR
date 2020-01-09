@@ -1,5 +1,5 @@
 ---
-title: 주 관리 서버 구성
+title: 주요 관리 서버 구성
 ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
@@ -11,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '요약: 비즈니스용 Skype Server 2019에 대 한 기본 관리 서버를 구성 하 고 System Center Operations Manager를 설치 하 고 관리 팩을 가져옵니다.'
-ms.openlocfilehash: 316931aff5379de10b0301cc65e94443ed0f7675
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b5835f0638231cff6176aa7377d6f7c60e81b6f7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189756"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989073"
 ---
-# <a name="configure-the-primary-management-server"></a>주 관리 서버 구성
+# <a name="configure-the-primary-management-server"></a>주요 관리 서버 구성
 
 **요약:** 주 관리 서버를 구성 하 고 System Center Operations Manager를 설치 하 고 비즈니스용 Skype 서버 2019에 대 한 관리 팩을 가져옵니다.
 
@@ -28,7 +28,7 @@ System Center Operations Manager를 설치 하는 경우 다음을 포함 하 �
 
 - 운영 데이터베이스
 
-- Server
+- 서버
 
 - 콘솔
 
@@ -55,12 +55,12 @@ System Center Operations Manager를 설치 하는 경우 다음을 포함 하 �
 
 관리 팩을 설치 하 여 system center operations Manager에서 모니터링할 수 있는 항목을 지정 하는 소프트웨어, 해당 항목을 모니터링 하는 방법, 알림을 트리거하는 방법 등 시스템 센터 Operations Manager의 기능을 확장할 수 있습니다. 보고. 비즈니스용 Skype 서버 2019에는 다음 기능을 제공 하는 두 가지 System Center Operations Manager 관리 팩이 포함 됩니다.
 
-- **구성 요소 및 사용자 관리 팩** (Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) 이벤트 로그에 기록 되거나, 성능 카운터에 등록 되어 있거나, CDRs (통화 정보 레코드) 또는 체감 품질 (환경 품질) 데이터베이스에 기록 된 비즈니스용 Skype 서버 문제를 추적 합니다. 중요 한 문제의 경우 관리자에 게 전자 메일, 인스턴트 메시지 또는 SMS 메시지를 즉시 알리기 위해 System Center Operations Manager를 구성할 수 있습니다. (SMS 또는 짧은 메시지 서비스는 모바일 장치 간에 문자 메시지를 전송 하는 데 사용 되는 기술입니다.)
+- **구성 요소 및 Microsoft.LS.2019.Monitoring.ComponentAndUser.mp (사용자 관리 팩)는** 이벤트 로그에 기록 된 비즈니스용 Skype 서버 문제를 추적 하 고, 성능 카운터에 등록 하거나, cdrs (통화 정보 레코드) 또는 체감 품질 (환경 품질) 데이터베이스에 기록 됩니다. 중요 한 문제의 경우 관리자에 게 전자 메일, 인스턴트 메시지 또는 SMS 메시지를 즉시 알리기 위해 System Center Operations Manager를 구성할 수 있습니다. (SMS 또는 짧은 메시지 서비스는 모바일 장치 간에 문자 메시지를 전송 하는 데 사용 되는 기술입니다.)
 
     > [!NOTE]
     >  Operations Manager 알림을 구성 하는 방법에 대 한 자세한 내용은 [알림 구성을](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409)참조 하세요.
 
-- **활성 모니터링 관리 팩** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) 사전 테스트 주요 비즈니스용 Skype 서버 구성 요소 (예: 시스템에 로그인, 인스턴트 메시지 교환 또는 PSTN (공공 교환 전화 네트워크)에 있는 휴대폰으로 전화 걸기) ). 이러한 테스트는 비즈니스용 Skype 서버 가상 트랜잭션 cmdlet을 사용 하 여 수행 됩니다. 예를 들어 **test-CsIM** cmdlet은 한 쌍의 테스트 사용자 간에 인스턴트 메시징 대화를 시뮬레이트하는 데 사용 됩니다. 이 시뮬레이트된 대화에 실패 하면 경고가 생성 됩니다.
+- **능동 모니터링 관리 팩** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp)은 시스템에 로그인 하거나 인스턴트 메시지를 교환 하거나 PSTN (공개 통신 네트워크)에 있는 휴대폰으로 전화를 거는 등의 비즈니스용 Skype Server 구성 요소를 사전 테스트 합니다. 이러한 테스트는 비즈니스용 Skype 서버 가상 트랜잭션 cmdlet을 사용 하 여 수행 됩니다. 예를 들어 **test-CsIM** cmdlet은 한 쌍의 테스트 사용자 간에 인스턴트 메시징 대화를 시뮬레이트하는 데 사용 됩니다. 이 시뮬레이트된 대화에 실패 하면 경고가 생성 됩니다.
 
 관리 팩 가져오기는 매우 중요 한 단계입니다. 관리 팩을 가져오지 않으면 Operations Manager를 사용 하 여 비즈니스용 Skype Server 이벤트를 모니터링 하거나 비즈니스용 Skype 서버 가상 트랜잭션을 실행할 수 없습니다.
 
@@ -101,12 +101,12 @@ System Center Operations Manager를 설치 하는 경우 다음을 포함 하 �
 
 2. Operations Manager 셸에서 Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp 파일의 실제 경로를 사용 하 여 명령 프롬프트에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
 
-   ```
+   ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp"
    ```
 
 3. 첫 번째 관리 팩을 가져온 후에는 파일 Microsoft.LS.2019.Monitoring.ComponentAndUser.mp의 복사본 경로를 사용 하 여 프로세스를 반복 합니다.
 
-   ```
+   ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2019.Monitoring.ComponentAndUser.mp"
    ```

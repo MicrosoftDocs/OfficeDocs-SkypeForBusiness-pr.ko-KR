@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: 비즈니스용 Skype 서버 2015 스트레스 및 성능 도구를 실행 하려면 사용자, 연락처 및 사용자 프로필을 모두 관리 하 고, 실행할 도구를 구성한 다음 도구에 의해 생성 되는 출력 또는 결과를 검토 해야 합니다.
-ms.openlocfilehash: e0cf241417272cfa16b3e332e7bafe7a112af38b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: af4d0dcb1cc4196f98941799c61dcf29510ba795
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187953"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992485"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>비즈니스용 Skype 서버 2015 스트레스 및 성능 도구 사용
  
@@ -176,13 +176,13 @@ ms.locfileid: "36187953"
   
 이 기능을 테스트 하도록 선택 하는 경우 양식에 값을 입력 하 고, 만들 LIS Config 파일 생성 단추를 클릭 합니다. CSV 파일 호출:
   
-- LIS_Subnet
+- .Csv LIS_Subnet
     
-- LIS_Switches
+- .Csv LIS_Switches
     
-- LIS_Ports
+- .Csv LIS_Ports
     
-- LIS_WAP
+- .Csv LIS_WAP
     
 이러한 파일을 LIS 데이터베이스로 가져오려면 다음 PowerShell cmdlet을 사용 합니다.
   
@@ -247,7 +247,7 @@ ms.locfileid: "36187953"
   
 - **인스턴트 메시지-** 여기에는 피어 투 피어 및 회의가 포함 됩니다. 로드 수준에 적합 한 값을 선택 합니다.
     
-- **오디오 회의-** 오디오 회의에 대 한 부하 수준만 ** 선택 합니다. 피어 투 피어 통화는 **음성 시나리오** 섹션에서 나중에 tackled 됩니다. **고급** 탭을 열고 MultiView을 사용 하도록 설정 합니다.
+- **오디오 회의-** 오디오 회의에 대 한 *부하 수준만 선택* 합니다. 피어 투 피어 통화는 **음성 시나리오** 섹션에서 나중에 tackled 됩니다. **고급** 탭을 열고 MultiView을 사용 하도록 설정 합니다.
     
 - **응용 프로그램 공유-** 응용 프로그램 공유에 대 한 부하 수준을 선택 합니다.
     
@@ -317,7 +317,7 @@ ms.locfileid: "36187953"
 - **음성 회의-** 로드 수준에 대 한 값을 선택 합니다.
     
 > [!NOTE]
-> 각 시나리오에는 옆에 **고급** 단추가 있습니다. 고급 대화 상자에는 스트레스 및 성능 도구의 동작을 변경 하 고 사용자 지정을 가능 하 게 하는 각 시나리오에 대 한 값이 포함 되어 있습니다. 부하 수준이 **사용자 지정**인 경우 각 웹 앱 시나리오에 대 한 >에 지정 **된 값 ConversationsPerHour** 필드는 기본값 대신 사용 됩니다.
+> 각 시나리오에는 옆에 **고급** 단추가 있습니다. 고급 대화 상자에는 스트레스 및 성능 도구의 동작을 변경 하 고 사용자 지정을 가능 하 게 하는 각 시나리오에 대 한 값이 포함 되어 있습니다. 로드 수준이 **사용자 지정**인 경우 각 웹 앱 시나리오에 대 한 > **ConversationsPerHour** 필드에 지정 된 값이 기본값 대신 사용 됩니다.
   
 #### <a name="mobility-tab"></a>모바일 기능 탭
 
@@ -332,7 +332,7 @@ ms.locfileid: "36187953"
 - **현재 상태 및 P2P 인스턴트 메시지/오디오-** 부하 수준에 대 한 값을 선택 하 여 이동성 시뮬레이션을 사용 하도록 설정 합니다.
     
 > [!NOTE]
-> 각 시나리오에는 옆에 **고급** 단추가 있습니다. 고급 대화 상자에는 스트레스 및 성능 도구의 동작을 변경 하 고 사용자 지정을 가능 하 게 하는 각 시나리오에 대 한 값이 포함 됩니다. 부하 수준이 **사용자 지정**인 경우 각 모바일 시나리오에 대 한 >에 지정 **된 값 ConversationsPerHour** 필드는 기본값 대신 사용 됩니다.
+> 각 시나리오에는 옆에 **고급** 단추가 있습니다. 고급 대화 상자에는 스트레스 및 성능 도구의 동작을 변경 하 고 사용자 지정을 가능 하 게 하는 각 시나리오에 대 한 값이 포함 됩니다. 부하 수준이 **사용자 지정**인 경우 각 모바일 시나리오에 대 한 > **ConversationsPerHour** 필드에 지정 된 값이 기본값 대신 사용 됩니다.
   
 #### <a name="summary-tab"></a>요약 탭
 
@@ -365,19 +365,19 @@ ms.locfileid: "36187953"
     
 2. 클라이언트 폴더로 이동 하 고 **Runclient** batch 스크립트를 실행 합니다. Windows 탐색기에서 배치 파일을 두 번 클릭 하 여 해당 클라이언트에 대 한 모든 구성 파일을 실행할 수 있습니다. 다음 구문을 사용 하 여 클라이언트 폴더에서 스크립트를 실행할 수도 있습니다.
     
-   ```
+   ```PowerShell
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 
 스트레스 및 성능 도구를 직접 실행 하려면 명령 프롬프트를 열고 명령줄에 다음 명령을 입력 합니다 (이 항목의 뒷부분에 나오는 참고와 같이 성능 카운터 `regsvr32 /i /n /s LyncPerfToolPerf.dll`를 등록 해야 합니다.).
   
-```
+```console
 LyncPerfTool.exe /file:IM_client0.xml
 ```
 
 도구에 구성 파일의 값이 표시 되도록 하려면 앞의 명령에 `/displayfile` 매개 변수를 포함 하면 다음과 같은 모양이 됩니다.
   
-```
+```console
 LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
 

@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 전화 시스템 다이렉트 라우팅을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: beeecb1ece84980337c7fe385c6a0e1190bc5e3c
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 8cdebcf9ae01a362c883ed5e51b0c883c4ea0d44
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741382"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992595"
 ---
 # <a name="configure-direct-routing"></a>직접 라우팅 구성
 
@@ -57,7 +57,7 @@ Microsoft 전화 시스템을 구성 하 고 사용자가 직접 라우팅을 �
  
 원격 PowerShell 세션을 설정한 후 SBC 관리 명령을 볼 수 있는지 확인 하세요. 명령에 대 한 유효성을 검사 하려면 PowerShell 세션에서 다음을 입력 하거나 복사/붙여넣고 enter 키를 누릅니다. 
 
-```
+```PowerShell
 Get-Command *onlinePSTNGateway*
 ```
 
@@ -77,7 +77,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 
 SBC와 테 넌 트를 쌍으로 연결 하려면 PowerShell 세션에서 다음을 입력 하 고 enter 키를 누릅니다. 
 
-```
+```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
 ```
   > [!NOTE]
@@ -88,7 +88,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > 테 넌 트에 등록 된 도메인 외에도 해당 도메인 및 할당 된 E3 또는 E5 라이선스를 가진 사용자가 있어야 합니다. 그렇지 않으면 다음 오류가 표시 됩니다.<br/>
   `Can not use the “sbc.contoso.com” domain as it was not configured for this tenant`.
 
-```
+```PowerShell
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
 ```
 구합니다
@@ -132,7 +132,7 @@ SBC 쌍을 곱한 후 원격 PowerShell 세션에서 다음 명령을 실행 하
 
 쌍으로 연결 된 게이트웨이는 아래 예제에 표시 된 대로 목록에 표시 되어야 하며 **Enabled** 매개 변수에 **True**값이 표시 되는지 확인 합니다. 입력
 
-```
+```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 반환 되는 결과:
@@ -193,7 +193,7 @@ Office 365에서 새 사용자를 만드는 두 가지 옵션이 있습니다. �
 1. 원격 PowerShell에 연결 합니다.
 2. 다음 명령을 실행 합니다. 
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
 ``` 
 
@@ -206,13 +206,13 @@ Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
 1. 원격 PowerShell 세션에 연결 합니다. 
 2. 명령 입력: 
  
-```
+```PowerShell
 Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
 ```
 
 예를 들어 "Spencer Low" 사용자의 전화 번호를 추가 하려면 다음을 입력 합니다. 
 
-```
+```PowerShell
 Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
@@ -283,16 +283,16 @@ Microsoft 통화 요금제는 Microsoft 통화 계획 라이선스를 사용 하
 
 비즈니스용 Skype 원격 PowerShell 세션에 다음을 입력 합니다.
 
-```
+```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
 다음을 입력 하 여 사용이 생성 되었는지 확인 합니다. 
-```
+```PowerShell
 Get-CSOnlinePSTNUsage
 ``` 
 다음은 잘릴 수 있는 이름 목록을 반환 하는 것입니다.
-```
+```output
 Identity    : Global
 Usage       : {testusage, US and Canada, International, karlUsage. . .}
 ```
@@ -314,7 +314,7 @@ Usage       : {testusage, US and Canada, International, karlUsage. . .}
 
 "Redmond 1" 경로를 만들려면 다음을 입력 합니다.
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
 (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
@@ -331,14 +331,14 @@ Name                    : Redmond 1
 </pre>
 Redmond 2 경로를 만들려면 다음을 입력 합니다.
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 (\d{7})$" -OnlinePstnGatewayList sbc3.contoso.biz, sbc4.contoso.biz -Priority 2 -OnlinePstnUsages "US and Canada"
 ```
 
 다른 + 1 경로를 만들려면 다음을 입력 합니다.
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
@@ -350,13 +350,13 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 
 모든 통화를 동일한 SBC로 라우팅합니다.
 
-```
+```PowerShell
 Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz
 ```
 
 다음과 같이 옵션을 사용 하 여 `Get-CSOnlineVoiceRoute` PowerShell 명령을 실행 하 여 경로를 올바르게 구성 했는지 확인 합니다.
 
-```
+```PowerShell
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 다음을 반환 합니다.
@@ -391,7 +391,7 @@ Name            : Other +1
 
 비즈니스용 Skype Online의 PowerShell 세션에서 다음을 입력 합니다.
 
-```
+```PowerShell
 New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 ```
 
@@ -408,13 +408,13 @@ RouteType           : BYOT
 
 비즈니스용 Skype Online의 PowerShell 세션에서 다음을 입력 합니다.
 
-```
+```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"
 ```
 
 다음 명령을 입력 하 여 정책 할당의 유효성을 검사 합니다.
 
-```
+```PowerShell
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 
@@ -468,13 +468,13 @@ PSTN 사용 "국제", 음성 경로 "국제" 음성 라우팅 정책 "제한 사
 
 비즈니스용 Skype Online의 원격 PowerShell 세션에서 다음을 입력 합니다.
 
-```
+```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
 ```
 
 **2 단계**: "국제" 새 음성 경로 만들기
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
 ```
 반환 되는 결과:
@@ -493,7 +493,7 @@ Name                      : International
 
 PSTN 사용 "Redmond 1" 및 "Redmond"는 전화 번호 "+ 1 425 XXX xx" 및 "+ 1 206 XXX XX XX"를 로컬 또는 온-프레미스 통화로 하는 특별 한 처리를 유지 하기 위해이 음성 라우팅 정책에 재사용 됩니다.
 
-   ```
+   ```PowerShell
    New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
    ```
 
@@ -503,7 +503,7 @@ PSTN 사용 순서를 기록해 둡니다.
 
 b. "국제" PSTN 사용이 "미국 및 캐나다" 보다 앞에 있는 경우 + 1 425 XXX XX XX로 거는 호출은 라우팅 논리의 일부로 sbc2.contoso.biz 및 sbc5.contoso.biz로 라우팅됩니다. 명령 입력:
 
-```
+```PowerShell
 New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
 ```
 
@@ -518,13 +518,13 @@ RouteType             : BYOT
 
 **4 단계**: 다음 명령을 사용 하 여 사용자 "John 숲"에 음성 라우팅 정책을 할당 합니다.
 
-```
+```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
 ```
 
 그런 다음 명령을 사용 하 여 과제를 확인 합니다. 
 
-```
+```PowerShell
 Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
 ```
 
@@ -566,7 +566,7 @@ SBCs에 번호 조작 규칙을 할당, 구성 및 나열 하려면 [CSOnlinePST
 
 예제 시나리오의 경우 ```New-CsOnlinePSTNGateway``` cmdlet을 실행 하 여 다음 SBC 구성을 만듭니다.
 
-```
+```PowerShell
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
 ```
 

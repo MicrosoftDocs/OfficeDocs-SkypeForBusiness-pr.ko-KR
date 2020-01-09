@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: PurgeSettings 테이블에는 CDR 데이터베이스에서 오래 된 통화 정보 레코드가 자동으로 삭제 되는지 여부를 지정 하는 정보가 포함 되어 있습니다. 다음 명령을 실행 하 여 비즈니스용 Skype 서버 2015 내에서 제거 관련 정보를 얻을 수도 있습니다.
-ms.openlocfilehash: 6aac92555dda6875f23a177bb09384f453369846
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fbbd7908446fdb042c8fdfa2f0c8bec2d83b24d9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196703"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992918"
 ---
 # <a name="purgesettings-table"></a>PurgeSettings 테이블
  
 PurgeSettings 테이블에는 CDR 데이터베이스에서 오래 된 통화 정보 레코드가 자동으로 삭제 되는지 여부를 지정 하는 정보가 포함 되어 있습니다. 다음 명령을 실행 하 여 비즈니스용 Skype 서버 2015 내에서 제거 관련 정보를 얻을 수도 있습니다.
   
-```
+```PowerShell
 Get-CsCdrConfiguration
 ```
 

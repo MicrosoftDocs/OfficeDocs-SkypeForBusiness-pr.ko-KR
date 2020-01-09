@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: '요약: 비즈니스용 Skype 서버에 대 한 새 보관 정책을 만드는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: d6bf33254feece1fe9f1a4fe848b2601e758faf3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8542c31050cf4ca9383c22b39c83b28309d3ea32
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197060"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992735"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 새 보관 정책 만들기
 
@@ -62,7 +62,7 @@ Windows PowerShell **New CsArchivingPolicy** cmdlet을 사용 하 여 새 보관
 
 이 명령은 Redmond 사이트에 대 한 새 보관 정책을 만듭니다.
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond"
 ```
 
@@ -70,7 +70,7 @@ New-CsArchivingPolicy -Identity "site:Redmond"
 
 사용자 당 수준에서 새 보관 정책을 만들려면 정책을 만들 때 고유한 Id를 지정 하면 됩니다.
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 ```
 
@@ -78,7 +78,7 @@ New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 
 앞의 명령에 필수 Id 매개 변수 이외의 매개 변수를 지정 하지 않았기 때문에 새 정책은 해당 속성에 대 한 기본값을 사용 합니다. 다른 속성 값을 사용 하는 정책을 만들려면 적절 한 매개 변수와 매개 변수 값을 포함 하면 됩니다. 예를 들어 다음 명령은 내부 인스턴트 메시징 세션 보관을 허용 하는 보관 정책을 만듭니다. 
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True
 ```
 
@@ -86,6 +86,6 @@ New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True
 
 여러 매개 변수를 포함 하 여 여러 속성 값을 수정할 수 있습니다. 예를 들어이 명령은 내부 및 외부 인스턴트 메시징 세션을 모두 보관 하도록 새 정책을 구성 합니다.
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 ```

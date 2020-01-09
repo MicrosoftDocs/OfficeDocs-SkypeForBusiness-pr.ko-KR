@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: '요약: 비즈니스용 Skype 서버의 모니터링 대시보드에 대해 자세히 알아보세요.'
-ms.openlocfilehash: 0ca85bff7cfcad7f3b64a4b0f5b92a22299e5719
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 39f5e9c2b024f73f669098c4da7eaca40ef4ea61
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188763"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992033"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모니터링 대시보드 사용
  
@@ -31,7 +31,7 @@ ms.locfileid: "36188763"
     
 [CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet을 사용 하 여 비즈니스용 Skype 서버 모니터링 보고서에 액세스 하는 데 사용 되는 URL을 반환할 수 있습니다.
   
-```
+```PowerShell
 Get-CsReportingConfiguration
 ```
 
@@ -39,7 +39,7 @@ Get-CsReportingConfiguration
   
 ## <a name="system-usage-metrics"></a>시스템 사용 메트릭
 
- **맞춤**
+ **등록**
   
 - 고유한 사용자 로그온
     
@@ -59,7 +59,7 @@ Get-CsReportingConfiguration
     
 - 평균 오디오 세션 시간 (분)
     
-  **번호로**
+  **회의**
   
 - 총 컨퍼런스
     
@@ -111,7 +111,7 @@ Get-CsReportingConfiguration
     
 - 응용 프로그램 공유 실패 비율
     
-번호로
+회의
   
 - 총 오류
     
@@ -135,7 +135,7 @@ Get-CsReportingConfiguration
     
 - 품질이 좋지 않은 PSTN 통화
     
-번호로
+회의
   
 - 낮은 품질의 총 통화
     

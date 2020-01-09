@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버 채팅방을 관리 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 5b7345626a42073bf7ebd0cb5f9900c6e15f0e2b
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: cbced7f62a4684e5541e35b5985b7e93cc7d3e66
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197874"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992123"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>영구 채팅 서버의 채팅방 관리
  
@@ -83,7 +83,7 @@ Windows PowerShell 명령줄 인터페이스를 사용 하거나 채팅방의 �
 
 **새 CsPersistentChatRoom** cmdlet을 사용 하 여 새 방을 만들 수 있습니다. 예를 들어 다음 명령은 pool atl-cs-001.contoso.com에서 새 채팅방을 만듭니다. 이 예제에서는 채팅방이 IT 범주에 추가 됩니다.
   
-```
+```PowerShell
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
 ```
 
@@ -99,7 +99,7 @@ New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.
 
 **Set-CsPersistentChatRoom** cmdlet을 사용 하 여 기존 방을 구성할 수 있습니다. 예를 들어 다음 명령은 testCat Auditorium 방에 대해 구성원 및 발표자로 user1을 할당 하 고 관리자로 서,이를 이름으로 지정 합니다.
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
 Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
@@ -107,13 +107,13 @@ Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.co
 
  다음 예에서는 active Directory의 NorthAmericaUsers OU에 있는 모든 사용자를 NorthAmerica 채팅방에 추가 합니다.
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAmerica" -Members @{Add="OU=NorthAmericaUsers,DC=contoso,DC=com"}
 ```
 
 다음 예에서는 재무 메일 그룹의 모든 구성원을 같은 채팅방에 추가 합니다.
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAmerica" -Members @{Add="CN=Finance,OU=ExternalUsers,DC=contoso,DC=com"}
 ```
 
@@ -127,13 +127,13 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
   
 **CsPersistentChatRoom** cmdlet을 사용 하 고 Disabled 매개 변수를 True로 설정 하 여 채팅방을 사용 하지 않도록 설정할 수 있습니다.
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $True
 ```
 
 채팅방을 사용 하도록 설정 하려면 Disabled 매개 변수를 False로 설정 합니다.
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
 ```
 
@@ -143,7 +143,7 @@ Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled
   
 다음 명령은 조직에서 사용 하도록 구성 된 모든 채팅방에 대 한 정보를 반환 합니다.
   
-```
+```PowerShell
 Get-CsPersistentChatRoom
 ```
 
@@ -151,7 +151,7 @@ Get-CsPersistentChatRoom
 
 **CsPersistentChatRoom** cmdlet을 사용 하 여 채팅방에서 콘텐츠를 제거할 수 있습니다. 예를 들어 다음 명령은 2015 년 3 월 1 일 이전에 룸에 추가 된 영구 채팅방 공간에서 모든 콘텐츠를 제거 합니다.
   
-```
+```PowerShell
 Clear-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -EndDate "3/1/2015"
 ```
 
@@ -159,13 +159,13 @@ Clear-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -EndDat
 
 영구 채팅 데이터베이스에서 하나 이상의 메시지를 제거 하 고 필요에 따라 **CsPersistentChatMessage** cmdlet을 사용 하 여 메시지를 기본 메시지 또는 관리자가 제공한 메시지로 바꿀 수 있습니다. 예를 들어 다음 명령을 사용 하 여 사용자 kenmyer@contoso.com에 의해 게시 된 모든 메시지를 It 채팅방 채팅방에서 제거 합니다.
   
-```
+```PowerShell
 Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITChatRoom" -UserUri "sip:kenmyer@contoso.com"
 ```
 
 다음 예제에서는 제거 된 메시지를 메시지가 더 이상 사용할 수 없는 메모로 바꿉니다.
   
-```
+```PowerShell
 Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITChatRoom" -UserUri "sip:kenmyer@contoso.com" -ReplaceMessage "This message is no longer available."
 ```
 
@@ -175,7 +175,7 @@ Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITC
   
 예를 들어 다음 명령은 채팅방 RedmondChatRoom를 제거 합니다.
   
-```
+```PowerShell
 Remove-CsPersistentChatRoom -Identity "atl-gc-001.contoso.com\RedmondChatRoom"
 ```
 

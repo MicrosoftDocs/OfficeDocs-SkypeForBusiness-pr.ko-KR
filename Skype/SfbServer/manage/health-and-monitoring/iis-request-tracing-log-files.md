@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 description: '요약: 레거시 클라이언트에 대 한 비즈니스용 Skype 서버 2015 지원의 모바일 서비스 (Mcx)에 대해 알아보세요.'
-ms.openlocfilehash: b8d22146de43f020b62cc249a07990fb9f0cc73c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f519a04f878caf953c54873a6a704232245b344b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197628"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992183"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>비즈니스용 Skype에서 IIS 요청 추적 로그 파일 모니터링
  
@@ -28,11 +28,11 @@ ms.locfileid: "36197628"
   
 Mcx (비즈니스용 Skype Server Mobility Service)에 대 한 IIS (인터넷 정보 서비스) 요청 추적을 사용 하도록 설정 하면 생성 되는 로그 파일은 하루에 최대 3gb의 디스크 공간을 소모할 수 있습니다. IIS 추적 로깅은 기본적으로 사용 하도록 설정 되어 있습니다. 프런트 엔드 서버를 모니터링 하 여 디스크 공간이 부족 한지 확인 해야 합니다. 
   
-기본적으로 IIS는%SystemDrive%\inetpub\logs\LogFiles.에서 로그 파일을 저장 합니다.
+기본적으로 IIS 는%SystemDrive%\inetpub\logs\LogFiles.에서 로그 파일을 저장 합니다.
   
 전체 서버에 대해 IIS 요청 추적을 해제 하려면 명령줄에 다음을 입력 합니다.
   
-```
+```console
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 

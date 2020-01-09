@@ -6,7 +6,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: abhisgu
+ms.reviewer: abgupta
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 description: 팀 만료 및 갱신 및 Office 365 그룹 만료 정책을 사용 하 여 Microsoft 팀에서 사용 하지 않은 팀을 자동으로 정리 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fd7dfdececc9a490ff930bdba9948e9196c74f2
-ms.sourcegitcommit: fc7d5e812873b648b374eef23d02c914a56b51d1
+ms.openlocfilehash: 2baf466b28874794c4e9b7191be155de7187754e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37639502"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992815"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Microsoft 팀에서 팀 만료 및 갱신
 
@@ -39,7 +39,7 @@ ms.locfileid: "37639502"
 
 실수로 삭제 되는 것을 방지 하기 위해 자동 갱신은 그룹 만료 정책에서 팀에 자동으로 설정 됩니다. 그룹 만료 정책이 설정 된 경우 만료 날짜가 되기 전에 모든 팀 구성원 으로부터 최소한 하나의 채널이 방문 하는 팀은 팀 소유자의 수동 개입 없이 자동으로 갱신 됩니다.
 
-## <a name="known-issues"></a>알려진 문제점
+## <a name="known-issues"></a>알려진 문제
 
 **팀 및 기본 그룹의 만료 날짜가 일치 하지 않음**
 

@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 822483d1475d083ef18213e94d438d5c2a4eb48c
-ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
+ms.openlocfilehash: c49cf08d7d753e3a05bdcac89105f24621ccf29f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38638838"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992805"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft 팀 live 이벤트는 무엇 인가요?
 
@@ -77,7 +77,7 @@ ECDN의 목표는 인터넷에서 비디오 콘텐츠를 가져와 네트워크 
 - [경사](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>참석자 환경 
-참석자 환경은 라이브 이벤트의 가장 중요 한 측면이 며 참석자가 문제 없이 라이브 이벤트에 참여할 수 있도록 하는 것이 중요 합니다. 참석자 환경은 Azure Media Player (팀에서 생성 된 이벤트)와 스트림 플레이어 (외부 앱 또는 장치에서 생성 된 이벤트의 경우)를 사용 하 고 데스크톱, 브라우저 및 모바일 (iOS, Android)에서 작동 합니다. Office 365는 두 공동 작업 허브로 Yammer와 팀을 제공 하 고, 실시간 참석자 환경이 이러한 공동 작업 도구에 통합 되어 있습니다. 
+참석자 환경은 라이브 이벤트의 가장 중요 한 측면이 며 참석자가 문제 없이 라이브 이벤트에 참여할 수 있도록 하는 것이 중요 합니다. 참석자 환경은 스트림 재생기 (팀에서 생성 된 이벤트)와 Azure Media Player (외부 앱 또는 장치에서 생성 된 이벤트의 경우)를 사용 하 고 데스크톱, 브라우저 및 모바일 (iOS, Android)에서 작동 합니다. Office 365는 두 공동 작업 허브로 Yammer와 팀을 제공 하 고, 실시간 참석자 환경이 이러한 공동 작업 도구에 통합 되어 있습니다. 
 
 ![Live 이벤트의 참석자 경험을 보여 주는 스크린샷](../media/teams-live-events-attendee.png "Live 이벤트의 참석자 경험을 보여 주는 스크린샷")
 

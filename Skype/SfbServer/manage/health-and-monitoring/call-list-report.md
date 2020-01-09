@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: '요약: 비즈니스용 Skype 서버의 응답 그룹 응용 프로그램에 대해 알아보세요.'
-ms.openlocfilehash: 216f07a81beaa962bf091e815c797611f9e236ac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2d372f7b57909ee2b926dbf0a8333df5904df0c3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191400"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992063"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 응답 그룹 통화 목록 보고서
 
@@ -65,9 +65,9 @@ ms.locfileid: "36191400"
 
 3. Windows PowerShell을 사용 하 여 분석을 실행 합니다.
 
-예를 들어 데이터를 C:\Data\Response_Group_Call_List_Report.csv 이라는 파일에 저장 한 경우 다음 명령을 사용 하 여 보고서에 나열 된 각 워크플로에 대 한 총 수신 통화 수를 반환할 수 있습니다.
+예를 들어 데이터를 C:\Data\ Response_Group_Call_List_Report 라는 파일에 저장 한 경우 다음 명령을 사용 하 여 보고서에 나열 된 각 워크플로에 대 한 총 수신 통화 수를 반환할 수 있습니다.
 
-```
+```PowerShell
 $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
 $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
 ```

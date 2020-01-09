@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: '요약: 비즈니스용 Skype 서버 2015에서 중앙 집중화 된 로깅 서비스 캡처 로그를 검색 하 고 읽는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 81bf539c6a06c52354db23bbeea97fb9525cbbd5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 563f2c5e08da0830c3bd03e562d0d94052fa359b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186804"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991453"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>비즈니스용 Skype 2015의 중앙 로깅 서비스에서 만든 캡처 로그 검색
  
@@ -39,13 +39,13 @@ ms.locfileid: "36186804"
   
 비즈니스용 Skype Server Management Shell을 사용 하 여 중앙 집중식 로깅 서비스 검색 기능을 실행 하려면 CsAdministrator 또는 CsServerAdministrator 역할 기반 액세스 제어 (RBAC) 보안 그룹 또는 사용자 지정 RBAC 역할 중 하나의 구성원 이어야 합니다. 이러한 두 그룹 중 하나가 포함 되어 있습니다. 이 cmdlet이 할당 된 모든 RBAC 역할 목록 (직접 만든 사용자 지정 RBAC 역할 포함)을 반환 하려면 비즈니스용 Skype Server 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
 예를 들면 다음과 같습니다.
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -57,7 +57,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 전역 범위에서 배포에 AlwaysOn 시나리오가 실행 되 고 있는지 확인 한 다음 명령 프롬프트에서 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
    ```
 
@@ -66,7 +66,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 예를 들면 다음과 같습니다.
     
-  ```
+  ```PowerShell
   Search-CsClsLogging -OutputFilePath "C:\LogFiles\logfile.txt"
   ```
 
@@ -74,19 +74,19 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 1. 특정 풀이나 컴퓨터로 검색을 제한 하려면-Computers 매개 변수를 컴퓨터의 정규화 된 이름으로 정의한 컴퓨터와 함께 사용 하 고, 다음과 같이 따옴표로 묶이고 쉼표로 구분 합니다.
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
    ```
 
 예를 들면 다음과 같습니다.
     
-  ```
+  ```PowerShell
   Search-CsClsLogging -Computers "fe01.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
   ```
 
 2. 두 대 이상의 컴퓨터를 검색 하려면 다음과 같이 따옴표로 묶여 여러 컴퓨터 이름을 입력 하 고 쉼표로 구분 합니다.
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
    ```
 
@@ -94,7 +94,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
     예를 들면 다음과 같습니다.
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
@@ -102,7 +102,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
     예를 들면 다음과 같습니다.
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
@@ -114,7 +114,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
     예를 들어-StartTime 및-EndTime을 사용 하 여 시간 및 날짜 범위를 정의 하면 풀의 11/20/2012에 오전 8 시와 9 시 사이의 검색을 정의할 수 있습니다. 다음과 같이 c:\logfile.txt 이라는 파일에 결과를 기록 하도록 출력 경로를 설정할 수 있습니다.
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
@@ -125,7 +125,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 예를 들면 다음과 같습니다.
     
-  ```
+  ```PowerShell
   Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 11:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
   ```
 
@@ -143,13 +143,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 특정 구성 요소에 대 한 추적을 수집 하는 명령을 실행 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
    ```
 
 예를 들면 다음과 같습니다.
     
-  ```
+  ```PowerShell
   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
   ```
 
@@ -157,19 +157,19 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 3. Pool01.contoso.net 라는 프런트 엔드 풀에 대해서도 동일한 구성 요소로 검색을 제한 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
 4. 여러 매개 변수가 있는 명령에 대 한 기본 검색 논리는 정의 된 각 매개 변수와 논리 OR를 사용 하는 것입니다. **-Matchall** 매개 변수를 지정 하 여이 동작을 변경할 수 있습니다. 이렇게 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
 5. 시나리오가 AlwaysOn과 같이 지속적으로 실행 되도록 설정 되어 있거나 장기 실행 시나리오 로그가 사용자가 로컬 컴퓨터를 파일 공유로 롤백할 수 있습니다. 새 구성을 만들거나 Set-CsClsConfiguration을 사용 하 여 기존 구성을 수정 하기 위해 새로운 CsClsConfiguration을 사용 하 여 CacheFileNetworkFolder 매개 변수를 사용 하 여 파일 공유를 정의 합니다. 검색할 로그 모음에 파일 공유를 포함 하지 않으려면 다음과 같이 SkipNetworkLogs 매개 변수를 사용 합니다.
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 

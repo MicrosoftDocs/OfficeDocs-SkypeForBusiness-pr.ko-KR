@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: '요약: 비즈니스용 Skype 서버에서 체감 품질 데이터의 보존을 지정 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 89e20b18aa285bd4ee61df12c822e487dd6b37a4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c597c0e5e3fbd2a8a92304ffd55d866a15c121a9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188784"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992043"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 경험 치 설정 수정
 
@@ -52,7 +52,7 @@ Windows PowerShell 및 **CsQoEConfiguration** cmdlet을 사용 하 여 체감 �
 
 - 이 명령을 사용 하 여 Redmond 사이트에 대 한 체감 품질 데이터를 제거 하 고, 사이트를 구성 하 여 20 일 동안 체감 품질 데이터를 유지 합니다.
 
-  ```
+  ```PowerShell
   Set-CsQoeConfiguration -Identity "site:Redmond" -EnablePurging -KeepQoEDataForDays 20
   ```
 
@@ -60,7 +60,7 @@ Windows PowerShell 및 **CsQoEConfiguration** cmdlet을 사용 하 여 체감 �
 
 - 이 명령은 조직에서 사용 중인 모든 체감 품질 구성 설정에 대해 체감 품질 보존을 구성 합니다.
 
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 

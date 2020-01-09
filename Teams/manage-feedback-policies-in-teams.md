@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 팀 사용자가 Microsoft에 팀에 대 한 피드백을 제출할 수 있는지 여부를 제어 하는 데 피드백 정책을 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1322023eb7644b84544ac8ca44fba0a63c6b868d
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: 78a6f0856d8b973ecfa1c8af52ee50480be0e838
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998836"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991423"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft 팀에서 피드백 정책 관리
 
@@ -59,7 +59,7 @@ ms.locfileid: "39998836"
 
 이 예제에서는 새 고용 피드백 정책 이라고 하는 피드백 정책을 만들고 피드백 및 설문 조사 **를 통해 피드백** 을 제공 하는 기능을 해제 합니다.
 
-```
+```PowerShell
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
@@ -69,7 +69,7 @@ New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMod
 
 이 예제에서는 user1 이라는 사용자에 게 새 채용 사용자 의견 정책 이라는 사용자 지정 정책을 할당 합니다.
 
-```
+```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 ### <a name="assign-a-custom-feedback-policy-to-users-in-a-group"></a>그룹의 사용자에 게 사용자 지정 피드백 정책 할당
@@ -79,15 +79,15 @@ Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Fe
 이 예제에서는 Contoso 새 고용 그룹의 모든 사용자에 게 새 채용 사용자 의견 정책 이라는 사용자 지정 피드백 정책을 할당 합니다.  
 
 특정 그룹의 GroupObjectId를 가져옵니다.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso New Hires"
 ```
 지정 된 그룹의 구성원을 가져옵니다.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 그룹의 모든 사용자를 특정 피드백 정책에 할당 합니다. 이 예제에서는 새 채용에 대 한 의견 수집 정책입니다.
-```
+```PowerShell
 $members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.

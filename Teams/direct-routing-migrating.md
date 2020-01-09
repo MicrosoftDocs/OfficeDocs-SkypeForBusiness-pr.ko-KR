@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 비즈니스용 Skype Online 및 팀 구성 관점에서 직접 라우팅하기 위해 마이그레이션하는 데 필요한 사항에 대해 알아보세요.
-ms.openlocfilehash: dd0b2cd1ac6014ea0f6c79a46314eb4e3d5e0380
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: 4c65a8c5d5a28ab5046c23e2743962fe1114c2a4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871714"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992585"
 ---
 # <a name="migrate-to-direct-routing"></a>직접 라우팅으로 마이그레이션
 
@@ -38,7 +38,7 @@ ms.locfileid: "39871714"
 
 |사용자 개체 특성 |통화 요금제가 포함 되어 있는 전화 시스템|비즈니스용 Skype 서버를 통해 온-프레미스 PSTN 연결을 사용 하는 전화 시스템|클라우드 커넥터를 통해 온-프레미스 PSTN 연결을 사용 하는 전화 시스템|직접 라우팅을 통한 온-프레미스 PSTN 연결을 사용 하는 전화 시스템|
 |---|---|---|---|---|
-|클라이언트측|비즈니스용 Skype 또는 팀 |비즈니스용 Skype |비즈니스용 Skype |Teams|
+|클라이언트|비즈니스용 Skype 또는 팀 |비즈니스용 Skype |비즈니스용 Skype |Teams|
 |라이센스|Skype Business Online</br>계획 2</br></br>MCOProfessional 또는 MCOPROFESSIONAL)</br></br></br>휴대폰 시스템 (MCOEV)</br></br></br>통화 플랜</br>Teams|Skype Business Online 계획 2 (MCOProfessional 또는 MCOPROFESSIONAL)</br></br></br>휴대폰 시스템 (MCOEV)|Skype Business Online 계획 2 (MCOProfessional 또는 MCOPROFESSIONAL)</br></br></br>휴대폰 시스템 (MCOEV)|Skype Business Online 요금제 2 (MCOProfessional 또는 MCOPROFESSIONAL</br></br></br>휴대폰 시스템 (MCOEV)</br></br>Teams|
 OnPremLineURI |해당 없음|전화 번호는 온-프레미스 광고와 동기화 되어야 합니다. |전화 번호는 온-프레미스 Active Directory 또는 Azure Active Directory에서 관리할 수 있습니다.|전화 번호는 온-프레미스 Active Directory 또는 Azure Active Directory에서 관리할 수 있습니다. 그러나 조직에 비즈니스용 Skype가 있는 경우에는 온-프레미스 Active Directory에서 번호를 동기화 해야 합니다.|
 |LineURI|PSTN 통화 전화 번호|OnPremLineURI 매개 변수에서 자동으로 설정 됩니다.|OnPremLineURI 매개 변수에서 자동으로 설정 됩니다.|OnPremLineURI 매개 변수에서 자동으로 설정 됩니다.|
@@ -86,7 +86,7 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 다음과 같이 이전에 구성한 음성 라우팅 정보를 제거 하는 것이 좋습니다.
 
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > 전역 CsVoiceRoutingPolicy 구성 된 경우이 글로벌 정책과 연결 된 PSTN 사용량을 제거 하는 것이 좋습니다. 
@@ -101,7 +101,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 
 다음과 같이 이전에 구성한 음성 라우팅 정보를 제거 하는 것이 좋습니다.
  
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPSTNSite $null 
 ```

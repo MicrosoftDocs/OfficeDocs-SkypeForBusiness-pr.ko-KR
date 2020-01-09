@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 description: PurgeSettings 테이블에는 체감 품질 데이터베이스에서 오래 된 경력 품질 레코드가 자동으로 삭제 되는지 여부를 지정 하는 정보가 포함 되어 있습니다. 다음 명령을 실행 하 여 비즈니스용 Skype 서버 관리 셸에서 제거 관련 정보를 얻을 수도 있습니다.
-ms.openlocfilehash: ec957a445c59020e8909beeb8cb3dcd12f662d68
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: db102a84d58f03fb92a69a301b6906c4b146602c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196540"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992143"
 ---
 # <a name="purgesettings-table-qoe"></a>PurgeSettings 테이블 (체감 품질)
  
 PurgeSettings 테이블에는 체감 품질 데이터베이스에서 오래 된 경력 품질 레코드가 자동으로 삭제 되는지 여부를 지정 하는 정보가 포함 되어 있습니다. 다음 명령을 실행 하 여 비즈니스용 Skype 서버 관리 셸에서 제거 관련 정보를 얻을 수도 있습니다.
   
-```
+```PowerShell
 Get-CsQoEConfiguration
 ```
 

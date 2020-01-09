@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '페더레이션 파트너와의 통신을 지원 하도록 정책을 구성 하는 경우 페더레이션 도메인의 사용자에 게 정책이 적용 됩니다. '
-ms.openlocfilehash: 00552dfd6e2cb92d1bd50cb851bfb8324122c5ff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d9192589191590cd96f72323681ef4df6513e36d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188853"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991763"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 페더레이션된 사용자 액세스를 제어 하도록 정책 구성
 
@@ -69,7 +69,7 @@ ms.locfileid: "36188853"
 
 3.  비즈니스용 Skype 서버 관리 셸에서 다음을 입력 합니다.
     
-    ```
+    ```PowerShell
     Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAcess <$true, $false> -EnablePublicCloudAudioVideoAcess <$true, $false> -EnableOutsideAcess <$true, $false>
     ```
        
@@ -86,13 +86,13 @@ ms.locfileid: "36188853"
 
 3.  비즈니스용 Skype 서버 관리 셸에서 다음을 입력 합니다.
     
-    ```
+    ```PowerShell
     New-CsExtenalAccessPolicy -Identity <name of site or user policy - you cannot create a new global policy using New-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
     ```
     
     새 사이트 정책을 만드는 예:
     
-    ```
+    ```PowerShell
     New-CsExternalAccessPolicy -Identity site:Redmond -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     ```
 
@@ -121,13 +121,13 @@ ms.locfileid: "36188853"
 ## <a name="see-also"></a>참고 항목
 
 
-[페더레이션 및 공용 메신저 연결 사용 또는 사용 안 함](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 
+[페더레이션 및 공개 IM 연결을 사용하도록 설정 또는 해제](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 
 
 [외부 사용자 액세스 정책 할당](assign-an-external-user-access-policy.md)
 
-[조직의 SIP 페더레이션된 도메인 관리](../sip-domains/manage-sip-federated-domains-for-your-organization.md)
+[조직의 SIP 페더레이션 도메인 관리](../sip-domains/manage-sip-federated-domains-for-your-organization.md)
  
-[조직의 SIP 페더레이션 공급자 관리](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+[조직의 SIP 페더레이션 제공자 관리](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
 [Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
 [New-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  

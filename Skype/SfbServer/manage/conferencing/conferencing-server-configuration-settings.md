@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: '요약: 비즈니스용 Skype 서버에서 회의 서버 구성 설정을 관리 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 190cd78e3c81f98859c40fe386fae2c4fd934a8e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: be6ccb094cc19a29534d1ca78eb2cae1457d6512
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191268"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991903"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 서버 구성 설정 관리
  
@@ -42,7 +42,7 @@ ms.locfileid: "36191268"
    
 다음 명령은 Redmond 사이트 (사이트: Redmond)에 대 한 새 회의 구성 설정 모음을 만듭니다. 이 예제에서는 조직 속성의 값을 Litwareinc로 설정 하는 데 사용 되는 추가 매개 변수 하나 (조직)가 포함 되어 있습니다. 
   
-```
+```PowerShell
 New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
 ```
 
@@ -56,7 +56,7 @@ New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
   
 마지막으로 세 번째 명령은 **CsConferencingConfiguration** cmdlet을 사용 하 여 새 설정을 Redmond 사이트에 실제로 적용 합니다.
   
-```
+```PowerShell
 $x = New-CsConferencingConfiguration -Identity site:Redmond -InMemory
 $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bd65376be278a3d07e5a7a8c4ba69ccd5408090
-ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
+ms.openlocfilehash: f4ed7f4bc282686c31f2f9c2239fbe6326e5151f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39961613"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992545"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 교대 근무 앱 관리
 
@@ -87,15 +87,15 @@ Graph 모듈의 Azure Active Directory PowerShell 및 비즈니스용 Skype Powe
 > 먼저 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)의 단계를 따라 Graph 모듈 및 비즈니스용 Skype powershell 모듈에 대 한 Azure Active Directory powershell에 연결 해야 합니다.
 
 특정 그룹의 GroupObjectId를 가져옵니다.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```
 지정 된 그룹의 구성원을 가져옵니다.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 그룹의 모든 사용자를 FirstlineWorker 앱 설정 정책에 할당 합니다.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: '요약: 비즈니스용 Skype 서버에서 환경 품질 (체감 품질)을 사용 하도록 설정 하는 방법을 알아봅니다.'
-ms.openlocfilehash: 90110c5664e80ac1d4f9d382c20e0fd58d9ce134
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0a05266ed88b9d476ca787f1d32b91727e90475c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197632"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992938"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 환경 품질 사용
 
@@ -46,7 +46,7 @@ Windows PowerShell 및 **Set-CsQoEConfiguration** cmdlet을 사용 하 여 체�
 
  체감 품질을 사용 하도록 설정 하려면 EnableQoE 매개 변수를 True ($True)로 설정 합니다.
 
-  ```
+  ```PowerShell
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $True
   ```
 
@@ -54,7 +54,7 @@ Windows PowerShell 및 **Set-CsQoEConfiguration** cmdlet을 사용 하 여 체�
 
  체감 품질를 사용 하지 않으려면 EnableQoE 매개 변수를 False ($False)로 설정 합니다. 이는 모니터링을 제거 하지 않습니다. 체감 품질 데이터의 컬렉션 및 저장소를 일시 중지 합니다.
 
-  ```
+  ```PowerShell
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
   ```
 
@@ -62,7 +62,7 @@ Windows PowerShell 및 **Set-CsQoEConfiguration** cmdlet을 사용 하 여 체�
 
  이 명령은 현재 조직에서 사용 중인 모든 체감 품질 구성 설정에 대해 체감 품질을 사용 하도록 설정 합니다.
 
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
   ```
 

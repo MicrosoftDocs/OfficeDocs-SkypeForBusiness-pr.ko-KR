@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: '요약: 비즈니스용 Skype 서버의 보관 된 데이터 제거를 관리 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 193e17791290b384552542129d8d89c20296f109
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f168f7fe744ef388de246cbcd2dd9de0fc2ef805
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188211"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991613"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 보관 된 데이터 제거 관리
 
@@ -57,13 +57,13 @@ ms.locfileid: "36188211"
     
 예를 들어 다음 명령을 사용 하 여 아카이브된 모든 데이터를 제거할 수 있습니다. 이 명령을 실행 한 후 비즈니스용 Skype Server는 KeepArchivingDataForDays 매개 변수에 지정 된 값 보다 오래 된 모든 보관 레코드를 제거 합니다. 
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
 다음 명령은 **내보내기-CSArchivingData** cmdlet을 사용 하 여 데이터 파일로 내보낸 보관 된 레코드로의 제거를 제한 합니다. 또한 PurgeExportedArchivesOnly 매개 변수를 True ($True)로 설정 해야 합니다.
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
@@ -71,12 +71,12 @@ Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -Purg
   
 기록 보관의 자동 제거를 사용 하지 않도록 설정 하려면 EnablePurging 매개 변수를 False ($False)로 설정 합니다.
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
 다음 예제에서는 **CsArchivingDatabasePurge** cmdlet을 사용 하 여 atl-sql-001.contoso.com의 보관 데이터베이스에서 24 시간 이상 오래 된 레코드를 모두 제거 합니다. 내보내지지 않은 레코드를 포함 하 여 모든 레코드가 삭제 되도록 PurgeExportedArchivesOnly 매개 변수가 False ($False)로 설정 됩니다.
   
-```
+```PowerShell
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False
 ```

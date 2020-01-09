@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: '요약: 비즈니스용 Skype 서버에서 회의 정책을 보는 방법에 대해 알아보세요.'
-ms.openlocfilehash: 1f1545761838cf176abd88fa12abd9ef5a1d8136
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7ea7b5cb9ba54fcf26e5f37b79320466c19d1050
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188916"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992193"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 정책 보기
  
@@ -43,7 +43,7 @@ Skype for Business Server 제어판을 사용 하거나 비즈니스용 Skype �
 
 회의 정책을 보려면 **Get-CsConferencingPolicy** cmdlet을 사용 합니다.
   
-```
+```PowerShell
 Get-CsConferencingPolicy
 ```
 

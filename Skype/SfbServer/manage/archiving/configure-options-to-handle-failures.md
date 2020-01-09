@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: '요약: 보관을 방지 하는 비즈니스용 Skype 서버 장애가 발생 한 경우 IM 및 회의 세션을 차단 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 38f79277ff12aa8e716b034e8393a4d8b71cdbba
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ed8a59a8c19ace9a83b699e1b69515f52c3af010
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190389"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992755"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 오류 처리를 위한 보관 옵션 구성
 
@@ -45,13 +45,13 @@ BlockOnArchiveFailure 매개 변수와 함께 **CsArchivingConfiguration** cmdle
   
 예를 들어 다음 명령은 보관 오류 시 통신을 비활성화 합니다.
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $True
 ```
 
 다음 명령을 사용 하 여 보관 오류가 발생 하는 경우의 통신을 가능 하 게 합니다.
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 

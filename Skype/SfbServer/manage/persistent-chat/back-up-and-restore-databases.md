@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버 데이터베이스를 백업 하 고 복원 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 0bb4895ef85ac9f38f2f9ef414769efcac6894b4
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: a8c407c35b9d864889c26cbea7296dbed86516fa
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197873"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991973"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>영구 채팅 데이터베이스 백업 및 복원
  
@@ -41,19 +41,19 @@ SQL Server 백업 절차를 사용 하려는 경우 자세한 내용은 SQL 설�
   
 **Export-CsPersistentChatData** cmdlet을 사용 하려는 경우 다음과 같이 명령을 지정할 수 있습니다.
   
-```
+```PowerShell
 Export-CsPersistentChatData [-FileName <String>] <COMMON PARAMETERS>
 ```
 
 또는
   
-```
+```PowerShell
 Export-CsPersistentChatData [-AsBytes <SwitchParameter>] <COMMON PARAMETERS>
 ```
 
 예를 들어 다음 명령은 서버 atl-sql-001.contoso.com에 있는 영구 채팅 데이터베이스에서 영구 채팅 데이터를 내보냅니다. 내보낸 데이터는 파일 C:\Logs\PersistentChatData.zip.에 저장 됩니다. Level 매개 변수가 지정 되지 않았으므로이 명령은 영구 채팅 정보를 전체적으로 내보냅니다.
   
-```
+```PowerShell
 Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName "C:\Logs\PersistentChatData.zip"
 ```
 
@@ -61,12 +61,12 @@ Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName 
 
 영구 채팅 데이터를 복원 하는 방법은 백업 하는 데 사용한 방법에 따라 다릅니다. SQL Server 백업 절차를 사용 하는 경우 SQL Server restore 프로시저를 사용 해야 합니다. **CsPersistentChatData** cmdlet을 사용 하 여 영구 채팅 데이터를 백업한 경우 **CsPersistentChatData** cmdlet을 사용 하 여 데이터를 복원 해야 합니다.
   
-```
+```PowerShell
 Import-CsPersistentChatData -FileName <String> <COMMON PARAMETERS>
 ```
 
 또는
   
-```
+```PowerShell
 Import-CsPersistentChatData -ByteInput <Byte > <COMMON PARAMETERS>
 ```

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: '요약: 비즈니스용 Skype 서버의 오류 목록 보고서에 대해 자세히 알아보세요.'
-ms.openlocfilehash: 72637863d7a15d26ea997de8a9c3526279afc57f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d0ba76974d99b123c99e3df40a6850736423ab73
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197630"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992825"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 오류 목록 보고서 
  
@@ -51,9 +51,9 @@ ms.locfileid: "36197630"
   
 사용자의 미디어를 만드는 동안 내부 서버 오류가 발생 했습니다.
   
-실패 목록 보고서에는 실패 한 하나 이상의 세션에 참가 한 모든 사용자의 목록을 직접 검색 하는 간단한 방법이 나와 있지 않으며, 실패 한 사용자에 게 가장 자주 관여 하는 사람을 확인 하는 방법이 제공 되지 않는다는 점에 유의 해야 합니다. 세션만. 한 가지 방법으로 실패 목록 보고서에는 필터링 기능이 없습니다. 그러나 데이터를 내보낸 다음 쉼표로 구분 된 값 파일로 변환 하는 경우 Windows PowerShell을 사용 하 여 이와 같은 질문에 대 한 답변을 찾을 수 있습니다. 예를 들어 데이터를에 저장 한다고 가정 합니다. C:\Data\Failure_List.csv. 라는 CSV 파일 이 명령은 해당 파일에 저장 된 데이터를 기반으로 하나 이상의 실패 한 세션에 참가 한 모든 사용자를 나열 합니다. 
+실패 목록 보고서에는 실패 한 하나 이상의 세션에 참가 한 모든 사용자의 목록을 직접 검색 하는 간단한 방법이 나와 있지 않으며, 실패 한 사용자에 게 가장 자주 관여 하는 사람을 확인 하는 방법이 제공 되지 않는다는 점에 유의 해야 합니다. 세션만. 한 가지 방법으로 실패 목록 보고서에는 필터링 기능이 없습니다. 그러나 데이터를 내보낸 다음 쉼표로 구분 된 값 파일로 변환 하는 경우 Windows PowerShell을 사용 하 여 이와 같은 질문에 대 한 답변을 찾을 수 있습니다. 예를 들어 데이터를에 저장 한다고 가정 합니다. CSV 파일 이름 \ Failure_List. 이 명령은 해당 파일에 저장 된 데이터를 기반으로 하나 이상의 실패 한 세션에 참가 한 모든 사용자를 나열 합니다. 
   
-```
+```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
 $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 ```
@@ -72,7 +72,7 @@ $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 
 다음 두 명령은 각 사용자가 참여 한 실패 한 총 세션 수를 보고 합니다.
   
-```
+```PowerShell
 $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
 $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 ```

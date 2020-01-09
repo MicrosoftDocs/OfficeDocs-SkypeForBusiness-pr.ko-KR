@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6779e9b0fa236b1c239f9e6aa56d97e9437fb422
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: 73d8de57b7b47ced8217e0f7aca384f4b55b0468
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793524"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988983"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft 팀의 보존 정책
 
@@ -39,7 +39,6 @@ ms.locfileid: "38793524"
 팀 보존 정책은 아직 지원 되지 않습니다.
 
 - 고급 보존 정책은 팀 채팅 및 팀 채널 메시지 위치에 적용 되지 않습니다.
-- 기간을 30 일 미만으로
 
 관리자는 팀 개인 채팅 (1:1 또는 1: 여러 채팅) 및 팀 채널 메시지에 대 한 별도의 보존 정책을 설정할 수 있습니다. 대부분의 경우 조직은 일반적으로 프로젝트 관련 대화에 대 한 채널 메시지 보다 더 많은 책임으로 개인 채팅 데이터를 고려 합니다. 보안 & 준수 센터, **정보 관리** > **보존**에서 이러한 정책을 설정 합니다. **팀 채널 메시지** 및 **팀 채팅** 을 켠 다음이 위치에 대 한 보존 정책 정의 (아래 다이어그램에도 표시 됨) 
 

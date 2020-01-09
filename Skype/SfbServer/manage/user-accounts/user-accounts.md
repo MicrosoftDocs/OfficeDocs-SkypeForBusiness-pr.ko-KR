@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: 이 문서의 섹션에서는 비즈니스용 Skype 서버에서 Active Directory 사용자를 활성화, 비활성화 또는 제거 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 83ab64415b21d37f12d3768feeb39b11491787af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 45217593dd010c4daf73d6b5edcbf6f5f4e681a5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187071"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992405"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 사용자 계정 관리
 
@@ -84,7 +84,7 @@ Active Directory 사용자 및 컴퓨터에서 사용자 계정을 사용 하도
 
 5. **새 Lync Server 사용자** 대화 상자에서 **추가**를 클릭 합니다.
 
-6. **사용자 검색** 상자에 이름, 표시 이름, 이름, 성, 보안 계정 관리자 (SAM) 계정 이름, 전자 메일 주소, UPN (사용자 이름) 또는 원하는 Active Directory 사용자 계정의 전화 번호 중 첫 번째 부분 또는 일부를 입력 합니다. 한 다음 **찾기를**클릭 합니다.
+6. **사용자 검색** 상자에 이름, 표시 이름, 이름, 성, 보안 계정 관리자 (SAM) 계정 이름, 전자 메일 주소, UPN (사용자 이름) 또는 원하는 Active Directory 사용자 계정의 전화 번호 중 첫 번째 부분을 입력 한 다음 **찾기를**클릭 합니다.
 
 7. 표에서 비즈니스용 Skype 서버에 추가 하려는 계정을 선택한 다음 **확인**을 클릭 합니다.
 
@@ -101,7 +101,7 @@ Active Directory 사용자 및 컴퓨터에서 사용자 계정을 사용 하도
 
 3. 왼쪽 탐색 모음에서 **사용자**를 클릭 합니다.
 
-4. **사용자 검색** 상자에 표시 이름, 이름, 성, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 비활성화 하거나 다시 사용 하도록 설정할 사용자 계정의 URI (Uniform resource identifier)를 모두 또는 첫 번째 부분으로 입력 합니다. 한 다음 **찾기를**클릭 합니다.
+4. **사용자 검색** 상자에 표시 이름, 이름, 성, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 사용 하지 않도록 설정 하려는 사용자 계정의 URI (Uniform resource identifier)를 모두 또는 첫 번째 부분을 입력 한 다음 **찾기를**클릭 합니다.
 
 5. 표에서 사용 하지 않도록 설정 하거나 다시 사용할 수 있도록 설정할 사용자 계정을 클릭 합니다.
 
@@ -119,7 +119,7 @@ Active Directory 사용자 및 컴퓨터에서 사용자 계정을 사용 하도
 
 - 사용자 계정을 일시적으로 사용 하지 않도록 설정 하려면 Enabled 속성의 값을 False ($False)로 설정 합니다. 예를 들면 다음과 같습니다.
 
-  ```
+  ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $False
   ```
 
@@ -127,7 +127,7 @@ Active Directory 사용자 및 컴퓨터에서 사용자 계정을 사용 하도
 
 - 사용 하지 않도록 설정 된 사용자 계정을 다시 사용 하도록 설정 하려면 Enabled 속성의 값을 True ($True)로 설정 합니다. 예를 들면 다음과 같습니다.
 
-  ```
+  ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
@@ -146,7 +146,7 @@ Active Directory 사용자 및 컴퓨터에서 사용자 계정을 사용 하도
 
 3. 왼쪽 탐색 모음에서 **사용자**를 클릭 합니다.
 
-4. **사용자 검색** 상자에 설정 하려는 사용자 계정의 표시 이름, 이름, 성, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 줄의 URI (Uniform resource identifier) 중 일부 또는 전체를 입력 한 다음을 클릭 합니다. **찾습니다**.
+4. **사용자 검색** 상자에 표시 이름, 성, 이름, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 사용 하도록 설정할 사용자 계정의 URI (Uniform resource identifier) 중 일부 또는 전체를 입력 한 다음 **찾기를**클릭 합니다.
 
 5. 표에서 Enterprise Voice에 사용할 사용자 계정을 클릭 합니다.
 
@@ -174,7 +174,7 @@ Active Directory 사용자 및 컴퓨터에서 사용자 계정을 사용 하도
 
 3. 왼쪽 탐색 모음에서 **사용자**를 클릭 합니다.
 
-4. **사용자 검색** 상자에 표시 이름, 이름, 성, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 비활성화 하거나 다시 사용 하도록 설정할 사용자 계정의 URI (Uniform resource identifier)를 모두 또는 첫 번째 부분으로 입력 합니다. 한 다음 **찾기를**클릭 합니다.
+4. **사용자 검색** 상자에 표시 이름, 이름, 성, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 사용 하지 않도록 설정 하려는 사용자 계정의 URI (Uniform resource identifier)를 모두 또는 첫 번째 부분을 입력 한 다음 **찾기를**클릭 합니다.
 
 5. 표에서 제거 하려는 사용자 계정을 클릭 합니다.
 
@@ -189,7 +189,7 @@ CsUser cmdlet을 사용 하 여 사용자 계정을 제거할 수 있습니다. 
 ### <a name="to-remove-a-user-account"></a>사용자 계정을 제거 하려면
 사용자 계정을 제거 하려면 Disable-CsUser cmdlet을 사용 합니다. 예를 들면 다음과 같습니다.
 
-  ```
+  ```PowerShell
   Disable-CsUser -Identity "Ken Myer"
   ```
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: '요약: 비즈니스용 Skype Server 2015에서 중앙 집중화 된 로깅 서비스의 구성 설정을 검색, 업데이트 및 만드는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: e6c1f9c893d0b5e745e558ed37570429689259d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 20f62a5568bef6f11eab35e13fa4e4f7adf8102e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186816"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991463"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>비즈니스용 Skype 2015에서 중앙 로깅 서비스 구성 설정 관리
 
@@ -29,8 +29,8 @@ ms.locfileid: "36186816"
 >  중앙 로깅 서비스에 대해 나열 된 모든 Windows PowerShell cmdlet은 비즈니스용 Skype Server 2015 온-프레미스 배포에만 사용할 수 있는 것은 아닙니다. 이는 작동 하는 것 처럼 보일 수 있지만, 다음 cmdlet는 비즈니스용 Skype Server 2015 온-프레미스 배포에서 작동 하도록 설계 되지 않았습니다.
 
 -  **Csclsregion cmdlet:** [Get-csclsregion](https://docs.microsoft.com/powershell/module/skype/get-csclsregion?view=skype-ps) ,[Set-csclsregion](https://docs.microsoft.com/powershell/module/skype/set-csclsregion?view=skype-ps), [New-csclsregion](https://docs.microsoft.com/powershell/module/skype/new-csclsregion?view=skype-ps), [제거-csclsregion](https://docs.microsoft.com/powershell/module/skype/remove-csclsregion?view=skype-ps).
--  **Csclssearchterm cmdlet:** [Get-csclssearchterm](https://docs.microsoft.com/powershell/module/skype/get-csclssearchterm?view=skype-ps) 및 [Set csclssearchterm](https://docs.microsoft.com/powershell/module/skype/set-csclssearchterm?view=skype-ps).
--  **Csclssecuritygroup cmdlet:** [Get-csclssecuritygroup](https://docs.microsoft.com/powershell/module/skype/get-csclssecuritygroup?view=skype-ps), [Set-csclssecuritygroup](https://docs.microsoft.com/powershell/module/skype/set-csclssecuritygroup?view=skype-ps), [New-Csclssecuritygroup](https://docs.microsoft.com/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)및 [Remove-csclssecuritygroup](https://docs.microsoft.com/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps).
+-  **Csclssearchterm cmdlet:** [Get-csclssearchterm](https://docs.microsoft.com/powershell/module/skype/get-csclssearchterm?view=skype-ps) 및 [Set csclssearchterm](https://docs.microsoft.com/powershell/module/skype/set-csclssearchterm?view=skype-ps)입니다.
+-  **Csclssecuritygroup cmdlet:** [Get-csclssecuritygroup](https://docs.microsoft.com/powershell/module/skype/get-csclssecuritygroup?view=skype-ps), [Set-csclssecuritygroup](https://docs.microsoft.com/powershell/module/skype/set-csclssecuritygroup?view=skype-ps), [New-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)및 [Remove-csclssecuritygroup](https://docs.microsoft.com/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps).
 
 이러한 cmdlet에 정의 된 설정은 방해 하거나 부정적인 동작을 발생 시 키 지 않으며, Microsoft Office 365에서 사용 하도록 디자인 되었으며 온-프레미스 배포에서 예상 되는 결과가 생성 되지 않습니다. 이는 온-프레미스 배포에서 이러한 cmdlet을 사용 하지 않는 것이 아니라,이를 사용 하는 것이이 문서에서 다루지 않는 고급 항목입니다.
 
@@ -38,25 +38,25 @@ ms.locfileid: "36186816"
 
 비즈니스용 Skype Server Management Shell을 사용 하 여 중앙 로깅 서비스 범위를 구성 하려면 CsAdministrator 또는 CsServerAdministrator 역할 기반 액세스 제어 (RBAC) 보안 그룹 또는 사용자 지정 RBAC 역할의 구성원 이어야 합니다. 두 그룹 중 하나를 포함 합니다. 이 cmdlet이 할당 된 모든 RBAC 역할 목록 (직접 만든 사용자 지정 RBAC 역할 포함)을 반환 하려면 비즈니스용 Skype Server 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
 
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
 ```
 
 예를 들면 다음과 같습니다.
 
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
 > Windows PowerShell 또는 CLSController에서 실행할 수 있는 명령줄 명령 간에는 기본적인 차이점이 있습니다. Windows PowerShell은 시나리오를 구성 및 정의 하 고 문제 해결 시나리오에 의미 있는 방식으로 해당 시나리오를 다시 사용 하는 다양 한 방법을 제공 합니다. CLSController는 명령을 실행 하 고 결과를 얻을 수 있는 빠르고 효율적인 방법을 제공 하지만 CLSController에 대 한 명령 집합은 명령줄에서 사용할 수 있는 유한 명령으로 제한 됩니다. Windows PowerShell cmdlet과 달리 CLSController는 새 시나리오를 정의 하거나, 사이트 또는 전역 수준의 범위를 관리 하 고, 동적으로 구성할 수 없는 유한 명령 집합의 여러 다른 제한 사항에 대 한 다양 한 제한을 정의할 수 없습니다. CLSController는 빠른 실행을 위한 수단을 제공 하는 반면, Windows PowerShell은 CLSController에서 가능한 기능 외에 중앙 집중식 로깅 서비스 기능을 확장 하는 방법을 제공 합니다.
 
-[검색-](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps)csclslogging, [표시-](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps)csclslogging, [시작-](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps)csclslogging, [중지-](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)Csclslogging, [동기화-](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) csclslogging 및 [업데이트-](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) csclslogging을 실행 하는 동안 단일 컴퓨터 범위를 정의할 수 있습니다. -Computers 매개 변수를 사용 하는 명령입니다. -Computers 매개 변수는 대상 컴퓨터에 대 한 Fqdn (정규화 된 도메인 이름) 목록을 쉼표로 구분 하 여 받아들입니다.
+[Search-](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps)csclslogging, [표시-csclslogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps), [시작-csclslogging](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps),,- [Csclslogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps), [동기화](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) 중이 고-Computers-컴퓨터 매개 변수를 사용 하 여 csclslogging [Update](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) 명령을 실행 하는 동안 단일 컴퓨터 범위를 정의할 수 있습니다. -Computers 매개 변수는 대상 컴퓨터에 대 한 Fqdn (정규화 된 도메인 이름) 목록을 쉼표로 구분 하 여 받아들입니다.
 
 > [!TIP]
 > 또한 로깅 명령을 실행할 풀의 목록 및 쉼표로 구분 된 목록을 정의할 수 있습니다.
 
-사이트 및 전역 범위는 **새로운**중앙의 로깅 서비스 cmdlet **** 에 정의 되어 있습니다 **** . 다음 예제에서는 사이트 및 전역 범위를 설정 하는 방법을 보여 줍니다.
+사이트 및 전역 범위는 **새로운** **중앙의 로깅**서비스 cmdlet에 정의 되어 있습니다 **** . 다음 예제에서는 사이트 및 전역 범위를 설정 하는 방법을 보여 줍니다.
 
 > [!IMPORTANT]
 > 표시 되는 명령에는 다른 섹션에서 설명 하는 매개 변수 및 개념이 포함 되어 있을 수 있습니다. 이 예제 명령은 **-Identity** 매개 변수를 사용 하 여 범위를 정의 하 고 나머지 매개 변수는 완전성을 위해 포함 하며 범위를 지정 하기 위한 것입니다. **Set-csclsconfiguration** cmdlet에 대 한 자세한 내용은 작업 설명서의 [Set-csclsconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) 을 참조 하세요.
@@ -67,7 +67,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. 명령줄 프롬프트에 다음을 입력 합니다.
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration
    ```
 
@@ -81,7 +81,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. 명령줄 프롬프트에 다음을 입력 합니다.
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -LocalStore
    ```
 
@@ -92,13 +92,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. 명령줄 프롬프트에 다음을 입력 합니다.
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
    ```
 
     예를 들어 전역 범위에서 정의 된 시나리오를 검색 하려면 다음을 실행 합니다.
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
    ```
 
@@ -109,13 +109,13 @@ Cmdlet **Get CsClsConfiguration** 은 항상 지정 된 범위의 구성에 속�
 
 2. 명령줄 프롬프트에 다음을 입력 합니다.
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
    ```
 
    예를 들면 다음과 같습니다.
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
    ```
 
@@ -126,18 +126,18 @@ Cmdlet **Get CsClsConfiguration** 은 항상 지정 된 범위의 구성에 속�
 
 2. 명령줄 프롬프트에 다음을 입력 합니다.
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
    ```
 
    예를 들면 다음과 같습니다.
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
    ```
 
 > [!NOTE]
-> 이 예제에 나와 있는 것 처럼 로그 파일의 기본 위치는%TEMP%\Tracing.입니다. 그러나 파일을 기록 하 고 CSLAgent가 네트워크 서비스로 실행 되는 실제 CLSAgent 이기 때문에% TEMP% 변수는%WINDIR%\ServiceProfiles\NetworkService\AppData\Local.로 확장 됩니다.
+> 이 예제에 나와 있는 것 처럼 로그 파일의 기본 위치 는%TEMP%\Tracing.입니다. 그러나 파일을 기록 하 고 CSLAgent가 네트워크 서비스로 실행 되는 실제 CLSAgent 이기 때문 에% TEMP% 변수 는%WINDIR%\ServiceProfiles\NetworkService\AppData\Local.로 확장 됩니다.
 
 이 명령은 사이트 Redmond의 각 컴퓨터와 풀의 CLSAgent에 게 추적 파일의 롤오버 값 크기를 40 mb로 설정 하도록 지시 합니다. 다른 사이트의 컴퓨터와 풀은 명령에 영향을 받지 않으며, 기본적으로 (20mb) 또는 로깅 세션 시작 중에 정의 된 현재 구성 되어 있는 추적 로그 롤오버 값이 계속 사용 됩니다.
 ### <a name="to-create-a-new-centralized-logging-service-configuration"></a>중앙 집중화 된 새 로깅 서비스 구성을 만들려면
@@ -146,7 +146,7 @@ Cmdlet **Get CsClsConfiguration** 은 항상 지정 된 범위의 구성에 속�
 
 2. 명령줄 프롬프트에 다음을 입력 합니다.
 
-   ```
+   ```PowerShell
    New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
    ```
 
@@ -155,7 +155,7 @@ Cmdlet **Get CsClsConfiguration** 은 항상 지정 된 범위의 구성에 속�
 
 예를 들어 캐시 파일에 대 한 네트워크 폴더, 로그 파일에 대 한 롤오버 기간 및 로그 파일에 대 한 롤오버 크기를 정의 하는 새 구성을 만들려면 다음을 입력 합니다.
 
-  ```
+  ```PowerShell
   New-CsClsConfiguration -Identity "site:Redmond" -CacheFileNetworkFolder "\\fs01.contoso.net\filestore\logfiles" -EtlFileRolloverMinutes 120 -EtlFileRolloverSizeMB 40
   ```
 
@@ -166,13 +166,13 @@ Cmdlet **Get CsClsConfiguration** 은 항상 지정 된 범위의 구성에 속�
 
 2. 명령줄 프롬프트에 다음을 입력 합니다.
 
-   ```
+   ```PowerShell
    Remove-CsClsConfiguration -Identity <scope and name>
    ```
 
 예를 들어 로그 파일 롤오버 시간을 늘리기 위해 만든 중앙 로깅 서비스 구성을 제거 하려면 롤오버 로그 파일 크기를 늘리고 다음과 같이 로그 파일 캐시 위치를 네트워크 공유로 설정 합니다.
 
-  ```
+  ```PowerShell
   Remove-CsClsConfiguration -Identity "site:Redmond"
   ```
 

@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 팀 갤러리 및 검색 결과의 제안에 따라 Microsoft 팀 사용자가 개인 팀을 검색할 수 있는지 여부를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: b60c06299f779ebe798db1ff3df465f1683508ed
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e2e0ec956b40ff5e84bb29874c0dc567edefd034
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572003"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992013"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Microsoft 팀에서 비공개 팀의 검색 관리
 
@@ -65,7 +65,7 @@ ms.locfileid: "37572003"
 ### <a name="using-powershell"></a>PowerShell 사용
 
 **[팀](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** cmdlet을 사용 하 여 기존 개인 팀에 대 한 검색 설정을 끄거나 설정 합니다. 팀을 검색 가능 하 게 만드는 방법의 예는 다음과 같습니다.
-```
+```PowerShell
     Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInTeamsSearchAndSuggestions $true
 ```
 스크립트에서이 cmdlet을 사용 하 여 기존 비공개 팀의 검색 설정을 대량으로 설정할 수 있습니다.
@@ -79,7 +79,7 @@ ms.locfileid: "37572003"
 기본적으로 조직의 모든 사용자에 대해 **AllowPrivateTeamDiscovery** 가 **true** 로 설정 됩니다.
 
 이 예제에서는 사용자가 검색 가능 하도록 설정 된 비공개 팀을 검색 하는 것을 막는 VendorPolicy 라는 정책을 만들고, 정책을 vendoruser1 라는 사용자에 게 할당 합니다.
-```
+```PowerShell
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
 ```

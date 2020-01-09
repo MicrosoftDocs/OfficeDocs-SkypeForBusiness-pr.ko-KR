@@ -20,18 +20,17 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ea246588e6884e7c7dd2755d7d24aa486d193df
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: c125b8d62e78f9fc67689c5cd785f9cd13d8c619
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793394"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991003"
 ---
+# <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft 팀의 팀 및 채널 개요
+
 > [!NOTE]
 > 팀에서 채팅, 팀, 채널, & 앱을 이해 하려면 다음 정보를 검토 하세요. 그런 다음 팀 [의 채팅, 팀, 채널, & 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 으로 이동 하 여 팀이 출시 하는 중요 한 의사 결정 목록을 살펴봅니다.
-
-<a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft 팀의 팀 및 채널 개요
-=================================================
 
 Microsoft 팀에서 개별 팀이 비즈니스 시나리오에서 자체적으로 구성 및 공동 작업을 수행 하는 방법을 고려 하 여 시작 해 보세요.
 
@@ -51,7 +50,7 @@ Microsoft 팀에서 개별 팀이 비즈니스 시나리오에서 자체적으�
 
 팀 및 채널을 만들기 위한 모범 사례에 대해 자세히 알아보려면이 짧은 비디오를 참조 하세요.
 
-   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
+   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 <a name="membership-roles-and-settings"></a>멤버 자격, 역할 및 설정
 ------------------------------

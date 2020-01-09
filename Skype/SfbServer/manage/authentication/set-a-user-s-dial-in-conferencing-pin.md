@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: '요약: 비즈니스용 Skype 서버에 대 한 사용자의 전화 접속 회의 PIN을 설정 합니다.'
-ms.openlocfilehash: d52c52e65fbfe706f243f420d6397319e4d00a32
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 83d1aae54d6e8be4f31b5bd27b6a568d6d88db1e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196904"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992285"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자의 전화 접속 회의 PIN 설정
  
@@ -85,7 +85,7 @@ ms.locfileid: "36196904"
 
 다음 명령은 사용자: 진구 Myer에 PIN 번호를 할당 합니다. Pin 매개 변수는 포함 되지 않기 때문에 비즈니스용 Skype Server는 자동으로 PIN 번호를 생성 하 고 할당 합니다.
     
-  ```
+  ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" 
   ```
 
@@ -93,7 +93,7 @@ ms.locfileid: "36196904"
 
 이 명령은 Pin 매개 변수를 사용 하 여 사용자: 진구 Myer에 PIN 번호 121989를 할당 합니다.
     
-  ```
+  ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 

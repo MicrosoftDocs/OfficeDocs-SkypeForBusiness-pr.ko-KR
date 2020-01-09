@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 최대 1만 참석자를 대상으로 하는 대규모 온라인 사용자에 게 모임 또는 이벤트를 예약, 생성, 브로드캐스트 하는 데 사용할 수 있는 비즈니스용 Skype Online의 Skype 모임 브로드캐스트 기능에 대해 알아봅니다.
-ms.openlocfilehash: 443810772eeb8bf11721825b06b6a87ccb2c97c8
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 95ad00be416a53e6e861ce4e9f235bded8e8075a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642750"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990983"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트를 위한 네트워크 설정
 
@@ -61,27 +61,27 @@ ms.locfileid: "37642750"
 
 - **시작 메뉴**에서 **Windows PowerShell** 을 마우스 오른쪽 단추로 클릭 하 고 **관리자 권한으로 실행**을 클릭 합니다. **Windows PowerShell** 창에서 각 줄을 입력 하 고 enter 키를 누릅니다.
 
-  ```
+  ```PowerShell
   $r = New-CsEdgeDomainPattern -Domain "noammeetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $s = New-CsEdgeDomainPattern -Domain "emeameetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $t = New-CsEdgeDomainPattern -Domain "apacmeetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $n = New-CsEdgeDomainPattern -Domain "resources.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $newAllowList = New-CsEdgeAllowList -AllowedDomain $r,$s,$t,$n
   ```
 
-  ```
+  ```PowerShell
   Set-CsTenantFederationConfiguration -AllowedDomains $newAllowList
   ```
 
@@ -99,9 +99,9 @@ ms.locfileid: "37642750"
 
 [Skype 모임 브로드캐스트 사용](enable-skype-meeting-broadcast.md)
 
-[Office 365 Url 및 IP 주소 범위](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+[Office 365 URL 및 IP 주소 범위](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
-[비즈니스용 Skype Online 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[비즈니스용 Skype 온라인 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
 
 

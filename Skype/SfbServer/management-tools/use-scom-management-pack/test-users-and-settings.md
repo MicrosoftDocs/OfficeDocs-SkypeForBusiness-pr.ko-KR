@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: '요약: 비즈니스용 Skype 서버 가상 거래에 대 한 테스트 사용자 계정 및 감시자 노드 설정을 구성 합니다.'
-ms.openlocfilehash: 02c24d4f23b59dfa8ddab68e1c4a992312916b3a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3aa711e9da588b6843f7e31940e15772b1376084
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187950"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992455"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>감시자 노드 테스트 사용자 및 설정 구성
  
@@ -36,7 +36,7 @@ ms.locfileid: "36187950"
   
 (가) 서버 인증 방법을 사용 하는 경우에는 이러한 계정이 존재 하는지 확인 하 고 별도로 구성 해야 합니다. 테스트 하려는 각 풀에 대해 최소 두 개의 테스트 사용자를 할당 해야 합니다. 협상 인증 방법을 사용 하는 경우 CsTestUserCredential cmdlet 및 비즈니스용 Skype Server Management Shell을 사용 하 여 이러한 테스트 계정이 가상 트랜잭션과 함께 작동 하도록 설정 해야 합니다. 다음과 같은 명령을 실행 하 여이 작업을 수행 합니다 (이러한 명령은 두 Active Directory 사용자 계정이 생성 되 고이 계정이 비즈니스용 Skype Server에 대해 사용 하도록 설정 되었다고 가정).
   
-```
+```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
 ```
@@ -45,7 +45,7 @@ SIP 주소는 물론 사용자 이름 및 암호만 포함 해야 합니다. 암
   
 테스트 사용자 자격 증명이 만들어졌는지 확인 하려면 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 실행 합니다.
   
-```
+```PowerShell
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 ```
@@ -60,7 +60,7 @@ Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 
 테스트 사용자를 만든 후 다음과 같은 명령을 사용 하 여 감시자 노드를 만들 수 있습니다.
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
@@ -68,7 +68,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
   
 풀을 직접 대상으로 지정 하는 대신 로그인에 대 한 대상 풀의 자동 검색이 올바르게 구성 되어 있는지 확인 하려면 다음 단계를 대신 사용 합니다.
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
@@ -76,7 +76,7 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 공용 전환 전화 네트워크 연결을 확인 하는 PSTN 테스트를 사용 하도록 설정 하려는 경우 감시자 노드를 설정할 때 몇 가지 추가 구성을 수행 해야 합니다. 먼저 비즈니스용 Skype 서버 관리 셸에서와 유사한 명령을 실행 하 여 테스트 사용자를 PSTN 테스트 형식과 연결 해야 합니다.
   
-```
+```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com" -Name "Contoso Provider Test" -TestType PSTN
 ```
 
@@ -85,7 +85,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
   
 그런 다음 **CsWatcherNodeConfiguration** cmdlet을 사용 하 여 변수 $pstnTest에 저장 된 테스트 유형을 비즈니스용 Skype 서버 풀에 연결할 수 있습니다. 예를 들어 다음 명령은 풀 atl-cs-001.litwareinc.com에 대 한 새 감시자 노드 구성을 만들고, 이전에 만든 두 개의 테스트 사용자를 추가 하 고, PSTN 테스트 형식을 추가 합니다.
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 ```
 
@@ -97,7 +97,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
   
 **CsWatcherNodeConfiguration** Cmdlet은 테스트 매개 변수를 사용 하지 않고 호출 했기 때문에 새 감시자 노드에는 기본 가상 트랜잭션과 지정 된 확장 가상 트랜잭션만 설정 됩니다. 따라서 감시자 노드는 다음 구성 요소를 테스트 합니다.
   
-- 맞춤
+- 등록
     
 - 메신저
     
@@ -107,7 +107,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
     
 - AvConference (오디오/회의)
     
-- 늘어
+- 현재 상태
     
 - ABS (주소록 서비스)
     
@@ -145,13 +145,13 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
 
 감시자 노드가 구성 되 면 Set-CsWatcherNodeConfiguration cmdlet을 사용 하 여 노드에서 가상 트랜잭션을 추가 하거나 제거할 수 있습니다. 예를 들어 PersistentChatMessage 테스트를 감시자 노드에 추가 하려면 Add 메서드와 다음과 같은 명령을 사용 합니다.
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 ```
 
 여러 테스트는 쉼표를 사용 하 여 테스트 이름을 구분 하 여 추가할 수 있습니다. 예를 들면 다음과 같습니다.
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 ```
 
@@ -163,13 +163,13 @@ CsWatcherNodeConfiguration: ' urn: schema: WatcherNode: TestName ' 키 또는 �
   
 감시자 노드에서 가상 트랜잭션을 제거 하려면 Remove 메서드를 사용 합니다. 예를 들어이 명령은 감시자 노드에서 ABWQ 테스트를 제거 합니다.
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Remove="ABWQ"}
 ```
 
 Replace 메서드를 사용 하 여 현재 사용 가능한 모든 테스트를 하나 이상의 새 테스트로 바꿀 수 있습니다. 예를 들어 감시자 노드만 IM 테스트를 실행 하도록 하려면 다음 명령을 사용 하 여이를 구성할 수 있습니다.
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Replace="IM"}
 ```
 
@@ -179,7 +179,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Re
 
 감시자 노드에 할당 된 테스트를 보려면 다음과 같은 명령을 사용 합니다.
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests
 ```
 
@@ -189,13 +189,13 @@ Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Ob
 > [!TIP]
 > 가상 트랜잭션을 알파벳순으로 보려면 다음 명령을 대신 사용 합니다. 
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests | Sort-Object
 ```
 
 감시자 노드가 만들어졌는지 확인 하려면 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 입력 합니다.
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
@@ -209,7 +209,7 @@ PortNumber: 5061<br/>
 
 감시자 노드가 올바르게 구성 되었는지 확인 하려면 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 입력 합니다.
   
-```
+```PowerShell
 Test-CsWatcherNodeConfiguration
 ```
 
@@ -228,24 +228,24 @@ Test-CsWatcherNodeConfiguration
 ## <a name="managing-watcher-nodes"></a>감시자 노드 관리
 <a name="testuser"> </a>
 
-감시자 노드에서 실행 되는 가상 트랜잭션을 수정 하는 것 외에도 **CsWatcherNodeConfiguration** cmdlet을 사용 하 여 다음 두 가지 중요 한 작업을 수행할 수 있습니다. 감시자 노드를 사용 하거나 사용 하지 않도록 설정 하 고 다음을 구성 합니다. 테스트를 실행할 때 내부 웹 Url 또는 외부 웹 Url 중 하나를 사용 하는 감시자 노드
+감시자 노드에서 실행 되는 가상 트랜잭션을 수정 하는 것 외에도 **CsWatcherNodeConfiguration** cmdlet을 사용 하 여 감시자 노드의 사용 여부를 설정 하거나 해제 하 고 해당 테스트를 실행할 때 내부 웹 url 또는 외부 웹 url을 사용 하도록 감시자 노드를 구성할 수 있습니다.
   
 기본적으로 감시자 노드는 사용 하도록 설정 된 모든 가상 트랜잭션을 정기적으로 실행 하도록 디자인 되었습니다. 그러나 때로는 해당 트랜잭션을 일시 중단할 수 있습니다. 예를 들어 감시자 노드가 네트워크에서 일시적으로 연결이 끊어지면 가상 트랜잭션을 실행할 이유가 없습니다. 네트워크에 연결 되지 않은 경우 해당 트랜잭션은 실패 하 게 됩니다. 감시자 노드를 일시적으로 사용 하지 않도록 설정 하려면 비즈니스용 Skype 서버 관리 셸에서 다음과 같은 명령을 실행 합니다.
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 ```
 
 이 명령은 감시자 노드 atl 감시자 001.litwareinc.com에서 가상 트랜잭션의 실행을 사용 하지 않도록 설정 합니다. 가상 트랜잭션의 실행을 다시 시작 하려면 Enabled 속성을 다시 True ($True)로 설정 합니다.
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 ```
 
 > [!NOTE]
 > Enabled 속성을 사용 하 여 감시자 노드를 켜거나 끌 수 있습니다. 감시자 노드를 영구적으로 삭제 하려면 **Remove-CsWatcherNodeConfiguration** cmdlet을 사용 합니다.
   
-```
+```PowerShell
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
@@ -253,13 +253,13 @@ Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
   
 기본적으로 감시자 노드는 테스트를 수행할 때 조직의 외부 웹 Url을 사용 합니다. 그러나 조직의 내부 웹 Url을 사용 하도록 감시자 노드를 구성할 수도 있습니다. 이렇게 하면 관리자가 경계 네트워크 내에 있는 사용자의 URL 액세스를 확인할 수 있습니다. 외부 Url 대신 내부 Url을 사용 하도록 감시자 노드를 구성 하려면 UseInternalWebURls 속성을 True ($True)로 설정 합니다.
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 ```
 
 이 속성을 False ($False)로 다시 설정 하면 감시자가 다시 한 번 외부 Url을 사용 하 게 됩니다.
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
 ```
 
@@ -276,7 +276,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
     
 2. 콘솔 창에서 다음 명령을 입력 한 다음 enter 키를 누릅니다. 
     
-```
+```console
 bitsadmin /util /SetIEProxy NetworkService NO_PROXY
 ```
 
@@ -341,13 +341,13 @@ Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip
     
 이러한 조건이 충족 되 면 다음 Windows PowerShell cmdlet을 실행 하 여 테스트 사용자의 연락처 목록을 Exchange로 마이그레이션할 수 있습니다.
   
-```
+```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
 테스트 사용자 연락처 목록을 Exchange로 마이그레이션하는 데 시간이 걸릴 수 있습니다. 마이그레이션 진행 상황을 모니터링 하기 위해-설치 플래그 없이 같은 명령줄을 실행할 수 있습니다.
   
-```
+```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
 ```
 
@@ -359,7 +359,7 @@ XMPP (확장할 수 있는 메시징 및 현재 상태 프로토콜) IM 가상 �
   
 XMPP 가상 트랜잭션을 사용 하도록 설정 하려면 라우팅할 수 있는 XMPP 도메인의 사용자 계정에 XmppTestReceiverMailAddress 매개 변수를 제공 해야 합니다. 예를 들면 다음과 같습니다.
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
@@ -420,7 +420,7 @@ VIS 가상 트랜잭션을 실행 하는 방법에 대 한 자세한 내용은 [
   
 문제 해결 정보를 검색 하려면 OutLoggerVariable 매개 변수를 지정 하 고 다음을 선택 하는 변수 이름을 입력 합니다.
   
-```
+```PowerShell
 Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 ```
 
@@ -433,13 +433,13 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
 
 HTML 형식으로이 정보에 액세스 하려면 다음과 유사한 명령을 사용 하 여 가변 RegistrationTest에 저장 된 정보를 HTML 파일에 저장 합니다.
   
-```
+```PowerShell
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 ```
 
 또는 ToXML () 메서드를 사용 하 여 데이터를 XML 파일에 저장할 수 있습니다.
   
-```
+```PowerShell
 $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 ```
 

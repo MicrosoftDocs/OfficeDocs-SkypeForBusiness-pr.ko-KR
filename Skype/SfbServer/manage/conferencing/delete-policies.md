@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: '요약: 비즈니스용 Skype 서버에서 회의 정책을 삭제 하는 방법에 대해 알아보세요.'
-ms.openlocfilehash: 2d02fa580acbc11c1b41643ab25cecba618ed09a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7cf195e53ec159a8999561c0ddb8461ee1bf0ba6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196471"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991873"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 정책 삭제
  
@@ -39,13 +39,13 @@ Skype for Business Server 제어판을 사용 하거나 비즈니스용 Skype �
   
 다음 명령은 Id RedmondConferencingPolicy를 사용 하 여 회의 정책을 제거 합니다.
   
-```
+```PowerShell
 Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 ```
 
 다음 명령은 외부 사용자가 회의를 녹화할 수 있도록 하는 회의 정책을 삭제 합니다.
   
-```
+```PowerShell
 Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 ```
 

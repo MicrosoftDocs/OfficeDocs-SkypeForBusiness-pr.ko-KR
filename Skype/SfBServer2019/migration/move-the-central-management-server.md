@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 비즈니스용 Skype Server 2019으로 마이그레이션한 후에는 레거시 서버를 제거 하기 전에 중앙 관리 서버를 비즈니스용 Skype 서버 2019 프런트 엔드 서버 또는 풀로 이동 해야 합니다.
-ms.openlocfilehash: 0e13dab272a60967c0ccc676a47954b75170eeb3
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: b6a2dd08949b5b15370f27e1da936009048982f6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435189"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990933"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>레거시 중앙 관리 서버를 비즈니스용 Skype 서버 2019로 이동
 
@@ -24,19 +24,19 @@ ms.locfileid: "37435189"
   
 중앙 관리 서버를 성공적으로 이동한 후에는 원래 프런트 엔드 서버에서 중앙 관리 서버 데이터베이스를 제거 해야 합니다. 중앙 관리 서버 데이터베이스를 제거 하는 방법에 대 한 자세한 내용은 [프런트 엔드 풀의 SQL Server 데이터베이스 제거](remove-the-sql-server-database-for-a-front-end-pool.md)를 참조 하세요.
   
-비즈니스용 Skype Server Management Shell에서 Windows PowerShell cmdlet **CsManagementServer** 을 사용 하 여 데이터베이스를 레거시 설치 SQL server 데이터베이스에서 비즈니스용 Skype SERVER 2019 SQL server 데이터베이스로 이동한 다음 업데이트 비즈니스용 Skype 서버 2019 중앙 관리 서버 위치를 가리키도록 SCP를 지정 합니다. 
+비즈니스용 Skype Server Management Shell에서 Windows PowerShell cmdlet **CsManagementServer** 을 사용 하 여 데이터베이스를 레거시 설치 SQL Server 데이터베이스에서 비즈니스용 skype SERVER 2019 SQL server 데이터베이스로 이동한 다음 비즈니스용 skype Server 2019 중앙 관리 서버 위치를 가리키도록 SCP를 업데이트 합니다. 
   
 이 섹션의 절차를 사용 하 여 중앙 관리 서버를 이동 하기 전에 비즈니스용 Skype 서버 2019 프런트 엔드 서버를 준비 합니다.
   
 ## <a name="to-prepare-an-enterprise-edition-front-end-pool"></a>Enterprise Edition 프런트 엔드 풀을 준비 하려면
 
-1. 중앙 관리 서버를 재배치할 비즈니스용 Skype Server 2019 Enterprise Edition 프런트 엔드 풀에서 비즈니스용 Skype 서버 관리 셸이 설치 되어 있는 컴퓨터에 로그온 RTCUniversalServerAdmins의 구성원 ** **그룹. 또한 중앙 관리 저장소를 설치 하려는 데이터베이스에 대 한 SQL Server 데이터베이스 sysadmin 사용자 권한 및 사용 권한도 있어야 합니다. 
+1. 중앙 관리 서버를 재배치할 비즈니스용 Skype Server 2019 Enterprise Edition 프런트 엔드 풀에서 비즈니스용 Skype 서버 관리 셸이 **RTCUniversalServerAdmins** 그룹의 구성원으로 설치 되어 있는 컴퓨터에 로그온 합니다. 또한 중앙 관리 저장소를 설치 하려는 데이터베이스에 대 한 SQL Server 데이터베이스 sysadmin 사용자 권한 및 사용 권한도 있어야 합니다. 
     
 2. 비즈니스용 Skype 서버 관리 셸을 엽니다.
     
 3. 비즈니스용 skype 서버 2019 SQL Server 데이터베이스에서 새 중앙 관리 저장소를 만들려면 비즈니스용 Skype 서버 관리 셸에서 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
    ```
 
@@ -44,7 +44,7 @@ ms.locfileid: "37435189"
     
 ## <a name="to-prepare-a-standard-edition-front-end-server"></a>Standard Edition 프런트 엔드 서버를 준비 하려면
 
-1. 중앙 관리 서버의 위치를 변경할 비즈니스용 Skype Server 2019 Standard Edition 프런트 엔드 서버에서 비즈니스용 Skype 서버 관리 셸이 설치 되어 있는 컴퓨터에 로그온 RTCUniversalServerAdmins의 구성원 ** **그룹. 
+1. 중앙 관리 서버의 위치를 변경할 비즈니스용 Skype Server 2019 Standard Edition 프런트 엔드 서버에서 비즈니스용 Skype 서버 관리 셸이 **RTCUniversalServerAdmins** 그룹의 구성원으로 설치 된 컴퓨터에 로그온 합니다. 
     
 2. 비즈니스용 Skype 서버 배포 마법사를 엽니다.
     
@@ -57,7 +57,7 @@ ms.locfileid: "37435189"
   
 5. 비즈니스용 skype 서버 2019 Standard Edition 프런트 엔드 서버에서 새 중앙 관리 저장소를 만들려면 비즈니스용 Skype 서버 관리 셸에서 다음을 입력 합니다. 
     
-   ```
+   ```PowerShell
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
    ```
 
@@ -71,7 +71,7 @@ ms.locfileid: "37435189"
     
 3. 비즈니스용 Skype 서버 관리 셸에서 다음을 입력 합니다. 
     
-   ```
+   ```PowerShell
    Enable-CsTopology
    ```
 
@@ -80,7 +80,7 @@ ms.locfileid: "37435189"
   
 4. 비즈니스용 skype 서버 2019 프런트 엔드 서버 또는 프런트 엔드 풀의 비즈니스용 Skype 서버 관리 셸에서 다음을 입력 합니다. 
     
-   ```
+   ```PowerShell
    Move-CsManagementServer
    ```
 
@@ -90,17 +90,17 @@ ms.locfileid: "37435189"
     
 7. 비즈니스용 Skype 서버 2019 서버에서 비즈니스용 Skype 서버 배포 마법사를 엽니다. 
     
-8. 비즈니스용 Skype 서버 배포 마법사에서 비즈니스용 skype server **System 설치 또는 업데이트**를 클릭 하 고, **2 단계: 비즈니스용 Skype 서버 구성 요소 설치 또는 제거**, **다음**을 차례로 클릭 하 고 요약을 검토 한 다음 마침을 클릭 합니다. ** **. 
+8. 비즈니스용 Skype 서버 배포 마법사에서 비즈니스용 skype server **System 설치 또는 업데이트**를 클릭 하 고, **2 단계: 비즈니스용 Skype 서버 구성 요소 설치 또는 제거**, **다음**을 차례로 클릭 하 고 요약을 검토 한 다음 **마침을**클릭 합니다. 
     
 9. 레거시 설치 서버에서 배포 마법사를 엽니다. 
     
-10. 비즈니스용 Skype 서버 배포 마법사에서 비즈니스용 skype server **System 설치 또는 업데이트**를 클릭 하 고, **2 단계: 비즈니스용 Skype 서버 구성 요소 설치 또는 제거**, **다음**을 차례로 클릭 하 고 요약을 검토 한 다음 마침을 클릭 합니다. ** **. 
+10. 비즈니스용 Skype 서버 배포 마법사에서 비즈니스용 skype server **System 설치 또는 업데이트**를 클릭 하 고, **2 단계: 비즈니스용 Skype 서버 구성 요소 설치 또는 제거**, **다음**을 차례로 클릭 하 고 요약을 검토 한 다음 **마침을**클릭 합니다. 
     
 11. 비즈니스용 Skype 서버 2019 서버를 다시 부팅 합니다. 이는 그룹 구성원 자격이 access 중앙 관리 서버 데이터베이스로 변경 되었기 때문에 필요 합니다.
     
 12. 새로운 중앙 관리 저장소와의 복제가 진행 중인지 확인 하려면 비즈니스용 Skype 서버 관리 셸에서 다음을 입력 합니다. 
     
-    ```
+    ```PowerShell
     Get-CsManagementStoreReplicationStatus
     ```
 
@@ -118,13 +118,13 @@ ms.locfileid: "37435189"
   
 3. 레거시 설치 중앙 관리 서버에서 중앙 관리 저장소 데이터베이스 파일을 제거 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```PowerShell
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
    ```
 

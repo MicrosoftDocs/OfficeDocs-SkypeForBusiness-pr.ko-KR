@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: '요약: 비즈니스용 Skype 서버용 CDR (통화 정보 기록) 데이터를 관리 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: a775098a4c41bccca42fe1d95c5f1dbf0d22f2bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec24b5b1901bec053417c3a938c688cd4692f1c9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188676"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991723"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 CDR 데이터 보존 지정
  
@@ -54,7 +54,7 @@ Windows PowerShell 및 Set-CsCdrConfiguration cmdlet을 사용 하 여 CDR 보�
 
 - 이 명령을 사용 하 여 Redmond 사이트에 대 한 CDR 데이터를 제거 하 고, 사이트를 구성 하 여 CDR 데이터와 오류 보고 데이터를 모두 20 일 동안 유지 하도록 합니다.
     
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 
@@ -62,7 +62,7 @@ Windows PowerShell 및 Set-CsCdrConfiguration cmdlet을 사용 하 여 CDR 보�
 
 - 이 명령은 조직에서 사용 중인 모든 CDR 구성 설정에 대해 CDR 보존을 구성 합니다.
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 

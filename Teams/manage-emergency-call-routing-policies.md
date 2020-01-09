@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 긴급 통화 라우팅 정책을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 4520bc1d9cc6a4e84a3702e32db859b784ae02bc
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: 996ac202d837b4cfb253a2809880ce0907b33c6c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998806"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992715"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 라우팅 정책 관리
 
@@ -105,15 +105,15 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
 > 먼저 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)의 단계를 따라 Graph 모듈 및 비즈니스용 Skype powershell 모듈에 대 한 Azure Active Directory powershell에 연결 해야 합니다.
 
 특정 그룹의 GroupObjectId를 가져옵니다.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso HR"
 ```
 지정 된 그룹의 구성원을 가져옵니다.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 특정 팀 정책에 그룹의 모든 사용자를 할당 합니다. 이 예제에서는 HR 긴급 통화 라우팅 정책입니다.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
@@ -124,7 +124,7 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergenc
 
 이 예제에서는 비상 통화 라우팅 정책 1 이라는 정책을 Site1 사이트에 할당 하는 방법을 보여 줍니다.
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: '요약: 비즈니스용 Skype 서버에 대 한 사용자 보관 정책을 변경 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 4a3da0bfe403d1a00807865cd07762111b59b540
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 00f22b9afa5332bd7075b03823d321d35a0e4b8b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189348"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992775"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 기존 보관 정책 변경
  
@@ -58,19 +58,19 @@ Windows PowerShell **CsArchivingPolicy** cmdlet을 사용 하 여 보관 정책�
 
 내부 통신 세션 보관을 사용 하도록 설정 하려면 ArchiveInternal 매개 변수의 값을 True ($True)로 설정 합니다. 
   
-```
+```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
 ```
 
 외부 통신 세션 보관을 사용 하도록 설정 하려면 ArchiveExternal 매개 변수의 값을 True ($True)로 설정 합니다. 
   
-```
+```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
 ```
 
 내부 및 외부 통신 세션을 모두 보관할 수 있도록 하려면 ArchiveInternal 및 ArchiveExternal 매개 변수의 값을 모두 True로 설정 합니다. 
   
-```
+```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
@@ -78,6 +78,6 @@ Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal
 
 보관을 완전히 사용 하지 않도록 설정 하려면 ArchiveInternal 및 ArchiveExternal 매개 변수 값을 모두 False ($False)로 설정 합니다. 
   
-```
+```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
 ```

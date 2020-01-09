@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 클라우드 음성 기능에 대 한 네트워크 설정을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 72fb40b31b7881f550800bad5a2d2fca304431ae
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 87cdf39e03999a9e249b7ec40af7ea2ad8612e69
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615898"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991643"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft 팀의 클라우드 음성 기능에 대 한 네트워크 토폴로지 관리
 
@@ -84,12 +84,12 @@ Microsoft 팀 관리 센터의 **네트워크 토폴로지** 페이지에서 **�
 
  [새-Csten앤틸리스 지역](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) cmdlet을 사용 하 여 네트워크 지역을 정의 합니다. 영역 ID 매개 변수는 영역의 지리를 나타내는 논리 이름이 며, 종속성 또는 제한이 없으며 CentralSite &lt;site ID&gt; 매개 변수는 선택 사항입니다.
 
-```
+```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
 이 예제에서는 인도 라는 네트워크 영역을 만듭니다.
-```
+```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
@@ -99,11 +99,11 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 [새-Csten앤틸리스 site](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) cmdlet을 사용 하 여 네트워크 사이트를 정의 합니다. 각 네트워크 사이트는 네트워크 지역과 연결 되어 있어야 합니다.
 
-```
+```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 이 예제에서는 인도 지역에 2 개의 새 네트워크 사이트, 뉴델리 및 Hyderabad을 만듭니다.
-```
+```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 ```
@@ -120,13 +120,13 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 [새-Csten앤틸리스 subnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet을 사용 하 여 네트워크 서브넷을 정의 하 고 네트워크 사이트에 연결 합니다. 각 네트워크 서브넷은 한 사이트에만 연결 될 수 있습니다.
 
-```
+```PowerShell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
 이 예제에서는 서브넷 192.168.0.0과 뉴델리 네트워크 사이트 간 연결과 서브넷 2001 간 연결 (4898: e8:25:844e: 926f: 85ad: dd8e 및 Hyderabad network site를 만듭니다.
-```
 
+```PowerShell
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
 New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad"
 
@@ -140,11 +140,11 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 |사이트 ID  | 사이트 (뉴델리) | Site 2 (Hyderabad) |
 
 여러 서브넷의 경우 다음과 같은 스크립트를 사용 하 여 CSV 파일을 가져올 수 있습니다.
-```
+```PowerShell
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
 이 예제에서 CSV 파일은 다음과 같습니다.
-```
+```output
 Identity, Mask, SiteID
 172.11.12.0, 24, Redmond
 172.11.13.0, 24, Chicago
@@ -157,11 +157,11 @@ Identity, Mask, SiteID
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>외부 서브넷 정의 (외부 신뢰할 수 있는 IP 주소)
 
 [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet을 사용 하 여 외부 서브넷을 정의 하 고 테 넌 트에 할당 합니다. 테 넌 트에 대 한 무제한 개수의 외부 서브넷을 정의할 수 있습니다.
-```
+```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 예를 들면 다음과 같습니다.
-```
+```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 

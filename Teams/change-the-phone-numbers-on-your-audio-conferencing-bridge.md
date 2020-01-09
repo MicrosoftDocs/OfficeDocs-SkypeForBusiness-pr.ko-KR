@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 오디오 회의 라이선스를 구입 하는 경우 Microsoft는 조직에 대 한 오디오 회의 브리지를 호스팅 하 고 있습니다. 오디오 회의 브리지는 다른 위치에서 전화 접속 전화 번호를 제공 하므로 모임 이끌이 및 참가자가 휴대폰을 사용 하 여 비즈니스용 Skype 또는 Microsoft 팀 모임에 참가 하는 데 사용할 수 있습니다.
-ms.openlocfilehash: 9c4d16f3f68e190549b1e8a1d7b6f3f03e8a44c6
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a37f1d90fc0c960d1e3c1f7ddf4424b3aaec6f98
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516966"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992875"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>오디오 회의 브리지에서 전화 번호 변경
 
 **오디오 회의** 라이선스를 구입 하는 경우 Microsoft는 조직에 대 한 오디오 회의 브리지를 호스팅 하 고 있습니다. 오디오 회의 브리지는 다른 위치에서 전화 접속 전화 번호를 제공 하 여 모임 이끌이 및 참가자가 휴대폰을 사용 하 여 비즈니스용 Skype 또는 Microsoft 팀 모임에 참가할 수 있도록 합니다.
   
-이미 회의 브리지에 지정 된 전화번호 외에도 다른 위치에서 [추가 서비스 번호](/microsoftteams/getting-service-phone-numbers) (오디오 회의에 사용 되는 유료 및 무료 번호)를 가져온 다음이를 회의 브리지에 할당 하 여 다음을 수행할 수 있습니다. 사용자에 대 한 검사 범위를 확장 합니다.
+이미 회의 브리지에 지정 된 전화번호 외에도 다른 위치에서 [추가 서비스 번호](/microsoftteams/getting-service-phone-numbers) (오디오 회의에 사용 되는 유료 및 수신자 부담 번호)를 가져온 다음 사용자를 위한 적용 범위를 확장할 수 있도록이를 회의 브리지에 할당할 수 있습니다.
   
 > [!NOTE]
 > 회의 브리지의 전화 번호를 할당/할당 취소 하려면 전화 번호가 '*서비스*' 번호 여야 합니다. 이전 포털에서 **음성** > **전화 번호로** 이동 하 여 **번호 형식** 열을 보면 번호 형식을 볼 수 있습니다. 사용자가 유료 번호를 사용 하 여 bridge로 전화를 걸려면 먼저 Office 365 통신 크레딧을 설정 해야 합니다.
@@ -85,13 +85,13 @@ ms.locfileid: "37516966"
   
 - 2 단계에서 기본 전화 번호를 변경한 사용자를 위해 MMS (모임 마이그레이션 서비스)를 실행 합니다. 이렇게 하려면 다음 명령을 실행 합니다.
 
-```
+```PowerShell
     Start-CsExMeetingMigration user@contoso.com
 ```
 
 - 모임 마이그레이션 상태를 볼 수도 있습니다. *보류* 중이거나 *진행* 중 상태인 작업이 없는 경우 모든 모임의 일정이 다시 조정 됩니다.
 
-```
+```PowerShell
     Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
@@ -108,7 +108,7 @@ ms.locfileid: "37516966"
 
 기본 유료 또는 수신자 부담 전화 번호를 기본 번호로 지정할 수 없는 번호를 사용 하는 모든 사용자를 대체 하 고 모임의 일정을 재조정 하는 프로세스를 시작 합니다. 이렇게 하려면 다음 명령을 실행 합니다.
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
  > [!IMPORTANT] 
@@ -123,7 +123,7 @@ Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be remove
 
 *보류* 중이거나 *진행* 중 상태인 작업이 없는 경우 모든 모임의 일정이 다시 조정 됩니다.
 
-```
+```PowerShell
 Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
@@ -170,7 +170,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 2. **Windows PowerShell** 창에서 다음을 실행 하 여 Office 365 조직에 연결 합니다.
 
 >
-  ```
+  ```PowerShell
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -189,7 +189,7 @@ Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단�
 
   - 사용자의 기본 무료 전화 번호를 변경 하려면 다음을 실행 합니다.
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   80045551234
   ```
 
@@ -200,19 +200,19 @@ Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단�
 
   - 1 ~ 8005551234 없는 모든 사용자의 기본 무료 전화 번호를 설정 하려면 다음을 실행 합니다.
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
 
   - 8005551234을 기본 무료 번호로 사용 하는 모든 사용자의 기본 무료 (수신자 부담 번호)를 8005551239로 변경 하 고 자동으로 모임 일정을 조정 하려면 다음을 실행 합니다.
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber 8005551234 -ToNumber 8005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
   - 미국에 거주 하는 모든 사용자의 기본 무료 무료 번호를 8005551234로 설정 하 고 자동으로 모임 일정을 재조정 하려면 다음을 실행 합니다.
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
@@ -226,14 +226,14 @@ Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단�
 숫자의 할당을 취소 했지만 단추가 회색으로 표시 되는 동안에는 다음 메시지가 표시 되 면 _"기본 또는 공유 번호를 브리지에서 할당 해제할 수 없었습니다" 라는 메시지와 함께 연락처에 대 한 지원이 리디렉션됩니다. 전용 유료 전화 번호를 할당 취소 하려면 고객 지원에 문의 하세요._"
 
 브리지에 대 한 자세한 정보를 얻으려면 다음 Powershell을 실행 합니다.
-```
+```PowerShell
 Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 ```
 
 그 결과, Id, 이름, 지역 등의 다른 정보는 함께 DefaultServiceNumber를 포함 해야 합니다.
 
 **예**를 들어, DefaultServiceNumber "8005551234"을 할당 취소 하려면
-```
+```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
 ```
 
@@ -254,4 +254,4 @@ Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 
   - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ## <a name="related-topics"></a>관련 항목
-[오디오 회의 브리지에 대 한 설정 변경](change-the-settings-for-an-audio-conferencing-bridge.md)
+[오디오 회의 브리지의 설정 변경](change-the-settings-for-an-audio-conferencing-bridge.md)

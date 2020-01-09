@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: '요약: 비즈니스용 Skype 서버의 CDR (통화 정보 기록)에 대해 자세히 알아보세요.'
-ms.openlocfilehash: c0a54835fe74a32a92996874cb6fd895fd49fafc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 52c5f3de5b3c83fe5701b339ecf45ed7f80a0988
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197648"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992525"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 CDR 구성 설정 모음 만들기 또는 수정
  
@@ -64,7 +64,7 @@ Windows PowerShell 및 **새 CsCdrConfiguration** cmdlet을 사용 하 여 CDR �
 
  이 명령은 Redmond 사이트에 적용 되는 새 CDR 구성 설정 모음을 만듭니다.
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond"
   ```
 
@@ -72,7 +72,7 @@ Windows PowerShell 및 **새 CsCdrConfiguration** cmdlet을 사용 하 여 CDR �
 
  앞의 명령에서 필수 Id 매개 변수 이외의 매개 변수를 지정 하지 않았으므로 새 구성 설정 모음에는 해당 속성에 대 한 기본값이 사용 됩니다. 다른 속성 값을 사용 하는 설정을 만들려면 간단히 적절 한 매개 변수와 매개 변수 값을 포함 합니다. 예를 들어 기본적으로 통화 정보를 사용 하지 않도록 설정 허용에 대 한 컬렉션을 만들려면 다음과 같은 명령을 사용 합니다.
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
   ```
 
@@ -80,7 +80,7 @@ Windows PowerShell 및 **새 CsCdrConfiguration** cmdlet을 사용 하 여 CDR �
 
  여러 매개 변수를 포함 하 여 여러 속성 값을 수정할 수 있습니다. 예를 들어이 명령은 90 일간 30 일간 오류 보고서에 대 한 통화 세부 정보 기록을 유지 하도록 새로운 설정을 구성 합니다.
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
   ```
 

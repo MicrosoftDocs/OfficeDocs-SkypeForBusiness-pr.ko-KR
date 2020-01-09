@@ -14,12 +14,12 @@ search.appverid: MET150
 description: PowerShell을 사용 하 여 Microsoft 팀의 팀에 대 한 게스트 액세스를 허용 하거나 차단 합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90ca96b6a28b1a94c375af0b4b4166da5bbee9e9
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 94b7be4f67906ad5df2fe23b01cc2bdce662a8cb
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753333"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989843"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>PowerShell을 사용하여 팀에 대한 액세스 권한 제어
 ================================================
@@ -45,7 +45,7 @@ PowerShell을 사용 하 여 해당 도메인에 따라 게스트 사용자를 �
  
 2.  비즈니스용 Skype Online 끝점에 PowerShell 세션을 연결 합니다.
 
-    ```
+    ```PowerShell
     Import-Module SkypeOnlineConnector
     $Cred = Get-Credential
     $CSSession = New-CsOnlineSession -Credential $Cred
@@ -53,7 +53,7 @@ PowerShell을 사용 하 여 해당 도메인에 따라 게스트 사용자를 �
     ```
 3.  구성을 확인 하 고, `AllowGuestUser` 설정 `$False`된 경우 [CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet을 사용 하 여 설정 `$True`합니다.
 
-    ```
+    ```PowerShell
     Get-CsTeamsClientConfiguration
 
     Identity                         : Global

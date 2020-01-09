@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: '요약: 항목 서비스의 일부인 하위 항목 가져오기 작업에 대해 알아봅니다. 항목 서비스는 통화 품질 대시보드의 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 7be427ed4ea90cd46c6f8cea4ffe3a97be98479b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 75fc4fcd331925c224d8dfb72c681d25e3485eb6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186912"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992655"
 ---
 # <a name="get-sub-items"></a>하위 항목 가져오기
  
@@ -50,7 +50,7 @@ ms.locfileid: "36186912"
 > [!NOTE]
 > Item 개체의 배열이 반환 됩니다. 
   
-```
+```json
 [{
 "itemId": 1653,
 "userId": 0,

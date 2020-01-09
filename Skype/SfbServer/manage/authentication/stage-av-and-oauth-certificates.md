@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: '요약: 비즈니스용 Skype 서버용으로 AV 및 OAuth 인증서를 준비 합니다.'
-ms.openlocfilehash: 6a2e851aac8aae9aaecac424290195270415706c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 37edb6843d420ca3387958c54b3db8c72a28be92
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190359"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991963"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>비즈니스용 Skype Server using-CsCertificate에 대 한 AV 및 OAuth 인증서 스테이지 설정-롤백
  
@@ -27,7 +27,7 @@ ms.locfileid: "36190359"
 > [!IMPORTANT]
 > 이 새로운 기능은 A/V Edge 서비스와 OAuthTokenIssuer 인증서에 사용할 수 있도록 설계 되었습니다. 다른 인증서 유형은 A/V Edge 서비스 및 OAuth 인증서 유형과 함께 프로 비전 할 수 있지만, A/V Edge 서비스 인증서가 제공 하는 공존 동작에는 도움이 되지 않습니다.
   
-비즈니스용 Skype 서버 인증서를 관리 하는 데 사용 되는 비즈니스용 Skype 서버 관리 셸 PowerShell cmdlet은 A/V Edge 서비스 인증서를 오디오 Videoauthentication 인증서 유형으로, 그리고 OAuthServer 인증서를 typeOAuthTokenIssuer입니다. 이 항목의 나머지 부분에서 인증서를 고유 하 게 식별 하기 위해 동일한 식별자 형식, 오디오 Videoauthentication andOAuthTokenIssuer를 참조 합니다.
+비즈니스용 Skype 서버 인증서를 관리 하는 데 사용 되는 비즈니스용 Skype 서버 관리 셸 PowerShell cmdlet은 A/V Edge 서비스 인증서를 오디오 Videoauthentication 인증서 유형으로, OAuthServer 인증서를 typeOAuthTokenIssuer로 지칭 합니다. 이 항목의 나머지 부분에서 인증서를 고유 하 게 식별 하기 위해 동일한 식별자 형식, 오디오 Videoauthentication andOAuthTokenIssuer를 참조 합니다.
   
 A/V 인증 서비스는 클라이언트 및 다른 A/V 소비자가 사용 하는 토큰 발급을 담당 합니다. 토큰이 인증서의 특성 으로부터 생성 되 고, 인증서가 만료 되 면 새 인증서에서 생성 된 새 토큰으로 다시 참가 하는 데 필요한 연결 및 요구 사항이 손실 됩니다. 비즈니스용 Skype Server의 새로운 기능은이 문제를 해결 하는 것으로, 오래 된 인증서가 만료 되는 것을 미리 하 고, 두 인증서가 일정 기간 동안 계속 해 서 작동할 수 있도록 하는 기능입니다. 이 기능은 CsCertificate Skype for Business Server Management Shell cmdlet에서 업데이트 된 기능을 사용 합니다. 기존 매개 변수-EffectiveDate를 사용 하는 새 매개 변수-롤은 새 오디오 Videoauthentication 인증서를 인증서 저장소에 배치 합니다. 이전 오디오 Videoauthentication 인증서는 계속 해 서 발급 된 토큰의 유효성 검사를 위해 유지 됩니다. 새 오디오 Videoauthentication 인증서를 현재 위치에 배치 하는 것부터 다음 일련의 이벤트가 발생 합니다.
   
@@ -57,11 +57,11 @@ OAuthTokenIssuer 인증서를 준비할 때 선행 시간에 대 한 요구 사�
 4. Set-CsCertificate cmdlet을 사용 하 여 가져온 인증서를 구성 하 고-Roll 매개 변수를-EffectiveDate 매개 변수와 함께 사용 합니다. 유효 날짜는 현재 인증서 만료 시간 (14:00:00 또는 2:00:00 PM)에서 토큰 수명 (기본적으로 8 시간)을 뺀 값으로 정의 되어야 합니다. 이렇게 하면 인증서를 활성으로 설정 해야 하 고-EffectiveDate \<문자열\>: "7/22/2015 6:00:00 AM"이 됩니다. 
     
     > [!IMPORTANT]
-    > Edge 풀의 경우 이전으로 인 한/V 통신 중단을 방지 하기 위해 배포 된 첫 번째 인증서의-EffectiveDate 매개 변수에 의해 정의 된 날짜 및 시간으로 모든 오디오 Videoauthentication 인증서를 배포 하 고 프로 비전 해야 합니다. 모든 클라이언트 및 소비자 토큰이 새 인증서를 사용 하 여 갱신 되기 전에 인증서가 만료 됩니다. 
+    > Edge 풀의 경우, 새 인증서를 사용 하 여 모든 클라이언트 및 소비자 토큰이 갱신 되기 전에 오래 된 인증서가 만료 되는 것을 방지 하기 위해 배포 되는 첫 번째 인증서의-EffectiveDate 매개 변수를 통해 배포 및 프로 비전 된 모든 오디오 Videoauthentication 인증서가 있어야 합니다. 
   
     CsCertificate 명령은-롤 및-EffectiveTime 매개 변수를 사용 합니다.
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
           <thumb print of new certificate> -Roll -EffectiveDate <date and time
           for certificate to become active>
@@ -69,7 +69,7 @@ OAuthTokenIssuer 인증서를 준비할 때 선행 시간에 대 한 요구 사�
 
     CsCertificate 명령 예:
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
           "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2015
           6:00:00 AM"
@@ -84,14 +84,14 @@ CsCertificate,-롤 및-EffectiveDate에서 사용 중인 추가 기능을 확인
   
 |**호출**|**단계별**|
 |:-----|:-----|
-|raid-1  <br/> |시작: 7/22/2015 12:00:00 오전  <br/> 현재 오디오 Videoauthentication 인증서는 7/22/2015의 2:00:00 PM에 만료 되기 때문입니다. 이는 인증서의 만료 된 타임 스탬프에 따라 결정 됩니다. 기존 인증서가 만료 시간에 도달 하기 전에 8 시간의 겹치기 (기본 토큰 수명)을 고려 하 여 인증서를 대체 하 고 롤오버를 계획 합니다. 이 예제에서는 관리자가 6:00:00 AM 유효 시간 이전에 새 인증서를 배치 하 고 프로 비전 하는 데 적절 한 시간을 허용 하기 위해 2:00:00 AM 시간을 사용 합니다.  <br/> |
-|2  <br/> |7/22/2015 2:00:00 AM-7/22/2015 5:59:59 AM  <br/> 유효 시간이 6:00:00 AM 인 Edge 서버의 인증서를 설정 합니다 (4 시간 리드 타임은이 예제 \<에서는 CsCertificate) 인증서 사용 유형\> -새 인증서 \<\> 의 지문 지문을 사용 하 여 더 길어질 수 있습니다. 새 인증서의 \<유효 시간에 대 한 EffectiveDate 날짜/시간 문자열\>  <br/> |
-|3-4  <br/> |7/22/2015 6:00 AM-7/22/2015 2:00 PM  <br/> 토큰의 유효성을 검사 하려면 새 인증서가 먼저 시도 되 고 새 인증서가 토큰의 유효성을 검사 하지 못하면 이전 인증서가 시도 됩니다. 이 프로세스는 8 시간 (기본 토큰 수명) 기간 동안 모든 토큰에 사용 됩니다.  <br/> |
+|1  <br/> |시작: 7/22/2015 12:00:00 오전  <br/> 현재 오디오 Videoauthentication 인증서는 7/22/2015의 2:00:00 PM에 만료 되기 때문입니다. 이는 인증서의 만료 된 타임 스탬프에 따라 결정 됩니다. 기존 인증서가 만료 시간에 도달 하기 전에 8 시간의 겹치기 (기본 토큰 수명)을 고려 하 여 인증서를 대체 하 고 롤오버를 계획 합니다. 이 예제에서는 관리자가 6:00:00 AM 유효 시간 이전에 새 인증서를 배치 하 고 프로 비전 하는 데 적절 한 시간을 허용 하기 위해 2:00:00 AM 시간을 사용 합니다.  <br/> |
+|2  <br/> |7/22/2015 2:00:00 AM-7/22/2015 5:59:59 AM  <br/> 유효 시간이 6:00:00 AM 인 Edge 서버의 인증서 설정 (4 시간 리드 타임은이 예제의 경우 \<) CsCertificate 인증서 사용 형식\> -지문 \<지문 (새 인증서의 유효 시간\> -롤-EffectiveDate \<datetime 문자열 사용)\>  <br/> |
+|3  <br/> |7/22/2015 6:00 AM-7/22/2015 2:00 PM  <br/> 토큰의 유효성을 검사 하려면 새 인증서가 먼저 시도 되 고 새 인증서가 토큰의 유효성을 검사 하지 못하면 이전 인증서가 시도 됩니다. 이 프로세스는 8 시간 (기본 토큰 수명) 기간 동안 모든 토큰에 사용 됩니다.  <br/> |
 |4(tcp/ipv4)  <br/> |종료: 7/22/2015 2:00:01 PM  <br/> 오래 된 인증서가 만료 되 고 새 인증서가 걸렸습니다. CsCertificate \<인증서 용도 유형을\> 제거 하 여 이전 인증서를 안전 하 게 제거할 수 있습니다.  <br/> |
    
 유효 시간 (7/22/2015 6:00:00 AM)에 도달 하면 새 인증서가 모든 새 토큰을 발급 합니다. 토큰의 유효성을 검사할 때 새 인증서에 대해 토큰의 유효성이 먼저 검사 됩니다. 유효성 검사에 실패 하면 이전 인증서가 시도 됩니다. 이전 인증서로 새 응답을 시도 하는 프로세스는 이전 인증서의 만료 시간까지 계속 됩니다. 이전 인증서가 만료 된 경우 (7/22/2015 2:00:00 PM), 새 인증서로만 토큰의 유효성을 검사할 수 있습니다. 이전 인증서는-Previous 매개 변수와 함께 CsCertificate cmdlet을 사용 하 여 안전 하 게 제거할 수 있습니다.
 
-```
+```PowerShell
 Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 ```
 
@@ -107,7 +107,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
     
     CsCertificate 명령은-롤 및-EffectiveTime 매개 변수를 사용 합니다.
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
           print of new certificate> -Roll -EffectiveDate <date and time for
           certificate to become active> -identity Global 
@@ -115,7 +115,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 
 CsCertificate 명령 예:
     
-  ```
+  ```PowerShell
   Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint
           "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/21/2015
           1:00:00 PM" 
@@ -125,7 +125,7 @@ CsCertificate 명령 예:
 > EffectiveDate는 서버의 국가 및 언어 설정에 맞게 형식이 지정 되어야 합니다. 이 예제에서는 미국 영어 국가 및 언어 설정을 사용 합니다. 
   
 유효 시간 (7/21/2015 1:00:00 AM)에 도달 하면 새 인증서가 모든 새 토큰을 발급 합니다. 토큰의 유효성을 검사할 때 새 인증서에 대해 토큰의 유효성이 먼저 검사 됩니다. 유효성 검사에 실패 하면 이전 인증서가 시도 됩니다. 이전 인증서로 새 응답을 시도 하는 프로세스는 이전 인증서의 만료 시간까지 계속 됩니다. 이전 인증서가 만료 된 경우 (7/22/2015 2:00:00 PM), 새 인증서로만 토큰의 유효성을 검사할 수 있습니다. 이전 인증서는-Previous 매개 변수와 함께 CsCertificate cmdlet을 사용 하 여 안전 하 게 제거할 수 있습니다.
-```
+```PowerShell
 Remove-CsCertificate -Type OAuthTokenIssuer -Previous 
 ```
 

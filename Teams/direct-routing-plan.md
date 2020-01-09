@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결 하는 방법을 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
-ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
+ms.openlocfilehash: 5b43bad6d0b8828a88ccb3ee48a85cb0c390e6a2
+ms.sourcegitcommit: 9eaa314a9e81a2a56686c035ba0292256ccb2bf5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257477"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995118"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -116,6 +116,14 @@ Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내
 전화 시스템 라이선스에 대 한 자세한 내용은 office 365 및 [office 365 계획 옵션](https://technet.microsoft.com/library/office-365-plan-options.aspx)을 [사용 하 여 Office에서 최대한 활용](https://products.office.com/compare-all-microsoft-office-products?tab=2) 을 참조 하세요. 
 
 전화 시스템 라이선스에 대 한 자세한 내용은 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요. 
+
+## <a name="supported-end-points"></a>지원 되는 끝점 
+
+끝 점으로 사용할 수 있습니다.
+- 모든 팀 cleintg. 
+- 일반적인 지역 전화, plese는 [Microsoft 팀을 위한 일반적인 지역 전화 라이선스 설정을](https://docs.microsoft.com/en-us/microsoftteams/set-up-common-area-phones)참조 하세요. 참고 다이렉트 라우팅이 있는 공통 영역 전화를 설정할 때에는 통화 계획 라이선스가 필요 하지 않습니다.
+- 비즈니스용 Skype 3PIP 전화. [Microsoft 팀과 함께 비즈니스용 Skype 휴대폰용 (3PIP) 지원을](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351) 참조 하세요.
+
 
 ## <a name="sbc-domain-names"></a>SBC 도메인 이름
 

@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 비즈니스용 skype server 2019 제어판 또는 비즈니스용 Skype Server 2019 Management Shell을 사용 하 여 사용자를 레거시 풀에서 비즈니스용 Skype 서버 2019 파일럿 풀로 이동할 수 있습니다. 아래 예제에서 레지스트라 풀 열에는 레거시 풀이 pool01.contoso.net,이 풀에는 6 명의 사용자가 모두 연결 되어 있습니다. 비즈니스용 skype server 2019 제어판 및 비즈니스용 skype Server Management Shell을 사용 하 여 사용자를 비즈니스용 Skype 서버 2019 풀로 이동 하려면 다음 절차를 사용 합니다.
-ms.openlocfilehash: 456035cfd917f620383d4dff70f6366cd73d530e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8964dd3dc868c22cd14389ba70b88d32b6bd145a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238079"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988963"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>단일 사용자를 시험 운용 풀로 이동
 
@@ -44,13 +44,13 @@ ms.locfileid: "36238079"
     
 2. 명령줄에 다음을 입력 합니다. 
     
-   ```
+   ```PowerShell
    Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
    ```
 
 3. 그런 다음 명령줄에 다음을 입력 합니다. 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "David Pelton"
    ```
 

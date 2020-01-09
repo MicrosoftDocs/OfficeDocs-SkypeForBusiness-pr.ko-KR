@@ -1,5 +1,5 @@
 ---
-title: 풀 장애 조치 및 장애 복구
+title: 풀 장애 극복 및 복구
 ms.reviewer: ''
 author: lanachin
 ms.author: v-lanac
@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: .
-ms.openlocfilehash: 2848261164ac568d3db4dd05160b7e50ec3981d3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f2a1970df43aa2fb7becb03319ee6ff5934afe0a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197479"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991803"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 풀 장애 조치 및 장애 복구 
 
@@ -102,8 +102,8 @@ ms.locfileid: "36197479"
 6.  백업\_풀의 백 엔드 서버에 중앙 관리 저장소를 설치 합니다.
     
       - 먼저 다음 명령을 실행 합니다.
-        
-        ``` 
+        ```PowerShell
+         
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     

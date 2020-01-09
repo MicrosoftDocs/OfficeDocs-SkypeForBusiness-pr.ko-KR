@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 통화 다이얼 플랜을 만들고 관리 하는 방법 (PSTN 통화 다이얼 플랜)과이를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7280614d2eab12dff30d17ad71a3ac213e94dcd4
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: c9623073cd5660a67bc2ba77b9c07a356d636520
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069439"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991663"
 ---
 # <a name="create-and-manage-dial-plans"></a>다이얼 플랜 만들기 및 관리
 
@@ -92,7 +92,7 @@ ms.locfileid: "40069439"
     > 비즈니스용 Skype Online Windows PowerShell 모듈을 처음 사용 하는 경우에만 **Import-Module** 명령을 실행 하면 됩니다.
   
 
-    ```
+    ```PowerShell
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -107,7 +107,7 @@ ms.locfileid: "40069439"
 
 - 새 다이얼 플랜을 만들려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
@@ -115,7 +115,7 @@ ms.locfileid: "40069439"
     
 - 기존 다이얼 플랜의 설정을 편집 하려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
     -SimpleName "Dial-Plan-for-Redmond"
   ```
@@ -124,7 +124,7 @@ ms.locfileid: "40069439"
     
 - 다이얼 플랜에 사용자를 추가 하려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
@@ -132,7 +132,7 @@ ms.locfileid: "40069439"
     
 - 다이얼 플랜에 대 한 설정을 보려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
@@ -140,7 +140,7 @@ ms.locfileid: "40069439"
     
 - 다이얼 플랜을 삭제 하려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
@@ -148,7 +148,7 @@ ms.locfileid: "40069439"
     
 - 유효 다이얼 플랜의 설정을 보려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
@@ -156,7 +156,7 @@ ms.locfileid: "40069439"
     
 - 다이얼 플랜의 유효 설정을 테스트 하려면 다음을 실행 합니다.
     
-  ```
+  ```PowerShell
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
@@ -165,7 +165,7 @@ ms.locfileid: "40069439"
 #### <a name="using-a-powershell-script"></a>PowerShell 스크립트 사용
 
 이 작업을 실행 하 여 테 넌 트 다이얼 플랜을 먼저 삭제할 필요 없이 테 넌 트 다이얼 플랜에 연결 된 정규화 규칙을 삭제 합니다.
-```
+```PowerShell
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
 (Get-CsTenantDialPlan -Identity RedmondDialPlan).NormalizationRules
@@ -173,19 +173,19 @@ $b2=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$b2}
 ```
 이를 실행 하 여 RedmondDialPlan 이라는 기존 테 넌 트 다이얼 플랜에 다음 정규화 규칙을 추가 합니다.
-```
+```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global -Description 'Organization extension dialing' -Pattern '^(\\d{3})$' -Translation '+14255551$1' -Name NR1 -IsInternalExtension $false -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
 이를 실행 하 여 RedmondDialPlan 이라는 기존 테 넌 트 다이얼 플랜에서 다음 정규화 규칙을 제거 합니다.
-```
+```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
 다음을 실행 하 여 기존 정규화 규칙을 검사 하 고 삭제 하려는 항목을 결정 한 다음 인덱스를 사용 하 여 제거 합니다. 정규화 규칙 배열은 index 0부터 시작 합니다. 3 자리 정규화 규칙을 제거 하 여 인덱스 1을 선택 합니다.
   
-```
+```PowerShell
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
 Description         : 4-digit
 Pattern             : ^(\\d{4})$
@@ -205,12 +205,12 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 
 이를 실행 하 여 RedmondDialPlan 테 넌 트 다이얼 플랜을 부여한 모든 사용자를 찾습니다.
   
-```
+```PowerShell
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
 이를 실행 하 여 sipfed.online.lync.com의 HostingProvider 있는 모든 사용자가 할당 된 TenantDialPlan 플랜을 제거 합니다.
-```
+```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
 
@@ -218,7 +218,7 @@ OPDP1 라는 기존 온-프레미스 다이얼 플랜을 조직의 테 넌 트 �
   
 이를 실행 하 여 온-프레미스 다이얼 플랜을 .xml 파일에 저장 합니다.
   
-```
+```PowerShell
 $DPName = "OPDP1"
 $DPFileName = "dialplan.xml"
 Get-CsDialplan $DPName | Export-Clixml $DPFileName
@@ -226,7 +226,7 @@ Get-CsDialplan $DPName | Export-Clixml $DPFileName
 
 새 테 넌 트 다이얼 플랜을 만들려면 다음을 실행 합니다.
   
-```
+```PowerShell
 $DPFileName = "dialplan.xml"
 $dp = Import-Clixml $DPFileName
 $NormRules = @()

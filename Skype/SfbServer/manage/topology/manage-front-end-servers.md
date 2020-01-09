@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '요약: 비즈니스용 Skype 서버에서 프런트 엔드 서버를 추가, 제거, 패치 또는 업데이트 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 13af9198dfb83d14ad1d86885419fc9add29e07d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3689b869ba715f431ebcf0b537b4106a66177c62
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187104"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991533"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 프런트 엔드 서버 관리
  
@@ -37,7 +37,7 @@ ms.locfileid: "36187104"
 
 1. 프런트 엔드 서버를 제거 하는 경우 먼저 해당 서버에 대 한 새 연결을 중지 합니다. 이렇게 하려면 다음 cmdlet을 사용 하면 됩니다.
     
-   ```
+   ```PowerShell
    Stop-CsWindowsService -Graceful
    ```
 
@@ -53,7 +53,7 @@ ms.locfileid: "36187104"
   
 4. 프런트 엔드 풀의 서버 수를 다음 방법 중 하나로 변경한 경우 다음 cmdlet을 입력 하 여 풀을 다시 설정 합니다. CsPoolRegistrarState-ResetType FullReset-PoolFqdn 
     
-   ```
+   ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
    ```
 
@@ -67,7 +67,7 @@ ms.locfileid: "36187104"
     
 5. 다음 cmdlet을 입력 하 여 풀을 다시 시작 합니다.
     
-   ```
+   ```PowerShell
    Start-CsPool
    ```
 
@@ -79,19 +79,19 @@ ms.locfileid: "36187104"
 
 1. 다음 cmdlet을 입력 합니다.
     
-   ```
+   ```PowerShell
    Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
    ```
 
      이 cmdlet에 누락 된 복제본이 표시 되는 경우 패치를 적용 하기 전에 다음 cmdlet을 실행 하 여 풀을 복구 합니다.
     
-   ```
+   ```PowerShell
    Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
    ```
 
 2. 패치를 적용할 첫 번째 서버에서 다음 cmdlet을 실행 합니다.
     
-   ```
+   ```PowerShell
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
@@ -101,7 +101,7 @@ ms.locfileid: "36187104"
     
 4. 업그레이드 된 서버에서 다음 cmdlet을 실행 합니다.
     
-   ```
+   ```PowerShell
    Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
    ```
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버 범주를 관리 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 8a8e8060db896a272293df3259091d4f7667a7d3
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: f0c85c2246c85c93f96e6c13cef0a5d4360213cb
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197875"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992003"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>영구 채팅 서버의 범주 관리
  
@@ -69,7 +69,7 @@ ms.locfileid: "36197875"
     
 7. **범주 편집**에서 다음을 수행합니다.
     
-   - **구성원 자격**에서 허용 된 **구성원** 섹션의 사용자 및 기타 Active Directory 도메인 서비스 주체 (사용자, 메일 그룹, 조직 구성 단위 등)를 추가 하거나 제거 하 여 채팅방의 구성원으로 추가할 수 있도록 허용 합니다. 범주에 속해 있습니다. 특정 범주에서 허용된 계정은 채팅방의 구성원만 디렉터리에서 채팅방을 검색할 수 있도록 채팅방이 숨겨져 있지 않은 한 해당 범주에서 채팅방을 검색할 수 있습니다.
+   - **구성원 자격**의 허용 된 **구성원** 섹션에서 사용자 및 기타 Active Directory 도메인 서비스 주체 (사용자, 메일 그룹, 조직 구성 단위 등)를 추가 하거나 제거 하 여 범주에 속하는 채팅방의 구성원으로 추가할 수 있도록 허용 합니다. 특정 범주에서 허용된 계정은 채팅방의 구성원만 디렉터리에서 채팅방을 검색할 수 있도록 채팅방이 숨겨져 있지 않은 한 해당 범주에서 채팅방을 검색할 수 있습니다.
     
    - **구성원 자격**의 거부 된 **구성원** 섹션에서 룸에서 거부 되는 구성원과 연결 된 사용자 및 기타 Active Directory 주도자를 추가 하거나 제거 합니다.
     
@@ -109,7 +109,7 @@ ms.locfileid: "36197875"
 
 **새 CsPersistentChatCategory** cmdlet을 사용 하 여 새 범주를 만들 수 있습니다. 예를 들어 다음 명령은 풀 atl-cs-001.contoso.com에 기술 지원팀 이라는 새 범주를 만듭니다. 이 예제에서는 파일 업로드를 사용할 수 있습니다.
   
-```
+```PowerShell
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
 ```
 
@@ -117,9 +117,9 @@ New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-00
 
 **Set-CsPersistentCategory** cmdlet을 사용 하 여 기존 범주를 구성할 수 있습니다.
   
-예를 들어 다음 명령은 user1이 AllowedMember이 고 작성자 인 반면,% 2은 (는) 범주에 있는 채팅방에 대 한 액세스를 거부 하도록 지정 합니다.
+예를 들어 다음 명령은 user1이 AllowedMember이 고 작성자 인 반면, %2은 (는) 범주에 있는 채팅방에 대 한 액세스를 거부 하도록 지정 합니다.
   
-```
+```PowerShell
 Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
 Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 ```
@@ -128,7 +128,7 @@ Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contos
 
 **CsPersistentChatCategory** cmdlet을 사용 하 여 범주에 대 한 정보를 얻을 수 있습니다. 예를 들어 다음 명령은 조직의 모든 영구 채팅 범주에 대 한 정보를 반환 합니다.
   
-```
+```PowerShell
 Get-CsPersistentChatCategory
 ```
 
@@ -136,6 +136,6 @@ Get-CsPersistentChatCategory
 
 **제거-CsPersistentChatCategory** cmdlet을 사용 하 여 범주를 제거할 수 있습니다. 범주를 제거 하기 전에 먼저 모든 채팅방을 삭제 하거나 채팅방을 새 범주로 이동 해야 합니다. 예를 들어 다음 명령을 실행 하면 "atl-cs-001-com\helpdesk" 라는 Id를 가진 범주가 제거 됩니다.
   
-```
+```PowerShell
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"
 ```

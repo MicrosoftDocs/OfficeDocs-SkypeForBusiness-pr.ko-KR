@@ -17,12 +17,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 95f8910005121faceb261a399ed64a4f68e5cad4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968179"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988803"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 준수에 대 한 개요
 ======================================================
@@ -31,7 +31,7 @@ Microsoft 팀은 고객이 기대 하는 고급 보안 및 규정 준수 기능�
 
 팀은 계층 D 규격입니다. 여기에는 ISO 27001, ISO 27018, SSAE16 SOC 1, SOC 2, HIPAA 및 EU 모델 절 (EUMC)이 포함 됩니다. Microsoft 규정 준수 프레임 워크 내에서 Microsoft는 Office 365 응용 프로그램 및 서비스를 네 가지 범주로 분류 합니다. 각 범주는 해당 범주에 나열 되는 Office 365 서비스 또는 관련 Microsoft 서비스에 대해 충족 해야 하는 특정 준수 약정에 의해 정의 됩니다.
 
-규정 준수 범주에서 업계 선두적인 규정 준수 약정을 갖는 서비스는 기본적으로 사용 하도록 설정 되어 있습니다. 범주 A 및 B의 서비스는 전체 조직에 대해 이러한 서비스를 설정 하거나 해제 하는 컨트롤과 함께 사용 됩니다. 자세한 내용은 [업계 표준 및 규정 준수 프레임 워크](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf)에 나와 있습니다. 또한 팀은 클라우드 보안 동맹 준수를 지원 합니다.
+규정 준수 범주에서 업계 선두적인 규정 준수 약정을 갖는 서비스는 기본적으로 사용 하도록 설정 되어 있습니다. 범주 A 및 B의 서비스는 전체 조직에 대해 이러한 서비스를 설정 하거나 해제 하는 컨트롤과 함께 사용 됩니다. 자세한 내용은 [업계 표준 및 규정 준수 프레임 워크](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)에 나와 있습니다. 또한 팀은 클라우드 보안 동맹 준수를 지원 합니다.
 
 또한 팀은 조직 차원의 2 단계 인증, Active Directory를 통한 single sign-on, 전송 되는 데이터의 암호화를 적용 합니다. 파일은 SharePoint에 저장 되며 SharePoint 암호화를 통해 지원 됩니다. 노트는 OneNote에 저장 되며 OneNote 암호화를 통해 지원 됩니다. OneNote 데이터는 팀 SharePoint 사이트에 저장 됩니다. Wiki 탭은 노트 작성에도 사용할 수 있으며, 콘텐츠는 팀 SharePoint 사이트에도 저장 됩니다.
 
@@ -44,7 +44,7 @@ Office 365 보안 및 준수에 대 한 자세한 내용은 [향상 된 보안�
 
 ## <a name="auditing-and-reporting"></a>감사 및 보고
 
-감사 로그 검색은 Office 365 보안 & 준수 센터에 있으며, 감사 이벤트에 대 한 알림 및/또는 보고서를 설정 하는 기능을 제공 합니다. 무제한 감사 시간 표시 막대입니다. 모든 감사 로그 데이터는 Office 365 보안 & 준수 센터 내에서 알림을 설정 하는 데 사용할 수 있으며 추가 분석을 위해 필터링 및 내보내기를 할 수도 있습니다. Office 365 보안 & 준수 센터에서 Microsoft 팀 이벤트에 대 한 감사 로그 검색을 수행 하는 방법에 대해 자세히 알아보려면이 [링크](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) 를 참조 하세요. 
+감사 로그 검색은 Office 365 보안 & 준수 센터에 있으며, 감사 이벤트에 대 한 알림 및/또는 보고서를 사용 가능 하 게 설정 하는 기능을 제공 하 고 무제한 감사 시간 표시 막대에서 관리자의 사용 및 확인을 위한 특정 또는 일반 이벤트 집합을 내보냅니다. 모든 감사 로그 데이터는 Office 365 보안 & 준수 센터 내에서 알림을 설정 하는 데 사용할 수 있으며 추가 분석을 위해 필터링 및 내보내기를 할 수도 있습니다. Office 365 보안 & 준수 센터에서 Microsoft 팀 이벤트에 대 한 감사 로그 검색을 수행 하는 방법에 대해 자세히 알아보려면이 [링크](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) 를 참조 하세요. 
 
 ## <a name="compliance-content-search"></a>콘텐츠 검색 준수
 
@@ -79,7 +79,7 @@ Office 365 보안 및 준수에 대 한 자세한 내용은 [향상 된 보안�
 
 ## <a name="legal-hold"></a>법률 보류
 
-소송 중에는 사용자 (custodian) 또는 팀과 연결 된 모든 데이터가 없도록 보존 되므로 대/소문자 증명으로 사용할 수 있어야 합니다. 이는 사용자 (사용자 사서함) 또는 법률에 따라 팀을 배치 하 여 달성할 수 있습니다. 팀 내의 팀이 원본 위치 유지 (대상 쿼리 또는 필터링 된 콘텐츠를 통해 사서함 또는 사이트 모음의 하위 집합)에 배치 되는 경우 (전체 사서함 또는 사이트 모음) 보류가 그룹 사서함에 배치 됩니다. 이렇게 하면 최종 사용자가 그룹 사서함에 ingested 된 채널 메시지를 삭제 하거나 편집할 때도 변경 내용이 유지 되 고 eDiscovery 검색에서 사용할 수 있게 됩니다. 법률 보존은 일반적으로 eDiscovery 사례의 컨텍스트 내에서 적용 됩니다. Office 365 보안 & 준수 센터의 보존 및 유지에 대해 자세히 알아보려면 [이](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) 도움말 문서를 참조 하세요. 
+소송 중에는 사용자 (custodian)와 관련 된 모든 데이터를 대/소문자 증명 정보로 사용할 수 있도록 변경 불가능으로 유지 해야 하는 경우가 많습니다. 이는 사용자 (사용자 사서함) 또는 법률에 따라 팀을 배치 하 여 달성할 수 있습니다. 팀 내의 팀이 원본 위치 유지 (대상 쿼리 또는 필터링 된 콘텐츠를 통해 사서함 또는 사이트 모음의 하위 집합)에 배치 되는 경우 (전체 사서함 또는 사이트 모음) 보류가 그룹 사서함에 배치 됩니다. 이렇게 하면 최종 사용자가 그룹 사서함에 ingested 된 채널 메시지를 삭제 하거나 편집할 때도 변경 내용이 유지 되 고 eDiscovery 검색에서 사용할 수 있게 됩니다. 법률 보존은 일반적으로 eDiscovery 사례의 컨텍스트 내에서 적용 됩니다. Office 365 보안 & 준수 센터의 보존 및 유지에 대해 자세히 알아보려면 [이](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) 도움말 문서를 참조 하세요. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Microsoft 팀에 대 한 정보 보호 아키텍처. 
 
@@ -100,7 +100,7 @@ Office 365 보안 및 준수에 대 한 자세한 내용은 [향상 된 보안�
 정보 보호 기능에 도달 하면 Office 365 구독 및 관련 독립 실행형 라이선스에서 사용 가능한 기능 집합을 결정 합니다.
 
 
-| 정보 보호 기능 | Office 365 비즈니스 주요 기능 | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
+| 정보 보호 기능 | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
 |              보관할              |               -                |              -              |            -             |             예             |           예            |
 |        원본 위치 eDiscovery        |               -                |              -              |            -             |             예             |           예            |

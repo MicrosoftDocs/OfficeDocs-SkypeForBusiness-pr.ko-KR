@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에 대 한 업그레이드 통계 관리자
+title: 비즈니스용 Skype 서버 통계 관리자 업그레이드
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: '요약: 비즈니스용 Skype 서버용 통계 관리자를 업그레이드 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: 70826776e9dfacdef75c7084a9aba6f4eede940a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: de88257b628256c47b68036852d82fb6715c043f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197032"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992505"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 업그레이드 통계 관리자
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자 업그레이드
  
 **요약:** 비즈니스용 Skype 서버용 통계 관리자를 업그레이드 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
   
@@ -50,7 +50,7 @@ ms.locfileid: "36197032"
     
 2. 관리 PowerShell 창을 엽니다. 수신기 구성 요소를 업그레이드 합니다.
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Listener
    ```
 
@@ -65,7 +65,7 @@ ms.locfileid: "36197032"
     
 4. 관리 PowerShell 창을 엽니다. 웹 사이트 구성 요소를 업그레이드 합니다.
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Website
    ```
 
@@ -77,7 +77,7 @@ ms.locfileid: "36197032"
     
 8. 관리 PowerShell 창을 엽니다. 에이전트 구성 요소를 업그레이드 합니다.
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Agent
    ```
 
@@ -107,8 +107,8 @@ ms.locfileid: "36197032"
 
 자세한 내용은 다음을 참조 하세요.
   
-- [비즈니스용 Skype 서버에 대 한 통계 관리자 계획](plan.md)
+- [비즈니스용 Skype 서버 통계 관리자에 대한 계획](plan.md)
     
-- [비즈니스용 Skype 서버에 대 한 통계 관리자 배포](deploy.md)
+- [비즈니스용 Skype 서버 통계 관리자 배포](deploy.md)
     
-- [비즈니스용 Skype 서버에 대 한 통계 관리자 문제 해결](troubleshoot.md)
+- [비즈니스용 Skype 서버 통계 관리자 문제 해결](troubleshoot.md)

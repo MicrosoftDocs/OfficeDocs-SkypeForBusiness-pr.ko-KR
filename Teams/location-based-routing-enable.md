@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 615848be1f91f80b0afd06c1eaa44a4f9d7b4f63
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 48fbd1477194b7523b65ec527686b7304f0c37b2
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615798"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992023"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>직접 라우팅에 위치 기반 라우팅 사용
 
@@ -39,16 +39,16 @@ ms.locfileid: "39615798"
 
 1. [CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) cmdlet을 사용 하 여 PSTN 사용량을 설정 합니다. 여러 용도를 위해 각 용도를 쉼표로 구분 합니다.
 
-    ```
+    ```PowerShell
     Set-CsOnlinePstnUsage -Usage <usages> 
     ```
     예를 들면 다음과 같습니다.
-    ```
+    ```PowerShell
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
 2. [CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet을 사용 하 여 사용자를 적절 한 PSTN 용도에 연결 하는 음성 라우팅 정책을 만듭니다.
 
-    ```
+    ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
     ```
     
@@ -58,7 +58,7 @@ ms.locfileid: "39615798"
 
     이 예제에서는 두 개의 새로운 음성 라우팅 정책을 만들고 PSTN 용도를 할당 합니다. 
 
-    ```
+    ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Description "Delhi voice routing policy" -OnlinePstnUsages "Long Distance" 
     New-CsOnlineVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Description " Hyderabad voice routing policy" -OnlinePstnUsages "Long Distance", "Local", "Internal" 
     ```
@@ -70,18 +70,18 @@ ms.locfileid: "39615798"
     |온라인 PSTN 용도  |시외  |장거리, 지역, 내부  |
 
 3. [CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet을 사용 하 여 라우팅 제한을 적용 해야 하는 사용자에 게 온라인 음성 라우팅 정책을 연결 합니다.
-    ```
+    ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
 ## <a name="enable-location-based-routing-for-network-sites"></a>네트워크 사이트용 위치 기반 라우팅 사용
 1.  [Set-Csten앤틸리스 site](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) cmdlet을 사용 하 여 위치 기반 라우팅을 사용 하도록 설정 하 고 라우팅 제한을 적용 해야 하는 네트워크 사이트에 음성 라우팅 정책을 연결 합니다.
-    ```
+    ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
     이 예제에서는 뉴델리 사이트 및 Hyderabad 사이트에 대 한 위치 기반 라우팅을 사용 하도록 설정 합니다. 
 
-    ```
+    ```PowerShell
     Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
     Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
@@ -96,13 +96,13 @@ ms.locfileid: "39615798"
 ## <a name="enable-location-based-routing-for-gateways"></a>게이트웨이에 대 한 위치 기반 라우팅 사용
 1. [새 CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) cmdlet을 사용 하 여 각 게이트웨이 또는 네트워크 사이트에 대 한 게이트웨이 구성을 만듭니다. 
 
-    ```
+    ```PowerShell
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
     ```
     여러 게이트웨이가 시스템 (예: 게이트웨이 또는 PBX)과 연결 되어 있는 경우 위치 기반 라우팅 제한을 사용 하도록 각 게이트웨이를 수정 합니다. 
 
     이 예제에서는 각 게이트웨이에 대해 하나의 게이트웨이 구성을 만듭니다. 
-    ```
+    ```PowerShell
     New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
     자세한 내용은 [직접 라우팅 구성을](direct-routing-configure.md)참조 하세요.
@@ -111,18 +111,18 @@ ms.locfileid: "39615798"
 
     PSTN으로 호출을 라우팅하는 PSTN 게이트웨이로 통화를 라우팅하고 게이트웨이가 있는 네트워크 사이트를 연결 하는 게이트웨이에 대 한 위치 기반 라우팅을 사용 하도록 설정 합니다.
 
-    ```
+    ```PowerShell
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 
     ```
 
     이 예제에서는 뉴델리 및 Hyderabad 사이트의 PSTN 게이트웨이와 연결 된 각 게이트웨이에 대해 위치 기반 라우팅을 사용 하도록 설정 합니다. 
-    ```
+    ```PowerShell
     Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID “Delhi”
     Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID “Hyderabad” 
     ```
     PSTN으로 호출을 라우팅되지 않는 게이트웨이에 대해 위치 기반 라우팅을 사용 하지 마세요. 그러나이 경우에도 시스템이 있는 네트워크 사이트에 게이트웨이를 연결 해야 합니다. 이 게이트웨이를 통해 연결 된 끝점에 도달 하는 PSTN 호출에 대해 위치 기반 라우팅 제한을 적용 해야 하기 때문입니다. 이 예제에서는 Hyderabad 사이트에서 PBX 시스템과 연결 된 각 게이트웨이에 대해 위치 기반 라우팅이 사용 되지 않습니다.
 
-    ```
+    ```PowerShell
     Get-CSONlinePSTNGateway -Identity sbc.contoso.com 
  
     Identity: sbc.contoso.com 
@@ -151,12 +151,12 @@ ms.locfileid: "39615798"
 
 [CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) cmdlet을 사용 하 여 PSTN 유료 바이패스를 방지 하 여 위치 기반 라우팅을 사용 하도록 설정 합니다.
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
 이 예제에서는 PSTN 유료 바이패스를 User1's 호출 정책을 방지 합니다. 
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 

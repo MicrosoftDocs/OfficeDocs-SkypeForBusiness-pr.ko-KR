@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 이 항목에서는 각 도구의 용도와 사용 예를 포함 하 여 비즈니스용 Skype Server 2015 리소스 키트의 도구에 대해 설명 합니다. 비즈니스용 Skype Server 2015 리소스 키트는 비즈니스용 Skype Server 2015를 배포 하 고 관리 하는 IT 관리자를 위한 일상적인 작업을 더욱 쉽게 수행할 수 있도록 지원 합니다. 예를 들어 웹 회의 데이터 도구를 사용 하 여 온라인 모임 중에 사용자가 업로드 한 데이터를 쉽게 제어할 수 있습니다. SEFAUtil 도구를 사용 하 여 사용자에 대 한 대리인 착신 전환 및 응답을 설정할 수 있습니다. IT 관리자가 이러한 도구를 사용 하 여 비즈니스용 Skype 서버 2015을 보다 효율적으로 관리 하도록 하는 것이 좋습니다.
-ms.openlocfilehash: c34998cf86de6bc85d384081c0db77f70edb68f9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0087f4286246833f0266ad0c78636bad00167756
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191214"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992535"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>비즈니스용 Skype 서버 2015 리소스 키트 도구 문서
 
@@ -92,7 +92,7 @@ ABSConfig 도구는 ABSConfig 파일을 사용 하 여 시작할 수 있습니�
 
 ABSConfig는 데이터베이스에 주소록 서비스 구성을 저장 합니다.
 
-```
+```PowerShell
 Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 ```
 
@@ -106,7 +106,7 @@ ABSConfig는 비즈니스용 Skype Server 2015 주소록 서비스를 빠르고 
 
 ABSConfig는 비즈니스용 Skype 서버 2015이 설치 되어 있는 도메인 가입 컴퓨터 에서만 실행할 수 있습니다. 비즈니스용 Skype Server 2015, Enterprise Edition의 경우, 설치 중에 주소록 서비스를 사용 하는 프런트 엔드 서버에서이 도구를 실행할 수 있습니다.
 
-#### <a name="network"></a>사설망
+#### <a name="network"></a>네트워크
 
 컴퓨터가 프런트 엔드 풀 및 백 엔드 데이터베이스에 연결할 수 있어야 합니다.
 
@@ -421,7 +421,7 @@ CPS 도구의 용도는 CPS 데이터베이스에 대 한 명령줄 액세스를
 
 CPS를 실행 하는 컴퓨터에서이 도구를 실행 하는 경우 요구 사항은 없습니다. 원격 컴퓨터에서이 도구를 실행 하는 경우 비즈니스용 Skype 서버 2015에서 사용 하는 SQL Server 데이터베이스를 원격 액세스를 허용 하도록 구성 해야 합니다. 풀의 SQL Server에 연결 하려면 SQL Server 데이터베이스 연결 문자열을 사용 하 여 Parkometer 호출을 구성 해야 합니다. 이 SQL Server 데이터베이스 연결 문자열은 구성 파일 **parkometer**에 정의 되어 있습니다. Parkometer가 있는 디렉터리에 배치 해야 합니다. 다음 XML 파일은 parkometer의 예입니다. 구성 해야 하는 매개 변수는 사용자 이름 (예: mydomain\Administrator), 암호 (예: mypassword) 및 호스트 이름 (예: myserver)입니다.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
   <appSettings>
@@ -467,14 +467,14 @@ Parkometer 통화는 통화 공원 서버에 대 한 자세한 정보를 제공 
 
 DBAnalyze는 관리자가 비즈니스용 Skype 서버 2015 데이터베이스에 대 한 분석 보고서를 수집 하는 데 도움이 되는 명령줄 도구입니다. DBAnalyze에는 진단, 사용자 데이터, 회의, MCUs, 디스크 조각화 등의 모드가 있습니다.
 
-- **진단 모드** 테이블에 대 한 정보 (레코드 수, 조각화, 데이터 크기, 인덱스 크기), 데이터 및 로그 파일 크기, 마지막 백업 시간, Microsoft Office Communications Server를 실행 하는 서버 간에 서비스 배포에 대 한 연락처를 포함 하는 보고서를 만듭니다. 평균 사용 권한, 연락처, 컨테이너, 구독, 게시, 사용자 당 끝점, 부적절 한 홈 사용자, 라우팅할 수 없는 사용자, 사용자 당 구성 되는 평균 컨퍼런스, 예약 된 회의, 활성 회의, 데이터베이스 버전.
+- **진단 모드** 테이블에 대 한 정보를 포함 하는 보고서를 만듭니다 (레코드 수, 조각화 됨, 데이터 크기, 인덱스 크기, 데이터 및 로그 파일 크기, 마지막 백업 시간, Microsoft Office Communications Server를 실행 하는 서버 간에, 평균 사용 권한, 연락처, 컨테이너, 구독, 게시, 사용자 당 끝점, 부적절 한 홈 사용자, 사용자 당 구성 된 회의의 평균 수, 예약 된 회의, 활성 회의 등의 다양 한 연결 데이터베이스 버전.
 
     > [!NOTE]
     > 진단 모드를 실행 하면 서버 성능이 저하 될 수 있습니다.
 
 - **사용자 데이터 모드** 지정 된 사용자 또는 해당 사용자의 연락처 및 사용 권한 목록에 있는 사용자의 연락처, 컨테이너, 구독, 게시, 사용 권한, 연락처 그룹 데이터를 보고 합니다. 또한이 모드는 사용자가 구성 하거나 초대 하는 회의에 대 한 요약 데이터를 보고 합니다.
 
-- **컨퍼런스 모드** 회의의 모든 일정 시간 세부 정보, 초대 대 상자, 회의에 허용 된 미디어 유형 목록, 활성 MCUs (multipoint 컨트롤 단위), 활성 참가자 목록 등 특정 회의에 대 한 자세한 데이터를 보고 합니다. 참가자의 신호 상태입니다.
+- **컨퍼런스 모드** 회의에 대 한 모든 일정 시간 정보, 초대 대 상자, 회의에 허용 된 미디어 유형 목록, 활성 MCUs (multipoint 컨트롤 단위), 활성 참가자 목록, 각 참가자의 신호 상태 등 특정 회의에 대 한 자세한 데이터를 보고 합니다.
 
 - **디코드 모임 ID** **/Pstnid** 스위치로 지정 되지만 백 엔드에 연결 되지 않은 PSTN (공개 전환 전화 네트워크) 모임 ID를 디코딩 하는 방법에 대해 자세히 설명 합니다.
 
@@ -785,11 +785,11 @@ Business Server 2015에 대 한 C:\Program Files\Skype\>/ResKit lookupuserconsol
 ## <a name="msturnping"></a>MsTurnPing
 <a name="MsTurnPing"> </a>
 
-MSTurnPing 도구를 사용 하면 비즈니스용 Skype Server 2015 통신 소프트웨어에서 오디오/비디오에 지 및 오디오/비디오 인증 서비스를 실행 하는 서버의 상태와 대역폭 정책을 실행 하는 서버를 확인할 수 있습니다. 토폴로지의 서비스.
+MSTurnPing 도구는 비즈니스용 Skype Server 2015 통신 소프트웨어의 관리자가 오디오/비디오에 지 및 오디오/비디오 인증 서비스를 실행 하는 서버의 상태와 토폴로지에서 대역폭 정책 서비스를 실행 하는 서버를 확인할 수 있도록 합니다.
 
 ### <a name="description"></a>설명
 
-MSTurnPing 도구를 사용 하면 비즈니스용 Skype Server 2015 통신 소프트웨어에서 오디오/비디오에 지 및 오디오/비디오 인증 서비스를 실행 하는 서버의 상태와 대역폭 정책을 실행 하는 서버를 확인할 수 있습니다. 토폴로지의 서비스.
+MSTurnPing 도구는 비즈니스용 Skype Server 2015 통신 소프트웨어의 관리자가 오디오/비디오에 지 및 오디오/비디오 인증 서비스를 실행 하는 서버의 상태와 토폴로지에서 대역폭 정책 서비스를 실행 하는 서버를 확인할 수 있도록 합니다.
 
 관리자는이 도구를 사용 하 여 다음과 같은 테스트를 수행할 수 있습니다.
 
@@ -874,7 +874,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 ### <a name="examples"></a>예제
 
- 비즈니스용 skype server **2015 배포에서 cac 네트워크 토폴로지 로드 및 보기 그래픽 형식**: 비즈니스용 skype server 2015 관리자는 비즈니스용 skype server 2015 컴퓨터에서 CAC 네트워크 토폴로지 구성을 로드 하 고 볼 수 있습니다. 아래 그림에 표시 된 것 처럼 **네트워크 구성 다운로드** 옵션을 사용 합니다. 이 도구는 비즈니스용 Skype Server 2015 구성 저장소에 연결 되어 있지 않은 컴퓨터에 배포 된 경우 이러한 구성을 다운로드 하거나 볼 수 없습니다.
+ 다음과 같이 **그래픽 형식의 비즈니스용 Skype 서버 2015 배포에서 cac 네트워크 토폴로지를 로드 하 고 볼**수 있습니다. 비즈니스용 skype server 2015 관리자는 아래 그림에 표시 된 것 처럼 **네트워크 구성 다운로드** 옵션을 사용 하 여 비즈니스용 skype SERVER 2015 컴퓨터에서 CAC 네트워크 토폴로지 구성을 로드 하 고 볼 수 있습니다. 이 도구는 비즈니스용 Skype Server 2015 구성 저장소에 연결 되어 있지 않은 컴퓨터에 배포 된 경우 이러한 구성을 다운로드 하거나 볼 수 없습니다.
 
 ![네트워크 구성 다운로드.](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
@@ -886,11 +886,11 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 ![네트워크 구성을 XML 파일로 저장.](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
 
-다음으로 CAC 네트워크 토폴로지 다이어그램 저장 및 저장: JPG 또는 BMP 형식의 Skype for Business Server 2015 관리자는 **네트워크 구성 다이어그램을 다음으로 저장을 사용 하 여 CAC 네트워크 토폴로지 구성을 그래픽 형식 (JPG 및 BMP 파일 형식)으로 저장할 수 있습니다. **아래 표시 된 그림 옵션
+CAC 네트워크 토폴로지 다이어그램을 JPG 또는 BMP 형식으로 저장 및 저장: 비즈니스용 Skype Server 2015 관리자는 아래 표시 된 것 처럼 **네트워크 구성 다이어그램을 그림으로 저장** 옵션을 사용 하 여 CAC 네트워크 토폴로지 구성을 그래픽 형식 (JPG 및 BMP 파일 형식)으로 저장할 수 있습니다.
 
 ![네트워크 구성을 그림으로 저장.](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- <strong>CAC 네트워크 토폴로지 구성 데이터 보기:</strong> 비즈니스용 Skype 서버 2015 관리자는 네트워크 영역, 네트워크 사이트, 대역폭 프로필, 사이트 서브넷 IP 주소와 같은 관련 네트워크 구성 데이터를 다음과 같이 볼 수 있습니다. 미만인.
+ <strong>CAC 네트워크 토폴로지 구성 데이터 보기:</strong> 비즈니스용 Skype Server 2015 관리자는 아래와 같이 네트워크 구성 데이터 보기 옵션을 사용 하 여 네트워크 지역, 네트워크 사이트, 대역폭 프로필, 사이트 서브넷 IP 주소 등의 관련 네트워크 구성 데이터를 텍스트 형식으로 볼 수 있습니다.
 
 ![네트워크 구성 데이터 보기.](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
@@ -1045,7 +1045,7 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀의 일부인 컴
 
 1. SEFAUTil 도구는 신뢰할 수 있는 응용 프로그램 풀의 일부인 컴퓨터 에서만 실행 됩니다. 필요한 경우 다음 cmdlet을 사용 하 여 비즈니스용 Skype Server Management Shell을 통해 풀을 새 신뢰할 수 있는 응용 프로그램 풀로 추가 하는 작업을 수행할 수 있습니다.
 
-   ```
+   ```PowerShell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
 
@@ -1054,7 +1054,7 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀의 일부인 컴
 
 2. 신뢰할 수 있는 응용 프로그램은 SEFAUtil 도구의 토폴로지에서 정의 해야 합니다. SEFAUtil를 새 신뢰할 수 있는 응용 프로그램으로 정의 하려면 비즈니스용 Skype Server Management Shell을 사용 하 여 다음 cmdlet을 실행 합니다.
 
-   ```
+   ```PowerShell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
    ```
 
@@ -1068,7 +1068,7 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀의 일부인 컴
 
 3. 토폴로지 변경 내용을 사용할 수 있어야 합니다. 다음 cmdlet을 실행 하 여 비즈니스용 Skype 서버 관리 셸을 통해 토폴로지 변경 사용을 수행할 수 있습니다.
 
-   ```
+   ```PowerShell
    Enable-CsToplogy
    ```
 
@@ -1076,13 +1076,13 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀의 일부인 컴
 
 5. SEFAUtil 올바르게 실행 중인지 확인 합니다. 이렇게 하려면 관리자 권한을 사용 하 여 windows 명령 프롬프트에서 도구를 실행 하 여 배포에 있는 사용자의 착신 전환 설정을 표시 합니다. 기본적으로이 도구는 "..\Program Files\Skype for Business Server 2015 \ Reskit"에 위치 합니다. 사용자의 착신 전환 설정을 표시 하려면 다음 명령을 사용 합니다.
 
-   ```
+   ```console
    SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
    ```
 
     사용자의 착신 전환 설정이 표시 되어야 합니다.
 
-#### <a name="group-call-pickup"></a>그룹 통화 픽업
+#### <a name="group-call-pickup"></a>그룹 통화 받기
 
 그룹 통화 픽업 기능을 사용 하려면 비즈니스용 Skype 서버 2015에 추가 구성이 필요 합니다. 사용자에 게 픽업 그룹을 할당 하기 전에이 기능의 계획 및 배포 단계에 대 한 그룹 통화 픽업 제품 설명서를 참조 하세요.
 
@@ -1097,7 +1097,7 @@ SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀의 일부인 컴
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1116,7 +1116,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdno
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1135,7 +1135,7 @@ SEFAUtil.exe sip:katarina@contoso.com /enablefwdimmediate /setfwddestination:and
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1153,7 +1153,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimme
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1172,7 +1172,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1189,7 +1189,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringde
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1210,7 +1210,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removedeleg
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1229,7 +1229,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1249,7 +1249,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /setsimulrin
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1267,7 +1267,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablesimu
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1289,7 +1289,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammemb
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1309,7 +1309,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removeteamm
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1327,7 +1327,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringte
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1357,7 +1357,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disableteam
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1375,7 +1375,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegroup
 
  **결과물**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1445,7 +1445,7 @@ Sysprep.inf 스크립트를 실행 하기 전에 필수 구성 요소 파일을 
 
 Sysprep.inf 스크립트를 실행 하 고 비즈니스용 Skype 서버 2015 필수 조건을 설치 하려면 관리자 권한 명령 프롬프트에서 다음 명령을 실행 합니다.
 
-```
+```console
 ./SysPrep.PS1 -SetupFolder D:\Setup
 ```
 
@@ -1481,7 +1481,7 @@ Sysprep.inf 스크립트를 실행 하 고 비즈니스용 Skype 서버 2015 필
 
 지정 되지 않은 번호 공지 사항 마이그레이션 스크립트는 다음 세 가지 시나리오에서 사용할 수 있습니다.
 
-- **새 버전의 비즈니스용 Skype 서버에 구성 설정을 마이그레이션합니다.** Contoso는 비즈니스용 Skype Server 2015으로 마이그레이션하고 마이그레이션 프로세스의 일부로, 비즈니스용 Skype 서버 관리자가 알림 신청 중 할당 되지 않은 번호 구성을 Lync에서 이동 하 고 싶습니다. 새로운 비즈니스용 Skype Server 2015 배포에 대 한 서버 2013 배포. 구성 설정을 이동 하려면 비즈니스용 Skype 서버 관리자가 할당 되지 않은 번호 알림 마이그레이션 도구를 사용 합니다.
+- **새 버전의 비즈니스용 Skype 서버에 구성 설정을 마이그레이션합니다.** Contoso는 비즈니스용 Skype Server 2015으로 마이그레이션하고 마이그레이션 프로세스의 일부로 서, 비즈니스용 Skype 서버 관리자는 알림 응용 프로그램에서 서비스를 제공 하는 할당 되지 않은 번호 구성을 Lync Server 2013 배포에서 새로운 비즈니스용 Skype 서버 2015 배포로 이동 합니다. 구성 설정을 이동 하려면 비즈니스용 Skype 서버 관리자가 할당 되지 않은 번호 알림 마이그레이션 도구를 사용 합니다.
 
 - **비즈니스용 Skype 서버 2015에서 Lync server 2013으로 배포 롤백:** 예기치 않은 요인으로 인해 Contoso는 새로운 비즈니스용 Skype Server 2015 배포로 마이그레이션을 롤백해야 합니다. 서비스 중단을 최소화 하기 위해 비즈니스용 Skype 서버 관리자는 할당 되지 않은 번호 알림 마이그레이션 도구를 사용 하 여 비즈니스용 Skype Server 2015 배포에서 Lync Server 2013 배포로 구성을 롤백합니다.
 
@@ -1507,7 +1507,7 @@ CsAnnouncementConfiguration 스크립트는 아래 표에 설명 된 두 가지 
 
 이 예제에서는 할당 되지 않은 번호 알림을 원본 풀 (Lync Server 2013)에서 대상 풀 (비즈니스용 Skype Server 2015)으로 이동 합니다.
 
-```
+```PowerShell
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
 ```
 
@@ -1515,7 +1515,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination
 
 이 예제에서는 원본 풀 (비즈니스용 Skype Server 2015)의 할당 되지 않은 번호 알림을 대상 풀 (Lync Server 2013)로 이동 합니다.
 
-```
+```PowerShell
 Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destination LS2013Pool.contoso.com
 ```
 

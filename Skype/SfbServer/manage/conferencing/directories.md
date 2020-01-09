@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
 description: '요약: 비즈니스용 Skype 서버에서 전화 회의 디렉터리를 만드는 방법에 대해 알아보세요.'
-ms.openlocfilehash: d2962e7e01ba5bb73ce82de9b5c0ff85550fbe99
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0ed141b743d436ca2082b8a4f5010011a0256479
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197715"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991853"
 ---
 # <a name="create-conference-directories-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 전화 회의 디렉터리 만들기
  
@@ -38,7 +38,7 @@ ms.locfileid: "36197715"
 
 컨퍼런스 디렉터리를 만들려면 **CsConferenceDirectory** cmdlet을 사용 합니다. 예를 들어 다음 명령은 id 42를 사용 하 여 풀 atl-cs-001.litwareinc.com에서 호스트 되는 컨퍼런스 디렉터리를 만듭니다.
   
-```
+```PowerShell
 New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 ```
 

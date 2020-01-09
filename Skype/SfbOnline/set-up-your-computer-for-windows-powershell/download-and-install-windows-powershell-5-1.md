@@ -19,12 +19,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Windows PowerShell 5.1을 다운로드 하 여 설치한 다음 비즈니스용 Skype Online에 연결 하는 원격 PowerShell 세션을 만듭니다.
-ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
-ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
+ms.openlocfilehash: 190e1cdcbdd15018e576a4da8a50410cfb062a71
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "37642806"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992958"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Windows PowerShell 5.1 다운로드 및 설치
 
@@ -36,7 +36,7 @@ Windows 10 기념 업데이트 또는 Windows Server 2016를 사용 하는 경�
     
 2. PowerShell 콘솔에 다음 명령을 입력 하 고 enter 키를 누릅니다.
     
-   ```
+   ```PowerShell
    Get-Host | Select-Object Version
    ```
 
@@ -65,17 +65,17 @@ Windows 8을 실행 하는 경우 대신 다음 절차를 완료 하세요.
 3. **사용자 계정 컨트롤** 대화 상자가 표시 되는 경우 **예** 를 클릭 하 여 관리자 자격 증명에서 PowerShell을 실행 하도록 확인 합니다.
     
 PowerShell을 실행 한 후에는 원격 스크립트 실행을 허용 하도록 실행 정책을 변경 해야 합니다. PowerShell 콘솔에 다음 명령을 입력 하 고 enter 키를 누릅니다.
-```
+```PowerShell
 Set-ExecutionPolicy RemoteSigned -Force
 ```
    
  
 > [!NOTE]
-> 앞의 명령을 실행 하면 다음과 같은 오류 메시지가 표시 될 수 있습니다. > *\\ExecutionPolicy: registry key'HKEY_LOCAL_MACHINE 소프트웨어\\에 대 한 액세스 Microsoft\\PowerShell\\1 ShellIds\\\\Micrsoft '이 (가) 거부 되었습니다.* 이 오류 메시지는 일반적으로 관리자 자격 증명으로 PowerShell을 실행 하지 않는 경우에 발생 합니다. PowerShell 세션을 닫고 관리자로 새 세션을 시작 합니다.
+> 앞의 명령을 실행 하면 다음과 같은 오류 메시지가 표시 될 수 있습니다. > *Set-ExecutionPolicy: 레지스트리 키에 대 한 액세스 권한 '\\HKEY_LOCAL_MACHINE\\소프트웨어\\Microsoft\\PowerShell\\1\\ShellIds Micrsoft. PowerShell '이 (가) 거부 되었습니다.* 이 오류 메시지는 일반적으로 관리자 자격 증명으로 PowerShell을 실행 하지 않는 경우에 발생 합니다. PowerShell 세션을 닫고 관리자로 새 세션을 시작 합니다.
  
 실행 정책이 올바르게 구성 되었는지 확인 하려면 PowerShell 프롬프트에서 다음을 입력 하 고 enter 키를 누릅니다.
   
-```
+```PowerShell
 Get-ExecutionPolicy
 ```
 
@@ -103,7 +103,7 @@ Windows 관리 프레임 워크 5.1를 설치 하려면 [WMF 5.1 설치 및 구�
     
 PowerShell 콘솔이 나타나면 WinRM 서비스가 실행 중이 고 올바르게 구성 되어 있는지 확인 해야 합니다. 서비스가 실행 중인지 확인 하려면 PowerShell 프롬프트에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
   
-```
+```PowerShell
 Get-Service winrm
 ```
 
@@ -117,13 +117,13 @@ Running  winrm              Windows Remote Management (WS-Manag...
 
 서비스 상태가 "실행 중"이 아니면 다음 명령을 입력 하 고 ENTER 키를 눌러 WinRM 서비스를 시작 합니다.
   
-```
+```PowerShell
 Start-Service winrm
 ```
 
 서비스가 시작 되 면 다음 명령을 실행 하 여 WinRM이 기본 인증을 사용 하 고 있는지 확인 합니다.
   
-```
+```PowerShell
 winrm set winrm/config/client/auth '@{Basic="True"}'
 ```
 

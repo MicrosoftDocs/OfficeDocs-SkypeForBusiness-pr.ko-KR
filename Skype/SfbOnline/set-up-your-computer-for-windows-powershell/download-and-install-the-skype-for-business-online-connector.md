@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: '비즈니스용 skype online 커넥터를 다운로드 하 여 설치 하 고 사용 하 여 비즈니스용 Skype Online에 연결 하는 원격 Windows PowerShell 세션을 만듭니다. '
-ms.openlocfilehash: 7e97bc31d85370919eec7c50fae01d00f5b1ddac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4d794902ce39687c32f584f97b126c98f237c486
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642572"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991303"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>비즈니스용 Skype Online 커넥터 모듈 다운로드 및 설치
 
@@ -37,19 +37,19 @@ ms.locfileid: "37642572"
     
 설치 프로그램이 비즈니스용 Skype Online 커넥터 모듈 (및 **CsOnlineSession** cmdlet)을 컴퓨터에 복사 합니다. 모듈에 액세스 하려면 관리자 자격 증명에서 Windows PowerShell 세션을 시작 하 고 다음 명령을 실행 합니다.
   
-```
+```PowerShell
 Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
 ```
 
 Windows PowerShell을 시작할 때마다이 명령을 입력 하지 않으려면 Windows PowerShell 프로필에 명령을 추가 하면 됩니다. 이렇게 하려면 Windows PowerShell 프롬프트에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
   
-```
+```PowerShell
 notepad.exe $profile
 ```
 
  메모장이 나타나면 프로필에 이미 있는 명령의 아래쪽에 다음 줄을 추가 합니다 (있는 경우).
   
-```
+```PowerShell
 Import-Module SkypeOnlineConnector
 ```
 

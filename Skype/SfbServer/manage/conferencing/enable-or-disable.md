@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: '요약: 제어판 또는 관리 셸을 사용 하 여 비즈니스용 Skype 서버에서 전화 접속 회의를 사용 하거나 사용 하지 않도록 설정 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 6723c3501b226d11977ad176a804210540f1a2bc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: aed5f82678dce89190ba5449ada8eb988e1a1864
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196470"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991843"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 전화 접속 회의 사용 또는 사용 안 함
  
@@ -41,7 +41,7 @@ ms.locfileid: "36196470"
 
 전화 접속 회의를 사용 하거나 사용 하지 않도록 설정 하려면 다음과 같이 EnableDialInConferencing 매개 변수와 함께 **CsConferencingPolicy** cmdlet을 사용 합니다.
   
-```
+```PowerShell
 Set-CsConferencingPolicy  [-EnableDialInConferencing <$true | $false>] 
 ```
 

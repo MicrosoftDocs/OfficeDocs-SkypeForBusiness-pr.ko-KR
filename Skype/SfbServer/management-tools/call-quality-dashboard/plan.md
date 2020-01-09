@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '요약: 통화 품질 대시보드 계획을 수립할 때 고려해 야 할 사항에 대해 알아봅니다.'
-ms.openlocfilehash: c98828f8fed3567a892e20dcab8040bb731c91f2
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 3a0982f565495740887b6da07dd802de1205dcf8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328440"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991413"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 통화 품질 대시보드 계획 
  
@@ -193,9 +193,9 @@ CQD의 데이터 처리는 두 가지 주요 단계로 구분 됩니다.
 
 |**컴퓨터**|**CPU 코어**|**할당할**|**동일한 디스크에 보관 체감 품질 큐브**|**체감 품질 보관 및 SQL Temp DB를 같은 디스크에**|
 |:-----|:-----|:-----|:-----|:-----|
-|가상 컴퓨터  <br/> |4(tcp/ipv4)  <br/> |7GB  <br/> |'  <br/> |'  <br/> |
-|4 코어  <br/> |4(tcp/ipv4)  <br/> |20gb  <br/> |'  <br/> |아니요  <br/> |
-|8 코어  <br/> |20cm(8  <br/> |32 GB  <br/> |'  <br/> |아니요  <br/> |
+|가상 컴퓨터  <br/> |4(tcp/ipv4)  <br/> |7GB  <br/> |예  <br/> |예  <br/> |
+|4 코어  <br/> |4(tcp/ipv4)  <br/> |20gb  <br/> |예  <br/> |아니요  <br/> |
+|8 코어  <br/> |20cm(8  <br/> |32 GB  <br/> |예  <br/> |아니요  <br/> |
 |16 코어  <br/> |16  <br/> |128 GB  <br/> |아니요  <br/> |아니요  <br/> |
    
 **성능 결과**
@@ -284,11 +284,11 @@ CQD에는 다음과 같은 운영 체제가 필요 합니다.
   
 PowerShell을 사용 하 여 이러한 요구 사항을 설치 하려면 다음을 실행 합니다.
   
-```
+```PowerShell
 import-module servermanager
 ```
 
-```
+```PowerShell
 add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net, Web-Asp-Net45, Web-Net-Ext, Web-Net-Ext45, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Url-Auth, Web-Windows-Auth, Web-Mgmt-Console
 ```
 
@@ -320,7 +320,7 @@ SQL Server 비즈니스 인텔리전스 기능을 설치 하 고 구성 하는 �
 
 최소 권한 원칙에는 세 가지 도메인 서비스 계정이 권장 됩니다. 
   
-- 하나는 이미 체감 품질 메트릭 데이터베이스에 대 한 로그인 보안 주체 (db_datareader 권한 사용)와 체감 품질 보관 SQL Server 인스턴스의 로그인 보안 사용자 (설치 중 연결 된 서버 개체를 만드는 데 필요 함)입니다. 이 계정은 SQL Server 에이전트 작업의 "체감 품질 보관 데이터" 단계를 실행 하는 데 사용 됩니다.
+- 체감 품질 메트릭 데이터베이스에 대 한 로그인 보안 사용자 (db_datareader 권한) 및 체감 품질 보관 SQL Server 인스턴스 (설치 중 연결 된 서버 개체를 만드는 데 필요 함)의 로그인 보안 사용자가 이미 포함 되어 있는 것입니다. 이 계정은 SQL Server 에이전트 작업의 "체감 품질 보관 데이터" 단계를 실행 하는 데 사용 됩니다.
     
 - 하나는 SQL Server 에이전트 작업의 "큐브 처리" 단계를 실행 하는 데 사용 됩니다. 설치 프로그램이 읽기 및 쓰기 권한을 사용 하 여 체감 품질 데이터베이스에 대 한 로그인 보안 사용자를 만들고, 큐브에 대 한 체감 품질 역할에 구성원을 만듭니다 (모든 권한 사용 권한이 있어야 함).
     

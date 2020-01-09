@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: '요약: 비즈니스용 Skype 서버에서 체감 품질 (환경 품질) 설정을 삭제 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 4b521afd85a97550b27f320b9e49c5439e431681
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 134ebe39f41ca051db4ff79eafb094dcc929b5e8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197644"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992425"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 환경 품질 구성 설정 삭제
  
@@ -49,7 +49,7 @@ Windows PowerShell 및 **Remove-CsQoEConfiguration** cmdlet을 사용 하 여 �
 
  이 명령은 Redmond 사이트에 적용 된 체감 품질 구성 설정을 제거 합니다.
     
-  ```
+  ```PowerShell
   Remove-CsQoEConfiguration -Identity "site:Redmond"
   ```
 
@@ -57,7 +57,7 @@ Windows PowerShell 및 **Remove-CsQoEConfiguration** cmdlet을 사용 하 여 �
 
  이 명령은 사이트 범위에 적용 된 모든 체감 품질 구성 설정을 제거 합니다.
     
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration -Filter "site:*" | Remove-CsQoEConfiguration
   ```
 
@@ -65,7 +65,7 @@ Windows PowerShell 및 **Remove-CsQoEConfiguration** cmdlet을 사용 하 여 �
 
  이 명령은 체감 품질 모니터링을 사용 하지 않도록 설정한 모든 체감 품질 구성 설정을 제거 합니다.
     
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
   ```
 

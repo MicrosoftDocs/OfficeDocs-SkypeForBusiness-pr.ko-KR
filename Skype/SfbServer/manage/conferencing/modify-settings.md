@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: '요약: 비즈니스용 Skype 서버에서 모임 구성 설정을 수정 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 6e2566a5bc48e081c1912753586aef2213e1c727
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2e9d8a737a2bfc48cdcbe39540a22e4c236003b3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188949"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992855"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모임 구성 설정 수정
  
@@ -43,7 +43,7 @@ ms.locfileid: "36188949"
   
 다음 예제에 표시 된 명령은 Redmond 사이트 (-Id 사이트: Redmond)에 할당 된 모임 구성 설정을 수정 합니다. 이 경우 DesignateAsPresenter 속성의 값은 모든 사용자로 설정 됩니다.
   
-```
+```PowerShell
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 

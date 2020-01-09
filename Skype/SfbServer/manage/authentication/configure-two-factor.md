@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: '요약: 비즈니스용 Skype 서버에서 2 단계 인증을 구성 합니다.'
-ms.openlocfilehash: 91a8929b89a584b116f1c7ec9313daa2fe679fd0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 768ee9c2697523eff6922f20fd610554e32c1f7c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189690"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992335"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 2 단계 인증 구성
 
@@ -78,7 +78,7 @@ ms.locfileid: "36189690"
 
 5. 다음 명령을 실행 하 여 TPM (신뢰할 수 있는 플랫폼 모듈) 관리 콘솔을 엽니다.
 
-  ```
+  ```console
   Tpm.msc
   ```
 
@@ -91,7 +91,7 @@ ms.locfileid: "36189690"
 
 8. 명령 프롬프트에서 다음 명령을 사용 하 여 새 가상 스마트 카드를 만듭니다.
 
-  ```
+  ```console
   TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
   ```
 
@@ -100,7 +100,7 @@ ms.locfileid: "36189690"
 
 9. 명령 프롬프트에서 다음 명령을 실행 하 여 컴퓨터 관리 콘솔을 엽니다.
 
-  ```
+  ```console
   CompMgmt.msc
   ```
 
@@ -120,7 +120,7 @@ ms.locfileid: "36189690"
 
 1. 비즈니스용 Skype 사용이 가능한 사용자의 자격 증명을 사용 하 여 Windows 8 workstation에 로그인 합니다.
 
-2. Internet Explorer를 실행 합니다.
+2. Internet Explorer를 실행합니다.
 
 3. **인증 기관 웹 등록** 페이지 (예:)로 이동 https://MyCA.contoso.com/certsrv)합니다.
 
@@ -190,13 +190,13 @@ ms.locfileid: "36189690"
 
 3. Windows PowerShell 명령줄에서 다음 명령을 실행 합니다.
 
-  ```
+  ```PowerShell
   add-pssnapin Microsoft.Adfs.PowerShell
   ```
 
 4. 다음 명령을 실행 하 여 배포와 관련 된 서버 이름을 대체 하 여 수동 인증을 사용할 각 서버와 파트너 관계를 설정 합니다.
 
-  ```
+  ```PowerShell
   Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
   ```
 
@@ -208,22 +208,22 @@ ms.locfileid: "36189690"
 
 8. 다음 명령을 실행 하 여 Windows PowerShell을 사용 하 여 신뢰 당사자 신뢰에 대 한 발급 권한 부여 규칙을 만들고 할당 합니다.
 
-  ```
+  ```PowerShell
   $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
   ```
 
-  ```
+  ```PowerShell
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
 -IssuanceAuthorizationRules $IssuanceAuthorizationRules
   ```
 
 9. 다음 명령을 실행 하 여 Windows PowerShell을 사용 하 여 신뢰 당사자 신뢰에 대 한 발급 변환 규칙을 만들고 할당 합니다.
 
-  ```
+  ```PowerShell
   $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
   ```
 
-  ```
+  ```PowerShell
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
   ```
 
@@ -269,7 +269,7 @@ AD FS 2.0에서 스마트 카드를 사용 하 여 인증을 지원 하도록 �
 
 11. 다음 명령을 실행 하 여 IIS를 다시 시작 합니다.
 
-  ```
+  ```console
   IISReset /Restart /NoForce
   ```
 
@@ -292,7 +292,7 @@ AD FS 2.0에서 스마트 카드를 사용 하 여 인증을 지원 하도록 �
 
 3. 비즈니스용 Skype Server Management Shell 명령줄에서 다음 명령을 실행 하 여 수동 인증에 사용할 각 디렉터, 엔터프라이즈 풀 및 Standard Edition Server에 대 한 새 웹 서비스 구성을 만듭니다.
 
-  ```
+  ```PowerShell
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
   ```
 
@@ -301,19 +301,19 @@ AD FS 2.0에서 스마트 카드를 사용 하 여 인증을 지원 하도록 �
 
 4. 다음 명령을 실행 하 여 UseWsFedPassiveAuth 및 WsFedPassiveMetadataUri 값이 올바르게 설정 되었는지 확인 합니다.
 
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
   ```
 
 5. 클라이언트의 경우 Passive 인증은 webticket 인증에 가장 선호 하는 인증 방법입니다. 수동 인증을 사용 하도록 설정 되는 모든 디렉터, Enterprise 풀 및 Standard Edition 서버에 대해 다음 cmdlet을 실행 하 여 비즈니스용 Skype Web Services에서 다른 모든 인증 유형을 사용 하지 않도록 설정 해야 합니다.
 
-  ```
+  ```PowerShell
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
   ```
 
 6. 다음 cmdlet을 실행 하 여 다른 모든 인증 유형을 사용 하지 않도록 설정 했는지 확인 합니다.
 
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
   ```
 
@@ -327,17 +327,17 @@ AD FS 2.0에서 스마트 카드를 사용 하 여 인증을 지원 하도록 �
 
 1. 비즈니스용 Skype Server Management Shell 명령줄에서 다음을 실행 하 여 수동 인증에 사용할 각 비즈니스용 Skype Server Edge 풀, 엔터프라이즈 풀 및 Standard Edition Server에 대 한 새 프록시 구성을 만듭니다. 명령과
 
-  ```
+  ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
-  ```
+  ```PowerShell
   New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
 2. 다음 명령을 실행 하 여 다른 모든 프록시 인증 유형이 비활성화 되었는지 확인 합니다.
 
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 

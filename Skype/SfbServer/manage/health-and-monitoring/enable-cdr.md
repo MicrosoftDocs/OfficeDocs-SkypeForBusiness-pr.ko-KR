@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: '요약: 비즈니스용 Skype 서버에서 CDR (통화 정보 기록) 레코드를 사용 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 015ac3b57420401894e82c267e9737990ca7affb
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 3474a82bfc9ed8e8bad954bb91346989d9181465
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767060"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992948"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 정보 기록 사용
 
@@ -49,7 +49,7 @@ Windows PowerShell 및 **Set-CsCdrConfiguration** cmdlet을 사용 하 여 CDR�
 
  CDR를 사용 하지 않으려면 EnableCDR 매개 변수를 True ($True)로 설정 합니다.
 
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $True
   ```
 
@@ -57,7 +57,7 @@ Windows PowerShell 및 **Set-CsCdrConfiguration** cmdlet을 사용 하 여 CDR�
 
  CDR를 사용 하지 않으려면 EnableCDR 매개 변수를 False ($False)로 설정 합니다. CDR를 사용 하지 않도록 설정 하면 모니터링이 제거 되지 않습니다. 이 메서드는 CDR 데이터의 수집 및 저장소를 일시 중지 합니다.
 
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
   ```
 
@@ -65,7 +65,7 @@ Windows PowerShell 및 **Set-CsCdrConfiguration** cmdlet을 사용 하 여 CDR�
 
  이 명령은 현재 조직에서 사용 중인 모든 CDR 구성 설정에 대해 CDR를 사용 하도록 설정 합니다.
 
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 

@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Microsoft 팀의 콘텐츠 검색에 대해 알아보고 Exchange에서 채널 대화, 파일 업로드 및 SharePoint의 수정 및 OneNote 변경 내용을 검색 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3042a39d30ca14ff4eda9be6a1042bfca3484bd2
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: fea6e671a84eec6f064a7ccc1f7f9b3f237a220d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231159"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991083"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft 팀에서 콘텐츠 검색 사용
 =====================================
@@ -54,18 +54,18 @@ ms.locfileid: "38231159"
 
 1. 팀의 개인 채널과 연결 된 모든 SharePoint 사이트 모음 목록을 가져오려면 다음을 실행 합니다.
 
-    ```
+    ```PowerShell
     Get-SPOSite
     ```
 2. 다음 PowerShell 스크립트를 실행 하 여 팀의 개인 채널과 해당 상위 팀 그룹 ID와 연결 된 모든 SharePoint 사이트 모음 Url 목록을 가져옵니다.
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
 3. 각 팀 또는 그룹 ID에 대해 다음 PowerShell 스크립트를 실행 하 여 모든 관련 개인 채널 사이트를 식별 합니다.
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
@@ -77,12 +77,12 @@ ms.locfileid: "38231159"
 
 1. 다음을 실행 하 여 팀의 비공개 채널 목록을 가져옵니다.
 
-    ```
+    ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
 2. 다음을 실행 하 여 개인 채널 구성원 목록을 가져옵니다.
 
-    ```
+    ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 3. 콘텐츠 검색 쿼리의 일부로 팀의 각 개인 채널에 있는 모든 구성원의 사서함을 포함 합니다.

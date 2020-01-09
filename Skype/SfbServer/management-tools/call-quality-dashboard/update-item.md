@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
 description: '요약: 항목 서비스의 일부인 항목 업데이트 작업에 대해 알아봅니다. 항목 서비스는 통화 품질 대시보드의 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: aa46be0babf5998fcf2fabea797cb7a769914f8e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 55d21d1e1b8f3814dab7699ff864ba8fea1d23be
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186858"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991393"
 ---
 # <a name="update-item"></a>항목 업데이트
  
@@ -40,7 +40,7 @@ ms.locfileid: "36186858"
   
 샘플 요청 페이로드:
   
-```
+```json
 {
   content : "{ 'Product' : 'New Product Name'",
   type: "application/json"

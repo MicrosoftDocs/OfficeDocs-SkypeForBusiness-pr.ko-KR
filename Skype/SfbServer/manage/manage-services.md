@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: 이 문서에서는 비즈니스용 Skype 서버 토폴로지에서 실행 되는 서비스를 관리 하는 방법을 설명 합니다.
-ms.openlocfilehash: 9d1a79226422da57eee36e27590769f76b89b560
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 76628840c37bdb0eb85d58887d8bfdcedd20f27c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188619"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991673"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>비즈니스용 Skype 용 서비스 관리 서버
 
@@ -59,7 +59,7 @@ Windows PowerShell 및 **Get CsWindowsService** cmdlet을 사용 하 여 서비�
 
 컴퓨터에서 서비스 상태를 보려면 비즈니스용 Skype 서버 관리 셸에서 다음과 유사한 명령을 입력 한 다음 enter 키를 누릅니다.
   
-```
+```PowerShell
 Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
 ```
 
@@ -104,7 +104,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
 
 1. RTCUniversalServerAdmins 그룹의 구성원 이거나 해당 사용자 권한이 있는 사용자 계정에서 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당 된 경우 비즈니스용 Skype 서버를 배포한 네트워크의 컴퓨터에 로그온 합니다. . 다음과 같은 명령을 실행 하 여 CsServerAdministrator 또는 CsAdministrator RBAC 역할을 할당 했는지 여부를 확인할 수 있습니다.
     
-   ```
+   ```PowerShell
    Get-CsAdminRoleAssignment -Identity "kenmyer"
    ```
 
@@ -126,7 +126,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
 8. **서비스 시작** 또는 **서비스 중지**를 클릭 합니다.
 9. **닫기를**클릭 합니다.
     
-## <a name="prevent-sessions-for-services"></a>서비스에 대 한 세션 방지
+## <a name="prevent-sessions-for-services"></a>서비스에 대한 세션 방지
 <a name="prevent_session"> </a>
 
 비즈니스용 skype Server 제어판을 사용 하 여 특정 컴퓨터에서 실행 중인 모든 비즈니스용 Skype Server services에 대 한 새 세션을 방지 하거나 특정 비즈니스용 Skype Server 서비스에 대 한 새 세션을 방지할 수 있습니다.

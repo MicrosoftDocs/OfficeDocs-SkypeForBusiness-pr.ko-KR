@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: 비즈니스용 Skype 서버 관리 셸에서는 서버 관리 및 관리를 위한 명령줄 인터페이스를 제공 합니다. 이 파일은 Windows PowerShell을 기반으로 하며, Skype 및 레거시 Lync server 제품과 관련 된 포괄적인 관리 및 관리 cmdlet 집합을 포함 합니다.
-ms.openlocfilehash: ce031b15e2146036d77c7336aa9c2b73f000fe4a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4890194824caaea771d31e008d4546d871d0da8a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188607"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991593"
 ---
 # <a name="skype-for-business-server-management-shell"></a>비즈니스용 Skype 서버 관리 셸
  
@@ -29,7 +29,7 @@ Windows PowerShell을 사용 하면 명령줄에서 Microsoft 응용 프로그�
   
 비즈니스용 skype Server에는 관리자가 비즈니스용 skype 서버 관리 셸을 사용 하 여 비즈니스용 Skype 서버를 관리할 수 있는 700 cmdlet이 포함 되어 있습니다. 다음과 같은 명령을 입력 하 여 명령줄에서 직접 cmdlet에 대 한 도움말을 검색할 수 있습니다.
   
-```
+```PowerShell
 Get-Help New-CsVoicePolicy -Full
 ```
 
@@ -37,7 +37,7 @@ Get-Help New-CsVoicePolicy -Full
   
 비즈니스용 Skype 서버를 관리 하는 데 사용할 수 있는 전체 cmdlet 목록을 검색 하려면 shell 명령 프롬프트에 다음을 입력 합니다. 
   
-```
+```PowerShell
 Get-Command * -Module SkypeforBusiness -CommandType cmdlet
 ```
 
@@ -56,13 +56,13 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
     
     기본적으로 **업데이트 도움말** Cmdlet은 비즈니스용 Skype 서버에 설치 된 모든 모듈을 업데이트 합니다. 특정 모듈만 업데이트하려면 _Module_ 매개 변수를 사용해 cmdlet의 범위를 제한할 수 있습니다. 다음 예에서는 비즈니스용 Skype 모듈만 업데이트 합니다.
     
-  ```
+  ```PowerShell
   Update-Help -Module SkypeforBusiness
   ```
 
     인터넷에 연결 되어 있지 않은 서버에서 도움말을 업데이트 해야 하는 경우에는 도움말 [저장](https://technet.microsoft.com/en-us/library/hh849724.aspx) 을 사용 하 여 최신 버전의 도움말을 다운로드 하 여 지정한 위치에 저장할 수 있습니다. 그러면 인터넷에 연결 되지 않은 서버의 _-SourcePath_ 매개 변수를 사용 하 여 **업데이트** 된 도움말을 선택한 위치에서 가져올 수 있습니다. 다음 예제에서는 도움말 파일을 네트워크 파일 공유에 저장 하 고 파일 공유에서 비즈니스용 Skype 모듈에 대 한 도움말을 업데이트 하는 방법을 보여 줍니다.
     
-  ```
+  ```PowerShell
   // Save the help files
    Save-Help -DestinationPath \\UpdateShare\HelpDownload
   // Run Update-Help against the local help files

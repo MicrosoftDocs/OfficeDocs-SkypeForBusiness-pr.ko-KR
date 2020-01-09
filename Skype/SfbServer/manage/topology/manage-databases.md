@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: '요약: 기존 AlwaysOn 가용성 그룹에 비즈니스용 Skype 서버 데이터베이스를 추가 하는 방법에 대해 알아보고, Skype에서 AlwaysOn 가용성 그룹의 일부인 백 엔드 서버를 패치 또는 업그레이드 한 후 필요한 추가 단계에 대해 알아보세요. 비즈니스 서버.'
-ms.openlocfilehash: c6d8877448a68aa2331f3c290170418f6dca08ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 221964eb7d8dfcbb0303a0e1148de4fcef6cec51
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187107"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991543"
 ---
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 AlwaysOn 가용성 그룹을 사용 하 여 데이터베이스 관리
 
@@ -45,7 +45,7 @@ AlwaysOn 가용성 그룹의 일부인 백 엔드 서버를 패치 한 후에는
     
 2. 다음과 같이 비즈니스용 Skype 관리 셸에서 다음 PowerShell 명령을 실행 합니다 (SQL AlwaysOn 데이터베이스에 변경 내용을 적용 하도록 적절 하 게 permissioned 된 계정으로 로그인).
     
-    ```
+    ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn [sqlpool.contoso.com] -Verbose
     ```
 

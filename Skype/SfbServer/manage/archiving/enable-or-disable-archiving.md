@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: '요약: 비즈니스용 Skype 서버에서 보관을 사용 하거나 사용 하지 않도록 설정 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 0e4ef4dde27ffa5856f2b73b69ffbadc24399c59
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 603ffece7d3b0dabe27ee95d27eaee1e84f48fb9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190374"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991583"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 보관 사용 또는 사용 안 함
 
@@ -43,6 +43,6 @@ ms.locfileid: "36190374"
 
 **Set-CsArchivingConfiguration** cmdlet을 사용 하 여 보관을 사용 하거나 사용 하지 않도록 설정할 수도 있습니다. 예를 들어 다음 명령은 IM 세션만 보관 되도록 모든 보관 구성 설정을 수정 합니다. 이 명령은 현재 조직에서 사용 중인 모든 보관 구성 설정을 반환 하기 위해 매개 변수 없이 **CsArchivingConfiguration** cmdlet을 호출 합니다. 그런 다음이 컬렉션은 EnableArchiving 속성이 (-eq) "ImAndWebConf"와 동일한 설정만 선택 하는 **Where 개체** cmdlet으로 파이프 됩니다. 그런 다음 필터링 된 컬렉션이 컬렉션의 각 항목을 가져와 EnableArchiving 값을 "ImOnly"로 변경 하는 **집합-CsArchivingConfiguration** cmdlet으로 파이프 됩니다.
   
-```
+```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableArchiving -eq "ImAndWebConf"} | Set-CsArchivingConfiguration -EnableArchiving "ImOnly"
 ```

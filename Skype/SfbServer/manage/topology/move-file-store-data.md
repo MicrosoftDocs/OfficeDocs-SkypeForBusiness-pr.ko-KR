@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 현재 비즈니스용 Skype 서버 배포에 대 한 파일 저장소 역할을 하는 파일 서버를 제거 해야 하거나 현재 파일 저장소를 사용할 수 없도록 하는 다른 변경 작업을 수행 해야 하는 경우 먼저 새 공유를 만들어야 합니다. 그런 다음 다음 단계를 수행 해야 합니다.
-ms.openlocfilehash: c37a811bc04ab8ef6f69ef823cf30e28209e9821
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ae09d2415b24a4337edbee3c66e8b9a8bd2009a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187098"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991513"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 파일 저장소 데이터를 새 파일 저장소로 이동
 
@@ -68,7 +68,7 @@ ms.locfileid: "36187098"
 
 11. 명령줄에 다음을 입력 합니다.
 
-     ```
+     ```console
      Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
 
      ```

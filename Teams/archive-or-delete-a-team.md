@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ceb699ff4c8d7ba2cf10e1b8e94ca33f60eb9b8d
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 30913e67c80f5f5e8c04ddf5d7855dcf25536834
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968269"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992908"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft 팀에서 팀 보관 또는 삭제
 ===========================================
@@ -33,7 +33,7 @@ ms.locfileid: "37968269"
 팀을 삭제 하면 표준 및 개인 채널의 팀 활동 (및 연결 된 사이트 모음), 파일 및 채팅도 삭제 됩니다.
 
 > [!IMPORTANT]
-> 보관 된 팀은 다시 활성화할 수 있지만 삭제 된 팀은 직접 삭제 취소할 수 없습니다. 팀을 먼저 보관 하 고 더 이상 팀이 필요 하지 않을 때까지 삭제를 연기 하세요.
+> 보관 된 팀을 다시 활성화할 수 있지만 삭제 된 팀을 직접 복원할 수는 없습니다. 팀을 먼저 보관 하 고 더 이상 팀이 필요 하지 않을 때까지 삭제를 연기 하세요.
 
 ## <a name="archive-a-team"></a>팀 보관
 
@@ -76,37 +76,37 @@ ms.locfileid: "37968269"
 1. 관리자 권한으로 Windows PowerShell을 엽니다.
 2. 이전 버전의 AzureADPreview 모듈이 설치 되어 있거나 AzureAD 모듈이 설치 되어 있는 경우 다음 중 하나를 실행 하 여 제거 합니다.
 
-    ``` 
+    ```PowerShell 
     Uninstall-Module AzureADPreview
     ```
 
-    ```
+    ```PowerShell
     Uninstall-Module AzureAD
     ```
 3. 다음을 실행 하 여 최신 버전의 AzureADPreview 모듈을 설치 합니다.
 
-    ```
+    ```PowerShell
     Install-Module AzureADPreview
     ```    
 
 ### <a name="restore-the-deleted-office-365-group"></a>삭제 된 Office 365 그룹 복원
 
 1. Azure AD에 연결 하려면 다음을 실행 합니다.
-    ```
+    ```PowerShell
     Connect-AzureAD
     ```
     메시지가 표시 되 면 관리자 계정 및 암호를 사용 하 여 로그인 합니다.  
 2. 다음을 실행 하 여 30 일 보존 기간 내에 그대로 남아 있는 모든 소프트 삭제 된 Office 365 그룹의 목록을 표시 합니다. 그룹이 많은 경우 **-All $True** 매개 변수를 사용 합니다.
-    ```
+    ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 
 3. 복원 하려는 그룹을 찾은 다음 Id를 기록해 둡니다.
 4. 그룹을 복원 하려면 다음을 실행 합니다. 여기서 [Id]는 그룹 Id입니다.
-    ```
+    ```PowerShell
     Restore-AzureADMSDeletedDirectoryObject -Id [Id]
     ```
 5.  다음을 실행 하 여 그룹이 성공적으로 복원 되었는지 확인 하 고 여기서 [Id]는 그룹 Id입니다.
-    ```
+    ```PowerShell
     Get-AzureADGroup -ObjectId [Id]
     ```
 

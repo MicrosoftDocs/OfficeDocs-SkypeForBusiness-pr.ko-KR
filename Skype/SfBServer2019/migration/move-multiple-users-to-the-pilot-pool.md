@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 비즈니스용 skype server 2019 제어판 또는 비즈니스용 Skype Server 2019 Management Shell을 사용 하 여 레거시 풀의 여러 사용자를 비즈니스용 Skype 서버 2019 파일럿 풀로 이동할 수 있습니다.
-ms.openlocfilehash: 6c6f61287cfc75b7500317d62de4ea846af1abd3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: abaffea04ff190b2ae99639484f63b564fd7784a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244821"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988953"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>여러 사용자를 시험 운용 풀로 이동
 
@@ -55,9 +55,9 @@ ms.locfileid: "36244821"
 
 1. 비즈니스용 Skype 서버 2019 관리 셸을 엽니다. 
     
-2. 명령줄에 다음을 입력 하 고 **User1** 과 사용자 이름을 이동 **** 하려는 특정 사용자 이름으로 바꾼 다음 **pool_FQDN** 를 대상 풀의 이름으로 바꿉니다. 이 예제에서는 사용자 Hao 및 Katie를 이동 합니다. 
+2. 명령줄에 다음을 입력 하 고 **User1** **과 사용자** 이름을 이동 하려는 특정 사용자 이름으로 바꾸고 **pool_FQDN** 를 대상 풀의 이름으로 바꿉니다. 이 예제에서는 사용자 Hao 및 Katie를 이동 합니다. 
     
-   ```
+   ```PowerShell
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
@@ -65,11 +65,11 @@ ms.locfileid: "36244821"
   
 3. 명령줄에 다음을 입력 합니다. 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "User1"
    ```
 
-4. 이제 **등록자 풀** id는 이전 단계에서 **pool_FQDN** 으로 지정한 풀을 가리킵니다. 이 id가 있으면 사용자가 성공적으로 이동 했음을 확인 합니다. 단계를 반복 하 여 **** ' 없음 '이 이동 되었는지 확인 합니다. 
+4. 이제 **등록자 풀** id는 이전 단계에서 **pool_FQDN** 으로 지정한 풀을 가리킵니다. 이 id가 있으면 사용자가 성공적으로 이동 했음을 확인 합니다. 단계를 반복 하 여 ' 없음 **'이 이동** 되었는지 확인 합니다. 
     
      ![PowerShell Get-UsUser -Identity cmdlet의 출력](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
@@ -82,7 +82,7 @@ ms.locfileid: "36244821"
     
 2. 명령줄에 다음을 입력 합니다. 
     
-   ```
+   ```PowerShell
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
@@ -90,11 +90,11 @@ ms.locfileid: "36244821"
   
 3. 파일럿 사용자 중 한 명에 대해 **Get-CsUser** 를 실행 합니다. 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "Hao Chen"
    ```
 
-4. 각 사용자의 **등록자 풀** id는 이제 이전 단계에서 **pool_FQDN** 로 지정한 풀을 가리킵니다. 이 id가 있으면 사용자가 성공적으로 이동 했음을 확인 합니다. 
+4. 각 사용자의 **등록자 풀** id는 이전 단계에서 **pool_FQDN** 으로 지정한 풀을 가리킵니다. 이 id가 있으면 사용자가 성공적으로 이동 했음을 확인 합니다. 
     
 5. 또한 비즈니스용 Skype Server 2019 제어판에서 사용자 목록을 보고 등록자 그룹 값이 이제 비즈니스용 Skype Server 2019 풀을 가리키는지 확인할 수 있습니다.
     

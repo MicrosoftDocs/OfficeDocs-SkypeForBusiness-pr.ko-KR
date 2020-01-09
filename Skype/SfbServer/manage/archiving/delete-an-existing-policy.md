@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: '요약: 비즈니스용 Skype 서버에 대 한 보관 정책을 삭제 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 04ea9db10a2f95ba5010471f262d58c269c173d1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c08b76996b3d54e8be07e731faae87dce0470cc1
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188235"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992365"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 기존 보관 정책 삭제
 
@@ -41,19 +41,19 @@ ms.locfileid: "36188235"
   
 예를 들어 다음 명령은 Id 사이트: Redmond를 사용 하 여 정책을 삭제 합니다. 사이트 수준에서 구성 된 정책을 삭제 하는 경우 이전에 사이트 정책에서 관리 하는 사용자는 전역 보관 정책에 의해 자동으로 제어 됩니다.
   
-```
+```PowerShell
 Remove-CsArchivingPolicy -Identity site:Redmond
 ```
 
 이 명령은 사용자 당 수준에 적용 된 모든 보관 정책을 제거 합니다.
   
-```
+```PowerShell
 Get-CsArchivingPolicy -Filter "tag:*" | Remove-CsArchivingPolicy
 ```
 
 이 명령은 내부 보관을 사용 하지 않도록 설정한 모든 보관 정책을 제거 합니다.
   
-```
+```PowerShell
 Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 ```
 

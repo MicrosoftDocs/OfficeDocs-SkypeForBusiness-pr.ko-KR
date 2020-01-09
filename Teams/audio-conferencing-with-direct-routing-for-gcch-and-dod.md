@@ -17,14 +17,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: GCCH 및 DoD 환경에서 직접 라우팅이 있는 오디오 회의를 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 67c8a8b3ec16f36a93eb4561473facacdbd85464
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 6c1403fedbbb47231780916eb8c7acb8014539e9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37639180"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992898"
 ---
-# <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High와 DoD에 대 한 직접 라우팅이 있는 오디오 회의
+# <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High 및 DoD를 위해 직접 라우팅으로 오디오 회의
 
 GCC High 및 DoD에 대 한 직접 라우팅이 있는 오디오 회의는 참가자가 휴대폰 장치를 사용 하 여 GCC High 또는 DoD 조직의 팀 모임에 참가할 수 있도록 합니다. 모임 참가자는 전화 장치를 사용 하 여 인터넷 연결이 제한 되어 있거나 사용자가 이동 중이 고 팀에 액세스할 수 없는 경우와 같은 시나리오에서 팀 모임에 참가 하는 것이 좋습니다. 참가자는 조직의 전화 접속 전화 번호로 전화를 걸고 전화 장치에 모임 전화를 걸도록 하 여 모임에 참가 하도록 선택할 수 있습니다.
 
@@ -64,12 +64,12 @@ GCC High 또는 DoD에서 오디오 회의를 사용 하려면 조직 및 조직
 
 CsHybridTelephoneNumber PowerShell cmdlet을 사용 하 여 테 넌 트에서 직접 라우팅을 통해 오디오 회의 서비스에 대 한 통화를 라우팅하는 데 사용할 수 있는 서비스 전화 번호를 정의할 수 있습니다. 
 
-  ```
+  ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
   ```
 
 예를 들면 다음과 같습니다.
-  ```
+  ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber “+14250000000”
   ```
 
@@ -77,13 +77,13 @@ CsHybridTelephoneNumber PowerShell cmdlet을 사용 하 여 테 넌 트에서 �
 
 CsOnlineDialInConferencingServiceNumber PowerShell cmdlet을 사용 하 여 조직의 오디오 회의 브리지에 서비스 전화 번호를 할당할 수 있습니다.
 
-  ```
+  ```PowerShell
   Register-csOnlineDialInConferencingServiceNumber -identity <Telephone number in E.164 format> -BridgeId <Identity of the audio conferencing bridge>
   ```
 
 CsOnlineDialInConferencingBridge를 사용 하 여 오디오 회의 브리지의 ID를 볼 수 있습니다. 예를 들면 다음과 같습니다.
 
-  ```
+  ```PowerShell
   $b= Get-CsOnlineDialInConferencingBridge
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```

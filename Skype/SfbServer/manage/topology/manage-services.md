@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 서비스 상태를 확인 하 고 서비스를 시작 및 중지 하 고 서비스에 대 한 세션을 방지 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c3c0ad3a61543caf7866582413a67968c4c1c2d6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90acd45675277dad0f63db342217cf914c97109a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187101"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991523"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 서비스 관리
 
@@ -23,7 +23,7 @@ ms.locfileid: "36187101"
 - [비즈니스용 Skype 서버를 실행 하는 컴퓨터 목록 보기](#view-a-list-of-computers-running-skype-for-business-server)
 - [비즈니스용 Skype에서 컴퓨터에 실행 중인 서비스의 상태 보기](#view-the-status-of-services-running-on-a-computer-in-skype-for-business)
 - [비즈니스용 Skype 서비스 시작 또는 중지](#start-or-stop-skype-for-business-services)
-- [서비스에 대 한 세션 방지](#prevent-sessions-for-services)
+- [서비스에 대한 세션 방지](#prevent-sessions-for-services)
 
 ## <a name="view-a-list-of-computers-running-skype-for-business-server"></a>비즈니스용 Skype 서버를 실행 하는 컴퓨터 목록 보기
 
@@ -61,7 +61,7 @@ Windows PowerShell 및 Get CsWindowsService cmdlet을 사용 하 여 서비스 �
 
 이 명령은 다음과 같은 정보를 반환 합니다.
 
-```
+```console
 RoleName                                  Status
 --------                                  ------
 {W3SVC}                                   Running
@@ -104,7 +104,7 @@ RoleName                                  Status
 9. **닫기를**클릭 합니다.
 
 
-## <a name="prevent-sessions-for-services"></a>서비스에 대 한 세션 방지
+## <a name="prevent-sessions-for-services"></a>서비스에 대한 세션 방지
 
 비즈니스용 Skype 제어판을 사용 하 여 특정 컴퓨터에서 실행 되는 모든 비즈니스용 Skype Server services에 대 한 새 세션을 방지 하거나 특정 서비스에 대 한 새 세션을 방지 합니다.
 

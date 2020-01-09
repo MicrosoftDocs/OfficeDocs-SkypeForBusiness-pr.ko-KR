@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: SIP 트렁크 구성 설정은 중재 서버와 PSTN (공개 통신 네트워크) 게이트웨이, IP-공용 분기 교환 (PBX) 또는 서비스 공급자의 SBC (세션 경계 컨트롤러) 간에 관계와 접근 권한 값을 정의 합니다.
-ms.openlocfilehash: dd8bd94bb8831fc3e406bed46015b2d955a2359c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8fb180994fdcd8409b0776a2fcaee6316110a36d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186996"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992555"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 트렁크 구성 정보 보기
 
@@ -29,7 +29,7 @@ SIP 트렁크 구성 설정은 중재 서버와 PSTN (공개 통신 네트워크
 **비즈니스용 Skype Server 제어판을 사용 하 여 SIP 트렁크 구성 정보를 보려면**
 
 1. 비즈니스용 Skype Server 제어판에서 **음성 라우팅을**클릭 한 다음 **트렁크 구성을**클릭 합니다.
-2. **트렁크 구성** 탭에 모든 트렁크 구성 설정 모음 목록이 표시 됩니다. 각 컬렉션에 대해 사용자 **이름**, **범위**, **상태**및 **미디어 바이패스** 속성에 대 한 값을 **PSTN**사용 수, **호출 번호 규칙**, 연결 된 **번호 규칙** ()과 함께 표시 됩니다. 컬렉션을 사용 합니다. 트렁크 구성 설정 모음에 대 한 추가 세부 정보를 보려면 원하는 모음을 클릭 하 고 **편집**을 클릭 한 다음 **세부 정보 표시**를 클릭 합니다. 한 번에 한 개의 트렁크 구성 설정 모음에 대 한 자세한 정보를 볼 수 있습니다.
+2. **트렁크 구성** 탭에 모든 트렁크 구성 설정 모음 목록이 표시 됩니다. 각 컬렉션에 대해 **이름**, **범위**, **상태**및 **미디어 바이패스** 속성에 대 한 값을 **PSTN**사용 수, **호출 번호 규칙**, 컬렉션과 연결 된 **번호 규칙** 등으로 표시 됩니다. 트렁크 구성 설정 모음에 대 한 추가 세부 정보를 보려면 원하는 모음을 클릭 하 고 **편집**을 클릭 한 다음 **세부 정보 표시**를 클릭 합니다. 한 번에 한 개의 트렁크 구성 설정 모음에 대 한 자세한 정보를 볼 수 있습니다.
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell cmdlet을 사용 하 여 SIP 트렁크 구성 정보 보기
 
@@ -44,7 +44,7 @@ SIP 트렁크 구성 설정은 중재 서버와 PSTN (공개 통신 네트워크
 
 이는 다음과 같은 정보를 반환 합니다.
 
-```
+```console
 Identity                                  : Global
 OutboundTranslationRulesList              : {}
 SipResponseCodeTranslationRulesList       : {}

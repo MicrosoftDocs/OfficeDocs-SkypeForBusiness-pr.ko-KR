@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '요약: Exchange Server 2016 또는 Exchange Server 2013과 비즈니스용 Skype 서버를 통합 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: f62ad2475fe17668e82b06b1b4a0f19b6a2ee7c8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 54a079a550b1c915d9ffc124b1608a3fd3f2a5ef
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196881"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991483"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>비즈니스용 Skype 서버 2015와 Exchange 통합 계획
  
@@ -50,7 +50,7 @@ Exchange Server 설치에 대 한 자세한 내용은 exchange 버전에 대 한
     
 비즈니스용 Skype 서버 및 Exchange Server를 통합 하려면 자동 검색 서비스를 구성 해야 합니다. Exchange Server Management Shell에서 다음 명령을 실행 하 고 AutoDiscoverServiceInternalUri 속성 값을 확인 하 여 자동 검색 서비스가 구성 되었는지 여부를 확인할 수 있습니다.
   
-```
+```PowerShell
 Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Format-List
 ```
 
@@ -58,15 +58,15 @@ Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Fo
   
 다음과 같은 명령을 실행 하 여 자동 검색 URI를 할당할 수 있습니다.
   
-```
+```PowerShell
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
 자동 검색 서비스에 대 한 자세한 내용은 [자동 검색 서비스](https://go.microsoft.com/fwlink/p/?LinkId=268542)를 참조 하세요.
   
-자동 검색 서비스를 구성한 후에는 비즈니스용 Skype Server OAuth 구성 설정을 수정 해야 합니다. 이렇게 하면 비즈니스용 Skype 서버에서 자동 검색 서비스를 찾을 수 있는 위치를 인식 하 게 됩니다. 비즈니스용 Skype Server의 OAuth 구성 설정을 수정 하려면 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 실행 합니다. 이 명령을 실행할 때는 Exchange Server에서 실행 되는 자동 검색 서비스에 대 한 URI를 지정 하 고, 자동 검색을 사용 **** 하 여 자동 검색을 대신 하 여 서비스 위치를 가리키도록 합니다. **xml** (xml 파일을 가리키는 서비스에서 사용 됨):
+자동 검색 서비스를 구성한 후에는 비즈니스용 Skype Server OAuth 구성 설정을 수정 해야 합니다. 이렇게 하면 비즈니스용 Skype 서버에서 자동 검색 서비스를 찾을 수 있는 위치를 인식 하 게 됩니다. 비즈니스용 Skype Server의 OAuth 구성 설정을 수정 하려면 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 실행 합니다. 이 명령을 실행 하는 경우 Exchange Server에서 실행 되는 자동 검색 서비스에 대 한 URI를 지정 하 고 서비스에서 사용 하는 XML 파일을 **가리키는 자동 검색** 을 사용 하 여 서비스 위치를 가리키는 방법을 선택 **해야 합니다.**
   
-```
+```PowerShell
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
 ```
 
@@ -81,7 +81,7 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 자동 검색 서비스를 구성 하는 것 외에도 Exchange Server를 가리키는 서비스에 대 한 DNS 레코드를 만들어야 합니다. 예를 들어 자동 검색 서비스가 autodiscover.litwareinc.com에 있는 경우 Exchange 서버의 정규화 된 도메인 이름으로 확인 되는 autodiscover.litwareinc.com에 대 한 DNS 레코드를 만들어야 합니다 (예: atl-exchange-001.litwareinc.com).
   
-Exchange Online과 함께 비즈니스용 Skype 서버를 통합 하는 경우 다음 단계는 온 [-프레미스 비즈니스용 Skype server 및 Outlook Web App 간 통합 구성](../../deploy/integrate-with-exchange-server/outlook-web-app.md)에 있으며, 그렇지 않으면 [Exchange와 함께 비즈니스용 skype 서버 통합을 참조 하세요. 서버](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+Exchange Online과 함께 비즈니스용 Skype 서버를 통합 하는 경우 다음 단계는 온 [-프레미스 비즈니스용 Skype server 및 Outlook Web App 간 통합 구성](../../deploy/integrate-with-exchange-server/outlook-web-app.md)에 있습니다. 그렇지 않은 경우에는 비즈니스용 [Skype 서버와 Exchange server 통합](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)을 참조 하세요.
   
 ## <a name="feature-support"></a>기능 지원
 <a name="feature_support"> </a>
@@ -90,7 +90,7 @@ Exchange Online과 함께 비즈니스용 Skype 서버를 통합 하는 경우 �
   
 ||**Exchange 2016/2013/2010 (온-프레미스) + 비즈니스용 Skype 서버 (온-프레미스)**|**Exchange Online + 비즈니스용 Skype 서버 (온-프레미스)**|**Exchange 2010 (온-프레미스) + 비즈니스용 Skype Online**|**Exchange 2016/2013 (온-프레미스) 및 비즈니스용 Skype Online**|**Exchange Online + 비즈니스용 Skype Online**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Outlook에서 현재 상태  <br/> |피지  <br/> |피지  <br/> |피지  <br/> |피지  <br/> |피지  <br/> |
+|Outlook에서의 현재 상태  <br/> |피지  <br/> |피지  <br/> |피지  <br/> |피지  <br/> |피지  <br/> |
 |Outlook 전자 메일에서 IM, PSTN 통화, Skype 통화 또는 영상 통화를 통해 응답  <br/> |피지  <br/> |피지  <br/> |피지  <br/> |피지  <br/> |피지  <br/> |
 |Outlook을 통해 온라인 모임 예약 및 참가  <br/> |피지  <br/> |피지  <br/> |피지  <br/> |피지  <br/> |피지  <br/> |
 |Outlook Web App에서 현재 상태  <br/> |피지  <br/> |피지  <br/> |개  <br/> |개  <br/> |피지  <br/> |

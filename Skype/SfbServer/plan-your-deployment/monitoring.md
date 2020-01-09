@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: '요약: 비즈니스용 Skype 서버에서 모니터링 서비스를 계획 하는 동안이 항목을 검토 합니다.'
-ms.openlocfilehash: e03fc9714cbb958a9c34bb14db0129a94e49692b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ebe94d3088e319a0c210c9d169f35f1c783ad5f5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196862"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991783"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모니터링 계획
 
@@ -30,7 +30,7 @@ ms.locfileid: "36196862"
 
 세션은 다음에 대 한 사용자의 연결에 대 한 일반 용어입니다.
 
-- 번호로
+- 회의
 
 - 오디오/비디오 또는 응용 프로그램 공유 등의 회의 도구
 
@@ -80,7 +80,7 @@ ms.locfileid: "36196862"
 
 또한 비즈니스용 Skype 서버에서 미러 데이터베이스 사용을 지원 한다는 것을 고려해 야 합니다. "데이터베이스 미러링"을 사용 하면 데이터베이스의 복사본 두 개를 서로 다른 서버에 있는 데이터베이스에 동시에 유지할 수 있습니다. 모든 시간 데이터는 기본 데이터베이스에 기록 되며, 미러 데이터베이스에도 동일한 데이터가 기록 됩니다. 주 데이터베이스에 오류가 발생 하거나 사용할 수 없는 경우 간단한 비즈니스용 Skype Server PowerShell 명령을 사용 하 여 미러 데이터베이스로 "장애 조치" 할 수 있습니다. 예를 들면 다음과 같습니다.
 
-```
+```PowerShell
 Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Monitoring" -NewPrincipal "Mirror"
 ```
 

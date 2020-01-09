@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: '요약: 비즈니스용 Skype 서버에서 핀 없는 모임 참가 옵션을 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: ecd1d2bf184dd6b9e1ff78e16c2ca1eb8da73ef9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5b8ad452f54785a916ac70acd468458215135934
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188946"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991793"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 핀 덜 모임 참가 구성
  
@@ -37,7 +37,7 @@ ms.locfileid: "36188946"
     
   - **호출자가 있는 조직의 모든 사용자에 게 직접 액세스**
     
-  - **모든 사용자 (제한 없음)가 직접 전화를 받습니다** . (기본 설정입니다.)
+  - **모든 사람이 (제한 없음) 호출자를 직접 가져옵니다** (이는 기본 설정).
     
 - 핀이 없는 참가를 사용 하도록 구성 된 경우 CAA 서비스는 여전히 리더 PIN을 묻는 메시지를 표시 합니다. 사용자는 PIN이 입력 되었는지 여부에 상관 없이 모임에 참가할 수 있습니다. 그러나, 지시선 PIN을 입력 하는 기능을 통해 전화 접속 발신자가 리더를 인증 하 고 필요한 경우 모임을 관리할 수 있습니다.
     
@@ -45,19 +45,19 @@ ms.locfileid: "36188946"
 
 사용자에 대 한 핀 없는 모임 참가를 사용 하도록 설정 하려면 다음과 같이 AllowAnonymousPstnActivation 매개 변수와 함께 [CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet을 사용 합니다.
   
-```
+```PowerShell
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
 ```
 
 예를 들어 다음 명령을 사용 하 여 사이트 Redmond에 대 한 핀 덜 모임 참가를 허용 합니다.
   
-```
+```PowerShell
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
 ```
 
 고정이 아닌 모임 참가 연결이 설정 되어 있는 경우, ConferencingPolicy가 다음과 같이 설정 되도록 하 여 익명 사용자가 전화 걸기를 할 수 없도록 제한 하는 것이 좋습니다.
   
-```
+```PowerShell
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 

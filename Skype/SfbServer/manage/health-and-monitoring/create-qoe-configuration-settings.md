@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: '요약: 비즈니스용 Skype 서버의 체감 품질 (환경 품질) 설정에 대해 알아보세요.'
-ms.openlocfilehash: d87938fdab64f3a77b96f427363c846829081f44
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 254e6f1032026f715c30017f984bc2906f46e0df
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197646"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992795"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 환경 품질 구성 설정 만들기
  
@@ -67,7 +67,7 @@ Windows PowerShell 및 New-CsQoEConfiguration cmdlet을 사용 하 여 체감 �
 
  이 명령은 Redmond 사이트에 적용 된 체감 품질 구성 설정의 새 컬렉션을 만듭니다.
     
-  ```
+  ```PowerShell
   New-CsQoEConfiguration -Identity "site:Redmond"
   ```
 
@@ -75,7 +75,7 @@ Windows PowerShell 및 New-CsQoEConfiguration cmdlet을 사용 하 여 체감 �
 
  앞의 명령에서 필수 Id 매개 변수 이외의 매개 변수를 지정 하지 않았으므로 새 구성 설정 모음에는 해당 속성에 대 한 기본값이 사용 됩니다. 다른 속성 값을 사용 하는 설정을 만들려면 간단히 적절 한 매개 변수와 매개 변수 값을 포함 합니다. 예를 들어 기본적으로 체감 품질 녹화 사용 안 함을 허용 하는 환경 구성 설정의 컬렉션을 만들려면 다음과 같은 명령을 사용 합니다.
     
-  ```
+  ```PowerShell
   New-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
   ```
 
@@ -83,7 +83,7 @@ Windows PowerShell 및 New-CsQoEConfiguration cmdlet을 사용 하 여 체감 �
 
  여러 매개 변수를 포함 하 여 여러 속성 값을 사용할 수 있습니다. 예를 들어이 명령은 체감 품질 데이터를 30 일간 유지 하 고 3:00 AM에 오래 된 데이터를 제거 하도록 새 설정을 구성 합니다.
     
-  ```
+  ```PowerShell
   New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 30 -PurgeHourOfDay 3
   ```
 

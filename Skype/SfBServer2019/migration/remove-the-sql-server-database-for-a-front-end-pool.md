@@ -1,5 +1,5 @@
 ---
-title: 프런트 엔드 풀에 대 한 SQL Server 데이터베이스 제거
+title: 프런트 엔드 풀에 대한 SQL Server 데이터베이스 제거
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 프런트 엔드 풀을 제거 하거나 다른 데이터베이스를 사용 하도록 풀을 다시 구성한 후에는 풀 데이터를 호스트 하는 SQL Server 데이터베이스를 제거할 수 있습니다. 토폴로지 작성기에서 정의를 제거 하려면 다음 절차를 사용 하 여 데이터베이스 서버에서 데이터베이스 및 로그 파일을 제거 합니다.
-ms.openlocfilehash: d22a90401bdfa4a2897a18805e8b9c588892c5fb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f26cf1f93abb8538c068a4ab2d6f81c9c36d759d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241841"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989093"
 ---
-# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>프런트 엔드 풀에 대 한 SQL Server 데이터베이스 제거
+# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>프런트 엔드 풀에 대한 SQL Server 데이터베이스 제거
 
 프런트 엔드 풀을 제거 하거나 다른 데이터베이스를 사용 하도록 풀을 다시 구성한 후에는 풀 데이터를 호스트 하는 SQL Server 데이터베이스를 제거할 수 있습니다. 토폴로지 작성기에서 정의를 제거 하려면 다음 절차를 사용 하 여 데이터베이스 서버에서 데이터베이스 및 로그 파일을 제거 합니다.
   
@@ -36,7 +36,7 @@ ms.locfileid: "36241841"
     
 3. 풀 사용자 저장소의 데이터베이스를 제거 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 
@@ -44,7 +44,7 @@ ms.locfileid: "36241841"
     
 4. 풀 응용 프로그램 저장소의 데이터베이스를 제거 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: '요약: 비즈니스용 Skype 서버에서 사용자가 전화 접속 회의를 시작 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: db2e8bd84fa6a03bad845a87f7fb3c1532ae7ec2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d9f0740128a8790052534e63c95a8305f65bb96d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188913"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992835"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 전화 접속 사용자에 게 환영 전자 메일 보내기
  
@@ -39,7 +39,7 @@ ms.locfileid: "36188913"
     
 3. 명령 프롬프트에서 다음을 실행 합니다.
     
-   ```
+   ```PowerShell
    Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
    -From <email address of sender> [-Subject <subject for email message>]
    [-UserEmailAddress <destination email address>]
@@ -58,14 +58,14 @@ ms.locfileid: "36188913"
     
 다음 예에서는 새 PIN을 만든 다음 매크로에서 Bob에 게 환영 전자 메일을 보냅니다. 기본 서식 파일의 전자 메일 텍스트를 사용 하 고 HTML 형식으로 전자 메일 메시지를 만듭니다. 기본 제목은 "전화 접속 회의 시작"입니다.
   
-```
+```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com"
 ```
 
 다음 예에서는 bob에 게 기존 PIN이 있는 경우에도 "383042650" 값이 포함 된 새 PIN을 강제 적용 하 고 매크로에서 Bob에 게 환영 전자 메일을 보냅니다. Credential 매개 변수를 지정 했기 때문에 명령을 실행 하는 사용자에 게 암호를 입력 하 라는 메시지가 표시 됩니다. SSL (Secure Sockets layer)을 사용 하 여 전자 메일을 보냅니다.
   
-```
+```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com" -Subject "Your new dial-in conferencing PIN"
 -Pin "383042650" -Force

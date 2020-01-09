@@ -12,28 +12,28 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: '요약: 비즈니스용 Skype Server 2015에서 중앙 집중화 된 로깅 서비스에 대 한 시나리오 공급자를 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: a9987d99b2caf00acc92de92a8d997845ad8f921
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dcfa16ffa00e81153172570e67020cf287350cd9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186825"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991473"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>비즈니스용 Skype 2015에서 중앙 로깅 서비스에 대한 공급자 구성
  
 **요약:** 비즈니스용 Skype 서버 2015에서 중앙 로깅 서비스에 대 한 시나리오 공급자를 구성 하는 방법에 대해 알아봅니다.
   
-중앙 로깅 서비스의 공급자에 대 한 개념 및 구성은 가장 중요 하 게 이해 하는 방법 중 하나입니다. 이 공급자는 비즈니스용 skype 서버 추적 모델의 비즈니스용 Skype 서버 역할 구성 요소에 직접 매핑됩니다. 공급자는 추적할 비즈니스용 Skype Server 2015의 구성 요소, 수집할 메시지 유형 (예: 치명적, 오류 또는 경고) 및 플래그를 정의 합니다 (예: TF_Connection 또는 TF_Diag). 공급자는 각 비즈니스용 Skype 서버 역할의 추적 가능한 구성 요소입니다. 공급자를 사용 하 여 구성 요소 (예: S4, SIPStack, IM 및 현재 상태)에 추적의 수준과 유형을 정의 합니다. 정의 된 공급자는 특정 문제 조건을 처리 하는 지정 된 논리적 수집에 대 한 모든 공급자를 그룹화 하는 시나리오에서 사용 됩니다.
+중앙 로깅 서비스의 공급자에 대 한 개념 및 구성은 가장 중요 하 게 이해 하는 방법 중 하나입니다. 이 공급자는 비즈니스용 skype 서버 추적 모델의 비즈니스용 Skype 서버 역할 구성 요소에 직접 매핑됩니다. 공급자는 추적할 비즈니스용 Skype Server 2015의 구성 요소, 수집할 메시지 유형 (예: 치명적, 오류 또는 경고) 및 플래그 (예: TF_Connection 또는 TF_Diag)를 정의 합니다. 공급자는 각 비즈니스용 Skype 서버 역할의 추적 가능한 구성 요소입니다. 공급자를 사용 하 여 구성 요소 (예: S4, SIPStack, IM 및 현재 상태)에 추적의 수준과 유형을 정의 합니다. 정의 된 공급자는 특정 문제 조건을 처리 하는 지정 된 논리적 수집에 대 한 모든 공급자를 그룹화 하는 시나리오에서 사용 됩니다.
   
 비즈니스용 Skype Server Management Shell을 사용 하 여 중앙 집중화 된 로깅 서비스 기능을 실행 하려면 CsAdministrator 또는 CsServerAdministrator 역할 기반 액세스 제어 (RBAC) 보안 그룹 또는 사용자 지정 RBAC 역할의 구성원 이어야 합니다. 두 그룹 중 하나를 포함 합니다. 이 cmdlet이 할당 된 모든 RBAC (역할 기반 액세스 제어) 역할 목록 (직접 만든 사용자 지정 RBAC 역할 포함)을 반환 하려면 비즈니스용 Skype Server 관리 셸 또는 Windows PowerShell에서 다음 명령을 실행 합니다. 명령줄
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
 예를 들면 다음과 같습니다.
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -84,19 +84,19 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 기존 공급자의 구성을 검토 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Get-CsClsScenario -Identity <scope and scenario name>
    ```
 
     예를 들어 전역 회의 수행자에 대 한 정보를 검토 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Get-CsClsScenario -Identity "global/CAA"
    ```
 
     이 명령은 연결 된 플래그, 설정 및 구성 요소와 함께 공급자 목록을 표시 합니다. 표시 되는 정보가 부족 하거나 목록이 기본 Windows PowerShell 목록 형식에 비해 너무 긴 경우 다른 출력 방법을 정의 하 여 추가 정보를 표시할 수 있습니다. 이렇게 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
    ```
 
@@ -108,19 +108,19 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 시나리오 공급자는 추적 하는 구성 요소, 사용할 플래그, 수집할 세부 정보 수준으로 구성 됩니다. 다음을 입력 하 여이 작업을 수행 합니다.
     
-   ```
+   ```PowerShell
    $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
    ```
 
     예를 들어 수집 대상을 정의 하 고 Lyss 공급자의 세부 정보 수준에 대 한 추적 공급자 정의는 다음과 같습니다.
     
-   ```
+   ```PowerShell
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
    ```
 
--Level은 치명적, 오류, 경고 및 정보 메시지를 수집 합니다. 사용 된 플래그는 Lyss 공급자에 대해 정의 되 고 TF_Connection, TF_Diag 및 TF_Protocol을 포함 합니다. 변수 $LyssProvider 정의 된 후에는 **새 CsClsScenario** cmdlet을 사용 하 여 lyss 공급자에서 추적을 수집할 수 있습니다. 새 시나리오에 대 한 공급자 만들기 및 할당을 완료 하려면 다음을 입력 합니다.
+-Level은 치명적, 오류, 경고 및 정보 메시지를 수집 합니다. 사용 된 플래그는 Lyss 공급자에 대해 정의 된 것으로, TF_Connection, TF_Diag TF_Protocol 포함 됩니다. 변수 $LyssProvider 정의 된 후에는 **새 CsClsScenario** cmdlet을 사용 하 여 lyss 공급자의 추적을 수집할 수 있습니다. 새 시나리오에 대 한 공급자 만들기 및 할당을 완료 하려면 다음을 입력 합니다.
 
-```
+```PowerShell
 New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 ```
 
@@ -131,23 +131,23 @@ New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvid
     
 2. 기존 공급자의 구성을 업데이트 하거나 변경 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "TF_Connection, TF_Diag"
    ```
 
     그런 다음 시나리오를 업데이트 하 여 다음을 입력 하 여 공급자를 할당 합니다.
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
    ```
 
 이 명령의 최종 결과는 시나리오 사이트: 레드먼드/RedmondLyssInfo에 할당 된 공급자에 대 한 플래그와 수준을 업데이트 하는 것입니다. Get-CsClsScenario를 사용 하 여 새 시나리오를 볼 수 있습니다. 자세한 내용은 [Get CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)를 참조 하세요.
 > [!CAUTION]
-> **새-ClsCsProvider** 는 플래그가 유효한 지 여부를 확인 하지 않습니다. 플래그의 철자 (예: TF_DIAG 또는 TF_CONNECTION)가 정확한 지 확인 합니다. 플래그에 맞춤법이 잘못 된 경우 공급자는 필요한 로그 정보를 반환할 수 없습니다.
+> **새-ClsCsProvider** 는 플래그가 유효한 지 여부를 확인 하지 않습니다. 플래그의 맞춤법 (예: TF_DIAG 또는 TF_CONNECTION)이 정확한 지 확인 합니다. 플래그에 맞춤법이 잘못 된 경우 공급자는 필요한 로그 정보를 반환할 수 없습니다.
   
 이 시나리오에 추가 공급자를 추가 하려면 다음을 입력 합니다.
 
-```
+```PowerShell
 Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSProvider, $CASProvider, S4Provider}
 ```
 
@@ -156,25 +156,25 @@ Add 지시문을 사용 하 여 정의 된 각 공급자는 이미 **새 CsClsPr
 
 1. 비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.
     
-2. 제공 된 cmdlet을 사용 하 여 기존 공급자를 업데이트 하 고 새 공급자를 만들 수 있습니다. 공급자를 제거 하려면 Provider 매개 변수에 대 한 Replace 지시문을 **Set-CsClsScenario**에 사용 해야 합니다. 공급자를 완전히 제거 하는 유일한 방법은 동일한 이름의 재정의 된 공급자로 바꾼 다음 Update 지시문을 사용 하는 것입니다. 예를 들어, 공급자 LyssProvider는 WPP를 사용 하 여 로그 유형으로 설정 되 고, TF_CONNECTION에 대 한 수준이 지정 되 고, 플래그 집합이 TF_DIAG로 정의 됩니다. 플래그를 "모두"로 변경 해야 합니다. 공급자를 변경 하려면 다음을 입력 합니다.
+2. 제공 된 cmdlet을 사용 하 여 기존 공급자를 업데이트 하 고 새 공급자를 만들 수 있습니다. 공급자를 제거 하려면 Provider 매개 변수에 대 한 Replace 지시문을 **Set-CsClsScenario**에 사용 해야 합니다. 공급자를 완전히 제거 하는 유일한 방법은 동일한 이름의 재정의 된 공급자로 바꾼 다음 Update 지시문을 사용 하는 것입니다. 예를 들어, 공급자 LyssProvider는 WPP를 사용 하 여 로그 유형, 디버그로 설정한 수준 집합, 그리고 플래그 집합은 TF_CONNECTION 및 TF_DIAG로 정의 됩니다. 플래그를 "모두"로 변경 해야 합니다. 공급자를 변경 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
    ```
 
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
    ```
 
 3. 시나리오 및이에 연결 된 공급자를 완전히 제거 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Remove-CsClsScenario -Identity <scope and name of scenario>
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```PowerShell
    Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
    ```
 

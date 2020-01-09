@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft 비즈니스용 Skype Server 2019으로 마이그레이션한 후 System Center Operations Manager와 함께 작동 하도록 비즈니스용 Skype Server 2019를 구성 하는 몇 가지 작업을 완료 해야 합니다.
-ms.openlocfilehash: 098265f5b17ab4d25164495965b3d20a122f61fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: aa782f2ef51e3397d465b1cd0f914783d371eded
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239580"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989593"
 ---
 # <a name="configure-scom-monitoring"></a>SCOM 모니터링 구성
 
@@ -40,11 +40,11 @@ ms.locfileid: "36239580"
     
 2. 명령줄에 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
    ```
 
-   ```
+   ```PowerShell
    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
    ```
 

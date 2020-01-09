@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: '요약: 비즈니스용 Skype 서버에서 사용자에 게 보관 정책을 할당 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 895a7fac34fcac0a4a7e39756796f6b7d2fc6377
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5dbd1624813b187e8c0981aa1a84b6096b79e86a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189360"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992785"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자에 게 보관 정책 적용
 
@@ -51,19 +51,19 @@ Windows PowerShell **CsArchivingPolicy** cmdlet을 사용 하 여 사용자 정�
   
 다음 명령을 사용 하 여 사용자 단위 보관 정책을 RedmondArchivingPolicy: 진구 Myer에 할당 합니다.
   
-```
+```PowerShell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 ```
 
 이 명령은 등록자 풀 atl-cs-001.contoso.com에 속한 계정이 있는 모든 사용자에 대해 사용자별 보관 정책 RedmondArchivingPolicy를 할당 합니다. 이 명령에 사용 된 필터 매개 변수에 대 한 자세한 내용은 [Get CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) cmdlet 설명서를 참조 하세요.
   
-```
+```PowerShell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 ```
 
 다음 명령을 사용 하 여 이전에: 진구 Myer에 할당 된 사용자 단위 보관 정책을 제거 합니다. 사용자별 정책이 제거 되 면: 진구 Myer는 글로벌 정책을 사용 하 여 자동으로 관리 되거나 (있는 경우) 로컬 사이트 정책이 됩니다. 사이트 정책이 전역 정책 보다 우선 합니다.
   
-```
+```PowerShell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 ```
 

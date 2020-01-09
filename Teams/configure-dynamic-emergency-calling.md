@@ -1,5 +1,5 @@
 ---
-title: 동적 비상 전화 구성
+title: 동적인 긴급 전화 구성
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,15 +11,15 @@ ms.collection:
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
-description: 동적 비상 전화 구성
+description: 동적인 긴급 전화 구성
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53af7f64cd7050d3dcd6120f7729cd069a4331d0
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 2d4480e875c37ba2c608c826bb648231c0f6fc23
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615858"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992093"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -61,7 +61,7 @@ Microsoft 통화 요금제 및 전화 시스템 다이렉트 라우팅을 위한
 
 - [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
 - [클라우드 음성 기능에 대 한 네트워크 설정 관리](cloud-voice-network-settings.md)
-- [클라우드 음성 기능에 대 한 네트워크 토폴로지 관리](manage-your-network-topology.md)
+- [클라우드 음성 기능에 대한 네트워크 토폴로지 관리](manage-your-network-topology.md)
 
 
 ## <a name="supported-clients"></a>지원 되는 클라이언트
@@ -164,25 +164,25 @@ TeamsEmergencyCallRouting 정책은 직접 라우팅에만 적용 됩니다. (�
 
 예를 들어 보안 데스크 알림을 위해 특정 사용자를 활성화 하려면 다음 명령을 사용 합니다.
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
 ```
 
 "Contoso 비상 통화 정책 1" 이라는 정책을 사이트 1에 할당 하려면 다음 명령을 사용 합니다.
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
 특정 직접 라우팅 사용자에 게 긴급 통화를 사용 하도록 설정 하려면 다음 명령을 사용 합니다.
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
 ```
 
 사이트 1에 "Contoso 뉴욕 긴급 통화 라우팅" 이라는 정책을 할당 하려면 다음 명령을 사용 합니다.
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
 ```
 
@@ -204,5 +204,5 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 - [긴급 통화 라우팅 정책 관리](manage-emergency-call-routing-policies.md)
 - [조직의 응급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)
 - [사용자의 긴급 위치 지정 또는 변경](assign-change-emergency-location-user.md)
-- [클라우드 음성 기능에 대 한 네트워크 설정](cloud-voice-network-settings.md)
-- [클라우드 음성 기능에 대 한 네트워크 토폴로지 관리](manage-your-network-topology.md)
+- [클라우드 음성 기능에 대한 네트워크 설정](cloud-voice-network-settings.md)
+- [클라우드 음성 기능에 대한 네트워크 토폴로지 관리](manage-your-network-topology.md)

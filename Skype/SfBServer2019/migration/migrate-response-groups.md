@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 사용자를 비즈니스용 Skype 서버 2019 풀로 이동한 후에는 응답 그룹을 마이그레이션할 수 있습니다. 응답 그룹 마이그레이션에는 레거시 배포에서 비즈니스용 Skype Server 2019 풀로 에이전트 그룹, 큐, 워크플로, 오디오 파일, 응답 그룹 연락처 개체 복사 등이 포함 됩니다. 레거시 응답 그룹을 마이그레이션한 후에는 응답 그룹에 대 한 호출이 비즈니스용 Skype 서버 2019 풀의 응답 그룹 응용 프로그램에서 처리 됩니다. 응답 그룹에 대 한 호출은 더 이상 레거시 풀에서 처리 되지 않습니다.
-ms.openlocfilehash: b8d49205f4f54ca7c00a9aed0b6ac176c11cd617
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 148fbe2ca547c3bd7e3d240e687b37c94d10270b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238463"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991113"
 ---
 # <a name="migrate-response-groups"></a>응답 그룹 마이그레이션
 
@@ -57,13 +57,13 @@ ms.locfileid: "36238463"
     
 3. 런
     
-   ```
+   ```PowerShell
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```PowerShell
    Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
    ```
 
@@ -91,13 +91,13 @@ ms.locfileid: "36238463"
     
     다음 cmdlet에 대 한 자세한 내용을 보려면 다음을 실행 합니다.
     
-   ```
+   ```PowerShell
    Get-Help <cmdlet name> -Detailed
    ```
 
 3. 런
     
-   ```
+   ```PowerShell
    Get-CsRgsAgentGroup
    ```
 
@@ -105,7 +105,7 @@ ms.locfileid: "36238463"
     
 5. 런
     
-   ```
+   ```PowerShell
    Get-CsRgsQueue
    ```
 
@@ -113,7 +113,7 @@ ms.locfileid: "36238463"
     
 7. 런
     
-   ```
+   ```PowerShell
    Get-CsRgsWorkflow
    ```
 

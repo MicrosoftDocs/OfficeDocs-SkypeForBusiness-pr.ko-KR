@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Windows PowerShell 및 CsTenant 및 CsTenantLicensingConfiguration cmdlet을 사용 하 여 비즈니스용 Skype Online 테 넌 트에 대 한 정보를 가져옵니다.
-ms.openlocfilehash: 768ee4e0724bd04d38e9ce77b94372bdad498ecd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 340ef9de0e793cbbed7d471754ebca715eb7eaf7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642307"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989233"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>비즈니스용 Skype Online 조 직 관리
 
@@ -33,13 +33,13 @@ ms.locfileid: "37642307"
 
 비즈니스용 Skype Online 테 넌 트에 대 한 정보를 반환 하려면 [CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) cmdlet에 추가 매개 변수 없이 호출 하세요.
   
-```
+```PowerShell
 Get-CsTenant
 ```
 
 테 넌 트 이름 및 ID만 반환 하려면이 명령을 사용 합니다.
   
-```
+```PowerShell
 Get-CsTenant | Select-Object Name, TenantID
 ```
 

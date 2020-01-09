@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: '요약: 비즈니스용 Skype 서버에 대 한 보관 데이터베이스 옵션을 변경 하는 방법을 알아보세요.'
-ms.openlocfilehash: 56aa29ef185176ce3b080572723c566455731dc4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3e7ae30e012464b6d1f72e323dd60ad397e7430d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197061"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992765"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 보관 데이터베이스 옵션 변경
 
@@ -34,7 +34,7 @@ ms.locfileid: "36197061"
 1. 비즈니스용 Skype 서버를 실행 중이거나 비즈니스용 Skype 서버 관리 도구가 설치 되어 있는 컴퓨터에서 로컬 사용자 그룹의 구성원 인 계정을 사용 하거나 해당 사용자 권한이 있는 계정으로 로그온 합니다.
     
     > [!NOTE]
-    > 로컬 사용자 그룹의 구성원 인 계정을 사용 하 여 토폴로지를 정의할 수 있지만 토폴로지에 구성 요소를 추가 하는 데 필요한 토폴로지를 게시 하려면 **Domain Admins** 그룹의 구성원 인 계정과 RTCUniversalSer를 사용 해야 합니다. ** verAdmins** 그룹과 비즈니스용 Skype Server 파일 저장소에 사용 하는 파일 공유에 대 한 모든 권한 (즉, 읽기, 쓰기 및 수정)이 있으며,이는 토폴로지 작성기가 필요한 임의 액세스 제어를 구성할 수 있도록 합니다. 목록 (Dacl) 또는 해당 권한이 있는 계정
+    > 로컬 사용자 그룹의 구성원 인 계정을 사용 하 여 토폴로지를 정의할 수 있지만 토폴로지에 구성 요소를 추가 하는 데 필요한 토폴로지를 게시 하려면 **Domain Admins** 그룹 및 **RTCUniversalServerAdmins** 그룹의 구성원 인 계정을 사용 해야 하며, 비즈니스용 Skype Server 파일 저장소에 사용 하는 파일 공유에 대 한 모든 권한 (즉, 읽기, 쓰기 및 수정)이 있는 경우 (즉, 토폴로지 작성기가 필요한 임의 액세스 제어를 구성할 수 있도록 합니다. 목록 (Dacl) 또는 해당 권한이 있는 계정
   
 2. 토폴로지 작성기를 시작 합니다.
     
@@ -60,7 +60,7 @@ ms.locfileid: "36197061"
     
        - **Sql SERVER fqdn**에서 새 SQL server 저장소를 만들 서버의 FQDN을 지정 합니다.
     
-       - 기본 인스턴스 **** 를 클릭 하 여 기본 인스턴스를 사용 하거나 다른 인스턴스를 지정 하려면 **명명 된 인스턴스**를 클릭 한 다음 사용할 인스턴스를 지정 합니다.
+       - 기본 인스턴스 **를 클릭 하** 여 기본 인스턴스를 사용 하거나 다른 인스턴스를 지정 하려면 **명명 된 인스턴스**를 클릭 한 다음 사용할 인스턴스를 지정 합니다.
     
        - 지정 된 SQL Server 인스턴스가 미러링 관계에 있는 경우 **이 SQL 인스턴스는 미러링 관계에 있는** 확인란을 선택한 다음 **미러 포트 번호**에서 포트 번호를 지정 합니다.
     
@@ -72,15 +72,15 @@ ms.locfileid: "36197061"
     
        에서. **Sql SERVER fqdn**에서 새 sql server 저장소를 만들 sql SERVER의 fqdn을 지정 합니다.
     
-       b. 기본 인스턴스 **** 를 클릭 하 여 기본 인스턴스를 사용 하거나 다른 인스턴스를 지정 하려면 **명명 된 인스턴스**를 클릭 한 다음 사용할 인스턴스를 지정 합니다.
+       b. 기본 인스턴스 **를 클릭 하** 여 기본 인스턴스를 사용 하거나 다른 인스턴스를 지정 하려면 **명명 된 인스턴스**를 클릭 한 다음 사용할 인스턴스를 지정 합니다.
     
        c. 지정 된 SQL Server 인스턴스가 미러링 관계에 있는 경우 **이 SQL 인스턴스는 미러링 관계에 있는** 확인란을 선택한 다음 **미러 포트 번호**에서 포트 번호를 지정 합니다.
     
-   - SQL Server 미러링 기능을 사용 하도록 설정 하 고 SQL Server 미러링 모니터를 추가 하거나 변경 하려는 경우 (예를 들어 기본 SQL Server 서버 및 미러 인스턴스의 상태를 검색할 수 있는 별도의 SQL Server 인스턴스), **Sql server 미러링 미러링 모니터 사용을 선택 하 여 자동 장애 조치 사용** 확인란을 선택 하 고 다음 중 하나를 수행 합니다.
+   - SQL Server 미러링 기능을 사용 하도록 설정 하 고 SQL Server 미러링 모니터를 추가 하거나 변경 하려면 (기본 SQL Server server 서버와 미러 인스턴스의 상태를 검색할 수 있는 별도의 SQL Server 인스턴스), **Sql server 미러링 미러링 모니터를 사용 하 여 자동 장애 조치 사용** 확인란을 선택 하 고 다음 중 하나를 수행 합니다.
     
       에서. **Sql SERVER fqdn**에서 새 SQL server 미러링 감시를 만들 서버의 FQDN을 지정 합니다.
     
-      b. 기본 인스턴스 **** 를 클릭 하 여 기본 인스턴스를 사용 하거나 다른 인스턴스를 지정 하려면 **명명 된 인스턴스**를 클릭 한 다음 미러링 모니터에 사용할 인스턴스를 지정 합니다.
+      b. 기본 인스턴스 **를 클릭 하** 여 기본 인스턴스를 사용 하거나 다른 인스턴스를 지정 하려면 **명명 된 인스턴스**를 클릭 한 다음 미러링 모니터에 사용할 인스턴스를 지정 합니다.
     
       c. 지정 된 SQL Server 인스턴스가 미러링 관계에 있는 경우 **이 SQL 인스턴스는 미러링 관계에 있는** 확인란을 선택한 다음 **미러 포트 번호**에서 포트 번호를 지정 합니다.
     
@@ -100,7 +100,7 @@ ms.locfileid: "36197061"
   
 다음 예에서는 ArchivingServer: atl-cs-001.contoso.com 보관 서버에 대 한 보관 데이터베이스의 위치를 변경 합니다. 이 예제에서는 새 데이터베이스가 ArchivingDatabase: atl-sql-001.contoso.com:에 있습니다.
   
-```
+```PowerShell
 Set-CsArchivingServer -Identity "ArchivingServer:atl-cs-001.contoso.com" -ArchivingDatabase "ArchivingDatabase:atl-sql-001.contoso.com"
 ```
 

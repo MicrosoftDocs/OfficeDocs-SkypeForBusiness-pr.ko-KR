@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: '요약: 비즈니스용 Skype Server 2015에서 영구 채팅 서버 채팅방의 추가 기능을 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 4614387149eb264d5c59ca7a0642408093312a18
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: c7243184f273704335dda3c8709de17e767f6b51
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197872"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992113"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>영구 채팅방에 대해 추가 기능 구성
  
@@ -71,7 +71,7 @@ ms.locfileid: "36197872"
   
 예를 들어 다음 명령을 사용 하 여 풀 atl-cs-001.contoso.com에 대 한 새 추가 기능 (이름 ITPersistentChatAddin)을 만듭니다. URL 매개 변수 및 매개 변수 값 http://atl-cs-001.contoso.com/itchat 은 추가 기능 웹 페이지의 위치를 지정 합니다.
   
-```
+```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
 ```
 
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 **Set-CsPersistentChatAddIn** cmdlet을 사용 하 여 기존 추가 기능에 대 한 설정을 구성할 수 있습니다. 예를 들어 다음 명령은 영구 채팅 추가 기능 ITPersistentChatAddin에 할당 된 URL을 수정 합니다. 이 경우에는 URL이 다음과 같이 변경 됩니다.http://atl-cs-001.contoso.com/itchat2:
   
-```
+```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
 ```
 
@@ -87,7 +87,7 @@ Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddi
 
 **CsPersistentChatAddin** cmdlet을 사용 하 여 추가 기능에 대 한 정보를 얻을 수 있습니다. 예를 들어 다음 명령은 조직에서 사용 하도록 구성 된 모든 영구 채팅 추가 기능에 대 한 정보를 반환 합니다.
   
-```
+```PowerShell
 Get-CsPersistentChatAddin
 ```
 
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 **제거-CsPersistentChatAddIn** cmdlet을 사용 하 여 추가 기능을 제거할 수 있습니다. 예를 들어 다음 명령은 풀 atl-cs-001.contoso.com에서 찾을 수 있는 영구 채팅 추가 기능을 제거 합니다.
   
-```
+```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"
 ```
 

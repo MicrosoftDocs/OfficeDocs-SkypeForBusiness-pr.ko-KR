@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 모니터링 서버를 제거한 후에는 서버 데이터를 호스트 하는 SQL Server 데이터베이스를 제거할 수 있습니다. 토폴로지 작성기에서 정의를 제거 하려면 다음 절차를 사용 하 여 데이터베이스 서버에서 데이터베이스 및 로그 파일을 제거 합니다.
-ms.openlocfilehash: 1034abac5b257200504c599fe8655a788d638aa0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 94081aa7ec4b32797dedaaa2a89dc7221b04bd97
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241844"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989013"
 ---
 # <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>모니터링 서버용 SQL Server 데이터베이스 제거
 
@@ -36,7 +36,7 @@ ms.locfileid: "36241844"
     
 3. 명령줄에 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 

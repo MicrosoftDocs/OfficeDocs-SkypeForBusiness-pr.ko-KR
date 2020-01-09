@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: '요약: 비즈니스용 Skype 서버에 대 한 보관 구성을 만드는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 58d817cea4c1caceff37bd132cd4f5a61445cdb0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bd2a139e7321542e3b13259ebc2ec1e4ba731caf
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190383"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992745"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 보관 구성 만들기
 
@@ -65,7 +65,7 @@ ms.locfileid: "36190383"
   
 다음 명령은 Redmond 사이트의 보관 구성 설정에 대 한 새 컬렉션을 만듭니다.
   
-```
+```PowerShell
 New-CsArchivingConfiguration -Identity "site:Redmond"
 ```
 
@@ -73,13 +73,13 @@ New-CsArchivingConfiguration -Identity "site:Redmond"
   
 다른 속성 값을 사용 하는 설정을 만들려면 간단히 적절 한 매개 변수와 매개 변수 값을 포함 합니다. 다음 예제에서는 기본적으로 메신저 대화 세션만 보관할 수 있는 보관 구성 설정의 컬렉션을 만듭니다.
   
-```
+```PowerShell
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 ```
 
 여러 매개 변수를 포함 하 여 여러 속성 값을 수정할 수 있습니다. 예를 들어이 명령은 메신저 대화 서비스를 보관 하기 위해 새로운 설정을 구성 하 고 보관 서비스의 인스턴트 메시지를 차단 합니다.
   
-```
+```PowerShell
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 

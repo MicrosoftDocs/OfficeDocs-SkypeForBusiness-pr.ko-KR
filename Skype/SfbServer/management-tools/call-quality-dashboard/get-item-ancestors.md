@@ -1,5 +1,5 @@
 ---
-title: Item 상위 항목 가져오기
+title: 상위 항목 가져오기
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -11,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: '요약: 항목 서비스의 일부인 항목의 상위 항목 가져오기 작업에 대해 알아보세요. 항목 서비스는 통화 품질 대시보드의 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 77fb5f46ada278bcb172a51620317182fe5d61b0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c82ae699cab0bf812f281fc2f2ad54323bcf8f7f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186942"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992685"
 ---
-# <a name="get-item-ancestors"></a>Item 상위 항목 가져오기
+# <a name="get-item-ancestors"></a>상위 항목 가져오기
  
 **요약:** 항목 서비스의 일부인 항목의 상위 항목 가져오기 작업에 대해 알아봅니다. 항목 서비스는 통화 품질 대시보드의 리포지토리 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.
   
 항목 조상 가져오기 작업은 통화 품질 대시보드의 리포지토리 API에 있는 항목 서비스의 일부입니다.
   
-## <a name="get-item-ancestors"></a>Item 상위 항목 가져오기
+## <a name="get-item-ancestors"></a>상위 항목 가져오기
 
 Item 상위 항목 가져오기 저장소에서 상위 항목을 지정 합니다.
   
@@ -47,7 +47,7 @@ Item 상위 항목 가져오기 저장소에서 상위 항목을 지정 합니�
   
  **응답 본문** -아래는 JSON의 샘플 응답 페이로드입니다.
   
-```
+```json
 [{
 "item1": 1653,
 "item2": 0,

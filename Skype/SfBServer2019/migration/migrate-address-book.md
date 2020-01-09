@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 일반적으로 주소록은 토폴로지의 나머지 부분과 함께 마이그레이션됩니다. 그러나 레거시 환경에서 다음을 사용자 지정 하는 경우 몇 가지 마이그레이션 후 단계를 수행 해야 할 수 있습니다.
-ms.openlocfilehash: 4a3a85715b73c3a6b5996ba677b0647c87a8db1e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8c8e66a8182890ee6e3673769ddc620bb04404c6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238702"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990103"
 ---
 # <a name="migrate-address-book"></a>주소록 마이그레이션
 
@@ -34,16 +34,16 @@ ms.locfileid: "36238702"
 
  **UseNormalizationRules를 False로 설정**
 
-**UseNormalizationRules** 의 값을 False로 설정 하 여 비즈니스용 Skype Server 2019에서 정규화 규칙을 적용 하지 않고 사용자가 전화 번호를 Active Directory 도메인 서비스에 정의한 대로 사용할 수 있도록 하려면 다음을 설정 해야 합니다 **. UseNormalizationRules** 및 **Ignoregenericrules** 매개 변수를 True로 설정 합니다. 이 섹션의 뒷부분에 나오는 절차에 따라 이러한 매개 변수를 True로 설정 합니다. 
+**UseNormalizationRules** 의 값을 False로 설정 하 여 비즈니스용 Skype Server 2019에 정규화 규칙을 적용 하지 않고 사용자가 전화 번호를 Active Directory 도메인 서비스에 정의한 대로 사용할 수 있도록 하려면 **UseNormalizationRules** 및 **Ignoregenericrules** 매개 변수를 True로 설정 해야 합니다. 이 섹션의 뒷부분에 나오는 절차에 따라 이러한 매개 변수를 True로 설정 합니다. 
 
 ## <a name="to-migrate-address-book-customized-normalization-rules"></a>주소록을 사용자 지정 정규화 규칙으로 마이그레이션하려면 다음을 처리 합니다.
 
-1. 주소록 공유 폴더의 루트에 있는 Company_Phone_Number_Normalization_Rules 파일을 찾아 비즈니스용 Skype Server 2019의 파일럿 풀에 있는 주소록 공유 폴더의 루트에 복사 합니다.
+1. 주소록 공유 폴더의 루트에 있는 Company_Phone_Number_Normalization_Rules .txt 파일을 찾아 비즈니스용 Skype Server 2019의 파일럿 풀에 있는 주소록 공유 폴더의 루트에 복사 합니다.
 
     > [!NOTE]
-    > 예제 주소록 정규화 규칙은 ABS 웹 구성 요소 파일 디렉터리에 설치 되어 있습니다. 경로는 $installedDriveLetter입니다. Components\Address: s e t e **-비즈니스용 Files\Microsoft Server 2019 \ Web Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.** 이 파일을 **Company_Phone_Number_Normalization_Rules** 로 복사 하 고 이름을 변경 하 여 주소록 공유 폴더의 루트 디렉터리로 만들 수 있습니다. 예를 들어 **$serverX**에서 공유 되는 주소록은 ** \\$serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**와 비슷합니다. 
+    > 예제 주소록 정규화 규칙은 ABS 웹 구성 요소 파일 디렉터리에 설치 되어 있습니다. 경로는 **$installedDriveLetter: s e t e-비즈니스용 Files\Microsoft Server 2019 \ Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.** 이 파일을 **Company_Phone_Number_Normalization_Rules** 으로 복사 하 여 주소록 공유 폴더의 루트 디렉터리로 바꿀 수 있습니다. 예를 들어 **$serverX**에서 공유 되는 주소록은 ** \\$serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**와 비슷합니다. 
 
-2. 메모장과 같은 텍스트 편집기를 사용 하 여 Company_Phone_Number_Normalization_Rules 파일을 엽니다.
+2. 메모장과 같은 텍스트 편집기를 사용 하 여 Company_Phone_Number_Normalization_Rules .txt 파일을 엽니다.
 
 3. 특정 유형의 항목이 비즈니스용 Skype 서버 2019에서 제대로 작동 하지 않습니다. 이 단계에서 설명 하는 항목 유형에 해당 하는 파일을 살펴보고 필요에 따라 편집한 다음 파일럿 풀의 주소록 공유 폴더에 변경 내용을 저장 합니다.
 
@@ -67,25 +67,25 @@ ms.locfileid: "36238702"
 
    - 배포에 비즈니스용 Skype 서버 2019만 포함 된 경우 전역 수준에서 다음 cmdlet을 실행 하 여 **UseNormalizationRules** 및 **ignoregenericrules** 의 값을 True로 변경 합니다. 
 
-   ```
+   ```PowerShell
    Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
    - 배포에 비즈니스용 Skype 서버 2019와 레거시 설치의 조합이 포함 되어 있는 경우 다음 cmdlet을 실행 하 고 토폴로지의 각 비즈니스용 Skype Server 2019 풀에 할당 합니다.
 
-   ```
+   ```PowerShell
    New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
 3. 중앙 관리 저장소 복제가 모든 풀에서 발생 하는 것을 기다립니다.
 
-4. 배포에 대 한 전화 정규화 규칙 파일 "Company_Phone_Number_Normalization_Rules"를 수정 하 여 콘텐츠를 지웁니다. 파일은 각 비즈니스용 Skype Server 2019 풀의 파일 공유에 있습니다. 파일이 없는 경우 "Company_Phone_Number_Normalization_Rules" 라는 빈 파일을 만듭니다.
+4. 배포에 대 한 "Company_Phone_Number_Normalization_Rules .txt" 전화 번호 정규화 규칙 파일을 수정 하 여 콘텐츠를 지웁니다. 파일은 각 비즈니스용 Skype Server 2019 풀의 파일 공유에 있습니다. 파일이 없는 경우 "Company_Phone_Number_Normalization_Rules .txt" 라는 빈 파일을 만듭니다.
 
 5. 모든 프런트 엔드 풀이 새 파일을 읽을 수 있도록 몇 분 정도 기다립니다.
 
 6. 배포의 각 비즈니스용 Skype Server 2019 풀에서 다음 cmdlet을 실행 합니다.
 
-   ```
+   ```PowerShell
    Update-CsAddressBook
    ```
 

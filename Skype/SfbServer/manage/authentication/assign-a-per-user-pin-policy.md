@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: '요약: 비즈니스용 Skype 서버용으로 AV 및 OAuth 인증서를 준비 합니다.'
-ms.openlocfilehash: dafb70239552b9ee2c5e84e7624e881711e8ce6f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7591464d55970a9aee4fb1f7ddbb28c2efbac601
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188205"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992725"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자 단위 PIN 정책 할당
 
@@ -84,7 +84,7 @@ Windows PowerShell 및 **CsPinPolicy** cmdlet을 사용 하 여 사용자 단위
 
 - 다음 명령을 사용 하 여 사용자 단위 핀 정책 RedmondPinPolicy: 진구 Myer에 할당 합니다.
     
-  ```
+  ```PowerShell
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName "RedmondPinPolicy"
   ```
 
@@ -92,7 +92,7 @@ Windows PowerShell 및 **CsPinPolicy** cmdlet을 사용 하 여 사용자 단위
 
 - 다음 명령을 사용 하 여 사용자 단위 핀 정책 RedmondUsersPinPolicy을 Redmond의 구/군/시로 근무 하는 모든 사용자에 게 할당 합니다. 이 명령에 사용 되는 LdapFilter 매개 변수에 대 한 자세한 내용은 [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)를 참조 하세요.
     
-  ```
+  ```PowerShell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
   ```
 
@@ -100,7 +100,7 @@ Windows PowerShell 및 **CsPinPolicy** cmdlet을 사용 하 여 사용자 단위
 
 - 다음 명령은: 진구 Myer에 이전에 할당 된 사용자 단위 PIN 정책을 할당 해제 합니다. 사용자별 정책에 할당 되지 않은 경우: 진구 Myer는 전역 정책을 사용 하 여 자동으로 관리 되거나 있는 경우 해당 로컬 사이트 정책이 됩니다. 사이트 정책이 전역 정책 보다 우선 합니다.
     
-  ```
+  ```PowerShell
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버용 영상 기반 화면 공유
+title: 비즈니스용 Skype 서버에 대한 비디오 기반 화면 공유
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -11,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: 비디오 기반 화면 공유에 대 한 비즈니스용 Skype 서버 계획 및 구성 정보 (VbSS)
-ms.openlocfilehash: ae2cc683148fdb2a2cb80e3fe3cf25a698a56c00
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 00c699f9a26d82506bd13fefe0e6f3e53f7b86bf
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36197816"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992395"
 ---
-# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 영상 기반 화면 공유 
+# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대한 비디오 기반 화면 공유 
  
 비즈니스용 Skype 서버 2015에서 비디오 기반 화면 공유 (VbSS) 지금 다운로드 가능: 비즈니스용 [Skype server 2015 누적 업데이트 KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690). VbSS는 비즈니스용 Skype 서버 2019에 포함 되어 있습니다.
   
@@ -141,13 +141,13 @@ VbSS 대역폭:
 
 - 비즈니스용 Skype 관리 콘솔에서이 cmdlet을 실행 하 여 vbss를 사용 하 고 있지 않은 사용자 ([PolicyName]를 다음에 대 한 정책으로 바꾸기)에 할당할 수 있습니다.
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode RDP
   ```
 
 - 할당 된 정책이 없는 모든 사용자에 게 영향을 주는 전역 회의 정책을 업데이트할 수도 있습니다.
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
@@ -155,7 +155,7 @@ VbSS 대역폭:
     
 - VbSS를 완전히 해제 해야 하는 경우 다음 명령을 실행할 수 있습니다.
     
-  ```
+  ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
@@ -168,13 +168,13 @@ VbSS 대역폭:
 
 - 비즈니스용 Skype 관리 콘솔에서이 cmdlet을 실행 하 여 vbss를 사용 해야 하는 특정 사용자 정책을 할당할 수 있습니다 ([PolicyName]을이 작업을 수행 하는 정책으로 바꾸기).
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode VideoWithFallback
   ```
 
 - 할당 된 정책이 없는 모든 사용자에 게 영향을 주는 전역 회의 정책을 업데이트할 수도 있습니다.
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
@@ -182,7 +182,7 @@ VbSS 대역폭:
     
 - 전원을 끈 후에 (기본적으로 켜져 있음), VbSS를 다시 설정 해야 하는 경우에는 다음 명령을 실행할 수 있습니다.
     
-  ```
+  ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 

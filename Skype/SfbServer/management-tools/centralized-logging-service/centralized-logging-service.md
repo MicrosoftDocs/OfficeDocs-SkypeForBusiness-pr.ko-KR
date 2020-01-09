@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: '요약: 비즈니스용 Skype Server 2015의 중앙 로깅 서비스에 대 한 서비스 구성 요소 및 구성 설정에 대해 알아봅니다.'
-ms.openlocfilehash: a02d2a283716dd01572e0cbd8cccf075b29fd9b8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1dfdc0de999e79182e5beb57c6d51ecc75359672
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186834"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992605"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>비즈니스용 Skype 2015의 중앙 로깅 서비스
  
@@ -36,7 +36,7 @@ ms.locfileid: "36186834"
   - 기존 공급자를 사용 하거나 새 공급자를 만듭니다. Aprovider는 로깅 세션에서 수집 하는 항목, 세부 정보 수준, 추적할 구성 요소 및 적용 되는 플래그를 정의 합니다.
     
     > [!TIP]
-    >  OCSLogger 사용 하는 데 익숙한 경우 termproviders는 **구성 요소** 컬렉션 (예: S4, SIPStack), **로깅 형식** (예: WPP, EventLog 또는 IIS 로그 파일), **추적 수준** (예: 전체, 자세한 정보, 디버그)을 참조 합니다. , **flags** (예: TF_COMPONENT, TF_DIAG) 이러한 항목은 공급자 (Windows PowerShell 변수)에 정의 되 고 중앙 로깅 서비스 명령으로 전달 됩니다.
+    >  OCSLogger 있는 경우 termproviders는 **구성 요소** (예: S4, SIPStack), **로깅 형식** (예: WPP, EventLog 또는 IIS 로그 파일), **추적 수준** (예: 전체, 자세한 정보 표시, 디버그), **플래그** (예: TF_COMPONENT, TF_DIAG)를 나타냅니다. 이러한 항목은 공급자 (Windows PowerShell 변수)에 정의 되 고 중앙 로깅 서비스 명령으로 전달 됩니다.
   
   - 특정 컴퓨터 및 풀에 대 한 로그를 구성 합니다.
     
@@ -58,14 +58,14 @@ ms.locfileid: "36186834"
   
 Windows Server 명령줄 인터페이스 또는 비즈니스용 Skype 서버 관리 셸을 사용 하 여 명령을 실행 합니다. 명령은 사용자가 로그인 하 여 로컬로 ClsAgent에 또는 배포의 다른 컴퓨터와 풀로 전송 된 컴퓨터에서 실행 됩니다.
   
-ClsAgent는 all에 대 한 인덱스 파일을 유지 합니다. 로컬 컴퓨터에 있는 파일을 캐시 합니다. ClsAgent는 옵션 CacheFileLocalFolders가 정의한 모든 볼륨에서 균등 하 게 분산 되도록 각 볼륨의 80%를 초과 하지 않도록 (즉, 로컬 캐시 위치와 백분율을 사용 하 여 **구성할 수 있습니다.) Set-CsClsConfiguration** cmdlet). 또한 ClsAgent는 로컬 컴퓨터에서 이전에 캐싱된 이벤트 추적 로그 (.etl) 파일을 에이징 하는 역할을 합니다. 2 주 후 (즉, **설정-CsClsConfiguration** cmdlet을 사용 하 여 시간을 구성할 수 있음) 이러한 파일은 로컬 컴퓨터에서 파일 공유에 복사 되 고 삭제 됩니다. 자세한 내용은 [Set CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)을 참조 하세요. 검색 요청이 수신 되 면 검색 조건을 사용 하 여 에이전트에서 유지 관리 되는 인덱스의 값을 기준으로 검색을 수행 하도록 캐시 된 .etl 파일 집합을 선택 합니다.
+ClsAgent는 all에 대 한 인덱스 파일을 유지 합니다. 로컬 컴퓨터에 있는 파일을 캐시 합니다. ClsAgent는 옵션 CacheFileLocalFolders에 의해 정의 된 모든 볼륨에서 균등 하 게 분산 되도록 각 볼륨의 80%를 초과 하지 않도록 (즉, 로컬 캐시 위치 및 백분율이 **Set CsClsConfiguration** cmdlet을 사용 하 여 구성할 수 있음)이를 할당 합니다. 또한 ClsAgent는 로컬 컴퓨터에서 이전에 캐싱된 이벤트 추적 로그 (.etl) 파일을 에이징 하는 역할을 합니다. 2 주 후 (즉, **설정-CsClsConfiguration** cmdlet을 사용 하 여 시간을 구성할 수 있음) 이러한 파일은 로컬 컴퓨터에서 파일 공유에 복사 되 고 삭제 됩니다. 자세한 내용은 [Set CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)을 참조 하세요. 검색 요청이 수신 되 면 검색 조건을 사용 하 여 에이전트에서 유지 관리 되는 인덱스의 값을 기준으로 검색을 수행 하도록 캐시 된 .etl 파일 집합을 선택 합니다.
   
 > [!NOTE]
 > 로컬 컴퓨터에서 파일 공유로 이동 된 파일은 ClsAgent를 통해 검색할 수 있습니다. ClsAgent가 파일 공유로 파일을 이동 하면 ClsAgent가 파일의 에이징 및 제거를 유지 하지 않습니다. 파일 공유에서 파일 크기를 모니터링 하 고 삭제 하거나 보관 하는 관리 작업을 정의 해야 합니다. 
   
 결과 로그 파일은 **Snooper** 와 **메모장과**같은 텍스트 파일을 읽을 수 있는 도구를 비롯 한 다양 한 도구를 사용 하 여 읽고 분석할 수 있습니다. Snooper는 비즈니스용 Skype 서버 2015 디버그 도구의 일부 이며 [웹 다운로드](https://go.microsoft.com/fwlink/p/?LinkId=285257)로 제공 됩니다.
   
-OCSLogger 같은 중앙 로깅 서비스에는 추적할 여러 구성 요소가 있으며 TF_COMPONENT 및 TF_DIAG와 같은 플래그를 선택 하는 옵션을 제공 합니다. 또한 중앙 로깅 서비스는 OCSLogger의 로깅 수준 옵션도 유지 합니다.
+OCSLogger 같은 중앙 로깅 서비스에는 추적할 여러 구성 요소가 있으며 TF_COMPONENT 및 TF_DIAG 같은 플래그를 선택 하는 옵션을 제공 합니다. 또한 중앙 로깅 서비스는 OCSLogger의 로깅 수준 옵션도 유지 합니다.
   
 명령줄 ClsController에서 비즈니스용 Skype Server Management Shell을 사용 하는 경우 가장 중요 한 이점은 문제 공간, 사용자 지정 플래그 및 로깅 수준을 대상으로 하는 선택 된 공급자를 사용 하 여 새 시나리오를 구성 하 고 정의할 수 있다는 것입니다. ClsController에서 사용할 수 있는 시나리오는 실행 파일에 대해 정의 된 것으로 제한 됩니다.
   
@@ -95,7 +95,7 @@ OCSLogger 같은 중앙 로깅 서비스에는 추적할 여러 구성 요소가
     
 2. 명령줄 프롬프트에 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Get-CsClsConfiguration
    ```
 
@@ -109,14 +109,14 @@ OCSLogger 같은 중앙 로깅 서비스에는 추적할 여러 구성 요소가
 |**구성 설정**|**설명**|
 |:-----|:-----|
 |**Identity** <br/> |이 구성의 범위 및 이름을 식별 합니다. 글로벌 구성은 한 개, 사이트별 구성은 하나만 있습니다.  <br/> |
-|**등** <br/> |이 구성에 대해 정의 된 모든 시나리오의 목록입니다.  <br/> |
+|**시나리오** <br/> |이 구성에 대해 정의 된 모든 시나리오의 목록입니다.  <br/> |
 |**SearchTerms** <br/> |구성에 대 한 정의 된 검색 용어입니다. Office 365, 온-프레미스 배포가 아닙니다.  <br/> |
 |**SecurityGroups** <br/> |사용자 (즉, 보안 그룹의 구성원)를 제어 하는 정의 된 보안 그룹은 자신이 위치한 사이트를 기반으로 하는 컴퓨터를 볼 수 있습니다. 이 컨텍스트에서 사이트는 토폴로지 작성기에 정의 된 사이트입니다.  <br/> |
 |**영역과** <br/> |정의 된 지역은 지역 (예: EMEA)에 SecurityGroups를 수집 하는 데 사용 됩니다.  <br/> |
 |**EtlFileRolloverSizeMB** <br/> |매개 변수는 새 이벤트 추적 로그 (.etl) 파일이 만들어지기 전에 로그 파일의 최대 크기를 나타냅니다. EtlFileRolloverMinutes에 설정 된 최대 시간이 아직 도달 하지 않은 경우에도 정의 된 크기에 도달 하면 새 로그 파일이 만들어집니다.  <br/> |
 |**EtlFileRolloverMinutes** <br/> |새 .etl 파일을 만들기 전에 로그가 대기할 수 있는 최대 시간 (분)을 정의 합니다. EtlFileRolloverSizeMB에 설정 된 최대 크기에 도달 하지 않은 경우에도 타이머가 만료 될 때 새 로그 파일이 만들어집니다.  <br/> |
 |**TmfFileSearchPath** <br/> |추적 메시지 형식 파일을 검색 하는 위치입니다.  <br/> |
-|**CacheFileLocalFolders** <br/> |컴퓨터에 캐시 파일이 기록 되는 위치에 대 한 정의 된 경로입니다. CLSAgent는 캐시 파일을 기록 하 고 네트워크 서비스의 컨텍스트에서 실행 됩니다. 이 경우에는% TEMP%를%WINDIR%\ServiceProfiles\NetworkService\AppData\Local.로 확장 합니다. 기본적으로 캐시 파일 및 로그 파일은 동일한 디렉터리에 기록 됩니다.  <br/> |
+|**CacheFileLocalFolders** <br/> |컴퓨터에 캐시 파일이 기록 되는 위치에 대 한 정의 된 경로입니다. CLSAgent는 캐시 파일을 기록 하 고 네트워크 서비스의 컨텍스트에서 실행 됩니다. 이 경우에 는% TEMP% 를%WINDIR%\ServiceProfiles\NetworkService\AppData\Local.로 확장 합니다. 기본적으로 캐시 파일 및 로그 파일은 동일한 디렉터리에 기록 됩니다.  <br/> |
 |**CacheFileNetworkFolder** <br/> |로깅 작업 중 캐시 파일을 받을 UNC (범용 명명 규칙) 경로를 정의할 수 있습니다.  <br/> |
 |**Cachefilelocal보존 기간** <br/> |캐시 파일이 유지 되는 최대 시간 (일)으로 정의 됩니다.  <br/> |
 |**CacheFileMaxDiskUsage** <br/> |캐시 파일에서 사용할 수 있는 디스크 공간의 백분율로 정의 됩니다.  <br/> |

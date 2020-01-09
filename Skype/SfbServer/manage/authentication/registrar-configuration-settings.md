@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: '요약: 비즈니스용 Skype 서버에 대 한 등록자 구성 설정을 관리 합니다.'
-ms.openlocfilehash: 4ad7815da0744a78cd72208ef390362bff26c2ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8aac78f782b7a9db23d3bb124943c55cdbd8565a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191865"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992305"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 등록자 구성 설정 관리
  
@@ -28,7 +28,7 @@ ms.locfileid: "36191865"
     
 - **NTLM** 암호에 챌린지 응답 해싱 스키마를 사용 하는 클라이언트가 사용할 수 있는 암호 기반 인증입니다. 이것은 원격 사용자와 같은 키 배포 센터 (Kerberos 도메인 컨트롤러)에 연결 되지 않고 클라이언트가 사용할 수 있는 유일한 인증 형태입니다. 서버에서 원격 사용자만 인증 하는 경우 NTLM을 선택 해야 합니다.
     
-- **인증서 인증** 이는 서버가 Lync Phone Edition 클라이언트, 공통 지역 전화, 비즈니스용 Skype 및 Lync Windows 스토어 앱에서 인증서를 받아야 하는 경우의 새로운 인증 방법입니다. Lync Phone Edition 클라이언트에서 사용자가 로그인 한 후 PIN (개인 식별 번호)을 제공 하 여 성공적으로 인증 되 고 나면 비즈니스용 Skype 서버에서 SIP URI를 프로 비전 하 여 비즈니스용 Skype 서버에 로그인 합니다. 전화에서 Joe (예: SN=joe@contoso.com)를 식별 하는 인증서 또는 사용자 인증서입니다. 이 인증서는 레지스트라 및 웹 서비스를 사용 하 여 인증 하는 데 사용 됩니다.
+- **인증서 인증** 이는 서버가 Lync Phone Edition 클라이언트, 공통 지역 전화, 비즈니스용 Skype 및 Lync Windows 스토어 앱에서 인증서를 받아야 하는 경우의 새로운 인증 방법입니다. Lync Phone Edition 클라이언트에서 사용자가 로그인 하 고 PIN (개인 식별 번호)을 제공 하 여 인증을 받은 후에는 비즈니스용 Skype 서버에서 휴대폰에 SIP URI를 프로 비전 하 고 비즈니스용 Skype 서버 서명 인증서 또는 Joe (Ex: SN=joe@contoso.com)를 식별 하는 사용자 인증서를 프로 비전 합니다. 이 인증서는 레지스트라 및 웹 서비스를 사용 하 여 인증 하는 데 사용 됩니다.
     
 > [!NOTE]
 > 서버에서 원격 및 엔터프라이즈 클라이언트에 대 한 인증을 지 원하는 경우 Kerberos와 NTLM을 모두 사용 하도록 설정 하는 것이 좋습니다. Edge 서버와 내부 서버는 원격 클라이언트에만 NTLM 인증만 제공 되도록 통신 합니다. 이러한 서버에서 Kerberos만 사용 하도록 설정 된 경우에는 원격 사용자를 인증할 수 없습니다. 엔터프라이즈 사용자도 서버에 대해 인증 하는 경우 Kerberos가 사용 됩니다. 
@@ -108,7 +108,7 @@ Windows PowerShell 및 **제거-CsProxyConfiguration** cmdlet을 사용 하 여 
 
 - 다음 명령은 edge Server atl-edge-011.litwareinc.com에 적용 된 등록자 보안 설정을 제거 합니다.
     
-  ```
+  ```PowerShell
   Remove-CsProxyConfiguration -Identity service:EdgeServer:atl-edge-011.litwareinc.com
   ```
 
@@ -116,7 +116,7 @@ Windows PowerShell 및 **제거-CsProxyConfiguration** cmdlet을 사용 하 여 
 
 - 다음 명령을 실행 하면 등록자 서비스에 적용 된 모든 등록자 보안 설정이 제거 됩니다.
     
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration -Filter "service:Registrar:*" | Remove-CsProxyConfiguration
   ```
 
@@ -124,7 +124,7 @@ Windows PowerShell 및 **제거-CsProxyConfiguration** cmdlet을 사용 하 여 
 
 - 다음 명령은 클라이언트 인증에 NTLM을 사용할 수 있는 모든 등록자 보안 설정을 삭제 합니다.
     
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
   ```
 

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에 대 한 통계 관리자 문제 해결
+title: 비즈니스용 Skype 서버 통계 관리자 문제 해결
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: '요약: 비즈니스용 Skype 서버용 통계 관리자 배포 문제를 해결 하려면이 항목을 읽으십시오.'
-ms.openlocfilehash: b85ee6593413cce0aa5b7c76901dbbc6099107fd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7d9ea061453998f2df01cd2ec31e792600697ee1
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197033"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992515"
 ---
-# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 통계 관리자 문제 해결
+# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자 문제 해결
  
 **요약:** 이 항목을 읽으면 비즈니스용 Skype 서버용 통계 관리자 배포 문제를 해결할 수 있습니다.
   
@@ -39,13 +39,13 @@ ms.locfileid: "36197033"
     
     에이전트는 Windows 작업 개체의 내부를 실행 하 여 메모리 공간을 자동으로 제한 합니다. 에이전트가 시작 되지 않고 이러한 이벤트 항목이 이벤트 로그에 있으면 작업 개체를 서버에서 인스턴스화할 수 없습니다. 이 문제를 해결 하려면 구성 파일에서 값을 변경 하 여 상한 메모리 제한을 제거할 수 있습니다.
     
-  ```
+  ```console
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
     "MaxProcessMemoryMB"를 검색 하 고 다음과 같이 값을 "0"으로 변경 합니다.
     
-  ```
+  ```console
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
@@ -103,7 +103,7 @@ ms.locfileid: "36197033"
     
   - **10001** -구성 문제
     
-    일반적으로이는 [listener_install_location] \PerfAgentListener.exe.config 파일이 직접 수정 되어 응용 프로그램에서 읽을 수 없는 경우에 발생 합니다.
+    일반적으로이 오류는 [listener_install_location] \PerfAgentListener.exe.config 파일을 직접 수정 하 여 응용 프로그램에서 읽을 수 없는 경우에 발생 합니다.
     
   - **10002** -HTTP 수신기 초기화 오류
     
@@ -173,8 +173,8 @@ ms.locfileid: "36197033"
 
 자세한 내용은 다음을 참조 하세요.
   
-- [비즈니스용 Skype 서버에 대 한 통계 관리자 계획](plan.md)
+- [비즈니스용 Skype 서버 통계 관리자에 대한 계획](plan.md)
     
-- [비즈니스용 Skype 서버에 대 한 통계 관리자 배포](deploy.md)
+- [비즈니스용 Skype 서버 통계 관리자 배포](deploy.md)
     
-- [비즈니스용 Skype 서버에 대 한 업그레이드 통계 관리자](upgrade.md)
+- [비즈니스용 Skype 서버 통계 관리자 업그레이드](upgrade.md)

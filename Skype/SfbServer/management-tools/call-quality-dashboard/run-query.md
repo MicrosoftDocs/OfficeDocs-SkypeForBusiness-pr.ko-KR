@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: '요약: 통화 품질 대시보드의 데이터 API의 일부인 쿼리 실행 작업에 대해 알아봅니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 0b4c44c93009e014579a53872de82297c1486573
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8d31ea4c597ea3353fdd5da3e863938aababe819
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186870"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991403"
 ---
 # <a name="run-query"></a>쿼리 실행
 
@@ -39,7 +39,7 @@ ms.locfileid: "36186870"
 
  **요청 본문** -JSON의 샘플 요청 페이로드는 다음과 같습니다. 쿼리에 필요한 차원, 필터, 측정이 포함 되어 있습니다.
 
-```
+```json
 {
 "Filters": [{
 "DataModelName": "[StartDate].[Month]",
@@ -88,7 +88,7 @@ ms.locfileid: "36186870"
 
  **응답 본문** -아래는 JSON의 샘플 응답 페이로드입니다. 데이터를 포함 하는 데이터 테이블에는 쿼리 실행 시간 및 데이터를 캐시에서 가져온 것인지 여부를 보여 주는 메타 데이터도 포함 됩니다.
 
-```
+```json
 {
 "ExecutionTime": "00:00:00.2102630",
 "DataResult": [["September 2014",

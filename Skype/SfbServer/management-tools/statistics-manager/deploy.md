@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에 대 한 통계 관리자 배포
+title: 비즈니스용 Skype 서버 통계 관리자 배포
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '요약: 비즈니스용 Skype 서버용 통계 관리자를 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: b16334558fb64223e305effe533addca91683a81
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 57b799079da400389b9e3049406a52bbba4dc1e6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191208"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990613"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 통계 관리자 배포
+# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자 배포
  
 **요약:** 비즈니스용 Skype 서버용 통계 관리자를 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
   
@@ -98,7 +98,7 @@ Stats마나트 Cpagentlistener를 실행 하 고 다음을 지정 하 여 호스
     
      인증서 관리자를 사용 하거나 다음 PowerShell 명령을 사용 하 여 인증서 지문을 찾을 수 있습니다.
     
-   ```
+   ```PowerShell
    Get-ChildItem -path cert:\LocalMachine\My
    ```
 
@@ -158,7 +158,7 @@ Stats Perfagent를 실행 하 고 다음을 지정 하 여 모니터링할 각 �
     
    - **서비스 URI:** 수신기가 상주 하는 URI입니다. https://name:port 형식을 사용 해야 합니다.
     
-     NETBIOS 이름 또는 FQDN을 사용할 수 있습니다. 수신기 서비스에서 인증서의 주체 또는 **주체의 대체 이름** 으로 **** 도 지정 된 이름을 사용할 수 있지만, 반드시 그럴 필요는 없습니다.
+     NETBIOS 이름 또는 FQDN을 사용할 수 있습니다. 수신기 서비스에서 인증서의 **주체 또는** **주체의 대체 이름** 으로도 지정 된 이름을 사용할 수 있지만, 반드시 그럴 필요는 없습니다.
     
    - **서비스 지문:** 수신기가 사용 하는 SSL 인증서의 지문입니다. 에이전트는이 지문을 사용 하 여 수신기를 인증 합니다. (자체 서명 된 인증서를 사용할 수 있기 때문에 전체 인증서 유효성 검사를 수행 하지 않습니다.)
     
@@ -185,7 +185,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
     
     에서. 다음 명령을 실행 합니다. 
     
-   ```
+   ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
    ```
     b. "Mypoolinfo" 파일을 수신기를 실행 하는 서버에 복사 합니다.
@@ -196,25 +196,25 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
     
    b. 수신기가 설치 된 디렉터리로 이동 합니다. 기본값은 다음과 같습니다. 
     
-   ```
+   ```PowerShell
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 3. 추가 되 고 업데이트 되는 서버를 확인 하려면 다음 명령을 실행 합니다.
     
-   ```
+   ```PowerShell
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 다음 명령을 사용 하 여 모든 옵션을 볼 수 있습니다.
   
-```
+```PowerShell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
 현재 가져온 서버 정보를 보려면 다음 스크립트를 실행 합니다. 
   
-```
+```PowerShell
 .\Get-StatsManServerInfo.ps1
 ```
 
@@ -274,7 +274,7 @@ Microsoft는 신뢰할 수 있는 인증 기관에서 서명한 인증서를 사
   
 1. 관리자로 로그온 한 상태에서 PowerShell 콘솔에서 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 
@@ -299,8 +299,8 @@ Microsoft는 신뢰할 수 있는 인증 기관에서 서명한 인증서를 사
 
 자세한 내용은 다음을 참조 하세요.
   
-- [비즈니스용 Skype 서버에 대 한 통계 관리자 계획](plan.md)
+- [비즈니스용 Skype 서버 통계 관리자에 대한 계획](plan.md)
     
-- [비즈니스용 Skype 서버에 대 한 업그레이드 통계 관리자](upgrade.md)
+- [비즈니스용 Skype 서버 통계 관리자 업그레이드](upgrade.md)
     
 - [비즈니스용 Skype Server ß의 통계 관리자 문제 해결](troubleshoot.md)

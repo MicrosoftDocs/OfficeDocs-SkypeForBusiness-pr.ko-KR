@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 ROBOTS: NOINDEX, NOFOLLOW
 description: '1 단계: 스키마 준비에서 수행한 도메인 준비의 복제를 확인 하려면 비즈니스용 Skype Server Management Shell Lync Server 관리 셸에서 cmdlet을 실행 해야 합니다. Windows PowerShell cmdlet을 실행 하려면 준비한 도메인의 구성원 인 컴퓨터 (도메인 관리자 그룹의 구성원)에 로그온 합니다. 이렇게 하려면 다음을 수행합니다.'
-ms.openlocfilehash: 0b853a071116525ad313cf351685124bf92782a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c378aabe27ce69351643455c41acfd35a8e950b6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197410"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992153"
 ---
 # <a name="verify-replication-in-the-domain"></a>도메인에서 복제 확인
  
@@ -28,13 +28,13 @@ ms.locfileid: "36197410"
     
 2. Windows PowerShell에서 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```PowerShell
    Get-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.com
    ```
 

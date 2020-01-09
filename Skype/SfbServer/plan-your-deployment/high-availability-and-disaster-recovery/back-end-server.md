@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: AlwaysOn 가용성 그룹, AlwaysOn 장애 조치 클러스터 인스턴스, 데이터베이스 미러링, SQL 장애 조치 클러스터링을 비롯 하 여 비즈니스용 Skype 서버에서 지원 되는 백 엔드 서버 고가용성 옵션에 대해 알아봅니다.
-ms.openlocfilehash: db732d106546e5139725713da28bcb9c8b82bb93
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3a92c7ee8cbada8ce678e53e3aacff0aa562fca5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196892"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991493"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 백 엔드 서버 고가용성
  
@@ -42,6 +42,8 @@ AlwaysOn 가용성 그룹, AlwaysOn 장애 조치 클러스터 인스턴스, 데
 
 비즈니스용 Skype 서버는 다음 데이터베이스 소프트웨어와의 미러링을 지원 합니다.
   
+- SQL Server 2019 (Enterprise Edition 및 Standard Edition 모두)
+
 - SQL Server 2017 (Enterprise Edition 및 Standard Edition 모두)
 
 - SQL Server 2016 (Enterprise Edition 및 Standard Edition 모두)
@@ -108,6 +110,10 @@ AlwaysOn 가용성 그룹 또는 AlwaysOn 장애 조치 (Failover) 클러스터 
 
 비즈니스용 Skype 서버는 다음 데이터베이스 소프트웨어를 사용 하 여 AlwaysOn을 지원 합니다.
 
+- SQL Server 2019 Enterprise Edition
+
+- 제한 사항이 적용 되는 SQL Server 2019 Standard Edition의 아래 참고 자료를 참조 하세요.
+
 - SQL Server 2017 Enterprise Edition
 
 - 제한 사항이 적용 되는 SQL Server 2017 Standard Edition의 아래 참고 자료를 참조 하세요.
@@ -121,10 +127,10 @@ AlwaysOn 가용성 그룹 또는 AlwaysOn 장애 조치 (Failover) 클러스터 
 - SQL Server 2012 SP2 및 CU2 Enterprise Edition
 
 > [!NOTE]
-> SQL Server 2017 및 SQL Server 2016는 비즈니스용 Skype 서버 2019에서 지원 되는 유일한 버전입니다.
+> SQL Server 2019, 2017 및 2016은 비즈니스용 Skype Server 2019에서 지원 되는 유일한 버전입니다.
 
 > [!NOTE]
-> SQL 2016 및 2017 Standard Edition에서는 always On 가용성 그룹이 지원 **되지** 않지만 항상 장애 조치 (Failover) 클러스터 인스턴스를 사용할 수 있습니다. 자세한 내용은 [SQL Server 2016의 버전 및 지원 되는 기능](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) 을 참조 하세요.
+> SQL 2016, 2017 및 2019 Standard Edition에서는 always On 가용성 그룹이 지원 **되지** 않지만 항상 장애 조치 (Failover) 클러스터 인스턴스에서 사용할 수 있습니다. 자세한 내용은 [SQL Server 2016의 버전 및 지원 되는 기능](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) 을 참조 하세요.
   
 > [!IMPORTANT]
 > 여러 AlwaysOn 가용성 그룹 인스턴스의 인스턴스 이름은 동일 해야 합니다. 
@@ -135,6 +141,8 @@ AlwaysOn 가용성 그룹 배포 단계는 [비즈니스용 Skype 서버의 백 
 
 비즈니스용 Skype 서버는 다음 데이터베이스 소프트웨어를 사용 하 여 SQL Server 장애 조치 (failover) 클러스터링을 지원 합니다.
   
+- SQL Server 2019 (Enterprise Edition 및 Standard Edition 모두)
+
 - SQL Server 2017 (Enterprise Edition 및 Standard Edition 모두)
 
 - SQL Server 2016 (Enterprise Edition 및 Standard Edition 모두)
@@ -143,13 +151,12 @@ AlwaysOn 가용성 그룹 배포 단계는 [비즈니스용 Skype 서버의 백 
     
 - SQL Server 2012 SP2 및 CU2 (Enterprise Edition 및 Standard Edition 모두 해당)
 
-SQL 장애 조치 (failover) 클러스터링을 사용 하려면 먼저 프런트 엔드 풀을 배포 하기 전에 SQL Server 클러스터를 설정 하 고 구성 해야 합니다. SQL Server 2012의 장애 조치 (failover) 클러스터링에 대 한 모범 사례 [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx)및 설정 지침은을 참조 하세요.
+SQL 장애 조치 (failover) 클러스터링을 사용 하려면 먼저 프런트 엔드 풀을 배포 하기 전에 SQL Server 클러스터를 설정 하 고 구성 해야 합니다. SQL Server 2012의 장애 조치 (failover) 클러스터링에 대 한 모범 사례 [https://technet.microsoft.com/library/hh231721.aspx](https://technet.microsoft.com/library/hh231721.aspx)및 설정 지침은을 참조 하세요.
 
 > [!NOTE]
-> SQL Server 2017 및 SQL Server 2016는 비즈니스용 Skype 서버 2019에서 지원 되는 유일한 버전입니다.
+> SQL Server 2019, 2017 및 SQL Server 2016는 비즈니스용 Skype 서버 2019에서 지원 되는 유일한 버전입니다.
     
-SQL 장애 조치 (failover) 클러스터링을 사용 하려면 먼저 프런트 엔드 풀을 배포 하기 전에 SQL Server 클러스터를 설정 하 고 구성 해야 합니다. SQL Server 2014 및 2016의 장애 조치 (failover) 클러스터링에 대 한 모범 사례 [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx)및 설정 지침은을 참조 하세요. SQL Server 2008의 장애 조치 (failover) [https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)클러스터링에 대 한 자세한 내용은을 참조 하세요.
+SQL 장애 조치 (failover) 클러스터링을 사용 하려면 먼저 프런트 엔드 풀을 배포 하기 전에 SQL Server 클러스터를 설정 하 고 구성 해야 합니다. SQL Server 2014 및 2016의 장애 조치 (failover) 클러스터링에 대 한 모범 사례 [https://technet.microsoft.com/library/hh231721.aspx](https://technet.microsoft.com/library/hh231721.aspx)및 설정 지침은을 참조 하세요. SQL Server 2008의 장애 조치 (failover) [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/library/ms189134%28v=sql.105%29.aspx)클러스터링에 대 한 자세한 내용은을 참조 하세요.
   
 SQL Server를 설치할 때 데이터베이스 및 로그 파일 위치의 위치를 관리 하려면 SQL Server Management Studio를 설치 해야 합니다. Sql server Management Studio는 SQL Server를 설치할 때 선택적 구성 요소로 설치 됩니다.
   
-

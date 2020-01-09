@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: '요약: 비즈니스용 Skype 서버에서 컨퍼런스 참가 및 알림을 관리 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 3d9a14e36dfe6b8df51e5ee91dd329ce34452cda
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5c2bc7175f99ee50e94bee26ef0e6d54a6a8db5a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189663"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991833"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 컨퍼런스 참가 및 공지 사항 관리
  
@@ -40,7 +40,7 @@ ms.locfileid: "36189663"
     
 3. 명령 프롬프트에서 다음을 실행 합니다.
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingConfiguration
    ```
 
@@ -48,7 +48,7 @@ ms.locfileid: "36189663"
     
 4. 명령 프롬프트에서 다음을 실행 합니다.
     
-   ```
+   ```PowerShell
    Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
    [-EnableNameRecording <$true | $false>]
    [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
@@ -57,7 +57,7 @@ ms.locfileid: "36189663"
 
 다음 예제에서는 사이트 범위에서 Redmond에 대 한 설정을 구성 합니다. 알림은 설정 되어 있지만 참가자가 회의에 참가할 때 이름을 말할 것인지 묻는 메시지가 표시 되지 않습니다. 참가자가 회의를 시작 하거나 종료할 때 신호음이 재생 됩니다.
   
-```
+```PowerShell
 Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EnableNameRecording $false
 -EntryExitAnnouncementsEnabledByDefault $true

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: 가져오기-모듈, 동시 셸, Live ID 및 사용 권한 오류를 포함 하 여 비즈니스용 Skype Online에 연결 하는 데 필요한 원격 PowerShell 세션을 만드는 문제를 해결 합니다.
-ms.openlocfilehash: dac4e2007853b489345f8ea137423cbd71363d56
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 863593c3068136f4b2332a55d8e0c293d2acc1d8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37642702"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991313"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>비즈니스용 Skype Online 커넥터를 사용 하 여 연결 문제 진단
 
@@ -51,7 +51,7 @@ ms.locfileid: "37642702"
     
 
 > [!IMPORTANT]
-> 기본적으로 PowerShell 세션은 60 분 후에 시간 초과 됩니다. 다시 연결 하려면 세션을 닫고 새 PowerShell 세션을 시작 해야 합니다. 새 버전의 비즈니스용 [Skype Online, Windows PowerShell 모듈 (2046.123-게시 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366)이 최근에 실행 되었으며,이는 60 분을 완화 하는 **Enable-CsOnlineSessionForReconnection** 이라는 새 cmdlet을 포함 하 고 있습니다. 시간 초과 문제.
+> 기본적으로 PowerShell 세션은 60 분 후에 시간 초과 됩니다. 다시 연결 하려면 세션을 닫고 새 PowerShell 세션을 시작 해야 합니다. 새 버전의 비즈니스용 [Skype Online, Windows PowerShell 모듈 (2046.123-게시 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366)은 최근에 실행 되었으며 60 분 시간 초과 문제를 완화 하는 **Enable-CsOnlineSessionForReconnection** 이라는 새 cmdlet이 포함 되어 있습니다.
 > PowerShell 세션은 다시 연결 하 고 인증 하며, 새 인스턴스를 다시 시작 하지 않고도 다시 사용할 수 있도록 합니다.
 
 
@@ -61,10 +61,10 @@ ms.locfileid: "37642702"
 
 PowerShell 실행 정책은 PowerShell 콘솔로 로드할 수 있는 구성 파일 및 해당 콘솔에서 실행할 수 있는 스크립트를 결정 하는 데 도움이 됩니다. 적어도 비즈니스용 Skype Online Connector 모듈은 실행 정책이 RemoteSigned로 설정 되지 않은 경우에만 가져올 수 있습니다. 그렇지 않은 경우 모듈을 가져오려고 할 때 다음과 같은 오류 메시지가 표시 됩니다.
   
-- **오류**: <em>가져오기-모듈: 파일 C:\\프로그램 파일\\공통 파일\\Microsoft Lync Server 2013\\모듈\\LyncOnlineConnector\\LyncOnlineConnectorStartup. psm1를 실행 하는 중에는 로드할 수 없습니다. 이 시스템에서 스크립트를 사용할 수 없습니다. 자세한 내용은 about_Execution_Policies를 참조 하세요 https://go.microsoft.com/fwlink/?LinkID=135170.</em>
+- **오류**: <em>가져오기-모듈: 파일 C:\\프로그램 파일\\공통 파일\\시스템에서 스크립트를\\실행\\하\\는 기능이 비활성화 되어 있으므로 Microsoft Lync Server 2013 모듈 LyncOnlineConnector LyncOnlineConnectorStartup을 로드할 수 없습니다. 자세한 내용은의 about_Execution_Policies를 참조 하세요 https://go.microsoft.com/fwlink/?LinkID=135170.</em>
 
 - **해결 방법** 이 문제를 해결 하려면 관리자로 PowerShell을 시작 하 고 다음 명령을 실행 합니다.
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
     실행 정책에 대 한 자세한 내용은 [실행 정책 정보](https://go.microsoft.com/fwlink/?LinkID=135170)를 참조 하세요.
@@ -93,11 +93,11 @@ PowerShell 실행 정책은 PowerShell 콘솔로 로드할 수 있는 구성 파
   - **오류**: *가져오기-cswebticket: live id 서버에 연결 하지 못했습니다. 프록시를 사용 하도록 설정 하거나 컴퓨터에 live id 서버에 대 한 네트워크 연결이 있는지 확인 합니다.*
 
 - **해결**:이 오류는 종종 Microsoft Online Services 로그인 도우미가 실행 되 고 있지 않음을 의미 합니다. PowerShell 프롬프트에서 다음 명령을 실행 하 여이 서비스의 상태를 확인할 수 있습니다. 
-    ```
+    ```PowerShell
     Get-Service "msoidsvc"
     ```
     서비스가 실행 되 고 있지 않은 경우에는 다음 명령을 사용 하 여 서비스를 시작 합니다.
-    ```
+    ```PowerShell
     Start-Service "msoidsvc"
     ```
 

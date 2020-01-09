@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: '요약: 비즈니스용 Skype 서버의 IP 전화 인벤토리 보고서에 대해 자세히 알아보세요.'
-ms.openlocfilehash: 8d7d7be6b5a677f3df33ebf2e0bb01f31b76eac9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 51d4a3a7cbd4bf856efa93ae04c25accc5415796
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197626"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992173"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 IP 전화 인벤토리 보고서
  
@@ -38,9 +38,9 @@ IP 전화 재고 보고서는 조직에서 현재 사용 중인 IP 전화에 대
   
 ## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>IP 전화 인벤토리 보고서를 최대한 활용 하기
 
-특정 종류의 휴대폰에 대 한 사용 현황 정보에 관심이 있는 경우 (예: "Polycom CX600 휴대폰을 사용 하는 사용자는 빈도") 해당 특정 유형의 휴대폰을 기준으로 필터링 하 여 해당 정보를 IP 전화 재고 보고서에서 직접 확인할 수 있습니다. 그러나 모든 휴대폰에 대 한 요약 정보를 원하는 경우 (Polycom CX600를 사용 하는 사용자 수), LG-Nortel IP8540 등을 사용 하는 경우, 데이터를 내보내고 다른 응용 프로그램 (예: Windows PowerShell)을 사용 하 여 해당 유형의 작업을 수행 해야 합니다. 분석. 예를 들어 데이터를 쉼표로 구분 된 값 파일 (C:\Data\IP_Phone_Inventory_Report.csv)로 내보내려고 한다고 가정 합니다. 이 경우 다음 두 명령을 사용 하 여 모든 휴대폰에 대 한 요약 데이터를 제공할 수 있습니다.
+특정 종류의 휴대폰에 대 한 사용 현황 정보에 관심이 있는 경우 (예: "Polycom CX600 휴대폰을 사용 하는 사용자는 빈도") 해당 특정 유형의 휴대폰을 기준으로 필터링 하 여 해당 정보를 IP 전화 재고 보고서에서 직접 확인할 수 있습니다. 그러나 모든 휴대폰에 대 한 요약 정보를 원하는 경우 (Polycom CX600를 사용 하는 사용자 수), LG-Nortel IP8540 등을 사용 하는 경우, 데이터를 내보내고 다른 응용 프로그램 (예: Windows PowerShell)을 사용 하 여 해당 유형의 작업을 수행 해야 합니다. 분석. 예를 들어, 데이터를 쉼표로 구분 된 값 파일 (C:\Data\ IP_Phone_Inventory_Report)로 내보내야 한다고 가정 합니다. 이 경우 다음 두 명령을 사용 하 여 모든 휴대폰에 대 한 요약 데이터를 제공할 수 있습니다.
   
-```
+```PowerShell
 $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
 $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
 ```
@@ -65,7 +65,7 @@ Count    Name
 
 마찬가지로,이 두 명령어는 시스템에 로그온 했지만 실제로는 전화를 거는 데 사용 되지 않은 것을 알려 줍니다 (마지막 활동 메트릭의 값이 비어 있는 경우 마지막 작업이 없음을 나타냄).
   
-```
+```PowerShell
 $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
 $phones | Where-Object {$_."Last activity" -eq ""}
 ```
@@ -113,13 +113,13 @@ Ip 휴대폰의 MAC 주소를 사용 하는 또 다른 흥미로운 방법은 MA
 
 |**이름**|**이 항목을 정렬할 수 있나요?**|**설명**|
 |:-----|:-----|:-----|
-|**제조업체** <br/> |'  <br/> |IP 전화기를 제조 하는 회사의 이름입니다.  <br/> |
-|**하드웨어 버전** <br/> |'  <br/> |IP 전화기의 버전 번호입니다.  <br/> |
-|**MAC 주소** <br/> |'  <br/> |IP 휴대폰의 네트워크 인터페이스에 대 한 고유 식별자입니다. MAC 주소는 일반적으로 휴대폰을 제조할 때 할당 되며 디바이스 하드웨어에 하드 연결 되어 있습니다.  <br/> |
-|**사용자 URI** <br/> |'  <br/> |IP 전화를 사용한 사용자의 SIP 주소입니다.  <br/> |
-|**사용자 에이전트** <br/> |'  <br/> |IP 휴대폰에서 사용 하는 소프트웨어의 식별자입니다.  <br/> |
-|**마지막 로그온 시간** <br/> |'  <br/> |IP 전화가 비즈니스용 Skype 서버에 마지막으로 로그온 한 날짜 및 시간입니다.  <br/> |
-|**마지막 로그 인 시간** <br/> |'  <br/> |IP 전화가 비즈니스용 Skype 서버에서 마지막으로 로그 오프 한 날짜 및 시간입니다.  <br/> |
-|**마지막 활동** <br/> |'  <br/> |IP 전화기를 마지막으로 사용한 날짜 및 시간입니다.  <br/> |
+|**제조업체** <br/> |예  <br/> |IP 전화기를 제조 하는 회사의 이름입니다.  <br/> |
+|**하드웨어 버전** <br/> |예  <br/> |IP 전화기의 버전 번호입니다.  <br/> |
+|**MAC 주소** <br/> |예  <br/> |IP 휴대폰의 네트워크 인터페이스에 대 한 고유 식별자입니다. MAC 주소는 일반적으로 휴대폰을 제조할 때 할당 되며 디바이스 하드웨어에 하드 연결 되어 있습니다.  <br/> |
+|**사용자 URI** <br/> |예  <br/> |IP 전화를 사용한 사용자의 SIP 주소입니다.  <br/> |
+|**사용자 에이전트** <br/> |예  <br/> |IP 휴대폰에서 사용 하는 소프트웨어의 식별자입니다.  <br/> |
+|**마지막 로그온 시간** <br/> |예  <br/> |IP 전화가 비즈니스용 Skype 서버에 마지막으로 로그온 한 날짜 및 시간입니다.  <br/> |
+|**마지막 로그 인 시간** <br/> |예  <br/> |IP 전화가 비즈니스용 Skype 서버에서 마지막으로 로그 오프 한 날짜 및 시간입니다.  <br/> |
+|**마지막 활동** <br/> |예  <br/> |IP 전화기를 마지막으로 사용한 날짜 및 시간입니다.  <br/> |
    
 

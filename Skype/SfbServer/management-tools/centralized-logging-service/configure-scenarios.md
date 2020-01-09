@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: '요약: 비즈니스용 Skype 서버 2015에서 중앙 집중화 된 로깅 서비스에 대 한 시나리오를 만들고, 수정 하 고, 제거 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 89aa0c37dfb13f7614067b64e37ee9c9fb376331
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9a6ce9a760255275c3ad265cdd6c58fa964f8e43
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186819"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991603"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>비즈니스용 Skype 2015에서 중앙 로깅 서비스에 대한 시나리오 구성
  
@@ -30,13 +30,13 @@ ms.locfileid: "36186819"
   
 비즈니스용 Skype Server Management Shell을 사용 하 여 중앙 로깅 서비스 기능을 실행 하려면 CsAdministrator 또는 CsServerAdministrator 역할 기반 액세스 제어 (RBAC) 보안 그룹 또는 사용자 지정 RBAC 역할의 구성원 이어야 합니다. 두 그룹 중 하나를 포함 합니다. 직접 만든 사용자 지정 RBAC 역할을 포함 하 여이 cmdlet에 할당 된 모든 RBAC 역할 목록을 반환 하려면 비즈니스용 Skype Server 관리 셸 또는 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
 예를 들면 다음과 같습니다.
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -63,19 +63,19 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
     정의 된 옵션을 사용 하 여 시나리오를 만들려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```PowerShell
    New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
    ```
 
     -Name 및-Parent를 사용 하는 대체 형식은 다음과 같습니다.
     
-   ```
+   ```PowerShell
    New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
    ```
 
@@ -85,7 +85,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 범위 당 두 개의 시나리오로 제한 됩니다. 그러나 설정 된 공급자 수로 제한 되지 않습니다. 이 예제에서는 세 개의 공급자를 만들었고이 세 가지를 정의 하는 시나리오에 모두 할당 하려고 한다고 가정 합니다. 공급자 변수 이름은 LyssProvider, ABServerProvider, SIPStackProvider입니다. 시나리오에 여러 공급자를 정의 하 고 할당 하려면 비즈니스용 Skype 서버 관리 셸 또는 Windows PowerShell 명령 프롬프트에서 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
    ```
 
@@ -98,31 +98,31 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 범위 당 두 개의 시나리오로 제한 됩니다. 로깅 캡처 세션이 진행 중인 경우에도 언제 든 지 실행 되는 시나리오를 변경할 수 있습니다. 실행 중인 시나리오를 재정의 하는 경우 현재 로깅 세션은 제거 된 시나리오 사용을 중지 하 고 새 시나리오 사용을 시작 합니다. 그러나 제거 된 시나리오를 사용 하 여 캡처한 로깅 정보는 캡처한 로그에 남아 있습니다. 새 시나리오를 정의 하려면 다음을 수행 합니다 (즉, "S4Provider" 이라는 이미 정의 된 공급자가 추가 된 경우).
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}
    ```
 
     공급자를 바꾸려면 단일 공급자나 쉼표로 구분 된 공급자 목록을 정의 하 여 현재 집합을 바꿉니다. 여러 공급자 중 하나만 바꾸려면 새 공급자와 현재 공급자를 추가 하 여 새 공급자 및 기존 공급자를 모두 포함 하는 새 공급자 집합을 만듭니다. 모든 공급자를 새 집합으로 바꾸려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Replace=<providers to replace existing provider set>}
    ```
 
     예를 들어 현재 $LyssProvider 집합, $ABServerProvider 및 $SIPStackProvider을 $LyssServiceProvider로 바꾸려면 다음을 실행 합니다.
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider}
    ```
 
     현재 $LyssProvider 집합에서 $LyssProvider 공급자로, $ABServerProvider, $LyssServiceProvider으로 $SIPStackProvider를 바꾸려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider, $ABServerProvider, $SIPStackProvider}
    ```
 
@@ -132,13 +132,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 이전에 정의한 시나리오를 제거 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Remove-CsClsScenario -Identity <name of scope and scenario>
    ```
 
     예를 들어 정의 된 시나리오 사이트를 제거 하려면: Redmond/LyssServiceScenario:
     
-   ```
+   ```PowerShell
    Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
    ```
 
@@ -152,7 +152,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 2. Windows PowerShell에서 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Import-Module "CDBurn\OCO\amd64\Support"
    ```
 
@@ -161,7 +161,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 3. 모듈을 언로드하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Remove-Module ClsController
    ```
 
@@ -174,7 +174,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. Windows PowerShell에서 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Import-Module "CDBurn\OCO\amd64\Support"
    ```
 
@@ -183,19 +183,19 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 3. AlwaysOn 시나리오에서 공급자를 제거 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to remove> -Remove
    ```
 
    예를 들어:
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Remove
    ```
 
    ScenarioName 및 ProviderName 매개 변수는 위치 (즉, 명령줄의 예상 위치에서 정의 되어야 함) 매개 변수입니다. 시나리오 이름이 두 위치에 있고 공급자가 cmdlet의 이름을 위치 1로 기준으로 하는 3 위치에 있는 경우 매개 변수 이름을 명시적으로 정의할 필요가 없습니다. 이 정보를 사용 하 여 이전 명령은 다음과 같이 입력 합니다.
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario AlwaysOn ChatServer -Remove
    ```
 
@@ -207,20 +207,20 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. AlwaysOn 시나리오에 공급자를 추가 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to add> -Level <string of type level> -Flags <string of type flags>
    ```
 
     예를 들어:
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
    ```
 
-    -Loglevel은 치명적, 오류, 경고, 정보, 자세한 정보 표시, 디버그 또는 모두 유형이 될 수 있습니다. -Flags는 공급자가 지 원하는 모든 플래그 (예: TF_COMPONENT, TF_DIAG) 일 수 있습니다. -Flags는 모두 값 일 수 있습니다.
+    -Loglevel은 치명적, 오류, 경고, 정보, 자세한 정보 표시, 디버그 또는 모두 유형이 될 수 있습니다. -Flags는 공급자가 지 원하는 플래그 (예: TF_COMPONENT TF_DIAG) 일 수 있습니다. -Flags는 모두 값 일 수 있습니다.
     
    앞의 예제는 cmdlet의 위치 기능을 사용 하 여 입력할 수도 있습니다. 예를 들어, AlwaysOn 시나리오에 공급자 이름 서버를 추가 하려면 다음을 입력 합니다.
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
    ```
