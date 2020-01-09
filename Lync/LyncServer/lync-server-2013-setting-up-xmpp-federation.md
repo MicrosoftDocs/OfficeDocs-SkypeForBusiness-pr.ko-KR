@@ -10,12 +10,12 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cda79f7b80d6f1bbdf2163ecf987f4a05949bfc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bad6bf4e2b09296e21aec75e206ba867415754a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984387"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992053"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -109,11 +109,11 @@ Edge 서버에서 XMPP 프록시를 배포 하려면 XMPP 페더레이션에 대
 
 22. 공개 인증서를 받고, 가져오고, 할당 한 후에는 Edge 서버 서비스를 중지 하 고 다시 시작 해야 합니다. Lync Server 관리 콘솔에서 입력 하 여 다음을 수행 합니다.
     
-       ```
+       ```PowerShell
         Stop-CsWindowsService
        ```
     
-       ```
+       ```PowerShell
         Start-CsWindowsService
        ```
 
@@ -130,35 +130,35 @@ Edge 서버에서 XMPP 프록시를 배포 하려면 XMPP 페더레이션에 대
 
 24. 프런트 엔드에서 Lync Server Management Shell을 열고 입력 하 여 모든 사용자를 사용할 수 있도록 하는 새 외부 액세스 정책을 구성 합니다.
     
-       ```
+       ```PowerShell
         New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
        ```
     
-       ```
+       ```PowerShell
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
        ```
     
-       ```
+       ```PowerShell
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
        ```
     
     다음과 같이 입력 하 여 외부 사용자에 대해 XMPP 액세스를 사용 하도록 설정 합니다.
     
-       ```
+       ```PowerShell
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
        ```
     
-       ```
+       ```PowerShell
         Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
        ```
 
 25. XMPP 프록시가 배포 되는 Edge 서버에서 명령 프롬프트 또는 Windows PowerShell™ 명령줄 인터페이스를 열고 다음을 입력 합니다.
     
-       ```
+       ```PowerShell
         Netstat -ano | findstr 5269
        ```
     
-       ```
+       ```PowerShell
         Netstat -ano | findstr 23456
        ```
     

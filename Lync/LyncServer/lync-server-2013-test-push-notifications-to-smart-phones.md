@@ -10,12 +10,12 @@ ms:contentKeyID: 63969626
 ms.date: 03/15/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a0d58c79fcd66229ffda43fa60ab99cedc308ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 653becc1cc22abc8b3c04e0ab3d2a2d1260a98d9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982938"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992083"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -150,7 +150,7 @@ URI가 올바르게 구성 되어 있는 경우 다음 단계는 SIP 도메인 �
 
 "푸시 알림 요청이 거부 되었습니다." 메시지는 일반적으로 URL 필터링을 사용 하도록 설정 하 고 http: 및 https: 접두사를 차단 하는 경우에 발생 합니다. 다음과 같은 명령을 사용 하 여 차단 되는 접두 번호를 확인할 수 있습니다.
 
-``` 
+```PowerShell 
  (Get-CsImFilterConfiguration -Identity Global).Prefixes
 ```
 

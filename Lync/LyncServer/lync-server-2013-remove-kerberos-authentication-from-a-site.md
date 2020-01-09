@@ -10,12 +10,12 @@ ms:contentKeyID: 48184806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f030083bc49822f1d41e297388f6ca7dbf66d397
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 372c8d4689a2c594c853819ced6ccb92adfa6944
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984559"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992705"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,21 +59,21 @@ _**마지막으로 수정한 주제:** 2012-01-16_
 
 3.  명령줄에서 다음 두 명령을 실행 합니다.
     
-       ```
+       ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
        ```
     
-       ```
+       ```PowerShell
         Enable-CsTopology
        ```
     
     예를 들면 다음과 같습니다.
     
-       ```
+       ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
        ```
     
-       ```
+       ```PowerShell
         Enable-CsTopology
        ```
     

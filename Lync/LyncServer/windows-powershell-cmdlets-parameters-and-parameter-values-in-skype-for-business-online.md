@@ -10,12 +10,12 @@ ms:contentKeyID: 56558799
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce954eff790bae6974f144360637d6061318d3d3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9e9582941b05a4151be5baa2ce74acfc79b3db3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980263"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992575"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -128,7 +128,7 @@ Windows PowerShell은 다른 용어를 사용 하지만, Windows PowerShell을 �
     
     이는 매개 변수가 대시로 앞에 있어야 하는 것이 아니라 앞에 슬래시 (/)를 사용 하 여 인수가 앞에 나오는 명령 창과 다르기 때문에 유용 하 게 사용할 수 있습니다.
     
-    ``` 
+    ```console 
     /b
     ```
 

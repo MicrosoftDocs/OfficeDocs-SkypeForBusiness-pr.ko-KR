@@ -10,12 +10,12 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de2205ad049beb05f30dd58795257b62eca68d46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 29b9803fdb6c4a048fdf072b5ba2e5722b863640
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984422"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992103"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -141,11 +141,11 @@ Lync Server 2013, Standard Edition 또는 풀의 첫 번째 프런트 엔드 서
 
 Windows Server 2008 R2 SP1 x64 운영 체제에서 Windows PowerShell 2.0을 사용할 수 있습니다. 먼저 ServerManager 모듈을 가져온 다음 IIS 7.5 역할 및 역할 서비스를 설치 해야 합니다.
 
-   ```
+   ```PowerShell
     Import-Module ServerManager
    ```
 
-   ```
+   ```PowerShell
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
    ```
 
@@ -343,11 +343,11 @@ Windows Server 2008 R2 SP1 x64 운영 체제에서 Windows PowerShell 2.0을 사
 
 Windows Server 2012 및 Windows Server 2012 R2에서 Windows PowerShell 3.0을 사용 하 여 IIS 요구 사항을 설치할 수 있습니다. Windows PowerShell 3.0에서 ServerManager 모듈을 사용 하 여 다음을 입력 합니다.
 
-   ```
+   ```PowerShell
     Import-Module ServerManager
    ```
 
-   ```
+   ```PowerShell
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
    ```
 

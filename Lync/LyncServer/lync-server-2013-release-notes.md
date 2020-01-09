@@ -10,12 +10,12 @@ ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a93fabf10355dcc4ba7873921c0aaf35475927c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf5eadb591b7e198ee75ff197b3836673ae0ecc3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976661"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992385"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -123,11 +123,11 @@ IPv4에서 듀얼 스택으로 변경 하는 것과 같이 Lync Server 2013 배�
 
 이 문제를 해결 하려면 배포에 대 한 IP 주소 구성을 변경한 후 Lync Server 서비스를 다시 시작 합니다. 이렇게 하려면 Lync Server 관리 셸에서 다음 cmdlet을 실행 합니다.
 
-   ```
+   ```PowerShell
     Stop-CsWindowsService -graceful
    ```
 
-   ```
+   ```PowerShell
     Start-CsWindowsService
    ```
 
@@ -449,11 +449,11 @@ HH: MM: SS의 시간 형식으로 패브릭 추적을 만들기 때문에 Window
 
 1.  Windows PowerShell을 시작 하 고 다음 cmdlet을 실행 합니다.
     
-       ```
+       ```PowerShell
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
        ```
     
-       ```
+       ```PowerShell
         $a="HKU:\.Default\Control Panel\International"
        ```
 

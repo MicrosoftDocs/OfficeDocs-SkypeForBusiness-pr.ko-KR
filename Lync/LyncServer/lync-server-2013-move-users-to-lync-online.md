@@ -10,12 +10,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 410fd1fe521bd8d4750b290a54db26adb630a8be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6172c526816a3572d6c364b714d5d4e7e5323cac
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980260"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991373"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,11 +53,11 @@ Lync Online으로 사용자 마이그레이션을 시작 하기 전에 이동할
 
 온-프레미스 사용자를 Lync Online 테 넌 트로 이동 하려면 Microsoft Office 365 테 넌 트에 대 한 관리자 자격 증명을 사용 하 여 Lync Server 관리 셸에서 다음 cmdlet을 실행 합니다. "Username@contoso.com"를 이동 하려는 사용자의 정보로 바꿉니다.
 
-   ```
+   ```PowerShell
     $creds=Get-Credential
    ```
 
-   ```
+   ```PowerShell
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 

@@ -10,12 +10,12 @@ ms:contentKeyID: 62258123
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e278fcb1e63c1db1334e625765d65d5d556e934
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ac0377c12cbda0d6080ecfe9b8e64fae08cbed59
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976275"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989133"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,19 +45,19 @@ Lync Online 사용자를 온-프레미스 환경으로 이동 하기 전에 다�
     
     모듈을 설치한 후 Lync Server 관리 셸에 다음 cmdlet을 입력 하 여 원격 세션을 설정할 수 있습니다.
     
-       ```
+       ```PowerShell
         Import-Module LyncOnlineConnector
        ```  
     
-       ```
+       ```PowerShell
         $cred = Get-Credential
        ``` 
     
-       ```
+       ```PowerShell
         $CSSession = New-CsOnlineSession -Credential $cred
        ```
     
-       ```
+       ```PowerShell
         Import-PSSession $CSSession -AllowClobber
        ```
     

@@ -10,12 +10,12 @@ ms:contentKeyID: 48184816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c1f5693a14084627d20ae66fa6ec85f6b6c6c6f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6cd8c09346c8f5b562a72e77b9ba40915b480c91
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981621"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991383"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,11 +43,11 @@ Lync Server를 배포 하는 도메인의 모든 컴퓨터에서 도메인 준�
 
 조직에서 세 가지 기본 제공 컨테이너 (즉, 사용자, 컴퓨터 및 도메인 컨트롤러) 대신 OU (조직 구성 단위)를 사용 하는 경우 인증 된 사용자 그룹의 Ou에 대 한 읽기 권한을 부여 해야 합니다. 도메인 준비에는 컨테이너에 대 한 읽기 권한이 필요 합니다. 인증 된 사용자 그룹에 OU에 대 한 읽기 권한이 없는 경우 다음 코드 예제에 나와 있는 것 처럼 **Grant-CsOuPermission** cmdlet을 실행 하 여 각 OU에 대 한 읽기 권한을 부여 합니다.
 
-   ```
+   ```PowerShell
     Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
    ```
 
-   ```
+   ```PowerShell
     Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
    ```
 
