@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karuanag
+ms.reviewer: ''
 description: Microsoft Teams에 적용되는 제한 사항, 사양 및 기타 요구 사항에 대해 알아보세요.
 localization_priority: Priority
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa6fad448f0251a44d31c5277b43390daeb3441c
-ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
+ms.openlocfilehash: d89c2238e1956c4e51cbef72ce89347cec98a9e4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40823913"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990123"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
