@@ -290,7 +290,7 @@
 
 
 ## 전화 번호
-### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)(조직의 전화 번호 관리)
+### [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ### [통화 플랜에 사용된 전화 번호 유형](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 ### [사용자의 전화 번호 가져오기](getting-phone-numbers-for-your-users.md)
 ### [몇 개의 전화 번호를 받을 수 있나요?](how-many-phone-numbers-can-you-get.md)
