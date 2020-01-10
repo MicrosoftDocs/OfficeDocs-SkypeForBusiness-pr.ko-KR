@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: Get-CcSiteDirectory cmdlet은 사이트 수준 구성 파일이 저장 되는 현재 디렉터리를 표시 합니다. 폴더에는 기본 VHD 및 비즈니스용 Skype 클라우드 커넥터 에디션 설치 파일이 포함 되어 있습니다. 이 폴더는 클라우드 커넥터 사이트의 다른 모든 기기와 공유 되어야 합니다.
-ms.openlocfilehash: e0b8a793f0210535a726b0bed19f240bf8b30dd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 095776a680fbbcc8c43a8f99700b357175010b5a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190776"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003368"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
@@ -24,7 +24,7 @@ Get-CcSiteDirectory cmdlet은 사이트 수준 구성 파일이 저장 되는 �
   
 이 cmdlet은 클라우드 커넥터 에디션 1.4.1, 1.4.2에 적용 됩니다.
   
-```
+```powershell
 Get-CcSiteDirectory
 ```
 
@@ -39,7 +39,7 @@ Get-CcSiteDirectory
 
 다음 예제에서는 클라우드 커넥터 구성 요소의 구성 및 가상 컴퓨터 파일이 저장 되는 현재 폴더를 보여 줍니다.
   
-```
+```powershell
 Get-CcSiteDirectory
 ```
 
@@ -61,6 +61,6 @@ Get-CcSiteDirectory
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[집합-CcSiteDirectory](set-ccsitedirectory.md)
+[Set-CcSiteDirectory](set-ccsitedirectory.md)
   
 

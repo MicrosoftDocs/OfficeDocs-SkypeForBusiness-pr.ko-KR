@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: '요약: 비즈니스용 skype 서버 관리 셸을 사용 하 여 비즈니스용 Skype 서버에서 음성 메일 esc를 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: c9a858ead9261944c162cb10fda63840f8de86d3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 27f283f4bfb64aa950bd9e72a9d6fdc17df91ba0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233793"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001218"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>비즈니스용 Skype에서 음성 메일 esc 구성
 
@@ -41,7 +41,7 @@ ms.locfileid: "36233793"
 
 ## <a name="example"></a>예
 
-```
+```powershell
 Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
 Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
 ```

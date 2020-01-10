@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: 비즈니스용 Skype Server Enterprise Voice에서 통화 허용 제어 기능을 사용 하도록 설정 합니다.
-ms.openlocfilehash: a1a2259c754af0275e473e6c0d175039450cecf7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e88c0e87f9c920420ce2091ac2d75d04db6ca98f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240683"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002568"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 허용 제어 사용
  
@@ -33,13 +33,13 @@ ms.locfileid: "36240683"
     
 2. Set-csnetworkconfiguration cmdlet을 실행 하 여 네트워크에서 CAC를 사용 하도록 설정 합니다. 예를 들어 다음을 실행합니다.
     
-   ```
+   ```powershell
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 1
    ```
 
     네트워크에서 CAC를 사용 하지 않도록 설정 하려면 다음을 실행 합니다.
     
-   ```
+   ```powershell
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 

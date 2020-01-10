@@ -21,12 +21,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 클라우드 자동 전화 교환 방법과 사용 방법에 대해 알아봅니다.
-ms.openlocfilehash: d326b707ff94d9d30e26f6da31f12588b083872e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e9d6da8a73333218990611bd287a852683d52f9c
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37924889"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41004773"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>클라우드 자동 전화 교환 이란?
 
@@ -45,6 +45,7 @@ Office 365에서 전화 시스템용 자동 전화 교환을 설정 하려면 [�
 - 프롬프트에 대 한 여러 언어, 텍스트 음성 변환 및 음성 인식을 지원 합니다.
 - 휴일 및 업무 시간 지정을 지원 합니다.
 - 운영자, 다른 사용자, 통화 대기열, 자동 전화 교환 등으로의 통화 전송을 지원 합니다.
+- 호출자가 조직에 대 한 메시지를 남길 수 있도록 공유 보이스 메일을 지원 합니다.
 
 > [!NOTE]
 > 이 문서는 Microsoft 팀과 비즈니스용 Skype Online에 모두 적용 됩니다.
@@ -74,9 +75,9 @@ Office 365에서 전화 시스템용 자동 전화 교환을 설정 하려면 [�
 
 ### <a name="searching-for-users"></a>사용자 검색
 
-이름으로 전화 걸기는 디렉터리 검색이 라고도 하는 자동 전화 교환의 기능입니다. 자동 전화 교환 기능을 통해 음성 (음성 인식) 또는 해당 휴대폰 키패드 (DTMF) 응답을 사용 하 여 회사 디렉터리를 검색 하는 전체 또는 일부 이름을 입력 하면 해당 사용자를 찾은 다음 통화가 전달 됩니다. 전화를 걸고 받을 사용자에 게 **전화 번호를 사용 하거나 통화 요금제를 할당 하지 않아도 되지만, 온라인 사용자 인 경우에는 전화 시스템 라이선스가 필요 하지 않지만 비즈니스용 Skype Server에 대해 Enterprise Voice을 사용할 수 있도록 설정 되어 있어야 합니다. 사용자**. 이름으로 전화 걸기는 여러 국가의 조직에 대해 다른 국가 또는 지역에서 호스팅되는 Microsoft 팀 사용자에 게 전화를 걸고 양도할 수도 있습니다. 관련 된 필수 구성 요소를 사용 하는 경우 자동 전화 교환에서 이름으로 전화 걸기를 명시적으로 설정 합니다.
+이름으로 전화 걸기는 디렉터리 검색이 라고도 하는 자동 전화 교환의 기능입니다. 자동 전화 교환 기능을 통해 음성 (음성 인식) 또는 해당 휴대폰 키패드 (DTMF) 응답을 사용 하 여 회사 디렉터리를 검색 하는 전체 또는 일부 이름을 입력 하면 해당 사용자를 찾은 다음 통화가 전달 됩니다. 전화를 걸고 받을 사용자는 전화 번호를 사용 하거나 통화 **요금제를 할당 하지 않아도 되지만, 온라인 사용자 인 경우에는 전화 시스템 라이선스가 필요 하지만, 비즈니스용 Skype 서버 사용자에 게는 Enterprise Voice가 설정 되어 있어야 합니다**. 이름으로 전화 걸기는 여러 국가의 조직에 대해 다른 국가 또는 지역에서 호스팅되는 Microsoft 팀 사용자에 게 전화를 걸고 양도할 수도 있습니다. 관련 된 필수 구성 요소를 사용 하는 경우 자동 전화 교환에서 이름으로 전화 걸기를 명시적으로 설정 합니다.
 
-내선 번호 걸기는 디렉터리 검색의 일부 이기도 한 자동 전화 교환의 기능입니다. 자동 전화 교환 프로그램을 통해 음성 (음성 인식) 또는 해당 전화기 키패드 (DTMF) 응답을 사용 하 여 연결 하려는 사용자의 휴대폰 내선 번호를 입력 하 고 해당 통화를 전달 받을 수 있습니다. 내선 번호로 전화를 걸고 연결할 사용자에 게 **는 전화 번호를 사용 하는 것이 필요 하지 않거나 통화 요금제가 할당 되어 있지 않지만 온라인 사용자 인 경우 전화 시스템 라이선스가 있어야 하지만 비즈니스용 Skype에 대해 Enterprise Voice을 사용할 수 있습니다. 서버 사용자**. 또한 사용자를 위해 적절 하 게 구성 된 다이얼 플랜이 있어야 합니다. 내선 번호로 전화를 걸려면 다양 한 국가 또는 지역에서 호스팅되는 Microsoft 팀 사용자에 게 전화를 걸고 양도할 수 있습니다. 관련 된 필수 구성 요소를 사용 하 여 자동 전화 교환에서 내선 번호 걸기를 명시적으로 설정 합니다.
+내선 번호 걸기는 디렉터리 검색의 일부 이기도 한 자동 전화 교환의 기능입니다. 자동 전화 교환 프로그램을 통해 음성 (음성 인식) 또는 해당 전화기 키패드 (DTMF) 응답을 사용 하 여 연결 하려는 사용자의 휴대폰 내선 번호를 입력 하 고 해당 통화를 전달 받을 수 있습니다. 내선 번호로 전화를 걸고 도달 하려는 사용자는 **전화 번호를 사용 하거나 통화 요금제를 할당 하지 않아도 되지만, 온라인 사용자 인 경우에는 전화 시스템 라이선스가 필요 하지만 비즈니스용 Skype 서버 사용자에 게는 Enterprise Voice가 설정 되어 있어야 합니다**. 또한 사용자를 위해 적절 하 게 구성 된 다이얼 플랜이 있어야 합니다. 내선 번호로 전화를 걸려면 다양 한 국가 또는 지역에서 호스팅되는 Microsoft 팀 사용자에 게 전화를 걸고 양도할 수 있습니다. 관련 된 필수 구성 요소를 사용 하 여 자동 전화 교환에서 내선 번호 걸기를 명시적으로 설정 합니다.
 
 #### <a name="maximum-directory-size"></a>최대 디렉터리 크기
 
@@ -239,8 +240,8 @@ Office 365에서 전화 시스템용 자동 전화 교환을 설정 하려면 [�
 
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](here-s-what-you-get-with-phone-system.md)
 
-[비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 
-[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [소규모 기업 예제 - 자동 전화 교환 설정](/microsoftteams/tutorial-org-aa)

@@ -1,5 +1,5 @@
 ---
-title: CcAppliance 등록 취소
+title: Unregister-CcAppliance
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: 비 CcAppliance cmdlet은 온라인 테 넌 트 구성의 PSTN 사이트에서 현재 비즈니스용 Skype 클라우드 커넥터 에디션 기기의 등록을 취소 합니다.
-ms.openlocfilehash: fafe374371cd01b2ec7c67ade89dd2a905e16d18
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2bd8f3a3ef4ac2b29ab9e7d766836d7a3555c0f4
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190587"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003138"
 ---
-# <a name="unregister-ccappliance"></a>CcAppliance 등록 취소
+# <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
 비 CcAppliance cmdlet은 온라인 테 넌 트 구성의 PSTN 사이트에서 현재 비즈니스용 Skype 클라우드 커넥터 에디션 기기의 등록을 취소 합니다.
   
-```
+```powershell
 Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 ```
 
@@ -33,7 +33,7 @@ Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Loca
 
 다음 예에서는 온라인 테 넌 트 구성에서 현재 기기의 등록을 취소 합니다.
   
-```
+```powershell
 Unregister-CcAppliance
 ```
 
@@ -41,7 +41,7 @@ Unregister-CcAppliance
 
 다음 예제에서는 온라인 테 넌 트 구성에 연결 하지 않고 로컬로 등록 취소 하는 구성을 확인 합니다.
   
-```
+```powershell
 Unregister-CcAppliance -Local
 ```
 
@@ -49,7 +49,7 @@ Unregister-CcAppliance -Local
 
 다음 예제에서는 "Appliance1" 라는 이름으로 현재 기기를 "Site1" PSTN 사이트로 등록 취소 합니다.
   
-```
+```powershell
 Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ```
 
@@ -82,12 +82,12 @@ CcAppliance cmdlet과 유사 하 게, CloudConnector .ini 파일의 Edge 서버 
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[등록-CcAppliance](register-ccappliance.md)
+[Register-CcAppliance](register-ccappliance.md)
   
-[설치-CcAppliance](install-ccappliance.md)
+[Install-CcAppliance](install-ccappliance.md)
   
-[제거-CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
-[게시-CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 비즈니스용 Skype 서버에서 네트워크 지역, 네트워크 사이트 및 네트워크 서브넷 연결을 만들거나 수정 합니다. 이러한 모든 기능은 고급 엔터프라이즈 음성 기능 (미디어 바이패스, 통화 허용 제어 및 위치 기반 라우팅)에 사용 됩니다.
-ms.openlocfilehash: 237720373c78bcb4a3cb3ad0aed376f2dc136a71
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 90410338d13ae8109e4a090bade739add32846b6
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245770"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001938"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>비즈니스용 Skype에서 네트워크 지역, 사이트 및 서브넷 배포
 
@@ -45,13 +45,13 @@ ms.locfileid: "36245770"
 
 2. 새-CsNetworkRegion cmdlet을 실행 하 여 네트워크 지역을 만듭니다.
 
-   ```
+   ```powershell
    New-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
     예를 들면 다음과 같습니다.
 
-   ```
+   ```powershell
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
    ```
 
@@ -85,13 +85,13 @@ ms.locfileid: "36245770"
 
 2. 집합-CsNetworkRegion cmdlet을 실행 하 여 기존 네트워크 지역을 수정 합니다.
 
-   ```
+   ```powershell
    Set-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
     예를 들면 다음과 같습니다.
 
-   ```
+   ```powershell
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
    ```
 
@@ -127,13 +127,13 @@ ms.locfileid: "36245770"
 
 2. 새-CsNetworkSite cmdlet을 실행 하 여 네트워크 사이트를 만듭니다.
 
-   ```
+   ```powershell
    New-CsNetworkSite -NetworkSiteID <string>
    ```
 
     예를 들면 다음과 같습니다.
 
-   ```
+   ```powershell
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
    ```
 
@@ -180,13 +180,13 @@ ms.locfileid: "36245770"
 
 2. 집합-CsNetworkSite cmdlet을 실행 하 여 네트워크 사이트를 수정 합니다.
 
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity <string>
    ```
 
     예를 들면 다음과 같습니다.
 
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
    ```
 
@@ -228,13 +228,13 @@ ms.locfileid: "36245770"
 
 2. **새-CsNetworkSubnet** cmdlet을 실행 하 여 서브넷을 네트워크 사이트와 연결 합니다.
 
-   ```
+   ```powershell
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
    ```
 
     예를 들면 다음과 같습니다.
 
-   ```
+   ```powershell
    New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
    ```
 
@@ -260,7 +260,7 @@ ms.locfileid: "36245770"
 
 3. 다음 cmdlet을 실행 하 여 **서브넷 .csv**를 가져온 다음 Lync Server 관리 저장소에 해당 콘텐츠를 저장 합니다.
 
-   ```
+   ```powershell
    import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 

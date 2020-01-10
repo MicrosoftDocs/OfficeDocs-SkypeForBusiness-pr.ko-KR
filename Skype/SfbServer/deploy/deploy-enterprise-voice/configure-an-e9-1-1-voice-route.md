@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: 비즈니스용 Skype Server Enterprise Voice에서 E9 구성-1 ~ 1 개의 음성 경로
-ms.openlocfilehash: a8121cc7a7345150e485dc2e2b81e062672f5703
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c835aa2ab2b20f7877aa6a0deeb70c7459bcd8cc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233943"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001398"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 E9-1-1 음성 경로 구성
  
@@ -40,7 +40,7 @@ E9-1-1을 배포 하려면 먼저 긴급 통화 음성 경로를 구성 해야 �
     
     이 이름은 위치 정책의 **PSTN** 설정에 사용 하는 이름과 같아야 합니다. 배포에 여러 개의 전화 사용 레코드가 있지만, 다음 예에서는 사용 가능한 PSTN 사용량의 현재 목록에 "비상 사용량"을 추가 합니다. 자세한 내용은 [비즈니스용 Skype에서 음성 정책, PSTN 사용 레코드 및 음성 경로 구성을](voice-and-pstn.md)참조 하세요.
     
-   ```
+   ```powershell
    Set-CsPstnUsage -Usage @{add='EmergencyUsage'}
    ```
 
@@ -48,7 +48,7 @@ E9-1-1을 배포 하려면 먼저 긴급 통화 음성 경로를 구성 해야 �
     
     번호 패턴은 위치 정책의 **긴급 전화 걸기 문자열** 설정에 사용 되는 번호 패턴을 동일 하 게 입력 해야 합니다. 비즈니스용 Skype가 긴급 통화에 "+"를 추가 하기 때문에 "+" 기호가 필요 합니다. "Co1-pstngateway-1"은 E9-1-1 서비스 공급자의 SIP 트렁크 서비스 ID 이거나 게이트웨이 서비스 ID의 ELIN입니다. 다음 예에서는 "EmergencyRoute"를 음성 경로의 이름으로 사용 합니다.
     
-   ```
+   ```powershell
    New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
    ```
 
@@ -56,7 +56,7 @@ E9-1-1을 배포 하려면 먼저 긴급 통화 음성 경로를 구성 해야 �
     
     다음 예제에서는 사용자가 음성 정책에 "로컬"을 사용 하는 것으로 가정 합니다.
     
-   ```
+   ```powershell
    New-CsVoiceRoute -Name "LocalEmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="Local"} -PstnGatewayList @{add="co1-pstngateway-2"}
    ```
 

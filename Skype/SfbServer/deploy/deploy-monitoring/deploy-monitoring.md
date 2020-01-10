@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: '요약: 비즈니스용 Skype 서버에서 모니터링을 배포 하는 방법에 대해 알아보세요.'
-ms.openlocfilehash: 1eedcaaa30ecf464a5238e274e14de6770858290
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f3bd96b814b45b625612aae9b56a706dfff470f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239954"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001150"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모니터링 배포
 
@@ -67,7 +67,7 @@ ms.locfileid: "36239954"
 
 데이터 수집을 시작 하려면 CDR 및/또는 체감 품질 모니터링을 사용 하도록 설정 해야 합니다. (CDR 및 체감 품질 모니터링을 모두 사용 해야 하는 것은 아니지만, 원한다 면 다른 종류의 모니터링을 사용할 수 없게 되는 동안에는 한 가지 유형의 모니터를 사용할 수도 있습니다.) 전역 범위에서 CDR 모니터링을 사용 하도록 설정 하려면 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 실행 합니다.
 
-```
+```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 ```
 
@@ -81,7 +81,7 @@ Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 
 전역 범위에서 체감 품질 모니터링을 사용 하도록 설정 하려면 비즈니스용 Skype Server Management Shell 내에서 다음 명령을 실행 합니다.
 
-```
+```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 ```
 

@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: '요약: Exchange Server 및 비즈니스용 Skype 서버에서 보관 한 데이터를 검색 하도록 SharePoint Server를 구성 합니다.'
-ms.openlocfilehash: ef8fde621eddfb83972f6cdd540336c9380c7cd7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d896d6acecd808e5b153e931b8c4b3a8ba62ed9a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244144"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003578"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>보관된 비즈니스용 Skype 데이터를 검색하도록 SharePoint Server 구성
  
 **요약:** SharePoint Server에서 Exchange Server 2016 또는 Exchange Server 2013 및 비즈니스용 Skype 서버에서 보관 한 데이터를 검색 하도록 구성 합니다.
   
-비즈니스용 Skype Server 대신 Exchange Server에 인스턴트 메시징 및 웹 회의 기록 저장을 하는 주요 이점 중 하나는 같은 위치에 데이터를 저장 하면 관리자가 단일 도구를 사용 하 여 보관 된 Exchange 데이터를 검색할 수 있다는 것입니다. 비즈니스용 Skype 서버 데이터를 보관 합니다. 모든 데이터가 같은 위치에 저장 되므로 (Exchange) 보관 된 Exchange 데이터를 검색할 수 있는 모든 도구가 비즈니스용 Skype 서버 데이터를 검색할 수도 있습니다.
+비즈니스용 Skype Server 대신 Exchange Server에 인스턴트 메시지 및 웹 회의 성적 증명서를 저장 하는 주요 이점 중 하나는 같은 위치에 데이터를 저장 하면 관리자가 단일 도구를 사용 하 여 보관 된 Exchange 데이터를 검색 하 고 비즈니스용 Skype 서버 데이터를 보관할 수 있다는 것입니다. 모든 데이터가 같은 위치에 저장 되므로 (Exchange) 보관 된 Exchange 데이터를 검색할 수 있는 모든 도구가 비즈니스용 Skype 서버 데이터를 검색할 수도 있습니다.
   
 보관 된 데이터를 쉽게 검색할 수 있는 한 가지 도구는 Microsoft SharePoint Server 2013입니다. SharePoint를 사용 하 여 비즈니스용 Skype 서버 데이터를 검색 하려면 비즈니스용 Skype 서버에서 Exchange 보관을 구성 하는 것과 관련 된 모든 단계를 먼저 완료 해야 합니다. Exchange Server 및 비즈니스용 Skype 서버가 성공적으로 통합 된 후에는 SharePoint Server에 Exchange [Web Services 관리 API](https://go.microsoft.com/fwlink/p/?LinkId=258305) 를 설치 해야 합니다. 다운로드 한 파일 (EWSManagedAPI)을 SharePoint 서버의 모든 폴더에 저장할 수 있습니다.
   
@@ -33,25 +33,25 @@ ms.locfileid: "36244144"
     
 2. 명령 창에서 cd 명령을 사용 하 여 현재 디렉터리를 EWSManagedAPI 파일이 저장 된 폴더로 변경 합니다. 예를 들어 C:\Downloads 다운로드에 파일을 저장 한 경우 명령 창에 다음 명령을 입력 하 고 enter 키를 누릅니다.
     
-   ```
+   ```console
    cd C:\Downloads
    ```
 
 3. API를 설치 하려면 다음 명령을 입력 한 다음 enter 키를 누릅니다.
     
-   ```
+   ```console
    msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature,ExchangeWebServicesApi_Gac"
    ```
 
 4. API가 설치 되 면 다음 명령을 입력 하 고 Enter 키를 눌러 IIS를 다시 설정 합니다.
     
-   ```
+   ```console
    iisreset
    ```
 
 Exchange Web Services가 설치 된 후 SharePoint Server와 Exchange Server 간에 서버 간 인증을 구성 해야 합니다. 이렇게 하려면 먼저 SharePoint 관리 셸을 열고 다음 명령 집합을 실행 합니다.
   
-```
+```powershell
 New-SPTrustedSecurityTokenIssuer -Name "Exchange" -MetadataEndPoint "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 $service = Get-SPSecurityTokenServiceConfig
 $service.HybridStsSelectionEnabled = $True
@@ -65,7 +65,7 @@ $service.Update()
   
 토큰 발급자를 만들고 토큰 서비스를 구성한 후에는이 명령을 실행 하 여 샘플 URL에 대 한 SharePoint 사이트의 URL을 대체 하세요.http://atl-sharepoint-001:
   
-```
+```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
 $app = Get-SPAppPrincipal -Site "https://atl-sharepoint-001" -NameIdentifier $exchange.NameID
 $site = Get-SPSite  "https://atl-sharepoint-001"
@@ -74,13 +74,13 @@ Set-SPAppPrincipalPermission -AppPrincipal $app -Site $site.RootWeb -Scope "Site
 
 Exchange Server에 대해 서버 간 인증을 구성 하려면 exchange 관리 셸을 열고 다음과 같은 명령을 실행 합니다 (C: 드라이브에 Exchange가 설치 되어 있고 기본 폴더 경로를 사용 하 고 있다고 가정).
   
-```
+```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-sharepoint-001/_layouts/15/metadata/json/1' -ApplicationType SharePoint"
 ```
 
 파트너 응용 프로그램을 구성한 후에는 모든 Exchange 사서함 및 클라이언트 액세스 서버에서 IIS (인터넷 정보 서비스)를 중지 하 고 다시 시작 하는 것이 좋습니다. 컴퓨터 atl-exchange-001에서 서비스를 다시 시작 하는 다음과 같은 명령을 사용 하 여 IIS를 다시 시작할 수 있습니다.
   
-```
+```powershell
 iisreset atl-exchange-001
 ```
 
@@ -88,13 +88,13 @@ iisreset atl-exchange-001
   
 다음으로, 다음과 비슷한 명령을 실행 하 여 Exchange에서 검색을 수행할 수 있는 권한을 지정 된 사용자 (이 예제에서는 kenmyer)에 게 부여 합니다.
   
-```
+```powershell
 Add-RoleGroupMember "Discovery Management" -Member "kenmyer"
 ```
 
 Exchange와 SharePoint 간에 서버 간 인증이 설정 된 후 다음 단계는 SharePoint에서 eDiscovery 사이트를 만드는 것입니다. 이 작업은 SharePoint 관리 셸에서와 비슷한 명령으로 실행할 수 있습니다.
   
-```
+```powershell
 $template = Get-SPWebTemplate | Where-Object {$_.Title -eq "eDiscovery Center"}
 New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmyer" -Template $Template -Name "Discovery Center"
 ```

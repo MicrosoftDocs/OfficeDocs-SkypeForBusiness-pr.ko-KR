@@ -1,5 +1,5 @@
 ---
-title: Office 365 음성 메일에서 엔터프라이즈 음성 온라인 및 전화 시스템용 사용자 설정
+title: 사용자가 Office 365 음성 사서함에서 전화 시스템과 Enterprise Voice 라인을 사용하도록 설정
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -17,14 +17,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: 비즈니스용 Skype 사용자를 위한 Office 365 음성 서비스에서 전화 시스템을 사용 하도록 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1305f4045d4de86a65e0286938d22490f577507c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 902d2e1bad76c8275bfc8f4ce7ec7b4243b8572a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190839"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003468"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Office 365 음성 메일에서 엔터프라이즈 음성 온라인 및 전화 시스템용 사용자 설정
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>사용자가 Office 365 음성 사서함에서 전화 시스템과 Enterprise Voice 라인을 사용하도록 설정
  
 비즈니스용 Skype 사용자를 위한 Office 365 음성 서비스에서 전화 시스템을 사용 하도록 설정 하는 방법에 대해 알아봅니다.
   
@@ -42,13 +42,13 @@ Office 365 음성 및 음성 메일에서 전화 시스템용 사용자를 사�
     
 3. 다음을 입력 하 고 enter 키를 누릅니다.
     
-   ```
+   ```powershell
    Import-Module skypeonlineconnector
    ```
 
 4. 다음을 입력 하 고 enter 키를 누릅니다.
     
-   ```
+   ```powershell
    $cred = Get-Credential
    ```
 
@@ -58,13 +58,13 @@ Office 365 음성 및 음성 메일에서 전화 시스템용 사용자를 사�
     
 6. PowerShell 창에서 다음을 입력 하 고 enter 키를 누릅니다.
     
-   ```
+   ```powershell
    $Session = New-CsOnlineSession -Credential $cred -Verbose
    ```
 
 7. 다음 cmdlet을 입력 하 여 세션을 가져옵니다.
     
-   ```
+   ```powershell
    Import-PSSession $Session -AllowClobber
    ```
 
@@ -72,13 +72,13 @@ Office 365 음성 및 음성 메일에서 전화 시스템용 사용자를 사�
     
 8. Set-CsUser cmdlet을 사용 하 여 $EnterpriseVoiceEnabled를 할당 하 고 다음과 같이 사용자에 게 속성을 $HostedVoiceMail 합니다.
     
-   ```
+   ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
@@ -100,7 +100,7 @@ Office 365 음성 및 음성 메일에서 전화 시스템용 사용자를 사�
   
 3. 왼쪽 탐색 모음에서 **사용자**를 클릭 합니다.
     
-4. **사용자 검색** 상자에 설정 하려는 사용자 계정의 표시 이름, 이름, 성, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 줄의 URI (Uniform resource identifier) 중 일부 또는 전체를 입력 한 다음을 클릭 합니다. **찾습니다**.
+4. **사용자 검색** 상자에 표시 이름, 성, 이름, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 사용 하도록 설정할 사용자 계정의 URI (Uniform resource identifier) 중 일부 또는 전체를 입력 한 다음 **찾기를**클릭 합니다.
     
 5. 표에서 줄 URI를 변경 하려는 비즈니스용 Skype 사용자 계정을 클릭 합니다.
     
@@ -114,7 +114,7 @@ Windows PowerShell 및 [권한 부여-csdialplan](https://docs.microsoft.com/pow
 
 - [권한 부여-csdialplan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet을 사용 하 여 사용자 단위 다이얼 플랜 RedmondDialPlan을 사용자: 진구 Myer에 할당 합니다.
     
-  ```
+  ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
   ```
 
@@ -122,7 +122,7 @@ Windows PowerShell 및 [권한 부여-csdialplan](https://docs.microsoft.com/pow
 
 - 다음 명령을 사용 하 여 사용자 단위 다이얼 플랜 RedmondDialPlan을 Redmond의 구/군/시로 근무 하는 모든 사용자에 게 할당 합니다. 이 명령에 사용 되는 LdapFilter 매개 변수에 대 한 자세한 내용은 [Get CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) cmdlet에 대 한 설명서를 참조 하세요.
     
-  ```
+  ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
   ```
 
@@ -133,7 +133,7 @@ Windows PowerShell 및 [권한 부여-csdialplan](https://docs.microsoft.com/pow
 
 - [허용-csdialplan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet을 사용 하 여 이전에: 진구 Myer에 할당 된 사용자 단위 다이얼 플랜을 할당 취소 합니다. 사용자 단위 다이얼 플랜의 할당을 해제 한 후에는: 진구 Myer이 전역 다이얼 플랜 또는 해당 레지스트라 또는 PSTN 게이트웨이에 할당 된 서비스 범위 다이얼 플랜을 사용 하 여 자동으로 관리 됩니다. 서비스 범위 다이얼 플랜은 전역 다이얼 플랜에 우선권을 갖습니다.
     
-  ```
+  ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
   ```
 
@@ -150,7 +150,7 @@ Office 365에서 전화를 거는 통화에 대 한 음성 라우팅 정책이 �
 
 - [CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) cmdlet을 사용 하 여 사용자 단위 음성 라우팅 정책 RedmondVoiceRoutingPolicy을 User: 진구 Myer에 할당 합니다.
     
-  ```
+  ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
@@ -158,7 +158,7 @@ Office 365에서 전화를 거는 통화에 대 한 음성 라우팅 정책이 �
 
 - 다음 명령을 사용 하 여 사용자 단위 음성 라우팅 정책을 Redmond의 구/군/시로 근무 하는 모든 사용자에 게 RedmondVoiceRoutingPolicy를 할당 합니다. 이 명령에 사용 되는 LdapFilter 매개 변수에 대 한 자세한 내용은 [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)를 참조 하세요.
     
-  ```
+  ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
@@ -169,7 +169,7 @@ Office 365에서 전화를 거는 통화에 대 한 음성 라우팅 정책이 �
 
 - CsVoiceRoutingPolicy를 사용 하 여 이전에: 진구 Myer에 할당 된 사용자 단위 음성 라우팅 정책을 할당 취소 합니다. 사용자 단위 음성 라우팅 정책을 할당 하지 않으면: 진구 Myer는 전역 음성 라우팅 정책을 사용 하 여 자동으로 관리 됩니다.
     
-  ```
+  ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 

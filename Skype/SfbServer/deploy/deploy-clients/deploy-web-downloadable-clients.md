@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: '요약: 비즈니스용 skype에 비즈니스용 skype Web App 및 Skype 모임 앱을 배포 합니다.'
-ms.openlocfilehash: 273ffca9ae91973fe9e3953efc914364de382ed4
-ms.sourcegitcommit: 8a20cb7bd1d23e2cf2987f55039748bad60f501b
+ms.openlocfilehash: eb939ddf394ff62b9173939622a8ef3f20faaca9
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "36972879"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003528"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 웹 다운로드 가능 클라이언트 배포
 
@@ -52,19 +52,19 @@ ms.locfileid: "36972879"
 
 3. Windows PowerShell 명령줄 인터페이스에서 다음 명령을 실행 합니다.
 
-    ```
+    ```powershell
     add-pssnapin Microsoft.Adfs.powershell
     ```
 
 4. 다음 명령을 실행 하 여 파트너 관계를 설정 합니다.
 
-    ```
+    ```powershell
     Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
     ```
 
 5. 다음 신뢰 당사자 규칙을 설정 합니다.
 
-    ```
+    ```powershell
    $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
    Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
    Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
@@ -108,9 +108,9 @@ Windows Server 2008 R2를 실행 하는 컴퓨터에서 플러그 인 설치가 
 
 2. 레지스트리 편집기에 액세스 하려면 **regedit**를 입력 합니다.
 
-3. HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer.로 이동
+3. HKEY_LOCAL_MACHINE \Software\Policies\Microsoft\Windows\Installer. 이동
 
-4. REG_DWORD 형식의 DisableMSI 레지스트리 키를 편집 하거나 추가 하 고 0으로 설정 합니다.
+4. REG_DWORD 형식의 DisableMSI 레지스트리 키를 편집 하거나 추가 하 고이를 0으로 설정 합니다.
 
 5. 모임에 다시 참가 합니다.
 
@@ -123,13 +123,13 @@ Windows Server 2008 R2를 실행 하는 컴퓨터에서 플러그 인 설치가 
 
 1. CDN (콘텐츠 배달 네트워크)에 대 한 액세스를 사용 하도록 설정 하면 사용자가 CDN online에 연결 하 여 비즈니스용 skype 모임 앱 (Windows)과 mac 용 비즈니스용 Skype (Mac)를 사용할 수 있으며, 간단한 모임 참가 환경을 사용 하 게 됩니다.
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
    ```
 
 2. 모임 참가 웹 페이지나 Skype 모임 앱에서 클라이언트 쪽 로깅 원격 분석을 Microsoft 서버로 보낼 수 있도록 허용 합니다 (기본값은 false입니다).
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
@@ -137,7 +137,7 @@ Windows Server 2008 R2를 실행 하는 컴퓨터에서 플러그 인 설치가 
 
 3. CDN을 사용할 수 없는 경우 로컬에서 호스팅되는 비즈니스용 Skype Web App 환경으로 전환 하기 전에 제한 시간을 설정 합니다. 기본값은 6 초입니다. 이 값을 0으로 설정 하면 시간이 제한 되지 않습니다.
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
 

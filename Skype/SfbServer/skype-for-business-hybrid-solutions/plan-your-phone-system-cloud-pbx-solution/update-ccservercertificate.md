@@ -1,5 +1,5 @@
 ---
-title: 업데이트-CcServerCertificate
+title: Update-CcServerCertificate
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cd2889c4-0eb1-4752-9274-93a5a68a8080
 description: 업데이트가 거의 만료 되거나 이미 만료 된 경우 업데이트-CcServerCertificate cmdlet이 비즈니스용 Skype 클라우드 커넥터 에디션의 인증서를 갱신 합니다.
-ms.openlocfilehash: 34da35e607f8941da9c962386509f8a0b87ec122
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 920770b4ce77e893a7195d1326ea13ac73e0cc70
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190575"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003118"
 ---
-# <a name="update-ccservercertificate"></a>업데이트-CcServerCertificate
+# <a name="update-ccservercertificate"></a>Update-CcServerCertificate
  
 업데이트가 거의 만료 되거나 이미 만료 된 경우 업데이트-CcServerCertificate cmdlet이 비즈니스용 Skype 클라우드 커넥터 에디션의 인증서를 갱신 합니다. 
   
-```
+```powershell
 Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 ```
 
@@ -33,7 +33,7 @@ Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 
 다음 예제에서는 인증서가 거의 만료 되었거나 이미 만료 된 경우 중앙 관리 저장소, 중재 서버 및 Edge 서버의 인증서를 갱신 합니다.
   
-```
+```powershell
 Update-CcServerCertificate
 ```
 
@@ -41,7 +41,7 @@ Update-CcServerCertificate
 
 다음 예에서는 중재 서버 및 Edge 서버의 인증서가 거의 만료 되거나 이미 만료 된 경우이를 갱신 합니다.
   
-```
+```powershell
 Update-CcServerCertificate-Roles @("MS", "Edge")
 ```
 
@@ -72,9 +72,9 @@ Update-CcServerCertificate-Roles @("MS", "Edge")
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[다시 설정-CcCACertificate](reset-cccacertificate.md)
+[Reset-CcCACertificate](reset-cccacertificate.md)
   
-[갱신-CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

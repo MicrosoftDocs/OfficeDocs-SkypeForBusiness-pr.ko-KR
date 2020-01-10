@@ -1,5 +1,5 @@
 ---
-title: 갱신-CcCACertificate
+title: Renew-CcCACertificate
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
 description: CcCACertificate cmdlet은 거의 만료 되거나 이미 만료 된 비즈니스용 Skype 클라우드 커넥터 버전 루트 CA 인증서를 갱신 합니다. 이 명령은 클라우드 커넥터 2.0 및 이후 릴리스의 업데이트-CcCACertificate로 변경 되었습니다.
-ms.openlocfilehash: f1e376b5b944468ec5bf508c6221a099a83d4804
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 493b733eab9cbd8331a93d72dc4a865f3574fbe8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190680"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003278"
 ---
-# <a name="renew-cccacertificate"></a>갱신-CcCACertificate
+# <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
 CcCACertificate cmdlet은 거의 만료 되거나 이미 만료 된 비즈니스용 Skype 클라우드 커넥터 버전 루트 CA 인증서를 갱신 합니다. 이 명령은 클라우드 커넥터 2.0 및 이후 릴리스의 업데이트-CcCACertificate로 변경 되었습니다.
   
-```
+```powershell
 Renew-CcCACertificate
 ```
 
@@ -37,7 +37,7 @@ Renew-CcCACertificate
 
 다음 예제에서는 루트 CA 인증서를 갱신 합니다. 
   
-```
+```powershell
 Renew-CcCACertificate 
 ```
 
@@ -65,9 +65,9 @@ Renew-CcCACertificate
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[다시 설정-CcCACertificate](reset-cccacertificate.md)
+[Reset-CcCACertificate](reset-cccacertificate.md)
   
-[갱신-CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

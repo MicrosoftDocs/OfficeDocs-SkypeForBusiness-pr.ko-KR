@@ -1,5 +1,5 @@
 ---
-title: 집합-CcCredential
+title: Set-CcCredential
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: 집합-CcCredential cmdlet은 현재 비즈니스용 Skype 클라우드 커넥터 에디션 배포의 자격 증명을 설정 합니다.
-ms.openlocfilehash: 59c058f8965bbc6fc011806f383c547c1e7b6cd1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bcb88f11fb78d995e6d8271593c2e09bb0b11d22
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190647"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003218"
 ---
-# <a name="set-cccredential"></a>집합-CcCredential
+# <a name="set-cccredential"></a>Set-CcCredential
  
 집합-CcCredential cmdlet은 현재 비즈니스용 Skype 클라우드 커넥터 에디션 배포의 자격 증명을 설정 합니다. 
   
 클라우드 커넥터 버전 2.0 이상을 사용 하는 경우이 cmdlet은 가상 컴퓨터 관리자와 도메인 관리자에 대 한 계정 정보도 설정할 수 있습니다.
   
-```
+```powershell
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 ```
 
@@ -35,7 +35,7 @@ Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 
 다음 예에서는 테 넌 트 관리자의 계정 이름 및 암호를 지정 합니다.
   
-```
+```powershell
 Set-CcCredential -AccountType "TenantAdmin"
 ```
 

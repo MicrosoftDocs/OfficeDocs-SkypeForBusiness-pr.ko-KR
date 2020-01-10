@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: 비즈니스용 Skype Server Enterprise Voice에서 통화 공원 설정을 수정 하세요.
-ms.openlocfilehash: df7334734784a773abd1df66a7544c3141a9aec9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5ce9d15c4d233e620c5eb12c18688b5df958defb
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233940"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001368"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>비즈니스용 Skype에서 통화 공원 설정 구성
 
@@ -46,7 +46,7 @@ ms.locfileid: "36233940"
 
 2. 런
 
-   ```
+   ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
    ```
 
@@ -55,7 +55,7 @@ ms.locfileid: "36233940"
 
     예를 들면 다음과 같습니다.
 
-   ```
+   ```powershell
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com
    ```
 

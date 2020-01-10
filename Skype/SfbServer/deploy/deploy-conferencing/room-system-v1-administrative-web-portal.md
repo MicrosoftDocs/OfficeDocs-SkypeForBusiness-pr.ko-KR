@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: 비즈니스용 Skype 서버 Skype (SRS v1, 이전의 Lync 대화방 시스템) 관리 웹 포털은 조직에서 Skype 대화방 시스템 회의실을 유지 관리 하는 데 사용할 수 있는 웹 포털입니다. 관리자는 SRS v1 관리 웹 포털을 사용 하 여 오디오/비디오 장치 모니터링과 같은 디바이스 상태를 모니터링할 수 있습니다. 이 포털을 사용 하면 관리자가 진단 정보를 원격으로 수집 하 여 회의실 상태를 모니터링할 수 있습니다.
-ms.openlocfilehash: bf18cefbdaa5beeaef63d16b5447cce2969fc147
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4c05b558176b92358206e7cee2355ff82683ed45
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234177"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002888"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 SRS v1 관리 웹 포털 배포
 
@@ -86,7 +86,7 @@ SRS v1 관리 웹 포털을 설치 하려면 다음 단계를 사용 합니다.
 
 1. 비즈니스용 Skype 서버 관리 셸에서 다음 cmdlet을 실행 하 여 신뢰할 수 있는 응용 프로그램 포트를 구성 합니다.
 
-   ```
+   ```powershell
    Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
    ```
 
@@ -98,19 +98,19 @@ SRS v1 관리 웹 포털을 설치 하려면 다음 단계를 사용 합니다.
 
 4. Web.config 파일에서 PortalUserName을 2 단계에서 만든 사용자 이름으로 변경 하 고 "[SRS V1 관리 웹 포털에 맞게 환경 구성](room-system-v1-administrative-web-portal.md#Config_Env)" 섹션 (단계에서 권장 되는 이름 LRSApp).
 
-    ```
+    ```xml
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
     ```
 
 5. SRS v1 관리 포털은 신뢰할 수 있는 응용 프로그램 이므로 포털 구성에 암호를 제공할 필요가 없습니다. 이 사용자가 로컬 등록 기관 이외의 다른 등록 기관을 사용 하는 경우 web.config 파일에 다음 줄을 추가 하 여 등록 기관에 대 한 등록자를 지정 해야 합니다.
 
-   ```
+   ```xml
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
    ```
 
 6. 사용 된 포트가 5061이 아니면 web.config 파일에 다음 줄을 추가 합니다.
 
-   ```
+   ```xml
    <add key="PortalUserRegistrarPort" value="5061" />
    ```
 
@@ -207,7 +207,7 @@ SRS의 대규모 관리는 고급 IT 관리자를 위해 디자인 된 기능으
 
 대량 관리 작업을 수행 하려면 모니터링할 방을 선택 하 고 일괄 관리 메뉴를 클릭 합니다.
 
-### <a name="frequently-asked-questions"></a>자주 묻는 질문
+### <a name="frequently-asked-questions"></a>자주하는 질문
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>관리 웹 포털에 로그인 할 수 없는 이유는 무엇 인가요?
 
@@ -221,7 +221,7 @@ SRS의 대규모 관리는 고급 IT 관리자를 위해 디자인 된 기능으
 
 - SRS 계정을 만든 경우 관리 웹 포털에서 계정을 볼 수 없는 경우 Fiddler를 사용 하 여 클라이언트 로그를 수집 하 고 브라우저 개발 도구에서 콘솔 로그를 복사한 다음 SRS 지원 연락처로 보냅니다. Web.config에서 추적 수준 값을 수정 하 여 자세한 로그를 얻을 수도 있습니다.
 
-  ```
+  ```xml
   <system.diagnostics>
     <switches>
       <!--

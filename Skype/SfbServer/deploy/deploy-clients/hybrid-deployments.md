@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: 이 항목을 읽으면 하이브리드 환경에서 Skype 대화방 시스템을 배포 하는 방법을 알아보세요.
-ms.openlocfilehash: 80e7efaf5fe3705e052d40606ea5944527d43a61
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: f6364f7bb96ddf2b25aaaef2a341fce5b71372f5
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774959"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003498"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype 채팅방 시스템 하이브리드 배포
 
@@ -29,7 +29,7 @@ ms.locfileid: "36774959"
   
 1. Exchange online 관리 센터 (LyncSample.ccsctp.net)에 리소스 사서함을 만드는 방법에 대해 설명 하는 대로 exchange online Management 셸에 연결 합니다.
     
-   ```
+   ```powershell
    New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
    ```
 
@@ -52,7 +52,7 @@ ms.locfileid: "36774959"
     
 6. 비즈니스용 skype 관리 셸에서 다음 cmdlet을 실행 하 여 비즈니스용 Skype에 대해 Skype 대화방 시스템 계정을 사용 하도록 설정 합니다.
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -SipAddress 'sip: lrstest5@LyncSample.com' -RegistrarPool pool1.child.corp.LyncSample.com -Identity lrstest5@LyncSample.com
    Set-CsMeetingRoom -Identity lrstest5@LyncSample.com -EnterpriseVoiceEnabled $true
    ```

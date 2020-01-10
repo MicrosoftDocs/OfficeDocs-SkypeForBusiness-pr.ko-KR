@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: '요약: 비즈니스용 Skype 서버에서 SIP trunks에 대 한 정보를 보는 방법에 대해 알아보세요.'
-ms.openlocfilehash: 3d8ad70428926c26445c6556544a5a363de12f5c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 366e03c1a3ceef345a52bca6e038c9311fcc3003
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240213"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001128"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 개별 SIP trunks에 대 한 정보 보기
  
@@ -33,7 +33,7 @@ SIP trunks는 PSTN (공공 교환 전화 네트워크)과 함께 비즈니스용
 
 - 다음 명령은 조직에서 사용 중인 모든 SIP trunks에 대 한 정보를 반환 합니다.
     
-  ```
+  ```powershell
   Get-CsTrunk
   ```
 
@@ -41,7 +41,7 @@ SIP trunks는 PSTN (공공 교환 전화 네트워크)과 함께 비즈니스용
 
 - 이 명령은 Id PstnGateway: 192.168.0.240와 함께 SIP 트렁크에 대 한 정보만 반환 합니다.
     
-  ```
+  ```powershell
   Get-CsTrunk -Identity "PstnGateway:192.168.0.240"
   ```
 
@@ -49,6 +49,6 @@ SIP trunks는 PSTN (공공 교환 전화 네트워크)과 함께 비즈니스용
 
 - 이 예제에서는 풀 atl-cs-001.litwareinc.com에 할당 된 모든 SIP trunks에 대 한 정보가 반환 됩니다.
     
-  ```
+  ```powershell
   Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"
   ```

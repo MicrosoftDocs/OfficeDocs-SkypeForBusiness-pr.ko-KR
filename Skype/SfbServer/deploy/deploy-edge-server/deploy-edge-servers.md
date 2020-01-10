@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: '요약: Edge 서버를 비즈니스용 Skype 서버 환경에 배포 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 70355f6f00e8f38a13d74afd2d13c62a345fa063
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e912e4c0b75781805a0e691bc81794119f62fe9c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234105"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001448"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에 Edge 서버 배포
  
@@ -119,13 +119,13 @@ Edge 서버의 인증서 요구 사항은 Edge 인증서 계획 문서에서 찾
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. **시작**을 열고 **실행** (또는 **검색** 및 **실행** ) 한 후 다음을 입력 합니다.
     
-  ```
+  ```console
   https://<NAME OF YOUR ISSUING CA SERVER>/certsrv
   ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;예를 들어:
     
-  ```
+  ```console
   https://ca01/contoso.com/certsrv
   ```
 
@@ -247,7 +247,7 @@ Edge 서버의 인증서 요구 사항은 Edge 인증서 계획 문서에서 찾
     
 &nbsp;&nbsp;&nbsp;z.e.n.works. **인증서** 스냅인 대화 상자에서 **컴퓨터 계정을**선택 합니다. **다음**을 클릭 합니다.
     
-&nbsp;&nbsp;&nbsp;f. **컴퓨터 선택** 대화 상자에서 **로컬 컴퓨터: (이 콘솔이 실행 되 고 있는 컴퓨터)** 를 선택 합니다. **마침을**클릭 합니다. **확인**을 클릭 하면 MMC 콘솔의 구성이 완료 됩니다.
+&nbsp;&nbsp;&nbsp;f. **컴퓨터 선택** 대화 상자에서 **로컬 컴퓨터: (이 콘솔이 실행 되 고 있는 컴퓨터)** 를 선택 합니다. **마침**을 클릭합니다. **확인**을 클릭 하면 MMC 콘솔의 구성이 완료 됩니다.
     
 &nbsp;&nbsp;&nbsp;g. 인증서 저장소를 확장 하려면 **인증서 (로컬 컴퓨터)** 를 두 번 클릭 합니다. **개인**을 두 번 클릭 한 다음 **인증서**를 클릭 합니다.
     
@@ -290,7 +290,7 @@ Edge 서버의 인증서 요구 사항은 Edge 인증서 계획 문서에서 찾
     
 &nbsp;&nbsp;&nbsp;f. 마법사 완료 페이지에서 **마침을**클릭 합니다.
     
-&nbsp;&nbsp;&nbsp;g. 이 절차를 완료 한 후에는 각 Edge 서버에서 인증서 MMC 스냅인을 열고, **인증서 (로컬 컴퓨터)** 를 확장 하 고, **개인**을 확장 하 고, **인증서**를 클릭 하 고, 내부에 지를 확인 하는 것이 좋습니다. 세부 정보 창에 인증서가 나열 됩니다.
+&nbsp;&nbsp;&nbsp;g. 이 절차를 완료 한 후에는 각 Edge 서버에서 인증서 MMC 스냅인을 열고, **인증서 (로컬 컴퓨터)** 를 확장 하 고, **개인**을 확장 하 고, **인증서**를 클릭 하 고, 세부 정보 창에 내부에 지 인증서가 나열 되어 있는지 확인 하는 것이 좋습니다.
     
 ### <a name="external-edge-interface-certificates"></a>외부에 지 인터페이스 인증서
 
@@ -375,7 +375,7 @@ Edge 서버의 인증서 요구 사항은 Edge 인증서 계획 문서에서 찾
     
 &nbsp;&nbsp;&nbsp;z.e.n.works. **인증서** 스냅인 대화 상자에서 **컴퓨터 계정을**선택 합니다. **다음**을 클릭 합니다.
     
-&nbsp;&nbsp;&nbsp;f. **컴퓨터 선택** 대화 상자에서 **로컬 컴퓨터: (이 콘솔이 실행 되 고 있는 컴퓨터)** 를 선택 합니다. **마침을**클릭 합니다. **확인**을 클릭 하면 MMC 콘솔의 구성이 완료 됩니다.
+&nbsp;&nbsp;&nbsp;f. **컴퓨터 선택** 대화 상자에서 **로컬 컴퓨터: (이 콘솔이 실행 되 고 있는 컴퓨터)** 를 선택 합니다. **마침**을 클릭합니다. **확인**을 클릭 하면 MMC 콘솔의 구성이 완료 됩니다.
     
 &nbsp;&nbsp;&nbsp;g. 인증서 저장소를 확장 하려면 **인증서 (로컬 컴퓨터)** 를 두 번 클릭 합니다. **개인을 두 번 클릭**한 다음 **인증서**를 클릭 합니다.
     
@@ -423,7 +423,7 @@ Edge 서버의 인증서 요구 사항은 Edge 인증서 계획 문서에서 찾
     
 &nbsp;&nbsp;&nbsp;f. 마법사 완료 페이지에서 **마침을**클릭 합니다.
     
-&nbsp;&nbsp;&nbsp;g. 이 절차를 완료 한 후에는 각 서버에서 인증서 MMC 스냅인을 열고, **인증서 (로컬 컴퓨터)** 를 확장 하 고, **개인**을 확장 하 고, **인증서**를 클릭 하 고, 내부에 지를 확인 하는 것이 좋습니다. 세부 정보 창에 인증서가 나열 됩니다.
+&nbsp;&nbsp;&nbsp;g. 이 절차를 완료 한 후에는 각 서버에서 인증서 MMC 스냅인을 열고, **인증서 (로컬 컴퓨터)** 를 확장 하 고, **개인**을 확장 하 고, **인증서**를 클릭 하 고, 세부 정보 창에 내부에 지 인증서가 나열 되어 있는지 확인 하는 것이 좋습니다.
     
    > [!NOTE]
    > 또한 역방향 프록시 서버에 대 한 인증서를 설정 하는 것이 필요 합니다. 

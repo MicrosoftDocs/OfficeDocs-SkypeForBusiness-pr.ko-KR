@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: '요약: 비즈니스용 Skype 서버에서 중재 서버와 Enterprise Voice 용 피어 간 트렁크를 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 714c712816709e8f2211e752f87d20c8d2067c7b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9bd285f1364d54940afd827858248656a6bb9f00
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233853"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001238"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 trunks 구성
  
@@ -43,7 +43,7 @@ ms.locfileid: "36233853"
     
 트렁크가 정의 되 면 경로에 연결 되어 있어야 합니다. 트렁크를 경로에 연결 하려면 토폴로지 작성기에서 트렁크에 대 한 간단한 이름을 정의 합니다. 이 간단한 이름은 비즈니스용 Skype Server 제어판에서 트렁크 이름으로 사용 되며, trunks 연결 될 수 있습니다. 간단한 트렁크 이름을 비즈니스용 Skype 서버 관리 셸에서의 게이트웨이 이름으로 사용 합니다. 
   
-```
+```powershell
 New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}
 ```
 

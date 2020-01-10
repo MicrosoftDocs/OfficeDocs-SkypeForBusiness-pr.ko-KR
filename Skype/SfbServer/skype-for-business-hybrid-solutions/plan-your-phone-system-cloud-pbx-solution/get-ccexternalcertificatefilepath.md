@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
 description: Get-CcExternalCertificateFilePath cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 배포에 대 한 외부 인증서 파일 경로를 반환 합니다. 사용자가이 인증서를 준비 합니다.
-ms.openlocfilehash: ed725814380741aade73166d01025650dfa78538
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7a471b0e4258728bfaa50558aab54955346b457c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190779"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003378"
 ---
 # <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  
@@ -24,7 +24,7 @@ Get-CcExternalCertificateFilePath cmdlet은 비즈니스용 Skype 클라우드 �
   
 이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 1.4.1, 1.4.2에 적용 됩니다.
   
-```
+```powershell
 Get-CcExternalCertificateFilePath [[-Target] <string> {EdgeServer | MediationServer}]
 ```
 
@@ -35,7 +35,7 @@ Get-CcExternalCertificateFilePath [[-Target] <string> {EdgeServer | MediationSer
 
 다음 예에서는 Edge 서버용 인증서의 경로를 보여 줍니다.
   
-```
+```powershell
 Get-CcExternalCertificateFilePath -Target EdgeServer
 ```
 
@@ -43,7 +43,7 @@ Get-CcExternalCertificateFilePath -Target EdgeServer
 
 다음 예에서는 중재 서버에 대 한 인증서 집합을 보여 줍니다.
   
-```
+```powershell
 Get-CcExternalCertificateFilePath -Target MediationServer
 ```
 

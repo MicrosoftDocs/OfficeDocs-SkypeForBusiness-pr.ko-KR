@@ -1,5 +1,5 @@
 ---
-title: 설치-CcAppliance
+title: Install-CcAppliance
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: 설치-CcAppliance cmdlet는 AD, 중앙 관리 저장소, 중재 서버, Edge 서버 가상 컴퓨터 등의 비즈니스용 Skype 클라우드 커넥터 에디션 기기를 호스트 서버에 설치 합니다.
-ms.openlocfilehash: 01c689c4a4639c12292d59def6b698281f402299
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cccf500c6506c8ba3459631d5c823940907ad213
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190734"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003328"
 ---
-# <a name="install-ccappliance"></a>설치-CcAppliance
+# <a name="install-ccappliance"></a>Install-CcAppliance
  
 설치-CcAppliance cmdlet는 AD, 중앙 관리 저장소, 중재 서버, Edge 서버 가상 컴퓨터 등의 비즈니스용 Skype 클라우드 커넥터 에디션 기기를 호스트 서버에 설치 합니다. 
   
-```
+```powershell
 Install-CcAppliance [-Steps <array>] [-SkipExistingObjects] [-Upgrade] [-UpdateAllCredentials] [<CommonParameters>]
 Install-CcAppliance [-Steps <array>] [-PrepareOnly]  [<CommonParameters>]
 Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
@@ -35,7 +35,7 @@ Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
 
 다음 예제에서는 호스트 서버에 새 클라우드 커넥터 기기를 설치 합니다.
   
-```
+```powershell
 Install-CcAppliance
 ```
 
@@ -43,7 +43,7 @@ Install-CcAppliance
 
 다음 예에서는 클라우드 커넥터를 최신 버전으로 업그레이드 합니다.
   
-```
+```powershell
 Install-CcAppliance -Upgrade
 ```
 
@@ -51,7 +51,7 @@ Install-CcAppliance -Upgrade
 
 다음 예제에서는 호스트 서버에서 캐시 된 모든 클라우드 커넥터 자격 증명을 제거 하 고, 사용자에 게 모든 자격 증명 정보를 다시 지정 하 라는 메시지를 표시 한 후 클라우드 커넥터를 설치 합니다.
   
-```
+```powershell
 Install-CcAppliance -UpdateAllCredentials
 ```
 
@@ -59,7 +59,7 @@ Install-CcAppliance -UpdateAllCredentials
 
 다음 예제에서는 PowerShell 콘솔의 모든 배포 단계를 표시 합니다.
   
-```
+```powershell
 Install-CcAppliance -ShowStepsOnly
 ```
 
@@ -69,7 +69,7 @@ Install-CcAppliance -ShowStepsOnly
 
 다음 예제에서는 호스트 서버의 각 배포 단계에 대 한 구성 파일을 생성 합니다. 구성 파일은 호스트 \<서버의 ApplianceRoot\>\instances\\<버전\>-default\ExportedConfig 폴더에 저장 됩니다.
   
-```
+```powershell
 Install-CcAppliance -PrepareOnly
 ```
 
@@ -79,7 +79,7 @@ Install-CcAppliance -PrepareOnly
 
 다음 예제에서 클라우드 커넥터는 배포 단계 1, 2, 3을 실행 하 여 가상 스위치를 만들고, 광고 가상 컴퓨터를 만들고, 광고 서버에 도메인 서비스를 설치 합니다. 단계가 이미 실행 된 경우 단계를 건너뜁니다.
   
-```
+```powershell
 Install-CcAppliance -Steps @(1,2,3) -SkipExistingObjects
 ```
 
@@ -126,12 +126,12 @@ SkipExistingObjects 매개 변수는 단계 매개 변수와 함께 사용 해�
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[게시-CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
-[등록-CcAppliance](register-ccappliance.md)
+[Register-CcAppliance](register-ccappliance.md)
   
-[CcAppliance 등록 취소](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
-[제거-CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 

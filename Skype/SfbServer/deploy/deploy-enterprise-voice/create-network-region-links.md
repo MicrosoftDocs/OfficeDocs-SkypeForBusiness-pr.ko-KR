@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: 비즈니스용 Skype 서버에서 엔터프라이즈 음성 통화 허용 제어에 사용 되는 네트워크 지역 링크를 만들거나 수정 합니다.
-ms.openlocfilehash: 2b2eb99fa59125c93d97b902b6fbaad122ffdcdf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3c40488c3cbb4d5116f9b242bb198ba20f13bd58
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233693"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001738"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 지역 링크 만들기
  
@@ -35,11 +35,11 @@ ms.locfileid: "36233693"
     
 2. 새-Csnetworkregion 링크 cmdlet을 실행 하 여 지역 링크를 만들고 적절 한 대역폭 정책 프로필을 적용 합니다. 예를 들어 다음을 실행합니다.
     
-   ```
+   ```powershell
    New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
    ```
 
-   ```
+   ```powershell
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 

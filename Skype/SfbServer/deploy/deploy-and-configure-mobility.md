@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: 이 문서에서는 모바일 장치에서 비즈니스용 Skype 서버 이동성 기능을 활용할 수 있도록 하기 위해 기존 비즈니스용 Skype Server 설치를 구성 하는 단계를 안내 합니다.
-ms.openlocfilehash: 910e23e8aec18d36c3a7e4bda9e97828fb498802
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3e39c354fd77d7ac36e3a4c36ed7e36e1d8ffbbf
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234577"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002868"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 이동성 배포 및 구성  
  
@@ -158,7 +158,7 @@ ms.locfileid: "36234577"
     
 3. 업데이트 된 인증서를 추가 하기 전에 어떤 인증서가 할당 되었는지 아는 것이 중요 합니다. 명령에 다음을 입력 합니다.
     
-   ```
+   ```powershell
    Get-CsCertificate
    ```
 
@@ -172,13 +172,13 @@ ms.locfileid: "36234577"
     
    - 누락 된 자동 검색 서비스 SAN (-Ca 매개 변수를 고유한 인증 기관 경로로 바꾸는 경우):
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
    - 이제 여러 SIP 도메인이 있는 경우 위의 예제와 같이 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신 DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 lyncdiscoverinternal 및 lyncdiscover 레코드에 대 한 FQDN을 정의 해야 합니다. 예를 들어-Ca 매개 변수를 고유한 인증 기관 경로로 바꾸는 것이 가능 합니다.
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
    ```
 
@@ -186,17 +186,17 @@ ms.locfileid: "36234577"
     
    - 누락 된 자동 검색 서비스 SAN (-Ca 매개 변수를 고유한 인증 기관 경로로 바꾸는 경우):
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
    - 이제 여러 SIP 도메인이 있는 경우 위의 예제와 같이 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신 DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 lyncdiscoverinternal 및 lyncdiscover 레코드에 대 한 FQDN을 정의 해야 합니다. 예를 들면 (-Ca 매개 변수를 고유한 인증 기관 경로로 바꾸는 경우):
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
    ```
 
-   ```
+   ```powershell
    Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -DomainName "Lyncdiscover.contoso.com, Lyncdiscover.contoso.net" -verbose
    ```
 
@@ -208,13 +208,13 @@ ms.locfileid: "36234577"
     
   - 모든 것에 대 한 단일 인증서가 있는 경우 (지문이 동일한 경우) 다음을 실행 해야 합니다.
     
-  ```
+  ```powershell
   Set-CsCertificate -Type <certificate(s) from the Use parameter> -Thumbprint <unique identifier>
   ```
 
   - 다른 항목에 대 한 인증서가 있다면 (지문이 모두 다름) 대신이를 실행 합니다.
     
-  ```
+  ```powershell
   Set-CsCertificate -Type Default -Thumbprint <certificate thumbprint>
   Set-CsCertificate -Type WebServicesInternal -Thumbprint <certificate thumbprint>
   Set-CsCertificate -Type WebServicesExternal -Thumbprint <certificate thumbprint>
@@ -224,7 +224,7 @@ ms.locfileid: "36234577"
 
 1. MMC에 대 한 인증서 스냅인을 사용 하 여 인증서를 확인 하는 옵션이 있습니다. 검색에 MMC를 입력 하면 응용 프로그램 옵션으로 팝업 됩니다.
     
-2. 인증서 스냅인을 추가 하려면 **파일**을 클릭 한 다음 **스냅인 추가/제거** 를 선택 해야 합니다. (또는 바로 가기 키 **Ctrl + M** 도 작동 합니다.) **인증서** 는 왼쪽 창의 옵션이 되며,이 옵션을 선택 하 고 나 서 팝업 창에서 **컴퓨터 계정을** 선택한 다음 **다음**을 클릭 합니다.
+2. 인증서 스냅인을 추가 하려면 **파일**을 클릭 한 다음 **스냅인 추가/제거 ...** (또는 바로 가기 **키 Ctrl + M** 을 사용할 수도 있습니다.) **인증서** 는 왼쪽 창의 옵션이 되며,이 옵션을 선택 하 고 나 서 팝업 창에서 **컴퓨터 계정을** 선택한 다음 **다음**을 클릭 합니다.
     
 3. 여전히 팝업 창에 표시 해야 하는 인증서가 있는 컴퓨터에서이 작업을 수행할 수 있으므로, 이렇게 하면 **로컬 컴퓨터** 에서 선택 항목을 유지 합니다. 원격 컴퓨터에서 작업 하는 경우 라디오 단추를 **다른 컴퓨터로** 변경 하 고 해당 컴퓨터의 FQDN을 입력 하거나 **찾아보기** 단추를 사용 하 여 광고를 통해 해당 컴퓨터를 검색 합니다. 컴퓨터를 선택한 후에 준비가 되 면 **마침을** 클릭 하 고 **확인** 으로 MMC에 스냅인을 추가 해야 합니다.
     
@@ -307,7 +307,7 @@ TMG는 Microsoft에서 더 이상 제품으로 제공 되지 않으며 여전히
     
    - 이는 외부 액세스를 위해 **SSL** 이어야 하며 해당 옵션을 선택 합니다.
     
-   - **내부 게시용**경로를 게시 하 고 프런트 엔드 풀의 부하 분산 장치 (또는 사용자가 있는 경우 디렉터 풀의 부하 분산 장치 fqdn)에 대 한 fqdn을 입력 해야 하는 경우 예를 들어 보겠습니다. sfb_ pool01.
+   - **내부 게시용**경로를 게시 하 고 프런트 엔드 풀의 부하 분산 장치 (또는 사용자가 있는 경우 디렉터 풀의 부하 분산 장치)에 대 한 fqdn을 입력 해야 하는 경우 예제는 sfb_pool01입니다.
     
    - 게시할 경로로 * ** / **를 입력 해야 하지만, **원본 호스트 헤더도 전달**해야 합니다.
     
@@ -321,7 +321,7 @@ TMG는 Microsoft에서 더 이상 제품으로 제공 되지 않으며 여전히
     
    - 최신 공용 인증서를 사용 하 여 **SSL 수신기** 를 선택 해야 합니다.
     
-   - **인증 위임은** **위임 없음으로**설정 해야 하지만 직접 클라이언트 인증은 허용 되어야 합니다 **** .
+   - **인증 위임은** **위임 없음으로**설정 해야 하지만 직접 **클라이언트 인증은 허용 되어야 합니다** .
     
    - **모든 사용자**에 게 규칙을 설정 해야 합니다.
     
@@ -392,13 +392,13 @@ TMG는 Microsoft에서 더 이상 제품으로 제공 되지 않으며 여전히
     
 2. 다음을 실행 하 여 비즈니스용 Skype 서버 환경에 대 한 **Proxyfqdn** 특성 값을 가져옵니다.
     
-   ```
+   ```powershell
    Get-CsHostingProvider
    ```
 
 3. 계속 해 서 셸 창에서 다음을 실행 합니다.
     
-   ```
+   ```powershell
    Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
    ```
 
@@ -422,13 +422,13 @@ TMG는 Microsoft에서 더 이상 제품으로 제공 되지 않으며 여전히
     
 3. 명령줄에 다음을 입력 합니다.
     
-   ```
+   ```powershell
    Test-CsUcwaConference -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -OrganizerSipAddress sip:<SIP address of test user 1> -OrganizerCredential <test user 1 credentials> -ParticipantSipAddress sip:<SIP address of test user 2> -ParticipantCredential <test user 2 credentials> -v
    ```
 
    스크립트에서 자격 증명을 설정 하 고 테스트 cmdlet에 전달할 수도 있습니다. 이에 대 한 예는 다음과 같습니다.
     
-   ```
+   ```powershell
    $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
    $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
    $testuser1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
@@ -447,13 +447,13 @@ TMG는 Microsoft에서 더 이상 제품으로 제공 되지 않으며 여전히
     
 3. 명령줄에 다음을 입력 합니다.
     
-   ```
+   ```powershell
    Test-CsMcxP2PIM -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -SenderSipAddress sip:<SIP address of test user 1> -SenderCredential <test user 1 credentials> -ReceiverSipAddress sip:<SIP address of test user 2> -ReceiverCredential <test user 2 credentials> -v
    ```
 
    스크립트에서 자격 증명을 설정 하 고 테스트 cmdlet에 전달할 수도 있습니다. 이에 대 한 예는 다음과 같습니다.
     
-   ```
+   ```powershell
    $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
    $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
    $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
@@ -484,13 +484,13 @@ TMG는 Microsoft에서 더 이상 제품으로 제공 되지 않으며 여전히
     
 3. 비즈니스용 Skype 서버 online 호스팅 공급자를 추가 합니다.
     
-   ```
+   ```powershell
    New-CsHostingProvider -Identity <unique identifier for hosting provider> -Enabled $True -ProxyFQDN <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
    ```
 
    예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    New-CsHostingProvider -Identity "SkypeOnline" -Enabled $True -ProxyFQDN "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
    ```
 
@@ -499,7 +499,7 @@ TMG는 Microsoft에서 더 이상 제품으로 제공 되지 않으며 여전히
   
 4. 비즈니스용 Skype Online에서 조직과 푸시 알림 서비스 간에 호스팅 공급자 페더레이션을 설정 합니다. 명령줄에 다음을 입력 해야 합니다.
     
-   ```
+   ```powershell
     New-CsAllowedDomain -Identity "push.lync.com"
    ```
 
@@ -511,13 +511,13 @@ TMG는 Microsoft에서 더 이상 제품으로 제공 되지 않으며 여전히
     
 3. 푸시 알림 사용:
     
-   ```
+   ```powershell
    Set-CsPushNotificationConfiguration -EnableMicrosoftPushNotificationService $True
    ```
 
 4. 페더레이션 사용:
      
-   ```
+   ```powershell
    Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
    ```
 
@@ -529,25 +529,25 @@ TMG는 Microsoft에서 더 이상 제품으로 제공 되지 않으며 여전히
     
 3. 페더레이션 구성을 테스트 합니다.
     
-   ```
+   ```powershell
    Test-CsFederatedPartner -TargetFqdn <FQDN of Access Edge server used for federated SIP traffic> -Domain <FQDN of federated domain> -ProxyFqdn <FQDN of the Access Edge server used by the federated organization>
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    Test-CsFederatedPartner -TargetFqdn accessproxy.contoso.com -Domain push.lync.com -ProxyFqdn sipfed.online.lync.com
    ```
 
 4. 푸시 알림 테스트:
     
-   ```
+   ```powershell
    Test-CsMcxPushNotification -AccessEdgeFqdn <Access Edge service FQDN>
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    Test-CsMcxPushNotification -AccessEdgeFqdn accessproxy.contoso.com
    ```
 
@@ -583,7 +583,7 @@ TMG는 Microsoft에서 더 이상 제품으로 제공 되지 않으며 여전히
     
 3. 다음을 입력 하 여 업무에 대 한 액세스를 해제 하 고 회사의 전화를 통해 통화 하세요.
     
-   ```
+   ```powershell
    Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
    ```
 
@@ -600,7 +600,7 @@ TMG는 Microsoft에서 더 이상 제품으로 제공 되지 않으며 여전히
     
 3. 사이트 수준 정책을 만들고, VoIP 및 비디오를 끄고 IP 오디오에 WiFi 필요를 사용 하도록 설정 하 고, 사이트 별로 IP 비디오에 WiFi를 요구할 수 있습니다. 입력할
     
-   ```
+   ```powershell
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
@@ -614,14 +614,14 @@ TMG는 Microsoft에서 더 이상 제품으로 제공 되지 않으며 여전히
     
 3. 사용자 수준 이동성 정책을 만들고, 이동성을 사용 하지 않도록 설정 하 고, 사용자의 작업을 통해 전화를 겁니다. 입력할
     
-   ```
+   ```powershell
    New-CsMobilityPolicy -Identity <policy name> -EnableMobility $False -EnableOutsideVoice $False
    Grant-CsMobilityPolicy -Identity <user identifier> -PolicyName <policy name>
    ```
 
     예제 데이터가 있는 추가 예:
     
-   ```
+   ```powershell
    New-CsMobilityPolicy "tag:disableOutsideVoice" -EnableOutsideVoice $False
    Grant-CsMobilityPolicy -Identity MobileUser1@contoso.com -PolicyName tag:disableOutsideVoice
    ```

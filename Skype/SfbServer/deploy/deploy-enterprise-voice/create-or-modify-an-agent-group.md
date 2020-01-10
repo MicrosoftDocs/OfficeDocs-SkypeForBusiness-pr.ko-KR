@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: 비즈니스용 Skype Server Enterprise Voice에서 응답 그룹의 에이전트 그룹을 만들거나 수정 합니다.
-ms.openlocfilehash: 09a49acfe1fe86ffa3c1bce3d6ed889c8666a7bc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a919c1a25f3f4aa5a2d8648d782ea329f1e70d60
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233580"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001688"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>비즈니스용 Skype에서 에이전트 그룹 만들기 또는 수정
  
@@ -92,7 +92,7 @@ ms.locfileid: "36233580"
     
     - 라운드 로빈 라우팅 또는 직렬 라우팅 중 하나를 사용 하는 그룹에서 에이전트가 제공 하는 호출 순서를 변경 하려면 에이전트 목록에서 사용자를 클릭 한 다음 위쪽 화살표 또는 아래쪽 화살표를 클릭 합니다. 
     
-    - Microsoft Exchange Server 배포 목록을 에이전트 그룹으로 사용 하려면 **기존 전자 메일 그룹 사용**을 클릭 한 다음 메일 그룹 **주소**에 메일 그룹의 전자 메일 주소를 입력 합니다 (예: NetworkSupport@contoso.com).
+    - Microsoft Exchange Server 배포 목록을 에이전트 그룹으로 사용 하려면 **기존 전자 메일 그룹 사용**을 클릭 한 다음 **메일 그룹 주소**에 메일 그룹의 전자 메일 주소를 입력 합니다 (예: NetworkSupport@contoso.com).
     
       전자 메일 그룹을 사용 하는 경우에는 다음과 같은 제약 조건이 적용 됩니다.
     
@@ -123,13 +123,13 @@ ms.locfileid: "36233580"
     
 3. New **-CsRgsAgentGroup** 를 사용 하 여 새 에이전트 그룹을 만듭니다. **Set-CsRgsAgentGroup** 를 사용 하 여 기존 에이전트 그룹을 수정 합니다. 명령줄에서 다음을 실행 합니다.
     
-   ```
+   ```powershell
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
    ```
 
@@ -138,7 +138,7 @@ ms.locfileid: "36233580"
   
 4. 에이전트 그룹이 생성 되었는지 확인 합니다. 런
     
-   ```
+   ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"
    ```
 

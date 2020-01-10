@@ -15,12 +15,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: '요약: 온-프레미스 비즈니스용 skype Server 하이브리드 배포에 대해 Skype 모임 브로드캐스트를 구성 하기 위해 수행 해야 하는 단계에 대해 알아보세요.'
-ms.openlocfilehash: bd87c64dd1e54c8092186a3e233557ebd11eec77
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ac08707a60e0c71719ab2cb85141e89329a947f9
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234585"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002808"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트에 대 한 온-프레미스 배포 구성
  
@@ -55,7 +55,7 @@ Skype 모임 브로드캐스트를 위해 환경을 준비 하려면 다음을 �
    
 비즈니스용 Skype 서버 관리 셸에서 다음 cmdlet을 실행 하 여 비즈니스용 Skype Online 리소스에서 페더레이션을 사용 하도록 설정할 수도 있습니다.
   
-```
+```powershell
 New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.lync.com -VerificationLevel AlwaysVerifiable -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $True -IsLocal $False
 ```
 
@@ -79,7 +79,7 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
     
 비즈니스용 Skype 서버 관리 셸에서 다음 cmdlet을 실행 하 여 SIP 페더레이션 도메인에 대 한 외부 액세스를 구성할 수도 있습니다.
   
-```
+```powershell
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
 New-CsAllowedDomain -Identity "emeameetings.lync.com"
 New-CsAllowedDomain -Identity "apacmeetings.lync.com"

@@ -1,5 +1,5 @@
 ---
-title: 스위치-CcVersion
+title: Switch-CcVersion
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: 스위치용 버전 cmdlet은 실행 중인 기기의 연결을 끊고 새로 배포 또는 백업 기기로 전환 합니다.
-ms.openlocfilehash: e63c5ea6d74e979f7fc9fe5a4c5eae97a0689e1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 157d1b677cc6c63d7707c9e1633cd8b6e3ad5927
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190605"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003158"
 ---
-# <a name="switch-ccversion"></a>스위치-CcVersion
+# <a name="switch-ccversion"></a>Switch-CcVersion
  
 스위치용 버전 cmdlet은 실행 중인 기기의 연결을 끊고 새로 배포 또는 백업 기기로 전환 합니다. 
   
-```
+```powershell
 Switch-CcVersion [-Force]
 ```
 
@@ -33,7 +33,7 @@ Switch-CcVersion [-Force]
 
 다음 예에서는 현재 실행 중인 기기의 서비스를 고갈 한 다음 새로 배포 또는 백업 기기로 전환 합니다.
   
-```
+```powershell
 Switch-CcVersion
 ```
 
@@ -41,7 +41,7 @@ Switch-CcVersion
 
 다음 예에서는 현재 실행 중인 기기의 서비스를 드레이닝 하 고 서비스를 드레이닝 하지 못하면 서비스를 강제로 중지 합니다. 그런 다음 새 배포 또는 백업 기기로 명령을 전환 합니다.
   
-```
+```powershell
 Switch-CcVersion -Force
 ```
 

@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 674c4c43e1fe99639c6e8bfd9665e1bf0755e1ba
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: e5cc89afb43149f68dfc068492e1d0163e4b0721
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069379"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003318"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>공존 및 업그레이드 설정 설정
 
@@ -39,7 +39,7 @@ ms.locfileid: "40069379"
 
 ![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
 
-1. 왼쪽 탐색 창에서 **조직 전체 설정** > **팀 업그레이드**로 이동 합니다. 
+1. [Microsoft 팀 관리 센터](https://admin.teams.microsoft.com/)의 왼쪽 탐색에서 **조직 전체 설정** > **팀 업그레이드**로 이동 합니다. 
 
 2. **팀 업그레이드** 페이지의 맨 위에서 해당 작업을 수행할 경우 다음과 같이 변경 합니다.
     - **공존** 모드를 설정 합니다.

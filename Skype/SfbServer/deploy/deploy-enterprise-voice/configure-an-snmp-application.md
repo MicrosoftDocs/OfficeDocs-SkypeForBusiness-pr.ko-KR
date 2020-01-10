@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: 비즈니스용 Skype Server Enterprise Voice의 E9-1-1에서 작동 하도록 SNMP 응용 프로그램을 구성 합니다.
-ms.openlocfilehash: 2462c7af4473f8c29cf0e068ddc86b391d7e1df2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5941a7fee85b486577df4c79848274528ddab952
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233946"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001378"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 SNMP 응용 프로그램 구성
  
@@ -38,7 +38,7 @@ SNMP 응용 프로그램이 설치 되어 있고 위치 정보 서비스가 위�
     
 2. SNMP 응용 프로그램의 URL을 구성 하려면 다음 cmdlet을 실행 합니다. 
     
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
    ```
 

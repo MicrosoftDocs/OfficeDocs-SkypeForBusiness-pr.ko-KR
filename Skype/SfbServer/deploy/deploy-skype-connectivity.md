@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '요약: 비즈니스용 Skype 서버를 Skype 소비자와 연결 하는 방법에 대해 알아보세요. Skype 연결도 라고도 합니다.'
-ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 41a183912604c5880dfa46529f9034bc0673288d
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464603"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003078"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 Skype 연결 배포
 
@@ -81,7 +81,7 @@ Office 365 Small Business Premium의 경우 Office 365에 로그인 하 고 관�
   
 비즈니스용 Skype Online 관리에 대 한 자세한 내용은 다음을 참조 하세요.
   
-- [사용자가 외부 비즈니스용 Skype 사용자에 게 연락할 수 있도록 허용](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+- [사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 
 - [비즈니스용 Skype 또는 Skype 외부 대화 상대에 게 메신저 대화를 할 수 없는 경우 시도할 수 있는 작업](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
@@ -187,14 +187,14 @@ Office 365 Small Business Premium의 경우 Office 365에 로그인 하 고 관�
     
 2. 다음 두 명령을 실행 합니다.
     
-   ```
+   ```powershell
     Remove-CsPublicProvider -Identity <identity-name>
    ```
 
     > [!NOTE]
     > 환경에 PIC 공급자가 아직 없고 새 PIC 공급자를 만드는 경우 CsPublicProvider cmdlet을 실행할 필요가 없습니다. 
   
-   ```
+   ```powershell
    New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl https://images.edge.messenger.live.com/Messenger_16x16.png -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -Enabled $true -EnableSkypeIdRouting $true -EnableSkypeDirectorySearch $true
    ```
 
@@ -210,7 +210,7 @@ Office 365 Small Business Premium의 경우 Office 365에 로그인 하 고 관�
      > 변경 사항이 있는 경우 공용 공급자를 제거 하 고 새를 추가 해야 합니다. 현재 위치에서 변경할 수 없습니다. 
   
      > [!NOTE]
-     > Lync Server 2013 CU5 &amp; lync 데스크톱 클라이언트에 추가 된 OFFICE 2013 SP1의 NameDecorationRoutingDomain 및 NameDecorationExcludedDomainList는 lync 사용자가 타사 도메인을 "장식" 하는 데 필요한 Skype 연락처를 추가 하는 상황을 개선 합니다. Skype (사용자 (contoso) @msn 형식)를 확인 하 고이에 라우팅합니다. 이 새로운 설정을 사용 하면 NameDecorationExcludedDomainList에 도메인이 포함 되지 않은 경우 "Skype 연락처 추가" 대화 상자에 NameDecorationRoutingDomain (msn.com로 설정 되어야 함)의 주소 사용자 입력에 대 한 자동 서식 지정이 허용 됩니다 ( 현재 msn.com, live.com, Hotmail.com, outlook.com)를 지원할 수 있습니다. 
+     > Lync Server 2013 CU5 &amp; lync 데스크톱 클라이언트에 추가 됨 OFFICE 2013 SP1의 NameDecorationRoutingDomain 및 NameDecorationExcludedDomainList는 lync 사용자가 타사 도메인을 식별 하 여 skype에 연결 하는 데 필요한 skype 연락처 (예: 사용자 (contoso) @msn .의 형식)를 개선 하는 것이 좋습니다. 이 새로운 설정을 사용 하면 NameDecorationExcludedDomainList에 도메인이 포함 되지 않은 경우 "Skype 연락처 추가" 대화 상자에 NameDecorationRoutingDomain (msn.com로 설정 되어야 함)의 주소 사용자 입력에 대 한 자동 서식 지정이 허용 됩니다 ( 현재 msn.com, live.com, Hotmail.com, outlook.com)를 지원할 수 있습니다. 
   
 3. Skype for Business 클라이언트 사용자는 이제 Skype 사용자를 검색 하 고 추가할 수 있습니다.
     
@@ -229,19 +229,19 @@ Office 365 Small Business Premium의 경우 Office 365에 로그인 하 고 관�
    
 다음 표에서는 최신 버전의 비즈니스용 Skype와 최신 버전의 Skype 소비자 간 interop 상태에 대해 간략하게 설명 합니다. 
   
-|**클라이언트측**|**Skype 디렉터리 검색 및 연락처 추가**|**Skype A/V, IM interop**|
+|**클라이언트**|**Skype 디렉터리 검색 및 연락처 추가**|**Skype A/V, IM interop**|
 |:-----|:-----|:-----|
-|비즈니스용 Skype  <br/> |'  <br/> |'  <br/> |
-|Mac의 비즈니스용 Skype  <br/> |추가 가능 (검색 없음)  <br/> |'  <br/> |
-|Lync 데스크톱 2013  <br/> |추가 가능 (검색 없음)  <br/> |'  <br/> |
+|비즈니스용 Skype  <br/> |예  <br/> |예  <br/> |
+|Mac의 비즈니스용 Skype  <br/> |추가 가능 (검색 없음)  <br/> |예  <br/> |
+|Lync 데스크톱 2013  <br/> |추가 가능 (검색 없음)  <br/> |예  <br/> |
 |Lync Web App-온라인 및 온-프레미스  <br/> |해당 없음  <br/> |해당 없음  <br/> |
-|Lync 모바일-Windows Phone  <br/> |개봉박두  <br/> |'  <br/> |
-|Lync 모바일-Android  <br/> |개봉박두  <br/> |'  <br/> |
-|Lync Mobile-iOS  <br/> |개봉박두  <br/> |'  <br/> |
-|Lync 채팅방 시스템  <br/> |개봉박두  <br/> |'  <br/> |
-|Lync 최신 앱 (Win 8.1)  <br/> |'  <br/> |'  <br/> |
-|Lync Mac 2011  <br/> |추가 가능 (검색 없음)  <br/> |'  <br/> |
-|Lync 데스크톱 2010  <br/> |추가 가능 (검색 없음)  <br/> |'  <br/> |
+|Lync 모바일-Windows Phone  <br/> |개봉박두  <br/> |예  <br/> |
+|Lync 모바일-Android  <br/> |개봉박두  <br/> |예  <br/> |
+|Lync Mobile-iOS  <br/> |개봉박두  <br/> |예  <br/> |
+|Lync 채팅방 시스템  <br/> |개봉박두  <br/> |예  <br/> |
+|Lync 최신 앱 (Win 8.1)  <br/> |예  <br/> |예  <br/> |
+|Lync Mac 2011  <br/> |추가 가능 (검색 없음)  <br/> |예  <br/> |
+|Lync 데스크톱 2010  <br/> |추가 가능 (검색 없음)  <br/> |예  <br/> |
 |Lync Phone Edition  <br/> |해당 없음  <br/> |해당 없음  <br/> |
 |Lync 전화 교환  <br/> |해당 없음  <br/> |해당 없음  <br/> |
    

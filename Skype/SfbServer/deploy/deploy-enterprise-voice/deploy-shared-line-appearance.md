@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: 이 항목에서는 비즈니스용 Skype Server 2015, 2015 누적 업데이트에 대 한 SLA (공유 선 모양)를 배포 하는 방법에 대해 알아봅니다. SLA는 공유 번호 라는 특정 번호에서 여러 통화를 처리 하기 위한 기능입니다.
-ms.openlocfilehash: 040801c08490edb103fa195098ef8aa3483fc2e0
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 684d5fe7b65308c19b56039f2ad4f8ddd6752bbd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37924859"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001908"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 공유 선 모양 배포
 
@@ -38,7 +38,7 @@ SLA (공유 선 모양)는 비즈니스용 Skype Server의 새로운 기능으�
 
     에서. 각 풀에 대해 다음 명령을 실행 하 여 SLA를 서버 응용 프로그램으로 등록 합니다.
 
-   ```
+   ```powershell
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri   http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled                 $true -Priority (Get-CsServerApplication -Identity              'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
@@ -46,13 +46,13 @@ SLA (공유 선 모양)는 비즈니스용 Skype Server의 새로운 기능으�
 
     b. 다음 명령을 실행 하 여 SLA cmdlet에 대 한 RBAC 역할을 업데이트 합니다.
 
-   ```
+   ```powershell
    Update-CsAdminRole
    ```
 
     c. SLA를 설치 하 고 활성화 한 모든 풀에서 프런트 엔드 서버 (RTCSRV 서비스)를 모두 다시 시작 합니다.
 
-   ```
+   ```powershell
    Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
    ```
 
@@ -60,7 +60,7 @@ SLA (공유 선 모양)는 비즈니스용 Skype Server의 새로운 기능으�
 
 1. [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet을 사용 하 여 SLA 그룹을 만듭니다.
 
-   ```
+   ```powershell
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
    ```
 
@@ -70,7 +70,7 @@ SLA (공유 선 모양)는 비즈니스용 Skype Server의 새로운 기능으�
 
     이 명령은 새 SLA 그룹에 대 한 최대 동시 통화 수를 3으로 설정 하 고,이를 초과 하 여 통화 중 신호를 들을 수 있습니다.
 
-   ```
+   ```powershell
    Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3 -BusyOption BusyOnBusy
    ```
 
@@ -81,14 +81,14 @@ SLA (공유 선 모양)는 비즈니스용 Skype Server의 새로운 기능으�
 
 2. [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps) cmdlet을 사용 하 여 그룹에 대리인을 추가 합니다.
 
-   ```
+   ```powershell
    Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
           <NameOfDelegate@domain>
    ```
 
     다음 예에서는 사용자를 SLA 그룹에 추가 합니다. 그룹에 추가 된 각 사용자는 유효한 Enterprise Voice 사용 사용자 여야 합니다.
 
-   ```
+   ```powershell
    Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
    ```
 
@@ -98,13 +98,13 @@ SLA (공유 선 모양)는 비즈니스용 Skype Server의 새로운 기능으�
 
 - [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet을 사용 하 여 SLA 그룹 사용 중 옵션을 구성 합니다.
 
-  ```
+  ```powershell
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
   ```
 
     다음 예에서는 전화 번호 202-555-1234로 착신 전환 될 최대 동시 통화 수를 초과 하는 호출을 설정 합니다. 대상은 전화 번호 대신 조직의 사용자 일 수 있습니다. 이 경우 착신 전환 된 전화를 받는 사람에 대 한 구문은 대리인을 지정 하는 경우와 동일 합니다 `sip:<NameofDelegate@domain>`. 다른 매개 변수 `BusyOption` 를 사용할 수 `Voicemail`있습니다.
 
-  ```
+  ```powershell
   Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234
   ```
 
@@ -112,13 +112,13 @@ SLA (공유 선 모양)는 비즈니스용 Skype Server의 새로운 기능으�
 
 1. [CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet을 사용 하 여 SLA 그룹 부재 중 전화 옵션을 구성 합니다.
 
-   ```
+   ```powershell
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
    ```
 
 2. 다음 예에서는 부재 중 통화가 명명 `sla_forward_number`된 사용자에 게 전달 되도록 지정 합니다. `-MissedCallOption` 매개 `Forward`변수에 `BusySignal`대 한 유효한 옵션은, 또는 `Disconnect`입니다. 선택 `Forward`하는 경우에는 사용자 또는 전화 `-MissedCallForwardTarget` 번호를 대상으로 하는 매개 변수도 포함 해야 합니다.
 
-   ```
+   ```powershell
    Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com
    ```
 
@@ -126,13 +126,13 @@ SLA (공유 선 모양)는 비즈니스용 Skype Server의 새로운 기능으�
 
 - [CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps) cmdlet을 사용 하 여 그룹에서 대리자를 제거 합니다.
 
-  ```
+  ```powershell
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
     예를 들면 다음과 같습니다.
 
-  ```
+  ```powershell
   Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com
   ```
 
@@ -140,13 +140,13 @@ SLA (공유 선 모양)는 비즈니스용 Skype Server의 새로운 기능으�
 
 - [CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) cmdlet을 사용 하 여 SLA 그룹을 삭제 합니다.
 
-  ```
+  ```powershell
   Remove-CsSlaConfiguration -Identity <IdentityOfGroup>
   ```
 
     예를 들면 다음과 같습니다.
 
-  ```
+  ```powershell
   Remove-CsSlaConfiguration -Identity SLAGroup1
   ```
 

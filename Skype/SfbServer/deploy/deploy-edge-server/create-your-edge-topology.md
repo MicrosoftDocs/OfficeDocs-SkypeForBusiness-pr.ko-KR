@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: '요약: 비즈니스용 Skype 서버에서 Edge 서버 토폴로지를 빌드, 게시 및 내보내기 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: b20877f805cb0357f6038a822962ad6eb9cdd5e1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c625656f1686b6e72be2f0223d6560464bb9e7bc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234140"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001478"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 Edge 토폴로지 만들기
  
@@ -166,7 +166,7 @@ ms.locfileid: "36234140"
     > [!NOTE]
     > 이전에 IPv6 주소 지정을 사용 하도록 선택 하지 않은 경우이 대화 상자가 표시 되지 않습니다. 그 이유는 다음 단계로 이동 하는 것입니다. 
   
-13. **마침을**클릭 합니다. 방금 만든 Edge 서버가 이제 **이 풀의 컴퓨터 정의** 대화 상자에 나열 됩니다.
+13. **마침**을 클릭합니다. 방금 만든 Edge 서버가 이제 **이 풀의 컴퓨터 정의** 대화 상자에 나열 됩니다.
     
 14. **이 풀의 컴퓨터 정의** 화면에서 **추가** 단추를 다시 클릭 하 고이 풀에서 사용할 모든 Edge 서버를 추가할 때까지 11 ~ 13 단계를 반복 합니다. 이 작업이 완료 되 면 **다음**을 클릭 합니다.
     
@@ -237,7 +237,7 @@ ms.locfileid: "36234140"
     > [!NOTE]
     > 이전에 IPv6 주소 지정을 사용 하도록 선택 하지 않은 경우이 대화 상자가 표시 되지 않습니다. 그 이유는 다음 단계로 이동 하는 것입니다. 
   
-13. **마침을**클릭 합니다. 방금 만든 Edge 서버가 이제 **이 풀의 컴퓨터 정의** 대화 상자에 나열 됩니다.
+13. **마침**을 클릭합니다. 방금 만든 Edge 서버가 이제 **이 풀의 컴퓨터 정의** 대화 상자에 나열 됩니다.
     
 14. **이 풀의 컴퓨터 정의** 화면에서 **추가** 단추를 다시 클릭 하 고이 풀에서 사용할 모든 Edge 서버를 추가할 때까지 11 ~ 13 단계를 반복 합니다. 이 작업이 완료 되 면 **다음**을 클릭 합니다.
     
@@ -278,7 +278,7 @@ ms.locfileid: "36234140"
     
 2. **비즈니스용 Skype 서버 관리 셸에서**다음을 실행 합니다.
     
-   ```
+   ```powershell
    Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
    ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: SQL 미러링을 배포할 수 있으려면 서버에서 최소 SQL Server 2008 R2를 실행 해야 합니다. 이 버전은 모든 관련 서버 (기본, 미러, 미러링 모니터)에서 실행 되어야 합니다. 자세한 내용은 SQL Server 2008 서비스 팩 1에 대 한 누적 업데이트 패키지 9를 참조 하세요.
-ms.openlocfilehash: 61f479adaf5c93833ece65b9781e635d16d696cd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 19f315d643ea5b9379445bf7571e49e7d658f5ab
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240011"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003588"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 백 엔드 서버에 대 한 SQL 미러링 배포 높은 가용성을 제공 합니다.
 
@@ -127,13 +127,13 @@ SQL 미러링을 설정할 때 다음 사항에 유의 해야 합니다.
 
 1. 비즈니스용 Skype Server 2015 관리 셸 창을 열고 다음 cmdlet을 실행 합니다.
 
-   ```
+   ```powershell
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose
    ```
 
     예를 들면 다음과 같습니다.
 
-   ```
+   ```powershell
    Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose
    ```
 
@@ -217,11 +217,11 @@ SQL 미러링을 설정할 때 다음 사항에 유의 해야 합니다.
 
 2. 다음을 확인 합니다.
 
-    - 기본 SQL Server e04-ocs _a에서 Windows 방화벽을 사용 하도록 설정한 경우 방화벽을 통해 포트 5022에 액세스할 수 있습니다. local\rtc.
+    - 기본 SQL Server los_a e04에서 Windows 방화벽을 사용 하는 경우 방화벽을 통해 포트 5022에 액세스할 수 있습니다. local\rtc.
 
-    - Windows 방화벽을 미러 SQL Server K16-ocs. _a에서 사용 하도록 설정한 경우 방화벽을 통해 포트 5022에 액세스할 수 있습니다. local\rtc.
+    - 미러 SQL Server K16에서 Windows 방화벽을 사용 하는 경우 방화벽을 통해 포트 5022에 액세스할 수 있습니다. local\rtc.. los_a
 
-    - 감시 SQL Server AB14-lct _a에서 Windows 방화벽을 사용 하도록 설정한 경우 방화벽을 통해 포트 7022에 액세스할 수 있습니다. local\rtc.
+    - Los_a AB14에서 Windows 방화벽을 사용 하는 경우 방화벽을 통해 포트 7022에 액세스할 수 있습니다. local\rtc.
 
    - 모든 기본 및 미러 SQL server에서 SQL Server를 실행 하는 계정에는 파일 공유 \\E04-OCS\csdatabackup에 대 한 읽기/쓰기 권한이 있습니다.
 
@@ -249,13 +249,13 @@ SQL 미러링을 설정할 때 다음 사항에 유의 해야 합니다.
 
 토폴로지 작성기에서 풀의 SQL 미러링을 제거 하려면 먼저 cmdlet을 사용 하 여 SQL Server에서 미러를 제거 해야 합니다. 그런 다음 토폴로지 작성기를 사용 하 여 토폴로지에서 미러를 제거할 수 있습니다. SQL Server에서 미러를 제거 하려면 다음 cmdlet을 사용 합니다.
 
-```
+```powershell
 Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQLServer instance name>] -DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance> [-DropExistingDatabasesOnMirror] [-Verbose]
 ```
 
 예를 들어 미러링을 제거 하 고 사용자 데이터베이스용 데이터베이스를 삭제 하려면 다음을 입력 합니다.
 
-```
+```powershell
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
 ```
 
@@ -281,7 +281,7 @@ Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName
 
     토폴로지를 게시 한 후 토폴로지 작성기에는 다음이 포함 된 메시지가 표시 됩니다.
 
-   ```
+   ```console
    Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
    ```
 

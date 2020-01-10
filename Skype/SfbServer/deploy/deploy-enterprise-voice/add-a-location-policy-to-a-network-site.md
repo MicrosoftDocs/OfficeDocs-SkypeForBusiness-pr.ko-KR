@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: 비즈니스용 Skype Server Enterprise Voice의 네트워크 사이트에 E9-1 위치 정책을 할당 합니다.
-ms.openlocfilehash: 4a74b1ee44d1e2f34a51d7859235e10649d0e2ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 36885fadddddd1fd0bf5ba91a6e0c30e79ef8b90
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234059"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001428"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 사이트에 위치 정책 추가
  
@@ -43,9 +43,9 @@ ms.locfileid: "36234059"
     
 2. 다음 cmdlet을 실행 하 여 기존 네트워크 사이트를 수정 합니다.
     
-    Redmond 태그가 **** 지정 된 위치 정책을 **redmond**라는 기존 네트워크 사이트에 할당 합니다.
+    **Redmond 태그가 지정** 된 위치 정책을 **redmond**라는 기존 네트워크 사이트에 할당 합니다.
     
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 
@@ -57,7 +57,7 @@ ms.locfileid: "36234059"
     
     네트워크 지역에서 새 네트워크 사이트를 만들고 **Redmond** 태그가 지정 된 위치 정책을 할당 합니다.
     
-   ```
+   ```powershell
    New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: 비즈니스용 Skype 서버에서 약속 있음 옵션을 설치 하 고 구성 하는 방법에 대해 자세히 알아보세요.
-ms.openlocfilehash: a0fd235d5db645035ac9a6344c233dfe12a78b7b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 45779af0410dcadd1b5fe8e3988905e88acd9213
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240556"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002518"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 사용 중 옵션 설치 및 구성
 
@@ -36,7 +36,7 @@ ms.locfileid: "36240556"
 
 다른 용무 중 옵션 기능에 대 한 자세한 내용은 비즈니스용 [Skype 서버의 약속 있음 옵션 계획](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)을 참조 하세요.
 
-## <a name="install"></a>설치할
+## <a name="install"></a>설치
 
 최신 버전의 비즈니스용 Skype Server가 설치 되어 있고 최신 패치를 설치 했는지 확인 합니다. 이렇게 하려면 먼저 모든 서비스를 중지 하 고 다음과 같이 비즈니스용 Skype 서버 업데이트 설치 관리자를 실행 합니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "36240556"
 
 1. 다음 예제에 표시 된 대로 전역 작업을 사용 하도록 [설정 하려면 CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) cmdlet을 실행 합니다.
 
-   ```
+   ```powershell
    Set-CsVoicePolicy -EnableBusyOptions $true
    ```
 
@@ -58,25 +58,25 @@ ms.locfileid: "36240556"
 
     먼저 [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps) 를 실행 하 여 사이트의 이름을 검색 합니다.
 
-   ```
+   ```powershell
    Get-CsSite
    ```
 
     다음과 같이 사이트의 음성 정책을 검색 하려면 Get-CsSite에서 Id 값 (예: Site: Redmond1)을 사용 합니다.
 
-   ```
+   ```powershell
    Get-CsVoicePolicy -Identity Site:Redmond1
    ```
 
     사이트에 대 한 음성 정책이 있는 경우 다음 명령을 실행 합니다.
 
-   ```
+   ```powershell
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
 3. 다음 예제와 같이 [새 CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) cmdlet을 실행 하 여 사용 중 옵션을 서버 응용 프로그램 목록에 추가 합니다.
 
-   ```
+   ```powershell
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
@@ -85,13 +85,13 @@ ms.locfileid: "36240556"
 
 4. 다음 예제에 표시 된 대로 [업데이트-CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) cmdlet을 실행 하 여 Busy 옵션 cmdlet에 대 한 RBAC (역할 기반 액세스 제어) 역할을 업데이트 합니다.
 
-   ```
+   ```powershell
    Update-CsAdminRole
    ```
 
 5. 마지막으로, 다른 용무 중 옵션이 설치 되어 있고 사용 하도록 설정 된 모든 풀의 모든 프런트 엔드 서버에서 비즈니스용 Skype 서버 Windows 서비스를 시작 합니다 ( [시작-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps) ) 명령을 실행 합니다.
 
-   ```
+   ```powershell
    Start-CsWindowsService
    ```
 
@@ -101,25 +101,25 @@ ms.locfileid: "36240556"
 
 예를 들어 다음 명령은 사용자 ": 진구 Myer"에 대 한 사용 중 옵션을 구성 합니다. 이 구성에서 ": 진구 Myer"로 거는 호출은 이미 통화 중일 때 통화 중 신호를 반환 합니다.
 
-```
+```powershell
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
 다음 예제에서 명령은 사용자 "Chrystal Velasquez"에 대 한 사용 중 옵션을 구성 합니다. 이 구성에서 "Chrystal Velasquez"에 대 한 새로운 수신 전화는 이미 통화 중에 음성 메일로 착신 전환 됩니다.
 
-```
+```powershell
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
 [CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) cmdlet을 사용 하 여 다른 용무 중 옵션에 대 한 구성 정보를 검색할 수 있습니다. 다음 예에서는 "KenMyer@Contoso.com"에 대 한 사용 중 옵션 설정을 반환 합니다.
 
-```
+```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 ```
 
 [CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) cmdlet을 사용 하 여 약속 있음/없음 옵션을 제거할 수 있습니다. 다음 명령은 ": 진구 Myer"의 약속 있음/없음 옵션을 제거 합니다.
 
-```
+```powershell
 Remove-CsBusyOptions -Identity "Ken Myer"
 ```
 
@@ -129,7 +129,7 @@ Remove-CsBusyOptions -Identity "Ken Myer"
 
 중앙 로깅 서비스를 사용 하 여 통화 중 옵션의 로깅을 사용 하도록 설정 하려면 다음을 지정 합니다.
 
-```
+```powershell
 $p1 = New-CsClsProvider -Name S4 -Type WPP -Level Info -Flags All
 $p2 = New-CsClsProvider -Name Sipstack -Type WPP -Level Info -Flags
  "TF_PROTOCOL,TF_CONNECTION,TF_SECURITY,TF_DIAG,TF_SHOW_CONFERENCE,TF_SHOW_ALLREQUESTS,TF_SHOW_ALLSIPHEADERS" -Role Registrar

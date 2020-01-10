@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: '요약: 비즈니스용 Skype 서버에서 통합 된 연락처 저장소를 사용 하도록 설정 합니다.'
-ms.openlocfilehash: 39317316be6c4590e992c61e91549748f3bf6719
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6cadba38f40a8ff12501e0fe73f4243dc96a5831
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239320"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003068"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통합 된 연락처 저장소 배포
  
@@ -44,37 +44,37 @@ ms.locfileid: "36239320"
     
    - 모든 비즈니스용 Skype Server 사용자에 대해 통합 된 연락처 저장소를 전역으로 사용 하도록 설정 하려면 Windows PowerShell 명령줄 인터페이스에서 다음 cmdlet을 실행 합니다.
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
    ```
 
    - 특정 사이트의 사용자에 대해 통합 된 연락처 저장소를 사용 하도록 설정 하려면 프롬프트에 다음을 입력 합니다.
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
    예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
    ```
 
    - 테 넌 트에서 통합 된 대화 상대 저장소를 사용 하도록 설정 하려면 프롬프트에 다음을 입력 합니다.
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
    ```
 
    예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
    ```
 
    - 특정 사용자에 대해 통합 된 대화 상대 저장소를 사용 하도록 설정 하려면 프롬프트에 다음을 입력 합니다.
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
    Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
    ```
@@ -84,7 +84,7 @@ ms.locfileid: "36239320"
   
     예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
    Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
    ```
@@ -108,13 +108,13 @@ ms.locfileid: "36239320"
   
 - 클라이언트 컴퓨터에서 다음 레지스트리 키를 확인 합니다.
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\<SIP URL\>\ucs
+    HKEY_CURRENT_USER \Software\Microsoft\Office\15.0\Lync\\<SIP URL\>\ucs
     
     사용자의 연락처가 Exchange 2013에 저장 되어 있는 경우이 키에는 2165 값을 사용 하 여 InUCSMode 값이 포함 됩니다.
     
 - **테스트 CsUnifiedContactStore** cmdlet을 실행 합니다. 비즈니스용 Skype 서버 관리 셸 명령줄에 다음을 입력 합니다.
     
-  ```
+  ```powershell
   Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
   ```
 
@@ -139,6 +139,6 @@ ms.locfileid: "36239320"
 > [!IMPORTANT]
 > Exchange 사서함을 exchange 2013에서 Exchange 2010로 이동 하기 전에 먼저 비즈니스용 Skype 서버 관리자가 Exchange 2013의 비즈니스용 Skype 서버 사용자 연락처를 Skype로 롤백 해야 합니다. 비즈니스 서버. 통합 된 대화 상대 저장소 연락처를 비즈니스용 Skype 서버에 롤백하려면이 섹션의 뒷부분에 있는 "Exchange 2013에서 비즈니스용 Skype 서버에 대 한 통합 된 대화 상대 저장소를 롤백하는 방법" 절차를 참조 하세요. 
   
- **사용자 대화 상대를 롤백하는 방법:** **이동-csuser** cmdlet을 사용 하 여 비즈니스용 skype Server 2015 및 Lync server 2010 간에 사용자를 이동 하는 경우, 다음 단계를 건너뛸 수 있습니다. **csuser** Cmdlet이 사용자를 skype에서 이동할 때 통합 된 연락처 저장소를 자동으로 롤백합니다. 비즈니스 서버 2015에서 Lync Server 2010로 이동할 수 있습니다. **이동-CsUser** 는 통합 된 대화 상대 저장소 정책을 사용 하지 않도록 설정 하지 않으므로 사용자가 비즈니스용 Skype 서버 2015로 다시 이동 하는 경우 통합 된 연락처 저장소로의 마이그레이션이 되풀이 됩니다.
+ **사용자 대화 상대를 롤백하는 방법:** **이동-CsUser** cmdlet을 사용 하 여 비즈니스용 skype server 2015 및 Lync server 2010 간에 사용자를 이동 하는 경우이 단계를 건너뛸 수 있습니다. **csuser** Cmdlet이 비즈니스용 Skype Server 2015에서 lync server 2010로 이동할 때 통합 된 연락처 저장소를 자동으로 롤백합니다. **이동-CsUser** 는 통합 된 대화 상대 저장소 정책을 사용 하지 않도록 설정 하지 않으므로 사용자가 비즈니스용 Skype 서버 2015로 다시 이동 하는 경우 통합 된 연락처 저장소로의 마이그레이션이 되풀이 됩니다.
   
 

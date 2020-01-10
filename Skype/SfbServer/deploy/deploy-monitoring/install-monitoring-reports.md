@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: '요약: 비즈니스용 Skype 서버에서 모니터링 보고서를 생성 하는 서비스를 설치 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 765c7a13b965b8701de6bc70782a9d7a8963a429
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a2d10e8025b2107da8a0b5c3866faf210b77ada
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239984"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001168"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모니터링 보고서 설치
  
@@ -34,7 +34,7 @@ ms.locfileid: "36239984"
   
 - **새로운 음성 음질 보고서**. 이러한 새 보고서에는 다양 한 통화 유형 (예: 유선 통화와 무선 통화) 간에 품질을 비교 하는 [비즈니스용 Skype 서버의 미디어 품질 비교 보고서](../../manage/health-and-monitoring/comparison.md)가 포함 됩니다. [Skype For Business 서버의 컨퍼런스 참가 시간 보고서](../../manage/health-and-monitoring/join-time-report.md)에서 사용자가 회의에 참가 하는 데 필요한 시간에 대 한 정보를 제공 합니다. 
     
-- **비디오 및 응용 프로그램 공유 세션 분석 및 문제 해결을 위한 향상 된 보고서** 비즈니스용 [Skype 서버의 미디어 품질 요약 보고서](../../manage/health-and-monitoring/summary.md) 에서는 비디오 및 응용 프로그램 공유 호출을 분석할 수 있는 방법을 제공 하는 반면 비즈니스용 [Skype 서버의 서버 성능 보고서](../../manage/health-and-monitoring/server-performance.md) 에는 이러한 기능을 생성 하는 서버의 성능이 자세히 설명 되어 있습니다. 전화가. 또한 비디오 및 응용 프로그램 공유 메트릭은 비즈니스용 [Skype 서버의 피어 투 피어 세션 세부 정보 보고서](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) 와 비즈니스용 [Skype 서버의 회의 세부 정보 보고서](../../manage/health-and-monitoring/detail-report.md)에 의해 보고 됩니다.
+- **비디오 및 응용 프로그램 공유 세션 분석 및 문제 해결을 위한 향상 된 보고서** 비즈니스용 [Skype server의 미디어 품질 요약 보고서](../../manage/health-and-monitoring/summary.md) 에서는 비디오 및 응용 프로그램 공유 호출을 분석할 수 있는 방법을 제공 하 고 [비즈니스용 Skype 서버의 서버 성능 보고서](../../manage/health-and-monitoring/server-performance.md) 에는 이러한 호출을 생성 하는 서버의 성능이 자세히 설명 되어 있습니다. 또한 비디오 및 응용 프로그램 공유 메트릭은 비즈니스용 [Skype 서버의 피어 투 피어 세션 세부 정보 보고서](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) 와 비즈니스용 [Skype 서버의 회의 세부 정보 보고서](../../manage/health-and-monitoring/detail-report.md)에 의해 보고 됩니다.
     
 - **향상 된 보고서 성능**. 여기에는 더 빠른 응답 및 데이터 검색 시간과 더욱 빠르고 간편 하 게 보고서를 탐색할 수 있습니다.
     
@@ -67,7 +67,7 @@ ms.locfileid: "36239984"
     
 스크립트 DeployReports를 실행 하 여 비즈니스용 Skype 서버 관리 셸에서 모니터링 보고서를 설치할 수도 있습니다. ps1 이 Windows PowerShell 스크립트는 \<설치 위치\>\ 비즈니스용 Skype Server 2015 \ Deployment\Setup 폴더에서 찾을 수 있습니다. DeployReports를 사용 하 여 모니터링 보고서를 설치 하려면 관리 셸 프롬프트에서 다음과 같이 명령을 입력 합니다.
   
-```
+```powershell
 C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 ```
 
@@ -75,15 +75,15 @@ C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.p
   
 |**매개 변수 이름**|**필수**|**설명**|
 |:-----|:-----|:-----|
-|storedUserName  <br/> |'  <br/> |모니터링 저장소에 액세스 하는 데 사용 되는 사용자 계정 (domain\username 형식) 예를 들어:  <br/> ```-storedUserName "litwareinc\kenmyer"```이 계정에는 이전에 지정 된 SQL Server 및 SQL Server Reporting Services 권한이 있어야 하며,이는 스크립트가 실패 합니다.  <br/> |
-|storedPassword  <br/> |'  <br/> |모니터링 저장소에 액세스 하는 데 사용 되는 사용자 계정의 암호입니다.  <br/> |
+|storedUserName  <br/> |예  <br/> |모니터링 저장소에 액세스 하는 데 사용 되는 사용자 계정 (domain\username 형식) 예를 들어:  <br/> ```-storedUserName "litwareinc\kenmyer"```이 계정에는 이전에 지정 된 SQL Server 및 SQL Server Reporting Services 권한이 있어야 하며,이는 스크립트가 실패 합니다.  <br/> |
+|storedPassword  <br/> |예  <br/> |모니터링 저장소에 액세스 하는 데 사용 되는 사용자 계정의 암호입니다.  <br/> |
 |readOnlyGroupName  <br/> |아니요  <br/> |해당 구성원에 게 모니터링 보고서에 대 한 읽기 전용 액세스 권한을 부여 하는 도메인 또는 로컬 보안 그룹 지정 된 그룹이 없으면 스크립트가 실패 합니다. 나중에 이러한 사용 권한을 취소 하거나 다른 사용자 또는 다른 그룹에 게 권한을 부여 하기로 결정 한 경우에는 SQL 서비스 Reporting Services 보고서 관리자를 사용 하 여 액세스할 수 있습니다.  <br/> |
 |reportSqlServerInstance  <br/> |아니요  <br/> |Reporting Services를 호스트 하는 SQL Server 인스턴스입니다. 보고서 서버의 정규화 된 도메인 이름을 사용 하 여 보고 인스턴스를 지정 해야 합니다. 예를 들어:  <br/> ```-reportServerSqlInstance atl-sql-001.litwareinc.com```이 매개 변수가 포함 되지 않은 경우 스크립트는 모니터링 데이터베이스를 호스트 하는 동일한 SQL Server 인스턴스에서 reporting services를 호스트 한다고 간주 합니다.  <br/> |
 |monitoringDatabaseId  <br/> |아니요  <br/> |모니터링 데이터베이스의 서비스 Id입니다. 다음 명령을 실행 하 여 모니터링 데이터베이스의 Id를 반환할 수 있습니다.  <br/> ```Get-CsService -MonitoringDatabase```|
    
 모니터링 보고서를 설치한 후에는 CsReportingConfiguration cmdlet을 사용 하 여 이러한 보고서에 액세스 하는 데 사용 되는 URL을 구성 해야 합니다. 이 작업은 다음 Windows PowerShell 명령을 실행 하 여 비즈니스용 Skype 서버 관리 셸에서 수행할 수 있습니다. 보고 URL을 구성할 때 HTTPS 프로토콜을 사용 하는 것이 좋습니다 (필수는 아님).
   
-```
+```powershell
 New-CsReportingConfiguration -Identity 'service:MonitoringDatabase:atl-sql-001.litwareinc.com' -ReportingURL 'https://atl-sql-001.litwareinc.com:443/Reports_ARCHINST'
 ```
 

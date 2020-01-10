@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: '요약: Lync Server 2013에서 비즈니스용 Skype Server 2015으로 업그레이드 하는 방법에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype Server 2015의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: c34cbc7ce1d755f093ac14bc85d78106216c450b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d9ce950ead8b8a3a8857c53d421470a0e647ea23
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237860"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001878"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015로 업그레이드
  
@@ -49,7 +49,7 @@ Lync Server 2013을 비즈니스용 Skype Server 2015으로 업그레이드 하�
 
 1. Lync OCSCore 또는 다른 Lync 구성 요소가 설치 되지 않은 토폴로지에서 컴퓨터에 연결 합니다.
     
-2. 비즈니스용 Skype 서버 2015 설치 미디어에서 **setup.exe** 를 **OCS_Volume\Setup\AMD64**에서 실행 합니다. 
+2. 비즈니스용 Skype Server 2015 설치 미디어에서 **setup.exe** **OCS_Volume \setup\amd64**를 실행 합니다. 
     
 3. **설치**를 클릭 합니다. 
     
@@ -171,7 +171,7 @@ Lync Server 2013을 비즈니스용 Skype Server 2015으로 업그레이드 하�
 
 업그레이드할 풀을 서비스 하는 각 서버에서 PowerShell에서 다음 cmdlet을 실행 합니다.
   
-```
+```powershell
 Disable-CsComputer -Scorch
 ```
 
@@ -180,11 +180,11 @@ Disable-CsComputer -Scorch
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>5 단계: 프런트 엔드 풀 및 비 프런트 엔드 풀 서버 업그레이드
 
 > [!NOTE]
->  업그레이드 하기 전에, 다음을 포함 하는 비즈니스용 Skype 서버 2015에 필요한 새 필수 구성 요소를 모두 설치 하세요. 업그레이드를 시도 하기 전에 최소한 32GB의 여유 공간이 >. 또한 드라이브가 고정 로컬 드라이브이 고, USB 또는 Firewire에 의해 연결 되지 않고, NTFS 파일 시스템으로 포맷 되며, 압축 되지 않고 페이지 파일이 포함 되어 있지 않은지 확인 합니다. > PowerShell 버전 6.2.9200.0 이상. 최신 Lync Server 2013을 > 합니다. 누적 업데이트가 설치 되었습니다. > SQL Server 2012 SP1이 설치 되어 있습니다. Microsoft 업데이트를 사용 하는 경우 자동으로 설치 되는 다음 KB의 설치 된 >. > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> windows server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> windows 서버 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
+>  업그레이드 하기 전에, 다음을 포함 하는 비즈니스용 Skype 서버 2015에 필요한 새 필수 구성 요소를 모두 설치 하세요. 업그레이드를 시도 하기 전에 최소한 32GB의 여유 공간이 >. 또한 드라이브가 고정 로컬 드라이브이 고 USB 또는 Firewire로 연결 되어 있지 않은지 확인 합니다 .은 (는) NTFS 파일 시스템으로 포맷 되었으며, 압축 되지 않고 페이지 파일이 포함 되어 있지 않습니다. > 최신 Lync Server 2013 누적 업데이트를 설치 합니다. > SQL Server 2012 SP1이 설치 되어 있습니다. Microsoft 업데이트를 사용 하는 경우 자동으로 설치 되는 다음 KB가 설치 된 > > windows server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623) > windows server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> windows server 2012 r2- [KB2982006](https://support.microsoft.com/kb/2982006)
   
 각 서버의 현재 위치 업그레이드를 사용 하 여 프런트 엔드 풀, Edge 풀, 중재 서버 및 영구 채팅 풀을 업데이트 합니다.
   
-1. 각 서버에서 비즈니스용 Skype 서버 2015 설치 미디어의 **OCS_Volume\Setup\amd64** 에서 setup.exe를 실행 **합니다** .
+1. 각 서버에서 \Setup\amd64는 비즈니스용 Skype 서버 2015 설치 미디어의 **OCS_Volume** 에서 setup.exe를 실행 **합니다** .
     
 2. 사용권 계약에 동의 하 고 현재 위치 업그레이드에 대 한 메시지를 따릅니다.
     
@@ -200,11 +200,11 @@ Disable-CsComputer -Scorch
 ### <a name="step-6-restart-services-on-all-upgraded-servers"></a>6 단계: 업그레이드 된 모든 서버에서 서비스 다시 시작
 
 > [!NOTE]
-> 서비스를 다시 시작 하기 전에 모든 프런트 엔드 서버에%ProgramData%\WindowsFabric이 없는지 확인 하세요. 서비스가 있는 경우 서비스를 시작 하기 전에 삭제 합니다. 
+> 서비스를 다시 시작 하기 전에 모든 프런트 엔드 서버 에%ProgramData%\WindowsFabric이 없는지 확인 하세요. 서비스가 있는 경우 서비스를 시작 하기 전에 삭제 합니다. 
   
 - 프런트 엔드 풀의 모든 서버를 업그레이드 한 후 다음 PowerShell 명령을 사용 하 여 서비스를 다시 시작 합니다. 
     
-  ```
+  ```powershell
   Start-CsPool
   ```
 
@@ -213,7 +213,7 @@ Disable-CsComputer -Scorch
   
 - 프런트 엔드 이외의 풀 서버에서 다음 명령을 사용 하 여 서비스를 다시 시작 합니다.
     
-  ```
+  ```powershell
   Start-CsWindowsService
   ```
 
@@ -237,7 +237,7 @@ Disable-CsComputer -Scorch
   
 페이지의 맨 아래에 있는 전체 메시지를 검토 하 여 문제 해결을 지원 합니다. 자세한 정보를 보려면 **로그 보기** 를 클릭 합니다.
   
-**업그레이드 준비를 확인** 하거나 **누락 된 필수 구성 요소를 설치**하는 동안 현재 위치 업그레이드에 실패 하는 경우 서버에 모든 최신 Windows server, Lync server, SQL server 업데이트가 적용 되었는지 확인 하 고 필요한 모든 소프트웨어와 역할이 설치한. 필수 사항 목록은 비즈니스용 [Skype server 2015의 서버 요구 사항](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) 및 비즈니스용 [skype server 2015의 필수 구성 요소 설치](install/install-prerequisites.md)를 참조 하세요.
+**업그레이드 준비를 확인** 하거나 **누락 된 필수 구성 요소를 설치**하는 동안 현재 위치 업그레이드에 실패 하는 경우 서버에 모든 최신 Windows server, Lync server, SQL server 업데이트가 적용 되었는지 확인 하 고 필요한 모든 소프트웨어와 역할이 설치 되어 있는지 확인 합니다. 필수 사항 목록은 비즈니스용 [Skype server 2015의 서버 요구 사항](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) 및 비즈니스용 [skype server 2015의 필수 구성 요소 설치](install/install-prerequisites.md)를 참조 하세요.
   
 ## <a name="see-also"></a>참고 항목
 

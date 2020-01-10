@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: '요약: 비즈니스용 Skype 서버에서 엔터프라이즈 음성을 사용 하 여 사용자가 전화를 걸고 받을 수 있도록 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: cf9aab0f104582c57e745c95ae5cf8f24f07b3a5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 441b7a5705268dedea1feb87e01a48d0ef68b32c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240612"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002528"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 엔터프라이즈 음성에 대 한 사용자 활성화
  
@@ -44,7 +44,7 @@ ms.locfileid: "36240612"
     
 3. 왼쪽 탐색 모음에서 **사용자**를 클릭 합니다.
     
-4. **사용자 검색** 상자에 설정 하려는 사용자 계정의 표시 이름, 이름, 성, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 줄의 URI (Uniform resource identifier) 중 일부 또는 전체를 입력 한 다음을 클릭 합니다. **찾습니다**.
+4. **사용자 검색** 상자에 표시 이름, 성, 이름, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 사용 하도록 설정할 사용자 계정의 URI (Uniform resource identifier) 중 일부 또는 전체를 입력 한 다음 **찾기를**클릭 합니다.
     
 5. 표에서 Enterprise Voice에 사용할 사용자 계정을 클릭 합니다.
     
@@ -69,13 +69,13 @@ ms.locfileid: "36240612"
     
 3. 사용자에 게 기존 사용자 음성 정책을 할당 하려면 명령 프롬프트에서 다음을 실행 합니다.
     
-   ```
+   ```powershell
    Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
    ```
 
@@ -94,13 +94,13 @@ Enterprise Voice 사용자 또는 전화 접속 회의 사용자에 대 한 사�
     
 3. 사용자 지정 다이얼 플랜을 할당 하려면 명령 프롬프트에서 다음을 실행 합니다.
     
-   ```
+   ```powershell
    Grant-CsDialPlan -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
    ```
 

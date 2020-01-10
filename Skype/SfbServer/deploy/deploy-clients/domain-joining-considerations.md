@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: 이 항목에서는 Skype 채팅방 시스템 기기 PC를 도메인에 참가 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 1cf95f416fabcdeabb878b204af25e262427ab07
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b34161f946b2c79508555145635445214159bd61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774666"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003518"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype 채팅방 시스템 도메인 참가 고려 사항
  
@@ -53,7 +53,7 @@ Skype 채팅방 System 기기 PC를 Active Directory 도메인에 가입 하거�
     
 Skype room 시스템 컴퓨터를 도메인에 참가 하는 경우, 실수로 Skype 채팅방 시스템을 Gpo에서 사용할 수 없는 의도 하지 않은 OU에 가입 하는 것을 방지 하려면 올바른 OU에 가입 하 고 있는지 확인 하세요. Skype 대화방 시스템 컴퓨터에서 다음 cmdlet을 사용 하 여 올바른 OU에 가입 하 고 LRS 기능을 차단할 수 있는 Gpo를 수신 하지 않습니다. 다음 cmdlet을 실행 하려면 시스템 관리자 또는 OEM 파트너에 게 문의 하세요.
   
-```
+```powershell
 $username = "contso.local\LRS01"
 $password = ConvertTo-SecureString "password123" -AsPlainText -Force
 $myCred = New-Object System.Management.Automation.PSCredential $username, $password

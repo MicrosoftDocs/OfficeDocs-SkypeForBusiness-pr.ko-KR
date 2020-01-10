@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 비즈니스용 Skype Server Enterprise Voice에서 응답 그룹 워크플로를 디자인 하 고 만듭니다. 헌트 그룹 워크플로 및 대화형 워크플로 둘 다에 적용 됩니다.
-ms.openlocfilehash: 9e056070bb01b5ee3cc7f32a8f9d07520fcb2030
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5b48816a3eb528a1ff96097c135697d8f9cb22d8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240765"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002588"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>비즈니스용 Skype에서 응답 그룹 워크플로 디자인 및 만들기
 
@@ -100,7 +100,7 @@ ms.locfileid: "36240765"
 
 16. **2 단계에서 언어를 선택**하 고 음성 인식 및 텍스트 음성 변환에 사용할 언어를 클릭 합니다.
 
-17. 환영 메시지를 구성 하려면 **3 단계에서 환영 메시지 구성**확인란을 선택 하 고 다음 중 하나 **** 를 수행 합니다.
+17. 환영 메시지를 구성 하려면 **3 단계에서 환영 메시지 구성**확인란을 선택 하 고 다음 중 하나를 **수행 합니다.**
 
     - 환영 메시지를 발신자를 위해 음성으로 변환 되는 텍스트로 입력 하려면 **텍스트 음성 변환 사용**을 클릭 한 다음 텍스트 상자에 환영 메시지를 입력 합니다.
 
@@ -206,13 +206,13 @@ ms.locfileid: "36240765"
 
 3. 환영 메시지에 대해 재생할 프롬프트를 만들고 변수에 저장 합니다. 명령줄에서 다음을 실행 합니다.
 
-   ```
+   ```powershell
    $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
     예를 들면 다음과 같습니다.
 
-   ```
+   ```powershell
    $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "Welcome to Contoso. Please wait for an available agent."
    ```
 
@@ -221,7 +221,7 @@ ms.locfileid: "36240765"
 
 4. 호출이 리디렉션되는 큐 또는 질문의 id를 가져옵니다. 명령줄에서 다음을 실행 합니다.
 
-   ```
+   ```powershell
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
@@ -229,7 +229,7 @@ ms.locfileid: "36240765"
 
 5. 업무 시간 동안 워크플로가 열려 있을 때 수행할 기본 작업을 정의 하 고 변수에 저장 합니다. 명령줄에서 다음을 실행 합니다.
 
-   ```
+   ```powershell
    $actionWM = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken> -QueueID $qid
    ```
 
@@ -238,7 +238,7 @@ ms.locfileid: "36240765"
 
     예를 들면 다음과 같습니다.
 
-   ```
+   ```powershell
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
@@ -248,19 +248,19 @@ ms.locfileid: "36240765"
 
 8. Lync Server 응답 그룹 서비스의 서비스 이름을 검색 하 여 변수에 할당 합니다. 명령에서 다음을 실행 합니다.
 
-   ```
+   ```powershell
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 9. 워크플로를 만들거나 수정 합니다. 워크플로를 만들려면 **New-CsRgsWorkflow**을 사용 합니다. 워크플로를 수정 하려면 **Set-CsRgsWorkflow**를 사용 합니다. 명령줄에 다음을 입력 합니다.
 
-   ```
+   ```powershell
    $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
    ```
 
     예를 들면 다음과 같습니다.
 
-   ```
+   ```powershell
    $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
    ```
 
@@ -430,7 +430,7 @@ IVR 질문이 나 발신자의 응답은 통화를 수락 하는 응답 하는 �
 
 16. **2 단계에서 언어를 선택**하 고 음성 인식 및 텍스트 음성 변환에 사용할 언어를 클릭 합니다.
 
-17. 환영 메시지를 구성 하려면 **3 단계에서 환영 메시지 구성**확인란을 선택 하 고 다음 중 하나 **** 를 수행 합니다.
+17. 환영 메시지를 구성 하려면 **3 단계에서 환영 메시지 구성**확인란을 선택 하 고 다음 중 하나를 **수행 합니다.**
 
     - 환영 메시지를 발신자를 위해 음성으로 변환 되는 텍스트로 입력 하려면 **텍스트 음성 변환 사용**을 클릭 한 다음 텍스트 상자에 환영 메시지를 입력 합니다.
 
@@ -458,7 +458,7 @@ IVR 질문이 나 발신자의 응답은 통화를 수락 하는 응답 하는 �
 
 20. 이 워크플로에 대 한 사용자 지정 일정을 만드는 경우 응답 그룹을 사용할 수 있는 요일의 확인란을 클릭 합니다.
 
-21. 사용자 지정 일정을 만드는 경우 응답 그룹을 사용할 **** 수 있는 시간을 입력 하 고 **닫습니다** .
+21. 사용자 지정 일정을 만드는 경우 응답 그룹을 사용할 수 있는 **시간을 입력 하 고** **닫습니다** .
 
      > [!NOTE]
      > **열기** 시간과 **종료** 시간은 24 시간 표기 형식 이어야 합니다. 예를 들어, office가 9 ~ 5 개의 작업일로 근무 하 고 점심 시간에 종료 되는 경우 업무 시간은 **열린** 9:00, **종료** 12:00, **열기** 13:00 및 **닫기** 17:00로 지정 됩니다.
@@ -546,7 +546,7 @@ IVR 질문이 나 발신자의 응답은 통화를 수락 하는 응답 하는 �
 
     - 발신자가 음성을 사용 하 여 응답할 수 있도록 허용 하려면 **음성 응답 입력**에 대답을 입력 합니다.
 
-    - 키패드에서 키를 눌러 발신자가 응답할 수 있도록 허용 하려면 키패드 숫자를 클릭 합니다. ****
+    - 키패드에서 키를 눌러 발신자가 응답할 수 있도록 허용 하려면 키패드 **숫자를 클릭**합니다.
 
 30. 호출자를 큐로 보낼지 아니면 다음과 같이 다른 질문을 요청할지 여부를 지정 합니다.
 
@@ -566,75 +566,75 @@ IVR 질문이 나 발신자의 응답은 통화를 수락 하는 응답 하는 �
 
 3. 응답 그룹 서비스의 서비스 이름을 검색 하 고 변수에 할당 합니다. 명령줄에서 다음을 실행 합니다.
 
-   ```
+   ```powershell
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 4. 대화형 워크플로에는 두 개 이상의 큐와 두 개 이상의 에이전트 그룹이 필요 합니다. 먼저 에이전트 그룹을 만듭니다. 런
 
-   ```
+   ```powershell
    $AGSupport = New-CsRgsAgentGroup -Parent $serviceId -Name "Technical Support" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:agent1@contoso.com", "sip:agent2@contoso.com")]
    $AGSales = New-CsRgsAgentGroup -Parent $serviceId -Name "Sales Team" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:bob@contoso.com", "sip:alice@contoso.com")]
    ```
 
 5. 큐를 만듭니다. 런
 
-   ```
+   ```powershell
    $QSupport = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Support" -AgentGroupIDList($AG-Support.Identity)
    $QSales = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Sales" -AgentGroupIDList($AG-Sales.Identity)
    ```
 
 6. 첫 번째 응답 그룹 메시지를 만듭니다. 런
 
-   ```
+   ```powershell
    $SupportPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please be patient while we connect you with Contoso Technical Support."
    ```
 
 7. 그런 다음 프롬프트 후에 수행할 작업을 만듭니다. 런
 
-   ```
+   ```powershell
    $SupportAction = New-CsRgsCallAction -Prompt $SupportPrompt -Action TransferToQueue -QueueID $QSupport.Identity
    ```
 
 8. 첫 번째 응답 그룹 응답을 만듭니다. 런
 
-   ```
+   ```powershell
    $SupportAnswer = New-CsRgsAnswer -Action $SupportAction [-DtmfResponse 1]
    ```
 
 9. 이제 두 번째 프롬프트를 만들고, 착신 동작을 수행 하 고, 응답 합니다. 먼저 프롬프트를 만듭니다. 런
 
-   ```
+   ```powershell
    $SalesPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please hold while we connect you with Contoso Sales."
    ```
 
 10. 두 번째 호출 작업을 만듭니다. 런
 
-    ```
+    ```powershell
     $SalesAction = New-CsRgsCallAction -Prompt $SalesPrompt -Action TransferToQueue -QueueID $QSales.Identity
     ```
 
 11. 두 번째 응답 그룹 응답을 만듭니다. 런
 
-    ```
+    ```powershell
     $SalesAnswer = New-CsRgsAnswer -Action $SalesAction [-DtmfResponse 2]
     ```
 
 12. 최상위 수준의 프롬프트를 만듭니다. 런
 
-    ```
+    ```powershell
     $TopLevelPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Thank you for calling Contoso. For Technical Support, press 1. For a Sales Representative, press 2."
     ```
 
 13. 최상위 수준의 질문을 만듭니다. 런
 
-    ```
+    ```powershell
     $TopLevelQuestion = New-CsRgsQuestion -Prompt $TopLevelPrompt [-AnswerList ($SupportAnswer, $SalesAnswer)]
     ```
 
 14. 이제 워크플로를 만듭니다. 런
 
-    ```
+    ```powershell
     $IVRAction = New-CsRgsCallAction -Action TransferToQuestion [-Question $Question]
     $IVRWorkflow = New-CsRgsWorkflow -Parent $ServiceId -Name "Contoso Helpdesk" [-Description "The Contoso Helpdesk line."] -PrimaryUri "sip:helpdesk@contoso.com" [-LineUri tel:+14255554321] [-DisplayNumber "+1 (425) 555-4321"] [-Active $true] [-Anonymous $true] [-DefaultAction $IVRAction] [-Managed $true] [-ManagersByURI ("sip:mindy@contoso.com", "sip:bob@contoso.com")]
     ```

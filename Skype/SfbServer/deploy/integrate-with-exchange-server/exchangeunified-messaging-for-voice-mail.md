@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: '요약: 비즈니스용 Skype 서버 음성 메일에 대 한 Exchange Server 통합 메시징을 구성 합니다.'
-ms.openlocfilehash: 514b2159c3836aee4bd6bcfad2b85311280277c4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 61df3cb7f57a0fd924188f43374f0309d081b660
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238009"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001208"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>비즈니스용 Skype 서버 2015 음성 사서함에 대해 Exchange Server 2013 통합 메시징 구성
  
@@ -30,7 +30,7 @@ ms.locfileid: "36238009"
   
 비즈니스용 Skype 서버와 Exchange Server 2016 또는 Exchange Server 2013 간에 서버 간 인증을 이미 구성한 경우에는 통합 메시징을 설정할 준비가 된 것입니다. 이렇게 하려면 먼저 Exchange Server에서 새 통합 메시징 다이얼 플랜을 만들고 할당 해야 합니다. 예를 들어 Exchange 관리 셸에서 실행 되는 다음 두 명령은 Exchange에 대 한 새로운 3 자리 다이얼 플랜을 구성 합니다.
   
-```
+```powershell
 New-UMDialPlan -Name "RedmondDialPlan" -VoIPSecurity "Secured" -NumberOfDigitsInExtension 3 -URIType "SipName" -CountryOrRegionCode 1
 Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,*,*" -AllowedInCountryOrRegionGroups "Anywhere"
 ```
@@ -52,13 +52,13 @@ Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,
   
 새 다이얼 플랜을 만들고 구성한 후에는 통합 메시징 서버에 새 다이얼 플랜을 추가 하 고 해당 서버의 시작 모드를 수정 해야 합니다. 특히 시작 모드를 "이중"으로 설정 해야 합니다. Exchange 관리 셸에서는 다음 두 작업을 모두 수행할 수 있습니다.
   
-```
+```powershell
 Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 ```
 
 통합 메시징 서버를 구성한 후에는 다음 ExchangeCertificate cmdlet을 실행 하 여 Exchange 인증서가 통합 메시징 서비스에 적용 되었는지 확인 해야 합니다.
   
-```
+```powershell
 Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
 ```
 
@@ -66,7 +66,7 @@ Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint
   
 통합 메시징 서버의 구성을 마친 후에는 UM 호출 라우터를 구성할 수 있습니다.
   
-```
+```powershell
 Set-UMCallRouterSettings -Server "atl-exchange-001.litwareinc.com" -UMStartupMode "Dual" -DialPlans "RedmondDialPlan" 
 Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "45BAA32496CC891169B75B9811320F78A1075DDA" -Services "IIS","UMCallRouter"
 ```
@@ -75,13 +75,13 @@ Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint
   
 통합 메시징 설정을 완료 하려면 UM 사서함 정책을 만든 다음 해당 정책을 사용 하 여 사용자가 통합 메시징을 사용할 수 있도록 해야 합니다. 다음과 같은 명령을 사용 하 여 사서함 정책을 만들 수 있습니다.
   
-```
+```powershell
 New-UMMailboxPolicy -Name "RedmondMailboxPolicy" -AllowedInCountryOrRegionGroups "Anywhere"
 ```
 
 그리고 다음과 같은 명령을 사용 하 여 사용자에 게 통합 메시징을 사용할 수 있습니다.
   
-```
+```powershell
 Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com" -Identity "litwareinc\kenmyer" -UMMailboxPolicy "RedmondMailboxPolicy"
 ```
 
@@ -89,14 +89,14 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
   
 사서함을 사용 하도록 설정한 후에는 사용자 kenmyer@litwareinc.com Exchange 통합 메시징을 사용할 수 있어야 합니다. 비즈니스용 Skype Server Management Shell 내에서 [CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexumconnectivity?view=skype-ps) cmdlet을 실행 하 여 사용자가 Exchange UM에 연결할 수 있는지 확인할 수 있습니다.
   
-```
+```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-통합 메시징을 사용 하도록 설정 된 두 번째 사용자가 있는 경우,이 두 번째 사용자 [](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) 가 첫 번째 사용자에 대 한 보이스 메일 메시지를 남길 수 있는지 여부를 확인할 수 있습니다.
+통합 메시징을 사용 하도록 설정 된 두 번째 사용자가 있는 [경우,이](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) 두 번째 사용자가 첫 번째 사용자에 대 한 보이스 메일 메시지를 남길 수 있는지 여부를 확인할 수 있습니다.
   
-```
+```powershell
 $credential = Get-Credential "litwareinc\pilar"
 Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential
 ```
@@ -105,7 +105,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>Microsoft Exchange Server에서 통합 메시징 구성 
 > [!IMPORTANT]
-> UM (통합 메시징)를 사용 하 여 엔터프라이즈 음성 사용자에 대 한 전화 응답, Outlook Voice Access 또는 자동 전화 교환 서비스를 제공 하려는 경우 [비즈니스용 Skype에서 Exchange 통합 메시징 통합에 대 한 계획](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)을 읽고 다음을 따르세요. 이 섹션에 설명 되어 있습니다. 
+> UM (통합 메시징)을 사용 하 여 엔터프라이즈 음성 사용자를 위한 전화 접속, Outlook Voice Access 또는 자동 전화 교환 서비스를 제공 하려는 경우 [비즈니스용 Skype에서 Exchange 통합 메시징 통합에 대 한 계획](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)을 읽은 다음이 섹션의 지침을 따릅니다. 
 
 엔터프라이즈 음성으로 작업 하도록 Exchange UM (통합 메시징)를 구성 하려면 다음 작업을 수행 해야 합니다.
 

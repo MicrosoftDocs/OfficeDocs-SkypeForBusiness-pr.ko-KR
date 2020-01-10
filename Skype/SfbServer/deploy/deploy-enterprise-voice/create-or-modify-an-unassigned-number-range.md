@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 비즈니스용 Skype Server Enterprise Voice에서 알림 신청에 대해 할당 되지 않은 번호 범위를 만들거나 수정 하거나 삭제 합니다. 이는 할당 되지 않은 번호로의 호출이 처리 되는 방식에 영향을 줍니다.
-ms.openlocfilehash: f3d646e2d838312ee90453c66d1e7bf239cf1537
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c52cbf8e281307ad75023f3edc8b4ec1d77f4b42
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233525"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001668"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 할당 되지 않은 번호 범위 만들기 또는 수정
  
@@ -102,31 +102,31 @@ ms.locfileid: "36233525"
     
    - 알림 서비스에 대 한 번호 범위를 만들려면 다음을 실행 합니다.
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -AnnouncementName <announcement name> -AnnouncementService <FQDN or service ID of the Announcement service>
      ```
 
    - 또는 Exchange UM 자동 전화 교환에 대 한 숫자 범위를 만들려면 다음을 실행 합니다.
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber <phone number> -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range>
      ```
 
      예를 들면 다음과 같습니다.
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100" -AnnouncementName "Welcome Announcement" -AnnouncementService ApplicationServer:Redmond.contoso.com
      ```
 
      또는
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber "+12065551234" -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100"
      ```
 
      다음 예제에서는 기존에 할당 되지 않은 숫자 범위에서 숫자를 수정 하는 방법을 보여 줍니다.
     
-     ```
+     ```powershell
      Set-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551900"
      ```
 
@@ -154,13 +154,13 @@ ms.locfileid: "36233525"
     
 3. 명령줄에 다음을 입력 합니다.
     
-   ```
+   ```powershell
    Remove-CsUnassignedNumber -Identity "<name of unassigned number range>" 
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    Remove-CsUnassignedNumber -Identity "Unassigned range 1"
    ```
 

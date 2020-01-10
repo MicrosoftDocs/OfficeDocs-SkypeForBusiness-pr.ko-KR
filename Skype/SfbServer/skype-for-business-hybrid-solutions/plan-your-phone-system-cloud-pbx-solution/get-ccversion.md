@@ -1,5 +1,5 @@
 ---
-title: 다운로드-CcVersion
+title: Get-CcVersion
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
 description: 클라우드 커넥터 기기의 버전을 반환 합니다. Get-CCVersion은 클라우드 커넥터의 호스트 컴퓨터 에서만 사용할 수 있습니다.
-ms.openlocfilehash: b002b4a9f0cae34a2cdd7b8817e86a3e4ec2eb9a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a7d50bbcd01dc80fe3e2202286c1adc1b5d5f9bd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190749"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003348"
 ---
-# <a name="get-ccversion"></a>다운로드-CcVersion
+# <a name="get-ccversion"></a>Get-CcVersion
  
 클라우드 커넥터 기기의 버전을 반환 합니다. Get-CCVersion은 클라우드 커넥터의 호스트 컴퓨터 에서만 사용할 수 있습니다.
   
-```
+```powershell
 Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
 ```
 
@@ -43,7 +43,7 @@ Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
 
 다음 예제에서는 열려 있는 PowerShell 콘솔에서 현재 실행 중인 스크립트의 클라우드 커넥터 버전을 보여 줍니다.
   
-```
+```powershell
 Get-CcVersion
 ```
 
@@ -51,7 +51,7 @@ Get-CcVersion
 
 다음 예제에서는 가상 컴퓨터에 배포 된 현재 실행 중인 이진 파일의 클라우드 커넥터 버전을 보여 줍니다. Hyper-v 관리자의 실행 중인 가상 컴퓨터 이름에서 버전을 확인할 수 있습니다.
   
-```
+```powershell
 Get-CCVersion -VersionType RunningBits
 ```
 

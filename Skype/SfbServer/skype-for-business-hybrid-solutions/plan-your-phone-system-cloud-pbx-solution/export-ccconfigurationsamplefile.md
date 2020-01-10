@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
 description: Export-CcConfigurationSampleFile cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 샘플 구성 파일 (.ini)을 클라우드 커넥터 기기의 기기 디렉터리로 내보냅니다. 배포에 사용할 파일을 수정 하 고 이름을 바꿀 수 있습니다.
-ms.openlocfilehash: 440253bc6b9c4e980a6f7ac4aae0c82ebad05660
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b62d5d7ffa9e8f10aeae509201c5aa0a1e7fa0a4
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190803"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003428"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
@@ -24,7 +24,7 @@ Export-CcConfigurationSampleFile cmdlet은 비즈니스용 Skype 클라우드 �
   
 이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 1.4.1, 1.4.2에 적용 됩니다.
   
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -39,7 +39,7 @@ Export-CcConfigurationSampleFile
 
 다음 예제에서는 Microsoft 사이트에서 샘플 구성 파일을 다운로드 하 여 클라우드 커넥터 기기의 기기 디렉터리에 기록 합니다.
   
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 

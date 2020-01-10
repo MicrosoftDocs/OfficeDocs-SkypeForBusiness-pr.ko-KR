@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: '요약: 비즈니스용 Skype 서버에서 일부 또는 모든 사용자에 대해 작업을 통해 통화를 배포 하는 방법을 알아봅니다.'
-ms.openlocfilehash: d1c55e44cae944664a51eaddb2ad54e758d4f52c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d989c05b6b2b3e01a3a96e66133ec314029329e1
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234523"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002708"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 작업을 통해 통화 배포
  
@@ -58,13 +58,13 @@ ms.locfileid: "36234523"
 
 - 다음 cmdlet을 입력 합니다.
     
-  ```
+  ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +<PhoneNumber>
   ```
 
     예를 들어 다음 cmdlet은 전역 전화 번호를 1-555-123-4567으로 설정 합니다.
     
-  ```
+  ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +15551234567
   ```
 
@@ -72,13 +72,13 @@ ms.locfileid: "36234523"
 
 - 다음 cmdlet을 입력 합니다.
     
-  ```
+  ```powershell
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
     예를 들어 다음 cmdlet은 ContosoUser1CvWP 이라는 작업 정책을 통해 전화를 만들고, 사용자가 관리 콜백 번호를 사용 해야 하며, 해당 콜백 번호를 1-555-789-1234로 설정 합니다.
     
-  ```
+  ```powershell
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
@@ -86,13 +86,13 @@ ms.locfileid: "36234523"
 
 - 다음 cmdlet을 입력 합니다.
     
-  ```
+  ```powershell
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
     예를 들어 다음 cmdlet은 작업 정책 "ContosoUser1CvWP"를 통해 호출을 **ContosoUser1**라는 사용자에 게 할당 합니다.
     
-  ```
+  ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
   ```
 

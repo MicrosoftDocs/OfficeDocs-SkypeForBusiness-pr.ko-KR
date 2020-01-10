@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀을 사용 하 여 클라우드 통화 큐 용 전화 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e55028bb3e77291e6ed69069b09d812907fc35fb
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 95cf9701705950d997e1d200fee117b5f8f9738b
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39211980"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005196"
 ---
 # <a name="create-a-cloud-call-queue"></a>클라우드 통화 큐 만들기
 
@@ -36,6 +36,7 @@ ms.locfileid: "39211980"
 - 다른 사용자가 대기 중에 음악을 볼 수 있습니다.
 - 메일 사용이 가능한 메일 그룹의 통화 에이전트와 보안 그룹에서 통화를 리디렉션합니다.
 - 큐 최대 크기, 시간 제한 및 통화 처리 옵션 등의 다른 매개 변수를 설정 합니다.
+- 호출자가 조직에 대 한 메시지를 남기기 위해 보이스 메일을 공유 했습니다.
 
 [리소스 계정을](manage-resource-accounts.md)사용 하 여 전화 번호를 통화 대기열과 연결 합니다. 전화 큐는 직접 전화를 걸거나 자동 전화 교환에서 선택 하 여 액세스할 수 있습니다.
 
@@ -165,9 +166,11 @@ ms.locfileid: "39211980"
 
 ### <a name="select-the-call-answering-options"></a>통화 응답 옵션 선택
 
-![번호 매기기 설명선이 있는 통화 응답 옵션 스크린샷](media/5d249515-d532-4af2-90da-011404028b89.png)
+![통화 응답 옵션 스크린샷](media/5d249515-d532-4af2-90da-011404028b89.png) 
 
-![이전 스크린샷의 설명선을 참조 하는 숫자 1의 아이콘](media/sfbcallout1.png)
+개별 에이전트를 그룹에 추가 하지 않고 직접 추가 하려면 **사용자 추가**를 클릭 합니다. 개별 에이전트는 전화를 받을 순서 대로 설정 합니다. 20 개 이상의 개별 에이전트를 추가 하 여 그룹에 배치할 수 있습니다.
+
+호출은 먼저 개별 에이전트로 라우팅 한 다음 그룹의 에이전트로 전달 됩니다. 
 
 다음 메일 목록 또는 그룹 중 하나에 속한 최대 200 개의 통화 에이전트를 선택할 수 있습니다.
 
@@ -323,7 +326,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
   - [Windows PowerShell을 사용 하 여 Office 365 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
-  - [Windows PowerShell 용 컴퓨터 설정](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [Windows PowerShell용 컴퓨터 설정](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>관련 항목
 
@@ -331,6 +334,6 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 [서비스 전화 번호 가져오기](getting-service-phone-numbers.md)
 
-[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [새로운 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)

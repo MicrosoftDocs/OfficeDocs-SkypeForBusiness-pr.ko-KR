@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: 이 항목을 읽으면 단일 포리스트 온-프레미스 환경에서 Skype 대화방 시스템을 배포 하는 방법을 알아보세요.
-ms.openlocfilehash: 2d73ee2313088c653f4362139cb431e55d92015b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 091500e1abc1a5e65bb060793aca0d5babe9fb35
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775267"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002948"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype 채팅방 시스템 단일 포리스트 온-프레미스 배포
  
@@ -31,13 +31,13 @@ ms.locfileid: "36775267"
   
 1. 다음 Exchange 관리 PowerShell 명령을 실행 합니다.
     
-   ```
+   ```powershell
    Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 2. 새 사서함을 만들려는 경우에는 단일 포리스트 온-프레미스 Exchange 조직의 경우 다음 명령을 실행 합니다.
     
-   ```
+   ```powershell
    New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
@@ -45,7 +45,7 @@ ms.locfileid: "36775267"
     
 3. 모임을 수락/거절 하 여 충돌을 자동으로 해결 하도록 계정을 구성 합니다. Skype 실 시스템-Exchange의 회의실 계정은 개인이 관리할 수 있지만, 개인이 모임을 수락 하기 전에는 Skype 채팅방 시스템 홈 화면 일정에 표시 되지 않습니다.
     
-   ```
+   ```powershell
    Set-CalendarProcessing -Identity LRS01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteSubject $false -RemovePrivateProperty $false
    ```
 
@@ -53,11 +53,11 @@ ms.locfileid: "36775267"
     
    Outlook에서 모임 이끌이가 온라인 비즈니스용 Skype 모임을 하도록 하려면 다음 명령을 실행 하 여 새 계정의 메일 설명을 설정 합니다. 
     
-   ```
+   ```powershell
    Set-Mailbox -Identity LRS01@contoso.com -MailTip "This room is equipped with Lync Meeting Room (LRS), please make it a Lync Meeting to take advantage of the enhanced meeting experience from LRS"
    ```
 4. 다음 명령을 사용 하 여 지역화 된 문자열을 구성 합니다. 조직에서 요구 하는 경우 사용자 지정 번역을 추가할 수도 있습니다. 
-   ```
+   ```powershell
    $Temp = Get-Mailbox  LRS01@ contoso.com 
    $Temp.MailTipTranslations += "ES: Spanish translation of the message"
    Set-Mailbox -Identity LRS01@contoso.com -MailTipTranslations $Temp.MailTipTranslations
@@ -65,7 +65,7 @@ ms.locfileid: "36775267"
 
 5. 선택 사항: 사용자에 게 비즈니스용 Skype 회의실에 대 한 정보를 제공 하는 모임 수락 텍스트와 모임 일정을 예약 하 고 참가할 때 기대할 수 있는 항목을 구성 합니다. 
     
-   ```
+   ```powershell
    Set-CalendarProcessing -Identity LRS01 -AddAdditionalResponse $TRUE -AdditionalResponse "This is the Additional Response Text"
    ```
 
@@ -77,7 +77,7 @@ ms.locfileid: "36775267"
   
 1. Active Directory에서 다음 명령을 실행 하 여 계정 로그온을 사용 하도록 설정 합니다. 
     
-   ```
+   ```powershell
    Set-ADAccountPassword -Identity LRS01
    ```
 
@@ -85,7 +85,7 @@ ms.locfileid: "36775267"
     
 2. 비밀 번호가 설정 되 면 다음 명령을 실행 하 여 계정을 사용 하도록 설정 합니다. 
     
-   ```
+   ```powershell
    Enable-ADAccount -Identity LRS01
    ```
 
@@ -100,18 +100,18 @@ ms.locfileid: "36775267"
   
 1. 다음 명령을 실행 하 여 비즈니스용 Skype 서버 풀에서 Skype 대화방 시스템 계정을 사용 하도록 설정 합니다.
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -SipAddress "sip:LRS01@contoso.com" -domaincontroller DC-ND-001.contoso.com -RegistrarPool LYNCPool15.contoso.com -Identity LRS01
    ```
 
 2. 선택 사항:이 계정에서 엔터프라이즈 음성에 대 한 계정을 사용 하도록 설정 하 여 PSTN 전화를 걸고 받을 수 있도록 허용 합니다. Skype 채팅방 시스템에는 엔터프라이즈 음성이 필요 하지 않지만, 엔터프라이즈 음성에 대해이 기능을 사용 하도록 설정 하지 않으면, Skype 채팅방 시스템 클라이언트는 PSTN 전화 접속 기능을 제공할 수 없게 됩니다.
     
-   ```
+   ```powershell
    Set-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com -LineURItel: +14255550555;ext=50555"
    Set-CsMeetingRoom -domaincontroller DC-ND-001.contoso.com -Identity LRS01 -EnterpriseVoiceEnabled $true
    ```
 
 > [!NOTE]
-> Skype 채팅방 시스템 회의실 계정에 대해 Enterprise Voice를 사용 하도록 설정 하는 경우 조직에 적합 한 제한 된 음성 정책을 구성 하 고 있는지 확인 합니다. 비즈니스용 Skype 회의실을 공개적으로 사용할 수 있는 경우 다른 사용자가이 리소스를 사용 하 여 예약 또는 임시 모임에 참가할 수 있습니다. 모임에 참가 한 후에는 상대방이 모든 번호로 전화를 걸 수 있습니다. 비즈니스용 Skype Server에서 전화 걸기 기능에는 사용자의 음성 정책 (이 경우 모임에 참가 하는 데 사용 되는 Skype 대화방 시스템 계정)이 사용 됩니다. 이전 버전의 Lync Server에는 이끌이의 음성 정책이 사용 됩니다. 따라서 이전 버전의 Lync Server 사용자가 회의실을 예약 하 고 Skype 채팅방 시스템 룸 계정을 초대 하는 경우 모든 사용자가 비즈니스용 Skype 회의실을 사용 하 여 모임에 참가 하 고 모든 국내/지역 또는 국제 전화를 걸 수 있습니다. 번호 (이끌이는 해당 번호로 전화를 걸 수 있는 한) 
+> Skype 채팅방 시스템 회의실 계정에 대해 Enterprise Voice를 사용 하도록 설정 하는 경우 조직에 적합 한 제한 된 음성 정책을 구성 하 고 있는지 확인 합니다. 비즈니스용 Skype 회의실을 공개적으로 사용할 수 있는 경우 다른 사용자가이 리소스를 사용 하 여 예약 또는 임시 모임에 참가할 수 있습니다. 모임에 참가 한 후에는 상대방이 모든 번호로 전화를 걸 수 있습니다. 비즈니스용 Skype Server에서 전화 걸기 기능에는 사용자의 음성 정책 (이 경우 모임에 참가 하는 데 사용 되는 Skype 대화방 시스템 계정)이 사용 됩니다. 이전 버전의 Lync Server에는 이끌이의 음성 정책이 사용 됩니다. 따라서 이전 버전의 Lync Server 사용자가 회의실을 예약 하 고 Skype 채팅방 시스템 룸 계정을 초대 하는 경우, 모든 사용자는 비즈니스용 Skype 회의실을 사용 하 여 모임에 참가 하 고, 이끌이는 해당 번호로 전화를 걸 수 있는 한 국내/지역 또는 국제 전화 번호를 받을 수 있습니다. 
   
 

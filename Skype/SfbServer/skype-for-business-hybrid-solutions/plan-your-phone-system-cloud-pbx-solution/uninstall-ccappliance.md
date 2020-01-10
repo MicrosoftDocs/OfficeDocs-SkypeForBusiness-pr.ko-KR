@@ -1,5 +1,5 @@
 ---
-title: 제거-CcAppliance
+title: Uninstall-CcAppliance
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: 제거-CcAppliance cmdlet는 호스트 서버에서 실행 중인 비즈니스용 Skype 클라우드 커넥터 에디션 기기를 제거 합니다.
-ms.openlocfilehash: 337c5c489846facb1da3c177cac7a965d7550ae5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f37c3092103832c9efd3b24d2efbedf00e8f54ac
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190590"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003148"
 ---
-# <a name="uninstall-ccappliance"></a>제거-CcAppliance
+# <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
 제거-CcAppliance cmdlet는 호스트 서버에서 실행 중인 비즈니스용 Skype 클라우드 커넥터 에디션 기기를 제거 합니다. 
   
-```
+```powershell
 Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonParameters>]
 ```
 
@@ -33,7 +33,7 @@ Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonPar
 
 다음 예제에서는 호스트 서버에서 클라우드 커넥터 기기를 드레이닝 및 제거 합니다.
   
-```
+```powershell
 Uninstall-CcAppliance
 ```
 
@@ -41,7 +41,7 @@ Uninstall-CcAppliance
 
 다음 예제에서는 드레이닝 프로세스가 실패 한 경우에도 호스트 서버에서 실행 중인 클라우드 커넥터 기기를 드레이닝 및 강제 제거 합니다.
   
-```
+```powershell
 Uninstall-CcAppliance -Force
 ```
 
@@ -49,7 +49,7 @@ Uninstall-CcAppliance -Force
 
 다음 예제에서는 사용자의 확인 없이 클라우드 커넥터 백업 버전을 제거 합니다.
   
-```
+```powershell
 Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ```
 
@@ -80,12 +80,12 @@ Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[설치-CcAppliance](install-ccappliance.md)
+[Install-CcAppliance](install-ccappliance.md)
   
-[게시-CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
-[등록-CcAppliance](register-ccappliance.md)
+[Register-CcAppliance](register-ccappliance.md)
   
-[CcAppliance 등록 취소](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
 

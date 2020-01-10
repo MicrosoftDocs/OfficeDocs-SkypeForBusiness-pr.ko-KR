@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
 description: CcApplianceDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버의 작업 디렉터리를 검색 합니다. 모든 배포 파일은이 디렉터리에 저장 됩니다.
-ms.openlocfilehash: ada1b587b738d882f81557e61438d6642aa03fff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77064676062411c3417e554e422b0ffaae461191
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190800"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003408"
 ---
 # <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  
@@ -24,7 +24,7 @@ CcApplianceDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 에�
   
 이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 1.4.1, 1.4.2에 적용 됩니다.
   
-```
+```powershell
 Get-CcApplianceDirectory
 ```
 
@@ -39,7 +39,7 @@ Get-CcApplianceDirectory
 
 다음 예제에서는 클라우드 커넥터 구성 요소의 구성 및 가상 컴퓨터 파일이 저장 되는 현재 폴더를 보여 줍니다.
   
-```
+```powershell
 Get-CcApplianceDirectory
 ```
 

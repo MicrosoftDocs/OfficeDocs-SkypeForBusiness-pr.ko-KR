@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: 비즈니스용 Skype 서버에서 엔터프라이즈 음성 통화 허용 제어에 사용 되는 네트워크 간 해외 경로를 만들거나 수정 합니다.
-ms.openlocfilehash: 6bf455236dc825023cc3c8ce94ee329a464fdde4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6d9517796b2f418c39873850ee596a5effdba4e6
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233727"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001758"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 상호 지역 경로 만들기
  
@@ -37,15 +37,15 @@ ms.locfileid: "36233727"
     
 2. **새-Csnetworkinter지역 경로** cmdlet을 실행 하 여 필요한 경로를 정의 합니다. 예를 들어 다음을 실행합니다.
     
-   ```
+   ```powershell
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
    ```
 
-   ```
+   ```powershell
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
    ```
 
-   ```
+   ```powershell
    New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
    ```
 

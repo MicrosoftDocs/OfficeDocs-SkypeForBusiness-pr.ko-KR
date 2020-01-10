@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: '요약: 비즈니스용 Skype 서버와 Outlook Web App을 통합 합니다.'
-ms.openlocfilehash: b7c279dc41515d9613d8c000ab9e81164a1ccaa6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2aedd3b5e2399ae2487c0bb6da3e468d56567897
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244212"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002878"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>온-프레미스 비즈니스용 Skype 서버 및 Outlook Web App 간 통합 구성
 
@@ -37,7 +37,7 @@ Exchange Online을 사용 하 여 온-프레미스 비즈니스용 Skype 서버�
 
 비즈니스용 Skype Server Management Shell을 사용 하 여 다음 예제에 표시 된 매개 변수를 사용 하 여 **Set-CSAccessEdgeConfiguration** cmdlet을 실행 하 여 페더레이션의 Edge 서버를 구성 합니다.
 
-```
+```powershell
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 ```
 
@@ -49,7 +49,7 @@ Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 비즈니스용 Skype Server Management Shell을 사용 하 여 다음 예제의 매개 변수를 사용 하 여 **새-CsHostingProvider** cmdlet을 실행 하 여 Edge 서버에서 호스팅 공급자를 구성 합니다.
 
-```
+```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
@@ -76,14 +76,14 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 비즈니스용 Skype Server 배포의 서버 내부에서 복제 업데이트를 확인 하려면 다음 cmdlet을 실행 합니다.
 
-```
+```powershell
 Get-CsManagementStoreReplicationStatus
 ```
 모든 복제본에 대해 UpToDate 값이 TRUE를 표시 하는지 확인 합니다.
 
 변경 내용이 적용 되었는지 확인 하려면 Edge 서버에서 다음 cmdlet을 실행 합니다.
 
-```
+```powershell
 Get-CsHostingProvider -LocalStore
 ```
 표시 된 정보가 이전 단계에서 커밋된 변경 내용과 일치 하는지 두 번 확인 합니다.

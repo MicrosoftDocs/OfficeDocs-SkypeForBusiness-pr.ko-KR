@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 비즈니스용 Skype Server Enterprise Voice에서 알림 신청에 대 한 공지 사항을 만들거나 삭제 합니다. 이는 할당 되지 않은 번호로의 호출이 처리 되는 방식에 영향을 줍니다.
-ms.openlocfilehash: b9f745a4b3b5a85548cc52cc1e883159a01ec1df
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 50a55908e238dfc1e3ce3d9979d554c7115576a2
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233790"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001198"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 공지 사항 만들기 또는 삭제
 
@@ -56,21 +56,21 @@ ms.locfileid: "36233790"
 
 4. 오디오 프롬프트에 대해 다음을 실행 합니다.
 
-   ```
+   ```powershell
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
 5. 런
 
-   ```
+   ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
    ```
 
-    음성 메일로 통화를 전송 하는 경우 sip: username @ domainname, 불투명 = 앱: 보이스 메일 형식 (예: sip: bob@contoso.com, 불투명 = 앱-음성 메일) 형식의 SIPAddress를 입력 합니다. 전화 번호로 통화를 전송 하는 경우 sip: number @ domainname, user = phone 형식으로 SIPAddress를 입력 합니다 (예를 들어 sip: + 14255550121@contoso.com, user = phone).
+    음성 메일로 통화를 전송 하는 경우 sip: username@domainname, 불투명 = 앱: 음성 메일 (예: sip: bob@contoso, 불투명 = app) 형식으로 SIPAddress를 입력 합니다. 전화 번호로 통화를 전송 하는 경우 sip: number@domainname, user = phone 형식으로 SIPAddress를 입력 합니다 (예: sip: + 14255550121@contoso 사용자 = 휴대폰).
 
     예를 들어 오디오 프롬프트를 지정 하려면 다음을 실행 합니다.
 
-   ```
+   ```powershell
    $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
    Import-CsAnnouncementFile -Parent service:ApplicationServer:pool0@contoso.com -FileName "ChangedNumberMessage.wav" -Content $a
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
@@ -78,7 +78,7 @@ ms.locfileid: "36233790"
 
     예를 들어 TTS 프롬프트를 지정 하려면 다음을 실행 합니다.
 
-   ```
+   ```powershell
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
@@ -94,19 +94,19 @@ ms.locfileid: "36233790"
 
 3. 조직의 모든 공지 사항을 나열 합니다. 명령줄에서 다음을 실행 합니다.
 
-   ```
+   ```powershell
    Get-CsAnnouncement
    ```
 
 4. 결과 목록에서 삭제 하려는 공지 사항을 찾아 GUID를 복사 합니다. 그런 다음 명령줄에서 다음을 실행 합니다.
 
-   ```
+   ```powershell
    Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
    ```
 
     예를 들면 다음과 같습니다.
 
-   ```
+   ```powershell
    Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
    ```
 

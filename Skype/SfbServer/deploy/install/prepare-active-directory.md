@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: '요약: 비즈니스용 Skype 서버 설치를 위해 Active Directory 도메인을 준비 하는 방법에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: 85bd8d45cee1144ef355f0a9b0491d24529d6ff3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 114b2a91491dd440972f589ff45d86835c676bef
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245796"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41000888"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 Active Directory 준비
  
@@ -95,7 +95,7 @@ ms.locfileid: "36245796"
     
     g. **앱** 페이지에서 **비즈니스용 Skype Server Management Shell** 을 클릭 하 여 PowerShell을 시작 합니다.
     
-    넣기. 명령 가져오기-CsAdForest를 입력 하 고 enter **** 키를 누릅니다.
+    넣기. 명령 가져오기-CsAdForest **를 입력 하 고 enter 키를**누릅니다.
     
     칼럼. 결과가 **LC_FORESTSETTINGS_STATE_READY**경우 그림과 같이 포리스트가 성공적으로 준비 된 것입니다.
     
@@ -131,7 +131,7 @@ ms.locfileid: "36245796"
     
     b. 명령 가져오기-CsAdDomain을 사용 하 여 도메인 내의 복제를 확인 합니다.
     
-   ```
+   ```powershell
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
    ```
 
@@ -140,7 +140,7 @@ ms.locfileid: "36245796"
   
     Contoso. i a 지방 도메인에 대 한 명령을 실행 하는 예입니다.
     
-   ```
+   ```powershell
    Get-CsAdDomain -Domain contoso.local -GlobalSettingsDomainController dc.contoso.local
    ```
 

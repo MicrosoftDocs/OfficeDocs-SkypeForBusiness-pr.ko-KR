@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 온-프레미스 Exchange와 비즈니스용 Skype Online 간에 OAuth 인증을 구성 하면 기능 지원에서 설명 하는 비즈니스용 Skype 및 Exchange 통합 기능을 사용할 수 있습니다.
-ms.openlocfilehash: 1d64f8fe7b2d6dcf276ae34e74c84faf5c93f65a
-ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
+ms.openlocfilehash: 35dc8777ddf5c7102e99d726f916f9b8f8bb4aae
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37979781"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002898"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>비즈니스용 Skype Online 및 Exchange Server 간 통합 및 OAuth 구성 
 
@@ -49,23 +49,23 @@ Exchange server와 비즈니스용 Skype Online의 통합을 구성 하면 [기�
 
 Exchange 조직의 확인 된 도메인을 지정 합니다. 이 도메인은 온-프레미스 Exchange 계정에 사용 되는 기본 SMTP 도메인에 사용 되는 도메인과 동일 해야 합니다. 이 도메인을 확인 된 \<도메인\> 이라고 하는 절차는 다음과 같습니다. 또한 domaincontrollerfqdn \<\> 은 도메인 컨트롤러의 FQDN 이어야 합니다.
 
-``` Powershell
+```powershell
 $user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
 ```
 
 이 명령을 사용 하면 주소 목록에서 새 메일 사용자를 숨길 수 있습니다.
 
-``` Powershell
+```powershell
 Set-MailUser -Identity $user.Identity -HiddenFromAddressListsEnabled $True -DomainController <DomainControllerFQDN>
 ```
 
 다음 두 명령에서는 UserApplication 및 ArchiveApplication 관리 역할을이 새 계정에 할당 합니다.
 
-``` Powershell
+```powershell
 New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
-``` Powershell
+```powershell
 New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
@@ -73,7 +73,7 @@ New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -Doma
 
 새 파트너 응용 프로그램을 만들고 방금 만든 계정을 사용 하 게 됩니다. 온-프레미스 Exchange 조직의 Exchange PowerShell에서 다음 명령을 실행 합니다.
 
-``` Powershell
+```powershell
 New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1-ce00-000000000000 -Enabled $True -LinkedAccount $user.Identity
 ```
 
@@ -83,7 +83,7 @@ PowerShell 스크립트를 실행 하 여 다음 단계에서 비즈니스용 Sk
 
 다음 텍스트를 명명 된 PowerShell 스크립트 파일 (예: ExportAuthCert. ps1)에 저장 합니다.
 
-``` Powershell
+```powershell
 $thumbprint = (Get-AuthConfig).CurrentCertificateThumbprint
 if((test-path $env:SYSTEMDRIVE\OAuthConfig) -eq $false)
 {
@@ -107,7 +107,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 2. 예를 들어, 다음과 같이 명명 된 PowerShell 스크립트 파일에 다음 텍스트 `UploadAuthCert.ps1`를 저장 합니다.
 
-   ``` Powershell
+   ```powershell
    Connect-MsolService;
    Import-Module msonlineextended;
    $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
@@ -128,7 +128,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 ### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>6 단계: 인증서가 비즈니스용 Skype 서비스 사용자에 게 업로드 되었는지 확인
 1. Azure Active Directory로 열리고 인증 된 PowerShell에서 다음을 실행 합니다.
-```
+```powershell
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 ```
 2. ReturnKeyValues에 대 한 메시지가 나타나면 enter 키를 누릅니다.
@@ -144,12 +144,12 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 3. 저장 된 채팅 메시지가 사용자의 온-프레미스 사서함에 [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)를 사용 하 여 제거 폴더에 보관 되어 있는지 확인 합니다.
 
-또는 트래픽을 살펴봅니다. OAuth 핸드셰이크의 트래픽 (기본 인증과 유사 하지는 않음), 특히 아래와 같이 발급자 소통량을 표시 하기 시작 하는 00000004-0000-0ff1-ce00-000000000000 @ (간혹/이전 전달 되는 토큰의 @ 기호)입니다. OAuth의 지점인 사용자 이름 또는 암호는 표시 되지 않습니다. 그러나 ' Office ' 발급자가 표시 되는 경우 (이 경우 ' 4 '는 비즈니스용 Skype 이며 구독 영역입니다.)
+또는 트래픽을 살펴봅니다. OAuth 핸드셰이크의 트래픽 (기본 인증과 유사 하지는 않음), 특히 아래와 같은 발급자 트래픽 (예: @ 기호 앞/뒤에 0000000)이 전달 되는 토큰에 표시 되는 것을 알 수 있는 것은 사실입니다. OAuth의 지점인 사용자 이름 또는 암호는 표시 되지 않습니다. 그러나 ' Office ' 발급자가 표시 되는 경우 (이 경우 ' 4 '는 비즈니스용 Skype 이며 구독 영역입니다.)
 
-OAuth를 사용 하 여 성공적으로 진행 되 고 있는지 확인 하려면 예상 되는 내용과 트래픽 형태를 알아야 합니다. 이 [에](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)대 한 자세한 내용은 [Microsoft 응용 프로그램의 oauth 트래픽](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (토큰 새로 고침을 사용 하지는 않음)에 대 한 일반적인 예와 oauth JWT (JSON)를 확인 하는 데 사용할 수 있는 Fiddler 확장명을 제공 합니다. 웹 토큰).
+OAuth를 사용 하 여 성공적으로 진행 되 고 있는지 확인 하려면 예상 되는 내용과 트래픽 형태를 알아야 합니다. 이 [에](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)대 한 자세한 내용은 [Microsoft 응용 프로그램의 OAuth 트래픽](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (토큰 새로 고침을 사용 하지 않는 경우 읽기)에 대 한 일반적인 예가 있으며 Oauth JWT (JSON 웹 토큰)를 살펴볼 수 있는 Fiddler 확장이 있습니다.
 
 다음은 [설정의 예](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)입니다. 하지만 원하는 모든 네트워크 추적 도구를 사용 하 여이 프로세스를 실행할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Exchange 및 Exchange Online 조 직 간의 OAuth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

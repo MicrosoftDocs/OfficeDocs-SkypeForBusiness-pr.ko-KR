@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: 비즈니스용 Skype Server Enterprise Voice에서 통화 공원 궤도 범위 테이블을 만들거나 수정 합니다.
-ms.openlocfilehash: 305404ce74d3aec26741c0e26b999f6227dabe37
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e4dc9e9384210ec2abcceb652b814aef8c401b05
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233683"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001728"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>비즈니스용 Skype에서 통화 공원 궤도 범위 만들기 또는 수정
 
@@ -82,19 +82,19 @@ ms.locfileid: "36233683"
 
     명령줄에서 다음을 실행 합니다.
 
-   ```
+   ```powershell
    New-CsCallParkOrbit -Identity <name of orbit range> -NumberRangeStart <first number in orbit range> -NumberRangeEnd <last number in orbit range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application>
    ```
 
     예를 들면 다음과 같습니다.
 
-   ```
+   ```powershell
    New-CsCallParkOrbit -Identity "Redmond orbit 1" -NumberRangeStart 100 -NumberRangeEnd 199 -CallParkService redmond-applicationserver-1
    ```
 
     다음 예제에서는 기존 궤도 범위에서 숫자를 수정 하는 방법을 보여 줍니다.
 
-   ```
+   ```powershell
    Set-CsCallParkOrbit -Identity "Redmond orbit 1" -NumberRangeStart 500 -NumberRangeEnd 699
    ```
 

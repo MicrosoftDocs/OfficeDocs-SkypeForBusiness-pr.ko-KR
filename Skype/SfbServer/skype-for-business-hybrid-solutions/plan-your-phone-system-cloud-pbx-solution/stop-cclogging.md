@@ -1,5 +1,5 @@
 ---
-title: 중지-CcLogging
+title: Stop-CcLogging
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fee9eda7-ad15-40d2-b9fe-21c5462d3309
 description: CcLogging 중지 cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 기기의 수신 및 발신 통화 로그 생성을 중지 합니다.
-ms.openlocfilehash: dcc62e8ec772912a8275f5321a6c91e28dde8c25
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4528f7c1458093874f59f347585a736666a9ea08
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190617"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003168"
 ---
-# <a name="stop-cclogging"></a>중지-CcLogging
+# <a name="stop-cclogging"></a>Stop-CcLogging
  
 CcLogging 중지 cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 기기의 수신 및 발신 통화 로그 생성을 중지 합니다.
   
-```
+```powershell
 Stop-CcLogging [-RemoveCache]
 ```
 
@@ -33,7 +33,7 @@ Stop-CcLogging [-RemoveCache]
 
 다음 예제에서는 수신 및 발신 통화 로그의 생성을 중지 합니다. 
   
-```
+```powershell
 Stop-CcLogging
 ```
 
@@ -41,7 +41,7 @@ Stop-CcLogging
 
 다음 예제에서는 수신 및 발신 통화 로그 생성을 중지 하 고 캐시 파일을 정리 합니다.
   
-```
+```powershell
 Stop-CcLogging -RemoveCache
 ```
 
@@ -70,8 +70,8 @@ CcLogging을 중지 하는 cmdlet은 기기의 수신 및 발신 통화 기록�
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[검색-CcLog](search-cclog.md)
+[Search-CcLog](search-cclog.md)
   
-[시작-CcLogging](start-cclogging.md)
+[Start-CcLogging](start-cclogging.md)
   
 

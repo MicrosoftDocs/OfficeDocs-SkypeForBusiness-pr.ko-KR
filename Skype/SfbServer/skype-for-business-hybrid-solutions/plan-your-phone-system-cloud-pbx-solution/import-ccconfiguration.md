@@ -1,5 +1,5 @@
 ---
-title: 가져오기-CcConfiguration
+title: Import-CcConfiguration
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
 description: 로컬 파일에서 클라우드 커넥터 호스트 서버로의 비즈니스용 Skype 클라우드 커넥터 에디션 구성을 가져옵니다.
-ms.openlocfilehash: 3e165250b5158513aa683770d5eb1768c0e1e29c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c72a72351ecb6936832bc5d6a2493c5fa8dfe324
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190743"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003338"
 ---
-# <a name="import-ccconfiguration"></a>가져오기-CcConfiguration
+# <a name="import-ccconfiguration"></a>Import-CcConfiguration
  
 로컬 파일에서 클라우드 커넥터 호스트 서버로의 비즈니스용 Skype 클라우드 커넥터 에디션 구성을 가져옵니다.
   
-```
+```powershell
 Import-CcConfiguration [-Force] [<CommonParameters>]
 ```
 
@@ -31,16 +31,16 @@ Import-CcConfiguration [-Force] [<CommonParameters>]
 
 ### <a name="example-1"></a>예제 1
 
-다음 예제에서는 클라우드 커넥터 인스턴스의 기기 디렉터리에서%SystemDrive%\ProgramData\CloudConnector 디렉터리로 CloudConnector .ini를 복사 합니다.
+다음 예제에서는 클라우드 커넥터 인스턴스의 기기 디렉터리 에서%SystemDrive%\ProgramData\CloudConnector 디렉터리로 CloudConnector .ini를 복사 합니다.
   
-```
+```powershell
 Import-CcConfiguration
 ```
 
 ## <a name="detailed-description"></a>자세한 정보
 <a name="Examples"> </a>
 
-이 cmdlet은 클라우드 커넥터 기기의 기기 디렉터리에서%SystemDrive%\ProgramData\CloudConnector 디렉터리로 CloudConnector .ini을 복사 합니다. CcApplianceDirectory cmdlet을 사용 하 여 기기 디렉터리를 지정 합니다. Cmdlet이%SystemDrive%\ProgramData\CloudConnector.의 모든 기존 파일을 덮어씁니다. 이 명령은 Cloud Connector Edition 버전 2.0.1 이상에 적용 됩니다.
+이 cmdlet은 클라우드 커넥터 기기의 기기 디렉터리 에서%SystemDrive%\ProgramData\CloudConnector 디렉터리로 CloudConnector .ini을 복사 합니다. CcApplianceDirectory cmdlet을 사용 하 여 기기 디렉터리를 지정 합니다. Cmdlet 이%SystemDrive%\ProgramData\CloudConnector.의 모든 기존 파일을 덮어씁니다. 이 명령은 Cloud Connector Edition 버전 2.0.1 이상에 적용 됩니다.
   
 ## <a name="parameters"></a>매개 변수
 <a name="Examples"> </a>
@@ -62,6 +62,6 @@ Import-CcConfiguration
 ## <a name="see-also"></a>참고 항목
 <a name="Examples"> </a>
 
-수출-CcConfiguration
+Export-CcConfiguration
   
 

@@ -1,5 +1,5 @@
 ---
-title: 변환-CcIsoToVhdx
+title: Convert-CcIsoToVhdx
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: 변환-CcIsoToVhdx cmdlet은 고객이 제공 하는 Windows Server 2012 R2 ISO 파일을 사용 하 여 기본 VHDX (virtual 하드 디스크 파일)를 만듭니다. VHDX 파일은 비즈니스용 Skype 클라우드 커넥터 에디션을 배포 하는 동안 사용 됩니다.
-ms.openlocfilehash: 7b1426fe3180576e28780aeae96ee8e4913bb399
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 780002c54a77746c51f418cae077ffcc9b1fb608
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190857"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001348"
 ---
-# <a name="convert-ccisotovhdx"></a>변환-CcIsoToVhdx
+# <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
 변환-CcIsoToVhdx cmdlet은 고객이 제공 하는 Windows Server 2012 R2 ISO 파일을 사용 하 여 기본 VHDX (virtual 하드 디스크 파일)를 만듭니다. VHDX 파일은 비즈니스용 Skype 클라우드 커넥터 에디션을 배포 하는 동안 사용 됩니다.
   
-```
+```powershell
 Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpdate]
 ```
 
@@ -39,9 +39,9 @@ Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpd
 
 ### <a name="example-1"></a>예제 1
 
-다음 예제에서는 "C:\Windows_Server_2012_R2-EN-US-x64.ISO"에 있는 Windows Server 2012 R2 ISO 파일을 사용 하 여 기본 VHDX 파일을 준비 합니다. 
+다음 예에서는 "C:\ Windows_Server_2012_R2-EN-US-x64: .ISO"에 있는 Windows Server 2012 R2 ISO 파일을 사용 하 여 기본 VHDX 파일을 준비 합니다. 
   
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" 
 ```
 
@@ -49,7 +49,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO"
 
 Windows 업데이트 중에 Convert-CcIsoToVhdx cmdlet이 실패 하는 경우에는 잘못 된 네트워크/프록시 구성 때문입니다. 오류 메시지의 지침에 따라 기본 가상 컴퓨터에 로그온 하 여 문제를 해결 하 고 Windows를 수동으로 업데이트할 수 있습니다. 수동 작업이 완료 되 면-GeneralizeOnly 매개 변수를 사용 하 여 cmdlet을 다시 실행 하 여 나머지 작업을 완료 합니다. 
   
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -GeneralizeOnly
 ```
 
@@ -57,7 +57,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Gene
 
 Windows를 업데이트 하는 데 수동 구성이 필요한 경우-PauseBeforeUpdate 매개 변수를 사용할 수 있습니다. 이 매개 변수를 사용 하면 Windows 업데이트 프로세스 전에 클라우드 커넥터가 일시 중지 됩니다. 그런 다음 수동 구성을 완료 하 고 다음과 같이 변환 프로세스를 다시 시작할 수 있습니다.
   
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -PauseBeforeUpdate 
 ```
 

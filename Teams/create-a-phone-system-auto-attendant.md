@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 클라우드 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
-ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
+ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2019
-ms.locfileid: "40070226"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005198"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>클라우드 자동 전화 교환 설정
 
@@ -162,6 +162,11 @@ ms.locfileid: "40070226"
   > **조직의** 사용자는 비즈니스용 Skype 서버를 사용 하 여 온-프레미스 사용자 또는 온라인 사용자가 될 수 있습니다.
 
   - **음성 앱** 이미 설정 된 자동 전화 교환 또는 통화 대기열을 선택 합니다. 서비스와 연결 된 리소스 계정의 이름으로 자동 전화 교환 또는 통화 대기열을 검색 합니다.
+  - 보이스 **메일** 이 보이스 메일에 액세스 해야 하는 조직의 사용자를 나타내는 Office 365 그룹을 선택 합니다. 여기서는 보이스 메일을 켤 수 있습니다. Office 365 그룹이 필요 합니다.
+
+  > [!NOTE]
+> 이 자동 전화 교환 메일 계정에서 사용자에 게 전송 되는 음성 메시지는 팀에서 액세스할 수 없습니다. 전자 메일로 발송 됩니다.
+
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant.
 - **Call queue** Select the name of an auto attendant that has already been created.
@@ -207,7 +212,9 @@ ms.locfileid: "40070226"
 - **연산자** 연산자가 이미 설정 된 경우이 옵션은 키 0에 자동으로 매핑되지만, 삭제 하거나 다른 키에 다시 할당할 수도 있습니다. 이 옵션을 선택 하는 호출자가 지정 된 운영자에 게 전송 됩니다. If 연산자가 아무 키로도 설정 되어 있지 않으면 음성 명령 "연산자"를 사용할 수 없습니다. 
 - **조직의** 사용자는 비즈니스용 Skype 서버를 사용 하 여 온-프레미스 사용자 또는 온라인 사용자가 될 수 있습니다. 사용자는 Office 365에서 엔터프라이즈 음성 또는 할당 된 통화 요금제를 사용 하도록 설정 된 전화 시스템 라이선스가 있어야 합니다. **이름으로 검색** 필드에서 해당 사용자를 검색 합니다.
 
-  - **음성 앱** 이미 설정 된 자동 전화 교환 또는 통화 대기열을 선택 합니다. 응용 프로그램과 연결 된 리소스 계정의 이름으로 자동 전화 교환 또는 통화 대기열을 검색 합니다.
+- **음성 앱** 이미 설정 된 자동 전화 교환 또는 통화 대기열을 선택 합니다. 응용 프로그램과 연결 된 리소스 계정의 이름으로 자동 전화 교환 또는 통화 대기열을 검색 합니다.
+
+- 보이스 **메일** 이 보이스 메일에 액세스 해야 하는 조직의 사용자를 나타내는 Office 365 그룹을 선택 합니다. 여기서는 보이스 메일을 켤 수 있습니다. Office 365 그룹이 필요 합니다.
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
@@ -427,10 +434,10 @@ PowerShell을 사용 하 여 자동 전화 교환을 만들고 설정할 수도 
 
 [서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 
-[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
 [새로운 CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
-[클라우드 자동 전화 교환 이란?](what-are-phone-system-auto-attendants.md)
+[클라우드 자동 전화 교환이란?](what-are-phone-system-auto-attendants.md)
 
 [Small business 예 — 자동 전화 교환 설정](/microsoftteams/tutorial-org-aa)  

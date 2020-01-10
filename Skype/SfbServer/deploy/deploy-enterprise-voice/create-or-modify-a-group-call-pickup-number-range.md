@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: 비즈니스용 Skype Server Enterprise Voice에서 그룹 통화 픽업 번호 범위를 만들거나 수정 합니다.
-ms.openlocfilehash: 3098d7cf1554586dd2fd2ace934682ae58a90489
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 546fefd996286678aae77338b4e0867285670a57
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233680"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001718"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>비즈니스용 Skype에서 그룹 통화 픽업 번호 범위 만들기 또는 수정
 
@@ -56,19 +56,19 @@ ms.locfileid: "36233680"
 
     명령줄에서 다음을 실행 합니다.
 
-   ```
+   ```powershell
    New-CsCallParkOrbit -Identity <name of call pickup group range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application> -Type GroupPickup
    ```
 
     예를 들면 다음과 같습니다.
 
-   ```
+   ```powershell
    New-CsCallParkOrbit -Identity "Redmond call pickup" -NumberRangeStart 100 -NumberRangeEnd 199 -CallParkService redmond-applicationserver-1 -Type GroupPickup
    ```
 
     다음 예제에서는 통화 공원 orbits에서 pickup 그룹으로 숫자 범위를 변경 하는 방법을 보여 줍니다.
 
-   ```
+   ```powershell
    Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
    ```
 

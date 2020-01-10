@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: '요약: Exchange Server 2016 또는 Exchange Server 2013 및 비즈니스용 Skype Server에 대 한 IM 성적 증명서를 구성 합니다.'
-ms.openlocfilehash: 89aaf4d931bb3aa33358e314a4dd714fd58e8e7a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f3ada031b6dc2175ff3241b809a6288daf043010
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244154"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003568"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Exchange Server 아카이빙 사용을 위해 비즈니스용 Skype 서버 구성
 
@@ -48,13 +48,13 @@ Exchange Server에 성적 보관용을 보관 하려면 비즈니스용 Skype �
 
 EnableExchangeArchiving 속성은 부울 값입니다. Exchange 보관을 사용 하도록 EnableExchangeArchiving ($True) 설정 하거나 EnableExchangeArchiving에서 False ($False)로 설정 하 여 Exchange 보관을 사용 하지 않도록 합니다. 예를 들어이 명령을 사용 하 여 메신저 대화를 보관 하 고 Exchange 보관을 사용할 수도 있습니다.
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $True
 ```
 
 Exchange 보관을 사용 하지 않도록 설정 하려면 다음과 같은 명령을 사용 합니다 (인스턴트 메시징 보관을 사용할 수 있지만 Exchange로 보관할 수 없음) (즉, 출장을 비즈니스용 Skype 서버에 보관 됨):
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 ```
 
@@ -67,7 +67,7 @@ Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableE
 
 2. **보관 구성** 탭에서 수정할 보관 설정 모음 (예: **전역** 컬렉션)을 두 번 클릭 합니다.
 
-3. **보관 설정 편집** 창에서 **보관 설정** 드롭다운 목록을 클릭 하 고 **im 세션 보관** (인스턴트 메시징 세션만 보관) 또는 **im 및 웹 회의 세션 보관** 을 선택 합니다 (둘 다 보관 가능). 인스턴트 메시지 및 웹 회의 세션).
+3. **보관 설정 편집** 창에서 **보관 설정** 드롭다운 목록을 클릭 하 고 **im 세션** 보관 (인스턴트 메시징 세션만 보관) 또는 **im 및 웹 회의 세션** 보관 (인스턴트 메시징 및 웹 회의 세션을 보관 하려면)을 선택 합니다.
 
 4. 보관할 항목을 선택한 후 exchange **Server 통합** 확인란을 선택 하 여 exchange 보관을 사용 하도록 설정 합니다. Exchange 보관을 사용 하지 않도록 설정 하려면이 확인란의 선택을 취소 합니다.
 
@@ -88,19 +88,19 @@ Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableE
 
 기본적으로 이러한 속성 값은 모두 False로 설정 되며,이는 내부 및 외부 통신 세션도 보관 되지 않는다는 의미입니다. 전역 정책을 수정 하려면 비즈니스용 Skype 서버 관리 셸 및 CsArchivingPolicy cmdlet을 사용 하면 됩니다. 이 명령을 사용 하 여 내부 및 외부 통신 세션을 모두 보관할 수 있습니다.
 
-```
+```powershell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 또는 New-CsArchivingPolicy를 사용 하 여 사이트 범위 또는 사용자 단위 범위에서 새 정책을 만들 수 있습니다. 예를 들어이 명령은 RedmondArchivingPolicy 이라는 새 사용자별 보관 정책을 만듭니다.
 
-```
+```powershell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 사용자별 정책을 만든 경우 해당 사용자에 게 해당 정책을 할당 해야 합니다. 예를 들면 다음과 같습니다.
 
-```
+```powershell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 ```
 
@@ -120,13 +120,13 @@ Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolic
 
 예를 들어 인스턴트 메시지 및 웹 회의 기록 내용이 항상 Exchange에 보관 되도록 사용자 계정을 구성 하려면 비즈니스용 Skype 서버 관리 셸에서와 유사한 명령을 사용할 수 있습니다.
 
-```
+```powershell
 Set-CsUser -Identity "Ken Myer" -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
 사용자 그룹에 대해 동일한 보관 정책을 설정 하려는 경우 (예: 지정 된 등록자 풀에 속한 모든 사용자) 다음과 같은 명령을 사용할 수 있습니다.
 
-```
+```powershell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Set-CsUser -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
@@ -134,13 +134,13 @@ ExchangeArchivingPolicy 속성의 값을 구성 하려면 비즈니스용 Skype 
 
 특정 보관 정책을 할당 한 모든 사용자의 목록을 보려면 ExchangeArchivingPolicy 속성을 설정한 모든 사용자의 Active Directory 표시 이름을 반환 하는 다음과 유사한 명령을 사용할 수 있습니다... 초기화 되지 않음:
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -eq "Uninitialized"} | Select-Object DisplayName
 ```
 
 마찬가지로이 명령은 ExchangeArchivingPolicy 속성이 UseLyncArchivingPolicy로 설정 되지 않은 사용자의 표시 이름을 반환 합니다.
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -ne "UseLyncArchivingPolicy"} | Select-Object DisplayName
 ```
 

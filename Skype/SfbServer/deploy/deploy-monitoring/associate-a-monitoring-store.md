@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: '요약: 비즈니스용 Skype 서버에서 사용 되는 모니터링 저장소와 프런트 엔드 풀을 연결 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 66d51e89a41c5e6ce2608b4fe8ecd1c4af336b6b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 17f7cbf7d8725fc3d1c23f161060d9bb386cea19
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239994"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001228"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 프런트 엔드 풀에 모니터링 저장소 연결 
 **요약:** 비즈니스용 Skype 서버에서 사용 되는 모니터링 저장소와 프런트 엔드 풀을 연결 하는 방법에 대해 알아봅니다.
@@ -40,7 +40,7 @@ ms.locfileid: "36239994"
     
 6. **속성 편집** 대화 상자의 **일반** 탭에서 **모니터링 옵션 (CDR 및 체감 품질 메트릭스)** 을 선택한 다음 **sql SERVER Store 모니터링** 드롭다운 목록에서 기존 SQL Server 데이터베이스를 선택 합니다. (또는 **새로 만들기** 를 클릭 하 여 풀을 새 데이터베이스 저장소와 연결 합니다.) 새 데이터베이스 저장소를 사용 하도록 선택한 경우 **새 Sql 저장소 정의** 대화 상자에서 sql SERVER의 **FQDN** (정규화 된 도메인 이름) 확인란 해당 저장소에 대 한 기본 SQL Server 인스턴스를 사용 하려는 경우 **기본 인스턴스**를 선택 합니다. 그렇지 않으면 **명명 된 인스턴스** 를 선택 하 고 명명 된 **인스턴스** 상자에 인스턴스 이름을 입력 합니다.
     
-    **속성 편집** 대화 상자에는 모니터링 데이터베이스에 대 한 sql 미러를 만들 수 있는 옵션 (sql 미러)을 제공 하 여 모니터링 저장소 컴퓨터에 저장 한 복사본 한 개와 SQL 미러 컴퓨터). 미러링 기능을 사용 하도록 설정 하려면 해당 **SQL 인스턴스가 미러링 관계에 있는** T를 선택 하 고 **미러링 포트 번호** 상자에 미러 서버의 포트 번호를 입력 합니다.
+    **속성 편집** 대화 상자에는 모니터링 데이터베이스에 대 한 sql 미러를 만들 수 있는 옵션이 제공 됩니다 (SQL 미러를 통해 모니터링 데이터베이스의 복사본 두 개, 모니터링 저장소 컴퓨터에 저장 된 복사본 한 개, SQL 미러 컴퓨터에는 한 부만 유지 관리) 할 수도 있습니다. 미러링 기능을 사용 하도록 설정 하려면 해당 **SQL 인스턴스가 미러링 관계에 있는** T를 선택 하 고 **미러링 포트 번호** 상자에 미러 서버의 포트 번호를 입력 합니다.
     
 7. **속성 편집** 대화 상자에서 **확인**을 클릭 합니다.
     
@@ -54,7 +54,7 @@ ms.locfileid: "36239994"
     
 토폴로지가 게시 된 후 모니터링 저장소를 호스팅할 컴퓨터에 모니터링 데이터베이스를 설치할 수 있습니다. 모니터링 데이터베이스는 비즈니스용 Skype 서버 관리 셸 및 Windows PowerShell을 사용 하 여 설치할 수 있습니다. 로컬에서 데이터베이스를 설치 하려면 (즉, 비즈니스용 Skype Server Management Shell을 실행 중인 컴퓨터에 데이터베이스를 설치 하려면) 해당 컴퓨터에서 관리 셸을 시작 하 고 다음 명령을 입력 한 다음 enter 키를 누릅니다.
   
-```
+```powershell
 Install-CsDatabase -LocalDatabases
 ```
 
@@ -64,7 +64,7 @@ Install-CsDatabase -LocalDatabases
   
 예를 들어이 명령은 컴퓨터 atl-sql-001.litwareinc.com에 모니터링 데이터베이스를 설치 합니다.
   
-```
+```powershell
 Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn atl-sql-001.litwareinc.com
 ```
 

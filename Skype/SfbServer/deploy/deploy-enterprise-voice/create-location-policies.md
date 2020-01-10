@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: 비즈니스용 Skype Server Enterprise Voice에서 향상 된 응급 서비스 (E9-1-1) 위치 정책을 구성 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 24bcd891bd30a007411fd2436219c4c10ead0c24
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b7511de949e1c67fdf7a828d06826d22826f5694
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233730"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41000878"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 위치 정책 만들기
 
@@ -62,18 +62,18 @@ Skype for 비즈니스용 제어판을 사용 하거나 [새-CsLocationPolicy](h
 
 2. 필요에 따라 다음 cmdlet을 실행 하 여 전역 위치 정책을 편집 합니다.
 
-   ```
+   ```powershell
    Set-CsLocationPolicy -Identity Global -EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -PstnUsage "emergencyUsage" -EmergencyDialString "911" -ConferenceMode "twoway" -ConferenceUri "sip:+14255550123@litwareinc.com" -EmergencyDialMask "112" NotificationUri "sip:security@litwareinc.com" -UseLocationForE911Only $true -LocationRefreshInterval 2
    ```
 
 3. 다음을 실행 하 여 태그가 지정 된 위치 정책을 만듭니다.
 
-   ```
+   ```powershell
    New-CsLocationPolicy -Identity Tag:Redmond - EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -UseLocationForE911Only $false -PstnUsage "EmergencyUsage" -EmergencyDialString "911" -EmergencyDialMask "112" -NotificationUri "sip:security@litwareinc.com" -ConferenceUri "sip:+14255550123@litwareinc.com" -ConferenceMode "twoway" -LocationRefreshInterval 2
    ```
 
 4. 3 단계에서 만든 태그가 지정 된 위치 정책을 사용자 정책에 적용 하려면 다음 cmdlet을 실행 합니다.
 
-   ```
+   ```powershell
    (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond
    ```

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 이 항목에서는 Office 365에서 Skype 대화방 시스템 계정을 구축 하는 방법에 대해 자세히 알아보세요.
-ms.openlocfilehash: 830c0e33a15639f3c78197d084748bb3b2cde600
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 66686af36e3f71f91114d10eb448dd0a77ad1a57
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231269"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003018"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Office 365에서 Skype 대화방 시스템 계정 프로 비전
  
@@ -71,7 +71,7 @@ Exchange에 일정 기능을 제공 하는 리소스 공간 사서함이 이미 
   
 Skype 채팅방 시스템의 기존 리소스 공간 사서함 계정을 설정 하려면 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
   
-```
+```powershell
 $rm="confrm1@contoso.onmicrosoft.com"
 $newpass='pass@word1'
 Set-Mailbox -Identity $rm  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
@@ -79,7 +79,7 @@ Set-Mailbox -Identity $rm  -EnableRoomMailboxAccount $true -RoomMailboxPassword 
 
 Skype 대화방 시스템용 새 Exchange 리소스 사서함 계정을 만들려면 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
   
-```
+```powershell
 $rm="confrm2@contoso.onmicrosoft.com"
 $newpass='pass@word1'
 New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
@@ -101,7 +101,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
   
 1. 원격 PowerShell 세션을 만듭니다. 비즈니스용 Skype Online 커넥터 모듈 및 Microsoft Online Services 로그인 도우미를 다운로드 하 고 컴퓨터가 구성 되어 있는지 확인 합니다. 자세한 내용은 [Windows PowerShell 용 컴퓨터 설정을](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)참조 하세요.
     
-   ```
+   ```powershell
    Import-Module LyncOnlineConnector
    $cssess=New-CsOnlineSession -Credential $cred
    Import-PSSession $cssess -AllowClobber
@@ -109,13 +109,13 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 2. 비즈니스용 Skype에 대해 Skype 대화방 시스템 계정을 사용 하도록 설정 하려면 다음 명령을 실행 합니다.
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
     다음 명령을 사용 하 여이 속성을 반환 하 여 기존 계정 중 하나에서 비즈니스용 Skype 사용자가 속한 RegistrarPool 주소를 가져올 수 있습니다.
     
-   ```
+   ```powershell
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
@@ -128,14 +128,14 @@ Office 365에서 다른 암호 만료 정책을 구성 하지 않는 한 모든 
   
 1. 테 넌 트 전역 관리자 자격 증명을 사용 하 여 Windows Azure Active Directory 세션을 만듭니다.
     
-    ```
+    ```powershell
     $cred=Get-Credential admin@$org
     Connect-MsolService -Credential $cred
     ```
 
 2. 다음 명령을 사용 하 여 이전에 만든 Skype 채팅방 시스템 룸 계정에 대 한 암호 사용 기간 제한 없음 설정을 설정 합니다.
     
-   ```
+   ```powershell
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 

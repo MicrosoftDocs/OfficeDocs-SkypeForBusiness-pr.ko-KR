@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: 비즈니스용 Skype 서버 배포에서 Always On 가용성 그룹을 배포 (설치) 합니다.
-ms.openlocfilehash: 2cfc75aecd53a82e146feefd944134a4695c21fe
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eadf3c67f5d2618d7070c2a3540c2a9ad08b5942
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240129"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002918"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 백 엔드 서버에 Always On 가용성 그룹 배포
  
@@ -138,7 +138,7 @@ AG를 배포 하는 방법은 미러를 사용 하는 기존 풀에 배포 하 �
     
    - 비즈니스용 Skype Server Management Shell을 열고 다음 cmdlet을 입력 하 여이 복제본에 대 한 SQL 로그인을 만듭니다.
     
-   ```
+   ```powershell
    Install-CsDatabase -Update
    ```
 
@@ -152,13 +152,13 @@ AG를 배포 하는 방법은 미러를 사용 하는 기존 풀에 배포 하 �
   
 1. 비즈니스용 Skype Server Management Shell을 열고 다음 cmdlet을 입력 하 여 미러에서의 모든 데이터를 주 노드로 장애 조치 합니다.
     
-   ```
+   ```powershell
    Invoke-CsDatabaseFailover -PoolFqdn <Pool FQDN> -DatabaseType <DatabaseType> -NewPrincipal "Primary"
    ```
 
     풀의 각 데이터베이스 유형에 대해이 cmdlet을 반복 합니다. 다음 cmdlet을 사용 하 여이 풀에 저장 된 데이터베이스 형식을 모두 찾을 수 있습니다.
      
-   ```
+   ```powershell
    Get-CsPool -Identity <Pool FQDN>
    ```
 
@@ -296,7 +296,7 @@ AG를 배포 하는 방법은 미러를 사용 하는 기존 풀에 배포 하 �
     
     - 비즈니스용 Skype Server Management Shell을 열고 다음 cmdlet을 입력 하 여이 복제본에 대 한 SQL 로그인을 만듭니다.
     
-    ```
+    ```powershell
     Install-CsDatabase -Update
     ```
 
@@ -428,7 +428,7 @@ AG를 배포 하는 방법은 미러를 사용 하는 기존 풀에 배포 하 �
     
     - 비즈니스용 Skype Server Management Shell을 열고 다음 cmdlet을 입력 하 여이 복제본에 대 한 SQL 로그인을 만듭니다.
     
-      ```
+      ```powershell
       Install-CsDatabase -Update
       ```
 

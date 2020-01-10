@@ -1,5 +1,5 @@
 ---
-title: 집합-CcSiteDirectory
+title: Set-CcSiteDirectory
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: Set-CcSiteDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션의 사이트 수준 구성 파일이 저장 되는 디렉터리를 설정 합니다. 폴더에 기본 VHD 및 클라우드 커넥터 구성 파일이 포함 됩니다.
-ms.openlocfilehash: d2627da8bcd2cae5e388571457f4d6d9eb6813c9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d0cc8d2a66adb831ea2d85381902eb9d3df7ba6a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190635"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003198"
 ---
-# <a name="set-ccsitedirectory"></a>집합-CcSiteDirectory
+# <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
 Set-CcSiteDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션의 사이트 수준 구성 파일이 저장 되는 디렉터리를 설정 합니다. 폴더에 기본 VHD 및 클라우드 커넥터 구성 파일이 포함 됩니다.
   
 이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 1.4.1, 1.4.2에 적용 됩니다.
   
-```
+```powershell
 Set-CcSiteDirectory [[-Path] <string>]
 ```
 
@@ -35,7 +35,7 @@ Set-CcSiteDirectory [[-Path] <string>]
 
 다음 예에서는 사이트 루트 디렉토리를 SiteShare\CloudConnector로 \\설정 합니다.
   
-```
+```powershell
 Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ```
 

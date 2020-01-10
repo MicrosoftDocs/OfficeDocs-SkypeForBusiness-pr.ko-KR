@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 이 항목의 단계를 따라 기존 비즈니스용 Skype Cloud Connector Edition 1.4.1 또는 이후 배포의 구성을 수정 합니다.
-ms.openlocfilehash: 7e46d614a5aaf3c34d9401e2ec53ba72e8adba71
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ead952c0ba567a8e5d81c52144de597e50d24014
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190731"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002288"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>기존 클라우드 커넥터 배포의 구성 수정
  
@@ -32,13 +32,13 @@ ms.locfileid: "36190731"
   
 1. 다음 cmdlet을 실행 하 여 호스트 서버의 기존 가상 컴퓨터를 모두 제거 합니다. 
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
 2. 다음 cmdlet을 실행 하 여 기기 등록을 취소 합니다.
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -46,19 +46,19 @@ ms.locfileid: "36190731"
     
 4. 다음 cmdlet을 실행 하 여 구성을 업데이트 합니다. (이 단계는 버전 2에만 해당 됩니다 (이전 버전의 경우), 다음 단계로 건너뛰십시오.)
     
-   ```
+   ```powershell
    Import-CcConfiguration 
    ```
 
 5. 다음 cmdlet을 실행 하 여 기기를 다시 등록 합니다.
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 6. 비즈니스용 Skype 클라우드 커넥터 에디션을 설치 하려면 다음 cmdlet을 실행 합니다.
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -66,13 +66,13 @@ ms.locfileid: "36190731"
   
 1. 현재 기기에서 기존 가상 머신을 모두 제거 하려면 다음 cmdlet을 실행 합니다. 
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
 2. 다음 cmdlet을 실행 하 여 기기 등록을 취소 합니다.
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -80,25 +80,25 @@ ms.locfileid: "36190731"
     
 4. 다음 cmdlet을 실행 하 여 구성을 업데이트 합니다. (이 단계는 버전 2에만 해당 됩니다 (이전 버전의 경우), 다음 단계로 건너뛰십시오.)
     
-   ```
+   ```powershell
    Import-CcConfiguration 
    ```
 
 5. 다음 cmdlet을 실행 하 여 기기를 다시 등록 합니다.
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 6. 사이트의 다른 모든 기기에서 다음 cmdlet을 실행 하 여 최신 구성을 선택 합니다.
     
-   ```
+   ```powershell
    Publish-CcAppliance
    ```
 
 7. 현재 기기에 클라우드 커넥터를 다시 배포 하려면 다음 cmdlet을 실행 합니다.
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -116,7 +116,7 @@ ms.locfileid: "36190731"
   
 1. 사이트의 EnableAutoUpdate 업데이트 속성을 true (기본값)로 설정 해야 합니다. 다음 cmdlet을 실행 하 여 EnableAutoUpdate 업데이트가 true로 설정 되어 있는지 확인 합니다.
     
-   ```
+   ```powershell
    Get-CsHybridPSTNSite -Identity <SiteName>
    ```
 
@@ -132,19 +132,19 @@ ms.locfileid: "36190731"
     
    - 각 테 넌 트에는 20 시간의 windows가 정의 되어 있습니다. 운영 체제 업데이트 및 Bits 업데이트의 기본 시간 창으로 새 테 넌 트에 대 한 기본 기간이 생성 됩니다. 다음 cmdlet을 실행 하 여 일별, 주별 또는 월별 시간 창을 설정 합니다.
     
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
    ```
 
@@ -152,7 +152,7 @@ ms.locfileid: "36190731"
     
      Bits 업데이트 시간 및 OS 업데이트 시간 창은 개별적으로 구성 됩니다. 둘 다에는 한 개 또는 여러 번 할당할 수 있습니다. 각 시간대를 서로 다른 사이트에 할당 하거나 다른 목적 (Bits 업데이트 및 OS 업데이트) 할 수 있습니다. 다음 cmdlet을 실행 하 여 사이트에 대 한 시간 창을 설정 합니다. 
     
-   ```
+   ```powershell
    Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
    ```
 
@@ -163,7 +163,7 @@ ms.locfileid: "36190731"
   
 Office 365에서 관리자 계정 자격 증명이 변경 되는 경우 배포 된 각 클라우드 커넥터 기기에 대해 다음 관리자 PowerShell 명령을 실행 하 여 클라우드 커넥터에서 로컬에 캐시 된 자격 증명을 업데이트 해야 합니다.
   
-```
+```powershell
 Set-CcCredential -AccountType TenantAdmin
 ```
 
@@ -227,7 +227,7 @@ Set-CcCredential -AccountType TenantAdmin
   
 1. 다음 명령을 실행 하 여 나중에 사용 하 게 될 계정 이름과 암호를 검색 합니다.
     
-   ```
+   ```powershell
    Get-CcCredential -AccountType TenantAdmin -DisplayPassword
    Get-CcCredential -AccountType TenantAdmin
    Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
@@ -288,7 +288,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 4. 다음과 같이 새 Edge 외부 인증서의 경로를 설정 합니다.
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
    ```
 
@@ -309,7 +309,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 4. 다음과 같이 새 Edge 외부 인증서의 경로를 설정 합니다.
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
    ```
 
@@ -317,7 +317,7 @@ Set-CcCredential -AccountType TenantAdmin
     
     클라우드 커넥터의 관리자 PowerShell에서 다음 cmdlet을 실행 하 여 사이트의 각 기기에 대 한 테 넌 트 등록을 제거 합니다.
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -325,7 +325,7 @@ Set-CcCredential -AccountType TenantAdmin
     
     비즈니스용 Skype Online PowerShell에서 다음 cmdlet을 실행 하 여 각 사이트의 사이트 등록을 제거 합니다.
     
-   ```
+   ```powershell
    Remove-CsHybridPSTNSite
    ```
 
@@ -333,7 +333,7 @@ Set-CcCredential -AccountType TenantAdmin
     
     클라우드 커넥터의 관리자 PowerShell에서 다음 cmdlet을 실행 하 여 각 기기를 제거 합니다.
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
@@ -341,7 +341,7 @@ Set-CcCredential -AccountType TenantAdmin
     
      클라우드 커넥터의 관리자 PowerShell에서 다음 cmdlet을 실행 하 여 각 기기를 등록 합니다.
     
-   ```
+   ```powershell
    Register-ccAppliance
    ```
 
@@ -349,7 +349,7 @@ Set-CcCredential -AccountType TenantAdmin
     
      클라우드 커넥터의 관리자 PowerShell에서 다음 cmdlet을 실행 하 여 각 기기를 하나씩 설치 합니다.
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -362,7 +362,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 2. 다음 명령을 실행 합니다. 
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
    ```
 

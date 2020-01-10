@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 페어링 된 프런트 엔드 풀을 사용 하 여 재해 복구 보호를 제공 하기로 결정할 수 있지만, 반드시 그럴 필요는 없습니다.
-ms.openlocfilehash: 550c336569b604ae20199b419dc104af0609c775
-ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
+ms.openlocfilehash: 73f7d7619efbfc82124507234ebea8ebbcf4a7e8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "39254397"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002908"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 재해 복구용으로 쌍을 이루는 프런트 엔드 풀 배포
  
@@ -45,7 +45,7 @@ ms.locfileid: "39254397"
     
 8. 두 풀의 모든 프런트 엔드 서버에서 다음을 실행 합니다.
     
-   ```
+   ```powershell
    <system drive>\Program Files\Skype for Business Server 2019\Deployment\Bootstrapper.exe 
    ```
 
@@ -55,27 +55,27 @@ ms.locfileid: "39254397"
 
 10. 비즈니스용 Skype 서버 관리 셸 명령 프롬프트에서 다음을 실행 합니다. 
     
-   ```
+   ```powershell
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
 11. 다음 cmdlet을 사용 하 여 두 풀의 사용자 및 컨퍼런스 데이터를 서로 동기화 합니다.
     
-    ```
+    ```powershell
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
     ```
 
-    ```
+    ```powershell
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
     ```
 
     데이터를 동기화 하는 데 시간이 걸릴 수 있습니다. 다음 cmdlet을 사용 하 여 상태를 확인할 수 있습니다. 두 방향의 상태가 모두 안정 된 상태 인지 확인 합니다.
     
-    ```
+    ```powershell
     Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
     ```
 
-    ```
+    ```powershell
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
     ```
 

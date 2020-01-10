@@ -1,5 +1,5 @@
 ---
-title: 게시-CcAppliance
+title: Publish-CcAppliance
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
 description: 게시-CcAppliance cmdlet는 온라인 테 넌 트 구성에서 높은 가용성 정보를 가져와 호스트 서버의 비즈니스용 Skype 클라우드 커넥터 에디션 기기에 게시 합니다.
-ms.openlocfilehash: 2fd17e2afdceabc8fbfb44a808b7e6c9ce6bd894
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: da9135f669cb5b8cbe127295b20d82fd1632a3d3
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190707"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003088"
 ---
-# <a name="publish-ccappliance"></a>게시-CcAppliance
+# <a name="publish-ccappliance"></a>Publish-CcAppliance
  
 게시-CcAppliance cmdlet는 온라인 테 넌 트 구성에서 높은 가용성 정보를 가져와 호스트 서버의 비즈니스용 Skype 클라우드 커넥터 에디션 기기에 게시 합니다. 
   
-```
+```powershell
 Publish-CcAppliance
 ```
 
@@ -37,7 +37,7 @@ Publish-CcAppliance
 
 다음 예제에서는 온라인 테 넌 트 구성에서 높은 가용성 정보를 가져오고 호스트 서버의 클라우드 커넥터 기기에 게시 합니다.
   
-```
+```powershell
 Publish-CcAppliance
 ```
 
@@ -59,12 +59,12 @@ Publish-CcAppliance
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[설치-CcAppliance](install-ccappliance.md)
+[Install-CcAppliance](install-ccappliance.md)
   
-[제거-CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
-[등록-CcAppliance](register-ccappliance.md)
+[Register-CcAppliance](register-ccappliance.md)
   
-[CcAppliance 등록 취소](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
 

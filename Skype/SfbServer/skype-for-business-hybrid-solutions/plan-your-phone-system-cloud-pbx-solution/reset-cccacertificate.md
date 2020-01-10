@@ -1,5 +1,5 @@
 ---
-title: 다시 설정-CcCACertificate
+title: Reset-CcCACertificate
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
 description: CcCACertificate cmdlet은 인증 기관 서비스 광고 서버를 다시 설치 하 여 새 루트 CA 인증서를 만듭니다.
-ms.openlocfilehash: 3cac8629a52d915df55408a44d8d31701106a5bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 50c3b1afc29503b2b292ce578ea01b03aeeba368
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190662"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003258"
 ---
-# <a name="reset-cccacertificate"></a>다시 설정-CcCACertificate
+# <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
 CcCACertificate cmdlet은 인증 기관 서비스 광고 서버를 다시 설치 하 여 새 루트 CA 인증서를 만듭니다.
   
-```
+```powershell
 Reset-CcCACertificate
 ```
 
@@ -37,7 +37,7 @@ Reset-CcCACertificate
 
 다음 예제에서는 새 루트 CA 인증서를 만들기 위해 인증 기관 서비스 광고 서버를 다시 설치 합니다.
   
-```
+```powershell
 Reset-CcCACertificate
 ```
 

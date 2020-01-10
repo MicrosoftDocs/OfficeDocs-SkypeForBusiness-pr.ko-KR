@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: 비즈니스용 Skype Server Enterprise Voice에서 통화 공원에 사용자를 설정 합니다.
-ms.openlocfilehash: 797b17cb3d9482d9059bedcbbc347c3dd592e478
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c3ad2bcf70c7b175ba372ba2834e56209de9f664
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240638"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002558"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>비즈니스용 Skype에서 사용자에 게 통화 공원 사용
  
@@ -53,13 +53,13 @@ ms.locfileid: "36240638"
     
 3. 런
     
-   ```
+   ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
     예를 들어 기본 전역 음성 정책에 대 한 통화 파킹 기능을 사용 하도록 설정 하려면 다음을 수행 합니다.
     
-   ```
+   ```powershell
    Set-CsVoicePolicy -EnableCallPark $true
    ```
 

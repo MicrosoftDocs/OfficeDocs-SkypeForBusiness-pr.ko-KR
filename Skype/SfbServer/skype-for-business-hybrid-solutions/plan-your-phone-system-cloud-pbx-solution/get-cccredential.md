@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: Get-CcCredential cmdlet은 현재 비즈니스용 Skype 클라우드 커넥터 에디션 배포의 자격 증명을 반환 합니다.
-ms.openlocfilehash: 87dd3934767a4be7afb57889fd0641e8507fba13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 46c51783361ad6613d1e2971600969b324f0f350
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190788"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003388"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
@@ -24,7 +24,7 @@ Get-CcCredential cmdlet은 현재 비즈니스용 Skype 클라우드 커넥터 �
   
 버전 2.0 이상에서는-DisplayPassword 매개 변수를 사용 하 여 TenantAdmin, DomainAdmin, VMAdmin에 대 한 암호를 표시할 수도 있습니다.
   
-```
+```powershell
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
 ```
 
@@ -35,7 +35,7 @@ Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin
 
 다음 예에서는 클라우드 커넥터 가상 컴퓨터 도메인의 도메인 관리자 자격 증명을 반환 합니다.
   
-```
+```powershell
 Get-CcCredential -AccountType DomainAdmin
 ```
 
@@ -48,7 +48,7 @@ Get-CcCredential cmdlet은 System.webserver 개체의 인스턴스를 반환 합
   
 도메인 관리자 암호의 일반 텍스트를 가져오려면 해당 암호가 호스트 서버의 현재 로그온 계정에 의해 입력 되었는지 확인 하 고 PowerShell 콘솔을 관리자로 열고 아래 스크립트를 실행 합니다.
   
-```
+```powershell
 $cred = Get-CcCredential -AccountType DomainAdmin
 $password =  $cred.Password
 $bstr = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($password);
@@ -77,6 +77,6 @@ Get-CcCredential cmdlet은 System.webserver 개체의 인스턴스를 반환 합
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[집합-CcCredential](set-cccredential.md)
+[Set-CcCredential](set-cccredential.md)
   
 

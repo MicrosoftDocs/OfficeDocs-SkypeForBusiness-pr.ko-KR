@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: '요약: Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 또는 Exchange Online 및 비즈니스용 Skype 서버에서 고해상도 사진의 사용을 구성 합니다.'
-ms.openlocfilehash: 08db547dc9ead9d79a50cd17b4496826aa735369
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 598490cfc80b8885a570317a7559bfc4cdd3caf5
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434913"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001178"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 고해상도 사진 사용 구성
  
@@ -36,7 +36,7 @@ ms.locfileid: "37434913"
   
 Exchange Web Services를 사용 하 여 액세스 되는 고해상도 사진에는 Outlook 2013 웹 앱을 실행 하는 사용자가 업로드할 수 있습니다. 사용자는 자신만의 사진만 업데이트할 수 있습니다. 그러나 관리자는 Exchange 관리 셸 및 다음과 같은 일련의 Windows PowerShell 명령을 사용 하 여 사용자의 사진을 업데이트할 수 있습니다.
   
-```
+```powershell
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
 Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Preview -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
@@ -49,13 +49,13 @@ Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
   
 사진을 업로드 하는 것은: 진구 Myer의 사용자 계정에 해당 사진을 지정 하는 것과 동등 하지 않습니다. 대신 사진을 업로드 하면 해당 사진의 미리 보기가 Outlook Web App 옵션 페이지에 표시 됩니다. 실제로 해당 사진을 사용자 계정에 할당 하려면 사용자가 옵션 페이지에서 **저장** 을 클릭 해야 하거나 관리자가 예제에서 세 번째 명령을 실행 해야 합니다. 세 번째 명령은 저장 매개 변수를 사용 하 여 사진을: 진구 Myer의 사용자 계정에 할당 합니다.
   
-```
+```powershell
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
 새 사진이 사용자 계정에 할당 되었는지 확인 하려면: 진구 Myer에서 비즈니스용 Skype에 로그온 하 여 **옵션**을 선택한 다음 **내 사진을**선택 합니다. 새로 업로드 된 사진은: 진구의 개인 사진으로 표시 되어야 합니다. 또는 관리자가 Internet Explorer를 시작 하 고 다음과 같은 URL로 이동 하 여 사용자의 사진을 확인할 수 있습니다.
   
-```
+```console
 https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648
 ```
 

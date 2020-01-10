@@ -1,5 +1,5 @@
 ---
-title: 수출-CcConfiguration
+title: Export-CcConfiguration
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
 description: 비즈니스용 skype 클라우드 커넥터 에디션 구성을 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버의 로컬 파일로 내보냅니다.
-ms.openlocfilehash: 7548b2fba602364d98c7540607660ccc57710654
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cb3ea5a48c4e8911dc94526f85a517082d057b6e
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190824"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003438"
 ---
-# <a name="export-ccconfiguration"></a>수출-CcConfiguration
+# <a name="export-ccconfiguration"></a>Export-CcConfiguration
  
 비즈니스용 skype 클라우드 커넥터 에디션 구성을 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버의 로컬 파일로 내보냅니다.
   
-```
+```powershell
 Export-CcConfiguration [-Path] <String> [<CommonParameters>]
 ```
 
@@ -33,7 +33,7 @@ Export-CcConfiguration [-Path] <String> [<CommonParameters>]
 
 다음 예제에서는 경로 매개 변수를 전체 파일 경로로 설정 하 고 구성을 해당 파일로 내보냅니다.
   
-```
+```powershell
 Export-CcConfiguration -Path "C:\test\CloudConnector.ini" 
 ```
 
@@ -62,6 +62,6 @@ Export-CcConfiguration -Path "C:\test\CloudConnector.ini"
 ## <a name="see-also"></a>참고 항목
 <a name="Examples"> </a>
 
-가져오기-CcConfiguration
+Import-CcConfiguration
   
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: 비즈니스용 Skype 서버에서 엔터프라이즈 음성 통화 허용 제어에 사용 되는 네트워크 간 정책 만들기
-ms.openlocfilehash: ac03057de5b6e25e2b9de812f0d53ae02811d456
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ce1826a1205216791f056a46fa625d26e0362f1f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233703"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001748"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 사이트 간 정책 만들기
  
@@ -30,7 +30,7 @@ ms.locfileid: "36233703"
 > [!IMPORTANT]
 > 네트워크 간 정책은 두 네트워크 사이트 간에 직접 상호 연결 된 경우에 *만* 필요 합니다.
   
-예제 토폴로지 지역에는 Reno 및 Albuquerque 사이트 간의 직접적인 링크가 있습니다. 이러한 두 사이트에는 적절 한 대역폭 정책 프로필을 적용 하는 사이트 간 정책이 필요 합니다. 다음 예에서는 20Mb_Link 프로필을 적용 합니다.
+예제 토폴로지 지역에는 Reno 및 Albuquerque 사이트 간의 직접적인 링크가 있습니다. 이러한 두 사이트에는 적절 한 대역폭 정책 프로필을 적용 하는 사이트 간 정책이 필요 합니다. 다음 예제에서는 20Mb_Link 프로필을 적용 합니다.
   
 ### <a name="to-create-a-network-inter-site-policy"></a>네트워크 사이트 간 정책 만들기
 
@@ -38,7 +38,7 @@ ms.locfileid: "36233703"
     
 2. CsNetworkInterSitePolicy cmdlet을 실행 하 여 네트워크 간 정책을 만들고 직접 교차 링크가 있는 두 사이트에 적절 한 대역폭 정책 프로필을 적용 합니다. 예를 들어 다음을 실행합니다.
     
-   ```
+   ```powershell
    New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
    ```
 

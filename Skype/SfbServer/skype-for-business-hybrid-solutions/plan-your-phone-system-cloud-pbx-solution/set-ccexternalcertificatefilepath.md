@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: Set-CcExternalCertificateFilePath cmdlet은 중재 서버 또는 Edge 서버의 인증서가 저장 되는 경로를 지정 합니다.
-ms.openlocfilehash: bc22771c20277d9de99660551864d600f06b3acc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e71a50f09a4ce3d085746c30f7591e8a07eb38de
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190644"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003208"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
@@ -26,7 +26,7 @@ Set-CcExternalCertificateFilePath cmdlet은 중재 서버 또는 Edge 서버의 
   
 이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 1.4.1, 1.4.2에 적용 됩니다.
   
-```
+```powershell
 Set-CcExternalCertificateFilePath [-Target] <string> {EdgeServer | MediationServer} [-Path] <string> [-Import]  [<CommonParameters>]
 ```
 
@@ -37,7 +37,7 @@ Set-CcExternalCertificateFilePath [-Target] <string> {EdgeServer | MediationServ
 
 다음 예에서는 Edge 서버의 인증서 경로를 설정 합니다.
   
-```
+```powershell
 Set-CcExternalCertificateFilePath -Target EdgeServer -Path C:\CloudConnector\Certificates\AdatumPublicEdge.pfx
 ```
 
@@ -45,7 +45,7 @@ Set-CcExternalCertificateFilePath -Target EdgeServer -Path C:\CloudConnector\Cer
 
 다음 예에서는 중재 서버용 인증서 경로를 설정 합니다.
   
-```
+```powershell
 Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnector\Certificates\AdatumPublicMediation.pfx
 ```
 
@@ -53,7 +53,7 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 
 다음 예제에서는 중재 서버에 대 한 인증서를 업데이트 합니다.
   
-```
+```powershell
 Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnector\Certificates\AdatumPublicMediation.pfx -Import
 ```
 

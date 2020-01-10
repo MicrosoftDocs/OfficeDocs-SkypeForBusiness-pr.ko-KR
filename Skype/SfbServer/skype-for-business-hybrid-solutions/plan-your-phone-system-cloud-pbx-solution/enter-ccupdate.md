@@ -1,5 +1,5 @@
 ---
-title: 입력-CcUpdate
+title: Enter-CcUpdate
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: Enter-CcUpdate cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버를 유지 관리 모드로 전환 하 여 해당 버전의 업데이트 프로세스를 준비 합니다. 기기는 즉시 모든 서비스를 중지 하 고, 진행 중인 통화를 종료 하 고, 새로운 통화를 거부 합니다.
-ms.openlocfilehash: 3ff4c1543e3e882a7ccbaf0b9a216ce902a77c5f
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 694faf7f03fb672ec61ee97db08fb61bcf0dc532
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "36197824"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003458"
 ---
-# <a name="enter-ccupdate"></a>입력-CcUpdate
+# <a name="enter-ccupdate"></a>Enter-CcUpdate
 
 Enter-CcUpdate cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버를 유지 관리 모드로 전환 하 여 해당 버전의 업데이트 프로세스를 준비 합니다. 기기는 즉시 모든 서비스를 중지 하 고, 진행 중인 통화를 종료 하 고, 새로운 통화를 거부 합니다.
   
-```
+```powershell
 Enter-CcUpdate
 ```
 
@@ -37,7 +37,7 @@ Enter-CcUpdate
 
 다음 예제에서는 유지 관리 모드를 시작 하 여 업데이트 프로세스에 대 한 기기를 준비 합니다.
   
-```
+```powershell
 Enter-CcUpdate 
 ```
 
@@ -66,6 +66,6 @@ Enter-CcUpdate
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[끝내기-CcUpdate](exit-ccupdate.md)
+[Exit-CcUpdate](exit-ccupdate.md)
   
 

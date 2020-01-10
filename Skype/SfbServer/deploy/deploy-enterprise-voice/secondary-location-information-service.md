@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: 비즈니스용 Skype Server Enterprise Voice에서 E9-1에 대 한 SLS (보조 위치 원본) 데이터베이스를 구성 합니다.
-ms.openlocfilehash: 47dd4015cde79536323cee3edc04ed546459a3f0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1743a4c5f49fcc01fe2f0878c596e0d1bb530621
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240401"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001999"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 보조 위치 정보 서비스 구성
  
@@ -33,7 +33,7 @@ ms.locfileid: "36240401"
     
 2. 다음 cmdlet을 실행 하 여 보조 위치 데이터베이스의 위치에 대 한 URL을 구성 합니다. 
     
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -SecondaryLocationSourceURL "<web service url>" 
    ```
 

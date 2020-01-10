@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: 이 항목에서는 비즈니스용 Skype 페더레이션 파트너를 위해 Skype 대화방 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7bf67a910b2c0d73cf3e068e9524500804ca87f4
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 8ded7ba9be24cf1ac700be0ead1c7e0c3637becd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775277"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002998"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype 실 시스템 및 비즈니스용 Skype 페더레이션 파트너
  
@@ -27,7 +27,7 @@ Skype 대화방 시스템은 일정 모임 요청에서 비즈니스용 Skype �
   
 이는 Outlook과 Microsoft Exchange에서 인터넷을 통해 메시지를 보내는 데 필요한 정보를 패키지 하는 데 특별 한 방법을 사용 하지 않기 때문에 제한 사항이 있습니다. 이 메서드는 Exchange 조직에서 외부적으로 보낸 메시지에 대해 기본적으로 사용 하지 않도록 설정 되어 전송 중립 캡슐화 형식 (TNEF) 이라고 합니다. 원격 Skype 채팅방 시스템에 모임 참가 링크가 표시 되려면 다음 명령을 사용 하 여 보내는 조직이 TNEF를 사용 하도록 설정 해야 합니다.
   
-```
+```powershell
 New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```

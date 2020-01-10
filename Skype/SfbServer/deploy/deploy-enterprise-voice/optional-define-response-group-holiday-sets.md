@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 비즈니스용 Skype Server Enterprise Voice에서 응답 그룹 휴일 집합을 만들거나 수정 합니다.
-ms.openlocfilehash: 617966828e39aae1ffbbfe10a7452d9d40117a84
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9dd9467a40f45d7252e92d9628d8678adbce3184
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240413"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003098"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>) 비즈니스용 Skype에서 응답 그룹의 공휴일 집합 정의
  
@@ -35,19 +35,19 @@ ms.locfileid: "36240413"
     
 3. 정의 하려는 각 휴일에 대해 다음을 실행 합니다.
     
-   ```
+   ```powershell
    $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
    ```
 
     정의한 공휴일이 포함 된 휴일 집합을 만들려면 다음을 실행 합니다.
     
-   ```
+   ```powershell
    New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
    ```
 
     다음 예제에서는 두 개의 공휴일을 포함 하는 휴일 집합을 보여 줍니다.
     
-   ```
+   ```powershell
    $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2018 12:00 AM" -EndDate "1/2/2018 12:00 AM" 
    $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2018 12:00 AM" -EndDate "7/5/2018 12:00 AM" 
    New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com" -Name "2018 Holidays" -HolidayList ($a, $b)

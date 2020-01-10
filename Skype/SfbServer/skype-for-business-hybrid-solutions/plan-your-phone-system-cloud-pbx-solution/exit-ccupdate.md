@@ -1,5 +1,5 @@
 ---
-title: 끝내기-CcUpdate
+title: Exit-CcUpdate
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
 description: CcUpdate cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버에서 업데이트 유지 관리 모드를 종료 합니다.
-ms.openlocfilehash: b3558a81e1d4bc6c833cca157c2b31f2f252b595
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f79023c50e951e6678abdccc29b12cb30a329dfc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190830"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003448"
 ---
-# <a name="exit-ccupdate"></a>끝내기-CcUpdate
+# <a name="exit-ccupdate"></a>Exit-CcUpdate
  
 CcUpdate cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버에서 업데이트 유지 관리 모드를 종료 합니다. 
   
 이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 1.4.1, 1.4.2에 적용 됩니다. 
   
-```
+```powershell
 Exit-CcUpdate
 ```
 
@@ -39,7 +39,7 @@ Exit-CcUpdate
 
 다음 명령은 프로덕션 모드로 다시 실행 되는 기기를 배치 합니다. 
   
-```
+```powershell
 Exit-CcUpdate
 ```
 
@@ -63,6 +63,6 @@ Exit-CcUpdate
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[입력-CcUpdate](enter-ccupdate.md)
+[Enter-CcUpdate](enter-ccupdate.md)
   
 

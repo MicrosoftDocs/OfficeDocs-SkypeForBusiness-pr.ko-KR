@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: '요약: Exchange Server 및 비즈니스용 Skype 서버용 통합 된 연락처 저장소를 구성 합니다.'
-ms.openlocfilehash: 2719105478860f0352ae4a4cef75466ec460d475
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7a52a6bf648632daac416dcf6ffd4fd4149804c0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244134"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003558"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>통합 연락처 저장소를 사용하도록 비즈니스용 Skype 서버 2015 구성
  
@@ -38,19 +38,19 @@ ms.locfileid: "36244134"
   
 모든 연락처를 통합 된 연락처 저장소로 마이그레이션하지 않으려면 전역 정책의 작업을 False로 설정 하 여 모든 사용자에 대해 통합 된 연락처 저장소를 사용 하지 않도록 설정할 수 있습니다.
   
-```
+```powershell
 Set-CsUserServicesPolicy -Identity global -UcsAllowed $False
 ```
 
 전역 정책에서 통합 된 연락처 저장소를 사용 하지 않도록 설정한 후에는 통합 된 연락처 저장소를 사용 하도록 설정 하는 사용자별 정책을 만들 수 있습니다. 이렇게 하면 다른 사용자가 비즈니스용 Skype 서버에서 연락처를 계속 유지 하면서 통합 된 연락처 저장소에 연락처를 유지할 수 있습니다. 다음과 같은 명령을 사용 하 여 사용자별 사용자 서비스 정책을 만들 수 있습니다.
   
-```
+```powershell
 New-CsUserServicesPolicy -Identity "AllowUnifiedContactStore" -UcsAllowed $True
 ```
 
 새 정책을 만든 후에는 통합 된 연락처 저장소에 대 한 액세스 권한이 있는 모든 사용자에 게 해당 정책을 할당 해야 합니다. 사용자 단위 정책은 다음과 같은 명령을 사용 하 여 사용자에 게 할당할 수 있습니다.
   
-```
+```powershell
 Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContactStore"
 ```
 
@@ -58,23 +58,23 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContact
   
 비즈니스용 Skype Server Management Shell 내에서 [CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps) cmdlet을 실행 하 여 사용자의 연락처가 통합 된 연락처 저장소로 성공적으로 마이그레이션 되었는지 확인할 수 있습니다.
   
-```
+```powershell
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-Test-CsUnifiedContactStore가 성공 하면 사용자 sip: kenmyer @<span></span>litwareinc<span></span>의 연락처가 통합 대화 저장소로 마이그레이션 되었음을 의미 합니다.
+Test-CsUnifiedContactStore가 성공 하면 사용자 sip: kenmyer@<span></span>litwareinc<span></span>에 대 한 연락처가 통합 대화 저장소로 마이그레이션 되었음을 의미 합니다.
   
 ## <a name="rolling-back-the-unified-contact-store"></a>통합 된 대화 상대 저장소 롤백
 
 통합 된 연락처 저장소에서 사용자의 연락처를 제거 해야 하는 경우 (예: 사용자가 Microsoft Lync Server 2010을 기반으로 하 여 더 이상 통합 된 연락처 저장소를 사용할 수 없는 경우) 두 가지 작업을 수행 해야 합니다. 먼저, 통합 된 연락처 저장소에 연락처 저장을 금지 하는 새 사용자 서비스 정책을 사용자에 게 할당 해야 합니다. (즉, 여러 부분을 허용 하는 속성을 $False로 설정한 정책) 이러한 정책이 없는 경우 다음과 같은 명령을 사용 하 여 만들 수 있습니다.
   
-```
+```powershell
 New-CsUserServicesPolicy -Identity NoUnifiedContactStore -UcsAllowed $False
 ```
 
 그러면 다음과 같은 명령을 사용 하 여이 새로운 사용자별 정책 (NoUnifiedContactStore)을 할당할 수 있습니다.
   
-```
+```powershell
 Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStore
 ```
 
@@ -87,7 +87,7 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStor
   
 즉, 사용자에 게 새 사용자 서비스 정책을 할당 한 후에는 [CsUcsRollback](https://docs.microsoft.com/powershell/module/skype/invoke-csucsrollback?view=skype-ps) cmdlet을 실행 하 여 사용자의 연락처를 Exchange server 외부로 이동 하 고 비즈니스용 Skype server로 다시 전환 해야 합니다. 예를 들어 새 사용자 서비스 정책에: 진구 Myer를 할당 한 후 다음 명령을 사용 하 여 연락처를 통합 된 연락처 저장소 외부로 이동할 수 있습니다.
   
-```
+```powershell
 Invoke-CsUcsRollback -Identity "Ken Myer"
 ```
 

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 온-프레미스 PSTN 연결을 구현 하는 패키지 된 Vm (가상 컴퓨터) 용 Skype 클라우드 커넥터 에디션에 대 한 정보를 찾습니다.
-ms.openlocfilehash: 1ef79cc9d50e21dc8b3376901638cd4f34e03f62
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3b95c1cca24b6faac8a6cf2807b6af324fdc57bd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190719"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002278"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>비즈니스용 Skype 클라우드 커넥터 에디션 계획
 
@@ -244,7 +244,7 @@ Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 온-프�
 
   - 사용자 단위 보다는 컴퓨터 별로 프록시 설정을 지정 합니다. 그렇지 않은 경우에는 클라우드 커넥터 다운로드가 실패 합니다. 다음과 같이 레지스트리를 변경 하거나 그룹 정책 설정을 사용 하 여 컴퓨터 별로 프록시 설정을 지정할 수 있습니다.
 
-  - **레지스트리:** HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings] ProxySettingsPerUser dword: 00000000
+  - **레지스트리:** HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings] ProxySettingsPerUser dword: 00000000
 
   - **그룹 정책:** 컴퓨터\>관리 템플릿\>Windows 구성\> 요소 Internet Explorer: 사용자 단위가 아닌 컴퓨터 별로 프록시 설정 만들기
 
@@ -360,13 +360,13 @@ Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 온-프�
 
 예를 들어 다음 명령은 오디오 (in 및 out)에 대 한 조정 구성 요소가 미디어 트래픽에 대해 50 000-51 000로 사용 하는 포트 수를 제한 합니다. 중재 구성 요소는이 구성으로 250 동시 호출을 처리할 수 있습니다. 또한 SBC/PSTN 게이트웨이에서이 범위를 제한 하는 것이 좋습니다.
 
-```
+```powershell
 Set-CSMediationServer -Identity MediationServer:mspool.contoso.com -AudioPortStart 50000 - AudioPortCount 1000
 ```
 
 중재 구성 요소의 이름을 검색 하 고 기본 포트를 보려면 다음과 같이 [Get CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps) cmdlet을 사용할 수 있습니다.
 
-```
+```powershell
 Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 ```
 
@@ -710,7 +710,7 @@ Edge 구성 요소는 Office 365 서비스의 외부 이름과 다른 클라우�
 
 - [비즈니스용 Skype 클라우드 커넥터 에디션 구성 및 관리](configure-skype-for-business-cloud-connector-edition.md)
 
-- [클라우드 커넥터 에디션의 미디어 바이패스 계획](plan-for-media-bypass-in-cloud-connector-edition.md)
+- [클라우드 커넥터 버전에서 미디어 바이패스 계획](plan-for-media-bypass-in-cloud-connector-edition.md)
 
 - [클라우드 커넥터 에디션에 미디어 우회 배포](deploy-media-bypass-in-cloud-connector.md)
 

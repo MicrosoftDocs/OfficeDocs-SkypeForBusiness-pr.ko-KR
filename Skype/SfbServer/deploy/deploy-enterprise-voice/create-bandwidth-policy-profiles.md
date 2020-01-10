@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 비즈니스용 Skype 서버에서 엔터프라이즈 음성 통화 허용 제어에 사용 되는 대역폭 정책을 만들거나 수정 합니다.
-ms.openlocfilehash: 31bd61703fb652844b408c0a92c05fa1a29c7d5d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 86ab5d7fc7ae46223118250626d12107c35b9ef8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233733"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001768"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 대역폭 정책 프로필 만들기 
  
@@ -29,7 +29,7 @@ ms.locfileid: "36233733"
   
 CAC 배포에 설정 해야 하는 대역폭 제한에 대 한 지침은 비즈니스용 [Skype 서버의 통화 허용 제어 계획](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)을 참조 하세요.
   
-다음 절차에서 만든 예제 정책은 전체 오디오 트래픽, 개별 오디오 세션, 전체 비디오 트래픽, 개별 비디오 세션에 대 한 제한을 설정 합니다. 예를 들어 5Mb_Link 대역폭 정책 프로필에는 다음 한도가 설정 됩니다. 
+다음 절차에서 만든 예제 정책은 전체 오디오 트래픽, 개별 오디오 세션, 전체 비디오 트래픽, 개별 비디오 세션에 대 한 제한을 설정 합니다. 예를 들어 5Mb_Link 대역폭 정책 프로필은 다음 제한을 설정 합니다. 
   
 - 오디오 제한: 2000 kbps
     
@@ -48,19 +48,19 @@ CAC 배포에 설정 해야 하는 대역폭 제한에 대 한 지침은 비즈�
     
 2. 만들려는 각 대역폭 정책 프로필에 대해 새 CsNetworkBandwidthPolicyProfile cmdlet을 실행 합니다. 예를 들어 다음을 실행합니다.
     
-   ```
+   ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 5Mb_Link -Description "BW profile for 5Mb links" -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400   -VideoBWSessionLimit 700
    ```
 
-   ```
+   ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 10Mb_Link -Description "BW profile for 10Mb links" -AudioBWLimit 4000 -AudioBWSessionLimit 200 -VideoBWLimit 2800 -VideoBWSessionLimit 700
    ```
 
-   ```
+   ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 50Mb_Link -Description "BW profile for 50Mb links" -AudioBWLimit 20000 -AudioBWSessionLimit 200 -VideoBWLimit 14000 -VideoBWSessionLimit 700
    ```
 
-   ```
+   ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 

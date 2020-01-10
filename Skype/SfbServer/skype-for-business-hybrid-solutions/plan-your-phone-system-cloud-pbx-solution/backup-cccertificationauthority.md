@@ -1,5 +1,5 @@
 ---
-title: 백업-CcCertificationAuthority
+title: Backup-CcCertificationAuthority
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: CcCertificationAuthority cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 인증 기관 서비스를 파일에 백업 하 고 사이트 공유 디렉터리 아래의 CA 폴더에 저장 합니다.
-ms.openlocfilehash: 463aab2516deec5b47e549aec67bcba6a0a80bc0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f99745e1dd5e28e2d7d8d10d4d152c7ada913fbf
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196491"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003028"
 ---
-# <a name="backup-cccertificationauthority"></a>백업-CcCertificationAuthority
+# <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
 CcCertificationAuthority cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 인증 기관 서비스를 파일에 백업 하 고 사이트 공유 디렉터리 아래의 CA 폴더에 저장 합니다.
   
-```
+```powershell
 Backup-CcCertificationAuthority 
 ```
 
@@ -37,7 +37,7 @@ Backup-CcCertificationAuthority
 
 다음 예에서는 인증 기관 서비스를 파일에 백업 하 고 사이트 공유 디렉터리 아래의 CA 폴더에 저장 합니다.
   
-```
+```powershell
 Backup-CcCertificationAuthority 
 ```
 
@@ -59,6 +59,6 @@ Backup-CcCertificationAuthority
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[제거-CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md)
+[Remove-CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md)
   
 

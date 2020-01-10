@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 요약:이 항목에서는 Office 365에서 온-프레미스 PSTN 연결을 사용 하는 사용자를 위해 음성 정책을 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0d310378b77c09b427836f0d9bceb60a14982071
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fc1bf50eabc1b596ba54e3447c0357cfd304ad2c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196494"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003038"
 ---
 # <a name="assign-a-voice-routing-policy"></a>음성 라우팅 정책 지정
  
@@ -51,13 +51,13 @@ Office 365에서 온-프레미스 PSTN 연결 사용자와 함께 전화 시스�
     
 3. 정책에 PSTN 사용 레코드를 추가 합니다.
     
-   ```
+   ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
    ```
 
@@ -71,13 +71,13 @@ Office 365에서 온-프레미스 PSTN 연결 사용자와 함께 전화 시스�
     
 3. 새 음성 라우팅 정책 만들기:
     
-   ```
+   ```powershell
    New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
    ```
 
@@ -95,13 +95,13 @@ Office 365에서 온-프레미스 PSTN 연결 사용자와 함께 전화 시스�
     
 3. 기존 음성 정책을 사용자에 게 할당 합니다.
     
-   ```
+   ```powershell
    Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
    ```
 

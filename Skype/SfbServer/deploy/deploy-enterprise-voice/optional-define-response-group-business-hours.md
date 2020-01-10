@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: 비즈니스용 Skype Server Enterprise Voice에서 응답 그룹 업무 시간을 만들거나 수정 합니다.
-ms.openlocfilehash: e492715e32b60858176f0034ef4978d0f333dc09
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 602494d014c1a3c7874c91462f88b4bcd84f0abb
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240392"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003108"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>) 비즈니스용 Skype에서 응답 그룹 업무 시간 정의 
  
@@ -43,19 +43,19 @@ ms.locfileid: "36240392"
     
 3. 정의 하려는 각 시간 범위에 대해 다음을 실행 합니다.
     
-   ```
+   ```powershell
    $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
    ```
 
     정의한 범위를 사용 하는 업무 시간 컬렉션을 만들려면 다음을 실행 합니다.
     
-   ```
+   ```powershell
    New-CsRgsHoursOfBusiness -Parent <service where the workflow is hosted> -Name <unique name for collection> [-MondayHours1 <first set of opening and closing times for Monday>] [-MondayHours2 <second set of opening and closing times for Monday>] [-TuesdayHours1 <first set of opening and closing times for Tuesday>] [-TuesdayHours2 <second set of opening and closing times for Tuesday>] [-WednesdayHours1 <first set of opening and closing times for Wednesday>] [-WednesdayHours2 <second set of opening and closing times for Wednesday>] [-ThursdayHours1 <first set of opening and closing times for Thursday>] [-ThursdayHours2 <second set of opening and closing times for Thursday>] [-FridayHours1 <first set of opening and closing times for Friday>] [-FridayHours2 <second set of opening and closing times for Friday>] [-SaturdayHours1 <first set of opening and closing times for Saturday>] [-SaturdayHours2 <second set of opening and closing times for Saturday>] [-SundayHours1 <first set of opening and closing times for Sunday>] [-SundayHours2 <second set of opening and closing times for Sunday>]
    ```
 
     다음 예에서는 근무 시간 오전 9:00를 지정 합니다. 5:00 P.M. 평일, 오전 8:00 오전 10:00 2:00 P.M.부터 다시 시작 합니다. 6:00 P.M. 토요일과 일요일에 대 한 업무 시간 없음:
     
-   ```
+   ```powershell
    $a = New-CSRgsTimeRange -Name "Weekday Hours" -OpenTime "9:00" -CloseTime "17:00"
    $b = New-CSRgsTimeRange -Name "Saturday Morning Hours" -OpenTime "8:00" -CloseTime "10:00" 
    $c = New-CSRgsTimeRange -Name "Saturday Afternoon Hours" -OpenTime "14:00" -CloseTime "18:00" 

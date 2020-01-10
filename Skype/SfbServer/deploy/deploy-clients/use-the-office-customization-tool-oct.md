@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: '요약: 비즈니스용 Skype 클라이언트에서 Office 사용자 지정 도구를 사용 하는 방법을 설명 합니다.'
-ms.openlocfilehash: e7eb331c1b63a9e6a94ae3920e65ef57f426fbb0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b5c66fee4f6c879c8ded2897b64e63654dd950be
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234843"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001598"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 OCT (Office 사용자 지정 도구) 사용
  
@@ -25,13 +25,13 @@ OCT (Office 사용자 지정 도구)는 설치 프로그램의 일부 이며 많
   
 OCT는 설치 프로그램의 일부 이며 볼륨 라이선스 버전의 제품에만 사용 됩니다. Office 원본 파일을 포함 하 `setup.exe /admin` 는 네트워크 설치 지점의 루트에 있는 명령줄을 입력 하 여 OCT를 실행 합니다. 예를 들어 다음을 사용 합니다.
   
- ```
+ ```console
 \\server\share\Office15\setup.exe /admin
 ```
   
 관리자는 OCT를 사용 하 여 설치 사용자 지정 .msp 파일을 만들고 다음 영역을 사용자 지정할 수 있습니다.
   
-- **설정** 클라이언트 및 기본 조직 이름, 추가 네트워크 설치 원본, 제품 키, 최종 사용자 사용권 계약, 표시 수준, 이전 버전의 Office에서 실행할 수 있는 사용자 지정 프로그램 등의 기본 설치 위치를 지정 하는 데 사용 됩니다. 설치, 보안 설정 및 설정 속성
+- **설정** 클라이언트 및 기본 조직 이름, 추가 네트워크 설치 원본, 제품 키, 최종 사용자 사용권 계약, 표시 수준, 제거 하려는 Office 버전, 설치 중에 실행 되는 사용자 지정 프로그램, 보안 설정, 설치 속성에 대 한 기본 설치 위치를 지정 하는 데 사용 됩니다.
     
 - **기능** 사용자 설정을 구성 하 고 Office 기능을 설치 하는 방법을 사용자 지정 하는 데 사용 됩니다. 관리자는 OCT를 사용 하 여 사용자에 대 한 Office 응용 프로그램 설정의 초기 기본 값을 지정할 수 있습니다. 설치 후 사용자가 대부분의 설정을 수정할 수 있습니다.
     

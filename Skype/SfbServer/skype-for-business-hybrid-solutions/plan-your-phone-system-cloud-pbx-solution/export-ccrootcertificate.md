@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1499e33c-6a7c-46b9-b9a1-f78d7853b45d
 description: Export-CcRootCertificate cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버의 루트 CA 인증서를 로컬 파일로 내보냅니다.
-ms.openlocfilehash: 7d6d0978698b4b20b570107b51c9a89ff237b730
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90eadb257d91a05c05fabbfe1db84b8160ad4a7c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190797"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003418"
 ---
 # <a name="export-ccrootcertificate"></a>Export-CcRootCertificate
  
 Export-CcRootCertificate cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버의 루트 CA 인증서를 로컬 파일로 내보냅니다. 
   
-```
+```powershell
 Export-CcRootCertificate [[-Path] <string>]
 ```
 
@@ -33,7 +33,7 @@ Export-CcRootCertificate [[-Path] <string>]
 
 다음 예제에서는 경로 매개 변수를 디렉터리 경로로 설정 합니다 (파일 경로는 아님). 파일 c:\test\CCERootCertificates.p7b.를 생성 합니다.
   
-```
+```powershell
 Export-CcRootCertificate -Path "C:\test" 
 ```
 

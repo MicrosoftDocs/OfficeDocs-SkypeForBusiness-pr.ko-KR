@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: '요약: 비즈니스용 Skype 서버 설치의 일부로 Windows Server 파일 공유를 만드는 방법에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: 3f539d980d2978ee3be5e8249f869aa234493f32
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 47713c0283c5908605abec31913e104963aea2b0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235559"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001018"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 파일 공유 만들기
  
@@ -68,6 +68,7 @@ ms.locfileid: "36235559"
 
 >이는 파일 서버의 관리자가 아니거나 DFS (분산 파일 시스템) 공유 인 경우에 필요 합니다. 공유 사용 권한이 이미 구성 되어 있는 경우이 경고를 무시할 수 있습니다. 새 공유 인 경우 수동으로 공유 사용 권한을 구성 하는 방법에 대 한 자세한 내용은 설명서를 참조 하세요.
 
->DFS 공유에 대 한 공유 권한에 액세스할 수 없기 때문에 비즈니스용 Skype 서버는 파일 공유에서 그룹을 명시적으로 설정 하지 못할 수도 있습니다. 비즈니스용 Skype 서버 구성 요소가 적절 한 권한을 사용 하 여 파일 공유에 액세스할 수 있도록 하려면 모든 권한 공유 권한을 사용 하 여 로컬 관리자 외에도 변경 수준 공유 사용 권한으로 다음 RTC 그룹을 추가 해야 합니다.
-
-RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins
+>DFS 공유에 대 한 공유 권한에 액세스할 수 없기 때문에 비즈니스용 Skype 서버는 파일 공유에서 그룹을 명시적으로 설정 하지 못할 수도 있습니다. 비즈니스용 Skype 서버 구성 요소가 적절 한 권한을 사용 하 여 파일 공유에 액세스할 수 있도록 하려면 전체 제어 공유를 사용 하는 로컬 관리자 외에도 읽기 및 변경 수준 공유 권한을 사용 하 여 다음 RTC 그룹을 추가 해야 합니다. 필요한.
+* RTCHSUniversalServices
+* RTCComponentUniversalServices
+* RTCUniversalServerAdmins

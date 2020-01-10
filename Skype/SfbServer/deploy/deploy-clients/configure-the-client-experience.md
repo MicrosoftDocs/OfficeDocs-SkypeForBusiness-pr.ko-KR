@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: '요약: 비즈니스용 Skype 사용자에 대 한 클라이언트 환경을 구성 하는 방법을 알아보려면이 항목을 참조 하세요.'
-ms.openlocfilehash: ea1d38693291ebfa7d7cc4f8893b0aa6ec1c0d83
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0122e86648a30cf0c4a17957b5d000b742d4c16a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234455"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003538"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>비즈니스용 Skype 2015 클라이언트 환경 구성
  
@@ -35,7 +35,7 @@ ms.locfileid: "36234455"
 
 조직의 사용자가 EnableSkypeUI 매개 변수가 있는 **Set CSClientPolicy** cmdlet을 사용 하 여 볼 클라이언트 환경을 지정할 수 있습니다.
   
-```
+```powershell
 Set-CsClientPolicy  [-Identity <XdsIdentity] [-EnableSkypeUI <$true | $false>]
 ```
 
@@ -43,33 +43,33 @@ Set-CsClientPolicy  [-Identity <XdsIdentity] [-EnableSkypeUI <$true | $false>]
   
 다음 명령은 전역 정책의 영향을 받는 조직의 모든 사용자에 대해 비즈니스용 Skype 클라이언트 환경을 선택 합니다 (사이트 또는 사용자 특정 정책이 전역 정책 보다 우선 하는 경우 유의 함). 
   
-```
+```powershell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $true
 ```
 
 다음 명령은 전역 정책의 영향을 받는 조직의 모든 사용자에 대해 Lync 클라이언트 환경을 선택 합니다.
   
-```
+```powershell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $false
 ```
 
 다음 명령은 Redmond 사이트 내의 모든 사용자에 대해 비즈니스용 Skype 클라이언트 환경을 선택 합니다.
   
-```
+```powershell
 Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 ```
 
-조직 내 특정 사용자에 대 한 클라이언트 환경을 구성 하려는 경우 **새 csclientpolicy** cmdlet을 사용 하 여 새 사용자 정책을 만든 다음 **부여-csclientpolicy** 를 사용 하 여 특정 사용자에 게 정책을 할당할 수 있습니다. 은.
+조직 내 특정 사용자에 대 한 클라이언트 환경을 구성 하려는 경우 **새 csclientpolicy** cmdlet을 사용 하 여 새 사용자 정책을 만든 다음 **부여-csclientpolicy** cmdlet을 사용 하 여 특정 사용자에 게 정책을 할당할 수 있습니다.
   
 예를 들어 다음 명령은 비즈니스용 Skype 클라이언트 환경을 선택 하는 새 클라이언트 정책, SalesClientUI를 만듭니다.
   
-```
+```powershell
 New-CsClientPolicy -Identity SalesClientUI -EnableSkypeUI $true
 ```
 
 다음 명령은 Sales 부서의 모든 구성원에 게 정책, SalesClientUI를 할당 합니다.
   
-```
+```powershell
 Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName SalesClientUI
 ```
 
@@ -83,7 +83,7 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
     
 2. 사용자의 컴퓨터에서 시스템 레지스트리를 업데이트 합니다. 사용자가 비즈니스용 Skype 클라이언트를 처음 시작 하기 전에이 작업을 수행 하 고이 작업을 한 번만 수행 해야 합니다. 도메인에 가입 된 컴퓨터에서 그룹 정책 개체를 만들어 레지스트리를 업데이트 하는 방법에 대 한 자세한 내용은이 항목의 뒷부분에 있는 섹션을 참조 하세요.
     
-    **[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]** 키에서 새 **이진** 값을 만듭니다.
+    **[HKEY_CURRENT_USER \software\microsoft\office\lync]** 키에서 새 **이진** 값을 만듭니다.
     
     **값 이름은** **EnableSkypeUI**이어야 하며 **값 데이터** 를 **00 00 00 00**로 설정 해야 합니다.
     
@@ -103,7 +103,7 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
 
 사용자가 비즈니스용 Skype 클라이언트를 열 때 기본 동작은 *가장 사용자가 질문 하는 7 가지 간단한 팁*을 포함 하는 시작 화면을 표시 하는 것입니다. 시작 화면 표시를 해제할 수 있지만, 클라이언트 컴퓨터에서 다음 레지스트리 값을 추가 하 여 사용자가 자습서에 액세스 하도록 허용 합니다.
   
-**[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** 키에서 새 **dword(32 (32 비트) 값**을 만듭니다. **값 이름은** **IsBasicTutorialSeenByUser**이어야 하며 **값 데이터** 는 **1**로 설정 되어야 합니다.
+**[HKEY_CURRENT_USER \software\microsoft\office\15.0\lync]** 키에서 새 **dword(32 (32 비트) 값**을 만듭니다. **값 이름은** **IsBasicTutorialSeenByUser**이어야 하며 **값 데이터** 는 **1**로 설정 되어야 합니다.
   
 키의 모양은 다음과 같습니다.
   
@@ -113,11 +113,11 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
 
 사용자가 자습서에 액세스할 수 없게 하려면 다음 레지스트리 값을 사용 하 여 클라이언트 자습서를 해제할 수 있습니다.
   
-**[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** 키에서 새 **dword(32 (32 비트) 값**을 만듭니다. **값 이름은** **TutorialFeatureEnabled**이어야 하며 **값 데이터** 는 **0**으로 설정 되어야 합니다.
+**[HKEY_CURRENT_USER \software\microsoft\office\15.0\lync]** 키에서 새 **dword(32 (32 비트) 값**을 만듭니다. **값 이름은** **TutorialFeatureEnabled**이어야 하며 **값 데이터** 는 **0**으로 설정 되어야 합니다.
   
 Lync
   
-```
+```console
 "TutorialFeatureEnabled"=dword:00000000
 ```
 
@@ -181,7 +181,7 @@ Lync
     
    |**칸**|**선택 하거나 입력할 값**|
    |:-----|:-----|
-   |**함수** <br/> |**만드는** <br/> |
+   |**작업** <br/> |**만드는** <br/> |
    |**벌** <br/> | HKEY_CURRENT_USER <br/> |
    |**키 경로** <br/> |Software\Microsoft\Office\Lync  <br/> |
    |**값 이름** <br/> |EnableSkypeUI  <br/> |
@@ -200,7 +200,7 @@ Lync
     
 3. 대상 사용자의 컴퓨터에서 명령 프롬프트를 열고 다음 명령을 입력 합니다.
        
-```
+```console
 gpupdate /target:user
 ```
 
@@ -213,6 +213,6 @@ gpupdate /target:user
     
     아래에 표시 한 GPO의 이름과 함께 "할당 된 그룹 정책 개체"가 표시 됩니다.
     
-또한, 레지스트리를 검사 하 여 GPO가 사용자 컴퓨터의 레지스트리를 성공적으로 업데이트 했는지 확인할 수 있습니다. 레지스트리 편집기를 열고 **[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]** 키로 이동 합니다. GPO가 성공적으로 레지스트리를 업데이트 하면 값이 0 인 EnableSkypeUI 이라는 값이 표시 됩니다.
+또한, 레지스트리를 검사 하 여 GPO가 사용자 컴퓨터의 레지스트리를 성공적으로 업데이트 했는지 확인할 수 있습니다. 레지스트리 편집기를 열고 **[HKEY_CURRENT_USER \software\microsoft\office\lync]** 키로 이동 합니다. GPO가 성공적으로 레지스트리를 업데이트 하면 값이 0 인 EnableSkypeUI 이라는 값이 표시 됩니다.
   
 

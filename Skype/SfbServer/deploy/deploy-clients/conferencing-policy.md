@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Skype 대화방 시스템 계정에 대 한 회의 정책을 할당 하는 방법을 알아보려면이 항목을 읽으십시오.
-ms.openlocfilehash: 20115ee2ab361a0bc15bf2053feb3f70bbe6f7ef
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: e235ac84b92f770ae16eec3bd99511e4beea8871
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775371"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003548"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype 대화방 시스템 계정에 대 한 회의 정책
  
@@ -25,7 +25,7 @@ Skype 대화방 시스템 계정에 대 한 회의 정책을 할당 하는 방�
 
 Skype 채팅방 시스템 계정에 할당 된 회의 정책은 특정 특성을 가져야 합니다. 대부분의 경우 Skype 대화방 시스템 클라이언트는 예약 된 모임에 참가 하므로 모임 이끌이의 회의 정책은 회의에 영향을 줍니다. 그러나 비즈니스용 Skype 서버에서 특정 접근 권한 값은 참가자의 구성에 따라 달라 집니다. 예를 들어 참가자의 정책에서 1080p의 최대 비디오 해상도를 허용 하는 경우 참가자는 이끌이의 정책에서 허용 하지 않는 경우에도 더 높은 해상도의 비디오 기능을 경험할 수 있습니다. 다음 표에서는 조직의 Skype 대화방 시스템 계정에 대 한 회의 정책을 설정할 때 알아야 하는 몇 가지 해당 설정에 대해 설명 합니다. 
   
-|요소  <br/> |값  <br/> |댓글을  <br/> |
+|기능  <br/> |값  <br/> |댓글을  <br/> |
 |:-----|:-----|:-----|
 |AllowIPAudio  <br/> |FALSE  <br/> |Skype 채팅방 시스템 오디오에 대해 참 이어야 합니다.  <br/> |
 |AllowIPVideo  <br/> |FALSE  <br/> |Skype 채팅방 시스템의 지금 모임 시작 (ad hoc) 화이트 보드 세션에서 작업 하려면 Skype 대화방 시스템 오디오가 참 이어야 합니다.  <br/> |
@@ -71,7 +71,7 @@ Skype 대화방 시스템은 모임 참가 링크를 사용 하 여 제한 된 �
   
 다음 명령을 사용 하 여 관리자는 무제한 모임 등 모든 모임에 대해 인증을 요구할 수 있습니다. 
   
-```
+```powershell
 Set-CsMeetingConfiguration -RequireRoomSystemsAuthorization $TRUE
 ```
 

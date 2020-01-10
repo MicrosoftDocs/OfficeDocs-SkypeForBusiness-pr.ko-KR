@@ -1,5 +1,5 @@
 ---
-title: 제거-CcCertificationAuthorityFile
+title: Remove-CcCertificationAuthorityFile
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
 description: CcCertificationAuthorityFile cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션의 사이트 공유 디렉터리 아래에 있는 CA 폴더의 인증 기관 서비스 백업 파일을 제거 합니다.
-ms.openlocfilehash: 3251c3f608b52d217e7db04d7b5081ff73c0b487
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d7036633eaf092130fc6e4acaebda39d04ff17df
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190692"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003298"
 ---
-# <a name="remove-cccertificationauthorityfile"></a>제거-CcCertificationAuthorityFile
+# <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-CcCertificationAuthorityFile cmdlet은 비즈니스용 Skype 클라우드 커넥터용 사이트 공유 디렉터리 아래의 CA 폴더&lt;에서&gt;인증 기관 서비스 백업 파일 "SiteRootDirectory \CA\SfB CCE Root. P12"를 제거 함 평가판. 
+CcCertificationAuthorityFile cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션에 대 한 사이트 공유 디렉터리&lt;아래의&gt;CA 폴더에서 "SiteRootDirectory \CA\SfB CCE Root. p12" 인증 기관 서비스 백업 파일을 제거 합니다. 
   
-```
+```powershell
 Remove-CcCertificationAuthorityFile
 ```
 
@@ -37,7 +37,7 @@ Remove-CcCertificationAuthorityFile
 
 다음 예에서는 사이트 공유 디렉터리 아래의 CA 폴더에서 인증&lt;기관&gt;서비스 백업 파일 "SiteRootDirectory \CA\SfB CCE Root: p12"를 제거 합니다.
   
-```
+```powershell
 Remove-CcCertificationAuthorityFile
 ```
 
@@ -54,6 +54,6 @@ Remove-CcCertificationAuthorityFile
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[백업-CcCertificationAuthority](backup-cccertificationauthority.md)
+[Backup-CcCertificationAuthority](backup-cccertificationauthority.md)
   
 

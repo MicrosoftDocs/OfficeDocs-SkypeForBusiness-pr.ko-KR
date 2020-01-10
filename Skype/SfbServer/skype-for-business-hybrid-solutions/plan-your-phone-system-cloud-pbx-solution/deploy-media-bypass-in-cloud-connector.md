@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 이 항목에서는 클라우드 커넥터 버전 2.0 이상에서 미디어 바이패스를 배포 하는 단계에 대해 자세히 알아봅니다.
-ms.openlocfilehash: 6f3ad140d25d5f1d03196e576ac57dc56e905d44
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 63d8f9e289c38a50444bee2667c98543e09b875d
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190851"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003488"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>클라우드 커넥터 에디션에 미디어 우회 배포
  
@@ -37,7 +37,7 @@ DNS를 구성한 후 비즈니스용 skype 관리자 자격 증명을 사용 하
   
 PowerShell 세션에서 다음 명령을 입력 하 여 미디어 바이패스를 사용 하도록 설정 합니다.
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enabled $true
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
@@ -53,14 +53,14 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
   
 테 넌 트 풀로 온라인 복제를 확인 하려면 원격 PowerShell에서 다음 명령을 실행 합니다.
   
-```
+```powershell
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
 온-프레미스 복제를 확인 하려면 클라우드 커넥터 중재 서버에 연결 하 고 PowerShell에서 다음 명령을 실행 한 다음 Enabled = True 및 AlwaysBypass = True 인지 확인 합니다.
   
-```
+```powershell
 Get-CsNetworkConfiguration -LocalStore
 ```
 
@@ -74,7 +74,7 @@ Get-CsNetworkConfiguration -LocalStore
 
 테 넌 트 관리자는 다음 cmdlet을 실행 하 여 웹 서비스의 DNS 이름을 변경할 수 있습니다.
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 ```
 
@@ -85,14 +85,14 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.d
 
 이 시나리오는 문제를 해결 하거나 유지 관리 하는 데 유용할 수 있습니다. 서비스를 사용 하지 않도록 설정 하려면 다음 cmdlet을 실행 합니다.
   
-```
+```powershell
 $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
 변경 후에는 변경 내용이 모든 클라우드 커넥터로 복제 되는 데 약간의 시간이 걸릴 수 있습니다. 복제 상태를 확인 하려면 클라우드 커넥터 중재 서버의 PowerShell에서 다음 cmdlet을 실행 합니다. 
   
-```
+```powershell
 Get- CsNetworkConfiguration -LocalStore
 ```
 
@@ -102,7 +102,7 @@ Get- CsNetworkConfiguration -LocalStore
 
 미디어 바이패스를 영구적으로 사용 하지 않도록 설정 하려면 테 넌 트 관리자가 다음 명령을 실행 해야 합니다. 
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
     $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false 
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 
@@ -188,4 +188,4 @@ Windows 2016 DNS 정책에 대 한 자세한 내용은 [기본 서버에서 지�
 ## <a name="see-also"></a>참고 항목
 <a name="Example"> </a>
 
-[클라우드 커넥터 에디션의 미디어 바이패스 계획](plan-for-media-bypass-in-cloud-connector-edition.md)
+[클라우드 커넥터 버전에서 미디어 바이패스 계획](plan-for-media-bypass-in-cloud-connector-edition.md)

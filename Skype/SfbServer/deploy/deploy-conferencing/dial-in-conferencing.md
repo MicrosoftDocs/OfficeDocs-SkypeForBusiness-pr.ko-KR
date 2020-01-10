@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: '요약: 비즈니스용 Skype 서버에서 전화 접속 회의를 구성 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: 148e9340d705aba87b80d3b4b7f1e0d321cfbe8a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ff04637cf077bae4c1408a48a487582a04123b54
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234144"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002928"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 전화 접속 회의 구성
  
 **요약:** 비즈니스용 Skype 서버에서 전화 접속 회의를 구성 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
   
-회의 작업 부하와 선택한 전화 접속 회의를 포함 하는 토폴로지를 만든 후에는 추가 단계를 수행 하 여 전화 접속 회의를 구성 해야 합니다. 이 항목을 읽기 전에 비즈니스용 [Skype 서버에서 전화 접속 회의에 대 한 요금제](../../plan-your-deployment/conferencing/dial-in-conferencing.md), 비즈니스용 [skype 서버의 회의에 대 한 하드웨어 및 소프트웨어 요구 사항](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), [배포 순서도 및 검사 목록에 대 한 자세한 내용을 확인 하세요. 전화 접속 회의](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing). 
+회의 작업 부하와 선택한 전화 접속 회의를 포함 하는 토폴로지를 만든 후에는 추가 단계를 수행 하 여 전화 접속 회의를 구성 해야 합니다. 이 항목을 읽기 전에 비즈니스용 [Skype 서버에서 전화 접속 회의에 대 한 요금제](../../plan-your-deployment/conferencing/dial-in-conferencing.md), 비즈니스용 [skype 서버의 회의에 대 한 하드웨어 및 소프트웨어 요구 사항](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), [전화 접속 회의를 위한 배포 순서도 및 검사 목록을](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)참조 하세요. 
   
 전화 접속 회의를 구성 하려면 다음 작업을 수행 해야 합니다.
   
@@ -83,13 +83,13 @@ ms.locfileid: "36234144"
     
 3. 명령 프롬프트에서 다음을 실행 합니다.
     
-   ```
+   ```powershell
    Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
    ```
 
    예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    Get-CsDialPlan
    ```
 
@@ -107,13 +107,13 @@ ms.locfileid: "36234144"
     
 3. 전화 접속 회의 영역이 없는 다이얼 플랜의 경우 다음을 실행 합니다.
     
-   ```
+   ```powershell
    Set-CsDialPlan [-Identity <Identity of the dial plan to be modified>] -DialinConferencingRegion "<new region>"
    ```
 
    예를 들면 다음과 같습니다.
     
-   ```
+   ```powershell
    Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
    ```
 

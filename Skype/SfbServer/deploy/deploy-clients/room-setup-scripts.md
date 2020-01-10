@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: 이 항목에서는 Skype 대화방 시스템 계정을 프로 비전 하는 샘플 스크립트를 찾을 수 있습니다.
-ms.openlocfilehash: 77aa3a621cbc1220b71782f2067c8923cad31e5f
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b2a6d0ce02e233492ac04a198c2bf2220f4de998
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775347"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003008"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype 채팅방 시스템 룸 설정 스크립트
  
@@ -25,7 +25,7 @@ ms.locfileid: "36775347"
   
 ## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>설치 스크립트 예: 비즈니스용 Skype 및 Exchange Server (온-프레미스)
 
-```
+```powershell
 # On Exchange 
 Set-Mailbox -Identity confroom@contoso.com -MailTip "This room is equipped with Lync Meeting Room (LRS), please make it a 
 Lync Meeting to take advantage of enhanced meeting experience from LRS"
@@ -49,7 +49,7 @@ Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=166
     
 - 필요한 경우 재부팅
     
-```
+```powershell
 # Note you have to enter each command one at a time and update any bold fields for your environment
 $rm="LyncRoom"
 $org='YourTenantName.onmicrosoft.com'

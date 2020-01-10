@@ -1,5 +1,5 @@
 ---
-title: 클라우드 커넥터에 단일 사이트 배포
+title: 클라우드 커넥터에서 단일 사이트 배포
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -14,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: 클라우드 커넥터 에디션에 단일 PSTN 사이트를 배포 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 10d9e5f286b00af8791097707dc0345e100e55d5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a2cc8933276bc85b19ee79559ca4bcf9e88a079f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190863"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001028"
 ---
-# <a name="deploy-a-single-site-in-cloud-connector"></a>클라우드 커넥터에 단일 사이트 배포
+# <a name="deploy-a-single-site-in-cloud-connector"></a>클라우드 커넥터에서 단일 사이트 배포
  
 클라우드 커넥터 에디션에 단일 PSTN 사이트를 배포 하는 방법에 대해 알아보세요.
   
@@ -31,7 +31,7 @@ HA (고가용성) 지원 여부에 관계 없이 비즈니스용 Skype 클라우
 
 사이트에 첫 번째 기기를 배포 하려면 관리자로 PowerShell 콘솔을 열고 다음 cmdlet을 실행 하 여 기기를 등록 합니다.
   
-```
+```powershell
 Register-CcAppliance
 ```
 
@@ -43,7 +43,7 @@ Register-CcAppliance
   
 설치를 시작 하려면 관리자로 PowerShell 콘솔을 열고 다음 cmdlet을 실행 합니다.
   
-```
+```powershell
 Install-CcAppliance
 ```
 
@@ -55,19 +55,19 @@ Install-CcAppliance
     
 2. 새로 추가한 호스트 서버 에서만 다음 cmdlet을 실행 하 여 Office 365 테 넌 트 구성의 토폴로지 정보를 업데이트 합니다. 동시에 여러 기기를 추가 하려는 경우 새로 추가 된 각 호스트 서버에서 cmdlet을 하나씩 실행 합니다.
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 3. 각 호스트 서버에서 다음 cmdlet을 실행 하 여 기존 기기의 토폴로지를 업데이트 합니다. 기존 기기 에서만 cmdlet을 실행 합니다.
     
-   ```
+   ```powershell
    Publish-CcAppliance
    ```
 
 4. 새로 추가 된 호스트 서버 에서만 다음 cmdlet을 실행 합니다. 기존 기기에서이 cmdlet을 실행 하지 마세요. 동시에 여러 기기를 추가 하려는 경우 새로 추가 된 각 호스트 서버에서 cmdlet을 하나씩 실행 합니다.
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -80,13 +80,13 @@ Install-CcAppliance
   
 1. 사이트에서 제거 하려는 호스트 서버 에서만 다음 cmdlet을 실행 하 여 Office 365 테 넌 트 구성의 토폴로지 정보를 업데이트 합니다.
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
 2. 기기의 모든 가상 머신을 제거 하려는 호스트 서버 에서만 다음 cmdlet을 실행 합니다.
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 

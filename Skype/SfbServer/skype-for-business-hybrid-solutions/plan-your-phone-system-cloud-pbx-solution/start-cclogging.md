@@ -1,5 +1,5 @@
 ---
-title: 시작-CcLogging
+title: Start-CcLogging
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
 description: 시작-CcLogging cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 기기에 대 한 수신 및 발신 통화 로그를 생성 합니다.
-ms.openlocfilehash: 6e77ff347ca72a9aa31ad7bcb5a0330a8ea17a9a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2064fa4efd730812b5073821784ff5c524056341
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190620"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003178"
 ---
-# <a name="start-cclogging"></a>시작-CcLogging
+# <a name="start-cclogging"></a>Start-CcLogging
  
 시작-CcLogging cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 기기에 대 한 수신 및 발신 통화 로그를 생성 합니다. 
   
-```
+```powershell
 Start-CcLogging
 ```
 
@@ -37,7 +37,7 @@ Start-CcLogging
 
 다음 예에서는 수신 및 발신 통화 로그를 생성 합니다.
   
-```
+```powershell
 Start-CcLogging
 ```
 
@@ -59,8 +59,8 @@ Start-CcLogging
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[검색-CcLog](search-cclog.md)
+[Search-CcLog](search-cclog.md)
   
-[중지-CcLogging](stop-cclogging.md)
+[Stop-CcLogging](stop-cclogging.md)
   
 

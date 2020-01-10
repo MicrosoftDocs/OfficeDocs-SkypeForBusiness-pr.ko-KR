@@ -1,5 +1,5 @@
 ---
-title: 등록-CcAppliance
+title: Register-CcAppliance
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: 등록-CcAppliance cmdlet는 온라인 테 넌 트 구성의 PSTN 사이트에 기기 정보를 등록 합니다. 비즈니스용 Skype 클라우드 커넥터 에디션 관리 서비스에서 기기를 배포 하 고 관리 하기 전에 먼저 등록 해야 합니다.
-ms.openlocfilehash: 9e15d7b8227bf9ee657d197041056703505ca7c8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 93f1fe59a199214615c5ecdf8445f6c363ce6bbe
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190704"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003308"
 ---
-# <a name="register-ccappliance"></a>등록-CcAppliance
+# <a name="register-ccappliance"></a>Register-CcAppliance
  
 등록-CcAppliance cmdlet는 온라인 테 넌 트 구성의 PSTN 사이트에 기기 정보를 등록 합니다. 비즈니스용 Skype 클라우드 커넥터 에디션 관리 서비스에서 기기를 배포 하 고 관리 하기 전에 먼저 등록 해야 합니다.
   
-```
+```powershell
 Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 ```
 
@@ -33,7 +33,7 @@ Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 
 다음 예에서는 현재 기기 정보를 온라인 테 넌 트 구성에 등록 합니다.
   
-```
+```powershell
 Register-CcAppliance
 ```
 
@@ -41,7 +41,7 @@ Register-CcAppliance
 
 다음 예제에서는 온라인 테 넌 트 구성에 연결 하지 않고 로컬로 등록 구성을 검사 합니다.
   
-```
+```powershell
 Register-CcAppliance -Local
 ```
 
@@ -49,7 +49,7 @@ Register-CcAppliance -Local
 
 다음 예에서는 "Appliance1" 라는 이름의 현재 기기를 PSTN 사이트 "Site1"에 등록 합니다.
   
-```
+```powershell
 Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ```
 
@@ -104,12 +104,12 @@ ApplianceName는 CloudConnector .ini 파일의 중재 서버 FQDN과 결합 된 
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[CcAppliance 등록 취소](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
-[게시-CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
-[설치-CcAppliance](install-ccappliance.md)
+[Install-CcAppliance](install-ccappliance.md)
   
-[제거-CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 

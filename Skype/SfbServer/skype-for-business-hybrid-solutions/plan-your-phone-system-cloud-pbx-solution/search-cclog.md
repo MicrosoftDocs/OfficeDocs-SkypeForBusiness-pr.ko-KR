@@ -1,5 +1,5 @@
 ---
-title: 검색-CcLog
+title: Search-CcLog
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: 검색-CcLog cmdlet는 비즈니스용 Skype 클라우드 커넥터 에디션 기기 로그 디렉터리에서 수신 및 발신 통화 기록을 검색 합니다.
-ms.openlocfilehash: 7d1591953004ecf0e0d0a3bfdf2e998e06002325
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c248720931ef1c15d633c51bb6daa6c414631a18
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190653"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003238"
 ---
-# <a name="search-cclog"></a>검색-CcLog
+# <a name="search-cclog"></a>Search-CcLog
  
 검색-CcLog cmdlet는 비즈니스용 Skype 클라우드 커넥터 에디션 기기 로그 디렉터리에서 수신 및 발신 통화 기록을 검색 합니다.
   
-```
+```powershell
 Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <string>]
 ```
 
@@ -33,7 +33,7 @@ Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <str
 
 다음 예에서는 기본 파일 이름을 사용 하 여 기기 로그 디렉터리의 수신 및 발신 통화 로그를 검색 합니다.
   
-```
+```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 ```
 
@@ -41,7 +41,7 @@ Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 
 다음 예제에서는 지정 된 파일 경로 및 이름을 사용 하 여 수신 및 발신 통화 로그를 검색 합니다.
   
-```
+```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName "C:\Log\LogFile.log"
 ```
 
@@ -72,8 +72,8 @@ Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[시작-CcLogging](start-cclogging.md)
+[Start-CcLogging](start-cclogging.md)
   
-[중지-CcLogging](stop-cclogging.md)
+[Stop-CcLogging](stop-cclogging.md)
   
 

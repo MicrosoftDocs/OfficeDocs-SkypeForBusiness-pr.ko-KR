@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 참조 하세요. '
-ms.openlocfilehash: 8d6e97ea5454b8e933424c2e8db595a5af7ac8c8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 429904020a63b93fefd1adee7ee89d02a47f1d61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972489"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41005194"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
@@ -35,11 +35,13 @@ ms.locfileid: "37972489"
   
 CQD (통화 품질 대시보드)는 Microsoft 팀과 비즈니스용 Skype Online 서비스를 사용 하 여 발생 하는 통화의 품질에 대 한 통찰력을 제공 합니다. 이 항목에서는 통화 품질 문제를 해결 하는 데 사용할 수 있는 데이터 수집을 시작 하는 단계에 대해 설명 합니다.
 
-현재 CQD 버전 3과 CQD 버전 2는 둘 다 사용할 수 있습니다. CQD v3은에서 <span>https://cqd.teams.microsoft.com</span>사용할 수 있습니다. Microsoft 팀 관리자 자격 증명을 사용 하 여 로그인 합니다.
+현재 고급 CQD 및 CQD를 모두 사용할 수 있습니다. 고급 CQD는에서 <span>https://cqd.teams.microsoft.com</span>사용할 수 있습니다. 새 URL 이지만 관리자 자격 증명을 사용 하 여 로그인 합니다.
 
 ## <a name="latest-changes-and-updates"></a>최신 변경 및 업데이트
 
-CQD 버전 3은 거의 실시간 CQD 대시보드 (지연 시간은 30 분)를 제공 하 고, EUII (최종 사용자 식별 가능 정보)를 사용 하 여 관리자에 게 사용자 수준 확대 기능을 제공 합니다. 또한 다음과 같은 새로운 시나리오를 지원 하기 위해 대화형 작업을 보고 합니다.
+
+업데이트 된 CQD (초기 11 월 2019)는 가까운 실시간 CQD 대시보드를 제공 합니다. 이제 평균 30 분 내에 CQD 데이터를 사용할 수 있습니다 (평균 24 시간에 해당 하는 이전 CQD에 비해).  업데이트 된 CQD는 최종 사용자 식별 정보 (EUII)를 사용 하 여 관리자에 게 드릴 다운 및 사용자 수준 확대 기능을 제공 합니다. 또한 다음과 같은 새로운 시나리오를 지원 하기 위해 대화형 작업을 보고 합니다.
+
 
 - 지역별 통화 음질:
   - 국가별 날짜
@@ -355,9 +357,9 @@ CQD는 빌드 데이터 파일을 사용 하 여 유용한 통화 정보를 제�
 
 ||||||||||||||||
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
-|**열 필드 이름**|네트워크 Ip  |NetworkName              |네트워크 범위|BuildingName  |소유자 배송 유형| BuildingType  |BuildingOfficeType|곳   |ZipCode|명칭|상태 |영역인|InsideCorp&dagger;|ExpressRoute&Dagger;|VPN (선택 사항)|
+|**열 필드 이름**|네트워크 Ip  |NetworkName              |네트워크 범위|BuildingName  |소유자 배송 유형| BuildingType  |BuildingOfficeType|곳   |ZipCode|명칭|상태 |지역|InsideCorp&dagger;|ExpressRoute&Dagger;|VPN (선택 사항)|
 |**데이터 형식**        | 문자열    | 문자열                  |숫자로      | 문자열       | 문자열      | 문자열        |문자열            |문자열 |문자열 |문자열 |문자열|문자열|부울   |부울     |부울|
-|**예제 값**    |192.168.1.0|미국/시애틀/시애틀-해상-1| kbps         | 시애틀-해상-1| Contoso.com     | IT 종료|공정       |시애틀|98001  |보세요     |WA    |MSUS  | raid-1        |0           | 0|
+|**예제 값**    |192.168.1.0|미국/시애틀/시애틀-해상-1| kbps         | 시애틀-해상-1| Contoso.com     | IT 종료|공정       |시애틀|98001  |보세요     |WA    |MSUS  | 1        |0           | 0|
 |||||||||||||||||
 
 &dagger;이 설정은 서브넷이 회사 네트워크 내에 있는지 여부를 반영 하는 데 사용 될 수 있습니다. 결정을 하는 경우 용도를 다른 용도로 사용자 지정할 수 있습니다.
@@ -387,11 +389,11 @@ CQD는 끝점 데이터 파일을 사용 합니다. 열 값은 호출 레코드�
 
   **필드 순서:**
 
-EndpointName, EndpointModel, Endpointmodel, EndpointLabel1, EndpointLabel2, EndpointLabel3
+EndpointName, EndpointMake, Endpointmake, Endpointmake, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **예제 행:**
 
-`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+' 1409W3534, 123 제조업체, Fabrikam 모델 123, 랩탑, 지정 된 2018 랩톱, 자산 태그 5678, 구매 2018
 
 ## <a name="create-custom-detailed-reports"></a>사용자 지정 상세 보고서 만들기
 

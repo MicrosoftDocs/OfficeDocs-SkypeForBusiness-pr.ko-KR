@@ -1,5 +1,5 @@
 ---
-title: 복원-CcCredentials
+title: Restore-CcCredentials
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
 description: Cc-Credentials 복원 cmdlet은 현재 비즈니스용 Skype 클라우드 커넥터 에디션 배포의 모든 자격 증명을 복원 합니다.
-ms.openlocfilehash: efa1bcda9af6abccd2ced0faf1e772e779a4483f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: adac3f0b9ca6cf392b537a9c5d0f2095021c7120
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190656"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003248"
 ---
-# <a name="restore-cccredentials"></a>복원-CcCredentials
+# <a name="restore-cccredentials"></a>Restore-CcCredentials
  
 Cc-Credentials 복원 cmdlet은 현재 비즈니스용 Skype 클라우드 커넥터 에디션 배포의 모든 자격 증명을 복원 합니다. 
   
 이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 2.1에 적용 됩니다.
   
-```
+```powershell
 Restore-CcCredentials 
 ```
 
@@ -48,7 +48,7 @@ Restore-CcCredentials cmdlet은 모든 자격 증명을 정리 하 고 현재 �
 
 다음 예제에서는 현재 클라우드 커넥터 배포의 모든 자격 증명을 복원 합니다.
   
-```
+```powershell
     PS C:\>Restore-CcCredentials
 ```
 
@@ -56,6 +56,6 @@ Restore-CcCredentials cmdlet은 모든 자격 증명을 정리 하 고 현재 �
 
 [Get-CcCredential](get-cccredential.md)
   
-[집합-CcCredential](set-cccredential.md)
+[Set-CcCredential](set-cccredential.md)
   
 

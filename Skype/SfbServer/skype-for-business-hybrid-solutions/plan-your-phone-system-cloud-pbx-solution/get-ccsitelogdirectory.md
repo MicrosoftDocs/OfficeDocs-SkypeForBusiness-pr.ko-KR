@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6625494d-1b63-4d99-a589-c8c69c4addba
 description: Get-CcSiteLogDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션의 사이트 수준 로그가 저장 되는 현재 디렉터리를 표시 합니다.
-ms.openlocfilehash: bc47c2ea2d81e70538305daa98f97a35cf3d9e0a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a03c4c0cc3e993fb5e1426f3f27f76a68d081c26
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190770"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003358"
 ---
 # <a name="get-ccsitelogdirectory"></a>Get-CcSiteLogDirectory
  
@@ -24,7 +24,7 @@ Get-CcSiteLogDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 �
   
 이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 1.4.1, 1.4.2에 적용 됩니다.
   
-```
+```powershell
 Get-CcSiteLogDirectory
 ```
 
@@ -39,7 +39,7 @@ Get-CcSiteLogDirectory
 
 다음 예제에서는 클라우드 커넥터 사이트의 로그 파일이 저장 되어 있는 현재 폴더를 보여 줍니다.
   
-```
+```powershell
 Get-CcSiteLogDirectory
 ```
 
@@ -61,6 +61,6 @@ Get-CcSiteLogDirectory
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
-[집합-CcSiteDirectory](set-ccsitedirectory.md)
+[Set-CcSiteDirectory](set-ccsitedirectory.md)
   
 

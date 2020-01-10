@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: '요약: 비즈니스용 Skype 서버에서 VIS (비디오 Interop Server) 역할을 구성 합니다.'
-ms.openlocfilehash: 9ac7b64b33c48bd4010c1431b5c0d658f223599a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fb9dc36bcf2f1a6f1346705f74dd3cf2844a973c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235684"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003058"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 비디오 Interop 서버 구성
  
@@ -34,31 +34,31 @@ ms.locfileid: "36235684"
 
 1. 다음 Windows PowerShell cmdlet을 사용 하 여 VIS 및 Cisco 통합 커뮤니케이션 관리자 (CallManager 또는 CUCM) 간 트렁크에서 사용할 새 비디오 트렁크 구성 (설정 모음)을 만듭니다.
     
-   ```
+   ```powershell
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
    ```
 
     수정 해야 하는 기존 비디오 트렁크가 있는 경우 다음 Windows PowerShell cmdlet을 사용 합니다.
     
-   ```
+   ```powershell
    Set-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls  $true(or $false)
    ```
 
     특정 비디오 트렁크 구성과 관련 된 설정을 보려면 다음 Windows PowerShell cmdlet을 사용 합니다.
     
-   ```
+   ```powershell
    Get-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
     특정 비디오 트렁크 구성을 제거 하려면 다음 Windows PowerShell cmdlet을 사용 하세요 (특정 트렁크에 대 한 보다 구체적으로 범위가 지정 된 비디오 트렁크 구성이 없는 경우 전역으로 범위를 설정한 비디오 트렁크 구성이 적용 됨).
     
-   ```
+   ```powershell
    Remove-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
 2. 다음 Windows PowerShell cmdlet을 사용 하 여 트렁크와 연결할 다이얼 플랜을 설정 합니다.
     
-   ```
+   ```powershell
    New-CsDialPlan -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -SimpleName "TrunkTestDialPlan" 
    New-CsVoiceNormalizationRule -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com/SevenDigitRule" -Pattern '^(\d{7})$' -Translation '+1425$1' 
    Get-CsDialPlan -Identity "Service:CUCMVIS1.CUCMInterop.contoso.com"

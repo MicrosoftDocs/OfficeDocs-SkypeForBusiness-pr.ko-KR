@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: 비즈니스용 Skype 서버에서 SEFAUtil 도구 배포
-ms.openlocfilehash: 1721f4d611a08a3054366e36b0ec9a3ebccf6c78
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e36448652f245d1c81a00cc206b6e8047a8f9d28
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245782"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001888"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>비즈니스용 Skype에서 SEFAUtil 도구 배포
  
@@ -43,7 +43,7 @@ ms.locfileid: "36245782"
     
 3. SEFAUtil 도구는 신뢰할 수 있는 응용 프로그램 풀의 일부인 컴퓨터 에서만 실행 됩니다. 필요한 경우 SEFAUtil를 실행할 계획의 프런트 엔드 풀에 대해 신뢰할 수 있는 응용 프로그램 풀을 정의 합니다. 명령줄에서 다음을 실행 합니다.
     
-   ```
+   ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
     > [!NOTE]
@@ -53,7 +53,7 @@ ms.locfileid: "36245782"
 
 4. SEFAUtil 도구를 신뢰할 수 있는 응용 프로그램으로 정의 합니다. 명령줄에서 다음을 실행 합니다.
     
-   ```
+   ```powershell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
    ```
 
@@ -62,7 +62,7 @@ ms.locfileid: "36245782"
   
 5. 변경 내용이 포함 된 토폴로지를 사용 하도록 설정 합니다. 명령줄에서 다음을 실행 합니다.
     
-   ```
+   ```powershell
    Enable-CsTopology
    ```
 
@@ -74,7 +74,7 @@ ms.locfileid: "36245782"
     
     b. 사용자의 착신 전환 설정을 표시 합니다. 명령줄에서 다음을 실행 합니다.
     
-   ```
+   ```console
    SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
    ```
 

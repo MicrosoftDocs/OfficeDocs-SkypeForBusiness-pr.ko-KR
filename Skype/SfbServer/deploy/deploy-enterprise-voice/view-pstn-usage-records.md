@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: '요약: 비즈니스용 Skype Server 제어판 또는 비즈니스용 Skype Server Management Shell을 사용 하 여 PSTN 사용 레코드를 보는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: bbc9b7f174ff4b6710009af47dbdcd20e12334d4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 96a96898bf728b4f05ba473bc750635e41be19fa
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240246"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002728"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>비즈니스용 Skype에서 PSTN 사용 레코드 보기
 
@@ -42,7 +42,7 @@ PSTN (공개 통신 네트워크) 사용 레코드는 조직의 여러 사용자
 
 - 모든 PSTN 용도에 대 한 정보를 보려면 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
 
-  ```
+  ```powershell
   Get-CsPstnUsage
   ```
 

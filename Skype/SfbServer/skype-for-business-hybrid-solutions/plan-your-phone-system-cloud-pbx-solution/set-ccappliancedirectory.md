@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
 description: CcApplianceDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버에서 작업 디렉터리를 설정 합니다. 모든 배포 파일은이 디렉터리에 저장 됩니다.
-ms.openlocfilehash: 56a13da740b0c23adee7e05ddbcc1bbc82f0f1cc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1dfc85a08709fd550b91dbecdb5d4186f265ca67
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190650"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003228"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
 CcApplianceDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버에서 작업 디렉터리를 설정 합니다. 모든 배포 파일은이 디렉터리에 저장 됩니다.
   
-```
+```powershell
 Set-CcApplianceDirectory[[-Path] <string>]
 ```
 
@@ -33,7 +33,7 @@ Set-CcApplianceDirectory[[-Path] <string>]
 
 다음 예에서는 호스트 서버의 작업 디렉터리를 c:\cloudconnector\applianceroot로 설정 합니다.
   
-```
+```powershell
 Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 ```
 

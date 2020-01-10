@@ -1,5 +1,5 @@
 ---
-title: Office 365 테 넌 트와 클라우드 커넥터 통합 구성
+title: Office 365 테넌트와 클라우드 커넥터 통합을 구성
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -14,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Office 365 테 넌 트에서 클라우드 커넥터 통합을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b4c70c5698601a2aa69669da3384b6806af98110
-ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
+ms.openlocfilehash: ed9437026ddbae07aadbe81585886ed0cb5cb0cc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37508813"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002858"
 ---
-# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Office 365 테 넌 트와 클라우드 커넥터 통합 구성
+# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Office 365 테넌트와 클라우드 커넥터 통합을 구성
  
 Office 365 테 넌 트에서 클라우드 커넥터 통합을 구성 하는 방법에 대해 알아봅니다.
   
@@ -59,7 +59,7 @@ Office 365에서 도메인을 업데이트 하는 단계를 완료 하 고 DNS �
   
 1. 액세스에 지에 대 한 DNS A 레코드를 추가 합니다.
     
-2. SRV 레코드는 Office 365 및 배포 스크립트에서 자동으로 만들어집니다. Edge에서 sip 및 _sipfederationtls에서 다음 두 가지 SIP 서비스를 조회할 수 있는지 확인 합니다.
+2. SRV 레코드는 Office 365 및 배포 스크립트에서 자동으로 만들어집니다. Edge에서 _sip 및 _sipfederationtls에 다음 두 가지 SIP 서비스를 조회할 수 있는지 확인 합니다.
     
      ![SRV 레코드 확인](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
   
@@ -69,7 +69,7 @@ Office 365에서 도메인을 업데이트 하는 단계를 완료 하 고 DNS �
   
 Cmdlet은 액세스 경계 외부 FQDN을 설정 합니다. 첫 번째 명령에는 외부 액세스에 \<지 FQDN\> 이 SIP 액세스에 지 역할에 대 한 것 이어야 합니다. 기본적으로 ap. 도메인 이름\<\>이어야 합니다.
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
@@ -107,7 +107,7 @@ Office 365에 사용자를 추가한 후에는 음성 메일을 포함 하 여 O
   
 - 사용자에 게 정책을 할당 하 고 **id** 매개 변수 값으로 지정 하는 사용자의 비즈니스 음성 전화 번호를 구성 합니다.
     
-  ```
+  ```powershell
   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI <tel:+phonenumber>
   ```
 
@@ -116,7 +116,7 @@ Office 365에 사용자를 추가한 후에는 음성 메일을 포함 하 여 O
   
 그런 다음 아래 스크립트를 사용 하 여 사용자를 추가 하 고 사용 하도록 설정 했는지 확인할 수 있습니다.
   
-```
+```powershell
 # Input the user name you want to verify
 $user = Get-CsOnlineUser <User name>
 
@@ -134,7 +134,7 @@ $user.VoicePolicy
   
 사용자별로 국제 통화를 사용 하지 않도록 설정 하려면 비즈니스용 Skype Online PowerShell에서 다음 cmdlet을 실행 합니다.
   
-```
+```powershell
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
 ```
 
@@ -144,7 +144,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $u
 
 단일 사이트를 배포 하는 경우에도 테 넌 트 원격 PowerShell을 사용 하 여 사이트를 사용자에 게 할당 합니다. 원격 PowerShell 세션을 설정 하는 방법에 [대 한 자세한 내용은 Windows PowerShell 용 컴퓨터 설정을](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)참조 하세요.
   
-```
+```powershell
 # Set the site to users
 Set-CsUserPstnSettings -Identity <User Name> -HybridPstnSite <PSTN Site Name>
 
@@ -168,19 +168,19 @@ P2P 통화가 PSTN 회의로 에스컬레이션 되는 경우 비즈니스용 Sk
     클라우드 커넥터 (.ini 파일의 첫 번째 SIP 도메인)의 기본 SIP 도메인을 사용자 도메인으로 사용 합니다.
     
     라이선스 할당은 비즈니스용 Skype online 디렉터리로의 사용자 전파에만 필요 하다는 점에 유의 하세요. 만든 계정에 Office 365 라이선스 (예: E5)를 할당 하 고 변경 내용을 전파 하는 데 최대 1 시간 동안 다음 cmdlet을 실행 하 여 비즈니스용 Skype online 디렉터리로 사용자 계정이 올바르게 프로 비전 되었는지 확인 하 고 다음을 제거 합니다. 이 계정에서 라이선스를 사용 합니다.
-    ```
+    ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
 2. 전역 또는 사용자 관리자 자격 증명을 사용 하 여 테 넌 트 Azure AD 원격 PowerShell 세션을 시작한 후 다음 cmdlet을 실행 하 여 1 단계에서 구성한 Azure AD 사용자 계정에 대 한 부서를 "HybridMediationServer"로 설정 합니다.
 
-   ```
+   ```powershell
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. 비즈니스용 Skype 테 넌 트 관리자 자격 증명을 사용 하 여 테 넌 트 Skype for Business 원격 PowerShell 세션을 시작한 후 다음 cmdlet을 실행 하 여 중재 서버 및 Edge 서버 FQDN을 해당 사용자 \<계정\> 으로 설정 하 고 DisplayName을 바꿉니다. 1 단계에서 만든 계정에 대 한 사용자의 표시 이름:
+3. 비즈니스용 Skype 테 넌 트 관리자 자격 증명을 사용 하 여 테 넌 트 Skype for Business 원격 PowerShell 세션을 시작한 후 다음 cmdlet을 실행 하 여 DisplayName \<\> SERVER 및 Edge 서버 FQDN을 해당 사용자 계정으로 설정 하 고,이 이름을 1 단계에서 만든 계정의 사용자 표시 이름으로 바꿉니다.
     
-   ```
+   ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
    ```
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: 비즈니스용 Skype 서버 엔터프라이즈 음성을 사용할 때 통화 대기 음악을 사용자 지정 합니다.
-ms.openlocfilehash: 834e6e811637c120e675a674f51ac0edeaf90542
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f071b83e155e2ddfb057619eb95773e4386b67c0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245875"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001008"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>통화 대기 음악 사용자 지정 (비즈니스용 Skype for Business)
  
@@ -38,7 +38,7 @@ ms.locfileid: "36245875"
     
 3. 런
     
-   ```
+   ```powershell
    Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte >
    ```
 
@@ -47,7 +47,7 @@ ms.locfileid: "36245875"
   
     다음 예제에서는 바이트 배열로 soothingmusic 파일의 내용을 가져와이를 변수에 할당 하는 방법을 보여 줍니다. 그러면 오디오 파일이 통화 공원에 대 한 음악 보존 파일로 지정 됩니다. 자세한 내용은 [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)을 참조 하세요.
     
-   ```
+   ```powershell
    $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
    Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
    ```

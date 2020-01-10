@@ -1,5 +1,5 @@
 ---
-title: 새 버전의 클라우드 커넥터로 업그레이드
+title: 클라우드 커넥터의 새 버전으로 업그레이드
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -14,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: 클라우드 커넥터 에디션 배포를 업그레이드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c2613069f1626f8fc7e28b4fb5a246fc7647cf98
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c340b7325c95d25212c9c1f77f9379a25708cea8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190572"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002048"
 ---
-# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>새 버전의 클라우드 커넥터로 업그레이드
+# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>클라우드 커넥터의 새 버전으로 업그레이드
  
 클라우드 커넥터 에디션 배포를 업그레이드 하는 방법에 대해 알아봅니다.
   
@@ -77,25 +77,25 @@ Cloud Connector Edition 버전 1.4.1 이상에서는 기본적으로 자동 업�
     
 4. PowerShell 콘솔을 관리자로 시작 하 고 다음 cmdlet을 실행 하 여 현재 기기를 등록 합니다.
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 5. 다음 cmdlet을 실행 하 여 최신 버전을 다운로드 합니다.
     
-   ```
+   ```powershell
    Start-CcDownload
    ```
 
 6. 다음 cmdlet을 실행 하 여 설치를 시작 합니다. 
     
-   ```
+   ```powershell
    Install-CcAppliance -Upgrade
    ```
 
 7. 다음 cmdlet을 실행 하 여 새 배포를 활성화 하 고 이전 버전을 해제 합니다.
     
-   ```
+   ```powershell
    Switch-CcVersion
    ```
 
@@ -103,7 +103,7 @@ Cloud Connector Edition 버전 1.4.1 이상에서는 기본적으로 자동 업�
   
 도메인 관리자, 가상 컴퓨터 관리자, 안전 모드 관리자 및 테 넌 트 관리자 자격 증명을 업데이트 하려는 경우 _Updateallcredentials_ 매개 변수를 사용 하 여 cmdlet을 실행 하 여 모든 자격 증명을 다시 설정할 수 있습니다.
   
-```
+```powershell
 Install-CcAppliance -UpdateAllCredentials
 ```
 
@@ -111,7 +111,7 @@ Install-CcAppliance -UpdateAllCredentials
   
 테 넌 트 관리자 자격 증명만을 다시 설정 하려는 경우 다음 cmdlet을 실행 합니다.
   
-```
+```powershell
 Set-CcCredential -AccountType TenantAdmin
 ```
 

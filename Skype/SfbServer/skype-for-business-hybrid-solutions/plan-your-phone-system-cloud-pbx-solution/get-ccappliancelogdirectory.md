@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
 description: CcApplianceLogDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 기기에 대 한 로그가 저장 되어 있는 현재 디렉터리를 표시 합니다.
-ms.openlocfilehash: 675e89f49c7c1384edc7cfa5944c8aee3f236c79
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a8b7e1b13302bec27c2fe784804f8f43fe2e023c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190794"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003398"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
@@ -24,7 +24,7 @@ CcApplianceLogDirectory cmdlet은 비즈니스용 Skype 클라우드 커넥터 �
   
 이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 1.4.1, 1.4.2에 적용 됩니다.
   
-```
+```powershell
 Get-CcApplianceLogDirectory
 ```
 
@@ -39,7 +39,7 @@ Get-CcApplianceLogDirectory
 
 다음 예에서는 클라우드 커넥터의 현재 기기에 대 한 로그가 저장 되어 있는 현재 폴더를 보여 줍니다.
   
-```
+```powershell
 Get-CcApplianceLogDirectory
 ```
 
