@@ -14,114 +14,114 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 비즈니스용 Skype Server Enterprise Voice에서 알림 신청에 대 한 공지 사항을 만들거나 삭제 합니다. 이는 할당 되지 않은 번호로의 호출이 처리 되는 방식에 영향을 줍니다.
-ms.openlocfilehash: b9f745a4b3b5a85548cc52cc1e883159a01ec1df
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 50a55908e238dfc1e3ce3d9979d554c7115576a2
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233790"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001198"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a><span data-ttu-id="dac5e-104">비즈니스용 Skype 서버에서 공지 사항 만들기 또는 삭제</span><span class="sxs-lookup"><span data-stu-id="dac5e-104">Create or delete an announcement in Skype for Business Server</span></span>
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a><span data-ttu-id="3307b-104">비즈니스용 Skype 서버에서 공지 사항 만들기 또는 삭제</span><span class="sxs-lookup"><span data-stu-id="3307b-104">Create or delete an announcement in Skype for Business Server</span></span>
 
-<span data-ttu-id="dac5e-105">비즈니스용 Skype Server Enterprise Voice에서 알림 신청에 대 한 공지 사항을 만들거나 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-105">Create or delete announcements for Announcement application in Skype for Business Server Enterprise Voice.</span></span> <span data-ttu-id="dac5e-106">이는 할당 되지 않은 번호로의 호출이 처리 되는 방식에 영향을 줍니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-106">This affects how calls to unassigned numbers are handled.</span></span>
+<span data-ttu-id="3307b-105">비즈니스용 Skype Server Enterprise Voice에서 알림 신청에 대 한 공지 사항을 만들거나 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-105">Create or delete announcements for Announcement application in Skype for Business Server Enterprise Voice.</span></span> <span data-ttu-id="3307b-106">이는 할당 되지 않은 번호로의 호출이 처리 되는 방식에 영향을 줍니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-106">This affects how calls to unassigned numbers are handled.</span></span>
 
-<span data-ttu-id="dac5e-107">알림을 구성 하는 경우에는 할당 되지 않은 번호로 전화를 처리 하는 방법을 실제로 구성 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-107">When you configure announcements, you are really configuring how you want calls to unassigned numbers to be handled.</span></span> <span data-ttu-id="dac5e-108">오디오 파일이 나 텍스트 음성 변환 (TTS) 파일이 될 수 있는 프롬프트를 재생 하거나, 프롬프트를 재생 하지 않고 지정 된 대상으로 통화를 전송할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-108">You can play a prompt, which can be an audio file or a text-to-speech (TTS) file, or you can just transfer the call to a specified destination without playing a prompt.</span></span>
+<span data-ttu-id="3307b-107">알림을 구성 하는 경우에는 할당 되지 않은 번호로 전화를 처리 하는 방법을 실제로 구성 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-107">When you configure announcements, you are really configuring how you want calls to unassigned numbers to be handled.</span></span> <span data-ttu-id="3307b-108">오디오 파일이 나 텍스트 음성 변환 (TTS) 파일이 될 수 있는 프롬프트를 재생 하거나, 프롬프트를 재생 하지 않고 지정 된 대상으로 통화를 전송할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-108">You can play a prompt, which can be an audio file or a text-to-speech (TTS) file, or you can just transfer the call to a specified destination without playing a prompt.</span></span>
 
-<span data-ttu-id="dac5e-109">할당 되지 않은 번호 표를 정의 하기 전에 공지 사항을 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-109">You need to create announcements before you define the unassigned number table.</span></span> <span data-ttu-id="dac5e-110">오디오 프롬프트, TTS 프롬프트 또는 메시지 표시 안 함을 사용 하는 모든 공지 사항에 대해이 단계를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-110">You need to perform this step for all announcements that use an audio prompt, a TTS prompt, or no prompt.</span></span>
+<span data-ttu-id="3307b-109">할당 되지 않은 번호 표를 정의 하기 전에 공지 사항을 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-109">You need to create announcements before you define the unassigned number table.</span></span> <span data-ttu-id="3307b-110">오디오 프롬프트, TTS 프롬프트 또는 메시지 표시 안 함을 사용 하는 모든 공지 사항에 대해이 단계를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-110">You need to perform this step for all announcements that use an audio prompt, a TTS prompt, or no prompt.</span></span>
 
-<span data-ttu-id="dac5e-111">이 항목에서는 알림을 가져오고 만드는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-111">This topic describes how to import and create announcements.</span></span> <span data-ttu-id="dac5e-112">지정 되지 않은 번호 테이블에 공지 사항을 할당 하는 방법에 대 한 자세한 내용은 지정 하지 [않은 번호 표 구성을](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="dac5e-112">For details about assigning announcements in the unassigned number table, see [Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).</span></span>
+<span data-ttu-id="3307b-111">이 항목에서는 알림을 가져오고 만드는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-111">This topic describes how to import and create announcements.</span></span> <span data-ttu-id="3307b-112">지정 되지 않은 번호 테이블에 공지 사항을 할당 하는 방법에 대 한 자세한 내용은 지정 하지 [않은 번호 표 구성을](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="3307b-112">For details about assigning announcements in the unassigned number table, see [Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).</span></span>
 
-## <a name="create-a-new-announcement-for-unassigned-numbers"></a><span data-ttu-id="dac5e-113">할당 되지 않은 번호에 대 한 새 공지 사항 만들기</span><span class="sxs-lookup"><span data-stu-id="dac5e-113">Create a new announcement for unassigned numbers</span></span>
+## <a name="create-a-new-announcement-for-unassigned-numbers"></a><span data-ttu-id="3307b-113">할당 되지 않은 번호에 대 한 새 공지 사항 만들기</span><span class="sxs-lookup"><span data-stu-id="3307b-113">Create a new announcement for unassigned numbers</span></span>
 
-<span data-ttu-id="dac5e-114">새 알림을 만들려면 다음 단계를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-114">To create a new announcement, you need to perform the following steps:</span></span>
+<span data-ttu-id="3307b-114">새 알림을 만들려면 다음 단계를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-114">To create a new announcement, you need to perform the following steps:</span></span>
 
-1. <span data-ttu-id="dac5e-115">오디오 메시지가 표시 되는 경우 좋아하는 오디오 녹음 응용 프로그램을 사용 하 여 오디오 파일을 녹음 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-115">For audio prompts, record the audio file by using your favorite audio recording application.</span></span>
+1. <span data-ttu-id="3307b-115">오디오 메시지가 표시 되는 경우 좋아하는 오디오 녹음 응용 프로그램을 사용 하 여 오디오 파일을 녹음 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-115">For audio prompts, record the audio file by using your favorite audio recording application.</span></span>
 
-2. <span data-ttu-id="dac5e-116">오디오 프롬프트의 경우 **CsAnnouncementFile** cmdlet을 실행 하 여 오디오 파일의 콘텐츠를 파일 저장소로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-116">For audio prompts, run the **Import-CsAnnouncementFile** cmdlet to import the contents of the audio file to File Store.</span></span>
+2. <span data-ttu-id="3307b-116">오디오 프롬프트의 경우 **CsAnnouncementFile** cmdlet을 실행 하 여 오디오 파일의 콘텐츠를 파일 저장소로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-116">For audio prompts, run the **Import-CsAnnouncementFile** cmdlet to import the contents of the audio file to File Store.</span></span>
 
-3. <span data-ttu-id="dac5e-117">**새 csannouncement** cmdlet을 실행 하 여 알림을 만들고 이름을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-117">Run the **New-CsAnnouncement** cmdlet to create and name the announcement.</span></span> <span data-ttu-id="dac5e-118">오디오 프롬프트, 텍스트 음성 변환 (TTS) 프롬프트 또는 메시지가 표시 되지 않는 알림을 만들려면이 단계를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-118">Perform this step to create announcements with an audio prompt, a text-to-speech (TTS) prompt, or no prompt.</span></span>
+3. <span data-ttu-id="3307b-117">**새 csannouncement** cmdlet을 실행 하 여 알림을 만들고 이름을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-117">Run the **New-CsAnnouncement** cmdlet to create and name the announcement.</span></span> <span data-ttu-id="3307b-118">오디오 프롬프트, 텍스트 음성 변환 (TTS) 프롬프트 또는 메시지가 표시 되지 않는 알림을 만들려면이 단계를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-118">Perform this step to create announcements with an audio prompt, a text-to-speech (TTS) prompt, or no prompt.</span></span>
 
     > [!TIP]
-    > <span data-ttu-id="dac5e-119">메시지를 재생 하지 않고 특정 대상에 전화를 거는 등의 메시지가 표시 되지 않은 상태에서 알림을 만들어야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-119">You might want to create an announcement with no prompt (for example, if you want to transfer calls to a specific destination without playing a message).</span></span>
+    > <span data-ttu-id="3307b-119">메시지를 재생 하지 않고 특정 대상에 전화를 거는 등의 메시지가 표시 되지 않은 상태에서 알림을 만들어야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-119">You might want to create an announcement with no prompt (for example, if you want to transfer calls to a specific destination without playing a message).</span></span>
 
-4. <span data-ttu-id="dac5e-120">지정 하지 않은 번호 표의 번호 범위에 새 공지 사항을 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-120">Assign the new announcement to a number range in the unassigned number table.</span></span>
+4. <span data-ttu-id="3307b-120">지정 하지 않은 번호 표의 번호 범위에 새 공지 사항을 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-120">Assign the new announcement to a number range in the unassigned number table.</span></span>
 
-### <a name="to-create-a-new-announcement"></a><span data-ttu-id="dac5e-121">새 알림을 만들려면</span><span class="sxs-lookup"><span data-stu-id="dac5e-121">To create a new announcement</span></span>
+### <a name="to-create-a-new-announcement"></a><span data-ttu-id="3307b-121">새 알림을 만들려면</span><span class="sxs-lookup"><span data-stu-id="3307b-121">To create a new announcement</span></span>
 
-1. <span data-ttu-id="dac5e-122">오디오 메시지가 표시 되는 경우 오디오 파일을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-122">For audio prompts, create the audio file.</span></span>
+1. <span data-ttu-id="3307b-122">오디오 메시지가 표시 되는 경우 오디오 파일을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-122">For audio prompts, create the audio file.</span></span>
 
-2. <span data-ttu-id="dac5e-123">비즈니스용 Skype 서버 관리 셸이 설치 되어 있는 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 **대리인 설정 권한에**설명 된 대로 필요한 사용자 권한으로 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-123">Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.</span></span>
+2. <span data-ttu-id="3307b-123">비즈니스용 Skype 서버 관리 셸이 설치 되어 있는 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 **대리인 설정 권한에**설명 된 대로 필요한 사용자 권한으로 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-123">Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.</span></span>
 
-3. <span data-ttu-id="dac5e-124">비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-124">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+3. <span data-ttu-id="3307b-124">비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-124">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
 
-4. <span data-ttu-id="dac5e-125">오디오 프롬프트에 대해 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-125">For audio prompts, run:</span></span>
+4. <span data-ttu-id="3307b-125">오디오 프롬프트에 대해 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-125">For audio prompts, run:</span></span>
 
-   ```
+   ```powershell
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. <span data-ttu-id="dac5e-126">런</span><span class="sxs-lookup"><span data-stu-id="dac5e-126">Run:</span></span>
+5. <span data-ttu-id="3307b-126">런</span><span class="sxs-lookup"><span data-stu-id="3307b-126">Run:</span></span>
 
-   ```
+   ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
    ```
 
-    <span data-ttu-id="dac5e-127">음성 메일로 통화를 전송 하는 경우 sip: username @ domainname, 불투명 = 앱: 보이스 메일 형식 (예: sip: bob@contoso.com, 불투명 = 앱-음성 메일) 형식의 SIPAddress를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-127">For transferring calls to voice mail, type SIPAddress in the format sip:username@domainname;opaque=app:voicemail (for example, sip:bob@contoso.com;opaque=app:voicemail).</span></span> <span data-ttu-id="dac5e-128">전화 번호로 통화를 전송 하는 경우 sip: number @ domainname, user = phone 형식으로 SIPAddress를 입력 합니다 (예를 들어 sip: + 14255550121@contoso.com, user = phone).</span><span class="sxs-lookup"><span data-stu-id="dac5e-128">For transferring calls to a phone number, type SIPAddress in the format sip:number@domainname;user=phone (for example, sip:+ 14255550121@contoso.com;user=phone).</span></span>
+    <span data-ttu-id="3307b-127">음성 메일로 통화를 전송 하는 경우 sip: username@domainname, 불투명 = 앱: 음성 메일 (예: sip: bob@contoso, 불투명 = app) 형식으로 SIPAddress를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-127">For transferring calls to voice mail, type SIPAddress in the format sip:username@domainname;opaque=app:voicemail (for example, sip:bob@contoso.com;opaque=app:voicemail).</span></span> <span data-ttu-id="3307b-128">전화 번호로 통화를 전송 하는 경우 sip: number@domainname, user = phone 형식으로 SIPAddress를 입력 합니다 (예: sip: + 14255550121@contoso 사용자 = 휴대폰).</span><span class="sxs-lookup"><span data-stu-id="3307b-128">For transferring calls to a phone number, type SIPAddress in the format sip:number@domainname;user=phone (for example, sip:+ 14255550121@contoso.com;user=phone).</span></span>
 
-    <span data-ttu-id="dac5e-129">예를 들어 오디오 프롬프트를 지정 하려면 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-129">For example, to specify an audio prompt:</span></span>
+    <span data-ttu-id="3307b-129">예를 들어 오디오 프롬프트를 지정 하려면 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-129">For example, to specify an audio prompt:</span></span>
 
-   ```
+   ```powershell
    $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
    Import-CsAnnouncementFile -Parent service:ApplicationServer:pool0@contoso.com -FileName "ChangedNumberMessage.wav" -Content $a
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
    ```
 
-    <span data-ttu-id="dac5e-130">예를 들어 TTS 프롬프트를 지정 하려면 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-130">For example, to specify a TTS prompt:</span></span>
+    <span data-ttu-id="3307b-130">예를 들어 TTS 프롬프트를 지정 하려면 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-130">For example, to specify a TTS prompt:</span></span>
 
-   ```
+   ```powershell
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   <span data-ttu-id="dac5e-131">이러한 cmdlet에 대 한 자세한 내용 및 **TextToSpeechPrompt** 매개 변수에 사용할 언어 코드 목록을 보려면 [새 csannouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="dac5e-131">For more detail about these cmdlets, and to see a list of the language codes to use in the **TextToSpeechPrompt** parameter, see [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).</span></span>
+   <span data-ttu-id="3307b-131">이러한 cmdlet에 대 한 자세한 내용 및 **TextToSpeechPrompt** 매개 변수에 사용할 언어 코드 목록을 보려면 [새 csannouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="3307b-131">For more detail about these cmdlets, and to see a list of the language codes to use in the **TextToSpeechPrompt** parameter, see [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).</span></span>
 
-## <a name="delete-an-announcement-for-unassigned-numbers"></a><span data-ttu-id="dac5e-132">할당 되지 않은 번호에 대 한 공지 사항 삭제</span><span class="sxs-lookup"><span data-stu-id="dac5e-132">Delete an announcement for unassigned numbers</span></span>
+## <a name="delete-an-announcement-for-unassigned-numbers"></a><span data-ttu-id="3307b-132">할당 되지 않은 번호에 대 한 공지 사항 삭제</span><span class="sxs-lookup"><span data-stu-id="3307b-132">Delete an announcement for unassigned numbers</span></span>
 
-### <a name="to-delete-an-announcement"></a><span data-ttu-id="dac5e-133">공지 사항을 삭제 하려면</span><span class="sxs-lookup"><span data-stu-id="dac5e-133">To delete an announcement</span></span>
+### <a name="to-delete-an-announcement"></a><span data-ttu-id="3307b-133">공지 사항을 삭제 하려면</span><span class="sxs-lookup"><span data-stu-id="3307b-133">To delete an announcement</span></span>
 
-1. <span data-ttu-id="dac5e-134">비즈니스용 Skype 서버 관리 셸이 설치 되어 있는 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 **대리인 설정 권한에**설명 된 대로 필요한 사용자 권한으로 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-134">Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.</span></span>
+1. <span data-ttu-id="3307b-134">비즈니스용 Skype 서버 관리 셸이 설치 되어 있는 컴퓨터에 RTCUniversalServerAdmins 그룹의 구성원 또는 **대리인 설정 권한에**설명 된 대로 필요한 사용자 권한으로 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-134">Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.</span></span>
 
-2. <span data-ttu-id="dac5e-135">비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-135">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="3307b-135">비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-135">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
 
-3. <span data-ttu-id="dac5e-136">조직의 모든 공지 사항을 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-136">List all the announcements in your organization.</span></span> <span data-ttu-id="dac5e-137">명령줄에서 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-137">At the command line, run:</span></span>
+3. <span data-ttu-id="3307b-136">조직의 모든 공지 사항을 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-136">List all the announcements in your organization.</span></span> <span data-ttu-id="3307b-137">명령줄에서 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-137">At the command line, run:</span></span>
 
-   ```
+   ```powershell
    Get-CsAnnouncement
    ```
 
-4. <span data-ttu-id="dac5e-138">결과 목록에서 삭제 하려는 공지 사항을 찾아 GUID를 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-138">In the resulting list, locate the announcement you want to delete, and copy the GUID.</span></span> <span data-ttu-id="dac5e-139">그런 다음 명령줄에서 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-139">Then, at the command line, run:</span></span>
+4. <span data-ttu-id="3307b-138">결과 목록에서 삭제 하려는 공지 사항을 찾아 GUID를 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-138">In the resulting list, locate the announcement you want to delete, and copy the GUID.</span></span> <span data-ttu-id="3307b-139">그런 다음 명령줄에서 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-139">Then, at the command line, run:</span></span>
 
-   ```
+   ```powershell
    Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
    ```
 
-    <span data-ttu-id="dac5e-140">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="dac5e-140">For example:</span></span>
+    <span data-ttu-id="3307b-140">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="3307b-140">For example:</span></span>
 
-   ```
+   ```powershell
    Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
    ```
 
     > [!NOTE]
-    > <span data-ttu-id="dac5e-141">추가 옵션에 대 한 자세한 내용은 [Csannouncement 가져오기](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) 및 [-csannouncement 제거](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="dac5e-141">For details about more options, see [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) and [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).</span></span>
+    > <span data-ttu-id="3307b-141">추가 옵션에 대 한 자세한 내용은 [Csannouncement 가져오기](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) 및 [-csannouncement 제거](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="3307b-141">For details about more options, see [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) and [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="dac5e-142">참고 항목</span><span class="sxs-lookup"><span data-stu-id="dac5e-142">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3307b-142">참고 항목</span><span class="sxs-lookup"><span data-stu-id="3307b-142">See also</span></span>
 
-[<span data-ttu-id="dac5e-143">비즈니스용 Skype 서버에서 공지 사항 만들기 또는 삭제</span><span class="sxs-lookup"><span data-stu-id="dac5e-143">Create or delete an announcement in Skype for Business Server</span></span>](create-an-announcement.md)
+[<span data-ttu-id="3307b-143">비즈니스용 Skype 서버에서 공지 사항 만들기 또는 삭제</span><span class="sxs-lookup"><span data-stu-id="3307b-143">Create or delete an announcement in Skype for Business Server</span></span>](create-an-announcement.md)
 
-[<span data-ttu-id="dac5e-144">가져오기-CsAnnouncementFile</span><span class="sxs-lookup"><span data-stu-id="dac5e-144">Import-CsAnnouncementFile</span></span>](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
+[<span data-ttu-id="3307b-144">가져오기-CsAnnouncementFile</span><span class="sxs-lookup"><span data-stu-id="3307b-144">Import-CsAnnouncementFile</span></span>](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 
-[<span data-ttu-id="dac5e-145">새 CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="dac5e-145">New-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
+[<span data-ttu-id="3307b-145">새 CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="3307b-145">New-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
 
-[<span data-ttu-id="dac5e-146">CsAnnouncement 제거</span><span class="sxs-lookup"><span data-stu-id="dac5e-146">Remove-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
+[<span data-ttu-id="3307b-146">CsAnnouncement 제거</span><span class="sxs-lookup"><span data-stu-id="3307b-146">Remove-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
 
-[<span data-ttu-id="dac5e-147">다운로드-CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="dac5e-147">Get-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
+[<span data-ttu-id="3307b-147">다운로드-CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="3307b-147">Get-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
 

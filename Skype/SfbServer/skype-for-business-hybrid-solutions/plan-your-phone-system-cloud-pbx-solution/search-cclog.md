@@ -1,5 +1,5 @@
 ---
-title: 검색-CcLog
+title: Search-CcLog
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,69 +11,69 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: 검색-CcLog cmdlet는 비즈니스용 Skype 클라우드 커넥터 에디션 기기 로그 디렉터리에서 수신 및 발신 통화 기록을 검색 합니다.
-ms.openlocfilehash: 7d1591953004ecf0e0d0a3bfdf2e998e06002325
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c248720931ef1c15d633c51bb6daa6c414631a18
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190653"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003238"
 ---
-# <a name="search-cclog"></a><span data-ttu-id="4f525-103">검색-CcLog</span><span class="sxs-lookup"><span data-stu-id="4f525-103">Search-CcLog</span></span>
+# <a name="search-cclog"></a><span data-ttu-id="d25d9-103">Search-CcLog</span><span class="sxs-lookup"><span data-stu-id="d25d9-103">Search-CcLog</span></span>
  
-<span data-ttu-id="4f525-104">검색-CcLog cmdlet는 비즈니스용 Skype 클라우드 커넥터 에디션 기기 로그 디렉터리에서 수신 및 발신 통화 기록을 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f525-104">The Search-CcLog cmdlet searches the incoming and outgoing call logs in the Skype for Business Cloud Connector Edition appliance log directory.</span></span>
+<span data-ttu-id="d25d9-104">검색-CcLog cmdlet는 비즈니스용 Skype 클라우드 커넥터 에디션 기기 로그 디렉터리에서 수신 및 발신 통화 기록을 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="d25d9-104">The Search-CcLog cmdlet searches the incoming and outgoing call logs in the Skype for Business Cloud Connector Edition appliance log directory.</span></span>
   
-```
+```powershell
 Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <string>]
 ```
 
-## <a name="examples"></a><span data-ttu-id="4f525-105">예제</span><span class="sxs-lookup"><span data-stu-id="4f525-105">Examples</span></span>
-<span data-ttu-id="4f525-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="4f525-106"></span></span>
+## <a name="examples"></a><span data-ttu-id="d25d9-105">예제</span><span class="sxs-lookup"><span data-stu-id="d25d9-105">Examples</span></span>
+<span data-ttu-id="d25d9-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="d25d9-106"></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="4f525-107">예제 1</span><span class="sxs-lookup"><span data-stu-id="4f525-107">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="d25d9-107">예제 1</span><span class="sxs-lookup"><span data-stu-id="d25d9-107">Example 1</span></span>
 
-<span data-ttu-id="4f525-108">다음 예에서는 기본 파일 이름을 사용 하 여 기기 로그 디렉터리의 수신 및 발신 통화 로그를 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f525-108">The following example searches the incoming and outgoing call logs in the appliance log directory using the default file name:</span></span>
+<span data-ttu-id="d25d9-108">다음 예에서는 기본 파일 이름을 사용 하 여 기기 로그 디렉터리의 수신 및 발신 통화 로그를 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="d25d9-108">The following example searches the incoming and outgoing call logs in the appliance log directory using the default file name:</span></span>
   
-```
+```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 ```
 
-### <a name="example-2"></a><span data-ttu-id="4f525-109">예제 2</span><span class="sxs-lookup"><span data-stu-id="4f525-109">Example 2</span></span>
+### <a name="example-2"></a><span data-ttu-id="d25d9-109">예제 2</span><span class="sxs-lookup"><span data-stu-id="d25d9-109">Example 2</span></span>
 
-<span data-ttu-id="4f525-110">다음 예제에서는 지정 된 파일 경로 및 이름을 사용 하 여 수신 및 발신 통화 로그를 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f525-110">The next example searches the incoming and outgoing call logs using the given file path and name:</span></span>
+<span data-ttu-id="d25d9-110">다음 예제에서는 지정 된 파일 경로 및 이름을 사용 하 여 수신 및 발신 통화 로그를 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="d25d9-110">The next example searches the incoming and outgoing call logs using the given file path and name:</span></span>
   
-```
+```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName "C:\Log\LogFile.log"
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="4f525-111">자세한 정보</span><span class="sxs-lookup"><span data-stu-id="4f525-111">Detailed Description</span></span>
-<span data-ttu-id="4f525-112"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="4f525-112"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="d25d9-111">자세한 정보</span><span class="sxs-lookup"><span data-stu-id="d25d9-111">Detailed Description</span></span>
+<span data-ttu-id="d25d9-112"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="d25d9-112"></span></span>
 
-<span data-ttu-id="4f525-113">검색-CsClsLogging cmdlet은 중앙 로깅 서비스에서 생성 된 로그 파일을 검색 하기 위한 명령줄 옵션을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f525-113">The Search-CsClsLogging cmdlet provides a command line option for searching the log files generated by the centralized logging service.</span></span>
+<span data-ttu-id="d25d9-113">검색-CsClsLogging cmdlet은 중앙 로깅 서비스에서 생성 된 로그 파일을 검색 하기 위한 명령줄 옵션을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="d25d9-113">The Search-CsClsLogging cmdlet provides a command line option for searching the log files generated by the centralized logging service.</span></span>
   
-## <a name="parameters"></a><span data-ttu-id="4f525-114">매개 변수</span><span class="sxs-lookup"><span data-stu-id="4f525-114">Parameters</span></span>
-<span data-ttu-id="4f525-115"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="4f525-115"></span></span>
+## <a name="parameters"></a><span data-ttu-id="d25d9-114">매개 변수</span><span class="sxs-lookup"><span data-stu-id="d25d9-114">Parameters</span></span>
+<span data-ttu-id="d25d9-115"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="d25d9-115"></span></span>
 
-|<span data-ttu-id="4f525-116">**매개 변수**</span><span class="sxs-lookup"><span data-stu-id="4f525-116">**Parameter**</span></span>|<span data-ttu-id="4f525-117">**필수**</span><span class="sxs-lookup"><span data-stu-id="4f525-117">**Required**</span></span>|<span data-ttu-id="4f525-118">**유형**</span><span class="sxs-lookup"><span data-stu-id="4f525-118">**Type**</span></span>|<span data-ttu-id="4f525-119">**설명**</span><span class="sxs-lookup"><span data-stu-id="4f525-119">**Description**</span></span>|
+|<span data-ttu-id="d25d9-116">**매개 변수**</span><span class="sxs-lookup"><span data-stu-id="d25d9-116">**Parameter**</span></span>|<span data-ttu-id="d25d9-117">**필수**</span><span class="sxs-lookup"><span data-stu-id="d25d9-117">**Required**</span></span>|<span data-ttu-id="d25d9-118">**유형**</span><span class="sxs-lookup"><span data-stu-id="d25d9-118">**Type**</span></span>|<span data-ttu-id="d25d9-119">**설명**</span><span class="sxs-lookup"><span data-stu-id="d25d9-119">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="4f525-120">StartTime</span><span class="sxs-lookup"><span data-stu-id="4f525-120">StartTime</span></span>  <br/> | <span data-ttu-id="4f525-121">필수</span><span class="sxs-lookup"><span data-stu-id="4f525-121">Required</span></span> <br/> |<span data-ttu-id="4f525-122">시스템. 날짜/시간</span><span class="sxs-lookup"><span data-stu-id="4f525-122">System.Datetime</span></span>  <br/> | <span data-ttu-id="4f525-123">검색할 로그 항목에 대 한 시작 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="4f525-123">Beginning date and time for the log entries to be searched.</span></span> <span data-ttu-id="4f525-124">현지 표준 시간대에서 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f525-124">Specified in local time zone.</span></span> <br/> |
-|<span data-ttu-id="4f525-125">EndTime</span><span class="sxs-lookup"><span data-stu-id="4f525-125">EndTime</span></span>  <br/> |<span data-ttu-id="4f525-126">필수</span><span class="sxs-lookup"><span data-stu-id="4f525-126">Required</span></span>  <br/> |<span data-ttu-id="4f525-127">시스템. 날짜/시간</span><span class="sxs-lookup"><span data-stu-id="4f525-127">System.Datetime</span></span>  <br/> |<span data-ttu-id="4f525-128">검색할 로그 항목의 끝 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="4f525-128">Ending date and time for the log entries to be searched.</span></span> <span data-ttu-id="4f525-129">현지 표준 시간대에서 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f525-129">Specified in local time zone.</span></span>  <br/> |
-|<span data-ttu-id="4f525-130">이름이</span><span class="sxs-lookup"><span data-stu-id="4f525-130">FileName</span></span>  <br/> |<span data-ttu-id="4f525-131">필수</span><span class="sxs-lookup"><span data-stu-id="4f525-131">Required</span></span>  <br/> |<span data-ttu-id="4f525-132">System.String</span><span class="sxs-lookup"><span data-stu-id="4f525-132">System.String</span></span>  <br/> |<span data-ttu-id="4f525-133">검색 결과를 포함 하는 텍스트 파일의 전체 경로를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f525-133">Specifies the full path of the text file containing the search results.</span></span>  <br/> |
+|<span data-ttu-id="d25d9-120">StartTime</span><span class="sxs-lookup"><span data-stu-id="d25d9-120">StartTime</span></span>  <br/> | <span data-ttu-id="d25d9-121">필수</span><span class="sxs-lookup"><span data-stu-id="d25d9-121">Required</span></span> <br/> |<span data-ttu-id="d25d9-122">시스템. 날짜/시간</span><span class="sxs-lookup"><span data-stu-id="d25d9-122">System.Datetime</span></span>  <br/> | <span data-ttu-id="d25d9-123">검색할 로그 항목에 대 한 시작 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="d25d9-123">Beginning date and time for the log entries to be searched.</span></span> <span data-ttu-id="d25d9-124">현지 표준 시간대에서 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d25d9-124">Specified in local time zone.</span></span> <br/> |
+|<span data-ttu-id="d25d9-125">EndTime</span><span class="sxs-lookup"><span data-stu-id="d25d9-125">EndTime</span></span>  <br/> |<span data-ttu-id="d25d9-126">필수</span><span class="sxs-lookup"><span data-stu-id="d25d9-126">Required</span></span>  <br/> |<span data-ttu-id="d25d9-127">시스템. 날짜/시간</span><span class="sxs-lookup"><span data-stu-id="d25d9-127">System.Datetime</span></span>  <br/> |<span data-ttu-id="d25d9-128">검색할 로그 항목의 끝 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="d25d9-128">Ending date and time for the log entries to be searched.</span></span> <span data-ttu-id="d25d9-129">현지 표준 시간대에서 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d25d9-129">Specified in local time zone.</span></span>  <br/> |
+|<span data-ttu-id="d25d9-130">이름이</span><span class="sxs-lookup"><span data-stu-id="d25d9-130">FileName</span></span>  <br/> |<span data-ttu-id="d25d9-131">필수</span><span class="sxs-lookup"><span data-stu-id="d25d9-131">Required</span></span>  <br/> |<span data-ttu-id="d25d9-132">System.String</span><span class="sxs-lookup"><span data-stu-id="d25d9-132">System.String</span></span>  <br/> |<span data-ttu-id="d25d9-133">검색 결과를 포함 하는 텍스트 파일의 전체 경로를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d25d9-133">Specifies the full path of the text file containing the search results.</span></span>  <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="4f525-134">입력 형식</span><span class="sxs-lookup"><span data-stu-id="4f525-134">Input Types</span></span>
-<span data-ttu-id="4f525-135"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="4f525-135"></span></span>
+## <a name="input-types"></a><span data-ttu-id="d25d9-134">입력 형식</span><span class="sxs-lookup"><span data-stu-id="d25d9-134">Input Types</span></span>
+<span data-ttu-id="d25d9-135"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="d25d9-135"></span></span>
 
-<span data-ttu-id="4f525-136">없음.</span><span class="sxs-lookup"><span data-stu-id="4f525-136">None.</span></span> <span data-ttu-id="4f525-137">검색-CcLog cmdlet은 파이프라인 입력을 허용 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4f525-137">The Search-CcLog cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="d25d9-136">없음.</span><span class="sxs-lookup"><span data-stu-id="d25d9-136">None.</span></span> <span data-ttu-id="d25d9-137">검색-CcLog cmdlet은 파이프라인 입력을 허용 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d25d9-137">The Search-CcLog cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="4f525-138">반환 형식</span><span class="sxs-lookup"><span data-stu-id="4f525-138">Return Types</span></span>
-<span data-ttu-id="4f525-139"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="4f525-139"></span></span>
+## <a name="return-types"></a><span data-ttu-id="d25d9-138">반환 형식</span><span class="sxs-lookup"><span data-stu-id="d25d9-138">Return Types</span></span>
+<span data-ttu-id="d25d9-139"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="d25d9-139"></span></span>
 
-<span data-ttu-id="4f525-140">없음</span><span class="sxs-lookup"><span data-stu-id="4f525-140">None</span></span>
+<span data-ttu-id="d25d9-140">없음</span><span class="sxs-lookup"><span data-stu-id="d25d9-140">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="4f525-141">참고 항목</span><span class="sxs-lookup"><span data-stu-id="4f525-141">See also</span></span>
-<span data-ttu-id="4f525-142"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="4f525-142"></span></span>
+## <a name="see-also"></a><span data-ttu-id="d25d9-141">참고 항목</span><span class="sxs-lookup"><span data-stu-id="d25d9-141">See also</span></span>
+<span data-ttu-id="d25d9-142"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="d25d9-142"></span></span>
 
-[<span data-ttu-id="4f525-143">시작-CcLogging</span><span class="sxs-lookup"><span data-stu-id="4f525-143">Start-CcLogging</span></span>](start-cclogging.md)
+[<span data-ttu-id="d25d9-143">Start-CcLogging</span><span class="sxs-lookup"><span data-stu-id="d25d9-143">Start-CcLogging</span></span>](start-cclogging.md)
   
-[<span data-ttu-id="4f525-144">중지-CcLogging</span><span class="sxs-lookup"><span data-stu-id="4f525-144">Stop-CcLogging</span></span>](stop-cclogging.md)
+[<span data-ttu-id="d25d9-144">Stop-CcLogging</span><span class="sxs-lookup"><span data-stu-id="d25d9-144">Stop-CcLogging</span></span>](stop-cclogging.md)
   
 
