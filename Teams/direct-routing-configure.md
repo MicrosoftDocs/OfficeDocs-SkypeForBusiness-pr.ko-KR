@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 전화 시스템 다이렉트 라우팅을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c109dd919ad2842f38d135cba848ad2a7b34914d
-ms.sourcegitcommit: fa20ea88e6a1c5d16ec3a364fc9d2b9a942cec9d
+ms.openlocfilehash: 7a3cd61c3b92482fd402b58734b2af720c21cf3a
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/11/2020
-ms.locfileid: "41022293"
+ms.locfileid: "41023422"
 ---
 # <a name="configure-direct-routing"></a>직접 라우팅 구성
 
@@ -176,15 +176,7 @@ Office 365에서 새 사용자를 만드는 두 가지 옵션이 있습니다. �
 
 비즈니스용 skype Online 배포에 비즈니스용 Skype 2015 또는 Lync 2010/2013 온-프레미스가 있는 경우 유일 하 게 지원 되는 옵션은 온-프레미스 Active Directory에서 사용자를 만들고 사용자를 클라우드와 동기화 (옵션 1) 하는 것입니다. 
 
-필수 라이선스: 
-
-- Office 365 Enterprise E3 (SfB Plan2, Exchange Plan2, 팀 포함) + 전화 시스템
-- Office 365 Enterprise E5 (SfB Plan2, Exchange Plan2, 팀, 전화 시스템 포함) 
-
-선택적 라이선스: 
-
-- 통화 요금제 
-- 오디오 회의 
+라이선스 요구 사항에 대 한 자세한 내용은 [직접 라우팅 계획](direct-routing-plan.md)의 [라이선스 및 기타 요구 사항을](direct-routing-plan.md#licensing-and-other-requirements) 참조 하세요.
 
 ### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>사용자가 비즈니스용 Skype Online에 있는지 확인 
 
