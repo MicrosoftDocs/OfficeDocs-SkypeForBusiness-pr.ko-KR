@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a621c4e1cfcf9e485b68fd96a76d9179cef84a48
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: a1e8e74924bac23e2f8067fa5aa4d83a214b63d7
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952601"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41023392"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>MSI를 사용 하 여 Microsoft 팀 설치
 
@@ -81,14 +81,21 @@ VDI에서 팀 데스크톱 앱을 배포 하는 방법에 대 한 자세한 지�
 > [!TIP]
 > [Microsoft 팀 배포 정리](scripts/Powershell-script-teams-deployment-clean-up.md) 스크립트를 사용 하 여 SCCM을 통해 1 단계 및 2 단계를 수행할 수 있습니다.
 
-## <a name="disable-auto-launch-for-the-msi-installer"></a>MSI 설치 관리자에 대 한 자동 시작 사용 안 함
+## <a name="prevent-teams-from-starting-automatically-after-installation"></a>설치 후 팀이 자동으로 시작 되지 않도록 방지
 
-MSI의 기본 동작은 사용자가 로그인 하는 즉시 팀 클라이언트를 설치한 다음 팀을 자동으로 시작 하는 것입니다. 다음과 같이 아래 매개 변수를 사용 하 여이 동작을 수정할 수 있습니다.
+MSI의 기본 동작은 사용자가 로그인 하는 즉시 팀 앱을 설치한 다음 팀을 자동으로 시작 하는 것입니다. 사용자가 설치 된 후 팀이 자동으로 시작 되지 않도록 하려면 그룹 정책을 사용 하 여 정책 설정을 설정 하거나 MSI 설치 관리자에 대 한 자동 시작을 사용 하지 않도록 설정할 수 있습니다.
 
-- 사용자가 Windows에 로그인 하면 팀이 MSI와 함께 설치 됩니다.
-- 그러나 사용자가 팀을 수동으로 시작할 때까지 팀 클라이언트는 시작 되지 않습니다.
-- 팀 시작에 대 한 바로 가기가 사용자의 데스크톱에 추가 됩니다.
-- 수동으로 시작 되 면 사용자가 로그인 할 때마다 팀이 자동으로 시작 됩니다.
+#### <a name="use-group-policy-recommended"></a>그룹 정책 사용 (권장)
+
+**설치 후 Microsoft 팀이 자동으로 시작 되지 않도록** 설정 그룹 정책 설정을 사용 하도록 설정 합니다. 사용자 Configuration\Policies\Administrative Templates\Microsoft 팀에서이 정책 설정을 찾을 수 있습니다. 조직의 요구 사항에 따라 정책 설정을 끄거나 켤 수 있으므로이 방법을 사용 하는 것이 좋습니다.
+
+팀을 설치 하기 전에이 정책 설정을 사용 하면 사용자가 Windows에 로그인 할 때 팀이 자동으로 시작 되지 않습니다. 사용자가 처음으로 팀에 로그인 한 후에는 다음에 사용자가 로그인 할 때 팀이 자동으로 시작 됩니다.
+
+자세한 내용은 그룹 정책 사용을 참조 하 여 [팀이 설치 후 자동으로 시작 되지 않도록](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation)합니다.
+
+### <a name="disable-auto-launch-for-the-msi-installer"></a>MSI 설치 관리자에 대 한 자동 시작 사용 안 함
+
+다음과 같이 **옵션 = "noAutoStart 시작 = true"** 매개 변수를 사용 하 여 MSI 설치 관리자에 대 한 자동 실행을 사용 하지 않도록 설정할 수 있습니다.  
 
 32 비트 버전
 ```PowerShell
@@ -98,6 +105,8 @@ msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```PowerShell
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
+
+사용자가 Windows에 로그인 하면 팀이 MSI와 함께 설치 되 고 팀 시작에 대 한 바로 가기가 사용자의 데스크톱에 추가 됩니다. 팀은 사용자가 수동으로 팀을 시작할 때까지 시작 되지 않습니다. 사용자가 수동으로 팀을 시작 하면 사용자가 로그인 할 때마다 팀이 자동으로 시작 됩니다.
 
 > [!Note]
 > MSI를 수동으로 실행 하는 경우 관리자 권한으로 실행 해야 합니다. 관리자 권한으로 실행 하는 경우에도 권한 상승으로이를 실행 하지 않으면 설치 관리자가 자동 시작을 사용 하지 않도록 설정 하는 옵션을 구성할 수 없게 됩니다.
