@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: 클라우드 커넥터 에디션 배포 문제를 해결 합니다.
-ms.openlocfilehash: 1049ec2f8f3b85c71c7b9203916b79764e9be161
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3edc67d5887c21543e4cbb01a6057a0c657e95e3
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190593"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002078"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>클라우드 커넥터 배포 문제 해결
  
@@ -76,11 +76,11 @@ ms.locfileid: "36190593"
     
     **해결 방법:** 이 문제는 자동으로 해결 되지 않습니다. Nic를 실행 하는 동안 Vm에 추가할 수 없습니다. Hyper-v 관리자에서이 Vm을 종료 하 고 제거한 후 다음 cmdlet을 실행 하세요.
     
-  ```
+  ```powershell
   Uninstall-CcAppliance
   ```
 
-  ```
+  ```powershell
   Install-CcAppliance
   ```
 
@@ -111,7 +111,7 @@ ms.locfileid: "36190593"
     
     외부 인증서의 루트 CA 인증서와 모든 중간 CA 인증서를 수동으로 Edge 서버에 가져온 다음 Edge 서버를 다시 시작 하세요. Edge 서버에서 RTCMRAUTH 및 RTCSRV 서비스가 시작 된 것을 확인 한 후에는 호스트 서버로 돌아가서 PowerShell 콘솔을 관리자로 실행 하 고 다음 cmdlet을 실행 하 여 새 배포로 전환 합니다.
     
-  ```
+  ```powershell
   Switch-CcVersion
   ```
 
@@ -123,7 +123,7 @@ ms.locfileid: "36190593"
     
 1. 호스트 서버에서 PowerShell 콘솔을 관리자로 시작한 후 다음을 실행 합니다.
     
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
 
@@ -131,7 +131,7 @@ ms.locfileid: "36190593"
     
 3. PowerShell 콘솔에서 다음 cmdlet을 실행 합니다.
     
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 
@@ -145,19 +145,19 @@ ms.locfileid: "36190593"
     
     **해결 방법:** 비즈니스용 Skype 테 넌 트 관리자 자격 증명을 사용 하 여 테 넌 트 원격 PowerShell 세션을 실행 한 후 다음 cmdlet을 실행 하 여 사이트의 _Enableautoupdate 업데이트_ 구성을 확인 합니다.
     
-  ```
+  ```powershell
   Get-CsHybridPSTNSite
   ```
 
     _Enableautoupdate 업데이트_ 를 **True**로 설정 하면 CCEManagement 서비스에서 가상 컴퓨터와 호스트 서버 모두에 대해 Windows 업데이트를 다운로드 하 고 설치 하는 것을 처리 하기 때문에이 경고 메시지를 무시 해도 됩니다. _Enableautoupdate 업데이트_ 를 **False**로 설정한 경우 다음 cmdlet을 실행 하 여 **True**로 설정 합니다.
     
-  ```
+  ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
   ```
 
     또는 수동으로 업데이트를 확인 하 고 설치할 수 있습니다. 다음 섹션을 참조 하세요.
     
-- **문제: 현재 \<입력/구성 SiteName\> 또는 \<ApplianceName\> 또는 \<중재 서버 FQDN\> 또는 \<중재 서버 IP 주소 때문에 기기를 등록할 수 없음 오류 메시지가 표시 됩니다. \> 기존 기기와 충돌 합니다. 충돌 하는 기기를 제거 하거나 입력/구성 정보를 업데이트 한 다음 다시 등록 합니다. ' 등록-CcAppliance를 실행 하 여 현재 기기를 온라인에 등록할 수 있습니다.**
+- **문제: 현재 \<입력/구성 SiteName\> 또는 \<ApplianceName\> 또는 \<중재 서버 FQDN\> 또는 \<중재 서버 IP 주소가\> 기존 기기와 충돌 하기 때문에 기기를 등록할 수 없습니다. 충돌 하는 기기를 제거 하거나 입력/구성 정보를 업데이트 한 다음 다시 등록 합니다. ' 등록-CcAppliance를 실행 하 여 현재 기기를 온라인에 등록할 수 있습니다.**
     
     **해결 방법:** \<\>ApplianceName, \<중재 서버\> FQDN 및 \<중재 서버 IP 주소\> 에 대 한 값은 고유 하 고 하나의 기기 등록에만 사용 해야 합니다. 기본적으로 \<ApplianceName\> 는 호스트 이름에서 가져옵니다. \<구성 ini 파일\> 에 \<정의 된 중재 서버\> FQDN 및 중재 서버 IP 주소
     
@@ -167,20 +167,20 @@ ms.locfileid: "36190593"
     
     그런 다음 비즈니스용 Skype 테 넌 트 관리자 자격 증명을 사용 하 여 테 넌 트 원격 PowerShell을 실행 한 후 다음 cmdlet을 실행 하 여 등록 된 기기를 확인 합니다.
     
-  ```
+  ```powershell
   Get-CsHybridPSTNAppliance
   ```
 
     충돌을 식별 한 후 등록 된 기기와 일치 하는 정보를 사용 하 여 CloudConnector .ini 파일을 업데이트 하거나 기존 기기를 등록 취소 하 여 충돌을 해결할 수 있습니다.
     
-  ```
+  ```powershell
   Unregister-CsHybridPSTNAppliance -Force
   ```
 
     
 - **문제: 호스트에서 실행 되는 배포 된 기기가 있는 경우 CcRunningVersion cmdlet은 빈 값을 반환 합니다.**
     
-  **해결 방법:** 1.3.4 또는 1.3.8에서 1.4.1으로 업그레이드할 때이 문제가 발생할 수 있습니다. .Msi와 함께 버전 1.4.1을 설치한 후에는 다른 cmdlet을 `Register-CcAppliance` 실행 하기 전에 실행 해야 합니다. `Register-CcAppliance`%UserProfile%\CloudConnector에서%ProgramData%\CloudConnector.로 모듈 .ini 파일을 마이그레이션합니다. 이 파일을 놓친 경우%ProgramData%\CloudConnector 폴더에서 새 모듈 .ini가 만들어지고 1.3.4 또는 1.3.8의 실행 중인/백업 버전 정보를 바꿉니다.
+  **해결 방법:** 1.3.4 또는 1.3.8에서 1.4.1으로 업그레이드할 때이 문제가 발생할 수 있습니다. .Msi와 함께 버전 1.4.1을 설치한 후에는 다른 cmdlet을 `Register-CcAppliance` 실행 하기 전에 실행 해야 합니다. `Register-CcAppliance`%UserProfile%\CloudConnector 에서%ProgramData%\CloudConnector.로 모듈 .ini 파일을 마이그레이션합니다. 이 파일을 놓친 경우%ProgramData%\CloudConnector 폴더에서 새 모듈 .ini가 만들어지고 1.3.4 또는 1.3.8의 실행 중인/백업 버전 정보를 바꿉니다.
     
   %UserProfile%\CloudConnector 및%ProgramData%\CloudConnector 폴더에서 모듈 .ini 파일을 비교 합니다. 차이점이 있으면%ProgramData%\CloudConnector에서 모듈 .ini 파일을 삭제 하 고 다시 실행 `Register-CcAppliance`합니다. 또한 올바른 실행 및 백업 버전으로 파일을 수동으로 수정할 수도 있습니다.
     
@@ -205,7 +205,7 @@ ms.locfileid: "36190593"
     
 1. 서비스를 드레이닝 하기 위해 Enter-CcUpdate cmdlet을 실행 하 여 기기를 유지 관리 모드로 전환 합니다.
    
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
    
@@ -213,7 +213,7 @@ ms.locfileid: "36190593"
     
     클라우드 커넥터 릴리스 2.0:
     
-    ```
+    ```powershell
     Reset-CcCACertificate 
     Renew-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
@@ -221,7 +221,7 @@ ms.locfileid: "36190593"
 
     또는 클라우드 커넥터 릴리스 2.0 이상에 대해 다음을 수행 합니다.
     
-    ```
+    ```powershell
     Reset-CcCACertificate 
     Update-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
@@ -229,13 +229,13 @@ ms.locfileid: "36190593"
     
 3. 게이트웨이와 중재 서버 간에 TLS를 사용 하는 경우 기기에서 CcRootCertificate cmdlet을 실행 한 다음, 내보낸 인증서를 PSTN 게이트웨이에 설치 합니다. 게이트웨이에서 인증서를 다시 발급 해야 할 수도 있습니다.
 
-   ```
+   ```powershell
    Export-CcRootCertificate
    ```
 
 4. 서비스를 시작 하 고 유지 관리 모드를 종료 하려면 CcUpdate cmdlet을 실행 합니다.
 
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 
@@ -246,13 +246,13 @@ ms.locfileid: "36190593"
     
 1. 첫 번째 기기에서 CcCertificationAuthorityFile cmdlet을 실행 하 여 \<SiteRoot\> directory에서 CA 백업 파일을 정리 합니다.
 
-     ```
+     ```powershell
      Remove-CcCertificationAuthorityFile
      ```
     
 2. 서비스를 드레이닝 하 고 각 기기를 유지 관리 모드로 전환 하려면 Enter-CcUpdate cmdlet을 실행 합니다.
 
-     ```
+     ```powershell
      Enter-CcUpdate
      ```
     
@@ -260,7 +260,7 @@ ms.locfileid: "36190593"
     
      클라우드 커넥터 릴리스 2.0:
     
-     ```
+     ```powershell
      Reset-CcCACertificate
      Renew-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -268,7 +268,7 @@ ms.locfileid: "36190593"
 
      또는 클라우드 커넥터 릴리스 2.0 이상에 대해 다음을 수행 합니다.
     
-     ```
+     ```powershell
      Reset-CcCACertificate
      Update-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -276,13 +276,13 @@ ms.locfileid: "36190593"
 
 4. 첫 번째 기기에서 다음 cmdlet을 실행 하 여 CA 파일을 \<SiteRoot\> 폴더에 백업 합니다.
     
-     ```
+     ```powershell
      Backup-CcCertificationAuthority
      ```
    
 5. 동일한 사이트의 다른 모든 기기의 경우 다음 명령을 실행 하 여 CA 백업 파일을 사용 하 고, 기기가 모두 동일한 루트 인증서를 사용 하도록 한 다음 새 인증서를 요청 합니다. 
    
-     ```
+     ```powershell
      Reset-CcCACertificate
      Update-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -290,22 +290,22 @@ ms.locfileid: "36190593"
      
 6. 게이트웨이와 중재 서버 간에 TLS를 사용 하는 경우 사이트의 모든 기기에서 Export-CcRootCertificate cmdlet을 실행 한 다음, 내보낸 인증서를 PSTN 게이트웨이에 설치 합니다. 게이트웨이에서 인증서를 다시 발급 해야 할 수도 있습니다.
   
-     ```
+     ```powershell
      Export-CcRootCertificate
      ```
      
 7. 서비스를 시작 하 고 유지 관리 모드를 종료 하려면 CcUpdate cmdlet을 실행 합니다. 
 
-     ```
+     ```powershell
      Exit-CcUpdate
      ```
     
     
-- **문제: 클라우드 커넥터 관리 서비스 로그, "비즈니스용의 C:\Program Files\Skype Cloud Connector Edition\ManagementService\CceManagementService.log": CceService 오류: 0: 예기치 않은 예외 발생 온라인 상태 보고 CmdletInvocationException: 사용자 \<전역 테 넌 트 관리자\>에 대 한 로그온이 실패 했습니다. 새 자격 증명 개체를 만들어 올바른 사용자 이름 및 암호를 사용 했는지 확인 하십시오. ---\>**
+- **문제: 클라우드 커넥터 관리 서비스 로그, "비즈니스용 Files\Skype 클라우드 커넥터 Edition\ManagementService\CceManagementService.log": CceService 오류: 0: 온라인 상태를 보고할 때 예기치 않은 예외가 발생 함:: 사용자 \<전역 테 넌 트 관리자\>에 대 한 로그온이 실패 했습니다. 새 자격 증명 개체를 만들어 올바른 사용자 이름 및 암호를 사용 했는지 확인 하십시오. ---\>**
     
     **해결 방법:** 클라우드 커넥터 기기가 등록 된 이후 Office 365 전역 테 넌 트 관리자 자격 증명이 변경 되었습니다. 클라우드 커넥터 기기에서 로컬로 저장 된 자격 증명을 업데이트 하려면 호스트 기기에서 다음을 실행 합니다.
     
-  ```
+  ```powershell
   Set-CcCredential -AccountType TenantAdmin
   ```
 
@@ -379,7 +379,7 @@ ms.locfileid: "36190593"
     
   - 기기를 성공적으로 배포 된 것으로 표시 하려면 다음과 같이 Set-CsCceApplianceDeploymentStatus를 실행 합니다.
     
-  ```
+  ```powershell
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
@@ -432,7 +432,7 @@ PowerShell은 발견 되는 모든 모듈을 다시 분석할 필요가 없도�
     
 2. 다음 cmdlet을 사용 하 여 HA에서 인스턴스를 제거 합니다.
     
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
 
@@ -442,7 +442,7 @@ PowerShell은 발견 되는 모든 모듈을 다시 분석할 필요가 없도�
     
 4. 다음 cmdlet을 사용 하 여 인스턴스를 HA로 다시 설정 합니다.
     
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 

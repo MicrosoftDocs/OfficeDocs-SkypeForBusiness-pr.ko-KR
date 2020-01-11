@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: '요약: 비즈니스용 Skype 클라이언트에서 스마트 연락처 목록 기능을 설정 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 17981e13c239241f050704b7c98593f95a29ab27
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4c867232fd07131666033dc48ff9930dcdf6dccb
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234490"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002688"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>비즈니스용 Skype 클라이언트에서 스마트 연락처 목록 구성
 
@@ -53,19 +53,19 @@ ms.locfileid: "36234490"
 
 스마트 연락처 목록 기능을 사용 하도록 설정 하는 정책 항목을 만들려면 다음과 같이 EnableClientAutoPopulateWithTeam 옵션을 사용 하 여 [새 CsClientPolicyEntry](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicyentry?view=skype-ps) cmdlet을 사용 합니다.
 
-```
+```powershell
 $x=New-CsClientPolicyEntry -Name EnableClientAutoPopulateWithTeam -Value $True
 ```
 
 다음으로, [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) cmdlet을 사용 하 여 다음과 같이 전역 정책에 대 한 변경 내용을 작성 합니다.
 
-```
+```powershell
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 ```
 
 선택적으로 자동 태깅을 해제 하는 정책을 만들 수 있습니다.
 
-```
+```powershell
 $x=New-CsClientPolicyEntry -Name TagContactsInClientAutoPopulatedGroup -Value $False
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 ```

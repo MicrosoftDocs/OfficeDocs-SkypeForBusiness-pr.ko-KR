@@ -1,5 +1,5 @@
 ---
-title: 클라우드 커넥터 기기 준비
+title: 클라우드 커넥터 어플라이언스 준비
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -14,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 배포 하 고 사용할 수 있도록 클라우드 커넥터 기기를 준비 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f2140eb0be25ba0b6935f389e5ae7b27bfc37359
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 779cb53dd19d627d8864da65e3e41f5d6dabee99
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190713"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001948"
 ---
-# <a name="prepare-your-cloud-connector-appliance"></a>클라우드 커넥터 기기 준비
+# <a name="prepare-your-cloud-connector-appliance"></a>클라우드 커넥터 어플라이언스 준비
 
 Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 배포 하 고 사용할 수 있도록 클라우드 커넥터 기기를 준비 하는 방법에 대해 알아봅니다.
 
@@ -54,7 +54,7 @@ Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 배포 �
 
 1. PowerShell 콘솔을 관리자로 열고 다음 cmdlet을 사용 하 여 비즈니스용 Skype Cloud Connector Edition cmdlet을 사용할 수 있는지 확인 합니다.
 
-   ```
+   ```powershell
    Get-Command *-Cc*
    ```
 
@@ -64,11 +64,11 @@ Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 배포 �
 
     다음 cmdlet을 사용 하 여 **사이트 디렉터리** 의 위치를 찾을 수 있습니다.
 
-   ```
+   ```powershell
    Get-CcSiteDirectory
    ```
 
-    명령은 파일 시스템에서 위치를 반환 해야 합니다. 위치는 로컬 폴더 또는 파일 공유 일 수 있습니다. **사이트 디렉터리** 의 기본 위치는%USERPROFILE%\CloudConnector\SiteRoot.입니다. 기본 위치는 각 사이트에서 만든 첫 번째 기기의 파일 공유로 변경 되어야 합니다.
+    명령은 파일 시스템에서 위치를 반환 해야 합니다. 위치는 로컬 폴더 또는 파일 공유 일 수 있습니다. **사이트 디렉터리** 의 기본 위치 는%USERPROFILE%\CloudConnector\SiteRoot.입니다. 기본 위치는 각 사이트에서 만든 첫 번째 기기의 파일 공유로 변경 되어야 합니다.
 
     다음과 같이 위치를 선택 해야 합니다.
 
@@ -78,7 +78,7 @@ Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 배포 �
 
      **사이트 디렉터리** 를 기본값이 아닌 다른 위치로 설정 하려면 다음 cmdlet을 실행 합니다.
 
-   ```
+   ```powershell
    Set-CcSiteDirectory <UNC File path>
    ```
 
@@ -86,17 +86,17 @@ Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 배포 �
 
     사이트의 각 기기에 로그온 하 고 배포 하는 경우 현재 로그온 계정에 **사이트 디렉터리**에 대 한 올바른 액세스 권한이 있는지 확인 합니다.
 
-3. **기기 디렉터리** 는 비즈니스용 Skype 클라우드 커넥터 에디션에 대 한 로컬 작업 루트 디렉터리로, 외부 인증서, 인스턴스 및 로그가 저장 되는 위치입니다. 기본 위치는 다음과 같습니다.%USERPROFILE%\CloudConnector\ApplianceRoot.
+3. **기기 디렉터리** 는 비즈니스용 Skype 클라우드 커넥터 에디션에 대 한 로컬 작업 루트 디렉터리로, 외부 인증서, 인스턴스 및 로그가 저장 되는 위치입니다. 기본 위치는 다음과 같습니다 .%USERPROFILE%\CloudConnector\ApplianceRoot.
 
     **기기 디렉터리**의 위치를 찾으려면 다음 cmdlet을 실행 합니다.
 
-   ```
+   ```powershell
    Get-CcApplianceDirectory
    ```
 
     **기기 디렉터리** 를 기본값이 아닌 다른 위치로 설정 하려면 다음 cmdlet을 실행 합니다.
 
-   ```
+   ```powershell
    Set-CcApplianceDirectory <File path>
    ```
 
@@ -109,7 +109,7 @@ Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 배포 �
 
 - 다음 cmdlet을 실행 하 여 파일 이름을 포함 한 경로를 외부에 지 인증서로 설정 합니다. 예: C:\certs\cce\ap.contoso.com.pfx. 인증서에 개인 키가 포함 되어 있어야 합니다.
 
-  ```
+  ```powershell
   Set-CcExternalCertificateFilePath -Path <Full path to External certificate, including file name> -Target EdgeServer
   ```
 
@@ -125,7 +125,7 @@ Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 배포 �
 
 중재 서버와 PSTN 게이트웨이/SBC 간에 TLS를 사용 하는 경우 다음 cmdlet을 실행 하 여 파일 이름을 포함 한 경로를 게이트웨이 인증서로 설정 합니다. 예: C:\certs\cce\sbc.contoso.com.cer. 인증서에는 게이트웨이에 할당 된 인증서에 대 한 루트 CA 및 중간 체인이 포함 되어야 합니다.
 
-```
+```powershell
 Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, including file name> -Target MediationServer 
 ```
 
@@ -154,7 +154,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 파일을 업데이트 하려면 먼저 다음 cmdlet을 실행 하 여 샘플 서식 파일 (CloudConnector: .Sample)을 가져옵니다.
 
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -227,7 +227,7 @@ Export-CcConfigurationSampleFile
 
 다음 cmdlet을 실행 하 여 bits 및 버전 정보 파일을 **사이트 디렉터리**에 다운로드 합니다.
 
-```
+```powershell
 Start-CcDownload
 ```
 
@@ -255,7 +255,7 @@ Start-CcDownload
 
 PowerShell 콘솔을 관리자로 시작 하 고 다음 cmdlet을 실행 하 여 ISO 이미지를 VHD (가상 하드 디스크)로 변환 합니다.
 
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 ```
 
@@ -278,13 +278,13 @@ ISO 이미지에 대 한 전체 경로 (파일 이름 포함)를 지정 합니�
 
 제공 된 PowerShell 스크립트는 실행 정책을 RemoteSigned로 설정 해야 합니다. 현재 설정을 보려면 PowerShell 콘솔을 관리자로 열고 다음 cmdlet을 실행 합니다.
 
-```
+```powershell
 Get-ExecutionPolicy
 ```
 
 "RemoteSigned"으로 설정 되지 않은 경우 다음 cmdlet을 실행 하 여 변경 합니다.
 
-```
+```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
 

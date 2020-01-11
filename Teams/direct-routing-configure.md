@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 전화 시스템 다이렉트 라우팅을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8cdebcf9ae01a362c883ed5e51b0c883c4ea0d44
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c109dd919ad2842f38d135cba848ad2a7b34914d
+ms.sourcegitcommit: fa20ea88e6a1c5d16ec3a364fc9d2b9a942cec9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992595"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41022293"
 ---
 # <a name="configure-direct-routing"></a>직접 라우팅 구성
 
@@ -193,9 +193,9 @@ Office 365에서 새 사용자를 만드는 두 가지 옵션이 있습니다. �
 1. 원격 PowerShell에 연결 합니다.
 2. 다음 명령을 실행 합니다. 
 
-```PowerShell
-Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
-``` 
+    ```PowerShell
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+    ``` 
 
 ### <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>전화 번호를 구성 하 고 엔터프라이즈 음성 및 보이스 메일 사용 
 
@@ -206,9 +206,9 @@ Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
 1. 원격 PowerShell 세션에 연결 합니다. 
 2. 명령 입력: 
  
-```PowerShell
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
-```
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    ```
 
 예를 들어 "Spencer Low" 사용자의 전화 번호를 추가 하려면 다음을 입력 합니다. 
 
@@ -556,7 +556,7 @@ No Restrictions
 
 정책은 SBC 수준에서 적용 됩니다. 여러 번역 규칙을 사용자가 PowerShell에 나열할 때 표시 되는 순서 대로 적용 되는 SBC에 할당할 수 있습니다. 또한 정책에서 규칙의 순서를 변경할 수 있습니다.
 
-번호 조작 규칙을 만들고, 수정 하 고, 보고, 삭제 하려면 New-CsTeamsTranslationRule, Set-CsTeamsTranslationRule, CsTeamsTranslationRule 및 Remove-CsTeamsTranslationRule cmdlet을 사용 합니다.
+번호 조작 규칙을 만들고, 수정 하 고, 보고, 삭제 하려면 [New-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule), [Set-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule), [CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)및 [Remove-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) cmdlet을 사용 합니다.
 
 SBCs에 번호 조작 규칙을 할당, 구성 및 나열 하려면 [CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) 및 [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) ```InboundTeamsNumberTranslationRules```cmdlet을, ```InboundPSTNNumberTranslationRules``` ```OutboundTeamsNumberTranslationRules``` ```OutboundPSTNNumberTranslationRules``` ```InboundTeamsNumberTranslationRulesList``` ```InboundPSTNNumberTranslationRulesList``` ```OutboundTeamsNumberTranslationRulesList```,,,,,, ```OutboundPSTNNumberTranslationRulesList``` 매개 변수와 함께 사용 합니다.
 
