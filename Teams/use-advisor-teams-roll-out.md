@@ -18,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams 배포를 계획하고 완료할 수 있습니다.
-ms.openlocfilehash: 22b38da39ff0649077a8f4b388e4ffb39272824c
-ms.sourcegitcommit: da1327ce289afee32585dc2c7e7ac81823379975
+ms.openlocfilehash: 0c5cd0b2bc01b213a10c7a9be79d9ec7dc307fbe
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2019
-ms.locfileid: "40032827"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41004783"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -31,7 +31,7 @@ ms.locfileid: "40032827"
 
 Advisor for Teams(미리 보기)는 Microsoft 팀이 배포 과정을 안내합니다. Office 365 테넌트 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다. 그런 다음 Advisor for Teams는 배포하려는 각 워크로드에 대한 채널로 배포 팀(Teams에서)을 만듭니다. 서비스 관리 팀의 각 워크로드에는 각 워크로드에 대한 모든 롤아웃 작업이 포함된 포괄적인 Planner 플랜이 함께 제공됩니다.  이 Planner 플랜을 사용하여 프로젝트 관리자, Teams 및 Office 365 관리자, 지원자, 채택 및 사용자 준비 상태 팀 등의 각 롤아웃 단계를 담당하는 사용자에게 작업을 할당합니다. 각 롤아웃 작업에는 해당 작업을 완료하는 데 필요한 모든 가이드 및 리소스가 포함됩니다.
 
-Advisor for Teams는 [Teams 관리 센터](https://admin.teams.microsoft.com)의 일부입니다. 적어도 Office 365 Business Essentials 라이선스가 있어야 하며 이를 통해 Teams용 어드바이저의 양식 및 플래너와의 통합을 활용할 수 있습니다. Teams용 어드바이저의 사용을 시작하려면 대시보드의 **Teams 워크로드 배포** 위젯에서 **시작** 단추를 클릭합니다. 또는 **계획** > **관리자**로 이동합니다.
+Advisor for Teams는 [Teams 관리 센터](https://admin.teams.microsoft.com)의 일부입니다. 적어도 Office 365 Business Essentials 라이선스가 있어야 하며 이를 통해 Teams용 어드바이저의 양식 및 플래너와의 통합을 활용할 수 있습니다. Teams용 어드바이저의 사용을 시작하려면 대시보드의 **Teams 워크로드 배포** 위젯에서 **시작** 단추를 클릭합니다. 또는 **계획** > **Teams Advisor**로 이동합니다.
 
 > [!IMPORTANT]
 > Advisor for Teams는 Microsoft 365 정부 기관, GCC High 또는 DoD 배포에는 사용할 수 없습니다.
@@ -40,7 +40,10 @@ Teams용 어드바이저 환경의 지도된 개요를 보려면 Microsoft Mecha
 
 ## <a name="using-advisor-for-teams-preview"></a>Advisor for Teams 사용(미리 보기)
 
-Advisor for Teams를 사용하기 위해 Teams 관리자가 될 필요는 없습니다. 조직 내 누구나 사용할 수 있습니다. Advisor for Teams가 Teams 관리 센터에 있어도 관리자가 아닌 사용자가 액세스할 수 있도록 특별 권한을 설정했습니다. 테넌트 준비 상태 평가를 열려면 Teams 관리자, Teams 서비스 관리자 또는 전역 관리자이어야 합니다(이는 특수한 비관리자 역할이 평가를 기반으로 하는 Microsoft Graph API로의 액세스 권한이 없기 때문입니다).
+**Advisor for Teams를 사용하려면 Teams, Forms 및 Planner 라이선스가 필요합니다.** 그러나 Advisor for Teams를 사용하기 위해 Teams 관리자가 될 필요는 없습니다. 조직 내 누구나 사용할 수 있습니다. Advisor for Teams가 Teams 관리 센터에 있어도 관리자가 아닌 사용자가 액세스할 수 있도록 특별 권한을 설정했습니다. 테넌트 준비 상태 평가를 열려면 Teams 관리자, Teams 서비스 관리자 또는 전역 관리자이어야 합니다(이는 특수한 비관리자 역할이 평가를 기반으로 하는 Microsoft Graph API로의 액세스 권한이 없기 때문입니다).
+
+> [!IMPORTANT]
+> Teams 관리 센터의 **계획**에 **Teams Advisor**가 없는 경우, 사용자에게 Teams에 대한 라이선스가 없는 것입니다. 이 현상은 차후에 변경 예정입니다.
 
 Teams용 어드바이저를 처음으로 사용하는 경우 Teams에서 사용자를 위한 배포 팀이 만들어집니다. 선택하는 각 작업에 대한 채널을 추가합니다.
 
