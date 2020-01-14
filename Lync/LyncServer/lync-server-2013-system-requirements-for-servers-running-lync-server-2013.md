@@ -10,20 +10,22 @@ ms:contentKeyID: 48184564
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ad30b9687c9566adb7936612e71ae9f41e69095
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 301cd234e2218fc806423a9ffe9beb49994402f2
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979072"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104497"
 ---
+# <a name="system-requirements-for-servers-running-lync-server-2013"></a>Lync Server 2013을 실행하는 서버의 시스템 요구 사항
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-servers-running-lync-server-2013"></a>Lync Server 2013을 실행하는 서버의 시스템 요구 사항
+
 
 </div>
 
@@ -73,11 +75,13 @@ Lync Server 2013, Enterprise Edition을 실행 하는 서버는 주요 조직 �
 
 Standard Edition Server 또는 Enterprise Edition 프런트 엔드 서버에 운영 체제 소프트웨어를 설치 합니다. 운영 체제를 조직 표준에 맞게 최신 업데이트 및 필수 업데이트 수준으로 가져오기 위해 모든 업데이트를 적용 합니다. 운영 요구 사항에 대 한 자세한 내용은 지원 가능성 설명서의 [Lync server 2013에서 서버 및 도구 운영 체제 지원을](lync-server-2013-server-and-tools-operating-system-support.md) 참조 하세요.
 
+> [!NOTE] 운영 체제의 현재 업그레이드는 Lync Server 2013에서 지원 되지 않습니다.  별도의 풀을 배포 하 고 다른 운영 체제를 사용 하 여 새 풀로 사용자를 마이그레이션해야 합니다.
+
 <div>
 
 
 > [!NOTE]  
-> Windows Server 2012 R2에서 Lync Server 2013을 사용 하려면 Windows Server에서 레지스트리 키의 값을 변경 해야 할 수 있습니다. 이 변경은 인증서가 올바르게 작동 하 고 클라이언트가 Survivable Branch 기기에 등록 하는 데 필요할 수 있습니다. 자세한 내용은을 참조 <A class=uri href="http://support.microsoft.com/kb/2901554">http://support.microsoft.com/kb/2901554</A>하세요.
+> Windows Server 2012 R2에서 Lync Server 2013을 사용 하려면 Windows Server에서 레지스트리 키의 값을 변경 해야 할 수 있습니다. 이 변경은 인증서가 올바르게 작동 하 고 클라이언트가 Survivable Branch 기기에 등록 하는 데 필요할 수 있습니다. 자세한 내용은을 참조 <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A>하세요.
 
 
 
