@@ -440,7 +440,7 @@
                 - name: 영구 채팅 서버 기본 데이터베이스에 대해 SQL Server 로그 전달 설정
                   href: ../lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md
                 - name: 기본 미러와 로그 전달 보조 데이터베이스 간의 SQL Server 로그 전달 설정
-                  href: ../lync-server-2013-setting-up-sql-server-log-shipping-between-the-primary-mirror-and-the-log-shipping-secondary-database.md
+                  href: ../lync-server-2013-set-up-log-shipping-secondary-database.md
             - name: Lync Server 2010 대도시 사이트 복구
               href: ../lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md
         - name: 관리 효율성 및 가상화 계획
@@ -610,7 +610,7 @@
                   href: ../lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
                   items:
                     - name: '인증서 요약 - 조정된 통합 에지, NAT 사용 개인 IP 주소의 DNS 부하 분산'
-                      href: ../lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
+                      href: ../lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md
                     - name: '포트 요약 - 조정된 통합 에지, NAT 사용 개인 IP 주소의 DNS 부하 분산'
                       href: ../lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
                     - name: 'DNS 요약 - 조정된 통합 에지, NAT 사용 개인 IP 주소의 DNS 부하 분산'
@@ -3029,7 +3029,7 @@
                 - name: BackCompatSite 제거
                   href: ../remove-backcompatsite.md
         - name: 'Lync Server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그룹 채팅에서 Lync Server 2013, 영구 채팅 서버로 마이그레이션'
-          href: ../migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md
+          href: ../migrate-to-lync-server-2013-persistent-chat-server.md
           items:
             - name: 표준 마이그레이션 시나리오 - 고급
               href: ../standard-migration-scenario-high-level.md
@@ -3959,9 +3959,9 @@
               href: ../lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md
               items:
                 - name: 특정 사이트 또는 사용자에 대 한 내부 또는 외부 통신의 보관을 사용 하거나 사용 하지 않도록 설정 하는 보관 정책 만들기
-                  href: ../lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md
+                  href: ../lync-server-2013-create-archiving-policy-sites-users.md
                 - name: '조직, 사이트 또는 사용자에 대 한 내부 또는 외부 통신의 보관을 사용 하거나 사용 하지 않도록 설정 하는 보관 정책 변경'
-                  href: ../lync-server-2013-changing-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-your-organization-sites-or-us.md
+                  href: ../lync-server-2013-change-archiving-policy-org-sites-users.md
                 - name: 사용자에 게 보관 정책 적용
                   href: ../lync-server-2013-applying-an-archiving-policy-to-users.md
                 - name: Exchange Server 통합을 사용할 때 보관할 정책 설정
@@ -3978,7 +3978,7 @@
                 - name: 보관 된 데이터 제거 사용 또는 사용 안 함
                   href: ../lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md
                 - name: 보관이 실패 하는 경우 IM 및 웹 회의 세션을 차단 하거나 허용 하기 위해 중요 모드 사용 또는 사용 안 함
-                  href: ../lync-server-2013-enabling-or-disabling-critical-mode-to-block-or-allow-im-and-web-conferencing-sessions-if-archiving-fails.md
+                  href: ../lync-server-2013-enable-disable-critical-mode.md
                 - name: 페더레이션 파트너에게 보관 고지 사항 보내기를 사용하거나 사용하지 않도록 설정
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
                 - name: Exchange 저장소와의 통합 사용 또는 사용 안 함
