@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1e8e74924bac23e2f8067fa5aa4d83a214b63d7
-ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
+ms.openlocfilehash: d4a14876f359b2742a04461671ccaefd523ef3f1
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41023392"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111542"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>MSI를 사용 하 여 Microsoft 팀 설치
 
@@ -64,6 +64,7 @@ MSI를 사용 하 여 업데이트를 배포 하는 경우 클라이언트는 �
 
 - .NET framework 4.5 이상
 - Windows 7 이상
+- Windows Server 2012 R2 이상
 - 각 사용자 프로필에 대해 3gb의 디스크 공간 (권장)
 
 ### <a name="vdi-installation"></a>VDI 설치

@@ -1,5 +1,5 @@
 ---
-title: PSTN 사용 보고서
+title: PSTN 사용 현황 보고서
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 새로운 비즈니스용 Skype 관리 센터 보고서 영역에 조직의 통화 및 오디오 회의 활동이 표시 됩니다. 이 기능을 사용 하면 보고서를 자세히 분석 하 여 각 사용자의 활동에 대 한 세부적인 통찰력을 제공할 수 있습니다. 예를 들어 비즈니스용 Skype PSTN 사용 정보 보고서를 사용 하 여 인바운드/아웃 바운드 통화와 이러한 통화 비용에 소요 된 시간을 확인할 수 있습니다. 통화 비용을 포함 하 여 오디오 회의 PSTN 사용 정보를 보고, 사용 현황 및 통화 대금 청구 세부 정보를 파악 하 여 조직 내 사용량을 확인할 수 있습니다.
-ms.openlocfilehash: bb6c2456a103782caea72baef5ac6e8df26a24a2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 8f1818a3c80f04676c9e39f424737c3f10cd57e7
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642842"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111452"
 ---
-# <a name="pstn-usage-report"></a>PSTN 사용 보고서
+# <a name="pstn-usage-report"></a>PSTN 사용 현황 보고서
 
 새로운 비즈니스용 Skype 관리 센터 **보고서** 영역에 조직의 통화 및 오디오 회의 활동이 표시 됩니다. 이 기능을 사용 하면 보고서를 자세히 분석 하 여 각 사용자의 활동에 대 한 세부적인 통찰력을 제공할 수 있습니다. 예를 들어 **비즈니스용 SKYPE PSTN 사용 정보** 보고서를 사용 하 여 인바운드/아웃 바운드 통화와 이러한 통화 비용에 소요 된 시간을 확인할 수 있습니다. 통화 비용을 포함 하 여 오디오 회의 PSTN 사용 정보를 보고, 사용 현황 및 통화 대금 청구 세부 정보를 파악 하 여 조직 내 사용량을 확인할 수 있습니다.
   
@@ -63,11 +63,11 @@ ms.locfileid: "37642842"
 *    **통화 유형은** 호출이 PSTN 발신 또는 수신 전화이 고 사용자 또는 오디오 회의와 같은 통화 유형에 해당 하는지 여부입니다. 표시 될 수 있는 통화 종류는 다음과 같습니다. 
 
      **통화 요금제 호출 형식** 
-     *    **user_in** (사용자가 인바운드 PSTN 통화를 수신 했습니다.) 
+     *    **user_in** (사용자가 인바운드 PSTN 통화 받음) 
      *    **user_out** (사용자가 아웃 바운드 PSTN 통화를 배치 하였습니다) 
-     *    **user_out_conf** (사용자가 2 명 이상의 PSTN 참가자를 3 방향 전화 회의 통화와 같은 통화에 추가 했습니다.) 
-     *    **user_out_transfer** (사용자가 PSTN 번호로 통화를 전송 했습니다.) 
-     *    **user_out_forwarding** (사용자가 통화를 PSTN 번호로 착신 전환 됨)
+     *    **user_out_conf** (사용자가 2 명 이상의 PSTN 참가자를 3 방향 전화 회의 통화와 같은 통화에 추가) 
+     *    **user_out_transfer** (사용자가 PSTN 번호로 통화를 전송 했습니다) 
+     *    **user_out_forwarding** (사용자가 PSTN 번호로 착신 전환 됨)
 
      **오디오 회의 통화 유형**
      *    **conf_in** (오디오 회의 브리지에 대 한 인바운드 통화) 
@@ -104,10 +104,8 @@ ms.locfileid: "37642842"
 ***
 ![번호 2](../images/sfbcallout2.png)<br/>특정 열을 기준으로 그룹화 하려면 열을 클릭 하 여 하나 이상의 열에 있는 모든 데이터를 그룹화 하는 보기를 만들려는 경우 **열 머리글을 여기로 끌어** 놓습니다.
  ***
-![번호 3](../images/sfbcallout3.png)<br/>**Excel로 내보내기** 단추를 클릭 하거나 눌러 보고서 데이터를 탭으로 구분 된 Excel 파일로 내보낼 수도 있습니다. 현재 날짜부터 1 년 까지의 데이터를 내보낼 수 있습니다.<br/><br/> 이렇게 하면 모든 사용자의 데이터가 내보내며 추가 분석을 위해 간단한 정렬 및 필터링이 가능 합니다. 2000 명 미만의 사용자가 있는 경우 보고서 자체의 표 내에서 정렬 및 필터링을 수행할 수 있습니다. 
-    > [!Note] 
-    > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
-
+![번호 3](../images/sfbcallout3.png)<br/>**Excel로 내보내기** 단추를 클릭 하거나 탭 하 여 보고서 데이터를 쉼표로 구분 된 Excel 파일로 내보낼 수도 있습니다. 국가 관련 규정으로 인해 12 개월 동안 데이터의 보존을 금지 하지 않는 한 현재 날짜부터 1 년 까지의 데이터를 내보낼 수 있습니다.<br/><br/> 이렇게 하면 모든 사용자의 데이터가 내보내며 추가 분석을 위해 간단한 정렬 및 필터링이 가능 합니다. 2000 명 미만의 사용자가 있는 경우 보고서 자체의 표 내에서 정렬 및 필터링을 수행할 수 있습니다. 
+    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>다른 비즈니스용 Skype 보고서를 보 시겠습니까?
 
 - [비즈니스용 Skype 활동 보고서](activity-report.md) 사용자가 피어 투 피어를 사용 하는 시간과 회의 세션에서 참여 한 시간을 확인할 수 있습니다.

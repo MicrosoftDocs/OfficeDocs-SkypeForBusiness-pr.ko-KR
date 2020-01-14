@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 팀에서 모임 정책 설정을 관리 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
-ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
+ms.openlocfilehash: a3978b3615fabbff000a20d53408d4fbc1d98f12
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40744872"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111712"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -262,6 +262,9 @@ Daniela에서 호스팅하는 모임은 모임 참가자가 전체 화면 또는
 |Babek    | Location1MeetingPolicy        | 해제   |
 
 Daniela는 다른 참가자에 게 제어권을 부여할 수 없기 때문에 Babek에서 구성한 모임의 다른 참가자에 게 공유 데스크톱 또는 창을 제어 합니다.
+
+> [!NOTE]
+> 공유 중 공유 콘텐츠를 관리 하 고 제어 하려면 두 파티 모두 팀 데스크톱 클라이언트를 사용 해야 합니다. 파티 중 하나가 브라우저에서 팀을 실행 중인 경우 컨트롤은 지원 되지 않습니다. 이 문제는 해결 하려는 기술 제한 때문에 발생 합니다. 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>외부 참가자가 제어권을 부여 하거나 요청할 수 있도록 허용
 

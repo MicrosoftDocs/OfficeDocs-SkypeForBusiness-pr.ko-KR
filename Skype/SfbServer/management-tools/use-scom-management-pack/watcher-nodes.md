@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: '요약: 비즈니스용 Skype Server 가상 거래에 대 한 감시자 노드를 설치 하 고 구성 합니다.'
-ms.openlocfilehash: 7711c7c2009149fc6dd49ed34b4c55312cb7417a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8c7ea0465d9a53bd8972c823ef7bfc7d7ee9b4bc
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992445"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104487"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>감시자 노드 설치 및 구성
  
@@ -192,7 +192,7 @@ New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqd
 Enable-CsTopology
 ```
 
-Enable-CsTopology을 실행 한 후 컴퓨터를 다시 시작 합니다.
+감시자 노드 컴퓨터 계정에는 일부 가상 트랜잭션에 대해 CMS를 쿼리할 수 있는 기능이 필요 합니다. 이 기능을 허용 하려면 감시자 노드의 컴퓨터 계정을 RTCUniversalReadOnlyAdmins 보안 그룹에 추가 합니다. AD 복제가 발생 한 후 컴퓨터를 다시 시작 합니다.
   
 신뢰할 수 있는 새 응용 프로그램이 만들어졌는지 확인 하려면 비즈니스용 Skype 서버 관리 셸 프롬프트에서 다음을 입력 합니다.
   

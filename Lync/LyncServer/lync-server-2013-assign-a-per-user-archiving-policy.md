@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Assign a per-user archiving policy
 ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182560(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182560(v=OCS.15)
 ms:contentKeyID: 48185014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f82b2398002a1c2536c9a57b18f9276a9d138903
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 36d23e44e397a77f0d490d8fda27ee711d1c61c5
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979327"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111582"
 ---
 # <a name="assign-a-per-user-archiving-policy-in-lync-server-2013"></a>Lync Server 2013에서 사용자 단위 보관 정책 할당
 
@@ -28,7 +28,7 @@ ms.locfileid: "40979327"
 
 사용자 당 하나 이상의 보관 정책을 만든 후에는이 항목의 절차를 사용 하 여 특정 사용자의 내부 통신, 외부 통신 또는 두 가지 모두를 서버에서 보관 하는지 여부를 적절 하 게 지정 하는 정책을 할당 합니다.
 
-사용자별 보관 정책을 만드는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 보관 정책 만들기를 참조 하 여 특정 사이트 또는 사용자에 대 한 내부 또는 외부 통신을 사용 하거나 보관 하지 않도록 설정](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)합니다.
+사용자별 보관 정책을 만드는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 보관 정책 만들기를 참조 하 여 특정 사이트 또는 사용자에 대 한 내부 또는 외부 통신을 사용 하거나 보관 하지 않도록 설정](lync-server-2013-create-archiving-policy-sites-users.md)합니다.
 
 ## <a name="to-assign-a-per-user-archiving-policy"></a>사용자별 보관 정책을 할당 하려면
 
@@ -90,7 +90,7 @@ ms.locfileid: "40979327"
 
 ## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 사용자별 보관 정책 할당
 
-Windows PowerShell 및 **CsArchivingPolicy** cmdlet을 사용 하 여 사용자별 보관 정책을 할당할 수 있습니다. Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+Windows PowerShell 및 **CsArchivingPolicy** cmdlet을 사용 하 여 사용자별 보관 정책을 할당할 수 있습니다. Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-a-single-user"></a>단일 사용자에 게 사용자별 보관 정책을 할당 하려면
 
@@ -100,7 +100,7 @@ Windows PowerShell 및 **CsArchivingPolicy** cmdlet을 사용 하 여 사용자�
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a>사용자 단위 보관 정책을 여러 사용자에 게 할당 하려면
 
-  - 이 명령은 등록자 풀 atl-cs-001.litwareinc.com에 속한 계정이 있는 모든 사용자에 대해 사용자 단위 보관 정책 RedmondArchivingPolicy를 할당 합니다. 이 명령에 사용 된 필터 매개 변수에 대 한 자세한 내용은 [Get CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet에 대 한 설명서를 참조 하세요.
+  - 이 명령은 등록자 풀 atl-cs-001.litwareinc.com에 속한 계정이 있는 모든 사용자에 대해 사용자 단위 보관 정책 RedmondArchivingPolicy를 할당 합니다. 이 명령에 사용 된 필터 매개 변수에 대 한 자세한 내용은 [Get CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) cmdlet에 대 한 설명서를 참조 하세요.
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -110,12 +110,12 @@ Windows PowerShell 및 **CsArchivingPolicy** cmdlet을 사용 하 여 사용자�
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-자세한 내용은 [CsArchivingPolicy](https://technet.microsoft.com/en-us/library/gg398475\(v=ocs.15\)) cmdlet에 대 한 도움말 항목을 참조 하세요.
+자세한 내용은 [CsArchivingPolicy](https://technet.microsoft.com/library/gg398475\(v=ocs.15\)) cmdlet에 대 한 도움말 항목을 참조 하세요.
 
 ## <a name="see-also"></a>참고 항목
 
 
-[특정 사이트 또는 사용자에 대 한 내부 또는 외부 통신의 보관을 사용 하거나 사용 하지 않도록 설정 하 여 Lync Server 2013에서 보관 정책 만들기](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
+[특정 사이트 또는 사용자에 대 한 내부 또는 외부 통신의 보관을 사용 하거나 사용 하지 않도록 설정 하 여 Lync Server 2013에서 보관 정책 만들기](lync-server-2013-create-archiving-policy-sites-users.md)  
 
 
 [Lync Server 2013에서 사용자별 정책 지정](lync-server-2013-assigning-per-user-policies.md)

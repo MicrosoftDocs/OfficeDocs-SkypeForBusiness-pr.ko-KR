@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 요약:이 항목을 사용 하 여 비즈니스용 Skype 서버 2019 서버 및 도메인 인프라를 준비 합니다. 서버 팜을 성공적으로 설치 및 배포 하는 데 도움이 되도록 하드웨어, OS, 데이터베이스, 소프트웨어, 모든 시스템 요구 사항, Active Directory 정보 등이 여기에 포함 됩니다.
-ms.openlocfilehash: 41faef4d02927e25e724b0c70922bdc6c5c3e05a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: ea4ae18a3714058e0df4f42a0190046ce7006ef8
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988813"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111382"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019에 대 한 시스템 요구 사항
  
@@ -92,7 +92,7 @@ Edge 서버, 독립형 중재 서버, 디렉터에 권장 되는 하드웨어:
 |Windows Server 2016 <br/> ||
 ||
    
-여기에 나열 된 운영 체제 이외의 다른 항목은 제대로 작동 하지 않습니다. 비즈니스용 Skype 서버 2019 설치에 대해 사용해 보세요. 예를 들어 Server Core 옵션이 나열 되지 않으며, 따라서 지원 되지 않습니다.
+여기에 나열 된 운영 체제 이외의 다른 항목은 제대로 작동 하지 않습니다. 비즈니스용 Skype 서버 2019 설치에 대해 사용해 보세요. 예를 들어 Server Core 옵션이 나열 되지 않으며, 따라서 지원 되지 않습니다.  참고: OS의 현재 위치 업그레이드는 Lync Server 2013에서 지원 되지 않습니다.  다른 OS를 사용 하 여 별도의 풀을 배포 하 고 새 풀로 사용자를 마이그레이션해야 합니다.
 
 > [!NOTE]
 > 
@@ -115,7 +115,7 @@ Edge 서버, 독립형 중재 서버, 디렉터에 권장 되는 하드웨어:
 |**소프트웨어/역할**|**세부적인**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |모든 비즈니스용 Skype 서버 서버에는 Windows PowerShell 3.0가 설치 되어 있어야 합니다.  <br/> • 기본적으로 Windows Server 2016에 설치 되어 있어야 합니다.<br/> |
-|Microsoft .NET Framework  <br/> |WCF 서비스는 Windows 기능으로 설치 된 **기능** 으로, **서버 관리자**에는 처음에 다운로드가 필요 하지 않습니다. <br/> •이 기능을 설치 하거나, 이미 설치 되어 있고, 검사 하는 경우에는 다음과 같이 **HTTP 활성화** 옵션도 선택 되어 설치 되어 있는지 확인 해야 합니다. <br/> ![.NET Framework 4.5 기능 아래에서 HTTP 활성화 옵션을 보여 주는 스크린샷](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> HTTP 정품 인증을 설치 하기 위해 다른 항목을 설치 해야 하는 추가 팝업이 표시 되는 경우 걱정 하지 마세요. 그 게 평소입니다. 확인을 클릭 하 고 계속 진행 합니다. 이 팝업이 표시 되지 않는 경우 해당 항목이 이미 설치 되어 있는 것으로 간주할 수 있습니다.  <br/> Microsoft .NET Framework는 일반적으로 Windows Server 2016이 설치 되어 있는 경우에 설치 됩니다. 비즈니스용 Skype Server에는 Microsoft .NET Framework 4.7 또는 4.8이 필요 하므로이를 업데이트 해야 할 것입니다. [여기](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) 에서 업데이트를 찾을 수 있습니다.<br/> |
+|Microsoft .NET Framework  <br/> |WCF 서비스는 Windows 기능으로 설치 된 **기능** 으로, **서버 관리자**에는 처음에 다운로드가 필요 하지 않습니다. <br/> •이 기능을 설치 하거나, 이미 설치 되어 있고, 검사 하는 경우에는 다음과 같이 **HTTP 활성화** 옵션도 선택 되어 설치 되어 있는지 확인 해야 합니다. <br/> ![.NET Framework 4.5 기능 아래에서 HTTP 활성화 옵션을 보여 주는 스크린샷](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> HTTP 정품 인증을 설치 하기 위해 다른 항목을 설치 해야 하는 추가 팝업이 표시 되는 경우 걱정 하지 마세요. 그 게 평소입니다. 확인을 클릭 하 고 계속 진행 합니다. 이 팝업이 표시 되지 않는 경우 해당 항목이 이미 설치 되어 있는 것으로 간주할 수 있습니다.  <br/> Microsoft .NET Framework는 일반적으로 Windows Server 2016이 설치 되어 있는 경우에 설치 됩니다. 비즈니스용 Skype Server에는 Microsoft .NET Framework 4.7 또는 4.8이 필요 하므로이를 업데이트 해야 할 것입니다. [여기](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) 에서 업데이트를 찾을 수 있습니다.<br/> |
 |미디어 파운데이션  <br/> |Windows Server 2016의 경우 Windows Media 형식 런타임이 Microsoft 미디어 파운데이션을 사용 하 여 설치 됩니다.  <br/> 회의에 사용 되는 모든 프런트 엔드 서버와 Standard Edition 서버는 Windows Media 형식 런타임을 통해 통화 공원, 알림 및 응답 그룹 응용 프로그램이 공지 사항 및 음악에 대해 재생 하는 Windows Media 오디오 (.wma) 파일을 실행 해야 합니다.  <br/> |
 |Windows Identity Foundation  <br/> |비즈니스용 Skype Server 2019에 대 한 서버 간 인증 시나리오를 지원 하려면 Windows Identity Foundation 3.5이 필요 합니다.  <br/> • Windows Server 2016의 경우 아무 것도 다운로드할 필요가 없습니다. **서버 관리자**를 열고 **역할 및 기능 추가 마법사**로 이동 합니다. **Windows Id 파운데이션 3.5** 이 **기능** 섹션 아래에 나열 됩니다. 선택 되어 있는 경우에는 좋은 방법입니다. 그렇지 않으면 선택 하 고 **다음** 을 클릭 하 여 **설치** 단추에 도달 합니다. <br/> |
 |원격 서버 관리 도구  <br/> |역할 관리 도구: AD DS 및 AD LDS 도구  <br/> |
@@ -273,7 +273,7 @@ Microsoft 인터넷 보안 및 가속 (ISA) 서버 클라이언트 소프트웨�
     
 이러한 환경에서 읽기 전용 도메인 컨트롤러를 사용할 수 있나요? 사용할 수 있는 쓰기 가능한 도메인 컨트롤러도 있는 경우에만 가능 합니다.
   
-비즈니스용 Skype 서버 2019는 단일 레이블 도메인을 지원 하지 않는다는 것을 알아야 합니다. 그 게 뭐 야? 루트 도메인에 contoso. local 이라는 레이블이 있는 경우이는 정상입니다. 로컬에 명명 된 루트 도메인이 있는 경우 해당 도메인은 작동 하지 않으며 결과적으로 지원 되지 않습니다. 이에 대 한 자세한 내용은 [이 기술 자료 문서를 참고](https://support.microsoft.com/kb/300684/en-us)하세요.
+비즈니스용 Skype 서버 2019는 단일 레이블 도메인을 지원 하지 않는다는 것을 알아야 합니다. 그 게 뭐 야? 루트 도메인에 contoso. local 이라는 레이블이 있는 경우이는 정상입니다. 로컬에 명명 된 루트 도메인이 있는 경우 해당 도메인은 작동 하지 않으며 결과적으로 지원 되지 않습니다. 이에 대 한 자세한 내용은 [이 기술 자료 문서를 참고](https://support.microsoft.com/kb/300684/)하세요.
   
 비즈니스용 Skype 서버 2019도 도메인 이름 바꾸기를 지원 하지 않습니다. 도메인의 이름을 변경 해야 하는 경우에는 비즈니스용 Skype Server 2019을 제거 하 고, 도메인 이름 바꾸기를 수행 하 고, 비즈니스용 Skype Server 2019을 다시 설치 합니다.
   
@@ -541,7 +541,7 @@ Survivable Branch 기기 인증서 (특히, 비즈니스용 Skype Server 2019에
 
 비즈니스용 Skype 서버 2019는 모든 파일 저장소에 동일한 파일 공유를 사용할 수 있습니다. 다음 사항을 염두에 두어야 합니다.
   
-- 파일 공유는 DAS (직접 연결 저장소) 또는 SAN (저장소 영역 네트워크)에 있어야 하며, 여기에는 DFS (분산 파일 시스템)와 파일 저장소에 대 한 독립 디스크 (RAID)의 중복 배열이 포함 됩니다. Windows Server 2012의 DFS에서 더 읽기 위해서는 [이 DFS 페이지](https://technet.microsoft.com/en-us/library/jj127250.aspx)를 확인 하세요.
+- 파일 공유는 DAS (직접 연결 저장소) 또는 SAN (저장소 영역 네트워크)에 있어야 하며, 여기에는 DFS (분산 파일 시스템)와 파일 저장소에 대 한 독립 디스크 (RAID)의 중복 배열이 포함 됩니다. Windows Server 2012의 DFS에서 더 읽기 위해서는 [이 DFS 페이지](https://technet.microsoft.com/library/jj127250.aspx)를 확인 하세요.
     
 - 파일 공유에 대 한 공유 클러스터를 권장 합니다. 이미 계정을 사용 하 고 있는 경우에는 Windows Server 2012 이상 버전을 클러스터 해야 합니다.
 

@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Certificate summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: 933d6351-cfa6-4432-b3ed-1aff3ac92065
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618372(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ618372(v=OCS.15)
 ms:contentKeyID: 49105659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6dccb46b9f2b6d934f1cd0960bb11a369fb585ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: aede53e06493fab89a843ccc2de543aed7f05dae
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984687"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111552"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>인증서 요약-SIP, XMPP 페더레이션 및 Lync Server 2013의 공개 인스턴트 메시지
 
@@ -124,7 +124,7 @@ Edge 서버 배포에 대 한 올바른 인증서 요구 사항이 충족 되었
 [Lync Server 2013의 에지 서버 인증서 계획](lync-server-2013-plan-for-edge-server-certificates.md)  
 [인증서 요약 - Lync Server 2013의 NAT 사용 개인 IP 주소의 단일 통합 에지](lync-server-2013-certificate-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)  
 [Lync Server 2013의 인증서 요약 - 공용 IP 주소의 단일 통합 에지](lync-server-2013-certificate-summary-single-consolidated-edge-with-public-ip-addresses.md)  
-[Lync Server 2013의 인증서 요약 - 조정된 통합 에지, NAT 사용 개인 IP 주소의 DNS 부하 분산](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)  
+[Lync Server 2013의 인증서 요약 - 조정된 통합 에지, NAT 사용 개인 IP 주소의 DNS 부하 분산](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md)  
 [Lync Server 2013의 인증서 요약 - 조정된 통합 에지, 공용 IP 주소의 DNS 부하 분산](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)  
 [Lync Server 2013의 인증서 요약 - 하드웨어 부하 분산 장치를 사용하는 조정된 통합 에지](lync-server-2013-certificate-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)  
   

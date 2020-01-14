@@ -14,12 +14,12 @@ search.appverid: MET150
 description: IT 관리자는 테 넌 트 수준에서 게스트를 추가 하 고, 게스트 사용자 정책 및 사용 권한을 설정 및 관리 하 고, 게스트를 초대할 수 있는 사용자를 결정 하 고, 게스트 사용자의 보고서를 가져올 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41630c14c7d1aa9233f53df3c83bd36081d18682
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 42910da02c55866e0ce4e04a099b60e55577ab8c
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753293"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111362"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft 팀에서 게스트 액세스 관리
 ======================================
@@ -27,7 +27,7 @@ ms.locfileid: "37753293"
 > [!IMPORTANT]
 > 변경 내용이 적용 되려면 24 시간까지 기다려야 할 수 있습니다. 
 
-**게스트** 는 모든 Office 365 Business Premium, Office 365 Enterprise 및 Office 365 교육 구독에 포함 된 Microsoft 팀의 사용자 유형입니다. 추가 Office 365 라이선스가 필요 하지 않습니다. [게스트 액세스 라이선스](#guest-access-licensing-limits) 에 대 한 자세한 내용을 확인 하세요.
+**게스트** 는 모든 Office 365 Business Premium, Office 365 Enterprise, Office 365 비즈니스 Essentials 및 Office 365 교육 구독에 포함 된 Microsoft 팀의 사용자 유형입니다. 추가 Office 365 라이선스가 필요하지 않습니다. [게스트 액세스 라이선스](#guest-access-licensing-limits) 에 대 한 자세한 내용을 확인 하세요.
 
 팀 게스트 액세스는 테 넌 트 수준 설정 이므로 기본적으로 꺼져 있습니다. 게스트 액세스를 설정 하는 방법에 대 한 자세한 내용은 [팀에 대 한 게스트 액세스 설정 또는 해제](set-up-guests.md)또는 [게스트 액세스 검사 목록을](guest-access-checklist.md) 사용 하 여 설치를 안내 합니다.
 
@@ -47,7 +47,7 @@ Azure AD (Active Directory) 포털을 사용 하 여 게스트와 Office 365 및
 
 ## <a name="guest-access-licensing-limits"></a>게스트 액세스 라이선스 제한
 
-팀에서 추가할 수 있는 관람객 수를 제한 하지 않습니다. 그러나 테 넌 트에 추가할 수 있는 총 게스트 수는 Azure AD 라이선스가 허용 하는 항목 (일반적으로 사용이 허가 된 사용자 당 게스트 5 개)을 기준으로 합니다. 자세한 내용은 [AZURE AD B2B 공동 작업 라이선스](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)를 참조 하세요.
+Teams에서는 추가할 수 있는 게스트 수를 제한하지 않습니다. 그러나 테넌트에 추가할 수 있는 총 게스트 수는 Azure AD 라이선스가 허용하는 항목을 기반으로 합니다. 일반적으로 라이선스가 있는 사용자 당 게스트 수는 5 명입니다. 자세한 내용은 [Azure AD B2B 공동 작업 라이선스](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)를 참조하세요.
 
 이러한 라이선스 제한 사항으로 인해 (사용자의 테 넌 트를 최신으로 유지), 게스트 액세스를 정기적으로 검토 하 여 더 이상 필요 하지 않은 액세스 권한이 있는 사용자를 확인 해야 합니다. Azure AD를 사용 하 여 그룹 구성원 또는 응용 프로그램에 할당 된 사용자에 대 한 액세스 검토를 만들 수 있습니다. 되풀이 되는 access 리뷰를 만들면 시간을 절약할 수 있습니다. 응용 프로그램에 대 한 액세스 권한이 있거나 그룹의 구성원 인 사용자를 정기적으로 검토 해야 하는 경우 이러한 검토의 빈도를 정의할 수 있습니다. 
 

@@ -3,38 +3,6 @@
 
 
 
-## <a name="week-of-december-02-2019"></a>02 년 12 월 1 일, 2019
-
-
-| 게시 날짜 |주제 제목 | 바뀌지 |
-|------|------------|--------|
-| 12/2/2019 | [Microsoft Teams에서 다른 조직의 사용자와 의사소통하기](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 으 |
-| 12/2/2019 | [Microsoft 팀 대화방 콘솔 구성](/MicrosoftTeams/room-systems/console) | 으 |
-| 12/2/2019 | [XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리](/MicrosoftTeams/room-systems/content-camera) | 으 |
-| 12/2/2019 | [Microsoft 팀 대화방으로 Lync 채팅방 시스템 장치 마이그레이션](/MicrosoftTeams/room-systems/lrs-migration) | 으 |
-| 12/2/2019 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
-| 12/3/2019 | [Microsoft 팀 게스트 액세스 검사 목록](/MicrosoftTeams/guest-access-checklist) | 으 |
-| 12/3/2019 | [Microsoft Teams 상용 클라우드 평가판 관리](/MicrosoftTeams/iw-trial-teams) | 으 |
-| 12/3/2019 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
-| 12/3/2019 | [새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | 으 |
-| 12/3/2019 | [Microsoft 팀에서 사용자 지정 앱 정책 및 설정 관리](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 으 |
-| 12/4/2019 | [Microsoft 팀 용 클라이언트 가져오기](/MicrosoftTeams/get-clients) | 으 |
-| 12/4/2019 | [직접 라우팅 국가 코드](/MicrosoftTeams/direct-routing-country-codes) | 으 |
-| 12/4/2019 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
-| 12/4/2019 | [Exchange 및 Microsoft 팀의 상호 작용 방식](/MicrosoftTeams/exchange-teams-interact) | 으 |
-| 12/4/2019 | [Microsoft 팀 회의실 유지 관리 및 운영](/MicrosoftTeams/room-systems/room-systems-v2-operations) | 으 |
-| 12/5/2019 | [Microsoft 팀에서 조직 전체 팀 만들기](/MicrosoftTeams/create-an-org-wide-team) | 으 |
-| 12/5/2019 | [직접 라우팅으로 마이그레이션](/MicrosoftTeams/direct-routing-migrating) | 으 |
-| 12/5/2019 | [Microsoft Teams 상용 클라우드 평가판 관리](/MicrosoftTeams/iw-trial-teams) | 으 |
-| 12/5/2019 | [Microsoft 팀의 게스트 액세스 문제 해결](/MicrosoftTeams/troubleshoot-guest-access) | 으 |
-| 12/6/2019 | [Microsoft 팀의 관리 교육](/MicrosoftTeams/itadmin-readiness) | 으 |
-| 12/6/2019 | [Microsoft Teams에 오신 것을 환영합니다.](/MicrosoftTeams/teams-overview) | 으 |
-| 12/6/2019 | [Microsoft 팀의 채팅, 팀, 채널, & 앱](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 으 |
-| 12/6/2019 | [Microsoft Teams 교육](/MicrosoftTeams/training-microsoft-teams-landing-page) | 으 |
-| 12/6/2019 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/room-systems/requirements) | 으 |
-| 12/6/2019 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
-
-
 ## <a name="week-of-december-09-2019"></a>7 월 9 일, 2019
 
 
@@ -106,7 +74,7 @@
 | 12/18/2019 | [캄보디아의 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia) | 으 |
 | 12/18/2019 | [엘살바도르의 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador) | 으 |
 | 12/18/2019 | [온두라스의 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras) | 으 |
-| 12/18/2019 | [오디오 회의 및 통화 플랜의 국가 및 지역 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 으 |
+| 12/18/2019 | [오디오 회의 및 통화 요금제 국가 및 지역 가용성](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 으 |
 | 12/18/2019 | [직접 라우팅 구성](/MicrosoftTeams/direct-routing-configure) | 으 |
 | 12/18/2019 | [모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 으 |
 | 12/18/2019 | [Microsoft 365 정부 및 GCC 상위 배포 계획-Microsoft 팀](/MicrosoftTeams/plan-for-government-gcc-high) | 으 |
@@ -128,3 +96,55 @@
 | 게시 날짜 |주제 제목 | 바뀌지 |
 |------|------------|--------|
 | 1/2/2020 | [Microsoft 팀의 개인 채널](/MicrosoftTeams/private-channels) | 으 |
+
+
+## <a name="week-of-january-06-2020"></a>1 월 6 일 (주) 2020
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 1/7/2020 | [Microsoft 팀 게스트 액세스 검사 목록](/MicrosoftTeams/guest-access-checklist) | 으 |
+| 1/7/2020 | [Microsoft 팀에서 팀 정책 관리](/MicrosoftTeams/teams-policies) | 으 |
+| 1/7/2020 | [비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레이드-Microsoft 팀](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | 으 |
+| 1/7/2020 | [Microsoft 팀 용 클라이언트 가져오기](/MicrosoftTeams/get-clients) | 으 |
+| 1/7/2020 | [Microsoft 팀 앱의 하드웨어 요구 사항](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 으 |
+| 1/8/2020 | [Microsoft Teams의 알려진 문제](/MicrosoftTeams/known-issues) | 으 |
+| 1/8/2020 | [Microsoft 팀에서 팀 보관 또는 삭제](/MicrosoftTeams/archive-or-delete-a-team) | 으 |
+| 1/8/2020 | [GCCH 및 DoD에 대 한 직접 라우팅이 있는 오디오 회의](/MicrosoftTeams/audio-conferencing-with-direct-routing-for-gcch-and-dod) | 으 |
+| 1/8/2020 | [Microsoft 팀의 발신자 ID 정책 관리](/MicrosoftTeams/caller-id-policies) | 으 |
+| 1/8/2020 | [오디오 회의 브리지에서 전화 번호 변경](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 으 |
+| 1/8/2020 | [동적인 긴급 전화 구성](/MicrosoftTeams/configure-dynamic-emergency-calling) | 으 |
+| 1/8/2020 | [Microsoft 팀에서 콘텐츠 검색 사용](/MicrosoftTeams/content-search) | 으 |
+| 1/8/2020 | [다이얼 플랜 만들기 및 관리](/MicrosoftTeams/create-and-manage-dial-plans) | 으 |
+| 1/8/2020 | [직접 라우팅 구성](/MicrosoftTeams/direct-routing-configure) | 으 |
+| 1/8/2020 | [직접 라우팅으로 마이그레이션](/MicrosoftTeams/direct-routing-migrating) | 으 |
+| 1/8/2020 | [Microsoft 팀의 콘텐츠 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 으 |
+| 1/8/2020 | [StaffHub PowerShell 모듈 설치](/MicrosoftTeams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module) | 으 |
+| 1/8/2020 | [Microsoft 팀에서 조직의 교대 근무 앱 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 으 |
+| 1/8/2020 | [Microsoft 팀에서 StaffHub 팀을 교대으로 이동](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 으 |
+| 1/8/2020 | [Microsoft 팀 용 클라이언트 가져오기](/MicrosoftTeams/get-clients) | 으 |
+| 1/8/2020 | [PowerShell을 사용하여 팀에 대한 액세스 권한 제어](/MicrosoftTeams/guest-access-powershell) | 으 |
+| 1/8/2020 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 으 |
+| 1/8/2020 | [직접 라우팅에 위치 기반 라우팅 사용](/MicrosoftTeams/location-based-routing-enable) | 으 |
+| 1/8/2020 | [Microsoft 팀에서 비공개 팀의 검색 관리](/MicrosoftTeams/manage-discovery-of-private-teams) | 으 |
+| 1/8/2020 | [Microsoft 팀에서 긴급 통화 라우팅 정책 관리](/MicrosoftTeams/manage-emergency-call-routing-policies) | 으 |
+| 1/8/2020 | [Microsoft 팀에서 피드백 정책 관리](/MicrosoftTeams/manage-feedback-policies-in-teams) | 으 |
+| 1/8/2020 | [Microsoft 팀의 클라우드 음성 기능에 대 한 네트워크 토폴로지 관리](/MicrosoftTeams/manage-your-network-topology) | 으 |
+| 1/8/2020 | [팀에서 메시징 정책 관리](/MicrosoftTeams/messaging-policies-in-teams) | 으 |
+| 1/8/2020 | [Microsoft 팀의 보존 정책](/MicrosoftTeams/retention-policies) | 으 |
+| 1/8/2020 | [Microsoft 팀의 보안 및 준수에 대 한 개요](/MicrosoftTeams/security-compliance-overview) | 으 |
+| 1/8/2020 | [Microsoft 팀에서 팀 만료 및 갱신](/MicrosoftTeams/team-expiration-renewal) | 으 |
+| 1/8/2020 | [Microsoft 팀의 팀 및 채널 개요](/MicrosoftTeams/teams-channels-overview) | 으 |
+| 1/8/2020 | [Microsoft 팀 live 이벤트는 무엇 인가요?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 으 |
+| 1/8/2020 | [Microsoft 팀에 대 한 사용자 액세스 관리](/MicrosoftTeams/user-access) | 으 |
+| 1/8/2020 | [직접 라우팅으로 인증된 SBC(Session Border Controller) 목록](/MicrosoftTeams/direct-routing-border-controllers) | 으 |
+| 1/8/2020 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 으 |
+| 1/9/2020 | [공존 및 업그레이드 설정 설정](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | 으 |
+| 1/9/2020 | [Microsoft 팀에서 실시간 이벤트 계획](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 으 |
+| 1/9/2020 | [통화 품질 대시보드 켜기 및 사용](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 으 |
+| 1/9/2020 | [클라우드 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으 |
+| 1/9/2020 | [통화 대기열 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으 |
+| 1/9/2020 | [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams 배포](/MicrosoftTeams/use-advisor-teams-roll-out) | 으 |
+| 1/9/2020 | [클라우드 자동 전화 교환이란?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 으 |
+| 1/10/2020 | [직접 라우팅 구성](/MicrosoftTeams/direct-routing-configure) | 으 |
+| 1/10/2020 | [SCCM을 통해 MSI를 사용 하 여 Microsoft 팀 설치](/MicrosoftTeams/msi-deployment) | 으 |

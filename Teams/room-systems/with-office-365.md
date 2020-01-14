@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Office 365를 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 467a7300a2912dcaffe66a44f0f6e181d36ced1c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cda552fbc38196751ccdcc105bcf9973fe321edd
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675442"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104477"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365를 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -205,7 +205,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서 Microsoft 팀 회의실 
 
 4. **라이선스** 옵션을 클릭 합니다.
 
-5. 라이선스 **할당** 섹션에서 사용권 및 Enterprise Voice 필요 조건에 따라 비즈니스용 skype Online (계획 2) 또는 비즈니스용 skype Online (계획 3)을 선택 해야 합니다. Microsoft 팀 방에 클라우드 PBX를 사용 하려면 요금제 3 라이선스를 사용 해야 합니다. 최소한 음성 연결에는 CloudPBX가 필요 합니다. 그런 다음 PSTN 연결 방법을 기반으로 하이브리드 음성 또는 PSTN 통화를 구성 합니다. 자세한 내용은 [Microsoft 팀 공간 라이선스](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) 를 참조 하세요.
+5. 라이선스 **할당** 섹션에서 사용권 및 Enterprise Voice 필요 조건에 따라 비즈니스용 skype Online (계획 2) 또는 비즈니스용 skype Online (계획 3)을 선택 해야 합니다. Microsoft 팀 방에 클라우드 PBX를 사용 하려면 요금제 3 라이선스를 사용 해야 합니다. 최소한 음성 연결에는 CloudPBX가 필요 합니다. 그런 다음 PSTN 연결 방법을 기반으로 하이브리드 음성 또는 PSTN 통화를 구성 합니다. 자세한 내용은 [Microsoft 팀 공간 라이선스](skype-room-systems-v2.md) 를 참조 하세요.
 
 6. **저장** 을 클릭 하 여 작업을 완료 합니다.
 
@@ -263,4 +263,4 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 [Microsoft 팀 대화방 관리](skype-room-systems-v2.md)
 
-[Microsoft 팀 대화방 라이선스](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[Microsoft 팀 대화방 라이선스](skype-room-systems-v2.md)

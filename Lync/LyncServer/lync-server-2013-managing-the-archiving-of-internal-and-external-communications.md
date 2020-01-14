@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Managing the Archiving of internal and external communications
 ms:assetid: 6c2cf941-3204-4f1a-a7e0-416c828056d9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204977(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204977(v=OCS.15)
 ms:contentKeyID: 48184417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a9e3c0a0708075eecc28282021f98724325ff6c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 891318ba677891916af678b74365026d20d69016
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978710"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="managing-the-archiving-of-internal-and-external-communications-in-lync-server-2013"></a>Lync Server 2013의 내부 및 외부 통신 보관 관리
 
@@ -59,9 +59,9 @@ Lync Server 2013에서 Microsoft Exchange 통합을 사용 하지 않거나 해�
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [특정 사이트 또는 사용자에 대 한 내부 또는 외부 통신의 보관을 사용 하거나 사용 하지 않도록 설정 하 여 Lync Server 2013에서 보관 정책 만들기](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)
+  - [특정 사이트 또는 사용자에 대 한 내부 또는 외부 통신의 보관을 사용 하거나 사용 하지 않도록 설정 하 여 Lync Server 2013에서 보관 정책 만들기](lync-server-2013-create-archiving-policy-sites-users.md)
 
-  - [Lync Server 2013에서 보관 정책을 변경 하 여 조직, 사이트 또는 사용자에 대 한 내부 또는 외부 통신 보관을 사용 하거나 사용 하지 않도록 설정](lync-server-2013-changing-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-your-organization-sites-or-us.md)
+  - [Lync Server 2013에서 보관 정책을 변경 하 여 조직, 사이트 또는 사용자에 대 한 내부 또는 외부 통신 보관을 사용 하거나 사용 하지 않도록 설정](lync-server-2013-change-archiving-policy-org-sites-users.md)
 
   - [Lync Server 2013에서 사용자에 게 보관 정책 적용](lync-server-2013-applying-an-archiving-policy-to-users.md)
 

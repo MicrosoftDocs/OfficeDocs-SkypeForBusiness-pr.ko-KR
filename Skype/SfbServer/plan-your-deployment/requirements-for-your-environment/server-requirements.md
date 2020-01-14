@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 요약:이 항목을 사용 하 여 비즈니스용 Skype 서버 2015 서버를 준비 합니다. 서버 팜을 성공적으로 설치 및 배포 하는 데 도움이 되도록 하드웨어, OS, 데이터베이스, 소프트웨어, 모든 시스템 요구 사항 및 권장 사항이 여기에 나와 있습니다.
-ms.openlocfilehash: a028ce7265718c0ce14b103bca8dcdb416e72885
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8a3771f66a2fe83f8772a8a5a07f643d372d7c1d
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989283"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104427"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 서버 요구 사항
  
@@ -72,7 +72,7 @@ Edge 서버용 권장 하드웨어, 독립 실행형 중재 서버, 영상 Inter
 |필요한 모든 업데이트가 설치 된 Windows Server 2012 R2 Datacenter OS  <br/> |필요한 모든 업데이트가 설치 된 Windows Server 2012 R2 표준 OS.  <br/> |
 |필요한 모든 업데이트가 설치 된 Windows Server 2012 데이터 센터 OS  <br/> |필요한 모든 업데이트가 설치 된 Windows Server 2012 표준 OS  <br/> |
    
-이 목록에 없는 경우, 제대로 작동 하지 않는 경우 비즈니스용 Skype Server 2015의 새로운 설치에 대해 시도해 보세요.
+이 목록에 없는 경우, 제대로 작동 하지 않는 경우 비즈니스용 Skype Server 2015의 새로운 설치에 대해 시도해 보세요. 운영 체제의 현재 위치 업그레이드는 Lync Server 2013에서 지원 되지 않습니다.  별도의 풀을 배포 하 고 다른 운영 체제를 사용 하 여 새 풀로 사용자를 마이그레이션해야 합니다.
   
 > [!NOTE]
 > Windows Server 2008 R2가이 목록에 없는 것을 발견 했을 수 있습니다. SFB에 사용할 모든 새 서버에 대해 Windows Server 2012 R2를 사용 하는 것이 좋습니다. 기존 서버에 Lync Server 2013이 이미 설치 되어 있는 경우에만 Windows Server 2008 R2를 사용 하 고 사용자가 해당 앱의 현재 상태 업그레이드를 수행할 예정인 경우에만 사용할 수 있습니다. Windows Server 2008 R2는 1/13/2015의 기본 지원 수명 종료 날짜에 도달 했으며 1/14/2020의 지원 수명 주기 종료까지 연락 하 게 됩니다.

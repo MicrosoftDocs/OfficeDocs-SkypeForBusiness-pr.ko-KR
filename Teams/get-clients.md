@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e47e8e4765bc93c2281efc07766f77f173b0fad
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: f698d46be07c60d2034b2e355ad70b488b2d7646
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990853"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111482"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft 팀 용 클라이언트 가져오기 
 
@@ -39,7 +39,7 @@ Microsoft 팀은 데스크톱 (Windows, Mac, Linux), 웹, 모바일 (Android 및
 > [!TIP]
 > Windows 데스크톱 클라이언트의 이점과이를 위해 계획 하는 방법 및 배포 하는 방법에 대 한 자세한 내용을 보려면 다음 세션을 시청 하세요. [팀 Windows 데스크톱 클라이언트](https://aka.ms/teams-clients)
 
-Microsoft 팀 데스크톱 클라이언트는 독립 실행형 응용 프로그램이 며 [Office 365 ProPlus 에서도 사용할 수 있습니다](https://docs.microsoft.com/deployoffice/teams-install). 팀은 Windows (7 +), 32 비트 및 64 비트 버전, macOS (10.10 +), Linux (in `.deb` 및 `.rpm` formats)에서 사용할 수 있습니다. Windows에서 팀에는 .NET Framework 4.5 이상이 필요 합니다. 팀 설치 관리자가 없는 경우 설치를 제공 합니다. Linux에서 apt 및 yum과 같은 패키지 관리자는 모든 요구 사항을 설치 하려고 합니다. 그러나이 경우에는 Linux에 팀을 설치 하기 전에 보고 된 요구 사항을 설치 해야 합니다.
+Microsoft 팀 데스크톱 클라이언트는 독립 실행형 응용 프로그램이 며 [Office 365 ProPlus 에서도 사용할 수 있습니다](https://docs.microsoft.com/deployoffice/teams-install). 팀은 Windows (7 +), Windows Server (2012 R2 +), 32 비트 및 64 비트 버전, macOS (10.10 +), Linux (in `.deb` 및 `.rpm` 형식)에 대해 사용할 수 있습니다. Windows에서 팀에는 .NET Framework 4.5 이상이 필요 합니다. 팀 설치 관리자가 없는 경우 설치를 제공 합니다. Linux에서 apt 및 yum과 같은 패키지 관리자는 모든 요구 사항을 설치 하려고 합니다. 그러나이 경우에는 Linux에 팀을 설치 하기 전에 보고 된 요구 사항을 설치 해야 합니다.
 
 데스크톱 클라이언트는 실시간 통신 지원 (오디오, 비디오 및 콘텐츠 공유)을 제공 하 여 팀 모임, 그룹 통화, 개인 일대일 통화를 가능 하 게 합니다.
 
@@ -152,7 +152,7 @@ sudo dnf check-update
 sudo dnf install teams
 ```
 
-Aternatively, dnf 대신 yum을 사용 하려면 다음을 수행 합니다.
+또는 dnf 대신 yum을 사용 하려면 다음을 수행 합니다.
 ```
 yum check-update
 sudo yum install teams
