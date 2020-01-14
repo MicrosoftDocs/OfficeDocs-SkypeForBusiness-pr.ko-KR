@@ -39,6 +39,7 @@
       "build_output_subfolder": "OfficeDocs-SkypeForBusiness",
       "locale": "ko-KR",
       "monikers": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -53,8 +54,7 @@
   ],
   "notification_subscribers": [],
   "branches_to_filter": [
-    "live-sxs",
-    "master-sxs"
+    "live"
   ],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness",
   "git_repository_branch_open_to_public_contributors": "live",
