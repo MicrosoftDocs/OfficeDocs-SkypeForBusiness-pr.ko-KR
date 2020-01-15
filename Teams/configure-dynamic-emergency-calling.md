@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 동적인 긴급 전화 구성
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d4480e875c37ba2c608c826bb648231c0f6fc23
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: b1a19a7f3459fb30f4f162c849e52be8f6ed07f4
+ms.sourcegitcommit: 842279933cc38931f025eebc028efc5094380d03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992093"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41122929"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -70,6 +70,8 @@ Microsoft 통화 요금제 및 전화 시스템 다이렉트 라우팅을 위한
 
 - Windows 용 팀 데스크톱 클라이언트
 - Mac 용 팀 데스크톱 클라이언트
+- IOS 클라이언트 버전 1.0.92.2019121004 및 App Store 버전 1.0.92 이상에 대 한 팀 모바일 클라이언트
+- Android 클라이언트용 팀 모바일 클라이언트 및 스토어 버전 1416/1.0.0.2019121201 이상
 
 ## <a name="assign-emergency-addresses"></a>긴급 주소 할당
 

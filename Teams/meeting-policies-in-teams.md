@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 팀에서 모임 정책 설정을 관리 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: a3978b3615fabbff000a20d53408d4fbc1d98f12
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
+ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111712"
+ms.locfileid: "41120403"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -120,7 +120,7 @@ ms.locfileid: "41111712"
 
 ### <a name="allow-channel-meeting-scheduling"></a>채널 모임 예약 허용
 
-이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 팀 채널에서 모임을 예약할 수 있는지 여부를 제어 합니다.  이 기능을 해제 한 경우 팀 채널에서 모임을 시작할 때 사용자가 **모임 예약** 옵션을 사용할 수 없으며 팀의 모임에서 모임을 예약 하는 경우 사용자가 모임 **에 대 한 채널 선택** 옵션을 사용할 수 없습니다.
+이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 팀 채널에서 모임을 예약할 수 있는지 여부를 제어 합니다.  이 기능을 해제 하면 사용자가 팀 채널에서 모임을 시작할 때 **모임 예약** 옵션을 사용할 수 없으며, 팀의 사용자가 **채널 추가** 옵션을 사용할 수 없습니다.
 
 ![팀의 모임 예약 옵션을 보여 주는 스크린샷](media/meeting-policies-schedule-a-meeting.png)
 
@@ -130,7 +130,7 @@ ms.locfileid: "41111712"
 
 이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 팀에서 비공개 모임을 예약할 수 있는지 여부를 제어 합니다. 모임이 팀의 채널에 게시 되지 않은 경우 비공개 모임입니다.
 
-**비공개 모임 예약 허용** 을 해제 하 고 **채널 모임 예약을 허용**하면 **모임 예약** 옵션을 사용할 수 없으며 사용자가 팀에서 모임을 예약할 수 없습니다.
+**개인 모임 예약 허용** 을 해제 하 고 **채널 모임 예약을 허용**하는 경우 팀의 사용자는 **필수 참석자 추가** 및 **채널 추가** 옵션을 사용할 수 없습니다.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -263,8 +263,10 @@ Daniela에서 호스팅하는 모임은 모임 참가자가 전체 화면 또는
 
 Daniela는 다른 참가자에 게 제어권을 부여할 수 없기 때문에 Babek에서 구성한 모임의 다른 참가자에 게 공유 데스크톱 또는 창을 제어 합니다.
 
+PowerShell을 사용 하 여 제어권을 제공 하거나 제어권 요청을 받을 수 있는 사람을 제어 하려면 AllowParticipantGiveRequestControl cmdlet을 사용 합니다.
+
 > [!NOTE]
-> 공유 중 공유 콘텐츠를 관리 하 고 제어 하려면 두 파티 모두 팀 데스크톱 클라이언트를 사용 해야 합니다. 파티 중 하나가 브라우저에서 팀을 실행 중인 경우 컨트롤은 지원 되지 않습니다. 이 문제는 해결 하려는 기술 제한 때문에 발생 합니다. 
+> 공유 중 공유 콘텐츠를 관리 하 고 제어 하려면 두 파티 모두 팀 데스크톱 클라이언트를 사용 해야 합니다. 컨트롤은 어느 쪽이든 브라우저에서 Teams를 실행 중인 경우 지원되지 않습니다. 이것은 해결하려고 하는 기술적 제한 때문입니다. 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>외부 참가자가 제어권을 부여 하거나 요청할 수 있도록 허용
 
@@ -276,6 +278,8 @@ Daniela는 다른 참가자에 게 제어권을 부여할 수 없기 때문에 B
    - 페더레이션 사용자  
 
 공유 된 사용자가 외부 참가자가 조직에서 **제어권을 부여 하거나 요청할 수 있도록 허용을** 제어 하도록 설정 되어 있는 동안 페더레이션 사용자가 해당 사용자에 게 제어권을 부여할 수 있는지 여부
+
+PowerShell을 사용 하 여 외부 참가자가 제어권을 제공 하거나 제어권 요청을 수락할 수 있는지 여부를 제어 하려면 AllowExternalParticipantGiveRequestControl cmdlet을 사용 합니다.
 
 ### <a name="allow-powerpoint-sharing"></a>PowerPoint 공유 허용
 
