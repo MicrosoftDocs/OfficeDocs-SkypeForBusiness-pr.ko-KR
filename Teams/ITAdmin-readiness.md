@@ -16,12 +16,12 @@ f1keywords:
 description: Microsoft 팀을 계획, 배포 및 실행 하는 방법을 설명 하는 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0fd8f08094549e26612872b73d42b96cbbb0080
-ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
+ms.openlocfilehash: 3216327e5977429ca1d794dc719c89a216fe8fb9
+ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39886185"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41165608"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 팀의 관리 교육
 
@@ -90,7 +90,7 @@ ms.locfileid: "39886185"
 
 | 모듈 | 비디오만 | PowerPoint 데크 |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft 기술-IT YouTube 용 팀 Essentials 채널](https://aka.ms/MicrosoftTeamsforIT) | [비디오: 팀의 주요](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) 기능 (10:13 분)<br>[비디오: 팀 구성 & 배포-소개](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 분)  ||
+| [Microsoft 기술-IT YouTube 용 팀 Essentials 채널](https://aka.ms/MicrosoftTeamsforIT) | [비디오: 팀의 주요](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) 기능 (10:13 분)<br>[비디오: 팀 구성 & 배포-소개](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 분)  <br>[비디오: 보안 및 준수](https://youtu.be/91lHNKVVvQ4) (12:42 분)||
 | 기초-핵심 구성 요소 | [비디오만](https://aka.ms/teams-foundations) | [뒤집을](https://aka.ms/teams-foundations-deck) |
 | Windows 데스크톱 클라이언트 | [비디오만](https://aka.ms/teams-clients) | [뒤집을](https://aka.ms/teams-clients-deck) |
 | 지배 구조, 관리 및 수명 주기 | [비디오만](https://aka.ms/teams-governance) | [뒤집을](https://aka.ms/teams-governance-deck) |
