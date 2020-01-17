@@ -1,5 +1,5 @@
 ---
-title: 팀 클라우드 모임 녹음/녹화
+title: Teams 클라우드 모임 녹음/녹화
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -14,16 +14,19 @@ search.appverid: MET150
 description: Microsoft 팀에서 클라우드 음성 기능을 배포 하기 위한 실용적인 지침입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9feaffd1677d96c53dee57b03f9061c6fa8184ce
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7c2a3cac9c61851f9b4c7a6026d94058568b1667
+ms.sourcegitcommit: f1df996a7368fb8f447af877bc2e9f4d4d925f2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516944"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41217701"
 ---
-# <a name="teams-cloud-meeting-recording"></a>팀 클라우드 모임 녹음/녹화
+# <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
-Microsoft 팀에서 사용자는 팀 모임 및 그룹 통화를 녹음/녹화 하 여 오디오, 비디오, 화면 공유 활동을 캡처할 수 있습니다. 또한 사용자가 선택 자막을 사용 하 여 모임 녹음/녹화를 재생 하 고 내용에서 중요 한 토론 항목을 검색할 수 있도록 녹음/녹화에 대 한 옵션도 있습니다. 녹음/녹화는 클라우드에서 수행 되며 [Microsoft Stream](https://docs.microsoft.com/stream/)에 저장 되므로 사용자가 조직에서 안전 하 게 공유할 수 있습니다.
+> [!IMPORTANT]
+> 앞으로는 Microsoft Stream을 국내 데이터 영주권 지역에서 사용할 수 없는 경우에도 팀 데이터가 국가 내에 저장 되어 있는 고객에 대해 팀 모임 기록 기능이 설정 되는 **구성을 변경** 하 게 됩니다. 이 변경 사항이 적용 되 면 모임 기록은 기본적으로 가장 가까운 Microsoft 스트림 영역에 저장 됩니다. 팀 데이터가 국가 내에 저장 되어 있는 경우 모임 녹음/녹화를 국가 내에 저장 하는 경우에는 Microsoft Stream이 국가 내 지역에 배포 된 후 모임 녹음/녹화를 해제 하는 것이 좋습니다. 자세한 내용은 [모임 녹음/녹화 저장 위치](#where-your-meeting-recordings-are-stored)를 참조 하세요.
+
+Microsoft 팀에서 사용자는 팀 모임 및 그룹 통화를 녹음/녹화 하 여 오디오, 비디오, 화면 공유 활동을 캡처할 수 있습니다. 사용자가 선택 캡션을 사용하여 모임을 녹음/녹화한 것을 재생하고 대화 내용에서 중요한 토론 항목을 검색할 수 있도록 녹음/녹화를 위한 자동 기록 옵션도 있습니다. 녹음/녹화는 클라우드에서 수행 되며 [Microsoft Stream](https://docs.microsoft.com/stream/)에 저장 되므로 사용자가 조직에서 안전 하 게 공유할 수 있습니다.
 
 관련: [팀 모임 녹음/녹화 최종 사용자 문서](https://aka.ms/recordmeeting)
 
@@ -64,9 +67,13 @@ Microsoft Stream administrator가 [회사 지침 정책을 설정](https://docs.
 
 ### <a name="turn-on-or-turn-off-cloud-recording"></a>구름 기록 설정 또는 해제
 
-팀 PowerShell의 TeamsMeetingPolicy에서 AllowCloudRecording 설정을 사용 하 여 사용자의 모임을 녹화할 수 있는지 여부를 제어 합니다. Office 365 PowerShell을 사용 하 여 TeamsMeetingPolicy를 관리 하는 방법에 대해 자세히 알아볼 [수 있습니다.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 팀 모임 정책을 설정 하 여 사용자의 모임을 녹화할 수 있는지 여부를 제어할 수 있습니다.
 
-모임 이끌이와 녹음 개시자 모두 모임에 녹음/녹화를 위한 기록 권한이 있어야 합니다. 사용자에 게 사용자 지정 정책을 할당 하지 않은 경우 사용자는 기본적으로 사용 하지 않도록 설정 된 AllowTranscription가 있는 전역 정책을 가져옵니다.
+Microsoft 팀 관리 센터에서 모임 정책에 대 한 **클라우드 기록 허용** 설정을 사용 하거나 사용 하지 않도록 설정 합니다. 자세히 알아보려면 [팀에서 모임 정책 관리](meeting-policies-in-teams.md#allow-cloud-recording)를 참조 하세요.
+
+PowerShell을 사용 하 여 TeamsMeetingPolicy에서 AllowCloudRecording/녹화 설정을 구성 합니다. 자세히 알아보려면 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) 및 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)을 참조 하세요.
+
+모임 이끌이와 녹음 개시자 모두 모임에 녹음/녹화를 위한 기록 권한이 있어야 합니다. 사용자에 게 사용자 지정 정책을 할당 하지 않은 경우 사용자는 기본적으로 사용 하지 않도록 설정 된 AllowCloudRecording/전역 정책을 가져옵니다.
 
 사용자가 전역 정책으로 돌아가려면 다음 cmdlet을 사용 하 여 사용자에 대 한 특정 정책 할당을 제거 합니다.
 
@@ -85,15 +92,37 @@ Microsoft Stream administrator가 [회사 지침 정책을 설정](https://docs.
 | 대부분의 사용자가 모임을 녹화할 수 있고 녹화할 수 없는 특정 사용자는 선택적으로 사용 하지 않도록 설정 하 고 싶습니다. |        <ol><li>GlobalCsTeamsMeetingPolicy에 AllowCloudRecording이 있는지 확인 합니다. = True<li>대부분의 사용자는 전역 CsTeamsMeetingPolicy 또는 AllowCloudRecording = True 인 CsTeamsMeetingPolicy 정책 중 하나를 보유 하 고 있습니다.<li>다른 모든 사용자에 게 AllowCloudRecording을 사용 하는 CsTeamsMeetingPolicy 정책 중 하나를 승인 했습니다 = False</ol>         |
 |                                                   100% 사용 하지 않도록 기록 하 고 싶습니다.                                                   |                                                                <ol><li>전역 CsTeamsMeetingPolicy에 AllowCloudRecording 확인 = False<li>모든 사용자에 게 전역 CsTeamsMeetingPolicy 또는 AllowCloudRecording을 사용 하는 CsTeamsMeetingPolicy 정책 중 하나가 부여 되었습니다. = False                                                                 |
 |      대부분의 사용자에 대해 기록을 사용할 수 없도록 설정 하 고 녹화할 수 있는 특정 사용자를 선택적으로 사용 하도록 설정 하 고 싶습니다.       | <ol><li>전역 CsTeamsMeetingPolicy에 AllowCloudRecording 확인 = False<li>대부분의 사용자에 게 전역 CsTeamsMeetingPolicy 또는 AllowCloudRecording을 사용 하는 CsTeamsMeetingPolicy 정책 중 하나가 부여 되었습니다. = False<li>다른 모든 사용자에 게 AllowCloudRecording = True 인 CsTeamsMeetingPolicy 정책 중 하나가 부여 되었습니다. <ol> |
-|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
+#### <a name="where-your-meeting-recordings-are-stored"></a>모임 녹음/녹화 저장 위치
+
+모임 녹음/녹화는 Microsoft Stream 클라우드 저장소에 저장 됩니다. 현재, 데이터를 저장 하는 국내 데이터 영주권 지역에서 Microsoft Stream을 사용할 수 없는 경우 팀 데이터가 국가 내에 저장 되어 있는 고객에 대해 모임 기록 기능이 꺼집니다. 미래에는 Microsoft Stream을 국내 데이터 영주권 지역에서 사용할 수 없는 경우에도 데이터가 국가 내에 저장 되어 있는 고객에 게 모임 기록 기능이 설정 됩니다.
+
+이 변경 사항이 적용 되 면 모임 녹음/녹화는 기본적으로 Microsoft Stream의 가장 가까운 지역에 저장 됩니다. 팀 데이터가 국가 내에 저장 되어 있는 경우 모임 녹음/국가를 국내으로 저장 하는 경우에는 해당 기능을 해제 한 후 Microsoft Stream이 국가 내 데이터 영주권 지역에 배포 된 후에 설정 하는 것이 좋습니다. 조직의 모든 사용자에 대 한 기능을 해제 하려면 Microsoft 팀 관리 센터에서 전역 팀 모임 정책에서 **클라우드 기록 허용** 설정을 해제 합니다.
+
+다음은이 변경 사항이 적용 될 때 모임 녹음/녹화를 켤 때 발생 하는 상황에 대 한 요약입니다.
+
+|모임 녹음/녹화를 사용 하는 경우 |모임 녹음/녹화는 저장 됩니다.  |
+|---------|---------|
+|Microsoft Stream을 국가별 데이터 영주권 지역에서 사용 하기 전에    |가장 가까운 Microsoft 스트림 영역         |
+|Microsoft Stream을 국가별 데이터 영주권 지역에서 사용할 수 있는 경우    | 국가별 데이터 영주권 지역        |
+
+모임 녹음/녹화를 아직 설정 하지 않은 새 및 기존 테 넌 트의 경우 Microsoft Stream을 국가별 데이터 영주권 지역에서 사용할 수 있게 되 면 새 녹화가 국가 내에 저장 됩니다. 그러나 Microsoft Stream을 국가별 데이터 영주권 지역에서 사용할 수 있도록 설정 하는 테 넌 트는 Microsoft Stream을 다음에 사용할 수 있는 경우에도 기존 및 새 녹화에 대 한 Microsoft 스트림 저장소를 계속 사용 하 게 됩니다. 국내 데이터 영주권 지역입니다.
+
+Microsoft stream 데이터가 저장 된 영역을 찾으려면 Microsoft Stream에서 **을 클릭 합니다** . 오른쪽 위 모서리에서 **Microsoft Stream 정보**를 클릭 한 다음 **데이터를 저장**합니다 .를 클릭 합니다.  Microsoft Stream에서 데이터를 저장 하는 영역에 대 한 자세한 내용은 [Microsoft STREAM FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)를 참조 하세요.
+
+Office 365의 서비스에서 데이터가 저장 되는 위치에 대 한 자세한 내용은 [데이터](https://products.office.com/en-us/where-is-your-data-located?rtc=1) 위치
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>녹음/녹화 기록 설정 또는 해제
 
-사용자가 팀 회의를 기록할 때 모임이 기록 된 후 자동으로 성적을 생성할지 여부를 확인할 수 있습니다. 관리자가 모임 이끌이 및 녹음/녹화 초기자에 대 한 기록 기능을 사용 하지 않도록 설정한 경우 녹음 개시자는 모임 녹음/녹화를 녹음 수 있는 선택 항목을 가져오지 않습니다.
+사용자가 팀 회의를 기록할 때 모임이 기록 된 후 자동으로 성적을 생성할지 여부를 확인할 수 있습니다. 모임 이끌이 및 녹음/녹화 개시자에 대 한 기록 기능을 사용 하지 않도록 설정한 경우 녹음 개시자가 모임 녹음/녹화를 녹음 수 있는 선택 항목을 받지 않습니다.
 
-팀 PowerShell에서 TeamsMeetingPolicy의 AllowTranscription setting을 사용 하 여 기록 개시자가 모임 녹음/녹화를 녹음 하도록 선택할 수 있는지 여부를 제어 합니다. Office 365 PowerShell을 사용 하 여 TeamsMeetingPolicy를 관리 하는 방법에 대해 자세히 알아볼 [수 있습니다.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 팀 모임 정책을 설정 하 여 기록 개시자가 모임 녹음/녹화를 녹음 선택 하도록 할지 여부를 제어할 수 있습니다.
 
-사용자에 게 사용자 지정 정책을 할당 하지 않으면 기본적으로 사용 하지 않도록 설정 된 AllowTranscription 전역 정책이 부여 됩니다.
+Microsoft 팀 관리 센터에서 모임 정책에 대해 내용 **허용** 설정을 사용 하거나 사용 하지 않도록 설정 합니다. 자세히 알아보려면 [팀에서 모임 정책 관리](meeting-policies-in-teams.md#allow-transcription)를 참조 하세요.
+
+PowerShell을 사용 하 여 TeamsMeetingPolicy에서 AllowTranscription 설정을 구성 합니다. 자세히 알아보려면 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) 및 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)을 참조 하세요.
+
+사용자에 게 사용자 지정 정책을 할당 하지 않은 경우 사용자는 기본적으로 사용 하지 않도록 설정 된 AllowTranscription를 갖는 전역 정책을 가져옵니다.
 
 사용자가 전역 정책으로 돌아가려면 다음 cmdlet을 사용 하 여 사용자에 대 한 특정 정책 할당을 제거 합니다.
 
@@ -118,15 +147,13 @@ Microsoft Stream administrator가 [회사 지침 정책을 설정](https://docs.
 1 시간 녹화의 크기는 400 MB입니다. 기록 된 파일에 필요한 용량을 이해 하 고 Microsoft Stream에서 충분 한 저장소를 사용할 수 있는지 확인 합니다.  구독에 포함 된 기본 저장소와 추가 저장소를 구입 하는 방법에 대해 설명 하는 [이 문서](https://docs.microsoft.com/stream/license-overview) 를 읽어 보세요.
 
 ## <a name="manage-meeting-recordings"></a>모임 녹음/녹화 관리
+
 모임 기록은 테 넌 트 소유 콘텐츠로 간주 됩니다. 기록의 소유자가 회사에서 나간 경우 관리자는 Microsoft Stream의 관리 모드에서 녹화 비디오 URL을 열 수 있습니다. 관리자가 녹음/녹화를 삭제 하거나, 녹음/녹화 메타 데이터를 업데이트 하거나, 녹음 비디오의 사용 권한을 변경할 수 있습니다. [스트림의 관리 기능](https://docs.microsoft.com/stream/manage-content-permissions)에 대해 자세히 알아보세요.
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>모임 녹음/녹화에 대 한 준수 및 eDiscovery
+
 모임 기록은 Office 365 계층-C 규격 인 Microsoft Stream에 저장 됩니다. Microsoft Stream 용 모임 또는 녹음/녹화에 관심이 있는 규정 준수 관리자에 대 한 전자 검색 요청을 지원 하기 위해 Microsoft 팀의 콘텐츠 준수 검색 기능에서 기록 완료 메시지를 사용할 수 있습니다. 준수 관리자는 준수 콘텐츠 검색 미리 보기에서 항목의 제목 줄에 있는 "기록" 키워드를 찾아 조직의 모임 및 통화 기록을 검색할 수 있습니다. 모든 녹화가 표시 되는 필수 구성 요소는 관리자 액세스 권한으로 Microsoft Stream에 설정 해야 한다는 것입니다. [Stream에서 관리자 권한을 할당](https://docs.microsoft.com/stream/assign-administrator-user-role)하는 방법에 대해 자세히 알아보세요.
 
-## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?
+## <a name="related-topics"></a>관련 항목
 
-Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Office 365 및 비즈니스용 Skype Online을 관리할 수 있습니다. Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 경우와 같이 Microsoft 365 관리 센터를 사용 하는 경우에만 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
-
-- [Office 365 PowerShell을 사용 해야 하는 이유](https://go.microsoft.com/fwlink/?LinkId=525041)
-- [Windows PowerShell 용 컴퓨터 설정](https://go.microsoft.com/fwlink/?LinkId=525038)
-
+- [팀 PowerShell 개요](teams-powershell-overview.md)
