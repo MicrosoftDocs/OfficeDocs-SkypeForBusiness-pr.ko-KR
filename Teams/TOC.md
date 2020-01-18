@@ -244,7 +244,6 @@
 ### [통화 공유 및 그룹 전화 받기](call-sharing-and-group-call-pickup.md)
 ### [통화 정책](teams-calling-policy.md)
 ### [회선 공유 기능](shared-line-appearance.md)
-### [Teams 클라이언트에서 PSTN 통화를 차단하는 방법 이해](block-pstn-calls-on-Teams-clients.md)
 
 
 ## 통화 플랜
