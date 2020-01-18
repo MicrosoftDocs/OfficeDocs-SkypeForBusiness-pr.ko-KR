@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7ca2b091cfe27c1e81d429ac95f085b52c8465d
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 6c3f0b5c545f1a7e8900c01a79544079ea4fedcc
+ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40019972"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230318"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 및 Microsoft 팀의 상호 작용 방식
 
@@ -43,8 +43,8 @@ Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Office 365
 
 | 사용자의 사서함이 호스트 되는 위치: | eDiscovery| 법률&nbsp;보류 | 보관| 팀 및 채널 관리 |팀에서 모임 만들기 및 보기| 사용자 프로필 사진 수정 | 통화 기록 | 연락처 관리 | Outlook 연락처에 액세스 | 음성 메일 |커넥터 추가 및 구성|탭 추가 및 구성|봇 추가 및 구성| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예|예|예|예|예|예|예|예|
-|**Exchange Online 전용 vNext**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예|예|예|예|예|예|예|예|
+|**Exchange Online**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예|예|예|예 <sup>7</sup>|예|예|예|예|
+|**Exchange Online 전용 vNext**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예|예|예|예 <sup>7</sup>|예|예|예|예|
 |**Exchange Online 전용-레거시** (Azure AD와 동기화 필요)|예 <sup>2</sup>|예 <sup>2, 3</sup>|예 <sup>4|예|아니요|아니요|예|예|아니요|예 <sup>5|예 <sup>6|예|예|
 |**Exchange 온-프레미스** (Azure AD와 동기화 필요)|예 <sup>2</sup>| 예 <sup>2, 3</sup> |예 <sup>4|예|Yes (Exchange 2016 CU3 이상 +)|Yes (Exchange 2016 CU3 이상 +)|예|예|아니요|예 <sup>5|예 <sup>6|예|예|
 
@@ -60,8 +60,7 @@ Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Office 365
 
 <sup>6</sup> 팀 소유자 중 한 명에 게 커넥터를 추가할 수 있는 경우 해당 팀의 다른 사용자는 자신의 사서함이 온-프레미스 인 경우에도이 작업을 수행할 수 있습니다.
 
-
-추가 정보:
+<sup>7</sup> 기본 연락처 폴더의 연락처만 다른 연락처 폴더 또는 하위 폴더에 대 한 액세스는 지원 되지 않습니다.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft 팀을 최대한 활용 하기 위한 요구 사항
 

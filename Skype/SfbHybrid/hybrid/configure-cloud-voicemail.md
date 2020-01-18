@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버에 있는 사용자에 대해 클라우드 기반 음성 메일을 구현 하기 위한 지침입니다.
-ms.openlocfilehash: e3b18f8048f8779eac322dece88e5919b2aa7a96
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 754d69a9b76497f8776667b6ac97498a151c7e4e
+ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963006"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230358"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>온-프레미스 사용자를 위한 클라우드 음성 메일 서비스 구성
 
@@ -36,7 +36,7 @@ ms.locfileid: "40963006"
 
 2.  [하이브리드 연결 계획](plan-hybrid-connectivity.md) 및 [하이브리드 연결 구성](configure-hybrid-connectivity.md)에 설명 된 대로 하이브리드 연결을 설정 했는지 확인 합니다. 
 
-3.  이 문서에 설명 된 대로 [,에 지 서버에서 호스팅 공급자로 클라우드 음성 메일을 구성](#configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server) 합니다.
+3.  이 문서에 설명 된 대로 [,에 지 서버에서 호스팅 공급자로 클라우드 음성 메일을 구성](#configure-cloud-voicemail-as-the-hosting-provider) 합니다.
 
 4.  이 문서에 설명 [된 대로 호스팅된 음성 메일 정책을 구성](#configure-a-hosted-voicemail-policy) 합니다.
 
@@ -45,7 +45,7 @@ ms.locfileid: "40963006"
 6.  이 문서에 설명 된 대로 [클라우드 음성 사서함에 대해 사용자를 사용 하도록 설정](#enable-a-user-for-cloud-voicemail) 합니다.
 
 
-## <a name="configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server"></a>에 지 서버에서 호스팅 공급자로 클라우드 음성 메일 구성 
+## <a name="configure-cloud-voicemail-as-the-hosting-provider"></a>호스팅 공급자로 클라우드 음성 메일 구성 
 
 다음 매개 변수를 사용 하 여 새-CsHostingProvider cmdlet을 통해 프런트 엔드 서버의 호스팅 공급자로 클라우드 음성 메일을 구성 합니다.
 
