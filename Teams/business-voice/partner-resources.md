@@ -15,23 +15,26 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fd0b9386206d14f8ff1a1c03ee4312671b9a0a5
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: ac0835e92232a77f524af5b601fc9f59881e3450
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972069"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268674"
 ---
 # <a name="microsoft-365-business-voice-partner-resources"></a>Microsoft 365 비즈니스 음성 협력 업체 리소스
 
-이 문서를 사용 하 여 Microsoft 365 비즈니스 음성을 계획, 배포 및 지원 하기 위해 기술 지침 및 리소스를 안내 합니다.  이 문서에서는 주로 비즈니스 음성 및 통화에 대해 중점적으로 설명 합니다.  비즈니스 음성을 배포 하기 전에 Microsoft 팀의 배포 및 지원에 기반을 두어야 합니다.  
-이 기능은 기술 제공을 위한 간결한 리소스와 비즈니스 음성을 새로운 경우에 사용할 수 있는 지원 담당자를 위한 것입니다.  이 가이드를 사용 하 여 비즈니스 음성에 대 한 정보를 작성 하 고 비즈니스 음성을 배포 하 고 지원 하는 기본 사항에 대해 설명 합니다.
+이 문서를 사용 하 여 Microsoft 365 비즈니스 음성을 배포 하 고 지원할 수 있습니다. 이 문서에서는 비즈니스 음성 및 통화에 대해 중점적으로 설명 합니다.
+
+비즈니스 음성을 배포 하기 전에 Microsoft 팀의 배포 및 지원에 기반을 두어야 합니다.
+
+이 문서는 기술 제공을 위한 간결한 리소스와 비즈니스 음성에 대 한 새로운 지원 담당자를 위한 것입니다. 이러한 리소스를 사용 하 여 배포 및 지원의 기본 사항을 비롯 하 여 비즈니스 음성에 대 한 지식을 확장할 수 있습니다.
 
 - [팀 실용적인 지침](../cloud-voice-landing-page.md)
 - [사전 평가 및 계획](../3-envision-evaluate-my-environment.md)
-- [배포](../3-onboard-deploy-my-service.md)
-- [운영](../1-drive-value-operate-my-service.md)
+- [Deployment](../3-onboard-deploy-my-service.md)
+- [작업](../1-drive-value-operate-my-service.md)
 - [기술](../envision-planning-for-service-management-and-quality-complete-guide.md#plan-for-service-management)
 - [해결사](../connectivity-issues.md)
 - [파트너 지원 계획](https://partner.microsoft.com/support/partnersupport)
-- [Microsoft 팀 서비스 공급자](https://aka.ms/teamsserviceproviderguide)
+- [팀 서비스 공급자 가이드](https://aka.ms/teamsserviceproviderguide)

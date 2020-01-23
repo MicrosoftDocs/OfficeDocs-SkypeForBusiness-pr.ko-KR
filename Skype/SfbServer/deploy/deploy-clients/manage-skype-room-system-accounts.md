@@ -11,19 +11,19 @@ localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: Skype 대화방 시스템 계정을 관리 하는 방법에 대해 알아보려면이 항목을 읽으십시오.
-ms.openlocfilehash: 7594532e5da42ac9f1b41444052ec51c3779ee2b
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: d1cd40b12da89eed651152dd3b7b91914826d62e
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001488"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268474"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Skype 대화방 시스템 계정 관리
  
 Skype 대화방 시스템 계정을 관리 하는 방법에 대해 알아보려면이 항목을 읽으십시오. 
 
 > [!NOTE]
-> Microsoft 팀 대화방은 서로 다른 종속성 및 배포 절차와 다른 제품입니다. Microsoft 팀 대화방에 대 한 자세한 내용은 Microsoft 팀 대화방 [관리 개요](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)를 참조 하세요.
+> Microsoft 팀 대화방은 서로 다른 종속성 및 배포 절차와 다른 제품입니다. Microsoft 팀 대화방에 대 한 자세한 내용은 Microsoft 팀 대화방 [관리 개요](https://docs.microsoft.com/microsoftteams/rooms/rooms-manage)를 참조 하세요.
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>풀 간에 Skype 대화방 시스템 계정 이동
 
