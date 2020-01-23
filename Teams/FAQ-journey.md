@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2aa6a4f4a498f5b694e3ff23d4043374def6fbff
-ms.sourcegitcommit: 70323d648e9ae3b20a710120b9dcdc452afc462b
+ms.openlocfilehash: b6b36f38ce2c72c085a7d52f403eba4bde7e8670
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37698031"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268484"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
 
@@ -200,7 +200,7 @@ Teams에서 제3자 오디오 회의 공급자(ACP)를 지원할 계획은 없�
 
 ### <a name="will-skype-room-systems-v1-be-updated-to-support-teams-meetings"></a>Teams 모임을 지원하기 위해 Skype 룸 시스템 v1이 업데이트되나요?
 
-Skype 룸 시스템 버전 1(SRS v1) 소프트웨어를 갖춘 Lync 룸 시스템(LRS) 장치의 지원은 2018년 10월 9일에 종료되었습니다. 즉, Skype 룸 시스템 v1 소프트웨어는 더 이상 제품 업데이트나 수정을 지원받지 않습니다. Skype 룸 시스템 v1 소프트웨어를 갖춘 Lync 룸 시스템 장치를 사용하는 고객은 해당 장치를 Microsoft Teams 룸으로 업그레이드할 것을 권장합니다. [자세히 알아보기](room-systems/lrs-migration.md).
+Skype 룸 시스템 버전 1(SRS v1) 소프트웨어를 갖춘 Lync 룸 시스템(LRS) 장치의 지원은 2018년 10월 9일에 종료되었습니다. 즉, Skype 룸 시스템 v1 소프트웨어는 더 이상 제품 업데이트나 수정을 지원받지 않습니다. Skype 룸 시스템 v1 소프트웨어를 갖춘 Lync 룸 시스템 장치를 사용하는 고객은 해당 장치를 Microsoft Teams 룸으로 업그레이드할 것을 권장합니다. [자세히 알아보기](rooms/lrs-migration.md).
 
 ## <a name="management-capabilities"></a>관리 기능
 
