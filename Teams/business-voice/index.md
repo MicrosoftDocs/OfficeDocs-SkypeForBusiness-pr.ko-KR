@@ -14,17 +14,17 @@ ms.collection:
 - Teams_Business_Voice
 title: Microsoft 365 Business Voice
 description: Microsoft 365 Business Voice를 계획, 배포 및 사용하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c34c447ac183effab5412f4202fd2c2b6c9d426f
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 4e8d681955013c7f1efd5d75fd90cd0a7b0c7af8
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972339"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268684"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft 365 Business Voice 리소스</h1>
-        <P>조직에서 Microsoft 365 Business Voice를 계획, 설정 및 사용하는 방법을 알아봅니다. Business Voice는 중소기업이 내부적으로 솔루션을 구축할 비용을 들이지 않고 복잡한 구조가 없이도 효과적이고 융통성 있는 전화 시스템을 간편하게 설정할 수 있도록 해줍니다. </p>
+        <P>조직에서 Microsoft 365 Business Voice를 계획, 설정 및 사용하는 방법을 알아봅니다. Business Voice는 중소기업이 내부적으로 솔루션을 구축할 비용을 들이지 않고 복잡한 구조가 없이도 효과적이고 융통성 있는 전화 시스템을 간편하게 설정할 수 있도록 해줍니다.</p>
         <P></p>
         <ul class="pivots">
             <li>
