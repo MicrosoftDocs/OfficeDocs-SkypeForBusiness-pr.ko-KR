@@ -12,12 +12,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방을 지원 하기 위한 요구 사항을 요약 하 여 설명 합니다.
-ms.openlocfilehash: c5d2fbc49d114614c0b3228dd92890d9200b3a6a
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 33c72c4261b37427fba3d4c853ef2a6d9600e269
+ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269120"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41506880"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 팀 방에 대 한 요구 사항
 
@@ -51,7 +51,7 @@ Microsoft 팀 객실은 공간의 크기와 사용에 따라 다양 한 인증 �
   |[Flex UC에서 crestron M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8gb |128 GB |
   |[Flex UC에서 crestron B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8gb |128 GB |
   |[Flex UC에서 crestron B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8gb |128 GB |
-  |[Flex UC에서 crestron M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|코어 i7|8gb |128 GB |
+  |[Flex 통합에서 crestron-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T) + [CCS-마이크](https://www.crestron.com/en-US/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|코어 i7|8gb |128 GB |
   [Flex UC에서 crestron B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|코어 i7|8gb |128 GB|
   |[Flex UC에서 crestron C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|코어 i7|8gb|128 GB|
   |[회의실 G2 용 HP 정예 슬라이스](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8gb |128 GB |
@@ -110,6 +110,8 @@ Microsoft 팀 객실은 공간의 크기와 사용에 따라 다양 한 인증 �
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[옛 alink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
+|[Shure P300 Audio 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shmxa 310 표 배열 Mic](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
+|[Shure P300 Audio Conferening 프로세서](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Intellimix 천장 MXA 910 with Array Mic](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
 |[Biamp Tesira 전경 AVB VT4 고정 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 천장 2 마이크](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |  |
 ||||||
 

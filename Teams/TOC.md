@@ -132,7 +132,7 @@
 ## [Outlook에서 Teams 모임 추가 기능 사용](teams-add-in-for-outlook.md)
 ## [사용자의 전화 받기 기능 설정](set-up-the-call-me-feature-for-your-users.md)
 ## [MMS(Meeting Migration Service) 설정](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Microsoft Teams 룸](room-systems/index.md)
+## [Microsoft Teams 룸](rooms/index.md)
 ## [Teams에서 화이트보드 관리](manage-whiteboard.md)
 
 
@@ -604,8 +604,8 @@
 #### [Microsoft Teams에 전자 의료 레코드 통합](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [DSTU2 인터페이스 사양](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 ##### [STU3 인터페이스 사양](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [환자 앱을 FHIR용 Azure API에 연결](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
 #### [환자 앱에 대한 감사 로그](expand-teams-across-your-org/healthcare/patients-audit.md)
-
 ## [교육용 Teams](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [빠른 시작 - 교육용 Teams 관리](teams-quick-start-edu.yml)
 ### [교육용 Teams의 과제](expand-teams-across-your-org/assignments-in-teams.md)
