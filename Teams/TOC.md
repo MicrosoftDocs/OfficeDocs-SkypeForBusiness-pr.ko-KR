@@ -692,6 +692,7 @@
 ### [MSI를 사용하여 Teams 설치](msi-deployment.md)
 ### [조직에서 Teams 설정](Office-365-set-up.md)
 ### [바이러스 백신 검색에서 제외할 Teams 파일 및 폴더](teams-files-folders-antivirus-perf.md)
+### [Microsoft Teams에서 메모리를 사용하는 방법](teams-memory-usage-perf.md)
 ### [Office 365 URL 및 IP 주소 범위](office-365-urls-ip-address-ranges.md)
 ### [VDI(Virtualized Desktop Infrastructure)용 Teams](teams-for-vdi.md)
 ### [Surface Hub용 Teams 배포](teams-surface-hub.md)

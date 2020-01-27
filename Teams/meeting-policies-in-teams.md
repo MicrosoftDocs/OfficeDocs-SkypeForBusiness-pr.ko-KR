@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 팀에서 모임 정책 설정을 관리 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
-ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
+ms.openlocfilehash: 41d1bf8c68ef96f3a657113864c21a993dfc3826
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41120403"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554345"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -105,10 +105,10 @@ ms.locfileid: "41120403"
 이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 팀 채널에서 임시 모임을 시작할 수 있는지 여부를 제어 합니다. 이 기능을 설정 하면 사용자가 팀 채널에서 메시지를 게시할 때 작성 **상자 아래에 있는 모임 시작** 을 클릭 하 여 채널의 임시 모임을 시작할 수 있습니다.
 
 ![메시지 아래에 모임 시작 아이콘을 표시 하는 스크린샷](media/meeting-policies-meet-now.png)
-
 ### <a name="allow-private-meet-now"></a>지금 비공개 모임 허용
 
 이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 임시 비공개 모임을 시작할 수 있는지 여부를 제어 합니다.  
+
 
 ### <a name="allow-the-outlook-add-in"></a>Outlook 추가 기능 허용
 
@@ -140,7 +140,6 @@ ms.locfileid: "41120403"
 - [클라우드 기록 허용](#allow-cloud-recording)
 - [IP 비디오 허용](#allow-ip-video)
 - [미디어 비트 전송률 (KBs)](#media-bit-rate-kbs)
-- [실시간 캡션 사용 (미리 보기)](#enable-live-captions-preview)
 
 ### <a name="allow-transcription"></a>내용 허용
 
@@ -197,20 +196,6 @@ Daniela에서 비디오를 사용 하 여 Amanda를 호출 하는 경우 Amanda�
 
 CEO 보드 모임 및 팀 라이브 이벤트와 같이 고품질의 비디오 환경을 필요로 하는 모임의 경우 대역폭을 10mbps로 설정 하는 것이 좋습니다. 최대 환경이 설정 된 경우에도 시나리오에 따라 특정 네트워크 조건이 감지 되는 경우 팀 미디어 스택이 낮은 대역폭 조건에 적응 합니다. 
 
-### <a name="enable-live-captions-preview"></a>실시간 캡션 사용 (미리 보기)
-
-이것은 사용자별 정책으로 모임 중에 적용 됩니다. 이 설정은 사용자가 참석할는 모임에서 실시간 **캡션 켜기** 옵션을 사용 하 여 live 캡션을 켜고 끌 것인지 여부를 제어 합니다.  
-
-![라이브 캡션 켜기 옵션을 보여 주는 스크린샷](media/meeting-policies-live-captions.png)
-
-|값 설정 |결과가  |
-|---------|---------|
-|**사용 하지 않도록 설정 하 고 사용자가 무시할 수 있음**     | Live 캡션은 모임 중에 사용자에 대해 자동으로 설정 되지 않습니다. 사용자는 오버플로 (**...**) 메뉴에서 **라이브 캡션 켜기** 옵션을 표시 하 여 설정 합니다. 이는 기본 설정입니다. |
-|**비활성화**     | 모임 중에는 사용자가 실시간 캡션을 사용할 수 없습니다. 사용자는이 옵션을 켤 수 없습니다.          |
-
-
-<a name="bkcontentsharing"> </a>
-
 ## <a name="meeting-policy-settings---content-sharing"></a>모임 정책 설정-콘텐츠 공유
 
 - [화면 공유 모드](#screen-sharing-mode)
@@ -219,7 +204,6 @@ CEO 보드 모임 및 팀 라이브 이벤트와 같이 고품질의 비디오 �
 - [PowerPoint 공유 허용](#allow-powerpoint-sharing)
 - [화이트 보드 허용](#allow-whiteboard)
 - [공유 메모 허용](#allow-shared-notes)
-- [모임에서 채팅 허용 (예정 대로)](#allow-chat-in-meetings-coming-soon)
 
 ### <a name="screen-sharing-mode"></a>화면 공유 모드
 
@@ -320,19 +304,16 @@ Amanda 모임 이끌이 인 경우에도 모임에서 화이트 보드를 공유
 
 Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메모를 찍을 수 없습니다.
 
-### <a name="allow-chat-in-meetings-coming-soon"></a>모임에서 채팅 허용 (예정 대로)
-
-이는 이끌이 별 정책입니다. 이 설정은 사용자의 모임에서 모임 채팅을 허용할지 여부를 제어 합니다. 
-
-<a name="bkparticipantsandguests"> </a>
-
 ## <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정-게스트 & 참가자
 
 이 설정은 모임에 참가 하기 전에 대기실에서 대기 하는 모임 참가자와 모임에서 허용 되는 참여 수준을 제어 합니다.
 
 - [자동으로 사람들의 입장](#automatically-admit-people)
 - [익명 사용자가 모임을 시작 하도록 허용](#allow-anonymous-people-to-start-a-meeting)
-- [전화 접속 사용자가 대기실를 우회할 수 있도록 허용](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
+- [전화 접속 사용자가 대기실를 우회할 수 있도록 허용](#allow-dial-in-users-to-bypass-the-lobby)
+- [지금 비공개 모임 허용](#allow-private-meet-now)
+- [라이브 캡션 사용](#enable-live-captions)
+- [모임에서 채팅 허용](#allow-chat-in-meetings)
 
 > [!NOTE]
 >모임에 참가 하는 옵션은 각 팀 그룹의 설정 및 연결 방법에 따라 달라 집니다. 그룹에 오디오 회의가 있고이를 사용 하 여 연결 하는 경우 [Office 365의 오디오 회의](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)를 참조 하세요. 팀 그룹에 오디오 회의가 없는 경우 [팀에서 모임 참가](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)를 참조 하세요.
@@ -379,7 +360,7 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 |   | 조직의 모든 사용자     |대기실에서 대기         |
 |   | 조직 및 페더레이션된 조직의 모든 사용자      | 대기실에서 대기         |
 
-### <a name="allow-dial-in-users-to-bypass-the-lobby-coming-soon"></a>전화 접속 사용자가 대기실를 우회할 수 있도록 허용 (예정 대로)
+### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>전화 접속 사용자가 대기실를 우회할 수 있도록 허용
 
 이는 이끌이 별 정책입니다. 이 설정은 전화를 통해 전화를 거는 사용자가 모임에 직접 참가 하거나 **자동으로** 허용 되는 사용자 설정에 관계 없이 대기실에서 대기할지 여부를 제어 합니다.
 
@@ -394,6 +375,29 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 |   | 조직의 모든 사용자     |대기실에서 대기         |
 |   | 조직 및 페더레이션된 조직의 모든 사용자      | 대기실에서 대기         |
 
+### <a name="allow-private-meet-now"></a>지금 비공개 모임 허용
+
+이것은 사용자별 정책으로, 모임이 시작 되기 전에 적용 됩니다. 이 설정은 사용자가 임시 비공개 모임을 시작할 수 있는지 여부를 제어 합니다. 
+
+### <a name="enable-live-captions"></a>라이브 캡션 사용
+
+이것은 사용자별 정책으로 모임 중에 적용 됩니다. 이 설정은 사용자가 참석할는 모임에서 실시간 **캡션 켜기** 옵션을 사용 하 여 live 캡션을 켜고 끌 것인지 여부를 제어 합니다.  
+
+![라이브 캡션 켜기 옵션을 보여 주는 스크린샷](media/meeting-policies-live-captions.png)
+
+|값 설정 |결과가  |
+|---------|---------|
+|**사용 하지 않도록 설정 하 고 사용자가 무시할 수 있음**     | Live 캡션은 모임 중에 사용자에 대해 자동으로 설정 되지 않습니다. 사용자는 오버플로 (**...**) 메뉴에서 **라이브 캡션 켜기** 옵션을 표시 하 여 설정 합니다. 이는 기본 설정입니다. |
+|**비활성화**     | 모임 중에는 사용자가 실시간 캡션을 사용할 수 없습니다. 사용자는이 옵션을 켤 수 없습니다.          |
+
+
+<a name="bkcontentsharing"> </a>
+
+### <a name="allow-chat-in-meetings"></a>모임에서 채팅 허용
+
+이는 이끌이 별 정책입니다. 이 설정은 사용자의 모임에서 모임 채팅을 허용할지 여부를 제어 합니다. 
+
+<a name="bkparticipantsandguests"> </a>
 
 ## <a name="related-topics"></a>관련 항목
 [팀의 메시징 정책](messaging-policies-in-teams.md)

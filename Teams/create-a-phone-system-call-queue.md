@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀을 사용 하 여 클라우드 통화 큐 용 전화 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 95cf9701705950d997e1d200fee117b5f8f9738b
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: be307c79330e324c7a5673cc4e636bf311f96289
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41005196"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41557859"
 ---
 # <a name="create-a-cloud-call-queue"></a>클라우드 통화 큐 만들기
 
@@ -38,7 +38,7 @@ ms.locfileid: "41005196"
 - 큐 최대 크기, 시간 제한 및 통화 처리 옵션 등의 다른 매개 변수를 설정 합니다.
 - 호출자가 조직에 대 한 메시지를 남기기 위해 보이스 메일을 공유 했습니다.
 
-[리소스 계정을](manage-resource-accounts.md)사용 하 여 전화 번호를 통화 대기열과 연결 합니다. 전화 큐는 직접 전화를 걸거나 자동 전화 교환에서 선택 하 여 액세스할 수 있습니다.
+전화 번호를 통화 대기열에 직접 연결 하지 않고, 대신 전화 번호가 [리소스 계정과](manage-resource-accounts.md)연결 되어 있습니다. 전화 큐는 직접 전화를 걸거나 자동 전화 교환에서 선택 하 여 액세스할 수 있습니다.
 
 발신자는 대기 중에 음악을 듣게 되며, 통화 *는 선입 선출 (FIFO* ) 순서에 따라 통화 에이전트에 연결 됩니다.
 
@@ -68,7 +68,7 @@ ms.locfileid: "41005196"
 > 통화 대기열에 대 한 직접 라우팅 서비스 번호는 Microsoft 팀 사용자 및 상담원만 지원 합니다.
 
 > [!NOTE]
-> 온라인 상태에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하며 Enterprise Voice를 사용 하도록 설정 되어 있거나 Office 365 통화 계획이 있어야 합니다. [비즈니스용 Skype 라이선스 할당](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) 또는 [Microsoft 팀 라이선스 할당](assign-teams-licenses.md)을 참조 하세요. 엔터프라이즈 음성에 대해 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> 온라인 상태에 있는 조직 내 사용자에 게 통화를 리디렉션하려면 **전화 시스템** 라이선스가 있어야 하며 Enterprise Voice를 사용 하도록 설정 되어 있거나 Office 365 통화 계획이 있어야 합니다. [Microsoft 팀 라이선스 할당](assign-teams-licenses.md)을 참조 하세요. 엔터프라이즈 음성에 대해 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Office 365 통화 요금제에 대 한 자세한 내용은 [office 365에 대 한](calling-plans-for-office-365.md) [전화 시스템 및 통화 요금제](calling-plan-landing-page.md) 및 통화 요금제를 참조 하세요.
 
@@ -102,29 +102,29 @@ ms.locfileid: "41005196"
   - Microsoft 팀 Android 앱
 
     > [!NOTE]
-    > 직접 라우팅 번호로 지정 된 통화 큐는 비즈니스용 Skype 클라이언트, Lync 클라이언트 또는 비즈니스용 Skype IP 휴대폰을 에이전트로 지원 하지 않습니다. 
+    > 직접 라우팅 번호로 지정 된 통화 큐는 비즈니스용 Skype 클라이언트, Lync 클라이언트 또는 비즈니스용 Skype IP 휴대폰을 에이전트로 지원 하지 않습니다.
 
-## <a name="step-2--getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>2 단계-유료 또는 무료 서비스 전화 번호 가져오기 또는 전송
+## <a name="step-2--get-or-transfer-toll-or-toll-free-service-phone-numbers"></a>2 단계-유료 또는 무료 서비스 전화 번호 받기 또는 전송
 
-통화 대기열을 만들고 설정 하기 전에 기존의 유료 또는 무료 서비스 번호를 가져오거나 이전 해야 합니다. 무료 또는 무료 서비스 전화 번호를 얻은 후에는 **Microsoft 팀 관리 센터** > **음성** > **전화 번호** > 에 표시 되는 >**추가** 되며, **번호 형식이** 서비스로 나열 됩니다 **(무료)**. 서비스 번호를 얻으려면 [서비스 전화 번호 가져오기를](getting-service-phone-numbers.md) 참조 하거나 기존 서비스 번호를 전송 하려면 [전화 번호를 Office 365에](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)연결을 참조 하세요.
+통화 대기열을 만들고 설정 하기 전에 기존의 유료 또는 무료 서비스 번호를 가져오거나 이전 해야 합니다. 서비스 번호를 얻으려면 [서비스 전화 번호 가져오기를](getting-service-phone-numbers.md) 참조 하거나 기존 서비스 번호를 전송 하려면 [전화 번호를 Office 365에](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)연결을 참조 하세요. 무료 또는 무료 서비스 전화 번호를 얻은 후에는 **Microsoft 팀 관리 센터** > 의**음성** > **전화 번호로**표시 됩니다. 무료 전화 번호에는 다양 한 서비스 **유형** (무료 **)** 이 표시 됩니다.
 
 > [!NOTE]
 > 미국 이외의 지역에 거주 하는 경우에는 Microsoft 팀 관리 센터를 사용 하 여 서비스 번호를 얻을 수 없습니다. 미국 이외의 지역에서이를 수행 하는 방법을 확인 하려면 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 로 이동 하세요.
 
-여러 자동 전화 교환을 설정할 때 전화 번호를 기본 자동 전화 교환 리소스 계정에만 할당할 수 있으며,이는 호출자를 전화 큐 또는 중첩 된 자동 전화 교환에 바로 연결할 수도 있습니다. 이러한 경우에는 다이얼 패드 옵션을 할당 하지 않고 시스템에서 모든 자동 전화 교환 및 통화 대기열을 만든 다음 나중에 설정을 편집 합니다. 이는 아직 존재 하지 않는 통화 대기열 또는 자동 전화 교환에 대 한 연결 옵션을 만들 수 없기 때문에 필요 합니다.
+여러 자동 전화 교환을 설정 하는 경우 일반적으로 주 자동 전화 교환의 리소스 계정에 전화 번호를 할당 합니다. 네스트된 자동 전화 교환 또는 통화 대기열에 연결 된 리소스 계정은 전화 번호가 필요 하지 않을 수도 있습니다. 이 자동 전화 교환은 전화 번호가 없는 경우에도 사용자의 통화 큐 또는 중첩 자동 전화 교환에 발신자를 보낼 수 있습니다. 이러한 경우에는 다이얼 패드 옵션을 할당 하지 않고 시스템에서 모든 자동 전화 교환 및 통화 대기열을 만든 다음 나중에 설정을 편집할 수 있습니다. 메뉴 옵션으로 설정 하려면 통화 대기열 또는 자동 수행자가 있어야 합니다.
 
-## <a name="step-3--create-a-new-call-queue"></a>3 단계-새 통화 대기열 만들기
+## <a name="step-3--create-a-call-queue"></a>3 단계-통화 대기열 만들기
 
 [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > 모든 통화 대기열에는 연결 된 [리소스 계정이](manage-resource-accounts.md)있어야 합니다. 먼저 리소스 계정을 만든 다음이를 통화 큐에 연결할 수 있습니다.
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터 사용
+### <a name="use-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터 사용
 
 **Microsoft 팀 관리 센터**의 **음성** > **통화 대기열**에서 **+ 새로 추가**:를 클릭 합니다.
 
-### <a name="set-the-call-queue-display-name-and-resource-account"></a>통화 대기열 표시 이름 및 리소스 계정 설정
+### <a name="set-the-display-name-and-resource-account"></a>표시 이름 및 리소스 계정 설정
 
 ![번호가 매겨진 설명선이 있는 새 통화 대기열 스크린샷](media/37ecc300-a108-4294-8463-fce570dfce72.png)
 
@@ -137,14 +137,14 @@ ms.locfileid: "41005196"
 
 * * *
 
-![이전 스크린샷의 설명선을 참조 하는 숫자 2의 아이콘](media/sfbcallout2.png)
+![숫자 2의 아이콘으로, 이전 스크린샷의 설명선을 참조 합니다.](media/sfbcallout2.png)
 
-**계정 추가** 자원 계정을 선택 합니다. 리소스 계정은 통화 대기열에 대 한 서비스 유료 또는 무료 전화 번호와 연결 될 수 있지만, 각 통화 대기열에는 연결 된 리소스 계정이 필요 합니다.
+**계정 추가** 자원 계정을 선택 합니다. 모든 통화 대기열에는 리소스 계정이 있어야 합니다. 자원 계정에는 서비스 수신자 또는 무료 전화 번호가 필요 하지 않습니다.
 
-나열 되지 않는 경우 앞에서 설명한 대로이 통화 대기열을 만들기 전에 서비스 번호를 얻고 리소스 계정에 할당 해야 합니다. 서비스 번호를 얻으려면 [서비스 전화 번호 가져오기를](getting-service-phone-numbers.md)참조 하세요. 전화 큐에 연결 된 전화 번호를 사용 하려면 [팀의 자원 계정 관리](manage-resource-accounts.md) 에서 설명한 대로 리소스 계정을 만듭니다.
+나열 되지 않는 경우 앞에서 설명한 대로 통화 대기열을 만들기 전에 서비스 번호를 가져오고이를 리소스 계정에 할당 합니다. 서비스 번호를 얻으려면 [서비스 전화 번호 가져오기를](getting-service-phone-numbers.md)참조 하세요. 전화 번호를 할당 하는 방법에 대 한 구체적인 방법은 [팀에서 자원 계정 관리](manage-resource-accounts.md) 를 참조 하세요.
 
 > [!NOTE]
-> **도메인** 을 할당 해야 하는 경우에는 호출 대기열에 대 한 리소스 계정에 할당 합니다.
+> **도메인** 을 할당 해야 하는 경우에는 호출 대기열에 대 한 리소스 계정에 할당할 수 있습니다.
 
 ### <a name="set-the-greeting-and-music-played-while-on-hold"></a>대기 중에 재생 되는 인사말 및 음악 설정
 
@@ -154,19 +154,21 @@ ms.locfileid: "41005196"
 
 ![이전 스크린샷의 설명선을 참조 하는 숫자 1의 아이콘](media/sfbcallout1.png)
 
-**인사말** 은 선택 사항입니다. 이것은 통화 대기열 번호로 전화를 거는 사람들을 위해 플레이 하는 인사말입니다.
+**인사말** 통화 대기열 번호를 호출 하는 사용자를 위해 재생할 수 있는 옵션 인사말입니다.
 
 오디오 파일 (.wav,. mp3 또는 .wma 형식)을 업로드할 수 있습니다.
 
-![이전 스크린샷의 설명선을 참조 하는 숫자 2의 아이콘](media/sfbcallout2.png)
+![숫자 2의 아이콘으로, 이전 스크린샷의 설명선을 참조 합니다.](media/sfbcallout2.png)
 
-**대기 중인 음악** 통화 큐와 함께 제공 된 보류에 기본 음악을 사용 하거나 .wav, mp3 또는 .wma 형식의 오디오 파일을 업로드 하 여 사용자 지정 음악으로 저장할 수 있습니다.
+**대기 중인 음악** 통화 대기열과 함께 제공 된 보류에 기본 음악을 사용할 수 있습니다. .Wav, mp3 또는 .wma 형식의 오디오 파일을 업로드 하 여 사용자 지정 음악으로 저장할 수도 있습니다.
 
 * * *
 
 ### <a name="select-the-call-answering-options"></a>통화 응답 옵션 선택
 
 ![통화 응답 옵션 스크린샷](media/5d249515-d532-4af2-90da-011404028b89.png) 
+
+![이전 스크린샷의 설명선을 참조 하는 숫자 1의 아이콘](media/sfbcallout1.png)
 
 개별 에이전트를 그룹에 추가 하지 않고 직접 추가 하려면 **사용자 추가**를 클릭 합니다. 개별 에이전트는 전화를 받을 순서 대로 설정 합니다. 20 개 이상의 개별 에이전트를 추가 하 여 그룹에 배치할 수 있습니다.
 
@@ -178,7 +180,7 @@ ms.locfileid: "41005196"
 - 보안 그룹
 - 메일 그룹
 
-선택한 통화 에이전트는 다음 중 하나 여야 합니다. 
+선택한 통화 상담원은 다음을 수행 해야 합니다. 
 
 - 전화 시스템 라이선스 및 Enterprise Voice가 설정 된 온라인 사용자 
 - 통화 요금제를 사용 하는 온라인 사용자
@@ -189,18 +191,18 @@ ms.locfileid: "41005196"
 
  엔터프라이즈 음성에 대 한 에이전트를 사용 하도록 설정 하려면 Windows PowerShell을 사용 하면 됩니다. 예를 들어 다음을 실행 합니다.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Office 365 그룹에 추가 되는 **전화 시스템** 라이선스 또는 통화 요금제를 사용 하는 사용자 메일 사용이 가능한 메일 그룹 또는 보안 그룹. 배포 목록 또는 보안 그룹에 새로 추가 된 에이전트가 최대 3 시간까지 걸릴 수 있으며,이는 통화 대기열에서 전화를 받기 시작 하는 데 사용 됩니다. 새로 만든 메일 그룹 또는 보안 그룹이 통화 큐와 함께 사용할 수 있게 되는 데 최대 48 시간이 걸릴 수 있습니다. 새로 생성 된 Office 365 그룹은 거의 즉시 사용할 수 있습니다.
+- Office 365 그룹에 추가 되는 **전화 시스템** 라이선스 또는 통화 요금제를 사용 하는 사용자 메일 사용이 가능한 메일 그룹 또는 보안 그룹. 배포 목록 또는 보안 그룹의 에이전트를 통화 대기열 에이전트로 추가 하는 경우 첫 번째 통화가 도착 하는 데 최대 3 시간까지 걸릴 수 있습니다. 새로 만든 메일 그룹 또는 보안 그룹이 통화 큐와 함께 사용할 수 있게 되는 데 최대 48 시간이 걸릴 수 있습니다. 새로 생성 된 Office 365 그룹은 거의 즉시 사용할 수 있습니다.
 
-- 에이전트에서 Microsoft 팀 앱을 사용 하 여 통화 대기열 호출을 수행 하는 경우에는 팀 전용 모드에 있어야 합니다.
+- 상담원은 통화 대기열 통화를 위해 Microsoft 팀 앱을 사용 하 고 있는 경우에는 TeamsOnly 모드에 있어야 합니다.
 
 ![통화 에이전트 추가 창의 스크린샷](media/skype-for-business-add-agents-to-call-queue.png)
 
-![이전 스크린샷의 설명선을 참조 하는 숫자 2의 아이콘](media/sfbcallout2.png)
+![숫자 2의 아이콘으로, 이전 스크린샷의 설명선을 참조 합니다.](media/sfbcallout2.png)
 
-**라우팅 방법** 통화 대기열 배포 방법에 대해 **전화 교환**, **직렬**또는 **라운드 로빈** 중 하나를 선택할 수 있습니다. 모든 새로운 및 기존 통화 대기열에는 기본적으로 수행자 라우팅이 선택 되어 있습니다. 수행자 라우팅이 사용 되는 경우 큐의 첫 번째 호출은 동시에 모든 통화 에이전트를 울립니다. 통화를 선택 하는 첫 번째 호출 에이전트에서 통화를 받습니다.
+**라우팅 방법** 배포 방법으로는 **전화 교환**, **직렬**또는 **라운드 로빈** 중 하나를 선택할 수 있습니다. 모든 새로운 및 기존 통화 대기열에는 기본적으로 수행자 라우팅이 선택 되어 있습니다. 수행자 라우팅이 사용 되는 경우 큐의 첫 번째 호출은 동시에 모든 통화 에이전트를 울립니다. 통화를 선택 하는 첫 번째 호출 에이전트에서 통화를 받습니다.
 
 - **수행자 라우팅은** 큐의 첫 번째 호출로 모든 통화 에이전트를 동시에 연결 합니다. 통화를 선택 하는 첫 번째 호출 에이전트에서 통화를 받습니다.
-- **직렬 라우팅** 들어오는 호출 에이전트 목록의 시작 부분에서 시작 하 여 전화를 한 번에 하나씩 연결 합니다. 콜 에이전트 목록 내에서 에이전트를 주문할 수 없습니다. 에이전트가 전화를 걸거나 받지 못하는 경우, 통화는 목록의 다음 에이전트로 연결 되 고 큐에서 대기 시간을 선택할 때까지 모든 에이전트가 하나씩 시도 됩니다.
+- **직렬 라우팅** 수신 전화 에이전트 목록의 시작 부분부터 1 회 호출 합니다. 콜 에이전트 목록 내에서 에이전트를 주문할 수 없습니다. 에이전트가 전화를 걸거나 받지 못하는 경우 통화는 다음 에이전트로 연결 되며, 모든 에이전트가 선택 되거나 시간 초과 될 때까지 시도 하 게 됩니다.
   > [!NOTE]
   > 직렬 라우팅은 **오프 라인**상태인 에이전트를 건너뛰거나, 현재 상태를 **방해**금지로 설정 했거나,이 대기열에서 호출을 **옵트아웃** 한 경우를 말합니다.
 - **라운드 로빈** 각 호출 에이전트가 대기열에서 같은 개수의 호출을 받을 수 있도록 수신 전화의 라우팅을 분산 시킵니다. 이는 모든 통화 에이전트 간에 동일한 기회를 보장 하기 위해 인바운드 영업 환경에서 바람직 할 수 있습니다.
@@ -217,21 +219,20 @@ ms.locfileid: "41005196"
 
 이 옵션을 사용 하도록 설정 하면이 큐의 모든 에이전트가 해당 통화 대기열의 통화를 시작 하거나 중지할 수 있습니다. 언제 든 지 에이전트 옵트아웃 (opt out) 권한을 취소할 수 있으며,이 큐에 대 한 에이전트가 자동으로 다시 옵트인 되도록 (모든 에이전트의 기본 설정) 확인란의 선택을 취소 합니다.
 
-옵트아웃 옵션에 액세스 하기 위해 상담원은 다음을 수행할 수 있습니다.
+옵트아웃 옵션에 액세스 하려면 상담원은 다음을 수행할 수 있습니다.
 
  1. 바탕 화면 비즈니스용 Skype 클라이언트에서 **옵션** 을 엽니다.
  2. **착신 전환** 탭에서 **온라인 설정 편집** 링크를 클릭 합니다.
- 3. 사용자 설정 페이지에서 **통화 대기열**을 클릭 한 다음 옵트아웃을 원하는 모든 대기열의 확인란을 선택 취소 합니다.
+ 3. 사용자 설정 페이지에서 **통화 대기열**을 클릭 한 다음 큐에서 옵트아웃 (opt out) 확인란의 선택을 취소 합니다.
 
     > [!NOTE]
     > 비즈니스용 Skype Desktop이 아닌 앱 또는 끝점을 사용 하는 상담원은 사용자 설정 포털 [https://aka.ms/cqsettings](https://aka.ms/cqsettings)의 옵트아웃 옵션에 액세스할 수 있습니다.
     >
     > 에이전트가 Microsoft 팀 데스크톱 클라이언트에 있는 경우에는 통화 설정을 사용 하 여 옵트아웃 (opt out) 할 수 있습니다. 
 
-![옵트아웃 통화 설정 스크린샷](media/create-a-phone-system-call-queue-image1.png)
+![숫자 2의 아이콘으로, 이전 스크린샷의 설명선을 참조 합니다.](media/sfbcallout2.png)
 
-![이전 스크린샷](media/sfbcallout2.png)
-**에이전트 알림 설정** 의 설명선을 참조 하는 숫자 2의 아이콘
+**에이전트 알림 설정**
 
 직렬 또는 라운드 로빈 라우팅 방법이 다음 에이전트로 이동 하기 전에 에이전트의 호출을 알리는 기간을 정의 합니다.
 
@@ -251,7 +252,7 @@ ms.locfileid: "41005196"
 
 * * *
 
-![이전 스크린샷의 설명선을 참조 하는 숫자 2의 아이콘](media/sfbcallout2.png)
+![숫자 2의 아이콘으로, 이전 스크린샷의 설명선을 참조 합니다.](media/sfbcallout2.png)
 
 **최대 통화 수에 도달 하는 경우** 통화 대기열이 최대 크기에 도달 하면 ( **대기열 설정의 최대 통화** 수를 사용 하 여 설정), 새로운 수신 전화에 대 한 상황을 선택할 수 있습니다.
 
@@ -266,41 +267,39 @@ ms.locfileid: "41005196"
 
 * * *
 
-![앞의 스크린샷은 설명선을 참조 하는 숫자 3의 아이콘](media/sfbcallout3.png)
+![숫자 3의 아이콘으로, 이전 스크린샷의 설명선을 참조 하세요.](media/sfbcallout3.png)
 
 **통화 시간 제한: 최대 대기 시간** 또한 시간이 초과 되기 전에 큐에서 통화 대기 시간을 결정 하 고, 리디렉션 또는 연결 해제 해야 할 수 있습니다. 리디렉션 위치는 **통화 시간** 설정을 설정 하는 방법을 기준으로 합니다. 0에서 45 분 까지의 시간을 설정할 수 있습니다.
 
 Timeout 값을 초 단위로 15 초 간격으로 설정할 수 있습니다. 이를 통해 호출 흐름을 보다 세밀 하 게 조작할 수 있습니다. 예를 들어 30 초 내에 에이전트가 응답 하지 않는 모든 통화가 디렉터리 검색 자동 전화 교환으로 이동 하도록 지정할 수 있습니다.
 
-![이전 스크린샷의 설명선을 참조 하는 숫자 4의 아이콘](media/sfbcallout4.png)
+![숫자 4의 아이콘으로, 이전 스크린샷의 설명선을 참조 하세요.](media/sfbcallout4.png)
 
-**통화 시간 초과 시** 통화가 **큐 설정에서 대기 하는 시간** 에 설정 된 제한에 도달 하면이 통화에 대해 수행할 작업을 선택할 수 있습니다.
+**통화 시간 초과 시** 통화가 **큐 설정에서 대기 하는 시간** 에 설정한 제한에 도달 하면 통화에 발생할 수 있는 작업을 선택할 수 있습니다.
 
 - **연결 해제** 통화가 끊겼습니다.
 - **착신 전환 대상:** 이 옵션을 선택 하면 다음 옵션이 표시 됩니다.
-  - **회사의 사용자** **전화 시스템** 라이선스가 있는 온라인 사용자 이며 엔터프라이즈 음성 또는 통화 요금제를 사용할 수 있습니다. 전화를 걸 사람을 보이스 메일로 보낼 수 있도록 설정할 수 있습니다. 이렇게 하려면 **회사에서 사용자** 를 선택 하 고이 사용자가 전화를 음성 메일로 바로 착신 전환 하도록 설정 합니다.
+  - **회사의 사용자** **전화 시스템** 라이선스가 있는 온라인 사용자 이며 엔터프라이즈 음성 또는 통화 요금제를 사용할 수 있습니다. 전화를 걸 사람을 음성 메일로 보낼 수 있도록 설정 하려면 **회사에서 사용자** 를 선택 하 고이 사용자가 직접 음성 메일로 착신 전환 하도록 설정 합니다.
 
   보이스 메일에 필요한 라이선스에 대해 알아보려면 [클라우드 보이스 메일 설정을](set-up-phone-system-voicemail.md)참조 하세요.
 
-  - **음성 응용 프로그램** 이미 생성 된 통화 대기열 또는 자동 전화 교환과 연결 된 리소스 계정의 이름을 선택 합니다.
+  - **음성 앱** 이미 만든 통화 대기열 또는 자동 전화 교환 중 하 나와 연결 된 리소스 계정의 이름을 선택 합니다.
 
-## <a name="change-a-users-caller-id-for-outbound-calls"></a>아웃 바운드 통화에 대 한 사용자의 발신자 ID 변경
+## <a name="change-caller-id-for-outbound-calls"></a>발신 전화의 발신자 ID 변경
 
-**CsCallingLineIdentity** cmdlet을 사용 하 여 호출 대기열, 자동 전화 교환 또는 서비스 번호로 아웃 바운드 호출에 대 한 발신자 ID를 변경 하 여 사용자의 id를 보호할 수 있습니다.
-
-이 작업을 수행 하려면 다음을 실행 합니다.
+호출 에이전트의 id를 보호 하려면 다음 예제와 같이 **새 CsCallingLineIdentity** cmdlet을 사용 하 여 통화 큐, 자동 전화 교환 또는 서비스 번호로의 발신 호출에 대 한 발신자 ID를 변경 합니다.
 
 ``` Powershell
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
-그런 다음 **CallingLineIdentity** cmdlet을 사용 하 여 사용자에 게 정책을 적용 합니다. 이 작업을 수행 하려면 다음을 실행 합니다.
+그런 다음 다음 예제와 같이 **CallingLineIdentity** cmdlet을 사용 하 여 사용자에 게 정책을 적용 합니다. 
 
 ``` Powershell
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-조직에서 [발신자 id를 사용](/microsoftteams/how-can-caller-id-be-used-in-your-organization)하는 방법 문서에서 조직의 발신자 id 설정을 설정 하는 방법에 대 한 자세한 정보를 얻을 수 있습니다.
+자세한 내용은 [조직에서 발신자 ID를 사용 하는 방법](/microsoftteams/how-can-caller-id-be-used-in-your-organization)을 참조 하세요.
 
 ## <a name="call-queue-cmdlets"></a>통화 대기열 cmdlet
 
@@ -316,13 +315,13 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 ### <a name="more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보
 
-- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하면 여러 작업을 수행할 때 일상 업무를 단순화할 수 있는 단일 관리 지점을 사용 하 여 Office 365 및 Microsoft 팀을 관리할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
+- Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는 사용자를 관리 하는 방법에 대해 설명 합니다. Windows PowerShell을 사용 하 여 단일 관리 지점으로 Office 365 및 Microsoft 팀을 관리할 수 있습니다. 여러 작업이 수행 되는 경우 일상 업무를 단순화할 수 있습니다. Windows PowerShell을 시작 하려면 다음 항목을 참조 하세요.
 
   - [Windows PowerShell 및 Lync Online 소개](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
   - [Office 365 PowerShell을 사용 해야 하는 이유](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
-- Windows PowerShell에는 한 번에 많은 사용자의 설정을 변경 하는 경우와 같이 Microsoft 팀 관리 센터를 통한 속도, 단순성, 생산성 등 다양 한 이점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요.
+- Windows PowerShell에는 여러 사용자가 한 번에 변경할 경우 Microsoft 팀 관리 센터에서 속도, 단순성, 생산성에 많은 장점이 있습니다. 다음 항목에서 이러한 이점에 대해 알아보세요.
 
   - [Windows PowerShell을 사용 하 여 Office 365 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 

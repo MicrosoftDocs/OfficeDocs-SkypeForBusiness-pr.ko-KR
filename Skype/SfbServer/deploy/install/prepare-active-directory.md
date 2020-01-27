@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: '요약: 비즈니스용 Skype 서버 설치를 위해 Active Directory 도메인을 준비 하는 방법에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: 114b2a91491dd440972f589ff45d86835c676bef
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a7b9a22042cecae76a5a5390b0778119363043b5
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41000888"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554055"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 Active Directory 준비
  
@@ -35,7 +35,7 @@ ms.locfileid: "41000888"
 비즈니스용 Skype 서버는 AD DS (Active Directory 도메인 서비스)와 긴밀 하 게 통합 되어 있습니다. 비즈니스용 Skype 서버를 처음 설치 하기 전에 Active Directory를 준비 해야 합니다. **Active Directory 준비** 라는 배포 마법사의 섹션에서는 비즈니스용 Skype Server에서 사용할 active directory 환경을 준비 합니다.
   
 > [!NOTE]
-> 토폴로지의 모든 서버를 추적 하 고 통신 하는 데 비즈니스용 Skype 서버 사용 (AD DS). 모든 서버는 비즈니스용 Skype 서버가 제대로 작동할 수 있도록 도메인에 가입 되어 있어야 합니다. 
+> 토폴로지의 모든 서버를 추적 하 고 통신 하는 데 비즈니스용 Skype 서버 사용 (AD DS). 대부분의 서버는 비즈니스용 Skype 서버가 제대로 작동할 수 있도록 도메인에 가입 되어 있어야 합니다. Edge 및 리버스 프록시와 같은 서버는 도메인에 가입 되어 있지 않아야 한다는 점에 유의 하세요.
   
 > [!IMPORTANT]
 > 배포의 각 도메인에 대해 Active Directory 준비 절차가 한 번만 실행 되어야 합니다. 

@@ -13,12 +13,12 @@ ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 9983b61f28e4bfb37b0f6673503e3a982e40da5a
-ms.sourcegitcommit: 2557331f72bd0d8637c9f1b2a9606ca48a1c9954
+ms.openlocfilehash: a4f18ee6f2237748c44385a06ac74625f89d9015
+ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39621276"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41506870"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -38,12 +38,12 @@ Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 �
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="What's new megaphone symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-teams.svg" alt="What's new megaphone symbol" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>Microsoft Teams와 인사하세요.</h3>
-                        <p>Microsoft Teams란? 이 30분 오리엔테이션에 참여하여 Teams가 무엇인지, Teams로 무엇을 할 수 있는지 알아보세요.</p>
+                        <p>Microsoft Teams란? 이 30분 오리엔테이션에 참여하여 Teams가 무엇인지 파악하고 Teams의 활용 방법을 확인해 보세요.</p>
                         <p><i>대상 그룹: 모두</i></p>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 �
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="Get started symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -78,12 +78,32 @@ Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 �
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>Teams로 모임을 효과적으로 실행</h3>
                         <p>모임 전, 모임 중, 모임 후 경험을 위해 Teams를 활용하는 방법에 대해 알아봅니다.</p>
+                        <p><i>대상 그룹: 최종 사용자</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="Blocks" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Teams에서 앱을 사용하는 방법을 알아봅니다.</h3>
+                        <p>앱을 사용하여 팀워크를 개선하는 방법에 대해 알아봅니다.</p>
                         <p><i>대상 그룹: 최종 사용자</i></p>
                     </div>
                 </div>
@@ -98,7 +118,7 @@ Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 �
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/best-practices-teams.svg" alt="Best practices window" data-linktype="external"/>
+                            <img src="https://docs.microsoft.com/office/media/icons/best-practices-teams.svg" alt="Best practices window" data-linktype="external"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -112,53 +132,13 @@ Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 �
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/From%20Skype%20for%20Business%20to%20Teams"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users/people" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>비즈니스용 Skype에서 Teams로 전환</h3>
-                        <p>비즈니스용 Skype를 Teams로 전환하는 동안 빠르게 Teams를 시작하는 데 필요한 항목을 확인합니다.</p>
-                        <p><i>대상 그룹: 최종 사용자</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://aka.ms/TeamsForGov"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/globe-internet.svg" alt="Globe symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>미국 정부의 Teams(GCC)</h3>
-                        <p>공동 작업을 위한 모범 사례를 보여주는 Office 365 GCC Teams의 대화형 개요를 확인하려면 참여하세요.</p>
-                    <p><i>대상 그룹: 모두</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
         <a href="https://aka.ms/TeamsEduWebinars"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Education symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Education symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -172,33 +152,13 @@ Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 �
         </a>
     </li>
     <li>
-        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Teams에서 앱을 사용하는 방법을 알아봅니다.</h3>
-                        <p>앱을 사용하여 팀워크를 개선하는 방법에 대해 알아봅니다.</p>
-                        <p><i>대상 그룹: 최종 사용자</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
         <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -218,7 +178,7 @@ Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 �
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock symbol" />
                         </div>
                     </div>
                     <div class="cardText">
