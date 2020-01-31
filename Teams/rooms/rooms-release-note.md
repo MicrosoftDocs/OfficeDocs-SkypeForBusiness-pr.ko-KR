@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.
-ms.openlocfilehash: c3de17e0139d1ae20a2a4667e4c5fbab2d6b6d53
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 9d174ddb8e0d6495f3d493ea6b64819efe648726
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269133"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628654"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -311,7 +311,7 @@ Introduced in this update:
 - 룸의 사용자를 감지 했을 때 자동으로 절전 모드를 종료 하는 항상 기기에 설치 됩니다.
 - UWP (유니버설 Windows 플랫폼) Skype 모임 앱의 간단한 배포 및 업데이트
 - Windows AppLocker는 Skype 모임 앱으로 장치를 잠급니다.
-- Intune 및 SCCM (MDM)을 통해 Windows 10 Enterprise 장치로 모니터링 및 관리 됨
+- Intune 및 Configuration Manager (MDM)를 통해 Windows 10 Enterprise 장치를 모니터링 하 고 관리 합니다.
 - 기업-성적 신뢰성
 - 친숙 한 Skype 사용자 인터페이스로 인 한 최종 사용자의 교육을 위한 저렴 한 노력
 - Surface Pro 4 태블릿에서 실행

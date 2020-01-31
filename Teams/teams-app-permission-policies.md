@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: bc541b3b1bc7c7aba723d7573224679b5900a550
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 8c42b4e2a8bf569d5aee6b2b822e81fc39ebfd81
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952831"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573770"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 권한 정책 관리
 
@@ -42,6 +42,9 @@ Microsoft 팀 관리 센터에서 앱 권한 정책을 관리 합니다. 설정�
 
 예를 들어 모든 타사 앱을 차단 하 고 조직의 HR 팀에 대해 Microsoft의 특정 앱을 허용 하려는 경우를 가정해 보겠습니다. HR 앱 권한 정책 이라는 사용자 지정 정책을 만들고, 원하는 앱을 차단 하 고 허용 하도록 설정한 다음 HR 팀에서 사용자에 게 할당 합니다.
 
+> [!NOTE]
+> Microsoft 365 정부-GCC 환경에서 팀을 배포한 경우 gcc에 고유한 타사 앱 설정에 대 한 자세한 내용은 [gcc 용 앱 권한 정책을](#app-permission-policies-for-gcc) 참조 하세요.
+
 ## <a name="manage-org-wide-app-settings"></a>조직 전체 앱 설정 관리
 
 조직 전체에서 사용할 수 있는 앱을 제어 하려면 org 앱 설정을 사용 합니다. 조직 전체 앱 설정은 모든 사용자의 동작을 제어 하 고 사용자에 게 할당 된 다른 앱 사용 권한 정책을 재정의 합니다. 이를 사용 하 여 악의적 이거나 문제가 있는 앱을 제어할 수 있습니다.
@@ -51,7 +54,7 @@ Microsoft 팀 관리 센터에서 앱 권한 정책을 관리 합니다. 설정�
     ![조직 전체 앱 설정 스크린샷](media/app-permission-policies-org-wide-settings.png)
 3. 타사 앱에 대 한 액세스를 제어 하기 위해이 설정을 설정 하거나 **해제 합니다.**
 
-    - **팀에서 타사 또는 사용자 지정 앱 허용**:이는 사용자가 타사 또는 사용자 지정 앱을 사용할 수 있는지 여부를 제어 합니다.
+    - **팀에서 제 3 자 허용**:이는 사용자가 타사 앱을 사용할 수 있는지 여부를 제어 합니다.
     - **기본적으로 저장소에 게시 된 새 타사 앱 허용**: 팀 앱 스토어에 게시 되는 새로운 타사 앱을 팀에서 자동으로 사용할 수 있는지 여부를 제어 합니다. 타사 앱을 허용 하는 경우에만이 옵션을 설정할 수 있습니다.
 
 4. **사용자 지정 앱**에서 **사용자 지정 앱과의 상호 작용 허용**을 설정 하거나 해제 합니다. 이 설정은 사용자가 사용자 지정 (테스트용으로 로드) 앱을 조작할 수 있는지 여부를 제어 합니다. 이는 사용자가 사용자 지정 앱을 *업로드* 하는 것을 허용 하는 것과 다르다는 점에 유의 하세요.
@@ -134,6 +137,28 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
 
+## <a name="app-permission-policies-for-gcc"></a>GCC 용 앱 권한 정책
+
+팀의 Microsoft 365 정부-GCC 배포에서 GCC에 고유한 제 3 자 앱 설정에 대 한 다음 사항을 알고 있어야 합니다.
+
+GCC에서는 모든 타사 앱이 기본적으로 차단 됩니다. 또한 Microsoft 팀 관리 센터의 앱 사용 권한 정책 페이지에서 타사 앱을 관리 하는 방법에 대 한 참고 사항을 확인할 수 있습니다.
+
+![GCC의 앱 사용 권한 정책 스크린샷](media/app-permission-policies-gcc.png)
+
+조직의 사용자 또는 사용자 집합에 대해 타사 앱을 사용 하도록 설정 하려면 다음을 수행 합니다.
+
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱** > **권한 정책**으로 이동 합니다.
+2. 사용자 집합을 허용 하려는 타사 앱이 조직 수준에서 차단 되었는지 확인 합니다. 이렇게 하려면 **조직 전체 설정을**클릭 한 다음 **차단 된 앱**에서 앱이 나열 되어 있는지 확인 합니다.
+3. 전역 정책을 편집 하 여 타사 앱을 차단 합니다. 실행할 작업:
+    1. 앱 권한 정책 페이지에서 **전역 (조직 전체 기본값)** 을 클릭 한 다음 **편집**을 클릭 합니다.
+    2. **타사 앱**에서 **특정 앱 차단을 선택 하 고 다른 모든 사용자를 허용**하 고 앱을 추가한 다음 **저장**을 클릭 합니다.
+
+    > [!NOTE]
+    > 조직 수준에서 앱을 허용 하기 위해 다음 단계로 이동 하기 전에이 작업을 수행 하는 것이 중요 합니다. 이는 타사 앱이 전역 정책에서 차단 되지 않은 경우 전역 정책이 적용 되는 모든 사용자가 조직 수준에서 사용할 때 타사 앱에 액세스할 수 있기 때문입니다.
+
+4. 조직 수준에서 타사 앱을 허용 합니다. 이렇게 하려면 **조직 전체 설정을**클릭 하 고 **차단 된 앱**에서 목록에서 앱을 제거한 다음 **저장**을 클릭 합니다.
+5. 앱을 허용 하는 [사용자 지정 앱 권한 정책을 만든](#create-a-custom-app-permission-policy) 다음 정책을 원하는 사용자에 게 [할당](#assign-a-custom-app-permission-policy-to-users) 합니다.
+
 ## <a name="faq"></a>FAQ
 
 ### <a name="working-with-app-permission-policies"></a>앱 권한 정책 사용
@@ -149,7 +174,7 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 앱 권한 정책에서 조직 전체 설정을 사용 하 여 조직의 사용자 지정 앱 업로드를 제한할 수 있습니다.  
 
-특정 사용자가 사용자 지정 앱을 업로드 하지 못하도록 제한 하려면 사용자 지정 앱 정책 (제공 예정)을 사용 합니다. 자세히 알아보려면 [팀에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)를 참조 하세요.
+특정 사용자가 사용자 지정 앱을 업로드 하지 못하도록 제한 하려면 사용자 지정 앱 정책을 사용 합니다. 자세히 알아보려면 [팀에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)를 참조 하세요.
 
 #### <a name="does-blocking-an-app-apply-to-teams-mobile-clients"></a>앱이 팀 모바일 클라이언트에 적용 되는 것을 차단 합니까?
 

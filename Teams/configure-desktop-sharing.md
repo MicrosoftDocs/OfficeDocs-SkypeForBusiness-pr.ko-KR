@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99c6e2a5adb9d0f9a4b4e3f6f17b7484bda96a74
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: bb3340da960728b1a261efc510573702c5a17076
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516889"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628714"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft 팀에서 데스크톱 공유 구성
 ============================================
@@ -28,11 +28,11 @@ ms.locfileid: "37516889"
 
 화면 공유를 구성 하려면 새 모임 정책을 만든 다음 관리 하려는 사용자에 게 할당 합니다.
 
-**Microsoft 팀 관리 센터**
+**[Microsoft 팀 관리 센터](https://admin.teams.microsoft.com/)**
 
 1.  > 모임**모임 정책을**선택 **합니다**.
 
-    ![모임 정책을 선택한 것을 보여 주는 스크린샷](media/configure-desktop-sharing-image1.png)
+    ![선택한 모임 정책 표시 스크린샷](media/configure-desktop-sharing-image1.png)
 
 2. **모임 정책** 페이지에서 **새 정책을**선택 합니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "37516889"
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>PowerShell을 사용 하 여 공유 데스크톱 구성
 
-[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet을 사용 하 여 데스크톱 공유를 제어할 수도 있습니다. 다음 매개 변수를 설정 합니다.
+[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet을 사용 하 여 데스크톱 공유를 제어할 수도 있습니다. 다음 매개 변수를 설정 합니다.
 
 - 설명
 - ScreenSharingMode
@@ -70,5 +70,5 @@ ms.locfileid: "37516889"
 - AllowWhiteboard 보드
 - AllowSharedNotes
 
-[CsTeamsMeetingPolicy cmdlet을 사용 하는 방법에 대해 자세히 알아보세요](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+[CsTeamsMeetingPolicy cmdlet을 사용 하는 방법에 대해 자세히 알아보세요](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
 

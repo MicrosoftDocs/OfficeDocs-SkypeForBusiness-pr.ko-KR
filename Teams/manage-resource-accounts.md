@@ -1,7 +1,7 @@
 ---
 title: 팀에서 자원 계정 관리
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Microsoft 팀에서 자원 계정 관리에 대 한 자세한 정보
-ms.openlocfilehash: a89fe9df7cc878369a06b9c959609dd435bcbd8c
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e7e7e644d64aeb043e6403fd60d22ebcef155ebe
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925469"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628364"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 
@@ -107,24 +107,34 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 ![자원 계정 페이지 스크린샷](media/r-a-master.png)
 
-![이전 스크린샷의 설명선을 참조 하는 숫자 1의 아이콘](media/sfbcallout1.png)
+![이전 스크린샷의 설명선을 참조 하는 숫자 1의 아이콘](media/teamscallout1.png)
 
-새 리소스 계정을 만들려면 **+ 새 계정을**클릭 합니다. 팝업 창에서 리소스 계정의 표시 이름과 사용자 이름 (도메인 이름이 자동으로 채워야 함)을 입력 한 다음 **저장**을 클릭 합니다.
+새 리소스 계정을 만들려면 **+ 추가**를 클릭 합니다. 팝업 창에서 **표시 이름**, **사용자 이름** (도메인 이름)을 자동으로 채워야 함) 및 리소스 계정의 **리소스 계정 종류** 를 입력 합니다. 리소스 계정 종류는 리소스 계정에 연결 하려는 앱에 따라 **자동 전화 교환** 또는 **통화 대기열** 이 될 수 있습니다. 준비가 되 면 **저장**을 클릭 합니다.
 
 ![새 자원 계정 옵션 스크린샷](media/res-acct.png)
 
 다음으로 [Office 365의 비즈니스용 사용자에 게 라이선스 할당](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) 에서 설명한 대로 O365 관리 센터의 자원 계정에 라이선스를 적용 합니다.
 
-### <a name="edit-resource-account-name"></a>자원 계정 이름 편집
+### <a name="edit-resource-account"></a>자원 계정 편집 
 
-![이전 스크린샷](media/sfbcallout2.png) 의 설명선을 참조 하는 숫자 2의 아이콘은 **편집** 옵션을 사용 하 여 리소스 계정 표시 이름을 편집할 수 있습니다. 완료 되 면 **저장** 을 클릭 합니다.
+![](media/teamscallout2.png) 이전 스크린샷의 설명선을 참조 하는 숫자 2의 아이콘 **편집** 옵션을 사용 하 여 리소스 계정 **표시 이름** 및 **리소스 계정** 유형을 편집할 수 있습니다. 완료 되 면 **저장** 을 클릭 합니다.
+
 ![자원 계정 편집 옵션 스크린샷](media/r-a-edit.png)
 
 <a name="phonenumber"> </a>
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>전화 번호 및 서비스 할당/할당 취소
 
-![이전 스크린샷](media/sfbcallout3.png) 에서 설명선을 참조 하는 숫자 3의 아이콘입니다. 리소스 계정을 생성 하 고 라이선스를 할당 하면 **할당/할당** 취소를 클릭 하 여 리소스 계정에 서비스 번호를 할당 하거나 리소스를 할당할 수 있습니다. 이미 존재 하는 자동 전화 교환 또는 통화 대기열에 대 한 계정 직접 라우팅 번호 지정은 Cmdlet을 사용 하 여 수행할 수 있습니다. 통화 큐 또는 자동 전화 교환을 계속 만들어야 하는 경우에는 사용자가 만드는 동안 리소스 계정을 연결할 수 있습니다. 완료 되 면 **저장** 을 클릭 합니다.
+![이전 스크린샷](media/teamscallout3.png) 의 설명선을 참조 하는 번호 3의 아이콘입니다. 리소스 계정을 생성 하 고 라이선스를 할당 한 후에는 **할당/할당** 취소를 클릭 하 여 리소스 계정에 서비스 번호를 할당 하거나, 전화 번호 유형을 설정 하거나, 이미 존재 하는 특정 자동 전화 교환 또는 통화 대기열에 리소스 계정을 할당할 수 있습니다. 직접 라우팅 번호 지정은 Cmdlet을 사용 하 여 수행할 수 있습니다. 리소스 계정에 연결할 통화 대기열 또는 자동 전화 교환을 아직 만들지 않은 경우에는 해당 필드를 비워 둡니다. 생성 하는 동안 리소스 계정을 연결할 수 있습니다. 완료 되 면 **저장** 을 클릭 합니다.
+
+**전화 번호 형식** 에 대 한 옵션은 다음과 같습니다.
+
+- 없음
+- 온라인
+- 무료
+- 온-프레미스
+
+![할당/할당 취소 옵션 스크린샷](media/r-a-assign.png)
 
 리소스 계정에 직접 라우팅 또는 하이브리드 번호를 할당 하려면 PowerShell을 사용 해야 합니다. 다음 섹션을 참조 하세요.
 
@@ -134,11 +144,11 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 > [!IMPORTANT]
 > 전화 번호는 자동 전화 교환 또는 통화 대기열에 직접 할당 되지 않고 자동 전화 교환 또는 통화 대기열에 연결 된 리소스 계정으로 지정 됩니다.
 
-![할당/할당 취소 옵션 스크린샷](media/r-a-assign.png)
+
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>가상 사용자 라이선스를 사용 하도록 기존 리소스 계정 변경
 
-기존 리소스 계정의 라이선스를 전화 시스템 라이선스에서 가상 사용자 라이선스로 전환 하려는 경우 무료 가상 사용자 라이선스를 취득 한 다음 Microsoft 365 관리 센터의 연결 된 단계에 따라 사용자를 다음으로 이동 합니다. [ 다른 구독](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription) 
+기존 리소스 계정의 라이선스를 전화 시스템 라이선스에서 가상 사용자 라이선스로 전환 하려는 경우 무료 가상 사용자 라이선스를 취득 한 다음 Microsoft 365 관리 센터의 연결 된 단계에 따라 [사용자를 다른 구독으로 이동](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)해야 합니다. 
 
 > [!WARNING]
 > 항상 전체 전화 시스템 라이선스를 제거 하 고 동일한 라이선스 활동에 가상 사용자 라이선스를 할당 합니다. 이전 라이선스를 제거 하 고, 계정 변경 내용을 저장 하 고, 새 라이선스를 추가한 다음 계정 설정을 다시 저장 하면 리소스 계정이 더 이상 예상 대로 작동 하지 않을 수 있습니다. 이 문제가 발생 하는 경우 가상 사용자 라이선스에 대 한 새 리소스 계정을 만들고 끊어진 리소스 계정을 제거 하는 것이 좋습니다. 
@@ -149,7 +159,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 - 다음 Powershell cmdlet 예제에서는 [새 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)를 사용 하 여 온라인으로 리소스 계정을 만드는 방법을 보여 줍니다. 
 
-- 클라우드 통화 대기열 및 클라우드 자동 전화 교환에 사용할 수 있는 비즈니스용 Skype Server 2019에 있는 리소스 계정의 경우 [클라우드 통화 큐 구성](/skypeforbusiness/hybrid/configure-call-queue.md) 또는 [클라우드 자동 전화 교환 구성을](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)참조 하세요. 하이브리드 구현 (직접 라우팅에 있는 숫자)은 [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)를 사용 합니다.
+- 클라우드 통화 대기열 및 클라우드 자동 전화 교환에 사용할 수 있는 비즈니스용 Skype Server 2019에 있는 리소스 계정의 경우 [클라우드 통화 큐 구성](/skypeforbusiness/hybrid/configure-call-queue.md) 또는 [클라우드 자동 전화 교환 구성을](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)참조 하세요. 하이브리드 구현 (직접 라우팅에 있는 숫자)은 온-프레미스 비즈니스용 Skype Server 2019 서버에서 [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) cmdlet을 사용 하 여 구성 됩니다.
 
 응용 프로그램 인스턴스를 만들 때 사용 해야 하는 응용 프로그램 ID는 다음과 같습니다.
 
@@ -236,14 +246,14 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 
    [클라우드 자동 전화 교환 계획](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
   
-   [클라우드 통화 대기열 계획](/SkypeforBusiness/hybrid/plan-call-queue)
+   [클라우드 통화 큐 계획](/SkypeforBusiness/hybrid/plan-call-queue)
    
    [프레미스 리소스 계정 구성](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 
 팀 또는 비즈니스용 Skype Online에서의 구현:
 
-   [클라우드 자동 전화 교환 이란?](what-are-phone-system-auto-attendants.md)
+   [클라우드 자동 전화 교환이란?](what-are-phone-system-auto-attendants.md)
 
    [클라우드 자동 전화 교환 설정](/microsoftteams/create-a-phone-system-auto-attendant)
 

@@ -14,31 +14,31 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결 하는 방법을 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: 5b43bad6d0b8828a88ccb3ee48a85cb0c390e6a2
-ms.sourcegitcommit: 9eaa314a9e81a2a56686c035ba0292256ccb2bf5
+ms.openlocfilehash: 3a379a8e41b4b3c09bd9b0662485c3e3ce041491
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40995118"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634861"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
 > [!Tip]
 > 직접적인 라우팅, 계획 방법 및 배포 방법에 대 한 자세한 내용은 다음 세션을 시청 하세요. [Microsoft 팀의 직접 라우팅](https://aka.ms/teams-direct-routing)
 
-Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있습니다.  예를 들어이 접근 권한 값을 사용 하면 다음 다이어그램에 표시 된 것 처럼 Microsoft 팀 클라이언트를 사용 하 여 온-프레미스 PSTN 연결을 구성할 수 있습니다. 
+Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있습니다.  예를 들어이 접근 권한 값을 사용 하면 다음 다이어그램에 표시 된 것 처럼 Microsoft 팀 클라이언트를 통해 온-프레미스 공개 통신 네트워크 (PSTN) 연결을 구성할 수 있습니다. 
 
 ![온-프레미스 PSTN 연결 구성을 보여주는 다이어그램](media/PlanDirectRouting1-PSTNwithTeams.png "Microsoft 팀 클라이언트를 사용 하 여 온-프레미스 PSTN 연결 구성")
 
   > [!NOTE]
   > 비즈니스용 skype Online을 통해 고객 제공 SBC를 쌍으로 할 수 있지만,이를 위해서는 온-프레미스 비즈니스용 Skype Server 배포 또는 SBC와 Microsoft 클라우드 간에 클라우드 커넥터 라는 특별 한 버전의 비즈니스용 Skype가 필요 합니다. 이 시나리오를 하이브리드 음성 이라고 합니다. 반대로 직접 라우팅은 지원 되는 SBC 및 Microsoft 클라우드 간 직접 연결을 허용 합니다. 
 
-직접 라우팅 기능을 사용 하면 타사의 PSTN (공개 통신 네트워크) 장비를 사용 하 여 거의 모든 전화 트렁크 또는 interconnect에 SBC를 연결할 수 있습니다. 직접 라우팅으로 다음을 수행할 수 있습니다. 
+직접 라우팅 기능을 사용 하 여 SBC를 타사 PSTN 장비와 거의 모든 통신 트렁크 또는 interconnect에 연결할 수 있습니다. 직접 라우팅으로 다음을 수행할 수 있습니다. 
 
 - Microsoft 전화 시스템을 사용 하 여 거의 모든 PSTN 트렁크를 사용 합니다. 
 - 타사 PBX (사설 branch exchange), 아날로그 장치, Microsoft 전화 시스템 등의 고객 소유 전화 통신 장비 간 상호 운용성을 구성 합니다.
 
-Microsoft는 또한 통화 계획과 같은 모든 클라우드 음성 솔루션을 제공 합니다.  그러나 하이브리드 음성 솔루션은 조직에 가장 적합 한 경우 다음과 같은 작업을 할 수 있습니다. 
+Microsoft는 또한 통화 계획과 같은 모든 클라우드 음성 솔루션을 제공 합니다. 그러나 하이브리드 음성 솔루션은 조직에 가장 적합 한 경우 다음과 같은 작업을 할 수 있습니다. 
 
 - Microsoft 통화 요금제는 귀하의 국가에서 사용할 수 없습니다. 
 - 조직에는 타사 아날로그 장치, 통화 센터 등에 대 한 연결이 필요 합니다. 
@@ -67,10 +67,10 @@ Microsoft는 또한 통화 계획과 같은 모든 클라우드 음성 솔루션
 |**인프라 요구 사항**|**다음이 필요 합니다.**|
 |:--- |:--- |
 |SBC (세션 경계 컨트롤러)|지원 되는 SBC입니다. 자세한 내용은 [지원 되는 SBCs](#supported-session-border-controllers-sbcs)를 참조 하세요.|
-|SBC에 연결 된 전화 통신 trunks|SBC에 연결 된 하나 이상의 전화 접속 trunks. 한 쪽 끝에서 SBC는 직접 라우팅을 통해 Microsoft 전화 시스템에 연결 됩니다. 또한 SBC는 Pbx, 아날로그 전화 통신 어댑터 등과 같은 타사 전화 통신 엔티티와 연결 될 수 있습니다. SBC에 연결 된 모든 PSTN 연결 옵션은 작동 합니다. (참고: SBC에 대 한 PSTN trunks 구성에 대 한 자세한 내용은 SBC 공급 업체 또는 트렁크 공급자를 참조 하세요.)|
+|SBC에 연결 된 전화 통신 trunks|SBC에 연결 된 하나 이상의 전화 접속 trunks. 한 쪽 끝에서 SBC는 직접 라우팅을 통해 Microsoft 전화 시스템에 연결 됩니다. 또한 SBC는 Pbx, 아날로그 전화 통신 어댑터 등과 같은 타사 전화 통신 엔티티와 연결 될 수 있습니다. SBC에 연결 된 모든 PSTN 연결 옵션은 작동 합니다. SBC에 대 한 PSTN trunks 구성의 경우 SBC 공급 업체 또는 트렁크 공급자에 게 문의 하세요.|
 |Office 365 테 넌 트|Microsoft 팀 사용자와 SBC에 대 한 구성 및 연결을 홈 하는 데 사용 하는 Office 365 테 넌 트입니다.|
 |사용자 등록자|사용자는 Office 365에서 가져와야 합니다.<br/>회사에서 Office 365에 하이브리드 연결을 사용 하는 온-프레미스 비즈니스용 Skype 또는 Lync 환경을 보유 하 고 있는 경우 온-프레미스 사용자의 팀에서 음성을 사용할 수 없습니다.<br/><br/>사용자의 등록자를 확인 하려면 다음 비즈니스용 Skype Online PowerShell cmdlet을 사용 합니다.<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Cmdlet의 출력은 다음과 같이 표시 되어야 합니다.<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|도메인용|Office 365 테 넌 트에 하나 이상의 도메인이 추가 되었습니다.<br/><br/>**참고:** 테 넌 트에 대해 자동으로 생성 되는 기본 도메인 * onmicrosoft.com을 사용할 수 없습니다.<br/><br/>다음 비즈니스용 Skype Online PowerShell cmdlet을 사용 하 여 도메인을 볼 수 있습니다.<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>도메인 및 Office 365 테 넌 트에 대 한 자세한 내용은 [도메인 FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)를 참조 하세요.|
+|도메인용|Office 365 테 넌 트에 하나 이상의 도메인이 추가 되었습니다.<br/><br/>테 넌 트에 대해 자동으로 만들어지는 기본 \*도메인 onmicrosoft.com는 사용할 수 없습니다.<br/><br/>다음 비즈니스용 Skype Online PowerShell cmdlet을 사용 하 여 도메인을 볼 수 있습니다.<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>도메인 및 Office 365 테 넌 트에 대 한 자세한 내용은 [도메인 FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)를 참조 하세요.|
 |SBC의 공용 IP 주소|SBC에 연결 하는 데 사용할 수 있는 공용 IP 주소입니다. Sbc의 유형에 따라 SBC에서 NAT를 사용할 수 있습니다.|
 |SBC에 대 한 FQDN (정규화 된 도메인 이름)|SBC에 대 한 FQDN으로, 여기서 FQDN의 도메인 부분은 Office 365 테 넌 트에서 등록 된 도메인 중 하나입니다. 자세한 내용은 [SBC 도메인 이름을](#sbc-domain-names)참조 하세요.|
 |SBC에 대 한 공용 DNS 항목 |공용 DNS 항목이 SBC FQDN을 공용 IP 주소에 매핑하는 것입니다. |
@@ -85,23 +85,24 @@ Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내
 
 직접 라우팅 사용자에 게는 Office 365에 할당 된 다음 라이선스가 있어야 합니다. 
 
-- Microsoft 전화 시스템 
-- Microsoft 팀 + 라이선스 Sku에 포함 된 경우 비즈니스용 Skype 요금제 2
-- Microsoft 오디오 회의 (아래에서 라이선스가 필요한 경우에 대 한 구체적인 예는 노트 및 단락을 참조 하세요.)
+- Microsoft 전화 시스템. 
+- Microsoft 팀 + 비즈니스용 Skype 요금제 2 (라이선스에 포함 된 경우)
+- Microsoft 오디오 회의 (노트 및 아래 단락에서 라이선스가 필요한 경우에 대 한 구체적인 예)를 참조 하세요.
 
 > [!NOTE]
-> 비즈니스용 Skype 요금제가 포함 된 라이선스 SKU에서는 제거 해서는 안 됩니다. 
+> 비즈니스용 Skype 요금제가 포함 된 경우 라이선스 계약에서 제거할 수 없습니다. 
 
 
 > [!IMPORTANT]
->  외부 참가자를 전화를 걸고 전화 접속 번호를 제공 하 여 예약 된 모임에 추가 하려는 경우에는 오디오 회의 라이선스가 *필요*합니다.
+>  외부 참가자를 전화를 걸고 전화 접속 번호를 제공 하 여 예약 된 모임에 추가 하려는 경우에는 오디오 회의 라이선스가 필요 합니다.
 
 
-임시 통화 에스컬레이션 및 오디오 회의 라이선스
+### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>임시 통화 에스컬레이션 및 오디오 회의 라이선스
 
-팀 사용자는 한 팀에서 PSTN 또는 팀에 게 PSTN 참가자를 호출 하 고이에 대 한 추가를 시작할 수 있습니다. 이 시나리오를 임시 회의 라고 합니다. 통화를 안내 하는 사용자에 게 Microsoft 오디오 회의 라이선스가 지정 되었는지 여부에 따라 호출이 수행 하는 경로가 달라 집니다.
-1. 전화를 거는 팀 사용자가 Microsoft 오디오 회의 라이선스를 할당 한 경우에는 Microsoft 오디오 회의 서비스를 통해 에스컬레이션이 발생 합니다. 기존 통화에 초대 된 원격 PSTN 참가자는 수신 전화에 대 한 알림을 받으며 에스컬레이션을 시작한 팀 사용자에 게 할당 된 Microsoft bridge의 번호를 표시 합니다.
-2. 통화를 담당 하는 팀 사용자에 게 Microsoft 오디오 회의 라이선스가 할당 되어 있지 않으면 직접 라우팅 인터페이스에 연결 된 세션 경계 컨트롤러를 통해 에스컬레이션이 발생 합니다. 통화에 초대 된 원격 PSTN 참가자는 수신 전화에 대 한 알림을 받으며 에스컬레이션을 시작한 팀 사용자의 번호를 표시 합니다. 에스컬레이션에 사용 되는 특정 SBC는 사용자의 라우팅 정책에 의해 정의 됩니다. 
+팀 사용자는 PSTN 또는 팀에 게 일대일 팀을 시작 하 고 PSTN 참가자를 팀에 추가할 수 있습니다. 이 시나리오를 임시 회의 라고 합니다. 통화를 안내 하는 사용자에 게 Microsoft 오디오 회의 라이선스가 지정 되었는지 여부에 따라 호출이 실행 되는 경로가 달라 집니다.
+
+- 전화를 거는 팀 사용자가 Microsoft 오디오 회의 라이선스를 할당 한 경우에는 Microsoft 오디오 회의 서비스를 통해 에스컬레이션이 수행 됩니다. 기존 통화에 초대 된 원격 PSTN 참가자는 수신 전화에 대 한 알림을 받으며 에스컬레이션을 시작한 팀 사용자에 게 할당 된 Microsoft bridge의 번호를 표시 합니다.
+- 통화를 담당 하는 팀 사용자에 게 Microsoft 오디오 회의 라이선스가 할당 되어 있지 않으면 직접 라우팅 인터페이스에 연결 된 세션 경계 컨트롤러를 통해 에스컬레이션이 발생 합니다. 통화에 초대 된 원격 PSTN 참가자는 수신 전화에 대 한 알림을 받으며 에스컬레이션을 시작한 팀 사용자의 번호를 표시 합니다. 에스컬레이션에 사용 되는 특정 SBC는 사용자의 라우팅 정책에 의해 정의 됩니다. 
 
 
 또한 다음을 확인 해야 합니다.
@@ -111,7 +112,7 @@ Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내
 
 또한 직접 라우팅은 Microsoft 통화 요금제에 대 한 라이선스를 가진 사용자를 지원 합니다. 통화 요금제가 포함 된 Microsoft 전화 시스템은 직접 라우팅 인터페이스를 사용 하 여 일부 통화를 라우팅할 수 있습니다. 그러나 사용자의 전화 번호는 온라인으로 구입 하거나 Microsoft로 이식할 수 있어야 합니다.  
 
-동일한 사용자에 대 한 통화 계획 및 직접 라우팅 연결을 혼합 하는 것은 선택 사항 이지만, 사용자에 게 Microsoft 호출 계획을 할당 했지만 SBC를 통해 일부 통화를 라우팅해야 하는 경우 등에 유용할 수 있습니다. 가장 일반적인 시나리오 중 하나는 타사 Pbx에 대 한 통화입니다.  타사 Pbx를 사용 하는 경우, 해당 Pbx에 연결 된 전화기로 거는 통화를 제외한 모든 통화는 Microsoft 통화 계획을 통해 라우팅됩니다. 하지만 타사 Pbx에 연결 된 전화기로 거는 통화는 SBC로 이동 하므로 PSTN이 아닌 기업 네트워크 내에 남아 있습니다. 
+동일한 사용자에 대 한 통화 계획과 직접 라우팅 연결을 혼합 하는 기능은 선택 사항 이지만, 사용자에 게 Microsoft 호출 계획을 할당 했지만 SBC를 사용 하 여 일부 통화를 라우팅해야 하는 경우와 같이 유용할 수 있습니다. 가장 일반적인 시나리오 중 하나는 타사 Pbx에 대 한 통화입니다.  타사 Pbx를 사용 하는 경우 해당 Pbx에 연결 된 전화에 대 한 호출을 제외한 모든 통화는 Microsoft 통화 계획을 사용 하 여 라우팅되며, 타사 Pbx에 연결 된 전화기로의 통화는 SBC로 이동 하므로 PSTN이 아닌 엔터프라이즈 네트워크 내에서 유지 됩니다. 
 
 전화 시스템 라이선스에 대 한 자세한 내용은 office 365 및 [office 365 계획 옵션](https://technet.microsoft.com/library/office-365-plan-options.aspx)을 [사용 하 여 Office에서 최대한 활용](https://products.office.com/compare-all-microsoft-office-products?tab=2) 을 참조 하세요. 
 
@@ -120,24 +121,25 @@ Microsoft 팀 미디어에 대 한 방화벽 IP 주소 및 포트 |자세한 내
 ## <a name="supported-end-points"></a>지원 되는 끝점 
 
 끝 점으로 사용할 수 있습니다.
-- 모든 팀 cleintg. 
-- 일반적인 지역 전화, plese는 [Microsoft 팀을 위한 일반적인 지역 전화 라이선스 설정을](https://docs.microsoft.com/en-us/microsoftteams/set-up-common-area-phones)참조 하세요. 참고 다이렉트 라우팅이 있는 공통 영역 전화를 설정할 때에는 통화 계획 라이선스가 필요 하지 않습니다.
-- 비즈니스용 Skype 3PIP 전화. [Microsoft 팀과 함께 비즈니스용 Skype 휴대폰용 (3PIP) 지원을](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351) 참조 하세요.
+
+- 모든 팀 클라이언트. 
+- 일반적인 지역 전화. [Microsoft 팀을 위한 일반적인 지역 전화 라이선스 설정을](https://docs.microsoft.com/microsoftteams/set-up-common-area-phones)참조 하세요. 참고 다이렉트 라우팅이 있는 공통 지역 전화를 설정할 때에는 통화 요금제 라이선스가 필요 하지 않습니다.
+- 비즈니스용 Skype 3PIP 전화. [Microsoft 팀에서 비즈니스용 Skype 휴대폰용 (3PIP) 지원을](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351) 참조 하세요.
 
 
 ## <a name="sbc-domain-names"></a>SBC 도메인 이름
 
-SBC 도메인 이름은 테 넌 트의 "Domains"에 등록 된 이름 중 하나 여야 합니다. SBC의 FQDN 이름에는 * onmicrosoft.com 테 넌 트를 사용할 수 없습니다.
+SBC 도메인 이름은 테 넌 트의 도메인에 등록 된 이름 중 하나 여야 합니다. SBC의 FQDN 이름 \*에는 onmicrosoft.com 테 넌 트를 사용할 수 없습니다.
 
 다음 표에서는 테 넌 트에 대해 등록 된 DNS 이름 (이름을 SBC의 FQDN으로 사용할 수 있는지 여부)과 올바른 FQDN 이름의 예를 보여 줍니다.
 
 |**DNS 이름**|**SBC FQDN에 사용할 수 있습니다.**|**FQDN 이름 예제**|
 |:--- |:--- |:--- |
 contoso.com|예|**유효한 이름:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
-|contoso.onmicrosoft.com|아니요|<br/>Onmicrosoft.com 도메인 사용은 SBC 이름에 대해 지원 되지 않습니다.
+|contoso.onmicrosoft.com|아니요|Onmicrosoft.com 도메인 사용은 SBC 이름에 대해 지원 되지 않습니다.
 
-새 도메인 이름을 사용 하 려 한다고 가정 합니다. 예를 들어 테 넌 트가 테 넌 트에 등록 된 도메인 이름으로 contoso.com sbc1.sip.contoso.com를 사용 하려고 합니다. 이름 sbc1.sip.contoso.com를 사용 하 여 SBC를 쌍으로 만들려면 먼저 테 넌 트의 "Domains"에 도메인 이름 sip.contoso.com을 등록 해야 합니다. 도메인 이름을 등록 하기 전에 sbc1.sip.contoso.com를 사용 하 여 SBC를 연결 하려고 하면 "sbc1.sip.contoso.com" 도메인이이 테 넌 트에 대해 구성 되지 않았으므로 사용할 수 없습니다. "라는 오류 메시지가 표시 됩니다.
-도메인 이름을 추가한 후에는 UPN user@sip.contoso.com를 사용 하 여 사용자를 만들고 "팀" 라이선스를 할당 해야 합니다. 테 넌 트의 "Domains"에 추가 된 도메인 이름을 완전 하 게 프로 비전 하는 데 최대 24 시간이 소요 될 수 있으며, 새 이름을 가진 사용자가 만들어지고 라이선스가 사용자에 게 할당 됩니다. 
+새 도메인 이름을 사용 하 려 한다고 가정 합니다. 예를 들어 테 넌 트가 테 넌 트에 등록 된 도메인 이름으로 contoso.com sbc1.sip.contoso.com를 사용 하려고 합니다. 이름 sbc1.sip.contoso.com를 사용 하 여 SBC를 쌍으로 만들려면 먼저 테 넌 트의 도메인 이름 sip.contoso.com을 등록 해야 합니다. 도메인 이름을 등록 하기 전에 sbc1.sip.contoso.com를 사용 하 여 SBC를 연결 하려고 하면 "sbc1.sip.contoso.com" 도메인이이 테 넌 트에 대해 구성 되지 않았으므로 사용할 수 없습니다. "라는 오류 메시지가 표시 됩니다.
+도메인 이름을 추가한 후에는 UPN user@sip.contoso.com를 사용 하 여 사용자를 만들고 팀 라이선스를 할당 해야 합니다. 도메인 이름을 테 넌 트의 도메인에 추가한 후 완전 하 게 프로 비전 하는 데 최대 24 시간이 소요 될 수 있으며, 새 이름을 가진 사용자가 만들어지고 라이선스가 사용자에 게 할당 됩니다. 
 
 회사의 한 테 넌 트에 여러 개의 SIP 주소 공간이 있을 수 있습니다. 예를 들어 회사는 SIP 주소 공간으로 contoso.com 하 고 두 번째 SIP 주소 공간으로 fabrikam.com 수 있습니다. 일부 사용자에 게는 주소 user@contoso.com 있고 일부 사용자에 게는 주소 user@fabrikam.com 있습니다. 
 
@@ -152,7 +154,7 @@ CSR (인증 서명 요청)을 생성 하 여 SBC에 대 한 인증서를 요청 
 
 인증서의 제목, 일반 이름 또는 주체 대체 이름 필드에 SBC FQDN이 있어야 합니다.
 
-또는 직접 라우팅은 SAN에서 와일드 카드를 지원 하 고, 와일드 카드는 [TLS를 통해 표준 RFC HTTP](https://tools.ietf.org/html/rfc2818#section-3.1)를 준수 해야 합니다. 예를 들어, contoso.com에서는 SBC FQDN sbc.contoso.com 일치 하지만 sbc.test.contoso.com와는 일치 하지 않는 SAN에서 * .를 사용 합니다.
+또는 직접 라우팅은 SAN에서 와일드 카드를 지원 하 고, 와일드 카드는 [TLS를 통해 표준 RFC HTTP](https://tools.ietf.org/html/rfc2818#section-3.1)를 준수 해야 합니다. 예를 들어, contoso.com \*는 SBC FQDN sbc.contoso.com 일치 하지만 sbc.test.contoso.com와는 일치 하지 않는 SAN에서 사용 합니다.
 
 다음 루트 인증 기관 중 하나에서 인증서를 생성 해야 합니다.
 
@@ -223,7 +225,7 @@ Fqdn – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com 및 sip3.pstnhub.
 
 **sip.pstnhub.dod.teams.microsoft.us** – 전역 FQDN. Office 365 DoD 환경은 미국 데이터 센터에만 있으므로 2 차 및 3 차 Fqdn이 없습니다.
 
-Fqdn – sip.pstnhub.dod.teams.microsoft.us는 다음 IP 주소 중 하나로 확인 됩니다.
+FQDN sip.pstnhub.dod.teams.microsoft.us 다음 IP 주소 중 하나로 확인 됩니다.
 
 - 52.127.64.33
 - 52.127.68.34
@@ -236,7 +238,7 @@ Fqdn – sip.pstnhub.dod.teams.microsoft.us는 다음 IP 주소 중 하나로 �
 
 **sip.pstnhub.gov.teams.microsoft.us** – 전역 FQDN. GCC High 환경은 US 데이터 센터에만 존재 하므로 2 차 및 3 차 Fqdn이 없습니다.
 
-Fqdn – sip.pstnhub.gov.teams.microsoft.us는 다음 IP 주소 중 하나로 확인 됩니다.
+FQDN sip.pstnhub.gov.teams.microsoft.us 다음 IP 주소 중 하나로 확인 됩니다.
 
 - 52.127.88.59
 - 52.127.92.64
@@ -276,7 +278,7 @@ SBC는 DNS 쿼리를 사용 하 여 sip.pstnhub.microsoft.com를 해결 합니�
 
 
 
-미디어 소통량이 Microsoft 클라우드의 별도 서비스에 전달 됩니다. 미디어 트래픽 IP 범위:
+미디어 소통량이 Microsoft 클라우드의 별도 서비스에 전달 됩니다. 미디어 트래픽 IP 범위는 다음과 같습니다.
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 및 Office 365 GCC 환경
 
@@ -304,18 +306,19 @@ SBC는 DNS 쿼리를 사용 하 여 sip.pstnhub.microsoft.com를 해결 합니�
 ## <a name="media-traffic-codecs"></a>미디어 트래픽: 코덱
 
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>SBC 및 클라우드 미디어 프로세서나 Microsoft 팀 클라이언트 간의 레그.
-미디어 바이패스 대/소문자 및 비 바이패스 케이스에 모두 적용
+미디어 바이패스 대/소문자 및 비 바이패스 케이스에 모두 적용 됩니다.
 
 세션 경계 컨트롤러와 클라우드 미디어 프로세서 (미디어 바이패스 없음) 또는 팀 클라이언트와 SBC 간 (미디어 바이패스 사용이 설정 된 경우)의 직접 라우팅 인터페이스는 다음 코덱을 사용할 수 있습니다.
+
 - 비 미디어 바이패스 (SBC에서 클라우드 미디어 프로세서): SILK, 711, 722, G. 729
 - 미디어 바이패스 (SBC to 팀 클라이언트): SILK, G 711, 722, 729, OPUS
 
 제안에서 원하지 않는 코덱을 제외 하 여 세션 경계 컨트롤러에서 특정 코덱을 강제로 사용할 수 있습니다.
 
-### <a name="leg-between-microsoft-teams-client--and-cloud-media-processor"></a>Microsoft 팀 클라이언트와 클라우드 미디어 프로세서 간의 다리
-비 미디어 바이패스 대/소문자에만 적용 됩니다. 미디어 우회를 사용 하 여 팀 클라이언트와 SBC 간의 직접적인 미디어 흐름
+### <a name="leg-between-microsoft-teams-client-and-cloud-media-processor"></a>Microsoft 팀 클라이언트와 클라우드 미디어 프로세서 간의 다리
+비 미디어 바이패스 대/소문자에만 적용 됩니다. 미디어 바이패스를 사용 하 여 미디어는 팀 클라이언트와 SBC 간에 직접 흐릅니다.
 
-클라우드 미디어 프로세서와 Microsoft 팀 클라이언트 간 레그에서 SILK 또는 722를 사용 합니다. 여러 매개 변수를 고려 하는 Microsoft 알고리즘을 기반으로 하는이 레그의 코덱 선택입니다. 
+클라우드 미디어 프로세서와 Microsoft 팀 클라이언트 간 레그에서 SILK 또는 722를 사용 합니다. 이 레그의 코덱 선택은 여러 매개 변수를 고려 하는 Microsoft 알고리즘을 기반으로 합니다. 
 
 
 ## <a name="supported-session-border-controllers-sbcs"></a>지원 되는 SBCs (세션 경계 컨트롤러)

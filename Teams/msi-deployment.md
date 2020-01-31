@@ -1,5 +1,5 @@
 ---
-title: SCCM을 통해 MSI를 사용 하 여 Microsoft 팀 설치
+title: Microsoft Endpoint Configuration Manager를 통해 MSI를 사용 하 여 Microsoft 팀 설치
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,19 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd934c601b45258dd7a2e2c15ef49f19ffee9201
-ms.sourcegitcommit: 416a2d404a2ea15b484cd7579035e7f2282ac2cf
+ms.openlocfilehash: 2f6902ae52c04d0087bb6718b119ae66dd920ced
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233277"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628134"
 ---
-# <a name="install-microsoft-teams-using-msi"></a>MSI를 사용 하 여 Microsoft 팀 설치
+# <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 설치
 
 > [!Tip]
 > Windows 데스크톱 클라이언트의 이점,이를 위해 계획 하는 방법 및 배포 하는 방법에 대해 알아보려면 다음 세션을 시청 하세요. [팀 Windows 데스크톱 클라이언트](https://aka.ms/teams-clients)
 
-System Center Configuration Manager 또는 그룹 정책 또는 광범위 한 배포에 대 한 타사 배포 메커니즘을 사용 하기 위해 Microsoft는 관리자가 사용자 또는 컴퓨터를 선택 하기 위해 팀을 대량으로 배포 하는 데 사용할 수 있는 MSI 파일 (32 비트 및 64 비트)을 제공 했습니다. 관리자는 이러한 파일을 사용 하 여 사용자가 팀 앱을 수동으로 다운로드할 필요가 없도록 팀을 원격으로 배포할 수 있습니다. 배포 되는 경우 해당 컴퓨터에 로그인 하는 모든 사용자에 대해 팀이 자동으로 실행 됩니다. (앱을 설치한 후 자동 시작을 사용 하지 않도록 설정할 수 있습니다. [아래를 참조](#disable-auto-launch-for-the-msi-installer)하세요.) 컴퓨터에 패키지를 배포 하는 것이 좋으며,이는 컴퓨터의 모든 새 사용자도이 배포를 활용할 수 있도록 하는 것이 좋습니다.
+Microsoft 끝점 구성 관리자 또는 그룹 정책 또는 광범위 한 배포를 위해 타사 배포 메커니즘을 사용 하려면 관리자가 사용자를 선택 하기 위해 팀을 대량으로 배포 하는 데 사용할 수 있는 MSI 파일 (32 비트 및 64 비트)을 제공 했습니다. 컴퓨터용. 관리자는 이러한 파일을 사용 하 여 사용자가 팀 앱을 수동으로 다운로드할 필요가 없도록 팀을 원격으로 배포할 수 있습니다. 배포 되는 경우 해당 컴퓨터에 로그인 하는 모든 사용자에 대해 팀이 자동으로 실행 됩니다. (앱을 설치한 후 자동 시작을 사용 하지 않도록 설정할 수 있습니다. [아래를 참조](#disable-auto-launch-for-the-msi-installer)하세요.) 컴퓨터에 패키지를 배포 하는 것이 좋으며,이는 컴퓨터의 모든 새 사용자도이 배포를 활용할 수 있도록 하는 것이 좋습니다.
 
 MSI 파일에 대 한 링크는 다음과 같습니다.
 
@@ -41,7 +41,7 @@ MSI 파일에 대 한 링크는 다음과 같습니다.
 팀은 Office 365 ProPlus 배포에도 포함 될 수 있습니다. 자세한 내용은 [Office 365 ProPlus를 사용 하 여 Microsoft 팀 배포](https://docs.microsoft.com/deployoffice/teams-install)를 참조 하세요.
 
 > [!Note]
-> SCCM에 대해 자세히 알아보려면 [System Center Configuration Manager 소개](https://docs.microsoft.com/sccm/core/understand/introduction)를 참조 하세요.
+> Microsoft 끝점 구성 관리자에 대 한 자세한 내용은 [Configuration manager 란?](https://docs.microsoft.com/configmgr/core/understand/introduction)을 참조 하세요.
 
 ## <a name="deployment-procedure-recommended"></a>배포 절차 (권장)
 
@@ -80,7 +80,7 @@ VDI에서 팀 데스크톱 앱을 배포 하는 방법에 대 한 자세한 지�
 3. 해당 특정 컴퓨터에 MSI 패키지를 다시 배포 합니다.
 
 > [!TIP]
-> [Microsoft 팀 배포 정리](scripts/powershell-script-teams-deployment-clean-up.md) 스크립트를 사용 하 여 SCCM을 통해 1 단계 및 2 단계를 수행할 수 있습니다.
+> [Microsoft 팀 배포 정리](scripts/Powershell-script-teams-deployment-clean-up.md) 스크립트를 사용 하 여 구성 관리자를 통해 1 ~ 2 단계를 수행할 수 있습니다.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>설치 후 팀이 자동으로 시작 되지 않도록 방지
 

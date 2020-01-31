@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 52bc712798a1412a1c7c2c510c92af090608865d
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38626984"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573624"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -40,10 +40,9 @@ ms.locfileid: "38626984"
 > - Windows 7 사용자는 팀 모임 추가 기능을 사용 하기 위해 windows의 [windows에서 유니버설 C 런타임으로 업데이트](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) 를 설치 해야 합니다.
 > - Microsoft Store에서 Office Outlook 설치를 사용 하는 경우 팀 모임 추가 기능이 지원 되지 않습니다. 이 추가 기능을 필요로 하는 사용자는 [S 모드 문서에서 Windows 10의 office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) 에 설명 된 대로 간편 실행 버전의 office를 설치 하는 것이 좋습니다.
 
-
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Mac 용 Outlook에서 팀 모임 추가 기능
 
-Outlook이 프로덕션 빌드 16.24.414.0 이상을 실행 중인 경우 mac 용 Outlook의 팀 모임 단추가 outlook for Mac 리본에 표시 됩니다.
+Outlook for mac의 팀 모임 단추는 16.24.414.0에서 프로덕션 빌드를 실행 중이 고 Office 365 클라이언트 구독으로 활성화 되어 있는 경우 Mac 용 Outlook 리본에 표시 됩니다.
 
 모임 좌표 (팀 참가 링크 및 전화 접속 번호)는 사용자가 **보내기를**클릭 한 후 모임 초대에 추가 됩니다.  
 
@@ -103,7 +102,7 @@ FindTime은 사용자가 회사 간의 모임 시간에 대 한 합의에 도달
 | 비즈니스용 Skype 전용 | 비즈니스용 Skype |
 | 팀 공동 작업을 통한 비즈니스용 Skype | 비즈니스용 Skype |
 | 팀 공동 작업 및 모임이 있는 비즈니스용 Skype | Teams |
-| 팀만 | Teams |
+| Teams 전용 | Teams |
 
 ## <a name="other-considerations"></a>기타 고려 사항
 

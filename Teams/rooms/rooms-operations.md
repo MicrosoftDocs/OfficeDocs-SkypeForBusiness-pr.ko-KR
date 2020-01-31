@@ -11,12 +11,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 이 항목에서는 차세대 Skype 대화방 시스템인 Microsoft 팀 회의실 관리에 대해 자세히 알아보세요.
-ms.openlocfilehash: 626190406cf90cdbf09f2ab27d2b31f648f073c9
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0eb68e74368a9ae4463ab5f6a9721a844b151152
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269138"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628664"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 팀 회의실 유지 관리 및 운영 
  
@@ -61,9 +61,9 @@ Microsoft 팀 채팅방이 제대로 실행 되 고 있지 않은 경우 공장 
 
 |작업 그룹|도메인에 가입 되어 있지 않음|도메인 가입 됨|
 |:-----|:-----|:-----|
-|했다가  <br/> |원격 데스크톱  <br/> 원격 Powershell  <br/> |원격 데스크톱 (추가 구성 필요)  <br/> 원격 Powershell (추가 구성 필요)  <br/> SCCM  <br/> |
+|했다가  <br/> |원격 데스크톱  <br/> 원격 Powershell  <br/> |원격 데스크톱 (추가 구성 필요)  <br/> 원격 Powershell (추가 구성 필요)  <br/> 구성 관리자  <br/> |
 |OS 업데이트  <br/> |Windows 업데이트  <br/> |Windows 업데이트  <br/> WSUS  <br/> |
-|앱 업데이트  <br/> |Windows 스토어  <br/> |Windows 스토어  <br/> SCCM  <br/> |
+|앱 업데이트  <br/> |Windows 스토어  <br/> |Windows 스토어  <br/> 구성 관리자  <br/> |
 |Skype 계정 구성  <br/> |현재 지원 되지 않음  <br/> |현재 지원 되지 않음  <br/> |
 |Access 로그  <br/> |현재 지원 되지 않음  <br/> |현재 지원 되지 않음  <br/> |
    
@@ -166,7 +166,7 @@ Copy-Item $movefile $targetDevice
   
 기본적으로 Microsoft 팀 대화방은 Windows Update에 연결 하 여 운영 체제 및 USB 주변 장치 펌웨어 업데이트를 검색 하 고, 구성 된 업무 시간 외에 설치 합니다. 관리자 계정에 로그인 하 고 설정 앱을 실행 하 여 업무 시간을 구성할 수 있습니다.
   
-업데이트를 수동으로 관리 하 고 [Microsoft Store For Business](https://businessstore.microsoft.com/store) online에서 [오프 라인 앱을 배포](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)하는 것을 수행할 수 없는 경우 SCCM과 함께 사용할 수 있는 [배포 키트](https://go.microsoft.com/fwlink/?linkid=851168) ( [microsoft 팀 회의실 구성](console.md)지침 참조)에서 적절 한 APPX 파일과 종속성을 얻을 수 있습니다. 배포 키트 릴리스는 스토어 릴리스에서 지연 되므로 사용 가능한 최신 빌드와 항상 일치 하지 않을 수 있습니다.
+업데이트를 수동으로 관리 하 고 [Microsoft Store For Business](https://businessstore.microsoft.com/store) online에서 [오프 라인 앱을 배포](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)하는 것을 수행할 수 없는 경우에는 구성 관리자와 함께 사용할 수 있는 [배포 키트](https://go.microsoft.com/fwlink/?linkid=851168) ( [microsoft 팀 대화방 콘솔 구성](console.md)지침 참조)에서 적절 한 APPX 파일과 종속성을 얻을 수 있습니다. 배포 키트 릴리스는 스토어 릴리스에서 지연 되므로 사용 가능한 최신 빌드와 항상 일치 하지 않을 수 있습니다.
   
 ### <a name="to-update-using-powershell"></a>Powershell을 사용 하 여 업데이트 하려면
 

@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 참조 하세요. '
-ms.openlocfilehash: 429904020a63b93fefd1adee7ee89d02a47f1d61
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 4aea268e2c25e655b7f2dee914497ae3154f0008
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41005194"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41620042"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
@@ -188,13 +188,15 @@ CQD 요약 보고서는 자세한 보고서에 대해 계획 된 기능의 하�
 |보고서 집합 사용자 지정 (보고서 추가, 삭제, 수정)   | 아니요   | 예   |
 |비디오 기반 화면 공유 메트릭   | 아니요   | 예   |
 |비디오 메트릭   | 아니요   | 예   |
-|사용할 수 있는 데이터 양   | 지난 6 개월   | 지난 6 개월   |
+|사용할 수 있는 데이터 양   | 지난 12 개월   | 지난 12 개월   |
 |Microsoft 팀 데이터   | 예   | 예   |
 | | | |
 
 ### <a name="out-of-the-box-reports"></a>오래 된 보고서
 
 CQD의 모든 버전은 새 보고서를 만들 필요 없이 품질 메트릭스를 제공 하는 환경을 제공 합니다. 백 엔드에서 데이터가 처리 되 면 보고서에 통화 품질 데이터가 표시 됩니다.
+
+T e 2020의 새로운 [기능: CQD 용 POWER BI 쿼리 서식 파일을 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true)합니다. CQD 데이터를 분석 하 고 보고 하는 데 사용할 수 있는 사용자 지정 가능한 Power BI 서식 파일입니다.
   
 ### <a name="overview-reports"></a>개요 보고서
 
@@ -395,6 +397,17 @@ EndpointName, EndpointMake, Endpointmake, Endpointmake, EndpointLabel1, Endpoint
 
 ' 1409W3534, 123 제조업체, Fabrikam 모델 123, 랩탑, 지정 된 2018 랩톱, 자산 태그 5678, 구매 2018
 
+## <a name="migrate-reports-from-previous-version-of-cqd"></a>이전 버전의 CQD에서 보고서 마이그레이션
+
+비즈니스용 Skypehttps://cqd.lync.com) 용 cqd에 보고서 또는 업로드 된 테 넌 트 데이터 (매핑) 파일을 만들어 팀https://cqd.teams.microsoft.com)을 위해 cqd로 마이그레이션하려면 다음과 같이 합니다.
+
+1.  [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) 내보내려는 보고서 집합으로 이동 하 여 찾습니다. 
+2.  보고서 위에 마우스를 놓고 "..." 메뉴에서 **보고서 트리 내보내기를**선택 합니다. 내보내기 파일을 저장 합니다.
+3.  [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) 보고서를 가져올 위치로 이동 하 여 찾습니다.
+4.  왼쪽의 링크에서 **가져오기를** 클릭 하 고 내보낸 파일을 선택 합니다. 
+5.  보고서를 가져오면 "보고서 가져오기가 성공 했습니다." 라는 메시지가 표시 됩니다. 보고서 집합 끝에 새 보고서가 추가 되었습니다. " 
+
+
 ## <a name="create-custom-detailed-reports"></a>사용자 지정 상세 보고서 만들기
 
 제공 된 상세 보고서에서 데이터 차원에 중점을 둔 특정 보고서를 만들려는 경우 사용자 지정 보고서를 만듭니다.
@@ -445,7 +458,17 @@ Cqd v2와 CQD v3에는 cqd v2에는 새로운 시나리오가 없기 때문에 C
   - 유선: wifi
   - 회사 네트워크: 홈 네트워크
   
+### <a name="why-cant-i-see-euii-in-cqd"></a>CQD에 EUII이 표시 되지 않는 이유는 무엇 인가요?
 
+이러한 관리자 역할은 CQD에 액세스할 수 있지만, EUII (최종 사용자 식별 가능 정보)는 볼 수 없습니다.
+- Office 365 보고서 읽기 프로그램
+- 팀 의사 소통 지원 전문가
+
+EUII를 포함 하 여 CQD에 액세스할 수 있는 역할에 대 한 자세한 내용은 [CQD에 액세스 하기 위한 역할 할당](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd)을 참조 하세요.
+
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>팀만 필터링 했을 때 CQD에 비즈니스용 Skype 정보가 표시 되는 이유는 무엇 인가요?
+
+CQD 보고서 (isTeams = 1) 에서만 팀을 필터링 하는 경우 *첫 번째 끝점이* 팀 인 모든 통화에 대해 필터링 하 고 있는 것입니다. *두 번째 종점이* 비즈니스용 Skype 인 경우 해당 정보는 CQD 보고서에 표시 됩니다.
 
 ## <a name="related-topics"></a>관련 항목
 

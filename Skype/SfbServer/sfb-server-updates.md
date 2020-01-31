@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 한 곳에서 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대 한 업데이트를 찾아 관리 합니다. 업데이트에 대 한 자세한 정보를 확인 하 고 업데이트를 다운로드 하려면이 페이지의 링크를 사용 하세요.
-ms.openlocfilehash: 6291ed94e4434bb96a441174cf2b69dae49852b0
-ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
+ms.openlocfilehash: a42d7b1463e3b545688e8ef7bce6fe6b96872050
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39837510"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580785"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
@@ -169,6 +169,7 @@ KB 4470124은 게시 된 모든 누적 업데이트 및 핫픽스의 모든 기�
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
+|Lync Server 2010 누적 업데이트 18 핫픽스 1 |[KB 2493736](https://support.microsoft.com/kb/2493736) |2019 년 6 월|
 |Lync Server 2010 누적 업데이트 18|[KB 2493736](https://support.microsoft.com/kb/2493736) |2019 년 1 월|
 |Lync Server 2010 누적 업데이트 17|[KB 3148801](https://support.microsoft.com/kb/3148801) |2016 년 4 월 |
 |Lync Server 2010 누적 업데이트 16|[KB 3057803](https://support.microsoft.com/kb/3057803) |2015 년 5 월 |

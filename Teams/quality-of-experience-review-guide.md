@@ -3,7 +3,6 @@ title: Microsoft 팀에 대 한 경험 치 검토 가이드
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -15,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 91a4cda0cb7f16363f3fa90deb0358bf5600330a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952811"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580905"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
 
@@ -58,25 +57,28 @@ _그림 1-이 가이드 전체에서 다룬 주요 작업 영역_
 
 이 가이드는 지정 된 품질 챔피언에도 사용 됩니다. 자세한 내용은 [품질 챔피언 역할](4-envision-plan-my-service-management.md#the-quality-champion-role)을 참조 하세요.
 
-## <a name="prerequisites"></a>필요 조건
+## <a name="assign-roles-for-accessing-cqd"></a>CQD에 액세스 하기 위한 역할 할당
 
 이 가이드를 사용 하기 전에 CQD에 액세스할 수 있도록 적절 한 테 넌 트 [역할이](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 할당 되어 있는지 확인 합니다.
 
--   **Office 365 전역 관리자** 
+다음 표에서는 각 역할이 CQD에서 수행할 수 있는 작업을 보여 줍니다.
 
--   **비즈니스용 Skype 관리자** 
 
--   **Teams 서비스 관리자** 
+|  |보고서 보기  |EUII 필드 보기  |보고서 만들기  |빌드 데이터 업로드  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Office 365 전역 관리자     |예         |예         |예         |예         |
+|Teams 서비스 관리자     |예         |예         |예         |예         |
+|Teams 커뮤니케이션 관리자     |예         |예         |예         |예         |
+|Teams 커뮤니케이션 지원 엔지니어     |예         |예         |예         |아니요         |
+|팀 의사 소통 지원 전문가     |예         |아니요         |예         |아니요         |
+|비즈니스용 Skype 관리자     |예         |예         |예         |예         |
+|Azure AD 전역 읽기 프로그램 |예         |예         |예         |아니요         |
+|Office 365 보고서 리더기<sup>1</sup>     |예         |아니요         |예         |아니요         |
 
--   **Teams 커뮤니케이션 관리자** 
+<sup>1</sup> CQD 보고서 읽기 외에도, Office 365 보고서 구독자는 관리 센터의 모든 [활동 보고서](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) 와 [Microsoft 365 채택 콘텐츠 팩](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)의 모든 보고서를 볼 수 있습니다.
 
--   **Teams 커뮤니케이션 지원 엔지니어** 
-
--   **팀 의사 소통 지원 전문가** 
-
-또는 다음 역할을 Office 365 사용자 계정에 할당 하 여 보고 기능에 대 한 액세스만 허용 하도록 할 수 있습니다.
-
--   **보고서 읽기 프로그램:** 관리 센터의 모든 [활동 보고서](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) , [Microsoft 365 채택 콘텐츠 팩](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)의 모든 보고서, 그리고 cqd 보고서를 볼 수 있습니다.
+> [!NOTE]
+> EUII (최종 사용자 식별 가능 정보)가 표시 되지 않고 이러한 정보를 볼 수 있는 역할 중 하나가 있는 경우 CQD는 30 일간 EUII을 유지 한다는 점에 유의 하세요. 30 일이 지난 모든 항목이 삭제 됩니다.
 
 ## <a name="what-is-quality"></a>품질 이란?
 
@@ -286,6 +288,8 @@ CQD Online에는 두 개의 보고서 버전, 즉 요약 및 상세 정보가 �
 
 두 버전 간의 차이에 대 한 자세한 설명은 [이 문서](turning-on-and-using-call-quality-dashboard.md)를 참조 하세요.
 
+T e 2020의 새로운 [기능: CQD 용 POWER BI 쿼리 서식 파일을 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true)합니다. CQD 데이터를 분석 하 고 보고 하는 데 사용할 수 있는 사용자 지정 가능한 Power BI 서식 파일입니다.
+
 _그림 4-CQD 보고서 범주_
 
 요약 보고서는 4 개의 범주로 나뉩니다.
@@ -331,7 +335,7 @@ _그림 4-CQD 보고서 범주_
 
 #### <a name="skype-for-business-online-admin-center"></a>비즈니스용 Skype Online 관리 센터
 
-1.  으로 이동 <https://portal.office.com>합니다.
+1.  <https://portal.office.com>(으)로 이동합니다.
 
 2.  테 넌 트 관리자 조직 계정으로 로그인 합니다.
 
@@ -466,7 +470,7 @@ CQD에서 보고 싶은 치수나 측정값을 적절히 선택 하기 위해 �
 
 다음 세 가지 방법 중 하나를 사용 하 여 CQD에 액세스할 수 있습니다.
 
--   으로 이동 <https://cqd.lync.com>합니다.
+-   <https://cqd.lync.com>(으)로 이동합니다.
 
 -   **Microsoft 팀 관리 센터로** 이동 하 여 다음 그림에 표시 된 대로 CQD에 대 한 링크를 선택 합니다.
 
@@ -585,7 +589,7 @@ _표 4-보고서 필터_
 
 **템플릿을 가져오려면 (. CQDX)를 CQDX 온라인으로**
 
-1. 으로 이동 <https://cqd.lync.com>합니다.
+1. <https://cqd.lync.com>(으)로 이동합니다.
 
 2. Office 365 관리 자격 증명을 사용 하 여 인증 합니다.
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: '요약: 비즈니스용 Skype 서버에서 모니터링을 배포 하는 방법에 대해 알아보세요.'
-ms.openlocfilehash: 7f3bd96b814b45b625612aae9b56a706dfff470f
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: c6ccf371d07dfa7d4fbee582a47c7d1306d6c509
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001150"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634851"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모니터링 배포
 
@@ -29,7 +29,7 @@ ms.locfileid: "41001150"
 
 2. 모니터링 저장소 (즉, 모니터링 데이터베이스)를 새 풀에 연결 합니다. 단일 모니터링 저장소는 여러 풀에 연결 될 수 있습니다. 레지스트라 풀에 속한 사용자 수에 따라 각 풀에 대해 별도의 모니터링 데이터베이스를 설정할 필요가 없습니다. 대신 여러 풀에서 단일 모니터링 저장소를 사용할 수 있습니다.
 
-새 풀을 만들 때 동시에 모니터링을 사용 하는 것이 더 쉽지만 모니터링을 사용 하지 않도록 설정 하 여 새 풀을 만들 수도 있습니다. 이렇게 하는 경우 나중에 토폴로지 작성기를 사용 하 여 서비스를 사용 하도록 설정할 수 있습니다. 토폴로지 작성기에서는 풀에 대 한 모니터링을 사용 하거나 사용 하지 않도록 설정 하거나 풀을 다른 모니터링 저장소에 연결 하는 방법을 제공 합니다. 모니터링 서버 역할이 남아 있지 않더라도 모니터링 서비스에서 수집한 데이터를 저장 하는 데 사용 되는 백 엔드 데이터베이스의 모니터링 저장소를 하나 이상 만들어야 한다는 점에 유의 하세요. 이러한 백 엔드 데이터베이스는 Microsoft SQL Server 2008 R2, Microsoft SQL Server 2012 또는 Microsoft SQL Server 2014을 사용 하 여 만들 수 있습니다.
+새 풀을 만들 때 동시에 모니터링을 사용 하는 것이 더 쉽지만 모니터링을 사용 하지 않도록 설정 하 여 새 풀을 만들 수도 있습니다. 이렇게 하는 경우 나중에 토폴로지 작성기를 사용 하 여 서비스를 사용 하도록 설정할 수 있습니다. 토폴로지 작성기에서는 풀에 대 한 모니터링을 사용 하거나 사용 하지 않도록 설정 하거나 풀을 다른 모니터링 저장소에 연결 하는 방법을 제공 합니다. 모니터링 서버 역할이 남아 있지 않더라도 모니터링 서비스에서 수집한 데이터를 저장 하는 데 사용 되는 백 엔드 데이터베이스의 모니터링 저장소를 하나 이상 만들어야 한다는 점에 유의 하세요. 이러한 백 엔드 데이터베이스는 Microsoft SQL Server 2008 R2, Microsoft SQL Server 2012, Microsoft SQL server 2014 또는 Microsoft SQL Server 2019을 사용 하 여 만들 수 있습니다.
 
 > [!NOTE]
 > 풀에 대해 모니터링을 사용 하도록 설정 하면 토폴로지를 변경할 필요 없이 모니터링 데이터를 수집 하는 프로세스를 사용 하지 않도록 설정할 수 있습니다. 비즈니스용 Skype Server를 사용 하 여 통화 정보 기록 (다음으로 다시 사용 하도록 설정) 하는 방법을 제공 합니다. 체감 품질 (환경) 데이터 수집 자세한 내용은이 문서의 통화 세부 정보 기록 및 품질 설정 구성 섹션을 참조 하세요.

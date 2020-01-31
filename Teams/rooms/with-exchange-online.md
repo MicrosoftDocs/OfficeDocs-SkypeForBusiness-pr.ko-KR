@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Exchange Online을 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: fc403e2553fce157737b1bdda75c821563e6b0dd
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: e53fd2ebd25ef6b625ada84b60d58e42e8c13a28
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269151"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628424"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online을 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -41,13 +41,13 @@ Exchange Online을 사용 하 여 Microsoft 팀 대화방을 배포 하려면 �
 
 1. PC에서 원격 Windows PowerShell 세션을 시작 하 고 아래와 같이 Exchange Online에 연결 합니다.
 
-``` Powershell
-Set-ExecutionPolicy Unrestricted
-$org='contoso.microsoft.com'
-$cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
-Import-PSSession $Session -DisableNameChecking
-```
+    ``` Powershell
+    Set-ExecutionPolicy Unrestricted
+    $org='contoso.microsoft.com'
+    $cred=Get-Credential $admin@$org
+    $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
+    Import-PSSession $Session -DisableNameChecking
+    ```
 
 2. 세션을 설정한 후 새 사서함을 만들고이를 RoomMailboxAccount 사용 하도록 설정 하거나 기존 회의실 사서함에 대 한 설정을 변경할 수 있습니다. 이렇게 하면 계정이 Microsoft 팀 방에 인증 될 수 있습니다.
 
@@ -91,27 +91,27 @@ Import-PSSession $Session -DisableNameChecking
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 는 지원 되지 않습니다. 
 
-  ``` PowerShell
- Connect-MsolService -Credential $cred
-  ```
-<!--   ``` Powershell
-   Connect-AzureAD -Credential $cred
-   ``` -->
+    ``` PowerShell
+   Connect-MsolService -Credential $cred
+    ```
+  <!--   ``` Powershell
+     Connect-AzureAD -Credential $cred
+     ``` -->
 
 2. 사용자 계정에는 비즈니스용 Exchange 및 비즈니스용 Skype 서버를 사용할 수 있도록 유효한 Office 365 라이선스가 있어야 합니다. 라이선스가 있는 경우 사용 위치를 사용자 계정에 할당 해야 하며,이는 계정에 사용할 수 있는 라이선스 Sku를 결정 합니다. 다음 단계에서 과제를 만듭니다.
 3. 다음으로 다음을 사용 합니다.`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 테 넌 트에 대해 사용 가능한 Sku 목록을 검색 합니다.
 4. Sku를 나열 하면 다음을 사용 하 여 라이선스를 추가할 수 있습니다.`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> 은. 이 경우 $strLicense는 사용자에 게 표시 되는 SKU 코드입니다 (예: contoso: STANDARDPACK). 
 
-  ```PowerShell
-    Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
-   Get-MsolAccountSku
-   Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-  ```
-<!--   ``` Powershell
-   Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-   ``` -->
+    ```PowerShell
+      Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+     Get-MsolAccountSku
+     Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+    ```
+  <!--   ``` Powershell
+     Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+     Get-AzureADSubscribedSku
+     Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+     ``` -->
 
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자 계정 사용
 
@@ -145,6 +145,12 @@ Import-PSSession $Session -DisableNameChecking
 6. **저장**을 클릭 합니다.
 
 유효성 검사를 위해 비즈니스용 Skype 클라이언트를 사용 하 여이 계정에 로그인 할 수 있습니다.
+
+> [!NOTE]
+> 현재 E1, E3, E4 또는 E5 Sku를 오디오 회의 또는 Office 365 전화 시스템 및 통화 요금제를 통해 비즈니스용 Skype 요금제를 사용 하 고 있는 경우에는 계속 작동 합니다. 그러나 [팀 모임 회의실 라이선스 업데이트](rooms-licensing.md)에 설명 된 대로 현재 라이선스가 만료 된 후 간단한 라이선스 모델로 이동 하는 것이 좋습니다.
+
+> [!IMPORTANT]
+> 비즈니스용 Skype 계획 2를 사용 하는 경우 비즈니스용 skype 전용 모드에서 Microsoft 팀 대화방만 사용할 수 있으며, 모든 모임이 비즈니스용 Skype 모임 임을 의미 합니다. Microsoft 팀 모임에서 회의실을 사용 하도록 설정 하려면 회의실 라이선스를 구입 하는 것이 좋습니다.
   
 ## <a name="see-also"></a>참고 항목
 

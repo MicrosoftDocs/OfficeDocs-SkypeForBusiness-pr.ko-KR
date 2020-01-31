@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Configuration management
 ms:assetid: 00ea1196-cb40-427f-99a4-5e8037cbf367
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720316(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720316(v=OCS.15)
 ms:contentKeyID: 63969570
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa4bacdea1090351e9937e039fec184a1f59ab0f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb652485b03bcaee5e63bc4fc23d25fd5df958bd
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982370"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuration-management-in-lync-server-2013"></a>Lync Server 2013의 구성 관리
 
@@ -73,7 +73,7 @@ _**마지막으로 수정한 주제:** 2015-05-15_
 
   - **자동화 된 스크립트**   운영 체제, 서비스 팩 수준, 소프트웨어가 특정 컴퓨터 집합에 있는지 여부 등의 항목을 보고 하는 간단한 스크립트를 작성할 수 있습니다. 조직의 정확한 요구 사항에 이러한 스크립트를 기록할 수 있습니다. 그러나 필요한 수의 스크립트와 복잡도를 통해 스크립트를 만들고 유지 관리 하는 데 많은 비용이 듭니다.
 
-  - **자동화 된 도구**   비즈니스 규모와 조직의 요구 사항에 따라 자동화 된 도구 사용을 고려해 볼 수 있습니다. System Center Configuration Manager와 같은 도구는 표준 보고서 서식 파일 (예: 서비스 팩 수준)을 통합 하 고 사용자 지정 된 보고서를 만들 수 있도록 하는 데 사용 됩니다. System Center Configuration Manager를 사용 하 여 하드웨어 및 소프트웨어 구성을 보고할 수도 있습니다.
+  - **자동화 된 도구**   비즈니스 규모와 조직의 요구 사항에 따라 자동화 된 도구 사용을 고려해 볼 수 있습니다. Microsoft 끝점 구성 관리자와 같은 도구는 표준 보고서 서식 파일 (예: 서비스 팩 수준)을 통합 하 고 사용자 지정 된 보고서를 만들 수 있도록 하는 데 사용 됩니다. Microsoft 끝점 구성 관리자를 사용 하 여 하드웨어 및 소프트웨어 구성을 보고할 수도 있습니다.
 
 </div>
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft는 2020 년 2 월에 ExchUMO (Exchange 통합 메시징 Online) 서비스를 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 인식 하 고 비즈니스 연속성을 계획 하기 위해 수행 해야 하는 작업을 요약 합니다.
-ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
-ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
+ms.openlocfilehash: 55382780fe6ef1c67cbecc1f6c997809f9173b8a
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/24/2019
-ms.locfileid: "40854093"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628674"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
@@ -233,7 +233,7 @@ Office 365 테 넌 트 관리자는 Microsoft 클라우드 자동 전화 교환 
 
 **PSTN으로 자동 전화 교환 통화 전송** 고객은 자동 전화 교환 호출을 외부 PSTN 번호로 또는 RGS 인스턴스로 이전 하는 데 필요한 요구 사항을 충족 하기 위해 임시로 해결 방법을 구성할 것을 권장 합니다. 
  
-PSTN 번호 전송 기능을 사용 하 여 품질 보장 중에 확인 된 문제는 고객이 2020 년 2 월의 예정 된 만료 날짜 이전에 Exchange UMO 서비스 마이그레이션을 시작 하기 전에 수정 되지 않는 것입니다. 해결 방법으로, 관리자는 활성 착신 전환 설정을 사용 하 여 온-프레미스 가상 사용자에 게 자동 전화 교환 호출자를 원하는 PSTN 전화 번호 또는 RGS 전화 번호로 양도할 수 있습니다. 
+PSTN 번호 전송 기능을 사용 하 여 품질 보장 중에 확인 된 문제는 고객이 예약 된 UMO 서비스를 종료 하기 전에 2020 년 2 월 28 일에 마이그레이션을 시작 하는 시간에 해결 되지 않는 경우에 발생 합니다. 해결 방법으로, 관리자는 활성 착신 전환 설정을 사용 하 여 온-프레미스 가상 사용자에 게 자동 전화 교환 호출자를 원하는 PSTN 전화 번호 또는 RGS 전화 번호로 양도할 수 있습니다. 
  
 예상 경험
 - 해결 방법 이므로 관리자는 가상 사용자에 게 라이선스를 추가할 필요가 없습니다. 

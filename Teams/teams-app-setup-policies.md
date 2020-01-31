@@ -3,7 +3,7 @@ title: Microsoft 팀에서 앱 설치 정책 관리
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: lajin
+ms.reviewer: lajin,rarang
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,21 +17,21 @@ search.appverid: MET150
 description: Microsoft 팀에서 앱 설정 정책에 대해 알아보고, 앱을 고정 하는 데 사용 하 여 조직의 사용자를 위한 팀을 사용자 지정 하는 방법에 대해 알아봅니다.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 3cc794829df70fcbadc8a461a6a953d381536365
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: e80cacb952bd456e742aa6da0fec32d50c5f3188
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40955312"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573800"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 설치 정책 관리
 
 > [!NOTE]
 > 조직 전체 앱 권한 정책 설정을 사용 하도록 설정 하 고 **사용자 지정 앱과의 상호 작용을 허용**하는 경우 Microsoft 팀 관리 센터에 앱 설정 정책이 아직 표시 되지 않을 수 있습니다. 현재 출시 되 고 있으며 조직에서 곧 사용할 수 있게 됩니다.
 
-관리자는 앱 설치 정책을 사용 하 여 Microsoft 팀을 사용자 지정 하 고 사용자에 게 가장 중요 한 앱을 강조 표시할 수 있습니다. 고정할 앱을 선택 하 고 표시 되는 순서를 설정 합니다. 앱 설정 정책을 사용 하 여 조직의 사용자에 게 제공 되는 앱을 포함 하거나 조직의 개발자가 조직에 따라 수행 해야 하는 앱을 전시 할 수 있습니다. 또한 앱 설치 정책을 사용 하 여 기본 제공 기능의 표시 방법을 관리할 수 있습니다.
+관리자는 앱 설치 정책을 사용 하 여 Microsoft 팀을 사용자 지정 하 고 사용자에 게 가장 중요 한 앱을 강조 표시할 수 있습니다. 고정할 앱을 선택 하 고 표시 되는 순서를 설정 합니다. 앱 설정 정책을 사용 하 여 조직의 사용자에 게 제공 되는 앱을 포함 하거나 조직의 개발자가 조직에 따라 수행 해야 하는 앱을 전시 할 수 있습니다. 앱 설치 정책을 사용 하 여 사용자가 앱을 팀에 고정 하 고 기본 제공 기능이 표시 되는 방식을 관리할 수 있는지 여부를 제어할 수도 있습니다.
 
-앱은 앱 표시줄에 고정 됩니다. 팀 데스크톱 클라이언트의 측면과 팀 모바일 클라이언트 (iOS 및 Android)의 맨 아래에 있는 막대입니다. 
+앱은 앱 표시줄에 고정 됩니다. 팀 데스크톱 클라이언트의 측면과 팀 모바일 클라이언트 (iOS 및 Android)의 맨 아래에 있는 막대입니다.
 
 |팀 데스크톱 클라이언트  |팀 모바일 클라이언트 |
 |---------|---------|
@@ -52,13 +52,16 @@ Microsoft 팀 관리 센터를 사용 하 여 사용자 지정 정책을 만들 
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱** > **설정 정책**으로 이동 합니다.
 2. **추가**를 클릭 합니다.
-3. 정책의 이름과 설명을 입력 한 다음 **앱 추가**를 클릭 합니다.
-4. 사용자가 팀에 사용자 지정 앱을 업로드 하도록 허용할지 여부에 따라 **사용자 지정 앱 업로드 허용**을 설정 하거나 해제 합니다. 앱 권한 정책의 [조직 전체 앱 설정](teams-app-permission-policies.md#manage-org-wide-app-settings) 에서 **제 3 자 또는 사용자 지정 앱** 이 해제 되어 있는 경우에는이 설정을 변경할 수 없습니다.
-5. 고정 된 **앱 추가** 창에서 추가 하려는 앱을 검색 한 다음 **추가**를 클릭 합니다. 앱 사용 권한 정책을 기준으로 앱을 필터링 할 수도 있습니다. 앱 목록을 선택한 후 **추가**를 클릭 합니다.
+    ![앱 설정 정책 추가 페이지를 보여 주는 스크린샷](media/app-setup-policies-add.png)
+3. 정책의 이름 및 설명을 입력 합니다.
+4. 사용자 지정 앱을 팀에 업로드 하도록 허용할지 여부에 따라 **사용자 지정 앱 업로드**를 설정 하거나 해제 합니다. 앱 권한 정책의 [조직 전체 앱 설정](teams-app-permission-policies.md#manage-org-wide-app-settings) 에서 타사 **앱 허용** 이 해제 되어 있는 경우이 설정을 변경할 수 없습니다.
+5. 사용자에 게 앱을 고정 하 여 앱 표시줄을 개인 설정할 수 있도록 할지 여부에 따라 **사용자 고정 허용**을 설정 하거나 해제 합니다.
+6. **앱 추가**를 클릭 합니다.
+7. 고정 된 **앱 추가** 창에서 추가 하려는 앱을 검색 한 다음 **추가**를 클릭 합니다. 앱 사용 권한 정책을 기준으로 앱을 필터링 할 수도 있습니다. 앱 목록을 선택한 후 **추가**를 클릭 합니다.
 
      ![고정 된 앱 추가 창을 보여 주는 스크린샷](media/app-setup-policies-add-apps.png)
 
-6. 팀에 표시할 순서 대로 앱을 정렬 한 다음 **저장**을 클릭 합니다.
+8. 팀에 표시할 순서 대로 앱을 정렬 한 다음 **저장**을 클릭 합니다.
 
     ![고정 된 앱 섹션을 보여 주는 스크린샷](media/app-setup-policies-new-policy-setup.png)
 

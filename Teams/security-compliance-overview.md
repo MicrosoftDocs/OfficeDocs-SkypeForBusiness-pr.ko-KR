@@ -3,7 +3,6 @@ title: Microsoft 팀의 보안 및 준수에 대 한 개요
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
@@ -17,19 +16,21 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56491fdde5dbd47e91f8c6f2386564b9e78160d3
-ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
+ms.openlocfilehash: 8e0f6424770e2a0ccbe7367d2786949ef4ef2f6d
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41165618"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573644"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 준수에 대 한 개요
 ======================================================
 
 Microsoft 팀은 고객이 기대 하는 고급 보안 및 규정 준수 기능을 제공 하는 Office 365 하이퍼 규모의 엔터프라이즈 등급 클라우드를 기반으로 합니다.
 
-팀 보안 및 준수에 대 한 간단한 소개 (12:42 min)에 대해서는이 비디오: [Microsoft 팀 Essentials: 보안 및 규정 준수](https://youtu.be/91lHNKVVvQ4)를 시청 하세요.
+보안 및 규정 준수에 대 한 다음 Microsoft 기술 비디오를 놓치지 마세요.
+- [Microsoft 팀의 주요 기능: 보안 및 준수](https://youtu.be/91lHNKVVvQ4) (12:42 분)
+- [Microsoft 팀의 보안 및 규정 준수 제어](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 분)
 
 팀은 계층 D 규격입니다. 여기에는 ISO 27001, ISO 27018, SSAE16 SOC 1, SOC 2, HIPAA 및 EU 모델 절 (EUMC)이 포함 됩니다. Microsoft 규정 준수 프레임 워크 내에서 Microsoft는 Office 365 응용 프로그램 및 서비스를 네 가지 범주로 분류 합니다. 각 범주는 해당 범주에 나열 되는 Office 365 서비스 또는 관련 Microsoft 서비스에 대해 충족 해야 하는 특정 준수 약정에 의해 정의 됩니다.
 

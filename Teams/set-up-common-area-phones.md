@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '로비, 수신 지역 및 회의실에 대 한 공통 영역 전화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: d00d91d4461a8b197f8629d3dfe9cee6653b2473
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 95346976488c9e08286f8158dc280ef447b4fc8f
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925309"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628394"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft 팀을 위한 공통 영역 전화 라이선스 설정
 > [!NOTE]
@@ -34,7 +34,7 @@ ms.locfileid: "37925309"
 
 아래 단계에서는 전화 시스템의 계정을 설정 하 여 조직의 공통 영역 전화를 배포 하는 방법에 대해 알아봅니다. 오디오 회의를 포함 하 여 더 완벽 한 회의실 환경을 보려면 회의실 장치를 사용 하 여 전용 회의실 라이선스를 구입 하는 것이 좋습니다. 
 
-가장 먼저 해야 할 일은 일반 CAP (지역 전화) 라이선스를 구입 하 여 인증 된 전화기를 보유 하 고 있는지 확인 하는 것입니다. 인증 된 휴대폰에 대 한 자세한 정보를 검색 하 고 자세한 내용을 보려면 [Microsoft 팀 장치로](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)이동 하세요. 
+먼저, 공통 CAP (지역 전화) 라이선스를 구입 하 고 인증 된 전화기를 보유 하 고 있는지 확인 해야 합니다. 인증 된 휴대폰에 대 한 자세한 정보를 검색 하 고 자세한 내용을 보려면 [Microsoft 팀 장치로](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)이동 하세요. 
 
 ## <a name="step-1---buy-the-licenses"></a>1 단계-라이선스 구입
 
@@ -44,7 +44,7 @@ ms.locfileid: "37925309"
 
 2. 지금 **일반 지역 전화** > **구입**을 선택 합니다.
 
-3. **체크 아웃** 페이지에서 **지금 구입**을 클릭 합니다.
+3. 체크 아웃 페이지에서 **지금 구입**을 클릭 합니다.
 
 4. **추가 기능 구독** 을 확장 한 다음을 클릭 하 여 통화 요금제를 구입 합니다. **국내 통화 요금제** 또는 **국내 및 국제 통화 요금제**중 하나를 선택 합니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "37925309"
 |   |  공통 지역 전화  |
 |---------|---------|
 |비즈니스용 Skype |   &#x2714; |
-|Microsoft 팀 |   &#x2714; |
+|Microsoft Teams |   &#x2714; |
 |전화 시스템 |    &#x2714; |
 |오디오 회의 |       &#x2718; &sup1  |
 |Microsoft Intune |        &#x2718; &sup2 |
@@ -93,17 +93,15 @@ ms.locfileid: "37925309"
 
 ## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>3 단계-일반 지역 전화 사용자 계정에 전화 번호 지정
 
-비즈니스용 Skype 관리 센터를 사용 하 여 사용자에 게 번호를 할당 합니다.
+팀 관리 센터를 사용 하 여 사용자에 게 번호를 할당 합니다.
 
-1. Microsoft 365 관리 센터에서 **관리 센터** > **팀 & Skype** > **레거시 포털**을 선택 합니다.
-
-2. 비즈니스용 Skype 관리 센터에서 **음성** > **전화 번호**를 선택 합니다.
+1. 팀 관리 센터에서 **음성** > **전화 번호**를 선택 합니다.
 
 3.  전화 번호 목록에서 번호를 선택 하 고 **할당**을 클릭 합니다.
 
 4. **지정** 페이지의 음성 사용자 상자에 휴대폰을 사용 하는 사용자의 이름을 입력 한 다음 **음성 사용자 선택** 드롭다운 목록에서 사용자를 선택 합니다.
 
-5. 여기서 긴급 주소를 추가 해야 합니다. **도시별로 검색**, **설명으로 검색**또는 드롭다운 목록에서 **위치를 기준으로 검색** 을 선택 하 고 텍스트 상자에 구/군/시, 설명 또는 위치를 입력 합니다. 검색 하 고 나 서 **긴급 주소 선택** 에서 바로 확인을 클릭 하 여 적절 하 게 선택 합니다.
+5. 다음으로 긴급 주소를 추가 해야 합니다. **도시별로 검색**, **설명으로 검색**또는 드롭다운 목록에서 **위치를 기준으로 검색** 을 선택 하 고 텍스트 상자에 구/군/시, 설명 또는 위치를 입력 합니다. 검색 하 고 나 서 **긴급 주소 선택** 에서 바로 확인을 클릭 하 여 적절 하 게 선택 합니다.
 
 6. **저장** 을 클릭 하면 사용자에 게 다음과 같은 모양이 표시 됩니다.
 
@@ -112,7 +110,7 @@ ms.locfileid: "37925309"
 > [!NOTE]
 > 사용자에 게 전화 시스템 라이선스가 적용 된 경우에만 표시 됩니다. 방금이 작업을 수행한 경우 사용자가 목록에 표시 되는 데 약간의 시간이 걸릴 수 있습니다.
 
-자세한 내용은 [사용자의 전화 번호 가져오기를](/microsoftteams/getting-phone-numbers-for-your-users)참조 하세요.
+자세한 내용은 [사용자의 전화 번호 가져오기를](getting-phone-numbers-for-your-users.md)참조 하세요.
 
 다른 통신 회사와 "포트"를 사용 하 여 전화 번호를 가져와 Office 365으로 양도할 수도 있습니다. [팀에 전화 번호 전송을](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)참조 하세요.
 

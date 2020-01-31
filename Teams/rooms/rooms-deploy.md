@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Microsoft 팀 방에 배포 하는 방법에 대해 자세히 알아보려면이 문서를 참조 하세요.
-ms.openlocfilehash: abe9b49febe313bb3b8d503b31562d6ae99128a0
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0511455516c1dd5ac011a15344bc8a576006fc70
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269115"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628264"
 ---
 # <a name="deployment-overview"></a>배포 개요
 
@@ -133,7 +133,8 @@ Microsoft 팀 회의실을 배포 하려는 경우 필요한 소프트웨어를 
 |-------------------------|-----------------------|   
 |적은 수의 Microsoft 팀 공간 장치 배포 (<10). | Surface Pro 기반 Microsoft 팀 대화방을 사용 하는 경우 [장치 단위 설치에 대 한 설치 지침](console.md)을 따릅니다. [이 편리한 비디오는이 과정을 안내 합니다.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 통합 된 솔루션을 사용 하는 경우 공급 업체 이미지를 사용 하 여 배포 하 고 필요에 따라 설정을 구성 합니다. |
 | 단일 공급 업체에서 10 대 50 장치를 배포 합니다.     | WIM 기반 이미지를 만들고, [지침의 6 단계](console.md)를 수행한 후에 일시 중지 하 고, 복제 배포 기술에 사용할 배포 이미지를 캡처 하세요.    |
-| 50 개 이상의 Microsoft 팀 공간 장치 배포, 둘 이상의 공급 업체에서 장치 배포, 배포의 일부로 조직 관련 에이전트 필요 | [System Center Configuration Manager](rooms-scale.md)와 같은 작업 시퀀서 기반 소프트웨어 빌드 및 배포 플랫폼을 사용 합니다.  |
+| 50 개 이상의 Microsoft 팀 공간 장치 배포, 둘 이상의 공급 업체에서 장치 배포, 배포의 일부로 조직 관련 에이전트 필요 | [Microsoft 끝점 구성 관리자](rooms-scale.md)와 같은 작업 시퀀서 기반 소프트웨어 빌드 및 배포 플랫폼을 사용 합니다.  |
+
 
 **Pro 팁** -각 Microsoft 팀 방에는 네트워크에 대 한 유효한 고유한 컴퓨터 이름이 있어야 합니다. 많은 모니터링 및 경고 시스템은 컴퓨터 이름을 키 식별자로 표시 하므로 Microsoft 팀 대화방 배포에 대 한 명명 규칙을 개발 하 여 지원 직원이 플래그가 지정 된 Microsoft 팀 회의실을 쉽게 찾을 수 있도록 하는 것이 중요 합니다. 작업이 필요 합니다. 예를 들어 mtr*사이트*-*방 이름* 패턴 (mtr-LON-curie)을 사용 하 고 있을 수 있습니다. 
 

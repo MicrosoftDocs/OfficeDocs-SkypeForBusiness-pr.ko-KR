@@ -14,23 +14,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 사용자가 직접 라우팅으로 SBCs 작업을 인증 하도록 선택 된 SBC 공급 업체와의 협력 파트너.
-ms.openlocfilehash: 32ba55ec9cd7fb95c527d8cab16f18af7ef2fbb5
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: a63a9d11e21d477bbb1e6c9e9872fff526046475
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111752"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634871"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
 선택 된 SBC (세션 경계 컨트롤러)를 사용 하 여 사용자의 SBCs가 직접 라우팅과 함께 작동 하도록 하는 Microsoft 파트너. 
 
-각 공급 업체와 함께 Microsoft: 
+Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다. 
 
-- 이는 SIP 상호 프로토콜에서 SBC 공급 업체와 공동으로 작업 합니다.
-- 타사 랩을 통해 강한 테스트를 수행 합니다. 테스트를 통과 한 장치만 인증 됩니다. 
+- SIP 상호 간의 프로토콜을 공동으로 작업 합니다.
+- 타사 랩을 사용 하 여 집중적인 테스트를 수행 합니다. 테스트를 통과 하는 장치만 인증 됩니다. 
 - 프로덕션 및 사전 프로덕션 환경에서 모든 인증 장치를 사용 하 여 매일 테스트를 실행 합니다. 사전 프로덕션 환경에서 디바이스의 유효성을 검사 하면 클라우드에 있는 직접 라우팅 코드의 새 버전이 정식 SBCs를 사용 하 여 작동 하도록 보장 합니다. 
-- SBC 공급 업체와의 공동 지원 프로세스가 있습니다.
+- SBC 공급 업체와 공동 지원 프로세스를 설정 합니다.
 
 
   > [!NOTE]
@@ -38,10 +38,10 @@ ms.locfileid: "41111752"
 
 아래 표에는 직접 라우팅에 대해 인증 된 장치가 나와 있습니다. 
 
-[직접 라우팅에 대해 자세히 알아보세요](https://aka.ms/dr). 다이렉트 라우팅에 대 한 SBC 인증 프로그램에 대 한 질문이 있는 경우 drsbccertification@microsoft.com에 전자 메일을 전송 해 주십시오.
+[직접 라우팅에 대해 자세히 알아보세요](https://aka.ms/dr). 직접 라우팅에 대 한 SBC 인증 프로그램에 대 한 질문이 있는 경우 drsbccertification@microsoft.com에 문의 하세요.
 
 
-|                                                       공급 업체                                                        |       지원부       | 비 미디어 바이패스 | 미디어 바이패스 | 소프트웨어 버전 | E911 공급자와 Vaidated | ELIN 가능
+|                                                       공급 업체                                                        |       지원부       | 비 미디어 바이패스 | 미디어 바이패스 | 소프트웨어 버전 | E911 공급자를 사용 하 여 유효성 검사 | ELIN 가능
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [오디오 코드](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20 a. 250   |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20 a. 250   |    |    |
@@ -55,9 +55,9 @@ ms.locfileid: "41111752"
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  Intrado <br>Intrado    |아니요|    
 |                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   Intrado <br>Intrado  |  아니요  |    
 |                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   Intrado <br>Intrado |   아니요 |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.1     |  Intrado <br>Intrado   |  중일  |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.1     |  Intrado <br>Intrado  |  중일  |    
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.1    |  Intrado <br>Intrado   |  중일  |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (빌드 537)     |  Intrado <br>Intrado   |  중일  |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (빌드 537)     |  Intrado <br>Intrado  |  중일  |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (빌드 216)    |  Intrado <br>Intrado   |  중일  |    
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    생각 365 SBC    |     &#10004;     |   중일    |       V 1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |    |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |    |    |    
@@ -67,4 +67,4 @@ ms.locfileid: "41111752"
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |    |    |    
 |                     [TE-시스템](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v 3.16.2      |     |    |    
 
-새로운 기능에 대 한 아이디어 등 팀에 대 한 제품 피드백을 제공 하려면 [Uservoice](https://microsoftteams.uservoice.com) 를 방문 하 여 주 버전에 부여 된 인증을 참고 하세요. 이는 주요 버전 다음의 SBC 펌웨어에 숫자가 포함 된 펌웨어가 지원 됨을 의미 합니다.
+새 기능에 대 한 아이디어 등 팀에 대 한 제품 피드백을 제공 하려면 [Uservoice](https://microsoftteams.uservoice.com) 참고 주 버전에 부여 된 인증을 참조 하세요. 이는 주요 버전 다음의 SBC 펌웨어에 숫자가 포함 된 펌웨어가 지원 됨을 의미 합니다.

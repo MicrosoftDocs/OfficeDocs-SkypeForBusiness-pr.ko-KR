@@ -1,5 +1,5 @@
 ---
-title: System Center Configuration Manager를 사용 하 여 Microsoft 팀 대화방 배포
+title: Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 대화방 배포
 author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
@@ -30,18 +30,18 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: fe6ea140f15c5234117aabe6612e0190e47ddc4d
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 3735553c1d2c0cc1b0d7e6065be606b69337e9cc
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269157"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628644"
 ---
-# <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>System Center Configuration Manager를 사용 하 여 Microsoft 팀 대화방 배포
+# <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 대화방 배포
 
-이 문서에서는 System Center Configuration Manager를 사용 하 여 Microsoft 팀 회의실 배포를 만드는 데 필요한 모든 정보를 제공 합니다.
+이 문서에서는 Microsoft 끝점 구성 관리자를 사용 하 여 Microsoft 팀 회의실 배포를 만드는 데 필요한 모든 정보를 제공 합니다.
 
-System Center Configuration Manager에서 제공 하는 사용 하기 쉬운 메서드를 사용 하 여 운영 체제 및 기타 응용 프로그램을 여러 대상 장치에 배포할 수 있습니다.
+구성 관리자가 제공 하는 사용 하기 쉬운 메서드를 사용 하 여 운영 체제 및 기타 응용 프로그램을 여러 대상 장치에 배포할 수 있습니다.
 
 아래 설명 된 방법을 사용 하 여 Configuration Manager 구성을 안내 하 고 조직에 필요한 경우이 가이드에서 제공 하는 샘플 패키지 및 스크립트를 사용자 지정 합니다.
 
@@ -54,17 +54,17 @@ System Center Configuration Manager에서 제공 하는 사용 하기 쉬운 메
 
 Configuration Manager를 사용 하 여 Microsoft 팀 회의실을 배포 하려면 다음 필수 구성 요소 및 요구 사항을 충족 해야 합니다.
 
-### <a name="system-center-configuration-manager-requirements"></a>System Center Configuration Manager 요구 사항
+### <a name="microsoft-endpoint-configuration-manager-requirements"></a>Microsoft Endpoint Configuration Manager 요구 사항
 
--   System Center Configuration Manager 버전은 1706 이상 이어야 합니다. 1710 이상을 사용 하는 것이 좋습니다. Configuration Manager에서 지원 되는 Windows 10 버전에 대 한 자세한 내용은 [System Center Configuration Manager에서 windows 10에 대 한 지원을](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) 참조 하세요.
+-   Microsoft Endpoint Configuration Manager 버전은 1706 이상 이어야 합니다. 1710 이상을 사용 하는 것이 좋습니다. Configuration manager [에서 windows 10](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) 을 지 원하는 windows 10 버전에 대 한 자세한 내용은 configuration manager에서 확인 하세요.
 
--   Windows 10 용 지원 되는 버전의 Windows ADK (평가 및 배포 키트)가 설치 되어 있어야 합니다. 여러 버전의 Configuration Manager에서 사용할 수 있는 [Windows 10 ADK](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-adk) 버전을 참조 하 고 배포에 올바른 버전이 포함 되어 있는지 확인 합니다.
+-   Windows 10 용 지원 되는 버전의 Windows ADK (평가 및 배포 키트)가 설치 되어 있어야 합니다. 여러 버전의 Configuration Manager에서 사용할 수 있는 [Windows 10 ADK](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk) 버전을 참조 하 고 배포에 올바른 버전이 포함 되어 있는지 확인 합니다.
 
--   사이트 시스템 서버에 배포 지점의 역할이 할당 되어 있어야 하며 네트워크에서 시작 된 배포를 사용 하려면 [PXE (부팅 전 실행 환경) 지원](https://docs.microsoft.com/sccm/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) 에 부팅 이미지를 사용 해야 합니다. PXE 지원이 사용 되지 않는 경우에는 배포에 [부팅 가능한 미디어](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) 를 사용할 수 있습니다.
+-   사이트 시스템 서버에 배포 지점의 역할이 할당 되어 있어야 하며 네트워크에서 시작 된 배포를 사용 하려면 [PXE (부팅 전 실행 환경) 지원](https://docs.microsoft.com/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) 에 부팅 이미지를 사용 해야 합니다. PXE 지원이 사용 되지 않는 경우에는 배포에 [부팅 가능한 미디어](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) 를 사용할 수 있습니다.
 
--   네트워크 액세스 계정은 새 컴퓨터 (완전 한 금속) 배포 시나리오를 지원 하도록 구성 되어 있어야 합니다. 네트워크 액세스 계정의 구성에 대 한 자세한 내용은 [System Center Configuration Manager에서 계정 관리를 참조 하 여 콘텐츠에 액세스](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)합니다.
+-   네트워크 액세스 계정은 새 컴퓨터 (완전 한 금속) 배포 시나리오를 지원 하도록 구성 되어 있어야 합니다. 네트워크 액세스 계정의 구성에 대 한 자세한 내용은 [구성 관리자에 사용 되는 계정을](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)참조 하세요.
 
--   동일한 Microsoft 팀 대화방 이미지를 동시에 여러 장치에 배포 하는 경우 [멀티 캐스트 지원을](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)사용 하도록 설정 하는 것이 좋습니다.
+-   동일한 Microsoft 팀 대화방 이미지를 동시에 여러 장치에 배포 하는 경우 [멀티 캐스트 지원을](https://docs.microsoft.com/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)사용 하도록 설정 하는 것이 좋습니다.
 
 ### <a name="networking-requirements"></a>네트워킹 요구 사항
 
@@ -73,14 +73,14 @@ Configuration Manager를 사용 하 여 Microsoft 팀 회의실을 배포 하려
     > [!NOTE]
     > DHCP 임대 기간은 이미지 배포 기간 보다 긴 값으로 설정 해야 합니다. 그렇지 않으면 배포가 실패할 가능성이 있습니다.
 
--   스위치 및 Vlan을 비롯 한 네트워크는 PXE를 지원 하도록 구성 해야 합니다. IP 도우미 및 PXE 구성에 대 한 자세한 내용은 네트워크 공급 업체에 문의 하세요. 또는 PXE 지원이 사용 되지 않는 경우 배포에 대해 [부팅 가능한 미디어](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) 를 사용할 수 있습니다.
+-   스위치 및 Vlan을 비롯 한 네트워크는 PXE를 지원 하도록 구성 해야 합니다. IP 도우미 및 PXE 구성에 대 한 자세한 내용은 네트워크 공급 업체에 문의 하세요. 또는 PXE 지원이 사용 되지 않는 경우 배포에 대해 [부팅 가능한 미디어](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) 를 사용할 수 있습니다.
 
     > [!NOTE]
     > Surface Pro 장치의 경우 네트워크 (PXE 부팅)의 부팅은 이더넷 어댑터 또는 Microsoft의 도킹 스테이션을 사용 하는 경우에만 지원 됩니다. 타사 이더넷 어댑터는 Surface Pro를 사용 하 여 PXE 부팅을 지원 하지 않습니다. 자세한 내용은 [이더넷 어댑터 및 Surface 배포](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment) 를 참조 하세요.
 
-## <a name="configure-system-center-configuration-manager-for-operating-system-deployment"></a>System Center Configuration Manager for 운영 시스템 배포 구성
+## <a name="configure-microsoft-endpoint-configuration-manager-for-operating-system-deployment"></a>운영 체제 배포용 Microsoft Endpoint Configuration Manager 구성
 
-이 문서에서는 시스템 센터 구성 관리자 배포가 이미 있는 것으로 가정 하 고, 구성 관리자를 처음부터 배포 하 고 구성 하는 데 필요한 모든 단계를 자세히 설명 하지는 않습니다. System Center 구성 관리자의 [설명서와 구성 지침은](https://docs.microsoft.com/sccm/) 훌륭한 리소스입니다. 아직 구성 관리자를 배포 하지 않은 경우 이러한 리소스부터 시작 하는 것이 좋습니다.
+이 문서에서는 이미 올바른 구성 관리자 배포를 보유 하 고 있는 것으로 가정 하 고 구성 관리자를 처음부터 배포 하 고 구성 하는 데 필요한 모든 단계를 자세히 설명 하지 않습니다. Microsoft 끝점 구성 관리자의 [설명서와 구성 지침은](https://docs.microsoft.com/configmgr/) 훌륭한 리소스입니다. 아직 구성 관리자를 배포 하지 않은 경우 이러한 리소스부터 시작 하는 것이 좋습니다.
 
 다음 지침을 사용 하 여 OSD (운영 체제 배포) 기능이 올바르게 구성 되어 있는지 확인 합니다.
 
@@ -90,7 +90,7 @@ Configuration Manager를 사용 하 여 Microsoft 팀 회의실을 배포 하려
 
 2.  설치 된 빌드 및 아직 설치 되지 않은 적용 가능한 업데이트를 확인 합니다.
 
-3.  [System Center Configuration Manager에서 Windows 10에 대 한 지원을 검토 합니다](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client). 배포를 업그레이드 해야 하는 경우 설치할 업데이트를 선택한 다음 **다운로드**를 선택 합니다.
+3.  [구성 관리자에서 Windows 10에 대 한 지원을 검토 합니다](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client). 배포를 업그레이드 해야 하는 경우 설치할 업데이트를 선택한 다음 **다운로드**를 선택 합니다.
 
 4.  다운로드가 완료 되 면 업데이트를 선택 하 고 **업데이트 팩 설치**를 선택 합니다.
 
@@ -118,7 +118,7 @@ Configuration Manager를 사용 하 여 Microsoft 팀 회의실을 배포 하려
 3.  **네트워크 액세스 계정** 탭을 선택 합니다. 하나 이상의 계정을 설정한 다음 **확인**을 선택 합니다.
 
 > [!NOTE]
-> 계정에는 배포 지점의 서버에서 해당 **네트워크에서이 컴퓨터 액세스** 권한을 제외한 특별 한 권한이 필요 하지 않습니다. 일반 도메인 사용자 계정이 적합 합니다. 자세한 내용은 [System Center Configuration Manager에서 계정 관리를 사용 하 여 콘텐츠에 액세스](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)를 참조 하세요.
+> 계정에는 배포 지점의 서버에서 해당 **네트워크에서이 컴퓨터 액세스** 권한을 제외한 특별 한 권한이 필요 하지 않습니다. 일반 도메인 사용자 계정이 적합 합니다. 자세한 내용은 [구성 관리자에 사용 되는 계정을](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)참조 하세요.
 
 ### <a name="configure-a-boot-image"></a>부팅 이미지 구성
 
@@ -140,15 +140,15 @@ Configuration Manager를 사용 하 여 Microsoft 팀 회의실을 배포 하려
 
 6.  메시지가 표시 되 면 **예** 를 선택 하 고 업데이트 된 부팅 이미지를 배포 지점에 배포 합니다.
 
-자세한 내용은 [System Center Configuration Manager를 사용 하 여 부팅 이미지 관리](https://docs.microsoft.com/sccm/osd/get-started/manage-boot-images)를 참조 하세요.
+자세한 내용은 [Configuration Manager를 사용 하 여 부팅 이미지 관리](https://docs.microsoft.com/configmgr/osd/get-started/manage-boot-images)를 참조 하세요.
 
 > [!NOTE]
-> PXE 지원이 없는 환경에 대 한 Configuration Manager 작업 순서 기반 배포를 시작 하기 위해 부팅 가능 USB 미디어를 만들 수 있습니다. 부팅 가능 미디어에는 Windows PE로 부팅 하 고 나머지 배포 프로세스에 대해 구성 관리자에 연결 하는 데 사용할 부트 이미지, 선택적으로 제공 되는 명령 및 필요한 파일 및 구성 관리자 바이너리가 포함 됩니다. 자세한 내용은 [부팅 가능 미디어를 만드는 방법을](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)참조 하세요.
+> PXE 지원이 없는 환경에 대 한 Configuration Manager 작업 순서 기반 배포를 시작 하기 위해 부팅 가능 USB 미디어를 만들 수 있습니다. 부팅 가능 미디어에는 Windows PE로 부팅 하 고 나머지 배포 프로세스에 대해 구성 관리자에 연결 하는 데 사용할 부트 이미지, 선택적으로 제공 되는 명령 및 필요한 파일 및 구성 관리자 바이너리가 포함 됩니다. 자세한 내용은 [부팅 가능 미디어 만들기](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)를 참조 하세요.
 
 ## <a name="create-configuration-manager-packages"></a>Configuration Manager 패키지 만들기
 
 > [!IMPORTANT]
-> 모든 MSI 릴리스의 각 SRS installer 버전에 대해 필요한 운영 체제 버전이 변경 되었습니다. 지정 된 MSI에 가장 적합 한 운영 체제 버전을 확인 하려면 콘솔 설치 스크립트를 한 번 실행 합니다. 자세히 알아보려면 [System Center Configuration Manager를 사용 하 여 Microsoft 팀 대화방 배포](rooms-scale.md)를 참조 하세요.
+> 모든 MSI 릴리스의 각 SRS installer 버전에 대해 필요한 운영 체제 버전이 변경 되었습니다. 지정 된 MSI에 가장 적합 한 운영 체제 버전을 확인 하려면 콘솔 설치 스크립트를 한 번 실행 합니다. 자세한 내용은 [Microsoft 끝점 구성 관리자를 사용 하 여 Microsoft 팀 대화방 배포](rooms-scale.md)를 참조 하세요.
 
 Configuration Manager에서 Microsoft 팀 대화방 단위를 배포 하 고 구성 하려면 여러 패키지가 필요 합니다.
 
@@ -168,13 +168,13 @@ Configuration Manager에서 Microsoft 팀 대화방 단위를 배포 하 고 구
 | Surface Pro                          | 드라이버 패키지         | Microsoft Surface Pro 용 장치 드라이버 및 펌웨어의 패키지                     |
 | Surface Pro 4                        | 드라이버 패키지         | Microsoft Surface Pro 4 용 장치 드라이버 및 펌웨어의 패키지                   |
 
-자세한 내용은 [System Center Configuration Manager에서 패키지 및 프로그램](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs)을 참조 하세요.
+자세한 내용은 [Configuration Manager에서 패키지 및 프로그램](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)을 참조 하세요.
 
 ### <a name="create-folders-for-the-package-source-files"></a>패키지 원본 파일에 대 한 폴더 만들기
 
 구성 관리자를 사용 하려면 패키지 원본 파일이 처음 만들어지고 업데이트 될 때 특정 폴더 구조에 구성 되어야 합니다.
 
-System Center Configuration Manager 중앙 관리 사이트 또는 기본 사이트 또는 패키지 원본 파일을 호스트 하는 데 사용 중인 서버 공유에 다음 폴더 구조를 만듭니다.
+Microsoft Endpoint Configuration Manager 중앙 관리 사이트 또는 기본 사이트 또는 패키지 원본 파일을 호스트 하는 데 사용 중인 서버 공유에 다음 폴더 구조를 만듭니다.
 
 -   SRS v2-Microsoft Monitoring Agent 패키지
 -   SRS v2-OS 업데이트 패키지
@@ -486,7 +486,7 @@ Active Directory 도메인에 가입 되지 않은 디바이스에 대 한 루�
 
 6.  **닫기를**선택 합니다.
 
-자세한 내용은 [System Center Configuration Manager를 사용 하 여 운영 체제 이미지 관리](https://docs.microsoft.com/sccm/osd/get-started/manage-operating-system-images)를 참조 하세요.
+자세한 내용은 [Configuration Manager를 사용 하 여 OS 이미지 관리](https://docs.microsoft.com/configmgr/osd/get-started/manage-operating-system-images)를 참조 하세요.
 
 ### <a name="create-surface-pro-device-driver-packages"></a>Surface Pro 장치 드라이버 패키지 만들기
 
@@ -524,7 +524,7 @@ Microsoft 팀 대화방은 Surface Pro 및 Surface Pro 4에서 모두 지원 됩
 12. 가져온 모든 드라이버를 새로 만든 폴더로 이동 하 여 탐색 및 작업을 더 쉽게 수행할 수 있습니다.
 
 > [!NOTE]
-> 사용할 수 있는 다른 Surface Pro 모델에 대해 같은 단계를 반복 합니다. 자세한 내용은 [System Center Configuration Manager에서 드라이버 관리](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers)를 참조 하세요.
+> 사용할 수 있는 다른 Surface Pro 모델에 대해 같은 단계를 반복 합니다. 자세한 내용은 [구성 관리자에서 드라이버 관리](https://docs.microsoft.com/configmgr/osd/get-started/manage-drivers)를 참조 하세요.
 
 ### <a name="create-microsoft-teams-rooms-configuration-package"></a>Microsoft 팀 대화방 구성 패키지 만들기
 
@@ -591,7 +591,7 @@ Microsoft 팀 대화방은 Surface Pro 및 Surface Pro 4에서 모두 지원 됩
 
 ## <a name="configuration-manager-task-sequences"></a>Configuration Manager 작업 순서
 
-System Center Configuration Manager에서 작업 순서를 사용 하 여 운영 체제 이미지를 대상 컴퓨터에 배포 하는 단계를 자동화 합니다. Microsoft 팀 회의실 단위를 자동화 된 방식으로 배포 하려면 대상 Microsoft 팀 공간 컴퓨터를 시작 하는 데 사용 되는 부팅 이미지, 설치할 Windows 10 Enterprise 운영 체제 이미지, 모든 작업 순서를 만듭니다. 다른 응용 프로그램 또는 소프트웨어 업데이트와 같은 기타 추가 콘텐츠
+작업 순서를 구성 관리자와 함께 사용 하 여 운영 체제 이미지를 대상 컴퓨터에 배포 하는 단계를 자동화 합니다. Microsoft 팀 회의실 단위를 자동화 된 방식으로 배포 하려면 대상 Microsoft 팀 공간 컴퓨터를 시작 하는 데 사용 되는 부팅 이미지, 설치할 Windows 10 Enterprise 운영 체제 이미지, 모든 작업 순서를 만듭니다. 다른 응용 프로그램 또는 소프트웨어 업데이트와 같은 기타 추가 콘텐츠
 
 ### <a name="import-the-sample-task-sequence"></a>샘플 작업 순서 가져오기
 
@@ -708,9 +708,9 @@ System Center Configuration Manager에서 작업 순서를 사용 하 여 운영
 <a name="validate-and-troubleshoot-the-solution"></a>해결 방법 유효성 검사 및 문제 해결
 --------------------------------------
 
-System Center Configuration Manager 작업 순서를 완료 한 후에는 작업 순서가 Microsoft 팀 대화방 단위를 배포 하 고 구성할 수 있는지 확인 하기 위해 테스트 실행을 수행 해야 합니다.
+Microsoft 끝점 구성 관리자 작업 시퀀스를 완료 한 후에는 작업 순서가 Microsoft 팀 대화방 단위를 배포 하 고 구성할 수 있는지 확인 하기 위해 테스트 실행을 수행 해야 합니다.
 
-1.  지원 되는 이더넷 어댑터 중 하나를 사용 하거나 Surface dock를 사용 하 여 테스트 장치를 유선 네트워크에 연결 합니다. PXE 부팅 기능이 환경에 맞게 구성 되지 [않은 경우 이전에 만든](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media) usb 플래시 드라이브의 부팅 이미지를 사용 하 여 usb에서 부팅 하 고 구성 관리자에 연결할 수 있습니다.
+1.  지원 되는 이더넷 어댑터 중 하나를 사용 하거나 Surface dock를 사용 하 여 테스트 장치를 유선 네트워크에 연결 합니다. PXE 부팅 기능이 환경에 맞게 구성 되지 [않은 경우 이전에 만든](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media) usb 플래시 드라이브의 부팅 이미지를 사용 하 여 usb에서 부팅 하 고 구성 관리자에 연결할 수 있습니다.
 
 2.  펌웨어에 액세스 하 고 PXE 부팅 시작:
 
@@ -772,4 +772,4 @@ PXE 부팅 문제를 해결 하려면 Configuration Manager 서버의 PXE 동작
 
 -   **Smspxe .log**(Configuration Manager 관리 위치 (MP) 로그 디렉터리에 있음)
 
-Configuration Manager 설치 문제를 해결 하는 데 사용할 수 있는 전체 로그 파일 목록은 [System Center Configuration manager의 로그 파일](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/log-files)을 참조 하세요.
+Configuration Manager 설치 문제를 해결 하는 데 사용할 수 있는 전체 로그 파일 목록은 Microsoft Endpoint Configuration Manager [로그 파일 참조](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/log-files)를 참조 하세요.

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Online 휴대폰용 배포
+title: 비즈니스용 Skype Online 휴대폰 배포
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 올바른 펌웨어를 얻고, 필요한 경우 업데이트 하 고, 라이선스를 할당 하 고, 비즈니스용 Skype online 휴대폰용 설정을 구성 하는 배포 단계를 알아보세요.
-ms.openlocfilehash: 8d3de52f7c732571b3692ed2b3683673acdb8e60
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 10562165547a27bb8a2903e7f11f3c547cca1b1e
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "37642470"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628384"
 ---
-# <a name="deploying-skype-for-business-online-phones"></a>비즈니스용 Skype Online 휴대폰용 배포
+# <a name="deploying-skype-for-business-online-phones"></a>비즈니스용 Skype Online 휴대폰 배포
 
 이 배포 가이드는 비즈니스용 Skype Online IP 전화를 배포 하는 데 도움이 됩니다.
   
@@ -69,7 +69,7 @@ ms.locfileid: "37642470"
 > [!NOTE]
 > 5.5.1 이전의 Polycom 펌웨어에는 비즈니스용 Skype 구현 "전화 잠금"으로 대체 되는 제조업체 관련 장치 잠금 메커니즘이 있습니다. 5.5.1에서 "Device Lock"으로 보안이 설정 된 전화를 업그레이드 하면 "전화-잠금"을 사용 하 여 "장치 잠금"에서 PIN 코드를 상속 받지 않으므로 안전 하지 않은 전화기를 남길 수 있습니다. "장치 잠금"을 활성화 한 사용자는 다음 Polycom 디바이스 프로필 매개 변수를 사용 하 여 사용자에 게 업그레이드 시간 (popUpSK, enabled = 1)을 제어 해야 합니다. 
   
-펌웨어 업데이트는 비즈니스용 Skype 서비스에서 관리 합니다. 모든 비즈니스용 Skype 인증 휴대폰의 펌웨어가 비즈니스용 Skype 업데이트 서버에 업로드 되며 기본적으로 모든 전화기에서 장치 업데이트를 사용할 수 있습니다. 휴대폰 및 폴링 간격의 비활성 시간에 따라 전화는 자동으로 최신 인증 된 빌드를 다운로드 하 고 설치 합니다. [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) cmdlet을 사용 하 고 _enabledeviceupdate_ 매개 변수를로 `false`설정 하 여 장치 업데이트 설정을 사용 하지 않도록 설정할 수 있습니다.
+펌웨어 업데이트는 비즈니스용 Skype 서비스에서 관리 합니다. 모든 비즈니스용 Skype 인증 휴대폰의 펌웨어가 비즈니스용 Skype 업데이트 서버에 업로드 되며 기본적으로 모든 전화기에서 장치 업데이트를 사용할 수 있습니다. 휴대폰 및 폴링 간격의 비활성 시간에 따라 전화는 자동으로 최신 인증 된 빌드를 다운로드 하 고 설치 합니다. [Set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) cmdlet을 사용 하 고 _enabledeviceupdate_ 매개 변수를로 `false`설정 하 여 장치 업데이트 설정을 사용 하지 않도록 설정할 수 있습니다.
   
 ![전화 배포를 보여주는 스크린샷](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
@@ -88,7 +88,7 @@ Polycom 휴대폰의 경우 **Swupdate**를 선택 하 여 휴대폰에서 펌�
   
 ### <a name="step-5---configuration-and-infrastructure-phone-settings"></a>5 단계-구성 및 인프라 전화 설정
 
-비즈니스용 Skype 대역 내 관리 Windows PowerShell cmdlet을 사용 하 여 가장 일반적으로 사용 되는 전화 옵션 및 정책을 설정할 수 있습니다. 이러한 매개 변수 및 설정에 대 한 자세한 내용은 [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) 를 참조 하세요.
+비즈니스용 Skype 대역 내 관리 Windows PowerShell cmdlet을 사용 하 여 가장 일반적으로 사용 되는 전화 옵션 및 정책을 설정할 수 있습니다. 이러한 매개 변수 및 설정에 대 한 자세한 내용은 [Set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) 를 참조 하세요.
   
 네트워크 인프라 계획에 대해서는 [Skype 운영 프레임 워크](https://www.skypeoperationsframework.com/)를 참조 하세요.
   
@@ -172,19 +172,19 @@ Polycom 휴대폰의 경우 **Swupdate**를 선택 하 여 휴대폰에서 펌�
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**비즈니스용 Skype** <br/> |**교환** <br/> |**휴대폰 로그인 방법** <br/> |**비즈니스용 Skype 액세스** <br/> |**최신 인증 및 MFA를 사용 하는 Exchange Access** <br/> |**최신 인증 및 MFA를 사용 하는 Exchange Access** <br/> |
-|온라인  <br/> |온라인  <br/> |웹 로그인  <br/> |'  <br/> |'  <br/> |'  <br/> |
-|온라인  <br/> |온라인  <br/> |사용자 이름/비밀 번호  <br/> |'  <br/> |'  <br/> |아니요  <br/> |
-|온라인  <br/> |온-프레미스  <br/> |웹 로그인  <br/> |'  <br/> |아니요  <br/> |아니요  <br/> |
-|온라인  <br/> |온-프레미스  <br/> |사용자 이름/비밀 번호  <br/> |'  <br/> |'  <br/> |아니요  <br/> |
-|온-프레미스  <br/> |온라인/온-프레미스  <br/> |PIN 인증  <br/> |'  <br/> |아니요  <br/> |아니요  <br/> |
-|온-프레미스  <br/> |온라인/온-프레미스  <br/> |사용자 이름/비밀 번호  <br/> |'  <br/> |'  <br/> |해당 없음  <br/> |
-|온-프레미스  <br/> |온라인/온-프레미스  <br/> |PC를 통한 로그인 (BTOE)  <br/> |'  <br/> |'  <br/> |해당 없음  <br/> |
+|온라인  <br/> |온라인  <br/> |웹 로그인  <br/> |예  <br/> |예  <br/> |예  <br/> |
+|온라인  <br/> |온라인  <br/> |사용자 이름/비밀 번호  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
+|온라인  <br/> |온-프레미스  <br/> |웹 로그인  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |
+|온라인  <br/> |온-프레미스  <br/> |사용자 이름/비밀 번호  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
+|온-프레미스  <br/> |온라인/온-프레미스  <br/> |PIN 인증  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |
+|온-프레미스  <br/> |온라인/온-프레미스  <br/> |사용자 이름/비밀 번호  <br/> |예  <br/> |예  <br/> |해당 없음  <br/> |
+|온-프레미스  <br/> |온라인/온-프레미스  <br/> |PC를 통한 로그인 (BTOE)  <br/> |예  <br/> |예  <br/> |해당 없음  <br/> |
    
 - **전화 기능** 기능 집합은 IP 전화 파트너에 따라 약간씩 다를 수 있습니다. 전체 기능 집합 및 각 전화 제조업체의 기능에 대 한 자세한 내용은 [비즈니스용 Skype Online에서 전화 받기](getting-phones-for-skype-for-business-online.md)를 참조 하세요.
     
 - **전화-잠금** 기능은 휴대폰을 보호 하는 데 사용 되는 비즈니스용 Skype 인증 전화에서 최근에 소개 된 기능입니다. 이 설정을 사용 하면 인증에 성공한 사용자에 게 PIN을 만들라는 메시지가 표시 됩니다. 일단 만든 유휴 시간 제한이 만료 되는 경우, 사용자가 수동으로 휴대폰을 잠그거나 전화 연결을 사용 하 여 PC 잠금과 휴대폰 잠금을 동기화 할 때 전화가 잠깁니다. 전화 잠금 PIN을 여러 번 잘못 입력 한 경우, 휴대폰은 사용자에 게 로그인 하거나 전화를 잠금 해제 하기 위해 관리자의 코드가 필요 하지만,이는 휴대폰 파트너에 따라 달라 집니다. 사용자의 PIN은 6 ~ 15 자리 여야 합니다.
     
-    조직에 대해 전화 (기본적으로 설정 되어 있음)를 사용 하지 않도록 설정할 수 있으며, 유휴 시간 제한을 변경 하 고, 사용자가 inband-설정을 사용 하지 않거나 잠겨 있는 동안 전화를 걸 수 있는지 여부를 선택 합니다. 이러한 설정에 대 한 자세한 내용은 [Set-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx) 를 참조 하세요.
+    조직에 대해 전화 (기본적으로 설정 되어 있음)를 사용 하지 않도록 설정할 수 있으며, 유휴 시간 제한을 변경 하 고, 사용자가 inband-설정을 사용 하지 않거나 잠겨 있는 동안 전화를 걸 수 있는지 여부를 선택 합니다. 이러한 설정에 대 한 자세한 내용은 [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps) 를 참조 하세요.
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>7 단계 (선택 사항)-이더넷 (BToE)를 통해 디바이스 페어링과 더 나은 기능을 함께 사용 하는 경우
 <a name="BK_BTOE"> </a>
@@ -205,7 +205,7 @@ BToE는 두 가지 모드 ( *자동* (기본값)와 *수동* )에서 작동 하�
     
      ![PC 연결을 보여 주는 스크린샷](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. 아래 링크에서 제조업체 웹 사이트의 최신 BToE 소프트웨어를 다운로드 하 여 설치 합니다. 사용자 환경을 개선 하기 위해 SCCM (System Center Configuration Manager) 등의 관리 배포 솔루션을 사용 하 여 BToE 소프트웨어를 배포 하 고 설치할 수 있습니다. SCCM 사용에 대 한 도움말은 [System Center Configuration Manager에서 패키지 및 프로그램](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs)을 참조 하세요.
+2. 아래 링크에서 제조업체 웹 사이트의 최신 BToE 소프트웨어를 다운로드 하 여 설치 합니다. 사용자 환경을 개선 하기 위해 Microsoft 끝점 구성 관리자와 같은 관리 배포 솔루션을 사용 하 여 BToE 소프트웨어를 배포 하 고 설치할 수 있습니다. 구성 관리자를 사용 하는 방법에 대 한 도움말은 [Configuration manager에서 패키지 및 프로그램](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)을 참조 하세요.
     
    - [Polycom BToE 소프트웨어 다운로드 사이트](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
@@ -213,17 +213,17 @@ BToE는 두 가지 모드 ( *자동* (기본값)와 *수동* )에서 작동 하�
     
    - [오디오 코드 BToE 소프트웨어 다운로드](https://www.audiocodes.com/solutions-products/solutions/skype-for-business-microsoft-teams/skype-for-business-online)
     
-3. BToE에 대 한 서버 설정은 기본적으로 **사용** 으로 설정 되 고 **자동 모드** 입니다. 이러한 설정을 변경 하려면 [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)을 참조 하세요.
+3. BToE에 대 한 서버 설정은 기본적으로 **사용** 으로 설정 되 고 **자동 모드** 입니다. 이러한 설정을 변경 하려면 [Set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx)을 참조 하세요.
     
 > [!NOTE]
 > BToE는 현재 Mac 및 VDI 플랫폼에서 지원 되지 않습니다. 
   
 ## <a name="related-topics"></a>관련 항목
-[비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능 여부](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
  

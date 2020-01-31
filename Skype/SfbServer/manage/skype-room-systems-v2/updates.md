@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
 description: Microsoft 팀 대화방에 대 한 Windows 업데이트 관리
-ms.openlocfilehash: 09be03b0308dfcf00a39421e2e84b75fe94a9fae
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 346747d3d5731f5b4504c45066a39a28f5289e70
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775319"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628684"
 ---
 # <a name="manage-windows-updates"></a>Windows 업데이트 관리
 
@@ -33,11 +33,11 @@ Windows 업데이트는 몇 가지 다른 방법으로 관리할 수 있습니�
 
 ## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[비즈니스용 Windows 업데이트](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (GPO 또는 Intune)   
 - 업데이트는 WU 또는 WSUS에서 다운로드 되지만 KB의 원래 릴리스 날짜 이후에는 구성 된 지연이 있습니다. 
-- 여러 OU 또는 필터링 된 정책과 함께,이를 통해 관리자가 품질 업데이트를 먼저 설치 하 고 나중에 설치할 장치를 지정할 수 있는 배포 "링"이 허용 됩니다. 이렇게 하면 SCCM에서 Windows 업데이트를 관리 하는 오버 헤드 없이 전체 배포에 대 한 업데이트를 롤아웃하기 전에 시스템 하위 집합의 안정성 및 성능 테스트를 수행할 수 있습니다.
+- 여러 OU 또는 필터링 된 정책과 함께,이를 통해 관리자가 품질 업데이트를 먼저 설치 하 고 나중에 설치할 장치를 지정할 수 있는 배포 "링"이 허용 됩니다. 이렇게 하면 Microsoft 끝점 구성 관리자에서 Windows 업데이트를 관리 하는 오버 헤드 없이 전체 배포에서 업데이트를 롤아웃하기 전에 시스템 하위 집합의 안정성 및 성능 테스트를 수행할 수 있습니다.
 - 대역폭 관리와 비즈니스용 Windows 업데이트 컨트롤이 제공 되는 경우 비즈니스용 WSUS 및 Windows 업데이트를 동시 [에 구성할](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) 수 있습니다.
 - 기능 업데이트. 아래 추가 참고 자료를 참조 하세요.
 
-## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+## <a name="wsusconfiguration-managerhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/구성 관리자](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 - 비즈니스를 위한 Windows 업데이트와 비슷하지만, 각 "링" 내에서 특정 KB의 대상을 지정 하는 추가 옵션 또는 전체 배포를 사용 하는 것과 매우 유사 합니다. 각 업데이트는 지연에 의존 하지 않고 각각 개별적으로 배포 하 고 테스트할 수 있습니다. 
 - 기능 업데이트. 아래 추가 참고 자료를 참조 하세요.
 
@@ -48,4 +48,4 @@ Windows 업데이트는 몇 가지 다른 방법으로 관리할 수 있습니�
 
 Microsoft 팀은 핸 끈 접근 방법으로 "부재 중"으로 공간을 확보 하 고 windows 업데이트 때문에 Windows 업데이트를 설치 하거나 장치를 자동으로 다시 부팅 하지 않습니다. 그러나 시스템은 업데이트를 다운로드 하 고 다음 번 다시 부팅 하 여 설치할 때까지 기다립니다. 다른 사용자가 수동으로 다시 부팅 하지 않는 한, 자동으로 야간 부팅 하는 경우 설치가 이루어집니다. Windows 업데이트는 채팅방에서 투명 해야 하며, Windows 업데이트에 의해 UI가 중단 되어서는 안 됩니다.
 
-도메인 참가를 선택 하는 경우 SCCM 또는 WSUS를 사용 하 고, 장치에서 업데이트를 설치 하거나 비즈니스 시간 동안 다시 부팅 하도록 할 수 있는 정책 또는 작업에 특별히 주의를 기울여야 합니다. 배포에 시스템을 다시 부팅 하거나 UI를 통해 Windows 업데이트에 대 한 경고를 받은 경우에는 구성을 확인 하는 것이 더 필요 합니다.
+도메인 참가를 선택 하는 경우 Microsoft Endpoint Configuration Manager 또는 WSUS를 사용 하 고, 장치에서 업데이트를 설치 하거나 비즈니스 시간 동안 다시 부팅 되도록 할 수 있는 정책 또는 작업에 특별히 주의를 기울여야 합니다. 배포에 시스템을 다시 부팅 하거나 UI를 통해 Windows 업데이트에 대 한 경고를 받은 경우에는 구성을 확인 하는 것이 더 필요 합니다.

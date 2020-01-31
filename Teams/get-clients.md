@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f698d46be07c60d2034b2e355ad70b488b2d7646
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: ed6b86aacf13b577d45ee982d32fae7565d37314
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111482"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628544"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft 팀 용 클라이언트 가져오기 
 
@@ -45,7 +45,7 @@ Microsoft 팀 데스크톱 클라이언트는 독립 실행형 응용 프로그�
 
 데스크톱 클라이언트는 최종 사용자가 적절 한 로컬 권한을 갖고 있는 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 경우 직접 다운로드 및 설치할 수 있습니다 (관리자 권한은 PC에 팀 클라이언트를 설치 하는 데는 필요 하지 않지만 Mac에는 필요 하지 않음).
 
-IT 관리자는 조직의 컴퓨터에 설치 파일을 배포 하는 데 선호 하는 방법을 선택할 수 있습니다. 몇 가지 예로는 System Center Configuration Manager (Windows) 또는 Jamf Pro (macOS)이 있습니다. Windows 배포용 MSI 패키지를 가져오려면 [msi를 사용 하 여 Microsoft 팀 설치](msi-deployment.md)를 참조 하세요.  
+IT 관리자는 조직의 컴퓨터에 설치 파일을 배포 하는 데 선호 하는 방법을 선택할 수 있습니다. 몇 가지 예로는 Microsoft Endpoint Configuration Manager (Windows) 또는 Jamf Pro (macOS)이 있습니다. Windows 배포용 MSI 패키지를 가져오려면 [msi를 사용 하 여 Microsoft 팀 설치](msi-deployment.md)를 참조 하세요.  
 
 > [!NOTE]
 > 이러한 메커니즘을 통해 클라이언트를 배포 하는 것은 향후 업데이트에 대 한 것이 아니라 Microsoft 팀 클라이언트의 초기 설치에만 해당 됩니다.

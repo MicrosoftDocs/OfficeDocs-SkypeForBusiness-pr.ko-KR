@@ -14,19 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be40c98a66e5f3023ce375d0a00515832280c7c0
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: b7660cc35986b8b0debc449bacde686bb9e2694b
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714494"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580925"
 ---
 # <a name="user-presence-in-teams"></a>Teams에서 사용자 현재 상태 확인
 
 현재 상태는 Microsoft 팀 (및 Office 365)의 사용자 프로필의 일부로, 다른 사용자에 대 한 현재의 가용성과 상태를 표시 합니다. 다른 사용자가 온라인 상태를 사용할 수 있는 경우 기본적으로 팀을 사용 하는 조직의 모든 사용자가 거의 실시간으로 볼 수 있습니다.
 
 > [!IMPORTANT]
-> 사용자를 **팀 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거 하는 경우 Outlook 및 다른 Office 앱에서 현재 상태는 작동 중지 됩니다. 팀에서 상태는 제대로 작동 합니다. 해결 방법: Outlook (및 다른 Office 앱)에서 현재 상태를 확인 하려면 팀 **전용** 모드로 팀을 실행 하는 경우에도 비즈니스용 Skype를 설치 해야 합니다. Microsoft는이 문제를 알고 있으며 수정 작업을 진행 중입니다.
+> 사용자가 **Teams 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거하면 Outlook 및 기타 Office 앱에서 현재 상태가 작동하지 않습니다. 현재 상태는 Teams에서 잘 작동합니다. 해결 방법: Outlook (및 다른 Office 앱)에서 현재 상태를 확인 하려면 팀 **전용** 모드로 팀을 실행 하는 경우에도 비즈니스용 Skype를 설치 해야 합니다. Microsoft는 이 문제를 알고 있으며 해결하기 위해 노력하고 있습니다.
 
 Outlook에 있는 팀의 현재 상태는 Outlook 2013 데스크톱 앱 이상에서 지원됩니다.
 
@@ -41,7 +41,7 @@ Outlook에 있는 팀의 현재 상태는 Outlook 2013 데스크톱 앱 이상�
 |  ![빨간색 실선 원으로, 약속이 있음을 나타냅니다.](media/Presence_Busy.png) 작업 |  ![빨간색 실선 원으로, 약속이 있음을 나타냅니다.](media/Presence_Busy.png) 작업  |
 || ![빨간색 원으로 표시 되며 통화 중입니다.](media/Presence_Busy.png) 통화 중|
 || ![빨간색 실선 원으로, 모임에서 약속이 있음을 나타냅니다.](media/Presence_Busy.png) 모임에서 |
-|| ![빨간색 원 열림, 약속이 있음을 나타냅니다.](media/Presence_Busy_OOF.png) 통화 중, 부재 중|
+|| ![빨간색 원 열림, 약속이 있음을 나타냅니다.](media/Presence_Busy_OOF.png) 전화 걸기, 부재 중|
 |  ![흰색 선이 있는 빨간색 원, 방해 금지 표시](media/Presence_DND.png) 방해 금지 ||
 || ![흰색 선이 있는 빨간색 원으로 프레젠테이션 표시](media/Presence_DND.png) 프레젠테이션할|
 || ![흰색 선이 있는 빨간색 원이 포커스를 나타냄](media/Presence_DND.png) 집중할|

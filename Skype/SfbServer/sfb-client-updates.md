@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 정품 버전의 비즈니스용 Skype 2016, 비즈니스용 Skype 2015, Lync 2013 클라이언트에 대 한 최신 업데이트 정보에 대 한 링크를 IT 전문가에 게 제공 합니다.
-ms.openlocfilehash: 70a99da3d3e8c9c6cdbff5d68cdb7fe8c255ca3d
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 717a1235622a8c2356797a765cd4d292ce0c68e6
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069389"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580915"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows Installer (MSI)를 사용 하는 비즈니스용 Skype 버전에 대 한 최신 업데이트
 
@@ -44,6 +44,7 @@ Office 365 및 온-프레미스 환경과의 비즈니스용 Skype 호환성은 
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:---  |:---  |:---  |
+|비즈니스용 Skype 2016 업데이트 |[KB 4484133](https://support.microsoft.com/kb/4484133) | 2019 년 12 월|
 |비즈니스용 Skype 2016 업데이트 |[KB 4484102](https://support.microsoft.com/kb/4484102) | 2019 년 10 월|
 |비즈니스용 Skype 2016 업데이트 |[KB 4475577](https://support.microsoft.com/kb/4475577) | 2019 년 9 월|
 |비즈니스용 Skype 2016 업데이트 |[KB 4475548](https://support.microsoft.com/kb/4475548) | 2019 년 8 월|

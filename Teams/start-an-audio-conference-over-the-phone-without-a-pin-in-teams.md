@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '팀 관리 센터에서 익명 호출자가 모임에 참가 하지 않도록 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 78b35b65c1bb27d366e8e9fa27c49ef32864081f
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 380272f3f70d68a04a171ea820e391dd2dd5347a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37570009"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580845"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Microsoft 팀에서 PIN을 사용 하지 않고 전화로 오디오 회의 시작
 
@@ -48,11 +48,11 @@ Microsoft 팀 모임 이끌이가 모임을 시작 하지 않았기 때문에 �
 
 3. **오디오 회의**옆에 있는 **편집**을 클릭 합니다.
 
-4. **오디오 회의** 창에서 인증 되지 않은 발신자를 사용 하거나 사용 하지 않도록 설정 하는 **것이 모임에서 첫 번째 사용자가 될 수 있습니다**.
+4. **오디오 회의** 창에서 전화 접속 발신자를 사용 하거나 사용 하지 않도록 설정 하는 **것이 모임에서 첫 번째 사용자가 될 수 있습니다**.
     
-4. **저장**을 클릭 합니다. 
+4. **적용**을 클릭 합니다. 
 
-**Windows Powershell 사용**
+**Windows PowerShell 사용**
   
 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 를 참조 하세요.
 
@@ -82,6 +82,6 @@ Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는
     
 Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

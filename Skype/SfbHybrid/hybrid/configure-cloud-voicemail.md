@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버에 있는 사용자에 대해 클라우드 기반 음성 메일을 구현 하기 위한 지침입니다.
-ms.openlocfilehash: 754d69a9b76497f8776667b6ac97498a151c7e4e
-ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
+ms.openlocfilehash: 5dee8259cd994e4d83b92aa2f68c7f6b4a11df27
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "41230358"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580835"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>온-프레미스 사용자를 위한 클라우드 음성 메일 서비스 구성
 
@@ -100,7 +100,7 @@ Get-CsHostedVoicemailPolicy
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>사용자가 클라우드 음성 메일을 사용할 수 있도록 설정
