@@ -16,7 +16,7 @@
 ### [Exchange Online (하이브리드)를 사용하면](with-exchange-online.md)
 ### [Exchange 온-프레미스 (하이브리드)를 사용 하면](with-exchange-on-premises.md)
 ### [콘솔 구성](console.md)
-### [System Center Configuration Manager를 사용하여](rooms-scale.md)
+### [Microsoft 끝점 구성 관리자 사용](rooms-scale.md)
 ### [Azure 모니터를 이용한 관리](azure-monitor-deploy.md)
 ### [SRS v1 또는 LRS 마이그레이션](lrs-migration.md)
 ### [콘텐츠 카메라](content-camera.md)
