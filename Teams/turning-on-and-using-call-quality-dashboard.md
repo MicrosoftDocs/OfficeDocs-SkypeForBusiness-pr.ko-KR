@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 참조 하세요. '
-ms.openlocfilehash: 4aea268e2c25e655b7f2dee914497ae3154f0008
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: e29bced13fd4bad900c349efc07219e4edebc9d3
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41620042"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41636846"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
@@ -196,7 +196,7 @@ CQD 요약 보고서는 자세한 보고서에 대해 계획 된 기능의 하�
 
 CQD의 모든 버전은 새 보고서를 만들 필요 없이 품질 메트릭스를 제공 하는 환경을 제공 합니다. 백 엔드에서 데이터가 처리 되 면 보고서에 통화 품질 데이터가 표시 됩니다.
 
-T e 2020의 새로운 [기능: CQD 용 POWER BI 쿼리 서식 파일을 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true)합니다. CQD 데이터를 분석 하 고 보고 하는 데 사용할 수 있는 사용자 지정 가능한 Power BI 서식 파일입니다.
+T e 2020의 새로운 [기능: CQD 용 POWER BI 쿼리 서식 파일을 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)합니다. CQD 데이터를 분석 하 고 보고 하는 데 사용할 수 있는 사용자 지정 가능한 Power BI 서식 파일입니다.
   
 ### <a name="overview-reports"></a>개요 보고서
 
