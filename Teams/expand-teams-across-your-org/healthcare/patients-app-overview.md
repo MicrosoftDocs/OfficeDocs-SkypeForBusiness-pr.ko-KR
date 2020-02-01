@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: 팀 용 환자 앱 관리자
-ms.openlocfilehash: 550a92ac638f1d83cf8bca9a89e0e29d323247e0
-ms.sourcegitcommit: d7fab927e96954f294f28dfb33c0889f736b3ab5
+ms.openlocfilehash: 38750974ce2d4763cad79b9b4cf50a32f403c7a8
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259067"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634841"
 ---
 # <a name="patients-app-overview"></a>환자 앱 개요
 
@@ -28,8 +28,8 @@ ms.locfileid: "41259067"
 
 앱에는 두 가지 모드가 있습니다.
 
-- Emr를 통해 FA r을 통해 연결 하는 EMR 연결 모드입니다. EMR 연결 모드 앱은 비공개 미리 보기에서 유지 되며, 관련 고객 또는 관리자가 Office 365 테 넌 트에 대 한 정보로 teamsforhealthcare@service.microsoft.com에서 Microsoft 전자 메일을 삭제 하 여 앱에 대 한 액세스를 요청할 수 있습니다.
-- 주의 팀이 환자 정보를 수동으로 추가/지참물 할 수 있도록 해 주는 수동 모드입니다. 최종 사용자가 기본적으로 다운로드할 수 있도록 응용 프로그램을 팀 앱 저장소에서 사용할 수 있으며, 공개 미리 보기입니다. [Microsoft 팀에서 앱 설치 정책을](../../teams-app-setup-policies.md) 사용 하 여 특정 사용자 섹션으로 앱을 제한할 수 있습니다.
+- Emr를 통해 FA r을 통해 연결 하는 EMR 연결 모드입니다. EMR 연결 모드 앱은 비공개 미리 보기에서 유지 되며, 관련 고객 또는 관리자가 Office 365 테 넌 트에 대 한 정보로 [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 에서 Microsoft 전자 메일을 삭제 하 여 앱에 대 한 액세스를 요청할 수 있습니다.
+- 주의 팀이 환자 정보를 수동으로 추가/지참물 할 수 있도록 해 주는 수동 모드입니다. 이 응용 프로그램은 최종 사용자가 비공개 미리 보기에서 다운로드할 수 있는 팀 앱 스토어에서 제공 됩니다. 팀에서 [앱 설치 정책을](../../teams-app-setup-policies.md) 사용 하 여 특정 사용자 섹션으로 앱을 제한할 수 있습니다. 앱에 대 한 액세스 권한을 얻으려면 테 넌 트가 기술 채택 프로그램에 포함 되어 있어야 합니다 (탭). [Teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 에서 전자 메일을 삭제 하 여 액세스 요청 프로세스를 시작 하세요.
 
 ## <a name="usage-example"></a>사용 예제
 
