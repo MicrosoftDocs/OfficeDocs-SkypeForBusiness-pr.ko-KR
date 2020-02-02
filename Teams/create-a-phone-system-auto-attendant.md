@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 클라우드 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: be7e62bdad1fb0d9ed2d2d5e610c8eed5c49ae7f
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41005198"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41664335"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>클라우드 자동 전화 교환 설정
 
@@ -162,22 +162,9 @@ ms.locfileid: "41005198"
   > **조직의** 사용자는 비즈니스용 Skype 서버를 사용 하 여 온-프레미스 사용자 또는 온라인 사용자가 될 수 있습니다.
 
   - **음성 앱** 이미 설정 된 자동 전화 교환 또는 통화 대기열을 선택 합니다. 서비스와 연결 된 리소스 계정의 이름으로 자동 전화 교환 또는 통화 대기열을 검색 합니다.
-  - 보이스 **메일** 이 보이스 메일에 액세스 해야 하는 조직의 사용자를 나타내는 Office 365 그룹을 선택 합니다. 여기서는 보이스 메일을 켤 수 있습니다. Office 365 그룹이 필요 합니다.
+  - 보이스 **메일** 이 자동 전화 교환으로 수신 되는 음성 메일에 액세스 해야 하는 조직의 사용자가 포함 된 Office 365 그룹을 선택 합니다. 보이스 메일 메시지는 사용자가 지정한 Office 365 그룹으로 전송 됩니다. 음성 메일 메시지에 액세스 하려면 해당 그룹의 구성원이 Outlook의 그룹으로 이동 하 여 열 수 있습니다.
 
-  > [!NOTE]
-> 이 자동 전화 교환 메일 계정에서 사용자에 게 전송 되는 음성 메시지는 팀에서 액세스할 수 없습니다. 전자 메일로 발송 됩니다.
-
-
-<!-- - **Auto attendant** Select the name of an existing auto attendant.
-- **Call queue** Select the name of an auto attendant that has already been created.
-- **External phone number** routes the caller to a phone number outside your local system.
-- **Operator** directs the call to a user you designate as an Operator. If you haven't previously set up an operator, an option to create one now shows up. The 0 key is assigned to Operator by default. Options for setting an Operator are:
-
-  - **No operator** disables the "Operator" and "Press 0" options.
-  - **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server. They must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Search for the operator in the **Destination for your operator** field.
-  - **Auto attendant** lets you choose the name of an existing auto attendant.
-  - **Call queue** lets you select an existing call queue.
-  - **Group Voicemail** routes the call to a voicemail box that you select. -->
+      보이스 메일 메시지의 음성-텍스트 기록을 사용 하려면 **기록을** **on** 으로 전환 합니다.
 
  * * *
 
@@ -214,7 +201,9 @@ ms.locfileid: "41005198"
 
 - **음성 앱** 이미 설정 된 자동 전화 교환 또는 통화 대기열을 선택 합니다. 응용 프로그램과 연결 된 리소스 계정의 이름으로 자동 전화 교환 또는 통화 대기열을 검색 합니다.
 
-- 보이스 **메일** 이 보이스 메일에 액세스 해야 하는 조직의 사용자를 나타내는 Office 365 그룹을 선택 합니다. 여기서는 보이스 메일을 켤 수 있습니다. Office 365 그룹이 필요 합니다.
+- 보이스 **메일** 이 자동 전화 교환으로 수신 되는 음성 메일에 액세스 해야 하는 조직의 사용자가 포함 된 Office 365 그룹을 선택 합니다. 보이스 메일 메시지는 사용자가 지정한 Office 365 그룹으로 전송 됩니다. 음성 메일 메시지에 액세스 하려면 해당 그룹의 구성원이 Outlook의 그룹으로 이동 하 여 열 수 있습니다.
+
+    보이스 메일 메시지의 음성-텍스트 기록을 사용 하려면 **기록을** **on** 으로 전환 합니다.
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
@@ -428,7 +417,7 @@ PowerShell을 사용 하 여 자동 전화 교환을 만들고 설정할 수도 
 
   - [Windows PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
