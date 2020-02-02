@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0344d07fe9ea77e0970ca6ea11fdf62886098b
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: 3a0e055305cc994730b22507b5ce0cf1823e43f0
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913048"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628374"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams에서 수명 주기 관리 계획
 
@@ -55,7 +55,7 @@ _팀_은 공동 작업을 지원하는 사용자, 콘텐츠 및 도구의 컬렉
 팀 사용자 유형은 팀 구성원이 가진 제어 수준을 결정합니다.
 
 -   _팀 생성자_는 디렉터리에서 그룹 또는 팀을 만들 수 있는 권한을 가집니다. 관리자는 이 사용자 유형을 관리자 또는 사용자의 하위 집합으로 제한할 수 있습니다. 자세한 내용은 [Office 365 그룹을 만들 수 있는 사용자 관리](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조하세요. 
--   _팀 소유자_는 팀에 대한 멤버 자격과 설정을 관리합니다. 팀마다 최대 10개의 팀 소유자가 있을 수 있습니다.
+-   _팀 소유자_는 팀에 대한 멤버 자격과 설정을 관리합니다. 팀마다 최대 100명의 팀 소유자가 있을 수 있습니다.
 -   _팀 구성원_은 팀에 참가하는 조직의 구성원입니다.
 -   _게스트_는 조직 외부의 사용자입니다. 조직에서 [게스트 액세스](guest-access.md)를 사용하도록 설정한 경우 전자 메일 주소를 가진 모든 사용자를 게스트로 초대할 수 있습니다.
 

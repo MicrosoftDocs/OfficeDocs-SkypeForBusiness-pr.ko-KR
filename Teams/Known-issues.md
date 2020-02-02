@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams 클라이언트 앱 및 관리자 환경에 대해 현재 알려진 문제 목록입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50501c3d5e077deacaf183dd36efce72d295f556
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 9c613f2116b5ad9f97426f60466d71d4ffaddba1
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990653"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628534"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams의 알려진 문제
 
@@ -312,6 +312,14 @@ ms.locfileid: "40990653"
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|
 |Teams Planner와 Planner 온라인 통합 <br/> |Planner의 작업 버킷이 Planner 온라인 환경에 표시되지 않습니다.  <br/> |해결 방법이 없습니다. <br/> |2017년 2월 28일  <br/>|
+
+
+|**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
+|:-----|:-----|:-----|:-----|
+|Teams Planner와 Planner 온라인 통합 <br/> |소유자는 기존 office 365 그룹에서 만든 팀으로부터 계획을 만들 수 없습니다.  <br/> |그룹 소유자에게 구성원 권한을 부여합니다. <br/> |20/1/14  <br/>|
+
+
+
 
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|
