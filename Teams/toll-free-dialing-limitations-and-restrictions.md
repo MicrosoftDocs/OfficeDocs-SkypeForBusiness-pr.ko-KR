@@ -1,5 +1,5 @@
 ---
-title: 무료 전화 걸기 제한 및 제한 사항
+title: 무료 전화 걸기 제한 사항
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,25 +16,26 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 사용 하는 방법을 쉽게 찾을 수 있습니다. 국가/지역을 선택 하면 무료 서비스를 사용할 수 있는 무료 서비스 사용에 대 한 특정 세부 정보, 제한 사항, 제한 사항이 포함 된 국가 관련 페이지로 이동 합니다. 전화 걸기 형식 또는 형식에는 각 국가/지역 내의 필요한 액세스 코드가 표시 되어 무료 번호로 전화를 걸 수 있습니다.
-ms.openlocfilehash: d9cf7bf601237552b397413c65875707157a73c9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 41bc08f37d96674a88ad4d180198cba189780846
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571654"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708214"
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a><span data-ttu-id="75eab-105">무료 전화 걸기 제한 및 제한 사항</span><span class="sxs-lookup"><span data-stu-id="75eab-105">Toll-free dialing limitations and restrictions</span></span>
+# <a name="toll-free-dialing-limitations-and-restrictions"></a><span data-ttu-id="52ab1-105">무료 전화 걸기 제한 사항</span><span class="sxs-lookup"><span data-stu-id="52ab1-105">Toll-free dialing limitations and restrictions</span></span>
 
-<span data-ttu-id="75eab-106">이렇게 하면 각 국가나 지역에서 무료 전화 번호를 사용 하는 방법을 쉽게 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="75eab-106">This will help you find out how to dial toll free numbers in each country or region.</span></span> <span data-ttu-id="75eab-107">국가/지역을 선택한 후에는 특정 세부 정보, 제한 사항, 제한을 포함 하 여 무료 서비스를 사용할 수 있는 위치가 포함 된 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="75eab-107">After you select the country/region, it will take you to a page that contains where toll free service is available including specific details, restrictions, and limits.</span></span> <span data-ttu-id="75eab-108">전화 걸기 형식 또는 형식에는 각 국가/지역 내의 필요한 액세스 코드가 표시 되어 무료 번호로 전화를 걸 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="75eab-108">The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number.</span></span>
+<span data-ttu-id="52ab1-106">이렇게 하면 각 국가나 지역에서 무료 전화 번호를 사용 하는 방법을 쉽게 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="52ab1-106">This will help you find out how to dial toll free numbers in each country or region.</span></span> <span data-ttu-id="52ab1-107">국가/지역을 선택한 후에는 특정 세부 정보, 제한 사항, 제한을 포함 하 여 무료 서비스를 사용할 수 있는 위치가 포함 된 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="52ab1-107">After you select the country/region, it will take you to a page that contains where toll free service is available including specific details, restrictions, and limits.</span></span> <span data-ttu-id="52ab1-108">전화 걸기 형식 또는 형식에는 각 국가/지역 내의 필요한 액세스 코드가 표시 되어 무료 번호로 전화를 걸 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="52ab1-108">The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number.</span></span>
   
-<span data-ttu-id="75eab-109">준비가 되 면 국가 또는 지역을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="75eab-109">If you're ready, select a country or region:</span></span>
+<span data-ttu-id="52ab1-109">준비가 되 면 국가 또는 지역을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="52ab1-109">If you're ready, select a country or region:</span></span>
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a><span data-ttu-id="75eab-110">국가 또는 지역을 선택 하 여 전화 걸기 코드, 제한 사항, 제한을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="75eab-110">Select your country or region to see the dialing codes, limitations and restrictions.</span></span>
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a><span data-ttu-id="52ab1-110">국가 또는 지역을 선택 하 여 전화 걸기 코드, 제한 사항, 제한을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="52ab1-110">Select your country or region to see the dialing codes, limitations and restrictions.</span></span>
 
 > [!div class="op_single_selector"]    
 > - [아르헨티나](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -47,8 +48,8 @@ ms.locfileid: "37571654"
 > - [브루나이](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [불가리아](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
 > - [칠레](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
-> - [중국 (북부)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
-> - [중국 (남아프리카)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
+> - [중국(북부)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
+> - [중국(남부)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
 > - [콜롬비아](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md)
 > - [크로아티아](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
 > - [키프로스](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md)
@@ -60,7 +61,7 @@ ms.locfileid: "37571654"
 > - [프랑스](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md)
 > - [독일](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md)
 > - [온두라스](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md)
-> - [홍콩 특별 행정구](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
+> - [홍콩](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
 > - [헝가리](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md)
 > - [인도](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md)
 > - [인도네시아](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
@@ -94,32 +95,32 @@ ms.locfileid: "37571654"
 > - [대만](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 > - [태국](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
 > - [터키](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
-> - [미국 아랍에미리트 (UAE)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
+> - [아랍에미리트(UAE)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
 > - [영국](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md)
 > - [우루과이](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md)
 > - [베네수엘라](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [베트남](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a><span data-ttu-id="75eab-173">다음은 무료 전화 번호에 대해 기억해 야 할 몇 가지 중요 한 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="75eab-173">Here are some important things for you to remember about toll free numbers:</span></span>
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a><span data-ttu-id="52ab1-173">다음은 무료 전화 번호에 대해 기억해 야 할 몇 가지 중요 한 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="52ab1-173">Here are some important things for you to remember about toll free numbers:</span></span>
 
-- <span data-ttu-id="75eab-174">**무료 전화 번호는 각 국가/지역 내 에서만 작동 합니다.**</span><span class="sxs-lookup"><span data-stu-id="75eab-174">**Toll free numbers only operate within each country/region.**</span></span> <span data-ttu-id="75eab-175">예를 들어, 사용자가 오스트레일리아 외부의 오스트레일리아 무료 전화를 받을 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="75eab-175">For example, your users won't be able to call an Australian toll-free number outside of Australia.</span></span>
+- <span data-ttu-id="52ab1-174">**무료 전화 번호는 각 국가/지역 내 에서만 작동 합니다.**</span><span class="sxs-lookup"><span data-stu-id="52ab1-174">**Toll free numbers only operate within each country/region.**</span></span> <span data-ttu-id="52ab1-175">예를 들어, 사용자가 오스트레일리아 외부의 오스트레일리아 무료 전화를 받을 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="52ab1-175">For example, your users won't be able to call an Australian toll-free number outside of Australia.</span></span>
     
-- <span data-ttu-id="75eab-176">**UIFN (Universal Freephone 번호 가져오기 또는 포팅)은 지원 되지 않습니다.**</span><span class="sxs-lookup"><span data-stu-id="75eab-176">**Acquiring or porting Universal International Freephone Numbers (UIFN) isn't supported.**</span></span>
+- <span data-ttu-id="52ab1-176">**UIFN (Universal Freephone 번호 가져오기 또는 포팅)은 지원 되지 않습니다.**</span><span class="sxs-lookup"><span data-stu-id="52ab1-176">**Acquiring or porting Universal International Freephone Numbers (UIFN) isn't supported.**</span></span>
     
-- <span data-ttu-id="75eab-177">**많은 국가/지역에서 해당 국가/지역의 조정기/통신 에이전시는 해당 번호를 유지 하기 위해 매달 최소 100 분의 사용을 유지 관리 하기 위해 각각의 무료 무료 전화 번호가 필요 합니다.**</span><span class="sxs-lookup"><span data-stu-id="75eab-177">**In many countries/regions, the regulator/telecommunication agency in the country/region requires each toll free phone number to maintain at least 100 minutes of usage per month in order to retain the number.**</span></span>
+- <span data-ttu-id="52ab1-177">**많은 국가/지역에서 해당 국가/지역의 조정기/통신 에이전시는 해당 번호를 유지 하기 위해 매달 최소 100 분의 사용을 유지 관리 하기 위해 각각의 무료 무료 전화 번호가 필요 합니다.**</span><span class="sxs-lookup"><span data-stu-id="52ab1-177">**In many countries/regions, the regulator/telecommunication agency in the country/region requires each toll free phone number to maintain at least 100 minutes of usage per month in order to retain the number.**</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="75eab-178">무료 번호를 받고이 번호의 사용이 최소 요구 사항을 충족 하지 않는 경우, Microsoft는이 번호를 회수 하기 위해 compelled/통신 업체에 의해 제공 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="75eab-178">In the event you get a toll free number and the usage of the number doesn't meet these minimum requirements, Microsoft may be compelled by the regulator/telecommunication agency to reclaim the number from you.</span></span> 
+    > <span data-ttu-id="52ab1-178">무료 번호를 받고이 번호의 사용이 최소 요구 사항을 충족 하지 않는 경우, Microsoft는이 번호를 회수 하기 위해 compelled/통신 업체에 의해 제공 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="52ab1-178">In the event you get a toll free number and the usage of the number doesn't meet these minimum requirements, Microsoft may be compelled by the regulator/telecommunication agency to reclaim the number from you.</span></span> 
   
-- <span data-ttu-id="75eab-179">**수신자 부담 전화 번호에 대 한 유선, 고정 된 회선 및 모바일 네트워크 액세스가 완전히 또는 부분적으로 제한 될 수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="75eab-179">**Wireline, fixed line, and mobile network access to toll-free numbers may be fully or partially restricted.**</span></span> <span data-ttu-id="75eab-180">전화 걸기 형식은 각 국가/지역 내의 필수 액세스 코드를 설명 하 여 무료 전화 번호를 사용 하 여 전화를 걸 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="75eab-180">The dialing format describes the required access codes within each country/region to place calls using the toll free number.</span></span>
+- <span data-ttu-id="52ab1-179">**수신자 부담 전화 번호에 대 한 유선, 고정 된 회선 및 모바일 네트워크 액세스가 완전히 또는 부분적으로 제한 될 수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="52ab1-179">**Wireline, fixed line, and mobile network access to toll-free numbers may be fully or partially restricted.**</span></span> <span data-ttu-id="52ab1-180">전화 걸기 형식은 각 국가/지역 내의 필수 액세스 코드를 설명 하 여 무료 전화 번호를 사용 하 여 전화를 걸 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="52ab1-180">The dialing format describes the required access codes within each country/region to place calls using the toll free number.</span></span>
     
-- <span data-ttu-id="75eab-181">**북미 번호 매기기 계획의 무료 전화 번호:** 북미 번호 매기기 계획의 분당 요금 유료 전화 번호는 원래 국가에서 결정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="75eab-181">**North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country.</span></span> <span data-ttu-id="75eab-182">미국 지도에서 발생 하는 통화에 대 한 유료 무료 요금을 "북미"로 정의 된 비율로 말합니다.</span><span class="sxs-lookup"><span data-stu-id="75eab-182">The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America."</span></span> <span data-ttu-id="75eab-183">그러나 캐나다, 푸에르토리코 등의 다른 북미 국가에서 나온 통화에는 특정 무료 요금이 부과 됩니다.</span><span class="sxs-lookup"><span data-stu-id="75eab-183">However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.</span></span>
+- <span data-ttu-id="52ab1-181">**북미 번호 매기기 계획의 무료 전화 번호:** 북미 번호 매기기 계획의 분당 요금 유료 전화 번호는 원래 국가에서 결정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="52ab1-181">**North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country.</span></span> <span data-ttu-id="52ab1-182">미국 지도에서 발생 하는 통화에 대 한 유료 무료 요금을 "북미"로 정의 된 비율로 말합니다.</span><span class="sxs-lookup"><span data-stu-id="52ab1-182">The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America."</span></span> <span data-ttu-id="52ab1-183">그러나 캐나다, 푸에르토리코 등의 다른 북미 국가에서 나온 통화에는 특정 무료 요금이 부과 됩니다.</span><span class="sxs-lookup"><span data-stu-id="52ab1-183">However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="75eab-184">이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="75eab-184">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="52ab1-184">이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="52ab1-184">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="75eab-185">관련 항목</span><span class="sxs-lookup"><span data-stu-id="75eab-185">Related topics</span></span>
-[<span data-ttu-id="75eab-186">비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기</span><span class="sxs-lookup"><span data-stu-id="75eab-186">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+## <a name="related-topics"></a><span data-ttu-id="52ab1-185">관련 주제</span><span class="sxs-lookup"><span data-stu-id="52ab1-185">Related topics</span></span>
+[<span data-ttu-id="52ab1-186">비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기</span><span class="sxs-lookup"><span data-stu-id="52ab1-186">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  

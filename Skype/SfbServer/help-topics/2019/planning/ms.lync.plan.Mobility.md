@@ -6,24 +6,24 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.Mobility
 - ms.lync.plan.Mobility
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: 비즈니스용 Skype 서버의 이동성 기능은 모바일 장치에서 비즈니스용 Skype 기능을 지원 합니다.
-ms.openlocfilehash: 2e2043ea919377d473f14fe1e5441b2145fe219a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 50b066d2c8ad1ab12865b2c65294cfe1ad57314c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189270"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703482"
 ---
-# <a name="mobility-planning-tool"></a><span data-ttu-id="c23a5-103">이동성 (계획 도구)</span><span class="sxs-lookup"><span data-stu-id="c23a5-103">Mobility (Planning Tool)</span></span>
+# <a name="mobility-planning-tool"></a><span data-ttu-id="ef2e0-103">이동성 (계획 도구)</span><span class="sxs-lookup"><span data-stu-id="ef2e0-103">Mobility (Planning Tool)</span></span>
  
-<span data-ttu-id="c23a5-104">비즈니스용 Skype 서버의 이동성 기능은 모바일 장치에서 비즈니스용 Skype 기능을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="c23a5-104">The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.</span></span>
+<span data-ttu-id="ef2e0-104">비즈니스용 Skype 서버의 이동성 기능은 모바일 장치에서 비즈니스용 Skype 기능을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef2e0-104">The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.</span></span>
   
-<span data-ttu-id="c23a5-105">이동성 기능은 Lync Server 2013의 비즈니스용 Skype 서버에서 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="c23a5-105">Mobility functionality is the same in Skype for Business Server as in Lync Server 2013.</span></span> <span data-ttu-id="c23a5-106">이동성을 위한 환경을 준비 하는 방법에 대 한 자세한 내용은 [Lync Server 2013의 이동성 계획](https://technet.microsoft.com/en-us/library/hh689981%28v=ocs.15%29.aspx)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c23a5-106">For more details about preparing your environment for mobility, see [Planning for mobility in Lync Server 2013](https://technet.microsoft.com/en-us/library/hh689981%28v=ocs.15%29.aspx).</span></span>
+<span data-ttu-id="ef2e0-105">이동성 기능은 Lync Server 2013의 비즈니스용 Skype 서버에서 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef2e0-105">Mobility functionality is the same in Skype for Business Server as in Lync Server 2013.</span></span> <span data-ttu-id="ef2e0-106">이동성을 위한 환경을 준비 하는 방법에 대 한 자세한 내용은 [Lync Server 2013의 이동성 계획](https://technet.microsoft.com/en-us/library/hh689981%28v=ocs.15%29.aspx)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ef2e0-106">For more details about preparing your environment for mobility, see [Planning for mobility in Lync Server 2013](https://technet.microsoft.com/en-us/library/hh689981%28v=ocs.15%29.aspx).</span></span>
   
 

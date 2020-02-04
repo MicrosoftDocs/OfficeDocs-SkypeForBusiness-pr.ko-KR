@@ -18,38 +18,39 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 사용 하는 방법을 쉽게 찾을 수 있습니다. 국가/지역을 선택 하면 무료 서비스를 사용할 수 있는 무료 서비스 사용에 대 한 특정 세부 정보, 제한 사항, 제한 사항이 포함 된 국가 관련 페이지로 이동 합니다. 전화 걸기 형식 또는 형식에는 각 국가/지역 내에서 필요한 액세스 코드를 표시 하 여 무료 전화를 받을 수 있습니다.
-ms.openlocfilehash: 87e483c960e8c709efc99c2f9b3bec78834c35f5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 68218d21a4fc51d9271d7ce47297ce2c417b516c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569257"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707844"
 ---
-# <a name="toll-free-dialing-restrictions-in-france"></a><span data-ttu-id="87153-105">프랑스의 무료 전화 걸기 제한</span><span class="sxs-lookup"><span data-stu-id="87153-105">Toll-free dialing restrictions in France</span></span>
+# <a name="toll-free-dialing-restrictions-in-france"></a><span data-ttu-id="7ad8a-105">프랑스의 무료 전화 걸기 제한</span><span class="sxs-lookup"><span data-stu-id="7ad8a-105">Toll-free dialing restrictions in France</span></span>
 
-<span data-ttu-id="87153-106">[다른 국가 또는 지역](../toll-free-dialing-limitations-and-restrictions.md)또는 무료 전화 걸기 제한 사항에 대 한 자세한 정보를 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="87153-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="7ad8a-106">[다른 국가 또는 지역](../toll-free-dialing-limitations-and-restrictions.md)또는 무료 전화 걸기 제한 사항에 대 한 자세한 정보를 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="7ad8a-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="87153-107">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="87153-107">**Details**</span></span>|<span data-ttu-id="87153-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="87153-108">**Description**</span></span>|
+|<span data-ttu-id="7ad8a-107">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="7ad8a-107">**Details**</span></span>|<span data-ttu-id="7ad8a-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="7ad8a-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="87153-109">무료 전화를 받을 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="87153-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="87153-110">'</span><span class="sxs-lookup"><span data-stu-id="87153-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="87153-111">전화 걸기 형식</span><span class="sxs-lookup"><span data-stu-id="87153-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="87153-112">0 800 9XX XXX</span><span class="sxs-lookup"><span data-stu-id="87153-112">0 800 9XX XXX</span></span>  <br/> |
-|<span data-ttu-id="87153-113">국가/지역 ISO 코드</span><span class="sxs-lookup"><span data-stu-id="87153-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="87153-114">US</span><span class="sxs-lookup"><span data-stu-id="87153-114">FR</span></span>  <br/> |
-|<span data-ttu-id="87153-115">섬/지역 포함</span><span class="sxs-lookup"><span data-stu-id="87153-115">Island/territory covered</span></span>  <br/> | <span data-ttu-id="87153-116">프랑스 본토 및 Corsica</span><span class="sxs-lookup"><span data-stu-id="87153-116">France mainland and Corsica</span></span> <br/> |
-|<span data-ttu-id="87153-117">섬/지역 포함 안 함</span><span class="sxs-lookup"><span data-stu-id="87153-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="87153-118">모나코, 리유니언, 마르티니크, 과들루프, Guyane, 세인트. a i-&amp;-폴리네시아, 고 대만, 뉴칼레도니아, 프랑스 프랑스령, 월리스 &amp; 푸투나에서 액세스할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="87153-118">No access from Monaco, Reunion, Martinique, Guadeloupe, Guyane, St. Pierre-&amp;-Miquelon, Mayotte, New Caledonia, French Polynesia, Wallis &amp; Futuna.</span></span>  <br/> |
-|<span data-ttu-id="87153-119">유선/고정 회선 가용성</span><span class="sxs-lookup"><span data-stu-id="87153-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="87153-120">'</span><span class="sxs-lookup"><span data-stu-id="87153-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="87153-121">모바일 네트워크 가용성</span><span class="sxs-lookup"><span data-stu-id="87153-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="87153-122">'</span><span class="sxs-lookup"><span data-stu-id="87153-122">Yes</span></span>  <br/> |
-|<span data-ttu-id="87153-123">메모, 제한 사항 및 액세스 문제</span><span class="sxs-lookup"><span data-stu-id="87153-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="87153-124">모바일 액세스: 방송 시간이 부과 됩니다.</span><span class="sxs-lookup"><span data-stu-id="87153-124">Mobile access: Airtime is charged.</span></span>  <br/> |
+|<span data-ttu-id="7ad8a-109">무료 전화를 받을 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="7ad8a-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="7ad8a-110">예</span><span class="sxs-lookup"><span data-stu-id="7ad8a-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="7ad8a-111">전화 걸기 형식</span><span class="sxs-lookup"><span data-stu-id="7ad8a-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="7ad8a-112">0 800 9XX XXX</span><span class="sxs-lookup"><span data-stu-id="7ad8a-112">0 800 9XX XXX</span></span>  <br/> |
+|<span data-ttu-id="7ad8a-113">국가/지역 ISO 코드</span><span class="sxs-lookup"><span data-stu-id="7ad8a-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="7ad8a-114">US</span><span class="sxs-lookup"><span data-stu-id="7ad8a-114">FR</span></span>  <br/> |
+|<span data-ttu-id="7ad8a-115">섬/지역 포함</span><span class="sxs-lookup"><span data-stu-id="7ad8a-115">Island/territory covered</span></span>  <br/> | <span data-ttu-id="7ad8a-116">프랑스 본토 및 Corsica</span><span class="sxs-lookup"><span data-stu-id="7ad8a-116">France mainland and Corsica</span></span> <br/> |
+|<span data-ttu-id="7ad8a-117">섬/지역 포함 안 함</span><span class="sxs-lookup"><span data-stu-id="7ad8a-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="7ad8a-118">모나코, 리유니언, 마르티니크, 과들루프, Guyane, 세인트. a i-&amp;-폴리네시아, 고 대만, 뉴칼레도니아, 프랑스 프랑스령, 월리스 &amp; 푸투나에서 액세스할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7ad8a-118">No access from Monaco, Reunion, Martinique, Guadeloupe, Guyane, St. Pierre-&amp;-Miquelon, Mayotte, New Caledonia, French Polynesia, Wallis &amp; Futuna.</span></span>  <br/> |
+|<span data-ttu-id="7ad8a-119">유선/고정 회선 가용성</span><span class="sxs-lookup"><span data-stu-id="7ad8a-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="7ad8a-120">예</span><span class="sxs-lookup"><span data-stu-id="7ad8a-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="7ad8a-121">모바일 네트워크 가용성</span><span class="sxs-lookup"><span data-stu-id="7ad8a-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="7ad8a-122">예</span><span class="sxs-lookup"><span data-stu-id="7ad8a-122">Yes</span></span>  <br/> |
+|<span data-ttu-id="7ad8a-123">메모, 제한 사항 및 액세스 문제</span><span class="sxs-lookup"><span data-stu-id="7ad8a-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="7ad8a-124">모바일 액세스: 방송 시간이 부과 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ad8a-124">Mobile access: Airtime is charged.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="87153-125">관련 항목</span><span class="sxs-lookup"><span data-stu-id="87153-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="7ad8a-125">관련 주제</span><span class="sxs-lookup"><span data-stu-id="7ad8a-125">Related topics</span></span>
 
-[<span data-ttu-id="87153-126">무료 전화 걸기 제한 및 제한 사항</span><span class="sxs-lookup"><span data-stu-id="87153-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="7ad8a-126">무료 전화 걸기 제한 사항</span><span class="sxs-lookup"><span data-stu-id="7ad8a-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="87153-127">비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기</span><span class="sxs-lookup"><span data-stu-id="87153-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="7ad8a-127">비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기</span><span class="sxs-lookup"><span data-stu-id="7ad8a-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  

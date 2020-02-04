@@ -6,27 +6,27 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceRouteEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 ROBOTS: NOINDEX, NOFOLLOW
-description: 뭘 하고 싶으세요? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: d3e9bde5f128758c4dcbc4a1106d0ca06774f530
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+ms.openlocfilehash: 4cf21eb9ecf89df312dfee9e784d04ab10e33bfd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197604"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703863"
 ---
-# <a name="voice-route-create-new-or-edit-existing"></a><span data-ttu-id="2ba5c-104">음성 경로: 새로 만들기 또는 기존 편집</span><span class="sxs-lookup"><span data-stu-id="2ba5c-104">Voice Route: Create New or Edit Existing</span></span>
+# <a name="voice-route-create-new-or-edit-existing"></a><span data-ttu-id="4efc3-104">음성 경로 지정: 새로 만들기 또는 기존 항목 편집</span><span class="sxs-lookup"><span data-stu-id="4efc3-104">Voice Route: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="2ba5c-105">뭘 하고 싶으세요?</span><span class="sxs-lookup"><span data-stu-id="2ba5c-105">What do you want to do?</span></span> <span data-ttu-id="2ba5c-106">수행 하려는 작업에 대 한 링크를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ba5c-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="4efc3-105">무슨 작업을 수행하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="4efc3-105">What do you want to do?</span></span> <span data-ttu-id="4efc3-106">수행 하려는 작업에 대 한 링크를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4efc3-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="2ba5c-107">비즈니스용 Skype에서 음성 경로 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="2ba5c-107">Create or modify a voice route in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [<span data-ttu-id="4efc3-107">비즈니스용 Skype에서 음성 경로 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="4efc3-107">Create or modify a voice route in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
-- [<span data-ttu-id="2ba5c-108">음성 경로 수정</span><span class="sxs-lookup"><span data-stu-id="2ba5c-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+- [<span data-ttu-id="4efc3-108">음성 경로 수정</span><span class="sxs-lookup"><span data-stu-id="4efc3-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
 
 
 
