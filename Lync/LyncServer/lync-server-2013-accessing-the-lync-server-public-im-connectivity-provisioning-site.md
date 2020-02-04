@@ -3,6 +3,8 @@ title: Lync Server 공용 메신저 연결 프로비저닝 사이트에 액세�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Accessing the Lync Server public IM connectivity provisioning site
 ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440174(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 57793364
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a6e028afcd3a9affc6c316b7cb373e124e6d5b0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dbcb2e46380e7ed4bbd8499e83f638cb314844e9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983134"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723388"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

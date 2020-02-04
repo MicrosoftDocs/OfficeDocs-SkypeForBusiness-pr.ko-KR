@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 보관을 위한 전역 정책 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the global policy for Archiving
 ms:assetid: 58341d6b-c3ff-4dd9-b1c7-0048f33861ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204906(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184192
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ccb5ba267c3dc94e14f00cf96f240fa2f0e91b0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c14cbb69ce620498e1d804483f97c47da37e8522
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978667"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

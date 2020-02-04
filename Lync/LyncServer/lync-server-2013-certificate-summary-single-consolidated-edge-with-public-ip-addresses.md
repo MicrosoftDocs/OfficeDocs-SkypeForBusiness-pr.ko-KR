@@ -3,6 +3,8 @@ title: 인증서 요약 - 공용 IP 주소의 단일 통합 에지
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Single consolidated edge with public IP addresses
 ms:assetid: 25b8ae7a-e5a0-43c0-92ae-7e144d5e4a36
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204747(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 07c5bce784c6d05393b38b68c2558362bcb9525f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1880856214632357a1a4190a22cd56b29dee020a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983708"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

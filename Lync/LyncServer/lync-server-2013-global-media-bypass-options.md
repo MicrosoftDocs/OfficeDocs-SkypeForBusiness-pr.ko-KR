@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 전역 미디어 바이패스 옵션'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Global media bypass options
 ms:assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398255(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183551
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ebe39b6faeffd36f0dfc9e25959fe7a0b356153
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 653c47cd993bac8ada899f62fa3be6700cd34c33
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977459"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742418"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

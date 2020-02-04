@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 중앙 로깅 서비스에서 캡처 로그 읽기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reading capture logs from the Centralized Logging Service
 ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721879(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55bfeaa5bc9a2e89d8c52529c5d05ae7e3ee8feb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2713c9a1209aad4a96fcb3a76afaf7c2bc61c0dc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979915"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,23 +51,23 @@ _**마지막으로 수정한 주제:** 2016-12-28_
 
 Lync Server 2013는 몇 가지 새로운 기능을 포함 하는 업데이트 된 버전의 Snooper을 소개 합니다. 다음 스크린샷은 Office Communications Server 2007의 Snooper 버전을 보여 줍니다.
 
-![Snooper의 Office 통신 2007 버전.] (images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Snooper의 Office 통신 2007 버전.")
+![Office Communications 2007 버전의 Snooper.](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office Communications 2007 버전의 Snooper.")
 
 다음 스크린샷은 Lync Server 2013 디버그 도구에 포함 된 새 버전의 Snooper를 보여 줍니다.
 
-![Lync Server 2013 버전의 Snooper.] (images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013 버전의 Snooper.")
+![Lync Server 2013 버전의 Snooper.](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013 버전의 Snooper.")
 
 다음 스크린샷은 자주 사용 하는 함수가 있는 도구 모음을 보여 줍니다.
 
-![Snooper 2013 도구 모음] (images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Snooper 2013 도구 모음")
+![Snooper 2013 도구 모음.](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Snooper 2013 도구 모음.")
 
 값을 추가 하는 최신 기능은 흐름 차트 (호출 흐름) 다이어그램 보기입니다. **메시지** 탭에서 메시지 흐름을 선택 하 고 **호출 흐름** 단추를 클릭 합니다. 메시지를 진행할 때 통화 흐름 다이어그램이 새 데이터로 업데이트 됩니다.
 
-![Snooper 2013 호출 흐름 다이어그램.] (images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper 2013 호출 흐름 다이어그램.")
+![Snooper 2013 통화 흐름 다이어그램.](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper 2013 통화 흐름 다이어그램.")
 
 다이어그램 보기를 마우스로 가리키고 흐름 및 메시지의 메시지와 내용, 서버 요소에 대 한 세부 정보를 볼 수 있습니다. 통화 흐름 화살표를 클릭 하 여 메시지 보기의 메시지로 이동 합니다.
 
-![통화 흐름 다이어그램 메시지 세부 정보입니다.] (images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "통화 흐름 다이어그램 메시지 세부 정보입니다.")
+![통화 흐름 다이어그램 메시지 정보.](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "통화 흐름 다이어그램 메시지 정보.")
 
 <div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync 사용이 가능한 사용자에게 외부 사용
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign an external user access policy to a Lync enabled user
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec487f8aacdc26f910f30a0864ecead1fdb1a745
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 523907fbf4bc4cca93be8e529b6b607b43f0ea87
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980196"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

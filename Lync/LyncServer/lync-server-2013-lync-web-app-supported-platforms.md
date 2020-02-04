@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Web App 지원 되는 플랫폼'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Web App supported platforms
 ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425820(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2713bfee0397c455407d0dc277851b5588fa774
-ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
+ms.openlocfilehash: 47a2912aae21e4bdedadabcffd7bbcba09560d64
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "40984634"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730268"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 주요 보안 기능'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Key security features in Lync Server 2013
 ms:assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn342829(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53a6d9e23442cb127f0f08849e18f1d63bae76d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55d59a6978b90db82ccf899df90b05c739e71a57
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983114"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738318"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

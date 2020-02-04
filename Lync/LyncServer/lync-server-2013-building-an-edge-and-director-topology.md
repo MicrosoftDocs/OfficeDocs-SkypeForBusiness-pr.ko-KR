@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 에지 및 디렉터 토폴로지 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Building an edge and Director topology
 ms:assetid: 11e5759e-d69f-4c39-8994-f467c279c558
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398202(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae45053e8d9c01cd484da8a052304712f04a06fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f8a86d4f80b7fb4fc9990911908ef0c8a317c98
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979331"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741788"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

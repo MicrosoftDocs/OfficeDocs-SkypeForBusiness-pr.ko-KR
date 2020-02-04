@@ -3,6 +3,8 @@ title: Lync Server 2013 접근성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Accessibility for people with disabilities
 ms:assetid: 29c35a47-2513-425c-8b6b-250786573171
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204754(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 428270d63184ab991bbaeb5538240bdb50a5d0d0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0b3830196baea942bcbdf2109b9a3a761083cd02
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981593"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730480"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

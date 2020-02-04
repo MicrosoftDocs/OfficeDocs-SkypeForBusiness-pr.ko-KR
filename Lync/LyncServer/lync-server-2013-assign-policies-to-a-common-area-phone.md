@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 공용 지역 전화에 정책 할당'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign policies to a common area phone
 ms:assetid: f0554fd1-b237-49b3-9eb4-26f4b91f5604
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994082(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b792d6ae14ee13fd1d95761d2a0d6b0af7bbdfae
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e19e2fccabe4759f8cf4cf5eb55ade7e68e2b560
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982806"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734048"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

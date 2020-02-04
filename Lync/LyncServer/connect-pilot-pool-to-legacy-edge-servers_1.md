@@ -3,6 +3,8 @@ title: 레거시 에지 서버에 파일럿 풀 연결
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
 ms:assetid: 9ed13c41-f3ab-4e1d-beb6-a00152c541e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205136(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40d54a7432451901a32cb8e31d201ef732a731bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 09858b03c787af034790c94bcbf12ca6ea7ceecf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980195"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723148"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

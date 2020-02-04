@@ -3,6 +3,8 @@ title: 원격 통화 제어를 위한 신뢰할 수 있는 응용 프로그램 �
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure a trusted application entry for remote call control
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558636(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be0dda3eedc73e5c64f7c275714955f3ce92af3a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bfaec78b0c7d64308b5899a6e7dc5fa95c1f53fb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984731"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757872"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

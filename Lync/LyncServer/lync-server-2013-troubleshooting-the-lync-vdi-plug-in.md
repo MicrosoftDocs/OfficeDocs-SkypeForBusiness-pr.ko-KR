@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync VDI 플러그 인 문제 해결'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Troubleshooting the Lync VDI plug-in
 ms:assetid: 183c9449-b907-409c-b5ed-b02af3bd93ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204713(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7afaa0067e4ca06f8bb40ff201b090a45c66f442
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f1dfd8082ef0f0cdfc2a7931a675398507daaa51
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983850"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744988"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ _**마지막으로 수정한 주제:** 2012-10-10_
 
 VDI 플러그 인 페어링에 실패 하는 경우 오른쪽 아래에 있는 페어링 아이콘은 표시 된 대로 빨간색 "X"로 표시 됩니다.
 
-성공적인 페어링을(images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "표시") 하는 lync vdi 아이콘에 ![성공한 연결 표시]
+![성공적인 연결을 보여 주는 Lync VDI 아이콘](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "성공적인 연결을 보여 주는 Lync VDI 아이콘")
 
 다음은 실패 및 정정 작업에 발생할 수 있는 원인입니다.
 

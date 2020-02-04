@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 서버 미디어 품질 추세 보고서'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server Media Quality Trend Report
 ms:assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc60cd4c0d8d00fa67a5fe77ca70e61058191baa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c4efb7e2f29c1da75a81f4df4ec586c396d77d3d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982960"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732438"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

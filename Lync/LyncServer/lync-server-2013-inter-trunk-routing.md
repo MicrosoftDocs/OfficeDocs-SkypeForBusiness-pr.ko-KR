@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 트렁크 간 라우팅'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Inter-trunk routing
 ms:assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721940(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733877
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 204402ba6620fa75b64bb9710ce979b44b63f412
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37a9feb818f48317f9a3dddd78a70700e3f6ccfc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979312"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725848"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,11 +41,11 @@ Lync Server 2013는 intertrunk 라우팅 지원을 통해 기본적인 세션 �
 
 다음 그림에서는 PSTN 게이트웨이와 IP PBX 간의 interconnectivity을 제공 하는 Lync Server 2013을 보여 줍니다.
 
-Pstn 게이트웨이 ![/i p r-pbx 다이어그램을 연결 하는 Lync SERVER](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "pstn 게이트웨이/i p r-pbx 다이어그램을 연결 하는 lync server")
+![Lync Server 연결 PSTN 게이트웨이/IP-PBX 다이어그램](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server 연결 PSTN 게이트웨이/IP-PBX 다이어그램")
 
 다음 그림은 두 개의 IP PBX 시스템을 연결 하는 Lync Server 2013을 보여 줍니다.
 
-![Lync server INTERCONNECTING ip-PAX 시스템 다이어그램](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "LYNC server INTERCONNECTING ip-PAX 시스템") 다이어그램
+![Lync Server 상호 연결 IP-PAX 시스템 다이어그램](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server 상호 연결 IP-PAX 시스템 다이어그램")
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 사이트의 보관 옵션 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Archiving options for a site
 ms:assetid: 59b48fd9-d5fc-40b4-abae-e9cf89ee5573
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204930(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14b0e29a2796c23c13a16bfb3e8a202a0a535aaa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb2b70242388ca00a7bf43ec535ae1231fb77644
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983988"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734988"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

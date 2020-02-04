@@ -3,6 +3,8 @@ title: BackCompatSite 제거
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove BackCompatSite
 ms:assetid: 039650e3-541b-45c2-a682-c4fa08423118
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe6a3d1dc92e45bc99892e7827394376b6f28b12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ccfcd48c575e300b12fe08611d6f898749041478
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978082"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727198"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ _**마지막으로 수정한 주제:** 2012-09-28_
 
 4.  **레거시 Edge 지정** 페이지에서 Edge 서버 목록이 비어 있는지 확인 합니다. 목록이 비어 있지 않으면 **제거** 단추를 사용 하 여 모든 레거시 Edge 서버를 제거 하 고 **다음**을 클릭 합니다.
     
-    ![토폴로지 병합 마법사, Edge 설정 페이지](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "병합 마법사 지정, Edge 설정 페이지로 지정")  
+    ![토폴로지 병합 마법사, 에지 설정 지정 페이지](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "토폴로지 병합 마법사, 에지 설정 지정 페이지")  
 
 5.  **내부 SIP 포트 설정 지정** 페이지에서 **다음**을 클릭 합니다.
 

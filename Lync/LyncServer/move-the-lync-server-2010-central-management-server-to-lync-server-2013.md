@@ -3,6 +3,8 @@ title: Lync Server 2010 중앙 관리 서버를 Lync Server 2013로 이동
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Move the Lync Server 2010 Central Management Server to Lync Server 2013
 ms:assetid: 30cc98f2-1916-4dbe-99d0-8df5368ed3ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688013(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abcb361beb82b98cd765b3797b63b22c280fdf70
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5f301c8f6e11ca3c8f19ed167489bb3fbf51fc63
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983105"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743698"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

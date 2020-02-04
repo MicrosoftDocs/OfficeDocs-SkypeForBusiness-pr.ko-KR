@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 클라이언트 관리 cmdlet'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client management cmdlets
 ms:assetid: 0384f8ab-453d-49d6-aaa7-52439e27b7e9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398087(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c40ad68a228f06c1275460a38aa1f6fbfff53f5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 023b7c165d1366d42303f4b609401fcc7bbe6a1c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979719"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742928"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

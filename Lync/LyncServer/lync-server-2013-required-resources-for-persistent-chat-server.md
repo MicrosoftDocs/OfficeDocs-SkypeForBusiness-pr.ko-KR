@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 영구 채팅 서버에 필요한 리소스'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Required resources
 ms:assetid: bce50b95-f3c8-407e-963a-d8896ee77fbc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205211(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185255
 ms.date: 02/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac51432de0a6ca261e42f77d64ef1aa1a615cb6d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31683641e50a3e3bc898841b0cf4b0911e046262
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984386"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723828"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,13 +71,13 @@ _**마지막으로 수정한 주제:** 2016-02-05_
 
 **데이터 센터가 고대역폭/대기 시간이 짧은 지리적 위치에 있는 경우 영구 채팅 서버 풀을 늘립니다.**
 
-![영구 채팅 서버 풀 HBW 구성 시험](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "영구 채팅 서버 풀 hbw 구성 시험")
+![영구 채팅 서버 풀 HBW 구성 검사](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "영구 채팅 서버 풀 HBW 구성 검사")
 
 다음 그림은 데이터 센터가 낮은 대역폭/고속 대기 시간으로 지리적 위치에 있는 스트레치 된 영구 채팅 서버 풀 토폴로지를 보여줍니다.
 
 **데이터 센터가 낮은 대역폭/대기 시간이 있는 지리적 위치에 있는 경우 영구 채팅 서버 풀을 늘립니다.**
 
-![영구 채팅 서버 풀 LBW 구성 시험](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "영구 채팅 서버 풀 LBW 구성 시험")
+![영구 채팅 서버 풀 LBW 구성 검사](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "영구 채팅 서버 풀 LBW 구성 검사")
 
 </div>
 

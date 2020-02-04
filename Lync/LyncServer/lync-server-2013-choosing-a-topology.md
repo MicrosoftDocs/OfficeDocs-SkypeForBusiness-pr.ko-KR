@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 토폴로지 선택'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Choosing a topology
 ms:assetid: 23f2aeb6-fed9-4349-8fba-dcbf18ee4b04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425716(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3aa98d479ca2bfeaf6214bbd1e66bb3f41b09782
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0b9f59648d845f37c7cf6d92c471b81a29415753
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984505"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729888"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

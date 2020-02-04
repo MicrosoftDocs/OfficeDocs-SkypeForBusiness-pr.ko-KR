@@ -3,6 +3,8 @@ title: 중앙 로깅 서비스에 대 한 시작을 사용 하 여 로그 캡처
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Start for the Centralized Logging Service to capture logs
 ms:assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687958(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5033b4a8dfd8121e2f0b5926623a55358188935e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 75090036b7120c8af7cda132c26d5b4fb02d3dab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983318"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743998"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ _**마지막으로 수정한 주제:** 2013-02-21_
     
     </div>
     
-    ![시작-CsClsLogging을 실행 합니다.] (images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "시작-CsClsLogging을 실행 합니다.")
+    ![Start-CsClsLogging 실행.](images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "Start-CsClsLogging 실행.")
 
 4.  다른 시나리오를 시작 하려면 다음과 같이 실행할 추가 시나리오의 이름과 함께 **시작 CsClsLogging** cmdlet을 사용 합니다 (예: 시나리오 **인증**).
     
@@ -118,7 +120,7 @@ _**마지막으로 수정한 주제:** 2013-02-21_
     
     이 시나리오를 성공적으로 실행 하면 다음과 같은 결과가 반환 됩니다.
     
-    ![시작-CsClsLogging을 실행 합니다.] (images/JJ687958.399f0c2e-c08c-40ab-b6c6-381dddc12fe9(OCS.15).jpg "시작-CsClsLogging을 실행 합니다.")
+    ![Start-CsClsLogging 실행.](images/JJ687958.399f0c2e-c08c-40ab-b6c6-381dddc12fe9(OCS.15).jpg "Start-CsClsLogging 실행.")
     
     이 예제에서는 AlwaysOn 시나리오가 실행 중이 고 UserReplicator 시나리오가 실행 되 고 있는 것을 참고 하세요.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server에 대 한 사용자 계정 추가 및 설
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add and enable user account for Lync Server
 ms:assetid: 1edd1c1c-307d-450b-abea-33aaf56bdf13
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520961(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fc52e76d480e323669b88c1ee461eeccf9aef38
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a04a798a69279ebef6c4917938ead2fd88a49805
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980678"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735058"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

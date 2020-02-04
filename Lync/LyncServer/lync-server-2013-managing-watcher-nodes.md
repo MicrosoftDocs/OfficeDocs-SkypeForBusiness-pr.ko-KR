@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 감시자 노드 관리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing watcher nodes
 ms:assetid: 66deaf49-a71f-4a6e-ada0-ea8b688ee921
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688078(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7edddd1a1bb67dc4bf3df5b7809aa76b2397e56
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27d2afd025897df4f9b98e235d408a264d2cceb2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981603"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724008"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

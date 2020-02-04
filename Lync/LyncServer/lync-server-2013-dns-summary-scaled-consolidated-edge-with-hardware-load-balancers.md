@@ -3,6 +3,8 @@ title: DNS 요약 - 하드웨어 부하 분산 장치를 사용하는 조정된 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge with hardware load balancers
 ms:assetid: 8453297c-da1d-4b9e-a37e-6721458c6feb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398670(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d411b004edde96314e3c06d7f28a9f9d294688ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c6be703e13ec50eb66ba52c981196df06adc6e5b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979957"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737198"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

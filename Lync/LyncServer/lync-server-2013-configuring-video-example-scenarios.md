@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 비디오 예제 시나리오 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring video example scenarios
 ms:assetid: da0d61a2-7ac4-4562-bf6a-18473a29acb2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205297(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9800f97c8ccd49780098c29c9c6c1325b072dab5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cbdd47056b97da1ba3ac1bf884cc3e8bd9aaf43f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983164"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734428"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

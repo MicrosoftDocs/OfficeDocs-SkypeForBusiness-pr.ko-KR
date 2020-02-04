@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 보관 옵션 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Archiving options
 ms:assetid: b2f7f74d-e1ad-494e-9d46-5eb0efe5fb29
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205182(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185158
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98356b53940c6189abac5a4b554769093f84dd2a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9aa49aceacbd5053ead1af6b881be87c74b2ea30
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985779"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734878"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

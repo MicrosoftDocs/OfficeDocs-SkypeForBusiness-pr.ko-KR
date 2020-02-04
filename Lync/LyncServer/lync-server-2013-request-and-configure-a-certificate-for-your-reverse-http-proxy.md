@@ -3,6 +3,8 @@ title: HTTP 역방향 프록시에 대한 인증서 요청 및 구성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Request and configure a certificate for your reverse HTTP proxy
 ms:assetid: 4b70991e-5f10-40a3-b069-0b227c3a3a0a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429704(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffe1ce6a4b206b927b2fcdec4c02b905e01d5bd1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2597bf31c9f0cc9f4316f505811426f2c9948a6f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984956"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723856"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

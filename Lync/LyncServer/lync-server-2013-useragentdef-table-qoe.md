@@ -3,6 +3,8 @@ title: 'Lync Server 2013: UserAgentDef 테이블 (체감 품질)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: UserAgentDef table (QoE)
 ms:assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205259(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185394
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3adfe05a24d2a45cf5d6d279b29d77b1c7654012
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 146c22b77ac6d2681c1844feade86242e1fcd72f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983129"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744408"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

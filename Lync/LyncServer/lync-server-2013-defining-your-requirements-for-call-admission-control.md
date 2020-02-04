@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 통화 허용 제어 서비스에 대한 요구 사항
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organization's requirements for call admission control
 ms:assetid: 5122171a-a5b0-4059-b033-846caec10d1e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398334(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184104
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7737d303c7239df451c71b4f92d4dcd8dfe5b2e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba23e34099ed75f61f8025711189c60d36ca18f0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983054"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722358"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -60,7 +62,7 @@ CAC (통화 허용 제어)에 대 한 계획에는 엔터프라이즈 네트워�
 
 **통화 허용 제어에 대 한 예제 토폴로지**
 
-![Litware inc. 네트워크 토폴로지 예](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Litware Inc. 네트워크 토폴로지 예")
+![Litware Inc. 네트워크 토폴로지 예제](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Litware Inc. 네트워크 토폴로지 예제")
 
 <div>
 

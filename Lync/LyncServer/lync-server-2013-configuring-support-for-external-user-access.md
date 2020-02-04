@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 외부 사용자 액세스에 대한 지원 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring support for external user access
 ms:assetid: f8424f8c-f965-4414-8485-30f07e10214a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413051(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f10e266674d102b25753aeb58c89a365e7bb8e7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 143e7e661f793f7a05cb2fdbad8cdab8acaf660e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983744"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734798"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

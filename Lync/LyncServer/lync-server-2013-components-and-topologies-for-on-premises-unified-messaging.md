@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 온-프레미스 통합 메시징의 구성 요소 및
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for on-premises Unified Messaging
 ms:assetid: 22fc87cf-a7e5-4c8c-bb9b-101e5380cdcf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425711(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cdaf33a230f2663e9fc8b541aafb47c362d0ac97
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1739dbb7d603f112af72c78032c46b94470302bb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984111"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742588"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

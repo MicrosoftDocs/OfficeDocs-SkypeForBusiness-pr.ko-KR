@@ -3,6 +3,8 @@ title: Lync Server 2013 하드웨어 부하 분산 장치 요구 사항
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hardware load balancer requirements
 ms:assetid: 32891268-2059-43d0-adf4-af4ff1e9ce66
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ656815(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d5b10a91f469bf4688de06e836e0bdeffae1112
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 85ed4195d80ecc755faea74ddedb790c9f41ebfb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981275"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727908"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

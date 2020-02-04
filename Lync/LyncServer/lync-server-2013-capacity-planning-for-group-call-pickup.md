@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 그룹 통화 픽업 용량 계획'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning for Group Call Pickup
 ms:assetid: 0d654a19-6cf0-4118-903d-ec2c4e519253
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ984297(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51476680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba588de723e7482039fdae4b97991080a1b92c47
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8d694b20d026d83b4cef37c713e38ab8066e22f3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983354"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730298"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -78,7 +80,7 @@ _**마지막으로 수정한 주제:** 2013-02-12_
 <tr class="odd">
 <td><p>그룹 통화 픽업에 사용할 수 있는 풀 당 최대 사용자 수</p></td>
 <td><p>25000</p></td>
-<td><p>3000</p></td>
+<td><p>3,000</p></td>
 </tr>
 <tr class="even">
 <td><p>분당 그룹 통화 픽업에 대해 사용 하도록 설정 된 총 사용자에 대 한 최대 수신 통화 속도입니다.</p></td>

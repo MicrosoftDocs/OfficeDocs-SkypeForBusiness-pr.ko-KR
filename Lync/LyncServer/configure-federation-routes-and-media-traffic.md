@@ -3,6 +3,8 @@ title: 페더레이션 경로 및 미디어 트래픽 구성
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: 8b2f5f81-a955-4ad1-ad74-397322ff9521
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688121(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed16ac6b8aceea6828b600ce18da8b9a72827846
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9cd9cf1c7c61261e4e1a6974498f9f9dff980169
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985359"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723248"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -107,7 +109,7 @@ _**마지막으로 수정한 주제:** 2012-10-15_
 
 4.  **이 Edge 풀에 페더레이션 사용 (포트 5061)** 확인란 항목을 선택 취소 하 고 **확인** 을 선택 하 여 페이지를 닫습니다.
     
-    ![속성, 일반, 페더레이션 사용],(images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "속성 지우기, 일반, 선택 취소 페더레이션 사용") 을 편집 합니다.
+    ![속성 편집, 일반, 페더레이션 사용 선택 취소](images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "속성 편집, 일반, 페더레이션 사용 선택 취소")
 
 5.  **작업** 메뉴에서 **토폴로지 게시**를 선택 하 고 **다음**을 클릭 합니다.
 
@@ -115,7 +117,7 @@ _**마지막으로 수정한 주제:** 2012-10-15_
 
 7.  레거시 Edge 서버에 대 한 페더레이션이 비활성화 되어 있는지 확인 합니다.
     
-    ![토폴로지 작성기, Edge 풀, 페더레이션](images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "이 불가능 한 토폴로지 작성기, Edge 풀, 페더레이션이 불가능 함")
+    ![토폴로지 작성기, 에지 풀, 페더레이션 사용 안 함](images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "토폴로지 작성기, 에지 풀, 페더레이션 사용 안 함")
 
 </div>
 
@@ -153,7 +155,7 @@ _**마지막으로 수정한 주제:** 2012-10-15_
 
 7.  **페더레이션 (포트 5061)** 이 **사용**으로 설정 되어 있는지 확인 합니다.
     
-    ![토폴로지 작성기, Edge 풀, 페더레이션 사용](images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "토폴로지 작성기, Edge 풀, 페더레이션 사용")
+    ![토폴로지 작성기, 에지 풀, 페더레이션 사용](images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "토폴로지 작성기, 에지 풀, 페더레이션 사용")
 
 </div>
 
@@ -167,7 +169,7 @@ _**마지막으로 수정한 주제:** 2012-10-15_
 
 3.  **일반** 페이지의 **다음 홉 선택**아래에 있는 드롭다운 목록에서 Lync Server 2013 풀을 선택 합니다.
     
-    ![속성 편집 대화 상자의 다음 홉 페이지](images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "속성 편집 대화 상자에서 다음 홉 페이지")
+    ![속성 편집 대화 상자, 다음 홉 페이지](images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "속성 편집 대화 상자, 다음 홉 페이지")
 
 4.  **확인** 을 클릭 하 여 속성 편집 페이지를 닫습니다.
 
@@ -187,7 +189,7 @@ _**마지막으로 수정한 주제:** 2012-10-15_
 
 3.  **연결** 섹션에서 **Edge 풀 연결 (미디어 구성 요소의 경우)** 확인란을 선택 합니다.
     
-    ![속성 편집, 일반, edge 풀 연결](images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "속성 편집, 일반, edge 풀 연결")
+    ![속성 편집, 일반, 에지 풀 연결](images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "속성 편집, 일반, 에지 풀 연결")
 
 4.  드롭다운 상자에서 Lync Server 2013 Edge 서버를 선택 합니다.
 
@@ -226,7 +228,7 @@ _**마지막으로 수정한 주제:** 2012-10-15_
 
 8.  **사이트 페더레이션 경로 할당**에서 **SIP 페더레이션 사용**을 선택한 다음 목록에서 나열 된 Lync server 2013 Edge 서버를 선택 합니다.
     
-    ![속성 편집, 페더레이션 라우팅 페이지](images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "속성 편집, 페더레이션 경로 페이지")
+    ![속성 편집, 페더레이션 경로 페이지](images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "속성 편집, 페더레이션 경로 페이지")
 
 9.  **확인** 을 클릭 하 여 **속성 편집** 페이지를 닫습니다.
     

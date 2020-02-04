@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 영구 채팅 서버 작동 방식'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: How Persistent Chat Server works
 ms:assetid: 3d04e9a1-3f0c-458e-bcbe-d27c8c464276
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ683096(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49684643
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bf6179e1ce24264c2079b3096fa9bb8c539ca1c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 692f9a40bc2c0fd885fc251a4a792d480a69c57d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983696"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,11 +61,11 @@ Lync Server 2013에서 영구 채팅 서버를 선택적 역할로 배포할 수
 
 **영구 채팅 서버 상위 수준 아키텍처**
 
-![영구 채팅 서버 아키텍처.] (images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "영구 채팅 서버 아키텍처.")
+![영구 채팅 서버 아키텍처.](images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "영구 채팅 서버 아키텍처.")
 
 **영구 채팅 서버 상위 수준 서비스**
 
-![영구 채팅 서버 구성 요소.] (images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "영구 채팅 서버 구성 요소.")
+![영구 채팅 서버 구성 요소.](images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "영구 채팅 서버 구성 요소.")
 
 영구 채팅 서버 프런트 엔드 서버에서 실행 되는 서비스에는 다음 두 가지가 있습니다.
 
@@ -141,7 +143,7 @@ Lync 2013 클라이언트에서 영구 채팅 기능을 활용할 수 있도록 
 
 **영구 채팅 클라이언트 로그인 통화 흐름**
 
-![영구 채팅 서버 통화 흐름 다이어그램.] (images/JJ683096.9b3b3c61-caca-42b6-853c-6a09e6ff5c44(OCS.15).jpg "영구 채팅 서버 통화 흐름 다이어그램.")
+![영구 채팅 서버 통화 흐름 다이어그램.](images/JJ683096.9b3b3c61-caca-42b6-853c-6a09e6ff5c44(OCS.15).jpg "영구 채팅 서버 통화 흐름 다이어그램.")
 
 1.  영구 채팅 클라이언트는 먼저 서버에서 대역내 프로비저닝 문서를 검색 하기 위해 SIP 구독을 보냅니다. 이 문서는 영구 채팅을 사용 하거나 사용 하지 않도록 설정 하 고 영구 채팅 서버 풀의 SIP Uri 목록에 대해 알려줍니다.
 
@@ -167,7 +169,7 @@ Lync 2013 클라이언트에서 영구 채팅 기능을 활용할 수 있도록 
 
 **영구 채팅 클라이언트 공간 구독 및 메시지 게시 통화 흐름**
 
-![회의실 구독 및 메시지 게시 시나리오.] (images/JJ683096.2d3c417e-c91b-42bd-964e-285b72bb2e44(OCS.15).jpg "회의실 구독 및 메시지 게시 시나리오.")
+![방 구독 및 메시지 게시 시나리오.](images/JJ683096.2d3c417e-c91b-42bd-964e-285b72bb2e44(OCS.15).jpg "방 구독 및 메시지 게시 시나리오.")
 
 1.  영구 채팅 클라이언트에서 User1이 채팅방 **참가**를 클릭 하 고 **검색**을 클릭 한 다음 몇 가지 검색 조건을 입력 합니다. 영구 채팅 클라이언트는 검색 조건과 함께 XCCOS **chansrch** (room 검색) 명령이 포함 된 SIP 정보 메시지를 보냅니다. 영구 채팅 서버 백 엔드 데이터베이스를 쿼리하고 검색 조건을 충족 하는 사용 가능한 회의실 목록이 포함 된 새 SIP 정보 메시지에 회신 합니다.
 

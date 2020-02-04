@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 인증서 요약 - NAT 사용 개인 IP 주소의 단�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Single consolidated edge with private IP addresses using NAT
 ms:assetid: 6de6680e-5f47-48e6-8e06-4994d710ea6d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398519(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77b9f2421d1ed6ef8a3127225f3911f0ea9a3973
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b76ba1e92c6c396b81e0a815a9b1368f90b8b85d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982337"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

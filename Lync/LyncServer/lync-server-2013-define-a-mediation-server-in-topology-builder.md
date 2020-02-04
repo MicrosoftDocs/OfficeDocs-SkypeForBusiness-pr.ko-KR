@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 토폴로지 작성기에서 중재 서버 정의'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a Mediation Server in Topology Builder
 ms:assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398391(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184217
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f1356217b9effe3f2282f6931b601e84aa46770
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bdff7da86bd7298511ea0ef384b2736a47882a03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982308"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 요약 보고서 검토'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reviewing the Summary Report
 ms:assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558626(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b42532da1272a06309b51d1f0090285fcf10c1f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0fdcde0c82f2b1b157db13fe22ee5cb792a4c1c6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984742"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732998"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

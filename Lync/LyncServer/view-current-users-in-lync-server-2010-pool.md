@@ -3,6 +3,8 @@ title: Lync Server 2010 풀의 현재 사용자 보기
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View current users in Lync Server 2010 pool
 ms:assetid: c0986800-8ee4-4d50-9e9c-39f7c4e67bed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721870(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bcd3538b15a1021b59cf9baf0600ad48e4f879cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da91f6a7247f152599f740aebaa7ebea09c852bc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983068"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730758"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ _**마지막으로 수정한 주제:** 2012-09-26_
 
 **Lync Server 15 제어판**
 
-![Lync Server 제어판, 사용자 이동 대화 상자],(images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "lync Server 제어판, 사용자 이동 대화 상자") 창
+![Lync Server 제어판, 사용자 이동 대화 상자](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server 제어판, 사용자 이동 대화 상자")
 
 </div>
 

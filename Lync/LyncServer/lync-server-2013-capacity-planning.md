@@ -3,6 +3,8 @@ title: Lync Server 2013 용량 계획
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning
 ms:assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399017(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49352446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b26973f863890e61c66fdfadd18d868551c5bca9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d6e2abe708554a24fabfe5c408d969dc0789c683
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983642"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737008"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 사용자별 현재 상태 정책 지정'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assigning per-user presence policies
 ms:assetid: fd1097b7-248d-4b78-8c43-456b03257c18
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182614(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185955
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 905065e231869b4b6075fc1894e51c91df8f0aee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4ec15b826614afcca970989b6436d3ad94d7941f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983851"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722838"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

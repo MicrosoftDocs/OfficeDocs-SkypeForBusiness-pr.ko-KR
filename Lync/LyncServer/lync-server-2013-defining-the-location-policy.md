@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 위치 정책 정의'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining the location policy
 ms:assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398962(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185553
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26b0e9aca4b3e66202d6b3c4a47b90db4f207fda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: feb7550412fa6cdcda3a8fc4dd9b7913912c34e1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984421"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728358"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

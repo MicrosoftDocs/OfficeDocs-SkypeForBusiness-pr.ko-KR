@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 모임 마이그레이션 고려 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Migration considerations for meetings
 ms:assetid: a9807d58-99a3-4cff-b4c6-74950d106a2b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412800(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61097556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67816dd8f2b9d8be3862994c735040c703bd2231
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6af94514360509d4f608a21228b2fecf9a522007
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982051"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

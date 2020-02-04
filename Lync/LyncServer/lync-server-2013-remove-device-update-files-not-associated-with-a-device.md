@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 장치와 연결 되지 않은 장치 업데이트 파
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Remove Device Update files not associated with a device
 ms:assetid: ecebbf73-b456-4990-a91d-308b84d39404
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994084(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803996
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ea26cd20826ed099e27c7287c53cc7ca79bef9c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42a2579360fbb4af8d6f3c491f5a56c380b593d0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983644"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724248"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

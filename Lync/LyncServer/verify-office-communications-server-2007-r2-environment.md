@@ -3,6 +3,8 @@ title: Office Communications Server 2007 R2 환경 확인
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify Office Communications Server 2007 R2 environment
 ms:assetid: e051bdd5-e7ef-4754-8705-900b2c57f37c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721906(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733840
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9369ad631b772e0a73677ab3214e24083426148a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0fb67868c9f7eddfe2b11b4238c5fdd1bd14d8e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983955"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730908"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Office Communications Server 2007 R2를 사용 하 여 Lync Server 2013을 공�
 
 3.  서비스가 Standard Edition server 또는 엔터프라이즈 풀에서 실행 중인지 확인 합니다.
     
-    ![Office Communications server 2007 R2 관리 콘솔](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "office Communications Server 2007 R2 관리 콘솔")
+    ![Office Communications Server 2007 R2 관리 콘솔](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office Communications Server 2007 R2 관리 콘솔")
 
 **Office Communications Server 2007 R2에 대해 구성 된 사용자 검토**
 
@@ -57,7 +59,7 @@ Office Communications Server 2007 R2를 사용 하 여 Lync Server 2013을 공�
 
 4.  Office Communications Server 2007 R2 사용자의 목록을 확인 합니다.
     
-    ![Ocs 관리 도구의 사용자 목록](images/JJ721906.f6bb7c4f-cbed-4389-8d0a-69a28577f17a(OCS.15).jpg "ocs 관리 도구의 사용자 목록")
+    ![OCS 관리 도구의 사용자 목록](images/JJ721906.f6bb7c4f-cbed-4389-8d0a-69a28577f17a(OCS.15).jpg "OCS 관리 도구의 사용자 목록")
 
 **레거시 XMPP 페더레이션 파트너 구성 확인**
 
@@ -65,7 +67,7 @@ Office Communications Server 2007 R2를 사용 하 여 Lync Server 2013을 공�
 
 2.  Office Communications Server XMPP 게이트웨이 서비스가 시작 되었는지 확인 합니다.
     
-    ![Office Communications server XMPP 게이트웨이 서비스](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "office communications Server Xmpp 게이트웨이 서비스")
+    ![Office Communications Server XMPP 게이트웨이 서비스](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Office Communications Server XMPP 게이트웨이 서비스")
 
 </div>
 

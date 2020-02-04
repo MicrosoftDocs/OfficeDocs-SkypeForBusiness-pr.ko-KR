@@ -3,6 +3,8 @@ title: 공존 시나리오에서 Lync Server 2010 관리 팩 사용
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Lync Server 2010 management packs in a coexistence scenario
 ms:assetid: 8b792503-bd88-47fe-9d97-b071e8d429a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205078(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 159aaa55e61068356701abaed3c0a67a60265c75
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 264cd8f1495840eb6dd86879f279110cd4de4784
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981646"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743888"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

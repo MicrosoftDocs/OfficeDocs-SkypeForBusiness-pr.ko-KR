@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 추가 서버 지원 및 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Additional server support and requirements
 ms:assetid: 7622986b-abd6-4f45-8b5b-d5e2368521e8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398577(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29f2d1a1b728fcec84f0aed70f00f1143c70c490
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f111b80bc88b632ff1020f45e899f220edeb7d5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979250"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

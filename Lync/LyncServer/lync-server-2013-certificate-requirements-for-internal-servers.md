@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 내부 서버에 대한 인증서 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate requirements for internal servers
 ms:assetid: 0444cdbd-538c-43b1-b9a1-9d7d6cf818d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398094(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183270
 ms.date: 02/17/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4a3f1eb54321c6cac7548d282bd3cea31c3f24a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0351ab4f54273e1eccc09992ab933525cc2527ae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985704"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736789"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

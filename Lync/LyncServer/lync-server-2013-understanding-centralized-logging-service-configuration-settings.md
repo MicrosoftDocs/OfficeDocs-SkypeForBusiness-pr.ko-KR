@@ -3,6 +3,8 @@ title: 중앙 로깅 서비스 구성 설정 이해
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Understanding Centralized Logging Service configuration settings
 ms:assetid: 3c34e600-0b91-43dc-b4cc-90b6a70ee12e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688029(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a4f9a6a2db8cb4726abc65553fc4482d349f38f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a766756f082e6666d37dff793c457cb335736fe0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985672"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744808"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -56,7 +58,7 @@ _**마지막으로 수정한 주제:** 2013-02-21_
     
     </div>
     
-    ![Get CsClsConfiguration의 샘플 출력입니다.] (images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Get CsClsConfiguration의 샘플 출력입니다.")
+    ![Get-CsClsConfiguration의 샘플 출력.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Get-CsClsConfiguration의 샘플 출력.")
     
     Cmdlet의 결과에는 중앙 로깅 서비스의 현재 구성이 표시 됩니다.
     

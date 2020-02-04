@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Active Directory 도메인 서비스 지원'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory Domain Services support
 ms:assetid: aeb62d5e-e424-473a-b795-9452150c98dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412831(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b264abefb1234892df355fee123dd6ce68b4dfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 32e1bce2546512900efb0b5ecd1256a97adde41e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984739"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737018"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

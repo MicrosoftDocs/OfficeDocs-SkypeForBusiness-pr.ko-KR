@@ -3,6 +3,8 @@ title: 타사 PSTN 게이트웨이 또는 PBX에 대한 통화 허용 제어 서
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call admission control with a third-party PSTN gateway or PBX
 ms:assetid: 95dc4ceb-bcad-48ee-86ec-af911727f853
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398762(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184850
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1996b56a50dbe616c8dc6e9b9b1c779c564b185
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 09aae207844fed12c840918a533fb181ca36634e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979173"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743178"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ CAC는 중재 서버의 게이트웨이 인터페이스에서 타사 PBX 또는 
 
 **사례 1: 중재 서버와 PSTN 게이트웨이 간의 CAC**
 
-![사례 1: 중재 서버와의 cac 간 Pstn 게이트웨이](images/Gg398762.4bebf9ee-2732-4ea6-bbe5-0269b2903d8c(OCS.15).jpg "대/소문자 1: 중재 서버 PSTN 게이트웨이 간 cac")
+![사례 1: 중재 서버 PSTN 게이트웨이 간의 CAC](images/Gg398762.4bebf9ee-2732-4ea6-bbe5-0269b2903d8c(OCS.15).jpg "사례 1: 중재 서버 PSTN 게이트웨이 간의 CAC")
 
 이 예제에서는 중재 서버와 PSTN 게이트웨이 간에 CAC가 적용 됩니다. 네트워크 사이트 1의 Lync 클라이언트 사용자가 네트워크 사이트 2의 PSTN 게이트웨이를 통해 PSTN 통화를 하는 경우 미디어는 WAN 링크를 통해 흐릅니다. 따라서 각 PSTN 세션에 대해 다음 두 가지 CAC 검사를 수행 합니다.
 
@@ -75,7 +77,7 @@ CAC는 중재 서버의 게이트웨이 인터페이스에서 타사 PBX 또는 
 
 **사례 2: 중재 서버와 MTP를 사용 하 여 타사 PBX 간의 CAC**
 
-![사례 2: mtp 케이스 2를 사용 하 여 중재 서버 pbx 간 cac](images/Gg398762.1c0b5263-c053-4cca-842f-85dd670760c8(OCS.15).jpg ": mtp를 사용 하 여 중재 서버 pbx 간 cac")
+![사례 2: 중재 서버 PBX(MTP 포함) 간의 CAC](images/Gg398762.1c0b5263-c053-4cca-842f-85dd670760c8(OCS.15).jpg "사례 2: 중재 서버 PBX(MTP 포함) 간의 CAC")
 
 이 예제에서는 중재 서버와 PBX/MTP 사이에 CAC가 적용 됩니다. 네트워크 사이트 1의 Lync 클라이언트 사용자가 네트워크 사이트 2에 있는 PBX/MTP를 통해 PSTN 통화를 하는 경우 미디어는 WAN 링크를 통해 흐릅니다. 따라서 각 PSTN 세션에 대해 다음 두 CAC 검사를 수행 합니다.
 
@@ -105,7 +107,7 @@ CAC는 중재 서버의 게이트웨이 인터페이스에서 타사 PBX 또는 
 
 **사례 3: 중재 서버와 MTP 없이 타사 PBX 간의 CAC**
 
-![사례 3: 중재 서버 pbx 간 cac-mtp](images/Gg398762.f4bcf800-3a68-4037-bb3f-adb2fdf50d32(OCS.15).jpg "Case 3: 중재 서버 pbx 간 CAC 없음 (mtp 없음") )
+![사례 3: 중재 서버 PBX(MTP 미포함) 간의 CAC](images/Gg398762.f4bcf800-3a68-4037-bb3f-adb2fdf50d32(OCS.15).jpg "사례 3: 중재 서버 PBX(MTP 미포함) 간의 CAC")
 
 이 예제에서는 네트워크 사이트 1의 Lync 클라이언트 사용자가 PBX를 통해 사용자에 게 전화를 거는 경우 중재 서버는 프록시 레그 에서만 CAC 확인을 수행할 수 있습니다 (Lync 클라이언트 응용 프로그램 및 중재 서버 간). 중재 서버는 세션을 요청 하는 동안 끝점 장치에 대 한 정보를 포함 하지 않으므로 호출 설정 전에 중재 서버와 타사 끝점 간의 WAN 링크에서 CAC 검사를 수행할 수 없습니다. 그러나 세션이 설정 된 후에는 중재 서버에서 트렁크에 사용 되는 대역폭에 대 한 계정을 쉽게 관리할 수 있습니다.
 

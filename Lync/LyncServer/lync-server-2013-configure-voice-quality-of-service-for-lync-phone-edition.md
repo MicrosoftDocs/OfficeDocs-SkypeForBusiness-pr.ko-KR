@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Phone 에디션에 대 한 서비스 품질을 �
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure voice Quality of Service for Lync Phone Edition
 ms:assetid: 2fbe19f7-7ebf-4f9b-a779-3a91f41d488f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520971(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91804e09ef7f0c25011180f1c1870d1c43d23305
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 03d2b669592d2fa50d3b47fcc45722234fe76963
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976279"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733888"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

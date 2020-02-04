@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 개선 된 현재 상태 개인 정보 모드 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring enhanced presence privacy mode
 ms:assetid: e7a6b873-486d-4dfb-a967-c48f61f237f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399028(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185664
 ms.date: 12/09/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 878691cd7b39d893b416a128f937d2aad1e561b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3cc68ad4e3200a268a2a6ea901167f211942c015
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984676"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736448"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

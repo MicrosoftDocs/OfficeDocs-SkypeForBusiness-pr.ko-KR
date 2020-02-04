@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server 2013 토폴로지에 보관 데이터베�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Adding Archiving databases to the Lync Server 2013 topology
 ms:assetid: 089ab32f-1167-4bb8-a283-fdc6c9613072
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204654(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183338
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe77c57050d6d6c70d5818405fd657d5a8fd3f0e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7476107b064b45dbef74b03ff9d54e02fc9eee52
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983938"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738168"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Lync Server 2013 리소스 키트 도구 문서
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 Resource Kit Tools Documentation
 ms:assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945604(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541429
 ms.date: 02/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1589285948bd9d3f82fae0ed7c7916029716514f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 511a4ee9920237e1671a44a2f7481b40fbeb8e1a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982868"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -201,7 +203,7 @@ Lync Server 2013 배포를 업데이트 하는 데 필요한 권한이 있는 �
 
 ABSConfig는 명령 프롬프트에서 **ABSConfig** 를 입력 하 여 시작할 수 있습니다. 아래에는 ABSConfig tool 사용자 인터페이스가 나와 있습니다.
 
-![ABSConfig 도구.] (images/JJ945604.6fb63a70-7b63-4b8b-b7d1-82fe9aa2028f(OCS.15).jpg "ABSConfig 도구.")
+![ABSConfig.exe 도구.](images/JJ945604.6fb63a70-7b63-4b8b-b7d1-82fe9aa2028f(OCS.15).jpg "ABSConfig.exe 도구.")
 
 </div>
 
@@ -407,7 +409,7 @@ WanLinkLogCollector를 사용 하는 세 단계는 다음과 같습니다.
 
 2.  **종료 날짜** 보고서가 생성 되는 시간 표시 막대의 종료 날짜입니다. 예를 들어 2010 년 9 월 30 일.
     
-    ![대역폭 사용률]의 시작 및(images/JJ945604.2c597cfc-3372-4d41-816b-26202f607ad8(OCS.15).jpg "종료 날짜를") 사용 합니다.  
+    ![Bandwidth Utilization Analyzer의 시작 및 종료 날짜](images/JJ945604.2c597cfc-3372-4d41-816b-26202f607ad8(OCS.15).jpg "Bandwidth Utilization Analyzer의 시작 및 종료 날짜")  
 
 </div>
 
@@ -421,7 +423,7 @@ WanLinkLogCollector를 사용 하는 세 단계는 다음과 같습니다.
 
   - **임시 파일 저장소 위치** 보고서를 생성 하는 동안 중간 파일이 저장 되는 임시 파일 위치입니다.
 
-대역폭 사용률 ![의 파일 디렉터리]대역폭(images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "사용률 anal")
+![Bandwidth Utilization Analyzer의 파일 디렉터리](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "Bandwidth Utilization Analyzer의 파일 디렉터리")
 
 <div>
 
@@ -441,11 +443,11 @@ WanLinkLogCollector를 사용 하는 세 단계는 다음과 같습니다.
 
 로그를 수집 하 고 보고서 뷰어를 시작 하려면 아래와 같이 **실행** 을 클릭 합니다. 이 단계는 필요한 데이터를 수집 합니다.
 
-대역폭 이용률에서 ![데이터 수집 Analy](images/JJ945604.0019cb2c-7c01-4dc9-ac90-ac47c47d1bfd(OCS.15).jpg "대역폭 이용률에서 데이터 수집 Analy")
+![Bandwidth Utilization Analyzer의 데이터 수집](images/JJ945604.0019cb2c-7c01-4dc9-ac90-ac47c47d1bfd(OCS.15).jpg "Bandwidth Utilization Analyzer의 데이터 수집")
 
 입력 유효성 검사에 성공 하면 아래에 표시 된 메시지가 표시 됩니다.
 
-대역폭 ![Utili에서 수집 된 알림을 로그에 기록](images/JJ945604.eda91da8-3285-4eab-8ccb-c6d89c8cc221(OCS.15).jpg "Utili")
+![Bandwidth Utilization Analyzer에 수집된 알림 로그](images/JJ945604.eda91da8-3285-4eab-8ccb-c6d89c8cc221(OCS.15).jpg "Bandwidth Utilization Analyzer에 수집된 알림 로그")
 
 **확인**을 클릭합니다. BandwidthUtilizationAnalyzer 자동으로 시작 됩니다. 메시지 상자의 지침을 따릅니다. 자세한 내용은 다음 섹션의 **BandwidthUtilizationAnalyzer 사용** 을 참조 하세요.
 
@@ -458,17 +460,17 @@ WanLinkLogCollector를 사용 하는 세 단계는 다음과 같습니다.
 
 1.  BandwidthUtilizationAnalyzer가 자동으로 시작 되 면 아래와 같이 **새로 고침** 을 클릭 합니다.
     
-    ![BandwidthUtilizationAnalyzer. .Xlsm](images/JJ945604.c4e675b9-1671-400e-a712-6db82d731b39(OCS.15).jpg "BandwidthUtilizationAnalyzer")
+    ![BandwidthUtilizationAnalyzer.xlsm](images/JJ945604.c4e675b9-1671-400e-a712-6db82d731b39(OCS.15).jpg "BandwidthUtilizationAnalyzer.xlsm")
 
 2.  파일 폴더를 열 때 아래와 같이 메시지 상자에 지정 된 위치에서 통합 .csv를 선택 합니다. 또한 위치를 **C:\\Temp**로 표시 합니다.
     
-    ![BandwidthUtilizationAnalyzer에서 폴더를 엽니다.] (images/JJ945604.601cc572-cee9-45fb-9ed1-c4b96a2fa21e(OCS.15).jpg "BandwidthUtilizationAnalyzer에서 폴더를 엽니다.")
+    ![BandwidthUtilizationAnalyzer의 폴더 열기.](images/JJ945604.601cc572-cee9-45fb-9ed1-c4b96a2fa21e(OCS.15).jpg "BandwidthUtilizationAnalyzer의 폴더 열기.")
 
 3.  **가져오기를**클릭 합니다.
 
 4.  그래픽 플롯이 자동으로 생성 됩니다. 이 기능은 작업 중 배경 포인터가 사라질 때 사용할 수 있습니다.
     
-    ![보고서 보기에서 필터를 적용 합니다.] (images/JJ945604.1416468e-e3ab-478e-b569-e42ba9c27a17(OCS.15).jpg "보고서 보기에서 필터를 적용 합니다.")
+    ![보고서 보기의 필터 적용.](images/JJ945604.1416468e-e3ab-478e-b569-e42ba9c27a17(OCS.15).jpg "보고서 보기의 필터 적용.")
 
 </div>
 
@@ -478,7 +480,7 @@ WanLinkLogCollector를 사용 하는 세 단계는 다음과 같습니다.
 
 아래 표시 된 것 처럼 보고서 보기에 적용할 수 있는 필터에 대 한 설명은 다음과 같습니다.
 
-![보고서 보기에서 필터를 적용 합니다.] (images/JJ945604.1416468e-e3ab-478e-b569-e42ba9c27a17(OCS.15).jpg "보고서 보기에서 필터를 적용 합니다.")
+![보고서 보기의 필터 적용.](images/JJ945604.1416468e-e3ab-478e-b569-e42ba9c27a17(OCS.15).jpg "보고서 보기의 필터 적용.")
 
 1.  **이름** WAN 링크로 필터링 (필터는 그래프 오른쪽에 있습니다.) 접두사는 다음 링크 형식을 나타냅니다. 세로 (파란색) 상자를 표시 합니다.
     
@@ -508,27 +510,27 @@ WanLinkLogCollector를 사용 하는 세 단계는 다음과 같습니다.
 
 **이름**필터링. 그래프에 표시 해야 하는 링크 목록을 선택 합니다.
 
-![BandwidthUtilizationAnalyzer에서 이름을 기준으로 필터링] (images/JJ945604.002b7c8e-f0da-48ce-9e1a-5c34d2cab063(OCS.15).jpg "BandwidthUtilizationAnalyzer에서 이름을 기준으로 필터링")
+![BandwidthUtilizationAnalyzer의 이름을 기준으로 필터링.](images/JJ945604.002b7c8e-f0da-48ce-9e1a-5c34d2cab063(OCS.15).jpg "BandwidthUtilizationAnalyzer의 이름을 기준으로 필터링.")
 
 **제한을 초과한 값**을 기준으로 필터링 합니다. **True** 를 선택 하 여 필터를 적용 합니다.
 
-![제한을 초과한 필터링] (images/JJ945604.5946c95e-76ce-46ca-8f3e-a79be1e5c527(OCS.15).jpg "제한을 초과한 필터링")
+![Exceeded Limit(제한 초과)를 기준으로 필터링.](images/JJ945604.5946c95e-76ce-46ca-8f3e-a79be1e5c527(OCS.15).jpg "Exceeded Limit(제한 초과)를 기준으로 필터링.")
 
 **위험 수준**으로 필터링 **True** 를 선택 하 여 필터를 적용 합니다.
 
-![요주의 수준별로 필터링] (images/JJ945604.60771a52-d8ba-4cb9-a02d-d6c888cb5505(OCS.15).jpg "요주의 수준별로 필터링")
+![Critical Levels(위험 수준)를 기준으로 필터링.](images/JJ945604.60771a52-d8ba-4cb9-a02d-d6c888cb5505(OCS.15).jpg "Critical Levels(위험 수준)를 기준으로 필터링.")
 
 **과소**필터링을 사용 합니다. **True** 를 선택 하 여 필터를 적용 합니다.
 
-![과소 사용을 기준으로 필터링] (images/JJ945604.95a2bf01-5aba-4927-af47-1ad3c459d791(OCS.15).jpg "과소 사용을 기준으로 필터링")
+![Under Utilized(낮은 활용도)를 기준으로 필터링.](images/JJ945604.95a2bf01-5aba-4927-af47-1ad3c459d791(OCS.15).jpg "Under Utilized(낮은 활용도)를 기준으로 필터링.")
 
 **링크 형식**으로 필터링 표시 해야 하는 유형을 선택 합니다.
 
-![링크 유형별 필터링] (images/JJ945604.08757949-06bd-4cf3-809f-d81fd23a6639(OCS.15).jpg "링크 유형별 필터링")
+![Link Type(링크 유형)을 기준으로 필터링.](images/JJ945604.08757949-06bd-4cf3-809f-d81fd23a6639(OCS.15).jpg "Link Type(링크 유형)을 기준으로 필터링.")
 
 **지역별로**필터링. 링크를 표시 해야 하는 영역 목록을 선택 합니다.
 
-![지역별로 필터링.] (images/JJ945604.5de4cec4-6c09-48bb-98c7-b56f7bdb3d5a(OCS.15).jpg "지역별로 필터링.")
+![Region(영역)을 기준으로 필터링.](images/JJ945604.5de4cec4-6c09-48bb-98c7-b56f7bdb3d5a(OCS.15).jpg "Region(영역)을 기준으로 필터링.")
 
 </div>
 
@@ -649,23 +651,23 @@ CPS를 실행 하는 컴퓨터에서이 도구를 실행 하는 경우 요구 �
 
 배포 된 궤도 범위: – o 매개 변수는 아래와 같이이 풀에 대해 구성 된 모든 궤도 범위를 나열 합니다.
 
-![통화 Parkometer의 궤도 범위.] (images/JJ945604.9ede64cb-29d9-4782-a34b-b76c42fbdcad(OCS.15).jpg "통화 Parkometer의 궤도 범위.")
+![Call Parkometer의 통화 번호 범위.](images/JJ945604.9ede64cb-29d9-4782-a34b-b76c42fbdcad(OCS.15).jpg "Call Parkometer의 통화 번호 범위.")
 
 현재 파킹 된 통화: – n 매개 변수는 표시 되는 대로이 풀에서 현재 사용 되는 모든 orbits를 나열 합니다.
 
-![통화 Parkometer 현재 파킹 된 통화.] (images/JJ945604.07a7eec4-7999-4c92-93f0-95525b244b4c(OCS.15).jpg "통화 Parkometer 현재 파킹 된 통화.")
+![Call Parkometer의 현재 대기 중인 통화.](images/JJ945604.07a7eec4-7999-4c92-93f0-95525b244b4c(OCS.15).jpg "Call Parkometer의 현재 대기 중인 통화.")
 
 무료 orbits 수: – f 매개 변수는 아래와 같이 풀에 현재 사용 가능한 orbits 수를 나열 합니다.
 
-![통화 Parkometer 무료 orbits.] (images/JJ945604.ecc1d621-0ca0-4ecf-a579-08b41c6f08ed(OCS.15).jpg "통화 Parkometer 무료 orbits.")
+![Call Parkometer의 사용 가능한 통화 번호.](images/JJ945604.ecc1d621-0ca0-4ecf-a579-08b41c6f08ed(OCS.15).jpg "Call Parkometer의 사용 가능한 통화 번호.")
 
 최근 파킹 된 통화: – r \<n\> 매개 변수는 \<표시\> 된 것과 같이, n 개의 마지막으로 파킹 되는 통화를 나열
 
-![통화 Parkometer의 최근 파킹 된 통화.] (images/JJ945604.1c5eb27d-faa1-491b-b4aa-b484255c3353(OCS.15).jpg "통화 Parkometer의 최근 파킹 된 통화.")
+![Call Parkometer의 최근 대기 통화.](images/JJ945604.1c5eb27d-faa1-491b-b4aa-b484255c3353(OCS.15).jpg "Call Parkometer의 최근 대기 통화.")
 
 테스트 궤도 예약: – t \<n\> 매개 변수 테스트에서는 표시 된 대로 데이터베이스에서 궤도를 예약 합니다.
 
-![통화 Parkometer에서 궤도 예약을 테스트 합니다.] (images/JJ945604.84c9b69e-7af0-4224-8711-a43a28f08691(OCS.15).jpg "통화 Parkometer에서 궤도 예약을 테스트 합니다.")
+![Call Parkometer의 테스트 통화 번호 예약.](images/JJ945604.84c9b69e-7af0-4224-8711-a43a28f08691(OCS.15).jpg "Call Parkometer의 테스트 통화 번호 예약.")
 
 </div>
 
@@ -818,7 +820,7 @@ DBAnalyze는 관리자가 Lync Server 2013 데이터베이스에 대 한 분석 
 
 Dbanalyze .exe를 설치 하려면 로컬 폴더에 복사한 다음 도구를 실행 합니다. 이 도구를 사용 하려면 명령줄에서 다음 명령을 실행 합니다.`dbanalyze.exe [/v] [/report:value] [/sqlserver:value] [/user:user@domain.com] [/conf:value][/pstnid:Value] [/maxcontacts:value]` 명령줄 옵션에 대 한 설명은 다음과 같습니다.
 
-![Dbanalyze. exe의 명령줄 옵션] (images/JJ945604.22bf3432-af6d-495b-8f48-d94c5d259523(OCS.15).jpg "Dbanalyze. exe의 명령줄 옵션")
+![Dbanalyze.exe의 명령줄 옵션.](images/JJ945604.22bf3432-af6d-495b-8f48-d94c5d259523(OCS.15).jpg "Dbanalyze.exe의 명령줄 옵션.")
 
 </div>
 
@@ -834,7 +836,7 @@ Dbanalyze .exe를 설치 하려면 로컬 폴더에 복사한 다음 도구를 �
 
 **사용자** 아래 표에는 Lync Server 2013 데이터베이스에 액세스 하는 데 필요한 권한이 있는 관리자가 나와 있습니다.
 
-![Dbanalyze에 대 한 사용 권한 표.] (images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Dbanalyze에 대 한 사용 권한 표.")
+![Dbanalyze.exe의 사용 권한 테이블.](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Dbanalyze.exe의 사용 권한 테이블.")
 
 <div>
 
@@ -893,7 +895,7 @@ ImportStorageServiceData resource kit 도구를 사용 하면 저장소 서비�
 
 이 도구는 해당 도구가 실행 되는 프런트 엔드에서 데이터를 소유 하지 않는 경우에도 실행 중인 프런트 엔드에서 CPU 및 IO 부하를 늘리고, 다른 프런트 엔드는이를 수행 합니다. 프론트 엔드가 과도 한 CPU 및 IO 로드가 아닌 경우 (예: 최대 사용 시간 외)에이 도구를 사용 하는 것이 좋습니다. 둘째,이 도구는 데이터 파일 하나를 가져오는 데 2 ~ 3 분 정도 걸릴 수 있습니다. 도구 실행 시간을 예상할 때이 점에 유의 하세요. 도구에서 생성 된 자세한 로그 파일은 기본적으로 파일 저장소에 표시 됩니다. 로그 파일의 크기가 수십 MB 이상 일 수 있으므로 보고 되는 오류가 없는 경우 삭제 합니다.
 
-![샘플 저장소 서버 이벤트 로그 이벤트] (images/JJ945604.3a903ef7-ea8a-4606-8229-a3e32f13af3a(OCS.15).jpg "샘플 저장소 서버 이벤트 로그 이벤트")
+![샘플 저장소 서버 이벤트 로그 이벤트.](images/JJ945604.3a903ef7-ea8a-4606-8229-a3e32f13af3a(OCS.15).jpg "샘플 저장소 서버 이벤트 로그 이벤트.")
 
 </div>
 
@@ -1298,35 +1300,35 @@ Microsoft Lync Server 2013 통신 소프트웨어 관리자는 네트워크 구�
 
 **Lync Server 2013 배포에서 다음 그래픽 형식으로 CAC 네트워크 토폴로지를 로드 하 고 확인 합니다.** Lync Server 2013 관리자는 아래 그림에 표시 된 것 처럼 **네트워크 구성 다운로드** 옵션을 사용 하 여 lync server 2013 컴퓨터에서 CAC 네트워크 토폴로지 구성을 로드 하 고 볼 수 있습니다. 이 도구는 Lync 구성 저장소에 연결 되지 않은 컴퓨터에 배포 된 경우 이러한 구성을 다운로드 하거나 볼 수 없습니다.
 
-![네트워크 구성을 다운로드 하는 중입니다.] (images/JJ945604.8d126d3f-2545-4f13-a244-974f09614982(OCS.15).jpg "네트워크 구성을 다운로드 하는 중입니다.")
+![네트워크 구성 다운로드.](images/JJ945604.8d126d3f-2545-4f13-a244-974f09614982(OCS.15).jpg "네트워크 구성 다운로드.")
 
 **그래픽 형식의 대역폭 정책 서버 로그 파일에서 CAC 네트워크 토폴로지를 로드 하 고 확인 합니다.** Lync Server 2013 대역폭 정책 서버는 Lync Server 2013 파일 공유 위치 아래에 있는 로깅 메커니즘의 일부로 CAC 네트워크 토폴로지를 저장 합니다. Lync Server 관리자는 아래 표시 된 것 처럼 **네트워크 구성 열기** 옵션을 사용 하 여 그래픽 형식으로 이러한 파일을 볼 수 있습니다.
 
-![대역폭 정책 서버 로그 파일을 엽니다.] (images/JJ945604.3e503e92-aacb-4921-a8d2-23f860fe2df6(OCS.15).jpg "대역폭 정책 서버 로그 파일을 엽니다.")
+![대역폭 정책 서버 로그 파일 열기.](images/JJ945604.3e503e92-aacb-4921-a8d2-23f860fe2df6(OCS.15).jpg "대역폭 정책 서버 로그 파일 열기.")
 
 디스크의 XML 형식으로 CAC 네트워크 토폴로지 저장 및 저장: Lync Server 2013 관리자는 아래와 같이 **네트워크 구성 복사본 저장** 옵션을 사용 하 여 cac 네트워크 토폴로지 구성 파일을 xml 형식으로 저장할 수 있습니다. 저장 된 구성 파일은 그래픽 보기 목적으로 오프 라인으로 사용할 수 있습니다.
 
-![네트워크 구성을 XML 파일로 저장] (images/JJ945604.6eeef3b0-78b5-4ee6-8d94-1a4ddf3d8676(OCS.15).jpg "네트워크 구성을 XML 파일로 저장")
+![네트워크 구성을 XML 파일로 저장.](images/JJ945604.6eeef3b0-78b5-4ee6-8d94-1a4ddf3d8676(OCS.15).jpg "네트워크 구성을 XML 파일로 저장.")
 
 CAC 네트워크 토폴로지 다이어그램을 JPG 또는 BMP 형식으로 저장 및 저장: Lync Server 2013 관리자는 다음과 같이 **네트워크 구성 다이어그램을 그림으로 저장** 옵션을 사용 하 여 CAC 네트워크 토폴로지 구성을 그래픽 형식 (JPG 및 BMP 파일 형식)으로 저장할 수 있습니다.
 
-![네트워크 구성을 그림으로 저장] (images/JJ945604.145a6fb9-58b1-46b1-bbd5-a661ceba07b4(OCS.15).jpg "네트워크 구성을 그림으로 저장")
+![네트워크 구성을 그림으로 저장.](images/JJ945604.145a6fb9-58b1-46b1-bbd5-a661ceba07b4(OCS.15).jpg "네트워크 구성을 그림으로 저장.")
 
 **CAC 네트워크 토폴로지 구성 데이터 보기:** Lync Server 2013 관리자는 아래와 같이 네트워크 구성 데이터 보기 옵션을 사용 하 여 네트워크 지역, 네트워크 사이트, 대역폭 프로필, 사이트 서브넷 IP 주소 등의 관련 네트워크 구성 데이터를 텍스트 형식으로 볼 수 있습니다.
 
-![네트워크 구성 데이터 보기.] (images/JJ945604.b72a4c21-a042-4d91-bf96-fcb396af0679(OCS.15).jpg "네트워크 구성 데이터 보기.")
+![네트워크 구성 데이터 보기.](images/JJ945604.b72a4c21-a042-4d91-bf96-fcb396af0679(OCS.15).jpg "네트워크 구성 데이터 보기.")
 
 **트리 보기 스타일에서 CAC 네트워크 토폴로지 보기:** Lync Server 2013 관리자는 아래와 같이 도구 창의 왼쪽에 있는 제어판을 사용 하 여 관련 네트워크 구성 데이터를 그래픽 트리 보기 스타일로 볼 수 있습니다.
 
-![트리 뷰에서 네트워크 구성 데이터 보기.] (images/JJ945604.4d924ac9-fd96-430f-b211-ee35b7ef9a23(OCS.15).jpg "트리 뷰에서 네트워크 구성 데이터 보기.")
+![네트워크 구성 데이터를 트리 뷰로 보기.](images/JJ945604.4d924ac9-fd96-430f-b211-ee35b7ef9a23(OCS.15).jpg "네트워크 구성 데이터를 트리 뷰로 보기.")
 
 **CAC 네트워크 토폴로지 링크에 대 한 사용자 지정 커넥터 정의 (예: 사이트 대 지역, 지역/지역 및 사이트 간 링크):** Lync Server 2013 관리자는 아래와 같이 설정 옵션을 사용 하 여 CAC 네트워크 구성 WAN 링크에 대 한 사용자 지정 그래픽 커넥터를 정의할 수 있습니다. 이렇게 하면 네트워크 구성에서 프로 비전 되는 다양 한 종류의 네트워크 링크를 구분 하는 데 도움이 됩니다.
 
-![Cac에 대 한 사용자 지정 커넥터 정의 네트워크 토폴로지](images/JJ945604.b20bea67-c8e1-453e-b1dd-e2aa17b62566(OCS.15).jpg "는 cac 네트워크 토폴로지의 사용자 지정 커넥터를 정의 합니다") .
+![CAC 네트워크 토폴로지에 대한 사용자 지정 커넥터 정의](images/JJ945604.b20bea67-c8e1-453e-b1dd-e2aa17b62566(OCS.15).jpg "CAC 네트워크 토폴로지에 대한 사용자 지정 커넥터 정의")
 
 **CAC 네트워크 토폴로지 사이트 정보, 지역 정보 및 프로 비전 된 대역폭 정책 보기:** Lync Server 2013 관리자는 아래 표시 된 옵션을 사용 하 여 관련 CAC 네트워크 지역 정보, 사이트 정보 및 CAC 대역폭 제공 정보를 볼 수 있습니다. (예를 들어, 네트워크 지역 또는 네트워크 사이트 개체에서 **정보** 를 클릭 합니다.)
 
-![네트워크에 대 한 사용자 지정 커넥터를 정의 합니다.] (images/JJ945604.26262c75-4342-41c3-bc98-1793aa6a7713(OCS.15).jpg "네트워크에 대 한 사용자 지정 커넥터를 정의 합니다.")
+![네트워크의 사용자 지정 커넥터 정의.](images/JJ945604.26262c75-4342-41c3-bc98-1793aa6a7713(OCS.15).jpg "네트워크의 사용자 지정 커넥터 정의.")
 
 </div>
 
@@ -1368,7 +1370,7 @@ CAC 네트워크 토폴로지 다이어그램을 JPG 또는 BMP 형식으로 저
 
 아래 그림은 응답 그룹 에이전트의 주요 인터페이스를 보여줍니다.
 
-![응답 그룹 에이전트 라이브 도구입니다.] (images/JJ945604.63cb0374-a6ef-4a59-b60e-bec86a880d09(OCS.15).jpg "응답 그룹 에이전트 라이브 도구입니다.")
+![Response Group Agent Live 도구.](images/JJ945604.63cb0374-a6ef-4a59-b60e-bec86a880d09(OCS.15).jpg "Response Group Agent Live 도구.")
 
 응답 그룹 에이전트 라이브의 상담원은 다음 세 가지 주요 기능을 사용할 수 있습니다.
 
@@ -1402,7 +1404,7 @@ CAC 네트워크 토폴로지 다이어그램을 JPG 또는 BMP 형식으로 저
 
 아래 그림에서는 에이전트에서 호스트 주소 및 바로 가기 키를 구성 하는 데 사용할 수 있는 옵션 대화 상자를 보여 줍니다. 이 대화 상자는 기본 인터페이스의 오른쪽 위에 있는 옵션 단추를 클릭 하 여 액세스할 수 있습니다.
 
-![응답 그룹 에이전트 라이브 옵션 대화 상자] (images/JJ945604.3cc15e29-8699-45ab-90c3-e1565fa6ebf6(OCS.15).jpg "응답 그룹 에이전트 라이브 옵션 대화 상자")
+![Response Group Agent Live 옵션 대화 상자.](images/JJ945604.3cc15e29-8699-45ab-90c3-e1565fa6ebf6(OCS.15).jpg "Response Group Agent Live 옵션 대화 상자.")
 
 응답 그룹 에이전트 라이브 구성에서 다음 세 가지 다른 설정을 사용자 지정할 수 있습니다.
 
@@ -1422,11 +1424,11 @@ CAC 네트워크 토폴로지 다이어그램을 JPG 또는 BMP 형식으로 저
 
 아래 그림은 오른쪽 창에서 대화 상대를 마우스 오른쪽 단추로 클릭 하 여 다른 에이전트로 IM을 호출 하거나 보내는 방법을 보여 줍니다.
 
-![통화 하기 또는 메신저 대화 보내기] (images/JJ945604.009cebe0-5a93-4745-89c3-8a16c7c13009(OCS.15).jpg "통화 하기 또는 메신저 대화 보내기")
+![전화 걸기 또는 메신저 대화 보내기.](images/JJ945604.009cebe0-5a93-4745-89c3-8a16c7c13009(OCS.15).jpg "전화 걸기 또는 메신저 대화 보내기.")
 
 아래 그림에서는 응답 그룹 에이전트에 현재 대기 중인 통화 수와 이러한 모든 수신 전화 중 가장 긴 대기 시간을 표시 하는 방법을 보여 줍니다.
 
-![대기열 정보 보기.] (images/JJ945604.131d7f79-b7ed-41f5-a9da-ffc556e31037(OCS.15).jpg "대기열 정보 보기.")
+![대기열 정보 보기.](images/JJ945604.131d7f79-b7ed-41f5-a9da-ffc556e31037(OCS.15).jpg "대기열 정보 보기.")
 
 </div>
 
@@ -2129,7 +2131,7 @@ Sysprep.inf 스크립트를 실행 하 고 Lync Server 2013 필수 구성 요소
 
 CsAnnouncementConfiguration 스크립트는 아래 표에 설명 된 두 가지 매개 변수를 필요로 합니다.
 
-![CsAnnouncementConfiguration 매개 변수를 이동 합니다.] (images/JJ945604.7ab66ad3-d0db-4d77-8b93-ebccf0cb0663(OCS.15).jpg "CsAnnouncementConfiguration 매개 변수를 이동 합니다.")
+![Move-CsAnnouncementConfiguration 매개 변수.](images/JJ945604.7ab66ad3-d0db-4d77-8b93-ebccf0cb0663(OCS.15).jpg "Move-CsAnnouncementConfiguration 매개 변수.")
 
 </div>
 
@@ -2229,7 +2231,7 @@ CsAnnouncementConfiguration 스크립트는 아래 표에 설명 된 두 가지 
 
 다음 표에서는 예제에 사용 되는 매개 변수에 대해 설명 합니다.
 
-![웹 회의 데이터 도구 매개 변수.] (images/JJ945604.a733c1c6-5dfc-4874-a74f-bfdee81c1401(OCS.15).jpg "웹 회의 데이터 도구 매개 변수.")
+![Web Conf Data Tool 매개 변수.](images/JJ945604.a733c1c6-5dfc-4874-a74f-bfdee81c1401(OCS.15).jpg "Web Conf Data Tool 매개 변수.")
 
     WebConfDataTool.exe /User:user0@contoso.com /Action:query ""/ExpirationDate:08/09/2010 12:00:00""
 

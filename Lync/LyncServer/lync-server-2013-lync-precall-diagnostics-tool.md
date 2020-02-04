@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync PreCall 진단 도구'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync PreCall Diagnostics Tool
 ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn451255(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e22b542a5840714455d4abdb0a7163e6a8ba748
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 004d3b30dc2c2886eb7a2d8977f1da062277cc92
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983348"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742338"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -121,17 +123,17 @@ Lync PCD에는 다음 기능이 포함 됩니다.
 
   - 로그인 실패 진단 (Windows 8 용 Lync PCD)
 
-![LYNC PCD 기능 로그인 진행 중 화면 샷](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Lync PCD 기능 로그인 진행") 스크린샷
+![Lync PCD 기능 로그인 프로세스 스크린샷](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Lync PCD 기능 로그인 프로세스 스크린샷")
 
   - 네트워크 메트릭의 그래픽 보기-네트워크 SPECIALIST, 패킷 손실 및 Interarrival 지터를 전체 화면 및 맞춰진 보기로 표시 합니다.
 
 **전체 화면 보기**
 
-![PreCall 진단 도구 테스트 결과 그래프](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "PreCall 진단 도구 테스트 결과 그래프")
+![PreCall Diagnostic 도구 테스트 결과 그래프](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "PreCall Diagnostic 도구 테스트 결과 그래프")
 
 **맞춰진 보기**
 
-![PreCall 진단 도구 이용률 테스트 결과](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "PreCall 진단 도구 이용률 테스트 결과")
+![PreCall Diagnostic 도구 사용률 테스트 결과](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "PreCall Diagnostic 도구 사용률 테스트 결과")
 
 </div>
 
@@ -149,7 +151,7 @@ Lync PCD에는 다음 기능이 포함 됩니다.
     
     Windows 8 시스템에서 PCD을 시작 하려면 시작 화면에서 아이콘을 선택 하거나 "PreCall 진단"을 검색 합니다.
     
-    ![PreCall 진단 도구 아이콘](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "PreCall 진단 도구 아이콘")
+    ![PreCall Diagnostic 도구 아이콘](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "PreCall Diagnostic 도구 아이콘")
 
 2.  도구가 시작 되 면 기본 자격 증명을 제공 하는 방법을 선택 하 고 **PreCall 진단 도구 옵션** 대화 상자에서 네트워크 운영 모드를 선택한 다음 **확인**을 선택 합니다.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server 및 Outlook Web App 2013 통합'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Integrating Lync Server 2013 and Outlook Web App 2013
 ms:assetid: 513d4cc7-aa87-4f68-b99d-d58b63bdf242
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688055(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31a25e1d0a6410171201af578d6b28f496468e06
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: faa75694ecaac662a643d331a4efdf91b41223e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983557"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725838"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 사용자에 게 Lync Server 보관 정책 적용'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Applying a Lync Server Archiving policy to a user
 ms:assetid: a23e4876-aa8d-4f49-a3bd-3696616e8290
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205143(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185024
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 295f1a0370372d937b07a38eab51cd43d0ef9f5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c7b82fd0d42aa6a34533f6b5005e15edd2aa5cbd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983133"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

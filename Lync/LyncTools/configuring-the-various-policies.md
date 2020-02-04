@@ -3,6 +3,8 @@ title: 다양 한 정책 구성
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the Various Policies
 ms:assetid: e3b3cbda-7c17-470b-acb0-82fdcc473184
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945610(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a105ea62b82d904007a2faa0493fd17092b84462
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6316a1027de963cefea6c0c76051f09cb5d33538
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985225"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ Lync server 2013 스트레스 및 성능 도구를 실행 하기 전에 Lync Ser
 
 예제 RoutingRules를 참조 하세요. 음성 라우팅 규칙을 구성할 때 전화 컨텍스트 (즉,/위치 프로필 또는/SimpleName) 및 내부/외부 지역 코드를 기록 하 여 사용자를 만들 때, 그리고 LyncPerfTool 구성 중에 (특히 PSTN-UC 및 UC-PSTN 용)를 지정할 수 있습니다. 예를 들어 RoutingRules의 **새-CsDialPlan 플랜** cmdlet에 대 한 호출의 simplename 매개 변수는 다음 UserProfileGenerator 그림의 locationprofile 값에 사용 해야 합니다.
 
-![샘플 음성 라우팅 규칙입니다.] (images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "샘플 음성 라우팅 규칙입니다.")
+![샘플 음성 라우팅 규칙.](images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "샘플 음성 라우팅 규칙.")
 
 자세한 내용은 lync Server 2013 설명서 및 [Lync server 2013의 엔터프라이즈 음성 cmdlet](https://technet.microsoft.com/en-us/library/gg415658\(v=ocs.15\))에 대 한 cmdlet 도움말을 참조 하세요.
 
@@ -99,7 +101,7 @@ Lync server 2013 스트레스 및 성능 도구를 실행 하기 전에 Lync Ser
 
 예제 ConferenceAutoAttendantConfiguration를 참조 하세요. 구성 생성을 위해 LConferencingAutoAttendant Cperf Tool 구성 도구에 입력할 수 있도록 기본적으로 1121111111 등의 전화 번호를 기록 합니다.
 
-회의(images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "수행자 응용") ![프로그램 구성]
+![회의 길잡이 응용 프로그램 구성](images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "회의 길잡이 응용 프로그램 구성")
 
 자세한 내용은 lync Server 2013 설명서와 lync server [2013의 웹 회의](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)) cmdlet에 대 한 cmdlet 도움말 및 [lync Server 2013의 전화 접속 회의 cmdlet](https://technet.microsoft.com/en-us/library/gg415630\(v=ocs.15\))을 참조 하세요.
 
@@ -132,7 +134,7 @@ Lync server 2013 스트레스 및 성능 도구를 실행 하기 전에 Lync Ser
 
 2.  다음 그림과 같이 UserProvisioningTool의 **LIS** 탭에 있는 값을 입력 하 여 주소를 구성 합니다.
     
-    ![위치 정보 서비스 구성] (images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "위치 정보 서비스 구성")  
+    ![위치 정보 서비스 구성.](images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "위치 정보 서비스 구성.")  
 
 3.  **LIS 구성 파일 생성**을 클릭 합니다.
 
@@ -154,7 +156,7 @@ Lync server 2013 스트레스 및 성능 도구를 실행 하기 전에 Lync Ser
 
 예: ResponseGroupConfiguration. ps1을 참조 하세요. 자세한 내용은 Lync Server 2013 설명서 및 [Lync server 2013의 응답 그룹 응용 프로그램 cmdlet](https://technet.microsoft.com/en-us/library/gg415654\(v=ocs.15\))에 대 한 cmdlet 도움말을 참조 하세요. 응답 그룹 응용 프로그램 구성을 검토 하려면 다음 그림과 `https://<poolfqdn>/RgsConfig/`같이을 참조 하세요.
 
-![응답 그룹 구성 도구입니다.] (images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "응답 그룹 구성 도구입니다.")
+![응답 그룹 구성 도구.](images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "응답 그룹 구성 도구.")
 
 </div>
 

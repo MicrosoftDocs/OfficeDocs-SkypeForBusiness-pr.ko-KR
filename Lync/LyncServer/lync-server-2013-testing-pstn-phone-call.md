@@ -3,6 +3,8 @@ title: 'Lync Server 2013: PSTN 전화 통화 테스트'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing PSTN phone call
 ms:assetid: dc7d319d-a627-45b6-a978-6111901251e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690133(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969656
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 641b2f77079fee100d8f3ac85a1a7580d7cf7d84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8095b4b0bb6aa4e6920d291c3fde3885ae6bfb03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981519"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745588"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 마이그레이션 프로세스 - 세부 정보
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migration process - details
 ms:assetid: ca7e352c-9bde-47d9-8273-5cf2fdfdfe7e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205264(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39560d69842c104c7db956418dabac9aa6d29d7c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1d3b46e2b80d9ad5a4b08108d1dc2bad03cf5f0f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977471"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

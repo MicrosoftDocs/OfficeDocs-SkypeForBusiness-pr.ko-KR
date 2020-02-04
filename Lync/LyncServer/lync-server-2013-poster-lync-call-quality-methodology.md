@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 포스터: Lync 통화 품질 방법'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Poster: Lync Call Quality Methodology'
 ms:assetid: a069f4e5-4f80-4f0f-8657-2e07276b6b41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593600(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e18dc59e0b8669bb48962874291e63523f37eb48
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 95105501d0403600e88d01ad5fa84363c1e81785
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985682"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**마지막으로 수정한 주제:** 2016-06-24_
 
 이 문서는 [Lync 통화 품질 방법론](http://go.microsoft.com/fwlink/?linkid=391841) 포스터와 함께 다운로드 센터에서 다운로드할 수 있습니다.
 
-(images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "CQM 프로세스를 설명") 하는 ![CQM 프로세스 포스터를 설명 하는 포스터]
+![CQM 프로세스를 설명하는 포스터](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "CQM 프로세스를 설명하는 포스터")
 
 이 포스터를 사용 하 여 Lync 2013 및 2010에 대 한 통화 품질 방법론, 그리고 엔터프라이즈 음성 기능을 포함 하는 Lync 구현의 통화 품질과 사용자 환경에 영향을 주는 문제를 찾아 제거할 수 있도록 도와주는 CQM에 대해 알아보세요. 통화 품질 방법론은 Lync에서 엔터프라이즈 음성 서비스를 개선 하는 데 더 나은 초점을 둘 수 있는 새로운 문제 해결 및 서비스 관리 프레임 워크입니다. 이 문서에서는 CQM, 모니터링할 서버 및 솔루션의 종류와 수집 된 원격 분석 데이터로 수행할 작업에 대해 자세히 알아볼 수 있습니다.
 

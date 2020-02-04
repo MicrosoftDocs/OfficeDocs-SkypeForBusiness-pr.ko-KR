@@ -3,6 +3,8 @@ title: 포트 요약 - 하드웨어 부하 분산 장치를 사용하는 조정�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Scaled consolidated edge with hardware load balancers
 ms:assetid: 91213b1e-f875-464b-83e8-fe3a351595a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398739(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184841
 ms.date: 04/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60250db155922999ce677248a41c3f4158aba466
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6260a4ad7f2717e0b4eb2446fc5b17671c3e45a5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975331"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725038"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ IPv4 외에도 Edge 서버는 이제 IPv6을 지원 합니다. 명확 하 게 �
 
 **하드웨어 부하 분산을 사용 하 여 크기가 조정 된 통합 된 가장자리**
 
-![Edge 서버 경계 네트워크 포트 및 프로토콜](images/Gg398739.063f7dd1-16db-4cc7-8708-bca9bc41184d(OCS.15).jpg "Edge 서버 경계 네트워크 포트 및 프로토콜")
+![에지 서버 경계 네트워크 포트 및 프로토콜](images/Gg398739.063f7dd1-16db-4cc7-8708-bca9bc41184d(OCS.15).jpg "에지 서버 경계 네트워크 포트 및 프로토콜")
 
 <div>
 
@@ -249,7 +251,7 @@ IPv4 외에도 Edge 서버는 이제 IPv6을 지원 합니다. 명확 하 게 �
 
 </div>
 
-![Edge 서버 포트 및 프로토콜 세부 정보](images/Gg398739.1c193b80-98ab-4d59-a854-dbfdb5e209e2(OCS.15).jpg "edge 서버 포트 및 프로토콜 세부 정보")
+![에지 서버 포트 및 프로토콜 세부 정보](images/Gg398739.1c193b80-98ab-4d59-a854-dbfdb5e209e2(OCS.15).jpg "에지 서버 포트 및 프로토콜 세부 정보")
 
 ### <a name="external-port-settings-required-for-scaled-consolidated-edge-hardware-load-balanced-external-interface-virtual-ips"></a>크기가 조정 된 통합 된 가장자리에 필요한 외부 포트 설정, 하드웨어 부하 분산: 외부 인터페이스 가상 Ip
 

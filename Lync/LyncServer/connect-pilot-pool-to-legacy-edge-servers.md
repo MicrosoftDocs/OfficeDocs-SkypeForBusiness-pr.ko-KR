@@ -3,6 +3,8 @@ title: 레거시 에지 서버에 파일럿 풀 연결
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
 ms:assetid: c3b67220-5705-47f6-852e-415204f3626c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721875(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fc42c645548ea9bad072da5f18643271a9eceeb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 447a0ead887b8283aa2701963a0107ef318bb312
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985342"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Lync Server 2013 사이트에서 Lync Server 2010 배포의 디렉터 및 Edge �
 
 5.  **사이트 페더레이션 경로 할당**에서 **SIP 페더레이션 사용**을 선택 하 고 lync server 2010 디렉터를 선택 하거나, 디렉터가 나열 되어 있지 않으면 Lync server 2010 Edge 서버를 선택 합니다.
     
-    ![속성 편집, 페더레이션 라우팅 페이지](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "속성 편집, 페더레이션 경로 페이지")  
+    ![속성 편집, 페더레이션 경로 페이지](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "속성 편집, 페더레이션 경로 페이지")  
 
 6.  **확인** 을 클릭 하 여 **속성 편집** 페이지를 닫습니다.
 
@@ -63,7 +65,7 @@ Lync Server 2013 사이트에서 Lync Server 2010 배포의 디렉터 및 Edge �
 
 9.  목록에서 레거시에 지 서버를 선택 합니다.
     
-    ![속성 편집 대화 상자에서 레거시 edge](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "편집 속성 대화 상자") 를 선택 하 고 기존 가장자리를 선택 합니다.  
+    ![속성 편집 대화 상자, 레거시 에지 선택](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "속성 편집 대화 상자, 레거시 에지 선택")  
 
 10. **확인** 을 클릭 하 여 **속성 편집** 페이지를 닫습니다.
 

@@ -3,6 +3,8 @@ title: 여러 사용자를 시험 운용 풀로 이동
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move multiple users to the pilot pool
 ms:assetid: 9492797f-2a26-4773-8ad2-97cb53fa68fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688143(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733745
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ffc3e01df30f4a8e1b9c9b9aeca2b2013003980
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 70d031481746f9f7408cc7b5e36081bb977b189d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983005"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743768"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Lync Server 2013 제어판 또는 Lync Server 2013 Management Shell을 사용 �
 
 6.  Lync Server 2013 풀로 이동 하려는 두 명의 사용자를 선택 합니다. 이 예제에서는 사용자 Yang 및 Claus Hansen를 이동 합니다.
     
-    Ocs 사용자(images/JJ688143.76beb4fa-72e0-41ef-b96e-3553e96645c0(OCS.15).jpg "검색에서 표시 되") ![는]사용자 목록 표시  
+    ![OCS 사용자 검색 결과 표시된 사용자 목록](images/JJ688143.76beb4fa-72e0-41ef-b96e-3553e96645c0(OCS.15).jpg "OCS 사용자 검색 결과 표시된 사용자 목록")  
 
 7.  **작업** 메뉴에서 **선택한 사용자 이동을 선택 하 여 그룹으로 이동**합니다.
 
@@ -61,7 +63,7 @@ Lync Server 2013 제어판 또는 Lync Server 2013 Management Shell을 사용 �
 
 9.  **작업** 을 클릭 한 다음 **선택한 사용자 이동을 클릭 하 여 그룹을 선택**합니다. 확인을 클릭합니다.
     
-    ![사용자 이동, 대상 등록자 그룹 대화 상자](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png ", 사용자 이동, 대상 등록자 풀 대화 상자")  
+    ![사용자 이동, 대상 등록자 풀 대화 상자](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "사용자 이동, 대상 등록자 풀 대화 상자")  
 
 10. 사용자의 **등록자 풀** 열에 사용자가 성공적으로 이동 되었음을 나타내는 Lync Server 2013 풀이 포함 되어 있는지 확인 합니다.
 
@@ -77,7 +79,7 @@ Lync Server 2013 제어판 또는 Lync Server 2013 Management Shell을 사용 �
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsLegacyUser -Target "pool_FQDN"
     
-    레거시 사용자를 이동(images/JJ688143.57cfc28e-3df5-459f-83ef-8b0edf182a25(OCS.15).jpg "하기 위해 cmdlet") 을 이동 하기 위한 ![cmdlet 예]  
+    ![레거시 사용자를 이동하는 cmdlet의 예제](images/JJ688143.57cfc28e-3df5-459f-83ef-8b0edf182a25(OCS.15).jpg "레거시 사용자를 이동하는 cmdlet의 예제")  
 
 3.  명령줄에 다음을 입력 합니다.
     
@@ -85,7 +87,7 @@ Lync Server 2013 제어판 또는 Lync Server 2013 Management Shell을 사용 �
 
 4.  이제 **등록자 풀** id는 이전 단계에서 **풀\_FQDN** 으로 지정한 풀을 가리킵니다. 이 id가 있으면 사용자가 성공적으로 이동 했음을 확인 합니다. 단계를 반복 하 여 %2이 (가) **이동 되었는지 확인** 합니다.
     
-    Powershell get ususer의 출력--(images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "ususer-id cmdlet의") ![id cmdlet]출력  
+    ![PowerShell Get UsUser-Identity cmdlet의 출력](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell Get-UsUser -Identity cmdlet의 출력")  
 
 </div>
 
@@ -101,7 +103,7 @@ Lync Server 2013 제어판 또는 Lync Server 2013 Management Shell을 사용 �
     
         Get-CsUser -OnOfficeCommunicationServer | Move-CsLegacyUser -Target "pool_FQDN"
     
-    풀의 모든 레거시 사용자를 ![이동 하기 위한 cmdlet]예제(images/JJ688143.e6a2d578-296e-476c-bd45-d757917ea853(OCS.15).jpg "cmdlet의 모든 레거시 사용자를 그룹으로 이동") 합니다.  
+    ![풀의 모든 레거시 사용자를 이동하는 cmdlet의 예제](images/JJ688143.e6a2d578-296e-476c-bd45-d757917ea853(OCS.15).jpg "풀의 모든 레거시 사용자를 이동하는 cmdlet의 예제")  
 
 3.  다음으로, 파일럿 사용자 중 한 명에 대해 **Get-CsUser** 를 실행 합니다.
     
@@ -111,7 +113,7 @@ Lync Server 2013 제어판 또는 Lync Server 2013 Management Shell을 사용 �
 
 5.  또한 Lync Server 2013 제어판에서 사용자 목록을 볼 수 있으며 이제 등록자 그룹 값이 Lync Server 2013 풀을 가리키는지 확인 합니다.
     
-    ![Lync server 2013 제어판 사용자 목록](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lync server 2013 제어판 사용자 목록")  
+    ![Lync Server 2013 제어판 사용자 목록](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lync Server 2013 제어판 사용자 목록")  
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 중앙 로깅 서비스에 대해 중지 사용'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Stop for the Centralized Logging Service
 ms:assetid: 09ac093e-8f30-4874-84b4-12548ac8c898
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687964(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733549
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 521328b688f90ca591abddb3e59e7d49ae771b15
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 621d7c02530fea62b1601c1db755292c8f819a6e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984134"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743968"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ Lync Server Management Shell을 사용 하 여 중앙 집중화 된 로깅 서�
     
         Show-CsClsLogging
     
-    Show-(images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "cscl Windows powershell 콘솔") 을 호출한 후 ![Windows powershell 콘솔]
+    ![Show-CsCl 호출 후의 Windows PowerShell 콘솔](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "Show-CsCl 호출 후의 Windows PowerShell 콘솔")
     
     Show-CsClsLogging 결과는 실행 중인 시나리오 및 실행 중인 범위에 대 한 요약입니다. 자세한 내용은 [-CsClsLogging 표시](https://docs.microsoft.com/powershell/module/skype/Show-CsClsLogging)를 참조 하세요.
 

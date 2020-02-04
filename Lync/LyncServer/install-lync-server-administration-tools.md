@@ -3,6 +3,8 @@ title: Lync Server 관리 도구 설치
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Install Lync Server administration tools
 ms:assetid: a56fc6ff-6cd7-42be-a99f-9f7f5525c93d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721840(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733773
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f9274b2191a8119e5caa67bd2d63820b33816a3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 614bce64839283fd953b926e0dbab2eed3638c5f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982959"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734168"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ _**마지막으로 수정한 주제:** 2012-10-02_
 
 2.  Lync Server 2013 배포 마법사 페이지에서 **관리 도구 설치** 를 선택 합니다.
     
-    ![Lync server 2013 배포 마법사, 시작 페이지](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 배포 마법사, 시작 페이지")
+    ![Lync Server 2013 배포 마법사, 시작 페이지](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 배포 마법사, 시작 페이지")
 
 </div>
 

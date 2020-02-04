@@ -3,6 +3,8 @@ title: 모범 사례 분석기를 사용 하 여 배포를 검사 하 여 잠재
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Best Practices Analyzer to scan your deployment for potential issues
 ms:assetid: 09c84509-dc91-4e7b-882b-3c467b6b026d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591343(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17c7d881ebc35a4f56207fedaa8533f0a3df3c7a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f787268301570d4440240289c19fdd1e266a607
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985280"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744208"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

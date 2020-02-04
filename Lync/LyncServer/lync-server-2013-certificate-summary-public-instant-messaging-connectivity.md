@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 인증서 요약-공용 인스턴트 메시지 연결'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Public instant messaging connectivity
 ms:assetid: 2b3687ee-50c2-4c1c-880e-8dcf8bd4f309
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618370(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31988207403ef1ccb5ea366da6e1ec6b3d448b4e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5c93e79eed643d608ac9ab04516222227fc7c1f6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985152"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736638"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: SBA(Survivable Branch Appliance) 또는 지속 가능 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a Survivable Branch Appliance or Server
 ms:assetid: 1f49cfbe-30b3-4600-af15-47cb2f58d18a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398280(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dadaa26f6a951995906ed29ffd0615da16066928
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df5577ff0211afd005feb8fea4788598a03d536e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979202"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728508"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

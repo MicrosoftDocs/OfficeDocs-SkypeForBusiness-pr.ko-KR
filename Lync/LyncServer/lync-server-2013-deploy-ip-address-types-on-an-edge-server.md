@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 에지 서버에 IP 주소 유형 배포'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy IP address types on an Edge Server
 ms:assetid: 6e2fe7e8-6e90-4d1a-8fc5-e3be92c46571
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204984(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a094a39fd74ab30ee1dd3a5a3da4e777bcf7e338
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ece4b55f42958916876539f05b951e862e0d493f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983441"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,11 +49,11 @@ _**마지막으로 수정한 주제:** 2012-06-14_
     
     **듀얼 스택형 Edge 서버 내부 인터페이스**
     
-    ![Lync server 일반 속성 페이지](images/JJ204984.5b0883ee-b9f2-4a21-91a9-3286d0beb63b(OCS.15).png "lync server 일반 속성 페이지")
+    ![Lync Server 일반 속성 페이지](images/JJ204984.5b0883ee-b9f2-4a21-91a9-3286d0beb63b(OCS.15).png "Lync Server 일반 속성 페이지")
     
     **듀얼 스택형 Edge 서버 외부 인터페이스**
     
-    ![Lync server 다음 홉/외부 구성 페이지](images/JJ204984.2aa00ce2-ba50-40aa-bbf1-78636016daf9(OCS.15).png "lync server 다음 홉/외부 구성 페이지")
+    ![Lync Server 다음 홉/외부 구성 페이지](images/JJ204984.2aa00ce2-ba50-40aa-bbf1-78636016daf9(OCS.15).png "Lync Server 다음 홉/외부 구성 페이지")
 
 3.  선택한 각 주소 유형에 대해 적절 한 내부 및 외부 주소를 제공 해야 합니다.
 

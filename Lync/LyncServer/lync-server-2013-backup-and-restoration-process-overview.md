@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 백업 및 복원 프로세스 개요'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backup and restoration process overview
 ms:assetid: e0f23b21-070f-4df5-b795-cea2f5338d85
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202192(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b01230e84c9278d5540c21d41d9af1342479e6a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 559ebb5a5d5ba91b5a4952037c18ad509ed5cec7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979339"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728958"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

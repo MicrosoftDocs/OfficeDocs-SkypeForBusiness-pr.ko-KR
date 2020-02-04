@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 위치 얻기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Acquiring a location
 ms:assetid: 9bf069aa-d240-4d95-be3a-e795537f8e70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205110(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184903
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fb123cf2f38d935bc0cc641c67e6d0ff1d54e4e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e54c7032973f75922f6c6893a0c758409ec945be
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982366"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723368"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Lync Server 클라이언트는 비상 전화의 일부로 PIDF-낮음 데이터�
 
 다음 다이어그램에서는 타사 클라이언트 MAC 주소 기반 위치 메서드를 제외 하 고 Lync Server 클라이언트가 위치를 가져오는 방법을 보여 줍니다.
 
-클라이언트가(images/JJ205110.4438f5fc-f1b2-444b-8565-09035363ed43(OCS.15).jpg "위치 다이어그램을 획득 하는 방법을") ![통해 위치 다이어그램을 가져오는 방법]
+![클라이언트가 위치를 가져오는 방법 다이어그램](images/JJ205110.4438f5fc-f1b2-444b-8565-09035363ed43(OCS.15).jpg "클라이언트가 위치를 가져오는 방법 다이어그램")
 
 클라이언트가 위치를 가져오려면 다음 단계를 수행 해야 합니다.
 
