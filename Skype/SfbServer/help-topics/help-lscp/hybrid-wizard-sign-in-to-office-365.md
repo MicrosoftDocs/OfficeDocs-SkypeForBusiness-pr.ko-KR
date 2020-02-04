@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.HybridSignIntoO365
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 description: 비즈니스용 skype Online을 사용 하 여 하이브리드 환경을 구성 하는 데 도움을 주는 비즈니스 서버 하이브리드 관리 마법사를 사용할 수 있습니다.
-ms.openlocfilehash: 1729699fdce96549bf1d3e485a6346960c4cc5ed
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 98acc139ded2c79d60515f91db40079d7a1e0138
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196384"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686411"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>하이브리드 마법사: Office 365에 로그인
 

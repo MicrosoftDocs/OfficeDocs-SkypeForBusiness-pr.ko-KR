@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatComplianceStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 서버 또는 영구적 채팅 서버 준수 기능에 대 한 데이터베이스를 제공 하는 준수 SQL Server 저장소를 구성 합니다.
-ms.openlocfilehash: 01c0480809c506a760a160750e0338dc5410c40e
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 6750e7bc655801bc200270d3215e3c458f621085
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197928"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689117"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>영구 채팅 준수 SQL Server 저장소 추가
 

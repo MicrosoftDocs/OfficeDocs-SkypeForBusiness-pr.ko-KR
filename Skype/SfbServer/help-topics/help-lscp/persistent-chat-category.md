@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatCategory
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: 영구 채팅 페이지의 범주 섹션을 사용하여 범주를 구성할 수 있습니다. 영구 채팅방 범주는 채팅방을 구성 하는 논리적 구조입니다. 범주는 채팅방을 만들거나 채팅방에 참가할 수 있는 사용자 및 사용자 그룹을 제어하기 위한 기본 ACL(액세스 제어 목록) 집합을 정의합니다. 범주를 사용하여 조직 내의 개별 하위 부문 간에 교신 차단 영역을 적용할 수 있습니다.
-ms.openlocfilehash: fc430c7d61ad4662d28f81594d59bf95d03f84c8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f7a87e45bc7f337fc86e1617bf17ffb4c9b5715e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197339"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686266"
 ---
 # <a name="persistent-chat-category"></a>영구 채팅 범주
  
@@ -69,7 +69,7 @@ ms.locfileid: "36197339"
     
 12. **범주 편집**에서 다음을 수행합니다.
     
-    - **구성원 자격**에서 허용 된 **구성원** 섹션의 사용자 및 기타 Active Directory 도메인 서비스 주체 (사용자, 메일 그룹, 조직 구성 단위 등)를 추가 하거나 제거 하 여 채팅방의 구성원으로 추가할 수 있도록 허용 합니다. 범주에 속해 있습니다. 특정 범주에서 허용된 계정은 채팅방의 구성원만 디렉터리에서 채팅방을 검색할 수 있도록 채팅방이 숨겨져 있지 않은 한 해당 범주에서 채팅방을 검색할 수 있습니다.
+    - **구성원 자격**의 허용 된 **구성원** 섹션에서 사용자 및 기타 Active Directory 도메인 서비스 주체 (사용자, 메일 그룹, 조직 구성 단위 등)를 추가 하거나 제거 하 여 범주에 속하는 채팅방의 구성원으로 추가할 수 있도록 허용 합니다. 특정 범주에서 허용된 계정은 채팅방의 구성원만 디렉터리에서 채팅방을 검색할 수 있도록 채팅방이 숨겨져 있지 않은 한 해당 범주에서 채팅방을 검색할 수 있습니다.
     
     - **구성원 자격**의 거부 된 **구성원** 섹션에서 룸에서 거부 되는 구성원과 연결 된 사용자 및 기타 Active Directory 주도자를 추가 하거나 제거 합니다.
     
@@ -79,6 +79,6 @@ ms.locfileid: "36197339"
     
 ## <a name="see-also"></a>참고 항목
 
-영구 채팅 서버 기능 및 기능에 대 한 자세한 내용은 비즈니스용 [Skype server 2015의 영구 채팅 서버 계획](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), 비즈니스용 [skype Server 2015의 영구 채팅 서버 배포](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)및 [영구 채팅 서버 관리를 참조 하세요. 비즈니스용 Skype 서버 2015](../../manage/persistent-chat/persistent-chat.md).
+영구 채팅 서버 기능 및 기능에 대 한 자세한 내용은 비즈니스용 skype Server 2015의 영구 채팅 서버에 [대 한 계획](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), 비즈니스용 [skype Server 2015의 영구 채팅 서버 배포](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)및 비즈니스용 [Skype Server 2015에서 영구 채팅 서버 관리](../../manage/persistent-chat/persistent-chat.md)를 참조 하세요.
   
 

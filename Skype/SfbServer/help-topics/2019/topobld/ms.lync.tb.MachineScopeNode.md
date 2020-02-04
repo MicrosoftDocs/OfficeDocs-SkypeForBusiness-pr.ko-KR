@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MachineScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 노드는 이 서버에 대한 서버 FQDN(정규화된 도메인 이름) 및 IP 주소 구성을 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 1aff1f455ae0485b625d8eb350eaa302942473a4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e21fbb513597cf1ef991506cd0a0bf43053843b0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197008"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688211"
 ---
 # <a name="machine-scope-node"></a>컴퓨터 범위 노드
  

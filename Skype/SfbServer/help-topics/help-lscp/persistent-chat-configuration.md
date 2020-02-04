@@ -7,25 +7,25 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: 영구 채팅 서버 구축은 많은 동시 영구 채팅방을 호스트할 수 있습니다. 채팅방은 서버에서 범주 집합으로 구성할 수 있습니다. 각 채팅방은 한 범주에 속하며 해당 범주의 일부 설정을 상속합니다. 이러한 구성은 비즈니스 목적에 따라 대화를 식별하는 데 유용한 구조를 만들며 위임된 관리 및 간소화된 관리를 용이하게 합니다.
-ms.openlocfilehash: 75665a9a3dfb25f6c70abb0c5a425d6ce69e5d62
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 07c1043a67d5f1a64dbb53540fbd902341067b32
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197338"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686231"
 ---
 # <a name="persistent-chat-configuration"></a>영구 채팅 구성
  
 영구 채팅 서버 구축은 많은 동시 영구 채팅방을 호스트할 수 있습니다. 채팅방은 서버에서 범주 집합으로 구성할 수 있습니다. 각 채팅방은 한 범주에 속하며 해당 범주의 일부 설정을 상속합니다. 이러한 구성은 비즈니스 목적에 따라 대화를 식별하는 데 유용한 구조를 만들며 위임된 관리 및 간소화된 관리를 용이하게 합니다.
   
 > [!NOTE]
-> 다양 한 채팅방의 관리 기능을 사용자에 게 영구 채팅을 실행 하는 컴퓨터에서 사용할 수 있지만, 영구 채팅 관리자 ( **cspersistentchatadministrator** 역할의)는 제어판 또는 관리 셸을 사용 해야 합니다. 범주를 만들거나 관리 하는 cmdlet입니다.
+> 다양 한 채팅방의 관리 기능을 사용자에 게 영구 채팅을 실행 하는 컴퓨터에서 사용할 수 있지만, **cspersistentchatadministrator** 역할의 영구 채팅 관리자는 제어판 또는 관리 셸 cmdlet 중 하나를 사용 하 여 범주를 만들거나 관리 해야 합니다.
   
 영구 채팅 관리자는 비즈니스용 Skype Server 제어판 또는 Windows PowerShell cmdlet을 사용 하 여 범주를 만들고 관리 하 고 조직의 사용자에 대 한 채팅방에 대 한 액세스를 디자인 합니다.
   
@@ -124,6 +124,6 @@ ms.locfileid: "36197338"
     
 ## <a name="see-also"></a>참고 항목
 
-영구 채팅 서버 기능 및 기능에 대 한 자세한 내용은 비즈니스용 [Skype server 2015의 영구 채팅 서버 계획](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), 비즈니스용 [skype Server 2015의 영구 채팅 서버 배포](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)및 [영구 채팅 서버 관리를 참조 하세요. 비즈니스용 Skype 서버 2015](../../manage/persistent-chat/persistent-chat.md).
+영구 채팅 서버 기능 및 기능에 대 한 자세한 내용은 비즈니스용 skype Server 2015의 영구 채팅 서버에 [대 한 계획](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), 비즈니스용 [skype Server 2015의 영구 채팅 서버 배포](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)및 비즈니스용 [Skype Server 2015에서 영구 채팅 서버 관리](../../manage/persistent-chat/persistent-chat.md)를 참조 하세요.
   
 

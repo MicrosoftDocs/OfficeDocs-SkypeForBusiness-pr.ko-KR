@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddVideoGatewayFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 268e718c-9b8c-458a-b3b9-853f49994e5b
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 비즈니스용 Skype 서버 2015에서 VIS 풀 만들기에서 온라인으로 설명 됩니다.
-ms.openlocfilehash: a307a5d216a9922714186748b36edff7989baba8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5c7bed268acdbcf8fc8dff94aa86243e45814ec9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197442"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685011"
 ---
 # <a name="add-video-gateway-fqdn"></a>비디오 게이트웨이 FQDN 추가
  

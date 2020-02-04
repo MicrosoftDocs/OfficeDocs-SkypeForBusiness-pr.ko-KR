@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertRequestBasics
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: 이름 및 보안 설정 페이지에서는 친근 한 이름, 개인 및 공개 키 쌍의 비트 길이에 대 한 드롭다운 목록, 인증서의 개인 키를 내보낼 수 있는 것으로 표시 하는 확인란을 정의 하는 텍스트 상자를 제공 합니다.
-ms.openlocfilehash: 66b9506086207fc8803bae9b77d39ee9f12ac43a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e3ee374ad9a1fc29f67b7f756dcb2fd0384bcabc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197363"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687791"
 ---
 # <a name="certificate-request-basic"></a>인증서 요청(기본)
  
-**이름 및 보안 설정** 페이지는 **이름**, 개인 및 공개 키 쌍의 **비트 길이** 에 대 한 드롭다운 목록, **인증서의 개인 키를 표시 하는 데 사용할 수 있는 확인란을 정의 하는 텍스트 상자를 제공 합니다. 내보낼**수 있습니다.
+**이름 및 보안 설정** 페이지에서는 **친근 한 이름**, 개인 및 공개 키 쌍의 **비트 길이** 에 대 한 드롭다운 목록, **인증서의 개인 키를 내보낼 수 있는 것으로 표시**하는 확인란을 정의 하는 텍스트 상자를 제공 합니다.
   
 인증서의 이름(단순한 이름)은 간편하게 인지할 수 있는 이름으로, 인증서를 보는 사용자가 보다 쉽게 이름을 식별할 수 있도록 합니다.
   

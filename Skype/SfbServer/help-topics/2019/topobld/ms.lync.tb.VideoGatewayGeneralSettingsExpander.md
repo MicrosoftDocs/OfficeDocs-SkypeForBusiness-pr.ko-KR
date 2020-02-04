@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.VideoGatewayGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d1485ab-f912-4153-9839-4717f0314729
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 비즈니스용 Skype 서버의 VIS 풀 만들기에서 온라인에 설명 되어 있습니다.
-ms.openlocfilehash: 0f13da95b862d613a37b654e4e93624b12613968
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 08b544a78f71a8bafc1d23ae89e4ec11f9bd4928
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197776"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687931"
 ---
 # <a name="video-gateway-general-settings"></a>비디오 게이트웨이 일반 설정
  

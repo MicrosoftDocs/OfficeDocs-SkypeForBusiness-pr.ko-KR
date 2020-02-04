@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatPolicy
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: 영구 채팅 그룹의 영구 채팅 정책 페이지를 통해 전역, 풀, 사이트 또는 사용자 수준에서 정책을 관리할 수 있습니다(배포에 대해 기본 전역 정책을 구성하고 하나 이상의 사용자 및 사이트 정책을 추가로 만드는 작업이 포함됨). 정책에 따라 영구 채팅 서버를 사용할 수 있는 경우 클라이언트에 영구 채팅 서버 환경이 표시 됩니다.
-ms.openlocfilehash: f08f0af3c2f553f1acc980c64be1602519ffa898
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 957956ce8537dd9f3ce08dd0919c7392a0c20810
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191814"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686191"
 ---
 # <a name="persistent-chat-policy"></a>영구 채팅 정책
  
@@ -83,7 +83,7 @@ ms.locfileid: "36191814"
     
 ## <a name="to-create-a-user-policy-for-persistent-chat"></a>영구 채팅에 대 한 사용자 정책을 만들려면
 
-비즈니스용 Skype 서버 제어판에서 사용자에 게 할당할 수 있는 사용자 정책을 정의 합니다. ****
+비즈니스용 Skype 서버 제어판에서 사용자에 게 할당할 수 있는 사용자 정책을 **정의 합니다.**
   
 사용자 정책은 해당 정책이 할당된 특정 사용자에 한해 전역 정책 및 사이트 정책에 우선합니다.
   

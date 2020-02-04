@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainForestPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Active Directory 도메인 서비스 포리스트를 준비 하려면 스키마 준비 실행 항목에 설명 된 대로 스키마를 성공적으로 확장 하 고 스키마가 복제 되었는지 확인 해야 합니다.
-ms.openlocfilehash: 3d22b2a2cbe69132d7c84cbcced3090fd4ade266
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4286ff0bd9b3291f631e3466b0e790174807a8bf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189693"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687401"
 ---
 # <a name="prepare-current-forest"></a>현재 포리스트 준비
 
@@ -35,7 +35,7 @@ Active Directory 도메인 서비스 포리스트를 준비 하려면 스키마 
 
 3. **명령 실행** 페이지에서 **작업 상태: 완료됨**을 찾은 다음 **로그 보기**를 클릭합니다. 오류가 없는지 확인합니다. 경고를 검토하여 해당 경고가 인프라에 대해 예상된 것이며 일반적인 것인지 확인합니다.
 
-4. 로그의 **작업** 열에서 **포리스트 Prep**을 확장 하 고 각 작업의 끝 ** \<에서\> 성공** 실행 결과를 찾아 포리스트 준비가 성공적으로 완료 되었는지 확인 하 고 로그를 닫은 다음 마침을 클릭 합니다. ** **.
+4. 로그의 **작업** 열에서 **포리스트**준비를 확장 하 고 각 작업의 끝 ** \<에서\> 성공** 실행 결과를 찾아 포리스트 준비가 성공적으로 완료 되었는지 확인 하 고 로그를 닫은 다음 **마침을**클릭 합니다.
 
 5. 도메인 준비를 실행 하기 전에 Active Directory 도메인 서비스 복제가 완료 되거나 포리스트 루트 도메인 컨트롤러에 대 한 **Active Directory 사이트 및 서비스** 스냅인에 나열 된 모든 도메인 컨트롤러로 복제를 강제로 수행할 때까지 기다립니다. 모든 Active Directory 사이트의 도메인 컨트롤러 간 복제를 강제로 사이트 내에서 몇 분 내에 복제를 발생 시킵니다.
 
