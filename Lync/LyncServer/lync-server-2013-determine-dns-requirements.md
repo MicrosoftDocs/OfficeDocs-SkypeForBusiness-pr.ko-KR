@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS 요구 사항 확인'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Determine DNS requirements
 ms:assetid: 95777017-6282-44c0-a685-f246af0501b4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398758(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e299f138a28ba4863250d2e0be1f31f705f4a173
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fd8c1c95c3b8ba3671735447f098eca9173111ba
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985652"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762486"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
