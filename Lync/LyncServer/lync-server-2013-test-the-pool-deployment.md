@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 풀 배포 테스트'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test the pool deployment
 ms:assetid: ffd80617-155a-4041-bbeb-74503e7938dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413092(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185976
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70a1dc68b8dbe6285cdf4b7e9c21c873caaf730d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cfde95e7323d68f05e78f670a6b027a5949f0169
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983869"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746068"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

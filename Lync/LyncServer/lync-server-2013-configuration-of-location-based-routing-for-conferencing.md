@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 회의를 위한 위치 기반 라우팅 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuration of Location-Based Routing for conferencing
 ms:assetid: d8c708cc-a1b1-48b1-808c-a64df15f7701
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362846(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56335088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 657978ee622713ffd830d4aeb92a05d949287568
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9ea90f30dcd9ec9fdde2e6f4db25e7d27ad12cd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982866"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756372"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

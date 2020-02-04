@@ -3,6 +3,8 @@ title: 호스팅된 Exchange UM과의 통합을 위한 에지 서버 구성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the Edge Server for integration with hosted Exchange UM
 ms:assetid: ede3f2f9-f412-418e-a705-8d8ec98176c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399075(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185745
 ms.date: 01/24/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7d9d37e5ed9127c81f0aec4fcdc8f2e90b5940f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a801ba4bf5f67eeda2eb760b3f639bac4cd13b66
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980205"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739988"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

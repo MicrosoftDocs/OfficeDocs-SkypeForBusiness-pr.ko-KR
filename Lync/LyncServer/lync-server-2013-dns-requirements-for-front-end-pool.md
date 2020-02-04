@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 프런트 엔드 풀에 대한 DNS 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for Front End pool
 ms:assetid: 02d2aa6b-9e01-437b-a2df-00590280150d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398082(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c033d8f1a4167e423d5663b0c9b0b7dbfb2d760
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 252bacd9818676155dcab0f84e3e1c5fcdb31b5d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975359"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765296"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

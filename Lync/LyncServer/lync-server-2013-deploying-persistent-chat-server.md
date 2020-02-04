@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 영구 채팅 서버 배포'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Persistent Chat Server
 ms:assetid: e3b930fb-6855-47f0-b6b3-7dfae386540d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205357(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185717
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a730057735f187dc5e5080d532515a4eb9db110
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7fe18bf750eabdb1f53c97a349b553da4f13dec8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985291"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740868"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

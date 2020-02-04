@@ -3,6 +3,8 @@ title: 보관 서버용 SQL Server 데이터베이스 제거
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove the SQL Server database for an Archiving server
 ms:assetid: 6e8a1fcd-ed09-43b0-82c9-60e7ce116a01
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688087(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a0794d751ae0c469539971d4b29685e2971d865
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 57a820780b7ca3646ba9fa6cc5d02a3c5022db9d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983574"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765569"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

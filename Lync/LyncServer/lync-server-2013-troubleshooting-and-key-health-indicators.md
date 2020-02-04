@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 문제 해결 및 주요 상태 표시기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Troubleshooting and Key Health Indicators
 ms:assetid: 14ec9e21-aa2b-4d65-9be4-ef2adfbe9a8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720322(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969585
 ms.date: 05/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 865ff509bb6f241563eebb884464cfe4d4a018e6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5a20e47f21b918976291371bd56e529196bae8a7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983316"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745048"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Lync Server 2013, 영구 채팅 서버 관리
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Lync Server 2013, Persistent Chat Server
 ms:assetid: 82befdc6-5d32-45f1-bfd7-aaedffed1ab8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398657(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184672
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de49e9843c5243457d1c4d736d9bfeda246f042e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 067e24a7e1534e355e39f80b6a3fda90e059be14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976656"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757152"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

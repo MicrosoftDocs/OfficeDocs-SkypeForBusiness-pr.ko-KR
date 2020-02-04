@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync 2013 에서 클라이언트 상호 운용성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client interoperability in Lync 2013
 ms:assetid: 0f126571-91a2-45d5-855c-1e4ddb45fc04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204672(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8ccc6239ffa0216e36839a7e58b510d8c8c3240
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b28d0de09a46a2be8b968e55c8f551e397da6ae8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983239"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756762"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 디자인 편집'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Editing the design
 ms:assetid: 08f639ba-0e5f-4ae7-9191-c3d96c25b169
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558608(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 601c313231a26341c3c4cf8a4897d11872dec9a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dfce3bc4242140364005a9a981282ecb90a42d3b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983536"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739458"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ _**마지막으로 수정한 주제:** 2013-02-21_
 
   - Edge 관리 보고서 – Edge 관리 보고서에는 총 4 개의 보고서가 포함 되어 있습니다.
     
-    ![Edge 관리 보고서 페이지](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "edge 관리 보고서 페이지")  
+    ![에지 관리 보고서 페이지](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "에지 관리 보고서 페이지")  
     
       - 요약 보고서-Edge 네트워크 구성에 대 한 설정의 일반적인 보고서입니다. **Edge 네트워크 다이어그램** 페이지의 값을 실제 배포에 사용 되는 토폴로지 TCP/IP 및 FQDN 값으로 편집 하면 해당 주소와 이름이 여기에 표시 됩니다. 그렇지 않으면 기본 텍스트가 표시 됩니다.
     

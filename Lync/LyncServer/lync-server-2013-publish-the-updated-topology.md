@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 업데이트된 토폴로지 게시'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publish the updated topology
 ms:assetid: 59455dd1-6a9e-433f-a714-d3636c068100
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204910(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184203
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9f3be1443f98444712a66942417e1812181efe7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4500d12c7b0a054ccce910f27c80f9aaa83eccaf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979925"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747068"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

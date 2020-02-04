@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 외부 사용자 액세스 배포'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying external user access
 ms:assetid: d40c9574-c16b-4fe6-b848-21ae0b7e4f0e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398918(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e8522eac5ace72f615cc3cb7b9271981d1b84c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba083650b9a068d48e28bf8af0c51b4b25b5c227
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983496"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758042"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

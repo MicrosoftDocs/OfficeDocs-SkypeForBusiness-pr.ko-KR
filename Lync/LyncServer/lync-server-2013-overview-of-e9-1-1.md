@@ -3,6 +3,8 @@ title: 'Lync Server 2013: E9-1-1 개요'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of E9-1-1
 ms:assetid: c01e6774-bc9f-4c5b-a60b-478b7317b2b7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412936(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 144f189c119653ddb02316193e78b9156fad2278
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 48b261ed0b173c85ccd076be14d65aa456558830
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984367"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

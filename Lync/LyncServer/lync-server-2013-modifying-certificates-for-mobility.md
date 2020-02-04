@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 모바일 기능용으로 인증서 수정'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modifying certificates for mobility
 ms:assetid: 4e9107af-20f4-4c2a-8c98-ca35b39a4e2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690015(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184120
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bccb901f241089a21fd7428e28b005f46e157300
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 150dc8c7b4021e1e2c7ccab6ccc71823c01c388e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984756"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756872"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 클라이언트 부트스트랩 정책 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring client bootstrapping policies
 ms:assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425941(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06119d5488b47adfe01a934aca9a55581feaf33e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8258063645267fb12801548ddfdeae1b4ef7c795
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983889"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758326"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 부하 분산을 위한 DNS 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure DNS for load balancing
 ms:assetid: 1b2e8414-8676-4872-8ecf-ea07196f74de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398251(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e370d3b66e82b02bd5668fc1c9cab4ee41da759
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5b68bf226c71d65835791577ab9a45f18b2a10e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985181"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758356"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -162,7 +164,7 @@ DNS 부하 분산을 사용 하려면 먼저 다음을 수행 해야 합니다.
 
 3.  **고급** 탭을 클릭 하 고 **라운드 로빈 사용** 및 **넷마스크 순서 지정 사용**을 선택한 다음 **확인**을 클릭 합니다.
     
-    ![Dns 라운드 로빈 대화 상자](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "dns 라운드 로빈 대화 상자")
+    ![DNS 라운드 로빈 대화 상자](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS 라운드 로빈 대화 상자")
 
 <div>
 

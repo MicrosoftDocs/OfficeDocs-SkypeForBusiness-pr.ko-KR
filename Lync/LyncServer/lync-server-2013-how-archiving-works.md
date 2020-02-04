@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 보관 방식'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: How Archiving works
 ms:assetid: 536a52a9-cfb7-4392-9620-ffc5b319b31b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204900(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 097b40ef4194a618c090e0d67f73583d6aa427b3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ca026dcfb9b994353de139b6e10ecd419c9dd165
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985230"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

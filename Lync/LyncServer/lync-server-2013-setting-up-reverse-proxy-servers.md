@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 역방향 프록시 서버 설치'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up reverse proxy servers
 ms:assetid: 00bc138a-243f-4389-bfa5-9c62fcc95132
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398069(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef13f2351ab74c0e3b2ba558a9dbf0aef43d71b5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fbc6e0aee918d08f47c6df88f91493cd62ae6a3b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977500"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

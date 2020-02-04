@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 감시자 노드 구성 테스트'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing watcher node configuration
 ms:assetid: f9ecd85c-0ae9-4906-b786-6b002b5a77c6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn751537(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d2c79de4f86e490244ef63948c263d8f387fc5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 920fc39d3800f83a2d40a613c391b2f0c93e4dac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982893"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745268"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

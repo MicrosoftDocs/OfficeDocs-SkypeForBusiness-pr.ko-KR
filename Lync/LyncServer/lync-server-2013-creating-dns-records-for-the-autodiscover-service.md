@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 자동 검색 서비스용 DNS 레코드 만들기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating DNS records for the Autodiscover Service
 ms:assetid: 3756ffe4-c6b1-492d-850e-42a832e06567
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690010(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183823
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5307251e9c3dea202b08b48bf45e109ef19449ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d91c67620a87fdd91a1755592175e8cf2964d259
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983170"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741148"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

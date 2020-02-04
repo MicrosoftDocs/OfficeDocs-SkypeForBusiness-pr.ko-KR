@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync 페더레이션 설정'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up Lync federation
 ms:assetid: 374ddc43-26f9-499d-be68-a5158adfa49c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204800(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe6dc0a2aeb39c86db54d21a2c4be5ff6c5be599
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7df0dd85bac0aa3053fb6a3496d6a13fa1f4a85e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979179"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

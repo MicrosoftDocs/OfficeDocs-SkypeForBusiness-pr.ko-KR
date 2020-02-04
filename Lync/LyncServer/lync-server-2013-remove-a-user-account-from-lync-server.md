@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server에서 사용자 계정 제거'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Remove a user account from Lync Server
 ms:assetid: 2f512aba-e358-45ae-af58-74312ee9c514
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688008(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9780e19fb608855d9c820285cc87582787ff896d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 97ee26fd15eb9df9174fd33cf9a45a6fe49411af
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979926"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746828"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

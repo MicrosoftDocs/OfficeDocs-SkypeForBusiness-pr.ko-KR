@@ -3,6 +3,8 @@ title: 온-프레미스 통합 메시징을 통합 하기 위한 배포 프로�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for integrating on-premises Unified Messaging and Lync Server
 ms:assetid: 269a4436-f09f-415b-96ab-49a64370a385
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425737(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7147a83bad1ed8b5cacc369d8d64e71fcaac32b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 76a45210fa90e5d2493885e54f07bb922f6d0495
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984028"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762616"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

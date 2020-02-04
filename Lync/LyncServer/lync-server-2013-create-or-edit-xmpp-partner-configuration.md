@@ -3,6 +3,8 @@ title: 'Lync Server 2013: XMPP 파트너 구성 만들기 또는 편집'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or edit XMPP partner configuration
 ms:assetid: 362dbe5e-8ee9-4aba-8c26-5907312b4a60
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552447(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 488fa84a3f24133c6ebcde4467cacdbdcffe7ff8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 488665bca5cd2ad1b4d2d91a3c85a6a1ddaa3916
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984765"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763392"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

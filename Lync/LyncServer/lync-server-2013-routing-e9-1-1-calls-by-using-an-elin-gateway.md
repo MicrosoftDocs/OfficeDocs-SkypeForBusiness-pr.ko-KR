@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ELIN 게이트웨이를 사용하여 E9-1-1 전화 라
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Routing E9-1-1 calls by using an ELIN gateway
 ms:assetid: 5a3997e3-898d-49cb-922a-4184c3373350
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204919(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184221
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cdb4b5879f92da79e8a6ec96f61e24fbe182c028
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 97c921a0b31438103ba74dcc64925e5b2069a8e8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983189"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732852"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

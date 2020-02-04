@@ -3,6 +3,8 @@ title: 컴퓨터, 사이트 및 전역 중앙 로깅 서비스 구성 관리
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing computer, site and global Centralized Logging Service configuration
 ms:assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688138(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c18e57b81daf93139493d046b8b2124e04e767
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8f714c82fdc4ade0fc70b0a977e32ef46b26914d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982062"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729338"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,7 +95,7 @@ Lync Server Management Shell을 사용 하 여 중앙 로깅 서비스 범위를
 
 **Get-CsClsConfiguration**을 실행 하면 배포에 현재 기본 전역 구성이 있지만 사이트 구성이 정의 되지 않은 다음 스크린샷은 다음과 같은 정보가 표시 됩니다.
 
-![Get CsClsConfiguration의 샘플 출력입니다.] (images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Get CsClsConfiguration의 샘플 출력입니다.")
+![Get-CsClsConfiguration의 샘플 출력.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Get-CsClsConfiguration의 샘플 출력.")
 
 </div>
 
