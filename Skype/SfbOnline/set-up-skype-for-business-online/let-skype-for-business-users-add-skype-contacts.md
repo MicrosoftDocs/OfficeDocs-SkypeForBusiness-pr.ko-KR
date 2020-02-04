@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 사용자가 Skype 연락처를 추가 하도록 허용
+title: 비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,19 +14,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 - LIL_Placement
 description: '비즈니스용 Skype를 사용 하는 사용자에 게 조직 외부의 비즈니스용 Skype 사용자에 게 연락 하 여 연락처 목록에 추가 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 3ba92977fa45686a900a78cfcf231a3c0985a933
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d6251e8e86527172e6818d11b1e07da892b4b0ef
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642349"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692883"
 ---
-# <a name="let-skype-for-business-users-add-skype-contacts"></a>비즈니스용 Skype 사용자가 Skype 연락처를 추가 하도록 허용
+# <a name="let-skype-for-business-users-add-skype-contacts"></a>비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용
 
 비즈니스용 Skype를 사용 하는 경우 사용자는 Skype를 사용 하는 모든 사용자와 무료 앱을 검색 하 고 메신저 대화를 할 수 있습니다. 이 문서에서는 Skype 연락처를 추가할 수 있도록 하기 위해 수행 해야 할 작업에 대해 설명 합니다. 
   
@@ -96,15 +97,15 @@ Microsoft 계정 (이전의 Windows Live ID)으로 로그인 한 skype 연락처
   
 |**Skype 연락처에서 이용 가능**|**Skype 연락처에서 사용할 수 없음**|
 |:-----|:-----|
-| 화상 대화 <br/>  개인 간 인스턴트 메시지 <br/>  늘어 <br/> | 여러 파티 메신저 대화 <br/>  세 명 이상에 게 오디오 및 비디오 대화 <br/>  데스크톱 및 프로그램 공유 <br/> |
+| 화상 대화 <br/>  개인 간 인스턴트 메시지 <br/>  현재 상태 <br/> | 여러 파티 메신저 대화 <br/>  세 명 이상에 게 오디오 및 비디오 대화 <br/>  데스크톱 및 프로그램 공유 <br/> |
    
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[사용자가 외부 비즈니스용 Skype 사용자에 게 연락할 수 있도록 허용](allow-users-to-contact-external-skype-for-business-users.md)
+[사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](allow-users-to-contact-external-skype-for-business-users.md)
   
-[비즈니스용 Skype Online 설정](set-up-skype-for-business-online.md)
+[비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
   
  

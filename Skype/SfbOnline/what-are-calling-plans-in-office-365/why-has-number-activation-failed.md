@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.NumberActivationStateFailed
 ms.custom:
 - Calling Plans
 description: 주소 유효성 검사는 Office 365에서 통화 계획을 설정 하는 데 중요 한 역할을 합니다. 응급 응답 서비스에서 사용할 수 있는 긴급 전화 주소를 조직의 사용자에 게 제공 합니다.
-ms.openlocfilehash: 243b3b739948fbdbeffdb56eeafd400e9bb39e7a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: ebfe408183de656f271d65ad7bebb6e413ab39c8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642664"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692283"
 ---
 # <a name="why-has-number-activation-failed"></a>번호 활성화에 실패 한 이유
 주소 유효성 검사는 Office 365에서 통화 계획을 설정 하는 데 중요 한 역할을 합니다. 주소 유효성 검사로 인해 일부 이유로 전화 번호가 활성화 되지 않은 경우 서비스 요청을 만들어야 합니다. 이 작업을 수행 하는 방법은 조직의 규모에 따라 달라 집니다.
@@ -98,12 +98,12 @@ ms.locfileid: "37642664"
 > 이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.
 
   
-## <a name="related-topics"></a>관련 항목
-[전화 번호 전송 일반적인 질문](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a>관련 주제
+[전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[비상 통화 약관](/microsoftteams/emergency-calling-terms-and-conditions)
+[긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [비즈니스용 Skype Online: 비상 전화 부인 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   

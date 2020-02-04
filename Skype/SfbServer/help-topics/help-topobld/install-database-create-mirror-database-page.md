@@ -1,5 +1,5 @@
 ---
-title: 데이터베이스 설치 미러 데이터베이스 만들기 페이지
+title: 데이터베이스 설치 미러 데이터베이스 페이지 만들기
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,20 +7,20 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.InstallDatabaseCreateMirrorDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: 이 문서는 예비 문서로, 변경 될 수 있습니다. 빈 항목은 개체 틀로 포함 됩니다.
-ms.openlocfilehash: 27df8977f9651ac363493d57a306c4355da3aebb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5d5a3198d21113848f4e90370dc2333517148ce6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189873"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684651"
 ---
-# <a name="install-database-create-mirror-database-page"></a>데이터베이스 설치 미러 데이터베이스 만들기 페이지
+# <a name="install-database-create-mirror-database-page"></a>데이터베이스 설치 미러 데이터베이스 페이지 만들기
  
 이 문서는 예비 문서로, 변경 될 수 있습니다. 빈 항목은 개체 틀로 포함 됩니다.
   

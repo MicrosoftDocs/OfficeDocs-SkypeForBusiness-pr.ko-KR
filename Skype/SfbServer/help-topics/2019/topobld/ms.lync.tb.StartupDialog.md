@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.StartupDialog
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기를 시작 하 여 배포의 속성 및 구성을 구성 합니다. 시작 시 토폴로지 작성기에는 토폴로지 문서의 출처를 묻는 대화 상자가 표시 됩니다. 다음 세 가지 옵션 중 하나를 선택 합니다.
-ms.openlocfilehash: 5629da8e8e9f408493d00a6e05a7894fe3660bda
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7c8d0de34a2631511b6b940ba6cae4a395d5bd64
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197375"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687961"
 ---
 # <a name="topology-builder-startup-dialog"></a>토폴로지 작성기 시작 대화 상자
  

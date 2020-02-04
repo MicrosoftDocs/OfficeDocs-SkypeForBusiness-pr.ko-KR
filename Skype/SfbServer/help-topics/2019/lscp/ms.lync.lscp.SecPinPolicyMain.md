@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SecPinPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 뭘 하고 싶으세요? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: 0df1712afc29e85f8353bb0e1de4aff15825a03b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+ms.openlocfilehash: b29f95652e24c37f16969967d848e4879687cb6e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196246"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690713"
 ---
 # <a name="pin-policy"></a>PIN 정책
 
-뭘 하고 싶으세요? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
 
  **IP 휴대폰용 PIN 정책 사용** 이 PIN (개인 식별 번호) 정책은 IP 휴대폰을 사용 하 여 비즈니스용 Skype 서버에 연결 하는 사용자에 대 한 인증을 지원 합니다.
 - [비즈니스용 Skype 서버에서 새 PIN 정책 만들기](../../../manage/authentication/create-a-new-pin-policy.md)

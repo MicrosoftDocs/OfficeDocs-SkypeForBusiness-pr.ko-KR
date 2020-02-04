@@ -1,26 +1,26 @@
 ---
-title: 엔터프라이즈 음성 사용자 선택
+title: Enterprise Voice 사용자 선택
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceAdhocTestSelUser
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Enterprise voice 사용자 선택 대화 상자를 사용 하 여 엔터프라이즈 음성을 사용할 수 있는 사용자를 찾을 수 있습니다. 검색 상자에 찾으려는 사용자의 SIP 주소나 표시 이름을 입력 한 다음 찾기를 클릭 합니다. 사용자를 선택 하려면 검색 결과 목록에서 사용자를 클릭 한 다음 확인을 클릭 합니다. 찾으려는 사용자를 찾을 수 없는 경우 해당 사용자가 엔터프라이즈 음성에 대해 사용 하도록 설정 되지 않았을 수 있습니다.
-ms.openlocfilehash: 3e7f87fc4e9d2dfe86fbfe7b3e0429d47bc937f7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 619d79c332c01183d787f3d278c403e95c3368d1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196407"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690343"
 ---
-# <a name="select-enterprise-voice-users"></a>엔터프라이즈 음성 사용자 선택
+# <a name="select-enterprise-voice-users"></a>Enterprise Voice 사용자 선택
  
 Enterprise voice **사용자 선택** 대화 상자를 사용 하 여 엔터프라이즈 음성을 사용할 수 있는 사용자를 찾을 수 있습니다. 검색 상자에 찾으려는 사용자의 SIP 주소나 표시 이름을 입력 한 다음 **찾기를**클릭 합니다. 사용자를 선택 하려면 검색 결과 목록에서 사용자를 클릭 한 다음 **확인**을 클릭 합니다. 찾으려는 사용자를 찾을 수 없는 경우 해당 사용자가 엔터프라이즈 음성에 대해 사용 하도록 설정 되지 않았을 수 있습니다. 
   

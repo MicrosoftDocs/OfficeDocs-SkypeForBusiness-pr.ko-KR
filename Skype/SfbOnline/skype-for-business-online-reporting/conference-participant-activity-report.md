@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365E_ReportsS4BPartActivity
 ms.custom:
 - Reporting
 description: '비즈니스용 Skype 컨퍼런스 참가자 활동 보고서를 가져오는 방법과이를 해석 하 고 사용자 지정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: b79e90a1dc53ab95af314c99d0ffd1c33f2e1181
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: 5f79241c7e77fc177efdae6b651c57b0172248dc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746301"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692443"
 ---
 # <a name="conference-participant-activity-report"></a>회의 참가자 활동 보고서
 
@@ -107,7 +107,7 @@ Office 365 관리자는 새 **보고서** 대시보드의 조직 내 Office 365 
 
 - [비즈니스용 Skype 세션 정보 보고서](session-details-report.md) 개인 사용자의 통화 환경에 대 한 세부 정보를 확인할 수 있습니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

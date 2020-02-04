@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Priority
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: '비즈니스용 Skype Online 로그인 오류의 일반적인 원인을 알아보고 이들을 해결하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: 397e899796184274ca357e40e070e7c92cf23b66
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 3315dec928ec019dc8f970171d2eb44693cdf909
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "37642148"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692773"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>관리자를 위한 비즈니스용 Skype Online 로그인 오류 문제 해결
 

@@ -1,26 +1,26 @@
 ---
-title: 페더레이션 경로 설정 확장기
+title: 페더레이션 경로 지정 설정 확장기
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FederationRouteSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사이트 페더레이션 경로 할당을 설정 하려면 먼저 Edge 서버 또는 Edge 서버 풀에 페더레이션을 사용 하도록 설정 해야 합니다. Edge 서버 또는 풀에서 페더레이션을 사용할 수 없는 경우에는 사이트의 페더레이션 경로 할당 설정을 수정할 수 없습니다.
-ms.openlocfilehash: 6e68bc7cb2f5a9f04e208dc2f27ce7724aa7e793
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a9679d5ddfe4652a79f58596940af7f450e4b470
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196272"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688564"
 ---
-# <a name="federation-route-settings-expander"></a>페더레이션 경로 설정 확장기
+# <a name="federation-route-settings-expander"></a>페더레이션 경로 지정 설정 확장기
  
 사이트 페더레이션 경로 할당을 설정 하려면 먼저 Edge 서버 또는 Edge 서버 풀에 페더레이션을 사용 하도록 설정 해야 합니다. Edge 서버 또는 풀에서 페더레이션을 사용할 수 없는 경우에는 사이트의 페더레이션 경로 할당 설정을 수정할 수 없습니다.
 

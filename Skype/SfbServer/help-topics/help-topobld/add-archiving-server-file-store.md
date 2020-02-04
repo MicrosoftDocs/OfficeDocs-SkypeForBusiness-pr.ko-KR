@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddArchivingServerFileStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e95f938e-4dd2-48b8-95a3-05b4c63d4810
 description: IM(메신저 대화) 및 웹 회의(모임) 콘텐츠를 둘 다 보관하도록 하려면 모든 웹 회의 콘텐츠의 복사본용 파일 저장소로 사용할 파일 저장소를 지정해야 합니다. 기존 파일 공유를 보관 파일 저장소로 사용하거나 파일 공유가 위치할 파일 서버의 FQDN(정규화된 도메인 이름) 및 새 파일 공유의 폴더 이름을 지정하여 새 파일 공유를 지정할 수 있습니다.
-ms.openlocfilehash: 99527455af38211ab788676b1072069924da9935
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 72f8ad131d016d9e14e556b6618ba837a02c7d27
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197575"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685381"
 ---
 # <a name="add-archiving-server-file-store"></a>보관 서버 파일 저장소 추가
 

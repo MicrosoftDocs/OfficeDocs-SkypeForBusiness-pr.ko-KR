@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365E_SkypeforBusinessON
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
@@ -23,12 +23,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: '비즈니스용 Skype를 설치 하도록 조직의 도메인, 사용자, IM, 현재 상태를 설정 하는 방법을 알아봅니다. 오디오 회의, 전화 시스템 및 통화 요금제 및 Skype 모임 브로드캐스트를 설정 하는 방법도 알아봅니다. '
-ms.openlocfilehash: ffa82896bcc17127a2125bd37fea7ce03b227516
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: d30a141b80ade00ef03bafdfab388df56e4b1b7d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746321"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692873"
 ---
 # <a name="set-up-skype-for-business-online"></a>비즈니스용 Skype 온라인 설정
 
@@ -170,7 +170,7 @@ Skype 모임 브로드캐스트를 설정 하는 단계에 대 한 개요는 다
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 <a name="bkmk_more"> </a>
 
 [비즈니스용 Skype 서버와 비즈니스용 Skype Online 간 하이브리드 연결 계획](https://go.microsoft.com/fwlink/p/?linkid=400791)

@@ -1,26 +1,26 @@
 ---
-title: 다음 홉 추가 VIS
+title: VIS Next Hop 추가
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddVisNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c25449d-375b-477b-b8d0-ed19e6775906
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 비즈니스용 Skype 서버의 VIS 풀 만들기에서 온라인에 설명 되어 있습니다.
-ms.openlocfilehash: 10efe801f93bd0efb84a20ed21cc8a1446ca3b3f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 020c9f9c33951737aec71edcc978ec7ccfb8751b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187974"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688881"
 ---
-# <a name="add-vis-next-hop"></a>다음 홉 추가 VIS
+# <a name="add-vis-next-hop"></a>VIS Next Hop 추가
  
 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 [비즈니스용 Skype 서버의 VIS 풀 만들기](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)에서 온라인에 설명 되어 있습니다.
   

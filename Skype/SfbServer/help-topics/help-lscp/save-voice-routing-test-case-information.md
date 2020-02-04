@@ -1,5 +1,5 @@
 ---
-title: 음성 라우팅 테스트 케이스 정보 저장
+title: 음성 경로 지정 테스트 케이스 정보 저장
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,20 +7,20 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceAdhocTestSave
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: 음성 라우팅 테스트 케이스 정보 저장 대화 상자를 사용 하 여 임시 음성 라우팅 테스트 사례를 저장할 수 있습니다. 음성 라우팅 테스트 사례 정보 저장에서이 테스트 사례의 이름에 지정할 이름을 입력 한 다음 확인을 클릭 합니다.
-ms.openlocfilehash: f219ce04ba09e2dc6814433cdf4bf9687885e4ff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77df1b1cb0ef496f588bb86edb5478e075dc532b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196920"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686011"
 ---
-# <a name="save-voice-routing-test-case-information"></a>음성 라우팅 테스트 케이스 정보 저장
+# <a name="save-voice-routing-test-case-information"></a>음성 경로 지정 테스트 케이스 정보 저장
  
 **음성 라우팅 테스트 케이스 정보 저장** 대화 상자를 사용 하 여 atemporary 음성 라우팅 테스트 사례를 저장할 수 있습니다. **음성 라우팅 테스트 사례 정보 저장**에서이 테스트 사례의 **이름** 에 지정할 이름을 입력 한 다음 **확인**을 클릭 합니다. 
   

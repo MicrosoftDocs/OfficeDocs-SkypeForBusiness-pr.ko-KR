@@ -1,5 +1,5 @@
 ---
-title: 세션 정보 보고서
+title: 세션 세부 정보 보고서
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: 새 Office 365 보고서 대시보드는 조직의 Office 365 제품 전반에 걸친 활동 개요를 보여 줍니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다.
-ms.openlocfilehash: faee3d0a4f2228ddc32121bf85cc2f6b3018f2cc
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 58f3c42c0a0188d4a2858e6b6b0a5bed93dfc72d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642350"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692353"
 ---
-# <a name="session-details-report"></a>세션 정보 보고서
+# <a name="session-details-report"></a>세션 세부 정보 보고서
 
 새 Office 365 **보고서** 대시보드는 조직의 Office 365 제품 전반에 걸친 활동 개요를 보여 줍니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 **비즈니스용 Skype 세션 세부 정보** 보고서를 사용 하 여 개별 사용자의 통화 환경에 대 한 세부 정보를 확인할 수 있습니다.
   
@@ -117,7 +118,7 @@ ms.locfileid: "37642350"
 
 - [비즈니스용 SKYPE PSTN 분 풀 보고서](pstn-minute-pools-report.md) 조직 내 현재 달 중 사용 된 시간 (분)을 확인할 수 있습니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

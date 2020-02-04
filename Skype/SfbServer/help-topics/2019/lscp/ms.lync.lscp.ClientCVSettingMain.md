@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientCVSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 환경에서 지원 하려는 클라이언트 버전을 지정 하는 것 외에도 아직 버전 정책이 정의 되어 있지 않은 클라이언트에 대 한 기본 작업을 지정할 수 있습니다. 이렇게 하면 환경에서 사용 되는 클라이언트 버전을 제한할 수 있으며,이를 통해 여러 클라이언트 버전 지원과 관련 된 비용을 제어 하는 데 도움이 됩니다.
-ms.openlocfilehash: 8234d1463c207361f3336a695fea1110a598e2c2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d19eb77fd86020f01785ef77bd6651a83c748b55
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197132"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691573"
 ---
 # <a name="client-version-configuration"></a>클라이언트 버전 구성
 

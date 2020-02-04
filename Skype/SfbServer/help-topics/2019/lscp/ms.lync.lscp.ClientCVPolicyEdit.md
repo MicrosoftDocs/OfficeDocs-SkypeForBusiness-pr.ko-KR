@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientCVPolicyEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사용자 환경에서 지원되는 클라이언트 버전을 지정할 수 있습니다. 버전이 다른 두 클라이언트가 상호 작용할 경우 한 클라이언트에서 사용할 수 있는 기능이 다른 클라이언트의 기능에 의해 제한될 수 있습니다.
-ms.openlocfilehash: 6a0f8db06f3e4e4283cd5c574f5e5f1dd566633c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c08c709d4a8db20a23580c5a5bfd2ceaf823e028
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197140"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691623"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>클라이언트 버전 정책: 새로 만들기 또는 기존 항목 편집
 

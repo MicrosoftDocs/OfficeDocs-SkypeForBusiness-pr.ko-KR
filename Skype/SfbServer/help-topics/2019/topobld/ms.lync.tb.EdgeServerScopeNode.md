@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 노드는 이 에지 풀에 대한 풀 FQDN(정규화된 도메인 이름) 및 기타 기본 설정을 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: d5f5cd5051288e496c9492de3df83c51c62b7036
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9af4ee67ca21aed5b5bf19efdb676edd210543f8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197330"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688526"
 ---
 # <a name="edge-server-scope-node"></a>에지 서버 범위 노드
  

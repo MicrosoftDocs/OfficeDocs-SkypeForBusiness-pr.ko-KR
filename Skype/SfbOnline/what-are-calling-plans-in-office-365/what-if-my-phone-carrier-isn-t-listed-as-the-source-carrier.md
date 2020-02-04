@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.PortOrderDetailPanelWhois
 ms.custom:
 - Calling Plans
 description: '해당 캐리어가 비즈니스용 Skype에 나열 되어 있지 않은 경우 수행할 작업에 대해 알아보세요. '
-ms.openlocfilehash: 7d1a9c70ffce63ee1a7ff437cb7157c5b8b5aeab
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 60bca0ead152bbde7f70da6f9f75080b07272b3d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37924919"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692303"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>내 전화 캐리어가 원본 반송파로 나열 되지 않으면 어떻게 하나요?
 
@@ -42,7 +42,7 @@ ms.locfileid: "37924919"
     > 이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.
 
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions)

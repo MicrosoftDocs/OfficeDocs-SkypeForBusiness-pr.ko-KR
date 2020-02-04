@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddBranchSiteNamePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 description: 새 분기 사이트를 정의하려면 다음을 지정합니다.
-ms.openlocfilehash: e6f975735f51d8d0ae7f012c39ab723575d37483
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 11fb260f92d62200c283745dc0edddc558395a7b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197564"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685361"
 ---
 # <a name="add-branch-site-name"></a>분기 사이트 이름 추가
 

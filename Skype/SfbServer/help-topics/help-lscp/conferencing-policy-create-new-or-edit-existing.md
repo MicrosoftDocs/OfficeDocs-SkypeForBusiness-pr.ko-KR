@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ConfMeetingPolicyEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: 회의 정책은 사용자가 회의(모임이라고도 함) 중에 사용할 수 있는 기능을 정의합니다.
-ms.openlocfilehash: 0c3a7a2228afb9ebd401ea99289cb42d6ef7551e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9e01aa430939d78e616c20c6feccdd94262dfa45
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190350"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686911"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>회의 정책: 새로 만들기 또는 기존 항목 편집
 

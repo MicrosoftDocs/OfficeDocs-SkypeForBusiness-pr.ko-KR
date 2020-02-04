@@ -1,5 +1,5 @@
 ---
-title: 보류 중인 인증서 (반환 됨)
+title: 보류 중인 인증서(반환됨)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,20 +7,20 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertPendingReturned
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 description: 온라인 인증서 요청 상태 페이지에서 인증서의 현재 상태를 반환 합니다. 인증서가 인증 기관 관리자와 여전히 승인 상태에 있는 경우, 즉 아직 승인 되지 않은 경우 상태는 인증서가 여전히 처리 되 고 있음을 나타냅니다.
-ms.openlocfilehash: 752fc9b83a0ba8a046a9471d821b46ad8811100a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7355115229969824ec88de628fbc86a4d29bee87
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189729"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687697"
 ---
-# <a name="pending-certificate-returned"></a>보류 중인 인증서 (반환 됨)
+# <a name="pending-certificate-returned"></a>보류 중인 인증서(반환됨)
  
 **온라인 인증서 요청 상태** 페이지에서 인증서의 현재 상태를 반환 합니다. 인증서가 인증 기관 관리자와 여전히 승인 상태에 있는 경우, 즉 아직 승인 되지 않은 경우 상태는 인증서가 여전히 처리 되 고 있음을 나타냅니다.
   

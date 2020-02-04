@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PublishTopologyResetPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 문서는 예비 문서로, 변경 될 수 있습니다. 빈 항목은 개체 틀로 포함 됩니다.
-ms.openlocfilehash: 58aa71ac8b5a9284fa979a6829ee8364e94a3eff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 66aa105c5d408f058147bd9ede332fe11aeab93b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191298"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688061"
 ---
 # <a name="publish-topology-reset-pool-page"></a>토폴로지 게시 풀 다시 설정 페이지
  

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Online에서 전화 받기
+title: 비즈니스용 Skype Online 휴대폰 받기
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,18 +17,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 'Polycom, HP, Mitel에서 비즈니스용 Skype로 작동 하는 휴대폰 및 필요한 라이선스에 대해 알아봅니다. '
-ms.openlocfilehash: ac3b262a9888acb95eef4e2e8822abc3441617c4
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: e852d54a1189ed8de7561e64809b1fc782fa644a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "37642762"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692253"
 ---
-# <a name="getting-phones-for-skype-for-business-online"></a>비즈니스용 Skype Online에서 전화 받기
+# <a name="getting-phones-for-skype-for-business-online"></a>비즈니스용 Skype Online 휴대폰 받기
 
 비즈니스용 skype Online은 비즈니스용 Skype 앱을 사용 하는 대신 기존 전화 환경을 보유 하려는 사용자를 위해 데스크톱 전화를 지원 합니다. 이 항목에서는 비즈니스용 Skype Online 및 조직에서 전화를 설정 하는 데 도움이 되는 기타 정보에 사용할 수 있는 전화 및 펌웨어 버전에 대해 설명 합니다.
 
@@ -90,26 +91,26 @@ Office 365에서 지원 되는 전화를 사용 하 여 휴대폰 시스템에�
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
-|**요소** <br/> |**Polycom 3PIP** <br/> |**옛 alink 3PIP** <br/> |**오디오 코드 3PIP** <br/> |**LPE** <br/> |
-|사용자 자격 증명으로 로그인  <br/> |'  <br/> |'  <br/> |'  <br/> |아니요  <br/> |
-|PC (페어링), Windows만을 통해 로그인  <br/> |'  <br/> |'  <br/> |'  <br/> |'  <br/> |
-|로그인 사용 (웹 로그인)  <br/>  <br/> **참고:** 배포 가이드의 지원 매트릭스를 확인 합니다.           |'  <br/> |'  <br/> |'  <br/> |아니요  <br/> |
-|모임 참가 한 번 클릭  <br/> |'  <br/> |'  <br/> |'  <br/> |'  <br/> |
-|클릭 하 여 전화 걸기 (페어링)  <br/> |'  <br/> |'  <br/> |'  <br/> |'  <br/> |
-|모임 컨트롤  <br/> |'  <br/> |'  <br/> |'  <br/> |'  <br/> |
-|시각적 보이스 메일  <br/> |'  <br/> |'  <br/> |'  <br/> |'  <br/> |
-|전화 잠금  <br/> |'  <br/> |'  <br/> |'  <br/> |'  <br/> |
-|장치 업데이트  <br/> |'  <br/> |'  <br/> |'  <br/> |'  <br/> |
-|대역내 프로비저닝  <br/> |'  <br/> |'  <br/> |'  <br/> |'  <br/> |
-|체감 품질  <br/> |'  <br/> |'  <br/> |'  <br/> |아니요  <br/> |
-|로그 업로드  <br/> <br/> **참고:** 현재 모든 로그는 Microsoft 지원 팀에만 업로드 됩니다. 통화 기록에 대 한 고객 액세스는 아직 사용할 수 없습니다.           |'  <br/> |'  <br/> |'  <br/> |'  <br/> |
-|최신 인증  <br/> |'  <br/> |'  <br/> |'  <br/> |아니요  <br/> |
-|여러 비상 번호  <br/> |'  <br/> |아니요  <br/> |아니요  <br/> |'  <br/> |
-|Exchange 일정 통합 *  <br/> |'  <br/> |'  <br/> |'  <br/> |'  <br/> <br/> **참고:** PC 테더 링 필요           |
-|현재 상태 통합  <br/> |'  <br/> |'  <br/> |'  <br/> |'  <br/> |
-|회사 디렉터리  <br/> |'  <br/> |'  <br/> |'  <br/> |'  <br/> |
-|위임  <br/> |'  <br/> |'  <br/> |'  <br/> |아니요  <br/> |
-|연락처 사진 통합  <br/> |아니요  <br/> |'  <br/> |아니요  <br/> |'  <br/> |
+|**기능** <br/> |**Polycom 3PIP** <br/> |**옛 alink 3PIP** <br/> |**오디오 코드 3PIP** <br/> |**LPE** <br/> |
+|사용자 자격 증명으로 로그인  <br/> |예  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
+|PC (페어링), Windows만을 통해 로그인  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
+|로그인 사용 (웹 로그인)  <br/>  <br/> **참고:** 배포 가이드의 지원 매트릭스를 확인 합니다.           |예  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
+|모임 참가 한 번 클릭  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
+|클릭 하 여 전화 걸기 (페어링)  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
+|모임 컨트롤  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
+|시각적 보이스 메일  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
+|전화 잠금  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
+|장치 업데이트  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
+|대역내 프로비저닝  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
+|체감 품질  <br/> |예  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
+|로그 업로드  <br/> <br/> **참고:** 현재 모든 로그는 Microsoft 지원 팀에만 업로드 됩니다. 통화 기록에 대 한 고객 액세스는 아직 사용할 수 없습니다.           |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
+|최신 인증  <br/> |예  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
+|여러 비상 번호  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |예  <br/> |
+|Exchange 일정 통합 *  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> <br/> **참고:** PC 테더 링 필요           |
+|현재 상태 통합  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
+|회사 디렉터리  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
+|위임  <br/> |예  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
+|연락처 사진 통합  <br/> |아니요  <br/> |예  <br/> |아니요  <br/> |예  <br/> |
 ||||||
 
      
@@ -119,12 +120,12 @@ Office 365에서 지원 되는 전화를 사용 하 여 휴대폰 시스템에�
 ## <a name="what-else-should-you-know"></a>알아야 할 기타 사항
 단계별 설치 지침은 [비즈니스용 Skype Online 전화 배포](deploying-skype-for-business-online-phones.md)를 참조 하세요.
 
-## <a name="related-topics"></a>관련 항목
-[비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기](../getting-service-phone-numbers.md)
+## <a name="related-topics"></a>관련 주제
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](../getting-service-phone-numbers.md)
 
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능 여부](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
  

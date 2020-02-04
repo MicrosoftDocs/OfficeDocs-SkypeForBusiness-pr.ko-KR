@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertList
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 인증서를 할당하려면 로컬 인증서 저장소에서 인증서를 선택합니다. 계속하려면 다음을 클릭합니다.
-ms.openlocfilehash: a936b96c4ebb46bfd5dc0e1e7f23d533404594da
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 11dc4afa39ecf232e509f306d4f7bd5f33f12dd2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187227"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692163"
 ---
 # <a name="certificate-list"></a>인증서 목록
  

@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.TenantInMigration
 ms.custom:
 - Setup
 description: '비즈니스용 Skype 관리 센터 및 다른 Microsoft 데이터 센터로 서비스를 마이그레이션할 때 사용할 수 없는 기능에 대해 알아봅니다. '
-ms.openlocfilehash: 9582b2c5209a0ad5231e4646f930cf1fcf65a55b
-ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
+ms.openlocfilehash: 3987675a5c054671be7a1d52227cf1f3161f2300
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "37642839"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692733"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>지금 비즈니스용 Skype Online 관리 센터를 사용할 수 없는 이유는 무엇 인가요?
 
@@ -65,10 +65,10 @@ ms.locfileid: "37642839"
 
 해야. 비즈니스용 Skype Online 서비스를 마이그레이션하는 동안에도 Office 365 (예: Office 365 및 Exchange 관리 센터)의 다른 관리 센터를 사용할 수 있습니다. 그러나 비즈니스용 Skype Online 관리 센터와 함께 마이그레이션 중에 비즈니스용 Skype Online 원격 PowerShell cmdlet을 사용할 수 없게 됩니다. 
   
-## <a name="related-topics"></a>관련 항목
-[비즈니스용 Skype Online 설정](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>관련 주제
+[비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
-[비즈니스용 Skype 사용자가 Skype 연락처를 추가 하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
+[비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

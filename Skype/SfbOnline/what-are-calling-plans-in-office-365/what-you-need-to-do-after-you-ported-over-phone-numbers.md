@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.PortOrderFinish
 ms.custom:
 - Calling Plans
 description: 전화 번호를 비즈니스용 Skype로 이식 한 후 다음에 수행 해야 할 작업을 확인 하세요.
-ms.openlocfilehash: 52096606d6317109726a66cea66e12fef855d43c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: effddc74a74f72b4f167b793a09b8ee903fc0d2a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642233"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692293"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>전화 번호로 이식 한 후에는 어떻게 해야 하나요?
 
@@ -38,18 +38,18 @@ ms.locfileid: "37642233"
     
 - 전화 번호에 이미 긴급 한 주소가 있으면 [조직의 긴급 위치를 추가, 변경 또는 제거](add-change-or-remove-an-emergency-location-for-your-organization.md)합니다.
     
-- [사용자의 전화 번호 지정, 변경 또는 제거](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
+- [사용자의 전화 번호 할당, 변경 또는 제거](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
 > [!NOTE]
 > 이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.
 
     
-## <a name="related-topics"></a>관련 항목
-[전화 번호 전송 일반적인 질문](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a>관련 주제
+[전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[비상 통화 약관](/microsoftteams/emergency-calling-terms-and-conditions)
+[긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [비즈니스용 Skype Online: 비상 전화 부인 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

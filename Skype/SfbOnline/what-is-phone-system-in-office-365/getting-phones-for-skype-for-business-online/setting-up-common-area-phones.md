@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 올바른 펌웨어를 얻고, 필요한 경우 업데이트 하 고, 라이선스를 할당 하 고, 공통 지역 전화에 대 한 설정을 구성 하는 배포 단계를 알아보세요.
-ms.openlocfilehash: a245db1a2033f08d50e9a3c1a32f27981a3eb702
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: bfba106c262fb558a468f8cad26b3555b81b125e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37924899"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692243"
 ---
 # <a name="set-up-common-area-phones"></a>공통 지역 전화 설정
 일반적으로 일반 지역 전화 (CAP)는 일부 사용자가 사용할 수 있는 대기실 또는 다른 영역 등의 영역에 배치 됩니다. 예를 들어 수신 지역 전화, 문 휴대폰 또는 회의실 전화, Cap는 사용자가 아닌 장치로 설정 되며 네트워크에 자동으로 로그인 됩니다. 아래 단계에서는 전화 요금제를 사용 하 여 회사에 대 한 이러한 유형의 전화를 배포할 수 있도록 전화 시스템 계정을 설정 하는 방법에 대해 알아봅니다.
@@ -140,9 +141,9 @@ ms.locfileid: "37924899"
 > CAP 프로비저닝 사이트 상태에서는 CAP 계정의 암호가 임의 암호로 재설정 됩니다. CAP가 참조 하는 계정이 Azure Active Directory (AAD) 계정이 된다는 점에 유의 하세요. AAD 에서만 계정을 만든 경우 프로세스는 간단 합니다. 온-프레미스 Active Directory를 AAD에 동기화 하 고 타사 IDP 또는 ADFS를 사용 하는 경우 CAP 프로비저닝이 실패 합니다. 이 경우 CAP 프로비저닝 작업을 수행 하려면 Office 365/Azure Active Directory 계정 (예: **onmicrosoft.com** 도메인을 사용 하는 계정)만 사용 해야 합니다.
 
 
-### <a name="related-topics"></a>관련 항목
+### <a name="related-topics"></a>관련 주제
 
 - [비즈니스용 Skype Online 휴대폰을 구축할](deploying-skype-for-business-online-phones.md)때 사용 가능한 전화에 대해 자세히 알아보세요.
-- [비즈니스용 Skype Online에서 전화 받기](getting-phones-for-skype-for-business-online.md)
+- [비즈니스용 Skype Online 휴대폰 받기](getting-phones-for-skype-for-business-online.md)
 
 

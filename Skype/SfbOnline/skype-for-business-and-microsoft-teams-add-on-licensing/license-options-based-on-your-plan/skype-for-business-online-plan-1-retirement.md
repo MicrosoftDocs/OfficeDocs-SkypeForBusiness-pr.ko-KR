@@ -1,5 +1,5 @@
 ---
-title: '비즈니스용 Skype Online 계획 1 만료 '
+title: '비즈니스용 Skype Online 플랜 1 단종 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,18 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 비즈니스용 Skype Online 요금제 1이 만료 되었습니다. 그러나 비즈니스용 Skype Online 계획 1에 대 한 현재 구독이 있는 경우에는이 변경으로 바로 영향을 받지 않습니다. 지금 또는 갱신 중에 새 요금제로 이동할 준비가 되 면 세 가지 옵션이 제공 됩니다.
-ms.openlocfilehash: 6e3ede1a6c01fe48384faf92048e502c393a346a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d0d553946ddbde84ede48b715332e66aea75dac4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642159"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692663"
 ---
-# <a name="skype-for-business-online-plan-1-retirement"></a>비즈니스용 Skype Online 계획 1 만료 
+# <a name="skype-for-business-online-plan-1-retirement"></a>비즈니스용 Skype Online 플랜 1 단종 
 
 비즈니스용 Skype Online 요금제 1이 만료 되었습니다. 그러나 비즈니스용 Skype Online 계획 1에 대 한 현재 구독이 있는 경우에는이 변경으로 바로 영향을 받지 않습니다. 전역 Office 365 관리자는 전자 메일 업데이트를 받고 작업을 수행 해야 하는 경우에 대 한 정보를 포함 하 여 메시지 센터 (Microsoft 365 관리 센터의 일부)에서 게시물을 볼 수 있습니다. 그 동안에는 기존의 비즈니스용 Skype Online 계획 1 라이선스를 계속 사용할 수 있습니다.
 

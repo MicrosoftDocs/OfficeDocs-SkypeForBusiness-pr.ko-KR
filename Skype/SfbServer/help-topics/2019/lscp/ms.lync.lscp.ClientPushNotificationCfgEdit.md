@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientPushNotificationCfgEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: 모바일 기능에서 핵심적인 두 가지 요소는 푸시 알림 및 PNCH(푸시 알림 클리어링 하우스)입니다. 푸시 알림은 메시지가 PNCH로 전송되는 프로세스입니다. 메시지는 모바일 클라이언트로 배달될 수 있거나 제한 시간이 만료될 때까지 PNCH에 보관됩니다.
-ms.openlocfilehash: 3a15e88e40b37da4570d04a93ef13a793d6dabaf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eb2fae5e6016fa0e8a28aa2bb750739fd2876f5e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197112"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691463"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>모바일 클라이언트: 푸시 알림 구성 만들기 또는 편집
  

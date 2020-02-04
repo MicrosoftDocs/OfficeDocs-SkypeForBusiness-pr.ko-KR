@@ -1,5 +1,5 @@
 ---
-title: 캐나다의 IP 릴레이-등록
+title: 캐나다의 IP 릴레이 - 등록
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -13,19 +13,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 캐나다에 대 한 IP 릴레이 계정을 sigh 하는 방법
-ms.openlocfilehash: a0d87822874f9a26f9778adbe9b9a9d6ca7edf5b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9dda43f5489b63918142aff4c2c111f4471b958b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642713"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693113"
 ---
-# <a name="ip-relay-in-canada---sign-up"></a>캐나다의 IP 릴레이-등록
+# <a name="ip-relay-in-canada---sign-up"></a>캐나다의 IP 릴레이 - 등록
 
 캐나다에 대 한 IP 릴레이 계정을 설정 하려면 아래 표에 나와 있는 정보를 기입 하 여 전자 메일에서 [ptn@microsoft.com](mailto:ptn@microsoft.com)에 게 보내 주십시오.
 

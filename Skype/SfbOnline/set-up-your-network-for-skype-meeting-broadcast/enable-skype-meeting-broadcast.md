@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - SMB
 description: 조직의 사용자가 Skype 모임 브로드캐스트를 사용 하기 전에 먼저 사용 하도록 설정 해야 합니다. 이렇게 하려면 Windows PowerShell을 사용 하는 방법을 알고 있어야 합니다. Windows PowerShell을 모르는 경우 Microsoft 파트너를 고용 하 여이 단계를 수행 하는 것이 좋습니다.
-ms.openlocfilehash: edf9c372a98da9e09d7e9040c6d035e389c8b1ec
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 6ad681972bb62fa1790290a90d4281fe4ccd8571
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989143"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692633"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트 사용
 
@@ -95,7 +96,7 @@ ms.locfileid: "40989143"
   
 이 단계를 건너뛰고 대신 다른 비즈니스를 페더레이션에 추가 하려면 [사용자가 외부 비즈니스용 Skype 사용자에 게 연락할 수 있도록 허용](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)을 참조 하세요. 
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Windows PowerShell 및 Lync Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)
   

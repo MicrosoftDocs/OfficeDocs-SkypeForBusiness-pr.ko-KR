@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceTestCaseMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 ROBOTS: NOINDEX, NOFOLLOW
-description: 뭘 하고 싶으세요? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: 019fa339c70571bc9d319ecac0e81d0b82ec4974
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+ms.openlocfilehash: 4a41402ab347f724d592e9e87bd237e858677cf9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188046"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690213"
 ---
 # <a name="test-voice-routing-test-cases"></a>음성 라우팅 테스트: 테스트 사례
 
-뭘 하고 싶으세요? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
 
 - [음성 라우팅 테스트 사례 만들기](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
 

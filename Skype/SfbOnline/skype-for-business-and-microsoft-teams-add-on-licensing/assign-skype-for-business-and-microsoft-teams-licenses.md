@@ -16,23 +16,24 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: '전화 시스템, 오디오 회의, 통화 계획 및 통신 크레딧을 위해 비즈니스용 Skype 라이선스를 할당 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 997cffce5b98ed992371a0f43e701b2efc1ae128
-ms.sourcegitcommit: 6d5f09acdcdc8d5a36f7ac785349209e7496f17d
+ms.openlocfilehash: 9aa423683160c064b13be140c4226b2327dd9b69
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "37642892"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692523"
 ---
 # <a name="assign-skype-for-business-licenses"></a>비즈니스용 Skype 라이선스 할당
 
 이 문서에서는 오디오 회의, 전화 시스템, 통화 요금제 등의 기능에 대 한 라이선스를 사용자에 게 할당 하는 방법에 대 한 팁을 제공 합니다. 또한 라이선스를 대량으로 할당 하는 스크립트도 제공 합니다.
 
 > [!IMPORTANT]
-> [비즈니스용 Skype 추가 기능 라이선스](skype-for-business-and-microsoft-teams-add-on-licensing.md) 에 대 한 자세한 내용은 Office 365 요금제에 따라 구입 해야 하 **는 라이선스 및 구입 방법** 에 대 한 자세한 내용은 사용자가 오디오 회의, 무료 전화 번호, 외부 전화 번호를 받을 수 있는 기능에 대해 알아보세요. 비즈니스.
+> [비즈니스용 Skype 추가 기능 라이선스](skype-for-business-and-microsoft-teams-add-on-licensing.md) 를 구입 하 **는** 데 필요한 라이선스 및 Office 365 요금제에 따라 사용자가 오디오 회의, 무료 전화 번호, 회사 외부의 전화 번호를 사용 하는 기능에 대 한 정보를 참조 하세요.
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>전화 시스템 및 통화 계획: 라이선스 할당을 위한 팁 및 스크립트
@@ -106,17 +107,17 @@ ms.locfileid: "37642892"
 |Enterprise E1  <br/> |STANDARDPACK  <br/> |
 |비즈니스용 Skype Online 독립 실행형 요금제 2  <br/> |MCOSTANDARD  <br/> |
 |전화 시스템  <br/> |MCOEV  <br/> |
-|국제 통화 요금제  <br/> |MCOPSTN2  <br/> |
+|국제 통화 플랜  <br/> |MCOPSTN2  <br/> |
 |국내 통화 요금제 (3000 min US/1200 최소 EU 요금제)  <br/> |MCOPSTN1  <br/> |
 |국내 통화 요금제 (120 분 통화 요금제)  <br/> |MCOPSTN5  <br/> |
 |국내 통화 요금제 (240 분 통화 요금제)  <br/> |MCOPSTN6  <br/> |
-|통신 제작진  <br/> |MCOPSTNC  <br/> |
+|통신 크레딧  <br/> |MCOPSTNC  <br/> |
 
 ## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>오디오 회의: 라이선스 할당을 위한 팁 및 스크립트
 
 ### <a name="what-you-need-to-know-before-assigning-audio-conferencing-licenses"></a>오디오 회의 라이선스를 할당 하기 전에 알아야 할 사항
 
-- 타사 오디오 **회의 공급자**: 다른 사용자가 타사 오디오 회의 공급자를 사용 하도록 이미 설정 되어 있는 경우 **오디오** 회의 라이선스를 할당 하면 Microsoft를 오디오 회의로 사용 하도록 변경 됩니다. 공급자로. 타사 공급자로 다시 변경할 수 있습니다.
+- 타사 **오디오 회의 공급자**: 다른 사용자가 타사 오디오 회의 공급자를 사용 하도록 이미 설정 되어 있는 경우 **오디오** 회의 라이선스를 할당 하면 Microsoft를 오디오 회의 공급자로 사용 하도록 변경 됩니다. 타사 공급자로 다시 변경할 수 있습니다.
 
 - 다음 단계: **오디오 회의** 라이선스를 할당 한 후 오디오 회의 공급자를 할당 해야 합니다. [Microsoft를 오디오 회의 공급자로 지정]을 참조 하세요.
 
@@ -183,7 +184,7 @@ foreach ($user in $users)
 |Enterprise E5 (오디오 회의 없음)  <br/> |ENTERPRISEPREMIUM_NOPSTNCONF  <br/> |
 |Enterprise E5 (오디오 회의 포함)  <br/> |ENTERPRISEPREMIUM  <br/> |
 
-## <a name="communications-credits"></a>통신 제작진
+## <a name="communications-credits"></a>통신 크레딧
 
 ### <a name="what-you-need-to-know-before-assigning-communications-credits-licenses"></a>통신 크레딧 라이선스를 지정 하기 전에 알아야 할 사항
 
@@ -199,11 +200,11 @@ foreach ($user in $users)
 
 **오디오 회의** 라이선스를 할당 하는 샘플 스크립트를 살펴보세요. **통신 제작진** 라이선스를 할당 하는 정보로 업데이트 하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
   
-[통화 요금제 설정](/microsoftteams/set-up-calling-plans)
+[통화 플랜 설정](/microsoftteams/set-up-calling-plans)
   
-[자금 추가 및 통신 제작진 관리](/microsoftteams/add-funds-and-manage-communications-credits)
+[자금 추가 및 통신 크레딧 관리](/microsoftteams/add-funds-and-manage-communications-credits)
   
   
  

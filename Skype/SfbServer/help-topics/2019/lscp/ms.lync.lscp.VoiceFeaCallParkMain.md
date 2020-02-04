@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceFeaCallParkMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: 대기 중인 통화는 다른 사용자가 검색 하거나 시간 초과 될 때까지 통화가 보류 되는 임시 번호로 전송 됩니다. 파킹 된 통화를 위해 예약 하는 내선 번호 범위를 사용 하 여 표를 구성 해야 합니다. 이 내선 번호는 가상 내선 번호여야 합니다(즉, 이 번호에 할당된 사용자나 전화가 없어야 함). 통화 공원 응용 프로그램을 실행 하는 각 풀에는 하나 이상의 확장 범위가 있을 수 있습니다. 이러한 범위는 배포 전체에서 전역적으로 고유해야 합니다.
-ms.openlocfilehash: d325b1dd2066bd35f6dc9003de4c026a7f925a72
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6519a678c2370e9763dddd3680c3a64257fe4305
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191688"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690323"
 ---
 # <a name="call-park"></a>통화 대기
 

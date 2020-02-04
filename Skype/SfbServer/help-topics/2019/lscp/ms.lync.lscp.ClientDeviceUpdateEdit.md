@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceUpdateEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: 최대 로그 캐시 크기, 최대 로그 파일 크기 또는 로그 파일을 제거 하기 전에 보관 되는 시간을 결정 하는 로그 설정 편집 페이지에 장치 로그 구성을 추가할 수 있습니다. 조직의 요구 사항에 따라 이러한 설정을 변경할 수 있습니다.
-ms.openlocfilehash: 22eb2c37bb0403cf9abf94da8f2e1460d3757b44
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6c448b886b14397f65d7ebeb5a52b90a38c7b320
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197124"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691543"
 ---
 # <a name="device-log-configuration-edit"></a>장치 로그 구성: 편집
  

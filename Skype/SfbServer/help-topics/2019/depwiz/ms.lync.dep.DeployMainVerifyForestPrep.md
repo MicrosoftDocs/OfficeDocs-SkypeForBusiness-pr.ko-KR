@@ -1,26 +1,26 @@
 ---
-title: 포리스트 준비의 복제 확인
+title: 포리스트 준비 복제 확인
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainVerifyForestPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 포리스트 준비 중에 글로벌 카탈로그의 복제 및 개체 만들기가 성공 했는지 확인 하려면 다음을 수행 합니다.
-ms.openlocfilehash: c7fe425dcbecf2bfba02d4862bc3a29b75e16910
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a89e5b1d8dff3f37def101b1cf2cccfad9d1bd5c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197409"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691753"
 ---
-# <a name="verify-replication-of-forest-preparation"></a>포리스트 준비의 복제 확인
+# <a name="verify-replication-of-forest-preparation"></a>포리스트 준비 복제 확인
  
 포리스트 준비 중에 글로벌 카탈로그의 복제 및 개체 만들기가 성공 했는지 확인 하려면 다음을 수행 합니다.
   

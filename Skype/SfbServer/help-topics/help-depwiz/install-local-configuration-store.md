@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 4/13/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainInstallReplica
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 description: 새 비즈니스용 Skype 서버 2015 역할 서버 설치를 시작 하려면 먼저 로컬 구성 저장소를 호스트할 로컬 SQL Server를 설치 해야 합니다. 로컬 구성 저장소는 비즈니스용 Skype Server 중앙 관리 저장소 (CMS)의 읽기 전용 복제본 역할을 합니다. 로컬 구성 저장소 설치 단계를 실행하는 서버에는 해당 컴퓨터의 로컬 관리자로 로그온되어 있어야 하며, RTCUniversalServerAdmins 또는 RTCUniversalGlobalReadOnlyGroup 그룹의 구성원 자격이 있어야 합니다. 에지 서버에서 설치를 수행하는 경우에는 RTCUniversalServerAdmins 또는 RTCUniversalGlobalReadOnlyGroup 그룹의 구성원일 필요가 없습니다. 토폴로지 작성기 정의 문서는 중앙 관리 저장소 대신 내보낸 정의 문서에서 읽어 집니다. Edge 서버에서 사용할 수 있도록 토폴로지 작성기 정의 문서를 내보내려면 사용자의 토폴로지 내보내기 및 Edge 설치를 위해 외부 미디어에 복사 항목을 참조 하세요.
-ms.openlocfilehash: c3da29e6c9630b22e7ae947f9b23ab5dbeebd13c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 83412bbef1305dab51cbb35ad9044f756154905c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197188"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687645"
 ---
 # <a name="install-local-configuration-store"></a>로컬 구성 저장소 설치
 

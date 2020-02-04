@@ -1,5 +1,5 @@
 ---
-title: 사용자가 외부 비즈니스용 Skype 사용자에 게 연락할 수 있도록 허용
+title: 사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,7 +14,10 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
+- Setup
 - For O365M_ShareLync
 - ms.lync.lac.OrgExternalAccess
 - ms.lync.lac.skypefederation
@@ -23,18 +26,16 @@ f1_keywords:
 - O365M_ShareLync
 - O365P_ExternalCommDesc
 - O365P_ShareLync
-ms.custom:
-- Setup
 - LIL_Placement
 description: '사용자가 다른 조직의 사용자에 게 대화를 보내거나 외부 연락처를 사용할 수 있도록 비즈니스용 Skype를 구성 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 570861f532371dc8eca253956ffdd200e60f5990
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: bc0a59487d3cfd3e5721d60213d367c750349604
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642657"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692943"
 ---
-# <a name="allow-users-to-contact-external-skype-for-business-users"></a>사용자가 외부 비즈니스용 Skype 사용자에 게 연락할 수 있도록 허용
+# <a name="allow-users-to-contact-external-skype-for-business-users"></a>사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용
 
 > [!NOTE]
 > 비즈니스용 Skype 페더레이션은 21Vianet 및 Office 365 독일 조직이 운영 하는 Office 365에서 사용할 수 없습니다. 
@@ -148,12 +149,12 @@ ms.locfileid: "37642657"
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 <a name="bk_preview"> </a>
 
-[비즈니스용 Skype Online 설정](set-up-skype-for-business-online.md)
+[비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
   
-[비즈니스용 Skype 사용자가 Skype 연락처를 추가 하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
+[비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
   
   
  

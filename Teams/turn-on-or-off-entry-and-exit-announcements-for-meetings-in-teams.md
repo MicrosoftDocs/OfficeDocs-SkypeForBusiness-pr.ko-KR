@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft 팀 모임에서 입력 및 종료 알림을 설정 하거나 해제 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 43141190d53cb3c32bd6645f850d2c6d9bb398b0
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: a1543ec48b0d9622fc10abf6d8e2c5cc9b991b02
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37569304"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693673"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Microsoft 팀에서 모임에 대 한 시작 및 종료 알림 설정 또는 해제
 

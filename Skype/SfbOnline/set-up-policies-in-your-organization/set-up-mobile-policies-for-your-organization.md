@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 사용자가 휴대폰 번호를 사용 하 여 휴대폰 전화를 걸고 받을 수 있는 기능 등 모바일 장치에서 비즈니스용 skype 앱에 대 한 skype Online에 연결 하는 방법을 설정할 수 있습니다. mber. 이동성 정책은 전화를 걸거나 받을 때 Wi-fi 연결이 필요한 경우에도 사용할 수 있습니다.
-ms.openlocfilehash: 8ade1f69c7374009ea0f19fb1e777df76b45220c
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 7457b89014395a5ee833b8a35bde68751ade9cfd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962556"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692953"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>조직의 모바일 정책 설정
 
@@ -138,7 +139,7 @@ ms.locfileid: "40962556"
     
   - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [사용자 지정 외부 액세스 정책 만들기](create-custom-external-access-policies.md)
 
 [점 대 점 파일 전송 차단](block-point-to-point-file-transfers.md)

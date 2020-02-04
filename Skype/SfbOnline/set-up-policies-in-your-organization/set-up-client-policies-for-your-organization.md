@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 클라이언트 정책은 사용자에 게 제공 되는 비즈니스용 Skype Online의 기능을 결정 하는 데 도움이 됩니다. 예를 들어, 다른 사용자에 게이 권한을 거부 하면서 파일을 전송할 권한을 일부 사용자에 게 부여할 수 있습니다.
-ms.openlocfilehash: d43094e8fbdbb25276b617f005cd71ce859d1362
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 0d92e9d4aab477cdcb010b4840d43a622f28b8cf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962566"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693003"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>조직의 클라이언트 정책 설정
 
@@ -148,7 +149,7 @@ ms.locfileid: "40962566"
     
   - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [사용자 지정 외부 액세스 정책 만들기](create-custom-external-access-policies.md)
 
 [점 대 점 파일 전송 차단](block-point-to-point-file-transfers.md)

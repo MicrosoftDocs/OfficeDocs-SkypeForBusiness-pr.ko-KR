@@ -1,5 +1,5 @@
 ---
-title: 모임 초대 사용자 지정
+title: 모임 초대의 사용자 지정
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,20 +14,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 ms.custom:
 - Setup
 description: '그래픽 로고, 도움말 및 법률 Url, 바닥글 텍스트를 사용 하 여 Skype 모임 초대를 사용자 지정 합니다. '
-ms.openlocfilehash: e43db5deeabcfa2db3e64423357d60b2723d606f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: f17a6e3ab03484d250d6243caafcc3aecb0ff6ff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642345"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692903"
 ---
-# <a name="customize-meeting-invitations"></a>모임 초대 사용자 지정
+# <a name="customize-meeting-invitations"></a>모임 초대의 사용자 지정
 
 관리자는 모든 비즈니스용 Skype 모임 초대에 지원 웹 사이트, 법적 고 지 사항, 회사 로고 및 포함 하려는 기타 텍스트에 대 한 링크와 같이 사용자에 게 필요한 몇 가지 유용한 정보가 포함 되어 있는지 확인할 수 있습니다. 
   
@@ -72,7 +72,7 @@ ms.locfileid: "37642345"
     
     ![그래픽 없이 사용자 지정 초대장이 표시 되는 모양](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 <a name="__top"> </a>
 
 [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

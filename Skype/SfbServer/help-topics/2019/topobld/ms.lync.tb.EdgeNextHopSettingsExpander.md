@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 에지 서버에서 내부 인프라와 통신하는 데 사용하는 다음 홉 풀을 설정하거나 수정하려면 목록에서 디렉터, 디렉터 풀, 프런트 엔드 서버 또는 프런트 엔드 서버 풀을 선택합니다. 토폴로지 작성기에서 구성 된 디렉터 또는 프런트 엔드 서버만 목록에 나타납니다.
-ms.openlocfilehash: e6a24d3ec140dff66f6a46b3b3eae334bf1dfd13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4d0eabd302141e6e568411d40e17cf29ac3968a6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188973"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688501"
 ---
 # <a name="edge-next-hop-settings-expander"></a>에지 다음 홉 설정 확장기
 

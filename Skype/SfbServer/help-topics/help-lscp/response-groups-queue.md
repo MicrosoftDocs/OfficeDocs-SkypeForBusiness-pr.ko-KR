@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsQueueMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: 응답 그룹은 에이전트 그룹, 큐 및 워크플로로 구성 됩니다. 응답 그룹 큐는 상담원이 전화에 대답할 때까지 응답 그룹에 대 한 통화를 보류 합니다.
-ms.openlocfilehash: d1cfc4a1913c1d7f9cd54086108eb161a57db2cf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0f18c9c69fd78c8b4b3d9a5b667534cc398bc6e8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192060"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686021"
 ---
 # <a name="response-groups-queue"></a>응답 그룹 큐
 

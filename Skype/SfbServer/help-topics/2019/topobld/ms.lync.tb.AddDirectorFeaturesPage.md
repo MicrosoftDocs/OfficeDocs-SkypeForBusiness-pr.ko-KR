@@ -1,26 +1,26 @@
 ---
-title: 디렉터 기능 추가
+title: Director 기능 추가
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddDirectorFeaturesPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 ROBOTS: NOINDEX, NOFOLLOW
 description: 디렉터 풀에 모니터링 서버를 포함 하려면 모니터링 (CDR 및 체감 품질 메트릭스)을 선택 합니다.
-ms.openlocfilehash: 7443919d24dd0b90f391944b72b9bf94fda27326
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bc8a0450ad9c70fe79bf7121f85a04f49792422a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191544"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689663"
 ---
-# <a name="add-director-features"></a>디렉터 기능 추가
+# <a name="add-director-features"></a>Director 기능 추가
 
 디렉터 풀에 모니터링 서버를 포함 하려면 **모니터링 (CDR 및 체감 품질 메트릭스)** 을 선택 합니다.
 

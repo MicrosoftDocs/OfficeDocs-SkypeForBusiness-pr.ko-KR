@@ -1,26 +1,26 @@
 ---
-title: SIP 비디오 Trunks 범위 노드
+title: SIP 비디오 트렁크 범위 노드
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SipVideoTrunksScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4df43f5-0563-4738-a020-7aec3bc46e17
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 비즈니스용 Skype 서버의 VIS 풀 만들기에서 온라인에 설명 되어 있습니다.
-ms.openlocfilehash: c93c48b75c090af6ad15b2ad8156970aa20d8eb5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 31fdd4d6cf9e6fe367723766af94c4b5273b0efe
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197388"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687981"
 ---
-# <a name="sip-video-trunks-scope-node"></a>SIP 비디오 Trunks 범위 노드
+# <a name="sip-video-trunks-scope-node"></a>SIP 비디오 트렁크 범위 노드
  
 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 [비즈니스용 Skype 서버의 VIS 풀 만들기](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)에서 온라인에 설명 되어 있습니다.
   

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Edge 서버를 배포 하 고 외부에서 사용할 수 있도록 미디어 서비스를 제공 해야 하는 경우 드롭다운 목록에서 선택 하 여 Survivable Branch 기기 또는 Survivable Branch 서버와 연결 되는 Edge 서버 또는 풀을 선택 합니다. 계속하려면 다음을 클릭합니다.
-ms.openlocfilehash: d4076565e95786895eb012454056e0bc0ddf7619
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c8fe50b48b079e255289e90eb1c4940737d801d3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189222"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688851"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>에지와 Branch Office Appliance 연결
  

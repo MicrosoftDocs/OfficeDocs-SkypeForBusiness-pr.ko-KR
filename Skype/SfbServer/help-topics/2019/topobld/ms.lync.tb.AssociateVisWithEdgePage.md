@@ -1,26 +1,26 @@
 ---
-title: VIS와 Edge 연결
+title: Edge와 VIS 연결
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AssociateVisWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 비즈니스용 Skype 서버의 VIS 풀 만들기에서 온라인에 설명 되어 있습니다.
-ms.openlocfilehash: 00476612d8f62c11deedf1171b05a4dd91c2b7f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c716c8e24db4b1def96010758748b95154f54783
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196484"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688821"
 ---
-# <a name="associate-vis-with-edge"></a>VIS와 Edge 연결
+# <a name="associate-vis-with-edge"></a>Edge와 VIS 연결
  
 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 [비즈니스용 Skype 서버의 VIS 풀 만들기](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)에서 온라인에 설명 되어 있습니다.
   

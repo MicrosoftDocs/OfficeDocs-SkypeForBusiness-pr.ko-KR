@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchSettingEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 보관 구성을 사용하여 배포에 대한 보관 옵션을 제어합니다. 보관 구성에는 전역 구성과 하나 이상의 사이트 및 풀 구성(선택 사항)이 포함됩니다.
-ms.openlocfilehash: 68d5de88fc56441989e8ffc9ceabfd3236179d1f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c387095f40078246a1391af5968925a7b28caf2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196185"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691143"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>보관 구성: 새로 만들기 또는 기존 항목 편집
  
@@ -71,5 +71,5 @@ ms.locfileid: "36196185"
     > [!NOTE]
     > Microsoft Exchange 통합을 사용 하도록 설정 하는 경우 Exchange에 속한 사용자 및 사서함이 원본 위치 유지에 배치 된 상태에서 Exchange가 제어 합니다. 유일한 예외는 Lync Server 파일 공유에 저장 된 회의 파일입니다. 이러한 파일은 보관 데이터를 내보낸 후 데이터를 삭제하는 옵션을 선택하는 경우에는 파일을 내보내 해당 파일이 Exchange에 업로드된 후에, 그리고 최대 보존 기간(일)을 지정하는 경우에는 지정된 최대 기간(일) 후에 파일 공유에서 삭제됩니다. 
   
-Exchange 통합을 포함 하 여 보관 기능 및 기능에 대 한 자세한 내용은 비즈니스용 skype [서버에서 보관 계획](../../../plan-your-deployment/archiving/archiving.md), 비즈니스용 [skype server 용 보관 배포](../../../deploy/deploy-archiving/deploy-archiving.md)및 비즈니스용 [skype에서 보관 관리를 참조 하세요. 서버](../../../manage/archiving/archiving.md).
+Exchange 통합을 포함 하 여 보관 기능 및 기능에 대 한 자세한 내용은 비즈니스용 [Skype 서버에서 보관 계획](../../../plan-your-deployment/archiving/archiving.md), 비즈니스용 [skype server 용 보관 배포](../../../deploy/deploy-archiving/deploy-archiving.md)및 비즈니스용 [skype 서버에서 보관 관리](../../../manage/archiving/archiving.md)를 참조 하세요.
 

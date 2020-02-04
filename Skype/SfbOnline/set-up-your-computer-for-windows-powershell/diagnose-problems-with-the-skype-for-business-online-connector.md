@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Online 커넥터를 사용 하 여 연결 문제 진단
+title: 비즈니스용 Skype Online 커넥터의 연결 문제 진단
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - PowerShell
 description: 가져오기-모듈, 동시 셸, Live ID 및 사용 권한 오류를 포함 하 여 비즈니스용 Skype Online에 연결 하는 데 필요한 원격 PowerShell 세션을 만드는 문제를 해결 합니다.
-ms.openlocfilehash: 863593c3068136f4b2332a55d8e0c293d2acc1d8
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 5e35925b77ebc4d68f293568fe758b934c4a33e1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991313"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692693"
 ---
-# <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>비즈니스용 Skype Online 커넥터를 사용 하 여 연결 문제 진단
+# <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>비즈니스용 Skype Online 커넥터의 연결 문제 진단
 
 이 항목에서는 비즈니스용 Skype Online에 연결 하는 원격 Microsoft PowerShell 세션을 만들려고 할 때 발생할 수 있는 문제를 진단 하 고 해결 하는 데 도움이 되는 정보를 제공 합니다. 다음 섹션을 참조 하세요.
   
@@ -160,7 +161,7 @@ PowerShell을 사용 하 여 비즈니스용 Skype Online을 관리 하려면 �
 
 - **해결**방법:이 문제를 해결 하는 유일한 방법은 이전 연결을 하나 이상 닫는 것입니다. 비즈니스용 Skype Online 세션을 마치면 **제거-PSSession** cmdlet을 사용 하 여 해당 세션을 종료 하는 것이 좋습니다. 이는이 문제를 방지 하는 데 도움이 됩니다.  
  
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [Windows PowerShell을 사용 하 여 비즈니스용 skype online 관리를 위한 컴퓨터 설정](set-up-your-computer-for-windows-powershell.md)
 
   

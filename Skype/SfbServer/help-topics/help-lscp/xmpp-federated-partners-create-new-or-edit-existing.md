@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ExtXmppPartnerEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
-description: 뭘 하고 싶으세요? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: 95f1bf341e699e06746759ec27144cd5afc6f0c6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+ms.openlocfilehash: 45219e92c5c0f6a6e713a51f871147518e0ab5c3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197519"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685531"
 ---
-# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP 페더레이션 파트너: 새로 만들기 또는 기존 편집
+# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP 페더레이션 파트너: 새로 만들기 또는 기존 항목 편집
 
-뭘 하고 싶으세요? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
 
 - [XMPP 파트너 구성 만들기 또는 편집](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
 

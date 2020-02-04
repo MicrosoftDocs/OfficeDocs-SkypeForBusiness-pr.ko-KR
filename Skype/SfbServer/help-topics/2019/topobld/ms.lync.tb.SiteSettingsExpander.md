@@ -1,26 +1,26 @@
 ---
-title: Lync Server 사이트 설정 확장기
+title: Lync 서버 사이트 설정 확장기
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SiteSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 기존 사이트의 속성을 편집 하려면 다음을 수행 합니다.
-ms.openlocfilehash: 1f15ed4230d7a72b67b8df804748f9b732278293
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 20c74cd3842137df5dce35647bdb5ad28b89b4e0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197383"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687971"
 ---
-# <a name="lync-server-site-settings-expander"></a>Lync Server 사이트 설정 확장기
+# <a name="lync-server-site-settings-expander"></a>Lync 서버 사이트 설정 확장기
 
 기존 사이트의 속성을 편집 하려면 다음을 수행 합니다.
 

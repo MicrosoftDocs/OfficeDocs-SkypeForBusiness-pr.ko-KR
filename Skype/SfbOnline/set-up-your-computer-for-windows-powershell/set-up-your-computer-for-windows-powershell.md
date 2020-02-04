@@ -1,5 +1,5 @@
 ---
-title: Windows PowerShell 용 컴퓨터 설정
+title: Windows PowerShell용 컴퓨터 설정
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - PowerShell
 description: 지원 되는 운영 체제를 포함 하 여 Windows PowerShell을 통한 비즈니스용 Skype Online의 원격 관리에 대 한 요구 사항을 확인 합니다.
-ms.openlocfilehash: 2c4cae9e7ff0d2ed1d7d27a2a8f6e790959a62fe
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 5d959abd295c4eeb6916119644d6698e82cec5ba
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37642224"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692643"
 ---
-# <a name="set-up-your-computer-for-windows-powershell"></a>Windows PowerShell 용 컴퓨터 설정
+# <a name="set-up-your-computer-for-windows-powershell"></a>Windows PowerShell용 컴퓨터 설정
 
 Microsoft PowerShell을 사용 하 여 비즈니스용 Skype Online의 원격 관리는 다음 운영 체제 중 하나를 실행 하는 64 비트 컴퓨터 에서만 지원 됩니다.
 
@@ -59,7 +60,7 @@ Microsoft PowerShell을 사용 하 여 비즈니스용 Skype Online의 원격 �
 
 - [Office 365 PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/blob/live/Enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell.md)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 skype online 커넥터를 사용 하 여 연결 문제 진단](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   

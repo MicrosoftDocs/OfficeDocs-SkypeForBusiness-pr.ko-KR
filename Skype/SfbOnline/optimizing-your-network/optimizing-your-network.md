@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: 다음 요구 사항은 조직에 대해 설정 하는 모든 비즈니스용 Skype Online 기능에 대 한 장기간의 상태와 성공 여부를 확인 하는 데 매우 중요 합니다. 이 문서는 매우 유용한 기술 이지만 몇 가지 기능을 제공 하지는 않습니다. 비즈니스용 Skype Online 설정에 대 한 도움이 필요한 경우이 문서를 읽고 고려해 야 할 사항을 숙지 하세요. 또한 microsoft FastTrack 센터, Microsoft 서비스 및 계정 팀을 사용 하는 경우, microsoft 파트너와 함께 이러한 요구 사항을 충족 하는 방법을 파악 하는 데 도움이 되는 내용을 제공 합니다.
-ms.openlocfilehash: f81b2bebded33bf65ff391909dea4e6f638390fb
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: f4721ddc7db936e0351f78ba6bfc7033b8cd10d0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "37642993"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693063"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>비즈니스용 Skype Online에 맞게 네트워크 최적화
 
@@ -51,13 +52,13 @@ ms.locfileid: "37642993"
 
 IP를 통한 실시간 미디어 (오디오, 비디오 및 응용 프로그램 공유)의 품질은 종단간 네트워크 연결의 품질에 따라 크게 영향을 받습니다. 비즈니스용 Skype Online media의 품질을 최적화 하려면 회사 네트워크와 비즈니스용 Skype Online 간에 고품질의 연결을 설정 하는 것이 중요 합니다. 이 작업을 수행 하는 가장 좋은 방법은 모든 연결에 걸친 비즈니스용 Skype Online의 최고 트래픽 볼륨에 맞게 네트워크 용량을 기준으로 내부 네트워크 및 클라우드 연결을 설정 하는 것입니다.
   
-[Microsoft 파트너](https://partnercenter.microsoft.com/en-us/pcv/search)와 협력 하 여 Skype For business Online을 비롯 한 다양 한 Office 365 응용 프로그램을 네트워크에 연결 하 고 비즈니스용 skype에 대 한 실시간 음성 및 영상 통신 기능을 사용할 수 있습니다. 네트워크 필요 이러한 Office 365 실시간 작업을 지원 하도록 서비스를 명시적으로 구성 해야 합니다. 여기에는 필요한 트래픽 볼륨을 운반 하기에 충분 한 대역폭을 보유 하 고 있으며 QoS (서비스 품질)를 지원 하 여 사용자에 게 비즈니스 수업 경험을 제공할 수 있는 네트워크가 포함 됩니다.
+[Microsoft 파트너](https://partnercenter.microsoft.com/en-us/pcv/search)와 협력 하 여 회사의 비즈니스용 skype Online을 비롯 한 다양 한 Office 365 응용 프로그램을 네트워크에 연결 하 고 비즈니스용 skype에 대 한 실시간 음성 및 영상 통신 기능을 365 지원 하기 위해 네트워크 서비스를 명시적으로 구성 해야 합니다. 여기에는 필요한 트래픽 볼륨을 운반 하기에 충분 한 대역폭을 보유 하 고 있으며 QoS (서비스 품질)를 지원 하 여 사용자에 게 비즈니스 수업 경험을 제공할 수 있는 네트워크가 포함 됩니다.
   
 여기에는 비즈니스용 Skype Online 서비스 및 기능을 성공적으로 계획 하 고 배포 하는 데 도움이 될 수 있는 다른 리소스가 있으며, 네트워크 서비스가 이러한 요구 사항을 충족 하는지 확인 합니다.
   
-- [Express 경로를 사용 하는 통화 흐름](call-flow-using-expressroute.md)
+- [ExpressRoute를 사용하는 호출 흐름](call-flow-using-expressroute.md)
     
-- [비즈니스용 Skype Online의 Express 경로 및 QoS](expressroute-and-qos-in-skype-for-business-online.md)
+- [비즈니스용 Skype Online의 ExpressRoute 및 QoS](expressroute-and-qos-in-skype-for-business-online.md)
     
 - [비즈니스용 Skype Online의 미디어 품질과 네트워크 연결 성능](media-quality-and-network-connectivity-performance.md)
     
@@ -129,7 +130,7 @@ Microsoft는 PAC 파일을 사용 하 여 office 365 Url을 제외 하 고 방�
   
 지원 되는 인증 된 장치에 대 한 자세한 내용은 다음을 참조 하세요.  
   
-- [비즈니스용 Skype Online에서 전화 받기](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
+- [비즈니스용 Skype Online 휴대폰 받기](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
     
 - [비즈니스용 Skype 용 전화 및 장치](https://technet.microsoft.com/en-us/office/dn947482.aspx)
     
@@ -143,9 +144,9 @@ Microsoft는 PAC 파일을 사용 하 여 office 365 Url을 제외 하 고 방�
   
 ![비즈니스용 Skype 클라이언트에서 오디오 테스트](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
   
-## <a name="related-topics"></a>관련 항목 
+## <a name="related-topics"></a>관련 주제 
 
-[비즈니스용 Skype Online의 Express 경로 및 QoS](expressroute-and-qos-in-skype-for-business-online.md)
+[비즈니스용 Skype Online의 ExpressRoute 및 QoS](expressroute-and-qos-in-skype-for-business-online.md)
   
   
  

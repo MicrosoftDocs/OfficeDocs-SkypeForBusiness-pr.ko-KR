@@ -15,18 +15,18 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
 ms.custom:
 - Setup
 description: '사용할 수 있는 비즈니스용 Skype 사용자 통계 (예: Office 365에 대해 사용 하도록 설정 된 사용자 수, 컨퍼런스 사용 가능 사용자 또는 사용자)에 대해 알아봅니다.'
-ms.openlocfilehash: d15ba89dda3a5a87162855d5746aed93b21598d0
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 2d6856129a9d94875efb05254293d87fbc88b8ec
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642346"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692750"
 ---
 # <a name="user-statistics-and-organization-information"></a>사용자 통계 및 조직 정보
 
@@ -56,10 +56,10 @@ ms.locfileid: "37642346"
 |Active Directory 동기화  <br/> |이는 조직이 온-프레미스 비즈니스용 Skype Online 조 직과 동기화 되 고 있는지 여부입니다.  <br/> 온-프레미스 Active Directory를 설정 하려면 [Office 365에 대 한 디렉터리 동기화 설정을](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846)참조 하세요.  <br/> |
 |조직 도메인  <br/> |처음에 Office 365를 설정할 때 다음은 등록 된 도메인입니다.  <br/> 도메인을 추가 하려면 [Office 365에 여러 도메인 추가](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207)를 참조 하세요.  <br/> 도메인을 제거 하려면 [Office 365에서 도메인 제거](https://support.office.com/article/f09696b2-8c29-4588-a08b-b333da19810c)를 참조 하세요.  <br/> |
    
-## <a name="related-topics"></a>관련 항목
-[사용자가 외부 비즈니스용 Skype 사용자에 게 연락할 수 있도록 허용](allow-users-to-contact-external-skype-for-business-users.md)
+## <a name="related-topics"></a>관련 주제
+[사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](allow-users-to-contact-external-skype-for-business-users.md)
 
-[비즈니스용 Skype 사용자가 Skype 연락처를 추가 하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
+[비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
 
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 

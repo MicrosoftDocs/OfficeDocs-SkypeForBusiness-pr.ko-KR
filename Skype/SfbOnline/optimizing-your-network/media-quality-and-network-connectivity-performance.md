@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: 이 항목에서는 비즈니스용 Skype Online 서비스에 대 한 네트워크 성능 요구 사항 집합을 정의 하 고 네트워크와 인터넷을 사용 하도록 선택 하는 방법 네트워크 및 비즈니스용 Skype Online의 평가를 기반으로 하는 방법에 대해 설명 합니다. 연결성. Office 365에 대 한 전용 연결에 대 한 Azure Express를 배포 하기로 결정 한 경우,이 문서는 다른 비즈니스용 Skype Online 배포 시나리오에서 Express 경로 연결을 계획 하는 방법에 대 한 지침을 제공 합니다.
-ms.openlocfilehash: de093cee8981a50e376a29eda3a38bae396e5ba3
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 2d9192f4dfb27de97527ff584c0ab0a204e20cca
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111502"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693073"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>비즈니스용 Skype Online의 미디어 품질과 네트워크 연결 성능
 
@@ -339,7 +340,7 @@ Azure Express 경로 및 클라우드 커넥터 에디션을 배포 하기로 �
   
 ![Express 경로 구름 커넥터 2.](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [비즈니스용 Skype Online의 ExpressRoute 및 QoS](expressroute-and-qos-in-skype-for-business-online.md)
 

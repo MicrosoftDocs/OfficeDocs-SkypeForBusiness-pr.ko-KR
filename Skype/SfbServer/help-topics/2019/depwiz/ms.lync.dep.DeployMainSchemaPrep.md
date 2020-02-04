@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainSchemaPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Active Directory 도메인 서비스에 대 한 스키마를 준비 하려면 비즈니스용 Skype 서버 배포 마법사에서 스키마 준비 단계를 실행 합니다. 실행을 클릭하여 스키마 준비를 시작합니다.
-ms.openlocfilehash: e48ae4ff28cf0423d3a29ae9f7d637cb8a58297c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4b0d24ff89badf1b026e6c57a4fbb75f2d46936f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191022"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691803"
 ---
 # <a name="prepare-schema"></a>스키마 준비
  

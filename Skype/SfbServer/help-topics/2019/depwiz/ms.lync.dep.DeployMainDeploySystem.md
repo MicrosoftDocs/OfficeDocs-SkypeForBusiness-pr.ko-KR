@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainDeploySystem
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 설치를 시작 하거나 비즈니스용 Skype 서버의 기존 배포를 업데이트 하려면 비즈니스용 Skype 서버 설치 또는 업데이트를 클릭 합니다. 이 섹션의 단계에서는 토폴로지 작성기 문서를 기반으로 지정 된 서버 역할에 해당 하는 구성 요소를 설치 합니다. 이 일련의 단계를 시작 하기 전에 토폴로지 작성기에서 배포를 정의 해야 합니다. 로컬 관리자 및 서버가 위치해 있는 도메인의 Domain Admins 그룹 구성원으로 배포할 컴퓨터에 로그인해야 합니다. 이 단계를 완료하기 전에 컴퓨터를 도메인에 가입시켜야 합니다.
-ms.openlocfilehash: 96cdf99cdda9f4e953d6c4e66510c67836f1b4f4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e466c82d327c1353460bffdef84a1d2d89581d9d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197427"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691833"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>비즈니스용 Skype 서버 시스템 설치 또는 업데이트
 

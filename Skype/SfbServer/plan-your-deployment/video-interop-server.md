@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.VideoInterop
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: '요약: 비즈니스용 Skype 서버를 타사 teleconferencing 장치와 통합 하기 위해 계획 하는 동안이 항목을 검토 하세요.'
-ms.openlocfilehash: 24220a0013e12d65759baed33b8966b5c83a78f3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5531fd60cc2aa28202903fcc4392fe7830bcdfa0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196819"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684191"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 비디오 Interop 서버 계획
  

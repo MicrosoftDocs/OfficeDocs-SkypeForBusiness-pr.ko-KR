@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.NcsLocEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: 위치 정책을 구성하여 E9-1-1(고급 9-1-1)이 사용하도록 설정되는지 여부 및 사용되는 방법과, 사용자 및 연락처에 대해 위치 정보가 사용되는 방법을 결정할 수 있습니다.
-ms.openlocfilehash: e990001fae2d2754e83532f481f8e607d5971fb6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1ae4d2b5223599dd595dcbcceae60396a4af4869
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192138"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691053"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>위치 정책: 새로 만들기 또는 기존 항목 편집
 
@@ -56,7 +56,7 @@ ms.locfileid: "36192138"
     > [!IMPORTANT]
     > 전화 마스크는 통화 대기 번호 범위에 포함된 번호와 달라야 하는데, 이는 통화 대기 라우팅이 긴급 전화 문자열 변환보다 우선적으로 적용되기 때문입니다. 통화 공원 번호 범위를 보려면 왼쪽 탐색 모음에서 **음성 기능** 을 클릭 한 다음 **통화 공원**를 클릭 합니다.
 
-- **알림 URI** 비상 통화가 이루어질 때 알림을 받을 SIP Uri를 하나 이상 지정 합니다. 예를 들어, 긴급 통화가 발생할 때마다 보안 직원에 게 인스턴트 메시지를 알리려면 회사 보안 office의 SIP URI를 입력 합니다. 호출자의 위치를 사용할 수 있는 경우 해당 위치는 알림에 포함 됩니다. 여러 SIP Uri를 쉼표로 구분 된 목록으로 지정할 수 있습니다. 예를 들어 "sip: security@litwareinc.com", "sip: kmyer@litwareinc.com". 문자열의 길이는 1 ~ 256 자 여야 하며 "sip:" 접두사로 시작 해야 합니다. 메일 그룹을 지정할 수도 있습니다.
+- **알림 URI** 비상 통화가 이루어질 때 알림을 받을 SIP Uri를 하나 이상 지정 합니다. 예를 들어, 긴급 통화가 발생할 때마다 보안 직원에 게 인스턴트 메시지를 알리려면 회사 보안 office의 SIP URI를 입력 합니다. 호출자의 위치를 사용할 수 있는 경우 해당 위치는 알림에 포함 됩니다. 여러 SIP Uri를 쉼표로 구분 된 목록으로 지정할 수 있습니다. 예를 들어 "sip: security@litwareinc .com", "sip: kmyer@litwareinc .com"이 있습니다. 문자열의 길이는 1 ~ 256 자 여야 하며 "sip:" 접두사로 시작 해야 합니다. 메일 그룹을 지정할 수도 있습니다.
 
 - **컨퍼런스 URI** 제 3 자에 대 한 SIP URI (이 경우 전화 번호)를 비상 전화에 conferenced 지정 합니다. 예를 들어, 긴급 통화가 이루어질 때 회사 보안 office의 전화 번호를 입력 하 여 전화를 받을 수 있습니다. **컨퍼런스 모드** 에 대 한 설정에 따라 제 3 자가 참여 하거나 통화를 수신할 수 있는지 여부가 결정 됩니다. 문자열의 길이는 1 ~ 256 자 여야 하며 sip: 라는 접두사로 시작 해야 합니다.
 

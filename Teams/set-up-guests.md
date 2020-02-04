@@ -14,15 +14,15 @@ search.appverid: MET150
 description: Microsoft 팀에서 게스트 액세스 기능을 켜거나 끕니다.
 ms.custom:
 - NewAdminCenter_Update
-f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+f1.keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20971fd985d4512e8a9bf00db23092f1a6e44702
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 357ada56590bb42655e1a45a6e27ab7dac1c4167
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753353"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693643"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft 팀에 대 한 게스트 액세스 설정 또는 해제
 ===================================================

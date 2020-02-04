@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceTestEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 테스트 장치 기능은 장치 업데이트 기능과 함께 작동합니다. 테스트 장치를 테스트 장치 페이지에 추가한 다음 이 장치를 사용하여 프로덕션 장치에 업데이트를 배포하기 전에 새 업데이트의 기능을 확인할 수 있습니다. 장치는 전역으로 테스트하거나(nm-server-w15-short 환경 전체에서) 단일 사이트에서 테스트할 수 있습니다. MAC(미디어 액세스 제어) 주소 또는 일련 번호로 테스트 장치를 식별합니다. 장치를 추가 하면 비즈니스용 Skype Server 제어판의 테스트 장치 페이지에 있는 목록에 표시 됩니다.
-ms.openlocfilehash: bd18d1a48900d0b8e2ea97db9c6e48a7a7fdc862
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f869669a657997a4d020c2dc54015bd16a5f9443
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197126"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691553"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>테스트 장치: 새로 만들기 또는 기존 항목 편집
 

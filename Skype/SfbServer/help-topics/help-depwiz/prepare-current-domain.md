@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainDomainPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 description: '비즈니스용 Skype Server 2015 또는 비즈니스용 Skype Server 사용자를 실행 하는 서버를 호스트 하도록 도메인을 준비 하려면 설치 프로그램을 사용 하 여 도메인 준비를 실행 하는 항목에 설명 된 대로 5 단계: 현재 도메인 준비를 완료 해야 합니다. 단계를 완료하려면 준비하는 도메인에서 Domain Admins 그룹의 구성원으로 로그인하거나 도메인이 속하는 포리스트의 Enterprise Admins 그룹의 구성원으로 로그인해야 합니다. 도메인을 준비하려면 다음을 수행합니다.'
-ms.openlocfilehash: 93fef28bdcaa720f1adcf893ec634dbe8f373780
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 58ff8ff515d171f7d0d1b0c2fb7d653e25c3ad31
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189711"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687411"
 ---
 # <a name="prepare-current-domain"></a>현재 도메인 준비
 

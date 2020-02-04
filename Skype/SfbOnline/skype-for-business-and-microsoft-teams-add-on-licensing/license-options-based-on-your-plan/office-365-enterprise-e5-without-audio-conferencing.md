@@ -15,17 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Office 365 Enterprise (오디오 회의 없음) 요금제에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다. '
-ms.openlocfilehash: b9ea7d7bde3a443f877fe2ef3d2f4976da21153d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 68f5485c360fc864688a3a3b388824c7d6ee5a5b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642234"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692483"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5 (오디오 회의 없음)
 

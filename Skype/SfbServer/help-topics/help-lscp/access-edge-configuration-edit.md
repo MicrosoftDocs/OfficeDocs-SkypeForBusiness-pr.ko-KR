@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ExtEdgeEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
-description: 뭘 하고 싶으세요? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: 6a400ea2be3126c556abb40b93d782e8a949262e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+ms.openlocfilehash: 4cbf7815f11d914ddec1abfd8df61d41d3d1b785
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190029"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687051"
 ---
 # <a name="access-edge-configuration-edit"></a>액세스 에지 구성: 편집
 
-뭘 하고 싶으세요? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
 
 - [Enable or Disable Remote User Access for Your Organization](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
 

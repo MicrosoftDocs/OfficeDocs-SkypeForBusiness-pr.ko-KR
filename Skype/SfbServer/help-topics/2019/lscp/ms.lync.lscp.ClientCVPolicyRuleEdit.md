@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientCVPolicyRuleEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: 클라이언트 버전 정책은 클라이언트 버전 규칙 집합으로 구성됩니다. 이러한 규칙은 사용자가 특정 클라이언트 및 클라이언트 버전을 사용하여 로그온을 시도할 때 수행할 동작을 정의합니다.
-ms.openlocfilehash: ab67f926f7a2e0ddc91f33bc9657d8fd4104e3a0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 497b11e2d25abbaade29a040ef5d5e834ab3ccb2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197134"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691593"
 ---
 # <a name="client-version-rule"></a>클라이언트 버전 규칙
 
