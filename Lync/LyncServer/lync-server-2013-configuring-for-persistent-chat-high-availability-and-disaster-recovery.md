@@ -3,6 +3,8 @@ title: 영구 채팅 고가용성 및 재해 복구를 위한 구성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring for Persistent Chat high availability and disaster recovery
 ms:assetid: 2b91c244-796c-416d-bf9b-e99613e901af
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552854(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48b439caee20e6e4545975a40d8d99020009abe4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f29fa807034a8cdad6fb4bf14526a868e242130f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984432"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40984432"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-for-persistent-chat-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="62bd8-102">Lync Server 2013에서 영구 채팅 고가용성 및 재해 복구를 위한 구성</span><span class="sxs-lookup"><span data-stu-id="62bd8-102">Configuring for Persistent Chat high availability and disaster recovery in Lync Server 2013</span></span>
+# <a name="configuring-for-persistent-chat-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="f0f4a-102">Lync Server 2013에서 영구 채팅 고가용성 및 재해 복구를 위한 구성</span><span class="sxs-lookup"><span data-stu-id="f0f4a-102">Configuring for Persistent Chat high availability and disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "40984432"
 
 <span> </span>
 
-<span data-ttu-id="62bd8-103">_**마지막으로 수정한 주제:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="62bd8-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="f0f4a-103">_**마지막으로 수정한 주제:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="f0f4a-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="62bd8-104">고가용성 및 재해 복구를 위해 영구 채팅 서비스를 구성 하는 방법에 대 한 자세한 내용은 [Lync server 2013에서 영구 채팅 서버 배포](lync-server-2013-deploying-persistent-chat-server.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="62bd8-104">For details about how to configure the Persistent Chat services for high availability and disaster recovery, see [Deploying Persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).</span></span>
+<span data-ttu-id="f0f4a-104">고가용성 및 재해 복구를 위해 영구 채팅 서비스를 구성 하는 방법에 대 한 자세한 내용은 [Lync server 2013에서 영구 채팅 서버 배포](lync-server-2013-deploying-persistent-chat-server.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f0f4a-104">For details about how to configure the Persistent Chat services for high availability and disaster recovery, see [Deploying Persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).</span></span>
 
 </div>
 

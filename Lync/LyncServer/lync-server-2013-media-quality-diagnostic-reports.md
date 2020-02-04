@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 미디어 품질 진단 보고서'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media Quality Diagnostic Reports
 ms:assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615044(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185935
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05836ea853c89b132d39eaaba1b66056fa958072
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f7db75e8f4e6e7d8b8a36d0e5ba614ac89c22e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981525"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723968"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40981525"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-diagnostic-reports-in-lync-server-2013"></a><span data-ttu-id="57ef3-102">Lync Server 2013의 미디어 품질 진단 보고서</span><span class="sxs-lookup"><span data-stu-id="57ef3-102">Media Quality Diagnostic Reports in Lync Server 2013</span></span>
+# <a name="media-quality-diagnostic-reports-in-lync-server-2013"></a><span data-ttu-id="6f2ba-102">Lync Server 2013의 미디어 품질 진단 보고서</span><span class="sxs-lookup"><span data-stu-id="6f2ba-102">Media Quality Diagnostic Reports in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,33 +35,33 @@ ms.locfileid: "40981525"
 
 <span> </span>
 
-<span data-ttu-id="57ef3-103">_**마지막으로 수정한 주제:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="57ef3-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="6f2ba-103">_**마지막으로 수정한 주제:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="6f2ba-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="57ef3-104">미디어 품질 진단 보고서는 통화 품질, 실패 한 통화에 대 한 진단 및 문제 해결 정보에 대 한 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="57ef3-104">The Media Quality Diagnostic Reports provide information about call quality, and diagnostic and troubleshooting information for failed calls.</span></span>
+<span data-ttu-id="6f2ba-104">미디어 품질 진단 보고서는 통화 품질, 실패 한 통화에 대 한 진단 및 문제 해결 정보에 대 한 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f2ba-104">The Media Quality Diagnostic Reports provide information about call quality, and diagnostic and troubleshooting information for failed calls.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="57ef3-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="57ef3-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6f2ba-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="6f2ba-105">In This Section</span></span>
 
-  - <span data-ttu-id="57ef3-106">[Lync Server 2013](lync-server-2013-media-quality-summary-report.md)   의 미디어 품질 요약 보고서는 enterprise voice 피어 투 피어 통화, 엔터프라이즈 음성 회의 통화, 그리고 최소한의 PSTN (공공 교환 전화 네트워크)에서 사용 되는 통화를 비롯 한 다양 한 끝점 유형에 대 한 전반적인 품질 데이터를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="57ef3-106">[Media Quality Summary Report in Lync Server 2013](lync-server-2013-media-quality-summary-report.md)   Provides overall quality data for different endpoint types, including Enterprise Voice peer-to-peer calls, Enterprise Voice conference calls, and calls that rely, at least in part, on the public switched telephone network (PSTN).</span></span>
+  - <span data-ttu-id="6f2ba-106">[Lync Server 2013](lync-server-2013-media-quality-summary-report.md)   의 미디어 품질 요약 보고서는 enterprise voice 피어 투 피어 통화, 엔터프라이즈 음성 회의 통화, 그리고 최소한의 PSTN (공공 교환 전화 네트워크)에서 사용 되는 통화를 비롯 한 다양 한 끝점 유형에 대 한 전반적인 품질 데이터를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f2ba-106">[Media Quality Summary Report in Lync Server 2013](lync-server-2013-media-quality-summary-report.md)   Provides overall quality data for different endpoint types, including Enterprise Voice peer-to-peer calls, Enterprise Voice conference calls, and calls that rely, at least in part, on the public switched telephone network (PSTN).</span></span>
 
-  - <span data-ttu-id="57ef3-107">[Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   의 미디어 품질 비교 보고서는 여러 종류의 오디오 통화에 대 한 통화 품질 값을 비교 합니다 (예: 무선 네트워크 또는 유선 연결을 통해 생성 된 통화).</span><span class="sxs-lookup"><span data-stu-id="57ef3-107">[Media Quality Comparison Report in Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   Provides a comparison of call quality values for different types of audio calls (for example, calls made over a wireless network vs. calls made across a wired connection).</span></span>
+  - <span data-ttu-id="6f2ba-107">[Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   의 미디어 품질 비교 보고서는 여러 종류의 오디오 통화에 대 한 통화 품질 값을 비교 합니다 (예: 무선 네트워크 또는 유선 연결을 통해 생성 된 통화).</span><span class="sxs-lookup"><span data-stu-id="6f2ba-107">[Media Quality Comparison Report in Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   Provides a comparison of call quality values for different types of audio calls (for example, calls made over a wireless network vs. calls made across a wired connection).</span></span>
 
-  - <span data-ttu-id="57ef3-108">[Lync server 2013](lync-server-2013-server-performance-report.md)   의 서버 성능 보고서에는 성능 저하, 패킷 손실, 지터 등 주요 품질 메트릭의 측정값을 기준으로 대부분의 문제가 발생 하는 서버가 나열 됩니다.</span><span class="sxs-lookup"><span data-stu-id="57ef3-108">[Server Performance Report in Lync Server 2013](lync-server-2013-server-performance-report.md)   Lists the servers that have experienced the most problems, based on measurements of such key quality metrics as degradation, packet loss, and jitter.</span></span>
+  - <span data-ttu-id="6f2ba-108">[Lync server 2013](lync-server-2013-server-performance-report.md)   의 서버 성능 보고서에는 성능 저하, 패킷 손실, 지터 등 주요 품질 메트릭의 측정값을 기준으로 대부분의 문제가 발생 하는 서버가 나열 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6f2ba-108">[Server Performance Report in Lync Server 2013](lync-server-2013-server-performance-report.md)   Lists the servers that have experienced the most problems, based on measurements of such key quality metrics as degradation, packet loss, and jitter.</span></span>
 
-  - <span data-ttu-id="57ef3-109">[Lync Server 2013](lync-server-2013-location-report.md)   의 위치 보고서는 네트워크 위치 목록과 각 위치에서 발생 하는 호출의 미디어 품질에 대 한 요약을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="57ef3-109">[Location Report in Lync Server 2013](lync-server-2013-location-report.md)   Provides a list of network locations and a summary of the media quality of the calls that occur at each location.</span></span> <span data-ttu-id="57ef3-110">이 보고서의 용도에 대 한 위치는 IP 서브넷을 기준으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="57ef3-110">For purposes of this report, locations are based on IP subnets.</span></span>
+  - <span data-ttu-id="6f2ba-109">[Lync Server 2013](lync-server-2013-location-report.md)   의 위치 보고서는 네트워크 위치 목록과 각 위치에서 발생 하는 호출의 미디어 품질에 대 한 요약을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f2ba-109">[Location Report in Lync Server 2013](lync-server-2013-location-report.md)   Provides a list of network locations and a summary of the media quality of the calls that occur at each location.</span></span> <span data-ttu-id="6f2ba-110">이 보고서의 용도에 대 한 위치는 IP 서브넷을 기준으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f2ba-110">For purposes of this report, locations are based on IP subnets.</span></span>
 
-  - <span data-ttu-id="57ef3-111">[Lync Server 2013](lync-server-2013-device-report.md)   의 장치 보고서는 엔터프라이즈 음성 통화에 사용 되는 디바이스에 대 한 요약을 제공 하며, 장치에의 한 통화의 평균 미디어 품질을 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="57ef3-111">[Device Report in Lync Server 2013](lync-server-2013-device-report.md)   Provides a summary of devices that are used for Enterprise Voice calls and it includes the average media quality of the calls by device.</span></span>
+  - <span data-ttu-id="6f2ba-111">[Lync Server 2013](lync-server-2013-device-report.md)   의 장치 보고서는 엔터프라이즈 음성 통화에 사용 되는 디바이스에 대 한 요약을 제공 하며, 장치에의 한 통화의 평균 미디어 품질을 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f2ba-111">[Device Report in Lync Server 2013](lync-server-2013-device-report.md)   Provides a summary of devices that are used for Enterprise Voice calls and it includes the average media quality of the calls by device.</span></span>
 
-  - <span data-ttu-id="57ef3-112">[Lync Server 2013](lync-server-2013-call-list-report.md)   의 통화 목록 보고서는 조직 내에서 발생 하거나 받은 전화 통화에 대 한 자세한 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="57ef3-112">[Call List Report in Lync Server 2013](lync-server-2013-call-list-report.md)   Provides detailed information about phone calls made or received within your organization.</span></span>
+  - <span data-ttu-id="6f2ba-112">[Lync Server 2013](lync-server-2013-call-list-report.md)   의 통화 목록 보고서는 조직 내에서 발생 하거나 받은 전화 통화에 대 한 자세한 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f2ba-112">[Call List Report in Lync Server 2013](lync-server-2013-call-list-report.md)   Provides detailed information about phone calls made or received within your organization.</span></span>
 
-  - <span data-ttu-id="57ef3-113">[Lync Server 2013](lync-server-2013-call-detail-report.md)   의 통화 세부 정보 보고서에는 조직 내에서 발생 하거나 받은 전화 통화에 대 한 자세한 정보가 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="57ef3-113">[Call Detail Report in Lync Server 2013](lync-server-2013-call-detail-report.md)   Provides detailed information about phone calls made from or received within your organization.</span></span>
+  - <span data-ttu-id="6f2ba-113">[Lync Server 2013](lync-server-2013-call-detail-report.md)   의 통화 세부 정보 보고서에는 조직 내에서 발생 하거나 받은 전화 통화에 대 한 자세한 정보가 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6f2ba-113">[Call Detail Report in Lync Server 2013](lync-server-2013-call-detail-report.md)   Provides detailed information about phone calls made from or received within your organization.</span></span>
 
-  - <span data-ttu-id="57ef3-114">[Lync server 2013](lync-server-2013-server-media-quality-trend-report.md)   의 서버 미디어 품질 추세 보고서는 통화 볼륨, 잘못 된 통화 비율, 패킷 손실 및 지터와 같은 경력의 품질 기준에 따라 최대 5 대의 서버를 그래픽으로 비교할 수 있는 방법을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="57ef3-114">[Server Media Quality Trend Report in Lync Server 2013](lync-server-2013-server-media-quality-trend-report.md)   Provides a way for you to graphically compare up to 5 servers on Quality of Experience metrics such as call volume, poor call percentage, packet loss, and jitter.</span></span>
+  - <span data-ttu-id="6f2ba-114">[Lync server 2013](lync-server-2013-server-media-quality-trend-report.md)   의 서버 미디어 품질 추세 보고서는 통화 볼륨, 잘못 된 통화 비율, 패킷 손실 및 지터와 같은 경력의 품질 기준에 따라 최대 5 대의 서버를 그래픽으로 비교할 수 있는 방법을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f2ba-114">[Server Media Quality Trend Report in Lync Server 2013](lync-server-2013-server-media-quality-trend-report.md)   Provides a way for you to graphically compare up to 5 servers on Quality of Experience metrics such as call volume, poor call percentage, packet loss, and jitter.</span></span>
 
-  - <span data-ttu-id="57ef3-115">[Lync Server 2013](lync-server-2013-media-quality-metrics-distribution-report.md)   의 Media quality 메트릭스 분산 보고서는 지터 또는 패킷 손실과 같은 경험 치를 품질 메트릭의 분포 값을 보여 주는 그래프를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="57ef3-115">[The Media Quality Metrics Distribution Report in Lync Server 2013](lync-server-2013-media-quality-metrics-distribution-report.md)   Provides a graph that shows the distribution values for a Quality of Experience metric such as jitter or packet loss.</span></span>
+  - <span data-ttu-id="6f2ba-115">[Lync Server 2013](lync-server-2013-media-quality-metrics-distribution-report.md)   의 Media quality 메트릭스 분산 보고서는 지터 또는 패킷 손실과 같은 경험 치를 품질 메트릭의 분포 값을 보여 주는 그래프를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f2ba-115">[The Media Quality Metrics Distribution Report in Lync Server 2013](lync-server-2013-media-quality-metrics-distribution-report.md)   Provides a graph that shows the distribution values for a Quality of Experience metric such as jitter or packet loss.</span></span>
 
-  - <span data-ttu-id="57ef3-116">[Lync Server 2013](lync-server-2013-location-trend-report.md)   의 위치 추세 보고서는 네트워크 위치에 대 한 통화 품질 추세 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="57ef3-116">[Location Trend Report in Lync Server 2013](lync-server-2013-location-trend-report.md)   Provides call quality trend information for network locations.</span></span>
+  - <span data-ttu-id="6f2ba-116">[Lync Server 2013](lync-server-2013-location-trend-report.md)   의 위치 추세 보고서는 네트워크 위치에 대 한 통화 품질 추세 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f2ba-116">[Location Trend Report in Lync Server 2013](lync-server-2013-location-trend-report.md)   Provides call quality trend information for network locations.</span></span>
 
 </div>
 

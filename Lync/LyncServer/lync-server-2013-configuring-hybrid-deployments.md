@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 하이브리드 배포 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring hybrid deployments
 ms:assetid: 62dda173-16ad-4472-9035-baafbc2b2e75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204956(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184343
 ms.date: 06/14/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2666c039fdc634c601397f8fa97d3c614eeb056b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 299c80b3626f60209e268a51d91916bb72bb56c8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975302"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728798"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40975302"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-hybrid-deployments"></a><span data-ttu-id="c5553-102">Lync Server 2013에 대한 하이브리드 배포 구성</span><span class="sxs-lookup"><span data-stu-id="c5553-102">Configuring Lync Server 2013 hybrid deployments</span></span>
+# <a name="configuring-lync-server-2013-hybrid-deployments"></a><span data-ttu-id="6f258-102">Lync Server 2013에 대한 하이브리드 배포 구성</span><span class="sxs-lookup"><span data-stu-id="6f258-102">Configuring Lync Server 2013 hybrid deployments</span></span>
 
 </div>
 
@@ -33,25 +35,25 @@ ms.locfileid: "40975302"
 
 <span> </span>
 
-<span data-ttu-id="c5553-103">_**마지막으로 수정한 주제:** 2016-05-26_</span><span class="sxs-lookup"><span data-stu-id="c5553-103">_**Topic Last Modified:** 2016-05-26_</span></span>
+<span data-ttu-id="6f258-103">_**마지막으로 수정한 주제:** 2016-05-26_</span><span class="sxs-lookup"><span data-stu-id="6f258-103">_**Topic Last Modified:** 2016-05-26_</span></span>
 
-<span data-ttu-id="c5553-104">이 섹션에서는 하이브리드 Lync Server 2013 배포를 구성 하는 데 필요한 단계에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="c5553-104">This section describes the steps necessary for configuring hybrid Lync Server 2013 deployments.</span></span>
+<span data-ttu-id="6f258-104">이 섹션에서는 하이브리드 Lync Server 2013 배포를 구성 하는 데 필요한 단계에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f258-104">This section describes the steps necessary for configuring hybrid Lync Server 2013 deployments.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c5553-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="c5553-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6f258-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="6f258-105">In This Section</span></span>
 
-  - <span data-ttu-id="c5553-106">온-프레미스 Lync 배포가 있고 일부 사용자를 클라우드로 이동 하 여 Office 365에서 Lync Online을 사용 하려면 [Lync online을 사용 하 여 하이브리드 용 온-프레미스 배포 구성을](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c5553-106">If you have an on-premises Lync deployment, and want to move some users to the cloud to use Lync Online in Office 365, see [Configuring an on-premises deployment for hybrid with Lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).</span></span>
+  - <span data-ttu-id="6f258-106">온-프레미스 Lync 배포가 있고 일부 사용자를 클라우드로 이동 하 여 Office 365에서 Lync Online을 사용 하려면 [Lync online을 사용 하 여 하이브리드 용 온-프레미스 배포 구성을](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6f258-106">If you have an on-premises Lync deployment, and want to move some users to the cloud to use Lync Online in Office 365, see [Configuring an on-premises deployment for hybrid with Lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).</span></span>
 
-  - <span data-ttu-id="c5553-107">Lync Online에서 Lync를 사용할 수 있도록 설정 했지만 온-프레미스 배포에서 사용할 수 없는 경우 lync [Server 2013에서 Lync Online에서 lync 온-프레미스로 사용자 이동](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c5553-107">If you have users enabled for Lync in Lync Online, but that have not been enabled in an on-premises deployment, see [Moving users from Lync Online to Lync on-premises in Lync Server 2013](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md).</span></span>
+  - <span data-ttu-id="6f258-107">Lync Online에서 Lync를 사용할 수 있도록 설정 했지만 온-프레미스 배포에서 사용할 수 없는 경우 lync [Server 2013에서 Lync Online에서 lync 온-프레미스로 사용자 이동](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6f258-107">If you have users enabled for Lync in Lync Online, but that have not been enabled in an on-premises deployment, see [Moving users from Lync Online to Lync on-premises in Lync Server 2013](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="c5553-108">관련 단원</span><span class="sxs-lookup"><span data-stu-id="c5553-108">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="6f258-108">관련 단원</span><span class="sxs-lookup"><span data-stu-id="6f258-108">Related Sections</span></span>
 
-[<span data-ttu-id="c5553-109">Lync Server 2013 하이브리드 배포 계획</span><span class="sxs-lookup"><span data-stu-id="c5553-109">Planning for Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-planning-for-hybrid-deployments.md)
+[<span data-ttu-id="6f258-109">Lync Server 2013 하이브리드 배포 계획</span><span class="sxs-lookup"><span data-stu-id="6f258-109">Planning for Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-planning-for-hybrid-deployments.md)
 
 </div>
 

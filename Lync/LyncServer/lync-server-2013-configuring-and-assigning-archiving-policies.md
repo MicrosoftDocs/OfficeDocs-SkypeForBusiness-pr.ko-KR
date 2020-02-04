@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 보관 정책 구성 및 할당'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring and assigning Archiving policies
 ms:assetid: acd18ea8-c7f1-4178-871a-cd3b75bdaa8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205175(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185121
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8b3b4f1f9465684d7c9139b8cd548caacf91c41
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d8cfb5b446456d99750529d883172ed3cb56e3e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976652"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40976652"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-and-assigning-archiving-policies-in-lync-server-2013"></a><span data-ttu-id="2260c-102">Lync Server 2013에서 보관 정책 구성 및 할당</span><span class="sxs-lookup"><span data-stu-id="2260c-102">Configuring and assigning Archiving policies in Lync Server 2013</span></span>
+# <a name="configuring-and-assigning-archiving-policies-in-lync-server-2013"></a><span data-ttu-id="dd7e8-102">Lync Server 2013에서 보관 정책 구성 및 할당</span><span class="sxs-lookup"><span data-stu-id="dd7e8-102">Configuring and assigning Archiving policies in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,37 +35,37 @@ ms.locfileid: "40976652"
 
 <span> </span>
 
-<span data-ttu-id="2260c-103">_**마지막으로 수정한 주제:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="2260c-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="dd7e8-103">_**마지막으로 수정한 주제:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="dd7e8-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="2260c-104">Lync Server 2013에서는 정책을 사용 하 여 Lync Server 2013에 있는 사용자에 대 한 내부 통신 및 외부 통신을 사용 하도록 설정 하 고 보관 하지 않도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="2260c-104">In Lync Server 2013, you use policies to enable and disable archiving for internal communications and external communications for users who are homed on Lync Server 2013.</span></span> <span data-ttu-id="2260c-105">여기에는 다음과 같은 보관 정책이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2260c-105">This includes the following Archiving policies:</span></span>
+<span data-ttu-id="dd7e8-104">Lync Server 2013에서는 정책을 사용 하 여 Lync Server 2013에 있는 사용자에 대 한 내부 통신 및 외부 통신을 사용 하도록 설정 하 고 보관 하지 않도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="dd7e8-104">In Lync Server 2013, you use policies to enable and disable archiving for internal communications and external communications for users who are homed on Lync Server 2013.</span></span> <span data-ttu-id="dd7e8-105">여기에는 다음과 같은 보관 정책이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dd7e8-105">This includes the following Archiving policies:</span></span>
 
-  - <span data-ttu-id="2260c-106">Lync Server 2013을 배포할 때 기본적으로 생성 되는 전역 정책입니다.</span><span class="sxs-lookup"><span data-stu-id="2260c-106">A global policy that is created by default when you deploy Lync Server 2013.</span></span>
+  - <span data-ttu-id="dd7e8-106">Lync Server 2013을 배포할 때 기본적으로 생성 되는 전역 정책입니다.</span><span class="sxs-lookup"><span data-stu-id="dd7e8-106">A global policy that is created by default when you deploy Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="2260c-107">특정 사이트 또는 사용자에 대해 보관을 구현 하는 방법을 지정 하기 위해 만들고 사용할 수 있는 선택적 사이트 수준 및 사용자 수준 정책입니다.</span><span class="sxs-lookup"><span data-stu-id="2260c-107">Optional site-level and user-level policies that you can create and use to specify how archiving is implemented for specific sites or users.</span></span>
+  - <span data-ttu-id="dd7e8-107">특정 사이트 또는 사용자에 대해 보관을 구현 하는 방법을 지정 하기 위해 만들고 사용할 수 있는 선택적 사이트 수준 및 사용자 수준 정책입니다.</span><span class="sxs-lookup"><span data-stu-id="dd7e8-107">Optional site-level and user-level policies that you can create and use to specify how archiving is implemented for specific sites or users.</span></span>
 
-<span data-ttu-id="2260c-108">보관 정책을 처음에 설정 했지만 배포 후에 정책을 변경, 추가, 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2260c-108">You initially set up Archiving policies when you deploy Archiving, but you can change, add, and delete policies after deployment.</span></span> <span data-ttu-id="2260c-109">Lync Server 2013 제어판에서 **보관 및 모니터링** 그룹의 **보관 정책** 페이지를 사용 하 여 전역 수준, 사이트 수준 및 사용자 수준에서 정책을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2260c-109">In Lync Server 2013 Control Panel, you can use the **Archiving Policy** page of the **Archiving and Monitoring** group to manage policies at the global level, site level, and user level.</span></span>
+<span data-ttu-id="dd7e8-108">보관 정책을 처음에 설정 했지만 배포 후에 정책을 변경, 추가, 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dd7e8-108">You initially set up Archiving policies when you deploy Archiving, but you can change, add, and delete policies after deployment.</span></span> <span data-ttu-id="dd7e8-109">Lync Server 2013 제어판에서 **보관 및 모니터링** 그룹의 **보관 정책** 페이지를 사용 하 여 전역 수준, 사이트 수준 및 사용자 수준에서 정책을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dd7e8-109">In Lync Server 2013 Control Panel, you can use the **Archiving Policy** page of the **Archiving and Monitoring** group to manage policies at the global level, site level, and user level.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="2260c-110">보관 구현을 제어 하려면 IM 또는 회의 보관 여부, 중요 한 모드 사용, 제거 옵션 등의 보관 구성에 대 한 옵션을 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2260c-110">To control the implementation of Archiving, you must specify options in Archiving configurations, such as whether to archive IM or conferencing, the use of critical mode, and purging options.</span></span> <span data-ttu-id="2260c-111">기본적으로 전역 보관 구성 또는 사이트 또는 풀 보관 구성에서는 옵션을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="2260c-111">By default no options are enabled in the global Archiving configuration or any site or pool Archiving configuration.</span></span> <span data-ttu-id="2260c-112">보관 정책에서 내부 또는 외부 통신에 대 한 보관을 사용 하도록 설정 하기 전에 보관 구성에서 해당 하는 모든 옵션을 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2260c-112">You should specify all appropriate options in the Archiving configurations before enabling Archiving for internal or external communications in the Archiving policies.</span></span> <span data-ttu-id="2260c-113">자세한 내용은 운영 설명서에서 <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">조직, 사이트 및 풀에 대 한 Lync Server 2013의 보관 구성 옵션 관리</A> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="2260c-113">For details, see <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</A> in the Operations documentation.</span></span><BR><span data-ttu-id="2260c-114">Lync Server 저장소를 Exchange 2013 저장소와 통합 하는 경우 Exchange 사용자 정책은 해당 사서함이 원본 위치 유지에 배치 되어 있는 Exchange 2013에 속한 사용자 에게만 2013 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2260c-114">If you integrate your Lync Server storage with Exchange 2013 storage, the Exchange user policies take precedence over the Lync Server 2013 archiving policies but only for those users who are homed on Exchange 2013 who have had their mailboxes put on In-Place Hold.</span></span>
+> <span data-ttu-id="dd7e8-110">보관 구현을 제어 하려면 IM 또는 회의 보관 여부, 중요 한 모드 사용, 제거 옵션 등의 보관 구성에 대 한 옵션을 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dd7e8-110">To control the implementation of Archiving, you must specify options in Archiving configurations, such as whether to archive IM or conferencing, the use of critical mode, and purging options.</span></span> <span data-ttu-id="dd7e8-111">기본적으로 전역 보관 구성 또는 사이트 또는 풀 보관 구성에서는 옵션을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="dd7e8-111">By default no options are enabled in the global Archiving configuration or any site or pool Archiving configuration.</span></span> <span data-ttu-id="dd7e8-112">보관 정책에서 내부 또는 외부 통신에 대 한 보관을 사용 하도록 설정 하기 전에 보관 구성에서 해당 하는 모든 옵션을 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dd7e8-112">You should specify all appropriate options in the Archiving configurations before enabling Archiving for internal or external communications in the Archiving policies.</span></span> <span data-ttu-id="dd7e8-113">자세한 내용은 운영 설명서에서 <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">조직, 사이트 및 풀에 대 한 Lync Server 2013의 보관 구성 옵션 관리</A> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="dd7e8-113">For details, see <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</A> in the Operations documentation.</span></span><BR><span data-ttu-id="dd7e8-114">Lync Server 저장소를 Exchange 2013 저장소와 통합 하는 경우 Exchange 사용자 정책은 해당 사서함이 원본 위치 유지에 배치 되어 있는 Exchange 2013에 속한 사용자 에게만 2013 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dd7e8-114">If you integrate your Lync Server storage with Exchange 2013 storage, the Exchange user policies take precedence over the Lync Server 2013 archiving policies but only for those users who are homed on Exchange 2013 who have had their mailboxes put on In-Place Hold.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="2260c-115">정책 계층 구조를 포함 하 여 정책이 구현 되는 방법에 대 한 자세한 내용은 계획 문서, 배포 설명서 또는 운영 설명서의 [Lync Server 2013에서 보관을 작동 하는 방법을](lync-server-2013-how-archiving-works.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="2260c-115">For details about how policies are implemented, including the hierarchy of policies, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span> <span data-ttu-id="2260c-116">배포 후 정책을 관리 하는 방법에 대 한 자세한 내용은 운영 설명서의 [Lync Server 2013에서 내부 및 외부 통신 보관 관리](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="2260c-116">For details about how to manage policies after deployment, see [Managing the Archiving of internal and external communications in Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md) in the Operations documentation.</span></span>
+<span data-ttu-id="dd7e8-115">정책 계층 구조를 포함 하 여 정책이 구현 되는 방법에 대 한 자세한 내용은 계획 문서, 배포 설명서 또는 운영 설명서의 [Lync Server 2013에서 보관을 작동 하는 방법을](lync-server-2013-how-archiving-works.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="dd7e8-115">For details about how policies are implemented, including the hierarchy of policies, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span> <span data-ttu-id="dd7e8-116">배포 후 정책을 관리 하는 방법에 대 한 자세한 내용은 운영 설명서의 [Lync Server 2013에서 내부 및 외부 통신 보관 관리](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="dd7e8-116">For details about how to manage policies after deployment, see [Managing the Archiving of internal and external communications in Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md) in the Operations documentation.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2260c-117">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="2260c-117">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="dd7e8-117">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="dd7e8-117">In This Section</span></span>
 
-  - [<span data-ttu-id="2260c-118">Lync Server 2013에서 보관할 글로벌 정책 구성</span><span class="sxs-lookup"><span data-stu-id="2260c-118">Configuring the global policy for Archiving in Lync Server 2013</span></span>](lync-server-2013-configuring-the-global-policy-for-archiving.md)
+  - [<span data-ttu-id="dd7e8-118">Lync Server 2013에서 보관할 글로벌 정책 구성</span><span class="sxs-lookup"><span data-stu-id="dd7e8-118">Configuring the global policy for Archiving in Lync Server 2013</span></span>](lync-server-2013-configuring-the-global-policy-for-archiving.md)
 
-  - [<span data-ttu-id="2260c-119">Lync Server 2013에서 보관할 사이트 정책 설정</span><span class="sxs-lookup"><span data-stu-id="2260c-119">Setting up site policies for Archiving in Lync Server 2013</span></span>](lync-server-2013-setting-up-site-policies-for-archiving.md)
+  - [<span data-ttu-id="dd7e8-119">Lync Server 2013에서 보관할 사이트 정책 설정</span><span class="sxs-lookup"><span data-stu-id="dd7e8-119">Setting up site policies for Archiving in Lync Server 2013</span></span>](lync-server-2013-setting-up-site-policies-for-archiving.md)
 
-  - [<span data-ttu-id="2260c-120">Lync Server 2013에서 사용자에 대 한 보관 정책 설정</span><span class="sxs-lookup"><span data-stu-id="2260c-120">Setting up Archiving policies for users in Lync Server 2013</span></span>](lync-server-2013-setting-up-archiving-policies-for-users.md)
+  - [<span data-ttu-id="dd7e8-120">Lync Server 2013에서 사용자에 대 한 보관 정책 설정</span><span class="sxs-lookup"><span data-stu-id="dd7e8-120">Setting up Archiving policies for users in Lync Server 2013</span></span>](lync-server-2013-setting-up-archiving-policies-for-users.md)
 
 </div>
 

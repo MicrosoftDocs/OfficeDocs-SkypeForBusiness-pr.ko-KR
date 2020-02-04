@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 역방향 프록시 서버에 대한 DNS 레코드 만
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create DNS records for reverse proxy servers
 ms:assetid: b3513339-e49b-4665-80f1-b5a1c81a0e2e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429719(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185181
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5608e3dd851c943e890fe3f718a38c2df02c1c08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f85b222688dcefd45030f2c05f7b59ce45ec0ae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983306"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726328"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40983306"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-dns-records-for-reverse-proxy-servers-in-lync-server-2013"></a><span data-ttu-id="a99dd-102">Lync Server 2013에서 역방향 프록시 서버에 대한 DNS 레코드 만들기</span><span class="sxs-lookup"><span data-stu-id="a99dd-102">Create DNS records for reverse proxy servers in Lync Server 2013</span></span>
+# <a name="create-dns-records-for-reverse-proxy-servers-in-lync-server-2013"></a><span data-ttu-id="eb0a5-102">Lync Server 2013에서 역방향 프록시 서버에 대한 DNS 레코드 만들기</span><span class="sxs-lookup"><span data-stu-id="eb0a5-102">Create DNS records for reverse proxy servers in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,23 +35,23 @@ ms.locfileid: "40983306"
 
 <span> </span>
 
-<span data-ttu-id="a99dd-103">_**마지막으로 수정한 주제:** 2013-03-29_</span><span class="sxs-lookup"><span data-stu-id="a99dd-103">_**Topic Last Modified:** 2013-03-29_</span></span>
+<span data-ttu-id="eb0a5-103">_**마지막으로 수정한 주제:** 2013-03-29_</span><span class="sxs-lookup"><span data-stu-id="eb0a5-103">_**Topic Last Modified:** 2013-03-29_</span></span>
 
-<span data-ttu-id="a99dd-104">[Lync server 2013의 edge 지원에 대 한 DNS 구성](lync-server-2013-configure-dns-for-edge-support.md)에 설명 된 대로 Microsoft 인터넷 보안 및 가속 (ISA) SERVER 2006 SP1, Forefront Threat Management Gateway 2010 Server 또는 Internet Information Server 응용 프로그램 요청 라우팅의 공용 외부 인터페이스를 가리키는 외부 DNS 레코드를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="a99dd-104">Create external DNS A records that point to the public external interface of your Microsoft Internet Security and Acceleration (ISA) Server 2006 SP1, Forefront Threat Management Gateway 2010 Server or Internet Information Server Application Request Routing, as described in [Configure DNS for edge support in Lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md).</span></span> <span data-ttu-id="a99dd-105">각 풀, 디렉터 (또는 디렉터 풀) 및 각 단순 URL에 대 한 외부 웹 서비스 Fqdn에 대 한 DNS 레코드가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="a99dd-105">You need DNS records for the external Web Service FQDNs for each pool, the Director (or Director pool), and each simple URL.</span></span>
+<span data-ttu-id="eb0a5-104">[Lync server 2013의 edge 지원에 대 한 DNS 구성](lync-server-2013-configure-dns-for-edge-support.md)에 설명 된 대로 Microsoft 인터넷 보안 및 가속 (ISA) SERVER 2006 SP1, Forefront Threat Management Gateway 2010 Server 또는 Internet Information Server 응용 프로그램 요청 라우팅의 공용 외부 인터페이스를 가리키는 외부 DNS 레코드를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="eb0a5-104">Create external DNS A records that point to the public external interface of your Microsoft Internet Security and Acceleration (ISA) Server 2006 SP1, Forefront Threat Management Gateway 2010 Server or Internet Information Server Application Request Routing, as described in [Configure DNS for edge support in Lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md).</span></span> <span data-ttu-id="eb0a5-105">각 풀, 디렉터 (또는 디렉터 풀) 및 각 단순 URL에 대 한 외부 웹 서비스 Fqdn에 대 한 DNS 레코드가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb0a5-105">You need DNS records for the external Web Service FQDNs for each pool, the Director (or Director pool), and each simple URL.</span></span>
 
-<span data-ttu-id="a99dd-106">역방향 프록시에 대 한 클라이언트 해상도의 최소 DNS 레코드는 다음 레코드를 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a99dd-106">The minimum DNS records for client resolution to the reverse proxy, the following records must be created:</span></span>
+<span data-ttu-id="eb0a5-106">역방향 프록시에 대 한 클라이언트 해상도의 최소 DNS 레코드는 다음 레코드를 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb0a5-106">The minimum DNS records for client resolution to the reverse proxy, the following records must be created:</span></span>
 
-  - <span data-ttu-id="a99dd-107">디렉터 및 디렉터 풀에 대해 게시 된 외부 웹 서비스를 정의 하는 호스트 (A) 레코드 (예: **webdirext.contoso.com**)</span><span class="sxs-lookup"><span data-stu-id="a99dd-107">Host (A) record(s) that define the published external web services for Directors and Director pools (for example, **webdirext.contoso.com**)</span></span>
+  - <span data-ttu-id="eb0a5-107">디렉터 및 디렉터 풀에 대해 게시 된 외부 웹 서비스를 정의 하는 호스트 (A) 레코드 (예: **webdirext.contoso.com**)</span><span class="sxs-lookup"><span data-stu-id="eb0a5-107">Host (A) record(s) that define the published external web services for Directors and Director pools (for example, **webdirext.contoso.com**)</span></span>
 
-  - <span data-ttu-id="a99dd-108">모든 프런트 엔드 풀 및 표준 버전 서버 역할에 호스팅되는 외부 웹 서비스에 대해 게시 된 외부 웹 서비스를 정의 하는 호스트 (A) 레코드 (예: **webext.contoso.com**)</span><span class="sxs-lookup"><span data-stu-id="a99dd-108">Host (A) record(s) that define the published external web services for external web services hosted on the any Front End pools and Standard Edition server roles (for example, **webext.contoso.com**)</span></span>
+  - <span data-ttu-id="eb0a5-108">모든 프런트 엔드 풀 및 표준 버전 서버 역할에 호스팅되는 외부 웹 서비스에 대해 게시 된 외부 웹 서비스를 정의 하는 호스트 (A) 레코드 (예: **webext.contoso.com**)</span><span class="sxs-lookup"><span data-stu-id="eb0a5-108">Host (A) record(s) that define the published external web services for external web services hosted on the any Front End pools and Standard Edition server roles (for example, **webext.contoso.com**)</span></span>
 
-  - <span data-ttu-id="a99dd-109">간단한 Url (예: **dialin.contoso.com** 및 **meet.contoso.com**)에 대 한 Host (A) 레코드</span><span class="sxs-lookup"><span data-stu-id="a99dd-109">Host (A) records for the Simple URLs (for example, **dialin.contoso.com** and **meet.contoso.com**)</span></span>
+  - <span data-ttu-id="eb0a5-109">간단한 Url (예: **dialin.contoso.com** 및 **meet.contoso.com**)에 대 한 Host (A) 레코드</span><span class="sxs-lookup"><span data-stu-id="eb0a5-109">Host (A) records for the Simple URLs (for example, **dialin.contoso.com** and **meet.contoso.com**)</span></span>
 
-  - <span data-ttu-id="a99dd-110">Lync Web App, 스케줄러 및 이동성을 포함 하 여 모든 웹 앱에 대 한 자동 검색에 대 한 포인터 (예: **lyncdiscover.contoso.com**)도 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="a99dd-110">Host (A) record for the Lync Discover External record, and also provides pointer to AutoDiscover for all Web apps, including the Lync Web App, scheduler and Mobility (for example, **lyncdiscover.contoso.com**)</span></span>
+  - <span data-ttu-id="eb0a5-110">Lync Web App, 스케줄러 및 이동성을 포함 하 여 모든 웹 앱에 대 한 자동 검색에 대 한 포인터 (예: **lyncdiscover.contoso.com**)도 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb0a5-110">Host (A) record for the Lync Discover External record, and also provides pointer to AutoDiscover for all Web apps, including the Lync Web App, scheduler and Mobility (for example, **lyncdiscover.contoso.com**)</span></span>
 
-  - <span data-ttu-id="a99dd-111">Office Web Apps 서버 URL (예: **officewebapp01.contoso.com**)에 대 한 Host (A) 레코드</span><span class="sxs-lookup"><span data-stu-id="a99dd-111">Host (A) records for the Office Web Apps Server URL (for example **officewebapp01.contoso.com**)</span></span>
+  - <span data-ttu-id="eb0a5-111">Office Web Apps 서버 URL (예: **officewebapp01.contoso.com**)에 대 한 Host (A) 레코드</span><span class="sxs-lookup"><span data-stu-id="eb0a5-111">Host (A) records for the Office Web Apps Server URL (for example **officewebapp01.contoso.com**)</span></span>
 
-<span data-ttu-id="a99dd-112">자세한 내용은 [Lync Server 2013의 DNS 요약-리버스 프록시](lync-server-2013-dns-summary-reverse-proxy.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a99dd-112">For details, see [DNS summary - Reverse proxy in Lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md).</span></span>
+<span data-ttu-id="eb0a5-112">자세한 내용은 [Lync Server 2013의 DNS 요약-리버스 프록시](lync-server-2013-dns-summary-reverse-proxy.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="eb0a5-112">For details, see [DNS summary - Reverse proxy in Lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md).</span></span>
 
 </div>
 

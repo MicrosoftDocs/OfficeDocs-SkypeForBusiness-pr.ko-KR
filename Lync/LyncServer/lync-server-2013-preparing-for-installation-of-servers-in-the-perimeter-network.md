@@ -3,6 +3,8 @@ title: 경계 네트워크에 서버 설치 준비
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing for installation of servers in the perimeter network
 ms:assetid: 5e6c457a-f964-4ef7-a709-97abda9c673a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398416(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8474ea56062a89952001850b1a78fd86f5843cc1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a28fc1e77a98e2a6123537ec5c062dca5d0c6ffb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985192"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40985192"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-for-installation-of-servers-in-the-perimeter-network-for-lync-server-2013"></a><span data-ttu-id="bfb90-102">Lync Server 2013의 경계 네트워크에 서버 설치 준비</span><span class="sxs-lookup"><span data-stu-id="bfb90-102">Preparing for installation of servers in the perimeter network for Lync Server 2013</span></span>
+# <a name="preparing-for-installation-of-servers-in-the-perimeter-network-for-lync-server-2013"></a><span data-ttu-id="18561-102">Lync Server 2013의 경계 네트워크에 서버 설치 준비</span><span class="sxs-lookup"><span data-stu-id="18561-102">Preparing for installation of servers in the perimeter network for Lync Server 2013</span></span>
 
 </div>
 
@@ -33,35 +35,35 @@ ms.locfileid: "40985192"
 
 <span> </span>
 
-<span data-ttu-id="bfb90-103">_**마지막으로 수정한 주제:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="bfb90-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="18561-103">_**마지막으로 수정한 주제:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="18561-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="bfb90-104">Edge 서버 구성 요소를 설정 하기 전에 설치 하는 컴퓨터가 시스템 요구 사항을 충족 하는지 확인 하 고 Edge 서버 구성 요소 배포에 필요한 다른 필수 구성 단계를 완료 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bfb90-104">Before you set up Edge Server components, you need to ensure that computers that you are setting up meet system requirements and complete other prerequisite steps required for deployment of Edge Server components.</span></span>
+<span data-ttu-id="18561-104">Edge 서버 구성 요소를 설정 하기 전에 설치 하는 컴퓨터가 시스템 요구 사항을 충족 하는지 확인 하 고 Edge 서버 구성 요소 배포에 필요한 다른 필수 구성 단계를 완료 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="18561-104">Before you set up Edge Server components, you need to ensure that computers that you are setting up meet system requirements and complete other prerequisite steps required for deployment of Edge Server components.</span></span>
 
-<span data-ttu-id="bfb90-105">시작 하기 전에 배포할 참조 아키텍처에 대 한 계획 문서에서 다음 항목의 세부 정보를 검토 합니다.</span><span class="sxs-lookup"><span data-stu-id="bfb90-105">Before you begin, review the details in the following topics in the Planning documentation for the reference architecture that you want to deploy:</span></span>
+<span data-ttu-id="18561-105">시작 하기 전에 배포할 참조 아키텍처에 대 한 계획 문서에서 다음 항목의 세부 정보를 검토 합니다.</span><span class="sxs-lookup"><span data-stu-id="18561-105">Before you begin, review the details in the following topics in the Planning documentation for the reference architecture that you want to deploy:</span></span>
 
-  - [<span data-ttu-id="bfb90-106">Lync Server 2013의 개인 IP 주소 및 NAT 사용 단일 통합 에지</span><span class="sxs-lookup"><span data-stu-id="bfb90-106">Single consolidated edge with private IP addresses and NAT in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
+  - [<span data-ttu-id="18561-106">Lync Server 2013의 개인 IP 주소 및 NAT 사용 단일 통합 에지</span><span class="sxs-lookup"><span data-stu-id="18561-106">Single consolidated edge with private IP addresses and NAT in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
 
-  - [<span data-ttu-id="bfb90-107">Lync Server 2013의 공용 IP 주소의 단일 통합 에지</span><span class="sxs-lookup"><span data-stu-id="bfb90-107">Single consolidated edge with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
+  - [<span data-ttu-id="18561-107">Lync Server 2013의 공용 IP 주소의 단일 통합 에지</span><span class="sxs-lookup"><span data-stu-id="18561-107">Single consolidated edge with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [<span data-ttu-id="bfb90-108">Lync Server 2013의 조정된 통합 에지, NAT 사용 개인 IP 주소의 DNS 부하 분산</span><span class="sxs-lookup"><span data-stu-id="bfb90-108">Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [<span data-ttu-id="18561-108">Lync Server 2013의 조정된 통합 에지, NAT 사용 개인 IP 주소의 DNS 부하 분산</span><span class="sxs-lookup"><span data-stu-id="18561-108">Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [<span data-ttu-id="bfb90-109">Lync Server 2013의 조정된 통합 에지, 공용 IP 주소의 DNS 부하 분산</span><span class="sxs-lookup"><span data-stu-id="bfb90-109">Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [<span data-ttu-id="18561-109">Lync Server 2013의 조정된 통합 에지, 공용 IP 주소의 DNS 부하 분산</span><span class="sxs-lookup"><span data-stu-id="18561-109">Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [<span data-ttu-id="bfb90-110">Lync Server 2013의 하드웨어 부하 분산 장치를 사용하는 조정된 통합 에지</span><span class="sxs-lookup"><span data-stu-id="bfb90-110">Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [<span data-ttu-id="18561-110">Lync Server 2013의 하드웨어 부하 분산 장치를 사용하는 조정된 통합 에지</span><span class="sxs-lookup"><span data-stu-id="18561-110">Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="bfb90-111">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="bfb90-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="18561-111">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="18561-111">In This Section</span></span>
 
-  - [<span data-ttu-id="bfb90-112">Lync Server 2013에서 에지 지원에 대한 DNS 구성</span><span class="sxs-lookup"><span data-stu-id="bfb90-112">Configure DNS for edge support in Lync Server 2013</span></span>](lync-server-2013-configure-dns-for-edge-support.md)
+  - [<span data-ttu-id="18561-112">Lync Server 2013에서 에지 지원에 대한 DNS 구성</span><span class="sxs-lookup"><span data-stu-id="18561-112">Configure DNS for edge support in Lync Server 2013</span></span>](lync-server-2013-configure-dns-for-edge-support.md)
 
-  - [<span data-ttu-id="bfb90-113">Lync Server 2013에서 조정된 에지 토폴로지에 대한 하드웨어 부하 분산 장치 설치</span><span class="sxs-lookup"><span data-stu-id="bfb90-113">Set up hardware load balancers for scaled edge topologies in Lync Server 2013</span></span>](lync-server-2013-set-up-hardware-load-balancers-for-scaled-edge-topologies.md)
+  - [<span data-ttu-id="18561-113">Lync Server 2013에서 조정된 에지 토폴로지에 대한 하드웨어 부하 분산 장치 설치</span><span class="sxs-lookup"><span data-stu-id="18561-113">Set up hardware load balancers for scaled edge topologies in Lync Server 2013</span></span>](lync-server-2013-set-up-hardware-load-balancers-for-scaled-edge-topologies.md)
 
-  - [<span data-ttu-id="bfb90-114">Lync Server 2013에서 외부 사용자 액세스에 대한 방화벽 및 포트 구성</span><span class="sxs-lookup"><span data-stu-id="bfb90-114">Configure firewalls and ports for external user access in Lync Server 2013</span></span>](lync-server-2013-configure-firewalls-and-ports-for-external-user-access.md)
+  - [<span data-ttu-id="18561-114">Lync Server 2013에서 외부 사용자 액세스에 대한 방화벽 및 포트 구성</span><span class="sxs-lookup"><span data-stu-id="18561-114">Configure firewalls and ports for external user access in Lync Server 2013</span></span>](lync-server-2013-configure-firewalls-and-ports-for-external-user-access.md)
 
-  - [<span data-ttu-id="bfb90-115">Lync Server 2013에 대한 외부 A/V 방화벽 및 포트 요구 사항 확인</span><span class="sxs-lookup"><span data-stu-id="bfb90-115">Determine external A/V firewall and port requirements for Lync Server 2013</span></span>](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
+  - [<span data-ttu-id="18561-115">Lync Server 2013에 대한 외부 A/V 방화벽 및 포트 요구 사항 확인</span><span class="sxs-lookup"><span data-stu-id="18561-115">Determine external A/V firewall and port requirements for Lync Server 2013</span></span>](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
 
-  - [<span data-ttu-id="bfb90-116">Lync Server 2013에서 에지 구성 요소에 대한 인증서 요청</span><span class="sxs-lookup"><span data-stu-id="bfb90-116">Request certificates for edge components in Lync Server 2013</span></span>](lync-server-2013-request-certificates-for-edge-components.md)
+  - [<span data-ttu-id="18561-116">Lync Server 2013에서 에지 구성 요소에 대한 인증서 요청</span><span class="sxs-lookup"><span data-stu-id="18561-116">Request certificates for edge components in Lync Server 2013</span></span>](lync-server-2013-request-certificates-for-edge-components.md)
 
 </div>
 
