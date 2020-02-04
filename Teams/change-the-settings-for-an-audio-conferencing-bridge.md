@@ -17,16 +17,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
+f1.keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: '비즈니스용 Skype 또는 Microsoft 팀 앱을 사용 하지 않을 때 모임 이끌이의 이름 및 pin을 수집 하는 데 사용 되는 회의 브리지에 대 한 설정을 변경 해야 하는 단계를 확인 하세요. '
-ms.openlocfilehash: b7ac85729bafe9d27f9e33cfa22597811b8d3d0b
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 0e5a93ec86ac0582fcfd35435bce47e746a35f44
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37516955"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695503"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>오디오 회의 브리지의 설정 변경
 

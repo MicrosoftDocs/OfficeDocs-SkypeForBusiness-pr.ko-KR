@@ -1,5 +1,5 @@
 ---
-title: Office 365에 대 한 통화 요금제
+title: Office 365의 통화 플랜
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,7 +16,7 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365E_E5Voiceplandetails
 - O365M_E5Voiceplandetails
 - O365P_E5Voiceplandetails
@@ -24,14 +24,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Skype for business 옵션에 대 한 통화 요금제 (PSTN 통화 요금제)와 조직의 라이선스를 얻는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 305416df22353743b891df6c7722bededaae0980
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 3dc132e1ccbb4c9720d6c17ca37aa7e72e42751b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516750"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695583"
 ---
-# <a name="calling-plans-for-office-365"></a>Office 365에 대 한 통화 요금제
+# <a name="calling-plans-for-office-365"></a>Office 365의 통화 플랜
 
 다른 비즈니스용 Skype 및 Microsoft 팀 사용자에 게 전화를 거는 것은 무료 이지만, 사용자가 일반 전화기로 전화를 걸 수 있고 음성 통화를 할 서비스 공급자가 없는 경우에는 통화 요금제를 구입 해야 합니다. 자세한 내용은 [전화 시스템 및 통화 계획](calling-plan-landing-page.md)을 참조 하세요.
   
@@ -82,7 +82,7 @@ ms.locfileid: "37516750"
 
 다음은 통화 계획을 설정 하는 방법을 설명 하는 추가 문서입니다.
   
-- [통화 요금제 설정](set-up-calling-plans.md)
+- [통화 플랜 설정](set-up-calling-plans.md)
     
 - [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
@@ -93,9 +93,9 @@ ms.locfileid: "37516750"
 
 - [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [클라우드 보이스 메일 설정-관리자 도움말](set-up-phone-system-voicemail.md)
+- [클라우드 음성 메일 설정 - 관리자 도움말](set-up-phone-system-voicemail.md)
     
-- [통화 요금제 설정](set-up-calling-plans.md)
+- [통화 플랜 설정](set-up-calling-plans.md)
     
 - [자금 추가 및 통신 크레딧 관리](add-funds-and-manage-communications-credits.md)
  

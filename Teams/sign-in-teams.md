@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5698058cbfecd62f92cfe9f198657f7c280deff
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
+ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37568683"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678972"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>최신 인증을 사용 하 여 Microsoft 팀에 로그인
 ==========================
@@ -38,6 +38,11 @@ Microsoft 팀은 최신 인증을 사용 하 여 로그인 환경을 간단 하 
 - 사용자가 Office 365 Enterprise 계정에 로그인 되어 있지 않은 경우, 즉 팀을 시작할 때 조직이 다음과 같이 결정 한 사항에 따라 단일 인수 또는 다단계 인증 (SFA 또는 MFA)을 제공 하 라는 메시지가 표시 됩니다. 프로세스를 수반 합니다.
 
 - 사용자가 도메인에 가입한 컴퓨터에 로그인 한 경우 팀을 시작할 때 조직에 MFA가 필요 하거나 컴퓨터에 MFA가 이미 있는지 여부에 따라 인증 단계를 한 번 더 수행 하 라는 메시지가 표시 될 수 있습니다. 컴퓨터에 이미 MFA가 있어야 로그인 하는 경우 팀을 열면 앱이 자동으로 시작 됩니다.
+
+- 사용자가 도메인에 가입 된 컴퓨터에 로그인 하 고 사용자 이름이 팀 로그인 화면에 미리 채워져 있지 않은 경우 관리자는 다음 Windows 레지스트리를 설정 하 여 사용자 이름의 미리 채우기 기능을 해제할 수 있습니다. 컴퓨터 \ HKEY_CURRENT_USER \\Or\ Microsoft\Office\Teams DisableUpnSuffixCheck (REG_DWORD) 0x00000001 (1)
+
+  참고: ".local" 또는 "corp"로 끝나는 사용자 이름에 대 한 사용자 이름 미리 채우기는 기본적으로 설정 되어 있으므로이를 해제 하기 위해 레지스트리 키를 설정할 필요는 없습니다. 
+
 
 ### <a name="mac-users"></a>Mac 사용자 
 

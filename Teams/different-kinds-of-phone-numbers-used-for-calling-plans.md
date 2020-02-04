@@ -15,16 +15,16 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
+f1.keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 ms.custom:
 - Calling Plans
 description: 팀에서 통화 계획에 사용 하는 다른 전화 번호 형식에 대해 알아봅니다.
-ms.openlocfilehash: 353f3810be41aff5365b9dca00831d6b5a4dad5c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 398dfce4b82cb898d6c3f3835e80905c911f52ac
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572270"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696053"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>통화 요금제에 사용 되는 다른 종류의 전화 번호
 
@@ -56,12 +56,12 @@ Microsoft 팀은 전화 번호를 사용 하려는 용도에 따라 다른 전�
 > [!NOTE]
 > 이 보다 더 많은 전화 번호를 받으려면 [PSTN 서비스 데스크에 문의 하세요](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[전화 번호 전송 일반적인 질문](transferring-phone-numbers-common-questions.md)
+[전화 번호 전송 자주 묻는 질문](transferring-phone-numbers-common-questions.md)
 
 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[비상 통화 약관](emergency-calling-terms-and-conditions.md)
+[긴급 통화 사용 약관](emergency-calling-terms-and-conditions.md)
 
 [비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

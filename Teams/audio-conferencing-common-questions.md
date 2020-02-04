@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의를 사용 하려는 고객에 게 제공 되는 몇 가지 주요 질문입니다.
-ms.openlocfilehash: 7779a732a10f8a55f8bbdbb977ac9850cd2307bd
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 2dd772a9a6488b09092ac0687ca125409accf85b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516991"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695723"
 ---
 # <a name="audio-conferencing-common-questions"></a>오디오 회의 일반적인 질문
 
@@ -90,7 +91,7 @@ ms.locfileid: "37516991"
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>사용자가 오디오 회의 정보를 사용 하 여 전자 메일을 수신 하는 이유는 무엇 인가요?
 
-[관리자](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)가 오디오 회의 정보를 보내고 업데이트할 수 있는 새로운 기능을 추가 하 고 전자 메일에 PIN을 제공 합니다. [Microsoft 팀에서 오디오 회의 설정이 변경 될 때 전자 메일 보내기 사용 또는](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) 사용 안 함을 참조 하 여 [비즈니스용 Skype에서 오디오 회의 설정이 변경 되는 경우 전자 메일 보내기를 사용 하거나 사용 하지 않도록 설정 하는 방법에 대해 자세히 알아보세요. 온라인 상태](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
+[관리자](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)가 오디오 회의 정보를 보내고 업데이트할 수 있는 새로운 기능을 추가 하 고 전자 메일에 PIN을 제공 합니다. 앱을 사용 하지 않도록 설정 하는 방법에 대 한 자세한 내용은 [Microsoft 팀에서 오디오 회의 설정이 변경 될 때 전자 메일 보내기 사용 또는 사용 안 함을](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) 참조 하거나 [비즈니스용 Skype Online에서 오디오 회의 설정이 변경 될 때 전자 메일 보내기를 사용 하거나 사용 하지 않도록](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)설정 합니다.
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>비즈니스용 Skype 서버의 온-프레미스 배포에 참가 하는 사용자가 오디오 회의를 사용할 수 있나요?
 
@@ -146,11 +147,11 @@ Skype 모임 브로드캐스트에 참가 하도록 오디오 회의를 사용 �
 
 - **옵션 #1**: 모임 이끌이 및 모든 참가자가 휴대폰을 사용 하 여 모임에 참가 하는 경우 모임 이끌이는 해당 사용자의 오디오 회의 PIN을 입력 하 여 시작 해야 합니다. 발신자는 온라인 모임의 전화 번호로 전화를 걸 때 지정 된 모임의 이끌이로 인증을 요청 하 라는 메시지를 받게 됩니다. 이끌이를 시작 하기 전에 전화 접속을 통해 모임에 참가 하는 모든 참가자는 대기실에 배치 되 고 보류 중인 음악을 청취 하 게 됩니다. 비즈니스용 Skype 모임에 대해 이끌이는 자신의 오디오 회의 PIN을 입력 하 여 시작 하면 대기실에 있는 모든 참가자가 자동으로 모임에 참가 합니다. Microsoft 팀 모임에서는 참가자가 이끌이 모임 정책에서 자동으로 인 한 사람 설정의 값에 따라 모임에 참가 합니다.
 
-- **옵션 #2**: "인증 되지 않은 발신자를 모임에서 첫 번째 사람으로 허용" 설정 (기본적으로 사용 하지 않도록 설정)이 지정 된 조직자에 대해 사용 하도록 설정 되어 있으면 이끌이를 입력 하지 않고도 해당 사용자가 예약한 모든 모임을 시작할 수 있습니다. 오디오 회의 PIN. 이 설정을 사용 하면 첫 번째 참가자가 전화 접속 전화 번호를 통해 모임에 참가 하는 즉시 모임이 시작 되 고 대기실에 입력 되지 않습니다. 자세한 내용은 [Microsoft 팀에서 사용자의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) 또는 비즈니스용 [Skype Online에서 사용자에 대 한 오디오 회의 설정](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)관리를 참조 하세요.
+- **옵션 #2**: "인증 되지 않은 발신자를 모임에서 첫 번째 사람으로 허용" 설정 (기본적으로 사용 하지 않도록 설정)이 지정 된 조직자에 대해 사용 하도록 설정 되어 있는 경우, 해당 사용자가 예약한 모든 모임은 자신의 오디오 회의 PIN을 입력 하지 않고 시작할 수 있습니다. 이 설정을 사용 하면 첫 번째 참가자가 전화 접속 전화 번호를 통해 모임에 참가 하는 즉시 모임이 시작 되 고 대기실에 입력 되지 않습니다. 자세한 내용은 [Microsoft 팀에서 사용자의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) 또는 비즈니스용 [Skype Online에서 사용자에 대 한 오디오 회의 설정](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)관리를 참조 하세요.
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[비즈니스용 Skype Online 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
 [Microsoft 팀에서 오디오 회의를 위한 전화 번호](phone-numbers-for-audio-conferencing-in-teams.md) 
 

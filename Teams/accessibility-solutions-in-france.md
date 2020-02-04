@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Online 및 Microsoft 팀을 위한 접근성 솔루션
+title: 비즈니스용 Skype Online 및 Microsoft Teams용 접근성 솔루션
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Fournir des expériences accessibles à tous est cœur de la 임무 de Microsoft,  i consiste à permettre à chaque personne et à chaque Microsoft offre d'accessibilité a Skype Entreprise et Microsoft 팀의 특별 한 nombre de a s'inscrivent dans son 계약 요새 en-us의 모든 포함을 취소 합니다.
-ms.openlocfilehash: c68afb52c2e3abfde9a5e6e06cc79aa87b918dc2
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 2f2218c9439a0fa0e6ea20889ee905d2fbadef77
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516845"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695883"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>비즈니스용 Skype Online 및 프랑스의 Microsoft 팀을 위한 접근성 솔루션
 
@@ -68,13 +69,13 @@ Microsoft 팀 fournit des d'aide avec des raccourcis clavier et des 명령 탐�
 
 - 메모 utiliser lecteur d'écran a rechercher des alertes et y répondre dans Microsoft 팀 ([https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)) 
 
-Microsoft 팀에서 maintenant aux utilisateurs de brouiller leur arrière-요금제 pendant les réunions, ce peut être personnes utile가 더욱 잘 됨 a * malentendantes des의 difficultés lire à les sur et lèvres  i celles peuvent être facilement을 제거 합니다. environnement actif: [ https://support.office.com/fr-fr/article/rendre-votre-arrière-요금제-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780? omkt = fr-fr&ad = fr&rs = fr-fr&u](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)i y-fr
+Microsoft 팀에서 maintenant aux utilisateurs de brouiller leur arrière-요금제 pendant les réunions peut utile이 있는 ce être personnes, malentendantes des의 difficultés lire à les sur, lèvres celles, peuvent être facilement xxxx p [ https://support.office.com/fr-fr/article/rendre-votre-arridistraites, environnement-dans-actif--en-ère-une? omkt = fr-fr&ui = fr-fr&rs = fr-fr&ad = fr](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
 
-De plus, 라파스 fonction Microsoft 팀 inclut désormais "몰입 형 리더"를 제거 합니다. 보조 utilisateurs ayant des difficultés de a visuelles permet de 수정자, texte d'augmenter, de l'espacement réduire le champ de l'expérience de la 강의: [https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR). 
+De plus, 라파스 fonction Microsoft 팀 inclut désormais "몰입 형 리더"를 제거 하 고, ce utilisateurs # # # # # # # # # # # # # # # # # # # # # # # # # # a p p difficultés de visuelles, taille texte, de 한정자 les 정책 et [https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR), et de d'augmenter le champ de l'espacement de la 강의: 
 
 Skype Entreprise permet de la taille du texte de messagd e instantanée에는 une 강의 plus facile, et Microsoft 팀 permet 줌이 포함 됩니다. Skype Entreprise et équipes Microsoft fournissent une 지원에 TTY를 두껍게 했습니다. Lorsque vous utilisez Skype Entreprise, les 메뉴 de réponse vocale 대화형 peuvent être ralentis, accélérés et redémarrés, et les utilisateurs peuvent choisir de 명령어. Microsoft 팀에서 le réglage de la vitesse de la messagd e vocale을 충족 합니다.
 
-Skype Entreprise peuvent également choisir de recevoir leurs utilisateurs t t 2010 e t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t plus récentes: [https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR). * Microsoft 팀 peuvent gérer la의 administrateurs leurs 클라이언트를 통해 informatiques. 
+Skype Entreprise peuvent également choisir de recevoir leurs utilisateurs vocaux sous forme de texte, ce particulièrement bénéfique personnes a * malentendantes sourdes ou à, condition f ' ils utilisent Outlook 2010 ou des 버전 플러스 récentes: [https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR). * Microsoft 팀 peuvent gérer la의 administrateurs leurs 클라이언트를 통해 informatiques. 
 
 La 정찰 Vocale Windows peut également aider les personnes à mobilité, réduite en leur faisant bénéficier de l'utilisation des commandes vocales plutôt que du clavier ou de la souris. Des 지침 savoir comment activer la 정찰 vocale sur un ordinateur fonctionnant sous Windows 10 sont disponibles ici: [https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition](https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition). 
   

@@ -1,5 +1,5 @@
 ---
-title: 조직의 긴급 위치 추가, 변경 또는 제거
+title: 조직의 응급 위치에 대한 장소 추가, 변경 또는 제거
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 description: 'Microsoft 팀 관리 센터에서 조직의 긴급 위치를 추가, 변경 또는 제거 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 5b297d2c9253919c0ffa780bb8f035c273852036
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a72d2ece731dcac33732d510b0cbd10975575cbc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37639568"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695841"
 ---
-# <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>조직의 긴급 위치 추가, 변경 또는 제거
+# <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>조직의 응급 위치에 대한 장소 추가, 변경 또는 제거
 
 조직의 실제 위치 수에 따라 건물, 바닥, 사무실 위치를 추가 하 여 보다 구체적인 비상 위치를 만들 수 있습니다. 자세한 내용은 [응급 위치, 장소 및 통화 라우팅 이란?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) 를 참조 하세요.
   
@@ -49,8 +50,8 @@ ms.locfileid: "37639568"
 2. 목록에서 위치를 제거 하려는 위치의 이름을 클릭 합니다.
 3. **위치** 탭에서 제거 하려는 위치를 선택 하 고 **삭제**를 클릭 합니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-- [조직의 긴급 위치 추가, 변경 또는 제거](add-change-remove-emergency-place-organization.md)
+- [조직의 응급 위치에 대한 장소 추가, 변경 또는 제거](add-change-remove-emergency-place-organization.md)
 - [조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [비상 통화 약관](/microsoftteams/emergency-calling-terms-and-conditions)
+- [긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions)

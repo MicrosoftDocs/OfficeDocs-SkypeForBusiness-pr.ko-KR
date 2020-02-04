@@ -1,5 +1,5 @@
 ---
-title: 사용자의 전화 번호 지정, 변경 또는 제거
+title: 사용자의 전화 번호 할당, 변경 또는 제거
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,18 +15,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 외부 기업과 클라이언트가 통화할 수 있도록 팀 사용자의 회사 전화 번호를 할당, 변경 또는 제거 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d9fdb0a2c5ea36acd0a231b49450efda8aab2979
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a52e8892150e94f73b76bd68aae874b50bd19a71
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516878"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695733"
 ---
-# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>사용자의 전화 번호 지정, 변경 또는 제거
+# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>사용자의 전화 번호 할당, 변경 또는 제거
 
 통화 계획을 설정할 때 사용자에 게 전화 번호를 할당 합니다. Microsoft 팀에서 사용자가 **통화**를 클릭할 때 할당 하는 전화 번호가 나열 됩니다.
 
@@ -75,12 +76,12 @@ ms.locfileid: "37516878"
 4. **편집** 창의 **담당자**에서 사용자를 제거 하려면 **X** 를 클릭 합니다.
 5. **저장**을 클릭 합니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [주소 유효성 검사 란?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
 [조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[비상 통화 약관](/microsoftteams/emergency-calling-terms-and-conditions)
+[긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: '비즈니스용 Skype를 설정 하 여 조직의 기본 음성 메일 인사말에 다른 언어를 사용 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 85631b9f8b1ecbc070bb2c5cc986978236828a52
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 39c790a4a2e1085b20a3aed82d7f971e4fad6694
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516977"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695523"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>인사말 및 전자 메일의 기본 언어 변경
 
@@ -63,13 +64,13 @@ ms.locfileid: "37516977"
     
 ## <a name="related-articles-for-the-admin"></a>관리자를 위한 관련 문서
 
-- [전화 시스템 및 통화 요금제](calling-plan-landing-page.md)
+- [전화 시스템 및 통화 플랜](calling-plan-landing-page.md)
     
-- [통화 요금제 설정](set-up-calling-plans.md)
+- [통화 플랜 설정](set-up-calling-plans.md)
     
 - [비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용 하 여 Office 365의 전화 시스템 계획](https://go.microsoft.com/fwlink/?LinkId=717947)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [비즈니스용 Office 365에서 표시 언어 및 표준 시간대 변경](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     

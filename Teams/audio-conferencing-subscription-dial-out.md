@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: '고객은 2019 년 11 월 30 일에 종료 되는 무료 전화 걸기 기능을 제공 합니다.  2019 년 12 월 1 일부 터 각 오디오 회의 구독은이 문서에 설명 된 국가를 지역에 따라 매월 사용자 당 60 분을 제공 합니다. '
-ms.openlocfilehash: e98844a1b3d9b00d489cd32e90add357b4b85b57
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 6309bc48d07c767aa9babb9139f6ad885689cb38
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311273"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695653"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>오디오 회의 구독 "전화 걸기"/"나에 게 전화 하세요" 통화 혜택
 
@@ -121,6 +122,6 @@ ms.locfileid: "38311273"
 |영국|
 ||
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

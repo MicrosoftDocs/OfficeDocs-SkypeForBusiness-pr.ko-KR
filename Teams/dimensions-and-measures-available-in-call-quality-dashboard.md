@@ -16,15 +16,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: Reporting
 description: Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드에서 사용 하는 차원과 측정값에 대 한 자세한 정보를 확인 하세요.
-ms.openlocfilehash: 82602565d0589e55cb76bffa6bece218bc02a295
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 9e2dc32802b2a13d9d0a24824a083702c2f2d27c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41580895"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696043"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>통화 품질 대시보드에서 사용할 수 있는 크기 및 측정
 
@@ -167,10 +168,10 @@ CQD의 여러 차원과 측정값에는 첫 또는 초로 레이블이 지정 �
 | 첫 번째 사용자 에이전트  | 문자열  | 첫 번째 끝점의 사용자 에이전트 문자열입니다. <br/> **예제 값:** S e u i CAPI/16.0.7766.5281 OC/16.0.7766.2047 (비즈니스용 Skype) | &bull;첫 번째 끝점에서 보고 된 사용자 에이전트 없음   |
 | 두 번째 사용자 에이전트  | 문자열  | 두 번째 끝점의 사용자 에이전트 문자열입니다. <br/> **예제 값:** S e u i CAPI/16.0.7766.5281 OC/16.0.7766.2047 (비즈니스용 Skype) | &bull;두 번째 끝점에서 보고 된 사용자 에이전트가 없습니다.   |
 | 회의 유형  | 열거할 <br/>**사용할 수 있는 값:** <br/>&bull;회의: applicationsharing <br/>&bull;회의: 오디오-영상 <br/>&bull;회의: 포커스 | 회의 URI의 유형입니다.  <br/> **예제 값:** 회의: 오디오-비디오 | &bull;비 컨퍼런스 시나리오   |
-| 전화 회의 ID (lync.cqd.com)<br/>통화 ID (cqd.teams.microsoft.com)  | 문자열  | 스트림과 연결 된 전화 회의 ID (또는 호출 ID)입니다. Cqd.teams.microsoft.com에서 모든 통화는 P2P (사용자 간) 통화 인지 전화 회의 통화 든 관계 없이 통화 Id를 갖습니다.  이 차원에는 보고서에서 차원으로 사용할 행이 너무 많을 수 있습니다. 대신 필터를 사용할 수 있습니다.  <br/> **예제 값:** 0001p6gk  | &bull;비 컨퍼런스 시나리오 |
+| 전화 회의 ID  | 문자열 | 스트림과 연결 된 전화 회의 ID (또는 호출 ID)입니다. Cqd.teams.microsoft.com에서 모든 통화는 P2P (사용자 간) 통화 인지 전화 회의 통화 든 관계 없이 통화 ID를 갖습니다. Cqd.lync.com에서이 값은 비즈니스용 Skype 컨퍼런스 통화에 대해서만 avialble 됩니다.  이 차원에는 보고서에서 차원으로 사용할 행이 너무 많을 수 있습니다. 대신 필터를 사용할 수 있습니다.  <br/> **예제 값 (cqd.lync.com):** 0001p6gk <br/> **예제 값 (cqd.teams.microsoft.com):** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
 | 첫 번째 클라이언트 앱 버전  | 문자열  | 첫 번째 끝점에 사용 되는 응용 프로그램 버전입니다. 데이터는 사용자 에이전트 문자열에서 구문 분석 됩니다. <br/> **예제 값:** 16.0.7766.2047 | &bull;버전 문자열을 구문 분석할 수 없습니다. <br/>&bull;값이 보고 되지 않았습니다.   |
 | 두 번째 클라이언트 앱 버전  | 문자열  | 두 번째 끝점에 사용 되는 응용 프로그램 버전입니다. 데이터는 사용자 에이전트 문자열에서 구문 분석 됩니다. <br/> **예제 값:** 16.0.7766.2047 | &bull;버전 문자열을 구문 분석할 수 없습니다. <br/>&bull;값이 보고 되지 않았습니다. |
-|모임 Id|문자열 |모임이 생성 될 때 생성 된 모임의 식별자입니다. | |
+|모임 Id (cqd.teams.microsoft.com) <br/> 전화 회의 ID (cqd.lync.com) |문자열 |모임이 생성 될 때 생성 된 모임의 식별자입니다. <br/> **예제 값 (비즈니스용 Skype):** 0001p6gk  <br/> **예제 값 (팀):** 19: meeting_MzB zIw@thread. v2| |
 |**네트워크**||| 
 | 운송  | 열거할 <br/>**사용할 수 있는 값:** <br/>&bull;UDP <br/>&bull;NET.TCP <br/>&bull;않음  | Stream에서 사용 하는 네트워크 전송 유형입니다.  인식할 수 없음은 전송 유형이 TCP 또는 UDP 인지 여부를 시스템에서 확인할 수 없음을 나타냅니다.  | &bull;전송 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다.  |
 | 첫 번째 연결 Ice  | 열거할 <br/>**사용할 수 있는 값:** <br/>&bull;DIRECT = 직접 네트워크 경로 <br/>&bull;릴레이 = 릴레이 <br/>&bull;Http = HTTP 프록시를 통해 <br/>&bull;실패 = 연결 실패 | 첫 번째 끝점에서 사용 하는 ICE 연결 유형입니다.  |&bull;전송 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다.   |
@@ -633,7 +634,7 @@ CQD에 사용 되는 문자열은 종종 데이터 파일에서 파생 되며, �
 
 여러 치수 및 측정 값을 필터로 사용할 수도 있습니다. 쿼리에 필터를 사용 하 여 차원 또는 측정값을 선택 하는 것과 같은 방식으로 정보를 제거 하 여 쿼리에 정보를 추가 하거나 포함할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [비즈니스용 Skype 통화 분석 설정](set-up-call-analytics.md)
 

@@ -15,17 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.callparkpolicies.overview
 ms.custom:
 - Phone System
 description: 통화 대기를 사용 하 고 클라우드의 팀 서비스에서 통화를 보류 하는 것을 검색 합니다.
-ms.openlocfilehash: 9a6f5b6a51a0193625ecd2dab294c2cf454cb21f
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 4bd77fcd90cb17f0ca5b09f784d6532d552df473
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209184"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695623"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>통화 공원 및 Microsoft 팀에서 검색
 

@@ -1,5 +1,5 @@
 ---
-title: 사용자의 긴급 위치 지정 또는 변경
+title: 사용자의 응급 위치 할당 또는 변경
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,22 +14,23 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 description: 조직의 사용자에 대 한 긴급 위치를 할당 하거나 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: cca8db844b8b0400fe2940583f6c01140dc247be
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: dca0116188eddeb3c28b8d1f8486ae601e742079
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37639634"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695713"
 ---
-# <a name="assign-or-change-an-emergency-location-for-a-user"></a>사용자의 긴급 위치 지정 또는 변경
+# <a name="assign-or-change-an-emergency-location-for-a-user"></a>사용자의 응급 위치 할당 또는 변경
 
 통화 계획을 설정 하는 경우 각 전화 번호 또는 사용자에 게 긴급 위치를 할당 해야 합니다. 유럽 국가에서 비상 위치는 Office 365 또는 전화 번호를 Office 365로 전송할 때 전화 번호와 연결 됩니다. 미국에서 비상 위치는 사용자에 게 할당 될 때 전화 번호와 연결 됩니다. 사용자가 할당 한 새 위치로 이동 하는 경우 긴급 주소를 변경할 수 있습니다. 긴급 주소 및 위치에 대 한 자세한 내용은 [응급 위치, 장소 및 통화 라우팅 이란?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)을 참조 하세요.
   
 Office 365에서 전화 요금제를 가져오는 방법과 비용을 확인 하는 방법을 알아보려면 [팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
   
-## <a name="assign-or-change-an-emergency-location-for-a-user"></a>사용자의 긴급 위치 지정 또는 변경
+## <a name="assign-or-change-an-emergency-location-for-a-user"></a>사용자의 응급 위치 할당 또는 변경
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **전화 번호**를 클릭 합니다.
 2. **전화 번호** 페이지의 목록에서 사용자 번호를 선택 하 고 **편집**을 클릭 합니다.
@@ -40,11 +41,11 @@ Office 365에서 전화 요금제를 가져오는 방법과 비용을 확인 하
 
 4. **저장**을 클릭 합니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-- [긴급 위치, 장소 및 통화 라우팅 이란?](what-are-emergency-locations-addresses-and-call-routing.md)
-- [조직의 긴급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)
-- [조직의 긴급 위치 추가, 변경 또는 제거](add-change-remove-emergency-place-organization.md)
-- [사용자에 대 한 긴급 위치 지정 또는 위치 변경](assign-change-emergency-place-user.md)
+- [응급 위치, 장소 및 통화 라우팅이란?](what-are-emergency-locations-addresses-and-call-routing.md)
+- [조직의 응급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)
+- [조직의 응급 위치에 대한 장소 추가, 변경 또는 제거](add-change-remove-emergency-place-organization.md)
+- [사용자에게 응급 위치의 장소 할당 또는 변경](assign-change-emergency-place-user.md)
 - [조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [비상 통화 약관](/microsoftteams/emergency-calling-terms-and-conditions)
+- [긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions)
