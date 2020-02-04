@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Online에서 Lync 온-프레미스로 사용자 �
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Moving users from Lync Online to Lync on-premises
 ms:assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689117(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62258122
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dce09e0f4c71ae4c341546ac73999384ffce5d1b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bea1463660e420edbf296be3d47aaca6d8545feb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983356"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756702"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40983356"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="moving-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a><span data-ttu-id="6e5f3-102">Lync Server 2013에서 lync Online에서 Lync 온-프레미스로 사용자 이동</span><span class="sxs-lookup"><span data-stu-id="6e5f3-102">Moving users from Lync Online to Lync on-premises in Lync Server 2013</span></span>
+# <a name="moving-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a><span data-ttu-id="d9e1e-102">Lync Server 2013에서 lync Online에서 Lync 온-프레미스로 사용자 이동</span><span class="sxs-lookup"><span data-stu-id="d9e1e-102">Moving users from Lync Online to Lync on-premises in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,23 +35,23 @@ ms.locfileid: "40983356"
 
 <span> </span>
 
-<span data-ttu-id="6e5f3-103">_**마지막으로 수정한 주제:** 2014-05-08_</span><span class="sxs-lookup"><span data-stu-id="6e5f3-103">_**Topic Last Modified:** 2014-05-08_</span></span>
+<span data-ttu-id="d9e1e-103">_**마지막으로 수정한 주제:** 2014-05-08_</span><span class="sxs-lookup"><span data-stu-id="d9e1e-103">_**Topic Last Modified:** 2014-05-08_</span></span>
 
-<span data-ttu-id="6e5f3-104">Lync Server를 온-프레미스에 배포 하기 전에 조직에서 Lync Online을 배포 했습니까?</span><span class="sxs-lookup"><span data-stu-id="6e5f3-104">Did your organization deploy Lync Online before it ever deployed Lync Server on-premises?</span></span> <span data-ttu-id="6e5f3-105">Lync Online에서 원래 Lync 용으로 설정 된 사용자 계정을 온-프레미스 Lync Server 배포로 이동 하 시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="6e5f3-105">And now you’d like to move user accounts that were originally enabled for Lync in Lync Online to your on-premises Lync Server deployment?</span></span> <span data-ttu-id="6e5f3-106">이 섹션은이 작업을 수행 하는 데 도움이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6e5f3-106">This section can help you do that.</span></span>
+<span data-ttu-id="d9e1e-104">Lync Server를 온-프레미스에 배포 하기 전에 조직에서 Lync Online을 배포 했습니까?</span><span class="sxs-lookup"><span data-stu-id="d9e1e-104">Did your organization deploy Lync Online before it ever deployed Lync Server on-premises?</span></span> <span data-ttu-id="d9e1e-105">Lync Online에서 원래 Lync 용으로 설정 된 사용자 계정을 온-프레미스 Lync Server 배포로 이동 하 시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="d9e1e-105">And now you’d like to move user accounts that were originally enabled for Lync in Lync Online to your on-premises Lync Server deployment?</span></span> <span data-ttu-id="d9e1e-106">이 섹션은이 작업을 수행 하는 데 도움이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d9e1e-106">This section can help you do that.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="6e5f3-107">이 섹션은 lync Online에서 원래 Lync를 사용 하도록 설정 된 사용자를 이동 하는 경우에만 해당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6e5f3-107">This section is only about moving users who were originally enabled for Lync in Lync Online.</span></span> <span data-ttu-id="6e5f3-108">Lync 온-프레미스에 대해 처음 사용 하도록 설정한 사용자 계정이 있는 데 Lync Online으로 이동 했을 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6e5f3-108">Maybe you have user accounts that you first enabled for Lync on-premises, then moved to Lync Online?</span></span> <span data-ttu-id="6e5f3-109">이 경우 온-프레미스로 다시 이동 하려면 <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">하이브리드 Lync Server 2013 배포에서 사용자를 관리</A>하는 것이 간단 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e5f3-109">If so, and you want to move them back to on-premises, the process is easy: <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administering users in a hybrid Lync Server 2013 deployment</A>.</span></span>
+> <span data-ttu-id="d9e1e-107">이 섹션은 lync Online에서 원래 Lync를 사용 하도록 설정 된 사용자를 이동 하는 경우에만 해당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d9e1e-107">This section is only about moving users who were originally enabled for Lync in Lync Online.</span></span> <span data-ttu-id="d9e1e-108">Lync 온-프레미스에 대해 처음 사용 하도록 설정한 사용자 계정이 있는 데 Lync Online으로 이동 했을 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d9e1e-108">Maybe you have user accounts that you first enabled for Lync on-premises, then moved to Lync Online?</span></span> <span data-ttu-id="d9e1e-109">이 경우 온-프레미스로 다시 이동 하려면 <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">하이브리드 Lync Server 2013 배포에서 사용자를 관리</A>하는 것이 간단 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9e1e-109">If so, and you want to move them back to on-premises, the process is easy: <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administering users in a hybrid Lync Server 2013 deployment</A>.</span></span>
 
 
 
 </div>
 
-  - [<span data-ttu-id="6e5f3-110">Lync Online에서 lync 온-프레미스로 사용자 마이그레이션을 시작 하기 전의 첫 번째 단계는 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e5f3-110">First steps before you start migrating users from Lync Online to Lync on-premises in Lync Server 2013</span></span>](lync-server-2013-first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises.md)
+  - [<span data-ttu-id="d9e1e-110">Lync Online에서 lync 온-프레미스로 사용자 마이그레이션을 시작 하기 전의 첫 번째 단계는 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9e1e-110">First steps before you start migrating users from Lync Online to Lync on-premises in Lync Server 2013</span></span>](lync-server-2013-first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises.md)
 
-  - [<span data-ttu-id="6e5f3-111">Lync Server 2013에서 lync Online 사용자를 lync 온-프레미스로 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="6e5f3-111">Migrating Lync Online users to Lync on-premises in Lync Server 2013</span></span>](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md)
+  - [<span data-ttu-id="d9e1e-111">Lync Server 2013에서 lync Online 사용자를 lync 온-프레미스로 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="d9e1e-111">Migrating Lync Online users to Lync on-premises in Lync Server 2013</span></span>](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md)
 
 </div>
 

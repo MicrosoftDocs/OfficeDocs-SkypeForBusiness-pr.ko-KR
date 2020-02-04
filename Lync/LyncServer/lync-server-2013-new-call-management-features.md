@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 새 통화 관리 기능'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New call management features
 ms:assetid: 99246e87-daba-4bf0-9e2c-763dffa56b58
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398789(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38185e769c80017eb1b7686c79ef6f9f47eb0fc2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb4f93e0120d8295d601e482e0c6600a092fe599
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983688"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765819"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40983688"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-call-management-features-in-lync-server-2013"></a><span data-ttu-id="76291-102">Lync Server 2013의 새 통화 관리 기능</span><span class="sxs-lookup"><span data-stu-id="76291-102">New call management features in Lync Server 2013</span></span>
+# <a name="new-call-management-features-in-lync-server-2013"></a><span data-ttu-id="f5fa2-102">Lync Server 2013의 새 통화 관리 기능</span><span class="sxs-lookup"><span data-stu-id="f5fa2-102">New call management features in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,22 +35,22 @@ ms.locfileid: "40983688"
 
 <span> </span>
 
-<span data-ttu-id="76291-103">_**마지막으로 수정한 주제:** 2012-12-18_</span><span class="sxs-lookup"><span data-stu-id="76291-103">_**Topic Last Modified:** 2012-12-18_</span></span>
+<span data-ttu-id="f5fa2-103">_**마지막으로 수정한 주제:** 2012-12-18_</span><span class="sxs-lookup"><span data-stu-id="f5fa2-103">_**Topic Last Modified:** 2012-12-18_</span></span>
 
-<span data-ttu-id="76291-104">다음 섹션에서는 Lync Server 2013의 통화 관리 기능 변경 사항에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="76291-104">The following sections describe the changes in call management features in Lync Server 2013.</span></span>
+<span data-ttu-id="f5fa2-104">다음 섹션에서는 Lync Server 2013의 통화 관리 기능 변경 사항에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="f5fa2-104">The following sections describe the changes in call management features in Lync Server 2013.</span></span>
 
-  - [<span data-ttu-id="76291-105">Lync Server 2013의 새 응답 그룹 응용 프로그램 기능</span><span class="sxs-lookup"><span data-stu-id="76291-105">New Response Group application features in Lync Server 2013</span></span>](lync-server-2013-new-response-group-application-features.md)
+  - [<span data-ttu-id="f5fa2-105">Lync Server 2013의 새 응답 그룹 응용 프로그램 기능</span><span class="sxs-lookup"><span data-stu-id="f5fa2-105">New Response Group application features in Lync Server 2013</span></span>](lync-server-2013-new-response-group-application-features.md)
 
-  - [<span data-ttu-id="76291-106">Lync Server 2013의 새 통화 대기 응용 프로그램 기능</span><span class="sxs-lookup"><span data-stu-id="76291-106">New Call Park application features in Lync Server 2013</span></span>](lync-server-2013-new-call-park-application-features.md)
+  - [<span data-ttu-id="f5fa2-106">Lync Server 2013의 새 통화 대기 응용 프로그램 기능</span><span class="sxs-lookup"><span data-stu-id="f5fa2-106">New Call Park application features in Lync Server 2013</span></span>](lync-server-2013-new-call-park-application-features.md)
 
-  - [<span data-ttu-id="76291-107">Lync Server 2013의 새 그룹 통화 픽업 기능</span><span class="sxs-lookup"><span data-stu-id="76291-107">New Group Call Pickup feature in Lync Server 2013</span></span>](lync-server-2013-new-group-call-pickup-feature.md)
+  - [<span data-ttu-id="f5fa2-107">Lync Server 2013의 새 그룹 통화 픽업 기능</span><span class="sxs-lookup"><span data-stu-id="f5fa2-107">New Group Call Pickup feature in Lync Server 2013</span></span>](lync-server-2013-new-group-call-pickup-feature.md)
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="76291-108">참고 항목</span><span class="sxs-lookup"><span data-stu-id="76291-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f5fa2-108">참고 항목</span><span class="sxs-lookup"><span data-stu-id="f5fa2-108">See Also</span></span>
 
 
-[<span data-ttu-id="76291-109">Lync Server 2013의 새 Enterprise Voice 기능</span><span class="sxs-lookup"><span data-stu-id="76291-109">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="f5fa2-109">Lync Server 2013의 새 Enterprise Voice 기능</span><span class="sxs-lookup"><span data-stu-id="f5fa2-109">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>
