@@ -3,6 +3,8 @@ title: DNS 요약 - 공용 IP 주소의 단일 통합 에지
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Single consolidated edge with public IP addresses
 ms:assetid: 7b83eae4-aa1a-4cc6-8077-42176d56cab5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205025(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184601
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50aae14309e55919eb3f65560cd7cd0e7f1b1283
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db3578bc7b1668bf8cb2268ed079e558e1cf1761
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978728"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733548"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

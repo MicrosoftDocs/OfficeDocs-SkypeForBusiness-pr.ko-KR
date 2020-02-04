@@ -3,6 +3,8 @@ title: 중앙 로깅 서비스에 의해 생성 된 캡처 로그에서 검색 �
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using search on capture logs created by the Centralized Logging Service
 ms:assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687982(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47b9d11713e874915fac0e4b67099ce3f7456546
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edfc176934479aef04d6850a8ebbae3b38a553a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983510"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744018"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

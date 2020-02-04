@@ -3,6 +3,8 @@ title: 영구 채팅 서비스 모니터링, 시작 및 중지
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring, starting, and stopping the Persistent Chat services
 ms:assetid: 05761d02-e7b5-494e-a58f-f3d213483035
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398105(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183291
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e84900789a27295087791d8d3e8fa9d8bd0bbec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5d6f5a80a52c4bb506240dfbdf5a28929c6f3f1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983516"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756782"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

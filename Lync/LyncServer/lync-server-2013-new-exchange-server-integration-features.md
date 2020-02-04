@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 새로운 Exchange Server 통합 기능'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Exchange Server integration features
 ms:assetid: cad9cbfa-f213-42af-9c8b-9baf1a5bf6bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205269(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d39aad7f2df2f02983bad50cae8e81e711065456
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a4e515b668bd91cc04752dffb034569cd8aa7abf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985727"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762986"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

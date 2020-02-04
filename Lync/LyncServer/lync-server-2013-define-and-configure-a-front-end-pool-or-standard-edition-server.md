@@ -3,6 +3,8 @@ title: 프런트 엔드 풀 또는 Standard Edition 서버 정의 및 구성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define and configure a Front End pool or Standard Edition server
 ms:assetid: 713fc263-23dd-414a-b001-82932e4fe966
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398538(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ac840cb40da71f81a24501f3d9caa53fb316e86
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ddc430370c59e279e0e36aa662da0f33973e0d80
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977479"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

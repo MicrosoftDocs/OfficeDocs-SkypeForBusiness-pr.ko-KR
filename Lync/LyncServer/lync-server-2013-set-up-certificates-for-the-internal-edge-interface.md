@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 내부 에지 인터페이스에 대한 인증서 설�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up certificates for the internal edge interface
 ms:assetid: a1963cc9-87c5-4935-86c0-6bedc6afd0ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412750(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53ba11db5d2c9fc727b7720a1a10d5da547075c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ea6e462bdc629308493799c857ecb6b2434dc268
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985158"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732268"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 모바일 기능에 대해 역방향 프록시 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the reverse proxy for mobility
 ms:assetid: 3f4a9e33-77e4-4c18-a73f-24d4bec8ea9c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690011(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 657ddf0711b0a14c9ce861a0f237977c9a2369c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 51fffae60df68a6aa2843919f95d7a00590ddd65
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983474"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

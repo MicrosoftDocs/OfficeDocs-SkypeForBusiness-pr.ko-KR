@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 인증서 요약 - 역방향 프록시'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Reverse proxy
 ms:assetid: f2b9a53f-aead-413d-81e9-4a294a010fbb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205381(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9a10259ac4a0beb6d79897b26bf446b109801a8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42e52fa8522de53404fee3f3b5798f159361dbf5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985725"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**마지막으로 수정한 주제:** 2012-11-14_
 
 **역방향 프록시에 대 한 인증서 흐름 차트**
 
-Edge 서버에 대 한 Edge 서버(images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "인증서 흐름") 차트 ![의 인증서 흐름 차트]
+![에지 서버에 대한 인증서 순서도](images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "에지 서버에 대한 인증서 순서도")
 
 ### <a name="reverse-proxy-external-interface"></a>리버스 프록시: 외부 인터페이스
 

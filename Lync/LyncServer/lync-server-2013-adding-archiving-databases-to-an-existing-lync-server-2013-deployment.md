@@ -3,6 +3,8 @@ title: 기존 Lync Server 2013 배포에 보관 데이터베이스 추가
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Adding Archiving databases to an existing Lync Server 2013 Deployment
 ms:assetid: 7350a6f7-6ed7-4fa7-b12d-e1858b93f9c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204997(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184482
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7790d0f9a07076731b2ce35f2d5052dd5e11ab64
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 028148822e7208efd383806693f9799b82d3186a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980244"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738188"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: XMPP 페더레이션 파트너의 협상 설정'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Negotiation settings for XMPP federated partners
 ms:assetid: ef773942-ef92-4f71-85a1-738dfebdfa00
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552456(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02d72870e4060be6aa4ec428159af7ab19cb68b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 995ee34d0a2dcf28ca6aa4f8158d0e08d1533191
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984458"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765939"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
