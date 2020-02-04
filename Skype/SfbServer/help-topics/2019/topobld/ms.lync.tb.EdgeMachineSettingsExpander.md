@@ -1,26 +1,26 @@
 ---
-title: Edge 기계 설정 확장기
+title: Edge 컴퓨터 설정 확장기
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeMachineSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: Edge 서버 풀의 서버에 대 한 속성을 편집 하려면 다음을 수행 합니다.
-ms.openlocfilehash: a6683766ddbfd11cd38d2d50b80a25c057b302bb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 22f1e46481ce2392a806eadd6029ab51292d5585
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188976"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702293"
 ---
-# <a name="edge-machine-settings-expander"></a>Edge 기계 설정 확장기
+# <a name="edge-machine-settings-expander"></a>Edge 컴퓨터 설정 확장기
  
 Edge 서버 풀의 서버에 대 한 속성을 편집 하려면 다음을 수행 합니다.
   

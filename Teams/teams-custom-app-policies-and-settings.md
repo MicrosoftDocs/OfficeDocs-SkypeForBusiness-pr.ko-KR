@@ -15,17 +15,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 사용자 지정 앱 정책 및 설정을 관리 하 여 조직에서 Microsoft 팀의 사용자 지정 앱을 업로드할 수 있는 사용자를 제어 하는 방법에 대해 알아봅니다.
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: 8a4d7b60485f9411faeb46f8745735039f4dd21b
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: 5357f368d6c5716c5af30e110a9193c4b4c2ad5f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679318"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708464"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft 팀에서 사용자 지정 앱 정책 및 설정 관리
 
@@ -129,5 +129,5 @@ ms.locfileid: "39679318"
 | 등     | 등     | 끄십시오         | 사용자가 사용자 지정 앱을 업로드할 수 없습니다.       |
 | 등    | 등        | 등        | 사용자가 팀 소유자 인지 여부에 관계 없이 팀에 사용자 지정 앱을 업로드할 수 있습니다. 사용자는 개인 컨텍스트에서 사용자 지정 앱을 업로드할 수 있습니다.       |
 
- ## <a name="related-topics"></a>관련 항목
+ ## <a name="related-topics"></a>관련 주제
 - [Team에서 앱의 관리 설정](admin-settings.md)

@@ -1,5 +1,5 @@
 ---
-title: 관리자의 오프 라인 메시지 설정 또는 해제
+title: 관리자의 오프라인 메시지 설정 또는 해제
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 연락처가 PowerShell을 사용 하 여 로그인 하지 않은 경우에도 비즈니스용 Skype 인스턴트 메시지를 보내는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3e083f7bf0d4f83ba5e904452721eaa92ed9e652
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 2b9cea6e7a4bcb3f7fc34bdf67e77353412d9e13
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962836"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706313"
 ---
-# <a name="turn-on-or-off-offline-messages-for-admins"></a>관리자의 오프 라인 메시지 설정 또는 해제
+# <a name="turn-on-or-off-offline-messages-for-admins"></a>관리자의 오프라인 메시지 설정 또는 해제
 
 로그인 하지 않은 경우에도 비즈니스용 Skype Im을 대화 상대에 게 보낼 수 있습니다. 이 기능을 통해 귀하의 연락처에 게 연락을 시도 하 고 있음을 알릴 수 있습니다. 메시지를 보내기 전에 다른 사람이 온라인 상태가 될 때까지 기다릴 필요가 없습니다.
 

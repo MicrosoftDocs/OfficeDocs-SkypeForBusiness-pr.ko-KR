@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 비즈니스용 Skype Online을 통해 추가 외부 액세스 정책을 만들 수 있습니다. 여러 조합을 사용할 수 있는 클라이언트나 회의 정책과는 달리, 미리 정의 된 세 가지 외부 액세스 정책이 있으며 대부분의 시나리오를 포함할 수 있습니다.
-ms.openlocfilehash: 978bad4e87e3e7dbe2a9bac5565aa7a6a45ca2df
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 49572dc1aaef3d595bd0de41fd6359d90e8d803a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962506"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706663"
 ---
 # <a name="create-custom-external-access-policies"></a>사용자 지정 외부 액세스 정책 만들기
 
@@ -110,7 +111,7 @@ ms.locfileid: "40962506"
     
   - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [점 대 점 파일 전송 차단](block-point-to-point-file-transfers.md)
 
 [조직의 클라이언트 정책 설정](set-up-client-policies-for-your-organization.md)

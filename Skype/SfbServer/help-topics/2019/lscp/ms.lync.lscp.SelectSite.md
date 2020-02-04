@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SelectSite
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사이트 선택 대화 상자를 사용하여 환경에서 사용 가능한 사이트를 찾습니다. 기존 사이트를 사용하려면 목록에서 사이트를 클릭한 다음 확인을 클릭합니다.
-ms.openlocfilehash: 2fc3d5ea7d70984ea736487ef5131aa26cd67925
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 038cffc951e786e18776d09310f21326ded77cf4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197870"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704293"
 ---
 # <a name="select-a-site"></a>사이트 선택
 

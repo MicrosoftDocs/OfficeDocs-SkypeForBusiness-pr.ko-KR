@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: '비즈니스용 Skype Online을 설정 하는 방법에 대 한 자세한 정보 사용자를 위한 외부 통신은 외부 Skype 연락처와 통신할 수 있습니다. '
-ms.openlocfilehash: b3f6af94e68042af220079dad23cdefad8209f02
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 65def1712c916ff670457a99dd114dcc405683be
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "37643036"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706283"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>비디오: 비즈니스용 Skype Online 외부 통신
 
@@ -36,12 +37,12 @@ ms.locfileid: "37643036"
 
 ***
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype Online 외부 통신 설정](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications) (안내 연습)
 
-[사용자가 외부 비즈니스용 Skype 사용자에 게 연락할 수 있도록 허용](allow-users-to-contact-external-skype-for-business-users.md)
+[사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](allow-users-to-contact-external-skype-for-business-users.md)
 
-[비즈니스용 Skype 사용자가 Skype 연락처를 추가 하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
+[비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

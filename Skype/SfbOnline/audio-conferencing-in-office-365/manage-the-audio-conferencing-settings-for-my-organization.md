@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '전화 접속 회의 라이선스 및 전화 회의 ID를 사용자와 여러 다른 전화 접속 회의 설정에 할당 하려면 비즈니스용 Skype Online 단계를 참조 하세요. '
-ms.openlocfilehash: f5597ae2b857569b7890d81577e4fd4252da5106
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 4feb442c4bdf0578b09a089325ad248bb2d0d7bc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962706"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707173"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 조직의 오디오 회의 설정 관리
 
@@ -330,7 +331,7 @@ Windows PowerShell을 사용 하 여 조직 수준에서 관리할 수 있는 �
 
     비즈니스용 Skype Online 용 Windows PowerShell 모듈을 사용 하면 비즈니스용 Skype Online에 연결 하는 원격 Windows PowerShell 세션을 만들 수 있습니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688) 의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [사용자의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-a-user.md)
 

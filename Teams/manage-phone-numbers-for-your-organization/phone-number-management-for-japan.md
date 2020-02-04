@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 일본에서 Microsoft 팀 용 전화 번호를 받고 관리 하는 방법에 대 한 정보를 확인 하세요.
-ms.openlocfilehash: c3e8692b4095843d17352c13509deaa701aa6e54
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 47a4e034b298cdf751349e9cfbdc9947c8cc898f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573132"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706993"
 ---
 # <a name="phone-number-management-for-japan"></a>일본 용 전화 번호 관리
 
@@ -47,10 +48,10 @@ ms.locfileid: "37573132"
 |통화 요금제 전화 번호가 있는 사용자에 게 할당 된 긴급 주소를 변경 합니다. |긴급 주소 변경 사항을 적용 하려면 [Office 365의 소프트 은행 통화](https://aka.ms/SoftBankVoicePlan) 에 문의 하세요. 이 정보를 업데이트할 수 있습니다.|
 |사용자 번호를 서비스 번호로 변경 합니다. |Office 365에 대 한 소프트 은행 통화를 사용 하는 경우 현재 지원 되지 않습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization.md)
 
-[비상 통화 약관](../emergency-calling-terms-and-conditions.md)
+[긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)

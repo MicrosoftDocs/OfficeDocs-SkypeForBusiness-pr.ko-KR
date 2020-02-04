@@ -1,26 +1,26 @@
 ---
-title: SQL Server Reporting Services (자격 증명)
+title: SQL Server Reporting Services(자격 증명)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeploySSRSCredentials
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 모니터링 데이터베이스에 액세스 하기 위해 SQL Server Reporting Services (SSRS)의 자격 증명을 지정 하려면 다음을 수행 합니다.
-ms.openlocfilehash: d2b3773b0593df6c68b7215c65e5e2f9d7eecef1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1215cacd001dc23733036bae0bf4f2a9475018a4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188091"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705263"
 ---
-# <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services (자격 증명)
+# <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services(자격 증명)
  
 모니터링 데이터베이스에 액세스 하기 위해 SQL Server Reporting Services (SSRS)의 자격 증명을 지정 하려면 다음을 수행 합니다.
   

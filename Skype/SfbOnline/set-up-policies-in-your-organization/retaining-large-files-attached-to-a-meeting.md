@@ -14,20 +14,21 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
-description: 비즈니스용 Skype 모임에 파일을 첨부 하 고, 참가자가 열고 다운로드할 수 있습니다. 비즈니스용 Skype 모임에 첨부 된 파일은 사서함이 소송 보류에 배치 되었거나, Office 365 보존 정책이 적용 되었거나, Office 365 보안에서 eDiscovery 사례와 연결 된 보류에 배치 된 모든 참가자의 사서함에 보존 됩니다. &amp; 준수 센터. 이 콘텐츠는 해당 사서함의 참석자의 복구 가능한 항목 폴더에 저장 됩니다.
-ms.openlocfilehash: 4a8022b522f933ff8897586f632764eda77c6a67
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 비즈니스용 Skype 모임에 파일을 첨부 하 고, 참가자가 열고 다운로드할 수 있습니다. 비즈니스용 Skype 모임에 첨부 된 파일은 사서함이 소송 보류에 저장 되어 있는 모든 참가자의 사서함에 보존 되며, Office 365 보존 정책이 적용 되거나, Office 365 보안 &amp; 준수 센터에서 eDiscovery 사례와 연결 된 보류에 배치 됩니다. 이 콘텐츠는 해당 사서함의 참석자의 복구 가능한 항목 폴더에 저장 됩니다.
+ms.openlocfilehash: fdd6786cb9b7e5535abee47eb1f0b538b6a22b45
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642615"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706653"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>비즈니스용 Skype 모임에 첨부 된 대용량 파일 보존
 
-비즈니스용 Skype 모임에 파일을 첨부 하 고, 참가자가 열고 다운로드할 수 있습니다. 비즈니스용 Skype 모임에 첨부 된 파일은 사서함이 소송 보류에 배치 되었거나, Office 365 보존 정책이 적용 되었거나, Office 365 보안에서 eDiscovery 사례와 연결 된 보류에 배치 된 모든 참가자의 사서함에 보존 됩니다. &amp; 준수 센터. 이 콘텐츠는 해당 사서함의 참석자의 **복구 가능한 항목** 폴더에 저장 됩니다.
+비즈니스용 Skype 모임에 파일을 첨부 하 고, 참가자가 열고 다운로드할 수 있습니다. 비즈니스용 Skype 모임에 첨부 된 파일은 사서함이 소송 보류에 저장 되어 있는 모든 참가자의 사서함에 보존 되며, Office 365 보존 정책이 적용 되거나, Office 365 보안 &amp; 준수 센터에서 eDiscovery 사례와 연결 된 보류에 배치 됩니다. 이 콘텐츠는 해당 사서함의 참석자의 **복구 가능한 항목** 폴더에 저장 됩니다.
   
 보류 중인 사서함에 유지 되는 파일은 인덱싱되어 있으므로 참가자의 사서함을 검색할 때 보안 &amp; 준수 센터에서 콘텐츠 검색을 실행할 때 검색 될 수 있습니다. 그러나 30mb 보다 더 많은 첨부 파일은 두 개 이상의 작은 파일로 나뉘어 압축 (.zip) 파일로 저장 됩니다. 이러한 작은 파일의 *콘텐츠* 는 검색을 위해 인덱싱되지 않으며 콘텐츠 검색에 반환 되지 않을 수 있습니다. 그러나 이러한 파일의 *메타 데이터* (예: 파일 이름 및 만든이)는 검색을 위해 인덱싱되어 있으며 콘텐츠 검색에 반환 될 수 있습니다.
   
@@ -36,7 +37,7 @@ ms.locfileid: "37642615"
   
 보류 중인 사서함에는 모임 데이터가 저장 되지 않습니다. 예를 들어 두 참가자의 사서함이 보존으로 표시 된 3 명 모임에서 모임 데이터는 해당 두 참가자의 사서함에 저장 되지만 세 번째 참가자의 사서함에는 저장 되지 않으며 사서함이 보류 되지 않은 것입니다.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [사용자 지정 외부 액세스 정책 만들기](create-custom-external-access-policies.md)
 
 [점 대 점 파일 전송 차단](block-point-to-point-file-transfers.md)

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 컴퓨터 FQDN에 FQDN (정규화 된 도메인 이름)을 입력 하 여 영구 채팅 서버 풀에 포함 될 컴퓨터를 정의 합니다. 이 FQDN은 DNS(Domain Name System) 호스트(A 또는 AAAA) 레코드에 정의된 컴퓨터의 이름이어야 합니다.
-ms.openlocfilehash: cf4aa5b316b901baab78817c8b180aeeaf0e9ba2
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 4eb570d93906b57de3e27a7ee6313e98755691e6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197918"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702743"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>영구 채팅 풀에서 컴퓨터 정의
 

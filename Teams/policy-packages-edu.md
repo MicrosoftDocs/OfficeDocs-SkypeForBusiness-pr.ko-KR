@@ -1,5 +1,5 @@
 ---
-title: .EDU 관리자를 위한 Microsoft 팀 정책 패키지
+title: EDU 관리자용 Microsoft Teams 정책 패키지
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -13,18 +13,18 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-f1keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 정책 패키지를 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a49ab725ff0042b75afca9b1f9b4d7d9655c34b7
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 922481747e83b8885641185b8a7e4fa65bb2a1bd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676256"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708664"
 ---
-# <a name="microsoft-teams-policy-packages-for-edu-admins"></a>.EDU 관리자를 위한 Microsoft 팀 정책 패키지
+# <a name="microsoft-teams-policy-packages-for-edu-admins"></a>EDU 관리자용 Microsoft Teams 정책 패키지
 
 Microsoft 팀의 정책 패키지는 기관에서 유사한 역할을 갖는 사용자에 게 할당할 수 있는 미리 정의 된 정책 및 정책 설정을 수집 합니다. 정책 패키지는 정책을 관리할 때 일관성을 단순화 하 고 효율적으로 지원 합니다. 일반적인 연습에서는 각 사용자에 게 정책 패키지를 할당 하 고 필요에 따라 각 패키지의 정책을 다시 정의 하 여 해당 사용자 그룹의 요구에 맞게 만듭니다. 패키지의 설정을 업데이트 하면 해당 패키지에 할당 된 모든 사용자가 대량 업데이트로 변경 됩니다.
 
@@ -36,7 +36,7 @@ Microsoft 팀의 정책 패키지는 기관에서 유사한 역할을 갖는 사
 
 정책 패키지 미리 정의할 정책:
 - 메시징
-- Meeting
+- 모임
 - 앱 설정
 - 전화
 - 라이브 이벤트

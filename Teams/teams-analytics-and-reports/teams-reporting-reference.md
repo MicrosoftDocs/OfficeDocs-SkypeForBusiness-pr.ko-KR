@@ -9,18 +9,18 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.analyticsandreports.overview
+f1.keywords: ms.teamsadmincenter.analyticsandreports.overview
 ms.collection:
 - M365-collaboration
 description: Microsoft 팀 관리 센터에서 사용할 수 있는 팀 보고서에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43d31c24745bb0ceba26160c09a3d11b5db0905b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3b0bcf2fe9d45d9ec2a4c574e9683688d58eb4a7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570986"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708484"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft 팀 분석 및 보고
 
@@ -41,10 +41,10 @@ Microsoft 팀 관리 센터에서 사용할 수 있는 팀 보고서 목록과 �
 
 |보고서  |측정 내용 |
 |---------|---------|
-|[팀 사용 보고서](teams-usage-report.md)  |  활성 사용자<br/>팀 및 채널의 활성 사용자<br/>활성 채널<br/>보내는<br/>팀의 개인 정보 설정<br/>팀의 게스트   |
-|[팀 사용자 활동 보고서](user-activity-report.md)  |  사용자가 참가 한 1:1 통화<br/>팀 채팅에 사용자가 게시 한 메시지<br/>사용자가 개인 채팅에 게시 한 메시지<br/>사용자의 마지막 활동 날짜     |
-|[팀 장치 사용 보고서](device-usage-report.md)   |  Windows 사용자<br/>Mac 사용자<br/>iOS 사용자<br/>Android 휴대폰 사용자     |
-|[팀 실시간 이벤트 사용 보고서](teams-live-event-usage-report.md)   |  총 보기<br>시작 시간<br>이벤트 상태<br>구성 도우미<br>여자<br>생산자<br>녹음/녹화 설정<br>프로덕션 유형    |
+|[Teams 사용 현황 보고서](teams-usage-report.md)  |  활성 사용자<br/>팀 및 채널의 활성 사용자<br/>활성 채널<br/>보내는<br/>팀의 개인 정보 설정<br/>팀의 게스트   |
+|[Teams 사용자 작업 보고서](user-activity-report.md)  |  사용자가 참가 한 1:1 통화<br/>팀 채팅에 사용자가 게시 한 메시지<br/>사용자가 개인 채팅에 게시 한 메시지<br/>사용자의 마지막 활동 날짜     |
+|[Teams 장치 사용 현황 보고서](device-usage-report.md)   |  Windows 사용자<br/>Mac 사용자<br/>iOS 사용자<br/>Android 휴대폰 사용자     |
+|[Teams 라이브 이벤트 사용 현황 보고서](teams-live-event-usage-report.md)   |  총 보기<br>시작 시간<br>이벤트 상태<br>구성 도우미<br>여자<br>생산자<br>녹음/녹화 설정<br>프로덕션 유형    |
 |[팀 PSTN 차단 사용자 보고서](pstn-blocked-users-report.md)   |  표시 이름<br>전화 번호<br>설명은<br>작업 유형<br>작업 날짜 및 시간   |
 |[팀 PSTN 시간 풀 보고서](pstn-minute-pools-report.md) |  국가 또는 지역<br>기능 (라이선스) <br>총 분<br>분 사용<br>분 사용 가능|
 |[팀 PSTN 사용 보고서-통화 계획](pstn-usage-report.md#calling-plans)|  타임 스탬프<br>사용자 이름<br>전화 번호<br>통화 종류 <br>호출 대상<br>국가 또는 지역 <br>에서 호출 <br>국가 또는 지역에서<br>부과<br>통화<br>시간이<br>국내/국제<br>통화 ID<br>숫자 형식<br>국가 또는 지역<br>전화 회의 ID<br>기능 (라이선스)|

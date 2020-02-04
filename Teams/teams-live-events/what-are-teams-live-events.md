@@ -11,17 +11,17 @@ ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 description: Live 이벤트를 통해 사용자가 팀, Yammer, 스트림에서 비디오 및 콘텐츠를 대규모 온라인 청중에 게 브로드캐스트할 수 있는 방법을 알아봅니다.
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.liveevents
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad278fe758c07c734d71f9179386db167ad8f4fc
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: 9f0e94ef7a0f71930c2ae840a19db03f4844ba34
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634881"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708344"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft 팀 live 이벤트는 무엇 인가요?
 
@@ -87,7 +87,7 @@ ECDN의 목표는 인터넷에서 비디오 콘텐츠를 가져와 네트워크 
 ## <a name="next-steps"></a>다음 단계
 [팀 라이브 이벤트 계획](plan-for-teams-live-events.md)으로 이동 합니다.
 
-### <a name="related-topics"></a>관련 항목
+### <a name="related-topics"></a>관련 주제
 - [Yammer, Microsoft 팀, Microsoft Stream의 Microsoft 365에서 발생 하는 라이브 이벤트](https://docs.microsoft.com/stream/live-event-m365)
 - [Microsoft 팀의 실시간 이벤트 시작 하기](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Yammer의 라이브 이벤트](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)

@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Outlook 모임 초대에서 파일이 나 첨부 파일을 사용 하 여 비즈니스용 Skype 모임에서 미리 로드 된 콘텐츠를 설정 하거나 해제 하는 방법을 알아봅니다. '
-ms.openlocfilehash: f876519ba7d3cf25e61f4f6458129d724d1bcb84
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 66373c3609584efb34d54ef4ad9331af608b5a81
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962786"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706303"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Outlook을 사용 하 여 모임에 대 한 콘텐츠 미리 로드 허용 설정 또는 해제
 

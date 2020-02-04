@@ -15,14 +15,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 앱 설정 정책에 대해 알아보고, 앱을 고정 하는 데 사용 하 여 조직의 사용자를 위한 팀을 사용자 지정 하는 방법에 대해 알아봅니다.
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: e80cacb952bd456e742aa6da0fec32d50c5f3188
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: 93b687bffb536295e758fb6d7c1baf43710901e9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573800"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708494"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 설치 정책 관리
 
@@ -173,6 +173,6 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 앱을 제출 하기 전에 로고 지침을 따르고 있는지 확인 합니다. 자세한 내용은 [판매자 대시보드 제출에 대 한 검사 목록](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)을 참조 하세요. 
 
- ## <a name="related-topics"></a>관련 항목
+ ## <a name="related-topics"></a>관련 주제
 - [Team에서 앱의 관리 설정](admin-settings.md)
 - [팀 클라이언트에서 앱을 테 넌 트 앱 카탈로그에 게시](tenant-apps-catalog-teams.md)

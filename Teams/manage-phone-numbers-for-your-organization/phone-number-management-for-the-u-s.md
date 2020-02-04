@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 미국 (및 푸에르토리코)에서 Microsoft 팀을 위한 전화 번호를 받고 관리 하는 방법에 대 한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: d65dc8727d99d2387721176b9ee94242db6ff04a
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 8013b3a822f9e453dd60bb7e5af73a1326f7c04c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41580815"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706933"
 ---
 # <a name="phone-number-management-for-the-us"></a>미국의 전화 번호 관리
 
@@ -42,7 +43,7 @@ ms.locfileid: "41580815"
 |한 Office 365 조직에서 다른 컴퓨터로 번호를 전송 합니다.  <br/> |해당 번호를 전송할 원본 조직의 핀과 함께 전송 하려는 사용자 (구독자) 전화 번호 목록을 [보내 주십시오](mailto:ptn@microsoft.com) . PIN을 설정 하려면 [여기](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)를 방문 하세요.  <br/> |
 |||
    
-## <a name="related-topics"></a>관련 항목 
+## <a name="related-topics"></a>관련 주제 
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

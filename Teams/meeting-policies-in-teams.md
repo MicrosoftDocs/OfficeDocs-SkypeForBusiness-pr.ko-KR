@@ -13,19 +13,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 팀에서 모임 정책 설정을 관리 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 9199be5eced7faee3e72f7b94c1f9e3be3c9573c
-ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
+ms.openlocfilehash: 2223882020bf9ea045e18d42c6591eceba628999
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41649106"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708844"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>팀에서 모임 정책 관리
 
@@ -395,6 +395,6 @@ Daniela는 Amanda의 모임에 메모를 기록 하 고 모든 모임에서 메�
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [팀의 메시징 정책](messaging-policies-in-teams.md)

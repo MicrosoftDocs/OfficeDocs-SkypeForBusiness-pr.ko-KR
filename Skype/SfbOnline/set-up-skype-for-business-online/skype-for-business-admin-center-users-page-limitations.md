@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.UsersCountLimitationWarning
 ms.custom:
 - Setup
 description: '비즈니스용 Skype Online 관리자의 사용자 표시 제한 사항 내에서 작업 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 17865b9f369b73d4133f95d0d61fe0010052f50a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ffe0a9d5c67028e12889f21744f88a8bfc2424ae
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642990"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706473"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>비즈니스용 Skype Online 관리 센터 사용자 페이지 제한 사항
 
@@ -42,10 +42,10 @@ ms.locfileid: "37642990"
   
 ![페이지의 사용자 크기를 변경 하는 사용자 페이지 탐색](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
-## <a name="related-topics"></a>관련 항목
-[비즈니스용 Skype Online 설정](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>관련 주제
+[비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
-[비즈니스용 Skype 사용자가 Skype 연락처를 추가 하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
+[비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

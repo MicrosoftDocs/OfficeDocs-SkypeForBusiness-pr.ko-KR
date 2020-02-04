@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MediationServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 ROBOTS: NOINDEX, NOFOLLOW
 description: 중재 풀 노드에 토폴로지의 중재 풀이 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: ad39efed00fcc3c90abd3c8e62c9171804dbdeb3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 906882b4cbb15e708e2150ff6d73617d123a9990
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197004"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701883"
 ---
 # <a name="mediation-servers-scope-node"></a>중재 서버 범위 노드
  

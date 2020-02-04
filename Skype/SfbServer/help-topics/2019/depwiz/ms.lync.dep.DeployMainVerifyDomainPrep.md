@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainVerifyDomainPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 ROBOTS: NOINDEX, NOFOLLOW
 description: '1 단계: 스키마 준비에서 수행한 도메인 준비의 복제를 확인 하려면 비즈니스용 Skype Server Management Shell Lync Server 관리 셸에서 cmdlet을 실행 해야 합니다. Windows PowerShell cmdlet을 실행 하려면 준비한 도메인의 구성원 인 컴퓨터 (도메인 관리자 그룹의 구성원)에 로그온 합니다. 이렇게 하려면 다음을 수행합니다.'
-ms.openlocfilehash: c378aabe27ce69351643455c41acfd35a8e950b6
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7a9b8e90ce3c7c65f5f4b3d160ca7379b3bf8910
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992153"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705420"
 ---
 # <a name="verify-replication-in-the-domain"></a>도메인에서 복제 확인
  

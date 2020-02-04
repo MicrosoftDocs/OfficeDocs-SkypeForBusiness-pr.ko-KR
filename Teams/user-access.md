@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-f1keywords: ms.teamsadmincenter.signin.domainerror.nolicensedusers
+f1.keywords: ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.reviewer: ritikag
 search.appverid: MET150
 description: 사용자별로 사용자 수준 액세스를 사용 하거나 사용 하지 않도록 설정 하는 방법에 대해 알아봅니다.
@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d5db525054e1233d4532f6a7819735b1415e7cd
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 3ee7a8303ed9c46e1b60bbd3588fc36d754f773d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989803"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707453"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft 팀에 대 한 사용자 액세스 관리
 =====================================

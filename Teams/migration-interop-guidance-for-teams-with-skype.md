@@ -10,19 +10,19 @@ ms.reviewer: bjwhalen
 description: 비즈니스용 Skype에서 팀으로 전환 관리에 대 한 지침
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.coexistence
 - ms.teamsadmincenter.teamsupgrade.overview
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87fc1401087292e8acd624e0917ead2b7998a2fd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 46094afb028f27da8889276aa42850837957f59a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573404"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708784"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>비즈니스용 Skype로 팀을 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침
 
@@ -43,7 +43,7 @@ ms.locfileid: "37573404"
     - 비즈니스용 Skype/Lync 온-프레미스를 이미 사용 중인 사용자는 기존 온-프레미스 계정을 사용 합니다.
     - 기존 비즈니스용 Skype 계정을 검색할 수 없는 사용자는 팀 사용자가 만들어질 때 비즈니스용 Skype Online 계정이 자동으로 프로 비전 됩니다.
 
-4.  비즈니스용 Skype 또는 Lync의 온-프레미스 배포를 사용 하는 경우 해당 사용자를 팀 사용자로 설정 하려면 최소한 Azure AD Connect가 msRTCSIP Locator 특성을 AAD로 동기화 하 여 비즈니스용 Skype를 사용 하도록 해야 합니다. 온라인에서 온-프레미스 환경을 제대로 검색 합니다. 또한 모든 사용자를 팀 전용 모드로 이동 하려면 (예: 사용자 업그레이드) *먼저 비즈니스용 Skype 하이브리드 모드를 구성 해야 합니다*. 자세한 내용은 [비즈니스용 Skype 및 팀에 대 한 AZURE AD Connect 구성을](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect)참조 하세요.
+4.  비즈니스용 Skype 또는 Lync의 온-프레미스 배포를 사용 하는 경우, 해당 사용자가 팀 사용자가 되도록 하려면 최소한 Azure AD Connect가 msRTCSIP 로케이터 특성을 AAD로 동기화 하 여 비즈니스용 팀/비즈니스용 Skype Online에서 온-프레미스 환경을 제대로 감지 하도록 해야 합니다. 또한 모든 사용자를 팀 전용 모드로 이동 하려면 (예: 사용자 업그레이드) *먼저 비즈니스용 Skype 하이브리드 모드를 구성 해야 합니다*. 자세한 내용은 [비즈니스용 Skype 및 팀에 대 한 AZURE AD Connect 구성을](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)참조 하세요.
 
 5.  팀과 비즈니스용 Skype 사용자 간 상호 운용성은 *팀 사용자가 비즈니스용 skype에서 온라인 상태인 경우*에만 가능 합니다. 받는 사람 비즈니스용 Skype 사용자는 온-프레미스 (비즈니스용 Skype 하이브리드 구성 필요) 또는 온라인 중 하나로 설정할 수 있습니다. 비즈니스용 Skype 온-프레미스에 속한 사용자는이 문서의 뒷부분에 정의 된 아일랜드 모드에서 팀을 사용할 수 있지만, 팀을 사용 하 여 비즈니스용 Skype를 사용 하는 다른 사용자와 상호 운용 하거나 페더레이션 할 수는 없습니다.  
 
@@ -53,7 +53,7 @@ ms.locfileid: "37573404"
     - 사용자가 비즈니스용 Skype online에 있는 경우 (또는 Skype 계정이 없는 경우), PowerShell을 사용 하 여 "UpgradeToTeams" 인스턴스를 사용 하는 경우에만 TeamsUpgradePolicy 모드를 허용 하거나 팀 관리 센터를 사용 하 여 TeamsOnly 모드를 선택 합니다.
     - 사용자가 온-프레미스 인 경우 온-프레미스 `Move-CsUser` 관리 도구에서 사용 하 여 먼저 사용자를 비즈니스용 Skype Online으로 이동 합니다.  비즈니스용 skype Server 2019 또는 CU8 for 비즈니스용 Skype Server 2015이 있는 경우에서 `-MoveToTeams` `Move-CsUser` 전환을 지정 하 여 온라인으로 이동의 일부로 사용자를 직접 팀으로 이동할 수 있습니다. 또한이 옵션은 사용자의 모임을 팀으로 마이그레이션합니다. 이 `-MoveToTeams` 지정 되지 않았거나 사용할 수 없는 경우 완료 후 `Move-CsUser` 에는 PowerShell 또는 팀 관리 센터를 사용 하 여 해당 사용자에 게 팀 전용 모드를 할당 합니다. 자세한 내용은 온 [-프레미스 및 클라우드 간에 사용자 이동을](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)참조 하세요.  모임 마이그레이션에 대 한 자세한 내용은 [MMS (모임 마이그레이션 서비스) 사용](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)을 참조 하세요.
 
-8.  팀과 함께 Microsoft 휴대폰 시스템을 사용 하려면 사용자가 TeamsOnly 모드 (예: 비즈니스용 Skype Online 및 팀으로 업그레이드) 여야 하며, Microsoft 전화 시스템 [다이렉트 라우팅](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) 에 대해 구성 되어 있어야 하며,이 경우 전화 시스템을 사용할 수 있습니다. 자신의 SIP trunks 및 SBC) 또는 Office 365 통화 요금제를 사용 합니다. Microsoft 전화 시스템 다이렉트 라우팅은 군도 모드에서 지원 되지 않습니다.    
+8.  팀과 Microsoft 전화 시스템을 사용 하려면 사용자가 Teamonly 모드 (예: 비즈니스용 Skype Online 및 팀으로 업그레이드)에 속해야 하며, Microsoft 전화 시스템 [다이렉트 라우팅](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (즉, 사용자의 SIP TRUNKS 및 SBC로 전화 시스템을 사용할 수 있음) 또는 Office 365 통화 요금제가 있어야 합니다. Microsoft 전화 시스템 다이렉트 라우팅은 군도 모드에서 지원 되지 않습니다.    
 
 9.  사용자가 비즈니스용 Skype Online 또는 비즈니스용 Skype 온-프레미스를 사용 하 고 있는지 여부에 관계 없이 오디오 회의를 통한 팀 회의 예약 (PSTN을 통한 전화 접속 또는 다이얼 아웃)을 사용할 수 있습니다. 
 
@@ -70,7 +70,7 @@ Interop 및 마이그레이션은 TeamsUpgradePolicy를 사용 하 여 "공존 �
 - *모임 예약*: 새 모임을 예약 하는 데 사용 되는 서비스와 Outlook에 적절 한 추가 기능이 있는지 확인 합니다. TeamsUpgradePolicy가 모임 참가를 제어 하지 않는다는 점에 유의 하세요. 사용자는 비즈니스용 Skype 모임 또는 팀 모임에 관계 없이 언제 든 지 모임에 *참가할* 수 있습니다.
 - *클라이언트 환경*: 팀 및/또는 비즈니스용 Skype 클라이언트에서 어떤 기능을 사용할 수 있나요? 사용자가 팀, 비즈니스용 Skype 또는 둘 다에서 통화와 채팅을 시작할 수 있나요? 팀 & 채널 경험을 사용할 수 있나요?  
 
-모드 기반 라우팅 및 현재 상태 동작에 대 한 자세한 내용은 [비즈니스용 Skype를 사용 하 여 공존](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence)을 참조 하세요.
+모드 기반 라우팅 및 현재 상태 동작에 대 한 자세한 내용은 [비즈니스용 Skype를 사용 하 여 공존](https://docs.microsoft.com/MicrosoftTeams/coexistence-chat-calls-presence)을 참조 하세요.
 
 그러나 경험 측면에서 볼 때 다음과 같은 작업 환경을 정의 하는 것으로 모드를 더 간단 하 게 설명할 수 있습니다.
 - *채팅 및 통화*: 사용자가 어떤 클라이언트를 사용 합니까?
@@ -83,11 +83,11 @@ Interop 및 마이그레이션은 TeamsUpgradePolicy를 사용 하 여 "공존 �
 
 |모드|통화 및 채팅|모임 예약<sup>1</sup>|팀 & 채널|사용 사례|
 |---|---|---|---|---|
-|**TeamsOnly<sup>2</sup>**</br>*비즈니스용 Skype Online에 홈이 필요 합니다.*|성과|성과|'|업그레이드 되는 최종 상태입니다. 새 테 넌 트의 기본값 이기도 합니다.|
-|분리|어떤|어떤|'|기본 구성. 단일 사용자가 두 클라이언트를 나란히 평가할 수 있도록 합니다. 채팅 및 통화는 두 클라이언트 중 하나에서 발생할 수 있으므로 사용자는 항상 두 클라이언트를 모두 실행 해야 합니다. 비즈니스용 Skype 환경, 외부 (연합) 통신, PSTN 음성 서비스 및 음성 응용 프로그램, 사무실 통합, 기타 여러 통합이 비즈니스용 Skype에서 계속 해 서 처리 되는 것을 방지 합니다.|
-|SfBWithTeamsCollabAndMeetings<sup>2</sup>|비즈니스용 Skype|성과|'|"모임 먼저". 현재 온-프레미스 조직을 클라우드로의 통화를 진행할 준비가 되지 않은 경우 팀 모임 기능을 활용할 수 있습니다.|
-|SfBWithTeamsCollab|비즈니스용 Skype|비즈니스용 Skype|'|보다 엄격한 관리 제어가 필요한 복잡 한 조직의 대체 시작 위치입니다.|
-|SfBOnly|비즈니스용 Skype|비즈니스용 Skype|<sup>3</sup> 없음|데이터 제어에 대 한 엄격한 요구 사항이 있는 조직에 대 한 특수 시나리오입니다. 팀은 다른 사람이 예약한 모임에 참가 하는 데만 사용 됩니다.|
+|**TeamsOnly<sup>2</sup>**</br>*비즈니스용 Skype Online에 홈이 필요 합니다.*|Teams|Teams|예|업그레이드 되는 최종 상태입니다. 새 테 넌 트의 기본값 이기도 합니다.|
+|분리|어떤|어떤|예|기본 구성. 단일 사용자가 두 클라이언트를 나란히 평가할 수 있도록 합니다. 채팅 및 통화는 두 클라이언트 중 하나에서 발생할 수 있으므로 사용자는 항상 두 클라이언트를 모두 실행 해야 합니다. 비즈니스용 Skype 환경, 외부 (연합) 통신, PSTN 음성 서비스 및 음성 응용 프로그램, 사무실 통합, 기타 여러 통합이 비즈니스용 Skype에서 계속 해 서 처리 되는 것을 방지 합니다.|
+|SfBWithTeamsCollabAndMeetings<sup>2</sup>|비즈니스용 Skype|Teams|예|"모임 먼저". 현재 온-프레미스 조직을 클라우드로의 통화를 진행할 준비가 되지 않은 경우 팀 모임 기능을 활용할 수 있습니다.|
+|SfBWithTeamsCollab|비즈니스용 Skype|비즈니스용 Skype|예|보다 엄격한 관리 제어가 필요한 복잡 한 조직의 대체 시작 위치입니다.|
+|SfBOnly|비즈니스용 Skype|비즈니스용 Skype|아니요<sup>3</sup>|데이터 제어에 대 한 엄격한 요구 사항이 있는 조직에 대 한 특수 시나리오입니다. 팀은 다른 사람이 예약한 모임에 참가 하는 데만 사용 됩니다.|
 ||||||
 
 </br>
@@ -149,10 +149,10 @@ TeamsUpgradePolicy는 들어오는 페더레이션된 채팅 및 통화에 대 �
 - 받는 사람이 *동일한 테 넌 트*에 있는 경우 팀에서 팀에서 시작한 채팅 및 통화입니다.
 - SfB에서 시작 되는 채팅 및 통화는 항상 비즈니스용 Skype에 있습니다.
 
-자세한 내용은 비즈니스용 [Skype를 사용 하 여 공존](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence)을 참조 하세요.
+자세한 내용은 비즈니스용 [Skype를 사용 하 여 공존](https://docs.microsoft.com/MicrosoftTeams/coexistence-chat-calls-presence)을 참조 하세요.
 
 ## <a name="the-teams-client-user-experience-when-using-sfb-modes"></a>SfB 모드를 사용할 때의 팀 클라이언트 사용자 환경
-사용자가 비즈니스용 Skype 모드 (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings)에 있는 경우 모든 수신 채팅 및 통화는 사용자의 비즈니스용 Skype 클라이언트로 라우팅됩니다. 사용자가 비즈니스용 Skype 모드에 있는 경우 최종 사용자의 혼란을 방지 하 고 팀 클라이언트의 통화 및 채팅 기능이 자동으로 비활성화 되도록 하는 것이 좋습니다. 마찬가지로 사용자가 SfBOnly 또는 SfBWithTeamsCollab 모드에 있는 경우 팀에서 모임 일정이 자동으로 해제 되 고 사용자가 SfBWithTeamsCollabAndMeetings 모드일 때 자동으로 활성화 됩니다. 자세한 내용은 [팀 클라이언트 환경 및 공존 모드 준수](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)를 참조 하세요.
+사용자가 비즈니스용 Skype 모드 (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings)에 있는 경우 모든 수신 채팅 및 통화는 사용자의 비즈니스용 Skype 클라이언트로 라우팅됩니다. 사용자가 비즈니스용 Skype 모드에 있는 경우 최종 사용자의 혼란을 방지 하 고 팀 클라이언트의 통화 및 채팅 기능이 자동으로 비활성화 되도록 하는 것이 좋습니다. 마찬가지로 사용자가 SfBOnly 또는 SfBWithTeamsCollab 모드에 있는 경우 팀에서 모임 일정이 자동으로 해제 되 고 사용자가 SfBWithTeamsCollabAndMeetings 모드일 때 자동으로 활성화 됩니다. 자세한 내용은 [팀 클라이언트 환경 및 공존 모드 준수](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)를 참조 하세요.
 
 > [!Note] 
 > - 팀 및 채널의 자동 적용을 하기 전에 SfbOnly 및 SfBWithTeamsCollab 모드가 동일 하 게 작동 합니다.
@@ -164,7 +164,7 @@ TeamsUpgradePolicy는 들어오는 페더레이션된 채팅 및 통화에 대 �
 
 |모드|볼|
 |---|---|
-|**분리**</br>기본값|사용자가 비즈니스용 Skype와 팀을 함께 실행 합니다. 사용자:</br><ul><li>비즈니스용 Skype 또는 팀 클라이언트에서 채팅 및 VoIP 통화를 시작할 수 있습니다. 참고: 받는 사람 모드에 관계 없이 비즈니스용 Skype를 사용 하는 사용자가 다른 비즈니스용 Skype 사용자에 게 연결 하도록 초기화할 수 없습니다.<li>비즈니스용 skype 클라이언트의 다른 사용자가 비즈니스용 Skype에서 시작한 채팅 & VoIP 통화를 받습니다.<li>팀에서 시작한 채팅 & VoIP 통화를 팀 클라이언트의 다른 사용자가 *동일한 테 넌 트*에 있는 경우이를 받습니다.<li>다른 사용자가 *페더레이션된 테 넌 트*를 사용 하는 경우 비즈니스용 Skype 클라이언트에서 팀에서 시작한 채팅 & VoIP 통화를 받습니다. <li>아래에 명시 된 대로 PSTN 기능을가지고 있습니다.<ul><li>사용자가 비즈니스용 Skype 온-프레미스에 있고 Enterprise Voice를 사용 하는 경우 항상 비즈니스용 Skype에서 PSTN 통화가 시작 되 고 수신 됩니다.<li>사용자가 비즈니스용 Skype Online에 있고 Microsoft 전화 시스템을 사용 하는 경우, 사용자는 항상 비즈니스용 Skype에서 PSTN 통화를 시작 하 고 받습니다.<ul><li>이 작업은 사용자에 게 Microsoft 호출 계획이 있는지 여부에 관계 없이 또는 비즈니스용 skype 클라우드 커넥터 에디션을 통해 PSTN 네트워크에 연결 하거나 비즈니스용 Skype 서버 (하이브리드 voice)의 온-프레미스 배포를 통해 수행 됩니다.<li>**참고: Microsoft 팀 전화 시스템 다이렉트 라우팅은 군도 모드에서 지원 되지 않습니다.**</ul></ul><li>비즈니스용 Skype에서 Microsoft 통화 대기열 및 자동 전화 교환 전화를 받습니다.<li>팀 또는 비즈니스용 Skype에서 모임을 예약할 수 있습니다 (기본적으로 두 플러그 인이 표시 됨).<li>비즈니스용 Skype 또는 팀 모임에 참가할 수 있습니다. 모임이 해당 클라이언트에 열립니다.</ul>|
+|**분리**</br>기본값|사용자가 비즈니스용 Skype와 팀을 함께 실행 합니다. 사용자:</br><ul><li>비즈니스용 Skype 또는 팀 클라이언트에서 채팅 및 VoIP 통화를 시작할 수 있습니다. 참고: 받는 사람 모드에 관계 없이 비즈니스용 Skype를 사용 하는 사용자가 다른 비즈니스용 Skype 사용자에 게 연결 하도록 초기화할 수 없습니다.<li>비즈니스용 skype 클라이언트의 다른 사용자가 비즈니스용 Skype에서 시작한 채팅 & VoIP 통화를 받습니다.<li>팀에서 시작한 채팅 & VoIP 통화를 팀 클라이언트의 다른 사용자가 *동일한 테 넌 트*에 있는 경우이를 받습니다.<li>다른 사용자가 *페더레이션된 테 넌 트*를 사용 하는 경우 비즈니스용 Skype 클라이언트에서 팀에서 시작한 채팅 & VoIP 통화를 받습니다. <li>아래에 명시 된 대로 PSTN 기능을가지고 있습니다.<ul><li>사용자가 비즈니스용 Skype 온-프레미스에 있고 Enterprise Voice를 사용 하는 경우 항상 비즈니스용 Skype에서 PSTN 통화가 시작 되 고 수신 됩니다.<li>사용자가 비즈니스용 Skype Online에 있고 Microsoft 전화 시스템을 사용 하는 경우, 사용자는 항상 비즈니스용 Skype에서 PSTN 통화를 시작 하 고 받습니다.<ul><li>이 작업은 사용자에 게 Microsoft 호출 계획이 있는지 여부에 관계 없이 또는 비즈니스용 skype 클라우드 커넥터 에디션을 통해 PSTN 네트워크에 연결 하거나 비즈니스용 Skype 서버 (하이브리드 voice)의 온-프레미스 배포를 통해 수행 됩니다.<li>**참고: Microsoft 팀 전화 시스템 다이렉트 라우팅은 군도 모드에서 지원 되지 않습니다.**</ul></ul><li>비즈니스용 Skype에서 Microsoft 통화 대기열 및 자동 전화 교환 전화 받기:<ul><li>통화 대기열 및 자동 전화 교환에 할당 된 전화 번호는 아일랜드 모드의 Microsoft 팀 전화 시스템 다이렉트 라우팅 번호로 사용할 **수 없습니다** .</ul></ul><li>팀 또는 비즈니스용 Skype에서 모임을 예약할 수 있습니다 (기본적으로 두 플러그 인이 표시 됨).<li>비즈니스용 Skype 또는 팀 모임에 참가할 수 있습니다. 모임이 해당 클라이언트에 열립니다.</ul>|
 |**SfBOnly**|사용자가 비즈니스용 Skype만 실행 합니다. 사용자:</br><ul><li>비즈니스용 Skype 에서만 채팅 및 통화를 시작할 수 있습니다.<li>개시자가 비즈니스용 Skype를 사용 하는 팀 사용자가 아닌 경우, 시작 위치에 관계 없이 비즈니스용 Skype 클라이언트에서 채팅/통화를 받습니다. *비즈니스용 skype 모임만 예약할 수 있지만 비즈니스용 skype 또는 팀 모임에 참가할 수 있습니다. <li> </br> *온-프레미스 사용자와의 아일랜드 모드는 SfBOnly 모드의 다른 사용자와 함께 사용 하지 않는 것이 좋습니다. 비즈니스용 Skype를 사용 하는 팀 사용자가 SfBOnly 사용자에 게 전화를 걸거나 채팅을 시작 하는 경우 SfBOnly 사용자에 게 연결할 수 없으며 부재 중 채팅/통화 이메일이 수신 됩니다. *|
 |**SfBWithTeamsCollab**|사용자가 비즈니스용 Skype와 팀을 함께 실행 합니다. 사용자:</br><ul><li>SfBOnly 모드에서 사용자의 기능을 사용 합니다.<li>팀에 그룹 공동 작업 (채널)만 사용 하도록 설정 되어 있습니다. 채팅/통화/모임 예약을 사용할 수 없습니다.</ul>|
 |**SfBWithTeamsCollab</br>andmeetings**|사용자가 비즈니스용 Skype와 팀을 함께 실행 합니다. 사용자:<ul><li>SfBOnly 모드에서 사용자의 채팅 및 통화 기능을 사용 합니다.<li>그룹 공동 작업에 사용할 수 있는 팀 (채널 대화 포함)이 있습니다. 채팅 및 통화는 사용할 수 없습니다.<li>팀 모임만 예약할 수 있지만 비즈니스용 Skype 또는 팀 모임에 참가할 수 있습니다.</ul>|
@@ -174,11 +174,11 @@ TeamsUpgradePolicy는 들어오는 페더레이션된 채팅 및 통화에 대 �
 
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[비즈니스용 Skype와 공존](https://docs.microsoft.com/en-us/microsoftteams/coexistence-chat-calls-presence)
+[비즈니스용 Skype와 공존](https://docs.microsoft.com/microsoftteams/coexistence-chat-calls-presence)
 
-[팀 클라이언트 환경 및 공존 모드 준수](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
+[Teams 클라이언트 환경 및 공존 모드 준수](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
 
 [Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 

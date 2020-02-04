@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: 장치 업데이트 웹 서비스에서는 장치 업데이트 작업을 기록하는 로그 파일이 자동으로 만들어집니다. 조직의 데이터 관리 전략의 일부로 로그 데이터 캐시 크기, 로그 파일 크기 또는 로그 파일을 제거 하기 전에 보관 하는 시간에 대 한 임계값을 설정 하는 것이 좋습니다. 조직의 요구 사항에 따라 이러한 설정을 변경할 수 있습니다. 장치 업데이트 웹 서비스에서 로그 파일을 자동으로 삭제하지 않도록 하려면 필요에 따라 로그 파일을 수동으로 삭제할 수 있습니다. 로그 설정은 전역적으로 또는 사이트별로 변경할 수 있습니다.
-ms.openlocfilehash: 7c4f532af6e74f8ef13b3b2de17017b66afc0b59
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d726b1daa8dece14d645501130c988690b30cd17
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197127"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705183"
 ---
 # <a name="device-log-configuration"></a>장치 로그 구성
 

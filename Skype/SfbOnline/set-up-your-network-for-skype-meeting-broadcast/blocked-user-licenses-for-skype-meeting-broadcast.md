@@ -1,5 +1,5 @@
 ---
-title: Skype 모임 브로드캐스트에 대 한 차단 된 사용자 라이선스
+title: Skype 모임 브로드캐스트의 차단된 사용자 라이선스
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - SMB
 description: 불행 하 게도 사용자가 Skype 모임 브로드캐스트를 사용 하 고 싶은 https://broadcast.skype.com 경우에는 특정 사용자 라이선스가 차단 됩니다. 사용자에 게이 메시지가 표시 되 면 차단 된 라이선스 중 하나가 할당 된 것입니다. 해당 앱을 계속 사용 하려면 다른 Office 365 라이선스를 할당 합니다.
-ms.openlocfilehash: 52e6936e0dd91c896d0eea397f6352ab3b453c64
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a1284cbb6126a0a6d31ab64942f04f9e40c04fe6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642309"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706143"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트 호스팅에 대 한 차단 된 사용자 라이선스
 
@@ -58,11 +59,11 @@ ms.locfileid: "37642309"
 - Microsoft 365 A1 학생 사용 혜택
 
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Windows PowerShell 및 Lync Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)
   
-[비즈니스용 Skype Online 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[비즈니스용 Skype 온라인 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
  

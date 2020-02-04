@@ -16,17 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 국가 및 지역에 전화 접속 회의 번호와 자동으로 할당 되는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1e988db094b6d49f8fb8da548f6d71b3607975e2
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 32eeebf54fbb9e6ab75ca0e43734f64b1d811c10
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "37642388"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707163"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의를 위한 전화 번호
 
@@ -36,7 +37,7 @@ ms.locfileid: "37642388"
 비즈니스용 Skype에 대 한 **오디오 회의** 를 설정 하는 경우 전화 접속 전화 번호가 조직에 자동으로 할당 됩니다. **비즈니스용 Skype 관리 센터** > **오디오 회의** > **Microsoft bridge**로 이동해 서 오디오 회의 브리지에 지정 된 전화 번호를 볼 수 있습니다. [오디오 회의 번호 목록 보기를](see-a-list-of-audio-conferencing-numbers.md)참조 하세요.
   
 > [!NOTE]
-> 오디오 회의에 대 한 모든 전화 접속 번호 목록이 포함 된 리소스가 없습니다. 해당 지역 또는 국가/지역에서 전화 접속 전화 번호를 사용할 수 있는지 확인 하려면 **비즈니스용 Skype 관리 센터** > **음성** > **전화 번호**를 사용 하 고 **추가**를 클릭 한 다음 **새 서비스를 클릭 합니다. 번호**. **국가/지역**, **시/지역**, **구/군/시** 목록을 사용 하 여 검색을 필터링 합니다. 또한 무료 서비스 번호를 찾고 있는 경우에는 **상태/지역** 목록에서 무료 **통화** 를 선택 합니다.
+> 오디오 회의에 대 한 모든 전화 접속 번호 목록이 포함 된 리소스가 없습니다. 해당 지역 또는 국가/지역에서 전화 접속 전화 번호를 사용할 수 있는지 확인 하려면 **비즈니스용 Skype 관리 센터** > **음성** > **전화 번호**를 사용 하 고 **추가**를 클릭 한 다음 **새 서비스 번호**를 클릭 합니다. **국가/지역**, **시/지역**, **구/군/시** 목록을 사용 하 여 검색을 필터링 합니다. 또한 무료 서비스 번호를 찾고 있는 경우에는 **상태/지역** 목록에서 무료 **통화** 를 선택 합니다.
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>오디오 회의 적용 범위 및 가격
 
@@ -86,6 +87,6 @@ ms.locfileid: "37642388"
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

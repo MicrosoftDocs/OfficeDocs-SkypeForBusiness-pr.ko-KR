@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 캐나다에서 Microsoft 팀 용 전화 번호를 받고 관리 하는 방법에 대 한 정보를 확인 하세요.
-ms.openlocfilehash: b41dc8716973e98ddde6347e833054de94ed28a2
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 317de783786d6485d14ede960c9c1811fa69e794
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925479"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707073"
 ---
 # <a name="phone-number-management-for-canada"></a>캐나다의 전화 번호 관리
 
@@ -41,11 +42,11 @@ ms.locfileid: "37925479"
 |사용자의 번호를 서비스 번호로 변경 합니다.  <br/>                                 | PIN과 서비스 번호로 변환할 사용자 번호의 목록을 [보내 주십시오](mailto:ptn@microsoft.com) . PIN을 설정 하려면 [여기](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)를 방문 하세요.  <br/> |
 |한 Office 365 조직에서 다른 컴퓨터로 번호를 전송 합니다.  <br/>               | 해당 번호를 전송할 원본 조직의 핀과 함께 전송 하려는 사용자 (구독자) 전화 번호 목록을 [보내 주십시오](mailto:ptn@microsoft.com) . PIN을 설정 하려면 [여기](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)를 방문 하세요.  <br/> |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)(조직의 전화 번호 관리)
+[조직의 전화 번호 관리](manage-phone-numbers-for-your-organization.md)
 
 [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
 

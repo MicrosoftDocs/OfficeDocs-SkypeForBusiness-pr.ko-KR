@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.DisasterRecovery
 - ms.lync.plan.DisasterRecovery
 ms.prod: skype-for-business-itpro
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 비즈니스용 Skype Server에는 두 데이터 센터에 있는 프런트 엔드 풀을 연결할 수 있도록 하 여 재해 복구 수단이 포함 됩니다.
-ms.openlocfilehash: be4bbcce1f746d1e28e8753e3f89d66fea9ff524
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 91cb0a3f7776b96d5d2b3ea3017a87b88627d1fb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189294"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703713"
 ---
 # <a name="disaster-recovery-planning-tool"></a>재난 복구 (계획 도구)
  

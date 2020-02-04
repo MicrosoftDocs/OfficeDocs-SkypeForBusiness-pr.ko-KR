@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatConfigMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 서버 구축은 많은 동시 영구 채팅방을 호스트할 수 있습니다. 채팅방은 서버에서 범주 집합으로 구성할 수 있습니다. 각 채팅방은 한 범주에 속하며 해당 범주의 일부 설정을 상속합니다. 이러한 구성은 비즈니스 목적에 따라 대화를 식별하는 데 유용한 구조를 만들며 위임된 관리 및 간소화된 관리를 용이하게 합니다.
-ms.openlocfilehash: 65090811f2f003d1e157606d62f26fa9ea164c51
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 571a985a7a0b885b1450429ac7060ddd825d5edd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197871"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704414"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>영구 채팅 구성 기본 페이지
 

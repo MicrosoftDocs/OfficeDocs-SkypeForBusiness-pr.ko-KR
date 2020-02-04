@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business Online
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Security
 description: 비즈니스용 Skype Online에 대 한 보안 가이드<add description>
-ms.openlocfilehash: 8fb0ef5322af99e3868a64be4101cf898918c449
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 268a9859439ca91b5ad7cd8d5e32edf707860cde
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642399"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706813"
 ---
 # <a name="security-and-skype-for-business-online"></a>보안 및 비즈니스용 Skype Online
 
@@ -168,7 +169,7 @@ SfBO는 TLS 및 MTLS를 사용 하 여 인스턴트 메시지를 암호화 합�
 |**트래픽 유형**|**보호**|
 |서버 간|MTLS|
 |클라이언트에서 서버로|PEAP-TLS|
-|인스턴트 메시지 및 현재 상태|TLS (TLS 용으로 구성 된 경우)|
+|인스턴트 메시징 및 현재 상태|TLS (TLS 용으로 구성 된 경우)|
 |미디어의 오디오 및 비디오 및 데스크톱 공유|SRTP|
 |데스크톱 공유 (신호)|PEAP-TLS|
 |웹 회의|PEAP-TLS|
@@ -289,6 +290,6 @@ SfBO에서 익명 사용자는 대기실 라고 하는 대기 영역으로 전�
 - ****&nbsp;&nbsp;모든 사람에 게 소속 된 모든 사람을 포함 하 여 모든 사용자가 모임에 참가 하는 것을 제한 없이 볼 수 있습니다.
 - ****&nbsp;&nbsp;모임 이끌이를 선택 하는 사용자는 발표자 목록에 추가 하 여 발표할 수 있는 사용자를 지정 합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [Microsoft 보안 센터](https://microsoft.com/trustcenter)
 

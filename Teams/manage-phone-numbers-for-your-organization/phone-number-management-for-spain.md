@@ -1,5 +1,5 @@
 ---
-title: 스페인 용 전화 번호 관리
+title: 스페인의 전화 번호 관리
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,18 +16,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 스페인에서 Microsoft 팀을 위한 전화 번호를 받고 관리 하는 방법에 대 한 정보를 확인 하세요.
-ms.openlocfilehash: 2b9d3ffd046d58131ebf1cae91ad45482a45fe0a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a3fa21b37f3371c82c94603301035bd20b175adb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571970"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706973"
 ---
-# <a name="phone-number-management-for-spain"></a>스페인 용 전화 번호 관리
+# <a name="phone-number-management-for-spain"></a>스페인의 전화 번호 관리
 
 이 표를 사용 하 여 스페인에서 Microsoft 팀을 위한 전화 번호를 받고 관리 하는 방법에 대 한 정보를 확인 하세요. 
   
@@ -40,13 +41,13 @@ ms.locfileid: "37571970"
 |국가 전화 번호부에 전화 번호를 게시 하거나 게시 취소 합니다.  <br/> |게시/게시 취소 하려는 전화 번호 목록을 [보내 주십시오](mailto:ptneu@microsoft.com) . <br/> |
 |사용자의 번호를 서비스 번호로 변경 합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록을 [보내 주십시오](mailto:ptneu@microsoft.com) . <br/> |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization.md)
 
-[비상 통화 약관](../emergency-calling-terms-and-conditions.md)
+[긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
   
 [비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
  

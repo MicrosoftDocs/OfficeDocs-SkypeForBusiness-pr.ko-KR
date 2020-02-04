@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeploySchemaPrepInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 ROBOTS: NOINDEX, NOFOLLOW
 description: 실행 명령 페이지에는 비즈니스용 Skype 서버의 스키마를 확장 하기 위해 발급 된 명령의 요약이 표시 됩니다.
-ms.openlocfilehash: 2aaf6463a671cb8e02b9dde85daf7ba05d29cc27
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 230e606c8ee574052fd351fa3b25525d5f11856f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190974"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705333"
 ---
 # <a name="prepare-schema-invoke"></a>스키마 준비(호출)
  

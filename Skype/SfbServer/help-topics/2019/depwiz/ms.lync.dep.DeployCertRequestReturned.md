@@ -1,26 +1,26 @@
 ---
-title: 인증서 요청 (반환 됨)
+title: 인증서 요청(반환됨)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertRequestReturned
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 온라인 인증서 요청 상태 페이지에는 온라인 인증서 요청을 성공적으로 만들고 발급 한 결과로 발생 하는 중요 한 정보가 표시 됩니다. 이 페이지에서는 인증서를 고유 하 게 식별 하는 인증서 지문을 제공 합니다. 기본적으로이 인증서를 비즈니스용 Skype 서버 인증서 용도에 할당 확인란을 선택 합니다. 마침을 클릭 하면 인증서 요청의 생성 단계 중에 정의한 목적으로 해당 인증서가 비즈니스용 Skype 서버에 자동으로 할당 됩니다. 기본적으로 인증서가 할당 되는 용도는 다음과 같습니다.
-ms.openlocfilehash: 02d114ff55360f3e88a866485759510ce5f107c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0afc23baacc3430edaf1868e9fbe22e2e04455d7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188094"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705613"
 ---
-# <a name="certificate-request-returned"></a>인증서 요청 (반환 됨)
+# <a name="certificate-request-returned"></a>인증서 요청(반환됨)
  
 온라인 인증서 **요청 상태** 페이지에는 온라인 인증서 요청을 성공적으로 만들고 발급 한 결과로 발생 하는 중요 한 정보가 표시 됩니다. 이 페이지에서는 인증서를 고유 하 게 식별 하는 인증서 지문을 제공 합니다. 기본적으로이 인증서를 비즈니스용 **Skype 서버 인증서 용도에 할당** 확인란을 선택 합니다. **마침을**클릭 하면 인증서 요청의 생성 단계 중에 정의한 목적으로 해당 인증서가 비즈니스용 Skype 서버에 자동으로 할당 됩니다. 기본적으로 인증서가 할당 되는 용도는 다음과 같습니다.
   

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 보관 구성을 사용 하 여 다음 옵션을 사용 하거나 사용 하지 않도록 설정 하는 것을 포함 하 여 비즈니스용 Skype 서버 배포에 대 한 보관 옵션을 제어 합니다.
-ms.openlocfilehash: 8c585d2a5816f2d29b3f468fd48fa82c36254d5f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1222e5e4c848f7ce0f3ca05943aa5b5acf4d365a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192147"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704703"
 ---
 # <a name="archiving-configuration"></a>보관 구성
  
@@ -66,5 +66,5 @@ ms.locfileid: "36192147"
     
 - **새로 고침** **보관 구성** 페이지를 새로 고쳐 모든 보관 구성의 옵션 상태를 확인할 수 있습니다.
     
-Exchange 통합을 포함 하 여 보관 기능 및 기능에 대 한 자세한 내용은 비즈니스용 skype [서버에서 보관 계획](../../../plan-your-deployment/archiving/archiving.md), 비즈니스용 [skype server 용 보관 배포](../../../deploy/deploy-archiving/deploy-archiving.md)및 비즈니스용 [skype에서 보관 관리를 참조 하세요. 서버](../../../manage/archiving/archiving.md).
+Exchange 통합을 포함 하 여 보관 기능 및 기능에 대 한 자세한 내용은 비즈니스용 [Skype 서버에서 보관 계획](../../../plan-your-deployment/archiving/archiving.md), 비즈니스용 [skype server 용 보관 배포](../../../deploy/deploy-archiving/deploy-archiving.md)및 비즈니스용 [skype 서버에서 보관 관리](../../../manage/archiving/archiving.md)를 참조 하세요.
 

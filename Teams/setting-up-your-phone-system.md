@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: '조직의 전화 시스템 (클라우드 PBX)을 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: d4d8927e2abda35ff8cb3346218cb3c4cda9c049
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 8c2b65bf1a9b209ca64d2a8b915f04cfc9669971
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628404"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706883"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>조직에서 전화 시스템 설정
 
@@ -139,7 +140,7 @@ Microsoft 팀에 무료 전화 번호를 사용 하려면 통신 크레딧을 �
 통신 크레딧 청구를 설정 하지 않고 사용자에 게 **통신 크레딧** 라이선스를 할당 하지 않으면 해당 국가/지역의 통화 요금제 또는 오디오 회의 요금제에 따라 해당 사용자가 오디오 회의 모임에서 통화 하거나 전화를 걸 수 없습니다. 권장 자금 액수를 포함 하 여 자세한 내용은 [통신 크레딧을 소개](what-are-communications-credits.md) 하 고 [조직의 통신 크레딧을 설정](set-up-communications-credits-for-your-organization.md)하세요.
   
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](here-s-what-you-get-with-phone-system.md)
 
 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)

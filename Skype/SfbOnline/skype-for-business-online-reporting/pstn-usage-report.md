@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: 새로운 비즈니스용 Skype 관리 센터 보고서 영역에 조직의 통화 및 오디오 회의 활동이 표시 됩니다. 이 기능을 사용 하면 보고서를 자세히 분석 하 여 각 사용자의 활동에 대 한 세부적인 통찰력을 제공할 수 있습니다. 예를 들어 비즈니스용 Skype PSTN 사용 정보 보고서를 사용 하 여 인바운드/아웃 바운드 통화와 이러한 통화 비용에 소요 된 시간을 확인할 수 있습니다. 통화 비용을 포함 하 여 오디오 회의 PSTN 사용 정보를 보고, 사용 현황 및 통화 대금 청구 세부 정보를 파악 하 여 조직 내 사용량을 확인할 수 있습니다.
-ms.openlocfilehash: 8f1818a3c80f04676c9e39f424737c3f10cd57e7
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: b76bd2f752b03e59143162261b37f311f1b38b64
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111452"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706053"
 ---
 # <a name="pstn-usage-report"></a>PSTN 사용 현황 보고서
 
@@ -124,7 +125,7 @@ ms.locfileid: "41111452"
 
 - [비즈니스용 Skype 세션 정보 보고서](session-details-report.md) 개인 사용자의 통화 환경에 대 한 세부 정보를 확인할 수 있습니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   

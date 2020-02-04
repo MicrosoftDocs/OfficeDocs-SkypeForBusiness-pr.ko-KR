@@ -1,26 +1,26 @@
 ---
-title: 프론트 엔드 모니터링 스토어 페이지 추가
+title: 프론트 엔드 모니터링 저장소 페이지 추가
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndMonitoringStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 속성을 구성 하 여 모니터링 SQL Server 저장소를 정의 합니다.
-ms.openlocfilehash: 3749a780e63ced4c8fb06499709198885b2bbb1a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e9d26322fa9f3844864f9645e4dcefbccdddecd3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196928"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702863"
 ---
-# <a name="add-front-end-monitoring-store-page"></a>프론트 엔드 모니터링 스토어 페이지 추가
+# <a name="add-front-end-monitoring-store-page"></a>프론트 엔드 모니터링 저장소 페이지 추가
  
 다음 속성을 구성 하 여 **모니터링 SQL Server 저장소를 정의 합니다** .
   

@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.EnterpriseVoice
 - ms.lync.plan.EnterpriseVoice
 ms.prod: skype-for-business-itpro
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
 description: 엔터프라이즈 음성을 사용 하는 비즈니스용 Skype 서버는 기존 PBX (사설 branch exchange) 시스템을 개선 하거나 대체 하기 위해 VoIP (독립 실행형 Voice over 인터넷 프로토콜)를 제공 합니다.
-ms.openlocfilehash: 5563a44cb4fd306c440e5cc4777c06974d17307e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: aff5644f3710d5e0053bd81e3bee49ba936d14ff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191040"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703773"
 ---
 # <a name="enterprise-voice-planning-tool"></a>엔터프라이즈 음성 (계획 도구)
  

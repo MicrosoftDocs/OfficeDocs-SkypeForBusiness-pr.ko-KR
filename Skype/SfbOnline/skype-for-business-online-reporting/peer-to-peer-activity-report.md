@@ -1,5 +1,5 @@
 ---
-title: 피어 투 피어 활동 보고서
+title: 피어-투-피어 활동 보고서
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,21 +14,21 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365E_ReportsS4BPeerActivity
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 ms.custom:
 - Reporting
 description: '비즈니스용 Skype 피어 투 피어 활동 보고서를 다운로드 하 여 필요에 맞게 해석 하 고 사용자 지정 하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: 1c25fc6d331e538aacbebd350180ec0a65821ef5
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: 5697b57139007d9bf9f5be1ec5a1bd5c8879ca48
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746341"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706043"
 ---
-# <a name="peer-to-peer-activity-report"></a>피어 투 피어 활동 보고서
+# <a name="peer-to-peer-activity-report"></a>피어-투-피어 활동 보고서
 
 새 Office 365 **보고서** 대시보드는 조직의 Office 365 제품 전반에 걸친 활동 개요를 보여 줍니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 **비즈니스용 Skype 피어 투 피어 활동** 보고서를 사용 하 여 사용자 들이 메신저 대화, 오디오, 비디오, 응용 프로그램 공유, 파일 전송 중 어느 것을 사용 하 고 있는지 확인할 수 있습니다. 
 
@@ -112,7 +112,7 @@ ms.locfileid: "38746341"
 
 - [비즈니스용 Skype 세션 정보 보고서](session-details-report.md) 개인 사용자의 통화 환경에 대 한 세부 정보를 확인할 수 있습니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

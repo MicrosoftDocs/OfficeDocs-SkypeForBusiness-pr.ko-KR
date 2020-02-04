@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatOptionsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 속성을 정의 하 여 영구 채팅 서버 또는 영구 채팅 서버 풀에 대 한 옵션을 구성 합니다.
-ms.openlocfilehash: 64b4e35e239c10a7aa3fc961f23fcdb9c5dca06a
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: f80e5c217d102c48d6ddee60fdfcb6b69c7cfb58
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197921"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702753"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>영구 채팅 풀에 대한 속성 및 옵션 정의
 

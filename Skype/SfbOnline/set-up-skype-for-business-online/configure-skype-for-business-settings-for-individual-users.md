@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1_keywords:
+f1.keywords:
 - ms.lync.lac.UsersExternalAccess
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
@@ -22,12 +22,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '오디오 및 비디오 회의, 통화 기록, 모임 기록과 같은 개별 사용자의 비즈니스용 Skype 설정을 변경 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 8fa6af4099238f9ab908de2ea8c37340f93c3dff
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a384acdadb6ca4df621d45abdde4157df2029619
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "37642187"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706513"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>관리자: 개별 사용자에 대해 비즈니스용 Skype 설정을 구성 합니다.
 
@@ -107,9 +107,9 @@ ms.locfileid: "37642187"
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
   
    
-## <a name="related-topics"></a>관련 항목 
+## <a name="related-topics"></a>관련 주제 
 
-[비즈니스용 Skype Online 설정](set-up-skype-for-business-online.md)
+[비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 및 Microsoft 팀 추가 기능 라이선스](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   

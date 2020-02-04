@@ -1,26 +1,26 @@
 ---
-title: 새 IP 또는 PSTN 게이트웨이에 대 한 루트 트렁크 정의
+title: 새 IP 또는 PSTN 게이트웨이의 루트 트렁크 정의
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPstnGatewayTrunkPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음을 구성 하 여 IP 또는 PSTN (공개 교환 전화 네트워크)에 대 한 루트 트렁크를 정의 합니다.
-ms.openlocfilehash: f3efc7d30d011f4d1a1be9742d01ab4e875dc6c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5332fdaab9efd3eb7c7587c390e5d3cee0af4d1d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189513"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702683"
 ---
-# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>새 IP 또는 PSTN 게이트웨이에 대 한 루트 트렁크 정의
+# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>새 IP 또는 PSTN 게이트웨이의 루트 트렁크 정의
 
 다음을 구성 하 여 IP 또는 PSTN (공개 교환 전화 네트워크)에 대 한 루트 트렁크를 정의 합니다.
 

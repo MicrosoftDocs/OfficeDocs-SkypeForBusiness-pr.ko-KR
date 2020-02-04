@@ -6,21 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceFeaVacantNumEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: 지정되지 않은 번호란 조직에 대해 유효하기는 하지만 사용자나 전화에 지정되지 않은 전화 번호입니다. 지정되지 않은 번호 테이블에는 지정되지 않은 번호에 대한 통화를 처리할 방법이 나와 있습니다.
-ms.openlocfilehash: 05b0d3efe383f2056ed49be7d8ebb811643cd02d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 51b66f7b3fffaf647970cb29b300b75460b0adce
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191670"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703913"
 ---
-# <a name="unassigned-phone-number-create-new-or-edit-existing"></a>지정 되지 않은 전화 번호: 새로 만들기 또는 기존 편집
+# <a name="unassigned-phone-number-create-new-or-edit-existing"></a>미지정 전화 번호: 새로 만들기 또는 기존 항목 편집
 
 > [!NOTE]
 > Exchange UM은 비즈니스용 Skype 2019을 Exchange 2013 또는 Exchange 2016와 통합할 때 비즈니스용 Skype 서버 2019에서 계속 사용할 수 있습니다. Exchange 2019에서 지원 되는 변경 사항으로 인해 클라우드 보이스 메일과 클라우드 자동 전화 교환 기능 때문에 Exchange UM 통합이 더욱 강조 됩니다.

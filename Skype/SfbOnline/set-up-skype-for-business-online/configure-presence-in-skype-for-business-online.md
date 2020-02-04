@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365P_OnlinePresenceDesc
 ms.custom:
 - Setup
 description: '동료의 가용성을 확인할 수 있도록 비즈니스용 Skype를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: ba6ff112eee78e6e70b435b19caa62187a98afcf
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 7e0389d232d1b05a39827ed89e82acb6aa35a82a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642656"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706523"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 현재 상태 구성
 
@@ -53,10 +53,10 @@ ms.locfileid: "37642656"
 
 - [비즈니스용 Skype에서 상태 옵션 설정](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[비즈니스용 Skype Online 설정](set-up-skype-for-business-online.md)
+[비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
-[비즈니스용 Skype 사용자가 Skype 연락처를 추가 하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
+[비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
 
 

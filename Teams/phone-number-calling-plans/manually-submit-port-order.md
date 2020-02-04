@@ -1,5 +1,5 @@
 ---
-title: 수동으로 포트 순서 제출
+title: 포트 주문 수동 제출
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -13,18 +13,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ''
+f1.keywords: ''
 ms.custom:
 - Calling Plans
 description: 포트 주문 요청을 수동으로 제출 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 90864afc9923f6977dfcfc9376d1191b740f242a
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 6844865159da4df084bb8ecfb5d324b19fbfebb5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925685"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708744"
 ---
-# <a name="manually-submit-a-port-order"></a>수동으로 포트 순서 제출
+# <a name="manually-submit-a-port-order"></a>포트 주문 수동 제출
 
 일부 국가 및 지역에서는 전화 번호를 얻기 위해 서비스 요청을 수동으로 제출 하거나 전화 번호를 전송 하거나 전화 번호를 해제 하거나 주소를 변경 해야 할 수 있습니다. 각 국가 및 지역에 필요한 항목을 확인 하거나 번호 포팅에 대해 자세히 알아보려면 [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요.
 
@@ -58,10 +58,10 @@ Microsoft 365 관리 센터에서 서비스 요청을 만들거나, 완성 된 �
     
 - 각 사용자에 게 부여할 새 전화 번호를 할당 해야 합니다. [사용자의 전화 번호 지정, 변경 또는 제거를](../assign-change-or-remove-a-phone-number-for-a-user.md)참조 하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-- [포트 순서는 무엇 인가요?](port-order-overview.md)
+- [포트 순서](port-order-overview.md)
 - [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)(조직의 전화 번호 관리)
+- [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
 - [비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

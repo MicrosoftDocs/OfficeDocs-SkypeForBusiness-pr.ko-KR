@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 올바른 펌웨어를 얻고, 필요한 경우 업데이트 하 고, 라이선스를 할당 하 고, 비즈니스용 Skype online 휴대폰용 설정을 구성 하는 배포 단계를 알아보세요.
-ms.openlocfilehash: 10562165547a27bb8a2903e7f11f3c547cca1b1e
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 5eda8c9e21ed93b09b9033c5b70bb359894330f7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628384"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705813"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>비즈니스용 Skype Online 휴대폰 배포
 
@@ -218,7 +219,7 @@ BToE는 두 가지 모드 ( *자동* (기본값)와 *수동* )에서 작동 하�
 > [!NOTE]
 > BToE는 현재 Mac 및 VDI 플랫폼에서 지원 되지 않습니다. 
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

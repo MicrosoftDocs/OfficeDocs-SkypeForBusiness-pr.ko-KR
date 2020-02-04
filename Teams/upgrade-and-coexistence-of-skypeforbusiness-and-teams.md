@@ -11,7 +11,7 @@ description: '비즈니스용 Skype 및 Microsoft 팀 공존 옵션 및 모드�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
 - ms.teamsadmincenter.upgradeoverride.learnmore
 ms.collection:
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5de243402cd5694b2e4a498f7ff7650cd8f49f4a
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: 6d9f4583e3ea15a073e0dbbebbebaee9db64678d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931646"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707533"
 ---
 ![프로젝트 정의 단계를 강조 하 여 여행 다이어그램 업그레이드](media/upgrade-banner-project-definition.png "프로젝트 정의 단계에 대 한 강조를 사용 하 여 업그레이드 여행 단계")
 
@@ -99,9 +99,9 @@ TeamsOnly의 관점에서 새 대화를 사용 하는 경우, 채팅 또는 통�
 
 | 팀 환경 | 아일랜드 모드 | TeamsOnly 모드 |
 |:------------------ | :------------------- | :------------------ |
-| 수신 되는 채팅 및 통화:|  비즈니스를 위한 팀 또는 비즈니스용 Skype | 성과 |
-| 다음에 수신 된 PSTN 통화: | 비즈니스용 Skype <br>(팀에서 PSTN 기능 사용은 군도 모드에서 지원 되지 않습니다.)    | 성과 |   
- |늘어  | 비즈니스용 Skype와 팀의 현재 상태는 독립적입니다. 사용자는 사용 하는 클라이언트에 따라 동일한 제도 사용자에 대해 다른 상태가 표시 될 수 있습니다. | 현재 상태는 팀의 사용자 활동만을 기반으로 합니다. 사용 하는 클라이언트에 관계 없이 다른 모든 사용자가 현재 상태를 볼 수 있습니다. | 
+| 수신 되는 채팅 및 통화:|  비즈니스를 위한 팀 또는 비즈니스용 Skype | Teams |
+| 다음에 수신 된 PSTN 통화: | 비즈니스용 Skype <br>(팀에서 PSTN 기능 사용은 군도 모드에서 지원 되지 않습니다.)    | Teams |   
+ |현재 상태  | 비즈니스용 Skype와 팀의 현재 상태는 독립적입니다. 사용자는 사용 하는 클라이언트에 따라 동일한 제도 사용자에 대해 다른 상태가 표시 될 수 있습니다. | 현재 상태는 팀의 사용자 활동만을 기반으로 합니다. 사용 하는 클라이언트에 관계 없이 다른 모든 사용자가 현재 상태를 볼 수 있습니다. | 
  | 모임 예약   | 사용자는 팀 또는 비즈니스용 Skype에서 모임을 예약할 수 있습니다. Outlook에서 두 추가 기능을 모두 볼 수 있습니다. |   사용자는 팀 에서만 모임을 예약할 수 있습니다. Outlook에서는 팀 추가 기능만 사용할 수 있습니다. | 
 
 다음 표에는 조직에서 팀으로 마이그레이션하는 데 겹치는 기능 방법을 사용할 때의 장단점을 요약 하 여 설명 합니다.
@@ -143,10 +143,10 @@ TeamsOnly의 관점에서 새 대화를 사용 하는 경우, 채팅 또는 통�
 
 |팀 환경  |SfBWithTeamsCollab 모드 |SfBWithTeamsCollabAndMeetings 모드 |TeamsOnly 모드  |
 |---------|---------|---------|---------|
-|조직의 사용자가 수신 하는 수신 채팅 및 VOIP 통화는 다음과 같습니다.     | 비즈니스용 Skype        | 비즈니스용 Skype       | 성과        |
-|다음에 수신 된 PSTN 통화:     | 비즈니스용 Skype        |비즈니스용 Skype         | 성과        |
-|늘어     | 비즈니스용 Skype        |비즈니스용 Skype         | 성과        |
-|모임 예약     | 비즈니스용 Skype         | 성과        | 성과        |
+|조직의 사용자가 수신 하는 수신 채팅 및 VOIP 통화는 다음과 같습니다.     | 비즈니스용 Skype        | 비즈니스용 Skype       | Teams        |
+|다음에 수신 된 PSTN 통화:     | 비즈니스용 Skype        |비즈니스용 Skype         | Teams        |
+|현재 상태     | 비즈니스용 Skype        |비즈니스용 Skype         | Teams        |
+|모임 예약     | 비즈니스용 Skype         | Teams        | Teams        |
 
 
 다음 표에는 비즈니스용 Skype 모드를 팀의 유일한 모드에 대 한 전환 단계로 사용할 때의 장단점을 요약 하 여 설명 합니다.

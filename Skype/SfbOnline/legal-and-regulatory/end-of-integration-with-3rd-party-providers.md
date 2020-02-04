@@ -14,17 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 2021 년 7 월 31 일에 최신 프로그램 종료는 타사 오디오 회의 공급자 (타사 ACP)와 함께 비즈니스용 Skype 통합에 대해 마무리 됩니다.
-ms.openlocfilehash: f5d821b1dbb71fb2b1371230a6d7575d6fb70fe8
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: b9bd1640d615babab29a073aeeee2b1beb92fc02
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "37642472"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706693"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>타사 오디오 회의 공급자와 비즈니스용 Skype 통합을 위한 수명 프로그램 종료 
 

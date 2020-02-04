@@ -15,19 +15,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 조직에서 팀 정책을 사용 하 고 관리 하 여 팀과 채널에서 사용자가 수행할 수 있는 작업을 제어 하는 방법에 대해 알아봅니다.
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discoverteams
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.createchannels
 - ms.teamsadmincenter.teams.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: cd107de8b253ca2c5adfe1b23ed8484f152a5f5e
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 81192f405563c3f7eb023050745d68fcd4c067f9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962986"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708324"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft 팀에서 팀 정책 관리
 
@@ -102,7 +102,7 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing T
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Teams에서 비공개 팀의 검색 관리](manage-discovery-of-private-teams.md)
 - [팀의 비공개 채널](private-channels.md)

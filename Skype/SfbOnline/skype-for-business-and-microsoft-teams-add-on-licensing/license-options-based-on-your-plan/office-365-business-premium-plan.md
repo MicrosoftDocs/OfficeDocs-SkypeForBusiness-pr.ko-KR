@@ -15,17 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Office 365 Business Premium 요금제에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 0e1c5ebe64c105e15485c0722920ec1437d05b27
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 9ffc251fafb9c1304f78d215a2b5c26d17ae9aae
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642157"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706113"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 

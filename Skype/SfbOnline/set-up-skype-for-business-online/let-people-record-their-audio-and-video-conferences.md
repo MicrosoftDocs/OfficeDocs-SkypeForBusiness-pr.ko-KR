@@ -1,5 +1,5 @@
 ---
-title: 사람들이 오디오 및 비디오 회의를 기록할 수 있도록 허용
+title: 사용자가 음성 및 비디오 회의를 녹음/녹화하도록 허용
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365P_RecordingDesc
 ms.custom:
 - Setup
 description: '오디오 및 비디오 회의 녹화를 설정 하 고 녹화에 포함 되어 있지 않은 내용에 대해 알아봅니다. '
-ms.openlocfilehash: a7bb57fa4fe0124a4e2d6afb262fd298cb29e419
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 551e7d748a849ae945226b4aa1ef1640e3163da0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642569"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706493"
 ---
-# <a name="let-people-record-their-audio-and-video-conferences"></a>사람들이 오디오 및 비디오 회의를 기록할 수 있도록 허용
+# <a name="let-people-record-their-audio-and-video-conferences"></a>사용자가 음성 및 비디오 회의를 녹음/녹화하도록 허용
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>단일 사용자 또는 조직의 모든 구성원에 대 한 기본 기록 설정 선택
 
@@ -46,10 +46,10 @@ ms.locfileid: "37642569"
    
 자세한 내용은 [lync 기록 저장 및 게시](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) 및 [lync 기록 관리자](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)를 참조 하세요. 
   
-## <a name="related-topics"></a>관련 항목
-[비즈니스용 Skype Online 설정](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>관련 주제
+[비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
-[비즈니스용 Skype 사용자가 Skype 연락처를 추가 하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
+[비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

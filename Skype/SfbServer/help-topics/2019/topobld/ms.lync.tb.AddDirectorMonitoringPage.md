@@ -1,26 +1,26 @@
 ---
-title: 디렉터 모니터링 추가
+title: Director 모니터링 추가
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddDirectorMonitoringPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음 속성을 구성 하 여 SQL Server 저장소 모니터링을 정의할 수 있습니다.
-ms.openlocfilehash: dd6381588580bb5761fdc727630b58d115921d9d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2a76c537912ae28513b1c9895b9e787de0e11eff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197601"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703203"
 ---
-# <a name="add-director-monitoring"></a>디렉터 모니터링 추가
+# <a name="add-director-monitoring"></a>Director 모니터링 추가
  
 다음 속성을 구성 하 여 **SQL Server 저장소 모니터링을 정의할** 수 있습니다.
   

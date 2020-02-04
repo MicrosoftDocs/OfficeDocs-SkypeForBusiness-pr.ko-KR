@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: Office 365에서 비즈니스용 Skype 관리자 및 사용자의 문제를 해결 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 06dd690aeaf01f19fe703e6d827cab49cfcf7031
-ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
+ms.openlocfilehash: ed520dd5292cf67d67255457f1555ba04c87be1e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "37642936"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706333"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>비즈니스용 Skype Online 문제 해결
 
@@ -83,9 +84,9 @@ ms.locfileid: "37642936"
 > [!NOTE]
 > 중국에서 21Vianet이 운영 하는 Office 365를 사용 중인 경우 [21vianet 지원 팀에 문의](https://go.microsoft.com/fwlink/p/?linkid=847978)하세요.
 
-## <a name="related-topics"></a>관련 항목
-[비즈니스용 Skype Online 설정](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>관련 주제
+[비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
-[비즈니스용 Skype 사용자가 Skype 연락처를 추가 하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
+[비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
 
 

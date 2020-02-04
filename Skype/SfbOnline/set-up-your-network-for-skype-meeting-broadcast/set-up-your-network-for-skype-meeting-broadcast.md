@@ -1,5 +1,5 @@
 ---
-title: Skype 모임 브로드캐스트를 위한 네트워크 설정
+title: Skype 모임 브로드캐스트의 네트워크 설정
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - SMB
 description: 최대 1만 참석자를 대상으로 하는 대규모 온라인 사용자에 게 모임 또는 이벤트를 예약, 생성, 브로드캐스트 하는 데 사용할 수 있는 비즈니스용 Skype Online의 Skype 모임 브로드캐스트 기능에 대해 알아봅니다.
-ms.openlocfilehash: 95ad00be416a53e6e861ce4e9f235bded8e8075a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 05e970e7859b361a4ec8c9656aedbe54f0de6f4f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990983"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706123"
 ---
-# <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트를 위한 네트워크 설정
+# <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트의 네트워크 설정
 
 [Skype 모임 브로드캐스트](enable-skype-meeting-broadcast.md) Skype 모임 브로드캐스트를 사용 하도록 설정한 후에는 네트워크를 구성 해야 합니다. 비즈니스 외부 사용자에 대 한 웹 세미나 진행 및 기타 브로드캐스트를 유지 하려는 경우이 단계를 수행 합니다.
 
@@ -95,7 +96,7 @@ ms.locfileid: "40990983"
 
 비즈니스용 Skype Online 조직이 있고 Lync Server 2010, Microsoft Lync Server 2013, 비즈니스용 Skype Server 2015 및 사용자가 온라인 및 온-프레미스를 모두 보유 하 고 있는 경우에는 다른 설치 단계가 필요 합니다. 온-프레미스 조직이 비즈니스용 Skype Online과 통신 하 고 모든 사용자가 Skype 모임 브로드캐스트에 참가할 수 있도록 하려면 위의 항목에 추가 하세요. 이러한 요구 사항을 보려면 [Skype 모임 브로드캐스트에 대 한 온-프레미스 배포 구성을](https://go.microsoft.com/fwlink/?LinkId=617070)참조 하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Skype 모임 브로드캐스트 사용](enable-skype-meeting-broadcast.md)
 

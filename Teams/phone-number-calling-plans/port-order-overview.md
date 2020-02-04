@@ -1,5 +1,5 @@
 ---
-title: 포트 순서는 무엇 인가요?
+title: 포트 순서
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,18 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
+f1.keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
 ms.custom:
 - Calling Plans
 description: 포트 주문에 대 한 개요와 서비스 공급자 로부터 팀으로 전화 번호를 전송 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4edaac3722e8fc37ca856b240171f923a0a99f66
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3f75acf8711838b159bacfe11169e500273eaf01
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925683"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708764"
 ---
-# <a name="whats-a-port-order"></a>포트 순서는 무엇 인가요?
+# <a name="whats-a-port-order"></a>포트 순서
 
 현재 전화 서비스 공급자 또는 통신 회사를 보유 하 고 있고 사용자 또는 서비스에 대 한 전화 번호가 이미 있는 경우 "*포트 순서*"를 만들어 해당 전화 번호를 Microsoft 팀으로 전송 해야 합니다. 번호를 받으면 오디오 회의 (회의 브리지 용), 자동 전화 교환, 통화 대기열 등의 사용자 및 서비스에 해당 전화 번호를 할당할 수 있습니다.
   
@@ -159,10 +159,10 @@ ms.locfileid: "37925683"
 
 - 서비스가 활성 상태 인지 확인 합니다. 계정을 고정 시키면 계정에 있는 캐리어가 변경 되지 않습니다. 계정을 변경할 권한이 있는 사람은 현재 통신 업체에 주문을 제출 해야 고정을 제거할 수 있습니다. 이 프로세스는 캐리어에 따라 1 ~ 3 주가 걸릴 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-- [포트 주문의 상태는 무엇 인가요?](port-order-status.md)
+- [포트 주문의 상태 확인](port-order-status.md)
 - [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)(조직의 전화 번호 관리)
+- [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
 - [비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

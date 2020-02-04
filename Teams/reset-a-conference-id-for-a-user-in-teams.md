@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft 팀에서 사용자의 모임 전화 회의 ID를 다시 설정 하는 단계와 모임 업데이트 및 마이그레이션 도구에 대 한 링크를 확인 하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: 894761811bfc9c353c7a145c83c7a201a587f1e2
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 42da4c52ed0e81cddb2ffa49b5a2f1a3eceee0f7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37568370"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707493"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Microsoft 팀에서 사용자에 대 한 전화 회의 ID 다시 설정
 
@@ -75,4 +76,4 @@ Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참�
     
 ## <a name="related-topics"></a>관련 주제
 
-[오디오 회의 PIN 다시 설정](reset-the-audio-conferencing-pin-in-teams.md)
+[오디오 회의 PIN 재설정](reset-the-audio-conferencing-pin-in-teams.md)

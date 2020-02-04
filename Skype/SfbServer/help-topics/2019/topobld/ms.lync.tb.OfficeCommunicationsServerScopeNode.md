@@ -1,26 +1,26 @@
 ---
-title: Office Communications Server Scope 노드
+title: Office Communications 서버 범위 노드
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.OfficeCommunicationsServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 문서는 예비 문서로, 변경 될 수 있습니다. 빈 항목은 개체 틀로 포함 됩니다.
-ms.openlocfilehash: 753a9a3a65d9aaf3815c126772a19d7bfeca8be6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a304d81cc08a3fde3fc24f779184c7545447b922
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191304"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701803"
 ---
-# <a name="office-communications-server-scope-node"></a>Office Communications Server Scope 노드
+# <a name="office-communications-server-scope-node"></a>Office Communications 서버 범위 노드
 
 이 문서는 예비 문서로, 변경 될 수 있습니다. 빈 항목은 개체 틀로 포함 됩니다.
 

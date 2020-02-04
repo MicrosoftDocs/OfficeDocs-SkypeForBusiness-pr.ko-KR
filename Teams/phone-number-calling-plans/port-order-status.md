@@ -1,5 +1,5 @@
 ---
-title: 포트 주문의 상태는 무엇 인가요?
+title: 포트 주문의 상태 확인
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,18 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ''
+f1.keywords: ''
 ms.custom:
 - Calling Plans
 description: '포트 주문 상태를 확인 하는 방법과 해당 사용자가 사용할 수 있는 다양 한 작업을 확인 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 7c7b0c745ac4af01b58771463f348f5ac0f3dac7
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3ad816e9dcedc18fe13d45db0bec36285d4f090f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925687"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708634"
 ---
-# <a name="whats-the-status-of-your-port-orders"></a>포트 주문의 상태는 무엇 인가요?
+# <a name="whats-the-status-of-your-port-orders"></a>포트 주문의 상태 확인
 
 포트 순서의 상태를 확인 하려면 Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 > **음성** > **포트 주문**으로 이동한 다음 **주문 기록을**클릭 합니다. 각 포트 주문 상태가 **상태** 열에 나열 됩니다.
 
@@ -43,10 +43,10 @@ ms.locfileid: "37925687"
 
 도움이 필요 하거나 전화 번호를 더 확보 해야 하는 경우 [PSTN 서비스 데스크 도움말을 참조](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-- [포트 순서는 무엇 인가요?](port-order-overview.md)
+- [포트 순서](port-order-overview.md)
 - [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)(조직의 전화 번호 관리)
+- [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
 - [비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

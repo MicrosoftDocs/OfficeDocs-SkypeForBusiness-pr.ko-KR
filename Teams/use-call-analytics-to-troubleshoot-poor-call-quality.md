@@ -1,5 +1,5 @@
 ---
-title: 통화 분석을 사용 하 여 통화 품질 저하 문제 해결
+title: 통화 분석을 사용하여 통화 품질 저하 문제 해결
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -17,20 +17,20 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 ms.custom:
 - Reporting
 description: 장치, 네트워크 및 연결에 대 한 통화 분석 세부 정보를 사용 하 여 Microsoft 팀과 비즈니스용 Skype 통화 및 모임에서 발생 하는 사용자 문제를 해결할 수 있습니다.
-ms.openlocfilehash: 4b2d6a5a18bf0a13f3fd32aecb8ad98192f3851a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e8b1fe4bbad2b744310d0b609fdc6c6d5a23fea2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568637"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707724"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>통화 분석을 사용 하 여 통화 품질 저하 문제 해결
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>통화 분석을 사용하여 통화 품질 저하 문제 해결
 
 통화 분석을 통해 Microsoft 팀과 비즈니스용 Skype의 통화 또는 연결 문제를 해결할 수 있습니다. 통화 분석에서는 Office 365 계정에서 각 사용자의 통화 및 모임에 대 한 장치, 네트워크 및 연결에 대 한 자세한 정보를 보여 줍니다. 빌드, 사이트 및 테 넌 트 정보가 통화 분석에 추가 된 경우 각 통화와 세션에 대해서도 표시 됩니다. 통화 분석을 통해 사용할 수 있는 정보는 사용자의 통화 또는 모임 환경이 좋지 않은 이유를 파악 하는 데 도움이 될 수 있습니다. 
   
@@ -83,11 +83,11 @@ ms.locfileid: "37568637"
   
 |**문제**|**지역을**|**설명**|
 |:-----|:-----|:-----|
-|전화 걸기 설정  <br/> |세션만  <br/> |오류 코드 Ms-diag 20-29는 통화 설정이 실패 했음을 나타냅니다. 사용자가 통화 또는 모임에 참가할 수 없습니다.  <br/> |
-|오디오 네트워크에서 낮은 통화 분류  <br/> |세션만  <br/> |네트워크 품질 문제 (예: 패킷 손실, 지터, NMOS 성능 저하, RTT 또는 숨겨진 비율)가 발생 했습니다. 불량 통화를 분류 하는 데 사용 되는 조건에 대 한 자세한 내용은이 [Microsoft 블로그 게시물](https://go.microsoft.com/fwlink/p/?linkid=852133)을 참조 하세요.  <br/> |
-|장치가 작동 하지 않음  <br/> |장치나  <br/> | 장치가 제대로 작동 하지 않습니다. 장치 작동 비율이 아닌 이유는 다음과 같습니다. <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
+|전화 걸기 설정  <br/> |세션  <br/> |오류 코드 Ms-diag 20-29는 통화 설정이 실패 했음을 나타냅니다. 사용자가 통화 또는 모임에 참가할 수 없습니다.  <br/> |
+|오디오 네트워크에서 낮은 통화 분류  <br/> |세션  <br/> |네트워크 품질 문제 (예: 패킷 손실, 지터, NMOS 성능 저하, RTT 또는 숨겨진 비율)가 발생 했습니다. 불량 통화를 분류 하는 데 사용 되는 조건에 대 한 자세한 내용은이 [Microsoft 블로그 게시물](https://go.microsoft.com/fwlink/p/?linkid=852133)을 참조 하세요.  <br/> |
+|장치가 작동 하지 않음  <br/> |장치  <br/> | 장치가 제대로 작동 하지 않습니다. 장치 작동 비율이 아닌 이유는 다음과 같습니다. <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [통화 분석 설정](set-up-call-analytics.md)
 
 [통화 분석 및 통화 품질 대시보드](difference-between-call-analytics-and-call-quality-dashboard.md)

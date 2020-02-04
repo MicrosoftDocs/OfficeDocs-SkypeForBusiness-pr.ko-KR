@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 비즈니스용 Skype 사용자에 게 기본 제공 비즈니스용 Skype 앱 피드백 도구를 사용 하 여 사용자에 게 문제를 보고 하 고 Microsoft에 직접 의견을 제공할 수 있도록 하는 것이 좋습니다.
-ms.openlocfilehash: 984fcfb7b327eb36e66df7d1ab6508d96c429481
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 7d9b94b31e51287f535628c8485d263301ef991b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962746"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706293"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>비즈니스용 Skype 클라이언트 피드백 보고 설정 또는 해제
 

@@ -1,5 +1,5 @@
 ---
-title: Express 경로를 사용 하는 통화 흐름
+title: ExpressRoute를 사용하는 호출 흐름
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,18 +15,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: 이 문서는 비즈니스용 Skype Online 및 Express 경로를 설명 하는 데 도움이 되며, 적절 하 게 이해 하 고 계획을 수립할 수 있도록 통화 흐름의 몇 가지 세부 예를 제공 합니다.
-ms.openlocfilehash: 59198cf24445ba486b193436b4374fea6698f146
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 3c728dab868177aab07c6fe618fba3a8c357eaa2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642658"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706673"
 ---
-# <a name="call-flow-using-expressroute"></a>Express 경로를 사용 하는 통화 흐름
+# <a name="call-flow-using-expressroute"></a>ExpressRoute를 사용하는 호출 흐름
 
 이 문서는 비즈니스용 Skype Online 및 Express 경로를 설명 하는 데 도움이 되며, 적절 하 게 이해 하 고 계획을 수립할 수 있도록 통화 흐름의 몇 가지 세부 예를 제공 합니다.
 
@@ -38,9 +39,9 @@ Office 365, 비즈니스용 Skype Server 하이브리드 또는 비즈니스용 
 
 여기에서 설명 하는 통화 흐름은 방화벽 규칙, NAT 구성, 프록시, 라우터 구성 등 제어 하는 다양 한 요인의 영향을 받을 수 있습니다. 이 문서에서는 권장 설정이 적용 되었다고 가정 합니다. 다음은 이러한 권장 설정에 대 한 설명입니다.
 
-- [비즈니스용 Skype Online 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+- [비즈니스용 Skype 온라인 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-- [Office 365 Url 및 IP 주소 범위](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+- [Office 365 URL 및 IP 주소 범위](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
 - [Express 경로 개요](https://docs.microsoft.com/azure/expressroute/expressroute-introduction)
 
@@ -66,7 +67,7 @@ Office 365, 비즈니스용 Skype Server 하이브리드 또는 비즈니스용 
 
  **인터넷** 네트워크 외부에서 비즈니스용 Skype Online에 연결 하는 사용자가 사용할 수 있는 전체 네트워크의 일부인 네트워크 세그먼트 이며, 경로를 구성 하지 않은 경우 모든 연결에 사용 됩니다. 인터넷과 모든 연결이 사용자 또는 Microsoft에 의해 관리 되지 않으므로 성능 및 라우팅 경로를 확인할 수 없으며,이는 전반적인 통화 흐름과 품질에 가장 큰 영향을 미칩니다.
 
- **Express** 경로 이것은 Microsoft 네트워크에 대 한 전용 개인 연결을 제공 하는 전체 네트워크의 일부인 네트워크 세그먼트입니다. 비즈니스용 Skype Online 실시간 통신과 같이 네트워크 속도 및 성능에 따라 달라 지는 모든 작업에 대해 네트워크를 Microsoft 네트워크 (Office 365 데이터 센터)에 연결 하는 데 권장 되는 옵션입니다. Express 사용자 연결 [공급자](https://azure.microsoft.com/documentation/articles/expressroute-locations/) 는 네트워크와 Microsoft 네트워크 간에 설정 되어 개인 및 관리 되는 네트워크를 제공 합니다. 99.9%의 가동 시간 및 서비스 품질 (QoS)에 대 한 지원으로 성능이 향상 될 수 있습니다. 네트워크 정체 기간 동안 실시간 미디어
+ **Express** 경로 이것은 Microsoft 네트워크에 대 한 전용 개인 연결을 제공 하는 전체 네트워크의 일부인 네트워크 세그먼트입니다. 비즈니스용 Skype Online 실시간 통신과 같이 네트워크 속도 및 성능에 따라 달라 지는 모든 작업에 대해 네트워크를 Microsoft 네트워크 (Office 365 데이터 센터)에 연결 하는 데 권장 되는 옵션입니다. 사용자의 네트워크와 Microsoft 네트워크 간에는 Express 기반 연결 [공급자](https://azure.microsoft.com/documentation/articles/expressroute-locations/) 를 사용 하 여 개인 및 관리 되는 네트워크를 제공 하 고 서비스 품질 (QoS)에 대 한 지원 99.9 없이 네트워크 정체가 발생 하는 동안 실시간 미디어의 성능을 향상 시킬 수 있습니다.
 
  **Microsoft 네트워크** 이것은 Office 365 서비스를 지 원하는 전체 네트워크의 일부인 네트워크 세그먼트입니다. 여기에는 Office 365 용 온라인 서버 간의 모든 통신이 포함 됩니다. 여기에는 Microsoft 네트워크 백본을 통과 하 고 지리적 지역 사이에 전송 되는 트래픽이 포함 될 수 있습니다.
 
@@ -231,7 +232,7 @@ Skype 모임 브로드캐스트가 고유한 이유는 브로드캐스트 스트
 |PSTN 통화  <br/> |클라우드 커넥터 에디션을 사용 하 여 네트워크의 온라인 사용자  <br/> |로컬  <br/> |로컬  <br/> |[비즈니스용 Skype 클라우드 커넥터 에디션을 사용 하 여 PSTN 통화](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |PSTN 통화  <br/> |클라우드 커넥터 에디션을 사용 하 여 인터넷을 사용 하는 온라인 사용자  <br/> |인터넷  <br/> |인터넷  <br/> |[비즈니스용 Skype 클라우드 커넥터 에디션을 사용 하 여](call-flow-using-expressroute.md#bk_Figure6)온 [-프레미스 Edge 서버의 Office 365 호스팅 컨퍼런스](call-flow-using-expressroute.md#bk_Figure5) 및 PSTN 통화 조합  <br/> |인터넷 사용자는 클라우드 커넥터에 포함 된 Edge 서버를 통해 연결 하 고, 클라우드 커넥터는 PSTN 네트워크에 연결 합니다.  <br/> |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Express 경로 설명서](https://go.microsoft.com/fwlink/?LinkId=690285)
 

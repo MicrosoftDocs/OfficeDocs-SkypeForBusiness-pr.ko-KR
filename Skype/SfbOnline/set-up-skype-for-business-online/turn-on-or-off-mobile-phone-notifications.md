@@ -1,5 +1,5 @@
 ---
-title: 휴대폰 전화 알림 설정 또는 해제
+title: 휴대폰 알림 설정 또는 해제
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.OrgMobileNotification
 ms.custom:
 - Setup
 description: 사용자가 수신, 음성 메일 및 부재 중 인스턴트 메시지에 대 한 알림을 받을 수 있도록 휴대폰 알림을 설정 하거나 해제 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6bd762c12a9945c6eaf7c103f3e19502e58840b3
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e9b5b86cf07c90af4ca68d91a36a936d7c657590
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642386"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706323"
 ---
-# <a name="turn-on-or-off-mobile-phone-notifications"></a>휴대폰 전화 알림 설정 또는 해제
+# <a name="turn-on-or-off-mobile-phone-notifications"></a>휴대폰 알림 설정 또는 해제
 
 조직의 비즈니스용 **[Office 365에서 관리자 역할을 지정](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 하면 비즈니스용 Skype 사용자가 휴대폰 이나 태블릿에 있을 때 들어오고 받지 못한 메신저 대화에 대 한 알림을 받을 지 여부를 선택할 수 있습니다.
   
@@ -56,9 +56,9 @@ Android 및 Windows phone에서 비즈니스용 Skype 알림은 실시간으로 
 > [!IMPORTANT]
 >  Microsoft는 다른 회사를 사용 하 여 Windows Phone, iPhone 및 iPad 사용자에 게 비즈니스용 Skype 모바일 알림을 제공 합니다. [Microsoft 비즈니스용 Skype 제품에 대 한 개인 정보 취급 방침](https://go.microsoft.com/fwlink/p/?linkid=247732)을 참조 하세요. 
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[비즈니스용 Skype Online 설정](set-up-skype-for-business-online.md)
+[비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
   
  

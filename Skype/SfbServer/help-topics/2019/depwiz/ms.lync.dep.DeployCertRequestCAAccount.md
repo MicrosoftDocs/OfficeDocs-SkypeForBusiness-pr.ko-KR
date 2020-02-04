@@ -1,27 +1,27 @@
 ---
-title: 인증서 요청 (인증 기관 계정)
+title: 인증서 요청(인증 기관 계정)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertRequestCAAccount
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 ROBOTS: NOINDEX, NOFOLLOW
 description: 요청을 제출 하려면 CA (인증 기관)에서 현재 로그인 한 사용자에 대 한 자격 증명 외에 다른 인증서가 필요할 수 있습니다.
-ms.openlocfilehash: 4081c965312f81e958e92d15befa962008be7f24
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8319b18340d705645529dba93ccfab40a96b68a2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188004"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705683"
 ---
-# <a name="certificate-request-certificate-authority-account"></a>인증서 요청 (인증 기관 계정)
+# <a name="certificate-request-certificate-authority-account"></a>인증서 요청(인증 기관 계정)
  
-요청을 제출 하려면 CA (인증 기관)에서 현재 로그인 한 사용자에 대 한 자격 증명 외에 다른 인증서가 필요할 수 있습니다. 인증서 요청을 다른 사용자로 허용 하려면 **인증 기관에 대 한 대체 자격 증명을 지정**하는 확인란을 선택한 다음, 인증서를 요청할 수 있는 사용자의 사용자 이름 또는 _도메인_\ _사용자_ 이름을 입력 합니다. . **암호** 텍스트 상자에 지정한 사용자의 암호를 입력 합니다. 사용자 이름 및 암호는 인증서 요청 프로세스의 일부로 전송 되지만 실제 인증서 요청에는 없는 상태로 온라인 CA에 전달 됩니다.
+요청을 제출 하려면 CA (인증 기관)에서 현재 로그인 한 사용자에 대 한 자격 증명 외에 다른 인증서가 필요할 수 있습니다. 인증서 요청을 다른 사용자로 허용 하려면 **인증 기관에 대 한 대체 자격 증명을 지정**하는 확인란을 선택한 다음, 인증서를 요청할 수 있는 사용자의 사용자 이름 또는 _도메인_\ _사용자_ 이름을 입력 합니다. **암호** 텍스트 상자에 지정한 사용자의 암호를 입력 합니다. 사용자 이름 및 암호는 인증서 요청 프로세스의 일부로 전송 되지만 실제 인증서 요청에는 없는 상태로 온라인 CA에 전달 됩니다.
   
 

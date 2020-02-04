@@ -1,5 +1,5 @@
 ---
-title: 프랑스 용 전화 번호 관리
+title: 프랑스의 전화 번호 관리
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,18 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 프랑스에서 Microsoft 팀을 위한 전화 번호를 받고 관리 하는 방법에 대 한 정보를 확인 하세요.
-ms.openlocfilehash: 822d577086ca6c941431ebc48d6b8b8be5c4aa5a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 82a8dac1d21ca34a679ed162738d519d1601826c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571981"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707033"
 ---
-# <a name="phone-number-management-for-france"></a>프랑스 용 전화 번호 관리
+# <a name="phone-number-management-for-france"></a>프랑스의 전화 번호 관리
 
 이 표를 사용 하 여 프랑스에서 Microsoft 팀을 위한 전화 번호를 받고 관리 하는 방법에 대 한 정보를 확인 하세요. 
   
@@ -39,12 +40,12 @@ ms.locfileid: "37571981"
 |국가 전화 번호부에 전화 번호를 게시 하거나 게시 취소 합니다.  <br/> |게시/게시 취소 하려는 전화 번호 목록을 [보내 주십시오](mailto:ptneu@microsoft.com) . <br/> |
 |사용자의 번호를 서비스 번호로 변경 합니다.  <br/> |서비스 번호로 변환할 사용자 번호 목록을 [보내 주십시오](mailto:ptneu@microsoft.com) . <br/> |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization.md)
 
-[비상 통화 약관](../emergency-calling-terms-and-conditions.md)
+[긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
   
 [비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 

@@ -1,5 +1,5 @@
 ---
-title: 무료 전화 걸기 제한 및 제한 사항
+title: 무료 전화 걸기 제한 사항
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,19 +16,20 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 사용 하는 방법을 쉽게 찾을 수 있습니다. 국가/지역을 선택 하면 무료 서비스를 사용할 수 있는 무료 서비스 사용에 대 한 특정 세부 정보, 제한 사항, 제한 사항이 포함 된 국가 관련 페이지로 이동 합니다. 전화 걸기 형식 또는 형식에는 각 국가/지역 내의 필요한 액세스 코드가 표시 되어 무료 번호로 전화를 걸 수 있습니다.
-ms.openlocfilehash: d9cf7bf601237552b397413c65875707157a73c9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 41bc08f37d96674a88ad4d180198cba189780846
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571654"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708214"
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a>무료 전화 걸기 제한 및 제한 사항
+# <a name="toll-free-dialing-limitations-and-restrictions"></a>무료 전화 걸기 제한 사항
 
 이렇게 하면 각 국가나 지역에서 무료 전화 번호를 사용 하는 방법을 쉽게 찾을 수 있습니다. 국가/지역을 선택한 후에는 특정 세부 정보, 제한 사항, 제한을 포함 하 여 무료 서비스를 사용할 수 있는 위치가 포함 된 페이지로 이동 합니다. 전화 걸기 형식 또는 형식에는 각 국가/지역 내의 필요한 액세스 코드가 표시 되어 무료 번호로 전화를 걸 수 있습니다.
   
@@ -47,8 +48,8 @@ ms.locfileid: "37571654"
 > - [브루나이](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [불가리아](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
 > - [칠레](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
-> - [중국 (북부)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
-> - [중국 (남아프리카)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
+> - [중국(북부)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
+> - [중국(남부)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
 > - [콜롬비아](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md)
 > - [크로아티아](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
 > - [키프로스](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md)
@@ -60,7 +61,7 @@ ms.locfileid: "37571654"
 > - [프랑스](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md)
 > - [독일](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md)
 > - [온두라스](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md)
-> - [홍콩 특별 행정구](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
+> - [홍콩](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
 > - [헝가리](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md)
 > - [인도](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md)
 > - [인도네시아](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
@@ -94,7 +95,7 @@ ms.locfileid: "37571654"
 > - [대만](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 > - [태국](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
 > - [터키](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
-> - [미국 아랍에미리트 (UAE)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
+> - [아랍에미리트(UAE)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
 > - [영국](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md)
 > - [우루과이](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md)
 > - [베네수엘라](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
@@ -118,8 +119,8 @@ ms.locfileid: "37571654"
 > [!NOTE]
 > 이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.
     
-## <a name="related-topics"></a>관련 항목
-[비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+## <a name="related-topics"></a>관련 주제
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 
   
  

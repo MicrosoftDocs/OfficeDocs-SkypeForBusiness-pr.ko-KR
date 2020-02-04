@@ -1,5 +1,5 @@
 ---
-title: 전화 회선 ID 및 통화 파티 이름에 대 한 자세한 정보
+title: 전화 회선 ID 및 발신자 이름에 대한 자세한 정보
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,18 +15,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 새 로컬 번호 포트 주문 마법사를 사용할 때 계정을 변경할 수 있는 권한이 있는 사용자를 추가 해야 하는 이유를 알아보세요.
-ms.openlocfilehash: 833bb27aa34b16601485437be9e25e2e41c2bf4e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a687bc1aca8a47b349415d4a0cc2dc9f61f81884
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573382"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708804"
 ---
-# <a name="more-about-calling-line-id-and-calling-party-name"></a>전화 회선 ID 및 통화 파티 이름에 대 한 자세한 정보
+# <a name="more-about-calling-line-id-and-calling-party-name"></a>전화 회선 ID 및 발신자 이름에 대한 자세한 정보
 
 일반적으로 참조 되는 CallerID는 다음과 같은 두 가지 사용자 연결 식별 가능 부분으로 구성 됩니다.
     - 전화 번호 (일반적으로 CLID 또는 통화 라인 ID 라고도 함) 
@@ -38,6 +39,6 @@ CLID & CNAM 전송은 종료 캐리어가 CLID & CNAM 기능을 지원 해야 �
 
 CNAM의 불일치는 미국에 따라 신뢰할 수 있는 데이터베이스에서 CNAM 정보를 새로 고침 하는 중간 또는 종료 통신의 지연으로 인해 발생 하는 경우가 있습니다. CNAM에 대 한 신뢰할 수 있는 데이터베이스가 없는 국가에서는 개별 통신 회사에서 tact에 도착 하는 CNAM 정보에 문제가 발생할 수도 있습니다. 현재 Microsoft는 미국 이외의 국가에서는 원래 CNAM 정보를 지원 하지 않습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 

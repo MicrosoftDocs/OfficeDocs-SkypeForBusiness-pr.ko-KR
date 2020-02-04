@@ -13,19 +13,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 캐나다의 IP 릴레이 계정을 사용 하는 방법
-ms.openlocfilehash: 8fa60a7e8a5b91326733aacde610bc2ed125a627
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd02fe763c8913a76c5fff6e1cf765a8fce425b5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642582"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706683"
 ---
-# <a name="ip-relay-in-canada---user-guide"></a>캐나다의 IP 릴레이-사용자 가이드
+# <a name="ip-relay-in-canada---user-guide"></a>캐나다의 IP 릴레이 - 사용자 가이드
 
 Microsoft의 IP 메시지 릴레이 서비스에 대 한 설명:
 
@@ -80,9 +81,9 @@ IP 메시지 릴레이 운영자는 911에 연락 하 여 주소를 확인 하 �
 > [!IMPORTANT]
 > Northern911는 Microsoft를 대신 하 여 IP 릴레이 서비스를 관리 합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[캐나다의 IP 릴레이-등록](ip-relay-canada-email-signup.md)
+[캐나다의 IP 릴레이 - 등록](ip-relay-canada-email-signup.md)
 
 
 

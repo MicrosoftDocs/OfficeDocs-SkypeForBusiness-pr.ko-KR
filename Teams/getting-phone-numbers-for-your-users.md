@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: '팀에 대해 새, 포트 또는 기존 번호를 전송 하는 방법과 사용자에 게 변경 내용을 표시 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 51f436a3b2d462e9984fb9fc09620e7c1a77307d
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: caba9206ab4c1f12250085a8323b22fabf57cc9e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209204"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707874"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>사용자의 전화 번호 가져오기
 
@@ -80,13 +81,13 @@ ms.locfileid: "39209204"
 > [!NOTE]
 > 이 보다 더 많은 전화 번호를 받으려면 [PSTN 서비스 데스크에 문의 하세요](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)(조직의 전화 번호 관리)
+[조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions)
 

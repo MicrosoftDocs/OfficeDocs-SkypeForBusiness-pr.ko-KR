@@ -11,7 +11,7 @@ description: 비즈니스용 Skype에서 팀으로 업그레이드 하기 위한
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-in
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-out
 - ms.teamsadmincenter.dashboard.widget.upgrade.scheduled
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 425ee7d6821a6765e03e2b9f0d9beaab61858bd4
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: b992c9870ef49847af3a82f3844f691584f97768
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749286"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707714"
 ---
 # <a name="upgrade-basic"></a>업그레이드 기본
 
@@ -116,7 +116,7 @@ ms.locfileid: "37749286"
 
 **리소스도**
 
-- [조직의 Microsoft 팀 설정 관리](enable-features-office-365.md)
+- [조직에서 Microsoft Teams 설정 관리](enable-features-office-365.md)
 - [샘플 전자 메일: 비즈니스용 Skype에 대 한 사용자에 게 알림](upgrade-emails-surveys.md#step-4-email)
 
 [맨 위로 이동](#about-upgrade-basic)

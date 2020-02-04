@@ -1,5 +1,5 @@
 ---
-title: 오스트레일리아 용 전화 번호 관리
+title: 오스트레일리아의 전화 번호 관리
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 이 표를 사용 하 여 Microsoft 팀의 오스트레일리아에서 전화 번호를 받고 관리 하는 방법에 대 한 정보를 확인 하세요.
-ms.openlocfilehash: f8576f383937a9e8889a660619d169cd657d8de7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5c8b5a668c8a1ec0a1ab34bd214955cd7e4ef25b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573165"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707133"
 ---
-# <a name="phone-number-management-for-australia"></a>오스트레일리아 용 전화 번호 관리
+# <a name="phone-number-management-for-australia"></a>오스트레일리아의 전화 번호 관리
 오스트레일리아에서는 Telstra와 제휴 하 여, 오스트레일리아에 청구 주소가 있는 고객에 대 한 통화 요금제를 구매 하 고 제공 합니다. Telstra는 통화 요금제를 판매 하 고, 호주 사용자 번호를 제공 하 고, 자동 전화 교환 및 통화 대기열에 대 한 사용자 및 서비스 번호에 대 한 전화 번호 관리 지원을 제공 합니다. 그러나 오디오 회의에 대 한 서비스 번호와 라이선스는 계속 해 서 판매 되 고 Office 365에 의해 관리 됩니다.
 
 [Office 365에 대 한 Telstra 통화](https://aka.ms/TelstraVoicePlan)에 대 한 자세한 내용을 알아보세요.
@@ -44,10 +45,10 @@ ms.locfileid: "37573165"
 |통화 요금제 전화 번호가 있는 사용자에 게 할당 된 긴급 주소를 변경 합니다. |긴급 주소 변경 사항을 적용 하려면 [Office 365 Telstra 통화](https://aka.ms/TelstraVoicePlan) 에 문의 하세요. 이 정보를 업데이트할 수 있습니다.|
 |사용자 번호를 서비스 번호로 변경 합니다. |Office 365에 대 한 Telstra 통화를 사용 하는 경우 지원 됩니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization.md)
 
-[비상 통화 약관](../emergency-calling-terms-and-conditions.md)
+[긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)

@@ -12,18 +12,18 @@ description: Microsoft 팀 전용 모드로 업그레이드 준비
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-f1keywords: ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
+f1.keywords: ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81609298a580594e8c54d185d7dea3be86824139
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 89aded4747bc0a3f41fd78ce1bdced7b3363775b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435114"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708314"
 ---
 # <a name="teams-only-mode-considerations"></a>팀 전용 모드 고려 사항
 
@@ -31,7 +31,7 @@ Office 365 테 넌 트의 관리자는 Microsoft 팀 관리 센터에서 팀 전
 
 팀 전용 모드로 업그레이드 하는 경우 단일 클라이언트 환경을 통해 Office 365의 팀워크에 대 한 허브 인 Microsoft 팀의 모든 혜택을 제공 하 게 됩니다. 또한 팀 전용 모드의 사용자는 보낸 사람이 비즈니스용 Skype를 사용 하 고 있는지 여부에 관계 없이 팀의 모든 통화와 채팅을 받게 되며 interop 및 페더레이션 지원의 혜택을 받습니다.
 
-수천 명의 고객이 Microsoft 팀으로 업그레이드 한 후 조직의 업그레이드 시간 표시 막대와 사용자 환경에 영향을 미칠 수 있는 고려 사항이 있습니다. 특히, 업그레이드 옵션이 반드시 조직이이 변경에 대 한 것을 의미 하는 것은 아닙니다. 최상의 사용자 환경을 위해서는 팀이 공동 작업 및 통신 요구 사항을 충족 하는지 확인 하 고, 사용자를 팀으로 업그레이드 하기 전에 네트워크가 팀을 지원할 준비가 되었는지 확인 하 고 사용자 준비 계획을 구현 합니다. 
+수천 명의 고객이 Microsoft 팀으로 업그레이드 한 후 조직의 업그레이드 시간 표시 막대와 사용자 환경에 영향을 미칠 수 있는 고려 사항이 있습니다. 특히, 업그레이드 옵션이 반드시 조직이이 변경에 대 한 것을 의미 하는 것은 아닙니다. 최상의 사용자 환경을 위해서는 Teams가 공동 작업 및 커뮤니케이션 요구 사항을 충족하는지와 네트워크가 Teams를 지원할 준비가 되었는지를 확인하고 사용자를 Teams에 업그레이드하기 전에 사용자 준비를 위한 계획을 구현해야 합니다. 
 
 > [!IMPORTANT]
 > 업그레이드 계획을 시작 하는 경우에는 전체 업그레이드 지침 및 계획 리소스를 검토 해야 합니다. [여기서 시작](upgrade-start-here.md)하세요. 

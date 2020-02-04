@@ -12,19 +12,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.meetingsettings.invitationurls
 - ms.teamsadmincenter.meetingsettings.network.ports
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
 - M365-collaboration
 description: 사용자가 조직에서 예약한 팀 모임에 대 한 설정을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: adb1beaa7aff84d2ef51820332bc7f823b124a22
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 6d5e4d4235eceda3821a34a039625730d11d9fff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069459"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707303"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft 팀에서 모임 설정 관리
 
@@ -44,7 +44,7 @@ ms.locfileid: "40069459"
 
 익명 사용자가 조직의 사용자가 예약한 모임에 참가 하는 것을 원하지 않는다면이 설정을 끄세요.
 
-## <a name="customize-meeting-invitations"></a>모임 초대 사용자 지정
+## <a name="customize-meeting-invitations"></a>모임 초대의 사용자 지정
 
 조직의 요구 사항에 맞게 팀 모임 초대를 사용자 지정할 수 있습니다. 조직의 로고를 추가 하 고, 지원 웹사이트 링크, 법적 고 지 사항, 텍스트 전용 바닥글 등의 유용한 정보를 포함할 수 있습니다.
 

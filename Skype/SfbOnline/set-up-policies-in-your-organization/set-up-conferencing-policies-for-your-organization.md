@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 회의는 비즈니스용 Skype Online의 중요 한 부분입니다. 사용자 그룹을 온라인으로 연결 하 여 슬라이드 및 비디오를 보고, 응용 프로그램을 공유 하 고, 파일을 교환 하 고, 다른 방법으로 통신 및 공동 작업할 수 있습니다.
-ms.openlocfilehash: a30af18ea18251ff4cc099459083e7df23ba6378
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: ef7b764d674590ed07e461029110505446b09900
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962486"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706643"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>조직의 회의 정책 설정
 
@@ -144,7 +145,7 @@ ms.locfileid: "40962486"
     
   - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [사용자 지정 외부 액세스 정책 만들기](create-custom-external-access-policies.md)
 
 [점 대 점 파일 전송 차단](block-point-to-point-file-transfers.md)

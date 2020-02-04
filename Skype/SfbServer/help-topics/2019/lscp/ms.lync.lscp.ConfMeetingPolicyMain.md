@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ConfMeetingPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 회의 정책은 회의 중에 사용자가 사용할 수 있는 기능 (모임이 라고도 함)을 정의 합니다.
-ms.openlocfilehash: 1757af1665b3ee39bbc8a418c6372713e0af50ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6d6795d1aa36dbbfe0bb43fb884102fdf224cded
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197098"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705073"
 ---
 # <a name="conferencing-policy"></a>회의 정책
 

@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: '이 참조 가이드를 사용 하 여 비즈니스용 Skype Online 보고 및 사용할 수 있는 정보에 대해 알아보세요. '
-ms.openlocfilehash: 77a3068ef1bf8038d2d433fce483e53824668684
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 24574fdc572eeca323487b40ff9a1d5874f4f5ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642226"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705953"
 ---
 # <a name="skype-for-business-online-reporting"></a>비즈니스용 Skype Online 보고
 
@@ -57,7 +58,7 @@ Office 365 및 비즈니스용 Skype 관리 센터에서 비즈니스용 Skype O
 |[비즈니스용 Skype PSTN 분 풀 보고서](pstn-minute-pools-report.md) <br/> | 접근 권한 값은 통화에 사용 되는 라이선스/서비스 계획입니다. <br/> 라이선스 유형 <br/> 기능 설명 <br/> 국가 분 풀  <br/> 사용 된 분 <br/> 총 분 <br/> 해당 월에 사용 된 분의 백분율 <br/> |
 |[비즈니스용 Skype 세션 정보 보고서](session-details-report.md) <br/> | 사용자 별칭 <br/> 대화 상자 ID  <br/> 미디어 유형  <br/> 시작 및 종료 시간 <br/> URI에서 (으)로 <br/> 컨퍼런스 URL <br/> 전화 번호 <br/> |
  
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

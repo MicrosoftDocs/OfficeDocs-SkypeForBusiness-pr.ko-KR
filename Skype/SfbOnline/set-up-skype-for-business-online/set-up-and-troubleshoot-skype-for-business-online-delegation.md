@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Online 위임을 설정 하 고 문제 해결
+title: 비즈니스용 Skype Online 위임을 설정하고 문제 해결
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 이 문서에서는 비즈니스용 Skype Online 위임을 설정 하 고 문제를 해결 하는 방법을 설명 합니다. 이 문서에서는 설정 권장 사항, 모범 사례 및 문제 해결 단계에 대 한 지침을 제공 합니다.
-ms.openlocfilehash: 0528bbb3dc25e085d38f86c040eb5129c9d039c1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642992"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706483"
 ---
-# <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>비즈니스용 Skype Online 위임을 설정 하 고 문제 해결
+# <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>비즈니스용 Skype Online 위임을 설정하고 문제 해결
 
 이 문서에서는 비즈니스용 Skype Online 위임을 설정 하 고 문제를 해결 하는 방법을 설명 합니다. 이 문서에서는 설정 권장 사항, 모범 사례 및 문제 해결 단계에 대 한 지침을 제공 합니다.
   
@@ -55,7 +56,7 @@ ms.locfileid: "37642992"
 
 ||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
-|**Lync/비즈니스용 Skype Basic 클라이언트**| 지원 되지 않음 |지원 되지 않음
+|**Lync/비즈니스용 Skype Basic 클라이언트**| 지원되지 않음 |지원되지 않음
 |**비즈니스용 Skype 2015**|지원| 지원|
 |**비즈니스용 Skype 2016**|지원| 지원|
 
@@ -67,14 +68,14 @@ ms.locfileid: "37642992"
 |**동의**|**클라이언트**|**상속자**|
 |:-----|:-----|:-----|
 |Enterprise E3  <br/> |Outlook 2013 또는 Outlook 2016에 사용 되는 Lync 2013 (비즈니스용 Skype 2015)  <br/> Outlook 2013 또는 Outlook 2016과 함께 사용 되는 비즈니스용 Skype 2016  <br/> |비즈니스용 Skype Basic 클라이언트는 위임을 지원 하지 않습니다.  <br/> Mac 클라이언트의 경우에는 통화를 위임할 수 있지만 모임에는 위임 하지 않아도 됩니다.  <br/> |
-|Office 365 전화 시스템 + Office 365 xCalling 요금제를 사용 하는 Enterprise E3  <br/> |Outlook 2013 또는 Outlook 2016에 사용 되는 Lync 2013 (비즈니스용 Skype 2015)  <br/> Outlook 2013 또는 Outlook 2016과 함께 사용 되는 비즈니스용 Skype 2016  <br/> Mac 용 Lync 2011  <br/> |비즈니스용 Skype Basic 클라이언트는 위임을 지원 하지 않습니다.  <br/> Mac 클라이언트의 경우에는 통화를 위임할 수 있지만 모임에는 위임 하지 않아도 됩니다.  <br/> |
+|Office 365 전화 시스템 + Office 365 xCalling 요금제를 사용 하는 Enterprise E3  <br/> |Outlook 2013 또는 Outlook 2016에 사용 되는 Lync 2013 (비즈니스용 Skype 2015)  <br/> Outlook 2013 또는 Outlook 2016과 함께 사용 되는 비즈니스용 Skype 2016  <br/> Mac용 Lync 2011  <br/> |비즈니스용 Skype Basic 클라이언트는 위임을 지원 하지 않습니다.  <br/> Mac 클라이언트의 경우에는 통화를 위임할 수 있지만 모임에는 위임 하지 않아도 됩니다.  <br/> |
    
 **Enterprise E5 라이선스 시나리오**
 
 |**동의**|**클라이언트**|**상속자**|
 |:-----|:-----|:-----|
 |Enterprise E5  <br/> |Lync 2013 (비즈니스용 Skype 2015)가 Outlook 2013 또는 Outlook 2016와 함께 사용 됩니다.  <br/> Outlook 2013 또는 Outlook 2016과 함께 사용 되는 비즈니스용 Skype 2016  <br/> |비즈니스용 Skype Basic 클라이언트는 위임을 지원 하지 않습니다.  <br/> Mac 클라이언트의 경우에는 통화를 위임할 수 있지만 모임에는 위임 하지 않아도 됩니다.  <br/> |
-|Enterprise E5 plus Office 365 통화 요금제  <br/> |Mac 용 비즈니스용 Skype 2016  <br/> Outlook 2013 또는 Outlook 2016에 사용 되는 Lync 2013 (비즈니스용 Skype 2015)  <br/> Outlook 2013 또는 Outlook 2016과 함께 사용 되는 비즈니스용 Skype 2016  <br/> Mac 용 Lync 2011  <br/> |비즈니스용 Skype Basic 클라이언트는 위임을 지원 하지 않습니다.  <br/> Mac 클라이언트의 경우에는 통화를 위임할 수 있지만 모임에는 위임 하지 않아도 됩니다.  <br/> |
+|Enterprise E5 plus Office 365 통화 요금제  <br/> |Mac 용 비즈니스용 Skype 2016  <br/> Outlook 2013 또는 Outlook 2016에 사용 되는 Lync 2013 (비즈니스용 Skype 2015)  <br/> Outlook 2013 또는 Outlook 2016과 함께 사용 되는 비즈니스용 Skype 2016  <br/> Mac용 Lync 2011  <br/> |비즈니스용 Skype Basic 클라이언트는 위임을 지원 하지 않습니다.  <br/> Mac 클라이언트의 경우에는 통화를 위임할 수 있지만 모임에는 위임 하지 않아도 됩니다.  <br/> |
    
 ## <a name="set-up-and-verify-delegation"></a>대리인 설정 및 확인
 
@@ -143,10 +144,10 @@ ms.locfileid: "37642992"
     
 - 비즈니스용 Skype 클라이언트를 통해 Exchange Online 사서함에 액세스할 수 없습니다. 이런 경우 [Outlook 연결 테스트](https://testconnectivity.microsoft.com/) 를 실행 하 여 해당 메시지가 전달 되는지 확인 합니다.
     
-## <a name="related-topics"></a>관련 항목
-[비즈니스용 Skype Online 설정](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>관련 주제
+[비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
-[비즈니스용 Skype 사용자가 Skype 연락처를 추가 하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
+[비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

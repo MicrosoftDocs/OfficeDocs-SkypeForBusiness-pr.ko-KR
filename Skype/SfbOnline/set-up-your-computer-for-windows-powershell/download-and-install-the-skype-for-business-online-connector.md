@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - PowerShell
 description: '비즈니스용 skype online 커넥터를 다운로드 하 여 설치 하 고 사용 하 여 비즈니스용 Skype Online에 연결 하는 원격 Windows PowerShell 세션을 만듭니다. '
-ms.openlocfilehash: 4d794902ce39687c32f584f97b126c98f237c486
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 02c08d4172e2f42fb03c024fa2b0958a8e8b4637
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991303"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706263"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>비즈니스용 Skype Online 커넥터 모듈 다운로드 및 설치
 
@@ -59,7 +60,7 @@ SkypeOnlinePowershell는 비즈니스용 Skype Online Connector 모듈을 설치
   
 컴퓨터에 현재 설치 되어 있는 커넥터 모듈의 버전 번호를 확인 하려면 제어판을 열고 **프로그램 및 기능**을 연 다음 비즈니스용 **Skype Online, Windows PowerShell 모듈**의 버전 번호를 확인 합니다.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [Windows PowerShell을 사용 하 여 비즈니스용 skype online 관리를 위한 컴퓨터 설정](set-up-your-computer-for-windows-powershell.md)
 
   

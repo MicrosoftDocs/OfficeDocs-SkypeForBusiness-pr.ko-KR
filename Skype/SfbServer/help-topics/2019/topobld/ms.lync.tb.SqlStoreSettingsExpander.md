@@ -1,26 +1,26 @@
 ---
-title: SQL 스토어 설정 확장기
+title: SQL 저장소 설정 확장기
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 ROBOTS: NOINDEX, NOFOLLOW
 description: SQL Server 데이터베이스의 속성을 편집 하려면 SQL Server 데이터베이스 인스턴스를 변경 해야 합니다. 속성 편집 대화 상자를 사용 하 여 보관 서버 데이터베이스를 한 컴퓨터에서 다른 컴퓨터로 이동 하는 등의 작업을 수행할 수는 없습니다. 또한 속성 편집 대화 상자를 사용 하 여 중앙 관리 저장소를 호스트 하는 SQL Server 인스턴스를 변경할 수 없습니다.
-ms.openlocfilehash: 816733627bcaf1156e5ad34955bb8aa9cf580642
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ccaa6d2ceedfdef3f180de93e763c28b7167d45a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197376"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701463"
 ---
-# <a name="sql-store-settings-expander"></a>SQL 스토어 설정 확장기
+# <a name="sql-store-settings-expander"></a>SQL 저장소 설정 확장기
  
 SQL Server 데이터베이스의 속성을 편집 하려면 SQL Server 데이터베이스 인스턴스를 변경 해야 합니다. **속성 편집** 대화 상자를 사용 하 여 보관 서버 데이터베이스를 한 컴퓨터에서 다른 컴퓨터로 이동 하는 등의 작업을 수행할 수는 없습니다. 또한 **속성 편집** 대화 상자를 사용 하 여 중앙 관리 저장소를 호스트 하는 SQL Server 인스턴스를 변경할 수 없습니다.
   

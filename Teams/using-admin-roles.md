@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.errorpage.needadminpermsforadmincenter.assignadminrolesarticle
 - ms.teamsadmincenter.errorpage.needadminperms.assignadminrolesarticle
 - ms.teamsadmincenter.signin.error.nopermissions
@@ -18,12 +18,12 @@ ms.reviewer: islubin
 description: 다양 한 관리 역할을 사용 하 여 팀을 관리 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97288109f7998a8d29520169e229a5546da94bc5
-ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
+ms.openlocfilehash: 0acef80f0952f8d71ab3cbd965f8d1e1f793f05d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "37616060"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708794"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Microsoft 팀 관리자 역할을 사용 하 여 팀 관리
 
@@ -71,7 +71,7 @@ Azure AD에서 이러한 역할에 사용자를 할당할 수 있습니다. Azur
    c. **Get 모듈** 을 사용 하 여 가져온 세션의 이름 (임의로 생성 되는 이름)을 식별 합니다.<br>
 3. > 위의 **Get-Command-Module** <*name* 을 사용 하 여 사용 가능한 모든 cmdlet을 식별 합니다.
 
-### <a name="related-topics"></a>관련 항목
+### <a name="related-topics"></a>관련 주제
 
 - [Microsoft 팀 PowerShell 개요](teams-powershell-overview.md)
 - [Microsoft 팀 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)

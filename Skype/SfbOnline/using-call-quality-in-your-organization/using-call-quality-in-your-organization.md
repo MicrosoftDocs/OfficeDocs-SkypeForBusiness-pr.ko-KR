@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: 통화 분석을 설정 하 고 사용 하 여 비즈니스용 Skype 및 Microsoft 팀 통화 품질 문제를 식별 하 고 해결 합니다.
-ms.openlocfilehash: d6428afc9fc15bc94dbb2e5b1c3aae44a4f96500
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 865e8fddbf67e8aae85b7f38ee263c86ecf96716
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642145"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705913"
 ---
 # <a name="using-call-quality-in-your-organization"></a>조직에서 통화 품질 사용
 
