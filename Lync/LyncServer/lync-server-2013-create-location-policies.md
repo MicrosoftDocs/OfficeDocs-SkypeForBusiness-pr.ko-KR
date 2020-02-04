@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 위치 정책 만들기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create location policies
 ms:assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413006(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f420d3b634df79411bbc72cd4c029f9b5d97e19
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55c10244bb3a70f7218dc3967e7f4f134048024f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976272"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726318"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40976272"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-location-policies-in-lync-server-2013"></a><span data-ttu-id="321e7-102">Lync Server 2013에서 위치 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="321e7-102">Create location policies in Lync Server 2013</span></span>
+# <a name="create-location-policies-in-lync-server-2013"></a><span data-ttu-id="e68e6-102">Lync Server 2013에서 위치 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="e68e6-102">Create location policies in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "40976272"
 
 <span> </span>
 
-<span data-ttu-id="321e7-103">_**마지막으로 수정한 주제:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="321e7-103">_**Topic Last Modified:** 2012-09-11_</span></span>
+<span data-ttu-id="e68e6-103">_**마지막으로 수정한 주제:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="e68e6-103">_**Topic Last Modified:** 2012-09-11_</span></span>
 
-<span data-ttu-id="321e7-104">Lync Server는 위치 정책을 사용 하 여 클라이언트 등록 중 E9-1-1에 Lync 클라이언트를 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="321e7-104">Lync Server uses a location policy to enable Lync clients for E9-1-1 during client registration.</span></span> <span data-ttu-id="321e7-105">위치 정책에는 E9-1-1이 구현 되는 방법을 정의 하는 설정이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="321e7-105">A location policy contains the settings that define how E9-1-1 will be implemented.</span></span>
+<span data-ttu-id="e68e6-104">Lync Server는 위치 정책을 사용 하 여 클라이언트 등록 중 E9-1-1에 Lync 클라이언트를 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="e68e6-104">Lync Server uses a location policy to enable Lync clients for E9-1-1 during client registration.</span></span> <span data-ttu-id="e68e6-105">위치 정책에는 E9-1-1이 구현 되는 방법을 정의 하는 설정이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e68e6-105">A location policy contains the settings that define how E9-1-1 will be implemented.</span></span>
 
-<span data-ttu-id="321e7-106">전역 위치 정책을 편집 하 고 태그가 지정 된 새 위치 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="321e7-106">You can edit the global location policy and create new tagged location policies.</span></span> <span data-ttu-id="321e7-107">클라이언트는 연결 된 위치 정책을 사용 하 여 서브넷 내에 있지 않거나 클라이언트에 위치 정책이 직접 할당 되지 않은 경우 전역 정책을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="321e7-107">A client obtains a global policy when it is not located within a subnet with an associated location policy, or when the client has not been directly assigned a location policy.</span></span> <span data-ttu-id="321e7-108">태그가 지정 된 정책은 서브넷 또는 사용자에 게 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="321e7-108">Tagged policies are assigned to subnets or users.</span></span>
+<span data-ttu-id="e68e6-106">전역 위치 정책을 편집 하 고 태그가 지정 된 새 위치 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e68e6-106">You can edit the global location policy and create new tagged location policies.</span></span> <span data-ttu-id="e68e6-107">클라이언트는 연결 된 위치 정책을 사용 하 여 서브넷 내에 있지 않거나 클라이언트에 위치 정책이 직접 할당 되지 않은 경우 전역 정책을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="e68e6-107">A client obtains a global policy when it is not located within a subnet with an associated location policy, or when the client has not been directly assigned a location policy.</span></span> <span data-ttu-id="e68e6-108">태그가 지정 된 정책은 서브넷 또는 사용자에 게 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e68e6-108">Tagged policies are assigned to subnets or users.</span></span>
 
-<span data-ttu-id="321e7-109">위치 정책을 만들려면 RTCUniversalServerAdmins 그룹의 구성원 이거나 CsVoiceAdministrator 관리 역할의 구성원 이거나 해당 관리자 권한 및 사용 권한이 있는 계정을 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="321e7-109">To create a location policy, you must use an account that is a member of the RTCUniversalServerAdmins group, or is a member of the CsVoiceAdministrator administrative role, or has equivalent administrator rights and permissions.</span></span>
+<span data-ttu-id="e68e6-109">위치 정책을 만들려면 RTCUniversalServerAdmins 그룹의 구성원 이거나 CsVoiceAdministrator 관리 역할의 구성원 이거나 해당 관리자 권한 및 사용 권한이 있는 계정을 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e68e6-109">To create a location policy, you must use an account that is a member of the RTCUniversalServerAdmins group, or is a member of the CsVoiceAdministrator administrative role, or has equivalent administrator rights and permissions.</span></span>
 
-<span data-ttu-id="321e7-110">위치 정책에 대 한 자세한 설명은 [Lync Server 2013의 위치 정책 정의](lync-server-2013-defining-the-location-policy.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="321e7-110">For a complete description of Location policies, see [Defining the location policy for Lync Server 2013](lync-server-2013-defining-the-location-policy.md).</span></span> <span data-ttu-id="321e7-111">이 절차의 cmdlet에서는 다음 값을 사용 하 여 정의 된 위치 정책을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="321e7-111">Cmdlets in this procedure use a location policy defined using the following values:</span></span>
+<span data-ttu-id="e68e6-110">위치 정책에 대 한 자세한 설명은 [Lync Server 2013의 위치 정책 정의](lync-server-2013-defining-the-location-policy.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e68e6-110">For a complete description of Location policies, see [Defining the location policy for Lync Server 2013](lync-server-2013-defining-the-location-policy.md).</span></span> <span data-ttu-id="e68e6-111">이 절차의 cmdlet에서는 다음 값을 사용 하 여 정의 된 위치 정책을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="e68e6-111">Cmdlets in this procedure use a location policy defined using the following values:</span></span>
 
 
 <table>
@@ -51,95 +53,95 @@ ms.locfileid: "40976272"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="321e7-112">요소</span><span class="sxs-lookup"><span data-stu-id="321e7-112">Element</span></span></th>
-<th><span data-ttu-id="321e7-113">값</span><span class="sxs-lookup"><span data-stu-id="321e7-113">Value</span></span></th>
+<th><span data-ttu-id="e68e6-112">요소</span><span class="sxs-lookup"><span data-stu-id="e68e6-112">Element</span></span></th>
+<th><span data-ttu-id="e68e6-113">값</span><span class="sxs-lookup"><span data-stu-id="e68e6-113">Value</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="321e7-114">EnhancedEmergencyServicesEnabled</span><span class="sxs-lookup"><span data-stu-id="321e7-114">EnhancedEmergencyServicesEnabled</span></span></p></td>
-<td><p><span data-ttu-id="321e7-115"><strong>False</strong></span><span class="sxs-lookup"><span data-stu-id="321e7-115"><strong>True</strong></span></span></p></td>
+<td><p><span data-ttu-id="e68e6-114">EnhancedEmergencyServicesEnabled</span><span class="sxs-lookup"><span data-stu-id="e68e6-114">EnhancedEmergencyServicesEnabled</span></span></p></td>
+<td><p><span data-ttu-id="e68e6-115"><strong>False</strong></span><span class="sxs-lookup"><span data-stu-id="e68e6-115"><strong>True</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="321e7-116">LocationRequired</span><span class="sxs-lookup"><span data-stu-id="321e7-116">LocationRequired</span></span></p></td>
-<td><p><span data-ttu-id="321e7-117"><strong>고 지 사항</strong></span><span class="sxs-lookup"><span data-stu-id="321e7-117"><strong>Disclaimer</strong></span></span></p></td>
+<td><p><span data-ttu-id="e68e6-116">LocationRequired</span><span class="sxs-lookup"><span data-stu-id="e68e6-116">LocationRequired</span></span></p></td>
+<td><p><span data-ttu-id="e68e6-117"><strong>고 지 사항</strong></span><span class="sxs-lookup"><span data-stu-id="e68e6-117"><strong>Disclaimer</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="321e7-118">EnhancedEmergencyServiceDisclaimer</span><span class="sxs-lookup"><span data-stu-id="321e7-118">EnhancedEmergencyServiceDisclaimer</span></span></p></td>
-<td><p><span data-ttu-id="321e7-119">회사 정책에 따라 위치를 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="321e7-119">Your company policy requires you to set a location.</span></span> <span data-ttu-id="321e7-120">위치를 설정 하지 않으면 비상 서비스는 비상 시 사용자를 찾을 수 없게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="321e7-120">If you do not set a location, emergency services will not be able to locate you in an emergency.</span></span> <span data-ttu-id="321e7-121">위치를 설정 하십시오.</span><span class="sxs-lookup"><span data-stu-id="321e7-121">Please set a location.</span></span></p></td>
+<td><p><span data-ttu-id="e68e6-118">EnhancedEmergencyServiceDisclaimer</span><span class="sxs-lookup"><span data-stu-id="e68e6-118">EnhancedEmergencyServiceDisclaimer</span></span></p></td>
+<td><p><span data-ttu-id="e68e6-119">회사 정책에 따라 위치를 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e68e6-119">Your company policy requires you to set a location.</span></span> <span data-ttu-id="e68e6-120">위치를 설정 하지 않으면 비상 서비스는 비상 시 사용자를 찾을 수 없게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e68e6-120">If you do not set a location, emergency services will not be able to locate you in an emergency.</span></span> <span data-ttu-id="e68e6-121">위치를 설정 하십시오.</span><span class="sxs-lookup"><span data-stu-id="e68e6-121">Please set a location.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="321e7-122">UseLocationForE911Only</span><span class="sxs-lookup"><span data-stu-id="321e7-122">UseLocationForE911Only</span></span></p></td>
-<td><p><span data-ttu-id="321e7-123"><strong>해제</strong></span><span class="sxs-lookup"><span data-stu-id="321e7-123"><strong>False</strong></span></span></p></td>
+<td><p><span data-ttu-id="e68e6-122">UseLocationForE911Only</span><span class="sxs-lookup"><span data-stu-id="e68e6-122">UseLocationForE911Only</span></span></p></td>
+<td><p><span data-ttu-id="e68e6-123"><strong>해제</strong></span><span class="sxs-lookup"><span data-stu-id="e68e6-123"><strong>False</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="321e7-124">PstnUsage</span><span class="sxs-lookup"><span data-stu-id="321e7-124">PstnUsage</span></span></p></td>
-<td><p><span data-ttu-id="321e7-125"><strong>EmergencyUsage</strong></span><span class="sxs-lookup"><span data-stu-id="321e7-125"><strong>EmergencyUsage</strong></span></span></p></td>
+<td><p><span data-ttu-id="e68e6-124">PstnUsage</span><span class="sxs-lookup"><span data-stu-id="e68e6-124">PstnUsage</span></span></p></td>
+<td><p><span data-ttu-id="e68e6-125"><strong>EmergencyUsage</strong></span><span class="sxs-lookup"><span data-stu-id="e68e6-125"><strong>EmergencyUsage</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="321e7-126">EmergencyDialString</span><span class="sxs-lookup"><span data-stu-id="321e7-126">EmergencyDialString</span></span></p></td>
-<td><p><span data-ttu-id="321e7-127"><strong>911</strong></span><span class="sxs-lookup"><span data-stu-id="321e7-127"><strong>911</strong></span></span></p></td>
+<td><p><span data-ttu-id="e68e6-126">EmergencyDialString</span><span class="sxs-lookup"><span data-stu-id="e68e6-126">EmergencyDialString</span></span></p></td>
+<td><p><span data-ttu-id="e68e6-127"><strong>911</strong></span><span class="sxs-lookup"><span data-stu-id="e68e6-127"><strong>911</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="321e7-128">EmergencyDialMask</span><span class="sxs-lookup"><span data-stu-id="321e7-128">EmergencyDialMask</span></span></p></td>
-<td><p><span data-ttu-id="321e7-129"><strong>112</strong></span><span class="sxs-lookup"><span data-stu-id="321e7-129"><strong>112</strong></span></span></p></td>
+<td><p><span data-ttu-id="e68e6-128">EmergencyDialMask</span><span class="sxs-lookup"><span data-stu-id="e68e6-128">EmergencyDialMask</span></span></p></td>
+<td><p><span data-ttu-id="e68e6-129"><strong>112</strong></span><span class="sxs-lookup"><span data-stu-id="e68e6-129"><strong>112</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="321e7-130">NotificationUri</span><span class="sxs-lookup"><span data-stu-id="321e7-130">NotificationUri</span></span></p></td>
-<td><p><span data-ttu-id="321e7-131"><strong>sip:security@litwareinc.com</strong></span><span class="sxs-lookup"><span data-stu-id="321e7-131"><strong>sip:security@litwareinc.com</strong></span></span></p></td>
+<td><p><span data-ttu-id="e68e6-130">NotificationUri</span><span class="sxs-lookup"><span data-stu-id="e68e6-130">NotificationUri</span></span></p></td>
+<td><p><span data-ttu-id="e68e6-131"><strong>sip:security@litwareinc.com</strong></span><span class="sxs-lookup"><span data-stu-id="e68e6-131"><strong>sip:security@litwareinc.com</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="321e7-132">ConferenceUri</span><span class="sxs-lookup"><span data-stu-id="321e7-132">ConferenceUri</span></span></p></td>
-<td><p><span data-ttu-id="321e7-133"><strong>sip:+14255550123@litwareinc.com</strong></span><span class="sxs-lookup"><span data-stu-id="321e7-133"><strong>sip:+14255550123@litwareinc.com</strong></span></span></p></td>
+<td><p><span data-ttu-id="e68e6-132">ConferenceUri</span><span class="sxs-lookup"><span data-stu-id="e68e6-132">ConferenceUri</span></span></p></td>
+<td><p><span data-ttu-id="e68e6-133"><strong>sip:+14255550123@litwareinc.com</strong></span><span class="sxs-lookup"><span data-stu-id="e68e6-133"><strong>sip:+14255550123@litwareinc.com</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="321e7-134">ConferenceMode</span><span class="sxs-lookup"><span data-stu-id="321e7-134">ConferenceMode</span></span></p></td>
-<td><p><span data-ttu-id="321e7-135"><strong>twoway</strong></span><span class="sxs-lookup"><span data-stu-id="321e7-135"><strong>twoway</strong></span></span></p></td>
+<td><p><span data-ttu-id="e68e6-134">ConferenceMode</span><span class="sxs-lookup"><span data-stu-id="e68e6-134">ConferenceMode</span></span></p></td>
+<td><p><span data-ttu-id="e68e6-135"><strong>twoway</strong></span><span class="sxs-lookup"><span data-stu-id="e68e6-135"><strong>twoway</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="321e7-136">LocationRefreshInterval</span><span class="sxs-lookup"><span data-stu-id="321e7-136">LocationRefreshInterval</span></span></p></td>
-<td><p><span data-ttu-id="321e7-137"><strong>2</strong></span><span class="sxs-lookup"><span data-stu-id="321e7-137"><strong>2</strong></span></span></p></td>
+<td><p><span data-ttu-id="e68e6-136">LocationRefreshInterval</span><span class="sxs-lookup"><span data-stu-id="e68e6-136">LocationRefreshInterval</span></span></p></td>
+<td><p><span data-ttu-id="e68e6-137"><strong>2</strong></span><span class="sxs-lookup"><span data-stu-id="e68e6-137"><strong>2</strong></span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="321e7-138">위치 정책을 사용 하는 방법에 대 한 자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="321e7-138">For details about working with location policies, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="e68e6-138">위치 정책을 사용 하는 방법에 대 한 자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e68e6-138">For details about working with location policies, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - <span data-ttu-id="321e7-139">New-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="321e7-139">New-CsLocationPolicy</span></span>
+  - <span data-ttu-id="e68e6-139">New-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="e68e6-139">New-CsLocationPolicy</span></span>
 
-  - <span data-ttu-id="321e7-140">Get-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="321e7-140">Get-CsLocationPolicy</span></span>
+  - <span data-ttu-id="e68e6-140">Get-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="e68e6-140">Get-CsLocationPolicy</span></span>
 
-  - <span data-ttu-id="321e7-141">Set-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="321e7-141">Set-CsLocationPolicy</span></span>
+  - <span data-ttu-id="e68e6-141">Set-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="e68e6-141">Set-CsLocationPolicy</span></span>
 
-  - <span data-ttu-id="321e7-142">Remove-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="321e7-142">Remove-CsLocationPolicy</span></span>
+  - <span data-ttu-id="e68e6-142">Remove-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="e68e6-142">Remove-CsLocationPolicy</span></span>
 
-  - <span data-ttu-id="321e7-143">허용-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="321e7-143">Grant-CsLocationPolicy</span></span>
+  - <span data-ttu-id="e68e6-143">허용-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="e68e6-143">Grant-CsLocationPolicy</span></span>
 
 <div>
 
-## <a name="to-create-location-policies"></a><span data-ttu-id="321e7-144">위치 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="321e7-144">To create location policies</span></span>
+## <a name="to-create-location-policies"></a><span data-ttu-id="e68e6-144">위치 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="e68e6-144">To create location policies</span></span>
 
-1.  <span data-ttu-id="321e7-145">Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="321e7-145">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="e68e6-145">Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e68e6-145">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="321e7-146"><STRONG>PstnUsage</STRONG> 에 대 한 설정이 PstnUsages의 전역 목록에 없으면 CsLocationPolicy가 실패 합니다.</span><span class="sxs-lookup"><span data-stu-id="321e7-146">CsLocationPolicy will fail if the setting for <STRONG>PstnUsage</STRONG> is not already in the Global list of PstnUsages.</span></span>
+    > <span data-ttu-id="e68e6-146"><STRONG>PstnUsage</STRONG> 에 대 한 설정이 PstnUsages의 전역 목록에 없으면 CsLocationPolicy가 실패 합니다.</span><span class="sxs-lookup"><span data-stu-id="e68e6-146">CsLocationPolicy will fail if the setting for <STRONG>PstnUsage</STRONG> is not already in the Global list of PstnUsages.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="321e7-147">필요에 따라 다음 cmdlet을 실행 하 여 전역 위치 정책을 편집 합니다.</span><span class="sxs-lookup"><span data-stu-id="321e7-147">Optionally, run the following cmdlet to edit the global Location Policy:</span></span>
+2.  <span data-ttu-id="e68e6-147">필요에 따라 다음 cmdlet을 실행 하 여 전역 위치 정책을 편집 합니다.</span><span class="sxs-lookup"><span data-stu-id="e68e6-147">Optionally, run the following cmdlet to edit the global Location Policy:</span></span>
     
         Set-CsLocationPolicy -Identity Global -EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -PstnUsage "emergencyUsage" -EmergencyDialString "911" -ConferenceMode "twoway" -ConferenceUri "sip:+14255550123@litwareinc.com" -EmergencyDialMask "112" NotificationUri "sip:security@litwareinc.com" -UseLocationForE911Only $true -LocationRefreshInterval 2
 
-3.  <span data-ttu-id="321e7-148">다음을 실행 하 여 태그가 지정 된 위치 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="321e7-148">Run the following to create a tagged Location Policy.</span></span>
+3.  <span data-ttu-id="e68e6-148">다음을 실행 하 여 태그가 지정 된 위치 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="e68e6-148">Run the following to create a tagged Location Policy.</span></span>
     
         New-CsLocationPolicy -Identity Tag:Redmond - EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -UseLocationForE911Only $false -PstnUsage "EmergencyUsage" -EmergencyDialString "911" -EmergencyDialMask "112" -NotificationUri "sip:security@litwareinc.com" -ConferenceUri "sip:+14255550123@litwareinc.com" -ConferenceMode "twoway" -LocationRefreshInterval 2
 
-4.  <span data-ttu-id="321e7-149">3 단계에서 만든 태그가 지정 된 위치 정책을 사용자 정책에 적용 하려면 다음 cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="321e7-149">Run the following cmdlet to apply the tagged Location Policy created in step 3 to a user policy.</span></span>
+4.  <span data-ttu-id="e68e6-149">3 단계에서 만든 태그가 지정 된 위치 정책을 사용자 정책에 적용 하려면 다음 cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="e68e6-149">Run the following cmdlet to apply the tagged Location Policy created in step 3 to a user policy.</span></span>
     
         (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond
 
