@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 온-프레미스 통합 메시징 통합에 대한 지
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Guidelines for integrating on-premises Unified Messaging and Lync Server
 ms:assetid: 829ac017-6907-40f9-be22-787a28eae0ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398656(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15973bf2055339e375e4aecc7cfd1f61ac205dbb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f3e57245f0a8edf5b545f9a67547e6be6f63399
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984361"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -88,7 +90,7 @@ _**마지막으로 수정한 주제:** 2012-09-25_
 
 **예제 1: Exchange UM 복원**
 
-![EXCHANGE Um 예제 1](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "exchange um 예제 1")
+![Exchange UM 예제 1](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Exchange UM 예제 1")
 
 예제 1에서 Exchange UM 서버 1 및 2는 Tukwila 데이터 센터에서 사용 하도록 설정 되 고 Exchange UM 서버 3 및 4는 더블린 데이터 센터에서 사용 하도록 설정 됩니다. Tukwila에서 Exchange UM이 중단 되는 경우 DNS (Domain Name System)에서 서버 1 및 2에 대 한 레코드가 각각 서버 3과 4를 가리키도록 구성 되어야 합니다. 더블린에 Exchange UM이 중단 되는 경우 서버 3 및 4에 대 한 DNS A 레코드는 각각 서버 1과 2를 가리키도록 구성 되어야 합니다.
 
@@ -109,7 +111,7 @@ _**마지막으로 수정한 주제:** 2012-09-25_
 
 **예제 2: Exchange UM 복원**
 
-![EXCHANGE Um 예제 2](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "exchange um 예제 2")
+![Exchange UM 예제 2](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Exchange UM 예제 2")
 
 예제 2의 일반 작동 조건에서 Exchange UM 서버 1 및 2는 Tukwila 데이터 센터에서 사용 하도록 설정 되며 Exchange UM 서버 3 및 4는 더블린 데이터 센터에서 사용 하도록 설정 됩니다. 4 대의 모든 서버가 Tukwila 사용자의 SIP URI 다이얼 플랜에 포함 되어 있습니다. 그러나 서버 3 및 4는 사용할 수 없습니다. 예를 들어 Tukwila에서 Exchange UM을 중단 하는 경우 exchange UM 서버 1 및 2를 사용 하지 않도록 설정 하 고 Exchange um 서버 3 및 4를 사용 하 여 Tukwila Exchange UM 트래픽이 더블린의 서버로 라우팅되도록 해야 합니다.
 

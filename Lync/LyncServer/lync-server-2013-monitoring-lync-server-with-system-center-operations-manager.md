@@ -3,6 +3,8 @@ title: 'Lync Server 2013: System Center Operations Manager를 사용 하 여 Lyn
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring Lync 2013 with SCOM
 ms:assetid: a74bde92-97ff-4d90-acb9-7a70272f0f31
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720343(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969636
 ms.date: 05/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d243216518137c46098edadce7a58871a2a76058
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0b5a251853efe20cc867f78f4f932e2c43efd22c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976263"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756832"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

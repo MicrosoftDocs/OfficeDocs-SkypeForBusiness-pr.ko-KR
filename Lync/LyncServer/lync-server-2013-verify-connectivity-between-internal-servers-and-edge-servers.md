@@ -3,6 +3,8 @@ title: 내부 서버와 에지 서버 간의 연결 확인
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify connectivity between internal servers and Edge Servers
 ms:assetid: 219f706e-2b8a-46c5-b394-c384240eef50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398292(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e3868462036312be97484e41c69b51ae022b57c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27ca4874ac8c991828383afb524be1a1868bb7e8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982882"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

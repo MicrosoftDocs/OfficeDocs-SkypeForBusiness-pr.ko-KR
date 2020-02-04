@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 조직 구성 단위 권한 부여'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Granting organizational unit permissions
 ms:assetid: 95ee5ffa-39b1-4d80-87a2-27bb364f7396
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398763(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c65ff483fbb9c63d4eaca31eca47c9093d229438
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 084fb8cdebeda06d4441879f08f830021b65d2e3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979225"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763912"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

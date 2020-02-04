@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 비공식적인 음성 라우팅 테스트 실행'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Run informal voice routing tests
 ms:assetid: ea0e6059-bf04-4b03-b6d3-8f5534b731e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399049(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b47394f595926fe37df9a0809380ed96fa1dec66
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2f916de228545a560c94bc45ea0a774ccc538c60
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984030"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765076"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

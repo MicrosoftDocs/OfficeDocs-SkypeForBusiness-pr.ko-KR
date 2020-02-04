@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 통화 허용 제어 개요'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of call admission control
 ms:assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398529(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184474
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cba1a83ce64fa575cf5de724d5dd215fcb459c7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5b38fbb1ae1e209e5b5332e896d806d1ca24975
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979755"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755622"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -117,7 +119,7 @@ CDR (통화 정보 기록)는 PSTN 또는 음성 메일로 경로를 전환 하�
 
 **PSTN 연결에 대 한 통화 허용 제어 적용**
 
-![음성 Cac 미디어 연결 강제 적용](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "음성 CAC 미디어 무시 연결 강제 적용")
+![음성 CAC 미디어 바이패스 연결 적용](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "음성 CAC 미디어 바이패스 연결 적용")
 
 </div>
 
@@ -131,7 +133,7 @@ Office Communicator 2007 R2이 하 버전을 실행 하는 끝점에서는 통�
 
 **다른 Lync Server 버전에서 CAC 적용**
 
-![음성 Cac 버전 비교 다이어그램](images/Gg398529.fdbfee7e-15fc-445b-949d-8d61e61ac350(OCS.15).jpg "음성 CAC 버전 비교 다이어그램")
+![음성 CAC 버전 비교 다이어그램](images/Gg398529.fdbfee7e-15fc-445b-949d-8d61e61ac350(OCS.15).jpg "음성 CAC 버전 비교 다이어그램")
 
 </div>
 

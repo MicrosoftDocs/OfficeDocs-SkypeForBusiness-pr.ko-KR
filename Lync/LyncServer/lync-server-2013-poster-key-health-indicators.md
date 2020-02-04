@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 포스터: 주요 상태 표시기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Poster: Key Health Indicators'
 ms:assetid: 8367dccf-adaa-4a0b-a4ed-bc9570cc5e24
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593599(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9454197642ac87f5d8bc0d768795854d792f9a31
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 812ce68c84f86250fd25cc646bbcd5faddf0e566
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984977"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747448"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**마지막으로 수정한 주제:** 2014-02-10_
 
 이 문서는 다운로드 센터에서 다운로드할 수 있는 [정상적인 Lync server 포스터를 유지 관리 하는 주요 상태 표시기](http://go.microsoft.com/fwlink/?linkid=391838) 와 함께 제공 됩니다.
 
-Khi 데이터를(images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "사용한 문제 해결에 대") 한 자세한 문제 해결을 설명 ![하는 포스터 데이터 포스터 사용]
+![KHI 데이터를 사용하는 문제 해결에 대해 설명하는 포스터](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "KHI 데이터를 사용하는 문제 해결에 대해 설명하는 포스터")
 
 이 포스터를 사용 하 여 키 상태 표시기 (KHIs), 사용자 환경 문제 발생을 목표로 하는 임계값을 갖는 성능 카운터에 대해 알아볼 수 있습니다. KHI 데이터 수집은 일반적으로 Lync 사용자에 게 고품질 오디오 환경을 제공 하는 데 초점을 맞춘 CQM (통화 품질 방법론)를 구현 하기 위한 첫 번째 단계입니다.
 

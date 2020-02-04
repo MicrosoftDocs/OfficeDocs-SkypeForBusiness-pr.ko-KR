@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 가상 스마트 카드에 대해 Windows 8 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Windows 8 for Virtual Smart Cards
 ms:assetid: 4916c167-4ee3-4f3e-b65c-33e588595112
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308564(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 54973684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e177e5f9786b103c086630984be849c320801a82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b6298f7aa6a500a71c0b3732dd2f3d180e7192d3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985184"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733648"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

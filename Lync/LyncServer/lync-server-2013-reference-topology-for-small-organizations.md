@@ -3,6 +3,8 @@ title: 소규모 조직을 위한 Lync Server 2013 참조 토폴로지
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for small organizations
 ms:assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398095(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c06a3585a342ecc7fa7c41ff2b2b2682d2b8a0c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e0171d9678d5d890cf4ecb81f6de25f9b558b05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985751"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746868"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**마지막으로 수정한 주제:** 2013-10-07_
 
 **소규모 조직을 위한 참조 토폴로지**
 
-![참조 토폴로지 3 대의 서버 배포 다이어그램](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "참조 토폴로지 3 대의 서버 배포 다이어그램")
+![세 개의 서버를 배포하는 참조 토폴로지 다이어그램](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "세 개의 서버를 배포하는 참조 토폴로지 다이어그램")
 
   - ****    이 조직에 배포 된 Standard Edition server 쌍의 중앙 사이트에서 4000 사용자가 있습니다. 조직은 두 개의 표준 버전 서버를 배포 하 고 함께 사용 하 여 고가용성 및 재해 복구를 가능 하 게 합니다. 각 서버 홈에는 2000 사용자가 있지만, 모든 사용자에 대 한 정보는 두 서버 간에 동기화 됩니다. 그 중 하나가 발생 하는 경우 관리자는 다른 서버에서 해당 사용자에 게 서비스를 제공할 수 있으므로 사용자에 게 최소한의 장애가 있습니다. Lync Server 2013의 고가용성 및 재해 복구 기능에 대 한 자세한 내용은 [Lync server 2013의 고가용성 및 재해 복구 계획](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)을 참조 하세요.
 
