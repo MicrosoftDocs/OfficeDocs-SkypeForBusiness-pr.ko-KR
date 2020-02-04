@@ -3,6 +3,8 @@ title: 'Lync Server 2013: SIP/CSTA 게이트웨이 IP 주소 정의'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a SIP/CSTA gateway IP address
 ms:assetid: ae944057-3ad6-4474-a09b-81a3d27bd50f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg602125(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6143b4b92c8927375dcaa772360e0b3f870dae25
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c50958f2c7c44045e25ff4ac9619f3ad73a5f302
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984622"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728518"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40984622"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="define-a-sipcsta-gateway-ip-address-in-lync-server-2013"></a><span data-ttu-id="8bf70-102">Lync Server 2013에서 SIP/CSTA 게이트웨이 IP 주소 정의</span><span class="sxs-lookup"><span data-stu-id="8bf70-102">Define a SIP/CSTA gateway IP address in Lync Server 2013</span></span>
+# <a name="define-a-sipcsta-gateway-ip-address-in-lync-server-2013"></a><span data-ttu-id="04968-102">Lync Server 2013에서 SIP/CSTA 게이트웨이 IP 주소 정의</span><span class="sxs-lookup"><span data-stu-id="04968-102">Define a SIP/CSTA gateway IP address in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,41 +35,41 @@ ms.locfileid: "40984622"
 
 <span> </span>
 
-<span data-ttu-id="8bf70-103">_**마지막으로 수정한 주제:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="8bf70-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="04968-103">_**마지막으로 수정한 주제:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="04968-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="8bf70-104">Lync Server가 TCP (전송 제어 프로토콜) 연결을 사용 하 여 원격 통화 제어를 위해 배포한 SIP/CSTA 게이트웨이에 연결 하는 경우에는 토폴로지 작성기에서 게이트웨이의 IP 주소를 정의 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bf70-104">If Lync Server will connect to the SIP/CSTA gateway that you deployed for remote call control by using a Transmission Control Protocol (TCP) connection, then you must define the IP address of the gateway in Topology Builder.</span></span> <span data-ttu-id="8bf70-105">TLS (전송 계층 보안) 연결을 지 원하는 게이트웨이에는이 단계가 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="8bf70-105">This step is not necessary for gateways that support Transport Layer Security (TLS) connections.</span></span> <span data-ttu-id="8bf70-106">TLS 연결을 지 원하는 게이트웨이에서는 lync [Server 2013의 원격 통화 제어를 위해 lync 사용자 설정](lync-server-2013-enable-lync-users-for-remote-call-control.md)의 단계에 따라이 절차를 건너뛰고 원격 통화 제어를 계속 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bf70-106">For any gateway that supports TLS connections, you can skip this procedure and continue deployment of remote call control by following the steps in [Enable Lync users for remote call control in Lync Server 2013](lync-server-2013-enable-lync-users-for-remote-call-control.md).</span></span>
+<span data-ttu-id="04968-104">Lync Server가 TCP (전송 제어 프로토콜) 연결을 사용 하 여 원격 통화 제어를 위해 배포한 SIP/CSTA 게이트웨이에 연결 하는 경우에는 토폴로지 작성기에서 게이트웨이의 IP 주소를 정의 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="04968-104">If Lync Server will connect to the SIP/CSTA gateway that you deployed for remote call control by using a Transmission Control Protocol (TCP) connection, then you must define the IP address of the gateway in Topology Builder.</span></span> <span data-ttu-id="04968-105">TLS (전송 계층 보안) 연결을 지 원하는 게이트웨이에는이 단계가 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="04968-105">This step is not necessary for gateways that support Transport Layer Security (TLS) connections.</span></span> <span data-ttu-id="04968-106">TLS 연결을 지 원하는 게이트웨이에서는 lync [Server 2013의 원격 통화 제어를 위해 lync 사용자 설정](lync-server-2013-enable-lync-users-for-remote-call-control.md)의 단계에 따라이 절차를 건너뛰고 원격 통화 제어를 계속 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="04968-106">For any gateway that supports TLS connections, you can skip this procedure and continue deployment of remote call control by following the steps in [Enable Lync users for remote call control in Lync Server 2013](lync-server-2013-enable-lync-users-for-remote-call-control.md).</span></span>
 
 <div>
 
-## <a name="to-define-the-sipcsta-gateway-ip-address-by-using-topology-builder"></a><span data-ttu-id="8bf70-107">토폴로지 작성기를 사용 하 여 SIP/CSTA 게이트웨이 IP 주소를 정의 하려면</span><span class="sxs-lookup"><span data-stu-id="8bf70-107">To define the SIP/CSTA gateway IP address by using Topology Builder</span></span>
+## <a name="to-define-the-sipcsta-gateway-ip-address-by-using-topology-builder"></a><span data-ttu-id="04968-107">토폴로지 작성기를 사용 하 여 SIP/CSTA 게이트웨이 IP 주소를 정의 하려면</span><span class="sxs-lookup"><span data-stu-id="04968-107">To define the SIP/CSTA gateway IP address by using Topology Builder</span></span>
 
-1.  <span data-ttu-id="8bf70-108">도메인 관리자 그룹 및 RTCUniversalServerAdmins 그룹의 구성원으로 토폴로지 작성기가 설치 된 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bf70-108">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
+1.  <span data-ttu-id="04968-108">도메인 관리자 그룹 및 RTCUniversalServerAdmins 그룹의 구성원으로 토폴로지 작성기가 설치 된 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="04968-108">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
 
-2.  <span data-ttu-id="8bf70-109">토폴로지 작성기 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bf70-109">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+2.  <span data-ttu-id="04968-109">토폴로지 작성기 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="04968-109">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
-3.  <span data-ttu-id="8bf70-110">기존 토폴로지를 다운로드 하는 옵션을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bf70-110">Choose the option to download an existing topology.</span></span>
+3.  <span data-ttu-id="04968-110">기존 토폴로지를 다운로드 하는 옵션을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="04968-110">Choose the option to download an existing topology.</span></span>
 
-4.  <span data-ttu-id="8bf70-111">**신뢰할 수 있는 응용 프로그램 서버** 노드를 확장 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bf70-111">Expand the **Trusted application servers** node.</span></span>
+4.  <span data-ttu-id="04968-111">**신뢰할 수 있는 응용 프로그램 서버** 노드를 확장 합니다.</span><span class="sxs-lookup"><span data-stu-id="04968-111">Expand the **Trusted application servers** node.</span></span>
 
-5.  <span data-ttu-id="8bf70-112">[Lync Server 2013의 원격 통화 제어에 대 한 신뢰할 수 있는 응용 프로그램 항목 구성](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)에서 설명한 대로 만든 신뢰할 수 있는 응용 프로그램 풀을 마우스 오른쪽 단추로 클릭 한 다음 **속성 편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bf70-112">Right-click the trusted application pool that you created, as described in [Configure a trusted application entry for remote call control in Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md), and then click **Edit Properties**.</span></span>
+5.  <span data-ttu-id="04968-112">[Lync Server 2013의 원격 통화 제어에 대 한 신뢰할 수 있는 응용 프로그램 항목 구성](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)에서 설명한 대로 만든 신뢰할 수 있는 응용 프로그램 풀을 마우스 오른쪽 단추로 클릭 한 다음 **속성 편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="04968-112">Right-click the trusted application pool that you created, as described in [Configure a trusted application entry for remote call control in Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md), and then click **Edit Properties**.</span></span>
 
-6.  <span data-ttu-id="8bf70-113">**이 풀에 구성 데이터 복제 사용** 확인란의 선택을 취소 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bf70-113">Clear the **Enable replication of configuration data to this pool** check box.</span></span>
+6.  <span data-ttu-id="04968-113">**이 풀에 구성 데이터 복제 사용** 확인란의 선택을 취소 합니다.</span><span class="sxs-lookup"><span data-stu-id="04968-113">Clear the **Enable replication of configuration data to this pool** check box.</span></span>
 
-7.  <span data-ttu-id="8bf70-114">**선택한 IP 주소로 서비스 사용량 제한을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bf70-114">Click **Limit service usage to selected IP addresses**.</span></span> <span data-ttu-id="8bf70-115">기본 설정은 구성 된 **모든 IP 주소를 사용 하**는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="8bf70-115">The default setting is **Use all configured IP addresses**.</span></span>
+7.  <span data-ttu-id="04968-114">**선택한 IP 주소로 서비스 사용량 제한을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="04968-114">Click **Limit service usage to selected IP addresses**.</span></span> <span data-ttu-id="04968-115">기본 설정은 구성 된 **모든 IP 주소를 사용 하**는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="04968-115">The default setting is **Use all configured IP addresses**.</span></span>
 
-8.  <span data-ttu-id="8bf70-116">**기본 IP 주소** 텍스트 상자에 SIP/CSTA 게이트웨이의 IP 주소를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bf70-116">In the **Primary IP address** text box, enter the IP address of the SIP/CSTA gateway.</span></span>
+8.  <span data-ttu-id="04968-116">**기본 IP 주소** 텍스트 상자에 SIP/CSTA 게이트웨이의 IP 주소를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="04968-116">In the **Primary IP address** text box, enter the IP address of the SIP/CSTA gateway.</span></span>
 
-9.  <span data-ttu-id="8bf70-117">중앙 관리 저장소의 토폴로지를 업데이트 하려면 콘솔 트리에서 **Lync Server**를 클릭 한 다음 **작업** 창에서 **게시**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bf70-117">To update the topology in the Central Management store, in the console tree, click **Lync Server**, and then, from the **Actions** pane, click **Publish**.</span></span>
+9.  <span data-ttu-id="04968-117">중앙 관리 저장소의 토폴로지를 업데이트 하려면 콘솔 트리에서 **Lync Server**를 클릭 한 다음 **작업** 창에서 **게시**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="04968-117">To update the topology in the Central Management store, in the console tree, click **Lync Server**, and then, from the **Actions** pane, click **Publish**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="8bf70-118">참고 항목</span><span class="sxs-lookup"><span data-stu-id="8bf70-118">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="04968-118">참고 항목</span><span class="sxs-lookup"><span data-stu-id="04968-118">See Also</span></span>
 
 
-[<span data-ttu-id="8bf70-119">Lync Server 2013에서 원격 통화 제어에 대한 고정 경로 구성</span><span class="sxs-lookup"><span data-stu-id="8bf70-119">Configure a static route for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
-[<span data-ttu-id="8bf70-120">Lync Server 2013에서 원격 통화 제어를 위한 신뢰할 수 있는 응용 프로그램 항목 구성</span><span class="sxs-lookup"><span data-stu-id="8bf70-120">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
+[<span data-ttu-id="04968-119">Lync Server 2013에서 원격 통화 제어에 대한 고정 경로 구성</span><span class="sxs-lookup"><span data-stu-id="04968-119">Configure a static route for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
+[<span data-ttu-id="04968-120">Lync Server 2013에서 원격 통화 제어를 위한 신뢰할 수 있는 응용 프로그램 항목 구성</span><span class="sxs-lookup"><span data-stu-id="04968-120">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
   
 
 </div>

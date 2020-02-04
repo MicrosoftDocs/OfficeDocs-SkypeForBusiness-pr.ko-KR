@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 새 범주 만들기 또는 편집'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating or editing a new category
 ms:assetid: 895fa77f-3b79-47d3-836a-392e3781f13e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215879(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f044bd8afb0e120c45f998b8467e4af2f2a1589b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 88ca98ade04110aa2c6543e7f368d0fcd9b3e627
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984528"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722371"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40984528"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-editing-a-new-category-in-lync-server-2013"></a><span data-ttu-id="e0601-102">Lync Server 2013에서 새 범주 만들기 또는 편집</span><span class="sxs-lookup"><span data-stu-id="e0601-102">Creating or editing a new category in Lync Server 2013</span></span>
+# <a name="creating-or-editing-a-new-category-in-lync-server-2013"></a><span data-ttu-id="1c65a-102">Lync Server 2013에서 새 범주 만들기 또는 편집</span><span class="sxs-lookup"><span data-stu-id="1c65a-102">Creating or editing a new category in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "40984528"
 
 <span> </span>
 
-<span data-ttu-id="e0601-103">_**마지막으로 수정한 주제:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="e0601-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="1c65a-103">_**마지막으로 수정한 주제:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="1c65a-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="e0601-104">새 범주를 만들려면 배포 설명서의 [Lync Server 2013에서 범주 구성을](lync-server-2013-configure-categories.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e0601-104">To create a new category, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) in the Deployment documentation.</span></span> <span data-ttu-id="e0601-105">영구 채팅 관리자는 Lync Server 제어판 또는 Windows PowerShell cmdlet을 사용 하 여 범주를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e0601-105">If you are a Persistent Chat administrator, you can create categories by using the Lync Server Control Panel or Windows PowerShell cmdlets.</span></span>
+<span data-ttu-id="1c65a-104">새 범주를 만들려면 배포 설명서의 [Lync Server 2013에서 범주 구성을](lync-server-2013-configure-categories.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="1c65a-104">To create a new category, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) in the Deployment documentation.</span></span> <span data-ttu-id="1c65a-105">영구 채팅 관리자는 Lync Server 제어판 또는 Windows PowerShell cmdlet을 사용 하 여 범주를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1c65a-105">If you are a Persistent Chat administrator, you can create categories by using the Lync Server Control Panel or Windows PowerShell cmdlets.</span></span>
 
 </div>
 

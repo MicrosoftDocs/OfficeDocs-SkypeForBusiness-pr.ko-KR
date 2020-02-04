@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 인증서 요약 - NAT 사용 개인 IP 주소의 단�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Single consolidated edge with private IP addresses using NAT
 ms:assetid: 6de6680e-5f47-48e6-8e06-4994d710ea6d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398519(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77b9f2421d1ed6ef8a3127225f3911f0ea9a3973
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b76ba1e92c6c396b81e0a815a9b1368f90b8b85d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982337"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40982337"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a><span data-ttu-id="e1c39-102">인증서 요약 - Lync Server 2013의 NAT 사용 개인 IP 주소의 단일 통합 에지</span><span class="sxs-lookup"><span data-stu-id="e1c39-102">Certificate summary - Single consolidated edge with private IP addresses using NAT in Lync Server 2013</span></span>
+# <a name="certificate-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a><span data-ttu-id="c599e-102">인증서 요약 - Lync Server 2013의 NAT 사용 개인 IP 주소의 단일 통합 에지</span><span class="sxs-lookup"><span data-stu-id="c599e-102">Certificate summary - Single consolidated edge with private IP addresses using NAT in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,17 +35,17 @@ ms.locfileid: "40982337"
 
 <span> </span>
 
-<span data-ttu-id="e1c39-103">_**마지막으로 수정한 주제:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="e1c39-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="c599e-103">_**마지막으로 수정한 주제:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="c599e-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="e1c39-104">Microsoft Lync Server 2013는 인증서를 사용 하 여 다른 서버를 상호 인증 하 고 서버에서 서버와 서버 간의 데이터를 클라이언트에 암호화 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-104">Microsoft Lync Server 2013 uses certificates to mutually authenticate other servers and to encrypt data from server to server and server to client.</span></span> <span data-ttu-id="e1c39-105">인증서에는 서버와 연결 된 DNS (domain name system) 레코드와 인증서의 주체 이름 (SN) 및 주체 대체 이름 (SAN)의 이름이 일치 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-105">Certificates require name matching of the domain name system (DNS) records associated with the servers and the subject name (SN) and subject alternative name (SAN) on the certificate.</span></span> <span data-ttu-id="e1c39-106">서버, DNS 레코드, 인증서 항목을 성공적으로 매핑하려면 DNS에 등록 되어 있는 서버 정규화 된 도메인 이름 및 인증서의 SN 및 SAN 항목을 신중 하 게 계획 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-106">To successfully map servers, DNS records and certificate entries, you must carefully plan your intended server fully qualified domain names as registered in DNS and the SN and SAN entries on the certificate.</span></span>
+<span data-ttu-id="c599e-104">Microsoft Lync Server 2013는 인증서를 사용 하 여 다른 서버를 상호 인증 하 고 서버에서 서버와 서버 간의 데이터를 클라이언트에 암호화 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-104">Microsoft Lync Server 2013 uses certificates to mutually authenticate other servers and to encrypt data from server to server and server to client.</span></span> <span data-ttu-id="c599e-105">인증서에는 서버와 연결 된 DNS (domain name system) 레코드와 인증서의 주체 이름 (SN) 및 주체 대체 이름 (SAN)의 이름이 일치 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-105">Certificates require name matching of the domain name system (DNS) records associated with the servers and the subject name (SN) and subject alternative name (SAN) on the certificate.</span></span> <span data-ttu-id="c599e-106">서버, DNS 레코드, 인증서 항목을 성공적으로 매핑하려면 DNS에 등록 되어 있는 서버 정규화 된 도메인 이름 및 인증서의 SN 및 SAN 항목을 신중 하 게 계획 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-106">To successfully map servers, DNS records and certificate entries, you must carefully plan your intended server fully qualified domain names as registered in DNS and the SN and SAN entries on the certificate.</span></span>
 
-<span data-ttu-id="e1c39-107">Edge 서버의 외부 인터페이스에 할당 된 인증서는 공용 CA (인증 기관)에서 요청 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-107">The certificate assigned to the external interfaces of the Edge Server is requested from a public certification authority (CA).</span></span> <span data-ttu-id="e1c39-108">통합 커뮤니케이션의 목적으로 인증서를 제공 하는 데 성공 했다는 것을 보여 주는 공용 Ca는 다음 문서 [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)에 나열 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-108">Public CAs that have demonstrated success in supplying certificates for the purposes of Unified Communications are listed in the following article: [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395).</span></span> <span data-ttu-id="e1c39-109">인증서를 요청할 때 Lync Server 배포 마법사에서 생성 된 인증서 요청을 사용 하거나 Lync Server 관리 셸 cmdlet을 사용 하거나 공용 CA에서 제공 하는 프로세스를 통해 수동으로 요청을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-109">When requesting the certificate, you can use the certificate request generated by the Lync Server Deployment Wizard or create the request manually using Lync Server Management Shell cmdlets or by a process provided by a public CA.</span></span> <span data-ttu-id="e1c39-110">인증서 관리를 위한 Lync Server 관리 셸 cmdlet에 대 한 자세한 내용은 [Lync server 2013의 인증서 및 인증 cmdlet](https://docs.microsoft.com/powershell/module/skype/) 을 참조 하세요. 인증서를 할당할 때 인증서가 액세스에 지 서비스 인터페이스, 웹 회의 Edge 서비스 인터페이스 및 오디오/비디오 인증 서비스에 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-110">For details on Lync Server Management Shell cmdlets for certificate management, see [Certificate and authentication cmdlets in Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/) When assigning the certificate, the certificate is assigned to the Access Edge service interface, the Web Conferencing Edge service interface, and the Audio/Video Authentication service.</span></span> <span data-ttu-id="e1c39-111">오디오/비디오 인증 서비스는 오디오 및 비디오 스트림을 암호화 하는 데 인증서를 사용 하지 않는 A/V Edge 서비스와 혼동 하지 않아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-111">The Audio/Video Authentication service should not be confused with the A/V Edge service which does not use a certificate to encrypt the audio and video streams.</span></span> <span data-ttu-id="e1c39-112">내부에 지 서버 인터페이스는 내부 (조직에 대 한) CA 또는 공용 CA의 인증서에 대 한 인증서를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-112">The internal Edge Server interface can use a certificate from an internal (to your organization) CA or a certificate from a public CA.</span></span> <span data-ttu-id="e1c39-113">내부 인터페이스 인증서는 SN만 사용 하 고 SAN 항목은 필요 하지 않거나 사용할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-113">The internal interface certificate uses only the SN and does not need or use SAN entries.</span></span>
+<span data-ttu-id="c599e-107">Edge 서버의 외부 인터페이스에 할당 된 인증서는 공용 CA (인증 기관)에서 요청 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-107">The certificate assigned to the external interfaces of the Edge Server is requested from a public certification authority (CA).</span></span> <span data-ttu-id="c599e-108">통합 커뮤니케이션의 목적으로 인증서를 제공 하는 데 성공 했다는 것을 보여 주는 공용 Ca는 다음 문서 [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)에 나열 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-108">Public CAs that have demonstrated success in supplying certificates for the purposes of Unified Communications are listed in the following article: [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395).</span></span> <span data-ttu-id="c599e-109">인증서를 요청할 때 Lync Server 배포 마법사에서 생성 된 인증서 요청을 사용 하거나 Lync Server 관리 셸 cmdlet을 사용 하거나 공용 CA에서 제공 하는 프로세스를 통해 수동으로 요청을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-109">When requesting the certificate, you can use the certificate request generated by the Lync Server Deployment Wizard or create the request manually using Lync Server Management Shell cmdlets or by a process provided by a public CA.</span></span> <span data-ttu-id="c599e-110">인증서 관리를 위한 Lync Server 관리 셸 cmdlet에 대 한 자세한 내용은 [Lync server 2013의 인증서 및 인증 cmdlet](https://docs.microsoft.com/powershell/module/skype/) 을 참조 하세요. 인증서를 할당할 때 인증서가 액세스에 지 서비스 인터페이스, 웹 회의 Edge 서비스 인터페이스 및 오디오/비디오 인증 서비스에 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-110">For details on Lync Server Management Shell cmdlets for certificate management, see [Certificate and authentication cmdlets in Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/) When assigning the certificate, the certificate is assigned to the Access Edge service interface, the Web Conferencing Edge service interface, and the Audio/Video Authentication service.</span></span> <span data-ttu-id="c599e-111">오디오/비디오 인증 서비스는 오디오 및 비디오 스트림을 암호화 하는 데 인증서를 사용 하지 않는 A/V Edge 서비스와 혼동 하지 않아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-111">The Audio/Video Authentication service should not be confused with the A/V Edge service which does not use a certificate to encrypt the audio and video streams.</span></span> <span data-ttu-id="c599e-112">내부에 지 서버 인터페이스는 내부 (조직에 대 한) CA 또는 공용 CA의 인증서에 대 한 인증서를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-112">The internal Edge Server interface can use a certificate from an internal (to your organization) CA or a certificate from a public CA.</span></span> <span data-ttu-id="c599e-113">내부 인터페이스 인증서는 SN만 사용 하 고 SAN 항목은 필요 하지 않거나 사용할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-113">The internal interface certificate uses only the SN and does not need or use SAN entries.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e1c39-114">다음 표에서는 참조에 대 한 주체 대체 이름 목록의 두 번째 SIP 항목 (sip.fabrikam.com)을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-114">The following table shows a second SIP entry (sip.fabrikam.com) in the subject alternative name list for reference.</span></span> <span data-ttu-id="e1c39-115">조직의 각 SIP 도메인에 대해 인증서 주체 대체 이름 목록에 나열 된 해당 FQDN을 추가 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-115">For each SIP domain in your organization, you need to add a corresponding FQDN listed in the certificate subject alternative name list.</span></span>
+> <span data-ttu-id="c599e-114">다음 표에서는 참조에 대 한 주체 대체 이름 목록의 두 번째 SIP 항목 (sip.fabrikam.com)을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-114">The following table shows a second SIP entry (sip.fabrikam.com) in the subject alternative name list for reference.</span></span> <span data-ttu-id="c599e-115">조직의 각 SIP 도메인에 대해 인증서 주체 대체 이름 목록에 나열 된 해당 FQDN을 추가 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-115">For each SIP domain in your organization, you need to add a corresponding FQDN listed in the certificate subject alternative name list.</span></span>
 
 
 
@@ -51,7 +53,7 @@ ms.locfileid: "40982337"
 
 <div>
 
-## <a name="certificates-required-for-single-consolidated-edge-with-private-ip-addresses-using-nat"></a><span data-ttu-id="e1c39-116">NAT를 사용 하 여 개인 IP 주소가 있는 단일 통합 된 가장자리에 인증서가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-116">Certificates Required for Single Consolidated Edge with Private IP Addresses using NAT</span></span>
+## <a name="certificates-required-for-single-consolidated-edge-with-private-ip-addresses-using-nat"></a><span data-ttu-id="c599e-116">NAT를 사용 하 여 개인 IP 주소가 있는 단일 통합 된 가장자리에 인증서가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-116">Certificates Required for Single Consolidated Edge with Private IP Addresses using NAT</span></span>
 
 
 <table>
@@ -63,32 +65,32 @@ ms.locfileid: "40982337"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e1c39-117">요소가</span><span class="sxs-lookup"><span data-stu-id="e1c39-117">Component</span></span></th>
-<th><span data-ttu-id="e1c39-118">주체 이름 (SN)</span><span class="sxs-lookup"><span data-stu-id="e1c39-118">Subject name (SN)</span></span></th>
-<th><span data-ttu-id="e1c39-119">SAN (주체 대체 이름)/Order</span><span class="sxs-lookup"><span data-stu-id="e1c39-119">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="e1c39-120">메모</span><span class="sxs-lookup"><span data-stu-id="e1c39-120">Comments</span></span></th>
+<th><span data-ttu-id="c599e-117">요소가</span><span class="sxs-lookup"><span data-stu-id="c599e-117">Component</span></span></th>
+<th><span data-ttu-id="c599e-118">주체 이름 (SN)</span><span class="sxs-lookup"><span data-stu-id="c599e-118">Subject name (SN)</span></span></th>
+<th><span data-ttu-id="c599e-119">SAN (주체 대체 이름)/Order</span><span class="sxs-lookup"><span data-stu-id="c599e-119">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="c599e-120">메모</span><span class="sxs-lookup"><span data-stu-id="c599e-120">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e1c39-121">단일 통합 된 가장자리 (외부 가장자리)</span><span class="sxs-lookup"><span data-stu-id="e1c39-121">Single consolidated Edge (External Edge)</span></span></p></td>
-<td><p><span data-ttu-id="e1c39-122">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e1c39-122">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="e1c39-123">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e1c39-123">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="e1c39-124">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e1c39-124">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="e1c39-125">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="e1c39-125">sip.fabrikam.com</span></span></p></td>
-<td><p><span data-ttu-id="e1c39-126">인증서는 공용 CA에서 가져온 것 이어야 하며 AOL과 공용 IM 연결을 배포 하는 경우 서버 EKU 및 클라이언트 EKU가 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-126">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="e1c39-127">인증서는 다음에 대 한 외부에 지 인터페이스에 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-127">The certificate is assigned to the external Edge interfaces for:</span></span></p>
+<td><p><span data-ttu-id="c599e-121">단일 통합 된 가장자리 (외부 가장자리)</span><span class="sxs-lookup"><span data-stu-id="c599e-121">Single consolidated Edge (External Edge)</span></span></p></td>
+<td><p><span data-ttu-id="c599e-122">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c599e-122">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="c599e-123">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c599e-123">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="c599e-124">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c599e-124">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="c599e-125">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="c599e-125">sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="c599e-126">인증서는 공용 CA에서 가져온 것 이어야 하며 AOL과 공용 IM 연결을 배포 하는 경우 서버 EKU 및 클라이언트 EKU가 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-126">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="c599e-127">인증서는 다음에 대 한 외부에 지 인터페이스에 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-127">The certificate is assigned to the external Edge interfaces for:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="e1c39-128">액세스에 지</span><span class="sxs-lookup"><span data-stu-id="e1c39-128">Access Edge</span></span></p></li>
-<li><p><span data-ttu-id="e1c39-129">회의 가장자리</span><span class="sxs-lookup"><span data-stu-id="e1c39-129">Conferencing Edge</span></span></p></li>
-<li><p><span data-ttu-id="e1c39-130">A/V 가장자리</span><span class="sxs-lookup"><span data-stu-id="e1c39-130">A/V Edge</span></span></p></li>
+<li><p><span data-ttu-id="c599e-128">액세스에 지</span><span class="sxs-lookup"><span data-stu-id="c599e-128">Access Edge</span></span></p></li>
+<li><p><span data-ttu-id="c599e-129">회의 가장자리</span><span class="sxs-lookup"><span data-stu-id="c599e-129">Conferencing Edge</span></span></p></li>
+<li><p><span data-ttu-id="c599e-130">A/V 가장자리</span><span class="sxs-lookup"><span data-stu-id="c599e-130">A/V Edge</span></span></p></li>
 </ul>
-<p><span data-ttu-id="e1c39-131">San은 토폴로지 작성기의 정의에 따라 인증서에 자동으로 추가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-131">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder.</span></span> <span data-ttu-id="e1c39-132">추가 SIP 도메인 및 지원 해야 하는 기타 항목에 대해 필요한 경우 SAN 항목을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-132">You add SAN entries as needed for additional SIP domains and other entries that you need to support.</span></span> <span data-ttu-id="e1c39-133">주체 이름이 SAN에 복제 되 고 올바른 작업을 위해 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-133">The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
+<p><span data-ttu-id="c599e-131">San은 토폴로지 작성기의 정의에 따라 인증서에 자동으로 추가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-131">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder.</span></span> <span data-ttu-id="c599e-132">추가 SIP 도메인 및 지원 해야 하는 기타 항목에 대해 필요한 경우 SAN 항목을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-132">You add SAN entries as needed for additional SIP domains and other entries that you need to support.</span></span> <span data-ttu-id="c599e-133">주체 이름이 SAN에 복제 되 고 올바른 작업을 위해 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-133">The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1c39-134">단일 통합 된 가장자리 (내부 가장자리)</span><span class="sxs-lookup"><span data-stu-id="e1c39-134">Single consolidated Edge (Internal Edge)</span></span></p></td>
-<td><p><span data-ttu-id="e1c39-135">lsedge.contoso.net</span><span class="sxs-lookup"><span data-stu-id="e1c39-135">lsedge.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="e1c39-136">SAN 필요 없음</span><span class="sxs-lookup"><span data-stu-id="e1c39-136">No SAN required</span></span></p></td>
-<td><p><span data-ttu-id="e1c39-137">인증서는 공용 또는 개인 CA에 의해 발급 될 수 있으며 서버 EKU를 포함 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-137">Certificate can be issued by a public or private CA, and must contain the server EKU.</span></span> <span data-ttu-id="e1c39-138">인증서가 내부에 지 인터페이스에 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-138">The certificate is assigned to the internal Edge interface.</span></span></p></td>
+<td><p><span data-ttu-id="c599e-134">단일 통합 된 가장자리 (내부 가장자리)</span><span class="sxs-lookup"><span data-stu-id="c599e-134">Single consolidated Edge (Internal Edge)</span></span></p></td>
+<td><p><span data-ttu-id="c599e-135">lsedge.contoso.net</span><span class="sxs-lookup"><span data-stu-id="c599e-135">lsedge.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="c599e-136">SAN 필요 없음</span><span class="sxs-lookup"><span data-stu-id="c599e-136">No SAN required</span></span></p></td>
+<td><p><span data-ttu-id="c599e-137">인증서는 공용 또는 개인 CA에 의해 발급 될 수 있으며 서버 EKU를 포함 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-137">Certificate can be issued by a public or private CA, and must contain the server EKU.</span></span> <span data-ttu-id="c599e-138">인증서가 내부에 지 인터페이스에 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-138">The certificate is assigned to the internal Edge interface.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -98,7 +100,7 @@ ms.locfileid: "40982337"
 
 <div>
 
-## <a name="certificate-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="e1c39-139">인증서 요약-공용 인스턴트 메시지 연결</span><span class="sxs-lookup"><span data-stu-id="e1c39-139">Certificate Summary – Public Instant Messaging Connectivity</span></span>
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="c599e-139">인증서 요약-공용 인스턴트 메시지 연결</span><span class="sxs-lookup"><span data-stu-id="c599e-139">Certificate Summary – Public Instant Messaging Connectivity</span></span>
 
 
 <table>
@@ -110,26 +112,26 @@ ms.locfileid: "40982337"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e1c39-140">요소가</span><span class="sxs-lookup"><span data-stu-id="e1c39-140">Component</span></span></th>
-<th><span data-ttu-id="e1c39-141">주체 이름</span><span class="sxs-lookup"><span data-stu-id="e1c39-141">Subject name</span></span></th>
-<th><span data-ttu-id="e1c39-142">SAN (주체 대체 이름)/Order</span><span class="sxs-lookup"><span data-stu-id="e1c39-142">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="e1c39-143">메모</span><span class="sxs-lookup"><span data-stu-id="e1c39-143">Comments</span></span></th>
+<th><span data-ttu-id="c599e-140">요소가</span><span class="sxs-lookup"><span data-stu-id="c599e-140">Component</span></span></th>
+<th><span data-ttu-id="c599e-141">주체 이름</span><span class="sxs-lookup"><span data-stu-id="c599e-141">Subject name</span></span></th>
+<th><span data-ttu-id="c599e-142">SAN (주체 대체 이름)/Order</span><span class="sxs-lookup"><span data-stu-id="c599e-142">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="c599e-143">메모</span><span class="sxs-lookup"><span data-stu-id="c599e-143">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e1c39-144">외부/액세스에 지</span><span class="sxs-lookup"><span data-stu-id="e1c39-144">External/Access Edge</span></span></p></td>
-<td><p><span data-ttu-id="e1c39-145">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e1c39-145">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="e1c39-146">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e1c39-146">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="e1c39-147">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e1c39-147">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="e1c39-148">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="e1c39-148">sip.fabrikam.com</span></span></p></td>
-<td><p><span data-ttu-id="e1c39-149">인증서는 공용 CA에서 가져온 것 이어야 하며 AOL과 공용 IM 연결을 배포 하는 경우 서버 EKU 및 클라이언트 EKU가 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-149">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="e1c39-150">인증서는 다음에 대 한 외부에 지 인터페이스에 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-150">The certificate is assigned to the external Edge interfaces for:</span></span></p>
+<td><p><span data-ttu-id="c599e-144">외부/액세스에 지</span><span class="sxs-lookup"><span data-stu-id="c599e-144">External/Access Edge</span></span></p></td>
+<td><p><span data-ttu-id="c599e-145">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c599e-145">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="c599e-146">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c599e-146">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="c599e-147">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c599e-147">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="c599e-148">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="c599e-148">sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="c599e-149">인증서는 공용 CA에서 가져온 것 이어야 하며 AOL과 공용 IM 연결을 배포 하는 경우 서버 EKU 및 클라이언트 EKU가 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-149">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="c599e-150">인증서는 다음에 대 한 외부에 지 인터페이스에 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-150">The certificate is assigned to the external Edge interfaces for:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="e1c39-151">액세스에 지</span><span class="sxs-lookup"><span data-stu-id="e1c39-151">Access Edge</span></span></p></li>
-<li><p><span data-ttu-id="e1c39-152">회의 가장자리</span><span class="sxs-lookup"><span data-stu-id="e1c39-152">Conferencing Edge</span></span></p></li>
-<li><p><span data-ttu-id="e1c39-153">A/V 가장자리</span><span class="sxs-lookup"><span data-stu-id="e1c39-153">A/V Edge</span></span></p></li>
+<li><p><span data-ttu-id="c599e-151">액세스에 지</span><span class="sxs-lookup"><span data-stu-id="c599e-151">Access Edge</span></span></p></li>
+<li><p><span data-ttu-id="c599e-152">회의 가장자리</span><span class="sxs-lookup"><span data-stu-id="c599e-152">Conferencing Edge</span></span></p></li>
+<li><p><span data-ttu-id="c599e-153">A/V 가장자리</span><span class="sxs-lookup"><span data-stu-id="c599e-153">A/V Edge</span></span></p></li>
 </ul>
-<p><span data-ttu-id="e1c39-154">San은 토폴로지 작성기의 정의에 따라 인증서에 자동으로 추가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-154">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder.</span></span> <span data-ttu-id="e1c39-155">추가 SIP 도메인 및 지원 해야 하는 기타 항목에 대해 필요한 경우 SAN 항목을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-155">You add SAN entries as needed for additional SIP domains and other entries that you need to support.</span></span> <span data-ttu-id="e1c39-156">주체 이름이 SAN에 복제 되 고 올바른 작업을 위해 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-156">The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
+<p><span data-ttu-id="c599e-154">San은 토폴로지 작성기의 정의에 따라 인증서에 자동으로 추가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-154">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder.</span></span> <span data-ttu-id="c599e-155">추가 SIP 도메인 및 지원 해야 하는 기타 항목에 대해 필요한 경우 SAN 항목을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-155">You add SAN entries as needed for additional SIP domains and other entries that you need to support.</span></span> <span data-ttu-id="c599e-156">주체 이름이 SAN에 복제 되 고 올바른 작업을 위해 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-156">The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -139,7 +141,7 @@ ms.locfileid: "40982337"
 
 <div>
 
-## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="e1c39-157">확장 가능한 메시징 및 현재 상태 프로토콜에 대 한 인증서 요약</span><span class="sxs-lookup"><span data-stu-id="e1c39-157">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
+## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="c599e-157">확장 가능한 메시징 및 현재 상태 프로토콜에 대 한 인증서 요약</span><span class="sxs-lookup"><span data-stu-id="c599e-157">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -151,22 +153,22 @@ ms.locfileid: "40982337"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e1c39-158">요소가</span><span class="sxs-lookup"><span data-stu-id="e1c39-158">Component</span></span></th>
-<th><span data-ttu-id="e1c39-159">주체 이름</span><span class="sxs-lookup"><span data-stu-id="e1c39-159">Subject name</span></span></th>
-<th><span data-ttu-id="e1c39-160">SAN (주체 대체 이름)/Order</span><span class="sxs-lookup"><span data-stu-id="e1c39-160">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="e1c39-161">메모</span><span class="sxs-lookup"><span data-stu-id="e1c39-161">Comments</span></span></th>
+<th><span data-ttu-id="c599e-158">요소가</span><span class="sxs-lookup"><span data-stu-id="c599e-158">Component</span></span></th>
+<th><span data-ttu-id="c599e-159">주체 이름</span><span class="sxs-lookup"><span data-stu-id="c599e-159">Subject name</span></span></th>
+<th><span data-ttu-id="c599e-160">SAN (주체 대체 이름)/Order</span><span class="sxs-lookup"><span data-stu-id="c599e-160">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="c599e-161">메모</span><span class="sxs-lookup"><span data-stu-id="c599e-161">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e1c39-162">Edge 서버 또는 Edge 풀에 대 한 액세스에 지 서비스에 할당</span><span class="sxs-lookup"><span data-stu-id="e1c39-162">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
-<td><p><span data-ttu-id="e1c39-163">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e1c39-163">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="e1c39-164">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e1c39-164">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="e1c39-165">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e1c39-165">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="e1c39-166">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="e1c39-166">sip.fabrikam.com</span></span></p>
-<p><span data-ttu-id="e1c39-167">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e1c39-167">xmpp.contoso.com</span></span></p>
-<p><span data-ttu-id="e1c39-168"><strong>\*. contoso.com</strong></span><span class="sxs-lookup"><span data-stu-id="e1c39-168"><strong>\*.contoso.com</strong></span></span></p></td>
-<td><p><span data-ttu-id="e1c39-169">처음 세 개의 SAN 항목은 전체 Edge 서버에 대 한 일반적인 SAN 항목입니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-169">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="e1c39-170">Contoso.com는 루트 도메인 수준의 XMPP 파트너와 페더레이션 하는 데 필요한 항목입니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-170">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="e1c39-171">이 항목은 접미사 \*. contoso.com를 사용 하는 모든 도메인에 대해 XMPP를 허용 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1c39-171">This entry will allow XMPP for all domains with the suffix \*.contoso.com.</span></span></p></td>
+<td><p><span data-ttu-id="c599e-162">Edge 서버 또는 Edge 풀에 대 한 액세스에 지 서비스에 할당</span><span class="sxs-lookup"><span data-stu-id="c599e-162">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
+<td><p><span data-ttu-id="c599e-163">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c599e-163">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="c599e-164">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c599e-164">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="c599e-165">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c599e-165">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="c599e-166">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="c599e-166">sip.fabrikam.com</span></span></p>
+<p><span data-ttu-id="c599e-167">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c599e-167">xmpp.contoso.com</span></span></p>
+<p><span data-ttu-id="c599e-168"><strong>\*. contoso.com</strong></span><span class="sxs-lookup"><span data-stu-id="c599e-168"><strong>\*.contoso.com</strong></span></span></p></td>
+<td><p><span data-ttu-id="c599e-169">처음 세 개의 SAN 항목은 전체 Edge 서버에 대 한 일반적인 SAN 항목입니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-169">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="c599e-170">Contoso.com는 루트 도메인 수준의 XMPP 파트너와 페더레이션 하는 데 필요한 항목입니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-170">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="c599e-171">이 항목은 접미사 \*. contoso.com를 사용 하는 모든 도메인에 대해 XMPP를 허용 합니다.</span><span class="sxs-lookup"><span data-stu-id="c599e-171">This entry will allow XMPP for all domains with the suffix \*.contoso.com.</span></span></p></td>
 </tr>
 </tbody>
 </table>

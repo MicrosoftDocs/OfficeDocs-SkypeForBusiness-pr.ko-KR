@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 시작'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Getting started
 ms:assetid: 8528232b-3709-472c-91e3-f1e8171af8cd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398676(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184710
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4844e4b11e78063af649832ccb2e2c41aa5aa3a0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf52f501a11f8a7268914a856d8d044c68abb341
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983162"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742428"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40983162"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="getting-started-with-lync-server-2013"></a><span data-ttu-id="bda4c-102">Lync Server 2013 시작</span><span class="sxs-lookup"><span data-stu-id="bda4c-102">Getting started with Lync Server 2013</span></span>
+# <a name="getting-started-with-lync-server-2013"></a><span data-ttu-id="47067-102">Lync Server 2013 시작</span><span class="sxs-lookup"><span data-stu-id="47067-102">Getting started with Lync Server 2013</span></span>
 
 </div>
 
@@ -33,23 +35,23 @@ ms.locfileid: "40983162"
 
 <span> </span>
 
-<span data-ttu-id="bda4c-103">_**마지막으로 수정한 주제:** 2015-04-03_</span><span class="sxs-lookup"><span data-stu-id="bda4c-103">_**Topic Last Modified:** 2015-04-03_</span></span>
+<span data-ttu-id="47067-103">_**마지막으로 수정한 주제:** 2015-04-03_</span><span class="sxs-lookup"><span data-stu-id="47067-103">_**Topic Last Modified:** 2015-04-03_</span></span>
 
-<span data-ttu-id="bda4c-104">Lync Server 2013는 조직의 공동 작업 및 통신을 향상 시킬 수 있는 다양 한 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="bda4c-104">Lync Server 2013 offers many features to enhance collaboration and communication in your organization.</span></span> <span data-ttu-id="bda4c-105">이러한 기능 중 상당수는 이전 버전에서 제공 하는 것과 비교 하 여 새로 만들어졌습니다.</span><span class="sxs-lookup"><span data-stu-id="bda4c-105">Many of these features are new compared to what was available in previous versions.</span></span> <span data-ttu-id="bda4c-106">이 섹션의 항목에서는 새 기능에 대 한 간략 한 개요를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="bda4c-106">The topics in this section give a brief overview of the new capabilities.</span></span>
+<span data-ttu-id="47067-104">Lync Server 2013는 조직의 공동 작업 및 통신을 향상 시킬 수 있는 다양 한 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="47067-104">Lync Server 2013 offers many features to enhance collaboration and communication in your organization.</span></span> <span data-ttu-id="47067-105">이러한 기능 중 상당수는 이전 버전에서 제공 하는 것과 비교 하 여 새로 만들어졌습니다.</span><span class="sxs-lookup"><span data-stu-id="47067-105">Many of these features are new compared to what was available in previous versions.</span></span> <span data-ttu-id="47067-106">이 섹션의 항목에서는 새 기능에 대 한 간략 한 개요를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="47067-106">The topics in this section give a brief overview of the new capabilities.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="bda4c-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="bda4c-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="47067-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="47067-107">In This Section</span></span>
 
-  - [<span data-ttu-id="bda4c-108">Lync Server 2013 소개</span><span class="sxs-lookup"><span data-stu-id="bda4c-108">Introduction to Lync Server 2013</span></span>](lync-server-2013-introduction.md)
+  - [<span data-ttu-id="47067-108">Lync Server 2013 소개</span><span class="sxs-lookup"><span data-stu-id="47067-108">Introduction to Lync Server 2013</span></span>](lync-server-2013-introduction.md)
 
-  - [<span data-ttu-id="bda4c-109">Lync Server 2013의 새로운 기능</span><span class="sxs-lookup"><span data-stu-id="bda4c-109">New features in Lync Server 2013</span></span>](lync-server-2013-new-features.md)
+  - [<span data-ttu-id="47067-109">Lync Server 2013의 새로운 기능</span><span class="sxs-lookup"><span data-stu-id="47067-109">New features in Lync Server 2013</span></span>](lync-server-2013-new-features.md)
 
-  - [<span data-ttu-id="bda4c-110">Lync Server 2013의 새로운 클라이언트 기능</span><span class="sxs-lookup"><span data-stu-id="bda4c-110">New client features in Lync Server 2013</span></span>](lync-server-2013-new-client-features.md)
+  - [<span data-ttu-id="47067-110">Lync Server 2013의 새로운 클라이언트 기능</span><span class="sxs-lookup"><span data-stu-id="47067-110">New client features in Lync Server 2013</span></span>](lync-server-2013-new-client-features.md)
 
-  - [<span data-ttu-id="bda4c-111">비즈니스용 Skype에서 클라이언트 환경 구성</span><span class="sxs-lookup"><span data-stu-id="bda4c-111">Configure the client experience with Skype for Business</span></span>](configure-the-skype-for-business-client-in-lync-server-2013.md)
+  - [<span data-ttu-id="47067-111">비즈니스용 Skype에서 클라이언트 환경 구성</span><span class="sxs-lookup"><span data-stu-id="47067-111">Configure the client experience with Skype for Business</span></span>](configure-the-skype-for-business-client-in-lync-server-2013.md)
 
-  - [<span data-ttu-id="bda4c-112">Lync Server 2013 릴리스 정보</span><span class="sxs-lookup"><span data-stu-id="bda4c-112">Release notes for Lync Server 2013</span></span>](lync-server-2013-release-notes.md)
+  - [<span data-ttu-id="47067-112">Lync Server 2013 릴리스 정보</span><span class="sxs-lookup"><span data-stu-id="47067-112">Release notes for Lync Server 2013</span></span>](lync-server-2013-release-notes.md)
 
 </div>
 

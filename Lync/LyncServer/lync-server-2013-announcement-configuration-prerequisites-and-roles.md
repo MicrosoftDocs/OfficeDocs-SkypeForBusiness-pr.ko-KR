@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 알림 구성 필수 구성 요소 및 역할'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Announcement configuration prerequisites and roles
 ms:assetid: 82f2dfe9-4c5e-4d65-96a1-96495d506ea4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398658(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb5f909170e1de2566e21e9305175211c306fee6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42cbc1429d4e27ee172dc1dacf6b86fa6ac243d9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985627"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737808"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40985627"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a><span data-ttu-id="d963c-102">Lync Server 2013의 알림 구성 필수 구성 요소 및 역할</span><span class="sxs-lookup"><span data-stu-id="d963c-102">Announcement configuration prerequisites and roles in Lync Server 2013</span></span>
+# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a><span data-ttu-id="c3b66-102">Lync Server 2013의 알림 구성 필수 구성 요소 및 역할</span><span class="sxs-lookup"><span data-stu-id="c3b66-102">Announcement configuration prerequisites and roles in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,53 +35,53 @@ ms.locfileid: "40985627"
 
 <span> </span>
 
-<span data-ttu-id="d963c-103">_**마지막으로 수정한 주제:** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="d963c-103">_**Topic Last Modified:** 2013-02-25_</span></span>
+<span data-ttu-id="c3b66-103">_**마지막으로 수정한 주제:** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="c3b66-103">_**Topic Last Modified:** 2013-02-25_</span></span>
 
-<span data-ttu-id="d963c-104">공지 사항은 엔터프라이즈 음성 통화 관리 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="d963c-104">Announcement is an Enterprise Voice call management feature.</span></span> <span data-ttu-id="d963c-105">이 항목에서는 알림 및 구성 작업을 수행 하는 데 필요한 역할 할당을 구성할 수 있도록 하기 위해 필요한 사항에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="d963c-105">This topic describes what you need to have in place before you can configure Announcement and the role assignments that you need to perform configuration tasks.</span></span>
+<span data-ttu-id="c3b66-104">공지 사항은 엔터프라이즈 음성 통화 관리 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="c3b66-104">Announcement is an Enterprise Voice call management feature.</span></span> <span data-ttu-id="c3b66-105">이 항목에서는 알림 및 구성 작업을 수행 하는 데 필요한 역할 할당을 구성할 수 있도록 하기 위해 필요한 사항에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="c3b66-105">This topic describes what you need to have in place before you can configure Announcement and the role assignments that you need to perform configuration tasks.</span></span>
 
-<span data-ttu-id="d963c-106">이 섹션에서는 공지와 관련 된 계획 문서를 읽은 것으로 가정 합니다 ( [Lync Server 2013의 통화 관리 기능 계획](lync-server-2013-planning-for-call-management-features.md)참조).</span><span class="sxs-lookup"><span data-stu-id="d963c-106">This section assumes that you have read the planning documentation related to Announcement (see [Planning for call management features in Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).</span></span>
+<span data-ttu-id="c3b66-106">이 섹션에서는 공지와 관련 된 계획 문서를 읽은 것으로 가정 합니다 ( [Lync Server 2013의 통화 관리 기능 계획](lync-server-2013-planning-for-call-management-features.md)참조).</span><span class="sxs-lookup"><span data-stu-id="c3b66-106">This section assumes that you have read the planning documentation related to Announcement (see [Planning for call management features in Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).</span></span>
 
 <div>
 
-## <a name="announcement-configuration-prerequisites"></a><span data-ttu-id="d963c-107">알림 구성 필수 조건</span><span class="sxs-lookup"><span data-stu-id="d963c-107">Announcement Configuration Prerequisites</span></span>
+## <a name="announcement-configuration-prerequisites"></a><span data-ttu-id="c3b66-107">알림 구성 필수 조건</span><span class="sxs-lookup"><span data-stu-id="c3b66-107">Announcement Configuration Prerequisites</span></span>
 
-<span data-ttu-id="d963c-108">알림 신청에는 다음 구성 요소가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="d963c-108">The Announcement application requires the following components:</span></span>
+<span data-ttu-id="c3b66-108">알림 신청에는 다음 구성 요소가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="c3b66-108">The Announcement application requires the following components:</span></span>
 
-  - <span data-ttu-id="d963c-109">응용 프로그램 서비스</span><span class="sxs-lookup"><span data-stu-id="d963c-109">Application service</span></span>
+  - <span data-ttu-id="c3b66-109">응용 프로그램 서비스</span><span class="sxs-lookup"><span data-stu-id="c3b66-109">Application service</span></span>
 
-  - <span data-ttu-id="d963c-110">응답 그룹 응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="d963c-110">Response Group application</span></span>
+  - <span data-ttu-id="c3b66-110">응답 그룹 응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="c3b66-110">Response Group application</span></span>
 
-  - <span data-ttu-id="d963c-111">파일 저장소, 오디오 파일 저장</span><span class="sxs-lookup"><span data-stu-id="d963c-111">File Store, to hold audio files</span></span>
+  - <span data-ttu-id="c3b66-111">파일 저장소, 오디오 파일 저장</span><span class="sxs-lookup"><span data-stu-id="c3b66-111">File Store, to hold audio files</span></span>
 
-<span data-ttu-id="d963c-112">이러한 구성 요소는 모두 엔터프라이즈 음성을 구축할 때 기본적으로 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d963c-112">All of these components are installed by default when you deploy Enterprise Voice.</span></span>
+<span data-ttu-id="c3b66-112">이러한 구성 요소는 모두 엔터프라이즈 음성을 구축할 때 기본적으로 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c3b66-112">All of these components are installed by default when you deploy Enterprise Voice.</span></span>
 
 </div>
 
 <div>
 
-## <a name="announcement-configuration-roles"></a><span data-ttu-id="d963c-113">알림 구성 역할</span><span class="sxs-lookup"><span data-stu-id="d963c-113">Announcement Configuration Roles</span></span>
+## <a name="announcement-configuration-roles"></a><span data-ttu-id="c3b66-113">알림 구성 역할</span><span class="sxs-lookup"><span data-stu-id="c3b66-113">Announcement Configuration Roles</span></span>
 
-<span data-ttu-id="d963c-114">다음 관리 도구를 사용 하 여 알림을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d963c-114">You can use the following administrative tools to configure announcements:</span></span>
+<span data-ttu-id="c3b66-114">다음 관리 도구를 사용 하 여 알림을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c3b66-114">You can use the following administrative tools to configure announcements:</span></span>
 
-  - <span data-ttu-id="d963c-115">Lync Server 제어판</span><span class="sxs-lookup"><span data-stu-id="d963c-115">Lync Server Control Panel</span></span>
+  - <span data-ttu-id="c3b66-115">Lync Server 제어판</span><span class="sxs-lookup"><span data-stu-id="c3b66-115">Lync Server Control Panel</span></span>
 
-  - <span data-ttu-id="d963c-116">Lync Server Management Shell</span><span class="sxs-lookup"><span data-stu-id="d963c-116">Lync Server Management Shell</span></span>
+  - <span data-ttu-id="c3b66-116">Lync Server Management Shell</span><span class="sxs-lookup"><span data-stu-id="c3b66-116">Lync Server Management Shell</span></span>
 
-<span data-ttu-id="d963c-117">알림 응용 프로그램을 구성 하려면 다음 관리 역할 중 하나가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="d963c-117">Configuring Announcement application requires one of the following administrative roles:</span></span>
+<span data-ttu-id="c3b66-117">알림 응용 프로그램을 구성 하려면 다음 관리 역할 중 하나가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="c3b66-117">Configuring Announcement application requires one of the following administrative roles:</span></span>
 
-  - <span data-ttu-id="d963c-118">\*\*\*\*   이 관리자 역할이 알림 설정을 비롯 하 여 모든 음성 관련 설정 및 정책을 만들고, 구성 하 고, 관리할 수 CsVoiceAdministrator.</span><span class="sxs-lookup"><span data-stu-id="d963c-118">**CsVoiceAdministrator**   This administrator role can create, configure, and manage all voice-related settings and policies, including Announcement settings.</span></span>
+  - <span data-ttu-id="c3b66-118">\*\*\*\*   이 관리자 역할이 알림 설정을 비롯 하 여 모든 음성 관련 설정 및 정책을 만들고, 구성 하 고, 관리할 수 CsVoiceAdministrator.</span><span class="sxs-lookup"><span data-stu-id="c3b66-118">**CsVoiceAdministrator**   This administrator role can create, configure, and manage all voice-related settings and policies, including Announcement settings.</span></span>
 
-  - <span data-ttu-id="d963c-119">**Csserveradministrator**   이 관리자 역할은 서버 및 서비스를 관리 하 고, 모니터링 하 고, 문제를 해결 하 고, 모든 알림 설정을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d963c-119">**CsServerAdministrator**   This administrator role can manage, monitor, and troubleshoot servers and services, and configure all Announcement settings.</span></span>
+  - <span data-ttu-id="c3b66-119">**Csserveradministrator**   이 관리자 역할은 서버 및 서비스를 관리 하 고, 모니터링 하 고, 문제를 해결 하 고, 모든 알림 설정을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c3b66-119">**CsServerAdministrator**   This administrator role can manage, monitor, and troubleshoot servers and services, and configure all Announcement settings.</span></span>
 
-  - <span data-ttu-id="d963c-120">**Csadministrator**   이 관리자 역할은 모든 관리 작업을 수행 하 고 모든 설정을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d963c-120">**CsAdministrator**   This administrator role can perform all administrative tasks and modify all settings.</span></span>
+  - <span data-ttu-id="c3b66-120">**Csadministrator**   이 관리자 역할은 모든 관리 작업을 수행 하 고 모든 설정을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c3b66-120">**CsAdministrator**   This administrator role can perform all administrative tasks and modify all settings.</span></span>
 
-  - <span data-ttu-id="d963c-121">**Csviewa 관리자**   이 관리자 역할은 배포를 보고 배포 상태를 모니터링할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d963c-121">**CsViewOnlyAdministrator**   This administrator role can view the deployment to monitor deployment health.</span></span>
+  - <span data-ttu-id="c3b66-121">**Csviewa 관리자**   이 관리자 역할은 배포를 보고 배포 상태를 모니터링할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c3b66-121">**CsViewOnlyAdministrator**   This administrator role can view the deployment to monitor deployment health.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="d963c-122">관리 사용자 권한에 대 한 자세한 내용은 계획 설명서의 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013에서 역할 기반 액세스 제어 계획</A> 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="d963c-122">For details about administrative user rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="c3b66-122">관리 사용자 권한에 대 한 자세한 내용은 계획 설명서의 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013에서 역할 기반 액세스 제어 계획</A> 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c3b66-122">For details about administrative user rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -89,13 +91,13 @@ ms.locfileid: "40985627"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="d963c-123">참고 항목</span><span class="sxs-lookup"><span data-stu-id="d963c-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c3b66-123">참고 항목</span><span class="sxs-lookup"><span data-stu-id="c3b66-123">See Also</span></span>
 
 
-[<span data-ttu-id="d963c-124">Lync Server 2013에서 엔터프라이즈 음성 배포</span><span class="sxs-lookup"><span data-stu-id="d963c-124">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)  
+[<span data-ttu-id="c3b66-124">Lync Server 2013에서 엔터프라이즈 음성 배포</span><span class="sxs-lookup"><span data-stu-id="c3b66-124">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)  
 
 
-[<span data-ttu-id="d963c-125">Lync Server 2013의 통화 관리 기능 계획</span><span class="sxs-lookup"><span data-stu-id="d963c-125">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
+[<span data-ttu-id="c3b66-125">Lync Server 2013의 통화 관리 기능 계획</span><span class="sxs-lookup"><span data-stu-id="c3b66-125">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

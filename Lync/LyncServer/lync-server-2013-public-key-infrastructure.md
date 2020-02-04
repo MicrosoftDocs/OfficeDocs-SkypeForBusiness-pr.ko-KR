@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 공개 키 인프라'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Public Key Infrastructure for Lync Server 2013
 ms:assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481131(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893870
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fb79340b29ab4bfa6942d2b2cb62483c79b4ce9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9b205699e9efd896a157654f5c1fb200e34087fc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983691"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724628"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40983691"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="public-key-infrastructure-for-lync-server-2013"></a><span data-ttu-id="444b8-102">Lync Server 2013의 공개 키 인프라</span><span class="sxs-lookup"><span data-stu-id="444b8-102">Public Key Infrastructure for Lync Server 2013</span></span>
+# <a name="public-key-infrastructure-for-lync-server-2013"></a><span data-ttu-id="7527d-102">Lync Server 2013의 공개 키 인프라</span><span class="sxs-lookup"><span data-stu-id="7527d-102">Public Key Infrastructure for Lync Server 2013</span></span>
 
 </div>
 
@@ -33,21 +35,21 @@ ms.locfileid: "40983691"
 
 <span> </span>
 
-<span data-ttu-id="444b8-103">_**마지막으로 수정한 주제:** 2013-11-13_</span><span class="sxs-lookup"><span data-stu-id="444b8-103">_**Topic Last Modified:** 2013-11-13_</span></span>
+<span data-ttu-id="7527d-103">_**마지막으로 수정한 주제:** 2013-11-13_</span><span class="sxs-lookup"><span data-stu-id="7527d-103">_**Topic Last Modified:** 2013-11-13_</span></span>
 
-<span data-ttu-id="444b8-104">Microsoft Lync Server 2013는 서버 인증을 위해 인증서를 사용 하 고 클라이언트 및 서버와 여러 서버 역할 간에 신뢰 체인을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-104">Microsoft Lync Server 2013 relies on certificates for server authentication and to establish a chain of trust between clients and servers and among the different server roles.</span></span> <span data-ttu-id="444b8-105">Windows Server 2012 R2, Windows Server 2012, windows Server 2008 R2, Windows Server 2008 및 Windows Server 2003 PKI (공개 키 인프라)는이 신뢰 체인을 설정 하 고 유효성을 검사 하는 인프라를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-105">The Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008, and Windows Server 2003 Public Key Infrastructure (PKI) provides the infrastructure for establishing and validating this chain of trust.</span></span>
+<span data-ttu-id="7527d-104">Microsoft Lync Server 2013는 서버 인증을 위해 인증서를 사용 하 고 클라이언트 및 서버와 여러 서버 역할 간에 신뢰 체인을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-104">Microsoft Lync Server 2013 relies on certificates for server authentication and to establish a chain of trust between clients and servers and among the different server roles.</span></span> <span data-ttu-id="7527d-105">Windows Server 2012 R2, Windows Server 2012, windows Server 2008 R2, Windows Server 2008 및 Windows Server 2003 PKI (공개 키 인프라)는이 신뢰 체인을 설정 하 고 유효성을 검사 하는 인프라를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-105">The Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008, and Windows Server 2003 Public Key Infrastructure (PKI) provides the infrastructure for establishing and validating this chain of trust.</span></span>
 
-<span data-ttu-id="444b8-106">인증서는 디지털 Id입니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-106">Certificates are digital IDs.</span></span> <span data-ttu-id="444b8-107">이름으로 서버를 식별 하 고 해당 속성을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-107">They identify a server by name and specify its properties.</span></span> <span data-ttu-id="444b8-108">인증서에 대 한 정보가 유효한 지 확인 하려면 클라이언트 또는 서버에 연결 되는 다른 서버에서 신뢰 하는 CA에서 인증서를 발급 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-108">To ensure that the information on a certificate is valid, the certificate must be issued by a CA that is trusted by clients or other servers that connect to the server.</span></span> <span data-ttu-id="444b8-109">서버가 개인 네트워크의 다른 클라이언트 및 서버와만 연결 하는 경우 엔터프라이즈 CA가 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-109">If the server connects only with other clients and servers on a private network, the CA can be an enterprise CA.</span></span> <span data-ttu-id="444b8-110">서버가 개인 네트워크 외부의 엔터티와 상호 작용 하는 경우 공용 CA가 필요할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-110">If the server interacts with entities outside the private network, a public CA might be required.</span></span>
+<span data-ttu-id="7527d-106">인증서는 디지털 Id입니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-106">Certificates are digital IDs.</span></span> <span data-ttu-id="7527d-107">이름으로 서버를 식별 하 고 해당 속성을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-107">They identify a server by name and specify its properties.</span></span> <span data-ttu-id="7527d-108">인증서에 대 한 정보가 유효한 지 확인 하려면 클라이언트 또는 서버에 연결 되는 다른 서버에서 신뢰 하는 CA에서 인증서를 발급 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-108">To ensure that the information on a certificate is valid, the certificate must be issued by a CA that is trusted by clients or other servers that connect to the server.</span></span> <span data-ttu-id="7527d-109">서버가 개인 네트워크의 다른 클라이언트 및 서버와만 연결 하는 경우 엔터프라이즈 CA가 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-109">If the server connects only with other clients and servers on a private network, the CA can be an enterprise CA.</span></span> <span data-ttu-id="7527d-110">서버가 개인 네트워크 외부의 엔터티와 상호 작용 하는 경우 공용 CA가 필요할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-110">If the server interacts with entities outside the private network, a public CA might be required.</span></span>
 
-<span data-ttu-id="444b8-111">인증서에 대 한 정보가 유효 하더라도 인증서를 제시 하는 서버가 실제로 인증서로 표시 되는 것을 확인 하는 방법이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-111">Even if the information on the certificate is valid, there must be some way to verify that the server presenting the certificate is actually the one represented by the certificate.</span></span> <span data-ttu-id="444b8-112">여기에는 Windows PKI가 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-112">This is where the Windows PKI comes in.</span></span>
+<span data-ttu-id="7527d-111">인증서에 대 한 정보가 유효 하더라도 인증서를 제시 하는 서버가 실제로 인증서로 표시 되는 것을 확인 하는 방법이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-111">Even if the information on the certificate is valid, there must be some way to verify that the server presenting the certificate is actually the one represented by the certificate.</span></span> <span data-ttu-id="7527d-112">여기에는 Windows PKI가 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-112">This is where the Windows PKI comes in.</span></span>
 
-<span data-ttu-id="444b8-113">각 인증서는 공개 키에 연결 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-113">Each certificate is linked to a public key.</span></span> <span data-ttu-id="444b8-114">인증서에 명명 된 서버에는 해당 하는 해당 개인 키가 저장 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-114">The server named on the certificate holds a corresponding private key that only it knows.</span></span> <span data-ttu-id="444b8-115">연결 하는 클라이언트나 서버는 공개 키를 사용 하 여 임의의 정보를 암호화 하 고 서버에 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-115">A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server.</span></span> <span data-ttu-id="444b8-116">서버에서 정보를 해독 하 고 일반 텍스트로 반환 하는 경우 연결 엔터티에서 서버는 인증서에 대 한 개인 키를 보유 하 고 있으므로 인증서에 이름이 지정 된 서버 인지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-116">If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.</span></span>
+<span data-ttu-id="7527d-113">각 인증서는 공개 키에 연결 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-113">Each certificate is linked to a public key.</span></span> <span data-ttu-id="7527d-114">인증서에 명명 된 서버에는 해당 하는 해당 개인 키가 저장 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-114">The server named on the certificate holds a corresponding private key that only it knows.</span></span> <span data-ttu-id="7527d-115">연결 하는 클라이언트나 서버는 공개 키를 사용 하 여 임의의 정보를 암호화 하 고 서버에 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-115">A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server.</span></span> <span data-ttu-id="7527d-116">서버에서 정보를 해독 하 고 일반 텍스트로 반환 하는 경우 연결 엔터티에서 서버는 인증서에 대 한 개인 키를 보유 하 고 있으므로 인증서에 이름이 지정 된 서버 인지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-116">If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="444b8-117">모든 공개 Ca가 Lync Server 2013 인증서의 요구 사항을 준수 하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-117">Not all public CAs comply with the requirements of Lync Server 2013 certificates.</span></span> <span data-ttu-id="444b8-118">공개 인증서 요구 사항에 대 한 인증 된 공개 CA 공급 업체 목록을 참조 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-118">We recommend that you refer to the listing of certified Public CA vendors for your public certificate needs.</span></span> <span data-ttu-id="444b8-119">자세한 내용은의 <A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>통합 커뮤니케이션 인증서 파트너를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="444b8-119">For details, see Unified Communications Certificate Partners at <A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>.</span></span>
+> <span data-ttu-id="7527d-117">모든 공개 Ca가 Lync Server 2013 인증서의 요구 사항을 준수 하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-117">Not all public CAs comply with the requirements of Lync Server 2013 certificates.</span></span> <span data-ttu-id="7527d-118">공개 인증서 요구 사항에 대 한 인증 된 공개 CA 공급 업체 목록을 참조 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-118">We recommend that you refer to the listing of certified Public CA vendors for your public certificate needs.</span></span> <span data-ttu-id="7527d-119">자세한 내용은의 <A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>통합 커뮤니케이션 인증서 파트너를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="7527d-119">For details, see Unified Communications Certificate Partners at <A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>.</span></span>
 
 
 
@@ -55,23 +57,23 @@ ms.locfileid: "40983691"
 
 <div>
 
-## <a name="crl-distribution-points"></a><span data-ttu-id="444b8-120">CRL 배포 지점</span><span class="sxs-lookup"><span data-stu-id="444b8-120">CRL Distribution Points</span></span>
+## <a name="crl-distribution-points"></a><span data-ttu-id="7527d-120">CRL 배포 지점</span><span class="sxs-lookup"><span data-stu-id="7527d-120">CRL Distribution Points</span></span>
 
-<span data-ttu-id="444b8-121">Lync Server 2013에는 모든 서버 인증서에 CRL (인증서 해지 목록) 배포 지점이 하나 이상 포함 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-121">Lync Server 2013 requires all server certificates to contain one or more Certificate Revocation List (CRL) distribution points.</span></span> <span data-ttu-id="444b8-122">Cdp (CRL 배포 지점)는 발급 된 시간 이후 인증서가 해지 되지 않았음을 확인 하 고 인증서가 유효 기간 내에 있는 경우 Crl을 다운로드할 수 있는 위치입니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-122">CRL distribution points (CDPs) are locations from which CRLs can be downloaded for purposes of verifying that the certificate has not been revoked since the time it was issued and the certificate is still within the validity period.</span></span> <span data-ttu-id="444b8-123">CRL 배포 지점은 인증서의 속성에 URL로 기록 되며 일반적으로 HTTP를 통해 보호 됩니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-123">A CRL distribution point is noted in the properties of the certificate as a URL, and is typically secure HTTP.</span></span>
+<span data-ttu-id="7527d-121">Lync Server 2013에는 모든 서버 인증서에 CRL (인증서 해지 목록) 배포 지점이 하나 이상 포함 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-121">Lync Server 2013 requires all server certificates to contain one or more Certificate Revocation List (CRL) distribution points.</span></span> <span data-ttu-id="7527d-122">Cdp (CRL 배포 지점)는 발급 된 시간 이후 인증서가 해지 되지 않았음을 확인 하 고 인증서가 유효 기간 내에 있는 경우 Crl을 다운로드할 수 있는 위치입니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-122">CRL distribution points (CDPs) are locations from which CRLs can be downloaded for purposes of verifying that the certificate has not been revoked since the time it was issued and the certificate is still within the validity period.</span></span> <span data-ttu-id="7527d-123">CRL 배포 지점은 인증서의 속성에 URL로 기록 되며 일반적으로 HTTP를 통해 보호 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-123">A CRL distribution point is noted in the properties of the certificate as a URL, and is typically secure HTTP.</span></span>
 
 </div>
 
 <div>
 
-## <a name="enhanced-key-usage"></a><span data-ttu-id="444b8-124">향상 된 키 사용</span><span class="sxs-lookup"><span data-stu-id="444b8-124">Enhanced Key Usage</span></span>
+## <a name="enhanced-key-usage"></a><span data-ttu-id="7527d-124">향상 된 키 사용</span><span class="sxs-lookup"><span data-stu-id="7527d-124">Enhanced Key Usage</span></span>
 
-<span data-ttu-id="444b8-125">서버 인증을 위해 Lync 서버 2013에는 EKU (확장 된 키 사용)를 지원 하기 위해 모든 서버 인증서가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-125">Lync Server 2013 requires all server certificates to support Enhanced Key Usage (EKU) for the purpose of server authentication.</span></span> <span data-ttu-id="444b8-126">서버 인증에 대 한 EKU 필드를 구성 하는 것은 인증서가 서버 인증 목적으로 유효 하다는 것을 의미 합니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-126">Configuring the EKU field for server authentication means that the certificate is valid for the purpose of authenticating servers.</span></span> <span data-ttu-id="444b8-127">이 EKU는 MTLS에 필수적입니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-127">This EKU is essential for MTLS.</span></span> <span data-ttu-id="444b8-128">EKU에 두 개 이상의 항목이 있는 경우 인증서를 두 가지 용도로 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-128">It is possible to have more than one entry in the EKU, enabling the certificate for more than one purpose.</span></span>
+<span data-ttu-id="7527d-125">서버 인증을 위해 Lync 서버 2013에는 EKU (확장 된 키 사용)를 지원 하기 위해 모든 서버 인증서가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-125">Lync Server 2013 requires all server certificates to support Enhanced Key Usage (EKU) for the purpose of server authentication.</span></span> <span data-ttu-id="7527d-126">서버 인증에 대 한 EKU 필드를 구성 하는 것은 인증서가 서버 인증 목적으로 유효 하다는 것을 의미 합니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-126">Configuring the EKU field for server authentication means that the certificate is valid for the purpose of authenticating servers.</span></span> <span data-ttu-id="7527d-127">이 EKU는 MTLS에 필수적입니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-127">This EKU is essential for MTLS.</span></span> <span data-ttu-id="7527d-128">EKU에 두 개 이상의 항목이 있는 경우 인증서를 두 가지 용도로 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-128">It is possible to have more than one entry in the EKU, enabling the certificate for more than one purpose.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="444b8-129">클라이언트 인증 EKU는 Live Communications Server 2003 및 Live Communications Server 2005의 아웃 바운드 MTLS 연결에 필요 하지만 더 이상 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-129">The Client Authentication EKU is required for outbound MTLS connections from Live Communications Server 2003 and Live Communications Server 2005, but it is no longer required.</span></span> <span data-ttu-id="444b8-130">그러나이 EKU는 공용 IM 연결을 통해 AOL에 연결 되는 Edge 서버에 제공 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="444b8-130">However, this EKU must be present on Edge Servers that connect to AOL by means of public IM connectivity.</span></span>
+> <span data-ttu-id="7527d-129">클라이언트 인증 EKU는 Live Communications Server 2003 및 Live Communications Server 2005의 아웃 바운드 MTLS 연결에 필요 하지만 더 이상 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-129">The Client Authentication EKU is required for outbound MTLS connections from Live Communications Server 2003 and Live Communications Server 2005, but it is no longer required.</span></span> <span data-ttu-id="7527d-130">그러나이 EKU는 공용 IM 연결을 통해 AOL에 연결 되는 Edge 서버에 제공 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7527d-130">However, this EKU must be present on Edge Servers that connect to AOL by means of public IM connectivity.</span></span>
 
 
 

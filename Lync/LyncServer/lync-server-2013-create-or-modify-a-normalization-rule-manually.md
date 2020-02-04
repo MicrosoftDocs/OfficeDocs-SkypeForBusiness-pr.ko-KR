@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 수동으로 정규화 규칙 만들기 또는 수정'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a normalization rule manually
 ms:assetid: fc0335e6-8830-4cfb-8c64-6aeb98c0a992
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413074(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185943
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e4bff312dda32aea118f91c1e5e54f2c8334698
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2cf7693eb4a8bac814c81ef69b9f158edb3684f3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979256"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722419"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40979256"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-normalization-rule-manually-in-lync-server-2013"></a><span data-ttu-id="898c8-102">Lync Server 2013에서 수동으로 정규화 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="898c8-102">Create or modify a normalization rule manually in Lync Server 2013</span></span>
+# <a name="create-or-modify-a-normalization-rule-manually-in-lync-server-2013"></a><span data-ttu-id="6e4ea-102">Lync Server 2013에서 수동으로 정규화 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="6e4ea-102">Create or modify a normalization rule manually in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,58 +35,58 @@ ms.locfileid: "40979256"
 
 <span> </span>
 
-<span data-ttu-id="898c8-103">_**마지막으로 수정한 주제:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="898c8-103">_**Topic Last Modified:** 2012-09-22_</span></span>
+<span data-ttu-id="6e4ea-103">_**마지막으로 수정한 주제:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="6e4ea-103">_**Topic Last Modified:** 2012-09-22_</span></span>
 
-<span data-ttu-id="898c8-104">정규화 규칙을 수동으로 만들거나 수정 하려면 다음 단계를 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-104">Complete the following steps if you want to create or modify a normalization rule manually.</span></span> <span data-ttu-id="898c8-105">Lync Server 제어판에서 정규화 규칙 작성을 사용 하 여 정규화 규칙을 만들거나 수정 하려면 [Lync server 2013에서 정규화 규칙 작성을 사용 하 여 정규화 규칙 만들기 또는 수정을](lync-server-2013-create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="898c8-105">If you want to create or modify a normalization rule by using Build a Normalization Rule in Lync Server Control Panel, see [Create or modify a normalization rule by using Build a Normalization Rule in Lync Server 2013](lync-server-2013-create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule.md).</span></span>
+<span data-ttu-id="6e4ea-104">정규화 규칙을 수동으로 만들거나 수정 하려면 다음 단계를 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-104">Complete the following steps if you want to create or modify a normalization rule manually.</span></span> <span data-ttu-id="6e4ea-105">Lync Server 제어판에서 정규화 규칙 작성을 사용 하 여 정규화 규칙을 만들거나 수정 하려면 [Lync server 2013에서 정규화 규칙 작성을 사용 하 여 정규화 규칙 만들기 또는 수정을](lync-server-2013-create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-105">If you want to create or modify a normalization rule by using Build a Normalization Rule in Lync Server Control Panel, see [Create or modify a normalization rule by using Build a Normalization Rule in Lync Server 2013](lync-server-2013-create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule.md).</span></span>
 
 <div>
 
-## <a name="to-define-a-normalization-rule-manually"></a><span data-ttu-id="898c8-106">정규화 규칙을 수동으로 정의 하려면</span><span class="sxs-lookup"><span data-stu-id="898c8-106">To define a normalization rule manually</span></span>
+## <a name="to-define-a-normalization-rule-manually"></a><span data-ttu-id="6e4ea-106">정규화 규칙을 수동으로 정의 하려면</span><span class="sxs-lookup"><span data-stu-id="6e4ea-106">To define a normalization rule manually</span></span>
 
-1.  <span data-ttu-id="898c8-107">RTCUniversalServerAdmins 그룹의 구성원 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-107">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="898c8-108">자세한 내용은 [Lync Server 2013에서 설치 권한 위임을](lync-server-2013-delegate-setup-permissions.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="898c8-108">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="6e4ea-107">RTCUniversalServerAdmins 그룹의 구성원 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-107">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="6e4ea-108">자세한 내용은 [Lync Server 2013에서 설치 권한 위임을](lync-server-2013-delegate-setup-permissions.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-108">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="898c8-109">브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="898c8-110">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="898c8-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="6e4ea-109">브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="6e4ea-110">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="898c8-111">) [Lync server 2013에서 다이얼 플랜 만들기](lync-server-2013-create-a-dial-plan.md) 의 단계를 따르고 [lync server 2013에서 다이얼 플랜을 수정](lync-server-2013-modify-a-dial-plan.md)합니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-111">(Optional) Follow the steps in [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) or [Modify a dial plan in Lync Server 2013](lync-server-2013-modify-a-dial-plan.md).</span></span>
+3.  <span data-ttu-id="6e4ea-111">) [Lync server 2013에서 다이얼 플랜 만들기](lync-server-2013-create-a-dial-plan.md) 의 단계를 따르고 [lync server 2013에서 다이얼 플랜을 수정](lync-server-2013-modify-a-dial-plan.md)합니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-111">(Optional) Follow the steps in [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) or [Modify a dial plan in Lync Server 2013](lync-server-2013-modify-a-dial-plan.md).</span></span>
 
-4.  <span data-ttu-id="898c8-112">**새 정규화 규칙** 또는 **정규화 규칙 편집**에서 **이름** 에 정규화 되는 번호 패턴을 설명 하는 이름 (예: 정규화 규칙 **5DigitExtension**의 이름)을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-112">In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example, name the normalization rule **5DigitExtension**).</span></span>
+4.  <span data-ttu-id="6e4ea-112">**새 정규화 규칙** 또는 **정규화 규칙 편집**에서 **이름** 에 정규화 되는 번호 패턴을 설명 하는 이름 (예: 정규화 규칙 **5DigitExtension**의 이름)을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-112">In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example, name the normalization rule **5DigitExtension**).</span></span>
 
-5.  <span data-ttu-id="898c8-113">) **설명** 필드에 정규화 규칙에 대 한 설명을 입력 합니다 (예: "5 자리 확장명 변환").</span><span class="sxs-lookup"><span data-stu-id="898c8-113">(Optional) In **Description** field, type a description of the normalization rule (for example, "Translates 5-digit extensions").</span></span>
+5.  <span data-ttu-id="6e4ea-113">) **설명** 필드에 정규화 규칙에 대 한 설명을 입력 합니다 (예: "5 자리 확장명 변환").</span><span class="sxs-lookup"><span data-stu-id="6e4ea-113">(Optional) In **Description** field, type a description of the normalization rule (for example, "Translates 5-digit extensions").</span></span>
 
-6.  <span data-ttu-id="898c8-114">**정규화 규칙 작성**에서 **편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-114">In **Build a Normalization Rule**, click **Edit**.</span></span>
+6.  <span data-ttu-id="6e4ea-114">**정규화 규칙 작성**에서 **편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-114">In **Build a Normalization Rule**, click **Edit**.</span></span>
 
-7.  <span data-ttu-id="898c8-115">**정규식 입력**에 다음을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-115">Enter the following in **Type a Regular Expression**:</span></span>
+7.  <span data-ttu-id="6e4ea-115">**정규식 입력**에 다음을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-115">Enter the following in **Type a Regular Expression**:</span></span>
     
-      - <span data-ttu-id="898c8-116">**이 패턴과 일치**하는 경우 전화를 거는 전화 번호와 일치 하는 데 사용할 패턴을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-116">In **Match this pattern**, specify the pattern that you want to use to match the dialed phone number.</span></span>
+      - <span data-ttu-id="6e4ea-116">**이 패턴과 일치**하는 경우 전화를 거는 전화 번호와 일치 하는 데 사용할 패턴을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-116">In **Match this pattern**, specify the pattern that you want to use to match the dialed phone number.</span></span>
     
-      - <span data-ttu-id="898c8-117">**번역 규칙**에서 번역 된 전자 전화번호의 형식에 대 한 패턴을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-117">In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers.</span></span>
+      - <span data-ttu-id="6e4ea-117">**번역 규칙**에서 번역 된 전자 전화번호의 형식에 대 한 패턴을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-117">In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers.</span></span>
     
-    <span data-ttu-id="898c8-118">예를 들어 **이 패턴과 일치** 하는 **^{7}(\\d) $** 를 입력 하 고 **번역 규칙**에 **+ 1425 $1** 이 있으면 규칙이 5550100에서 + 14255550100로 정규화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-118">For example, if you enter **^(\\d{7})$** in **Match this pattern** and **+1425$1** in **Translation rule**, the rule normalizes 5550100 to +14255550100.</span></span>
+    <span data-ttu-id="6e4ea-118">예를 들어 **이 패턴과 일치** 하는 **^{7}(\\d) $** 를 입력 하 고 **번역 규칙**에 **+ 1425 $1** 이 있으면 규칙이 5550100에서 + 14255550100로 정규화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-118">For example, if you enter **^(\\d{7})$** in **Match this pattern** and **+1425$1** in **Translation rule**, the rule normalizes 5550100 to +14255550100.</span></span>
 
-8.  <span data-ttu-id="898c8-119">) 정규화 규칙이 조직 내부의 전화 번호를 반환 하는 경우 **내부 확장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-119">(Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.</span></span>
+8.  <span data-ttu-id="6e4ea-119">) 정규화 규칙이 조직 내부의 전화 번호를 반환 하는 경우 **내부 확장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-119">(Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.</span></span>
 
-9.  <span data-ttu-id="898c8-120">) 번호를 입력 하 여 정규화 규칙을 테스트 한 다음 **이동을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-120">(Optional) Enter a number to test the normalization rule and then click **Go**.</span></span> <span data-ttu-id="898c8-121">테스트 결과가 **테스트에 대 한 숫자 입력**아래에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-121">The test results are displayed under **Enter a number to test**.</span></span>
+9.  <span data-ttu-id="6e4ea-120">) 번호를 입력 하 여 정규화 규칙을 테스트 한 다음 **이동을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-120">(Optional) Enter a number to test the normalization rule and then click **Go**.</span></span> <span data-ttu-id="6e4ea-121">테스트 결과가 **테스트에 대 한 숫자 입력**아래에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-121">The test results are displayed under **Enter a number to test**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="898c8-122">아직 테스트를 통과 하지 않은 정규화 규칙을 저장 한 다음 나중에 다시 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-122">You can save a normalization rule that does not yet pass the test and then reconfigure it later.</span></span> <span data-ttu-id="898c8-123">자세한 내용은 <A href="lync-server-2013-test-voice-routing.md">Lync Server 2013에서 음성 라우팅 테스트</A>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="898c8-123">For details, see <A href="lync-server-2013-test-voice-routing.md">Test voice routing in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="6e4ea-122">아직 테스트를 통과 하지 않은 정규화 규칙을 저장 한 다음 나중에 다시 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-122">You can save a normalization rule that does not yet pass the test and then reconfigure it later.</span></span> <span data-ttu-id="6e4ea-123">자세한 내용은 <A href="lync-server-2013-test-voice-routing.md">Lync Server 2013에서 음성 라우팅 테스트</A>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-123">For details, see <A href="lync-server-2013-test-voice-routing.md">Test voice routing in Lync Server 2013</A>.</span></span>
 
     
     </div>
 
-10. <span data-ttu-id="898c8-124">**확인** 을 클릭 하 여 정규화 규칙을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-124">Click **OK** to save the normalization rule.</span></span>
+10. <span data-ttu-id="6e4ea-124">**확인** 을 클릭 하 여 정규화 규칙을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-124">Click **OK** to save the normalization rule.</span></span>
 
-11. <span data-ttu-id="898c8-125">**확인** 을 클릭 하 여 다이얼 플랜을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-125">Click **OK** to save the dial plan.</span></span>
+11. <span data-ttu-id="6e4ea-125">**확인** 을 클릭 하 여 다이얼 플랜을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-125">Click **OK** to save the dial plan.</span></span>
 
-12. <span data-ttu-id="898c8-126">**다이얼 플랜** 페이지에서 **커밋을**클릭 한 다음 **모두 커밋을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-126">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
+12. <span data-ttu-id="6e4ea-126">**다이얼 플랜** 페이지에서 **커밋을**클릭 한 다음 **모두 커밋을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-126">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="898c8-127">정규화 규칙을 만들거나 변경할 때마다 <STRONG>모두 커밋</STRONG> 명령을 실행 하 여 구성 변경 내용을 게시 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="898c8-127">Whenever you create or change a normalization rule, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change.</span></span> <span data-ttu-id="898c8-128">자세한 내용은 운영 설명서의 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013에서 음성 라우팅 구성에 보류 중인 변경 내용 게시</A> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="898c8-128">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
+    > <span data-ttu-id="6e4ea-127">정규화 규칙을 만들거나 변경할 때마다 <STRONG>모두 커밋</STRONG> 명령을 실행 하 여 구성 변경 내용을 게시 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-127">Whenever you create or change a normalization rule, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change.</span></span> <span data-ttu-id="6e4ea-128">자세한 내용은 운영 설명서의 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013에서 음성 라우팅 구성에 보류 중인 변경 내용 게시</A> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6e4ea-128">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
 
     
     </div>
@@ -93,16 +95,16 @@ ms.locfileid: "40979256"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="898c8-129">참고 항목</span><span class="sxs-lookup"><span data-stu-id="898c8-129">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6e4ea-129">참고 항목</span><span class="sxs-lookup"><span data-stu-id="6e4ea-129">See Also</span></span>
 
 
-[<span data-ttu-id="898c8-130">Lync Server 2013에서 정규화 규칙 작성을 사용 하 여 정규화 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="898c8-130">Create or modify a normalization rule by using Build a Normalization Rule in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule.md)  
-[<span data-ttu-id="898c8-131">Lync Server 2013에서 다이얼 플랜 만들기</span><span class="sxs-lookup"><span data-stu-id="898c8-131">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
-[<span data-ttu-id="898c8-132">Lync Server 2013에서 다이얼 플랜 수정</span><span class="sxs-lookup"><span data-stu-id="898c8-132">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)  
-[<span data-ttu-id="898c8-133">Lync Server 2013에서 음성 라우팅 구성에 보류 중인 변경 내용 게시</span><span class="sxs-lookup"><span data-stu-id="898c8-133">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
+[<span data-ttu-id="6e4ea-130">Lync Server 2013에서 정규화 규칙 작성을 사용 하 여 정규화 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="6e4ea-130">Create or modify a normalization rule by using Build a Normalization Rule in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule.md)  
+[<span data-ttu-id="6e4ea-131">Lync Server 2013에서 다이얼 플랜 만들기</span><span class="sxs-lookup"><span data-stu-id="6e4ea-131">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
+[<span data-ttu-id="6e4ea-132">Lync Server 2013에서 다이얼 플랜 수정</span><span class="sxs-lookup"><span data-stu-id="6e4ea-132">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)  
+[<span data-ttu-id="6e4ea-133">Lync Server 2013에서 음성 라우팅 구성에 보류 중인 변경 내용 게시</span><span class="sxs-lookup"><span data-stu-id="6e4ea-133">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
 
 
-[<span data-ttu-id="898c8-134">Lync Server 2013에서 음성 라우팅 테스트</span><span class="sxs-lookup"><span data-stu-id="898c8-134">Test voice routing in Lync Server 2013</span></span>](lync-server-2013-test-voice-routing.md)  
+[<span data-ttu-id="6e4ea-134">Lync Server 2013에서 음성 라우팅 테스트</span><span class="sxs-lookup"><span data-stu-id="6e4ea-134">Test voice routing in Lync Server 2013</span></span>](lync-server-2013-test-voice-routing.md)  
   
 
 </div>

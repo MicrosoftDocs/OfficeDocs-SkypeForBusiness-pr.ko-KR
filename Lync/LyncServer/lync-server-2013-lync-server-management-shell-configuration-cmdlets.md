@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server Management Shell 구성 cmdlet'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server Management Shell configuration cmdlets
 ms:assetid: fffc154b-24ef-457d-9b70-2b7b700f503a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415684(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58c673fe474e4f278f8f6b9106b90bdb66165c57
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ce76166c44f7b35781c6181ac37191bad784fa74
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983960"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742208"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40983960"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a><span data-ttu-id="cb8df-102">Lync Server 2013의 lync Server 관리 셸 구성 cmdlet</span><span class="sxs-lookup"><span data-stu-id="cb8df-102">Lync Server Management Shell configuration cmdlets in Lync Server 2013</span></span>
+# <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a><span data-ttu-id="28dd5-102">Lync Server 2013의 lync Server 관리 셸 구성 cmdlet</span><span class="sxs-lookup"><span data-stu-id="28dd5-102">Lync Server Management Shell configuration cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,41 +35,41 @@ ms.locfileid: "40983960"
 
 <span> </span>
 
-<span data-ttu-id="cb8df-103">_**마지막으로 수정한 주제:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="cb8df-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="28dd5-103">_**마지막으로 수정한 주제:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="28dd5-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="cb8df-104">Lync Server 관리 셸은 환경에서 Microsoft Lync Server 2010을 미리 로드 하는 cmdlet이 포함 된 Windows PowerShell 명령 창의 구현입니다.</span><span class="sxs-lookup"><span data-stu-id="cb8df-104">The Lync Server Management Shell is an implementation of the Windows PowerShell command window with cmdlets specific to managing Microsoft Lync Server 2010 pre-loaded in the environment.</span></span> <span data-ttu-id="cb8df-105">이러한 cmdlet을 사용 하 여 해당 환경을 사용자 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cb8df-105">These cmdlets allow you to customize that environment.</span></span>
+<span data-ttu-id="28dd5-104">Lync Server 관리 셸은 환경에서 Microsoft Lync Server 2010을 미리 로드 하는 cmdlet이 포함 된 Windows PowerShell 명령 창의 구현입니다.</span><span class="sxs-lookup"><span data-stu-id="28dd5-104">The Lync Server Management Shell is an implementation of the Windows PowerShell command window with cmdlets specific to managing Microsoft Lync Server 2010 pre-loaded in the environment.</span></span> <span data-ttu-id="28dd5-105">이러한 cmdlet을 사용 하 여 해당 환경을 사용자 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="28dd5-105">These cmdlets allow you to customize that environment.</span></span>
 
 <div>
 
-## <a name="lync-server-management-shell-configuration-cmdlets"></a><span data-ttu-id="cb8df-106">Lync Server Management Shell 구성 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="cb8df-106">Lync Server Management Shell Configuration Cmdlets</span></span>
+## <a name="lync-server-management-shell-configuration-cmdlets"></a><span data-ttu-id="28dd5-106">Lync Server Management Shell 구성 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="28dd5-106">Lync Server Management Shell Configuration Cmdlets</span></span>
 
-<span data-ttu-id="cb8df-107">이러한 cmdlet을 사용 하 여 Lync Server 관리 셸의 특정 사용자 지정 속성을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cb8df-107">Use these cmdlets to set certain custom properties of the Lync Server Management Shell.</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="cb8df-108">[Get-CsUICulture](https://technet.microsoft.com/en-us/library/Gg412900(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="cb8df-108">[Get-CsUICulture](https://technet.microsoft.com/en-us/library/Gg412900(v=OCS.15))</span></span>
+<span data-ttu-id="28dd5-107">이러한 cmdlet을 사용 하 여 Lync Server 관리 셸의 특정 사용자 지정 속성을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="28dd5-107">Use these cmdlets to set certain custom properties of the Lync Server Management Shell.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="cb8df-109">[Set-CsUICulture](https://technet.microsoft.com/en-us/library/Gg398354(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="cb8df-109">[Set-CsUICulture](https://technet.microsoft.com/en-us/library/Gg398354(v=OCS.15))</span></span>
+    <span data-ttu-id="28dd5-108">[Get-CsUICulture](https://technet.microsoft.com/en-us/library/Gg412900(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="28dd5-108">[Get-CsUICulture](https://technet.microsoft.com/en-us/library/Gg412900(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="28dd5-109">[Set-CsUICulture](https://technet.microsoft.com/en-us/library/Gg398354(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="28dd5-109">[Set-CsUICulture](https://technet.microsoft.com/en-us/library/Gg398354(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="cb8df-110">[Get-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg412849(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="cb8df-110">[Get-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg412849(v=OCS.15))</span></span>
+    <span data-ttu-id="28dd5-110">[Get-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg412849(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="28dd5-110">[Get-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg412849(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="cb8df-111">[-CsManagementConnection 제거](https://technet.microsoft.com/en-us/library/Gg425803(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="cb8df-111">[Remove-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg425803(v=OCS.15))</span></span>
+    <span data-ttu-id="28dd5-111">[-CsManagementConnection 제거](https://technet.microsoft.com/en-us/library/Gg425803(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="28dd5-111">[Remove-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg425803(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="cb8df-112">[Set-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg413045(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="cb8df-112">[Set-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg413045(v=OCS.15))</span></span>
+    <span data-ttu-id="28dd5-112">[Set-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg413045(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="28dd5-112">[Set-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg413045(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="cb8df-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="cb8df-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="28dd5-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="28dd5-113">See Also</span></span>
 
 
-[<span data-ttu-id="cb8df-114">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="cb8df-114">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="28dd5-114">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="28dd5-114">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
