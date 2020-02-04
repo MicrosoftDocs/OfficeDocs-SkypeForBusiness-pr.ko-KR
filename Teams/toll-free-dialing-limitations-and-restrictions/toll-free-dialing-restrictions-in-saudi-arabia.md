@@ -18,38 +18,39 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 사용 하는 방법을 쉽게 찾을 수 있습니다. 국가/지역을 선택 하면 무료 서비스를 사용할 수 있는 무료 서비스 사용에 대 한 특정 세부 정보, 제한 사항, 제한 사항이 포함 된 국가 관련 페이지로 이동 합니다. 전화 걸기 형식 또는 형식에는 각 국가/지역 내에서 필요한 액세스 코드를 표시 하 여 무료 전화를 받을 수 있습니다.
-ms.openlocfilehash: 2c49ab6d2d0216164ff702d277faa160cb3ae9aa
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: bc87d582979b81fc51714b5c278ad978214a9661
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569792"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41682295"
 ---
-# <a name="toll-free-dialing-restrictions-in-saudi-arabia"></a><span data-ttu-id="c4d12-105">사우디아라비아의 무료 전화 걸기 제한</span><span class="sxs-lookup"><span data-stu-id="c4d12-105">Toll-free dialing restrictions in Saudi Arabia</span></span>
+# <a name="toll-free-dialing-restrictions-in-saudi-arabia"></a><span data-ttu-id="dc8b9-105">사우디아라비아의 무료 전화 걸기 제한</span><span class="sxs-lookup"><span data-stu-id="dc8b9-105">Toll-free dialing restrictions in Saudi Arabia</span></span>
 
-<span data-ttu-id="c4d12-106">[다른 국가 또는 지역](../toll-free-dialing-limitations-and-restrictions.md)또는 무료 전화 걸기 제한 사항에 대 한 자세한 정보를 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="c4d12-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="dc8b9-106">[다른 국가 또는 지역](../toll-free-dialing-limitations-and-restrictions.md)또는 무료 전화 걸기 제한 사항에 대 한 자세한 정보를 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="dc8b9-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="c4d12-107">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="c4d12-107">**Details**</span></span>|<span data-ttu-id="c4d12-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="c4d12-108">**Description**</span></span>|
+|<span data-ttu-id="dc8b9-107">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="dc8b9-107">**Details**</span></span>|<span data-ttu-id="dc8b9-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="dc8b9-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="c4d12-109">무료 전화를 받을 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="c4d12-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="c4d12-110">'</span><span class="sxs-lookup"><span data-stu-id="c4d12-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="c4d12-111">전화 걸기 형식</span><span class="sxs-lookup"><span data-stu-id="c4d12-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="c4d12-112">800 814 XXXX</span><span class="sxs-lookup"><span data-stu-id="c4d12-112">800 814 XXXX</span></span> <br/>  <span data-ttu-id="c4d12-113">800 850 XXXX</span><span class="sxs-lookup"><span data-stu-id="c4d12-113">800 850 XXXX</span></span> <br/> |
-|<span data-ttu-id="c4d12-114">국가/지역 ISO 코드</span><span class="sxs-lookup"><span data-stu-id="c4d12-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="c4d12-115">사우디아라비아</span><span class="sxs-lookup"><span data-stu-id="c4d12-115">SA</span></span>  <br/> |
-|<span data-ttu-id="c4d12-116">섬/지역 포함</span><span class="sxs-lookup"><span data-stu-id="c4d12-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="c4d12-117">해당 없음</span><span class="sxs-lookup"><span data-stu-id="c4d12-117">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="c4d12-118">섬/지역 포함 안 함</span><span class="sxs-lookup"><span data-stu-id="c4d12-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="c4d12-119">해당 없음</span><span class="sxs-lookup"><span data-stu-id="c4d12-119">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="c4d12-120">유선/고정 회선 가용성</span><span class="sxs-lookup"><span data-stu-id="c4d12-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="c4d12-121">STC 에서만 가능 합니다.</span><span class="sxs-lookup"><span data-stu-id="c4d12-121">From STC only.</span></span>  <br/> |
-|<span data-ttu-id="c4d12-122">모바일 네트워크 가용성</span><span class="sxs-lookup"><span data-stu-id="c4d12-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="c4d12-123">STC 에서만 가능 합니다.</span><span class="sxs-lookup"><span data-stu-id="c4d12-123">From STC only.</span></span>  <br/> |
-|<span data-ttu-id="c4d12-124">메모, 제한 사항 및 액세스 문제</span><span class="sxs-lookup"><span data-stu-id="c4d12-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="c4d12-125">없음</span><span class="sxs-lookup"><span data-stu-id="c4d12-125">None</span></span>  <br/> |
+|<span data-ttu-id="dc8b9-109">무료 전화를 받을 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="dc8b9-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="dc8b9-110">예</span><span class="sxs-lookup"><span data-stu-id="dc8b9-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="dc8b9-111">전화 걸기 형식</span><span class="sxs-lookup"><span data-stu-id="dc8b9-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="dc8b9-112">800 814 XXXX</span><span class="sxs-lookup"><span data-stu-id="dc8b9-112">800 814 XXXX</span></span> <br/>  <span data-ttu-id="dc8b9-113">800 850 XXXX</span><span class="sxs-lookup"><span data-stu-id="dc8b9-113">800 850 XXXX</span></span> <br/> |
+|<span data-ttu-id="dc8b9-114">국가/지역 ISO 코드</span><span class="sxs-lookup"><span data-stu-id="dc8b9-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="dc8b9-115">사우디아라비아</span><span class="sxs-lookup"><span data-stu-id="dc8b9-115">SA</span></span>  <br/> |
+|<span data-ttu-id="dc8b9-116">섬/지역 포함</span><span class="sxs-lookup"><span data-stu-id="dc8b9-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="dc8b9-117">해당 없음</span><span class="sxs-lookup"><span data-stu-id="dc8b9-117">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="dc8b9-118">섬/지역 포함 안 함</span><span class="sxs-lookup"><span data-stu-id="dc8b9-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="dc8b9-119">해당 없음</span><span class="sxs-lookup"><span data-stu-id="dc8b9-119">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="dc8b9-120">유선/고정 회선 가용성</span><span class="sxs-lookup"><span data-stu-id="dc8b9-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="dc8b9-121">STC 에서만 가능 합니다.</span><span class="sxs-lookup"><span data-stu-id="dc8b9-121">From STC only.</span></span>  <br/> |
+|<span data-ttu-id="dc8b9-122">모바일 네트워크 가용성</span><span class="sxs-lookup"><span data-stu-id="dc8b9-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="dc8b9-123">STC 에서만 가능 합니다.</span><span class="sxs-lookup"><span data-stu-id="dc8b9-123">From STC only.</span></span>  <br/> |
+|<span data-ttu-id="dc8b9-124">메모, 제한 사항 및 액세스 문제</span><span class="sxs-lookup"><span data-stu-id="dc8b9-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="dc8b9-125">없음</span><span class="sxs-lookup"><span data-stu-id="dc8b9-125">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="c4d12-126">관련 항목</span><span class="sxs-lookup"><span data-stu-id="c4d12-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="dc8b9-126">관련 주제</span><span class="sxs-lookup"><span data-stu-id="dc8b9-126">Related topics</span></span>
 
-[<span data-ttu-id="c4d12-127">무료 전화 걸기 제한 및 제한 사항</span><span class="sxs-lookup"><span data-stu-id="c4d12-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="dc8b9-127">무료 전화 걸기 제한 사항</span><span class="sxs-lookup"><span data-stu-id="dc8b9-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="c4d12-128">비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기</span><span class="sxs-lookup"><span data-stu-id="c4d12-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="dc8b9-128">비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기</span><span class="sxs-lookup"><span data-stu-id="dc8b9-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  
