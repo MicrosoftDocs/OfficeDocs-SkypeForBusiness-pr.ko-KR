@@ -14,13 +14,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: d2d2d647d200d6b043dbf131102fba402af6bf1f
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+f1.keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+ms.openlocfilehash: e99816442b6cde308765c1b5fef9bc8a1599434f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "37642267"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705923"
 ---
 # <a name="skype-for-business-online-admin"></a>비즈니스용 Skype Online 관리자
 
@@ -190,7 +190,7 @@ ms.locfileid: "37642267"
                 <div class="card">
                     <div class="cardText">
                         <h3>오디오 회의</h3>
-                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Office 365의 오디오 회의</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">내 조직의 오디오 회의 설정 관리</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">오디오 회의 일반적인 질문</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">오디오 회의 공급자 비교</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">해당 국가/지역에서 음성 회의를 사용할 수 있는지 확인</a></p>
+                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Office 365의 오디오 회의</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">조직의 오디오 회의 설정 관리</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">오디오 회의 일반적인 질문</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">오디오 회의 공급자 비교</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">해당 국가/지역에서 음성 회의를 사용할 수 있는지 확인</a></p>
                     </div>
                 </div>
             </div>
@@ -202,7 +202,7 @@ ms.locfileid: "37642267"
                 <div class="card">
                     <div class="cardText">
                         <h3>설정</h3>
-                        <p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online">비즈니스용 Skype Online 설정</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">사용자가 외부 비즈니스용 Skype 사용자에 게 연락할 수 있도록 허용</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts">비즈니스용 Skype 사용자가 Skype 연락처를 추가 하도록 허용</a></p>
+                        <p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online">비즈니스용 Skype 온라인 설정</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts">비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용</a></p>
                      </div>
                 </div>
             </div>
@@ -214,7 +214,7 @@ ms.locfileid: "37642267"
                 <div class="card">
                     <div class="cardText">
                         <h3>추가 기능 라이선스</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">비즈니스용 Skype 및 Microsoft 팀 추가 기능 라이선스</a></p><p><a href="/MicrosoftTeams/what-are-communications-credits">통신 크레딧 이란 무엇 인가요?</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">비즈니스용 Skype 및 Microsoft 팀 추가 기능 라이선스</a></p><p><a href="/MicrosoftTeams/what-are-communications-credits">통신 크레딧이란?</a></p>
                     </div>
                 </div>
             </div>
@@ -225,8 +225,8 @@ ms.locfileid: "37642267"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>통화 요금제</h3>
-                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">Office 365의 통화 플랜은 무엇 인가요?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">통화 요금제 설정</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">해당 국가/지역에서 통화 요금제를 사용할 수 있는지 확인</a></p>
+                        <h3>통화 플랜</h3>
+                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">Office 365의 통화 플랜은 무엇 인가요?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">통화 플랜 설정</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">해당 국가/지역에서 통화 요금제를 사용할 수 있는지 확인</a></p>
                     </div>
                 </div>
             </div>
