@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server 제어판에 대한 브라우저 지원'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Browser support for Lync Server Control Panel
 ms:assetid: 716829ec-f00c-4425-9fb6-0c4c4d4006e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204993(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4166d69b76fd3b74932984eabc7d7ec63faf948f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 43e224e878b645daa355cfa5617ff42c69b61b94
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985338"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741808"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40985338"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="browser-support-for-lync-server-2013-control-panel"></a><span data-ttu-id="a149c-102">Lync Server 2013 제어판에 대한 브라우저 지원</span><span class="sxs-lookup"><span data-stu-id="a149c-102">Browser support for Lync Server 2013 Control Panel</span></span>
+# <a name="browser-support-for-lync-server-2013-control-panel"></a><span data-ttu-id="0743d-102">Lync Server 2013 제어판에 대한 브라우저 지원</span><span class="sxs-lookup"><span data-stu-id="0743d-102">Browser support for Lync Server 2013 Control Panel</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "40985338"
 
 <span> </span>
 
-<span data-ttu-id="a149c-103">_**마지막으로 수정한 주제:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="a149c-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="0743d-103">_**마지막으로 수정한 주제:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="0743d-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="a149c-104">Lync Server 2013는 다음 브라우저를 사용할 때 토폴로지 작성기의 사용을 지원 하 고 Lync Server 2013 제어판이 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a149c-104">Lync Server 2013 supports the use of Topology Builder and Lync Server 2013 Control Panel is supported when using the following browsers:</span></span>
+<span data-ttu-id="0743d-104">Lync Server 2013는 다음 브라우저를 사용할 때 토폴로지 작성기의 사용을 지원 하 고 Lync Server 2013 제어판이 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0743d-104">Lync Server 2013 supports the use of Topology Builder and Lync Server 2013 Control Panel is supported when using the following browsers:</span></span>
 
-  - <span data-ttu-id="a149c-105">Internet Explorer 10, 32 비트</span><span class="sxs-lookup"><span data-stu-id="a149c-105">Internet Explorer 10, 32-bit</span></span>
+  - <span data-ttu-id="0743d-105">Internet Explorer 10, 32 비트</span><span class="sxs-lookup"><span data-stu-id="0743d-105">Internet Explorer 10, 32-bit</span></span>
 
-  - <span data-ttu-id="a149c-106">Internet Explorer 9, 32 비트</span><span class="sxs-lookup"><span data-stu-id="a149c-106">Internet Explorer 9, 32-bit</span></span>
+  - <span data-ttu-id="0743d-106">Internet Explorer 9, 32 비트</span><span class="sxs-lookup"><span data-stu-id="0743d-106">Internet Explorer 9, 32-bit</span></span>
 
-  - <span data-ttu-id="a149c-107">Internet Explorer 8, 32 비트</span><span class="sxs-lookup"><span data-stu-id="a149c-107">Internet Explorer 8, 32 bit</span></span>
+  - <span data-ttu-id="0743d-107">Internet Explorer 8, 32 비트</span><span class="sxs-lookup"><span data-stu-id="0743d-107">Internet Explorer 8, 32 bit</span></span>
 
 </div>
 
