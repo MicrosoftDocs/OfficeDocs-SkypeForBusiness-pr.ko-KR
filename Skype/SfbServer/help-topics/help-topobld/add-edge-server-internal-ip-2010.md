@@ -1,5 +1,5 @@
 ---
-title: Edge Server 내부 IP 2010 추가
+title: Edge 서버 내부 IP 2010 추가
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,20 +7,20 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerInternalIpPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 661dd74e-c42a-4905-a9c6-6efe02acc5f8
 description: 이 페이지를 사용 하 여 Edge 서버의 내부 IP 주소 및 FQDN (정규화 된 도메인 이름)을 지정 합니다.
-ms.openlocfilehash: dfe5d082b14d5480061f7262c481e455b7eb8a1f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bb2105f8d5663b060f3ce822c052b8cc8ac0a10d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197313"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698433"
 ---
-# <a name="add-edge-server-internal-ip-2010"></a>Edge Server 내부 IP 2010 추가
+# <a name="add-edge-server-internal-ip-2010"></a>Edge 서버 내부 IP 2010 추가
 
 이 페이지를 사용 하 여 Edge 서버의 내부 IP 주소 및 FQDN (정규화 된 도메인 이름)을 지정 합니다.
 

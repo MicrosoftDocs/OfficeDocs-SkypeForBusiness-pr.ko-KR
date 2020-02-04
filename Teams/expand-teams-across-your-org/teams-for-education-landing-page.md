@@ -1,5 +1,5 @@
 ---
-title: 교육용 팀
+title: 교육용 Teams
 description: 이러한 리소스를 사용 하 여 조직에서 팀을 최대한 활용할 수 있습니다.
 layout: LandingPage
 ms.topic: landing-page
@@ -12,17 +12,17 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.assignments.overview
+f1.keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4ee71b414f40895d34172ce214b6ab7f555830a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0c0ef954c1a6f93ab47df5a968be3c5950d24d44
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569647"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693793"
 ---
-# <a name="teams-for-education"></a>교육용 팀
+# <a name="teams-for-education"></a>교육용 Teams
 
 팀에서 교사와 교직원은 공동 강의실을 만들고, 전문 학습 커뮤니티에서 연결 하 고, 학생 및 교사와 통신할 수 있습니다. 여기에서 관리 리소스를 사용 하 여 학교 또는 기관에서 팀을 성공적으로 배포, 채택 및 관리할 수 있습니다. 
 
@@ -38,7 +38,7 @@ ms.locfileid: "37569647"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>빠른 시작-교육 관리자를 위한 팀</h3>
+                        <h3>빠른 시작 - 교육용 Teams 관리</h3>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ ms.locfileid: "37569647"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>교육용 팀의 과제</h3>
+                        <h3>교육용 Teams의 과제</h3>
                     </div>
                 </div>
             </div>

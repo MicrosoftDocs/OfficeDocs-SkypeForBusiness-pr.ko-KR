@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerIPOptionsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 description: Microsoft Lync Server 2013에서는 Edge 서버 및 Edge 풀의 각 인터페이스에 대해 IPv4 및 IPv6 주소를 구성할 수 있습니다. 이 작업을 수행 하려면 다음을 수행 합니다.
-ms.openlocfilehash: de0b0e0c050721a4fb54a450db89e34f65ea7f7f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f6721f170bbe9a05a247d5ab79fb2cbd1cb7ccaf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196435"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698413"
 ---
 # <a name="add-edge-server-ip-options"></a>Edge 서버 IP 옵션 추가
  

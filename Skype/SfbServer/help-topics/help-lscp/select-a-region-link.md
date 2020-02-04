@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.NcsSelRegionLink
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 description: 지역 링크 대화 상자를 사용하여 사용자의 환경에서 사용 가능한 지역 링크를 찾습니다. 기존 지역 링크를 사용하려면 목록에서 지역 링크를 클릭한 다음 확인을 클릭합니다.
-ms.openlocfilehash: 26a5a8df6ab307cf7a8a10abf8ba0cb76742d27e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9072fa0582a74990bc5dfd4d7e49b35ceb08fbc1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197290"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699743"
 ---
 # <a name="select-a-region-link"></a>지역 링크 선택
  

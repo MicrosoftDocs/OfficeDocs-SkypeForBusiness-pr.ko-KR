@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 및 Microsoft 팀이 오스트레일리아에 대해 사용할 수 있는 Office 365 서비스입니다.
-ms.openlocfilehash: 2ce9e45a4f2addbe35c0a853c6c009d58998d336
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: acbde97d1b0facf077b175650d4748318d53b591
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573744"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695433"
 ---
 # <a name="availability-in-australia"></a>오스트레일리아의 가용성
 
@@ -97,7 +98,7 @@ Office 365에 대 한 Telstra 통화는 Telstra에서 구축한 후 오스트레
    
 설정 하려는 경우 [조직의 통신 크레딧 설정을](../set-up-communications-credits-for-your-organization.md)참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 

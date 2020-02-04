@@ -15,16 +15,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.dialplans.overview
+f1.keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: '팀에서 사용할 수 있는 다이얼 통화 계획의 종류 (PSTN 통화 다이얼 플랜) 및 조직에 대해 하나를 선택 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: bd41b257af80a3a21da1013e604214d1e0303edf
-ms.sourcegitcommit: 472909325a47cf0ad00bed949d02ab5766d35832
+ms.openlocfilehash: a40d36b124b0bc1adbe9bc676a68a3b9c1d158ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "40891217"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694323"
 ---
 # <a name="what-are-dial-plans"></a>다이얼 플랜이 무엇인가요?
 
@@ -144,13 +144,13 @@ ms.locfileid: "40891217"
 > [!NOTE]
 > 앞 표에 표시 된 정규화 규칙 이름에는 공백이 포함 되지 않지만, 선택 하는 것이 중요 합니다. 예를 들어 표의 이름에는 "5 자리 내선" 또는 "5 자리 내선 번호"가 기록 되 고 여전히 유효 합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [다이얼 플랜 만들기 및 관리](create-and-manage-dial-plans.md)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)(조직의 전화 번호 관리)
+[조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [긴급 통화 사용 약관](emergency-calling-terms-and-conditions.md)
 

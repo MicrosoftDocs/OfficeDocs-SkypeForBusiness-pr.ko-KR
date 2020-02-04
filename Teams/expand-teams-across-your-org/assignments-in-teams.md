@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: jastark
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.assignments.overview
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
@@ -19,14 +19,14 @@ description: 교육 팀의 Microsoft 팀 관리 센터에서 과제를 관리 �
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cce2e18059350e11986b4ca1ddcbe47fbc285231
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d8d62d32aae46714c592200432cf1220e56e9fb7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570394"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693803"
 ---
-# <a name="assignments-in-teams-for-education"></a>교육용 팀의 과제
+# <a name="assignments-in-teams-for-education"></a>교육용 Teams의 과제
 
 과제는 수업에서 학생 또는 팀 구성원에 게 배정 된 작업 또는 작업 단위를 연구의 일부로 하는 것입니다. 팀 클래스 내에서 과제를 만들 수 있습니다.
 

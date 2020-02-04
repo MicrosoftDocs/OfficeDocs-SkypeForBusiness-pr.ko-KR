@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 비즈니스용 Skype에 대 한 전화 접속 회의 공급자를 Microsoft에 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: deaafe36948a6fe3a7eb9eaaf49295c37f627595
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: f0c3d1d667847e080b47f31bb1032ff4b8ac980d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962736"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695763"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft를 오디오 회의 공급자로 지정
 
@@ -194,7 +195,7 @@ Script.ps1 -CsvFile <Path of the csv file>
   ```
 Windows PowerShell을 사용 하는 방법에 대 한 자세한 내용은 [Windows powershell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업](https://go.microsoft.com/fwlink/?LinkId=525038)을 참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 [비즈니스용 Skype Online 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md) 또는 Office 365에서 오디오 회의 체험 또는 구매
 

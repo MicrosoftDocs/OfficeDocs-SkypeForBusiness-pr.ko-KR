@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.ExternalApplicationGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: 이미 정의 된 신뢰할 수 있는 응용 프로그램 서버의 속성을 편집 하려면 다음 지침을 따릅니다.
-ms.openlocfilehash: 56e8fb02039fec31da3303c1d357f176ddcb8d51
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 99ccca72613edbde4b38d21dd8e8bb121e5a8dd5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189972"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697363"
 ---
 # <a name="external-application-general-settings-expander"></a>외부 응용 프로그램 일반 설정 확장기
  

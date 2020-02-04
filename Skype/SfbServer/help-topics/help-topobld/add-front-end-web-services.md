@@ -1,5 +1,5 @@
 ---
-title: 프런트 엔드 웹 서비스 추가
+title: 프론트 엔드 웹 서비스 추가
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,20 +7,20 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndWebServicesPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99626970-1613-41ca-a36e-24bed1f459d7
 description: 기본 URL은 URL의 웹 서비스 id (https://를 제외한)입니다. 예를 들어 풀의 웹 서비스에 대 한 전체 URL이 https://pool01.contoso.net기본 url 인 경우 pool01.contoso.net.
-ms.openlocfilehash: 3317df51fcacd17de8c1ce3f40163f2ce63dc13f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 10749cc746cf1f3d039a89fd351be6de77eafaee
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187164"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698203"
 ---
-# <a name="add-front-end-web-services"></a>프런트 엔드 웹 서비스 추가
+# <a name="add-front-end-web-services"></a>프론트 엔드 웹 서비스 추가
  
 기본 URL은 URL의 웹 서비스 id (https://를 제외한)입니다. 예를 들어 풀의 웹 서비스에 대 한 전체 URL이 https://pool01.contoso.net기본 url 인 경우 pool01.contoso.net.
   

@@ -7,19 +7,19 @@ manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.HighAvailability
 - ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: 비즈니스용 Skype Server 2015의 대부분의 서버 역할에 대 한 주요 고가용성 체계는 풀링을 통한 서버 중복성을 기반으로 합니다. 특정 서버 역할을 실행 하는 서버에 오류가 발생 하는 경우 동일한 역할을 실행 하는 풀의 다른 서버에서 해당 서버의 로드를 수행 합니다.
-ms.openlocfilehash: 740c12439683fcefccaef11358a8cb65a4fae65a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 53b98b72c70fcb624ab59fc7bfc3fbffadbd231a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188457"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696293"
 ---
 # <a name="high-availability-planning-tool"></a>고가용성 (계획 도구)
  

@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 description: 고객은 비즈니스용 Skype Online 및 Microsoft 팀 PSTN 서비스 사용 약관 및 고객의 볼륨 라이선스 계약에 따라 Office 365 통화 요금제 및 Office 365 오디오 회의를 사용할 수 있습니다.
-ms.openlocfilehash: 10f56c62ccac79fcd20b0ca88fd7d71a8fc7c43a
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 65d1426fd74a219206a725a33a52646ab6058337
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311233"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695443"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>오디오 회의 무료 전화 걸기 기간
 
@@ -113,5 +114,5 @@ Office 365 오디오 회의 서비스를 채택 하는 고객의 경우 Microsof
 |영국  <br/> |
 |미국  <br/> |
      
-## <a name="related-topics"></a>관련 항목
-[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+## <a name="related-topics"></a>관련 주제
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

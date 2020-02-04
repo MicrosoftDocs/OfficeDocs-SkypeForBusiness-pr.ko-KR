@@ -16,23 +16,24 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '휴대폰을 사용 하 여 전화 회의에 참가 해야 하는 사용자에 대해 전화 접속 또는 오디오 회의를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: d630f6f149f61609209cc4ead23ed7232647cb08
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 0a483dba984799a3c9e0f1a63ed908dde9a9ca08
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37925369"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693953"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft 팀을 위한 오디오 회의 설정
 
 조직의 사용자가 모임에 전화를 걸 때 휴대폰을 사용 해야 하는 경우가 있습니다. Microsoft 팀에는 이러한 상황에 대 한 오디오 회의 기능이 포함 되어 있습니다. 사용자는 모바일 장치 또는 PC에서 팀 앱을 사용 하는 대신 휴대폰을 사용 하 여 팀 회의에 통화할 수 있습니다. 
   
-일정을 예약 하거나 리드 회의를 하는 사용자를 위해 오디오 회의를 설정 하기만 하면 됩니다. 전화를 걸 수 있는 모임 참석자는 해당 사용자 또는 다른 설정에 할당 된 라이선스가 필요 하지 않습니다.
+모임 일정을 계획하거나 주도하는 사용자들을 위해 오디오 회의를 설정하기만 하면 됩니다. 전화를 걸 수 있는 모임 참석자는 해당 사용자 또는 다른 설정에 할당 된 라이선스가 필요 하지 않습니다.
   
 오디오 회의에 대 한 질문과 대답은 [오디오 회의 일반적인 질문](audio-conferencing-common-questions.md)을 참조 하세요.
 
@@ -42,7 +43,7 @@ ms.locfileid: "37925369"
 ## <a name="step-1-find-out-if-audio-conferencing-is-available-in-your-countryregion"></a>1 단계: 자신의 국가/지역에서 음성 회의를 사용할 수 있는지 확인
 <a name="__top"> </a>
 
-오디오 회의 [및 통화 요금제에 대 한 국가 및 지역](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 으로 이동 하 여 오디오 회의에 대 한 사용 가능성 정보를 가져올 국가 또는 지역을 선택 하 고 전화 시스템, 통화 요금제, 유료, 무료 통화에 대 한 정보를 제공 합니다. 숫자 및 통신 크레딧을. 
+오디오 회의 [및 통화 요금제에 대 한 국가 및 지역](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 으로 이동 하 고, 전화 시스템, 통화 요금제, 유료 및 무료 번호, 통신 크레딧에 대 한 정보를 비롯 하 여 오디오 회의에 대 한 가용성 정보를 얻을 국가 또는 지역을 선택 합니다. 
  
 ## <a name="step-2-get-and-assign-licenses"></a>2 단계: 라이선스 가져오기 및 할당
  
@@ -79,7 +80,7 @@ ms.locfileid: "37925369"
 ![비즈니스용 skype](media/sfb-logo-30x30.png) **관리 센터를 사용 하 여** 비즈니스용 skype 로고를 표시 하는 아이콘:
 
  1. **Microsoft 365 관리 센터** > **관리** > 센터**팀** > **레거시 포털로**이동 합니다.
- 2. **음성** > **전화 번호**를 선택 합니다.
+ 2. **Voice** > **전화번호**를 선택합니다.
  3. 전화 번호를 선택 하 고 **할당**을 클릭 합니다.
 
 자세한 내용은 [오디오 회의 브리지에서 전화 번호 변경을](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)참조 하세요.

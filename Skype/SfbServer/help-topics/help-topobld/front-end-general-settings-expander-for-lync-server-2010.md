@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2010의 프런트 엔드 일반 설정 확장기
+title: Lync Server 2010용 프런트 엔드 일반 설정 확장기
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,20 +7,20 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 다음 특성을 편집 하거나 구성 하 여 프런트 엔드 서버 또는 프런트 엔드 풀의 속성을 편집할 수 있습니다. 구성 페이지는 다음 섹션으로 구분 됩니다.
-ms.openlocfilehash: b0ee8a2d0081d937bf93d4a638e4f56b1cc79134
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1e7fa730745c3eab20288b5b4bfbb9c0d781be83
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189921"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697293"
 ---
-# <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010의 프런트 엔드 일반 설정 확장기
+# <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010용 프런트 엔드 일반 설정 확장기
 
 다음 특성을 편집 하거나 구성 하 여 프런트 엔드 서버 또는 프런트 엔드 풀의 속성을 편집할 수 있습니다. 구성 페이지는 다음 섹션으로 구분 됩니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "36189921"
 
 - 회의를 선택한 경우 **에는 전화 접속 (PSTN) 회의** 를 선택할 수 있습니다. 전화 접속 회의 기능을 사용 하도록 설정 하려면 확인란을 선택 합니다.
 
-- 송수화기 전화, SIP trunks 또는 공개 옵션을 비롯 한 VoIP (Voice over IP) 기술을 사용 하 여 Lync Server 2013을 전화 음성 시스템으로 작동할 수 있도록 하는 기능을 배포 하려면 **Enterprise Voice** (확인) 확인란을 선택 합니다. 디자인 및 요구 사항에 따라 중재 서버, PSTN 게이트웨이, IP-PBX를 조합 하거나 단독으로 사용 하 여 전화 네트워크 연결을 전환 했습니다. 엔터프라이즈 음성에 대 한 자세한 내용은 [Enterprise voice](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) 및 [비즈니스용 Skype 서버 2015에서 엔터프라이즈 음성에 대 한 계획](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) 을 참조 하세요.
+- 디자인 및 요구 사항에 따라 중재 서버, PSTN 게이트웨이 및 IP-PBX를 조합 하거나 단독으로 사용 하 여 송수화기 전화기, SIP trunks 또는 공개 전환 전화 네트워크 연결을 배포 하는 옵션을 비롯 하 여 Lync Server 2013에서 전화 음성 시스템으로 작동할 수 있도록 하는 기능을 배포 하려면 **Enterprise Voice** (확인) 확인란을 선택 합니다. 엔터프라이즈 음성에 대 한 자세한 내용은 [Enterprise voice](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) 및 [비즈니스용 Skype 서버 2015에서 엔터프라이즈 음성에 대 한 계획](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) 을 참조 하세요.
 
     **연결**
 
@@ -57,7 +57,7 @@ ms.locfileid: "36189921"
 
   **탄성**
 
-- 연결 된 **백업 등록자 풀** 확인란을 선택 하 여 목록에서 백업 등록자로 지정 된 프런트 엔드 서버 또는 프런트 엔드 풀 (즉, 주 관리자에 게 표시 되는 이벤트에서 보조 등록 기관으로 지정한 프런트 엔드 서버 또는 프런트 엔드 풀)을 선택 합니다. 데
+- **연결 된 백업 등록자 풀** 확인란을 선택 하 여 목록에서 백업 등록 기관 (즉, 주에 실패 한 경우 보조 등록 기관으로 지정 된 프런트 엔드 서버 또는 프런트 엔드 풀)을 선택 합니다.
 
 - 연결 된 백업 등록자 풀을 선택 하 고 백업 등록자를 선택한 경우 **자동 장애 조치 및 음성 장애 복구**확인란을 선택할 수 있습니다. 이제 **음성 장애 조치 (failover) 검색 내부 (초)** 및 **음성 장애 복구 간격 (초)** 에 대 한 숫자 속성을 정의할 수 있습니다. 자세한 내용은 [엔터프라이즈 음성 복원 계획](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx) 을 참조 하세요.
 
@@ -86,7 +86,7 @@ ms.locfileid: "36189921"
 
 - Collocated 중재 서버와 연결 된 trunks를 정의 합니다. 이미 트렁크를 정의한 경우 해당 트렁크를 중재 서버와 연결할 수 있습니다.
 
-    중재 서버와 연결 된 게이트웨이가 두 개 이상 있는 경우 기본 게이트웨이를 선택 하 고 기본값으로 설정을 클릭 하 여 기본 게이트웨이를 지정할 수 있습니다. **** 현재 기본 게이트웨이를 제거 하도록 선택 하는 경우 게이트웨이를 선택 하 고 **기본 설정**해제를 클릭 합니다.
+    중재 서버와 연결 된 게이트웨이가 두 개 이상 있는 경우 기본 게이트웨이를 선택 하 **고 기본값으로 설정을 클릭 하**여 기본 게이트웨이를 지정할 수 있습니다. 현재 기본 게이트웨이를 제거 하도록 선택 하는 경우 게이트웨이를 선택 하 고 **기본 설정**해제를 클릭 합니다.
 
 > [!IMPORTANT]
 > 이 대화 상자에서 속성을 변경 하는 경우에는 토폴로지를 게시 하 고 영향을 받는 모든 서버에서 비즈니스용 Skype 서버 배포 마법사를 실행 해야 합니다. 새 토폴로지를 게시 한 후에는 비즈니스용 Skype 서버 배포 마법사가 실행 되어야 하는 영향을 받는 서버 목록이 성공한 토폴로지 게시 요약 화면에서 링크로 제공 됩니다. 업데이트 된 토폴로지를 게시 하는 방법에 대 한 자세한 내용은 [토폴로지 게시](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx)를 참조 하세요. 비즈니스용 Skype 서버 배포 마법사에 대 한 자세한 내용은 [Lync Server 관리 도구](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)를 참조 하세요.
@@ -95,7 +95,7 @@ ms.locfileid: "36189921"
 
 **취소** 를 클릭 하 여 변경 내용을 취소 하 고 프런트 엔드 서버 또는 프런트 엔드 풀에 대 한 **편집 속성** 을 닫습니다.
 
-도움말 **** 을 클릭 하 여이 도움말 항목을 읽습니다.
+도움말 **을 클릭 하 여** 이 도움말 항목을 읽습니다.
 
 ## <a name="see-also"></a>참고 항목
 

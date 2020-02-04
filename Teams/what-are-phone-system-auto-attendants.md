@@ -17,16 +17,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.autoattendants.overview
+f1.keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 클라우드 자동 전화 교환 방법과 사용 방법에 대해 알아봅니다.
-ms.openlocfilehash: e9d6da8a73333218990611bd287a852683d52f9c
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: ab88eb27eb12e8de119b90c7d53de750384afcea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41004773"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694303"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>클라우드 자동 전화 교환 이란?
 
@@ -236,7 +236,7 @@ Office 365에서 전화 시스템용 자동 전화 교환을 설정 하려면 [�
 > [!NOTE]
 > 미국 이외의 지역에 거주 하는 경우에는 Microsoft 팀 관리 센터를 사용 하 여 서비스 번호를 얻을 수 없습니다. 대신 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 를 참조 하 여 방법을 확인 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](here-s-what-you-get-with-phone-system.md)
 

@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SecRegistrarEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
-description: 뭘 하고 싶으세요? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: 5fa4035818072ee92e41aa880283658fead602f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+ms.openlocfilehash: c0f2203f2637302dc79ea653fad17b856aec05e8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197611"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699803"
 ---
-# <a name="registrar-security-settings-create-new-or-edit-existing"></a>등록자 보안 설정: 새로 만들기 또는 기존 편집
+# <a name="registrar-security-settings-create-new-or-edit-existing"></a>도메인 대행업체 보안 설정: 새로 만들기 또는 기존 항목 편집
 
-뭘 하고 싶으세요? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
 
 - [비즈니스용 Skype 서버 2015에서 등록자 구성 설정 관리](../../manage/authentication/registrar-configuration-settings.md)
 

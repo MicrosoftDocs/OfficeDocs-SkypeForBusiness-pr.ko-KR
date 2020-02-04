@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SimpleUrlSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 새로 만들기, 기존 제거 또는 활성 상태의 간단한 Url을 변경 하려면 다음을 수행 합니다.
-ms.openlocfilehash: 26874484cb51c0a0ea8170a2478383b43cfc1b6d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8d26c5eaecd96ea1d4980e3f2b2a593707fe84bc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191922"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696683"
 ---
 # <a name="simple-url-settings-expander"></a>간단한 URL 설정 확장기
 

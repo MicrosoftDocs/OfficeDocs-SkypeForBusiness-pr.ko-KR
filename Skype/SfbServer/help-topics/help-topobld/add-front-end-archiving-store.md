@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndArchivingStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 description: 보관에는 보관 데이터를 저장 하기 위해 지원 되는 Microsoft SQL Server 데이터베이스 소프트웨어 64 비트 버전이 필요 합니다. Sql Server 데이터베이스를 보관할 서버의 FQDN (정규화 된 도메인 이름)을 지정 하 고 SQL Se의 인스턴스 외에 새 SQL server 데이터베이스를 저장 하는 데 사용할 이전에 정의 된 SQL Server 데이터베이스를 선택 하거나 다음을 수행할 수 있습니다. 새 SQL Server 데이터베이스에 사용 하려는 rver (기본 인스턴스 또는 사용자가 지정 하는 명명 된 인스턴스가 될 수 있음).
-ms.openlocfilehash: 67a0db892346852ba2aaf059dbad7b73b0037f75
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7af10299da6cb6dee960ab8b8154aa71f41fa1ff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196980"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698313"
 ---
 # <a name="add-front-end-archiving-store"></a>프론트 엔드 보관 저장소 추가
 

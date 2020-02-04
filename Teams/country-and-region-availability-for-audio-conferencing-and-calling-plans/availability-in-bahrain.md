@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 및 바레인에서 사용할 수 있는 Microsoft 팀을 위한 Office 365 서비스입니다.
-ms.openlocfilehash: 0c4c9f0f51193296b7ee6131e08cf3c2625896f1
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: 18aa99c7a96814d80dd8a38e43ea4f9a5f68246b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010611"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695423"
 ---
 # <a name="availability-in-bahrain"></a>바레인의 가용성
 
@@ -37,7 +38,7 @@ ms.locfileid: "38010611"
 
 다음은 비즈니스용 Skype 및 바레인에서 사용할 수 있는 Microsoft 팀을 위한 Office 365 서비스입니다.
   
-## <a name="audio-conferencing"></a>음성 회의
+## <a name="audio-conferencing"></a>오디오 회의
 
 |**기능**|**세부적인**|
 |:-----|:-----|
@@ -72,7 +73,7 @@ ms.locfileid: "38010611"
    
  오디오 회의, 자동 전화 교환, 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.
   
-## <a name="communications-credits"></a>통신 제작진
+## <a name="communications-credits"></a>통신 크레딧
 
 |**기능**|**세부적인**|
 |:-----|:-----|
@@ -82,6 +83,6 @@ ms.locfileid: "38010611"
   
 ## <a name="related-topics"></a>관련 주제
 
-[비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 
-[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

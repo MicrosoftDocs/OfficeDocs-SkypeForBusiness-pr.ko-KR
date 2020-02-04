@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPstnGatewayFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: PSTN 또는 개인 분기 교환 (PBX)에 엔터프라이즈 음성 구성 요소를 연결 하는 PSTN (공개 전화망 network) 게이트웨이의 FQDN (정규화 된 도메인 이름)을 지정 합니다.
-ms.openlocfilehash: cfb82d7e2eefb6c3edcbf8bd53c1e5b1c508956e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c83d4525588496a29f57e06ba297950e216e0bdd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197742"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697564"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>PSTN 게이트웨이 FQDN 정의
 

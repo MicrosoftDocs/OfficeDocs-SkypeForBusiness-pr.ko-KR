@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
 description: 이 풀에 프런트 엔드 서버로 추가 하려는 각 컴퓨터의 FQDN (정규화 된 도메인 이름)을 지정 합니다. 목록에 컴퓨터를 추가한 후에는 토폴로지를 게시하기 전에 언제든지 컴퓨터의 FQDN을 업데이트하거나 풀에서 제거할 수 있습니다. 토폴로지를 게시 한 후 FQDN을 변경 하려면 토폴로지 작성기에서 서버를 삭제 한 다음 새 FQDN을 사용 하 여 풀에 새 서버를 추가 해야 합니다. 토폴로지에 프런트 엔드 풀을 추가 하는 방법에 대 한 자세한 내용은 배포 설명서에서 프런트 엔드 풀 정의 및 구성을 참조 하세요.
-ms.openlocfilehash: 22bdd2662a09608e654b8f8a7ca308facd34c153
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dd7fdb3e561972071a6af9fee084af1c3cf679f1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187209"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698253"
 ---
 # <a name="add-front-end-machine"></a>프론트 엔드 컴퓨터 추가
 

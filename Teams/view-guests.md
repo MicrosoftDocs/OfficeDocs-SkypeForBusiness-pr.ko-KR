@@ -12,16 +12,16 @@ ms.collection:
 - M365-collaboration
 ms.reviwer: sbhatta
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticle
+f1.keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticle
 description: 관리자가 Microsoft 팀의 게스트 사용자에 대 한 정보를 보는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16c2c65bc63e41e712be740c68edcc57916d347b
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 8724343fed602b33160798fd5badf707cb0b7dec
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753233"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694113"
 ---
 <a name="view-guest-users-in-a-team"></a>팀에서 게스트 사용자 보기
 ==========================

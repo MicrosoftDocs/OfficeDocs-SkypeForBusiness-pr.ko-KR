@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 필요한 내용과 모임 이끌이가 비즈니스용 Skype를 사용 하 여 다른 사용자에 게 전화를 걸 수 있는 방법을 알아봅니다.
-ms.openlocfilehash: 4f46315c7817ad7e8e529fabff9a3a333527a266
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 392c868763c071e534daf8488baf751269792773
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642748"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695693"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>비즈니스용 Skype 모임에서 전화를 걸어 다른 사람이 참가할 수 있습니다.
 
@@ -61,6 +62,6 @@ ms.locfileid: "37642748"
     
 - [비즈니스용 Skype 추가 기능 라이선스](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [비즈니스용 Skype 설치](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)

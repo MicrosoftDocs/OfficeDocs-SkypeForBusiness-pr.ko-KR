@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2010에 대 한 Edge 설정 확장기 편집
+title: Lync Server 2010용 Edge 설정 확장기 편집
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,20 +7,20 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 다음 속성을 구성 하 여 Edge 서버 또는 Edge 풀에 대 한 설정을 편집 합니다.
-ms.openlocfilehash: 1b349d5640ea2debb4730ce262795616258b3475
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 78edbc8093b54474ac9f0429b5232851a5a16663
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189528"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697383"
 ---
-# <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Lync Server 2010에 대 한 Edge 설정 확장기 편집
+# <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Lync Server 2010용 Edge 설정 확장기 편집
  
 다음 속성을 구성 하 여 Edge 서버 또는 Edge 풀에 대 한 설정을 편집 합니다. 
   
@@ -31,7 +31,7 @@ ms.locfileid: "36189528"
 - 다른 세션 초기화 프로토콜 파트너와의 페더레이션에 대 한 Edge 서버 또는 Edge 풀을 사용 하도록 설정 하려면 **이 edge 풀에 대해 페더레이션 사용 (포트 5061)** 을 선택 합니다.
     
     > [!IMPORTANT]
-    > 오직 하나의 Edge 서버 또는 경계 풀만 페더레이션 용으로 정의할 수 있습니다. 연결 된 스크린샷에 표시 된 구성은 다른 Edge 서버 또는 경계 풀이 페더레이션에 대해 이미 구성 되었음을 나타냅니다. 페더레이션 (_sipfederationtls. _tcp에 대 한 외부 DNS SRV 레코드\< . 외부 도메인 이름\>)이 페더레이션에 대 한 edge 서버 또는 edge 풀을 가리킵니다. 
+    > 오직 하나의 Edge 서버 또는 경계 풀만 페더레이션 용으로 정의할 수 있습니다. 연결 된 스크린샷에 표시 된 구성은 다른 Edge 서버 또는 경계 풀이 페더레이션에 대해 이미 구성 되었음을 나타냅니다. 페더레이션 (_sipfederationtls _tcp\< 에 대 한 외부 DNS SRV 레코드입니다. 외부 도메인 이름\>)이 페더레이션에 대 한 edge 서버 또는 edge 풀을 가리킵니다. 
   
 - 기본적으로 TCP 포트 4443에서 **내부 구성 복제 포트 (HTTPS)** 는 중앙 관리 저장소의 로컬 (즉, 로컬) 서버 복사본을 복제 하는 포트입니다. 중앙 관리 저장소의 로컬 복사본은 각 컴퓨터의 SQL Server에 있는 **RTCLOCAL** 데이터베이스에 있습니다. 복제는 중앙 관리 서버 (중앙 관리 서버 역할을 보유 하는 프런트 엔드 서버 또는 프런트 엔드 풀)에서 Edge 서버에 대 한 단방향으로 시작 되며 내부 인터페이스 포트입니다.
     

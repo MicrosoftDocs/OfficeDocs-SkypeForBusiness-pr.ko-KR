@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 description: 초기 토폴로지를 배포 하거나 나중에 외부 사용자 액세스에 대 한 지원을 추가할 수 있습니다. 기존 토폴로지에 에지 서버를 추가하는 방법에 대한 자세한 내용은 에지 서버 배포 설명서에서 Define Your Edge Topology를 참조하세요.
-ms.openlocfilehash: 652befdc9f08bd49bd52bd6deccdb4bcf2515c95
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0bc498b4249b0ac7e580190a18a500253e9e19c0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189099"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698353"
 ---
 # <a name="add-edge-server-support"></a>Edge 서버 지원 추가
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2010의 프론트 엔드 Sql Store 페이지 추가
+title: Lync Server 2010에 대한 프론트 엔드 Sql 저장소 페이지 추가
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,20 +7,20 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndSqlStorePage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: 구성 중인 새 프런트 엔드 풀에 대 한 SQL Server 저장소의 속성을 정의 합니다.
-ms.openlocfilehash: 6c0fda5d2e3e1ea9dbfba1db9e6f3ed1a3f4080a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a914f78c091552f7e9c66cf8d9ff3bfec15fb791
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187179"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698193"
 ---
-# <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Lync Server 2010의 프론트 엔드 Sql Store 페이지 추가
+# <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Lync Server 2010에 대한 프론트 엔드 Sql 저장소 페이지 추가
  
 구성 중인 새 프런트 엔드 풀에 대 한 SQL Server 저장소의 속성을 정의 합니다.
   

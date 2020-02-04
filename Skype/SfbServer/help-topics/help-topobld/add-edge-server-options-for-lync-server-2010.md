@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2010에 대 한 Edge 서버 옵션 추가
+title: Lync Server 2010에 대한 Edge 서버 옵션 추가
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,20 +7,20 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerOptionsPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 새 Edge 서버 또는 Edge 풀을 정의 하 고 새 서버 또는 풀에 대 한 기능을 정의할 수 있는 기회가 제공 됩니다. 선택할 수 있는 옵션은 다음과 같습니다.
-ms.openlocfilehash: 4bb364ee24f2e85ec16ff2f972dfe05aea9306cd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 953aa6c0bcb5d5bf65f0ba649545aef909d3b647
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191664"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698363"
 ---
-# <a name="add-edge-server-options-for-lync-server-2010"></a>Lync Server 2010에 대 한 Edge 서버 옵션 추가
+# <a name="add-edge-server-options-for-lync-server-2010"></a>Lync Server 2010에 대한 Edge 서버 옵션 추가
 
 새 Edge 서버 또는 Edge 풀을 정의 하 고 새 서버 또는 풀에 대 한 기능을 정의할 수 있는 기회가 제공 됩니다. 선택할 수 있는 옵션은 다음과 같습니다.
 
@@ -31,7 +31,7 @@ ms.locfileid: "36191664"
 
 - **페더레이션 사용 (포트 5061)**: sip (세션 초기화 프로토콜)를 사용 하는 다른 sip 페더레이션, 공급자 또는 호스팅된 서비스를 페더레이션 하려면이 확인란을 선택 합니다.
 
-- **이 edge 풀의 외부 IP 주소는 nat에 의해 번역 됩니다**. edge 외부 인터페이스에 개인 ip 주소를 사용 하 고 edge 서버 또는 edge 풀을 논리적으로 배치할 NAT (network address translation) 장치를 제공 하는 경우이 확인란을 선택 합니다. 나타나면.
+- **이 edge 풀의 외부 IP 주소는 nat에서 번역 됩니다**. edge 외부 인터페이스에 개인 ip 주소를 사용 하는 경우이 확인란을 선택 하 고, edge 서버 또는 edge 풀을 논리적으로 뒤에 배치 하는 NAT (network address translation) 장치를 제공 합니다.
 
 ## <a name="see-also"></a>참고 항목
 

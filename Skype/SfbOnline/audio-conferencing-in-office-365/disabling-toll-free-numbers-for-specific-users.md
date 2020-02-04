@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 관리자는 이끌이가 무료 전화 번호를 모임에 사용 하는 방법을 제어할 수 있습니다.
-ms.openlocfilehash: 541398a760f41effc37e802cafde1141acca2d57
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 42323afd397612c3cdc0549bdcc33b16cfdae9ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642277"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695683"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>특정 비즈니스용 Skype Online 사용자를 위해 무료 번호를 사용 하지 않도록 설정
  
@@ -46,7 +47,7 @@ ms.locfileid: "37642277"
 
  - 참가자는 유료 전화 번호를 사용 하 여 이끌이 모임에 계속 참가할 수 있습니다. 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>특정 사용자에 대해 무료 번호 사용 안 함 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>특정 사용자의 무료 전화 번호 사용 안 함 
 
 **Microsoft 팀 관리 센터**에서 다음을 수행 합니다.
 

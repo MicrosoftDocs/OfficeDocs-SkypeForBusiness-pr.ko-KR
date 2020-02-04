@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.BranchOfficesScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 description: 분기 사이트 노드에 이 중앙 사이트와 연결된 분기 사이트가 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 674224b2d770bfae03f0c961204519e4d801a1a0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fdcea2a31cc51ae64dba7d187e658b0334d25765
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197669"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697653"
 ---
 # <a name="branch-offices-scope-node"></a>지점 범위 노드
  

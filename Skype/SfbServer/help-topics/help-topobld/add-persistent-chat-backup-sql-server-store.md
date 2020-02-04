@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatBackupSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: 영구 채팅 서버 또는 영구 채팅 서버 풀에 대 한 백업 데이터베이스를 제공 하는 백업 SQL Server 저장소를 구성 합니다.
-ms.openlocfilehash: 39e5e1ead6ed3cb089545406852de16170d782dc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 05baf1760b1f7a4f8c30d964b55811d56a2830a8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197535"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698083"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>영구 채팅 백업 SQL Server 저장소 추가
  

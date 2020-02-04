@@ -1,5 +1,5 @@
 ---
-title: 통신 크레딧 이란 무엇 인가요?
+title: 통신 크레딧이란?
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,18 +16,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: '통신 크레딧 (PSTN 소비) 청구, 요금을 확인 하는 방법, 제공 되는 서비스에 대해 알아봅니다. '
-ms.openlocfilehash: 284c4b04ad1652b7a9ab3cb5d6d9bcb2f0902550
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5da6f5807f5fd2868097525f1abe6ecd5def6d5f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568578"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694283"
 ---
-# <a name="what-are-communications-credits"></a>통신 크레딧 이란 무엇 인가요?
+# <a name="what-are-communications-credits"></a>통신 크레딧이란?
 
 통신 크레딧을 통해 오디오 회의 및 통화 계획 회의록을 손쉽게 지불할 수 있습니다. 이를 통해 사용자는 다음을 수행할 수 없을 때를 확인 하지 않습니다.
   
@@ -55,7 +56,7 @@ ms.locfileid: "37568578"
   
 ## <a name="what-is-it"></a>이게 뭐예요?
 
-비즈니스용 Skype에서 무료 전화 번호를 사용 하려면 분당 이러한 통화에 청구 되므로 통신 크레딧이 필요 합니다. 또한 **모든 PSTN 목적지**로 전화를 걸 수 있는 기능이 필요한 통화 요금제 및 오디오 회의 사용자에 게 통신 크레딧을 설정 하는 것이 좋습니다. 여러 국가/지역이 포함 되어 있지만 일부 대상은 통화 요금제 또는 오디오 회의 구독에 포함 되지 않을 수 있습니다. 통신 크레딧을 설정 하지 않거나 사용자에 게 라이선스를 할당 하지 않고 조직에 대해 몇 분이 소요 되는 경우 (예를 들어, 통화 요금제, 오디오 회의 계획 또는 국가/지역에 따라) 이러한 사용자는 온라인에서 전화를 걸거나 받을 수 없게 됩니다. 오디오 회의 모임.
+비즈니스용 Skype에서 무료 전화 번호를 사용 하려면 분당 이러한 통화에 청구 되므로 통신 크레딧이 필요 합니다. 또한 **모든 PSTN 목적지**로 전화를 걸 수 있는 기능이 필요한 통화 요금제 및 오디오 회의 사용자에 게 통신 크레딧을 설정 하는 것이 좋습니다. 여러 국가/지역이 포함 되어 있지만 일부 대상은 통화 요금제 또는 오디오 회의 구독에 포함 되지 않을 수 있습니다. 통신 크레딧을 설정 하지 않거나 사용자에 게 라이선스를 할당 하지 않고 조직에 대해 몇 분이 소요 되는 경우 (예를 들어, 통화 요금제, 오디오 회의 계획 또는 국가/지역에 따라) 이러한 사용자는 온라인 오디오 회의 모임에서 통화 하거나 전화를 걸 수 없습니다.
   
 > [!NOTE]
 > 통신 크레딧을 설정한 다음 **Microsoft 365 관리 센터** > **사용자** > **활성 사용자**의 각 사용자에 대해 통신 크레딧 라이선스를 할당 해야 합니다. 
@@ -69,9 +70,9 @@ ms.locfileid: "37568578"
   
 **Microsoft 365 관리 센터** > **대금 청구** > **구독**에서 언제 든 지 수동으로 크레딧을 추가할 수 있습니다. 또한 자동 **충전** 옵션을 사용 하도록 설정 하면 잔액이 설정한 임계값 아래로 떨어질 때 자동 계정 refills을 사용할 수 있습니다. 커뮤니케이션의 크레딧 잔액을 한 번만 기준으로 한 다음 잔액이 0이 되는 경우, 위의 추가 통화 시나리오가 더 이상 작동 하지 않습니다 (무료 전화 번호 포함). 따라서, **자동 충전** 설정을 사용 하 여 통신 크레딧 잔액이 0 (영)에 도달 해야 하는 서비스 중단을 방지 하는 것이 좋습니다. 발송 거래 성공, 충전 트랜잭션 실패 (예: 만료 된 신용 카드) 또는 통신 크레딧 잔액이 0 (영)에 도달 하는 경우 전자 메일을 받게 됩니다.
   
-## <a name="communications-credits"></a>통신 제작진
+## <a name="communications-credits"></a>통신 크레딧
 
-각 조직은 서로 다른 통화 계획 볼륨 및 고려 요금을 사용 하 게 됩니다. 현재 서비스 공급자 로부터이 유형의 사용 데이터를 받아야 합니다. 비즈니스용 skype를 이미 서비스 공급자로 사용 하는 조직의 경우 **Microsoft 365 관리 센터** > **보고서** 또는 **비즈니스용 skype 관리 센터** > 보고서에서 사용 현황 데이터를 검토 하 여 가져올 수 있습니다.** **PSTN 사용 **세부 정보.**  > 
+각 조직은 서로 다른 통화 계획 볼륨 및 고려 요금을 사용 하 게 됩니다. 현재 서비스 공급자 로부터이 유형의 사용 데이터를 받아야 합니다. 비즈니스용 skype를 이미 서비스 공급자로 사용 하는 조직의 경우 **Microsoft 365 관리 센터** > **보고서** 또는 **비즈니스용 skype 관리 센터** > 에서**PSTN 사용 정보**를**보고** > 하 여 사용 현황 데이터를 볼 수 있습니다.
   
 통신 크레딧을 설정할 때는 조직의 통화 사용량을 조사 하 여 필요한 금액을 결정 해야 합니다. **PSTN 사용** 정보 보고서를 검토 하 여 통화 사용 정보를 얻을 수 있습니다. 이 보고서를 사용 하 여 통화 데이터 레코드를 Excel로 내보내고 사용자 지정 보고서를 만들 수 있습니다.
 
@@ -88,7 +89,7 @@ ms.locfileid: "37568578"
 
 다음 링크 중 하나를 방문 하 여 요금제 및 가격을 확인할 수 있습니다.
   
-- [통화 요금제](https://go.microsoft.com/fwlink/?linkid=799761)
+- [통화 플랜](https://go.microsoft.com/fwlink/?linkid=799761)
     
 - [오디오 회의](https://go.microsoft.com/fwlink/?linkid=799762)
     
@@ -98,7 +99,7 @@ ms.locfileid: "37568578"
   
 각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype PSTN 사용 보고서](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
 
   

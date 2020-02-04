@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MonitoringServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 description: 모니터링 서버 노드는 토폴로지의 모니터링 서버를 나열 합니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 00af542dec356a64984bcfd148827f91b1374e0d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bb92b2b9a3efc45cfa150a22e4de86e0fd91885a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190119"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696933"
 ---
 # <a name="monitoring-servers-scope-node"></a>모니터링 서버 범위 노드
  

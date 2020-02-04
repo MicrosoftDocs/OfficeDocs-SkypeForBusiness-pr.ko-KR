@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceTestCaseEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
-description: UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
-ms.openlocfilehash: 8fada7895429355c5c2b9595fcded9de537083a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: UNRESOLVED_TOKEN_VAL (» bigfin_UI_help_intro)
+ms.openlocfilehash: 914d6b104217bc958525462e2bd46d8160b1252d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196339"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699433"
 ---
 # <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>음성 라우팅 테스트: 새로 만들기 또는 기존 테스트 사례 편집
 
-UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
+UNRESOLVED_TOKEN_VAL (» bigfin_UI_help_intro)
 
 - [음성 라우팅 테스트 사례 만들기](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
 

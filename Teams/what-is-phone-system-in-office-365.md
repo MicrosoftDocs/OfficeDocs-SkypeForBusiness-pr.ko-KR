@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 전화 시스템에서 수행할 수 있는 작업에 대해 알아봅니다.
-ms.openlocfilehash: 78183c8b72af3ab713bea4b10ded4033f667ef1d
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: fa16f94317923a26af8e44f7eebb5586de3b44cf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41554215"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694273"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365의 전화 시스템 이란?
 
@@ -67,7 +68,7 @@ ms.locfileid: "41554215"
 
 기능에 대 한 자세한 내용은 [Office 365에서 전화 시스템을 사용 하 여 얻을 수](here-s-what-you-get-with-phone-system.md)있는 기능을 참조 하세요. 시작할 준비가 되었으면 [조직에서 전화 시스템 설정을](setting-up-your-phone-system.md)참조 하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [전화 시스템 기능](here-s-what-you-get-with-phone-system.md)
 - [Microsoft 팀의 클라우드 음성](cloud-voice-landing-page.md)

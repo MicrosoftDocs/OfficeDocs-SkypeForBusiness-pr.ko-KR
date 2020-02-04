@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: 통화 분석을 설정 하 고 사용 하 여 비즈니스용 Skype 및 Microsoft 팀 통화 품질 문제를 식별 하 고 해결 합니다.
-ms.openlocfilehash: 7a91bc0d8503d313ae3b3dfa7ddd32b6a8c5207a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4b4ab2b60025169351e10a5a8cc3938d146e4f2d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571252"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693943"
 ---
 # <a name="set-up-call-analytics"></a>통화 분석 설정
 
@@ -65,7 +66,7 @@ ms.locfileid: "37571252"
 ||받는 사람 전화 번호  <br/> |마지막 세 자리 숫자를 제외한 전체 전화 번호는 별표 기호로 난독 처리 됩니다. 예를 들어 15552823 * * *.  <br/> |마지막 세 자리 숫자를 제외한 전체 전화 번호는 별표 기호로 난독 처리 됩니다. 예를 들어 15552823 * * *.  <br/> |
 ||**통화 정보** > **고급** 탭 <br/> |정보가 표시 되지 않습니다.  <br/> |표시 되는 모든 정보 (예: 장치 이름, IP 주소, 서브넷 매핑 등)  <br/> |
 ||**통화 정보** > **고급** > **디버그** 탭 <br/> |정보가 표시 되지 않습니다.  <br/> |DNS 접미사 및 SSID와 같이 표시 되는 모든 정보  <br/> |
-|**Meeting** <br/> |참가자 이름  <br/> |에이전트에서 검색 한 사용자의 이름만 다른 참가자가 내부 사용자 또는 외부 사용자로 식별 되었습니다.  <br/> |모든 이름이 표시 됩니다.  <br/> |
+|**모임** <br/> |참가자 이름  <br/> |에이전트에서 검색 한 사용자의 이름만 다른 참가자가 내부 사용자 또는 외부 사용자로 식별 되었습니다.  <br/> |모든 이름이 표시 됩니다.  <br/> |
 ||참가자 수  <br/> |참가자 수입니다.  <br/> |참가자 수입니다.  <br/> |
 ||세션 정보  <br/> |세션 정보가 예외와 함께 표시 됩니다. 에이전트가 검색 한 사용자의 이름만 표시 됩니다. 다른 참가자가 내부 사용자 또는 외부 사용자로 식별 되었습니다. 별표 기호로 난독 처리 된 전화 번호의 마지막 세 자리입니다.  <br/> |세션 정보가 표시 됩니다. 사용자 이름 및 세션 정보가 표시 됩니다. 별표 기호로 난독 처리 된 전화 번호의 마지막 세 자리입니다.  <br/> |
 ||||
@@ -88,10 +89,10 @@ Azure Active Directory에서 관리 역할을 할당 하는 방법에 대 한 �
   
 Tsv 또는 .csv 파일을 처음부터 만드는 경우에는 [테 넌 트 데이터 파일 형식 및 빌드 데이터 파일 구조](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile)를 참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 <a name="BKMK_UploadFiles"> </a>
 
-[통화 분석을 사용 하 여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [통화 분석 및 통화 품질 대시보드](difference-between-call-analytics-and-call-quality-dashboard.md)
 

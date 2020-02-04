@@ -1,5 +1,5 @@
 ---
-title: 비디오 Interop 서버-노드 범위 지정
+title: 비디오 Interop 서버 - 노드 범위
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,20 +7,20 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.VideoInteropServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 비즈니스용 Skype 서버 2015에서 VIS 풀 만들기에서 온라인으로 설명 됩니다.
-ms.openlocfilehash: f3bd7e14b34031153ef9c3f94c919e92639e6462
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f295804645b5832206f6a5a22e29ab7f45d7ba25
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189369"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696463"
 ---
-# <a name="video-interop-servers---scope-the-node"></a>비디오 Interop 서버-노드 범위 지정
+# <a name="video-interop-servers---scope-the-node"></a>비디오 Interop 서버 - 노드 범위
  
 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 [비즈니스용 Skype 서버 2015에서 VIS 풀 만들기](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)에서 온라인으로 설명 됩니다.
   

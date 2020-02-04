@@ -1,5 +1,5 @@
 ---
-title: 오버플로 대기열 선택
+title: 오버플로 큐 선택
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,20 +7,20 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsSelOverflowQueue
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 description: 응답 그룹 대기열이 꽉 차면 ' 오버플로 큐 선택 ' 대화 상자를 사용 하 여 통화가 전달 되는 큐를 선택 합니다.
-ms.openlocfilehash: 3f32cf871aed5c835a4eb73c0e3d76e0637712d2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1234526afcbeb939df46bea10afcd6b82544de10
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196362"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699553"
 ---
-# <a name="select-overflow-queue"></a>오버플로 대기열 선택
+# <a name="select-overflow-queue"></a>오버플로 큐 선택
  
 응답 그룹 대기열이 꽉 차면 ' **오버플로 큐 선택** ' 대화 상자를 사용 하 여 통화가 전달 되는 큐를 선택 합니다.
   
