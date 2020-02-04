@@ -3,6 +3,8 @@ title: 'Lync Server 2013: E9 용 SIP 트렁크 디자인-1-1'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Designing the SIP trunk for E9-1-1
 ms:assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398323(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184096
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2bee3985efd3510b62bfe43b3aa5742f63679093
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b0ca42092b33632dbc7aed84808499b13ab0843c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981091"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

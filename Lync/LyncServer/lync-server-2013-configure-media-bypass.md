@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 미디어 바이패스 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure media bypass
 ms:assetid: f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413028(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 465a949ca1581933f96f18cfe2977d400fa7a152
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8be022e5b1b16bff432873e27ddda5f388db02f1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983291"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758432"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

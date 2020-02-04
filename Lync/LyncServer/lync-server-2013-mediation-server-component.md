@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 중재 서버 구성 요소'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mediation Server component
 ms:assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398399(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1f3476f8b4e99b2abccb67f1d75446a126df03d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 363b277003d7ca1581475ec7c1197bb0f60ccfaa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983625"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766079"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -71,7 +73,7 @@ Microsoft Lync Server 2013, 계획 도구를 사용 하 여 중재 서버를 col
 
 **중재 서버에서 사용 하는 신호 및 미디어 프로토콜**
 
-![중재 서버 프로토콜 다이어그램]조정(images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "서버 프로토콜 다이어그램")
+![중재 서버 프로토콜 다이어그램](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "중재 서버 프로토콜 다이어그램")
 
 <div>
 

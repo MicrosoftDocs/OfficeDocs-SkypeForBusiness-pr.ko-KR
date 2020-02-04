@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 범주 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure categories
 ms:assetid: 4547f514-f0c0-404d-890f-092ddeeac852
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204859(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 310d0b2e32c8a21f00e20593a408df260eb80e32
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf7b7b3ceb24e3b5bffb307cdde048e7a0cabb8c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976258"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757762"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

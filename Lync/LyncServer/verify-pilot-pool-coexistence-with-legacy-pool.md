@@ -3,6 +3,8 @@ title: 레거시 풀로 파일럿 풀 동시 사용 확인
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
 ms:assetid: fe7e14bb-c7eb-4719-b154-009e99360520
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205420(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7de258bff926e2e100fa7c9a4952a4d70ca64373
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fe3b3e04940c90cba4e46fc165c2494f77105667
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980147"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730898"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ _**마지막으로 수정한 주제:** 2012-09-29_
 
 **Lync Server 2013 서비스**
 
-Lync server ![서비스 시작 목록](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "") 목록
+![시작된 Lync Server 서비스 목록](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "시작된 Lync Server 서비스 목록")
 
 </div>
 
@@ -59,7 +61,7 @@ Lync Server 2013 배포의 프런트 엔드 서버에서 Lync Server 2013 제어
 
 **Lync Server 2013 제어판 열기**
 
-![Url 선택 대화 상자](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "url 선택 대화 상자")
+![URL 선택 대화 상자](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "URL 선택 대화 상자")
 
 <div>
 
@@ -75,7 +77,7 @@ Lync Server 2013 배포의 프런트 엔드 서버에서 Lync Server 2013 제어
 
 **Lync Server 2013 제어판 토폴로지 페이지**
 
-![Lync Server 컨트롤 패널-토폴로지 페이지](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "lync Server 제어판-토폴로지 페이지")
+![Lync Server 제어판 - 토폴로지 페이지](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Lync Server 제어판 - 토폴로지 페이지")
 
 </div>
 
@@ -87,7 +89,7 @@ Lync Server 2010 토폴로지 작성기를 사용 하 여 토폴로지를 열려
 
 **Lync Server 2010 토폴로지 작성기 오류 메시지**
 
-![Lync Server 토폴로지 작성기 Mmc 맞춤 오류](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Lync SERVER 토폴로지 작성기 mmc 맞춤 오류")
+![Lync Server 토폴로지 작성기 MMC 스냅 오류](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Lync Server 토폴로지 작성기 MMC 스냅 오류")
 
 </div>
 

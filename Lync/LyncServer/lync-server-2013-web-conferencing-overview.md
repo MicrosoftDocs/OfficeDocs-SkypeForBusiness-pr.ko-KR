@@ -3,6 +3,8 @@ title: Lync Server 2013 웹 회의 개요
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Web conferencing overview
 ms:assetid: 40616dc4-f705-4890-85bf-79f76a033a9b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425913(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0b85bc97f5737f980c83c992a6a21eaeaca4e40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: de63cb5bf2578359d012cda72b07b8fc7f62880d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979111"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758540"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

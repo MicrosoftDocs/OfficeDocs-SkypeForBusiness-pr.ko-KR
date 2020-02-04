@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 토폴로지 작성기에서 게이트웨이 정의'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a gateway in Topology Builder
 ms:assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425945(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184036
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c9e57ad4e3d8c1692731bcfd4a56dc5c3d05bda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 18f257648ba24930eaab0d314e34178ffd67a0c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979742"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733658"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -82,7 +84,7 @@ _**마지막으로 수정한 주제:** 2012-10-04_
     
       - 연결 된 PSTN 게이트웨이를 제거할 때까지 루트 트렁크를 제거할 수 없습니다.
     
-    ![3b030757-eb35-4616-bb6b-74ee67507e3d](images/Gg425945.3b030757-eb35-4616-bb6b-74ee67507e3d(OCS.15).png "3b030757-eb35-4616-bb6b-74ee6e3d")
+    ![3b030757-eb35-4616-bb6b-74ee67507e3d](images/Gg425945.3b030757-eb35-4616-bb6b-74ee67507e3d(OCS.15).png "3b030757-eb35-4616-bb6b-74ee67507e3d")
 
 6.  **IP/PSTN 게이트웨이의 수신 대기 포트**에서 게이트웨이, PBX 또는 SBC가 PSTN 게이트웨이의 루트 트렁크와 연결 되는 조정 서버의 SIP 메시지에 사용할 수신 대기 포트를 입력 합니다. (기본적으로 포트는 TCP (전송 제어 프로토콜) 용 5066 이며 PSTN 게이트웨이, PBX 또는 SBC의 TLS (전송 계층 보안) 용 5067입니다. 지사 사이트의 Survivable Branch 기기에서 기본 포트는 TCP 용 5081이 고 TLS의 경우 5082입니다.
 

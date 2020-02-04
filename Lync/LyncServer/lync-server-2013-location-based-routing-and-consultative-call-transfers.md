@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 위치 기반 라우팅 및 consultative 통화 전송
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Location-Based Routing and consultative call transfers
 ms:assetid: b12460c2-36c8-481f-b867-fe10dc1c0bdf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362836(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56335089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7c7b73efb670c5569b8c4600c1759e981cda211
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4e433baf180b8e4abf50ec374848204bf6628eb0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985416"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**마지막으로 수정한 주제:** 2013-07-31_
 
 **Consultative 통화 이전 통화 흐름**
 
-회의 ![다이어그램에 대 한 위치 기반 라우팅](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "-컨퍼런스 다이어그램의 위치 기반 라우팅")
+![회의에 대한 위치 기반 라우팅 다이어그램](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "회의에 대한 위치 기반 라우팅 다이어그램")
 
 위치 기반 라우팅이 사용 하도록 설정 된 사용자가 PSTN 끝점의 consultative call 전송을 시작 하면 (앞의 그림과 같이), PSTN 사용자와 Lync 사용자 A 간, 그리고 Lync 사용자 A와 Lync 사용자 B 간의 다른 호출이 두 개의 활성 호출을 만듭니다. 위치 기반 라우팅 회의 응용 프로그램에서 다음 동작이 적용 됩니다.
 

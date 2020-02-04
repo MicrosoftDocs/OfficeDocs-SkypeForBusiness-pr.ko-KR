@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 응답 그룹 재해 복구 계획'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for response group disaster recovery
 ms:assetid: 14e0f5dc-77cd-42cd-a9c9-4d0da38fb1cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204699(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183482
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70622364349eb83ecbc171cb3d5bf894ba03d3f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db3a196a258198fe0bc65b533841544decd96aa2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985654"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41750488"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

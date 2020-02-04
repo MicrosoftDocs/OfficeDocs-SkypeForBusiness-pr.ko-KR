@@ -3,6 +3,8 @@ title: 통화 허용 제어에 대 한 요구 사항을 수집 하는 예제
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Example of gathering your requirements for call admission control
 ms:assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425827(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e17d9abb0387f0d77c696487558dec0c915b1651
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 345f5d7e41dd9da3e6d68c59ce9656d3052c57b5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982336"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756272"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ _**마지막으로 수정한 주제:** 2012-09-21_
     
     **세 개의 네트워크 지역으로 구분 된 엔터프라이즈 네트워크 예제**
     
-    네트워크 ![영역 3 개를 사용 하는 네트워크 토폴로지 예제]네트워크(images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "영역이 3 개 있는 네트워크 토폴로지 예")  
+    ![네트워크 지역이 3개인 네트워크 토폴로지 예제](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "네트워크 지역이 3개인 네트워크 토폴로지 예제")  
     
     <div>
     
@@ -193,7 +195,7 @@ _**마지막으로 수정한 주제:** 2012-09-21_
     
     **CAC 네트워크 지역 북미, 대역폭 (시카고, 뉴욕, 디트로이트) 및 WAN 대역폭 (포틀랜드, Reno 및 Albuquerque)에 의해 제한 되는 세 개의 네트워크 사이트를 포함 하는 세 개의 네트워크 사이트**
     
-    Wan 대역폭으로 제한 된 ![네트워크 사이트 예]wan(images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "대역폭으로 제한 된 네트워크 사이트 예")  
+    ![WAN 대역폭이 제한된 예제 네트워크 사이트](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "WAN 대역폭이 제한된 예제 네트워크 사이트")  
 
 5.  각 대역폭 제한 WAN 링크에 대해 다음을 결정 합니다.
     
@@ -414,7 +416,7 @@ _**마지막으로 수정한 주제:** 2012-09-21_
     
     **연결 된 대역폭 한도가 있는 네트워크 지역 링크**
     
-    ![세 지역]간의(images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "제한 예")  
+    ![3개 지역 간의 제한 예제](images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "3개 지역 간의 제한 예제")  
     
     ### <a name="region-link-bandwidth-information-bandwidth-in-kbps"></a>지역 링크 대역폭 정보 (대역폭 (kbps))
     
@@ -529,7 +531,7 @@ _**마지막으로 수정한 주제:** 2012-09-21_
     
     **CAC 네트워크 지역 북미 Reno와 Albuquerque 사이의 사이트 간 링크에 대 한 대역폭 용량 및 대역폭 한계를 표시 합니다.**
     
-    Wan 대역폭의 제약을 받지 않는 네트워크 사이트 ![예](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Wan 대역폭으로 제한 된 네트워크 사이트 예")  
+    ![WAN 대역폭이 제한된 네트워크 사이트 예제](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "WAN 대역폭이 제한된 네트워크 사이트 예제")  
     
     ### <a name="bandwidth-information-for-an-inter-site-link-between-two-network-sites-bandwidth-in-kbps"></a>두 네트워크 사이트 사이의 사이트 간 링크에 대 한 대역폭 정보 (kbps의 대역폭)
     

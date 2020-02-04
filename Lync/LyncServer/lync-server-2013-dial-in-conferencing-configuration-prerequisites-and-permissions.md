@@ -3,6 +3,8 @@ title: 전화 접속 회의 구성 필수 구성 요소 및 권한
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial-in conferencing configuration prerequisites and permissions
 ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412865(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185165
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a60fc58e0ec40dadff044257d43629c2f3cb01ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e6610272c39583b70c1ab20d8271551796f65372
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980169"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762306"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

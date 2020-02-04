@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Microsoft Exchange Server 통합 메시징을 실행 �
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure certificates on the server running Microsoft Exchange Server Unified Messaging
 ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398564(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfc9ed0f51b3f534d5967c7195cc39736a4ecae9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d31ed8b750d0162a2c09d49ca8a350731896086
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983149"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739358"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

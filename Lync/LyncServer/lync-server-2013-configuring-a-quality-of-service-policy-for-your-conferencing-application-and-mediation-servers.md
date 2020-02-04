@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 회의, 응용 프로그램 및 중재 서버에 대�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers
 ms:assetid: 8adcbbc5-c9f5-476d-ab7f-72e61859cacf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205076(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47a79835fb19f5a30a11eac4859f133aeec5c8cb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 385530e45c208ced2cce4815d1f60e596c2a08b8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979101"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763432"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

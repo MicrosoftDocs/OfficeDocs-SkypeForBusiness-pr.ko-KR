@@ -3,6 +3,8 @@ title: 단일 사용자를 시험 운용 풀로 이동
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move a single user to the pilot pool
 ms:assetid: 80d5b365-f153-4c61-a148-f9e18ce6e027
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688109(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 086af622644f8d8285ef5f7be8e17f75ff436000
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e8cb89fde2a62858c3bd9a402207f4b23fd51643
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985266"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**마지막으로 수정한 주제:** 2012-09-28_
 
 Lync Server 2013 제어판 또는 Lync Server 2013 Management Shell을 사용 하 여 Office Communications Server 2007 R2 풀에서 Lync Server 2013 파일럿 풀로 사용자를 이동할 수 있습니다. 아래 예제에서 레지스트라 풀 열의 ** \<office communications server\> ** 는 office communications server 2007 R2 풀 이며,이 풀에는 6 명의 사용자가 모두 연결 되어 있습니다. Lync Server 2013 제어판 및 Lync Server Management Shell을 사용 하 여 사용자를 Lync Server 2013 풀로 이동 하려면 다음 절차를 사용 합니다.
 
-Lync server 제어판에서 ![ocs 사용자 검색](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "lync SERVER 제어판에서 ocs 사용자 검색")
+![Lync Server 제어판에서 OCS 사용자 검색](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Lync Server 제어판에서 OCS 사용자 검색")
 
 <div>
 
@@ -57,7 +59,7 @@ Lync server 제어판에서 ![ocs 사용자 검색](images/JJ688109.d2008fd6-868
 
 7.  **찾기를** 클릭 하 여 레거시 Office Communications Server 2007 R2 사용자를 검색 합니다.
     
-    Lync server 제어판에서 ![ocs 사용자 검색](images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "lync SERVER 제어판에서 ocs 사용자 검색")  
+    ![Lync Server 제어판에서 OCS 사용자 검색](images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "Lync Server 제어판에서 OCS 사용자 검색")  
 
 8.  Lync Server 2013 풀로 이동 하려는 사용자를 선택 합니다. 이 예제에서는 사용자 Sara 아를 이동 합니다.
 
@@ -67,7 +69,7 @@ Lync server 제어판에서 ![ocs 사용자 검색](images/JJ688109.d2008fd6-868
 
 11. **작업** 을 클릭 한 다음 **선택한 사용자 이동을 클릭 하 여 그룹을 선택**합니다. **확인**을 클릭합니다.
     
-    (images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "사용자 이동") ![대화 상자에서 대상 풀을 설정]합니다.  
+    ![사용자 이동의 대상 풀 설정 대화 상자](images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "사용자 이동의 대상 풀 설정 대화 상자")  
 
 12. 사용자의 **등록자 그룹** 열에 사용자가 성공적으로 이동 되었음을 나타내는 Lync Server 2013 풀이 포함 되어 있는지 확인 합니다.
 
@@ -89,7 +91,7 @@ Lync server 제어판에서 ![ocs 사용자 검색](images/JJ688109.d2008fd6-868
 
 4.  이제 **RegistrarPool** Id는 Lync Server 2013 풀을 가리킵니다. 이 id가 있으면 사용자가 성공적으로 이동 했음을 확인 합니다.
     
-    가져오기-csuser cmdlet에서 identity 필터(images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "를 사용 하는 Get csuser cmdlet의") ![id 필터 출력으로 출력]  
+    ![ID 필터가 사용된 Get-CsUser cmdlet의 출력](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "ID 필터가 사용된 Get-CsUser cmdlet의 출력")  
     
     <div>
     

@@ -3,6 +3,8 @@ title: 토폴로지 정보 확인
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify topology information
 ms:assetid: aa4c424e-f87c-4be6-8df6-a0cd193b11fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7657bb80d7acb6d48a4027c665fae70e469bb236
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ec6c73f274cb67b527aaf1147f20e83959487255
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979547"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730838"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -72,7 +74,7 @@ Lync Server 2013 제어판을 사용 하 여 병합 된 토폴로지를 볼 수�
 
 3.  **상태** 탭에서 병합 한 서버와 풀이 **사이트** 열에서 **BackCompatSite** 을 찾아 나타나는지 확인 합니다.
 
-병합 된 토폴로지가(images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "표시") 된 lync server 제어판에서 병합 된 ![토폴로지]표시
+![병합된 토폴로지를 보여 주는 Lync Server 제어판](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "병합된 토폴로지를 보여 주는 Lync Server 제어판")
 
 병합 된 풀에 대 한 자세한 정보를 보려면 **Get-CsPool** cmdlet을 사용 합니다. 이 cmdlet은 토폴로지 작성기 및 Lync Server 2013 제어판에서 사용할 수 있는 정보 외에도 Lync Server 2013 풀에서 실행 되는 서비스를 표시 합니다.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: (선택 사항) 응답 그룹 공휴일 집합 정의'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Define Response Group holiday sets
 ms:assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688063(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ca58b3e2c17ea70e9af7a9eba48df8582b1485c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e6751a5f5915e73d181efba40976640c65e0909
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984509"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755762"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

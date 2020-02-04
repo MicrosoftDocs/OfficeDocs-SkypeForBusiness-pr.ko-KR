@@ -3,6 +3,8 @@ title: 'Lync Server 2013: PurgeSettings table (체감 품질)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PurgeSettings table (QoE)
 ms:assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204788(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3cc227d11ee723acb5a49c50d5b8d4d7e819062
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 46516be447fa3099afe492e5edc4f4008ea5a079
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983690"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747038"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

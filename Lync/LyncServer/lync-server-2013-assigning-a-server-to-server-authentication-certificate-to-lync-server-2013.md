@@ -3,6 +3,8 @@ title: 서버 간 인증 인증서를 Lync Server 2013에 할당
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assigning a server-to-server authentication certificate to Microsoft Lync Server 2013
 ms:assetid: c7413954-2504-47f4-a073-44548aff1c0c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205253(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185367
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63d4e5e3ac8c544e83ab9cfb8f82a5c70f86131b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 06372be3808f3855bc0172cc408308a0c9c9cab2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975338"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734018"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

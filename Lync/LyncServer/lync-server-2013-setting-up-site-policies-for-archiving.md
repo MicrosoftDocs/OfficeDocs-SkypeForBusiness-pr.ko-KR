@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 보관할 사이트 정책 설정'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up site policies for Archiving
 ms:assetid: dc2ea206-8b9c-44dd-a479-efb217593c89
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205325(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08a4ccd7f88f21aaf0c7e3d1575b9e4a887c31d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1ebb1efdfff09f51b13ada9d1e2aa571ab88c888
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985180"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732108"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

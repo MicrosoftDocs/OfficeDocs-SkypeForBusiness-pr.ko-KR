@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 조정된 디렉터 풀 - 하드웨어 부하 분산 �
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled Director pool - hardware load balancer
 ms:assetid: cf34759a-b384-479c-855f-ea5e80a234b6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205316(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185585
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0faf0983830466b44c91532f4fd80d72abb37fd7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f3fc699a5d0904b3ed308928e5edec612b3af03c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979114"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732658"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
