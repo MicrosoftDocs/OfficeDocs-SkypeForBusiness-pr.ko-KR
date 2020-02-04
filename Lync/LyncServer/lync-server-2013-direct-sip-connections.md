@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 직접 SIP 연결'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Direct SIP connections
 ms:assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1decdfd4c755ea1788d088a4b539d8c555987f02
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e5cd00033eeccc855cd5ff10b6a2bee6f78da1d0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983377"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762236"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40983377"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-connections-in-lync-server-2013"></a><span data-ttu-id="1317d-102">Lync Server 2013에서 직접 SIP 연결</span><span class="sxs-lookup"><span data-stu-id="1317d-102">Direct SIP connections in Lync Server 2013</span></span>
+# <a name="direct-sip-connections-in-lync-server-2013"></a><span data-ttu-id="46624-102">Lync Server 2013에서 직접 SIP 연결</span><span class="sxs-lookup"><span data-stu-id="46624-102">Direct SIP connections in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,23 +35,23 @@ ms.locfileid: "40983377"
 
 <span> </span>
 
-<span data-ttu-id="1317d-103">_**마지막으로 수정한 주제:** 2012-08-13_</span><span class="sxs-lookup"><span data-stu-id="1317d-103">_**Topic Last Modified:** 2012-08-13_</span></span>
+<span data-ttu-id="46624-103">_**마지막으로 수정한 주제:** 2012-08-13_</span><span class="sxs-lookup"><span data-stu-id="46624-103">_**Topic Last Modified:** 2012-08-13_</span></span>
 
-<span data-ttu-id="1317d-104">*직접 SIP 연결* 을 사용 하 여 Lync Server를 다음 중 하나에 연결할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1317d-104">You can use *direct SIP connections* to connect Lync Server to either of the following:</span></span>
+<span data-ttu-id="46624-104">*직접 SIP 연결* 을 사용 하 여 Lync Server를 다음 중 하나에 연결할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="46624-104">You can use *direct SIP connections* to connect Lync Server to either of the following:</span></span>
 
-  - <span data-ttu-id="1317d-105">IP-PBX (자세한 내용은 [Lync Server 2013의 DIRECT SIP 배포 옵션](lync-server-2013-direct-sip-deployment-options.md)을 참조 하세요.)</span><span class="sxs-lookup"><span data-stu-id="1317d-105">An IP-PBX (for details, see [Direct SIP deployment options in Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)).</span></span>
+  - <span data-ttu-id="46624-105">IP-PBX (자세한 내용은 [Lync Server 2013의 DIRECT SIP 배포 옵션](lync-server-2013-direct-sip-deployment-options.md)을 참조 하세요.)</span><span class="sxs-lookup"><span data-stu-id="46624-105">An IP-PBX (for details, see [Direct SIP deployment options in Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)).</span></span>
 
-  - <span data-ttu-id="1317d-106">PSTN 게이트웨이 (자세한 내용은 [Lync Server 2013의 pstn 게이트웨이 배포 옵션](lync-server-2013-pstn-gateway-deployment-options.md)을 참조 하세요.)</span><span class="sxs-lookup"><span data-stu-id="1317d-106">A PSTN gateway (for details, see [PSTN gateway deployment options in Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)).</span></span>
+  - <span data-ttu-id="46624-106">PSTN 게이트웨이 (자세한 내용은 [Lync Server 2013의 pstn 게이트웨이 배포 옵션](lync-server-2013-pstn-gateway-deployment-options.md)을 참조 하세요.)</span><span class="sxs-lookup"><span data-stu-id="46624-106">A PSTN gateway (for details, see [PSTN gateway deployment options in Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)).</span></span>
 
-<span data-ttu-id="1317d-107">직접 SIP 연결을 구현 하기 위해 SIP 트렁크를 구현 하는 것과 같은 배포 단계를 기본적으로 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="1317d-107">To implement a direct SIP connection, you follow essentially the same deployment steps as you would to implement a SIP trunk.</span></span> <span data-ttu-id="1317d-108">두 경우 모두 중재 서버의 외부 인터페이스를 사용 하 여 연결을 구현 합니다.</span><span class="sxs-lookup"><span data-stu-id="1317d-108">In both cases, you implement the connection by using the external interface of a Mediation Server.</span></span> <span data-ttu-id="1317d-109">유일한 차이점은 SIP trunks를 ITSP 게이트웨이와 같은 외부 엔터티에 연결 하 고, 직접 SIP 연결을 IP PBX 또는 PSTN (공개 교환 전화 네트워크) 게이트웨이와 같은 로컬 네트워크 내의 내부 엔터티에 연결 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="1317d-109">The only difference is that you connect SIP trunks to an external entity, such as an ITSP gateway, and you connect direct SIP connections to an internal entity within your local network, such as an IP-PBX or a public switched telephone network (PSTN) gateway.</span></span>
+<span data-ttu-id="46624-107">직접 SIP 연결을 구현 하기 위해 SIP 트렁크를 구현 하는 것과 같은 배포 단계를 기본적으로 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="46624-107">To implement a direct SIP connection, you follow essentially the same deployment steps as you would to implement a SIP trunk.</span></span> <span data-ttu-id="46624-108">두 경우 모두 중재 서버의 외부 인터페이스를 사용 하 여 연결을 구현 합니다.</span><span class="sxs-lookup"><span data-stu-id="46624-108">In both cases, you implement the connection by using the external interface of a Mediation Server.</span></span> <span data-ttu-id="46624-109">유일한 차이점은 SIP trunks를 ITSP 게이트웨이와 같은 외부 엔터티에 연결 하 고, 직접 SIP 연결을 IP PBX 또는 PSTN (공개 교환 전화 네트워크) 게이트웨이와 같은 로컬 네트워크 내의 내부 엔터티에 연결 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="46624-109">The only difference is that you connect SIP trunks to an external entity, such as an ITSP gateway, and you connect direct SIP connections to an internal entity within your local network, such as an IP-PBX or a public switched telephone network (PSTN) gateway.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1317d-110">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="1317d-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="46624-110">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="46624-110">In This Section</span></span>
 
-  - [<span data-ttu-id="1317d-111">Lync Server 2013의 직접 SIP 배포 옵션</span><span class="sxs-lookup"><span data-stu-id="1317d-111">Direct SIP deployment options in Lync Server 2013</span></span>](lync-server-2013-direct-sip-deployment-options.md)
+  - [<span data-ttu-id="46624-111">Lync Server 2013의 직접 SIP 배포 옵션</span><span class="sxs-lookup"><span data-stu-id="46624-111">Direct SIP deployment options in Lync Server 2013</span></span>](lync-server-2013-direct-sip-deployment-options.md)
 
-  - [<span data-ttu-id="1317d-112">Lync Server 2013의 PSTN 게이트웨이 배포 옵션</span><span class="sxs-lookup"><span data-stu-id="1317d-112">PSTN gateway deployment options in Lync Server 2013</span></span>](lync-server-2013-pstn-gateway-deployment-options.md)
+  - [<span data-ttu-id="46624-112">Lync Server 2013의 PSTN 게이트웨이 배포 옵션</span><span class="sxs-lookup"><span data-stu-id="46624-112">PSTN gateway deployment options in Lync Server 2013</span></span>](lync-server-2013-pstn-gateway-deployment-options.md)
 
 </div>
 

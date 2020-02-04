@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 실패 목록 보고서'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failure List Report
 ms:assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615446(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32c1c9c15b1f539aa1a5213989674dfea268a684
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 370008a5b33cc7eb45802fb02bdd9a873184ed5a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979527"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765166"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40979527"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failure-list-report-in-lync-server-2013"></a><span data-ttu-id="0b4ae-102">Lync Server 2013의 실패 목록 보고서</span><span class="sxs-lookup"><span data-stu-id="0b4ae-102">Failure List Report in Lync Server 2013</span></span>
+# <a name="failure-list-report-in-lync-server-2013"></a><span data-ttu-id="579e4-102">Lync Server 2013의 실패 목록 보고서</span><span class="sxs-lookup"><span data-stu-id="579e4-102">Failure List Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,50 +35,50 @@ ms.locfileid: "40979527"
 
 <span> </span>
 
-<span data-ttu-id="0b4ae-103">_**마지막으로 수정한 주제:** 2012-07-02_</span><span class="sxs-lookup"><span data-stu-id="0b4ae-103">_**Topic Last Modified:** 2012-07-02_</span></span>
+<span data-ttu-id="579e4-103">_**마지막으로 수정한 주제:** 2012-07-02_</span><span class="sxs-lookup"><span data-stu-id="579e4-103">_**Topic Last Modified:** 2012-07-02_</span></span>
 
-<span data-ttu-id="0b4ae-104">실패 목록 보고서는 실패 한 피어 투 피어 또는 회의 세션에서 참여 한 개별 참가자에 대 한 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-104">The Failure List report provides information about the individual participants who took part in a failed peer-to-peer or conferencing session.</span></span> <span data-ttu-id="0b4ae-105">이 정보에는 문제가 발생 한 사용자의 URI와 실패와 연결 된 SIP 응답 코드 및 진단 ID가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-105">This information includes the URI of the user who experienced the problem, as well as the SIP Response code and Diagnostic ID associated with the failure.</span></span>
+<span data-ttu-id="579e4-104">실패 목록 보고서는 실패 한 피어 투 피어 또는 회의 세션에서 참여 한 개별 참가자에 대 한 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-104">The Failure List report provides information about the individual participants who took part in a failed peer-to-peer or conferencing session.</span></span> <span data-ttu-id="579e4-105">이 정보에는 문제가 발생 한 사용자의 URI와 실패와 연결 된 SIP 응답 코드 및 진단 ID가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-105">This information includes the URI of the user who experienced the problem, as well as the SIP Response code and Diagnostic ID associated with the failure.</span></span>
 
 <div>
 
-## <a name="accessing-the-failure-list-report"></a><span data-ttu-id="0b4ae-106">실패 목록 보고서에 액세스</span><span class="sxs-lookup"><span data-stu-id="0b4ae-106">Accessing the Failure List Report</span></span>
+## <a name="accessing-the-failure-list-report"></a><span data-ttu-id="579e4-106">실패 목록 보고서에 액세스</span><span class="sxs-lookup"><span data-stu-id="579e4-106">Accessing the Failure List Report</span></span>
 
-<span data-ttu-id="0b4ae-107">실패 목록 보고서는 [Lync Server 2013의 실패 배포 보고서](lync-server-2013-failure-distribution-report.md)에서 다음 메트릭 중 하나를 클릭 하 여 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-107">The Failure List Report is accessed by clicking any of the following metrics on the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md):</span></span>
+<span data-ttu-id="579e4-107">실패 목록 보고서는 [Lync Server 2013의 실패 배포 보고서](lync-server-2013-failure-distribution-report.md)에서 다음 메트릭 중 하나를 클릭 하 여 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-107">The Failure List Report is accessed by clicking any of the following metrics on the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md):</span></span>
 
-  - <span data-ttu-id="0b4ae-108">주요 진단 이유 (세션)</span><span class="sxs-lookup"><span data-stu-id="0b4ae-108">Top diagnostic reasons (sessions)</span></span>
+  - <span data-ttu-id="579e4-108">주요 진단 이유 (세션)</span><span class="sxs-lookup"><span data-stu-id="579e4-108">Top diagnostic reasons (sessions)</span></span>
 
-  - <span data-ttu-id="0b4ae-109">최상위 형식을 (세션)</span><span class="sxs-lookup"><span data-stu-id="0b4ae-109">Top modalities (sessions)</span></span>
+  - <span data-ttu-id="579e4-109">최상위 형식을 (세션)</span><span class="sxs-lookup"><span data-stu-id="579e4-109">Top modalities (sessions)</span></span>
 
-  - <span data-ttu-id="0b4ae-110">상위 풀 (세션)</span><span class="sxs-lookup"><span data-stu-id="0b4ae-110">Top pools (sessions)</span></span>
+  - <span data-ttu-id="579e4-110">상위 풀 (세션)</span><span class="sxs-lookup"><span data-stu-id="579e4-110">Top pools (sessions)</span></span>
 
-  - <span data-ttu-id="0b4ae-111">상위 원본 (세션)</span><span class="sxs-lookup"><span data-stu-id="0b4ae-111">Top sources (sessions)</span></span>
+  - <span data-ttu-id="579e4-111">상위 원본 (세션)</span><span class="sxs-lookup"><span data-stu-id="579e4-111">Top sources (sessions)</span></span>
 
-  - <span data-ttu-id="0b4ae-112">상위 구성 요소 (세션)</span><span class="sxs-lookup"><span data-stu-id="0b4ae-112">Top components (sessions)</span></span>
+  - <span data-ttu-id="579e4-112">상위 구성 요소 (세션)</span><span class="sxs-lookup"><span data-stu-id="579e4-112">Top components (sessions)</span></span>
 
-  - <span data-ttu-id="0b4ae-113">사용자 (세션)의 상위</span><span class="sxs-lookup"><span data-stu-id="0b4ae-113">Top from users (sessions)</span></span>
+  - <span data-ttu-id="579e4-113">사용자 (세션)의 상위</span><span class="sxs-lookup"><span data-stu-id="579e4-113">Top from users (sessions)</span></span>
 
-  - <span data-ttu-id="0b4ae-114">상위 사용자 (세션)</span><span class="sxs-lookup"><span data-stu-id="0b4ae-114">Top to users (sessions)</span></span>
+  - <span data-ttu-id="579e4-114">상위 사용자 (세션)</span><span class="sxs-lookup"><span data-stu-id="579e4-114">Top to users (sessions)</span></span>
 
-  - <span data-ttu-id="0b4ae-115">사용자 에이전트 (세션)에서 맨 위로</span><span class="sxs-lookup"><span data-stu-id="0b4ae-115">Top from user agents (sessions)</span></span>
+  - <span data-ttu-id="579e4-115">사용자 에이전트 (세션)에서 맨 위로</span><span class="sxs-lookup"><span data-stu-id="579e4-115">Top from user agents (sessions)</span></span>
 
-<span data-ttu-id="0b4ae-116">실패 목록 보고서에서 피어 투 피어 세션에 대 한 세션 세부 정보 메트릭을 클릭 하 여 [Lync Server 2013의 피어 투 피어 세션 세부 정보 보고서](lync-server-2013-peer-to-peer-session-detail-report.md) 에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-116">From the Failure List Report you can access the [Peer-to-Peer Session Detail Report in Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) by clicking the Session detail metric for a peer-to-peer session.</span></span> <span data-ttu-id="0b4ae-117">회의에 대 한 회의 메트릭을 클릭 하 여 회의 세부 정보 보고서에 액세스할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-117">You can also access the Conference Detail Report by clicking the Conference metric for a conference.</span></span>
+<span data-ttu-id="579e4-116">실패 목록 보고서에서 피어 투 피어 세션에 대 한 세션 세부 정보 메트릭을 클릭 하 여 [Lync Server 2013의 피어 투 피어 세션 세부 정보 보고서](lync-server-2013-peer-to-peer-session-detail-report.md) 에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-116">From the Failure List Report you can access the [Peer-to-Peer Session Detail Report in Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) by clicking the Session detail metric for a peer-to-peer session.</span></span> <span data-ttu-id="579e4-117">회의에 대 한 회의 메트릭을 클릭 하 여 회의 세부 정보 보고서에 액세스할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-117">You can also access the Conference Detail Report by clicking the Conference metric for a conference.</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-failure-list-report"></a><span data-ttu-id="0b4ae-118">실패 목록 보고서를 최대한 활용 하기</span><span class="sxs-lookup"><span data-stu-id="0b4ae-118">Making the Best Use of the Failure List Report</span></span>
+## <a name="making-the-best-use-of-the-failure-list-report"></a><span data-ttu-id="579e4-118">실패 목록 보고서를 최대한 활용 하기</span><span class="sxs-lookup"><span data-stu-id="579e4-118">Making the Best Use of the Failure List Report</span></span>
 
-<span data-ttu-id="0b4ae-119">실패 목록 보고서에서 해당 값 위에 마우스를 놓으면 각 응답 코드 또는 각 진단 ID에 대 한 설명을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-119">In the Failure List Report, you can view a description for each Response code or each Diagnostic ID simply by holding your mouse over that value.</span></span> <span data-ttu-id="0b4ae-120">예를 들어 마우스를 진단 ID 7025에 포함 하면 도구 설명에 다음이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-120">For example, if you hold your mouse over Diagnostic ID 7025 you'll see the following displayed in a tooltip:</span></span>
+<span data-ttu-id="579e4-119">실패 목록 보고서에서 해당 값 위에 마우스를 놓으면 각 응답 코드 또는 각 진단 ID에 대 한 설명을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-119">In the Failure List Report, you can view a description for each Response code or each Diagnostic ID simply by holding your mouse over that value.</span></span> <span data-ttu-id="579e4-120">예를 들어 마우스를 진단 ID 7025에 포함 하면 도구 설명에 다음이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-120">For example, if you hold your mouse over Diagnostic ID 7025 you'll see the following displayed in a tooltip:</span></span>
 
-<span data-ttu-id="0b4ae-121">사용자의 미디어를 만드는 동안 내부 서버 오류가 발생 했습니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-121">Internal server error creating media for user.</span></span>
+<span data-ttu-id="579e4-121">사용자의 미디어를 만드는 동안 내부 서버 오류가 발생 했습니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-121">Internal server error creating media for user.</span></span>
 
-<span data-ttu-id="0b4ae-122">실패 목록 보고서에는 실패 한 하나 이상의 세션에 참가 한 모든 사용자의 목록을 직접 검색 하는 간단한 방법이 나와 있지 않으며, 실패 한 사용자에 게 가장 자주 관여 하는 사람을 확인 하는 방법이 제공 되지 않는다는 점에 유의 해야 합니다. 세션만.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-122">It's important to note that the Failure List Report does not provide a straightforward way to directly retrieve a list of all the users who participated in at least one failed session, nor does it provide a way to determine which users were most-often involved in a failed session.</span></span> <span data-ttu-id="0b4ae-123">한 가지 방법으로 실패 목록 보고서에는 필터링 기능이 없습니다. 그러나 데이터를 내보낸 다음 쉼표로 구분 된 값 파일로 변환 하는 경우 Windows PowerShell을 사용 하 여 이와 같은 질문에 대 한 답변을 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-123">(For one thing, the Failure List Report has no filtering capabilities.) However, if you export the data and then convert it to a comma-separated values file, you can use Windows PowerShell to find the answers to questions like those.</span></span> <span data-ttu-id="0b4ae-124">예를 들어 데이터를에 저장 한다고 가정 합니다. CSV 파일 이름:\\데이터\\오류\_목록. C a s.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-124">For example, suppose you save the data to a .CSV file named C:\\Data\\Failure\_List.csv.</span></span> <span data-ttu-id="0b4ae-125">이 명령은 해당 파일에 저장 된 데이터를 기반으로 하나 이상의 실패 한 세션에 참가 한 모든 사용자를 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-125">Based on the data saved in that file, this command lists all the users who were involved in at least one failed session:</span></span>
+<span data-ttu-id="579e4-122">실패 목록 보고서에는 실패 한 하나 이상의 세션에 참가 한 모든 사용자의 목록을 직접 검색 하는 간단한 방법이 나와 있지 않으며, 실패 한 사용자에 게 가장 자주 관여 하는 사람을 확인 하는 방법이 제공 되지 않는다는 점에 유의 해야 합니다. 세션만.</span><span class="sxs-lookup"><span data-stu-id="579e4-122">It's important to note that the Failure List Report does not provide a straightforward way to directly retrieve a list of all the users who participated in at least one failed session, nor does it provide a way to determine which users were most-often involved in a failed session.</span></span> <span data-ttu-id="579e4-123">한 가지 방법으로 실패 목록 보고서에는 필터링 기능이 없습니다. 그러나 데이터를 내보낸 다음 쉼표로 구분 된 값 파일로 변환 하는 경우 Windows PowerShell을 사용 하 여 이와 같은 질문에 대 한 답변을 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-123">(For one thing, the Failure List Report has no filtering capabilities.) However, if you export the data and then convert it to a comma-separated values file, you can use Windows PowerShell to find the answers to questions like those.</span></span> <span data-ttu-id="579e4-124">예를 들어 데이터를에 저장 한다고 가정 합니다. CSV 파일 이름:\\데이터\\오류\_목록. C a s.</span><span class="sxs-lookup"><span data-stu-id="579e4-124">For example, suppose you save the data to a .CSV file named C:\\Data\\Failure\_List.csv.</span></span> <span data-ttu-id="579e4-125">이 명령은 해당 파일에 저장 된 데이터를 기반으로 하나 이상의 실패 한 세션에 참가 한 모든 사용자를 나열 합니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-125">Based on the data saved in that file, this command lists all the users who were involved in at least one failed session:</span></span>
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 
-<span data-ttu-id="0b4ae-126">이 명령은 다음과 같은 목록을 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-126">That command will return a list similar to this:</span></span>
+<span data-ttu-id="579e4-126">이 명령은 다음과 같은 목록을 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-126">That command will return a list similar to this:</span></span>
 
     From user
     ----
@@ -86,12 +88,12 @@ ms.locfileid: "40979527"
     David.Ahs@litwareinc.com
     Ken.Myer@litwareinc.com
 
-<span data-ttu-id="0b4ae-127">다음 두 명령은 각 사용자가 참여 한 실패 한 총 세션 수를 보고 합니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-127">These two commands report back the total number of failed sessions that each user was involved in:</span></span>
+<span data-ttu-id="579e4-127">다음 두 명령은 각 사용자가 참여 한 실패 한 총 세션 수를 보고 합니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-127">These two commands report back the total number of failed sessions that each user was involved in:</span></span>
 
     $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
     $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 
-<span data-ttu-id="0b4ae-128">이는 다음과 같은 데이터를 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-128">That will return data similar to this:</span></span>
+<span data-ttu-id="579e4-128">이는 다음과 같은 데이터를 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-128">That will return data similar to this:</span></span>
 
     Count    Name
      -----    ----
@@ -105,19 +107,19 @@ ms.locfileid: "40979527"
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="0b4ae-129">필터가</span><span class="sxs-lookup"><span data-stu-id="0b4ae-129">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="579e4-129">필터가</span><span class="sxs-lookup"><span data-stu-id="579e4-129">Filters</span></span>
 
-<span data-ttu-id="0b4ae-130">없음.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-130">None.</span></span> <span data-ttu-id="0b4ae-131">실패 목록 보고서는 필터링 할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-131">You cannot filter the Failure List Report.</span></span>
+<span data-ttu-id="579e4-130">없음.</span><span class="sxs-lookup"><span data-stu-id="579e4-130">None.</span></span> <span data-ttu-id="579e4-131">실패 목록 보고서는 필터링 할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-131">You cannot filter the Failure List Report.</span></span>
 
 </div>
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="0b4ae-132">매트릭스</span><span class="sxs-lookup"><span data-stu-id="0b4ae-132">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="579e4-132">매트릭스</span><span class="sxs-lookup"><span data-stu-id="579e4-132">Metrics</span></span>
 
-<span data-ttu-id="0b4ae-133">다음 표에는 실패 목록 보고서에 제공 된 각 통화에 대 한 정보가 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-133">The following table lists the information provided in the Failure List Report for each failed call.</span></span>
+<span data-ttu-id="579e4-133">다음 표에는 실패 목록 보고서에 제공 된 각 통화에 대 한 정보가 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-133">The following table lists the information provided in the Failure List Report for each failed call.</span></span>
 
-### <a name="failure-list-report-metrics"></a><span data-ttu-id="0b4ae-134">실패 목록 보고서 메트릭</span><span class="sxs-lookup"><span data-stu-id="0b4ae-134">Failure List Report Metrics</span></span>
+### <a name="failure-list-report-metrics"></a><span data-ttu-id="579e4-134">실패 목록 보고서 메트릭</span><span class="sxs-lookup"><span data-stu-id="579e4-134">Failure List Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -127,51 +129,51 @@ ms.locfileid: "40979527"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0b4ae-135">이름</span><span class="sxs-lookup"><span data-stu-id="0b4ae-135">Name</span></span></th>
-<th><span data-ttu-id="0b4ae-136">이 항목을 정렬할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="0b4ae-136">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="0b4ae-137">설명</span><span class="sxs-lookup"><span data-stu-id="0b4ae-137">Description</span></span></th>
+<th><span data-ttu-id="579e4-135">이름</span><span class="sxs-lookup"><span data-stu-id="579e4-135">Name</span></span></th>
+<th><span data-ttu-id="579e4-136">이 항목을 정렬할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="579e4-136">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="579e4-137">설명</span><span class="sxs-lookup"><span data-stu-id="579e4-137">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0b4ae-138"><strong>보고 시간</strong></span><span class="sxs-lookup"><span data-stu-id="0b4ae-138"><strong>Reported time</strong></span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-139">아니요</span><span class="sxs-lookup"><span data-stu-id="0b4ae-139">No</span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-140">보고서가 기록 된 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-140">Date and time the report was recorded.</span></span></p></td>
+<td><p><span data-ttu-id="579e4-138"><strong>보고 시간</strong></span><span class="sxs-lookup"><span data-stu-id="579e4-138"><strong>Reported time</strong></span></span></p></td>
+<td><p><span data-ttu-id="579e4-139">아니요</span><span class="sxs-lookup"><span data-stu-id="579e4-139">No</span></span></p></td>
+<td><p><span data-ttu-id="579e4-140">보고서가 기록 된 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-140">Date and time the report was recorded.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0b4ae-141"><strong>요청당</strong></span><span class="sxs-lookup"><span data-stu-id="0b4ae-141"><strong>Request</strong></span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-142">아니요</span><span class="sxs-lookup"><span data-stu-id="0b4ae-142">No</span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-143">실패 한 SIP 요청 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-143">SIP request type that failed.</span></span> <span data-ttu-id="0b4ae-144">예를 들어 초대 또는 BYE.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-144">For example, INVITE or BYE.</span></span></p></td>
+<td><p><span data-ttu-id="579e4-141"><strong>요청당</strong></span><span class="sxs-lookup"><span data-stu-id="579e4-141"><strong>Request</strong></span></span></p></td>
+<td><p><span data-ttu-id="579e4-142">아니요</span><span class="sxs-lookup"><span data-stu-id="579e4-142">No</span></span></p></td>
+<td><p><span data-ttu-id="579e4-143">실패 한 SIP 요청 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-143">SIP request type that failed.</span></span> <span data-ttu-id="579e4-144">예를 들어 초대 또는 BYE.</span><span class="sxs-lookup"><span data-stu-id="579e4-144">For example, INVITE or BYE.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0b4ae-145"><strong>응답 코드</strong></span><span class="sxs-lookup"><span data-stu-id="0b4ae-145"><strong>Response code</strong></span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-146">아니요</span><span class="sxs-lookup"><span data-stu-id="0b4ae-146">No</span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-147">회의에 실패 한 경우 SIP 응답 코드가 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-147">SIP response code sent when the conference failed.</span></span></p></td>
+<td><p><span data-ttu-id="579e4-145"><strong>응답 코드</strong></span><span class="sxs-lookup"><span data-stu-id="579e4-145"><strong>Response code</strong></span></span></p></td>
+<td><p><span data-ttu-id="579e4-146">아니요</span><span class="sxs-lookup"><span data-stu-id="579e4-146">No</span></span></p></td>
+<td><p><span data-ttu-id="579e4-147">회의에 실패 한 경우 SIP 응답 코드가 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-147">SIP response code sent when the conference failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0b4ae-148"><strong>진단 ID</strong></span><span class="sxs-lookup"><span data-stu-id="0b4ae-148"><strong>Diagnostic ID</strong></span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-149">아니요</span><span class="sxs-lookup"><span data-stu-id="0b4ae-149">No</span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-150">오류 문제 해결에 유용한 정보를 자주 제공 하는 SIP 메시지에 첨부 된 고유 식별자 (ms-진단 헤더 형식)입니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-150">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span></p></td>
+<td><p><span data-ttu-id="579e4-148"><strong>진단 ID</strong></span><span class="sxs-lookup"><span data-stu-id="579e4-148"><strong>Diagnostic ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="579e4-149">아니요</span><span class="sxs-lookup"><span data-stu-id="579e4-149">No</span></span></p></td>
+<td><p><span data-ttu-id="579e4-150">오류 문제 해결에 유용한 정보를 자주 제공 하는 SIP 메시지에 첨부 된 고유 식별자 (ms-진단 헤더 형식)입니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-150">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0b4ae-151"><strong>참가 비용 시간 (밀리초)</strong></span><span class="sxs-lookup"><span data-stu-id="0b4ae-151"><strong>Join cost time (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-152">아니요</span><span class="sxs-lookup"><span data-stu-id="0b4ae-152">No</span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-153">사용자가 회의에 참가 하는 데 필요한 시간 (밀리초 단위)입니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-153">Amount of time (in milliseconds) required for the user to join the conference.</span></span></p></td>
+<td><p><span data-ttu-id="579e4-151"><strong>참가 비용 시간 (밀리초)</strong></span><span class="sxs-lookup"><span data-stu-id="579e4-151"><strong>Join cost time (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="579e4-152">아니요</span><span class="sxs-lookup"><span data-stu-id="579e4-152">No</span></span></p></td>
+<td><p><span data-ttu-id="579e4-153">사용자가 회의에 참가 하는 데 필요한 시간 (밀리초 단위)입니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-153">Amount of time (in milliseconds) required for the user to join the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0b4ae-154"><strong>사용자의</strong></span><span class="sxs-lookup"><span data-stu-id="0b4ae-154"><strong>From user</strong></span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-155">아니요</span><span class="sxs-lookup"><span data-stu-id="0b4ae-155">No</span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-156">통화를 시작한 사용자의 SIP 주소입니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-156">SIP address of the user who initiated the call.</span></span></p></td>
+<td><p><span data-ttu-id="579e4-154"><strong>사용자의</strong></span><span class="sxs-lookup"><span data-stu-id="579e4-154"><strong>From user</strong></span></span></p></td>
+<td><p><span data-ttu-id="579e4-155">아니요</span><span class="sxs-lookup"><span data-stu-id="579e4-155">No</span></span></p></td>
+<td><p><span data-ttu-id="579e4-156">통화를 시작한 사용자의 SIP 주소입니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-156">SIP address of the user who initiated the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0b4ae-157"><strong>사용자 에이전트에서</strong></span><span class="sxs-lookup"><span data-stu-id="0b4ae-157"><strong>From user agent</strong></span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-158">아니요</span><span class="sxs-lookup"><span data-stu-id="0b4ae-158">No</span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-159">통화를 시작한 사용자의 끝점에서 사용 하는 소프트웨어입니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-159">Software used by the endpoint of the user who initiated the call.</span></span></p></td>
+<td><p><span data-ttu-id="579e4-157"><strong>사용자 에이전트에서</strong></span><span class="sxs-lookup"><span data-stu-id="579e4-157"><strong>From user agent</strong></span></span></p></td>
+<td><p><span data-ttu-id="579e4-158">아니요</span><span class="sxs-lookup"><span data-stu-id="579e4-158">No</span></span></p></td>
+<td><p><span data-ttu-id="579e4-159">통화를 시작한 사용자의 끝점에서 사용 하는 소프트웨어입니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-159">Software used by the endpoint of the user who initiated the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0b4ae-160"><strong>사용자에 게</strong></span><span class="sxs-lookup"><span data-stu-id="0b4ae-160"><strong>To user</strong></span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-161">아니요</span><span class="sxs-lookup"><span data-stu-id="0b4ae-161">No</span></span></p></td>
-<td><p><span data-ttu-id="0b4ae-162">호출 되는 사용자의 SIP 주소입니다.</span><span class="sxs-lookup"><span data-stu-id="0b4ae-162">SIP address of the user who was being called.</span></span></p></td>
+<td><p><span data-ttu-id="579e4-160"><strong>사용자에 게</strong></span><span class="sxs-lookup"><span data-stu-id="579e4-160"><strong>To user</strong></span></span></p></td>
+<td><p><span data-ttu-id="579e4-161">아니요</span><span class="sxs-lookup"><span data-stu-id="579e4-161">No</span></span></p></td>
+<td><p><span data-ttu-id="579e4-162">호출 되는 사용자의 SIP 주소입니다.</span><span class="sxs-lookup"><span data-stu-id="579e4-162">SIP address of the user who was being called.</span></span></p></td>
 </tr>
 </tbody>
 </table>
