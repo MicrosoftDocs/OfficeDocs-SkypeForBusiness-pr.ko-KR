@@ -3,6 +3,8 @@ title: Exchange Online을 사용 하 여 온-프레미스 Lync Server 통합 구
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring on-premises Lync Server integration with Exchange Online
 ms:assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh533880(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184900
 ms.date: 03/30/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae1ba45ace830f33b239bf2f8ead1a75fcee3417
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a652fea6c54592526047e8d8b35a0bddd0ef1995
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983981"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741168"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

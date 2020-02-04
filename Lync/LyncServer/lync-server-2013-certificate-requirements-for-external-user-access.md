@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 외부 사용자 액세스에 대한 인증서 요구 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate requirements for external user access
 ms:assetid: d45b6b10-556f-4b10-b1a7-fb0d0a64a498
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398920(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7e7a0802cee8b91e18eaf50e5c2c3942ca54308
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a1b6495dbad5350f94873099985922f1adc198f2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981295"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736838"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

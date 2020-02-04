@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 장치 업데이트 웹 서비스'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Device Update Web service
 ms:assetid: 036f473d-a131-431f-8051-76ccadc5cfba
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994015(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d2b258b7a088f0deeee029be482f1ed63bc00ef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8c2c9f7068943deabb90e5a87d95f35fecfbc30c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978726"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762376"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

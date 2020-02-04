@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 중앙 사이트 음성 복구 계획'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for central site voice resiliency
 ms:assetid: 52dd0c3e-cd3c-44cf-bef5-8c49ff5e4c7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398347(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13195c50e88c035b0775d2958cf62cf71f7924c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fbeda869c078e6adfce18088545428170b356980
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983477"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754358"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -84,7 +86,7 @@ Enterprise Voice에 대해 설정 된 각 사용자는 해당 사용자의 기�
 
 **중앙 사이트 음성 복원에 권장 되는 토폴로지**
 
-중앙 사이트의 ![중앙 사이트 음성 resliency](images/Gg398347.19ea3e74-8a5c-488c-a34e-fc180ab9a50a(OCS.15).jpg "토폴로지 음성 resliency") 토폴로지
+![중앙 사이트 음성 복구용 토폴로지](images/Gg398347.19ea3e74-8a5c-488c-a34e-fc180ab9a50a(OCS.15).jpg "중앙 사이트 음성 복구용 토폴로지")
 
 </div>
 

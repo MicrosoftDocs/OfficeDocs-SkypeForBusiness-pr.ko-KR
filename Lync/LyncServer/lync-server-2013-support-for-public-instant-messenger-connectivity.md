@@ -3,6 +3,8 @@ title: Lync Server 2013 공개 인스턴트 메신저 연결에 대 한 지원
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Support for public instant messenger connectivity
 ms:assetid: 9c6eb500-647b-4ccd-a00e-2b8dd7c44a76
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn458579(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59170234
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c89cc911411095034385f7b8ebbe01edddcd20c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2cd3c8cf89b9d5e1637db893b57e6b5955fbcee9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976281"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

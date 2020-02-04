@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 계획 도구 탐색'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Navigating the Planning Tool
 ms:assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558601(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39be29fb31bc48d037fbecd81b0016edf57e85aa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: be77aa62f03271c198a4448f5d299f90de0d5e5a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984737"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765949"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ _**마지막으로 수정한 주제:** 2013-02-21_
 
 계획 도구 맨 위에는 자주 사용 하는 기능에 쉽게 액세스할 수 있는 도구 모음이 있습니다. 참조할 수 있도록 도구 모음이 여기에 표시 되며 각 함수에 대 한 자세한 내용은 관련 항목을 참조 하세요.
 
-![계획 도구 도구 모음](images/Gg558601.a008ddd1-b73d-4406-9d4b-df68bed9906e(OCS.15).jpg "계획 도구 모음")
+![계획 도구 도구 모음](images/Gg558601.a008ddd1-b73d-4406-9d4b-df68bed9906e(OCS.15).jpg "계획 도구 도구 모음")
 
 계획 도구에는 도구 왼쪽에 외부 링크 섹션이 있습니다. 여기에서 디자이너는 계획 및 배포 정보, 교육, 기술 블로그, 포럼, 기타 다운로드 가능한 리소스와 같은 기타 기술 리소스에 쉽게 액세스할 수 있습니다. 또한 외부 링크 섹션에는 Lync Server 2013 계획 도구 팀에 대 한 피드백 링크가 있습니다.
 
@@ -55,7 +57,7 @@ _**마지막으로 수정한 주제:** 2013-02-21_
 
 또한 작업 창의 개요에 하드웨어 정보도 표시 됩니다. 하드웨어 구성에 현재 토폴로지가 권장 하는 하드웨어 요구 사항 목록이 표시 됩니다.
 
-![계획 도구 작업 창](images/Gg558601.9679d8fd-4de8-4a5a-bfcf-699da9aa7283(OCS.15).jpg "계획 도구 작업 창")
+![계획 도구 동작 창](images/Gg558601.9679d8fd-4de8-4a5a-bfcf-699da9aa7283(OCS.15).jpg "계획 도구 동작 창")
 
 <div>
 

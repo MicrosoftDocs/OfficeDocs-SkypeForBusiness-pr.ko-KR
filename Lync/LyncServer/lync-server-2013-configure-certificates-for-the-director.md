@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 디렉터에 대한 인증서 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure certificates for the Director
 ms:assetid: 22988186-15ae-43b1-92f4-0adb3b75a7fd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398296(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d2da30923231087e706e2a969fdba2884361f6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fccab201ee9ab16b0195bc2780c37ab85f0519e9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984964"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739388"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
