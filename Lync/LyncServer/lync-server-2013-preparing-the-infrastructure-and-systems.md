@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 인프라 및 시스템 준비'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing the infrastructure and systems
 ms:assetid: 1254ee38-0679-4714-b293-1050f107c158
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398205(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e724dd3b6105be3f4601c523dbbf558c91ca9f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3fc49f5e246e69f600506d990ace7362d9666f1c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981582"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747308"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

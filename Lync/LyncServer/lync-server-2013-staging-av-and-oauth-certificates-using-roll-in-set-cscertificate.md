@@ -3,6 +3,8 @@ title: 설정-CsCertificate를 사용 하 여 AV 및 OAuth 인증서 준비-롤�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Staging AV and OAuth certificates using -Roll in Set-CsCertificate
 ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ660292(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4acdf759181dee3df872c7803ec595c63fb07016
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 583ab13e50cac7c7a8b345a2ea2cf4c4e1e38d7f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976666"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -117,7 +119,7 @@ CsCertificate,-롤 및-EffectiveDate에서 사용 중인 추가 인증서의 유
 
 다음 예제에서 관리자는 A/V Edge 서비스 인증서가 07/22/2012에서 2:00:00 PM에 만료 되는 것으로 판단 합니다. 새 인증서를 요청 하 고 해당 풀의 각 Edge 서버로 가져옵니다. 07/22/2012에는 오전 2 시 – 롤,-CsCertificate를 사용 하 여 새 인증서의 손도장 문자열과 같은 Get-EffectiveTime를 실행 하기 시작 하 고, – 07/22/2012 6:00:00 AM으로 설정 합니다. 각 Edge 서버에서이 명령을 실행 합니다.
 
-![롤 및 EffectiveDate 매개 변수를 사용 합니다.] (images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "롤 및 EffectiveDate 매개 변수를 사용 합니다.")
+![Roll 및 EffectiveDate 매개 변수 사용.](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Roll 및 EffectiveDate 매개 변수 사용.")
 
 유효 시간 (7/22/2012 6:00:00 AM)에 도달 하면 새 인증서가 모든 새 토큰을 발급 합니다. 토큰의 유효성을 검사할 때 새 인증서에 대해 토큰의 유효성이 먼저 검사 됩니다. 유효성 검사에 실패 하면 이전 인증서가 시도 됩니다. 이전 인증서로 새 응답을 시도 하는 프로세스는 이전 인증서의 만료 시간까지 계속 됩니다. 이전 인증서가 만료 된 경우 (7/22/2012 2:00:00 PM), 새 인증서로만 토큰의 유효성을 검사할 수 있습니다. 이전 인증서는 – Previous 매개 변수를 사용 하 여 CsCertificate cmdlet을 통해 안전 하 게 제거 될 수 있습니다.
 

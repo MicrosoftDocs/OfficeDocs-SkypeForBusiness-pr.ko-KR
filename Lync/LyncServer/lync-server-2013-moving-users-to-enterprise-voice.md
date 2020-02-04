@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enterprise Voice로 사용자 이동'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Moving users to Enterprise Voice
 ms:assetid: a2df6d51-5cf2-4d3e-8f97-496af5fd5e5e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412758(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1127bd0c767da7f02df8aefb30fda41a64bd353a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e92f0a7d71d42d8551a51028afec209e795941d5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982919"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756692"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

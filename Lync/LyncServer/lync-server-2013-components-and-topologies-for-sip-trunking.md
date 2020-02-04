@@ -3,6 +3,8 @@ title: 'Lync Server 2013: SIP 트렁크에 대한 구성 요소 및 토폴로지
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for SIP trunking
 ms:assetid: 8ed9a9d0-517e-4f36-a131-22cdafa257fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398720(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc1b80078f942f3f70957a7af6b27b7dd9210046
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d30c589ff02717ad49ce89d0d4e3324f6fe993e9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975378"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742568"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**마지막으로 수정한 주제:** 2012-09-21_
 
 **SIP 트렁크 토폴로지**
 
-![Sip 트렁크 토폴로지](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "sip 트렁크 토폴로지")
+![SIP 트렁크 토폴로지](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "SIP 트렁크 토폴로지")
 
 다이어그램에 표시 된 대로 IP 가상 개인 네트워크 (VPN)는 엔터프라이즈 네트워크와 PSTN (공개 통신 네트워크) 서비스 공급자 간의 연결에 사용 됩니다. 이 개인 네트워크의 용도는 IP 연결을 제공 하 고 보안을 강화 하며 서비스 품질 (옵션) 보장을 받을 수 있도록 하는 것입니다. VPN의 특성상 SIP 신호 소통량에는 TLS (전송 계층 보안)를 사용 하거나 미디어 트래픽에 대 한 보안 실시간 전송 프로토콜 (SRTP)을 사용할 필요가 없습니다. 따라서 엔터프라이즈와 서비스 공급자 간의 연결은 IP VPN을 통해 터널링 된 미디어에 대 한 UDP를 통해 SIP 및 일반 실시간 전송 프로토콜 (터널)에 대 한 일반 TCP 연결로 구성 됩니다. Vpn 라우터 간의 모든 방화벽이 VPN 라우터 통신을 허용 하도록 포트가 열려 있는지 확인 하 고 VPN 라우터의 외부 경계에 있는 IP 주소를 공개적으로 라우팅할 수 있도록 합니다.
 

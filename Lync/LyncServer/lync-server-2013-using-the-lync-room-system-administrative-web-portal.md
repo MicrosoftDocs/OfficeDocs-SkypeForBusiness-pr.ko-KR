@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync 채팅방 시스템 관리 웹 포털 사용'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Lync Room System Administrative Web Portal
 ms:assetid: c387b2a3-3e42-4642-af72-88126ed2820f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743660(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62268951
 ms.date: 11/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2369cdde9d14275fddf007b5e073c748ce5a8906
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c891309d76dda20f875592841925c852fe2e3351
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985366"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ _**마지막으로 수정한 주제:** 2014-11-10_
 
 2.  LRSSupport 계정 또는 LRSSupportAdminGroup 보안 그룹에 추가 된 계정에 대 한 자격 증명을 입력 합니다.
 
-![Lync 채팅방 시스템 관리 포털 로그인 화면](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Lync 대화방 시스템 관리 포털 로그인 화면")
+![Lync Room System 관리 포털 로그인 화면](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Lync Room System 관리 포털 로그인 화면")
 
 </div>
 
@@ -67,7 +69,7 @@ _**마지막으로 수정한 주제:** 2014-11-10_
 
   - **마지막 새로 고침**   은 웹 페이지를 마지막으로 새로 고친 시간을 표시 합니다.
 
-![Lync 채팅방 시스템 관리 포털 요약](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Lync 대화방 시스템 관리 포털 요약 보기")
+![Lync Room System 관리 포털 요약 보기](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Lync Room System 관리 포털 요약 보기")
 
 </div>
 
@@ -83,7 +85,7 @@ _**마지막으로 수정한 주제:** 2014-11-10_
 
 설정 섹션에서 회의실에 대 한 암호, 방 태그 및 기본 볼륨 수준을 설정할 수 있습니다. 이러한 설정을 구성 하는 경우 LRS 콘솔을 다시 시작한 후에만 변경 내용이 복제 됩니다. 15.12 이상 버전의 Lync 대화방 시스템에 대 한 시스템 업데이트 설정만 표시 됩니다.
 
-![Lync 채팅방 시스템 관리 포털 회의실 설정](images/Dn743660.ab162e19-41ac-4991-9b2a-92575aa53eda(OCS.15).png "Lync 대화방 시스템 관리 포털 방 설정")
+![Lync Room System 관리 포털 채팅방 설정](images/Dn743660.ab162e19-41ac-4991-9b2a-92575aa53eda(OCS.15).png "Lync Room System 관리 포털 채팅방 설정")
 
 </div>
 
@@ -93,7 +95,7 @@ _**마지막으로 수정한 주제:** 2014-11-10_
 
 세부 정보 섹션에는 마지막 새로 고침 시간을 비롯 하 여 LRS 룸의 설정에 대 한 읽기 전용 요약이 제공 됩니다. 다음 모임 마지막 업데이트, 유지 관리 및 보정 기본 스피커, 마이크 및 벨소리 설정 7.0 SIP URI, 각 화면에 대 한 화면 수 및 세부 정보 상태 및 활동.
 
-![Lync 채팅방 시스템 관리 포털 세부 정보](images/Dn743660.2958bbba-db74-4670-a920-87fdfb2fc22d(OCS.15).png "Lync 대화방 시스템 관리 포털 세부 정보 보기")
+![Lync Room System 관리 포털 세부 정보 보기](images/Dn743660.2958bbba-db74-4670-a920-87fdfb2fc22d(OCS.15).png "Lync Room System 관리 포털 세부 정보 보기")
 
 </div>
 
@@ -103,7 +105,7 @@ _**마지막으로 수정한 주제:** 2014-11-10_
 
 문제 해결 섹션을 사용 하 여 로그를 원격으로 수집 하 고 지정 된 위치에 저장할 수 있습니다. LRS 콘솔 (LRS 사용자 인터페이스)을 다시 시작 하거나 전체 시스템을 다시 시작할 수도 있습니다. 로그를 수집 하려면 지정 된 형식으로 폴더 경로를 제공 하 고 폴더에 LRS machine 계정에 대 한 쓰기 권한이 있는지 확인 합니다. 로그 크기가 너무 크면 로그 수집을 완료 하는 데 최대 5 분이 걸릴 수 있습니다. 페이지를 새로 고치면 최신 상태가 제공 됩니다.
 
-![Lync 채팅방 시스템 관리 포털 채팅방 로그인](images/Dn743660.749aee71-deaa-4ace-a146-fe2b349f0f42(OCS.15).png "Lync 대화방 시스템 관리 포털 채팅방 로깅")
+![Lync Room System 관리 포털 채팅방 로깅](images/Dn743660.749aee71-deaa-4ace-a146-fe2b349f0f42(OCS.15).png "Lync Room System 관리 포털 채팅방 로깅")
 
 </div>
 
@@ -113,7 +115,7 @@ _**마지막으로 수정한 주제:** 2014-11-10_
 
 상태 섹션에는 Lync Server 연결, 오디오 장치, 비디오 장치, 복구 상태 및 화면 장치의 상태를 시각적으로 보여 줍니다.
 
-![Lync 채팅방 시스템 관리 포털 채팅방 상태](images/Dn743660.8cc644f8-8e3e-42d5-9079-045d8fe9daa7(OCS.15).png "Lync 대화방 시스템 관리 포털 방 상태")
+![Lync Room System 관리 포털 채팅방 상태](images/Dn743660.8cc644f8-8e3e-42d5-9079-045d8fe9daa7(OCS.15).png "Lync Room System 관리 포털 채팅방 상태")
 
 </div>
 

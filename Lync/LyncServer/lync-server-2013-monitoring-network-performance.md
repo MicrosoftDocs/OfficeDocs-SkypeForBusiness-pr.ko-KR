@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 네트워크 성능 모니터링'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring network performance
 ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720923(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969647
 ms.date: 04/27/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2fa3c2685b4da32d5f2e3f123a938920b5ce9f7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 504b0c28e42b6975cd411c6628cd9f91a30783ef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982874"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756802"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
