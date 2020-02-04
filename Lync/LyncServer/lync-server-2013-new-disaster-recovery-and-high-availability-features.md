@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 새로운 재해 복구 및 고가용성 기능'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New disaster recovery and high availability features
 ms:assetid: 4fa7cd0f-784b-4d3f-b839-432c2ecaf7c1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204892(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184130
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e93e2265d401c6dca16f5c00c339fbdc893aba0a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: aabac29c5e866c4bfeff8ad79d392578d52ba650
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981618"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40981618"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-disaster-recovery-and-high-availability-features-in-lync-server-2013"></a><span data-ttu-id="9ae0b-102">Lync Server 2013의 새로운 재해 복구 및 고가용성 기능</span><span class="sxs-lookup"><span data-stu-id="9ae0b-102">New disaster recovery and high availability features in Lync Server 2013</span></span>
+# <a name="new-disaster-recovery-and-high-availability-features-in-lync-server-2013"></a><span data-ttu-id="4ec9c-102">Lync Server 2013의 새로운 재해 복구 및 고가용성 기능</span><span class="sxs-lookup"><span data-stu-id="4ec9c-102">New disaster recovery and high availability features in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,20 +35,20 @@ ms.locfileid: "40981618"
 
 <span> </span>
 
-<span data-ttu-id="9ae0b-103">_**마지막으로 수정한 주제:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="9ae0b-103">_**Topic Last Modified:** 2012-09-20_</span></span>
+<span data-ttu-id="4ec9c-103">_**마지막으로 수정한 주제:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="4ec9c-103">_**Topic Last Modified:** 2012-09-20_</span></span>
 
-<span data-ttu-id="9ae0b-104">Lync Server 2010에서와 마찬가지로 Lync Server 2013의 기본 고가용성 (HA) 체계는 풀링을 통한 서버 중복성을 기반으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ae0b-104">As in Lync Server 2010, the main high availability (HA) scheme for Lync Server 2013 is based on server redundancy via pooling.</span></span> <span data-ttu-id="9ae0b-105">특정 서버 역할을 실행 하는 서버에 오류가 발생 하는 경우 동일한 역할을 실행 하는 풀의 다른 서버에서 해당 서버의 로드를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ae0b-105">If a server running a certain server role fails, the other servers in the pool running the same role take the load of that server.</span></span> <span data-ttu-id="9ae0b-106">이는 프런트 엔드 서버, Edge 서버, 중재 서버 및 디렉터에 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9ae0b-106">This applies to Front End Servers, Edge Servers, Mediation Servers, and Directors.</span></span>
+<span data-ttu-id="4ec9c-104">Lync Server 2010에서와 마찬가지로 Lync Server 2013의 기본 고가용성 (HA) 체계는 풀링을 통한 서버 중복성을 기반으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ec9c-104">As in Lync Server 2010, the main high availability (HA) scheme for Lync Server 2013 is based on server redundancy via pooling.</span></span> <span data-ttu-id="4ec9c-105">특정 서버 역할을 실행 하는 서버에 오류가 발생 하는 경우 동일한 역할을 실행 하는 풀의 다른 서버에서 해당 서버의 로드를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ec9c-105">If a server running a certain server role fails, the other servers in the pool running the same role take the load of that server.</span></span> <span data-ttu-id="4ec9c-106">이는 프런트 엔드 서버, Edge 서버, 중재 서버 및 디렉터에 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4ec9c-106">This applies to Front End Servers, Edge Servers, Mediation Servers, and Directors.</span></span>
 
-<span data-ttu-id="9ae0b-107">Lync Server 2013는 두 데이터 센터에 있는 프런트 엔드 풀을 쌍으로 할 수 있도록 하 여 새 재해 복구 조치를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ae0b-107">Lync Server 2013 adds new disaster recovery measures by enabling you to pair Front End pools located in two datacenters.</span></span> <span data-ttu-id="9ae0b-108">연결 된 풀 중 하나가 다운 되 면 관리자는 해당 풀의 사용자를 해당 쌍의 다른 풀로 장애 조치 하 여 서비스를 계속 제공할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ae0b-108">If one of the paired pools goes down, an administrator can fail over the users from that pool to the other pool in the pair, to provide continuation of service.</span></span> <span data-ttu-id="9ae0b-109">이 기능은 저장소 네트워크 또는 공유 디스크와 같은 비싼 네트워크 또는 하드웨어 솔루션은 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9ae0b-109">This functionality does not require expensive network or hardware solutions such as storage networks or shared disks.</span></span>
+<span data-ttu-id="4ec9c-107">Lync Server 2013는 두 데이터 센터에 있는 프런트 엔드 풀을 쌍으로 할 수 있도록 하 여 새 재해 복구 조치를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ec9c-107">Lync Server 2013 adds new disaster recovery measures by enabling you to pair Front End pools located in two datacenters.</span></span> <span data-ttu-id="4ec9c-108">연결 된 풀 중 하나가 다운 되 면 관리자는 해당 풀의 사용자를 해당 쌍의 다른 풀로 장애 조치 하 여 서비스를 계속 제공할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4ec9c-108">If one of the paired pools goes down, an administrator can fail over the users from that pool to the other pool in the pair, to provide continuation of service.</span></span> <span data-ttu-id="4ec9c-109">이 기능은 저장소 네트워크 또는 공유 디스크와 같은 비싼 네트워크 또는 하드웨어 솔루션은 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4ec9c-109">This functionality does not require expensive network or hardware solutions such as storage networks or shared disks.</span></span>
 
-<span data-ttu-id="9ae0b-110">또한 Lync Server 2013는 백 엔드 서버 고가용성을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="9ae0b-110">Lync Server 2013 also adds Back End Server high availability.</span></span> <span data-ttu-id="9ae0b-111">이는 프런트 엔드 풀에 대해 두 백 엔드 서버를 배포 하 고 백 엔드 서버에서 실행 되는 모든 Lync 데이터베이스에 대해 동기 SQL 미러링을 설정 하는 선택적 토폴로지입니다.</span><span class="sxs-lookup"><span data-stu-id="9ae0b-111">This is an optional topology in which you deploy two Back End Servers for a Front End pool, and set up synchronous SQL mirroring for all the Lync databases running on the Back End Servers.</span></span> <span data-ttu-id="9ae0b-112">미러에 미러링 모니터를 배포할지 여부를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ae0b-112">You may choose whether to deploy a witness for the mirror.</span></span>
+<span data-ttu-id="4ec9c-110">또한 Lync Server 2013는 백 엔드 서버 고가용성을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ec9c-110">Lync Server 2013 also adds Back End Server high availability.</span></span> <span data-ttu-id="4ec9c-111">이는 프런트 엔드 풀에 대해 두 백 엔드 서버를 배포 하 고 백 엔드 서버에서 실행 되는 모든 Lync 데이터베이스에 대해 동기 SQL 미러링을 설정 하는 선택적 토폴로지입니다.</span><span class="sxs-lookup"><span data-stu-id="4ec9c-111">This is an optional topology in which you deploy two Back End Servers for a Front End pool, and set up synchronous SQL mirroring for all the Lync databases running on the Back End Servers.</span></span> <span data-ttu-id="4ec9c-112">미러에 미러링 모니터를 배포할지 여부를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4ec9c-112">You may choose whether to deploy a witness for the mirror.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9ae0b-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="9ae0b-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4ec9c-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="4ec9c-113">See Also</span></span>
 
 
-[<span data-ttu-id="9ae0b-114">Lync Server 2013의 고가용성 및 재해 복구 계획</span><span class="sxs-lookup"><span data-stu-id="9ae0b-114">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+[<span data-ttu-id="4ec9c-114">Lync Server 2013의 고가용성 및 재해 복구 계획</span><span class="sxs-lookup"><span data-stu-id="4ec9c-114">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
   
 
 </div>
