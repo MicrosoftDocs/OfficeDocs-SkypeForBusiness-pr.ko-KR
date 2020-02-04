@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 토폴로지 작성기에서 추가 trunks 정의'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define additional trunks in Topology Builder
 ms:assetid: e68b8377-50a2-452a-bf5c-910929e34236
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721915(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b18d12762566258051d5fe0e7c71921b9fff160c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c55e8073bd1ad1bb2db69096e4e58aa2b148e775
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983338"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728488"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +71,7 @@ _**마지막으로 수정한 주제:** 2012-10-04_
 
 2.  Lync Server 2013, 사이트 이름, **공유 구성 요소**에서 **Trunks** 노드를 마우스 오른쪽 단추로 클릭 한 다음 **새 트렁크**를 클릭 합니다.
     
-    ![Lync Server 토폴로지 작성기 파일 구조 화면](images/JJ721915.90d5b349-aa1e-407a-87ed-fa112f478560(OCS.15).png "Lync server 토폴로지 작성기 파일 구조 화면")
+    ![Lync Server 토폴로지 작성기 파일 구조 화면](images/JJ721915.90d5b349-aa1e-407a-87ed-fa112f478560(OCS.15).png "Lync Server 토폴로지 작성기 파일 구조 화면")
 
 3.  **새 트렁크 정의**에서 트렁크를 고유 하 게 식별 하는 대화명을 지정 합니다. 두 개의 trunks 같은 이름을 사용할 수 없습니다.
     
@@ -84,7 +86,7 @@ _**마지막으로 수정한 주제:** 2012-10-04_
 
 4.  **연결 된 PSTN 게이트웨이에서**이 트렁크와 연결할 pstn 게이트웨이 피어를 선택 합니다.
     
-    (images/JJ721915.7c3fe8ee-8f4c-4413-8462-8347228e61bb(OCS.15).png "트렁크 용 pstn 게이트웨이 피어의 트렁크 속성 설정") 에 대 한 ![pstn 게이트웨이 피어에 대 한 속성 설정]
+    ![트렁크의 PSTN 게이트웨이 피어에 대한 속성 설정](images/JJ721915.7c3fe8ee-8f4c-4413-8462-8347228e61bb(OCS.15).png "트렁크의 PSTN 게이트웨이 피어에 대한 속성 설정")
 
 5.  **Pstn 게이트웨이의 수신 대기 포트**에서 피어 (pstn 게이트웨이, IP-PBX 또는 SBC)가이 트렁크와 연결할 중재 서버에서 SIP 메시지를 수신 하는 수신 대기 포트를 입력 합니다. 기본 피어 포트는 TCP (전송 제어 프로토콜) 및 TLS (전송 계층 보안) 용 5067의 5066입니다. 기본 Survivable Branch 기기 포트는 TCP 및 TLS 용 5082의 5081입니다.
 

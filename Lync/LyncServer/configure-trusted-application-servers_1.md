@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure trusted application servers
 ms:assetid: 47a9e72e-566c-4c23-bec2-760a3098a974
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204865(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b28002e8bb060e9ac966121a419d8475b4828258
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 92e7f2c808e9ea5a3e8dfbf3010715c86e02596e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "40983402"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728948"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -52,7 +54,7 @@ _**마지막으로 수정한 주제:** 2012-10-04_
 
 5.  **다음 홉 선택** 페이지의 목록에서 Lync Server 2013 프런트 엔드 풀을 선택 합니다.
     
-    ![신뢰할 수 있는 새 응용 프로그램 풀 대화 상자 정의](images/JJ204865.ecfe2bb8-758b-4b36-8146-573005c4ab09(OCS.15).jpg "새 신뢰할 수 있는 응용 프로그램 풀 정의 대화 상자")  
+    ![새 신뢰할 수 있는 응용 프로그램 풀 정의 대화 상자](images/JJ204865.ecfe2bb8-758b-4b36-8146-573005c4ab09(OCS.15).jpg "새 신뢰할 수 있는 응용 프로그램 풀 정의 대화 상자")  
 
 6.  **마침**을 클릭합니다.
 

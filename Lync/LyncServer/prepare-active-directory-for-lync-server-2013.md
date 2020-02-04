@@ -3,6 +3,8 @@ title: Lync Server 2013에 대 한 Active Directory 준비
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prepare Active Directory for Lync Server 2013
 ms:assetid: d0978eb6-d842-40e9-b475-73197cc34e08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205265(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185413
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e36b5260c71c339ae22854b50b33311111aa09d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d6bedd4e0d008f448da97ad5fc5bf62d810cfedc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985677"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727368"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,11 +45,11 @@ Office Communications Server 2007 R2를 사용 하 여 Lync Server 2013을 공�
 
 2.  **Active Directory 준비** 선택
     
-    ![Lync server 2013 배포 마법사, 시작 페이지](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 배포 마법사, 시작 페이지")
+    ![Lync Server 2013 배포 마법사, 시작 페이지](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 배포 마법사, 시작 페이지")
 
 3.  1 ~ 5 단계를 완료 합니다.
     
-    ![배포 마법사, Active Directory Prearation](images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "배포 마법사, active directory Prearation")
+    ![배포 마법사, Active Directory 준비](images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "배포 마법사, Active Directory 준비")
 
 </div>
 

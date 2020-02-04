@@ -3,6 +3,8 @@ title: 'Lync Server 2013: M:N 트렁크'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: M:N trunk
 ms:assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398971(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a99a76c2291b8ffcfcb1c68367ab6a999211c24f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4485380d6de5d247511b863761fcf7c75d38a29b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983004"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725638"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

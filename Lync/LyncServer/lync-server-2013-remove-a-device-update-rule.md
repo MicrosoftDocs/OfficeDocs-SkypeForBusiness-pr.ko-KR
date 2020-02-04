@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 장치 업데이트 규칙 제거'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Remove a Device Update rule
 ms:assetid: ad6e0c6a-cda4-4147-92d5-48bc393ac456
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994066(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803977
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3776fe2b80e301e02c099f3c6154afc1c382d0d7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8d367c507ea2e8871231248b1f29d7d033dedbe9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979105"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724358"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

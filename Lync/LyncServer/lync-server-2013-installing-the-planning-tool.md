@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 계획 도구 설치'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing the Planning Tool
 ms:assetid: ebdc9e26-4b22-4b02-85b9-7462bcfe7c93
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615046(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e528062d5fd04e1a11df934cbc01b2dc8c92aa4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e7a427ab99368d74180e1d0321741117a9ed97e9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983370"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725898"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

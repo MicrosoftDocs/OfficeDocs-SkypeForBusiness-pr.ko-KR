@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 자동 검색을 위한 리버스 프록시 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a reverse proxy for Autodiscover
 ms:assetid: 1e3c3cc2-fe55-408b-99c4-c6e0a9252689
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945619(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5445a9ce81835863b610ef32ecc51ccac5331c3f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a02bf765941c7240f08fecc91d5912f31a0f2f87
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982907"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726568"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

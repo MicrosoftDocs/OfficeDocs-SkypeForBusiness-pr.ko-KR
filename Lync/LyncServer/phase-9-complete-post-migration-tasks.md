@@ -3,6 +3,8 @@ title: '9 단계: 마이그레이션 후 작업 완료'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 9: Complete post-migration tasks'
 ms:assetid: 05b1a858-fd45-4bb9-9cb4-05f001528a88
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204642(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0eb597f14481256dcd3487d31d4415bccca96647
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cfedd6cc909b1d164df145862c8bd783581ed306
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980134"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727378"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

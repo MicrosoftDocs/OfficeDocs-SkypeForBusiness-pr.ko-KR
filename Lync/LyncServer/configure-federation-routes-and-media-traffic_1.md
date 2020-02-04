@@ -3,6 +3,8 @@ title: 페더레이션 경로 및 미디어 트래픽 구성
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: ed6cb922-7863-453a-adce-2ce0ba761d74
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721925(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4542ae02cc72dfbac05dfa982e2fbda7f2924919
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7af8228a7537f1bbef4e92af852834459281a817
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981255"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728178"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>페더레이션 경로 및 미디어 트래픽 구성
 
@@ -79,11 +81,11 @@ ms.locfileid: "40981255"
 
 3.  **Edge 설정 지정**에서 현재 페더레이션에 대해 구성 된 **EDGE Server 내부 FQDN** 을 선택한 다음 **변경을**클릭 합니다.
     
-    ![Ocs 2007 R2 토폴로지 병합, Edge 설정](images/JJ721925.42c15aaf-c1ac-4fb1-a086-665835c57b23(OCS.15).jpg "통합 OCS 2007 R2 토폴로지 지정, edge 설정 지정")
+    ![OCS 2007 R2 토폴로지 병합, 에지 설정 지정](images/JJ721925.42c15aaf-c1ac-4fb1-a086-665835c57b23(OCS.15).jpg "OCS 2007 R2 토폴로지 병합, 에지 설정 지정")
 
 4.  **다음** 을 클릭 하 고 **외부에 지 지정** 페이지에 도달할 때까지 기본 설정을 적용 합니다.
     
-    ![토폴로지 작성기 외부에 지 페이지](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "토폴로지 작성기 지정 외부에 지 페이지 지정")
+    ![토폴로지 작성기 외부 에지 지정 페이지](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "토폴로지 작성기 외부 에지 지정 페이지")
 
 5.  **외부에 지 지정**에서 **이 Edge 풀은 페더레이션 및 공용 IM 연결에 사용 됨** 확인란의 선택을 취소 합니다. 이렇게 하면 BackCompatSite에 대 한 페더레이션 연결이 제거 됩니다.
     
@@ -103,7 +105,7 @@ ms.locfileid: "40981255"
 
 10. **게시 마법사** 가 완료 되 면 **마침을** 클릭 하 여 마법사를 닫습니다.
     
-    병합(images/JJ721925.92b679ad-332f-49aa-b4e2-19f939b711ca(OCS.15).jpg "후 사이트가 표시 된 병합 토폴로지 작성기") ![이후 사이트가 표시 된 토폴로지 작성기]
+    ![병합된 후의 사이트가 표시된 토폴로지 작성기](images/JJ721925.92b679ad-332f-49aa-b4e2-19f939b711ca(OCS.15).jpg "병합된 후의 사이트가 표시된 토폴로지 작성기")
     
     앞의 그림과 같이 **사이트 페더레이션 경로 할당** 아래에 있는 **SIP 페더레이션** 이 **사용 안 함으로**설정 됩니다.
 
@@ -129,7 +131,7 @@ ms.locfileid: "40981255"
 
 5.  Lync Server 2013 Edge 서버의 FQDN을 입력 한 다음 **확인**을 클릭 합니다.
     
-    ![Ocs 전역 속성, 페더레이션 탭](images/JJ721925.da633f72-43c6-4dac-8d37-ccd0dcde79c9(OCS.15).jpg "OCS 전역 속성, 페더레이션 탭")
+    ![OCS 전역 속성, 페더레이션 탭](images/JJ721925.da633f72-43c6-4dac-8d37-ccd0dcde79c9(OCS.15).jpg "OCS 전역 속성, 페더레이션 탭")
 
 ## <a name="to-turn-on-lync-server-2013-edge-server-federation"></a>Lync Server 2013 Edge 서버 페더레이션을 켜려면
 
@@ -145,7 +147,7 @@ ms.locfileid: "40981255"
 
 3.  **일반** 페이지에서 **이 Edge 풀에 페더레이션 사용 (포트 5061)** 확인란을 선택 합니다.
     
-    ![속성, 일반, Edge 페더레이션 사용](images/JJ721925.2aeb5958-da55-4910-b3d7-2124e144a2f0(OCS.15).jpg "속성 편집, 일반, edge 페더레이션 사용") 을 편집 합니다.
+    ![속성 편집, 일반, 에지 페더레이션 사용](images/JJ721925.2aeb5958-da55-4910-b3d7-2124e144a2f0(OCS.15).jpg "속성 편집, 일반, 에지 페더레이션 사용")
 
 4.  **확인** 을 클릭 하 여 속성 편집 페이지를 닫습니다.
 
@@ -159,7 +161,7 @@ ms.locfileid: "40981255"
 
 9.  **확인** 을 클릭 하 여 **속성 편집** 페이지를 닫습니다.
     
-    ![속성 편집, 일반, edge 풀 연결](images/JJ721925.33d43297-10cd-412e-bf4a-a1d9a84b9009(OCS.15).jpg "속성 편집, 일반, edge 풀 연결")
+    ![속성 편집, 일반, 에지 풀 연결](images/JJ721925.33d43297-10cd-412e-bf4a-a1d9a84b9009(OCS.15).jpg "속성 편집, 일반, 에지 풀 연결")
     
     여러 사이트 배포의 경우 각 사이트에서이 절차를 완료 합니다.
 
@@ -173,7 +175,7 @@ ms.locfileid: "40981255"
 
 4.  드롭다운 상자에서 Lync Server 2013 Edge 서버를 선택 합니다.
     
-    ![속성 편집 대화 상자, Edge 풀을 연결]하 여(images/JJ721925.0cb76b08-5923-4972-8d7a-a829cb77136b(OCS.15).jpg "속성 편집 대화 상자, edge 풀 연결")
+    ![속성 편집 대화 상자, 에지 풀 연결](images/JJ721925.0cb76b08-5923-4972-8d7a-a829cb77136b(OCS.15).jpg "속성 편집 대화 상자, 에지 풀 연결")
 
 5.  **확인** 을 클릭 하 여 **속성 편집** 페이지를 닫습니다.
 

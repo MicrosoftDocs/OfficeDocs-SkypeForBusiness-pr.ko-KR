@@ -3,6 +3,8 @@ title: SIP, XMPP 페더레이션 및 공개 인스턴트 메시지에 대 한 �
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for SIP, XMPP federation, and public instant messaging
 ms:assetid: 3b234d92-b9ff-4b1d-910e-084c6f17e751
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204825(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183918
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88aa8c6f3f2f11b303a7e25eed96d5f0d7243cb4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 994a1395363c28976c8bbfe325edae99e97cdc48
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984686"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725188"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

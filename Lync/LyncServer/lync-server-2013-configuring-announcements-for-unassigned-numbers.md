@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 지정되지 않은 번호에 대한 알림 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring announcements for unassigned numbers
 ms:assetid: 45633dd3-78de-4934-867e-33969fc25368
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425944(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184035
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8375e3481703078013d85060d20d0e9f500374b0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 52d7e8ad1aa4fcfe3db9aabee61e317810707194
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985419"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726528"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

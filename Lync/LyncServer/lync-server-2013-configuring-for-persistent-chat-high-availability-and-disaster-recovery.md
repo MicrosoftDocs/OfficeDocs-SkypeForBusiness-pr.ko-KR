@@ -3,6 +3,8 @@ title: 영구 채팅 고가용성 및 재해 복구를 위한 구성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring for Persistent Chat high availability and disaster recovery
 ms:assetid: 2b91c244-796c-416d-bf9b-e99613e901af
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552854(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48b439caee20e6e4545975a40d8d99020009abe4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f29fa807034a8cdad6fb4bf14526a868e242130f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984432"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

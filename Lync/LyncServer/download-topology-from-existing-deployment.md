@@ -3,6 +3,8 @@ title: 기존 배포에서 토폴로지 다운로드
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Download topology from existing deployment
 ms:assetid: e39065a2-d4b0-4f27-8c49-f56be78fa55b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721913(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26c47e6d78d3bd9522b8f0369924f05f8f939037
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 29a8bd95af99b6b79b91f84231120c6981eeedb7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979210"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723028"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

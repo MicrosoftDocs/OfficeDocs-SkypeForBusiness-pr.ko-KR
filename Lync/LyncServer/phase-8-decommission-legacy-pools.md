@@ -3,6 +3,8 @@ title: '8단계: 레거시 풀 해제'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 8: Decommission legacy pools'
 ms:assetid: 1c68e5d8-fb5f-45e6-b6e3-27f5e830c966
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204724(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df23d085a63cf67736b038b120fc294aa376f962
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a9c21aa29f2e98aacd3ec68076a21ba2b4d2a76e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982059"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729078"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

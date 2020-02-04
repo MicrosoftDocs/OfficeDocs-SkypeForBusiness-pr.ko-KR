@@ -3,6 +3,8 @@ title: 사용자 프로필 구성
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure User Profile
 ms:assetid: 52713245-e502-4539-a238-66ff1aca26b1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945594(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e982156928cf36b4e20eaf86175d7acbdf048b6c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a2441fe97bb57ffdf0f6200f1201e192bfc6bf14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985622"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727708"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ Lync Server 2013 스트레스 및 성능 도구 패키지에 포함 된 도구�
 
 다음 그림에는 Lync Server 2013 부하 구성 도구의 **공통 구성** 탭이 나와 있습니다. **일반 구성** 탭의 필드를 다음 단계에 설명 된 대로 입력 합니다.
 
-![일반 구성 탭] (images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "일반 구성 탭")
+![일반 구성 탭.](images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "일반 구성 탭.")
 
 1.  **사용 가능한 컴퓨터 수**에서 L Cperftool을 실행 하는 데 사용할 컴퓨터 수를 입력 하거나 클릭 합니다. 시뮬레이트하는 모든 4500 사용자에 대해 하나의 컴퓨터를 사용 하는 것이 좋습니다. 이 숫자는 부하 수준을 줄이거나 사용 가능한 기능 중 일부만 사용 하는 경우에 따라 다를 수 있습니다. (로드 수준은 **일반 시나리오** 탭에서 설정 됩니다.)
 
@@ -95,7 +97,7 @@ Lync Server 2013 스트레스 및 성능 도구 패키지에 포함 된 도구�
 
 실행할 일반 시나리오 각각에 대해 로드 수준과 매개 변수를 구성 하거나 사용 하지 않도록 설정 된 상태로 둡니다.
 
-![일반 시나리오 탭] (images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "일반 시나리오 탭")
+![일반 시나리오 탭.](images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "일반 시나리오 탭.")
 
 1.  피어 투 피어 및 회의를 포함 하는 **인스턴트 메시지**에서 로드 수준에 적절 한 값을 지정 합니다.
     
@@ -142,7 +144,7 @@ Lync Server 2013 스트레스 및 성능 도구 패키지에 포함 된 도구�
 
 음성 **시나리오** 탭을 사용 하 여 모든 음성 관련 시나리오를 구성 합니다.
 
-![음성 시나리오 탭.] (images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "음성 시나리오 탭.")
+![음성 시나리오 탭.](images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "음성 시나리오 탭.")
 
 1.  **VoIP**에서 **고급** 단추를 클릭 한 다음 **PhoneAreaCode** 및 **locationprofile** (다이얼 플랜) 필드에 대 한 값을 제공 합니다. 또한 **로드 수준**에 대 한 값을 지정 해야 합니다. **VoIP** 및 **Uc/PSTN 게이트웨이의** 로드 수준을 사용 하도록 설정한 경우, 외부 통화를 시뮬레이트하는 공용 통신 네트워크 (PSTN) 구성 파일이 항상 생성 됩니다.
 
@@ -183,7 +185,7 @@ Lync Server 2013 스트레스 및 성능 도구 패키지에 포함 된 도구�
 
 **Reach 탭을** 사용 하 여 모든 관련 시나리오를 구성 합니다.
 
-![연결 탭.] (images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "연결 탭.")
+![연결 탭.](images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "연결 탭.")
 
 1.  **일반 연결 설정**옆에 있는 **고급** 단추를 클릭 합니다. 필드 **UcwaTargetServerUrl** 를 디렉터 풀 vip (가상 IP) 또는 프런트 엔드 풀 vip로 설정 합니다.
 
@@ -201,7 +203,7 @@ Lync Server 2013 스트레스 및 성능 도구 패키지에 포함 된 도구�
 
 **이동성 탭을** 사용 하 여 모든 이동성 관련 시나리오를 구성 합니다.
 
-![이동성 탭.] (images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "이동성 탭.")
+![이동성 탭.](images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "이동성 탭.")
 
 1.  **Mobility (이동)** 옆에 있는 **고급** 단추를 클릭 합니다. 필드 **UcwaTargetServerUrl** 를 디렉터 풀 vip (가상 IP) 또는 프런트 엔드 풀 vip로 설정 합니다.
 
@@ -225,11 +227,11 @@ Lync Server 2013 스트레스 및 성능 도구 패키지에 포함 된 도구�
 
 다음 그림에는 Lync Server 2013 부하 구성 도구의 **요약** 탭이 나와 있습니다.
 
-![요약 탭] (images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "요약 탭")
+![요약 탭.](images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "요약 탭.")
 
 **요약** 탭에는 각 시나리오에 사용할 사용자가 표시 됩니다. 사용자 **지정 사용자 범위 생성 사용** 확인란을 선택 하 여 사용자 번호 범위를 수동으로 구성할 수 있으며, 테이블에서 사용자 지정 하려는 **범위** 에 해당 하는 시나리오를 두 번 클릭 합니다. 시작 될 때 로그인 지연 추가를 선택 하 여 로그인 속도와 일치 하도록 생성 된 일괄 처리 파일에 지연을 포함 합니다. 이는 많은 사용자에 게 로그인 할 때 서버 오버 로드가 발생 하지 않도록 하는 데 유용 합니다. **파일 생성**을 클릭 하 고 구성을 생성 하려는 폴더를 선택 합니다. 파일이 성공적으로 생성 되 면 다음 그림과 같은 대화 상자가 표시 됩니다.
 
-![파일이 생성 되었음을 승인 합니다.] (images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "파일이 생성 되었음을 승인 합니다.")
+![파일이 만들어졌음을 승인.](images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "파일이 만들어졌음을 승인.")
 
 </div>
 

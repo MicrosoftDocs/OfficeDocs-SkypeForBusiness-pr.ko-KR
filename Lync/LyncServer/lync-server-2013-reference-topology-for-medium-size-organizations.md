@@ -3,6 +3,8 @@ title: Lync Server 2013 중간 규모 조직을 위한 참조 토폴로지
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for medium-size organizations
 ms:assetid: 446b0914-2198-445e-ab6e-94802acebd5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425939(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184026
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41a003bd87e4dc8b85e78946a5ce870f3f6dd045
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da4c29107a6ca3d33e76708be9eec07297eeaf93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984771"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724408"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**마지막으로 수정한 주제:** 2013-10-07_
 
 **중간 규모 조직의 참조 토폴로지**
 
-(images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "단일 데이터 센터 다이어그램에 대 한") ![단일 데이터 센터 다이어그램 참조 토폴로지의 참조 토폴로지]
+![단일 데이터 센터용 참조 토폴로지 다이어그램](images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "단일 데이터 센터용 참조 토폴로지 다이어그램")
 
   - **프런트 엔드 서버를 더 추가 하 여 더 많은 사용자를 수용할 수 있습니다.**    이 다이어그램의 정확한 토폴로지에는 2만 사용자에 게 지원을 제공 하는 프런트 엔드 서버가 세 개 있습니다. 중앙 사이트 한 대와 사용자가 많을 경우 프런트 엔드 서버를 풀에 추가 하면 됩니다. 풀 당 최대 사용자 수는 12 대의 프런트 엔드 서버를 사용 하는 8만입니다.
     

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync 대화방 시스템 관리 웹 포털 설치'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing the Lync Room System Administrative Web Portal
 ms:assetid: dd19e368-c338-4e21-a40d-6439d46a9748
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn436326(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56737622
 ms.date: 04/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1c69231c6f07d2e57c0fe8be31d18ed6da109fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dcfc78429ef021afcb0ed286ad86a39e63bfbf62
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977450"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725988"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -74,7 +76,7 @@ Lync 채팅방 시스템 관리 웹 포털의 설치를 확인 하려면 다음�
     
     다음 이미지와 같이 오류가 표시 되지 않아야 합니다.
     
-    ![Lync 채팅방 시스템 관리 포털 로그인 화면](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Lync 대화방 시스템 관리 포털 로그인 화면")
+    ![Lync Room System 관리 포털 로그인 화면](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Lync Room System 관리 포털 로그인 화면")
 
 2.  오류가 표시 되지 않으면 토폴로지의 다른 컴퓨터에서 다음 URL에 액세스 해 보세요.
     

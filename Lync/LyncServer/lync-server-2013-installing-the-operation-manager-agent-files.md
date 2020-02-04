@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Operation Manager 에이전트 파일 설치'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing the Operation Manager agent files
 ms:assetid: e2246c44-0c75-43fc-8b04-26e53c5dd572
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205345(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb8675e6c75c288e6594e45ecdcc2f65497a047a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f75e9b6f8c3f7eb7151cf0d67a62f5e2a03a65f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983066"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725958"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

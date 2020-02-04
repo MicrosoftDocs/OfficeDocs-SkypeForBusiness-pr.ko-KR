@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Exchange Server 2013과 통합 하기 위한 선행 �
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prerequisites for integrating Lync Server 2013 and Exchange Server 2013
 ms:assetid: ea22beb9-c02e-47cb-836d-97a556969052
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721919(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e51bc3ce48756f746b2f2f5c0ce65d08567fea74
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1a381f765c9c91e9c5e218d66320d542a11bf878
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984636"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724838"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

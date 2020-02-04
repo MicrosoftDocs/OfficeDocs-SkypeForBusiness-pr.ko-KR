@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 네트워크 사이트 만들기 또는 수정'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating or modifying network sites
 ms:assetid: 358aa08a-c5bc-45fc-8017-19e6202f88c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520975(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bb09dfcd490d47de1bbfbbde48f538e95fc64cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4c77c343bff92e25ffc1678bc06e7a0ef05d3f96
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984448"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728768"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

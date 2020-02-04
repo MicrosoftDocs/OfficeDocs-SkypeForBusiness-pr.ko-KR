@@ -3,6 +3,8 @@ title: 보관 서버 연결 제거
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove the Archiving server association
 ms:assetid: dabac157-71ee-4afe-b0b6-4a083d165ffb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721903(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04ab171493890c610e0f11b7cd124c7c2e1c600c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 04bf1a5a3c68ab1123431543e08618c4eacb7559
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984109"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727118"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

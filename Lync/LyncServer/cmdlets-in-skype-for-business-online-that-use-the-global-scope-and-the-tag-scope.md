@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Cmdlets that use the global scope and the tag scope
 ms:assetid: 1e2bc055-8a72-425e-967b-e253add7018c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362774(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 56558824
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b274469f16ebb10338504afb2855e1c92774e545
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 04eb5f71a0092452eb8b24fa9acf53d46fb3bcd5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "40979061"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728098"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>전역 범위와 태그 범위를 사용 하는 비즈니스용 Skype Online의 cmdlet
 

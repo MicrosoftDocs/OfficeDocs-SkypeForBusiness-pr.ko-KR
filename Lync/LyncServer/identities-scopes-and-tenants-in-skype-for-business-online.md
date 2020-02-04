@@ -3,6 +3,8 @@ title: 비즈니스용 Skype Online의 id, 범위 및 테 넌 트
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Identities, scopes, and tenants
 ms:assetid: 7cfa194a-2d01-4370-9b48-ee13ff597fa5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362819(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a759c53b717cbaf1ecdb747d5cb01e94b305f52
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7b08c459f64a4655ebb4dc670255645f985452aa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983566"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

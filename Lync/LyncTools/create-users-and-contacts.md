@@ -3,6 +3,8 @@ title: 사용자 및 연락처 만들기
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Create Users and Contacts
 ms:assetid: 04b24d07-2864-463d-b508-544c2674c4ab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945587(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f09ac6fd667b77b47e27ec9fb9caac44b9a13e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1463a7caaad2bcf36996eaac4bd47e2bab25e6f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984723"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727578"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -77,7 +79,7 @@ Lync Server 사용자 프로비저닝 도구를 사용 하 여 부하 시뮬레�
 
 Lync Server 사용자 프로비저닝 도구가 열리면 **구성을** 클릭 하 고 **구성 로드**를 선택 합니다. 사용자 및 연락처 구성을 시작 하려면 패키지, SampleData에 포함 된 기본 파일을 로드 합니다. 이렇게 하면 시스템에서 수정 해야 하는 예제 데이터를 사용 하 여 필드를 미리 채울 수 있습니다. 이미 사용자 지정 설정을 포함 하는 미리 구성 된 XML 파일이 있으면 그 파일을 로드 합니다. 다음 섹션에서 설명 하는 대로 Lync Server 사용자 프로비저닝 도구에 필드를 입력 합니다.
 
-![사용자 만들기 탭] (images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "사용자 만들기 탭")
+![사용자 만들기 탭.](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "사용자 만들기 탭.")
 
 서버 옵션을 구성 하려면 다음 단계를 따릅니다.
 
@@ -149,7 +151,7 @@ Lync Server 사용자 프로비저닝 도구가 열리면 **구성을** 클릭 �
 
 연락처 만들기 탭을 통해 사용자의 연락처에 대 한 세부 정보를 지정할 수 있습니다.
 
-![연락처 만들기 탭] (images/JJ945587.7508726e-83e6-4878-8edd-114543d9af24(OCS.15).jpg "연락처 만들기 탭")
+![대화 상대 만들기 탭.](images/JJ945587.7508726e-83e6-4878-8edd-114543d9af24(OCS.15).jpg "대화 상대 만들기 탭.")
 
 사용자의 연락처를 구성 하려면 다음 단계를 따릅니다.
 
@@ -195,7 +197,7 @@ Lync Server 사용자 프로비저닝 도구가 열리면 **구성을** 클릭 �
 
 Lync Server 2013 스트레스 및 성능 도구의 기능 중 하나는 Lync 2013에서 메일 그룹 (DL) 확장 기능을 시뮬레이트하는 것입니다. UserProvisioningTool에서 DL 확장을 사용 하지 않을 경우이 단계를 건너뛸 수 있습니다.
 
-![메일 그룹 만들기 탭] (images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "메일 그룹 만들기 탭")
+![배포 목록 만들기 탭.](images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "배포 목록 만들기 탭.")
 
 메일 그룹 탭에서 스트레스 및 성능 도구가 메일 그룹 확장 기능에 사용할 Dl을 만들 수 있습니다. Dl을 만들기 전에 Lync Server 2013가 이미 설치 되어 있어야 합니다. Lync Server 2013 ForestPrep을 실행 해야 합니다. 그렇지 않으면 DL 특성이 Active Directory 도메인 서비스 스키마에 존재 하지 않으며 도구가 Dl을 만들 수 없게 됩니다.
 
@@ -225,7 +227,7 @@ Lync Server 2013 스트레스 및 성능 도구의 기능 중 하나는 Lync 201
 
 Lync Server 2013 스트레스 및 성능 도구의 기능 중 하나는 위치 정보 서비스에 대 한 더미 구성 파일을 생성 하는 것입니다. 일반적으로 위치 정보 서비스에는 서버에 중대 한 성능 영향이 없습니다.
 
-![위치 정보 서비스 구성 탭] (images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "위치 정보 서비스 구성 탭")
+![위치 정보 서비스 구성 탭.](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "위치 정보 서비스 구성 탭.")
 
 이 기능을 테스트 하기로 선택 하면 양식에 언급 된 값을 입력 한 다음 LIS Config 파일 생성 단추를 클릭할 수 있습니다. 이\_는 lis 서브넷 .CSV,\_lis\_, lis. c a v a c c a .와 같은 csv 파일을\_생성 하 고, lis WAP. 그런 다음 set- **CsLisSubnet** Cmdlet, **set-CsLisSwitch** cmdlet, **set CsLisPort** cmdlet 및 **set-CSWIRELESSACCESSPOINT** cmdlet을 사용 하 여 이러한 CSV 파일을 LIS 데이터베이스로 가져올 수 있습니다.
 

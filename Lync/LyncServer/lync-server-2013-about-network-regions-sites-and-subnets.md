@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 네트워크 지역, 사이트 및 서브넷 정보'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: About network regions, sites, and subnets
 ms:assetid: 6662123a-d011-408c-a290-92b2a8589943
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398467(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184335
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef6601a0baafd1226f4e283d62a8cbdb410064ff
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f85d392f7d5f987bf14197fd5027c6568965ae8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982997"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723428"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

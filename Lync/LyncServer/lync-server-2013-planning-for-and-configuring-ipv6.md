@@ -3,6 +3,8 @@ title: 'Lync Server 2013: IPv6 계획 및 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for and configuring IPv6
 ms:assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204624(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183236
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ed0de9e59dc6bb3c4c8f6a06ded64b58df99eb8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 05ca3b20d78d20f4c442edcb3a5722700c3e14a5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983673"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725605"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
