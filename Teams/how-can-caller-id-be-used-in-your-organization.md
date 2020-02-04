@@ -1,5 +1,5 @@
 ---
-title: 조직에서 발신자 ID를 사용 하는 방법
+title: 조직에서 발신자 ID를 사용하는 방법
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,18 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.callerid.overview
+f1.keywords: ms.teamsadmincenter.voice.callerid.overview
 ms.custom:
 - Calling Plans
 description: 발신자 ID는 CallingLineIdentity 이라는 정책을 사용 하 여 전화 시스템 사용자에 대 한 인바운드와 아웃 바운드 호출 모두에 대해 제어할 수 있습니다.
-ms.openlocfilehash: 671ee484cbb5cccd78f6512d714a4dd0954524b0
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 32dbb3d5b164f2e40e0b8399e2047762ecf882ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570752"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680545"
 ---
-# <a name="how-can-caller-id-be-used-in-your-organization"></a>조직에서 발신자 ID를 사용 하는 방법
+# <a name="how-can-caller-id-be-used-in-your-organization"></a>조직에서 발신자 ID를 사용하는 방법
 
 발신자 ID는 CallingLineIdentity 이라는 정책을 사용 하 여 전화 시스템 사용자에 대 한 인바운드와 아웃 바운드 호출 모두에 대해 제어할 수 있습니다.
   
@@ -64,14 +64,14 @@ ms.locfileid: "37570752"
 
 EnableUserOverride 특성을 사용 하면 단일 또는 여러 사용자가 자신의 발신자 ID 설정을 **익명**으로 변경할 수 있습니다. 이는 CallingLineIdentity 정책이 LineURI 또는 대체의 Callingidin매개 변수를 사용 하 여 구성 된 경우에만 적용 됩니다. EnableUserOverride의 기본값은 False입니다.
   
-최종 사용자는 비즈니스용 Skype 데스크톱 클라이언트의 **설정** 탭을 사용 하 여 발신자 ID를 **익명** 으로 설정 하 고, **최종 사용자** 에 게 전화 걸기 (관리자가 사용 하도록 설정한 경우)를 선택 하려면 **모든 통화에 대해 내 전화 번호 및 프로필 정보 숨기기를 선택 합니다. **.
+최종 사용자는 비즈니스용 Skype 데스크톱 클라이언트의 **설정** 탭을 사용 하 여 발신자 ID를 **익명** 으로 설정 하 고, **최종 사용자** 에 게 전화 걸기 (관리자가 사용 하도록 설정한 경우)를 선택 하려면 **모든 통화에 대해 내 전화 번호 및 프로필 정보 숨기기**를 선택 합니다.
   
 ||||
 |:-----|:-----|:-----|
 |**창을** <br/> |**버전** <br/> |**지원** <br/> |
-|간편 실행  <br/> |12 월 6 일에 릴리스된 현재 채널 2016-버전 1611 (빌드 7571.2072)  <br/> |'  <br/> |
-|간편 실행  <br/> |2 월 22 일에 릴리스된 지연 채널의 첫 번째 릴리스 2017-버전 1701 (빌드 7766.2060)  <br/> |'  <br/> |
-|간편 실행  <br/> |6 월 13 일에 릴리스된 지연 채널 2017-버전 1701 (빌드 7766.2092)  <br/> |'  <br/> |
+|간편 실행  <br/> |12 월 6 일에 릴리스된 현재 채널 2016-버전 1611 (빌드 7571.2072)  <br/> |예  <br/> |
+|간편 실행  <br/> |2 월 22 일에 릴리스된 지연 채널의 첫 번째 릴리스 2017-버전 1701 (빌드 7766.2060)  <br/> |예  <br/> |
+|간편 실행  <br/> |6 월 13 일에 릴리스된 지연 채널 2017-버전 1701 (빌드 7766.2092)  <br/> |예  <br/> |
 |MSI  <br/> |비즈니스용 Skype  <br/> |아니요  <br/> |
 |Ac  <br/> |비즈니스용 Skype  <br/> |아니요  <br/> |
    
@@ -83,14 +83,14 @@ BlockIncomingCallerID 특성을 사용 하면 들어오는 PSTN 호출에 대 �
   
 아웃 바운드 발신자 ID를 설정 하려면 [사용자의 발신자 Id 설정을](/microsoftteams/set-the-caller-id-for-a-user)참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
-[전화 번호 전송 일반적인 질문](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a>관련 주제
+[전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
 [조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[비상 통화 약관](/microsoftteams/emergency-calling-terms-and-conditions)
+[긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [비즈니스용 Skype Online: 비상 전화 부인 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

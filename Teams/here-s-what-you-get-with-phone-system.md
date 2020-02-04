@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: '비즈니스에 대 한 Microsoft 전화 시스템을 계획 하 고 설정 하는 방법, 사용 가능성, 기능에 대해 알아보세요. '
-ms.openlocfilehash: fc4d771037a9305fa5f39148ad465211e491ceb4
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: ad2feebec1a5c7745563308f0004f1839e358117
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41554355"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680495"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능
 
@@ -79,7 +80,7 @@ GCC High 및 DoD 클라우드에서는 다음 기능을 아직 사용할 수 없
 - 대기 중인 음악
 - Azure AD 역방향 번호 조회
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Office 365의 전화 시스템 소개](what-is-phone-system-in-office-365.md)
 - [Microsoft 팀의 클라우드 음성](cloud-voice-landing-page.md)

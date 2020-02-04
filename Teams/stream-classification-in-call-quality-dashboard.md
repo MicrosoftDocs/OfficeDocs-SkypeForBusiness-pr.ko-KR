@@ -1,5 +1,5 @@
 ---
-title: 통화 품질 대시보드의 스트림 분류
+title: 통화 품질 대시보드의 분류 간소화
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,18 +15,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: Microsoft 팀 및 비즈니스용 Skype Online 용 통화 품질 대시보드에서 스트림 품질이 분류 되는 방법에 대해 알아보세요.
-ms.openlocfilehash: a64a3169087c6a485cd129e2e2214e773ef0c33c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 49063ab0e957a0afee256fb0e5500d0f2b2a8ae6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569998"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680535"
 ---
-# <a name="stream-classification-in-call-quality-dashboard"></a>통화 품질 대시보드의 스트림 분류
+# <a name="stream-classification-in-call-quality-dashboard"></a>통화 품질 대시보드의 분류 간소화
 
 Microsoft 팀 및 비즈니스용 Skype Online에 대 한 CQD (통화 품질 대시보드)는 Microsoft 팀과 비즈니스용 Skype 서비스를 사용 하 여 만든 통화 품질에 대 한 통찰력을 얻을 수 있도록 합니다. 이 항목에서는 미디어 스트림의 품질 분류에 대 한 자세한 정보를 제공 합니다. CQD 및이를 사용 하는 방법에 대해 자세히 알아보려면 [통화 품질 대시보드 켜기 및 사용](turning-on-and-using-call-quality-dashboard.md)을 참조 하세요.
 
@@ -53,9 +54,9 @@ CQD의 스트림은 사용 가능한 주요 품질 메트릭의 값에 따라 _�
 
 |단계만 #|미터|조건 |조건이 True 인 경우의 분류 |If 조건이 거짓이 면 분류 |메트릭을 사용할 수 없는 경우의 분류 |볼 |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-|raid-1|비디오 로컬 프레임 손실 평균|> 50% |_저하_|_적합_|2 단계를 진행 합니다.|사용자에 게 표시 되는 것 처럼 손실 된 비디오 프레임의 평균 백분율입니다. 평균은 네트워크 손실에서 복구 된 프레임을 포함 합니다.|
+|1|비디오 로컬 프레임 손실 평균|> 50% |_저하_|_적합_|2 단계를 진행 합니다.|사용자에 게 표시 되는 것 처럼 손실 된 비디오 프레임의 평균 백분율입니다. 평균은 네트워크 손실에서 복구 된 프레임을 포함 합니다.|
 |2|비디오 프레임 속도 평균|< 7|_저하_|_적합_|3 단계로 진행|비디오 스트림에 대해 초당 받은 평균 프레임 수로, 세션 기간 동안 계산 됩니다.|
-|3-4|비디오 게시물 (FECPLR)|> 0.15|_저하_|_적합_|_않은_|FEC가 모든 비디오 스트림 및 코덱에 대해 집계 된 후의 패킷 손실 속도입니다.|
+|3|비디오 게시물 (FECPLR)|> 0.15|_저하_|_적합_|_않은_|FEC가 모든 비디오 스트림 및 코덱에 대해 집계 된 후의 패킷 손실 속도입니다.|
 |  |  |  |  |  |  |  |
 
 ### <a name="vbss-classifier"></a>VBSS 분류자
@@ -64,9 +65,9 @@ VBSS 스트림은 다음 순서 대로 첫 번째 사용 가능한 메트릭의 
 
 |단계만 # |미터 |조건 |조건이 True 인 경우의 분류 |If 조건이 거짓이 면 분류 |메트릭을 사용할 수 없는 경우의 분류 |볼 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|raid-1|비디오 로컬 프레임 손실 평균|> 50% |_저하_|_적합_|2 단계를 진행 합니다.|사용자에 게 표시 되는 것 처럼 손실 된 비디오 프레임의 평균 백분율입니다. 평균은 네트워크 손실에서 복구 된 프레임을 포함 합니다.|
+|1|비디오 로컬 프레임 손실 평균|> 50% |_저하_|_적합_|2 단계를 진행 합니다.|사용자에 게 표시 되는 것 처럼 손실 된 비디오 프레임의 평균 백분율입니다. 평균은 네트워크 손실에서 복구 된 프레임을 포함 합니다.|
 |2|비디오 프레임 속도 평균|< 2|_저하_|_적합_|3 단계로 진행|비디오 스트림에 대해 초당 받은 평균 프레임 수로, 세션 기간 동안 계산 됩니다.|
-|3-4|비디오 게시물 (FECPLR)|> 0.15|_저하_|_적합_|_않은_|FEC가 모든 비디오 스트림 및 코덱에 대해 집계 된 후의 패킷 손실 속도입니다.|
+|3|비디오 게시물 (FECPLR)|> 0.15|_저하_|_적합_|_않은_|FEC가 모든 비디오 스트림 및 코덱에 대해 집계 된 후의 패킷 손실 속도입니다.|
 | |  | | | |  ||
 
 ### <a name="application-sharing-classifier"></a>응용 프로그램 공유 분류자
@@ -108,6 +109,6 @@ _분류_ 되지 않은 스트림에 대해 ICE 연결에 성공 하면 키 스�
 
 [CQD (통화 품질 대시보드) 설정 및 사용](turning-on-and-using-call-quality-dashboard.md)
 
-[통화 품질 대시보드에서 사용할 수 있는 크기 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[통화 분석을 사용 하 여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)

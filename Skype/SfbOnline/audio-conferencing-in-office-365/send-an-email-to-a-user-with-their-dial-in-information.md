@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 비즈니스용 Skype Online의 오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일을 보냅니다.
-ms.openlocfilehash: 08e1f67f042d9497854f6d96643ff41e9bf528ed
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 78ce937bd9aa3bcdab8c860ce261c419af7cc768
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962576"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680405"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일 보내기
 
@@ -121,6 +122,6 @@ ms.locfileid: "40962576"
     > [!NOTE]
     > 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 사용 하면 비즈니스용 Skype Online에 연결 하는 원격 Windows PowerShell 세션을 만들 수 있습니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688) 의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

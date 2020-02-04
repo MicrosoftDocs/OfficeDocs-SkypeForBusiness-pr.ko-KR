@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 기존 Survivable Branch 기기 또는 Survivable Branch 서버에 대 한 설정을 편집 하려면 다음 섹션이 표시 됩니다.
-ms.openlocfilehash: 9a3f88dff701c240d56ee7c095cb289a1ae8a834
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fcef74d0104ef758b9ca32819fd74adee303a3a1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197198"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684881"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Branch Office Appliance 일반 설정 확장기
 

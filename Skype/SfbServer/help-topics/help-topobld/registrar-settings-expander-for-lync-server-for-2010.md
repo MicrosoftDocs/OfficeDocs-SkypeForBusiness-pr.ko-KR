@@ -1,5 +1,5 @@
 ---
-title: 2010 용 Lync Server 용 등록자 설정 확장기
+title: Lync Server 2010용 등록자 설정 확장기
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,20 +7,20 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.RegistrarSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 복원에 대 한 설정을 편집 하 고 다음 속성을 구성 합니다.
-ms.openlocfilehash: 5ed1311e73ea035b7672ba75bab337c9212e8816
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 31a8504aecbc14ae2c81ad27a3aaeedbe9e40b66
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189438"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684421"
 ---
-# <a name="registrar-settings-expander-for-lync-server-for-2010"></a>2010 용 Lync Server 용 등록자 설정 확장기
+# <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Lync Server 2010용 등록자 설정 확장기
  
 **복원** 에 대 한 설정을 편집 하 고 다음 속성을 구성 합니다.
   

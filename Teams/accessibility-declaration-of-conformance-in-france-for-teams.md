@@ -13,17 +13,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: "Microsoft 팀 est l'outil collaboratif d'Office 365? intègre toutes personnes, 추가 \\ t e et outils는 votre équipe + besoin et être이 impliquée. "
-ms.openlocfilehash: e137e6cd292ff288a9806d0bc952b0cc00f85d42
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: e6bb0bd6e8a066d88070136611f523111b837227
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516856"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684181"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
 
@@ -194,9 +195,9 @@ Cette 섹션 ne s'applique pas à Microsoft 팀.
 Cette 섹션 ne s'applique pas à Microsoft 팀.
 
 
-© 2019 Microsoft Corporation. Tous droits. Sociétés et des, mentionnés dans le présent 문서 peuvent être les marques de leurs propriétaires respectifs. Informations  i figurent dans le présent 문서 구성 l'opinion actuelle Microsoft Corporation sur les thèmes concernés à la 날짜 de 게시. Microsoft ne peut garantir l'exactitude d'une information présentée après la 날짜 제거 게시. Microsoft에 régulièrement à jour ses 사이트 인터넷 et publie nouvelles informations sur l'accessibilité de ses dès  fprosont disponibles.
+© 2019 Microsoft Corporation. Tous droits. Sociétés et des, mentionnés dans le présent 문서 peuvent être les marques de leurs propriétaires respectifs. Informations <c13> i figurent dans le présent 문서 구성 l'opinion actuelle Microsoft Corporation sur les thèmes concernés à la 날짜 de 게시. Microsoft ne peut garantir l'exactitude d'une information présentée après la 날짜 제거 게시. Microsoft에 régulièrement à jour ses 사이트 인터넷 et publie nouvelles informations sur l'accessibilité de ses dès <c13> fprosont disponibles.
 
-La personnalisation du produit la présente déclaration de conformité Microsoft를 제거 합니다. Les 클라이언트의 la possibilité de faire des déclarations de conformité indépendantes 'ils의 contrôlé avec toute la 기울여야 raisonnable nécessaire que les mesures de personnalisation  'ils의 nameses remplissent toutes exigences.
+La personnalisation du produit la présente déclaration de conformité Microsoft를 제거 합니다. Les 클라이언트의 la possibilité de faire des déclarations de conformité indépendantes 'ils의 contrôlé avec toute la 기울여야 raisonnable nécessaire que les mesures de personnalisation <c13> 'ils의 nameses remplissent toutes exigences.
 
 En savoir plus sur les spécifications de compatibilité de protechnologie, d'assistance spécifiques consultez de 기술 vos을 콘크리트 합니다. 
 
@@ -204,6 +205,6 @@ Le présent 문서 n'est pas la utilisé me EN 301 549 v 2.1.2 (2018-08) et ne d
 
 Le présent 문서 est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OU TACITE, DANS LE PRÉSENT 문서.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[프랑스의 비즈니스용 Skype Online에 대 한 접근성 솔루션](/microsoftteams/accessibility-solutions-in-france)
+[프랑스의 비즈니스용 Skype Online에 대한 접근성 솔루션](/microsoftteams/accessibility-solutions-in-france)

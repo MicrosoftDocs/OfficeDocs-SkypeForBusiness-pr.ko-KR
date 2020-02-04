@@ -1,5 +1,5 @@
 ---
-title: 받을 수 있는 전화 번호 수는 몇 개입니까?
+title: 몇 개의 전화 번호를 받을 수 있나요?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,18 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
+f1.keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 ms.custom:
 - Calling Plans
 description: 조직의 전화 번호를 찾고 가져올 때 라이선스를 할당 한 것 보다 더 많은 전화 번호를 받을 수 있습니다. 그러나이는 구입 하 여 할당 한 전화 번호의 종류와 라이선스 종류에 따라 다릅니다. 통화 요금제에 사용 되는 다른 종류의 전화 번호를 클릭 하 여 Microsoft 팀에 사용 되는 다양 한 전화 번호를 확인할 수 있습니다.
-ms.openlocfilehash: 58767883e25027909b69b9c5a78b7890ee7b3882
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2ffb2d0ee80dffa52ff092d20348455458d8beca
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572083"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680505"
 ---
-# <a name="how-many-phone-numbers-can-you-get"></a>받을 수 있는 전화 번호 수는 몇 개입니까?
+# <a name="how-many-phone-numbers-can-you-get"></a>몇 개의 전화 번호를 받을 수 있나요?
 
 조직의 전화 번호를 찾고 가져올 때 라이선스를 할당 한 것 보다 더 많은 전화 번호를 받을 수 있습니다. 그러나이는 구입 하 여 할당 한 전화 번호의 종류와 라이선스 종류에 따라 다릅니다. [통화 요금제에 사용 되는 다른 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md) 를 클릭 하 여 Microsoft 팀에 사용 되는 다양 한 전화 번호를 확인할 수 있습니다.
   
@@ -48,14 +48,14 @@ Microsoft 팀 관리 센터의 **전화 번호 가져오기** 페이지에서 �
 > [!NOTE]
 > 이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
-[전화 번호 전송 일반적인 질문](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a>관련 주제
+[전화 번호 전송 자주 묻는 질문](transferring-phone-numbers-common-questions.md)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[비상 통화 약관](emergency-calling-terms-and-conditions.md)
+[긴급 통화 사용 약관](emergency-calling-terms-and-conditions.md)
 
 [비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

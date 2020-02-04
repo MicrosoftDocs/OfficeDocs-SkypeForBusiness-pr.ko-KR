@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 description: 새 영구 채팅 풀 정의 마법사를 사용 하 여 새 영구 채팅 서버 또는 영구 채팅 서버 풀을 만듭니다. 다중 컴퓨터 풀 또는 단일 컴퓨터 풀 중 하나를 선택합니다. 단일 컴퓨터 풀을 선택했는데 나중에 다중 컴퓨터 풀이 필요한 경우 단일 컴퓨터 풀을 제거하고 다중 컴퓨터 풀을 정의해야 합니다.
-ms.openlocfilehash: 247645e5cc87d23db25784d31c2727d56fab2681
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0a30073d4b4df28eadaa206778adeb59651b1a48
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197654"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684831"
 ---
 # <a name="define-persistent-chat-fqdn"></a>영구 채팅 FQDN 정의
  

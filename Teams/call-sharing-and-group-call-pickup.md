@@ -15,18 +15,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.users.voice.groupcallpickup.tooltip
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
 ms.custom:
 - Phone System
 description: 통화 공유 및 그룹 통화 픽업 사용자는 사용자를 사용할 수 없는 경우 전화를 통해 들어오는 전화를 동료와 공유할 수 있습니다.
-ms.openlocfilehash: 0f61039fc2027da83472f042c723a43d249da080
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a39ed0a606b38a159473fbab9c35d21ae461c34b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517021"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684121"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft 팀에서 공유 및 그룹 통화 걸기
 

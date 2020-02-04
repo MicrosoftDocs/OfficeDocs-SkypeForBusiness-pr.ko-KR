@@ -16,18 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
-- O365P_DialInConfDesc
+f1.keywords:
+- CSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
+- O365P_DialInConfDesc
 description: '휴대폰을 사용 하 여 전화 회의에 참가 해야 하는 사용자에 대해 전화 접속 또는 오디오 회의를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 499a8a8ef05d23c74b030536d33b7a02cd6d9a1a
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: ea254da1f742db602d396868aad36a0c20951128
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37924979"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680365"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>비즈니스용 Skype에 대 한 오디오 회의 설정
 
@@ -77,7 +78,7 @@ ms.locfileid: "37924979"
 ![비즈니스용 skype](../images/sfb-logo-30x30.png) **관리 센터를 사용 하 여** 비즈니스용 skype 로고를 표시 하는 아이콘:
 
  1. **Microsoft 365 관리 센터** > **관리** > 센터**팀** > **레거시 포털로**이동 합니다.
- 2. **음성** > **전화 번호**를 선택 합니다.
+ 2. **Voice** > **전화번호**를 선택합니다.
  3. 전화 번호를 선택 하 고 **할당**을 클릭 합니다.
 
 자세한 내용은 [오디오 회의 브리지에서 전화 번호 변경을](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)참조 하세요.
@@ -141,7 +142,7 @@ ms.locfileid: "37924979"
  
 사용자에 대해 설정 된 전화 접속 번호가 모임 참석자에 게 전송 되는 모임 초대에 자동으로 추가 됩니다. 그러나 원하는 경우 자신만의 도움말 및 법률 링크, 문자 메시지, 작은 회사 그래픽을 추가할 수 있습니다. [모임 초대 사용자 지정](../set-up-skype-for-business-online/customize-meeting-invitations.md)을 참조 하세요.
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [오디오 회의 일반적인 질문](/MicrosoftTeams/audio-conferencing-common-questions)
   

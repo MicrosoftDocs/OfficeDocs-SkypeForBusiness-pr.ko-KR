@@ -7,19 +7,19 @@ manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.Director
 - ms.lync.plan.Director
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: 디렉터는 사용자 요청을 인증할 수 있는 비즈니스용 Skype 서버 2015 통신 소프트웨어를 실행 하는 서버 이며, 어떠한 사용자 계정도 홈이 아닙니다.
-ms.openlocfilehash: a551e2568b814f1811ebc84a8d187c8554cc1542
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 48b691262dc638faf6f0aa9910a5adac3c1f0e46
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186738"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684251"
 ---
 # <a name="director-planning-tool"></a>이사 (계획 도구)
  

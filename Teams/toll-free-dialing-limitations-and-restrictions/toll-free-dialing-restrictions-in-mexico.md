@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 사용 하는 방법을 쉽게 찾을 수 있습니다. 국가/지역을 선택 하면 무료 서비스를 사용할 수 있는 무료 서비스 사용에 대 한 특정 세부 정보, 제한 사항, 제한 사항이 포함 된 국가 관련 페이지로 이동 합니다. 전화 걸기 형식 또는 형식에는 각 국가/지역 내에서 필요한 액세스 코드를 표시 하 여 무료 전화를 받을 수 있습니다.
-ms.openlocfilehash: 203ee00cbe2c12f8b133b070ce3bc62944d9600c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f218dbd5c1c5593530efe266b85c8337960971e2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569874"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41682395"
 ---
 # <a name="toll-free-dialing-restrictions-in-mexico"></a>멕시코의 무료 전화 걸기 제한
 
@@ -36,7 +37,7 @@ ms.locfileid: "37569874"
 
 |**세부적인**|**설명**|
 |:-----|:-----|
-|무료 전화를 받을 수 있나요?  <br/> |'  <br/> |
+|무료 전화를 받을 수 있나요?  <br/> |예  <br/> |
 |전화 걸기 형식  <br/> | 001 800 XXX XXXX <br/>  01 800 XXX XXXX <br/> |
 |국가/지역 ISO 코드  <br/> |멕시코  <br/> |
 |섬/지역 포함  <br/> |해당 없음  <br/> |
@@ -45,11 +46,11 @@ ms.locfileid: "37569874"
 |모바일 네트워크 가용성  <br/> |Partial. 메모를 참조 하세요.  <br/> |
 |메모, 제한 사항 및 액세스 문제  <br/> |국가별 roamers 액세스가 보장 되지 않습니다.  <br/> 001-800 숫자 형식: 고정 액세스-통신의 경우. 휴대 전화 액세스의 경우-Telcel 전용. 방송 시간이 부과 됩니다. 지역 및 시외 전화 공급자로 서의 통신을 사용 하는 경우 최종 고객이 추가 요금이 부과 되지 않습니다.  <br/> 01-800 숫자 형식에 대 한 자세한 내용: 휴대 전화 접속 시간이 부과 됩니다.  <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[무료 전화 걸기 제한 및 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
+[무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 
-[비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 
   
  

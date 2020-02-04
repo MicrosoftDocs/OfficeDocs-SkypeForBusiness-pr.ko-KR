@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: MMS (모임 마이그레이션 서비스)는 백그라운드에서 실행 되며 사용자를 위해 비즈니스용 Skype 및 Microsoft 팀 모임을 자동으로 업데이트 하는 서비스입니다. MMS는 사용자가 모임 마이그레이션 도구를 실행 하 여 비즈니스용 Skype 및 Microsoft 팀 모임을 업데이트 하지 않아도 되도록 설계 되었습니다.
-ms.openlocfilehash: 187e1e7dbedc57249c2e2cc3c60ea4c365f470c1
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 805bc7703024d4c6143ee909e715fa36deaa8e3c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962546"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680355"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>MMS (모임 마이그레이션 서비스) 사용
 
@@ -208,7 +209,7 @@ Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

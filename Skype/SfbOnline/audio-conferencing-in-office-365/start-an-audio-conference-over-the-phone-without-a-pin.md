@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '비즈니스용 Skype 관리 센터에서 또는 PowerShell 스크립트를 사용 하 여 익명 호출자가 모임에 참가 하는 것을 허용 하거나 사용 하지 않도록 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: cfc15835906fbc400830783777027ed7ca1f4e59
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: e2cb4fc543f92bd4dc5c2a16a1fb7e10f65e0660
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962496"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680345"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 PIN 없이 전화를 통해 음성 회의 시작
 
@@ -98,6 +99,6 @@ ms.locfileid: "40962496"
     > [!NOTE]
     > 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 사용 하면 비즈니스용 Skype Online에 연결 하는 원격 Windows PowerShell 세션을 만들 수 있습니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688) 의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

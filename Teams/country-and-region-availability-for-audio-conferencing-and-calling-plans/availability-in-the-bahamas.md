@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 여기에는 비즈니스용 Skype 용 Office 365 서비스와 바하마에서 사용할 수 있는 Microsoft 팀이 나와 있습니다.
-ms.openlocfilehash: e0e1db8b41d66094962ab4e1e48bfe456d381296
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: f7737dc9409f44629b45ae1a181846f85972ed0d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741644"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683521"
 ---
 # <a name="availability-in-the-bahamas"></a>바하마의 사용 가능 여부
 
@@ -79,8 +80,8 @@ ms.locfileid: "40741644"
    
 설정 하려는 경우 [조직의 통신 크레딧 설정을](../set-up-communications-credits-for-your-organization.md)참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 
-[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

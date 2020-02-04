@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 및 독일에서 사용할 수 있는 Microsoft 팀을 위한 Office 365 서비스입니다.
-ms.openlocfilehash: a10fc7e69f63842aa67ee208b1f27528debb956d
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: fedbd51600ae2d21d2221446eeeb6267b2406676
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37569885"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683911"
 ---
 # <a name="availability-in-germany"></a>독일의 가용성
 
@@ -81,11 +82,11 @@ ms.locfileid: "37569885"
    
 설정 하려는 경우 [조직의 통신 크레딧 설정을](../set-up-communications-credits-for-your-organization.md)참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 
-[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 
 

@@ -17,15 +17,15 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.audioconferencing.overview
+f1.keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 5b7cb2e92a3246b7a3f5098e91c3ab84ad19bbf0
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: dcfa7b1aeafea515720d778ac6a6c6b3fd9f5aec
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925599"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684161"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365의 오디오 회의
 Office 365의 오디오 회의를 통해 사용자는 휴대폰에서 모임에 전화를 걸 수 있습니다. 오디오 회의는 최대 250 전화 참석자를 허용 합니다.
@@ -40,7 +40,7 @@ Office 365의 오디오 회의를 통해 사용자는 휴대폰에서 모임에 
 - 다른 사용자가 Bluetooth 장치를 사용 하 여 모임에 참가할 수 있습니다.
 - 사람들이 더 쉽고 편리 하 게 해당 상황을 확인할 수 있습니다.
 
-일정을 예약 하거나 리드 회의를 하는 사용자를 위해 오디오 회의를 설정 하기만 하면 됩니다. 전화를 걸 수 있는 모임 참석자는 해당 사용자 또는 다른 설정에 할당 된 라이선스가 필요 하지 않습니다.
+모임 일정을 계획하거나 주도하는 사용자들을 위해 오디오 회의를 설정하기만 하면 됩니다. 전화를 걸 수 있는 모임 참석자는 해당 사용자 또는 다른 설정에 할당 된 라이선스가 필요 하지 않습니다.
 
 참석자가 모임에 참가 한 후에는 전화를 걸고 다른 발신자를 비즈니스용 Skype 또는 Microsoft 팀 모임에 초대할 수도 있습니다. 다른 사용자가 [참여 하도록 비즈니스용 Skype 모임에서](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)전화를 걸고 전화를 걸 수 [있도록 팀 모임에서 다이얼 아웃](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) 을 참조 하세요.
 

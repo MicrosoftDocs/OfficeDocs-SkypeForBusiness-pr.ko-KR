@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 오디오 회의 라이선스를 구입 하는 경우 Microsoft는 조직에 대 한 오디오 회의 브리지를 호스팅 하 고 있습니다. 오디오 회의 브리지는 다른 위치에서 전화 접속 전화 번호를 제공 하므로 모임 이끌이 및 참가자가 휴대폰을 사용 하 여 비즈니스용 Skype 또는 Microsoft 팀 모임에 참가 하는 데 사용할 수 있습니다.
-ms.openlocfilehash: a37f1d90fc0c960d1e3c1f7ddf4424b3aaec6f98
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7476f7831ce830c8719940ae555dcd461e19ab2c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992875"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684111"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>오디오 회의 브리지에서 전화 번호 변경
 
@@ -253,5 +254,5 @@ Windows PowerShell에는 한 번에 여러 사용자의 설정을 변경 하는 
 
   - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [오디오 회의 브리지의 설정 변경](change-the-settings-for-an-audio-conferencing-bridge.md)

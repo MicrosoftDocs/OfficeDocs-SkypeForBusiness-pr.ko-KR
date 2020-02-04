@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '발신자가 비즈니스용 Skype Online 모임에 참가 하는 데 사용할 기본 전화 번호를 만드는 단계를 확인 하세요. '
-ms.openlocfilehash: 33c2f69cbd05efedf5af1bb35c7ea5d560930da4
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: c6a8c9c3b3d21a64ad54d84ed8bfab22044f9cf5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962516"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680375"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>비즈니스용 Skype Online의 초대에 포함 된 전화 번호 설정
 
@@ -145,6 +146,6 @@ Office 365의 오디오 회의를 통해 조직의 사용자가 비즈니스용 
     
   - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

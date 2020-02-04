@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '요약: 비즈니스용 Skype 서버 2015에 대 한 비 서버 요구 사항을 구성 합니다. 배포를 수행 하기 전에 Active Directory, DNS, 인증서, Fileshares 등의 다양 한 기능을 구성할 수 있습니다.'
-ms.openlocfilehash: 59f7bed17c217eda46314d2a133c0d5671682824
-ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
+ms.openlocfilehash: 60244391a04b1bab31464bd0ef0b804510e40955
+ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393429"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678962"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에 대한 환경 요구 사항
  
@@ -250,10 +250,13 @@ Single sign-on 인증은 사용자 포리스트에 있는 Active Directory Feder
   
 > [!NOTE]
 > RSASSA 서명 알고리즘을 사용 하는 것은 지원 되지 않으며,이 경우 로그인 및 착신 전환 문제에 대 한 오류가 발생할 수 있습니다 (다른 여러 가지 문제). 
+
+> [!NOTE]
+> 비즈니스용 Skype 서버 2015는 CNG 인증서를 지원 하지 않습니다.
   
 - 1024, 2048, 4096의 암호화 키 길이가 지원 됩니다. 2048 이상의 키 길이를 권장 합니다.
     
-- 기본 다이제스트 또는 해시 서명 알고리즘은 RSA입니다. ECDH_P256, ECDH_P384 및 ECDH_P521 알고리즘도 지원 됩니다.
+- 기본 다이제스트 또는 해시 서명 알고리즘은 RSA입니다. 또한 ECDH_P256, ECDH_P384 및 ECDH_P521 알고리즘이 지원 됩니다.
     
 이는 매우 신중 하 게 생각 하는 것이 고, 매우 다양 한 편안 함에 CA의 인증서 요청을 하는 것입니다. 다음의 몇 가지 추가 지침을 사용 하 여 계획을 최대한 쉽게 파악할 수 있습니다.
   
@@ -362,7 +365,7 @@ Survivable Branch 기기에 대 한 인증서:
 
 비즈니스용 Skype 서버 2015는 모든 파일 저장소에 동일한 파일 공유를 사용할 수 있습니다. 다음 사항을 염두에 두어야 합니다.
   
-- 파일 공유는 DAS (직접 연결 저장소) 또는 SAN (저장소 영역 네트워크)에 있어야 하며, 여기에는 DFS (분산 파일 시스템)와 파일 저장소에 대 한 독립 디스크 (RAID)의 중복 배열이 포함 됩니다. Windows Server 2012의 DFS에서 더 읽기 위해서는 [이 DFS 페이지](https://technet.microsoft.com/en-us/library/jj127250.aspx)를 확인 하세요.
+- 파일 공유는 DAS (직접 연결 저장소) 또는 SAN (저장소 영역 네트워크)에 있어야 하며, 여기에는 DFS (분산 파일 시스템)와 파일 저장소에 대 한 독립 디스크 (RAID)의 중복 배열이 포함 됩니다. Windows Server 2012의 DFS에서 더 읽기 위해서는 [이 DFS 페이지](https://technet.microsoft.com/library/jj127250.aspx)를 확인 하세요.
     
 - 파일 공유에 대 한 공유 클러스터를 권장 합니다. 계정을 사용 하 고 있는 경우에는 Windows Server 2012 또는 Windows Server 2012 R2를 클러스터 해야 합니다. Windows Server 2008 R2도 허용 가능 합니다. 최신 Windows의 이유 이전 버전에는 모든 기능을 사용 하도록 설정 하는 적절 한 권한이 없을 수 있습니다. 클러스터 관리자를 사용 하 여 파일 공유를 만들 수 있으며,이에 대 한 자세한 내용은 [클러스터 문서에서 파일 공유를 만드는 방법을](https://support.microsoft.com/en-us/help/224967/how-to-create-file-shares-on-a-cluster) 참조 하세요.
     

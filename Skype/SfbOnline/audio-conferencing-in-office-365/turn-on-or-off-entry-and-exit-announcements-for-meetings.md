@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '비즈니스용 Skype 관리 센터를 사용 하 여 비즈니스용 Skype Online 모임에서 입력 및 종료 알림을 설정 또는 해제 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 62b3437b75e36b57bebd167f6d2e155deb31a41b
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 6c0e54b149dc4b26e590e471876f33c49d8f07f3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642573"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680215"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 모임에 대 한 시작 및 종료 알림 설정 또는 해제
 
@@ -73,6 +74,6 @@ Office 365에서 오디오 회의를 설정 하는 경우 음성 회의 브리�
     > [!NOTE]
     > 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 사용 하면 비즈니스용 Skype Online에 연결 하는 원격 Windows PowerShell 세션을 만들 수 있습니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688) 의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [오디오 회의 일반적인 질문](/MicrosoftTeams/audio-conferencing-common-questions)

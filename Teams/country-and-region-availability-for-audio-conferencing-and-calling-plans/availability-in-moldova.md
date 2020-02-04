@@ -18,17 +18,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: f59b511498f43e459f9d5d9b920b852f8af4d5e9
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 3ce67a13a2da66ebf582eb0aa9b928983910b173
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952431"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683701"
 ---
 # <a name="availability-in-moldova"></a>몰도바에서의 가용성
 
@@ -79,11 +80,11 @@ ms.locfileid: "40952431"
    
 설정 하려는 경우 [조직의 통신 크레딧 설정을](../set-up-communications-credits-for-your-organization.md)참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 
-[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
  

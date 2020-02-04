@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FeMediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 description: 중재 서버에 대해 다음을 지정할 수 있습니다.
-ms.openlocfilehash: fcff87faeb5911d12806f80499c2b2f0d63caff3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a6e0321ddde79a088610e9e2b1c79739c68b2b90
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190131"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684511"
 ---
 # <a name="mediation-service-settings-expander"></a>중재 서비스 설정 확장기
 

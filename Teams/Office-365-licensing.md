@@ -15,16 +15,16 @@ ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf2671a1a637141abfc25033173ba4853cede605
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 29ad7a18c5b666a3dcd8c29c34c08e2a7c8b75b2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569833"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41681425"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft 팀 용 Office 365 라이선스
 ========================================
@@ -35,7 +35,7 @@ ms.locfileid: "37569833"
 
 |중소 기업 계획  |엔터프라이즈 계획  |교육 계획  |개발자 계획 |
 |---------|---------|---------|---------|
-|Office 365 비즈니스 주요 기능     |Office 365 Enterprise E1  |Office 365 교육 |Office 365 개발자     |
+|Office 365 Business Essentials     |Office 365 Enterprise E1  |Office 365 교육 |Office 365 개발자     |
 |Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 교육 플러스         |      |
 |비즈니스용 Microsoft 365     |Office 365 Enterprise E4 (사용 중지)         |Office 365 교육 E3 (사용 중지)         |  |
 |     |Office 365 Enterprise E5         |Office 365 교육 E5  | 

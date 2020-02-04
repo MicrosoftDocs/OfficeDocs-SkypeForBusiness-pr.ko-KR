@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 description: 조직의 사용자에 대 한 긴급 위치를 할당 하거나 변경 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4179992476faa800684e29343227e03b563d7575
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 5fc4f9ceeb8fc602ae28831ba48fcf37191608b9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37639310"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684171"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>사용자에 대 한 긴급 위치 지정 또는 변경
 
@@ -40,11 +41,11 @@ Office 365에서 전화 요금제를 가져오는 방법과 비용을 확인 하
 
 4. **저장**을 클릭 합니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-- [긴급 위치, 장소 및 통화 라우팅 이란?](what-are-emergency-locations-addresses-and-call-routing.md)
-- [조직의 긴급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)
-- [조직의 긴급 위치 추가, 변경 또는 제거](add-change-remove-emergency-place-organization.md)
-- [사용자의 긴급 위치 지정 또는 변경](assign-change-emergency-location-user.md)
+- [응급 위치, 장소 및 통화 라우팅이란?](what-are-emergency-locations-addresses-and-call-routing.md)
+- [조직의 응급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)
+- [조직의 응급 위치에 대한 장소 추가, 변경 또는 제거](add-change-remove-emergency-place-organization.md)
+- [사용자의 응급 위치 할당 또는 변경](assign-change-emergency-location-user.md)
 - [조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [비상 통화 약관](/microsoftteams/emergency-calling-terms-and-conditions)
+- [긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions)

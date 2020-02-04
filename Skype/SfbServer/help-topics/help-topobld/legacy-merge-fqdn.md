@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.LegacyMergeFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: 액세스에 지 풀 내부 FQDN은 내부 사용자가 페더레이션, 원격 사용자 액세스, 공용 IM 연결에 대 한 외부 사용자와 통신 하는 다양 한 시나리오에 사용 됩니다. 레거시 환경에서 로드 균형 조정 된 Edge 서버를 배포한 경우 내부 부하 분산 장치의 정규화 된 도메인 이름 (FQDN)을 입력 합니다.
-ms.openlocfilehash: ca7026ea00262483ec4ea239e18b812ac4dbffd3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f77d5b962ccfa36b9a819accc42258da1c639cc6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189843"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684621"
 ---
 # <a name="legacy-merge-fqdn"></a>레거시 병합 FQDN
  

@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 비즈니스용 Skype Online에서 오디오 회의 번호에 대 한 오디오 회의 자동 전화 교환 언어를 선택 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 753efca2117363774865817d3095d8b981b4342c
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 22c3ad1d2386dec07060548cd055a5d289db4364
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "37642385"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680385"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의를 위한 자동 전화 교환 언어 설정
 
@@ -71,6 +72,6 @@ ms.locfileid: "37642385"
   
 자세히 알아보려면 [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업](https://go.microsoft.com/fwlink/?LinkId=525038) 을 참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

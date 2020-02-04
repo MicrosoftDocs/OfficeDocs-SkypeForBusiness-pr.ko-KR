@@ -17,19 +17,20 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 - LIL_Placement
 description: 국가/지역을 선택 하 여 오디오 회의, 전화 시스템, 통화 요금제, 통신 크레딧을 사용 하는지 여부, 무료 전화 번호 및 무료 통화 전화번호를 확인할 수 있습니다.
-ms.openlocfilehash: 4d7e1f2f4481baf51c6c3f619f47dc9440d957da
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: cc1acc2e112477c441b9bfb492dff49183e5dc3d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952441"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41682525"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 
@@ -217,8 +218,8 @@ Office 365의 개별 사용자에 대 한 전화 번호를 가져올 수 있을 
 통신 크레딧을 설정 하지 않고 사용자에 게 라이선스를 할당 하지 않고 조직에 대해 몇 분이 소요 되는 경우 (예를 들어, 귀하의 통화 요금제 또는 오디오 회의 요금제 또는 국가/지역에 따라), 모임에서 통화 하거나 전화를 걸지 못할 수 있습니다. [통신 크레딧을](../what-are-communications-credits.md) 참조 하 여 권장 자금 금액을 비롯 한 자세한 정보를 확인할 수 있습니다.
 
 
-## <a name="related-topics"></a>관련 항목
-[비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
+## <a name="related-topics"></a>관련 주제
+[비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 
   
  

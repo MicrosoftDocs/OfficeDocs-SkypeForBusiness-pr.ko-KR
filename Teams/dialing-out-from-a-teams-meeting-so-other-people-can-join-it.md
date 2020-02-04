@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 필요한 내용과 모임 이끌이가 팀을 사용 하 여 다른 사용자에 게 전화를 거는 방법을 알아봅니다.
-ms.openlocfilehash: aab3db4057d82237b1e5bf7de8e0157b5833951a
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 5a4a3c0d90bbf07e336dd9ec32c61f99192389a5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37571783"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680475"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>다른 사용자가 참여할 수 있도록 Microsoft 팀 모임에서 전화 걸기
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.BranchOfficeAppliancesScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 description: Survivable Branch 기기 노드는이 지점 사이트의 Survivable Branch 기기를 나열 합니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 7c11020092cec8afb612b8628cdeda8526a9070a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a08e037c1669150bc23e03e53d42bd80560e0b72
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197196"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684871"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Branch Office Appliance 범위 노드
  

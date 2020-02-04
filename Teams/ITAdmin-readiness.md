@@ -11,17 +11,17 @@ audience: admin
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
 description: Microsoft 팀을 계획, 배포 및 실행 하는 방법을 설명 하는 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12aaad9697d07a8c5f0aed970678aba5306504b1
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: c2283cf449c1e66e424e6360b14b3d2d763b1aab
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573614"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41681445"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 팀의 관리 교육
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PstnGatewaySettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 description: 공중 전화망(PSTN) 게이트웨이의 설정을 편집하거나 수정하려면 다음 필드를 수정합니다.
-ms.openlocfilehash: d84cede93166a94b353134991143089702a0d2fd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b083fa22d84cdd6adf8a9636a522c5c34a732ee3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191616"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684461"
 ---
 # <a name="pstn-gateway-settings-expander"></a>PSTN 게이트웨이 설정 확장기
  

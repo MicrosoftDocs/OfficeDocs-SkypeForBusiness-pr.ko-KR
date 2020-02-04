@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 description: 토폴로지 작성기 계층 트리에서 공유 구성 요소를 마우스 오른쪽 단추로 클릭 하 여 새 공유 구성 요소를 만들거나 토폴로지 수준 옵션에 액세스 합니다.
-ms.openlocfilehash: 019609145621a882da632aa945623ca49822cf33
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4a1a00265f4c5c53df2a1d045a1ac31eaef2d48d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191928"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684391"
 ---
 # <a name="shared-components-scope-node"></a>공유 구성 요소 범위 노드
  
@@ -26,7 +26,7 @@ ms.locfileid: "36191928"
   
 ![공유 구성 요소 범위 노드](../../media/Shared_Components_Scope_Node.jpg)
   
-새로 **** 만들기를 선택 하 여 새 저장소 또는 새 IP/PSTN 게이트웨이, 새 Office Web Apps 서버, 새 SQL Server 스토어 또는 새 트렁크를 만듭니다.
+새로 **만들기를 선택 하** 여 새 저장소 또는 새 IP/PSTN 게이트웨이, 새 Office Web Apps 서버, 새 SQL Server 스토어 또는 새 트렁크를 만듭니다.
   
 > [!NOTE]
 > 이러한 각 옵션에 대 한 도움말 항목을 참조 하세요. 

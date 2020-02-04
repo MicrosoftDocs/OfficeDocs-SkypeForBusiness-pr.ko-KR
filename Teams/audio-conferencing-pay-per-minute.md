@@ -1,5 +1,5 @@
 ---
-title: 분 당 오디오 회의 요금 지급
+title: 오디오 회의 분당 요금
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,18 +17,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: Microsoft 볼륨 라이선스를 사용 하는 조직에서는 사용자 단위 표준 오디오 회의 외에도 분당 유료 서비스를 선택 하 여 해당 조직에 대 한 오디오 회의 기능을 사용할 수 있습니다.
-ms.openlocfilehash: 0f31d5b79c8b298dbd13c516856446ee2ead977a
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7f0f0775ea6d3beef7dcd590f04c40845448a71b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515895"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684141"
 ---
-# <a name="audio-conferencing-pay-per-minute"></a>분 당 오디오 회의 요금 지급
+# <a name="audio-conferencing-pay-per-minute"></a>오디오 회의 분당 요금
 
 볼륨 및 라이선스 조직은 표준 오디오 회의 사용자별 라이선스 외에도 분당 유료 서비스를 선택 하 여 해당 조직에 대 한 오디오 회의 기능을 사용할 수 있습니다.
   
@@ -41,7 +42,7 @@ ms.locfileid: "37515895"
   
 ## <a name="need-some-details"></a>몇 가지 세부 사항이 필요 한가요?
 
-사용자 당 오디오 회의 라이선스 제공에는 전화 접속 사용과 일부 전화 접속 사용이 포함 되며, 분 당 오디오 회의 결제는 **사용자 단위에 대 한 지불 없이 분 단위로 모든 오디오 회의 사용에 대해 요금을 지불할 수 있습니다. 라이선스**. 이렇게 하면 모든 전화 접속 및 전화 접속 통화는 다음을 포함 하 여 분 단위로 청구 됩니다.
+사용자 당 오디오 회의 라이선스 제공에는 전화 접속 사용과 일부 전화 접속 사용이 포함 되며, 분 당 오디오 회의 결제는 **사용자 단위 월간 라이선스에 대 한 지불 없이 분 단위로 모든 오디오 회의 사용량을 지불할 수**있습니다. 이렇게 하면 모든 전화 접속 및 전화 접속 통화는 다음을 포함 하 여 분 단위로 청구 됩니다.
   
 - 조직의 유료 오디오 회의 번호로 들어오는 인바운드 통화.
     
@@ -80,7 +81,7 @@ ms.locfileid: "37515895"
     
 - [통화 요금제 가격](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
   
 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

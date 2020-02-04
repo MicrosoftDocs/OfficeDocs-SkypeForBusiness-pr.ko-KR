@@ -1,5 +1,5 @@
 ---
-title: 오디오 회의 지원 언어
+title: 오디오 회의 지원되는 언어
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,18 +17,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 각 국가 또는 지역에 대 한 전화 접속 회의 언어와 지정 된 문화권 ID (en-us, da, de-de, de 등)를 찾습니다.
-ms.openlocfilehash: b49b5e942229244d2a37fb632badcb580f98ca61
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: c9f4abcb7a4149baa1d3de7d51f45cfc75d0be06
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515761"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684131"
 ---
-# <a name="audio-conferencing-supported-languages"></a>오디오 회의 지원 언어
+# <a name="audio-conferencing-supported-languages"></a>오디오 회의 지원되는 언어
 
 Office 365에서 오디오 회의를 설정 하 고 구성 하는 경우 발신자가 비즈니스용 Skype 또는 Microsoft 팀 모임에 전화 접속 하는 경우 사용 되는 기본 및 보조 (최대 4) 언어를 선택할 수 있습니다. 다음은 오디오 회의에 지원 되는 언어 목록입니다. 
   
@@ -41,7 +42,7 @@ Office 365에서 오디오 회의를 설정 하 고 구성 하는 경우 발신�
 |:-----|:-----|:-----|
 |아랍어  <br/> |사우디아라비아  <br/> |ar-SA  <br/> |
 |불가리어  <br/> |불가리아  <br/> |bg-bg&platform-BG-BG&PLATFORM  <br/> |
-|Cantonese  <br/> |홍콩 특별 행정구  <br/> |zh-cn-HK  <br/> |
+|Cantonese  <br/> |홍콩  <br/> |zh-cn-HK  <br/> |
 |중국어 (간체)  <br/> |중국  <br/> |zh-cn-CN  <br/> |
 |중국어 (번체)  <br/> |대만  <br/> |zh-cn-hy 얕은 샘물 a  <br/> |
 |크로아티아어  <br/> |크로아티아  <br/> |hr-HR  <br/> |
@@ -57,7 +58,7 @@ Office 365에서 오디오 회의를 설정 하 고 구성 하는 경우 발신�
 |프랑스어  <br/> |캐나다  <br/> |fr-CA  <br/> |
 |프랑스어  <br/> |프랑스  <br/> |fr-fr  <br/> |
 |독일어  <br/> |독일  <br/> |de-DE  <br/> |
-|그루지야어  <br/> |그루지야  <br/> |카-GE  <br/> |
+|그루지야어  <br/> |조지아  <br/> |카-GE  <br/> |
 |그리스어  <br/> |그리스  <br/> |el-GR  <br/> |
 |히브리어  <br/> | 이스라엘 <br/> | he-IL <br/> |
 |힌디어  <br/> |인도  <br/> |' 높음 '  <br/> |
@@ -109,7 +110,7 @@ Office 365에서 오디오 회의를 설정 하 고 구성 하는 경우 발신�
     > [!NOTE]
     > 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 사용 하면 비즈니스용 Skype Online에 연결 하는 원격 Windows PowerShell 세션을 만들 수 있습니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688) 의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

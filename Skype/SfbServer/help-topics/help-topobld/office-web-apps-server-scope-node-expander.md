@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.OfficeWebAppsServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 description: 토폴로지 작성기에서 Office Web Apps 서버를 마우스 오른쪽 단추로 클릭 하 여 다음을 수행 합니다.
-ms.openlocfilehash: e861cc8ab134c7d11dd55730a3ea58d63d4ef38b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf6b8e26d25e37c3c1e04e0257d4e8f7026af933
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191646"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684501"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps Server 범위 노드 확장기
  

@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: '비즈니스용 Skype 통화 서비스에 대 한 불만 (영국에서 PSTN 통화), 일정에 대 한 설명, 확인 되지 않은 불만에 대 한 분쟁를 해결 하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: c521c7bd19ffcdfe870ac3835e3ad1c75c9ff1be
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: d3f20a2a84a419ff959670bbd6b63742d2ad1ba5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516911"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684101"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365의 통화 요금제-영국에 대 한 불만 처리 코드 (영국)
 
@@ -85,6 +86,6 @@ Ombudsman Services의 웹 사이트 또는 전화, 편지 또는 전자 메일�
     WA4 6WU
 
 
-## <a name="related-topics"></a>관련 항목
-[오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능 여부](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+## <a name="related-topics"></a>관련 주제
+[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
