@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 포리스트 준비로 변경한 내용'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changes made by forest preparation
 ms:assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425791(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef94ea82f31871cf90939aa25a130903f15ef756
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4df16ffb24c4eb4e010e2b57f6af62d3518c05b6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979328"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

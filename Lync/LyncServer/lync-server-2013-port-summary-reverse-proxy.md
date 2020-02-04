@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 포트 요약 - 역방향 프록시'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Reverse proxy
 ms:assetid: 59b9ac3c-3e6f-4776-b366-174f0dd1f2eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204932(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a86b993a35210934f5ebef61464c11a153bf297
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f2944cde932413f00b5a4dcb75cd4a37bd5b3a3a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985800"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

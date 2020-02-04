@@ -3,6 +3,8 @@ title: Lync Server 2013 E9-1-1 지원
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: E9-1-1 support
 ms:assetid: 1505daa5-ce84-4153-ae7f-8f70b324c43f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398220(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c520992a3b490dc011cf1d6a146b1429ae826b30
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1412830edf1ff260ed272164d1bdbc9b10bfe83
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984954"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729408"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

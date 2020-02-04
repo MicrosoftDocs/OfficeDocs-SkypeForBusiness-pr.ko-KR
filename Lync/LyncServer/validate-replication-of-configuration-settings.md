@@ -3,6 +3,8 @@ title: 구성 설정 복제의 유효성을 검사 합니다.
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Validate replication of configuration settings
 ms:assetid: 81a3c21d-b28a-4287-adac-11791e8db56d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205042(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cde1f3a96f249e98bc4e48c2e6d9c40adaad526
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 698686dd217bf16457e4c3f4ebe6867566dcf49d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982318"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738578"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

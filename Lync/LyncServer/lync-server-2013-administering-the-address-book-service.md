@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 주소록 서비스 관리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Administering the Address Book Service
 ms:assetid: 801e4243-9670-4477-aa2f-88b61ecf5351
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429711(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8acf59a898f8da14b9c5c4151728206cc501ceaf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5d12b904cbb679b66579c7c669ba46e0d732034b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985385"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

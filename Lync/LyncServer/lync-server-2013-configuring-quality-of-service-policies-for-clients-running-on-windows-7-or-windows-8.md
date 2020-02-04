@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Windows 7 또는 Windows 8에서 실행 되는 클라�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Quality of Service policies for clients running on Windows 7 or Windows 8
 ms:assetid: efff2b98-b3fb-4183-a4f0-329a9105ce2c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205371(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185785
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 365ce7a48a3c30a9e810d44edc1b7130ceb2643b
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: bc06f5079fc6876c85324af67bd22be12f85a3c9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "40985309"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763512"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

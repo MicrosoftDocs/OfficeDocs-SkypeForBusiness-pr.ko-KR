@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 에지 서버 인증서 계획'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Plan for Edge Server certificates
 ms:assetid: f1dfe220-2398-4ac8-ba4c-206c8c0cbc50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413010(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185798
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 737e0845b4b9966accd8c450b8a300b4f1bb128e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: faad6dba610df8033b75b0c87c52fbb065dc5dcb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985400"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755178"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Lync Server 2013에서 Edge 용 인증서 만들기가 간소화 되었습니다
 
 **에지 서버에 대한 인증서 순서도**
 
-![a5fc20db-7ced-4364-b577-6a709a8367cd](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")
+![a5fc20db-7ced 4364-b577-6a709a8367cd](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced 4364-b577-6a709a8367cd")
 
 단일 공용 인증서를 만들고 인증서에 대해 내보낼 수 있는 개인 키가 정의 되어 있는지 확인 하 고 인증서 마법사를 사용 하 여 다음 Edge Server 외부 인터페이스에이를 할당 합니다.
 

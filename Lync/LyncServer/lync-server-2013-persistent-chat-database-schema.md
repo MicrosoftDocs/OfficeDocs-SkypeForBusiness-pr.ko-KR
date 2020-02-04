@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 영구 채팅 데이터베이스 스키마'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Persistent Chat database schema
 ms:assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558653(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f35b1551b1ef7f228c70cbb76e748eae5e7cf59
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 73f3b21fe8ea7f9fc71aa5432a601e9fa3ad2425
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980234"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755238"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 역방향 프록시에 대한 시나리오'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scenarios for reverse proxy
 ms:assetid: 13108f59-a660-4ff1-8404-079d1cb646f2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204691(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1621e8bb0241e82f9f4678d4fe39a4f66f6bcf9b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 82e1dffa55d6af8d131d3a94710c76277cfa75d9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985369"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764966"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

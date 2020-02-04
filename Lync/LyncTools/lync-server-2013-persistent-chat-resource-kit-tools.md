@@ -3,6 +3,8 @@ title: Lync Server 2013 영구 채팅 리소스 키트 도구
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 Persistent Chat Resource Kit Tools
 ms:assetid: 7a34d2ba-eb25-4e22-92d1-b9baf81b102c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945599(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c851be7bb7046021cc2d37c88ef03bdea60c95a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a827892dac61ff88d0527eafb7d94948afa21885
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984650"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739418"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -331,7 +333,7 @@ GroupChat2007R2Db 매개 변수 또는 GroupChat2010Db 매개 변수 중 하나�
 
 ## <a name="example"></a>예
 
-![E를 실행 합니다] . (images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "E를 실행 합니다") .
+![ChatUpgradeVerifier.exe 실행.](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "ChatUpgradeVerifier.exe 실행.")
 
 </div>
 

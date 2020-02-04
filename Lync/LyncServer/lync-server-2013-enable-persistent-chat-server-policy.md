@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 영구 채팅 서버 정책 사용'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable Persistent Chat Server policy
 ms:assetid: 87063d6c-2e38-4970-b76d-2aa15f0de29e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205056(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184718
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e58e71cd92182fc9f68d272ba23079677983b399
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27d87277c813c24ae36de14430bc711d991d7181
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979224"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735988"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

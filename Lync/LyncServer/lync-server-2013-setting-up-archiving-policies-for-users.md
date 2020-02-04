@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 사용자의 보관 정책 설정'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up Archiving policies for users
 ms:assetid: 1bbb45df-0590-4c66-9d65-d25526f57790
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204722(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183549
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55a56ff5c44d10d112762bb06662e9266dbc270b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0c3f2be2a41aae741a2dae5e3becb522dead8754
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980900"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732238"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

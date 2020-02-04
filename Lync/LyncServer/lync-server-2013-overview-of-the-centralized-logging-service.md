@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 중앙 로깅 서비스 개요'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Centralized Logging Service
 ms:assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688145(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 647e6b1e5797b3936dc1fef6023c85ce4baf68b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1460699b6516ab4e510c9715b2464ce442466faa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984483"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ _**마지막으로 수정한 주제:** 2013-02-22_
 
 **Clscontroller에 대 한 ClsController 통신**
 
-![CLSController와 Clscontroller 간의 관계입니다.] (images/JJ688145.68c90811-5cf9-4a84-95b7-ea9ffc61eac4(OCS.15).jpg "CLSController와 Clscontroller 간의 관계입니다.")
+![CLSController와 CLSAgent 간의 관계.](images/JJ688145.68c90811-5cf9-4a84-95b7-ea9ffc61eac4(OCS.15).jpg "CLSController와 CLSAgent 간의 관계.")
 
 Windows Server 명령줄 인터페이스 또는 Lync Server Management Shell을 사용 하 여 명령을 실행 합니다. 명령은 사용자가 로그인 하 여 로컬로 ClsAgent에 또는 배포의 다른 컴퓨터와 풀로 전송 된 컴퓨터에서 실행 됩니다.
 

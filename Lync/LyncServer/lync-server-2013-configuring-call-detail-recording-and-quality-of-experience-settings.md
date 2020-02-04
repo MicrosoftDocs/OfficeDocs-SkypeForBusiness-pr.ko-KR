@@ -3,6 +3,8 @@ title: 통화 정보 기록 및 체감 품질 설정 구성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring call detail recording and Quality of Experience settings
 ms:assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204621(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67c9759faad4ed96cdf65d8bd22c5778512933de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 504c2221e9f8a3ef32e2cebbb792f5e03aef15c5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980164"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756342"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

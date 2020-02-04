@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 페더레이션 및 공용 메신저 연결 사용 또
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable federation and public IM connectivity
 ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4123a17c01ad6358038b1937b57bab29eeec85c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edbf03ee2e2772e6df1425ffd666176c1947f0e4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979741"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736068"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

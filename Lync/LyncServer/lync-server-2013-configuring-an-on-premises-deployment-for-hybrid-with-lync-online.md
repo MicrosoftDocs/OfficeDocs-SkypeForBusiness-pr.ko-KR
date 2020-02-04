@@ -3,6 +3,8 @@ title: Lync Online과의 하이브리드 방식 배포용으로 온-프레미스
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring an on-premises deployment for hybrid with Lync Online
 ms:assetid: c26addb0-2936-4eea-9071-3ab95825154b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205237(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185321
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f63620dc86a0249556d94491ec690989fa1dc835
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eda277d2be970e2495c8bb4cb1a8bd2bcb288bc9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984585"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741178"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 필요한 작업'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: As-needed tasks
 ms:assetid: b66bc6fe-f138-4cf4-ba7f-aee9a3e0497e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn722431(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969643
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e96fd6e73e043c5ea7c476f939b3a3e06eadbdfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 344512a1dd4db44b8290efdcc726275b4a6898de
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983344"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738408"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

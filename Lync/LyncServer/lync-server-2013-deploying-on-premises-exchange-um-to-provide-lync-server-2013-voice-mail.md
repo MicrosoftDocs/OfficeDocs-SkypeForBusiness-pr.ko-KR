@@ -3,6 +3,8 @@ title: Lync Server 2013 음성 메일을 제공하도록 온-프레미스 Exchan
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying on-premises Exchange UM to provide Lync Server 2013 voice mail
 ms:assetid: 9673bd73-a3a3-425d-870f-04d801c6d0d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398768(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eda7be6c0ab2485cfd119fd5db5af9d624c05682
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c836c579571645a7717ee54b697081104f90986d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979776"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740958"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

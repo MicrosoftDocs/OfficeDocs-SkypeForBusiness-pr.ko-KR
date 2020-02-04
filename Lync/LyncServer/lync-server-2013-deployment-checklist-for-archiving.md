@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 보관용 배포 검사 목록'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for Archiving
 ms:assetid: 7479734d-be01-40d9-ad82-320a09d19d04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205009(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51c556dd288ff3539bbf2f4de816eab3a544b847
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e55e2471a71c985861c35c4ec2e07582dbfa0f23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980181"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740758"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

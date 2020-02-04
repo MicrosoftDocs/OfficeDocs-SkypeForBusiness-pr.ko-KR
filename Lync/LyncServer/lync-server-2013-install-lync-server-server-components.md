@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server 서버 구성 요소 설치'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install Lync Server server components
 ms:assetid: 186aed6e-7adf-4a92-9f2e-f9a4de5ff202
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398239(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 895047715bfa632970adbabb20311d8c68182499
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f039f9363469663410f08f078a3b7e17a170075
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984479"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763722"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

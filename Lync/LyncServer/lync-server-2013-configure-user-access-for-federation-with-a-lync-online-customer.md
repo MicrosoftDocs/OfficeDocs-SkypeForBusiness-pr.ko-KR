@@ -3,6 +3,8 @@ title: Lync Online 고객과 페더레이션에 대 한 사용자 액세스 구�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure user access for federation with a Lync Online customer
 ms:assetid: 72cb1153-73b6-4da2-b5c3-de6e7aa642a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202177(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1e85c725f9194c2862b59bbbac25b903f2be894
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d83ea228d7cf9a6354117d62dc92c6fcbc55ac56
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978678"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733825"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

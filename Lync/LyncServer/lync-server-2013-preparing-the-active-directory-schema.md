@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Active Directory 스키마 준비'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing the Active Directory schema
 ms:assetid: 067726ae-fd3f-4133-a32f-26d2603ac674
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398119(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5479bfbb0774ddd68015de470de082f0cc185b98
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 572f531b57c504bda210f8f21298076428342b62
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985402"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

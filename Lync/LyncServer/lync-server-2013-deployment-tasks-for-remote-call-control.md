@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 원격 통화 제어에 대한 배포 작업'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment tasks for remote call control
 ms:assetid: 20218871-4f27-4611-9b7e-c0ca55908284
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558624(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f63c9cba56ccedf3559b1e9f1da1ee58cc03e195
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df80ebcdc879598677a037d60c9eeeee46ba5209
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984539"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762556"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

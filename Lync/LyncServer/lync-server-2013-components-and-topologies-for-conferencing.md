@@ -3,6 +3,8 @@ title: Lync Server 2013 회의의 구성 요소 및 토폴로지
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for conferencing
 ms:assetid: eb83052a-3360-4ba1-a6a0-6ee419942809
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399061(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5caf5ba33e863e08bf4f728d2bf11394f37f20b6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db44e7c8430865fcf8138c9b51f6e700ff85dd7b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984073"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742638"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

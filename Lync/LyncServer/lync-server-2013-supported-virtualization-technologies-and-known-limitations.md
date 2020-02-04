@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 지원되는 가상화 기술 및 알려진 제한 사
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported virtualization technologies and known limitations
 ms:assetid: 6d3d749d-e840-4c05-afae-d6e69e7616aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204982(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b5c99151be45f70d1d95fa0a89835ebb6f7d352
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cf513e9dee4e6a27708c8882519099c825f903f2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983589"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731648"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

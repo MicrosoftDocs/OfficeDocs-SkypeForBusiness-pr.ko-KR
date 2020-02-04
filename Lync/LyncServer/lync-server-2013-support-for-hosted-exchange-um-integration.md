@@ -3,6 +3,8 @@ title: Lync Server 2013 호스팅된 Exchange UM 통합 지원
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Support for hosted Exchange UM integration
 ms:assetid: c7573ec3-013c-48d9-b59b-2a5427e6da35
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398821(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185376
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56ba107c9a782acb15ccd8d57f82cf567f2b75e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 24139ad5294bf908a85b797300397fa8b2ac9140
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983722"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**마지막으로 수정한 주제:** 2012-09-21_
 
 Lync Server 2013 ExUM 라우팅 응용 프로그램은 온-프레미스 환경의 UM (통합 메시징)과 Lync Server 2013 및 Exchange UM을 모두 엔터프라이즈 내에서 로컬로 설치 하거나,에 의해 호스팅되는 Exchange UM과 통합할 수 있도록 지원 합니다. 서비스 공급자 (다음 다이어그램에 표시 됨)
 
-온-프레미스 lync ![Server exchange Um 배포](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "온-프레미스 LYNC Server exchange um 배포")
+![온-프레미스 Lync Server Exchange UM 배포](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "온-프레미스 Lync Server Exchange UM 배포")
 
 지원 되는 모드는 다음과 같습니다.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 에지 서버 설치'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install Edge Servers
 ms:assetid: 1655ab69-3899-4ee4-a1cc-8243bc1bfa0f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398230(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 211baa13f80e89fa081b6bf65d4bd7e90d50d000
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22d1961a158ead735ae63d20bb2bd233d6ed5958
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984039"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763762"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

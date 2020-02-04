@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 대화형 음성 응답 통화 흐름 설계'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Design interactive voice response call flows
 ms:assetid: f3477f0a-3ad5-4b13-a73c-046aa451db19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413020(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 487fa3d4842ad67f3433966a08a889e454450351
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dd53ac8d06ec336940abe53d7da1353faf4f9414
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980256"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762526"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -97,7 +99,7 @@ IVR 질문이 나 발신자의 응답은 통화를 수락 하는 응답 하는 �
 
 **한 수준의 대화형 통화 흐름**
 
-대화식 음성 ![Respo를 사용 하 여 통화 흐름 디자인](images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "대화형 음성 Respo를 사용 하 여 통화 흐름 디자인")
+![대화형 음성 응답을 사용하여 통화 흐름 설계](images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "대화형 음성 응답을 사용하여 통화 흐름 설계")
 
 </div>
 
@@ -133,7 +135,7 @@ IVR 질문이 나 발신자의 응답은 통화를 수락 하는 응답 하는 �
 
 **2 수준 대화형 통화 흐름**
 
-대화식 음성 ![Respo를 사용 하 여 통화 흐름 디자인](images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "대화형 음성 Respo를 사용 하 여 통화 흐름 디자인")
+![대화형 음성 응답을 사용하여 통화 흐름 설계](images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "대화형 음성 응답을 사용하여 통화 흐름 설계")
 
 </div>
 

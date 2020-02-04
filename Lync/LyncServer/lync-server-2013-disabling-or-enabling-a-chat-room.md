@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 채팅방 비활성화 또는 활성화'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disabling or enabling a chat room
 ms:assetid: db0908fc-aae3-46e8-bc0b-245e9adfa1e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215883(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706011
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f89862b4f7e38a637fa183641f8cdc75e0491379
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a3ed23319631dd8ab51131fe9a8d7a9099e35d18
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985326"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757602"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

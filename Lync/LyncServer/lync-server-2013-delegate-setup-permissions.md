@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 설치 권한 위임'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delegate setup permissions
 ms:assetid: 9dca1683-4c69-4534-8ebe-6bd635cbae49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412735(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7df00740ac971fd56e289da04ca43abb1619329
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 245fa0cb3bb5393f1d0f09a3f3b9c10176c015ce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982277"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739828"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

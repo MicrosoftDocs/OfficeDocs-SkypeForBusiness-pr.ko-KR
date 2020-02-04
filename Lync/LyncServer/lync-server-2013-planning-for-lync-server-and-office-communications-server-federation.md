@@ -3,6 +3,8 @@ title: Lync Server 및 Office Communications Server federation 계획
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Lync Server and Office Communications Server federation
 ms:assetid: c9eaf06b-054f-41a4-ad0c-499400d6c4c7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205335(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c683092b61d278d380ad68cef86795d496498fbf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 015f824ff2b8510559a7bd4910be76321d44d242
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982294"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41751868"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

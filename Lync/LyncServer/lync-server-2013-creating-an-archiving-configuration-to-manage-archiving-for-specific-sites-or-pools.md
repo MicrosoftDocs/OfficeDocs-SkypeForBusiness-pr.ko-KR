@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 특정 사이트 또는 풀에 대 한 보관을 관�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating an Archiving configuration to manage Archiving for specific sites or pools
 ms:assetid: c5c864a6-96c7-4bbb-ab7c-61eb1744246c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205251(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185361
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39ff0add99f41e31ad585b58112146a7f52cc1b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3b0495a15d19adba9ac21fb7817347a16b78bc13
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976251"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762746"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

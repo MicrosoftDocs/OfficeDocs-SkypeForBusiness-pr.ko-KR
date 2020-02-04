@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 서버 메모리 용량 한도 모니터링'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring for server memory capacity limits
 ms:assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh689982(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183506
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68728c85b14231644b445569857896f34abe535f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e5c9746240335b1c66606da24edf6ffa2a0e7bda
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983845"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765979"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

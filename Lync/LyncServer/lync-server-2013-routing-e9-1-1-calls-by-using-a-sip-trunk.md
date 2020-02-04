@@ -3,6 +3,8 @@ title: 'Lync Server 2013: SIP 트렁크를 사용하여 E9-1-1 통화 라우팅'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Routing E9-1-1 calls by using a SIP trunk
 ms:assetid: 157753c3-fe74-4e2c-81da-ee06911d4cc2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204701(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c537b66883ab786bc28e3cc808874c0fcb79b92d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 918aaf97b1567f012a2b41de7128db23aa383acb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983572"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732858"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ SIP 트렁크를 사용 하 여 적격 E9-1 서비스 공급자에 연결 하는
 
 **라우팅 E9-SIP 트렁크를 통해 1 ~ 1 통화**
 
-Lync server에서 psap로의 ![비상 통화 라우팅-]서버(images/JJ204701.0637a9d4-2ca7-438a-8ed0-19090a4b992d(OCS.15).jpg "에서 psap로의") 비상 통화 라우팅
+![Lync Server에서 PSAP로의 긴급 통화 라우팅](images/JJ204701.0637a9d4-2ca7-438a-8ed0-19090a4b992d(OCS.15).jpg "Lync Server에서 PSAP로의 긴급 통화 라우팅")
 
 호환 가능한 Lync 서버 클라이언트에서 긴급 통화를 하는 경우:
 

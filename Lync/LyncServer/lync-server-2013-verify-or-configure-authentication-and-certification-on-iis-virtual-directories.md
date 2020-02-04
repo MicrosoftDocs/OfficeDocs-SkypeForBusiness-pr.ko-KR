@@ -3,6 +3,8 @@ title: 'Lync Server 2013: IIS 가상 디렉터리에 대한 인증 확인 또는
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify or configure authentication and certification on IIS virtual directories
 ms:assetid: 3ca90be0-1d64-447c-807a-3a2ee3bf625e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429702(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ae692f788d906d01852990490ace01f67eebe63
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 48399ed2a6eba53707218295adcd1cbd11a5e32c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984364"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742158"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -74,7 +76,7 @@ IIS (인터넷 정보 서비스) 가상 디렉터리에서 인증서를 구성 �
     
     출력은 컴퓨터 개인 인증서 저장소에서 현재 서버에 있는 인증서의 목록입니다. 조합 된 인증서 (즉, 기본 웹 서비스 내부 및 웹 서비스 외부에 동일한 인증서를 사용 하는 경우)에는 Use 속성이 기본 인 Web서비스 내부 및 Webservice외부 Nal으로 채워집니다. 또한 손도장 속성은 각 사용 유형에 대해 동일 하 게 됩니다. 이 예제에는 Get-CsCertificate의 예제 출력이 나와 있습니다.
     
-    현재 ![scert 상태에 대 한 CsCertificate 정보]가져오기-(images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "CsCertificate 정보 (현재 scert 상태)")
+    ![현재 인증서 상태의 Get-CsCertificate 정보](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "현재 인증서 상태의 Get-CsCertificate 정보")
 
 6.  Lync Server 관리 셸에서 다음을 입력 합니다.
     
@@ -93,7 +95,7 @@ IIS (인터넷 정보 서비스) 가상 디렉터리에서 인증서를 구성 �
     
     </div>
     
-    (images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "요청-CsCertifica를 사용 하 여 인증서 요청의 CsCertifica 출력을") ![사용 하 여 인증서 요청의 출력]
+    ![Request-CsCertifica를 사용한 인증서 요청의 출력 내용](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Request-CsCertifica를 사용한 인증서 요청의 출력 내용")
 
 7.  Lync Server 관리 셸에서 다음을 입력 합니다.
     
@@ -105,7 +107,7 @@ IIS (인터넷 정보 서비스) 가상 디렉터리에서 인증서를 구성 �
     
     CsCertificate cmdlet의 출력은 기본, Webservice외부의 Nal 및 Web서비스 내부 사용에 대해 동일한 인증서 (인증서의 손도장으로 식별 됨)를 할당 하는 것을 보여 줍니다.
     
-    (images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "Iis WebExt에서 CsCertificate") 의 ![iis webext 출력에 대 한 Set CsCertificate의 출력]
+    ![IIS WebExt에서 Set-CsCertificate의 출력 내용](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "IIS WebExt에서 Set-CsCertificate의 출력 내용")
 
 </div>
 

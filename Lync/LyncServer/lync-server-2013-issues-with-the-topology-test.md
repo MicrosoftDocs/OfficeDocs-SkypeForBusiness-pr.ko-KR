@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 토폴로지 테스트 문제'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Issues with the topology test
 ms:assetid: 821e8916-7b5d-4f64-8fb0-e5cc392ec1bb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205045(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d416aac6460870ab14d5296bcc6c7944ecf699e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a0492f53692230bf02b3b66d91ba7fdf14b01c23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983597"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765446"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

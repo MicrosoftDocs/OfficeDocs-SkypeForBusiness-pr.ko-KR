@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 지원되는 Active Directory 토폴로지'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported Active Directory topologies
 ms:assetid: 0c76b778-7652-4eb0-b161-86f2d4a94ccf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398173(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dc15cea3d07dc4e00f1d2a5527c862d90a078c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3e4aca368f6ea7d5b31a1cfe74273dfbd42a6594
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985429"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764364"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Lync Server 2013는 Microsoft Lync Server 2010 및 Microsoft Office Communicatio
 
 **토폴로지 그림의 기호**
 
-토폴로지 일러스트레이션에 대 한 ![핵심](images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "그림 그림")
+![토폴로지 그림의 기호](images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "토폴로지 그림의 기호")
 
 <div>
 
@@ -85,7 +87,7 @@ Lync Server에서 지원 되는 다른 Active Directory 토폴로지는 루트 �
 
 **도메인이 여러 개인 단일 포리스트**
 
-여러(images/Gg398173.2b809c72-c3cd-4fad-afe6-8c2dae779750(OCS.15).jpg "도메인이 있는") 단일 포리스트에 ![여러 도메인이 있는 단일 포리스트]
+![도메인이 여러 개인 단일 포리스트](images/Gg398173.2b809c72-c3cd-4fad-afe6-8c2dae779750(OCS.15).jpg "도메인이 여러 개인 단일 포리스트")
 
 </div>
 
@@ -105,7 +107,7 @@ Lync Server에서 지원 되는 다른 Active Directory 토폴로지는 루트 �
 
 **트리가 여러 개인 단일 포리스트**
 
-여러 트리로(images/Gg398173.db30fa49-174a-4974-8695-41dd78e39432(OCS.15).jpg "이루어진 단일") 포리스트 ![여러 트리로 이루어진 단일 포리스트]
+![트리가 여러 개인 단일 포리스트](images/Gg398173.db30fa49-174a-4974-8695-41dd78e39432(OCS.15).jpg "트리가 여러 개인 단일 포리스트")
 
 </div>
 

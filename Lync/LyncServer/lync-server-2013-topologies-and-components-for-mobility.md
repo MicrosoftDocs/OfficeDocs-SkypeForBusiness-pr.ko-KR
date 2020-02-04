@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 모바일 기능의 토폴로지 및 구성 요소'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Topologies and components for mobility
 ms:assetid: be3cae7a-095d-4785-91ba-6fac99eba92a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690037(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185282
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 537eda14f2587e06bd8a1112f2a6a44299b0b78e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 739deecf47e25e57ca0175c29a2721e509f8dbe2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984423"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

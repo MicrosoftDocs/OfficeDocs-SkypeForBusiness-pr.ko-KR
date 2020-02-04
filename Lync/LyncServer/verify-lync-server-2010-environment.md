@@ -3,6 +3,8 @@ title: Lync Server 2010 환경 확인
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify Lync Server 2010 environment
 ms:assetid: bfc7c620-556a-43cd-b1ed-2c268ec2b5cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205231(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185301
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 248d779bc43b7c3e220728222aca030036f17e00
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2a871955f53515491ed09ece5e5da21ef7a9fef8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981284"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730918"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Lync server 2010을 함께 사용 하는 상태에서 Lync 서버 2013를 배포
 
 2.  프런트 엔드 서버에서 다음 서비스가 실행 중인지 확인 합니다.
     
-    프런트 엔드(images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "서버에서 실행 중인 서비스의") ![프런트 엔드 서버 목록에서 실행 중인 서비스 목록]
+    ![프런트 엔드 서버에서 실행 중인 서비스 목록](images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "프런트 엔드 서버에서 실행 중인 서비스 목록")
 
 **Lync Server 제어판에서 Lync Server 2010 토폴로지 검토**
 
@@ -61,7 +63,7 @@ Lync server 2010을 함께 사용 하는 상태에서 Lync 서버 2013를 배포
 
 3.  **토폴로지**를 선택 합니다. Lync Server 2010 배포의 다양 한 서버가 나열 되는지 확인 합니다.
     
-    ![Lync server 2010 제어판 토폴로지 페이지](images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "Lync server 2010 제어판 토폴로지 페이지")
+    ![Lync Server 2010 제어판 토폴로지 페이지](images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "Lync Server 2010 제어판 토폴로지 페이지")
 
 **Lync server 제어판에서 Lync Server 2010 사용자를 검토 하려면**
 
@@ -71,7 +73,7 @@ Lync server 2010을 함께 사용 하는 상태에서 Lync 서버 2013를 배포
 
 3.  **등록자 그룹** 열이 나열 된 각 사용자의 Lync Server 2010 풀을 가리키는지 확인 합니다.
     
-    ![Lync server 2010 제어판 목록 사용자]에 게(images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Lync server 2010 제어판의 목록을") 표시 합니다.
+    ![Lync Server 2010 제어판에 나열된 사용자](images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Lync Server 2010 제어판에 나열된 사용자")
 
 **Lync Server 2010 Edge 및 페더레이션 설정을 확인 하려면**
 
@@ -89,7 +91,7 @@ Lync server 2010을 함께 사용 하는 상태에서 Lync 서버 2013를 배포
 
 6.  다음으로 Standard Edition Server 또는 Enterprise Edition 프런트 엔드 풀을 선택 합니다. **연결**아래 미디어에 대 한 Edge 풀이 구성 되었는지 확인 합니다.
     
-    서버 및 풀을 보여 주는 서버 및 풀(images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "토폴로지 작성기") 를 ![보여 주는 토폴로지 작성기]
+    ![서버 및 풀을 보여 주는 토폴로지 작성기](images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "서버 및 풀을 보여 주는 토폴로지 작성기")
 
 7.  마지막으로 Edge 풀을 선택 하 고 다음 홉 풀이 **다음 홉 선택**아래에 구성 되어 있는지 확인 합니다.
     
@@ -101,7 +103,7 @@ Lync server 2010을 함께 사용 하는 상태에서 Lync 서버 2013를 배포
 
 2.  Office Communications Server XMPP 게이트웨이 서비스가 시작 되었는지 확인 합니다.
     
-    ![Office Communications server XMPP 게이트웨이 서비스](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "office communications Server Xmpp 게이트웨이 서비스")
+    ![Office Communications Server XMPP 게이트웨이 서비스](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Office Communications Server XMPP 게이트웨이 서비스")
 
 </div>
 

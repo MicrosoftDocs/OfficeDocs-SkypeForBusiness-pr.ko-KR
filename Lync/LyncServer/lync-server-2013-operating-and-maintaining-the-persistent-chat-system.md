@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 영구 채팅 시스템 운영 및 유지 관리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Operating and maintaining the Persistent Chat system
 ms:assetid: 84572a6a-3a99-44de-828f-09e2af2d151d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398671(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02eaf561044df8e8be66bb87ae566befa0a32a04
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a90b1416f617dd687bcfff10a925bfe809d18f7d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975303"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755822"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

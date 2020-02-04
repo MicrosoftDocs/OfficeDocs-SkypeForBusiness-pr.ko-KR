@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 보관을 위한 인프라 설정'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up the infrastructure for Archiving
 ms:assetid: d3995b0d-52c4-49f9-8d33-ea8d77c65a9d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205287(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab41bad840afbb0847e30b3f611e13cab9d5b2c5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ccd2dd65eca2229632c8811d1d57e52976778650
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985378"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732058"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

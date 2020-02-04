@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 장치를 만들어 업데이트 기능 테스트'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a device to test update functionality
 ms:assetid: ce509fd1-17b3-4b78-b269-fe5d06fe2e1d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182587(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185466
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad2fa5283561e1096cfe7e3053db59c3cd2e40e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b197c4b42542310746568fe351f98c7d991509cf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984365"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740548"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

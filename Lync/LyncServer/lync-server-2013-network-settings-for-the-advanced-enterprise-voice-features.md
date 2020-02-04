@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 고급 엔터프라이즈 음성 기능에 대 한 네
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Network settings for the advanced Enterprise Voice features
 ms:assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184632
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d633d111e9df09cde57b91f32f4592b7f80c9f26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1ce4983f7744158c9c9ff56cdfdde818fdc8e14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980287"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765879"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

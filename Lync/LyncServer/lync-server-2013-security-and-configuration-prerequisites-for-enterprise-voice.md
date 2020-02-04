@@ -3,6 +3,8 @@ title: Enterprise Voice에 대한 보안 및 구성 필수 구성 요소
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Security and configuration prerequisites for Enterprise Voice
 ms:assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398221(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d06cdb4c679d1a40eb5c6fa0e8cf837ec8d2e332
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6530e00a942e2e839eaf4bc2d069212b746e2504
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981271"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732578"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

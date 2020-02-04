@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 보관 개요'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of Archiving
 ms:assetid: 1e3c2ef1-f561-4f57-8b6a-7d78addc1ed1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204729(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba4aa88f94f0e32b35ab3fc5f71359e5a1c00d99
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f718ac939fc665c0464d4986f51279d3afdee8a3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982927"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755612"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

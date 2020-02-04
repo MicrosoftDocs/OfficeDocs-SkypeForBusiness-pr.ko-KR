@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 위치 기반 라우팅 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Location-Based Routing
 ms:assetid: 63cdc474-e80f-43b1-a237-9d9ed673300a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994036(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a682f6b550f982f929a83bc8c2f430e89b9452fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a0e82ae8a0dd9961bfeb9d2a513cb77b0affb2c4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979082"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762816"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Lync Server 2013 CU1 위치 기반 라우팅은 엔터프라이즈 음성의 기
 
 이 섹션에서는 다음 예제를 사용 하 여 위치 기반 라우팅의 구성 과정을 안내 합니다.
 
-![엔터프라이즈 음성 위치 기반 라우팅 예](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "엔터프라이즈 음성 위치 기반 라우팅 예")
+![Enterprise Voice 위치 기반 라우팅 예제](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Enterprise Voice 위치 기반 라우팅 예제")
 
   
 다음 표에서는이 예제에 정의 된 사용자를 보여 줍니다.

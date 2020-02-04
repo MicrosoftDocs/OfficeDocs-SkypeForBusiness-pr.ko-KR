@@ -3,6 +3,8 @@ title: 페더레이션 파트너에게 보관 고지 사항 보내기를 사용�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable sending an Archiving disclaimer to federated partners
 ms:assetid: c8e9a2fa-9dc1-4e4d-919f-56ece8004864
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182584(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185391
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9364f3562c837b949ef589fc7c5cbd2bc4a2b4cb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f53e03ebfdc24ff969ff44a9b39149456ab3f16
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983976"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

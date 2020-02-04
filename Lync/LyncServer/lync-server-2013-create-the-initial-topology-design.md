@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 초기 토폴로지 디자인 만들기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create the initial design
 ms:assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615047(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 656e9605695fe7dab160469ffa9e9c5075ac807b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7fc8d3e731c2772b275dd861c41b8c10f2127a2a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985698"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

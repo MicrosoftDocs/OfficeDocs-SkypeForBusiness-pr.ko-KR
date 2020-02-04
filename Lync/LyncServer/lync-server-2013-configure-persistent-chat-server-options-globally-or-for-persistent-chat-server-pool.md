@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 영구 채팅 서버 풀에 대해 또는 전역적으
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Persistent Chat Server options globally or for Persistent Chat Server pool
 ms:assetid: 1e8d5245-cd58-4aad-9a1c-35b24189bc40
 ms:mtpsurl: https://technet.microsoft.com/library/JJ204731(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fedd0d1adb4149c3dc2ea41c5321259f571524f
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 86ee77dd34e3a43ea62ac6cffaf4af952b1c447e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111692"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762836"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

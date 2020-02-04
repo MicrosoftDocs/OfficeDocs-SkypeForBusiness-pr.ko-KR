@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 새로운 보관 기능'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Archiving features
 ms:assetid: c002e367-41ad-498d-9d23-8b117ac435b2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205225(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d736e823892aa6d6edcc5ab90df900a5c6b7ac79
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1509a0857b54673ab20783f69b34b59c6d2afde8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985660"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 인증서 보고서 검토'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reviewing the Certificates Report
 ms:assetid: 549cfc9b-3cc5-4483-a93c-fc0738c7f622
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558651(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a83167576746d3f90d96658b0dd3d65815f5375
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 410e9e99fccae7378b5260c9aa3a2281a3004cd5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983159"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733038"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

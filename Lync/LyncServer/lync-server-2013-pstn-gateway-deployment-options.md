@@ -3,6 +3,8 @@ title: 'Lync Server 2013: PSTN 게이트웨이 배포 옵션'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PSTN gateway deployment options
 ms:assetid: d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398899(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 137c9996429e953db22bea0c0dbd382f5a7af9a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5b2f3cd153a6dc8d101f44a3f087f0ccedfa9bf7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979200"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747188"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

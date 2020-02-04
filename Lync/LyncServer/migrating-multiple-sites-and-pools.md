@@ -3,6 +3,8 @@ title: 여러 사이트 및 풀 마이그레이션
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrating multiple sites and pools
 ms:assetid: a6d726d2-564d-4b39-a97c-5656a673292a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205165(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185079
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7759c52051dfe4ca4a46e105e6a33f3284f334e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b2f01303c7fe137253d8e993edb05e9562d963ff
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979109"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765256"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

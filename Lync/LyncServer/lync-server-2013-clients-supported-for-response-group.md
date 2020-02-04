@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 응답 그룹에 지원되는 클라이언트'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Clients supported for Response Group
 ms:assetid: 84911025-e754-41a8-ba48-e31c058fc557
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398674(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3da4701a2520f38bd6b4718f51f60342bd6685e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e1fa7728e0ebee1d12d4cf57fdc7aaaf0abfe410
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980683"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

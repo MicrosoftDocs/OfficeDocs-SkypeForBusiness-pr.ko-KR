@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync-Skype 연결 사용'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling Lync-Skype connectivity
 ms:assetid: 34c4db3e-582f-41fb-85c4-3438ae02f09f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440170(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 57793361
 ms.date: 12/16/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 794d2a71c07e742a3ab5597d4bd2aff77157d675
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0125ff4719cd3dfeb65353df747395e596b45dac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983503"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735818"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Lync에서 Skype 연결을 위한 Lync Server 환경을 준비 하려면 Lync Se
 
 페더레이션은 Skype 사용자가 조직의 Lync 사용자와 통신할 수 있도록 하는 데 필요 합니다. PIC (공용 인스턴트 메시징 연결)는 페더레이션 클래스 이며 Lync 사용자가 Skype 사용자와 통신할 수 있도록 구성 되어야 합니다. 페더레이션 및 PIC는 아래 표시 된 Lync Server 제어판을 사용 하 여 구성 됩니다.
 
-Pic(images/Dn440170.451b94e3-0b38-488c-835f-1f25690e8074(OCS.15).jpg "표시") pic ![표시]
+![PIC 표시](images/Dn440170.451b94e3-0b38-488c-835f-1f25690e8074(OCS.15).jpg "PIC 표시")
 
 <div>
 
@@ -119,7 +121,7 @@ Lync Server Management Shell을 사용 하는 경우 관리자는 Lync 클라이
 
 3.  Lync 클라이언트에서 이제 Skype를 PIC 공급자로 선택 하 고 Microsoft 계정을 지정 하 여 Skype 클라이언트를 추가할 수 있습니다. 또한 Microsoft 계정으로 병합 및 로그인 한 Skype 사용자는 연락처 요청을 Lync 사용자에 게 보낼 수 있습니다. Microsoft 계정에 대 한 자세한 내용은 [microsoft 계정 이란?](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account)을 참조 하세요. Lync에 클라이언트를 추가 하는 방법에 대 한 자세한 내용은 [최종 사용자로 Lync Server 2013에서 lync-Skype 연결 사용](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)을 참조 하세요.
     
-    Skype ![연락처]추가(images/Dn440170.df0e6ed9-2374-4dfa-a815-87281989487c(OCS.15).jpg "skype 연락처") 추가
+    ![Skype 대화 상대 추가](images/Dn440170.df0e6ed9-2374-4dfa-a815-87281989487c(OCS.15).jpg "Skype 대화 상대 추가")
 
 4.  호스팅된 공급자를 수정 하는 방법에 대 한 자세한 내용은에서 [http://go.microsoft.com/fwlink/p/?LinkId=306065](http://go.microsoft.com/fwlink/p/?linkid=306065)"호스트 된 SIP 페더레이션 공급자 만들기 또는 편집"을 참조 하세요.
 

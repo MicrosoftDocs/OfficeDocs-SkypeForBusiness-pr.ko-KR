@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 기존 Lync Server 2013 Enterprise에 Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise
 ms:assetid: 05ea128d-6c94-49b3-b28b-477367196425
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398112(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183297
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c505a692590662adf03e48d695b3c1ff089d8d7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6467ae9eb3c4d5159181a2d022c060b0b9f1fec9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979543"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758022"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

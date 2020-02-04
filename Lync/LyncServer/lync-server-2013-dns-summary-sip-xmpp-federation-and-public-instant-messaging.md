@@ -3,6 +3,8 @@ title: DNS 요약-SIP, XMPP 페더레이션 및 공개 인스턴트 메시지
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: 1ed24fb8-a849-44c0-a52e-7aef7527e644
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618369(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105656
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c22b38fdb9e936df8b3fd148022acdbd857cdcfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c927836377a0c7c14054073a9cf17ce638662450
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978930"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

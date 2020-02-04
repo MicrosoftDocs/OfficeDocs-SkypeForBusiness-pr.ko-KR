@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 장치 업데이트 규칙 승인'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Approve a Device Update rule
 ms:assetid: 9dbb1c9a-be0f-4e13-9234-05501ab43ac5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994053(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa560be6b8c341310c4831277902dab6f2e5552c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8bb464d0845f70012bdd8e70365c8a7993de6b4c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984544"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738538"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

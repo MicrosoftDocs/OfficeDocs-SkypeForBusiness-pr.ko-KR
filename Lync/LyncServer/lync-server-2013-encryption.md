@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 암호화'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Encryption for Lync Server 2013
 ms:assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481135(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893874
 ms.date: 09/14/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01c989213b050bdb536e95a8a42e8f7b35292eaf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5f4b655ff632a50d2c28451a577f5be03bfabc82
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981246"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

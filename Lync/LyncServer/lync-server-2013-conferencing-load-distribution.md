@@ -3,6 +3,8 @@ title: Lync Server 2013 회의 로드 배포
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing load distribution
 ms:assetid: 5901a076-1b6f-4720-8837-95fc7f3c37f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204922(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd78b6dcedc66f5a2235b45066be7faf70d4379b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: baa8230470fc765bbda7c3b2bf49e6962b3db22f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979185"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741528"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

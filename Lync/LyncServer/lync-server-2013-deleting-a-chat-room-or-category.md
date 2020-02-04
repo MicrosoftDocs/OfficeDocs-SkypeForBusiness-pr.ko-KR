@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 채팅방 또는 범주 삭제'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting a chat room or category
 ms:assetid: adccb869-0015-4eba-ac73-718bac7843b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215881(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f64b89abd0b3266d2be52e300458ceabf3f9b915
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 74cf41679a21612e67c4a793c09ae3484377ef6e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979348"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763260"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

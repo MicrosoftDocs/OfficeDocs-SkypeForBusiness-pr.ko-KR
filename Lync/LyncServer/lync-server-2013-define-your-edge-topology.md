@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 에지 토폴로지 정의'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define your edge topology
 ms:assetid: 787b23f1-8fa0-4c37-abf2-c516c5dd66f0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398591(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8364d2167b719e020ecebc3808c2ca850d14bc0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4a04dca4b935caf8f07546babd2c53f65fff4e89
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980145"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763942"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

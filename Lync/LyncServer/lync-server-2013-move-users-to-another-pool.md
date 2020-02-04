@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 사용자를 다른 풀로 이동'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Move users to another pool
 ms:assetid: e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182600(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185879
 ms.date: 02/09/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fb716c0b551475a53cacf09be10ffdc039f5db8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7dffa2e7651e056d9dc14b1e261134783d0fd193
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978083"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756742"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

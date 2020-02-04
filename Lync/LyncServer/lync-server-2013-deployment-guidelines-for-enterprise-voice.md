@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enterprise Voice 배포 지침'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment guidelines for Enterprise Voice
 ms:assetid: 8985bd93-7613-4cef-9c89-51df6049ed9b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398694(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0f4f6198f8fb82720834d112bcf363554aaf84d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 221c09fc5dadda267baad35f4784c22cc4f3c9c6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985200"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762686"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

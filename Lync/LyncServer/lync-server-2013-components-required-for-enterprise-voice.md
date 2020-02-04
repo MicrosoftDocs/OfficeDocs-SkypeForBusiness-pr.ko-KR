@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enterprise Voice에 필요한 구성 요소'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components required for Enterprise Voice
 ms:assetid: ee219976-c39a-4b2f-988d-886c339700f7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399076(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185752
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c52141c5d1051f908e23f33fd1a3b39a3f94cb84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 61dc7668f5b99d94c9f64ed0310ad220f6398536
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981083"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757112"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

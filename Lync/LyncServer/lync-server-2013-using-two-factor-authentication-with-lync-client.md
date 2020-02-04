@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync 클라이언트에서 2 단계 인증 사용'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using two-factor authentication with Lync client
 ms:assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn338071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 55115593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5af9e9b5268fd218bfe5856473124514cfe34945
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 25b5d3305c5d9825342c0293325c9afca96c5a97
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984115"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743818"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

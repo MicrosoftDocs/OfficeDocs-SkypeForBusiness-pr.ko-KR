@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 외부 사용자 액세스에 대한 시나리오'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scenarios for external user access
 ms:assetid: 25697446-b045-4d12-9b1c-47f694b4f224
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425727(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27e4f7410d7038971c6ddefe1af1c7b3ecd97ab9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eab8323744615dc3f5d0b68f4325fbfb85bf911e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979962"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764976"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Lync Server 2013에 대 한 외부 사용자 액세스를 제공 하려면 경�
 
 **Edge 서버 배포 시나리오 선택 프로세스**
 
-배포 ![순서도]샘플(images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "배포 순서도")
+![샘플 배포 순서도](images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "샘플 배포 순서도")
 
 이 프로세스를 사용 하 여 사용자를 위해 배포할 모든 잠재적 기능의 구성을 계획 하 고 문서화할 수 있습니다. 그러나 Edge 서버를 배포 하 고 다른 기능을 추가 하기 전에 올바른 작업을 확인 한 후에는 페더레이션 및 모바일 서비스를 추가할 수 있습니다. 기존 Edge 서버 배포에 기능을 추가 하는 프로세스는 배포 섹션에 설명 되어 있습니다. 배포에 대 한 자세한 내용은 [Lync Server 2013에서 외부 사용자 액세스 배포](lync-server-2013-deploying-external-user-access.md) 초기 계획 프로세스 중 이러한 기능에 대 한 계획을 포함 하 여 추가 된 기능에 대 한 dns, 방화벽, 인증서 요구 사항을 준비 하 고, 인증서를 얻고 dns 및 포트/프로토콜 요구 사항을 미리 구성할 수 있습니다.
 

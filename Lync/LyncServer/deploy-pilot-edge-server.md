@@ -3,6 +3,8 @@ title: 파일럿 Edge 서버 배포
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy pilot Edge Server
 ms:assetid: dab345c0-8577-4c11-ac73-fe8b2a75f4cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205306(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd8fddd611422562c9384a52748623623d4e6f68
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cc9f88d731873a16535e80eb0726aec8335e447b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983045"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729948"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,11 +47,11 @@ _**마지막으로 수정한 주제:** 2012-10-19_
 
 2.  Lync Server 2013 노드로 이동 합니다. **Edge 풀**을 마우스 오른쪽 단추로 클릭 하 고 **새 edge 풀**을 클릭 합니다.
     
-    ![새 Edge 풀을 정의 합니다].(images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "새 edge 풀") 대화 상자 정의
+    ![새 에지 풀 정의 대화 상자](images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "새 에지 풀 정의 대화 상자")
 
 3.  Edge 풀은 **여러 컴퓨터 풀** 또는 **단일 컴퓨터 풀**일 수 있습니다.
     
-    Edge ![풀 fqdn 대화 상자 정의](images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "edge 풀 fqdn 대화 상자 정의")
+    ![에지 풀 FQDN 정의 대화 상자](images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "에지 풀 FQDN 정의 대화 상자")
 
 4.  **기능 선택** 페이지에서 페더레이션 또는 xmpp 페더레이션을 사용 하지 않습니다. 페더레이션 및 XMPP 페더레이션은 현재 레거시 Lync Server 2010 Edge 서버를 통해 라우팅 됩니다. 이러한 기능은 이후 마이그레이션 단계에서 구성 됩니다.
     
@@ -59,11 +61,11 @@ _**마지막으로 수정한 주제:** 2012-10-19_
 
 6.  **다음 홉 정의** 페이지에서 Lync Server 2010 Edge 풀의 다음 홉에 대 한 디렉터를 선택 합니다.
     
-    다음 홉 ![대화 상자 정의](images/JJ205306.11baf3ea-74f5-4eb7-8650-b03b3b190416(OCS.15).jpg "다음 홉 대화 상자 정의")
+    ![다음 홉 정의 대화 상자](images/JJ205306.11baf3ea-74f5-4eb7-8650-b03b3b190416(OCS.15).jpg "다음 홉 정의 대화 상자")
 
 7.  **프런트 엔드 또는 중재 풀 연결** 페이지에서 지금은이 Edge 풀과 풀을 연결 하지 않습니다. 외부 미디어 트래픽은 현재 레거시 Lync Server 2010 Edge 서버를 통해 라우트됩니다. 이 설정은 이후 마이그레이션 단계에서 구성 됩니다.
     
-    프론트 엔드 ![풀 연결 대화 상자](images/JJ205306.fe0da887-7b51-4564-afc5-d57da95a2eb6(OCS.15).jpg "프런트 엔드 풀 연결 대화 상자")
+    ![프런트 엔드 풀 연결 대화 상자](images/JJ205306.fe0da887-7b51-4564-afc5-d57da95a2eb6(OCS.15).jpg "프런트 엔드 풀 연결 대화 상자")
 
 8.  **마침을** 클릭 한 다음 토폴로지를 **게시** 합니다.
 

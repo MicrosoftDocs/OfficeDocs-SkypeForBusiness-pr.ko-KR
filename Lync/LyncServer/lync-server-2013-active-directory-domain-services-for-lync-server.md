@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server 용 Active Directory 도메인 서비스'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory Domain Services for Lync Server 2013
 ms:assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481129(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9a7dd0a5d5c6d8323abab3a8abfbc5f1025379e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4ac4b4da954fd792559d2160ce457aec91cb0ac6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980166"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730498"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

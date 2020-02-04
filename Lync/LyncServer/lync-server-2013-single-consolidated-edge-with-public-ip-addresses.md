@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 공용 IP 주소의 단일 통합 에지'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Single consolidated edge with public IP addresses
 ms:assetid: a92d1179-6a1f-4efe-908a-f8dfc5024f30
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205148(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185035
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bf6655c596be657d1779a404c6f1f5b108f3251
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8189d360a43887e2992b8b8abf063ef96230e06e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976205"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764504"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

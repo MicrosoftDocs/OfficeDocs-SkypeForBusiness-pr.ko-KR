@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync 사용자가 원격 통화 제어를 사용하도
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable Lync users for remote call control
 ms:assetid: f39bc10d-034c-4875-a0b8-554e1109e7e6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615048(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6eae16d6dae46bab4f6cf745bc2e2a827eabcb3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 260cfc2d3a0b185d58e90f4944162ea23135a0b9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983791"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736238"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

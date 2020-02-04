@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 토폴로지에 영구 채팅 서버 추가'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add Persistent Chat Server to the topology
 ms:assetid: 8389b307-8c17-4e45-b3b5-5dc9fcfc2ffb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205049(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8985ee2fd28a81f3630e4f80c0ac4dd5a23d4475
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53f8c65f561a0f2c7b1937d60344c0177d221ba8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982987"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738238"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

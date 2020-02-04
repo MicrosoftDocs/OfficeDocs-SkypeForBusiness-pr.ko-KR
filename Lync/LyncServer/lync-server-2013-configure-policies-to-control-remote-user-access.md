@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 원격 사용자 액세스를 제어하도록 정책 �
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure policies to control remote user access
 ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398725(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6e542f2a2d836cce507863347384135f97db445
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4d8542e7d64198cb83df58885b9240e07066288d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983267"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

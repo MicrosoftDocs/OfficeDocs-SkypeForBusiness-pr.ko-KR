@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 중재 서버의 구성 요소 및 토폴로지'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Mediation Server
 ms:assetid: 71397168-36c3-4d21-b8ef-db6a751634ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398537(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f9c353dc65f5e943e082df9321a934ea8f14be1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 62516645266f67b7be61154b45afd00107ec3814
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982860"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,13 +77,13 @@ Microsoft Lync Server 2013, 계획 도구를 사용 하 여 중재 서버를 col
 
 **사이트 1의 중재 서버와 사이트 2의 PSTN 게이트웨이를 사용 하 여 WAN 링크로 연결 된 사이트의 예**
 
-(images/Gg398537.67872e61-1444-447b-918c-abe89abc3004(OCS.15).jpg "중재 서버 Wan 게이트웨이를 사용 하는") ![중재 서버 Wan 게이트웨이 음성 토폴로지가 있는 음성 토폴로지]
+![중재 서버 WAN 게이트웨이를 사용하는 음성 토폴로지](images/Gg398537.67872e61-1444-447b-918c-abe89abc3004(OCS.15).jpg "중재 서버 WAN 게이트웨이를 사용하는 음성 토폴로지")
 
 다음 그림은 중재 서버가 사이트 1의 프런트 엔드 풀에 있는 레지스트라로 collocated 하 고 사이트 1의 ip-pbx (IP-PBX)에 대 한 직접 SIP 연결을 사용 하는 간단한 토폴로지를 보여 줍니다. 이 그림에서 중재 서버는 사이트 2 에서도 PSTN 게이트웨이를 제어 합니다. Lync 사용자가 사이트 1 및 2에 있다고 가정 합니다. 또한 ip PBX에는 IP pbx가 제어 하는 미디어 끝점에 전송 하기 전에 Lync 끝점에서 생성 된 모든 미디어에서 통과 해야 하는 관련 미디어 프로세서가 있다고 가정 합니다. 이 토폴로지에서는 미디어 바이패스를 사이트 및 지역 정보를 사용 하도록 전체적으로 설정 하 고, PBX 및 PSTN 게이트웨이에 대 한 trunks는 미디어 바이패스를 사용 하도록 설정 합니다.
 
 **사이트 1의 중재 서버와 사이트 2에 있는 PBX를 사용 하 여 WAN 링크로 연결 된 사이트의 예**
 
-![음성 토폴로지 중재 서버 WAN pbx](images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "음성 토폴로지 중재 서버 wan pbx")
+![음성 토폴로지 중재 서버 WAN PBX](images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "음성 토폴로지 중재 서버 WAN PBX")
 
 PBX 토폴로지 계획에 대 한 자세한 내용은 lync server 2013의 중재 서버와 [Lync server 2013의 직접 SIP 배포 옵션](lync-server-2013-direct-sip-deployment-options.md) [에 대 한 배포 지침](lync-server-2013-deployment-guidelines-for-mediation-server.md) 을 참조 하세요.
 

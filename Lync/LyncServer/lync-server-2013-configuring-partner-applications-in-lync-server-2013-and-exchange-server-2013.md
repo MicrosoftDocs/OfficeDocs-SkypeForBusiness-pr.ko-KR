@@ -3,6 +3,8 @@ title: Lync Server 2013 및 Exchange Server 2013에서 파트너 응용 프로�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring partner applications in Lync Server 2013 and Exchange Server 2013
 ms:assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dad815a67dafea510513e334c910a5dbb8a2e82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c60e018a86ec0838791d5fc46845460b5f039f23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985754"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741158"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 클라이언트 버전 규칙'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client version rules
 ms:assetid: 8ed9d704-7bdd-41b3-89c6-daca8aa640b4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898481(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50873761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3417328fcd0fad9d30c6eee8dbb2a95e883ebb4a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c28548bdde01ed9edf4a2ca49c17aa9651309dc9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985146"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756472"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
