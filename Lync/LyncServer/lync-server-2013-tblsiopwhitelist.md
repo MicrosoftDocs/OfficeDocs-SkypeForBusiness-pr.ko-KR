@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblSiopWhiteList'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblSiopWhiteList
 ms:assetid: 05fc1df4-32eb-4d46-9d1c-e0b607091142
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558607(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183310
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fff11d98d35b288436922477025ea9cf49e924cb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d85fc3dd6575433b605d6ce9100aacfde56782e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983494"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764068"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40983494"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblsiopwhitelist-in-lync-server-2013"></a><span data-ttu-id="98a5e-102">Lync Server 2013의 tblSiopWhiteList</span><span class="sxs-lookup"><span data-stu-id="98a5e-102">tblSiopWhiteList in Lync Server 2013</span></span>
+# <a name="tblsiopwhitelist-in-lync-server-2013"></a><span data-ttu-id="6ce17-102">Lync Server 2013의 tblSiopWhiteList</span><span class="sxs-lookup"><span data-stu-id="6ce17-102">tblSiopWhiteList in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,11 +35,11 @@ ms.locfileid: "40983494"
 
 <span> </span>
 
-<span data-ttu-id="98a5e-103">_**마지막으로 수정한 주제:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="98a5e-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="6ce17-103">_**마지막으로 수정한 주제:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="6ce17-103">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="98a5e-104">tblSiopWhiteList는 노드와 연결할 수 있는 등록 된 추가 기능 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="98a5e-104">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
+<span data-ttu-id="6ce17-104">tblSiopWhiteList는 노드와 연결할 수 있는 등록 된 추가 기능 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="6ce17-104">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="98a5e-105">열</span><span class="sxs-lookup"><span data-stu-id="98a5e-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="6ce17-105">열</span><span class="sxs-lookup"><span data-stu-id="6ce17-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -47,32 +49,32 @@ ms.locfileid: "40983494"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="98a5e-106">열</span><span class="sxs-lookup"><span data-stu-id="98a5e-106">Column</span></span></th>
-<th><span data-ttu-id="98a5e-107">유형</span><span class="sxs-lookup"><span data-stu-id="98a5e-107">Type</span></span></th>
-<th><span data-ttu-id="98a5e-108">설명</span><span class="sxs-lookup"><span data-stu-id="98a5e-108">Description</span></span></th>
+<th><span data-ttu-id="6ce17-106">열</span><span class="sxs-lookup"><span data-stu-id="6ce17-106">Column</span></span></th>
+<th><span data-ttu-id="6ce17-107">유형</span><span class="sxs-lookup"><span data-stu-id="6ce17-107">Type</span></span></th>
+<th><span data-ttu-id="6ce17-108">설명</span><span class="sxs-lookup"><span data-stu-id="6ce17-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="98a5e-109">siopID</span><span class="sxs-lookup"><span data-stu-id="98a5e-109">siopID</span></span></p></td>
-<td><p><span data-ttu-id="98a5e-110">GUID (null 아님)</span><span class="sxs-lookup"><span data-stu-id="98a5e-110">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="98a5e-111">추가 기능의 GUID입니다.</span><span class="sxs-lookup"><span data-stu-id="98a5e-111">GUID of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="6ce17-109">siopID</span><span class="sxs-lookup"><span data-stu-id="6ce17-109">siopID</span></span></p></td>
+<td><p><span data-ttu-id="6ce17-110">GUID (null 아님)</span><span class="sxs-lookup"><span data-stu-id="6ce17-110">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="6ce17-111">추가 기능의 GUID입니다.</span><span class="sxs-lookup"><span data-stu-id="6ce17-111">GUID of the add-in.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="98a5e-112">siopName</span><span class="sxs-lookup"><span data-stu-id="98a5e-112">siopName</span></span></p></td>
-<td><p><span data-ttu-id="98a5e-113">nvarchar (50), null 아님</span><span class="sxs-lookup"><span data-stu-id="98a5e-113">nvarchar (50), not null</span></span></p></td>
-<td><p><span data-ttu-id="98a5e-114">Display-추가 기능의 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="98a5e-114">Display-name of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="6ce17-112">siopName</span><span class="sxs-lookup"><span data-stu-id="6ce17-112">siopName</span></span></p></td>
+<td><p><span data-ttu-id="6ce17-113">nvarchar (50), null 아님</span><span class="sxs-lookup"><span data-stu-id="6ce17-113">nvarchar (50), not null</span></span></p></td>
+<td><p><span data-ttu-id="6ce17-114">Display-추가 기능의 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="6ce17-114">Display-name of the add-in.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="98a5e-115">siopUrl</span><span class="sxs-lookup"><span data-stu-id="98a5e-115">siopUrl</span></span></p></td>
-<td><p><span data-ttu-id="98a5e-116">nvarchar (255), null 아님</span><span class="sxs-lookup"><span data-stu-id="98a5e-116">nvarchar (255), not null</span></span></p></td>
-<td><p><span data-ttu-id="98a5e-117">추가 기능의 URL입니다.</span><span class="sxs-lookup"><span data-stu-id="98a5e-117">URL of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="6ce17-115">siopUrl</span><span class="sxs-lookup"><span data-stu-id="6ce17-115">siopUrl</span></span></p></td>
+<td><p><span data-ttu-id="6ce17-116">nvarchar (255), null 아님</span><span class="sxs-lookup"><span data-stu-id="6ce17-116">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="6ce17-117">추가 기능의 URL입니다.</span><span class="sxs-lookup"><span data-stu-id="6ce17-117">URL of the add-in.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="98a5e-118">키</span><span class="sxs-lookup"><span data-stu-id="98a5e-118">Key</span></span>
+### <a name="key"></a><span data-ttu-id="6ce17-118">키</span><span class="sxs-lookup"><span data-stu-id="6ce17-118">Key</span></span>
 
 <table>
 <colgroup>
@@ -81,14 +83,14 @@ ms.locfileid: "40983494"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="98a5e-119">열</span><span class="sxs-lookup"><span data-stu-id="98a5e-119">Column</span></span></th>
-<th><span data-ttu-id="98a5e-120">설명</span><span class="sxs-lookup"><span data-stu-id="98a5e-120">Description</span></span></th>
+<th><span data-ttu-id="6ce17-119">열</span><span class="sxs-lookup"><span data-stu-id="6ce17-119">Column</span></span></th>
+<th><span data-ttu-id="6ce17-120">설명</span><span class="sxs-lookup"><span data-stu-id="6ce17-120">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="98a5e-121">siopID</span><span class="sxs-lookup"><span data-stu-id="98a5e-121">siopID</span></span></p></td>
-<td><p><span data-ttu-id="98a5e-122">기본 키입니다.</span><span class="sxs-lookup"><span data-stu-id="98a5e-122">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="6ce17-121">siopID</span><span class="sxs-lookup"><span data-stu-id="6ce17-121">siopID</span></span></p></td>
+<td><p><span data-ttu-id="6ce17-122">기본 키입니다.</span><span class="sxs-lookup"><span data-stu-id="6ce17-122">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>

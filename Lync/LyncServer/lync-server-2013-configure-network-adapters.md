@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 네트워크 어댑터 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure network adapters
 ms:assetid: 6519ed80-020f-47a3-851c-03dea5eac5d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429707(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3469e9d5fa3f7aeb45bc8f35ff692d97d09b8481
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 30889a6b145e7256a313c4deedafc74d99499719
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40979186"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758386"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40979186"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-network-adapters-in-lync-server-2013"></a><span data-ttu-id="30c61-102">Lync Server 2013에서 네트워크 어댑터 구성</span><span class="sxs-lookup"><span data-stu-id="30c61-102">Configure network adapters in Lync Server 2013</span></span>
+# <a name="configure-network-adapters-in-lync-server-2013"></a><span data-ttu-id="a4edf-102">Lync Server 2013에서 네트워크 어댑터 구성</span><span class="sxs-lookup"><span data-stu-id="a4edf-102">Configure network adapters in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,21 +35,21 @@ ms.locfileid: "40979186"
 
 <span> </span>
 
-<span data-ttu-id="30c61-103">_**마지막으로 수정한 주제:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="30c61-103">_**Topic Last Modified:** 2013-11-07_</span></span>
+<span data-ttu-id="a4edf-103">_**마지막으로 수정한 주제:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="a4edf-103">_**Topic Last Modified:** 2013-11-07_</span></span>
 
-<span data-ttu-id="30c61-104">하나 이상의 IP 주소를 외부 네트워크 어댑터 및 하나 이상의 IP 주소에 내부 네트워크 어댑터에 할당 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-104">You must assign one or more IP addresses to the external network adapter and at least one IP address to the internal network adapter.</span></span>
+<span data-ttu-id="a4edf-104">하나 이상의 IP 주소를 외부 네트워크 어댑터 및 하나 이상의 IP 주소에 내부 네트워크 어댑터에 할당 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-104">You must assign one or more IP addresses to the external network adapter and at least one IP address to the internal network adapter.</span></span>
 
-<span data-ttu-id="30c61-105">다음 절차에서 Forefront TMG (위협 관리 게이트웨이) 2010 또는 Internet Information Server 응용 프로그램 요청 라우팅 중 하나를 실행 하는 서버에는 두 개의 네트워크 어댑터가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-105">In the following procedures, the server running either Forefront Threat Management Gateway (TMG) 2010 or Internet Information Server Application Request Routing has two network adapters:</span></span>
+<span data-ttu-id="a4edf-105">다음 절차에서 Forefront TMG (위협 관리 게이트웨이) 2010 또는 Internet Information Server 응용 프로그램 요청 라우팅 중 하나를 실행 하는 서버에는 두 개의 네트워크 어댑터가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-105">In the following procedures, the server running either Forefront Threat Management Gateway (TMG) 2010 or Internet Information Server Application Request Routing has two network adapters:</span></span>
 
-  - <span data-ttu-id="30c61-106">웹 사이트 (일반적으로 인터넷을 통해)에 연결 하려고 하는 클라이언트에 대 한 공용 또는 외부 네트워크 어댑터</span><span class="sxs-lookup"><span data-stu-id="30c61-106">A public, or external, network adapter, for clients that attempt to connect to your website (that is, usually over the Internet).</span></span>
+  - <span data-ttu-id="a4edf-106">웹 사이트 (일반적으로 인터넷을 통해)에 연결 하려고 하는 클라이언트에 대 한 공용 또는 외부 네트워크 어댑터</span><span class="sxs-lookup"><span data-stu-id="a4edf-106">A public, or external, network adapter, for clients that attempt to connect to your website (that is, usually over the Internet).</span></span>
 
-  - <span data-ttu-id="30c61-107">웹 서비스를 호스팅하는 Lync Server를 실행 하는 내부 서버의 개인 또는 내부 네트워크 인터페이스입니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-107">A private, or internal, network interface, for internal servers running Lync Server that are hosting Web Services.</span></span>
+  - <span data-ttu-id="a4edf-107">웹 서비스를 호스팅하는 Lync Server를 실행 하는 내부 서버의 개인 또는 내부 네트워크 인터페이스입니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-107">A private, or internal, network interface, for internal servers running Lync Server that are hosting Web Services.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="30c61-108">Edge 서버와 유사 하 게, 외부 네트워크 어댑터에만 기본 게이트웨이를 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-108">Similar to the Edge Servers, you set the default gateway on the external network adapter only.</span></span> <span data-ttu-id="30c61-109">기본 게이트웨이는 트래픽을 인터넷에 연결 하는 라우터 또는 외부 방화벽의 IP 주소를 말합니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-109">The default gateway will be the IP address of the router or external facing firewall that directs traffic to the Internet.</span></span> <span data-ttu-id="30c61-110">역방향 프록시에서 내부 네트워크 어댑터에서 향하는 트래픽에 대해 웹 게시 규칙에서 참조 하는 서버가 포함 된 모든 서브넷에 대해 영구 고정 경로 (예: Windows Server의 경로 명령)를 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-110">For traffic that is destined from the reverse proxy to the internal facing network adaptor, you must use persistent static routes (such as the route command in Windows Server) for all subnets containing servers referenced by the web publishing rules.</span></span> <span data-ttu-id="30c61-111">영구 경로를 설정 하면 컴퓨터가 라우터가 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-111">Setting a persistent route does not cause the computer to become a router.</span></span> <span data-ttu-id="30c61-112">IP 전달을 사용할 수 없는 경우 컴퓨터는 다른 네트워크로 향하는 특정 트래픽만 적절 한 인터페이스로 작동 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-112">If IP forwarding is not enabled, the computer is acting only to direct specific traffic destined for another network to the appropriate interface.</span></span> <span data-ttu-id="30c61-113">이는 본질적으로 두 게이트웨이를 외부 네트워크를 가리키는 기본으로 설정 하 고, 내부 인터페이스로 전송 되는 트래픽과 라우터 또는 다른 네트워크에 연결할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-113">This is essentially setting two gateways – one as the default pointing to the external networks, and one for traffic destined to the internal interface and on to a router or other network.</span></span><BR><span data-ttu-id="30c61-114">그러나 네트워크 라우터가 경로를 요약 하도록 구성 된 경우 모든 서브넷에 대해 영구 경로 만들기가 필요 하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-114">However, creating persistent routes for all subnets may not be necessary if your network’s routers are configured to summarize routes.</span></span> <span data-ttu-id="30c61-115">라우터가 정의 된 네트워크에 대 한 영구 경로를 만들고 기본 게이트웨이로 라우터를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-115">Create a persistent route to the network where the router is defined and use the router as the default gateway.</span></span> <span data-ttu-id="30c61-116">네트워크를 구성 하는 방법을 잘 모르는 경우, 만들어야 할 영구 경로에 대 한 지침이 필요한 경우 회사의 네트워크 엔지니어에 게 문의 하세요.</span><span class="sxs-lookup"><span data-stu-id="30c61-116">If you are not sure how your network is configured and need guidance on what persistent routes need to be created, consult with your company’s Network Engineers.</span></span><BR><span data-ttu-id="30c61-117">역방향 프록시는 웹 게시 규칙에 사용 되는 내부 디렉터 또는 프런트 엔드 서버 및 다음 홉 풀 Fqdn에 대 한 DNS 호스트 (A) 레코드를 확인할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-117">The reverse proxy must be able to resolve the DNS host (A) records for the internal Director or Front End Server and next hop pool FQDNs used in the web publishing rules.</span></span> <span data-ttu-id="30c61-118">Edge 서버와 마찬가지로 보안상의 이유로, 역방향 프록시를 구성 하 여 내부 네트워크에 있는 DNS 서버를 사용 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-118">As with the Edge Servers, for security reasons, we recommend that you do not configure a reverse proxy to use a DNS server located in the internal network.</span></span> <span data-ttu-id="30c61-119">즉, 경계에 DNS 서버가 필요 하거나 이러한 각 Fqdn을 서버의 내부 IP 주소로 확인 하는 호스트 파일 항목이 리버스 프록시에 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-119">This means you either need DNS servers in the perimeter, or you need HOSTS file entries on the reverse proxy that resolves each of these FQDNs to the internal IP address of the servers.</span></span>
+> <span data-ttu-id="a4edf-108">Edge 서버와 유사 하 게, 외부 네트워크 어댑터에만 기본 게이트웨이를 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-108">Similar to the Edge Servers, you set the default gateway on the external network adapter only.</span></span> <span data-ttu-id="a4edf-109">기본 게이트웨이는 트래픽을 인터넷에 연결 하는 라우터 또는 외부 방화벽의 IP 주소를 말합니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-109">The default gateway will be the IP address of the router or external facing firewall that directs traffic to the Internet.</span></span> <span data-ttu-id="a4edf-110">역방향 프록시에서 내부 네트워크 어댑터에서 향하는 트래픽에 대해 웹 게시 규칙에서 참조 하는 서버가 포함 된 모든 서브넷에 대해 영구 고정 경로 (예: Windows Server의 경로 명령)를 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-110">For traffic that is destined from the reverse proxy to the internal facing network adaptor, you must use persistent static routes (such as the route command in Windows Server) for all subnets containing servers referenced by the web publishing rules.</span></span> <span data-ttu-id="a4edf-111">영구 경로를 설정 하면 컴퓨터가 라우터가 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-111">Setting a persistent route does not cause the computer to become a router.</span></span> <span data-ttu-id="a4edf-112">IP 전달을 사용할 수 없는 경우 컴퓨터는 다른 네트워크로 향하는 특정 트래픽만 적절 한 인터페이스로 작동 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-112">If IP forwarding is not enabled, the computer is acting only to direct specific traffic destined for another network to the appropriate interface.</span></span> <span data-ttu-id="a4edf-113">이는 본질적으로 두 게이트웨이를 외부 네트워크를 가리키는 기본으로 설정 하 고, 내부 인터페이스로 전송 되는 트래픽과 라우터 또는 다른 네트워크에 연결할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-113">This is essentially setting two gateways – one as the default pointing to the external networks, and one for traffic destined to the internal interface and on to a router or other network.</span></span><BR><span data-ttu-id="a4edf-114">그러나 네트워크 라우터가 경로를 요약 하도록 구성 된 경우 모든 서브넷에 대해 영구 경로 만들기가 필요 하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-114">However, creating persistent routes for all subnets may not be necessary if your network’s routers are configured to summarize routes.</span></span> <span data-ttu-id="a4edf-115">라우터가 정의 된 네트워크에 대 한 영구 경로를 만들고 기본 게이트웨이로 라우터를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-115">Create a persistent route to the network where the router is defined and use the router as the default gateway.</span></span> <span data-ttu-id="a4edf-116">네트워크를 구성 하는 방법을 잘 모르는 경우, 만들어야 할 영구 경로에 대 한 지침이 필요한 경우 회사의 네트워크 엔지니어에 게 문의 하세요.</span><span class="sxs-lookup"><span data-stu-id="a4edf-116">If you are not sure how your network is configured and need guidance on what persistent routes need to be created, consult with your company’s Network Engineers.</span></span><BR><span data-ttu-id="a4edf-117">역방향 프록시는 웹 게시 규칙에 사용 되는 내부 디렉터 또는 프런트 엔드 서버 및 다음 홉 풀 Fqdn에 대 한 DNS 호스트 (A) 레코드를 확인할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-117">The reverse proxy must be able to resolve the DNS host (A) records for the internal Director or Front End Server and next hop pool FQDNs used in the web publishing rules.</span></span> <span data-ttu-id="a4edf-118">Edge 서버와 마찬가지로 보안상의 이유로, 역방향 프록시를 구성 하 여 내부 네트워크에 있는 DNS 서버를 사용 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-118">As with the Edge Servers, for security reasons, we recommend that you do not configure a reverse proxy to use a DNS server located in the internal network.</span></span> <span data-ttu-id="a4edf-119">즉, 경계에 DNS 서버가 필요 하거나 이러한 각 Fqdn을 서버의 내부 IP 주소로 확인 하는 호스트 파일 항목이 리버스 프록시에 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-119">This means you either need DNS servers in the perimeter, or you need HOSTS file entries on the reverse proxy that resolves each of these FQDNs to the internal IP address of the servers.</span></span>
 
 
 
@@ -55,30 +57,30 @@ ms.locfileid: "40979186"
 
 <div>
 
-## <a name="to-configure-the-network-adapter-cards-on-the-reverse-proxy-computer"></a><span data-ttu-id="30c61-120">역방향 프록시 컴퓨터에서 네트워크 어댑터 카드를 구성 하려면</span><span class="sxs-lookup"><span data-stu-id="30c61-120">To configure the network adapter cards on the reverse proxy computer</span></span>
+## <a name="to-configure-the-network-adapter-cards-on-the-reverse-proxy-computer"></a><span data-ttu-id="a4edf-120">역방향 프록시 컴퓨터에서 네트워크 어댑터 카드를 구성 하려면</span><span class="sxs-lookup"><span data-stu-id="a4edf-120">To configure the network adapter cards on the reverse proxy computer</span></span>
 
-1.  <span data-ttu-id="30c61-121">리버스 프록시로 실행 되는 Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 또는 Windows Server 2012 R2 서버에서 **시작**을 클릭 하 고 **제어판**을 가리킨 다음 **네트워크 및 공유 센터**를 클릭 하 고 **어댑터 설정 변경을**클릭 하 여 **어댑터 설정 변경을** 엽니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-121">On the Windows Server 2008, Windows Server 2008 R2, Windows Server 2012, or Windows Server 2012 R2 server running as the reverse proxy, open **Change Adapter Settings** by clicking **Start**, pointing to **Control Panel**, clicking **Network and Sharing Center**, and then clicking **Change Adapter Settings**.</span></span>
+1.  <span data-ttu-id="a4edf-121">리버스 프록시로 실행 되는 Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 또는 Windows Server 2012 R2 서버에서 **시작**을 클릭 하 고 **제어판**을 가리킨 다음 **네트워크 및 공유 센터**를 클릭 하 고 **어댑터 설정 변경을**클릭 하 여 **어댑터 설정 변경을** 엽니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-121">On the Windows Server 2008, Windows Server 2008 R2, Windows Server 2012, or Windows Server 2012 R2 server running as the reverse proxy, open **Change Adapter Settings** by clicking **Start**, pointing to **Control Panel**, clicking **Network and Sharing Center**, and then clicking **Change Adapter Settings**.</span></span>
 
-2.  <span data-ttu-id="30c61-122">외부 인터페이스에 사용할 외부 네트워크 연결을 마우스 오른쪽 단추로 클릭 한 다음 **속성**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-122">Right-click the external network connection that you want to use for the external interface, and then click **Properties**.</span></span>
+2.  <span data-ttu-id="a4edf-122">외부 인터페이스에 사용할 외부 네트워크 연결을 마우스 오른쪽 단추로 클릭 한 다음 **속성**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-122">Right-click the external network connection that you want to use for the external interface, and then click **Properties**.</span></span>
 
-3.  <span data-ttu-id="30c61-123">**속성** 페이지에서 **네트워킹** 탭을 클릭 하 고 **이 연결에 다음 항목 사용** 목록에서 **인터넷 프로토콜 버전 4 (tcp/ip)** 를 클릭 한 다음 **속성**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-123">On the **Properties** page, click the **Networking** tab, click **Internet Protocol Version 4 (TCP/IPv4)** in the **This connection uses the following items** list, and then click **Properties**.</span></span>
+3.  <span data-ttu-id="a4edf-123">**속성** 페이지에서 **네트워킹** 탭을 클릭 하 고 **이 연결에 다음 항목 사용** 목록에서 **인터넷 프로토콜 버전 4 (tcp/ip)** 를 클릭 한 다음 **속성**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-123">On the **Properties** page, click the **Networking** tab, click **Internet Protocol Version 4 (TCP/IPv4)** in the **This connection uses the following items** list, and then click **Properties**.</span></span>
 
-4.  <span data-ttu-id="30c61-124">**인터넷 프로토콜 (tcp/ip) 속성** 페이지에서 네트워크 어댑터가 연결 된 네트워크 서브넷에 대해 IP 주소를 적절 하 게 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-124">On the **Internet Protocol (TCP/IP) Properties** page, configure the IP addresses as appropriate for the network subnet to which the network adapter is attached.</span></span>
+4.  <span data-ttu-id="a4edf-124">**인터넷 프로토콜 (tcp/ip) 속성** 페이지에서 네트워크 어댑터가 연결 된 네트워크 서브넷에 대해 IP 주소를 적절 하 게 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-124">On the **Internet Protocol (TCP/IP) Properties** page, configure the IP addresses as appropriate for the network subnet to which the network adapter is attached.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="30c61-125">역방향 프록시를 HTTPS/TCP/443을 사용 하는 다른 응용 프로그램에서 이미 사용 하 고 있는 경우 Outlook Web Access 게시와 같은 경우에는 다른 IP 주소를 추가 하 여 기존 규칙 및 웹 수신기를 방해 하지 않고, HTTPS/TCP/443에 Lync Server 2013 웹 서비스를 게시 하거나, 기존 인증서를 대체 하 여 새 외부 FQDN 이름을 주체 대체 이름에 추가 하는 것으로 변경 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-125">If the reverse proxy is already being used by other applications that use HTTPS/TCP/443, such as for publishing Outlook Web Access, you either need to add another IP address so that you can publish the Lync Server 2013 Web Services on HTTPS/TCP/443 without interfering with the existing rules and web listeners, or you need to replace the existing certificate with one that adds the new external FQDN names to the subject alternative name.</span></span>
+    > <span data-ttu-id="a4edf-125">역방향 프록시를 HTTPS/TCP/443을 사용 하는 다른 응용 프로그램에서 이미 사용 하 고 있는 경우 Outlook Web Access 게시와 같은 경우에는 다른 IP 주소를 추가 하 여 기존 규칙 및 웹 수신기를 방해 하지 않고, HTTPS/TCP/443에 Lync Server 2013 웹 서비스를 게시 하거나, 기존 인증서를 대체 하 여 새 외부 FQDN 이름을 주체 대체 이름에 추가 하는 것으로 변경 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-125">If the reverse proxy is already being used by other applications that use HTTPS/TCP/443, such as for publishing Outlook Web Access, you either need to add another IP address so that you can publish the Lync Server 2013 Web Services on HTTPS/TCP/443 without interfering with the existing rules and web listeners, or you need to replace the existing certificate with one that adds the new external FQDN names to the subject alternative name.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="30c61-126">**확인**을 클릭 한 다음 **확인**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-126">Click **OK**, and then click **OK**.</span></span>
+5.  <span data-ttu-id="a4edf-126">**확인**을 클릭 한 다음 **확인**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-126">Click **OK**, and then click **OK**.</span></span>
 
-6.  <span data-ttu-id="30c61-127">**네트워크 연결**에서 내부 인터페이스에 사용할 내부 네트워크 연결을 마우스 오른쪽 단추로 클릭 한 다음 **속성**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-127">In **Network Connections**, right-click the internal network connection that you want to use for the internal interface, and then click **Properties**.</span></span>
+6.  <span data-ttu-id="a4edf-127">**네트워크 연결**에서 내부 인터페이스에 사용할 내부 네트워크 연결을 마우스 오른쪽 단추로 클릭 한 다음 **속성**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-127">In **Network Connections**, right-click the internal network connection that you want to use for the internal interface, and then click **Properties**.</span></span>
 
-7.  <span data-ttu-id="30c61-128">3 ~ 5 단계를 반복 하 여 내부 네트워크 연결을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="30c61-128">Repeat steps 3 through 5 to configure the internal network connection.</span></span>
+7.  <span data-ttu-id="a4edf-128">3 ~ 5 단계를 반복 하 여 내부 네트워크 연결을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4edf-128">Repeat steps 3 through 5 to configure the internal network connection.</span></span>
 
 </div>
 

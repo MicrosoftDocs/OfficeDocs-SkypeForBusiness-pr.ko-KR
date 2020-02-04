@@ -3,6 +3,8 @@ title: 응답 그룹 마이그레이션
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate response groups
 ms:assetid: 43741ae7-c871-4573-b660-f2f5febc0856
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204854(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60a5bb2b2124b84adeb6a494f6f33ce867f7d416
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 23ef26b86b1de3fa7f9656cdb2ea82bb7a220948
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985778"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762906"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40985778"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-response-groups"></a><span data-ttu-id="1726f-102">응답 그룹 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="1726f-102">Migrate response groups</span></span>
+# <a name="migrate-response-groups"></a><span data-ttu-id="765a3-102">응답 그룹 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="765a3-102">Migrate response groups</span></span>
 
 </div>
 
@@ -33,53 +35,53 @@ ms.locfileid: "40985778"
 
 <span> </span>
 
-<span data-ttu-id="1726f-103">_**마지막으로 수정한 주제:** 2013-09-23_</span><span class="sxs-lookup"><span data-stu-id="1726f-103">_**Topic Last Modified:** 2013-09-23_</span></span>
+<span data-ttu-id="765a3-103">_**마지막으로 수정한 주제:** 2013-09-23_</span><span class="sxs-lookup"><span data-stu-id="765a3-103">_**Topic Last Modified:** 2013-09-23_</span></span>
 
-<span data-ttu-id="1726f-104">사용자를 Lync Server 2013 풀로 이동한 후에는 응답 그룹을 마이그레이션할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-104">After your users are moved to Lync Server 2013 pools, you can migrate your response groups.</span></span> <span data-ttu-id="1726f-105">응답 그룹을 마이그레이션하면 레거시 배포에서 Lync Server 2013 풀로 에이전트 그룹, 큐, 워크플로, 오디오 파일, 응답 그룹 연락처 개체를 복사 하는 작업이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-105">Migrating response groups includes copying agent groups, queues, workflows, audio files, and moving Response Group contact objects from the legacy deployment to the Lync Server 2013 pool.</span></span> <span data-ttu-id="1726f-106">레거시 응답 그룹을 마이그레이션한 후에는 응답 그룹에 대 한 호출이 Lync Server 2013 풀의 응답 그룹 응용 프로그램에 의해 처리 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-106">After you migrate your legacy response groups, calls to the response groups are handled by the Response Group application in the Lync Server 2013 pool.</span></span> <span data-ttu-id="1726f-107">응답 그룹에 대 한 호출은 더 이상 레거시 풀에서 처리 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-107">Calls to response groups are no longer handled by the legacy pool.</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="1726f-108">모든 사용자를 Lync Server 2013 풀로 이동 하기 전에 응답 그룹을 마이그레이션할 수 있지만 모든 사용자를 먼저 이동 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-108">Although you can migrate response groups before you move all users to the Lync Server 2013 pool, we recommend that you move all users first.</span></span> <span data-ttu-id="1726f-109">특히 응답 그룹 에이전트를 사용 하는 사용자는 Lync Server 2013 풀로 이동할 때까지 새로운 기능을 완전히 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-109">In particular, users who are response group agents will not have full functionality of new features until they are moved to the Lync Server 2013 pool.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="1726f-110">응답 그룹을 마이그레이션하기 전에 응답 그룹 응용 프로그램이 포함 된 Lync Server 2013 풀을 배포 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-110">Before you migrate response groups, you must have deployed a Lync Server 2013 pool that includes the Response Group application.</span></span> <span data-ttu-id="1726f-111">엔터프라이즈 음성을 배포할 때 응답 그룹 응용 프로그램이 기본적으로 설치 되 고 활성화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-111">The Response Group application is installed and activated by default when you deploy Enterprise Voice.</span></span> <span data-ttu-id="1726f-112">**Get-CsService – ApplicationServer** cmdlet을 실행 하 여 응답 그룹 응용 프로그램이 설치 되어 있는지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-112">You can ensure that the Response Group application is installed by running the **Get-CsService –ApplicationServer** cmdlet.</span></span>
+<span data-ttu-id="765a3-104">사용자를 Lync Server 2013 풀로 이동한 후에는 응답 그룹을 마이그레이션할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-104">After your users are moved to Lync Server 2013 pools, you can migrate your response groups.</span></span> <span data-ttu-id="765a3-105">응답 그룹을 마이그레이션하면 레거시 배포에서 Lync Server 2013 풀로 에이전트 그룹, 큐, 워크플로, 오디오 파일, 응답 그룹 연락처 개체를 복사 하는 작업이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-105">Migrating response groups includes copying agent groups, queues, workflows, audio files, and moving Response Group contact objects from the legacy deployment to the Lync Server 2013 pool.</span></span> <span data-ttu-id="765a3-106">레거시 응답 그룹을 마이그레이션한 후에는 응답 그룹에 대 한 호출이 Lync Server 2013 풀의 응답 그룹 응용 프로그램에 의해 처리 됩니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-106">After you migrate your legacy response groups, calls to the response groups are handled by the Response Group application in the Lync Server 2013 pool.</span></span> <span data-ttu-id="765a3-107">응답 그룹에 대 한 호출은 더 이상 레거시 풀에서 처리 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-107">Calls to response groups are no longer handled by the legacy pool.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="1726f-113">이전 응답 그룹을 마이그레이션하기 전에 Lync Server 2013 풀에서 새 Lync Server 2013 응답 그룹을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-113">You can create new Lync Server 2013 response groups in the Lync Server 2013 pool before you migrate your legacy response groups.</span></span>
+> <span data-ttu-id="765a3-108">모든 사용자를 Lync Server 2013 풀로 이동 하기 전에 응답 그룹을 마이그레이션할 수 있지만 모든 사용자를 먼저 이동 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-108">Although you can migrate response groups before you move all users to the Lync Server 2013 pool, we recommend that you move all users first.</span></span> <span data-ttu-id="765a3-109">특히 응답 그룹 에이전트를 사용 하는 사용자는 Lync Server 2013 풀로 이동할 때까지 새로운 기능을 완전히 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-109">In particular, users who are response group agents will not have full functionality of new features until they are moved to the Lync Server 2013 pool.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="1726f-114">응답 그룹을 레거시 풀에서 Lync Server 2013로 마이그레이션하려면 **CsRgsConfiguration** cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-114">To migrate response groups from a legacy pool to the Lync Server 2013, you run the **Move-CsRgsConfiguration** cmdlet.</span></span>
+<span data-ttu-id="765a3-110">응답 그룹을 마이그레이션하기 전에 응답 그룹 응용 프로그램이 포함 된 Lync Server 2013 풀을 배포 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-110">Before you migrate response groups, you must have deployed a Lync Server 2013 pool that includes the Response Group application.</span></span> <span data-ttu-id="765a3-111">엔터프라이즈 음성을 배포할 때 응답 그룹 응용 프로그램이 기본적으로 설치 되 고 활성화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-111">The Response Group application is installed and activated by default when you deploy Enterprise Voice.</span></span> <span data-ttu-id="765a3-112">**Get-CsService – ApplicationServer** cmdlet을 실행 하 여 응답 그룹 응용 프로그램이 설치 되어 있는지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-112">You can ensure that the Response Group application is installed by running the **Get-CsService –ApplicationServer** cmdlet.</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="765a3-113">이전 응답 그룹을 마이그레이션하기 전에 Lync Server 2013 풀에서 새 Lync Server 2013 응답 그룹을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-113">You can create new Lync Server 2013 response groups in the Lync Server 2013 pool before you migrate your legacy response groups.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="765a3-114">응답 그룹을 레거시 풀에서 Lync Server 2013로 마이그레이션하려면 **CsRgsConfiguration** cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-114">To migrate response groups from a legacy pool to the Lync Server 2013, you run the **Move-CsRgsConfiguration** cmdlet.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="1726f-115">응답 그룹 마이그레이션 cmdlet은 전체 풀에 대 한 응답 그룹 구성을 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-115">The Response Group migration cmdlet moves the Response Group configuration for the entire pool.</span></span> <span data-ttu-id="1726f-116">마이그레이션할 특정 그룹, 큐 또는 워크플로를 선택할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-116">You cannot select specific groups, queues, or workflows to migrate.</span></span>
+> <span data-ttu-id="765a3-115">응답 그룹 마이그레이션 cmdlet은 전체 풀에 대 한 응답 그룹 구성을 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-115">The Response Group migration cmdlet moves the Response Group configuration for the entire pool.</span></span> <span data-ttu-id="765a3-116">마이그레이션할 특정 그룹, 큐 또는 워크플로를 선택할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-116">You cannot select specific groups, queues, or workflows to migrate.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="1726f-117">응답 그룹을 마이그레이션한 후에는 Lync Server 제어판 또는 Lync Server Management Shell cmdlet을 사용 하 여 모든 에이전트 그룹, 큐 및 워크플로가 성공적으로 이동 되었는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-117">After you migrate the response groups, you need to use Lync Server Control Panel or Lync Server Management Shell cmdlets to verify that all agent groups, queues, and workflows moved successfully.</span></span>
+<span data-ttu-id="765a3-117">응답 그룹을 마이그레이션한 후에는 Lync Server 제어판 또는 Lync Server Management Shell cmdlet을 사용 하 여 모든 에이전트 그룹, 큐 및 워크플로가 성공적으로 이동 되었는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-117">After you migrate the response groups, you need to use Lync Server Control Panel or Lync Server Management Shell cmdlets to verify that all agent groups, queues, and workflows moved successfully.</span></span>
 
-<span data-ttu-id="1726f-118">응답 그룹을 마이그레이션하면 Lync Server 2010 응답 그룹이 제거 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-118">When you migrate response groups, the Lync Server 2010 response groups are not removed.</span></span> <span data-ttu-id="1726f-119">Lync Server 제어판 또는 Lync Server Management Shell을 사용 하 여 마이그레이션한 후 응답 그룹을 관리 하는 경우 Lync Server 2010 응답 그룹과 Lync Server 2013 응답 그룹을 둘 다 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-119">When you manage response groups after migration by using either Lync Server Control Panel or Lync Server Management Shell, you can see both the Lync Server 2010 response groups and the Lync Server 2013 response groups.</span></span> <span data-ttu-id="1726f-120">Lync Server 2013 응답 그룹에만 업데이트를 적용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-120">You should apply updates only to the Lync Server 2013 response groups.</span></span> <span data-ttu-id="1726f-121">Lync Server 2010 응답 그룹은 롤백 용도로만 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-121">The Lync Server 2010 response groups are retained only for rollback purposes.</span></span>
+<span data-ttu-id="765a3-118">응답 그룹을 마이그레이션하면 Lync Server 2010 응답 그룹이 제거 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-118">When you migrate response groups, the Lync Server 2010 response groups are not removed.</span></span> <span data-ttu-id="765a3-119">Lync Server 제어판 또는 Lync Server Management Shell을 사용 하 여 마이그레이션한 후 응답 그룹을 관리 하는 경우 Lync Server 2010 응답 그룹과 Lync Server 2013 응답 그룹을 둘 다 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-119">When you manage response groups after migration by using either Lync Server Control Panel or Lync Server Management Shell, you can see both the Lync Server 2010 response groups and the Lync Server 2013 response groups.</span></span> <span data-ttu-id="765a3-120">Lync Server 2013 응답 그룹에만 업데이트를 적용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-120">You should apply updates only to the Lync Server 2013 response groups.</span></span> <span data-ttu-id="765a3-121">Lync Server 2010 응답 그룹은 롤백 용도로만 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-121">The Lync Server 2010 response groups are retained only for rollback purposes.</span></span>
 
 <div>
 
 
 > [!WARNING]  
-> <span data-ttu-id="1726f-122">마이그레이션이 완료 되 고 새 응답 그룹이 만들어졌으면 lync server 제어판 및 Lync Server 관리 셸에서는 각 응답 그룹의 Lync Server 2010 및 Lync Server 2013 버전을 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-122">After the migration has been completed and the new response groups have been created, the Lync Server Control Panel and the Lync Server Management Shell will display the Lync Server 2010 and Lync Server 2013 versions of each response group.</span></span> <span data-ttu-id="1726f-123">Lync server 2010 응답 그룹을 제거 하는 데 Lync Server 제어판 또는 Lync Server Management Shell을 사용 하지 마세요.</span><span class="sxs-lookup"><span data-stu-id="1726f-123">Do not use Lync Server Control Panel or Lync Server Management Shell to remove the Lync Server 2010 response groups.</span></span> <span data-ttu-id="1726f-124">제거 하는 경우 마이그레이션 중에 만든 해당 응답 그룹의 작동이 중지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-124">If you do remove one, the corresponding response group that was created during migration will stop working.</span></span> <span data-ttu-id="1726f-125">Lync server 2010 응답 그룹을 해제 하면 lync server 2010 풀이 제거 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-125">The Lync Server 2010 response groups will be removed when you decommission the Lync Server 2010 pool.</span></span>
+> <span data-ttu-id="765a3-122">마이그레이션이 완료 되 고 새 응답 그룹이 만들어졌으면 lync server 제어판 및 Lync Server 관리 셸에서는 각 응답 그룹의 Lync Server 2010 및 Lync Server 2013 버전을 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-122">After the migration has been completed and the new response groups have been created, the Lync Server Control Panel and the Lync Server Management Shell will display the Lync Server 2010 and Lync Server 2013 versions of each response group.</span></span> <span data-ttu-id="765a3-123">Lync server 2010 응답 그룹을 제거 하는 데 Lync Server 제어판 또는 Lync Server Management Shell을 사용 하지 마세요.</span><span class="sxs-lookup"><span data-stu-id="765a3-123">Do not use Lync Server Control Panel or Lync Server Management Shell to remove the Lync Server 2010 response groups.</span></span> <span data-ttu-id="765a3-124">제거 하는 경우 마이그레이션 중에 만든 해당 응답 그룹의 작동이 중지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-124">If you do remove one, the corresponding response group that was created during migration will stop working.</span></span> <span data-ttu-id="765a3-125">Lync server 2010 응답 그룹을 해제 하면 lync server 2010 풀이 제거 됩니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-125">The Lync Server 2010 response groups will be removed when you decommission the Lync Server 2010 pool.</span></span>
 
 
 
@@ -89,85 +91,85 @@ ms.locfileid: "40985778"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="1726f-126">풀을 해제할 때까지 이전 배포에서 데이터를 제거 하지 않는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-126">We recommend that you do not remove any data from your previous deployment until you decommission the pool.</span></span> <span data-ttu-id="1726f-127">또한 마이그레이션한 후 즉시 응답 그룹을 내보낼 것을 적극 권장 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-127">In addition, we strongly recommend that you export response groups immediately after you migrate.</span></span> <span data-ttu-id="1726f-128">Lync Server 2010 응답 그룹을 제거 해야 하는 경우 백업에서 응답 그룹을 복원 하 여 Lync Server 2013 응답 그룹을 다시 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-128">If a Lync Server 2010 response group should get removed, you can then restore your response groups from the backup to get Lync Server 2013 response groups running again.</span></span>
+> <span data-ttu-id="765a3-126">풀을 해제할 때까지 이전 배포에서 데이터를 제거 하지 않는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-126">We recommend that you do not remove any data from your previous deployment until you decommission the pool.</span></span> <span data-ttu-id="765a3-127">또한 마이그레이션한 후 즉시 응답 그룹을 내보낼 것을 적극 권장 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-127">In addition, we strongly recommend that you export response groups immediately after you migrate.</span></span> <span data-ttu-id="765a3-128">Lync Server 2010 응답 그룹을 제거 해야 하는 경우 백업에서 응답 그룹을 복원 하 여 Lync Server 2013 응답 그룹을 다시 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-128">If a Lync Server 2010 response group should get removed, you can then restore your response groups from the backup to get Lync Server 2013 response groups running again.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="1726f-129">Lync Server 2013는 **워크플로 형식**이라는 새 응답 그룹 기능을 소개 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-129">Lync Server 2013 introduces a new Response Group feature called **Workflow Type**.</span></span> <span data-ttu-id="1726f-130">**워크플로 유형은** **관리** 또는 **비관리형**일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-130">**Workflow Type** can be **Managed** or **Unmanaged**.</span></span> <span data-ttu-id="1726f-131">모든 응답 그룹은 **워크플로 유형이** **비관리형** 으로 설정 되 고 빈 관리자 목록이 있는 상태로 마이그레이션됩니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-131">All response groups are migrated with **Workflow Type** set to **Unmanaged** and with an empty Manager list.</span></span>
+<span data-ttu-id="765a3-129">Lync Server 2013는 **워크플로 형식**이라는 새 응답 그룹 기능을 소개 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-129">Lync Server 2013 introduces a new Response Group feature called **Workflow Type**.</span></span> <span data-ttu-id="765a3-130">**워크플로 유형은** **관리** 또는 **비관리형**일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-130">**Workflow Type** can be **Managed** or **Unmanaged**.</span></span> <span data-ttu-id="765a3-131">모든 응답 그룹은 **워크플로 유형이** **비관리형** 으로 설정 되 고 빈 관리자 목록이 있는 상태로 마이그레이션됩니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-131">All response groups are migrated with **Workflow Type** set to **Unmanaged** and with an empty Manager list.</span></span>
 
-<span data-ttu-id="1726f-132">**CsRgsConfiguration** cmdlet을 실행 하는 경우 롤백 목적으로 에이전트 그룹, 큐, 워크플로 및 오디오 파일이 레거시 풀에 남아 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-132">When you run the **Move-CsRgsConfiguration** cmdlet, the agent groups, queues, workflows, and audio files remain in the legacy pool for rollback purposes.</span></span> <span data-ttu-id="1726f-133">그러나 레거시 풀로 롤백해야 하는 경우에는 요청 **이동 Applicationendpoint** cmdlet을 실행 하 여 연락처 개체를 레거시 풀로 다시 이동 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-133">If you do need to roll back to the legacy pool, however, you need to run the **Move-CsApplicationEndpoint** cmdlet to move contact objects back to the legacy pool.</span></span>
+<span data-ttu-id="765a3-132">**CsRgsConfiguration** cmdlet을 실행 하는 경우 롤백 목적으로 에이전트 그룹, 큐, 워크플로 및 오디오 파일이 레거시 풀에 남아 있습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-132">When you run the **Move-CsRgsConfiguration** cmdlet, the agent groups, queues, workflows, and audio files remain in the legacy pool for rollback purposes.</span></span> <span data-ttu-id="765a3-133">그러나 레거시 풀로 롤백해야 하는 경우에는 요청 **이동 Applicationendpoint** cmdlet을 실행 하 여 연락처 개체를 레거시 풀로 다시 이동 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-133">If you do need to roll back to the legacy pool, however, you need to run the **Move-CsApplicationEndpoint** cmdlet to move contact objects back to the legacy pool.</span></span>
 
-<span data-ttu-id="1726f-134">응답 그룹 구성을 마이그레이션하는 다음 절차는 레거시 풀과 Lync Server 2013 풀 간에 일대일 관계를 사용 하는 것으로 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-134">The following procedure for migrating Response Group configurations assumes that you have a one-to-one relationship between your legacy pools and the Lync Server 2013 pools.</span></span> <span data-ttu-id="1726f-135">마이그레이션 및 배포 중에 풀을 통합 하거나 분할할 계획 이라면 어떤 레거시 풀이 어떤 Lync Server 2013 풀에 매핑되는지 계획 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-135">If you plan to consolidate or split up pools during your migration and deployment, you need to plan which legacy pool maps to which Lync Server 2013 pool.</span></span>
+<span data-ttu-id="765a3-134">응답 그룹 구성을 마이그레이션하는 다음 절차는 레거시 풀과 Lync Server 2013 풀 간에 일대일 관계를 사용 하는 것으로 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-134">The following procedure for migrating Response Group configurations assumes that you have a one-to-one relationship between your legacy pools and the Lync Server 2013 pools.</span></span> <span data-ttu-id="765a3-135">마이그레이션 및 배포 중에 풀을 통합 하거나 분할할 계획 이라면 어떤 레거시 풀이 어떤 Lync Server 2013 풀에 매핑되는지 계획 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-135">If you plan to consolidate or split up pools during your migration and deployment, you need to plan which legacy pool maps to which Lync Server 2013 pool.</span></span>
 
 <div>
 
-## <a name="to-migrate-response-group-configurations"></a><span data-ttu-id="1726f-136">응답 그룹 구성을 마이그레이션하려면</span><span class="sxs-lookup"><span data-stu-id="1726f-136">To migrate Response Group configurations</span></span>
+## <a name="to-migrate-response-group-configurations"></a><span data-ttu-id="765a3-136">응답 그룹 구성을 마이그레이션하려면</span><span class="sxs-lookup"><span data-stu-id="765a3-136">To migrate Response Group configurations</span></span>
 
-1.  <span data-ttu-id="1726f-137">RTCUniversalServerAdmins 그룹의 구성원 이거나 해당 관리자 권한이 있는 계정을 사용 하 여 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-137">Log on to the computer with an account that is a member of the RTCUniversalServerAdmins group or has equivalent administrator rights and permissions.</span></span>
+1.  <span data-ttu-id="765a3-137">RTCUniversalServerAdmins 그룹의 구성원 이거나 해당 관리자 권한이 있는 계정을 사용 하 여 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-137">Log on to the computer with an account that is a member of the RTCUniversalServerAdmins group or has equivalent administrator rights and permissions.</span></span>
 
-2.  <span data-ttu-id="1726f-138">Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-138">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="765a3-138">Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-138">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="1726f-139">런</span><span class="sxs-lookup"><span data-stu-id="1726f-139">Run:</span></span>
+3.  <span data-ttu-id="765a3-139">런</span><span class="sxs-lookup"><span data-stu-id="765a3-139">Run:</span></span>
     
         Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
     
-    <span data-ttu-id="1726f-140">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-140">For example:</span></span>
+    <span data-ttu-id="765a3-140">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-140">For example:</span></span>
     
         Move-CsRgsConfiguration -Source lync-old.contoso.net -Destination lync-new.contoso.net
 
-4.  <span data-ttu-id="1726f-141">응답 그룹 및 에이전트를 Lync Server 2013 풀로 마이그레이션한 후에는 에이전트가 로그인 하 고 로그 아웃 하는 데 사용 하는 URL이 Lync Server 2013 URL 이며 **도구** 메뉴에서 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-141">After you migrate response groups and agents to the Lync Server 2013 pool, the URL that agents use to sign in and sign out is a Lync Server 2013 URL and is available from the **Tools** menu.</span></span> <span data-ttu-id="1726f-142">상담원에 게 책갈피 등의 모든 참조를 새 URL로 업데이트 하도록 알립니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-142">Remind agents to update any references, such as bookmarks, to the new URL.</span></span>
+4.  <span data-ttu-id="765a3-141">응답 그룹 및 에이전트를 Lync Server 2013 풀로 마이그레이션한 후에는 에이전트가 로그인 하 고 로그 아웃 하는 데 사용 하는 URL이 Lync Server 2013 URL 이며 **도구** 메뉴에서 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-141">After you migrate response groups and agents to the Lync Server 2013 pool, the URL that agents use to sign in and sign out is a Lync Server 2013 URL and is available from the **Tools** menu.</span></span> <span data-ttu-id="765a3-142">상담원에 게 책갈피 등의 모든 참조를 새 URL로 업데이트 하도록 알립니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-142">Remind agents to update any references, such as bookmarks, to the new URL.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-verify-response-group-migration-by-using-lync-server-control-panel"></a><span data-ttu-id="1726f-143">Lync Server 제어판을 사용 하 여 응답 그룹 마이그레이션을 확인 하려면</span><span class="sxs-lookup"><span data-stu-id="1726f-143">To verify Response Group migration by using Lync Server Control Panel</span></span>
+## <a name="to-verify-response-group-migration-by-using-lync-server-control-panel"></a><span data-ttu-id="765a3-143">Lync Server 제어판을 사용 하 여 응답 그룹 마이그레이션을 확인 하려면</span><span class="sxs-lookup"><span data-stu-id="765a3-143">To verify Response Group migration by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="1726f-144">RTCUniversalReadOnlyAdmins 그룹의 구성원 이거나 적어도 Csviewis 관리자 역할의 구성원 인 계정으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-144">Log on to the computer with an account that is a member of RTCUniversalReadOnlyAdmins group or is minimally a member of the CsViewOnlyAdministrator role.</span></span>
+1.  <span data-ttu-id="765a3-144">RTCUniversalReadOnlyAdmins 그룹의 구성원 이거나 적어도 Csviewis 관리자 역할의 구성원 인 계정으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-144">Log on to the computer with an account that is a member of RTCUniversalReadOnlyAdmins group or is minimally a member of the CsViewOnlyAdministrator role.</span></span>
 
-2.  <span data-ttu-id="1726f-145">브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-145">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="1726f-146">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="1726f-146">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="765a3-145">브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-145">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="765a3-146">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="765a3-146">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="1726f-147">왼쪽 탐색 창에서 **응답 그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-147">In the left navigation pane, click **Response Groups**.</span></span>
+3.  <span data-ttu-id="765a3-147">왼쪽 탐색 창에서 **응답 그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-147">In the left navigation pane, click **Response Groups**.</span></span>
 
-4.  <span data-ttu-id="1726f-148">**워크플로** 탭에서 Lync Server 2010 환경의 모든 워크플로가 목록에 포함 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-148">On the **Workflow** tab, verify that all the workflows in your Lync Server 2010 environment are included in the list.</span></span>
+4.  <span data-ttu-id="765a3-148">**워크플로** 탭에서 Lync Server 2010 환경의 모든 워크플로가 목록에 포함 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-148">On the **Workflow** tab, verify that all the workflows in your Lync Server 2010 environment are included in the list.</span></span>
 
-5.  <span data-ttu-id="1726f-149">**큐** 탭을 클릭 하 고 Lync Server 2010 환경의 모든 큐가 목록에 포함 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-149">Click the **Queue** tab, and verify that all the queues in your Lync Server 2010 environment are included in the list.</span></span>
+5.  <span data-ttu-id="765a3-149">**큐** 탭을 클릭 하 고 Lync Server 2010 환경의 모든 큐가 목록에 포함 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-149">Click the **Queue** tab, and verify that all the queues in your Lync Server 2010 environment are included in the list.</span></span>
 
-6.  <span data-ttu-id="1726f-150">**그룹** 탭을 클릭 하 고 Lync Server 2010 환경의 모든 에이전트 그룹이 목록에 포함 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-150">Click the **Group** tab, and verify that all the agent groups in your Lync Server 2010 environment are included in the list.</span></span>
+6.  <span data-ttu-id="765a3-150">**그룹** 탭을 클릭 하 고 Lync Server 2010 환경의 모든 에이전트 그룹이 목록에 포함 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-150">Click the **Group** tab, and verify that all the agent groups in your Lync Server 2010 environment are included in the list.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-verify-response-group-migration-by-using-lync-server-management-shell"></a><span data-ttu-id="1726f-151">Lync Server Management Shell을 사용 하 여 응답 그룹 마이그레이션을 확인 하려면</span><span class="sxs-lookup"><span data-stu-id="1726f-151">To verify Response Group migration by using Lync Server Management Shell</span></span>
+## <a name="to-verify-response-group-migration-by-using-lync-server-management-shell"></a><span data-ttu-id="765a3-151">Lync Server Management Shell을 사용 하 여 응답 그룹 마이그레이션을 확인 하려면</span><span class="sxs-lookup"><span data-stu-id="765a3-151">To verify Response Group migration by using Lync Server Management Shell</span></span>
 
-1.  <span data-ttu-id="1726f-152">RTCUniversalReadOnlyAdmins 그룹의 구성원 이거나 적어도 Csviewis 관리자 역할의 구성원 인 계정으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-152">Log on to the computer with an account that is a member of RTCUniversalReadOnlyAdmins group or is minimally a member of the CsViewOnlyAdministrator role.</span></span>
+1.  <span data-ttu-id="765a3-152">RTCUniversalReadOnlyAdmins 그룹의 구성원 이거나 적어도 Csviewis 관리자 역할의 구성원 인 계정으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-152">Log on to the computer with an account that is a member of RTCUniversalReadOnlyAdmins group or is minimally a member of the CsViewOnlyAdministrator role.</span></span>
 
-2.  <span data-ttu-id="1726f-153">Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-153">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="765a3-153">Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-153">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
     
-    <span data-ttu-id="1726f-154">다음 cmdlet에 대 한 자세한 내용을 보려면 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-154">For details about the following cmdlets, run:</span></span>
+    <span data-ttu-id="765a3-154">다음 cmdlet에 대 한 자세한 내용을 보려면 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-154">For details about the following cmdlets, run:</span></span>
     
         Get-Help <cmdlet name> -Detailed
 
-3.  <span data-ttu-id="1726f-155">런</span><span class="sxs-lookup"><span data-stu-id="1726f-155">Run:</span></span>
+3.  <span data-ttu-id="765a3-155">런</span><span class="sxs-lookup"><span data-stu-id="765a3-155">Run:</span></span>
     
         Get-CsRgsAgentGroup
 
-4.  <span data-ttu-id="1726f-156">Lync Server 2010 환경의 모든 에이전트 그룹이 목록에 포함 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-156">Verify that all the agent groups in your Lync Server 2010 environment are included in the list.</span></span>
+4.  <span data-ttu-id="765a3-156">Lync Server 2010 환경의 모든 에이전트 그룹이 목록에 포함 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-156">Verify that all the agent groups in your Lync Server 2010 environment are included in the list.</span></span>
 
-5.  <span data-ttu-id="1726f-157">런</span><span class="sxs-lookup"><span data-stu-id="1726f-157">Run:</span></span>
+5.  <span data-ttu-id="765a3-157">런</span><span class="sxs-lookup"><span data-stu-id="765a3-157">Run:</span></span>
     
         Get-CsRgsQueue
 
-6.  <span data-ttu-id="1726f-158">Lync Server 2010 환경의 모든 큐가 목록에 포함 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-158">Verify that all the queues in your Lync Server 2010 environment are included in the list.</span></span>
+6.  <span data-ttu-id="765a3-158">Lync Server 2010 환경의 모든 큐가 목록에 포함 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-158">Verify that all the queues in your Lync Server 2010 environment are included in the list.</span></span>
 
-7.  <span data-ttu-id="1726f-159">런</span><span class="sxs-lookup"><span data-stu-id="1726f-159">Run:</span></span>
+7.  <span data-ttu-id="765a3-159">런</span><span class="sxs-lookup"><span data-stu-id="765a3-159">Run:</span></span>
     
         Get-CsRgsWorkflow
 
-8.  <span data-ttu-id="1726f-160">Lync Server 2010 환경의 모든 워크플로가 목록에 포함 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="1726f-160">Verify that all the workflows in your Lync Server 2010 environment are included in the list.</span></span>
+8.  <span data-ttu-id="765a3-160">Lync Server 2010 환경의 모든 워크플로가 목록에 포함 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="765a3-160">Verify that all the workflows in your Lync Server 2010 environment are included in the list.</span></span>
 
 </div>
 

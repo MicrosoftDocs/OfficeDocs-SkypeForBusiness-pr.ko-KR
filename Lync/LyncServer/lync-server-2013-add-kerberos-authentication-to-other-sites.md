@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 다른 사이트에 Kerberos 인증 추가'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add Kerberos authentication to other sites
 ms:assetid: d3a30b1f-6d41-421c-823c-61fc3e25ca03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398914(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29a4f4b525ffab90a3f1f030d3f6a5c262711fc1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3cf9469573fa24d070bc6865edd01512383d8648
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976240"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735028"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40976240"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="in-lync-server-2013-add-kerberos-authentication-to-other-sites"></a><span data-ttu-id="63397-102">Lync Server 2013에서 다른 사이트에 Kerberos 인증 추가</span><span class="sxs-lookup"><span data-stu-id="63397-102">In Lync Server 2013 add Kerberos authentication to other sites</span></span>
+# <a name="in-lync-server-2013-add-kerberos-authentication-to-other-sites"></a><span data-ttu-id="6bd9a-102">Lync Server 2013에서 다른 사이트에 Kerberos 인증 추가</span><span class="sxs-lookup"><span data-stu-id="6bd9a-102">In Lync Server 2013 add Kerberos authentication to other sites</span></span>
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "40976240"
 
 <span> </span>
 
-<span data-ttu-id="63397-103">_**마지막으로 수정한 주제:** 2010-11-03_</span><span class="sxs-lookup"><span data-stu-id="63397-103">_**Topic Last Modified:** 2010-11-03_</span></span>
+<span data-ttu-id="6bd9a-103">_**마지막으로 수정한 주제:** 2010-11-03_</span><span class="sxs-lookup"><span data-stu-id="6bd9a-103">_**Topic Last Modified:** 2010-11-03_</span></span>
 
-<span data-ttu-id="63397-104">Kerberos 인증을 위해 구성한 기존 배포에 사이트를 추가 해야 하는 경우 새 사이트에 대 한 기존 Kerberos 인증 계정을 사용 하거나 새 계정을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="63397-104">If you need to add sites to an existing deployment that you have configured for Kerberos authentication, you can use an existing Kerberos authentication account for the new site or create a new account.</span></span> <span data-ttu-id="63397-105">사이트의 새 계정 만들기에 대 한 자세한 내용은 [Lync Server 2013에서 Kerberos 인증 계정 만들기](lync-server-2013-create-a-kerberos-authentication-account.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="63397-105">For details about creating a new account for a site, see [Create a Kerberos authentication account in Lync Server 2013](lync-server-2013-create-a-kerberos-authentication-account.md).</span></span> <span data-ttu-id="63397-106">사이트에 기존 계정을 할당 하 여 새 사이트에 대해 동일한 계정을 사용 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 사이트에 Kerberos 인증 계정 할당](lync-server-2013-assign-a-kerberos-authentication-account-to-a-site.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="63397-106">For details about using the same account for a new site by assigning an existing account to the site, see [Assign a Kerberos authentication account to a site in Lync Server 2013](lync-server-2013-assign-a-kerberos-authentication-account-to-a-site.md).</span></span>
+<span data-ttu-id="6bd9a-104">Kerberos 인증을 위해 구성한 기존 배포에 사이트를 추가 해야 하는 경우 새 사이트에 대 한 기존 Kerberos 인증 계정을 사용 하거나 새 계정을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6bd9a-104">If you need to add sites to an existing deployment that you have configured for Kerberos authentication, you can use an existing Kerberos authentication account for the new site or create a new account.</span></span> <span data-ttu-id="6bd9a-105">사이트의 새 계정 만들기에 대 한 자세한 내용은 [Lync Server 2013에서 Kerberos 인증 계정 만들기](lync-server-2013-create-a-kerberos-authentication-account.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6bd9a-105">For details about creating a new account for a site, see [Create a Kerberos authentication account in Lync Server 2013](lync-server-2013-create-a-kerberos-authentication-account.md).</span></span> <span data-ttu-id="6bd9a-106">사이트에 기존 계정을 할당 하 여 새 사이트에 대해 동일한 계정을 사용 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 사이트에 Kerberos 인증 계정 할당](lync-server-2013-assign-a-kerberos-authentication-account-to-a-site.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6bd9a-106">For details about using the same account for a new site by assigning an existing account to the site, see [Assign a Kerberos authentication account to a site in Lync Server 2013](lync-server-2013-assign-a-kerberos-authentication-account-to-a-site.md).</span></span>
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 장치 업데이트 규칙 가져오기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Import Device Update rules
 ms:assetid: 919e9c87-912b-4bc9-92e7-5998fc2e0bf0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994056(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803967
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cef7e14806a1f4c7853d157d0c4ce304583b9720
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 872f729584f14011d18920a676c32205d38c7f62
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983297"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763852"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40983297"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="import-device-update-rules-in-lync-server-2013"></a><span data-ttu-id="81e12-102">Lync Server 2013에서 장치 업데이트 규칙 가져오기</span><span class="sxs-lookup"><span data-stu-id="81e12-102">Import Device Update rules in Lync Server 2013</span></span>
+# <a name="import-device-update-rules-in-lync-server-2013"></a><span data-ttu-id="fa76e-102">Lync Server 2013에서 장치 업데이트 규칙 가져오기</span><span class="sxs-lookup"><span data-stu-id="fa76e-102">Import Device Update rules in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "40983297"
 
 <span> </span>
 
-<span data-ttu-id="81e12-103">_**마지막으로 수정한 주제:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="81e12-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="fa76e-103">_**마지막으로 수정한 주제:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="fa76e-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="81e12-104">장치 업데이트 규칙은 Windows PowerShell 및 **가져오기-CsDeviceUpdate** cmdlet을 사용 하는 경우에만 가져올 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="81e12-104">Device update rules can be imported only by using Windows PowerShell and the **Import-CsDeviceUpdate** cmdlet.</span></span> <span data-ttu-id="81e12-105">이 cmdlet은 Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="81e12-105">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
+<span data-ttu-id="fa76e-104">장치 업데이트 규칙은 Windows PowerShell 및 **가져오기-CsDeviceUpdate** cmdlet을 사용 하는 경우에만 가져올 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fa76e-104">Device update rules can be imported only by using Windows PowerShell and the **Import-CsDeviceUpdate** cmdlet.</span></span> <span data-ttu-id="fa76e-105">이 cmdlet은 Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fa76e-105">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="81e12-106">원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="81e12-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+> <span data-ttu-id="fa76e-106">원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fa76e-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
 
 
@@ -52,9 +54,9 @@ ms.locfileid: "40983297"
 
 <div>
 
-## <a name="to-import-device-update-rules-to-a-single-web-server"></a><span data-ttu-id="81e12-107">단일 웹 서버로 장치 업데이트 규칙 가져오기</span><span class="sxs-lookup"><span data-stu-id="81e12-107">To import device update rules to a single web server</span></span>
+## <a name="to-import-device-update-rules-to-a-single-web-server"></a><span data-ttu-id="fa76e-107">단일 웹 서버로 장치 업데이트 규칙 가져오기</span><span class="sxs-lookup"><span data-stu-id="fa76e-107">To import device update rules to a single web server</span></span>
 
-  - <span data-ttu-id="81e12-108">다음 명령은 장치 업데이트 규칙을 웹 서버 atl-cs-001.litwareinc.com 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="81e12-108">The following command imports device update rules to the Web server atl-cs-001.litwareinc.com:</span></span>
+  - <span data-ttu-id="fa76e-108">다음 명령은 장치 업데이트 규칙을 웹 서버 atl-cs-001.litwareinc.com 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="fa76e-108">The following command imports device update rules to the Web server atl-cs-001.litwareinc.com:</span></span>
     
         Import-CsDeviceUpdate -Identity "service:WebServer:atl-cs-001.litwareinc.com" -FileName C:\Updates\UCUpdates.cab
 
@@ -62,25 +64,25 @@ ms.locfileid: "40983297"
 
 <div>
 
-## <a name="to-import-device-update-rules-to-all-your-web-servers"></a><span data-ttu-id="81e12-109">모든 웹 서버에 장치 업데이트 규칙을 가져오려면</span><span class="sxs-lookup"><span data-stu-id="81e12-109">To import device update rules to all your web servers</span></span>
+## <a name="to-import-device-update-rules-to-all-your-web-servers"></a><span data-ttu-id="fa76e-109">모든 웹 서버에 장치 업데이트 규칙을 가져오려면</span><span class="sxs-lookup"><span data-stu-id="fa76e-109">To import device update rules to all your web servers</span></span>
 
-  - <span data-ttu-id="81e12-110">이 예제에서는 장치 업데이트 규칙을 조직에 배포 된 모든 웹 서버로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="81e12-110">In this example, device update rules are imported to all the Web servers deployed in your organization.</span></span> <span data-ttu-id="81e12-111">이 명령이 작동 하려면 폴더 \\ \\atl-fs-001.litwareinc.com\\업데이트를 공유 하 고 모든 웹 서버에서 사용할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="81e12-111">For this command to work, the folder \\\\atl-fs-001.litwareinc.com\\Updates must be shared and available to all the Web servers.</span></span>
+  - <span data-ttu-id="fa76e-110">이 예제에서는 장치 업데이트 규칙을 조직에 배포 된 모든 웹 서버로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="fa76e-110">In this example, device update rules are imported to all the Web servers deployed in your organization.</span></span> <span data-ttu-id="fa76e-111">이 명령이 작동 하려면 폴더 \\ \\atl-fs-001.litwareinc.com\\업데이트를 공유 하 고 모든 웹 서버에서 사용할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="fa76e-111">For this command to work, the folder \\\\atl-fs-001.litwareinc.com\\Updates must be shared and available to all the Web servers.</span></span>
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 
 </div>
 
-<span data-ttu-id="81e12-112">자세한 내용은 [가져오기-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) cmdlet에 대 한 도움말 항목을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="81e12-112">For details, see the Help topic for the [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) cmdlet.</span></span>
+<span data-ttu-id="fa76e-112">자세한 내용은 [가져오기-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) cmdlet에 대 한 도움말 항목을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fa76e-112">For details, see the Help topic for the [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="81e12-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="81e12-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fa76e-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="fa76e-113">See Also</span></span>
 
 
-[<span data-ttu-id="81e12-114">Lync Server 2013에서 장치 업데이트 규칙에 대 한 정보 보기</span><span class="sxs-lookup"><span data-stu-id="81e12-114">View information about Device Update rules in Lync Server 2013</span></span>](lync-server-2013-view-information-about-device-update-rules.md)  
-[<span data-ttu-id="81e12-115">Lync Server 2013에서 장치 업데이트 규칙 승인</span><span class="sxs-lookup"><span data-stu-id="81e12-115">Approve a Device Update rule in Lync Server 2013</span></span>](lync-server-2013-approve-a-device-update-rule.md)  
+[<span data-ttu-id="fa76e-114">Lync Server 2013에서 장치 업데이트 규칙에 대 한 정보 보기</span><span class="sxs-lookup"><span data-stu-id="fa76e-114">View information about Device Update rules in Lync Server 2013</span></span>](lync-server-2013-view-information-about-device-update-rules.md)  
+[<span data-ttu-id="fa76e-115">Lync Server 2013에서 장치 업데이트 규칙 승인</span><span class="sxs-lookup"><span data-stu-id="fa76e-115">Approve a Device Update rule in Lync Server 2013</span></span>](lync-server-2013-approve-a-device-update-rule.md)  
   
 
 </div>

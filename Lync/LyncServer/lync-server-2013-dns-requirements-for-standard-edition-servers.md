@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Standard Edition 서버에 대 한 DNS 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for Standard Edition servers
 ms:assetid: 3d6bbe65-e7ce-491b-a0bd-d2f7197f240d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425900(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19c5e04f23428b073e544b040ed07dc852f1da4c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3132ec1e18d27564f0077e83d411c5b3930c241b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983192"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737368"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40983192"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-standard-edition-servers-in-lync-server-2013"></a><span data-ttu-id="70cc2-102">Lync Server 2013의 Standard Edition server에 대 한 DNS 요구 사항</span><span class="sxs-lookup"><span data-stu-id="70cc2-102">DNS requirements for Standard Edition servers in Lync Server 2013</span></span>
+# <a name="dns-requirements-for-standard-edition-servers-in-lync-server-2013"></a><span data-ttu-id="75736-102">Lync Server 2013의 Standard Edition server에 대 한 DNS 요구 사항</span><span class="sxs-lookup"><span data-stu-id="75736-102">DNS requirements for Standard Edition servers in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,17 +35,17 @@ ms.locfileid: "40983192"
 
 <span> </span>
 
-<span data-ttu-id="70cc2-103">_**마지막으로 수정한 주제:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="70cc2-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+<span data-ttu-id="75736-103">_**마지막으로 수정한 주제:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="75736-103">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-<span data-ttu-id="70cc2-104">이 섹션에서는 Standard Edition 서버 배포에 필요한 DNS (Domain Name System) 레코드에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="70cc2-104">This section describes the Domain Name System (DNS) records that are required for deployment of Standard Edition servers.</span></span>
+<span data-ttu-id="75736-104">이 섹션에서는 Standard Edition 서버 배포에 필요한 DNS (Domain Name System) 레코드에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="75736-104">This section describes the Domain Name System (DNS) records that are required for deployment of Standard Edition servers.</span></span>
 
 <div>
 
-## <a name="dns-records-for-standard-edition-servers"></a><span data-ttu-id="70cc2-105">스탠더드 버전 서버에 대 한 DNS 레코드</span><span class="sxs-lookup"><span data-stu-id="70cc2-105">DNS Records for Standard Edition Servers</span></span>
+## <a name="dns-records-for-standard-edition-servers"></a><span data-ttu-id="75736-105">스탠더드 버전 서버에 대 한 DNS 레코드</span><span class="sxs-lookup"><span data-stu-id="75736-105">DNS Records for Standard Edition Servers</span></span>
 
-<span data-ttu-id="70cc2-106">다음 표에서는 Lync Server 2013 Standard Edition server 배포에 대 한 DNS 요구 사항을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="70cc2-106">The following table specifies DNS requirements for Lync Server 2013 Standard Edition server deployment.</span></span>
+<span data-ttu-id="75736-106">다음 표에서는 Lync Server 2013 Standard Edition server 배포에 대 한 DNS 요구 사항을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="75736-106">The following table specifies DNS requirements for Lync Server 2013 Standard Edition server deployment.</span></span>
 
-### <a name="dns-requirements-for-a-standard-edition-server"></a><span data-ttu-id="70cc2-107">스탠더드 버전 서버에 대 한 DNS 요구 사항</span><span class="sxs-lookup"><span data-stu-id="70cc2-107">DNS Requirements for a Standard Edition Server</span></span>
+### <a name="dns-requirements-for-a-standard-edition-server"></a><span data-ttu-id="75736-107">스탠더드 버전 서버에 대 한 DNS 요구 사항</span><span class="sxs-lookup"><span data-stu-id="75736-107">DNS Requirements for a Standard Edition Server</span></span>
 
 <table>
 <colgroup>
@@ -52,26 +54,26 @@ ms.locfileid: "40983192"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="70cc2-108">배포 시나리오</span><span class="sxs-lookup"><span data-stu-id="70cc2-108">Deployment scenario</span></span></th>
-<th><span data-ttu-id="70cc2-109">DNS 요구 사항</span><span class="sxs-lookup"><span data-stu-id="70cc2-109">DNS requirement</span></span></th>
+<th><span data-ttu-id="75736-108">배포 시나리오</span><span class="sxs-lookup"><span data-stu-id="75736-108">Deployment scenario</span></span></th>
+<th><span data-ttu-id="75736-109">DNS 요구 사항</span><span class="sxs-lookup"><span data-stu-id="75736-109">DNS requirement</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="70cc2-110">스탠더드 버전 서버</span><span class="sxs-lookup"><span data-stu-id="70cc2-110">Standard Edition server</span></span></p></td>
-<td><p><span data-ttu-id="70cc2-111">서버의 FQDN (정규화 된 도메인 이름)을 IP 주소로 확인 하는 내부 A 레코드입니다.</span><span class="sxs-lookup"><span data-stu-id="70cc2-111">An internal A record that resolves the fully qualified domain name (FQDN) of the server to its IP address.</span></span></p></td>
+<td><p><span data-ttu-id="75736-110">스탠더드 버전 서버</span><span class="sxs-lookup"><span data-stu-id="75736-110">Standard Edition server</span></span></p></td>
+<td><p><span data-ttu-id="75736-111">서버의 FQDN (정규화 된 도메인 이름)을 IP 주소로 확인 하는 내부 A 레코드입니다.</span><span class="sxs-lookup"><span data-stu-id="75736-111">An internal A record that resolves the fully qualified domain name (FQDN) of the server to its IP address.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="70cc2-112">자동 클라이언트 로그인</span><span class="sxs-lookup"><span data-stu-id="70cc2-112">Automatic client sign-in</span></span></p></td>
-<td><p><span data-ttu-id="70cc2-113">지원 되는 각 SIP 도메인에 대해 _sipinternaltls에 대 한 SRV 레코드를 _tcp. &lt;로그인&gt; 하는 클라이언트 요청을 인증 하 고 리디렉션하는 Standard Edition 서버의 FQDN에 매핑되는 포트 5061의 도메인입니다.</span><span class="sxs-lookup"><span data-stu-id="70cc2-113">For each supported SIP domain, an SRV record for _sipinternaltls._tcp.&lt;domain&gt; over port 5061 that maps to the FQDN of the Standard Edition server that authenticates and redirects client requests for sign-in.</span></span> <span data-ttu-id="70cc2-114">자세한 내용은 <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">Lync Server 2013의 자동 클라이언트 로그인에 대 한 DNS 요구 사항을</a>참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="70cc2-114">For details, see <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS requirements for automatic client sign-in in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="75736-112">자동 클라이언트 로그인</span><span class="sxs-lookup"><span data-stu-id="75736-112">Automatic client sign-in</span></span></p></td>
+<td><p><span data-ttu-id="75736-113">지원 되는 각 SIP 도메인에 대해 _sipinternaltls에 대 한 SRV 레코드를 _tcp. &lt;로그인&gt; 하는 클라이언트 요청을 인증 하 고 리디렉션하는 Standard Edition 서버의 FQDN에 매핑되는 포트 5061의 도메인입니다.</span><span class="sxs-lookup"><span data-stu-id="75736-113">For each supported SIP domain, an SRV record for _sipinternaltls._tcp.&lt;domain&gt; over port 5061 that maps to the FQDN of the Standard Edition server that authenticates and redirects client requests for sign-in.</span></span> <span data-ttu-id="75736-114">자세한 내용은 <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">Lync Server 2013의 자동 클라이언트 로그인에 대 한 DNS 요구 사항을</a>참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="75736-114">For details, see <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS requirements for automatic client sign-in in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="70cc2-115">장치 업데이트 웹 서비스 검색 통합 커뮤니케이션 (UC) 장치</span><span class="sxs-lookup"><span data-stu-id="70cc2-115">Device Update Web service discovery by unified communications (UC) devices</span></span></p></td>
-<td><p><span data-ttu-id="70cc2-116">이름 다중 작업 업데이트-r2를 사용 하는 내부 A 레코드 &lt;장치 업데이트&gt; 웹 서비스의 STANDARD Edition server 호스팅 IP 주소를 확인 하는 SIP 도메인입니다.</span><span class="sxs-lookup"><span data-stu-id="70cc2-116">An internal A record with the name ucupdates-r2.&lt;SIP domain&gt; that resolves to the IP address of the Standard Edition server hosting Device Update Web service.</span></span> <span data-ttu-id="70cc2-117">UC 장치가 켜져 있지만 사용자가 장치에 로그인 한 적이 없는 경우에는 A 레코드를 통해 장치가 장치 업데이트 웹 서비스를 호스팅하는 서버를 검색 하 고 업데이트를 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="70cc2-117">In the situation where a UC device is turned on, but a user has never logged into the device, the A record allows the device to discover the server hosting Device Update Web service and obtain updates.</span></span> <span data-ttu-id="70cc2-118">그렇지 않으면 장치는 사용자가 처음 로그인 할 때 대역내 프로비저닝 기능을 통해 서버 정보를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="70cc2-118">Otherwise, devices obtain the server information though in-band provisioning the first time a user logs in.</span></span></p></td>
+<td><p><span data-ttu-id="75736-115">장치 업데이트 웹 서비스 검색 통합 커뮤니케이션 (UC) 장치</span><span class="sxs-lookup"><span data-stu-id="75736-115">Device Update Web service discovery by unified communications (UC) devices</span></span></p></td>
+<td><p><span data-ttu-id="75736-116">이름 다중 작업 업데이트-r2를 사용 하는 내부 A 레코드 &lt;장치 업데이트&gt; 웹 서비스의 STANDARD Edition server 호스팅 IP 주소를 확인 하는 SIP 도메인입니다.</span><span class="sxs-lookup"><span data-stu-id="75736-116">An internal A record with the name ucupdates-r2.&lt;SIP domain&gt; that resolves to the IP address of the Standard Edition server hosting Device Update Web service.</span></span> <span data-ttu-id="75736-117">UC 장치가 켜져 있지만 사용자가 장치에 로그인 한 적이 없는 경우에는 A 레코드를 통해 장치가 장치 업데이트 웹 서비스를 호스팅하는 서버를 검색 하 고 업데이트를 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="75736-117">In the situation where a UC device is turned on, but a user has never logged into the device, the A record allows the device to discover the server hosting Device Update Web service and obtain updates.</span></span> <span data-ttu-id="75736-118">그렇지 않으면 장치는 사용자가 처음 로그인 할 때 대역내 프로비저닝 기능을 통해 서버 정보를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="75736-118">Otherwise, devices obtain the server information though in-band provisioning the first time a user logs in.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="70cc2-119">HTTP 트래픽을 지 원하는 리버스 프록시</span><span class="sxs-lookup"><span data-stu-id="70cc2-119">A reverse proxy to support HTTP traffic</span></span></p></td>
-<td><p><span data-ttu-id="70cc2-120">외부 웹 팜 FQDN을 리버스 프록시의 외부 IP 주소로 확인 하는 외부 A 레코드입니다.</span><span class="sxs-lookup"><span data-stu-id="70cc2-120">An external A record that resolves the external web farm FQDN to the external IP address of the reverse proxy.</span></span> <span data-ttu-id="70cc2-121">클라이언트 및 UC 장치이 레코드를 사용 하 여 역방향 프록시에 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="70cc2-121">Clients and UC devices use this record to connect to the reverse proxy.</span></span> <span data-ttu-id="70cc2-122">자세한 내용은 계획 설명서의 <a href="lync-server-2013-determine-dns-requirements.md">Lync Server 2013에 대 한 DNS 요구 사항 결정</a> 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="70cc2-122">For details, see <a href="lync-server-2013-determine-dns-requirements.md">Determine DNS requirements for Lync Server 2013</a> in the Planning documentation.</span></span></p></td>
+<td><p><span data-ttu-id="75736-119">HTTP 트래픽을 지 원하는 리버스 프록시</span><span class="sxs-lookup"><span data-stu-id="75736-119">A reverse proxy to support HTTP traffic</span></span></p></td>
+<td><p><span data-ttu-id="75736-120">외부 웹 팜 FQDN을 리버스 프록시의 외부 IP 주소로 확인 하는 외부 A 레코드입니다.</span><span class="sxs-lookup"><span data-stu-id="75736-120">An external A record that resolves the external web farm FQDN to the external IP address of the reverse proxy.</span></span> <span data-ttu-id="75736-121">클라이언트 및 UC 장치이 레코드를 사용 하 여 역방향 프록시에 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="75736-121">Clients and UC devices use this record to connect to the reverse proxy.</span></span> <span data-ttu-id="75736-122">자세한 내용은 계획 설명서의 <a href="lync-server-2013-determine-dns-requirements.md">Lync Server 2013에 대 한 DNS 요구 사항 결정</a> 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="75736-122">For details, see <a href="lync-server-2013-determine-dns-requirements.md">Determine DNS requirements for Lync Server 2013</a> in the Planning documentation.</span></span></p></td>
 </tr>
 </tbody>
 </table>

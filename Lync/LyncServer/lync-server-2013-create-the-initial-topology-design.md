@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 초기 토폴로지 디자인 만들기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create the initial design
 ms:assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615047(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 656e9605695fe7dab160469ffa9e9c5075ac807b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7fc8d3e731c2772b275dd861c41b8c10f2127a2a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40985698"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40985698"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-the-initial-topology-design-for-lync-server-2013"></a><span data-ttu-id="e174a-102">Lync Server 2013의 초기 토폴로지 디자인 만들기</span><span class="sxs-lookup"><span data-stu-id="e174a-102">Create the initial topology design for Lync Server 2013</span></span>
+# <a name="create-the-initial-topology-design-for-lync-server-2013"></a><span data-ttu-id="ab176-102">Lync Server 2013의 초기 토폴로지 디자인 만들기</span><span class="sxs-lookup"><span data-stu-id="ab176-102">Create the initial topology design for Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "40985698"
 
 <span> </span>
 
-<span data-ttu-id="e174a-103">_**마지막으로 수정한 주제:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="e174a-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="ab176-103">_**마지막으로 수정한 주제:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="ab176-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="e174a-104">Lync Server 2013, 계획 도구 설치를 완료 한 후에는 계획 도구를 시작 하 고 제안 된 Lync Server 2013 인프라 디자인을 시작할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-104">After you have finished installing the Lync Server 2013, Planning Tool, you are ready to start the Planning Tool and begin designing the proposed Lync Server 2013 infrastructure.</span></span>
+<span data-ttu-id="ab176-104">Lync Server 2013, 계획 도구 설치를 완료 한 후에는 계획 도구를 시작 하 고 제안 된 Lync Server 2013 인프라 디자인을 시작할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-104">After you have finished installing the Lync Server 2013, Planning Tool, you are ready to start the Planning Tool and begin designing the proposed Lync Server 2013 infrastructure.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e174a-105">계획 도구는 사이트 및 토폴로지 디자인의 의사 결정 프로세스에 대해 자세히 설명 하는 마법사 기반 도구입니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-105">The Planning Tool is a wizard-driven tool with detailed guides to inform your decision-making process in designing your sites and topology.</span></span> <span data-ttu-id="e174a-106">이 항목은 철저 한 지침이 아니며, 디자인 세션에서 계획 도구를 사용 하 여 시작 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-106">This topic is intended not as an exhaustive guide, but simply to help get you started using the Planning Tool in your design sessions.</span></span>
+> <span data-ttu-id="ab176-105">계획 도구는 사이트 및 토폴로지 디자인의 의사 결정 프로세스에 대해 자세히 설명 하는 마법사 기반 도구입니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-105">The Planning Tool is a wizard-driven tool with detailed guides to inform your decision-making process in designing your sites and topology.</span></span> <span data-ttu-id="ab176-106">이 항목은 철저 한 지침이 아니며, 디자인 세션에서 계획 도구를 사용 하 여 시작 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-106">This topic is intended not as an exhaustive guide, but simply to help get you started using the Planning Tool in your design sessions.</span></span>
 
 
 
@@ -49,81 +51,81 @@ ms.locfileid: "40985698"
 
 <div>
 
-## <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a><span data-ttu-id="e174a-107">계획 도구를 사용 하 여 시작 하 고 초기 디자인 만들기</span><span class="sxs-lookup"><span data-stu-id="e174a-107">To get started using the Planning Tool and create the initial design</span></span>
+## <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a><span data-ttu-id="ab176-107">계획 도구를 사용 하 여 시작 하 고 초기 디자인 만들기</span><span class="sxs-lookup"><span data-stu-id="ab176-107">To get started using the Planning Tool and create the initial design</span></span>
 
-1.  <span data-ttu-id="e174a-108">Lync Server 2013, 계획 도구: **시작**, **모든 프로그램**, **Microsoft Lync Server 2013**, **계획 도구**를 차례로 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-108">Start the Lync Server 2013, Planning Tool: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Planning Tool**.</span></span>
+1.  <span data-ttu-id="ab176-108">Lync Server 2013, 계획 도구: **시작**, **모든 프로그램**, **Microsoft Lync Server 2013**, **계획 도구**를 차례로 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-108">Start the Lync Server 2013, Planning Tool: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Planning Tool**.</span></span>
 
-2.  <span data-ttu-id="e174a-109">계획 도구가 시작 되 면 **Microsoft Lync Server에 대 한 계획 도구 2013** 페이지가 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-109">After the Planning Tool has started, the **Welcome to the Planning Tool for Microsoft Lync Server 2013** page appears.</span></span> <span data-ttu-id="e174a-110">다음 옵션 중 하나를 선택 하 여 디자인을 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-110">Choose one of the following options to begin your design:</span></span>
+2.  <span data-ttu-id="ab176-109">계획 도구가 시작 되 면 **Microsoft Lync Server에 대 한 계획 도구 2013** 페이지가 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-109">After the Planning Tool has started, the **Welcome to the Planning Tool for Microsoft Lync Server 2013** page appears.</span></span> <span data-ttu-id="ab176-110">다음 옵션 중 하나를 선택 하 여 디자인을 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-110">Choose one of the following options to begin your design:</span></span>
     
-      - <span data-ttu-id="e174a-111">**옵션 1:**    **시작을 클릭 하면** 조건을 정의 하는 관련 선택이 있는 특정 일련의 인터뷰 질문이 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-111">**Option 1: Get Started**   Clicking **Get Started** provides a specific series of interview questions with relevant selections to define the criteria.</span></span> <span data-ttu-id="e174a-112">초기 **시작** 인터뷰 섹션을 완료 한 후에는 사이트 아키텍처를 정의 하는 **디자인 사이트로** 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-112">After you have finished the initial **Get Started** interview section, you proceed into **Design Sites** to define your site architecture.</span></span> <span data-ttu-id="e174a-113">이 옵션을 완료 하려면 3 단계로 진행 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-113">To complete this option, proceed to step 3.</span></span>
+      - <span data-ttu-id="ab176-111">**옵션 1:**    **시작을 클릭 하면** 조건을 정의 하는 관련 선택이 있는 특정 일련의 인터뷰 질문이 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-111">**Option 1: Get Started**   Clicking **Get Started** provides a specific series of interview questions with relevant selections to define the criteria.</span></span> <span data-ttu-id="ab176-112">초기 **시작** 인터뷰 섹션을 완료 한 후에는 사이트 아키텍처를 정의 하는 **디자인 사이트로** 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-112">After you have finished the initial **Get Started** interview section, you proceed into **Design Sites** to define your site architecture.</span></span> <span data-ttu-id="ab176-113">이 옵션을 완료 하려면 3 단계로 진행 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-113">To complete this option, proceed to step 3.</span></span>
     
-      - <span data-ttu-id="e174a-114">**옵션 2:**   시작 페이지에서 **디자인 사이트** 를 클릭 하는 디자인 사이트는 **시작** 섹션에 제시 된 인터뷰 질문을 무시 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-114">**Option 2: Design Sites**   Clicking **Design Sites** at the Welcome page bypasses the interview questions presented in the **Get Started** section.</span></span> <span data-ttu-id="e174a-115">**시작** 하기 섹션의 면접 질문에 응답 하 여 수집 된 정보는이 옵션을 사용 하 여 기본값으로 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-115">The information that would have been gathered by responding to the interview questions in **Get Started** section is set to default values with this option.</span></span> <span data-ttu-id="e174a-116">**사이트 디자인**을 클릭 하면 숙련 된 디자이너가 초기 인터뷰를 우회 하 고 필요한 경우 **중앙 사이트** 시작 페이지에서 기본값을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-116">By clicking **Design Sites**, the experienced designer can bypass the initial interview and change the default values, as needed, on the **Central Sites** start page.</span></span> <span data-ttu-id="e174a-117">이 옵션을 완료 하려면 3-5 단계를 건너뛰고 6 단계부터 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-117">To complete this option, skip over steps 3-5 and start at step 6.</span></span>
+      - <span data-ttu-id="ab176-114">**옵션 2:**   시작 페이지에서 **디자인 사이트** 를 클릭 하는 디자인 사이트는 **시작** 섹션에 제시 된 인터뷰 질문을 무시 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-114">**Option 2: Design Sites**   Clicking **Design Sites** at the Welcome page bypasses the interview questions presented in the **Get Started** section.</span></span> <span data-ttu-id="ab176-115">**시작** 하기 섹션의 면접 질문에 응답 하 여 수집 된 정보는이 옵션을 사용 하 여 기본값으로 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-115">The information that would have been gathered by responding to the interview questions in **Get Started** section is set to default values with this option.</span></span> <span data-ttu-id="ab176-116">**사이트 디자인**을 클릭 하면 숙련 된 디자이너가 초기 인터뷰를 우회 하 고 필요한 경우 **중앙 사이트** 시작 페이지에서 기본값을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-116">By clicking **Design Sites**, the experienced designer can bypass the initial interview and change the default values, as needed, on the **Central Sites** start page.</span></span> <span data-ttu-id="ab176-117">이 옵션을 완료 하려면 3-5 단계를 건너뛰고 6 단계부터 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-117">To complete this option, skip over steps 3-5 and start at step 6.</span></span>
     
-      - <span data-ttu-id="e174a-118">**옵션 3: 저장 된 토폴로지**   표시 이전에 계획 도구를 사용 하 여 토폴로지를 완료 하 고 저장 한 경우에는 이러한 단계를 대부분 건너뛰고 토폴로지를 열고 표시 하 여 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-118">**Option 3: Display Your Saved Topology**   If you have already completed and saved a topology through previous use of the Planning Tool, you can skip over most of these steps and start by opening and displaying the topology.</span></span> <span data-ttu-id="e174a-119">또한 토폴로지를 변경 하 고 업데이트 한 후 다시 저장 한 다음 Microsoft Excel 또는 Microsoft Visio로 내보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-119">You can also make changes and updates to the topology, resave it, and then export it to Microsoft Excel or Microsoft Visio.</span></span> <span data-ttu-id="e174a-120">이 옵션을 완료 하려면 3-12 단계를 건너뛰고 13 단계부터 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-120">To complete this option, skip over steps 3-12 and start at step 13.</span></span>
+      - <span data-ttu-id="ab176-118">**옵션 3: 저장 된 토폴로지**   표시 이전에 계획 도구를 사용 하 여 토폴로지를 완료 하 고 저장 한 경우에는 이러한 단계를 대부분 건너뛰고 토폴로지를 열고 표시 하 여 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-118">**Option 3: Display Your Saved Topology**   If you have already completed and saved a topology through previous use of the Planning Tool, you can skip over most of these steps and start by opening and displaying the topology.</span></span> <span data-ttu-id="ab176-119">또한 토폴로지를 변경 하 고 업데이트 한 후 다시 저장 한 다음 Microsoft Excel 또는 Microsoft Visio로 내보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-119">You can also make changes and updates to the topology, resave it, and then export it to Microsoft Excel or Microsoft Visio.</span></span> <span data-ttu-id="ab176-120">이 옵션을 완료 하려면 3-12 단계를 건너뛰고 13 단계부터 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-120">To complete this option, skip over steps 3-12 and start at step 13.</span></span>
 
-3.  <span data-ttu-id="e174a-121">**시작** 하기를 클릭 하 여 Lync Server 2013 토폴로지 디자인을 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-121">Click **Get Started** to begin designing your Lync Server 2013 topology.</span></span>
+3.  <span data-ttu-id="ab176-121">**시작** 하기를 클릭 하 여 Lync Server 2013 토폴로지 디자인을 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-121">Click **Get Started** to begin designing your Lync Server 2013 topology.</span></span>
 
-4.  <span data-ttu-id="e174a-122">디자인에 적합 한 조건을 선택 하 여 각 섹션에 응답 한 후 **다음** 을 클릭 하 여 다음 마법사 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-122">Answer each section by selecting the appropriate criteria for your design, and then click **Next** to proceed to the next Wizard page.</span></span> <span data-ttu-id="e174a-123">이전 페이지를 변경 하려면 **뒤로** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-123">Click **Back** to make changes on previous pages.</span></span>
+4.  <span data-ttu-id="ab176-122">디자인에 적합 한 조건을 선택 하 여 각 섹션에 응답 한 후 **다음** 을 클릭 하 여 다음 마법사 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-122">Answer each section by selecting the appropriate criteria for your design, and then click **Next** to proceed to the next Wizard page.</span></span> <span data-ttu-id="ab176-123">이전 페이지를 변경 하려면 **뒤로** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-123">Click **Back** to make changes on previous pages.</span></span>
     
     <div>
     
 
     > [!TIP]  
-    > <span data-ttu-id="e174a-124">각 페이지에는 선택 조건에 대 한 설명과 선호 하는 방법 및 용량 계획에 따른 권장 사항이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-124">Each page has a description of the selection criteria, and recommendations based on preferred practices and capacity planning.</span></span> <span data-ttu-id="e174a-125">추가 정보가 필요한 <STRONG>경우 자세히를 클릭 하</STRONG> 여 Lync Server 2013 계획 문서에서 Microsoft TechNet 웹 사이트의 자세한 정보를 읽으십시오.</span><span class="sxs-lookup"><span data-stu-id="e174a-125">If you require additional details, click <STRONG>Learn more</STRONG> to read detailed information from the Lync Server 2013 Planning documentation on the Microsoft TechNet website.</span></span> <span data-ttu-id="e174a-126">Microsoft TechNet 웹 사이트에 액세스 하려면 인터넷에 연결 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-126">You must have Internet connectivity to access the Microsoft TechNet website.</span></span>
+    > <span data-ttu-id="ab176-124">각 페이지에는 선택 조건에 대 한 설명과 선호 하는 방법 및 용량 계획에 따른 권장 사항이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-124">Each page has a description of the selection criteria, and recommendations based on preferred practices and capacity planning.</span></span> <span data-ttu-id="ab176-125">추가 정보가 필요한 <STRONG>경우 자세히를 클릭 하</STRONG> 여 Lync Server 2013 계획 문서에서 Microsoft TechNet 웹 사이트의 자세한 정보를 읽으십시오.</span><span class="sxs-lookup"><span data-stu-id="ab176-125">If you require additional details, click <STRONG>Learn more</STRONG> to read detailed information from the Lync Server 2013 Planning documentation on the Microsoft TechNet website.</span></span> <span data-ttu-id="ab176-126">Microsoft TechNet 웹 사이트에 액세스 하려면 인터넷에 연결 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-126">You must have Internet connectivity to access the Microsoft TechNet website.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="e174a-127">디자인에 적합 한 옵션을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-127">Select the appropriate options for your design.</span></span> <span data-ttu-id="e174a-128">초기 조건을 정의한 후 페이지에서 기능 개요가 완전 한지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-128">After the initial criteria are defined, a page will confirm that your Features Overview is complete.</span></span>
+5.  <span data-ttu-id="ab176-127">디자인에 적합 한 옵션을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-127">Select the appropriate options for your design.</span></span> <span data-ttu-id="ab176-128">초기 조건을 정의한 후 페이지에서 기능 개요가 완전 한지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-128">After the initial criteria are defined, a page will confirm that your Features Overview is complete.</span></span>
 
-6.  <span data-ttu-id="e174a-129">**사이트 디자인** 을 클릭 하 여 중앙 사이트를 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-129">Click **Design Sites** to define your central site.</span></span>
+6.  <span data-ttu-id="ab176-129">**사이트 디자인** 을 클릭 하 여 중앙 사이트를 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-129">Click **Design Sites** to define your central site.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="e174a-130">각 Lync Server 2013 토폴로지에는 하나 이상의 중앙 사이트가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-130">Each Lync Server 2013 topology will have at least one central site.</span></span> <span data-ttu-id="e174a-131">디자인에는 단일 중앙 사이트, 여러 지점 사이트, 여러 중앙 사이트, 각 중앙 사이트와 연결 된 분기 사이트가 있는 중앙 사이트 수가 포함 되어 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-131">Your design may have a single central site, a central site with a number of branch sites, a number of central sites, or a number of central sites with branch sites associated with each central site.</span></span>
+    > <span data-ttu-id="ab176-130">각 Lync Server 2013 토폴로지에는 하나 이상의 중앙 사이트가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-130">Each Lync Server 2013 topology will have at least one central site.</span></span> <span data-ttu-id="ab176-131">디자인에는 단일 중앙 사이트, 여러 지점 사이트, 여러 중앙 사이트, 각 중앙 사이트와 연결 된 분기 사이트가 있는 중앙 사이트 수가 포함 되어 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-131">Your design may have a single central site, a central site with a number of branch sites, a number of central sites, or a number of central sites with branch sites associated with each central site.</span></span>
 
     
     </div>
 
-7.  <span data-ttu-id="e174a-132">**사이트 이름**에이 중앙 사이트를 식별 하는 이름을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-132">In **Site Name**, type the name that will identify this central site.</span></span>
+7.  <span data-ttu-id="ab176-132">**사이트 이름**에이 중앙 사이트를 식별 하는 이름을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-132">In **Site Name**, type the name that will identify this central site.</span></span>
 
-8.  <span data-ttu-id="e174a-133">**사이트 홈 사용자**에이 중앙 사이트에서 사용자가 원하는 온-프레미스 동시 사용자 수를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-133">In **Site Homed Users**, type the expected number of on-premises concurrent users who will be homed in this central site.</span></span>
+8.  <span data-ttu-id="ab176-133">**사이트 홈 사용자**에이 중앙 사이트에서 사용자가 원하는 온-프레미스 동시 사용자 수를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-133">In **Site Homed Users**, type the expected number of on-premises concurrent users who will be homed in this central site.</span></span>
 
-9.  <span data-ttu-id="e174a-134">**클라우드 홈 사용자**의 경우이 중앙 사이트에서 사용자가 원하는 예상 온라인 동시 사용자 수를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-134">In **Cloud Homed Users**, type the expected number of online concurrent users who will be homed in this central site.</span></span>
+9.  <span data-ttu-id="ab176-134">**클라우드 홈 사용자**의 경우이 중앙 사이트에서 사용자가 원하는 예상 온라인 동시 사용자 수를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-134">In **Cloud Homed Users**, type the expected number of online concurrent users who will be homed in this central site.</span></span>
 
-10. <span data-ttu-id="e174a-135">필요에 따라 온라인 공동 작업, 사용자, 음성, 추가 배포 옵션 또는 서버 응용 프로그램에 대 한 선택 항목을 수정 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-135">Modify the selections for Online Collaboration, Users, Voice, Additional Deployment Options, or Server Applications, as needed.</span></span>
+10. <span data-ttu-id="ab176-135">필요에 따라 온라인 공동 작업, 사용자, 음성, 추가 배포 옵션 또는 서버 응용 프로그램에 대 한 선택 항목을 수정 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-135">Modify the selections for Online Collaboration, Users, Voice, Additional Deployment Options, or Server Applications, as needed.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="e174a-136">디자인의이 시점에서는 배포에 대 한 옵션만 선택 하거나 선택을 취소할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-136">At this point in the design, you can only select or clear options for your deployment.</span></span> <span data-ttu-id="e174a-137">그러나 계획 도구의 이후 단계에서 더 많은 옵션을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-137">However, you can configure more options in a later phase of the Planning Tool.</span></span> <span data-ttu-id="e174a-138">사용할 수 없고 지울 수 없는 옵션도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-138">There are also options that are unavailable and cannot be cleared.</span></span> <span data-ttu-id="e174a-139">또한 다른 옵션을 지우려면 하나를 지워야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-139">In addition, you may have to clear one option in order to clear another.</span></span> <span data-ttu-id="e174a-140">예를 들어 Voice에서 <STRONG>Enterprise voice</STRONG> 옵션을 지우면 서버 응용 프로그램의 <STRONG>응답 그룹</STRONG>, <STRONG>공지 사항</STRONG>및 <STRONG>통화 공원</STRONG> 옵션 (Enterprise voice의 기능)도 모두 지워집니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-140">For example, if you clear the <STRONG>Enterprise Voice</STRONG> option under Voice, then the <STRONG>Response Group</STRONG>, <STRONG>Announcement</STRONG>, and <STRONG>Call Park</STRONG> options under Server Applications (all of which are features of Enterprise Voice) are also cleared.</span></span>
+    > <span data-ttu-id="ab176-136">디자인의이 시점에서는 배포에 대 한 옵션만 선택 하거나 선택을 취소할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-136">At this point in the design, you can only select or clear options for your deployment.</span></span> <span data-ttu-id="ab176-137">그러나 계획 도구의 이후 단계에서 더 많은 옵션을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-137">However, you can configure more options in a later phase of the Planning Tool.</span></span> <span data-ttu-id="ab176-138">사용할 수 없고 지울 수 없는 옵션도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-138">There are also options that are unavailable and cannot be cleared.</span></span> <span data-ttu-id="ab176-139">또한 다른 옵션을 지우려면 하나를 지워야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-139">In addition, you may have to clear one option in order to clear another.</span></span> <span data-ttu-id="ab176-140">예를 들어 Voice에서 <STRONG>Enterprise voice</STRONG> 옵션을 지우면 서버 응용 프로그램의 <STRONG>응답 그룹</STRONG>, <STRONG>공지 사항</STRONG>및 <STRONG>통화 공원</STRONG> 옵션 (Enterprise voice의 기능)도 모두 지워집니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-140">For example, if you clear the <STRONG>Enterprise Voice</STRONG> option under Voice, then the <STRONG>Response Group</STRONG>, <STRONG>Announcement</STRONG>, and <STRONG>Call Park</STRONG> options under Server Applications (all of which are features of Enterprise Voice) are also cleared.</span></span>
 
     
     </div>
 
-11. <span data-ttu-id="e174a-141">사이트 이름과 사용자 수를 정의한 후 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-141">After defining a site name and number of users, click **Next**.</span></span>
+11. <span data-ttu-id="ab176-141">사이트 이름과 사용자 수를 정의한 후 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-141">After defining a site name and number of users, click **Next**.</span></span>
 
-12. <span data-ttu-id="e174a-142">다음 페이지에서는 SIP 도메인, 회의 설정, 음성 설정 및 인프라, Exchange UM, 외부 사용자 액세스, 영구 채팅 설정, 클라이언트 설정, collocation 옵션, 분기 사이트에 대 한 정보를 요청 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-142">The following pages ask for information about SIP domains, conference settings, voice settings and infrastructure, Exchange UM, external user access, Persistent Chat settings, client settings, collocation options, and branch sites.</span></span> <span data-ttu-id="e174a-143">이러한 질문에 적절 하 게 대답 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-143">Answer these questions as appropriate.</span></span>
+12. <span data-ttu-id="ab176-142">다음 페이지에서는 SIP 도메인, 회의 설정, 음성 설정 및 인프라, Exchange UM, 외부 사용자 액세스, 영구 채팅 설정, 클라이언트 설정, collocation 옵션, 분기 사이트에 대 한 정보를 요청 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-142">The following pages ask for information about SIP domains, conference settings, voice settings and infrastructure, Exchange UM, external user access, Persistent Chat settings, client settings, collocation options, and branch sites.</span></span> <span data-ttu-id="ab176-143">이러한 질문에 적절 하 게 대답 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-143">Answer these questions as appropriate.</span></span>
 
-13. <span data-ttu-id="e174a-144">마지막 질문은 다른 중앙 사이트를 만들 것인지 묻습니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-144">The final question asks if you want to create another central site.</span></span> <span data-ttu-id="e174a-145">**예**를 선택 하면 계획 도구가 중앙 사이트 페이지로 돌아갑니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-145">If you select **Yes**, then the Planning Tool returns to the Central Sites page.</span></span> <span data-ttu-id="e174a-146">**아니요**를 선택 하는 경우 **다음**을 클릭 한 다음 **그리기** 를 클릭 하 여 상위 수준의 전역 토폴로지 보기를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-146">If you select **No**, click **Next**, and then click **Draw** to display the high-level Global Topology view.</span></span>
+13. <span data-ttu-id="ab176-144">마지막 질문은 다른 중앙 사이트를 만들 것인지 묻습니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-144">The final question asks if you want to create another central site.</span></span> <span data-ttu-id="ab176-145">**예**를 선택 하면 계획 도구가 중앙 사이트 페이지로 돌아갑니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-145">If you select **Yes**, then the Planning Tool returns to the Central Sites page.</span></span> <span data-ttu-id="ab176-146">**아니요**를 선택 하는 경우 **다음**을 클릭 한 다음 **그리기** 를 클릭 하 여 상위 수준의 전역 토폴로지 보기를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-146">If you select **No**, click **Next**, and then click **Draw** to display the high-level Global Topology view.</span></span>
 
-14. <span data-ttu-id="e174a-147">기존 토폴로지를 보려면 **표시**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-147">To view an existing topology, click **Display**.</span></span>
+14. <span data-ttu-id="ab176-147">기존 토폴로지를 보려면 **표시**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-147">To view an existing topology, click **Display**.</span></span>
 
-15. <span data-ttu-id="e174a-148">이전에 저장 한 토폴로지를 나타내는 .xml 파일을 클릭 한 다음 **열기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-148">Click the .xml file that represents the previously saved topology, and then click **Open**.</span></span>
+15. <span data-ttu-id="ab176-148">이전에 저장 한 토폴로지를 나타내는 .xml 파일을 클릭 한 다음 **열기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-148">Click the .xml file that represents the previously saved topology, and then click **Open**.</span></span>
 
-16. <span data-ttu-id="e174a-149">계획 도구에 전역 토폴로지 페이지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-149">The Planning Tool displays the Global Topology page.</span></span> <span data-ttu-id="e174a-150">이제 계획 도구에서 제공 되는 도구를 사용 하 여 토폴로지 편집, 업데이트 또는 변경을 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e174a-150">You can now begin editing, updating, or changing the topology by using the tools available in the Planning Tool.</span></span>
+16. <span data-ttu-id="ab176-149">계획 도구에 전역 토폴로지 페이지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-149">The Planning Tool displays the Global Topology page.</span></span> <span data-ttu-id="ab176-150">이제 계획 도구에서 제공 되는 도구를 사용 하 여 토폴로지 편집, 업데이트 또는 변경을 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab176-150">You can now begin editing, updating, or changing the topology by using the tools available in the Planning Tool.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e174a-151">참고 항목</span><span class="sxs-lookup"><span data-stu-id="e174a-151">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ab176-151">참고 항목</span><span class="sxs-lookup"><span data-stu-id="ab176-151">See Also</span></span>
 
 
-[<span data-ttu-id="e174a-152">Lync Server 2013에서 디자인 편집</span><span class="sxs-lookup"><span data-stu-id="e174a-152">Editing the design in Lync Server 2013</span></span>](lync-server-2013-editing-the-design.md)  
+[<span data-ttu-id="ab176-152">Lync Server 2013에서 디자인 편집</span><span class="sxs-lookup"><span data-stu-id="ab176-152">Editing the design in Lync Server 2013</span></span>](lync-server-2013-editing-the-design.md)  
   
 
 </div>

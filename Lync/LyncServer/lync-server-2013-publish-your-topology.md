@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 토폴로지 게시'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publish your topology
 ms:assetid: bfed3829-7a54-4b5c-a7cb-28871acd35e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412935(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd542db6acedbec75e475045ae2ace6d63d5469
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bd80b5b3dfdb71a054c7600a06e892f1396f048
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983249"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747058"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40983249"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="publish-your-topology-in-lync-server-2013"></a><span data-ttu-id="d11d6-102">Lync Server 2013에서 토폴로지 게시</span><span class="sxs-lookup"><span data-stu-id="d11d6-102">Publish your topology in Lync Server 2013</span></span>
+# <a name="publish-your-topology-in-lync-server-2013"></a><span data-ttu-id="a7063-102">Lync Server 2013에서 토폴로지 게시</span><span class="sxs-lookup"><span data-stu-id="a7063-102">Publish your topology in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,35 +35,35 @@ ms.locfileid: "40983249"
 
 <span> </span>
 
-<span data-ttu-id="d11d6-103">_**마지막으로 수정한 주제:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="d11d6-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="a7063-103">_**마지막으로 수정한 주제:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="a7063-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="d11d6-104">토폴로지 작성기를 사용 하 여 토폴로지를 빌드할 때마다 중앙 관리 저장소의 데이터베이스에 토폴로지를 게시 하 여 Lync Server 2013을 배포 하는 데 데이터를 사용할 수 있도록 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d11d6-104">Each time you use Topology Builder to build your topology, you must publish the topology to a database in the Central Management store so that the data can be used to deploy Lync Server 2013.</span></span> <span data-ttu-id="d11d6-105">토폴로지를 게시 하려면 다음 절차를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="d11d6-105">Use the following procedure to publish your topology.</span></span>
+<span data-ttu-id="a7063-104">토폴로지 작성기를 사용 하 여 토폴로지를 빌드할 때마다 중앙 관리 저장소의 데이터베이스에 토폴로지를 게시 하 여 Lync Server 2013을 배포 하는 데 데이터를 사용할 수 있도록 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7063-104">Each time you use Topology Builder to build your topology, you must publish the topology to a database in the Central Management store so that the data can be used to deploy Lync Server 2013.</span></span> <span data-ttu-id="a7063-105">토폴로지를 게시 하려면 다음 절차를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7063-105">Use the following procedure to publish your topology.</span></span>
 
 <div>
 
-## <a name="to-publish-the-topology"></a><span data-ttu-id="d11d6-106">토폴로지를 게시 하려면</span><span class="sxs-lookup"><span data-stu-id="d11d6-106">To publish the topology</span></span>
+## <a name="to-publish-the-topology"></a><span data-ttu-id="a7063-106">토폴로지를 게시 하려면</span><span class="sxs-lookup"><span data-stu-id="a7063-106">To publish the topology</span></span>
 
-1.  <span data-ttu-id="d11d6-107">토폴로지 작성기 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d11d6-107">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+1.  <span data-ttu-id="a7063-107">토폴로지 작성기 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7063-107">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
-2.  <span data-ttu-id="d11d6-108">토폴로지 작성기의 콘솔 트리에서 **Lync 2013**을 마우스 오른쪽 단추로 클릭 한 다음 **토폴로지 게시**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d11d6-108">In Topology Builder, in the console tree, right-click **Lync 2013**, and then click **Publish Topology**.</span></span>
+2.  <span data-ttu-id="a7063-108">토폴로지 작성기의 콘솔 트리에서 **Lync 2013**을 마우스 오른쪽 단추로 클릭 한 다음 **토폴로지 게시**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7063-108">In Topology Builder, in the console tree, right-click **Lync 2013**, and then click **Publish Topology**.</span></span>
 
-3.  <span data-ttu-id="d11d6-109">마법사의 **시작** 페이지에서 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d11d6-109">On the **Welcome** page of the wizard, click **Next**.</span></span>
+3.  <span data-ttu-id="a7063-109">마법사의 **시작** 페이지에서 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7063-109">On the **Welcome** page of the wizard, click **Next**.</span></span>
 
-4.  <span data-ttu-id="d11d6-110">**CMS 스토어 페이지를 발견 한 토폴로지 작성기** 에서 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d11d6-110">On the **Topology Builder found a CMS store** page, click **Next**.</span></span>
+4.  <span data-ttu-id="a7063-110">**CMS 스토어 페이지를 발견 한 토폴로지 작성기** 에서 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7063-110">On the **Topology Builder found a CMS store** page, click **Next**.</span></span>
 
-5.  <span data-ttu-id="d11d6-111">**다른 데이터베이스 만들기** 페이지에서 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d11d6-111">On the **Create other databases** page, click **Next**.</span></span>
+5.  <span data-ttu-id="a7063-111">**다른 데이터베이스 만들기** 페이지에서 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7063-111">On the **Create other databases** page, click **Next**.</span></span>
 
-6.  <span data-ttu-id="d11d6-112">상태가 데이터베이스를 성공적으로 생성 했음을 나타내는 경우 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d11d6-112">When the status indicates that database creation succeeded, do the following:</span></span>
+6.  <span data-ttu-id="a7063-112">상태가 데이터베이스를 성공적으로 생성 했음을 나타내는 경우 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7063-112">When the status indicates that database creation succeeded, do the following:</span></span>
     
-      - <span data-ttu-id="d11d6-113">로그를 보려면 **로그 보기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d11d6-113">To view the log, click **View log**.</span></span>
+      - <span data-ttu-id="a7063-113">로그를 보려면 **로그 보기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7063-113">To view the log, click **View log**.</span></span>
     
-      - <span data-ttu-id="d11d6-114">마법사를 닫으려면 **마침을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d11d6-114">To close the wizard, click **Finish**.</span></span>
+      - <span data-ttu-id="a7063-114">마법사를 닫으려면 **마침을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7063-114">To close the wizard, click **Finish**.</span></span>
         
         <div>
         
 
         > [!IMPORTANT]  
-        > <span data-ttu-id="d11d6-115">Edge 서버 또는 Edge 풀의 새로 설치 인 경우에는 기존 프런트 엔드 서버, 프런트 엔드 풀 또는 Standard Edition 서버에서 Edge 서버 구성을 내보내야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d11d6-115">If this is a new installation of an Edge Server or Edge pool, you must export the Edge Server configuration from an existing Front End Server, Front End pool, or Standard Edition server.</span></span> <span data-ttu-id="d11d6-116">구성을 내보내려면 <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Lync Server 2013 토폴로지 내보내기를 참조 하 여 edge 설치에 대 한 외부 미디어에 복사</A>합니다.</span><span class="sxs-lookup"><span data-stu-id="d11d6-116">To export the configuration, see <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Export your Lync Server 2013 topology and copy it to external media for edge installation</A>.</span></span> <span data-ttu-id="d11d6-117">Lync Server 배포 마법사를 통해 Edge 서버의 설정 및 배포 단계 중에 외부 미디어 또는 네트워크 공유에서 구성 파일을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="d11d6-117">You will import the configuration file from the external media or network share during the setup and deployment phase of the Edge Servers through the Lync Server Deployment Wizard.</span></span><BR><span data-ttu-id="d11d6-118">Edge 서버가 작동 중이 고 로컬 구성 관리 저장소 데이터베이스가 내부 배포로 복제 되는 경우에는 Lync Server 2013 구성에 대 한 후속 업데이트가 게시 되 고 Edge 서버에 복제 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d11d6-118">Once the Edge Servers are operational and the local configuration management store database is replicating with the internal deployment, subsequent updates to the Lync Server 2013 configuration will be published and replicated to the Edge Servers.</span></span>
+        > <span data-ttu-id="a7063-115">Edge 서버 또는 Edge 풀의 새로 설치 인 경우에는 기존 프런트 엔드 서버, 프런트 엔드 풀 또는 Standard Edition 서버에서 Edge 서버 구성을 내보내야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7063-115">If this is a new installation of an Edge Server or Edge pool, you must export the Edge Server configuration from an existing Front End Server, Front End pool, or Standard Edition server.</span></span> <span data-ttu-id="a7063-116">구성을 내보내려면 <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Lync Server 2013 토폴로지 내보내기를 참조 하 여 edge 설치에 대 한 외부 미디어에 복사</A>합니다.</span><span class="sxs-lookup"><span data-stu-id="a7063-116">To export the configuration, see <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Export your Lync Server 2013 topology and copy it to external media for edge installation</A>.</span></span> <span data-ttu-id="a7063-117">Lync Server 배포 마법사를 통해 Edge 서버의 설정 및 배포 단계 중에 외부 미디어 또는 네트워크 공유에서 구성 파일을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="a7063-117">You will import the configuration file from the external media or network share during the setup and deployment phase of the Edge Servers through the Lync Server Deployment Wizard.</span></span><BR><span data-ttu-id="a7063-118">Edge 서버가 작동 중이 고 로컬 구성 관리 저장소 데이터베이스가 내부 배포로 복제 되는 경우에는 Lync Server 2013 구성에 대 한 후속 업데이트가 게시 되 고 Edge 서버에 복제 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a7063-118">Once the Edge Servers are operational and the local configuration management store database is replicating with the internal deployment, subsequent updates to the Lync Server 2013 configuration will be published and replicated to the Edge Servers.</span></span>
 
         
         </div>

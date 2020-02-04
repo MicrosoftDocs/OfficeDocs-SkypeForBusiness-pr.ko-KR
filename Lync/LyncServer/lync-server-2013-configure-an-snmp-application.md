@@ -3,6 +3,8 @@ title: 'Lync Server 2013: SNMP 응용 프로그램 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure an SNMP application
 ms:assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412972(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a15a911abc614ff30c4130fb2a35886458fcb1dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9e11d79278318c99e1c6a1db3c4609e19553ba4c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984972"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757822"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40984972"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-an-snmp-application-in-lync-server-2013"></a><span data-ttu-id="95eda-102">Lync Server 2013에서 SNMP 응용 프로그램 구성</span><span class="sxs-lookup"><span data-stu-id="95eda-102">Configure an SNMP application in Lync Server 2013</span></span>
+# <a name="configure-an-snmp-application-in-lync-server-2013"></a><span data-ttu-id="d6310-102">Lync Server 2013에서 SNMP 응용 프로그램 구성</span><span class="sxs-lookup"><span data-stu-id="d6310-102">Configure an SNMP application in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,19 +35,19 @@ ms.locfileid: "40984972"
 
 <span> </span>
 
-<span data-ttu-id="95eda-103">_**마지막으로 수정한 주제:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="95eda-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="d6310-103">_**마지막으로 수정한 주제:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="d6310-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="95eda-104">Lync Server 2013에는 위치 정보 서비스를 포트 및 스위치 정보를 사용 하 여 MAC 주소와 일치 하는 SNMP (단순 네트워크 관리 프로토콜) 응용 프로그램에 연결 하는 데 사용할 수 있는 표준 웹 서비스 인터페이스가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="95eda-104">Lync Server 2013 includes a standard web service interface that you can use to connect the Location Information service to Simple Network Management Protocol (SNMP) applications that match MAC addresses with port and switch information.</span></span>
+<span data-ttu-id="d6310-104">Lync Server 2013에는 위치 정보 서비스를 포트 및 스위치 정보를 사용 하 여 MAC 주소와 일치 하는 SNMP (단순 네트워크 관리 프로토콜) 응용 프로그램에 연결 하는 데 사용할 수 있는 표준 웹 서비스 인터페이스가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6310-104">Lync Server 2013 includes a standard web service interface that you can use to connect the Location Information service to Simple Network Management Protocol (SNMP) applications that match MAC addresses with port and switch information.</span></span>
 
-<span data-ttu-id="95eda-105">SNMP 응용 프로그램이 설치 되어 있고 위치 정보 서비스가 위치 데이터베이스에서 일치 하는 항목을 찾지 못하는 경우 위치 정보 서비스는 클라이언트에서 제공 하는 MAC 주소를 사용 하 여 응용 프로그램을 자동으로 쿼리 합니다.</span><span class="sxs-lookup"><span data-stu-id="95eda-105">If an SNMP application is installed and the Location Information service fails to find a match in the location database, the Location Information service automatically queries the application by using the MAC address provided by the client.</span></span> <span data-ttu-id="95eda-106">위치 정보 서비스는 SNMP 응용 프로그램에서 반환 된 포트 및 스위치 정보를 사용 하 여 위치 데이터베이스를 다시 쿼리 합니다.</span><span class="sxs-lookup"><span data-stu-id="95eda-106">The Location Information service then uses the port and switch information returned by the SNMP application to query the location database again.</span></span>
+<span data-ttu-id="d6310-105">SNMP 응용 프로그램이 설치 되어 있고 위치 정보 서비스가 위치 데이터베이스에서 일치 하는 항목을 찾지 못하는 경우 위치 정보 서비스는 클라이언트에서 제공 하는 MAC 주소를 사용 하 여 응용 프로그램을 자동으로 쿼리 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6310-105">If an SNMP application is installed and the Location Information service fails to find a match in the location database, the Location Information service automatically queries the application by using the MAC address provided by the client.</span></span> <span data-ttu-id="d6310-106">위치 정보 서비스는 SNMP 응용 프로그램에서 반환 된 포트 및 스위치 정보를 사용 하 여 위치 데이터베이스를 다시 쿼리 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6310-106">The Location Information service then uses the port and switch information returned by the SNMP application to query the location database again.</span></span>
 
-<span data-ttu-id="95eda-107">자세한 내용은 [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="95eda-107">For details, see [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration).</span></span>
+<span data-ttu-id="d6310-107">자세한 내용은 [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="d6310-107">For details, see [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="95eda-108">MAC 주소는 Windows 8을 실행 하는 컴퓨터에서 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="95eda-108">MAC addresses are not available on computers running Windows 8.</span></span>
+> <span data-ttu-id="d6310-108">MAC 주소는 Windows 8을 실행 하는 컴퓨터에서 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="d6310-108">MAC addresses are not available on computers running Windows 8.</span></span>
 
 
 
@@ -53,11 +55,11 @@ ms.locfileid: "40984972"
 
 <div>
 
-## <a name="to-configure-the-snmp-application-url"></a><span data-ttu-id="95eda-109">SNMP 응용 프로그램 URL을 구성 하려면</span><span class="sxs-lookup"><span data-stu-id="95eda-109">To configure the SNMP application URL</span></span>
+## <a name="to-configure-the-snmp-application-url"></a><span data-ttu-id="d6310-109">SNMP 응용 프로그램 URL을 구성 하려면</span><span class="sxs-lookup"><span data-stu-id="d6310-109">To configure the SNMP application URL</span></span>
 
-1.  <span data-ttu-id="95eda-110">Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="95eda-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="d6310-110">Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6310-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="95eda-111">SNMP 응용 프로그램의 URL을 구성 하려면 다음 cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="95eda-111">Run the following cmdlet to configure the URL for the SNMP application.</span></span>
+2.  <span data-ttu-id="d6310-111">SNMP 응용 프로그램의 URL을 구성 하려면 다음 cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6310-111">Run the following cmdlet to configure the URL for the SNMP application.</span></span>
     
         Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
 
