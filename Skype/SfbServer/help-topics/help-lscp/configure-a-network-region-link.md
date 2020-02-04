@@ -1,5 +1,5 @@
 ---
-title: 네트워크 지역 링크 구성
+title: 네트워크 영역 링크 구성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.NcsRegionLinkMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
-description: 뭘 하고 싶으세요? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: c99eed44f27090726b8493acb80de499c4ef75e8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
+ms.openlocfilehash: f722b62d8a6b10cbb4130d385443730a657ea580
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190554"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686891"
 ---
-# <a name="configure-a-network-region-link"></a><span data-ttu-id="b7cf5-104">네트워크 지역 링크 구성</span><span class="sxs-lookup"><span data-stu-id="b7cf5-104">Configure a Network Region Link</span></span>
+# <a name="configure-a-network-region-link"></a><span data-ttu-id="cb41f-104">네트워크 영역 링크 구성</span><span class="sxs-lookup"><span data-stu-id="cb41f-104">Configure a Network Region Link</span></span>
 
-<span data-ttu-id="b7cf5-105">뭘 하고 싶으세요?</span><span class="sxs-lookup"><span data-stu-id="b7cf5-105">What do you want to do?</span></span> <span data-ttu-id="b7cf5-106">수행 하려는 작업에 대 한 링크를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7cf5-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="cb41f-105">무슨 작업을 수행하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="cb41f-105">What do you want to do?</span></span> <span data-ttu-id="cb41f-106">수행 하려는 작업에 대 한 링크를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="cb41f-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="b7cf5-107">네트워크 지역 링크 구성</span><span class="sxs-lookup"><span data-stu-id="b7cf5-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="cb41f-107">네트워크 지역 링크 구성</span><span class="sxs-lookup"><span data-stu-id="cb41f-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
 
-<span data-ttu-id="b7cf5-108">비즈니스용 Skype 서버 제어판을 사용 하 여 수행할 수 있는 다양 한 절차에 대 한 자세한 내용은 비즈니스용 [Skype 서버 2015 관리](../../manage/manage.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b7cf5-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="cb41f-108">비즈니스용 Skype 서버 제어판을 사용 하 여 수행할 수 있는 다양 한 절차에 대 한 자세한 내용은 비즈니스용 [Skype 서버 2015 관리](../../manage/manage.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="cb41f-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
