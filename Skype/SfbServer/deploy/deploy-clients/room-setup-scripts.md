@@ -7,23 +7,25 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: 이 항목에서는 Skype 대화방 시스템 계정을 프로 비전 하는 샘플 스크립트를 찾을 수 있습니다.
-ms.openlocfilehash: b2a6d0ce02e233492ac04a198c2bf2220f4de998
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a24de087eeeb20c8093101c23ffd20dec19f25e3
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003008"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768711"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a><span data-ttu-id="c0af6-103">Skype 채팅방 시스템 룸 설정 스크립트</span><span class="sxs-lookup"><span data-stu-id="c0af6-103">Skype Room System room setup scripts</span></span>
+# <a name="skype-room-system-room-setup-scripts"></a><span data-ttu-id="24719-103">Skype 채팅방 시스템 룸 설정 스크립트</span><span class="sxs-lookup"><span data-stu-id="24719-103">Skype Room System room setup scripts</span></span>
  
-<span data-ttu-id="c0af6-104">이 항목에서는 Skype 대화방 시스템 계정을 프로 비전 하는 샘플 스크립트를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c0af6-104">Read this topic to find sample scripts for provisioning Skype Room System accounts.</span></span>
+<span data-ttu-id="24719-104">이 항목에서는 Skype 대화방 시스템 계정을 프로 비전 하는 샘플 스크립트를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="24719-104">Read this topic to find sample scripts for provisioning Skype Room System accounts.</span></span>
   
-<span data-ttu-id="c0af6-105">이 섹션에서는 Skype 대화방 시스템 계정을 구축 하는 데 사용할 수 있는 샘플 스크립트를 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="c0af6-105">This section illustrates sample scripts that can be used to provision Skype Room System accounts.</span></span> <span data-ttu-id="c0af6-106">이 스크립트는 설명을 위한 용도로만 사용 되며 IT 전문가 또는 도메인 관리자와 상담 해야만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c0af6-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span></span>
+<span data-ttu-id="24719-105">이 섹션에서는 Skype 대화방 시스템 계정을 구축 하는 데 사용할 수 있는 샘플 스크립트를 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="24719-105">This section illustrates sample scripts that can be used to provision Skype Room System accounts.</span></span> <span data-ttu-id="24719-106">이 스크립트는 설명을 위한 용도로만 사용 되며 IT 전문가 또는 도메인 관리자와 상담 해야만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="24719-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span></span>
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a><span data-ttu-id="c0af6-107">설치 스크립트 예: 비즈니스용 Skype 및 Exchange Server (온-프레미스)</span><span class="sxs-lookup"><span data-stu-id="c0af6-107">Example Setup Script: Skype for Business and Exchange Server (On Premises)</span></span>
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a><span data-ttu-id="24719-107">설치 스크립트 예: 비즈니스용 Skype 및 Exchange Server (온-프레미스)</span><span class="sxs-lookup"><span data-stu-id="24719-107">Example Setup Script: Skype for Business and Exchange Server (On Premises)</span></span>
 
 ```powershell
 # On Exchange 
@@ -37,17 +39,17 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a><span data-ttu-id="c0af6-108">설치 스크립트 예: 비즈니스용 Skype 및 Exchange Server Online</span><span class="sxs-lookup"><span data-stu-id="c0af6-108">Example Setup Script: Skype for Business and Exchange Server Online</span></span>
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a><span data-ttu-id="24719-108">설치 스크립트 예: 비즈니스용 Skype 및 Exchange Server Online</span><span class="sxs-lookup"><span data-stu-id="24719-108">Example Setup Script: Skype for Business and Exchange Server Online</span></span>
 
-<span data-ttu-id="c0af6-109">스크립트를 실행 하기 전에 다음 필수 구성 요소를 검토 했는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="c0af6-109">Make sure you've reviewed the following prerequisites before running the script:</span></span>
+<span data-ttu-id="24719-109">스크립트를 실행 하기 전에 다음 필수 구성 요소를 검토 했는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="24719-109">Make sure you've reviewed the following prerequisites before running the script:</span></span>
   
-- <span data-ttu-id="c0af6-110">IT 전문가를 위한 Microsoft Online Services 로그인 도우미 베타</span><span class="sxs-lookup"><span data-stu-id="c0af6-110">Microsoft Online Services Sign-In Assistant for IT Professionals BETA</span></span>
+- <span data-ttu-id="24719-110">IT 전문가를 위한 Microsoft Online Services 로그인 도우미 베타</span><span class="sxs-lookup"><span data-stu-id="24719-110">Microsoft Online Services Sign-In Assistant for IT Professionals BETA</span></span>
     
-- <span data-ttu-id="c0af6-111">Windows PowerShell 용 windows Azure Active Directory 모듈 (64 비트 버전) 또는 (32 비트 버전)</span><span class="sxs-lookup"><span data-stu-id="c0af6-111">Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)</span></span>
+- <span data-ttu-id="24719-111">Windows PowerShell 용 windows Azure Active Directory 모듈 (64 비트 버전) 또는 (32 비트 버전)</span><span class="sxs-lookup"><span data-stu-id="24719-111">Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)</span></span>
     
-- <span data-ttu-id="c0af6-112">Lync Online 용 Windows PowerShell 모듈</span><span class="sxs-lookup"><span data-stu-id="c0af6-112">Windows PowerShell Module for Lync Online</span></span>
+- <span data-ttu-id="24719-112">Lync Online 용 Windows PowerShell 모듈</span><span class="sxs-lookup"><span data-stu-id="24719-112">Windows PowerShell Module for Lync Online</span></span>
     
-- <span data-ttu-id="c0af6-113">필요한 경우 재부팅</span><span class="sxs-lookup"><span data-stu-id="c0af6-113">Reboot if needed</span></span>
+- <span data-ttu-id="24719-113">필요한 경우 재부팅</span><span class="sxs-lookup"><span data-stu-id="24719-113">Reboot if needed</span></span>
     
 ```powershell
 # Note you have to enter each command one at a time and update any bold fields for your environment
