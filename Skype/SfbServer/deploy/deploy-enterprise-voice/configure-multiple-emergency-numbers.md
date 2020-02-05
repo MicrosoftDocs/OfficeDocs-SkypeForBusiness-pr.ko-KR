@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: 비즈니스용 Skype 서버에서 여러 응급 번호를 구성 하는 방법을 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: a0a16536799024085afcce07d6a2a9a0e4c899e1
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 9805462d8c9498af3e3cf1cb743e2af9e08ec285
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001318"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768121"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>비즈니스용 Skype에서 여러 응급 번호 구성
 

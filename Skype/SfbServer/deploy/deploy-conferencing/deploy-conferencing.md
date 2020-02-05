@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: '요약: 비즈니스용 Skype 서버에서 회의를 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: 3b00d20ea930d96f98502e3b75a0ce044301b142
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 34405084833bbdc5e65a6cc82ebc310718629296
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234872"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768551"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 배포
 
@@ -49,7 +51,7 @@ ms.locfileid: "36234872"
 |**단계의**|**방법은**|**역할 및 그룹 구성원**|**설명서**|
 |:-----|:-----|:-----|:-----|
 |**필수 하드웨어 및 소프트웨어 설치** <br/> |프론트 엔드 풀과 Standard Edition 서버의 프런트 엔드 서버에서 회의가 실행 됩니다. 프런트 엔드 서버에 대 한 서버 및 환경 요구 사항을 참조 하세요.  <br/> 웹 회의를 사용 하도록 설정 하는 경우 비즈니스용 Skype 서버가 PowerPoint 프레젠테이션 공유 및 렌더링을 처리 하는 데 사용 되는 Office Web Apps 서버와 통신할 수 있는지 확인 해야 합니다.  <br/> 웹 회의의 경우 파일 저장소로 사용할 파일 공유도 지정 해야 합니다.  <br/> 비즈니스용 Skype 클라이언트에서 외부 사용자가 회의에 참가할 수 있도록 설정 하 고 싶으신가요? 그렇다면 Edge 서버를 배포 해야 합니다.  <br/> |로컬 관리자 그룹의 구성원 인 도메인 사용자  <br/> | [비즈니스용 Skype 서버 2019에 대 한 서버 요구 사항](../../../SfBServer2019/plan/system-requirements.md) <br> [비즈니스용 Skype 서버 2015의 서버 요구 사항](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [비즈니스용 Skype 서버 2015에 대한 환경 요구 사항](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [비즈니스용 Skype 서버에서의 회의 하드웨어 및 소프트웨어 요구 사항](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md) <br/> [비즈니스용 Skype 서버에서 Office Web Apps 서버와 통합 구성](office-web-app-server.md) <br/> [비즈니스용 Skype 서버에서 파일 공유 만들기](../../deploy/install/create-a-file-share.md) <br/> [비즈니스용 Skype 서버 2015의 Edge 서버 배포 계획](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) <br/> [비즈니스용 Skype 서버 2015에 Edge 서버 배포](../../deploy/deploy-edge-server/deploy-edge-server.md) <br/> |
-|**회의를 지원 하기 위해 적절 한 내부 토폴로지 만들기** <br/> |토폴로지 작성기를 실행 하 여 토폴로지에 회의를 추가한 다음 토폴로지를 게시 해야 합니다.  <br/> |토폴로지를 정의 하려면 로컬 사용자 그룹의 구성원 인 계정  <br/> 도메인 관리자 그룹 및 RTCUniversalServerAdmins 그룹의 구성원 인 계정이 며 비즈니스용 Skype Server 파일 저장소에 사용할 파일 공유에 대 한 모든 권한 (읽기/쓰기/수정)이 있는 경우 토폴로지를 게시 하려면 작성기에서 필수 Dacl을 구성할 수 있음)  <br/> |[비즈니스용 Skype 서버에서 새 토폴로지 만들기 및 게시](../../deploy/install/create-and-publish-new-topology.md) <br/> |
+|**회의를 지원 하기 위해 적절 한 내부 토폴로지 만들기** <br/> |토폴로지 작성기를 실행 하 여 토폴로지에 회의를 추가한 다음 토폴로지를 게시 해야 합니다.  <br/> |토폴로지를 정의 하려면 로컬 사용자 그룹의 구성원 인 계정  <br/> 도메인 관리자 그룹 및 RTCUniversalServerAdmins 그룹의 구성원이 며 토폴로지를 비즈니스용 Skype Server 파일 저장소에 사용할 파일 공유에 대 한 모든 권한 (읽기/쓰기/수정)을가지고 있는 계정 (토폴로지 작성기가 필수 Dacl을 구성할 수 있도록)을 게시 하려면  <br/> |[비즈니스용 Skype 서버에서 새 토폴로지 만들기 및 게시](../../deploy/install/create-and-publish-new-topology.md) <br/> |
 |**회의 정책 및 구성 설정 구성** <br/> |비즈니스용 Skype Server 제어판 또는 비즈니스용 Skype Server Management Shell을 사용 하 여 회의 정책 및 구성 설정을 구성 합니다.  <br/> |RTCUniversalServerAdmins 그룹 (Windows PowerShell에만 해당) 또는 CSAdministrator 역할에 사용자 할당  <br/> |[비즈니스용 Skype 서버에서 회의 정책 관리](../../manage/conferencing/conferencing-policies.md) <br/> [비즈니스용 Skype 서버에서 모임 구성 설정 관리](../../manage/conferencing/meeting-configuration-settings.md) <br/> [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> [New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> [Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |
 
 ## <a name="deployment-flowchart-and-checklist-for-dial-in-conferencing"></a>전화 접속 회의를 위한 배포 순서도 및 검사 목록

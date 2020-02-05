@@ -5,6 +5,8 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 온-프레미스 배포와 비즈니스용 Skype Online 간의 상호 운용성을 구성 하는 방법을 알아봅니다.'
-ms.openlocfilehash: c451224e7f421b4505560533b2880a14cc04e1a9
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 1b36a25674c3d6690b7490d0cd0793f05131cc12
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963037"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726788"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>비즈니스용 Skype 하이브리드 구성하기
 

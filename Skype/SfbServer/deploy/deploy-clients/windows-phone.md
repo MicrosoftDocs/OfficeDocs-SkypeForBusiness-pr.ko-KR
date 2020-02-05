@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: '요약: Windows Phone에서 비즈니스용 Skype를 설치 하 고 테스트 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 80b7f208153474380e5fae1b1c8a95b3fdb06e39
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 63d766a566f131bc58540a13e2a19aa2add0700b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234862"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768591"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Windows Phone 용 비즈니스용 Skype 설치 및 테스트
  

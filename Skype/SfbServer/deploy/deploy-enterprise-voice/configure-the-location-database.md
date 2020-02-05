@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 비즈니스용 Skype Server Enterprise Voice에서 E9-1 위치 데이터베이스를 구성, 채우기, 게시 합니다.
-ms.openlocfilehash: 1e972e78af1a83e68c2d28d0f636128b7c339cf2
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 4b8848637130886250d08847c45df3c2dc080f5b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001308"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768111"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 위치 데이터베이스 구성
  

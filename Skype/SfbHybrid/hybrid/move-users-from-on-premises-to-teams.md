@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 사용자 설정을 마이그레이션하고 사용자를 팀으로 이동 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 0d37fc1a875763552b2b0cebbd29a0f9c7a62e8d
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: c719741323c0e1bc8435adf10364356d069e8774
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010621"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726748"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>온-프레미스에서 팀으로 사용자 이동
 
@@ -59,7 +61,7 @@ ms.locfileid: "38010621"
 
 이동-CsUser는 온-프레미스 비즈니스용 Skype 관리 셸 PowerShell 창에서 사용할 수 있습니다. 아래 단계 및 필요한 사용 권한은 사용자를 비즈니스용 Skype Online으로 이동 하는 것과 동일 하지만, MoveToTeams 스위치를 지정 해야 하 고 사용자에 게 팀에 대 한 라이선스도 부여 되었는지 확인 해야 합니다 (비즈니스용 Skype 추가). 온라인)
 
-[필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 온-프레미스 환경과 Office 365 테 넌 트 둘 다에 충분 한 권한이 있어야 합니다. 두 환경 모두에서 권한이 있는 단일 계정을 사용 하거나 온-프레미스 자격 증명을 사용 하 여 온-프레미스 비즈니스용 Skype 서버 관리 셸 창을 시작 하 고 `-Credential` 매개 변수를 사용 하 여 Office 365에 대 한 자격 증명을 지정할 수 있습니다. 필요한 Office 365 관리 역할이 있는 계정입니다.
+[필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 온-프레미스 환경과 Office 365 테 넌 트 둘 다에 충분 한 권한이 있어야 합니다. 두 환경 모두에서 권한이 있는 단일 계정을 사용 하거나 온-프레미스 자격 증명을 사용 하 여 온-프레미스 비즈니스용 Skype 서버 관리 셸 창을 시작 하 고 `-Credential` 매개 변수를 사용 하 여 필요한 office 365 관리 역할이 있는 office 365 계정에 대 한 자격 증명을 지정할 수 있습니다.
 
 이동-CsUser를 사용 하 여 사용자를 팀 전용 모드로 이동 하려면 다음을 수행 합니다.
 
@@ -117,6 +119,6 @@ Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNoti
 [CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy
 )
 
-[팀과 비즈니스용 Skype를 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[Team를 비즈니스용 Skype와 함께 사용하는 조직에 대한 마이그레이션 및 상호 운용성 가이드](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [비즈니스용 Skype와 동시 사용](/microsoftteams/coexistence-chat-calls-presence)

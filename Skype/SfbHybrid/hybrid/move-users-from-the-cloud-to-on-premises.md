@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 비즈니스용 Skype Online에서 온-프레미스로 사용자를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 47b454a30d66a2c033915868eb2c95ea9ce0efe4
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 0b2143a1705aff3f0b74fb0194d3d10e3d55771b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963016"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726738"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>클라우드에서 사용자를 온-프레미스로 이동 
 

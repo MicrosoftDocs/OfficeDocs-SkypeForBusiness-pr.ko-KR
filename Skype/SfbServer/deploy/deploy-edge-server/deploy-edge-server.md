@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: '요약: Edge 서버 또는 Edge 풀을 비즈니스용 Skype 서버 환경에 배포 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 03cb3f1bc4a938a698c28332b4781d08434bc52f
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: ca0fba35165c05ab9cdf6010c3c5dd076ec1ea5b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493106"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768321"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 Edge 서버 배포
  

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 공용 사용자 액세스를 제어하도록 정책 �
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure policies to control public user access
 ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e259082aa73d4354e8e4aa93eb7a0cc8d7ed7a6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b348abcce00eb57988c7aa5184c0cfb5ea302adb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40984975"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763280"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

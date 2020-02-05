@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: '요약: 비즈니스용 Skype 서버용으로 미디어 바이패스를 사용 하도록 설정 된 트렁크를 구성 합니다. 이렇게 하면 SIP 트렁크 공급자가 지 원하는 중재 서버 수를 최소화할 수 있습니다.'
-ms.openlocfilehash: 3b51cedfbead08cd70b543e9019c351adcc2a4eb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4f834a908f002e334fbad70a8c1c8c0617ca2189
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233890"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768101"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 미디어 바이패스를 사용 하 여 트렁크 구성
 
@@ -78,7 +80,7 @@ ms.locfileid: "36233890"
 8. 트렁크 피어가 조정 서버의 SIP 수신 요청을 지원 하면 **게이트웨이를 참조로 보내기를 사용** 확인란을 선택 합니다.
 
     > [!NOTE]
-    > **미디어 무시 사용** 옵션을 선택 하 고이 옵션을 사용 하지 않도록 설정 하면 추가 설정이 필요 합니다. 트렁크 피어가 SIP 받기를 지원 하지 않는 경우 중재 서버의 요청을 참조 하 고 미디어 바이패스를 사용 하도록 설정 하는 경우 **set-cstrunkconfiguration** cmdlet을 실행 하 여 RTCP에 대 한 적절 한 조건을 지원 하기 위해 활성 및 보유 통화를 비활성화 해야 합니다. 미디어 바이패스. 또는 **타사 통화 제어를 사용 하 여 사용** 을 선택할 수 있으며,이 경우 게이트웨이는 SIP 참조 요청을 지원 하지 않습니다.
+    > **미디어 무시 사용** 옵션을 선택 하 고이 옵션을 사용 하지 않도록 설정 하면 추가 설정이 필요 합니다. 트렁크 피어가 SIP 받기를 지원 하지 않는 경우 중재 서버의 요청을 참조 하 고 미디어 바이패스를 사용 하도록 설정 하는 경우 **set-cstrunkconfiguration** cmdlet을 실행 하 여 media bypass에 대 한 적절 한 조건을 지원 하도록 RTCP (활성 및 보류 된 통화)를 사용 하지 않도록 해야 합니다. 또는 **타사 통화 제어를 사용 하 여 사용** 을 선택할 수 있으며,이 경우 게이트웨이는 SIP 참조 요청을 지원 하지 않습니다.
 
 9. ) 트렁크 간 라우팅을 사용 하도록 설정 하려면 PSTN 사용 레코드를이 트렁크 구성에 연결 하 고 구성 합니다. 이 트렁크 구성에 연결 된 PSTN 사용은 비즈니스용 Skype 서버 끝점에서 시작 되지 않는 트렁크를 통해 들어오는 모든 통화에 적용 됩니다. 트렁크 구성에 연결 된 PSTN 사용 레코드를 관리 하려면 다음 방법 중 하나를 사용 합니다.
 
@@ -172,7 +174,7 @@ ms.locfileid: "36233890"
 17. 트렁크의 번역 규칙이 올바른 순서로 정렬 되어 있는지 확인 합니다. 목록에서 규칙의 위치를 변경 하려면 규칙 이름을 강조 표시 한 다음 위쪽 또는 아래쪽 화살표를 클릭 합니다.
 
     > [!IMPORTANT]
-    > 비즈니스용 Skype Server는 번역 규칙 목록을 위에서 아래로 이동 하 고, 전화 번호와 일치 하는 첫 번째 규칙을 사용 합니다. 전화를 거는 번호가 두 개 이상의 번역 규칙과 일치 하도록 트렁크를 구성 하는 경우 더 제한적인 규칙이 덜 제한적인 규칙 보다 먼저 정렬 되어 있는지 확인 합니다. 예를 들어 11 자리 숫자와 일치 하는 번역 규칙과 + 1425으로 시작 하는 11 자리 숫자만 일치 하는 번역 규칙을 포함 한 경우 11 자리 숫자와 일치 하는 규칙이 보다 제한적으로 정렬 되어 있는지 확인 해야 합니다. ** 노트.
+    > 비즈니스용 Skype Server는 번역 규칙 목록을 위에서 아래로 이동 하 고, 전화 번호와 일치 하는 첫 번째 규칙을 사용 합니다. 전화를 거는 번호가 두 개 이상의 번역 규칙과 일치 하도록 트렁크를 구성 하는 경우 더 제한적인 규칙이 덜 제한적인 규칙 보다 먼저 정렬 되어 있는지 확인 합니다. 예를 들어 11 자리 숫자와 일치 하는 번역 규칙과 + 1425으로 시작 하는 11 자리 숫자만 일치 하는 번역 규칙이 포함 된 경우 11 자리 숫자와 일치 하는 규칙이 더 제한적인 규칙 *아래* 에 정렬 되어 있는지 확인 합니다.
 
 18. 트렁크 구성을 마쳤으면 **확인**을 클릭 합니다.
 

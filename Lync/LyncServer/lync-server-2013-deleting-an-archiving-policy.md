@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 보관 정책 삭제'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting an Archiving policy
 ms:assetid: 4739a691-41cc-4128-8bb8-6d5a4c02107a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520989(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184043
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f151a940958273509191b35ed817409ba52b6dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 926cc7e45fe3e57c189b01ff92da49342506dc2b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40983725"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763076"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

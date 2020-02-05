@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: 비즈니스용 Skype Server Enterprise Voice에서 통화 관리 기능을 배포 합니다.
-ms.openlocfilehash: e21ac43e036f9aa12de00faf9d94db6fdffe9132
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c3cc645f26d8e99f67cb9ddf00d4f9119e06dc81
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245773"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767601"
 ---
 # <a name="deploy-call-management-features-in-skype-for-business"></a>비즈니스용 Skype에서 통화 관리 기능 배포
  

@@ -7,18 +7,20 @@ audience: ITPro
 manager: serdars
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: '요약: Edge 서버 또는 Edge 서버 풀이 비즈니스용 Skype 서버에서 작동 하는지 확인 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 57994e4583a3424fc680c8dfb220aeb11668c6fc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c73b77fd0171afe20f9e40b48c47ef4304df4c66
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234079"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768301"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 Edge 배포의 유효성 검사
  

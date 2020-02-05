@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: '요약: 비즈니스용 Skype 서버 제어판을 사용 하 여 트렁크 구성 설정 모음을 새로 만드는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: f724526f35a530c19e709e7faa62369e454ea6a4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9e208355f02d97802b2e1de2457e542fc0bb12c3
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240303"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766952"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 새 트렁크 구성 설정 모음 만들기 
 
@@ -67,7 +69,7 @@ SIP 트렁크 구성 설정은 중재 서버와 PSTN (공개 통신 네트워크
     
 2. **트렁크 구성** 탭에서 **새로 만들기**를 클릭 한 다음 **사이트 트렁크** 를 클릭 하 여 사이트 범위에서 새 설정을 만들거나, **풀 트렁크** 에서 서비스 범위에 새 설정을 만듭니다.
     
-3. **사이트 선택** 또는 **서비스 선택** 대화 상자 (표시 되는 대화 상자는 사이트 범위 또는 서비스 범위 설정을 만들지 여부에 따라 달라 짐) 새 구성 설정의 위치를 선택 하 고 **확인** 을 클릭 합니다. . 대화 상자가 비어 있으면 새 설정을 만들 수 있는 위치가 없다는 의미입니다. 예를 들어 **사이트 선택** 대화 상자가 비어 있는 경우 모든 사이트에서 이미 트렁크 구성 사이트 모음을 할당 했으며 각 사이트 (및 각 서비스)는 그러한 컬렉션을 하나만 호스트할 수 있습니다. 이러한 경우 기존 컬렉션을 삭제 하 고 새 컬렉션을 만들거나 기존 컬렉션을 수정할 수 있습니다.
+3. **사이트 선택** 또는 **서비스 선택** 대화 상자 (표시 되는 대화 상자는 사이트 범위 또는 서비스 범위 설정을 만들지 여부에 따라 달라 짐) 새 구성 설정의 위치를 선택 하 고 **확인**을 클릭 합니다. 대화 상자가 비어 있으면 새 설정을 만들 수 있는 위치가 없다는 의미입니다. 예를 들어 **사이트 선택** 대화 상자가 비어 있는 경우 모든 사이트에서 이미 트렁크 구성 사이트 모음을 할당 했으며 각 사이트 (및 각 서비스)는 그러한 컬렉션을 하나만 호스트할 수 있습니다. 이러한 경우 기존 컬렉션을 삭제 하 고 새 컬렉션을 만들거나 기존 컬렉션을 수정할 수 있습니다.
     
 4. **새 트렁크 구성** 대화 상자에서 적절 하 게 선택 하 고 **확인**을 클릭 합니다.
     

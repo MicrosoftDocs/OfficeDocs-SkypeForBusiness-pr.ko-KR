@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: '요약: Office 설치 프로그램의 setup.exe 명령줄 작업에 대해 알아봅니다.'
-ms.openlocfilehash: a84c1f8a69bdff07dfec5e274932a522bf139c9a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 68add6e2744e9648db49508519c14e64b4e6aeef
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234838"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768631"
 ---
 # <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>비즈니스용 Skype 클라이언트에서 설치 명령줄 옵션 사용
  

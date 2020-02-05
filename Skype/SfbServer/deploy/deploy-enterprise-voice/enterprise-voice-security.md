@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: '요약: 비즈니스용 Skype 서버에서 엔터프라이즈 음성에 대 한 보안 및 구성 선행 조건에 대해 알아봅니다.'
-ms.openlocfilehash: 70acac97bd2a3554c0613f64bdbf93f64811a0b0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 314c25429dbf346a5f62705afa4f19a5b518452a
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240591"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767241"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 엔터프라이즈 음성에 대 한 보안 및 구성 선행 조건
  
@@ -59,7 +61,7 @@ ms.locfileid: "36240591"
 
 엔터프라이즈 음성에 대 한 소프트웨어 및 환경 필수 구성 요소를 확인 한 후 다음 중 하나를 수행 합니다.
   
-- [비즈니스용 Skype 서버의 토폴로지 작성기에 조정 서버 배포](deploy-a-mediation-server.md)에 설명 된 바와 같이 중재 서버를 설치 하 되, 중재 서버가 프런트 엔드에서 설치 되어 있기 때문에 독립 실행형 중재 서버 또는 풀을 배포 하려는 경우에만 필요 합니다. collocated 때 풀 또는 Standard Edition 서버 배포 프로세스
+- [비즈니스용 Skype server의 토폴로지 작성기에 조정 서버 배포](deploy-a-mediation-server.md)에서 설명한 대로, 중재 서버는 프런트 엔드 풀 또는 Collocated에 표준 버전 서버 배포 프로세스의 일부로 설치 되어 있기 때문에 독립 실행형 중재 서버 또는 풀을 배포 하려는 경우에만 중재 서버를 설치 합니다.
     
 - 또는 [비즈니스용 Skype 서버에서 Trunks 구성](configure-trunks.md)에 설명 된 대로 엔터프라이즈 음성 사용자에 대 한 통화를 라우팅하도록 설정 구성을 시작 합니다.
     

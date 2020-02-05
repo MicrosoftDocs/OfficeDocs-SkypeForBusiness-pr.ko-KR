@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: '요약: 비즈니스용 Skype 서버에서 중재 서버용 파일을 설치 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: b73832586ba4a09cc51f67bddcaf30c2f85fcca1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4dc4c9971b74bf27d0f516ed70484646b666a845
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240531"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767121"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 중재 서버용 파일 설치
  
@@ -60,5 +62,5 @@ ms.locfileid: "36240531"
     
 13. 비즈니스용 Skype Server 제어판을 실행 중인 컴퓨터에서 조정 서버의 서비스 상태가 녹색 확인 표시로 표시 되는 비즈니스용 Skype Server 제어판의 **토폴로지** 페이지를 확인 합니다. 대신 빨간색 X가 나타나면 중재 서버를 선택 합니다. **작업** 메뉴에서 **모든 서비스 시작**을 클릭 합니다. 
     
-중재 서버 풀에 둘 이상의 컴퓨터를 추가한 경우 조정 서버 풀의 다른 모든 컴퓨터에서이 절차의 단계를 수행 합니다. 다른 컴퓨터에 대 한 중재 서버용 파일을 설치할 필요가 없는 경우 [비즈니스용 Skype Server에서 Trunks 구성](configure-trunks.md) 의 절차에 따라이 중재 서버 풀 간의 트렁크 연결에 대 한 설정을 구성 합니다 (또는 모두 중재). 사이트의 서버) 및 해당 피어.
+중재 서버 풀에 둘 이상의 컴퓨터를 추가한 경우 조정 서버 풀의 다른 모든 컴퓨터에서이 절차의 단계를 수행 합니다. 다른 컴퓨터에 대해 중재 서버용 파일을 설치할 필요가 없는 경우 [비즈니스용 Skype 서버에서 Trunks 구성](configure-trunks.md) 의 절차에 따라이 중재 서버 풀 (또는 사이트의 모든 중재 서버) 및 해당 피어 간의 트렁크 연결에 대 한 설정을 구성 합니다.
 

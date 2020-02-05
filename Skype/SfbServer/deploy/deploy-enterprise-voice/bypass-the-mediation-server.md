@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 description: 비즈니스용 Skype Server Enterprise Voice에서 항상 중재 서버를 우회 하도록 미디어 바이패스를 사용 하도록 설정 합니다.
-ms.openlocfilehash: dfffda1130fc1fb119e6cbf5d9b12af766b9c038
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: cde2a1bff41016e05ac6c74978fa65b45f11a1e7
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234036"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768271"
 ---
 # <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>비즈니스용 Skype 서버에서 미디어 바이패스를 구성 하 여 항상 중재 서버를 우회 합니다.
  

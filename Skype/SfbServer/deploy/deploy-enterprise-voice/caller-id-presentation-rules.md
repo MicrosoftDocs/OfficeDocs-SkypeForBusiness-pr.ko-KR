@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: '요약: 비즈니스용 Skype 서버 제어판을 사용 하 여 발신자 ID를 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: ca35b3398732296f435196ffeb38d915472b303d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d6b2e594d0f16e9b3278145087af854650a957da
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233979"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768161"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 발신자 ID 프레젠테이션의 번역 규칙 만들기 또는 수정
 
 **요약:** 비즈니스용 Skype 서버 제어판을 사용 하 여 발신자 ID를 구성 하는 방법에 대해 알아봅니다.
 
-비즈니스용 Skype 서버를 사용 하는 경우, 호출 된 상대방의 전화 번호 (전화 번호)를 _트렁크 피어_ 에 필요한 로컬 전화 걸기 형식으로 변환할 수 있습니다 (즉, 연결 된 게이트웨이, 사설 분기 교환 ( PBX) 또는 SIP 트렁크). 이렇게 하려면 요청 URI를 트렁크 피어로 라우팅하기 전에 변환 하는 하나 이상의 번역 규칙을 정의 해야 합니다.
+비즈니스용 Skype 서버를 사용 하는 경우, 호출 된 상대방의 전화 번호 (전화 번호)를 _트렁크 피어_ 에 필요한 로컬 전화 걸기 형식 (연결 된 게이트웨이, 개인 분기 교환 (PBX) 또는 SIP 트렁크)으로 변환할 수 있습니다. 이렇게 하려면 요청 URI를 트렁크 피어로 라우팅하기 전에 변환 하는 하나 이상의 번역 규칙을 정의 해야 합니다.
 
 비즈니스용 Skype 서버는 또한 전화 상대의 전화 번호 (즉, 발신자가 통화 하는 전화 번호)를 트렁크 피어에 필요한 지역 전화 걸기 형식으로 변환 하는 옵션도 제공 합니다. 예를 들어 다이얼 문자열의 시작 부분에서 + 44을 제거 하 고 0144으로 바꾸는 번역 규칙을 작성할 수 있습니다.
 

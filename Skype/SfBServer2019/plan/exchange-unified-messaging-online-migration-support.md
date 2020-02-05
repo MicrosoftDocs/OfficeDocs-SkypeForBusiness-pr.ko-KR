@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft는 2020 년 2 월에 ExchUMO (Exchange 통합 메시징 Online) 서비스를 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 인식 하 고 비즈니스 연속성을 계획 하기 위해 수행 해야 하는 작업을 요약 합니다.
-ms.openlocfilehash: 55382780fe6ef1c67cbecc1f6c997809f9173b8a
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 1518bf9d5c45b4d53ee2934bb996978b82159617
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628674"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737128"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
-2019 년 2 월 8 일 [공지 사항](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) 에 대 한 참조에서 Microsoft는 2020에서 Exchange um Online (ExchUMO) 서비스를 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 알아야 할 사항에 대해 요약 하 여 비즈니스 연속성을 계획 합니다.
+2019 년 2 월 8 일에 [공지 사항](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) 에 대 한 참조에서 Microsoft는 2020 ~ 2 월 28 일에 Exchange um Online (ExchUMO) 서비스를 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 알아야 할 사항에 대해 요약 하 여 비즈니스 연속성을 계획 합니다.
  
 ExchUMO는 보이스 메일, 자동 전화 교환, 통화 대기열 및 팩스 통합 서비스에 대해 고객에 의해 배포 됩니다. 고객이 비즈니스용 Skype Online 및 Microsoft 팀에서 수천 명의 고객을 지 원하는 전화 시스템 서비스로 마이그레이션하는 데 도움이 되는 Microsoft 계획입니다.
 
@@ -77,7 +77,7 @@ Microsoft는 ExchUMO의 기능을 사용 하는 다양 한 고객 배포를 식�
     관리자 알림 센터에서 사용자의 마이그레이션에 대 한 추가 세부 정보와 시간 표시 막대를 확인 하세요. 알림은 마이그레이션 기간 전에 30 일 이상 전송 됩니다. 
 
     > [!Note]
-    > 사용자의 마이그레이션 시간 표시 막대에 대 한 알림을 받고 비즈니스에 중요 한 이유로 마이그레이션을 연기 하려는 경우 Microsoft 지원에 문의 하 여이 작업을 수행할 수 있습니다. 만료 날짜 (2 월 2020) 외에는 마이그레이션을 연기할 수 없다는 점에 유의 하세요. 추가 질문이 있는 고객은 계정 팀 또는 Microsoft 지원에 문의 하세요. 이미 Office 365를 사용 하는 고객은 Office 365 관리 포털을 통해 지원 사례를 제출할 수 있습니다. 
+    > 사용자의 마이그레이션 시간 표시 막대에 대 한 알림을 받고 비즈니스에 중요 한 이유로 마이그레이션을 연기 하려는 경우 Microsoft 지원에 문의 하 여이 작업을 수행할 수 있습니다. 2020 년 2 월 28 일 외에는 마이그레이션을 연기할 수 없습니다. 추가 질문이 있는 고객은 계정 팀 또는 Microsoft 지원에 문의 하세요. 이미 Office 365를 사용 하는 고객은 Office 365 관리 포털을 통해 지원 사례를 제출할 수 있습니다. 
 
 6. **예정 된 마이그레이션에 대 한 옵트인 고려**
 

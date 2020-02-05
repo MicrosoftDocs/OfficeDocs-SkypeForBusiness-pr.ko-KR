@@ -8,6 +8,8 @@ ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: '요약: 비즈니스용 Skype 서버의 토폴로지 작성기에서 중재 서버를 정의 하 고 배포 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 23d1567816c56408b276672fdd0330b0aa3d635c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c651ff3e254165161642c4e729d0d4e3f2983023
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245813"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767691"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 토폴로지 작성기에서 중재 서버 배포
  
@@ -91,7 +93,7 @@ Collocated 역할을 프런트 엔드 풀에 추가 하거나 별도의 독립 �
     
 8. **Edge 서버 선택** 페이지에서 다음 중 하나를 수행 합니다.
     
-   - Enterprise Voice에 대해 사용 하도록 설정 된 외부 사용자에 게 PSTN 연결을 제공 하려는 경우 **이 중재 서버에서 사용 하는 Edge 풀 선택**아래에서이 중재 서버 풀을 사용 하는 edge server 풀의 FQDN을 클릭 하 여 pstn 연결을 제공 합니다. 해당 외부 사용자를 선택한 후 **다음**을 클릭 합니다.
+   - Enterprise Voice에 대해 사용 하도록 설정 된 외부 사용자에 게 PSTN 연결을 제공 하려는 경우 **이 중재 서버에서 사용 하는 Edge 풀 선택**아래에서이 중재 서버 풀을 사용 하는 edge 서버 풀의 FQDN을 클릭 하 여 해당 외부 사용자에 게 PSTN 연결을 제공 하 고 **다음**을 클릭 합니다.
     
    - 외부 사용자에 게 Enterprise Voice를 사용할 수 있도록 설정 하지 않으려는 경우 또는 내부 네트워크 외부에 있을 때 사용자에 게 PSTN 연결을 제공 하지 않으려는 경우 **다음**을 클릭 합니다.
     

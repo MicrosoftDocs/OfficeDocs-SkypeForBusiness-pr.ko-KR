@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: '요약: 비즈니스용 Skype 서버용으로 미디어 바이패스를 사용 하지 않고 트렁크를 구성 합니다.'
-ms.openlocfilehash: c60217b6dc127616dfbaf9590c43adec25c20eff
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ccdcc6612d13770eaffc663a95fdfca3c349e4e9
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233880"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768081"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 미디어 바이패스 없이 트렁크 구성
 
@@ -154,7 +156,7 @@ ms.locfileid: "36233880"
 16. 트렁크의 번역 규칙이 올바른 순서로 정렬 되어 있는지 확인 합니다. 목록에서 규칙의 위치를 변경 하려면 규칙 이름을 강조 표시 한 다음 위쪽 또는 아래쪽 화살표를 클릭 합니다.
 
     > [!IMPORTANT]
-    > 비즈니스용 Skype Server는 번역 규칙 목록을 위에서 아래로 이동 하 고, 전화 번호와 일치 하는 첫 번째 규칙을 사용 합니다. 전화를 거는 번호가 두 개 이상의 번역 규칙과 일치 하도록 트렁크를 구성 하는 경우 더 제한적인 규칙이 덜 제한적인 규칙 보다 먼저 정렬 되어 있는지 확인 합니다. 예를 들어 11 자리 숫자와 일치 하는 번역 규칙과 + 1425으로 시작 하는 11 자리 숫자만 일치 하는 번역 규칙을 포함 한 경우 11 자리 숫자와 일치 하는 규칙이 보다 제한적으로 정렬 되어 있는지 확인 해야 합니다. ** 노트.
+    > 비즈니스용 Skype Server는 번역 규칙 목록을 위에서 아래로 이동 하 고, 전화 번호와 일치 하는 첫 번째 규칙을 사용 합니다. 전화를 거는 번호가 두 개 이상의 번역 규칙과 일치 하도록 트렁크를 구성 하는 경우 더 제한적인 규칙이 덜 제한적인 규칙 보다 먼저 정렬 되어 있는지 확인 합니다. 예를 들어 11 자리 숫자와 일치 하는 번역 규칙과 + 1425으로 시작 하는 11 자리 숫자만 일치 하는 번역 규칙이 포함 된 경우 11 자리 숫자와 일치 하는 규칙이 더 제한적인 규칙 *아래* 에 정렬 되어 있는지 확인 합니다.
 
 17. 트렁크 구성을 마쳤으면 **확인**을 클릭 합니다.
 

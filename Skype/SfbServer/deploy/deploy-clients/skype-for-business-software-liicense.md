@@ -6,16 +6,18 @@ manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
+f1.keywords:
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: 비즈니스용 Skype 소프트웨어 볼륨 라이선스가 있는지 확인 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 15f768de96d65cd8584ceb2529b92892a7a94afe
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 5de1fc9204e22b30431f692770e3ec663599dd73
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775265"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768481"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype 대화방 시스템: 비즈니스용 Skype 소프트웨어 라이선스
  

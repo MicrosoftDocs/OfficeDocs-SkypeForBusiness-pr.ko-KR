@@ -5,17 +5,19 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype Online 도구를 사용 하 여 온-프레미스에서 비즈니스용의 원격 분석을 볼 수 있도록 하는 Call Data Connector를 구성 하기 위한 지침입니다.
-ms.openlocfilehash: 4d472ce49a3059df7286c647b013abe321b9fd15
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 0354f5a1fd1b4794af29d23e0a0fc1bf49dfebd2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963046"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726928"
 ---
 # <a name="configure-call-data-connector"></a>Call Data Connector 구성
 
@@ -140,7 +142,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="for-more-information"></a>자세한 내용
 
-Cmdlet에 대 한 자세한 내용은 비즈니스용 Skype 서버 관리 셸에서 Get-Help 명령을 사용 하면 됩니다. 예를 들면 다음과 같습니다.
+Cmdlet에 대 한 자세한 내용은 비즈니스용 Skype 서버 관리 셸에서 Get-Help 명령을 사용 하면 됩니다. 예:
 
 Get-help-CsCloudCallDataConnector | 자세한
 

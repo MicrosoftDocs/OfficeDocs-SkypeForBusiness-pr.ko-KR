@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: '요약: 비즈니스용 Skype 서버 제어판을 사용 하 여 다이얼 플랜을 만들거나 수정 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 456bd4c46b371da260340fab4e2b7152d14f7924
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 44917b45180abe02926aa0905b5fd20cbed0ccec
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240729"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767351"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 다이얼 플랜 만들기 또는 수정
 

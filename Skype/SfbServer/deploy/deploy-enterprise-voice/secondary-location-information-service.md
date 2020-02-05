@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: 비즈니스용 Skype Server Enterprise Voice에서 E9-1에 대 한 SLS (보조 위치 원본) 데이터베이스를 구성 합니다.
-ms.openlocfilehash: 1743a4c5f49fcc01fe2f0878c596e0d1bb530621
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 28168bb10017ccc1e56ce26bb5a88629f19aff41
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001999"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767081"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 보조 위치 정보 서비스 구성
  

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: 비즈니스용 Skype Server Enterprise Voice에서 E9 배포-1-1 필수 구성 요소 및 배포 프로세스 검사 목록을 포함 합니다.
-ms.openlocfilehash: a96d425f39b53c970047eb220e0ae9f61b515089
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 61aefd76d848305334372c2b7c7f4214f87b6570
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233512"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767561"
 ---
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 응급 서비스 배포
  

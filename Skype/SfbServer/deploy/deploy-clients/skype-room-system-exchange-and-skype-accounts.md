@@ -7,16 +7,18 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
 description: 이 항목에서는 Skype 대화방 시스템용 Exchange 및 Skype 계정을 구축 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 5c713a417c35147fbcd3e49a1f841a01ab18fe4d
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 685909d8a698e6520798d017156514a371c883f1
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775224"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768471"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Skype 대화방 시스템 교환 및 Skype 계정 프로비저닝
  

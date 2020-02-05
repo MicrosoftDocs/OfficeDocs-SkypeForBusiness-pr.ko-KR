@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: 비즈니스용 Skype 서버에서 엔터프라이즈 음성 통화 허용 제어에 사용 되는 네트워크 간 해외 경로를 만들거나 수정 합니다.
-ms.openlocfilehash: 6d9517796b2f418c39873850ee596a5effdba4e6
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 2a55e3e2028494a8bc9dc25164eaa67b08d35f83
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001758"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767931"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 상호 지역 경로 만들기
  

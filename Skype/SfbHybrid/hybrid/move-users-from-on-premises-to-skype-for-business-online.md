@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 비즈니스용 Skype Online으로 사용자를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: ddf25614afae48ef647dc325e53ccbab8ac2e5d0
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 6653ca8fe7082f0cabd2057c078f7d0d8d6f0389
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963026"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726758"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>온-프레미스에서 비즈니스용 Skype Online으로 사용자 이동
 

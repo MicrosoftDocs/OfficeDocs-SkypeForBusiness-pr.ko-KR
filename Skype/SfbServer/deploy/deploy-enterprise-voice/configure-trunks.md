@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: '요약: 비즈니스용 Skype 서버에서 중재 서버와 Enterprise Voice 용 피어 간 트렁크를 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 9bd285f1364d54940afd827858248656a6bb9f00
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: eb2cf3042fe4e0d1a7c840fb31c583b18289bb7b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001238"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768071"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 trunks 구성
  

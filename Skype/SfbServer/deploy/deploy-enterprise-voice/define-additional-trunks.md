@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: '요약: 비즈니스용 Skype 서버의 토폴로지 작성기에서 중재 서버와 게이트웨이 피어 간의 추가 트렁크를 정의 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: eeaddf6b5b150298e7a77b819464b3c0ef653b70
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: afd8a37272d7450115f688bafe3627fb2689903c
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245862"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767721"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 토폴로지 작성기에 추가 trunks 정의
  

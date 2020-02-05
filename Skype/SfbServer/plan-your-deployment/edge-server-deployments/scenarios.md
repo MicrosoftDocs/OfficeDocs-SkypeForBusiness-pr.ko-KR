@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: '요약: 비즈니스용 Skype 서버에서 Edge 서버 토폴로지를 계획 하는 데 도움이 되도록 이러한 시나리오를 검토 합니다.'
-ms.openlocfilehash: f978d3ac5da0611808b09c7556302f52478d95ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 64d38b5c9b4a32991bf87bd6ba8af87c92db115f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187812"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754168"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 Edge 서버 시나리오
  
@@ -93,11 +93,4 @@ NAT64 (IPv6 to IPv4) 및 NAT66 (ipv6 to IPv6))를 허용 하는 NAT 장치가 �
 이 시나리오에서는 Edge 배포에서 고가용성을 사용할 수 있으며,이를 통해 확장성 및 장애 조치 지원의 장점이 있습니다.
   
 ![HLB 통합 가장자리의 크기를 조정 하는 edge 시나리오](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
-  
-### <a name="port-diagram"></a>포트 다이어그램
-
-하드웨어 부하 분산을 사용 하 여 축소 된 통합 가장자리 풀에 대 한 다이어그램도 있습니다.
-  
-![에지 서버 경계 네트워크 포트 및 프로토콜](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeHLB.jpg)
-  
-
+ 

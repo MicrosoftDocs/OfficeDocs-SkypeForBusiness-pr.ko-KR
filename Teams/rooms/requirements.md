@@ -12,12 +12,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방을 지원 하기 위한 요구 사항을 요약 하 여 설명 합니다.
-ms.openlocfilehash: 33c72c4261b37427fba3d4c853ef2a6d9600e269
-ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
+ms.openlocfilehash: dcc64dfa6ea70c21959d9421c7cfc23a26beaa3f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41506880"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766129"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 팀 방에 대 한 요구 사항
 
@@ -96,6 +96,7 @@ Microsoft 팀 객실은 공간의 크기와 사용에 따라 다양 한 인증 �
 |[Logitech 그룹](http://www.logitech.com/product/conferencecam-group)   |8.5.778   |
 |[Logitech PT;Z Pro](http://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
 |[Logitech PT;Z Pro 2](http://www.logitech.com/product/conferencecam-ptz-pro2)   |
+|[Poly 독수리 눈 큐브 카메라](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html)  |1.2.0 |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
 |[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
 |[Polycom 독수리 눈 디렉터 II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|

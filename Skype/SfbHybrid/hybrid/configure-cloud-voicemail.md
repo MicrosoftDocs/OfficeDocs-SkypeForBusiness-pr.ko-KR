@@ -6,17 +6,19 @@ author: dstrome
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버에 있는 사용자에 대해 클라우드 기반 음성 메일을 구현 하기 위한 지침입니다.
-ms.openlocfilehash: 5dee8259cd994e4d83b92aa2f68c7f6b4a11df27
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: df76051081baaae412c36acf4e73171f2ebce220
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41580835"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726918"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>온-프레미스 사용자를 위한 클라우드 음성 메일 서비스 구성
 

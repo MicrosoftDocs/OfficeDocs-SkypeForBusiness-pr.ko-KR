@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 비즈니스용 Skype Server Enterprise Voice에서 응답 그룹 워크플로를 디자인 하 고 만듭니다. 헌트 그룹 워크플로 및 대화형 워크플로 둘 다에 적용 됩니다.
-ms.openlocfilehash: 5b48816a3eb528a1ff96097c135697d8f9cb22d8
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a8e53ea6e36a175a33648e4e1783bf2040556c8f
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002588"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767361"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>비즈니스용 Skype에서 응답 그룹 워크플로 디자인 및 만들기
 

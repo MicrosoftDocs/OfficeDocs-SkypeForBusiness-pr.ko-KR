@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: 비즈니스용 Skype Server Enterprise Voice에서 응답 그룹 배포 성공 여부를 확인 합니다.
-ms.openlocfilehash: 758836f7003d5f1473801eae4bef400b0e048891
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e80328c2f14db4b7c9633509e36832966af5ca34
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240395"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767311"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>) 비즈니스용 Skype에서 응답 그룹 배포 확인
  
@@ -32,7 +34,7 @@ ms.locfileid: "36240395"
     
 - 비즈니스용 Skype에 속한 에이전트
     
-  **등**
+  **시나리오**
   
 - 비즈니스용 Skype 사용자가 응답 그룹에 전화를 거는 경우
     
