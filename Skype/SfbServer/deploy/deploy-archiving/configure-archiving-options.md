@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: '요약: 비즈니스용 Skype 서버에 대 한 초기 보관 옵션을 구성 하는 방법을 알아보려면이 항목을 읽으십시오. 보관을 배포할 때 초기에 보관 구성을 설정 했지만 배포 후 구성을 변경, 추가 및 삭제할 수 있습니다.'
-ms.openlocfilehash: 76611d5b475c66bc6546bfe1c340f729f281a4fb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f663b310d4c82594976f2f0fc99b8ddd9baf035f
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234564"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769201"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 보관 옵션 구성
  

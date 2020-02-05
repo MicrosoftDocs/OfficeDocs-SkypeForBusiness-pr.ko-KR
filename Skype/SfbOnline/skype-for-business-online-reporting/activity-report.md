@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365E_ReportsS4BActivity
+- CSH
 ms.custom:
 - Reporting
+- O365E_ReportsS4BActivity
 description: '비즈니스용 Skype 활동 보고서, 포함 내용, 데이터를 해석 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 1da7ea7b826d5a8f86691cda8b41b49298114d50
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 577ed8ea84326510ad1c2943dcbf0b280a2bd9ae
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692453"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769421"
 ---
 # <a name="activity-report"></a>활동 보고서
 
@@ -116,7 +117,7 @@ Office 365 **보고서** 대시보드는 조직의 office 365 제품 전반에 �
 - [비즈니스용 Skype 세션 정보 보고서](session-details-report.md) 개인 사용자의 통화 환경에 대 한 세부 정보를 확인할 수 있습니다.
 
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

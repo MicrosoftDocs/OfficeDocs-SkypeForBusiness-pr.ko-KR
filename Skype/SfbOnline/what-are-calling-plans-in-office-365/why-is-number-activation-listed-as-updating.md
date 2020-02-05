@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.NumberActivationStateUpdating
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.NumberActivationStateUpdating
 description: 주소 유효성 검사는 Office 365에서 통화 계획을 설정 하는 데 중요 한 역할을 합니다. 응급 응답 서비스에서 사용할 수 있는 긴급 전화 주소를 조직의 사용자에 게 제공 합니다.
-ms.openlocfilehash: 624c222123a1ec346b0624e5f39bf972a4257d99
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0de8fb57f8c5471087c5b1c157f8314d3a80adf5
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705823"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769061"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>수 면이 업데이트 된 것으로 표시 되는 이유는 무엇 인가요?
 
@@ -98,7 +99,7 @@ ms.locfileid: "41705823"
 > [!NOTE]
 > 이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)

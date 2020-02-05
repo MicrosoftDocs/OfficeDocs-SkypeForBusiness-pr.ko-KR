@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.OrgPresencePrivacy
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.OrgPresencePrivacy
 description: '사용자의 사용 가능 시간을 보다 효율적으로 제어할 수 있도록 사용자에 대 한 개인 정보 모드를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: e55d1533c8889801eaaf9fc4ba09716b12334b04
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6ad7485d24854bfdb9aef9244164bf5180e8c7d2
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692933"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769721"
 ---
 # <a name="configure-presence-privacy-mode"></a>현재 상태 개인 정보 모드 구성
 

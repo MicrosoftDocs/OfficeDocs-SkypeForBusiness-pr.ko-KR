@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: '요약: 비즈니스용 Skype의 엔터프라이즈 클라이언트 설치 방법 개요.'
-ms.openlocfilehash: b791a4f460eaeac86345eae8896046d90d88831b
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 0e7859fe207ed80aa7dceef794aa57d15cc0c79b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628294"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768731"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 클라이언트 배포
  

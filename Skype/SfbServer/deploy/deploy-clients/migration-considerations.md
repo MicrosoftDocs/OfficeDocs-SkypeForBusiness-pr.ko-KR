@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: 이 항목에서는 비즈니스용 Skype Server 및 Lync Server의 여러 버전이 있는 환경에서 Skype 대화방 시스템을 배포 하는 방법에 대해 자세히 알아보세요.
-ms.openlocfilehash: 6524a7312644ec306185b952caf17818d29344af
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: a4856977931d459fba3b11a65b21e49a25cc418b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774676"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768841"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype 실 시스템 마이그레이션 고려 사항
  
@@ -31,7 +33,7 @@ Skype 채팅방 시스템 계정에서 Lync에 로그인 하 고 SRV 레코드 �
   
 다음 옵션을 사용 하 여이 문제를 해결할 수 있습니다. 
   
-- 자동 검색 SRV 레코드 (_sipinternaltls. _tcp)를 Lync Server 2013 풀에 가리킵니다.
+- 자동 검색 SRV 레코드 (_sipinternaltls _tcp)를 Lync Server 2013 풀에 가리킵니다.
     
 - 첫 번째 옵션을 사용할 수 없는 경우 수동으로 LRS를 구성 하 고 Skype 대화방 시스템 콘솔 응용 프로그램에서 직접 구성 하 여 Lync Server 2013 풀 주소를 제공 해야 합니다. 
     

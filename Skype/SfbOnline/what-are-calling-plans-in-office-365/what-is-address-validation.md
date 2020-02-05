@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.CivicAddressValidation
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.CivicAddressValidation
 description: '주소 유효성 검사의 의미, 중요 한 이유, 긴급 주소 및 서비스와의 관련성에 대해 알아보세요. '
-ms.openlocfilehash: ad555792bf6951e8de5fb746546aec40e05b0eba
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 695698f8d1b6a466829174802f2ece0b92398f7e
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705873"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769251"
 ---
 # <a name="what-is-address-validation"></a>주소 유효성 검사 란?
 
@@ -36,7 +37,7 @@ Office 365에서 통화 계획을 설정 하는 경우 각 사용자에 게 전�
 > 이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.
 
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [긴급 위치, 주소 및 통화 라우팅 이란 무엇 인가요?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
 [조직의 전화 번호 관리](/microsoftteams/manage-phone-numbers-for-your-organization)

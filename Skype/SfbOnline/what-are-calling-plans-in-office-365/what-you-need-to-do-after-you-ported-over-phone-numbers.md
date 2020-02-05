@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.PortOrderFinish
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderFinish
 description: 전화 번호를 비즈니스용 Skype로 이식 한 후 다음에 수행 해야 할 작업을 확인 하세요.
-ms.openlocfilehash: effddc74a74f72b4f167b793a09b8ee903fc0d2a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b96a0f62dc6c31de744786a47a7a7ef6d26c0937
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692293"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769231"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>전화 번호로 이식 한 후에는 어떻게 해야 하나요?
 
@@ -44,7 +45,7 @@ ms.locfileid: "41692293"
 > 이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.
 
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)

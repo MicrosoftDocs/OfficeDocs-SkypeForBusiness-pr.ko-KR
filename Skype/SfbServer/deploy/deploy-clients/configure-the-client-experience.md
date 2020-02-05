@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: '요약: 비즈니스용 Skype 사용자에 대 한 클라이언트 환경을 구성 하는 방법을 알아보려면이 항목을 참조 하세요.'
-ms.openlocfilehash: 0122e86648a30cf0c4a17957b5d000b742d4c16a
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 678bda8499ddae61f0cca3b3bbb606283192660b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003538"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769081"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>비즈니스용 Skype 2015 클라이언트 환경 구성
  

@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.OrgMobileNotification
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.OrgMobileNotification
 description: 사용자가 수신, 음성 메일 및 부재 중 인스턴트 메시지에 대 한 알림을 받을 수 있도록 휴대폰 알림을 설정 하거나 해제 하는 방법을 알아봅니다.
-ms.openlocfilehash: e9b5b86cf07c90af4ca68d91a36a936d7c657590
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e84ae2ef4054d730cc56bae3bd545f04e966bab4
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706323"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769551"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>휴대폰 알림 설정 또는 해제
 

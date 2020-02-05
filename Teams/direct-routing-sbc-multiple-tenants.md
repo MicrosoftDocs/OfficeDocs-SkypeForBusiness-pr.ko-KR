@@ -1,5 +1,5 @@
 ---
-title: 여러 테 넌 트에 대 한 세션 경계 컨트롤러 구성
+title: 여러 테넌트에 대해 세션 경계 컨트롤러 구성
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -14,14 +14,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 여러 테 넌 트를 처리 하도록 한 SBC (세션 경계 컨트롤러)를 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5009f600af0d9632ed94b544e75f791d9ecead85
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c58a6f264910e0d916d5d338598b58e132f2c413
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572138"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769831"
 ---
-# <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테 넌 트에 대 한 세션 경계 컨트롤러 구성
+# <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
 직접 라우팅은 여러 테 넌 트를 처리 하는 하나의 SBC (세션 경계 컨트롤러) 구성을 지원 합니다.
 
@@ -57,7 +57,7 @@ SBC 호스팅 시나리오의 SBCs를 배포 하 고 구성 하는 방법에 대
 
 - **오디오 코드:** "오디오 코드 Sbc를 Microsoft 팀의 직접 라우팅 호스팅 모델 구성에 연결"에 설명 된 SBC 호스팅 시나리오의 구성 인 [직접 라우팅 구성 참고 사항](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)입니다. 
 - **Oracle:** [직접 라우팅 구성 참고](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)이 SBC 호스팅 시나리오의 구성은 "Microsoft" 섹션에 설명 되어 있습니다. 
-- **리본 통신:**  리본 메뉴의 [커뮤니케이션 SBC 핵심 Microsoft 팀 구성 가이드](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) 를 참조 하세요. 리본 메뉴의 핵심 계열 SBCs를 구성 하는 방법에 대 한 문서를 보려면 [최상의 방법-microsoft 팀에 대해 통신 구성 SBC (직접 라우팅 SBC) Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **리본 통신:**  리본 메뉴의 [커뮤니케이션 SBC 핵심 Microsoft 팀 구성 가이드](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) 를 참조 하세요. 리본 메뉴의 핵심 계열 SBCs를 구성 하는 방법에 대 한 문서를 보려면 [최상의 방법-Microsoft 팀의 매체 구성 직접 경로 설정 SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **TE-시스템 (anynode):**  여러 테 넌 트에 대해 anynode SBC를 구성 하는 방법에 대 한 설명서와 예제는 [TE Systems 커뮤니티 페이지](https://community.te-systems.de/) 를 통해 등록 하십시오.
 
 > [!NOTE]
@@ -83,7 +83,7 @@ SBC 호스팅 시나리오의 SBCs를 배포 하 고 구성 하는 방법에 대
 
 ![도메인 및 연락처 머리글에 대 한 요구 사항을 보여주는 다이어그램](media/direct-routing-1-sbc-requirements.png)
 
-SBC는 연결을 인증 하는 데 인증서가 필요 합니다. SBC 호스팅 시나리오의 경우, 반송파는 * \*base_domain (예: \*customers.adatum.biz)* 를 사용 하 여 인증서를 요청 해야 합니다. 이 인증서는 단일 SBC에서 제공 하는 여러 테 넌 트에 대 한 연결을 인증 하는 데 사용할 수 있습니다.
+SBC는 연결을 인증 하는 데 인증서가 필요 합니다. SBC 호스팅 시나리오의 경우 * \*, \*반송파는 base_domain (예: customers.adatum.biz)* 를 사용 하 여 인증서를 요청 해야 합니다. 이 인증서는 단일 SBC에서 제공 하는 여러 테 넌 트에 대 한 연결을 인증 하는 데 사용할 수 있습니다.
 
 
 다음 표에서는 한 가지 구성의 예를 보여 줍니다.
@@ -217,7 +217,7 @@ Microsoft는 직접적인 라우팅의 초기 릴리스에서 새 CSOnlinePSTNGa
 이 피드백에 따라 Microsoft는 고객 테 넌 트에 대 한 trunks를 프로 비전 하는 새 논리를 제공 하 고 있습니다.
 
 두 개의 새 엔터티가 도입 되었습니다.
--   CSOnlinePSTNGateway (예: New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true)를 사용 하 여 반송파 테 넌 트에 등록 된 반송파 트렁크
+-   CSOnlinePSTNGateway (예: New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true)를 사용 하 여 반송파 테 넌 트에 등록 된 반송파 트렁크
 
 -   등록이 필요 하지 않은 파생 트렁크 이는 단순히 반송파 트렁크에서 추가 된 원하는 호스트 이름입니다. 이는 모든 구성 매개 변수를 반송파 트렁크에서 파생 합니다. 파생 트렁크는 PowerShell에서 만들 필요가 없으며, 반송파 트렁크와의 연결은 FQDN 이름 (아래 세부 정보 참조)을 기반으로 합니다.
 

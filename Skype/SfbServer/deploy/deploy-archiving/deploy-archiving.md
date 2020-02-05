@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: '요약: 비즈니스용 Skype 서버용 보관을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: 8611f83b6e3504d860cf37a7ad2c24c20b446671
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c4f0e28c0b48cc93f1c03296f6d00555d1a7d327
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234518"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769121"
 ---
 # <a name="deploy-archiving-for-skype-for-business-server"></a>비즈니스용 Skype Server에 대 한 아카이빙 배포
  
@@ -40,8 +42,8 @@ ms.locfileid: "36234518"
   
 |**단계의**|**방법은**|**역할 및 그룹 구성원**|**설명서**|
 |:-----|:-----|:-----|:-----|
-|**필수 하드웨어 및 소프트웨어 설치** <br/> |Exchange를 사용 하 여 일부 또는 모든 사용자에 대해 저장소를 보관 하는 Microsoft Exchange 통합을 사용 하려면 기존 Exchange 배포가 필요 합니다.  <br/> SQL Server 데이터베이스를 사용 하 여 별도의 보관 데이터베이스를 사용 하 여 보관 데이터를 저장 하는 서버의 SQL Server 인 일부 또는 모든 사용자에 대해 저장소를 보관 합니다.  <br/> 보관은 엔터프라이즈 풀 및 Standard Edition 서버의 프런트 엔드 서버에서 실행 됩니다. 해당 서버를 설치 하는 데 필요한 사항 외에 추가 하드웨어 또는 소프트웨어 요구 사항이 없습니다.  <br/> |로컬 관리자 그룹의 구성원 인 도메인 사용자입니다.  <br/> |[비즈니스용 Skype 서버 2015의 서버 요구 사항](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [비즈니스용 Skype 서버 2015에 대한 환경 요구 사항](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/>  [비즈니스용 Skype 서버 2015와 Exchange 통합 계획](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) <br/>[비즈니스용 Skype 서버 2019에 대 한 시스템 요구 사항](../../../SfBServer2019/plan/system-requirements.md) |
-|**보관을 지원 하기 위해 적절 한 내부 토폴로지 만들기 (배포의 모든 사용자에 대해 Microsoft Exchange 통합을 사용 하지 않는 경우에만 해당)** <br/> |토폴로지 작성기를 실행 하 여 비즈니스용 Skype Server 보관 데이터베이스 (SQL Server 데이터베이스)를 토폴로지에 추가한 다음 토폴로지를 게시 합니다.  <br/> |보관 데이터베이스를 통합 하는 토폴로지를 정의 하려면 로컬 사용자 그룹의 구성원 인 계정입니다.  <br/> 도메인 관리자 그룹 및 RTCUniversalServerAdmins 그룹의 구성원 인 계정이 며 비즈니스용 Skype Server 파일 저장소에 사용할 파일 공유에 대 한 모든 권한 (읽기/쓰기/수정)이 있는 경우 토폴로지를 게시 하려면 작성기에서 필수 Dacl을 구성할 수 있습니다.  <br/> |[비즈니스용 Skype 서버에서 기존 배포에 보관 데이터베이스 추가](add-archiving-databases.md) <br/> |
+|**필수 하드웨어 및 소프트웨어 설치** <br/> |Exchange를 사용 하 여 일부 또는 모든 사용자에 대해 저장소를 보관 하는 Microsoft Exchange 통합을 사용 하려면 기존 Exchange 배포가 필요 합니다.  <br/> SQL Server 데이터베이스를 사용 하 여 별도의 보관 데이터베이스를 사용 하 여 보관 데이터를 저장 하는 서버의 SQL Server 인 일부 또는 모든 사용자에 대해 저장소를 보관 합니다.  <br/> 보관은 엔터프라이즈 풀 및 Standard Edition 서버의 프런트 엔드 서버에서 실행 됩니다. 해당 서버를 설치 하는 데 필요한 사항 외에 추가 하드웨어 또는 소프트웨어 요구 사항이 없습니다.  <br/> |로컬 관리자 그룹의 구성원 인 도메인 사용자입니다.  <br/> |[비즈니스용 Skype 서버 2015의 서버 요구 사항](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [비즈니스용 Skype 서버 2015에 대한 환경 요구 사항](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/>  [비즈니스용 Skype 및 Exchange 통합 계획](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) <br/>[비즈니스용 Skype 서버 2019에 대 한 시스템 요구 사항](../../../SfBServer2019/plan/system-requirements.md) |
+|**보관을 지원 하기 위해 적절 한 내부 토폴로지 만들기 (배포의 모든 사용자에 대해 Microsoft Exchange 통합을 사용 하지 않는 경우에만 해당)** <br/> |토폴로지 작성기를 실행 하 여 비즈니스용 Skype Server 보관 데이터베이스 (SQL Server 데이터베이스)를 토폴로지에 추가한 다음 토폴로지를 게시 합니다.  <br/> |보관 데이터베이스를 통합 하는 토폴로지를 정의 하려면 로컬 사용자 그룹의 구성원 인 계정입니다.  <br/> 토폴로지를 게시 하려면 도메인 관리자 그룹 및 RTCUniversalServerAdmins 그룹의 구성원이 며 비즈니스용 Skype Server 파일 저장소에 사용할 파일 공유에 대 한 모든 권한 (읽기/쓰기/수정)이 있는 계정 (토폴로지 작성기가 필수 Dacl을 구성할 수 있도록).  <br/> |[비즈니스용 Skype 서버에서 기존 배포에 보관 데이터베이스 추가](add-archiving-databases.md) <br/> |
 |**서버 간 인증 구성 (Microsoft Exchange 통합을 사용 하는 경우에만 해당)** <br/> |비즈니스용 Skype 서버와 Exchange 간의 인증을 사용 하도록 서버를 구성 합니다. 보관을 사용 하도록 설정 하기 전에 **Test-CsExchangeStorageConnectivity Testuser_sipUri 폴더 Dumpster** 를 실행 하 여 Exchange 보관 저장소 연결을 확인 하는 것이 좋습니다. <br/> |서버에서 인증서를 관리 하기 위한 적절 한 사용 권한이 있는 계정입니다.  <br/> |서버 간 인증 관리  <br/> |
 |**보관 옵션 및 정책 구성** <br/> |Microsoft Exchange 통합, 전역 정책, 모든 사이트 및 사용자 정책 (모든 데이터 저장소에 대해 Microsoft Exchange 통합을 사용 하지 않는 경우), 특정 보관 옵션 (예: 중요 모드 및 데이터)을 포함 하 여 보관을 구성 합니다. 내보내기를 제거 합니다.  <br/> Microsoft Exchange 통합을 사용 하는 경우 Exchange 원본 위치 유지 정책을 적절 하 게 구성 합니다.  <br/> |RTCUniversalServerAdmins 그룹 (Windows PowerShell에만 해당) 또는 사용자를 CSArchivingAdministrator 또는 CSAdministrator 역할에 할당할 수 있습니다.  <br/> |[비즈니스용 Skype 서버에 대 한 보관 옵션 구성](configure-archiving-options.md) <br/> Exchange 제품 설명서 (Microsoft Exchange 통합을 사용 하는 경우)  <br/> |
    

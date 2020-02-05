@@ -1,5 +1,5 @@
 ---
-title: 클라이언트 부트스트랩 정책 구성
+title: 클라이언트 부트스트래핑 정책 구성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: '요약: 그룹 정책을 관리 하는 방법입니다.'
-ms.openlocfilehash: 5d099a57db720a87e67ee00aa87a8613ac6552b7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 40b79c2be5713249df9f7e3061cb42d6be27f926
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234498"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769114"
 ---
-# <a name="configure-client-bootstrapping-policies"></a>클라이언트 부트스트랩 정책 구성
+# <a name="configure-client-bootstrapping-policies"></a>클라이언트 부트스트래핑 정책 구성
  
 **요약:** 그룹 정책을 관리 하는 방법
   
@@ -49,9 +51,9 @@ GPMC (그룹 정책 관리 콘솔) 및 그룹 정책 개체 편집기는 그룹 
 
 |**우선적**|**설정 위치 또는 방법**|
 |:-----|:-----|
-|raid-1  <br/> |비즈니스용 Skype Server 대역내 프로비저닝  <br/> |
-|2  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
-|3-4  <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|1  <br/> |비즈니스용 Skype Server 대역내 프로비저닝  <br/> |
+|2  <br/> |HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|3  <br/> |HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |4(tcp/ipv4)  <br/> |비즈니스용 Skype의 옵션 대화 상자  <br/> |
    
 ### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>비즈니스용 Skype 관리 서식 파일을 사용 하 여 그룹 정책 설정을 정의 하려면

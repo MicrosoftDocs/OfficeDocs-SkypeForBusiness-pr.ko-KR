@@ -16,16 +16,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1.keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
+f1.keywords:
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.CivicAddressValidationOpenSupportTicket
 description: 주소 유효성 검사는 Office 365에서 통화 계획을 설정 하는 데 중요 한 역할을 합니다. 응급 응답 서비스에서 사용할 수 있는 긴급 전화 주소를 조직의 사용자에 게 제공 합니다.
-ms.openlocfilehash: 010191a3e70e9f4d9be6ec34d57118d9b79dfec4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dd748a532957790d977b10fc0ec94f7f8af7b910
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705903"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769321"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>주소 유효성 검사에 대 한 지원 티켓을 만들려면 어떻게 하나요?
 
@@ -98,7 +100,7 @@ ms.locfileid: "41705903"
 > [!TIP]
 > 참조 번호는 Microsoft 365 관리 센터의 **서비스 요청** 페이지에 나열 됩니다.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)

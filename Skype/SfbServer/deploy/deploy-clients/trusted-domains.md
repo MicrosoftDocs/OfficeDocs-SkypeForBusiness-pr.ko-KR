@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9fb63ad4-6eda-4724-be63-10bf5e65cb2b
 description: Skype 채팅방 시스템 및 비즈니스용 Skype에 대해 신뢰할 수 있는 도메인을 구성 하는 방법에 대해 알아보려면이 항목을 읽으십시오.
-ms.openlocfilehash: a63ecbfe9ed8e71656bd21988e297897b62e9cf3
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 618ea5ce6cd4e12cd1e6a811a065f7a29a5c9ced
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775243"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768671"
 ---
 # <a name="skype-room-system-trusted-domains"></a>Skype 채팅방 시스템 신뢰할 수 있는 도메인
  

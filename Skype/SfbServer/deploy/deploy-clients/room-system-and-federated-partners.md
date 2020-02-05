@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: 이 항목에서는 비즈니스용 Skype 페더레이션 파트너를 위해 Skype 대화방 시스템을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8ded7ba9be24cf1ac700be0ead1c7e0c3637becd
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: d5ee83857aa439791e2a31ef201e0f365dbb8408
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002998"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768721"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype 실 시스템 및 비즈니스용 Skype 페더레이션 파트너
  

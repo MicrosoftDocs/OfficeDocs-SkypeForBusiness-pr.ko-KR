@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365P_RecordingDesc
+- CSH
 ms.custom:
 - Setup
+- O365P_RecordingDesc
 description: '오디오 및 비디오 회의 녹화를 설정 하 고 녹화에 포함 되어 있지 않은 내용에 대해 알아봅니다. '
-ms.openlocfilehash: 551e7d748a849ae945226b4aa1ef1640e3163da0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7e06d2bddc95b8ab57a2a4a5c47fb4b86837d161
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706493"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769611"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>사용자가 음성 및 비디오 회의를 녹음/녹화하도록 허용
 

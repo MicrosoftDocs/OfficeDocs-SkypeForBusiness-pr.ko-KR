@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
 description: '의미 포트 주문이 수락 되 고 다음에 비즈니스용 Skype 설정을 완료 하기 위해 수행 해야 하는 작업입니다. '
-ms.openlocfilehash: 18e568e226f62b4704ee3a392eacf54a31950c71
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8df625f27fcd9ecad593fc94b888cecd3bf2907e
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692263"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769071"
 ---
 # <a name="your-port-order-was-accepted"></a>포트 주문이 수락 되었습니다.
 
@@ -45,7 +46,7 @@ ms.locfileid: "41692263"
 > [!NOTE]
 > 이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)

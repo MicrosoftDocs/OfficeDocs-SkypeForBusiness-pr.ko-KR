@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: 이 항목을 읽으면 하이브리드 환경에서 Skype 대화방 시스템을 배포 하는 방법을 알아보세요.
-ms.openlocfilehash: f6364f7bb96ddf2b25aaaef2a341fce5b71372f5
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 3fe92990fa80f938d078c92624232a289b5f8621
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003498"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768971"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype 채팅방 시스템 하이브리드 배포
 

@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365E_ReportsS4BOrgActivity
+- CSH
 ms.custom:
 - Reporting
+- O365E_ReportsS4BOrgActivity
 description: '비즈니스용 Skype 컨퍼런스 구성 활동 보고서를 가져오는 방법과이를 해석 하 고 사용자 지정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 6cbba90fd874fb4b2d4b3799e0765c2de66e8be4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f005a1ee53d1fc5ab5ee9e4736ff8d6d241f3a6e
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706073"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769391"
 ---
 # <a name="conference-organizer-activity-report"></a>회의 이끌이 활동 보고서
 
@@ -117,7 +118,7 @@ ms.locfileid: "41706073"
 
 - [비즈니스용 Skype 세션 정보 보고서](session-details-report.md) 개인 사용자의 통화 환경에 대 한 세부 정보를 확인할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

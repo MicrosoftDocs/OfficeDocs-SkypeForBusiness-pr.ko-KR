@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: '요약: 비즈니스용 Skype 서버 사용자에 대 한 초기 보관 정책을 구성 하는 방법을 알아보려면이 항목을 참조 하세요.'
-ms.openlocfilehash: 4e1bf5d713201604df18db9d63c2057bfa5bb4e8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ff946fe2fde2fcd8aae842e809a89bffb7852bca
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234555"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769211"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 보관 정책 구성
  

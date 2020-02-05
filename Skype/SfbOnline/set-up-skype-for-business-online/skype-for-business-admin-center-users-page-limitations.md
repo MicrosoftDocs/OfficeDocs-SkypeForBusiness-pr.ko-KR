@@ -16,16 +16,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.UsersCountLimitationWarning
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.UsersCountLimitationWarning
 description: '비즈니스용 Skype Online 관리자의 사용자 표시 제한 사항 내에서 작업 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: ffe0a9d5c67028e12889f21744f88a8bfc2424ae
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 71885e7d445c489177feb28577f717fc7241217a
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706473"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769591"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>비즈니스용 Skype Online 관리 센터 사용자 페이지 제한 사항
 

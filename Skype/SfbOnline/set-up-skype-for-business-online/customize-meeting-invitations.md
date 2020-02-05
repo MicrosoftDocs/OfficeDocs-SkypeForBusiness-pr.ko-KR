@@ -15,17 +15,18 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.MeetingInvitation
-- ms.teamsadmincenter.meetingsettings.invitationurls
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.MeetingInvitation
+- ms.teamsadmincenter.meetingsettings.invitationurls
 description: '그래픽 로고, 도움말 및 법률 Url, 바닥글 텍스트를 사용 하 여 Skype 모임 초대를 사용자 지정 합니다. '
-ms.openlocfilehash: f17a6e3ab03484d250d6243caafcc3aecb0ff6ff
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b30c31d3e109fa36e49665c19a7aaebad581c7cc
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692903"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769641"
 ---
 # <a name="customize-meeting-invitations"></a>모임 초대의 사용자 지정
 
@@ -72,7 +73,7 @@ ms.locfileid: "41692903"
     
     ![그래픽 없이 사용자 지정 초대장이 표시 되는 모양](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 <a name="__top"> </a>
 
 [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

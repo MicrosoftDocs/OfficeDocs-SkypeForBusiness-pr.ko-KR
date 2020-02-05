@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.BroadcastMeetings
+- CSH
 ms.custom:
 - SMB
+- ms.lync.lac.BroadcastMeetings
 description: Skype 모임 브로드캐스트를 사용 하도록 설정 하 고 해당 모임에 대 한 설정 및 정책을 변경할 수 있습니다.
-ms.openlocfilehash: 5f3004d44522385e818b130acc74479bb4218bc7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c1831afd3a8c15f4635f5c09359fc7393b1fdae5
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692613"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769481"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>조직의 Skype 모임 브로드캐스트 설정을 변경할 수 있습니다.
 
@@ -40,7 +41,7 @@ Skype 모임 브로드캐스트를 사용 하도록 설정 하 고 해당 모임
     
 - **참석자를 위한 헬프데스크 지원 URL** 모임 브로드캐스트 참석자에 대 한 링크를 입력 하 여 브로드캐스트 모임에 연결 하거나 참석 하는 데 도움이 필요 합니다.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Skype 모임 브로드캐스트의 네트워크 설정](set-up-your-network-for-skype-meeting-broadcast.md)
 

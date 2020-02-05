@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Skype 대화방 시스템용 관리 도구에 대해 자세히 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: c9289d3fffa78dd7ffd94fa17784c1b06c2278b1
-ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
+ms.openlocfilehash: 74c484b321312fc77c7a1e892f41bdeac8af49ff
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "37547261"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768861"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype 실 시스템 관리 효율성 및 도구
  
@@ -54,7 +56,7 @@ Skype 대화방 시스템용 관리 도구에 대해 자세히 알아보려면�
     
 - 필요한 경우 회의실 시스템에 대 한 번호 (전화 번호)를 요청 하 고 Active Directory 도구에서 일반 전화 필드를 업데이트 합니다.
     
-## <a name="network"></a>사설망
+## <a name="network"></a>네트워크
 
 - Skype 채팅방 시스템에 대 한 유선 네트워크 연결을 사용 하 고 있는지 확인 합니다.
     

@@ -16,16 +16,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.TenantInMigration
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.TenantInMigration
 description: '비즈니스용 Skype 관리 센터 및 다른 Microsoft 데이터 센터로 서비스를 마이그레이션할 때 사용할 수 없는 기능에 대해 알아봅니다. '
-ms.openlocfilehash: 3987675a5c054671be7a1d52227cf1f3161f2300
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7825b0bb6cd60995a103736641af36a532ad0ba8
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692733"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769521"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>지금 비즈니스용 Skype Online 관리 센터를 사용할 수 없는 이유는 무엇 인가요?
 

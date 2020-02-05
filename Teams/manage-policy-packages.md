@@ -12,16 +12,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-f1keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 정책 패키지를 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 87fda86d1dbe09858c3850dc92ee5085666d8ba7
-ms.sourcegitcommit: 52d924e654909a2017ce42ba9d1b4bbc3efa9262
+ms.openlocfilehash: d73cd22cc0a98cd772ba3823fffa3649602010bc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "41205295"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41772749"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft 팀에서 정책 패키지 관리
 
@@ -43,6 +43,9 @@ Microsoft 팀의 정책 패키지는 조직에서 유사한 역할을 갖는 사
 |교육 (교사)    |교사에 게 적용할 정책 및 정책 설정 집합을 만듭니다.      |
 |비즈니스 음성 |비즈니스 음성 환경에 대 한 앱을 포함 하는 앱 설치 정책을 만듭니다.|
 |공개 안전 책임자   |조직의 공개 보안 책임자에 게 적용 되는 정책 및 정책 설정 집합을 만듭니다.|
+|의료 (임상 작업자)  |등록 된 nurses, 청구 nurses, 의사, 소셜 작업자에 게 채팅, 통화, 교대 관리, 모임에 대 한 전체 액세스 등의 임상 근로자를 제공 하는 정책 및 정책 설정 집합을 만듭니다. |
+|의료 (정보 근로자)  |IT 직원, informatics 스태프, 재무 담당자, 규정 준수 관리자, 채팅, 통화, 모임에 대 한 모든 액세스 권한을 제공 하는 정책 및 정책 설정 집합을 만듭니다.|
+
 
 > [!NOTE]
 > 팀의 향후 릴리스에서 정책 패키지를 더 추가 하 게 되므로 최신 정보를 다시 확인 하세요.  

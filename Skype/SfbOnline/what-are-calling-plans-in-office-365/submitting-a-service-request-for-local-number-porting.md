@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.PortOrderQuickViewPanelO365Support
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderQuickViewPanelO365Support
 description: '비즈니스용 Skype로 전송할 수 있는 999 명 이상의 전화 번호가 있는 경우 포트 주문 서비스 요청을 제출 하 여 이동 하는 방법을 알아보세요. '
-ms.openlocfilehash: d7a19608700a0ecd85880ad880031aa2e21409ff
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a8260308d5072478dba4ff054bb54e841bacfdda
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705883"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769311"
 ---
 # <a name="submitting-a-service-request-for-local-number-porting"></a>로컬 번호 포팅에 대 한 서비스 요청 제출
 
@@ -35,7 +36,7 @@ ms.locfileid: "41705883"
 > [!NOTE]
 > 이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
