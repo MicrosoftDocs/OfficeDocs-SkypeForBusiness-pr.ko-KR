@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,48 +16,48 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: 비즈니스용 Skype Server Enterprise Voice의 네트워크 사이트에 E9-1 위치 정책을 할당 합니다.
-ms.openlocfilehash: 36885fadddddd1fd0bf5ba91a6e0c30e79ef8b90
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: ef6395b2239256abce82612b4863a667ce3b27ab
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001428"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768281"
 ---
-# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a><span data-ttu-id="c518b-103">비즈니스용 Skype 서버에서 네트워크 사이트에 위치 정책 추가</span><span class="sxs-lookup"><span data-stu-id="c518b-103">Add a location policy to a network site in Skype for Business Server</span></span>
+# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a><span data-ttu-id="ef355-103">비즈니스용 Skype 서버에서 네트워크 사이트에 위치 정책 추가</span><span class="sxs-lookup"><span data-stu-id="ef355-103">Add a location policy to a network site in Skype for Business Server</span></span>
  
-<span data-ttu-id="c518b-104">비즈니스용 Skype Server Enterprise Voice의 네트워크 사이트에 E9-1 위치 정책을 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="c518b-104">Assign E9-1-1 location policies to network sites in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="ef355-104">비즈니스용 Skype Server Enterprise Voice의 네트워크 사이트에 E9-1 위치 정책을 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef355-104">Assign E9-1-1 location policies to network sites in Skype for Business Server Enterprise Voice.</span></span> 
   
-<span data-ttu-id="c518b-105">다음 예에서는 비즈니스용 [Skype Server의 위치 정책 만들기](create-location-policies.md) 에 정의 된 **redmond** 위치 정책을 기존 네트워크 사이트에 추가 하는 방법과 **redmond** 위치 정책을 사용 하는 새 네트워크 사이트를 만드는 방법을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="c518b-105">The following examples show how to add the **Redmond** location policy defined in [Create location policies in Skype for Business Server](create-location-policies.md) to an existing network site and how to create a new network site that uses the **Redmond** location policy.</span></span>
+<span data-ttu-id="ef355-105">다음 예에서는 비즈니스용 [Skype Server의 위치 정책 만들기](create-location-policies.md) 에 정의 된 **redmond** 위치 정책을 기존 네트워크 사이트에 추가 하는 방법과 **redmond** 위치 정책을 사용 하는 새 네트워크 사이트를 만드는 방법을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="ef355-105">The following examples show how to add the **Redmond** location policy defined in [Create location policies in Skype for Business Server](create-location-policies.md) to an existing network site and how to create a new network site that uses the **Redmond** location policy.</span></span>
   
-<span data-ttu-id="c518b-106">네트워크 사이트를 사용 하 여 작업 하는 방법에 대 한 자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c518b-106">For details about working with network sites, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="ef355-106">네트워크 사이트를 사용 하 여 작업 하는 방법에 대 한 자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ef355-106">For details about working with network sites, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
   
-- <span data-ttu-id="c518b-107">**새-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="c518b-107">**New-CsNetworkSite**</span></span>
+- <span data-ttu-id="ef355-107">**새-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="ef355-107">**New-CsNetworkSite**</span></span>
     
-- <span data-ttu-id="c518b-108">**Get-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="c518b-108">**Get-CsNetworkSite**</span></span>
+- <span data-ttu-id="ef355-108">**Get-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="ef355-108">**Get-CsNetworkSite**</span></span>
     
-- <span data-ttu-id="c518b-109">**집합-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="c518b-109">**Set-CsNetworkSite**</span></span>
+- <span data-ttu-id="ef355-109">**집합-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="ef355-109">**Set-CsNetworkSite**</span></span>
     
-- <span data-ttu-id="c518b-110">**CsNetworkSite 사이트 제거**</span><span class="sxs-lookup"><span data-stu-id="c518b-110">**Remove-CsNetworkSite**</span></span>
+- <span data-ttu-id="ef355-110">**CsNetworkSite 사이트 제거**</span><span class="sxs-lookup"><span data-stu-id="ef355-110">**Remove-CsNetworkSite**</span></span>
     
-### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a><span data-ttu-id="c518b-111">기존 네트워크 사이트에 위치 정책을 할당 하려면</span><span class="sxs-lookup"><span data-stu-id="c518b-111">To assign a location policy to an existing network site</span></span>
+### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a><span data-ttu-id="ef355-111">기존 네트워크 사이트에 위치 정책을 할당 하려면</span><span class="sxs-lookup"><span data-stu-id="ef355-111">To assign a location policy to an existing network site</span></span>
 
-1. <span data-ttu-id="c518b-112">비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c518b-112">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="ef355-112">비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef355-112">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="c518b-113">다음 cmdlet을 실행 하 여 기존 네트워크 사이트를 수정 합니다.</span><span class="sxs-lookup"><span data-stu-id="c518b-113">Run the following cmdlets to modify an existing network site.</span></span>
+2. <span data-ttu-id="ef355-113">다음 cmdlet을 실행 하 여 기존 네트워크 사이트를 수정 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef355-113">Run the following cmdlets to modify an existing network site.</span></span>
     
-    <span data-ttu-id="c518b-114">**Redmond 태그가 지정** 된 위치 정책을 **redmond**라는 기존 네트워크 사이트에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="c518b-114">Assign the **Redmond** tagged Location policy to an existing network site named **Redmond**.</span></span>
+    <span data-ttu-id="ef355-114">**Redmond 태그가 지정** 된 위치 정책을 **redmond**라는 기존 네트워크 사이트에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef355-114">Assign the **Redmond** tagged Location policy to an existing network site named **Redmond**.</span></span>
     
    ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 
-### <a name="to-assign-a-location-policy-to-a-new-network-site"></a><span data-ttu-id="c518b-115">새 네트워크 사이트에 위치 정책을 할당 하려면</span><span class="sxs-lookup"><span data-stu-id="c518b-115">To assign a location policy to a new network site</span></span>
+### <a name="to-assign-a-location-policy-to-a-new-network-site"></a><span data-ttu-id="ef355-115">새 네트워크 사이트에 위치 정책을 할당 하려면</span><span class="sxs-lookup"><span data-stu-id="ef355-115">To assign a location policy to a new network site</span></span>
 
-1. <span data-ttu-id="c518b-116">비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c518b-116">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="ef355-116">비즈니스용 Skype 서버 관리 셸을 시작 합니다. **시작**, **모든 프로그램**, **비즈니스용 skype 2015**을 차례로 클릭 한 다음 비즈니스용 **skype Server management Shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef355-116">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="c518b-117">다음 cmdlet을 실행 하 여 새 네트워크 사이트를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="c518b-117">Run the following cmdlet to create a new network site.</span></span>
+2. <span data-ttu-id="ef355-117">다음 cmdlet을 실행 하 여 새 네트워크 사이트를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="ef355-117">Run the following cmdlet to create a new network site.</span></span>
     
-    <span data-ttu-id="c518b-118">네트워크 지역에서 새 네트워크 사이트를 만들고 **Redmond** 태그가 지정 된 위치 정책을 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="c518b-118">Create a new network site in the network region and assign the **Redmond** tagged Location policy.</span></span>
+    <span data-ttu-id="ef355-118">네트워크 지역에서 새 네트워크 사이트를 만들고 **Redmond** 태그가 지정 된 위치 정책을 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="ef355-118">Create a new network site in the network region and assign the **Redmond** tagged Location policy.</span></span>
     
    ```powershell
    New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
