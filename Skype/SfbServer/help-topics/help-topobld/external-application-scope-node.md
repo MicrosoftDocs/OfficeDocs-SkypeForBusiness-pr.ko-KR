@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.ExternalApplicationScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 이 노드는 이 신뢰할 수 있는 응용 프로그램 풀에 대한 풀 FQDN(정규화된 도메인 이름), 복제 설정 및 다음 홉 풀을 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 31bba8131531b039253475553e91d6ff8580c4ae
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1f92255c156cd7845385ae7368916177d4cbd2ca
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697353"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819970"
 ---
 # <a name="external-application-scope-node"></a>외부 응용 프로그램 범위 노드
  

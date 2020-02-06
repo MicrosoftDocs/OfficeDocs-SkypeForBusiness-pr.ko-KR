@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.FeMediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: 이 대화 상자에서 중재 서버 PSTN 게이트웨이 설정의 속성을 편집 합니다. 다음 설정을 정의 합니다.
-ms.openlocfilehash: bd24c24d14e24ed7e4ce53bc30d01b2e955be6cf
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dfe3defeb7cdce787321a401ca2a5450ee6b4ab8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697283"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819880"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Lync Server 2010용 프런트 엔드 중재 서비스 설정 확장기
  
