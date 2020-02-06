@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 이 절차를 완료 하려면 Domain Admins 그룹의 구성원 또는 DnsAdmins 그룹의 구성원으로 서버나 도메인에 로그온 해야 합니다.
-ms.openlocfilehash: 5d506c3b2ff70ae776396e8d3a51e71360cdcc83
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ef77f491efd090949ff5dd6b653dd3cd6ea1cde7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241747"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812776"
 ---
 # <a name="update-dns-srv-records"></a>DNS SRV 레코드 업데이트
 
@@ -26,7 +28,7 @@ ms.locfileid: "36241747"
 
 1. DNS 서버에서 **시작**을 클릭 하 고 **관리 도구**를 클릭 한 다음 **dns**를 클릭 합니다.
     
-2. SIP 도메인의 콘솔 트리에서 **정방향 조회 영역**을 확장 하 고 비즈니스용 Skype 서버 2019이 설치 되어 있는 SIP 도메인을 확장 하 고 **_tcp** 설정으로 이동 합니다. 
+2. SIP 도메인의 콘솔 트리에서 **정방향 조회 영역**을 확장 하 고 비즈니스용 Skype 서버 2019이 설치 되어 있는 SIP 도메인을 확장 한 다음 **_tcp** 설정으로 이동 합니다. 
     
 3. 오른쪽 창에서 **_sipinternaltls** 를 마우스 오른쪽 단추로 클릭 하 고 **속성**을 선택 합니다.
     

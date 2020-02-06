@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 보관 서버를 제거한 후에는 풀 데이터를 호스트 하는 SQL Server 데이터베이스를 제거할 수 있습니다. 토폴로지 작성기에서 정의를 제거 하려면 다음 절차를 사용 하 여 데이터베이스 서버에서 데이터베이스 및 로그 파일을 제거 합니다.
-ms.openlocfilehash: 149342f49fded4af294f76028140a9f76f190ed1
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 5997e54b2ac7a83d2bdd904a6f01cc89d7a17920
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989003"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812816"
 ---
 # <a name="remove-the-sql-server-database-for-an-archiving-server"></a>보관 서버용 SQL Server 데이터베이스 제거
 

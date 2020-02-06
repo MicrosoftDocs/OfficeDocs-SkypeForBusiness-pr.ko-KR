@@ -1,5 +1,5 @@
 ---
-title: 레거시 풀의 현재 사용자 보기
+title: 레거시 풀에서 현재 사용자 보기
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 풀 간에 사용자를 이동할 수 있는 다양 한 방법을 배우기 전에 먼저 레거시 풀에 존재 하는 사용자를 결정 해야 합니다. 레지스트라 풀 열은 레거시 풀에 대해 구성 된 사용자를 식별 합니다. 다음은 비즈니스용 Skype Server 2019 풀로 이동 하는 테스트 사용자입니다.
-ms.openlocfilehash: d5ef86d1750cb0a6bb770adf0c75628d9229d83a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f9f5a7f7ef93828968f75745b5ec91538e8b46cc
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243984"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812646"
 ---
-# <a name="view-current-users-in-legacy-pool"></a>레거시 풀의 현재 사용자 보기
+# <a name="view-current-users-in-legacy-pool"></a>레거시 풀에서 현재 사용자 보기
 
 풀 간에 사용자를 이동할 수 있는 다양 한 방법을 배우기 전에 먼저 레거시 풀에 존재 하는 사용자를 결정 해야 합니다. **레지스트라 풀** 열은 레거시 풀에 대해 구성 된 사용자를 식별 합니다. 다음은 비즈니스용 Skype Server 2019 풀로 이동 하는 테스트 사용자입니다.
   

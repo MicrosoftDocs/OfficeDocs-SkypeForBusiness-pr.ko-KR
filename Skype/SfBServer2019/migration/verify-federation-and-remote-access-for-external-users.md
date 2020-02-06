@@ -1,5 +1,5 @@
 ---
-title: 외부 사용자에 대 한 페더레이션 및 원격 액세스 확인
+title: 외부 사용자에 대한 페더레이션 및 원격 액세스 확인
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 페더레이션 경로를 비즈니스용 Skype 서버 2019 Edge 서버로 전환 하 고 나면 일부 기능적 테스트를 수행 하 여 페더레이션이 예상 대로 수행 되는지 확인 해야 합니다. 외부 사용자 액세스에 대 한 테스트에는 조직에서 지 원하는 각 외부 사용자 유형 (다음의 일부 또는 모두 포함)이 포함 되어야 합니다.
-ms.openlocfilehash: ea17cbc8643d864f464da8e8a582191504970059
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f27fa853c8af2ba5e97835ad1e0dd893c9128e0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244088"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812686"
 ---
-# <a name="verify-federation-and-remote-access-for-external-users"></a>외부 사용자에 대 한 페더레이션 및 원격 액세스 확인
+# <a name="verify-federation-and-remote-access-for-external-users"></a>외부 사용자에 대한 페더레이션 및 원격 액세스 확인
 
 페더레이션 경로를 비즈니스용 Skype 서버 2019 Edge 서버로 전환 하 고 나면 일부 기능적 테스트를 수행 하 여 페더레이션이 예상 대로 수행 되는지 확인 해야 합니다. 외부 사용자 액세스에 대 한 테스트에는 조직에서 지 원하는 각 외부 사용자 유형 (다음의 일부 또는 모두 포함)이 포함 되어야 합니다.
   

@@ -8,18 +8,20 @@ ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.CallAdmissionControl
 - ms.lync.plan.CallAdmissionControl
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: CAC (호출 허용 제어)는 음성 또는 영상 통화 등의 실시간 통신 세션을 설정할 수 있는 사용 가능한 네트워크 대역폭을 기준으로 결정 됩니다.
-ms.openlocfilehash: 9ecd73a478064449f1956e57f13eeb3abf0f3287
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c48bebaf85a2ea57cfda88ea92d68586f7304ab9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698713"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41809866"
 ---
 # <a name="call-admission-control-planning-tool"></a>통화 허용 제어 (계획 도구)
  

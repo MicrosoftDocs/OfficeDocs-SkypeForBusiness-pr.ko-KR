@@ -1,5 +1,5 @@
 ---
-title: 사용자 복제가 완료 되었는지 확인
+title: 사용자 복제가 완료되었는지 확인
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 이동-CsUser cmdlet을 실행할 때 AD DS (Active Directory 도메인 서비스)와 비즈니스용 Skype 서버 2019 데이터베이스 간의 사용자 정보가 동기화 되지 않아 오류가 발생할 수 있습니다. 초기 복제가 완료 되지 않았습니다. 비즈니스용 Skype 서버 2019 사용자 복제기 서비스의 초기 동기화가 완료 되는 데 걸리는 시간은 비즈니스용 Skype를 호스트 하는 Active Directory 포리스트에서 호스팅되는 도메인 컨트롤러 수에 따라 달라 집니다. 서버 2019 풀. 비즈니스용 skype Server 2019 사용자 복제기 서비스 초기 동기화 프로세스가 처음으로 비즈니스용 Skype 서버 2019 프런트 엔드 서버를 시작 하면이 문제가 발생 합니다. 이후 동기화는 사용자 복제기 간격을 기준으로 합니다. 다음 단계를 완료 하 여 CsUser cmdlet을 실행 하기 전에 사용자 복제가 완료 되었는지 확인 합니다.
-ms.openlocfilehash: 12bb3c29f703287934358f331dc945830e318afb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 31f4f9f1045367e376d4536df54c32be14580312
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244029"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812656"
 ---
-# <a name="verify-user-replication-has-completed"></a>사용자 복제가 완료 되었는지 확인
+# <a name="verify-user-replication-has-completed"></a>사용자 복제가 완료되었는지 확인
 
 **이동-csuser** cmdlet을 실행할 때 AD DS (Active Directory 도메인 서비스)와 비즈니스용 Skype 서버 2019 데이터베이스 간의 사용자 정보가 동기화 되지 않은 경우, 초기 복제가 완료 되지 않아 오류가 발생할 수 있습니다. 비즈니스용 Skype 서버 2019 사용자 복제기 서비스의 초기 동기화가 완료 되는 데 걸리는 시간은 비즈니스용 Skype를 호스트 하는 Active Directory 포리스트에서 호스팅되는 도메인 컨트롤러 수에 따라 달라 집니다. 서버 2019 풀. 비즈니스용 skype Server 2019 사용자 복제기 서비스 초기 동기화 프로세스가 처음으로 비즈니스용 Skype 서버 2019 프런트 엔드 서버를 시작 하면이 문제가 발생 합니다. 그 이후에는 동기화가 사용자 복제기 간격을 기준으로 합니다. 다음 단계를 완료 하 여 **csuser** cmdlet을 실행 하기 전에 사용자 복제가 완료 되었는지 확인 합니다. 
   

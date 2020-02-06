@@ -1,5 +1,5 @@
 ---
-title: 서비스에 대 한 세션 방지
+title: 서비스에 대한 세션 방지
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 레거시 설치 제어판을 사용 하 여 특정 컴퓨터에서 실행 되는 모든 레거시 서비스에 대 한 새 세션을 방지 하거나 특정 레거시 서비스에 대 한 새 세션을 방지할 수 있습니다.
-ms.openlocfilehash: 978c97bd7f610e6b40d467b80f5df8483b6d370f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5bba30bee0fb8c25bed25e2c3cbd593179aa9b97
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244578"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813056"
 ---
-# <a name="prevent-sessions-for-services"></a>서비스에 대 한 세션 방지
+# <a name="prevent-sessions-for-services"></a>서비스에 대한 세션 방지
 
 레거시 설치 제어판을 사용 하 여 특정 컴퓨터에서 실행 되는 모든 레거시 서비스에 대 한 새 세션을 방지 하거나 특정 레거시 서비스에 대 한 새 세션을 방지할 수 있습니다.
   

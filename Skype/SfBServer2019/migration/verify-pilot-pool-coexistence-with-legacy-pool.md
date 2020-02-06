@@ -1,5 +1,5 @@
 ---
-title: 레거시 풀과의 파일럿 풀 공존 확인
+title: 레거시 풀로 파일럿 풀 동시 사용 확인
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 레거시 풀과의 파일럿 풀 공존을 확인 하는 프로세스입니다.
-ms.openlocfilehash: e71160a2a20d4a80979e3c3c4875c19db181f2da
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 386ea4a7857fcdef7d45e5d8029ff4bf31293819
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244059"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812676"
 ---
-# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>레거시 풀과의 파일럿 풀 공존 확인
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>레거시 풀로 파일럿 풀 동시 사용 확인
 
  **이 문서의 내용**
   

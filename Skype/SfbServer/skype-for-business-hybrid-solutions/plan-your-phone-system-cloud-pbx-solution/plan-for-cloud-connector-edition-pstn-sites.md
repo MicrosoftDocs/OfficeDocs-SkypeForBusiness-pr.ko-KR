@@ -1,5 +1,5 @@
 ---
-title: 클라우드 커넥터 에디션 PSTN 사이트 계획
+title: 클라우드 커넥터 버전 PSTN 사이트 계획
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -8,20 +8,22 @@ ms.date: 3/30/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: 이 항목을 읽으면 효율적인 통화 라우팅과 비용 효율적인 통신을 위해 클라우드 커넥터 에디션 PSTN 사이트를 계획 하는 방법을 알아보세요.
-ms.openlocfilehash: 7afc5ac09e80edf6b1502e9d169aee77b3bd69b6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5f20a5cf7a3395d4695a0e38d21e595982dc6398
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190725"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812506"
 ---
-# <a name="plan-for-cloud-connector-edition-pstn-sites"></a>클라우드 커넥터 에디션 PSTN 사이트 계획
+# <a name="plan-for-cloud-connector-edition-pstn-sites"></a>클라우드 커넥터 버전 PSTN 사이트 계획
  
 이 항목을 읽으면 효율적인 통화 라우팅과 비용 효율적인 통신을 위해 클라우드 커넥터 에디션 PSTN 사이트를 계획 하는 방법을 알아보세요.
   

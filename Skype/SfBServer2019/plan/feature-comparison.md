@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '요약: 비즈니스용 Skype Server 2019 또는 비즈니스용 Skype Online 관리자는 이러한 표를 사용 하 여 어떤 클라이언트가 어떤 기능을 지원 하는지 이해할 수 있습니다.'
-ms.openlocfilehash: e26c5020f780542a890b9016057171c59a3eee32
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 351158dde052039ad60e796fb528af48e923dfd2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189048"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812606"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019 데스크톱 클라이언트 기능 비교
 

@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 프런트 엔드 서버는 독립 실행형 컴퓨터로 존재할 수 없습니다. 풀에 하나의 컴퓨터만 있는 경우에도 프런트 엔드 풀로 정의 되어야 합니다.
-ms.openlocfilehash: 64f0c4134f690005815591bce88b8d058c1bd007
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 93df9e293f7a1876d4a8b1f172472f708556f67f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244531"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813036"
 ---
 # <a name="remove-a-front-end-server-from-a-pool"></a>풀에서 프런트 엔드 서버 제거
 

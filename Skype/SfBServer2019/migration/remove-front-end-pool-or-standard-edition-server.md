@@ -1,5 +1,5 @@
 ---
-title: 프론트 엔드 풀 또는 Standard Edition 서버 제거
+title: 프런트 엔드 풀 또는 Standard Edition 서버 제거
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 이 항목에서는 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 제거 하는 과정을 안내 합니다. 프런트 엔드 풀을 제거 하면 풀에 속한 각 프런트 엔드 서버를 그룹 제거 프로세스의 일부로 제거 합니다. Standard Edition 프런트 엔드 서버를 제거 하는 경우 토폴로지 작성기에서 SQL 스토어 정의를 제거 해야 합니다.
-ms.openlocfilehash: 57679fb248c9281b79c12be98b7fd5246c9afd38
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d3397b47f94a96cde3326b2479a9e5c6ffd365e6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244492"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813006"
 ---
-# <a name="remove-front-end-pool-or-standard-edition-server"></a>프론트 엔드 풀 또는 Standard Edition 서버 제거
+# <a name="remove-front-end-pool-or-standard-edition-server"></a>프런트 엔드 풀 또는 Standard Edition 서버 제거
 
 이 문서에서는 프런트 엔드 풀 또는 Standard Edition 프런트 엔드 서버를 제거 하는 과정을 안내 합니다. 프런트 엔드 풀을 제거 하면 풀에 속한 각 프런트 엔드 서버를 그룹 제거 프로세스의 일부로 제거 합니다. Standard Edition 프런트 엔드 서버를 제거 하는 경우 토폴로지 작성기에서 SQL 스토어 정의를 제거 해야 합니다.
   

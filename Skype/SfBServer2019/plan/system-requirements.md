@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: ''
 description: 요약:이 항목을 사용 하 여 비즈니스용 Skype 서버 2019 서버 및 도메인 인프라를 준비 합니다. 서버 팜을 성공적으로 설치 및 배포 하는 데 도움이 되도록 하드웨어, OS, 데이터베이스, 소프트웨어, 모든 시스템 요구 사항, Active Directory 정보 등이 여기에 포함 됩니다.
-ms.openlocfilehash: ea4ae18a3714058e0df4f42a0190046ce7006ef8
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: c6f30ad4caa8dcb31cf035c3f82de4ab87c41f3d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111382"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812596"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019에 대 한 시스템 요구 사항
  
