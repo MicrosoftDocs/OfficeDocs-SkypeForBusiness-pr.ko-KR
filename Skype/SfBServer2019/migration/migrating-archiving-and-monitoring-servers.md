@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 레거시 환경에서 보관 서버 및 모니터링 서버를 배포한 경우 프런트 엔드 풀을 마이그레이션한 후 비즈니스용 Skype 서버 2019 환경에서 이러한 서버를 배포할 수 있습니다. 그러나 보관 및 모니터링 기능이 조직에 중요 한 경우 마이그레이션을 시작 하기 전에 비즈니스용 Skype Server 2019 파일럿 풀에 보관 및 모니터링을 추가 하 여 마이그레이션 프로세스 동안 기능을 사용할 수 있도록 해야 합니다.
-ms.openlocfilehash: f259a08d25c93467c79fdaf3550288c6208607c3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5088f4b4f72ddc083cf2868df893946561eb2469
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238460"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813456"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>보관 및 모니터링 서버 마이그레이션
 

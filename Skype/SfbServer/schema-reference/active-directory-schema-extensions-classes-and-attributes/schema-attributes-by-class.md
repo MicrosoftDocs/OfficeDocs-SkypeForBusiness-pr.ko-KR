@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: 이 섹션에서는 각 비즈니스용 Skype Server 클래스에 포함 될 수 있는 스키마 특성과 다른 클래스에 포함 될 수 있는 클래스를 나열 합니다. 모든 수업 목록과 해당 설명은 비즈니스용 Skype 서버의 스키마 클래스 및 설명을 참조 하세요. 모든 특성 및 해당 설명 목록은 비즈니스용 Skype 서버의 스키마 특성 및 설명을 참조 하세요.
-ms.openlocfilehash: 457b66b5b4b09bd610686bfdfb42af30b420930f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 93598f1cc54ec76ccc59649ec97fd7ac57cd39f6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196807"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815496"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 클래스별 스키마 특성
  
@@ -55,7 +57,7 @@ ms.locfileid: "36196807"
 |msRTCSIP-TrustedWebComponentsServer  <br/> |msRTCSIP-TrustedWebComponentsServerData  <br/> msRTCSIP-TrustedWebComponentsServerFQDN  <br/> msRTCSIP Serverversion  <br/> |
 |msRTCSIP-WebComponentsService  <br/> |msRTCSIP-WebComponentsServers  <br/> |
 |msRTCSIP-WebComponentSettings  <br/> |msRTCSIP-WebComponentsData  <br/> msRTCSIP-WebComponentsPoolAddress  <br/> msRTCSIP-ServerVersion  <br/> |
-|클릭할  <br/> |msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP 선  <br/> msRTCSIP-LineServer  <br/> msRTCSIP 플래그  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-소유자 Urn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> UserExtension msRTCSIP  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
+|사용자  <br/> |msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP 선  <br/> msRTCSIP-LineServer  <br/> msRTCSIP 플래그  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-소유자 Urn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> UserExtension msRTCSIP  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
    
 ### <a name="classes-contained-in-other-classes"></a>다른 클래스에 포함 된 클래스
 

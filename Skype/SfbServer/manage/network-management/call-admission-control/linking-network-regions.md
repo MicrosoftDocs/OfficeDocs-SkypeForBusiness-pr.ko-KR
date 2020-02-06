@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: '두 네트워크 지역 간의 링크를 CAC (call 허용 제어)의 일부로 구성할 수 있습니다. '
-ms.openlocfilehash: b9ffa45c8a0a09ba4a7f9f0ebf6402b87116f01f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4a643f34b9525b53168b9015b77a7f8292abd417
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188586"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817527"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 지역 연결
 

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 이 문서의 절차를 사용 하 여 비즈니스용 Skype 서버 제어판을 사용 하 여 미디어 바이패스를 사용 하거나 사용 하지 않도록 설정 합니다.
-ms.openlocfilehash: acfa963e71f3c3b89d0e79648d00871b1ab44616
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d1c0a5eb409c6bb5c07c530b4799ab8a53a9fddb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188604"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817547"
 ---
-# <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 미디어 바이패스 사용 및 사용 안 함
+# <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 미디어 바이패스를 사용하도록 설정 및 해제
 
 이 문서의 절차를 사용 하 여 비즈니스용 Skype 서버 제어판을 사용 하 여 미디어 바이패스를 사용 하거나 사용 하지 않도록 설정 합니다.
 
@@ -51,7 +53,7 @@ ms.locfileid: "36188604"
         
           - 게이트웨이와 클라이언트 간에는 완전 한 연결이 있습니다.
     
-      - **사이트 및 지역 구성**   사용 CAC를 사용 하는 경우이 옵션은 기본적으로 선택 되어 있으며 변경할 수 없습니다. 이 옵션을 선택 하면 네트워크 구성 사이트 및 지역이 미디어 바이패스 가능 여부를 결정 하는 데 사용 됩니다. 이 옵션을 선택 하면 매핑되지 않은 사이트에 대해 바이패스를 사용 하도록 선택할 수 있습니다. 대역폭 제약 조건이 없는 (예: 대규모 중앙 사이트) 동일한 지역과 연결 된 대규모 사이트가 하나 이상 있는 경우에만 **매핑되지 않은 사이트에 사용 안 함** 확인란을 클릭 하 고 다음과 같은 일부 지점 사이트도 대역폭 제약 조건이 있는 동일한 지역. 매핑되지 않은 사이트에 대 한 바이패스를 사용 하도록 설정 하면 모든 사이트와 연결 된 모든 서브넷을 지정 하는 대신 지점 사이트와 연결 된 서브넷만 지정 하므로 구성이 간소화 됩니다. CAC를 사용 하는 경우 **매핑되지 않은 사이트에 바이패스 사용** 확인란을 선택 하지 않는 것이 좋습니다.
+      - **사이트 및 지역 구성**   사용 CAC를 사용 하는 경우이 옵션은 기본적으로 선택 되어 있으며 변경할 수 없습니다. 이 옵션을 선택 하면 네트워크 구성 사이트 및 지역이 미디어 바이패스 가능 여부를 결정 하는 데 사용 됩니다. 이 옵션을 선택 하면 매핑되지 않은 사이트에 대해 바이패스를 사용 하도록 선택할 수 있습니다. 대역폭 제약 조건이 없는 (예: 대규모 중앙 사이트) 동일한 지역과 연결 된 대규모 사이트가 하나 이상 있는 경우에만 **매핑되지 않은 사이트에 사용 안 함** 확인란을 클릭 하 고 대역폭 제약 조건이 있는 동일한 지역에 연결 된 일부 지점 사이트를 보유 하 고 있는 경우에만 적용 됩니다. 매핑되지 않은 사이트에 대 한 바이패스를 사용 하도록 설정 하면 모든 사이트와 연결 된 모든 서브넷을 지정 하는 대신 지점 사이트와 연결 된 서브넷만 지정 하므로 구성이 간소화 됩니다. CAC를 사용 하는 경우 **매핑되지 않은 사이트에 바이패스 사용** 확인란을 선택 하지 않는 것이 좋습니다.
 
 8.  **커밋을** 클릭 하 여 변경 내용을 저장 합니다.
 
