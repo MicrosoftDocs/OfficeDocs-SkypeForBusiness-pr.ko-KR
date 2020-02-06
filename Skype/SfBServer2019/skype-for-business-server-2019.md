@@ -9,15 +9,17 @@ ms.date: 2/11/2019
 audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: ''
 description: '요약: 비즈니스용 Skype Server 2019을 구현 하는 방법을 알아보려면이 링크를 탐색 하세요.'
-ms.openlocfilehash: 3bb946285b5bd85722aa1983cbbc7e87dbb72506
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cd436fb851d5b94db1762dc0c8e6e0e1cf99a1c0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189765"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812536"
 ---
 # <a name="skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019
 
@@ -69,7 +71,7 @@ ms.locfileid: "36189765"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>배치</h3>
+                        <h3>배포</h3>
                     </div>
                 </div>
             </div>
@@ -107,7 +109,7 @@ ms.locfileid: "36189765"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>관리자</h3>
+                        <h3>관리</h3>
                     </div>
                 </div>
             </div>
@@ -205,7 +207,7 @@ ms.locfileid: "36189765"
 
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **시작 하기 전에** <br>[시스템 요구 사항](plan/system-requirements.md) <br>[네트워크 요구 사항](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **설치할** <br>[비즈니스용 Skype 서버 설치](../SfbServer/deploy/install/install.md) <br> [비즈니스용 Skype 2019로 마이그레이션](migration/migration-to-skype-for-business-server-2019.md)                             | **엔터프라이즈 음성**<br>[계획](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[배치](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
+| **시작 하기 전에** <br>[시스템 요구 사항](plan/system-requirements.md) <br>[네트워크 요구 사항](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **설치** <br>[비즈니스용 Skype 서버 설치](../SfbServer/deploy/install/install.md) <br> [비즈니스용 Skype 2019로 마이그레이션](migration/migration-to-skype-for-business-server-2019.md)                             | **Enterprise Voice**<br>[플랜](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[배포](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
 | **새로운 기능**<br>[새로운 기능](whats-new.md)                                                                                                                                         | **하이브리드 솔루션**<br>[하이브리드 연결 계획](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **이전 릴리스**<br/>  [비즈니스용 Skype 서버 2015 문서](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013 설명서](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 
