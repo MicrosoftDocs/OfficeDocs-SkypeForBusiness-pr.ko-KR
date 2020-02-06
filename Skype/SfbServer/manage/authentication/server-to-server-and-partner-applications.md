@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: '요약: 비즈니스용 Skype 서버에서 OAuth 및 파트너 응용 프로그램을 관리 합니다.'
-ms.openlocfilehash: 37c2af8a089bcae4b974761616e1ecd67c9e500b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d95d4f048743c6725e42e50b5025b0c906adaf53
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196907"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818750"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 OAuth (서버 간 인증) 및 파트너 응용 프로그램 관리
  

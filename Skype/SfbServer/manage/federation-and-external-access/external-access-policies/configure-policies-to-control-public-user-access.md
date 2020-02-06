@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: ublic im (인스턴트 메시징) 연결을 사용 하면 조직의 사용자가 공용 IM 서비스 공급자가 제공 하는 IM 서비스 사용자와 통신할 수 있습니다.
-ms.openlocfilehash: 230c3405a9d0a551758bee63fae8f927fdc5af19
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d661ca9a4ef7840cbc955d0c999ae5a1490a63cb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188850"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818309"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 공용 사용자 액세스를 제어 하도록 정책 구성
 
@@ -71,4 +73,4 @@ IM 초대의 경우 응답은 클라이언트 소프트웨어에 따라 달라 �
 
 ## <a name="see-also"></a>참고 항목
 
-[조직의 SIP 페더레이션 공급자 관리](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+[조직의 SIP 페더레이션 제공자 관리](../sip-providers/manage-sip-federated-providers-for-your-organization.md)

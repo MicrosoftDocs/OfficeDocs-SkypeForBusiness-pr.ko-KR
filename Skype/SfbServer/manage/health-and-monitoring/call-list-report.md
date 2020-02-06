@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: '요약: 비즈니스용 Skype 서버의 응답 그룹 응용 프로그램에 대해 알아보세요.'
-ms.openlocfilehash: 2d372f7b57909ee2b926dbf0a8333df5904df0c3
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 0d3d0001c5537135c2a81ea39706b0def6718fe0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992063"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818109"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 응답 그룹 통화 목록 보고서
 

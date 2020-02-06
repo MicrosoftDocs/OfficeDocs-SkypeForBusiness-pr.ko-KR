@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: '요약: 비즈니스용 Skype 서버에서 모임 구성 설정을 보는 방법에 대해 알아보세요.'
-ms.openlocfilehash: 13d91bc4c0335d8c069e0b0d9bc41efd8714f112
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 858d1a3d786cb9fe3c6b33daaca8667cab2390f8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188919"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818459"
 ---
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모임 구성 설정 보기
  

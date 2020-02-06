@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 비즈니스용 Skype Server에 대해 사용자가 사용 하도록 설정한 경우에는 특정 사용자에 게 적절 한 정책을 적용 하 여 비즈니스용 Skype Server 제어판에서 SIP 페더레이션, 원격 사용자 액세스 및 IM (공용 인스턴트 메시징) 연결을 구성할 수 있습니다.
-ms.openlocfilehash: ae8bea38a01f9211fc3338faf3e97f737c99e1a4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b87eb377b23063dbcdfd9562a99533da230a8f30
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188856"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818329"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>비즈니스용 Skype 사용 가능 사용자에 게 외부 사용자 액세스 정책 지정
 

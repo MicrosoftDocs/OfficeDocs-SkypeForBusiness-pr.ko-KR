@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 description: '요약: 비즈니스용 Skype 서버에서 기존 PIN 정책을 수정 합니다.'
-ms.openlocfilehash: 9aecd7fc48ce2893e1d8e603f7cdc369cde11ec3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 91ed45efb96c3eb9c2bb114b5d5b8f25d0e00f93
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191571"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818780"
 ---
 # <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 기존 PIN 정책 수정
  

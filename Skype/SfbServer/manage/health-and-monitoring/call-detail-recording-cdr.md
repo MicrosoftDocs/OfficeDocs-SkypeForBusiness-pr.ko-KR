@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: '요약: 비즈니스용 Skype 서버에서 사용 되는 CDR (통화 정보 기록) 레코드에 대해 알아봅니다.'
-ms.openlocfilehash: 3ad4be42fd65e3a7301e3b6d3e2fb649a3fbcea8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2a8a20ba6c02bb51d3f2ec79f8392f57a935e557
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191421"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818159"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 전화 정보 기록 (CDR)
  

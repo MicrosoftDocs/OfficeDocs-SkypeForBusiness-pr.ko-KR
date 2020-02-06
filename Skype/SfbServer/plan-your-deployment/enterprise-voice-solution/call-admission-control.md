@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 비즈니스용 Skype Server Enterprise Voice에서 미디어 품질이 좋지 않을 경우 호출이 발생 하지 않도록 하는 통화 허용 제어에 대해 알아봅니다.
-ms.openlocfilehash: 3942c3d50267593f393655e19d0cc80b5f5028f8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33aad955d0d1c592900683213a13e50433265a10
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187776"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803238"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 허용 제어 계획
 
@@ -84,7 +86,7 @@ CDR (통화 정보 기록)는 PSTN 또는 음성 메일로 경로를 전환 하�
 
 ### <a name="call-admission-control-of-outside-users"></a>외부 사용자의 통화 허용 제어
 
-통화 허용 제어는 비즈니스용 Skype 서버 조직의 용량 한도를 초과 하 여 적용 되지 않습니다. CAC는 비즈니스용 Skype 서버에서 관리 하지 않는 인터넷을 통과 하는 미디어 트래픽에 적용할 수 없습니다. 호출 허용 제어에 설명 된 대로, 호출 된 끝점이 조직에 속해 있고 네트워크 구성에 Edge 서버가 추가 된 경우 엔터프라이즈 네트워크를 통해 전달 되는 호출 부분에 대해 CAC 검사를 수행 합니다. [ 배포: 비즈니스용 Skype 서버에 대 한 최종 검사 목록](../../deploy/deploy-enterprise-voice/final-checklist.md)입니다. 연결 된 끝점이 조직에 속하지 않는 경우 (예: 페더레이션된 또는 PIC 사용자) 대역폭 정책 검사가 수행 되지 않으며, 나가는 통화가 모든 CAC 제한을 무시 합니다.
+통화 허용 제어는 비즈니스용 Skype 서버 조직의 용량 한도를 초과 하 여 적용 되지 않습니다. CAC는 비즈니스용 Skype 서버에서 관리 하지 않는 인터넷을 통과 하는 미디어 트래픽에 적용할 수 없습니다. CAC 검사는 호출 하는 끝점이 조직에 속해 있는 경우 엔터프라이즈 네트워크를 통해 전달 되 고 Edge 서버가 네트워크 구성에 추가 된 경우 ( [호출 허용 제어 배포: 비즈니스용 Skype 서버에 대 한 최종 검사 목록](../../deploy/deploy-enterprise-voice/final-checklist.md))에 수행 됩니다. 연결 된 끝점이 조직에 속하지 않는 경우 (예: 페더레이션된 또는 PIC 사용자) 대역폭 정책 검사가 수행 되지 않으며, 나가는 통화가 모든 CAC 제한을 무시 합니다.
 
 ### <a name="call-admission-control-of-pstn-connections"></a>PSTN 연결의 통화 허용 제어
 

@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: 각 레코드는 오디오 또는 오디오 및 비디오를 포함 하는 하나의 세션을 나타냅니다. 세션에 대 한 전반적인 정보를 포함 합니다. 세션은 두 끝점 간에 오디오 또는 SIP (비디오 세션 초기화 프로토콜) 대화 상자로 정의 됩니다.
-ms.openlocfilehash: e0cd6a4523b09d8bcb7f74d6c796b46bf99ece8e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f48857f826a4e85519d7dc7d2942d48967df8b01
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196523"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41805776"
 ---
 # <a name="session-table"></a>Session 테이블
  

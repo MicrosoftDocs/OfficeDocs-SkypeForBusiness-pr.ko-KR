@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
 description: '요약: 비즈니스용 Skype 서버에서 전화 회의 디렉터리를 만드는 방법에 대해 알아보세요.'
-ms.openlocfilehash: 0ed141b743d436ca2082b8a4f5010011a0256479
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 368248f18291b049b3478f20d3de4a11d4ae6f1c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991853"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818569"
 ---
 # <a name="create-conference-directories-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 전화 회의 디렉터리 만들기
  

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: '요약: 비즈니스용 Skype 서버에 대 한 사용자 보관 정책을 변경 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 00f22b9afa5332bd7075b03823d321d35a0e4b8b
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 010365b5805517db8f40aa7e3e839fdb15115c06
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992775"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818990"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 기존 보관 정책 변경
  

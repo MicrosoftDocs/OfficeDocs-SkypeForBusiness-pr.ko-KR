@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: SIP 페더레이션된 공급자의 사용자에 대 한 지원을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ee16ec8953a722a86838f710fdf92cb9b2ce5f36
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 42845bfd39c65e60765ee8d3fd2f1e3a58a08aae
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197488"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818369"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 조직의 SIP 페더레이션 공급자 관리
 
@@ -107,5 +109,5 @@ SIP 페더레이션된 공급자의 사용자에 대 한 지원을 구성 하려
 
 [공용 사용자 액세스를 제어 하도록 정책 구성](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
-[페더레이션 및 공용 메신저 연결 사용 또는 사용 안 함](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
+[페더레이션 및 공개 IM 연결을 사용하도록 설정 또는 해제](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 

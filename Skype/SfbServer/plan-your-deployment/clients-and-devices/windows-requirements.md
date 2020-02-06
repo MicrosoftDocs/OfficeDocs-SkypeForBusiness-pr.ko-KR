@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: '요약: 비즈니스용 Skype 서버를 계획 하는 동안 Windows 클라이언트 지원 요구 사항을 검토 합니다.'
-ms.openlocfilehash: bbcbf11da53b2895f04725fda57342c17989b7f2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a66887b616461a40c6326a66d982a8bfbe8e9605
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187866"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803488"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows 클라이언트 요구 사항 및 소프트웨어 지원
  

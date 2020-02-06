@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: '요약: 비즈니스용 Skype 서버에서 CDR (통화 정보 기록) 레코드를 사용 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 3474a82bfc9ed8e8bad954bb91346989d9181465
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 6c4460ac004ee15893b81f09f7bd59943365e64c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992948"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817978"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 정보 기록 사용
 

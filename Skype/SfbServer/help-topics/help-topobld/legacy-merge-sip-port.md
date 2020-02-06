@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.LegacyMergeSipPortPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 description: 클라이언트, 레거시 프런트 엔드 풀 및 서버와의 통신에 사용되는 기본 TCP(Transmission Control Protocol) SIP 포트는 5061입니다. 기본값을 사용하지 않는 경우 모든 풀과 서버에서 사용하는 SIP 포트:를 선택하고 새 값을 입력합니다.
-ms.openlocfilehash: 930252be234fa0b0bd8dd87db921d30226485d66
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2a0f6ab02ee5131091f5fe11ba1239086810ecc8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684601"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819720"
 ---
 # <a name="legacy-merge-sip-port"></a>레거시 병합 SIP 포트
  

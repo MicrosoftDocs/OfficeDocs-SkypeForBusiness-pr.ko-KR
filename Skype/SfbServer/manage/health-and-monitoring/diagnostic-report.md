@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: '요약: 비즈니스용 Skype 서버의 진단 보고서에 대해 알아보세요.'
-ms.openlocfilehash: d71906f2407a0daadc04417ab60a23c86f5eeb52
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e8f89f1f5a013b40f7f5f105f49611542667a477
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197640"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817988"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 진단 보고서
  
@@ -53,7 +55,7 @@ ms.locfileid: "36197640"
 |**사용자 에이전트에서** <br/> |아니요  <br/> |세션을 시작한 사용자의 끝점에 사용 되는 소프트웨어입니다.  <br/> |
 |**진단 ID** <br/> |아니요  <br/> |오류 문제 해결에 유용한 정보를 자주 제공 하는 SIP 메시지에 첨부 된 고유 식별자 (ms-진단 헤더 형식)입니다.  <br/> |
 |**콘텐츠 형식** <br/> |아니요  <br/> |실패 한 미디어 콘텐츠의 유형입니다. 예를 들어 공용 콘텐츠 형식은 Application/sdp입니다. SDP (세션 설명 프로토콜)는 세션 공지 사항, 세션 초대 및 다른 형식의 멀티미디어 세션 초기화에 사용 되는 표준 인터넷 프로토콜입니다.  <br/> |
-|**프로그램** <br/> |아니요  <br/> |오류와 관련 된 응용 프로그램  <br/> |
+|**응용 프로그램** <br/> |아니요  <br/> |오류와 관련 된 응용 프로그램  <br/> |
 |**사용자 URI로** <br/> |아니요  <br/> |세션에 초대 된 사용자의 SIP 주소입니다.  <br/> |
 |**컨퍼런스 참가 시간 (ms)** <br/> |아니요  <br/> |사용자가 회의에 참가 하는 데 걸린 시간 (밀리초 단위)입니다.  <br/> |
 |**진단 헤더** <br/> |아니요  <br/> |진단 ID 설명입니다.  <br/> |

@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '요약: IT 전문가는 비즈니스용 Skype for business Web App 및 Skype 모임 앱에 대 한 지원 요구 사항을 검토 해야 합니다. 이 문서는 이러한 앱의 사용자를 위한 것이 아닙니다.'
-ms.openlocfilehash: a2bc418b9179a63452c5d4fdd1990676f9db4b14
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 126d8ffc71a2ff1a0bcbf26c744301736d2b47b2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187878"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803558"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>모임 클라이언트 계획 (웹 앱 및 모임 앱)
  
@@ -38,7 +40,7 @@ ms.locfileid: "36187878"
   
 기본적으로 모임을 호스트 하는 서버는 사용자에 게 비즈니스용 Skype Web App을 다운로드 하 고 설치 하도록 지시 합니다. 비즈니스용 Skype Web App은 프런트 엔드 서버에 저장 되며 모임 참석자에 게 전송 됩니다. 
   
-비즈니스용 Skype 서버의 경우 비즈니스용 skype 모임 앱 (Windows) 및 비즈니스용 Skype for mac을 CU5로 시작 하는 비즈니스용 Skype Web App에서 사용할 수 있지만 대체 앱을 제공 하려면 추가 구성이 필요 합니다. [Skype 모임 앱이 비즈니스용 Skype Web app을 교체할 수 있도록 설정 (선택 사항)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)에 설명 되어 있습니다.  Skype 모임 앱과 Mac 용 비즈니스용 Skype를 사용 하는 경우 사용자는 비즈니스용 Skype 서버가 아닌 Office 365 콘텐츠 배달 네트워크 (CDN)에서 최신 버전의 앱을 다운로드 합니다. 비즈니스용 Skype 서버 2019의 경우 Skype 모임 앱을 사용 하 고 Mac 용 비즈니스용 Skype만 선택할 수 있습니다.
+비즈니스용 Skype 서버용 skype 모임 앱 (Windows)과 mac 용 비즈니스용 Skype (Mac)는 CU5으로 시작 되는 비즈니스용 Skype Web App에 대 한 대체 기능으로 사용할 수 있지만, 대체 앱을 제공 [하려면 Skype 모임 앱에서 비즈니스용 Skype Web App을 대체 하는 데](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)설명 된 추가 구성이 필요 합니다 (선택 사항).  Skype 모임 앱과 Mac 용 비즈니스용 Skype를 사용 하는 경우 사용자는 비즈니스용 Skype 서버가 아닌 Office 365 콘텐츠 배달 네트워크 (CDN)에서 최신 버전의 앱을 다운로드 합니다. 비즈니스용 Skype 서버 2019의 경우 Skype 모임 앱을 사용 하 고 Mac 용 비즈니스용 Skype만 선택할 수 있습니다.
   
 Skype Meeting App에서는 Internet Explorer 사용자를 위한 클릭 참가를 포함 하 여 앱을 다운로드 및 설치 하 고 모임에 참가할 수 있는 간단한 브라우저 환경을 제공 합니다. 또한 안정성과 모임 환경을 위해 비즈니스용 Skype Web App에 비해 다양 한 기능을 skype 모임 앱에 제공 합니다. 
   
@@ -54,12 +56,12 @@ Skype Meeting App에서는 Internet Explorer 사용자를 위한 클릭 참가�
 
 | 운영 체제 | 쪽 | 32 및 64 비트 Internet Explorer 11 이상 | 32 및 64 비트 Internet Explorer 10 이상 | 32 및 64 비트 Internet Explorer 9 이상 | 32 및 64 비트 버전의 Safari 6.2.8-11. X | 32 및 64 비트 버전의 Chrome 18. X 이상 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |'  <br/> |'  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
-|Windows 8.1 &#x2776; <br/> |해당 없음  <br/> |'  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음 <br/> |예 &#x2778; <br/> |
-|Windows 8 (Intel 기반) &#x2776; <br/> |해당 없음  <br/> |해당 없음  <br/> |'  <br/> |해당 없음 <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
-|Windows 7 SP1 &#x2777; <br/> |해당 없음  <br/> |'  <br/> |아니요  <br/> |아니요  <br/> |해당 없음 <br/>|예 &#x2778; <br/> |
-|Windows Server 2008 R2 SP1 &#x2777; <br/> |해당 없음  <br/> |'  <br/> |'  <br/> |'  <br/> |해당 없음 <br/>|예 &#x2778; <br/> |
-|macOS 10.8 이상 (Intel 기반) &#x2777; <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |'  <br/> |' <br/> |
+|Windows 10  <br/> |예  <br/> |예  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
+|Windows 8.1 &#x2776; <br/> |해당 없음  <br/> |예  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음 <br/> |예 &#x2778; <br/> |
+|Windows 8 (Intel 기반) &#x2776; <br/> |해당 없음  <br/> |해당 없음  <br/> |예  <br/> |해당 없음 <br/> |해당 없음  <br/> |예 &#x2778; <br/> |
+|Windows 7 SP1 &#x2777; <br/> |해당 없음  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |해당 없음 <br/>|예 &#x2778; <br/> |
+|Windows Server 2008 R2 SP1 &#x2777; <br/> |해당 없음  <br/> |예  <br/> |예  <br/> |예  <br/> |해당 없음 <br/>|예 &#x2778; <br/> |
+|macOS 10.8 이상 (Intel 기반) &#x2777; <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |해당 없음  <br/> |예  <br/> |예 <br/> |
    
 비즈니스용 Skype Web App 브라우저 플러그 인을 &#x2776;, 진행 중인 화면 공유 및 기타 기능을 컴퓨터 기반 음성, 비디오, 공유 및 보기를 사용 하기 위해 특정 공유 플러그인이 필요 합니다. 모임 참석자가 모임에 참가 하거나 이러한 기능 중 하나를 시작할 때 공유 플러그 인을 설치할 수 있는 옵션이 제공 됩니다. Windows 8 및 Windows 8.1에서 공유 플러그 인은 데스크톱용 Internet Explorer 10 또는 Internet Explorer 11을 실행 중인 경우에만 설치할 수 있습니다. 비 데스크톱 버전의 Internet Explorer 10 및 11에서는 이러한 기능을 사용할 수 없습니다. Firefox와 Safari 버전 12.0 이상은 더 이상 지원 되지 않습니다.
   

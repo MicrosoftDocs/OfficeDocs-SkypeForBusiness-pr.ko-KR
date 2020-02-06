@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: '요약: 비즈니스용 Skype 서버용으로 보관할 사용자 정책을 관리 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: f6918907f73ffe1b098ed96e1997d8ab8ffe4f9f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f2dca47dd7fd3095b2865ff72516b6be84144352
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188214"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818890"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 보관 정책 관리
 

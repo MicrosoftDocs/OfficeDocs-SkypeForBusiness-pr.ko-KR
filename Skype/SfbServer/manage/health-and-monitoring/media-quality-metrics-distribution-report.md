@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: '요약: 비즈니스용 Skype 서버의 Media Quality 메트릭스 배포 보고서에 대해 자세히 알아보세요.'
-ms.openlocfilehash: 0376f75ff94b1b189c15e53aa7259880da96554a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f656a44ac1437a9c57cb5efe757757e7d695c2a5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188787"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817857"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 Media Quality 메트릭스 배포 보고서 
  
@@ -25,9 +27,9 @@ ms.locfileid: "36188787"
   
 |**통화 번호**|**왕복 시간 (밀리초)**|
 |:-----|:-----|
-|raid-1  <br/> |50  <br/> |
+|1  <br/> |50  <br/> |
 |2  <br/> |50  <br/> |
-|3-4  <br/> |50  <br/> |
+|3  <br/> |50  <br/> |
 |4(tcp/ipv4)  <br/> |50  <br/> |
 |5mb  <br/> |50  <br/> |
 |26  <br/> |50  <br/> |

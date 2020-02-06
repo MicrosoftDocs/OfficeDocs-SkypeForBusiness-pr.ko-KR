@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
 description: MonitoredUserSiteLink 링크 테이블은 지원 테이블입니다. 각 레코드는 두 사용자 사이트 간의 링크 하나를 나타냅니다.
-ms.openlocfilehash: 789c1a721e1a8c204ff6e214f419de77d1b7f7bf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2cf229947da143fb01b3009020cfa432a4b558a0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196549"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41807796"
 ---
 # <a name="monitoredusersitelink-table"></a>MonitoredUserSiteLink 테이블
  

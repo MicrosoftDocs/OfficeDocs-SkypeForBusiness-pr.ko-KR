@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: '요약: 비즈니스용 Skype 서버의 모니터링 및 상태 구성 작업에 대해 알아보세요.'
-ms.openlocfilehash: b3595fcc42a2c2d94803fe1a9862bc726fe9d3ee
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 52f342fca5ccf6cc66e5d857118e5b18f3be0706
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36197855"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817938"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 상태 및 모니터링 관리
 

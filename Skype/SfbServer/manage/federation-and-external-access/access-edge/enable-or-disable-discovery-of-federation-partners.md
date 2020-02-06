@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Edge 서버를 배포 하 고 조직에 대해 사용 하도록 설정한 경우 페더레이션 파트너 도메인의 자동 검색을 지원 하는지 여부를 지정 해야 합니다.
-ms.openlocfilehash: a5569639cf870d2a5da16ef81aa733724a6701b3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a64e2056feacbee076fcaf9b0012a36f72c91523
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188889"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818399"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 페더레이션 파트너의 검색 사용 또는 사용 안 함
 
@@ -58,7 +60,7 @@ Edge 서버를 배포 하 고 조직에 대해 사용 하도록 설정한 경우
 
 ## <a name="to-disable-discovery-of-federation-partners"></a>페더레이션 파트너 검색을 사용 하지 않도록 설정 하려면
 
-  - 페더레이션 파트너의 검색을 사용 하지 않도록 설정 하려면 Enable함 **검색** 속성 값을 False ($False)로 설정 합니다.
+  - 페더레이션 파트너의 검색을 사용 하지 않도록 설정 하려면 **Enable함 검색** 속성 값을 False ($False)로 설정 합니다.
     
         Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
 

@@ -8,6 +8,8 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
 description: '요약: 비즈니스용 Skype 서버를 계획 하는 동안 클라이언트 시스템 장치 요구 사항을 검토 합니다.'
-ms.openlocfilehash: 3e57646eb42ce3671ebe08ac6b6df9e6d179e367
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fb831bfa0ac83f65a4f6620fb5290dae9d480133
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187875"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803538"
 ---
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Windows Phone 용 비즈니스용 Skype의 시스템 요구 사항
  

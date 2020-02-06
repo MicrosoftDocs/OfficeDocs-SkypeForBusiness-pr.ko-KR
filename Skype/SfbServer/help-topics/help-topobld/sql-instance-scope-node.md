@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 이 노드에는이 Microsoft SQL Server의 FQDN (정규화 된 도메인 이름) 및 해당 서버의 SQL Server 인스턴스 및이 SQL Server를 사용 하는 풀 또는 서버가 표시 됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: c7ceecaa032d4cd6ad7032ee210a765f21f38212
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ab13624b6d018ee2d62d6dcbb1d2b092a83e1c8b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684361"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819220"
 ---
 # <a name="sql-instance-scope-node"></a>SQL 인스턴스 범위 노드
  

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: '요약: 비즈니스용 Skype 서버용 사용자의 전화 접속 회의 PIN을 잠그거나 잠금 해제 합니다.'
-ms.openlocfilehash: bbf082fd85780972387cf014573e22996a9edcf0
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: e9a5e59497a4cb771d0b20cef55b09b26817216d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992315"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818790"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자 PIN 잠금 또는 잠금 해제
  

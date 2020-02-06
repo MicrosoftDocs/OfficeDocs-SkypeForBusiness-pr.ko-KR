@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: '요약: 비즈니스용 Skype 서버에서 회의 정책을 관리 하는 방법에 대해 알아보세요.'
-ms.openlocfilehash: d835c4760ef3e77bc36f21e64cb80aeb618526ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fc069093b9cc7cf5ce0e1e1f1efc0ee9e18e335d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191271"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818649"
 ---
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 정책 관리
  

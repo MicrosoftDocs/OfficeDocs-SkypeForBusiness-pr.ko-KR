@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 외부 액세스 정책 페이지의 비즈니스용 Skype Server 제어판에 나열 된 모든 사이트 또는 사용자 정책을 삭제할 수 있습니다.
-ms.openlocfilehash: 615df309088a329e07f5417dce16e98366a371c7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2472058009622834e20a1657167c7061b9706579
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188814"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818289"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>외부 사용자 액세스에 대한 사이트 또는 사용자 정책 삭제
 

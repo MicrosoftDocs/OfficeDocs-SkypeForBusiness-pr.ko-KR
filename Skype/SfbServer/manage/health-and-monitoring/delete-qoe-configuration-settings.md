@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: '요약: 비즈니스용 Skype 서버에서 체감 품질 (환경 품질) 설정을 삭제 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 134ebe39f41ca051db4ff79eafb094dcc929b5e8
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 08c002b45db7e8dd9617f2314c49d3d43057d545
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992425"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818018"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 환경 품질 구성 설정 삭제
  

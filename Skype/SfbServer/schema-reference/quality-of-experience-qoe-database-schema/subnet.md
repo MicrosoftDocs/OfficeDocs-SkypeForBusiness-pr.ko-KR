@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
 description: 서브넷 테이블은 지원 테이블입니다. 각 레코드는 네트워크 구성 설정에 정의 된 하나의 서브넷을 나타냅니다.
-ms.openlocfilehash: 9f36c5e334e92caa8bf4a81a682b7737e8999b3c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 562684fdb4df9ac90216489c209754309885fa98
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196520"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41805206"
 ---
 # <a name="subnet-table"></a>Subnet 테이블
  

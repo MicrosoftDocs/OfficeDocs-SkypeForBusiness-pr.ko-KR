@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 원격 사용자가 비즈니스용 Skype Server 사용자와 공동 작업할 수 있는지 여부를 제어 하는 하나 이상의 외부 사용자 액세스 정책을 구성 합니다. 원격 사용자 액세스를 제어 하기 위해 전역, 사이트 및 사용자 수준에서 정책을 구성할 수 있습니다.
-ms.openlocfilehash: 96d91179e7b99910182ff360920f3d46b80aa6f4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7735f15e61654f55a70f18ca032cd6b1613fec58
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188844"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818299"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 원격 사용자 액세스를 제어 하도록 정책 구성
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: '요약: 비즈니스용 Skype 서버에서 사용 되는 통화 정보 보고서에 대해 알아봅니다.'
-ms.openlocfilehash: 8ced1a93f32f5f62ad33563e295ec456303232fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a700bf9969c921db2d36a816579ee36ff59cb3b3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191412"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818149"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 통화 세부 정보 보고서
  

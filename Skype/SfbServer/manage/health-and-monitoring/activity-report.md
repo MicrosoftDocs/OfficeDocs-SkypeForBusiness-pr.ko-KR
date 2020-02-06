@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: '요약: 비즈니스용 Skype 서버에서 사용 되는 회의 활동 보고서에 대해 알아보세요.'
-ms.openlocfilehash: 790a9d5076a371dda7c8862a74f253fdb8508296
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b9ea4112d144bff88ae72e5805d79f17e655d8f3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197476"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818179"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 컨퍼런스 활동 보고서
  
@@ -64,7 +66,7 @@ ms.locfileid: "36197476"
 
 |**이름**|**이 항목을 정렬할 수 있나요?**|**설명**|
 |:-----|:-----|:-----|
-|**수영장** <br/> |아니요  <br/> |회의에 사용 되는 등록자 풀 또는 Edge 서버의 이름입니다.  <br/> |
+|**풀** <br/> |아니요  <br/> |회의에 사용 되는 등록자 풀 또는 Edge 서버의 이름입니다.  <br/> |
 |**날짜/시간** <br/> |아니요  <br/> |회의가 보류 된 날짜 및 시간입니다.  <br/> |
 |**Total** <br/> |아니요  <br/> |총 참가자 수, 총 참가자 시간 또는 총 회의 수입니다.  <br/> |
    

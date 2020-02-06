@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 description: '요약: 레거시 클라이언트에 대 한 비즈니스용 Skype 서버 2015 지원의 모바일 서비스 (Mcx)에 대해 알아보세요.'
-ms.openlocfilehash: f519a04f878caf953c54873a6a704232245b344b
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 982e5842499e5cb2f6ff21ff884d1baa45075627
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992183"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817928"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>비즈니스용 Skype에서 IIS 요청 추적 로그 파일 모니터링
  

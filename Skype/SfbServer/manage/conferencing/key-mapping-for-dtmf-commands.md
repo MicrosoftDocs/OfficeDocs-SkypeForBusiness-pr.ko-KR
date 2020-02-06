@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: '요약: 비즈니스용 Skype 서버에서 DTMF 멀티 주파수) 명령의 키 매핑을 관리 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 3bab799bb116d0ded48002eb91898ffc1587543c
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: fdb9846da81c4029fa67df606fa021397a46b3ad
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991823"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818539"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 DTMF 명령에 대 한 키 매핑 관리
  

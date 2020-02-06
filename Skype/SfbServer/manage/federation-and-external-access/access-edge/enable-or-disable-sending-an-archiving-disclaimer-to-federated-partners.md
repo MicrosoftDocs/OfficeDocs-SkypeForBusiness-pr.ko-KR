@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: c2f64a617cae938ffe64ec8db313402785413c49
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 889716377f89e2657adcd6e32c9077b8124e20c1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188862"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818359"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 페더레이션 파트너에 게 보관 고 지 사항 전송 사용 또는 사용 안 함
 
@@ -38,7 +40,7 @@ Edge 서버를 배포 하 고 조직에 대해 페더레이션을 사용 하도�
 
 4.  **액세스 경계 구성** 탭에서 **전역**을 클릭 하 고 **편집**을 클릭 한 다음 **세부 정보 표시**를 클릭 합니다.
 
-5.  **액세스에 지 구성 편집**의 **페더레이션 사용자와 통신 사용**에서 페더레이션 **파트너에 게 보관 거부 보내기** 확인란을 선택 하거나 선택을 취소 하 여 자동으로 보관을 설정 하거나 해제 합니다. 고 지 사항.
+5.  **액세스에 지 구성 편집**의 **페더레이션 사용자와 통신 사용**에서 페더레이션 **파트너에 게 보관** 고 지 사항 보내기 확인란을 선택 하거나 선택을 취소 하 여 보관 거부를 자동으로 보내는 기능을 설정 하거나 해제 합니다.
 
 6.  **커밋**을 클릭합니다.
 

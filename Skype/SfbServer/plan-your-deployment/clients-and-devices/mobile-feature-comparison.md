@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: '요약: 비즈니스용 Skype 서버를 계획 하는 동안 모바일 클라이언트에 대 한 기능 지원을 검토 합니다.'
-ms.openlocfilehash: d3d3764ee5315b4fe211b4f79ea2401b98703261
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 85d193fba624a7895b975bb30bf6392e9fc8c563
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "36197820"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803548"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>비즈니스용 Skype에 대 한 모바일 클라이언트 기능 비교
  
@@ -44,7 +46,7 @@ ms.locfileid: "36197820"
     
 - 외부 사용자
     
-- 보관 및 준수
+- 보관 및 규정 준수
     
 -  최신 인증
     
@@ -62,7 +64,7 @@ ms.locfileid: "36197820"
 ## <a name="sign-in-push-notifications-and-general-features"></a>로그인, 푸시 알림 및 일반 기능
 
  
- | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | Io  | Android |
+ | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |비즈니스용 Skype 세션은 로그인 상태를 유지 합니다.  <br/> |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|
 |푸시 알림 지원  <br/> |&#x2714; &#x2778; |&#x2714;|&#x2714; &#x2779; |&#x2714; &#x2779; |
@@ -92,7 +94,7 @@ IOS 장치에서 비즈니스용 Skype는 모바일 클라이언트가 서버에
 ## <a name="enhanced-presence-support"></a>향상 된 현재 상태 지원
 
 
- | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | Io  | Android |
+ | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |상태 게시 및 보기  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |약속 있음/없음 일정 정보를 기준으로 상태 보기  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -107,7 +109,7 @@ IOS 장치에서 비즈니스용 Skype는 모바일 클라이언트가 서버에
 ## <a name="contacts-and-contact-groups-support"></a>연락처 및 연락처 그룹 지원
 
 
- | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | Io  | Android |
+ | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |대화 상대 목록 보기  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |대화 상대 그룹 보기  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -128,7 +130,7 @@ IOS 장치에서 비즈니스용 Skype는 모바일 클라이언트가 서버에
 ## <a name="instant-messaging-support"></a>인스턴트 메시지 지원
 
 
- | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | Io  | Android |
+ | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |대화 상대와 IM (인스턴트 메시징) 시작  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |단체 메신저 대화에 참여  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -146,7 +148,7 @@ IOS 장치에서 비즈니스용 Skype는 모바일 클라이언트가 서버에
 ## <a name="skype-for-business-to-skype-for-business-audio-and-video"></a>비즈니스용 skype for Business 오디오 및 비디오
 
 
- | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | Io  | Android |
+ | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |비즈니스용 skype for business 보이스 skype  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |비즈니스용 skype for business 영상 Skype 비디오  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -157,7 +159,7 @@ IOS 장치에서 비즈니스용 Skype는 모바일 클라이언트가 서버에
 ## <a name="conferencing-support"></a>회의 지원
 
 
- | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | Io  | Android |
+ | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |모임 미리 알림에서 링크를 클릭 하 여 비디오 또는 VoIP 모임에 참가  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |단체 메신저 대화에 참여  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -188,7 +190,7 @@ IOS 장치에서 비즈니스용 Skype는 모바일 클라이언트가 서버에
 ## <a name="telephony-support"></a>전화 통신 지원
 
 
- | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | Io  | Android |
+ | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |비즈니스용 Skype에서 통화 아이콘을 탭 하 여 대화 상대에 게 전화 걸기  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |통화 전송  <br/> |&#x2714;|&#x2714;|&#x2714;||
@@ -213,7 +215,7 @@ IOS 장치에서 비즈니스용 Skype는 모바일 클라이언트가 서버에
 ## <a name="external-user-support"></a>외부 사용자 지원
 
 
- | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | Io  | Android |
+ | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |공개 연락처로 IM 시작  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |페더레이션된 연락처로 메신저 시작  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -226,7 +228,7 @@ IOS 장치에서 비즈니스용 Skype는 모바일 클라이언트가 서버에
 ## <a name="address-book-integration"></a>주소록 통합
 
 
- | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | Io  | Android |
+ | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |전화 장치 주소록 연락처  <br/> ||&#x2714;|&#x2714;|&#x2714;|
 |장치 주소록에서 바로 연락처에 대 한 비즈니스용 Skype 통화 만들기  <br/> ||||&#x2714;|
@@ -234,7 +236,7 @@ IOS 장치에서 비즈니스용 Skype는 모바일 클라이언트가 서버에
 ## <a name="archiving-and-compliance-support"></a>보관 및 준수 지원
 
 
- | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | Io  | Android |
+ | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |클라이언트쪽 아카이빙 기능 제공  <br/> |&#x2714;||||
 |클라이언트측 기록 제공  <br/> |&#x2714; &#x2776; ||||
@@ -248,7 +250,7 @@ IOS 장치에서 비즈니스용 Skype는 모바일 클라이언트가 서버에
 또한 최신 인증은 [최신 인증으로 지원 되는 비즈니스용 Skype 토폴로지에](../../plan-your-deployment/modern-authentication/topologies-supported.md)설명 된 토폴로지가 필요 합니다.
   
 
- | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | Io  | Android |
+ | 기능/기능  | 비즈니스용 Skype 데스크톱 클라이언트  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |최신 인증  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |다단계 인증  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|

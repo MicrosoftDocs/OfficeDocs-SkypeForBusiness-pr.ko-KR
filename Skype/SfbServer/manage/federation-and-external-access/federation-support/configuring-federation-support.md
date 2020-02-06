@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Online 고객에 대 한 페더레이션 지원 구성
+title: 비즈니스용 Skype Online 고객을 위한 페더레이션 지원 구성
 ms.reviewer: ''
 ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: '조직에 비즈니스용 Skype를 배포 하는 경우 하나 이상의 비즈니스용 Skype Online 고객의 도메인과 페더레이션 할 수 있습니다. '
-ms.openlocfilehash: c6cf36abbbf8876a8aa349d4576b45220517b89e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f6b0cbb439910b97d6fcbb0fee78825b0aff9dce
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188793"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818259"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 비즈니스용 Skype Online 고객에 대 한 페더레이션 지원 구성 
 

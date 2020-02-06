@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 페더레이션에 대 한 지원은 파트너 도메인 및 사용자가 지 원하는 공개 인스턴트 메시징 (IM) 제공자 사용자를 포함 하 여 계정이 있는 사용자가 사용자와 공동 작업할 수 있도록 하기 위해 필요 합니다. 구성은.
-ms.openlocfilehash: 86cc3e66b2e3252b6b25ff4bef09d3abeb4badf0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2e24d670295a751c4cd3f41048fe1807b0fe1723
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188886"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818389"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 페더레이션 및 공용 메신저 연결 사용 또는 사용 안 함
 
@@ -26,7 +28,7 @@ ms.locfileid: "36188886"
 
 페더레이션 도메인 사용자가 액세스를 지원 하려면 페더레이션을 사용 하도록 설정 해야 합니다. 조직을 위해 페더레이션을 사용 하는 경우 다음 옵션을 구현할지 여부도 지정 해야 합니다.
 
-  - **파트너 도메인 검색**   사용이 옵션을 사용 하도록 설정 하면 비즈니스용 Skype 서버에서 DNS (domain Name System) 레코드를 사용 하 여 허용 된 도메인 목록에 없는 도메인을 검색 하 고 검색 된 들어오는 트래픽을 자동으로 평가 합니다. 페더레이션 파트너와 신뢰 수준, 트래픽 양, 관리자 설정에 따라 해당 트래픽을 제한 하거나 차단 합니다. 이 옵션을 선택 하지 않으면 허용 된 도메인 목록에 포함 된 도메인의 사용자만 페더레이션 사용자 액세스를 사용할 수 있습니다. 이 옵션을 선택 하는지 여부에 관계 없이 페더레이션 도메인에서 액세스 경계 서비스를 실행 하는 특정 서버에 대 한 액세스 제한을 포함 하 여 개별 도메인을 차단 또는 허용 하도록 지정할 수 있습니다. 페더레이션 도메인의 액세스를 제어 하는 방법에 대 한 자세한 내용은 [허용 되는 외부 도메인에 대 한 지원 구성을](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)참조 하세요.
+  - **파트너 도메인 검색**   사용이 옵션을 사용 하도록 설정 하면 비즈니스용 Skype 서버에서 DNS (domain Name System) 레코드를 사용 하 여 허용 된 도메인 목록에 없는 도메인을 검색 하 고 검색 된 페더레이션 파트너 로부터 들어오는 트래픽을 자동으로 평가 하며 신뢰 수준, 트래픽 양, 관리자 설정에 따라 해당 트래픽을 제한 하거나 차단 합니다. 이 옵션을 선택 하지 않으면 허용 된 도메인 목록에 포함 된 도메인의 사용자만 페더레이션 사용자 액세스를 사용할 수 있습니다. 이 옵션을 선택 하는지 여부에 관계 없이 페더레이션 도메인에서 액세스 경계 서비스를 실행 하는 특정 서버에 대 한 액세스 제한을 포함 하 여 개별 도메인을 차단 또는 허용 하도록 지정할 수 있습니다. 페더레이션 도메인의 액세스를 제어 하는 방법에 대 한 자세한 내용은 [허용 되는 외부 도메인에 대 한 지원 구성을](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)참조 하세요.
 
   - **페더레이션 파트너**     의 법적 고 지 사항 보내기 배포의 보관이 현재 위치에 있는 페더레이션 파트너로 전송 됩니다. 페더레이션 파트너 도메인과의 외부 통신 보관을 지 원하는 경우 보관 고 지 사항 알림을 사용 하 여 해당 메시지가 보관 되 고 있음을 파트너에 게 경고 해야 합니다.
 

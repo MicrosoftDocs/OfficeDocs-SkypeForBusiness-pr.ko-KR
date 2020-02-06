@@ -8,15 +8,17 @@ ms.date: 8/30/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 현재 비즈니스용 Skype Server 2015 배포에 대 한 파일 저장소 역할을 하는 파일 서버를 제거 해야 하거나 현재 파일 저장소를 사용할 수 없도록 하는 다른 변경 작업을 수행 해야 하는 경우에는 먼저 새 공유를 만들어야 합니다. 그런 다음 다음 단계를 수행 해야 합니다.
-ms.openlocfilehash: 3ac6def729cbbf41f74d9a9b19352190f2ff2f1b
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7334246f4de6a820339e3fff5f9c19cb86a74422
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988923"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819520"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 파일 저장소 데이터를 새 파일 저장소로 이동
 

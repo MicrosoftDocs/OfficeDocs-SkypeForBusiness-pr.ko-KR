@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: '요약: 비즈니스용 Skype 서버의 체감 품질 (환경 품질) 설정에 대해 알아보세요.'
-ms.openlocfilehash: 254e6f1032026f715c30017f984bc2906f46e0df
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 5366937f1faa01e6533b51677122713ee9e839fa
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992795"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818038"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 환경 품질 구성 설정 만들기
  

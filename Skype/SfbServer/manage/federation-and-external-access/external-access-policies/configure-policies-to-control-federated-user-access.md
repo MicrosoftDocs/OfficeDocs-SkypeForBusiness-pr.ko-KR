@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: '페더레이션 파트너와의 통신을 지원 하도록 정책을 구성 하는 경우 페더레이션 도메인의 사용자에 게 정책이 적용 됩니다. '
-ms.openlocfilehash: d9192589191590cd96f72323681ef4df6513e36d
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 2e9385436427fd73f90e308d7747cf304bf37501
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991763"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818319"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 페더레이션된 사용자 액세스를 제어 하도록 정책 구성
 

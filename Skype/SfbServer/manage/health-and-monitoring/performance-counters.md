@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: '요약: 통합 커뮤니케이션 웹 API (c) 및 비즈니스용 Skype Server Mcx Mobility Service를 실행 하는 서버를 모니터링 하는 데 사용할 수 있는 성능 카운터에 대해 알아봅니다.'
-ms.openlocfilehash: 91ca77b9719dc6b76ea9bb054856abf82bb3ebd4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e9a3ade40694ef18e1022388d48838822d409625
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188730"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817767"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 이동성 성능 카운터
  

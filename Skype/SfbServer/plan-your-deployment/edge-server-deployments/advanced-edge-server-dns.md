@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: '요약: 비즈니스용 Skype 서버 배포 옵션에 대 한 시나리오를 검토 합니다. 이 항목은 단일 서버를 사용 하거나 DNS 또는 HLB 서버 풀을 사용할 수 있도록 하는 데 도움이 될 것입니다.'
-ms.openlocfilehash: 497126188b830a61804bedb44c5e50eedec11dcb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 098d25a23745c035813cfc5c0ea6d291999c3704
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187824"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803388"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 고급 Edge Server DNS 계획
  
@@ -50,11 +52,11 @@ ms.locfileid: "36187824"
     
      *외부 웹 서비스의 자동 검색 서비스에 대 한 호스트 레코드입니다.* 
     
-3. _sipinternaltls._tcp. \<도메인\>
+3. _tcp _sipinternaltls. \<도메인\>
     
      *내부 TLS 연결에 대 한 SRV 레코드입니다.* 
     
-4. _sip. \<도메인\>
+4. _tls _sip. \<도메인\>
     
      *외부 TLS 연결에 대 한 SRV 레코드입니다.* 
     
@@ -135,17 +137,17 @@ ms.locfileid: "36187824"
   
 따라서 두 개의 SIP 도메인을 사용 하는 경우 다음과 같은 DNS SRV 레코드가 필요 합니다.
   
-- _sipinternaltls. _tcp. SRV 0 0 5061 pool01.contoso.com의 86400
+- _sipinternaltls _tcp. c a m. SRV 0 0 5061 pool01.contoso.com의 86400
     
      *사용자가 bob@contoso.com로 로그인 하는 경우이 레코드는 사용자의 SIP 도메인이 프런트 엔드 풀 (contoso.com)의 도메인과 일치 하므로 자동 구성에 사용할 수 있습니다.* 
     
-- _sipinternaltls. _tcp. SRV 0 0 5061 pool01.fabrikam.com의 86400
+- _sipinternaltls _tcp. c a m. SRV 0 0 5061 pool01.fabrikam.com의 86400
     
      *사용자가 alice@fabrikam.com로 로그인 하는 경우이 레코드는 SIP 도메인이 해당 도메인의 프런트 엔드 풀과 일치 하기 때문에 두 번째 도메인의 자동 구성에 대해 작동 합니다.* 
     
 이 예제를 더 자세히 살펴보려면 다음을 수행 하지 않습니다.
   
-- _sipinternaltls. _tcp. SRV 0 0 5061 pool01.fabrikam.com의 86400
+- litwareinc. _tcp. _sipinternaltls. SRV 0 0 5061 pool01.fabrikam.com의 86400
     
      *Tim@litwareinc.com로 로그인 하는 사용자는 해당 SIP 도메인 (litwareinc.com)이 풀 (fabrikam.com)의 도메인과 일치 하지 않기 때문에 자동 구성에는 적용 되지 않습니다.* 
     
@@ -162,7 +164,7 @@ ms.locfileid: "36187824"
     
     내부 DNS에 외부 DNS 영역과 일치 하는 영역 (예: contoso.com)을 만든 다음 자동으로 사용 되는 비즈니스용 Skype 서버 풀에 해당 하는 DNS A (및 IPv6 주소를 사용 하는 경우 AAAA)를 만들어야 합니다. 구성.
     
-    예를 들어 사용자가 pool01.contoso.net에 가입한 경우 비즈니스용 Skype에 bob@contoso.com으로 로그인 하 고, contoso.com 이라는 내부 DNS 영역을 만들고, 그 안에 DNS A (및 AAAA IPv6 주소 지정을 사용 하 고 있는 경우) 레코드를 만들어야 합니다. pool01.contoso.com.
+    예를 들어 pool01.contoso.net에 속한 사용자가 비즈니스용 Skype에 bob@contoso.com에 로그인 하는 경우 contoso.com 이라는 내부 DNS 영역을 만들고, 그 안에는 DNS A (및 IPv6 주소 지정을 사용 하는 경우)를 만들어야 pool01.contoso.com에 대 한 레코드를 기록해 야 합니다.
     
 - **핀 점 내부 영역**
     
@@ -203,7 +205,7 @@ ms.locfileid: "36187824"
 
 비즈니스용 Skype 서버 웹 트래픽을 재해 복구 (DR) 및 장애 조치 사이트로 리디렉션하도록 DNS를 구성 하려면 GeoDNS를 지 원하는 DNS 공급자를 사용 해야 합니다. 장애 복구를 지원 하도록 DNS 레코드를 설정 하 여 전체 프런트 엔드 풀 하나가 다운 되는 경우에도 웹 서비스를 사용 하는 기능이 계속 작동 하도록 할 수 있습니다. 이 DR 기능은 자동 검색, 모임 및 전화 접속 간단한 Url을 지원 합니다.
   
-GeoDNS 공급자에서 웹 서비스의 내부 및 외부 해상도에 대 한 추가 DNS 호스트 A (IPv6을 사용 하는 경우 AAAA) 레코드를 정의 하 고 구성 합니다. 다음은 쌍으로 분산 된 풀이 있는 것으로 간주 하 고, 공급자가 지 원하는 GeoDNS에 라운드 로빈 DNS가 **** 있거나, Pool1를 기본으로 사용 하도록 구성 되어 있고 통신 시 Pool2에 대해 장애 조치를 수행 하는 경우 **** 손실 또는 전원 장애.
+GeoDNS 공급자에서 웹 서비스의 내부 및 외부 해상도에 대 한 추가 DNS 호스트 A (IPv6을 사용 하는 경우 AAAA) 레코드를 정의 하 고 구성 합니다. 다음은 쌍으로 분산 된 풀이 있는 것으로 간주 하 고 **, 공급자가** 지 원하는 geodns에 라운드 **로빈 Dns가 있거나 Pool1** 를 기본으로 사용 하도록 구성 되어 있으며 통신 손실 또는 전원 장애가 발생 하는 경우에는 Pool2에 대 한 장애 조치를 수행할 수 있다는 것을 설명 합니다.
   
 이 테이블의 모든 DNS 레코드는 예제입니다.
   

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
 description: '요약: 다음 절차를 사용 하 여 비즈니스용 Skype 서버 보안 및 인증을 관리 합니다.'
-ms.openlocfilehash: 4aea396c4793195e9a2a7dd7505ef9b0b26b5b3e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 682f2c935ea25de3bd4cf4aded60d36430d65e55
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188199"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818850"
 ---
 # <a name="manage-authentication-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 인증 관리
  

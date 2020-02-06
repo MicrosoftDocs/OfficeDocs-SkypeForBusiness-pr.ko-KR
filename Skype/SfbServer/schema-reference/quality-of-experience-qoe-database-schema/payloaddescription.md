@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c49d61c0-305a-4770-a5d2-5d9f05decc6d
 description: PayloadDescription 테이블은 지원 테이블입니다. 각 레코드는 오디오 또는 비디오 세션에 사용 되는 하나의 코덱을 나타냅니다.
-ms.openlocfilehash: 41819c8329802b224bd3848334eddbc9de6935f2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3a5719d7fbfe23eb8c1457565a36df0a02617fde
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196545"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41807496"
 ---
 # <a name="payloaddescription-table"></a>PayloadDescription 테이블
  

@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: '요약: 비즈니스용 Skype 서버에서 Edge 서버 토폴로지를 계획 하는 데 도움이 되도록 이러한 시나리오를 검토 합니다.'
-ms.openlocfilehash: 64d38b5c9b4a32991bf87bd6ba8af87c92db115f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a1d721ffabb78985d90848784cd587bda96300d5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754168"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803358"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 Edge 서버 시나리오
  

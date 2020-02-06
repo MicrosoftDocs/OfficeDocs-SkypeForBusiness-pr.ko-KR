@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 description: '요약: 비즈니스용 Skype 서버의 모바일 서비스 (Mcx) 및 통합 커뮤니케이션 웹 API (c)에 대해 알아봅니다.'
-ms.openlocfilehash: 7b8340d90b5e1fa18c4dfaa7d61f986344ccbb33
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4d604c46704881a055385336f8b1ff32862d929a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188772"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817837"
 ---
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 성능에 대 한 이동성 모니터링
  

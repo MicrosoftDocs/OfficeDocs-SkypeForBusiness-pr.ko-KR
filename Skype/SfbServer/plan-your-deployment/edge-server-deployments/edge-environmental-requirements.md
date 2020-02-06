@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: '요약: 비즈니스용 Skype 서버에서 Edge 서버의 환경 요구 사항에 대해 알아보세요.'
-ms.openlocfilehash: 25584c10c8359cb4a3e695cee4838b80bc9643f5
-ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
+ms.openlocfilehash: 15cc6c54d420cd95962afb1faa219a3a370056a6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "36197865"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803378"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 Edge 서버 환경 요구 사항
  
@@ -81,9 +83,9 @@ NAT를 사용 하 여 라우팅할 수 없는 개인 IP 주소를 선택 하는 
 |:-----|:-----|:-----|:-----|:-----|
 |개인 IP 주소와 NAT를 사용 하는 단일 통합 된 가장자리  <br/> |아니요  <br/> |아니요  <br/> |아니요  <br/> |아니요  <br/> |
 |공용 IP 주소가 있는 통합 된 단일 Edge  <br/> |아니요  <br/> |아니요  <br/> |아니요  <br/> |아니요  <br/> |
-|개인 IP 주소 및 NAT를 사용 하 여 크기 조정 된 통합 된 가장자리 (DNS 부하 분산)  <br/> |'  <br/> |'  <br/> |'  <br/> |예&sup1  <br/> |
-|공용 IP 주소를 사용 하 여 크기 조정 된 통합 된 가장자리 (DNS 부하 분산)  <br/> |'  <br/> |'  <br/> |'  <br/> |예&sup1  <br/> |
-|하드웨어 부하 분산 장치를 사용 하 여 확장 된 통합 가장자리  <br/> |'  <br/> |없음 (VIP 당 하나의 DNS A 레코드)  <br/> |'  <br/> |'  <br/> |
+|개인 IP 주소 및 NAT를 사용 하 여 크기 조정 된 통합 된 가장자리 (DNS 부하 분산)  <br/> |예  <br/> |예  <br/> |예  <br/> |예&sup1  <br/> |
+|공용 IP 주소를 사용 하 여 크기 조정 된 통합 된 가장자리 (DNS 부하 분산)  <br/> |예  <br/> |예  <br/> |예  <br/> |예&sup1  <br/> |
+|하드웨어 부하 분산 장치를 사용 하 여 확장 된 통합 가장자리  <br/> |예  <br/> |없음 (VIP 당 하나의 DNS A 레코드)  <br/> |예  <br/> |예  <br/> |
    
 &sup1 DNS 부하 분산을 사용 하는 exchange UM (통합 메시징) 원격 사용자 장애 조치에는 Exchange 2013 이상 버전이 필요 합니다.
   
@@ -101,7 +103,7 @@ NAT를 사용 하 여 라우팅할 수 없는 개인 IP 주소를 선택 하는 
 |**풀 당 Edge 서버 수**|**DNS 부하 분산에 필요한 IP 주소 수**|**하드웨어 부하 분산에 필요한 IP 주소 수**|
 |:-----|:-----|:-----|
 |2  <br/> |26  <br/> |3 (VIP 당 1 개) + 6  <br/> |
-|3-4  <br/> |되었는지  <br/> |3 (VIP 당 1 개) + 9  <br/> |
+|3  <br/> |되었는지  <br/> |3 (VIP 당 1 개) + 9  <br/> |
 |4(tcp/ipv4)  <br/> |까지  <br/> |3 (VIP 당 1 개) + 12  <br/> |
 |5mb  <br/> |~  <br/> |3 (VIP 당 1) + 15  <br/> |
    
@@ -110,13 +112,13 @@ NAT를 사용 하 여 라우팅할 수 없는 개인 IP 주소를 선택 하는 
 |**풀 당 Edge 서버 수**|**DNS 부하 분산에 필요한 IP 주소 수**|**하드웨어 부하 분산에 필요한 IP 주소 수**|
 |:-----|:-----|:-----|
 |2  <br/> |2  <br/> |1 (VIP 당 1 개) + 2  <br/> |
-|3-4  <br/> |3-4  <br/> |1 (VIP 당 1 개) + 3  <br/> |
+|3  <br/> |3  <br/> |1 (VIP 당 1 개) + 3  <br/> |
 |4(tcp/ipv4)  <br/> |4(tcp/ipv4)  <br/> |1 (VIP 당 1 개) + 4  <br/> |
 |5mb  <br/> |5mb  <br/> |1 (VIP 당 1 개) + 5  <br/> |
    
 계획 하는 동안 고려해 야 할 몇 가지 추가 작업을 살펴보겠습니다.
   
-- **** 고가용성: 배포에 높은 가용성을 필요로 하는 경우 풀에 Edge 서버를 두 개 이상 배포 해야 합니다. 단일 Edge 풀이 최대 12 대의 서버를 지원 하기는 하지만 토폴로지 작성기를 사용 하면 테스트 하거나 지원 하지 않는 최대 20 개까지 지원할 수 있으므로이 작업을 수행 하지 않는다는 것을 권장 합니다. Edge 서버를 12 개 이상 필요로 하는 경우에는 추가 Edge 풀을 만들어야 합니다.
+- **고가용성: 배포**에 높은 가용성을 필요로 하는 경우 풀에 Edge 서버를 두 개 이상 배포 해야 합니다. 단일 Edge 풀이 최대 12 대의 서버를 지원 하기는 하지만 토폴로지 작성기를 사용 하면 테스트 하거나 지원 하지 않는 최대 20 개까지 지원할 수 있으므로이 작업을 수행 하지 않는다는 것을 권장 합니다. Edge 서버를 12 개 이상 필요로 하는 경우에는 추가 Edge 풀을 만들어야 합니다.
     
 - **하드웨어 로드 균형 조정**: 대부분의 시나리오에서 DNS 부하 분산을 권장 합니다. 물론 하드웨어 로드 균형 조정도 지원 되지만, 특히 DNS 부하 분산을 통한 단일 시나리오에 필요 합니다.
     
@@ -158,7 +160,7 @@ NAT를 사용 하 여 라우팅할 수 없는 개인 IP 주소를 선택 하는 
     
   - A/V Edge: 131.107.155.30 (보조)
     
-  웹 회의 및 A/V Edge 공용 IP 주소는 다음의 로컬 영역 연결 속성에 대 한 인터넷 프로토콜 버전 4 (TCP/IP) 및 인터넷 프로토콜 버전 6 (TCP/IP)의 고급 섹션에 있는 추가 (보조) IP 주소입니다. Windows Server.
+  웹 회의 및 A/V Edge 공용 IP 주소는 Windows Server의 로컬 영역 연결 속성에 대 한 인터넷 프로토콜 버전 4 (TCP/IP) 및 인터넷 프로토콜 버전 6 (TCP/IP)의 고급 섹션에 있는 추가 (보조) IP 주소입니다.
     
   - 개인 Ip:
     
@@ -168,7 +170,7 @@ NAT를 사용 하 여 라우팅할 수 없는 개인 IP 주소를 선택 하는 
     
   - A/V Edge: 10.45.16.30 (보조)
     
-웹 회의 및 A/V Edge 공용 IP 주소는 다음의 로컬 영역 연결 속성에 대 한 인터넷 프로토콜 버전 4 (TCP/IP) 및 인터넷 프로토콜 버전 6 (TCP/IP)의 고급 섹션에 있는 추가 (보조) IP 주소입니다. Windows Server.
+웹 회의 및 A/V Edge 공용 IP 주소는 Windows Server의 로컬 영역 연결 속성에 대 한 인터넷 프로토콜 버전 4 (TCP/IP) 및 인터넷 프로토콜 버전 6 (TCP/IP)의 고급 섹션에 있는 추가 (보조) IP 주소입니다.
   
 > [!TIP]
 >여기에는 다음과 같은 다양 한 구성이 있습니다.
@@ -182,8 +184,8 @@ NAT를 사용 하 여 라우팅할 수 없는 개인 IP 주소를 선택 하는 
 |외부 DNS  <br/> |A 레코드  <br/> |NA  <br/> |sip.contoso.com  <br/> |**공용:** 131.107.155.10 <br/> **비공개:** 10.45.16.10 <br/> |액세스에 지 서비스에 대 한 외부 인터페이스. 모든 SIP 도메인에 대해 비즈니스용 Skype 사용자를 위한 1 개가 필요 합니다.  <br/> |
 |외부 DNS  <br/> |A 레코드  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**공용:** 131.107.155.20 <br/> **비공개:** 10.45.16.20 <br/> |웹 회의에 지 서비스에 대 한 외부 인터페이스.  <br/> |
 |외부 DNS  <br/> |A 레코드  <br/> |NA  <br/> |av.contoso.com  <br/> |**공용:** 131.107.155.30 <br/> **비공개:** 10.45.16.30 <br/> |A/V Edge 서비스에 대 한 외부 인터페이스.  <br/> |
-|외부 DNS  <br/> |SRV 레코드  <br/> |443  <br/> |_l ().  <br/> |sip.contoso.com  <br/> |액세스에 지 서비스에 대 한 외부 인터페이스. 이 SRV 레코드는 비즈니스용 Skype 서버, Lync Server 2013 및 Lync Server 2010 클라이언트가 외부적으로 작업 하는 데 필요 합니다. 모든 도메인에 비즈니스용 Skype 사용자가 있는 경우 1 개가 필요 합니다.  <br/> |
-|외부 DNS  <br/> |SRV 레코드  <br/> |5061  <br/> |_sipfederationtls. _tcp  <br/> |sip.contoso.com  <br/> |액세스에 지 서비스에 대 한 외부 인터페이스. 이 SRV 레코드는 허용 된 SIP 도메인 이라고 불리는 페더레이션 파트너의 자동 DNS 검색에 필요 합니다. 모든 도메인에 비즈니스용 Skype 사용자가 있는 경우 1 개가 필요 합니다.  <br/> |
+|외부 DNS  <br/> |SRV 레코드  <br/> |443  <br/> |_sip _tls. m m .com  <br/> |sip.contoso.com  <br/> |액세스에 지 서비스에 대 한 외부 인터페이스. 이 SRV 레코드는 비즈니스용 Skype 서버, Lync Server 2013 및 Lync Server 2010 클라이언트가 외부적으로 작업 하는 데 필요 합니다. 모든 도메인에 비즈니스용 Skype 사용자가 있는 경우 1 개가 필요 합니다.  <br/> |
+|외부 DNS  <br/> |SRV 레코드  <br/> |5061  <br/> |_sipfederationtls _tcp. m m .com  <br/> |sip.contoso.com  <br/> |액세스에 지 서비스에 대 한 외부 인터페이스. 이 SRV 레코드는 허용 된 SIP 도메인 이라고 불리는 페더레이션 파트너의 자동 DNS 검색에 필요 합니다. 모든 도메인에 비즈니스용 Skype 사용자가 있는 경우 1 개가 필요 합니다.  <br/> |
 |내부 DNS  <br/> |A 레코드  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |통합 된 가장자리에 대 한 내부 인터페이스입니다.  <br/> |
    
 ### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>확장 된 DNS 및 하드웨어 Edge 서버 시나리오에 대 한 DNS 레코드
@@ -211,7 +213,7 @@ NAT를 사용 하 여 라우팅할 수 없는 개인 IP 주소를 선택 하는 
     
         - A/V Edge: 131.107.155.30 (보조)
     
-          웹 회의 및 A/V Edge 공용 IP 주소는 다음의 로컬 영역 연결 속성에 대 한 인터넷 프로토콜 버전 4 (TCP/IP) 및 인터넷 프로토콜 버전 6 (TCP/IP)의 고급 섹션에 있는 추가 (보조) IP 주소입니다. Windows Server.
+          웹 회의 및 A/V Edge 공용 IP 주소는 Windows Server의 로컬 영역 연결 속성에 대 한 인터넷 프로토콜 버전 4 (TCP/IP) 및 인터넷 프로토콜 버전 6 (TCP/IP)의 고급 섹션에 있는 추가 (보조) IP 주소입니다.
     
     - 개인 Ip:
     
@@ -221,7 +223,7 @@ NAT를 사용 하 여 라우팅할 수 없는 개인 IP 주소를 선택 하는 
     
          - A/V Edge: 10.45.16.30 (보조)
     
-      웹 회의 및 A/V Edge 공용 IP 주소는 다음의 로컬 영역 연결 속성에 대 한 인터넷 프로토콜 버전 4 (TCP/IP) 및 인터넷 프로토콜 버전 6 (TCP/IP)의 고급 섹션에 있는 추가 (보조) IP 주소입니다. Windows Server.
+      웹 회의 및 A/V Edge 공용 IP 주소는 Windows Server의 로컬 영역 연결 속성에 대 한 인터넷 프로토콜 버전 4 (TCP/IP) 및 인터넷 프로토콜 버전 6 (TCP/IP)의 고급 섹션에 있는 추가 (보조) IP 주소입니다.
     
   - 노드 2
     
@@ -233,7 +235,7 @@ NAT를 사용 하 여 라우팅할 수 없는 개인 IP 주소를 선택 하는 
     
       - A/V Edge: 131.107.155.31 (보조)
     
-      웹 회의 및 A/V Edge 공용 IP 주소는 다음의 로컬 영역 연결 속성에 대 한 인터넷 프로토콜 버전 4 (TCP/IP) 및 인터넷 프로토콜 버전 6 (TCP/IP)의 고급 섹션에 있는 추가 (보조) IP 주소입니다. Windows Server.
+      웹 회의 및 A/V Edge 공용 IP 주소는 Windows Server의 로컬 영역 연결 속성에 대 한 인터넷 프로토콜 버전 4 (TCP/IP) 및 인터넷 프로토콜 버전 6 (TCP/IP)의 고급 섹션에 있는 추가 (보조) IP 주소입니다.
     
   - 개인 Ip:
     
@@ -243,7 +245,7 @@ NAT를 사용 하 여 라우팅할 수 없는 개인 IP 주소를 선택 하는 
     
     - A/V Edge: 10.45.16.31 (보조)
     
-      웹 회의 및 A/V Edge 공용 IP 주소는 다음의 로컬 영역 연결 속성에 대 한 인터넷 프로토콜 버전 4 (TCP/IP) 및 인터넷 프로토콜 버전 6 (TCP/IP)의 고급 섹션에 있는 추가 (보조) IP 주소입니다. Windows Server.
+      웹 회의 및 A/V Edge 공용 IP 주소는 Windows Server의 로컬 영역 연결 속성에 대 한 인터넷 프로토콜 버전 4 (TCP/IP) 및 인터넷 프로토콜 버전 6 (TCP/IP)의 고급 섹션에 있는 추가 (보조) IP 주소입니다.
     
 여기에는 다음과 같은 다양 한 구성이 있습니다.
   
@@ -256,8 +258,8 @@ NAT를 사용 하 여 라우팅할 수 없는 개인 IP 주소를 선택 하는 
 |외부 DNS  <br/> |A 레코드  <br/> |NA  <br/> |sip.contoso.com  <br/> |**공개:** 131.107.155.10 및 131.107.155.11 <br/> **비공개:** 10.45.16.10 및 10.45.16.11 <br/> |액세스에 지 서비스에 대 한 외부 인터페이스. 모든 SIP 도메인에 대해 비즈니스용 Skype 사용자를 위한 1 개가 필요 합니다.  <br/> |
 |외부 DNS  <br/> |A 레코드  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**공개:** 131.107.155.20 및 131.107.155.21 <br/> **비공개:** 10.45.16.20 및 10.45.16.21 <br/> |웹 회의에 지 서비스에 대 한 외부 인터페이스.  <br/> |
 |외부 DNS  <br/> |A 레코드  <br/> |NA  <br/> |av.contoso.com  <br/> |**공개:** 131.107.155.30 및 131.107.155.31 <br/> **비공개:** 10.45.16.30 및 10.45.16.31 <br/> |A/V Edge 서비스에 대 한 외부 인터페이스.  <br/> |
-|외부 DNS  <br/> |SRV 레코드  <br/> |443  <br/> |_l ().  <br/> |sip.contoso.com  <br/> |액세스에 지 서비스에 대 한 외부 인터페이스. 이 SRV 레코드는 비즈니스용 Skype 서버, Lync Server 2013 및 Lync Server 2010 클라이언트가 외부적으로 작업 하는 데 필요 합니다. 비즈니스용 Skype를 사용 하는 모든 도메인에 대해 1 개가 필요 합니다.  <br/> |
-|외부 DNS  <br/> |SRV 레코드  <br/> |5061  <br/> |_sipfederationtls. _tcp  <br/> |sip.contoso.com  <br/> |액세스에 지 서비스에 대 한 외부 인터페이스. 이 SRV 레코드는 허용 된 SIP 도메인 이라고 불리는 페더레이션 파트너의 자동 DNS 검색에 필요 합니다. 비즈니스용 Skype를 사용 하는 모든 도메인에 대해 1 개가 필요 합니다.  <br/> |
+|외부 DNS  <br/> |SRV 레코드  <br/> |443  <br/> |_sip _tls. m m .com  <br/> |sip.contoso.com  <br/> |액세스에 지 서비스에 대 한 외부 인터페이스. 이 SRV 레코드는 비즈니스용 Skype 서버, Lync Server 2013 및 Lync Server 2010 클라이언트가 외부적으로 작업 하는 데 필요 합니다. 비즈니스용 Skype를 사용 하는 모든 도메인에 대해 1 개가 필요 합니다.  <br/> |
+|외부 DNS  <br/> |SRV 레코드  <br/> |5061  <br/> |_sipfederationtls _tcp. m m .com  <br/> |sip.contoso.com  <br/> |액세스에 지 서비스에 대 한 외부 인터페이스. 이 SRV 레코드는 허용 된 SIP 도메인 이라고 불리는 페더레이션 파트너의 자동 DNS 검색에 필요 합니다. 비즈니스용 Skype를 사용 하는 모든 도메인에 대해 1 개가 필요 합니다.  <br/> |
 |내부 DNS  <br/> |A 레코드  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10 및 172.25.33.11  <br/> |통합 된 가장자리에 대 한 내부 인터페이스입니다.  <br/> |
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>페더레이션에 대 한 DNS 레코드 (모든 시나리오)
@@ -270,7 +272,7 @@ NAT를 사용 하 여 라우팅할 수 없는 개인 IP 주소를 선택 하는 
 
 |**위치**|**유형**|**포트**|**Q**|**IP 주소 또는 FQDN 호스트 레코드**|**상속자**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|외부 DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server. _tcp  <br/> |xmpp.contoso.com  <br/> |액세스에 지 서비스 또는 Edge 풀의 XMPP 프록시 인터페이스입니다. 이 작업은 비즈니스용 Skype Server를 사용 하는 모든 내부 SIP 도메인에 대해 필요에 따라, XMPP 연락처와의 연락처가 허용 되는 사용자를 위해 반복 해야 합니다.  <br/> • 글로벌 정책  <br/> • 사용자가 사용 하도록 설정 된 사이트 정책  <br/> • 비즈니스용 Skype 서버 사용 가능 사용자에 게 적용 되는 사용자 정책  <br/> 허용 된 XMPP 정책은 XMPP 페더레이션 사용자 정책 에서도 구성 해야 합니다.  <br/> |
+|외부 DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-서버 _tcp. c a m.  <br/> |xmpp.contoso.com  <br/> |액세스에 지 서비스 또는 Edge 풀의 XMPP 프록시 인터페이스입니다. 이 작업은 비즈니스용 Skype Server를 사용 하는 모든 내부 SIP 도메인에 대해 필요에 따라, XMPP 연락처와의 연락처가 허용 되는 사용자를 위해 반복 해야 합니다.  <br/> • 글로벌 정책  <br/> • 사용자가 사용 하도록 설정 된 사이트 정책  <br/> • 비즈니스용 Skype 서버 사용 가능 사용자에 게 적용 되는 사용자 정책  <br/> 허용 된 XMPP 정책은 XMPP 페더레이션 사용자 정책 에서도 구성 해야 합니다.  <br/> |
 |외부 DNS  <br/> |SRV  <br/> |에서  <br/> |xmpp.contoso.com  <br/> |XMPP 프록시 서비스를 호스트 하는 Edge 서버 또는 Edge 풀에 있는 액세스에 지 서비스의 IP 주소  <br/> |이는 XMPP 프록시 서비스를 호스트 하는 Edge 서버나 Edge 풀의 액세스에 지 서비스를 가리킵니다. 일반적으로 사용자가 만드는 SRV 레코드는이 호스트 (A 또는 AAAA) 레코드를 가리킵니다.  <br/> |
    
 > [!NOTE]

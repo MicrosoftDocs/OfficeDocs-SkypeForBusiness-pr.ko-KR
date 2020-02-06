@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: VideoStreamDetail 보기에는 데이터베이스의 각 비디오 스트림에 대 한 정보가 저장 됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입 되었습니다.
-ms.openlocfilehash: ee342de919ffca8b62c60f8c7b724f3dc7be0205
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3fb598feec3b4dca87086504c620109a99bce7d0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196500"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41804148"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail 보기
  

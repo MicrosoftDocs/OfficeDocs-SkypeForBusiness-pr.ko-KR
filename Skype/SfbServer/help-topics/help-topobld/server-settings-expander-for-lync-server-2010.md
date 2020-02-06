@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.MachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
 description: 이 컴퓨터의 속성을 편집 하려면 다음을 수행 합니다.
-ms.openlocfilehash: da1029b6298d85aab8a80af1c52b152e040fbd80
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0f8a1a31c593c792ff4872d0e104c6aadabcd819
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684411"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819300"
 ---
 # <a name="server-settings-expander-for-lync-server-2010"></a>Lync Server 2010용 서버 설정 확장기
  

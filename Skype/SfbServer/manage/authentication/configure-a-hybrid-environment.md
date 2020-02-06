@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: '요약: 비즈니스용 Skype 서버 하이브리드 환경에 대 한 서버 대 서버 인증을 구성 합니다.'
-ms.openlocfilehash: 5d56f098589355b85f942a6b1eb80d8ab6c03225
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: ed82e72c04d6fca0702a37819778d880b45ef617
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992355"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818840"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>비즈니스용 Skype 서버 하이브리드 환경에 대 한 서버 대 서버 인증을 구성 합니다.
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: '요약: 비즈니스용 Skype 서버에서 사용 되는 회의 세부 정보 보고서에 대해 알아보세요.'
-ms.openlocfilehash: 17337624c955dfa174f7b98772fdd836e82891d0
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 73ca72bbfb7b003aaaa894a5bc9e417312d96caa
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271401"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818008"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 컨퍼런스 세부 정보 보고서
 
@@ -48,7 +50,7 @@ ms.locfileid: "36271401"
 
 | **이름**                 | **설명**                                                                                                            |
 |:-------------------------|:---------------------------------------------------------------------------------------------------------------------------|
-| **컨퍼런스 URI** <br/> | 회의에 할당 된 URI입니다. 예를 들면 다음과 같습니다.  <br/> sip: kmyer@litwareinc.com, gruu, 불투명 = app: 회의: 포커스: id: drg2y8v4  <br/> |
+| **컨퍼런스 URI** <br/> | 회의에 할당 된 URI입니다. 예를 들면 다음과 같습니다.  <br/> sip: kmyer@litwareinc gruu, 불투명 = 앱: 회의: 포커스: id: drg2y8v4  <br/> |
 | **풀 FQDN** <br/>      | 세션에 포함 된 레지스트라 풀 또는 Edge 서버의 정규화 된 도메인 이름입니다.  <br/>                             |
 | **시작 시간** <br/>     | 회의가 시작 된 날짜 및 시간입니다.  <br/>                                                                          |
 | **구성 도우미** <br/>      | 회의를 구성한 사용자의 SIP 주소입니다.  <br/>                                                               |
@@ -60,7 +62,7 @@ ms.locfileid: "36271401"
 
 |**이름**|**설명**|
 |:-----|:-----|
-|**클릭할** <br/> |회의에 참가 한 사용자의 SIP 주소입니다.  <br/> |
+|**사용자** <br/> |회의에 참가 한 사용자의 SIP 주소입니다.  <br/> |
 |**역할인** <br/> |회의 참가자가 재생 한 역할 (예: 발표자)입니다.  <br/> |
 |**연결성** <br/> |참가자의 네트워크 연결 (일반적으로 내부 또는 외부에서)  <br/> |
 |**참가 시간** <br/> |참가자가 회의에 참가 한 날짜 및 시간입니다.  <br/> |
@@ -74,7 +76,7 @@ ms.locfileid: "36271401"
 
 |**이름**|**설명**|
 |:-----|:-----|
-|**클릭할** <br/> |회의에 참가 한 사용자의 SIP 주소입니다.  <br/> |
+|**사용자** <br/> |회의에 참가 한 사용자의 SIP 주소입니다.  <br/> |
 |**참가 시간** <br/> |참가자가 회의에 참가 한 날짜 및 시간입니다.  <br/> |
 |**휴가 시간** <br/> |참가자가 회의를 남겨진 날짜 및 시간입니다.  <br/> |
 |**회의 서버 URI** <br/> |회의에 사용 되는 회의 서버의 URI입니다.  <br/> |

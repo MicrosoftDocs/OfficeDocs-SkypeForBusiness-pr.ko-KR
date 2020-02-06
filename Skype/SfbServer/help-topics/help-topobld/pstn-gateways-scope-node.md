@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.PstnGatewaysScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 description: PSTN 게이트웨이 노드에는 토폴로지의 공중 전화망(PSTN) 게이트웨이가 나열됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: d657ededf035672785683561bff872eb88bf222f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2a95efef9a9e9809b026efca79f13900af7ae7ba
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696793"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819410"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN 게이트웨이 범위 노드
  

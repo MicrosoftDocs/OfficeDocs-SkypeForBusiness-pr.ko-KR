@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 description: '요약: 비즈니스용 Skype 서버의 P2P 요약 하위 보고서에 대해 알아보세요.'
-ms.openlocfilehash: 5238e910896a6af956285235d7e1234fe17fe005
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 31e17aaff8d449c49a7c51d3dba484e7fab48d55
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188754"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817797"
 ---
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 P2P 요약 하위 보고서
  
@@ -33,7 +35,7 @@ P2P 요약 하위 보고서는 실패 한 피어 투 피어 통신 세션에 대
 |:-----|:-----|
 |**보낸 사람** <br/> |시간 범위에 대 한 시작 날짜 및 시간입니다. 시간별로 데이터를 보려면 시작 날짜와 시간을 모두 다음과 같이 입력 합니다.  <br/> 오후 7/7/2015 1:00  <br/> 시작 시간을 입력 하지 않으면 지정한 날짜에 오전 12:00부터 보고서가 자동으로 시작 됩니다. 날짜별로 데이터를 보려면 날짜만 입력 합니다.  <br/> 7/7/2015  <br/> 주별 또는 월별로 보려면 보려는 주 또는 월의 어디에 나 날짜를 입력 합니다 (주 또는 월의 첫 번째 요일을 입력할 필요는 없음).  <br/> 7/3/2015  <br/> 주는 항상 일요일 ~ 토요일을 실행 합니다.  <br/> |
 |**받는 사람** <br/> |시간 범위의 종료 날짜 및 시간입니다. 시간별로 데이터를 보려면 다음과 같이 종료 날짜와 시간을 모두 입력 합니다.  <br/> 오후 7/7/2015 1:00  <br/> 종료 시간을 입력 하지 않으면 지정한 날짜에 12:00 오전에 보고서가 자동으로 종료 됩니다. 날짜별로 데이터를 보려면 날짜만 입력 합니다.  <br/> 7/7/2015  <br/> 주별 또는 월별로 보려면 보려는 주 또는 월의 어디에 나 날짜를 입력 합니다 (주 또는 월의 첫 번째 요일을 입력할 필요는 없음).  <br/> 7/3/2015  <br/> 주는 항상 일요일 ~ 토요일을 실행 합니다.  <br/> |
-|**수영장** <br/> |등록자 풀 또는 Edge 서버의 FQDN (정규화 된 도메인 이름)입니다. 개별 풀을 선택 하거나 **[모두]** 를 클릭 하 여 모든 풀에 대 한 데이터를 볼 수 있습니다. 이 드롭다운 목록은 데이터베이스의 레코드에 따라 자동으로 채워집니다. <br/> |
+|**풀** <br/> |등록자 풀 또는 Edge 서버의 FQDN (정규화 된 도메인 이름)입니다. 개별 풀을 선택 하거나 **[모두]** 를 클릭 하 여 모든 풀에 대 한 데이터를 볼 수 있습니다. 이 드롭다운 목록은 데이터베이스의 레코드에 따라 자동으로 채워집니다. <br/> |
    
 ## <a name="metrics"></a>매트릭스
 

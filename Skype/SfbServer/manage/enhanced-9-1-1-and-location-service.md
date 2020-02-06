@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 비즈니스용 skype 서버는 Skype for Business 클라이언트에서 향상 된 9-1-1 (E9-1) 통화를 지원 합니다. E9에서 비즈니스용 Skype 서버를 구성 하는 경우 비즈니스용 Skype에서 제공 하는 비상 전화에는 위치 정보 서비스 데이터베이스의 ERL (비상 응답 위치) 정보가 포함 됩니다.
-ms.openlocfilehash: a0cf7254e12f00a01082b7aad71ce350cb382b9c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: de02c4a9a3210220e368d87d4ae8e21a80f3dbac
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188910"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818429"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>명함 서버용 Skype의 향상 된 9-1-1 및 위치 서비스 관리
 
@@ -91,7 +93,7 @@ ms.locfileid: "36188910"
         > 지정 된 다이얼 마스크 값이 통화 공원 범위에 있는 숫자와 같지 않은지 확인 합니다. 통화 대기 라우팅에 따라 긴급 다이얼 문자열 변환이 우선권을 갖습니다. 기존 통화 공원 궤도 범위를 보려면 왼쪽 탐색 모음에서 **음성 기능** 을 클릭 한 다음 **통화**대기를 클릭 합니다. 
 
     
-      - ****   긴급 통화가 이루어질 때 알림을 받을 하나 이상의 SIP uri (Uniform resource identifier)입니다. 예를 들어, 긴급 통화가 발생할 때마다 회사 보안 office에 인스턴트 메시지를 보낼 수 있습니다. 호출자의 위치를 사용할 수 있는 경우 해당 위치가 알림에 포함 됩니다. 여러 SIP Uri를 쉼표로 구분 된 목록으로 포함할 수 있습니다. 예를 들어 "sip: security@litwareinc.com", "sip: kmyer@litwareinc.com". 메일 그룹이 지원 됩니다. 문자열의 길이는 1 ~ 256 자 여야 하며 "sip:" 접두사로 시작 해야 합니다. 알림 URI 필드를 클릭 하기 전에 예제가 표시 됩니다.
+      - ****   긴급 통화가 이루어질 때 알림을 받을 하나 이상의 SIP uri (Uniform resource identifier)입니다. 예를 들어, 긴급 통화가 발생할 때마다 회사 보안 office에 인스턴트 메시지를 보낼 수 있습니다. 호출자의 위치를 사용할 수 있는 경우 해당 위치가 알림에 포함 됩니다. 여러 SIP Uri를 쉼표로 구분 된 목록으로 포함할 수 있습니다. 예를 들어 "sip: security@litwareinc .com", "sip: kmyer@litwareinc .com"이 있습니다. 메일 그룹이 지원 됩니다. 문자열의 길이는 1 ~ 256 자 여야 하며 "sip:" 접두사로 시작 해야 합니다. 알림 URI 필드를 클릭 하기 전에 예제가 표시 됩니다.
     
       - **전화 회의 uri**   SIP uri (이 경우에는 비상 통화를 conferenced는 타사의 전화 번호) 예를 들어 회사 보안 office에서 긴급 통화를 할 때 전화를 걸거나 해당 통화에 참가할 수 있습니다 ( **컨퍼런스 모드** 필드에 제공 되는 값에 따라 다름). 문자열의 길이는 1 ~ 256 자 여야 하며 sip: 라는 접두사로 시작 해야 합니다. 이 필드의 내부를 클릭할 때까지 예가 표시 됩니다.
     

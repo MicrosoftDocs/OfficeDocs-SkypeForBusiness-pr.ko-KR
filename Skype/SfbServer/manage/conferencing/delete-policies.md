@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: '요약: 비즈니스용 Skype 서버에서 회의 정책을 삭제 하는 방법에 대해 알아보세요.'
-ms.openlocfilehash: 7cf195e53ec159a8999561c0ddb8461ee1bf0ba6
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 3fe5b8c2bb12f48cb6e904df2fe43c6c8a01e3f6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991873"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818599"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 회의 정책 삭제
  

@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
 description: SessionCorrelation 관계 테이블은 지원 테이블입니다. 각 레코드는 여러 세션을 연결 하는 데 사용 되는 CorrelationID 하나를 나타냅니다.
-ms.openlocfilehash: 3c307b9542b9c1f37967a40ae63979d72e0504ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cd9f477ad71b836fb204aab651aceb7bbb5832f8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196522"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41805746"
 ---
 # <a name="sessioncorrelation-table"></a>SessionCorrelation 테이블
  

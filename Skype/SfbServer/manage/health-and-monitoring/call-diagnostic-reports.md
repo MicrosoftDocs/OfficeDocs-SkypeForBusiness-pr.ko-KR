@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 description: '요약: 비즈니스용 Skype 서버에서 사용 되는 다중 사용자 통화 진단 보고서에 대해 알아봅니다.'
-ms.openlocfilehash: bd7205afcc6bb37f336b52a6f33c6f2265d151bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dc27972836ec78b20276e91ce8bb35d17a95842f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191409"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818129"
 ---
 # <a name="call-diagnostic-reports-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 진단 보고서로 전화 걸기
  

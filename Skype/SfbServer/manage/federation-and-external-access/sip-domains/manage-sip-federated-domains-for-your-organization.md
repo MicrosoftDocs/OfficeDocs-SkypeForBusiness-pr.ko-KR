@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 페더레이션 할 수 있는 SIP 도메인을 관리 하 고 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1a2f76f7f465401bae04b4defa2e0a1f5300ab0f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: af014c6c24d3655612846e97cfa7ff5c7b9c816b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197489"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818239"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 조직의 SIP 페더레이션 도메인 관리
 
@@ -91,10 +93,10 @@ ms.locfileid: "36197489"
 
 ## <a name="see-also"></a>참고 항목
 
-[페더레이션 사용자 액세스를 제어 하도록 정책 구성](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
+[페더레이션 사용자 액세스를 컨트롤하는 정책 구성](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
 
-[페더레이션 및 공용 메신저 연결 사용 또는 사용 안 함](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
+[페더레이션 및 공개 IM 연결을 사용하도록 설정 또는 해제](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
-[페더레이션 파트너 검색 사용 또는 사용 안 함](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
+[페더레이션 파트너 검색을 사용하도록 설정 또는 해제](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
   
 

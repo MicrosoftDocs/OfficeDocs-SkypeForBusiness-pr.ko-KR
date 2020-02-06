@@ -8,18 +8,20 @@ ms.date: 1/9/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: 이 항목에서는 원격 가상 데스크톱에 연결 하는 동안 비즈니스용 Skype를 사용 하기 위한 계획 고려 사항에 대해 설명 합니다.
-ms.openlocfilehash: c6bf1cea2a18920231ea4d347b8b0471cfebbba3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: d2d65167eb574d17e31c19759364841147af6c05
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36197839"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803508"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>VDI 환경에서 비즈니스용 Skype에 대 한 계획
  

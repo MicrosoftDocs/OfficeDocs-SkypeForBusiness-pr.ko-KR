@@ -8,18 +8,20 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: '요약: 비즈니스용 Skype 서버를 계획 하는 동안 클라이언트 영상 요구 사항을 검토 합니다.'
-ms.openlocfilehash: 15fd424f7ad2e11d473e49e271c7fbf1db83b45c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f51e9369cfba636ae37205a6e56e27c7622f12e6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187869"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803498"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>비즈니스용 Skype 클라이언트 비디오 해상도
  
@@ -37,9 +39,9 @@ IT 전문가는 조직에서 이미 사용 중이거나 사용 고려 사항에�
   
 ### <a name="video-hardware-requirements"></a>비디오 하드웨어 요구 사항
 
-|**요소**|**요구 사항**|
+|**기능**|**요구 사항**|
 |:-----|:-----|
-|DirectX 비디오 가속 (DXVA)을 사용 하는 하드웨어 가속 H/264 디코딩  <br/> |• 그래픽 카드는 DirectX 9.0를 지원 해야 하며, DXVA2_ModeH264_VLD_NoFGT 디코딩 모드와 DirectX 9 API를 노출 해야 합니다.  <br/> • 최신 그래픽 카드 드라이버를 설치 해야 합니다.  <br/> |
+|DirectX 비디오 가속 (DXVA)을 사용 하는 하드웨어 가속 H/264 디코딩  <br/> |• 그래픽 카드는 DirectX 9.0를 지원 해야 하며 DXVA2_ModeH264_VLD_NoFGT 디코딩 모드와 DirectX 9 API를 노출 해야 합니다.  <br/> • 최신 그래픽 카드 드라이버를 설치 해야 합니다.  <br/> |
 |하드웨어 가속 H. 264 인코딩: 칩셋 요구 사항  <br/> |다음과 같은 Intel 하드웨어 가속 비디오 인코딩 솔루션이 지원 됩니다.  <br/> • 2 번째 및 3 세대 Intel HD 그래픽 2000, 2500, 3000, 4000 칩셋 (또는 이후 버전)이 통합 하드웨어 비디오 인코더를 사용 합니다. Intel HD 그래픽 드라이버 15.28.9.2884 설치 또는 다음을 포함 하는 최신 드라이버가 필요 합니다.  <br/> • 디스플레이 드라이버 9.17.10.2884 또는 최신 드라이버  <br/> • HMFT (하드웨어 media foundation transform) 버전 3.12.10.31 또는 최신 HMFT  <br/> 다음 AMD 하드웨어 가속 비디오 인코딩 솔루션이 지원 됩니다.  <br/> • Amd 시리즈 가속 프로세서의 통합 된 가속 처리 장치 및 여러 개의 개별 그래픽 카드에서 사용할 수 있는 AMD 비디오 코덱 엔진. AMD 비디오 코덱 엔진 드라이버 9.12.0.0 이상을 설치 해야 합니다.  <br/> |
 |하드웨어 가속 H. 264 인코딩: 카메라 요구 사항  <br/> |UVC (USB Video Class) 사양 버전 1.5을 준수 하는 통합 된 H-264 하드웨어 인코더가 USB 비디오 카메라  <br/> **참고:** 비즈니스용 Skype는 Windows 8 또는 Windows 8.1에서 UVC 1.5에 대 한 지원을 포함 하는 UVC 1.5 카메라를 지원 합니다. Windows 7에는 UVC 1.5에 대 한 지원이 포함 되어 있지 않기 때문에 비즈니스용 Skype는 UVC 1.5 카메라를 하드웨어 인코딩 지원이 없는 일반 카메라로 취급 합니다. <br/> |
    
@@ -99,7 +101,7 @@ Windows 시스템 평가 도구 (WinSAT)는 WEI를 결정 합니다. WinSAT 도�
 
 다음 표에서는 지원 되는 모바일 장치에서 사용할 수 있는 최대 비디오 해상도에 대해 설명 합니다. 모바일 장치 지원에 대 한 자세한 내용은 [비즈니스용 Skype에 대 한 모바일 클라이언트 기능 비교](mobile-feature-comparison.md)를 추가 하세요.
   
-|**요소**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
+|**기능**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |H-264 인코딩 최대 해상도  <br/> |비디오  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S 이상  <br/> |VGA: iPad 2 이상/이후/iPad 미니 1 이상  <br/> 720p: iPad Air/iPad 미니 2/iPad 이상  <br/> |장치 모델에 따라 최대 VGA까지  <br/> |
 |H. 264 디코딩 최대 해상도  <br/> |비디오  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S 이상  <br/> |VGA: iPad 2 이상/이후/iPad 미니 1 이상  <br/> 720p: iPad Air/iPad 미니 2/iPad 이상  <br/> |장치 모델에 따라 최대 VGA까지  <br/> |

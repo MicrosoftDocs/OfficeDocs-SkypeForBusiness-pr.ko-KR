@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: '요약: 비즈니스용 Skype 서버에서 2 단계 인증을 관리 합니다.'
-ms.openlocfilehash: ccda6795fa5033c792c293701d951e3111666e82
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90dc286e247c0c6eeb75bb884071b85e57663278
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196903"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818720"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 2 단계 인증 관리
  
@@ -53,7 +55,7 @@ Lync Server 2013의 누적 업데이트: 7 월 2013 데스크톱 클라이언트
 
 Microsoft Exchange에 대해 2 단계 인증을 배포한 고객은 클라이언트의 특정 기능을 사용할 수 없는 경우가 있습니다. 이는 비즈니스용 Skype 클라이언트가 Exchange 통합에 의존 하는 기능에 대 한 2 단계 인증을 지원 하지 않기 때문에 현재 의도적으로 설계 된 것입니다.
   
-## <a name="contacts"></a>상대가
+## <a name="contacts"></a>연락처
 
 통합 된 대화 상대 저장소 기능을 활용 하도록 구성 된 비즈니스용 Skype 사용자는 2 단계 인증을 사용 하 여 로그인 한 후 해당 대화 상대를 더 이상 사용할 수 없다는 것을 알게 됩니다.
   
@@ -69,7 +71,7 @@ Microsoft Exchange에 대해 2 단계 인증을 배포한 고객은 클라이언
   
 ### <a name="deleting-saved-credentials"></a>저장 된 자격 증명 삭제
 
-2 단계를 사용 하 여 처음으로 로그인 하기 전에 비즈니스용 Skype 클라이언트에서 **내 로그인 정보 삭제** 옵션을 사용 하 고 비즈니스용%localappdata%\Microsoft\Office\15.0\Skype에서 해당 SIP 프로필 폴더를 삭제 해야 합니다. 인증서.
+2 단계 인증을 사용 하 여 처음으로 로그인 하기 전에 비즈니스용 Skype 클라이언트에서 **내 로그인 정보 삭제** 옵션을 사용 하 고 비즈니스용%localappdata%\Microsoft\Office\15.0\Skype에서 해당 SIP 프로필 폴더를 삭제 해야 합니다.
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 

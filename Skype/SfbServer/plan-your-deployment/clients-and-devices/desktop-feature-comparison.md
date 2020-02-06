@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '요약: 비즈니스용 Skype Server 2015 또는 비즈니스용 Skype Online 관리자는 이러한 표를 사용 하 여 어떤 클라이언트가 어떤 기능을 지원 하는지 이해할 수 있습니다.'
-ms.openlocfilehash: a1df39ed3a426c7e01e753222526b0f18f260f19
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b2a5bd1f0544713501bfce2fc0dffc9776ec64e2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187887"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803678"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015 데스크톱 클라이언트 기능 비교
 
@@ -49,7 +51,7 @@ ms.locfileid: "36187887"
 
 이 표에는 사용자가 온라인, 오프 라인, 다른 용무 중 어느 것이 든 지 간단한 표시를 넘어서는 확장 된 현재 상태 기능이 설명 되어 있습니다.
   
-|기능/기능|비즈니스용 Skype 2015 또는 2016 클라이언트|Mac의 비즈니스용 Skype|Lync 2013 클라이언트|Lync Windows 스토어 앱|Lync 2010 | Lync 2010 수행자|Lync Phone Edition|Mac 용 Communicator 2011|Mac 용 Lync 2011|
+|기능/기능|비즈니스용 Skype 2015 또는 2016 클라이언트|Mac의 비즈니스용 Skype|Lync 2013 클라이언트|Lync Windows 스토어 앱|Lync 2010 | Lync 2010 수행자|Lync Phone Edition|Mac 용 Communicator 2011|Mac용 Lync 2011|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |게시 상태 |&#x2714;|&#x2714; &#x2776; |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714; &#x2776; |&#x2714;|&#x2714;|
 |상태 보기   |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -66,7 +68,7 @@ ms.locfileid: "36187887"
 
 이 표에서는 IM 및 현재 상태 대화 관리와 관련 된 기능에 대해 설명 합니다.
 
-|기능/기능|비즈니스용 Skype 2015 또는 2016 클라이언트|Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | Mac 용 Communicator 2011 | Mac 용 Lync 2011 |
+|기능/기능|비즈니스용 Skype 2015 또는 2016 클라이언트|Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | Mac 용 Communicator 2011 | Mac용 Lync 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |미리 채워진 대화 상대 목록 |&#x2714;|||||||||
 |대화 상대 목록 보기 및 수정 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -90,7 +92,7 @@ ms.locfileid: "36187887"
 
 이 표에서는 메신저 대화 지원과 관련 된 기능을 설명 합니다.
 
-|기능/기능 | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | Mac 용 Communicator 2011 | Mac 용 Lync 2011 |
+|기능/기능 | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | Mac 용 Communicator 2011 | Mac용 Lync 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |대화 상대 또는 전자 메일을 사용 하 여 IM 시작 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
 |여러 인스턴트 메신저 대화 간 탐색/단일 탭 창에서 여러 대화 추적 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
@@ -118,7 +120,7 @@ ms.locfileid: "36187887"
 Skype 사용자 간 세션에서는 공유 기능에 액세스할 수 있는 사용자가 초대 하는 경우 비즈니스용 Skype Online 계획 1 사용자가 데스크톱 공유 및 응용 프로그램 공유에 참가할 수 있습니다.
 자세한 내용은 [비즈니스용 Skype Online 서비스 설명을](https://technet.microsoft.com/library/jj822172.aspx)참조 하세요.
   
-|기능/기능 | 비즈니스용 Skype 2016 클라이언트 | Mac의 비즈니스용 Skype | 비즈니스용 Skype Web App | 비즈니스용 Skype 2015 클라이언트 | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | Mac 용 Communicator 2011 | Mac 용 Lync 2011 |
+|기능/기능 | 비즈니스용 Skype 2016 클라이언트 | Mac의 비즈니스용 Skype | 비즈니스용 Skype Web App | 비즈니스용 Skype 2015 클라이언트 | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | Mac 용 Communicator 2011 | Mac용 Lync 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |컴퓨터 오디오 추가 |&#x2714;|&#x2714;|&#x2714; (플러그 인 필요) |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |비디오 추가 |&#x2714;|&#x2714;|&#x2714; (플러그 인 필요) |&#x2714;|&#x2714;|&#x2714;|&#x2714;|||&#x2714;|&#x2714;|
@@ -165,7 +167,7 @@ Skype 사용자 간 세션에서는 공유 기능에 액세스할 수 있는 사
 > [!NOTE]
 > 비즈니스용 skype 음성 (전화 통신) 기능은 특정 비즈니스용 Skype Online 플랜 계획으로 제한 됩니다. > 자세한 내용은 [비즈니스용 Skype Online 서비스 설명을](https://technet.microsoft.com/library/jj822172.aspx)참조 하세요.
   
-| 기능/기능 | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | Mac 용 Communicator 2011 | Mac 용 Lync 2011 |
+| 기능/기능 | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | Mac 용 Communicator 2011 | Mac용 Lync 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |통화 시작 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |클릭 하 여 대화 상대에 게 전화 걸기  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -195,7 +197,7 @@ Skype 사용자 간 세션에서는 공유 기능에 액세스할 수 있는 사
 
 이 표에는 PSTN에 있는 외부 사용자 지원과 관련 된 기능이 포함 되어 있습니다.
 
-|기능/기능 | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | Mac 용 Communicator 2011 | Mac 용 Lync 2011 |
+|기능/기능 | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | Mac 용 Communicator 2011 | Mac용 Lync 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |공개 연락처로 IM 시작  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
 |페더레이션된 연락처로 메신저 시작 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
@@ -207,7 +209,7 @@ Skype 사용자 간 세션에서는 공유 기능에 액세스할 수 있는 사
 
 이 표에서는 모임 기록 지원과 관련 된 기능에 대해 설명 합니다.
   
-| 향후/능력 * * | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | Mac 용 Communicator 2011 | Mac 용 Lync 2011 |
+| 향후/능력 * * | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | Mac 용 Communicator 2011 | Mac용 Lync 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |오디오, 비디오, 응용 프로그램 공유, 데스크톱 공유 및 업로드 된 콘텐츠의 클라이언트측 기록 |&#x2714; &#x2776; ||&#x2714; &#x2776; ||&#x2714;|||||
 |파일 전송, 공유 OneNote 페이지 및 PowerPoint 주석에 대 한 클라이언트측 기록 |&#x2714; &#x2777; ||&#x2714; &#x2777; ||&#x2714;|||||
@@ -225,7 +227,7 @@ Skype 사용자 간 세션에서는 공유 기능에 액세스할 수 있는 사
   
 또한 최신 인증은 [최신 인증으로 지원 되는 비즈니스용 Skype 토폴로지에](../../plan-your-deployment/modern-authentication/topologies-supported.md)설명 된 토폴로지가 필요 합니다.
 
-| 기능/기능 | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | Mac 용 Communicator 2011 | Mac 용 Lync 2011 |
+| 기능/기능 | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | Mac 용 Communicator 2011 | Mac용 Lync 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |최신 인증 |&#x2714;|&#x2714;|&#x2714;|||||||
 |다단계 인증  |&#x2714;|&#x2714;|&#x2714;|||||||
@@ -238,7 +240,7 @@ Skype 사용자 간 세션에서는 공유 기능에 액세스할 수 있는 사
 
 이 표에서는 보관 및 로깅 함수의 지원과 관련 된 기능을 설명 합니다.
 
-| 기능/기능 | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | **Mac 용 Communicator 2011** | Mac 용 Lync 2011 |
+| 기능/기능 | 비즈니스용 Skype 2015 또는 2016 클라이언트 | Mac의 비즈니스용 Skype | Lync 2013 클라이언트 | Lync Windows 스토어 앱 | Lync 2010 | Lync 2010 수행자 | Lync Phone Edition | **Mac 용 Communicator 2011** | Mac용 Lync 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Outlook 대화 내용에서 메신저 대화 보관 |&#x2714; &#x2776; |서버 쪽 대화 기록을 사용 하는 경우 &#x2714; |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|&#x2714;||Mac 용 Communicator에 저장 됨 |Mac 용 Lync에 저장 됨 |
 |클라이언트 쪽에서 오디오, 비디오, 응용 프로그램 공유, 데스크톱 공유 및 업로드 된 콘텐츠를 보관 합니다. |&#x2714; &#x2776; ||&#x2714; &#x2776; ||&#x2714;|||||

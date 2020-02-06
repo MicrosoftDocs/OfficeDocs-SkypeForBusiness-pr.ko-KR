@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.VideoInteropServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c01299a-e832-45a1-8fd9-af432f36a8d4
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 비즈니스용 Skype 서버 2015에서 VIS 풀 만들기에서 온라인으로 설명 됩니다.
-ms.openlocfilehash: adeb15811b0c33f6d298e1a4df2194c62ef6dba7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2b9102c5fec4f7b935168135ccc625a65e020083
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684281"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819060"
 ---
 # <a name="video-interop-server---scope-the-node"></a>비디오 Interop 서버 - 노드 범위
  

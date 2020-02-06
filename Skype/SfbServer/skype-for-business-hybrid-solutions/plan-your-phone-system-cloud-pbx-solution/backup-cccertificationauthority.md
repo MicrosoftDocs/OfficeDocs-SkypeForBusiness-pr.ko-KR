@@ -8,15 +8,17 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: CcCertificationAuthority cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 인증 기관 서비스를 파일에 백업 하 고 사이트 공유 디렉터리 아래의 CA 폴더에 저장 합니다.
-ms.openlocfilehash: f99745e1dd5e28e2d7d8d10d4d152c7ada913fbf
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 4e12b2349f5834866fc69442fb2947425416fe23
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003028"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803808"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  

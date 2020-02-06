@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: '요약: 비즈니스용 Skype 서버에서 보고서 모니터링에 대해 자세히 알아보세요.'
-ms.openlocfilehash: ea984a27e2322b08357719e41892fa65892b550a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1468a012501753a720807f1b1ec609ff187ffc1c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188760"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817807"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 모니터링 보고서 사용 
  
@@ -51,7 +53,7 @@ ms.locfileid: "36188760"
   
 ## <a name="filtering-data"></a>데이터 필터링
 
-레코드의 하위 집합을 보기만 하는 경우가 있을 수 있습니다. 예를 들어 피어 투 피어 세션 및 회의 세션과는 달리 피어 투 피어 세션만 가능 합니다. 마찬가지로 반환 되는 레코드 수를 줄여야 하는 경우도 있습니다. 기본적으로 보고서에는 데이터 집합의 첫 번째 1000 레코드만 표시할 수 있습니다. 이러한 문제를 해결 하기 위해 대부분의 보고서에는 여러 필터링 옵션이 포함 되어 있습니다. 예를 들어 2 월 1 일에서 2011 년 1 월 15 2011 일 사이의 레코드만 표시 하려면 **보낸 사람** 상자에 2011 1, 15, 01, 시작 날짜 상자에 2011을 입력 하면 됩니다. **** 그런 다음 **보고서 보기**를 클릭 하면 반환 되는 데이터가 2011 년 1 월 1 일에서 2011 년 1 월 15 일 사이에 발생 하는 작업으로 제한 됩니다.
+레코드의 하위 집합을 보기만 하는 경우가 있을 수 있습니다. 예를 들어 피어 투 피어 세션 및 회의 세션과는 달리 피어 투 피어 세션만 가능 합니다. 마찬가지로 반환 되는 레코드 수를 줄여야 하는 경우도 있습니다. 기본적으로 보고서에는 데이터 집합의 첫 번째 1000 레코드만 표시할 수 있습니다. 이러한 문제를 해결 하기 위해 대부분의 보고서에는 여러 필터링 옵션이 포함 되어 있습니다. 예를 들어 2 월 1 일에서 2011 년 1 월 15 2011 일 사이의 레코드만 표시 하려면 **보낸 사람** 상자에 2011 1, 15, 01, 시작 **날짜 상자에** 2011을 입력 하면 됩니다. 그런 다음 **보고서 보기**를 클릭 하면 반환 되는 데이터가 2011 년 1 월 1 일에서 2011 년 1 월 15 일 사이에 발생 하는 작업으로 제한 됩니다.
   
 사용할 수 있는 필터는 보고 있는 보고서에 따라 달라 집니다. 특정 보고서에 대 한 자세한 내용은 해당 보고서에 대 한 도움말 항목을 참조 하세요.
   

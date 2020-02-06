@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.MediationServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 description: 이 노드는 이 중재 풀의 수신 대기 포트 및 연결된 공중 전화망(PSTN) 게이트웨이를 보여 줍니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 5fc97d8f8c8681ad66f52cdec8e7b6373b49aae2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e3af86c4784f3726f6961e1a085ad69960a570ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684541"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819600"
 ---
 # <a name="mediation-server-scope-node"></a>중재 서버 범위 노드
  

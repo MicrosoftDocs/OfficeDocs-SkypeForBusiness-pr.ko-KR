@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: '요약: 비즈니스용 Skype 서버의 피어 투 피어 IM 보고서에 대해 자세히 알아보세요.'
-ms.openlocfilehash: abe6321f6c4432270ecec325a94608d2e3117954
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7775e7dc4a6fc3cd36283decd12971ac0e0f780a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197627"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817918"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 피어 투 피어 IM 보고서
  
@@ -56,7 +58,7 @@ ms.locfileid: "36197627"
 
 |**이름**|**이 항목을 정렬할 수 있나요?**|**설명**|
 |:-----|:-----|:-----|
-|**수영장** <br/> |아니요  <br/> |등록자 풀 또는 Edge 서버의 이름입니다.  <br/> |
+|**풀** <br/> |아니요  <br/> |등록자 풀 또는 Edge 서버의 이름입니다.  <br/> |
 |**날짜/시간** <br/> |아니요  <br/> |세션이 발생 한 날짜 및 시간입니다.  <br/> |
 |**Total** <br/> |아니요  <br/> |총 세션 수 또는 총 메시지 수입니다.  <br/> |
    

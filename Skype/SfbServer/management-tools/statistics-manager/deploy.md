@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '요약: 비즈니스용 Skype 서버용 통계 관리자를 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: 57b799079da400389b9e3049406a52bbba4dc1e6
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 44aad14970716f00550255855d251919a767a268
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990613"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803968"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자 배포
  

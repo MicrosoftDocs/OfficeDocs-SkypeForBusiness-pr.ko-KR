@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 하나 이상의 Edge 서버를 배포한 후에는 조직에서 지원 되는 Edge 서버를 통해 외부 도메인 또는 공급자 액세스, 원격 사용자 액세스, 익명 사용자 액세스를 사용 하도록 설정 해야 합니다.
-ms.openlocfilehash: b79560d2cb0e570ab2b4fcf061a5b91c6a74a8bf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7308d6914f3f6d79cd217a31c0246c6f2d189516
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188859"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818349"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>조직에 대한 액세스 에지 구성 관리
 

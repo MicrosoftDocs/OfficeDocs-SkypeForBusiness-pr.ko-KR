@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.LyncServer2013ScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 description: 토폴로지 작성기에서 새 VIS 또는 비디오 게이트웨이를 정의 하는 데 필요한 단계는 비즈니스용 Skype 서버 2015에서 VIS 풀 만들기에서 온라인으로 설명 됩니다.
-ms.openlocfilehash: b09925b6f99078ff81fe67f9100f51a19ffa0ab9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5b65b6a7043cb47ee7124345325bee3709d0581d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684571"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819660"
 ---
 # <a name="lync-server-2013-scope-node"></a>Lync Server 2013 범위 노드
  

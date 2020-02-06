@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: 세션 보기는 데이터베이스에 레코드가 있는 세션에 대 한 정보를 저장 합니다. 이 보기는 Microsoft Lync Server 2013에서 도입 되었습니다.
-ms.openlocfilehash: b24afdff32b5223725aa4f8ff0b7d875199713c7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cd304123022e0d4d921ecb1cd2599c636aaa9013
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196528"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41805906"
 ---
 # <a name="session-view"></a>세션 보기
  
