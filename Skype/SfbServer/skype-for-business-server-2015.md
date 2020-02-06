@@ -9,16 +9,18 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: '요약: 비즈니스용 Skype Server 2015을 구현 하는 방법을 알아보려면이 링크를 탐색 하세요.'
-ms.openlocfilehash: 33512dab400d207842d7d548ac217c8d00d923b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7a5753e481e1014ea8ff95aafc5e3a1f632bafa1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190566"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824102"
 ---
 # <a name="skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015
 
@@ -72,7 +74,7 @@ ms.locfileid: "36190566"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>배치</h3>
+                        <h3>배포</h3>
                     </div>
                 </div>
             </div>
@@ -145,7 +147,7 @@ ms.locfileid: "36190566"
                 <div class="card">
                     <div class="cardText">
                         <h3>시작 하기 전에</h3>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">사용자 환경의 요구 사항</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">환경의 요구 사항</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">네트워크 요구 사항</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">클라이언트 및 장치</a></p>
                     </div>
@@ -172,8 +174,8 @@ ms.locfileid: "36190566"
                 <div class="card">
                     <div class="cardText">
                         <h3>Enterprise Voice</h3>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">계획</a></p>
-                        <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">배치</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">플랜</a></p>
+                        <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">배포</a></p>
                     </div>
                 </div>
             </div>
