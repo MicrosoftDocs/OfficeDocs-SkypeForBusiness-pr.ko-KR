@@ -8,35 +8,37 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AvMcuGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 description: 이미 정의한 A/V 회의 서버 풀의 속성을 편집 하려면 다음을 수행 하면 됩니다.
-ms.openlocfilehash: edace07f8d230a49a94140bdc43dedf07cf95eb7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 14dbba0ef3393bd77d00e2ccecd78513780f5827
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697743"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820350"
 ---
-# <a name="av-mcu-general-settings-expander"></a><span data-ttu-id="f391e-103">AV MCU 일반 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="f391e-103">AV MCU General Settings Expander</span></span>
+# <a name="av-mcu-general-settings-expander"></a><span data-ttu-id="43d48-103">AV MCU 일반 설정 확장기</span><span class="sxs-lookup"><span data-stu-id="43d48-103">AV MCU General Settings Expander</span></span>
  
-<span data-ttu-id="f391e-104">이미 정의한 A/V 회의 서버 풀의 속성을 편집 하려면 다음을 수행 하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f391e-104">To edit the properties for an A/V Conferencing Server pool that you have already defined, you can do the following:</span></span>
+<span data-ttu-id="43d48-104">이미 정의한 A/V 회의 서버 풀의 속성을 편집 하려면 다음을 수행 하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="43d48-104">To edit the properties for an A/V Conferencing Server pool that you have already defined, you can do the following:</span></span>
   
-## <a name="general-settings"></a><span data-ttu-id="f391e-105">일반 설정</span><span class="sxs-lookup"><span data-stu-id="f391e-105">General settings</span></span>
+## <a name="general-settings"></a><span data-ttu-id="43d48-105">일반 설정</span><span class="sxs-lookup"><span data-stu-id="43d48-105">General settings</span></span>
 
-<span data-ttu-id="f391e-106">DNS (Domain Name System)에 정의 된 대로 풀의 이름을 입력 하 여 A/V 회의 서버 풀의 FQDN (정규화 된 도메인 이름)을 업데이트 합니다.</span><span class="sxs-lookup"><span data-stu-id="f391e-106">Update the fully qualified domain name (FQDN) of the A/V Conferencing Server pool by typing in the name of the pool, as it is defined in the Domain Name System (DNS).</span></span>
+<span data-ttu-id="43d48-106">DNS (Domain Name System)에 정의 된 대로 풀의 이름을 입력 하 여 A/V 회의 서버 풀의 FQDN (정규화 된 도메인 이름)을 업데이트 합니다.</span><span class="sxs-lookup"><span data-stu-id="43d48-106">Update the fully qualified domain name (FQDN) of the A/V Conferencing Server pool by typing in the name of the pool, as it is defined in the Domain Name System (DNS).</span></span>
   
-## <a name="av-conferencing-service"></a><span data-ttu-id="f391e-107">A/V 회의 서비스</span><span class="sxs-lookup"><span data-stu-id="f391e-107">A/V Conferencing service</span></span>
+## <a name="av-conferencing-service"></a><span data-ttu-id="43d48-107">A/V 회의 서비스</span><span class="sxs-lookup"><span data-stu-id="43d48-107">A/V Conferencing service</span></span>
 
-<span data-ttu-id="f391e-108">A/V 회의 서버 풀을 연결 하려면 A/V 회의 서버 풀과 연결 해야 하는 프런트 엔드 풀 또는 풀을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="f391e-108">To associate an A/V Conferencing Server pool, select the Front End pool or pools that you have to associate with the A/V Conferencing Server pool.</span></span>
+<span data-ttu-id="43d48-108">A/V 회의 서버 풀을 연결 하려면 A/V 회의 서버 풀과 연결 해야 하는 프런트 엔드 풀 또는 풀을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="43d48-108">To associate an A/V Conferencing Server pool, select the Front End pool or pools that you have to associate with the A/V Conferencing Server pool.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="f391e-109">**이 a/v 회의 풀과 연결할 프런트** 엔드 풀 선택 창이 표시 되지 않는 경우 프런트 엔드 풀을 사용 하 여 a/v 회의 서버를 collocated 프런트 엔드 풀 속성의 **기능 및** 기능 섹션에서 회의를 추가 하도록 선택 하지 않은 것입니다.</span><span class="sxs-lookup"><span data-stu-id="f391e-109">If no Front End pools are displayed in the **Select the Front End pools to associate with this A/V Conferencing pool** pane, you have either collocated the A/V Conferencing Server with the Front End pool or did not select to add Conferencing in the **Features and functionality** section of the Front End pool properties.</span></span>
+> <span data-ttu-id="43d48-109">**이 a/v 회의 풀과 연결할 프런트** 엔드 풀 선택 창이 표시 되지 않는 경우 프런트 엔드 풀을 사용 하 여 a/v 회의 서버를 collocated 프런트 엔드 풀 속성의 **기능 및** 기능 섹션에서 회의를 추가 하도록 선택 하지 않은 것입니다.</span><span class="sxs-lookup"><span data-stu-id="43d48-109">If no Front End pools are displayed in the **Select the Front End pools to associate with this A/V Conferencing pool** pane, you have either collocated the A/V Conferencing Server with the Front End pool or did not select to add Conferencing in the **Features and functionality** section of the Front End pool properties.</span></span>
   
 
 
-<span data-ttu-id="f391e-110">완료 되 면 **확인** 을 클릭 하 여 A/V 회의 서버 풀 설정 편집을 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="f391e-110">When finished, click **OK** to complete the editing of the A/V Conferencing Server pool settings.</span></span> <span data-ttu-id="f391e-111">변경 내용을 취소하려면 **취소**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="f391e-111">Click **Cancel** to discard any changes.</span></span>
+<span data-ttu-id="43d48-110">완료 되 면 **확인** 을 클릭 하 여 A/V 회의 서버 풀 설정 편집을 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="43d48-110">When finished, click **OK** to complete the editing of the A/V Conferencing Server pool settings.</span></span> <span data-ttu-id="43d48-111">변경 내용을 취소하려면 **취소**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="43d48-111">Click **Cancel** to discard any changes.</span></span>
   
 

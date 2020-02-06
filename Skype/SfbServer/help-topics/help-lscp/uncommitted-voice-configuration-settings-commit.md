@@ -8,25 +8,27 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceViewSumCommit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 description: 커밋되지 않은 음성 구성 설정 대화 상자를 사용하여 적용한 모든 변경 내용을 검토할 수 있습니다. 대화 상자를 스크롤하여 커밋되지 않은 모든 변경 내용을 검토하거나 화살표를 클릭하여 다양한 섹션을 확장 또는 축소합니다. 검토를 마친 후 이러한 모든 변경 내용을 커밋하려면 커밋을 클릭하고 돌아가서 변경 내용을 수정하려면 취소를 클릭합니다.
-ms.openlocfilehash: 0582f85168b70e239a9ac43a4a0e73b3e07cff14
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d6c1f92e32127b1c491f54e3c781467c5ac77304
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685661"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821890"
 ---
-# <a name="uncommitted-voice-configuration-settings-commit"></a><span data-ttu-id="afec6-105">커밋되지 않은 음성 구성 설정: 커밋</span><span class="sxs-lookup"><span data-stu-id="afec6-105">Uncommitted Voice Configuration Settings: Commit</span></span>
+# <a name="uncommitted-voice-configuration-settings-commit"></a><span data-ttu-id="b248b-105">커밋되지 않은 음성 구성 설정: 커밋</span><span class="sxs-lookup"><span data-stu-id="b248b-105">Uncommitted Voice Configuration Settings: Commit</span></span>
  
-<span data-ttu-id="afec6-p102">**커밋되지 않은 음성 구성 설정** 대화 상자를 사용하여 적용한 모든 변경 내용을 검토할 수 있습니다. 대화 상자를 스크롤하여 커밋되지 않은 모든 변경 내용을 검토하거나 화살표를 클릭하여 다양한 섹션을 확장 또는 축소합니다. 검토를 마친 후 이러한 모든 변경 내용을 커밋하려면 **커밋**을 클릭하고 돌아가서 변경 내용을 수정하려면 **취소**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="afec6-p102">You can use the **Uncommitted Voice Configuration Settings** dialog box to review all of the changes that you have made. Scroll through the dialog box to review all of the uncommitted changes, or click the arrows to expand or collapse the different sections. When you are finished, either click **Commit** to commit all of these changes, or click **Cancel** to go back and modify your changes.</span></span>
+<span data-ttu-id="b248b-p102">**커밋되지 않은 음성 구성 설정** 대화 상자를 사용하여 적용한 모든 변경 내용을 검토할 수 있습니다. 대화 상자를 스크롤하여 커밋되지 않은 모든 변경 내용을 검토하거나 화살표를 클릭하여 다양한 섹션을 확장 또는 축소합니다. 검토를 마친 후 이러한 모든 변경 내용을 커밋하려면 **커밋**을 클릭하고 돌아가서 변경 내용을 수정하려면 **취소**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b248b-p102">You can use the **Uncommitted Voice Configuration Settings** dialog box to review all of the changes that you have made. Scroll through the dialog box to review all of the uncommitted changes, or click the arrows to expand or collapse the different sections. When you are finished, either click **Commit** to commit all of these changes, or click **Cancel** to go back and modify your changes.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="afec6-109">**커밋**을 클릭하면 **커밋되지 않은 음성 구성 설정** 대화 상자에 나열된 **모든** 변경 내용이 커밋됩니다.</span><span class="sxs-lookup"><span data-stu-id="afec6-109">If you click **Commit**, you will commit **all** of the changes that are listed in the **Uncommitted Voice Configuration Settings** dialog box.</span></span>
+> <span data-ttu-id="b248b-109">**커밋**을 클릭하면 **커밋되지 않은 음성 구성 설정** 대화 상자에 나열된 **모든** 변경 내용이 커밋됩니다.</span><span class="sxs-lookup"><span data-stu-id="b248b-109">If you click **Commit**, you will commit **all** of the changes that are listed in the **Uncommitted Voice Configuration Settings** dialog box.</span></span>
   
-<span data-ttu-id="afec6-110">비즈니스용 Skype 서버 제어판을 사용 하 여 수행할 수 있는 다양 한 절차에 대 한 자세한 내용은 비즈니스용 [Skype 서버 2015 관리](../../manage/manage.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="afec6-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="b248b-110">비즈니스용 Skype 서버 제어판을 사용 하 여 수행할 수 있는 다양 한 절차에 대 한 자세한 내용은 비즈니스용 [Skype 서버 2015 관리](../../manage/manage.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b248b-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

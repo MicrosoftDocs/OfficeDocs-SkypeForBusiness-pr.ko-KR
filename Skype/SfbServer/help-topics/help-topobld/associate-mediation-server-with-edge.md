@@ -8,29 +8,31 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AssociateMediationServerWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 중재 서버를 정의 하려면 조정 서버를 프런트 엔드 서버에 연결 하는 설정 및 Edge 서버 또는 풀을 사용 하는 설정을 지정 합니다. 중재 서버 또는 풀을 Edge 서버 또는 Edge 서버 풀과 연결 하려면 다음을 수행 합니다.
-ms.openlocfilehash: 77a1ea9143084afecb67689e44f11cdf168521a9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 37aa9061bca1f12e024fdf84601997911fb20c93
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697753"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820370"
 ---
-# <a name="associate-mediation-server-with-edge"></a><span data-ttu-id="c7299-104">중재 서버와 Edge 연결</span><span class="sxs-lookup"><span data-stu-id="c7299-104">Associate Mediation Server With Edge</span></span>
+# <a name="associate-mediation-server-with-edge"></a><span data-ttu-id="34e43-104">중재 서버와 Edge 연결</span><span class="sxs-lookup"><span data-stu-id="34e43-104">Associate Mediation Server With Edge</span></span>
  
-<span data-ttu-id="c7299-105">중재 서버를 정의 하려면 조정 서버를 프런트 엔드 서버에 연결 하는 설정 및 Edge 서버 또는 풀을 사용 하는 설정을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7299-105">To define a Mediation Server, specify settings that associate the Mediation Server with a Front End Server and with an Edge Server or pool.</span></span> <span data-ttu-id="c7299-106">중재 서버 또는 풀을 Edge 서버 또는 Edge 서버 풀과 연결 하려면 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7299-106">To associate the Mediation Server or pool with an Edge Server or Edge Server pool, do the following:</span></span>
+<span data-ttu-id="34e43-105">중재 서버를 정의 하려면 조정 서버를 프런트 엔드 서버에 연결 하는 설정 및 Edge 서버 또는 풀을 사용 하는 설정을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="34e43-105">To define a Mediation Server, specify settings that associate the Mediation Server with a Front End Server and with an Edge Server or pool.</span></span> <span data-ttu-id="34e43-106">중재 서버 또는 풀을 Edge 서버 또는 Edge 서버 풀과 연결 하려면 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="34e43-106">To associate the Mediation Server or pool with an Edge Server or Edge Server pool, do the following:</span></span>
   
-1. <span data-ttu-id="c7299-107">드롭다운 목록에서 중재 서버와 연결할 Edge 풀 또는 Edge 서버를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7299-107">From the drop-down list, select the Edge pool or Edge Server to associate with the Mediation Server.</span></span>
+1. <span data-ttu-id="34e43-107">드롭다운 목록에서 중재 서버와 연결할 Edge 풀 또는 Edge 서버를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="34e43-107">From the drop-down list, select the Edge pool or Edge Server to associate with the Mediation Server.</span></span>
     
-2. <span data-ttu-id="c7299-108">계속하려면 **다음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c7299-108">Click **Next** to continue.</span></span>
+2. <span data-ttu-id="34e43-108">계속하려면 **다음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="34e43-108">Click **Next** to continue.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="c7299-109">배포에 Edge 서버 또는 Edge 서버 풀을 아직 정의 하지 않은 경우 드롭다운 목록에 항목이 포함 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="c7299-109">If you have not yet defined an Edge Server or Edge Server pool in your deployment, the drop-down list will not contain entries.</span></span> <span data-ttu-id="c7299-110">배포에 Edge 서버 또는 풀을 추가한 후에는 **다음** 을 클릭 하 여 계속 하 고 중재 서버에 대 한 설정을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7299-110">You can click **Next** to continue and edit the settings for the Mediation Server after you have added an Edge Server or pool to your deployment.</span></span>
+> <span data-ttu-id="34e43-109">배포에 Edge 서버 또는 Edge 서버 풀을 아직 정의 하지 않은 경우 드롭다운 목록에 항목이 포함 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="34e43-109">If you have not yet defined an Edge Server or Edge Server pool in your deployment, the drop-down list will not contain entries.</span></span> <span data-ttu-id="34e43-110">배포에 Edge 서버 또는 풀을 추가한 후에는 **다음** 을 클릭 하 여 계속 하 고 중재 서버에 대 한 설정을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="34e43-110">You can click **Next** to continue and edit the settings for the Mediation Server after you have added an Edge Server or pool to your deployment.</span></span>
   
-<span data-ttu-id="c7299-111">자세한 내용은 비즈니스용 [Skype 서버 2015의 토폴로지 작성기에서 중재 서버 배포](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c7299-111">For additional details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span></span>
+<span data-ttu-id="34e43-111">자세한 내용은 비즈니스용 [Skype 서버 2015의 토폴로지 작성기에서 중재 서버 배포](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="34e43-111">For additional details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span></span>
   
 

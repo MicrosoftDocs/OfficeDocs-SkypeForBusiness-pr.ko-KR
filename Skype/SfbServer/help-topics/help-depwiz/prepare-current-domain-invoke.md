@@ -8,20 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployDomainPrepInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 27553998-2adf-4727-a6e8-841679603ff2
 description: '실행 중인 명령 페이지에는 작업을 실행할 때 요약 정보가 표시 됩니다. 요약 화면을 검토 하 여 작업이 성공적이 고 오류가 없는지 확인 합니다. 경고가 예상 대로 표시 되는지 확인 합니다. 요약 창 아래에 작업 상태: 완료 됨이 표시 됩니다. 드롭다운 목록에서 로그 파일 준비 도메인이 표시 되어야 합니다. 그렇지 않은 경우 로그 파일을 선택한 다음 로그 보기를 클릭 하 여 작업의 자세한 작업 및 결과를 검토 합니다. 마침을 클릭 하 여 도메인 준비를 완료 합니다.'
-ms.openlocfilehash: c3d5ee300dde0c75c9094df75cf2b7c3fef1b0ff
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7265731e1c748014761c08731cd8da3769fdd510
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700943"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823562"
 ---
-# <a name="prepare-current-domain-invoke"></a><span data-ttu-id="5b7a7-109">현재 도메인 준비(인보크)</span><span class="sxs-lookup"><span data-stu-id="5b7a7-109">Prepare Current Domain (Invoke)</span></span>
+# <a name="prepare-current-domain-invoke"></a><span data-ttu-id="2a995-109">현재 도메인 준비(인보크)</span><span class="sxs-lookup"><span data-stu-id="2a995-109">Prepare Current Domain (Invoke)</span></span>
  
-<span data-ttu-id="5b7a7-110">실행 **중인 명령** 페이지에는 작업을 실행할 때 요약 정보가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5b7a7-110">The **Executing Commands** page displays a summary of tasks as they run.</span></span> <span data-ttu-id="5b7a7-111">요약 화면을 검토 하 여 작업이 성공적이 고 오류가 없는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b7a7-111">Review the summary screen and make sure that the tasks were successful, and that there are no errors.</span></span> <span data-ttu-id="5b7a7-112">경고가 예상 대로 표시 되는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b7a7-112">Review warnings to be sure that they are expected.</span></span> <span data-ttu-id="5b7a7-113">요약 창 아래에 **작업 상태: 완료 됨**이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5b7a7-113">Below the summary pane, you should see **Task status: Completed**.</span></span> <span data-ttu-id="5b7a7-114">드롭다운 목록에서 로그 파일 **준비 도메인이** 표시 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b7a7-114">In the drop-down list, the log file **Prepare Domain** should be visible.</span></span> <span data-ttu-id="5b7a7-115">그렇지 않은 경우 로그 파일을 선택한 다음 **로그 보기** 를 클릭 하 여 작업의 자세한 작업 및 결과를 검토 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b7a7-115">If it is not, select the log file and then click **View Log** to review the detailed actions and outcome of the tasks.</span></span> <span data-ttu-id="5b7a7-116">**마침을** 클릭 하 여 도메인 준비를 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b7a7-116">Click **Finish** to complete the preparation of the domain.</span></span>
+<span data-ttu-id="2a995-110">실행 **중인 명령** 페이지에는 작업을 실행할 때 요약 정보가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2a995-110">The **Executing Commands** page displays a summary of tasks as they run.</span></span> <span data-ttu-id="2a995-111">요약 화면을 검토 하 여 작업이 성공적이 고 오류가 없는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a995-111">Review the summary screen and make sure that the tasks were successful, and that there are no errors.</span></span> <span data-ttu-id="2a995-112">경고가 예상 대로 표시 되는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a995-112">Review warnings to be sure that they are expected.</span></span> <span data-ttu-id="2a995-113">요약 창 아래에 **작업 상태: 완료 됨**이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2a995-113">Below the summary pane, you should see **Task status: Completed**.</span></span> <span data-ttu-id="2a995-114">드롭다운 목록에서 로그 파일 **준비 도메인이** 표시 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a995-114">In the drop-down list, the log file **Prepare Domain** should be visible.</span></span> <span data-ttu-id="2a995-115">그렇지 않은 경우 로그 파일을 선택한 다음 **로그 보기** 를 클릭 하 여 작업의 자세한 작업 및 결과를 검토 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a995-115">If it is not, select the log file and then click **View Log** to review the detailed actions and outcome of the tasks.</span></span> <span data-ttu-id="2a995-116">**마침을** 클릭 하 여 도메인 준비를 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a995-116">Click **Finish** to complete the preparation of the domain.</span></span>
   
 

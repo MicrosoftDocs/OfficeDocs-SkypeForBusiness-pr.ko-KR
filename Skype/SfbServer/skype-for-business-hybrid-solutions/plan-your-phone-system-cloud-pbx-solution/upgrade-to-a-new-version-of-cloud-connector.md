@@ -8,116 +8,118 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: 클라우드 커넥터 에디션 배포를 업그레이드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c340b7325c95d25212c9c1f77f9379a25708cea8
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: d2f9d2a2720f67a2110ba97b7d100e5673a0015c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002048"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814146"
 ---
-# <a name="upgrade-to-a-new-version-of-cloud-connector"></a><span data-ttu-id="39d55-103">클라우드 커넥터의 새 버전으로 업그레이드</span><span class="sxs-lookup"><span data-stu-id="39d55-103">Upgrade to a new version of Cloud Connector</span></span>
+# <a name="upgrade-to-a-new-version-of-cloud-connector"></a><span data-ttu-id="b0b3e-103">클라우드 커넥터의 새 버전으로 업그레이드</span><span class="sxs-lookup"><span data-stu-id="b0b3e-103">Upgrade to a new version of Cloud Connector</span></span>
  
-<span data-ttu-id="39d55-104">클라우드 커넥터 에디션 배포를 업그레이드 하는 방법에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-104">Learn about how to upgrade your Cloud Connector Edition deployment.</span></span>
+<span data-ttu-id="b0b3e-104">클라우드 커넥터 에디션 배포를 업그레이드 하는 방법에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-104">Learn about how to upgrade your Cloud Connector Edition deployment.</span></span>
   
-<span data-ttu-id="39d55-105">온라인 관리 테 넌 트 계정을 설정 하 고 자동 업데이트를 사용 하는 경우 자동 업데이트 시간 창에 따라 비즈니스용 Skype 클라우드 커넥터 에디션에 대 한 기존 배포가 자동으로 최신 버전으로 업그레이드 됩니다. 구성.</span><span class="sxs-lookup"><span data-stu-id="39d55-105">If you have set up an online management tenant account and enabled automatic updates, your existing deployment of Skype for Business Cloud Connector Edition will be upgraded to the newer version automatically—according to your automatic update time window configuration.</span></span> <span data-ttu-id="39d55-106">수동 업그레이드를 수행할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-106">You can also perform a manual upgrade.</span></span> 
+<span data-ttu-id="b0b3e-105">온라인 관리 테 넌 트 계정을 설정 하 고 자동 업데이트를 사용 하는 경우 자동 업데이트 시간 창에 따라 비즈니스용 Skype 클라우드 커넥터 에디션에 대 한 기존 배포가 자동으로 최신 버전으로 업그레이드 됩니다. 구성.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-105">If you have set up an online management tenant account and enabled automatic updates, your existing deployment of Skype for Business Cloud Connector Edition will be upgraded to the newer version automatically—according to your automatic update time window configuration.</span></span> <span data-ttu-id="b0b3e-106">수동 업그레이드를 수행할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-106">You can also perform a manual upgrade.</span></span> 
   
-<span data-ttu-id="39d55-107">Cloud Connector Edition 버전 1.4.1 이상에서는 기본적으로 자동 업데이트를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-107">Cloud Connector Edition versions 1.4.1 and later perform automatic updates by default.</span></span> <span data-ttu-id="39d55-108">최신 버전 (2.1)으로 수동으로 업그레이드 하려는 경우이 항목의 뒷부분에 나오는 [단일 사이트를 새 버전으로 업그레이드](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="39d55-108">If you want to upgrade to the latest version (2.1) manually, see [Upgrade a single site to a new version](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) later in this topic.</span></span>
+<span data-ttu-id="b0b3e-107">Cloud Connector Edition 버전 1.4.1 이상에서는 기본적으로 자동 업데이트를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-107">Cloud Connector Edition versions 1.4.1 and later perform automatic updates by default.</span></span> <span data-ttu-id="b0b3e-108">최신 버전 (2.1)으로 수동으로 업그레이드 하려는 경우이 항목의 뒷부분에 나오는 [단일 사이트를 새 버전으로 업그레이드](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-108">If you want to upgrade to the latest version (2.1) manually, see [Upgrade a single site to a new version](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) later in this topic.</span></span>
   
-<span data-ttu-id="39d55-109">자동 업데이트를 사용 하려면 클라우드 커넥터 서비스가 실행 중 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-109">Automatic update requires that the Cloud Connector service is running.</span></span> <span data-ttu-id="39d55-110">다음 단계에서는 자동 업데이트에 대 한 프로세스를 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-110">The following steps describe the process for automatic updates:</span></span>
+<span data-ttu-id="b0b3e-109">자동 업데이트를 사용 하려면 클라우드 커넥터 서비스가 실행 중 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-109">Automatic update requires that the Cloud Connector service is running.</span></span> <span data-ttu-id="b0b3e-110">다음 단계에서는 자동 업데이트에 대 한 프로세스를 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-110">The following steps describe the process for automatic updates:</span></span>
   
-- <span data-ttu-id="39d55-111">자동 업데이트 프로세스는 자동 업데이트를 위해 구성한 일정에 따라 실행 됩니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-111">The automatic update process will run according to the schedule you have configured for automatic updates.</span></span>
+- <span data-ttu-id="b0b3e-111">자동 업데이트 프로세스는 자동 업데이트를 위해 구성한 일정에 따라 실행 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-111">The automatic update process will run according to the schedule you have configured for automatic updates.</span></span>
     
-- <span data-ttu-id="39d55-112">운영 체제 업데이트 작업</span><span class="sxs-lookup"><span data-stu-id="39d55-112">Operating system update tasks</span></span>
+- <span data-ttu-id="b0b3e-112">운영 체제 업데이트 작업</span><span class="sxs-lookup"><span data-stu-id="b0b3e-112">Operating system update tasks</span></span>
     
-  - <span data-ttu-id="39d55-113">모든 클라우드 커넥터 Vm에 대 한 운영 체제 업데이트를 확인 하 고 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-113">Check and download operating system updates to all Cloud Connector VMs.</span></span> 
+  - <span data-ttu-id="b0b3e-113">모든 클라우드 커넥터 Vm에 대 한 운영 체제 업데이트를 확인 하 고 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-113">Check and download operating system updates to all Cloud Connector VMs.</span></span> 
     
-  - <span data-ttu-id="39d55-114">모든 클라우드 커넥터 Vm을 하나씩 설치 하 고 업데이트 한 후 다시 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-114">Install and update all Cloud Connector VMs one by one and restart.</span></span>
+  - <span data-ttu-id="b0b3e-114">모든 클라우드 커넥터 Vm을 하나씩 설치 하 고 업데이트 한 후 다시 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-114">Install and update all Cloud Connector VMs one by one and restart.</span></span>
     
-  - <span data-ttu-id="39d55-115">클라우드 커넥터 Vm을 다시 시작한 후에 다른 다시 시작이 필요한 지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-115">After the Cloud Connector VMs restart, check to see if another restart is needed.</span></span>
+  - <span data-ttu-id="b0b3e-115">클라우드 커넥터 Vm을 다시 시작한 후에 다른 다시 시작이 필요한 지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-115">After the Cloud Connector VMs restart, check to see if another restart is needed.</span></span>
     
-  - <span data-ttu-id="39d55-116">클라우드 커넥터 Vm이 성공적으로 패치 된 후 클라우드 커넥터 호스트 컴퓨터에 대 한 프로세스를 반복 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-116">After the Cloud Connector VMs have been successfully patched, repeat the process for the Cloud Connector host machine.</span></span>
+  - <span data-ttu-id="b0b3e-116">클라우드 커넥터 Vm이 성공적으로 패치 된 후 클라우드 커넥터 호스트 컴퓨터에 대 한 프로세스를 반복 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-116">After the Cloud Connector VMs have been successfully patched, repeat the process for the Cloud Connector host machine.</span></span>
     
-  - <span data-ttu-id="39d55-117">클라우드 커넥터 호스트 컴퓨터를 성공적으로 부팅 한 후에는 처리 중인 운영 체제 업데이트 작업이 완료 됩니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-117">After the Cloud Connector host machine successfully boots up, any outstanding operating system update tasks are completed.</span></span>
+  - <span data-ttu-id="b0b3e-117">클라우드 커넥터 호스트 컴퓨터를 성공적으로 부팅 한 후에는 처리 중인 운영 체제 업데이트 작업이 완료 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-117">After the Cloud Connector host machine successfully boots up, any outstanding operating system update tasks are completed.</span></span>
     
-- <span data-ttu-id="39d55-118">클라우드 커넥터 업데이트 작업</span><span class="sxs-lookup"><span data-stu-id="39d55-118">Cloud Connector update tasks</span></span>
+- <span data-ttu-id="b0b3e-118">클라우드 커넥터 업데이트 작업</span><span class="sxs-lookup"><span data-stu-id="b0b3e-118">Cloud Connector update tasks</span></span>
     
-  - <span data-ttu-id="39d55-119">다운로드 사이트에서 버전 파일을 다운로드 하 여 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-119">Download and check the version file from the download site.</span></span>
+  - <span data-ttu-id="b0b3e-119">다운로드 사이트에서 버전 파일을 다운로드 하 여 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-119">Download and check the version file from the download site.</span></span>
     
-  - <span data-ttu-id="39d55-120">새 버전의 .msi 파일을 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-120">Download the new version .msi file.</span></span> 
+  - <span data-ttu-id="b0b3e-120">새 버전의 .msi 파일을 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-120">Download the new version .msi file.</span></span> 
     
-  - <span data-ttu-id="39d55-121">이전 msi 파일을 제거 합니다. 새 msi 파일을 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-121">Uninstall the old msi file; install the new msi file.</span></span>
+  - <span data-ttu-id="b0b3e-121">이전 msi 파일을 제거 합니다. 새 msi 파일을 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-121">Uninstall the old msi file; install the new msi file.</span></span>
     
-  - <span data-ttu-id="39d55-122">새 버전의 비즈니스용 Skype 비트를 다운로드 하세요.</span><span class="sxs-lookup"><span data-stu-id="39d55-122">Download the new version of Skype for Business bits.</span></span>
+  - <span data-ttu-id="b0b3e-122">새 버전의 비즈니스용 Skype 비트를 다운로드 하세요.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-122">Download the new version of Skype for Business bits.</span></span>
     
-  - <span data-ttu-id="39d55-123">등록-CcAppliance를 호출 하 여 기기를 등록 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-123">Register the appliance by calling Register-CcAppliance.</span></span>
+  - <span data-ttu-id="b0b3e-123">등록-CcAppliance를 호출 하 여 기기를 등록 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-123">Register the appliance by calling Register-CcAppliance.</span></span>
     
-  - <span data-ttu-id="39d55-124">새 클라우드 커넥터 버전을 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-124">Install the new Cloud Connector version.</span></span>
+  - <span data-ttu-id="b0b3e-124">새 클라우드 커넥터 버전을 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-124">Install the new Cloud Connector version.</span></span>
     
-  - <span data-ttu-id="39d55-125">이전 기기를 방전 하 고 새 기기로 네트워크 연결을 전환 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-125">Drain the old appliance and switch the network connection to the new appliance.</span></span>
+  - <span data-ttu-id="b0b3e-125">이전 기기를 방전 하 고 새 기기로 네트워크 연결을 전환 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-125">Drain the old appliance and switch the network connection to the new appliance.</span></span>
     
 > [!NOTE]
->  <span data-ttu-id="39d55-126">클라우드 커넥터가 새 빌드로 업데이트 되 면 클라우드 커넥터 cmdlet이 업데이트 되지 않았을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-126">When Cloud Connector updates to a new build, Cloud Connector cmdlets might not be updated.</span></span> <span data-ttu-id="39d55-127">예를 들어 자동 업데이트가 발생 하는 동안 PowerShell 창이 열려 있는 경우이 문제가 발생할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-127">This can happen, for example, if a PowerShell window is left open while automatic update occurs.</span></span> <span data-ttu-id="39d55-128">업데이트 된 cmdlet을 로드 하려면 다음 단계 중 하나를 수행 합니다. 클라우드 커넥터 기기에서 PowerShell을 > 다음 PowerShell을 다시 엽니다. > 또는 가져오기-모듈 CloudConnector-Force를 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-128">To load the updated cmdlets, you can do either of the following steps:>  Close PowerShell on the Cloud Connector appliance, and then reopen PowerShell.>  Or, you can run Import-Module CloudConnector -Force.</span></span>
+>  <span data-ttu-id="b0b3e-126">클라우드 커넥터가 새 빌드로 업데이트 되 면 클라우드 커넥터 cmdlet이 업데이트 되지 않았을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-126">When Cloud Connector updates to a new build, Cloud Connector cmdlets might not be updated.</span></span> <span data-ttu-id="b0b3e-127">예를 들어 자동 업데이트가 발생 하는 동안 PowerShell 창이 열려 있는 경우이 문제가 발생할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-127">This can happen, for example, if a PowerShell window is left open while automatic update occurs.</span></span> <span data-ttu-id="b0b3e-128">업데이트 된 cmdlet을 로드 하려면 다음 단계 중 하나를 수행 합니다. 클라우드 커넥터 기기에서 PowerShell을 > 다음 PowerShell을 다시 엽니다. > 또는 가져오기-모듈 CloudConnector-Force를 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-128">To load the updated cmdlets, you can do either of the following steps:>  Close PowerShell on the Cloud Connector appliance, and then reopen PowerShell.>  Or, you can run Import-Module CloudConnector -Force.</span></span>
   
-## <a name="upgrade-a-single-site-to-a-new-version"></a><span data-ttu-id="39d55-129">단일 사이트를 새 버전으로 업그레이드</span><span class="sxs-lookup"><span data-stu-id="39d55-129">Upgrade a single site to a new version</span></span>
-<span data-ttu-id="39d55-130"><a name="BKMK_Upgrade"> </a></span><span class="sxs-lookup"><span data-stu-id="39d55-130"></span></span>
+## <a name="upgrade-a-single-site-to-a-new-version"></a><span data-ttu-id="b0b3e-129">단일 사이트를 새 버전으로 업그레이드</span><span class="sxs-lookup"><span data-stu-id="b0b3e-129">Upgrade a single site to a new version</span></span>
+<span data-ttu-id="b0b3e-130"><a name="BKMK_Upgrade"> </a></span><span class="sxs-lookup"><span data-stu-id="b0b3e-130"><a name="BKMK_Upgrade"> </a></span></span>
 
-<span data-ttu-id="39d55-131">업그레이드 하려는 사이트에 하나의 기기만 있는 경우 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-131">If there is only one appliance in the site you want to upgrade, do the following:</span></span>
+<span data-ttu-id="b0b3e-131">업그레이드 하려는 사이트에 하나의 기기만 있는 경우 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-131">If there is only one appliance in the site you want to upgrade, do the following:</span></span>
   
-1. <span data-ttu-id="39d55-132">**제어판 \> 프로그램 \> 의 프로그램 및 기능**에서 기존 클라우드 커넥터 버전을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-132">Uninstall the existing Cloud Connector version in **Control Panel \> Programs \> Programs and Features**.</span></span>
+1. <span data-ttu-id="b0b3e-132">**제어판 \> 프로그램 \> 의 프로그램 및 기능**에서 기존 클라우드 커넥터 버전을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-132">Uninstall the existing Cloud Connector version in **Control Panel \> Programs \> Programs and Features**.</span></span>
     
-2. <span data-ttu-id="39d55-133">에서 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)새 버전의 cloudconnector의 msi를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-133">Install the new version of CloudConnector.msi from [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller).</span></span>
+2. <span data-ttu-id="b0b3e-133">에서 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)새 버전의 cloudconnector의 msi를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-133">Install the new version of CloudConnector.msi from [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller).</span></span>
     
-3. <span data-ttu-id="39d55-134">설치 하려는 버전에 대 한 CloudConnector .ini 파일이 있고 환경에 필요한 모든 값을 업데이트 했는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-134">Confirm that you have the CloudConnector.ini file for the version you are installing, and that you have updated all of the required values for your environment.</span></span> <span data-ttu-id="39d55-135">이전 릴리스에서는 .ini 파일을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-135">You cannot use the .ini file from a previous release.</span></span> <span data-ttu-id="39d55-136">클라우드 커넥터를 업그레이드 하는 경우 [클라우드 커넥터 기기 준비](prepare-your-cloud-connector-appliance.md) 항목을 참조 하 고 다음을 사용 하 여 SiteName 및 EnableReferSupport가 cloudconnector .ini 파일에서 올바른 값으로 설정 되어 있는지 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="39d55-136">If you are upgrading Cloud Connector, please refer to the topic [Prepare your Cloud Connector appliance](prepare-your-cloud-connector-appliance.md) and make sure SiteName and EnableReferSupport are set to the correct value in the CloudConnector.ini file.</span></span>
+3. <span data-ttu-id="b0b3e-134">설치 하려는 버전에 대 한 CloudConnector .ini 파일이 있고 환경에 필요한 모든 값을 업데이트 했는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-134">Confirm that you have the CloudConnector.ini file for the version you are installing, and that you have updated all of the required values for your environment.</span></span> <span data-ttu-id="b0b3e-135">이전 릴리스에서는 .ini 파일을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-135">You cannot use the .ini file from a previous release.</span></span> <span data-ttu-id="b0b3e-136">클라우드 커넥터를 업그레이드 하는 경우 [클라우드 커넥터 기기 준비](prepare-your-cloud-connector-appliance.md) 항목을 참조 하 고 다음을 사용 하 여 SiteName 및 EnableReferSupport가 cloudconnector .ini 파일에서 올바른 값으로 설정 되어 있는지 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-136">If you are upgrading Cloud Connector, please refer to the topic [Prepare your Cloud Connector appliance](prepare-your-cloud-connector-appliance.md) and make sure SiteName and EnableReferSupport are set to the correct value in the CloudConnector.ini file.</span></span>
     
-4. <span data-ttu-id="39d55-137">PowerShell 콘솔을 관리자로 시작 하 고 다음 cmdlet을 실행 하 여 현재 기기를 등록 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-137">Start a PowerShell console as administrator and run the following cmdlet to register the current appliance:</span></span>
+4. <span data-ttu-id="b0b3e-137">PowerShell 콘솔을 관리자로 시작 하 고 다음 cmdlet을 실행 하 여 현재 기기를 등록 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-137">Start a PowerShell console as administrator and run the following cmdlet to register the current appliance:</span></span>
     
    ```powershell
    Register-CcAppliance
    ```
 
-5. <span data-ttu-id="39d55-138">다음 cmdlet을 실행 하 여 최신 버전을 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-138">Run the following cmdlet to download the latest version:</span></span>
+5. <span data-ttu-id="b0b3e-138">다음 cmdlet을 실행 하 여 최신 버전을 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-138">Run the following cmdlet to download the latest version:</span></span>
     
    ```powershell
    Start-CcDownload
    ```
 
-6. <span data-ttu-id="39d55-139">다음 cmdlet을 실행 하 여 설치를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-139">Run the following cmdlet to start the installation:</span></span> 
+6. <span data-ttu-id="b0b3e-139">다음 cmdlet을 실행 하 여 설치를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-139">Run the following cmdlet to start the installation:</span></span> 
     
    ```powershell
    Install-CcAppliance -Upgrade
    ```
 
-7. <span data-ttu-id="39d55-140">다음 cmdlet을 실행 하 여 새 배포를 활성화 하 고 이전 버전을 해제 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-140">Run the following cmdlet to activate the new deployment and turn off the previous version:</span></span>
+7. <span data-ttu-id="b0b3e-140">다음 cmdlet을 실행 하 여 새 배포를 활성화 하 고 이전 버전을 해제 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-140">Run the following cmdlet to activate the new deployment and turn off the previous version:</span></span>
     
    ```powershell
    Switch-CcVersion
    ```
 
-<span data-ttu-id="39d55-141">사이트에 둘 이상의 기기가 있는 경우 앞의 단계를 따라 각 기기를 하나씩 업그레이드 하세요.</span><span class="sxs-lookup"><span data-stu-id="39d55-141">If there is more than one appliance in the site, please follow the preceding steps to upgrade each appliance one by one.</span></span>
+<span data-ttu-id="b0b3e-141">사이트에 둘 이상의 기기가 있는 경우 앞의 단계를 따라 각 기기를 하나씩 업그레이드 하세요.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-141">If there is more than one appliance in the site, please follow the preceding steps to upgrade each appliance one by one.</span></span>
   
-<span data-ttu-id="39d55-142">도메인 관리자, 가상 컴퓨터 관리자, 안전 모드 관리자 및 테 넌 트 관리자 자격 증명을 업데이트 하려는 경우 _Updateallcredentials_ 매개 변수를 사용 하 여 cmdlet을 실행 하 여 모든 자격 증명을 다시 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-142">If you want to update Domain administrator, Virtual machine administrator, Safe Mode administrator and Tenant administrator credentials, you can run the cmdlet with the  _UpdateAllCredentials_ parameter to reset all credentials:</span></span>
+<span data-ttu-id="b0b3e-142">도메인 관리자, 가상 컴퓨터 관리자, 안전 모드 관리자 및 테 넌 트 관리자 자격 증명을 업데이트 하려는 경우 _Updateallcredentials_ 매개 변수를 사용 하 여 cmdlet을 실행 하 여 모든 자격 증명을 다시 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-142">If you want to update Domain administrator, Virtual machine administrator, Safe Mode administrator and Tenant administrator credentials, you can run the cmdlet with the  _UpdateAllCredentials_ parameter to reset all credentials:</span></span>
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials
 ```
 
-<span data-ttu-id="39d55-143">그런 다음 새 버전으로 업그레이드 하기 시작 하면 새 자격 증명을 입력 하도록 승격 됩니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-143">Then, when you start to upgrade to a new version, you will be promoted to input the new credentials.</span></span> 
+<span data-ttu-id="b0b3e-143">그런 다음 새 버전으로 업그레이드 하기 시작 하면 새 자격 증명을 입력 하도록 승격 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-143">Then, when you start to upgrade to a new version, you will be promoted to input the new credentials.</span></span> 
   
-<span data-ttu-id="39d55-144">테 넌 트 관리자 자격 증명만을 다시 설정 하려는 경우 다음 cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-144">If you only want to reset your Tenant administrator credentials, run the following cmdlet:</span></span>
+<span data-ttu-id="b0b3e-144">테 넌 트 관리자 자격 증명만을 다시 설정 하려는 경우 다음 cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-144">If you only want to reset your Tenant administrator credentials, run the following cmdlet:</span></span>
   
 ```powershell
 Set-CcCredential -AccountType TenantAdmin
 ```
 
-## <a name="upgrade-multiple-sites-to-a-new-version"></a><span data-ttu-id="39d55-145">여러 사이트를 새 버전으로 업그레이드</span><span class="sxs-lookup"><span data-stu-id="39d55-145">Upgrade multiple sites to a new version</span></span>
-<span data-ttu-id="39d55-146"><a name="BKMK_Upgrade"> </a></span><span class="sxs-lookup"><span data-stu-id="39d55-146"></span></span>
+## <a name="upgrade-multiple-sites-to-a-new-version"></a><span data-ttu-id="b0b3e-145">여러 사이트를 새 버전으로 업그레이드</span><span class="sxs-lookup"><span data-stu-id="b0b3e-145">Upgrade multiple sites to a new version</span></span>
+<span data-ttu-id="b0b3e-146"><a name="BKMK_Upgrade"> </a></span><span class="sxs-lookup"><span data-stu-id="b0b3e-146"><a name="BKMK_Upgrade"> </a></span></span>
 
-<span data-ttu-id="39d55-147">배포의 각 사이트에 대해 한 번에 한 사이트를 업그레이드 하 여 단일 사이트를 업그레이드 하는 단계를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-147">Follow the steps for upgrading a single site, upgrading one site at a time for each site in your deployment.</span></span> <span data-ttu-id="39d55-148">각 사이트를 업그레이드 한 후 [클라우드 커넥터 배포를 확인 하 고 유효성을 검사](validate-your-cloud-connector-deployment.md) 합니다.</span><span class="sxs-lookup"><span data-stu-id="39d55-148">Make sure and [Validate your Cloud Connector deployment](validate-your-cloud-connector-deployment.md) after upgrading each site.</span></span>
+<span data-ttu-id="b0b3e-147">배포의 각 사이트에 대해 한 번에 한 사이트를 업그레이드 하 여 단일 사이트를 업그레이드 하는 단계를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-147">Follow the steps for upgrading a single site, upgrading one site at a time for each site in your deployment.</span></span> <span data-ttu-id="b0b3e-148">각 사이트를 업그레이드 한 후 [클라우드 커넥터 배포를 확인 하 고 유효성을 검사](validate-your-cloud-connector-deployment.md) 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0b3e-148">Make sure and [Validate your Cloud Connector deployment](validate-your-cloud-connector-deployment.md) after upgrading each site.</span></span>
   
 
