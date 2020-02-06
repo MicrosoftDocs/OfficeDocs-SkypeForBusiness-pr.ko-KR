@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: '요약: CDR 및 비즈니스용 Skype 서버에서 사용 하는 체감 품질 데이터베이스의 레코드를 수동으로 제거 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 5dbd2120e408dea0c3b34f87c17e4fbb18cc5055
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: c5d0eb31ad00d0e8636f5c151240c54df7320bbc
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001158"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41787698"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 정보 기록 및 경력 데이터베이스의 품질을 수동으로 제거
  

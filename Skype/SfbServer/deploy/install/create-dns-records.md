@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: '요약: 비즈니스용 Skype 서버용 설치를 위해 DNS를 구성 하 고 DNS 레코드를 만드는 방법에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: f5f5c40805388d6a1c861a53bae0a85c27537056
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 573d39c44bb4b4067d1030a957b1447ad62266c7
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245005"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791796"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 DNS 레코드 만들기
  
@@ -54,7 +56,7 @@ DNS 레코드는 비즈니스용 Skype Server가 올바르게 작동 하 고 사
 |전화 접속 간단한 URL  <br/> |에서  <br/> |전화 접속. contoso. i a 지역  <br/> |내부 웹 서비스에 대 한 VIP  <br/> |지원 되는 소프트웨어 및 하드웨어  <br/> |
 |웹 스케줄러 단순 URL  <br/> |에서  <br/> |' 극동/지방 '  <br/> |내부 웹 서비스에 대 한 VIP  <br/> |지원 되는 소프트웨어 및 하드웨어  <br/> |
 |관리 간단한 URL  <br/> |에서  <br/> |관리자. i a 로컬  <br/> |내부 웹 서비스에 대 한 VIP  <br/> |지원 되는 소프트웨어 및 하드웨어  <br/> |
-|레거시 검색  <br/> |SRV  <br/> |_sipinternaltls. _tcp  <br/> |풀 FQDN (port 5061)  <br/> |해당 없음  <br/> |
+|레거시 검색  <br/> |SRV  <br/> |_sipinternaltls _tcp. contoso. 로컬  <br/> |풀 FQDN (port 5061)  <br/> |해당 없음  <br/> |
    
 ### <a name="create-dns-records"></a>DNS 레코드 만들기
 
@@ -97,9 +99,9 @@ DNS 레코드는 비즈니스용 Skype Server가 올바르게 작동 하 고 사
     
 10. **리소스 레코드 종류 선택**에서 **서비스 위치 (SRV)** 를 클릭 한 다음 **레코드 만들기**를 클릭 합니다.
     
-11. **서비스**를 클릭 한 다음 **_sipinternaltls**를 입력 합니다.
+11. **서비스**를 클릭 한 다음 **_sipinternaltls**입력 합니다.
     
-12. **프로토콜**을 클릭 한 다음 **_tcp**를 입력 합니다.
+12. **프로토콜**을 클릭 한 다음 **_tcp**입력 합니다.
     
 13. **포트 번호**를 클릭 한 다음 **5061**을 입력 합니다.
     
@@ -121,7 +123,7 @@ DNS 레코드는 비즈니스용 Skype Server가 올바르게 작동 하 고 사
     
 5. 레거시 클라이언트를 지원 하 고 SRV 레코드를 만든 경우에는 **nslookup** 프롬프트에서 **set type = SRV** 를 입력 하 여 확인 한 다음 enter 키를 누릅니다.
     
-6. **_Sipinternaltls를 입력 합니다. _tcp. *도메인* ** (예: _sipinternaltls)을 입력 한 다음 enter 키를 누릅니다.
+6. **_Tcp _sipinternaltls 입력 합니다. *도메인* ** (예: _sipinternaltls _tcp)을 입력 한 다음 enter 키를 누릅니다.
     
 7. 예상 되는 출력은 그림에 표시 된 것과 유사 합니다. 모든 DNS 레코드가 예제 출력에 표시 되지는 않지만 모든 레코드를 확인 해야 합니다. 
     

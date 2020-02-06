@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 페어링 된 프런트 엔드 풀을 사용 하 여 재해 복구 보호를 제공 하기로 결정할 수 있지만, 반드시 그럴 필요는 없습니다.
-ms.openlocfilehash: 73f7d7619efbfc82124507234ebea8ebbcf4a7e8
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 63b9c55aad2b31e01eec506ce28e54d2145ee636
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002908"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790086"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 재해 복구용으로 쌍을 이루는 프런트 엔드 풀 배포
  

@@ -8,6 +8,8 @@ ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: '요약: 비즈니스용 Skype 서버 설치를 위해 Active Directory 도메인을 준비 하는 방법에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: a7b9a22042cecae76a5a5390b0778119363043b5
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: 5fce66e50bd8e51ce6af2ff266e0f4f46164c26e
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41554055"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791726"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 Active Directory 준비
  

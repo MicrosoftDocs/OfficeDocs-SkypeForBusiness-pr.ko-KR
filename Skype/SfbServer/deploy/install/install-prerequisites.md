@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Server에 대 한 필수 구성 요소 설치
+title: 비즈니스용 Skype 서버 및 Exchange 서버의 필수 구성 요소 설치
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,6 +8,8 @@ ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,14 +17,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: '요약: 비즈니스용 Skype 서버를 설치 하기 전에 구성 해야 하는 서버 및 서버 역할에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: 2fbf90a1ee6f517cad2c716e6a50dd814352993e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f8ecb50525a9bb312975bf71b55a5f71c19db205
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240909"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791766"
 ---
-# <a name="install-prerequisites-for-skype-for-business-server"></a>비즈니스용 Skype Server에 대 한 필수 구성 요소 설치
+# <a name="install-prerequisites-for-skype-for-business-server"></a>비즈니스용 Skype 서버 및 Exchange 서버의 필수 구성 요소 설치
  
 **요약:** 비즈니스용 Skype Server를 설치 하기 전에 구성 해야 하는 서버 및 서버 역할에 대해 알아봅니다. [Microsoft 평가 센터](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 하세요.
   

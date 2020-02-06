@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Polycom, HP, Mitel에서 비즈니스용 Skype로 작동 하는 휴대폰 및 필요한 라이선스에 대해 알아봅니다. '
-ms.openlocfilehash: e852d54a1189ed8de7561e64809b1fc782fa644a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f779462ad6def85cee43139d450d19b5d70195a3
+ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692253"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784765"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>비즈니스용 Skype Online 휴대폰 받기
 
@@ -51,7 +51,7 @@ Microsoft는 Office 365 및 비즈니스용 Skype 서버의 전화 시스템에 
 |옛 alink  <br/> |SIP-비즈니스용 Skype 에디션 TXXG  <br/> |
 |오디오 코드  <br/> |UCXXXHDEG (SfB)  <br/> |
    
-Polycom 휴대폰에 대 한 자세한 내용은 [Microsoft 용 음성 솔루션](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)을 참조 하세요.
+Polycom 휴대폰에 대 한 자세한 내용은 [Poly 문서 라이브러리](https://documents.polycom.com/category/voice)를 참조 하세요.
   
 옛 Alink 휴대폰에 대 한 자세한 내용은 [비즈니스용 SKYPE IP 전화](http://www.yealink.com/products_list_10.html#filter2)를 참조 하세요.
   
@@ -120,7 +120,7 @@ Office 365에서 지원 되는 전화를 사용 하 여 휴대폰 시스템에�
 ## <a name="what-else-should-you-know"></a>알아야 할 기타 사항
 단계별 설치 지침은 [비즈니스용 Skype Online 전화 배포](deploying-skype-for-business-online-phones.md)를 참조 하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](../getting-service-phone-numbers.md)
 
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

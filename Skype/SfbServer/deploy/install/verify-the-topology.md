@@ -8,6 +8,8 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: '요약: 비즈니스용 Skype 서버 토폴로지와 Active Directory 서버가 예상 대로 작동 하는지 확인 하는 방법에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: 6c7d7a67cab2cbd383ee26eb64f478985bcc4b27
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: aa631e5b08ff8cbe9cb6db17009f286dcc975679
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245517"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791716"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 토폴로지 확인
  

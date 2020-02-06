@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: '요약: 토폴로지의 각 서버에 비즈니스용 Skype 서버 시스템 구성 요소를 설치 하는 방법에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: 35ad1914dced8d8937de0f56a19c2709551a2893
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8ecf298809a6c4c37b5c075e7ac16623f1669ff9
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245807"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791756"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>토폴로지의 서버에 비즈니스용 Skype 서버 설치
  
@@ -62,7 +64,7 @@ ms.locfileid: "36245807"
     
 3. 사용권 계약을 신중 하 게 검토 하 고 동의할 경우 **사용권 계약에 동의 함을**선택 하 고 **확인**을 클릭 합니다. 
     
-4. 스마트 설정은 그림과 같이 설치 프로세스 중에 Microsoft Update (MU)의 업데이트를 확인 하도록 인터넷에 연결할 수 있는 비즈니스용 Skype 서버의 기능입니다. 이는 제품에 대 한 최신 업데이트가 있는지 확인 하 여 더 나은 환경을 제공 합니다. 설치 **** 를 클릭 하 여 설치를 시작 합니다.
+4. 스마트 설정은 그림과 같이 설치 프로세스 중에 Microsoft Update (MU)의 업데이트를 확인 하도록 인터넷에 연결할 수 있는 비즈니스용 Skype 서버의 기능입니다. 이는 제품에 대 한 최신 업데이트가 있는지 확인 하 여 더 나은 환경을 제공 합니다. 설치를 **클릭 하 여 설치를 시작** 합니다.
     
     > [!NOTE]
     > 대부분의 조직에서는 회사 환경에 WSUS (Windows Server Update Services)를 배포 합니다. WSUS를 통해 관리자는 네트워크의 컴퓨터에 대해 Microsoft 업데이트를 통해 릴리스된 업데이트의 배포를 완전히 관리할 수 있습니다. 누적 업데이트 1 릴리스 비즈니스용 Skype Server의 일부로 WSUS에서 작동 하는 스마트 설치 지원이 도입 되었습니다. 현재 위치 업그레이드 기능을 사용 하 여 비즈니스용 Skype Server를 처음으로 배포 하거나 Lync Server 2013 환경에서 업그레이드 하는 경우 WSUS를 사용 하는 고객은 업데이트를 가져오는 대신 WSUS에서 Windows 용 Skype 업데이트를 가져와 스마트 설정 합니다. MU. 스마트 설정을 사용 하려는 고객은 Setup.exe를 실행 하기 전에 모든 컴퓨터에서 SmartSetupWithWSUS을 실행 해야 합니다. 

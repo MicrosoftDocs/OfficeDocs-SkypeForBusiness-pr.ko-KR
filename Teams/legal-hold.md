@@ -1,7 +1,7 @@
 ---
 title: 법률 보류에 Microsoft 팀 사용자 또는 팀 배치
 author: LolaJacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 보안 & 준수 센터를 사용 하 여 법적 고 지에 따라 Microsoft 팀 사용자 또는 팀을 배치 하 고 데이터 요구 사항에 따라 법적 보류가 필요한 경우에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25bd8e235be79ed805a854cbda2b4947f1c1269b
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 1d6d41c9dba2aa5eff5d0f5d488b7403b54add5e
+ms.sourcegitcommit: 05aab1044fe34a65af18ed7368f9622e08f28f1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968039"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41779223"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>법률 보류에 Microsoft 팀 사용자 또는 팀 배치
 ==================================================
@@ -29,7 +29,7 @@ ms.locfileid: "37968039"
 > 사용자를 보류에 두면 그룹이 보류 중이거나 그 반대의 경우도 마찬가지입니다.
 
 > [!NOTE]
-> 개인 채널 메시지의 법적 보존에 대 한 구성은 아직 지원 되지 않습니다. 개인 채널에서 공유 된 파일의 법적 보류가 지원 됩니다.
+> 개인 채널 메시지의 법적 보류에 대 한 지원은 곧 제공 될 예정입니다. 개인 채널에서 공유 된 파일의 법적 보류가 지원 됩니다.
 
 > [!IMPORTANT]
 > 사용자 또는 그룹이 보류 중인 경우 모든 메시지 복사본이 유지 됩니다. 예: Clay가 채널에서 메시지를 게시 한 후 메시지를 수정 했습니다. 보류 시나리오에서 메시지의 두 복사본이 모두 보존 됩니다. 법률 포함 없이 최신 메시지만 유지 됩니다.

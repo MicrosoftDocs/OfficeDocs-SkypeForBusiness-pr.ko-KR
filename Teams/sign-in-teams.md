@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
-ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
+ms.openlocfilehash: 9911a014fe3bd3e3ede151e2a85e8181c399e463
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41678972"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790616"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>최신 인증을 사용 하 여 Microsoft 팀에 로그인
 ==========================
@@ -54,6 +54,9 @@ Microsoft 팀은 최신 인증을 사용 하 여 로그인 환경을 간단 하 
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>최신 인증을 완료 한 후 Microsoft 팀에서 로그 아웃
 팀에서 로그 아웃 하려면 사용자가 앱 맨 위에 있는 프로필 사진을 클릭 한 다음 **로그 아웃**을 선택 하면 됩니다. 작업 표시줄에서 앱 아이콘을 마우스 오른쪽 단추로 클릭 한 다음 **로그 아웃**을 선택 해도 됩니다. 팀에서 로그 아웃 한 후에는 앱을 실행 하기 위해 자격 증명을 다시 입력 해야 합니다.
+
+## <a name="urls-and-ip-address-ranges"></a>Url 및 IP 주소 범위
+팀이 인터넷에 연결 되어 있어야 합니다. Office 365 요금제, 정부 및 기타 클라우드에서 팀을 사용 하는 고객에 게 연결할 수 있는 끝점을 이해 하려면 [여기에서 제공](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)하는 지침을 참조 하세요. 이 외에도에 https://ssl.gstatic.com대 한 액세스를 허용 해야 합니다.
 
 ## <a name="troubleshooting-modern-authentication"></a>최신 인증 문제 해결
 

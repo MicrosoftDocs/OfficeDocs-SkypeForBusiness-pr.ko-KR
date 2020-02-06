@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: '요약: 비즈니스용 Skype 서버를 설치 하기 전에 새 토폴로지를 만들고, 게시 하 고, 확인 하는 방법에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: c62e2ae061f02f195d0a9560d08234c452543d88
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 631b0e44dfc632cbcc07f4fa6020e39b8dd292e0
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245008"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791806"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 새 토폴로지 만들기 및 게시
  
@@ -148,9 +150,9 @@ ms.locfileid: "36245008"
     - 이 예제에서와 같이 DNS 부하 분산을 구성 하는 경우 내부 **웹 서비스 풀 Fqdn 재정의** 확인란을 선택 하 고 내부 기본 url (풀 fqdn과는 다른 내부 **기준 url**)을 입력 합니다. 
     
     > [!CAUTION]
-    > 내부 웹 서비스를 자체 정의 FQDN으로 재정의 하기로 결정 한 경우 각 FQDN은 다른 프런트 엔드 풀, 디렉터 또는 디렉터 풀에서 고유 해야 합니다. **표준 문자만 사용** Url 또는 정규화 된 도메인 이름을 정의할 때 (A-z, a-z, 0-9, 하이픈 포함). 유니코드 문자나 밑줄은 사용 하지 마세요. URL 또는 fqdn의 비표준 문자는 외부 DNS 및 Ca (공개 인증 기관)에서 지원 되지 않는 경우가 많습니다 (즉, URL 또는 FQDN을 인증서의 주체 이름 또는 주체 대체 이름에 할당 해야 하는 경우).
+    > 내부 웹 서비스를 자체 정의 FQDN으로 재정의 하기로 결정 한 경우 각 FQDN은 다른 프런트 엔드 풀, 디렉터 또는 디렉터 풀에서 고유 해야 합니다. Url 또는 정규화 된 도메인 이름을 정의할 때는 표준 문자 (A-z, a-z, 0-9, 하이픈 포함) **만 사용** 합니다. 유니코드 문자나 밑줄은 사용 하지 마세요. URL 또는 fqdn의 비표준 문자는 외부 DNS 및 Ca (공개 인증 기관)에서 지원 되지 않는 경우가 많습니다 (즉, URL 또는 FQDN을 인증서의 주체 이름 또는 주체 대체 이름에 할당 해야 하는 경우).
   
-    - 필요에 따라 외부 기본 url에 외부 **** 기본 url을 입력 합니다. 외부 기본 URL을 입력 하 여 내부 도메인 이름과 구분 합니다. 예를 들어 내부 도메인이 contoso. local 이지만 외부 도메인 이름은 contoso.com입니다. 공용 DNS에서 확인할 수 있어야 하기 때문에 contoso.com 도메인 이름을 사용 하 여 URL을 정의 합니다. 이는 리버스 프록시의 경우에도 중요 합니다. 외부 기본 URL 도메인 이름은 역방향 프록시의 FQDN에 대 한 도메인 이름과 동일 합니다. 프런트 엔드 풀에 대 한 HTTP 액세스는 모바일 클라이언트에서 인스턴트 메시지 및 현재 상태를 위해 필요 합니다.
+    - 필요에 따라 **외부 기본 url**에 외부 기본 url을 입력 합니다. 외부 기본 URL을 입력 하 여 내부 도메인 이름과 구분 합니다. 예를 들어 내부 도메인이 contoso. local 이지만 외부 도메인 이름은 contoso.com입니다. 공용 DNS에서 확인할 수 있어야 하기 때문에 contoso.com 도메인 이름을 사용 하 여 URL을 정의 합니다. 이는 리버스 프록시의 경우에도 중요 합니다. 외부 기본 URL 도메인 이름은 역방향 프록시의 FQDN에 대 한 도메인 이름과 동일 합니다. 프런트 엔드 풀에 대 한 HTTP 액세스는 모바일 클라이언트에서 인스턴트 메시지 및 현재 상태를 위해 필요 합니다.
     
       ![웹 서비스를 재정의 합니다.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   

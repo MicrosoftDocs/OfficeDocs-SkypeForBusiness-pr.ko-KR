@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Exchange Online을 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: e53fd2ebd25ef6b625ada84b60d58e42e8c13a28
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: e07d8ed3e7d04122a2a084803ad72c3bdb541918
+ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628424"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784805"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online을 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -36,6 +36,8 @@ Exchange Online을 사용 하 여 Microsoft 팀 대화방을 배포 하려면 �
 
    > [!NOTE]
    >  이 섹션 (예: MsolUser)의 [Windows PowerShell 용 Azure Active Directory 모듈](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) 은 Microsoft 팀 회의실 장치에 대 한 계정 설정에서 테스트를 거쳤습니다. 그러나이 특정 시나리오에서 테스트 하지 않은 경우에도 다른 cmdlet이 작동할 수 있습니다.
+
+AD FS (Active Directory Federation Services)를 배포한 경우 다음 단계를 수행 하기 전에 사용자 계정을 관리 되는 사용자로 변환한 다음이 단계를 완료 한 후 사용자를 다시 페더레이션 사용자로 변환 해야 할 수 있습니다.
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>계정 만들기 및 Exchange 속성 설정
 
@@ -54,23 +56,21 @@ Exchange Online을 사용 하 여 Microsoft 팀 대화방을 배포 하려면 �
    기존 리소스 사서함을 변경 하려면 다음을 수행 합니다.
 
    ``` Powershell
-   Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   Set-Mailbox -Identity 'PROJECT01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
     새 리소스 사서함을 만드는 경우:
 
    ``` Powershell
-   New-Mailbox -MicrosoftOnlineServicesID 'PROJECTRIGEL01@contoso.com' -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   New-Mailbox -MicrosoftOnlineServicesID 'PROJECT01@contoso.com' -Alias PROJECT01 -Name "Project--01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 3. 모임 환경을 개선 하려면 다음과 같이 사용자 계정에 Exchange 속성을 설정 해야 합니다.
 
    ``` Powershell
-   Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
+   Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
-
-
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>온-프레미스 도메인 계정에 대 한 전자 메일 주소 추가
 
@@ -86,10 +86,10 @@ Exchange Online을 사용 하 여 Microsoft 팀 대화방을 배포 하려면 �
 
 ### <a name="assign-an-office-365-license"></a>Office 365 라이선스 할당
 
-1. 먼저 Azure AD에 연결 하 여 일부 계정 설정을 적용 합니다. 이 cmdlet을 실행 하 여 연결할 수 있습니다. Active Directory에 대 한 자세한 내용은 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)을 참조 하세요. 
+1. 먼저 Azure AD에 연결 하 여 일부 계정 설정을 적용 합니다. 이 cmdlet을 실행 하 여 연결할 수 있습니다. Active Directory에 대 한 자세한 내용은 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)을 참조 하세요.
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 는 지원 되지 않습니다. 
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 는 지원 되지 않습니다.
 
     ``` PowerShell
    Connect-MsolService -Credential $cred
@@ -103,14 +103,14 @@ Exchange Online을 사용 하 여 Microsoft 팀 대화방을 배포 하려면 �
 4. Sku를 나열 하면 다음을 사용 하 여 라이선스를 추가할 수 있습니다.`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> 은. 이 경우 $strLicense는 사용자에 게 표시 되는 SKU 코드입니다 (예: contoso: STANDARDPACK). 
 
     ```PowerShell
-      Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+    Set-MsolUser -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
      Get-MsolAccountSku
-     Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+     Set-MsolUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
     ```
   <!--   ``` Powershell
-     Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+     Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
      Get-AzureADSubscribedSku
-     Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+     Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
      ``` -->
 
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>비즈니스용 Skype 서버에서 사용자 계정 사용

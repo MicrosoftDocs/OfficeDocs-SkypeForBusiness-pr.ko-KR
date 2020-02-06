@@ -8,6 +8,8 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: '요약: 비즈니스용 Skype 서버 설치에 필요한 관리 도구를 설치 하는 방법에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: 168202048fcd72b16d93cfd410f678cad01b3058
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3abf2eb35a4593f25db75e175f3cd30fdf49e21b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244854"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790176"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>비즈니스용 Skype 서버에 관리 도구 설치
  
@@ -47,7 +49,7 @@ ms.locfileid: "36244854"
     
 2. 설치 미디어를 실행 하려면 Microsoft Visual c + +가 필요 합니다. 설치 여부를 묻는 대화 상자가 팝업 됩니다. **예**를 클릭 합니다.
     
-3. 비즈니스용 Skype Server의 새로운 기능인 스마트 설정을 사용 하 여 설치 프로세스 중에 인터넷에 연결 하 여 업데이트를 확인할 수 있습니다. 이렇게 하면 설치 시 제품에 대 한 최신 업데이트가 있는지 확인 하 여 더 나은 환경을 제공 합니다. 설치 **** 를 클릭 하 여 설치를 시작 합니다.
+3. 비즈니스용 Skype Server의 새로운 기능인 스마트 설정을 사용 하 여 설치 프로세스 중에 인터넷에 연결 하 여 업데이트를 확인할 수 있습니다. 이렇게 하면 설치 시 제품에 대 한 최신 업데이트가 있는지 확인 하 여 더 나은 환경을 제공 합니다. 설치를 **클릭 하 여 설치를 시작** 합니다.
     
 4. 사용권 계약을 신중 하 게 검토 하 고 동의할 경우 **사용권 계약에 동의 함을**선택 하 고 **확인**을 클릭 합니다.
     

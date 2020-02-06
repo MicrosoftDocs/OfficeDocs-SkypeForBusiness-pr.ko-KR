@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.NcsLocEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: 위치 정책을 구성하여 E9-1-1(고급 9-1-1)이 사용하도록 설정되는지 여부 및 사용되는 방법과, 사용자 및 연락처에 대해 위치 정보가 사용되는 방법을 결정할 수 있습니다.
-ms.openlocfilehash: 1ae4d2b5223599dd595dcbcceae60396a4af4869
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b4b67535c318e92ca951deaff167c0d86cc4d2a2
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691053"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41792196"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>위치 정책: 새로 만들기 또는 기존 항목 편집
 
