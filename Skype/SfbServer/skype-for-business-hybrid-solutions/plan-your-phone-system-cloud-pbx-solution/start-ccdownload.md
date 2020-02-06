@@ -8,15 +8,17 @@ ms.date: 8/8/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
 description: 시작-CcDownload cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 비트 및 msi 파일을 동기적으로 다운로드 합니다.
-ms.openlocfilehash: 5c493862151a308208bf83e142421f3257e476e0
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 3298b02fbb792392860f05ebb15a9221b45e47b4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003188"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824182"
 ---
 # <a name="start-ccdownload"></a>Start-CcDownload
  

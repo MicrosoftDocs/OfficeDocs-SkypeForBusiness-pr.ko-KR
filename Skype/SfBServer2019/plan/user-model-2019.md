@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: ''
 description: 이 섹션의 항목에서는 비즈니스용 Skype 서버를 계획 하 고 배포 하는 방법을 이해 하 여 조직의 사용자 수를 적절 하 게 계획 하 고 활동이 생성 하는 서버 부하를 계획 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4dca5470b5512bb8a6310a60442478c761c7411e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 15f59d2052a4d73f6e1b1c09b10525b503958fea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189771"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824032"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019에 대 한 용량 계획
 
@@ -32,7 +34,7 @@ ms.locfileid: "36189771"
 |%  <br/> |인텔 제온 E5-2673 v3 듀얼 프로세서, 6-코어, 2.4 ghz 이상.  <br/> 인텔 아이테니엄 프로세서는 비즈니스용 Skype 서버 2019 역할에 지원 되지 않습니다.  <br/> |
 |Memory  <br/> |32 기가바이트 (GB).  <br/> |
 |공간  <br/> |어떤  <br/> • 최소 72 GB의 무료 디스크 공간을 제공 하는 8 개 이상의 1만 RPM (raid 10을 사용 하는 RAID 1 및 6을 사용 하는 두 개의 디스크)  <br/> 또는  <br/> • Ssd (고체 드라이브)는 8 1만 RPM 기계적 디스크 드라이브에 동일한 여유 공간 및 유사한 성능을 제공할 수 있습니다.  <br/> |
-|사설망  <br/> |1 Gbps 이상의 듀얼 포트 네트워크 어댑터 (2 개의 네트워크 어댑터를 사용할 수 있지만 단일 MAC 주소 및 단일 IP 주소로 팀에 있어야 함).  <br/> 프런트 엔드 서버, 백 엔드 서버 및 Standard Edition 서버에서는 듀얼 또는 멀티홈 구성이 지원 **되지 않습니다** . <br/> 운영 체제에 표시 되지 않고 서버 하드웨어를 모니터링 하 고 관리 하는 데 사용 되는 동안에는 DRAC 또는 ILO와 같은 대역외 관리 시스템을 사용할 수 있습니다. 이 시나리오는 멀티홈 서버를 구성 하지 않으며 지원 됩니다.  <br/> |
+|네트워크  <br/> |1 Gbps 이상의 듀얼 포트 네트워크 어댑터 (2 개의 네트워크 어댑터를 사용할 수 있지만 단일 MAC 주소 및 단일 IP 주소로 팀에 있어야 함).  <br/> 프런트 엔드 서버, 백 엔드 서버 및 Standard Edition 서버에서는 듀얼 또는 멀티홈 구성이 지원 **되지 않습니다** . <br/> 운영 체제에 표시 되지 않고 서버 하드웨어를 모니터링 하 고 관리 하는 데 사용 되는 동안에는 DRAC 또는 ILO와 같은 대역외 관리 시스템을 사용할 수 있습니다. 이 시나리오는 멀티홈 서버를 구성 하지 않으며 지원 됩니다.  <br/> |
 
 ## <a name="summary-of-results"></a>결과 요약
 
@@ -53,7 +55,7 @@ ms.locfileid: "36189771"
 > [!NOTE]
 > 이 서버 역할에 대해 스트레치 풀이 지원 되지 않습니다.
 
-프런트 엔드 풀에는 풀의 모든 서버에서 하이퍼 스레드를 사용할 수 있고, SQL Server Express Edition을 사용 하 고 있으며, 서버 하드웨어가 권장 사항에 부합 한다고 가정 하 여 풀에 있는 모든 6660 사용자에 대해 프런트 엔드 서버 1이 있어야 합니다. [비즈니스용 Skype 서버 2019의 서버 요구 사항](system-requirements.md) 1 개의 프런트 엔드 풀에 있는 최대 사용자 수는 106000 이며, 하이퍼 스레드를 사용 하도록 설정 하 고 SQL Server Express Edition을 풀의 모든 서버에서 사용 하는 것으로 간주 합니다. 사이트에 106000 명 이상의 사용자가 있는 경우 두 개 이상의 프런트 엔드 풀을 배포할 수 있습니다.
+프런트 엔드 풀에서 풀의 모든 서버에 대 한 하이퍼 스레드를 사용 하도록 설정 되어 있고, SQL Server Express Edition을 사용 하 고 있으며, 서버 하드웨어가 [비즈니스용 Skype server 2019에 대 한 서버 요구 사항](system-requirements.md)에 부합 하는 경우 풀에 있는 모든 6660 사용자에 대해 프런트 엔드 서버가 하나씩 있어야 합니다. 1 개의 프런트 엔드 풀에 있는 최대 사용자 수는 106000 이며, 하이퍼 스레드를 사용 하도록 설정 하 고 SQL Server Express Edition을 풀의 모든 서버에서 사용 하는 것으로 간주 합니다. 사이트에 106000 명 이상의 사용자가 있는 경우 두 개 이상의 프런트 엔드 풀을 배포할 수 있습니다.
 
 프런트 엔드 풀의 사용자 수를 고려 하는 경우이 프론트 엔드 풀과 연결 된 지점에서 Survivable Branch 기기 및 Survivable Branch 서버에 속한 사용자를 포함 합니다.
 
@@ -173,16 +175,16 @@ Microsoft는 성능 테스트 중에 모니터링 및 보관을 위해 데이터
 |%  <br/> |인텔 제온 E5-2673 v3 듀얼 프로세서, 6-코어, 2.4 ghz 이상.  <br/> |
 |Memory  <br/> |48 GB  <br/> |
 |공간  <br/> | 어떤<br/> • 최소 72 GB의 무료 디스크 공간을 제공 하는 4 개 이상의 1만 RPM 하드 디스크 드라이브 (디스크가 2 배로 RAID 1 구성 되어 있어야 함). <br/>또는 <br/>• Ssd (고체 드라이브)는 4 1만 RPM 기계적 디스크 드라이브에 동일한 여유 공간 및 유사한 성능을 제공할 수 있습니다.   <br/> |
-|사설망  <br/> | 1 개의 듀얼 포트 네트워크 어댑터, 1Gbps 이상 (2 권장, 단일 MAC 주소 및 단일 IP 주소를 사용 하는 팀이 필요 함)  <br/> |
+|네트워크  <br/> | 1 개의 듀얼 포트 네트워크 어댑터, 1Gbps 이상 (2 권장, 단일 MAC 주소 및 단일 IP 주소를 사용 하는 팀이 필요 함)  <br/> |
 
 **권장 되는 디스크 구성**
 
 |**구동** <br/> |**RAID 구성** <br/> |**디스크 수** <br/> |
 |:-----|:-----|:-----|
 |CDR, 체감 품질, 데이터베이스 데이터 파일을 단일 드라이브에 보관  <br/> |1 + 0  <br/> |16  <br/> |
-|CDR 데이터베이스 로그 파일  <br/> |raid-1  <br/> |2  <br/> |
-|체감 품질 데이터베이스 로그 파일  <br/> |raid-1  <br/> |2  <br/> |
-|데이터베이스 로그 파일 보관  <br/> |raid-1  <br/> |2  <br/> |
+|CDR 데이터베이스 로그 파일  <br/> |1  <br/> |2  <br/> |
+|체감 품질 데이터베이스 로그 파일  <br/> |1  <br/> |2  <br/> |
+|데이터베이스 로그 파일 보관  <br/> |1  <br/> |2  <br/> |
 
 ## <a name="video-interop-server-capacity"></a>비디오 Interop 서버 용량
 

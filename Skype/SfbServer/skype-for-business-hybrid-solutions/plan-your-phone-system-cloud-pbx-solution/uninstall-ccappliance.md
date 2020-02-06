@@ -8,15 +8,17 @@ ms.date: 2/23/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: 제거-CcAppliance cmdlet는 호스트 서버에서 실행 중인 비즈니스용 Skype 클라우드 커넥터 에디션 기기를 제거 합니다.
-ms.openlocfilehash: f37c3092103832c9efd3b24d2efbedf00e8f54ac
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: c92ad5c31e2e254e4f10511835b6cc9f60c7c43c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003148"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824142"
 ---
 # <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  

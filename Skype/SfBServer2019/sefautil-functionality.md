@@ -8,15 +8,17 @@ ms.date: 07/22/2019
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '요약: PowerShell을 사용 하 여 SEFAUtil 기능을 가져오는 방법에 대 한 자세한 내용은 누적 업데이트 1을 설치한 후 비즈니스용 Skype 서버 2019을 확인 하세요.'
-ms.openlocfilehash: 6652e3b76a31ac4b315c70498ac2b01d4467b70e
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: 91958d466a2f51b45ef933d21bfce10f5c61790d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838101"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824022"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019에서 PowerShell을 통해 SEFAUtil 기능 사용
 

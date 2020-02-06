@@ -8,15 +8,17 @@ ms.date: 07/22/2019
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 비즈니스용 Skype 서버 2019에서 RGS (응답 그룹 서비스) 데이터를 백업 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0a37b4d4771a75513666597de5eb87dedcbcd0c7
-ms.sourcegitcommit: 14700a4faab81a294ac794f25b26619a5ed242a5
+ms.openlocfilehash: f9c62953dcb859be2aa34bdee84ca76e3303d738
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "36198008"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824072"
 ---
 # <a name="back-up-response-group-service-rgs-data"></a>RGS (응답 그룹 서비스) 데이터 백업
 

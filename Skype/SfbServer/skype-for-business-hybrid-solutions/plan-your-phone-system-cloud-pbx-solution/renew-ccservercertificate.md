@@ -8,15 +8,17 @@ ms.date: 7/18/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
 description: 사용자가 만료 되거나 이미 만료 된 경우이를 갱신 하는 비즈니스용 Skype 클라우드 커넥터 에디션에 대 한 인증서를 갱신 합니다. 이 명령은 클라우드 커넥터 2.0 및 이후 릴리스의 업데이트-CcServerCertificate로 변경 되었습니다.
-ms.openlocfilehash: 47f2bbefa6510ae49e2e4a3ddc321e288dee266e
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: e4f3f4bbf0904733cf39f71534115543ff15fa65
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003268"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824264"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  

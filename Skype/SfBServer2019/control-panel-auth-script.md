@@ -8,15 +8,17 @@ ms.date: 07/23/2019
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: OAuth 프로토콜을 통해 Office 365를 사용 하 여 SFB 2019 제어판 인증을 구성 하는 도우미 스크립트입니다.
-ms.openlocfilehash: d53848aa0724f381d5f7320c13be14087777bfab
-ms.sourcegitcommit: 11c5c046371b4203c585ef8f1e4ab5d3659144a0
+ms.openlocfilehash: d434ad1530e05af396982a6c6278a80b9a416aa6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "36198014"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824062"
 ---
 # <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>비즈니스용 Skype 서버 2019 제어판 인증 스크립트
 

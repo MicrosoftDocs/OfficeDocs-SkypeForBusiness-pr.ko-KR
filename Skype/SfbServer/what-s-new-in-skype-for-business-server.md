@@ -8,16 +8,18 @@ ms.date: 12/20/2017
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: '요약: 비즈니스용 Skype Server 2015의 새로운 기능에 대 한 자세한 내용은이 항목을 참조 하세요. 새로운 클라이언트 환경에 대 한 자세한 내용은 Lync for 비즈니스용 Skype-새로운 기능을 참조 하세요.'
-ms.openlocfilehash: e59d158242a5d2dd4b129da3a531749b22e3eadc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0a11c94f7c31b0140a256ab350f5dad6112bc71e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191982"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824082"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 새로운 기능
 

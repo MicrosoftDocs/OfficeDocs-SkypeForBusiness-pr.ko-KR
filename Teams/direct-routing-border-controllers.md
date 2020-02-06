@@ -13,13 +13,14 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+hideEdit: true
 description: 사용자가 직접 라우팅으로 SBCs 작업을 인증 하도록 선택 된 SBC 공급 업체와의 협력 파트너.
-ms.openlocfilehash: a63a9d11e21d477bbb1e6c9e9872fff526046475
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: dfd5474ac0e70353823be48b44e0d5e2e2f39f1d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634871"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823992"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 

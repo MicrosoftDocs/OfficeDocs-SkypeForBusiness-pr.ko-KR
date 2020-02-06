@@ -8,15 +8,17 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: Set-CcExternalCertificateFilePath cmdlet은 중재 서버 또는 Edge 서버의 인증서가 저장 되는 경로를 지정 합니다.
-ms.openlocfilehash: e71a50f09a4ce3d085746c30f7591e8a07eb38de
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 9216b82626da7160d6e1bfa8d611757321a2683a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003208"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824202"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  

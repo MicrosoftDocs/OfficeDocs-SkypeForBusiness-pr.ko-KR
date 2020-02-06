@@ -7,14 +7,16 @@ ms.reviewer: waseemh, dstrome, balinger
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Microsoft는 2020 년 2 월에 ExchUMO (Exchange 통합 메시징 Online) 서비스를 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 인식 하 고 비즈니스 연속성을 계획 하기 위해 수행 해야 하는 작업을 요약 합니다.
-ms.openlocfilehash: 1518bf9d5c45b4d53ee2934bb996978b82159617
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aee9441a6da436728e9d6add1cc67b9af7967439
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737128"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824042"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
