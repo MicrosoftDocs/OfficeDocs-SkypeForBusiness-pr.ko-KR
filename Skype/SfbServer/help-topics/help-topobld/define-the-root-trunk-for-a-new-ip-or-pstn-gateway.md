@@ -8,36 +8,38 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddPstnGatewayTrunkPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 다음을 구성 하 여 IP 또는 PSTN (공개 교환 전화 네트워크)에 대 한 루트 트렁크를 정의 합니다.
-ms.openlocfilehash: 8d20fbe13a0530095679fb1f26676ef805f9b189
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d55edbabb43320215c932041549e7ef6a0aed2b3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684811"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820160"
 ---
-# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a><span data-ttu-id="99ca6-103">새 IP 또는 PSTN 게이트웨이의 루트 트렁크 정의</span><span class="sxs-lookup"><span data-stu-id="99ca6-103">Define the Root Trunk for a New IP or PSTN Gateway</span></span>
+# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a><span data-ttu-id="f57c9-103">새 IP 또는 PSTN 게이트웨이의 루트 트렁크 정의</span><span class="sxs-lookup"><span data-stu-id="f57c9-103">Define the Root Trunk for a New IP or PSTN Gateway</span></span>
 
-<span data-ttu-id="99ca6-104">다음을 구성 하 여 IP 또는 PSTN (공개 교환 전화 네트워크)에 대 한 루트 트렁크를 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="99ca6-104">You define the root trunk for the IP or public switched telephone network (PSTN) by configuring the following:</span></span>
+<span data-ttu-id="f57c9-104">다음을 구성 하 여 IP 또는 PSTN (공개 교환 전화 네트워크)에 대 한 루트 트렁크를 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="f57c9-104">You define the root trunk for the IP or public switched telephone network (PSTN) by configuring the following:</span></span>
 
-- <span data-ttu-id="99ca6-105">**트렁크 이름**: 트렁크와 관련 된 정규화 된 도메인 이름 정의</span><span class="sxs-lookup"><span data-stu-id="99ca6-105">**Trunk name**: define the fully qualified domain name associated with the trunk</span></span>
+- <span data-ttu-id="f57c9-105">**트렁크 이름**: 트렁크와 관련 된 정규화 된 도메인 이름 정의</span><span class="sxs-lookup"><span data-stu-id="f57c9-105">**Trunk name**: define the fully qualified domain name associated with the trunk</span></span>
 
-- <span data-ttu-id="99ca6-106">**IP/PSTN 게이트웨이의 수신 대기 포트**:이 트렁크가 듣는 포트 정의</span><span class="sxs-lookup"><span data-stu-id="99ca6-106">**Listening port for IP/PSTN gateway**: define the port that this trunk will listen on</span></span>
+- <span data-ttu-id="f57c9-106">**IP/PSTN 게이트웨이의 수신 대기 포트**:이 트렁크가 듣는 포트 정의</span><span class="sxs-lookup"><span data-stu-id="f57c9-106">**Listening port for IP/PSTN gateway**: define the port that this trunk will listen on</span></span>
 
-- <span data-ttu-id="99ca6-107">**SIP 전송 프로토콜**: 목록에서 트렁크 요구 사항에 따라 **TCP** 또는 **TLS**중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="99ca6-107">**SIP Transport Protocol**: select from the list either **TCP** or **TLS**, based on the trunk requirements</span></span>
+- <span data-ttu-id="f57c9-107">**SIP 전송 프로토콜**: 목록에서 트렁크 요구 사항에 따라 **TCP** 또는 **TLS**중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="f57c9-107">**SIP Transport Protocol**: select from the list either **TCP** or **TLS**, based on the trunk requirements</span></span>
 
-- <span data-ttu-id="99ca6-108">**연결 된 중재 서버**: 배포에서 사용 가능한 중재 서버 목록에서 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="99ca6-108">**Associated Mediation Server**: select from the list of available Mediation Servers in your deployment</span></span>
+- <span data-ttu-id="f57c9-108">**연결 된 중재 서버**: 배포에서 사용 가능한 중재 서버 목록에서 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="f57c9-108">**Associated Mediation Server**: select from the list of available Mediation Servers in your deployment</span></span>
 
-- <span data-ttu-id="99ca6-109">**연결 된 중재 서버 포트**: 선택한 중재 서버에서 수신 대기 중인 포트를 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="99ca6-109">**Associated Mediation Server port**: define the port that the selected Mediation Server is listening on</span></span>
+- <span data-ttu-id="f57c9-109">**연결 된 중재 서버 포트**: 선택한 중재 서버에서 수신 대기 중인 포트를 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="f57c9-109">**Associated Mediation Server port**: define the port that the selected Mediation Server is listening on</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="99ca6-110">참고 항목</span><span class="sxs-lookup"><span data-stu-id="99ca6-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f57c9-110">참고 항목</span><span class="sxs-lookup"><span data-stu-id="f57c9-110">See also</span></span>
 
-[<span data-ttu-id="99ca6-111">Lync Server 2013에서 미디어 바이패스로 트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="99ca6-111">Configure a trunk with media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+[<span data-ttu-id="f57c9-111">Lync Server 2013에서 미디어 바이패스로 트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="f57c9-111">Configure a trunk with media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-[<span data-ttu-id="99ca6-112">Lync Server 2013에서 미디어 바이패스 없이 트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="99ca6-112">Configure a trunk without media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+[<span data-ttu-id="f57c9-112">Lync Server 2013에서 미디어 바이패스 없이 트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="f57c9-112">Configure a trunk without media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-[<span data-ttu-id="99ca6-113">SIP 트렁크 지원</span><span class="sxs-lookup"><span data-stu-id="99ca6-113">SIP Trunking Support</span></span>](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[<span data-ttu-id="f57c9-113">SIP 트렁크 지원</span><span class="sxs-lookup"><span data-stu-id="f57c9-113">SIP Trunking Support</span></span>](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
