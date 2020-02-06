@@ -6,21 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 서버 구축은 많은 동시 영구 채팅방을 호스트할 수 있습니다. 채팅방은 서버에서 범주 집합으로 구성할 수 있습니다. 각 채팅방은 한 범주에 속하며 해당 범주의 일부 설정을 상속합니다. 이러한 구성은 비즈니스 목적에 따라 대화를 식별하는 데 유용한 구조를 만들며 위임된 관리 및 간소화된 관리를 용이하게 합니다.
-ms.openlocfilehash: e8074c7271686ba9200178058b156ed967d5401c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 220bddbfd391f019310e994db66a63e51785e144
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690893"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797569"
 ---
-# <a name="persistent-chat-configuration"></a><span data-ttu-id="f41a2-106">영구 채팅 구성</span><span class="sxs-lookup"><span data-stu-id="f41a2-106">Persistent Chat Configuration</span></span>
+# <a name="persistent-chat-configuration"></a><span data-ttu-id="58b4c-106">영구 채팅 구성</span><span class="sxs-lookup"><span data-stu-id="58b4c-106">Persistent Chat Configuration</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="f41a2-107">영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만, 비즈니스용 Skype Server 2019에서는 더 이상 지원 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f41a2-107">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="f41a2-108">팀 에서도 동일한 기능을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f41a2-108">The same functionality is available in Teams.</span></span> <span data-ttu-id="f41a2-109">자세한 내용은 비즈니스용 [Skype For Microsoft 팀 업그레이드](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f41a2-109">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="f41a2-110">영구 채팅을 사용 해야 하는 경우에는이 기능이 필요한 사용자를 팀에 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용 하는 것이 선택 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f41a2-110">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="58b4c-107">영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만, 비즈니스용 Skype Server 2019에서는 더 이상 지원 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="58b4c-107">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="58b4c-108">팀 에서도 동일한 기능을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="58b4c-108">The same functionality is available in Teams.</span></span> <span data-ttu-id="58b4c-109">자세한 내용은 비즈니스용 [Skype For Microsoft 팀 업그레이드](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="58b4c-109">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="58b4c-110">영구 채팅을 사용 해야 하는 경우에는이 기능이 필요한 사용자를 팀에 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용 하는 것이 선택 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="58b4c-110">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
