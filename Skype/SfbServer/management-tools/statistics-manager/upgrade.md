@@ -7,108 +7,110 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: '요약: 비즈니스용 Skype 서버용 통계 관리자를 업그레이드 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: de88257b628256c47b68036852d82fb6715c043f
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 6d54261ce9148986df5342bc228fe70b1477e17a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992505"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816207"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a><span data-ttu-id="b7b87-103">비즈니스용 Skype 서버 통계 관리자 업그레이드</span><span class="sxs-lookup"><span data-stu-id="b7b87-103">Upgrade Statistics Manager for Skype for Business Server</span></span>
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a><span data-ttu-id="bca05-103">비즈니스용 Skype 서버 통계 관리자 업그레이드</span><span class="sxs-lookup"><span data-stu-id="bca05-103">Upgrade Statistics Manager for Skype for Business Server</span></span>
  
-<span data-ttu-id="b7b87-104">**요약:** 비즈니스용 Skype 서버용 통계 관리자를 업그레이드 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b7b87-104">**Summary:** Read this topic to learn how to upgrade Statistics Manager for Skype for Business Server.</span></span>
+<span data-ttu-id="bca05-104">**요약:** 비즈니스용 Skype 서버용 통계 관리자를 업그레이드 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="bca05-104">**Summary:** Read this topic to learn how to upgrade Statistics Manager for Skype for Business Server.</span></span>
   
-<span data-ttu-id="b7b87-105">이 항목에서는 비즈니스용 skype server의 기존 통계 관리자 설치를 업그레이드 하는 방법에 대해 설명 합니다 (비즈니스용 Skype Server 상태 및 성능 데이터를 실시간으로 볼 수 있는 강력한 도구).</span><span class="sxs-lookup"><span data-stu-id="b7b87-105">This topic describes how to upgrade an existing installation of Statistics Manager for Skype for Business Server—a powerful tool that allows you to view Skype for Business Server health and performance data in real time.</span></span> <span data-ttu-id="b7b87-106">여러 서버에서 성능 데이터를 몇 초 마다 폴링하거나 통계 관리자 웹 사이트에서 즉시 결과를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-106">You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website.</span></span> 
+<span data-ttu-id="bca05-105">이 항목에서는 비즈니스용 skype server의 기존 통계 관리자 설치를 업그레이드 하는 방법에 대해 설명 합니다 (비즈니스용 Skype Server 상태 및 성능 데이터를 실시간으로 볼 수 있는 강력한 도구).</span><span class="sxs-lookup"><span data-stu-id="bca05-105">This topic describes how to upgrade an existing installation of Statistics Manager for Skype for Business Server—a powerful tool that allows you to view Skype for Business Server health and performance data in real time.</span></span> <span data-ttu-id="bca05-106">여러 서버에서 성능 데이터를 몇 초 마다 폴링하거나 통계 관리자 웹 사이트에서 즉시 결과를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-106">You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website.</span></span> 
   
-<span data-ttu-id="b7b87-107">통계 관리자와 릴리스 2.0의 새로운 기능에 대 한 자세한 내용은 비즈니스용 [Skype 서버용 통계 관리자 계획](plan.md) 및 비즈니스용 [Skype 서버용 통계 관리자 배포](deploy.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b7b87-107">For more information about Statistics Manager and the new features in Release 2.0, see [Plan for Statistics Manager for Skype for Business Server](plan.md) and [Deploy Statistics Manager for Skype for Business Server](deploy.md).</span></span>
+<span data-ttu-id="bca05-107">통계 관리자와 릴리스 2.0의 새로운 기능에 대 한 자세한 내용은 비즈니스용 [Skype 서버용 통계 관리자 계획](plan.md) 및 비즈니스용 [Skype 서버용 통계 관리자 배포](deploy.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="bca05-107">For more information about Statistics Manager and the new features in Release 2.0, see [Plan for Statistics Manager for Skype for Business Server](plan.md) and [Deploy Statistics Manager for Skype for Business Server](deploy.md).</span></span>
   
-<span data-ttu-id="b7b87-108">업그레이드에는 두 가지 방법이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-108">There are two methods for upgrading:</span></span>
+<span data-ttu-id="bca05-108">업그레이드에는 두 가지 방법이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-108">There are two methods for upgrading:</span></span>
   
-- <span data-ttu-id="b7b87-109">**자동화 된 업그레이드.**</span><span class="sxs-lookup"><span data-stu-id="b7b87-109">**Automated upgrade.**</span></span> <span data-ttu-id="b7b87-110">이 메서드는 자동화 된 스크립트를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-110">This method uses an automated script.</span></span> <span data-ttu-id="b7b87-111">가장 쉬운 방법 이며 모든 업그레이드 시나리오에 적용 가능 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-111">It is the easiest method and should be applicable to all upgrade scenarios.</span></span>
+- <span data-ttu-id="bca05-109">**자동화 된 업그레이드.**</span><span class="sxs-lookup"><span data-stu-id="bca05-109">**Automated upgrade.**</span></span> <span data-ttu-id="bca05-110">이 메서드는 자동화 된 스크립트를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-110">This method uses an automated script.</span></span> <span data-ttu-id="bca05-111">가장 쉬운 방법 이며 모든 업그레이드 시나리오에 적용 가능 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-111">It is the easiest method and should be applicable to all upgrade scenarios.</span></span>
     
-- <span data-ttu-id="b7b87-112">**수동 업그레이드.**</span><span class="sxs-lookup"><span data-stu-id="b7b87-112">**Manual upgrade.**</span></span> <span data-ttu-id="b7b87-113">이 메서드는 자동화 된 업그레이드에 실패 하는 드문 경우의 백업 계획으로 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-113">This method is provided as a backup plan in the unusual case that the automated upgrade fails.</span></span>
+- <span data-ttu-id="bca05-112">**수동 업그레이드.**</span><span class="sxs-lookup"><span data-stu-id="bca05-112">**Manual upgrade.**</span></span> <span data-ttu-id="bca05-113">이 메서드는 자동화 된 업그레이드에 실패 하는 드문 경우의 백업 계획으로 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-113">This method is provided as a backup plan in the unusual case that the automated upgrade fails.</span></span>
     
-## <a name="prerequisites"></a><span data-ttu-id="b7b87-114">필요 조건</span><span class="sxs-lookup"><span data-stu-id="b7b87-114">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="bca05-114">필요 조건</span><span class="sxs-lookup"><span data-stu-id="bca05-114">Prerequisites</span></span>
 
-<span data-ttu-id="b7b87-115">업그레이드 하기 전에 다음 정보가 있는지 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="b7b87-115">Before you upgrade, be sure you have the following information:</span></span>
+<span data-ttu-id="bca05-115">업그레이드 하기 전에 다음 정보가 있는지 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="bca05-115">Before you upgrade, be sure you have the following information:</span></span>
   
-- <span data-ttu-id="b7b87-116">활성 수신기 인증서 지문</span><span class="sxs-lookup"><span data-stu-id="b7b87-116">Active Listener Certificate Thumbprint</span></span>
+- <span data-ttu-id="bca05-116">활성 수신기 인증서 지문</span><span class="sxs-lookup"><span data-stu-id="bca05-116">Active Listener Certificate Thumbprint</span></span>
     
-- <span data-ttu-id="b7b87-117">수신기 서비스 암호 (수신기 및 모든 에이전트 설치에 입력 됨)</span><span class="sxs-lookup"><span data-stu-id="b7b87-117">Listener Service Password (entered on install of the listener and every agent)</span></span>
+- <span data-ttu-id="bca05-117">수신기 서비스 암호 (수신기 및 모든 에이전트 설치에 입력 됨)</span><span class="sxs-lookup"><span data-stu-id="bca05-117">Listener Service Password (entered on install of the listener and every agent)</span></span>
     
-- <span data-ttu-id="b7b87-118">웹 사이트에 대 한 SSL 인증서 구성</span><span class="sxs-lookup"><span data-stu-id="b7b87-118">SSL Certificate configuration for the website</span></span>
+- <span data-ttu-id="bca05-118">웹 사이트에 대 한 SSL 인증서 구성</span><span class="sxs-lookup"><span data-stu-id="bca05-118">SSL Certificate configuration for the website</span></span>
     
-## <a name="automated-upgrade"></a><span data-ttu-id="b7b87-119">자동화 된 업그레이드</span><span class="sxs-lookup"><span data-stu-id="b7b87-119">Automated upgrade</span></span>
+## <a name="automated-upgrade"></a><span data-ttu-id="bca05-119">자동화 된 업그레이드</span><span class="sxs-lookup"><span data-stu-id="bca05-119">Automated upgrade</span></span>
 
-<span data-ttu-id="b7b87-120">이 스크립트는 현재 인증서 정보 및 수신기 암호를 수집 하 고 이전 버전의 제품을 제거한 다음 새 버전의 제품을 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-120">The script will gather your current certificate information and listener password, uninstall the old version of the product, and then install the new version of the product.</span></span> <span data-ttu-id="b7b87-121">서버에 설치 된 Redis 인스턴스는 아무런 문제가 없으므로 캐시에 저장 된 모든 데이터는 업그레이드 프로세스를 통해 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-121">The Redis instance installed on the server will not be touched, so any data stored in the cache will be retained through the upgrade process.</span></span>
+<span data-ttu-id="bca05-120">이 스크립트는 현재 인증서 정보 및 수신기 암호를 수집 하 고 이전 버전의 제품을 제거한 다음 새 버전의 제품을 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-120">The script will gather your current certificate information and listener password, uninstall the old version of the product, and then install the new version of the product.</span></span> <span data-ttu-id="bca05-121">서버에 설치 된 Redis 인스턴스는 아무런 문제가 없으므로 캐시에 저장 된 모든 데이터는 업그레이드 프로세스를 통해 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-121">The Redis instance installed on the server will not be touched, so any data stored in the cache will be retained through the upgrade process.</span></span>
   
-1. <span data-ttu-id="b7b87-122">새 버전의 에이전트, 수신기 및 웹 사이트에 대 한 MSI 파일을 수신기 컴퓨터의 단일 폴더에 Update-StatsMan 스크립트와 함께 배치 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-122">Place the MSI files for the new version of the agent, listener and website along with the Update-StatsMan.ps1 script into a single folder on the Listener computer.</span></span>
+1. <span data-ttu-id="bca05-122">새 버전의 에이전트, 수신기 및 웹 사이트에 대 한 MSI 파일을 수신기 컴퓨터의 단일 폴더에 Update-StatsMan 스크립트와 함께 배치 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-122">Place the MSI files for the new version of the agent, listener and website along with the Update-StatsMan.ps1 script into a single folder on the Listener computer.</span></span>
     
-2. <span data-ttu-id="b7b87-123">관리 PowerShell 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-123">Open an administrative PowerShell window.</span></span> <span data-ttu-id="b7b87-124">수신기 구성 요소를 업그레이드 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-124">Upgrade the Listener component:</span></span>
+2. <span data-ttu-id="bca05-123">관리 PowerShell 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-123">Open an administrative PowerShell window.</span></span> <span data-ttu-id="bca05-124">수신기 구성 요소를 업그레이드 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-124">Upgrade the Listener component:</span></span>
     
    ```PowerShell
    .\Update-StatsMan.ps1 -Service Listener
    ```
 
 > [!NOTE]
-> <span data-ttu-id="b7b87-125">설치 관리자에 게 전달 되는 명령줄에 통계 관리자 서비스 암호가 일반 텍스트로 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-125">The Statistics Manager service password will be displayed in clear text on the command line as it is passed to the installer.</span></span> <span data-ttu-id="b7b87-126">필요에 따라 모니터를 보호 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-126">Be sure to shield your monitor as needed.</span></span> 
+> <span data-ttu-id="bca05-125">설치 관리자에 게 전달 되는 명령줄에 통계 관리자 서비스 암호가 일반 텍스트로 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-125">The Statistics Manager service password will be displayed in clear text on the command line as it is passed to the installer.</span></span> <span data-ttu-id="bca05-126">필요에 따라 모니터를 보호 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-126">Be sure to shield your monitor as needed.</span></span> 
   
-1. <span data-ttu-id="b7b87-127">스크립트를 실행할 때 이전 버전의 제품을 제거 하 라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-127">On running the script, you should be prompted to uninstall the old version of the product.</span></span> <span data-ttu-id="b7b87-128">예를 대답 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-128">Answer Yes.</span></span>
+1. <span data-ttu-id="bca05-127">스크립트를 실행할 때 이전 버전의 제품을 제거 하 라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-127">On running the script, you should be prompted to uninstall the old version of the product.</span></span> <span data-ttu-id="bca05-128">예를 대답 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-128">Answer Yes.</span></span>
     
-2. <span data-ttu-id="b7b87-129">수신기 서비스가 실행 되 고 있는 경우 계속 하기 전에 응용 프로그램을 닫으라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-129">If the Listener service is running, you will be prompted to close the application before continuing.</span></span> <span data-ttu-id="b7b87-130">응용 프로그램을 닫을 수 있도록 허용 합니다 (통계 관리자 수신기 서비스가 중지 됨).</span><span class="sxs-lookup"><span data-stu-id="b7b87-130">Allow the application to close (the Statistics Manager Listener service will be stopped).</span></span>
+2. <span data-ttu-id="bca05-129">수신기 서비스가 실행 되 고 있는 경우 계속 하기 전에 응용 프로그램을 닫으라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-129">If the Listener service is running, you will be prompted to close the application before continuing.</span></span> <span data-ttu-id="bca05-130">응용 프로그램을 닫을 수 있도록 허용 합니다 (통계 관리자 수신기 서비스가 중지 됨).</span><span class="sxs-lookup"><span data-stu-id="bca05-130">Allow the application to close (the Statistics Manager Listener service will be stopped).</span></span>
     
-3. <span data-ttu-id="b7b87-131">설치 프로세스를 계속 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-131">Continue the install process.</span></span> <span data-ttu-id="b7b87-132">서비스 암호 및 인증서 지문이 사전 입력 된 것을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-132">You should notice that the service password and certificate thumbprint are pre-populated.</span></span> <span data-ttu-id="b7b87-133">그렇지 않은 경우 계속 하기 전에 저장 한 값을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-133">If not, add the values you saved before continuing.</span></span>
+3. <span data-ttu-id="bca05-131">설치 프로세스를 계속 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-131">Continue the install process.</span></span> <span data-ttu-id="bca05-132">서비스 암호 및 인증서 지문이 사전 입력 된 것을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-132">You should notice that the service password and certificate thumbprint are pre-populated.</span></span> <span data-ttu-id="bca05-133">그렇지 않은 경우 계속 하기 전에 저장 한 값을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-133">If not, add the values you saved before continuing.</span></span>
     
-4. <span data-ttu-id="b7b87-134">관리 PowerShell 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-134">Open an administrative PowerShell window.</span></span> <span data-ttu-id="b7b87-135">웹 사이트 구성 요소를 업그레이드 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-135">Upgrade the Website component:</span></span>
+4. <span data-ttu-id="bca05-134">관리 PowerShell 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-134">Open an administrative PowerShell window.</span></span> <span data-ttu-id="bca05-135">웹 사이트 구성 요소를 업그레이드 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-135">Upgrade the Website component:</span></span>
     
    ```PowerShell
    .\Update-StatsMan.ps1 -Service Website
    ```
 
-5. <span data-ttu-id="b7b87-136">스크립트를 실행할 때 이전 버전의 제품을 제거 하 라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-136">On running the script, you should be prompted to uninstall the old version of the product.</span></span> <span data-ttu-id="b7b87-137">예를 대답 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-137">Answer Yes.</span></span>
+5. <span data-ttu-id="bca05-136">스크립트를 실행할 때 이전 버전의 제품을 제거 하 라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-136">On running the script, you should be prompted to uninstall the old version of the product.</span></span> <span data-ttu-id="bca05-137">예를 대답 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-137">Answer Yes.</span></span>
     
-6. <span data-ttu-id="b7b87-138">에이전트 서비스를 실행 하는 경우 계속 하기 전에 응용 프로그램을 닫으라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-138">If the Agent service is running, you will be prompted to close the application before continuing.</span></span> <span data-ttu-id="b7b87-139">응용 프로그램을 닫을 수 있도록 허용 합니다 (StatsMan 에이전트 서비스가 중지 됨).</span><span class="sxs-lookup"><span data-stu-id="b7b87-139">Allow the application to close (the StatsMan Agent service will be stopped).</span></span>
+6. <span data-ttu-id="bca05-138">에이전트 서비스를 실행 하는 경우 계속 하기 전에 응용 프로그램을 닫으라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-138">If the Agent service is running, you will be prompted to close the application before continuing.</span></span> <span data-ttu-id="bca05-139">응용 프로그램을 닫을 수 있도록 허용 합니다 (StatsMan 에이전트 서비스가 중지 됨).</span><span class="sxs-lookup"><span data-stu-id="bca05-139">Allow the application to close (the StatsMan Agent service will be stopped).</span></span>
     
-7. <span data-ttu-id="b7b87-140">설치 프로세스를 계속 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-140">Continue the install process.</span></span> <span data-ttu-id="b7b87-141">서비스 암호 및 인증서 지문이 사전 입력 된 것을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-141">You should notice that the service password and certificate thumbprint are pre-populated.</span></span> <span data-ttu-id="b7b87-142">그렇지 않은 경우 계속 하기 전에 저장 한 값을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-142">If not, add the values you saved before continuing.</span></span>
+7. <span data-ttu-id="bca05-140">설치 프로세스를 계속 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-140">Continue the install process.</span></span> <span data-ttu-id="bca05-141">서비스 암호 및 인증서 지문이 사전 입력 된 것을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-141">You should notice that the service password and certificate thumbprint are pre-populated.</span></span> <span data-ttu-id="bca05-142">그렇지 않은 경우 계속 하기 전에 저장 한 값을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-142">If not, add the values you saved before continuing.</span></span>
     
-8. <span data-ttu-id="b7b87-143">관리 PowerShell 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-143">Open an administrative PowerShell window.</span></span> <span data-ttu-id="b7b87-144">에이전트 구성 요소를 업그레이드 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-144">Upgrade the Agent component:</span></span>
+8. <span data-ttu-id="bca05-143">관리 PowerShell 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-143">Open an administrative PowerShell window.</span></span> <span data-ttu-id="bca05-144">에이전트 구성 요소를 업그레이드 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-144">Upgrade the Agent component:</span></span>
     
    ```PowerShell
    .\Update-StatsMan.ps1 -Service Agent
    ```
 
-9. <span data-ttu-id="b7b87-145">스크립트를 실행할 때 이전 버전의 제품을 제거 하 라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-145">On running the script, you should be prompted to uninstall the old version of the product.</span></span> <span data-ttu-id="b7b87-146">예를 대답 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-146">Answer Yes.</span></span>
+9. <span data-ttu-id="bca05-145">스크립트를 실행할 때 이전 버전의 제품을 제거 하 라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-145">On running the script, you should be prompted to uninstall the old version of the product.</span></span> <span data-ttu-id="bca05-146">예를 대답 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-146">Answer Yes.</span></span>
     
-10. <span data-ttu-id="b7b87-147">설치 프로세스를 계속 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-147">Continue the install process.</span></span> <span data-ttu-id="b7b87-148">웹 사이트 포트가 미리 채워져 있는 것을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-148">You should notice that the website port is pre-populated.</span></span> <span data-ttu-id="b7b87-149">그렇지 않은 경우 계속 하기 전에 저장 한 값을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-149">If not, add the value you saved before continuing.</span></span>
+10. <span data-ttu-id="bca05-147">설치 프로세스를 계속 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-147">Continue the install process.</span></span> <span data-ttu-id="bca05-148">웹 사이트 포트가 미리 채워져 있는 것을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-148">You should notice that the website port is pre-populated.</span></span> <span data-ttu-id="bca05-149">그렇지 않은 경우 계속 하기 전에 저장 한 값을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-149">If not, add the value you saved before continuing.</span></span>
     
-11. <span data-ttu-id="b7b87-150">브라우저를 사용 하 여 웹 사이트가 예상 대로 작동 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-150">Verify the website is working as expected using the browser.</span></span>
+11. <span data-ttu-id="bca05-150">브라우저를 사용 하 여 웹 사이트가 예상 대로 작동 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-150">Verify the website is working as expected using the browser.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="b7b87-151">에이전트 업그레이드는-NoPrompt 스위치와 함께 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-151">The Agent upgrade can be used with the -NoPrompt switch.</span></span> <span data-ttu-id="b7b87-152">이렇게 하면 제거/설치 프로세스가 자동으로 실행 되므로 PSExec 같은 도구가 다 수의 서버에서 원격으로 업그레이드를 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-152">This will allow the uninstall/install process to run silently, allowing tools such as PSExec to run the upgrade remotely on a large number of servers.</span></span> 
+> <span data-ttu-id="bca05-151">에이전트 업그레이드는-NoPrompt 스위치와 함께 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-151">The Agent upgrade can be used with the -NoPrompt switch.</span></span> <span data-ttu-id="bca05-152">이렇게 하면 제거/설치 프로세스가 자동으로 실행 되므로 PSExec 같은 도구가 다 수의 서버에서 원격으로 업그레이드를 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-152">This will allow the uninstall/install process to run silently, allowing tools such as PSExec to run the upgrade remotely on a large number of servers.</span></span> 
   
-### <a name="manual-upgrade"></a><span data-ttu-id="b7b87-153">수동 업그레이드</span><span class="sxs-lookup"><span data-stu-id="b7b87-153">Manual upgrade</span></span>
+### <a name="manual-upgrade"></a><span data-ttu-id="bca05-153">수동 업그레이드</span><span class="sxs-lookup"><span data-stu-id="bca05-153">Manual upgrade</span></span>
 
-<span data-ttu-id="b7b87-154">어떤 이유로 자동 업그레이드가 실패 하는 경우 다음과 같이 언제 든 지 수동 업그레이드를 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-154">If for some reason, the automated upgrade fails, you can always perform a manual upgrade as follows:</span></span>
+<span data-ttu-id="bca05-154">어떤 이유로 자동 업그레이드가 실패 하는 경우 다음과 같이 언제 든 지 수동 업그레이드를 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-154">If for some reason, the automated upgrade fails, you can always perform a manual upgrade as follows:</span></span>
   
-1. <span data-ttu-id="b7b87-155">수신기 컴퓨터에서 프로그램 및 기능 제어판을 통해 수신기, 웹 사이트 및 에이전트 (이 서버에 설치 되어 있는 경우)를 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-155">On the Listener computer, uninstall the Listener, Website and the Agent (if it was installed on this server) via the Programs and Features control panel.</span></span> 
+1. <span data-ttu-id="bca05-155">수신기 컴퓨터에서 프로그램 및 기능 제어판을 통해 수신기, 웹 사이트 및 에이전트 (이 서버에 설치 되어 있는 경우)를 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-155">On the Listener computer, uninstall the Listener, Website and the Agent (if it was installed on this server) via the Programs and Features control panel.</span></span> 
     
     > [!NOTE]
-    >  <span data-ttu-id="b7b87-156">Redis가 설치 된 후에는 캐시의 데이터가 업그레이드 프로세스를 통해 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-156">Keep Redis installed so that the data in the cache will then be maintained through the upgrade process.</span></span>
+    >  <span data-ttu-id="bca05-156">Redis가 설치 된 후에는 캐시의 데이터가 업그레이드 프로세스를 통해 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-156">Keep Redis installed so that the data in the cache will then be maintained through the upgrade process.</span></span>
   
-2. <span data-ttu-id="b7b87-157">위에 저장 한 값을 포함 하 여 새 버전의 구성 요소를 설치할 것인지 묻는 메시지가 표시 되 면 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7b87-157">Install the new versions of the components, including the values you saved above when prompted for them.</span></span> <span data-ttu-id="b7b87-158">구성 요소를 설치 하는 방법에 대 한 자세한 내용은 [통계 관리자 배포](deploy.md#BKMK_Deploy) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b7b87-158">For more information about installing components, see [Deploy Statistics Manager](deploy.md#BKMK_Deploy)</span></span>
+2. <span data-ttu-id="bca05-157">위에 저장 한 값을 포함 하 여 새 버전의 구성 요소를 설치할 것인지 묻는 메시지가 표시 되 면 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="bca05-157">Install the new versions of the components, including the values you saved above when prompted for them.</span></span> <span data-ttu-id="bca05-158">구성 요소를 설치 하는 방법에 대 한 자세한 내용은 [통계 관리자 배포](deploy.md#BKMK_Deploy) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="bca05-158">For more information about installing components, see [Deploy Statistics Manager](deploy.md#BKMK_Deploy)</span></span>
 
     
-## <a name="for-more-information"></a><span data-ttu-id="b7b87-159">자세한 내용은</span><span class="sxs-lookup"><span data-stu-id="b7b87-159">For more information</span></span>
-<span data-ttu-id="b7b87-160"><a name="BKMK_Fixed"> </a></span><span class="sxs-lookup"><span data-stu-id="b7b87-160"></span></span>
+## <a name="for-more-information"></a><span data-ttu-id="bca05-159">자세한 내용은</span><span class="sxs-lookup"><span data-stu-id="bca05-159">For more information</span></span>
+<span data-ttu-id="bca05-160"><a name="BKMK_Fixed"> </a></span><span class="sxs-lookup"><span data-stu-id="bca05-160"><a name="BKMK_Fixed"> </a></span></span>
 
-<span data-ttu-id="b7b87-161">자세한 내용은 다음을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b7b87-161">For more information, see the following:</span></span>
+<span data-ttu-id="bca05-161">자세한 내용은 다음을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="bca05-161">For more information, see the following:</span></span>
   
-- [<span data-ttu-id="b7b87-162">비즈니스용 Skype 서버 통계 관리자에 대한 계획</span><span class="sxs-lookup"><span data-stu-id="b7b87-162">Plan for Statistics Manager for Skype for Business Server</span></span>](plan.md)
+- [<span data-ttu-id="bca05-162">비즈니스용 Skype 서버 통계 관리자에 대한 계획</span><span class="sxs-lookup"><span data-stu-id="bca05-162">Plan for Statistics Manager for Skype for Business Server</span></span>](plan.md)
     
-- [<span data-ttu-id="b7b87-163">비즈니스용 Skype 서버 통계 관리자 배포</span><span class="sxs-lookup"><span data-stu-id="b7b87-163">Deploy Statistics Manager for Skype for Business Server</span></span>](deploy.md)
+- [<span data-ttu-id="bca05-163">비즈니스용 Skype 서버 통계 관리자 배포</span><span class="sxs-lookup"><span data-stu-id="bca05-163">Deploy Statistics Manager for Skype for Business Server</span></span>](deploy.md)
     
-- [<span data-ttu-id="b7b87-164">비즈니스용 Skype 서버 통계 관리자 문제 해결</span><span class="sxs-lookup"><span data-stu-id="b7b87-164">Troubleshoot Statistics Manager for Skype for Business Server</span></span>](troubleshoot.md)
+- [<span data-ttu-id="bca05-164">비즈니스용 Skype 서버 통계 관리자 문제 해결</span><span class="sxs-lookup"><span data-stu-id="bca05-164">Troubleshoot Statistics Manager for Skype for Business Server</span></span>](troubleshoot.md)

@@ -8,70 +8,72 @@ ms.date: 3/20/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
 description: Get-CcExternalCertificateFilePath cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 배포에 대 한 외부 인증서 파일 경로를 반환 합니다. 사용자가이 인증서를 준비 합니다.
-ms.openlocfilehash: 7a471b0e4258728bfaa50558aab54955346b457c
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 143595d30bb71756544a16ad464da05a229f476d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003378"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799908"
 ---
-# <a name="get-ccexternalcertificatefilepath"></a><span data-ttu-id="0e78a-104">Get-CcExternalCertificateFilePath</span><span class="sxs-lookup"><span data-stu-id="0e78a-104">Get-CcExternalCertificateFilePath</span></span>
+# <a name="get-ccexternalcertificatefilepath"></a><span data-ttu-id="afb91-104">Get-CcExternalCertificateFilePath</span><span class="sxs-lookup"><span data-stu-id="afb91-104">Get-CcExternalCertificateFilePath</span></span>
  
-<span data-ttu-id="0e78a-105">Get-CcExternalCertificateFilePath cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 배포에 대 한 외부 인증서 파일 경로를 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="0e78a-105">The Get-CcExternalCertificateFilePath cmdlet returns the external certificate file path for the Skype for Business Cloud Connector Edition deployment.</span></span> <span data-ttu-id="0e78a-106">사용자가이 인증서를 준비 합니다.</span><span class="sxs-lookup"><span data-stu-id="0e78a-106">The user prepares this certificate.</span></span>
+<span data-ttu-id="afb91-105">Get-CcExternalCertificateFilePath cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 배포에 대 한 외부 인증서 파일 경로를 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="afb91-105">The Get-CcExternalCertificateFilePath cmdlet returns the external certificate file path for the Skype for Business Cloud Connector Edition deployment.</span></span> <span data-ttu-id="afb91-106">사용자가이 인증서를 준비 합니다.</span><span class="sxs-lookup"><span data-stu-id="afb91-106">The user prepares this certificate.</span></span>
   
-<span data-ttu-id="0e78a-107">이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 1.4.1, 1.4.2에 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0e78a-107">This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.</span></span>
+<span data-ttu-id="afb91-107">이 cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 1.4.1, 1.4.2에 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="afb91-107">This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.</span></span>
   
 ```powershell
 Get-CcExternalCertificateFilePath [[-Target] <string> {EdgeServer | MediationServer}]
 ```
 
-## <a name="examples"></a><span data-ttu-id="0e78a-108">예제</span><span class="sxs-lookup"><span data-stu-id="0e78a-108">Examples</span></span>
-<span data-ttu-id="0e78a-109"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="0e78a-109"></span></span>
+## <a name="examples"></a><span data-ttu-id="afb91-108">예제</span><span class="sxs-lookup"><span data-stu-id="afb91-108">Examples</span></span>
+<span data-ttu-id="afb91-109"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="afb91-109"><a name="Examples"> </a></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="0e78a-110">예제 1</span><span class="sxs-lookup"><span data-stu-id="0e78a-110">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="afb91-110">예제 1</span><span class="sxs-lookup"><span data-stu-id="afb91-110">Example 1</span></span>
 
-<span data-ttu-id="0e78a-111">다음 예에서는 Edge 서버용 인증서의 경로를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="0e78a-111">The following example shows the path of the certificate for the Edge Server:</span></span>
+<span data-ttu-id="afb91-111">다음 예에서는 Edge 서버용 인증서의 경로를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="afb91-111">The following example shows the path of the certificate for the Edge Server:</span></span>
   
 ```powershell
 Get-CcExternalCertificateFilePath -Target EdgeServer
 ```
 
-### <a name="example-2"></a><span data-ttu-id="0e78a-112">예제 2</span><span class="sxs-lookup"><span data-stu-id="0e78a-112">Example 2</span></span>
+### <a name="example-2"></a><span data-ttu-id="afb91-112">예제 2</span><span class="sxs-lookup"><span data-stu-id="afb91-112">Example 2</span></span>
 
-<span data-ttu-id="0e78a-113">다음 예에서는 중재 서버에 대 한 인증서 집합을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="0e78a-113">The following example shows the certificate set for the Mediation Server:</span></span>
+<span data-ttu-id="afb91-113">다음 예에서는 중재 서버에 대 한 인증서 집합을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="afb91-113">The following example shows the certificate set for the Mediation Server:</span></span>
   
 ```powershell
 Get-CcExternalCertificateFilePath -Target MediationServer
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="0e78a-114">자세한 정보</span><span class="sxs-lookup"><span data-stu-id="0e78a-114">Detailed Description</span></span>
-<span data-ttu-id="0e78a-115"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="0e78a-115"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="afb91-114">자세한 정보</span><span class="sxs-lookup"><span data-stu-id="afb91-114">Detailed Description</span></span>
+<span data-ttu-id="afb91-115"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="afb91-115"><a name="DetailedDescription"> </a></span></span>
 
-<span data-ttu-id="0e78a-116">배포 중 또는 토폴로지를 수정할 때 Edge 서버 인증서의 경로를 지정 하 고 필요에 따라 중재 서버에 대 한 경로를 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0e78a-116">During deployment or when modifying the topology, you need to specify the path for the Edge Server certificate, and, optionally, for the Mediation Server.</span></span> <span data-ttu-id="0e78a-117">게이트웨이 및 중재 서버 간에 TLS를 사용 하는 경우 중재 서버용 인증서가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="0e78a-117">The certificate for the Mediation Server is required if TLS will be used between the gateway (s) and the Mediation Server.</span></span> <span data-ttu-id="0e78a-118">경로를 변경 하려면 Set-CcExternalCertificateFilePath cmdlet을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="0e78a-118">To change the path, use the Set-CcExternalCertificateFilePath cmdlet.</span></span>
+<span data-ttu-id="afb91-116">배포 중 또는 토폴로지를 수정할 때 Edge 서버 인증서의 경로를 지정 하 고 필요에 따라 중재 서버에 대 한 경로를 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="afb91-116">During deployment or when modifying the topology, you need to specify the path for the Edge Server certificate, and, optionally, for the Mediation Server.</span></span> <span data-ttu-id="afb91-117">게이트웨이 및 중재 서버 간에 TLS를 사용 하는 경우 중재 서버용 인증서가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="afb91-117">The certificate for the Mediation Server is required if TLS will be used between the gateway (s) and the Mediation Server.</span></span> <span data-ttu-id="afb91-118">경로를 변경 하려면 Set-CcExternalCertificateFilePath cmdlet을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="afb91-118">To change the path, use the Set-CcExternalCertificateFilePath cmdlet.</span></span>
   
-## <a name="parameters"></a><span data-ttu-id="0e78a-119">매개 변수</span><span class="sxs-lookup"><span data-stu-id="0e78a-119">Parameters</span></span>
-<span data-ttu-id="0e78a-120"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="0e78a-120"></span></span>
+## <a name="parameters"></a><span data-ttu-id="afb91-119">매개 변수</span><span class="sxs-lookup"><span data-stu-id="afb91-119">Parameters</span></span>
+<span data-ttu-id="afb91-120"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="afb91-120"><a name="DetailedDescription"> </a></span></span>
 
-|<span data-ttu-id="0e78a-121">**매개 변수**</span><span class="sxs-lookup"><span data-stu-id="0e78a-121">**Parameter**</span></span>|<span data-ttu-id="0e78a-122">**필수**</span><span class="sxs-lookup"><span data-stu-id="0e78a-122">**Required**</span></span>|<span data-ttu-id="0e78a-123">**유형**</span><span class="sxs-lookup"><span data-stu-id="0e78a-123">**Type**</span></span>|<span data-ttu-id="0e78a-124">**설명**</span><span class="sxs-lookup"><span data-stu-id="0e78a-124">**Description**</span></span>|
+|<span data-ttu-id="afb91-121">**매개 변수**</span><span class="sxs-lookup"><span data-stu-id="afb91-121">**Parameter**</span></span>|<span data-ttu-id="afb91-122">**필수**</span><span class="sxs-lookup"><span data-stu-id="afb91-122">**Required**</span></span>|<span data-ttu-id="afb91-123">**유형**</span><span class="sxs-lookup"><span data-stu-id="afb91-123">**Type**</span></span>|<span data-ttu-id="afb91-124">**설명**</span><span class="sxs-lookup"><span data-stu-id="afb91-124">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="0e78a-125">대상</span><span class="sxs-lookup"><span data-stu-id="0e78a-125">Target</span></span>  <br/> |<span data-ttu-id="0e78a-126">선택</span><span class="sxs-lookup"><span data-stu-id="0e78a-126">Optional</span></span>  <br/> | <span data-ttu-id="0e78a-127">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="0e78a-127">System.Management.Automation.SwitchParameter</span></span> <br/> |<span data-ttu-id="0e78a-128">요청 된 파일 경로 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="0e78a-128">Type of file path requested.</span></span> <span data-ttu-id="0e78a-129">유형에는 다음이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0e78a-129">Types include:</span></span>  <br/> <span data-ttu-id="0e78a-130">EdgeServer (기본값)</span><span class="sxs-lookup"><span data-stu-id="0e78a-130">EdgeServer (default)</span></span>  <br/> <span data-ttu-id="0e78a-131">MediationServer</span><span class="sxs-lookup"><span data-stu-id="0e78a-131">MediationServer</span></span>  <br/> |
+|<span data-ttu-id="afb91-125">대상</span><span class="sxs-lookup"><span data-stu-id="afb91-125">Target</span></span>  <br/> |<span data-ttu-id="afb91-126">선택</span><span class="sxs-lookup"><span data-stu-id="afb91-126">Optional</span></span>  <br/> | <span data-ttu-id="afb91-127">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="afb91-127">System.Management.Automation.SwitchParameter</span></span> <br/> |<span data-ttu-id="afb91-128">요청 된 파일 경로 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="afb91-128">Type of file path requested.</span></span> <span data-ttu-id="afb91-129">유형에는 다음이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="afb91-129">Types include:</span></span>  <br/> <span data-ttu-id="afb91-130">EdgeServer (기본값)</span><span class="sxs-lookup"><span data-stu-id="afb91-130">EdgeServer (default)</span></span>  <br/> <span data-ttu-id="afb91-131">MediationServer</span><span class="sxs-lookup"><span data-stu-id="afb91-131">MediationServer</span></span>  <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="0e78a-132">입력 형식</span><span class="sxs-lookup"><span data-stu-id="0e78a-132">Input Types</span></span>
-<span data-ttu-id="0e78a-133"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="0e78a-133"></span></span>
+## <a name="input-types"></a><span data-ttu-id="afb91-132">입력 형식</span><span class="sxs-lookup"><span data-stu-id="afb91-132">Input Types</span></span>
+<span data-ttu-id="afb91-133"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="afb91-133"><a name="InputTypes"> </a></span></span>
 
-<span data-ttu-id="0e78a-134">Get-CcExternalCertificateFilePath cmdlet은 파이프라인 입력을 허용 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="0e78a-134">The Get-CcExternalCertificateFilePath cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="afb91-134">Get-CcExternalCertificateFilePath cmdlet은 파이프라인 입력을 허용 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="afb91-134">The Get-CcExternalCertificateFilePath cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="0e78a-135">반환 형식</span><span class="sxs-lookup"><span data-stu-id="0e78a-135">Return Types</span></span>
-<span data-ttu-id="0e78a-136"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="0e78a-136"></span></span>
+## <a name="return-types"></a><span data-ttu-id="afb91-135">반환 형식</span><span class="sxs-lookup"><span data-stu-id="afb91-135">Return Types</span></span>
+<span data-ttu-id="afb91-136"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="afb91-136"><a name="ReturnTypes"> </a></span></span>
 
-<span data-ttu-id="0e78a-137">이 명령은 파일 경로를 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="0e78a-137">The command returns a file path.</span></span>
+<span data-ttu-id="afb91-137">이 명령은 파일 경로를 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="afb91-137">The command returns a file path.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="0e78a-138">참고 항목</span><span class="sxs-lookup"><span data-stu-id="0e78a-138">See also</span></span>
-<span data-ttu-id="0e78a-139"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="0e78a-139"></span></span>
+## <a name="see-also"></a><span data-ttu-id="afb91-138">참고 항목</span><span class="sxs-lookup"><span data-stu-id="afb91-138">See also</span></span>
+<span data-ttu-id="afb91-139"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="afb91-139"><a name="ReturnTypes"> </a></span></span>
 
-[<span data-ttu-id="0e78a-140">Set-CcExternalCertificateFilePath</span><span class="sxs-lookup"><span data-stu-id="0e78a-140">Set-CcExternalCertificateFilePath</span></span>](set-ccexternalcertificatefilepath.md)
+[<span data-ttu-id="afb91-140">Set-CcExternalCertificateFilePath</span><span class="sxs-lookup"><span data-stu-id="afb91-140">Set-CcExternalCertificateFilePath</span></span>](set-ccexternalcertificatefilepath.md)
   
 

@@ -8,18 +8,20 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: a09858b6-d2cd-4d0c-87ef-37aacf733718
 description: 작업 테이블은 내부용 으로만 사용 됩니다. 이 표는 Microsoft Lync Server 2013에서 도입 되었습니다.
-ms.openlocfilehash: 1a47f29dd6a3e289405bbfbe8aae5a301090812b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e72cf75fbff2574695632125c6f593b83fdf3d7a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196680"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814866"
 ---
-# <a name="task-table"></a><span data-ttu-id="357d6-104">작업 테이블</span><span class="sxs-lookup"><span data-stu-id="357d6-104">Task table</span></span>
+# <a name="task-table"></a><span data-ttu-id="625e2-104">작업 테이블</span><span class="sxs-lookup"><span data-stu-id="625e2-104">Task table</span></span>
  
-<span data-ttu-id="357d6-105">작업 테이블은 내부용 으로만 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="357d6-105">The Task Table is for internal use only.</span></span> <span data-ttu-id="357d6-106">이 표는 Microsoft Lync Server 2013에서 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="357d6-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="625e2-105">작업 테이블은 내부용 으로만 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="625e2-105">The Task Table is for internal use only.</span></span> <span data-ttu-id="625e2-106">이 표는 Microsoft Lync Server 2013에서 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="625e2-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 
