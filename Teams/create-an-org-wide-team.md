@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 953cfc1ba7c9b05954859f7bc8ac1db2352b3a0e
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: f291e0c2902754f346dfadb855e4e6bc6fbd573c
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871724"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795157"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft 팀에서 조직 전체 팀 만들기
 
@@ -58,9 +58,9 @@ ms.locfileid: "39871724"
 
  전체 조직에 과부하가 되는 것을 방지 하기 위해 @mentions를 줄입니다. 팀으로 이동 하 고 **̇ ̇ ̇ 추가 옵션** > 을 클릭 하 여**팀 관리**를 선택 합니다. **설정** 탭에서 <strong>@mentions</strong> > 클릭 **하 여 구성원 표시 옵션을 @team 또는 @ [팀 이름]으로**설정 해제 합니다. 
 
-### <a name="automatically-favorite-important-channels"></a>자동으로 자주 사용 하는 중요 한 채널
+### <a name="automatically-show-important-channels"></a>중요 한 채널을 자동으로 표시
 
-조직의 모든 사용자가 특정 대화에서 사용 하도록 중요 한 채널을 즐겨 보세요. 자세한 내용은 [팀 전체에 대 한 자동 즐겨찾기 채널](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6)을 참조 하세요.
+조직의 모든 사용자가 특정 대화에서 관여 하도록 중요 한 채널을 표시 합니다. 자세한 내용은 [팀 전체에 대 한 자동 즐겨찾기 채널](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6)을 참조 하세요. 
 
 ### <a name="set-up-channel-moderation"></a>채널 중재 설정
 

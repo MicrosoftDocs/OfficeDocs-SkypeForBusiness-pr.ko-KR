@@ -8,16 +8,18 @@ ms.date: 1/29/2019
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: '요약: 레거시 클라이언트에서 사용 하는 개인 연락처 저장소를 구성 합니다.'
-ms.openlocfilehash: 26352517ea31b5556784f6f1ea8d1ce661cfe184
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a80af6ca575b53e5a2b8f77a109fd6929f0db704
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244195"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797029"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Lync 2010 클라이언트 컴퓨터에서 개인 연락처 저장소 구성
   

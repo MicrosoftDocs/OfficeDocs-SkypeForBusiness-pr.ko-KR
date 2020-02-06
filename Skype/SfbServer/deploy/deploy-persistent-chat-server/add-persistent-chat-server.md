@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: '요약: 비즈니스용 Skype Server 2015 토폴로지에 영구 채팅 서버를 추가 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: 7d5a61dd001c759eab4b168cb3543032de7b4fc4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 733d75e954c75cecfab38e0a2f1294c6e20984c1
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239869"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794116"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>비즈니스용 Skype Server 2015 토폴로지에 영구 채팅 서버 추가
  
@@ -40,7 +42,7 @@ ms.locfileid: "36239869"
 1. 비즈니스용 Skype 서버를 실행 중이거나 비즈니스용 Skype 서버 관리 도구가 설치 되어 있는 컴퓨터에서 로컬 사용자 그룹의 구성원 인 계정을 사용 하거나 해당 사용자 권한이 있는 계정으로 로그온 합니다.
     
     > [!NOTE]
-    > 로컬 사용자 그룹의 구성원 인 계정을 사용 하 여 토폴로지를 정의할 수 있지만, 비즈니스용 Skype Server를 설치 하는 데 필요한 토폴로지를 게시 하려면 **Domain Admins** 그룹의 구성원 인 계정을 사용 해야 하며 ** RTCUniversalServerAdmins** 그룹으로, 영구 채팅 서버 파일 저장소에 사용할 파일 저장소에 대 한 모든 권한 (읽기, 쓰기 및 수정)이 있으며,이는 토폴로지 작성기가 필수 dacl을 구성할 수 있도록 합니다. 또는 계정 해당 권한.
+    > 로컬 사용자 그룹의 구성원 인 계정을 사용 하 여 토폴로지를 정의할 수 있지만 토폴로지를 게시 하려면 비즈니스용 Skype Server를 설치 하려면 **Domain Admins** 그룹 및 **RTCUniversalServerAdmins** 그룹의 구성원 인 계정을 사용 하 고, 영구 채팅 서버 파일 저장소에 사용할 파일 저장소에 대 한 모든 권한 (읽기, 쓰기 및 수정)이 있어야 하며, 토폴로지 작성기가 필수 dacl을 구성할 수 있도록 하는 계정 또는 계정을 권리가.
   
 2. 토폴로지 작성기를 시작 합니다.
     
@@ -70,7 +72,7 @@ ms.locfileid: "36239869"
     
    - **Sql SERVER fqdn**에서 새 sql server 데이터베이스를 만들 대상 sql SERVER의 fqdn을 지정 합니다.
     
-   - 기본 인스턴스 **** 를 사용 하려면 기본 인스턴스를 선택 하 고, 다른 인스턴스를 지정 하려면 **명명 된 인스턴스**를 선택 하 고 사용 하려는 인스턴스를 지정 합니다.
+   - 기본 인스턴스를 사용 하려면 **기본 인스턴스를 선택 하** 고, 다른 인스턴스를 지정 하려면 **명명 된 인스턴스**를 선택 하 고 사용 하려는 인스턴스를 지정 합니다.
     
      > [!NOTE]
      > 장애 복구용으로 SQL Server 백업 데이터베이스를 구성 하는 방법에 대 한 자세한 내용은 비즈니스용 [Skype 서버 2015에서 영구 채팅 서버에 대해 고가용성 및 재해 복구 구성을](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)참조 하세요. 
@@ -78,7 +80,7 @@ ms.locfileid: "36239869"
 9. 준수를 사용 하도록 설정한 경우 SQL Server 준수 저장소를 정의 합니다.
     
     > [!IMPORTANT]
-    > 영구 채팅 서버 데이터베이스와 영구 채팅 서버 준수 데이터베이스에 대해 고가용성을 위해 SQL Server 미러를 구성 하는 방법에 대 한 자세한 내용은 [Skype의 영구 채팅 서버에 대해 고가용성 및 재해 복구 구성을 참조 하세요. 비즈니스 서버 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+    > 영구 채팅 서버 데이터베이스와 영구 채팅 서버 준수 데이터베이스에 대해 고가용성을 위해 SQL Server 미러를 구성 하는 방법에 대 한 자세한 내용은 비즈니스용 [Skype server 2015의 영구 채팅 서버에 대해 고가용성 및 재해 복구 구성을](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)참조 하세요. 
   
 10. 파일 저장소를 정의 합니다. 파일 저장소는 파일 저장소에 업로드 된 파일의 복사본이 저장 되는 폴더 (예: 채팅방에 게시 된 파일 첨부 저장)입니다. 다중 서버 영구 채팅 서버 토폴로지의 경우 UNC (범용 명명 규칙) 경로 여야 합니다. 단일 서버 영구 채팅 서버 토폴로지의 경우 로컬 파일 경로일 수 있습니다.
     
@@ -107,7 +109,7 @@ ms.locfileid: "36239869"
   
 토폴로지를 게시 하기 전에 영구 채팅 서버용 데이터베이스를 설치 합니다. **작업** 및 **데이터베이스 설치**를 선택 하 여 토폴로지 작성기를 사용 하 여 데이터베이스를 설치 합니다.
   
-1. 비즈니스용 Skype 서버를 실행 중이거나 비즈니스용 Skype 서버 관리 도구가 설치 되어 있는 컴퓨터에서 **Domain Admins** 그룹과 **RTCUniversalServerAdmins** 그룹의 구성원 인 계정을 사용 하 여 로그온 합니다. 영구 채팅 서버 파일 저장소에 사용할 파일 저장소에 대 한 모든 권한 (읽기, 쓰기 및 수정)이 있으며, 토폴로지 작성기가 필수 Dacl (임의 액세스 제어 목록)을 구성할 수 있도록 하거나 해당 사용자를 사용 하는 계정입니다. 권리가.
+1. 비즈니스용 Skype 서버를 실행 중이거나 비즈니스용 Skype 서버 관리 도구가 설치 되어 있는 컴퓨터에서 **도메인 관리자** 그룹과 **RTCUniversalServerAdmins** 그룹 모두의 구성원 인 계정을 사용 하 여 로그온 하 고, 영구적 채팅 서버 파일 저장소에 사용할 파일 저장소에 대 한 모든 권한 (읽기, 쓰기 및 수정)이 있으며,이는 토폴로지 작성기가 필요한 dacl (임의 액세스 제어 목록)을 구성할 수 있도록 하는 계정 또는 해당 사용자를 사용 하는 계정의 경우입니다. 권리가.
     
 2. 토폴로지 작성기를 시작 합니다. 로컬로 저장 **한 경우 로컬 파일에서 토폴로지 열기** 를 선택 합니다.
     

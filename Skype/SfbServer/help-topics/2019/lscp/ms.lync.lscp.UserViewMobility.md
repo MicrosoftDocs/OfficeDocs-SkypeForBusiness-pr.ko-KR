@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.UserViewMobility
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 보기-이동성 정책 대화 상자에 선택한 이동성 정책의 속성이 표시 됩니다.
-ms.openlocfilehash: c8994049cf2829bec8be1367ccb4bfcb74a4a833
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 32625a69cab3aa7e0ccc5c0ec984f885f6862d93
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690383"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797935"
 ---
 # <a name="users-view-mobility-policy"></a>사용자: 이동성 정책 보기
 

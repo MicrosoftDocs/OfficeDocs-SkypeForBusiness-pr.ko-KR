@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertRequestSans
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 ROBOTS: NOINDEX, NOFOLLOW
 description: 인증서를 마무리하여 요청하기 전에 추가 주체 대체 이름 구성 옵션을 통해 인증서에 SAN(주체 대체 이름)을 더 추가할 수 있습니다. SAN을 추가하려면 SAN의 FQDN(정규화된 도메인 이름)을 입력한 다음 추가를 클릭합니다. 삭제해야 하는 SAN을 추가한 경우 SAN 항목을 강조하고 제거를 클릭합니다. 추가한 모든 SAN 항목을 제거하려면 모두 지우기를 클릭합니다.
-ms.openlocfilehash: d493bc96d9056600cb3fcac5e12ade5186a10f82
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fc643d20acd97441c2d363236024ee37923cf317
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705603"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794276"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>인증서 요청(추가 주체 대체 이름)
  

@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.VoiceTrunkCallingRuleEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 새로운 트렁크 구성을 사용할 수 있습니다. 새 전화 번호 번역 규칙으로 새 번역 규칙을 만듭니다. 변환 규칙에 대한 자세한 내용은 다음 항목을 참조하세요.
-ms.openlocfilehash: 95e96825d4fa81839dac44d0f644ae8694c8d62c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c2cc638d38f25bc12537d560373c35535206a505
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703833"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795569"
 ---
 # <a name="new-calling-number-translation-rule"></a>새 전화 번호 번역 규칙
 

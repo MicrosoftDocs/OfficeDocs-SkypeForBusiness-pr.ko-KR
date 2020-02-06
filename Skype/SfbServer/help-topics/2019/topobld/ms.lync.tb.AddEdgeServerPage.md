@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
 ROBOTS: NOINDEX, NOFOLLOW
 description: 에지 서버 또는 에지 서버 풀을 토폴로지 디자인에 통합하려면 에지 서버 또는 에지 서버 풀을 배포할 서버의 FQDN(정규화된 도메인 이름)을 지정해야 합니다. Edge 서버 또는 Edge 서버 풀을 포함 하 고 비즈니스용 Skype 서버를 설치 하는 토폴로지를 게시 하기 전에 외부 사용자 액세스를 배포 하기 위한 모든 선행 조건을 완료 해야 합니다. 이러한 필수 구성 요소에 대한 자세한 내용은 배포 설명서에서 Preparing for Installation of Servers in the Perimeter Network를 참조하세요.
-ms.openlocfilehash: 4d48096d29f3437efa370405639b394c16a31aaa
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fd8e6f5fb398904f26ac5d62c4f9c1fc9b9caa80
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702973"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798145"
 ---
 # <a name="add-edge-server"></a>에지 서버 추가
 

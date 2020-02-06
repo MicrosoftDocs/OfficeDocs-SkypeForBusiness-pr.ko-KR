@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.PublishTopologyCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기는 SQL Server store에 데이터베이스를 설치 하는 방법을 제공 합니다. 토폴로지 작성기를 사용 하 여 데이터베이스를 설치 하는 경우 응용 프로그램은 토폴로지에서 정보를 읽은 다음 지정 된 SQL Server 컴퓨터 또는 SQL Server 클러스터에 필요한 데이터베이스를 설치 합니다. 이는 토폴로지 작성기를 사용하여 사용 가능한 유일한 데이터베이스 설치 유형입니다. 특정 컴퓨터에 특정 데이터베이스를 설치 해야 하거나 collocated 데이터베이스를 설치 해야 하는 경우 Windows PowerShell 명령줄 인터페이스와 설치-CsDatabase cmdlet을 대신 사용 해야 합니다.
-ms.openlocfilehash: b10fe3c476fe4519e425b6990f32302df61758c3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b31d970338848a2fb39d3d41b1ecdcc550efe277
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701660"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795459"
 ---
 # <a name="create-database"></a>데이터베이스 작성
  

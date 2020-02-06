@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ImpChooseFileType
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: 파일 확장명 선택 대화 상자를 사용 하 여 파일 형식 확장명 아래에 있는 확장명 옆에 있는 확인란을 선택 (차단) 하거나 선택 취소 (허용) 하 여 차단 하거나 허용 하려는 파일 형식 확장명을 선택할 수 있습니다. 화살표를 클릭 하 여 범주를 확장 하 고 해당 범주에 대 한 모든 파일 형식 확장명을 봅니다. 범주에 대 한 모든 파일 형식 확장명을 선택 하려면 범주 이름을 선택 합니다.
-ms.openlocfilehash: b738ea0b9c6ea19e616c42e83395e6efcdf11682
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4b15ddf1ed4786ae279d36848398b82814f153f8
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691183"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796447"
 ---
 # <a name="select-file-type-extensions"></a>파일 형식 확장명 선택
  

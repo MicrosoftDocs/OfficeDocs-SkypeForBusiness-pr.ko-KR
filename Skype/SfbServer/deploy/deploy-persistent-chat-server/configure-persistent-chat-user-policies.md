@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버에 대 한 초기 사용자 정책을 만드는 방법을 알아보려면이 항목을 참조 하세요. 영구 채팅 사용자 정책은 사용자가 채팅방에 대 한 액세스를 허용 하는지 여부를 결정 합니다.'
-ms.openlocfilehash: 83d6b49372f695be1a4db516eda6c7be357beed3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a51304c9e85951e9858d56c511aa8c7519babe51
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239759"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795699"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>영구 채팅 사용자 정책 구성
  

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.EdgeFqdnsSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 ROBOTS: NOINDEX, NOFOLLOW
 description: 에지 서버의 외부 설정을 편집하거나 지정하려면 먼저 SIP(Session Initiation Protocol) 액세스, 웹 회의 에지 서비스, 오디오/비디오 에지 서비스에 대해 서로 다른 IP 주소를 사용할지 여부를 결정해야 합니다.
-ms.openlocfilehash: acd034deb01b9144243335f61cbd8d71c88fdb78
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4cf7d04ed94a867dcf1e351868cc205aac2439b0
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688601"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793816"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>에지 서버 FQDN 설정 확장기
 

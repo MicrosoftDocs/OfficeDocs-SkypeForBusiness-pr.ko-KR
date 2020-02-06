@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddArchivingServerPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a7106eb-8fd3-492a-a45c-f099496b11a2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 보관 서버를 토폴로지 디자인으로 배포하려면 보관을 배포할 서버의 FQDN(정규화된 도메인 이름)을 지정해야 합니다. 비즈니스용 Skype Server 보관 및 설치를 포함 하는 토폴로지를 게시 하기 전에 보관 배포에 대 한 모든 필수 조건을 완료 해야 합니다.
-ms.openlocfilehash: 93960b8294be418965811c4c9c4c7d4e7be7c460
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fe4746bba182fd10aa3f2cb8ebfee48b346fd22f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703303"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795539"
 ---
 # <a name="add-archiving-server"></a>보관 서버 추가
  

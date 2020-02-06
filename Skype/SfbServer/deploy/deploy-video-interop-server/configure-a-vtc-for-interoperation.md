@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: '요약: 비즈니스용 Skype 서버에서 작동 하도록 VTC 장치를 구성 합니다.'
-ms.openlocfilehash: 8c5310479aea38f5623f8ac2e10ef64978aa4aee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b266c8cc97898fe192ec023183a565b921d86949
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235674"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798085"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>비즈니스용 Skype 서버와 상호 운용을 위한 VTC 구성
  

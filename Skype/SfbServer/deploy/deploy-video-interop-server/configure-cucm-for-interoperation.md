@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: '요약: 비즈니스용 Skype 서버에서 작동 하도록 CUCM를 구성 합니다.'
-ms.openlocfilehash: 8324e146147480bb682c2cc18c62a96e95a130e3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0f8b5321b482d78d9dc833471323ae842c247246
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235654"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798075"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>비즈니스용 Skype 서버와 상호 운용할 CUCM 구성
  
@@ -72,7 +74,7 @@ VIS와의 상호 운용을 위해 몇 가지 CUCM 설정을 확인 하거나 변
     
 14. 장치 프로토콜을 SIP로 설정 하 고 **다음**을 누릅니다.
     
-15. 장치 정보에서 디바이스 이름 및 설명 (예: SfBVideoInterop_SIPTrunk)을 설정 하 고 미디어 리소스 그룹 목록을 올바른 미디어 리소스를 포함 하는 MRGL로 설정 합니다. 
+15. 장치 정보에서 장치 이름 및 설명 (SfBVideoInterop_SIPTrunk 등 일 수 있음)을 설정 하 고 미디어 리소스 그룹 목록을 올바른 미디어 리소스를 포함 하는 MRGL으로 설정 합니다. 
     
 16. 아래로 스크롤합니다. 비디오 통화에 MTP (미디어 종료 시점)가 필요 하지 않으면 아직 선택 되어 있지 않은 경우 선택을 취소 합니다. **모든 활성 통합 CM 노드에서 실행할**옵션을 선택 합니다. 모든 CUCM 노드를 비즈니스용 Skype 서버 구성에 추가 해야 한다는 점에 유의 하세요.
     
@@ -129,7 +131,7 @@ VIS와의 상호 운용을 위해 몇 가지 CUCM 설정을 확인 하거나 변
     
     |**매개 변수**|**권장 설정**|
     |:-----|:-----|
-    |영역인  <br/> |기본값  <br/> |
+    |지역  <br/> |기본값  <br/> |
     |오디오 코덱 기본 설정 목록  <br/> |시스템 기본값  <br/> |
     |최대 오디오 비트 전송률  <br/> |64 kbps (722, 711)  <br/> |
     |비디오 통화에 대 한 최대 세션 비트 전송률  <br/> |20만 kbps  <br/> |

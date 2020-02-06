@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertRequestCAAccount
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 ROBOTS: NOINDEX, NOFOLLOW
 description: 요청을 제출 하려면 CA (인증 기관)에서 현재 로그인 한 사용자에 대 한 자격 증명 외에 다른 인증서가 필요할 수 있습니다.
-ms.openlocfilehash: 8319b18340d705645529dba93ccfab40a96b68a2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2871e8265bb7d1a4228d162e435dedf307165ec8
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705683"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796749"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>인증서 요청(인증 기관 계정)
  

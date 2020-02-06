@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerNatIpPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 ROBOTS: NOINDEX, NOFOLLOW
 description: 공용 IP 주소는 NAT (network address translation)에서 사용 되는 IP 주소입니다. IP 주소를 공개적으로 라우팅할 수 있어야 합니다. 이 마법사의 기능 선택 페이지에서이 Edge 풀의 외부 IP 주소를 NAT 옵션으로 번역 하도록 선택 했기 때문에이 요구 사항입니다.
-ms.openlocfilehash: f06d9b61d5ffad29d24e143cf3afbbc4501a67d4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 988b585145b6607002b6de0aafffbdc95b9c54c6
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689417"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798175"
 ---
 # <a name="add-edge-server-nat-ip"></a>Edge 서버 NAT IP 추가
 

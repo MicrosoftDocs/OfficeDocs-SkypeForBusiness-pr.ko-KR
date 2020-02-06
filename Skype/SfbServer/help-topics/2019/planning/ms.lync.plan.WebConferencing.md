@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.WebConferencing
 - ms.lync.plan.WebConferencing
 ms.prod: skype-for-business-itpro
@@ -14,12 +16,12 @@ localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 비즈니스용 Skype 서버 웹 회의에는 문서 공동 작업, 응용 프로그램 공유, 데스크톱 공유가 포함 되어 있습니다.
-ms.openlocfilehash: cce843fb69248c12f6a3955dd2782201f725945f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 91d590604c39eff52a9df8d3339786f93676fb2a
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689691"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794467"
 ---
 # <a name="web-conferencing-planning-tool"></a>웹 회의 (계획 도구)
  

@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertRequestTemplate
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 ROBOTS: NOINDEX, NOFOLLOW
 description: 대체 인증서 템플릿 지정 페이지에서는 기본적으로 사용되는 WebServer 인증서 템플릿이 아닌 인증서 템플릿을 정의할 수 있습니다. 선택한 인증 기관에 대체 인증서 템플릿 사용 확인란을 선택한 다음 인증서 템플릿 이름 텍스트 상자에 대체 인증서 템플릿의 이름을 정의합니다. CA(인증 기관)에 정의된 대로 템플릿의 이름을 사용해야 합니다. 이전 페이지로 돌아가려면 뒤로를 클릭합니다. 인증서 요청 프로세스를 끝내려면 취소를 클릭합니다.
-ms.openlocfilehash: ab5cef4d0609eea59c304d3f4550c017c84d64f0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a2ada69d4c71b44ea195ad65a991c6104bdb3443
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691953"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794407"
 ---
 # <a name="certificate-request-specify-termplate"></a>인증서 요청(템플릿 지정)
  

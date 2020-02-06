@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: '요약: 비즈니스용 Skype 서버 배포 마법사를 사용 하 여 비즈니스용 Skype 서버 2015 구성 요소 및 서비스를 설치 하는 방법을 알아보려면이 항목을 읽으십시오.'
-ms.openlocfilehash: 5b8205cb2ab828001eae76eeaab8cd4f697c9315
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 019700b169c3507540c93a3a152c3741de2681fb
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234750"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795689"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>영구 채팅 구성 요소 설치
  

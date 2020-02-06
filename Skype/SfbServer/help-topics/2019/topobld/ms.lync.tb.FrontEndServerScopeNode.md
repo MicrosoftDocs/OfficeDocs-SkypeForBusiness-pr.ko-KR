@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.FrontEndServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이 노드에는 이 프런트 엔드 풀 또는 Standard Edition 서버에 대한 구성 정보가 표시됩니다. 다음 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 262b30461dd7a2a3fd511e0834dd2dc4f36084aa
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ddd0cfbb80284f8f8a19162b1ae32e0f45d0857a
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702123"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793646"
 ---
 # <a name="front-end-server-scope-node"></a>프런트 엔드 서버 범위 노드
  

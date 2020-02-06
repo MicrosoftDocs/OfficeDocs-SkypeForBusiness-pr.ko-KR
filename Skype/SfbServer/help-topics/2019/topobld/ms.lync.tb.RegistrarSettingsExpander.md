@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.RegistrarSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: 탄력성은 레지스트라 풀에 대 한 고가용성 및 재해 복구를 제공 합니다. 기본 등록 기관에 장애가 발생 했을 때 백업 등록 기관을 제공 하 여, 백업 등록 자가 실패 등록자에 대해 조치를 취하여 사용자가 로그온 하 고 통신할 수 있도록 합니다. 사용자는 기본 등록 기관에서 실패 한 시스템에 따라 기능을 저하 시킬 수 있습니다.
-ms.openlocfilehash: cc025bdd09026ac3c3b15d2408d0c99b3494a04f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b6dd5fac05b4692e8f30f1063ab71b1bad02d810
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688041"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797239"
 ---
 # <a name="registrar-settings-expander"></a>등록자 설정 확장기
  

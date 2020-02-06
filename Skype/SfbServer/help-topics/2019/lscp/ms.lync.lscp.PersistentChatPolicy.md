@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.PersistentChatPolicy
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 그룹의 영구 채팅 정책 페이지를 통해 전역, 풀, 사이트 또는 사용자 수준에서 정책을 관리할 수 있습니다(배포에 대해 기본 전역 정책을 구성하고 하나 이상의 사용자 및 사이트 정책을 추가로 만드는 작업이 포함됨). 정책에 따라 영구 채팅 서버를 사용할 수 있는 경우 클라이언트에 영구 채팅 서버 환경이 표시 됩니다.
-ms.openlocfilehash: c2fd21d9839ede9987737bd2d1a5ad1d739a4e52
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c7c2ca60e5a1d7d3d24a890d2921d696dedc4e4d
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690872"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797549"
 ---
 # <a name="persistent-chat-policy"></a>영구 채팅 정책
 

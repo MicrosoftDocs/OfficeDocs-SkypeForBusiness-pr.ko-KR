@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.InstallDatabaseCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 배포에 대해 만들려는 데이터베이스를 선택 합니다. 기본적으로 데이터베이스는 정의 된 사이트의 정의 된 SQL Server에서 만들어지고 데이터베이스를 배치 하는 SQL Server에 따라 데이터베이스 파일을 자동으로 배포 하 고 구성 합니다.
-ms.openlocfilehash: 884043cc1197c60b98c455882740d09157ab3228
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4bd69f1caa3322dbbf2d91a67caef54b72ece200
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688541"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793616"
 ---
 # <a name="install-and-create-databases"></a>데이터베이스 설치 및 만들기
 

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddDirectorFeaturesPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 ROBOTS: NOINDEX, NOFOLLOW
 description: 디렉터 풀에 모니터링 서버를 포함 하려면 모니터링 (CDR 및 체감 품질 메트릭스)을 선택 합니다.
-ms.openlocfilehash: bc8a0450ad9c70fe79bf7121f85a04f49792422a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0f675b0a8fa16345a5964eb31c58f9e7be536158
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689663"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796619"
 ---
 # <a name="add-director-features"></a>Director 기능 추가
 

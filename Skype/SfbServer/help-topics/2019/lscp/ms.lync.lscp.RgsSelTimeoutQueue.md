@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.RgsSelTimeoutQueue
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 ROBOTS: NOINDEX, NOFOLLOW
 description: 시간 초과 큐 선택 대화 상자를 사용 하 여 시간 초과 시 통화가 전달 되는 큐를 선택 합니다.
-ms.openlocfilehash: b19c8b5fea61f3bda04a7dd8299c23467318cc97
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a86c1bd8c84f96ecd4ef4f736cc8dc9ba3f55d12
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704433"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793446"
 ---
 # <a name="select-time-out-queue"></a>시간 초과 큐 선택
  

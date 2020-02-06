@@ -8,17 +8,19 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: '요약: 비즈니스용 Skype 서버를 설치 하기 위해 환경을 준비 하는 방법에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: f15a305a660586e017984a171db217636e2e09ff
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: cac618aba9f97237e585ffc57b99c71a8a5c8645
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244339"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797089"
 ---
 # <a name="install-skype-for-business-server"></a>비즈니스용 Skype 서버 설치
  
@@ -56,7 +58,7 @@ ms.locfileid: "36244339"
     
 - [비즈니스용 Skype server에서 새 토폴로지 만들기 및 게시](create-and-publish-new-topology.md) : 토폴로지의 각 서버에 비즈니스용 Skype Server system을 설치 하기 전에 토폴로지를 만들고 게시 해야 합니다. 토폴로지를 게시 하면 중앙 관리 저장소 데이터베이스로 토폴로지 정보를 로드 하 게 됩니다. Enterprise Edition 풀 인 경우 새 토폴로지를 처음으로 게시할 때 중앙 관리 저장소 데이터베이스를 만듭니다. 스탠더드 버전의 경우 토폴로지를 게시 하기 전에 배포 마법사에서 첫 번째 Standard Edition Server 준비 프로세스를 실행 해야 합니다. 이는 SQL Server Express Edition 인스턴스를 설치 하 고 중앙 관리 저장소를 만들어 스탠더드 버전을 준비 합니다.
     
-- [토폴로지의 서버에 비즈니스용 Skype 서버 설치](install-skype-for-business-server.md) : 토폴로지가 중앙 관리 저장소에 로드 되 고 Active Directory가 어떤 서버가 어떤 역할을 수행할 것인지 알고 있으면 각 사용자에 게 비즈니스용 Skype 서버 시스템을 설치 해야 합니다. 토폴로지에 있는 서버
+- [토폴로지의 서버에 비즈니스용 Skype 서버 설치](install-skype-for-business-server.md) : 토폴로지가 중앙 관리 저장소에 로드 되 고 Active Directory가 어떤 서버가 어떤 역할을 수행할 것인지 알고 있으면 토폴로지의 각 서버에 비즈니스용 Skype Server system을 설치 해야 합니다.
     
 - [비즈니스용 Skype 서버에서 토폴로지 확인](verify-the-topology.md) : 토폴로지가 게시 되 고 토폴로지의 각 서버에 비즈니스용 Skype 서버 시스템 구성 요소가 설치 된 후 토폴로지가 예상 대로 작동 하는지 확인할 준비가 되었습니다. 여기에는 전체 도메인에서 비즈니스용 Skype를 도메인에서 사용할 수 있음을 인식 하도록 모든 Active Directory 서버로 구성이 전파 되었는지 확인 하는 것이 포함 됩니다.
     

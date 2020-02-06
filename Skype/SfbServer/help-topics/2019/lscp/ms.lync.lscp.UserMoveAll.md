@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.UserMoveAll
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사용자 이동 대화 상자에서 배포의 다른 풀로 사용자 계정을 이동할 원본 및 대상 풀을 선택할 수 있습니다.
-ms.openlocfilehash: c020a54bcbd3398efe86d782f87826a241a94103
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9566405c6c088270168368855c88bedece9595dd
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704083"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794977"
 ---
 # <a name="move-all-users"></a>모든 사용자 이동
 

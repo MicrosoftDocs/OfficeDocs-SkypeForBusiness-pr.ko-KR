@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddArchivingServerSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 보관 데이터를 저장 하려면 보관 서버에 SQL Server 데이터베이스 소프트웨어의 지원 되는 64 비트 버전이 필요 합니다. SQL Server 데이터베이스를 저장할 서버의 FQDN (정규화 된 도메인 이름)을 지정 하 여 새 SQL Server 데이터베이스를 보관 하거나 정의 하는 데 사용할 이전에 정의 된 SQL Server 데이터베이스를 선택 하거나, SQL server의 인스턴스를 제거할 수 있습니다. 새 SQL Server 데이터베이스에 사용 하려는 경우 (기본 인스턴스 또는 지정한 명명 된 인스턴스를 사용할 수 있음)
-ms.openlocfilehash: 14a104a28c28c5ea78ab97fd73f7eb7312fffd87
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 01153a976f404b1eac8176f55ffd7951d62975c9
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689713"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794857"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>보관 서버 SQL 서버 저장소 추가
 

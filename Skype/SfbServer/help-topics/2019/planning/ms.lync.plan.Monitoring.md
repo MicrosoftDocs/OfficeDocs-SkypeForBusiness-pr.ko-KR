@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.Monitoring
 - ms.lync.plan.Monitoring
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: 비즈니스용 Skype Server에서 모니터링은 사용자가 관여 하는 통신 세션에 대 한 사용 정보 및 경력 (체감 품질) 데이터를 수집 하는 데 사용 됩니다.
-ms.openlocfilehash: 8f60912d9a87b62d23c8025fad5fea25fcbd0479
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1e26f81a9a2044919eade6d44daf2f77b9c32158
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689763"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797119"
 ---
 # <a name="monitoring-planning-tool"></a>모니터링 (계획 도구)
 

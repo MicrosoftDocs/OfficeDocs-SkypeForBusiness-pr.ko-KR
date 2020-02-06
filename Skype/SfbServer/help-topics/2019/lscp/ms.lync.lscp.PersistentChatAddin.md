@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.PersistentChatAddin
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 ROBOTS: NOINDEX, NOFOLLOW
 description: 영구 채팅 페이지의 추가 기능 섹션을 사용 하 여 Url을 영구 채팅방과 연결할 수 있습니다. 이러한 URL은 클라이언트에서 채팅방의 대화 확장성 창에 표시됩니다. 관리자가 등록된 추가 기능 목록에 추가 기능을 추가하고, 채팅방 관리자/생성자가 등록된 추가 기능 중 하나와 채팅방을 연결해야 사용자가 클라이언트에서 이 업그레이드를 확인할 수 있습니다.
-ms.openlocfilehash: 516806ab657d7a210ff12428b425237dd2c6a051
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f4de4aefc6ce9c6439058b2bc66d6f5473adf578
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690933"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797609"
 ---
 # <a name="persistent-chat-add-in"></a>영구 채팅 추가 기능
 

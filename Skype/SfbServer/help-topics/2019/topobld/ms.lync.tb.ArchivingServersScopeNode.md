@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.ArchivingServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 토폴로지 작성기의 콘솔 트리에서 보관 서버를 마우스 오른쪽 단추로 클릭하고 도구 모음에서 동작을 클릭하거나 동작 창에서 작업을 클릭한 후 다음 보관 서버 옵션을 클릭하여 개별 보관 서버 관련 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 46bd2ec34ccd6a1e4004acb14c9718120529eb66
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 899b2d52dd37f9768d0e46613bff7fd87d2c8148
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688871"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794056"
 ---
 # <a name="archiving-servers-scope-node"></a>보관 서버 범위 노드
  

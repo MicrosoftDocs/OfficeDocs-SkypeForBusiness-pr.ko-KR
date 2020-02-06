@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ConfCAASelLang
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 전화 접속 회의 액세스 번호에 사용할 언어를 선택합니다. 자세한 내용은 Create or Modify a Dial-in Conferencing Access Number을 참조하세요.
-ms.openlocfilehash: ce50a78b5855c70071a319e8e659fc10db0dec5b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 188d9fa83b607644ad0bcfed9ff4900809174bc5
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691443"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796357"
 ---
 # <a name="select-languages"></a>언어 선택
 

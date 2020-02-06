@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddPstnGatewayTrunkPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 다음을 구성 하 여 IP 또는 PSTN (공개 교환 전화 네트워크)에 대 한 루트 트렁크를 정의 합니다.
-ms.openlocfilehash: 5332fdaab9efd3eb7c7587c390e5d3cee0af4d1d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7920335c4d29b883be8d2076223425db103b605c
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702683"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794357"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>새 IP 또는 PSTN 게이트웨이의 루트 트렁크 정의
 

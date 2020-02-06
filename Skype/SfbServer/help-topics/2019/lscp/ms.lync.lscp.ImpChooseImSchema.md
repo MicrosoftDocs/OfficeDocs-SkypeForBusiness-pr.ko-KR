@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ImpChooseImSchema
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
 description: 하이퍼링크 접두사 선택 대화 상자를 사용 하 여 차단 하려는 하이퍼링크 유형 선택, 경고 메시지 보내기 또는 허용 (경고 메시지 차단 또는 보내기) 또는 선택 (허용 하는 경우)에서 범주에 대 한 확장 확인란의 선택을 취소 합니다. 하이퍼링크 접두사. 화살표를 클릭 하 여 범주를 확장 하 고 해당 범주에 대 한 모든 하이퍼링크 접두사를 봅니다. 범주에 대 한 모든 하이퍼링크 접두사를 선택 하려면 범주 이름을 선택 합니다.
-ms.openlocfilehash: f9d88838c41d2d5fb4ec21d3dd6459ab1ac66d2b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b69dfc67073e2aa78a0c9a961aa80f61f69d0ca6
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704773"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795389"
 ---
 # <a name="select-hyperlink-prefix"></a>하이퍼링크 접두사 선택
  

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddPstnGatewayIPPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: IPv4 사용 또는 IPv6 사용을 선택 하 여 IP 또는 PSTN (휴대폰 전환 전화 네트워크) 게이트웨이의 IPv4 또는 IPv6 주소를 정의 합니다. 구성 된 모든 IP 주소 사용을 선택 하거나 선택한 IP 주소로 서비스 사용량을 제한할 수 있습니다.
-ms.openlocfilehash: 7c92f3b73421dcfe078594a8c3872c8f62efb3a7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c55c5aea5659845fc0ad4e519e3382065ae9371e
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689037"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794377"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>IP 또는 PSTN 게이트웨이의 IP 주소 정의
 

@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertRequestBasics
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 이름 및 보안 설정 페이지에서는 친근 한 이름, 개인 및 공개 키 쌍의 비트 길이에 대 한 드롭다운 목록, 인증서의 개인 키를 내보낼 수 있는 것으로 표시 하는 확인란을 정의 하는 텍스트 상자를 제공 합니다.
-ms.openlocfilehash: f1945089d8f58297476c98228fa2cff68e88c24f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 26315f24dd14989bd2832d6f28e591a7ae38cc64
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705713"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796769"
 ---
 # <a name="certificate-request-basic"></a>인증서 요청(기본)
  

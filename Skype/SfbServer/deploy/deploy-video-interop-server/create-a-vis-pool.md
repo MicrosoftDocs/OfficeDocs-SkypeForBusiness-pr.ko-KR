@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: '요약: 토폴로지 작성기를 사용 하 여 비즈니스용 Skype 서버에서 비디오 Interop 서버 풀을 만듭니다.'
-ms.openlocfilehash: dc97fde4447778be20cb60d86cddac65b663c321
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 474752253312b58b87a3d01f445bd93eabdaf203
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235664"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798055"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 VIS 풀 만들기
  

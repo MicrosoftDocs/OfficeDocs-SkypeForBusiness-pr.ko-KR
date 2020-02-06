@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.TopoAppSvrMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
 description: '토폴로지: 서버 응용 프로그램 페이지는 배포에 서버 응용 프로그램을 표시 합니다.'
-ms.openlocfilehash: f370e0d464f6becb90236c2d3ad33dcf839c8cc0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6e7c726646a0a477754fc969753d1fb27f83d163
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690583"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795549"
 ---
 # <a name="topology-server-application"></a>토폴로지: 서버 응용 프로그램
 
