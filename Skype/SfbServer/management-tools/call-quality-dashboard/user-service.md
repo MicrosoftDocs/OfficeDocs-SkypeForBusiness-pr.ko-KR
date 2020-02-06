@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: '요약: 통화 품질 대시보드의 리포지토리 API의 일부인 사용자 서비스에 대해 알아봅니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 6e0a6a58be98469458a8c8e7063402ff6477c35f
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 439df99c1c9d66547e681fdea90b33c6295344db
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36197834"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816657"
 ---
 # <a name="user-service-for-cqd"></a>CQD에 대 한 사용자 서비스
  

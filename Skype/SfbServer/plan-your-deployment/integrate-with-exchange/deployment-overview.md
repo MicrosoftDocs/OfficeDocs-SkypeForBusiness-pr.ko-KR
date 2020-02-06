@@ -8,22 +8,24 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: '요약: 비즈니스용 Skype 서버와 Exchange 2013 또는 2016을 통합 하기 위해 계획 하는 동안이 항목을 검토 하세요.'
-ms.openlocfilehash: dfb9eb926cb1ebd046f06597eecc0c2204fea97b
-ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
+ms.openlocfilehash: db6cdbf5297c2397acadcb65ad615533ae6dbe2f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "37547271"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815896"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>온-프레미스 통합 메시징과 비즈니스용 Skype 통합에 대 한 배포 프로세스 개요
  
 **요약:** 비즈니스용 Skype 서버와 Exchange 2013 또는 2016을 통합 하기 위해 계획 하는 동안이 항목을 검토 하세요.
   
- 비즈니스용 Skype 서버와 UM (Exchange 통합 메시징)을 통합 하려면이 항목에서 설명 하는 작업을 수행 해야 합니다. 또한 [비즈니스용 Skype의 Exchange 통합 메시징 통합 계획](unified-messaging.md)에 명시 된 계획 및 배포 모범 사례를 검토 하세요. 이 항목에서는 collocated 중재 서버를 사용 하 여 비즈니스용 Skype Server를 배포 했으며 비즈니스용 Skype Server에 대해 사용자를 사용 하도록 설정 했다고 가정 했지만, 다음과 같이 Enterprise Voice를 사용 하도록 설정 하는 모든 배포 및 구성 단계를 수행 하지는 않았습니다. 배포 설명서의 비즈니스용 [Skype 서버에서 Enterprise Voice 배포](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) 에 설명 되어 있습니다.
+ 비즈니스용 Skype 서버와 UM (Exchange 통합 메시징)을 통합 하려면이 항목에서 설명 하는 작업을 수행 해야 합니다. 또한 [비즈니스용 Skype의 Exchange 통합 메시징 통합 계획](unified-messaging.md)에 명시 된 계획 및 배포 모범 사례를 검토 하세요. 이 항목에서는 collocated 중재 서버를 사용 하 여 비즈니스용 Skype Server를 배포 했으며 비즈니스용 skype Server에 대 한 사용자를 사용 하도록 설정 했다고 가정 했지만, 배포 설명서의 비즈니스용 [Skype 서버에서 Enterprise Voice 배포](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) 에 설명 된 대로 enterprise voice를 사용 하도록 설정 하는 모든 배포 및 구성 단계를 수행 하지 않은 것으로 가정 합니다.
  
 > [!NOTE]
 > 이전에는 알려진 대로 Exchange 통합 메시징을 사용할 수 없습니다. 휴대폰 시스템을 사용 하 여 보이스 메일 메시지를 기록한 다음 사용자의 Exchange 사서함에 녹음/녹화를 종료 하는 비즈니스용 Skype 서버 2019에 더 이상 제공 되지 않습니다. 자세한 내용은 [클라우드 보이스 메일 서비스 계획](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 을 참조 하세요.

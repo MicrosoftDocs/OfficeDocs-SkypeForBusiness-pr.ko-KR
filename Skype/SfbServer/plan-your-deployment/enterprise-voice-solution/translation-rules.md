@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: 비즈니스용 Skype Server Enterprise Voice에서 번역 규칙 및 다이얼 문자열 정규화에 대해 알아봅니다.
-ms.openlocfilehash: 1f435db01b5b15c97ae577565e4ba43f5de554ea
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c82b925c9ef168d8a5f5e7ac730a93a53a432e2d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196897"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802398"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 번역 규칙
 
@@ -40,7 +42,7 @@ ms.locfileid: "36196897"
 
 |**설명**|**시작 번호**|**Content-length**|**제거할 숫자**|**더할 숫자**|**일치 패턴**|**변환용**|**예**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|미국 내 기존 시외 전화 통화  <br/> (' + ' 제거)  <br/> |+ 1  <br/> |정확히 12  <br/> |raid-1  <br/> |0  <br/> |^\+(1 \ d{10}) $  <br/> |$1  <br/> |+ 14255551010이 14255551010  <br/> |
-|미국 국제 장거리 전화  <br/> (' + '를 제거 하 고 011을 추가 합니다.)  <br/> |+  <br/> |11 개 이상  <br/> |raid-1  <br/> |011  <br/> |^\+(\d{9}\d +) $  <br/> |011 $1  <br/> |+ 441235551010이 011441235551010  <br/> |
+|미국 내 기존 시외 전화 통화  <br/> (' + ' 제거)  <br/> |+ 1  <br/> |정확히 12  <br/> |1  <br/> |0  <br/> |^\+(1 \ d{10}) $  <br/> |$1  <br/> |+ 14255551010이 14255551010  <br/> |
+|미국 국제 장거리 전화  <br/> (' + '를 제거 하 고 011을 추가 합니다.)  <br/> |+  <br/> |11 개 이상  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d +) $  <br/> |011 $1  <br/> |+ 441235551010이 011441235551010  <br/> |
 
 

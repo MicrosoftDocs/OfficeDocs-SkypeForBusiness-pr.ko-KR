@@ -8,15 +8,17 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: 변환-CcIsoToVhdx cmdlet은 고객이 제공 하는 Windows Server 2012 R2 ISO 파일을 사용 하 여 기본 VHDX (virtual 하드 디스크 파일)를 만듭니다. VHDX 파일은 비즈니스용 Skype 클라우드 커넥터 에디션을 배포 하는 동안 사용 됩니다.
-ms.openlocfilehash: 780002c54a77746c51f418cae077ffcc9b1fb608
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: f6b16c27b82919f24b9ee0e3094fb03fffa6443b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001348"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802428"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  

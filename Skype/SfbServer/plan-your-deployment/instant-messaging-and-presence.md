@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: '요약: 비즈니스용 Skype 서버에서 인스턴트 메시지 및 현재 상태를 계획 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 29026a0b4ef7cce55f155f024efc9ccc84457906
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d62559afe0c7767ee7863f41b41f2d1b64127643
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196882"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815906"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 인스턴트 메시지 및 현재 상태에 대 한 계획
  
@@ -33,7 +35,7 @@ ms.locfileid: "36196882"
   
 ### <a name="technical-requirements"></a>기술 요구 사항
 
-인스턴트 메시지 (IM) 및 현재 상태는 항상 엔터프라이즈 버전의 프런트 엔드 풀 및 Standard Edition 서버에서 실행 됩니다. 지원 되는 하드웨어, 운영 체제 및 데이터베이스 소프트웨어에 대 한 자세한 내용은 [인증 된 게이트웨이](../../SfbPartnerCertification/certification/infra-gateways.md), 비즈니스용 [skype 2015 환경에 대 한 요구 사항](requirements-for-your-environment/requirements-for-your-environment.md)및 비즈니스용 [skype Server 2019의 인프라 요구 사항을 참조 하세요. ](../../SfBServer2019/plan/system-requirements.md).
+인스턴트 메시지 (IM) 및 현재 상태는 항상 엔터프라이즈 버전의 프런트 엔드 풀 및 Standard Edition 서버에서 실행 됩니다. 지원 되는 하드웨어, 운영 체제 및 데이터베이스 소프트웨어에 대 한 자세한 내용은 [인증 된 게이트웨이](../../SfbPartnerCertification/certification/infra-gateways.md), 비즈니스용 [skype 2015 환경에 대 한 요구 사항](requirements-for-your-environment/requirements-for-your-environment.md)및 비즈니스용 [skype Server 2019의 인프라 요구 사항을](../../SfBServer2019/plan/system-requirements.md)참조 하세요.
   
 ### <a name="enabling-communication-with-external-users"></a>외부 사용자와의 통신 설정
 

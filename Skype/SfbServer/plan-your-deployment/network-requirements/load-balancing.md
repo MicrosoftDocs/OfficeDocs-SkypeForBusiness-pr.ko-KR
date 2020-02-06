@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: '요약: 비즈니스용 Skype 서버를 구현 하기 전에 부하 분산 고려 사항을 검토 합니다.'
-ms.openlocfilehash: 2db9b7aa37f71d445feb3cfd9a09e49f44ca48f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 199c93528d89786573bdac16077f1e32feb1fe6f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196860"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802048"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>비즈니스용 Skype의 부하 분산 요구 사항
  
@@ -114,7 +116,7 @@ DNS 부하 분산을 사용 하는 경우 특정 컴퓨터로의 트래픽을 �
   
 다음은 디렉터 및 프런트 엔드 풀 웹 서비스에 대 한 하드웨어 부하 분산 장치 요구 사항입니다.
   
-- 내부 웹 서비스 Vip의 경우 하드웨어 부하 분산 장치에서 Source_addr 지 속성 (내부 포트 80, 443)을 설정 합니다. 비즈니스용 Skype 서버의 경우 Source_addr 지 속성은 단일 IP 주소에서 들어오는 여러 연결이 항상 하나의 서버로 전송 되어 세션 상태를 유지 한다는 의미입니다.
+- 내부 웹 서비스 Vip의 경우 하드웨어 부하 분산 장치에서 Source_addr 지 속성 (내부 포트 80, 443)을 설정 합니다. 비즈니스용 Skype 서버에서 Source_addr 지 속성은 단일 IP 주소에서 들어오는 여러 연결이 항상 하나의 서버로 보내져 세션 상태를 유지 합니다.
     
 - TCP 유휴 시간 제한 (1800 초)을 사용 합니다.
     
@@ -233,7 +235,7 @@ DNS 부하 분산은 비즈니스용 Skype Server 또는 Lync Server 2010, Lync 
   
 - DNS 부하 분산을 사용 하는 풀에는 DNS 로드 균형 조정 (예: pool01.contoso.com)에서 사용 되는 일반 풀 FQDN과 풀에 있는 서버의 실제 Ip 및 풀의 웹 서비스에 대 한 또 다른 FQDN (다음과 같은 경우)이 포함 되어야 합니다. web01.contoso.com ()로 풀의 가상 IP 주소를 확인 합니다. 
     
-    토폴로지 작성기에서 풀에 대 한 DNS 부하 분산을 배포 하려는 경우 해당 풀의 웹 서비스에 대 한이 추가 FQDN을 만들려면 **내부 웹 서비스 풀 Fqdn 재정의** 확인란을 선택 하 고 fqdn을 입력 하 여 다음 **에 대 한 웹 서비스 url을 지정 합니다. 이 풀** 페이지
+    토폴로지 작성기에서 풀에 대 한 DNS 부하 분산을 배포 하려는 경우 해당 풀의 웹 서비스에 대 한이 추가 FQDN을 만들려면 **내부 웹 서비스 풀 Fqdn 재정의** 확인란을 선택 하 고 **이 풀에 대 한 웹 서비스 url 지정** 페이지에서 fqdn을 입력 해야 합니다.
     
 - DNS 부하 분산에 사용 되는 FQDN을 지원 하려면 DNS를 프로 비전 하 여 풀의 모든 서버 (예: 192.168.1.1, 192.168.1.2 등)의 IP 주소에 대 한 풀 FQDN (pool01.contoso.com)을 확인 해야 합니다. 현재 배포 된 서버의 IP 주소만 포함 해야 합니다.
     

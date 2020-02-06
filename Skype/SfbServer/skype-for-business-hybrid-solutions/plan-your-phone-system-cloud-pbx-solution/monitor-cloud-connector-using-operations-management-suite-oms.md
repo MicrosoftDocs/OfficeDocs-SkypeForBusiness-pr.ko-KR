@@ -1,5 +1,5 @@
 ---
-title: OMS (Operations Management Suite)를 사용 하 여 클라우드 커넥터 모니터링
+title: 운영 관리 제품군(OMS)을 사용하여 클라우드 커넥터 모니터링
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -8,17 +8,19 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 이 항목에서는 Microsoft OMS (Operations Management Suite)를 사용 하 여 클라우드 커넥터 버전 2.1 및 이후 배포를 모니터링 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6258ad9386b895f97a6f6dc0a1b40ce1076568aa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1dcac3519624cef898622f915b08b24363453b84
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190728"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799628"
 ---
-# <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>OMS (Operations Management Suite)를 사용 하 여 클라우드 커넥터 모니터링
+# <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>운영 관리 제품군(OMS)을 사용하여 클라우드 커넥터 모니터링
 
 이 항목에서는 Microsoft OMS (Operations Management Suite)를 사용 하 여 클라우드 커넥터 버전 2.1 및 이후 배포를 모니터링 하는 방법을 알아봅니다.
 
@@ -99,7 +101,7 @@ OMS 포털에서 다음과 같이 이벤트 로그 및 성능 카운터에 대 �
 
    - Lync Server
 
-   - 프로그램
+   - 응용 프로그램
 
      > [!NOTE]
      > 텍스트 상자에 Lync Server를 수동으로 입력 해야 합니다. 드롭다운 목록에 옵션으로 표시 되지 않습니다. 
@@ -116,11 +118,11 @@ OMS 포털에서 다음과 같이 이벤트 로그 및 성능 카운터에 대 �
 
    - LS: MediationServer-인바운드 통화 (_Total)\- 현재 
 
-   - LS: MediationServer-아웃 바운드 통화 (_Total\- ) 전류 
+   - LS: MediationServer-아웃 바운드 통화 (_Total\- ) 현재 
 
      총 활성 미디어 바이패스 통화:
 
-   - LS: MediationServer-인바운드 통화 (_Total)\- 액티브 미디어 건너뛰기 통화 
+   - LS: MediationServer-인바운드 통화 (_Total)\- 액티브 미디어에서 통화 무시 
 
    - LS: MediationServer-아웃 바운드 통화 (_Total\- ) 액티브 미디어 건너뛰기 통화 
 
@@ -235,9 +237,9 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 - LS: MediationServer-인바운드 통화 (_Total)\- 현재 
 
-- LS: MediationServer-아웃 바운드 통화 (_Total\- ) 전류 
+- LS: MediationServer-아웃 바운드 통화 (_Total\- ) 현재 
 
-- LS: MediationServer-인바운드 통화 (_Total)\- 액티브 미디어 건너뛰기 통화
+- LS: MediationServer-인바운드 통화 (_Total)\- 액티브 미디어에서 통화 무시
 
 - LS: MediationServer-아웃 바운드 통화 (_Total\- ) 액티브 미디어 건너뛰기 통화
 

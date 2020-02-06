@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: 비즈니스용 Skype 서버에서 엔터프라이즈 음성을 위한 SIP 트렁크 및 PSTN 게이트웨이에 대해 알아봅니다.
-ms.openlocfilehash: 6d11ea3204c9b924c9e700194ee04beb9a0df56c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 443f5425beeed5b032968837ac56ce3a26468cdc
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187572"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802538"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 PSTN 연결 구성 요소
  

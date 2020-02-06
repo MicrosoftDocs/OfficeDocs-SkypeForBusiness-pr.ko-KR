@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: 대규모, 중급, 소규모 조직을 위한 다이어그램 및 결정을 포함 하 여 비즈니스용 Skype 서버용 참조 토폴로지.
-ms.openlocfilehash: 7f284b141da25175e3a41545349a0e61f6036019
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: f207e69dceea4c2959e5cf81ddcf359266ed1604
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37028355"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41801708"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 참조 토폴로지
 
@@ -134,7 +136,7 @@ ms.locfileid: "37028355"
     > [!NOTE]
     > 영구 채팅은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만, 비즈니스용 Skype Server 2019에서는 더 이상 지원 되지 않습니다. 팀 에서도 동일한 기능을 사용할 수 있습니다. 자세한 내용은 [Microsoft 팀 업그레이드 시작](/microsoftteams/upgrade-start-here)을 참고 하세요. 영구 채팅을 사용 해야 하는 경우에는이 기능이 필요한 사용자를 팀에 마이그레이션하거나 비즈니스용 Skype 서버 2015를 계속 사용 하는 것이 선택 되어 있습니다.
 
-- **DNS 로드 균형 조정.** 프런트 엔드 풀 및 Edge 서버 풀은 DNS 부하 분산을 사용 합니다. 이렇게 하면 Edge 서버의 내부 인터페이스에 대 한 하드웨어 부하 분산 장치가 필요 하지 않으며 하드웨어 로드 시 다른 풀의 하드웨어 로드 균형 조정기 설정 및 유지 관리에 소요 되는 시간을 크게 줄일 수 있습니다. 분산 장치는 HTTP 트래픽에만 필요 합니다. 자세한 내용은 (()을 참조 하세요. /.. /plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
+- **DNS 로드 균형 조정.** 프런트 엔드 풀 및 Edge 서버 풀은 DNS 부하 분산을 사용 합니다. 이렇게 하면 Edge 서버의 내부 인터페이스에 대 한 하드웨어 부하 분산 장치가 필요 하지 않으며 하드웨어 로드 시 다른 풀의 하드웨어 로드 균형 조정기 설정 및 유지 관리에 소요 되는 시간을 크게 줄일 수 있습니다. 분산 장치는 HTTP 트래픽에만 필요 합니다. 자세한 내용은 (()을 참조 하세요. /.. /plan-your-deployment/network-requirements/load-balancing.md # BKMK_DNSLoadBalancing).
 
 - **Exchange UM 배포** 비즈니스용 Skype 서버는 Exchange UM (통합 메시징) 및 호스트 된 Exchange UM의 온-프레미스 배포 모두에서 작동 합니다. 중앙 사이트 A에는 비즈니스용 Skype 서버가 아닌 Microsoft Exchange Server를 실행 하는 UM (Exchange 통합 메시징) 서버가 포함 됩니다. 비즈니스용 Skype 서버에 대 한 Exchange UM 기능은 프런트 엔드 풀에서 실행 됩니다.
 

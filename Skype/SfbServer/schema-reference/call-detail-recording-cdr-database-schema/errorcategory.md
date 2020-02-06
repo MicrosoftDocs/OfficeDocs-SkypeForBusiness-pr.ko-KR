@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
 description: ErrorCategory 테이블에는 각 비즈니스용 Skype Server 2015 진단 분류에 대 한 친근 한 이름이 있습니다. 기본적으로 비즈니스용 Skype 서버 2015에는 다음 분류가 사용 됩니다.
-ms.openlocfilehash: bafeb75ee9e6ae0f96b08e26909828f1b36f7e7b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f3ad3f86a382b900d53c5e86140a46d7f32ca1c1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196757"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815256"
 ---
 # <a name="errorcategory-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 ErrorCategory 테이블
  

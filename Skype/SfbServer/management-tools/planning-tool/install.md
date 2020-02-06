@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: 비즈니스용 Skype Server 2015 계획 도구를 사용 하 여 비즈니스용 Skype Server 2015 인프라 디자인 및 계획을 시작 하기 전에 먼저 계획 도구를 설치 해야 합니다. 비즈니스 서버 2015에 대 한 Skype를 설치 하려는 도메인 또는 인프라의 일부인 워크스테이션 또는 서버에 계획 도구를 배포할 필요는 없습니다. 계획 도구와 함께 제공 되는 Readme 파일은 도구 설치 및 사용에 대 한 중요 한 정보를 자세히 설명 합니다. 이해를 돕기 위해 Readme 파일의 일부 정보가 여기에 중복 됩니다.
-ms.openlocfilehash: 192eae34bf6cf3fa53be82d8cb4450f960c90314
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 29cadae219faadb68a8a027de11309efc8e3f10b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188460"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816387"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Lync Server 2013에서 선택적 소프트웨어 설치
 
@@ -56,7 +58,7 @@ ms.locfileid: "36188460"
 
 2. Windows 탐색기나 명령 창을 사용 하 여 계획 도구 설치 파일을 다운로드 한 디렉터리를 찾습니다.
 
-3. SkypeForBusinessPlanningTool를 찾습니다. Windows 탐색기에서 파일을 두 번 클릭 합니다. 명령 창에 파일 이름을 입력 한 다음 enter 키를 눌러 파일을 실행 **** 합니다.
+3. SkypeForBusinessPlanningTool를 찾습니다. Windows 탐색기에서 파일을 두 번 클릭 합니다. 명령 창에 파일 이름을 입력 한 다음 **enter 키를 눌러 파일을 실행** 합니다.
 
 4. **비즈니스용 Skype 서버 2015의 시작 페이지에서 계획 도구 설정 마법사**의 **다음**을 클릭 합니다.
 
@@ -64,7 +66,7 @@ ms.locfileid: "36188460"
 
 6. 계획 도구 파일을 설치할 위치를 선택 합니다. 기본 위치는 C:\Program Files (x86) \Skype Skype Server 2015 \ 계획 도구입니다. 설치 위치를 변경 하려면 **변경을**클릭 합니다. **대상 폴더 변경**에서 파일을 설치할 위치를 찾아보거나 입력 하 고 **확인**을 클릭 한 후 **다음**을 클릭 합니다.
 
-7. 이제 설치 관리자가 계획 도구를 설치할 준비가 되었습니다. 설치 **** 를 클릭 하 여 설치 프로세스를 시작 합니다.
+7. 이제 설치 관리자가 계획 도구를 설치할 준비가 되었습니다. 설치 **를 클릭 하** 여 설치 프로세스를 시작 합니다.
 
 8. 설치가 시작 되 고 진행률이 표시 됩니다. 설치가 성공적으로 완료 되 면 **마침을**클릭 합니다.
 

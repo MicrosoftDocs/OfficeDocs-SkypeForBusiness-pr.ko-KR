@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: 이 섹션에서는 포리스트 준비 단계에서 만든 전역 설정 및 개체와 유니버설 서비스 및 관리 그룹에 대해 설명 합니다.
-ms.openlocfilehash: ece4a9bd1db5f43b52a96265dee41ee3a0a30b22
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 26917915d89aff721e74f094eb8ad5bb72db3cf6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196815"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815536"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 포리스트 준비에의 한 변경 사항
 
@@ -24,7 +26,7 @@ ms.locfileid: "36196815"
 
 ## <a name="active-directory-global-settings-and-objects"></a>Active Directory 전역 설정 및 개체
 
-전역 설정을 구성 컨테이너에 저장 하는 경우 (모든 새로운 비즈니스용 Skype Server 배포의 경우) 포리스트 준비는 기존 서비스 컨테이너를 사용 하 고 Configuration\Services에 **RTC 서비스** 개체를 추가 합니다. 오브젝트가. RTC 서비스 개체에서 포리스트 준비는 msRTCSIP-GlobalContainer 유형의 **전역 설정** 개체를 추가 합니다. 전역 설정 개체에는 비즈니스용 Skype 서버 배포에 적용 되는 모든 설정이 포함 되어 있습니다. 시스템 컨테이너에 전역 설정을 저장 하는 경우 포리스트 준비에서는 루트 도메인 시스템 컨테이너 아래에 Microsoft 컨테이너를 사용 하 고 System\Microsoft 개체 아래에 RTC Service 개체를 사용 합니다.
+전역 설정을 구성 컨테이너에 저장 하는 경우 (모든 새로운 비즈니스용 Skype Server 배포의 경우) 포리스트 준비는 기존 서비스 컨테이너를 사용 하 고 Configuration\Services 개체 아래에 **RTC 서비스** 개체를 추가 합니다. RTC 서비스 개체에서 포리스트 준비는 msRTCSIP-GlobalContainer 유형의 **전역 설정** 개체를 추가 합니다. 전역 설정 개체에는 비즈니스용 Skype 서버 배포에 적용 되는 모든 설정이 포함 되어 있습니다. 시스템 컨테이너에 전역 설정을 저장 하는 경우 포리스트 준비에서는 루트 도메인 시스템 컨테이너 아래에 Microsoft 컨테이너를 사용 하 고 System\Microsoft 개체 아래에 RTC Service 개체를 사용 합니다.
 
 또한 포리스트 준비는 프로시저가 실행 되는 루트 도메인에 대 한 새 **MsRTCSIP 도메인** 개체를 추가 합니다.
 
@@ -123,14 +125,14 @@ RBAC 역할 및 각에 대해 허용 되는 작업에 대 한 자세한 내용�
 
 구성 컨테이너의 구성 명명 컨텍스트 아래에서 포리스트 준비는 다음 작업을 수행 합니다.
 
-- 사용자, 연락처 및 InetOrgPersons에 대 한 언어 표시 지정자의 adminContextMenu 및 adminPropertyPages 특성 아래에 **RTC 속성** 페이지의 **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** 항목을 추가 합니다 (예: CN = 사용자 표시, CN = 409, CN = DisplaySpecifiers).
+- 사용자, 연락처 및 InetOrgPersons에 대 한 언어 표시 지정자의 adminContextMenu 및 adminPropertyPages 특성 아래에 **RTC 속성** 페이지의 **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** 항목을 추가 합니다 (예: Cn = USER-display, CN = 409, cn = displayspecifiers).
 
 - 사용자 및 연락처 클래스에 적용 되는 **확장 권한** 바로 아래에 **Controlaccessright** 의 **RTCPropertySet** 개체를 추가 합니다.
 
-- 사용자, 연락처, OU 및 DomainDNS 클래스에 적용 되는 **확장 권한** **바로** 아래에 controltype의 **RTCUserSearchPropertySet** 개체를 추가 합니다.
+- 사용자, 연락처, OU 및 DomainDNS 클래스에 적용 되는 **확장 권한** 바로 아래에 **Controltype** 의 **RTCUserSearchPropertySet** 개체를 추가 합니다.
 
-- 각 OU (조직 구성 단위) 표시 지정자의 **extraColumns** 특성 아래에 **msRTCSIP-PrimaryUserAddress** 를 추가 (예: Cn = ORGANIZATIONALUNIT-display, CN = 409, cn = displayspecifiers) 하 고 다음 값을 복사 합니다. 기본 표시의 **extraColumns** 특성 (예: cn = Default-DISPLAY, cn = 409, Cn = displayspecifiers).
+- 각 OU (조직 구성 단위) 표시 지정자의 **extraColumns** 특성 아래에 **msRTCSIP-PrimaryUserAddress** 를 추가 합니다 (예: Cn = ORGANIZATIONALUNIT-display, CN = 409, cn = displayspecifiers). 기본 디스플레이의 **extraColumns** 특성 값을 복사 합니다 (예: CN = default-DISPLAY, Cn = 409, cn = displayspecifiers).
 
-- 사용자, 연락처에 대 한 각 언어 표시 지정자의 **Attributedisplaynames** 특성 아래에 **msRTCSIP-PrimaryUserAddress**, **msRTCSIP-PrimaryHomeServer**, **msRTCSIP-userenabled** 필터링 특성을 추가 합니다. 및 InetOrgPerson 개체 (예를 들어 영어: CN = 사용자 표시, CN = 409, CN = DisplaySpecifiers).
+- 사용자, 연락처 및 InetOrgPerson 개체에 대 한 각 언어 표시 지정자의 **Attributedisplaynames** 특성 아래에 **msRTCSIP-PrimaryUserAddress**, **msRTCSIP, PrimaryHomeServer**, **msRTCSIP-userenabled** 필터링 특성을 추가 합니다 (예를 들어 영어: CN = 사용자-Display, cn = 409, cn = display지정자).
 
 

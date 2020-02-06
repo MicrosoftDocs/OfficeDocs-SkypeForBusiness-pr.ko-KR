@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '요약: Exchange Server 2016 또는 Exchange Server 2013과 비즈니스용 Skype 서버를 통합 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: 54a079a550b1c915d9ffc124b1608a3fd3f2a5ef
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 995511f55d131bfd3d446f5691563436c19da2c5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991483"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815886"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>비즈니스용 Skype 서버 2015와 Exchange 통합 계획
  

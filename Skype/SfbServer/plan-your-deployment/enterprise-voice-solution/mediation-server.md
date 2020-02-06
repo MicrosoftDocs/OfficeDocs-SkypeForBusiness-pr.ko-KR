@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 지원 되는 토폴로지와 M:N trunks, 미디어 바이패스 및 통화 허용 제어와의 관계를 포함 하 여 비즈니스용 Skype 서버의 중재 서버에 대해 알아봅니다.
-ms.openlocfilehash: 8c58e0b866d62e7dd1ea60888ba611d78328489f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5a8e9d7728f8c78643869a6f816ade9431229751
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187626"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802698"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 중재 서버 구성 요소
  
@@ -64,7 +66,7 @@ ms.locfileid: "36187626"
 
 비즈니스용 Skype Server는 통화 라우팅 목적으로 트렁크를 정의 하는 유연성을 지원 합니다. 트렁크는 중재 서버와 수신 대기 포트 번호 간의 논리적 연결 이며 게이트웨이와 수신 대기 포트 번호를 사용 합니다. 이는 중재 서버에 동일한 게이트웨이에 대 한 여러 trunks 있을 수 있는 몇 가지 작업을 의미 합니다. 중재 서버는 다양 한 게이트웨이에 대해 여러 trunks를 가질 수 있습니다. 반대로 게이트웨이는 서로 다른 중재 서버에 여러 trunks를 가질 수 있습니다.
   
-토폴로지 작성기를 사용 하 여 비즈니스용 Skype 토폴로지에 게이트웨이를 추가 하는 경우에도 루트 트렁크를 만들어야 합니다. 지정 된 중재 서버가 처리할 수 있는 게이트웨이의 수는 사용량이 많은 시간 동안 서버의 처리 용량에 따라 달라 집니다. 비즈니스용 skype server [2015의 서버 요구](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)사항에 설명 된 것 처럼 비즈니스용 skype 서버에 대 한 최소 하드웨어 요구 사항을 충족 하는 하드웨어에 조정 서버를 배포 하는 경우, 독립 실행형 중재 서버는 대략 다음을 처리할 수 있습니다. 1000 통화. 중재 서버는 코드 변환을 수행 하지만, 게이트웨이가 미디어 바이패스를 지원 하지 않는 경우에도 계속 해 서 여러 게이트웨이에 대 한 통화를 라우팅합니다.
+토폴로지 작성기를 사용 하 여 비즈니스용 Skype 토폴로지에 게이트웨이를 추가 하는 경우에도 루트 트렁크를 만들어야 합니다. 지정 된 중재 서버가 처리할 수 있는 게이트웨이의 수는 사용량이 많은 시간 동안 서버의 처리 용량에 따라 달라 집니다. 비즈니스용 skype server 2015에 대 한 [서버 요구](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)사항에 설명 된 것과 같이 비즈니스 에디션 서버의 최소 하드웨어 요구 사항에 맞는 하드웨어에 중재 서버를 배포 하는 경우 독립형 중재 서버에서 약 1000 통화를 처리할 수 있습니다. 중재 서버는 코드 변환을 수행 하지만, 게이트웨이가 미디어 바이패스를 지원 하지 않는 경우에도 계속 해 서 여러 게이트웨이에 대 한 통화를 라우팅합니다.
   
 통화 경로를 정의할 때 해당 경로와 연결 된 trunks를 지정 하지만 해당 경로와 연결 되는 중재 서버를 지정 하지 않습니다. 대신 토폴로지 작성기를 사용 하 여 trunks를 중재 서버와 연결 합니다. 즉, 라우팅은 통화에 사용할 트렁크를 결정 하 고 그 후에 해당 트렁크와 연결 된 조정 서버는 해당 통화에 대 한 신호를 보냅니다.
   
@@ -144,7 +146,7 @@ Microsoft Lync Server 2013, 계획 도구를 사용 하 여 중재 서버를 col
     
 - 미디어에서 중재 서버를 우회 하는 전화 통화의 백분율입니다.
     
-계획을 수립할 때는 미디어를 우회 하도록 구성 되지 않은 PSTN 통화 및 A/V 회의에 대 한 미디어 처리 요구 사항을 고려해 야 하며, 필요한 시간 동안에도 신호 상호 작용을 처리 하는 데 필요한 처리에 대 한 조치를 취해야 합니다. 지원 될 수 있습니다. CPU가 충분 하지 않으면 중재 서버의 독립 실행형 풀을 배포 해야 합니다. 및 PSTN 게이트웨이, IP-Pbx, SBCs는 하나의 풀에 있는 collocated 중재 서버에 의해 제어 되는 하위 집합으로 분할 되어야 하며 하나 이상의 독립 실행형 풀에 독립 실행형 중재 서버에 있어야 합니다.
+계획을 수립할 때는 미디어를 우회 하도록 구성 되지 않은 PSTN 통화 및 A/V 회의에 대 한 미디어 처리 요구 사항을 고려 하 고 지원 해야 하는 사용 중인 통화 시간에 대 한 신호 상호 작용을 처리 하는 데 필요한 처리 작업을 고려해 야 합니다. CPU가 충분 하지 않으면 중재 서버의 독립 실행형 풀을 배포 해야 합니다. 및 PSTN 게이트웨이, IP-Pbx, SBCs는 하나의 풀에 있는 collocated 중재 서버에 의해 제어 되는 하위 집합으로 분할 되어야 하며 하나 이상의 독립 실행형 풀에 독립 실행형 중재 서버에 있어야 합니다.
   
 다음을 포함 하 여 조정 서버 풀과 상호 작용 하기 위한 올바른 기능을 지원 하지 않는 PSTN 게이트웨이, IP-Pbx 또는 SBCs (세션 경계 컨트롤러)를 배포 하는 경우, 다음과 같이 구성 된 독립 실행형 풀에 연결 해야 합니다. 단일 중재 서버의 경우:
   

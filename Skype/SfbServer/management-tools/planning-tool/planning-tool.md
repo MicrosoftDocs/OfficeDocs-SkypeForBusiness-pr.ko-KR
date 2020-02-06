@@ -8,16 +8,18 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: 비즈니스용 Skype 서버 2015 계획 도구를 사용 하는 방법에 대 한 지침입니다.
-ms.openlocfilehash: b130ca05200ea30bed8008399050affa96438644
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a1125224405cf739e4afab045dab8360a18756d5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191235"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816307"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>계획 도구를 사용하여 Lync Server 2013의 토폴로지 디자인
  
@@ -29,7 +31,7 @@ ms.locfileid: "36191235"
   
 인프라의 TCP/IP 주소와 Fqdn (정규화 된 도메인 이름)을 사용 하 여 토폴로지를 사용자 지정한 후에는 계획 도구에서 DNS (Domain Name System) 명명, 방화벽 규칙, 인증서 등을 다루는 일련의 보고서를 사용할 수 있게 됩니다. 
   
-이 도구를 사용 하는 것이 구현 계획의 첫 번째 단계입니다. 다음 단계에서는 비즈니스용 [Skype server 2015 용량 계산기](https://www.microsoft.com/en-us/download/details.aspx?id=51196)에 사이트 정보를 입력 하 고 필요에 따라 조정한 다음 [비즈니스용 Skype server 2015 스트레스 및 성능 도구](https://www.microsoft.com/en-us/download/details.aspx?id=50367) 를 사용 하 여 다음을 시뮬레이션 하 고 확인 합니다. 구현은 사용자의 요구를 충족 합니다.
+이 도구를 사용 하는 것이 구현 계획의 첫 번째 단계입니다. 다음 단계는 [비즈니스용 Skype server 2015 용량 계산기](https://www.microsoft.com/en-us/download/details.aspx?id=51196)에 사이트 정보를 입력 하 고 필요에 따라 조정한 다음 [비즈니스용 Skype server 2015 스트레스 및 성능 도구](https://www.microsoft.com/en-us/download/details.aspx?id=50367) 를 사용 하 여 요구 사항이 충족 되는지 확인 하는 것입니다.
   
 계획 도구는 다음 두 가지 형식의 정보를 내보내는 기능도 제공 합니다.
   

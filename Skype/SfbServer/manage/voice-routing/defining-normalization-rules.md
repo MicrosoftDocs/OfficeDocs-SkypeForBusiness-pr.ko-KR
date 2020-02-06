@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 비즈니스용 Skype 서버 정규화 규칙은 .NET Framework 정규식을 사용 하 여 전화를 거는 전화 번호를 전자 164 형식으로 변환 합니다. 즉, 정규화 규칙은 사용자가 거는 전화 번호를 사용 하 여 비즈니스용 Skype 서버에서 내부적으로 사용 하는 형식으로 변환 합니다. 각 다이얼 플랜에는 하나 이상의 정규화 규칙을 할당해야 합니다.
-ms.openlocfilehash: e5156816de13a8d59e3e6eea4890046d5b4f586a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ed9db264dc637251c535f111e419aac9aa0f5e5e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187041"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816998"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 정규화 규칙 정의
 
@@ -25,7 +27,7 @@ ms.locfileid: "36187041"
 정규식을 작성 하는 방법에 대 한 자세한 내용은 [.Net Framework 정규식](http://go.microsoft.com/fwlink/p/?linkId=140927)을 참조 하세요.
 
 다음 방법 중 하나를 사용 하 여 정규화 규칙을 정의 하거나 편집할 수 있습니다.
-- [ **정규화 규칙 작성** 도구를 사용](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) 하 여 시작 숫자, 길이, 추가할 숫자에 대 한 값을 지정한 다음 비즈니스용 Skype 서버 제어판에서 해당 하는 일치 패턴 및 번역 규칙을 생성 하도록 합니다. 너를 위해.
+- [ **정규화 규칙 작성** 도구를 사용](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) 하 여 시작 숫자, 길이, 추가할 숫자에 대 한 값을 지정한 다음 비즈니스용 Skype 서버 제어판에서 해당 하는 일치 패턴 및 번역 규칙을 생성 하도록 합니다.
 - [정규식을 수동으로 작성](#create-or-modify-a-normalization-rule-manually) 하 여 일치 패턴 및 번역 규칙을 정의 합니다. 
 
 ## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>정규화 규칙 작성을 사용 하 여 정규화 규칙 만들기 또는 수정
@@ -45,7 +47,7 @@ ms.locfileid: "36187041"
     - **제거할 자릿수**: (선택 사항) 패턴을 일치 시킬 전화 번호에서 제거할 시작 자릿수를 지정 합니다.
     - **더할 자릿수**: (선택 사항) 패턴을 일치 시킬 전화 번호에 추가할 숫자를 지정 합니다.
     
-    이러한 필드에 입력 하는 값은 일치 및 **번역 규칙** **에 따라 패턴** 에 반영 됩니다. 예를 들어 **시작 자릿수** **** 를 비워 두면 **길이** 필드에 **7** 을 입력 하 고 **제거할 자리**에 **0** 을 지정 하 고 일치 시킬 **패턴** 의 정규식은 다음과 같습니다.
+    이러한 필드에 입력 하는 값은 일치 및 **번역 규칙** **에 따라 패턴** 에 반영 됩니다. 예를 들어 **시작 자릿수** 를 비워 두면 **길이** 필드에 **7** **을 입력**하 고 **제거할 자리**에 **0** 을 지정 하 고 **일치 시킬 패턴** 의 정규식은 다음과 같습니다.
 
     **^ (\d{7}) $**
 
@@ -53,7 +55,7 @@ ms.locfileid: "36187041"
     - 일치 패턴에 지정 된 자릿수를 나타내는 값입니다. 예를 들어 일치 하는 패턴이 **^ (\d{7}) $** 인 경우 번역 규칙의 $1에서 7 자리 전화 번호를 나타냅니다.
     - ) 숫자를 **추가할** 숫자 필드에 값을 입력 하 여 앞으로 변환할 숫자를 지정 합니다 (예: **+ 1425**).
     
-    예를 들어 **일치 하는 패턴** 에 **^ (\d{7}) $** 가 있는 경우, 전화를 걸고 **** 있는 번호의 패턴으로 **+ 1425 $1** 이 포함 된 경우이 규칙은 5550100에서 + 14255550100로 정규화 됩니다.
+    예를 들어 **일치 하는 패턴** 에 **^ (\d{7}) $** 가 있는 경우, 전화를 걸고 **있는 번호** 의 패턴으로 **+ 1425 $1** 이 포함 된 경우이 규칙은 5550100에서 + 14255550100로 정규화 됩니다.
 
 8. ) 정규화 규칙이 조직 내부의 전화 번호를 반환 하는 경우 **내부 확장**을 선택 합니다.
 9. ) 번호를 입력 하 여 정규화 규칙을 테스트 한 다음 **이동을**클릭 합니다. 테스트 결과가 **테스트에 대 한 숫자 입력**아래에 표시 됩니다.

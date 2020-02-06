@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: 비즈니스용 Skype Server는 TLS 및 MTLS를 사용 하 여 인스턴트 메시지를 암호화 합니다. 모든 서버 간 트래픽에는 트래픽이 내부 네트워크에 한정 되는지 아니면 내부 네트워크 경계를 교차 하는지에 관계 없이 MTLS가 필요 합니다. 비즈니스용 Skype 서버를 타사 IPPBX 시스템에 연결 하는 경우 SIP trunks TLS는 선택 사항 이지만 중재 서버와 미디어 게이트웨이 사이에 강력히 권장 됩니다. 이 링크에 TLS가 구성 되어 있으면 MTLS가 필요 합니다. 따라서 중재 서버에서 신뢰 하는 CA의 인증서를 사용 하 여 게이트웨이를 구성 해야 합니다.
-ms.openlocfilehash: 3aadc51dff7fafe32ea929cdec3d4f2f03ee92fa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 64e7199cf761ad7d7ec18b00e8f3b7f27fed6f04
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196837"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815666"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>비즈니스용 Skype 서버 암호화
  
@@ -35,7 +37,7 @@ ms.locfileid: "36196837"
 |:-----|:-----|
 |서버 간  <br/> |MTLS  <br/> |
 |클라이언트에서 서버로  <br/> |PEAP-TLS  <br/> |
-|인스턴트 메시지 및 현재 상태  <br/> |PEAP-TLS  <br/> |
+|인스턴트 메시징 및 현재 상태  <br/> |PEAP-TLS  <br/> |
 |미디어의 오디오 및 비디오 및 데스크톱 공유  <br/> |SRTP  <br/> |
 |데스크톱 공유 (신호)  <br/> |PEAP-TLS  <br/> |
 |웹 회의  <br/> |PEAP-TLS  <br/> |

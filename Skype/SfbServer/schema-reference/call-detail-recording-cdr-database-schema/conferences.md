@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: 이 테이블의 각 레코드에는 한 회의에 대 한 통화 정보가 포함 됩니다.
-ms.openlocfilehash: 41a2a25e80b073b568152422defeee1ca3e2ac19
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 97d7fcb4dc2217b1b7c52c1aa3424f1cf9f57808
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196777"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815356"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 컨퍼런스 표
  

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
 description: 여기에 설명 된 사용자 모델은 비즈니스용 Skype 서버의 용량 계획 사용자 모델 사용에 설명 된 용량 계획 측정값 및 권장 사항에 대 한 기반을 제공 합니다.
-ms.openlocfilehash: 9ce4bddcb4b058861230aeb78fd9363e2c8b8ac6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f1bf079fa425d98b3619eb4ccd975253784f4fbe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187905"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816037"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 사용자 모델
  
@@ -144,7 +146,7 @@ ms.locfileid: "36187905"
     
 - 이 PSTN 음성 통화의 65%는 미디어 바이패스를 사용 합니다.
     
-## <a name="mobility"></a>간의
+## <a name="mobility"></a>이동성
 
 등록 된 사용자의 40%는 이동성을 사용할 수 있는 것으로 간주 됩니다. 이동성을 사용 하는 각 사용자에 대해 모바일 클라이언트의 활동은 해당 사용자에 대 한 다른 MPOP 인스턴스를 추가 하는 것으로 간주 되며,이는 이동성 클라이언트가 다른 클라이언트 유형으로 서만 사용할 수 있는 것으로 서, 회의 조작의 예외입니다. 회의에 참여 하는 데 사용 됩니다.
   

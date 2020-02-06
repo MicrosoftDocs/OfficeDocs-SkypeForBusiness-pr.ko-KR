@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 이 문서에서는 관리자가 비즈니스 내부 및 외부에서 사용 하는 인증 방법에 대 한 더 많은 제어권을 제공 하는 cmdlet에 대해 간략하게 설명 합니다. 관리자는 내부에서 또는 네트워크에 대 한 인증 방법을 설정 하거나 해제할 수 있습니다.
-ms.openlocfilehash: bfbcc8a3b7d6ff6be270853b2da7c9f91df63e2e
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: 21aacd6514ee9e47087906292564eea7aede7ead
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573734"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815816"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>네트워크의 내부 및 외부에서 레거시 인증 방법을 해제할 계획입니다.
 

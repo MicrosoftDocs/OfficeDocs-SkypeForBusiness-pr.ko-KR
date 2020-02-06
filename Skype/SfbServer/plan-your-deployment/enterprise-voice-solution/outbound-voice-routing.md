@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 통화 라우팅 설정, 다이얼 플랜, 표준화 규칙, 음성 정책, PSTN 사용 레코드, 음성 경로를 포함 하 여 비즈니스용 Skype Server Enterprise Voice의 아웃 바운드 음성 라우팅에 대해 알아보세요.
-ms.openlocfilehash: bb57d824d9d44886973f60b3061b2e86e949f071
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 26bea8452db00657ae87b5acbdd3f986c637d6fe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187587"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802578"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 아웃 바운드 음성 라우팅 계획
  
@@ -233,7 +235,7 @@ ms.locfileid: "36187587"
     
 - 보이스 **메일 이탈** 은 동시 연결을 구성 하 고 전화를 끄거나 배터리를 껐 거 나 범위를 벗어날 때 사용자의 휴대 전화 보이스 메일로 착신 전환 되는 것을 방지 하 고 타이머 값을 기반으로 합니다. 이 설정은 타이머를 사용 하거나 사용 하지 않도록 설정 하 고 타이머 값을 설정 합니다. 비즈니스용 Skype Server Management Shell을 사용해 서만 구성할 수 있습니다. 기본적으로 사용 되지 않습니다.
     
-- 착신 **전환 및 동시** 연결 설정 관리자는 통화 전환 및 동시 연결을 위한 음성 정책으로 동일한 PSTN 사용을 지정 하 고, 착신 전환 및 동시 연결을 다음의 내부 Skype로 연결 하도록 제한 합니다. 비즈니스 사용자만 또는 음성 정책의 PSTN 사용과는 다른 사용자 지정 PSTN 사용량을 지정 합니다. 기본적으로 통화 전환 및 동시 연결에 대 한 음성 정책으로 동일한 PSTN 사용량을 사용 합니다.
+- 착신 **전환 및 동시** 연결 설정 관리자는 착신 전환 및 동시 연결을 위해 음성 정책으로 동일한 PSTN 사용을 지정 하 고, 착신 전환 및 비즈니스용 Skype 사용자만 연결 하는 동시 연결을 제한 하거나, 음성 정책의 pstn 사용과는 다른 사용자 지정 PSTN 사용을 지정할 수 있습니다. 기본적으로 통화 전환 및 동시 연결에 대 한 음성 정책으로 동일한 PSTN 사용량을 사용 합니다.
     
 ### <a name="pstn-usage-records"></a>PSTN 사용 레코드
 

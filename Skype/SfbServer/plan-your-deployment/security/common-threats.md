@@ -8,16 +8,18 @@ ms.date: 3/22/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: 비즈니스용 Skype 서버는 엔터프라이즈급 통신 시스템 이므로 인프라 및 통신에 영향을 줄 수 있는 일반적인 보안 공격에 대해 알고 있어야 합니다.
-ms.openlocfilehash: 31971846f95b98d566166b6336451ecdb71d7ac7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 58141a735858d840acbd57e8039aa1c132dbeb8c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196839"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815676"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>현대의 일상 컴퓨팅의 일반적인 보안 위협
  

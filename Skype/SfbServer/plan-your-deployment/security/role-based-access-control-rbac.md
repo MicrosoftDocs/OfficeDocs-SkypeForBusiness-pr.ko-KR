@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d01fba36-eb7e-4de9-9bba-5102ae157820
 description: 비즈니스용 Skype 서버에는 관리 작업을 위임할 수 있는 RBAC (역할 기반 액세스 제어) 그룹이 포함 되어 있으며 보안에 대 한 높은 표준도 유지 됩니다. 이러한 그룹은 포리스트 준비 중에 만들어집니다. 포리스트 준비에 대 한 자세한 내용은 비즈니스용 Skype 용 Active Directory 도메인 서비스 서버용을 참조 하세요. 포리스트 준비로 만든 특정 그룹에 대 한 자세한 내용은 배포 설명서의 비즈니스용 Skype 서버에서 포리스트 준비에의 한 변경 내용을 참조 하세요.
-ms.openlocfilehash: d5f31d7c53c743e4b2d001b00abec7ec93ef8d91
-ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
+ms.openlocfilehash: 41efad45b442d9c7fca82d090afa0d1aa23e7d63
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "36197988"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815626"
 ---
 # <a name="role-based-access-control-rbac-for-skype-for-business-server"></a>비즈니스용 Skype 서버용에 대 한 RBAC (역할 기반 액세스 제어)
  

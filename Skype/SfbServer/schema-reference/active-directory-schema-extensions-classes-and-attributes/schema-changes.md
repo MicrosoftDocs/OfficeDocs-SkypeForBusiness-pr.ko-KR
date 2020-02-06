@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: 비즈니스용 Skype 서버를 배포 하 고 작동 하기 전에 스키마를 확장 하 여 Active Directory 도메인 서비스를 준비 해야 합니다. 스키마 확장에서는 비즈니스용 Skype 서버에서 요구 하는 클래스 및 특성을 추가 합니다.
-ms.openlocfilehash: 34f97f7a37adc23635f938fb12c9a72e22429538
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c3765fe36b252cc03218a3fa4365c5cc36c7f48
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196805"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815486"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 스키마 변경
  
@@ -67,7 +69,7 @@ MsRTCSIP 접두사는 비즈니스용 Skype 서버와 관련 된 클래스 및 �
 
 |**클래스만**|**바뀌지**|**클래스 또는 특성**|
 |:-----|:-----|:-----|
-|클릭할  <br/> |추가: mayContain  <br/> 추가: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
+|사용자  <br/> |추가: mayContain  <br/> 추가: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Contact  <br/> |추가: mayContain  <br/> 추가: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |메일 받는 사람  <br/> |추가: mayContain  <br/> |msExchUserHoldPolicies  <br/> |
 |msRTCSIP-GlobalTopologySetting  <br/> |추가: mayContain  <br/> |msRTCSIP-MirrorBackEndServer  <br/> |

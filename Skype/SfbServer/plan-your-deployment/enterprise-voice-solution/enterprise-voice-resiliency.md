@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: 중앙 사이트와 지사 사이트 모두에서 비즈니스용 Skype Server Enterprise Voice의 음성 복원 기능을 지 원하는 방법에 대해 알아봅니다. 지점 사이트 옵션에는 Survivable 분기 기기 또는 Survivable Branch 서버 배포 등이 포함 됩니다.
-ms.openlocfilehash: 2ede1677e59753e5f8f39b3e9a35221041b56263
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e64ac79ef49339401c5b2d0bbb7d27140eca4296
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187701"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802948"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 엔터프라이즈 음성 복원 계획
 
@@ -210,7 +212,7 @@ Enterprise Voice에 대해 설정 된 각 사용자는 해당 사용자의 기�
 
 |**...**|**다음을 사용 하는 것이 좋습니다.**|
 |:-----|:-----|
-|지사 사이트에서 25 명에서 1000 사용자 간 호스팅, 투자 수익률이 전체 배포를 지원 하지 않거나, 지역 관리 지원을 사용할 수 없는 경우  <br/> |Survivable 분기 기기  <br/> Survivable Branch 기기는 Windows Server 2008 R2에서 실행 되는 비즈니스용 Skype Server 등록자와 중재 서버가 있는 업계 표준 블레이드 서버입니다. Survivable Branch 기기에는 PSTN (공용 전환 전화 네트워크) 게이트웨이도 포함 되어 있습니다. 자격 있는 타사 장치 (Survivable Branch 기기 (SBA) 검증/인증 프로그램)는 WAN 장애가 발생 했을 때 지속적인 PSTN 연결을 제공 하지만,이 접근 방법은 탄력성을 제공 하지 않습니다. 현재 상태 및 회의 이러한 기능은 중앙 사이트의 프런트 엔드 서버에 따라 달라 집니다.  <br/> Survivable Branch 기기에 대 한 자세한 내용은이 항목의 뒷부분에 나오는 "Survivable Branch 기기 세부 정보"를 참조 하세요.  <br/> **참고:** Survivable Branch 기기에도 SIP 트렁크를 사용 하기로 결정 한 경우, Survivable Branch 기기 공급 업체에 문의 하 여 조직에 가장 적합 한 서비스 공급자에 대해 알아보세요. <br/> |
+|지사 사이트에서 25 명에서 1000 사용자 간 호스팅, 투자 수익률이 전체 배포를 지원 하지 않거나, 지역 관리 지원을 사용할 수 없는 경우  <br/> |Survivable 분기 기기  <br/> Survivable Branch 기기는 Windows Server 2008 R2에서 실행 되는 비즈니스용 Skype Server 등록자와 중재 서버가 있는 업계 표준 블레이드 서버입니다. Survivable Branch 기기에는 PSTN (공용 전환 전화 네트워크) 게이트웨이도 포함 되어 있습니다. 정식 타사 장치 (Survivable Branch 기기 (SBA) 검증/인증 프로그램)는 WAN 장애가 발생 했을 때 지속적인 PSTN 연결을 제공 하지만,이 접근 방법은 중앙 사이트의 프런트 엔드 서버에 종속 되어 있기 때문에 복원 현재 상태와 회의를 제공 하지 않습니다.  <br/> Survivable Branch 기기에 대 한 자세한 내용은이 항목의 뒷부분에 나오는 "Survivable Branch 기기 세부 정보"를 참조 하세요.  <br/> **참고:** Survivable Branch 기기에도 SIP 트렁크를 사용 하기로 결정 한 경우, Survivable Branch 기기 공급 업체에 문의 하 여 조직에 가장 적합 한 서비스 공급자에 대해 알아보세요. <br/> |
 |지점 사이트의 1000 및 2000 사용자 간 호스팅, 회복성 있는 WAN 연결 부족, 교육 된 비즈니스용 Skype 서버 관리자 사용 가능  <br/> |Survivable Branch 서버 또는 두 개의 Survivable Branch 기기.  <br/> Survivable Branch Server는 비즈니스용 Skype Server 등록자와 중재 서버 소프트웨어를 설치한 Windows Server 모임에서 지정 된 하드웨어 요구 사항입니다. 전화 서비스 공급자에 게 PSTN 게이트웨이나 SIP 트렁크에 연결 해야 합니다.  <br/> Survivable Branch 서버에 대 한 자세한 내용은이 항목의 뒷부분에 나오는 "Survivable Branch Server 세부 정보"를 참조 하세요.  <br/> |
 |최대 5000 사용자를 위한 음성 기능 외에도 현재 상태 및 회의 기능이 필요 하 고 비즈니스용 Skype 서버 관리자가 교육을 받을 수 있는 경우  <br/> |지점 사이트가 아닌 표준 버전 서버를 사용 하 여 중앙 사이트로 배포 합니다.  <br/> 전체 규모의 비즈니스용 Skype 서버 배포는 WAN 장애가 발생 하는 경우 지속적인 PSTN 연결 및 탄성 현재 상태 및 회의를 제공 합니다.  <br/> |
 
@@ -275,7 +277,7 @@ Survivable Branch 기기는 Microsoft와 파트너 관계를 사용 하 여 원�
 
 #### <a name="voice-routing-for-branch-users"></a>지사 사용자를 위한 음성 라우팅
 
-지사 사이트의 사용자를 위해 별도의 사용자 수준 Voice over 인터넷 프로토콜 (VoIP) 정책을 만드는 것이 좋습니다. 이 정책에는 Survivable Branch 기기 또는 지사 서버 게이트웨이를 사용 하는 기본 경로와 중앙 사이트의 PSTN (공개 교환 통신망) 게이트웨이로 트렁크를 사용 하는 하나 이상의 백업 경로가 포함 되어야 합니다. 주 경로를 사용할 수 없는 경우 하나 또는 그 이상의 중앙 사이트 게이트웨이를 사용 하는 백업 경로가 대신 사용 됩니다. 이 방법은 사용자가 등록 된 위치 (지점 사이트 등록자 또는 중앙 사이트의 백업 등록자 풀)에 관계 없이 사용자의 VoIP 정책이 항상 적용 됩니다. 이는 장애 조치 시나리오에 대 한 중요 한 고려 사항입니다. 예를 들어 Survivable Branch 기기의 이름을 바꾸거나 중앙 사이트의 백업 등록자 풀에 연결 하도록 Survivable Branch 기기를 다시 구성 해야 하는 경우에는 분기 사이트 사용자를 해당 기간 동안 중앙 사이트로 이동 해야 합니다. (Survivable 분기 기기의 이름 바꾸기 또는 재구성에 대 한 자세한 내용은 [부록 B: 배포 설명서의 Survivable Branch 기기 관리](https://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx) 를 참조 하세요.) 해당 사용자가 사용자 수준 VoIP 정책 또는 사용자 수준 다이얼 플랜을 보유 하 고 있지 않은 경우 사용자를 다른 사이트로 이동할 때 중앙 사이트의 사이트 수준 VoIP 정책 및 사이트 수준 다이얼 플랜이 기본적으로 사용자에 게 적용 됩니다 (사이트 수준 VoIP 대신). 정책 및 다이얼 플랜,. 이 시나리오에서는 백업 등록자 풀에서 사용 되는 사이트 수준 VoIP 정책 및 사이트 수준 다이얼 플랜이 지점 사이트 사용자에 게 적용 될 수 있는 경우가 아니면 해당 통화는 실패 합니다. 예를 들어 일본에 있는 분기 사이트의 사용자가 Redmond의 중앙 사이트로 이동 하는 경우, 모든 7 자리 통화에 + 1425를 앞에 배치 하는 정규화 규칙을 사용 하는 다이얼 플랜은 해당 사용자에 대 한 통화를 적절 하 게 번역 하지 못합니다.
+지사 사이트의 사용자를 위해 별도의 사용자 수준 Voice over 인터넷 프로토콜 (VoIP) 정책을 만드는 것이 좋습니다. 이 정책에는 Survivable Branch 기기 또는 지사 서버 게이트웨이를 사용 하는 기본 경로와 중앙 사이트의 PSTN (공개 교환 통신망) 게이트웨이로 트렁크를 사용 하는 하나 이상의 백업 경로가 포함 되어야 합니다. 주 경로를 사용할 수 없는 경우 하나 또는 그 이상의 중앙 사이트 게이트웨이를 사용 하는 백업 경로가 대신 사용 됩니다. 이 방법은 사용자가 등록 된 위치 (지점 사이트 등록자 또는 중앙 사이트의 백업 등록자 풀)에 관계 없이 사용자의 VoIP 정책이 항상 적용 됩니다. 이는 장애 조치 시나리오에 대 한 중요 한 고려 사항입니다. 예를 들어 Survivable Branch 기기의 이름을 바꾸거나 중앙 사이트의 백업 등록자 풀에 연결 하도록 Survivable Branch 기기를 다시 구성 해야 하는 경우에는 분기 사이트 사용자를 해당 기간 동안 중앙 사이트로 이동 해야 합니다. (Survivable 분기 기기의 이름 바꾸기 또는 재구성에 대 한 자세한 내용은 [부록 B: 배포 설명서의 Survivable Branch 기기 관리](https://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx) 를 참조 하세요.) 해당 사용자가 사용자 수준 VoIP 정책 또는 사용자 수준 다이얼 플랜을 보유 하 고 있지 않은 경우, 사용자가 다른 사이트로 이동할 때 중앙 사이트의 사이트 수준 VoIP 정책 및 사이트 수준 다이얼 플랜이 사용자에 게 기본적으로 지사 사이트의 사이트 수준 VoIP 정책 및 다이얼 플랜에 적용 됩니다. 이 시나리오에서는 백업 등록자 풀에서 사용 되는 사이트 수준 VoIP 정책 및 사이트 수준 다이얼 플랜이 지점 사이트 사용자에 게 적용 될 수 있는 경우가 아니면 해당 통화는 실패 합니다. 예를 들어 일본에 있는 분기 사이트의 사용자가 Redmond의 중앙 사이트로 이동 하는 경우, 모든 7 자리 통화에 + 1425를 앞에 배치 하는 정규화 규칙을 사용 하는 다이얼 플랜은 해당 사용자에 대 한 통화를 적절 하 게 번역 하지 못합니다.
 
 > [!IMPORTANT]
 > 지점 백업 경로를 만들 때는 지점 사용자 정책에 두 개의 PSTN 전화 사용 레코드를 추가 하 고 각 경로에 별도의 route를 할당 하는 것이 좋습니다. 첫 번째 또는 기본 경로는 Survivable Branch (지사) 기기 (SBA) 또는 Branch 서버와 연결 된 게이트웨이에 직접 호출 합니다. 두 번째 또는 백업 경로는 중앙 사이트의 게이트웨이로 직접 전화를 거는 것입니다. 통화를 전송 하는 동안 SBA 또는 branch 서버는 두 번째 사용 레코드를 시도 하기 전에 첫 번째 PSTN 사용 레코드에 할당 된 모든 경로를 시도 합니다.
@@ -328,7 +330,7 @@ Survivable branch 기기 (SBAs) 및 Survivable Branch 서버는 WAN을 중단 �
 
 - 비즈니스용 Skype 서버 관리자는 AA 전화 번호를 사용 하 여 Survivable Branch 기기 또는 branch 서버에 대 한 음성 메일 다시 라우팅 설정의 **exchange um 자동 전화 교환** 번호로 해당 전화 번호를 사용 해야 합니다.
 
-- 비즈니스용 Skype 서버 관리자는 Exchange UM 구독자 액세스 전화 번호를 받고 해당 번호를 Survivable Branch 기기 또는 Survivable Branch 서버에 대 한 음성 메일 다시 라우팅 설정의 **구독자 액세스** 번호로 사용 해야 합니다. .
+- 비즈니스용 Skype 서버 관리자는 Survivable Branch 기기 또는 Survivable Branch 서버에 대 한 음성 메일 다시 라우팅 설정의 **구독자 액세스** 번호로 Exchange UM 구독자 액세스 전화 번호를 받고 해당 번호를 사용 해야 합니다.
 
 - 비즈니스용 Skype Server 관리자는 WAN을 중단 하는 동안 음성 메일에 액세스 해야 하는 모든 분기 사용자에 게 하나의 다이얼 플랜이 연결 되도록 Exchange UM을 구성 해야 합니다.
 

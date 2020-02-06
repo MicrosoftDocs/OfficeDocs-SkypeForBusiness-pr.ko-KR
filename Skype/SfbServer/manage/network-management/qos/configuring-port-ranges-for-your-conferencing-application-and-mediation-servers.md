@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 이 문서에서는 회의, 응용 프로그램, 중재 서버의 포트 범위 및 서비스 품질 정책을 구성 하는 방법을 설명 합니다.
-ms.openlocfilehash: e0bd6092792a9ed813aadecc004f58830bc5b133
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 76373407a8087e3646668d7ce9952c83c500af97
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188547"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817447"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>회의, 응용 프로그램, 중재 서버의 포트 범위 및 서비스 품질 정책 구성
 
@@ -142,7 +144,7 @@ ms.locfileid: "36188547"
 
 9.  4 페이지에서 **이 QoS 정책이 적용 되는 프로토콜 선택** 드롭다운 목록에서 **TCP 및 UDP** 를 선택 합니다. TCP (전송 제어 프로토콜) 및 UDP (사용자 데이터 그램 프로토콜)는 비즈니스용 Skype Server 및 해당 클라이언트 응용 프로그램에서 가장 일반적으로 사용 되는 두 가지 네트워킹 프로토콜입니다.
 
-10. **원본 포트 번호를 지정 하는**제목 아래에서 **이 원본 포트 또는 범위를**선택 합니다. 해당 텍스트 상자에 오디오 전송용으로 예약 된 포트 범위를 입력 합니다. 예를 들어 오디오 트래픽용 포트 57500를 통해 포트 49152를 예약한 경우이 형식을 사용 하 여 포트 범위를 입력 합니다 ( **49152:57500**). **마침을**클릭 합니다.
+10. **원본 포트 번호를 지정 하는**제목 아래에서 **이 원본 포트 또는 범위를**선택 합니다. 해당 텍스트 상자에 오디오 전송용으로 예약 된 포트 범위를 입력 합니다. 예를 들어 오디오 트래픽용 포트 57500를 통해 포트 49152를 예약한 경우이 형식을 사용 하 여 포트 범위를 입력 합니다 ( **49152:57500**). **마침**을 클릭합니다.
 
 > [!NOTE]  
 > 46의 DSCP 값은 일부 임의적인 반면, DSCP 46는 오디오 패킷을 표시 하는 데 자주 사용 되지만 오디오 통신에는 DSCP 46을 사용할 필요가 없습니다. 이미 QoS를 구현 했으며 오디오에 다른 DSCP 코드를 사용 하는 경우 (예: DSCP 40) 동일한 코드를 사용 하도록 서비스 품질 정책을 구성 해야 합니다 (즉, 오디오의 경우 40). 지금 바로 서비스 품질을 구현 하는 경우 오디오 패킷을 표시 하는 데 일반적으로 사용 되는 DSCP 46을 사용 하는 것이 좋습니다.

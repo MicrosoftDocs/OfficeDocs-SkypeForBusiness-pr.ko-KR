@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 이 항목에서는 비즈니스용 Skype를 배포 하 고 관리 하는 데 필요한 관리 도구를 설치 하 고 여는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 612ea46fe8870944fa4b460b034bb9a7386a88bc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c720aba3998df8742406f4c9954f523b20e9af5f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186786"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816557"
 ---
 # <a name="install-and-open-administrative-tools"></a>관리 도구 설치 및 열기
 

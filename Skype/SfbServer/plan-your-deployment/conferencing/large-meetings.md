@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: '요약: 비즈니스용 Skype 서버에서 대규모 모임을 구현 하 고 관리 하는 모범 사례에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: 136896a45be36508af419d84bc5bd684c9d8a429
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 615b34158ebbd8985610d704fd4d6605c762ab3e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "36197822"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815976"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 대규모 모임 계획
  
@@ -57,7 +59,7 @@ ms.locfileid: "36197822"
   
 대규모 모임 호스팅 전용 비즈니스용 Skype 서버 풀은 동시에 최대 1000 사용자에 대 한 하나의 모임만 호스트 해야 하므로, 모임 시간은 대역 외 예약 프로세스를 통해 미리 예약 하 여 지원 해야 합니다. 프런트 엔드 서버 동시에 여러 개의 대규모 모임을 지원 하려면 하나의 전용 대용량 모임 풀을 설정 해야 합니다.
   
-하드웨어 및 소프트웨어 요구 사항에 대 한 자세한 내용과 대규모 모임을 지 원하는 토폴로지를 계획 하는 방법에 대 한 자세한 내용은 비즈니스용 [Skype 서버의 회의 하드웨어 및 소프트웨어 요구 사항](hardware-and-software-requirements.md) 및 다음 [에 대 한 회의 토폴로지 계획을 참조 하세요. 비즈니스용 Skype 서버](conferencing-topology.md).
+하드웨어 및 소프트웨어 요구 사항에 대 한 자세한 내용과 대규모 모임을 지 원하는 토폴로지를 계획 하는 방법에 대 한 자세한 내용은 비즈니스용 [Skype 서버의 회의 하드웨어 및 소프트웨어 요구 사항](hardware-and-software-requirements.md) 및 비즈니스용 [skype 서버용 회의 토폴로지 계획](conferencing-topology.md)을 참조 하세요.
   
 ## <a name="implement-best-practices-for-large-meetings"></a>대규모 모임에 대 한 모범 사례 구현
 

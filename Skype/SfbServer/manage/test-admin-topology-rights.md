@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 비즈니스용 Skype 서버에서 토폴로지 권한을 테스트 하는 방법
-ms.openlocfilehash: d70809ba929c4f1934adce2bd3c60b261bd30d71
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1664a7e7d2b202b596a882e4b393cc15220806c9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188502"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817314"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 관리 토폴로지 권한 테스트
 

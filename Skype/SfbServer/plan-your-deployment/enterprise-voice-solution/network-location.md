@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: 비즈니스용 Skype Server Enterprise Voice에서 E9-1-1 배포 위치에 호출자를 매핑하는 데 사용할 네트워크 구성 요소를 계획 하는 데 필요한 결정
-ms.openlocfilehash: a68f1517d038f82e62a7aca3ef909e4e67d25e4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 404ac2d151f367ad391e4d5426090f20448cc383
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187620"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802668"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 위치를 결정 하는 데 사용 되는 네트워크 요소 정의
  

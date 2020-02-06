@@ -8,6 +8,8 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: '요약: 비즈니스용 Skype 서버 2015에 대 한 업그레이드 계획을 수립할 때 고려해 야 할 사항에 대해 알아보세요. Microsoft 평가 센터에서 비즈니스용 Skype Server 2015의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: 0f7473bac98ede76763a3f5bda8aee3484c3c03f
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a812d0fac6d6d9e181f9216c73070c0bf085f368
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36197862"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815576"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015 업그레이드 계획
  

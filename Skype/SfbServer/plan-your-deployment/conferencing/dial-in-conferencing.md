@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: '요약: 비즈니스용 Skype 서버의 전화 접속 회의를 계획 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: e5c058f614ca7201815cb623d45fd28c18520b85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90fe1ff1770d34b9fe0671de1a2fc0f9382acae5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187845"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815996"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 전화 접속 회의 계획
  
@@ -48,7 +50,7 @@ ms.locfileid: "36187845"
   
 중앙 사이트 또는 지점 사이트에 PSTN 게이트웨이를 배포할 수 있습니다. 지점 사이트에서 PSTN 게이트웨이는 독립형 또는 Survivable Branch 기기의 구성 요소 일 수 있습니다.
   
-중재 서버 및 PSTN 게이트웨이 요구 사항에 대 한 자세한 내용은 비즈니스용 [Skype 서버에서 서버 구성 요소 중재](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), 비즈니스용 [Skype 서버의 토폴로지 작성기에서 중재 서버 배포](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md), [토폴로지에서 게이트웨이 정의를 참조 하세요. 비즈니스용 Skype 서버에서의 빌더](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+중재 서버 및 PSTN 게이트웨이 요구 사항에 대 한 자세한 내용은 비즈니스용 [Skype 서버에서 서버 구성 요소](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)조정, 비즈니스용 [Skype Server의 토폴로지 작성기에서 중재 서버 배포](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md), 비즈니스용 [skype server의 토폴로지 작성기에서 게이트웨이 정의](../../deploy/deploy-enterprise-voice/define-a-gateway.md)를 참조 하세요.
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>다이얼 플랜, 액세스 번호, 회의 지역에 대 한 계획
 

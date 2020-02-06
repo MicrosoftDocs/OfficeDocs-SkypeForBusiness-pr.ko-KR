@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: ErrorReport 보기는 보고 된 오류에 대 한 정보를 저장 합니다. 각 레코드는 오류 발생 중 하나입니다. 이 오류는 프런트 엔드 서버에서 실행 되는 CDR 에이전트에서 또는 클라이언트에서 전송 된에 의해 캡처됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입 되었습니다.
-ms.openlocfilehash: a95d3d1e99fc41727c10ecef7beaafddc213dd17
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d51b085d5dabb8a6ae0dc367b23dd23a1702174e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196755"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815246"
 ---
 # <a name="errorreport-view"></a>ErrorReport 보기
  
@@ -42,7 +44,7 @@ ErrorReport 보기는 보고 된 오류에 대 한 정보를 저장 합니다. �
 |**ClientType** <br/> |int  <br/> |오류를 발생 시킨 사용자가 사용 하는 클라이언트입니다. 자세한 내용은 [Useragentdef 테이블](useragentdef.md) 을 참조 하세요. <br/> |
 |**ClientCategory** <br/> |nvarchar (64)  <br/> |오류를 발생 시킨 사용자가 사용 하는 클라이언트 범주의 이름입니다.  <br/> |
 |**Source** <br/> |nvarchar (256)  <br/> |오류를 발생 시킨 서버의 이름입니다 (보고서가 서버 구성 요소에서 전송 된 경우).  <br/> |
-|**프로그램** <br/> |nvarchar (256)  <br/> |오류를 발생 시킨 응용 프로그램의 이름입니다 (보고서가 서버 구성 요소에서 전송 된 경우).  <br/> |
+|**응용 프로그램** <br/> |nvarchar (256)  <br/> |오류를 발생 시킨 응용 프로그램의 이름입니다 (보고서가 서버 구성 요소에서 전송 된 경우).  <br/> |
 |**ResponseCode** <br/> |int  <br/> |오류 보고서를 포함 하는 SIP 메시지의 세션에 대 한 SIP 응답 코드  <br/> |
 |**RequestType** <br/> |varchar (max)  <br/> |실패 한 요청의 유형입니다.  <br/> |
 |**ContentType** <br/> |varchar (max)  <br/> |실패 한 요청의 콘텐츠 형식입니다.  <br/> |
@@ -52,7 +54,7 @@ ErrorReport 보기는 보고 된 오류에 대 한 정보를 저장 합니다. �
 |**IsCapturedByServer** <br/> |다소  <br/> |프런트 엔드 서버에서 실행 중이거나 클라이언트가 보낸 CDR 에이전트에 의해 오류 보고서가 캡처 되었는지 여부를 나타냅니다.  <br/> |
 |**플래그** <br/> |smallint  <br/> |나중에 사용 하기 위해 예약 되어 있습니다.  <br/> |
 |**MsDiagHeader** <br/> |varchar (max)  <br/> |오류에 대 한 추가 정보입니다.  <br/> |
-|**프런트** <br/> |varchar  <br/> |보고서를 제출한 프런트 엔드 서버의 정규화 된 도메인 이름입니다.  <br/> |
-|**수영장** <br/> |varchar  <br/> |보고서를 제출한 프런트 엔드 서버를 포함 하는 풀의 정규화 된 도메인 이름입니다.  <br/> |
+|**FrontEnd** <br/> |varchar  <br/> |보고서를 제출한 프런트 엔드 서버의 정규화 된 도메인 이름입니다.  <br/> |
+|**풀** <br/> |varchar  <br/> |보고서를 제출한 프런트 엔드 서버를 포함 하는 풀의 정규화 된 도메인 이름입니다.  <br/> |
    
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: 신뢰할 수 있는 사용자는 비즈니스용 Skype 서버의 신뢰할 수 있는 서버에서 자격 증명을 인증 한 것입니다. 이 서버는 일반적으로 스탠더드 버전 서버, Enterprise Edition 프런트 엔드 서버 또는 디렉터입니다. 비즈니스용 Skype Server는 Active Directory 도메인 서비스를 사용자 자격 증명의 단일 신뢰할 수 있는 백 엔드 리포지토리로 사용 합니다.
-ms.openlocfilehash: 35d1c6861ba8863e308939997fd802d4abcea404
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2ffabce6546bf8b542503f8c80fe5cb2b952c568
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196824"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815586"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 사용자 및 클라이언트 인증
  

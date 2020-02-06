@@ -8,16 +8,18 @@ ms.date: 2/25/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: '요약: 비즈니스용 Skype 서버 2015의 CLS (중앙 로깅 서비스)로 거를 사용 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 496f30bdcedeb491bd5bfa211f08c04853b49bf8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d57afe991756f1bb6a7bf23917af207bc25ff32c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186828"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816617"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 CLS 로거
  
@@ -136,7 +138,7 @@ CLS로 거를 성공적으로 사용 하려면 다음 조건이 충족 되는지
 
 1. **시나리오 편집** 탭의 시나리오 드롭다운 메뉴에서 기존 시나리오를 선택 합니다.
     
-2. 시나리오 **** 삭제를 클릭 하 여 시나리오를 삭제 합니다.
+2. 시나리오 **삭제를 클릭 하 여 시나리오** 를 삭제 합니다.
     
 3. 작업을 확인 한 후 시나리오가 삭제 됩니다.
     

@@ -8,16 +8,18 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: '요약: 비즈니스용 Skype Server 2015에 대 한 기본 관리 서버를 구성 하 고 System Center Operations Manager를 설치 하 고 관리 팩을 가져옵니다.'
-ms.openlocfilehash: adee7ef72e6b59854e2b458aa33fdb4880923eed
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 0492a86062577d5118860faae8beca50f9f7bed2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992465"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816127"
 ---
 # <a name="configure-the-primary-management-server"></a>주요 관리 서버 구성
 

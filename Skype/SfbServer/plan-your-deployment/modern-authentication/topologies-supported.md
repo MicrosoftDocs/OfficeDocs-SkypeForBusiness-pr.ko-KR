@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: 이 문서에는 비즈니스용 Skype의 최신 인증에서 지원 되는 온라인 및 온-프레미스 토폴로지가 나열 되어 있으며 각 토폴로지에 적용 되는 보안 기능에 대해 설명 합니다.
-ms.openlocfilehash: 0d66790d2c471af29ed5c3f886393b1cd33f2b6a
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 2eb043768c46406696b32da5dfb84e2358a30749
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "36197814"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815826"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>최신 인증으로 지원 되는 비즈니스용 Skype 토폴로지
  

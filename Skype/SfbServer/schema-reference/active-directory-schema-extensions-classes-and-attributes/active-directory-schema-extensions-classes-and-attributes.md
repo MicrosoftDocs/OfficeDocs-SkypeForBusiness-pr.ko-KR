@@ -1,5 +1,5 @@
 ---
-title: Active Directory 스키마 확장, 클래스 및 특성
+title: Active Directory 스키마 확장, 클래스 및 속성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,17 +8,19 @@ ms.date: 2/1/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 이 참조 섹션에는 다음 정보가 포함 됩니다.
-ms.openlocfilehash: 5934c9ffab8055de86cdaf3bcf507fa9c806f245
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 98ce04f38d9ee6c572f517441a370823ab7647d5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196818"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815556"
 ---
-# <a name="active-directory-schema-extensions-classes-and-attributes"></a>Active Directory 스키마 확장, 클래스 및 특성
+# <a name="active-directory-schema-extensions-classes-and-attributes"></a>Active Directory 스키마 확장, 클래스 및 속성
  
 이 참조 섹션에는 다음 정보가 포함 됩니다. 
   
@@ -36,9 +38,9 @@ ms.locfileid: "36196818"
     
 - 도메인을 준비 하는 동안 도메인 루트 및 기본 제공 컨테이너에서 만들어진 Ace (액세스 제어 항목)
     
-- Grant_CsSetupPermission cmdlet에서 Active Directory OU (조직 구성 단위)에 대 한 변경 내용을 적용 합니다.
+- Grant_CsSetupPermission cmdlet에서 Active Directory OU (조직 구성 단위)에 대 한 변경 내용
     
-- Grant_CsOUPermission cmdlet에서 Active Directory OU에 대해 변경한 내용
+- Grant_CsOUPermission cmdlet에의 한 Active Directory OU의 변경 내용
     
 ## <a name="in-this-section"></a>이 섹션의 내용
 

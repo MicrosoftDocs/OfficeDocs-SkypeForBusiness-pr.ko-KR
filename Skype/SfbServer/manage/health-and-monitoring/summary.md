@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 description: '요약: 비즈니스용 Skype 서버의 미디어 품질 요약 보고서에 대해 자세히 알아보세요.'
-ms.openlocfilehash: 49c4aba8e5eb69c50282f4c9a1c77027f1a0210d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a1c29eaa9d7c3ae394e40b089c4e38efe0802802
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188667"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817657"
 ---
 # <a name="media-quality-summary-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 미디어 품질 요약 보고서
  

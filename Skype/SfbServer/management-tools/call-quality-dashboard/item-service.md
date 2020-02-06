@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: '요약: 통화 품질 대시보드의 리포지토리 API에 포함 된 항목 서비스에 대해 알아봅니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 585ba97d9dedbfcbbd572069a792a121e6156afe
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5fdf2aedcb1a5e8d7d1929d7af70c5911cae46f0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186882"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816717"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>CQD (통화 품질 대시보드의 항목 서비스)
  
@@ -53,7 +55,7 @@ ms.locfileid: "36186882"
 |[항목 가져오기](get-items.md) <br/> |항목 가져오기 저장소의 모든 항목을 반환 합니다.  <br/> |
 |[항목 가져오기](get-item.md) <br/> |항목 가져오기 특정 항목을 반환 합니다.  <br/> |
 |[하위 항목 가져오기](get-sub-items.md) <br/> |하위 항목 가져오기 특정 항목의 하위 항목을 반환 합니다.  <br/> |
-|[Item 상위 항목 가져오기](get-item-ancestors.md) <br/> |Item 상위 항목 가져오기 특정 항목의 조상을 반환 합니다.  <br/> |
+|[상위 항목 가져오기](get-item-ancestors.md) <br/> |Item 상위 항목 가져오기 특정 항목의 조상을 반환 합니다.  <br/> |
 |[항목 업데이트](update-item.md) <br/> |리포지토리의 특정 항목을 업데이트 합니다.  <br/> |
    
 

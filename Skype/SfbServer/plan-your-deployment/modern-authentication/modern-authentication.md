@@ -7,15 +7,17 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: 다른 제품과의 통합을 포함 하 여 비즈니스용 Skype 서버에 대 한 인증 및 권한 부여에 대 한 계획 항목
-ms.openlocfilehash: 922b53b26bd77be4f7d49e7c594d337f7961703d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f732e4afa6b82554c4248a244276e5e5b60c71cc
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196873"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815846"
 ---
 # <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>비즈니스용 Skype에서 인증 및 권한 부여 논의
 

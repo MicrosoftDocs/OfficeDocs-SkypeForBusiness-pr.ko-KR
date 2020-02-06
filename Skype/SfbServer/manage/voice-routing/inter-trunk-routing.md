@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: '비즈니스용 Skype Server는 intertrunk 라우팅 지원을 통해 기본적인 세션 관리를 제공 합니다. '
-ms.openlocfilehash: 2c5438f78da78870a5dae8c697d4d30d19a316ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c3381c6ae6bd86c416e6bd3349cf54d6fb530a08
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187020"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816968"
 ---
 # <a name="inter-trunk-routing-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 트렁크 간 라우팅
 

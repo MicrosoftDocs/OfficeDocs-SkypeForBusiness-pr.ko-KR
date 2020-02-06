@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 description: '요약: 비즈니스용 Skype 서버에서 환경 품질 (체감 품질)을 관리 합니다.'
-ms.openlocfilehash: 18e18562824fc129b2e14fff919f0684f59471b6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 566aee60bc3ca116df63f198773b81f335398253
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188724"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817747"
 ---
 # <a name="quality-of-experience-qoe-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 체감 품질 (환경 품질)
  

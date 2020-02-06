@@ -8,15 +8,17 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: 설치-CcAppliance cmdlet는 AD, 중앙 관리 저장소, 중재 서버, Edge 서버 가상 컴퓨터 등의 비즈니스용 Skype 클라우드 커넥터 에디션 기기를 호스트 서버에 설치 합니다.
-ms.openlocfilehash: cccf500c6506c8ba3459631d5c823940907ad213
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: fe1fab785e2681614f27035714b6ddead22b8707
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003328"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799878"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  

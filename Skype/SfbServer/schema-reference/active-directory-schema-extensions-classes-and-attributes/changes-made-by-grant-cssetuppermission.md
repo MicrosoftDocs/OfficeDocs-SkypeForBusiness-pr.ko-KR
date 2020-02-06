@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
 description: 설치를 위임 하려면 특정 Active Directory OU (조직 구성 단위)에 대 한 RTCUniversalServerAdmins 유니버설 그룹에 대 한 사용 권한을 부여 하 여 해당 OU에 있는 RTCUniversalServerAdmins 그룹의 구성원이 비즈니스용 Skype Server를 설치할 수 있도록 합니다. 도메인 관리자 그룹의 구성원이 아닌 지정 된 도메인
-ms.openlocfilehash: a7cbf49fa7d34b8a81668c4ec598e3a547c098e9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 844cfa586523750b804564482146c0e76b39fc38
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196811"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815516"
 ---
 # <a name="changes-made-by-grant-cssetuppermission-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서-Cssetupsetuppermission 허용에의 한 변경 내용
  

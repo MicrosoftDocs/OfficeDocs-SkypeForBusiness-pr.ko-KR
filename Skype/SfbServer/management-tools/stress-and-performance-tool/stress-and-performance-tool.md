@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: 비즈니스용 Skype 서버 2015 스트레스 및 성능 도구는 프로덕션이 아닌 환경이 나 테스트 환경에서 용량 계획과 성능 조정 중에 사용 됩니다.
-ms.openlocfilehash: d82d5ed33e6dca1303aed9f49150dd6b56fc4e1a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: efc3ed6cc7f24acc5fda7a7ae2ae818df5b43393
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197021"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816157"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>비즈니스용 Skype 서버 2015 스트레스 및 성능 도구
  
@@ -36,7 +38,7 @@ ms.locfileid: "36197021"
 > [!NOTE]
 > 이 도구는 비즈니스용 Skype 서버 2019 업데이트 되지 않습니다.
   
-## <a name="tests"></a>테스트용
+## <a name="tests"></a>테스트
 
 스트레스 및 성능 도구를 사용 하 여 이러한 유형의 사용자 부하를 시뮬레이션할 수 있습니다.
   
@@ -48,7 +50,7 @@ ms.locfileid: "36197021"
 |응답 그룹  <br/> |메일 그룹 확장  <br/> |
 |주소록 다운로드 및 주소록 쿼리  <br/> |향상 된 911 (E911) 통화 및 위치 프로필 (다이얼 플랜)  <br/> |
 |MultiView  <br/> |데이터 공동 작업  <br/> |
-|간의  <br/> ||
+|이동성  <br/> ||
    
 ## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>비즈니스용 Skype 서버 2015 스트레스 및 성능 도구에 포함 된 응용 프로그램 및 파일
 

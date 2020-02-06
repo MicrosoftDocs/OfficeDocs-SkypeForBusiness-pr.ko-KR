@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: '요약: 비즈니스용 Skype 서버에 대 한 DNS 레코드를 구현 하기 전에이 항목의 간단한 URL 고려 사항을 검토 하세요.'
-ms.openlocfilehash: 6f5003542f797c6dd275eb8de7c0b00b1ea209ac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7eb734fb4a9005f833f27efd3b0d180593155f39
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196854"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815786"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 간단한 Url에 대 한 DNS 요구 사항
 

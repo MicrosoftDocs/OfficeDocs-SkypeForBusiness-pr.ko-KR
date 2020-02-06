@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: 번역 서비스와 다양 한 라우팅 구성 요소를 포함 하 여 비즈니스용 Skype 서버의 프런트 엔드 서버에 있는 Enterprise Voice 구성 요소에 대해 알아봅니다.
-ms.openlocfilehash: d28beb809e172ea5d778e0cf8273cb232b7cf67c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eae2f389720a6c359f442a7a163d5b4b5aef6e26
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187689"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802968"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 프런트 엔드 서버 VoIP 구성 요소
 

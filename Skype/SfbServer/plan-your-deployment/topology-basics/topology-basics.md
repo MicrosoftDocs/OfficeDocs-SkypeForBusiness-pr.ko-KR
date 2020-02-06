@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: '요약: 비즈니스용 Skype 서버용 토폴로지를 선택 합니다. 비즈니스용 Skype 서버의 서버 위치에 대해 알아보세요.'
-ms.openlocfilehash: 00154c754292fd960942f0f0da7f95bb6b5b1c19
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: b3f45a37bde409dcda38f3047e60776ebc8560e6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "36198006"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41801698"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 토폴로지 기본 사항
 
@@ -84,7 +86,7 @@ ms.locfileid: "36198006"
 ||||
 |:-----|:-----|:-----|
 |이사 또는 이사 은행  <br/> |독립 실행형 중재 서버 또는 중재 서버 풀  <br/> |Office Web Apps 서버  <br/> |
-|Edge 서버 또는 Edge 풀  <br/> |영구 채팅 서버 또는 영구 채팅 서버 풀  <br/> |모니터  <br/> |
+|Edge 서버 또는 Edge 풀  <br/> |영구 채팅 서버 또는 영구 채팅 서버 풀  <br/> |모니터링  <br/> |
 
 이 목록에 있는 Exchange UM (통합 메시징) 서버는 어디에 있나요? 이것은 Exchange UM과 통합 하려는 경우 비즈니스용 Skype 서버에서 사용할 수 있지만, 비즈니스용 Skype Server 사이트의 구성 요소가 아닌 경우 여기에서 언급 하지 않습니다.
 
@@ -93,7 +95,7 @@ ms.locfileid: "36198006"
 |||
 |:-----|:-----|
 |독립 실행형 중재 서버 또는 중재 서버 풀  <br/> |Edge 서버 또는 Edge 풀  <br/> |
-|영구 채팅 서버 또는 영구 채팅 서버 풀  <br/> |모니터  <br/> |
+|영구 채팅 서버 또는 영구 채팅 서버 풀  <br/> |모니터링  <br/> |
 
 마지막 목록 처럼 여기에 Exchange UM 서버를 포함 하지 않는 이유는 비즈니스용 Skype Server 배포의 일부가 아니지만 여기에서 같은 범주로 나눌 수 있습니다.
 

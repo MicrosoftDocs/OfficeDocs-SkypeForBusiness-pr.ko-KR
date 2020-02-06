@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: 사용자가 스트레스 및 성능 도구를 성공적으로 실행할 수 있도록 비즈니스용 Skype 서버 2015 토폴로지를 변경 하거나 프로 비전 합니다.
-ms.openlocfilehash: e58bfce5e618c6e62f272c0acb0b415cbb471d40
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 2156616fac98d1e6fad08d2036f4bc2def3e98b6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992495"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816167"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>스트레스 및 성능 시나리오에서 부하를 실행할 토폴로지 프로 비전
  

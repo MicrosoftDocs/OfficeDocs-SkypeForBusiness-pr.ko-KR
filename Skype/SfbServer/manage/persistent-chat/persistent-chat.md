@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버를 관리 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 1702cc9891c34085f8de269d5e91723378c54ada
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 97cce8adedbb4dea932084497006e3c17bfdd7d8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197954"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817324"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 영구 채팅 서버 관리
  

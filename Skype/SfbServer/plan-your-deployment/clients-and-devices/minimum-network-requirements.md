@@ -1,5 +1,5 @@
 ---
-title: Skype Meeting App 최소 네트워크 요구 사항
+title: Skype 모임 앱 최소 네트워크 요구 사항
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: PhillipGarding
@@ -8,6 +8,8 @@ ms.date: 6/4/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,14 +17,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: '요약: Office 365를 사용 하지 않으며, 조직에서 호스트 하는 모임에 액세스 해야 하는 조직에 대 한 정보입니다.'
-ms.openlocfilehash: 631c4b9825181300552faa387c00a1ca73097885
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e158d93b68df761b59535f4e9239d14194c10443
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "36198000"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816027"
 ---
-# <a name="skype-meetings-app-minimum-network-requirements"></a>Skype Meeting App 최소 네트워크 요구 사항
+# <a name="skype-meetings-app-minimum-network-requirements"></a>Skype 모임 앱 최소 네트워크 요구 사항
  
 **요약:**  Office 365를 사용 하지 않으며, 조직에서 호스트 하는 모임에 액세스 해야 하는 조직에 대 한 정보입니다. 이 문서는 이러한 앱의 사용자를 위한 것이 아닙니다.
   
@@ -36,7 +38,7 @@ ms.locfileid: "36198000"
 |내 |대상 Fqdn  |IP 주소  |139  |
 |---|---------|---------|---------|
 |**Skype 모임 앱** | \*lync.com <br/>\*infra.lync.com<br/>\*pipe.aria.microsoft.com<br/>\*sfbassets.com<br/>\*msecnd.net<br/>\*<span></span>officeapps.live.com <br/>\*<span></span>officeapps.live.com <br/>\*office.live.com<br/>\*cdn.office.net<br/>*. s-microsoft.com<br/>        |   이러한 IP 주소는 자주 업데이트 됩니다.  [OFFICE Ip 범위](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) 는 물론 [비즈니스용 Skype IP 범위](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) 를 참조 하세요.         |TCP: 80 &amp; 443<br/>UDP: 3478-3481<br/>
-|**성과**    | \*<span></span>microsoft.com <br/>\*<span></span>skype.com | 이러한 IP 주소는 자주 업데이트 됩니다.  [OFFICE Ip 범위](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) 는 물론 [비즈니스용 Skype IP 범위](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) 를 참조 하세요.      |TCP: 443 <br/> UDP: 3478-3481
+|**Teams**    | \*<span></span>microsoft.com <br/>\*<span></span>skype.com | 이러한 IP 주소는 자주 업데이트 됩니다.  [OFFICE Ip 범위](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US) 는 물론 [비즈니스용 Skype IP 범위](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) 를 참조 하세요.      |TCP: 443 <br/> UDP: 3478-3481
 
 ## <a name="see-also"></a>참고 항목
 <a name="BKMK_Conferencing"> </a>

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: 비즈니스용 Skype Server Enterprise Voice에서 게이트웨이에서 ELIN 사용 하는 E9-1 배포에 대해 위치 정보 데이터베이스 또는 유사한 외부 데이터베이스를 계획 하는 데 필요한 결정
-ms.openlocfilehash: e1645be8ed1c6188d1976d794727d0668b79c12e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 39e6c4170adc18687b284ec6f69a252c6efefab4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187719"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803038"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 게이트웨이에서 ELIN 대 한 위치 관리
 
@@ -62,9 +64,9 @@ ms.locfileid: "36187719"
 
 |**건물 면적**|**위치**|**ELIN**|
 |:-----|:-----|:-----|
-|1 층  <br/> |raid-1  <br/> |425-555-0100  <br/> |
+|1 층  <br/> |1  <br/> |425-555-0100  <br/> |
 |2 층  <br/> |2  <br/> |425-555-0111  <br/> |
-|세 번째 층  <br/> |3-4  <br/> |425-555-0123  <br/> |
+|세 번째 층  <br/> |3  <br/> |425-555-0123  <br/> |
 
 정의한 위치는 다음 요구 사항을 충족 해야 합니다.
 

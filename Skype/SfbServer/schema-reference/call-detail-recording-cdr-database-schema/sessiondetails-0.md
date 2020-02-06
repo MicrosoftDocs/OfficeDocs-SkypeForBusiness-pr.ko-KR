@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: SessionDetails view는 피어 투 피어 세션에 대 한 정보를 저장 하는데,이는 VoIP 전화 통화, 2-파티 IM 세션 또는 기타 세션 유형이 될 수 있습니다. 이 보기는 Microsoft Lync Server 2013에서 도입 되었습니다.
-ms.openlocfilehash: 627d038389098583b5e42f73e8dd0a1cc339d014
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f1d0d68fe152f277c02c53fd87afdb0ea4e4ab0c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196692"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814916"
 ---
 # <a name="sessiondetails-view"></a>SessionDetails 뷰
  
@@ -61,8 +63,8 @@ SessionDetails view는 피어 투 피어 세션에 대 한 정보를 저장 하�
 |**ResponseCode** <br/> |int  <br/> |세션 초대에 대 한 SIP 응답 코드입니다. 일반적으로이 필드는 세션의 초기 초대 메시지에서 생성 된 데이터에 의해 채워집니다. 초대 메시지가 없는 경우 첫 번째 관련 SIP 메시지의 날짜 및 시간 (BYE, 취소, 메시지 또는 정보)으로 필드가 채워집니다.  <br/> |
 |**DiagnosticId** <br/> |int  <br/> |SIP 헤더에서 진단 ID를 캡처 했습니다.  <br/> |
 |**ContentType** <br/> |nvarchar (256)  <br/> |세션의 콘텐츠 유형입니다.  <br/> |
-|**프런트** <br/> |nvarchar (256)  <br/> |세션에 대 한 데이터를 캡처한 프런트 엔드 서버의 FQDN입니다.  <br/> |
-|**수영장** <br/> |nvarchar (256)  <br/> |세션에 대 한 데이터를 캡처한 풀의 FQDN입니다.  <br/> |
+|**FrontEnd** <br/> |nvarchar (256)  <br/> |세션에 대 한 데이터를 캡처한 프런트 엔드 서버의 FQDN입니다.  <br/> |
+|**풀** <br/> |nvarchar (256)  <br/> |세션에 대 한 데이터를 캡처한 풀의 FQDN입니다.  <br/> |
 |**FromEdgeServer** <br/> |nvarchar (256)  <br/> |세션을 시작한 사용자가 사용 하는 Edge 서버의 FQDN입니다.  <br/> |
 |**ToEdgeServer** <br/> |nvarchar (256)  <br/> |세션을 시작한 사용자가 사용 하는 Edge 서버의 FQDN  <br/> |
 |**IsFromInternal** <br/> |다소  <br/> |세션을 시작한 사용자가 내부 네트워크에서 로그온 했는지 여부를 나타냅니다.  <br/> |

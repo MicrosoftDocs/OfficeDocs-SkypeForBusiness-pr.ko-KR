@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: 사이트, 지역, 사이트 간 네트워크 링크, 음성 사용량 트래픽 예측 등 비즈니스용 Skype 서버의 Enterprise Voice 계획 기본 사항입니다.
-ms.openlocfilehash: fdc653404f6b7182086af00e6e788a1d3bd421eb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7ef2a37a1ab39dd9c2e40544e06cfb995e846f7a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187695"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802898"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 엔터프라이즈 음성에 대 한 계획
  

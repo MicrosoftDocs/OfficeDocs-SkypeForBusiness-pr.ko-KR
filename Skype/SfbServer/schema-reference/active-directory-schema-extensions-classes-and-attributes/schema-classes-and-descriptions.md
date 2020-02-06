@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: 이 섹션에서는 비즈니스용 Skype 서버에서 사용 되는 모든 스키마 클래스에 대해 설명 합니다.
-ms.openlocfilehash: 6d27ff464bcd4613f12180b8f263686c9cc04bcd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6cb67c47c20ecb9cc6af79e51ebc05c332fd0bf3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196802"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815476"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 스키마 클래스 및 설명
  

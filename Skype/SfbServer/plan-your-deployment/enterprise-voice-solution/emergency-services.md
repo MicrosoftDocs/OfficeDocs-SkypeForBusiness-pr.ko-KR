@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 위치 획득 및 통화 라우팅을 포함 하 여 비즈니스용 Skype Server Enterprise Voice의 향상 된 9-1-1 (E9-1-1) 서비스에 대해 알아봅니다.
-ms.openlocfilehash: 20d1a258b022b8369f59aaa74a2b95de45f931e2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f09729bc6fdbd2fa64dee5b30af88494cd618915
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187704"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802988"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 응급 서비스 계획
 
@@ -41,7 +43,7 @@ ms.locfileid: "36187704"
 
 - PSTN (공개 교환 전화) 기반 E9-1-1 서비스 공급자에 대 한 비상 위치 Id 번호 (ELIN) 게이트웨이
 
-SIP 트렁크 E9-1-1 서비스 공급자를 사용 하는 경우 위치 정보 서비스 데이터베이스에 ERLs를 추가 하 고 E9-1-1 서비스 공급자가 유지 관리 하는 MSAG (마스터 주소 가이드)에 대해 위치 유효성을 검사 합니다. E9-1 서비스 공급자가 지역 정보가 없거나 MSAG에 대해 유효성을 검사 하지 않은 전화를 받은 경우 E9-1 서비스 공급자는 국가/지역 긴급 통화 응답 센터 (ECRC)로 전화를 라우팅하고 가능한 경우 호출자의 위치를 구두로 하 고 적절 한 PSAP로 전화를 수동으로 라우팅하는 특정 교육을 받은 인력이 필요 합니다. (일부 SIP 트렁크 E9-1-1 서비스 공급자는 고객에 게 PSTN 직접 내부 전화 걸기 (9-1-1) 번호를 제공 하 여 SIP 트렁크가 어떠한 이유로 든 실패 하는 경우이를 라우팅 하는 대체 방법을 제공 합니다.
+SIP 트렁크 E9-1-1 서비스 공급자를 사용 하는 경우 위치 정보 서비스 데이터베이스에 ERLs를 추가 하 고 E9-1-1 서비스 공급자가 유지 관리 하는 MSAG (마스터 주소 가이드)에 대해 위치 유효성을 검사 합니다. E9-1 서비스 공급자가 위치 정보가 없거나 MSAG에 대해 유효성을 검사 하지 않은 전화를 받은 경우 E9-1 서비스 공급자는 국가/지역 긴급 통화 응답 센터 (ECRC)에 게 전화를 라우팅하고, 가능한 경우 호출자의 위치를 구두로 하 고 적절 한 PSAP에 대 한 통화를 수동으로 라우팅하는 특정 교육을 받고 있는 직원을 대상으로 합니다. (일부 SIP 트렁크 E9-1-1 서비스 공급자는 고객에 게 PSTN 직접 내부 전화 걸기 (9-1-1) 번호를 제공 하 여 SIP 트렁크가 어떠한 이유로 든 실패 하는 경우이를 라우팅 하는 대체 방법을 제공 합니다.
 
 고정 위치가 있는 시간 구분 멀티플렉싱 (TDM) 및 IP 기반 개인 분기 교환 (PBX) 전화와는 달리 비즈니스용 Skype 끝점은 매우 모바일 일 수 있습니다. E9-1-1 기능을 배포 하는 경우 비즈니스용 Skype 서버는 발신자의 위치에 관계 없이 긴급 전화를 사용 하 여 발신자의 위치를 제공 하는 PSAP로 라우팅할 수 있도록 합니다. 예를 들어 사용자의 기본 office가 Redmond, 인천에 있지만, Wichita의 지사에 있는 컴퓨터에서 비상 전화를 사용 하는 경우 SIP 트렁크 또는 PSTN 기반 E9-1-1 서비스 공급자가 통화를 Wichita의 PSAP에 라우팅합니다. Kansas , Redmond의 PSAP에는 해당 하지 않습니다.
 

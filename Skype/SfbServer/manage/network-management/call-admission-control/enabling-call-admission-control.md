@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: " CAC (call 허용 컨트롤) 네트워크를 구성한 후에는 CAC를 사용 하도록 설정 하 여 대역폭 제한을 적용 해야 합니다."
-ms.openlocfilehash: cbe3ad690f7061611a91474ce6df1fe39d84b0fd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4f9f3f09f943b417ec589f26dc5c6505d30831f9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188589"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817537"
 ---
-# <a name="enabling-call-admission-control-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 허용 제어 사용
+# <a name="enabling-call-admission-control-in-skype-for-business-server"></a>비즈니스용 Skype에서 통화 허용 컨트롤을 사용하도록 설정
 
 CAC(통화 허용 제어)는 사용 가능한 대역폭을 기반으로 오디오 및 비디오 전송에 제한을 둘 수 있는 지역, 사이트 및 서브넷의 네트워크입니다. CAC 네트워크를 구성한 후에는 CAC가 대역폭 제한을 적용 하도록 설정 해야 합니다. 비즈니스용 Skype 서버 제어판을 사용 하 여이 작업을 수행할 수 있습니다.
 
@@ -46,7 +48,7 @@ CAC(통화 허용 제어)는 사용 가능한 대역폭을 기반으로 오디�
 
 [통화 허용 제어 계획](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md) 
  
-[통화 허용 제어 서비스 구성](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) 
+[통화 허용 컨트롤 사용](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) 
 
 [Get-Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)  
 

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: 이 항목에서는 중재 서버 배포에 대 한 계획 지침을 설명 합니다.
-ms.openlocfilehash: fdfc18871e4aa9ea30d7a02063e7d1a0bc05b6ca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 806886b7c7c5e8ae367a6e104f7fd9127f25c099
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187914"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816057"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 중재 서버 배포 지침
  
@@ -32,7 +34,7 @@ ms.locfileid: "36187914"
     
 - 미디어에서 중재 서버를 우회 하는 통화의 백분율입니다.
     
-계획을 수립할 때는 PSTN 통화에 대 한 미디어 처리 요구 사항 및 미디어 바이패스를 지원 하지 않는 A/V 회의를 고려해 야 하며, 필요한 시간 동안에도 신호 상호 작용을 처리 하는 데 필요한 처리 과정을 확인 하세요. 지원. CPU가 충분 하지 않으면 중재 서버의 독립 실행형 풀을 배포 해야 합니다. 또한 PSTN 게이트웨이, IP-Pbx, SBCs는 하나의 풀에 있는 collocated 중재 서버에서 제어 하는 하위 집합으로 분할 해야 하며 하나 이상의 독립 실행형 풀에는 독립 실행형 중재 서버 여야 합니다.
+계획 하 고 있는 경우에는 PSTN 통화에 대 한 미디어 처리 요구 사항과 미디어 바이패스를 지원 하지 않는 A/V 회의를 고려해 야 하며 지원 해야 하는 사용 중인 통화 시간에 대 한 신호 상호 작용을 처리 하는 데 필요한 처리 과정을 고려 하세요. CPU가 충분 하지 않으면 중재 서버의 독립 실행형 풀을 배포 해야 합니다. 또한 PSTN 게이트웨이, IP-Pbx, SBCs는 하나의 풀에 있는 collocated 중재 서버에서 제어 하는 하위 집합으로 분할 해야 하며 하나 이상의 독립 실행형 풀에는 독립 실행형 중재 서버 여야 합니다.
   
 조정 서버 풀과 상호 작용 하는 기능이 없는 PSTN 게이트웨이, IP-Pbx 또는 SBCs (세션 경계 컨트롤러)를 배포한 경우 단일 중재 서버로 구성 된 독립 실행형 풀에 연결 해야 합니다. PSTN 게이트웨이, IP Pbx 또는 SBCs가 수행 해야 하는 작업은 다음과 같습니다.
   

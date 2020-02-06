@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 서비스 상태를 확인 하 고 서비스를 시작 및 중지 하 고 서비스에 대 한 세션을 방지 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 90acd45675277dad0f63db342217cf914c97109a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 154c7b2d5ff858e22be4159ec1797ef6a6724445
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991523"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817119"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 서비스 관리
 

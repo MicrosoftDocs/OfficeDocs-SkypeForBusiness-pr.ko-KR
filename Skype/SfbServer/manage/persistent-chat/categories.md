@@ -8,15 +8,17 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: '요약: 비즈니스용 Skype 서버 2015에서 영구 채팅 서버 범주를 관리 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: f0c85c2246c85c93f96e6c13cef0a5d4360213cb
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 03e01e6221cdb32e4a2c77314e256a195b9ea4d3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992003"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817334"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>영구 채팅 서버의 범주 관리
  

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: '요약: 통화 품질 대시보드를 사용 하는 방법에 대해 알아봅니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 09eb8bdae508ff9a5fe39fec67b0f440859efad0
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 61b20062925f59474d387a022a92663e0ffcd6ba
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774708"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816667"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 통화 품질 대시보드 사용
 
@@ -108,25 +110,25 @@ CQD는 체감 품질 (환경 품질) 데이터를 기준으로 신속 하 게 �
 |BuildingShortName |varchar (10) |아니요 |더 짧은 버전의 건물 이름입니다. |
 |소유자 배송 Typeid |int |아니요 |외래 키를 CqdBuildingOwners 테이블의 항목 중 하 나와 일치 합니다. |
 |BuildingTypeId |int |아니요 |외래 키를 CqdBuildingType 테이블의 항목 중 하 나와 일치 합니다. |
-|위도 |o |' |건물의 위도입니다. |
-|경도 |o |' |건물의 경도입니다. |
-|CityName |varchar (30) |' |건물을 배치할 도시 이름입니다. |
-|ZipCode |varchar (25) |' |건물이 있는 Zip 코드입니다. |
-|CountryShortCode |varchar (2) |' |ISO 3166-1는 건물이 위치한 국가의 경우 alpha-2 코드입니다. |
-|StateProvinceCode |varchar (3) |' |건물이 있는 시/도에 해당 하는 세 문자로 된 약어입니다. |
-|InsideCorp |다소 |' |Bit 건물이 회사 네트워크에 속해 있는지 여부를 나타냅니다. |
-|BuildingOfficeType |nvarchar (150) |' |오피스 빌드 유형에 대 한 설명입니다. |
-|영역인 |varchar (25) |' |건물이 있는 지역입니다. |
+|위도 |o |예 |건물의 위도입니다. |
+|경도 |o |예 |건물의 경도입니다. |
+|CityName |varchar (30) |예 |건물을 배치할 도시 이름입니다. |
+|ZipCode |varchar (25) |예 |건물이 있는 Zip 코드입니다. |
+|CountryShortCode |varchar (2) |예 |ISO 3166-1는 건물이 위치한 국가의 경우 alpha-2 코드입니다. |
+|StateProvinceCode |varchar (3) |예 |건물이 있는 시/도에 해당 하는 세 문자로 된 약어입니다. |
+|InsideCorp |다소 |예 |Bit 건물이 회사 네트워크에 속해 있는지 여부를 나타냅니다. |
+|BuildingOfficeType |nvarchar (150) |예 |오피스 빌드 유형에 대 한 설명입니다. |
+|지역 |varchar (25) |예 |건물이 있는 지역입니다. |
 |||||
 
 **CqdNetwork**
 
 |열|데이터 형식|Null 허용 여부|세부적인|
 |:-----|:-----|:-----|:-----|
-|사설망 |varchar (25) |아니요 |서브넷 주소. |
-|네트워크 범위 |tinyint |' |서브넷 마스크. |
-|NetworkNameID |int |' |선택적으로 CqdNetworkName 테이블의 행에 매핑됩니다. |
-|BuildingKey |int |' |외래 키-CqdBuilding 테이블의 항목 중 하나를 찾습니다. |
+|네트워크 |varchar (25) |아니요 |서브넷 주소. |
+|네트워크 범위 |tinyint |예 |서브넷 마스크. |
+|NetworkNameID |int |예 |선택적으로 CqdNetworkName 테이블의 행에 매핑됩니다. |
+|BuildingKey |int |예 |외래 키-CqdBuilding 테이블의 항목 중 하나를 찾습니다. |
 |UpdatedDate |dmtf |아니요 |항목을 마지막으로 업데이트 한 날짜/시간입니다. |
 ||||||
 
@@ -148,8 +150,8 @@ CQD는 체감 품질 (환경 품질) 데이터를 기준으로 신속 하 게 �
 |:-----|:-----|:-----|:-----|
 |소유자 배송 Typeid |int |아니요 |CqdBuildingOwnershipType 테이블에 대 한 기본 키입니다. |
 |소유자 배송 형식 Desc |varchar (25) |아니요 |소유권 유형 설명 |
-|LeaseInd |tinyint |' |CqdBuildingOwnershipType 테이블의 다른 행을 참조 하는 Index로, 임대 건물을 식별 하는 데 사용 됩니다. |
-|소유주 |varchar (50) |' |건물 소유자. |
+|LeaseInd |tinyint |예 |CqdBuildingOwnershipType 테이블의 다른 행을 참조 하는 Index로, 임대 건물을 식별 하는 데 사용 됩니다. |
+|소유주 |varchar (50) |예 |건물 소유자. |
 |||||
 
 기본적으로 다음 표에는 하나의 항목 (0, ' 알 수 없음 ', 0, null)이 있습니다.
@@ -159,10 +161,10 @@ CQD는 체감 품질 (환경 품질) 데이터를 기준으로 신속 하 게 �
 |열|데이터 형식|Null 허용 여부|세부적인|
 |:-----|:-----|:-----|:-----|
 |유형이 |nvarchar (50) |아니요 |CqdBssid 테이블에 대 한 기본 키입니다. WiFi 액세스 지점의 BSSID입니다. |
-|ess |nvarchar (50) |' |Wifi 액세스 지점간 컨트롤러 정보. |
-|phy |nvarchar (50) |' |Phy 정보. |
-|ap |nvarchar (50) |' |Wifi 액세스 점 이름입니다. |
-|빌드하지 |nvarchar (500) |' |WiFi 액세스 지점이 있는 건물 이름입니다. |
+|ess |nvarchar (50) |예 |Wifi 액세스 지점간 컨트롤러 정보. |
+|phy |nvarchar (50) |예 |Phy 정보. |
+|ap |nvarchar (50) |예 |Wifi 액세스 점 이름입니다. |
+|빌드하지 |nvarchar (500) |예 |WiFi 액세스 지점이 있는 건물 이름입니다. |
 ||||
 
 ## <a name="cqd-streams"></a>CQD 스트림

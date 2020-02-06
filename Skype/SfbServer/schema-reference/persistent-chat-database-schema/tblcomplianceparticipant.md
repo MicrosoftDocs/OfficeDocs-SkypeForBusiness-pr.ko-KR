@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 description: tblComplianceParticipant에는 채널당 현재 참가자와 서버 별로 포함 됩니다.
-ms.openlocfilehash: bf6913d8bcc11db1589169c4479cec4a0238825d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8f4b90cd7e8949451c2b6c1b9bc3cfabbab826e9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196639"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814646"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  

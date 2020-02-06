@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: 뷰는 CDR 데이터베이스에서 데이터를 반환 하는 데 사용 되는 가장 일반적인 시나리오에 대 한 정보에 쉽게 액세스할 수 있는 방법을 제공 합니다. 실제 CDR 데이터베이스 테이블을 사용 하는 대신 사용자 지정 보고서를 빌드하는 데 보기를 사용 하는 것이 좋습니다. 이는 데이터베이스 뷰가 이후 릴리스와 이전 버전과의 호환성을 유지 하는 것이 더 높기 때문입니다.
-ms.openlocfilehash: e1a7926108c2e27ecc69c5717867b9c18f8b47ad
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 78bf18fe51cea8937de44c72b39f7c1b81c75544
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196733"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815126"
 ---
 # <a name="list-of-cdr-views"></a>CDR 보기 목록
  

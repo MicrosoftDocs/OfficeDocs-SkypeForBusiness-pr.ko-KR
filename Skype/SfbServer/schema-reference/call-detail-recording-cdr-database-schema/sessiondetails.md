@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: 각 레코드는 하나의 피어 투 피어 세션을 나타내며,이는 VoIP 전화 통화, 2-파티 IM 세션 또는 기타 세션 유형이 될 수 있습니다. 미디어 테이블과 함께 테이블 조인을 수행 하 여이 세션과 관련 된 각 미디어의 세부 정보를 찾을 수 있습니다.
-ms.openlocfilehash: d6c0d68cf5b8efd83cc764e74a56621cdd591ac1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1a211598e7771c5637af191f19ad2926e3cc803e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196689"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814906"
 ---
 # <a name="sessiondetails-table"></a>SessionDetails 테이블
  
@@ -43,20 +45,20 @@ IsUser1IntegratedWithDeskPhone 및 IsUser2IntegratedWithDeskPhone 필드는 비�
 |**PoolId** <br/> |int  <br/> |외부  <br/> |세션이 캡처된 풀의 ID입니다. 자세한 내용은 [풀 테이블](pools.md) 을 참조 하세요. <br/> |
 |**ContentTypeID** <br/> |int  <br/> |외부  <br/> |세션에 사용 되는 콘텐츠 형식입니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Contenttypes 테이블](contenttypes.md) 을 참조 하세요. <br/> |
 |**User1ClientVerId** <br/> |int  <br/> |외부  <br/> |User1이 사용 하는 클라이언트 버전입니다. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Clientversions 테이블](clientversions.md) 을 참조 하세요. <br/> |
-|**User2ClientVerId** <br/> |int  <br/> |외부  <br/> |% 2에서 사용 하는 클라이언트 버전. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Clientversions 테이블](clientversions.md) 을 참조 하세요. <br/> |
+|**User2ClientVerId** <br/> |int  <br/> |외부  <br/> |%2에서 사용 하는 클라이언트 버전. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Clientversions 테이블](clientversions.md) 을 참조 하세요. <br/> |
 |**User1EdgeServerid** <br/> |int  <br/> |외부  <br/> |User1이 사용 하는 Edge 서버입니다. 자세한 내용은 [비즈니스용 Skype 서버 2015에서 EdgeServers 테이블](edgeservers.md) 을 참조 하세요. <br/> |
-|**User2EdgeServerid** <br/> |int  <br/> |외부  <br/> |% 2에서 사용 하는 Edge 서버입니다. 자세한 내용은 [비즈니스용 Skype 서버 2015에서 EdgeServers 테이블](edgeservers.md) 을 참조 하세요. <br/> |
+|**User2EdgeServerid** <br/> |int  <br/> |외부  <br/> |%2에서 사용 하는 Edge 서버입니다. 자세한 내용은 [비즈니스용 Skype 서버 2015에서 EdgeServers 테이블](edgeservers.md) 을 참조 하세요. <br/> |
 |**IsUser1Internal** <br/> |다소  <br/> ||User1이 내부에서 로그온 되었는지 여부  <br/> |
-|**IsUser2Internal** <br/> |다소  <br/> ||% 2이 (가) 내부에서 로그온 되었는지 여부  <br/> |
+|**IsUser2Internal** <br/> |다소  <br/> ||%2이 (가) 내부에서 로그온 되었는지 여부  <br/> |
 |**InviteTime** <br/> |dmtf  <br/> ||첫 번째 초대 요청 시간입니다. 일반적으로이 필드는 세션의 초기 초대 메시지에서 생성 된 데이터에 의해 채워집니다. 초대 메시지가 없는 경우 첫 번째 관련 SIP 메시지의 날짜 및 시간 (BYE, 취소, 메시지 또는 정보)으로 필드가 채워집니다. 일반적으로이 필드는 세션의 초기 초대 메시지에서 생성 된 데이터에 의해 채워집니다. 초대 메시지가 없는 경우 첫 번째 관련 SIP 메시지의 날짜 및 시간 (BYE, 취소, 메시지 또는 정보)으로 필드가 채워집니다.  <br/> |
 |**ResponseTime** <br/> |dmtf  <br/> ||첫 번째 초대 메시지에 대 한 응답 시간입니다. 일반적으로이 필드는 세션의 초기 초대 메시지에서 생성 된 데이터에 의해 채워집니다. 초대 메시지가 없는 경우 첫 번째 관련 SIP 메시지의 날짜 및 시간 (BYE, 취소, 메시지 또는 정보)으로 필드가 채워집니다.  <br/> |
 |**ResponseCode** <br/> |int  <br/> ||세션 초대에 대 한 SIP 응답 코드입니다. 일반적으로이 필드는 세션의 초기 초대 메시지에서 생성 된 데이터에 의해 채워집니다. 초대 메시지가 없는 경우 첫 번째 관련 SIP 메시지의 날짜 및 시간 (BYE, 취소, 메시지 또는 정보)으로 필드가 채워집니다.  <br/> |
 |**DiagnosticId** <br/> |int  <br/> ||SIP 헤더에서 진단 ID를 캡처 했습니다.  <br/> |
 |**CallPriority** <br/> |int  <br/> |외부  <br/> |통화 우선 순위. 자세한 내용은 [비즈니스용 Skype 서버 2015의 Callpriorities 순위 표](callpriorities.md) 를 참조 하세요. <br/> |
 |**User1MessageCount** <br/> |int  <br/> ||세션 중에 User1이 보낸 메시지 수입니다.  <br/> |
-|**User2MessageCount** <br/> |int  <br/> ||세션 중에% 2이 (가) 보낸 메시지 수입니다.  <br/> |
+|**User2MessageCount** <br/> |int  <br/> ||세션 중에 %2이 (가) 보낸 메시지 수입니다.  <br/> |
 |**SessionEndTime** <br/> |dmtf  <br/> ||세션이 종료 되는 시간입니다.  <br/> |
-|**MediaTypes** <br/> |int  <br/> ||이 세션의 미디어 유형을 나타내는 비트 집합입니다. 다음은 형식에 대 한 정의입니다.  <br/> 1-메신저  <br/> 2-FILE_TRANSFER  <br/> 4-REMOTE_ASSISTANCE  <br/> 8-APP_SHARING  <br/> 16-오디오  <br/> 32-영상  <br/> 64-APP_INVITE  <br/> |
+|**MediaTypes** <br/> |int  <br/> ||이 세션의 미디어 유형을 나타내는 비트 집합입니다. 다음은 형식에 대 한 정의입니다.  <br/> 1-메신저  <br/> 2-FILE_TRANSFER  <br/> 4-REMOTE_ASSISTANCE  <br/> 8 APP_SHARING  <br/> 16-오디오  <br/> 32-영상  <br/> 64-APP_INVITE  <br/> |
 |**User1Flag** <br/> |smallint  <br/> ||User1 특성을 나타내는 비트 집합입니다. 다음과 같은 특성 정의가 나열 됩니다.  <br/> 0x01-데스크톱 전화와 통합  <br/> |
 |**User2Flag** <br/> |smallint  <br/> ||지 속성 특성을 나타내는 비트 집합입니다. 다음과 같은 특성 정의가 나열 됩니다.  <br/> 0x01-데스크톱 전화와 통합  <br/> |
 |**CallFlag** <br/> |smallint  <br/> ||통화 특성을 나타내는 비트 집합입니다. 다음과 같은 특성 정의가 나열 됩니다.  <br/> 0x01-재시도 하는 세션  <br/> 0x02-응답 그룹을 대신 하 여 상담원이 수행한 A 통화  <br/> |

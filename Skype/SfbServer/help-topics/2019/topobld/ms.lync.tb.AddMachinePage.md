@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 ROBOTS: NOINDEX, NOFOLLOW
 description: 기존 서버 풀에 새 서버를 추가 하려면 풀이 다음 중 하나입니다.
-ms.openlocfilehash: c8d40e776a1f141210c51375ba995b6c3ca875d1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c3593835fa1204b5ed4e74729a7ec369069e04f8
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689257"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798505"
 ---
 # <a name="add-server"></a>서버 추가
  

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: 비즈니스용 Skype Server Enterprise Voice의 위치 기반 라우팅에 대 한 계획 (동시 연결 및 대리인의 조작 및 위치 기반 라우팅에 대해 지원 되는 시나리오 포함).
-ms.openlocfilehash: 8c6ce8467c48231ebcab706874e70341ba431fd8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fae78dcbc1aa1d92d6fe192618d9fda5001436a1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187647"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802908"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>비즈니스용 Skype의 위치 기반 라우팅 계획
 
@@ -160,7 +162,7 @@ PSTN 끝점을 사용 하는 경우 위치 기반 라우팅은 calle의 끝점 �
 
 다음 표에서는 누적 업데이트 4 시나리오의 일부를 안내 합니다.
 
-|**위치 기반 라우팅 사용자**|**다른 파티**|**함수**|**발생**|
+|**위치 기반 라우팅 사용자**|**다른 파티**|**작업**|**발생**|
 |:-----|:-----|:-----|:-----|
 |비즈니스용 Skype 모바일  <br/> |PSTN  <br/> |비즈니스용 Skype Mobile은 수신 PSTN 통화를 받습니다.  <br/> |통화는 VoIP가 아닌 작업 (CvW)을 통해 전화를 통해 전달 됩니다.  <br/> |
 |비즈니스용 Skype 모바일  <br/> |PSTN  <br/> |비즈니스용 Skype Mobile은 발신 PSTN 통화를 가능 하 게 합니다.  <br/> |통화는 VoIP가 아닌 CvW를 통해 라우트됩니다.  <br/> |

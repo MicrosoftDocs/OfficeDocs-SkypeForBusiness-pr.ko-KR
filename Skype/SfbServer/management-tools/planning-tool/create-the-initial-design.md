@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: 비즈니스용 Skype 서버 계획 도구 설치를 완료 한 후에는 계획 도구를 시작 하 고 제안 된 비즈니스용 Skype 서버 2015 인프라 디자인을 시작할 수 있습니다.
-ms.openlocfilehash: 47a3725c1307bd6efe57fa07a955004bd6e5ff29
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c19551d2273b992b5148646e28d726f5aea5900
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186750"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816497"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Lync Server 2013에 대한 초기 토폴로지 디자인 만들기
 
@@ -43,7 +45,7 @@ ms.locfileid: "36186750"
 4. 디자인에 적합 한 조건을 선택 하 여 각 섹션에 응답 한 후 **다음** 을 클릭 하 여 다음 마법사 페이지로 이동 합니다. 이전 페이지를 변경 하려면 **뒤로** 를 클릭 합니다.
 
     > [!TIP]
-    > 각 페이지에는 선택 조건에 대 한 설명과 선호 하는 방법 및 용량 계획에 따른 권장 사항이 있습니다. 추가 정보가 필요한 경우 자세히를 클릭 **** 하 여 Microsoft 웹 사이트의 비즈니스용 Skype 서버 2015 계획 문서에서 자세한 정보를 읽으십시오. Microsoft 웹 사이트에 액세스 하려면 인터넷에 연결 되어 있어야 합니다.
+    > 각 페이지에는 선택 조건에 대 한 설명과 선호 하는 방법 및 용량 계획에 따른 권장 사항이 있습니다. 추가 정보가 필요한 경우 자세히를 클릭 하 여 Microsoft 웹 사이트의 비즈니스용 Skype 서버 2015 계획 문서에서 자세한 **정보를 읽으십시오** . Microsoft 웹 사이트에 액세스 하려면 인터넷에 연결 되어 있어야 합니다.
 
 5. 디자인에 적합 한 옵션을 선택 합니다. 초기 조건을 정의한 후 페이지에서 기능 개요가 완전 한지 확인 합니다.
 

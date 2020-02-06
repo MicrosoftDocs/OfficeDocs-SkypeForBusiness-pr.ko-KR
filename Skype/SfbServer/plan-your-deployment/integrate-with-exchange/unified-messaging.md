@@ -8,16 +8,18 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: '요약: 비즈니스용 Skype 서버와 Exchange 2013 또는 2016을 통합 하기 위해 계획 하는 동안이 항목을 검토 하세요.'
-ms.openlocfilehash: bed73151b1010dd287c21ea55372e4eb18117665
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 1ae6ad10f1e817b9ace0240c79d09251a23dd61c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772621"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815866"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>비즈니스용 Skype에서 Exchange 통합 메시징 통합 계획
 
@@ -61,7 +63,7 @@ Microsoft Exchange Server 2013 및 2016에서는 Exchange UM을 Exchange 사서�
 
 ### <a name="exchange-server-components"></a>Exchange Server 구성 요소
 
-[통합 메시징 및 비즈니스용 Skype Server의 기능](#features-of-integrated-unified-messaging-and-skype-for-business-server) 에 설명 된 Exchange UM 기능을 조직의 음성 사용자에 게 제공 하려면 Microsoft exchange 사서함 서버 및 클라이언트 액세스를 배포 해야 합니다. 사용자 사서함을 호스트 하 고 전자 메일 및 음성 메일에 대 한 단일 저장소 위치를 제공 하는 서버입니다. Exchange UM은 Exchange 사서함 및 클라이언트 액세스 서버에서 서비스로 실행 됩니다.
+[통합 메시징 및 비즈니스용 Skype Server의 기능](#features-of-integrated-unified-messaging-and-skype-for-business-server) 에 설명 된 Exchange UM 기능을 조직의 음성 사용자에 게 제공 하려면 사용자 사서함을 호스트 하 고 전자 메일 및 음성 메일에 대 한 단일 저장소 위치를 제공 하는 Microsoft Exchange 사서함 서버 및 클라이언트 액세스 서버를 배포 해야 합니다. Exchange UM은 Exchange 사서함 및 클라이언트 액세스 서버에서 서비스로 실행 됩니다.
 
 Microsoft Exchange Server 2010의 Exchange UM 구성 요소에 대 한 자세한 내용은 온 [-프레미스 EXCHANGE Um 배포를 참조 하 여 Lync Server 2013 미리 보기 음성 메일을 제공](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx) 하세요.
 

@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: 각 레코드는 하나의 비디오 스트림을 나타냅니다. 하나의 비디오 미디어 라인에는 일반적으로 두 개의 비디오 스트림이 포함 됩니다.
-ms.openlocfilehash: 678f8b14fb3746ddd50a83ebd68c3878237908e4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7eca8335ccf6905d3f80dd6ad8a5ccf00b749b39
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196502"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41804238"
 ---
 # <a name="videostream-table"></a>VideoStream 테이블
  

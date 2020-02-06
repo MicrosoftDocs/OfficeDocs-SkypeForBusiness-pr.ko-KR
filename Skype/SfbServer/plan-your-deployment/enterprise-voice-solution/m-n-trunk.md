@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: 비즈니스용 Skype Server Enterprise Voice는 중재 서버와 PSTN 게이트웨이, 세션 경계 컨트롤러, IP-PBX 등의 구성 요소 간에 M:N 트렁크를 지원 합니다.
-ms.openlocfilehash: 24be86c3b174eff70632ddd85a71b5ee7016b990
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d9a4a4f08f71cf00e079a5fe9fc5598380936474
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187641"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802738"
 ---
 # <a name="mn-trunk-in-skype-for-business-server"></a>M:N 비즈니스용 Skype 서버에서의 트렁크
  
@@ -27,7 +29,7 @@ ms.locfileid: "36187641"
   
 비즈니스용 Skype 서버는 이전 버전의 통화 라우팅 목적에 대 한 트렁크를 정의 하는 데 더 많은 유연성을 지원 합니다. 트렁크는 중재 서버와 수신 대기 포트 번호 (게이트웨이 및 수신 대기 포트 번호) 사이의 논리적 연결입니다. 이는 중재 서버에 동일한 게이트웨이에 대 한 여러 trunks 있을 수 있는 몇 가지 작업을 의미 합니다. 중재 서버는 다양 한 게이트웨이에 대해 여러 trunks를 가질 수 있습니다. 반대로 게이트웨이는 서로 다른 중재 서버에 여러 trunks를 가질 수 있습니다.
   
-토폴로지 작성기를 사용 하 여 토폴로지에 대 한 게이트웨이를 제거할 때마다 계속 루트 트렁크를 만들어야 합니다. 지정 된 중재 서버가 처리할 수 있는 게이트웨이의 수는 사용량이 많은 시간 동안 서버의 처리 용량에 따라 달라 집니다. 비즈니스용 skype server [2015의 서버 요구](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)사항에 설명 된 것 처럼 비즈니스용 skype 서버에 대 한 최소 하드웨어 요구 사항을 초과 하는 하드웨어에 조정 서버를 배포 하는 경우 비 bypass 활성이 아닌 사용자가 호출 하는 예상 횟수 독립형 중재 서버는 약 1000 통화를 처리할 수 있습니다. 이러한 사양을 만족 하는 하드웨어에 배포 하는 경우 중재 서버는 코드 변환을 수행 하지만, 게이트웨이가 미디어 바이패스를 지원 하지 않더라도 여러 게이트웨이에 대 한 통화를 계속 라우팅합니다.
+토폴로지 작성기를 사용 하 여 토폴로지에 대 한 게이트웨이를 제거할 때마다 계속 루트 트렁크를 만들어야 합니다. 지정 된 중재 서버가 처리할 수 있는 게이트웨이의 수는 사용량이 많은 시간 동안 서버의 처리 용량에 따라 달라 집니다. 비즈니스용 skype server 2015에 대 한 [서버 요구](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)사항에 설명 된 것과 같이, 업무용 서버에 대 한 최소 하드웨어 요구 사항을 초과 하는 하드웨어에 조정 서버를 배포 하는 경우, 독립 실행형 중재 서버에서 사용 하지 않는 활성 비 바이패스 호출 수에 대 한 추정이 약 1000 통화입니다. 이러한 사양을 만족 하는 하드웨어에 배포 하는 경우 중재 서버는 코드 변환을 수행 하지만, 게이트웨이가 미디어 바이패스를 지원 하지 않더라도 여러 게이트웨이에 대 한 통화를 계속 라우팅합니다.
   
 통화 경로를 정의할 때 해당 경로와 연결 된 trunks를 지정 하지만 해당 경로와 연결 되는 중재 서버를 지정 하지 않습니다. 대신 토폴로지 작성기를 사용 하 여 trunks를 중재 서버와 연결 합니다. 즉, 라우팅은 통화에 사용할 트렁크를 결정 하 고 그 후에 해당 트렁크와 연결 된 조정 서버는 해당 통화에 대 한 신호를 보냅니다.
   

@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: f5d9f342-a7cb-4b54-baa6-e656256b75ad
 description: tblComplianceFanout에는 규정 준수 이벤트를 처리 한 모든 서버가 포함 됩니다.
-ms.openlocfilehash: 1d2dfc99619e0669a08db33dbacc75930053f0dc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cdf455563ccfc971963144b9d4e848d5678cac80
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196640"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814656"
 ---
 # <a name="tblcompliancefanout"></a>tblComplianceFanout
  

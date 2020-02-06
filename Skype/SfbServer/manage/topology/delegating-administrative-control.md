@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 1775fc4f02b7efa9ec26b962154f0aa90b59b296
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5c295ed1233cb8a0900828cb1d1c074de1d0f16f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188493"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817274"
 ---
 # <a name="delegate-administrative-control-of-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 관리 제어 위임 
 

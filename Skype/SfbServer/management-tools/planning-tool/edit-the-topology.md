@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 초기 인터뷰 질문을 완료 한 후에는 사이트의 FQDN (정규화 된 도메인 이름) 및 IP 주소를 편집할 수 있습니다. 이렇게 하려면 전역 토폴로지 페이지에서 편집 하려는 사이트를 두 번 클릭 합니다.
-ms.openlocfilehash: 91a7ad51c66d810255fcc3239d25298bd370501f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dae99620f34b832dd4abe0baf83d6df11b388750
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186720"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816447"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에서 토폴로지 편집
 

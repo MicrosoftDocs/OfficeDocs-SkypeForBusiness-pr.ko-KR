@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: '요약: 비즈니스용 Skype 서버에서 통합 음성 및 통신 솔루션을 계획 하기 위한 옵션에 대해 알아봅니다.'
-ms.openlocfilehash: ec2e4710f238529b448a0388a3347e40611ee7d4
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: ddf133c1efa5876437bce751cbb5020906153909
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "36197994"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802918"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 엔터프라이즈 음성 솔루션 계획
  

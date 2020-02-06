@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 비즈니스용 Skype Server 풀 서버에 대 한 시스템 복구를 수행 하 여 문서화 된 재난 복구 프로세스 테스트
-ms.openlocfilehash: d65f8bfa512a3954728e09d659b571335d32a379
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f3eba25d59c56f085b9bd6d347fcde910f11a00d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188499"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817304"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 재해 복구 테스트
 
@@ -46,7 +48,7 @@ ms.locfileid: "36188499"
 
 프로덕션 비즈니스용 Skype 풀은 다음의 자동 구성 및 DNS SRV 레코드를 사용 하는 클라이언트에서 참조 합니다.
 
-- SRV: _sip. \<도메인>/cname: SIP. \<도메인>
+- SRV: _sip _tls. \<도메인>/cname: SIP. \<도메인>
 - CNAME: SIP. \<domain>/cvc-pool-1. \<도메인>
 
 장애 조치(failover)를 원활하게 하려면 DROCSPool FQDN을 참조하도록 이 CNAME 레코드를 업데이트해야 합니다.

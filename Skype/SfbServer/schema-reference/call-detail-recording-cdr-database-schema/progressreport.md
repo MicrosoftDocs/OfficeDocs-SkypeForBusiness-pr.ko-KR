@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: 진행률 보고서는 호출 또는 세션이 완료 된 후 클라이언트에서 데이터베이스에 업로드 한 데이터를 기반으로 합니다. 진행률 보고서는 비즈니스용 Skype Server 2015에서 진단 목적으로 사용할 수 있는 통화 및 세션에 대해서만 기록 됩니다.
-ms.openlocfilehash: 9022c7707e0d2f0a4346ed629bf51420c312b10a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a6cd89d7ba7f8cc03b25dc9310bdb408c85b50cb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196701"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814976"
 ---
 # <a name="progressreport-table"></a>ProgressReport 테이블
  

@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: 이 테이블의 각 레코드에는 한 회의에 대 한 사용자의 참가 및 탈퇴 정보에 대 한 CDR 정보가 포함 됩니다. 각 회의는 사용자가 회의에 참가 하 고 떠날 때마다이 테이블에 하나의 레코드로 표시 됩니다.
-ms.openlocfilehash: 4eb9f6300613fb61a7173be547aa83adf61d1026
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac5e2b7316dd7d3477d76675d3a3960154b90f35
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196746"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815186"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 FocusJoinsAndLeaves 테이블
  

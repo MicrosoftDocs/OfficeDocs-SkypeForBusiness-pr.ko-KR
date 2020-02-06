@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 이 문서에서는 Edge 서버의 포트 범위를 구성 하는 방법과 A/V Edge 서버의 서비스 품질 정책을 구성 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: e918dfd371b007741b73312c20033ab911422529
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5762cb6861552696f160dfe69459c357f6b63452
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188544"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817437"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 Edge 서버의 포트 범위 및 서비스 품질 정책 구성
 
@@ -115,7 +117,7 @@ Active Directory 기반 정책을 만드는 경우 그룹 정책 관리가 설�
 
 5.  4 페이지에서 **이 QoS 정책이 적용 되는 프로토콜 선택** 드롭다운 목록에서 **TCP 및 UDP** 를 선택 합니다. TCP (전송 제어 프로토콜) 및 UDP (사용자 데이터 그램 프로토콜)는 비즈니스용 Skype Server 및 해당 클라이언트 응용 프로그램에서 가장 일반적으로 사용 되는 두 가지 네트워킹 프로토콜입니다.
 
-6.  **대상 포트 번호를 지정 하는**제목 아래에서 **대상 포트 또는 범위에서**선택 합니다. 해당 텍스트 상자에 오디오 전송용으로 예약 된 포트 범위를 입력 합니다. 예를 들어 오디오 트래픽용 포트 57500를 통해 포트 49152를 예약한 경우이 형식을 사용 하 여 포트 범위를 입력 합니다 ( **49152:57500**). **마침을**클릭 합니다.
+6.  **대상 포트 번호를 지정 하는**제목 아래에서 **대상 포트 또는 범위에서**선택 합니다. 해당 텍스트 상자에 오디오 전송용으로 예약 된 포트 범위를 입력 합니다. 예를 들어 오디오 트래픽용 포트 57500를 통해 포트 49152를 예약한 경우이 형식을 사용 하 여 포트 범위를 입력 합니다 ( **49152:57500**). **마침**을 클릭합니다.
 
 오디오 트래픽에 대 한 QoS 정책을 만든 후에는 비디오 트래픽에 대 한 두 번째 정책을 만들어야 합니다. 비디오에 대 한 정책을 만들려면 오디오 정책을 만들 때 팔 로우 하는 기본 절차를 따르고 다음과 같이 대체 합니다.
 

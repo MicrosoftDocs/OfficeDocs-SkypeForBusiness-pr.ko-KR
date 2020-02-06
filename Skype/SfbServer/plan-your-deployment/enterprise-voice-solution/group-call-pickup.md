@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: 비즈니스용 Skype Server Enterprise Voice에서 그룹 통화 픽업 계획을 통해 사용자가 원래 다른 사람에 게 제공 되는 통화에 응답할 수 있습니다.
-ms.openlocfilehash: c729e2d672d104337820c44fa41c113dded3110f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0be7adb5b3832851b9c38179416cfedb414508b0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187686"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802878"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>비즈니스용 Skype에서 그룹 통화 픽업 요금제
  
@@ -120,7 +122,7 @@ ms.locfileid: "36187686"
 |:-----|:-----|:-----|
 |그룹 당 권장 되는 사용자 수  <br/> |50  <br/> |50  <br/> |
 |추천 그룹 수  <br/> |500  <br/> |60  <br/> |
-|그룹 통화 픽업에 사용할 수 있는 풀 당 최대 사용자 수  <br/> |25000  <br/> |3000  <br/> |
+|그룹 통화 픽업에 사용할 수 있는 풀 당 최대 사용자 수  <br/> |25000  <br/> |3,000  <br/> |
 |분당 그룹 통화 픽업에 대해 사용 하도록 설정 된 총 사용자에 대 한 최대 수신 통화 속도입니다.  <br/> |500  <br/> |60  <br/> |
 |분 당 그룹 통화 픽업 트럭을 사용 하 여 사용자가 검색 한 통화의 최대 속도입니다.  <br/> |200  <br/> |km  <br/> |
    

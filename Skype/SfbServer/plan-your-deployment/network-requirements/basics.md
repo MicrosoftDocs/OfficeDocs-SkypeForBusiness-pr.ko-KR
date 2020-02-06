@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016에는 DNS 서비스를 제공할 수 있는 기본 제공 소프트웨어가 있으므로 DNS 정책 시나리오 가이드와 같은 사용 가능한 문서를 검토 하는 것이 좋습니다. 원하는 경우 타사 솔루션을 선택할 수 있습니다.
-ms.openlocfilehash: c1084a756a79ebcf15b8e99eef049690b5dcd9af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5438ee6ccedda6e840ca706cf285af49326a3bf4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196861"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815796"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
  
@@ -28,7 +30,7 @@ Windows Server 2016에는 DNS 서비스를 제공할 수 있는 기본 제공 �
 이름에 대 한 각 매핑은 IP 주소와 IPv4 또는 IPv6 주소가 될 수 있으며 DNS 서버의 DNS 레코드에 저장 됩니다. 이름은 DNS 보고서에서 FQDN (정규화 된 도메인 이름)으로 설명 됩니다. *Contoso.com* 는 유효한 도메인 이름 이지만 * \*contoso.com* 에 대 한 축약형 이므로 분명 하 고 도메인의 모든 서버를 참조할 수 있습니다. 도메인의 단일 서버를 참조 하는 FQDN의 예는 **meeting01.contoso.com**될 수 있습니다.
   
 > [!IMPORTANT]
-> 기본적으로 도메인에 연결 되지 않은 컴퓨터의 컴퓨터 이름은 호스트 이름이 며 FQDN (정규화 된 도메인 이름)이 아닙니다. 토폴로지 작성기는 호스트 이름이 아닌 Fqdn을 사용 합니다. 따라서 도메인에 가입 되어 있지 않은 Edge 서버로 배포할 컴퓨터의 이름에 DNS 접미사를 구성 해야 합니다. **표준 문자만 사용** (비즈니스용 Skype 서버를 실행 하는 서버에 Fqdn을 지정 하는 경우 (A-z, a-z, 0-9, 하이픈 포함). 유니코드 문자나 밑줄은 사용 하지 마세요. FQDN의 비표준 문자는 외부 DNS 및 공개 Ca (즉 FQDN을 인증서의 SN에 할당 해야 하는 경우)에서 지원 되지 않는 경우가 많습니다.
+> 기본적으로 도메인에 연결 되지 않은 컴퓨터의 컴퓨터 이름은 호스트 이름이 며 FQDN (정규화 된 도메인 이름)이 아닙니다. 토폴로지 작성기는 호스트 이름이 아닌 Fqdn을 사용 합니다. 따라서 도메인에 가입 되어 있지 않은 Edge 서버로 배포할 컴퓨터의 이름에 DNS 접미사를 구성 해야 합니다. 비즈니스용 Skype 서버를 실행 하는 서버에 Fqdn을 할당할 때는 표준 문자 (a-z, a-z, 0-9, 하이픈 포함) **만 사용** 합니다. 유니코드 문자나 밑줄은 사용 하지 마세요. FQDN의 비표준 문자는 외부 DNS 및 공개 Ca (즉 FQDN을 인증서의 SN에 할당 해야 하는 경우)에서 지원 되지 않는 경우가 많습니다.
   
 IP 주소 외에도 FQDN을 **VIP** (가상 IP 주소)에 매핑할 수 있습니다. VIP는 실제 실제 네트워크 인터페이스에 해당 하지 않는 IP 주소입니다. VIP는 종종 서버 역할을 수행 하는 서버 풀 또는 중복성 및 내결함성을 위해 구성 된 서버 쌍을 가리킵니다.
   

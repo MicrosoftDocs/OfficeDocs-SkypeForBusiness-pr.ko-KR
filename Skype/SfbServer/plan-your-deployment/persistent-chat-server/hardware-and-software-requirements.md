@@ -8,15 +8,17 @@ ms.date: 7/19/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: '요약: 비즈니스용 Skype Server 2015에서 영구 채팅 서버의 하드웨어 및 소프트웨어 요구 사항에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: e700b76c8af29a0c877c1dc594244a299b8a3904
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: cba3b340710e4c5ed041c085f39f1a4cc209a789
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197934"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815756"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>영구 채팅 서버에 대한 하드웨어 및 소프트웨어 요구 사항
  

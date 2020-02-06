@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: 이 문서에서는 비즈니스용 Skype 서버의 사용자 모델에서 설명한 사용에 따라 해당 사이트의 사용자 수에 대해 사이트에서 필요로 하는 서버 수에 대 한 지침을 제공 합니다.
-ms.openlocfilehash: f81989f463bb53f8eccc4d39b254560a7bc5bdf3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 401dcb06940f9ae0735107f533d609481e3b3182
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187911"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816047"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 용량 계획 사용자 모델 사용
 
@@ -36,7 +38,7 @@ ms.locfileid: "36187911"
 |%  <br/> |64 비트 듀얼 프로세서, 16 진수 코어, 2.26 ghz 이상.  <br/> 인텔 아이테니엄 프로세서는 비즈니스용 Skype 서버 역할에 지원 되지 않습니다.  <br/> |
 |Memory  <br/> |32 기가바이트 (GB).  <br/> |
 |공간  <br/> |최소 72 GB의 사용 가능한 디스크 공간을 갖춘 8 대 이상의 1만-RPM 하드 디스크 드라이브. 두 개의 디스크에서 RAID 1을 사용 하 고 6 개는 RAID 10을 사용 해야 합니다.  <br/> 또는 <br/>8 1만-RPM 기계 디스크 드라이브와 비슷한 성능을 제공 하는 Ssd (고체 스테이트 드라이브). <br/> |
-|사설망  <br/> |1 개의 듀얼 포트 네트워크 어댑터, 1Gbps 이상 (2 권장, 단일 MAC 주소 및 단일 IP 주소를 사용 하는 팀이 필요 함)  <br/> |
+|네트워크  <br/> |1 개의 듀얼 포트 네트워크 어댑터, 1Gbps 이상 (2 권장, 단일 MAC 주소 및 단일 IP 주소를 사용 하는 팀이 필요 함)  <br/> |
 
 ## <a name="summary-of-results"></a>결과 요약
 
@@ -57,7 +59,7 @@ ms.locfileid: "36187911"
 > [!NOTE]
 > 이 서버 역할에 대해 스트레치 풀이 지원 되지 않습니다.
 
-프런트 엔드 풀에서 풀의 모든 서버에 대 한 하이퍼 스레드를 사용 하도록 설정 하 고 서버 하드웨어가 Skype에 대 한 [서버 요구 사항에 대 한 권장 사항을 충족 한다고 가정 하 여 풀에 있는 모든 6660 사용자에 대해 프런트 엔드 서버 한 대를 보유 해야 합니다. ](../requirements-for-your-environment/server-requirements.md)비즈니스용 [Skype server 2019에 대 한](../../../SfBServer2019/plan/system-requirements.md)비즈니스 서버 2015 또는 시스템 요구 사항 하나 이상의 프런트 엔드 풀에 있는 최대 사용자 수는 8만 이며,이 경우에는 풀의 모든 서버에서 하이퍼 스레드를 사용할 수 있습니다. 사이트에 8만 명 이상의 사용자가 있는 경우 두 개 이상의 프런트 엔드 풀을 배포할 수 있습니다.
+프런트 엔드 풀에는 모든 6660 사용자에 대 한 프런트 엔드 서버가 풀의 모든 서버에서 사용 하도록 설정 되어 있고, 서버 하드웨어가 비즈니스용 Skype server 2015 또는 비즈니스용 [Skype server 2019의 시스템 요구](../../../SfBServer2019/plan/system-requirements.md)사항에 [대 한 서버 요구](../requirements-for-your-environment/server-requirements.md) 사항에 부합 하 고 있다고 가정 합니다. 하나 이상의 프런트 엔드 풀에 있는 최대 사용자 수는 8만 이며,이 경우에는 풀의 모든 서버에서 하이퍼 스레드를 사용할 수 있습니다. 사이트에 8만 명 이상의 사용자가 있는 경우 두 개 이상의 프런트 엔드 풀을 배포할 수 있습니다.
 
 프런트 엔드 풀의 사용자 수를 고려 하는 경우이 프론트 엔드 풀과 연결 된 지점에서 Survivable Branch 기기 및 Survivable Branch 서버에 속한 사용자를 포함 합니다.
 
@@ -177,16 +179,16 @@ Microsoft는 성능 테스트 중에 모니터링 및 보관을 위해 데이터
 |%  <br/> |64 비트 듀얼 프로세서, 16 진수 코어, 2.26 ghz 이상  <br/> |
 |Memory  <br/> |48 기가바이트 (GB)  <br/> |
 |공간  <br/> |25 1만-RPM 하드 디스크 드라이브, 각 디스크에는 300 GB, 다음 표의 구성  <br/> |
-|사설망  <br/> | 1 Gbps 이상의 듀얼 포트 네트워크 어댑터 (2 권장, 단일 MAC 주소 및 단일 IP 주소를 사용 하는 팀이 필요 함)  <br/> |
+|네트워크  <br/> | 1 Gbps 이상의 듀얼 포트 네트워크 어댑터 (2 권장, 단일 MAC 주소 및 단일 IP 주소를 사용 하는 팀이 필요 함)  <br/> |
 
 **권장 되는 디스크 구성**
 
 |**구동** <br/> |**RAID 구성** <br/> |**디스크 수** <br/> |
 |:-----|:-----|:-----|
 |CDR, 체감 품질, 데이터베이스 데이터 파일을 단일 드라이브에 보관  <br/> |1 + 0  <br/> |16  <br/> |
-|CDR 데이터베이스 로그 파일  <br/> |raid-1  <br/> |2  <br/> |
-|체감 품질 데이터베이스 로그 파일  <br/> |raid-1  <br/> |2  <br/> |
-|데이터베이스 로그 파일 보관  <br/> |raid-1  <br/> |2  <br/> |
+|CDR 데이터베이스 로그 파일  <br/> |1  <br/> |2  <br/> |
+|체감 품질 데이터베이스 로그 파일  <br/> |1  <br/> |2  <br/> |
+|데이터베이스 로그 파일 보관  <br/> |1  <br/> |2  <br/> |
 
 ## <a name="video-interop-server-capacity"></a>비디오 Interop 서버 용량
 

@@ -8,16 +8,18 @@ ms.date: 6/8/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: '요약: 비즈니스용 Skype 서버를 Exchange 2013와 통합할 계획을 진행 하는 동안이 항목을 검토 하세요.'
-ms.openlocfilehash: 4548773c382b4295ddfbfa141f18f0df8ba367ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fbc361dab4414ea2add286144be48b922a9d9247
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196879"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815876"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버의 통합 연락처 저장소 계획
  
@@ -38,7 +40,7 @@ ms.locfileid: "36196879"
 - 비즈니스용 Skype Server와 Exchange 2013 또는 2016 간에 서버 간 인증이 구성 되어 있어야 합니다.
     
     > [!NOTE]
-    > 비즈니스용 Skype 서버와 Exchange 2013 또는 2016 간의 인증 설정에 대 한 자세한 요구 사항은 작업의 비즈니스용 [Skype 서버에서 OAuth (서버 간 인증) 및 파트너 응용 프로그램 관리](../../manage/authentication/server-to-server-and-partner-applications.md) 를 참조 하세요. 참조.
+    > 비즈니스용 Skype 서버와 Exchange 2013 또는 2016 간의 인증 설정에 대 한 자세한 요구 사항은 운영 설명서의 비즈니스용 [Skype 서버에서 OAuth (서버 간 인증) 및 파트너 응용 프로그램 관리](../../manage/authentication/server-to-server-and-partner-applications.md) 를 참조 하세요.
   
 ## <a name="see-also"></a>참고 항목
 

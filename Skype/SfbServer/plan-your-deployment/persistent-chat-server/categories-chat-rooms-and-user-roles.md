@@ -8,15 +8,17 @@ ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: '요약: 비즈니스용 Skype Server 2015의 영구 채팅 서버에 대 한 범주, 채팅방, 사용자 및 관리자 역할에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: bffdebdf6bbb57165b902026083de5628cdbc404
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 03a7b68a9728b60ebae25081e3e974bb61b0fc5b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197936"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815766"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>영구 채팅 범주, 채팅방, 사용자 역할
  
@@ -66,7 +68,7 @@ ms.locfileid: "36197936"
 
 영구 채팅 서버용 관리자 역할은 다음과 같습니다.
   
-- **영구 채팅 관리자**: 영구 채팅 관리자 역할이 채팅방을 관리할 수 있습니다 (구성원, 관리자, 범주, 채팅방 표시를 포함 하 여 모든 속성 수정), 그리고 사용자를 정의 하는 채팅방 범주를 만들고 관리 하는 기능 채팅방을 만들고 액세스할 수 있습니다. 또한 관리자는 채팅방을 사용 안 함으로 표시 하 고 더 이상 활성화 되지 않은 채팅방을 정리할 수 있습니다. 관리자는 작성자 또는 허용 구성원 제한에 영향을 받지 않습니다. 관리자는 모든 종류의 채팅방을 만들고 자신을 채팅방의 구성원으로 추가할 수 있습니다. 관리자는 또한 영구 채팅 구성 (풀 속성, 전역 설정, 준수 구성)을 수정 하 고 관리할 수 있으며, 오래 된 그룹의 채팅 서버 배포에서 비즈니스용 Skype 서버 2015에 대 한 마이그레이션을 계획 하 고 구현할 수 있습니다. 영구 채팅 서버.
+- **영구 채팅 관리자**: 영구 채팅 관리자 역할이 채팅방을 관리할 수 있습니다 (구성원 자격, 관리자, 범주, 채팅방 표시 등 모든 속성 수정). 또한 채팅방을 만들고 액세스할 수 있는 사용자를 정의 하는 채팅방 범주를 만들고 관리 합니다. 또한 관리자는 채팅방을 사용 안 함으로 표시 하 고 더 이상 활성화 되지 않은 채팅방을 정리할 수 있습니다. 관리자는 작성자 또는 허용 구성원 제한에 영향을 받지 않습니다. 관리자는 모든 종류의 채팅방을 만들고 자신을 채팅방의 구성원으로 추가할 수 있습니다. 관리자는 또한 영구 채팅 구성 (풀 속성, 전역 설정, 준수 구성)을 수정 하 고 관리할 수 있으며, 오래 된 그룹의 채팅 서버 배포에서 비즈니스용 Skype 서버 2015에 대 한 마이그레이션을 계획 하 고 구현할 수 있습니다. 영구 채팅 서버.
     
     영구 채팅 관리자는 Windows PowerShell cmdlet을 원격으로 사용 하 여 영구 채팅 서버를 관리할 수 있습니다 (즉, 영구 채팅 서버가 아닌 컴퓨터에서). 영구 채팅 서버는 영구 채팅 관리자가 영구 채팅 서버 프런트 엔드 서버의 RTC 로컬 관리자 로컬 그룹의 구성원 인지 확인 합니다.
     

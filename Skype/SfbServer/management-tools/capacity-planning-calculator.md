@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: '요약: 용량 계산기 도구를 사용 하는 방법'
-ms.openlocfilehash: 24e268c6ecc3cc48fbfb4405f1e5e6b008639944
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f83cde759c6e7b755af3766c342cdea19892425f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186837"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816637"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>비즈니스용 Skype 서버 용량 계획 계산기
  
@@ -28,7 +30,7 @@ ms.locfileid: "36186837"
 > - 비즈니스용 Skype 서버 2019.
 > - 비즈니스용 Skype 서버 2015.
   
-비즈니스용 skype [서버 2015 용량 계산기](https://www.microsoft.com/en-us/download/details.aspx?id=51196) 및 [비즈니스용 Skype Server 2019 용량 계산기](https://www.microsoft.com/en-us/download/details.aspx?id=57509) 는 비즈니스용 skype [계획 도구](https://www.microsoft.com/en-us/download/details.aspx?id=50357) 및 배포 문서 (비즈니스용[skype 계획)를 보강 합니다. ](../plan-your-deployment/plan-your-deployment.md)각각의 [비즈니스용 Skype server 2019 배포에 대 한](../../SfBServer2019/plan/plan-your-deployment-2019.md) 서버 2015 배포 및 계획 가이드를 검토 하 고 계획 도구를 사용 하 여 권장 토폴로지를 만든 후 계산기를 사용 합니다.
+비즈니스용 skype [서버 2015 용량 계산기](https://www.microsoft.com/en-us/download/details.aspx?id=51196) 및 [비즈니스용 Skype Server 2019 용량 계산기](https://www.microsoft.com/en-us/download/details.aspx?id=57509) 는 비즈니스용 [skype 계획 도구](https://www.microsoft.com/en-us/download/details.aspx?id=50357) 와 배포 문서 (비즈니스용 skype server에 대 한 비즈니스 서버 [2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) 배포의 경우에는, 각각 비즈니스용 skype Server에 대 한 계획을 수립할[2015 계획](../plan-your-deployment/plan-your-deployment.md) )를 증대 시킵니다. 가이드를 검토 하 고 계획 도구를 사용 하 여 권장 토폴로지를 만든 후 계산기를 사용 합니다.
   
 비즈니스용 Skype Server Capacity 계산기는 조직에서 사용 하는 사용자 수와 통신 도구에 따라 서버 요구 사항을 결정 하는 데 도움이 됩니다. 사용자 프로필 및 사용자에 게 사용할 기능을 결정 한 후에는 계산기를 사용 하 여 필요한 서버 수, 메모리 및 대역폭을 결정 합니다. 이 버전의 계산기는 디스크 I/o 요구 사항에 대 한 지침을 제공 하지 않습니다.
   
@@ -48,7 +50,7 @@ ms.locfileid: "36186837"
     
 - **연락처 목록의 평균 대화 상대 수** 는 시스템 요구 사항을 확인 하는 데 사용 하는 연락처 수를 나타냅니다. 이 번호는 수정 되 고 변경 해야 하는 것은 아닙니다.
     
-  **엔터프라이즈 음성**
+  **Enterprise Voice**
   
 - **Enterprise voice를 사용할 수 있는 사용자**의 경우 엔터프라이즈 음성에 대해 사용 하도록 설정 된 사용자의 백분율을 입력 합니다. 기본값은 60%입니다. 
     
@@ -78,7 +80,7 @@ ms.locfileid: "36186837"
     
   - 음성 회의 중 20%에 PowerPoint 프레젠테이션 등의 데이터 업로드가 포함 되는 경우 **웹 회의 포함** 확인란을 선택 합니다.
     
-  **간의**
+  **이동성**
   
 - **이동성을 사용 하도록 설정 된 사용자 백분율**모바일 장치를 사용 하 여 비즈니스용 Skype 서버에 연결 하는 데 사용할 수 있는 사용자의 백분율을 입력 합니다. 기본값은 40%입니다. 
     
@@ -92,7 +94,7 @@ ms.locfileid: "36186837"
     
 녹색 셀에는 입력 한 사용 모델에 대 한 권장 사항이 표시 됩니다. 
   
-- **총 프런트 엔드 서버**: 필요한 물리적 서버 수는 듀얼 프로세서, 16 진수 코어, 2260 메가 사이클 또는 인텔 제온 E5-2673 v3, 듀얼코어 기반 2019 비즈니스용 skype 서버 2015을 통해 비즈니스용 skype를 실행 하는 전용 서버를 기준으로 합니다. 프로세서, 16 진수-코어.
+- **총 프런트 엔드 서버**: 필요한 실제 서버 수는 듀얼 프로세서, 16 진수 코어, 2260 메가 사이클 또는 인텔 제온 E5-2673 v3, 듀얼 프로세서, 16 진수-코어를 사용 하는 비즈니스용 2019 skype 서버 2015을 사용 하는 전용 서버를 기준으로 합니다.
     
     하이퍼스레딩을 사용 하는 것이 좋지만 오디오/비디오를 지 원하는 서버의 성능이 개선 되었는지 확인 합니다.
     

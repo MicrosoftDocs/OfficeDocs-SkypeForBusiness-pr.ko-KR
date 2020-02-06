@@ -8,18 +8,17 @@ ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.AV
-- ms.lync.plan.AV
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: 비즈니스용 Skype 서버 2015 오디오/비디오 (A/V) 회의를 통해 사용자가 실시간 음성 또는 비디오 회의에 참가할 수 있습니다.
-ms.openlocfilehash: 3cb392a28c1cbe64a657d40fb0f83262e7712b12
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ef2251ed1b174b2eeec898e6ca0ca5a466c3d4b0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684261"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816527"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>오디오 영상 회의 (계획 도구)
  

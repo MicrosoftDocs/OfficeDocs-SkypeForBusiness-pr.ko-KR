@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 이 문서에서는 ADAL (Active Directory Authentication Library) 및 OAuth 2.0을 기반으로 하는 최신 인증에 대해 설명 합니다.
-ms.openlocfilehash: c984e2468e1735a46c5246806afc57dd67327990
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 239dd6a49ecbec043a661e622a66eb5cb4665e96
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196872"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815836"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>비즈니스용 Skype에서 최신 인증 (ADAL)을 사용 하는 방법
  
@@ -37,7 +39,7 @@ ADAL은 ' Active Directory Authentication Library '의 머리글자어 이며, O
     
 ADAL (비즈니스용 Skype Server 인증) 대화에서 비즈니스용 Skype 서버는 ADFS를 통해 통신 합니다 (Windows Server 2012 R2의 ADFS 3.0). 인증은 일부 다른 Id 공급자 (IdP)를 사용 하 여 발생할 수 있지만, ADFS와 통신 하려면 비즈니스용 Skype 서버를 구성 해야 합니다. 비즈니스용 Skype 서버에서 작동 하도록 ADFS를 구성 하지 않은 경우에는 [adfs 설치](https://technet.microsoft.com/en-us/library/adfs2-step-by-step-guides%28v=ws.10%29.aspx)를 완료 하세요.
   
-ADAL은 비즈니스용 Skype Server 2015에 대 한 3 월 2016 누적 업데이트에 포함 되어 있으며, 비즈니스용 Skype에 대 한 3 월 **** 2016 누적 업데이트를 설치 하 고 성공적인 구성을 위해 필요 합니다. 비즈니스용 Skype 서버 2019의 경우 제품의 최초 릴리스에서 사용할 수 있습니다.
+ADAL은 비즈니스용 Skype Server 2015에 대 한 3 월 2016 누적 업데이트에 포함 되어 있으며, 비즈니스용 Skype에 대 한 3 월 2016 누적 업데이트를 설치 하 고 성공적인 구성을 위해 **필요 합니다.** 비즈니스용 Skype 서버 2019의 경우 제품의 최초 릴리스에서 사용할 수 있습니다.
   
 > [!NOTE]
 > 초기 릴리스에서는 온-프레미스 환경의 최신 인증은 관련 된 혼합 Skype 토폴로지가 없는 경우에만 지원 됩니다. 예를 들어, 환경이 비즈니스용 Skype 서버용 일 경우에만 사용할 수 있습니다. 이 문장은 변경 될 수 있습니다. 

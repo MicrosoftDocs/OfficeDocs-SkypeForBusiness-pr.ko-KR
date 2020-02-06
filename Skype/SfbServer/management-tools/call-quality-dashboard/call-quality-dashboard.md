@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버용 통화 품질 대시보드
+title: 비즈니스용 Skype 서버에서 통화 품질 대시보드 사용
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: '요약: 비즈니스용 Skype 서버용 보고 도구인 통화 품질 대시보드에 대해 알아봅니다.'
-ms.openlocfilehash: 86c8ef07a583526e3b5a40d69a795bbab8ec7879
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 142e172fd4c9a9444df4ac0713c03d18e5f07a39
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328387"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816897"
 ---
-# <a name="call-quality-dashboard-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 통화 품질 대시보드
+# <a name="call-quality-dashboard-for-skype-for-business-server"></a>비즈니스용 Skype 서버에서 통화 품질 대시보드 사용
  
 **요약:** 비즈니스용 Skype 서버용 보고 도구인 통화 품질 대시보드에 대해 알아봅니다.
  

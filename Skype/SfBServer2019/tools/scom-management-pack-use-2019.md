@@ -8,15 +8,17 @@ ms.date: 10/26/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '요약: System Center Operations Manager와 함께 사용 하도록 비즈니스용 Skype 서버 2019 인프라를 구성 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: e08debc645665d8be69ce062930d64421b093433
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3308662bb2a819718368c68bdaff16dd9e73d13a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37318960"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799668"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM 관리 팩을 사용 하 여 비즈니스용 Skype 서버 2019 관리
  
@@ -42,10 +44,10 @@ ms.locfileid: "37318960"
   
 |**구성**|**지원?**|
 |:-----|:-----|
-|Windows Server 2008 R2 운영 체제  <br/> Windows Server 2012 R2 운영 체제  <br/> |'. 비즈니스용 Skype 서버 2019 서버 및 가상 트랜잭션 감시자 노드 모두  <br/> |
+|Windows Server 2008 R2 운영 체제  <br/> Windows Server 2012 R2 운영 체제  <br/> |예. 비즈니스용 Skype 서버 2019 서버 및 가상 트랜잭션 감시자 노드 모두  <br/> |
 |클러스터 된 서버  <br/> |지원 되지 않습니다.  <br/> |
 |에이전트 없는 모니터링  <br/> |지원 되지 않습니다.  <br/> |
-|가상 환경  <br/> |'.  <br/> |
+|가상 환경  <br/> |예.  <br/> |
 |도메인에 가입 된 서버 역할  <br/> |모든 내부 비즈니스용 Skype 서버 2019 서버 역할은 도메인에 가입 되어 있어야 합니다.  <br/> |
 |독립 실행형 서버 역할  <br/> |비즈니스용 Skype 서버 2019 Edge 서버는 도메인에 가입 하지 않아도 됩니다.  <br/> |
 |토폴로지 제한 사항  <br/> |배포의 모든 서버 역할은 동일한 Operations Manager 관리 그룹에서 모니터링 해야 합니다.  <br/> |
@@ -58,7 +60,7 @@ ms.locfileid: "37318960"
 |%  <br/> |다음 중 하나입니다.  <br/> 64 비트 프로세서, 쿼드 코어, 2.33 GHz 이상  <br/> 64 비트 양방향 프로세서, 듀얼 코어, 2.33 GHz 이상  <br/> |
 |Memory  <br/> |8gb  <br/> |
 |운영 체제  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
-|사설망  <br/> |1 Gbps의 네트워크 어댑터 1 개  <br/> |
+|네트워크  <br/> |1 Gbps의 네트워크 어댑터 1 개  <br/> |
    
 ## <a name="prerequisites"></a>필요 조건
 
@@ -124,10 +126,10 @@ ms.locfileid: "37318960"
 
 ||||
 |:-----|:-----|:-----|
-|raid-1  <br/> |등록 (사용자 로그인)  <br/> |사용할 수 있는 Lync Server 2010 이상  <br/> |
+|1  <br/> |등록 (사용자 로그인)  <br/> |사용할 수 있는 Lync Server 2010 이상  <br/> |
 |2  <br/> |주소록 서비스 (파일 다운로드)  <br/> |사용할 수 있는 Lync Server 2010 이상  <br/> |
-|3-4  <br/> |주소록 웹 쿼리  <br/> |사용할 수 있는 Lync Server 2010 이상  <br/> |
-|4(tcp/ipv4)  <br/> |늘어  <br/> |사용할 수 있는 Lync Server 2010 이상  <br/> |
+|3  <br/> |주소록 웹 쿼리  <br/> |사용할 수 있는 Lync Server 2010 이상  <br/> |
+|4(tcp/ipv4)  <br/> |현재 상태  <br/> |사용할 수 있는 Lync Server 2010 이상  <br/> |
 |5mb  <br/> |통합 된 대화 상대 저장소  <br/> |사용할 수 있는 Lync Server 2013 이상  <br/> |
    
 **피어 투 피어 서비스에 지원 되는 가상 트랜잭션**
@@ -145,7 +147,7 @@ ms.locfileid: "37318960"
 
 ||||
 |:-----|:-----|:-----|
-|되었는지  <br/> |오디오 영상 회의  <br/> |Lync Server 2010 이상에서 사용할 수 있는 기능  <br/> |
+|되었는지  <br/> |음성 영상 회의  <br/> |Lync Server 2010 이상에서 사용할 수 있는 기능  <br/> |
 |1천만  <br/> |데이터 회의  <br/> |Lync Server 2013 이상에서 사용할 수 있는 기능  <br/> |
 |mb  <br/> |인스턴트 메시지 회의  <br/> |Lync Server 2010 이상에서 사용할 수 있는 기능  <br/> |
 |까지  <br/> | 영구 채팅 <br/> |Lync Server 2013 이상에서 사용할 수 있는 기능  <br/> |

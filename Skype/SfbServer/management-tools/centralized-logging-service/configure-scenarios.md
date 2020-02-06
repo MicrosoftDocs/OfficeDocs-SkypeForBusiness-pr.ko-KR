@@ -8,16 +8,18 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: '요약: 비즈니스용 Skype 서버 2015에서 중앙 집중화 된 로깅 서비스에 대 한 시나리오를 만들고, 수정 하 고, 제거 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: 9a6ce9a760255275c3ad265cdd6c58fa964f8e43
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: b7cfcbc85df7d66374d2bf33d572b9e91b30edde
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991603"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816597"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>비즈니스용 Skype 2015에서 중앙 로깅 서비스에 대한 시나리오 구성
  

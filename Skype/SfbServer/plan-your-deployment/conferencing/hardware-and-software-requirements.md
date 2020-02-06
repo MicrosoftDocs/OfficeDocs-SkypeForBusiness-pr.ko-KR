@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: '요약: 비즈니스용 Skype 서버에서 회의를 위한 하드웨어 및 소프트웨어 요구 사항에 대 한 자세한 내용을 보려면이 항목을 읽으십시오.'
-ms.openlocfilehash: c4efb85c7ae1674cab7ee123833df779a835e14c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d09e0e85e7059e0a761b2822f963765751623e0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187827"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815986"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서의 회의 하드웨어 및 소프트웨어 요구 사항
 
@@ -107,7 +109,7 @@ CAC (호출 허용 제어)를 사용 하 여 A/V 회의에 사용 되는 네트�
 
 비즈니스용 Skype 서버는 전화 접속 회의를 위한 음성 프롬프트 및 음악 사용자 지정을 지원 하지 않습니다. 그러나 기본 오디오 파일을 변경 해야 하는 강력한 비즈니스 요구 사항이 있는 경우에는 Microsoft 기술 자료 문서 961177에서 [전화 접속 오디오 회의를 위한 음성 프롬프트 또는 음악 파일을 사용자 지정 하는 방법을](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177)참조 하세요.
 
-또한 관리자가 사용자 지정 프롬프트를 사용 하 여 전화 발신자가 비즈니스용 Skype 모임에 참가할 때 사용 하는 기본 음성 프롬프트를 바꿀 수 있는 [Microsoft Lync Server 회의 수행자 사용자 지정 음성 메시지](https://go.microsoft.com/fwlink/p/?LinkId=396880) 관리 유틸리티를 사용할 수도 있습니다. 다른 모임 입장 환경을 제공 합니다. 사용자 지정 음성 메시지는 Enterprise 또는 Standard Edition 서버에 설치할 수 있습니다.
+또한 [Microsoft Lync Server 회의 수행자 사용자 지정 음성 메시지](https://go.microsoft.com/fwlink/p/?LinkId=396880) 관리 유틸리티를 사용 하 여 전화 발신자가 사용자 지정 프롬프트를 통해 비즈니스용 Skype 모임에 참가 하는 경우 다른 모임 입력 환경을 제공 하는 데 사용 되는 기본 음성 메시지를 바꿀 수 있습니다. 사용자 지정 음성 메시지는 Enterprise 또는 Standard Edition 서버에 설치할 수 있습니다.
 
 회의 수행자 응용 프로그램 및 회의 알림 신청에는 대기 중인 음악, 기록 된 이름 및 오디오 프롬프트 파일에 대 한 다음과 같은 요구 사항이 있습니다.
 
@@ -142,7 +144,7 @@ CAC (호출 허용 제어)를 사용 하 여 A/V 회의에 사용 되는 네트�
 |프런트 엔드 서버  <br/> |비즈니스용 Skype 서버 응용 프로그램 공유 서비스  <br/> |5065  <br/> |NET.TCP  <br/> |응용 프로그램 공유에 대 한 수신 SIP 수신 요청에 사용 됩니다.  <br/> |
 |프런트 엔드 서버  <br/> |비즈니스용 Skype 서버 응용 프로그램 공유 서비스  <br/> |49152-65535  <br/> |NET.TCP  <br/> |응용 프로그램 공유에 사용 되는 미디어 포트 범위입니다.  <br/> |
 |프런트 엔드 서버  <br/> |비즈니스용 Skype 서버 회의 알림 서비스  <br/> |5073  <br/> |NET.TCP  <br/> |비즈니스용 Skype 서버 회의 알림 서비스에 대 한 들어오는 SIP 요청에 사용 됩니다 (즉, 전화 접속 회의의 경우).  <br/> |
-|모든 내부 서버  <br/> |다양 한  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |모든 내부 서버에서 오디오 회의에 사용 되는 미디어 포트 범위 오디오를 종료 하는 모든 서버 (비즈니스용 Skype 서버 회의 수행자 서비스, 비즈니스용 skype 서버 회의 알림 서비스, 비즈니스용 Skype Server 오디오/비디오 회의 서비스)에 사용 됩니다. 중재 서버.  <br/> |
+|모든 내부 서버  <br/> |다양 한  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |모든 내부 서버에서 오디오 회의에 사용 되는 미디어 포트 범위 오디오를 종료 하는 모든 서버 (비즈니스용 Skype 서버 회의 수행자 서비스, 비즈니스용 skype 서버 회의 알림 서비스, 비즈니스용 Skype Server 오디오/비디오 회의 서비스) 및 중재 서버에 사용 됩니다.  <br/> |
 |Office Web Apps 서버  <br/> ||443  <br/> ||비즈니스용 Skype 서버에서 Office Web Apps 서버에 연결 하는 데 사용 됩니다.  <br/> |
 
 **필수 클라이언트 포트**

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: 비즈니스용 Skype Server Enterprise Voice에서 향상 된 응급 서비스 (E9-1) 배포의 위치 정책을 계획 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 8f21a5a0f54fbeaca4c46ed51bf4dafe4c2a3dcb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5064197dd8d23113d7bfeca30fd3596d5ee89c5c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187650"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802808"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 계획 위치 정책
  
@@ -46,7 +48,7 @@ ms.locfileid: "36187650"
     
 - 값을 **예/y e s** 로 설정 하면 사용자에 게 위치를 묻는 메시지가 표시 되지만 메시지가 해제 될 수 있습니다.
     
-- 값을 고로 **** 설정 하면 사용자에 게 위치를 입력 하 라는 메시지가 표시 되 고, 프롬프트를 해제 하려고 할 경우에도 고 지 사항이 표시 됩니다. 모든 경우에 사용자는 계속 해 서 클라이언트를 사용할 수 있습니다.
+- 값을 고로 설정 하면 사용자에 게 위치를 입력 하 라는 메시지가 표시 되 **고, 프롬프트** 를 해제 하려고 할 경우에도 고 지 사항이 표시 됩니다. 모든 경우에 사용자는 계속 해 서 클라이언트를 사용할 수 있습니다.
     
 > [!NOTE]
 > E9-1-1에 대해 사용 하도록 설정 하기 전에 사용자가 수동으로 위치를 입력 한 경우에는 고 지 사항 텍스트가 표시 되지 않습니다. 부인 내용에 대 한 업데이트는 이미 고 지를 본 사용자가 볼 수 없습니다. 

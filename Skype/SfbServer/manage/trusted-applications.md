@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 신뢰할 수 있는 응용 프로그램은 비즈니스용 Skype 서버에서 신뢰 하는 Microsoft 통합 커뮤니케이션 관리 API (인스턴스 MA) 3.0 Core SDK를 기반으로 하는 응용 프로그램입니다.
-ms.openlocfilehash: 272785cd1dcfe0bf21f7ac2b5ab64f36646237eb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b2a257ad197d573beccb187ef49e41b3864c1a58
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187074"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817079"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 신뢰할 수 있는 응용 프로그램 관리
 
@@ -40,7 +42,7 @@ ms.locfileid: "36187074"
 
 7.  **다음 홉 선택** 페이지의 목록에서 비즈니스용 Skype 서버 프런트 엔드 풀을 선택 합니다.
 
-8.  **마침을**클릭 합니다.
+8.  **마침**을 클릭합니다.
 
 9.  최상위 노드 **비즈니스용 Skype 서버**를 선택 하 고 **작업** 메뉴에서 **토폴로지 게시**를 클릭 합니다.
     

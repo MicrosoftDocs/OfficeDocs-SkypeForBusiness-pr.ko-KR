@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
 description: 비즈니스용 Skype 서버 2015 스트레스 및 성능 도구에 대 한 정책 구성입니다.
-ms.openlocfilehash: 5c8e4c296d06c736519a12da5b5e34c6f48e9ee2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfdf0d9875a37f7f4a1f98aa24cd6fd5c3176a00
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197031"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816197"
 ---
 # <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>비즈니스용 Skype Server 2015 스트레스 및 성능 도구에 맞게 정책 구성
  

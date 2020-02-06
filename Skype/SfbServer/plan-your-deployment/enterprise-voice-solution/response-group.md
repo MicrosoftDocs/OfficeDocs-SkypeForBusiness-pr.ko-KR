@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: 비즈니스용 Skype Server Enterprise Voice의 응답 그룹에 대 한 계획을 통해 사용자 그룹에 대 한 통화 라우팅을 설정할 수 있습니다. 오디오 파일 요구 사항이 포함 되어 있습니다.
-ms.openlocfilehash: b1c8a2ab1a7dc42fd290df4bdc1ccf69b52db43a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec0bbe0e02fd7b4f027f8c2e57784c402aa0f039
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187569"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802488"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 응답 그룹 응용 프로그램 계획
 
@@ -191,7 +193,7 @@ Microsoft Expression Encoder 4를 사용 하 여 파일을 Windows Media 오디�
 
 - **비공식적인 에이전트** (통화를 수락 하기 위해 그룹에 로그인 하거나 로그 아웃 하지 않은 상담원)는 전화 교환, Lync 또는 Lync Phone 에디션을 사용 하 여 통화를 수락할 수 있습니다. 비공식적인 에이전트는 이러한 클라이언트 중 하나를 사용 하 여 비즈니스용 Skype 서버에 로그인 할 때 자동으로 해당 그룹에 로그인 됩니다.
 
-- **공식 에이전트** (통화를 수락 하기 위해 그룹에 로그인 하거나 로그 아웃 해야 하는 상담원은 비즈니스용 Skype를 사용 하 여 통화를 수락 하 고 메뉴 항목에서 에이전트 콘솔에 액세스 하거나, 전화 교환를 사용 하 고 Internet Explorer에서 직접 에이전트 콘솔에 액세스할 수 있습니다.)
+- **공식 에이전트** (통화를 수락 하기 위해 그룹에 로그인 및 체크 아웃 해야 하는 상담원)는 비즈니스용 Skype를 사용 하 고 메뉴 항목에서 에이전트 콘솔에 액세스 하거나, 전화 교환를 사용 하 고 Internet Explorer에서 직접 에이전트 콘솔에 액세스 하 여 통화를 수락할 수 있습니다.
 
 ## <a name="capacity-planning"></a>용량 계획
 

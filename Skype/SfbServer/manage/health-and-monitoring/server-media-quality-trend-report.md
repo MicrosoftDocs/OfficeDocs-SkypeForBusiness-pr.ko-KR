@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 description: '요약: 비즈니스용 Skype 서버의 서버 미디어 품질 추세 보고서에 대해 알아보세요.'
-ms.openlocfilehash: 0ed819c40088c03ca1882ed035b416bf1427e840
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eca6aa75d7b831356da15a86692658019b3c0d54
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188697"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817717"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 서버 미디어 품질 추세 보고서
  
@@ -27,9 +29,9 @@ ms.locfileid: "36188697"
 
 서버 미디어 품질 추세 보고서는 다음 보고서 중 하나에서 액세스할 수 있습니다.
   
-- [비즈니스용 Skype 서버의 서버 성능 보고서](server-performance.md) (추세 메트릭 클릭)
+- 비즈니스용 [Skype 서버의 서버 성능 보고서](server-performance.md) (추세 메트릭 클릭)
     
-- [비즈니스용 Skype 서버의 통화 세부 정보 보고서](call-detail-report.md) (A/V edge 서버 메트릭 클릭). 호출자 또는 호출 수신자가 서버인 경우 끝점 이름을 클릭 하 여 서버 품질 미디어 추세 보고서에 도달할 수도 있습니다.
+- [비즈니스용 Skype 서버의 통화 세부 정보 보고서](call-detail-report.md) (A/V edge 서버 메트릭 클릭) 호출자 또는 호출 수신자가 서버인 경우 끝점 이름을 클릭 하 여 서버 품질 미디어 추세 보고서에 도달할 수도 있습니다.
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>서버 미디어 품질 추세 보고서를 최대한 활용 하기
 
@@ -49,7 +51,7 @@ ms.locfileid: "36188697"
 |**받는 사람** <br/> |시간 범위의 종료 날짜/시간입니다. 시간별로 데이터를 보려면 다음과 같이 종료 날짜와 시간을 모두 입력 합니다.  <br/> 오후 7/7/2015 1:00  <br/> 종료 시간을 입력 하지 않으면 지정한 날짜에 12:00 오전에 보고서가 자동으로 종료 됩니다. 날짜별로 데이터를 보려면 날짜만 입력 합니다.  <br/> 7/7/2015  <br/> 주별 또는 월별로 보려면 보려는 주 또는 월의 어디에 나 날짜를 입력 합니다 (주 또는 월의 첫 번째 요일을 입력할 필요는 없음).  <br/> 7/3/2015  <br/> 주는 항상 일요일 ~ 토요일을 실행 합니다.  <br/> |
 |**간격만** <br/> | 시간 간격. 다음 중 하나를 선택 합니다. <br/>  매시간 (최대 25 시간 표시할 수 있음) <br/>  매일 (최대 31 일이 표시 될 수 있음) <br/>  주간 (최대 12 주를 표시할 수 있음) <br/>  시작 및 끝 날짜가 선택한 기간에 허용 되는 최대 값을 초과 하는 경우에는 시작 날짜부터 시작 하 여 최대 값만 표시할 수 있습니다. 예를 들어 시작 날짜가 8/7/2015이 고 종료 날짜가 9/28/2015 인 일일 간격을 선택 하는 경우에는 8/7/2015 12:00 AM ~ 9/7/2015 12:00 AM (즉, 총 31 일 "의 데이터)에 대 한 데이터가 표시 됩니다. <br/> |
 |**서버 유형** <br/> | 통화와 관련 된 서버의 유형입니다. 사용 가능한 값은 다음과 같습니다. <br/>  중재 서버 <br/>  A/V 회의 서버 <br/>  A/V에 지 서버 <br/>  게이트웨이 (중재 서버) <br/>  게이트웨이 (중재 서버 무시) <br/>  회의 서버로 <br/> |
-|**서버용** <br/> |세션과 관련 된 서버의 이름입니다. 이 드롭다운 목록은 서버 유형 필터 값에 따라 자동으로 채워집니다. 보고서를 컴파일할 때 최대 5 개의 다른 서버를 선택할 수 있습니다.  <br/> |
+|**서버** <br/> |세션과 관련 된 서버의 이름입니다. 이 드롭다운 목록은 서버 유형 필터 값에 따라 자동으로 채워집니다. 보고서를 컴파일할 때 최대 5 개의 다른 서버를 선택할 수 있습니다.  <br/> |
 |**Access 형식** <br/> | 참가자가 내부 네트워크에 로그인 되었는지 외부 네트워크에 로그온 했는지 여부를 나타냅니다. 사용 가능한 값은 다음과 같습니다. <br/>  모든 <br/>  내부용 <br/>  내부 <br/> |
 |**네트워크 유형** <br/> | 참가자가 연결 된 네트워크 유형을 나타냅니다. 사용 가능한 값은 다음과 같습니다. <br/>  모든 <br/>  유 <br/>  Wireless-n <br/> |
 |**VPN** <br/> | 외부 참가자가 세션 중에 VPN (가상 사설망) 연결을 사용 하 고 있는지 여부를 나타냅니다. 사용 가능한 값은 다음과 같습니다. <br/>  모든 <br/>  VPN <br/>  비 VPN <br/> |

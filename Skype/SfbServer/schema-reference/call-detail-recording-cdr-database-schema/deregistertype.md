@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 09148118-6209-4fd7-a494-99118689a245
 description: DeRegisterType 테이블은 ' 클라이언트 시작 ', ' 등록 만료 ' 또는 ' 클라이언트가 응답을 중지 했습니다. ' 등 사용 가능한 사용자의 등록 취소 형식 목록을 저장 하는 정적 테이블입니다.
-ms.openlocfilehash: 794f8f98ffe20cd69b63fd2084fee38ed055d40f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae9afafe91336b1e5c74fd0a854e2975a3b4ba8e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196767"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815296"
 ---
 # <a name="deregistertype-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 DeRegisterType 테이블
  

@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream 테이블에는 응용 프로그램 공유에 사용 되는 네트워크 스트림에 대 한 경험 메트릭스가 포함 되어 있습니다. 이 표는 Microsoft Lync Server 2013에서 도입 되었습니다.
-ms.openlocfilehash: 61606f204310b3956eb74bd19d0c9d8d421e7818
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1ebcfe16fe5863bcb3046e88ba5cdc2079f22a9c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196586"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41811106"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream 테이블
  

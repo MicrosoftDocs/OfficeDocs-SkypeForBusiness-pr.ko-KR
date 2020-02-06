@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: '요약: 비즈니스용 Skype 서버를 설치 하기 전에 IPv6을 구현 합니다.'
-ms.openlocfilehash: e4af5403ce416332ec7c75ca26522038fd9c42df
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5fe8cd186d152d368ac89c1d6bc9c07cebb7bfe7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196858"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802078"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>비즈니스용 Skype의 IPv6 계획
  
@@ -66,9 +68,9 @@ IPv6 주소를 사용 하 게 되는 경우 비즈니스용 [Skype 문서에서 
 |(Ipv4  <br/> |이중 스택  <br/> |
 |이중 스택  <br/> |(Ipv4  <br/> |
 |이중 스택  <br/> |이중 스택  <br/> |
-|이중 스택  <br/> |Ipv4/ipv6  <br/> |
-|Ipv4/ipv6  <br/> |이중 스택  <br/> |
-|Ipv4/ipv6  <br/> |Ipv4/ipv6  <br/> |
+|이중 스택  <br/> |IPv6  <br/> |
+|IPv6  <br/> |이중 스택  <br/> |
+|IPv6  <br/> |IPv6  <br/> |
    
 ### <a name="peer-to-peer-client"></a>피어 투 피어 클라이언트
 <a name="peer"> </a>
@@ -80,8 +82,8 @@ IPv6 주소를 사용 하 게 되는 경우 비즈니스용 [Skype 문서에서 
 |(Ipv4  <br/> |(Ipv4  <br/> |
 |(Ipv4  <br/> |이중 스택  <br/> |
 |이중 스택  <br/> |이중 스택  <br/> |
-|Ipv4/ipv6  <br/> |이중 스택  <br/> |
-|Ipv4/ipv6  <br/> |Ipv4/ipv6  <br/> |
+|IPv6  <br/> |이중 스택  <br/> |
+|IPv6  <br/> |IPv6  <br/> |
    
 ### <a name="conferencing"></a>회의
 <a name="conf"> </a>
@@ -94,9 +96,9 @@ IPv6 주소를 사용 하 게 되는 경우 비즈니스용 [Skype 문서에서 
 |(Ipv4  <br/> |이중 스택  <br/> |
 |이중 스택  <br/> |(Ipv4  <br/> |
 |이중 스택  <br/> |이중 스택  <br/> |
-|이중 스택  <br/> |Ipv4/ipv6  <br/> |
-|Ipv4/ipv6  <br/> |이중 스택  <br/> |
-|Ipv4/ipv6  <br/> |Ipv4/ipv6  <br/> |
+|이중 스택  <br/> |IPv6  <br/> |
+|IPv6  <br/> |이중 스택  <br/> |
+|IPv6  <br/> |IPv6  <br/> |
    
 ### <a name="mediation-serverpstn"></a>중재 서버/PSTN
 <a name="med"> </a>
@@ -107,7 +109,7 @@ IPv6 주소를 사용 하 게 되는 경우 비즈니스용 [Skype 문서에서 
 |:-----|:-----|:-----|
 |(Ipv4  <br/> |이중 스택  <br/> |(Ipv4  <br/> |
 |이중 스택  <br/> |이중 스택  <br/> |(Ipv4  <br/> |
-|이중 스택  <br/> |이중 스택  <br/> |Ipv4/ipv6  <br/> |
+|이중 스택  <br/> |이중 스택  <br/> |IPv6  <br/> |
    
 1. 기본 인터페이스는 비즈니스용 Skype 서버 구성 요소와 통신 하는 인터페이스입니다.
   
@@ -121,8 +123,8 @@ IPv6 주소를 사용 하 게 되는 경우 비즈니스용 [Skype 문서에서 
 |(Ipv4  <br/> |(Ipv4  <br/> |
 |이중 스택  <br/> |(Ipv4  <br/> |
 |이중 스택  <br/> |이중 스택  <br/> |
-|Ipv4/ipv6  <br/> |이중 스택  <br/> |
-|Ipv4/ipv6  <br/> |Ipv4/ipv6  <br/> |
+|IPv6  <br/> |이중 스택  <br/> |
+|IPv6  <br/> |IPv6  <br/> |
    
 ### <a name="front-end-pool-and-edge-pool-configuration"></a>프런트 엔드 풀 및 Edge 풀 구성
 <a name="FE_pool"> </a>
@@ -133,9 +135,9 @@ IPv6 주소를 사용 하 게 되는 경우 비즈니스용 [Skype 문서에서 
 
 ||**Edge 풀: IPv4** <br/> |**Edge 풀: 이중 스택** <br/> |**Edge 풀: IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**프런트 엔드 풀: IPv4** <br/> |'  <br/> |'  <br/> |아니요  <br/> |
-|**프런트 엔드 풀: 이중 스택** <br/> |'  <br/> |'  <br/> |아니요  <br/> |
-|**프런트 엔드 풀: IPv6** <br/> |아니요  <br/> |아니요  <br/> |'\*  <br/> |
+|**프런트 엔드 풀: IPv4** <br/> |예  <br/> |예  <br/> |아니요  <br/> |
+|**프런트 엔드 풀: 이중 스택** <br/> |예  <br/> |예  <br/> |아니요  <br/> |
+|**프런트 엔드 풀: IPv6** <br/> |아니요  <br/> |아니요  <br/> |예\*  <br/> |
    
 \*랩 환경 에서만이 조합을 사용 합니다.
   
@@ -145,9 +147,9 @@ IPv6 주소를 사용 하 게 되는 경우 비즈니스용 [Skype 문서에서 
 
 ||**Edge 풀 (외부 가장자리): IPv4** <br/> |**Edge 풀 (외부 가장자리): 이중 스택** <br/> |**Edge 풀 (외부에 지): IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**Edge 풀 (내부에 지): IPv4** <br/> |'  <br/> |'  <br/> |아니요  <br/> |
-|**Edge 풀 (내부에 지): 이중 스택** <br/> |아니요  <br/> |'  <br/> |아니요  <br/> |
-|**Edge 풀 (내부에 지): IPv6** <br/> |아니요  <br/> |아니요  <br/> |'\*  <br/> |
+|**Edge 풀 (내부에 지): IPv4** <br/> |예  <br/> |예  <br/> |아니요  <br/> |
+|**Edge 풀 (내부에 지): 이중 스택** <br/> |아니요  <br/> |예  <br/> |아니요  <br/> |
+|**Edge 풀 (내부에 지): IPv6** <br/> |아니요  <br/> |아니요  <br/> |예\*  <br/> |
    
 \*랩 환경 에서만이 조합을 사용 합니다.
   

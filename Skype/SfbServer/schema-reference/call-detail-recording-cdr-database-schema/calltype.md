@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: a1d7187c-f851-4967-88ea-73922911ee7a
 description: CallType 테이블은 가능한 통화 형식 목록을 저장 하는 정적 테이블입니다.
-ms.openlocfilehash: 992e5682aedf7a0b9063960992197970146c8cfc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 294af58755e980200d75c899d6110322e2ff774d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196795"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815436"
 ---
 # <a name="calltype-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 CallType 테이블
  

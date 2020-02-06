@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '요약: 이러한 기능은 비즈니스용 Skype 서버 2019에서 새로 제공 됩니다.'
-ms.openlocfilehash: 4ede00188c8928e0fa3d89857b6d5bfdb0a44ade
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6db5ea6589a56f696f233854372fc95d6064fed7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189750"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799418"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>비즈니스용 Skype Server 2019의 내용
 
@@ -23,8 +25,8 @@ ms.locfileid: "36189750"
 
 비즈니스용 Skype 서버 2019의 새로운 기능은 다음과 같습니다.
   
-- 구름 보이스 메일  
-- 통화 데이터 커넥터
+- 클라우드 음성 메일  
+- 호출 데이터 커넥터
 - 나란히 마이그레이션
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>통합 메시징 서비스: 클라우드 보이스 메일

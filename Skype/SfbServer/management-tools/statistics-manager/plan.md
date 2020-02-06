@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버에 대 한 통계 관리자 계획
+title: 비즈니스용 Skype 서버 통계 관리자에 대한 계획
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: '요약: 비즈니스용 Skype 서버용 통계 관리자에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: a58ca8ea8ed2d612e00a0705bb28e8d6fe95eb45
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0bf7a5366047a0f4435a98cd8bca75eeb3ebc8d7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36197034"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816237"
 ---
-# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 통계 관리자 계획
+# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자에 대한 계획
 
 **요약:** 비즈니스용 Skype 서버용 통계 관리자에 대 한 자세한 내용은이 항목을 참조 하세요.
 
@@ -177,8 +179,8 @@ ms.locfileid: "36197034"
 
 자세한 내용은 다음을 참조 하세요.
 
-- [비즈니스용 Skype 서버에 대 한 통계 관리자 배포](deploy.md)
+- [비즈니스용 Skype 서버 통계 관리자 배포](deploy.md)
 
-- [비즈니스용 Skype 서버에 대 한 업그레이드 통계 관리자](upgrade.md)
+- [비즈니스용 Skype 서버 통계 관리자 업그레이드](upgrade.md)
 
-- [비즈니스용 Skype 서버에 대 한 통계 관리자 문제 해결](troubleshoot.md)
+- [비즈니스용 Skype 서버 통계 관리자 문제 해결](troubleshoot.md)

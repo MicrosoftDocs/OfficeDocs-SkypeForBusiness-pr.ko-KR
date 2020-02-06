@@ -8,15 +8,17 @@ ms.date: 2/23/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: '요약: 비즈니스용 Skype Server 2015에서 영구 채팅 서버의 용량 계획에 대 한 자세한 내용을 보려면이 항목을 읽으십시오.'
-ms.openlocfilehash: 7aa76aecf183fc0872adf6f6040132310d54a989
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 9f5571be81fbda47150bbde7edf5757ebdea8a4c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197937"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815776"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>영구 채팅 서버에 대한 용량 계획
  
@@ -57,7 +59,7 @@ ms.locfileid: "36197937"
 |프로 비전 된 총 사용자  <br/> |15만  <br/> |
 |끝점 수  <br/> |12만  <br/> |
    
-앞의 예제에서이 계획은 영구 채팅 서버에서 허용 하는 최대 사용자 수를 지원 하는 것입니다 (지속적인 채팅 서비스의 4 개 서버/인스턴스). 높은 가용성을 위해 영구 채팅 서버를 실행 하는 4 대의 모든 수동 서버 가능 재해 복구) 및 2만 사용자 (총 8만 활성 사용자).
+앞의 예제에서 계획은 영구 채팅 서버에서 허용 하는 최대 사용자 수 인 영구 채팅 서비스의 네 가지 서버/인스턴스 (고가용성 및 재해 복구용으로 영구 채팅 서버를 실행 하는 4 개 이상의 수동 서버를 포함할 수 있음) 및 서버당 2만 사용자의 총 8만 활성 사용자를 지원 하는 것입니다.
   
 ### <a name="plan-capacity-for-chat-room-access"></a>채팅방 액세스 용량 계획
 
@@ -69,8 +71,8 @@ ms.locfileid: "36197937"
 |:-----|:-----|:-----|:-----|:-----|
 |채팅방 크기 (연결 된 사용자 수)  <br/> |회의실 당 30 개  <br/> |회의실 당 150  <br/> |회의실 당 16000  <br/> ||
 |채팅방  <br/> |32000  <br/> |1067  <br/> |1천만  <br/> |33077  <br/> |
-|auditorium 된 채팅방의%  <br/> |raid-1  <br/> |raid-1  <br/> |50%  <br/> ||
-|열려 있는 채팅방의%  <br/> |3-4  <br/> |3-4  <br/> |50%  <br/> ||
+|auditorium 된 채팅방 의%  <br/> |raid-1  <br/> |raid-1  <br/> |50%  <br/> ||
+|열려 있는 채팅방 의%  <br/> |3-4  <br/> |3-4  <br/> |50%  <br/> ||
 |채팅방 열기 (명시적 멤버쉽 없음)  <br/> |960  <br/> |32  <br/> |5mb  <br/> |997  <br/> |
 |열지 않은 방 (명시적 구성원 자격이 있는 일반 회의실)  <br/> |31040  <br/> |1.035  <br/> |5mb  <br/> |32080  <br/> |
 |Auditorium 채팅방 (추가 발표자 항목)  <br/> |0  <br/> |32  <br/> |5mb  <br/> ||
@@ -78,7 +80,7 @@ ms.locfileid: "36197937"
 |사용자 그룹이 관리 하는 채팅방  <br/> |50%  <br/> |90%  <br/> |100%  <br/> ||
 |열려 있는 채팅방의 각 채팅방 구성원 목록에 있는 사용자 그룹 (명시적으로 지정 되지 않음)  <br/> |0  <br/> |0  <br/> |0  <br/> ||
 |비 열려 있는 채팅방의 각 채팅방 구성원 목록에 있는 사용자  <br/> |30  <br/> |150  <br/> |16000  <br/> ||
-|비 열려 있는 채팅방의 각 채팅방 구성원 목록에 있는 사용자 그룹  <br/> |3-4  <br/> |5mb  <br/> |1천만  <br/> ||
+|비 열려 있는 채팅방의 각 채팅방 구성원 목록에 있는 사용자 그룹  <br/> |3  <br/> |5mb  <br/> |1천만  <br/> ||
 |각 채팅방의 관리자 목록에 있는 사용자 및 사용자 그룹 (개방 또는 비 열려 있는 채팅방)  <br/> |26  <br/> |26  <br/> |26  <br/> ||
 |각 auditorium 대화방의 발표자 목록에 있는 사용자 및 사용자 그룹 (열기 및 열지 않은 채팅방)  <br/> |26  <br/> |26  <br/> |26  <br/> ||
 |열려 있지 않은 모든 채팅방에 걸친 사용자 기반 구성원 자격 엔터티  <br/> |465600  <br/> |15520  <br/> |-  <br/> ||

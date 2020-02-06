@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: 각 레코드는 하나의 미디어 회선을 나타냅니다. (하나의 오디오 세션에는 일반적으로 하나의 오디오 미디어 회선이 있습니다. 회의 장치를 사용 하는 경우 또는 갤러리 보기를 사용 하는 경우 한 오디오 및 비디오 (A/V) 세션에는 일반적으로 하나의 오디오 미디어 회선 및 비디오 미디어 회선이 포함 되지만, 세션에는 두 개의 비디오 미디어 줄이 포함 될 수 있습니다.
-ms.openlocfilehash: f9ededade35e5654a89b68343f44094f4319ae70
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c189a79a9d87e76ec48be1acb7b4062876b5b16
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196556"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41808816"
 ---
 # <a name="medialine-table"></a>MediaLine 테이블
  

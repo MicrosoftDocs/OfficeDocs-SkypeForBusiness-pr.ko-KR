@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: 네트워크 지역, 네트워크 사이트 및 IP 서브넷에 대해 알아봅니다. 이러한 모든 경우는 비즈니스용 Skype, 비즈니스용 Skype 서버의 통화 허용 제어에 대 한 계획 또는 비즈니스용 skype server Enterprise Voice의 비즈니스용 Skype 서버에서 응급 서비스에 대 한 계획을 배포 하도록 구성 되어야 합니다.
-ms.openlocfilehash: 1c652edd2d3f1898742656c9e12448386e680675
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 25987630ae2082ca8805d87a988760296637d3f7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187584"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802598"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 고급 엔터프라이즈 음성 기능에 대 한 네트워크 설정
 
-네트워크 지역, 네트워크 사이트 및 IP 서브넷에 대해 알아봅니다. 비즈니스용 skype, 비즈니스용 skype [서버의 통화 허용 제어](call-admission-control.md)에 대 한 계획 또는 비즈니스용 skype 서버의 비즈니스용 [skype 서버에서 응급 서비스 계획](emergency-services.md) 을 배포 하려면이를 구성 해야 합니다. [](media-bypass.md) 엔터프라이즈 보이스.
+네트워크 지역, 네트워크 사이트 및 IP 서브넷에 대해 알아봅니다. 이러한 모든 [옵션](media-bypass.md)은 비즈니스용 skype, 비즈니스용 skype [서버의 통화 허용 제어 계획](call-admission-control.md)또는 비즈니스용 skype server Enterprise Voice의 비즈니스용 [skype 서버에서 응급 서비스에 대 한 계획](emergency-services.md) 을 배포 하도록 구성 되어야 합니다.
 
-비즈니스용 skype Server에는 비즈니스용 skype [server의 통화 허용 제어 계획](call-admission-control.md), 비즈니스용 [skype 서버의 응급 서비스 계획](emergency-services.md), 비즈니스용 [skype의 미디어 바이패스에 대 한 계획 등 세 가지 고급 엔터프라이즈 음성 기능이 있습니다. ](media-bypass.md). 이러한 기능은 네트워크 지역, 네트워크 사이트, 네트워크 사이트와의 비즈니스용 Skype 서버 토폴로지에 있는 각 서브넷의 연결에 대 한 특정 구성 요구 사항을 공유 합니다.
+비즈니스용 skype Server에는 세 가지의 고급 엔터프라이즈 음성 기능, 즉 비즈니스용 skype [서버에서의 통화 허용 제어 계획](call-admission-control.md), 비즈니스용 [skype 서버의 응급 서비스 계획](emergency-services.md), 비즈니스용 [skype의 미디어 바이패스 계획](media-bypass.md)등이 포함 되어 있습니다. 이러한 기능은 네트워크 지역, 네트워크 사이트, 네트워크 사이트와의 비즈니스용 Skype 서버 토폴로지에 있는 각 서브넷의 연결에 대 한 특정 구성 요구 사항을 공유 합니다.
 
 이 항목에서는 세 가지 고급 엔터프라이즈 음성 기능에 공통적으로 있는 구성 요구 사항에 대 한 개요를 제공 합니다.
 
@@ -38,11 +40,11 @@ ms.locfileid: "36187584"
 
 CAC는 모든 네트워크 영역에 연결 된 비즈니스용 Skype Server 중앙 사이트가 있어야 합니다 (즉, 사용자가 구성한 정책에 따라 결정을 내릴 수 있습니다 (즉, 실시간 오디오 인지 여부와 관련 하 여). 비디오 세션을 설정할 수 있음). 비즈니스용 Skype Server 중앙 사이트는 지리적 위치를 나타내는 것이 아니라 풀 또는 풀 집합으로 구성 된 서버의 논리 그룹입니다.
 
-네트워크 지역을 구성 하려면 비즈니스용 Skype Server 제어판의 **네트워크 구성** 섹션에 있는 **지역** 탭을 사용 하거나, **새-csnetworkregion** 또는 **Set-csnetworkregion** for 비즈니스용 skype를 실행 하면 됩니다. 서버 관리 셸 cmdlet. 지침은 배포 설명서의 비즈니스용 [skype에서 네트워크 지역, 사이트 및 서브넷 배포](../../deploy/deploy-enterprise-voice/deploy-network.md) 를 참조 하거나 비즈니스용 Skype 서버 관리 셸 설명서를 참조 하세요.
+네트워크 지역을 구성 하려면 비즈니스용 Skype Server 제어판의 **네트워크 구성** 섹션에 있는 **지역** 탭을 사용 하거나, **새-csnetworkregion** 또는 **Set-Csnetworkregion** 비즈니스용 Skype 서버 관리 셸 cmdlet을 실행 하면 됩니다. 지침은 배포 설명서의 비즈니스용 [skype에서 네트워크 지역, 사이트 및 서브넷 배포](../../deploy/deploy-enterprise-voice/deploy-network.md) 를 참조 하거나 비즈니스용 Skype 서버 관리 셸 설명서를 참조 하세요.
 
 동일한 네트워크 지역 정의는 세 가지 고급 엔터프라이즈 음성 기능 모두에 의해 공유 됩니다. 이미 하나의 기능에 대 한 네트워크 지역을 만든 경우에는 다른 기능에 대해 새 네트워크 지역을 만들 필요가 없습니다. 그러나 기능별 설정을 적용 하려면 기존 네트워크 지역 정의를 수정 해야 할 수 있습니다. 예를 들어 E9 (연결 된 중앙 사이트 필요 없음)에 대 한 네트워크 지역을 만든 경우, 나중에 통화 허용 제어를 배포 하는 경우 각 네트워크 영역 정의를 수정 하 여 중앙 사이트를 지정 해야 합니다.
 
-비즈니스용 Skype Server 중앙 사이트를 네트워크 지역에 연결 하려면 비즈니스용 Skype Server 제어판의 **네트워크 구성** 섹션을 사용 하 여 중앙 사이트 이름을 지정 하거나 **새 csnetworkregion** 을 실행 합니다. 또는 **설정 된 CsNetworkRegion** cmdlet. 지침은 배포 설명서의 비즈니스용 [skype에서 네트워크 지역, 사이트 및 서브넷 배포](../../deploy/deploy-enterprise-voice/deploy-network.md) 를 참조 하거나 비즈니스용 Skype 서버 관리 셸 설명서를 참조 하세요.
+비즈니스용 Skype Server 중앙 사이트를 네트워크 지역에 연결 하려면 비즈니스용 Skype Server 제어판의 **네트워크 구성** 섹션을 사용 하거나 **새로운 Csnetworkregion** 또는 **Set csnetworkregion** cmdlet을 실행 하 여 중앙 사이트 이름을 지정 합니다. 지침은 배포 설명서의 비즈니스용 [skype에서 네트워크 지역, 사이트 및 서브넷 배포](../../deploy/deploy-enterprise-voice/deploy-network.md) 를 참조 하거나 비즈니스용 Skype 서버 관리 셸 설명서를 참조 하세요.
 
 ## <a name="network-sites"></a>네트워크 사이트
 
@@ -51,7 +53,7 @@ CAC는 모든 네트워크 영역에 연결 된 비즈니스용 Skype Server 중
 > [!NOTE]
 > 네트워크 사이트는 고급 엔터프라이즈 음성 기능 으로만 사용 됩니다. 이는 비즈니스용 Skype 서버 토폴로지에 구성 하는 분기 사이트와 동일 하지 않습니다.
 
-네트워크 사이트를 구성 하 고 네트워크 지역에 연결 하려면 비즈니스용 Skype Server 제어판의 **네트워크 구성** 섹션을 사용 하거나 비즈니스용 Skype 서버 관리 셸, **새로운 csnetworksite** 또는 ** Set-CsNetworkSite** cmdlet. 자세한 내용은 배포 설명서에서 [네트워크 사이트 만들기 또는 수정을](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx) 참조 하거나 비즈니스용 Skype 서버 관리 셸 설명서를 참조 하세요.
+네트워크 사이트를 구성 하 고 네트워크 지역에 연결 하려면 비즈니스용 Skype Server 제어판의 **네트워크 구성** 섹션을 사용 하거나 비즈니스용 Skype 서버 관리 셸, **새로운 csnetworksite** 또는 **Set csnetworksite** cmdlet을 실행할 수 있습니다. 자세한 내용은 배포 설명서에서 [네트워크 사이트 만들기 또는 수정을](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx) 참조 하거나 비즈니스용 Skype 서버 관리 셸 설명서를 참조 하세요.
 
 ## <a name="identify-ip-subnets"></a>IP 서브넷 확인
 

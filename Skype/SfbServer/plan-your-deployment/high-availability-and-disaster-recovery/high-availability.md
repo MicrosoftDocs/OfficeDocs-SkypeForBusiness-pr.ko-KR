@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 2 개의 프런트 엔드 서버만 사용 하는 풀에 대 한 풀 관리, 쿼럼 손실, 특별 단계를 포함 하 여 비즈니스용 Skype 서버의 프론트 엔드 풀 관리에 대해 알아봅니다.
-ms.openlocfilehash: e42e192d224d509356203c059751624fc706707b
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 731284d6df761b7fb023c92c656cae5cd6d0ed77
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047095"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815916"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>프런트 엔드 풀 고가용성 및 관리
  
@@ -40,9 +42,9 @@ ms.locfileid: "37047095"
   
 |풀의 총 서버 수  <br/> |풀이 처음 시작 될 때 실행 되어야 하는 서버 수  <br/> |
 |:-----|:-----|
-|2  <br/> |raid-1  <br/> |
-|3-4  <br/> |3-4  <br/> |
-|4(tcp/ipv4)  <br/> |3-4  <br/> |
+|2  <br/> |1  <br/> |
+|3  <br/> |3  <br/> |
+|4(tcp/ipv4)  <br/> |3  <br/> |
 |5mb  <br/> |4(tcp/ipv4)  <br/> |
 |26  <br/> |5mb  <br/> |
 |7  <br/> |5mb  <br/> |
@@ -51,6 +53,9 @@ ms.locfileid: "37047095"
 |1천만  <br/> |20cm(8  <br/> |
 |mb  <br/> |되었는지  <br/> |
 |까지  <br/> |1천만  <br/> |
+|16- **비즈니스용 Skype 서버 2019** <br/> |까지  <br/> |
+
+
    
 이후 풀이 시작 될 때마다 서버의 85%가 시작 되어야 합니다 (앞의 표에 표시 된 대로). 이 서버 수를 시작할 수 없는 경우 (풀 수준의 쿼럼 손실에 해당 되지 않도록 충분 한 서버를 시작할 수 있음) `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` cmdlet을 사용 하 여이 라우팅 그룹 수준 쿼럼 손실에서 복구 하 고 진행률을 설정할 수 있습니다. 이 cmdlet을 사용 하는 방법에 대 한 자세한 내용은 [-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)을 참조 하세요. 
   
@@ -63,15 +68,19 @@ ms.locfileid: "37047095"
   
 |풀의 총 프런트 엔드 서버 수  <br/> |풀을 작동 하기 위해 실행 해야 하는 서버 수  <br/> |
 |:-----|:-----|
-|2  <br/> |raid-1  <br/> |
+|2  <br/> |1  <br/> |
 |3-4  <br/> |모든 2  <br/> |
 |5-6  <br/> |모든 3  <br/> |
 |7  <br/> |모든 4  <br/> |
 |8-9  <br/> |처음 7 대의 서버 중 4 대  <br/> |
 |10-12  <br/> |처음 9 대의 서버 5 대  <br/> |
+|**비즈니스용 Skype Server 2019** 12-16  <br/> |처음 12 대의 서버 중 7 대  <br/> |
    
 앞의 표에서 "첫 번째 서버"는 풀이 처음으로 시작 된 시점에 시간순으로 나열 된 서버입니다. 이러한 서버를 확인 하려면 `Get-CsComputer` `-PoolFqdn` 옵션에 cmdlet을 사용할 수 있습니다. 이 cmdlet은 토폴로지에 표시 되는 순서 대로 서버를 표시 하 고 목록의 맨 위에는 첫 번째 서버가 됩니다.
   
+> [!IMPORTANT]
+> [비즈니스용 Skype 서버 2019](https://docs.microsoft.com/skypeforbusiness/plan/user-model-2019) 에서 최대 프런트 엔드 서버 수가 16으로 늘어났습니다.
+> 
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>풀이 작동 하도록 하는 추가 단계
 
 프런트 엔드 풀이 작동 하는 것을 방지 하기 위해 몇 가지 다른 요인에 유의 해야 합니다.

@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
 description: tblEnumAttribute는 노드 테이블에 사용 되는 Visibility 및 Behavior 특성을 포함 하는 하드 코드 된 테이블입니다.
-ms.openlocfilehash: b326ebe98592daccf7560dc90e299f31c158cd5c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8244e2fb6ace6c4ed73f017f52df0c85d1f02315
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196631"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814616"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
@@ -39,7 +41,7 @@ tblEnumAttribute는 노드 테이블에 사용 되는 Visibility 및 Behavior �
 
 |**attributeID**|**attributeName**|
 |:-----|:-----|
-|raid-1  <br/> |시도가.  <br/> |
+|1  <br/> |시도가.  <br/> |
 |2  <br/> |결과가.  <br/> |
    
 ## <a name="see-also"></a>참고 항목

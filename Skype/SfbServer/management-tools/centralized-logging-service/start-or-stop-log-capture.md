@@ -8,16 +8,18 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: '요약: 비즈니스용 Skype 서버 2015에서 중앙 집중화 된 로깅 서비스 로그 캡처 세션을 시작 하거나 중지 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: b4da74e05a1eb6f6945f44c0c045c2292e7acca7
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 4d8c40c2fdb648497997fbd4a69dc49af4685b43
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991443"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816567"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>비즈니스용 Skype 2015에서 CLS 로그 캡처 시작 또는 중지
  

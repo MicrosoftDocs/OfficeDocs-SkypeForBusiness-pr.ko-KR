@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: AlwaysOn 가용성 그룹, AlwaysOn 장애 조치 클러스터 인스턴스, 데이터베이스 미러링, SQL 장애 조치 클러스터링을 비롯 하 여 비즈니스용 Skype 서버에서 지원 되는 백 엔드 서버 고가용성 옵션에 대해 알아봅니다.
-ms.openlocfilehash: 3a92c7ee8cbada8ce678e53e3aacff0aa562fca5
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: a0aeb53aea0ee2eab25875de0fddbfd0fc26d90a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991493"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815956"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 백 엔드 서버 고가용성
  

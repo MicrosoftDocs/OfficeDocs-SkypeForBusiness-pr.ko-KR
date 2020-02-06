@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Consultative 통화 전송을 포함 하 여 비즈니스용 Skype Server Enterprise Voice에서 회의를 위한 위치 기반 라우팅에 대 한 계획
-ms.openlocfilehash: d9ca03920fe361cf4d7692fd80031bef01b03b17
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d03bab835556bf0cea4dffb33bcfbcc48ba7fa42
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187662"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802848"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서의 회의를 위한 위치 기반 라우팅
 
@@ -67,7 +69,7 @@ Consultative 통화 전송을 포함 하 여 비즈니스용 Skype Server Enterp
 > [!NOTE]
 > 비즈니스용 Skype 누적 업데이트 4를 사용 하 여 다음 표의 동작을 준수 해야 합니다.
 
-|**클릭할**|**다른 파티**|**함수**|**발생**|
+|**사용자**|**다른 파티**|**작업**|**발생**|
 |:-----|:-----|:-----|:-----|
 |비즈니스용 Skype 모바일  <br/> |PSTN  <br/> |비즈니스용 Skype Mobile이 PSTN 통화 중입니다. 비즈니스용 Skype 모바일을 전화 회의 자동 전화 교환 (CAA)으로 이동 합니다.  <br/> |통화가 차단 되 고 적절 한 오류 메시지가 발생 합니다.  <br/> |
 |비즈니스용 Skype 모바일  <br/> |비즈니스용 Skype 클라이언트 또는 페더레이션 사용자  <br/> |클라이언트 또는 페더레이션 사용자는 비즈니스용 Skype 모바일 위치 기반 라우팅 사용자에 게 VoIP 통화를 하 고 있으며, 파티는 CAA로 전달 됩니다.  <br/> |에스컬레이션 통화가 차단 되 고 적절 한 오류 메시지가 발생 합니다.  <br/> |
@@ -113,7 +115,7 @@ Consultative 통화 전송을 포함 하 여 비즈니스용 Skype Server Enterp
 
 |**프런트 엔드 풀 버전**|**중재 서버 버전**|**지원**|
 |:-----|:-----|:-----|
-|비즈니스용 Skype Server 또는 Lync Server 2013 누적 업데이트 2  <br/> |비즈니스용 Skype Server 또는 Lync Server 2013 누적 업데이트 2  <br/> |'  <br/> |
+|비즈니스용 Skype Server 또는 Lync Server 2013 누적 업데이트 2  <br/> |비즈니스용 Skype Server 또는 Lync Server 2013 누적 업데이트 2  <br/> |예  <br/> |
 |Lync Server 2013 누적 업데이트 2  <br/> |Lync Server 2013 누적 업데이트 1  <br/> |아니요  <br/> |
 |Lync Server 2013 누적 업데이트 2  <br/> |Lync Server 2010  <br/> |아니요  <br/> |
 |Lync Server 2013 누적 업데이트 2  <br/> |Office Communications Server 2007 R2  <br/> |아니요  <br/> |
@@ -152,7 +154,7 @@ Get-CsServerApplication-Id 서비스: 등록자:<Pool FQDN>이 cmdlet에서는 \
 이 cmdlet을 사용한 후에는 풀의 모든 프런트 엔드 서버를 다시 시작 하거나, 회의 응용 프로그램에 대 한 위치 기반 라우팅이 사용 하도록 설정 된 스탠더드 버전 서버를 해제 합니다.
 
 > [!IMPORTANT]
-> 회의 또는 consultative 전송에 대 한 위치 기반 라우팅 enforcements는 해당 풀 또는 Standard Edition 서버의 모든 프런트 엔드 서버가 다시 시작 될 때까지 적용 되지 않습니다. 앞의 cmdlet **** 에서 **$true** 하도록 설정한 경우, Skype for Business Server 서비스가 즉시 다시 시작 됩니다. 이러한 서비스를 즉시 다시 시작 하지 않으려면 지금 **$false** 하도록 설정한 **** 다음, 서비스를 다시 시작한 후에 **설정-csserverapplication** 을 사용 하 여 나중에 **$true** 에 **중요** 한 것으로 변경 합니다.
+> 회의 또는 consultative 전송에 대 한 위치 기반 라우팅 enforcements는 해당 풀 또는 Standard Edition 서버의 모든 프런트 엔드 서버가 다시 시작 될 때까지 적용 되지 않습니다. 앞의 cmdlet에서 **$true** **하도록 설정한 경우, Skype** for Business Server 서비스가 즉시 다시 시작 됩니다. 이러한 서비스를 즉시 다시 시작 하지 않으려면 지금 **$false** 하도록 설정한 다음, 서비스를 다시 시작한 후에 **설정-csserverapplication** 을 **사용 하 여** 나중에 **$true** 에 **중요** 한 것으로 변경 합니다.
 
 회의 응용 프로그램을 위한 위치 기반 라우팅이 성공적으로 사용 하도록 설정 되 고 해당 서버가 모두 다시 시작 되 면 위치 기반 라우팅에 대해 사용 하도록 설정 된 비즈니스용 Skype 사용자가 구성한 모든 회의가 모니터링 됩니다. PSTN 유료 바이패스
 

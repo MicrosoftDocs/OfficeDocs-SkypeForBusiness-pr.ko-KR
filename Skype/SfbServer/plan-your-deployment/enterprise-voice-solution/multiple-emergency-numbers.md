@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: 비즈니스용 Skype 서버에서 여러 응급 번호를 계획 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 43214e42e4fd998aef673ad8d0fbd57ec2d3b498
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6f10b5c22a26a42f33f2a3b453dd2e244c9f32ee
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187623"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815966"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 여러 응급 번호 계획
  
@@ -57,11 +59,11 @@ ms.locfileid: "36187623"
   
 여러 비상 번호를 구성 하기 전에 다음 사항에 유의 하세요.
   
-- 여러 비상 번호를 구성 하려면 CsEmergencyNumber cmdlet을 사용 해야 하며, [새로운-CsLocationPolicy 정책을](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) 사용 하 여 EmergencyNumbers 매개 변수를 지정 하 고 두 개 이상의 비상 번호를 지 원하는 위치 정책을 정의 해야 합니다. [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) cmdlet.
+- 여러 비상 번호를 구성 하려면 CsEmergencyNumber cmdlet을 사용 해야 하며, [새-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) 및 [Set cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) cmdlet을 사용 하 여 EmergencyNumbers 매개 변수를 지정 하면 두 개 이상의 비상 번호를 지 원하는 위치 정책을 정의 해야 합니다.
     
 - EmergencyDialString 및 EmergencyDialMask 매개 변수를 사용 하 여 Set-CsLocationPolicy 또는 New-CsLocationPolicy cmdlet을 사용 하 여 기존 번호를 정의한 경우 EmergencyNumbers 매개 변수를 사용 하 여 지정한 값이 이전 최대값. 즉, EmergencyDialString 및 EmergencyDialMask 매개 변수의 값은 무시 됩니다.
     
-- EmergencyDialString 및 EmergencyDialMask 매개 변수를 사용 하 여 Set CsLocationPolicy 또는 New-CsLocationPolicy cmdlet을 통해 정의 된 기존 숫자가 있고 *새 비상 번호를 구성 하지 않은* 경우에는 기존 숫자가 계속 해 서 사용할 수 있습니다.
+- EmergencyDialString 및 EmergencyDialMask 매개 변수를 사용 하 여 Set CsLocationPolicy 또는 New-CsLocationPolicy cmdlet을 통해 정의 된 기존 번호가 있는 경우 *새 비상 번호를 구성 하지* 않으면 기존 번호가 계속 사용 됩니다.
     
 - 여러 비상 번호 기능을 사용 하려면, 실행 중인 클라이언트 버전이 새 기능을 지원할 수 있어야 합니다. 이전 클라이언트는 EmergencyDialString 및 EmergencyDialMask 매개 변수를 사용 하 여 Set-CsLocationPolicy 또는 New Cslocationxpolicy cmdlet에 의해 지정 된 이전 값을 계속 사용 합니다. 
     
@@ -74,10 +76,10 @@ ms.locfileid: "36187623"
 
 |**위치 정책 이름**|**E911 사용**|**비상 다이얼 문자열**|**다이얼 마스크**|**비상 전화 번호**|**PSTN 사용**|**위치 필요**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|미국  <br/> |'  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |'  <br/> |
-|미국-병원  <br/> |'  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |'  <br/> |
-|시흥시  <br/> |'  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112-119; 117; 118  <br/> |GBEmergency  <br/> |아니요  <br/> |
-|인도  <br/> |'  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |아니요  <br/> |
+|미국  <br/> |예  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |예  <br/> |
+|미국-병원  <br/> |예  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |예  <br/> |
+|시흥시  <br/> |예  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112-119; 117; 118  <br/> |GBEmergency  <br/> |아니요  <br/> |
+|인도  <br/> |예  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |아니요  <br/> |
    
  **미국** -여러 비상 전화 번호에 대 한 요구 사항은 없습니다. 미국에서는 이전의 긴급 전화 접속 문자열 및 다이얼 마스크 구성을 사용 합니다.
   

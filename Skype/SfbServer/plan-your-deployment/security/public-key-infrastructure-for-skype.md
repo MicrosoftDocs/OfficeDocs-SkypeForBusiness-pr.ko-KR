@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: 비즈니스용 Skype 서버는 서버 인증용 인증서를 사용 하 고 클라이언트와 서버 간 및 여러 서버 역할 간에 신뢰 체인을 설정 합니다. Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 및 Windows Server 2008 PKI (공개 키 인프라)는이 신뢰 체인을 설정 하 고 유효성을 검사 하기 위한 인프라를 제공 합니다.
-ms.openlocfilehash: 381afce84c1a58d15187547c9cb8fd6f98e84790
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec2ae6e94d9cf00a6193c45d6cefd7db6d5a5b62
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196831"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815636"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 공개 키 인프라
  

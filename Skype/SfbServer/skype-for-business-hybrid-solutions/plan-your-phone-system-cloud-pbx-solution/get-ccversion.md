@@ -8,15 +8,17 @@ ms.date: 6/30/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
 description: 클라우드 커넥터 기기의 버전을 반환 합니다. Get-CCVersion은 클라우드 커넥터의 호스트 컴퓨터 에서만 사용할 수 있습니다.
-ms.openlocfilehash: a7d50bbcd01dc80fe3e2202286c1adc1b5d5f9bd
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 706b480c2f8e277b7f41fe28e88cc062fea6603a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003348"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799848"
 ---
 # <a name="get-ccversion"></a>Get-CcVersion
  

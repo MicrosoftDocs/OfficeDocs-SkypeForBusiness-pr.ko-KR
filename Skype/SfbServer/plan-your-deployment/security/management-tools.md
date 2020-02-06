@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: 비즈니스용 Skype 서버에서 관리 도구는 Windows PowerShell을 사용 하 여 구현 됩니다. Windows PowerShell에는 명령줄 환경, 제품별 명령, 전체 스크립트 언어가 포함 됩니다. Windows PowerShell을 사용 하 여 구현 된 비즈니스용 Skype 서버 도구에는 다음이 포함 됩니다.
-ms.openlocfilehash: 3eb156e002603378ec77fbbcbde4772870aad907
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f20a78729e778b069f7e84c9b7ed53e8564d2516
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196833"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815646"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell 및 비즈니스용 Skype 서버 관리 도구
  

@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: FocusJoinsAndLeaves 보기는 한 회의에 대 한 참가 및 탈퇴 정보에 대 한 정보를 저장 합니다. 각 회의는 사용자가 회의에 참가 하 고 떠날 때마다 기록 하는 레코드를 기준으로이 보기로 표시 됩니다. 이 보기는 Microsoft Lync Server 2013에서 도입 되었습니다.
-ms.openlocfilehash: f739ae390b636913d96b49dd516d2618c72515e6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 771685a5546ef5b462a3ce3955406eb535f4c3eb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196747"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815196"
 ---
 # <a name="focusjoinsandleaves-view"></a>FocusJoinsAndLeaves 보기
  

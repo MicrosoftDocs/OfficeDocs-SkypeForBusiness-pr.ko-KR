@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: 비즈니스용 Skype 서버 관리를 위임 하려면 포리스트 준비를 통해 만든 RTC 유니버설 그룹의 구성원이 도메인 관리자 그룹의 구성원으로도 액세스할 수 없도록 지정 된 조직 구성 단위 (Ou)에 대 한 사용 권한을 추가 하면 됩니다.
-ms.openlocfilehash: 48c5921cabf2b1bc8100f796d3e3b7f6a247ff0c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8342d1801d2df91f940f02e8bfc05c3c5b91c4ff
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196814"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815526"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 변경 사항 허용-CsOUPermission
  

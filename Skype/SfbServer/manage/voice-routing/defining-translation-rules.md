@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 비즈니스용 Skype Server Enterprise Voice는 E 164 형식으로 정규화 된 전화 번호를 기반으로 통화를 라우팅합니다. 즉, 역 번호 조회 (RNL)를 수행 하기 위해 모든 대상 문자열을 해당 SIP URI로 변환할 수 있도록 E를 164 형식으로 정규화 해야 합니다. 비즈니스용 Skype Server는 호출 된 ID와 발신자 ID 프레젠테이션을 조작할 수 있는 기능을 제공 합니다.
-ms.openlocfilehash: 633b0c16fefb66d1ea44f96b5f32c2ca91f357f2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cdcfe3a847e148461b97abed33df070057dcd00b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187038"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816988"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 번역 규칙 정의
 
@@ -68,7 +70,7 @@ ms.locfileid: "36187038"
 5. ) **설명**아래에 번역 규칙에 대 한 설명 (예: **US 국제 시외 전화**)을 입력 합니다.
 6. 대화 상자의 **번역 규칙 작성** 섹션에서 다음 필드에 값을 입력 합니다.
     - **시작 번호**: (선택 사항) 패턴을 일치 시킬 숫자의 선행 자릿수를 지정 합니다. 예를 들어이 필드에 +를 입력 하 여 전자 164 형식의 숫자와 일치 시킵니다 (+로 시작).
-    - **길이**: 일치 하는 패턴의 자릿수를 지정 하 고 해당 패턴이이 길이의 정확한 숫자, 최소 길이 또는 길이 중 어느 것을 일치 시킬 것인지 선택 합니다. 예를 들어 11 **** 을 입력 하 고 최소 11 자리 숫자로 이루어진 숫자와 일치 하도록 드롭다운 목록에서 **최소한** 을 선택 합니다.
+    - **길이**: 일치 하는 패턴의 자릿수를 지정 하 고 해당 패턴이이 길이의 정확한 숫자, 최소 길이 또는 길이 중 어느 것을 일치 시킬 것인지 선택 합니다. 예를 **들어 11을 입력 하** 고 최소 11 자리 숫자로 이루어진 숫자와 일치 하도록 드롭다운 목록에서 **최소한** 을 선택 합니다.
     - **제거할 자릿수**: (선택 사항) 제거할 시작 숫자의 수를 지정 합니다. 예를 들어 숫자의 시작 부분에서 +를 제거 하려면 **1** 을 입력 합니다.
     - **더할 자릿수**: (선택 사항) 번역 된 숫자 앞에 추가할 숫자를 지정 합니다. 예를 들어 규칙을 적용할 때 이진수를 번역 된 번호로 앞에 표시 하려면 **011** 을 입력 합니다.
     

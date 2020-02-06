@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 네트워크 지역 경로는 네트워크 지역 쌍 간의 경로를 정의 합니다. 통화 허용 제어 배포의 각 네트워크 지역 쌍에는 네트워크 지역 경로가 필요 합니다.
-ms.openlocfilehash: 174fdd021655f3e338001582a1409107b266582e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e0c099b8c461873b96963c721d835f1ccdf4705
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188568"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817497"
 ---
-# <a name="managing-network-region-routes-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 지역 경로 관리
+# <a name="managing-network-region-routes-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 지역 경로 지정 관리
 
 *네트워크 지역 경로* 는 네트워크 지역 쌍 간의 경로를 정의 합니다. 통화 허용 제어 배포의 각 네트워크 지역 쌍에는 네트워크 지역 경로가 필요 합니다. 이렇게 하면 배포 내의 모든 네트워크 영역이 다른 모든 지역에 액세스할 수 있습니다. 이 artilce의 절차를 사용 하 여 네트워크 지역 경로를 보거나, 만들고, 수정 하 고, 삭제할 수 있습니다.
 

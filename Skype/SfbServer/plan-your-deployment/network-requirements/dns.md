@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: '요약: 비즈니스용 Skype 서버를 구현 하기 전에이 항목의 DNS 고려 사항을 검토 하세요.'
-ms.openlocfilehash: 5e6bb5866cfc52dc02a1fc48c19b1f43af6077f7
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 52984c0813fb96c78ff5a1581c0722a691501ccb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36197838"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802128"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 DNS 요구 사항
 
@@ -31,7 +33,7 @@ DNS (도메인 이름 서비스) 서버가 호스트 이름을 매핑합니다 (
 
 이 작업은 처음에 다소 어렵게 보일 수 있지만, [비즈니스용 Skype Server 2015 계획 도구](https://www.microsoft.com/en-us/download/details.aspx?id=50357)를 사용 하 여이를 계획 하는 것은 매우 어려운 일입니다. 사용 하려는 기능에 대 한 마법사의 질문을 마친 후에는 정의 하는 각 사이트에 대해 Edge 관리 보고서 내에서 DNS 보고서를 보고 여기에 나열 된 정보를 사용 하 여 DNS 레코드를 만들 수 있습니다. 사용 된 이름 및 IP 주소를 다양 하 게 조정할 수도 있습니다 (자세한 내용은 [DNS 보고서 검토](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report)참조). Edge 관리 보고서를 Excel 스프레드시트로 내보낼 수 있으며 DNS 보고서는 파일의 워크시트 중 하나에 해당 한다는 점에 유의 하세요. 이 도구에는 [비즈니스용 Skype Server 2019에서 사용 되지 않는](../../../SfBServer2019/deprecated.md)기능이 포함 되어 있지만, 이러한 기능이 선택 되어 있지 않은 경우 초기 계획을 만드는 데 사용할 수 있습니다.
 
-비즈니스용 [Skype server 용 DNS 레코드 만들기](../../deploy/install/create-dns-records.md) 및 비즈니스용 skype 서버에 대 한 토폴로지 빌드에 설명 된 대로 새 구현을 설치 하는 경우 Windows server에 기본 제공 된 DNS 기능을 사용 하도록 선택할 수 있다는 것을 인식 합니다. 2016 또는 타사 DNS 패키지를 사용할 수 있으므로이 문서에 나와 있는 토론을 구체적이 아닌 일반적인 방법으로 유지 하겠습니다. 여기서는 필요한 사항에 대해 자세히 설명 하 고 있으며 이러한 요구 사항을 충족 하는 방법을 결정 해야 합니다.
+비즈니스용 [Skype server 용 DNS 레코드 만들기](../../deploy/install/create-dns-records.md) 및 비즈니스용 skype server에 대 한 토폴로지 빌드에 설명 된 대로 새 구현을 설치 하는 경우 Windows Server 2016 또는 타사 DNS 패키지에 기본 제공 된 dns 기능을 사용 하도록 선택할 수 있으므로이 문서에 있는 토론을 구체적이 아닌 일반적인 방법으로 유지 합니다. 여기서는 필요한 사항에 대해 자세히 설명 하 고 있으며 이러한 요구 사항을 충족 하는 방법을 결정 해야 합니다.
 
 경험이 많은 비즈니스용 Skype, Lync, Office Communications Suite 관리자는 다음 표를 유용 하 게 사용할 수 있습니다. 표가 혼동 스 러 울 경우 다음 개념에 따라 이후 섹션 또는 문서에 몇 가지 빛이 표시 됩니다.
 
@@ -97,7 +99,7 @@ DNS (도메인 이름 서비스) 서버가 호스트 이름을 매핑합니다 (
 |SRV   |\_xmpp-서버. \_tcp. *<sipdomain\> * <br/>\_xmpp-서버. \_tcp. contoso. c a m *<span></span> <span> </span>*  |외부 액세스에 지 FQDN  <br/>*Access1. <span> </span>contoso<span></span>. c a m*  |XMPP 프록시 서비스는 확장할 수 있는 메시징 및 현재 상태 프로토콜 (XMPP) 메시지를 구성 된 XMPP 페더레이션 파트너와 주고 받습니다.   |Y, 페더레이션 배포 하기, 그렇지 않으면 선택 사항  <br/> 비즈니스용 Skype 서버 2019에서 사용할 수 없습니다.|
 |SRV   |\_sipfederationtls. \_tcp. * \<sipdomain\> * <br/>\_sipfederationtls. \_tcp. contoso. c a m *<span></span> <span> </span>*  |외부 액세스에 지 FQDN  <br/>*Access1. <span> </span>contoso<span></span>. c a m*  |푸시 알림 서비스 및 Apple 푸시 알림 서비스를 지원 하려면 각 SIP 도메인에 대해 하나의 SRV 레코드를 만듭니다. &#x2778;  ||
 |A/AAAA   |외부 프런트 엔드 풀 웹 서비스 FQDN  <br/>*웹-외부.<span></span><span></span>m m .com*  |역방향 프록시 공용 IP 주소, 프런트 엔드 풀에 대 한 외부 웹 서비스 VIP에 대 한 프록시 &#x2776; <br/> 131.107.155.1 프록시를 192.168.21.120으로   |비즈니스용 Skype Web App에서 사용 하는 프런트 엔드 풀 외부 인터페이스   |피지   |
-|A/AAAA/CNAME   |lyncdiscover. * \<sipdomain\>* <br/> lyncdiscover. contoso. c a m *<span></span> <span> </span>*  |역방향 프록시 공용 IP 주소, 디렉터 풀에 대 한 외부 웹 서비스 VIP (있는 경우) 또는 사용자에 게 디렉터가 없는 경우 프런트 엔드 풀에 대해 확인 됨 &#x2777; <br/> 131.107.155.1 프록시를 192.168.21.120으로   | 역방향 프록시 서버에 의해 해결 된 이동성, 비즈니스용 Skype Web App, 스케줄러 웹 앱에도 사용 되는 클라이언트 자동 검색에 대 한 외부 레코드 <br/> 푸시 알림 서비스 및 Apple 푸시 알림 서비스를 지원 하려면 Microsoft Lync 모바일 클라이언트가 있는 각 SIP 도메인에 대해 하나의 SRV 레코드를 만듭니다. 3-4  |피지   |
+|A/AAAA/CNAME   |lyncdiscover. * \<sipdomain\>* <br/> lyncdiscover. contoso. c a m *<span></span> <span> </span>*  |역방향 프록시 공용 IP 주소, 디렉터 풀에 대 한 외부 웹 서비스 VIP (있는 경우) 또는 사용자에 게 디렉터가 없는 경우 프런트 엔드 풀에 대해 확인 됨 &#x2777; <br/> 131.107.155.1 프록시를 192.168.21.120으로   | 역방향 프록시 서버에 의해 해결 된 이동성, 비즈니스용 Skype Web App, 스케줄러 웹 앱에도 사용 되는 클라이언트 자동 검색에 대 한 외부 레코드 <br/> 푸시 알림 서비스 및 Apple 푸시 알림 서비스를 지원 하려면 Microsoft Lync 모바일 클라이언트가 있는 각 SIP 도메인에 대해 하나의 SRV 레코드를 만듭니다. 3  |피지   |
 |A/AAAA   |시켜. * \<sipdomain\>* <br/> 시켜. contoso. c a m *<span></span> <span> </span>*  |역방향 프록시 공용 IP 주소는 프런트 엔드 풀의 외부 웹 인터페이스로 확인 됩니다.  <br/> 131.107.155.1 프록시를 192.168.21.120으로   |비즈니스용 Skype 웹 서비스에 대 한 프록시  <br/> [간단한 url](dns.md#BK_Simple) 참조  |피지   |
 |A/AAAA   |전화 접속*\<sipdomain\>* <br/> 전화 접속.*<span></span><span></span>m a c*  |프런트 엔드 풀의 외부 웹 인터페이스에 대 한 프록시 역방향 프록시 공용 IP 주소  <br/> 131.107.155.1 프록시를 192.168.21.120으로   |비즈니스용 Skype 웹 서비스에 대 한 프록시  <br/> [간단한 url](dns.md#BK_Simple) 참조  |피지   |
 |A/AAAA   |Office Web Apps 서버 풀 FQDN  <br/> OWA. <span> </span>contoso<span></span>. c a m   | 역방향 프록시 공용 IP 주소, Office Web Apps 서버용 외부 웹 인터페이스에 대 한 프록시 <br/> 131.107.155.1 프록시를 192.168.1.5으로   | Office Web Apps 서버 풀 VIP 주소 <br/> 192.168.1.5   |Office Web Apps 서버 풀 FQDN을 정의 합니다.   |

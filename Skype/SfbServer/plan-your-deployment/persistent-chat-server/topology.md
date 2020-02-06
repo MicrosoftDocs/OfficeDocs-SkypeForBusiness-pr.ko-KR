@@ -8,15 +8,17 @@ ms.date: 5/17/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: '요약: 비즈니스용 Skype Server 2015의 영구 채팅 서버 구성 요소와 토폴로지에 대해 자세히 알아보려면이 항목을 읽으십시오.'
-ms.openlocfilehash: c31cb8b0ada280b52d902e975f1bacf947fd19e7
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: afcdf7ed85cca6b54652dcf5170316258a6b5551
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197907"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815726"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>영구 채팅 서버 토폴로지 계획
  

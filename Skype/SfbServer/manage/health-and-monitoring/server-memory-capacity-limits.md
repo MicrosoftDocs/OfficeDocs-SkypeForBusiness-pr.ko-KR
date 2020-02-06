@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: '요약: 비즈니스용 Skype 서버에서 서버 메모리 용량 한도를 모니터링 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: f089ab9b5be693872754691050133ad27e992896
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4f56fec8f3ed6900f4c4f1a97286dc14b66bb7c8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188694"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817707"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 서버 메모리 용량 한도 모니터링
  
@@ -33,13 +35,13 @@ ms.locfileid: "36188694"
     
 - 현재 **활성화 된 세션 수**, 즉,이 수는 인천 Wa 또는 모바일 서비스를 통해 등록 된 현재 종점입니다.
     
-활성 현재 상태 구독이 있고 **현재 활성 세션 수가** **있는 현재 활성 세션 수** 의 차이가 적은 시간에 해당 하는 경우, 대부분의 모바일 장치 사용자는 Android와 같은 항상 연결 된 장치를 사용 하는 것입니다. Nokia 모바일 장치 (Mcx에만 해당). 연결 된 장치에는 항상 Lync 2013 모바일 클라이언트를 실행 하는 Apple 및 Android 장치가 포함 되어 있습니다. 현재 활성 상태인 **세션 수가** **활성 현재 상태 구독이 있는 현재 활성 세션**수보다 훨씬 높은 경우이는 더 많은 사용자가 Apple IOS 장치 또는 Windows Phone과 같은 백그라운드 끝점 장치를 사용 하 고 있음을 나타냅니다. Mcx. (Windows Phone은이를 등록 하는 유일한 Lync 2013 모바일 클라이언트입니다.)
+활성 현재 상태 구독이 있고 **현재 활성 세션 수가** **있는 현재 활성 세션 수** 의 차이가 적은 시간에 해당 하는 경우, 대부분의 모바일 장치 사용자는 Android 또는 Nokia 모바일 장치와 같이 항상 연결 된 장치를 사용 하는 것을 의미 합니다 (mcx에만 해당). 연결 된 장치에는 항상 Lync 2013 모바일 클라이언트를 실행 하는 Apple 및 Android 장치가 포함 되어 있습니다. 현재 활성 상태인 **세션 수가** **활성 현재 상태 구독을 사용 하는 현재 활성 세션**수보다 훨씬 높은 경우이는 더 많은 사용자가 Mcx에서 Apple IOS 장치 또는 Windows Phone과 같은 백그라운드 끝점 장치를 사용 하 고 있음을 나타냅니다. (Windows Phone은이를 등록 하는 유일한 Lync 2013 모바일 클라이언트입니다.)
   
-현재 현재 **상태 구독** 및 예상 사용량, 용량 계획 결과 및 진행 중인 모니터링을 기준으로 현재 활성 세션 **수** 성능 카운터에 대 한 제한 값을 설정 해야 합니다. 모바일 서비스 및 기타 프런트 엔드 서버 카운터 용량을 초과한 경우 서버 용량을 평가 하 고 경고를 발생 시킬 수 있는 제한을 설정 해야 합니다.
+현재 활성 **상태인 세션 수** 에 대 한 제한을 설정 하 고 예상 사용량, 용량 계획 결과, 이동성 서비스 및 기타 프런트 엔드 서버 카운터에 대 한 지속적인 모니터링을 기준으로 현재 활성 세션 **수** 성능 카운터를 지정 해야 합니다. 용량을 초과한 경우 서버 용량을 평가 하 고 경고를 발생 시킬 수 있는 제한을 설정 해야 합니다.
   
 적절 한 제한을 결정 하려면 먼저 모바일 서비스에 대 한 프런트 엔드 서버에서 사용할 수 있는 메모리 크기를 결정 해야 합니다. 카운터를 모니터링 하 여 다음 수식에 따라 추가 용량을 계획 해야 하는 시기를 결정 합니다.
   
-Mcx Mobility Service (MB) = 164 + (400 + 134)/1024 * 현재 활성 **상태인 세션 수 (활성 현재 상태 구독이 있는** 경우) + 400/1024 * ( **현재** - 활성 상태인 세션 수는 현재 활성 상태인 세션 개수)로 사용 된 총 메모리** 활성 현재 상태 구독**)
+Mcx Mobility Service (MB) = 164 + (400 + 134)/1024 * 현재 활성 **상태인 세션 수에 활성 현재 상태 구독이** + 400/1024 * ( **현재** - 활성 상태인 세션이 현재 활성 상태인 세션 수 인 활성 상태의**구독이**있음)이 사용 된 총 메모리
   
 > [!IMPORTANT]
 > Microsoft Lync Server 2010 용량 계산기는 계획자를 사용 하 여 CPU, 메모리, 하드 드라이브 등 비즈니스용 Skype 서버에 대 한 요구 사항을 결정할 수 있는 모든 수식으로 미리 채워져 있는 스프레드시트입니다. [스프레드시트 및 관련 문서를 다운로드할](https://go.microsoft.com/fwlink/p/?LinkID=212657)수 있습니다. 

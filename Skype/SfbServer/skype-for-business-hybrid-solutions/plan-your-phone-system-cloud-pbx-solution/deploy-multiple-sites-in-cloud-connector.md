@@ -1,5 +1,5 @@
 ---
-title: 클라우드 커넥터에 여러 사이트 배포
+title: 클라우드 커넥터에서 여러 사이트 배포
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -8,20 +8,22 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: 클라우드 커넥터 에디션에 여러 PSTN 사이트를 배포 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: ba6b76366b65a9febb9fab06e7cfb0fad759e5ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 98890bb3ffe53497c5e915acba5c073c4316f3b7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190848"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799698"
 ---
-# <a name="deploy-multiple-sites-in-cloud-connector"></a>클라우드 커넥터에 여러 사이트 배포
+# <a name="deploy-multiple-sites-in-cloud-connector"></a>클라우드 커넥터에서 여러 사이트 배포
  
 클라우드 커넥터 에디션에 여러 PSTN 사이트를 배포 하는 방법에 대해 알아보세요.
   
@@ -93,6 +95,6 @@ ExternalMRPublicIPs=104.42.226.134
 |구성할  <br/> |DNS 레코드  <br/> |**동일한** 외부 액세스 fqdn 및 **다른** IP 주소를 사용 하 여 레코드 추가 <br/> |**다른** 외부 액세스 fqdn 및 **다른** IP 주소를 사용 하 여 레코드 추가 <br/> |
 |Setup.exe  <br/> |하이브리드 테 넌 트  <br/> |Set HybridPSTNSite  <br/> Fallback에 대 한 PeerDestination 설정  <br/> |Set HybridPSTNSite  <br/> Fallback에 대 한 PeerDestination 설정  <br/> |
 |Setup.exe  <br/> |게이트웨이와  <br/> |이 사이트의 MS GW **M:n** 매핑 <br/> |각 PSTN 사이트의 PSTN 게이트웨이는 동일한 사이트의 중재 서버에만 연결 되어야 합니다.  <br/> |
-|Setup.exe  <br/> |클릭할  <br/> |Set UserPSTNSettings  <br/> |Set UserPSTNSettings  <br/> |
+|Setup.exe  <br/> |사용자  <br/> |Set UserPSTNSettings  <br/> |Set UserPSTNSettings  <br/> |
    
 

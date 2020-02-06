@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddMonitoringServerSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 모니터링 데이터를 저장 하려면 모니터링 서버에 지원 되는 64 비트 버전의 SQL Server 데이터베이스 소프트웨어가 필요 합니다. Sql server 데이터베이스가 상주할 서버의 FQDN (정규화 된 도메인 이름)을 지정 하 여 새 SQL Server 데이터베이스를 정의 하는 것으로, 이전에 모니터링 하는 데 사용할 SQL Server 데이터베이스를 선택 하거나이 인스턴스를 사용할 수 있습니다. 새 SQL Server 데이터베이스 (기본 인스턴스가 될 수 있거나 지정한 명명 된 인스턴스)에 사용할 서버를 선택 합니다.
-ms.openlocfilehash: 2ce8127165d37fd34d792b26fc41a1424569eaf5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b51d4802d67175177ca48419f495cbbccf981f4f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689137"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798465"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>모니터링 서버 SQL 서버 저장소 추가
 

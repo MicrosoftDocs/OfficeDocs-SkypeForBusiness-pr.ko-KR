@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: cf723737-4a75-4352-829b-f4954aa59716
 description: SIPResponseMetaDataTable에는 SIP 응답 코드 목록과 각 코드의 분류 및 정의가 포함 되어 있습니다. 이러한 코드는 SIP 장치 및 SIP 통신 세션에 영향을 주는 이벤트에 대 한 응답으로 생성 됩니다. 예를 들어 응답 코드 403는 SIP 장치가 요청할 때 생성 되지만 서버는 해당 요청을 처리 하는 것을 거절 합니다.
-ms.openlocfilehash: eecd8397315b93ebce9e5fad973f1274a6eb763a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2c302793dc9f9c53d445d231a261bf43a0c385df
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196686"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814896"
 ---
 # <a name="sipresponsemetadata-table"></a>SIPResponseMetaData 테이블
  

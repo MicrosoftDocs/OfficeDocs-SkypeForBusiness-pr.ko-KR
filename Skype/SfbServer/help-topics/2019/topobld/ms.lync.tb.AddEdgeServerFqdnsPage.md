@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerFqdnsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: 액세스에 지 서비스에 대해 정규화 된 도메인 이름 (FQDN)을 지정 해야 합니다. 기능 선택 페이지에서 단일 FQDN &amp; IP 주소 사용 옵션을 선택 하지 않은 경우에는 웹 회의 Edge 서비스에 대 한 Fqdn과 a/V Edge 서비스도 지정 해야 합니다.
-ms.openlocfilehash: 17873a280a213f12bf8339d3b18e0bafdfbc44b1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2c7434331185006dd0c3b146872634ee7b9a40d8
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689477"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798215"
 ---
 # <a name="add-edge-server-fqdn"></a>Edge 서버 FQDN 추가
  

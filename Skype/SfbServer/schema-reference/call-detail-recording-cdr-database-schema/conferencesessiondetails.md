@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: ConferenceSessionDetails 보기는 단체 세션에 대 한 정보를 저장 합니다. 각 레코드는 하나의 회의 세션을 나타내며,이는 포커스가 있는 세션 또는 특정 회의 서버 세션 중 하나가 될 수 있습니다. 이 보기는 Microsoft Lync Server 2013에서 도입 되었습니다.
-ms.openlocfilehash: 96eec5450709d4b3fcb9958e387248062febce1b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3dc345c10836a34f99baa4d6a088ab152b23427d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196775"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815336"
 ---
 # <a name="conferencesessiondetails-view"></a>ConferenceSessionDetails 보기
  
@@ -60,8 +62,8 @@ ConferenceSessionDetails 보기는 단체 세션에 대 한 정보를 저장 합
 |**ResponseCode** <br/> |int  <br/> |세션 초대에 대 한 SIP 응답 코드입니다. 일반적으로이 필드는 세션의 초기 초대 메시지에서 생성 된 데이터에 의해 채워집니다. 초대 메시지가 없는 경우 첫 번째 관련 SIP 메시지의 날짜 및 시간 (BYE, 취소, 메시지 또는 정보)으로 필드가 채워집니다.  <br/> |
 |**DiagnosticId** <br/> |int  <br/> |세션 SIP 헤더에서 진단 ID를 캡처 했습니다.  <br/> |
 |**ContentType** <br/> |nvarchar (256)  <br/> |세션의 콘텐츠 형식입니다.  <br/> |
-|**프런트** <br/> |nvarchar (256)  <br/> |세션에 대 한 데이터를 캡처한 프런트 엔드 서버의 FQDN입니다.  <br/> |
-|**수영장** <br/> |nvarchar (256)  <br/> |세션에 대 한 데이터를 캡처한 풀의 FQDN입니다.  <br/> |
+|**FrontEnd** <br/> |nvarchar (256)  <br/> |세션에 대 한 데이터를 캡처한 프런트 엔드 서버의 FQDN입니다.  <br/> |
+|**풀** <br/> |nvarchar (256)  <br/> |세션에 대 한 데이터를 캡처한 풀의 FQDN입니다.  <br/> |
 |**MediationServer** <br/> |nvarchar (256)  <br/> |세션에 참가 한 사용자가 사용 하는 중재 서버입니다.  <br/> |
 |**게이트웨이와** <br/> |nvarchar (256)  <br/> |세션에 참가 한 사용자가 사용 하는 게이트웨이  <br/> |
 |**EdgeServer** <br/> |nvarchar (256)  <br/> |세션에 참가 한 사용자가 사용 하는 Edge 서버의 FQDN입니다.  <br/> |

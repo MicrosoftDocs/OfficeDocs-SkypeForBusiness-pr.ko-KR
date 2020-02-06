@@ -8,6 +8,8 @@ ms.date: 2/13/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -19,12 +21,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: '요약: Exchange 및 SharePoint와의 비즈니스용 Skype 서버 2015 통합에 대해 알아보세요.'
-ms.openlocfilehash: 18839125faee2dfd27ad3843e37b723f56581ff3
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 9d5f665d5bffede2de10c77735ea76fe55337af8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231149"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799808"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Exchange 및 Sharepoint와의 통합
 

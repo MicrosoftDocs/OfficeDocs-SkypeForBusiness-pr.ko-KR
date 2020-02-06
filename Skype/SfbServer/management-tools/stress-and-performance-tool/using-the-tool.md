@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: 비즈니스용 Skype 서버 2015 스트레스 및 성능 도구를 실행 하려면 사용자, 연락처 및 사용자 프로필을 모두 관리 하 고, 실행할 도구를 구성한 다음 도구에 의해 생성 되는 출력 또는 결과를 검토 해야 합니다.
-ms.openlocfilehash: af4d0dcb1cc4196f98941799c61dcf29510ba795
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 9920eb446452b9df23470a46c16eab754cc91577
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992485"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816147"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>비즈니스용 Skype 서버 2015 스트레스 및 성능 도구 사용
  

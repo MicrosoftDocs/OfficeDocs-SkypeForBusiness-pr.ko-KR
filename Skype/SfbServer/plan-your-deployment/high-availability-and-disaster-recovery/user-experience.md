@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: 비즈니스용 Skype 서버에서 재해 복구를 수행 하는 동안 프런트 엔드 풀이 장애 조치 되거나 다시 실패할 때 사용자가 경험 하는 문제에 대해 알아봅니다.
-ms.openlocfilehash: cc8ea8c51bebcffdbf0873f2f1a355cd648b6df0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 892601267f897050cff635d4d87bb4270e2e0e83
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196883"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802328"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 풀이 실패 하는 경우의 사용자 환경
  

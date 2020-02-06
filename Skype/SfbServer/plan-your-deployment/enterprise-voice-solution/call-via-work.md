@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: 비즈니스용 skype 서버와 PBX 전화 시스템 간 통합을 통해 통화 계획을 통해 사용자가 비즈니스용 Skype를 사용 하 여 PBX 전화를 제어할 수 있습니다.
-ms.openlocfilehash: b2f0e57a33f6e194dc981b623a641850ed3c8de5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 38c61145dcad609c75e7b2e3433efee307f8dc28
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187758"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803158"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 작업을 통한 통화 계획
  

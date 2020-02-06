@@ -8,18 +8,17 @@ ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.EdgeNetwork
-- ms.lync.plan.EdgeNetwork
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 대부분의 Edge 구성 요소는 경계 네트워크에 배포 됩니다. 다음 구성 요소는 경계 네트워크의 가장자리 토폴로지를 구성 합니다. 명시 된 경우를 제외 하 고, 구성 요소는 비즈니스용 Skype 서버 2015의 Edge 서버 시나리오의 일부 이며 주변 네트워크에 있습니다. Edge 구성 요소에는 다음이 포함 됩니다.
-ms.openlocfilehash: 34fc5663554c953ffc29c930962192dcaf51772c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 33346bfdb91053d4633cfdfdbcdd00db3e5504c3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684241"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816457"
 ---
 # <a name="edge-network-planning-tool"></a>Edge 네트워크 (계획 도구)
  

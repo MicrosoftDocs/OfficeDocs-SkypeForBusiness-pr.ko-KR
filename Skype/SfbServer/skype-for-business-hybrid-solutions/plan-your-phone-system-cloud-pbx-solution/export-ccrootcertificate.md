@@ -8,15 +8,17 @@ ms.date: 9/20/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1499e33c-6a7c-46b9-b9a1-f78d7853b45d
 description: Export-CcRootCertificate cmdlet은 비즈니스용 Skype 클라우드 커넥터 에디션 호스트 서버의 루트 CA 인증서를 로컬 파일로 내보냅니다.
-ms.openlocfilehash: 90eadb257d91a05c05fabbfe1db84b8160ad4a7c
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 2b252eba4688deb790d85b0c3663b09a9e85e7b9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003418"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41800918"
 ---
 # <a name="export-ccrootcertificate"></a>Export-CcRootCertificate
  

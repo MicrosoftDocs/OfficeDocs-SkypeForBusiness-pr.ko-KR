@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: '요약: 비즈니스용 Skype 서버에서 회의 토폴로지를 계획 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: 39067403513173e3fe26c5767042c62f549e0a7c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1b9d9024d90b4bd847c763747dad7a5f96616aa3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187857"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816017"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 회의 토폴로지 계획
  
@@ -82,7 +84,7 @@ ms.locfileid: "36187857"
     
     외부 비즈니스용 Skype 클라이언트는 인터넷에서 요청을 받아서 내부 네트워크에 전달 하는 서버 인 리버스 프록시 서버를 사용 하 여 비즈니스용 Skype 서버와 office Online Server에 연결할 수 있습니다. (내부 클라이언트는 Office Web Apps Server/Office Online Server에 직접 연결할 수 있으므로 리버스 프록시 서버를 사용할 필요가 없습니다.) 이 토폴로지는 비즈니스용 Skype Server 에서만 사용 하는 전용 Office Web Apps Server/Office Online Server 팜을 사용 하려는 경우에 가장 적합 합니다.
     
-- **외부에서 배포 된 Office Web Apps Server/Office Online Server를 사용 합니다.** 이 토폴로지에서는 비즈니스용 Skype 서버를 온-프레미스에 배포 하 고 비즈니스용 Skype Server 네트워크 영역 외부에 배포 된 Office Web Apps Server/Office Online Server를 사용 합니다. 이 문제는 Office Web Apps 서버/Office Online Server가 회사의 여러 응용 프로그램에서 공유 되었고 비즈니스용 Skype Server가 Office Web Apps Server/Office Online Server의 외부 인터페이스를 사용 해야 하는 네트워크에 배포 된 경우에 발생할 수 있습니다. 그 반대의 경우도 마찬가지입니다.
+- **외부에서 배포 된 Office Web Apps Server/Office Online Server를 사용 합니다.** 이 토폴로지에서는 비즈니스용 Skype 서버를 온-프레미스에 배포 하 고 비즈니스용 Skype Server 네트워크 영역 외부에 배포 된 Office Web Apps Server/Office Online Server를 사용 합니다. 이 문제는 Office Web Apps Server/Office Online Server가 회사의 여러 응용 프로그램에서 공유 되 고 비즈니스용 Skype Server가 Office Web Apps Server/Office Online Server의 외부 인터페이스를 사용 해야 하는 네트워크에 배포 되는 경우와 그 반대의 경우도 가능 합니다.
     
     역방향 프록시 서버를 설치할 필요는 없습니다. 대신 Office Web Apps 서버/Office Online Server에서 비즈니스용 Skype 서버에 대 한 모든 요청이 Edge 서버를 통해 라우팅됩니다. 내부와 외부 비즈니스용 Skype 클라이언트 모두 외부 URL을 사용 하 여 Office Web Apps 서버/Office Online 서버에 연결 합니다.
     

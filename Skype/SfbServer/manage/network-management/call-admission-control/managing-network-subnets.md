@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 호출 허용 제어 (CAC)가 구현 된 비즈니스용 Skype 서버를 대부분 배포 하는 경우에는 일반적으로 서브넷 수가 많습니다. 이 때문에 비즈니스용 Skype 서버 관리 셸에서 서브넷을 구성 하는 것이 가장 좋습니다.
-ms.openlocfilehash: 354dd43fd526ba2a6c6f88c8e1f30d0aae37b3bb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd7d71b3971b176939967830ca3e071ef4c77dbf
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188559"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817467"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 네트워크 서브넷 관리
 

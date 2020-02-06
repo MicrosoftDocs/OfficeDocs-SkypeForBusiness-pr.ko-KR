@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
 description: 각 레코드는 피어 투 피어 세션에 사용 되는 하나의 미디어 유형을 나타냅니다. 하나 이상의 미디어 유형이 사용 되는 경우 한 세션은 테이블의 여러 레코드로 표시 됩니다.
-ms.openlocfilehash: 181a78a9fc3fabe8c166f4cdc8c452b5a16b016b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b96f1e9fccf2ac3416e505eb19a54a5e227bb01f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196717"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815046"
 ---
 # <a name="media-table"></a>Media 테이블
  

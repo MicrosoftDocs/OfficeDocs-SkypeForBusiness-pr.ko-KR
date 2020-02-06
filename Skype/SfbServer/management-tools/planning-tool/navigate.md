@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: 도구 모음, 페이지 관련 단추 및 링크, 컨텍스트별 창을 조합 하 여 비즈니스용 Skype 서버 2015 계획 도구를 탐색 합니다. 컨텍스트별 창은 특정 페이지의 선택 옵션과 관련 된 계획 및 용량에 대 한 디자인 정보를 제공 합니다.
-ms.openlocfilehash: efb0f8ab745b2ce2fe4490dccaf58b79a1c1bf50
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e502f1bf068aef162befadddb9bef63cecffddc
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191259"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816327"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Lync Server 2013에서 계획 도구 탐색
 

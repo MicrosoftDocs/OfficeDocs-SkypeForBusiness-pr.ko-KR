@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
 description: Imreport요약 테이블은 조직에 보관 된 인스턴트 메시징 세션에 대 한 전반적인 보고서를 제공 합니다. 이 표는 Microsoft Lync Server 2013에서 도입 되었습니다.
-ms.openlocfilehash: 647b8dc3e48e56d126a65f524de90954b7aeca8f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f845a882bb8bd6ba5ca434ffc42a34725cfeac51
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36196736"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815146"
 ---
 # <a name="imreportsummary-table-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015의 IMReportSummary 테이블
  
