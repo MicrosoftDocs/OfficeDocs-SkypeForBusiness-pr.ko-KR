@@ -1,5 +1,5 @@
 ---
-title: 마이그레이션 후 간단한 Url 변경
+title: 마이그레이션 후 단순 URL 변경
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 비즈니스용 Skype 서버는 간단한 Url을 지원 합니다.
-ms.openlocfilehash: 806003a2639d3861c066248657521ceb58a4e986
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ab820c1b24eb9b2e8befc85a34e82d068c9083ea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239705"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813886"
 ---
-# <a name="change-simple-urls-after-migration"></a>마이그레이션 후 간단한 Url 변경
+# <a name="change-simple-urls-after-migration"></a>마이그레이션 후 단순 URL 변경
 
 비즈니스용 Skype 서버는 다음과 같은 세 가지 간단한 Url을 지원 합니다.
   

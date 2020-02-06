@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom: httpsfix
 description: 다음 항목에서는 DNS 항목 업데이트, 콘텐츠 관리 서버 이동, 풀 서비스 해제, 레거시 배포에서 서버 및 풀 비활성화 및 제거에 대 한 지침을 제공 합니다. 이 섹션에 나열 된 절차 중 일부는 필요 하지 않습니다. 설명서를 읽고 사용할 서비스 해제 프로시저를 결정 합니다.
-ms.openlocfilehash: 5edad470bcd7bcf0340a311a890f73ef01645138
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2398e9ce681edc2bba9f4f93d54f39d727bdb75e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237283"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813106"
 ---
-# <a name="phase-8-decommission-legacy-pools"></a>8 단계: 레거시 풀 서비스 해제
+# <a name="phase-8-decommission-legacy-pools"></a>8단계: 레거시 풀 해제
 
 다음 항목에서는 DNS 항목 업데이트, 콘텐츠 관리 서버 이동, 풀 서비스 해제, 레거시 배포에서 서버 및 풀 비활성화 및 제거에 대 한 지침을 제공 합니다. 이 섹션에 나열 된 절차 중 일부는 필요 하지 않습니다. 설명서를 읽고 사용할 서비스 해제 프로시저를 결정 합니다. 
   

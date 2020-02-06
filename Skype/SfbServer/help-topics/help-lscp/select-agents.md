@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.RgsSelAgent
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: 상담원은 응답 그룹 통화에 응답 하도록 지정 된 사용자입니다. 응답 그룹에는 해당 응답 그룹에 대한 전화를 받을 수 있는 에이전트를 식별하는 에이전트 그룹이 할당되어 있어야 합니다. 에이전트 그룹을 만드는 방법 중 하나는 적합한 사용자를 선택하여 사용자 지정 그룹을 정의하는 것입니다. 비즈니스용 Skype Server 및 Enterprise Voice에서 적격 사용자를 사용할 수 있습니다.
-ms.openlocfilehash: 74110e23778813390b89fe4fa727a1bf3b09cf8b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2950295bcf78ee2c7c904375d009a8fba085b85f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685981"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822311"
 ---
 # <a name="select-agents"></a>에이전트 선택
 

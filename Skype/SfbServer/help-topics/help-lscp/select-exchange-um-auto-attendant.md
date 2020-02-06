@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceFeaSelExchUM
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 description: Exchange UM 자동 전화 교환 선택 대화 상자를 사용 하 여 지정 되지 않은 범위의 범위에 대 한 수신 전화를 처리할 Exchange UM 자동 전화 교환을 선택 합니다.
-ms.openlocfilehash: 6734e8eafdf6133aeb8f0cb2d926bb66761b482a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a6814133c60b57dadb73da0cd9b49fc2997c4ac0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685890"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822231"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Exchange UM 자동 전화 교환 선택
  

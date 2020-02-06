@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceRoutePrefixEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: 접두사 또는 시작 번호를 정의 하려면 필요한 경우 +를 포함 하 여이 경로가 처리 해야 하는 숫자 접두사를 추가 합니다. 예를 들어 + 123부터 모든 숫자를 비교할 수 있습니다.
-ms.openlocfilehash: 0e995ce8973877e94ce5d9e5ad01eb738cf06a26
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4f98a511db607427300696495e9ec8643c82f5c5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686121"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822471"
 ---
 # <a name="prefix-edit"></a>접두사 편집
  

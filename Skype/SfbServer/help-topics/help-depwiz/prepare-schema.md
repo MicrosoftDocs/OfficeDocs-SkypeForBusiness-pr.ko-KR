@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainSchemaPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: Active Directory 도메인 서비스에 대 한 스키마를 준비 하려면 비즈니스용 Skype 서버 배포 마법사에서 스키마 준비 단계를 실행 합니다. 실행을 클릭하여 스키마 준비를 시작합니다. 스키마 준비 단계에서는 배포 마법사가 실행 중인 시스템의/Program Files/Microsoft Lync Server 2013/배포/설정 디렉터리에서 제공 된 스키마 정의 파일을 읽습니다. 이러한 파일은 지원/스키마 디렉터리의 설치 미디어 에서도 사용할 수 있습니다. 스키마 준비 단계에서 스키마를 확장하고 프로세스의 상태를 보고합니다. 또한 프로세스가 완료되면 알려 줍니다. 요약 화면에서 프로세스 로그를 볼 수 있습니다. 로그를 검토하여 준비가 완료 및 성공되었는지 확인합니다.
-ms.openlocfilehash: fd1e79411c9820013954be0add7b68c326188e9e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ae4c44adf8c94efa7b87c9f1a4f5f142a7117276
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700823"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823482"
 ---
 # <a name="prepare-schema"></a>스키마 준비
  

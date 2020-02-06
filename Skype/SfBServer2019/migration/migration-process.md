@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 비즈니스용 Skype 서버 2019에 대해 권장 되거나 지원 되는 마이그레이션 절차는 나란히 마이그레이션입니다. 이 항목에서는 나란히 마이그레이션을 사용 해야 하는 이유와 공존 테스트에 대 한 정보를 포함 합니다.
-ms.openlocfilehash: 6ef8a70aa436663b7ff88723800375eeef620b6d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7d8ce6513535871939894092850ad0526b1b6a63
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238085"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813416"
 ---
 # <a name="migration-process"></a>마이그레이션 프로세스
 

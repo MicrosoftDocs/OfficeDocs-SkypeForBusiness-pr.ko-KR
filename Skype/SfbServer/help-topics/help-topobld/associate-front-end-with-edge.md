@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AssociateFrontEndWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 description: '각 프런트 엔드 풀에는 연결된 하나의 에지 서버 또는 에지 풀만 있을 수 있습니다. 사이트에 대해 외부 사용자 액세스를 사용하도록 설정할 때 원격 사용자에 대한 지원을 제공할 수 있습니다. 또한 페더레이션 사용자에 대한 지원(특정 공용 IM(메신저 대화) 연결 공급자(예: Windows Live)의 사용자에 대한 지원을 포함할 수 있음) 및 익명 사용자에 대한 지원을 사용하도록 설정할 수 있습니다.'
-ms.openlocfilehash: c68195607feea74f29048affaf12662b2682ad39
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 949c111c718e314455cd6603472ce1bbb1d7e11c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684931"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820400"
 ---
 # <a name="associate-front-end-with-edge"></a>에지와 프런트 엔드 연결
 

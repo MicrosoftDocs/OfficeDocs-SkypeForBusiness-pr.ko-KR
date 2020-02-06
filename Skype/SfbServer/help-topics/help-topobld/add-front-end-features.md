@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddFrontEndFeaturesPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 description: 프런트 엔드 풀에 대해 사용할 각 기능을 선택 합니다. 최소한 IM (인스턴트 메시징)을 배포 해야 하며,이는 항상 사용할 수 있으며 선택 취소할 수 없습니다. 또한 회의, Enterprise Voice, call 허용 제어 (CAC) 등의 다른 기능을 배포 하는 옵션도 있습니다. 일부 기능은 토폴로지에 따라 달라 집니다.
-ms.openlocfilehash: b44fb728c8910ec5016f20f154606dd7708c141e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 44370d259a825888caf764742ba10f3ddad693fb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698273"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820890"
 ---
 # <a name="add-front-end-features"></a>프론트 엔드 기능 추가
 

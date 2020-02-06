@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 사용자 계정이 비즈니스용 Skype 서버 2019 서버로 이동 되 면 다음 정보가 해당 사용자 계정으로 이동 됩니다.
-ms.openlocfilehash: c8f87b46054a93af87c938d3da7a2a86be9cb0bf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6394ebf798560ce5a13fe7ba931076364257decc
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238513"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813476"
 ---
 # <a name="migrate-existing-meetings-and-meeting-content"></a>기존 모임 및 모임 콘텐츠 마이그레이션
 

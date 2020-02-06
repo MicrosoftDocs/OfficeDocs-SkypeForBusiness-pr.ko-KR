@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 요약:이 기능은 비즈니스용 Skype 서버 2019에서 제거 되었습니다.
-ms.openlocfilehash: 9fd6ddc28a3b75b8d4c411aa7909516d4b5c0ab8
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: f77ccecd0ab963c0707a7b1dc1d24083ed0c3729
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36197940"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813986"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019에서 더 이상 사용 되지 않는 기능
 

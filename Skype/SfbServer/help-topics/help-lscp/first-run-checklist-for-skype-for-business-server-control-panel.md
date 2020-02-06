@@ -8,17 +8,19 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.Home1stRunChkList
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: 비즈니스용 Skype 서버의 관리 및 관리를 위한 웹 기반 사용자 인터페이스인 비즈니스용 Skype 서버 제어판에 오신 것을 환영 합니다. 제어판을 사용하면 이전 릴리스의 Microsoft Management Console을 사용하여 수행했던 다양한 유형의 관리 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 4b22171b5094fa067bff683ed05477caf68afcd9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 05fb040a683b81ae2b9b36c6018f7e52ef93d58f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700153"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822771"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판에 대한 첫 번째 실행 검사 목록
 

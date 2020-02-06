@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.SecRegistrarEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 description: 무슨 작업을 수행하시겠습니까? 수행 하려는 작업에 대 한 링크를 클릭 합니다.
-ms.openlocfilehash: c0f2203f2637302dc79ea653fad17b856aec05e8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 252a2cfc9d39456e6fa9562a7df8badd18ae01e9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699803"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822421"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>도메인 대행업체 보안 설정: 새로 만들기 또는 기존 항목 편집
 

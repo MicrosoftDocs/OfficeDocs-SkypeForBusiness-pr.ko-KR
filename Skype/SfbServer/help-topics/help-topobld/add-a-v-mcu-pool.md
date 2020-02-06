@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddAvMcuPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 description: Collocated A/V 회의 서비스를 보유 하 고 있지 않은 중앙 사이트의 모든 Enterprise Edition 프런트 엔드 서버는 동일한 독립 실행형 A/V 회의 풀을 사용할 수 있습니다. 각 A/V 회의 풀에 대해 풀의 FQDN (정규화 된 도메인 이름)을 지정 하 고 단일 A/V 회의 서버 또는 부하 분산 된 여러 A/V 회의 서버를 포함 해야 합니다.
-ms.openlocfilehash: cf34ca6b82f31b0232748d15f0b0cc6597511249
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1d78a9d24659ec2ad571c01528323796e7ae5d18
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685391"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821320"
 ---
 # <a name="add-av-mcu-pool"></a>A/V MCU 풀 추가
  

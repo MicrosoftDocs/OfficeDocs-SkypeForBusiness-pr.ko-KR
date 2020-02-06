@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: XMPP federation는 XMPP (확장할 수 있는 메시징 및 현재 상태 프로토콜)를 기반으로 외부 배포를 정의 합니다. XMPP 구성을 사용 하면 사용자가 다음과 같은 방법으로 XMPP 도메인 사용자에 게 액세스할 수 있습니다.
-ms.openlocfilehash: 01adcbe06718068e84844f704858e04198b197b2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8182153bf3633b2392969f5870a7d5b96471d4fb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239547"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813766"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>XMPP 게이트웨이 액세스 정책 및 인증서 구성
 

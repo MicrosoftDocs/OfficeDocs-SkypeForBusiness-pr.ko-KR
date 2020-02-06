@@ -8,18 +8,20 @@ ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.Federation
 - ms.lync.plan.Federation
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: 내부 및 외부 사용자가 파트너 조직 또는 서비스에서 연락처에 액세스할 수 있도록 Edge 서버를 구성할 수 있습니다.
-ms.openlocfilehash: d3bb5838307d64f3d297e751123746c55a0539e7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d3f2157fd418938c5df888d4fdc1ddb743ac163e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685451"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821460"
 ---
 # <a name="federation-planning-tool"></a>페더레이션 (계획 도구)
  

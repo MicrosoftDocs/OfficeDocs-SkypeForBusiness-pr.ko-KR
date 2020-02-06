@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: 모임 구성 설정은 사용자가 만들 수 있는 회의의 종류 (또한 calledmeetings)를 정의 하 고 익명 사용자와 전화 접속 회의 사용자가 이러한 회의에 참가할 수 있는 방법을 제어 합니다. 이러한 설정은 예약된 모임에만 적용됩니다. 즉, 클라이언트에서 모임 시작 옵션을 클릭하여 만든 임시 모임의 경우 이러한 설정이 적용되지 않습니다.
-ms.openlocfilehash: 5e4d0b11bc169b7658061e33fdfb8ddf0bd4b044
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e237e9c5122547338f9ea33848a22b87fabce368
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700043"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822681"
 ---
 # <a name="meeting-configuration"></a>모임 구성
 

@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -18,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 온-프레미스 PSTN 연결을 구현 하는 패키지 된 Vm (가상 컴퓨터) 용 Skype 클라우드 커넥터 에디션에 대 한 정보를 찾습니다.
-ms.openlocfilehash: 3b95c1cca24b6faac8a6cf2807b6af324fdc57bd
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 20ea88b230fe0fd9a590c489cb6f0017a2c27209
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002278"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814466"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>비즈니스용 Skype 클라우드 커넥터 에디션 계획
 

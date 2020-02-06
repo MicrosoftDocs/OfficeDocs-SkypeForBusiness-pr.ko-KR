@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.UserPinNum
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 description: 전자 메일을 사용 하 여 사용자에 게 PIN을 보내려면 내 전자 메일 응용 프로그램 열기를 클릭 하 여 새 PIN을 사용자에 게 보냅니다. 전자 메일 메시지에 PIN을 복사 하려면 PIN 표시를 선택 합니다.
-ms.openlocfilehash: 5e965d71ed16e6752711914bbfc5cedf8961be33
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dd26740ddeaa61198798cf2edcb1b308f2fbe66f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699843"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822481"
 ---
 # <a name="pin-set-successfully"></a>PIN 설정 완료
  

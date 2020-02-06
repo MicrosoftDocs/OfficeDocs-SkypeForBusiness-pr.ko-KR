@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 기존 Survivable Branch 기기 또는 Survivable Branch 서버에 대 한 설정을 편집 하려면 다음 섹션이 표시 됩니다.
-ms.openlocfilehash: fcef74d0104ef758b9ca32819fd74adee303a3a1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ebc3c0d0961fd239ad2b72469b1029ac7b7274d0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684881"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820300"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Branch Office Appliance 일반 설정 확장기
 

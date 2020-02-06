@@ -8,6 +8,8 @@ ms.date: 1/26/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -18,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 온-프레미스 PSTN 연결을 사용 하는 클라우드 PBX (Office 365)에서 전화 시스템의 계획 고려 사항에 대해 알아봅니다.
-ms.openlocfilehash: 1ca12d1680b56612c2e6f3a1785ee615138294ce
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a134b4dbe48d302ee8be8df528e6bbebac336b8e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36197836"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814486"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 온-프레미스 PSTN 연결을 사용 하 여 Office 365의 전화 시스템 계획
 
@@ -106,7 +108,7 @@ Office 365에서 온-프레미스 PSTN 연결을 사용 하 여 전화 시스템
     > [!NOTE]
     > 사용 하는 AAD Connect 버전은 버전 1.0.9125.0 이상 이어야 합니다. 이전 버전의 AAD Connect 도구 또는 DirSync을 사용 하는 경우 지원 되는 버전으로 업그레이드 하세요. 현재 설치를 업그레이드 하 고 환경에 정의한 사용자 지정 규칙을 유지 관리할 수 있습니다. 
 
-- **하이브리드 배포 구성** 현재 모든 비즈니스용 Skype 사용자가 온라인 또는 온-프레미스에 설치 되어 있는지 여부 또는 현재 mix가 있는 경우 하이브리드 배포에서 설명한 대로 비즈니스용 Skype Server 또는 Lync Server 2013의 하이브리드 배포를 구성 하는 단계를 완료 해야 합니다. [ 비즈니스용 Skype 서버와 Office 365를 연결](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)합니다. 하이브리드 배포에 대 한 자세한 내용은 비즈니스용 [Skype 서버 및 Office 365 하이브리드 연결 계획](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)을 참조 하세요. 
+- **하이브리드 배포 구성** 현재 모든 비즈니스용 Skype 사용자가 온라인 또는 온-프레미스에 연결 되어 있는지 여부 또는 현재 mix가 있는 경우 비즈니스용 skype [서버와 Office 365의 하이브리드 연결 배포](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)에 명시 된 대로 비즈니스용 skype Server 또는 Lync server 2013의 하이브리드 배포를 구성 하는 단계를 완료 해야 합니다. 하이브리드 배포에 대 한 자세한 내용은 비즈니스용 [Skype 서버 및 Office 365 하이브리드 연결 계획](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)을 참조 하세요. 
 
     Lync Server 2013를 사용 하는 경우 [Lync server 2013 하이브리드](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx)을 참조 하세요.
 

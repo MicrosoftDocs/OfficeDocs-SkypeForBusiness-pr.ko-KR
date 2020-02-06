@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientMobilityPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: ClientsMobility Policy (정책) 페이지에는 배포에서 사용할 수 있는 이동성 정책이 표시 됩니다.
-ms.openlocfilehash: 0fa7a0fb406bd164baa27c7a2cbbfd1c46d21467
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 44a61af0da2026a96bdd422b3595869d5ad27966
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700413"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823051"
 ---
 # <a name="clients-mobility-policy"></a>클라이언트: 이동성 정책
 

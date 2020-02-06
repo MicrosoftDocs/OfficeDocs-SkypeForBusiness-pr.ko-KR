@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 풀을 서비스 해제 하기 전에 먼저 레거시 풀의 각 회의 디렉터리에 대해 다음 절차를 수행 해야 합니다.
-ms.openlocfilehash: 1cd4a3a3359ec1638c3ae93c6ce81d8ba2227b96
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: bdcb816a91f6bc4a4372141595e46ba2369618a6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988943"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813286"
 ---
 # <a name="move-conference-directories"></a>회의 디렉터리 이동
 

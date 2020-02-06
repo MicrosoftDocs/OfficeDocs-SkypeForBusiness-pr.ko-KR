@@ -8,17 +8,19 @@ ms.date: 5/21/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.UserMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 검색 쿼리의 결과를 사용 하 여 비즈니스용 Skype 서버용 사용자를 구성할 수 있습니다. 표시 이름, 성, 이름, SAM (보안 계정 관리자) 계정 이름, SIP 주소 또는 URI (Uniform Resource Identifier)를 기준으로 사용자를 검색할 수 있습니다. Lync Server 제어판 또는 Active Directory 사용자 및 컴퓨터 스냅인을 사용 하 여 사용자를 검색할 수도 있습니다.
-ms.openlocfilehash: 75682c6cc732ce94baf312ddae847b5bb8bf37ec
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4d0fc01a5843408effa69aceb5c95a74c875213a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686831"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822941"
 ---
 # <a name="control-panel---updated-user-search"></a>사용자 검색
 

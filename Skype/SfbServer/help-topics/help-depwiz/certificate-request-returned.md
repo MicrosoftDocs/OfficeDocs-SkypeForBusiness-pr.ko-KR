@@ -8,17 +8,19 @@ ms.date: 4/1/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestReturned
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: 온라인 인증서 요청 상태 페이지에는 온라인 인증서 요청을 성공적으로 만들고 발급 한 결과로 발생 하는 중요 한 정보가 표시 됩니다. 이 페이지에서는 인증서를 고유 하 게 식별 하는 인증서 지문을 제공 합니다. 기본적으로이 인증서를 비즈니스용 Skype 서버 인증서 용도에 할당 확인란을 선택 합니다. 마침을 클릭 하면 인증서 요청의 생성 단계 중에 정의한 목적으로 Lync Server 2013에 인증서가 자동으로 할당 됩니다. 기본적으로 인증서가 할당 되는 용도는 다음과 같습니다.
-ms.openlocfilehash: 885de54ec8deeef1d326e39b5a35e7b08c633973
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7b4ee3d615de0d0d58e041ba1860cc1cd2d34219
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687751"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823812"
 ---
 # <a name="certificate-request-returned"></a>인증서 요청(반환됨)
  

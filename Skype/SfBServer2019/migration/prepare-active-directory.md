@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 비즈니스용 Skype Server 2019을 공존 상태로 배포 하기 전에, 몇 가지 추가 Active Directory 작업을 수행 하 여 비즈니스용 Skype Server 2019에 대 한 스키마, 포리스트 및 도메인을 구성 해야 합니다. 스키마 확장에서는 비즈니스용 Skype Server 2019에 필요한 Active Directory 클래스 및 특성을 추가 합니다. 자세한 내용은 비즈니스용 Skype Server 2019 Active Directory 도메인 서비스 준비 항목을 참조 하세요.
-ms.openlocfilehash: 286c4df4cc371a9869e6b84cf5048b21e6c54f6c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 308a2b7d34de3b63e703a9f9d5318e46f95a90a7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244581"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813076"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 Active Directory 준비
 

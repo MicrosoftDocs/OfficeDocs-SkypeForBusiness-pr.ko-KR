@@ -8,18 +8,20 @@ ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.WebConferencing
 - ms.lync.plan.WebConferencing
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: 비즈니스용 Skype 서버 2015 웹 회의에는 문서 공동 작업, 응용 프로그램 공유, 데스크톱 공유가 포함 되어 있습니다.
-ms.openlocfilehash: a516e39833496361bccfdc1d990950c492aee2dc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3458f66ceda99c720201cea6bdd229bef2f81492
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698743"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821350"
 ---
 # <a name="web-conferencing-planning-tool"></a>웹 회의 (계획 도구)
  

@@ -8,17 +8,19 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ConfCAASelRegion
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
 description: 지역 선택 대화 상자를 사용하여 사용자의 환경에서 사용 가능한 지역을 찾습니다. 기존 지역을 사용하려면 목록에서 지역을 클릭한 다음 확인을 클릭합니다.
-ms.openlocfilehash: e9e137519083a49d4fedbe73116666d502423251
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 461209812d626494f2de3bfa1cf48ba0c7a5d956
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699543"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822141"
 ---
 # <a name="select-regions"></a>지역 선택
  

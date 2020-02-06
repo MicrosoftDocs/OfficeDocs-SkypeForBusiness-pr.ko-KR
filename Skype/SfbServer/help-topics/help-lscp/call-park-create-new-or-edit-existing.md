@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceFeaCallParkEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: 통화 공원 번호 범위는 사용자가 검색 하거나 시간 초과 될 때까지 파킹 된 통화가 대기 하는 임시 번호를 정의 합니다.
-ms.openlocfilehash: 6b67200de60e9ed55969468351419c10ecabe5bc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0403411f6d6b1b084f6766b2620718aa99d77f13
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686981"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823111"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>통화 대기: 새로 만들기 또는 기존 항목 편집
 

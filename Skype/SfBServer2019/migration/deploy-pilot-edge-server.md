@@ -1,5 +1,5 @@
 ---
-title: 파일럿에 지 서버 배포
+title: 파일럿 Edge 서버 배포
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 이 항목에서는 비즈니스용 Skype Server 2019 Edge 서버를 배포 하기 전에 알아야 하는 구성 설정을 강조 합니다. 비즈니스용 Skype Server 2019의 배포 및 구성 프로세스는 비즈니스용 Skype 서버 2015와 매우 유사 합니다. 이 섹션에서는 파일럿 풀 배포의 일부로 고려해 야 하는 주요 요점만 중점적으로 설명 합니다. 자세한 단계는 배포 프로세스를 설명 하는 배포 설명서의 비즈니스용 Skype 서버 2019 외부 사용자 액세스 배포를 참조 하 고 외부 사용자 액세스에 대 한 구성 정보도 제공 합니다.
-ms.openlocfilehash: b416ba38646d05f3d10a7d2643c01924fe57020a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c2beb22e2cce608b692884ad9b49fef40cb87058
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238956"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813656"
 ---
-# <a name="deploy-pilot-edge-server"></a>파일럿에 지 서버 배포
+# <a name="deploy-pilot-edge-server"></a>파일럿 Edge 서버 배포
 
 이 항목에서는 비즈니스용 Skype Server 2019 Edge 서버를 배포 하기 전에 알아야 하는 구성 설정을 강조 합니다. 비즈니스용 Skype Server 2019의 배포 및 구성 프로세스는 비즈니스용 Skype 서버 2015와 매우 유사 합니다. 이 섹션에서는 파일럿 풀 배포의 일부로 고려해 야 하는 주요 요점만 중점적으로 설명 합니다. <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->

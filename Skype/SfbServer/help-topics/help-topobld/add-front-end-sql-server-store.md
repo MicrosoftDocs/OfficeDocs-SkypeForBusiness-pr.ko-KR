@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddFrontEndSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 description: 표준 버전 서버 배포는 필요한 Microsoft SQL Server Express 데이터베이스 소프트웨어 및 SQL Server 데이터베이스를 자동으로 설치 합니다. 따라서 모든 옵션이 미리 채워져 있으며 기본 구성을 변경할 수 없습니다.
-ms.openlocfilehash: b2f3aef2b48981368a74d536254da55ae5e0495d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 865f9a63902124c57232ba8d8c591622dcbfd84a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685141"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820820"
 ---
 # <a name="add-front-end-sql-server-store"></a>프론트 엔드 SQL Server 저장소 추가
 

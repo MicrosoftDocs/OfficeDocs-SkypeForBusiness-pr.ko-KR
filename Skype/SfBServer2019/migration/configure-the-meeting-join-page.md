@@ -7,14 +7,16 @@ manager: serdars
 audience: End User
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 사용자가 모임 요청에서 모임 링크를 클릭 하면 모임 참가 페이지에서 사용자 컴퓨터에 이미 설치 되어 있는 클라이언트를 감지 합니다. 클라이언트가 이미 설치 되어 있는 경우 해당 클라이언트에서 모임에 참가 하 고 참석 합니다. 클라이언트가 설치 되어 있지 않으면 기본적으로 웹 앱이 열립니다.
-ms.openlocfilehash: 5c9e6653783d90411e0f701b5d3395c569d8bdff
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 35b8b816d5c01f3061dc697cf7f37a4314a5f083
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989563"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813796"
 ---
 # <a name="configure-the-meeting-join-page"></a>모임 참가 페이지 구성
 

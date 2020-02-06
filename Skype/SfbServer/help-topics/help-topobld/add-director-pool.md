@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddDirectorPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 description: 디렉터 풀 FQDN을 정의 하려면 부하 분산 된 풀 또는 단일 컴퓨터 풀에 두 개 이상의 디렉터로 구성 되는 다중 컴퓨터 풀을 선택 합니다. 또한 디렉터 풀 또는 단일 디렉터의 FQDN에 연결 하는 데 사용 되는 FQDN (정규화 된 도메인 이름)을 입력 해야 합니다. 디렉터 컴퓨터 풀의 경우 하드웨어 로드 균형 조정기의 가상 IP에 대 한 DNS (도메인 이름 시스템) 항목이 나 DNS 부하 분산에 대 한 공유 DNS 항목이 될 수 있습니다.
-ms.openlocfilehash: 150975cedf09c19acac1afffab25f5becf053fe3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1a419c6a27118cbdf7ffe841a39b9b60e6e84577
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698573"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821190"
 ---
 # <a name="add-director-pool"></a>Director 풀 추가
  

@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 이 섹션의 항목에서는 비즈니스용 Skype Server 2019로 마이그레이션하는 과정을 안내 합니다.
-ms.openlocfilehash: 8e58eaa3870e8149e874a1ec196a728976f429f3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 51c3be10b90198e1abe24172aa35ab167e871739
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238088"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813406"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>비즈니스용 Skype 서버 2019 마이그레이션
 
@@ -40,22 +42,22 @@ ms.locfileid: "36238088"
     
 ## <a name="in-this-section"></a>이 섹션의
 
-- [마이그레이션을 시작 하기 전에](before-you-begin-the-migration.md)
+- [마이그레이션을 시작하기 전에](before-you-begin-the-migration.md)
     
-- [1 단계: 마이그레이션 계획](phase-1-plan-your-migration.md)
+- [1단계: 마이그레이션 계획](phase-1-plan-your-migration.md)
     
-- [2 단계: 마이그레이션 준비](phase-2-prepare-for-migration.md)
+- [2단계: 마이그레이션 준비](phase-2-prepare-for-migration.md)
     
-- [3 단계: 파일럿 풀 배포](phase-3-deploy-pilot-pool.md)
+- [3단계: 파일럿 풀 배포](phase-3-deploy-pilot-pool.md)
     
 - [4 단계: 시험 운용 풀로 테스트 사용자 이동](phase-4-move-test-users-to-the-pilot-pool.md)
     
-- [5 단계: 파일럿 풀에 Edge 서버 추가](phase-5-add-edge-server-to-pilot-pool.md)
+- [5단계: 파일럿 풀에 Edge 서버 추가](phase-5-add-edge-server-to-pilot-pool.md)
     
-- [6 단계: 파일럿 배포에서 프로덕션으로 이동](phase-6-move-from-pilot-deployment-into-production.md)
+- [6단계: 파일럿 배포에서 프로덕션으로 이동](phase-6-move-from-pilot-deployment-into-production.md)
     
-- [7 단계: 마이그레이션 후 작업 완료](phase-7-complete-post-migration-tasks.md)
+- [7단계: 마이그레이션 후 작업 완료](phase-7-complete-post-migration-tasks.md)
     
-- [8 단계: 레거시 풀 서비스 해제](phase-8-decommission-legacy-pools.md)
+- [8단계: 레거시 풀 해제](phase-8-decommission-legacy-pools.md)
     
 

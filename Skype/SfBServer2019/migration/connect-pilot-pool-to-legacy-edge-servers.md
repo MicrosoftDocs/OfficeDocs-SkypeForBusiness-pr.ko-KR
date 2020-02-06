@@ -1,5 +1,5 @@
 ---
-title: 레거시 Edge 서버에 파일럿 풀 연결
+title: 레거시 에지 서버에 파일럿 풀 연결
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 비즈니스용 Skype 서버 2019을 배포한 후에는 사이트에 대 한 페더레이션 경로를 구성 해야 합니다. 레거시 설치에 사용 되는 페더레이션 경로를 사용 하기 위해서는이 경로를 사용 하도록 비즈니스용 Skype 서버 2019를 구성 해야 합니다.
-ms.openlocfilehash: 7a5a65e1488d5a119e3d11affbbaa9995a06626e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6cc49da3cb27679ef295c7bbeca122aea5a89d10
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239555"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813706"
 ---
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>레거시 Edge 서버에 파일럿 풀 연결
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>레거시 에지 서버에 파일럿 풀 연결
 
 비즈니스용 Skype 서버 2019을 배포한 후에는 사이트에 대 한 페더레이션 경로를 구성 해야 합니다. 레거시 설치에 사용 되는 페더레이션 경로를 사용 하기 위해서는이 경로를 사용 하도록 비즈니스용 Skype 서버 2019를 구성 해야 합니다. 
   

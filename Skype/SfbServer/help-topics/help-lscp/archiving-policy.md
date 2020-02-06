@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 보관 정책을 사용 하 여 비즈니스용 Skype 서버에 속한 사용자의 보관을 사용 하도록 설정 하거나 해제 합니다. 각 보관 정책에서 다음 중 하나 또는 둘 다에 대해 보관을 사용하거나 사용하지 않도록 설정할 수 있습니다.
-ms.openlocfilehash: c0bd80dcbe2c140d861829ff5bd1476d070423ba
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 230b27a0d87b553f64b209e5aa3d464e88ae370a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687021"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823191"
 ---
 # <a name="archiving-policy"></a>보관 정책
  

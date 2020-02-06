@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 이 항목에는 비즈니스용 Skype Server 2019로 마이그레이션하기 전에 수행 해야 하는 권장 되는 클라이언트 배포 단계가 포함 되어 있습니다. 이러한 구성 변경은 Lync Server 2013 또는 비즈니스용 Skype Server 2015에서 이루어져야 합니다.
-ms.openlocfilehash: 1a674c6aa0d9082aa9887f618ab3a56dd12c2982
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 773a995508d6662b84830cc0a248e666dbaa4420
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239718"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813866"
 ---
 # <a name="configure-clients-for-migration"></a>마이그레이션을 위한 클라이언트 구성
 
-이 항목에는 비즈니스용 Skype Server 2019로 마이그레이션하기 전에 수행 해야 하는 권장 되는 클라이언트 배포 단계가 포함 되어 있습니다. 이러한 구성 변경은 Lync Server 2013 또는 비즈니스용 Skype Server 2015 (마이그레이션하는 버전)에서 수행 해야 합니다. ****
+이 항목에는 비즈니스용 Skype Server 2019로 마이그레이션하기 전에 수행 해야 하는 권장 되는 클라이언트 배포 단계가 포함 되어 있습니다. 이러한 구성 변경은 Lync Server 2013 또는 비즈니스용 Skype Server 2015 **(마이그레이션하는 버전)에서 수행**해야 합니다.
   
 ### <a name="to-configure-clients-before-migration"></a>마이그레이션을 수행 하기 전에 클라이언트를 구성 하려면
 

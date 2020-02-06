@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 파일럿 풀을 배포 하기 전에 파일럿 풀에 대 한 DNS 호스트 항목을 업데이트 해야 합니다. 이 절차를 완료 하려면 Domain Admins 그룹의 구성원 또는 DnsAdmins 그룹의 구성원으로 서버나 도메인에 로그온 해야 합니다.
-ms.openlocfilehash: 0de8e144ea8d77e7ffa86562c120a54e3ec61ae0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 94e5047dc82b0ddb55b03ad5c466011878c05ae7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239662"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813856"
 ---
 # <a name="configure-dns-records-for-pilot-pool-deployment"></a>파일럿 풀 배포를 위한 DNS 레코드 구성
 

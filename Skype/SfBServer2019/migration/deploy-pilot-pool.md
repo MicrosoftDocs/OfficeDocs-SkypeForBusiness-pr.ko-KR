@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 비즈니스용 Skype Server 2019 마이그레이션에 필요한 첫 번째 단계 중 하나는 파일럿 풀을 배포 하는 것입니다. 파일럿 풀은 레거시 배포의 비즈니스용 Skype 서버 2019 공존을 테스트 하는 위치입니다. 공존은 모든 사용자와 풀을 비즈니스용 Skype 서버 2019으로 이동할 때까지 지속 되는 임시 상태입니다.
-ms.openlocfilehash: dc0e5b984aaa9ed931f3937b253fbe40aef9b051
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 55f7383300ba8fbe1623e63bc42aa40102dd8b41
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238858"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813646"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>비즈니스용 Skype 서버 배포 2019 파일럿 풀
 
@@ -54,7 +56,7 @@ ms.locfileid: "36238858"
   
 11. 게시 프로세스가 완료 되 면 **마침을**클릭 합니다.
 
-12. "레거시 풀과 함께 조종사 풀 공존 여부 확인" 이라는 다음 섹션으로 이동 하기 전에 먼저 게시 된 토폴로지에서 정의한 비즈니스용 Skype Server의 새 프런트 엔드 파일럿 풀을 설치 해야 하며 여기에 나와 있는 Skype 설치 절차를 따르세요. [ 토폴로지에 있는 서버의 비즈니스 서버](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+12. "레거시 풀과 함께 조종사 풀 공존을 확인" 이라는 다음 섹션으로 이동 하기 전에 먼저 게시 된 토폴로지에서 정의한 비즈니스용 Skype Server의 새 프런트 엔드 파일럿 풀을 설치 해야 합니다. 여기에 설명 된 절차에 따라 [토폴로지에 있는 서버에 비즈니스용 Skype 서버 설치](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
 
 13. 이전 단계가 완료 되 면 다음 섹션으로 이동 하 여 레거시 풀과의 파일럿 풀 공존을 확인 합니다.
     

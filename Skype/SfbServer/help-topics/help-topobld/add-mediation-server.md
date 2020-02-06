@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddMediationServerPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 965eda6f-5d11-4b94-8cc4-5968bc4e7018
 description: 중재 서버를 정의 하려면 중재 서버 풀에 대 한 FQDN (정규화 된 도메인 이름)을 지정 합니다. 중재 서버 풀을 만드는 경우 배포 하는 중재 서버에 대 한 풀의 이름을 지정 합니다. 다른 단계에서 개별 서버의 FQDN을 정의합니다. 단일 중재 서버를 배포 하는 경우 사용자가 지정 하는 FQDN은 단일 중재 서버의 FQDN입니다. 자세한 내용은 비즈니스용 Skype 서버 2015의 토폴로지 작성기에서 중재 서버 배포를 참조 하세요.
-ms.openlocfilehash: e60fe7faa5191329a445a774cb885ee5d42e04da
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4bbd97927aaf31ce57809f340f80fac66ab4c44e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685111"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820760"
 ---
 # <a name="add-mediation-server"></a>중재 서버 추가
  

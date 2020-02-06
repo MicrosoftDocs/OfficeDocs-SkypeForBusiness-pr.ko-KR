@@ -1,5 +1,5 @@
 ---
-title: 클라우드 커넥터 에디션의 미디어 바이패스 계획
+title: 클라우드 커넥터 버전에서 미디어 바이패스 계획
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -8,20 +8,22 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: 이 항목을 참조 하 여 클라우드 커넥터 버전 버전 2.0 이상에서 미디어 바이패스를 구현 하기 위한 계획 고려 사항을 검토 하세요. 미디어 바이패스 배포에 대 한 자세한 내용은 클라우드 커넥터 에디션에 미디어 바이패스 배포를 참조 하세요.
-ms.openlocfilehash: 00f700880e26f12da3aa6c2d791e4f15bfe9a90b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 67598cbe31dac074bf360ba6fe1462544fe12c5b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190722"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814496"
 ---
-# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>클라우드 커넥터 에디션의 미디어 바이패스 계획
+# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>클라우드 커넥터 버전에서 미디어 바이패스 계획
  
 이 항목을 참조 하 여 클라우드 커넥터 버전 버전 2.0 이상에서 미디어 바이패스를 구현 하기 위한 계획 고려 사항을 검토 하세요. 미디어 바이패스 배포에 대 한 자세한 내용은 [클라우드 커넥터 에디션에 미디어 바이패스 배포](deploy-media-bypass-in-cloud-connector.md)를 참조 하세요.
   

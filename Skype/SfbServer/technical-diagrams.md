@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: hub-page
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: '요약: 비즈니스용 Skype 서버를 계획, 구현 또는 관리 하는 동안 필요에 따라이 포스터를 검토 합니다.'
-ms.openlocfilehash: 60c7550d095c68f5fff1a7d9da8292adaa86922c
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: 2b2d7383c2f9df5c4f05a0e53e7c5afae0db5609
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002252"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814096"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 기술 다이어그램
 

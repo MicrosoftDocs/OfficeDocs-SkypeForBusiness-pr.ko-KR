@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientPushNotificationCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: Microsoft 푸시 알림 및 Apple 푸시 알림을 구성 하려면 필요한 푸시 알림 유형을 정의 하는 정책을 만들어야 합니다.
-ms.openlocfilehash: 36cf19d42a2378e024f90d3dbe60123b3d5473fa
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3fde99c3f026f87197492417cd10611d96f7e20e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700033"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822661"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>모바일 클라이언트: 푸시 알림 구성
  

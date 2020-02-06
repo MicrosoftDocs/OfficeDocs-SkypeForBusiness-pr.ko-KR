@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 통화 대기 응용 프로그램의 마이그레이션에는 비즈니스용 Skype 서버 2019 풀을 레거시 설치에 업로드 된 보류 파일에 있는 사용자 지정 음악으로 프로 비전 하 고, 서비스 수준 설정을 복원 하 고, 모든 통화 공원 orbits 비즈니스용 Skype 서버 2019 풀. 사용자 지정 된 음악 보관 파일을 풀에서 구성한 경우 이러한 파일을 새 비즈니스용 Skype Server 2019 풀에 복사 해야 합니다. 또한 통화 대기를 위해 업로드 된 사용자 지정 음악 보관 파일에 대 한 별도의 백업 복사본을 유지 하기 위해 모든 통화 공원 사용자 지정 된 음악 파일을 다른 대상에 백업 하는 것이 좋습니다. 통화 공원 응용 프로그램에 대해 사용자 지정 된 음악 보관 파일은 풀의 파일 저장소에 저장 됩니다. 풀 파일 저장소의 오디오 파일을 비즈니스용 Skype 서버 2019 파일 저장소에 복사 하려면 다음 매개 변수와 함께 Xcopy 명령을 사용 합니다.
-ms.openlocfilehash: 0435144fc647a08d8252f35d8449d1e7daa62d68
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: b9e55bc76e718d499482fb21e029a0a74e8f207f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991163"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813586"
 ---
 # <a name="migrate-call-park-application-settings"></a>통화 대기 응용 프로그램 설정 마이그레이션
 

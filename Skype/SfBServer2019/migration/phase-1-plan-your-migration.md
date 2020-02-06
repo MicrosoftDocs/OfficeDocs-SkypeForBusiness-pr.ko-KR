@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 이 섹션에서는 비즈니스용 Skype Server 2019 마이그레이션에 대 한 계획 항목을 다룹니다.
-ms.openlocfilehash: a6ad11da076decd447d337c6ece6cd93709f32b2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5bf8ad0ccd11ffff4a09b39cba05eff7b1559470
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244686"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813236"
 ---
-# <a name="phase-1-plan-your-migration"></a>1 단계: 마이그레이션 계획
+# <a name="phase-1-plan-your-migration"></a>1단계: 마이그레이션 계획
 
 이 섹션에서는 비즈니스용 Skype Server 2019 마이그레이션에 대 한 계획 항목을 다룹니다. 
   

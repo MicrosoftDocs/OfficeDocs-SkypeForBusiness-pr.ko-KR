@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 이 섹션의 항목에서는 비즈니스용 Skype Server 2019에 대 한 마이그레이션을 완료 한 후 수행 해야 하는 작업에 대해 설명 합니다.
-ms.openlocfilehash: 9ac11178132ef08157e08bec63cd20127e9582b1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 72b89831f2b3e0811e4dce810ccad9f02e35424f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244626"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813116"
 ---
-# <a name="phase-7-complete-post-migration-tasks"></a>7 단계: 마이그레이션 후 작업 완료
+# <a name="phase-7-complete-post-migration-tasks"></a>7단계: 마이그레이션 후 작업 완료
 
 이 섹션의 항목에서는 비즈니스용 Skype Server 2019에 대 한 마이그레이션을 완료 한 후 수행 해야 하는 작업에 대해 설명 합니다.
   
@@ -26,7 +28,7 @@ ms.locfileid: "36244626"
     
 - [전화 접속 액세스 번호 마이그레이션](migrate-dial-in-access-numbers.md)
     
-- [통화 공원 앱 설정 마이그레이션](migrate-call-park-application-settings.md)
+- [통화 대기 응용 프로그램 설정 마이그레이션](migrate-call-park-application-settings.md)
     
 - [응답 그룹 마이그레이션](migrate-response-groups.md)
     
@@ -40,11 +42,11 @@ ms.locfileid: "36244626"
     
 - [비즈니스용 Skype 서버 2019 클라이언트 배포](deploy-clients.md)
     
-- [Survivable Branch 기기 연결](connect-a-survivable-branch-appliance.md)
+- [SBA(Survivable Branch Appliance) 연결](connect-a-survivable-branch-appliance.md)
     
 - [SCOM 모니터링 구성](configure-scom-monitoring.md)
     
-- [공용 지역 전화 마이그레이션](migrate-common-area-phones.md)
+- [공통 지역 전화 마이그레이션](migrate-common-area-phones.md)
     
 - [아날로그 장치 마이그레이션](migrate-analog-devices.md)
     

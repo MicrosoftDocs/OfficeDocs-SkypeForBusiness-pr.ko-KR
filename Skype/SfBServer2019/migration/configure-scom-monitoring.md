@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Microsoft 비즈니스용 Skype Server 2019으로 마이그레이션한 후 System Center Operations Manager와 함께 작동 하도록 비즈니스용 Skype Server 2019를 구성 하는 몇 가지 작업을 완료 해야 합니다.
-ms.openlocfilehash: aa782f2ef51e3397d465b1cd0f914783d371eded
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 79398336bf372fd2ca779d2ec2ff58dc5219da61
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989593"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813806"
 ---
 # <a name="configure-scom-monitoring"></a>SCOM 모니터링 구성
 

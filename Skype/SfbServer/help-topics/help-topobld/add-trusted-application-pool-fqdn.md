@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddExternalApplicationPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 description: 신뢰할 수 있는 응용 프로그램 풀 FQDN (정규화 된 도메인 이름)을 정의 하려면 다음을 지정 합니다.
-ms.openlocfilehash: bb473aaab771038c0556234d865edcb19eca23f8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5dcf5317c3234db310ed7b80bca6403190690348
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697963"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820570"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>신뢰할 수 있는 응용 프로그램 풀 FQDN 추가
  

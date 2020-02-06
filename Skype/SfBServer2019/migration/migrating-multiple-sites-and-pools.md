@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 비즈니스용 Skype 서버 2019는 다중 사이트 및 다중 풀 배포를 지원 합니다. 여러 풀을 비즈니스용 Skype 서버 2019로 마이그레이션하는 프로세스에는 다음 고려 사항이 필요 합니다.
-ms.openlocfilehash: e2577b6af1430be90e30fff3236d7ea3cf473cd5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d1257590c431bc15aad4db03908aa6d95fd5fce3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238466"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813446"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>여러 사이트 및 풀 마이그레이션
 

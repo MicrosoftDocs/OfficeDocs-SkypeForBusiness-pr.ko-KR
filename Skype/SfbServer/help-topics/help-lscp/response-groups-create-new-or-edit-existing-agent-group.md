@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.RgsGroupEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: 에이전트 그룹은 응답 그룹(에이전트라고도 함)에 대한 전화를 받을 수 있는 사람과 그룹의 모든 에이전트에 적용되는 설정을 정의합니다.
-ms.openlocfilehash: e3b6091e2f7fdc64dd155b0bdd0c8f130335ab82
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e8253a516a04f147901821767867bcdfb5900d5b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699783"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822401"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>응답 그룹: 새 에이전트 그룹 만들기 또는 기존 그룹 편집
 
