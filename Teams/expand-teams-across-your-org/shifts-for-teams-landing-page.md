@@ -1,5 +1,5 @@
 ---
-title: 팀에 대 한 교대
+title: Teams의 교대 근무
 description: 팀에서 일정 관리 도구인 교대 근무를 설정 하 고 관리 하는 데 필요한 관리자 지침을 확인 하세요.
 layout: LandingPage
 ms.topic: landing-page
@@ -7,6 +7,8 @@ author: lanachin
 ms.author: v-lanac
 audience: admin
 manager: serdars
+f1.keywords:
+- NOCSH
 ms.date: 03/29/2019
 ms.service: msteams
 ms.collection:
@@ -15,14 +17,14 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb63e908e1331977d5da02a7c8bada11313d986c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b4a63f9b46d2431f5851734eb45c6b8067c780d8
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569224"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827606"
 ---
-# <a name="shifts-for-teams"></a>팀에 대 한 교대
+# <a name="shifts-for-teams"></a>Teams의 교대 근무
 
 팀은 조직의 Firstline Worker를 효과적으로 통신 하 고 공동 작업 하는 데 필요한 도구를 제공 합니다. 팀에서 일정 관리 도구인 교대 근무를 설정 하 고 관리 하는 데 필요한 관리자 지침을 확인할 수 있습니다.
 
@@ -57,7 +59,7 @@ ms.locfileid: "37569224"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>팀에서 StaffHub 팀을 교대으로 이동 하는 계획</h3>
+                        <h3>Teams에서 StaffHub 팀을 교대로 이동하기 위한 계획</h3>
                     </div>
                 </div>
             </div>

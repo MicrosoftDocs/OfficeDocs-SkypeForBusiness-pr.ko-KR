@@ -14,16 +14,18 @@ ms.reviewer: lolaj
 search.appverid: MET150
 description: 조직의 사용자에 게 팀을 배우고 사용할 수 있는 교육 비디오, 자습서 및 기타 리소스.
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb5a1bb679c964fb7fd735c28576466b26f2f0a0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0d5289c29c33b264664d29e4252c2c20c06dd3e5
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695893"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832928"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft 팀의 최종 사용자 교육
 

@@ -10,41 +10,43 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 보안 & 준수 센터를 사용 하 여 법적 고 지에 따라 Microsoft 팀 사용자 또는 팀을 배치 하 고 데이터 요구 사항에 따라 법적 보류가 필요한 경우에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d6d41c9dba2aa5eff5d0f5d488b7403b54add5e
-ms.sourcegitcommit: 05aab1044fe34a65af18ed7368f9622e08f28f1e
+ms.openlocfilehash: 0526ed2d5b0aa48ab7229c8fa40dbb13413c3139
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41779223"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833468"
 ---
-<a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a><span data-ttu-id="e1d6b-103">법률 보류에 Microsoft 팀 사용자 또는 팀 배치</span><span class="sxs-lookup"><span data-stu-id="e1d6b-103">Place a Microsoft Teams user or team on legal hold</span></span>
+<a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a><span data-ttu-id="bab5a-103">법률 보류에 Microsoft 팀 사용자 또는 팀 배치</span><span class="sxs-lookup"><span data-stu-id="bab5a-103">Place a Microsoft Teams user or team on legal hold</span></span>
 ==================================================
 
-<span data-ttu-id="e1d6b-104">사용자 또는 팀을 법적 보류에 놓으려면 [보안 & 준수 센터로](https://go.microsoft.com/fwlink/?linkid=854628)이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1d6b-104">To put a user or a team on Legal Hold, navigate to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=854628).</span></span> <span data-ttu-id="e1d6b-105">새 서비스 케이스를 만들 때 사서함 또는 사이트를 보류에 배치 하는 옵션이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e1d6b-105">When you create a new case, you are presented with the option to place mailboxes or sites on hold.</span></span>
+<span data-ttu-id="bab5a-104">사용자 또는 팀을 법적 보류에 놓으려면 [보안 & 준수 센터로](https://go.microsoft.com/fwlink/?linkid=854628)이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="bab5a-104">To put a user or a team on Legal Hold, navigate to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=854628).</span></span> <span data-ttu-id="bab5a-105">새 서비스 케이스를 만들 때 사서함 또는 사이트를 보류에 배치 하는 옵션이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bab5a-105">When you create a new case, you are presented with the option to place mailboxes or sites on hold.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e1d6b-106">사용자를 보류에 두면 그룹이 보류 중이거나 그 반대의 경우도 마찬가지입니다.</span><span class="sxs-lookup"><span data-stu-id="e1d6b-106">Placing a user on hold does not automatically place a group on hold or vice-versa.</span></span>
+> <span data-ttu-id="bab5a-106">사용자를 보류에 두면 그룹이 보류 중이거나 그 반대의 경우도 마찬가지입니다.</span><span class="sxs-lookup"><span data-stu-id="bab5a-106">Placing a user on hold does not automatically place a group on hold or vice-versa.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e1d6b-107">개인 채널 메시지의 법적 보류에 대 한 지원은 곧 제공 될 예정입니다.</span><span class="sxs-lookup"><span data-stu-id="e1d6b-107">Support for legal hold of private channel messages will be available soon.</span></span> <span data-ttu-id="e1d6b-108">개인 채널에서 공유 된 파일의 법적 보류가 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e1d6b-108">Legal hold of files shared in private channels is supported.</span></span>
+> <span data-ttu-id="bab5a-107">개인 채널 메시지의 법적 보류에 대 한 지원은 곧 제공 될 예정입니다.</span><span class="sxs-lookup"><span data-stu-id="bab5a-107">Support for legal hold of private channel messages will be available soon.</span></span> <span data-ttu-id="bab5a-108">개인 채널에서 공유 된 파일의 법적 보류가 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bab5a-108">Legal hold of files shared in private channels is supported.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="e1d6b-109">사용자 또는 그룹이 보류 중인 경우 모든 메시지 복사본이 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e1d6b-109">When a user or group is placed on hold, all message copies will be retained.</span></span> <span data-ttu-id="e1d6b-110">예: Clay가 채널에서 메시지를 게시 한 후 메시지를 수정 했습니다.</span><span class="sxs-lookup"><span data-stu-id="e1d6b-110">Example: Clay posted a message in a channel and then modified the message.</span></span> <span data-ttu-id="e1d6b-111">보류 시나리오에서 메시지의 두 복사본이 모두 보존 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e1d6b-111">In a hold scenario, both copies of the message are retained.</span></span> <span data-ttu-id="e1d6b-112">법률 포함 없이 최신 메시지만 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e1d6b-112">Without Legal Hold, only the latest message is retained.</span></span>
+> <span data-ttu-id="bab5a-109">사용자 또는 그룹이 보류 중인 경우 모든 메시지 복사본이 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bab5a-109">When a user or group is placed on hold, all message copies will be retained.</span></span> <span data-ttu-id="bab5a-110">예: Clay가 채널에서 메시지를 게시 한 후 메시지를 수정 했습니다.</span><span class="sxs-lookup"><span data-stu-id="bab5a-110">Example: Clay posted a message in a channel and then modified the message.</span></span> <span data-ttu-id="bab5a-111">보류 시나리오에서 메시지의 두 복사본이 모두 보존 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bab5a-111">In a hold scenario, both copies of the message are retained.</span></span> <span data-ttu-id="bab5a-112">법률 포함 없이 최신 메시지만 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bab5a-112">Without Legal Hold, only the latest message is retained.</span></span>
 
-<span data-ttu-id="e1d6b-113">아래 그림에는 Clay 관련 된 조사가 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e1d6b-113">In the figure below, there is an investigation involving Clay.</span></span> <span data-ttu-id="e1d6b-114">Clay는 브로커 딜러 팀의 회원입니다.</span><span class="sxs-lookup"><span data-stu-id="e1d6b-114">Clay is a member of the Brokers-Dealers team.</span></span>
+<span data-ttu-id="bab5a-113">아래 그림에는 Clay 관련 된 조사가 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bab5a-113">In the figure below, there is an investigation involving Clay.</span></span> <span data-ttu-id="bab5a-114">Clay는 브로커 딜러 팀의 회원입니다.</span><span class="sxs-lookup"><span data-stu-id="bab5a-114">Clay is a member of the Brokers-Dealers team.</span></span>
 
-<span data-ttu-id="e1d6b-115">Clay가 중개 계획에 대해 설명 했을 수 있는 장소를 확보 해야 하는 경우 팀의 SharePoint 사이트는 법률 보존 사이트 목록에 추가 되 고 Clay의 비즈니스용 OneDrive 사이트에는 포함 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1d6b-115">If we needed to Legal Hold all the places Clay could have discussed Brokering plans, ensure that the team’s SharePoint site is added to the Legal Hold site list, as well as Clay’s OneDrive for Business site.</span></span>
+<span data-ttu-id="bab5a-115">Clay가 중개 계획에 대해 설명 했을 수 있는 장소를 확보 해야 하는 경우 팀의 SharePoint 사이트는 법률 보존 사이트 목록에 추가 되 고 Clay의 비즈니스용 OneDrive 사이트에는 포함 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bab5a-115">If we needed to Legal Hold all the places Clay could have discussed Brokering plans, ensure that the team’s SharePoint site is added to the Legal Hold site list, as well as Clay’s OneDrive for Business site.</span></span>
 
 ![새 보류 만들기 대화 상자 스크린샷](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image3.png)
 
-<span data-ttu-id="e1d6b-117">요약 하자면, 아래 표를 사용 하 여 데이터 요구 사항에 따라 합법적으로 유지 해야 하는 사항을 파악 합니다.</span><span class="sxs-lookup"><span data-stu-id="e1d6b-117">To recap, use the table below to understand what needs to be placed on Legal Hold based on data requirements:</span></span>
+<span data-ttu-id="bab5a-117">요약 하자면, 아래 표를 사용 하 여 데이터 요구 사항에 따라 합법적으로 유지 해야 하는 사항을 파악 합니다.</span><span class="sxs-lookup"><span data-stu-id="bab5a-117">To recap, use the table below to understand what needs to be placed on Legal Hold based on data requirements:</span></span>
 
-|<span data-ttu-id="e1d6b-118">시나리오</span><span class="sxs-lookup"><span data-stu-id="e1d6b-118">Scenario</span></span>  |<span data-ttu-id="e1d6b-119">보류에 배치할 항목</span><span class="sxs-lookup"><span data-stu-id="e1d6b-119">What to place on hold</span></span>  |
+|<span data-ttu-id="bab5a-118">시나리오</span><span class="sxs-lookup"><span data-stu-id="bab5a-118">Scenario</span></span>  |<span data-ttu-id="bab5a-119">보류에 배치할 항목</span><span class="sxs-lookup"><span data-stu-id="bab5a-119">What to place on hold</span></span>  |
 |---------|---------|
-|<span data-ttu-id="e1d6b-120">**Microsoft 팀 개인 채팅**</span><span class="sxs-lookup"><span data-stu-id="e1d6b-120">**Microsoft Teams Private Chats**</span></span>     |<span data-ttu-id="e1d6b-121">사용자 사서함</span><span class="sxs-lookup"><span data-stu-id="e1d6b-121">User mailbox</span></span>         |
-|<span data-ttu-id="e1d6b-122">**Microsoft 팀 채널 채팅**</span><span class="sxs-lookup"><span data-stu-id="e1d6b-122">**Microsoft Teams Channel Chats**</span></span>    |<span data-ttu-id="e1d6b-123">팀에 사용 된 그룹 사서함</span><span class="sxs-lookup"><span data-stu-id="e1d6b-123">Group mailbox used for the team</span></span>         |
-|<span data-ttu-id="e1d6b-124">**Microsoft 팀 콘텐츠 (예: Wiki, 파일)**</span><span class="sxs-lookup"><span data-stu-id="e1d6b-124">**Microsoft Teams Content (e.g. Wiki, Files)**</span></span>     |<span data-ttu-id="e1d6b-125">팀에서 사용 하는 SharePoint 사이트</span><span class="sxs-lookup"><span data-stu-id="e1d6b-125">SharePoint site used by the team</span></span>         |
-|<span data-ttu-id="e1d6b-126">**개인 콘텐츠**</span><span class="sxs-lookup"><span data-stu-id="e1d6b-126">**Private Content**</span></span>     |<span data-ttu-id="e1d6b-127">사용자의 비즈니스용 OneDrive 사이트</span><span class="sxs-lookup"><span data-stu-id="e1d6b-127">OneDrive for Business site of the user</span></span>         |
+|<span data-ttu-id="bab5a-120">**Microsoft 팀 개인 채팅**</span><span class="sxs-lookup"><span data-stu-id="bab5a-120">**Microsoft Teams Private Chats**</span></span>     |<span data-ttu-id="bab5a-121">사용자 사서함</span><span class="sxs-lookup"><span data-stu-id="bab5a-121">User mailbox</span></span>         |
+|<span data-ttu-id="bab5a-122">**Microsoft 팀 채널 채팅**</span><span class="sxs-lookup"><span data-stu-id="bab5a-122">**Microsoft Teams Channel Chats**</span></span>    |<span data-ttu-id="bab5a-123">팀에 사용 된 그룹 사서함</span><span class="sxs-lookup"><span data-stu-id="bab5a-123">Group mailbox used for the team</span></span>         |
+|<span data-ttu-id="bab5a-124">**Microsoft 팀 콘텐츠 (예: Wiki, 파일)**</span><span class="sxs-lookup"><span data-stu-id="bab5a-124">**Microsoft Teams Content (e.g. Wiki, Files)**</span></span>     |<span data-ttu-id="bab5a-125">팀에서 사용 하는 SharePoint 사이트</span><span class="sxs-lookup"><span data-stu-id="bab5a-125">SharePoint site used by the team</span></span>         |
+|<span data-ttu-id="bab5a-126">**개인 콘텐츠**</span><span class="sxs-lookup"><span data-stu-id="bab5a-126">**Private Content**</span></span>     |<span data-ttu-id="bab5a-127">사용자의 비즈니스용 OneDrive 사이트</span><span class="sxs-lookup"><span data-stu-id="bab5a-127">OneDrive for Business site of the user</span></span>         |

@@ -12,39 +12,41 @@ search.appverid: MET150
 description: Microsoft 팀 관리 센터에서 Microsoft 팀 사용자 설정을 대량으로 관리 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fec2338e1a7e518e90b2a5fbed716a01782bbb8c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6177a463bee481812323b2334461f20e7021af84
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693293"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832648"
 ---
-# <a name="edit-microsoft-teams-user-settings-in-bulk"></a><span data-ttu-id="41827-103">대량으로 Microsoft 팀 사용자 설정 편집</span><span class="sxs-lookup"><span data-stu-id="41827-103">Edit Microsoft Teams user settings in bulk</span></span>
+# <a name="edit-microsoft-teams-user-settings-in-bulk"></a><span data-ttu-id="9e92b-103">대량으로 Microsoft 팀 사용자 설정 편집</span><span class="sxs-lookup"><span data-stu-id="9e92b-103">Edit Microsoft Teams user settings in bulk</span></span>
 
-<span data-ttu-id="41827-104">관리자는 Microsoft 팀 관리 센터에서 팀 사용자 설정을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="41827-104">As an admin, you manage Teams user settings in the Microsoft Teams admin center.</span></span> <span data-ttu-id="41827-105">**사용자** 페이지에서 계정 및 라이선스 세부 정보, 정책 및 기타 설정 편집 등의 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="41827-105">On the **Users** page, you can view information such as account and licensing details and edit policy and other settings.</span></span> <span data-ttu-id="41827-106">사용자에 대 한 설정을 개별적으로 또는 여러 사용자가 동시에 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="41827-106">You can edit settings for users individually or for multiple users at the same time.</span></span>
+<span data-ttu-id="9e92b-104">관리자는 Microsoft 팀 관리 센터에서 팀 사용자 설정을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9e92b-104">As an admin, you manage Teams user settings in the Microsoft Teams admin center.</span></span> <span data-ttu-id="9e92b-105">**사용자** 페이지에서 계정 및 라이선스 세부 정보, 정책 및 기타 설정 편집 등의 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9e92b-105">On the **Users** page, you can view information such as account and licensing details and edit policy and other settings.</span></span> <span data-ttu-id="9e92b-106">사용자에 대 한 설정을 개별적으로 또는 여러 사용자가 동시에 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9e92b-106">You can edit settings for users individually or for multiple users at the same time.</span></span>
 
-## <a name="edit-user-settings-in-bulk"></a><span data-ttu-id="41827-107">대량으로 사용자 설정 편집</span><span class="sxs-lookup"><span data-stu-id="41827-107">Edit user settings in bulk</span></span>
+## <a name="edit-user-settings-in-bulk"></a><span data-ttu-id="9e92b-107">대량으로 사용자 설정 편집</span><span class="sxs-lookup"><span data-stu-id="9e92b-107">Edit user settings in bulk</span></span>
 
-<span data-ttu-id="41827-108">Microsoft 팀 관리 센터를 사용 하 여 한 번에 여러 사용자의 설정을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="41827-108">Use the Microsoft Teams admin center to edit settings for multiple users at a time.</span></span> <span data-ttu-id="41827-109">한 번에 20 명의 사용자에 대 한 설정을 편집 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="41827-109">We recommend editing settings for 20 users at a time.</span></span> <span data-ttu-id="41827-110">많은 수의 사용자에 대 한 설정을 편집 하려면 PowerShell을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="41827-110">To edit settings for a large number of users, use PowerShell.</span></span> <span data-ttu-id="41827-111">자세한 내용은 [팀 PowerShell 개요](teams-powershell-overview.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="41827-111">For more information, see [Teams PowerShell Overview](teams-powershell-overview.md).</span></span>
+<span data-ttu-id="9e92b-108">Microsoft 팀 관리 센터를 사용 하 여 한 번에 여러 사용자의 설정을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9e92b-108">Use the Microsoft Teams admin center to edit settings for multiple users at a time.</span></span> <span data-ttu-id="9e92b-109">한 번에 20 명의 사용자에 대 한 설정을 편집 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="9e92b-109">We recommend editing settings for 20 users at a time.</span></span> <span data-ttu-id="9e92b-110">많은 수의 사용자에 대 한 설정을 편집 하려면 PowerShell을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9e92b-110">To edit settings for a large number of users, use PowerShell.</span></span> <span data-ttu-id="9e92b-111">자세한 내용은 [팀 PowerShell 개요](teams-powershell-overview.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9e92b-111">For more information, see [Teams PowerShell Overview](teams-powershell-overview.md).</span></span>
 
-1. <span data-ttu-id="41827-112">Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **사용자**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="41827-112">In the left navigation of the Microsoft Teams admin center, select **Users**.</span></span>
-2. <span data-ttu-id="41827-113">편집 하려는 사용자를 검색 하거나 보기를 필터링 하 여 편집할 사용자를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="41827-113">Search for the users you want to edit or filter the view to show the users you want to edit.</span></span>
-3. <span data-ttu-id="41827-114">**&#x2713;** (확인 표시) 열에서 다음 중 하나를 수행 하 여 사용자를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="41827-114">In the **&#x2713;** (check mark) column, select users by doing one of the following:</span></span>
-    - <span data-ttu-id="41827-115">한 번에 하나씩 사용자를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="41827-115">Select users one at a time.</span></span> <span data-ttu-id="41827-116">선택한 각 사용자 옆에 **&#x2713;** 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="41827-116">A **&#x2713;** is displayed next to each user you select.</span></span> <span data-ttu-id="41827-117">20 명 이상의 사용자를 선택 하는 경우에는 차단 되지 않지만 선택 하는 사용자가 많을 수록 작업을 완료 하는 데 시간이 오래 걸릴 수 있다는 점에 유의 하세요.</span><span class="sxs-lookup"><span data-stu-id="41827-117">If you select more than 20 users, you won't be blocked but keep in mind that the more users you select, the longer the operation will take to complete.</span></span>
+1. <span data-ttu-id="9e92b-112">Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **사용자**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="9e92b-112">In the left navigation of the Microsoft Teams admin center, select **Users**.</span></span>
+2. <span data-ttu-id="9e92b-113">편집 하려는 사용자를 검색 하거나 보기를 필터링 하 여 편집할 사용자를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="9e92b-113">Search for the users you want to edit or filter the view to show the users you want to edit.</span></span>
+3. <span data-ttu-id="9e92b-114">**&#x2713;** (확인 표시) 열에서 다음 중 하나를 수행 하 여 사용자를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="9e92b-114">In the **&#x2713;** (check mark) column, select users by doing one of the following:</span></span>
+    - <span data-ttu-id="9e92b-115">한 번에 하나씩 사용자를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="9e92b-115">Select users one at a time.</span></span> <span data-ttu-id="9e92b-116">선택한 각 사용자 옆에 **&#x2713;** 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9e92b-116">A **&#x2713;** is displayed next to each user you select.</span></span> <span data-ttu-id="9e92b-117">20 명 이상의 사용자를 선택 하는 경우에는 차단 되지 않지만 선택 하는 사용자가 많을 수록 작업을 완료 하는 데 시간이 오래 걸릴 수 있다는 점에 유의 하세요.</span><span class="sxs-lookup"><span data-stu-id="9e92b-117">If you select more than 20 users, you won't be blocked but keep in mind that the more users you select, the longer the operation will take to complete.</span></span>
 
         ![사용자 선택을 표시 하는 사용자 페이지 스크린샷](media/bulk-edit-user-settings-select-users.png)
 
-    - <span data-ttu-id="41827-119">테이블 맨 위에 있는 &#x2713; (확인 표시)을 클릭 하 여 모든 사용자 (최대 20 명의 사용자)를 선택한 다음, **선택 제한** 대화 상자에서 **계속 해 서 모두 선택을** 클릭 하 여 선택 영역을 완성 합니다.</span><span class="sxs-lookup"><span data-stu-id="41827-119">Click the &#x2713; (check mark) at the top of the table to select all users (up to a maximum of 20 users), and then in the **Selection limit** dialog box, click **Continue select all** to complete the selection.</span></span>
+    - <span data-ttu-id="9e92b-119">테이블 맨 위에 있는 &#x2713; (확인 표시)을 클릭 하 여 모든 사용자 (최대 20 명의 사용자)를 선택한 다음, **선택 제한** 대화 상자에서 **계속 해 서 모두 선택을** 클릭 하 여 선택 영역을 완성 합니다.</span><span class="sxs-lookup"><span data-stu-id="9e92b-119">Click the &#x2713; (check mark) at the top of the table to select all users (up to a maximum of 20 users), and then in the **Selection limit** dialog box, click **Continue select all** to complete the selection.</span></span>
 
-        <span data-ttu-id="41827-120">![선택 한계를 보여 주는 사용자 페이지 스크린샷](media/bulk-edit-user-settings-select-all-limit.png)</span><span class="sxs-lookup"><span data-stu-id="41827-120">![Screen shot of the Users page, showing the selection limit](media/bulk-edit-user-settings-select-all-limit.png)</span></span> <br> <span data-ttu-id="41827-121">선택한 사용자 옆에 **&#x2713;** 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="41827-121">A **&#x2713;** is displayed next to the selected users.</span></span>
+        <span data-ttu-id="9e92b-120">![선택 한계를 보여 주는 사용자 페이지 스크린샷](media/bulk-edit-user-settings-select-all-limit.png)</span><span class="sxs-lookup"><span data-stu-id="9e92b-120">![Screen shot of the Users page, showing the selection limit](media/bulk-edit-user-settings-select-all-limit.png)</span></span> <br> <span data-ttu-id="9e92b-121">선택한 사용자 옆에 **&#x2713;** 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9e92b-121">A **&#x2713;** is displayed next to the selected users.</span></span>
 
         ![20 명의 사용자가 선택 되었음을 보여 주는 사용자 페이지 스크린샷](media/bulk-edit-user-settings-select-all.png)
-4. <span data-ttu-id="41827-123">**설정 편집**을 클릭 하 고 원하는 대로 변경한 다음 **저장**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="41827-123">Click **Edit settings**, make the changes that you want, and then click **Save**.</span></span>
+4. <span data-ttu-id="9e92b-123">**설정 편집**을 클릭 하 고 원하는 대로 변경한 다음 **저장**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="9e92b-123">Click **Edit settings**, make the changes that you want, and then click **Save**.</span></span>
 
     ![설정 편집 창 스크린샷](media/bulk-edit-user-settings-edit-settings.png)
