@@ -16,16 +16,18 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 앱 권한 정책에 대해 알아보고,이를 사용 하 여 조직의 사용자가 사용할 수 있는 앱을 제어 하는 방법에 대해 알아봅니다.
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.apppermspolicies.overview
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 86896da4d42d39f06f3fbf3f2b902aaaac08ce4f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ed568fe0354f009656e3837d36701a94f0765340
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708474"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837408"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 권한 정책 관리
 
@@ -199,5 +201,5 @@ GCC에서는 모든 타사 앱이 기본적으로 차단 됩니다. 또한 Micro
 
 특정 사용자에 게 할당 된 앱 권한 정책의 경우, 봇 또는 커넥터 기능이 있는 앱이 허용 된 후 차단 되며,이 앱이 공유 컨텍스트의 일부 사용자 에게만 허용 되는 경우 해당 앱에 대 한 권한이 없는 그룹 채팅 또는 채널의 구성원  봇 또는 커넥터에 의해 게시 된 메시지 기록 및 메시지를 볼 수 있지만 대화형 작업할 수는 없습니다.
 
- ## <a name="related-topics"></a>관련 주제
+ ## <a name="related-topics"></a>관련 항목
 - [Team에서 앱의 관리 설정](admin-settings.md)

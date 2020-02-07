@@ -13,15 +13,17 @@ ms.collection:
 ms.reviewer: sbhatta
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 네 가지 수준의 권한 부여를 통해 Microsoft Teams 게스트 액세스 기능을 관리합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d37ed8412e30c20d676c29507451500e5f0c9d2
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: b1743b8d2fea354716138800ffe2c1b50d9e71b6
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41554045"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834808"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams에서 게스트 액세스 권한 부여
 ===========================================

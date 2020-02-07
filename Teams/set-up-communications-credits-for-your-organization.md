@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Licensing
 description: '사용자 및 조직에 대해 통신 크레딧 (PSTN 소비) 청구 라이선스를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: fc2dd9fcbd120b5471228d0b2728f90b48622f73
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 426ca88cb25aad988960add812595f89eed17595
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693903"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838028"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>조직에 사용할 통신 크레딧 설정
 

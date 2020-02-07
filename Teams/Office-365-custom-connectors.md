@@ -11,15 +11,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
-description: 커넥터는 자주 사용 하는 서비스의 콘텐츠 및 업데이트를 채널에 직접 전달 하 여 팀을 최신 상태로 유지 합니다.
+f1.keywords:
+- NOCSH
+description: 커넥터는 자주 사용하는 서비스의 콘텐츠와 업데이트를 채널에 직접 제공하여 팀을 최신 상태로 유지합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f892791c3f299cbd146d7a34b0062cc957486f
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: cc65939048fd8e54bd122a4dc52d2a611b8453cc
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909334"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834378"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft 팀에서 Office 365 및 사용자 지정 커넥터 사용
 =======================================================
@@ -54,4 +56,4 @@ Office 365 커넥터는 Microsoft 팀과 Office 365 그룹에 모두 사용할 �
 <a name="develop-custom-connectors"></a>사용자 지정 커넥터 개발
 ----------------------------
 
-또한 사용자 지정 커넥터와 수신 및 송신 webhooks를 만들 수 있습니다. 자세한 내용은 [개발자 설명서](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) 를 참조 하세요.
+또한 사용자 지정 커넥터와 수신 및 송신 webhooks를 만들 수 있습니다. 자세한 내용은 [개발자 설명서](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)를 참조하세요.

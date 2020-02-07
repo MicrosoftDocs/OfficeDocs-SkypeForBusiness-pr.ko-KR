@@ -8,6 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
 ms.collection:
 - M365-voice
 appliesto:
@@ -15,13 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 긴급 통화 라우팅 정책을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-f1.keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 8eee73b3ce6283cf2cb6105b4d1b43433ec7e057
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: af0b7a6a82e0d5ff06c65d726b2f67af22b6f4aa
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694383"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836508"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 라우팅 정책 관리
 
@@ -114,7 +114,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 특정 팀 정책에 그룹의 모든 사용자를 할당 합니다. 이 예제에서는 HR 긴급 통화 라우팅 정책입니다.
 ```PowerShell
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
+$members | ForEach-Object {Grant-CsTeamsEmergencyCallRoutingPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
 
@@ -128,7 +128,7 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergenc
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [팀에서 긴급 통화 정책 관리](manage-emergency-calling-policies.md)
 - [팀 PowerShell 개요](teams-powershell-overview.md)

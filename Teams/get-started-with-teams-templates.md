@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 description: 팀 서식 파일을 사용 하 여 미리 정의 된 채널을 사용 하 여 팀을 만드는 방법을 알아봅니다.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 378977e86854f3c4b2192017fa10ce19aeb4990e
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: fef3357f938be0e9261d0b5459c9f6aa16942329
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968319"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837018"
 ---
 # <a name="get-started-with-teams-templates"></a>Teams 서식 파일 시작
 
@@ -72,7 +74,7 @@ ms.locfileid: "37968319"
 |Education<br>PLC 팀 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 들<ul><li>OneNote PLC 전자 필기장 ( **일반** 탭에 고정)</ul></li>|
 | Retail<br>스토어 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 채널<ul><li>교대 이송</li><li>배웁니다</li></ul>팀 속성<ul><li>팀 가시성을 공개로 설정</li></ul>회원 사용 권한<ul><li>구성원이 채널을 만들거나 업데이트 하거나 제거 하지 못하도록 방지</li><li>구성원이 앱을 추가 하거나 제거 하지 못하도록 방지</li><li>구성원이 커넥터를 만들거나 업데이트 하거나 제거 하지 못하도록 방지</li></ul> |
 | Retail<br>관리자 공동 작업 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 채널<ul><li>교대 이송</li><li>배웁니다</li></ul>팀 속성:<ul><li>팀 표시 유형을 비공개로 설정</li></ul>회원 권한:<ul><li>구성원이 채널을 만들거나 업데이트 하거나 제거 하지 못하도록 방지</li><li>구성원이 앱을 추가 하거나 제거 하지 못하도록 방지</li><li>구성원이 커넥터를 만들거나 업데이트 하거나 제거 하지 못하도록 방지</li></ul>|
-| 의료<br>I |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |채널 <ul><li>알림에서\*</li><li>Huddles\*</li><li>소수</li><li>자원\*</li><li>관한\*</li></ul>\*자동 즐겨찾기에 채널 |
+| 의료<br>I |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |채널 <ul><li>알림에서\*</li><li>Huddles\*</li><li>소수</li><li>자원\*</li><li>교육\*</li></ul>\*자동 즐겨찾기에 채널 |
 |의료<br>병원 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |채널<ul><li>알림에서\*</li><li>충족\*</li><li>Custodial</li><li>인적 자원</li></li><li>Pharmacy</li></ul>\*자동 즐겨찾기에 채널|
 |||
 

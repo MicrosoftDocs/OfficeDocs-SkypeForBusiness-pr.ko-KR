@@ -11,16 +11,18 @@ audience: admin
 description: 팀에서 관리 기능을 구현 하기 위해 계획 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ab8f3571ac38273f40cc228c05b51c8f00159a1
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: afd990c0a49b1f61bb5be717cc3bf2ad7bc70935
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913049"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836190"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams에서 거버넌스 계획
 
@@ -37,7 +39,7 @@ ms.locfileid: "37913049"
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |결정 사항|<ul><li>조직에 팀의 특정 명명 규칙이 필요 한가요?</li><li>팀 작성자에 게 조직 고유의 분류를 팀에 할당할 수 있는 기능이 필요 한가요?</li><li>팀에 게 게스트를 추가 하는 기능에 대 한 권한을 제한 해야 하나요?</li><li>조직에서 팀을 만들 수 있는 사람을 제한 해야 하나요?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |의사 결정 지점|<ul><li>조직에 팀의 특정 명명 규칙이 필요 한가요?</li><li>팀 작성자에 게 조직 고유의 분류를 팀에 할당할 수 있는 기능이 필요 한가요?</li><li>팀에 게 게스트를 추가 하는 기능에 대 한 권한을 제한 해야 하나요?</li><li>조직에서 팀을 만들 수 있는 사람을 제한 해야 하나요?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|다음 단계|<ul><li>조직의 팀 만들기, 이름 지정, 분류 및 게스트 액세스에 대 한 요구 사항을 문서화 합니다.</li><li>이러한 요구 사항을 팀의 일부로 구현 하는 계획을 세워야 합니다.</li><li>팀 사용자에 게 예상할 수 있는 동작을 알리기 위해 정책을 전달 하 고 게시 합니다.</li></ul>|
 
 > [!TIP]
@@ -75,8 +77,8 @@ ms.locfileid: "37913049"
 
 |           |            |
 |-----------|------------|
-| ![결정 점을 가리키는 아이콘](media/audio_conferencing_image7.png) <br/>결정 사항|<ul><li>조직에서 팀에 대해 만료 날짜를 지정 해야 하나요?</li><li>조직의 특정 데이터 보존 정책을 팀에 적용 해야 하나요?</li><li>조직에서 비활성 팀을 보관 하 여 콘텐츠를 읽기 전용 상태로 유지 하는 기능이 필요 한가요?</li></ul>|
-| ![다음 단계를 설명 하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>조직의 팀 만료, 데이터 보존 및 보관에 대 한 요구 사항을 문서화 합니다.</li><li>이러한 요구 사항을 팀의 일부로 구현할 계획을 수립 합니다.</li><li>팀 사용자에 게 예상할 수 있는 동작을 알리기 위해 정책을 전달 하 고 게시 합니다.</li></ul>|
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>조직에서 팀에 대해 만료 날짜를 지정 해야 하나요?</li><li>조직의 특정 데이터 보존 정책을 팀에 적용 해야 하나요?</li><li>조직에서 비활성 팀을 보관 하 여 콘텐츠를 읽기 전용 상태로 유지 하는 기능이 필요 한가요?</li></ul>|
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>조직의 팀 만료, 데이터 보존 및 보관에 대 한 요구 사항을 문서화 합니다.</li><li>이러한 요구 사항을 팀의 일부로 구현할 계획을 수립 합니다.</li><li>팀 사용자에 게 예상할 수 있는 동작을 알리기 위해 정책을 전달 하 고 게시 합니다.</li></ul>|
 
 > [!TIP]
 > 조직의 요구 사항을 캡처하려면 다음 표를 사용 합니다.
@@ -108,8 +110,8 @@ ms.locfileid: "37913049"
 
 |         |         |
 |---------|---------|
-| ![결정 점을 가리키는 아이콘](media/audio_conferencing_image7.png) <br/>결정 사항|<ul><li>조직에서 전체 테 넌 트에 대 한 팀의 기능을 제한 해야 하나요?</li><li>조직에서 특정 사용자를 위해 팀의 기능을 제한 해야 하나요?</li></ul>|
-| ![다음 단계를 설명 하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>테 넌 트 및 사용자 수준에서 팀 기능을 제한 하기 위한 조직의 요구 사항을 문서화 합니다.</li><li>팀의 일환으로 특정 요구 사항을 구현할 계획을 수립 합니다.</li><li>팀 사용자에 게 예상할 수 있는 동작을 알리기 위해 정책을 전달 하 고 게시 합니다.</li></ul>|
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>조직에서 전체 테 넌 트에 대 한 팀의 기능을 제한 해야 하나요?</li><li>조직에서 특정 사용자를 위해 팀의 기능을 제한 해야 하나요?</li></ul>|
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>테 넌 트 및 사용자 수준에서 팀 기능을 제한 하기 위한 조직의 요구 사항을 문서화 합니다.</li><li>팀의 일환으로 특정 요구 사항을 구현할 계획을 수립 합니다.</li><li>팀 사용자에 게 예상할 수 있는 동작을 알리기 위해 정책을 전달 하 고 게시 합니다.</li></ul>|
 
 ### <a name="teams-feature-management-focus-areas"></a>팀 기능 관리 포커스 영역
 
@@ -117,7 +119,7 @@ ms.locfileid: "37913049"
 
 조직에 맞게 구현 하는 방법에 대 한 기술 지침을 포함 하 여 모든 설정에 대 한 자세한 목록은 다음 문서를 참조 하세요.
 
-- [조직의 Microsoft 팀 설정 관리](enable-features-office-365.md)
+- [조직에서 Microsoft Teams 설정 관리](enable-features-office-365.md)
 - [새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리](manage-teams-skypeforbusiness-admin-center.md)
 - [팀에서 모임 정책 관리](meeting-policies-in-teams.md)
 - [팀에서 메시징 정책 관리](messaging-policies-in-teams.md)
@@ -131,9 +133,9 @@ ms.locfileid: "37913049"
 > [!Important]
 > 조직에 준수 및 보안 요구 사항이 있는 경우 [Microsoft 팀의 보안 및 준수에](security-compliance-overview.md)대 한 개요 문서에서 해당 항목에 대해 제공 되는 심층적인 콘텐츠를 검토 하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[팀을 위한 관리 빠른 시작](teams-adoption-governance-quick-start.md)
+[Teams에 대한 거버넌스 빠른 시작](teams-adoption-governance-quick-start.md)
 
 <!--
 ## Teams lifecycle management

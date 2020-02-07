@@ -11,21 +11,18 @@ search.appverid: MET150
 description: 재무, 이벤트 기획, 판매 등 다양 한 요구 사항에 사용할 수 있는 다양 한 팀, 채널 및 앱에 대해 알아봅니다.
 localization_priority: Normal
 f1.keywords:
-- ms.teamsadmincenter.dashboard.helparticle.msteamsfiles
-- ms.teamsadmincenter.dashboard.helparticle.teamsandchannels
-- ms.teamsadmincenter.teamschannel.overview
-- ms.teamsadmincenter.teamssettings.overview
+- CSH
+ms.custom: okr_smb
 ms.collection:
 - M365-collaboration
-ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6e241deaf074fb7ccd6db9789539838c1027e40
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4b0a516ae74ea012d8cba4e85509b5b37ee27163
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708154"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834888"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft 팀의 팀 및 채널 개요
 

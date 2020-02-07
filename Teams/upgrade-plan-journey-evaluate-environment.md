@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: 이 지침을 사용 하 여 팀으로 업그레이드 하기 위한 현재 환경을 적절 하 게 평가 하는 요구 사항에 대해 알아보세요.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4716eac44880ca149fb757d2f16ebfe80ccab65
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 5000ecb5195654e902c06f329c910c0a5edb7d55
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772322"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837134"
 ---
 ![여행 다이어그램 업그레이드, 기술 준비 단계 강조](media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
@@ -182,7 +184,7 @@ ms.locfileid: "37772322"
 > | 리콜 | 질문 | 메모 |
 > |---|---|---|
 > | 의 현재 활성 사용량은 무엇 인가요? <br>비즈니스용 Skype | **__** % 총 활성 사용자와 사용 가능한 사용자 비교 | |
-> | 조직에서 사용 하는 방법 <br>비즈니스용 Skype | 1:1 대화 <br>&nbsp;&nbsp; &nbsp; 메신저 <input type="checkbox"> 대화 <br>&nbsp;&nbsp; &nbsp; 전화 <input type="checkbox"> 걸기 <br>&nbsp;&nbsp; 공유 &nbsp; <input type="checkbox"><br> Meeting <br>&nbsp;&nbsp; 회의 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; 공유 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; &nbsp; 전화 <input type="checkbox"> 걸기 | |
+> | 조직에서 사용 하는 방법 <br>비즈니스용 Skype | 1:1 대화 <br>&nbsp;&nbsp; &nbsp; 메신저 <input type="checkbox"> 대화 <br>&nbsp;&nbsp; &nbsp; 전화 <input type="checkbox"> 걸기 <br>&nbsp;&nbsp; 공유 &nbsp; <input type="checkbox"><br> 모임 <br>&nbsp;&nbsp; 회의 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; 공유 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; &nbsp; 전화 <input type="checkbox"> 걸기 | |
 > | 조직에서 사용자 채택을 사용 합니까? <br>변경 관리 팀 | <input type="checkbox">'<br/> <input type="checkbox">아니요 | |
 > | 현재 기술에 대 한 성공 여부를 측정 하는 방법 <br>비즈니스용 Skype와 유사 하 게 롤아웃 | | |
 > | 사용자 기준으로 사용할 백분율 <br>비즈니스용 Skype를 채택 하시 나요? | | |

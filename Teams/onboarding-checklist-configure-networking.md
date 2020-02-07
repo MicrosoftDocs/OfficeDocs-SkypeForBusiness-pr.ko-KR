@@ -10,23 +10,25 @@ ms.reviewer: rowille
 audience: admin
 description: 팀을 위해 네트워크를 구성할 때이 검사 목록의 핵심, 할 일 작업 및 활동을 따릅니다.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cf45acd7053864dbb92e58444cdcc4b162cec9b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 489857d1109230339a051712db374040800275fd
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573342"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835958"
 ---
 # <a name="configure-networking"></a>네트워킹 구성
 
 | 아니요 | 활동 또는 작업 | 설명 | 완료? | 추가 정보 |
 |----|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| raid-1  | 팀에 대 한 네트워크 요구 사항 검토 | 네트워크 요구 사항을 전체적으로 확인 한 후에 네트워킹 세부 정보로 이동해 보세요. | | [Microsoft 팀을 위한 조직의 네트워크 준비](https://docs.microsoft.com/microsoftteams/prepare-network)                                                               |
+| 1  | 팀에 대 한 네트워크 요구 사항 검토 | 네트워크 요구 사항을 전체적으로 확인 한 후에 네트워킹 세부 정보로 이동해 보세요. | | [Microsoft Teams에 대한 조직의 네트워크 준비](https://docs.microsoft.com/microsoftteams/prepare-network)                                                               |
 | 2  | 네트워크 준비 워크숍 제공 | 네트워크 준비 평가를 수행 합니다. | |  |
-| 3-4  | 네트워크 Planner 사용 | 네트워크 대역폭 계획을 수행 합니다. | | |
+| 3  | 네트워크 Planner 사용 | 네트워크 대역폭 계획을 수행 합니다. | | |
 | 4(tcp/ipv4)  | 사용자 연결에 필요한 NAT 풀 크기 확인 | 포트 소모를 방지 하기 위해 적절 한 공용 IP 주소가 NAT 풀에 할당 되었는지 확인 합니다. 포트 소모는 내부 사용자와 장치가 Office 365 서비스에 연결할 수 없는 경우에 기여 합니다. <br/><br/>연결 문제는 클라우드 서비스에 대 한 사용자 인식 문제의 주요 원인입니다. | | [Office 365에 대 한 NAT 지원](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9) |
 | 5mb  | Microsoft 데이터 센터에 가장 효율적인 라우팅 구현 | 로컬 또는 지역 송신 지점을 사용 하 여 가능한 한 효율적으로 Microsoft 네트워크에 연결할 수 있는 위치를 식별 합니다. <br/><br/>**추가 정보** 열에 있는 문서는 클라이언트가 Office 365 이름 확인 및 IP 라우팅의 기능을 활용 하 여 가장 가까운 지역 데이터 센터에 효율적으로 연결 하는 방법에 대해 설명 합니다. | | [Office 365 클라이언트 연결](https://support.office.com/article/Client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b) |
 | 26  | 팀에 대 한 연결을 위해 요청 된 방화벽 포트 구성 | Office 365 Url 및 Ip를 검토 하 여 온-프레미스 클라이언트와 서버 및 Office 365 서비스 간의 연결에 필요한 방화벽 포트를 식별 하 고 테스트 합니다. <br/><br/>지원 되는 환경에서는 방화벽의 모든 포트를 열어야 합니다. 일부 포트나 범위를 열지 못하면 사용자 환경에 부정적인 영향을 줄 수 있습니다. **추가 정보** 열의 지침에 따라 방화벽에 미디어 포트를 구성 합니다. | | [Office 365 Url 및 IP 주소-Microsoft 팀](https://support.office.com/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) |

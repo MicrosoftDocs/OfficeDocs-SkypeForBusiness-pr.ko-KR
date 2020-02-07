@@ -10,15 +10,17 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: vikramju
+f1.keywords:
+- NOCSH
 description: 정보 장벽 및 팀의 영향에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0772a9599a38afc05520b8dcccba3cb463df3409
-ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
+ms.openlocfilehash: f516c01bed0dfca0363602aa131a9da22bd916f6
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38696828"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836648"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 팀의 정보 장벽
 

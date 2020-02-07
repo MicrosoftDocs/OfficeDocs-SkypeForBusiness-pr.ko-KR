@@ -7,18 +7,20 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Exchange 온-프레미스를 사용 하는 하이브리드 환경에서 Microsoft 팀 대화방을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: c8309f4d7007bcd249334c554d284e5be00bfa16
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: eb399eea64707e07d796ee36e85036e662ce8de1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269152"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838188"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Exchange와 함께 Microsoft 팀 대화방 배포 (온-프레미스)
 
@@ -69,7 +71,7 @@ Exchange를 사용 하 여 Microsoft 팀 회의실을 구내에 배포 하는 �
 
 1. [Exchange 관리 셸을 열거나](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) [원격 PowerShell을 사용 하 여 exchange 서버에 연결](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)합니다.
 
-2. Exchange PowerShell에서 다음 명령을 실행 하 여 계정에 대 한 사서함 (사서함 사용이 허용 되는 계정)을 상자에 만듭니다.
+2. Exchange PowerShell에서 다음 명령을 실행 하 여 계정의 사서함 (사서함 사용이 허용 되는 계정)을 만듭니다.
 
    ```PowerShell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room

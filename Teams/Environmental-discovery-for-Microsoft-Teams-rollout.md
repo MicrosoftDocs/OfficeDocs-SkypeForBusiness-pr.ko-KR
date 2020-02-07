@@ -8,6 +8,8 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 비즈니스용 Skype에서 Microsoft 팀으로의 여행에 대 한 계획을 수립할 때 자세한 환경 검색을 수행 하는 방법을 설명 합니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 029d4870a6826866ddff9b712c5acd2b59897b75
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 7f49626f6526fe05aed81f39574a094347e0a3ae
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772402"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834528"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 팀 배포 환경 검색
 ===================================================
@@ -46,7 +48,7 @@ ms.locfileid: "37772402"
 
 팀 롤아웃 프로젝트의 주요 관련자에 대 한 자세한 정보를 수집 합니다. 한 명의 사용자가 프로젝트 전체에서 여러 역할을 수행할 수 있다는 점에 유의 하세요.
 
-> | 역할인 | 이름, 전자 메일 주소, 전화 번호 | 위치, 표준 시간대 | 메모 |
+> | 역할 | 이름, 전자 메일 주소, 전화 번호 | 위치, 표준 시간대 | 메모 |
 > |---|---|---|---|
 > | 임원진 | | | |
 > | 프로젝트 책임자 | | | |
@@ -203,7 +205,7 @@ ms.locfileid: "37772402"
 > | 리콜 | 질문 | 메모 |
 > |---|---|---|
 > | 의 현재 활성 사용량은 무엇 인가요? <br>비즈니스용 Skype | **__** % 총 활성 사용자와 사용 가능한 사용자 비교 | |
-> | 조직에서 사용 하는 방법 <br>비즈니스용 Skype | 1:1 대화 <br>&nbsp;&nbsp; &nbsp; 메신저 <input type="checkbox"> 대화 <br>&nbsp;&nbsp; &nbsp; 전화 <input type="checkbox"> 걸기 <br>&nbsp;&nbsp; 공유 &nbsp; <input type="checkbox"><br> Meeting <br>&nbsp;&nbsp; 회의 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; 공유 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; &nbsp; 전화 <input type="checkbox"> 걸기 | |
+> | 조직에서 사용 하는 방법 <br>비즈니스용 Skype | 1:1 대화 <br>&nbsp;&nbsp; &nbsp; 메신저 <input type="checkbox"> 대화 <br>&nbsp;&nbsp; &nbsp; 전화 <input type="checkbox"> 걸기 <br>&nbsp;&nbsp; 공유 &nbsp; <input type="checkbox"><br> 모임 <br>&nbsp;&nbsp; 회의 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; 공유 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; &nbsp; 전화 <input type="checkbox"> 걸기 | |
 > | 조직에서 사용자 채택을 사용 합니까? <br>변경 관리 팀 | <input type="checkbox">'<br/> <input type="checkbox">아니요 | |
 > | 현재 기술에 대 한 성공 여부를 측정 하는 방법 <br>비즈니스용 Skype와 유사 하 게 롤아웃 | | |
 > | 사용자 기준으로 사용할 백분율 <br>비즈니스용 Skype를 채택 하시 나요? | | |

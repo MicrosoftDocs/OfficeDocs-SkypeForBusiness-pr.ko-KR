@@ -11,18 +11,20 @@ ms.reviewer: jatpatel
 description: Surface Hub 용 Microsoft 팀에 대 한 관리자 설정을 구성 합니다.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom:
 - Devices
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37c38577fe3bda9ed2a1c2e224390e89f44de96b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5634c4ac5e5955d099555cce4f74b57a527662e9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570105"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836938"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Surface Hub 용 Microsoft 팀 배포
 ======================================
@@ -61,7 +63,7 @@ Surface Hub 용 팀을 설치 하기 전에 다음을 수행 해야 합니다.
 |숫자로  |설명  |
 |---------|---------|
 |0     | 시작 화면에 있는 Skype 기본 앱으로, 팀 회의 이용 가능        |
-|raid-1     | 시작 화면의 팀 기본 앱, Skype 모임 이용 가능        |
+|1     | 시작 화면의 팀 기본 앱, Skype 모임 이용 가능        |
 |2     | 시작 화면의 팀 전용 앱 (Skype 앱을 사용할 수 없음)        |
  
 1. Surface Hub 장치에 USB 키를 연결 합니다. 
@@ -88,7 +90,7 @@ Intune을 통해 기본 통화 및 모임 응용 프로그램 정책을 구성 �
 |설정   |값    |
 |----------|---------|
 |패스가      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|데이터 형식 | string-MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe에서 팀 응용 프로그램 패키지 ID로 문자열을 설정 **합니다. 팀** |
+|데이터 형식 | string-Microsoft로 문자열을 팀 응용 프로그램 패키지 ID로 설정 **합니다. MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe! 팀** |
 |작업| Get, Set        |
 
 Surface Hub 장치를 다시 시작 합니다. 장치를 다시 시작한 후에는 시작 화면에서 팀 앱을 시작 하 고 일정에서 모임에 참가할 수 있습니다.

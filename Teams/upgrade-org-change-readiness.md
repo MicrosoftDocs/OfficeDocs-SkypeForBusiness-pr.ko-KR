@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: 조직 및 사용자가 Microsoft 팀을 위한 준비가 되었는지 확인
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 716e5342d29bca21ea2963a28244ae6d766c0392
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e3f569cfc225c1933b978e9a0a7d9e9bf95be783
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236442"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837137"
 ---
-![여행 다이어그램 업그레이드, 사용자 준비 단계 강조] (media/upgrade-banner-user-readiness.png "사용자 준비 단계에 중점을 두어 업그레이드 여행 단계")
+![여행 다이어그램 업그레이드, 사용자 준비 단계 강조](media/upgrade-banner-user-readiness.png "사용자 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행에 대 한 사용자 준비 단계의 일부로, 기술 준비 단계와 병행 하 여 작업을 완료 합니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
 
@@ -44,8 +46,8 @@ ms.locfileid: "36236442"
 
 | | |
 |---|---|
-| ![결정 점을 가리키는 아이콘](media/audio_conferencing_image7.png) <br/>결정 사항|<ul><li>조직에서 변경 하는 데는 어떤 문화권이 제공 되나요?</li><li>새로운 기술이 사용자의 작동 방식을 어떻게 최적화 하나요?</li><li>어떤 사용자가 작동 방식을 변경 하기 위해 특별 한 주의가 필요할 수 있습니다.</li></ul> |
-| ![다음 단계를 설명 하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>다음 지침 및 관련 활동을 사용 하 여 조직의 사용자 준비 프로필을 캡처할 수 있습니다.</li></ul>|
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>조직에서 변경 하는 데는 어떤 문화권이 제공 되나요?</li><li>새로운 기술이 사용자의 작동 방식을 어떻게 최적화 하나요?</li><li>어떤 사용자가 작동 방식을 변경 하기 위해 특별 한 주의가 필요할 수 있습니다.</li></ul> |
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>다음 지침 및 관련 활동을 사용 하 여 조직의 사용자 준비 프로필을 캡처할 수 있습니다.</li></ul>|
 
 ## <a name="organizational-change-readiness"></a>조직 변경 준비
 
@@ -104,12 +106,12 @@ It의 핵심은 사람들이 작업을 수행 하기 위해 협력 하는 방법
 
 | | |
 |---|---|
-| ![결정 점을 가리키는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>팀워크에서 팀의 사용자 채택을 가속화 하 고 비즈니스용 Skype에서 간편 하 게 업그레이드할 수 있도록 하는 방법은 무엇 인가요?</li></ul> |
-| ![다음 단계를 설명 하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 샘플을 사용 하 여 고유한 팀워크 시나리오를 만들 수 있습니다. [업그레이드 통합 문서](https://aka.ms/upgradesuccesskit)에서 문서를 문서화 합니다.</li><li>추가 시나리오 및 예제를 보려면 [생산성 라이브러리로](https://www.microsoft.com/en-us/microsoft-365/success/) 이동 하세요.</li></ul>|
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>팀워크에서 팀의 사용자 채택을 가속화 하 고 비즈니스용 Skype에서 간편 하 게 업그레이드할 수 있도록 하는 방법은 무엇 인가요?</li></ul> |
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 샘플을 사용 하 여 고유한 팀워크 시나리오를 만들 수 있습니다. [업그레이드 통합 문서](https://aka.ms/upgradesuccesskit)에서 문서를 문서화 합니다.</li><li>추가 시나리오 및 예제를 보려면 [생산성 라이브러리로](https://www.microsoft.com/en-us/microsoft-365/success/) 이동 하세요.</li></ul>|
 
 ### <a name="examples"></a>예제
 
-**프로젝트 중심 팀워크: 제품 출시 이벤트** (예: 조직에서 시장에 신제품을 출시 하 고, 인식을 유도 하 고, 잠재 고객을 생성 하 고, 판매를 장려 하는 광범위 한 판촉 행사를 계획 하 고 있습니다.)
+**프로젝트 중심 팀워크: 제품 시작 이벤트** (예: 조직에서 시장에 신제품을 출시 하 고, 인식을 유도 하 고, 잠재 고객을 생성 하 고, 판매를 장려 하는 광범위 한 판촉 행사 계획을 받고 있습니다.)
 
 | 할 | 상속자 |
 |----|---|
@@ -120,7 +122,7 @@ It의 핵심은 사람들이 작업을 수행 하기 위해 협력 하는 방법
 
 <sup>1</sup> 팀에서 지원 되는 앱 통합 또는 맞춤.
 
-**사용자 중심 팀워크: 영업 팀** (예: regionally 분산 영업 팀은 이동 중에 연결 된 상태를 유지 하 고, 파이프라인에 맞춰 정렬 하 고, 연간 할당량 표적을 쉽게 알 수 있는 주요 제공 및 이니셔티브를 이해 해야 합니다.
+**사용자 중심 팀워크: 영업 팀** (예: regionally에서 분산 된 영업 팀은 이동 중에 연결 된 상태를 유지 하 고, 파이프라인에 맞춰 정렬 하 고, 연간 할당량 표적을 쉽게 알 수 있는 주요 제공 및 이니셔티브에 대해 이해 해야 합니다.)
 
 | 할 | 상속자 |
 |----|---|

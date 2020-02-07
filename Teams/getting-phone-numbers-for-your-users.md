@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: '팀에 대해 새, 포트 또는 기존 번호를 전송 하는 방법과 사용자에 게 변경 내용을 표시 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: caba9206ab4c1f12250085a8323b22fabf57cc9e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0f4688287df090ca4b293af7f4b1466c7e666f7d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707874"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837008"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>사용자의 전화 번호 가져오기
 
@@ -81,7 +81,7 @@ ms.locfileid: "41707874"
 > [!NOTE]
 > 이 보다 더 많은 전화 번호를 받으려면 [PSTN 서비스 데스크에 문의 하세요](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 

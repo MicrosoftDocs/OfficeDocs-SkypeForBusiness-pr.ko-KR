@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Office 365 통화 요금제의 경우 라이선스를 구입 하 고 설정 하 고, 전화 번호를 받고, 사용자에 게 긴급 위치 및 전화 번호를 추가 하 고 할당 하 고, 사용자에 게 새 전화 번호를 알려 주는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6c43408c09edaa220a6d3f030680a48fe321e6dd
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3fd123991544bc4555be7ceb7693089f0d439070
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693933"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838048"
 ---
 # <a name="set-up-calling-plans"></a>통화 플랜 설정
 
@@ -90,7 +90,7 @@ Windows PowerShell을 알고 있는 경우 다음 cmdlet을 사용 하 여 사�
 자세히 알아보려면 [팀 PowerShell 개요](teams-powershell-overview.md)를 참조 하세요.
   
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](transferring-phone-numbers-common-questions.md)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)

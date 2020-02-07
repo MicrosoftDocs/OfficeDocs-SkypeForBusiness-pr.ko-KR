@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: 프로젝트 팀이 업그레이드를 위해 관계자에 게 제공할 수 있도록 참여 합니다.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3e097a49e1ffa2c2a1cad86d8fa020fc24c59d4
-ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
+ms.openlocfilehash: b271dbfbb99508c26feb86cb7803b8eacdf73910
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "36437630"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837198"
 ---
 ![업그레이드 여행의 이해 관계자 상태를 보여 주는 그림](media/upgrade-banner-stakeholders.png "프로젝트 이해 관계자 팀 수집에 대 한 강조를 통해 업그레이드 여행 단계")
 

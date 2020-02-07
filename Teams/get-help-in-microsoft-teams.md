@@ -12,15 +12,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: karuanag
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Microsoft 팀에서 도움말을 얻을 수 있는 모든 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1e552ad73bbea9ce35a27fb1c797b03580311d6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 37203cb0dc875f7fdbefe62752bff006edf7fb31
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565292"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836828"
 ---
 <a name="get-help-in-microsoft-teams"></a>Microsoft 팀에서 도움말 보기
 ============================================

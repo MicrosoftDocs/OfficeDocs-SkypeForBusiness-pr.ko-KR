@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: 이 지침을 사용 하 여 팀 배포 및 출시에 대 한 네트워크 준비
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ede6e6ce211393211e7c1d31365c2f22c26751a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ec47733accfe9973887cd9f3f7019ac368e8e970
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236139"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837218"
 ---
-![여행 다이어그램 업그레이드, 기술 준비 단계 강조] (media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
+![여행 다이어그램 업그레이드, 기술 준비 단계 강조](media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 사용자 준비 단계와 병행 하 여 완료 한 활동 인 업그레이드 여행에 대 한 기술 준비 단계의 일부입니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
 
@@ -39,7 +41,7 @@ ms.locfileid: "36236139"
 
 오디오, 비디오 또는 모임을 배포 하는 경우 몇 가지 추가 단계를 수행 하 여 해당 기능에 맞게 네트워크를 최적화할 수 있습니다. 팀은 변화 시킬 수 있는 오디오 및 비디오 기술 (코덱)을 사용 하므로 대부분의 네트워크 상태에서 더 잘 수행 됩니다. 최적의 성능을 유지 하려면 팀을 위해 네트워크를 준비 해야 합니다.
 
-![품질의 세 가지 구성 요소를 설명 하는 다이어그램] (media/evaluate-my-environment-image1.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 설명 하는 다이어그램입니다. 네트워크에 포커스를 둔 상태")
+![품질의 세 가지 구성 요소를 설명 하는 다이어그램](media/evaluate-my-environment-image1.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 설명 하는 다이어그램입니다. 네트워크에 포커스를 둔 상태")
 
 ## <a name="why-should-you-prepare-your-network"></a>네트워크를 준비 해야 하는 이유는 무엇 인가요?
 
@@ -153,7 +155,7 @@ Microsoft 팀은 Microsoft 온라인 서비스에 연결 되며 인터넷에 연
 
 명령 프롬프트 창을 열고 **cd C:\Program files (x86) \Microsoft 비즈니스용 Skype 네트워크 평가 도구**를 입력 하 여 네트워크 평가 도구 디렉터리로 이동 합니다. 명령 프롬프트에서 networkassessmenttool를 입력 하 여 열려 있는 포트 테스트를 시작 합니다 **/connectivitycheck**
 
-검사를 실행 한 후에는 도구가 "확인 완료 됨" 메시지를 표시 하거나 차단 된 포트에 대 한 보고를 받습니다. 또한 도구의 출력을 포함 하는 Connectivity_results 라는 파일을 생성 하 고이를\\% appdata\\로컬\\microsoft 비즈니스용 skype 네트워크 평가 도구\\ 디렉터리에 저장 합니다.
+검사를 실행 한 후에는 도구가 "확인 완료 됨" 메시지를 표시 하거나 차단 된 포트에 대 한 보고를 받습니다. 또한 도구의 출력을 포함\\하는 appdata\\Connectivity_results 라는 파일을 생성 하 고이 를% userprofile%, 비즈니스용 로컬\\microsoft 비즈니스용 skype 네트워크 평가 도구\\ 디렉터리에 저장 합니다.
 
 연결 검사를 정기적으로 실행 하 여 포트가 열려 있고 올바르게 작동 하는지 확인 하는 것이 좋습니다.
 

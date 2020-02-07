@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 메모리를 사용 하는 방법
+title: Microsoft Teams에서 메모리를 사용하는 방법
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -12,16 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6dcbe03851b8dbb31cd0bd6f1b580913d4dc683d
-ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
+ms.openlocfilehash: 05cbd2f4b6691c873393a7ba711e03aadf70a2f2
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41506925"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836988"
 ---
-# <a name="how-microsoft-teams-uses-memory"></a>Microsoft 팀에서 메모리를 사용 하는 방법
+# <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams에서 메모리를 사용하는 방법
 
 일부 Microsoft 팀 사용자는 팀에서 메모리를 사용 하는 방법에 대 한 질문이 있습니다. 이 문서에서는 팀에서 메모리를 사용 하는 방법과 팀 데스크톱 응용 프로그램 (앱)과 팀 웹 앱이 동일한 컴퓨터의 다른 앱과 작업을 최적화 하는 데 메모리가 충분 하지 않은 이유를 설명 합니다. 팀은 최신 웹 기술을 사용 하도록 설계 되었습니다. 이를 위해 팀 데스크톱 클라이언트는 Chromium를 사용 하 여 렌더링 하는 전자로 개발 되었습니다. 이는 Edge 및 Chrome을 비롯 하 여 오늘날 가장 인기 있는 브라우저의 렌더링 엔진의 수와 동일 합니다.
 

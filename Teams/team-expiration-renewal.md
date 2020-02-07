@@ -12,14 +12,16 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 description: 팀 만료 및 갱신 및 Office 365 그룹 만료 정책을 사용 하 여 Microsoft 팀에서 사용 하지 않은 팀을 자동으로 정리 하는 방법에 대해 알아봅니다.
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2baf466b28874794c4e9b7191be155de7187754e
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 4bd9949a23d18eb03c83e50ecd418abbf54c0494
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992815"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837898"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Microsoft 팀에서 팀 만료 및 갱신
 

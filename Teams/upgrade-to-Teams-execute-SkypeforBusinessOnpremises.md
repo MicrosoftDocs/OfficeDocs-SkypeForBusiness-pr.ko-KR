@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: 비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레이드 하기 위한 고려 사항
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 971accd5211c0d8f861ff03db115933f3c75b570
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 4e2bcd48abb34ad3b8e18b780708e588ad9d0276
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37925399"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836220"
 ---
 ![배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
 

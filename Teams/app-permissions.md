@@ -13,15 +13,17 @@ ms.collection:
 search.appverid: MET150
 ms.reviewer: rowille
 description: 조직에서 요청 하는 데이터 및 사용 권한 앱에 대해 알아봅니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a5efc1ec447d1aeda3c42841752b6fd6e1f1938
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 5d7548d4d162310bc239c752e2bce38e725008f9
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516787"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845229"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft 팀 앱 사용 권한 및 고려 사항
 
@@ -34,13 +36,13 @@ Microsoft 팀 앱은 하나 이상의 기능을 설치, 업그레이드 및 제�
 
 앱은 사용자가 였음을 하 고 정책 관점에서 관리 합니다. 그러나 대부분의 경우 앱의 사용 권한과 위험 프로필은 앱에 포함 된 기능의 사용 권한과 위험 프로필에 의해 정의 됩니다. 따라서이 문서에서는 기능 수준에서 사용 권한과 고려 사항을 중점적으로 설명 합니다.
 
-아래에 나열 된 사용 권한은 RECEIVE_MESSAGE 및 REPLYTO_MESSAGE와 같이 대/소문자에 관계 없이 [Microsoft 팀 개발자 문서](https://aka.ms/teamsdevdocs) 또는 [microsoft Graph에 대 한 사용 권한에](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)표시 되지 않습니다. 단지이 기사의 목적에 대해 설명 하는 간단한 방법입니다.
+아래에 나열 된 사용 권한 (예: RECEIVE_MESSAGE 및 REPLYTO_MESSAGE)은 [Microsoft 팀 개발자 설명서](https://aka.ms/teamsdevdocs) 의 모든 위치나 [microsoft Graph에 대 한 사용 권한](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)으로 표시 되지 않습니다. 단지이 기사의 목적에 대해 설명 하는 간단한 방법입니다.
 
 
 |    |     |
 |-----------|------------|
 | ![결정 지점을 가리키는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>아래 표를 참조 하 여 조사 중인 앱에서 요청 하는 사용 권한을 파악 합니다.</li></ul> |
-| ![다음 단계를 안내 하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>앱 또는 서비스 자체를 조사 하 여 조직 내에서 해당 사용자에 게 액세스를 허용 하려는 지 여부를 결정 합니다. 예를 들어, 봇은 사용자 로부터 메시지를 보내고 받으며 enterprise lob (기간 업무) 인공 지능을 제외 하 고는 규정 준수 경계 외부에 위치 합니다. 따라서 봇이 포함 된 앱에는 해당 권한이 필요 하며 최소한 위험 프로필을 보유 하 고 있는 것입니다. </li></ul>|
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>앱 또는 서비스 자체를 조사 하 여 조직 내에서 해당 사용자에 게 액세스를 허용 하려는 지 여부를 결정 합니다. 예를 들어, 봇은 사용자 로부터 메시지를 보내고 받으며 enterprise lob (기간 업무) 인공 지능을 제외 하 고는 규정 준수 경계 외부에 위치 합니다. 따라서 봇이 포함 된 앱에는 해당 권한이 필요 하며 최소한 위험 프로필을 보유 하 고 있는 것입니다. </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>전역 앱 사용 권한 및 고려 사항
 
@@ -60,7 +62,7 @@ Microsoft 팀 앱은 하나 이상의 기능을 설치, 업그레이드 및 제�
 
 ### <a name="required-permissions"></a>필요한 권한
 
-- RECEIVE_MESSAGE, REPLYTO_MESSAGE. 봇은 사용자 로부터 메시지를 수신 하 고 회신할 수 있습니다. <sup>1</sup>
+- RECEIVE_MESSAGE REPLYTO_MESSAGE. 봇은 사용자 로부터 메시지를 수신 하 고 회신할 수 있습니다. <sup>1</sup>
 
 - POST_MESSAGE_USER. 사용자가 봇으로 메시지를 보낸 후에는 봇이 사용자 직접 메시지 (언제 든 지 *사전 메시지* 라고도 함)를 보낼 수 있습니다.
 
@@ -72,13 +74,13 @@ Microsoft 팀 앱은 하나 이상의 기능을 설치, 업그레이드 및 제�
 
 - POST_MESSAGE_TEAM. 사용자가 이전에 인공 지능으로가는 일이 없더라도 앱의 봇이 언제 든 지 팀 구성원에 게 직접 (사전) 메시지를 보낼 수 있습니다.
 
-- 다음은 명시적 권한은 아니지만 RECEIVE_MESSAGE 및 REPLYTO_MESSAGE 및 해당 인공 지능으로 선언 되는 데 사용 될 수 있는 범위에 의해 암시 됩니다.
+- 다음은 명시적 권한은 아니지만 RECEIVE_MESSAGE 및 REPLYTO_MESSAGE 및 해당 인공 지능을 사용할 수 있는 범위 (매니페스트에서 선언 됨)에 의해 암시 됩니다.
  
     - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
     - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
     - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
-- SEND_FILES, RECEIVE_FILES. <sup>2</sup> 봇이 개인 채팅에서 파일을 보내고 받을 수 있는지 여부를 제어 합니다 (아직 그룹 채팅 또는 채널에 지원 되지 않음).
+- SEND_FILES RECEIVE_FILES. <sup>2</sup> 봇이 개인 채팅에서 파일을 보내고 받을 수 있는지 여부를 제어 합니다 (아직 그룹 채팅 또는 채널에 지원 되지 않음).
 
 ### <a name="considerations"></a>고려 사항
 
@@ -106,7 +108,7 @@ Microsoft 팀 앱은 하나 이상의 기능을 설치, 업그레이드 및 제�
 
 - 반면에 메시징 확장에는 사용자의 IP 주소 및 참조 정보 정보가 표시 됩니다.
 
-- 앱 지침 (및 AppSource review)을 사용 하 여 사용자에 게 개인 채팅 메시지를 게시할 때 적절 한 용도에 대해 신중 하 게 해야 합니다 (POST_MESSAGE_TEAM 권한을 통해). 불건전 한 경우 사용자가 인공 지능을 차단 하 고, 테 넌 트 관리자가 앱을 차단 하 고, 필요한 경우 Microsoft에서 인공 지능을 차단할 수 있습니다.
+- 앱 지침 (및 AppSource review)을 사용 하 POST_MESSAGE_TEAM 여 사용자에 게 개인 채팅 메시지를 게시할 때 적절 한 용도에 대해 신중 하 게 해야 합니다. 불건전 한 경우 사용자가 인공 지능을 차단 하 고, 테 넌 트 관리자가 앱을 차단 하 고, 필요한 경우 Microsoft에서 인공 지능을 차단할 수 있습니다.
 
 <sup>1</sup> 일부 봇만 메시지를 보냅니다 (POST_MESSAGE_USER). "알림 전용" 인공 지능 이라고 하는 데,이는 봇이 허용 되거나 허용 되지 않는 것을 의미 하지 않지만,이는 봇이 대화를 하는 것을 원하지 않습니다. 팀에서는이 필드를 사용 하 여 일반적으로 사용 되는 UI의 기능을 사용 하지 않도록 설정 합니다. 이 봇은 대화를 표시 하는 것과 비교 하 여 허용 되는 것으로 제한 되지 않습니다.
 
@@ -153,7 +155,7 @@ REPLYTO_CONNECTOR_MESSAGE. 특정 커넥터는 사용자가 GitHub 문제에 대
 
 - 커넥터 메시지가 채널에 게시 되 면 데이터가 회사 네트워크를 벗어납니다.
 
-- 실행 가능 메시지를 지 원하는 커넥터 (REPLYTO_CONNECTOR_MESSAGE 사용 권한)에도 IP 주소 및 참조 정보가 표시 되지 않습니다. 이 정보는 Microsoft에 전송 된 후 커넥터 포털에서 이전에 Microsoft에 등록 한 HTTP 끝점으로 라우팅됩니다.
+- 실행 가능 메시지를 지 원하는 커넥터 (REPLYTO_CONNECTOR_MESSAGE 권한)에도 IP 주소 및 참조 정보가 표시 되지 않습니다. 이 정보는 Microsoft에 전송 된 후 커넥터 포털에서 이전에 Microsoft에 등록 한 HTTP 끝점으로 라우팅됩니다.
 
 - 채널에 대해 커넥터가 구성 될 때마다 해당 커넥터 인스턴스에 대 한 고유 URL이 생성 됩니다. 해당 커넥터 인스턴스가 삭제 되 면 해당 URL을 더 이상 사용할 수 없습니다.
 
@@ -164,15 +166,15 @@ REPLYTO_CONNECTOR_MESSAGE. 특정 커넥터는 사용자가 GitHub 문제에 대
 - 커넥터 메시지를 보내는 서비스가 손상 되 고 스팸/피싱/맬웨어 링크 보내기를 시작 하는 경우 테 넌 트 관리자가 새 커넥터 인스턴스가 만들어지지 않도록 하 고 Microsoft는 중앙에서 차단할 수 있습니다.
 
 > [!NOTE]
-> 현재 어떤 커넥터가 실행 가능한 메시지를 지원 하는지 알 수 없습니다 (REPLYTO_CONNECTOR_MESSAGE permission).
+> 현재 어떤 커넥터가 실행 가능한 메시지를 지원 하는지 알 수 없습니다 (REPLYTO_CONNECTOR_MESSAGE 권한).
 
 ## <a name="outgoing-webhooks"></a>보내는 webhooks
 
-테 넌 트에 대해 테스트용 로드를 사용 하는 경우 팀 소유자 또는 팀 구성원이 *보내는 webhooks* 를 즉시 만듭니다. 팀 앱의 기능을 제공 하지 않습니다. 이 정보는 완전성을 위해 포함 되어 있습니다.
+*보내는 webhooks* 는 팀 소유자 또는 팀 구성원에 의해 즉석에서 만들어집니다. 팀 앱의 기능을 제공 하지 않습니다. 이 정보는 완전성을 위해 포함 되어 있습니다.
 
 ### <a name="required-permissions"></a>필요한 권한
 
-RECEIVE_MESSAGE, REPLYTO_MESSAGE. 사용자에 게 메시지를 수신 하 고 회신할 수 있습니다.
+RECEIVE_MESSAGE REPLYTO_MESSAGE. 사용자에 게 메시지를 수신 하 고 회신할 수 있습니다.
 
 ### <a name="optional-permissions"></a>선택 권한
 

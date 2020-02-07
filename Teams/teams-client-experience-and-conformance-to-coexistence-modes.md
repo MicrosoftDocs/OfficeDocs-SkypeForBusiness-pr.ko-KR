@@ -1,5 +1,5 @@
 ---
-title: 팀 클라이언트 환경 및 공존 모드 준수
+title: Teams 클라이언트 환경 및 공존 모드 준수
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,25 +7,27 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: 팀 클라이언트 환경 및 공존 모드 준수
+description: Teams 클라이언트 환경 및 공존 모드 준수
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e05a95871dbe36f969c048f32d9bca99fec5d45
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: eea9d83a582bfe463233cfafe9564a238e00e198
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435242"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837378"
 ---
 <a name="about-upgrade-basic"></a>
 
-# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>팀 클라이언트 환경 및 공존 모드 준수
+# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams 클라이언트 환경 및 공존 모드 준수
 
 
 비즈니스용 skype 공존 모드 (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings)는 조직의 비즈니스용 Skype에서 팀으로 전환 하는 등 최종 사용자에 게 예측 가능한 간단한 환경을 제공 하는 데 목적이 있습니다.  팀으로 이동 하는 조직의 경우 모든 사용자에 게 **팀 전용** (또는 다른 모드)을 동시에 배정할 필요가 없지만 **팀 전용** 모드는 각 사용자의 최종 대상입니다.  사용자가 **팀** 의 유일한 모드에 도달 하기 전에, 조직에서 비즈니스용 Skype 공존 모드를 사용 하 여 다른 사용자와 현재 사용 하지 않는 사람 간의 예측 가능한 의사 소통을 보장할 수 있습니다. 
@@ -62,7 +64,7 @@ ms.locfileid: "37435242"
 
 |**모달 (앱)**|**정책. 설정**|
 |---|---|
-|채트|TeamsMessagingPolicy. AllowUserChat|
+|채팅|TeamsMessagingPolicy. AllowUserChat|
 |전화|TeamsCallingPolicy. AllowPrivateCalling|
 |모임 예약|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
@@ -76,7 +78,7 @@ ms.locfileid: "37435242"
 |SfBWithTeamsCollab 또는 SfBOnly|비활성화|비활성화|비활성화|비활성화|
 ||||||
 
-PowerShell을 사용 하는 `Grant-CsTeamsUpgradePolicy` 경우 Cmdlet은 TeamsMessagingPolicy, Teamsmessagingpolicy 및 TeamsMeetingPolicy에서 해당 설정의 구성을 확인 하 여 해당 설정이 TeamsUpgradePolicy로 대체 되는지 여부를 결정 합니다. 알림 메시지는 PowerShell에서 제공 됩니다.  위에서 설명한 것 처럼 더 이상 다른 정책 설정을 설정할 필요가 없습니다. 다음은 PowerShell 경고의 예입니다.
+PowerShell을 사용 하는 `Grant-CsTeamsUpgradePolicy` 경우 Cmdlet은 TeamsMessagingPolicy, Teamsmessagingpolicy 및 TeamsMeetingPolicy에서 해당 설정의 구성을 확인 하 여 해당 설정이 TeamsUpgradePolicy로 대체 되는지 여부를 확인 하 고, 이렇게 하면 정보 메시지가 PowerShell에 제공 됩니다.  위에서 설명한 것 처럼 더 이상 다른 정책 설정을 설정할 필요가 없습니다. 다음은 PowerShell 경고의 예입니다.
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

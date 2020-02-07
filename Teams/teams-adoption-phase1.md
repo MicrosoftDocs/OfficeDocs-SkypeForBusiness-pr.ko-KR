@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 팀 채택을 시작 하는 단계에 대해 알아보세요.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 294b623a9487094607330382c1d2ec63056207f5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8c2f179c6b51c6e016377ff7008b9e81c9b08660
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237944"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837778"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft 팀 채택 단계 1-시작
 
@@ -44,7 +46,7 @@ ms.locfileid: "36237944"
 
 아래 표에는 프로젝트 팀의 핵심 역할이 나열 되어 있습니다. 소규모 조직에서 이러한 역할 중 일부는 같은 사용자에 의해 수행 될 수 있습니다.
 
-| 역할인 | 역할 | 부서 |
+| 역할 | 역할 | 부서 |
 | ---- | ---------------- | ---------- |
 | 임원 스폰서<sup>1</sup> | 높은 수준의 비전을 전달 합니다. 회사의 핵심 업무 및 우선 순위 이니셔티브에 팀 구현을 연결 합니다. | 임원 리더십 |
 | 성공 소유자<sup>1</sup> | 비즈니스 목표가 팀 롤아웃에서 실현 되는지 확인 합니다. | 모든 부서 |

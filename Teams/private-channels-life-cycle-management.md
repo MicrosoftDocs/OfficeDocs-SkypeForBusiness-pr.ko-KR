@@ -11,17 +11,19 @@ audience: Admin
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 개인 채널 수명 주기를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 263f25e283670b0ab8cc0337c0936eee23f43c61
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 527e6421160eefa72b2a9c21e8e8f25303534320
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952891"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837328"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널 수명 주기 관리
 

@@ -11,16 +11,18 @@ search.appverid: MET150
 description: Microsoft 팀 용 Moodle 통합 앱을 설치 하 고 구성 하는 방법 알아보기
 keywords: 팀 Moodle 앱 통합 플러그 인
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c6e2d8cfb4e3932d4559a5c5c7b618189da7e57
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 128e476447898e659961a27e071b992b6b802ebf
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37572061"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836618"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Microsoft 팀과 Moodle 통합 설치
 

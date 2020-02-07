@@ -11,16 +11,18 @@ audience: admin
 description: 교육에서 IT 관리자에 게 유용한 팀 리소스 목록입니다.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6eb86cd3679b6cd90b646add994760c4d41aa46d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: dc9413690f98afeab9bb96baefd3d73e8b56d3f8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569987"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838248"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>교육 관리자를 위한 Microsoft 팀 리소스
 ==============================================
@@ -45,7 +47,7 @@ ms.locfileid: "37569987"
 |---------|---------|
 |**Microsoft 팀의 교육 시작-팁 및 요령**<br>[미리 인쇄 된 .pdf 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-packet-get-started.pdf?raw=true)<br>![교육 패킷에 대 한 Microsoft 팀을 시작 하기 위한 스크린샷.](media/package-teams-edu-get-started.png)    |
 
-## <a name="call-to-action"></a>작업으로 전화 걸기
+## <a name="call-to-action"></a>조치 사항
 
 - 실무 [Microsoft 팀 대화형 데모](https://teamsdemo.office.com/) 를 확인 하세요 (완료 하는 데 5 분).
 - [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) 에서 microsoft 팀 설정 (Office 365 관리자로 로그인)

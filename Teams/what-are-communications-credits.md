@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Licensing
 description: '통신 크레딧 (PSTN 소비) 청구, 요금을 확인 하는 방법, 제공 되는 서비스에 대해 알아봅니다. '
-ms.openlocfilehash: 5da6f5807f5fd2868097525f1abe6ecd5def6d5f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4fe46800df7dbef9baf8184283d0e4d811388f53
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694283"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836738"
 ---
 # <a name="what-are-communications-credits"></a>통신 크레딧이란?
 
@@ -99,7 +99,7 @@ ms.locfileid: "41694283"
   
 각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype PSTN 사용 보고서](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
 
   

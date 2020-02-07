@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '휴대폰을 사용 하 여 전화 회의에 참가 해야 하는 사용자에 대해 전화 접속 또는 오디오 회의를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 0a483dba984799a3c9e0f1a63ed908dde9a9ca08
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e14cf924d039b461df3fc84d7b600d96d515be58
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693953"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838068"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft 팀을 위한 오디오 회의 설정
 
@@ -124,7 +124,7 @@ ms.locfileid: "41693953"
  
 사용자에 대해 설정 된 전화 접속 번호가 모임 참석자에 게 전송 되는 모임 초대에 자동으로 추가 됩니다. 그러나 원하는 경우 자신만의 도움말 및 법률 링크, 문자 메시지, 작은 회사 그래픽을 추가할 수 있습니다. [모임 초대 사용자 지정](meeting-settings-in-teams.md#customize-meeting-invitations)을 참조 하세요.
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의 일반적인 질문](audio-conferencing-common-questions.md)
   

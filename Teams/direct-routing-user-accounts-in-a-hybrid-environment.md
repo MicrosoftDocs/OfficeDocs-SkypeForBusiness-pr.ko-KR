@@ -1,5 +1,5 @@
 ---
-title: PSTN 연결을 사용 하는 하이브리드 환경의 사용자 계정
+title: PSTN 연결이 포함된 하이브리드 환경의 사용자 계정
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -13,15 +13,17 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: 사용자 만들기와 지원 또는 지원 되지 않는 조합에 대 한 다양 한 조합에 대해 알아봅니다.
-ms.openlocfilehash: bf2fee0646e5230964673af4dbfa4fed22086cdc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f33c7bffadb443aafad6fa0e7d910f6416a95d6f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572116"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837288"
 ---
-# <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 연결을 사용 하는 하이브리드 환경의 사용자 계정
+# <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 연결이 포함된 하이브리드 환경의 사용자 계정
 
 ## <a name="about-the-environment"></a>환경에 대 한 정보
 
@@ -56,12 +58,12 @@ PSTN 연결을 사용 하는 비즈니스용 Skype 하이브리드 환경에서�
 
 |**에서 만든 사용자 개체**  |**사용자의 비즈니스용 Skype 서비스 공급자**|**사용자의 클라이언트**|**음성 옵션**|**지원**|
 | ------------ | --------- | --------- | --------- | -------- |
-|온-프레미스 광고| 온-프레미스 |비즈니스용 Skype   | Enterprise Voice   |'|
-|온-프레미스 광고|온라인| 비즈니스용 Skype  | 하이브리드 음성 연결   |' |
-|온-프레미스 광고|온라인 |Microsoft 팀 |직접 라우팅  |' |
+|온-프레미스 광고| 온-프레미스 |비즈니스용 Skype   | Enterprise Voice   |예|
+|온-프레미스 광고|온라인| 비즈니스용 Skype  | 하이브리드 음성 연결   |예 |
+|온-프레미스 광고|온라인 |Microsoft Teams |직접 라우팅  |예 |
 |**지원 되지 않는 조합**    | |         |         |      |
 |Azure AD| 온-프레미스/온라인 | 비즈니스용 Skype/Microsoft 팀|엔터프라이즈 음성/하이브리드 음성 연결/직접 라우팅  |아니요, 먼저 온-프레미스 광고에 사용자 개체를 만들어야 합니다. |
-|온-프레미스 광고  |온-프레미스| Microsoft 팀| 엔터프라이즈 음성/하이브리드 음성 연결/직접 라우팅   |아니요, Microsoft 팀 클라이언트는 온-프레미스 비즈니스용 Skype에서 지원 되지 않습니다. |     
+|온-프레미스 광고  |온-프레미스| Microsoft Teams| 엔터프라이즈 음성/하이브리드 음성 연결/직접 라우팅   |아니요, Microsoft 팀 클라이언트는 온-프레미스 비즈니스용 Skype에서 지원 되지 않습니다. |     
 |온-프레미스 광고  |온라인 |비즈니스용 Skype  | 직접 라우팅  |아니요, 다이렉트 라우팅이 비즈니스용 skype 클라이언트에서 지원 되지 않으며, 비즈니스용 Skype에서 Enterprise Voice에 대 한 사용자를 먼저 사용 하도록 설정 해야 합니다.  |
 
 

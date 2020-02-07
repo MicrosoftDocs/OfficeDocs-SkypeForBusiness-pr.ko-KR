@@ -10,28 +10,30 @@ ms.reviewer: dearbeen
 description: Microsoft 팀의 품질 및 사용 현황을 모니터링 하는 데 필요한 작업 및 활동
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecc3781f3190b7c7e5f52aec7ecf9dbae0894886
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 69f36da55daf95da66fa87b90487dde447953f53
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236431"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837178"
 ---
-![업그레이드 여행에 대 한 작업 진행을 보여 주는 다이어그램] 운영에 대 한 다양 한 (media/upgrade-banner-op-excellence.png "단계의 강조를 통해 업그레이드 여행 단계")
+![업그레이드 여행에 대 한 작업 진행을 보여 주는 다이어그램](media/upgrade-banner-op-excellence.png "운영에 대 한 다양 한 단계의 강조를 통해 업그레이드 여행 단계")
 
 이 문서는 비즈니스용 Skype에서 팀으로 업그레이드를 완료 하는 즉시 시작 되는 업그레이드 여행에 대 한 작업을 위한 뛰어난 단계의 일부입니다.
 
-# <a name="quality-of-experience-review-guide"></a>경력 품질 검토 가이드
+# <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
 
 [경력 품질 검토 가이드](https://aka.ms/qerguide) 에는 아래 그림과 같이 사용자 환경 개선에 가장 큰 영향을 주는 주요 영역에서 개선 지침을 평가 하 고 제공 하는 일련의 활동이 포함 됩니다.
 
-![검토 중에 검사할 주요 영역에 대 한 그림입니다.] (media/plan-my-service-management-image2.png "경력을 검토 하는 동안에는 오디오, 안정성, 사용자 설문 조사 결과 중에서 검사할 주요 영역입니다.")
+![검토 중에 검사할 주요 영역에 대 한 그림입니다.](media/plan-my-service-management-image2.png "경력을 검토 하는 동안에는 오디오, 안정성, 사용자 설문 조사 결과 중에서 검사할 주요 영역입니다.")
 
 가이드에 설명 된 영역을 지속적으로 평가 하 고 수정 사용자 환경에 부정적인 영향을 줄 수 있습니다. 배포에서 발생 하는 대부분의 사용자 경험 문제는 다음 범주로 그룹화 할 수 있습니다.
 

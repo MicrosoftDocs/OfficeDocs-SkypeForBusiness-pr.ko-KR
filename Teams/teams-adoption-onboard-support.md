@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 팀의 채택을 위해 실험 단계에 대해 온보드 지원 인력을 준비 합니다.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24ae06558ed159bbd691ce2e712f3b3206c179ce
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: cc0d48a8dae40405f0b1bbc7d3b14475276cd18b
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237982"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837798"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Microsoft 팀에 대 한 온보드 지원
 

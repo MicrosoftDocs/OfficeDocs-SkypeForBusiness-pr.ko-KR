@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 검사 목록을 완료 하 여 Microsoft 팀 채택을 시작 합니다.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9050959ba070bfae99ee077dedfd1b503bea1c2c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d7cef7033a79d7282d73534ded41805b11b2a46e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237819"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837748"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft 팀 채택 빠른 시작 검사 목록
 
@@ -32,25 +34,25 @@ ms.locfileid: "36237819"
 
 - [채택 필수 조건](teams-adoption-get-started.md)
 
-## <a name="phase-1---start"></a>1 단계-시작
+## <a name="phase-1---start"></a>1단계 - 시작
 
-- [팀 및 채널 이해](teams-adoption-understand-teams-and-channels.md)
+- [팀과 채널 이해](teams-adoption-understand-teams-and-channels.md)
 - [첫 번째 팀 만들기](teams-adoption-your-first-teams.md)
 - [팀에 대 한 준비가 되셨습니까?](teams-adoption-assess-readiness.md)
 - [관련자와 회의](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [조기 도입자 확인](teams-adoption-assess-readiness.md#identify-early-adopters)
 
-## <a name="phase-2---experiment"></a>2 단계-실험
+## <a name="phase-2---experiment"></a>2단계 - 실험
 
 - [챔피언 프로그램 만들기](teams-adoption-create-champions-program.md)
 - [관리 빠른 시작 완료](teams-adoption-governance-quick-start.md)
 - [사용 시나리오 정의](teams-adoption-define-usage-scenarios.md)
 - [비즈니스 관련자 인터뷰](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
 - [비즈니스 시나리오 매핑 및 우선 순위 지정](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
-- [조기 등록 및 의견 수집](teams-adoption-onboard-early-adopters.md)
-- [온보드 지원](teams-adoption-onboard-support.md)
+- [얼리어답터 온보딩 및 피드백 수집](teams-adoption-onboard-early-adopters.md)
+- [온보딩 지원](teams-adoption-onboard-support.md)
 
-## <a name="phase-3---scale"></a>3 단계-배율
+## <a name="phase-3---scale"></a>3단계 - 배율
 
 - [결과 및 성공 측정값 정의](teams-adoption-define-outcomes.md)
 - [서비스 지원 전략 선택](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
@@ -58,7 +60,7 @@ ms.locfileid: "36237819"
 - [구현 팀 확장](teams-adoption-define-outcomes.md#expand-your-implementation-team)
 - [관리 및 정보 관리 정책 확장](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
 - [피드백 및 보고 최적화](teams-adoption-optimize-feedback-and-reporting.md)
-- [드라이브 인식 및 교육 구현](teams-adoption-drive-awareness.md)
+- [인식 주도 및 교육 구현](teams-adoption-drive-awareness.md)
 - [서비스 리뷰 예약](teams-adoption-schedule-service-health-reviews.md)
 
 

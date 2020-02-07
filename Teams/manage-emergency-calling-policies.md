@@ -10,18 +10,18 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-voice
+f1.keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 긴급 통화 정책을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-f1.keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: b339f2ef46e0d9949fb440d2ad5a6fa0dee09fe4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 73404749b350f19abe248743dec7d3e740d50fc6
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694376"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836498"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 정책 관리
 
@@ -122,7 +122,7 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Operations 
     Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
     ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [팀에서 긴급 통화 라우팅 정책 관리](manage-emergency-call-routing-policies.md)
 - [팀 PowerShell 개요](teams-powershell-overview.md)

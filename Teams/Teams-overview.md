@@ -13,15 +13,17 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa58c0a61a5a9a718cc38b316d91ed14ab224c20
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9587244483bf220324a24396e5719843ba0ebc3c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41681405"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834798"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams에 오신 것을 환영합니다.
 조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되면 [Teams 배포 방법](How-to-roll-out-teams.md)과 함께 시작해보겠습니다.

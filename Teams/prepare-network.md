@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀을 위한 조직의 네트워크 준비
+title: Microsoft Teams에 대한 조직의 네트워크 준비
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,16 +13,18 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9013eb1048d022244166906edb1737b01757ed6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0d331a063feacbaea5cb510c316d2b27d982eb03
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573225"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834638"
 ---
-# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft 팀을 위한 조직의 네트워크 준비
+# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams에 대한 조직의 네트워크 준비
 
 
 팀은 다음 세 가지 트래픽 형태를 결합 합니다.

@@ -13,14 +13,16 @@ description: 최신 인증을 사용 하 여 Microsoft 팀에 로그인 하는 �
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9911a014fe3bd3e3ede151e2a85e8181c399e463
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 79f04161c070ff4818fdb2dfc212e5c3fc98b2b0
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41790616"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845139"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>최신 인증을 사용 하 여 Microsoft 팀에 로그인
 ==========================
@@ -39,9 +41,14 @@ Microsoft 팀은 최신 인증을 사용 하 여 로그인 환경을 간단 하 
 
 - 사용자가 도메인에 가입한 컴퓨터에 로그인 한 경우 팀을 시작할 때 조직에 MFA가 필요 하거나 컴퓨터에 MFA가 이미 있는지 여부에 따라 인증 단계를 한 번 더 수행 하 라는 메시지가 표시 될 수 있습니다. 컴퓨터에 이미 MFA가 있어야 로그인 하는 경우 팀을 열면 앱이 자동으로 시작 됩니다.
 
-- 사용자가 도메인에 가입 된 컴퓨터에 로그인 하 고 사용자 이름이 팀 로그인 화면에 미리 채워져 있지 않은 경우 관리자는 다음 Windows 레지스트리를 설정 하 여 사용자 이름의 미리 채우기 기능을 해제할 수 있습니다. 컴퓨터 \ HKEY_CURRENT_USER \\Or\ Microsoft\Office\Teams DisableUpnSuffixCheck (REG_DWORD) 0x00000001 (1)
+- 사용자가 도메인에 가입 된 컴퓨터에 로그인 하 고 사용자 이름이 팀 로그인 화면에 미리 채워져 있지 않은 경우 관리자는 UPN (사용자 이름)의 사전 채우기 기능을 해제 하도록 다음 Windows 레지스트리를 설정할 수 있습니다.
 
-  참고: ".local" 또는 "corp"로 끝나는 사용자 이름에 대 한 사용자 이름 미리 채우기는 기본적으로 설정 되어 있으므로이를 해제 하기 위해 레지스트리 키를 설정할 필요는 없습니다. 
+  컴퓨터 \ HKEY_CURRENT_USER \Software\Microsoft\Office\Teams<br/>
+  SkipUpnPrefill (REG_DWORD)<br/>
+  0x00000001 (1)
+
+    > [!NOTE]
+    > 사용자 이름 미리 채우기 ".local" 또는 "corp"로 끝나는 사용자 이름을 기본적으로 사용 하도록 설정 되어 있으므로이를 해제 하기 위해 레지스트리 키를 설정할 필요가 없습니다. 
 
 
 ### <a name="mac-users"></a>Mac 사용자 
@@ -62,5 +69,5 @@ Microsoft 팀은 최신 인증을 사용 하 여 로그인 환경을 간단 하 
 
 최신 인증은 팀을 사용 하는 모든 조직에서 사용할 수 있으므로 사용자가 프로세스를 완료할 수 없는 경우 도메인 이나 조직의 Office 365 Enterprise 계정에 문제가 있을 수 있습니다. 
 
-자세한 내용은 [Microsoft 팀에 로그인 하는 데 문제가 있는 이유](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)를 참조 하세요.
+자세한 내용은 [Microsoft 팀에 로그인 하는 데 문제가 있는 이유](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f) 를 참조 하세요.
 

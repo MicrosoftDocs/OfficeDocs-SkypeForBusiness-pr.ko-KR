@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: 국가 또는 지역 및 도시별로 사용자에 게 할당할 수 있는 전화 번호를 검색 하 고 필요한 숫자의 개수를 지정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1229f74473ff5f12bf137011dcdc9ad6a87d44f0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 14098f2fa769040bfe3224711f1927d84fb5a90d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694203"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838178"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>사용자의 전화 번호 검색
 
@@ -71,7 +71,7 @@ ms.locfileid: "41694203"
 
 10. **전화 번호** 페이지로 돌아가면 할당할 전화 번호 또는 번호를 선택한 다음 **편집** 을 클릭 하 여 사용자에 게 할당 합니다.  
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)

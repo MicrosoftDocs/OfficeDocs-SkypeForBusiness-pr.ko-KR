@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 팀을 광범위 하 게 사용할 수 있도록 지 원하는 방법에 대해 알아봅니다.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c97572004184eac1d480aec8df2b227654c9dad
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 85cb53ed6099dcbb5c2fdf0b9b45816048f3b77c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237841"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837758"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft 팀 도입 단계 3-규모
 

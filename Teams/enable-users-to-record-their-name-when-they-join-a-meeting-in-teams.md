@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 사용자가 Microsoft 팀에서 모임에 참가할 때 이름을 기록할 수 있는지 여부를 사용 하거나 사용 하지 않도록 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e81a4ad209a07eee2ab72d428aa7bd32a6e2c4c3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b7b04ba5959d4ffbbb4664401ccf8e95b46c48b9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696153"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836108"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>사용자가 Microsoft 팀에서 모임에 참가할 때 이름을 기록할 수 있도록 설정
 
@@ -62,6 +62,6 @@ Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는
     
 Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365에서 오디오 회의 체험 또는 구매](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

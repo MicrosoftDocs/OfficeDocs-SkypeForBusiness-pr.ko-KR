@@ -1,5 +1,5 @@
 ---
-title: 팀의 동적 멤버 자격 개요
+title: 팀의 동적 구성원 개요
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -9,19 +9,21 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: AAD를 기반으로 하는 동적 팀 구성원 자격에 대해 알아보세요.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d22c7f068617cd4c5c73c850a37eaa89a0c8efa
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 04ac33bdd87b8bd7566e7588a3353a2f49920286
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569899"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836848"
 ---
-# <a name="overview-of-dynamic-membership-for-teams"></a>팀의 동적 멤버 자격 개요
+# <a name="overview-of-dynamic-membership-for-teams"></a>팀의 동적 구성원 개요
 
 Microsoft 팀은 *동적 구성원*을 사용 하 여 Office 365 그룹과 연결 된 팀을 지원 합니다. 동적 멤버 자격을 사용 하면 Azure Active Directory (Azure AD)의 특정 사용자 특성을 확인 하는 하나 이상의 규칙으로 팀 구성원을 정의할 수 있습니다. 사용자 특성이 변경 되거나 사용자가 테 넌 트에 가입 하 고 나갈 때 사용자가 자동으로 올바른 팀에 추가 또는 제거 됩니다.
 

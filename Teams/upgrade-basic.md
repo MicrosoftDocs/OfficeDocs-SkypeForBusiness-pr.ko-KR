@@ -10,8 +10,10 @@ audience: admin
 description: 비즈니스용 Skype에서 팀으로 업그레이드 하기 위한 10 단계 가속화 작업 계획
 localization_priority: Normal
 search.appverid: MET150
-ms.custom: Teams-upgrade-guidance
 f1.keywords:
+- CSH
+ms.custom:
+- Teams-upgrade-guidance
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-in
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-out
 - ms.teamsadmincenter.dashboard.widget.upgrade.scheduled
@@ -20,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b992c9870ef49847af3a82f3844f691584f97768
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6c359f1d078448af33a8871ebcbe0f5cb73c1b15
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707714"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836160"
 ---
 # <a name="upgrade-basic"></a>업그레이드 기본
 

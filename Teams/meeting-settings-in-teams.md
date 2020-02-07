@@ -13,18 +13,20 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.meetingsettings.invitationurls
 - ms.teamsadmincenter.meetingsettings.network.ports
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
 - M365-collaboration
 description: 사용자가 조직에서 예약한 팀 모임에 대 한 설정을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6d5e4d4235eceda3821a34a039625730d11d9fff
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: bed367c9c40bb7124235abf204bbfa0395859685
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707303"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836468"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft 팀에서 모임 설정 관리
 

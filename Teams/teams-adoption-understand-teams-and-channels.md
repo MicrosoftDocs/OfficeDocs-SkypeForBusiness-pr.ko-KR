@@ -11,24 +11,26 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 팀과 채널을 구조화 하는 방법에 대해 자세히 알아보세요.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c077d49a09210862936d94d46708db95efe4585b
-ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
+ms.openlocfilehash: 3ff198dcc7898f463c5b2c299ab9b9fb411f3382
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37142059"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837728"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft 팀의 팀 및 채널 이해
 
 팀과 채널의 개념은 Microsoft 팀의 정상적인 생산성을 구현 하는 데 기본적으로 적합 합니다. 
 
-- 팀은 회사에 대 한 비즈니스 결과물을 생성 하기 위해 함께 작동 하는 사람, 콘텐츠, 도구 모음입니다. 팀은 Office 365 그룹 및 팀에 대 한 Office 365 그룹 구성원 동기화 변경 사항에 따라 빌드됩니다. 
+- 팀은 회사에 대 한 비즈니스 결과물을 생성 하기 위해 함께 작동 하는 사람, 콘텐츠, 도구 모음입니다. Teams는 Office 365 그룹에 기반하며 Office 365 그룹 멤버 자격 동기화에 대한 변경 사항이 소속 팀에 동기화됩니다. 
 
 - 채널은 실제 작업 시간이 완료 된 팀 내의 공동 작업 공간입니다. 
 
@@ -43,9 +45,9 @@ ms.locfileid: "37142059"
 
 팀 액세스 유형은 팀에 참여할 수 있는 사용자를 결정 합니다.
 
-- *비공개* 팀은 팀 소유자가 승인한 팀 구성원으로 제한 됩니다. 이는 대규모 조직의 프로젝트 팀과 가상 팀에 대 한 일반적인 설정입니다.
+- *비공개* 팀은 팀 소유자가 승인한 팀 구성원에게 제한됩니다. 이는 대규모 조직에서 프로젝트 팀과 가상 팀에 대한 일반적인 설정입니다.
 
-- *공용* 팀은 조직의 모든 사용자에 게 공개 되며 사용자는 직접 참가할 수 있습니다. 공용 팀은 다양 한 부서나 다른 프로젝트에서 작업 하는 사용자에 게 일반적인 관심 항목을 공동 작업 하는 데 유용 합니다. 이는 소규모 조직에 대 한 기본 설정입니다.
+- *공용* 팀은 조직의 모든 사용자에 게 공개 되며 사용자는 직접 참가할 수 있습니다. 공용 팀은 다양 한 부서나 다른 프로젝트에서 작업 하는 사용자에 게 일반적인 관심 항목을 공동 작업 하는 데 유용 합니다. 이는 소규모 조직에 적합한 기본 설정입니다.
 
 ## <a name="use-teams-to-drive-cross-organization-collaboration"></a>팀을 사용 하 여 조직 간 공동 작업 구동
 

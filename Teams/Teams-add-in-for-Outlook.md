@@ -10,18 +10,20 @@ ms.reviewer: sonua
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀은 사용자가 Outlook에서 팀 모임을 예약할 수 있도록 추가 기능을 Outlook에 설치 합니다.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52bc712798a1412a1c7c2c510c92af090608865d
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: 3054c961faa2587b203bd1522c266a55e0c34174
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573624"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834668"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================

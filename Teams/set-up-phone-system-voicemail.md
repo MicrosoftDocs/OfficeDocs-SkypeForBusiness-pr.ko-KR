@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Phone System
 description: '사용자를 위해 클라우드 보이스 메일을 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 1e33928c8ebd241d37f572d80eb895a0164e0d41
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 51e03417d3bdbd09b631fa2bd07b6009bf54693e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693823"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838008"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 메일 설정
 

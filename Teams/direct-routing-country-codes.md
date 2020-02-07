@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: 이 문서를 참조 하 여 직접 라우팅에 대 한 미디어 경로 국가 코드를 찾습니다.
-ms.openlocfilehash: 277544a5b169c2e2e17cea530239e992321d3d46
-ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
+ms.openlocfilehash: 4d3e19ceeab48e7ade6ffa9b51bff68f38613426
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39837570"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836098"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>직접 라우팅 미디어 경로 국가 코드
 
@@ -48,7 +50,7 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 앙골라          | AO |
 | Anguilla        | AI |
 | 대륙      | AQ | 
-| 앤티가 바부다 | AG |
+| 앤티쿠아바부다 | AG |
 | 아르헨티나       | AR |
 | 아르메니아         | 중인 |
 | 아루바           | AW |
@@ -128,7 +130,7 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 지       | GI |
 | 그리스          | GR |
 | 표준시       | GL |
-| Grenada         | GD-GB&PLATFORM |
+| 그레나다         | GD-GB&PLATFORM |
 | 과들루프      | P |
 | 괌            | GU-IN&PLATFORM |
 | 과테말라       | G |
@@ -228,8 +230,8 @@ Microsoft는 미디어 경로에 대 한 데이터 센터의 기본 지정이 SB
 | 르완다          | RW |
 | 사바            | XS |
 | 세인트 Barthelemy | BL |
-| 세인트 크리스토퍼 네비스 | KN |
-| 세인트 루시아     | LC |
+| 세인트키츠 네비스 | KN |
+| 세인트루시아     | LC |
 | 세인트 Martin    | MF |
 | 생피에르앤드미클롱 | 시간은 |
 | 세인트 빈센트 그레나딘 | VC |

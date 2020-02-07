@@ -9,17 +9,19 @@ audience: admin
 MS.collection:
 - M365-collaboration
 ms.reviewer: nakulm
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 description: 팀이 지원 되지 않는 브라우저에서 오디오 및 비디오를 지 원하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3412d195e560ee2be1e850d9fcb146d0a0f54d25
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 5f2fc7ee97a5172a849c14d9ede6d93ffc08d302
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615908"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837258"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>지원 되지 않는 브라우저에서 Microsoft 팀 모임
 

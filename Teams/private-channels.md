@@ -11,17 +11,19 @@ audience: Admin
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 개인 채널을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 942070f9c77fb16895dd15e1920198f3604150f9
-ms.sourcegitcommit: 9c743b267b46a475a7da51c0899467960421ad8a
+ms.openlocfilehash: 45d05f2dd726b340ac79ac11810d23d00c8b3e9d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2020
-ms.locfileid: "40929564"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837318"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널
 

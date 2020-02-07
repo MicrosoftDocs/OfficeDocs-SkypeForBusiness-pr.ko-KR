@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft 팀에서 전화 접속 회의 설정이 변경 되는 경우 전자 메일을 통해 사용자에 게 자동으로 전송 되는 정보에 대해 알아봅니다. '
-ms.openlocfilehash: a619a8a096e8ea25b89be1f71390de6b7f6c50a7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0c0764a3787fa6431d07125b607bf9916f7f8ccf
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696183"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835008"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Microsoft 팀에서 설정이 변경 될 때 사용자에 게 전송 되는 전자 메일
 
@@ -116,7 +116,7 @@ Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는
 Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의 설정이 변경되면 전자 메일 보내기 사용 또는 사용 안 함](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 

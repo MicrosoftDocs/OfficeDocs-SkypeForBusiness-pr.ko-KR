@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결 하는 방법을 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: 3a379a8e41b4b3c09bd9b0662485c3e3ce041491
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: f1d6c914a2ed95a073fdf900628ad96fa10b7428
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634861"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835148"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 

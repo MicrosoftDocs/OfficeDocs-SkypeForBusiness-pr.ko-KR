@@ -17,16 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.CpcGettingStarted
+- CSH
 ms.custom:
 - Audio Conferencing
+- ms.lync.lac.CpcGettingStarted
 description: 'Office 365 용 오디오 회의 (PSTN 회의) 라이선스를 구입 하거나 구매 하 여 사용자가 전화를 걸 수 있는 컨퍼런스 통화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 527455cc0f4d1a818c18271e3cf9bbafb04e2794
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6c2b7583dcf286ba3b761a3445e3eff241896194
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708644"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837618"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Microsoft 팀 용 Office 365에서 오디오 회의 체험 또는 구매
 
@@ -94,7 +95,7 @@ ms.locfileid: "41708644"
 > [!NOTE]
 > 중국에서 21Vianet이 운영 하는 Office 365를 사용 하는 고객은이 기능을 아직 사용할 수 없습니다. 자세한 내용은 [21vianet에서 운영 하는 Office 365에 대 한](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)자세한 내용을 알아보세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [조직에서 팀 사용](office-365-set-up.md)
 

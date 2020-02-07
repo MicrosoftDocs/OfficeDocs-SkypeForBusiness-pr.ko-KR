@@ -18,17 +18,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
-ms.custom:
 - Reporting
 description: 장치, 네트워크 및 연결에 대 한 통화 분석 세부 정보를 사용 하 여 Microsoft 팀과 비즈니스용 Skype 통화 및 모임에서 발생 하는 사용자 문제를 해결할 수 있습니다.
-ms.openlocfilehash: e8b1fe4bbad2b744310d0b609fdc6c6d5a23fea2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a9ef3265fa86349ef92c6174c6f561b006af4d1a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707724"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836768"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>통화 분석을 사용하여 통화 품질 저하 문제 해결
 
@@ -87,7 +88,7 @@ ms.locfileid: "41707724"
 |오디오 네트워크에서 낮은 통화 분류  <br/> |세션  <br/> |네트워크 품질 문제 (예: 패킷 손실, 지터, NMOS 성능 저하, RTT 또는 숨겨진 비율)가 발생 했습니다. 불량 통화를 분류 하는 데 사용 되는 조건에 대 한 자세한 내용은이 [Microsoft 블로그 게시물](https://go.microsoft.com/fwlink/p/?linkid=852133)을 참조 하세요.  <br/> |
 |장치가 작동 하지 않음  <br/> |장치  <br/> | 장치가 제대로 작동 하지 않습니다. 장치 작동 비율이 아닌 이유는 다음과 같습니다. <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [통화 분석 설정](set-up-call-analytics.md)
 
 [통화 분석 및 통화 품질 대시보드](difference-between-call-analytics-and-call-quality-dashboard.md)

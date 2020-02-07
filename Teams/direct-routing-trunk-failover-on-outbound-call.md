@@ -1,5 +1,5 @@
 ---
-title: 아웃 바운드 통화에 대 한 트렁크 장애 조치
+title: 발신 전화에 대한 트렁크 장애 조치
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,15 +13,17 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: 팀에서 SBC (세션 경계 컨트롤러)로의 아웃 바운드 호출에서 트렁크 장애 조치를 처리 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: a5462de971fed32a0618800b257b9c6e37b462af
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c88394cba0a98316ac272901a6ab2972e9eaf3c8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572127"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836180"
 ---
-# <a name="trunk-failover-on-outbound-calls"></a>아웃 바운드 통화에 대 한 트렁크 장애 조치
+# <a name="trunk-failover-on-outbound-calls"></a>발신 전화에 대한 트렁크 장애 조치
 
 이 항목에서는 팀에서 세션 경계 컨트롤러 (SBC)로 나가는 호출에 대 한 트렁크 장애 조치를 방지 하는 방법에 대해 설명 합니다.
 

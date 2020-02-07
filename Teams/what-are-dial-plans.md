@@ -15,16 +15,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.voice.dialplans.overview
+f1.keywords:
+- CSH
 ms.custom:
+- ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: '팀에서 사용할 수 있는 다이얼 통화 계획의 종류 (PSTN 통화 다이얼 플랜) 및 조직에 대해 하나를 선택 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: a40d36b124b0bc1adbe9bc676a68a3b9c1d158ea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3ca0848094e94ff302cfcdeaa80ddd72a3b86698
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694323"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836688"
 ---
 # <a name="what-are-dial-plans"></a>다이얼 플랜이 무엇인가요?
 
@@ -144,7 +146,7 @@ ms.locfileid: "41694323"
 > [!NOTE]
 > 앞 표에 표시 된 정규화 규칙 이름에는 공백이 포함 되지 않지만, 선택 하는 것이 중요 합니다. 예를 들어 표의 이름에는 "5 자리 내선" 또는 "5 자리 내선 번호"가 기록 되 고 여전히 유효 합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [다이얼 플랜 만들기 및 관리](create-and-manage-dial-plans.md)
 

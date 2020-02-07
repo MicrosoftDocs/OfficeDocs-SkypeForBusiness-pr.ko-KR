@@ -10,18 +10,20 @@ audience: admin
 description: 비즈니스용 Skype에서 팀으로의 자동화 된 업그레이드 개요
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f6e994f41f44c2895d394b432b37bed617ad2eb
-ms.sourcegitcommit: 70323d648e9ae3b20a710120b9dcdc452afc462b
+ms.openlocfilehash: 1ed959f74be1074ab8ed60b3fe54f06384b7990a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37698058"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836170"
 ---
 # <a name="automated-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>비즈니스용 Skype Online에서 Microsoft 팀으로 자동 업그레이드
 
@@ -47,7 +49,7 @@ Microsoft는 소규모 기업을 지원 하기 위해 팀에 게 자동화 된 �
 |  |  |
 |---------|---------|
 |**채팅 및 통화**     | <UL><LI>팀에서 모든 통화 및 채팅을 시작 하 고 받을 수 있습니다.<LI>사용자는 비즈니스용 Skype 사용자와 상호 운용 (채팅/통화) 할 수 있습니다.<LI>사용자가 소비자 용 Skype를 사용 하는 사용자와 통신할 수 없음<LI>비즈니스용 Skype에 로그인 하려고 하면 사용자가 팀으로 리디렉션 됨      </UL>  |
-|**Meeting**     |  <UL><LI>사용자가 팀에서 모든 새 모임을 예약 (플러그인이 교체 됨)    </UL>   |
+|**모임**     |  <UL><LI>사용자가 팀에서 모든 새 모임을 예약 (플러그인이 교체 됨)    </UL>   |
 |**마이그레이션된 데이터**     |<UL><LI>페더레이션 (메일 그룹 없음)이 포함 된 비즈니스용 Skype의 기존 연락처<LI>기존 비즈니스용 Skype 모임 (온-프레미스 및 online 모두)이 팀 모임으로 변환 됩니다.</UL>         |
 
 ## <a name="postponing-your-automated-upgrade"></a>자동화 된 업그레이드 연기
@@ -63,7 +65,7 @@ Microsoft는 소규모 기업을 지원 하기 위해 팀에 게 자동화 된 �
 ## <a name="related-content"></a>관련 콘텐츠
 
 - [Microsoft 팀 업그레이드 시작 하기](upgrade-start-here.md)
-- [비즈니스용 Skype Online 만료](skype-for-business-online-retirement.md)
+- [비즈니스용 Skype Online 단종](skype-for-business-online-retirement.md)
 - [Get-CsTeamsUpgradeStatus](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradestatus?view=skype-ps)
 - [팀 전용 모드 고려 사항](teams-only-mode-considerations.md)
 

@@ -12,17 +12,19 @@ ms.collection:
 ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.externalaccess.overview
 description: 팀 또는 IT 관리자가 다른 도메인 (페더레이션)에 대 한 외부 액세스를 구성 하 여 해당 도메인의 사용자가 팀에 참가 하도록 할 수 있습니다.
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: a04a5547e13b8b93864b1b23dc598b08877c745a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: eb0b252f2df1deb3e2a92bfada9a04b1df561316
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707293"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836898"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft 팀에서 외부 액세스 관리
 ======================================================
@@ -142,6 +144,6 @@ ms.locfileid: "41707293"
 
 외부 액세스와 게스트 액세스의 차이점에 대해 알아보려면 [다른 조직의 사용자와의 통신](communicate-with-users-from-other-organizations.md)을 참조 하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [외부 (연합) 사용자를 위한 기본 채팅 환경](native-chat-for-external-users.md)

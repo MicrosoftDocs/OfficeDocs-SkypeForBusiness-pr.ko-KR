@@ -10,15 +10,17 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 description: PowerShell 컨트롤을 사용 하 여 Microsoft 팀을 관리 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a83e8114020ef400ba983f483727436bbd383736
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570127"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836958"
 ---
 # <a name="teams-powershell-overview"></a>팀 PowerShell 개요
 
@@ -50,29 +52,29 @@ PowerShell 컨트롤에 대 한 참조 설명서에서는 조사 하는 cmdlet�
 
 | 은 | 미리 보기에서 사용 가능 | 1.0에서 사용 가능 |
 |------- | -------------------- | ------------------------------ |
-| 팀 추가 사용자 | ' | ' |
-| 연결-MicrosoftTeams | ' | ' |
-| 연결 해제-MicrosoftTeams | ' | ' |
-| 가져오기-팀 | ' | ' |
-| 팀에서 채널을 가져옵니다. | ' | ' |
+| 팀 추가 사용자 | 예 | 예 |
+| 연결-MicrosoftTeams | 예 | 예 |
+| 연결 해제-MicrosoftTeams | 예 | 예 |
+| 가져오기-팀 | 예 | 예 |
+| 팀에서 채널을 가져옵니다. | 예 | 예 |
 | Get-TeamFunSettings | 1.0 릴리스 전용 이전 | 아니요 |
 | Get-TeamGuestSettings | 1.0 릴리스 전용 이전 | 아니요 |
-| 내려받기-팀 도움말 | ' | ' |
+| 내려받기-팀 도움말 | 예 | 예 |
 | 가져오기-팀 구성원 설정 | 1.0 릴리스 전용 이전 | 아니요 |
 | 가져오기-팀 Messagingsettings | 1.0 릴리스 전용 이전 | 아니요 |
-| 팀 구매 사용자 | ' | ' |
-| 신규-팀 | ' | ' |
-| 새 팀 채널 | ' | ' |
-| 팀 제거 | ' | ' |
-| 팀 제거 채널 | ' | ' |
-| -팀 사용자 제거 | ' | ' |
-| 집합-팀 | ' | ' |
-| TeamChannel | ' | ' |
+| 팀 구매 사용자 | 예 | 예 |
+| 신규-팀 | 예 | 예 |
+| 새 팀 채널 | 예 | 예 |
+| 팀 제거 | 예 | 예 |
+| 팀 제거 채널 | 예 | 예 |
+| -팀 사용자 제거 | 예 | 예 |
+| 집합-팀 | 예 | 예 |
+| TeamChannel | 예 | 예 |
 | Set-TeamFunSettings | 1.0 릴리스 전용 이전 | 아니요 |
 | Set-TeamGuestSettings | 1.0 릴리스 전용 이전 | 아니요 |
 | 집합-TeamMemberSettings | 1.0 릴리스 전용 이전 | 아니요 |
 | 설정-팀 Messagingsettings | 1.0 릴리스 전용 이전 | 아니요 |
-| 팀 사진 | ' | 아니요, 계획 됨 |
+| 팀 사진 | 예 | 아니요, 계획 됨 |
 
 
 ## <a name="managing-policies-via-powershell"></a>PowerShell을 통해 정책 관리
@@ -120,7 +122,7 @@ PowerShell 컨트롤에 대 한 참조 설명서에서는 조사 하는 cmdlet�
 
 ## <a name="other-powershell-tools"></a>다른 PowerShell 도구
 
-각 정책의 설정에 대 한 자세한 설명과 [Microsoft 팀 cmdlet 참조](https://docs.microsoft.com/powershell/teams/?view=teams-ps) 및 [skype for Business를 비롯 하 여 모든 PowerShell 컨트롤을 사용 하 여 Microsoft 팀과 비즈니스용 skype를 관리 하는 방법에 대 한 자세한 지침을 확인할 수 있습니다. 비즈니스 cmdlet 참조](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
+Microsoft [팀 cmdlet 참조](https://docs.microsoft.com/powershell/teams/?view=teams-ps) 및 [비즈니스용 skype cmdlet 참조](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)에서 각 정책의 설정에 대 한 자세한 설명을 포함 하 여 Microsoft 팀과 비즈니스용 skype를 관리 하는 데 모든 PowerShell 컨트롤을 사용 하는 방법에 대 한 자세한 지침을 확인할 수 있습니다.
 
 ## <a name="learn-more"></a>더 알아보세요
 

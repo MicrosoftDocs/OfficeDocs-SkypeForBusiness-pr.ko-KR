@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: '호출자가 Microsoft 팀 모임에 참가 하는 데 사용할 기본 전화 번호를 만드는 단계를 가져옵니다. '
-ms.openlocfilehash: abe426149ca0fed3c1a28128cc327783844c2478
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b5a43b0987160b87ac4a6e25b10ae6d850612ac1
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694023"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845239"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsoft 팀의 초대에 포함 된 전화 번호 설정
 
@@ -52,13 +52,11 @@ Office 365의 오디오 회의를 통해 조직의 사용자가 Microsoft 팀 �
 
 ![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
 
-1. 왼쪽 탐색 창에서 **사용자**를 클릭 한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
+1. 왼쪽 탐색 창에서 **사용자**를 클릭 합니다.
 
     ![Microsoft 팀 관리 센터에서 사용자 선택을 표시 합니다.](media/teams-set-phone-numbers-on-invites-image1.png)
 
-2. 페이지 맨 위에서 **편집**을 클릭 합니다.
-
-    ![Microsoft 팀 관리 센터에서 편집 클릭](media/teams-set-phone-numbers-on-invites-image2.png)
+2. 사용 가능한 사용자 목록에서 사용자 이름을 클릭 합니다.
 
 3. **오디오 회의**옆에 있는 **편집**을 클릭 합니다. 
     
@@ -81,7 +79,7 @@ Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는
 Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요. 
   
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

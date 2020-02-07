@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 description: Microsoft 팀 범위 디렉터리 검색을 사용 하 여 디렉터리의 사용자 지정 된 보기를 제공 하는 방법에 대해 알아봅니다.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fca0feadf29ce83a8a6867f0e00b06fc0426a203
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: ca20e7293f20d68ea98f61a98090f7892ba294e8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772340"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836948"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams 범위 디렉터리 검색 사용
 
@@ -37,8 +39,8 @@ Microsoft 팀은 조직에서 사용자에 게 디렉터리에 대 한 사용자
 
 범위 디렉터리 검색에 도움이 되는 시나리오는 주소록 정책 시나리오와 유사 합니다. 예를 들어 다음과 같은 경우 범위 디렉터리 검색을 사용 하는 것이 필요할 수 있습니다.
 
-- 조직에 테 넌 트 내에 별도로 유지 하려는 회사가 여러 개 있습니다. 
-- 학교에서 교사와 학생 간의 채팅을 제한 하려고 합니다. 
+- 조직의 테넌트 내에 별도로 유지하려는 여러 회사가 있는 경우 
+- 학교에서 교사와 학생 간의 채팅을 제한하려고 하는 경우 
  
 주소록 정책을 사용 하는 방법에 대 한 자세한 [내용은 Exchange Online에서 정보 장벽 정책을](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)참조 하세요.
 

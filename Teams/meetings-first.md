@@ -10,19 +10,21 @@ ms.reviewer: francoid
 description: 사용자가 팀에서 모임을 만들 수 있으며, 채팅, 통화 및 현재 상태에 대해 비즈니스용 Skype를 계속 사용 하면서 모임에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3207a7e7f460cb2941dd4c46df2a215df7997ed4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 10321d02398c6c2b0ffc2143a9bafa406fbec637
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37639333"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836458"
 ---
-# <a name="meetings-first"></a>모임 먼저
+# <a name="meetings-first"></a>무엇보다도 모임을 우선으로
 
 "모임 먼저"는 비즈니스용 Skype 서버 조직을 대상으로 지정 하 고 최적화 하며, 팀 모임 사용을 최대한 빠르게 시작 하려는 경우 온-프레미스입니다. 이러한 조직의 경우 첫 번째 모임은 팀 모임 경험에 우선 순위를 두는 **아일랜드** 모드를 사용 하는 대신 사용할 수 있습니다.
 
@@ -103,7 +105,7 @@ ms.locfileid: "37639333"
 
 사용자에 게 라이선스를 부여 하 고 팀 모임에 대 한 조직을 준비한 후에는 먼저 모임에 대해 사용자를 사용할 수 있도록 설정 해야 합니다. 한 번에 하나의 설정으로 더욱 간편 하 게 할 수 있습니다.
 
-팀 클라이언트 구성 및 사용자 환경에 대 한 [자동 준수](teams-client-experience-and-conformance-to-coexistence-modes.md) , 모임 마이그레이션 서비스, 더 나은 기능을 비롯 한 모든 모임의 모든 기능 및 사용자 환경은 먼저 사용자에 게 부여 하 여 구성 됩니다 (또는 [Microsoft 팀 관리 센터](manage-teams-in-modern-portal.md) 에서 또는 [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)을 사용 하 여 [SfBWithTeamsCollabAndMeetings 공존 모드](setting-your-coexistence-and-upgrade-settings.md) 의 사용자 그룹 또는 테 넌 트 기본값입니다.
+팀 클라이언트 구성 및 사용자 환경에 대 한 [자동 준수](teams-client-experience-and-conformance-to-coexistence-modes.md) , 모임 마이그레이션 서비스, 더 나은 기능을 비롯 한 모든 모임의 모든 기능 및 사용자는 [Microsoft 팀 관리 센터](manage-teams-in-modern-portal.md) 에서 또는 [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)을 사용 하 여 [SfBWithTeamsCollabAndMeetings 공존 모드](setting-your-coexistence-and-upgrade-settings.md) 를 사용자에 게 부여 하는 방법 (또는 사용자 그룹 또는 테 넌 트의 기본 설정)
 
 ![모임을 먼저 사용 하도록 설정 하는 관리자 설정 스크린샷](media/teams-meeting-admin-settings.png)
 

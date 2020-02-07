@@ -11,16 +11,18 @@ ms.collection:
 ms.reviewer: bjwhalen
 search.appverid: MET150
 description: 이 문서는 공존 모드를 선택 하 고 다른 공존 설정을 설정 하는 데 도움이 될 것입니다.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5cc89afb43149f68dfc068492e1d0163e4b0721
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: e0eee70dd27647e59a742f4155ba292b54684eaa
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003318"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837978"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>공존 및 업그레이드 설정 설정
 

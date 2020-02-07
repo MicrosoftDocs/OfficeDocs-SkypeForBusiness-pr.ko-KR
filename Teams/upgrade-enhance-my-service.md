@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: 업그레이드 한 후 팀 서비스를 향상 시킬 수 있는 기회를 정기적으로 평가 하 고 팀 로드맵을 모니터링 하 여 흥미로운 기능을 개선 했습니다.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff5cbba5f66e409a1c079f7a5f24170adb5c3e41
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 02772dddf435e8c3dc2bc0fe243e453e387cd244
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236462"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837208"
 ---
-![여행 다이어그램을 업그레이드 하 여 뛰어난 작업 단계 강조] 운영에 대 한 다양 한 (media/upgrade-banner-op-excellence.png "단계의 강조를 통해 업그레이드 여행 단계")
+![여행 다이어그램을 업그레이드 하 여 뛰어난 작업 단계 강조](media/upgrade-banner-op-excellence.png "운영에 대 한 다양 한 단계의 강조를 통해 업그레이드 여행 단계")
 
 이 문서는 비즈니스용 Skype에서 팀으로 업그레이드를 완료 하는 즉시 시작 되는 업그레이드 여행에 대 한 작업을 위한 뛰어난 단계의 일부입니다.
 
@@ -42,6 +44,6 @@ ms.locfileid: "36236462"
 서비스를 향상 시킬 수 있는 기회가 표시 되는 경우에는 시간을 사용 하는 것이 적절 합니다. [구현 단계](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 를 다시 검토 하 고 동일한 가이드를 end에 적용 합니다. 약간만 변경 되는 경우 모든 작업 및 작업을 전체적으로 완료 해야 하는 것은 아니지만, 성공적인 결과를 얻을 수 있는 방법에 따라 각 활동 및 작업을 평가 하는 것이 좋습니다.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>조직에서 혜택을 받을 수 있는 새 기능 또는 서비스에 대 한 공개 로드맵 및 기타 서비스 알림을 모니터링할 사용자를 결정 합니다.</li><li>새로운 기능 또는 서비스를 주요 관련자에 게 다시 보고 하는 방법을 결정 합니다 (조종 위원회를 통해).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>조직에서 혜택을 받을 수 있는 새 기능 또는 서비스에 대 한 공개 로드맵 및 기타 서비스 알림을 모니터링할 사용자를 결정 합니다.</li><li>새로운 기능 또는 서비스를 주요 관련자에 게 다시 보고 하는 방법을 결정 합니다 (조종 위원회를 통해).</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>서비스를 사용 하 여 최신 상태를 유지 하기 위한 전략을 구현 하 여 조직에 가장 적합 한 값을 확보 합니다.</li><li>전체 프로젝트 수명 주기를 통해 서비스 향상을 구현 하 여 배포에 미치는 영향에 대해 적절 하 게 고려 했는지 확인 합니다.</li></ul></td></tr>
 </table>

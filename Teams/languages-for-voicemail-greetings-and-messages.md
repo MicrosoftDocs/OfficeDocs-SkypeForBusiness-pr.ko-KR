@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Phone System
 description: '비즈니스용 Skype에서 기본 시스템 메시지에 대해 설정할 수 있는 언어에 대해 알아봅니다. '
-ms.openlocfilehash: 65b17d13ba0e7c1091b3f55d56a90b4100a4746b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 78d3c53782e83ae191983bd8d7af2f1f5072f1df
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707834"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836588"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>음성 메일 인사말 및 메시지 언어
 
@@ -76,7 +76,7 @@ ms.locfileid: "41707834"
 |터키어  <br/> |터키  <br/> |tr-TR  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
 |베트남어 <br/> |베트남  <br/> |vi-VN  <br/> |예  <br/> |예  <br/> |아니요  <br/> |
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](here-s-what-you-get-with-phone-system.md)

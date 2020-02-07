@@ -10,18 +10,20 @@ audience: admin
 description: 현재 비즈니스용 Skype 배포에 따라 Microsoft 팀에 대 한 업그레이드 경로를 선택 합니다.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06c941f39dee36b14cd8c79e55af21b171e18bfa
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 8038b1d04c3deda955465d6262982d0e216e8f23
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "36437564"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836300"
 ---
 ![배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
 

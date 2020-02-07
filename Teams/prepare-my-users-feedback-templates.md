@@ -11,14 +11,16 @@ audience: admin
 description: Microsoft 팀 또는 비즈니스용 Skype에서 클라우드 음성 구현을 개선 하기 위해 사용자 의견을 수집 하세요.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4690321129ef9b57e70ec497161acd863f061ef9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 89c7f6384df285d4f47eac4407cb9b0884dd2486
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573228"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834628"
 ---
 # <a name="user-feedback-surveys"></a>사용자 의견 설문 조사 
 
@@ -55,13 +57,13 @@ ms.locfileid: "37573228"
 
 친구나 동료에 게 팀을 휴대폰으로 사용 하는 것이 추천할 만한가? (0 = 모든 것이 불가능 합니다. 10 = 매우 높음)
 
-| 0      | raid-1 | 2 | 3-4 | 4(tcp/ipv4) | 5mb | 26 | 7 | 20cm(8 | 되었는지 | 1천만 |
+| 0      | 1 | 2 | 3 | 4(tcp/ipv4) | 5mb | 26 | 7 | 20cm(8 | 되었는지 | 1천만 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 친구나 동료에 게 휴대폰 장치를 추천할 가능성이 얼마나 되나요? (0 = 모든 것이 불가능 합니다. 10 = 매우 높음)  
 
-| 0      | raid-1 | 2 | 3-4 | 4(tcp/ipv4) | 5mb | 26 | 7 | 20cm(8 | 되었는지 | 1천만 |
+| 0      | 1 | 2 | 3 | 4(tcp/ipv4) | 5mb | 26 | 7 | 20cm(8 | 되었는지 | 1천만 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 

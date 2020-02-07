@@ -17,14 +17,16 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 description: 정책 이름에 특수 문자와 문제 해결을 위해 수행할 수 있는 작업에 대해 알아봅니다.
-ms.openlocfilehash: a3b7c8dfcba8d88f0428711a913344b33b431c37
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4116f34c06667a3bd4e75f9a5541b23c8ea79dcb
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707593"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837928"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>팀 정책의 특수 문자 제한 사항은 무엇 인가요?
 

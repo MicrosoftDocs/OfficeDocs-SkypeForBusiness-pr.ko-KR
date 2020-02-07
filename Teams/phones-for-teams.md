@@ -10,16 +10,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 localization_priority: Normal
 description: 이 문서에서는 Microsoft 팀에 대해 인증 되는 전화 목록과 Microsoft 팀을 위해 인증 된 전화에서 지원 되는 기능에 대해 설명 합니다.
-ms.openlocfilehash: 958836bb3a959b077d0032f58d6b8f287bee407c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: b811a92977d10601aa601e1bae811ef73c34dce8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675392"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836868"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft 팀 용 전화
 
@@ -52,7 +54,7 @@ Microsoft 팀은 일반 전화 환경을 필요로 하는 사용자를 위한 �
 |Exchange 일정 통합 |예|예|
 |연락처 사진 통합  |예|예|
 |회사 디렉터리 액세스 | 예|예|
-|**Meeting**|   ||
+|**모임**|   ||
 |한 번 클릭으로 모임 참가  | 예  |예 |
 |비즈니스용 Skype 모임 참가 | 예  | 예|
 |모임 통화 제어 (음소거/음소거 해제, 보류/다시 시작, 전화 끊기, 참가자 추가/제거)|예|예|

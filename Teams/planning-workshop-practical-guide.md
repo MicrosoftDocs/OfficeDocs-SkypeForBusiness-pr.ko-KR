@@ -11,14 +11,16 @@ ms.reviewer: lolaj, rowille
 description: 조직에서 Microsoft 팀을 시작 하는 데 도움이 되는 계획 도구, 워크샵, 시작 키트를 참조 하세요.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71e864364c089b149f0351570fd673a0bf24068e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a5d7423dfd0493af0e780b81f96d840f422d4833
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573234"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834658"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>도구 및 워크샵: Microsoft 팀 계획, 제공 및 채택
 
@@ -50,8 +52,8 @@ ms.locfileid: "37573234"
 
 [비즈니스용 Skype에서 팀으로 업그레이드 계획 워크숍](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
 
-[온-프레미스에서 팀으로 사용자 이동](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+[사용자를 온-프레미스에서 Teams로 이동](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 
-[조직의 Microsoft 팀 설정 관리](enable-features-office-365.md)
+[조직에서 Microsoft Teams 설정 관리](enable-features-office-365.md)
 
 

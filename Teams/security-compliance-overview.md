@@ -13,15 +13,17 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 400e6523a867e5ee7c2da1b3d0ccaba14db55f27
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8f75d7fbbe3aa936163068e5652a6535d1b77251
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693923"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835838"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 준수에 대 한 개요
 ======================================================
@@ -168,6 +170,6 @@ Office 365의 고객은 데이터를 소유 하 고 제어 합니다. Microsoft�
 
 [Microsoft 보안 센터](https://microsoft.com/trustcenter)의 신뢰 및 보안 관련 정보에 대 한 자세한 내용을 확인 하세요. 팀은 Microsoft 보안 센터와 동일한 지침 및 원칙을 따릅니다.
 
-<a name="related-topics"></a>관련 주제
+<a name="related-topics"></a>관련 항목
 ----------------------
 [Office 365 ATP 안전한 링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)

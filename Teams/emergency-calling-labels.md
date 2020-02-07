@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: Office 365에서 통화 요금제를 사용 하는 경우 응급 통화를 위해 이러한 레이블을 다운로드할 수 있습니다.
-ms.openlocfilehash: 375d0cf16e86cf2ee79eb0e757689e7ec72c0a5d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f56a024f379a3534486294f3bc301503cb010950
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696143"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834978"
 ---
 # <a name="emergency-calling-labels"></a>비상 전화 레이블
 
@@ -33,7 +33,7 @@ Avery 5160 주소 레이블 (1 "x 2 5/8")에 사용 하거나 다른 종류의 �
 
 [클릭 하 여 비상 통화 레이블 (en-us) 용 .zip 파일을 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

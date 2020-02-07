@@ -17,16 +17,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: Microsoft 팀의 오디오 회의 정보로 사용자에 게 전자 메일을 보냅니다.
-ms.openlocfilehash: d30e925d35531a2a152778bc805184cfbfc279cb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c2ae5fe3af00cece551db690aa76805edd480373
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694073"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838128"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Microsoft 팀의 오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일 보내기
 
@@ -82,6 +82,6 @@ Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는
 Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.
     
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: 비전과 목표를 구체화 하 여 업그레이드 프로젝트의 범위를 조정 합니다.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8f1fb718ae254f3239153acd5664c4e1709de40
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 13da1a583d5aa0abaad4e981e5fc68d3aa913ce9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236475"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837248"
 ---
-![프로젝트 정의 스테이지를 강조 표시 하 여 여행 다이어그램 업그레이드] (media/upgrade-banner-project-definition.png "프로젝트 정의 단계에 대 한 강조를 사용 하 여 업그레이드 여행 단계")
+![프로젝트 정의 스테이지를 강조 표시 하 여 여행 다이어그램 업그레이드](media/upgrade-banner-project-definition.png "프로젝트 정의 단계에 대 한 강조를 사용 하 여 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행에 대 한 프로젝트 정의 단계의 일부 이며, 확인 한 관련자 로부터 후원 coalition 및 프로젝트 팀을 만든 후 완료 한 활동은 프로젝트의 성공에 대 한 핵심입니다. 계속 하기 전에 다음 활동을 완료 했는지 확인 합니다.
 
@@ -35,8 +37,8 @@ ms.locfileid: "36236475"
 
 | | |
 |---|---|
-| ![결정 점을 가리키는 아이콘](media/audio_conferencing_image7.png) <br/>결정 사항|<ul><li>이 프로젝트를 사용 하 여 수행할 작업 (즉, 그 이유는 무엇 인가요?)을 선택 합니다.</li><li>성공의 형태</li><li>위험성 및 해당 위험을 완화 하기 위한 계획은 무엇 인가요?</li></ul> |
-| ![다음 단계를 설명 하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>프로젝트 팀과 후원자와 함께 다음 섹션을 논의 하세요.</li><li>이 프로젝트의 비전, 범위, 목표, 위험을 문서화 합니다.</li><li>프로젝트 팀을 다시 방문 하 여 적절 한 팀을 담당 하 고 있는지 확인 합니다.</li></ul>|
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>이 프로젝트를 사용 하 여 수행할 작업 (즉, 그 이유는 무엇 인가요?)을 선택 합니다.</li><li>성공의 형태</li><li>위험성 및 해당 위험을 완화 하기 위한 계획은 무엇 인가요?</li></ul> |
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>프로젝트 팀과 후원자와 함께 다음 섹션을 논의 하세요.</li><li>이 프로젝트의 비전, 범위, 목표, 위험을 문서화 합니다.</li><li>프로젝트 팀을 다시 방문 하 여 적절 한 팀을 담당 하 고 있는지 확인 합니다.</li></ul>|
 
 ## <a name="project-vision"></a>프로젝트 비전
 

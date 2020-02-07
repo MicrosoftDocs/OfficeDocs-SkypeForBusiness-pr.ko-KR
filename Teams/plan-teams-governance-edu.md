@@ -10,18 +10,20 @@ audience: admin
 description: 팀을 사용 하는 Microsoft 교육 그룹의 관리자가 자주 묻는 질문에 대 한 답변입니다.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4faddea2a6d0366a45fab3667b781d9d1fe81f0b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 719f9429d49dfef7a21670c67bad96c9e26c993e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573265"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837438"
 ---
-# <a name="microsoft-education-governance-faq-for-admins"></a>관리자를 위한 Microsoft 교육 관리 FAQ
+# <a name="microsoft-education-governance-faq-for-admins"></a>관리자용 Microsoft 교육 거버넌스 FAQ
 
 > [!Tip]
 > Microsoft 팀의 관리 [, 관리 및 수명 주기](https://aka.ms/teams-governance) 에 대 한 자세한 내용을 보려면 다음 세션을 시청 하세요.
@@ -30,7 +32,7 @@ ms.locfileid: "37573265"
 
 부적절 하거나 잘못 된 이름을 피하고, 팀의 이름을 지정 하는 방법에 대 한 추가 구조를 제공 하기 위해 Office 365 Groups name policy (현재 미리 보기 상태)를 사용할 수 있습니다.
 
--   **접두사 접미사 이름 지정 정책** 접두 번호 또는 접미사를 사용 하 여 팀 (그룹)의 명명 규칙 (예: **GRP_US_My Group_Engineering**을 정의할 수 있습니다. 접두 번호와 접미사는 팀을 만드는 사용자에 따라 이름에 추가 되는 고정 문자열 또는 사용자 특성 (예: **[부서]**) 일 수 있습니다.
+-   **접두사 접미사 이름 지정 정책** 접두 번호 또는 접미사를 사용 하 여 팀 (그룹)의 명명 규칙 (예: **GRP_US_My Group_Engineering**)을 정의할 수 있습니다. 접두 번호와 접미사는 팀을 만드는 사용자에 따라 이름에 추가 되는 고정 문자열 또는 사용자 특성 (예: **[부서]**) 일 수 있습니다.
 -   **사용자 지정 차단 된 단어** 특정 조직의 사용자가 자신이 만든 팀의 이름에서 사용을 차단 하는 단어 집합을 업로드할 수 있습니다. 예를 들어 팀 이름에 적용 되지 않는 그룹의 경우 **CEO**, **급여**, **HR** 의 사용 조건을 차단할 수 있습니다.
 -   **분류** 조직의 사용자가 Office 365 그룹을 만들 때 설정할 수 있는 분류를 만들 수 있습니다. 
 
@@ -79,7 +81,7 @@ ms.locfileid: "37573265"
 
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>팀을 만들 때 교직원 구성원을 위해 팀 서식 파일을 사용할 수 있나요?
 
-'. 사용자는 새 팀을 만들 때 **기존 서식 파일에서 팀 만들기** 를 선택할 수 있으며, 팀 소유자는 [Graph API (베타)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) 를 사용 하 여 사용 가능한 서식 파일에서 새 팀을 만들 수도 있습니다.
+예. 사용자는 새 팀을 만들 때 **기존 서식 파일에서 팀 만들기** 를 선택할 수 있으며, 팀 소유자는 [Graph API (베타)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) 를 사용 하 여 사용 가능한 서식 파일에서 새 팀을 만들 수도 있습니다.
 
 ## <a name="what-tasks-can-i-automate-via-powershell-or-graph"></a>PowerShell 또는 그래프를 통해 자동화할 수 있는 작업은 무엇 인가요?
 
@@ -110,7 +112,7 @@ ms.locfileid: "37573265"
 
 ## <a name="can-i-control-what-teams-features-my-faculty-and-students-have-access-to"></a>내 교사와 학생이 액세스할 수 있는 팀의 기능을 제어 하나요?
 
-'. 정책을 사용 하 여 사용자가 액세스할 수 있는 특정 메시징, 모임, 통화, 라이브 이벤트 기능을 제어할 수도 있습니다. 테 넌 트 전체 설정을 사용 하 여 동일한 설정을 all에 적용 하거나 필요한 경우 사용자 수준 정책을 적용할 수 있습니다. 
+예. 정책을 사용 하 여 사용자가 액세스할 수 있는 특정 메시징, 모임, 통화, 라이브 이벤트 기능을 제어할 수도 있습니다. 테 넌 트 전체 설정을 사용 하 여 동일한 설정을 all에 적용 하거나 필요한 경우 사용자 수준 정책을 적용할 수 있습니다. 
 
 팀 정책에 대 한 자세한 내용은 [조직의 Microsoft 팀 설정 관리](enable-features-office-365.md)를 참조 하세요.
  

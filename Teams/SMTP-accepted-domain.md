@@ -11,15 +11,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: anprakas
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 팀 구성원에 게 알림을 보내기 위해 Exchange Online에서 허용 된 보낸 사람 도메인으로 Microsoft 팀 SMTP 도메인을 추가 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ae8be5c4b596b8815b8677b6214163924cbb183
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a3455c56ab3d51b83d2d5bc27d41824b6fe16ae9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572554"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834768"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Exchange Online에서 Microsoft 팀 SMTP 도메인을 허용 된 보낸 사람 도메인으로 추가 
 =============================================================================

@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft 팀 내에서 전화 접속 회의를 사용 하도록 설정 된 조직의 사용자 목록을 보는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: f769953a2cbce7ee91a5a75c00cbcb0e2a2b3814
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9330aef9e143764949c4589535126eb2dd72e883
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694133"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838148"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Microsoft 팀에서 오디오 회의를 사용 하도록 설정 된 사용자 목록 보기
 
@@ -59,6 +59,6 @@ Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는
     
 Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

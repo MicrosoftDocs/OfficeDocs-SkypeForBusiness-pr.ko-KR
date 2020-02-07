@@ -15,14 +15,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 메시징 정책 및이를 사용 하 여 팀의 채팅 메시지를 제어 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 676217cbd9101884e01cef1afd39203efc090f16
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ceb77747da051c5b7e4fb764d6b6679335d8f366
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707283"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836448"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>팀에서 메시징 정책 관리
 
@@ -101,5 +103,5 @@ ms.locfileid: "41707283"
 > [!NOTE]
 > Giphy를 사용 하는 등 이러한 설정 중 일부는 팀 소유자에 의해 또는 개인 채널 소유자가 개인 채널 수준에 따라 팀 수준에서 구성할 수도 있습니다.
 
-### <a name="related-topics"></a>관련 주제
+### <a name="related-topics"></a>관련 항목
 [팀의 모임 정책](meeting-policies-in-teams.md)

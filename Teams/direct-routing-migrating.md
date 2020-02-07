@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: 비즈니스용 Skype Online 및 팀 구성 관점에서 직접 라우팅하기 위해 마이그레이션하는 데 필요한 사항에 대해 알아보세요.
-ms.openlocfilehash: 4c65a8c5d5a28ab5046c23e2743962fe1114c2a4
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 85b53bf33cd8f9015ea9294876a06da3532ad085
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992585"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836058"
 ---
 # <a name="migrate-to-direct-routing"></a>직접 라우팅으로 마이그레이션
 
@@ -63,7 +65,7 @@ OnPremLineURI |해당 없음|전화 번호는 온-프레미스 광고와 동기�
 
 통화 계획에서 마이그레이션하는 방법에 대 한 자세한 내용은 다음을 참조 하세요.
 
-- [통화 요금제 설정](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+- [통화 플랜 설정](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 - [Set-CsOnlineVoice 사용자](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
 - [Get-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  

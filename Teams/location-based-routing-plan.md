@@ -10,16 +10,18 @@ ms.reviewer: roykuntz
 search.appverid: MET150
 description: 직접 라우팅에 대 한 위치 기반 라우팅을 계획 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 429ed4dcd2996c404b47839de036972d44cc0d26
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 0c341b808890ecc1d3b237ae70190aad9d1de8ea
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615818"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836548"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 

@@ -10,17 +10,19 @@ audience: admin
 description: 미국 정부의 DoD 규정에 대 한 데이터를 처리 하는 엔터티에서 Office 365 배포를 구동 하는 IT 전문가를 위한 지침입니다.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33495b8a4122df6c0c5d380b835dbfb3a9271eb2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: be952d838135a03a873d7193118febf5639bd415
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573298"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836858"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Microsoft 365 정부 기관-DoD 배포 계획
 
@@ -49,7 +51,7 @@ Microsoft 365 정부 기관-DoD 환경은 클라우드 서비스에 대 한 미�
 
 |    |     |
 |-----------|------------|
-| ![결정 점을 가리키는 아이콘](media/audio_conferencing_image7.png) <br/>결정 사항|<ul><li>Microsoft 365 정부-DoD가 조직에 적합 한지 여부를 결정 합니다.</li><li>조직이 자격 요건을 충족 하는지 확인 합니다.</li></ul> |
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>Microsoft 365 정부-DoD가 조직에 적합 한지 여부를 결정 합니다.</li><li>조직이 자격 요건을 충족 하는지 확인 합니다.</li></ul> |
 
 > [!Note]
 > Microsoft 365 정부-DoD는 미국 에서만 사용할 수 있습니다. 미국 정부의 고객이 아닌 사용자는 다양 한 [Office 365 정부 계획](https://products.office.com/en/government/compare-office-365-government-plans)중에서 선택할 수 있습니다.
@@ -72,25 +74,25 @@ Microsoft 365 정부 기관-DoD 환경은 클라우드 서비스에 대 한 미�
 
 귀하의 정부 클라우드 고객의 요구 사항을 충족 하기 위해 Microsoft 365 정부-DoD 및 Enterprise 계획의 팀에는 몇 가지 차이점이 있습니다. 사용할 수 있는 기능을 확인 하려면 다음 표를 참조 하세요.
 
-|                             | 요소                     | DoD       |
+|                             | 기능                     | DoD       |
 |-----------------------------|-----------------------------|----------------|
 | 기반의 | 로그인 | 공간이 |
-| | 늘어 | 공간이 |
+| | 현재 상태 | 공간이 |
 | | 통합 현재 상태 (비즈니스용 Skype 및 팀 통합) | 정부 백로그 |
 | 작동이 | 피드 | 공간이 |
 |  | 내 활동 | 공간이 |
-| 채트 | 주제별로 | 공간이 |
-| | 파일이 | 공간이 |
+| 채팅 | 주제별로 | 공간이 |
+| | 파일 | 공간이 |
 | | 조직도 | 공간이 |
 | | 작동이 | 공간이 |
 | | InterOp (1:1 팀-비즈니스용 Skype 채팅) | 정부 백로그 |
-| 성과 | 채널 메시지 | 공간이 |
+| Teams | 채널 메시지 | 공간이 |
 | | 채널 파일 | 공간이 |
 | | OneNote 탭 | 정부 백로그 |
 | | 채널을 전자 메일로 보내기 | 사용할 수 없음 |
 | | 구성원 추가 | 공간이 |
 | | 게스트 액세스 | 정부 백로그 |
-| Meeting | 모임 예약 | 공간이 |
+| 모임 | 모임 예약 | 공간이 |
 | | 모임 참가 | 공간이 |
 | | VoIP 모임 | 공간이 |
 | | 데스크톱 공유 | 공간이 |
@@ -101,12 +103,12 @@ Microsoft 365 정부 기관-DoD 환경은 클라우드 서비스에 대 한 미�
 | | 모임 브로드캐스트 | 정부 백로그 |
 | | 클라우드 내 (DoD ~ DoD) 페더레이션된 모임 | 공간이 |
 | | Surface Hub 지원 | 정부 백로그 |
-| 전화가 | 상대가 | 공간이 |
+| 전화가 | 연락처 | 공간이 |
 | | 역사 | 공간이 |
-| | 보이스 메일 | 공간이 |
+| | 음성 메일 | 공간이 |
 | | VoIP 통화 | 공간이 |
 | | 비즈니스용 Skype-팀 전화 | 공간이 |
-| | 통화 요금제 | 사용할 수 없음 |
+| | 통화 플랜 | 사용할 수 없음 |
 | | 오디오 회의 (모임 참가자가 PSTN을 통해 참가 하도록 허용) | 공간이 |
 | | Microsoft 전화 시스템 다이렉트 라우팅 | 정부 백로그 |
 | | PSTN 호출자 용 대기실 | 정부 백로그 |
@@ -124,12 +126,12 @@ Microsoft 365 정부 기관-DoD 환경은 클라우드 서비스에 대 한 미�
 | | 통화 및 모임 모두에 대해 eDiscovery | 공간이 |
 | | 조직 자동 전화 교환 | 정부 백로그 |
 | | Skype 소비자-팀 전화 지원 | 사용할 수 없음 |
-| 파일이 | 최근 | 공간이 |
-| | Microsoft 팀 | 공간이 |
+| 파일 | 최근 | 공간이 |
+| | Microsoft Teams | 공간이 |
 | 스토어 | App Store | 사용할 수 없음 |
 | 찾아 | 보내는 | 공간이 |
-| | 사람만 | 공간이 |
-| | 파일이 | 공간이 |
+| | 사용자 | 공간이 |
+| | 파일 | 공간이 |
 | | 슬래시 명령 | 공간이 |
 | 충족 | 콘텐츠 검색 준수 | 공간이 |
 | | 보관 | 공간이 |

@@ -1,5 +1,5 @@
 ---
-title: 사용자에 게 전화 걸기 기능 설정
+title: 사용자의 전화 받기 기능 설정
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: macai, phedry
@@ -12,16 +12,18 @@ description: 사용자가 오디오에 대 한 컴퓨터를 사용할 수 없는
 localization_priority: Normal
 ms.collection:
 - M365-voice
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bd9ca9b73d3d2e60b707d0f40ebb1797d4e1a00
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fe895fee4f3bc0872d277429289b5d04d6c9161d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571549"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837998"
 ---
-# <a name="set-up-the-call-me-feature-for-your-users"></a>사용자에 게 전화 걸기 기능 설정
+# <a name="set-up-the-call-me-feature-for-your-users"></a>사용자의 전화 받기 기능 설정
 
 Microsoft 팀에서 전화 **걸기** 기능을 통해 사용자는 휴대폰으로 모임의 오디오 부분에 참가할 수 있습니다. 이 방법은 오디오를 사용 하는 것이 불가능할 수 있는 시나리오에서 유용 합니다. 사용자는 휴대폰 또는 육지 모임의 오디오 부분을 받고 다른 모임 참가자가 화면을 공유 하거나 컴퓨터를 통해 비디오&mdash;&mdash;를 재생할 때 모임의 콘텐츠 부분을 사용할 수 있습니다.
 

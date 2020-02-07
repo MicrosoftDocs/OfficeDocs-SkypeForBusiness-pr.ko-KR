@@ -11,17 +11,19 @@ ms.service: msteams
 description: Office 365 Url 및 IP 주소 범위를 적절히 구성 하 고, Microsoft 팀 서비스와의 연결을 사용할 수 있는 경우 전달 프록시를 우회 하 고, 네트워킹 및 보안 정책에 대 한 요구 사항을 확인 하는 방법을 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.meetingsettings.network.ports
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.meetingsettings.network.ports
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ccecd9faf9bb023ba80c01783c24a95c44e586f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 52bbf0ae0c104989c63315b42d3aaa08985da637
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695673"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834388"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 및 IP 주소 범위
 =====================================

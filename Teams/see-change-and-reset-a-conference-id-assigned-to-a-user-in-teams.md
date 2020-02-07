@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft 팀의 사용자에 게 전화 회의 ID를 할당 하는 방법과 전화 회의 ID의 매개 변수를 지정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: fe166dc7b70c30e995bbbd6412a6baa6769c1bb6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e6b1a1ace9bdbf607fa4e1ef678687f37034a052
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694123"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838138"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Microsoft 팀에서 사용자에 게 할당 된 회의 ID 보기 및 다시 설정
 
@@ -96,7 +96,7 @@ Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는
     
 Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

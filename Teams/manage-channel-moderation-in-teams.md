@@ -8,6 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -15,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 팀 구성원을 채널 중재자로 추가 하는 방법을 포함 하 여 Microsoft 팀에서 중재를 위해 채널을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 52b89f21cd2b622b78f6dbee44d8efe5ce4ce490
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 70cb06e3a55d24b3609902af529a2880a42901d2
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570666"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836628"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft 팀에서 채널 중재 설정 및 관리
 
@@ -36,7 +38,7 @@ Microsoft 팀에서 팀 소유자는 채널에 대 한 중재를 설정 하 여 
 - 팀 구성원을 한 채널에 대 한 중재자로 추가 하 고 제거 합니다. 기본적으로 팀 소유자는 채널 중재자 이며 제거할 수 없다는 점에 유의 하세요.
 - 팀 구성원이 기존 채널 메시지에 회신할 수 있는지 여부와 인공 지능 및 커넥터에서 채널 메시지를 제출할 수 있는 여부를 제어 합니다.
 
-## <a name="scenarios"></a>등
+## <a name="scenarios"></a>시나리오
 
 다음은 조직에서 팀의 채널 중재를 사용 하는 방법에 대 한 몇 가지 예입니다.
 

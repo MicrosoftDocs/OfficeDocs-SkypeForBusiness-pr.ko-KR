@@ -14,14 +14,16 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.orgwidesettings.holidays.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.orgwidesettings.holidays.overview
 description: Microsoft 팀에서 휴일을 설정 하 고 자동 전화 교환에 연결 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3f52cd1e99a2dec23cae5e6b9f80dd664017d881
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dc156b2c2ae0a71ae7cdb1282676f47c7ba648bc
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693843"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838018"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Microsoft 팀에서 휴일 설정
 
@@ -84,6 +86,6 @@ Microsoft 팀 공휴일 기능을 사용 하 여 조직의 사용자가 작업�
     통화를 리디렉션하려면 통화 **리디렉션을**선택한 다음 드롭다운 목록에서 리디렉션되는 전화를 받을 사람을 선택 하거나 표시 이름으로 해당 사용자를 검색 합니다.
 8. **저장**을 선택 합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [클라우드 자동 전화 교환 이란](what-are-phone-system-auto-attendants.md)?

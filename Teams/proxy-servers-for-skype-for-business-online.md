@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Optimization
 description: 이 문서에서는 팀 또는 비즈니스용 Skype에 프록시 서버를 사용 하는 방법에 대 한 정보를 제공 합니다.
-ms.openlocfilehash: e71dd21d8d359093b5dada84a8d0788e8dff6af3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7eeb319c9c352f4f04abef581b88c1eddf46951d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708834"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837308"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams 또는 비즈니스용 Skype Online 용 프록시 서버
 
@@ -58,7 +58,7 @@ Microsoft는 또한 다음을 적극 권장 합니다.
     
 이 지침을 팔 로우 하면 잠재적인 문제를 최소화할 수 있습니다.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype Online에 맞게 네트워크 최적화](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
 

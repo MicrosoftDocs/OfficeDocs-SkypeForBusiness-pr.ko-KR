@@ -10,20 +10,22 @@ audience: admin
 description: 조직의 준비 상태를 평가 하 여 변경 내용을 수용 하 고 비즈니스용 Skype에서 Microsoft 팀으로 업그레이드할 준비가 된 사용자를 위한 계획 준비
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dd0509f3f016d6c8c62e6f79de791e8fc531653
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ea2fc7a56b3bc87a7d25c2afa86ff0b9f974995c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236095"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836250"
 ---
-![사용자 준비 단계에 주안점을 두어 업그레이드 여행 단계] (media/upgrade-banner-user-readiness.png "사용자 준비 단계에 중점을 두어 업그레이드 여행 단계")
+![사용자 준비 단계에 주안점을 두어 업그레이드 여행 단계](media/upgrade-banner-user-readiness.png "사용자 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행에 대 한 사용자 준비 단계의 일부로, 기술 준비 단계와 병행 하 여 작업을 완료 합니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
 

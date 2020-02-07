@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀 채택을 위한 교육 프로그램을 구현 하 고 인식을 향상 시키는 방법에 대해 알아봅니다.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8bda03900368e349e2a6579dfb32381af8c97b1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ee8040980f0452529ec84367093262843f499d1f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242297"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837838"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft 팀의 드라이브 인식 및 교육 구현
 

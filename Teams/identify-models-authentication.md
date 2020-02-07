@@ -10,17 +10,19 @@ ms.reviewer: anach
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 description: 클라우드, 동기화 됨, 페더레이션 등의 Microsoft 팀에 있는 다양 한 id 모델에 대해 알아봅니다. Multi-factor authentication에 대해서도 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1aba56bccd78a0492e801299f47199b44c296f2
-ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
+ms.openlocfilehash: 11bf92cc2801d67d9b19d3c54f4c878e0913ffc3
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753355"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835928"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft 팀의 id 모델 및 인증
 ==========================================

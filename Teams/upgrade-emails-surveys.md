@@ -10,18 +10,20 @@ audience: admin
 description: 비즈니스용 Skype에서 팀으로 업그레이드 하기 위한 10 단계 빠른 작업 계획으로 conjunciton에서 사용할 수 있는 샘플 전자 메일 및 설문 조사
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27dc5a5daf92ce0dad214dcc5cf8c26bbc78ea6d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7b90c8f5d7094c036f29a6b64ecfca4e26f51640
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236390"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837228"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>기본 통신 업그레이드를 위한 예제 전자 메일 및 설문 조사
 
@@ -223,7 +225,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 **Microsoft 팀을 친구/동료에 게 추천할 가능성이 얼마나 되나요? (0 = 모든 것이 불가능 합니다. 10 = 매우 높음)**
 
-| 0 | raid-1 | 2 | 3-4 | 4(tcp/ipv4) | 5mb | 26 | 7 | 20cm(8 | 되었는지 | 1천만 |
+| 0 | 1 | 2 | 3 | 4(tcp/ipv4) | 5mb | 26 | 7 | 20cm(8 | 되었는지 | 1천만 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 

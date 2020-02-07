@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀 채택을 시작 하 고 실험 하 고 활성화 하는 단계에 대해 알아보세요.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 168799878ff5f2a9ec1662c905f480854130bb45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 04c785a704c5619dbeb0bd4b2089ed75d52fd5f1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242286"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837828"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Microsoft 팀의 채택을 시작 하세요.
 
@@ -48,7 +50,7 @@ Office 365에는 서비스의 주요 작업 부하에 적용 되는 채택을 �
 
 - **시작** -이 첫 번째 단계에서는 팀을 공동으로 수집 하 고, 초기 팀을 설정 하 고, 팀을 사용 하 여 팀 채택을 계획 하기 시작 합니다. 이 방법을 사용 하면 제품에 대 한 기술적 지식이 향상 되며 후속 단계를 성공적으로 완료 하는 데 필요한 기술을 구축할 수 있습니다. 
 
-- **** 이 단계에서는 제어 된 성장에 대 한이 단계의 내부 챔피언와 초기에 게 내장 되어 있는 것을 제공 합니다. 팀에서 제공 하는 공동 작업 및 통신 기능을 통해 얻을 수 있는 시나리오를 식별 하기 위해 비즈니스 사용자와 이야기할 수 있습니다. 광범위 한 채택 단계에 대 한 의견을 수집 하 고 관리 및 수명 주기 관리에 대 한 서비스를 결정 하 여 배포를 성공적으로 수행 하도록 합니다.
+- 이 단계에서는 제어 된 성장에 대 한이 단계의 내부 챔피언와 초기에 게 내장 되어 있는 것 **을 제공 합니다** . 팀에서 제공 하는 공동 작업 및 통신 기능을 통해 얻을 수 있는 시나리오를 식별 하기 위해 비즈니스 사용자와 이야기할 수 있습니다. 광범위 한 채택 단계에 대 한 의견을 수집 하 고 관리 및 수명 주기 관리에 대 한 서비스를 결정 하 여 배포를 성공적으로 수행 하도록 합니다.
 
 - **크기 조정** -모든 직원에 대해 팀의 기능을 설정할 수 있는 광범위 한 배포 단계입니다. 이 단계에서 조직의 크기에 따라이 프로젝트가 모든 직원의 팀을 동시에 켜거나 지역, 비즈니스 단위 또는 직원 인구를 세그먼트화 하는 기타 방법으로이를 사용 하 게 됩니다. 이 단계에서는 연속적인 전달 모델로 이동 합니다. 직원, 리더 및 비즈니스 단위는 팀의 사용을 확장할 것 이며, 팀과 Office 365의 다른 기능을 사용 하는 최선의 방법에 대 한 교육 및 계약이 필요 합니다.   
 

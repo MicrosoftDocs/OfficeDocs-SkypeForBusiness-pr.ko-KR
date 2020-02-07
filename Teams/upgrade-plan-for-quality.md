@@ -10,20 +10,22 @@ audience: admin
 description: 이 지침을 사용 하 여 고품질의 Microsoft 팀 배포를 제공 하 고 유지 관리 하는 데 필요한 요구 사항에 대해 알아보세요.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b4d9f5033e0a3fb0446709438e670f6f9408de3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 72b1f737386d652e4fdbc027cf814ba838c8275d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236510"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836150"
 ---
-![여행 다이어그램 업그레이드, 기술 준비 단계 강조] (media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
+![여행 다이어그램 업그레이드, 기술 준비 단계 강조](media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 사용자 준비 단계와 병행 하 여 완료 한 활동 인 업그레이드 여행에 대 한 기술 준비 단계의 일부입니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
 
@@ -64,7 +66,7 @@ ms.locfileid: "36236510"
 
 조직 또는 지원 파트너는 팀 배포의 기술 준비 단계 (서비스 관리, 네트워크, 끝점) 중에 세 가지 주요 구성 요소에 대 한 계획을 시작 해야 합니다. 세 가지 영역의 조합은 모두 사용자 환경의 품질에 대 한 기본입니다.
 
-![품질의 세 가지 구성 요소를 보여 주는 다이어그램] (media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 보여 주는 다이어그램")
+![품질의 세 가지 구성 요소를 보여 주는 다이어그램](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 보여 주는 다이어그램")
 
 #### <a name="service-management"></a>서비스 관리
 
@@ -76,7 +78,7 @@ ms.locfileid: "36236510"
 
 서비스 관리 계획에 대 한 자세한 지침은 [서비스 관리 계획](#plan-for-service-management)을 참조 하세요.
 
-#### <a name="network"></a>사설망
+#### <a name="network"></a>네트워크
 
 대부분의 조직에서는 기본적으로 네트워크 센터에 있는 데이터 및 응용 프로그램에 대 한 액세스를 제공 하도록 디자인 되었습니다. Office 365와 같은 클라우드 기반 응용 프로그램은 팀이 필요로 하는 새 액세스 및 데이터 흐름을 지원 하기 위해 이러한 네트워크를 변경 해야 합니다. 조직의 팀에 대해 사용자를 사용 하도록 설정 하기 전에 현재 네트워크를 평가 하 고 최적화 해야 합니다. 이는 클라우드 음성 기능을 활용할 때 매우 중요 합니다.
 
@@ -102,11 +104,11 @@ Microsoft 팀은 다양 한 끝점을 지원 합니다. Pc에서 휴대폰으로
 
 서비스 관리에는 Microsoft 팀의 종단 간 관리에 관련 된 모든 활동과 프로세스가 포함 됩니다. 앞에서 설명한 대로, Office 365 서비스 자체에 속하는 인프라 구성 요소인 서비스 관리의 일부 구성 요소는 Microsoft의 역할을 하지만, 고객은 팀의 다양 한 측면을 관리 하기 위해 사용자에 게 책임을 집니다. 네트워크 및 해당 사용자가 제공 하는 끝점. 이 문서의 섹션에서는 서비스 관리 관점에서 고객의 책임에 초점을 집중 합니다.
 
-![품질의 세 가지 구성 요소를 보여 주는 다이어그램] (media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 보여 주는 다이어그램 서비스 관리에 집중")
+![품질의 세 가지 구성 요소를 보여 주는 다이어그램](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 보여 주는 다이어그램 서비스 관리에 집중")
 
 ### <a name="introduction-to-the-operations-guide"></a>운영 가이드 소개
 
-서비스 관리 **** 에 필요한 세 **** 가지 중요 한 질문에 대 한 답변을 제공 합니다. ****
+서비스 관리에 필요한 세 가지 **중요 한** **질문에 대**한 **답변을 제공**합니다.
 
 [운영 가이드](1-drive-value-operate-my-service.md) 를 사용 하 여 세 가지 질문에 대 한 해결을 도울 수 있습니다. 이 가이드에서는 매일, 매주, 매월, 필요한 기준에 따라 수행할 작업 목록을 제공 합니다. 이러한 활동 및 작업은 고품질 팀 배포를 유지 관리 하는 데 중요 합니다. 서비스 관리에서 특정 작업을 수행 하는 담당자를 결정 하는 것은 배포를 성공적으로 완료 하기 위해 [계획 단계의](upgrade-enlist-stakeholders.md) 초기 단계에서 수행 해야 하는 계획의 중요 한 측면입니다. 작업 및 활동을 파악 한 후에는 이해 하 고 그 다음에 자신에 게 할당 하는 그룹 또는 개인이 그 다음에 자신을 확인 해야 합니다. 운영 가이드에서는 각 작업을 수행 하는 방법에 대 한 정보 및 지침과 외부 콘텐츠를 참조 하는 방법에 대해 설명 합니다.
 
@@ -132,7 +134,7 @@ Microsoft 팀은 다양 한 끝점을 지원 합니다. Pc에서 휴대폰으로
 
 품질 경험 검토 가이드에는 아래 그림에 표시 된 대로 사용자 환경을 개선 하는 데 가장 큰 영향을 주는 주요 영역에서 개선 지침을 평가 하 고 제공 하는 일련의 활동이 있습니다.
 
-![품질 환경 검토 중 검사 되는 영역을 보여 주는 다이어그램] (media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "품질 환경 검토 중에 검사 되는 주요 영역을 보여 주는 다이어그램")
+![품질 환경 검토 중 검사 되는 영역을 보여 주는 다이어그램](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "품질 환경 검토 중에 검사 되는 주요 영역을 보여 주는 다이어그램")
 
 이 문서에서 설명 하는 영역을 지속적으로 평가 하 고 수정 사용자 환경에 부정적인 영향을 줄 수 있습니다. 배포에서 발생 하는 대부분의 사용자 경험 문제는 다음 범주로 그룹화 할 수 있습니다.
 
@@ -158,7 +160,7 @@ Microsoft 팀은 다양 한 끝점을 지원 합니다. Pc에서 휴대폰으로
 
 네트워크 품질에 대 한 계획은 다음 섹션에 중점을 둔 것입니다.
 
-![품질의 세 가지 구성 요소를 보여 주는 다이어그램] (media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 보여 주는 다이어그램 네트워크에 포커스를 둔 상태")
+![품질의 세 가지 구성 요소를 보여 주는 다이어그램](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 보여 주는 다이어그램 네트워크에 포커스를 둔 상태")
 
 앞에서 언급 한 것 처럼 Microsoft 팀에 온 보 딩 전에 네트워크 품질을 계획 하 고 있는 것이 중요 합니다. 네트워크 준비에 대 한 자세한 내용은 [Microsoft 팀 용 조직의 네트워크 준비](prepare-network.md)를 참조 하세요.
 
@@ -273,7 +275,7 @@ Wi-fi 네트워크를 최적화 하기 위해 몇 가지 요소를 재생 합니
 
 아래 다이어그램에서 볼 수 있듯이 끝점은 사용자에 게 고품질 환경을 제공 하기 위해 중요 한 빌딩 블록입니다.
 
-![품질의 세 가지 구성 요소를 보여 주는 다이어그램] (media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 보여 주는 다이어그램 끝점에 포커스를 둔 상태")
+![품질의 세 가지 구성 요소를 보여 주는 다이어그램](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "품질의 세 가지 구성 요소와 서비스 관리가 세 구성 요소를 모두 겹치는 방법을 보여 주는 다이어그램 끝점에 포커스를 둔 상태")
 
 Microsoft 팀 끝점은 Pc, Mac, 태블릿, 모바일 장치를 비롯 한 다양 한 장치에서 실행 될 수 있습니다. 장치의 기본 제공 마이크/스피커, 이어폰 또는 최적화 된 헤드셋을 사용 하는 등 장치를 장치에 연결 하는 방법과 같은 환경의 일부 최적화 된 헤드셋을 사용 하면 전체적인 사용자 환경이 보강 될 수 있습니다.
 

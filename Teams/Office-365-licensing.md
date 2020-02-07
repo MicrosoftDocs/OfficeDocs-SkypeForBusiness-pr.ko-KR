@@ -12,19 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 description: 다양 한 Office 365 라이선스와 Microsoft 팀을 위한 사용자, 그리고이를 사용 하거나 사용 하지 않도록 설정 하는 방법에 대해 알아봅니다.
 ms.custom:
-- NewAdminCenter_Update
+- ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
 ms.collection:
 - M365-collaboration
 f1.keywords:
-- ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
+- CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29ad7a18c5b666a3dcd8c29c34c08e2a7c8b75b2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 012a45c679faef7e547b5017590c7b81c577dde5
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41681425"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834328"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft 팀 용 Office 365 라이선스
 ========================================

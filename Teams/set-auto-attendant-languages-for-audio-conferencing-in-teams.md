@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: Microsoft 팀에서 오디오 회의 번호에 대 한 오디오 회의 자동 전화 교환 언어를 선택 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a8755acf77d0b512924156ff303ed0b11f014a45
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a84ee0b230ed8de35da3a4fdea488eee9b3628e6
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694043"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838108"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Microsoft 팀에서 오디오 회의를 위한 자동 전화 교환 언어 설정
 
@@ -68,7 +68,7 @@ Microsoft 팀의 오디오 회의 자동 전화 교환은 사용자가 모임에
 
 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 를 참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

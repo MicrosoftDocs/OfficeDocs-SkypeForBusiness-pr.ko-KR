@@ -1,5 +1,5 @@
 ---
-title: 바이러스 백신 검사에서 제외할 팀 파일 및 폴더
+title: 바이러스 백신 검색에서 제외할 Teams 파일 및 폴더
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -10,18 +10,20 @@ audience: admin
 description: 일반 바이러스 검사에서 특정 파일 및 폴더를 제외 하 여 팀의 성과를 향상 시킵니다.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b4a4591bf25d7ef1a5b6efb9ab83c4508e26110
-ms.sourcegitcommit: bcebe833d5ff4fcd3d6246fc5ed80980c6f31d0c
+ms.openlocfilehash: 2dbb4b31fc3cddd8c434eb5c94e4f8801ff0633b
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37639132"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837678"
 ---
-<a name="teams-files-and-folders-to-exclude-from-antivirus-scanning"></a>바이러스 백신 검사에서 제외할 팀 파일 및 폴더
+<a name="teams-files-and-folders-to-exclude-from-antivirus-scanning"></a>바이러스 백신 검색에서 제외할 Teams 파일 및 폴더
 =================================
 
 바이러스 백신 프로그램이 특정 팀 파일 및 폴더를 검색 하지 못하도록 하 여 팀 배포의 전반적인 성능을 향상 시킬 수 있습니다. 이렇게 하면 검색할 필요가 없는 파일 및 폴더를 검색 하는 시스템 리소스의 비용을 피할 수 있습니다.

@@ -16,18 +16,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.locations.emergencyaddresses.overview
 - ms.lync.lac.AddressAndLocation
-ms.custom:
 - Calling Plans
 - Direct Routing
 description: 긴급 주소, 긴급 통화 라우팅, 동적 비상 전화에 대 한 정보를 포함 하 여 비상 전화에 대해 알아봅니다.
-ms.openlocfilehash: 1e8eb5ee3f95afb08dc5f33862287fc3b3379806
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 010a1d3afd6ea1fa490b506b82c46c31bf3a4fa2
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694313"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836678"
 ---
 # <a name="manage-emergency-calling"></a>긴급 통화 관리
 
@@ -209,7 +210,7 @@ TeamsEmergencyCallingPolicy는 팀 사용자 계정에 게 부여 하거나, 네
 비상 전화 시, 보안 데스크는 통화에 conferenced, 보안 데스크 사용자의 경험은 TeamsEmergencyCallingPolicy에 따라 제어 됩니다. 그룹 채팅은 각 보안 데스크 구성원에 게 시작 되며, 긴급 전화 발신자의 위치는 중요 한 메시지 알림을 통해 공유 됩니다.  회의 옵션이 정책의 일부로 구성 되어 있으면 각 보안 데스크 사용자가 회의의 일부로 추가로 호출 됩니다.
 
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [긴급 전화 정책 관리](manage-emergency-calling-policies.md)
 - [긴급 통화 라우팅 정책 관리](manage-emergency-call-routing-policies.md)

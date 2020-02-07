@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Reporting
 description: 통화 분석을 설정 하 고 사용 하 여 비즈니스용 Skype 및 Microsoft 팀 통화 품질 문제를 식별 하 고 해결 합니다.
-ms.openlocfilehash: 4b4ab2b60025169351e10a5a8cc3938d146e4f2d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fe46ee580554969d26395b26117649ab8ada2ea0
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693943"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838058"
 ---
 # <a name="set-up-call-analytics"></a>통화 분석 설정
 
@@ -89,7 +89,7 @@ Azure Active Directory에서 관리 역할을 할당 하는 방법에 대 한 �
   
 Tsv 또는 .csv 파일을 처음부터 만드는 경우에는 [테 넌 트 데이터 파일 형식 및 빌드 데이터 파일 구조](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile)를 참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 <a name="BKMK_UploadFiles"> </a>
 
 [통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)

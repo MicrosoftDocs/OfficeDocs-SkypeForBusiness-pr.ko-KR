@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Online 만료
+title: 비즈니스용 Skype Online 단종
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae0d278955f6935b55fda9b0e2dc3b13503b1f77
-ms.sourcegitcommit: 8cfb6bd11706ac3f0da93382359d5231e16e9234
+ms.openlocfilehash: c9986355905cb40e26182368dec8f53d796432fe
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "37639334"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837948"
 ---
-# <a name="skype-for-business-online-retirement"></a>비즈니스용 Skype Online 만료
+# <a name="skype-for-business-online-retirement"></a>비즈니스용 Skype Online 단종
 
 비즈니스용 Skype Online은 2021 년 7 월 31 일에 만료 됩니다. 이 문서에서는 만료 계획에 대 한 자세한 내용, 지금이 공지 사항을 발표 하는 이유에 대 한 간략 한 설명 및 고객이 팀으로 마이그레이션 위해 수행 하는 작업에 대 한 요약을 제공 합니다.
  
@@ -45,6 +47,6 @@ ms.locfileid: "37639334"
 - **팀 및 Skype 소비자 상호 운용성**. 팀과 Skype 소비자 간의 상호 운용성은 두 서비스의 사용자가 채팅 및 통화를 모두 사용 하 여 통신할 수 있도록 합니다.  팀 및 Skype 소비자 Interop는 2020 년 1 사분기 팀에서 사용할 수 있습니다.
 - **연락 센터 통합 및 준수 기록**. 이번 달에는 Five9, Genesys와 함께 팀에서 파트너 관계를 발표 했으며, 연락 센터 솔루션을 사용 가능 하 게 설정 하 고, 호환성 기록을 제공 하는 데 ASC, 좋아, Verint를 사용할 수 있습니다.   다른 연락처 센터와 준수 기록 솔루션을 팀의 시장에 제공 하기 위해 다른 비즈니스용 Skype Online 인증 파트너와 협력 하 고 있습니다.
  
-시작을 시작할 준비가 되 면 입증 된 성공 프레임 워크, 모범 사례, 계획 문서, [무료 강사 진행 교육](instructor-led-training-teams-landing-page.md), fasttrack 등 다양 한 [기술 지침과 계획 리소스](https://aka.ms/SkypeToTeams)를 제공 합니다. [ ](https://www.microsoft.com/FastTrack)적격 구독에 대 한 온 보 딩 지원.
+시작을 시작할 준비가 되 면 입증 된 성공 프레임 워크, 모범 사례, 계획 문서, [무료 강사 진행 교육](instructor-led-training-teams-landing-page.md), 적절 한 플랜에 대 한 [fasttrack](https://www.microsoft.com/FastTrack) 을 비롯 한 [종합적인 기술 지침과 계획 리소스](https://aka.ms/SkypeToTeams)를 제공 합니다.
  
 2014에 소개 된 것부터 비즈니스용 Skype는 전세계 수백만 명에 게 유용한 도구입니다.  인스턴트 메시지, 통화, 비디오를 단일 앱으로 결합 하 여 제품이 새로운 비즈니스 통신을 위해 새롭고 재미 있는 비전을 만들었습니다. Microsoft 팀은 해당 비전의 다음 장이 며, 오늘 뉴스는 비즈니스용 Skype Online 서비스의 만료를 발표 하는 것이 아니라 팀의 자신감을 제공 하 고 있습니다.  2 년이 지난 후에는 팀이 가장 까다로운 고객을 위한 준비가 되어 있습니다!  현재 비즈니스용 Skype Online 고객 인 경우 지금 마이그레이션 계획을 시작 해 보세요.  저희는 모든 단계를 돕기 위해 노력 하 고 있으며, 새로운 작업 방법을 경험할 수 없습니다. 

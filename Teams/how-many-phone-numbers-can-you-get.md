@@ -16,16 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
+f1.keywords:
+- CSH
 ms.custom:
 - Calling Plans
+- ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 description: 조직의 전화 번호를 찾고 가져올 때 라이선스를 할당 한 것 보다 더 많은 전화 번호를 받을 수 있습니다. 그러나이는 구입 하 여 할당 한 전화 번호의 종류와 라이선스 종류에 따라 다릅니다. 통화 요금제에 사용 되는 다른 종류의 전화 번호를 클릭 하 여 Microsoft 팀에 사용 되는 다양 한 전화 번호를 확인할 수 있습니다.
-ms.openlocfilehash: 2ffb2d0ee80dffa52ff092d20348455458d8beca
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d620e10c90474857325b15201d3b899d728ed815
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680505"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836290"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>몇 개의 전화 번호를 받을 수 있나요?
 
@@ -48,7 +50,7 @@ Microsoft 팀 관리 센터의 **전화 번호 가져오기** 페이지에서 �
 > [!NOTE]
 > 이 보다 더 많은 전화 번호를 받으려면 [비즈니스 제품에 대 한 고객 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 을 참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](transferring-phone-numbers-common-questions.md)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](different-kinds-of-phone-numbers-used-for-calling-plans.md)

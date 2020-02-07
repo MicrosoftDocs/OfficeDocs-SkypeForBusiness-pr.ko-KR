@@ -16,16 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- ms.teamsadmincenter.users.voice.calldelegation.tooltip
+- CSH
 ms.custom:
 - Phone System
+- ms.teamsadmincenter.users.voice.calldelegation.tooltip
 description: 사용자가 자신을 대신 하 여 통화에 응답 하거나 처리할 대리인을 선택할 수 있는 공유 선 모양
-ms.openlocfilehash: 2d050d341d22d74f0d207873925126ad5f7fdc3b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: bb6728de67d1bf29a5e00ed9b62d8957391dd8ba
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694363"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837968"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft 팀의 공유 선 모양
 

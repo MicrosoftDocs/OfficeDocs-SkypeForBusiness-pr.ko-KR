@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 관리자는 이끌이가 무료 전화 번호를 모임에 사용 하는 방법을 제어할 수 있습니다.
-ms.openlocfilehash: e6a62473c2db2e2a36a0b0302831afe0b4877f8f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7bc830529fc24a61be914998e923ad2d5288b7c5
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707273"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837268"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>특정 팀 사용자를 위해 무료 번호를 사용 하지 않도록 설정
 

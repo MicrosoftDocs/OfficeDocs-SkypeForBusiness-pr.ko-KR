@@ -10,20 +10,22 @@ audience: admin
 description: 파일럿, 보드, 팀으로 업그레이드 하는 경우 사용자와 통신, 교육 및 지원 계획
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71ee20ae80fa9fc7f8916efbc5a4736f50bd56f8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ad51dd4b269652ec1899b2af6ace6a9b7b9f713a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235922"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836798"
 ---
-![업그레이드 여행 단계-사용자 준비 단계 강조 표시] (media/upgrade-banner-user-readiness.png "사용자 준비 단계에 중점을 두어 업그레이드 여행 단계")
+![업그레이드 여행 단계-사용자 준비 단계 강조 표시](media/upgrade-banner-user-readiness.png "사용자 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행에 대 한 사용자 준비 단계의 일부로, 기술 준비 단계와 병행 하 여 작업을 완료 합니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
 
@@ -34,15 +36,15 @@ ms.locfileid: "36235922"
 
 # <a name="prepare-a-user-readiness-plan"></a>사용자 준비 계획 준비
 
-최적의 사용자 준비 계획에는 파일럿, 통합, 팀으로의 업그레이드 등 사용자의 커뮤니케이션, 교육, 지원 방법이 포함 되어 있습니다. [조직의 변경 준비](https://aka.ms/OrgReadiness)에 나와 있는 것 처럼, 준비는 한 가지 크기에 부합 하지 않습니다. 새로운 기술에 대 한 최적의 receptiveness을 보장 하기 위해, 사용자가 정의한 가상 사용자 및 cohorts에 맞게 광범위 한 메시지 (비전/값 메시징 및 유니버설 사용 사례 통합)와 메시징, 교육 및 지원을 조합 하 여 사용 합니다. 또한 적절 하 게 laggards 합니다. 이 맞춤형 계획은 사용자가 팀과 더 빠르게 연관 시킬 수 있도록 하는 동시에 사용자의 요구를 이해 하는 데 도움을 줍니다.
+최적의 사용자 준비 계획에는 파일럿, 통합, 팀으로의 업그레이드 등 사용자의 커뮤니케이션, 교육, 지원 방법이 포함 되어 있습니다. [조직의 변경 준비](https://aka.ms/OrgReadiness)에 나와 있는 것 처럼, 준비는 한 가지 크기에 부합 하지 않습니다. 새로운 기술에 대 한 최적의 receptiveness를 보장 하려면, 사용자가 정의한 가상 사용자 및 cohorts에 맞게 광범위 한 메시징 (비전/값 메시징 및 유니버설 사용 사례 통합)과 메시징, 교육, 지원 등을 결합 하 여 적절 하 게 laggards 합니다. 이 맞춤형 계획은 사용자가 팀과 더 빠르게 연관 시킬 수 있도록 하는 동시에 사용자의 요구를 이해 하는 데 도움을 줍니다.
 
 > [!Tip]
 > 예제 업그레이드 프로젝트 계획 및 파일럿 테스트 계획 외에, 커뮤니케이션 및 사용자 조사 등의 서식 파일 사용자 준비 자료에 대 한 [업그레이드 성공 키트](https://aka.ms/UpgradeSuccessKit) 를 다운로드 합니다.
 
 | | |
 |---|---|
-| ![결정 점을 가리키는 아이콘](media/audio_conferencing_image7.png) <br/>결정 사항|<ul><li>새 솔루션의 사용자 채택을 편리 하 고 신속 하 게 사용할 수 있도록 준비 계획을 만드는 방법은 무엇 인가요?</li><li>사용자가 변경 하 고 정의한 사용자를 처리 하는 것과 일치 하는 적절 한 인식, 교육 및 지원 리소스를 보유 하 고 계십니까?</li></ul> |
-| ![다음 단계를 안내 하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 목록을 사용 하 여 준비 계획에 대 한 아이디어를 생성 합니다. 조직에 최적화 된 준비 계획을 디자인 하려면 가장 관련성이 높은 활동을 선택 하거나 직접 추가 합니다. 최대 결과를 위해 광범위 한 (조직 전체)과 대상 (laggards 또는 특정 가상 사용자) 캠페인의 조합을 사용 해야 합니다.</li></ul>|
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>새 솔루션의 사용자 채택을 편리 하 고 신속 하 게 사용할 수 있도록 준비 계획을 만드는 방법은 무엇 인가요?</li><li>사용자가 변경 하 고 정의한 사용자를 처리 하는 것과 일치 하는 적절 한 인식, 교육 및 지원 리소스를 보유 하 고 계십니까?</li></ul> |
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 목록을 사용 하 여 준비 계획에 대 한 아이디어를 생성 합니다. 조직에 최적화 된 준비 계획을 디자인 하려면 가장 관련성이 높은 활동을 선택 하거나 직접 추가 합니다. 최대 결과를 위해 광범위 한 (조직 전체)과 대상 (laggards 또는 특정 가상 사용자) 캠페인의 조합을 사용 해야 합니다.</li></ul>|
 
 <div class="mx-tableFixed">
 <table>
