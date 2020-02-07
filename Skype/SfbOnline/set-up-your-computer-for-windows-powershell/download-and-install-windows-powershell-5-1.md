@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Windows PowerShell 5.1을 다운로드 하 여 설치한 다음 비즈니스용 Skype Online에 연결 하는 원격 PowerShell 세션을 만듭니다.
-ms.openlocfilehash: 1bea6ab4081acbc5efa07c3ec0e60677fe60a326
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 227023d5c86b99a66ecdbdabd3b2973d0383a534
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692913"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831157"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Windows PowerShell 5.1 다운로드 및 설치
 
@@ -94,7 +94,7 @@ Windows 관리 프레임 워크 5.1을 설치 하기 전에 다음을 수행 합
 
 실행 중인 Windows 버전을 잘 모르거나 Windows 7 서비스 팩 1을 설치 했는지 확실 하지 않은 경우 **시작**을 클릭 하 고 **컴퓨터**를 마우스 오른쪽 단추로 클릭 한 다음 **속성**을 클릭 합니다. 이 정보는 시스템 대화 상자에 보고 됩니다.
   
-Windows 관리 프레임 워크 5.1를 설치 하려면 [WMF 5.1 설치 및 구성](https://docs.microsoft.com/powershell/wmf/setup/install-configure)의 절차를 완료 합니다.
+Windows 관리 프레임 워크 5.1를 설치 하려면 [WMF 5.1 설치 및 구성](https://docs.microsoft.com/powershell/scripting/wmf/setup/install-configure)의 절차를 완료 합니다.
   
 컴퓨터를 다시 부팅 한 후에는 Windows PowerShell이 시작 될 수 있고 관리 자격 증명으로 응용 프로그램을 실행할 수 있는지 확인 합니다. 실행할 작업:
   
@@ -144,7 +144,7 @@ Auth
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [Windows PowerShell용 컴퓨터 설정](set-up-your-computer-for-windows-powershell.md) 
 
   

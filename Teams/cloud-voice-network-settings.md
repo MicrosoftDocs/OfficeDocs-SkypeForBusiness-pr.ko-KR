@@ -10,16 +10,18 @@ audience: admin
 search.appverid: MET150
 description: 직접 라우팅 및 향상 된 응급 서비스에 대 한 위치 기반 라우팅에 대해 구성 해야 하는 네트워크 설정에 대해 알아봅니다.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74cf743d41f37cca2b8df4f25cc8f5328db6d776
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 9c24444e9beb38aa1d0888e415d9dca3a46e249a
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615888"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824956"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft 팀의 클라우드 음성 기능에 대 한 네트워크 설정
 

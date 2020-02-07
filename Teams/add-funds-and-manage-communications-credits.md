@@ -17,6 +17,8 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - O365E_SFBVoiceCredit
 - O365E_SFBVoiceCreditAether
 - O365M_SFBVoiceCredit
@@ -25,15 +27,14 @@ f1.keywords:
 - O365E_SFBVoiceCreditAether
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
-ms.custom:
 - Licensing
 description: '비즈니스용 Skype 서비스용 통신 크레딧 (PSTN 소비)을 지불 하는 방법과 사용자에 게 지속적인 전화 시스템 액세스를 유지 하는 계획을 확인 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 76b1281c69968164091daebff035a4c2b9bc75e1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9ba413c80c403e69eb977bb1911ad37e67ad87cd
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695834"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827216"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>자금 추가 및 통신 크레딧 관리
 

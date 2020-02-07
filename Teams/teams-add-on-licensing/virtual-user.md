@@ -12,17 +12,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 무료 가상 사용자 라이선스에 대해 알아보세요.
-ms.openlocfilehash: ebf98f852610dd5acfea2bcd65daca7b7541b5aa
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0b580a396dedfab81ab207fa0b1d6fee5caa705b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571172"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826516"
 ---
 # <a name="phone-systemvirtual-user-license"></a>전화 시스템-가상 사용자 라이선스 
 
@@ -74,4 +76,4 @@ Contoso는 자동 전화 교환 및 통화 대기열 시스템 다시 디자인�
 
 [자동 전화 교환 및 통화 대기열 서비스 업데이트](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
 
-[Microsoft 팀에서 자원 계정 관리](../manage-resource-accounts.md)
+[Microsoft Teams에서 리소스 계정 관리](../manage-resource-accounts.md)

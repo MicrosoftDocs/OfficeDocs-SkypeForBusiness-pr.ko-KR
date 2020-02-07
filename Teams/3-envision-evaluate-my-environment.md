@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 가상 사용자 및 네트워크 분석을 사용 하 여 조직의 준비 상태를 평가 하 고 올바른 TCP 및 UDP 포트를 연 다음 네트워크 재구성을 수행 합니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ad3700b3b0186ba3e95d8f55ad704f37cf33bc7
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3efb5a58c36a38757b2f6046ca8c8c42ab80f6ce
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925079"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825076"
 ---
 # <a name="evaluate-my-environment"></a>내 환경 평가
 
@@ -46,7 +48,7 @@ ms.locfileid: "37925079"
 이를 파악 하면 조직에서 프로젝트 계획을 적절 하 게 조정 하 여 번호 포팅에 필요한 정보를 준비할 수 있습니다. 환경 검색을 수행 하기 위해 [Microsoft 팀의 환경 검색 출시](environmental-discovery-for-microsoft-teams-rollout.md) 를 사용할 수 있습니다.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>환경 평가를 완료 해야 하는 사람은 누구 인가요?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>환경 평가를 완료 해야 하는 사람은 누구 인가요?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>환경 평가의 결과를 문서화 합니다.</li></ol></td></tr>
 </table>
 
@@ -63,7 +65,7 @@ ms.locfileid: "37925079"
 조직의 준비를 평가 하 여 사용자 변경 관리를 처리 하는 경우 다음 고려 사항을 따르십시오.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>본 소프트웨어 또는 서비스의 사용자 채택을 이전에 성공적으로 완료 했습니까?</li><li>사용 현황을 추적할 수 있나요?</li><li>초기&mdash;및 진행 중인&mdash;채택 캠페인을 디자인 하 고 관리 하는 리소스를 보유 하 고 있는지 여부 (인식, 교육 및 지원)?</li><li>전용 사용자 채택/변경 관리 팀이 있거나 비즈니스 결과를 확인 하기 위해 해당 리소스에 투자할 수 있습니까?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>본 소프트웨어 또는 서비스의 사용자 채택을 이전에 성공적으로 완료 했습니까?</li><li>사용 현황을 추적할 수 있나요?</li><li>초기&mdash;및 진행 중인&mdash;채택 캠페인을 디자인 하 고 관리 하는 리소스를 보유 하 고 있는지 여부 (인식, 교육 및 지원)?</li><li>전용 사용자 채택/변경 관리 팀이 있거나 비즈니스 결과를 확인 하기 위해 해당 리소스에 투자할 수 있습니까?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>위의 모든 사용자 &quot;에&quot; 게 예를 답변 한 경우 적절 한 사용자 변경 관리 관계자를 식별 하 고 사용자 준비 계획을 시작 합니다.</li><li>위의 일부 또는 &quot;모두&quot; 에 게 답변 하지 않은 경우에는 조직에 대 한 변경 관리 및 채택 관련 활동을 제공 하기 위해 외부 리소스를 사용 하는 것이 좋습니다.</li></ol></td></tr>
 </table>
 
@@ -170,7 +172,7 @@ Microsoft 팀은 Microsoft 온라인 서비스에 연결 되며 인터넷에 연
 명령 프롬프트 창을 열고 **Cd C:\\\\프로그램 파일**을 입력 하 여 네트워크 평가 도구 디렉터리로 이동 합니다. Microsoft 비즈니스용 Skype 네트워크 평가 도구. 명령 프롬프트에서 networkassessmenttool를 입력 하 여 열려 있는 포트 테스트를 시작 합니다 **/connectivitycheck**
 
 검사를 실행 한 후에는 도구가 "확인 완료 됨" 메시지를 표시 하거나 차단 된 포트에 대 한 보고를 받습니다.
-또한 도구의 출력을 포함 하는 Connectivity_results 라는 파일을 생성 하 고이를\\% appdata\\로컬\\microsoft 비즈니스용 skype 네트워크 평가 도구\\ 디렉터리에 저장 합니다.
+또한 도구의 출력을 포함\\하는 appdata\\Connectivity_results 라는 파일을 생성 하 고이 를% userprofile%, 비즈니스용 로컬\\microsoft 비즈니스용 skype 네트워크 평가 도구\\ 디렉터리에 저장 합니다.
 
 연결 검사를 정기적으로 실행 하 여 포트가 열려 있고 올바르게 작동 하는지 확인 하는 것이 좋습니다.
 
@@ -217,7 +219,7 @@ QoS (서비스 품질)를 사용 하 여 트래픽 우선 순위를 매기기 �
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>모든 네트워크 세그먼트와 조직 위치에서 적절 한 네트워크 평가를 완료 해야 하는 사람은 누구 입니까?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>모든 네트워크 세그먼트와 조직 위치에서 적절 한 네트워크 평가를 완료 해야 하는 사람은 누구 입니까?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>네트워크를 Microsoft 팀 배포에 사용할 수 있도록 자세한 네트워크 평가를 수행할 수도 있습니다.</li><li>모든 네트워크 세그먼트에 대 한 평가 결과에 따라 네트워크 수정을 수행 합니다.</li></ol></td></tr>
 </table>
 

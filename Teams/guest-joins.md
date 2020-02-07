@@ -12,15 +12,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Microsoft 팀에서 게스트가 팀에 참가 하도록 초대 하는 방법에 대 한 간략 한 개요를 볼 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 037cb96d31ad88480c240fdf632fde0c4a09145c
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 491770bcd3c2f435bbd2ea18c366effea2c8124f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753413"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833178"
 ---
 <a name="how-a-guest-joins-a-team"></a>게스트가 팀에 참여하는 방법
 ========================

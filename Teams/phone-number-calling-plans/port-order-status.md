@@ -12,16 +12,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ''
+f1.keywords:
+- CSH
 ms.custom:
 - Calling Plans
 description: '포트 주문 상태를 확인 하는 방법과 해당 사용자가 사용할 수 있는 다양 한 작업을 확인 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 3ad816e9dcedc18fe13d45db0bec36285d4f090f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2c141bab63990c39ef7fd08837eb4ad99d72682d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708634"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827956"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>포트 주문의 상태 확인
 
@@ -43,7 +44,7 @@ ms.locfileid: "41708634"
 
 도움이 필요 하거나 전화 번호를 더 확보 해야 하는 경우 [PSTN 서비스 데스크 도움말을 참조](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [포트 순서](port-order-overview.md)
 - [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

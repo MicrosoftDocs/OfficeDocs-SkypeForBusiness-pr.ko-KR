@@ -8,6 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
@@ -15,18 +17,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 9794a1690fb0cbbe529816c9d8a5f855d393c6f2
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 53c17cdd3a1b6726e0219147e4dadd1cba7b25ff
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925679"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827936"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Microsoft 팀에 전화 번호 전송
 
 Microsoft 팀 관리 센터의 포팅 마법사를 사용 하 여 현재 서비스 공급자의 전화 번호를 팀으로 전환 합니다. 전화 번호를 팀으로 이식 하면 Microsoft가 서비스 공급자가 되며 해당 전화 번호로 청구 됩니다.
 
-시작 하기 전에 [포트 순서](port-order-overview.md)에 대 한 정보를 검토 하는 것이 좋습니다. 전화 접속 회의 브리지에 대 한 서비스 번호, 자동 전화 교환 또는 기타 서비스 번호, 수신자 부담 전화 번호 또는 팀으로 전송 해야 하는 999 사용자 (구독자) 전화 번호가 있는 경우에는 [전화 번호 관리를 참조 하세요. 조직](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) -올바른 양식을 다운로드 하 여 저희에 게 보낼 수 있습니다.
+시작 하기 전에 [포트 순서](port-order-overview.md)에 대 한 정보를 검토 하는 것이 좋습니다. 전화 접속 회의 브리지, 자동 전화 교환 또는 기타 서비스 번호, 무료 전화 번호, 팀에 게 전송 해야 하는 999 사용자 (구독자) 전화 번호 등의 서비스 번호가 있는 경우 [조직에서 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 를 참조 하 여 올바른 양식을 다운로드 하 고 전자 메일을 보내 주세요.
 
   > [!NOTE]
   > 전화 번호를 미국 영업일 (공개 휴일 또는 주말에는 없음) 으로만 전송 하는 데 필요한 포트 주문을 처리 합니다.
@@ -89,8 +91,8 @@ Microsoft 팀 관리 센터의 포팅 마법사를 사용 하 여 현재 서비�
 
 ## <a name="related-topics"></a>관련 항목
 
-- [포트 순서는 무엇 인가요?](port-order-overview.md)
+- [포트 순서](port-order-overview.md)
 - [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)(조직의 전화 번호 관리)
+- [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [긴급 통화 사용 약관](../emergency-calling-terms-and-conditions.md)
 - [비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

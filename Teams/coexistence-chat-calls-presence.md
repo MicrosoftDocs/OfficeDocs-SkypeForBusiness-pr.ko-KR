@@ -9,18 +9,20 @@ ms.reviewer: francoid
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 description: 이 문서는 할당 된 Team를 사용 하는 팀 사용자와 테 넌 트 및 페더레이션 모두에 대 한 채팅, 통화 라우팅 및 현재 상태 간 동작에 대해 설명 합니다. 여기에는 라우팅 최적화, 현재 상태 동작, *레거시* 에서 *아일랜드* 로의 기본 team문제 등급 모드 변경 및 *이전 버전*의 임박한 만료가 포함 됩니다.
-ms.openlocfilehash: 3af54bdfecc7843fbbc095ca0d0cebb91732e648
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 449340affb00b1f05ba199c3376941a843da329c
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515865"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824936"
 ---
 # <a name="coexistence-with-skype-for-business"></a>비즈니스용 Skype와 공존
 
@@ -75,29 +77,29 @@ ms.locfileid: "37515865"
 
 **표 1a: 테 넌 트 내 새 채팅 또는 통화를 아일랜드 모드 받는 사람에 게 라우팅**
 
-| <br/><br/> 모드 | 주관자 <br/><br/> 클라이언트측 | <br/><br/> SfB&nbsp;홈 | | 게 <br/><br/> 분리  |
+| <br/><br/> 모드 | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB&nbsp;홈 | | 게 <br/><br/> 분리  |
 |--- |--- |--- |--- |--- |
-| 분리 | 성과 <br/> 비즈니스용 Skype<br/> 성과<br/> 비즈니스용 Skype| 온라인<br/> 온라인<br/> 온-프레미스<br/>온-프레미스| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|성과 <br/> 비즈니스용 Skype<br/> 성과<br/> 비즈니스용 Skype|
+| 분리 | Teams <br/> 비즈니스용 Skype<br/> Teams<br/> 비즈니스용 Skype| 온라인<br/> 온라인<br/> 온-프레미스<br/>온-프레미스| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> 비즈니스용 Skype<br/> Teams<br/> 비즈니스용 Skype|
 |SfB\* <br/> | 비즈니스용 Skype<br/>비즈니스용 Skype<br/> | 온라인<br/> 온-프레미스<br/> |&boxv;<br/>&boxv;|비즈니스용 Skype<br/>비즈니스용 Skype<br/>|
-|TeamsOnly |성과| 온라인<br/>|&boxv;<br/>|성과|
+|TeamsOnly |Teams| 온라인<br/>|&boxv;<br/>|Teams|
 | | | | | |
 
 **표 1b: SfB\* 모드로 보낸 테 넌 트의 새 채팅 또는 통화 라우팅**
 
-| <br/><br/> 모드   | 주관자 <br/><br/> 클라이언트측 | <br/><br/> SfB&nbsp;홈 | |   게 <br/><br/> SfB\*   |
+| <br/><br/> 모드   | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB&nbsp;홈 | |   게 <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
-| 분리 |성과<br/>비즈니스용 Skype<br/>성과 <br/>비즈니스용 Skype  |온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype<br/> **불가능** <br/>비즈니스용 Skype<br/> |
+| 분리 |Teams<br/>비즈니스용 Skype<br/>Teams <br/>비즈니스용 Skype  |온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype<br/> **불가능** <br/>비즈니스용 Skype<br/> |
 |SfB\* <br/> | 비즈니스용 Skype<br/>비즈니스용 Skype<br/> | 온라인<br/> 온-프레미스<br/> |&boxv;<br/>&boxv; |  비즈니스용 Skype<br/>비즈니스용 Skype<br/> |
-|TeamsOnly |성과| 온라인<br/>|&boxv;<br/> |  *비즈니스용 Skype* <br/>| 
+|TeamsOnly |Teams| 온라인<br/>|&boxv;<br/> |  *비즈니스용 Skype* <br/>| 
 | | | | | |
 
 **표 1c: 팀 전용 모드 받는 사람에 대 한 테 넌 트의 새 채팅 또는 통화 라우팅**
 
-| <br/><br/> 모드   | 주관자 <br/><br/> 클라이언트측 | <br/><br/> SfB&nbsp;홈 | |   게 <br/><br/> TeamsOnly  |
+| <br/><br/> 모드   | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB&nbsp;홈 | |   게 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| 분리   |성과<br/>비즈니스용 Skype<br/>성과 <br/>비즈니스용 Skype<br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  성과 <br/>*성과* <br/>성과 <br/>*성과*  |
-|SfB\*  | 비즈니스용 Skype<br/>비즈니스용 Skype<br/> | 온라인<br/> 온-프레미스<br/> | &boxv;<br/>&boxv; | *성과*  <br/>*성과*   |
-|TeamsOnly  | 성과 | 온라인 |  &boxv; |성과   |
+| 분리   |Teams<br/>비즈니스용 Skype<br/>Teams <br/>비즈니스용 Skype<br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+|SfB\*  | 비즈니스용 Skype<br/>비즈니스용 Skype<br/> | 온라인<br/> 온-프레미스<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
+|TeamsOnly  | Teams | 온라인 |  &boxv; |Teams   |
 |  |  |  | | |
 
 ## <a name="federated-routing-for-new-chats-or-calls"></a>새 채팅 또는 통화에 대 한 페더레이션 라우팅
@@ -115,29 +117,29 @@ ms.locfileid: "37515865"
 
 **표 2a: 새 채팅 또는 통화를 아일랜드 받는 사람에 게 라우팅**
 
-| <br/><br/>모드   | 주관자<br/><br/> 클라이언트측| <br/><br/>SfB 홈| | 게<br/><br/> 분리 |
+| <br/><br/>모드   | 주관자<br/><br/> 클라이언트| <br/><br/>SfB 홈| | 게<br/><br/> 분리 |
 |--- |--- |--- |--- |--- |
-| 분리 |성과<br/>비즈니스용 Skype <br/>성과 <br/>비즈니스용 Skype  |온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype <br/> **불가능**   <br/> 비즈니스용 Skype |
+| 분리 |Teams<br/>비즈니스용 Skype <br/>Teams <br/>비즈니스용 Skype  |온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype <br/> **불가능**   <br/> 비즈니스용 Skype |
 | SfB\* |비즈니스용 Skype <br/>비즈니스용 Skype |온라인<br/> 온-프레미스<br/> | &boxv;<br/>&boxv;|비즈니스용 Skype <br/>비즈니스용 Skype |
-| TeamsOnly |성과 |온라인| &boxv;|*비즈니스용 Skype* |
+| TeamsOnly |Teams |온라인| &boxv;|*비즈니스용 Skype* |
 |  | | | | 
 
 **표 2b: SfB\* 모드로 받는 사람에 게 새로 연결 된 채팅 또는 통화 라우팅**
 
-| <br/><br/>모드   | 주관자<br/><br/> 클라이언트측| <br/><br/>SfB 홈| |  게<br/><br/> SfB\* |  
+| <br/><br/>모드   | 주관자<br/><br/> 클라이언트| <br/><br/>SfB 홈| |  게<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| 분리 |성과<br/>비즈니스용 Skype <br/>성과 <br/>비즈니스용 Skype <br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype <br/> **불가능** <br/>비즈니스용 Skype <br/> |  
+| 분리 |Teams<br/>비즈니스용 Skype <br/>Teams <br/>비즈니스용 Skype <br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype <br/> **불가능** <br/>비즈니스용 Skype <br/> |  
 | SfB\* |비즈니스용 Skype <br/>비즈니스용 Skype  |온라인<br/> 온-프레미스<br/>  |&boxv;<br/>&boxv; | 비즈니스용 Skype <br/>비즈니스용 Skype  |
-| TeamsOnly | 성과|온라인 |&boxv; |*비즈니스용 Skype*  |
+| TeamsOnly | Teams|온라인 |&boxv; |*비즈니스용 Skype*  |
 |  | | | | |
 
 **표 2c: 팀 전용 모드 받는 사람에 게 새로 연결 된 대화 또는 통화 라우팅**
 
-| <br/><br/>모드 | 주관자<br/><br/> 클라이언트측| <br/><br/>SfB 홈| |  게<br/>  <br/> TeamsOnly  |
+| <br/><br/>모드 | 주관자<br/><br/> 클라이언트| <br/><br/>SfB 홈| |  게<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| 분리  |성과<br/>비즈니스용 Skype <br/>성과 <br/>비즈니스용 Skype <br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| 성과 <br/>*성과* <br/>**불가능** <br/>*성과* |
-| SfB\* |비즈니스용 Skype <br/>비즈니스용 Skype  | 온라인<br/> 온-프레미스| &boxv;<br/>&boxv;|*성과* <br/>*성과*   |
-| TeamsOnly |성과 |온라인 |&boxv; |성과 |
+| 분리  |Teams<br/>비즈니스용 Skype <br/>Teams <br/>비즈니스용 Skype <br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**불가능** <br/>*Teams* |
+| SfB\* |비즈니스용 Skype <br/>비즈니스용 Skype  | 온라인<br/> 온-프레미스| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
+| TeamsOnly |Teams |온라인 |&boxv; |Teams |
 |  | | | | |
 
 ## <a name="chats-and-calls-from-pre-existing-threads"></a>기존 스레드를 통한 채팅 및 통화
@@ -162,7 +164,7 @@ ms.locfileid: "37515865"
 - 테 넌 트가 다른 GoLocal 배포 또는 지리에 거주 하는 외부 참석자가 "페더레이션된" 모임에서 메신저 대화를 표시 하지 않음
 - 테 넌 트 O365 및 Sovereign 클라우드 간의 페더레이션 및 interop는 지원 되지 않습니다.
 
-# <a name="presence"></a>늘어
+# <a name="presence"></a>현재 상태
 
 일부 사용자가 팀 클라이언트를 사용 하 고 있고 다른 사람이 아직 비즈니스용 Skype 클라이언트를 사용 하 고 있는 경우에는 두 클라이언트를 모두 사용 하는 사용자 수가 있을 수 있습니다. 각 사용자가 사용 하는 클라이언트에 관계 없이 현재 상태 상태를 모든 사용자와 공유 하려는 경우 조직에서 공유 하는 경우 사용자는 채팅을 시작 하거나 전화를 거는 것이 적절 한지 여부를 더욱 정확 하 게 결정할 수 있습니다.
 
@@ -186,10 +188,10 @@ ms.locfileid: "37515865"
 
 **표 3: 테 넌 트 현재 상태 (새 스레드)**
 
-|상대가 <br/><br/>클라이언트측| |<br/><br/>분리 |Publisher <br/><br/>SfB\* |<br/>팀만|
+|상대가 <br/><br/>클라이언트| |<br/><br/>분리 |Publisher <br/><br/>SfB\* |<br/>팀만|
 |--- |--- |--- |--- |---|
-|비즈니스용 Skype |&boxv;|비즈니스용 Skype | 비즈니스용 Skype | 성과|
-|성과 |&boxv; |성과 |비즈니스용 Skype |성과 |
+|비즈니스용 Skype |&boxv;|비즈니스용 Skype | 비즈니스용 Skype | Teams|
+|Teams |&boxv; |Teams |비즈니스용 Skype |Teams |
 | | | | |
 
 ## <a name="federated-presence"></a>페더레이션 현재 상태
@@ -200,10 +202,10 @@ ms.locfileid: "37515865"
 
 **표 4: 페더레이션된 현재 상태 (새 스레드)**
 
-|상대가 <br/><br/> 클라이언트측 | |<br/><br/> 분리  |Publisher <br/><br/> SfB\* |<br/><br/> 팀만 |
+|상대가 <br/><br/> 클라이언트 | |<br/><br/> 분리  |Publisher <br/><br/> SfB\* |<br/><br/> 팀만 |
 |--- |--- |--- |--- |---|
-|비즈니스용 Skype |&boxv; |비즈니스용 Skype  | 비즈니스용 Skype  | 성과  |
-|성과 | &boxv;|비즈니스용 Skype |비즈니스용 Skype |성과|
+|비즈니스용 Skype |&boxv; |비즈니스용 Skype  | 비즈니스용 Skype  | Teams  |
+|Teams | &boxv;|비즈니스용 Skype |비즈니스용 Skype |Teams|
 | | | | ||
 
 ## <a name="presence-in-pre-existing-threads"></a>기존 스레드 현재 상태

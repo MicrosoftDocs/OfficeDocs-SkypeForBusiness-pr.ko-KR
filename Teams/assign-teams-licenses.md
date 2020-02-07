@@ -1,5 +1,5 @@
 ---
-title: 팀 라이선스 할당
+title: Teams 라이선스 할당
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -10,16 +10,18 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.reviewer: mikedav
 description: 오디오 회의, 전화 시스템, 통화 요금제 등의 기능에 대 한 라이선스를 할당 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e5783a2fa0c6479d59e563b9001b736015f20fa
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 967b67c1d8bc92009e1319260373c9b8abc52b99
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515783"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826316"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Microsoft 팀 라이선스 할당
 
@@ -103,7 +105,7 @@ for each ($user in $users)
 | 국내 통화 계획 (US/PR/CA에 대 한 사용자 당 3000 분, EU 국가의 경우에는 사용자 당 1200 분) | MCOPSTN1 |
 | 국내 통화 요금제 (각 국가의 사용자/월 120 분) </br>*참고:이 요금제는 미국에서 사용할 수 없습니다*. | MCOPSTN5 |
 | 국내 통화 요금제 (각 국가의 사용자/월 240 분) </br>*참고:이 요금제는 미국에서 사용할 수 없습니다*. | MCOPSTN6 |
-| 통신 제작진 | MCOPSTNPP | 
+| 통신 크레딧 | MCOPSTNPP | 
 
 ## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>오디오 회의: 라이선스 할당을 위한 팁 및 스크립트
 
@@ -174,7 +176,7 @@ foreach ($user in $users)
 | Enterprise E5 (오디오 회의 없음) |  ENTERPRISEPREMIUM_NOPSTNCONF |
 | Enterprise E5 (오디오 회의 포함) | ENTERPRISEPREMIUM |
 
-##  <a name="communications-credits"></a>통신 제작진
+##  <a name="communications-credits"></a>통신 크레딧
 
 다음은 통신 크레딧 라이선스를 지정 하기 전에 알아야 할 사항입니다.
 
@@ -192,6 +194,6 @@ foreach ($user in $users)
 
 ## <a name="related-topics"></a>관련 항목
 
-[통화 요금제 설정](set-up-calling-plans.md)
+[통화 플랜 설정](set-up-calling-plans.md)
 </br>
-[자금 추가 및 통신 제작진 관리](add-funds-and-manage-communications-credits.md)
+[자금 추가 및 통신 크레딧 관리](add-funds-and-manage-communications-credits.md)

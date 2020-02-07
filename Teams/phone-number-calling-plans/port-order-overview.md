@@ -12,16 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
+f1.keywords:
+- CSH
 ms.custom:
+- ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 포트 주문에 대 한 개요와 서비스 공급자 로부터 팀으로 전화 번호를 전송 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3f75acf8711838b159bacfe11169e500273eaf01
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7d92c76c62405efbffaff378b2045195c175d867
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708764"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827946"
 ---
 # <a name="whats-a-port-order"></a>포트 순서
 
@@ -159,7 +161,7 @@ ms.locfileid: "41708764"
 
 - 서비스가 활성 상태 인지 확인 합니다. 계정을 고정 시키면 계정에 있는 캐리어가 변경 되지 않습니다. 계정을 변경할 권한이 있는 사람은 현재 통신 업체에 주문을 제출 해야 고정을 제거할 수 있습니다. 이 프로세스는 캐리어에 따라 1 ~ 3 주가 걸릴 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [포트 주문의 상태 확인](port-order-status.md)
 - [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

@@ -13,19 +13,21 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Office 365 Enterprise E1 및 E3 요금제에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 7c8851da745009439cd473c9bbd1e90cc7498363
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2e547c23115f43dcc54a7f4bb99190116200f319
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571183"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826546"
 ---
-# <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1 및 E3
+# <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1 and E3
 
 [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software) 또는 [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) 계획을 이미 구매한 경우 다음과 같이 추가 기능 라이선스를 구입 하 여 더 많은 Microsoft 팀 기능을 확보 해야 합니다.
 
@@ -34,8 +36,8 @@ ms.locfileid: "37571183"
 |오디오 회의 <br/> <br/> |**오디오 회의 추가 기능**을 구입 합니다. <br/>전화 접속 모임을 예약 하거나 호스트할 각 사용자에 대해 1 개의 오디오 회의 라이선스를 구입 합니다. 참석자에 게 라이선스가 필요 하지 않습니다.<br/> 라이선스를 구매한 후에는 Microsoft가 오디오 회의 공급자가 됩니다. |
 |전화 접속 액세스를 위한 무료 번호와 모임에서 전화를 걸어 휴대폰 번호를 통화 하 여 다른 사람을 추가 하는 기능<br/> | [통신 크레딧을](../add-funds-and-manage-communications-credits.md)구입 합니다.|
 |전화 시스템 <br/> |<ol><li>Office 365 전화 시스템 추가 기능을 구입 합니다. </li><li>Office 365에 대 한 [통화 요금제](../calling-plans-for-office-365.md) 를 구입 합니다.</li></ul>또는 [기존 공급자의 전화 서비스](microsoft-teams-add-on-licensing.md#bkmk_existing)를 사용 합니다.  <br/> |
-|구름 보이스 메일<br/> |E1 계획의 경우 Exchange Online 계획 2를 구입 합니다. <br/>또는 Office 365 E3 등 Exchange Online 계획 2와 함께 제공 되는 Office 제품군으로 전환 합니다. |
-|통화 요금제<br/> |<ol><li>전화 시스템 추가 기능을 구입 합니다.</li><li>[통화 요금제](../calling-plans-for-office-365.md)구입: **전화 시스템** 추가 기능을 구입한 후에만 구매할 수 있습니다.</li></ol> <br/> |
+|클라우드 음성 메일<br/> |E1 계획의 경우 Exchange Online 계획 2를 구입 합니다. <br/>또는 Office 365 E3 등 Exchange Online 계획 2와 함께 제공 되는 Office 제품군으로 전환 합니다. |
+|통화 플랜<br/> |<ol><li>전화 시스템 추가 기능을 구입 합니다.</li><li>[통화 요금제](../calling-plans-for-office-365.md)구입: **전화 시스템** 추가 기능을 구입한 후에만 구매할 수 있습니다.</li></ol> <br/> |
    
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>E1 및 E3 고객: 가격 및 구매를 확인 하는 방법

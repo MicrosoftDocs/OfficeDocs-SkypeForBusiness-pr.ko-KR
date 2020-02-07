@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.reviewer: rowille, crowe
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Microsoft 팀에서 통화 계획을 구성 하기 위한 빠른 시작 가이드입니다.
 localization_priority: Normal
 ms.collection:
@@ -16,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0bebe58780456435388f9f5c2b5ef75478dda12
-ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
+ms.openlocfilehash: b7f1ded5d843689e828b00c0a466e012b8750582
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/30/2019
-ms.locfileid: "40910006"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825366"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>빠른 시작 가이드: Microsoft 팀에서 통화 계획 구성
 ==============================================================
@@ -72,7 +74,7 @@ TeamsUpgradePolicy의 기본 구성은 팀을 배포 하는 동안 기존 비즈
 
 
 ## <a name="see-also"></a>참고 항목
-[통화 요금제 설정](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+[통화 플랜 설정](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
 [비즈니스용 Skype로 팀을 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 

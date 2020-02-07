@@ -9,19 +9,21 @@ ms.service: msteams
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 네트워크 준비, 라이선스 할당, 정책으로 라이브 이벤트 기능 설정 및 사용자 예약, 타사 배포 공급자 설정 등의 단계를 통해 팀에서 이벤트에 대 한 라이브를 설정 하는 방법에 대해 알아봅니다.
-f1.keywords: ms.teamsadmincenter.liveevents.policies
+ms.custom: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebc72d8238e5551c7a09cae3d617e8f6a187befb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 469e693b8ad04bb214831e2c444c9fb11fc10128
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708334"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827026"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 설정
 
@@ -119,7 +121,7 @@ SDN 또는 eCDN 솔루션을 설정한 후에는 팀에서 라이브 이벤트�
 ## <a name="next-steps"></a>다음 단계
 [팀에서 실시간 이벤트 구성 설정](configure-teams-live-events.md)으로 이동 합니다.
 
-### <a name="related-topics"></a>관련 주제
+### <a name="related-topics"></a>관련 항목
 - [Teams 라이브 이벤트란?](what-are-teams-live-events.md)
 - [Teams 라이브 이벤트 계획](plan-for-teams-live-events.md)
 - [팀에서 라이브 이벤트 설정 구성](configure-teams-live-events.md)

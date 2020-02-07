@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -14,12 +16,12 @@ MS.collection:
 description: Microsoft 팀 관리 센터에서 PSTN 차단 된 사용자 보고서를 사용 하 여 PSTN 통화를 차단 하는 조직의 팀 사용자에 대 한 개요를 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 293d99507ae5b6b273ffb59c6d1544b4785a6c0c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f1ef4dfbab2b32b088c8e2f8b38b55c15a66eb32
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37639460"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827346"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft 팀 PSTN으로 차단 된 사용자 보고서
 
@@ -35,9 +37,9 @@ Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서**
 
 |호출 |설명  |
 |--------|-------------|
-|**raid-1**   |각 보고서에는 생성 된 날짜를 포함 합니다. 일반적으로이 보고서에는 활동 시간부터 24 ~ 48 시간 대기 시간이 반영 됩니다. |
+|**1**   |각 보고서에는 생성 된 날짜를 포함 합니다. 일반적으로이 보고서에는 활동 시간부터 24 ~ 48 시간 대기 시간이 반영 됩니다. |
 |**2**   |X 축은 날짜입니다. Y 축은 사용자 수입니다. <br>지정 된 날짜의 점을 마우스로 가리켜 해당 날짜에 대해 차단 된 사용자 수를 확인 합니다. |
-|**3-4**   |이 표는 PSTN 통화를 차단 하는 모든 사용자의 분석 결과를 제공 합니다.  전화 시스템 또는 오디오 회의가 할당 된 모든 사용자를 보여 주고 각 사용자에 대 한 자세한 정보를 제공 합니다. <ul><li>**표시 이름은** 사용자의 표시 이름입니다. 표시 이름을 클릭 하 여 Microsoft 팀 관리 센터의 사용자 설정 페이지로 이동할 수 있습니다. </li> <li>**Phone** 은 사용자에 게 할당 된 번호입니다.</li> <li>**차단 된 이유** 는 사용자가 전화를 거는 것을 차단 하는 이유입니다.</li><li>**차단 된 작업** 은 사용자가 팀에서 PSTN 호출을 차단 또는 해제 했는지 여부를 알려줍니다.</li> <li>**차단 된 시간은** 사용자가 전화를 걸 수 없도록 차단 된 날짜 및 시간 (UTC)입니다.</li></li> </ul>표에 원하는 정보를 표시 하려면 표에 열을 추가 해야 합니다. |
+|**3**   |이 표는 PSTN 통화를 차단 하는 모든 사용자의 분석 결과를 제공 합니다.  전화 시스템 또는 오디오 회의가 할당 된 모든 사용자를 보여 주고 각 사용자에 대 한 자세한 정보를 제공 합니다. <ul><li>**표시 이름은** 사용자의 표시 이름입니다. 표시 이름을 클릭 하 여 Microsoft 팀 관리 센터의 사용자 설정 페이지로 이동할 수 있습니다. </li> <li>**Phone** 은 사용자에 게 할당 된 번호입니다.</li> <li>**차단 된 이유** 는 사용자가 전화를 거는 것을 차단 하는 이유입니다.</li><li>**차단 된 작업** 은 사용자가 팀에서 PSTN 호출을 차단 또는 해제 했는지 여부를 알려줍니다.</li> <li>**차단 된 시간은** 사용자가 전화를 걸 수 없도록 차단 된 날짜 및 시간 (UTC)입니다.</li></li> </ul>표에 원하는 정보를 표시 하려면 표에 열을 추가 해야 합니다. |
 |**4(tcp/ipv4)**   |**열 편집** 을 선택 하 여 테이블에 열을 추가 하거나 제거 합니다.|
 |**5mb**   |전체 화면 모드에서 보고서를 보려면 **full screen** 을 선택 합니다.|
 

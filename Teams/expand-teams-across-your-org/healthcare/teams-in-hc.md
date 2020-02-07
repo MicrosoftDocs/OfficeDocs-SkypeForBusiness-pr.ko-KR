@@ -1,5 +1,5 @@
 ---
-title: 건강 조직의 팀 시작 하기
+title: 의료 조직을 위한 Teams 시작
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -14,15 +16,15 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 건강 조직의 팀 시작 하기
-ms.openlocfilehash: e8c41249da52ce9a5e19471954de6d71db3df1b3
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+description: 의료 조직을 위한 Teams 시작
+ms.openlocfilehash: f246e0ab5abd412947ceeb871b16f464001b89bb
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569235"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827626"
 ---
-# <a name="get-started-with-teams-for-healthcare-organizations"></a>건강 조직의 팀 시작 하기
+# <a name="get-started-with-teams-for-healthcare-organizations"></a>의료 조직을 위한 Teams 시작
 
 Microsoft 팀은 병원 및 기타 의료 단체에 유용한 다양 한 기능을 제공 합니다. 팀 기능은 다음을 지원 하기 위해 개발 중에 병원.
 
@@ -38,7 +40,7 @@ Microsoft 팀은 병원 및 기타 의료 단체에 유용한 다양 한 기능�
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft 팀에는 이제 건강 보험 조직과 관련 된 의료 협조 솔루션을 포함 하 고 있으며,이를 통해 가장 좋은 환자를 제공할 수 있습니다. 의료 코디 네이션 솔루션의 crux (Microsoft 팀 환자 앱)는 빠른 의료 상호 운용성 리소스 ([Fa r](https://www.hl7.org/fhir/)) 인터페이스를 사용 하 여 EHR (전자식 건강 기록) 시스템을 통합 하는 첫 번째 타사 탭 앱으로, 귀중 한 역할을 가져옵니다. Microsoft 팀의 컨텍스트 내에 의료 정보를 기록 하 여 임상 협력 및 의사 소통을 활성화 합니다.  
+Microsoft 팀에는 이제 건강 보험 조직과 관련 된 의료 협조 솔루션을 포함 하 고 있으며,이를 통해 가장 좋은 환자를 제공할 수 있습니다. 의료 코디 네이션 솔루션의 crux (Microsoft 팀 환자 앱)는 빠른 의료 상호 운용성 리소스 ([Fto r](https://www.hl7.org/fhir/)) 인터페이스를 사용 하 여 microsoft 팀에 연결 되어 있으며, 임상 공동 작업 및 의사 소통을 가능 하 게 하는 유용한 의료 정보를 컨텍스트로 통합 하는 제 1 자 탭 앱입니다.  
 
 의료 코디 네이션 솔루션은 HL7v2 및 FA r과 같은 기존 상태 데이터 표준을 사용 하 여 환자 앱을 EHR 시스템에 연결할 수 있는 선두 독립 소프트웨어 공급 업체 (Isv)와 인터페이스 할 수 있습니다. Microsoft는 다음 업계 리더와 협력 하 여 팀과 전자 상태 레코드 통합을 설정 합니다.
 

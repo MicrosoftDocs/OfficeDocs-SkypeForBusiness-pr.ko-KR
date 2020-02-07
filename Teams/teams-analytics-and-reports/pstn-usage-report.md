@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -14,12 +16,12 @@ MS.collection:
 description: Microsoft 팀 관리 센터에서 팀 PSTN 사용 보고서를 사용 하 여 조직의 통화 및 오디오 회의 사용에 대 한 개요를 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c91530af745a287198e99dbb83cd39257d978452
-ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
+ms.openlocfilehash: 430ef53d5739a79644a57dbee1c0a30b0ab26852
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257437"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827286"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 팀 PSTN 사용 보고서
 

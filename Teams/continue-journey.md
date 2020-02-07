@@ -11,19 +11,21 @@ search.appverid: MET150
 description: 비즈니스용 Skype에서 Microsoft 팀으로 여행을 계속 하기 위한 지침
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74471d45e99742774133477f6b978939864aab2e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7453743407696a0ba8c41cb401caf4f22ba7b78f
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236817"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825306"
 ---
-![여행 다이어그램을 업그레이드 하 여 뛰어난 작업 단계 강조] 운영에 대 한 다양 한 (media/upgrade-banner-op-excellence.png "단계의 강조를 통해 업그레이드 여행 단계")
+![여행 다이어그램을 업그레이드 하 여 뛰어난 작업 단계 강조](media/upgrade-banner-op-excellence.png "운영에 대 한 다양 한 단계의 강조를 통해 업그레이드 여행 단계")
 
 이 문서는 비즈니스용 Skype에서 팀으로 업그레이드를 완료 하는 즉시 시작 되는 업그레이드 여행에 대 한 작업을 위한 뛰어난 단계의 일부입니다.
 
@@ -37,7 +39,7 @@ ms.locfileid: "36236817"
 
 - [서비스 운영](upgrade-operate-my-service.md)
 - [모니터 품질](upgrade-monitor-quality.md)
-- [서비스 개선](upgrade-enhance-my-service.md)
+- [서비스 향상](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>드라이브 사용자 통해 계속 앞서 및 채택
 
@@ -56,4 +58,4 @@ ms.locfileid: "36236817"
 - 변경 계획 양식 (아래 그림 참조)을 구현 하 여 새 기능을 준비 하 고 구현 합니다. 기술 및 사용자 준비 활동을 모두 포함 해야 합니다.
 
 
-![예상 릴리스 날짜 및 메모를 보여 주는 예제 양식] (media/upgrade-change-plan-form.png "예상 릴리스 날짜와 새 기능에 대 한 참고 사항을 표시 하는 예제 양식 (다음 단계 및 소유자와 함께 나열") 됨)
+![예상 릴리스 날짜 및 메모를 보여 주는 예제 양식](media/upgrade-change-plan-form.png "예상 릴리스 날짜와 새 기능에 대 한 참고 사항을 표시 하는 예제 양식 (다음 단계 및 소유자와 함께 나열 됨)")

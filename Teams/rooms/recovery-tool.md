@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 이 문서에서는 Microsoft 팀 대화방에 대 한 복구 도구를 사용 하는 방법에 대해 설명 하 고 최신 시스템을 지원 되는 상태로 전환 하는 데 사용 합니다.
-ms.openlocfilehash: 3a62256a5e39d93033588ca2be779e9c3b76a4f5
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 452f5d9d15375bec7ac25c07c865add8a01b0345
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269121"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831180"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Microsoft 팀 대화방 복구 도구 사용
 
@@ -27,7 +29,7 @@ ms.locfileid: "41269121"
 최신 [Microsoft 팀 대화방 설치 패키지](https://go.microsoft.com/fwlink/?linkid=851168) 를 다운로드 하 고 Microsoft 팀 회의실 장치에서 액세스할 수 있는 USB 메모리 스틱 또는 네트워크 공유에 압축을 풉니다.
 
 > [!NOTE]
-> MSI에서 파일의 압축을 푸는 것은 여러 방법에서 수행할 수 있습니다. 모든 파일을 추출 하 고 해당 디렉터리 구조를 유지 하는 메커니즘은 허용 됩니다. 그 이유 중 하나는 Microsoft 팀 대화방 `msiexec /qn PathToMsi /qb TARGETDIR=PathToTarget` 설치 `PathToMsi` 패키지에 대 한 전체 경로를 나타내는 명령을 사용 하는 것 `PathToTarget` 이 고, 압축을 푼 파일을 원하는 폴더의 전체 경로를 나타내는 것입니다.
+> MSI에서 파일의 압축을 푸는 것은 여러 방법에서 수행할 수 있습니다. 모든 파일을 추출 하 고 해당 디렉터리 구조를 유지 하는 메커니즘은 허용 됩니다. 그 이유 중 하나는 Microsoft 팀 대화방 `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` 설치 `PathToMsi` 패키지에 대 한 전체 경로를 나타내는 명령을 사용 하는 것 `PathToTarget` 이 고, 압축을 푼 파일을 원하는 폴더의 전체 경로를 나타내는 것입니다.
 
 ## <a name="running-the-tool"></a>도구 실행
 

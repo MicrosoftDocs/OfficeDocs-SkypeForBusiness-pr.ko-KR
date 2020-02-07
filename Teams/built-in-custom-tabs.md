@@ -10,23 +10,25 @@ audience: admin
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 description: 기본 제공 및 사용자 지정 탭을 사용 하 여 대화, 파일, 지도 등과 같은 기능을 포함 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4a07a8e6469de812dfc440119e5f53bcf393c03
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: e542b1370cdd03fb0c39c5bf471df58ec0c7e989
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909364"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824696"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Microsoft 팀에서 기본 제공 및 사용자 지정 탭 사용
 ==================================================
 
 탭을 사용 하 여 팀 구성원이 채널 또는 채팅 내의 전용 공간에서 서비스 및 콘텐츠에 액세스할 수 있습니다. 이렇게 하면 팀이 도구 및 데이터로 직접 작업 하 고, 채널 또는 채팅의 컨텍스트 내에서 도구와 데이터에 대 한 대화를 나눌 수 있습니다.
 
-소유자와 팀 구성원은 채널, 개인 채팅 및 그룹 채팅에 탭을 추가 하 여 클라우드 서비스를 통합 하는 데 도움이 될 수 있습니다. 사용자가 필요한 데이터를 쉽게 액세스 하 고 관리 하는 데 도움이 되는 탭을 추가할 수 있습니다. Power BI 보고서, 대시보드 또는 교육 비디오를 게시 하는 [Microsoft 스트림](https://go.microsoft.com/fwlink/?linkid=855785) 비디오 채널 일 수 있습니다.
+소유자와 팀 구성원은 채널, 비공개 채팅 및 그룹 채팅에 탭을 추가하여 클라우드 서비스와 통합할 수 있습니다. 사용자가 필요한 데이터를 쉽게 액세스 하 고 관리 하는 데 도움이 되는 탭을 추가할 수 있습니다. Power BI 보고서, 대시보드 또는 교육 비디오를 게시 하는 [Microsoft 스트림](https://go.microsoft.com/fwlink/?linkid=855785) 비디오 채널 일 수 있습니다.
 
 ![탭의 다양 한 콘텐츠에 대 한 세 가지 스크린샷](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
@@ -53,7 +55,7 @@ ms.locfileid: "39909364"
 
 ## <a name="develop-custom-tabs"></a>사용자 지정 탭 개발
 
-기본 제공 탭 외에, 팀에 통합 하거나 나머지 커뮤니티와 공유 하는 사용자 고유의 탭을 디자인 하 고 개발할 수 있습니다. 자세한 내용은 [개발자 설명서](/microsoftteams/platform/tabs/what-are-tabs) 를 참조 하세요.
+기본 제공 탭 외에, 팀에 통합 하거나 나머지 커뮤니티와 공유 하는 사용자 고유의 탭을 디자인 하 고 개발할 수 있습니다. 자세한 내용은 [개발자 설명서](/microsoftteams/platform/tabs/what-are-tabs)를 참조하세요.
 
 ![Microsoft 팀의 사용자 지정 탭을 보여 주는 스크린샷](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

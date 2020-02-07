@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Azure Monitor를 사용 하 여 통합 된 방식으로 Microsoft 팀 회의실 장치를 관리 하는 방법을 설명 합니다.
-ms.openlocfilehash: 33132d7d72498fd01a156ce28114d1e584d6760c
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 1b7038c1a2b46164e233e54af18875318d1c47d4
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269141"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826126"
 ---
 # <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Azure Monitor를 사용 하 여 Microsoft 팀 회의실 장치 관리
 

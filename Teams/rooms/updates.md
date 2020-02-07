@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: Microsoft 팀 대화방에 대 한 Windows 업데이트 관리
-ms.openlocfilehash: be3555507b0c9a8967b444b96e8c6e4af8f35fbf
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 2fc96118b70ff7c15e7bde02fdcd048c07581ad3
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628564"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827916"
 ---
 # <a name="manage-windows-updates"></a>Windows 업데이트 관리
 

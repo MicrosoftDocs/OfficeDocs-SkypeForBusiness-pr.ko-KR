@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +16,12 @@ ms.collection:
 description: Microsoft 팀 관리 센터에서 팀 실시간 이벤트 사용 보고서를 사용 하 여 조직의 팀 live 이벤트 활동에 대 한 개요를 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c391370e757aedcf9ede889fc46f165cfc636f4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: af8a7d0225c3098f48de689a15921cd6f1f2f1c9
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571150"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827246"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft 팀 실시간 이벤트 사용 보고서
 
@@ -38,9 +40,9 @@ Microsoft 팀 관리 센터의 팀 실시간 이벤트 사용 보고서에는 �
 
 |호출 |설명  |
 |--------|-------------|
-|**raid-1**   |팀 실시간 이벤트 보고서는 지난 7 일, 28 일 또는 사용자 지정 날짜 범위를 통해 추세를 볼 수 있습니다. |
+|**1**   |팀 실시간 이벤트 보고서는 지난 7 일, 28 일 또는 사용자 지정 날짜 범위를 통해 추세를 볼 수 있습니다. |
 |**2**   |각 보고서에는 생성 된 날짜를 포함 합니다. 페이지를 새로 고치면 보고서에 거의 실시간 작업이 반영 됩니다. |
-|**3-4**   |<ul><li>차트의 X 축은 보고서에 대해 선택 된 날짜 범위입니다.</li> <li> Y 축은 총 뷰 수입니다.</li> </ul>지정 된 날짜의 점을 마우스로 가리켜 해당 날짜의 모든 라이브 이벤트에 대 한 보기 수를 확인 합니다.|
+|**3**   |<ul><li>차트의 X 축은 보고서에 대해 선택 된 날짜 범위입니다.</li> <li> Y 축은 총 뷰 수입니다.</li> </ul>지정 된 날짜의 점을 마우스로 가리켜 해당 날짜의 모든 라이브 이벤트에 대 한 보기 수를 확인 합니다.|
 |**4(tcp/ipv4)**   |표에서는 각 라이브 이벤트의 분석 결과를 보여 줍니다. <ul><li>**이벤트** 는 라이브 이벤트의 표시 이름입니다. 이벤트 이름을 클릭 하 여 이벤트에 대 한 [자세한 정보를 가져옵니다](#view-event-details) . </li> <li>**시작 시간은** 이벤트의 시작 날짜 및 시간을 나타냅니다.</li> <li>이벤트 **상태** 는 이벤트가 발생 했는지 여부를 표시 합니다.  </li><li>**이끌이** 는 이벤트 이끌이의 이름입니다.</li> <li>**발표자** 는 이벤트 발표자의 이름입니다.</li><li>**생산자** 는 이벤트 제작자의 이름입니다.</li><li>**보기** 는 고유한 보기의 수입니다.</li><li>**녹화** 는 녹음/녹화 설정이 켜져 있는지 여부를 표시 합니다.</li><li>**프로덕션 유형** 이벤트가 팀에서 생성 되는지 외부 응용 프로그램 또는 장치에 의해 발생 하는지를 표시 합니다.</li></li> </ul>사용자 계정이 더 이상 Azure AD에 존재 하지 않는 경우에는 테이블에 사용자 이름이 "--"로 표시 됨을 참고 하세요. <br><br>표에 원하는 정보를 표시 하려면 표에 열을 추가 해야 합니다. |
 |**5mb**   |**열 편집** 을 선택 하 여 테이블에 열을 추가 하거나 제거 합니다.|
 
@@ -55,4 +57,4 @@ Microsoft 팀 관리 센터의 팀 실시간 이벤트 사용 보고서에는 �
 ## <a name="related-topics"></a>관련 항목
 
 - [팀 분석 및 보고](teams-reporting-reference.md)
-- [팀 라이브 이벤트는 무엇 인가요?](../teams-live-events/what-are-teams-live-events.md)
+- [Teams 라이브 이벤트란?](../teams-live-events/what-are-teams-live-events.md)

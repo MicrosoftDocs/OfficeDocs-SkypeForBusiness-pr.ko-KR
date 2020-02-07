@@ -9,15 +9,17 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 주요 관련자, 비즈니스 결과, 성공 측정값 및 캠페인 관리의 식별을 통해 Microsoft 팀에 대 한 변경 관리 전략을 세우는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c2a01203246f56984f001acbfb4cb889e969c8f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8e6c07271caecd2c84301930f0b71aa6eda0011a
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516982"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824976"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft 팀에 대 한 변경 관리 전략 만들기
 =======================================================

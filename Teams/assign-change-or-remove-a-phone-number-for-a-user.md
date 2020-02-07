@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: 외부 기업과 클라이언트가 통화할 수 있도록 팀 사용자의 회사 전화 번호를 할당, 변경 또는 제거 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a52e8892150e94f73b76bd68aae874b50bd19a71
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 08f662abbad8d7e59d6ed543257d7bb1116e08f1
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695733"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826996"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>사용자의 전화 번호 할당, 변경 또는 제거
 
@@ -76,7 +76,7 @@ ms.locfileid: "41695733"
 4. **편집** 창의 **담당자**에서 사용자를 제거 하려면 **X** 를 클릭 합니다.
 5. **저장**을 클릭 합니다.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [주소 유효성 검사 란?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 

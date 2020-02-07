@@ -10,18 +10,20 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-voice
-f1.keywords: ms.teamsadmincenter.voice.callinglineid.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 발신자 ID 정책을 사용 하 고 관리 하 여 조직에서 팀 사용자의 발신자 ID를 변경 하거나 차단 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f5a1d52f10bb60ced33b05339f81ecd0a6a363f5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ff2f9a02bdf91eb6296dce03e426be673f83495a
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695593"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824546"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft 팀의 발신자 ID 정책 관리
 
@@ -108,7 +110,7 @@ $members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Cal
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
 
- ## <a name="related-topics"></a>관련 주제
+ ## <a name="related-topics"></a>관련 항목
 
 - [새로운 CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 

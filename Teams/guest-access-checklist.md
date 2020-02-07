@@ -10,17 +10,19 @@ ms.reviewer: sbhatta
 description: 이 검사 목록을 사용 하 여 Microsoft 팀에서 게스트 액세스를 설정할 수 있습니다.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3354f7b503b2f1ea91c050a751b5d7d9ab0537a
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: b60b0e5f0972d862ec1b945f1b267b04faae9a8a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962536"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833258"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft 팀 게스트 액세스 검사 목록
 ==========================================
@@ -33,8 +35,6 @@ Microsoft 팀에서 게스트 액세스를 설정 하 고 구성 하는 데 도�
 이 짧은 비디오를 시청 하세요 (5:31 분). 팀을 포함 하 여 Microsoft 365에서 게스트 액세스를 설정 하는 방법을 알아보세요.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44NTr?autoplay=false]
-
-
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>1 단계: 조직 전체 수준에서 게스트 액세스 켜기 팀
 
@@ -51,8 +51,9 @@ Microsoft 팀에서 게스트 액세스를 설정 하 고 구성 하는 데 도�
 > [!TIP]
 > Azure Active Directory, SharePoint Online 및 Office 365 그룹에서 기본 설정을 사용 하는 경우 게스트 액세스 구성이 완료 될 수 있습니다. 이 경우 나머지 단계를 건너뛸 수 있습니다. 확실 하지 않은 경우 또는 AAD, SharePoint Online 또는 Office 365 그룹에 대 한 사용자 지정 설정을 사용 하는 경우이 검사 목록의 나머지 단계를 계속 진행 합니다.
 
-
 ## <a name="step-2-configure-azure-ad-business-to-business-settings"></a>2 단계: Azure AD business 비즈니스에 대 한 설정 구성
+
+팀에서 게스트 액세스를 지 원하는 Azure AD 설정은 다음과 같습니다. 이러한 설정이 구성 되 면 팀에서 게스트를 [추가](add-guests.md) 하 고 [관리할](manage-guests.md) 수 있습니다.
 
 1. 테 넌 트 관리자로 [Azure 포털](https://portal.azure.com) 에 로그인 합니다.
 2. **Azure Active Directory** > **사용자** > **사용자 설정을**선택 합니다.
@@ -63,12 +64,7 @@ Microsoft 팀에서 게스트 액세스를 설정 하 고 구성 하는 데 도�
 
     - **게스트 사용자 권한이 제한 됨**:이 정책은 디렉터리의 게스트에 대 한 사용 권한을 결정 합니다. **예** 를 선택 하 여 사용자, 그룹 또는 기타 디렉터리 리소스 열거와 같은 특정 디렉터리 작업에서 게스트를 차단 합니다. 게스트를 사용 하 여 디렉터리 데이터에 대 한 액세스 권한을 다른 사용자와 동일 하 게 지정 하려면 ( **아니요** )를 선택 합니다.
      - **게스트 inviter 역할의 관리자와 사용자는 초대할 수 있습니다**. "게스트 inviter" 역할의 관리자와 사용자가 게스트를 초대 하도록 허용 하려면이 정책을 **Yes**로 설정 합니다.
-     - **구성원 초대 가능**: 해당 디렉터리의 관리자가 아닌 구성원이 게스트를 초대 하도록 허용 하려면이 정책을 **예로**설정 합니다.
-
-         > [!NOTE]
-         > 구성원을 **No** 에 **초대할 수** 있고 Office 365 그룹 및 Microsoft 팀에서 게스트 액세스를 사용 하도록 설정한 경우 관리자는 디렉터리에 대 한 게스트 초대를 제어할 수 있습니다. Guest가 디렉터리에 있으면 팀 소유자 인 관리자가 아닌 구성원에 따라 팀에 추가 될 수 있습니다. 자세한 내용은 [Microsoft 팀에서 게스트 액세스 권한 부여](Teams-dependencies.md)를 참조 하세요.
-         > [!IMPORTANT]
-         > 게스트 액세스가 Teams에서 작동하려면 **멤버가 초대할 수 있음**을 **예**로 설정해야 합니다.   
+     - **회원 초대 가능**: 디렉토리의 관리자가 아닌 회원이 손님을 초대할 수 있게 하려면 이 정책을 **예**(권장)로 설정하십시오. 관리자만 게스트를 추가할 수 있게 하려는 경우 이 정책을 **아니오**로 설정할 수 있습니다. **아니오**로 설정할 경우 관리자가 아닌 Teams 소유자의 게스트 환경이 제한됨에 유의하십시오. 이 소유자들은 AAD에 이미 추가된 Teams에만 게스트를 추가할 수 있습니다.
      - **게스트 초대**: 게스트가 다른 게스트를 초대할 수 있도록 하려면이 정책을 **Yes**로 설정 합니다.
          > [!IMPORTANT]
          > 현재 Teams는 게스트 초대자 역할을 지원하지 않으므로 **참석자를 초대 할 수 있음**으로 **설정**하더라도 손님은 Teams에서 다른 참석자를 초대할 수 없습니다.
@@ -77,40 +73,34 @@ Microsoft 팀에서 게스트 액세스를 설정 하 고 구성 하는 데 도�
         > [!NOTE]
         > 공동 작업 제한 사항은 [B2B 외부 공동 작업 사용 및 게스트 초대를 할 수 있는 사용자 관리](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)를 참조 하세요.
       
- 
     게스트를 초대할 수 있는 사용자를 제어하는 방법에 대한 자세한 내용은 [Azure Active Directory B2B 공동 작업에 대한 초대 위임](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)을 참조합니다.
-
 
 ## <a name="step-3-configure-office-365-groups"></a>3 단계: Office 365 그룹 구성
 
-1. Microsoft 365 관리 센터에서 **설정** > **서비스 & 추가 기능**으로 이동한 다음 **Office 365 그룹**을 선택 합니다.
+1. Microsoft 365 관리 센터에서 **설정** > **설정**으로 이동 하 여 **서비스**를 클릭 한 다음 **Office 365 그룹**을 선택 합니다.
 
-     ![스크린샷에서는 Office 365 그룹을 표시 하거나 숨깁니다.](media/guest-access-checklist-office365.png)
+     ![스크린샷에는 Office 365 Groups 설정이 나와 있습니다.](media/guest-access-checklist-services-settings.png)
 2. **조직 외부 회원 그룹 구성원에 게 그룹 콘텐츠 액세스 허용** 확인란을 선택 했는지 확인 합니다. 이 설정을 선택 하지 않으면 게스트가 그룹 컨텐트에 액세스할 수 없게 됩니다.
+
+    ![스크린샷에는 Office 365 Groups 설정이 나와 있습니다.](media/guest-access-checklist-office365.png)
 3. **그룹 소유자가 조직 외부 사람을 그룹에 추가** 확인란을 선택 했는지 확인 합니다. 이 설정을 선택 하지 않으면 팀 소유자가 새 게스트를 추가할 수 없게 됩니다. 게스트 액세스를 지원 하려면 최소한이 설정이 설정 되어 있어야 합니다.
 
 이러한 설정을 구성 하는 방법에 대 한 자세한 지침은 [office 365 그룹에서 게스트 액세스 관리](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) 및 [office 365 그룹의 게스트 액세스 제어](Teams-dependencies.md#control-guest-access-in-office-365-groups)를 참조 하세요.
- 
 
 ## <a name="step-4-configure-sharing-in-office-365"></a>4 단계: Office 365에서 공유 구성 
 
 사용자가 게스트를 추가할 수 있는지 확인 합니다. 방법은 다음과 같습니다.
 
-1. Microsoft 365 관리 센터에서 **설정** > **보안 & 개인 정보**로 이동 합니다.
+1. Microsoft 365 관리 센터에서 **설정** > **설정**으로 이동 하 여 **보안 & 개인 정보**를 클릭 한 다음 **공유**를 선택 합니다.
 
-     ![스크린샷에서는 서비스 설정의 예를 보여 줍니다.](media/guest-access-checklist-Office365Admin_Services_addins.png)
-
-2. **공유**에서 **편집**을 선택 합니다.
-
-     ![공유 설정의 예를 보여 주는 스크린샷](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+     ![스크린샷에서는 서비스 설정의 예를 보여 줍니다.](media/guest-access-checklist-security-privacy-settings.png)
  
-3. **사용자가이 조직에 새 게스트를 추가할 수 있도록 허용** **을 선택한**다음 **저장**을 클릭 합니다.
+2. **사용자가이 조직에 새 게스트를 추가 하도록 허용** 확인란을 선택 하 고 **변경 내용 저장**을 클릭 합니다.
 
-     ![공유 설정의 예를 보여 주는 스크린샷](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+     ![공유 설정의 예를 보여 주는 스크린샷](media/guest-access-checklist-sharing-setting.png)
  
     > [!NOTE]
     > 이 설정은 회원 들이 Azure AD의**외부 사용자** **설정** > 에서 설정을 **초대할 수** 있는 것과 같습니다.  
-
 
 ## <a name="step-5-verify-sharing-setting-in-sharepoint"></a>5 단계: SharePoint에서 공유 설정 확인
 
@@ -122,9 +112,8 @@ Microsoft 팀에서 게스트 액세스를 설정 하 고 구성 하는 데 도�
 
 3. 사이트를 선택한 다음 **공유**를 클릭 합니다.
 4. 이 옵션이 **사용자** 또는 **신규 및 기존 게스트로**설정 되어 있는지 확인 합니다.
- 
-     ![SharePoint Online 설정/해제의 예를 보여 주는 스크린샷](media/guest-access-checklist-SPOSettings1.png)
 
+     ![SharePoint Online 설정/해제의 예를 보여 주는 스크린샷](media/guest-access-checklist-SPOSettings1.png)
 
 ## <a name="step-6-set-up-guest-user-permissions"></a>6 단계: 게스트 사용자 권한 설정
 
@@ -134,7 +123,6 @@ Microsoft 팀에서 게스트 액세스를 설정 하 고 구성 하는 데 도�
 
 게스트 액세스에 대 한 자세한 내용은 [팀에서 게스트 액세스](guest-access.md) 및 Microsoft 팀에 대 한 [게스트 액세스 설정 또는 해제](set-up-guests.md)를 참조 하세요.
 
-
 ## <a name="troubleshooting"></a>해결사
 
 팀에서 게스트 액세스를 설정 하거나 게스트를 추가 하는 데 문제가 있는 경우 다음 리소스를 사용 하 여 도움을 받으세요.
@@ -142,6 +130,3 @@ Microsoft 팀에서 게스트 액세스를 설정 하 고 구성 하는 데 도�
 [Microsoft 팀의 게스트 액세스 문제 해결](troubleshoot-guest-access.md)
 
 [팀 문제 해결](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)
-
-
-

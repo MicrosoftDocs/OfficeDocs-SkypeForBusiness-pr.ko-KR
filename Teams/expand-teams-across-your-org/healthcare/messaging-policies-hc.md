@@ -1,5 +1,5 @@
 ---
-title: 의료 조직의 보안 메시지 시작 하기
+title: 의료 조직을 위한 보안 메시징 시작
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -14,21 +16,21 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 의료 조직의 보안 메시지 시작 하기
-ms.openlocfilehash: 1b4048dc168de0c36c3c322cc9bb7d4e2d9c3958
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+description: 의료 조직을 위한 보안 메시징 시작
+ms.openlocfilehash: ff4f9089d7fba87678345d37f8c9d85949fb478e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570339"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827736"
 ---
-# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>의료 조직의 보안 메시지 시작 하기
+# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>의료 조직을 위한 보안 메시징 시작
 
 메시징 정책은 Microsoft 팀에서 사용자에 게 제공 하는 채팅 및 채널 메시징 기능을 제어 하는 데 사용 되며, 병원, clinics 또는 의사 사무실과 같은 의료 조직에 대 한 보안 메시징 전체 배포의 일부입니다. 중요 한 메시지를 읽은 경우를 알고 있는 것 처럼 메시지를 선택 하 고 적시에 처리 하는 것이 중요 합니다.
 
 기본 정책을 사용 하거나 조직의 사용자를 위해 하나 이상의 사용자 지정 메시징 정책을 만들 수 있습니다. 정책을 만든 후에는 조직에서 사용자 또는 사용자 그룹에 게 할당 합니다. 예를 들어 특정 작업 역할 (doctors, nurses에만 해당) 및 기타 작업자 (janitorial 또는 주방 지팡이)만 사용 하 여 제한 된 기능 집합을 얻을 수 있도록 하는 것이 선택 되어 있습니다. 자신을 결정 합니다. 조직의 요구 사항에 대 한 설명은 대부분 추천 사항입니다.
 
-관리자 자격 증명을 사용 하 여 로그인 하 고 왼쪽 탐색 창에서 **메시징 정책을** 선택 하 여 [Microsoft 팀 관리 센터](http://admin.teams.microsoft.com) 에서 정책을 쉽게 관리할 수 있습니다.
+관리자 자격 증명을 사용 하 여 로그인 하 고 왼쪽 탐색 창에서 **메시징 정책을** 선택 하 여 [Microsoft 팀 관리 센터](https://admin.teams.microsoft.com) 에서 정책을 쉽게 관리할 수 있습니다.
 
  ![메시징 정책 페이지 스크린샷](../../media/messaging-policies-image1.png)
 
@@ -42,7 +44,7 @@ ms.locfileid: "37570339"
 
 - ![이전 스크린샷](../../media/sfbcallout1.png) 의 설명선을 참조 하는 번호 1의 아이콘 **읽기** 확인 읽음 확인 메시지를 보낸 사람이 1:1 및 그룹 채팅 20 명 이하의 받는 사람이 메시지를 읽었을 때이를 알 수 있습니다. 이 설정을 사용 하 여 읽음 확인을 사용자가 제어할 지, 모든 사람에 대해 또는 모두 끄도록 지정할 수 있습니다. 메시지 읽음 확인은 의료 기관에서 메시지의 읽음 여부에 대 한 uncertainly을 제거 하기 때문에 중요 합니다.
 
-  의료 응용 프로그램의 경우 **사용자가 제어** 또는 **모든 사람에 대해**사용을 선택 합니다. **모든 사용자** 에 대해 확인을 사용 하는 경우 전체 테 넌 트에 대해 확인 메일을 하나만 설정 하는 유일한 방법은 ("Global (Org wide default)" 이라는 기본 정책) 또는 모든 메시징 정책을 포함 하는 유일한 방법입니다. 테 넌 트가 동일한 확인 메일 설정을 사용 합니다. 읽음 확인 기능은 **모든 사용자**가 기능을 사용 하도록 설정 하는 경우에 가장 효과적입니다.
+  의료 응용 프로그램의 경우 **사용자가 제어** 또는 **모든 사람에 대해**사용을 선택 합니다. **모든 사용자** 에 대해 확인을 사용 하는 경우 전체 테 넌 트에 대해 확인 메일을 한 개만 설정 ("Global (Org wide default)" 이라는 기본 정책) 하거나 테 넌 트의 모든 메시징 정책에 동일한 확인 설정을 사용 하는 유일한 방법이 있습니다. 읽음 확인 기능은 **모든 사용자**가 기능을 사용 하도록 설정 하는 경우에 가장 효과적입니다.
 
     읽음 확인 *없이 사용 예제:* 위험도가 높은 Jakob Roth는 병원에 게 참석할 수 있습니다.소피아 Krause는 다른 전문가를 포함 하 여 IDT (disciplinary 팀) 의료 노동자의 일부로 작동 하는 nurse이 환자를 담당 하는 기본 의료 코디네이터로 지정 됩니다.  소피아는 다양 한 메시징 클라이언트 및 앱을 사용 하는 nurses 및 doctors의 그룹에 전자 메일 및 기타 인스턴트 메시지를 보내고, 팀 구성원이 메시지를 읽음 여부에 대 한 응답 또는 표시를 제공 하지 않는 경우가 많습니다. Tangled 통신 프로세스 때문에 Jakob의 투약는 misapplied 되 고 있으며 병원은 계속 해 서 확장 됩니다.
 
@@ -63,4 +65,4 @@ ms.locfileid: "37570339"
 ## <a name="related-topics"></a>관련 항목
 
 - [팀에서 메시징 정책 관리](../../messaging-policies-in-teams.md)
-- [건강 조직의 팀 시작 하기](teams-in-hc.md)
+- [의료 조직을 위한 Teams 시작](teams-in-hc.md)

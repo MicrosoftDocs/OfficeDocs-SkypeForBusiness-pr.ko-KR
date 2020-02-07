@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -14,12 +16,12 @@ MS.collection:
 description: Microsoft 팀 관리 센터에서 팀 PSTN 통화 시간 단위 보고서를 사용 하 여 조직 내 현재 달 중 사용 되는 시간의 수를 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f67bc5e20d9e1f23e63b0b4c78b3e198d4b30a40
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0fa9b8f4a676c1e937fed02eabc0e7cd4acd5325
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37639336"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827326"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft 팀 PSTN 통화 시간 풀 보고서
 
@@ -35,9 +37,9 @@ Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서**
 
 |호출 |설명  |
 |--------|-------------|
-|**raid-1**   |각 보고서에는 생성 된 날짜를 포함 합니다. 일반적으로이 보고서에는 활동 시간부터 24 ~ 48 시간 대기 시간이 반영 됩니다. |
+|**1**   |각 보고서에는 생성 된 날짜를 포함 합니다. 일반적으로이 보고서에는 활동 시간부터 24 ~ 48 시간 대기 시간이 반영 됩니다. |
 |**2**   |권한 (라이선스)을 클릭 하 여 해당 접근 권한 작업을 볼 수 있습니다. |
-|**3-4**   |X 축은 국가 또는 지역입니다. Y 축은 분 수입니다. <br>차트의 막대 위에 마우스를 놓으면 해당 사용 위치에 대 한 활동이 표시 됩니다.  |
+|**3**   |X 축은 국가 또는 지역입니다. Y 축은 분 수입니다. <br>차트의 막대 위에 마우스를 놓으면 해당 사용 위치에 대 한 활동이 표시 됩니다.  |
 |**4(tcp/ipv4)**   |범례에서 항목을 클릭 하 여 차트에 표시 되는 내용을 필터링 할 수 있습니다. 예를 들어 사용 **되지**않음, **국내 사용자**, **데이터 없음**또는 **국제 통화** 를 클릭 하 여 각 항목에 관련 된 정보만 표시 합니다. |
 |**5mb**   |표에서는 기능 및 사용 위치 별로 분 단위를 분류 하 여 보여 줍니다. <ul><li>**국가 또는 지역은** 사용 위치입니다. </li><li>**기능 설명은** 통화에 사용 되는 라이선스에 대 한 설명입니다.  이 보고서에 표시 될 수 있는 기능 설명은 다음과 같습니다. <ul><li>국내 및 국제 통화 요금제 (1200 국내 분)</li><li>국내 및 국제 통화 요금제 (3000 국내 분)</li><li>국내 및 국제 전화 요금제 (600 국제 통화)</li></ul></li><br><li>**총 통화** 시간은 해당 월에 사용할 수 있는 총 통화 수입니다.</li><li>**사용 시간 (** 분)은 매달 사용 되는 시간입니다.</li> <li>**사용할 수 있는 시간 (분)** 은 해당 월에 남아 있는 분 수입니다.</li><li>**접근 권한** 값은 통화에 사용 되는 라이선스입니다. 표시 될 수 있는 라이선스는 다음과 같습니다.<ul><li>**MCOPSTNPP** -통신 크레딧</li><li>**MCOPSTN1** -국내 통화 요금제 (3000 min US/1200 최소 EU 요금제)</li><li>**MCOPSTN2** -국제 통화 요금제</li><li>**MCOPSTN5** -국내 통화 요금제 (120 분 통화 요금제)</li><li>**MCOPSTN6** -국내 통화 요금제 (240 분 통화 요금제)</li><li>**Mcomeetadd** 오디오 회의</li><li>**MCOMEETACPEA** -분 당 오디오 회의 결제</li></ul></li> </ul> 표에 원하는 정보를 표시 하려면 표에 열을 추가 해야 합니다.|
 |**26**   |**열 편집** 을 선택 하 여 테이블에 열을 추가 하거나 제거 합니다.|

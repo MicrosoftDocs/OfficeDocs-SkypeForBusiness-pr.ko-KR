@@ -8,17 +8,19 @@ ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
 description: 이 PowerShell 스크립트를 사용 하 여 사용자 기준으로 팀에서 자동 시작 설정을 다시 설정 합니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 789b187dccb0cc654e3b8ad771b56627d58057a8
-ms.sourcegitcommit: 416a2d404a2ea15b484cd7579035e7f2282ac2cf
+ms.openlocfilehash: ad6411f82df31ec5f0be93cbd30d87a1832daa50
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233338"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826966"
 ---
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell 스크립트 샘플-팀에서 자동 시작 설정을 다시 설정 합니다.
 

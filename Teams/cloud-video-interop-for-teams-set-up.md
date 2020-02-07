@@ -8,6 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
+f1.keywords:
+- NOCSH
 description: 이 문서에서는 조직의 사용자를 위해 클라우드 비디오 Interop를 계획 하 고 설정 하는 방법에 대해 설명 합니다.
 localization_priority: Normal
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a94292719f8f93b818cbc52dd312859611940e3b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 1e937e7825000d02156c1f5ede2671711006cbdd
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516664"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825106"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Microsoft 팀을 위한 클라우드 비디오 Interop 설정
 
@@ -100,10 +102,10 @@ ms.locfileid: "37516664"
 다음과 같은 방법으로 팀 모임에 VTC 장치를 사용 하 여 참가할 수 있습니다.
  
 - IVR (대화형 음성 응답)
-    - Tenantkey @ domain을 사용 하 여 파트너의 IVR에 전화를 걸 수 있습니다. 
+    - Tenantkey@domain를 사용 하 여 파트너의 IVR에 전화 접속할 수 있습니다. 
     - 파트너 IVR에 속한 경우 VTC conferenceId을 입력 하 라는 메시지가 표시 되 고 팀 회의에 연결 됩니다.
 - 다이렉트 전화 접속
-    - Tenantkey의 전체 문자열을 사용 하 여 직접 전화 접속 기능을 사용 하 여 파트너의 IVR과 상호 작용 하지 않고 팀 모임에 직접 전화를 걸 수 있습니다. VTC ConferenceId @ domain.
+    - Tenantkey의 전체 문자열을 사용 하 여 직접 전화 접속 기능을 사용 하 여 파트너의 IVR과 상호 작용 하지 않고 팀 모임에 직접 전화를 걸 수 있습니다. VTC ConferenceId@domain.
 - 한 번 터치 다이얼
     - 통합 된 팀 객실이 있는 경우에는 해당 파트너가 제공 하는 원터치 전화 접속 기능을 사용할 수 있습니다 (다이얼 문자열을 입력할 필요는 없음).
 

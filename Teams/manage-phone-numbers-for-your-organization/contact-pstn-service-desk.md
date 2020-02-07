@@ -16,18 +16,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.voice.pstnservicedesk
 - ms.teamsadmincenter.voice.contactPSTNsupport
-ROBOTS: NOINDEX, NOFOLLOW
-ms.custom:
 - Calling Plans
+ROBOTS: NOINDEX, NOFOLLOW
 description: 조직에 대 한 전화 번호 또는 포팅 (전송) 번호를 받고 있는 경우 PSTN 서비스 데스크에서 도움말 및 지원을 받아야 할 수 있습니다.
-ms.openlocfilehash: 69e3d8dfc3d4568ca4801105459580b5f108e5a0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 819baa319fb0cd8d53e163560c6de888ecd177c9
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707243"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825716"
 ---
 # <a name="pstn-service-desk-help"></a>PSTN 서비스 데스크 도움말
 
@@ -38,7 +39,7 @@ ms.locfileid: "41707243"
 - 미국 내 전화 번호에 대 한 도움말을 보려면, [요청을 보내세요](mailto:ptn@microsoft.com).
 - 미국 이외의 전화 번호에 대 한 도움말을 보려면, [요청을 보내세요](mailto:ptneu@microsoft.com).
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

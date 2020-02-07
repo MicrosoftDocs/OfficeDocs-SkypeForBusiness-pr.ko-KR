@@ -17,15 +17,15 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: Reporting
 description: Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드에서 사용 하는 차원과 측정값에 대 한 자세한 정보를 확인 하세요.
-ms.openlocfilehash: 9e2dc32802b2a13d9d0a24824a083702c2f2d27c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6ad18b0674dec96c163bf64b6a16f014a0413ab8
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696043"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826916"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>통화 품질 대시보드에서 사용할 수 있는 크기 및 측정
 
@@ -634,7 +634,7 @@ CQD에 사용 되는 문자열은 종종 데이터 파일에서 파생 되며, �
 
 여러 치수 및 측정 값을 필터로 사용할 수도 있습니다. 쿼리에 필터를 사용 하 여 차원 또는 측정값을 선택 하는 것과 같은 방식으로 정보를 제거 하 여 쿼리에 정보를 추가 하거나 포함할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype 통화 분석 설정](set-up-call-analytics.md)
 

@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom:
 - Reporting
 description: 통화 분석 및 통화 품질 대시보드 및이를 사용 하 여 통화 품질 문제를 모니터링 하 고 해결 하는 시기에 대해 알아봅니다.
-ms.openlocfilehash: 70efd7f17189d9aac2236383a07cfc5fc0a37096
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: be63c4e227e74e242169ec5c3b5e0b01a43a0730
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972469"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824914"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>통화 분석 및 통화 품질 대시보드
 
@@ -82,9 +83,9 @@ CQD의 위치 향상 보고서는 사용자의 건물 내에서 통화 품질과
 - 전역 관리자
 - 전역 읽기 프로그램
 - 비즈니스용 Skype 관리자
-- 팀 서비스 관리자
-- 팀 의사 소통 관리자
-- 팀 의사 소통 지원 엔지니어
+- Teams 서비스 관리자
+- Teams 커뮤니케이션 관리자
+- Teams 커뮤니케이션 지원 엔지니어
 - 팀 의사 소통 지원 전문가
 - 보고서 읽기 프로그램
 

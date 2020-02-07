@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 hideEdit: true
 description: '비즈니스용 Skype 통화 서비스에 대 한 불만 (영국에서 PSTN 통화), 일정에 대 한 설명, 확인 되지 않은 불만에 대 한 분쟁를 해결 하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: d3f20a2a84a419ff959670bbd6b63742d2ad1ba5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4a035c77756acc811eec184c0749623a2142cf41
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684101"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825576"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365의 통화 요금제-영국에 대 한 불만 처리 코드 (영국)
 
@@ -86,6 +86,6 @@ Ombudsman Services의 웹 사이트 또는 전화, 편지 또는 전자 메일�
     WA4 6WU
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

@@ -10,21 +10,22 @@ layout: LandingPage
 ms.date: 10/31/2018
 audience: admin
 ms.service: msteams
-ms.custom: Adopt
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.adoption
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 f1.keywords:
-- ms.teamsadmincenter.dashboard.helparticle.adoption
+- CSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d534bfd865de1f12fb902b4a7ce1a2a0f5edef6a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c0adc30b5bfbdefc5936d94ec476943616fb2449
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695703"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827166"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft 팀 채택
 
@@ -158,7 +159,7 @@ ms.locfileid: "41695703"
                     </div>
                     <div class="cardText">
                         <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">시작</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">시작</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">시작하기</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">팀과 채널 이해</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">첫 번째 팀 만들기</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">문화 및 조직의 준비 상태 평가</a></p>

@@ -13,15 +13,18 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 조직에 보유 된 팀의 live 이벤트에 대 한 설정을 관리 하는 방법에 대해 알아봅니다.
-f1.keywords: ms.teamsadmincenter.liveevents.settings
+f1.keywords:
+- CSH
+ms.custom:
+- ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f12432bb7932d7ab974f229344b5b5be51a1cb74
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1cdfd1bc832827dbcf48e82a49ed4d02c38116bb
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708354"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827146"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 설정 구성
 
@@ -80,7 +83,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 > [!NOTE]
 > 외부 앱 또는 장치를 사용 하 여 라이브 이벤트를 만들려는 경우 Microsoft Stream을 사용 하 여 [eCDN 공급자도 구성](https://docs.microsoft.com/stream/network-caching)해야 합니다. 
 
-### <a name="related-topics"></a>관련 주제
+### <a name="related-topics"></a>관련 항목
 - [Teams 라이브 이벤트란?](what-are-teams-live-events.md)
 - [Teams 라이브 이벤트 계획](plan-for-teams-live-events.md)
 - [Teams 라이브 이벤트 설정](set-up-for-teams-live-events.md)

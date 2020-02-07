@@ -10,20 +10,22 @@ search.appverid: MET150
 ms.reviewer: rowille
 audience: admin
 description: 팀 서비스 개선을 위해 비즈니스 기회를 정기적으로 평가 하 고, 팀의 로드맵을 모니터링 하 여 흥미로운 기능을 향상 시킬 수 있습니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5face19093459f1a4fbc4aeb978476f9a045231
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 339353c1f4d7dc15b3cec69e275d0dd6111896eb
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517063"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825096"
 ---
-# <a name="enhance-my-service"></a>내 서비스 향상
+# <a name="enhance-my-service"></a>내 서비스 개선
 
 이 문서에서는 조직에 대 한 클라우드 음성 서비스를 최대한 활용 하는 데 필요한 요구 사항에 대해 간략하게 설명 합니다. 클라우드 음성 서비스 기능을 지속적으로 모니터링 하 여 조직에 가장 적합 한 값을 제공 하 고 있는지 확인할 수 있습니다.
 
@@ -38,7 +40,7 @@ ms.locfileid: "37517063"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>조직에서 혜택을 받을 수 있는 새 기능 또는 서비스에 대 한 공개 로드맵 및 기타 서비스 알림을 모니터링할 사용자를 결정 합니다.</li><li>새로운 기능 또는 서비스를 주요 관련자에 게 다시 보고 하는 방법을 결정 합니다 (조종 위원회를 통해).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>조직에서 혜택을 받을 수 있는 새 기능 또는 서비스에 대 한 공개 로드맵 및 기타 서비스 알림을 모니터링할 사용자를 결정 합니다.</li><li>새로운 기능 또는 서비스를 주요 관련자에 게 다시 보고 하는 방법을 결정 합니다 (조종 위원회를 통해).</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>서비스를 사용 하 여 최신 상태를 유지 하기 위한 전략을 구현 하 여 조직에 가장 적합 한 값을 확보 합니다.</li><li>전체 프로젝트 수명 주기를 통해 서비스 향상을 구현 하 여 배포에 미치는 영향에 대해 적절 하 게 고려 했는지 확인 합니다.</li></ul></td></tr>
 </table>
 

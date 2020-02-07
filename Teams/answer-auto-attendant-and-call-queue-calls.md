@@ -1,5 +1,5 @@
 ---
-title: 팀에서 직접 자동 전화 교환 및 통화 대기열 통화에 응답
+title: 자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
 ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
@@ -9,6 +9,8 @@ ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
 description: 클라우드 자동 전화 교환 및 통화 대기열에 대해 설명 하 고 팀에서 이러한 통화에 응답 하는 방법에 대해 설명 합니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a508aeb6c5e1359c9b3432834f2f0f3d141aea2d
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8e864e32409730373d98263215b0bcc35d9b404d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516798"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825316"
 ---
-<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>팀에서 직접 자동 전화 교환 및 통화 대기열 통화에 응답
+<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
 ===========================================================
 
 팀 사용자는 자신의 팀 클라이언트에서 직접 클라우드 자동 전화 교환 및 통화 대기열에서 전화를 걸고 받을 수 있습니다. 팀 사용자의 경우, 이제 자동 전화 교환 기능을 사용할 수 있으며, 통화 대기열 기능이 미리 보기에 있습니다. 
@@ -63,7 +65,7 @@ Microsoft 팀에서 자동 전화 교환 및 통화 대기열 통화를 받으�
 ## <a name="related-topics"></a>관련 항목
 
 -   [Office 365의 전화 시스템 소개](what-is-phone-system-in-office-365.md)
--   [클라우드 통화 대기열 만들기](create-a-phone-system-call-queue.md)
--   [클라우드 자동 전화 교환 이란?](what-are-phone-system-auto-attendants.md)
+-   [클라우드 통화 큐 만들기](create-a-phone-system-call-queue.md)
+-   [클라우드 자동 전화 교환이란?](what-are-phone-system-auto-attendants.md)
 -   [클라우드 자동 전화 교환 설정](create-a-phone-system-auto-attendant.md)
 

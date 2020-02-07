@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 팀 환자 앱 EHR 통합
-ms.openlocfilehash: 179cd031b6e32ee3ed32a6d3be1fa4afaae68cc2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d7acea1002d80a397469d242cfbbb1adfba07a24
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570372"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827806"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 인터페이스 사양
 
@@ -80,11 +82,11 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱은 다음
     응답: {"resourceType": "환자", "id": "<환자 id>",.
       .
       .
-      "name": [{"사용": "공식", "전위": ["Mr"], "family": ["Chau"], "지정": ["Hugh"]}], "식별자": [{"사용": "공식", "유형": {"코딩": [{"시스템": "http://hl7.org/fhir/v2/0203", "코드": "Mr": "1234567"}], "성별": "남성", "": "1957-06-05 "," careProvider ": [{" 표시 ":" Jane Doe "}],}
+      "name": [{"사용": "공식", "전위": ["Mr"], "family": ["Chau"], "지정": ["Hugh"]}], "식별자": [{"사용": "공식", "유형": {"코딩": [{"시스템": "http://hl7.org/fhir/v2/0203", "코드": "Mr"}]}, "값": "1234567": "성별": "남성", "careProvider": [{"표시": "홍 길동"}],} 1957-06-05
 
 * * *
 
-리소스 검색에서는/Patient/_search의 POST 메서드 및 다음 매개 변수를 사용 합니다.
+리소스 검색에서는/Patient/_search 및 다음 매개 변수에 POST 메서드를 사용 합니다.
 
 1. i
 2. 패밀리: contains = (가족 이름에 값이 포함 되어 있는 모든 환자를 검색 합니다.)
@@ -105,7 +107,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱은 다음
 
 * * *
 
-    요청: POST <fhugh r-서버>/Patient/_search 요청 본문: 지정 =&family = chau
+    요청: POST <fa r-서버>/Patient/_search 요청 본문: 지정 = hugh&family = chau
     
     응답: {"resourceType": "번들", "id": "<번들 id>",.
       .
@@ -142,7 +144,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱은 다음
 
     요청: <fa r-서버>/관찰? 환자 =<환자 id>&_sort:d esc = 날짜&category = 필수-기호
     
-    응답: {"resourceType": "번들", "id": "<번들 id>", "": "searchset", "total": 20, "entry": [{"리소스": {"resourceType": "관찰", "id": "<resource-id>", "category": {"코딩": [{code]: "필수-기호"}],}, "코드": {"코딩 ": [{" 시스템 ":"http://loinc.org"," 코드 ":" 39156-5 "," display ":" bmi "}],}," effectiveDateTime ":" 2009-12-01 "," 값 ": 34.4," 단위 ":" kg/m2 "," 시스템 ":"http://unitsofmeasure.org"," code "(" ")", "", "system" ("kg/m2"}},})
+    응답: {"resourceType": "번들", "id": "<번들 id>", "": "searchset", "total": 20, "entry": [{"리소스": {"resourceType": "관찰", "id": "<resource-id>", "category": {"코딩": [{code]: "필수-기호"}],}, "코드": {"코딩": [{"시스템": "http://loinc.org", "코드": "39156-5", "display": "bmi"}],}, "effectiveDateTime": "2009-12-01", "": {"값": 34.4, "단위": "kg/m2", "시스템": "http://unitsofmeasure.org", "코드": "kg/m2"}},},.
         .
         .
       ] }
@@ -165,7 +167,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
 
 1. 환자 =\<환자 id>
-2. 개수 =\<최대 결과>
+2. _count =\<최대 결과>
 
 이 통화의 다음 예제를 참조 하세요.
 
@@ -173,7 +175,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 
     요청: <fa r-server>/Condition? 환자 =<환자-id>&_count = 10
     
-    응답: {"resourceType": "번들", "id": "<번들-id>", "유형": "searchset", "total": a "" resourceType ":" Condition ": [{" 리소스 ":" "id": "<리소스 id>", "코드": {"코딩": [{               "시스템": "http://snomed.info/sct", "코드": "386033004", "display": "Neuropathy (nerve)"}]}, "dateRecorded": "2018-09-17": "심각도": {"코딩": [{"syst em ":"http://snomed.info/sct"," 코드 ":" 24484000 "," display ":" 심각 "}]}},}]}
+    응답: {"resourceType": "번들", "id": "<번들 id>" "," 유형 ":" searchset "," total ":" entry ": [{" 리소스 ": {" resourceType ":" Condition "," id ":" <리소스 id> "," 코드 ": {" 코딩 ": [{" 시스템 ":" "http://snomed.info/sct," 코드 ":" 386033004 "," display ":" Neuropathy (nerve) "dateRecorded": "심각도": {"코딩": [{"syst 2018-09-17 em ":"http://snomed.info/sct"," 코드 ":" 24484000 "," display ":" 심각 "}]}},}]}
 
 * * *
 
@@ -194,15 +196,15 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
 
 1. 환자 =\<환자 id>
-2. _ 정렬: desc =\<필드 ex 날짜>
-3. 개수 =\<최대 결과>
+2. _sort: desc =\<field ex 날짜>
+3. _count =\<최대 결과>
 
 목표는 환자 마지막으로 알려진 위치를 검색할 수 있다는 것입니다. 각 발생은 위치 리소스를 참조 합니다. 또한 참조에는 위치의 표시 필드도 포함 됩니다. 이 통화의 다음 예제를 참조 하세요.
 * * *
 
     요청: <fa r-서버>/발생? 환자 =<환자-id>&_sort:d esc = date&_count = 1
     
-    응답: {"resourceType": "번들", "유형": "searchset", "total": 1 "항목": [{"resource": {"resourceType": "발생", "id": "<리소스-id>", "식별자": [{"사용": ":"<id>"}]," status " : "도착", "유형": [{"코딩": [{"표시": "약속"}],}], "환자": {"참조": "환자/<환자-id>"}, "period": {"시작": "09/17/2018 1:00:00 PM"}, "위치": [{              "위치": {"표시": "클리닉"},}]}}]}
+    응답: {"resourceType": "번들", "유형": "searchset", "total": 1, "항목": [{"리소스": "" resourceType ":" 발생 "," id ":" <리소스-id> "," 식별자 ": [{" 사용 ":" 공식 "," 값 ":"<id>"}]," 상태 ":" 도착 "," 유형 ": [{" 코딩 ": [{" 표시 ": [{" ""),}], "환자": {"" ":" 환자/<환자 ":" "시작": "09/17/2018 1:00:00 PM": "location": [{>              "위치": {"표시": "클리닉"},}]}}]}
 
 * * *
 
@@ -234,7 +236,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱은 다음
 
     요청: <fa r-server>/AllergyIntolerance? 환자 =<환자 id>
     
-    응답: {"resourceType": "번들", "id": "<번들-id>", "유형": "searchset", "total": "#" resourceType ":" AllergyIntolerance "," id ":" <리소스 id> "," recordedDate ":" 2018-09-17T07:00:00.00 0Z "," 물질 ": {" text ":" Cas히 w 너트 "}," 상태 ":" 확인 "," 반응 ": [{" 물질 ":" "텍스트": "casallergenic"}, "manifestati on ": [{" text ":" Anaphylactic 반응은 "}]}}
+    응답: {"resourceType": "번들", "id": "<번들 id>" "," 유형 ":" searchset "," total ":" entry ":" resourceType ":" AllergyIntolerance "," id ":" <리소스 id> "," recordedDate ": 2018 년 9 월-17T07:00:00.000 Z", "물질": {"text": "Cas 너트"}, "상태": "확인 됨", "반응": [{"물질": "cas") "manifestati on ": [{" text ":" Anaphylactic 반응은 "}]}}
 
 * * *
 
@@ -258,7 +260,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
 
 1. 환자 =\<환자 id>
-2. 개수 =\<최대 결과>
+2. _count =\<최대 결과>
 
 이 통화의 다음 예제를 참조 하세요.
 
@@ -266,7 +268,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 
     요청: <fa r-서버>/MedicationOrder? 환자 =<환자 id>&_count = 10
     
-    응답: {"resourceType": "번들", "id": "<번들-id>", "유형": "searchset", "total": "#" resourceType ":" MedicationOrder "," id ":" dateWritten> ", <" 날짜 ":" 2018-09-17 "," cationCodeableConcept ": {" text ":" Lisinopril 20 MG Oral 태블릿 "}," prescriber ": {" display ":" 길동 Doe "}," dosageInstruction ": [{" text ":" 1 일 ")}
+    응답: {"resourceType": "번들", "id": "<번들 id>", "유형": "searchset", "total": "entry": [{"리소스": {"resourceType": "MedicationOrder", "id": "<리소스 id>" 날짜 기록 ":" 2018-09-17 "," medicationCodeableConcept ": {" text ":" Lisinopril 20 MG Oral 태블릿 "}," prescriber ": {" display ":" "dosageInstruction": [{"text"}
 
 * * *  
 
@@ -288,7 +290,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 
     요청: <fa r-server>/Coverage? 환자 =<환자 id>
     
-    응답: {"resourceType": "번들", "유형": "searchset", "total": 1, "항목": [{"리소스": {"resourceType": "커버리지", "id": "<자원 id>", "계획": "주요 보험 없음", "구독자": {"참조": "환자 <환자-id> "}}}]}
+    응답: {"resourceType": "번들", "유형": "searchset", "total": 1, "entry": {"리소스": "resourceType": "커버리지" "," id ":" <자원 id> "," 요금제 ":" 기본 보험 없음 "," 구독자 ": {" 참조 ":" 환자/<환자>
 
 * * *
 

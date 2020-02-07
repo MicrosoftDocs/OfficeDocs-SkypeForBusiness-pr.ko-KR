@@ -10,6 +10,8 @@ layout: LandingPage
 ms.date: 11/20/2018
 audience: admin
 ms.service: msteams
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
@@ -17,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 211ea38343c2bb62a8dec479c62a2c8c4d1ace9d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a4de926de9fe56bb4ca5c5068a3b5dcb335e09f2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236657"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827136"
 ---
 # <a name="tools-for-driving-adoption"></a>추진 도구 
 

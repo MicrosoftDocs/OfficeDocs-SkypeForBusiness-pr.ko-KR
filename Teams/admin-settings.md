@@ -11,21 +11,21 @@ ms.reviewer: ritikag, rarang
 description: Microsoft 팀에서 조직의 앱을 관리 하는 데 사용할 수 있는 정책 및 설정에 대해 알아봅니다.
 localization_priority: Normal
 ms.custom:
-- NewAdminCenter_Update
-f1.keywords:
 - ms.teamsadmincenter.apppermspolicies.adminsettings
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.thirdpartyapps
 - ms.teamsadmincenter.apppolicies.adminsettings
+f1.keywords:
+- CSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b857d0b1c0ded68bc74831d1596c78ff1d8e5907
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d85aa5435d05d5f296b06e56841a2e10c7ddd413
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695493"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826876"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft 팀의 앱에 대 한 관리자 설정
 ==========================================

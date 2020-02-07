@@ -12,14 +12,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-voice
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19e97053120f5f28dcd634fd2047fed0abd2dd57
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8899316d24616bf61918b93c9edd7118b89f5347
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573393"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832677"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Microsoft 팀에서 QoS를 구현 하 고 통화 품질을 모니터링
 
@@ -27,7 +29,7 @@ ms.locfileid: "37573393"
 
 사용자가 전화를 걸고 모임에 참가 하기 위해 팀을 사용 하기 시작 하면 통화 또는 모임에서 발신자의 음성이 발생 하거나 chopping 수 있습니다. 공유 비디오가 중지 또는 pixelate 수도 있고 모두 실패할 수 있습니다. 이는 네트워크 혼잡이 발생 하 고 순서에 도달 하지 않은 음성 및 비디오 트래픽을 나타내는 IP 패킷으로 인해 발생 합니다. 이러한 문제를 처리 하 고 반환 하는 것을 방지 하는 방법 (주로 QoS (서비스 품질)을 확인할 수 있는 방법이 있습니다.
 
-**QoS (서비스 품질)** 는 네트워크 지연과 같은 중요 한 네트워크 트래픽 (예: 새 앱 다운로드 (예: 다운로드에 추가 초)을 사용 하는 것이 좋습니다. "음성 또는 비디오 스트림")을 "회선에서 잘라내기" 하는 것을 허용 하는 방법입니다. 큰 노력이 아닙니다. QoS는 Windows 그룹 정책 개체와 포트 기반 액세스 제어 목록 이라는 라우팅 기능을 사용 하 여 실시간 스트림의 모든 패킷을 식별 하 고 표시 하며, 이렇게 하면 네트워크에서 음성, 비디오 및 화면 공유를 통해 자신의 전용 부분을 쉽게 전달할 수 있습니다. 네트워크 대역폭.
+**QoS (서비스 품질)** 는 네트워크 지연과 같은 중요 한 네트워크 트래픽 (예: 새 앱을 다운로드 하 여 다운로드 하는 것이 중요 하지 않은 경우) 앞에 "줄의 잘라내기"를 허용 하는 방법입니다. QoS는 Windows 그룹 정책 개체와 포트 기반 액세스 제어 목록 이라는 라우팅 기능을 사용 하 여 실시간 스트림의 모든 패킷을 식별 하 고 표시 하며, 이렇게 하면 네트워크에서 음성, 비디오 및 화면 공유를 통해 자신의 전용 부분을 쉽게 전달할 수 있습니다. 네트워크 대역폭.
 
  전자 메일을 통해 편지를 보내는 것과 같은 기능을 제공 하는 것이 좋습니다. 책 요금을 전송 하는 경우에는 시간이 매우 오래 걸릴 수 있으며, 첫 번째 수업을 보내는 것이 훨씬 더 빠르기 때문에 우선 순위 메일을 보내는 경우에도 마찬가지입니다. 2 일 이내에 있습니다. 많은 양의 네트워크는 메일 보다 빠르게 실행 되지만, 일부 응용 프로그램에 대해 속도가 중요 하 고 다른 사용자에 게는 중요 하지 않은 경우에도 계속 실행 됩니다. 이 주제는 본질적으로 기본적으로 자세 하 고 이해 하기 힘든 반면, 시간과 에너지 선행에 투자 하는 것이 가능 하도록 사용자 환경에 큰 차이를 줍니다. 자세한 내용은 [Microsoft 팀에서 서비스 품질 구현 (QoS)](QoS-in-Teams.md) 을 참조 하세요.
 
@@ -47,10 +49,10 @@ ms.locfileid: "37573393"
 
 [통화 분석 설정](set-up-call-analytics.md)
 
-[통화 분석을 사용 하 여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [통화 품질 대시보드 켜기 및 사용](turning-on-and-using-call-quality-dashboard.md)
 
-[통화 품질 대시보드에서 사용할 수 있는 크기 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)
+[통화 품질 대시보드의 분류 간소화](stream-classification-in-call-quality-dashboard.md)

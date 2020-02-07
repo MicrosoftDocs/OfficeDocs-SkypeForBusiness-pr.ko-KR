@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 조직의 Firstline Worker 용 팀에서 교대 근무 앱을 설정 하 고 관리 하는 방법에 대해 알아봅니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4ed7f4bc282686c31f2f9c2239fbe6326e5151f
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7514ef06248eb4685558c3a327a8de1cea12bb62
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992545"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831170"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 교대 근무 앱 관리
 
@@ -77,11 +79,11 @@ Firstlineworker 정책을 보려면 Microsoft 팀 관리 센터의 왼쪽 탐색
 2. **할당 된 정책**옆에 있는 **편집**을 선택 합니다.
 3. **팀 앱 설정 정책**에서 **firstlineworker**를 선택 하 고 **저장**을 선택 합니다.
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-users-in-a-group"></a>그룹의 사용자에 게 FirstlineWorker 앱 설정 정책 할당
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>그룹의 사용자 구성원에 FirstlineWorker 앱 설정 정책 할당
 
-Graph 모듈의 Azure Active Directory PowerShell 및 비즈니스용 Skype PowerShell 모듈에 연결 하 여 그룹의 사용자에 게 (보안 그룹과 같은) FirstlineWorker 앱 설정 정책을 할당할 수 있습니다. PowerShell을 사용 하 여 팀을 관리 하는 방법에 대 한 자세한 내용은 [팀 Powershell 개요](../../teams-powershell-overview.md)를 참조 하세요.
+그래프 모듈의 Azure Active Directory PowerShell 및 비즈니스용 Skype PowerShell 모듈에 연결 하 여 보안 그룹과 같은 그룹의 사용자 구성원에 게 FirstlineWorker 앱 설정 정책을 할당할 수 있습니다. PowerShell을 사용 하 여 팀을 관리 하는 방법에 대 한 자세한 내용은 [팀 Powershell 개요](../../teams-powershell-overview.md)를 참조 하세요.
 
-이 예제에서는 모든 사용자에 게 FirstlineWorker 앱 설정 정책을 Contoso Firstline 팀 그룹에 할당 합니다.
+이 예제에서는 FirstlineWorker 앱 설정 정책을 Contoso Firstline 팀 그룹의 모든 사용자 구성원에 게 할당 합니다.
 
 > [!NOTE]
 > 먼저 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)의 단계를 따라 Graph 모듈 및 비즈니스용 Skype powershell 모듈에 대 한 Azure Active Directory powershell에 연결 해야 합니다.
@@ -94,9 +96,9 @@ $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-그룹의 모든 사용자를 FirstlineWorker 앱 설정 정책에 할당 합니다.
+FirstlineWorker 앱 설치 정책을 그룹의 모든 사용자 구성원에 게 할당 합니다.
 ```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
+$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
 

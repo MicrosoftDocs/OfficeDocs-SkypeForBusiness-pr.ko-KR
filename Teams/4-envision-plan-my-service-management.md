@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 운영 역할 계획 및 고품질 챔피언 지정을 통해 고품질 배포를 제공 하 고 유지 관리 합니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bab0026b14514114f9c6e975046ee561dade6f40
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: c44d1b35c19abb224f40bf71c81c61b91967c182
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516761"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825156"
 ---
 # <a name="plan-my-service-management"></a>내 서비스 관리 계획
 
@@ -36,7 +38,7 @@ ms.locfileid: "37516761"
 서비스 관리에는 Microsoft 팀의 종단 간 관리에 관련 된 모든 활동과 프로세스가 포함 됩니다. Office 365 서비스 자체에 포함 되는 인프라 구성 요소인 서비스 관리의 일부 구성 요소는 Microsoft의 책임 이지만, 고객은 팀, 네트워크 및 사용자의 다양 한 측면을 관리 하는 데 책임이 있습니다. 끝점을 제공 합니다.
 고객에 게 팀 서비스 관리에 대 한 자세한 설명과 사용자 환경의 품질을 underpin 하는 주요 구성 요소와의 관련성에 대 한 자세한 내용은 [서비스 관리 및 품질 계획](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide)을 참조 하세요.
 
-(media/plan-my-service-management-image1.png "품질의 세 가지 구성 요소 (Office 365 서비스, 네트워크, 끝점)에 대 한 세 가지 품질 다이어그램의 다이어그램으로, 서비스 관리가 세 가지 모두와 겹치는 방법") 에 대해 설명 합니다. ![]
+![품질의 세 가지 구성 요소 다이어그램](media/plan-my-service-management-image1.png "품질의 세 가지 구성 요소 (Office 365 서비스, 네트워크, 끝점)의 다이어그램으로, 서비스 관리가 세 가지 모두와 겹치는 방법에 대해 설명 합니다.")
 
 <!--ENDOFSECTION-->
 
@@ -91,7 +93,7 @@ ms.locfileid: "37516761"
 
 품질 경험 검토 가이드에는 아래 그림에 표시 된 것 처럼 사용자 환경을 개선 하는 데 가장 큰 영향을 주는 주요 영역에서 개선 지침을 평가 하 고 제공 하는 일련의 활동이 있습니다.
 
-![품질 경험 중에 검토할 주요 영역에 대]한 설명(media/plan-my-service-management-image2.png "품질 경험 검토 중에는 오디오, 안정성 및 사용자 설문 조사 결과를 검토 하는 데 중요 한 주요 영역") 에 대해 살펴봅니다.
+![품질 경험 검토 중에 검사할 주요 영역 그림](media/plan-my-service-management-image2.png "품질 경험 검토 중에 오디오, 안정성, 사용자 설문 조사 결과 등을 검사할 주요 영역입니다.")
 
 이 문서에서 설명 하는 영역을 지속적으로 평가 하 고 수정 사용자 환경에 부정적인 영향을 줄 수 있습니다. 배포에서 발생 하는 대부분의 사용자 경험 문제는 다음 범주로 그룹화 할 수 있습니다.
 
@@ -114,7 +116,7 @@ ms.locfileid: "37516761"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>조직에서 클라우드 음성 작업을 담당 하는 사용자를 결정 합니다.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>조직에서 클라우드 음성 작업을 담당 하는 사용자를 결정 합니다.</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>서비스 관리 계획 전체 가이드를 다운로드 합니다.</li><li>품질 경험 검토 가이드를 다운로드 합니다.</li><li>운영 가이드를 전체적으로 검토 합니다.</li><li>모든 운영 팀 구성원에 게 필요한 작업을 검토 하 고 숙지 하는 모든 가이드를 제공 합니다.</li></ol></td></tr>
 </table>
 

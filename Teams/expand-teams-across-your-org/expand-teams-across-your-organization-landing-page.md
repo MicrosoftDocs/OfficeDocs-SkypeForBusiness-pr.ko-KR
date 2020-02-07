@@ -7,18 +7,20 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
+f1.keywords:
+- NOCSH
 ms.service: msteams
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0efee84379feef72831e2a443a75d6df0f5dc87b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fdca563e731c751797f972730270f62ce490eaf0
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570383"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827796"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>조직에서 Microsoft 팀 확장
 
@@ -36,7 +38,7 @@ ms.locfileid: "37570383"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>팀에 대 한 교대</h3>
+                        <h3>Teams의 교대 근무</h3>
                     </div>
                 </div>
             </div>
@@ -54,7 +56,7 @@ ms.locfileid: "37570383"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>의료 팀</h3>
+                        <h3>의료용 Teams</h3>
                     </div>
                 </div>
             </div>
@@ -72,7 +74,7 @@ ms.locfileid: "37570383"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>교육용 팀</h3>
+                        <h3>교육용 Teams</h3>
                     </div>
                 </div>
             </div>
@@ -90,7 +92,7 @@ ms.locfileid: "37570383"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>정품을 위한 팀</h3>
+                        <h3>소매용 Teams</h3>
                     </div>
                 </div>
             </div>
@@ -108,7 +110,7 @@ ms.locfileid: "37570383"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>정부용 팀</h3>
+                        <h3>정부 기관용 Teams</h3>
                     </div>
                 </div>
             </div>

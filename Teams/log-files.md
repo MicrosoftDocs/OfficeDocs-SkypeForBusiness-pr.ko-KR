@@ -8,18 +8,20 @@ ms.date: 09/25/2017
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
 description: Microsoft 팀에서 생성 하는 디버그, 미디어, 데스크톱 로그, 찾을 수 있는 위치, 문제 해결에 도움이 되는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba40d1d3694666f8fd0b4612ffe53c49808f7297
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2c8da7e60e785d765e77e17935b60382e864a83b
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570671"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833378"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft 팀 문제 해결에서 로그 파일 사용
 =================================================
@@ -37,12 +39,12 @@ Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 �
 다음 표에서는 다양 한 클라이언트 및 관련 로그에 대해 간략하게 설명 합니다. 로그 파일은 클라이언트 및 운영 체제와 관련 된 위치에 저장 됩니다.
 
 
-|클라이언트측 |디버깅이|데스크톱이|미디어|
+|클라이언트 |디버깅이|데스크톱이|미디어|
 |---------|---------|---------|---------|
 |웹    |축         |-         |-         |
 |창을     |축         |축         |축         |
 |Mac OSX     |축         |축         |축         |
-|Io     |-         |-         |-         |
+|iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
 지원 되는 운영 체제 및 브라우저의 전체 목록은 [Microsoft 팀 용 클라이언트 가져오기를](get-clients.md)참조 하세요.
@@ -84,7 +86,7 @@ Microsoft 지원으로 지원 요청을 만들 때 지원 엔지니어에 게 �
 미디어 로그에는 오디오, 비디오, 화면 공유에 대 한 진단 데이터가 포함 되어 있습니다. 요청 시에만 지원 서비스 케이스에 필요 하며 Microsoft만 검사할 수 있습니다. 다음 표에서는 로그 위치에 대해 간략하게 설명 합니다.
 
 
-|클라이언트측 |위치 |
+|클라이언트 |위치 |
 |---------|---------|
 |창을     |%appdata%\Microsoft\Teams\media-stack\\* 블로그         |
 |            |%appdata%\Microsoft\Teams\skylib\\* 블로그
@@ -107,7 +109,7 @@ Mac OsX:
 
 1.  **도움말** 풀 다운 메뉴에서 **로그 가져오기를** 선택 합니다.
 
-|클라이언트측 |위치 |
+|클라이언트 |위치 |
 |---------|---------|
 |창을     |%appdata%\Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application 지원/Microsoft/팀/로그. t e         |

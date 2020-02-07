@@ -9,18 +9,20 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 description: 팀에 ditribution 목록을 초대 하 고 메일 사용이 가능한 보안 그룹을 추가 하 여 Office 365 그룹을 Microsoft 팀으로 향상 시키는 방법을 알아봅니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd1769fad917cb942072df4ff58aa1f4fcb91c14
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 99afab167cdc865214f621d9994c3b5d124e98ed
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573043"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832918"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Microsoft 팀과 기존 Office 365 그룹 향상
 =======================================================

@@ -12,17 +12,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: Office 365 ProPlus에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다.
-ms.openlocfilehash: 99fbbe549a41ed139dbf044e93f065bf1412b023
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 06281461de1a36e1eced52e03e4ae5019e742129
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572457"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826496"
 ---
 # <a name="office-365-proplus"></a>Office 365 ProPlus
 

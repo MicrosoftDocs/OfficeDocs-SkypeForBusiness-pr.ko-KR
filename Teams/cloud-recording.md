@@ -11,15 +11,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Microsoft 팀에서 클라우드 음성 기능을 배포 하기 위한 실용적인 지침입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c2a3cac9c61851f9b4c7a6026d94058568b1667
-ms.sourcegitcommit: f1df996a7368fb8f447af877bc2e9f4d4d925f2c
+ms.openlocfilehash: 38981774af168c978371b06d8de6eeedd4b16644
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "41217701"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825606"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 

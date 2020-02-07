@@ -12,17 +12,19 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 search.appverid: MET150
 description: 팀에서 클라우드 음성을 배포 하기 위한 랜딩 페이지
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1c172de4e29b5246e17bd6cd280679b7f3ef8a2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c8498d8d4f6336bf54f6ae7f9c96540783b54dd1
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695483"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825056"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft 팀의 클라우드 음성
 

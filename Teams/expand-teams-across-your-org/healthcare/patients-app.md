@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,14 +17,14 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 팀 환자 앱 EHR 통합
-ms.openlocfilehash: d3869d8646a417ec681a48321610b7cfffd50e5a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d5723f90fe56c2af342f1cfd76e3ab9bde04c60
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569293"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827656"
 ---
-# <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Microsoft 팀에 전자 의료 기록 통합
+# <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Microsoft Teams에 전자 의료 레코드 통합
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -59,15 +61,15 @@ ms.locfileid: "37569293"
 
 ## <a name="functional-and-technical-requirements"></a>기능적 및 기술 요구 사항  
 
-### <a name="authentication"></a>인증서  
+### <a name="authentication"></a>인증  
 
-*사용자 수준 권한 부여를 지원 하지 않는* 앱 수준 권한 부여는 EHR 시스템에서 사용자 수준 인증을 구현할 수 있지만 데이터 변환을 수행 하 고 EHR 데이터에 대 한 연결을 표시 하는 데 더 일반적으로 지원 되는 방식입니다. . Interop 서비스 (파트너)가 EHR 데이터에 대 한 액세스 권한을 강화 하 고 해당 데이터를 적절 한 FROP r 리소스와 동일 하 게 표시 하는 경우 interop 서비스 소비자에 게 전달 된 인증 컨텍스트가 없습니다 (환자 앱). Interop와 통합 서비스 또는 플랫폼. 환자 앱은 사용자 수준 권한 부여를 적용할 수 없지만 환자 앱과 Interop 파트너의 서비스 간에는 응용 프로그램 인증을 지원 합니다.
+*사용자 수준 권한 부여를 지원 하지 않는* 앱 수준 권한 부여는 EHR 시스템에서 사용자 수준 권한 부여를 구현할 수 있지만 데이터 변환을 수행 하 고 EHR 데이터에 대 한 연결을 표시 하는 데 더 일반적으로 지원 되는 방식입니다. Interop 서비스 (파트너)가 EHR 데이터에 대 한 액세스 권한을 강화 하 고 해당 데이터를 적절 한 FROP r 리소스와 동일 하 게 표시 하는 경우 interop 서비스 소비자에 게 전달 된 인증 컨텍스트가 없습니다 (환자 앱). Interop와 통합 서비스 또는 플랫폼. 환자 앱은 사용자 수준 권한 부여를 적용할 수 없지만 환자 앱과 Interop 파트너의 서비스 간에는 응용 프로그램 인증을 지원 합니다.
 
 응용 프로그램 인증 모델에 대 한 자세한 내용은 다음을 참조 하세요.
 
 OAuth 2.0 [클라이언트 자격 증명 흐름](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)을 통해 서비스에 대 한 서비스 인증을 수행 해야 합니다. 파트너 서비스는 다음을 제공 해야 합니다.
 
-1. 파트너 서비스를 사용 하면 환자 앱이 파트너를 사용 하 여 계정을 만들 수 있으며,이를 통해 환자 앱이 파트너의 인증 서버에 있는 Auth registration portal을 통해 관리 되는 client_id 및 client_secret를 생성 하 고 소유할 수 있습니다.
+1. 파트너 서비스를 사용 하면 환자 앱이 파트너와 계정을 만들 수 있으므로 환자 앱에서 파트너의 인증 서버에 있는 Auth registration portal을 통해 관리 되는 client_id 및 client_secret를 생성 하 고 소유할 수 있습니다.
 2. 파트너 서비스는 제공 된 클라이언트 자격 증명을 허용 하 고 확인 (인증) 하는 인증/인증 시스템을 소유 하 고 아래 설명 된 대로 범위에서 테 넌 트 힌트를 사용 하 여 액세스 토큰을 다시 제공 합니다.
 3. 보안상의 이유로 또는 비밀 침해의 경우, 환자 앱이 비밀을 다시 생성 하 고, 이전 비밀을 무효로 만들거나 삭제할 수 있습니다 (예를 들어 Azure Portal에서 사용 가능-AAD 앱 등록).
 4. 준수 문을 호스트 하는 메타 데이터 끝점은 인증 되지 않은 토큰 없이 액세스할 수 있어야 합니다.
@@ -77,7 +79,7 @@ OAuth 2.0 [클라이언트 자격 증명 흐름](https://www.oauth.com/oauth2-se
     {"resourceType": "CapabilityStatement",.
         .
         .
-        "rest": [{"모드": "server", "보안": {"확장명": [{"확장명": [{"url": "token", "valueuri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"}, {"url": "권한", "valueuri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize"} "," url "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris:" "}", "다음과 같이" "" 시스템http://hl7.org/fhir/ValueSet/restful-security-service":" "," 코드 ":" OAuth " } ] } ] }, .
+        "rest": [{"모드": "서버", "보안": {"확장명": [{"확장명": [{"url": "token", "valueuri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"}, {"url": "권한 부여", "valueuri":https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize""}http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"," "서비스": [{"코딩": [{"시스템": "http://hl7.org/fhir/ValueSet/restful-security-service", "코드": "OAuth"}]}]},.
                 .
                 .
             } ] }
@@ -94,7 +96,7 @@ OAuth 2.0 [클라이언트 자격 증명 흐름](https://www.oauth.com/oauth2-se
 
 * * *
 
-파트너 서비스는 파트너 측의 Auth registration 포털을 통해 관리 되는 환자 앱에 대 한 client_id 및 client_secret를 제공 합니다. 파트너 서비스는 끝점을 제공 하 여 클라이언트 자격 증명 흐름을 사용 하 여 액세스 토큰을 요청 합니다. 성공적인 응답에는 token_type, access_token 및 expires_in 매개 변수가 포함 되어야 합니다.
+파트너 서비스는 파트너 측의 Auth registration 포털을 통해 관리 되는 환자 앱에 대 한 client_id 및 client_secret를 제공 합니다. 파트너 서비스는 끝점을 제공 하 여 클라이언트 자격 증명 흐름을 사용 하 여 액세스 토큰을 요청 합니다. 성공적인 응답에는 token_type, access_token expires_in 매개 변수가 포함 되어야 합니다.
 
 ### <a name="routing-mapping-aad-tenant-to-the-provider-endpoint"></a>라우팅: AAD 테 넌 트를 공급자 끝점으로 매핑
 
@@ -164,6 +166,6 @@ HSPC Open 샌드박스 EHR environment를 사용 하 여 열려 있는 FHIR 서�
 
     ![환자 app server 설정 스크린샷](../../media/patients-server.png)
 
-5. 앱을 사용 하 여 FHIR Server/EHR에서 환자를 검색 하 고 목록에 추가 하 고 문제가 해결 되지 않는 경우 [피드백을 제공](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) 해 주세요. 또한 환자 app-> FA r Server flow의 완전히 인증 된 버전을 설정 하려면 요구 사항을 명확히 하기 위해 앞에서 설명한 전자 메일 요청을 통해 의료 제품 엔지니어링에 대 한 Microsoft 팀의 오프 라인 대화 상자에 참여 하 여 다음을 진행 하세요. 이 기능을 사용 하 여 앞에서 설명한 인터페이스 문서에 설명 된 인증 요구 사항에 따라 도움을 받으세요.  
+5. 앱을 사용 하 여 FHIR Server/EHR에서 환자를 검색 하 고 목록에 추가 하 고 문제가 해결 되지 않는 경우 [피드백을 제공](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) 해 주세요. 또한, 환자 app-> f r Server flow의 완전히 인증 된 버전을 설정 하려면 Microsoft 팀에서 의료 제품 엔지니어링을 위해 앞에서 언급 한 전자 메일 요청을 통해 요구 사항을 명확 하 게 설명 하 고이를 사용 하 여 앞에서 설명한 인증 요구 사항에 따라이를 지원 하도록 합니다.  
 
 

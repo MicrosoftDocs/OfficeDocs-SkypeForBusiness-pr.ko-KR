@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: None
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Fournir des expériences accessibles à tous est cœur de la 임무 de Microsoft,  i consiste à permettre à chaque personne et à chaque Microsoft offre d'accessibilité a Skype Entreprise et Microsoft 팀의 특별 한 nombre de a s'inscrivent dans son 계약 요새 en-us의 모든 포함을 취소 합니다.
-ms.openlocfilehash: 2f2218c9439a0fa0e6ea20889ee905d2fbadef77
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9d7e7ff471bdd2c88ff1527f224f43e6f7e30b16
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695883"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825636"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>비즈니스용 Skype Online 및 프랑스의 Microsoft 팀을 위한 접근성 솔루션
 

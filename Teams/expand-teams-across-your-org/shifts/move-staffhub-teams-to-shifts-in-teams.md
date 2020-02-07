@@ -9,6 +9,8 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Microsoft 팀에서 Microsoft StaffHub 팀 및 일정 데이터를 이동 하는 방법에 대해 알아봅니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -16,12 +18,12 @@ ms.collection:
 - SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a14c7cbca85be266347cd6777ea1108cc63d065
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 4060dae11ad90793c6124b1b37971b15437caf39
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992845"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825756"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft 팀에서 Microsoft StaffHub 팀을 교대으로 옮기기
 
@@ -163,10 +165,10 @@ StaffHub 팀 이나 사용자를 팀으로 이동 하기 전에 적어도 일주
 
 온 보 딩 전략의 일부로 팀에 익숙해질 수 있도록 사용자에 게 교육 및 지침을 제공 합니다. 팀 클라이언트, 교육 및 지원을 받을 위치를 알 수 있도록 다음 리소스를 사용자와 공유 합니다.
 
-- [팀 웹 클라이언트](https://teams.microsoft.com)
+- [Teams 웹 클라이언트](https://teams.microsoft.com)
 - [데스크톱 및 모바일 클라이언트 다운로드 링크](https://teams.microsoft.com/downloads)
-- [팀 교육 비디오](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [팀 도움말 문서](https://support.office.com/teams)
+- [Teams 교육 비디오](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+- [Teams 도움말 문서](https://support.office.com/teams)
 
 팀 및 운전 팀 채택을 배포 하는 방법에 대 한 지침은 팀을 롤 포워드 하 고 [팀을 채택](../../adopt-microsoft-teams-landing-page.md)하 [는 방법을](../../How-to-roll-out-teams.md) 참조 하세요.
 
@@ -372,7 +374,7 @@ StaffHub 팀과 연결 된 그룹에 팀 소유자가 없는 경우이 문제가
   ```  
 
 ## <a name="related-topics"></a>관련 항목
-- [Microsoft 팀을 배포 하는 방법](../../How-to-roll-out-teams.md)
+- [Microsoft Teams를 배포하는 방법](../../How-to-roll-out-teams.md)
 - [Microsoft StaffHub 사용 중지 예정](microsoft-staffhub-to-be-retired.md)
 - [Microsoft 팀에서 조직의 교대 근무 앱 관리](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [StaffHub PowerShell 참조](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)

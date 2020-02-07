@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 hideEdit: true
 description: '영국 비즈니스용 Skype에 대 한 통화 요금제 (PSTN 통화 요금제)에 대 한 연습 코드, 도움말을 받을 수 있는 위치, 불만을 제출 하 고 분쟁를 해결 하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: 99ca68670d743279ded96df26adb1f09d66e8b12
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a811b3a49310a81d5cc62502fe210367b5ac6905
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695463"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824946"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365의 통화 요금제-영국 (영국)에 대 한 연습 코드
 
@@ -148,6 +148,6 @@ PhonepayPlus를 사용 하 여 서비스 공급자에 대 한 불만을 파일 �
 국가별 번역 서비스, 개인 번호 및 0870 번호에 대 한 요금은 [웹사이트](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809) 에 제공 되며, 달라질의 시간과 통화를 수행할 요일에 따라 달라질 수 있습니다. 0800 번호로의 통화는 무료입니다.
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

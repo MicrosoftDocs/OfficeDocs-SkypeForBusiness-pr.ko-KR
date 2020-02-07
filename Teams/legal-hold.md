@@ -10,15 +10,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 보안 & 준수 센터를 사용 하 여 법적 고 지에 따라 Microsoft 팀 사용자 또는 팀을 배치 하 고 데이터 요구 사항에 따라 법적 보류가 필요한 경우에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d6d41c9dba2aa5eff5d0f5d488b7403b54add5e
-ms.sourcegitcommit: 05aab1044fe34a65af18ed7368f9622e08f28f1e
+ms.openlocfilehash: 0526ed2d5b0aa48ab7229c8fa40dbb13413c3139
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41779223"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833468"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>법률 보류에 Microsoft 팀 사용자 또는 팀 배치
 ==================================================

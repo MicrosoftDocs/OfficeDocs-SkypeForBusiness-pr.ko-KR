@@ -13,17 +13,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 추가 기능 라이선스, 각 라이선스에 대해 얻을 수 있는 기능, 제품을 위해 구입 하는 방법, 기존 통신 회사를 사용 하는 방법에 대해 알아보세요. Office 365, 커뮤니케이션 크레딧, 통화 플랜에 대 한 가격 및 계획 세부 정보를 얻을 수 있습니다.
-ms.openlocfilehash: 6b3f850980db71e1347802dd0ab59c38c46e4ebc
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: e7a4853bcb5cb1522f185f8f66ccb0931cdc2be2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37571205"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826636"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft 팀 추가 기능 라이선스
 
@@ -66,9 +68,9 @@ Microsoft 팀 라이선스는 최대한 많은 유연성을 제공 하도록 디
 - [Office 365 ProPlus](office-365-premium-pro-plus.md)
 - [Office 365 Enterprise E1 또는 E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
-- [Office 365 Enterprise E5 (오디오 회의 없음)](office-365-enterprise-e5-without-audio-conferencing.md)
+- [Office 365 Enterprise E5(오디오 회의 제외)](office-365-enterprise-e5-without-audio-conferencing.md)
 - [Microsoft Teams 룸](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
-- [.GOV, .EDU, 비 비영리 조직](gov-edu-and-nonprofit-organizations.md)
+- [GOV, EDU 및 비영리 조직](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>가격을 확인 하 고 추가 기능 라이선스를 구입 하는 방법
 <a name="bkmk_how"> </a>
@@ -94,7 +96,7 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
 
 - [팀 설정](../microsoft-teams.md)
     
-- [클라우드 보이스 메일 설정-관리자 도움말](../set-up-phone-system-voicemail.md)
+- [클라우드 음성 메일 설정 - 관리자 도움말](../set-up-phone-system-voicemail.md)
     
 - [Office 365에 대 한 통화 요금제](../calling-plans-for-office-365.md) 및 [통화 계획 설정](../set-up-calling-plans.md)
     

@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 각 국가 또는 지역에 대 한 전화 접속 회의 언어와 지정 된 문화권 ID (en-us, da, de-de, de 등)를 찾습니다.
-ms.openlocfilehash: c9f4abcb7a4149baa1d3de7d51f45cfc75d0be06
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 061458585854cf9a80113dce9877779806c7c418
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684131"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826226"
 ---
 # <a name="audio-conferencing-supported-languages"></a>오디오 회의 지원되는 언어
 
@@ -110,7 +110,7 @@ Office 365에서 오디오 회의를 설정 하 고 구성 하는 경우 발신�
     > [!NOTE]
     > 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 사용 하면 비즈니스용 Skype Online에 연결 하는 원격 Windows PowerShell 세션을 만들 수 있습니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688) 의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365에서 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

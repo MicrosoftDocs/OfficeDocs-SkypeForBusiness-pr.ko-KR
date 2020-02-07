@@ -13,16 +13,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ''
+f1.keywords:
+- CSH
 ms.custom:
 - Calling Plans
 description: 포트 주문 요청을 수동으로 제출 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 6844865159da4df084bb8ecfb5d324b19fbfebb5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: db47bd98b165607be778000538756b8821340488
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708744"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827976"
 ---
 # <a name="manually-submit-a-port-order"></a>포트 주문 수동 제출
 
@@ -58,7 +59,7 @@ Microsoft 365 관리 센터에서 서비스 요청을 만들거나, 완성 된 �
     
 - 각 사용자에 게 부여할 새 전화 번호를 할당 해야 합니다. [사용자의 전화 번호 지정, 변경 또는 제거를](../assign-change-or-remove-a-phone-number-for-a-user.md)참조 하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [포트 순서](port-order-overview.md)
 - [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

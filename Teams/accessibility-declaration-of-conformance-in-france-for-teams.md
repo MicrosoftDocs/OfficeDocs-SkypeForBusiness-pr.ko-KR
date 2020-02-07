@@ -14,17 +14,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: None
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 hideEdit: true
 description: "Microsoft 팀 est l'outil collaboratif d'Office 365? intègre toutes personnes, 추가 \\ t e et outils는 votre équipe + besoin et être이 impliquée. "
-ms.openlocfilehash: e6bb0bd6e8a066d88070136611f523111b837227
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4e93da9de70145f837590d2901cfe77a5998d50c
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684181"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825766"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
 
@@ -205,6 +205,6 @@ Le présent 문서 n'est pas la utilisé me EN 301 549 v 2.1.2 (2018-08) et ne d
 
 Le présent 문서 est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OU TACITE, DANS LE PRÉSENT 문서.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [프랑스의 비즈니스용 Skype Online에 대한 접근성 솔루션](/microsoftteams/accessibility-solutions-in-france)

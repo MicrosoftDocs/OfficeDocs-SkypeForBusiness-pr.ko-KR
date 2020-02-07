@@ -10,8 +10,10 @@ ms.reviewer: dearbeen, bjwhalen
 description: '비즈니스용 Skype 및 Microsoft 팀 공존 옵션 및 모드에 대해 자세히 설명 하 고 여행를 비즈니스용 Skype에서 팀으로 업그레이드 합니다 (예: 시나리오).'
 localization_priority: Normal
 search.appverid: MET150
-ms.custom: Teams-upgrade-guidance
 f1.keywords:
+- CSH
+ms.custom:
+- Teams-upgrade-guidance
 - ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
 - ms.teamsadmincenter.upgradeoverride.learnmore
 ms.collection:
@@ -19,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d9f4583e3ea15a073e0dbbebbebaee9db64678d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 31966dbb98d89cf6a4ef9b4d4dd12710b098c755
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707533"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833728"
 ---
 ![프로젝트 정의 단계를 강조 하 여 여행 다이어그램 업그레이드](media/upgrade-banner-project-definition.png "프로젝트 정의 단계에 대 한 강조를 사용 하 여 업그레이드 여행 단계")
 

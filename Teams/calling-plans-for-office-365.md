@@ -17,19 +17,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - O365E_E5Voiceplandetails
 - O365M_E5Voiceplandetails
 - O365P_E5Voiceplandetails
-ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Skype for business 옵션에 대 한 통화 요금제 (PSTN 통화 요금제)와 조직의 라이선스를 얻는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 3dc132e1ccbb4c9720d6c17ca37aa7e72e42751b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7eb6b049761ed7575512b816ea31c86c35c17baf
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695583"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825256"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365의 통화 플랜
 

@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +16,12 @@ ms.collection:
 description: Microsoft 팀 관리 센터에서 팀 사용자 활동 보고서를 사용 하 여 조직의 사용자가 팀을 사용 하는 방법을 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19c8837ebc6957d9ccd198df9a08eda229e2a262
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d6fb204cbfeece1df063f9b17f2912fad69f910
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571381"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825796"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft 팀 사용자 활동 보고서
 
@@ -36,9 +38,9 @@ ms.locfileid: "37571381"
 
 |호출 |설명  |
 |--------|-------------|
-|**raid-1**   |팀 사용자 활동 보고서는 지난 7 일 또는 28 일 동안의 추세에 대해 볼 수 있습니다. |
+|**1**   |팀 사용자 활동 보고서는 지난 7 일 또는 28 일 동안의 추세에 대해 볼 수 있습니다. |
 |**2**   |각 보고서에는이 보고서가 생성 된 날짜에 대 한 날짜가 있습니다. 일반적으로이 보고서에는 활동 시간부터 24 ~ 48 시간 대기 시간이 반영 됩니다. |
-|**3-4**   |<ul><li>차트의 X 축은 특정 보고서에 대해 선택 된 날짜 범위입니다. </li><li>Y 축은 활동에 참가 한 사용자 수입니다.</li></ul>지정 된 날짜의 활동을 나타내는 점을 마우스로 가리켜 해당 활동의 인스턴스 수를 해당 날짜에 표시 합니다. |
+|**3**   |<ul><li>차트의 X 축은 특정 보고서에 대해 선택 된 날짜 범위입니다. </li><li>Y 축은 활동에 참가 한 사용자 수입니다.</li></ul>지정 된 날짜의 활동을 나타내는 점을 마우스로 가리켜 해당 활동의 인스턴스 수를 해당 날짜에 표시 합니다. |
 |**4(tcp/ipv4)**   |범례에서 항목을 클릭 하 여 차트에 표시 되는 내용을 필터링 할 수 있습니다. 예를 들어 **1:1 통화**, **채널 메시지**또는 **채팅 메시지** 를 클릭 하면 각 항목에 관련 된 정보만 볼 수 있습니다. 선택 영역을 변경 해도 표의 정보는 변경 되지 않습니다. |
 |**5mb**   |테이블을 통해 사용자의 사용을 분류 합니다.   <ul><li>**표시 이름은** 사용자의 표시 이름입니다. 표시 이름을 클릭 하 여 Microsoft 팀 관리 센터의 사용자 설정 페이지로 이동할 수 있습니다.</li><li>**1:1 통화** 는 사용자가 지정 된 기간에 참가 한 1:1 통화 수입니다.</li><li>**채널 메시지** 는 사용자가 지정 된 기간에 팀 채팅에 게시 한 고유 메시지 수입니다.</li> <li>**채팅 메시지** 는 사용자가 지정 된 기간 동안 비공개 채팅에 게시 한 고유 메시지 수입니다.</li>  <li>**마지막 활동** 은 사용자가 팀 활동에 참여 한 마지막 날짜 (UTC)입니다.</li> </ul>사용자 계정이 더 이상 Azure AD에 존재 하지 않는 경우에는 테이블에 사용자 이름이 "--"로 표시 됨을 참고 하세요. <br><br>표에 원하는 정보를 표시 하려면 표에 열을 추가 해야 합니다.
 |**26**   |**열 편집** 을 선택 하 여 테이블에 열을 추가 하거나 제거 합니다. |

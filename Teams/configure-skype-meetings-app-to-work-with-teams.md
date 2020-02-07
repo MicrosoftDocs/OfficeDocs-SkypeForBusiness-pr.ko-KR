@@ -1,5 +1,5 @@
 ---
-title: 팀과 함께 작동 하도록 Skype 모임 앱 구성
+title: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: Lolaj
@@ -9,19 +9,21 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 관리자는 Microsoft 팀 관리 센터를 사용 하 여 팀과 공동 작업 하도록 Skype 모임 앱을 구성할 수 있습니다.
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f478eaaa1248e7738026f32ae0ccfb7ee03480f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a6d2725b3419283d5588882356c7334bb3d33405
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516925"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825526"
 ---
-<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>팀과 함께 작동 하도록 Skype 모임 앱 구성
+<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Teams에서 작업할 수 있도록 Skype 모임 앱 구성
 ===================================================
 
 사용자가 Microsoft 팀으로 업그레이드 한 후 관리자는 Microsoft 팀 관리 센터를 사용 하 여 사용자가 비즈니스용 Skype 모임에 참가 하는 데 사용할 기본 앱을 지정할 수 있습니다.
@@ -44,4 +46,4 @@ Skype for Meeting 앱을 기본 앱으로 지정 하려면 다음을 수행 합�
 ## <a name="more-information"></a>추가 정보
 
 - [Skype 모임 앱 소개 (비즈니스용 Skype Web App)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
-- [Skype Meeting App 최소 네트워크 요구 사항](https://technet.microsoft.com/library/mt845808.aspx)
+- [Skype 모임 앱 최소 네트워크 요구 사항](https://technet.microsoft.com/library/mt845808.aspx)

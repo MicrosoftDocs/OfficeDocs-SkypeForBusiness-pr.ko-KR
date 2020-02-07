@@ -10,20 +10,22 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 목표를 정의 하 고, 승인 된 상황을 이해 하 고, 교육 및 지원을 제공 하 여 사용자 채택을 구동 하는 계획을 만듭니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026edba5c85fa010ee583b501d1ecc1f18308518
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7e4404d27b1e3b7e32d6c4b53558fd17e30ef4ae
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516916"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825086"
 ---
-# <a name="prepare-my-users"></a>사용자 준비
+# <a name="prepare-my-users"></a>내 사용자 준비
 
 이 문서에서는 클라우드 음성 서비스를 사용 하기 위해 사용자를 준비 하는 데 필요한 요구 사항에 대해 간략하게 설명 합니다. 사용자를 적절 하 게 준비 하면 조직에 가장 적합 한 값을 제공 하 게 됩니다.
 
@@ -46,10 +48,10 @@ ms.locfileid: "37516916"
 
 다음 이미지는 비즈니스용 Skype에서 팀으로 업그레이드 하는 고객에 대 한 비전 대 값 문의 예입니다.
 
-비전이 표시 된 두 개의 ![열](media/prepare-my-users-new-image1.png "로 이루어진 테이블 (두 열이 있는 경우) (조직 수준) 왼쪽에 있고 값은 무엇 인가요? (사용자 수준) 오른쪽에") 있습니다.
+![비전과 값을 표시 하는 두 개의 열로 이루어진 테이블](media/prepare-my-users-new-image1.png "두 개의 열로 이루어진 표 (비전을 사용 하는 경우) (조직 수준) 왼쪽에 있고 값은 무엇 인가요? (사용자 수준) 오른쪽에 있습니다.")
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>이 새로운 솔루션에 대 한 구매를 획득 하는 방식으로 사용자에 게 이점과 가치를 어떻게 사용 하 고 있나요?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>이 새로운 솔루션에 대 한 구매를 획득 하는 방식으로 사용자에 게 이점과 가치를 어떻게 사용 하 고 있나요?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>현재 프로젝트 범위에 대 한 비전과 값 문을 만들어 목표에 맞게 조정 합니다.</li></ul></td></tr>
 </table>
 
@@ -60,7 +62,7 @@ ms.locfileid: "37516916"
 조직의 준비는 사용자가 작업 방식을 변경 하는 방법을 receptive 수 있는 방법을 결정 하는 데 도움이 됩니다. 사용자가 변경에 반응 하는 데 도움이 되는 경우 조직에서 문제를 사전에 해결 하 고 최적의 수신을 위해 롤아웃 계획을 조정 하 고 챔피언 또는 대사 될 수 있는 사용자를 확인 하 여 변경 내용을 간소화 하는 방법에 대해 알아보세요.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>사용자가 새 솔루션으로 변경 하 고 작업을 수행할 수 있나요?</li><li>사용자가 변경 내용을 쉽게 활용할 수 있는지 여부</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>사용자가 새 솔루션으로 변경 하 고 작업을 수행할 수 있나요?</li><li>사용자가 변경 내용을 쉽게 활용할 수 있는지 여부</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>다음 대화를 사용 하 여 조직의 문화를 변경 해야 하는 경우를 이해할 수 있습니다. 이 정보는 프로젝트에 대해 구현 해야 할 수 있는 인식과 교육의 양을 알리는 데 도움이 될 수 있습니다.
 </li></ul></td></tr>
 </table>
@@ -99,7 +101,7 @@ ms.locfileid: "37516916"
 사람 수준 분석을 통해 사용자의 가상 사용자, cohorts, 사용 사례를 이해할 수 있습니다. 사용자가 누구 인지, 그리고 그 작동 방식을 이해 하는 데 시간을 두 며, 변경 사항을 구현할 때 성공 해야 하는 것을 확인할 수 있습니다. 여기에는 대상 지정 메시징, 교육 또는 헤드셋과 웹캠 등의 장치 까지도 포함 될 수 있습니다. 예를 들어 경영진은 일대일 교육을 기대할 수 있는 반면, 출장 필드의 대표는 leisure에서 시청할 수 있는 교육 비디오를 통해 이익을 얻을 수 있습니다. 또한, 사용자 수준 분석을 통해 최신 기능을 사용 해야 하는 사용자를 식별 하는 데 도움이 되는 경우를 비롯 하 여 가장 잘 서비스를 제공할 수 있습니다.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>특정 사용자 또는 cohorts이 솔루션에 대 한 핵심 종속성을가지고 있어 작업을 효과적으로 수행할 수 있나요?</li><li>이 새로운 솔루션을 사용 하 여 쉽게 수행할 수 있는 특정 사용 사례가 있나요?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>특정 사용자 또는 cohorts이 솔루션에 대 한 핵심 종속성을가지고 있어 작업을 효과적으로 수행할 수 있나요?</li><li>이 새로운 솔루션을 사용 하 여 쉽게 수행할 수 있는 특정 사용 사례가 있나요?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>가상 사용자를 매핑합니다. 먼저, 사용자 기준을 가상/cohort 그룹 (임원,도로 전사, 공동 작업 작업자, 소매 등)으로 분할 합니다. 관리 효율성을 위해 8 개 이하의 그룹만 나열 합니다. (샘플 대화 초보자를 위한 자세한 내용은 아래를 참조 하세요.) 결과를 사용 하 여 사용자 준비 캠페인을 더욱 디자인 하 고, 이후 업그레이드를 통해 혜택을 받을 수 있는 사람에 게 파일럿 사용자를 세그먼트화 하세요.
 </li><li>사용 사례를 매핑합니다. 이 새로운 기술을 활용할 수 있는 핵심 사용자 그룹을 식별 한 후에는 일반 사용자를 고려해 야 합니다. 팀 간 사용 사례 및 시나리오를 이해 하면이 새로운 기술로 작업 하는 조직을 시각화할 수 있습니다. 또한 통신 및 교육 계획에 사용 사례 예제를 추가 하 여 사용자에 게 적절 하 게 연결할 수 있습니다.</li></ul></td></tr>
 </table>
@@ -126,7 +128,7 @@ ms.locfileid: "37516916"
 
 다음 이미지는 가상 사용자 테이블의 예입니다.
 
-![]가상 사용자에(media/prepare-my-users-image2.png "게 공통 역할, 통신 및 공동 작업 솔루션 종속성을 나열 하는 가상 사용자 정보 테이블을 나열 하는 값 테이블. 임원 가상 사용자에 게 프로필에 대 한 세부 정보 (수명의 일)와 경영진에 게 필요한 기능, 장치, 교육 등이 강조 표시 됩니다.")
+![가상 사용자 세부 정보를 나열 하는 값 테이블](media/prepare-my-users-image2.png "공용 역할, 통신 및 공동 작업 솔루션 종속성이 있는 가상 사용자를 나열 하는 표 임원 가상 사용자에 게 프로필에 대 한 세부 정보 (수명의 일)와 경영진에 게 필요한 기능, 장치, 교육 등이 강조 표시 됩니다.")
 
 각 사용 사례에 대해 프로젝트 팀과 함께 다음을 논의 하세요.
 
@@ -146,13 +148,13 @@ ms.locfileid: "37516916"
 사용자가 누구 인지, 그리고 새 솔루션 내에서 작동 하는 방식에 대해 이해 한 후에는 준비 계획을 디자인할 수 있습니다. 사용자 준비 계획에는 새 솔루션을 테스트 하 고, 통합 하 고, 운영할 때 사용자의 의사 소통, 교육, 지원 방법이 통합 됩니다. 이 문서의 이전 단계에서 확인 한 대로 준비는 한 가지 크기에 부합 하지 않습니다. 이 프로세스의 시작 부분에 정의한 값 메시지를 통합 하 여 광범위 한 인식과 교육 계획으로 시작 합니다. 그런 다음 사용자가 정의한 가상 사용자 또는 cohorts에 게 메시징, 교육 및 지원을 적절히 조정 합니다. 개인 계획을 사용 하면 사용자가 자신의 요구 사항을 이해 하는 동시에 새 솔루션과 더욱 빠르게 연결 될 수 있으며,이를 통해 전환을 쉽게 할 수 있습니다.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>새 솔루션의 채택을 개선 하 고 가속화 하기 위해 제공할 수 있는 준비 계획은 무엇 인가요?</li><li>사용자가 변경 하 고 정의한 사용자를 처리 하는 것과 일치 하는 적절 한 인식, 교육 및 지원 리소스를 보유 하 고 계십니까?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>새 솔루션의 채택을 개선 하 고 가속화 하기 위해 제공할 수 있는 준비 계획은 무엇 인가요?</li><li>사용자가 변경 하 고 정의한 사용자를 처리 하는 것과 일치 하는 적절 한 인식, 교육 및 지원 리소스를 보유 하 고 계십니까?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>다음 섹션의 목록을 사용 하 여 준비 계획에 대 한 아이디어를 생성 합니다. 가장 관련성이 높은 항목을&mdash;선택 하거나 직접&mdash;추가 하 여 조직에 맞게 최적화 된 준비 계획을 디자인 합니다.</li></ul></td></tr>
 </table>
 
 ### <a name="readiness-plan-ideas"></a>준비 계획 아이디어
 
 <table>
-<tr><th>통신과</th><th>관한</th><th>기술</th></tr>
+<tr><th>통신과</th><th>교육</th><th>기술</th></tr>
 <tr><td><ul><li>전자&mdash;메일 <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">음성 메일 서식 파일</a> 개인 설정</li><li>포스터 및 디지털 signage </li><li>시작 이벤트</li><li>부서 관리자</li><li>챔피언</li><li>팀 및 채널</li><li>Gamification</li></ul></td><td><ul><li>Microsoft의 문서 및 비디오:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">비즈니스용 Skype에서 팀으로 전환</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">팀 영상 교육</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">모임 및 통화</a></li></li></ul><li>사내 지원 (도움말)</li><li>사내 교육 팀</li><li>파트너 교육 팀</li></ul></td><td><ul><li>사내 헬프 데스크</li><li>아웃소싱 지원 데스크</li><li>자체 도움말 (인트라넷 사이트)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">온라인 도움말 및 사용 방법</a></li><li>바닥-walkers 및 챔피언</li><li>피드백 루프&mdash; <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">샘플 사용자 의견 설문 조사</a> 참조</li></td></tr>
 </table>

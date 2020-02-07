@@ -11,19 +11,21 @@ description: 비즈니스용 Skype를 계속 사용 하면서 팀이 조직에 �
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa6f433c3888a9d3b3e20b098562592ea90b5e6f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ec60beb606224a5b202a03187027b8e3e002dfd1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237857"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833898"
 ---
-![여행 다이어그램 업그레이드, 배포 및 구현 강조 표시] (media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
+![여행 다이어그램 업그레이드, 배포 및 구현 강조 표시](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행에 대 한 배포 및 구현 단계의 일부 이며 효과적인 파일럿 실행에 대 한 지분 정보를 포함 합니다. 계속 하기 전에 다음 활동을 완료 했는지 확인 합니다.
 
@@ -43,7 +45,7 @@ ms.locfileid: "36237857"
 | | |
 |---|---|
 | ![결정 지점을 가리키는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>파일럿을 사용 하 여 프로젝트 방향을 알리려면 어떻게 하나요?</li></ul> |
-| ![다음 단계를 안내 하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 지침을 사용 하 여 공식적인 파일럿을 디자인 하 고 실행 합니다.</li></ul>|
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 지침을 사용 하 여 공식적인 파일럿을 디자인 하 고 실행 합니다.</li></ul>|
 
 > [!Tip]
 > 예제 [파일럿 리소스](https://aka.ms/UpgradeSuccessKit) 를 사용 하 여 커뮤니케이션, 테스트 계획, 피드백 설문 조사를 디자인 하세요.

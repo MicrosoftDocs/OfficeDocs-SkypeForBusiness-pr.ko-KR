@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 팀 클라이언트 앱을 선택 하 고, 끝점 품질을 계획 하 고, Wi-fi 끝점을 배포 하기 위한 권장 사항을 얻고, 오디오 장치를 선택 합니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f12b80fa1914166d48860b15cda7a928ca94ece
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: d156761d8ebc39822d6ccf2fc28ed6c380c4e117
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069199"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825186"
 ---
 # <a name="plan-my-users-experience"></a>내 사용자 환경 계획
 

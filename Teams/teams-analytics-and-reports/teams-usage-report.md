@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +16,12 @@ ms.collection:
 description: Microsoft 팀 관리 센터에서 팀 사용 보고서를 사용 하 여 조직의 팀 활동에 대 한 개요를 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aba4d3e185052d7c4f5399dd9370a05a4a7dc0a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3419ecb6c4ef1b976681f626fd8ec567e665d6a5
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570975"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827236"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft 팀 사용 보고서
 
@@ -36,9 +38,9 @@ Microsoft 팀 관리 센터의 팀 사용 보고서에서는 활성 사용자 �
 
 |호출 |설명  |
 |--------|-------------|
-|**raid-1**   |팀 사용 활동 보고서는 지난 7 일 또는 28 일간의 추세에 대해 볼 수 있습니다. |
+|**1**   |팀 사용 활동 보고서는 지난 7 일 또는 28 일간의 추세에 대해 볼 수 있습니다. |
 |**2**   |각 보고서에는이 보고서가 생성 된 날짜에 대 한 날짜가 있습니다. 일반적으로이 보고서에는 활동 시간부터 24 ~ 48 시간 대기 시간이 반영 됩니다. |
-|**3-4**   |<ul><li>차트의 X 축은 보고서에 대해 선택 된 날짜 범위입니다.</li> <li> Y 축은 활성 항목 또는 활동의 수입니다.</li> </ul>지정 된 날짜에 항목이 나 활동을 나타내는 점을 가리켜 해당 항목 또는 해당 날짜에 대 한 활동의 인스턴스 수를 확인 합니다.|
+|**3**   |<ul><li>차트의 X 축은 보고서에 대해 선택 된 날짜 범위입니다.</li> <li> Y 축은 활성 항목 또는 활동의 수입니다.</li> </ul>지정 된 날짜에 항목이 나 활동을 나타내는 점을 가리켜 해당 항목 또는 해당 날짜에 대 한 활동의 인스턴스 수를 확인 합니다.|
 |**4(tcp/ipv4)**   |범례에서 항목을 클릭 하 여 차트에 표시 되는 내용을 필터링 할 수 있습니다. 예를 들어 **총 활성 사용자**, **팀 & 채널 활성 사용자**, **활성 채널**또는 **메시지** 를 클릭 하 여 각 항목에 관련 된 정보만 표시 합니다. 이 선택을 변경 해도 표의 정보는 변경 되지 않습니다. |
 |**5mb**   |이 표는 팀의 사용량을 분류 하 여 보여 줍니다. <ul><li>**팀 이름은** 팀의 표시 이름입니다. 팀 이름을 클릭 하 여 Microsoft 팀 관리 센터의 팀 설정 페이지로 이동할 수 있습니다. </li> <li>**개인 정보** 는 팀이 비공개 팀 인지 또는 공용 팀 인지를 나타냅니다.</li> <li>**활성 사용자** 는 지정 된 기간에 팀의 활성 사용자 수입니다.</li><li>**게스트** 는 지정 된 기간에 팀의 게스트 수입니다.</li> </li> </ul>사용자 계정이 더 이상 Azure AD에 존재 하지 않는 경우에는 테이블에 사용자 이름이 "--"로 표시 됨을 참고 하세요. <br><br>표에 원하는 정보를 표시 하려면 표에 열을 추가 해야 합니다. |
 |**26**   |**열 편집** 을 선택 하 여 테이블에 열을 추가 하거나 제거 합니다.|

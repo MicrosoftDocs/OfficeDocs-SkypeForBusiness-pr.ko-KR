@@ -13,15 +13,17 @@ description: 오디오 회의, 전화 시스템, 통화 플랜 또는 전화 시
 ms.collection:
 - M365-voice
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 918869697b5cd63580a654b9d0051fdac35c44f4
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 3c3669e904db7dbea805daa5737b0bfb81e931d7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517078"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825426"
 ---
 # <a name="define-my-success"></a>성공 정의
 
@@ -29,7 +31,7 @@ ms.locfileid: "37517078"
 
 <!--ENDOFSECTION-->
 
-**오디오 회의** 는 조직에서 기존 유선전화, 사설을 사용 하 여 전화를 걸어 PSTN (공개 교환 전화 네트워크)을 통해 모임 참가자에 게 참가할 수 있도록 하 여 모든 모임 (광고 hoc 또는 예약)의 추가 진입점을 제공 합니다. PBX (지점 교환) 또는 휴대 전화 이 기능은 이끌이 또는 참가자가 컴퓨터 앞에 있지 않거나 모바일 통신을 지원 하기 위해 데이터 연결을 사용할 수 없는 경우, 즉 spotty mobile 데이터 적용 범위를 사용 하는 원격 영역이 나 무료 공용 Wi-fi에 연결 된 경우에 유용 합니다. 제한 된 대역폭을 갖는 서비스 또는 모임 참가자가 쉽게 액세스할 수 있는 전화 통신 종점을 사용 하 여 모임에 전화를 거는 것을 선호 합니다.
+**오디오 회의** 는 조직에서 기존 유선전화, 개인 브랜치 교환 (PBX) 또는 휴대 전화를 사용 하 여 전화를 걸어 PSTN (공공 전환 전화 네트워크)을 통해 모임 참가자가 참가할 수 있도록 하 여 모든 모임 (광고 hoc 또는 예약)에 대 한 추가 진입점을 제공 합니다. 이 기능은 이끌이 또는 참가자가 컴퓨터 앞에 있지 않거나 모바일 통신을 지원 하기 위해 데이터 연결을 사용할 수 없는 경우, 즉 spotty mobile 데이터 적용 범위를 사용 하는 원격 영역이 나 무료 공용 Wi-fi에 연결 된 경우에 유용 합니다. 제한 된 대역폭을 갖는 서비스 또는 모임 참가자가 쉽게 액세스할 수 있는 전화 통신 종점을 사용 하 여 모임에 전화를 거는 것을 선호 합니다.
 
 **통화 요금제가 포함 된 전화 시스템 ("통화 계획")** 은 조직에서 사용자가 컴퓨터와 모바일 장치에서 비즈니스 관련 전화를 걸 수 있도록 하 여 작업 공간을 현대화 수 있는 방법을 제공 합니다. 회사 modernization 활동 기반 작업 구현, 주요 사무실 이동, office에 맞게 새로 고침, 레거시 PBX 솔루션, PSTN 서비스 공급자 계약 결론 등 다양 한 시나리오의 일부일 수 있습니다. 통화 요금제를 통해 Microsoft는 PSTN에 대 한 연결을 용이 하 게 합니다.
 
@@ -95,7 +97,7 @@ ms.locfileid: "37517078"
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |결정 사항|<ul><li>조직에서 확인할 수 있는 오디오 회의에 대 한 모든 비즈니스 사용 사례는 무엇 인가요?</li><li>조직에서 확인할 수 있는 통화 계획에 대 한 모든 비즈니스 사용 사례는 무엇 인가요?</li><li>조직에서 확인할 수 있는 직접적인 라우팅에 대 한 모든 비즈니스 사용 사례는 무엇 인가요?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |의사 결정 지점|<ul><li>조직에서 확인할 수 있는 오디오 회의에 대 한 모든 비즈니스 사용 사례는 무엇 인가요?</li><li>조직에서 확인할 수 있는 통화 계획에 대 한 모든 비즈니스 사용 사례는 무엇 인가요?</li><li>조직에서 확인할 수 있는 직접적인 라우팅에 대 한 모든 비즈니스 사용 사례는 무엇 인가요?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|다음 단계|<ul><li>조직의 오디오 회의에 대 한 모든 비즈니스 사용 사례를 문서화 합니다.</li><li>조직의 통화 요금제에 대 한 모든 비즈니스 사용 사례를 문서화 합니다.</li><li>조직의 직접 라우팅에 대 한 모든 비즈니스 사용 사례를 문서화 합니다.</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -107,7 +109,7 @@ ms.locfileid: "37517078"
 > [!TIP]
 > 다음은 프로젝트 관련자를 문서화 하는 데 사용할 수 있는 이해 관계자 매트릭스 템플릿의 예입니다.
 > 
-> |역할인  |설명  |이름, 연락처 정보, 위치  |
+> |역할  |설명  |이름, 연락처 정보, 위치  |
 > |---------|---------|---------|
 > |프로젝트 집행 후원자|<ul><li>프로젝트에 대 한 궁극적인 기관과 책임을 프로젝트 목표에 맞게 제공 하세요.</li><li>프로젝트 책임자가 제기 하는 문제를 해결 해 보세요.</li><li>회사 내 프로젝트 목표에 대 한 스폰서 의사 소통.</li><li>주요 전략적 결정을 내립니다.</li><li>필요한 리소스 및 예산을 사용할 가능성이 있는지 확인 합니다.</li><li>리드 분기별 비즈니스 리뷰 (QBRs).</li><li>드라이브 구입 및 인식 캠페인 노력의 지원.</li><li>프로그램 출시에 대 한 프로젝트 스폰서 역할을 합니다.</li></ul>|TBA|
 > |프로젝트 책임자|<ul><li>프로젝트 팀을 관리 하 고 리드 합니다.</li><li>프로젝트에 참여 하는 협력 업체와 작업 팀을 조정 합니다.</li><li>분기별 주요 결과를 달성 하기 위해 프로젝트 계획을 만들고 관리 하는 방법에 대해 책임 지 야 합니다.</li><li>부서 간 문제 해결</li><li>프로젝트 스폰서에 대 한 정기적인 업데이트를 제공 합니다.</li><li>전체 프로젝트 계획에 채택 측면을 통합 합니다.</li><li>월간 비즈니스 및 운영 리뷰 (MBRs)를 리드 하 여 QBRs에 참가 합니다.</li></ul>|TBA|
@@ -130,7 +132,7 @@ ms.locfileid: "37517078"
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|결정 사항|<ul><li>조직의 각 주요 관련자 역할을 입력 하는 사람은 누구 입니까?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|의사 결정 지점|<ul><li>조직의 각 주요 관련자 역할을 입력 하는 사람은 누구 입니까?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|다음 단계|<ul><li>모든 주요 관련자를 문서화 하 고 역할의 책임과 기대치를 할당 된 각 개인에 게 전달 합니다.</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -223,7 +225,7 @@ KSIs를 정의할 때는 "특정, 측정 가능, 할당 가능, 실제, 시간 �
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|결정 사항|<ul><li>귀하의 조직&#39;s OKRs와 KSIs?</li><li>조직의 오디오 회의 구현과 관련 하 여 어떤 위험을 확인 했습니까? 식별 된 위험에 대 한 완화 계획은 무엇 인가요?</li><li>조직의 통화 요금제 구현과 관련 하 여 어떤 위험을 확인 했습니까? 식별 된 위험에 대 한 완화 계획은 무엇 인가요?</li><li>조직의 직접 라우팅 구현과 관련 하 여 어떤 위험을 확인 했습니까? 식별 된 위험에 대 한 완화 계획은 무엇 인가요?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|의사 결정 지점|<ul><li>귀하의 조직&#39;s OKRs와 KSIs?</li><li>조직의 오디오 회의 구현과 관련 하 여 어떤 위험을 확인 했습니까? 식별 된 위험에 대 한 완화 계획은 무엇 인가요?</li><li>조직의 통화 요금제 구현과 관련 하 여 어떤 위험을 확인 했습니까? 식별 된 위험에 대 한 완화 계획은 무엇 인가요?</li><li>조직의 직접 라우팅 구현과 관련 하 여 어떤 위험을 확인 했습니까? 식별 된 위험에 대 한 완화 계획은 무엇 인가요?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|다음 단계|<ul><li>OKRs 및 KSIs를 문서화 하 고 위험 등록기를 설정 합니다.</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -264,7 +266,7 @@ KSIs를 정의할 때는 "특정, 측정 가능, 할당 가능, 실제, 시간 �
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|결정 사항|<ul><li>조직에 조종 위원회가 필요한 지 여부를 결정 합니다.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|의사 결정 지점|<ul><li>조직에 조종 위원회가 필요한 지 여부를 결정 합니다.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|다음 단계|<ul><li>조종 위원회의 회원을 식별 합니다.</li><li>위원회의 모임을 예약 합니다.</li><li>조종 위원회 회의 준비.</li><li>조종 위원회 회의를 개최 하세요.</li><li>조종 위원회 모임 입력에 따라 작업을 수행 합니다.</li></ul>|
 
 적절 한 조종 위원회를 운영 하는 방법에 대 한 자세한 지침은 [조종 위원회 가이드](envision-steering-committee-complete-guide.md)에서 확인할 수 있습니다.

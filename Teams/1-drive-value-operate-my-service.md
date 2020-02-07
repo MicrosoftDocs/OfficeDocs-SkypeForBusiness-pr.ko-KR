@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 서비스 상태 모니터링, 네트워크 품질과 사용량 평가 및 확인을 비롯 한 팀 서비스 관리에 필요한 작업 및 활동입니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61d0bc220de81b67c27d21d3ea22c7974a4c84d1
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a63ce726a3a09fb820a6008aa0edf50a0e88ea95
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517086"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826986"
 ---
 # <a name="operate-my-service"></a>내 서비스 운영
 
@@ -39,11 +41,11 @@ ms.locfileid: "37517086"
 
 이 가이드의 작업 및 활동은 다음 다이어그램에 표시 된 대로 여덟 가지 범주로 그룹화 됩니다. 이러한 각 범주는 다음 섹션에 따라 확장 됩니다.
 
-![](media/operate-my-service-image1.png "팀에 대 한 서비스 관리를 구성 하는 작업 범주와 활동을 보여 주는 다이어그램을 보여 주는 다이어그램 또한이 다이어그램은 서비스 관리가 주로 고객 작업을 나타냅니다.")
+![작업 및 활동 범주 목록을 보여 주는 다이어그램](media/operate-my-service-image1.png "팀에 대 한 서비스 관리를 구성 하는 작업 범주와 활동의 목록을 보여 주는 다이어그램입니다. 또한이 다이어그램은 서비스 관리가 주로 고객 작업을 나타냅니다.")
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>팀에 대해 작업을 구현 하는 방법을 결정 합니다.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>팀에 대해 작업을 구현 하는 방법을 결정 합니다.</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>운영 가이드를 전체적으로 검토 합니다.</li><li>클라우드 음성 작업 부하의 품질과 안정성을 제공 하기 위해 조직의 목표와 부합 하는 운영 전략을 구현 합니다.</li><li>경력 품질 검토 가이드를 검토 합니다.</li><li> 환경 리뷰를 정기적으로 수행 하 여 클라우드 음성 구축이 최고 용량으로 작동 하는지 확인 하는 운영 전략을 구현 합니다.</li></ul></td></tr>
 </table>
 
@@ -191,8 +193,8 @@ Microsoft 팀은 클라우드 기반 서비스입니다. 그러면 빠른 속도
 
 |       준비 변경       | 상태 |                      슬라이드 노트/다음 단계                      |    소유주     |
 |------------------------------|--------|------------------------------------------------------------|--------------|
-|     필수 변경 사항      |  '   | 관리자가 확인 된 사용자만 녹화 하도록 설정 해야 합니다. | 지원 팀 |
-| 기술 준비 완료 |  '   |                                                            | 지원 팀 |
+|     필수 변경 사항      |  예   | 관리자가 확인 된 사용자만 녹화 하도록 설정 해야 합니다. | 지원 팀 |
+| 기술 준비 완료 |  예   |                                                            | 지원 팀 |
 |                              |        |                                                            |              |
 
 **사용자 변경 관리** 
@@ -200,9 +202,9 @@ Microsoft 팀은 클라우드 기반 서비스입니다. 그러면 빠른 속도
 | 준비 변경 | 상태   | 슬라이드 노트/다음 단계 | 소유주 |
 |----|----|----|-----|
 | 사용자에 게 미치는 영향                  | 최저값                  |                                                                 |                        |
-| 사용자 준비 필요      | '                  |                                                                 |                        |
+| 사용자 준비 필요      | 예                  |                                                                 |                        |
 | 통신 준비         | 아니요                   | 의사 소통 이메일이 초안을 완료 했습니다-검토가 보류 중입니다.            | 커뮤니케이션 팀    |
-| 교육 준비               | '                  | 교육을 통해 기존 Microsoft 비디오를 활용할 수 있습니다.                | 교육 팀          |
+| 교육 준비               | 예                  | 교육을 통해 기존 Microsoft 비디오를 활용할 수 있습니다.                | 교육 팀          |
 
 **상태 추적**
 
@@ -251,7 +253,7 @@ Microsoft 팀은 클라우드 기반 서비스입니다. 그러면 빠른 속도
 
 #### <a name="required-permissions"></a>필요한 권한
 
-관리 센터의 사용 현황 보고서는 **전역 관리자** 역할이 할당 된 사용자 또는 제품별 관리자 역할 (**Exchange 관리자**, 비즈니스용 **Skype 관리자**, SharePoint)에서 액세스할 수 있습니다. ** 관리자**).
+관리 센터의 사용 현황 보고서에는 **전역 관리자** 역할이 할당 된 사용자 또는 제품별 관리자 역할 (**Exchange 관리자**, 비즈니스용 **Skype 관리자**, **SharePoint 관리자**)이 액세스할 수 있습니다.
 
 또한 보고서에 대 한 액세스를 필요로 하는 사용자는 **보고서 읽기 프로그램** 역할을 사용할 수 있지만 관리자 수준 권한이 필요한 작업을 수행 하지는 않습니다. 이 역할을 할당 하 여 관련자를 대상으로 하는 모든 사용자에 게 사용 보고서를 제공 하 고, 채택을 모니터링 하 고, 구동 합니다. 사용할 수 있는 다양 한 역할에 대 한 자세한 내용은 [Office 365 관리자 역할 정보](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)를 참조 하세요.
 
@@ -316,7 +318,7 @@ NPS는 – 100에서 100 까지의 인덱스 이며, 고객의 willingness을 �
 
 -   1 ~ 6의 Detractors: 서비스를 손상 하 고 성장률을 저해 하는 불만이 있습니다.
 
-Nps 배율을 보여 ![주는 다이어그램]입니다(media/operate-my-service-image2.png ". 이 예제에서는 0 ~ 6의 순위가 detractors이 고, 7부터 8까지는 passive이 고, 9 ~ 10은 promoters입니다.")
+![NPS 크기를 보여 주는 다이어그램](media/operate-my-service-image2.png "이 다이어그램은 NPS 크기를 보여 줍니다. 이 예제에서는 0 ~ 6의 순위가 detractors이 고, 7부터 8까지는 passive이 고, 9 ~ 10은 promoters입니다.")
 
 기본 NPS 번호를 사용 하는 것이 좋지만 사용자 의견을 분석 하는 데 있어 가장 많은 값을 얻을 수 있습니다. 사용자가 다른 사람에 게 팀을 추천 하는 이유를 이해 하는 데 도움이 됩니다. 이러한 메모는 프로젝트 또는 서비스 관리 팀이 품질 서비스를 제공 하는 데 필요한 조정을 이해 하는 데 도움이 되는 소중한 피드백을 제공할 수 있습니다.
 
@@ -363,7 +365,7 @@ Nps 배율을 보여 ![주는 다이어그램]입니다(media/operate-my-service
 
 ### <a name="references"></a>References 
 
-[Office 365 Url 및 IP 주소 범위](https://aka.ms/o365ips)
+[Office 365 URL 및 IP 주소 범위](https://aka.ms/o365ips)
 
 [데이터 스키마 빌드](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
@@ -397,7 +399,7 @@ Nps 배율을 보여 ![주는 다이어그램]입니다(media/operate-my-service
 
 [테 넌 트 데이터 정보 업로드](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)
 
-[경력 품질 검토 가이드](https://aka.ms/qerguide)
+[QoE(체감 품질) 검토 가이드](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -452,17 +454,17 @@ Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이
 
 ### <a name="references"></a>References 
 
-[Office 365 Url 및 IP 주소 범위](https://aka.ms/o365ips)
+[Office 365 URL 및 IP 주소 범위](https://aka.ms/o365ips)
 
 [Microsoft 팀 용 클라이언트 가져오기](get-clients.md)
 
 [Microsoft 팀 커뮤니티](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[Microsoft 팀의 알려진 문제점](known-issues.md)
+[Microsoft Teams의 알려진 문제](known-issues.md)
 
 [Microsoft 팀의 서비스 상태 확인](service-health.md)
 
-[비즈니스 제품에 대 한 고객 지원 문의-관리자 도움말](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [프리미어 지원에 문의](https://support.microsoft.com/premier/contacts)
 
@@ -470,7 +472,7 @@ Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이
 
 <!--ENDOFSECTION-->
 
-## <a name="manage-teams"></a>팀 관리
+## <a name="manage-teams"></a>Teams 관리
 
 Microsoft 팀 서비스를 배포한 후에는 관리와 관련 된 몇 가지 작업을 수행 해야 합니다. 활동은 서비스 및 개별 사용자 관리부터 라이선스 및 전화 번호 계획 및 프로 비전에 이르기까지 다양 합니다. 다음 섹션에서는 이러한 일반적인 몇 가지 관리 작업에 대해 설명 합니다.
 
@@ -489,23 +491,23 @@ Microsoft 팀 서비스를 배포한 후에는 관리와 관련 된 몇 가지 �
 
 #### <a name="common-tasks-for-phone-system"></a>일반 전화 시스템용 작업
 
-[사용자의 전화 번호 지정, 변경 또는 제거](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
+[사용자의 전화 번호 할당, 변경 또는 제거](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
 [사용자에 대 한 긴급 주소 할당 또는 변경](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)
 
-[조직의 긴급 위치 추가, 변경 또는 제거](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
+[조직의 응급 위치 추가, 변경 또는 제거](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
 [다이얼 플랜 만들기 및 관리](create-and-manage-dial-plans.md)
 
 #### <a name="common-tasks-for-audio-conferencing"></a>오디오 회의에 대 한 일반적인 작업
 
-[오디오 회의 브리지에 대 한 설정 변경](change-the-settings-for-an-audio-conferencing-bridge.md)
+[오디오 회의 브리지의 설정 변경](change-the-settings-for-an-audio-conferencing-bridge.md)
 
 [오디오 회의 브리지에서 전화 번호 변경](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
 [사용자의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-[오디오 회의 PIN 다시 설정](reset-the-audio-conferencing-pin-in-teams.md)
+[오디오 회의 PIN 재설정](reset-the-audio-conferencing-pin-in-teams.md)
 
 ### <a name="license-management"></a>라이선스 관리
 
@@ -544,11 +546,11 @@ Microsoft의 번호 인벤토리에 제공 하는 전화 번호의 수에 제한
 
 <!--ENDOFSECTION-->
 
-## <a name="quality-of-experience-review-guide"></a>경력 품질 검토 가이드
+## <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
 
 [경력 품질 검토 가이드](https://aka.ms/qerguide) 에는 아래 그림과 같이 사용자 환경 개선에 가장 큰 영향을 주는 주요 영역에서 개선 지침을 평가 하 고 제공 하는 일련의 활동이 포함 됩니다.
 
-경험 치 ![중에 검사할 영역 다이어그램](media/plan-my-service-management-image2.png ": 경험 치 검토 중에는 오디오, 안정성 및 사용자 설문 조사 결과에 대 한 주요 영역") 을 검토 합니다.
+![경력을 검토 하는 동안 검사할 영역 다이어그램](media/plan-my-service-management-image2.png "경력을 검토 하는 동안에는 오디오, 안정성, 사용자 설문 조사 결과 중에서 검사할 주요 영역입니다.")
 
 가이드에 설명 된 영역을 지속적으로 평가 하 고 수정 사용자 환경에 부정적인 영향을 줄 수 있습니다. 배포에서 발생 하는 대부분의 사용자 경험 문제는 다음 범주로 그룹화 할 수 있습니다.
 

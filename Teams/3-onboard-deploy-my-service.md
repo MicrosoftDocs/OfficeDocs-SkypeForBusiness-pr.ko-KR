@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 사이트 사용 Playbook을 다운로드 하 여 팀의 출시를 계획 하 고 사용자 채택을 향상 하 고 최적화 하며, 품질 및 만족도를 높입니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 760beb6b5f786367c76ce9ac2b66d808fa10c6de
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 65a9c79dd29656b7bdc8563f0444d90133399f2b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516764"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825176"
 ---
 # <a name="deploy-my-service"></a>내 서비스 배포
 
@@ -42,7 +44,7 @@ ms.locfileid: "37516764"
 -   지원 요구를 줄이고 사용자 만족도를 높입니다.
 
 > [!NOTE]
-> 이 문서 및 관련 playbook는 서비스 사용 또는 특정 사이트에 발신음을 제공 하는 데 필요한 모든 기술 구성 단계를 설명 하는 것이 아닙니다. 대신 사용자가 쉽게 사용할 수 있도록 하는 작업 및 작업에 중점을 두 며, 지원 요구 사항을 최소화 하면서, 채택 률이 높은 빠른 전환 및 원활한 전환을 통해 팀 음성 작업량을 소모 하기 시작 합니다. 팀 음성 기능을 최적으로 구성 하는 방법에 대 한 기술 지침은 팀 [음성 작업을 구성](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)하기 위한 온 보 딩 검사 목록, [팀에서 직접 라우팅 구성](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [팀 core](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)기술, 네트워킹을 참조 하세요. [ ](onboarding-checklist-configure-networking.md) [Office 365를 사용 하도록 설정](onboarding-checklist-enable-office-365.md)하 고 팀에 적합 합니다.
+> 이 문서 및 관련 playbook는 서비스 사용 또는 특정 사이트에 발신음을 제공 하는 데 필요한 모든 기술 구성 단계를 설명 하는 것이 아닙니다. 대신 사용자가 쉽게 사용할 수 있도록 하는 작업 및 작업에 중점을 두 며, 지원 요구 사항을 최소화 하면서, 채택 률이 높은 빠른 전환 및 원활한 전환을 통해 팀 음성 작업량을 소모 하기 시작 합니다. 팀 음성에 가장 적합 한 환경을 구성 하는 방법에 대 한 기술 지침은 팀 [음성 작업을 구성](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)하기 위한 온 보 딩 검사 목록, 팀 [에서 직접 라우팅 구성](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), 팀 [핵심 기능](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), 팀 [네트워킹](onboarding-checklist-configure-networking.md)및 [Office 365 사용](onboarding-checklist-enable-office-365.md)을 참조 하세요.
 
 <!--ENDOFSECTION-->
 
@@ -52,7 +54,7 @@ Playbook의 초점은 팀 음성 배포의 사용자의 인식에 영향을 주�
 
 -   서비스 준비 상태 확인
     - 오디오 회의
-    - 통화 요금제
+    - 통화 플랜
     - 직접 라우팅
 
 -   사용자 사용
@@ -65,7 +67,7 @@ Playbook의 초점은 팀 음성 배포의 사용자의 인식에 영향을 주�
 
 [Playbook (Playbook) 사이트를 사용할 수 있도록](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) Microsoft Excel 통합 문서를 만듭니다. 이러한 다섯 가지 포커스 영역은 통합 문서의 개별 시트 이며 각 배포 작업 및 활동은 이러한 시트 중 하나로 그룹화 됩니다.
 
-![사이트 활용 playbook](media/deploy-my-service-image1.png "스크린샷 playbook") 스크린샷
+![사이트 활용 playbook 스크린샷](media/deploy-my-service-image1.png "Playbook 스크린샷")
 
 > [!NOTE]
 > 팀 배포 범위에서 각 사이트에 대 한 playbook의 개별 인스턴스를 만듭니다.
@@ -84,7 +86,7 @@ Playbook의 초점은 팀 음성 배포의 사용자의 인식에 영향을 주�
 
 4. 아래 그림과 같이 **사이트 이름, 사이트 코드**및 **계획 된 시작 날짜**를 입력 합니다. 이것은 playbook의 모든 활동에 대해 권장 되는 마감 기한을 조정 하기 때문에 중요 한 단계입니다.
 
-   사이트 ![이름, 사이트 코드 및 계획 된 시작 날짜](media/deploy-my-service-image2.png "예제 (뉴욕의 사이트 이름, 사이트 코드 NY01, 계획 된 시작 날짜/년 3 월 20 일)")
+   ![사이트 이름, 사이트 코드 및 계획 된 시작 날짜가 있는 예제](media/deploy-my-service-image2.png "뉴욕의 사이트 이름, 사이트 코드 NY01, 계획 된 시작 날짜: 20 년 3 월 18 일")
 
 5. 각 활동을 검토 하 고 필요한 작업을 수행 하 고 시간 표시 막대를 진행할 때 상태를 업데이트 합니다. 상태는 아래에 설명 된 대로 그래픽으로 표시 됩니다.
   
@@ -94,7 +96,7 @@ Playbook의 초점은 팀 음성 배포의 사용자의 인식에 영향을 주�
 
 6. 상태가 각 섹션 내에 겹쳐서 표시 되 고 섹션 제목에 다음 상태 표시기 중 하나로 서식이 지정 됩니다. **주간 상태** 도 자동으로 업데이트 됩니다.
 
-(media/deploy-my-service-image6.png "Playbook의 주간 상태 롤업에 대 한 playbook 스크린샷") 의 ![주간 상태 롤업 스크린샷]
+![Playbook의 주간 상태 롤업 스크린샷](media/deploy-my-service-image6.png "Playbook의 주간 상태 롤업 스크린샷")
 
 > [!TIP]
 > 사용 중인 모든 위치에 대해 위 단계를 반복 합니다.
@@ -104,7 +106,7 @@ Playbook의 초점은 팀 음성 배포의 사용자의 인식에 영향을 주�
 전화 번호 포팅, 조달 활동 등 예정 보다 시간이 더 걸릴 수 있는 활동에 주의를 기울여야 합니다. 이러한 활동은 사이트 배포 시간 표시 막대에 부정적인 영향을 미칠 수 있습니다. 활동 목록과 관련 시간 표시 막대를 매주 검토 하 고 업데이트 한 후, 관계자가 각 사이트의 상태와 배포 일정의 가능한 편차를 알 수 있도록 개체를 [조종 위원회 모임](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) 에 제시 하세요.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>배포에 사이트 Playbook 필요한 지 여부를 결정 합니다.</li><li>배포할 모든 사이트에 대해 Microsoft 팀의 사이트 이용 Playbook 사용자 지정을 담당할 사용자를 결정 합니다.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>배포에 사이트 Playbook 필요한 지 여부를 결정 합니다.</li><li>배포할 모든 사이트에 대해 Microsoft 팀의 사이트 이용 Playbook 사용자 지정을 담당할 사용자를 결정 합니다.</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">사이트 Playbook를 다운로드</a>합니다.</li><li>첫 번째 사이트의 사이트 Playbook을 사용자 지정 합니다.</li><li>추가 사이트에 대해 필요에 따라 반복 합니다.</li></ul></td></tr>
 </table>
 

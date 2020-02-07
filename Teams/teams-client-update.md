@@ -10,15 +10,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: annaray
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 팀 데스크톱 클라이언트가 업데이트 되는 방법에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ace50cc0f9c59375c5a182cf18559b0a449db109
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8058fa1e79b7d415d03c08500213206579029042
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570259"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832618"
 ---
 # <a name="teams-update-process"></a>팀 업데이트 프로세스
 

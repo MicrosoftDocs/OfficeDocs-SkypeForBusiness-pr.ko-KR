@@ -13,16 +13,18 @@ ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 사용할 수 있는 다양 한 클라이언트 (웹, 데스크톱 (Windows 및 Mac) 및 모바일 (Android 및 iOS)를 사용 하는 방법에 대해 알아봅니다.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed6b86aacf13b577d45ee982d32fae7565d37314
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: e4abae267bf1a8c0c770eebf1c1b12018a6c7deb
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628544"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833768"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft 팀 용 클라이언트 가져오기 
 

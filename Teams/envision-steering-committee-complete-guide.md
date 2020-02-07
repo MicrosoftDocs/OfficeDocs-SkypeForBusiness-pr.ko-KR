@@ -9,16 +9,18 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: 배포 목표를 식별 하 고 진행 상황을 추적 하며 차단 제거를 위해 주요 관련자 및 프로젝트 리더의 관리 그룹을 식별 합니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 482779904ba49e945f6b071b3be17fe0a6f290dd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a4ab037b416ab7a197f15729c73d8c1b9e107e50
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570410"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832798"
 ---
 # <a name="steering-committee"></a>조종 위원회
 
@@ -63,7 +65,7 @@ ms.locfileid: "37570410"
 > [!NOTE]
 > 조직 및 프로젝트 팀 디자인에 따라 역할 및 책임을 조정 합니다. 소규모 조직에서는 이러한 역할이 겹칠 수 있습니다.
 
-| 타이틀이 | 역할인 | Contact | 메일 주소 |
+| 타이틀이 | 역할 | Contact | 메일 주소 |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------|
 | 임원진 | 프로젝트를 대표 하 고 조직의 비전에 맞춰 방향이 유지 되는지 확인 합니다. 위원회에 게 동의할 수 없는 의사 결정을 위한 궁극적인 권한 역할을 합니다. | | |
 | 비즈니스 의사 결정권자 | 프로젝트에 대 한 대표, 방향이 조직의 비전에 맞춰 유지 되는지 확인 | | |

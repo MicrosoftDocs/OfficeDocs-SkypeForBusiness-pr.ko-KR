@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 배포 모델을 선택 하 고 책임을 맡고 있는 (RACI) 매트릭스를 개발 하 고 실행 및 관리 계획을 만듭니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ef741290a4d669084ad55335d0a08ec1c9ffd5c
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: cd3cacafdf5f3f8369ea6bce18da2aac976e437b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516755"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825136"
 ---
 # <a name="document-my-success-plan"></a>내 성공 계획 문서화
 
@@ -49,7 +51,7 @@ ms.locfileid: "37516755"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>조직에 해당 하는 팀 배포 실행 모델을 결정 합니다.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>조직에 해당 하는 팀 배포 실행 모델을 결정 합니다.</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>선택한 팀 배포 실행 모델을 문서화 하 고 비즈니스 및 기술 근거를 포함 합니다.</li></ul></td></tr></table>
 
 ## <a name="raci-modeling"></a>RACI 모델링
@@ -73,7 +75,7 @@ ms.locfileid: "37516755"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>클라우드 음성 구현 프로젝트와 관련 된 활동/역할을 결정 합니다.</li><li>클라우드 음성 구현 프로젝트의 RACI 행렬 (책임 할당 행렬)에 할당할 팀 또는 사용자를 결정 합니다.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>클라우드 음성 구현 프로젝트와 관련 된 활동/역할을 결정 합니다.</li><li>클라우드 음성 구현 프로젝트의 RACI 행렬 (책임 할당 행렬)에 할당할 팀 또는 사용자를 결정 합니다.</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>RACI 행렬을 문서화 합니다.</li></ul></td></tr></table>
 
 ## <a name="quarterly-execution-plan"></a>분기별 실행 계획
@@ -88,17 +90,17 @@ ms.locfileid: "37516755"
 
 | 사이트/부서                            | 직원 수 | 오디오 회의 | 전화 시스템                    | 실행할 분기 |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
-| 미국: 뉴욕                             | 2000                | '                | 통화 요금제가 포함 되어 있는 전화 시스템 | Q1 CY2018          |
-| 아일랜드: 더블린                          | 300                 | '                | 통화 요금제가 포함 되어 있는 전화 시스템 | Q1 CY2018          |
-| 오스트리아: Vienna                          | 500                 | '                | 전화 시스템 직접 라우팅     | Q2 CY2018          |
-| 이탈리아: Milan                             | 200                 | '                | 해당 없음                             | Q2 CY2018          |
-| 남부 아메리카: 브라질                    | 1500                | '                | 전화 시스템 직접 라우팅     | Q2 CY2018          |
-| 인도: 뉴델리                             | 7000                | '                | 해당 없음                             | Q3 CY2018          |
+| 미국: 뉴욕                             | 2000                | 예                | 통화 요금제가 포함 되어 있는 전화 시스템 | Q1 CY2018          |
+| 아일랜드: 더블린                          | 300                 | 예                | 통화 요금제가 포함 되어 있는 전화 시스템 | Q1 CY2018          |
+| 오스트리아: Vienna                          | 500                 | 예                | 전화 시스템 직접 라우팅     | Q2 CY2018          |
+| 이탈리아: Milan                             | 200                 | 예                | 해당 없음                             | Q2 CY2018          |
+| 남부 아메리카: 브라질                    | 1500                | 예                | 전화 시스템 직접 라우팅     | Q2 CY2018          |
+| 인도: 뉴델리                             | 7000                | 예                | 해당 없음                             | Q3 CY2018          |
 
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>목표 키 결과 (OKRs)를 달성 하기 위해 분기별 실행 계획을 결정 합니다.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>목표 키 결과 (OKRs)를 달성 하기 위해 분기별 실행 계획을 결정 합니다.</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>분기별 실행 계획을 문서화 합니다.</li></ul></td></tr>
 </table>
 
@@ -120,7 +122,7 @@ ms.locfileid: "37516755"
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>일반 상태 업데이트 빈도 (매일, 매주, 매월 또는 분기별), 상태 업데이트 모임을 수행 하는 방법, 각 모임의 소유자 등을 포함 하 여 통신 및 관리 계획을 결정 합니다.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>일반 상태 업데이트 빈도 (매일, 매주, 매월 또는 분기별), 상태 업데이트 모임을 수행 하는 방법, 각 모임의 소유자 등을 포함 하 여 통신 및 관리 계획을 결정 합니다.</li></ul></td></tr>
 
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>커뮤니케이션 및 관리 계획을 문서화 합니다.</li></ul></td></tr>
 </table>
@@ -181,7 +183,7 @@ ms.locfileid: "37516755"
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>클라우드 음성 작업 부하를 제공 하기 위해 전체 성공 계획을 문서화 하는 방법을 결정 합니다.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>클라우드 음성 작업 부하를 제공 하기 위해 전체 성공 계획을 문서화 하는 방법을 결정 합니다.</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>성공 계획의 모든 구성 요소가 문서화 되었는지 확인 합니다.</li><li>성공 계획의 개별 구성 요소를 단일 요약 문서로 집계 합니다 (선택 사항).</li></ul></td></tr>
 </table>
 

@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 팀 환자 앱 EHR 통합
-ms.openlocfilehash: 836c28f339a3936f03315b005c0eedfc49e0f2ba
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6c7638436f35a1e460c176964dfc63624985b12e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569246"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827636"
 ---
 # <a name="stu3-interface-specification"></a>STU3 인터페이스 사양
 
@@ -71,7 +73,7 @@ Microsoft 팀 환자 앱을 사용 하도록 FTO r 서버를 설정 또는 재�
 2. Name. 접두사
 3. [GeneralPractitioner]-GeneralPractitioner 참조는 환자 리소스 (표시 필드에만 해당)에 포함 되어야 합니다.
 
-리소스 검색에서는/Patient/_search의 POST 메서드 및 다음 매개 변수를 사용 합니다.
+리소스 검색에서는/Patient/_search 및 다음 매개 변수에 POST 메서드를 사용 합니다.
 
 1. i
 2. family = (가족 이름에 값이 포함 되어 있는 모든 환자 검색)
@@ -94,14 +96,14 @@ Microsoft 팀 환자 앱을 사용 하도록 FTO r 서버를 설정 또는 재�
 
     요청: POST <fa r-서버>/Patient/_search 요청 본문: 지정 = ruth&family = black
     
-    응답: {"resourceType": "번들", "id": "<번들 id>", "meta": {"lastUpdated": "2019-01-14T23:44:45.052 + 00:00"}, "type": "searchset", "total": "" "link": [{"관계": "self", "url": "entry": [{"> <fullUrl ": <fhir-서버>/Patient/<환자 번호>", "리소스": {"resourceType": "환자", "id": "<환자 id>", "meta": {"" 고 "" "" "" "37.000": "2017-10-18T19:: 2," 텍스트 ": {" status ":" 생성 됨 "," div ":"<div>\n        <p>Ruth 블랙</p>\n      </div>"}," 식별자 ": [{" 사용 ":" 보통 "," 유형 ": {" 코딩 ": [{" 시스템 ":"http://hl7.org/fhir/v2/0203"," 코드 ":" MR "," 표시 ":" 의료 레코드 번호 "," userselected ": false}]," 텍스트 ":" 의료 레코드 번호 "}," system "http://hospital.smarthealthit.org:" 1234567 "}]," 활성 ": true" name ": [{" 사용 ":" 공식 "," 가족 ":" Black "," 지정 ": [" Ruth "," C "
-    ]}], "텔레콤": [{"시스템": "phone", "값": "800-599-2739", "사용": "홈"}, {"시스템": "전화", "값": "800-808-7785", "사용": "모바일"}, {"시스템": "전자 메일", "값": "ruth.black@example.com"} "," 성별 ":" 여성 "," 생년월일 ":" 1951-08-23 "," address ": [{" 사용 ":" 집 "," 줄 ": [" 26 남 RdApt 22 "]," city ":" Sapulpa "," 상태 ":" 확인 "," postalCode ":" 74066 "," 국가 ":" 검색 ": {" mode ":" match "}}]}
+    응답: {"resourceType": "번들", "id": "<번들 id>", "meta": {"lastUpdated": "2019-01-14T23:44:45.052 + 00:00"}, "type": "searchset", "/patient/", "total": "" 링크 ": [{" relation ":" self "," url ":" "항목": _search> <[{"fullUrl": <fa r-server>/Patient/<환자> "," resource ": {" resourceType ":" 환자 "," id ":" <환자 id> "," meta ": {" 37.000 ":" 1 "," lastUpdated ":" 2017-10-18T18:32: + 00:00 "}," 텍스트 ": {" status ":" 생성 됨 "," div ":"<div>\n        <p>Ruth 블랙</p>\n      </div>"}," 식별자 ": [{" 사용 ":" 일반 "," 유형 ": {" 코딩 ": [{" 시스템 ":"http://hl7.org/fhir/v2/0203"," 코드 ":" MR "," 표시 ":" 의료 레코드 번호 "," userselected ": false}]," text ":" 의료 레코드 번호 "}," 시스템 ":"http://hospital.smarthealthit.org"," system "을" 1234567 ")]," 활성 ": true," name ": [{" 사용 ":" 공식 "," 가족 ":" Black "," 제공 됨 ": [" Ruth "," C "
+    ]}], "텔레콤": [{"시스템": "전화", "값": "800-599-2739", "사용": "home"}, {"system": "phone", "값": "800-808-7785", "사용": "모바일"}, {"시스템": "전자 메일", "값": "ruth.black@example.com"}], "성별": "여성", "생년월일": "1951-08-23", "주소": [{"사용": "집", "줄": ["26 남 RdApt 22"], "도시": "Sapulpa" "state": "OK", "postalCode": "74066", "국가": "USA"}]}, "검색": {"mode": "match"}}]}
 
 * * *
 
     요청: <fa r-server>/Patient/<환자 번호>
     
-    응답: {"resourceType": "환자", "id": "<환자 id>", "식별자": [{"사용": "일반적인", "유형": {"코딩": [{"시스템": "http://hl7.org/fhir/v2/0203", "system": "", "code": "MR",}], "텍스트": "의료 레코드 번호"}, "값": [{"사용": "공식", "1234567 family ":" 씨 "," 지정 된 ": [" 다니엘 "," X " ]}], "성별": "남성", "생년월일": "1925-12-23",}
+    응답: {"resourceType": "환자", "id": "<환자 id>", "식별자": [{"사용": "일반", "유형": {"코딩": [{"시스템": "http://hl7.org/fhir/v2/0203", "코드": "MR",}], "text": "의료 레코드 번호"}, "값": "1234567"}], "family": "씨", "다니엘", "지정 된 이름", "X": " ]}], "성별": "남성", "생년월일": "1925-12-23",}
 
 * * *
 
@@ -123,7 +125,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
 
 1. 환자 =\<환자 id>
-2. _ 정렬 =-날짜
+2. _sort =-날짜
 3. 범주 ("category = 필수-서명")에서 중요 한 서명 목록을 검색 하는 방법을 쿼리 합니다.
 
 통화에 대 한 다음 예제를 참조 하세요.
@@ -132,7 +134,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 
     요청: <fa r-서버>/관찰? 환자 =<환자 번호>&category = 필수-기호
     
-    응답: {"resourceType": "번들", "id": "<번들-id>", "유형": "searchset", "total": 20, "entry": [{"리소스": {"resourceType": "관찰", "id": "<리소스 id>", "category": "http://hl7.org/fhir/observation-category" "시스템": "", "코드": " 필수-서명 "}],}]," 코드 ": {" 코딩 ": [{" 시스템 ":"http://loinc.org"," code ":" 8867-4 "," display ":" heart_rate "}]}," effectiveDateTime ":" 2009-04-08T00:00:00-06:00 "," # "값": 72.0, "unit": "" 시스템 ":"http://unitsofmeasure.org",}}},.
+    응답: {"resourceType": "번들", "id": "<번들 id>", "유형": "searchset", "total": 20, "진입": {"리소스": "resourceType": "관찰" "이" <"-id": ": 리소스 id>", "category": "" 시스템 ":"http://hl7.org/fhir/observation-category"," 코드 ":" 필수-기호 "}],}]," code ": {" 코딩 ": [{" 시스템 ":"http://loinc.org"," 코드 ":" 8867-4 "," display ":" heart_rate "}]}," effectiveDateTime ":" 2009-04-08t00:00:00-06:00 ","/분 ": {" 값 ": 72.0," 단위 ":" {티 티} "," system ":"http://unitsofmeasure.org",}}},.
         .
         .
       ] }
@@ -155,7 +157,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
 
 1. 환자 =\<환자 id>
-2. 개수 =\<최대 결과>
+2. _count =\<최대 결과>
 
 이 통화의 다음 예제를 참조 하세요.
 
@@ -163,7 +165,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 
     요청: <fa r-server>/Condition? 환자 =<환자-id>&_count = 10
     
-    응답: {"resourceType": "번들", "id": "<번들 id>", "": "searchset", "total": 2, "entry": [{"리소스": {"resourceType": "Condition", "id": "<resource-id>", "code": {"코딩": [{"시스템": "http://snomed.info/sct", "코드": "185903001", " 표시 ":" influenza immunization ",}]}," 심각도 ": {" 코딩 ": [{" 시스템 ":"http://snomed.info/sct"," 코드 ":" 24484000 "," display ":" 심각도 "}]}," assertedDate ":" 2018-04-04 "}},.
+    응답: {"resourceType": "번들", "id": "<번들 id>", "유형": "searchset", "total": "#" resourceType ":" Condition "," id ":" <리소스 id> "," 코드 ": {" 코딩 ": [{" 시스템 ":" "http://snomed.info/sct," 코드 ":" 185903001 "," display ":"에는 influenza immunization ",}]}," 심각도 ": {" 코딩 ": [{" 시스템 ":" "http://snomed.info/sct", "display": "" assertedDate ":" 2018-04-04 "}},. 24484000
         .
         .
       ] }
@@ -186,8 +188,8 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
 
 1. 환자 =\<환자 id>
-2. _ 정렬: desc =\<필드 ex 날짜>
-3. 개수 =\<최대 결과>
+2. _sort: desc =\<field ex 날짜>
+3. _count =\<최대 결과>
 
 목표는 환자 마지막으로 알려진 위치를 검색할 수 있다는 것입니다. 각 발생은 위치 리소스를 참조 합니다. 또한 참조에는 위치의 표시 필드도 포함 됩니다.
 
@@ -219,7 +221,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서 다
 
     요청: <fa r-server>/AllergyIntolerance? 환자 =<환자 id>
     
-    응답: {"resourceType": "번들", "id": "<번들 id>", "유형": "searchset", "type": "#": "" resourceType ":" AllergyIntolerance "," id ":" clinicalStatus> <":" active "," ve rificationStatus ":" 확인 됨 "," 코드 ": {" 코딩 ": [{" 시스템 ":http://rxnav.nlm.nih.gov/REST/Ndfrt" "," 코드 ":" N0000175503 "," display ":" sulfonamide antibacterial ",}]," 텍스트 ":" sulfonamide ant ibacterial "}," assertedDate ":" 2018-01-01T00:00:00-7:00 "," 반응 ": [{" manifestation ": [{" "" "시스템": "http://snomed.info/sct", "코드":  "271807003", "display": "skin rash",}], "text": "skin rash"}]}
+    응답: {"resourceType": "번들", "id": "<번들 id>" "," 유형 ":" searchset "," total ":" entry ": [{" 리소스 ": {" resourceType ":" AllergyIntolerance "," id ":" <resource-id> "," clinicalStatus ":" active "," verificationStatus ":" 확인 됨 "," ":"http://rxnav.nlm.nih.gov/REST/Ndfrt"" "시스템": "", "" display ":" sulfonamide antibacterial ",}]," 텍스트 ":" sulfonamide ant ibacterial "}," assertedDate ":" 2018-01-01T00:00:00-07:00 "," 반응 ": [{" manifestation ": [{" 코딩 ": [{" 시스템 ":"http://snomed.info/sct"" 코드 ":" 271807003 "," display ":" skin rash ",}]," text ":" skin rash "}]}
 
 * * *
 
@@ -242,7 +244,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서 다
 리소스 검색에서 GET 메서드 및 다음 매개 변수를 사용 합니다.
 
 1. 환자 =\<환자 id>
-2. 개수 =\<최대 결과>
+2. _count =\<최대 결과>
 
 이 [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) 필드 집합에 대 한 자세한 내용은을 참조 하세요.
 

@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 온 보 딩 검사 목록을 사용 하 여 팀을 위한 Office 365을 준비 하 고 팀 핵심 기능, 네트워킹, 클라우드 음성 작업을 구성 합니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 653b5cf46e0b079af47c282b4110b181e76be915
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 418496b5dd86fb9720393721854c0fcf68daf52a
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517066"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825146"
 ---
 # <a name="prepare-my-service"></a>내 서비스 준비
 
@@ -56,7 +58,7 @@ ms.locfileid: "37517066"
 >대부분의 구성 설정은 팀과 비즈니스용 Skype Online 간에 일반적입니다. Microsoft 365 관리 센터 및 Microsoft 팀 관리 센터를 사용 하 여 해당 설정을 구성할 수 있습니다.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>온 보 딩 검사 완료에 대 한 책임은 누가 overseeing?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>온 보 딩 검사 완료에 대 한 책임은 누가 overseeing?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>온 보 딩 검사 목록을 다운로드 합니다.</li><li>조직의 배포 계획에 따라 온 보 딩 검사 목록 항목을 단계별로 진행 합니다.</li></ul></td></tr>
 </table>
 
@@ -183,7 +185,7 @@ ms.locfileid: "37517066"
 -   직접적인 라우팅 준수 요구 사항이 식별 되 고 구성 되었습니다.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>결정 사항</td><td><ul><li>배포할 오디오 회의 기능 기능을 결정 합니다 (서비스 의사 결정).</li><li>오디오 회의에 대 한 사용자 기능 요구 사항을 확인 합니다.</li><li>오디오 회의에 대 한 서비스 구성 요구 사항을 확인 합니다.</li><br><li>직접 라우팅 또는 호출 계획이 배포 되 고 구성 되는지 여부를 결정 합니다.<li>어떤 전화 시스템 기능 기능을 배포할지 결정 합니다 (서비스 의사 결정).</li><li>통화 요금제 또는 직접 라우팅에 대 한 사용자 기능 요구 사항을 확인 합니다.</li><li>통화 요금제 또는 직접 라우팅에 대 한 서비스 구성 요구 사항을 확인 합니다.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>의사 결정 지점</td><td><ul><li>배포할 오디오 회의 기능 기능을 결정 합니다 (서비스 의사 결정).</li><li>오디오 회의에 대 한 사용자 기능 요구 사항을 확인 합니다.</li><li>오디오 회의에 대 한 서비스 구성 요구 사항을 확인 합니다.</li><br><li>직접 라우팅 또는 호출 계획이 배포 되 고 구성 되는지 여부를 결정 합니다.<li>어떤 전화 시스템 기능 기능을 배포할지 결정 합니다 (서비스 의사 결정).</li><li>통화 요금제 또는 직접 라우팅에 대 한 사용자 기능 요구 사항을 확인 합니다.</li><li>통화 요금제 또는 직접 라우팅에 대 한 서비스 구성 요구 사항을 확인 합니다.</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>다음 단계</td><td><ul><li>테스트 계획 방법을 개발 하 고 문서화 합니다.</li><li>오디오 회의 기능을 위한 범위 내에서 서비스 환경과 사용자를 준비 합니다.</li><li>서비스 환경 및 사용자를 통화 계획 또는 다이렉트 라우팅 기능에 대 한 범위 내에서 준비 합니다.</li><li>사용 하도록 설정할 오디오 회의 기능에 대 한 테스트 유효성 검사를 실행 합니다.</li><li>사용 하도록 설정 하려는 호출 계획 또는 직접 라우팅 기능에 대 한 테스트 유효성 검사를 실행 합니다.</li><li>테스트 실패에 대 한 구성이 올바른지 확인 하 고 커뮤니티 문서를 검토 하 고 필요한 경우 지원 사례를 발생 시킵니다.</li></ul></td></tr>
 </table>
 

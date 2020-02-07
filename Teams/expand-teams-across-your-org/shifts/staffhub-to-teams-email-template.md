@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 이 전자 메일 서식 파일을 사용 하 여 Microsoft StaffHub에서 Microsoft 팀으로 전환 하는 방법에 대해 조직 전체의 사용자와 통신할 수 있습니다.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7b78940590d6c81422f09002685d7911055dfc4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1baea026c70d3132e1753e334341b89e261a1493
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37639080"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825776"
 ---
 # <a name="staffhub-to-teams-sample-email-to-users"></a>사용자에 게 StaffHub 팀의 전자 메일 보기
 
@@ -58,5 +60,5 @@ StaffHub에서 팀으로 이동 하는 데 도움이 되도록 조직의 사용�
 
 ## <a name="related-topics"></a>관련 항목
 
-- [팀에서 StaffHub 팀을 교대으로 이동 하는 계획](plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-- [팀에서 Microsoft StaffHub 팀을 교대으로 옮기기](move-staffhub-teams-to-shifts-in-teams.md)
+- [Teams에서 StaffHub 팀을 교대로 이동하기 위한 계획](plan-to-move-staffhub-teams-to-shifts-in-teams.md)
+- [Teams에서 Microsoft StaffHub 팀을 교대로 이동](move-staffhub-teams-to-shifts-in-teams.md)

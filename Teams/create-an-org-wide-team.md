@@ -10,16 +10,18 @@ ms.service: msteams
 search.appverid: MET150
 description: 팀에서 조직 전체 팀을 만들고 관리 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f291e0c2902754f346dfadb855e4e6bc6fbd573c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 854294f1ddb8e677037c151e3f7b3cada6e31c16
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795157"
+ms.locfileid: "41826756"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft 팀에서 조직 전체 팀 만들기
 
