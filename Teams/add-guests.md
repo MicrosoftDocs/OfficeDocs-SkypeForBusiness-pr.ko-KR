@@ -11,16 +11,18 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: sbhatta
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 description: Microsoft Teams 데스크톱 및 웹 클라이언트와 Azure Active Directory B2B 공동 작업 포털 등 조직에 새 게스트 사용자를 추가하기 위해 관리자에게 제공되는 도구에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78f495b10e953a8e416c8cadd755a098c8c948a7
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 5b25dc9c5b870b038b95f5df5821581f8c2fae79
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753253"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826946"
 ---
 <a name="add-a-guest-to-a-team"></a>팀에 게스트 추가
 =====================

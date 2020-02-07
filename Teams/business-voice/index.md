@@ -6,6 +6,8 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 keywords: Microsoft 365 Business, Microsoft 365 business, SMB, 중소기업, Microsoft 365 Business 설명서, 문서, 설명서, 기술 정보
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 audience: admin
 ms.service: msteams
@@ -14,12 +16,12 @@ ms.collection:
 - Teams_Business_Voice
 title: Microsoft 365 Business Voice
 description: Microsoft 365 Business Voice를 계획, 배포 및 사용하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4e8d681955013c7f1efd5d75fd90cd0a7b0c7af8
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: be2a6222a947f5fd064add7dadff0e438dfe626d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268684"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824856"
 ---
 <div id="main" class="v2">
     <div class="container">
