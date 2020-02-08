@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 이 문서에서는 팀 또는 비즈니스용 Skype에 프록시 서버를 사용 하는 방법에 대 한 정보를 제공 합니다.
-ms.openlocfilehash: 7eeb319c9c352f4f04abef581b88c1eddf46951d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ca81c32064406af0e5bc3d614566a96ec5646a91
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837308"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863189"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams 또는 비즈니스용 Skype Online 용 프록시 서버
 
@@ -50,17 +50,13 @@ Microsoft는 또한 다음을 적극 권장 합니다.
     
 - UDP 트래픽 허용
     
-- 네트워킹 지침의 다른 권장 사항에 따라 합니다.
-    
-  - [비즈니스용 Skype Online의 미디어 품질과 네트워크 연결 성능](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
-    
-  - [비즈니스용 Skype Online에 맞게 네트워크 최적화](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
+- 네트워킹 지침의 다른 권장 사항에 따라 [팀에 맞게 조직의 네트워크를 준비](prepare-network.md) 합니다.
+  
     
 이 지침을 팔 로우 하면 잠재적인 문제를 최소화할 수 있습니다.
   
 ## <a name="related-topics"></a>관련 항목
 
-[비즈니스용 Skype Online에 맞게 네트워크 최적화](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
+[Office 365 네트워크 연결 원칙](https://aka.ms/pnc)
 
-  
- 
+[Teams에 대한 조직의 네트워크 준비](prepare-network.md)

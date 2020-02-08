@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c44d1b35c19abb224f40bf71c81c61b91967c182
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1268a87e5e5ae48547e1f2489641ac13cd3bae64
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825156"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862718"
 ---
 # <a name="plan-my-service-management"></a>내 서비스 관리 계획
 
@@ -36,7 +36,7 @@ ms.locfileid: "41825156"
 대부분의 조직에 대 한 새로운 개념은 서비스 관리 라는 개념에 해당 하지 않을 수 있습니다. 기존 서비스와 연결 된 프로세스 및 작업을 이미 구현한 것일 수 있습니다. 이는 향후 Microsoft 팀을 지원 하기 위해 지금 서비스 관리 계획을 수립할 때의 현재 위치를 확장할 수 있다는 사실입니다.
 
 서비스 관리에는 Microsoft 팀의 종단 간 관리에 관련 된 모든 활동과 프로세스가 포함 됩니다. Office 365 서비스 자체에 포함 되는 인프라 구성 요소인 서비스 관리의 일부 구성 요소는 Microsoft의 책임 이지만, 고객은 팀, 네트워크 및 사용자의 다양 한 측면을 관리 하는 데 책임이 있습니다. 끝점을 제공 합니다.
-고객에 게 팀 서비스 관리에 대 한 자세한 설명과 사용자 환경의 품질을 underpin 하는 주요 구성 요소와의 관련성에 대 한 자세한 내용은 [서비스 관리 및 품질 계획](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide)을 참조 하세요.
+고객에 게 팀 서비스 관리에 대 한 자세한 설명과 사용자 환경의 품질을 underpin 하는 주요 구성 요소와의 관련성에 대 한 자세한 내용은 [서비스 관리 및 품질 계획](https://docs.microsoft.com/MicrosoftTeams/prepare-network)을 참조 하세요.
 
 ![품질의 세 가지 구성 요소 다이어그램](media/plan-my-service-management-image1.png "품질의 세 가지 구성 요소 (Office 365 서비스, 네트워크, 끝점)의 다이어그램으로, 서비스 관리가 세 가지 모두와 겹치는 방법에 대해 설명 합니다.")
 

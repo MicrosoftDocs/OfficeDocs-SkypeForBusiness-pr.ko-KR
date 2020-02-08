@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cd5bf036a3f613fff4af5cd97044bf8beebe7fa
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 74b5679805b325250a1c29e01a436738747dc49f
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824846"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862848"
 ---
 # <a name="microsoft-365-business-voice-partner-resources"></a>Microsoft 365 비즈니스 음성 협력 업체 리소스
 
@@ -34,9 +34,9 @@ ms.locfileid: "41824846"
 
 - [팀 실용적인 지침](../cloud-voice-landing-page.md)
 - [사전 평가 및 계획](../3-envision-evaluate-my-environment.md)
-- [Deployment](../3-onboard-deploy-my-service.md)
-- [작업](../1-drive-value-operate-my-service.md)
-- [기술](../envision-planning-for-service-management-and-quality-complete-guide.md#plan-for-service-management)
+- [배포](../3-onboard-deploy-my-service.md)
+- [운영](../1-drive-value-operate-my-service.md)
+- [지원](../prepare-network.md)
 - [해결사](../connectivity-issues.md)
 - [파트너 지원 계획](https://partner.microsoft.com/support/partnersupport)
 - [팀 서비스 공급자 가이드](https://aka.ms/teamsserviceproviderguide)

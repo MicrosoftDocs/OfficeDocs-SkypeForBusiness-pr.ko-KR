@@ -15,12 +15,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b207d5b7eafc7574daa454dbca6d9761f7375c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 646a820888c47b0e5ecd8cd491fb9949160cb42c
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835938"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862878"
 ---
 # <a name="enable-office-365"></a>Office 365 사용
  
@@ -34,5 +34,5 @@ ms.locfileid: "41835938"
 | 26  | Id에 대 한 환경을 구성 합니다. | 사용자는 Office 365에서 직접 (온라인 배포 모델에서) 만들거나 온-프레미스 Active Directory에서 Office 365 테 넌 트로 동기화 할 수 있습니다. <br/><br/>클라우드 id, 동기화 된 id 또는 페더레이션 id를 사용 해야 하는지 여부를 결정 합니다. 적절 한 id 형식을 결정 하는 것은이 검사 목록의 범위를 벗어났습니다. 그러나 **추가 정보** 열에서 이러한 옵션에 대 한 정보 링크를 찾을 수 있습니다. <br/><br/>**참고:** 동기화 또는 페더레이션 id를 사용 하는 경우에는 온-프레미스 Upn (사용자 계정 이름)이 Office 365 Upn과 일치 하며 모든 필수 특성이 Azure AD Connect와 동기화 되도록 구성 되어 있는지 확인 합니다. 팀에 필요한 특성을 보려면 비즈니스용 Skype Online에 대 한 특성 목록을 사용 하세요. | | [Office 365 id 및 Azure Active Directory 이해](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) <br/><br/>[Office 365에 대 한 디렉터리 동기화를 통해 사용자 프로 비전 준비](https://support.office.com/article/Prepare-to-provision-users-through-directory-synchronization-to-Office-365-01920974-9e6f-4331-a370-13aea4e82b3e) <br/><br/>[Azure AD Connect 동기화: 특성이 Azure Active Directory와 동기화 됨](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-attributes-synchronized) |
 | 7  | 테 넌 트 관리자 확인 | 보안 팀과 협력 하 여 Office 365 관리 모델을 개발 합니다. <br/><br/>모든 테 넌 트 및 서비스 관리자를 식별 하 고 문서화 하세요. | | [Office 365 관리자 역할 정보](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
 | 20cm(8  | 테 넌 트에 대 한 관리 역할 구현 | 관리 모델이 조직의 요구 사항에 맞는지 확인 하 고 관리자에 게 Office 365 관리자 역할을 할당 합니다. | | [Office 365 비즈니스 에디션에서 관리자 역할 할당](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
-| 되었는지  | CQD (통화 품질 대시보드)에 로그인 하 여 건물 정보를 업로드 합니다. | 모든 팀 구축은 팀을 사용 하는 모든 통화의 품질 및 안정성에 대 한 통찰력을 얻으려면 CQD를 활용 해야 합니다. <br><br>**추가 정보** 열에 나열 된 CQD 지침을 사용 하 여이 도구를 최대한 활용 하세요. | | [서비스 관리 및 품질 계획](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) <br/><br/>[품질 환경 검토 가이드](https://aka.ms/qerguide) <br/><br/>[품질 경험 검토 서식 파일](https://aka.ms/qertemplates) <br/><br/>[Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[건물 정보 업로드](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
+| 되었는지  | CQD (통화 품질 대시보드)에 로그인 하 여 건물 정보를 업로드 합니다. | 모든 팀 구축은 팀을 사용 하는 모든 통화의 품질 및 안정성에 대 한 통찰력을 얻으려면 CQD를 활용 해야 합니다. <br><br>**추가 정보** 열에 나열 된 CQD 지침을 사용 하 여이 도구를 최대한 활용 하세요. | | [서비스 관리 및 품질 계획](https://docs.microsoft.com/MicrosoftTeams/prepare-network) <br/><br/>[품질 환경 검토 가이드](https://aka.ms/qerguide) <br/><br/>[품질 경험 검토 서식 파일](https://aka.ms/qertemplates) <br/><br/>[Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[건물 정보 업로드](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
 | 1천만  | 건물 정보가 처리 되었는지 확인 하 고 테 넌 트에 대해 CQD (통화 품질 대시보드)가 작동 하도록 합니다. | | | [통화 품질 대시보드](https://cqd.lync.com) |

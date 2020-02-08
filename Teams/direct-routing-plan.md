@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결 하는 방법을 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: f1d6c914a2ed95a073fdf900628ad96fa10b7428
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4e6e26f0beaa74806ebc52ca31c007f5ec085fdc
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835148"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863179"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -249,17 +249,15 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 다음 IP 주소 중 하나로 확인 �
 
 ## <a name="sip-signaling-ports"></a>SIP 신호: 포트
 
-포트 요구 사항은 직접 라우팅이 제공 되는 모든 Office 365 환경에 대해 동일 합니다.
+직접 라우팅이 제공 되는 Office 365 환경에 대해 다음 포트를 사용 해야 합니다.
 - Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
 
-다음 포트를 사용 해야 합니다.
-
 |**통신량**|**보낸 사람**|**받는 사람**|**원본 포트**|**대상 포트**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP 프록시|하더라도|1024 – 65535|SBC에 정의 됨|
+|SIP/TLS|SIP 프록시|하더라도|1024 – 65535 (Office 365 GCC High/DoD 전용 포트 5061 및 5062을 사용 해야 함)|SBC에 정의 됨|
 SIP/TLS|하더라도|SIP 프록시|SBC에 정의 됨|5061|
 ||||||
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Microsoft 팀 방에 배포 하는 방법에 대해 자세히 알아보려면이 문서를 참조 하세요.
-ms.openlocfilehash: 3cc8df810989163b622a96dc5f16c8aa883447cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825966"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863349"
 ---
 # <a name="deployment-overview"></a>배포 개요
 
@@ -45,7 +45,7 @@ Microsoft 팀 회의실 구축은 본질적으로 다음 단계로 분류 됩니
 -   [인증](rooms-prep.md#certificates)
 -   [가상본](rooms-prep.md#proxy)
 
-**Pro 팁** -프록시 서버를 사용 하 여 Microsoft 팀 또는 비즈니스용 Skype Online에 대 한 액세스를 제공 하려는 경우 먼저 [이 문서를 검토](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)하세요. 프록시 서버를 통해 비즈니스용 Skype 트래픽에 대 한 정보를 제공 하는 경우 프록시 서버를 우회 하는 것이 좋습니다. 비즈니스용 Skype 소통량이 이미 암호화 되어 있으므로 프록시 서버에서 더 이상 보안을 유지할 수 없습니다. 광범위 한 배포의 일환으로 대역폭 계획 및 네트워크의 실제 시간 트래픽에 대 한 평가에 대 한 [환경 평가](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) 지침을 따르는 것이 좋습니다.
+**Pro 팁** -프록시 서버를 사용 하 여 팀 또는 비즈니스용 Skype Online에 대 한 액세스를 제공 하려는 경우 먼저 [이 문서를 검토](../proxy-servers-for-skype-for-business-online.md)하세요. 프록시 서버를 통해 비즈니스용 Skype 트래픽에 대 한 정보를 제공 하는 경우 프록시 서버를 우회 하는 것이 좋습니다. 비즈니스용 Skype 소통량이 이미 암호화 되어 있으므로 프록시 서버에서 더 이상 보안을 유지할 수 없습니다. 광범위 한 배포의 일환으로 대역폭 계획을 위한 [팀을 위해 네트워크 준비](../prepare-network.md) 및 네트워크에서 실시간 트래픽에 적합 한지 평가에 대 한 지침을 따르는 것이 좋습니다.
 
 |    |     |
 |-----------|------------|

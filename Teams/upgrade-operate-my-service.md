@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eab5673c1b4dcbc1810c96588577e6ee53938609
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2e3ef345df2696cd0d450f8b16d93508d0eed545
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837148"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863519"
 ---
 ![여행 다이어그램을 업그레이드 하 여 뛰어난 작업 단계 강조](media/upgrade-banner-op-excellence.png "운영에 대 한 다양 한 단계의 강조를 통해 업그레이드 여행 단계")
 
@@ -345,7 +345,7 @@ NPS는 – 100에서 100 까지의 인덱스 이며, 고객의 willingness을 �
 
 ## <a name="manage-network-quality"></a>네트워크 품질 관리
 
-여러 핵심 계획 요소는 최적화, 오른쪽 크기 조정, 네트워크 인프라를 수정 하 여 Microsoft 팀 서비스에 대 한 고품질 효율적인 경로를 보장 합니다. 계획 작업 및 요구 사항은 [네트워크 준비](upgrade-prepare-environment-prepare-network.md) 지침에서 다룹니다. 네트워크는 업그레이드, 확장 또는 기타 비즈니스 요구 사항으로 인해 시간에 따라 발전 하는 경우가 많습니다. 네트워크 계획 활동에서 팀에 대 한 요구 사항을 고려 하는 것이 중요 합니다.
+여러 핵심 계획 요소는 최적화, 오른쪽 크기 조정, 네트워크 인프라를 수정 하 여 Microsoft 팀 서비스에 대 한 고품질 효율적인 경로를 보장 합니다. 계획 작업 및 요구 사항은 [네트워크 준비](prepare-network.md) 지침에서 다룹니다. 네트워크는 업그레이드, 확장 또는 기타 비즈니스 요구 사항으로 인해 시간에 따라 발전 하는 경우가 많습니다. 네트워크 계획 활동에서 팀에 대 한 요구 사항을 고려 하는 것이 중요 합니다.
 
 네트워크 계획은 팀 배포의 중요 한 측면 이지만, 네트워크를 정상 상태로 유지 하 고 변화 하는 비즈니스 또는 기술 요구 사항에 따라 최신 상태를 유지 하는 것은 동일 합니다.
 
@@ -431,7 +431,7 @@ Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이
 
 1. **서비스 상태 확인:** 사용자가 겪을 수 있는 문제는 팀 서비스 또는 itsdependent 서비스에 부정적인 영향을 주는 이벤트와 관련이 있을 수 있습니다. 첫 번째 단계에서는 활성 서비스 문제가 없음을 확인 하는 것이 좋습니다. [Office 365 서비스 상태를 확인 하는 방법을](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)참조 하세요. 종속 서비스의 상태 (예: Exchange, SharePoint, 비즈니스용 OneDrive)를 확인 해야 합니다. 서비스 상태에 대 한 모니터링은 이전 섹션에서 [서비스 상태 모니터링](#monitor-service-health)에 자세히 설명 되어 있습니다.
 
-2. **클라이언트 연결의 유효성을 검사 합니다.** 연결 문제로 인해 팀에서 기능 또는 로그인 문제가 발생 합니다. 서비스에 대 한 연결을 확인 하는 것이 좋습니다 (특히 새 사이트 또는 위치에 적용). 각 사이트에 대해 다음 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips) 지침이 제공 되는지 확인 합니다. [Microsoft 네트워크 평가 도구](https://www.microsoft.com/download/details.aspx?id=53885) 를 활용 하 여 연결 테스트를 수행 하 여 미디어 포트가 팀의 기능에 맞게 올바르게 열려 있는지 확인할 수 있습니다. 연결 테스트를 실행 하는 방법에 대 한 자세한 단계는 [네트워크 준비](upgrade-prepare-environment-prepare-network.md) 지침에 나와 있습니다.
+2. **클라이언트 연결의 유효성을 검사 합니다.** 연결 문제로 인해 팀에서 기능 또는 로그인 문제가 발생 합니다. 서비스에 대 한 연결을 확인 하는 것이 좋습니다 (특히 새 사이트 또는 위치에 적용). 각 사이트에 대해 다음 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips) 지침이 제공 되는지 확인 합니다. [Microsoft 네트워크 평가 도구](https://www.microsoft.com/download/details.aspx?id=53885) 를 활용 하 여 연결 테스트를 수행 하 여 미디어 포트가 팀의 기능에 맞게 올바르게 열려 있는지 확인할 수 있습니다. 연결 테스트를 실행 하는 방법에 대 한 자세한 단계는 [네트워크 준비](prepare-network.md) 지침에 나와 있습니다.
 
 3. **알려진 문제점 목록 확인:** 이러한 문제 중 하나가 사용자에 게 부정적인 영향을 미치는지 여부를 확인 하려면 [팀의 알려진 문제점 목록을](known-issues.md) 참조 하세요. 이 문제를 해결 하려면 제공 된 해결 방법 (있는 경우)을 따릅니다.
 

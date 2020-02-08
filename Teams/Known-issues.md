@@ -13,15 +13,17 @@ ms.reviewer: marcl
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Microsoft Teams 클라이언트 앱 및 관리자 환경에 대해 현재 알려진 문제 목록입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c613f2116b5ad9f97426f60466d71d4ffaddba1
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 1f18bd8fa85ce07596fe36106ea97ef36e698a78
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628534"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845149"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams의 알려진 문제
 
@@ -42,6 +44,10 @@ ms.locfileid: "41628534"
 |테넌트 전체 커넥터의 관리자 관리를 더 이상 사용할 수 없음  <br/> |클라이언트와 온라인 버전 모두에서 커넥터를 추가하려고할 때 다음과 같은 오류가 발생합니다. 다시 시도하십시오. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Teams 설정에서 사용하지 않도록 설정합니다. 다음 지원 문서를 참조하세요. https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017년 6월 21일  <br/> |
 
 ## <a name="apps"></a>앱
+
+|**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
+|:-----|:-----|:-----|:-----|
+|Chrome 버전 80 사용자는 Teams 플랫폼의 일부 앱에 로그인할 수 없습니다.<br/>|사용자가 암호 자격 증명을 앱의 로그인 페이지에 올바르게 입력한 후에는 앱에서 사용자를 인식하지 못하고 앱의 로그인 페이지로 다시 리디렉션되는 연속 주기가 시작됩니다. <br/>|사용자가 Teams 데스크톱 클라이언트를 사용하도록 안내합니다. |2019년 11월 15일<br/> |
 
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|
@@ -316,7 +322,7 @@ ms.locfileid: "41628534"
 
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|
-|Teams Planner와 Planner 온라인 통합 <br/> |소유자는 기존 office 365 그룹에서 만든 팀으로부터 계획을 만들 수 없습니다.  <br/> |그룹 소유자에게 구성원 권한을 부여합니다. <br/> |20/1/14  <br/>|
+|Teams Planner와 Planner 온라인 통합 <br/> |소유자는 기존 Office 365 그룹에서 만든 팀에 대한 계획을 만들 수 없습니다.  <br/> |그룹 소유자에게 구성원 권한을 부여합니다. <br/> |20/1/14  <br/>|
 
 
 

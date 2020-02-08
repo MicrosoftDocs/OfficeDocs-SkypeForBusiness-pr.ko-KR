@@ -480,7 +480,6 @@
 ### [Teams를 사용하도록 IT 직원 준비](upgrade-prepare-IT-pros.md)
 ### [필수 구성 요소](upgrade-plan-journey-prerequisites.md)
 ### [환경 평가](upgrade-plan-journey-evaluate-environment.md)
-### [네트워크 준비](upgrade-prepare-environment-prepare-network.md)
 ### [서비스 준비](upgrade-prepare-environment-prepare-service.md)
 
 ## Teams를 사용하도록 조직 준비
@@ -673,7 +672,6 @@
 # 참조
 
 ## Teams 배포 준비
-### [Teams에 대한 환경 준비 상태 확인](environment-readiness.md)
 ### [Teams에 대한 조직의 네트워크 준비](prepare-network.md)
 ### [Teams용 관리자를 사용하여 Teams 배포](use-advisor-teams-roll-out.md)
 ### [Teams에 Network Planner 사용](network-planner.md)

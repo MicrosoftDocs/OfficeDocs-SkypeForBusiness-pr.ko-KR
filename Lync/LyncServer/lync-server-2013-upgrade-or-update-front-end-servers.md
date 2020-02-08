@@ -7,23 +7,23 @@ f1.keywords:
 - NOCSH
 TOCTitle: Upgrade or update Front End Servers
 ms:assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204736(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204736(v=OCS.15)
 ms:contentKeyID: 48183597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af1680da68299881fe94244969d44fce1900532b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 14a4c5f81b88db33ba86c4410109a0943b81cb87
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744638"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852013"
 ---
-<div data-xmlns="http://www.w3.org/1999/xhtml">
+<div data-xmlns="https://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="upgrade-or-update-front-end-servers-in-lync-server-2013"></a>Lync Server 2013에서 프런트 엔드 서버 업그레이드 또는 업데이트
 
@@ -41,7 +41,7 @@ _**마지막으로 수정한 주제:** 2013-06-28_
 
 서버를 업그레이드 하는 경우 한 번에 하나의 업그레이드 도메인을 만들어야 합니다. 각 서버를 한 업그레이드 도메인에서 아래로 가져오고 업그레이드 한 다음 다른 업그레이드 도메인으로 이동 하기 전에 다시 시작 합니다. 지금까지 업그레이드 한 업그레이드 도메인 및 서버를 추적 하세요. 각 서버를 업그레이드할 때 다음 순서도 다이어그램을 사용 합니다.
 
-:::image type="content" source="images/UpgradeUpdateFrontEndServerslync2013.png" alt-text="프런트 엔드 서버 업그레이드 또는 업데이트":::
+![프런트 엔드 서버 업그레이드 또는 업데이트](images/upgradeupdatefrontendserverslync2013.png)
 
 <div>
 

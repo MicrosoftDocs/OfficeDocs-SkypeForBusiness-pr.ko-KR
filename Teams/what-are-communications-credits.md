@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '통신 크레딧 (PSTN 소비) 청구, 요금을 확인 하는 방법, 제공 되는 서비스에 대해 알아봅니다. '
-ms.openlocfilehash: 4fe46800df7dbef9baf8184283d0e4d811388f53
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b8462c7ad3c4f2820f1276be47fa4140ad79755a
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836738"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852125"
 ---
 # <a name="what-are-communications-credits"></a>통신 크레딧이란?
 
@@ -52,7 +52,7 @@ ms.locfileid: "41836738"
   
 ## <a name="what-are-the-communications-credits-rates"></a>통신 크레딧 요금은 무엇 인가요?
 
-통화 요금제의 비용에 대 한 자세한 내용은 통화 요금제 [에 대 한](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates) 통신 크레딧 요금을 참조 하세요.
+통화 요금에 따른 비용을 알고 싶은 경우에는 통화 플랜 [에 대 한](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates) 통신 크레딧 요금을 참조 하세요 ("통화를 원하는 곳에 대 한 요금 보기" 참조).
   
 ## <a name="what-is-it"></a>이게 뭐예요?
 

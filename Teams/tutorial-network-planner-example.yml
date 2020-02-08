@@ -15,15 +15,15 @@ metadata:
   localization_priority: Normal
   ms.collection:
   - M365-collaboration
-  ms.openlocfilehash: 1046ad4331e085609f2b412e6ff8abb3830ee330
-  ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+  ms.openlocfilehash: 7a743bea1524084298abb590c653d994aacb0bc4
+  ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/24/2019
-  ms.locfileid: "37639461"
+  ms.lasthandoff: 02/08/2020
+  ms.locfileid: "41863539"
 items:
 - durationInMinutes: 2
-  content: "\n네트워크 Planner 도구는 팀 관리 센터에서 사용할 수 있습니다. 조직의 네트워크 요구 사항을 결정 하는 데 도움이 됩니다. 이 예제 시나리오에서는 도구를 사용 하 여 Contoso 라는 회사에 대 한 사이트, 가상 사용자, 실행 보고서를 만드는 방법을 보여 줍니다. \n\n## <a name=\"before-you-begin\"></a>시작 하기 전에\n\n팀 관리 센터를 사용 하는 방법을 이미 알고 있는 것으로 가정 하 고, 팀을 위해 네트워크를 준비 하기 위해 수행 해야 하는 작업에 익숙합니다. 네트워크 Planner에서 본 문서 중 첫 번째 문서인 경우 먼저 다음 문서를 진행 하는 것이 좋습니다.\n\n- [팀을 위한 조직의 네트워크 준비](prepare-network.md)\n- [Microsoft 팀을 위한 네트워크 Planner 사용](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Contoso 네트워크 개요\n\nContoso에는 다음 세 가지 위치가 있습니다.\n\n- **시애틀 본부:** 이는 Contoso의 주요 위치입니다. 1000 직원이 있으며 25 개는 통화 전용입니다. 사이트가 인터넷에 연결 되어 있으며 PSTN (local 전화망 connection)이 있습니다. Contoso는 팀과 지역 전화 연결을 사용할 수 있도록 다이렉트 라우팅이 설정 되어 있습니다. \n- **Kirkland Office:** 이 지사는 400 직원을 보유 하 고 있으며 10 개 통화만 가능 합니다. 사이트는 인터넷 및 휴대폰 (PSTN) 트래픽 모두에 대해 본사에 대 한 연결을 사용 합니다. 이 office는 WAN 연결을 사용 하 여 시애틀 본부에 연결 되어 있습니다.\n- **Denver Office:** 이 office에는 250 직원이 있지만 50는 통화 전용입니다. 사이트에는 고유한 로컬 인터넷 연결이 있지만 PSTN (다이렉트 전화 연결)이 없습니다.\n\n시작 해 보세요!\n"
+  content: "\n네트워크 Planner 도구는 팀 관리 센터에서 사용할 수 있습니다. 조직의 네트워크 요구 사항을 결정 하는 데 도움이 됩니다. 이 예제 시나리오에서는 도구를 사용 하 여 Contoso 라는 회사에 대 한 사이트, 가상 사용자, 실행 보고서를 만드는 방법을 보여 줍니다. \n\n## <a name=\"before-you-begin\"></a>시작 하기 전에\n\n팀 관리 센터를 사용 하는 방법을 이미 알고 있는 것으로 가정 하 고, 팀을 위해 네트워크를 준비 하기 위해 수행 해야 하는 작업에 익숙합니다. 네트워크 Planner에서 본 문서 중 첫 번째 문서인 경우 먼저 다음 문서를 진행 하는 것이 좋습니다.\n\n- [Teams에 대한 조직의 네트워크 준비](prepare-network.md)\n- [Microsoft 팀을 위한 네트워크 Planner 사용](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Contoso 네트워크 개요\n\nContoso에는 다음 세 가지 위치가 있습니다.\n\n- **시애틀 본부:** 이는 Contoso의 주요 위치입니다. 1000 직원이 있으며 25 개는 통화 전용입니다. 사이트가 인터넷에 연결 되어 있으며 PSTN (local 전화망 connection)이 있습니다. Contoso는 팀과 지역 전화 연결을 사용할 수 있도록 다이렉트 라우팅이 설정 되어 있습니다. \n- **Kirkland Office:** 이 지사는 400 직원을 보유 하 고 있으며 10 개 통화만 가능 합니다. 사이트는 인터넷 및 휴대폰 (PSTN) 트래픽 모두에 대해 본사에 대 한 연결을 사용 합니다. 이 office는 WAN 연결을 사용 하 여 시애틀 본부에 연결 되어 있습니다.\n- **Denver Office:** 이 office에는 250 직원이 있지만 50는 통화 전용입니다. 사이트에는 고유한 로컬 인터넷 연결이 있지만 PSTN (다이렉트 전화 연결)이 없습니다.\n\n시작 해 보세요!\n"
 - title: 네트워크 계획 추가
   durationInMinutes: 2
   content: "\n팀 관리 센터에서 **조직 전체 설정을** 확장 한 다음 **네트워크 planner**를 선택 합니다. 가장 먼저 해야 할 일은 네트워크 계획을 만드는 것입니다. \n\n1. **네트워크 계획 추가** 클릭 \n2. **새 네트워크 계획** 창에 네트워크 계획의 이름과 설명을 추가 합니다. 이 예제에서는 계획 이름으로 *Contoso1* 를 사용 하 고 *Contoso 네트워크 계획* 을 설명으로 사용 합니다.\n3. **저장** 클릭\n\n![새 네트워크 계획 추가](media/network-planner-new-network-plan.png)\n\n네트워크 요금제를 저장 하면 네트워크 계획 목록에 표시 됩니다. \n\n![네트워크 계획 목록](media/network-planner-network-plans.png)\n"
@@ -41,4 +41,4 @@ items:
   content: "\n보고서를 생성 하면 대역폭 요구 사항을 전체 및 모달 관련 값으로 표시 하는 화면이 표시 됩니다. 기본적으로 허용 되는 대역폭은 30%로 설정 됩니다. 이 값을 변경 하 고 **보고서 실행**을 클릭 하 여 네트워크 대역폭에 대 한 다양 한 영향을 확인할 수 있습니다. 더 많은 대역폭이 필요한 영역은 빨간색으로 강조 표시 됩니다.\n\n![보고서 분석](media/network-planner-report-output.png)\n\n네트워크 planner는 또한 네트워크에 있는 팀의 예상 되는 영향을 기준으로 권장 사항을 제공 합니다. 추천 보기 아이콘을 클릭 하 여 각 사이트에 대 한 권장 사항을 확인 합니다 (있는 경우). 아래 이미지에서는 권장 하는 추천 보기를 보여 줍니다.\n\n![추천 보기](media/network-planner-recommendation-view.png)\n\n이번에는 팀에서 최상의 성능을 얻기 위해 현재 Kirkland 사이트의 대역폭을 늘려야 한다는 것을 확인할 수 있습니다. \n"
 - title: 추가 리소스
   durationInMinutes: 1
-  content: "\n이렇게 하면 네트워크 Planner에 대 한 예제 시나리오가 완료 됩니다. 조직의 팀을 준비 하는 데 대 한 자세한 내용은 [네트워크 Planner 문서로](network-planner.md)돌아가서 다음 리소스를 확인 하세요.\n\n - [환경의 팀에 대 한 준비 상태 확인](environment-readiness.md)\n - [Microsoft 팀을 위한 조직의 네트워크 준비](prepare-network.md)\n - [경력 품질 검토 가이드](quality-of-experience-review-guide.md)\n - [Office 365 Url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)"
+  content: "\n이렇게 하면 네트워크 Planner에 대 한 예제 시나리오가 완료 됩니다. 조직의 팀을 준비 하는 데 대 한 자세한 내용은 [네트워크 Planner 문서로](network-planner.md)돌아가서 다음 리소스를 확인 하세요.\n\n - [Microsoft Teams에 대한 조직의 네트워크 준비](prepare-network.md)\n - [QoE(체감 품질) 검토 가이드](quality-of-experience-review-guide.md)\n - [Office 365 URL 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)"

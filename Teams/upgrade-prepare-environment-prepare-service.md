@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d723cae9bf26896f40fe14ad8f04038da6ed04dc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5e70d9bed1dfc2f04d7c5fa5a6823f93a02ec759
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836118"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863449"
 ---
 ![여행 다이어그램 업그레이드, 기술 준비 단계 강조](media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
@@ -46,7 +46,7 @@ ms.locfileid: "41836118"
 
 - [팀 핵심 기능 구성](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-- [네트워킹 구성](onboarding-checklist-configure-networking.md)
+- [네트워크 준비](prepare-network.md)
 
 - [팀에서 클라우드 음성 작업 부하 구성](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 

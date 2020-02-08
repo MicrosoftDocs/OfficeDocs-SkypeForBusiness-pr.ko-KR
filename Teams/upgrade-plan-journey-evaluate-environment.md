@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5000ecb5195654e902c06f329c910c0a5edb7d55
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2b97adde4f5016262ac3de1a5b79c9d69975580b
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837134"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863489"
 ---
 ![여행 다이어그램 업그레이드, 기술 준비 단계 강조](media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
@@ -196,4 +196,4 @@ ms.locfileid: "41837134"
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>다음 단계</td><td><ul><li>환경 평가의 결과를 문서화 합니다.</li></ul></td></tr>
 </table>
 
-환경을 평가한 후에는 다음 단계를 진행 하세요 ( [네트워크 준비](upgrade-prepare-environment-prepare-network.md)).
+환경을 평가한 후에는 다음 단계를 진행 하세요 ( [네트워크 준비](prepare-network.md)).

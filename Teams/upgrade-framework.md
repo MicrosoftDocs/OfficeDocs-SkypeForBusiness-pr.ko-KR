@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d403a97b5c9a7320834d6c78f78cafa28d54116a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 42b4efcd2e9b38aebb7f44d3aa09d7be1ca634f3
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837188"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863529"
 ---
 # <a name="about-the-upgrade-framework"></a>업그레이드 프레임워크 정보
 
@@ -68,7 +68,7 @@ ms.locfileid: "41837188"
 | 단계만 |  | 요약 | 자원별 |
 |------|--|---------|----------|
 | **1** | **환경 평가 및 팀 완료 기술 온 보 딩** | 사용자 환경을 최적화 하 고 시간에 따라 업그레이드를 쉽게 수행할 수 있도록 환경이 팀의 준비가 되었는지 확인 합니다. | [팀으로 업그레이드 하기 전에 환경을 평가](upgrade-plan-journey-evaluate-environment.md)합니다.<br><br> [팀으로 업그레이드 하기 위해 서비스 준비](upgrade-prepare-environment-prepare-service.md) |
-| **2** | **특히 실시간 미디어 시나리오용으로 팀 네트워크 최적화** | 오디오, 비디오 또는 모임을 배포 하는 경우 다음 단계를 추가로 수행 하 여 해당 기능에 맞게 네트워크를 최적화 합니다. | [팀으로 업그레이드 하기 위한 네트워크 준비](upgrade-prepare-environment-prepare-network.md) |
+| **2** | **특히 실시간 미디어 시나리오용으로 팀 네트워크 최적화** | 오디오, 비디오 또는 모임을 배포 하는 경우 다음 단계를 추가로 수행 하 여 해당 기능에 맞게 네트워크를 최적화 합니다. | [팀으로 업그레이드 하기 위한 네트워크 준비](prepare-network.md) |
 | **3** | **조직 변경 준비를 평가 하 고 팀워크 시나리오 정의** | 사용자의 기본 메시징 및 교육 수준을 준비 하 여 사용자 채택을 쉽게 하 고 가속화할 수 있는 사용 권한 메시지를 이해 합니다. | [조직 변경 준비](upgrade-org-change-readiness.md#organizational-change-readiness) |
 | **4(tcp/ipv4)** | **사용자의 커뮤니케이션, 교육 및 지원 방법을 정의 하는 사용자 준비 계획 준비** | 새로운 기술에 대 한 최적의 receptiveness을 보장 하도록 통신, 교육 및 지원 계획을 설정 합니다. | [사용자 준비 계획 준비](upgrade-user-readiness.md)<br><br>[성공 키트 업그레이드](https://aka.ms/UpgradeSuccessKit) |
 | **5mb** | **Microsoft 팀의 보류 중인 시작 알림** | 사용자가 포함 된 느낌을 줄 수 있도록 조기에 의사 소통 하 고, 혼란을 줄이며, 흥미로운 것을 생성 | [성공 키트 업그레이드](https://aka.ms/UpgradeSuccessKit) |

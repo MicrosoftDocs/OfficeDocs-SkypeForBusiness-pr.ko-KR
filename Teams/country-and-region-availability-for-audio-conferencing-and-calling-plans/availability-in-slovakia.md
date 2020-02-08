@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype 및 슬로바키아에서 사용할 수 있는 Microsoft 팀을 위한 Office 365 서비스입니다.
-ms.openlocfilehash: 47f30db5bc6873afecbc3b76648b84a317e27e4b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c1da560d6ad89fb63d775770e515f747a00f6b05
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683571"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852391"
 ---
 # <a name="availability-in-slovakia"></a>슬로바키아의 사용 가능 여부
 
@@ -62,6 +62,8 @@ ms.locfileid: "41683571"
 |전화 플랜은 구매할 수 있나요?  <br/> |아니요  <br/> |
 |통화 플랜에 사용할 수 있는 시간 (분)  <br/> |해당 없음  <br/> |
 |님이 발신 전화를 할 수 있습니까?  <br/> |해당 없음  <br/> |
+
+통화 요금제를 구매할 수 없는 경우에는 [전화 시스템 다이렉트 라우팅을](../direct-routing-landing-page.md)사용 하는 것이 좋습니다. 직접 라우팅으로 전화 시스템을 거의 모든 통신 사업자와 함께 사용할 수 있습니다.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스의 유료 및 무료 전화 번호
 
@@ -81,7 +83,7 @@ ms.locfileid: "41683571"
    
 설정 하려는 경우 [조직의 통신 크레딧 설정을](../set-up-communications-credits-for-your-organization.md)참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 

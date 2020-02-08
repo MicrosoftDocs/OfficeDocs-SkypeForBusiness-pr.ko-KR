@@ -1,11 +1,11 @@
 ---
 title: Microsoft 팀에 대 한 경험 치 검토 가이드
-author: lanachin
-ms.author: v-lanac
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: siunies
 audience: admin
 description: CQD (통화 품질 대시보드)를 사용 하 여 Microsoft 팀에 대 한 실시간 미디어 성능을 분석 하는 가이드입니다.
 localization_priority: Normal
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff4fe3a0a8a43c23978345461b0d32fe5182a6dd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6e11c7d479aeac6eef39fb38588a61c0c7be25a6
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838258"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863399"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
 
@@ -1141,8 +1141,6 @@ _그림 29 – 빌드 및 서브넷 별 HTTP 프록시 사용_
 HTTP 사용의 가장 일반적인 원인에는 프록시에서 발생 하는 예외 규칙이 없습니다. 제공 된 건물이 나 subnet을 사용 하 여 미디어 바이패스에 대해 구성 해야 할 프록시를 빠르게 결정할 수 있습니다.
 
 필요한 [Office 365 fqdn](https://aka.ms/o365ips) 이 프록시에 허용 목록 되었는지 확인 합니다.
-
-비즈니스용 Skype Online 및 팀과 프록시를 사용 하는 방법에 대 한 자세한 내용은 [이 문서](proxy-servers-for-skype-for-business-online.md)를 참조 하세요.
 
 ## <a name="endpoint-investigations"></a>끝점 조사
 

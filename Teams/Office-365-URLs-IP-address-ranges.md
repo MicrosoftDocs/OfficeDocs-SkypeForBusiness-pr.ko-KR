@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52bbf0ae0c104989c63315b42d3aaa08985da637
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1258138ce6f57dfb0284e030f7a813acf8b94a62
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834388"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862798"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 및 IP 주소 범위
 =====================================
@@ -32,6 +32,6 @@ ms.locfileid: "41834388"
 
 팀 통화 및 모임 환경은 Skype 및 비즈니스용 Skype에서 함께 사용 되는 차세대 클라우드 기반 인프라에 기반을 둔 것입니다. 이러한 기술 투자에는 미디어 처리 및 신호, SILK 및 Opus audio 코덱, 네트워크 탄력성, 원격 분석, 품질 진단 등을 위한 Azure 기반 클라우드 서비스가 포함 됩니다. 따라서 Skype와 비즈니스용 Skype 모두에 연결 될 수 있는 Url과 Ip가 필요 합니다.
 
-모든 Office 365 작업에 대해 권장 되는 팀 서비스 연결 방법은 가능한 경우 전달 프록시를 우회 하는 것입니다. 프록시 서버가 클라이언트와 Office 365 데이터 센터 사이에 있으면 UDP 대신 TCP를 통해 미디어를 강제로 사용할 수 있으므로 미디어 품질에 영향을 줄 수 있습니다. [Office 365 끝점 관리](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)에서 트래픽 바이패스를 구성 하는 데 사용할 수 있는 샘플 프록시 PAC 파일을 다운로드 합니다.
+모든 Office 365 작업에 대해 권장 되는 팀 서비스 연결 방법은 가능한 경우 전달 프록시를 우회 하는 것입니다. 프록시 서버가 클라이언트와 Office 365 데이터 센터 사이에 있으면 UDP 대신 TCP를 통해 미디어를 강제로 사용할 수 있으므로 미디어 품질에 영향을 줄 수 있습니다. [Office 365 끝점 관리](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints)에서 트래픽 바이패스를 구성 하는 데 사용할 수 있는 샘플 프록시 PAC 파일을 다운로드 합니다.
 
-네트워킹 및 보안 정책에 프록시 서버를 통해 전송 하는 데 Office 365 트래픽이 필요한 경우 팀에 배포 하기 전에 위의 요구 사항이 이미 충족 되었는지 확인 합니다 ( [팀의 프록시 서버 또는 비즈니스용 Skype Online](proxy-servers-for-skype-for-business-online.md) 지침 참조).
+네트워킹 및 보안 정책에 프록시 서버를 통해 전송 하는 데 Office 365 트래픽이 필요한 경우 팀을 프로덕션에 배포 하기 전에 위의 요구 사항이 이미 충족 되었는지 확인 합니다. 자세한 내용은 [팀에 대 한 프록시 서버 또는 비즈니스용 Skype Online](proxy-servers-for-skype-for-business-online.md)을 참조 하세요.

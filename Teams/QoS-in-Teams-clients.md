@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀 클라이언트에서 서비스 품질 구현
-author: jambirk
-ms.author: jambirk
+author: lolajacobsen
+ms.author: lolaj
 manager: Serdars
 ms.date: 2/17/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43a4c7ea45fe0feabbe8851cde944a70994829da
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6fb3823a77995e401be7e60e86603f9d8c56099f
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836488"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863159"
 ---
 # <a name="set-qos-on-windows-clients"></a>Windows 클라이언트에 QoS 설정
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65a9c79dd29656b7bdc8563f0444d90133399f2b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825176"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862818"
 ---
 # <a name="deploy-my-service"></a>내 서비스 배포
 
@@ -44,7 +44,7 @@ ms.locfileid: "41825176"
 -   지원 요구를 줄이고 사용자 만족도를 높입니다.
 
 > [!NOTE]
-> 이 문서 및 관련 playbook는 서비스 사용 또는 특정 사이트에 발신음을 제공 하는 데 필요한 모든 기술 구성 단계를 설명 하는 것이 아닙니다. 대신 사용자가 쉽게 사용할 수 있도록 하는 작업 및 작업에 중점을 두 며, 지원 요구 사항을 최소화 하면서, 채택 률이 높은 빠른 전환 및 원활한 전환을 통해 팀 음성 작업량을 소모 하기 시작 합니다. 팀 음성에 가장 적합 한 환경을 구성 하는 방법에 대 한 기술 지침은 팀 [음성 작업을 구성](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)하기 위한 온 보 딩 검사 목록, 팀 [에서 직접 라우팅 구성](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), 팀 [핵심 기능](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), 팀 [네트워킹](onboarding-checklist-configure-networking.md)및 [Office 365 사용](onboarding-checklist-enable-office-365.md)을 참조 하세요.
+> 이 문서 및 관련 playbook는 서비스 사용 또는 특정 사이트에 발신음을 제공 하는 데 필요한 모든 기술 구성 단계를 설명 하는 것이 아닙니다. 대신 사용자가 쉽게 사용할 수 있도록 하는 작업 및 작업에 중점을 두 며, 지원 요구 사항을 최소화 하면서, 채택 률이 높은 빠른 전환 및 원활한 전환을 통해 팀 음성 작업량을 소모 하기 시작 합니다. 팀 음성에 가장 적합 한 환경을 구성 하는 방법에 대 한 기술 지침은 팀 [음성 작업을 구성](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)하기 위한 온 보 딩 검사 목록, 팀 [에서 직접 라우팅 구성](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), 팀 [핵심 기능](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), 팀 [네트워킹](prepare-network.md)및 [Office 365 사용](onboarding-checklist-enable-office-365.md)을 참조 하세요.
 
 <!--ENDOFSECTION-->
 
