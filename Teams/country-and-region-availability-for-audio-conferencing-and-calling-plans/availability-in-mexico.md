@@ -25,67 +25,69 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 멕시코에서 사용할 수 있는 Microsoft 팀입니다.
-ms.openlocfilehash: 15b7590345c96c8af75db8ac8450d3ea8959f294
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: eeef4c239c00aad00b24abd2e77b23dd7ece325c
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694873"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852947"
 ---
-# <a name="availability-in-mexico"></a><span data-ttu-id="fe3bc-103">멕시코에서 사용 가능</span><span class="sxs-lookup"><span data-stu-id="fe3bc-103">Availability in Mexico</span></span>
+# <a name="availability-in-mexico"></a><span data-ttu-id="2e687-103">멕시코에서 사용 가능</span><span class="sxs-lookup"><span data-stu-id="2e687-103">Availability in Mexico</span></span>
 
-<span data-ttu-id="fe3bc-104">[다른 국가 또는 지역을 찾거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능성에 대해 자세히 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="fe3bc-104">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
+<span data-ttu-id="2e687-104">[다른 국가 또는 지역을 찾거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능성에 대해 자세히 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="2e687-104">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
 
-<span data-ttu-id="fe3bc-105">다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 멕시코에서 사용할 수 있는 Microsoft 팀입니다.</span><span class="sxs-lookup"><span data-stu-id="fe3bc-105">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Mexico.</span></span>
+<span data-ttu-id="2e687-105">다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 멕시코에서 사용할 수 있는 Microsoft 팀입니다.</span><span class="sxs-lookup"><span data-stu-id="2e687-105">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Mexico.</span></span>
   
-## <a name="audio-conferencing"></a><span data-ttu-id="fe3bc-106">오디오 회의</span><span class="sxs-lookup"><span data-stu-id="fe3bc-106">Audio Conferencing</span></span>
+## <a name="audio-conferencing"></a><span data-ttu-id="2e687-106">오디오 회의</span><span class="sxs-lookup"><span data-stu-id="2e687-106">Audio Conferencing</span></span>
 
-|<span data-ttu-id="fe3bc-107">**기능**</span><span class="sxs-lookup"><span data-stu-id="fe3bc-107">**Feature**</span></span>|<span data-ttu-id="fe3bc-108">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="fe3bc-108">**Details**</span></span>|
+|<span data-ttu-id="2e687-107">**기능**</span><span class="sxs-lookup"><span data-stu-id="2e687-107">**Feature**</span></span>|<span data-ttu-id="2e687-108">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="2e687-108">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="fe3bc-109">음성 회의는 구매할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="fe3bc-109">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="fe3bc-110">예</span><span class="sxs-lookup"><span data-stu-id="fe3bc-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="fe3bc-111">오디오 회의에 대 한 전화 번호가 자동으로 할당 되나요?</span><span class="sxs-lookup"><span data-stu-id="fe3bc-111">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="fe3bc-112">예, 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="fe3bc-112">Yes, for:</span></span><br/><ul><li> <span data-ttu-id="fe3bc-113">멕시코 시티</span><span class="sxs-lookup"><span data-stu-id="fe3bc-113">Mexico City</span></span></ul> <span data-ttu-id="fe3bc-114">전용 전화 번호를 원할 경우 [비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fe3bc-114">If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>  <br/> |
-|<span data-ttu-id="fe3bc-115">전화 걸기 기능 사용</span><span class="sxs-lookup"><span data-stu-id="fe3bc-115">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="fe3bc-116">공간이</span><span class="sxs-lookup"><span data-stu-id="fe3bc-116">Available</span></span>  <br/> |
+|<span data-ttu-id="2e687-109">음성 회의는 구매할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="2e687-109">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="2e687-110">예</span><span class="sxs-lookup"><span data-stu-id="2e687-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="2e687-111">오디오 회의에 대 한 전화 번호가 자동으로 할당 되나요?</span><span class="sxs-lookup"><span data-stu-id="2e687-111">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="2e687-112">예, 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="2e687-112">Yes, for:</span></span><br/><ul><li> <span data-ttu-id="2e687-113">멕시코 시티</span><span class="sxs-lookup"><span data-stu-id="2e687-113">Mexico City</span></span></ul> <span data-ttu-id="2e687-114">전용 전화 번호를 원할 경우 [비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="2e687-114">If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>  <br/> |
+|<span data-ttu-id="2e687-115">전화 걸기 기능 사용</span><span class="sxs-lookup"><span data-stu-id="2e687-115">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="2e687-116">공간이</span><span class="sxs-lookup"><span data-stu-id="2e687-116">Available</span></span>  <br/> |
    
-## <a name="phone-system"></a><span data-ttu-id="fe3bc-117">전화 시스템</span><span class="sxs-lookup"><span data-stu-id="fe3bc-117">Phone System</span></span>
+## <a name="phone-system"></a><span data-ttu-id="2e687-117">전화 시스템</span><span class="sxs-lookup"><span data-stu-id="2e687-117">Phone System</span></span>
 
-|<span data-ttu-id="fe3bc-118">**기능**</span><span class="sxs-lookup"><span data-stu-id="fe3bc-118">**Feature**</span></span>|<span data-ttu-id="fe3bc-119">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="fe3bc-119">**Details**</span></span>|
+|<span data-ttu-id="2e687-118">**기능**</span><span class="sxs-lookup"><span data-stu-id="2e687-118">**Feature**</span></span>|<span data-ttu-id="2e687-119">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="2e687-119">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="fe3bc-120">전화 시스템을 구매할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="fe3bc-120">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="fe3bc-121">예</span><span class="sxs-lookup"><span data-stu-id="fe3bc-121">Yes</span></span>  <br/> |
-| <span data-ttu-id="fe3bc-122">자동 전화 교환</span><span class="sxs-lookup"><span data-stu-id="fe3bc-122">Auto attendants</span></span> <br/> |<span data-ttu-id="fe3bc-123">공간이</span><span class="sxs-lookup"><span data-stu-id="fe3bc-123">Available</span></span>  <br/> |
-|<span data-ttu-id="fe3bc-124">통화 대기열</span><span class="sxs-lookup"><span data-stu-id="fe3bc-124">Call queues</span></span>  <br/> |<span data-ttu-id="fe3bc-125">공간이</span><span class="sxs-lookup"><span data-stu-id="fe3bc-125">Available</span></span>  <br/> |
-|<span data-ttu-id="fe3bc-126">음성 메일</span><span class="sxs-lookup"><span data-stu-id="fe3bc-126">Voicemail</span></span>  <br/> |<span data-ttu-id="fe3bc-127">공간이</span><span class="sxs-lookup"><span data-stu-id="fe3bc-127">Available</span></span>  <br/> |
+|<span data-ttu-id="2e687-120">전화 시스템을 구매할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="2e687-120">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="2e687-121">예</span><span class="sxs-lookup"><span data-stu-id="2e687-121">Yes</span></span>  <br/> |
+| <span data-ttu-id="2e687-122">자동 전화 교환</span><span class="sxs-lookup"><span data-stu-id="2e687-122">Auto attendants</span></span> <br/> |<span data-ttu-id="2e687-123">공간이</span><span class="sxs-lookup"><span data-stu-id="2e687-123">Available</span></span>  <br/> |
+|<span data-ttu-id="2e687-124">통화 대기열</span><span class="sxs-lookup"><span data-stu-id="2e687-124">Call queues</span></span>  <br/> |<span data-ttu-id="2e687-125">공간이</span><span class="sxs-lookup"><span data-stu-id="2e687-125">Available</span></span>  <br/> |
+|<span data-ttu-id="2e687-126">음성 메일</span><span class="sxs-lookup"><span data-stu-id="2e687-126">Voicemail</span></span>  <br/> |<span data-ttu-id="2e687-127">공간이</span><span class="sxs-lookup"><span data-stu-id="2e687-127">Available</span></span>  <br/> |
    
-## <a name="calling-plans"></a><span data-ttu-id="fe3bc-128">통화 플랜</span><span class="sxs-lookup"><span data-stu-id="fe3bc-128">Calling Plans</span></span>
+## <a name="calling-plans"></a><span data-ttu-id="2e687-128">통화 플랜</span><span class="sxs-lookup"><span data-stu-id="2e687-128">Calling Plans</span></span>
 
-|<span data-ttu-id="fe3bc-129">**기능**</span><span class="sxs-lookup"><span data-stu-id="fe3bc-129">**Feature**</span></span>|<span data-ttu-id="fe3bc-130">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="fe3bc-130">**Details**</span></span>|
+|<span data-ttu-id="2e687-129">**기능**</span><span class="sxs-lookup"><span data-stu-id="2e687-129">**Feature**</span></span>|<span data-ttu-id="2e687-130">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="2e687-130">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="fe3bc-131">전화 플랜은 구매할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="fe3bc-131">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="fe3bc-132">아니요</span><span class="sxs-lookup"><span data-stu-id="fe3bc-132">No</span></span>  <br/> |
-|<span data-ttu-id="fe3bc-133">통화 플랜에 사용할 수 있는 시간 (분)</span><span class="sxs-lookup"><span data-stu-id="fe3bc-133">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="fe3bc-134">해당 없음</span><span class="sxs-lookup"><span data-stu-id="fe3bc-134">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="fe3bc-135">님이 발신 전화를 할 수 있습니까?</span><span class="sxs-lookup"><span data-stu-id="fe3bc-135">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="fe3bc-136">해당 없음</span><span class="sxs-lookup"><span data-stu-id="fe3bc-136">Not applicable</span></span>  <br/> |
-   
-## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="fe3bc-137">서비스의 유료 및 무료 전화 번호</span><span class="sxs-lookup"><span data-stu-id="fe3bc-137">Toll and toll-free numbers for services</span></span>
+|<span data-ttu-id="2e687-131">전화 플랜은 구매할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="2e687-131">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="2e687-132">아니요</span><span class="sxs-lookup"><span data-stu-id="2e687-132">No</span></span>  <br/> |
+|<span data-ttu-id="2e687-133">통화 플랜에 사용할 수 있는 시간 (분)</span><span class="sxs-lookup"><span data-stu-id="2e687-133">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="2e687-134">해당 없음</span><span class="sxs-lookup"><span data-stu-id="2e687-134">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="2e687-135">님이 발신 전화를 할 수 있습니까?</span><span class="sxs-lookup"><span data-stu-id="2e687-135">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="2e687-136">해당 없음</span><span class="sxs-lookup"><span data-stu-id="2e687-136">Not applicable</span></span>  <br/> |
 
-|<span data-ttu-id="fe3bc-138">**기능**</span><span class="sxs-lookup"><span data-stu-id="fe3bc-138">**Feature**</span></span>|<span data-ttu-id="fe3bc-139">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="fe3bc-139">**Details**</span></span>|
-|:-----|:-----|
-|<span data-ttu-id="fe3bc-140">유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?</span><span class="sxs-lookup"><span data-stu-id="fe3bc-140">What capitals or major cities can you get toll numbers for?</span></span>  <br/> | <span data-ttu-id="fe3bc-141">멕시코 시티</span><span class="sxs-lookup"><span data-stu-id="fe3bc-141">Mexico City</span></span> <br/> |
-|<span data-ttu-id="fe3bc-142">유료 전화 번호를 사용 하 고 계십니까?</span><span class="sxs-lookup"><span data-stu-id="fe3bc-142">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="fe3bc-143">예</span><span class="sxs-lookup"><span data-stu-id="fe3bc-143">Yes</span></span>  <br/> |
-|<span data-ttu-id="fe3bc-144">무료 번호를 사용할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="fe3bc-144">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="fe3bc-145">예</span><span class="sxs-lookup"><span data-stu-id="fe3bc-145">Yes</span></span>  <br/> |
+<span data-ttu-id="2e687-137">통화 요금제를 구매할 수 없는 경우에는 [전화 시스템 다이렉트 라우팅을](../direct-routing-landing-page.md)사용 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="2e687-137">If Calling Plans are not available to purchase, consider using [Phone System Direct Routing](../direct-routing-landing-page.md).</span></span> <span data-ttu-id="2e687-138">직접 라우팅으로 전화 시스템을 거의 모든 통신 사업자와 함께 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2e687-138">With Direct Routing, you can use Phone System with virtually any telephony carrier.</span></span>
    
- <span data-ttu-id="fe3bc-146">오디오 회의, 자동 전화 교환, 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fe3bc-146">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>
+## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="2e687-139">서비스의 유료 및 무료 전화 번호</span><span class="sxs-lookup"><span data-stu-id="2e687-139">Toll and toll-free numbers for services</span></span>
+
+|<span data-ttu-id="2e687-140">**기능**</span><span class="sxs-lookup"><span data-stu-id="2e687-140">**Feature**</span></span>|<span data-ttu-id="2e687-141">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="2e687-141">**Details**</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="2e687-142">유료 전화 번호를 받을 수 있는 대/주 도시는 무엇 인가요?</span><span class="sxs-lookup"><span data-stu-id="2e687-142">What capitals or major cities can you get toll numbers for?</span></span>  <br/> | <span data-ttu-id="2e687-143">멕시코 시티</span><span class="sxs-lookup"><span data-stu-id="2e687-143">Mexico City</span></span> <br/> |
+|<span data-ttu-id="2e687-144">유료 전화 번호를 사용 하 고 계십니까?</span><span class="sxs-lookup"><span data-stu-id="2e687-144">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="2e687-145">예</span><span class="sxs-lookup"><span data-stu-id="2e687-145">Yes</span></span>  <br/> |
+|<span data-ttu-id="2e687-146">무료 번호를 사용할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="2e687-146">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="2e687-147">예</span><span class="sxs-lookup"><span data-stu-id="2e687-147">Yes</span></span>  <br/> |
+   
+ <span data-ttu-id="2e687-148">오디오 회의, 자동 전화 교환, 통화 대기열에 대해 유료 및 무료 전화 번호를 받으려면 비즈니스용 [Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="2e687-148">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>
   
-## <a name="communications-credits"></a><span data-ttu-id="fe3bc-147">통신 크레딧</span><span class="sxs-lookup"><span data-stu-id="fe3bc-147">Communications Credits</span></span>
+## <a name="communications-credits"></a><span data-ttu-id="2e687-149">통신 크레딧</span><span class="sxs-lookup"><span data-stu-id="2e687-149">Communications Credits</span></span>
 
-|<span data-ttu-id="fe3bc-148">**기능**</span><span class="sxs-lookup"><span data-stu-id="fe3bc-148">**Feature**</span></span>|<span data-ttu-id="fe3bc-149">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="fe3bc-149">**Details**</span></span>|
+|<span data-ttu-id="2e687-150">**기능**</span><span class="sxs-lookup"><span data-stu-id="2e687-150">**Feature**</span></span>|<span data-ttu-id="2e687-151">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="2e687-151">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="fe3bc-150">통신 크레딧을 사용할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="fe3bc-150">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="fe3bc-151">예</span><span class="sxs-lookup"><span data-stu-id="fe3bc-151">Yes</span></span>  <br/> |
+|<span data-ttu-id="2e687-152">통신 크레딧을 사용할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="2e687-152">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="2e687-153">예</span><span class="sxs-lookup"><span data-stu-id="2e687-153">Yes</span></span>  <br/> |
    
-<span data-ttu-id="fe3bc-152">설정 하려는 경우 [조직의 통신 크레딧 설정을](../set-up-communications-credits-for-your-organization.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fe3bc-152">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
+<span data-ttu-id="2e687-154">설정 하려는 경우 [조직의 통신 크레딧 설정을](../set-up-communications-credits-for-your-organization.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="2e687-154">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="fe3bc-153">관련 주제</span><span class="sxs-lookup"><span data-stu-id="fe3bc-153">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="2e687-155">관련 항목</span><span class="sxs-lookup"><span data-stu-id="2e687-155">Related topics</span></span>
 
-[<span data-ttu-id="fe3bc-154">비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기</span><span class="sxs-lookup"><span data-stu-id="fe3bc-154">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="2e687-156">비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기</span><span class="sxs-lookup"><span data-stu-id="2e687-156">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
-[<span data-ttu-id="fe3bc-155">오디오 회의 및 통화 요금제 국가 및 지역 가용성</span><span class="sxs-lookup"><span data-stu-id="fe3bc-155">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[<span data-ttu-id="2e687-157">오디오 회의 및 통화 요금제 국가 및 지역 가용성</span><span class="sxs-lookup"><span data-stu-id="2e687-157">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
  

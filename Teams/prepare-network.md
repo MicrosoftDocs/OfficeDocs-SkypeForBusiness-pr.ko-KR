@@ -3,12 +3,11 @@ title: Microsoft Teams에 대한 조직의 네트워크 준비
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/25/2019
-ms.topic: reference
+ms.topic: article
 ms.service: msteams
-ms.reviewer: arachman
+ms.reviewer: jastark, kojika
 audience: admin
-description: Microsoft 팀 네트워크를 준비 하 고 관리 하는 방법을 알아보세요. 정보에는 네트워크 요구 사항, 대역폭 요구 사항, 추가 고려 사항 등이 포함 됩니다.
+description: Microsoft 팀을 롤아웃 하기 전에 네트워크를 평가 하 고 팀에 맞게 준비 되어 있는지 확인 합니다. 정보에는 네트워크 요구 사항, 대역폭 요구 사항, 네트워크 최적화 지침이 포함 됩니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -17,106 +16,145 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d331a063feacbaea5cb510c316d2b27d982eb03
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: dd27dfd6fccba5c7e9db52d58f7a6253849bea54
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834638"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862908"
 ---
-# <a name="prepare-your-organizations-network-for-microsoft-teams"></a><span data-ttu-id="63b72-104">Microsoft Teams에 대한 조직의 네트워크 준비</span><span class="sxs-lookup"><span data-stu-id="63b72-104">Prepare your organization's network for Microsoft Teams</span></span>
+# <a name="prepare-your-organizations-network-for-microsoft-teams"></a><span data-ttu-id="6ee27-104">Microsoft Teams에 대한 조직의 네트워크 준비</span><span class="sxs-lookup"><span data-stu-id="6ee27-104">Prepare your organization's network for Microsoft Teams</span></span> 
 
+## <a name="network-requirements"></a><span data-ttu-id="6ee27-105">네트워크 요구 사항</span><span class="sxs-lookup"><span data-stu-id="6ee27-105">Network requirements</span></span>
 
-<span data-ttu-id="63b72-105">팀은 다음 세 가지 트래픽 형태를 결합 합니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-105">Teams combines three forms of traffic:</span></span>
+<span data-ttu-id="6ee27-106">[Office 365에 대 한 네트워크](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)를 이미 최적화 한 경우 Microsoft 팀에 대 한 준비가 되었을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-106">If you’ve already [optimized your network for Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), you’re probably ready for Microsoft Teams.</span></span> <span data-ttu-id="6ee27-107">경우에 따라 팀 롤아웃을 시작 하기 전에 다음을 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="6ee27-107">In any case, check the following before you begin your Teams rollout:</span></span>
 
--   <span data-ttu-id="63b72-106">Office 365 온라인 환경과 팀 클라이언트 간의 데이터 트래픽 (신호, 현재 상태, 채팅, 파일 업로드 및 다운로드, OneNote 동기화).</span><span class="sxs-lookup"><span data-stu-id="63b72-106">Data traffic between the Office 365 online environment and the Teams client (signaling, presence, chat, file upload and download, OneNote synchronization).</span></span>
+1.  <span data-ttu-id="6ee27-108">모든 위치에서 인터넷에 액세스할 수 있는지 확인 (Office 365에 연결 가능)</span><span class="sxs-lookup"><span data-stu-id="6ee27-108">Do all your locations have internet access (so they can connect to Office 365)?</span></span> <span data-ttu-id="6ee27-109">최소한 일반 웹 소통량 외에도 팀에서 미디어의 모든 위치에 대해 다음을 열었는지 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="6ee27-109">At a minimum, in addition to normal web traffic, make sure you've opened the following, for all locations, for media in Teams:</span></span>
 
--   <span data-ttu-id="63b72-107">피어 투 피어 실시간 통신 트래픽 (오디오, 비디오, 데스크톱 공유).</span><span class="sxs-lookup"><span data-stu-id="63b72-107">Peer-to-peer real-time communications traffic (audio, video, desktop sharing).</span></span>
+    |  |  |
+    |---------|---------|
+    |<span data-ttu-id="6ee27-110">139</span><span class="sxs-lookup"><span data-stu-id="6ee27-110">Ports</span></span>     |<span data-ttu-id="6ee27-111">UDP 포트 <strong>3478</strong> ~ <strong>3481</strong></span><span class="sxs-lookup"><span data-stu-id="6ee27-111">UDP ports <strong>3478</strong> through <strong>3481</strong></span></span>        |
+    |[<span data-ttu-id="6ee27-112">IP 주소</span><span class="sxs-lookup"><span data-stu-id="6ee27-112">IP addresses</span></span>](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<span data-ttu-id="6ee27-113"><strong>13.107.64.0/18</strong> 및 <strong>52.112.0.0/14</strong></span><span class="sxs-lookup"><span data-stu-id="6ee27-113"><strong>13.107.64.0/18</strong> and <strong>52.112.0.0/14</strong></span></span>        |
+    
+2.  <span data-ttu-id="6ee27-114">Office 365에 대해 확인 된 도메인이 있습니까 (예: contoso.com)?</span><span class="sxs-lookup"><span data-stu-id="6ee27-114">Do you have a verified domain for Office 365 (for example, contoso.com)?</span></span>
+    
+      - <span data-ttu-id="6ee27-115">조직에서 Office 365를 배포 하지 않은 경우 [비즈니스용 office 365 시작](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6ee27-115">If your organization hasn’t rolled out Office 365, see [Getting Started with Office 365 for business](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365).</span></span>
+      - <span data-ttu-id="6ee27-116">조직이 Office 365에 대해 확인 된 도메인을 추가 하거나 구성 하지 않은 경우 [office 365 도메인 확인](https://docs.microsoft.com/office365/admin/setup/domains-faq)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6ee27-116">If your organization hasn’t added or configured a verified domain for Office 365, see [Verify your Office 365 domain](https://docs.microsoft.com/office365/admin/setup/domains-faq).</span></span>
 
--   <span data-ttu-id="63b72-108">회의 실시간 통신 트래픽 (오디오, 비디오, 데스크톱 공유).</span><span class="sxs-lookup"><span data-stu-id="63b72-108">Conferencing real-time communications traffic (audio, video, desktop sharing).</span></span>
+3.  <span data-ttu-id="6ee27-117">조직에서 Exchange Online 및 SharePoint Online을 배포 했습니까?</span><span class="sxs-lookup"><span data-stu-id="6ee27-117">Has your organization deployed Exchange Online and SharePoint Online?</span></span>
+    
+      - <span data-ttu-id="6ee27-118">조직에 Exchange Online이 없는 경우 [exchange 및 Microsoft 팀의 상호 작용 방법 이해](exchange-teams-interact.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6ee27-118">If your organization doesn’t have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).</span></span>
+      - <span data-ttu-id="6ee27-119">조직에 SharePoint Online이 없는 경우 [Sharepoint online 및 비즈니스용 OneDrive For Business가 Microsoft 팀과 어떻게 상호 작용 하는지 이해](sharepoint-onedrive-interact.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6ee27-119">If your organization doesn’t have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).</span></span>
 
-<span data-ttu-id="63b72-109">이는 두 가지 수준의 네트워크에 영향을 주고 피어 투 피어 시나리오에 대 한 트래픽이 Microsoft 팀 클라이언트 간에 직접 전달 되며, 트래픽은 Office 365 환경과 모임 시나리오에 대 한 Microsoft 팀 클라이언트 간에 전달 됩니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-109">This impacts the network on two levels: traffic will flow between the Microsoft Teams clients directly for peer-to-peer scenarios, and traffic will flow between the Office 365 environment and the Microsoft Teams clients for meeting scenarios.</span></span> <span data-ttu-id="63b72-110">트래픽 흐름을 최적화 하려면 내부 네트워크 세그먼트 (예: WAN을 통해 사이트 간)와 네트워크 사이트와 Office 365 사이에 모두 흐름을 허용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-110">To ensure optimal traffic flow, traffic must be allowed to flow both between the internal network segments (for example, between sites over the WAN) as well as between the network sites and Office 365.</span></span> <span data-ttu-id="63b72-111">올바른 포트를 열지 않거나 특정 포트를 능동적으로 차단 하면 성능이 저하 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-111">Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.</span></span>
-
-
-<span data-ttu-id="63b72-112">Microsoft 팀 내에서 실시간 미디어를 사용 하 여 최적의 환경을 얻으려면 네트워크가 Office 365의 네트워킹 요구 사항을 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-112">To get an optimal experience with real time media within Microsoft Teams, your network must meet the networking requirements for Office 365.</span></span> <span data-ttu-id="63b72-113">자세한 내용은 [비즈니스용 Skype Online의 미디어 품질과 네트워크 연결 성능을](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="63b72-113">For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).</span></span>
-
-<span data-ttu-id="63b72-114">두 가지 네트워크 세그먼트 (클라이언트에서 Microsoft edge 및 고객에 게 Microsoft Edge에 대 한)를 정의 하려면 다음 권장 사항을 고려 하세요.</span><span class="sxs-lookup"><span data-stu-id="63b72-114">For the two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge), consider the following recommendations.</span></span>
-
-
-|<span data-ttu-id="63b72-115">값</span><span class="sxs-lookup"><span data-stu-id="63b72-115">Value</span></span>  |<span data-ttu-id="63b72-116">클라이언트에서 Microsoft Edge로</span><span class="sxs-lookup"><span data-stu-id="63b72-116">Client to Microsoft Edge</span></span>  |<span data-ttu-id="63b72-117">고객 Edge에서 Microsoft Edge로</span><span class="sxs-lookup"><span data-stu-id="63b72-117">Customer Edge to Microsoft Edge</span></span>  |
-|:--- |:--- |:--- |
-|<span data-ttu-id="63b72-118">**대기 시간 (단방향)**\*</span><span class="sxs-lookup"><span data-stu-id="63b72-118">**Latency (one way)** \*</span></span>  |<span data-ttu-id="63b72-119">< 50ms</span><span class="sxs-lookup"><span data-stu-id="63b72-119">< 50ms</span></span>          |<span data-ttu-id="63b72-120">< 30ms</span><span class="sxs-lookup"><span data-stu-id="63b72-120">< 30ms</span></span>         |
-|<span data-ttu-id="63b72-121">**지연 (RTT 또는 왕복 시간)**\*</span><span class="sxs-lookup"><span data-stu-id="63b72-121">**Latency (RTT or Round-trip Time)** \*</span></span> |<span data-ttu-id="63b72-122">< 100ms</span><span class="sxs-lookup"><span data-stu-id="63b72-122">< 100ms</span></span>   |<span data-ttu-id="63b72-123">< 60ms</span><span class="sxs-lookup"><span data-stu-id="63b72-123">< 60ms</span></span> |
-|<span data-ttu-id="63b72-124">**버스트 패킷 손실**</span><span class="sxs-lookup"><span data-stu-id="63b72-124">**Burst packet loss**</span></span>    |<span data-ttu-id="63b72-125">200ms 간격 중 10% <</span><span class="sxs-lookup"><span data-stu-id="63b72-125"><10% during any 200ms interval</span></span>         |<span data-ttu-id="63b72-126">200ms interval 동안 1% <</span><span class="sxs-lookup"><span data-stu-id="63b72-126"><1% during any 200ms interval</span></span>         |
-|<span data-ttu-id="63b72-127">**패킷 손실**</span><span class="sxs-lookup"><span data-stu-id="63b72-127">**Packet loss**</span></span>     |<span data-ttu-id="63b72-128">15s 간격 중 1% <</span><span class="sxs-lookup"><span data-stu-id="63b72-128"><1% during any 15s interval</span></span>          |<span data-ttu-id="63b72-129">15s 기간 동안 0.1% <</span><span class="sxs-lookup"><span data-stu-id="63b72-129"><0.1% during any 15s interval</span></span>         |
-|<span data-ttu-id="63b72-130">**패킷 간 도착 지터**</span><span class="sxs-lookup"><span data-stu-id="63b72-130">**Packet inter-arrival Jitter**</span></span>    |<span data-ttu-id="63b72-131">15s 간격 중 30ms <</span><span class="sxs-lookup"><span data-stu-id="63b72-131"><30ms during any 15s interval</span></span>         |<span data-ttu-id="63b72-132">모든 15s 기간 동안 15ms <</span><span class="sxs-lookup"><span data-stu-id="63b72-132"><15ms during any 15s interval</span></span>         |
-|<span data-ttu-id="63b72-133">**패킷 순서 다시 매기기**</span><span class="sxs-lookup"><span data-stu-id="63b72-133">**Packet reorder**</span></span>    |<span data-ttu-id="63b72-134"><0.05% 주문 종료 패킷</span><span class="sxs-lookup"><span data-stu-id="63b72-134"><0.05% out-of-order packets</span></span>         |<span data-ttu-id="63b72-135"><0.01% 주문 종료 패킷</span><span class="sxs-lookup"><span data-stu-id="63b72-135"><0.01% out-of-order packets</span></span>         |
-
-<span data-ttu-id="63b72-136">\*대기 시간 메트릭 대상은 회사 사이트 또는 사이트를 가정 하 고 Microsoft의 경계는 동일한 대륙에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-136">\* The latency metric targets assume your company site or sites and the Microsoft edges are on the same continent.</span></span>
-
-<span data-ttu-id="63b72-137">Microsoft 네트워크에 지에 대 한 회사 사이트 연결에는 WiFi 또는 다른 무선 기술인 첫 번째 홉 네트워크 액세스가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-137">Your company site connection to the Microsoft network edge includes first hop network access, which can be WiFi or another wireless technology.</span></span>
-
-<span data-ttu-id="63b72-138">네트워크 성능 대상은 적절 한 대역폭과/또는 [QoS 계획](QoS-in-Teams.md)을 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-138">The network performance targets assume proper bandwidth and/or [QoS planning](QoS-in-Teams.md).</span></span> <span data-ttu-id="63b72-139">즉, 네트워크 연결이 최대 부하에 도달 했을 때 요구 사항이 팀의 실시간 미디어 트래픽에 직접적으로 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-139">In other words, the requirements apply directly to Teams real-time media traffic when the network connection is under a peak load.</span></span>
-
-<span data-ttu-id="63b72-140">팀을 위해 네트워크를 준비 하는 방법에 대 한 자세한 내용은 [네트워크 Planner](https://docs.microsoft.com/microsoftteams/network-planner)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="63b72-140">For more help with preparing your network for Teams, check out [Network Planner](https://docs.microsoft.com/microsoftteams/network-planner).</span></span>
-
-
-## <a name="bandwidth-requirements"></a><span data-ttu-id="63b72-141">대역폭 요구 사항</span><span class="sxs-lookup"><span data-stu-id="63b72-141">Bandwidth requirements</span></span>
-<span data-ttu-id="63b72-142">Microsoft 팀은 네트워크 상태에 관계 없이 최상의 오디오, 비디오 및 콘텐츠 공유 환경을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-142">Microsoft Teams gives you the best audio, video and content sharing experience regardless of your network conditions.</span></span> <span data-ttu-id="63b72-143">변수 코덱에는 최소한의 영향으로 제한 된 대역폭 환경에서 미디어를 협상할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-143">With variable codecs, media can be negotiated in limited bandwidth environments with minimal impact.</span></span> <span data-ttu-id="63b72-144">그러나 대역폭이 문제가 되지 않는 경우에는 최대 1080p 비디오 해상도, 최대 30fps, 콘텐츠의 경우 15fps, 고화질 오디오 등의 품질에 대해 경험을 최적화할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-144">But where bandwidth is not a concern, experiences can be optimized for quality, including up to 1080p video resolution, up to 30fps for video and 15fps for content, and high-fidelity audio.</span></span>
-
-[!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
-
-
-<!--
-The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
+<span data-ttu-id="6ee27-120">이러한 네트워크 요구 사항을 충족 하는 것으로 확인 되 면 [팀을 롤아웃할](How-to-roll-out-teams.md)준비가 되었을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-120">Once you’ve verified that you meet these network requirements, you may be ready to [Roll out Teams](How-to-roll-out-teams.md).</span></span> <span data-ttu-id="6ee27-121">다국적 대기업 이거나 몇 가지 네트워크 제한 사항이 있는 경우에는 팀을 위해 네트워크를 평가 하 고 최적화 하는 방법에 대해 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="6ee27-121">If you’re a large multinational enterprise, or if you know you’ve got some network limitations, read on to learn how to assess and optimize your network for Teams.</span></span>
 
 > [!IMPORTANT]
->If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
+> <span data-ttu-id="6ee27-122">**교육 기관**: 조직이 교육 기관 이거나 SIS (학생 정보 시스템)를 사용 하는 경우 팀을 롤아웃하기 전에 [School Data Sync를 배포](https://docs.microsoft.com/schooldatasync/) 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-122">**For educational institutions**: If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before you roll out Teams.</span></span>
+>  
+> <span data-ttu-id="6ee27-123">온 **-프레미스 비즈니스용 Skype server**: 조직이 온-프레미스 비즈니스용 skype server (또는 Lync Server)를 실행 하는 경우 [Azure AD Connect를 구성](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) 하 여 온-프레미스 디렉터리를 Office 365와 동기화 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-123">**Running on-premises Skype for Business Server**: If your organization is running on-premises Skype for Business Server (or Lync Server), you must [configure Azure AD Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) to synchronize your on-premises directory with Office 365.</span></span>
+
+### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a><span data-ttu-id="6ee27-124">모범 사례: CQD 및 call analytics을 사용 하 여 네트워크 모니터링</span><span class="sxs-lookup"><span data-stu-id="6ee27-124">Best practice: Monitor your network using CQD and call analytics</span></span> 
+
+<span data-ttu-id="6ee27-125">[CQD (통화 품질 대시보드)](turning-on-and-using-call-quality-dashboard.md) 를 사용 하 여 팀에서 통화 및 모임 품질에 대 한 통찰력을 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-125">Use the [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md) to gain insight into the quality of calls and meetings in Teams.</span></span> <span data-ttu-id="6ee27-126">CQD는 품질, 안정성 및 사용자 경험을 가까이 유지 하 여 네트워크를 최적화 하는 데 도움이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-126">CQD can help you optimize your network by keeping a close eye on quality, reliability, and the user experience.</span></span> <span data-ttu-id="6ee27-127">CQD는 전체적인 패턴이 명확 하 게 표시 될 수 있는 전체 조직에 대 한 집계 원격 분석을 살펴보고 문제를 식별 하 고 업데이트를 계획 하는 방법을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-127">CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, which lets you identify problems and plan remediation.</span></span> <span data-ttu-id="6ee27-128">또한 CQD는 전반적인 품질, 안정성 및 사용자 환경에 대 한 통찰력을 제공 하는 풍부한 메트릭 보고서를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-128">Additionally, CQD provides rich metrics reports that provide insight into overall quality, reliability, and user experience.</span></span> 
+
+<span data-ttu-id="6ee27-129">[통화 분석](set-up-call-analytics.md) 을 사용 하 여 개별 사용자의 통화 및 모임 문제를 조사 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-129">You'll use [call analytics](set-up-call-analytics.md) to investigate call and meeting problems for an individual user.</span></span>
+
+## <a name="network-optimization"></a><span data-ttu-id="6ee27-130">네트워크 최적화</span><span class="sxs-lookup"><span data-stu-id="6ee27-130">Network optimization</span></span>
+
+<span data-ttu-id="6ee27-131">다음 작업은 선택 사항이 며 팀 롤아웃에 필요 하지 않으며 특히, 소규모 기업과 이미 Office 365를 출시 한 경우</span><span class="sxs-lookup"><span data-stu-id="6ee27-131">The following tasks are optional and aren’t required for rolling out Teams, especially if you’re a small business and you’ve already rolled out Office 365.</span></span> <span data-ttu-id="6ee27-132">이 지침을 사용 하 여 네트워크 및 팀 성능을 최적화 하거나 네트워크 제한 사항이 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-132">Use this guidance to optimize your network and Teams performance or if you know you’ve got some network limitations.</span></span>
+
+<span data-ttu-id="6ee27-133">다음과 같은 경우 추가 네트워크 최적화를 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-133">You might want to do additional network optimization if:</span></span>
+
+  - <span data-ttu-id="6ee27-134">팀이 느리게 실행 됨 (대역폭이 부족할 수도 있음)</span><span class="sxs-lookup"><span data-stu-id="6ee27-134">Teams runs slowly (maybe you have insufficient bandwidth)</span></span>
+  - <span data-ttu-id="6ee27-135">통화 보관 (방화벽 또는 프록시 차단 때문일 수 있음)</span><span class="sxs-lookup"><span data-stu-id="6ee27-135">Calls keep dropping (might be due to firewall or proxy blockers)</span></span>
+  - <span data-ttu-id="6ee27-136">통화는 정적-y, 오려내기 또는 로봇이 같은 음성 사운드 (지터 또는 패킷 손실이 될 수 있음)입니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-136">Calls are static-y and cut out, or voices sound like robots (could be jitter or packet loss)</span></span>
+
+<span data-ttu-id="6ee27-137">네트워크 장애를 식별 하 고 해결 하는 지침을 비롯 한 네트워크 최적화에 대 한 자세한 내용은 [Office 365 네트워크 연결 원칙](https://aka.ms/pnc)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6ee27-137">For an in-depth discussion of network optimization, including guidance for identifying and fixing network impairments, read [Office 365 Network Connectivity Principles](https://aka.ms/pnc).</span></span>
+
+<table>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="6ee27-138"><strong>네트워크 최적화 작업</strong></span><span class="sxs-lookup"><span data-stu-id="6ee27-138"><strong>Network optimization task</strong></span></span></th>
+<th><span data-ttu-id="6ee27-139"><strong>세부적인</strong></span><span class="sxs-lookup"><span data-stu-id="6ee27-139"><strong>Details</strong></span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="6ee27-140">네트워크 planner</span><span class="sxs-lookup"><span data-stu-id="6ee27-140">Network planner</span></span></td>
+<td><p><span data-ttu-id="6ee27-141">조직의 실제 위치에서 대역폭 계산과 네트워크 요구 사항을 비롯 한 네트워크를 평가 하는 데 도움이 필요한 경우 <a href="https://admin.teams.microsoft.com">팀 관리 센터</a>에서 <a href="https://docs.microsoft.com/microsoftteams/network-planner">네트워크 Planner</a> 도구를 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="6ee27-141">For help assessing your network, including bandwidth calculations and network requirements across your org’s physical locations, check out the <a href="https://docs.microsoft.com/microsoftteams/network-planner">Network Planner</a> tool, in the <a href="https://admin.teams.microsoft.com">Teams admin center</a>.</span></span> <span data-ttu-id="6ee27-142">네트워크 세부 정보 및 팀 사용량을 제공 하는 경우 네트워크 계획자는 조직의 실제 위치에서 팀 및 클라우드 음성을 배포 하기 위한 네트워크 요구 사항을 계산 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-142">When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.</span></span></p>
+<p><span data-ttu-id="6ee27-143">예제 시나리오는 <a href="https://docs.microsoft.com/microsoftteams/tutorial-network-planner-example">네트워크 Planner 사용-예제 시나리오</a>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6ee27-143">For an example scenario, see <a href="https://docs.microsoft.com/microsoftteams/tutorial-network-planner-example">Using Network Planner - example scenario</a>.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="6ee27-144">팀 관리자</span><span class="sxs-lookup"><span data-stu-id="6ee27-144">Advisor for Teams</span></span></td>
+<td><span data-ttu-id="6ee27-145"><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">팀</a> 관리자는 <a href="https://admin.teams.microsoft.com">팀 관리 센터</a>의 일부입니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-145"><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">Advisor for Teams</a> is part of the <a href="https://admin.teams.microsoft.com">Teams admin center</a>.</span></span> <span data-ttu-id="6ee27-146">Advisor for Teams(미리 보기)는 Office 365 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-146">It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="6ee27-147">외부 이름 확인</span><span class="sxs-lookup"><span data-stu-id="6ee27-147">External Name Resolution</span></span></td>
+<td><span data-ttu-id="6ee27-148">팀 클라이언트를 실행 하는 모든 컴퓨터에서 외부 DNS 쿼리를 확인 하 여 Office 365에서 제공 하는 서비스를 검색 하 고 방화벽이 액세스를 차단 하지 않는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-148">Be sure that all computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365 and that your firewalls are not preventing access.</span></span> <span data-ttu-id="6ee27-149">방화벽 포트를 구성 하는 방법에 대 한 자세한 내용은 <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 url 및 IP 범위로</a>이동 하세요.</span><span class="sxs-lookup"><span data-stu-id="6ee27-149">For information about configuring firewall ports, go to <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 URLs and IP ranges</a>.</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="6ee27-150">유효성 검사 (NAT) 풀 크기</span><span class="sxs-lookup"><span data-stu-id="6ee27-150">Validate (NAT) pool size</span></span></td>
+<td><span data-ttu-id="6ee27-151">사용자 연결에 필요한 NAT (network address translation) 풀 크기의 유효성을 검사 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-151">Validate the network address translation (NAT) pool size required for user connectivity.</span></span> <span data-ttu-id="6ee27-152">여러 사용자와 장치가 <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">NAT (Network Address translation) 또는 PAT (Port Address translation)</a>를 사용 하 여 Office 365에 액세스 하는 경우, 공개적으로 라우팅할 수 있는 각 IP 주소 뒤에 숨겨진 장치가 지원 되는 번호를 초과 하지 않는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-152">When multiple users and devices access Office 365 using <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">Network Address Translation (NAT) or Port Address Translation (PAT)</a>, you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number.</span></span> <span data-ttu-id="6ee27-153">포트 소모를 방지 하기 위해 적절 한 공용 IP 주소가 NAT 풀에 할당 되었는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-153">Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion.</span></span> <span data-ttu-id="6ee27-154">포트 소모는 내부 사용자와 장치가 Office 365 서비스에 연결할 수 없는 경우에 기여 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-154">Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="6ee27-155">Microsoft 데이터 센터로 라우팅</span><span class="sxs-lookup"><span data-stu-id="6ee27-155">Routing to Microsoft data centers</span></span></td>
+<td><span data-ttu-id="6ee27-156"><a href="https://docs.microsoft.com/office365/enterprise/client-connectivity">Microsoft 데이터 센터에 가장 효율적인 라우팅을 구현</a>합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-156"><a href="https://docs.microsoft.com/office365/enterprise/client-connectivity">Implement the most efficient routing to Microsoft data centers</a>.</span></span> <span data-ttu-id="6ee27-157">로컬 또는 지역 송신 지점을 사용 하 여 가능한 한 효율적으로 Microsoft 네트워크에 연결할 수 있는 위치를 식별 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-157">Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible.</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="6ee27-158">침입 감지 및 예방 지침</span><span class="sxs-lookup"><span data-stu-id="6ee27-158">Intrusion Detection and Prevention Guidance</span></span></td>
+<td><span data-ttu-id="6ee27-159">아웃 바운드 연결에 대 한 추가 보안 계층에 대 한 <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">침입 감지</a> 또는 방지 시스템 (ID/i p)이 환경에 있는 경우 모든 Office 365 url을 허용 목록 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-159">If your environment has an <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">Intrusion Detection</a> or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, be sure to whitelist all Office 365 URLs.</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="6ee27-160">분할 터널 VPN 구성</span><span class="sxs-lookup"><span data-stu-id="6ee27-160">Configure split-tunnel VPN</span></span></td>
+<td><p><span data-ttu-id="6ee27-161">일반적으로 [분할 터널 VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)이라고 하는 vpn (가상 사설망)을 우회 하는 팀 트래픽에 대 한 대체 경로를 제공 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-161">We recommend that you provide an alternate path for Teams traffic that bypasses the virtual private network (VPN), commonly known as [split-tunnel VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing).</span></span> <span data-ttu-id="6ee27-162">분할 터널링은 Office 365에 대 한 트래픽이 VPN을 거치지 않고 대신 Office 365에 직접 전달 한다는 의미입니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-162">Split tunneling means that traffic for Office 365 doesn’t go through the VPN but instead goes directly to Office 365.</span></span> <span data-ttu-id="6ee27-163">VPN을 건너뛰면 팀 품질에 긍정적인 영향을 미칠 수 있으며, VPN 장치 및 조직의 네트워크에서의 로드를 줄여줍니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-163">Bypassing your VPN will have a positive impact on Teams quality, and it reduces load from the VPN devices and the organization’s network.</span></span> <span data-ttu-id="6ee27-164">분할 터널 VPN을 구현 하려면 VPN 공급 업체와 협력 하세요.</span><span class="sxs-lookup"><span data-stu-id="6ee27-164">To implement a split-tunnel VPN, work with your VPN vendor.</span></span></p>
+<p><span data-ttu-id="6ee27-165">VPN을 우회 하는 것이 권장 되는 다른 이유는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-165">Other reasons why we recommend bypassing the VPN:</span></span>
+<ul>
+<li><p><span data-ttu-id="6ee27-166">Vpn은 일반적으로 실시간 미디어를 지원 하도록 설계 또는 구성 되지 않았습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-166">VPNs are typically not designed or configured to support real-time media.</span></span></p></li> 
+<li><p><span data-ttu-id="6ee27-167">일부 Vpn은 UDP (팀에 필요 함)를 지원 하지 않을 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-167">Some VPNs might also not support UDP (which is required for Teams).</span></span></p></li> 
+<li><p><span data-ttu-id="6ee27-168">Vpn은 이미 암호화 된 미디어 트래픽 위에 추가 암호화 계층을 도입 하기도 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-168">VPNs also introduce an extra layer of encryption on top of media traffic that’s already encrypted.</span></span></p></li> 
+<li><p><span data-ttu-id="6ee27-169">VPN 장치를 통해 헤어 고정 트래픽 때문에 팀에 대 한 연결이 효율적이 지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-169">Connectivity to Teams might not be efficient due to hair-pinning traffic through a VPN device.</span></span></p></li></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="6ee27-170">QoS 구현</span><span class="sxs-lookup"><span data-stu-id="6ee27-170">Implement QoS</span></span></td>
+<td><span data-ttu-id="6ee27-171"><a href="https://docs.microsoft.com/microsoftteams/qos-in-teams">QoS (서비스 품질)를 사용</a> 하 여 패킷 우선 순위를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-171"><a href="https://docs.microsoft.com/microsoftteams/qos-in-teams">Use Quality of Service (QoS)</a> to configure packet prioritization.</span></span> <span data-ttu-id="6ee27-172">이렇게 하면 팀에서 통화 품질을 개선 하 고 통화 품질을 모니터링 하 고 문제를 해결 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-172">This will improve call quality in Teams and help you monitor and troubleshoot call quality.</span></span> <span data-ttu-id="6ee27-173">QoS는 관리 되는 네트워크의 모든 세그먼트에서 구현 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-173">QoS should be implemented on all segments of a managed network.</span></span> <span data-ttu-id="6ee27-174">네트워크가 대역폭에 적절 하 게 프로 비전 된 경우에도 QoS는 예기치 않은 네트워크 이벤트가 발생할 경우 위험 경감을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-174">Even when a network has been adequately provisioned for bandwidth, QoS provides risk mitigation in the event of unanticipated network events.</span></span> <span data-ttu-id="6ee27-175">QoS를 사용 하면 이러한 예기치 않은 이벤트가 품질에 부정적인 영향을 주지 않도록 음성 트래픽이 우선 순위가 지정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-175">With QoS, voice traffic is prioritized so that these unanticipated events don’t negatively affect quality.</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="6ee27-176">WiFi 최적화</span><span class="sxs-lookup"><span data-stu-id="6ee27-176">Optimize WiFi</span></span></td>
+<td><p><span data-ttu-id="6ee27-177">VPN과 유사 하 게, WiFi 네트워크는 실시간 미디어를 지원 하도록 설계 또는 구성 되어 있지 않을 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-177">Similar to VPN, WiFi networks aren’t necessarily designed or configured to support real-time media.</span></span> <span data-ttu-id="6ee27-178">팀을 지원 하기 위해 WiFi 네트워크를 계획 하거나 최적화 하는 것은 고품질 배포를 위한 중요 한 고려 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-178">Planning for, or optimizing, a WiFi network to support Teams is an important consideration for a high-quality deployment.</span></span> <span data-ttu-id="6ee27-179">다음과 같은 요인을 고려 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-179">Consider these factors:</span></span></p>
+<ul>
+<li><p><span data-ttu-id="6ee27-180">WiFi 네트워크를 통해 미디어 트래픽이 적절 하 게 우선 순위를 유지 하도록 QoS 또는 WMM (WiFi 멀티미디어)를 구현 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-180">Implement QoS or WiFi Multimedia (WMM) to ensure that media traffic is getting prioritized appropriately over your WiFi networks.</span></span></p></li>
+<li><p><span data-ttu-id="6ee27-181">WiFi 밴드 및 액세스 지점의 위치를 계획 하 고 최적화 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-181">Plan and optimize the WiFi bands and access point placement.</span></span> <span data-ttu-id="6ee27-182">2.4 GHz 범위는 액세스 지점 배치에 따라 적절 한 환경을 제공할 수 있지만 액세스 지점은 해당 범위에서 작동 하는 다른 소비자 장치에 영향을 받는 경우가 많습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-182">The 2.4 GHz range might provide an adequate experience depending on access point placement, but access points are often affected by other consumer devices that operate in that range.</span></span> <span data-ttu-id="6ee27-183">5ghz 범위는 조밀 범위 때문에 실시간 미디어에 더 적합 하지만, 충분 한 서비스를 얻으려면 더 많은 액세스 포인트가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-183">The 5 GHz range is better suited to real-time media due to its dense range, but it requires more access points to get sufficient coverage.</span></span> <span data-ttu-id="6ee27-184">또한 끝점은 해당 범위를 지원 하 고 그에 따라 이러한 대역을 활용 하도록 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-184">Endpoints also need to support that range and be configured to leverage those bands accordingly.</span></span></p></li>
+<li><p><span data-ttu-id="6ee27-185">이중 대역 WiFi 네트워크를 사용 하는 경우에는 밴드 조절을 구현 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-185">If you’re using dual-band WiFi networks, consider implementing band steering.</span></span> <span data-ttu-id="6ee27-186"><em>밴드 조종</em> 은 듀얼 밴드 클라이언트에 게 5ghz 범위를 사용 하는 데 영향을 주는 WiFi 공급 업체에서 구현한 기술입니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-186"><em>Band steering</em> is a technique implemented by WiFi vendors to influence dual-band clients to use the 5 GHz range.</span></span></p></li>
+<li><p><span data-ttu-id="6ee27-187">같은 채널의 액세스 지점이 너무 가까이 있으면 신호가 겹치고 그에 따른 경합으로 인해 사용자에 게 좋지 않은 환경이 제공 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-187">When access points of the same channel are too close together, they can cause signal overlap and unintentionally compete, resulting in a bad experience for the user.</span></span> <span data-ttu-id="6ee27-188">서로 인접 한 연결점이 겹치지 않는 채널에 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-188">Ensure that access points that are next to each other are on channels that don’t overlap.</span></span></p></li>
+</ul>
+<p><span data-ttu-id="6ee27-189">각 무선 공급 업체에는 해당 무선 솔루션을 배포 하기 위한 고유한 권장 사항이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-189">Each wireless vendor has its own recommendations for deploying its wireless solution.</span></span> <span data-ttu-id="6ee27-190">WiFi 공급 업체에 문의 하 여 특정 지침을 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="6ee27-190">Consult your WiFi vendor for specific guidance.</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+## <a name="bandwidth-requirements"></a><span data-ttu-id="6ee27-191">대역폭 요구 사항</span><span class="sxs-lookup"><span data-stu-id="6ee27-191">Bandwidth requirements</span></span>
+
+<span data-ttu-id="6ee27-192">팀은 네트워크 상태에 관계 없이 최상의 오디오, 비디오, 콘텐츠 공유 환경을 제공 하도록 디자인 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-192">Teams is designed to give the best audio, video, and content sharing experience regardless of your network conditions.</span></span> <span data-ttu-id="6ee27-193">대역폭을 충분히 사용할 수 없는 경우에는 팀이 비디오 품질 보다 오디오 품질에 우선 순위를 둘 것 이라고 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-193">That said, when bandwidth is insufficient, Teams prioritizes audio quality over video quality.</span></span>
+
+<span data-ttu-id="6ee27-194">대역폭이 제한 *되지* 않는 경우, 팀은 최대 1080p 비디오 해상도, 최대 30fps, 콘텐츠의 경우 15fps, 고화질 오디오를 비롯 한 미디어 품질을 최적화 합니다.</span><span class="sxs-lookup"><span data-stu-id="6ee27-194">Where bandwidth *isn’t* limited, Teams optimizes media quality, including up to 1080p video resolution, up to 30fps for video and 15fps for content, and high-fidelity audio.</span></span> 
+
+[!INCLUDE [bandwidth-requirements](includes/bandwidth-requirements.md)]
 
 
-|Activity  |Download Bandwidth  |Upload Bandwidth  |Traffic Flow |
-|---------|---------|---------|---------|
-|**Peer to peer Audio Call**     |0.1 Mb         |0.1Mb         |Client <> Client         |
-|**Peer to peer Video Call (full screen)**     |4 Mb         |4Mb         |Client <> Client          |
-|**Peer to peer Desktop Sharing (1920*1080 resolution)**     |4 Mb         |4 Mb         |Client <> Client          |
-|**2 Participant Meeting**     |4 Mb         |4 Mb         |Client <> Office 365         |
-|**3 participant meeting**     |8 Mb         |6.5 Mb         |Client <> Office 365           |
-|**4 participant meeting**     |5.5 Mb         |4 Mb         |Client <> Office 365           |
-|**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
--->
+## <a name="related-topics"></a><span data-ttu-id="6ee27-195">관련 항목</span><span class="sxs-lookup"><span data-stu-id="6ee27-195">Related Topics</span></span>
 
-<a name="additional-network-considerations"></a><span data-ttu-id="63b72-145">추가 네트워크 고려 사항</span><span class="sxs-lookup"><span data-stu-id="63b72-145">Additional network considerations</span></span>
----------------
+[<span data-ttu-id="6ee27-196">Office 365 네트워크 연결 원칙</span><span class="sxs-lookup"><span data-stu-id="6ee27-196">Office 365 Network Connectivity Principles</span></span>](https://aka.ms/pnc)
 
-#### <a name="external-name-resolution"></a><span data-ttu-id="63b72-146">외부 이름 확인</span><span class="sxs-lookup"><span data-stu-id="63b72-146">External Name Resolution</span></span>
+[<span data-ttu-id="6ee27-197">전세계 끝점: 비즈니스용 Skype Online 및 팀</span><span class="sxs-lookup"><span data-stu-id="6ee27-197">Worldwide endpoints: Skype for Business Online and Teams</span></span>](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 
-<span data-ttu-id="63b72-147">팀 클라이언트를 실행 하는 모든 클라이언트 컴퓨터가 Office 365에서 제공 하는 서비스를 검색 하기 위해 외부 DNS 쿼리를 확인할 수 있으며 방화벽이 액세스를 차단 하지 않는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-147">Ensure that all the client computers running Teams client can resolve external DNS queries to discover the services provided by Office 365, and that your firewalls are not preventing access.</span></span> <span data-ttu-id="63b72-148">방화벽 포트를 구성 하는 방법에 대 한 자세한 내용은 [Office 365 url 및 IP 범위로](office-365-urls-ip-address-ranges.md)이동 하세요.</span><span class="sxs-lookup"><span data-stu-id="63b72-148">For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).</span></span>
+[<span data-ttu-id="6ee27-198">팀의 프록시 서버</span><span class="sxs-lookup"><span data-stu-id="6ee27-198">Proxy servers for Teams</span></span>](proxy-servers-for-skype-for-business-online.md)
 
-#### <a name="nat-pool-size"></a><span data-ttu-id="63b72-149">NAT 풀 크기</span><span class="sxs-lookup"><span data-stu-id="63b72-149">NAT Pool Size</span></span>
+[<span data-ttu-id="6ee27-199">팀의 미디어: 모임이 간단한 이유</span><span class="sxs-lookup"><span data-stu-id="6ee27-199">Media in Teams: Why meetings are simple</span></span>](https://aka.ms/teams-media)
 
-<span data-ttu-id="63b72-150">여러 사용자/장치가 NAT (Network Address Translation) 또는 PAT (Port Address Translation)를 사용 하 여 Office 365에 액세스 하는 경우, 각 공용 라우팅 가능 IP 주소 뒤에 숨겨진 장치가 지원 되는 번호를 초과 하지 않는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-150">When multiple users/devices access Office 365 using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number.</span></span>
+[<span data-ttu-id="6ee27-200">팀의 미디어: 전체 미디어 흐름에 대해 자세히 알아보고</span><span class="sxs-lookup"><span data-stu-id="6ee27-200">Media in Teams: Deep dive into media flows</span></span>](https://aka.ms/teams-media-flows)
 
-<span data-ttu-id="63b72-151">이 위험을 줄이려면 포트 소모를 방지 하기 위해 적절 한 공용 IP 주소가 NAT 풀에 할당 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-151">To mitigate this risk, ensure adequate Public IP addresses are assigned to the NAT pools to prevent port exhaustion.</span></span> <span data-ttu-id="63b72-152">포트 소모를 통해 Office 365 서비스에 연결할 때 내부 최종 사용자 및 장치가 문제를 발생 시킬 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-152">Port exhaustion will cause internal end users and devices to face issues when connecting to the Office 365 services.</span></span> <span data-ttu-id="63b72-153">자세한 내용은 [Office 365의 NAT 지원을](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="63b72-153">For more information, see [NAT support with Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9).</span></span>
+[<span data-ttu-id="6ee27-201">Teams의 ID 모델 및 인증</span><span class="sxs-lookup"><span data-stu-id="6ee27-201">Identity models and authentication in Teams</span></span>](identify-models-authentication.md)
 
-#### <a name="intrusion-detection-and-prevention-guidance"></a><span data-ttu-id="63b72-154">**침입 감지 및 예방 지침**</span><span class="sxs-lookup"><span data-stu-id="63b72-154">**Intrusion Detection and Prevention Guidance**</span></span>
-
-<span data-ttu-id="63b72-155">아웃 바운드 연결에 대 한 추가 보안 계층에 대 한 침입 감지 및/또는 방지 시스템 (ID/i p)이 환경에 있는 경우 목적지에서 Office 365 Url을 사용 하는 모든 트래픽이 허용 목록 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-155">If your environment has an Intrusion Detection and/or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, ensure that any traffic with destination to Office 365 URLs is whitelisted.</span></span>
-
-<a name="network-health-determination"></a><span data-ttu-id="63b72-156">네트워크 상태 결정</span><span class="sxs-lookup"><span data-stu-id="63b72-156">Network health determination</span></span>
------------------
-
-<span data-ttu-id="63b72-157">네트워크 내에서 Microsoft 팀을 구현 하는 경우 필요한 대역폭을 확보 하 고, 필요한 모든 IP 주소와 열려 있는 올바른 포트를 액세스 하 고, 실시간 미디어에 대 한 성능 요구 사항을 만족 하 고 있는지 확인 해야 합니다. .</span><span class="sxs-lookup"><span data-stu-id="63b72-157">When planning on the implementation of Microsoft Teams within your network, you must ensure you have the required bandwidth, you have access to all required IP addresses, the correct ports opened, and you are meeting the performance requirements for real-time media.</span></span>
-
-<span data-ttu-id="63b72-158">이러한 조건을 충족 하지 못하는 경우에는 최종 사용자가 통화와 모임 중 품질이 좋지 않아 팀에서 최적의 환경을 얻을 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-158">If you know you will not meet these criteria, your end users will not get an optimal experience from Teams due to bad quality during calls and meetings.</span></span>
-
-<span data-ttu-id="63b72-159">이러한 조건을 충족 하지 않으면 계속 하기 전에 기준에 맞는지 프로젝트를 일시 중지 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-159">Should you not meet these criteria, this is the time to consider pausing the project to ensure you meet the criteria before continuing.</span></span>
+[<span data-ttu-id="6ee27-202">Teams를 배포하는 방법</span><span class="sxs-lookup"><span data-stu-id="6ee27-202">How to roll out Teams</span></span>](How-to-roll-out-teams.md)
 
 
-|  |  |  |
-|---------|---------|---------|
-|![결정 지점을 나타내는 아이콘](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |<span data-ttu-id="63b72-161">판단 요점</span><span class="sxs-lookup"><span data-stu-id="63b72-161">Decision Point</span></span>         |<span data-ttu-id="63b72-162">실시간 미디어 지원에 대 한 네트워크 기능을 평가 했습니까?</span><span class="sxs-lookup"><span data-stu-id="63b72-162">Have you evaluated your network capabilities for supporting real time media?</span></span><br></br><span data-ttu-id="63b72-163">네트워크가 제대로 평가 되지 않았거나 리얼 시간 미디어를 지원 하지 않는 경우에는 네트워크 영향과 낮은 팀 환경을 줄이기 위해 영상 및 화면 공유 기능을 사용 하지 않도록 설정 해야 하나요?</span><span class="sxs-lookup"><span data-stu-id="63b72-163">If your network has not been properly assessed, or you know it will not support real time media, will you disable video and screen sharing capabilities to reduce network impact and poor Teams experiences?</span></span>         |
-|![다음 단계를 나타내는 아이콘](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |<span data-ttu-id="63b72-165">다음 단계</span><span class="sxs-lookup"><span data-stu-id="63b72-165">Next Steps</span></span>         |<span data-ttu-id="63b72-166">알 수 없는 네트워크 품질: 네트워크가 실시간 미디어에 대 한 준비가 되었는지 확인 하기 위해 네트워크 준비 평가를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-166">Network Quality Unknown: Perform a Network Readiness Assessment to determine if your network is ready for Real Time Media.</span></span><br></br><span data-ttu-id="63b72-167">네트워크 품질 저하: 네트워크 재구성 단계를 수행 하 여 고품질 실시간 미디어에 적합 한 환경을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-167">Network Quality Poor: Perform network remediation steps to provide a proper environment for high quality Real Time Media.</span></span><br></br><span data-ttu-id="63b72-168">네트워크 만족: 모든 IP 주소 및 포트에 대 한 액세스가 적절 한지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="63b72-168">Network Satisfactory: Ensure all IP addresses and ports are properly accessible.</span></span>           |
-
-## <a name="related-topics"></a><span data-ttu-id="63b72-169">관련 항목</span><span class="sxs-lookup"><span data-stu-id="63b72-169">Related Topics</span></span>
-
-[<span data-ttu-id="63b72-170">비디오: 네트워크 계획</span><span class="sxs-lookup"><span data-stu-id="63b72-170">Video: Network Planning</span></span>](https://aka.ms/teams-networking)

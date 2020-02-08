@@ -268,7 +268,7 @@
 ### [ExpressRoute를 사용하는 호출 흐름](../optimizing-your-network/call-flow-using-expressroute.md)
 ### [비즈니스용 Skype Online의 ExpressRoute 및 QoS](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [미디어 품질 및 네트워크 연결 성능](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
-### [비즈니스용 Skype Online의 프록시 서버](/microsoftteams/proxy-servers-for-skype-for-business-online?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [비즈니스용 Skype Online의 프록시 서버](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 ### [네트워크 테스트 비교 사용](/microsoftteams/use-network-testing-companion?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [통화 분석 및 통화 품질 대시보드](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
