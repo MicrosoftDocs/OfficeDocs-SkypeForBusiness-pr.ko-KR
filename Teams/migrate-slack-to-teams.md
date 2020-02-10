@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.custom: ''
+f1.keywords:
+- NOCSH
 description: Slack에서 Microsoft Teams로 마이그레이션하기 위한 완전한 가이드
-ms.openlocfilehash: 56278359062bb7f154b5e3248c343f98c62cb916
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: 15ef6203fa2cf27d081865e3966198f033b1bd80
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793474"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845217"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack에서 Microsoft Teams로 마이그레이션
 
@@ -43,7 +44,7 @@ Slack 내보내기 옵션에 대한 자세한 내용을 알아보려면 Slack �
 
 아래 다이어그램에는 이 문서에서 다룰 Slack 마이그레이션 계획을 개괄적으로 살펴봅니다. 
 
-:::image type="content" source="media/migrate-slack-to-teams-image2.png" alt-text="Slack 내보내기 환경을 보여주는 다이어그램.":::
+![Slack 내보내기 환경을 보여주는 다이어그램.](media/migrate-slack-to-teams-image2.png)
 
 이 섹션을 다 읽으면 다음 사항에 대해 이해할 수 있게 됩니다.
 - Slack 워크스페이스의 서비스 수준
@@ -80,7 +81,7 @@ Slack 내 앱은 Teams의 앱과 유사합니다. 워크스페이스에 앱과 �
 
 <your Slack workspace>.slack.com/apps/manage로 이동하여 앱 및 사용자 지정 통합 목록을 확인합니다. 이 페이지에서는 각 앱이 사용 중인 구성의 수도 보여줍니다. 사용자 지정 통합은 "마이그레이션 기능"에 따라 다릅니다. Web Hook인 경우 일반적으로 Office 365 커넥터로 보내 워크플로를 Teams로 전환할 수 있습니다. 사례별로 봇과 다른 앱을 평가하여 Teams로 옮길 방법을 계획합니다.
 
-*관리자가 앱 사용을 제한하는 경우 사용 가능한 앱의 전체 목록을 볼 수 없습니다.
+\* 관리자가 앱 사용을 제한하는 경우 사용 가능한 앱의 전체 목록을 확인하지 못할 수 있습니다.
 
 ### <a name="users"></a>사용자
 Slack에서 사용한 ID 체계가 Office 365에 직접 매핑되지 않을 수 있습니다. 예를 들어, Slack 사용자의 전자 메일 주소는 Office 365 회사 또는 학교 계정으로 매핑되지 않을 수 있습니다. Teams 롤아웃 계획을 시작하기 전에 사용자 ID 맵을 만들어야 합니다.
@@ -162,10 +163,10 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 ```
 
 이 섹션을 다 읽었다면 다음이 있어야 합니다.
-- 사용 현황 통계를 포함하는 워크스페이스당 채널 목록
-- 채널당 구성을 포함하는 Slack 앱 목록
+- 사용 현황 통계를 포함하는 워크스페이스당 채널 목록입니다.
+- 채널당 구성을 포함하는 Slack 앱 목록입니다.
 - 내보낼 Slack 메시지 기록 유형(있을 경우)을 결정합니다.
-- Slack 계정이 Microsoft 회사 또는 학교 계정에 매핑되는 사용자 목록과 해당 사용자가 보유한 Teams 라이선스
+- Slack 계정이 Microsoft 회사 또는 학교 계정에 매핑되는 사용자 목록과 해당 사용자가 보유한 Teams 라이선스입니다.
 
 ## <a name="plan-your-teams-deployment"></a>Teams 배포 계획
 Slack에서 필요한 항목을 내보냈습니다(그리고 필요하지 않은 모든 항목을 남겼습니다.). 이번에는 Teams를 어떻게 배포하고 Slack 데이터를 가져올지를 계획해야 합니다. 이는 사용 현황을 기반으로 팀에 잘 작동한 것을 평가하고 해당 요소를 Teams 배포 계획에 포함시킬 수 있는 좋은 기회입니다. 이 섹션의 끝에서는 Teams 사용자, 채널 및 앱의 청사진을 사용할 수 있게 됩니다. 
