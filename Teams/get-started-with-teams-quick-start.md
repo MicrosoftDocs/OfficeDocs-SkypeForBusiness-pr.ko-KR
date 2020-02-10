@@ -1,0 +1,62 @@
+---
+title: Microsoft Teams 시작하기
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.date: 01/28/2019
+ms.topic: article
+audience: admin
+ms.service: msteams
+ms.reviewer: lolaj
+description: 조직 전반에 걸쳐 광범위하게 배포하기 전에 Teams를 사용하여 환경을 구축할 수 있도록 첫 번째 팀 및 채널을 배포하여 Microsoft Teams를 시작하세요.
+localization_priority: Priority
+search.appverid: MET150
+f1.keywords:
+- NOCSH
+ms.collection:
+- M365-collaboration
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cd2c2918b2b65e33f1fa4afc7bfb61a28abb08e6
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837038"
+---
+# <a name="get-started-with-microsoft-teams"></a><span data-ttu-id="33dd2-103">Microsoft Teams 시작하기</span><span class="sxs-lookup"><span data-stu-id="33dd2-103">Get started with Microsoft Teams</span></span>
+
+<span data-ttu-id="33dd2-104">Teams를 신속하게 시작하려면 얼리어답터의 선택 그룹에 대해 두세 개의 팀 및 채널을 만드는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="33dd2-104">To get started quickly on Teams, we recommend you create two or three teams and channels for a select group of early adopters.</span></span> <span data-ttu-id="33dd2-105">먼저 소규모로 Teams를 배포함으로써 Teams를 사용하여 Teams를 배우고 조직 전체에 걸쳐 Teams를 배포하는 방법을 알리는 유용한 정보를 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="33dd2-105">By first rolling out Teams on a small scale, you'll learn Teams by using Teams and gain valuable insights to inform how you deploy Teams across your whole organization.</span></span> <span data-ttu-id="33dd2-106">소규모 기업의 경우 조직 전체에 Teams를 배포하기 위한 모든 정보는 빠른 시작 가이드를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="33dd2-106">If you're a small business, this Quick start guide is all you need to roll out Teams to your whole organization.</span></span>
+
+
+<span data-ttu-id="33dd2-107">Teams를 사용하여 조직 내부 및 외부 사용자와 함께 팀을 빠르게 이끌어 신속하고 폭넓은 대화를 유도하여 문서를 안전하게 공유하고 공동 작성하며 프로젝트를 반복할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="33dd2-107">Teams lets you quickly pull together a team with people inside and outside your organization, chat with others to drive fast and inclusive conversations, securely share and coauthor documents, and iterate on projects.</span></span> <span data-ttu-id="33dd2-108">공유 노트, 웹 페이지 및 앱에 대해 핑거팁 액세스를 추가하여 Teams를 사용자 지정하세요.</span><span class="sxs-lookup"><span data-stu-id="33dd2-108">Customize Teams by adding fingertip access to shared notes, webpages, and apps.</span></span> <span data-ttu-id="33dd2-109">모임 및 통화를 사용하여 어디서나 실시간으로 공동 작업할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="33dd2-109">Use meetings and calling to collaborate in real time from wherever users are.</span></span> <span data-ttu-id="33dd2-110">Teams는 Office 365 서비스 및 타사 앱에 대한 액세스를 간소화하여 공동 작업 및 통신 요구 사항에 대해 새로운 무게 중심이 될 것입니다.</span><span class="sxs-lookup"><span data-stu-id="33dd2-110">Teams will simplify your access to Office 365 services and  third-party apps to be the new center of gravity for your collaboration and communication needs.</span></span> <span data-ttu-id="33dd2-111">최적의 환경과 가장 정확한 피드백을 위해 얼리어답터가 데스크톱 및 모바일 애플리케이션 모두에 설치할 수 있도록 하세요.</span><span class="sxs-lookup"><span data-stu-id="33dd2-111">Encourage your early adopters to install both the desktop and mobile applications for the best experience and most accurate feedback.</span></span>
+
+<span data-ttu-id="33dd2-112">![데스크톱 및 모바일 클라이언트 사용자 인터페이스를 보여주는 스크린샷](media/get-started-microsoft-teams.png "Teams 데스크톱 클라이언트 및 모바일 클라이언트 사용자 인터페이스를 보여주는 스크린샷" )</span><span class="sxs-lookup"><span data-stu-id="33dd2-112">![Screen shot showing the desktop and mobile client user interfaces](media/get-started-microsoft-teams.png "Screen shot showing the Teams desktop client and mobile client user interface" )</span></span> 
+
+<span data-ttu-id="33dd2-113">얼리어답터가 채팅을 시작하고 파일을 공유하며 공동 작업을 할 수 있도록 첫 번째 팀 및 채널 집합을 배포하는 방법은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="33dd2-113">Here's how to roll out your first set of teams and channels so your early adopters can start chatting, sharing files, and collaborating.</span></span>
+
+- <span data-ttu-id="33dd2-114">1단계: [첫 번째 팀 및 채널 만들기](get-started-with-teams-create-your-first-teams-and-channels.md)</span><span class="sxs-lookup"><span data-stu-id="33dd2-114">Step 1: [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)</span></span>
+- <span data-ttu-id="33dd2-115">2단계: [얼리어답터 온보딩](get-started-with-teams-onboard-early-adopters.md)</span><span class="sxs-lookup"><span data-stu-id="33dd2-115">Step 2: [Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)</span></span>
+- <span data-ttu-id="33dd2-116">3단계: [사용 현황 및 피드백 모니터링](get-started-with-teams-monitor-usage-and-feedback.md)</span><span class="sxs-lookup"><span data-stu-id="33dd2-116">Step 3: [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)</span></span>
+- <span data-ttu-id="33dd2-117">4단계: [리소스를 다운로드하여 조직 전체 배포 계획](get-started-with-teams-resources-for-org-wide-rollout.md)</span><span class="sxs-lookup"><span data-stu-id="33dd2-117">Step 4: [Get resources to plan your organization-wide rollout](get-started-with-teams-resources-for-org-wide-rollout.md)</span></span>
+
+<span data-ttu-id="33dd2-118">대규모 조직의 경우 하이브리드 또는 온-프레미스 비즈니스용 Skype 구성을 보유하고 있거나 규정 또는 준수 요구 사항이 엄격하거나 모임이나 음성 기능 (예: 통화 요금제 또는 전화 시스템)을 배포하려는 경우에는 먼저 [Teams를 배포하는 방법](how-to-roll-out-teams.md)에 대해 읽어보세요.</span><span class="sxs-lookup"><span data-stu-id="33dd2-118">If you're a large organization, have a hybrid or on-premises Skype for Business configuration, have strict regulatory or compliance requirements, or if you want to roll out meetings or voice features (such as calling plans or phone system), start by reading [How to roll out Teams](how-to-roll-out-teams.md).</span></span> <span data-ttu-id="33dd2-119">해당 **시작** 섹션을 사용하여 기술을 구축하고 조직 전체 배포 계획을 시작하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="33dd2-119">We recommend you still begin with this **Get started** section to build your skills and start planning your org-wide deployment.</span></span> <span data-ttu-id="33dd2-120">"Teams를 사용하여 Teams 계획."</span><span class="sxs-lookup"><span data-stu-id="33dd2-120">"Plan Teams with Teams."</span></span> <span data-ttu-id="33dd2-121">채팅, 팀, 채널 및 앱과 함께 Teams를 배포하여 소규모로 시작하고 구축하세요.</span><span class="sxs-lookup"><span data-stu-id="33dd2-121">Start small by rolling out Teams with chat, teams, channels, & apps and build from there.</span></span> <span data-ttu-id="33dd2-122">이러한 초기 환경을 통해 Teams에 대한 소식을 전하고 조직 전체에서 다음 출시 단계를 위해 흥미로운 내용을 생성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="33dd2-122">These initial experiences will help you spread the word about Teams, generating excitement throughout the organization for your next launch phase.</span></span> 
+
+<span data-ttu-id="33dd2-123">소규모 기업의 경우 빠른 시작 가이드를 사용하여 조직에 Teams를 전체적으로 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="33dd2-123">If you're a small business, you may be able to use this Get started guidance to fully roll out Teams in your organization.</span></span> <span data-ttu-id="33dd2-124">소규모 기업은 단계적인 Teams 배포를 수행하지 않아도 됩니다.</span><span class="sxs-lookup"><span data-stu-id="33dd2-124">Small businesses might not need to do a phased Teams deployment.</span></span> <span data-ttu-id="33dd2-125">조직 내에서 보다 간편하고 효율적으로 배포하기 위해 소규모 기업 전용으로 제공되는 서식 파일을 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="33dd2-125">Be sure to check out the templates that are available specifically for small business to make deployment in your organization easier and more streamlined.</span></span> <span data-ttu-id="33dd2-126">[중소기업을 위한 Teams 서식 파일을 사용하여 시작](https://docs.microsoft.com/microsoftteams/smb-templates)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="33dd2-126">See [Get started with Teams templates for Small and Medium Businesses](https://docs.microsoft.com/microsoftteams/smb-templates).</span></span>
+
+## <a name="before-you-get-started"></a><span data-ttu-id="33dd2-127">시작하기 전</span><span class="sxs-lookup"><span data-stu-id="33dd2-127">Before you get started</span></span>
+
+<span data-ttu-id="33dd2-128">시작 하기 전에 다음의 사항을 검토하여 Teams 배포를 계획하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="33dd2-128">Before you get started, you'll want to plan for your Teams rollout by reviewing the following:</span></span>
+
+- [<span data-ttu-id="33dd2-129">Teams에 대한 사용자 환경의 준비 상태 확인</span><span class="sxs-lookup"><span data-stu-id="33dd2-129">Check your environment's readiness for Teams</span></span>](environment-readiness.md)
+- [<span data-ttu-id="33dd2-130">Teams에 대한 조직의 네트워크 준비</span><span class="sxs-lookup"><span data-stu-id="33dd2-130">Prepare your organization's network for Teams</span></span>](prepare-network.md)
+- [<span data-ttu-id="33dd2-131">데스크톱, 웹 및 모바일 클라이언트를 설치하는 이점에 대한 자세한 정보</span><span class="sxs-lookup"><span data-stu-id="33dd2-131">Learn about the benefits of installing the desktop, web, and mobile clients</span></span>](get-clients.md)
+
+<span data-ttu-id="33dd2-132">모든 사용자에 대한 Teams 라이선스를 확보해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="33dd2-132">You'll also need to make sure you've got Teams licenses for everybody.</span></span> <span data-ttu-id="33dd2-133">[Teams 계획 비교](https://products.office.com/microsoft-teams/free) 및 [Teams용 Office 365 라이선싱](office-365-licensing.md)을 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="33dd2-133">Check out [Compare Teams plans](https://products.office.com/microsoft-teams/free) and [Office 365 licensing for Teams](office-365-licensing.md).</span></span> 
+
+
+
+## <a name="next-steps"></a><span data-ttu-id="33dd2-134">다음 단계</span><span class="sxs-lookup"><span data-stu-id="33dd2-134">Next steps</span></span>
+<span data-ttu-id="33dd2-135">[첫 번째 팀 및 채널 만들기](get-started-with-teams-create-your-first-teams-and-channels.md)로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="33dd2-135">Go to [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md).</span></span>
+
+<span data-ttu-id="33dd2-136">대화형 [Teams 채택 가이드](https://aka.ms/teamstoolkit)를 사용하여 자세히 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="33dd2-136">Learn more with our interactive [Teams Adoption Guide](https://aka.ms/teamstoolkit).</span></span>
