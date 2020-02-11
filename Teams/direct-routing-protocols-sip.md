@@ -17,12 +17,12 @@ f1.keywords:
 description: 다이렉트 라우팅 프로토콜
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5fc90ace7a2b1bd8a6984c7268903a1a6063e137
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6b93ea469a1a27e796b5cc2016fd63c9cfd3acdd
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835038"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888567"
 ---
 # <a name="direct-routing---sip-protocol"></a>다이렉트 라우팅-SIP 프로토콜
 
@@ -92,7 +92,7 @@ SIP 메시지에 표시 된 연락처 머리글에 두 개 이상의 값이 SBC�
 
 현재 전화 번호는 다음 예와 같이 더하기 기호 (+)를 포함 해야 합니다. 
 
-```
+```console
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 ```
 
@@ -204,7 +204,7 @@ SIP 프록시는 SBC에서 보고 하는 기능을 기반으로 메서드를 선
 
 다음은 참조 메서드가 지원 됨을 나타내는 메시지를 보내는 SBC의 예입니다.
 
-```
+```console
 ALLOW: INVITE, OPTIONS, INFO, BYE, CANCEL, ACK, PRACK, UPDATE, REFER, SUBSCRIBE, NOTIFY
 ```
 
@@ -212,7 +212,7 @@ SBC에서 지원 되는 메서드를 참조 하는 것으로 표시 되지 않�
 
 참조 메서드가 지원 되지 않음을 나타내는 SBC의 예입니다.
 
-```
+```console
 ALLOW: INVITE, ACK, CANCEL, BYE, INFO, NOTIFY, PRACK, UPDATE, OPTIONS
 ```
 
@@ -292,7 +292,7 @@ History-정보 헤더는 대상 변경 SIP 요청에 사용 되며 "네트워크
 
 SIP 프록시에서 보낸 기록 정보 헤더의 형식은 다음과 같습니다.
 
-```
+```console
 <sip:UserB@sip.pstnhub.microsoft.com?Privacy=history&Reason=SIP%3B\cause%3D486>;index=1.2,
 ```
 
@@ -301,7 +301,7 @@ SIP 프록시에서 보낸 기록 정보 헤더의 형식은 다음과 같습니
 
 머리글 예:
 
-```
+```console
 History-info: 
 <sip:+14257123456@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=302;text=”Move Temporarily”>;index=1
 <sip:+14257123457@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=496;text=”User Busy”>;index=1.1

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '사용자 및 조직에 대해 통신 크레딧 (PSTN 소비) 청구 라이선스를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 426ca88cb25aad988960add812595f89eed17595
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1672c2d3c66690393e34b90fbeb1b2be4d54042
+ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838028"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889417"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>조직에 사용할 통신 크레딧 설정
 
@@ -58,9 +58,9 @@ ms.locfileid: "41838028"
 
 1. 회사 또는 학교 계정으로 새 Office 365 포털에 로그인 합니다.
     
-2. Microsoft 365 관리 센터의 왼쪽 탐색 모음에서 **청구** > **구독** > 으로 이동 하 여**구독을 추가**합니다.
+2. Microsoft 365 관리 센터의 왼쪽 탐색 모음에서 **청구** > **구입 서비스로**이동 합니다. 아래로 스크롤하여 **추가 기능**을 선택 합니다.
 
-3. **추가 기능 구독**을 확장 한 다음 지금 **통신 크레딧** > **구매**를 선택 합니다.
+3. **통신 크레딧을**선택 합니다.
     
 4. **커뮤니케이션 크레딧** 신청 페이지에서 정보를 입력 하 고 **다음**을 클릭 합니다.
     
@@ -93,9 +93,9 @@ ms.locfileid: "41838028"
     
 2. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **사용자** > **활성 사용자**로 이동한 다음 목록에서 한 명 또는 몇 명의 사용자를 선택 합니다.
     
-3. 작업 창의 **제품 라이선스**에서 **편집**을 클릭 합니다.
+3. **라이선스 및 앱**을 선택 합니다.
     
-4. **제품 라이선스** 페이지에서이 **라이선스를 할당 하도록** **통신 크레딧을** 설정/해제 한 다음 **저장**을 클릭 합니다.
+4. 이 라이선스를 할당 하려면 **통신 크레딧을** **설정으로 전환** 하 고 **저장**을 선택 합니다.
     
     > [!NOTE]
     > **Enterprise E5** 라이선스를 할당 받은 사용자가 있는 경우에도이 작업을 수행 하는 것이 좋습니다.

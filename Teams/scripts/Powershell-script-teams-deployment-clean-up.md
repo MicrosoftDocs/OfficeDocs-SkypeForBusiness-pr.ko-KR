@@ -15,12 +15,12 @@ description: 이 PowerShell 스크립트를 사용 하 여 대상 컴퓨터 또�
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.openlocfilehash: f6e6f54bb1e0a4098994f4fb17b167f8ae02dd70
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: c02b918d0fe3d686266fd385a5378e47d98e2508
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827586"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888257"
 ---
 <a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>PowerShell 스크립트 샘플-Microsoft 팀 배포 정리
 -------------------------------------------------------------------------
@@ -30,7 +30,7 @@ ms.locfileid: "41827586"
 
 ## <a name="sample-script"></a>예제 스크립트
 
-````powershell
+```powershell
 <#
 .SYNOPSIS
 This script allows you to uninstall the Microsoft Teams app and remove Teams directory for a user.
@@ -61,6 +61,6 @@ catch
     Write-Error -ErrorRecord $_
     exit /b 1
 }
-````
+```
 
 

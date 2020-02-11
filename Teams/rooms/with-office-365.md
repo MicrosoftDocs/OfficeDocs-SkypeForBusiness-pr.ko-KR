@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Office 365를 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: d3fcfdd0b2aabc5d69946ba60b5b8c6fbc73f713
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 39a703b844df1a1ff487187772ff8eb8ea035191
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827446"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888757"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365를 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -36,7 +36,7 @@ Microsoft 팀 회의실을 Office 365에 배포 하기 전에 요구 사항을 �
 
 - Office 365 요금제의 비즈니스용 Skype Online (계획 2 또는 엔터프라이즈 기반 계획) 이상 요금제는 전화 접속 회의 기능을 허용 해야 합니다.
 
-- 모임에서 전화 접속 기능이 필요한 경우에는 오디오 회의 및 전화 시스템 라이선스가 필요 합니다.  모임에서 전화 접속 기능이 필요한 경우 국내 또는 국내 및 국제 통화 요금제가 필요 합니다.
+- 모임에서 전화 접속 기능이 필요한 경우에는 오디오 회의 및 전화 시스템 라이선스가 필요 합니다.  모임에서 전화 접속 기능이 필요한 경우에는 오디오 회의 라이선스가 필요 합니다.
 
 - 테 넌 트 사용자에 게 Exchange 사서함이 있어야 합니다.
 

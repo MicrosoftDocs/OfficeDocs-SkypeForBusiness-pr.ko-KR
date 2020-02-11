@@ -15,12 +15,12 @@ f1.keywords:
 description: AppLocker 응용 프로그램 제어 정책으로 팀 데스크톱 클라이언트 응용 프로그램을 사용 하도록 설정 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d3e9df38164c5253aab3a331b47b26892a910b7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 13a1afd4ad4089db3c6b0c1223bf06831d9be667
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826386"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888557"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft 팀의 AppLocker 응용 프로그램 제어 정책
 
@@ -42,7 +42,7 @@ AppLocker 규칙은 규칙 모음으로 구성 됩니다. AppLocker 규칙은 �
 
 팀 클라이언트 앱 (모든 파일, 모든 버전)에 대해 DLL 규칙 & 실행 규칙에 다음을 추가 합니다.
 
-```
+```console
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
 Product name: MICROSOFT TEAMS
 Product name: MICROSOFT TEAMS UPDATE

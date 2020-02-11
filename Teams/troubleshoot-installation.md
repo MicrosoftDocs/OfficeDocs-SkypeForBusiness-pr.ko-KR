@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Windows에서 팀 데스크톱 클라이언트 앱의 설치 및 업데이트 문제를 해결 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f47edf351d6a55f57977fee823d670b749896049
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5c6ee4da7e4bb78463cb262cb382e3a090529bb5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837628"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888847"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Windows에서 Microsoft 팀 설치 및 업데이트 문제 해결
 
@@ -77,36 +77,36 @@ SquirrelTemp 또는 .log에 충분 한 정보가 포함 되어 있지 않은 경
 
     1. TEMP 폴더로 이동 하려면 다음을 실행 합니다.
 
-        ```
+        ```console
         cd /d %TEMP%
         ```
     2. 설정 및 응용 프로그램 로그를 복사 합니다. 실패 시점에 따라 일부 로그는 표시 되지 않을 수 있습니다.
 
-        ```
+        ```console
         copy %LocalAppData%\SquirrelTemp\SquirrelSetup.log SquirrelSetup.log
         copy %AppData%\Microsoft\Teams\logs.txt logs.txt
         copy %LocalAppData%\Microsoft\Teams\SquirrelSetup.log SquirrelSetup_Teams.log
         ```
     3. 다음을 실행 하 여 열린 핸들을 캡처합니다.
 
-        ```
+        ```console
         handle > handles.txt
         ```
 
     4. 다음을 실행 하 여 열린 Dll을 캡처합니다.
 
-        ```
+        ```console
         listdlls -v Teams > dlls.txt
         ```
     5. 실행 중인 드라이버를 캡처하려면 다음을 실행 합니다.
 
-        ```
+        ```console
         driverquery /v > driverquery.txt
         ```
 
     6. 다음을 실행 하 여 팀 폴더의 Acl (액세스 제어 목록)을 캡처합니다.
 
-        ``` 
+        ```console 
         icacls %LOCALAPPDATA%\Microsoft\Teams /save icacls.txt /T
         ```
 

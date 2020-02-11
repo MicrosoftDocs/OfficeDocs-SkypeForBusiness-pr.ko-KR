@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '조직의 전화 시스템 (클라우드 PBX)을 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 71e12447d0a6951ef787bf7c7cd82024375e11fd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837988"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888727"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>조직에서 전화 시스템 설정
 
@@ -116,7 +116,7 @@ Office 365에서 사용자의 전화 번호를 가져올 수 있을 뿐만 아�
 
 ## <a name="step-8-if-you-want-to-set-up-a-cloud-auto-attendant"></a>8 단계: 클라우드 자동 전화 교환을 설정 하려면
 
-자동 전화 교환을 통해 조직에 전화를 걸고 메뉴 시스템을 탐색 하 여 올바른 부서, 통화 대기열, 사람, 교환원에 게 얻을 수 있습니다. 비즈니스용 Skype 관리 센터를 사용 하 여 조직의 자동 전화 교환을 만들 수 있습니다.
+자동 전화 교환을 통해 조직에 전화를 걸고 메뉴 시스템을 탐색 하 여 올바른 부서, 통화 대기열, 사람, 교환원에 게 얻을 수 있습니다. 팀 관리 센터를 사용 하 여 조직에 대 한 자동 전화 교환을 만들 수 있습니다.
 
 클라우드 자동 전화 교환 설정에 대 한 자세한 내용은 [클라우드 자동 전화 교환을 설정](create-a-phone-system-auto-attendant.md)attendendant을 참조 하세요.
 

@@ -17,12 +17,12 @@ f1.keywords:
 description: 다이렉트 라우팅 프로토콜
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f21a4532a841a23f6bbb78a57e223616ae539fa
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 43673c2b6a1928ab2ca21579339324f01d5ada9e
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835138"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888577"
 ---
 # <a name="overview"></a>개요
 
@@ -105,13 +105,13 @@ SBC는 전체 ICE 끝점에서 받은 유효한 모든 연결 확인 요청에 �
 
 SBC는 다음 형식으로 제공 및 answer에 대 한 SRTP 암호화 암호 AES_CM_128_HMAC_SHA1_80를 지원 해야 합니다.
 
-```
+```console
 "inline:" <key||salt> ["|" lifetime]
 ```
 
 다음은 SBC의 SDP 제안에 있는 crypto 특성의 예입니다.
 
-```
+```console
 a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:V/Lr6Lsvhad/crSB9kCQ28jrYDxR2Yfk5bXryH5V|2^31
 ```
 
@@ -133,7 +133,7 @@ MKI 및 Length 매개 변수는 필요 하지 않습니다.
 
 SDES를 포함 하 고 다음 형식으로 DTLS optional을 포함할 수 있는 제안이 있어야 합니다.
 
-```
+```console
 m=audio 54056 UDP/TLS/RTP/SAVP 0 8 76 77 18 9 101 13
 a=rtcp:54056
 a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:krXco0QRglwErMqtbMs2zSw29tBdmdgXpEYZhQmp|2^31
@@ -144,7 +144,7 @@ a=rtcp-mux
 
 ### <a name="format-for-answer-containing-sdes-to-sbc"></a>SDES를 포함 하 여 SBC에 대 한 응답 형식
 
-```
+```console
 m=audio 54056 RTP/SAVP 111 103 104 9 0 8 description 106 13 110 112 113 126
 a=rtcp:54056
 a=crypto:2 AES_CM_128_HMAC_SHA1_80 inline:fBc61ikv1kMy0sF85DblNqTzVAbFa7hJQ9GKb6Yj|2^31|1:1
@@ -157,7 +157,7 @@ a=rtcp-mux
 
 ### <a name="format-for-sdes-only-offer-to-sbc"></a>SBC에 대 한 SDES에 대 한 형식 제공
 
-```
+```console
 m=audio 52884 RTP/SAVP 111 103 104 9 0 8 106 13 110 112 113 126
 a=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:Hr4D2cgUu9+Uza5Igz/JkVx59DAxDbaxJg862ibQ|2^31
 a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:JPEaIxHegfuv53ykBPZk8hV0GO8kTiiqRMfHimEE|2^31

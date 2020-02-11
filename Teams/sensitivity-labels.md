@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 우편물 종류 레이블을 정의 하 고 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 446bd222ce29ed627eb3229b244228665bbff6c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e9f007fd174027443191cd7d2dbb8f8321c7424f
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838118"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888737"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 팀의 민감도 레이블
 
@@ -68,9 +68,9 @@ ms.locfileid: "41838118"
 
 EnableMIPLabels 설정은 다음과 같이 false로 설정 되어야 합니다.
 
-```
+```console
 $setting["EnableMIPLabels"] = "False"
- ```
+```
 
 ## <a name="using-sensitivity-labels-with-teams"></a>팀과 우편물 종류 레이블 사용
 

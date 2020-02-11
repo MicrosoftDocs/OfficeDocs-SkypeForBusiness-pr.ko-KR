@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 오디오 회의, 전화 시스템, 통화 요금제 등의 기능에 대 한 라이선스를 할당 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 967b67c1d8bc92009e1319260373c9b8abc52b99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 46ae5952d79f3f0ef0a6137b240661550ecead00
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826316"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888687"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Microsoft 팀 라이선스 할당
 
@@ -58,7 +58,7 @@ ms.locfileid: "41826316"
 
 스크립트의 라이선스 또는 제품 이름 이름이 기울임꼴로 표시 됩니다 (예제 이후 스크립트 [에 사용 되는 전화 시스템 및 통화 계획 제품 이름 또는 sku](#phone-system-and-calling-plans-product-names-or-skus-used-for-scripting)참조).
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
 #Example of text file:
@@ -93,6 +93,7 @@ for each ($user in $users)
  }
 
 ```
+
 ## <a name="phone-system-and-calling-plans-product-names-or-skus-used-for-scripting"></a>전화 시스템 및 통화 플랜 스크립트에 사용 되는 제품 이름 또는 Sku
 
 | 제품 이름 | SKU 부품 이름 |
@@ -131,7 +132,7 @@ for each ($user in $users)
 
 이 예제에서는 음성 회의 라이선스와 함께 Enterprise E3 라이선스를 할당 합니다.
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 #Example of text file:
 #user1@domain.com
@@ -165,6 +166,7 @@ foreach ($user in $users)
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
     }
 ```
+
 ## <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>스크립트에 사용 되는 오디오 회의 제품 이름 또는 SKU
 
 | 제품 이름 | SKU 부품 이름 |

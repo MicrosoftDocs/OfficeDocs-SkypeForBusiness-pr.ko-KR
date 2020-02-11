@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 비즈니스용 Skype Online 및 팀 구성 관점에서 직접 라우팅하기 위해 마이그레이션하는 데 필요한 사항에 대해 알아보세요.
-ms.openlocfilehash: 85b53bf33cd8f9015ea9294876a06da3532ad085
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: fa7a3e09d4f79328545bff29b2f440ba0bfe6990
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836058"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888587"
 ---
 # <a name="migrate-to-direct-routing"></a>직접 라우팅으로 마이그레이션
 
@@ -31,7 +31,7 @@ ms.locfileid: "41836058"
 - 비즈니스용 skype Online에서 온-프레미스 PSTN 연결을 사용 하는 Office 365 전화 시스템 (비즈니스용 Skype Online)  
 - 클라우드 커넥터 버전 (비즈니스용 Skype Online)을 사용 하 여 온-프레미스 PSTN 연결을 사용 하는 Office 365 전화 시스템
 
-  
+
 이러한 구성 단계 외에도 SBC (세션 경계 컨트롤러)에서 호출을 새 경로로 라우팅하는 데 구성이 필요 합니다. 이 문서에서는 다루지 않습니다. 자세한 내용은 SBC 공급 업체 문서를 참조 하세요.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>다양 한 PSTN 연결 옵션의 사용자 프로비저닝 종료 상태 
@@ -72,7 +72,7 @@ OnPremLineURI |해당 없음|전화 번호는 온-프레미스 광고와 동기�
  
 다음과 같이 이전에 구성한 라이선스 계획 정보를 제거 하는 것이 좋습니다.
  
-```
+```powershell
 $companyname = “contoso” 
 $lic1 = $companyname + “:MCOPSTN1” 
 $lic2 = $companyname + “:MCOPSTN2” 
@@ -91,6 +91,7 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 ```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
+> [!NOTE]
 > 전역 CsVoiceRoutingPolicy 구성 된 경우이 글로벌 정책과 연결 된 PSTN 사용량을 제거 하는 것이 좋습니다. 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>클라우드 커넥터 에디션을 통해 온-프레미스 PSTN 연결을 사용 하 여 Office 365 전화 시스템에서 마이그레이션 
