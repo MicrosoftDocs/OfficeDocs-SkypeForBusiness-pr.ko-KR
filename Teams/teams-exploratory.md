@@ -16,19 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aa3969d3943598c8e5657e1fcb94730179f57fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: eb0998579c29cd7405319600c436468bac2ec4e8
+ms.sourcegitcommit: 73376693670d12f3d9038d4ed604e6685ee21984
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837688"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41917023"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 =======================================================
 
 Microsoft Teams 예비 환경을 통해 조직에서 AAD (Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 예비 환경을 시작할 수 있습니다. 관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다. 이전의 [Microsoft 상용 클라우드 평가판](iw-trial-teams.md)은 이제 Teams 예비 환경이라고 합니다.
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)] 이 환경은 2020년 1월 중순부터 사용할 수 있습니다.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Teams의 예비 환경에는 무엇이 있나요?
 
