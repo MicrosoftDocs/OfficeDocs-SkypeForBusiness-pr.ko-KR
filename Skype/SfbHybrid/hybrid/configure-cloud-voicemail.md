@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버에 있는 사용자에 대해 클라우드 기반 음성 메일을 구현 하기 위한 지침입니다.
-ms.openlocfilehash: df76051081baaae412c36acf4e73171f2ebce220
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f99286d4a3495d0214c46d28b105ad9076d238b2
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726918"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888537"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>온-프레미스 사용자를 위한 클라우드 음성 메일 서비스 구성
 
@@ -102,7 +102,7 @@ Get-CsHostedVoicemailPolicy
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>사용자가 클라우드 음성 메일을 사용할 수 있도록 설정
@@ -111,13 +111,17 @@ Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:Cl
 
 예를 들어 다음 명령은 클라우드 음성 메일에 대해 사용자 계정을 사용 하도록 설정 합니다. 
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $True```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $True
+```
 
 이 cmdlet은 전역, 사이트 또는 사용자 수준에서 클라우드 음성 메일 정책이이 사용자에 게 적용 되는지 확인 합니다. 정책이 적용 되지 않으면 cmdlet이 실패 합니다.  
 
 다음은 클라우드 음성 메일에 대 한 사용자 계정을 사용 하지 않도록 설정 하는 예입니다.
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $False```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $False
+```
 
 이 cmdlet은 전역, 사이트 또는 사용자 수준에서 호스팅된 음성 메일 정책 (이 사용자에 게 적용 됨)이 없는지 확인 합니다. 정책이 적용 되 면 cmdlet이 실패 합니다.
 

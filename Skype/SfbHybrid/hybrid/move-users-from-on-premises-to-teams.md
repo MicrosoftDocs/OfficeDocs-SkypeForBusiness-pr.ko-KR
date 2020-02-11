@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 사용자 설정을 마이그레이션하고 사용자를 팀으로 이동 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: c719741323c0e1bc8435adf10364356d069e8774
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af5281faffa9bd9439e045dc40f67283bb740cb5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726748"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888777"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>온-프레미스에서 팀으로 사용자 이동
 
@@ -73,11 +73,11 @@ ms.locfileid: "41726748"
 
 다음 cmdlet 시퀀스를 사용 하 여 사용자를 TeamsOnly로 이동할 수 있으며, Office 365 자격 증명이 별도의 계정이 고 자격 증명 확인을 위한 입력으로 제공 된다고 가정 합니다.
 
-    ```
-    $cred=Get-Credential
-    $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
-    Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
-    ```
+  ```powershell
+  $cred=Get-Credential
+  $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
+  Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
+  ```
 
 ### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>비즈니스용 Skype 서버 제어판을 사용 하 여 팀으로 이동
 
@@ -101,14 +101,16 @@ ms.locfileid: "41726748"
 
 온-프레미스 사용자에 게 곧 팀으로 업그레이드할 예정 임을 알리려면 NotifySfBUsers = true를 사용 하 여 TeamsUpgradePolicy의 새 인스턴스를 만듭니다. 그런 다음 정책을 사용자에 게 직접 할당 하거나 사이트, 풀 또는 전역 수준에서 정책을 설정 하 여 알림을 받을 사용자에 게 해당 정책을 할당 합니다. 다음 cmdlet은 사용자 수준 정책을 만들고 부여 합니다.
 
-```
+```powershell
 New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true
 Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNotifications
 ```
 
 비즈니스용 Skype Win32 클라이언트를 통한 팀의 자동 다운로드는 DownloadTeams 매개 변수를 사용 하 여 온-프레미스 TeamsUpgradeConfiguration cmdlet을 통해 제어 됩니다. 이 구성은 전역, 사이트 및 풀 수준에서 만듭니다. 예를 들어 다음 명령은 사이트 Redmond1에 대 한 구성을 만듭니다.
 
-`New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”`
+```powershell
+New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
+```
 
 기본적으로 DownloadTeams의 값은 True입니다. 그러나 지정 된 사용자에 대해 NotifySfbUser = True 인 경우에 *만* 이 속성이 허용 됩니다.
 
