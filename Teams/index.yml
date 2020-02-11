@@ -1,0 +1,53 @@
+### YamlMime:Hub
+title: Microsoft Teams 기술 문서
+summary: Microsoft Teams 기술 문서
+brand: teams
+metadata:
+  title: Microsoft Teams 기술 문서
+  description: Microsoft Teams 기술 문서
+  ms.service: msteams
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 07/03/2019
+  localization_priority: Priority
+  ms.openlocfilehash: 6c588d03d27d0f4c6641546a75e9e371b2b8c04b
+  ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 02/11/2020
+  ms.locfileid: "41889427"
+additionalContent:
+  sections:
+  - title: IT 전문가 용
+    items:
+    - title: Teams에 오신 것을 환영합니다
+      summary: 팀에 대 한 개요를 살펴보고 팀 관리자 또는 IT 전문가로 필요한 기술 지침을 찾아보십시오.
+      url: /MicrosoftTeams/teams-overview
+    - title: 비즈니스용 Skype에서 Teams로 업그레이드
+      summary: 팀의 최적 경로를 탐색 하는 지침과 도구를 찾아 보세요.
+      url: /MicrosoftTeams/upgrade-start-here
+    - title: 채택 허브
+      summary: 팀 출시를 지 원하는 도구를 다운로드 합니다.
+      url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+    - title: '교육 및 비디오 찾기  '
+      summary: 팀 교육을 통해 여러분 및 사용자를 보세요.
+      url: /MicrosoftTeams/training-microsoft-teams-landing-page
+    - title: '포스터: Teams 아키텍처, 전화 통신 솔루션'
+      summary: 팀의 IT 아키텍처 및 전화 통신 솔루션에 대 한 인쇄용 일러스트레이션을 보세요.
+      url: /microsoftteams/teams-architecture-solutions-posters
+    - title: 조직 전체로 Teams 확장
+      summary: 의료,에서 일선 worker, 소매, 정부, 교육 등 업계에 대 한 사용자 지정 솔루션을 찾습니다.
+      url: /MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page
+  - title: 다른 대상 그룹
+    items:
+    - title: Teams 기술 커뮤니티
+      summary: 팀 기술 커뮤니티에 가입 하 여 질문을 하 고, 답을 얻고, 팀 블로그를 읽어 보세요.
+      url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
+    - title: 최종 사용자 Teams 도움말
+      summary: 도움말, 교육, 최종 사용자를 위한 새로운 기능으로 이동 하세요.
+      url: https://support.office.com/Teams
+    - title: Teams 개발자 플랫폼
+      summary: 팀 개발자 플랫폼과이를 사용 하 여 유용 하 고 강력한 앱을 작성 하는 방법에 대해 알아봅니다.
+      url: /microsoftteams/platform/overview

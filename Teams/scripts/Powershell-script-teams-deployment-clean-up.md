@@ -15,22 +15,22 @@ description: 이 PowerShell 스크립트를 사용 하 여 대상 컴퓨터 또�
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.openlocfilehash: f6e6f54bb1e0a4098994f4fb17b167f8ae02dd70
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: c02b918d0fe3d686266fd385a5378e47d98e2508
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827586"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888257"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="572ae-103">PowerShell 스크립트 샘플-Microsoft 팀 배포 정리</span><span class="sxs-lookup"><span data-stu-id="572ae-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="5d824-103">PowerShell 스크립트 샘플-Microsoft 팀 배포 정리</span><span class="sxs-lookup"><span data-stu-id="5d824-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="572ae-104">이 PowerShell 스크립트는 대상 컴퓨터 또는 사용자 로부터 Microsoft 팀을 정리 하는 데 활용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="572ae-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="572ae-105">대상 컴퓨터의 모든 사용자에 대해 실행 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="572ae-105">It should be executed for every user on a targeted machine.</span></span> 
+<span data-ttu-id="5d824-104">이 PowerShell 스크립트는 대상 컴퓨터 또는 사용자 로부터 Microsoft 팀을 정리 하는 데 활용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5d824-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="5d824-105">대상 컴퓨터의 모든 사용자에 대해 실행 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5d824-105">It should be executed for every user on a targeted machine.</span></span> 
 
 
-## <a name="sample-script"></a><span data-ttu-id="572ae-106">예제 스크립트</span><span class="sxs-lookup"><span data-stu-id="572ae-106">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="5d824-106">예제 스크립트</span><span class="sxs-lookup"><span data-stu-id="5d824-106">Sample script</span></span>
 
-````powershell
+```powershell
 <#
 .SYNOPSIS
 This script allows you to uninstall the Microsoft Teams app and remove Teams directory for a user.
@@ -61,6 +61,6 @@ catch
     Write-Error -ErrorRecord $_
     exit /b 1
 }
-````
+```
 
 
