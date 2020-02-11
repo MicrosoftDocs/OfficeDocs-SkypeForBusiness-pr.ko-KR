@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd2c2918b2b65e33f1fa4afc7bfb61a28abb08e6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e07ec04ba567963662d7f83bdba3fe9f788abd9e
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837038"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862838"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams 시작하기
 
@@ -48,7 +48,6 @@ Teams를 사용하여 조직 내부 및 외부 사용자와 함께 팀을 빠르
 
 시작 하기 전에 다음의 사항을 검토하여 Teams 배포를 계획하는 것이 좋습니다.
 
-- [Teams에 대한 사용자 환경의 준비 상태 확인](environment-readiness.md)
 - [Teams에 대한 조직의 네트워크 준비](prepare-network.md)
 - [데스크톱, 웹 및 모바일 클라이언트를 설치하는 이점에 대한 자세한 정보](get-clients.md)
 
