@@ -18,12 +18,12 @@ f1.keywords:
 description: Microsoft Teams 클라이언트 앱 및 관리자 환경에 대해 현재 알려진 문제 목록입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f18bd8fa85ce07596fe36106ea97ef36e698a78
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.openlocfilehash: b90c2ab7b204964082c05cbc657c4945f5730fde
+ms.sourcegitcommit: f859843003b34feab18a3d2df34fdbb9858e7148
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845149"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889451"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams의 알려진 문제
 
@@ -75,6 +75,10 @@ ms.locfileid: "41845149"
 |지금 모임 시작의 클라우드 비디오 Interop 정보  <br/> |기존의 CVI 라이선스로 Microsoft Teams에서 모임의 지금 모임 시작 인스턴스를 만드는 경우 CVI 정보가 채워지지 않습니다. <br/> |이 정보를 채우도록 모임을 예약할 것을 권장합니다.  <br/> |2019/11/6  <br/> |
 
 ## <a name="authentication"></a>인증
+
+|**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
+|:-----|:-----|:-----|:-----|
+|Teams는 Google Gstatic에 액세스해야 합니다. <br/> |현재 Teams는 모든 사용자에 대해 Google ssl.gstatic.com 서비스에 대한 액세스(TCP 포트 443)가 필요합니다(모든 사용자를 위한 https://ssl.gstatic.com). Gstatic을 사용하지 않는 경우에도 마찬가지). Teasm에서 이 요구 사항을 곧 제거합니다(2020 초). <br/> | 해결 방법이 없습니다. <br/> |2020년 2월 10일  <br/> |
 
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|
