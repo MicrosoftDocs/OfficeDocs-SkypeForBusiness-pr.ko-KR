@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '비즈니스용 Skype Online에서 사용자에 게 전화 번호를 할당 하는 방법과 회의 id 매개 변수를 확인 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 84218fefb831e37255e7049e082f7fe715dc0eb4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 10acf425db0230dd90f8c125b0d871e07dd69728
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680455"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888067"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 사용자에 게 할당 된 회의 ID 보기 및 재설정
 
@@ -65,11 +65,11 @@ Skype for Business 사용자가 Office 365에서 오디오 회의를 위해 설�
 
 Windows PowerShell을 사용 하 여 사용자의 전화 회의 ID를 볼 수 있습니다. 이렇게 하려면 다음을 실행 합니다.
 
-  ```PowerShell
+  ```powershell
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"
   ```
 
-    See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
+Cmdlet에 대해 자세히 알아보려면 [get-csonlinedialinconferencinguser](https://go.microsoft.com/fwlink/?LinkId=617693 ) 를 참조 하세요.
 
 
 ### <a name="to-reset-the-conference-id"></a>전화 회의 ID를 다시 설정 하려면
@@ -122,7 +122,7 @@ Windows PowerShell을 사용 하 여 사용자의 전화 회의 ID를 다시 설
 
   - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

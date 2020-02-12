@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: '요약: 통화 품질 대시보드의 리포지토리 API에 대해 자세히 알아보세요. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: a027cc7402bad7524343391f9bf7039dd077a46c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 283ef7544435c3954898b2d5ae9e5f5b38762f3c
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816697"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888787"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 CQD (통화 품질 대시보드) 용 리포지토리 API
  
@@ -58,7 +58,7 @@ ms.locfileid: "41816697"
   
 정확한 프로토콜, 호스트 이름 및 포트 (있는 경우)를 포함 해야 합니다. 슬래시 문자 (/)를 끝에 넣지 마세요. 여러 항목을 쉼표로 구분 하 여 지정할 수 있습니다.
   
-```
+```xml
 <repositoryConfiguration>
     <service corsTrustedOrigin="https://<trusted-server>,http://<another-trusted-domain>:8080"" />
     <diagnostics eventLevel="Verbose" systemLoggedEventLevel="Error">

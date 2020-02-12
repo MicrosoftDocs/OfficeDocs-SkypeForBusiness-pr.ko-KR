@@ -20,18 +20,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 온-프레미스 PSTN 연결을 구현 하는 패키지 된 Vm (가상 컴퓨터) 용 Skype 클라우드 커넥터 에디션에 대 한 정보를 찾습니다.
-ms.openlocfilehash: 20ea88b230fe0fd9a590c489cb6f0017a2c27209
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 966c295692dcc176a9003d134a161c45e90d47e6
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814466"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887737"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>비즈니스용 Skype 클라우드 커넥터 에디션 계획
 
 Office 365 (클라우드 PBX)에서 전화 시스템을 사용 하 여 온-프레미스 PSTN 연결을 구현 하는 패키지 된 Vm (가상 컴퓨터) 용 Skype 클라우드 커넥터 에디션에 대 한 정보를 찾습니다.
 
-클라우드 커넥터 에디션은 기존 Lync Server 또는 비즈니스용 Skype Server 배포가 아직 없는 경우 조직의 올바른 솔루션 일 수 있습니다. 현재 비즈니스에 적합 한 Office 365 솔루션의 전화 시스템을 계속 조사 하 고 있다면 [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)을 참조 하세요.
+클라우드 커넥터 에디션은 기존 Lync Server 또는 비즈니스용 Skype Server 배포가 아직 없는 경우 조직의 올바른 솔루션 일 수 있습니다. 현재 비즈니스에 적합 한 Office 365 솔루션의 전화 시스템을 계속 조사 하 고 있다면 [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)을 참조 하세요.
 
 이 문서에서는 클라우드 커넥터 버전 요구 사항 및 지원 되는 토폴로지에 대해 설명 하 고 클라우드 커넥터 버전 배포를 계획 하는 데 도움을 줍니다. 클라우드 커넥터 환경을 구성 하기 전에이 항목을 참조 하세요. 클라우드 커넥터 에디션을 배포 하 고 구성할 준비가 되었으면 [비즈니스용 Skype 클라우드 커넥터 에디션 구성 및 관리](configure-skype-for-business-cloud-connector-edition.md)를 참조 하세요.
 
@@ -429,7 +429,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 - [Office 365 url 및 IP 주소 범위의](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) [인증서 해지 목록 url](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
-- Windows 업데이트: [소프트웨어 업데이트용 방화벽을 구성 하는 방법](https://technet.microsoft.com/en-us/library/bb693717.aspx)
+- Windows 업데이트: [소프트웨어 업데이트용 방화벽을 구성 하는 방법](https://technet.microsoft.com/library/bb693717.aspx)
 
 - 비즈니스용 Skype Online 관리 PowerShell: \*. online.lync.com
 
@@ -545,14 +545,14 @@ Edge 구성 요소는 Office 365 서비스의 외부 이름과 다른 클라우�
 
 - **옵션 1.** 주체 이름에는 Edge 구성 요소에 할당 한 풀 이름이 포함 되어야 합니다. 이 이름은 온라인 비즈니스용 Skype Edge 구성 요소에 예약 되어 있으므로 주체 이름을 sip.sipdomain.com 수 없습니다. SAN에는 sip.sipdomain.com 및 액세스에 지 풀 이름이 포함 되어야 합니다.
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com,
   acessedgepoolnameforsite1.sipdomain.com
   ```
 
 - **옵션 2.** 배포 하는 모든 Edge 풀 서버에서 단일 와일드 카드 인증서를 사용 하려는 경우 인증서의 Edge 풀 이름 대신 와일드 카드 SAN 항목 \*을 사용 하 여 sipdomain.com를 사용할 수 있습니다. 주체 이름은 배포한 모든 Edge 풀의 액세스에 지 풀 이름이 될 수 있습니다.
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com, SAN = *.sipdomain.com
   ```
 
@@ -568,14 +568,14 @@ Edge 구성 요소는 Office 365 서비스의 외부 이름과 다른 클라우�
 
 - **옵션 1.** 주체 이름에는 Edge 구성 요소에 할당 한 풀 이름이 포함 되어야 합니다. 이 이름은 온라인 비즈니스용 Skype Edge 구성 요소에 예약 되어 있으므로 주체 이름을 sip.sipdomain.com 수 없습니다. SAN에는 sip.sipdomain.com 및 액세스에 지 풀 이름이 포함 되어야 합니다.
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain1.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
 - <strong>옵션 2.</strong> 배포 하는 모든 Edge 풀 서버에서 단일 와일드 카드 인증서를 사용 하려는 경우 인증서의 Edge 풀 이름 대신 와일드 카드 SAN 항목 \*을 사용 하 여 sipdomain.com를 사용할 수 있습니다. 주체 이름은 배포한 모든 Edge 풀의 액세스에 지 풀 이름이 될 수 있습니다.
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   SAN = *.sipdomain1.com
   ```
@@ -708,7 +708,7 @@ Edge 구성 요소는 Office 365 서비스의 외부 이름과 다른 클라우�
 
 자세한 내용은 다음을 참조 하세요.
 
-- [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [비즈니스용 Skype 클라우드 커넥터 에디션 구성 및 관리](configure-skype-for-business-cloud-connector-edition.md)
 

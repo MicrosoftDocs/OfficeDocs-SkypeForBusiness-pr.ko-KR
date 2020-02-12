@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 비즈니스용 Skype Online에서는 기존 회의 정책 설정의 일부로 서 지점간 (P2P) 파일 전송을 제어할 수 있습니다. 그러나이 방법을 사용 하면 사용자가 같은 조직 내에 있거나 다른 조직의 페더레이션 사용자에 게 파일을 전송 하는지 여부에 관계 없이 파일 전송을 허용 하거나 차단할 수 있습니다. 아래 단계에 따라 페더레이션된 조직이 나 파트너와의 P2P 파일 전송을 차단할 수 있습니다.
-ms.openlocfilehash: 8c2cc90af2642a9094076c1569eee8b0ec4b15ff
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7983ae72cd3b06a21fd4947883a3043d2506b92e
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693043"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887967"
 ---
 # <a name="block-point-to-point-file-transfers"></a>점 대 점 파일 전송 차단
 
@@ -55,31 +55,31 @@ ms.locfileid: "41693043"
 
 - **Windows PowerShell 버전 3.0 이상을 실행 하 고 있는지 확인**
     
-1. 버전 3.0 이상을 실행 하 고 있는지 확인 하려면 **시작 메뉴** > 에서**Windows PowerShell**을 수행 합니다.
-    
-2. **Windows PowerShell** 창에서 _Get-Host_ 를 입력 하 여 버전을 확인 합니다.
-    
-3. 버전 3.0 이상이 없는 경우 Windows PowerShell 업데이트를 다운로드 하 여 설치 해야 합니다. Windows [Management 프레임 워크 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 를 참조 하 여 windows PowerShell을 버전 4.0로 다운로드 하 고 업데이트 합니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
-    
-4. 비즈니스용 skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 설치 해야 합니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688)의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
+    1. 버전 3.0 이상을 실행 하 고 있는지 확인 하려면 **시작 메뉴** > 에서**Windows PowerShell**을 수행 합니다.
+        
+    2. **Windows PowerShell** 창에서 _Get-Host_ 를 입력 하 여 버전을 확인 합니다.
+        
+    3. 버전 3.0 이상이 없는 경우 Windows PowerShell 업데이트를 다운로드 하 여 설치 해야 합니다. Windows [Management 프레임 워크 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 를 참조 하 여 windows PowerShell을 버전 4.0로 다운로드 하 고 업데이트 합니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
+        
+    4. 비즈니스용 skype Online에 연결 되는 원격 Windows PowerShell 세션을 만들 수 있는 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 설치 해야 합니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688)의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다. 메시지가 표시 되 면 컴퓨터를 다시 시작 합니다.
     
     자세한 정보를 알고 싶은 경우 [모든 Office 365 서비스에 단일 Windows PowerShell 창으로 연결](https://technet.microsoft.com/library/dn568015.aspx)을 참조 하세요.
     
 - **Windows PowerShell 세션 시작**
     
-1. **시작 메뉴** > 에서**Windows PowerShell**을 실행 합니다.
+    1. **시작 메뉴** > 에서**Windows PowerShell**을 실행 합니다.
+        
+    2. **Windows PowerShell** 창에서 다음을 실행 하 여 Office 365 조직에 연결 합니다.
     
-2. **Windows PowerShell** 창에서 다음을 실행 하 여 Office 365 조직에 연결 합니다.
-    
-    > [!NOTE]
-    > 비즈니스용 Skype Online Windows PowerShell 모듈을 처음 사용 하는 경우에만 **Import-Module** 명령을 실행 하면 됩니다.
+        > [!NOTE]
+        > 비즈니스용 Skype Online Windows PowerShell 모듈을 처음 사용 하는 경우에만 **Import-Module** 명령을 실행 하면 됩니다.
 
-   ```PowerShell      
-    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-   ```
+       ```PowerShell      
+        Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+        $credential = Get-Credential
+        $session = New-CsOnlineSession -Credential $credential
+        Import-PSSession $session
+       ```
 
    Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단일 Windows powershell 창에서 모든 Office 365 서비스에 연결](https://technet.microsoft.com/library/dn568015.aspx) 또는 [Windows Powershell 용 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
     
@@ -96,14 +96,14 @@ ms.locfileid: "41693043"
 ## <a name="disable-p2p-file-transfers-for-a-user"></a>사용자에 대해 P2P 파일 전송을 사용 하지 않도록 설정
 
 새 정책을 만들고 해당 사용자에 게 부여 하 여 사용자에 게 적용할 수 있습니다. 이 작업을 수행 하려면 다음을 실행 합니다. 
-> 
->   ```PowerShell
->   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
->   ```
-> 
->   ```PowerShell
->   Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
->   ```
+
+```powershell
+New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
+```
+
+```powershell
+Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
+```
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?
 
@@ -121,7 +121,7 @@ ms.locfileid: "41693043"
     
   - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [사용자 지정 외부 액세스 정책 만들기](create-custom-external-access-policies.md)
 
 [조직의 클라이언트 정책 설정](set-up-client-policies-for-your-organization.md)

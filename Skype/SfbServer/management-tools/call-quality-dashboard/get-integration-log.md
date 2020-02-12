@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: '요약: 통화 품질 대시보드의 데이터 API의 일부인 통합 로그 가져오기 작업에 대해 알아봅니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: 9caa909e80a0bab5257af16fe77e9d154947a56e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: e1d790f4723eaaf716482143f08c78624db47433
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816817"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888807"
 ---
 # <a name="get-integration-log"></a>통합 로그 가져오기
  
@@ -51,7 +51,7 @@ ms.locfileid: "41816817"
   
  **응답 본문** -아래에는 로그 항목의 샘플 구조가 나와 있습니다.
   
-```
+```json
 [
 {"LogCategory":"<category>","LogTime":"2015-03-18T10:28:29.10","LogDescription":"<log description>"}
 ]

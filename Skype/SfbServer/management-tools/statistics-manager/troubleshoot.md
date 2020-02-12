@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: '요약: 비즈니스용 Skype 서버용 통계 관리자 배포 문제를 해결 하려면이 항목을 읽으십시오.'
-ms.openlocfilehash: a787297b25b983303e65f398dfb7b275ae044944
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 12b6176e64d034d94e8a6ad86e748c1906f9c0c5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816217"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888877"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자 문제 해결
  
@@ -47,7 +47,7 @@ ms.locfileid: "41816217"
 
     "MaxProcessMemoryMB"를 검색 하 고 다음과 같이 값을 "0"으로 변경 합니다.
     
-  ```console
+  ```xml
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
@@ -60,13 +60,13 @@ ms.locfileid: "41816217"
     
     에이전트가 수신기 컴퓨터에 연결할 수 없는 경우 다음을 확인 합니다.
     
-1. 수신기 서비스가 수신기 컴퓨터에서 실행 중인지 확인 합니다. 그렇지 않으면 해당 서버에서 Redis가 실행 중인지 확인 한 다음 수신기 서비스를 다시 시작 합니다.
-    
-    수신기 컴퓨터의 통계 관리자 이벤트 로그를 확인 하 여 통계 관리자 수신기 서비스 자체에 문제가 없는지 확인 합니다.
-    
-2. Telnet 등의 연결 도구를 사용 하 여 에이전트 컴퓨터에서 올바른 포트의 수신기에 대 한 연결을 확인 합니다.
-    
-    그렇지 않은 경우 수신기 컴퓨터가 연결 된 네트워크 종류 (비공개/공용/도메인)에 대 한 수신 방화벽 규칙이 수신기 컴퓨터에서 사용 하도록 설정 되어 있는지 확인 합니다. 수신기 컴퓨터가 도메인에 가입 되어 있지 않은 경우 네트워크는 공개로 나열 될 수 있으며,이 경우 통계 관리자와 함께 설치 된 방화벽 규칙이 기본적으로 적용 되지 않습니다.
+    1. 수신기 서비스가 수신기 컴퓨터에서 실행 중인지 확인 합니다. 그렇지 않으면 해당 서버에서 Redis가 실행 중인지 확인 한 다음 수신기 서비스를 다시 시작 합니다.
+        
+        수신기 컴퓨터의 통계 관리자 이벤트 로그를 확인 하 여 통계 관리자 수신기 서비스 자체에 문제가 없는지 확인 합니다.
+        
+    2. Telnet 등의 연결 도구를 사용 하 여 에이전트 컴퓨터에서 올바른 포트의 수신기에 대 한 연결을 확인 합니다.
+        
+        그렇지 않은 경우 수신기 컴퓨터가 연결 된 네트워크 종류 (비공개/공용/도메인)에 대 한 수신 방화벽 규칙이 수신기 컴퓨터에서 사용 하도록 설정 되어 있는지 확인 합니다. 수신기 컴퓨터가 도메인에 가입 되어 있지 않은 경우 네트워크는 공개로 나열 될 수 있으며,이 경우 통계 관리자와 함께 설치 된 방화벽 규칙이 기본적으로 적용 되지 않습니다.
     
 - **4000** — 수신기에서 서버 정보를 다운로드 하지 못했습니다 (알 수 없는 이유).
     

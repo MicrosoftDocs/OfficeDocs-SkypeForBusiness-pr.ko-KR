@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 비즈니스용 Skype Online을 통해 추가 외부 액세스 정책을 만들 수 있습니다. 여러 조합을 사용할 수 있는 클라이언트나 회의 정책과는 달리, 미리 정의 된 세 가지 외부 액세스 정책이 있으며 대부분의 시나리오를 포함할 수 있습니다.
-ms.openlocfilehash: 49572dc1aaef3d595bd0de41fd6359d90e8d803a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 19b022bac8a43c595b07085db921da6a404d9ac7
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706663"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887917"
 ---
 # <a name="create-custom-external-access-policies"></a>사용자 지정 외부 액세스 정책 만들기
 
@@ -85,15 +85,15 @@ ms.locfileid: "41706663"
 
 이 작업을 수행 하려면 다음을 실행 합니다.
   
-> 
->   ```PowerShell
->   New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
->   ```
-> 
-> 
->   ```PowerShell
->   Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
->   ```
+ 
+```powershell
+New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
+```
+
+
+```powershell
+Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
+```
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?
 
@@ -111,7 +111,7 @@ ms.locfileid: "41706663"
     
   - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [점 대 점 파일 전송 차단](block-point-to-point-file-transfers.md)
 
 [조직의 클라이언트 정책 설정](set-up-client-policies-for-your-organization.md)

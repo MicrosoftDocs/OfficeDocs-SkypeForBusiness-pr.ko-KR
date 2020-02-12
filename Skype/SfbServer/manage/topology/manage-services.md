@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 서비스 상태를 확인 하 고 서비스를 시작 및 중지 하 고 서비스에 대 한 세션을 방지 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 154c7b2d5ff858e22be4159ec1797ef6a6724445
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: da617e386f30469c1b787522f8472d822d02b1e5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817119"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888447"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 서비스 관리
 
@@ -59,7 +59,9 @@ Windows PowerShell 및 Get CsWindowsService cmdlet을 사용 하 여 서비스 �
 
 컴퓨터에서 서비스 상태를 보려면 비즈니스용 Skype 서버 관리 셸에 다음과 유사한 명령을 입력 한 다음 enter 키를 누릅니다.
 
-`Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status`
+```powershell
+Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
+```
 
 이 명령은 다음과 같은 정보를 반환 합니다.
 
@@ -75,7 +77,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-자세한 내용은 [CsWindowsService 가져오기](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWindowsService)를 참조 하세요.
+자세한 내용은 [CsWindowsService 가져오기](https://docs.microsoft.com/powershell/module/skype/Get-CsWindowsService)를 참조 하세요.
 
 ## <a name="start-or-stop-skype-for-business-services"></a>비즈니스용 Skype 서비스 시작 또는 중지
 
@@ -85,7 +87,9 @@ RoleName                                  Status
 
 1. RTCUniversalServerAdmins 그룹의 구성원 이거나 해당 사용자 권한이 있는 사용자 계정에서 또는 CsServerAdministrator 또는 CsAdministrator 역할에 할당 된 경우 비즈니스용 Skype 서버를 배포한 네트워크의 컴퓨터에 로그온 합니다. . 다음과 같은 명령을 실행 하 여 CsServerAdministrator 또는 CsAdministrator RBAC 역할을 할당 했는지 여부를 확인할 수 있습니다.
 
-    `Get-CsAdminRoleAssignment -Identity "kenmyer"`
+    ```powershell
+    Get-CsAdminRoleAssignment -Identity "kenmyer"`
+    ```
 
 2. 브라우저 창을 열고 관리자 URL을 입력 하 여 비즈니스용 Skype 서버 제어판을 엽니다. 비즈니스용 Skype Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [관리 도구 설치 및 열기](../../management-tools/install-and-open-administrative-tools.md)를 참조 하세요.
 3. 왼쪽 탐색 모음에서 **토폴로지**를 클릭 한 다음 **상태**를 클릭 합니다.

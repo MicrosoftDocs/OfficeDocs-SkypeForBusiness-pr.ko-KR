@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: '요약: 비즈니스용 Skype 서버 배포 옵션에 대 한 시나리오를 검토 합니다. 이 항목은 단일 서버를 사용 하거나 DNS 또는 HLB 서버 풀을 사용할 수 있도록 하는 데 도움이 될 것입니다.'
-ms.openlocfilehash: e0fef305a29f753b9293593e7e1eb70b936f1a19
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: b3893c11e1ce0cfdf9ab0b0452ef0a30a6442ee7
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802168"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887765"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 고급 Edge Server DNS 계획
  
@@ -128,7 +128,7 @@ ms.locfileid: "41802168"
     
   - DNS A 및 AAAA (IPv6 주소를 사용 하는 경우) 및 역방향 프록시 서버의 외부 인터페이스에 대 한 SRV 레코드 (경계 네트워크의 경우 역방향 프록시 서버 풀의 VIP)
     
-  - DNS A와 AAAA (IPv6 주소를 사용 하는 경우) 및 비즈니스용 Skype 서버 클라이언트 자동 구성에 대 한 SRV 레코드 (**선택 사항**).
+  - DNS A와 AAAA (IPv6 주소를 사용 하는 경우) 및 비즈니스용 Skype 서버 클라이언트 자동 구성에 대 한 SRV 레코드 ( **선택 사항** ).
     
 ## <a name="automatic-configuration-without-split-brain-dns"></a>분할 하는 DNS 없이 자동 구성
 <a name="NoSplitBrainDNS"> </a>
@@ -172,7 +172,7 @@ ms.locfileid: "41802168"
     
     예를 들어 SIP 도메인이 contoso.com 경우 두 프런트 엔드 서버를 포함 하는 pool01 라는 프런트 엔드 풀을 사용 하는 경우에는 내부 DNS에 다음과 같은 핀 점 영역과 레코드가 필요 합니다.
     
-  ```
+  ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
   dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.
   dnscmd . /zoneadd pool01.contoso.com. /dsprimary
@@ -184,7 +184,7 @@ ms.locfileid: "41802168"
 
     환경에 두 번째 SIP 도메인이 있을 수 있습니다. 이 경우 내부 DNS에 다음과 같은 핀 위치 영역과 레코드가 필요 합니다.
     
-  ```
+  ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.fabrikam.com. /dsprimary
   dnscmd . /recordadd _sipinternaltls._tcp.fabrikam.com. @ SRV 0 0 5061 pool01.fabrikam.com.
   dnscmd . /zoneadd pool01.fabrikam.com. /dsprimary

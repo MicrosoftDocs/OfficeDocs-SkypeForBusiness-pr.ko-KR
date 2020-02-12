@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: SIP 트렁크 구성 설정은 중재 서버와 PSTN (공개 통신 네트워크) 게이트웨이, IP-공용 분기 교환 (PBX) 또는 서비스 공급자의 SBC (세션 경계 컨트롤러) 간에 관계와 접근 권한 값을 정의 합니다.
-ms.openlocfilehash: 0ccbf86891d6265298411ad2f90988123529b614
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 40820729727ec02e5494e69c773d7fbd3d7b1154
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816907"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888487"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 트렁크 구성 정보 보기
 
@@ -35,14 +35,16 @@ SIP 트렁크 구성 설정은 중재 서버와 PSTN (공개 통신 네트워크
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell cmdlet을 사용 하 여 SIP 트렁크 구성 정보 보기
 
-비즈니스용 Skype Server PowerShell 및 Set-cstrunkconfiguration cmdlet을 사용 하 여 SIP 트렁크 구성 설정을 볼 수 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸에서 또는 원격 세션 Windows PowerShell에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 비즈니스용 Skype Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 http://go.microsoft.com/fwlink/p/?linkId=255876사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요. 이 링크를 바꾸거나 제거 합니다.
+비즈니스용 Skype Server PowerShell 및 Set-cstrunkconfiguration cmdlet을 사용 하 여 SIP 트렁크 구성 설정을 볼 수 있습니다. 이 cmdlet은 비즈니스용 Skype 서버 관리 셸에서 또는 원격 세션 Windows PowerShell에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 비즈니스용 Skype Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 https://go.microsoft.com/fwlink/p/?linkId=255876사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요. 이 링크를 바꾸거나 제거 합니다.
 
 
 **SIP 트렁크 구성 정보를 보려면**
 
 모든 SIP 트렁크 구성 설정에 대 한 정보를 보려면 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
 
-`Get-CsTrunkConfiguration`
+```powershell
+Get-CsTrunkConfiguration
+```
 
 이는 다음과 같은 정보를 반환 합니다.
 
@@ -72,7 +74,7 @@ Enable3pccRefer                           : False
 ForwardPAI                                : False
 EnableFastFailoverTimer                   : True
 ```
-자세한 내용은 Get-help cmdlet에 대 한 도움말 항목 [set-cstrunkconfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration) 을 참조 하세요.
+자세한 내용은 Get-help cmdlet에 대 한 도움말 항목 [set-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) 을 참조 하세요.
 
 
 

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 현재 비즈니스용 Skype 서버 배포에 대 한 파일 저장소 역할을 하는 파일 서버를 제거 해야 하거나 현재 파일 저장소를 사용할 수 없도록 하는 다른 변경 작업을 수행 해야 하는 경우 먼저 새 공유를 만들어야 합니다. 그런 다음 다음 단계를 수행 해야 합니다.
-ms.openlocfilehash: e1c4338e33e736c04dbb1a2a2e81a7233df65763
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 91ba8393a958188e368ff3f8f5d2a85bcfcc1396
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817109"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888457"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 파일 저장소 데이터를 새 파일 저장소로 이동
 
@@ -37,7 +37,7 @@ ms.locfileid: "41817109"
 
 1. 비즈니스용 Skype 서버, 관리 도구가 설치 되어 있는 RTCUniversersalServerAdmins 또는 CsServerAdministrator 그룹의 구성원으로 컴퓨터에 로그온 합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력 하 여 비즈니스용 Skype 서버 제어판을 엽니다.
+2. 브라우저 창을 열고 관리자 URL을 입력 하 여 비즈니스용 Skype 서버 제어판을 엽니다.
 
 3. 왼쪽 탐색 모음에서 **토폴로지**를 클릭 한 다음 **상태**를 클릭 합니다.
 
@@ -55,8 +55,8 @@ ms.locfileid: "41817109"
 
    c. **새 파일 저장소 정의**의 **파일 서버 fqdn**에 파일 서버의 정규화 된 도메인 이름 (fqdn)을 입력 합니다. **파일 공유**에서 새 파일 공유에 대 한 폴더 이름을 입력 한 다음 **확인**을 클릭 합니다.
 
-    > [!IMPORTANT]
-    > 이 단계는 토폴로지 작성기에서 사용할 새 파일 저장소를 정의 합니다. 각 서버에 대해 한 번만 정의 하면 됩니다. 토폴로지를 게시 하기 전에 정의 된 파일 서버에서 정의 된 파일 공유를 만들어야 합니다. 자세한 내용은 프런트 엔드에서 [파일 저장소 정의](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx)를 참조 하세요.
+     > [!IMPORTANT]
+     > 이 단계는 토폴로지 작성기에서 사용할 새 파일 저장소를 정의 합니다. 각 서버에 대해 한 번만 정의 하면 됩니다. 토폴로지를 게시 하기 전에 정의 된 파일 서버에서 정의 된 파일 공유를 만들어야 합니다. 자세한 내용은 프런트 엔드에서 [파일 저장소 정의](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx)를 참조 하세요.
 
 8. 파일 저장소를 사용 하는 각 서버 또는 풀에 대해 다음을 수행 합니다.
 
@@ -70,10 +70,9 @@ ms.locfileid: "41817109"
 
 11. 명령줄에 다음을 입력 합니다.
 
-     ```console
-     Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-
-     ```
+    ```console
+    Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
+    ```
 
     > [!TIP]
     > /S 스위치는 파일, 디렉터리, 하위 디렉터리에 복사 됩니다. /XF 스위치는 이름이 지정 된 모임의 모든 파일을 건너뜁니다. 이/MT 스위치를 사용 하는 robocopy의 현재 버전은 여러 스레드를 사용 하 여 복사 속도를 크게 향상 시킵니다. /LOG 스위치의 경우 C:\Logfiles\log.txt. 형식의 디렉터리 경로와 로그 파일 이름을 사용 합니다. 이 스위치는 명명 된 위치에 작업의 로그 파일을 만듭니다.
@@ -88,8 +87,6 @@ ms.locfileid: "41817109"
 
 ## <a name="see-also"></a>참고 항목
 
-
 [다른 파일 저장소에 서버 다시 할당](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
 
 [파일 저장소 제거](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
-

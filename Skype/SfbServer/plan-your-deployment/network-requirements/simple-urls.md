@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: '요약: 비즈니스용 Skype 서버에 대 한 DNS 레코드를 구현 하기 전에이 항목의 간단한 URL 고려 사항을 검토 하세요.'
-ms.openlocfilehash: 7eb734fb4a9005f833f27efd3b0d180593155f39
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 3296e3678d1d38f021b792a2362f61de66796d0f
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815786"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888477"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 간단한 Url에 대 한 DNS 요구 사항
 
@@ -102,13 +102,13 @@ ms.locfileid: "41815786"
 
 이를 구성 하려면 두 개의 GeoDNS 주소를 만듭니다. 각 주소에는 재해 복구용으로 서로 연결 된 두 개의 풀로 확인 되는 두 개의 DNS A 또는 CNAME 레코드가 있습니다. 하나의 GeoDNS 주소는 내부 액세스에 사용 되며, 두 풀의 내부 웹 FQDN 또는 부하 분산 장치 IP 주소로 확인 됩니다. 다른 GeoDNS 주소는 외부 액세스에 사용 되며, 두 풀의 외부 웹 FQDN 또는 부하 분산 장치 IP 주소를 확인 합니다. 다음은 풀에 대 한 Fqdn을 사용 하 여 단순 URL을 충족 하는 예제입니다. 
 
-```
+```console
 Meet-int.geolb.contoso.com
      Pool1InternalWebFQDN.contoso.com
      Pool2InternalWebFQDN.contoso.com
 ```
 
-```
+```console
 Meet-ext.geolb.contoso.com
      Pool1ExternalWebFQDN.contoso.com
      Pool2ExternalWebFQDN.contoso.com
@@ -125,7 +125,7 @@ Meet-ext.geolb.contoso.com
 
 이 구성을 설정한 후에는 모니터링 응용 프로그램을 사용 하 여 오류를 감시 하도록 HTTP 모니터링을 설정 해야 합니다. 외부 액세스의 경우 모니터링을 통해 HTTPS가 lyncdiscover를 얻을 수 있습니다.<sipdomain> 외부 웹 FQDN 또는 두 풀에 대 한 부하 분산 장치 IP 주소에 대 한 요청이 성공적으로 수행 되었습니다. 예를 들어 다음 요청에는 **ACCEPT** 헤더가 없어야 하 고 **200 OK**를 반환 해야 합니다.
 
-```
+```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: 클라우드 커넥터 에디션에 여러 PSTN 사이트를 배포 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 98890bb3ffe53497c5e915acba5c073c4316f3b7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 1276d436a05e5151bdc90c19bbf41b8e90d913bf
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799698"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887637"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>클라우드 커넥터에서 여러 사이트 배포
  
@@ -35,7 +35,7 @@ ms.locfileid: "41799698"
   
 PSTN 사이트 1
   
-```
+```console
 [Common]
 SiteName=Site1
 [EdgeServer]
@@ -53,7 +53,7 @@ ExternalMRPublicIPs=23.99.115.35
 
 PSTN 사이트 2
   
-```
+```console
 [Common]
 SiteName=Site2
 [EdgeServer]

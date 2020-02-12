@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '전화 시스템, 오디오 회의, 통화 계획 및 통신 크레딧을 위해 비즈니스용 Skype 라이선스를 할당 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 9aa423683160c064b13be140c4226b2327dd9b69
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f2b2e2ad4952b55fade7e0b8eddb1755ea3f2cea
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692523"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887817"
 ---
 # <a name="assign-skype-for-business-licenses"></a>비즈니스용 Skype 라이선스 할당
 
@@ -64,7 +64,7 @@ ms.locfileid: "41692523"
 
    스크립트의 라이선스 또는 제품 이름 이름이 기울임꼴로 표시 되어 있습니다 (예를 들어 스크립트 **에 사용 되는 전화 시스템 및 통화 계획 제품 이름 또는 sku**참조).
 
-   ```
+   ```powershell
    #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
    #Example of text file:
@@ -137,40 +137,40 @@ ms.locfileid: "41692523"
 
     이 예제에서는 음성 회의 라이선스와 함께 Enterprise E3 라이선스를 할당 합니다.
 
-```
-#Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
-#Example of text file:
-#user1@domain.com
-#user2@domain.com
+    ```powershell
+    #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+    #Example of text file:
+    #user1@domain.com
+    #user2@domain.com
 
-#Import Module
-ipmo MSOnline
+    #Import Module
+    ipmo MSOnline
 
-#Authenticate to MSOLservice
-Connect-MSOLService
-#File prompt to select the userlist txt file
-[System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
-  $OFD = New-Object System.Windows.Forms.OpenFileDialog
-  $OFD.filter = "text files (*.*)| *.txt"
-  $OFD.ShowDialog() | Out-Null
-  $OFD.filename
+    #Authenticate to MSOLservice
+    Connect-MSOLService
+    #File prompt to select the userlist txt file
+    [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
+      $OFD = New-Object System.Windows.Forms.OpenFileDialog
+      $OFD.filter = "text files (*.*)| *.txt"
+      $OFD.ShowDialog() | Out-Null
+      $OFD.filename
 
-If ($OFD.filename -eq '')
-{
-Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
-}
-
-#Create a variable of all users
-$users = Get-Content $OFD.filename
-
-#License each user in the $users variable
-foreach ($user in $users)
+    If ($OFD.filename -eq '')
     {
-    Write-host "Assigning License: $user"
-    Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
-    Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
+    Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
     }
-```
+
+    #Create a variable of all users
+    $users = Get-Content $OFD.filename
+
+    #License each user in the $users variable
+    foreach ($user in $users)
+        {
+        Write-host "Assigning License: $user"
+        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
+        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
+        }
+    ```
 
 ### <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>스크립트에 사용 되는 오디오 회의 제품 이름 또는 Sku
 <a name="sku"> </a>
@@ -200,7 +200,7 @@ foreach ($user in $users)
 
 **오디오 회의** 라이선스를 할당 하는 샘플 스크립트를 살펴보세요. **통신 제작진** 라이선스를 할당 하는 정보로 업데이트 하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
   
 [통화 플랜 설정](/microsoftteams/set-up-calling-plans)
   

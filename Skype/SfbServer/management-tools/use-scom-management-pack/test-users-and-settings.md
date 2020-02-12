@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: '요약: 비즈니스용 Skype 서버 가상 거래에 대 한 테스트 사용자 계정 및 감시자 노드 설정을 구성 합니다.'
-ms.openlocfilehash: ce0c82f6f850c7a2b632c828f938979747d99e97
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 877e7256c31bf5bf66f25e80c9625078cfc15b02
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816117"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888857"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>감시자 노드 테스트 사용자 및 설정 구성
  
@@ -278,19 +278,21 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
     
 2. 콘솔 창에서 다음 명령을 입력 한 다음 enter 키를 누릅니다. 
     
-```console
-bitsadmin /util /SetIEProxy NetworkService NO_PROXY
-```
+    ```console
+    bitsadmin /util /SetIEProxy NetworkService NO_PROXY
+    ```
 
-명령 창에 다음 메시지가 표시 됩니다.
+    명령 창에 다음 메시지가 표시 됩니다.
+
+    ```console
+    BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
   
-BITSAdmin은 더 이상 사용 되지 않으며 이후 버전의 Windows에서 사용할 수 없는 것으로 보장 되지 않습니다. Bits 서비스에 대 한 관리 도구가 이제 BITS PowerShell cmdlet에서 제공 됩니다.
-  
-계정 NetworkService에 대 한 인터넷 프록시 설정이 NO_PROXY으로 설정 되었습니다. 
-  
-(connection = default)
-  
-이 메시지는 네트워크 서비스 계정에 대 한 Internet Explorer 프록시 설정을 사용 하지 않도록 설정 했음을 나타냅니다.
+    Internet proxy settings for account NetworkService set to NO_PROXY. 
+      
+    (connection = default)
+    ```
+      
+    이 메시지는 네트워크 서비스 계정에 대 한 Internet Explorer 프록시 설정을 사용 하지 않도록 설정 했음을 나타냅니다.
   
 ### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange 통합 메시징 가상 트랜잭션
 
@@ -304,7 +306,7 @@ UM (통합 메시징) 통합 트랜잭션은 테스트 사용자가 Exchange의 
   
 영구 채팅 종합 트랜잭션을 사용 하 여이 채널을 구성할 수 있습니다. 
   
-```
+```powershell
 $cred1 = Get-Credential "contoso\testUser1"
 $cred2 = Get-Credential "contoso\testUser2"
 
@@ -376,7 +378,7 @@ VIS (동영상 Interop 서버) 가상 트랜잭션은 가상 트랜잭션 지원
   
 VISSTSupportPackage를 설치 하려면 msi에 대 한 종속성 (시스템 요구 사항 아래)이 이미 설치 되어 있는지 확인 합니다. 간단한 설치를 수행 하려면 VISSTSupportPackage를 실행 합니다. .Msi는 "%ProgramFiles%\VIS 가상 트랜잭션 지원 패키지" 경로의 모든 파일을 설치 합니다.
   
-VIS 가상 트랜잭션을 실행 하는 방법에 대 한 자세한 내용은 [테스트-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) cmdlet에 대 한 설명서를 참조 하세요.
+VIS 가상 트랜잭션을 실행 하는 방법에 대 한 자세한 내용은 [테스트-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/library/dn985894.aspx) cmdlet에 대 한 설명서를 참조 하세요.
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>가상 트랜잭션의 실행 빈도 변경
 <a name="special_synthetictrans"> </a>

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '요약: 비즈니스용 Skype 서버용 통계 관리자를 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: 44aad14970716f00550255855d251919a767a268
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 008e9d56dd4c795f7e524ac927402d99261f3e75
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803968"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888427"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>비즈니스용 Skype 서버 통계 관리자 배포
  
@@ -100,9 +100,9 @@ Stats마나트 Cpagentlistener를 실행 하 고 다음을 지정 하 여 호스
     
      인증서 관리자를 사용 하거나 다음 PowerShell 명령을 사용 하 여 인증서 지문을 찾을 수 있습니다.
     
-   ```PowerShell
-   Get-ChildItem -path cert:\LocalMachine\My
-   ```
+       ```PowerShell
+       Get-ChildItem -path cert:\LocalMachine\My
+       ```
 
    - **설치 디렉터리:** 바이너리가 설치 될 디렉터리입니다. **찾아보기를** 클릭 하 여 기본값을 변경할 수 있습니다.
     
@@ -172,7 +172,7 @@ Stats Perfagent를 실행 하 고 다음을 지정 하 여 모니터링할 각 �
     
 여러 컴퓨터에 에이전트를 설치 하는 경우 무인 모드에서이 작업을 수행 하는 것이 좋습니다. 예를 들면 다음과 같습니다. 
   
-```
+```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
 ```
 
@@ -198,25 +198,25 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
     
    b. 수신기가 설치 된 디렉터리로 이동 합니다. 기본값은 다음과 같습니다. 
     
-   ```PowerShell
+   ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 3. 추가 되 고 업데이트 되는 서버를 확인 하려면 다음 명령을 실행 합니다.
     
-   ```PowerShell
+   ```console
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 다음 명령을 사용 하 여 모든 옵션을 볼 수 있습니다.
   
-```PowerShell
+```powershell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
 현재 가져온 서버 정보를 보려면 다음 스크립트를 실행 합니다. 
   
-```PowerShell
+```powershell
 .\Get-StatsManServerInfo.ps1
 ```
 
@@ -224,13 +224,13 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   
 1. 수신기가 설치 된 디렉터리로 이동 합니다. 기본값은 다음과 같습니다. 
     
-   ```
+   ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 2. 다음 명령을 실행 합니다.
     
-   ```
+   ```powershell
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
    ```
 
@@ -241,29 +241,29 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   
 - 에이전트가 통계 관리자에 등록 되어 있습니까?
     
-1. 토폴로지 가져오기에 대 한 지침을 따랐는지 확인 합니다. [토폴로지 가져오기를](deploy.md#BKMK_ImportTopology)참조 하세요.
-    
-2. 에이전트가 토폴로지에 나열 되지 않은 서버 (예: SQL AlwaysOn 클러스터의 노드)에 있는 경우 [토폴로지 가져오기](deploy.md#BKMK_ImportTopology)의 지침에 따라 에이전트를 수동으로 추가 해야 합니다.
+    1. 토폴로지 가져오기에 대 한 지침을 따랐는지 확인 합니다. [토폴로지 가져오기를](deploy.md#BKMK_ImportTopology)참조 하세요.
+        
+    2. 에이전트가 토폴로지에 나열 되지 않은 서버 (예: SQL AlwaysOn 클러스터의 노드)에 있는 경우 [토폴로지 가져오기](deploy.md#BKMK_ImportTopology)의 지침에 따라 에이전트를 수동으로 추가 해야 합니다.
     
 - 에이전트가 수신기에 연결할 수 있습니까?
     
-1. 수신기 서비스가 실행 중인지 확인 합니다. 
-    
-    실행 중이지 않은 경우 Redis가 실행 중인지 확인 한 다음 수신기를 다시 시작 해 봅니다.
-    
-2. 포트가 수신기 서비스에 열려 있고 에이전트 컴퓨터가 포트와 통신할 수 있는지 확인 합니다.
+    1. 수신기 서비스가 실행 중인지 확인 합니다. 
+        
+        실행 중이지 않은 경우 Redis가 실행 중인지 확인 한 다음 수신기를 다시 시작 해 봅니다.
+        
+    2. 포트가 수신기 서비스에 열려 있고 에이전트 컴퓨터가 포트와 통신할 수 있는지 확인 합니다.
     
 - 통계 관리자가 데이터를 수집 하 고 있는지 확인 하려면 다음과 같이 CSV 파일을 확인 하면 됩니다. 
     
     다음 명령은 카운터 저장소 이름을 검색 합니다. 
     
-  ```
+  ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=listcounterstoragenames -mode=verbose | findstr /i processor
   ```
 
     다음 명령은 지정 된 카운터의 값을 검색 합니다. 
     
-  ```
+  ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
@@ -276,7 +276,7 @@ Microsoft는 신뢰할 수 있는 인증 기관에서 서명한 인증서를 사
   
 1. 관리자로 로그온 한 상태에서 PowerShell 콘솔에서 다음을 입력 합니다.
     
-   ```PowerShell
+   ```powershell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 

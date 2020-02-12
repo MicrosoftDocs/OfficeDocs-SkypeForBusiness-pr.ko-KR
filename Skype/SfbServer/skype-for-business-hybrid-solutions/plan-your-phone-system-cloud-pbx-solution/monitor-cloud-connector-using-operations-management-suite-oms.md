@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 이 항목에서는 Microsoft OMS (Operations Management Suite)를 사용 하 여 클라우드 커넥터 버전 2.1 및 이후 배포를 모니터링 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1dcac3519624cef898622f915b08b24363453b84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 6c63baf078dc865a4e3aef574cff30bedabf3819
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799628"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888637"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>운영 관리 제품군(OMS)을 사용하여 클라우드 커넥터 모니터링
 
 이 항목에서는 Microsoft OMS (Operations Management Suite)를 사용 하 여 클라우드 커넥터 버전 2.1 및 이후 배포를 모니터링 하는 방법을 알아봅니다.
 
-이제 OMS (Operations Management Suite), Microsoft 클라우드 IT 관리 솔루션을 사용 하 여 클라우드 커넥터 버전 2.1 및 이후 배포를 모니터링할 수 있습니다. OMS 로그 분석 기능을 사용 하면 실제 및 가상 컴퓨터를 비롯 한 리소스의 가용성과 성능을 모니터링 하 고 분석할 수 있습니다. OMS 및 로그 분석에 대 한 자세한 내용은 [Operations Management Suite (OMS) 란?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)을 참조 하세요.
+이제 OMS (Operations Management Suite), Microsoft 클라우드 IT 관리 솔루션을 사용 하 여 클라우드 커넥터 버전 2.1 및 이후 배포를 모니터링할 수 있습니다. OMS 로그 분석 기능을 사용 하면 실제 및 가상 컴퓨터를 비롯 한 리소스의 가용성과 성능을 모니터링 하 고 분석할 수 있습니다. OMS 및 로그 분석에 대 한 자세한 내용은 [Operations Management Suite (OMS) 란?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview) 을 참조 하세요.
 
 이 항목에서는 다음 섹션을 다룹니다.
 
@@ -58,28 +58,28 @@ OMS를 사용 하도록 클라우드 커넥터를 구성 하는 방법은 시나
 
 - **새 클라우드 커넥터 기기를 설치 하거나 기기를 다시 배포 하려는 경우**설치-ccappliance를 실행 하기 전에 다음 단계를 수행 합니다.
 
-1. CloudConnector .ini 파일 [일반] 구역에서 OMSEnabled 매개 변수를 True로 설정 합니다.
+    1. CloudConnector .ini 파일 [일반] 구역에서 OMSEnabled 매개 변수를 True로 설정 합니다.
 
-    클라우드 커넥터를 배포 하거나 업그레이드할 때마다 자동으로 Vm에 OMS 에이전트를 설치 하려고 시도 합니다. 이 기능을 사용 하도록 설정 하면 OMS 에이전트가 클라우드 커넥터 자동 업데이트를 계속 사용할 수 있습니다.
+        클라우드 커넥터를 배포 하거나 업그레이드할 때마다 자동으로 Vm에 OMS 에이전트를 설치 하려고 시도 합니다. 이 기능을 사용 하도록 설정 하면 OMS 에이전트가 클라우드 커넥터 자동 업데이트를 계속 사용할 수 있습니다.
 
-2. OMS ID 및 키를 구성 하려면 Set-CcCredential-AccountType OMSWorkspace를 실행 합니다. 
+    2. OMS ID 및 키를 구성 하려면 Set-CcCredential-AccountType OMSWorkspace를 실행 합니다. 
 
 - **OMS 에이전트를 기존 클라우드 커넥터 기기에 설치 하는 경우**다음 단계를 따릅니다.
 
-1. CloudConnector .ini 파일 [일반] 구역에서 OMSEnabled = true로 설정 합니다. 
+    1. CloudConnector .ini 파일 [일반] 구역에서 OMSEnabled = true로 설정 합니다. 
 
-2. 가져오기-CcConfiguration을 실행 합니다. 
+    2. 가져오기-CcConfiguration을 실행 합니다. 
 
-3. 설치-CcOMSAgent를 실행 합니다. 
+    3. 설치-CcOMSAgent를 실행 합니다. 
 
-    > [!NOTE]
-    > OMSWorkspace 자격 증명을 설정 하지 않은 경우 CcOMSAgent를 실행할 때 자격 증명을 입력 하 라는 메시지가 표시 됩니다. 
+        > [!NOTE]
+        > OMSWorkspace 자격 증명을 설정 하지 않은 경우 CcOMSAgent를 실행할 때 자격 증명을 입력 하 라는 메시지가 표시 됩니다. 
 
 - **OMS 에이전트를 이미 설치한 클라우드 커넥터 기기에서 OMS 작업 영역 ID 또는 키를 업데이트 하려면 다음을 수행 합니다.**
 
-1. OMS ID 및 키를 구성 하려면 Set-CcCredential-AccountType OMSWorkspace를 실행 합니다. 
+    1. OMS ID 및 키를 구성 하려면 Set-CcCredential-AccountType OMSWorkspace를 실행 합니다. 
 
-2. 업데이트를 적용 하려면 설치-CcOMSAgent를 실행 합니다. 
+    2. 업데이트를 적용 하려면 설치-CcOMSAgent를 실행 합니다. 
 
 - **모든 시나리오의 경우 다음과 같이 에이전트가 연결 되어 있는지 확인 합니다.**
 
@@ -116,15 +116,15 @@ OMS 포털에서 다음과 같이 이벤트 로그 및 성능 카운터에 대 �
 
      총 활성 통화:
 
-   - LS: MediationServer-인바운드 통화 (_Total)\- 현재 
+       - LS: MediationServer-인바운드 통화 (_Total)\- 현재 
 
-   - LS: MediationServer-아웃 바운드 통화 (_Total\- ) 현재 
+       - LS: MediationServer-아웃 바운드 통화 (_Total\- ) 현재 
 
      총 활성 미디어 바이패스 통화:
 
-   - LS: MediationServer-인바운드 통화 (_Total)\- 액티브 미디어에서 통화 무시 
+       - LS: MediationServer-인바운드 통화 (_Total)\- 액티브 미디어에서 통화 무시 
 
-   - LS: MediationServer-아웃 바운드 통화 (_Total\- ) 액티브 미디어 건너뛰기 통화 
+       - LS: MediationServer-아웃 바운드 통화 (_Total\- ) 액티브 미디어 건너뛰기 통화 
 
      > [!NOTE]
      > 텍스트 상자에 성능 카운터를 수동으로 입력 해야 합니다. 드롭다운 목록에 옵션으로 표시 되지 않습니다. 
@@ -155,7 +155,7 @@ OMS에는 여러 가지 유형의 경고가 표시 됩니다 (결과 경고 수 
 
 - 오류 경고에 대 한 쿼리는 다음과 같습니다.
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
@@ -167,19 +167,19 @@ OMS에는 여러 가지 유형의 경고가 표시 됩니다 (결과 경고 수 
 
 - 다시 설정 알림에 대 한 쿼리는 다음과 같습니다.
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
     다시 설정 쿼리는 오류 쿼리의 반대 항목을 정확히 의미 합니다. 마지막 이벤트가 서비스 시작 이벤트 이면 각 컴퓨터에 대해 1이 반환 됩니다. 마지막 이벤트가 서비스 중지 이벤트 일 경우 nothing이 반환 됩니다.
 
-  **"중재 서버에 너무 많은 동시 통화" 및 "동시 통화 정상 로드로 전환" 경고 쌍을 만듭니다.**
+**"중재 서버에 너무 많은 동시 통화" 및 "동시 통화 정상 로드로 전환" 경고 쌍을 만듭니다.**
 
 알림을 만들려면 다음을 실행 합니다.
 
 - 오류 경고에 대 한 쿼리는 다음과 같습니다.
 
-  ```
+  ```Kusto
   Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
@@ -187,17 +187,17 @@ OMS에는 여러 가지 유형의 경고가 표시 됩니다 (결과 경고 수 
 
 - 다시 설정 알림에 대 한 쿼리는 다음과 같습니다.
 
-  ```
+  ```Kusto
   Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
     다시 설정 쿼리는 오류 쿼리의 반대 항목을 정확히 의미 합니다. 각 컴퓨터에 대해 쿼리는 인바운드 통화 및 발신 호출에 대 한 마지막 카운터를 가져오고 이러한 두 값의 합계를 계산 합니다. Sum 값이 500 보다 작으면 로그가 1 개 반환 되 고, 그렇지 않으면 아무 작업도 반환 하지 않습니다.
 
-  **경고 만들기: "CPU 사용 \> 90 또는 RTCMEDIARELAY 중지 됨" 알림**
+**경고 만들기: "CPU 사용 \> 90 또는 RTCMEDIARELAY 중지 됨" 알림**
 
 이 알림을 만들려면 쿼리는 다음과 같이 수행 합니다.
 
-```
+```Kusto
 search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 

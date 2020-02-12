@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 일반적으로 주소록은 토폴로지의 나머지 부분과 함께 마이그레이션됩니다. 그러나 레거시 환경에서 다음을 사용자 지정 하는 경우 몇 가지 마이그레이션 후 단계를 수행 해야 할 수 있습니다.
-ms.openlocfilehash: 73c491a538e6bce95779533b88513321c674f018
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 976717679a5a2f1dbdd1e2045cc5d5dfe43911e3
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813606"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888167"
 ---
 # <a name="migrate-address-book"></a>주소록 마이그레이션
 
@@ -51,13 +51,13 @@ ms.locfileid: "41813606"
 
     필수 공백 또는 문장 부호를 포함 하는 문자열은 정규화 규칙에 입력 된 문자열에서 제거 되므로 정규화 규칙에 실패 합니다. 필수 공백이 나 문장 부호를 포함 하는 문자열을 사용 하는 경우 문자열을 수정 해야 합니다. 예를 들어 다음 문자열을 선택 하면 정규화 규칙이 실패 합니다.
 
-   ```
+   ```console
    \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
    ```
 
     다음 문자열은 정규화 규칙을 실패 시 키 지 않습니다.
 
-   ```
+   ```console
    \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
    ```
 

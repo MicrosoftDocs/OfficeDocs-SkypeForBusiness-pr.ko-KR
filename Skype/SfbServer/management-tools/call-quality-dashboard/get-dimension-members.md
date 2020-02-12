@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: '요약: 차원 구성원 가져오기 작업에 대해 알아보세요. 차원 구성원 가져오기 작업은 통화 품질 대시보드의 데이터 API의 일부입니다. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: ba80e14c011d6cecb9b70f8a8faf32764b5b433d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 40e5ac8b95c24c3a8cb759da99f7d7aeaa391576
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816827"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888817"
 ---
 # <a name="get-dimension-members"></a>차원 구성원 가져오기
  
@@ -41,7 +41,7 @@ ms.locfileid: "41816827"
   
  **요청 본문** -구성원이 원하는 차원의 이름을 포함 합니다. 또한 반환 되는 구성원의 최대 개수를 지정 하 여 반환 된 구성원을 제한 하는 필터링을 지정할 수 있습니다.
   
-```
+```json
 {
 "ByPassCache": false,
 "DataModelName": "[StartDate].[Month]",
@@ -63,7 +63,7 @@ ms.locfileid: "41816827"
 > [!NOTE]
 > 목록은 목록의 일부분만 표시 합니다. 
   
-```
+```json
 {
 "MembersCount": 493,
 "Members": [["[1990-01-01T00:00:00]",

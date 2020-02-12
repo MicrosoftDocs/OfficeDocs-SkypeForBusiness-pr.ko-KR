@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: MediaList 테이블은 다양 한 미디어 유형의 목록을 저장 하는 정적 테이블입니다.
-ms.openlocfilehash: 7742baf17240ca810268721c0e47e37f17e555cd
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: e7d739b27bf45b5f5a21183c30bd5b07108b4a9d
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815036"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888517"
 ---
 # <a name="medialist-table"></a>MediaList 테이블
  
@@ -31,6 +31,6 @@ MediaList 테이블은 다양 한 미디어 유형의 목록을 저장 하는 �
    
 LcsCDR에서 MediaTypes의 값에 대 한 형식 지정을 확인 하려는 경우 다음 조인 조각을 사용 해야 합니다. 
   
-```json
+```SQL
 LEFT JOIN on Media.MediaId = MediaList.MediaId
 ```

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: '요약: 통화 품질 대시보드의 데이터 API에 대해 자세히 알아보세요. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: e302c04dee298f9e5d2f33c908b5421ecff4de9a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: b8ff4823fad320ae57b8f06104afbb354c09b4eb
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816867"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888437"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 CQD (통화 품질 대시보드) 용 데이터 API
  
@@ -52,7 +52,7 @@ ms.locfileid: "41816867"
   
 정확한 프로토콜, 호스트 이름 및 포트 (있는 경우)를 포함 해야 합니다. 슬래시 문자 (/)를 끝에 넣지 마세요. 여러 항목을 쉼표로 구분 하 여 지정할 수 있습니다.
   
-```
+```xml
 <configuration>
   <appSettings>
     <add key="corsTrustedOrigin" value="https://<trusted-server>,http://<another-trusted-domain>:8080" /> <!-- Domains which are trusted to get the data -->

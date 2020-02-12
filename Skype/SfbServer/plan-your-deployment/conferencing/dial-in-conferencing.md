@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: '요약: 비즈니스용 Skype 서버의 전화 접속 회의를 계획 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.'
-ms.openlocfilehash: 90fe1ff1770d34b9fe0671de1a2fc0f9382acae5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: f78f5dcea5ce26bdfeb0ba52a6eeaf046ae6965b
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815996"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888547"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 전화 접속 회의 계획
  
@@ -92,9 +92,9 @@ ms.locfileid: "41815996"
 
 회의 디렉터리는 비즈니스용 Skype를 사용할 때 참가자가 전화 회의에 참가 하는 데 사용 하는 영숫자 모임 ID와 전화 접속 회의 참가자가 회의에 참가 하는 데 사용 하는 숫자 전용 회의 ID 간의 매핑을 유지 합니다. 전화 회의 ID의 형식은 다음과 같습니다.
   
-```
-<housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
-```
+
+\<정리 자릿수 (1 자리)\>\<컨퍼런스 디렉터리 (일반적으로 1-2 자리\>\<) 컨퍼런스 번호 (가변 자릿수\>\<확인 숫자 (1 자리)\>
+
 
 여러 회의 디렉터리를 만들면 회의 Id가 매우 많은 회의를 만들 때까지 짧은 시간 동안 유지 되도록 할 수 있습니다. 사용자 당 일반적인 회의 수가 있는 조직에서 풀의 모든 999 사용자에 대해 하나의 회의 디렉터리를 만드는 것이 좋습니다. 이 지침을 사용 하 여 회의 Id를 일반적으로 작게 유지할 수 있습니다. 그러나, 풀 전체의 회의 디렉터리 수가 9 개를 초과 하면 추가 회의를 지원 하기 위해 회의 ID 번호가 늘어납니다.
   

@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: 비즈니스용 Skype 서버 2015 스트레스 및 성능 도구를 실행 하려면 사용자, 연락처 및 사용자 프로필을 모두 관리 하 고, 실행할 도구를 구성한 다음 도구에 의해 생성 되는 출력 또는 결과를 검토 해야 합니다.
-ms.openlocfilehash: 9920eb446452b9df23470a46c16eab754cc91577
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 0bdffee133e583ebaf4177d3226479838495c69f
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816147"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888867"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>비즈니스용 Skype 서버 2015 스트레스 및 성능 도구 사용
  
@@ -145,8 +145,8 @@ ms.locfileid: "41816147"
     
 8. **연락처** 만들기를 클릭 하 여 연락처 만들기를 시작 합니다. 이 프로세스는 몇 분 정도 걸릴 수 있습니다. 완료 되 면 "작업이 완료 되었습니다." 라는 메시지가 표시 되는 대화 상자가 나타납니다. 사용자 만들기 탭에서 만든 사용자로 로그온 하 여 만든 연락처의 유효성을 검사할 수 있습니다.
     
-> [!NOTE]
-> 연락처를 만든 후이 도구는 대상 풀의 모든 프런트 엔드 서버를 다시 시작 합니다. 이 작업으로 만든 연락처 수에 따라 프런트 엔드 서버를 시작 하는 데 걸리는 시간이 최대 2 시간까지 길어질 수 있습니다. 
+    > [!NOTE]
+    > 연락처를 만든 후이 도구는 대상 풀의 모든 프런트 엔드 서버를 다시 시작 합니다. 이 작업으로 만든 연락처 수에 따라 프런트 엔드 서버를 시작 하는 데 걸리는 시간이 최대 2 시간까지 길어질 수 있습니다. 
   
 #### <a name="distribution-list"></a>메일 그룹
 
@@ -367,7 +367,7 @@ ms.locfileid: "41816147"
     
 2. 클라이언트 폴더로 이동 하 고 **Runclient** batch 스크립트를 실행 합니다. Windows 탐색기에서 배치 파일을 두 번 클릭 하 여 해당 클라이언트에 대 한 모든 구성 파일을 실행할 수 있습니다. 다음 구문을 사용 하 여 클라이언트 폴더에서 스크립트를 실행할 수도 있습니다.
     
-   ```PowerShell
+   ```console
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 

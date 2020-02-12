@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: AlwaysOn 가용성 그룹, AlwaysOn 장애 조치 클러스터 인스턴스, 데이터베이스 미러링, SQL 장애 조치 클러스터링을 비롯 하 여 비즈니스용 Skype 서버에서 지원 되는 백 엔드 서버 고가용성 옵션에 대해 알아봅니다.
-ms.openlocfilehash: a0aeb53aea0ee2eab25875de0fddbfd0fc26d90a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 4c814e525b3a1d0900e7162255ec4d7e86d79605
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815956"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888617"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>비즈니스용 Skype 서버의 백 엔드 서버 고가용성
  
@@ -56,7 +56,7 @@ AlwaysOn 가용성 그룹, AlwaysOn 장애 조치 클러스터 인스턴스, 데
     
 
 > [!NOTE]
-> SQL 미러링은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만, 비즈니스용 Skype Server 2019에서는 더 이상 지원 되지 않습니다. AlwaysOn 가용성 그룹,이 어 장애 조치 (Failover) 클러스터 인스턴스 (FCI) 및 SQL 장애 조치 (failover) 클러스터링 방법은 비즈니스용 Skype 서버 2019에서 선호 됩니다.
+> SQL 미러링은 비즈니스용 Skype 서버 2015에서 사용할 수 있지만, 비즈니스용 Skype Server 2019에서는 더 이상 지원 되지 않습니다. AlwaysOn 가용성 그룹, AlwaysOn 장애 조치 (Failover) 클러스터 인스턴스 (FCI) 및 SQL 장애 조치 클러스터링 방법은 비즈니스용 Skype 서버 2019에서 유일 하 게 지원 되는 옵션입니다.
     
 비즈니스용 Skype 서버에서 백 엔드 서버의 고가용성을 사용할 수 없는 경우 비동기 데이터베이스 미러링이 지원 되지 않습니다. 이 문서의 나머지 부분에서 데이터베이스 미러링은 명시적으로 명시 되지 않은 경우 동기 데이터베이스 미러링을 의미 합니다. 
   

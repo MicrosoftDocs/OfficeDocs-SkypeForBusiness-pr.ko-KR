@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: '요약: 통화 품질 대시보드의 배포 프로세스에 대해 알아보세요. 통화 품질 대시보드는 비즈니스용 Skype 서버용 도구입니다.'
-ms.openlocfilehash: ccfb19bf8069bf72d52d7399b012d81af72e4110
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 3ab7ea5130b33578169505969ee8f43a73a2ac32
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816857"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888837"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 통화 품질 대시보드 배포
  
@@ -88,7 +88,7 @@ CQD (통화 품질 대시보드)는 세 가지 주요 구성 요소로 구성 �
    - **SQL 에이전트 작업 사용자-사용자 이름 &amp; 암호:** SQL Server 에이전트 작업의 "체감 품질 보관 데이터" 단계를 실행 하는 데 사용 되는 도메인 서비스 계정 이름 및 암호 (마스킹 됨)는 체감 품질 메트릭스 DB에서 보관 데이터베이스로 데이터를 가져오기 위해 저장 프로시저를 실행 하므로 계정 섹션 아래에 표시 된 것 처럼,이 계정에는 체감 품질 메트릭 DB에 대 한 읽기 권한이 있어야 합니다. 또한이 계정은 체감 품질 보관 SQL Server 인스턴스에 로그인이 있어야 합니다.
     
      > [!NOTE]
-     > NT SERVICE\MSSQLSERVER와 같이 SQL Server 인스턴스가 실행 되는 계정은 설치에 성공 하려면 위에 지정 된 디렉터리에 대 한 액세스/권한이 있어야 합니다. 자세한 내용은 [데이터베이스 엔진 액세스에 대 한 파일 시스템 권한 구성을](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx) 참조 하세요.
+     > NT SERVICE\MSSQLSERVER와 같이 SQL Server 인스턴스가 실행 되는 계정은 설치에 성공 하려면 위에 지정 된 디렉터리에 대 한 액세스/권한이 있어야 합니다. 자세한 내용은 [데이터베이스 엔진 액세스에 대 한 파일 시스템 권한 구성을](https://msdn.microsoft.com/library/jj219062%28v=sql.110%29.aspx) 참조 하세요.
   
 7. 다음을 클릭 하면 설치 관리자가 사전 필수 검사를 수행 하 고 문제가 발생 했을 때 보고 합니다. 모든 필수 구성 요소 검사에 통과 하면 설치 관리자가 큐브 구성 페이지로 이동 합니다. 
     
@@ -104,7 +104,7 @@ CQD (통화 품질 대시보드)는 세 가지 주요 구성 요소로 구성 �
    - **큐브 분석 서버:** 큐브를 만들 SQL Server Analysis Service 인스턴스 이름입니다. 이는 다른 컴퓨터 일 수 있지만 설치 사용자는 대상 SQL Server Analysis Service 인스턴스의 서버 관리자 구성원 이어야 합니다.
     
      > [!NOTE]
-     >  Analysis Services 서버 관리자 권한을 구성 하는 방법에 대 한 자세한 내용은 [서버 관리자 권한 부여 (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx) 를 참조 하세요.
+     >  Analysis Services 서버 관리자 권한을 구성 하는 방법에 대 한 자세한 내용은 [서버 관리자 권한 부여 (Analysis Services)](https://msdn.microsoft.com/library/ms174561.aspx) 를 참조 하세요.
   
    - **여러 파티션 사용:** 기본값은 Business Intelligence edition 또는 Enterprise edition SQL Server가 필요한 "다중 파티션"으로 설정 되어 있습니다. 스탠더드 에디션의 경우 "단일 파티션" 옵션을 선택 합니다. 단일 파티션을 사용 하는 경우 큐브 처리 성능에 영향을 줄 수 있습니다.
     
@@ -135,7 +135,7 @@ CQD (통화 품질 대시보드)는 세 가지 주요 구성 요소로 구성 �
   
 디버그 모드를 사용 하는 경우 자세한 로그 메시지가 표시 됩니다. 디버그 모드를 사용 하도록 설정 하려면 **%SYSTEMDRIVE%\Program Files\Skype For Business 2015 CQD\QoEDataService\web.config**으로 이동 하 여 값이 **True**로 설정 되도록 다음 줄을 업데이트 합니다.
 
-```
+```xml
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
@@ -161,7 +161,7 @@ CQD (통화 품질 대시보드)는 세 가지 주요 구성 요소로 구성 �
   
 구성 세부 정보는 포털의 실제 디렉터리에 있는 web.config에 저장 됩니다.
   
-```XML
+```xml
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
@@ -233,7 +233,7 @@ HTTP 및 HTTPS 포트 바인딩에서는 설치 관리자가 기본 포트 번�
   
 IIS에서 SSL/TLS를 사용 하도록 설정 하 고 HTTP 대신 사용자가 보안 HTTPS를 통해 연결 하도록 강제 하는 방법:
   
-1. 보안 소켓 계층 구성 IIS에서 [iis 7의 Secure socket Layer 구성을](https://technet.microsoft.com/en-us/library/cc771438%28v=ws.10%29.aspx)참조 하세요. 작업이 완료 되 면 `http` 다음 `https`으로 바꿉니다.
+1. 보안 소켓 계층 구성 IIS에서 [iis 7의 Secure socket Layer 구성을](https://technet.microsoft.com/library/cc771438%28v=ws.10%29.aspx)참조 하세요. 작업이 완료 되 면 `http` 다음 `https`으로 바꿉니다.
     
 2. SQL Server 연결에서 TLS를 사용 하도록 설정 하는 방법에 대 한 지침은 [Microsoft Management Console을 사용 하 여 Sql server 인스턴스에 대해 SSL 암호화를 사용 하도록 설정 하는 방법을](https://support.microsoft.com/en-us/kb/316898/)참조 하세요.
     
