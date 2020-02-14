@@ -18,12 +18,12 @@ f1.keywords:
 description: Microsoft Teams 클라이언트 앱 및 관리자 환경에 대해 현재 알려진 문제 목록입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b90c2ab7b204964082c05cbc657c4945f5730fde
-ms.sourcegitcommit: f859843003b34feab18a3d2df34fdbb9858e7148
+ms.openlocfilehash: d0aafe4bcceca731825726d084e41fab37bb9931
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41889451"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962097"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams의 알려진 문제
 
@@ -78,7 +78,7 @@ ms.locfileid: "41889451"
 
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|
-|Teams는 Google Gstatic에 액세스해야 합니다. <br/> |현재 Teams는 모든 사용자에 대해 Google ssl.gstatic.com 서비스에 대한 액세스(TCP 포트 443)가 필요합니다(모든 사용자를 위한 https://ssl.gstatic.com). Gstatic을 사용하지 않는 경우에도 마찬가지). Teasm에서 이 요구 사항을 곧 제거합니다(2020 초). <br/> | 해결 방법이 없습니다. <br/> |2020년 2월 10일  <br/> |
+|Teams는 Google Gstatic에 액세스해야 합니다. <br/> |현재 Teams는 모든 사용자에 대해 모든 사용자를 위한 Google ssl.gstatic.com 서비스에 대한 액세스(TCP 포트 443)가 필요합니다 Gstatic을 사용하지 않는 경우에도 마찬가지입니다. Teasm에서 이 요구 사항을 곧 제거합니다(2020 초). <br/> | 해결 방법이 없습니다. <br/> |2020년 1월 30일  <br/> |
 
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|

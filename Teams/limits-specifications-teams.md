@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea50a504aa43c9df333a077c7f866a487f544a04
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833458"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962087"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -42,12 +42,15 @@ ms.locfileid: "41833458"
 |Office 365 테넌트가 보유할 수 있는 팀의 수    | 500,000&sup2;     |
 |팀당 채널 수    | 200(삭제된 채널 포함)&sup3;         |
 |팀당 비공개 채널 수    |30|
+|채널 대화 게시 크기 | 게시물당 28 KB<sup>4</sup> |
 
 &sup1;Azure Active Directory의 모든 디렉터리 개체는 이 제한에 포함됩니다. 전역 관리자는 [응용 프로그램 사용 권한](https://docs.microsoft.com/graph/permissions-reference)을 사용하여 Microsoft Graph를 호출하는 앱과 마찬가지로 이 제한에서 제외됩니다.
 
 &sup2;이 제한에는 보관된 팀이 포함됩니다.
 
 &sup3;삭제된 채널은 30일 이내에 복원될 수 있습니다. 이 30일 동안에는 삭제된 채널이 팀당 200채널 한도에 계속 포함됩니다. 30일 후에는 삭제된 채널과 해당 콘텐츠가 영구적으로 삭제되고 채널이 더 이상 팀당 200채널 한도에 포함되지 않습니다.
+
+<sup>4</sup> 28 KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션, 커넥터 숫자, 반응이 포함되기 때문에 대략적인 한도입니다.
 
 ## <a name="messaging"></a>메시징
 
@@ -61,10 +64,13 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 |---------|---------|
 |비공개 채팅에 참가 중인 사용자 수<sup>1</sup>  | 100    |
 |첨부 파일 수<sup>2</sup>  |10     |
+|채팅 크기 | 게시물당 28 KB<sup>3</sup> |
 
 <sup>1</sup>채팅에 20명 이상의 사용자가 있는 경우 다음과 같은 채팅 기능이 꺼집니다. Outlook 자동 회신 및 Teams 상태 메시지, 입력 표시기, 비디오 및 오디오 통화, 공유, 읽음 확인.
 
 <sup>2</sup>첨부 파일 수가 이 제한을 초과하는 경우 오류 메시지가 표시됩니다.
+
+<sup>3</sup> 28 KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션, 반응이 포함되기 때문에 대략적인 한도입니다.
 
 ### <a name="emailing-a-channel"></a>채널 전자 메일 보내기 
 
