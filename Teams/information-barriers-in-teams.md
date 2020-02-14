@@ -15,16 +15,16 @@ f1.keywords:
 description: 정보 장벽 및 팀의 영향에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f516c01bed0dfca0363602aa131a9da22bd916f6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0d5b5964f3fcf0f4d24fee44121f868d573eb6e9
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836648"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962137"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 팀의 정보 장벽
 
-정보 장애물은 관리자가 개인 또는 그룹이 서로 통신 하는 것을 방지 하기 위해 구성할 수 있는 정책입니다. 예를 들어 한 부서가 다른 부서와 공유 하지 않아야 하는 정보를 처리 하거나 그룹 외부의 모든 사람과 통신 하는 것을 금지 또는 격리 해야 하는 경우에 유용 합니다.
+IB (정보 장벽)은 관리자가 개인 또는 그룹이 서로 통신 하는 것을 방지 하기 위해 구성할 수 있는 정책입니다. 예를 들어 한 부서가 다른 부서와 공유 하지 않아야 하는 정보를 처리 하거나 그룹 외부의 모든 사람과 통신 하는 것을 금지 또는 격리 해야 하는 경우에 유용 합니다.
 
 > [!NOTE]
 > - 테 넌 트 간에 정보 장벽 그룹을 만들 수 없습니다.
@@ -96,7 +96,7 @@ IB 준수 관리 역할은 정보 장벽 정책 관리를 담당 합니다. 이 
 
 ## <a name="will-files-and-sharepoint-site-experiences-connected-to-teams-honor-ib-policy"></a>팀에 연결 된 파일 및 SharePoint 사이트 환경에서 IB 정책을 준수 하나요?
  
-팀을 만들 때 SharePoint 사이트를 프로 비전 하 고 파일 환경을 위해 팀과 연결 합니다. 이 SharePoint 사이트 및 파일에 대 한 액세스는 조직의 IB 정책 즉, IB 정책에 따라 IB 세그먼트가 일치 하는 사용자만 액세스를 허용 합니다. 파일 공유 시에도 IB 정책이 허용 됩니다.
+팀을 만들 때 SharePoint 사이트를 프로 비전 하 고 파일 환경을 위해 팀과 연결 합니다. 이 SharePoint 사이트 및 파일에 대 한 액세스는 조직의 IB를 허용 하 고, 예를 들어 IB에 대 한 IB 세그먼트와 일치 하는 사용자만 액세스를 허용할 수 있습니다. 파일 공유 시에도 IB 정책이 허용 됩니다.
 
 예: Contoso Bank corporation에서 사용자 ' Sesha@contosobank.onmicrosoft.com '은 투자 은행 부문에 속하고 ' Nikita@contosobank.onmicrosoft.com ' 사용자는 세그먼트 권고에 속합니다. 조직의 IB 정책은 이러한 두 세그먼트 간의 통신과 공동 작업을 차단 합니다. 사용자가 투자 은행 부문에 대 한 팀을 만드는 경우 팀과이를 지 원하는 SharePoint 사이트는 투자 은행 부문 사용자만 액세스할 수 있습니다. 사이트 링크를가지고 있는 경우에도 사용자 Nikita 해당 사이트에 액세스할 수 없습니다.
 
