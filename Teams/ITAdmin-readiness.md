@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft 팀을 계획, 배포 및 실행 하는 방법을 설명 하는 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a602aef5d817e3d7aecae95491f7de559598570b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9cf627c21e98f64f14a8a925fa615f02b38fae28
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834470"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048809"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 팀의 관리 교육
 
@@ -90,17 +90,18 @@ ms.locfileid: "41834470"
 
 <h2>기술 교육</h2>
 
-| 모듈 | 비디오만 | PowerPoint 데크 |
+| 모듈 | 비디오만 | PowerPoint 데크  |
 | ------------ | -------------------- | -------------------- |
 | [Microsoft 기술-IT YouTube 용 팀 Essentials 채널](https://aka.ms/MicrosoftTeamsforIT) | [비디오: 팀의 주요](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) 기능 (10:13 분)<br>[비디오: 팀 구성 & 배포-소개](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 분)  <br>[비디오: 보안 및 준수](https://youtu.be/91lHNKVVvQ4) (12:42 분)<br>[비디오: 보안 및 규정 준수에 대 한 팀 컨트롤](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 분)||
 | 기초-핵심 구성 요소 | [비디오만](https://aka.ms/teams-foundations) | [뒤집을](https://aka.ms/teams-foundations-deck) |
 | Windows 데스크톱 클라이언트 | [비디오만](https://aka.ms/teams-clients) | [뒤집을](https://aka.ms/teams-clients-deck) |
 | 지배 구조, 관리 및 수명 주기 | [비디오만](https://aka.ms/teams-governance) | [뒤집을](https://aka.ms/teams-governance-deck) |
 | 보안 & 준수 | [비디오만](https://aka.ms/teams-security-compliance) | [뒤집을](https://aka.ms/teams-security-compliance-deck) |
-| 네트워크 계획 | [비디오만](https://aka.ms/teams-networking) | [뒤집을](https://aka.ms/teams-networking-deck) |
 | 통화 음질 개요 | [비디오만](https://aka.ms/teams-quality) | [뒤집을](https://aka.ms/teams-quality-deck) |
 | 모임 소개 | [비디오만](https://aka.ms/teams-meetings-intro) | [뒤집을](https://aka.ms/teams-meetings-intro-deck) |
-| 미디어 |[비디오만](https://aka.ms/media-in-teams)  | [뒤집을](https://aka.ms/media-in-teams-deck)|
+| 미디어-모임이 간단한 이유|[비디오만](https://aka.ms/media-in-teams)  | [뒤집을](https://aka.ms/media-in-teams-deck)|
+| 미디어-미디어 흐름 | [비디오만](https://aka.ms/teams-media-flows) | [뒤집을](https://aka.ms/teams-media-flows-deck)  |
+| 동적 비상 전화 | [비디오만](https://aka.ms/teams-dec) |  [뒤집을](https://aka.ms/teams-dec-deck) |
 | 라이브 이벤트 | [비디오만](https://aka.ms/teams-live-events-session) | [뒤집을](https://aka.ms/teams-live-events-deck) |
 | 전화 시스템 소개 | [비디오만](https://aka.ms/teams-phone-system) | [뒤집을](https://aka.ms/teams-phone-system-deck) |
 | 직접 라우팅 | [비디오만](https://aka.ms/teams-direct-routing) | [뒤집을](https://aka.ms/teams-direct-routing-deck) |
