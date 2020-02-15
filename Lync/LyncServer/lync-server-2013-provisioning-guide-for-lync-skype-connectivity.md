@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync-Skype 연결에 대한 프로비전 가이드'
+title: 'Lync Server 2013: Lync-Skype 연결을 위한 프로 비전 가이드'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 57793363
 ms.date: 11/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f94da566e4322f9b8d1d039441c561f5ed60f6c2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e8f6e1b9262e0e7ed0f9060f3e509924aee9ba62
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747218"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050300"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="provisioning-guide-for-lync-skype-connectivity-in-lync-server-2013"></a>Lync Server 2013의 Lync-Skype 연결에 대한 프로비전 가이드
+# <a name="provisioning-guide-for-lync-skype-connectivity-in-lync-server-2013"></a>Lync Server 2013의 Lync-Skype 연결을 위한 프로 비전 가이드
 
 </div>
 
@@ -35,14 +35,14 @@ ms.locfileid: "41747218"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2014-11-26_
+_**마지막으로 수정 된 항목:** 2014-11-26_
 
-Lync Server 2013에서는 Skype와의 연결이 지원됩니다. 이 연결을 통해 Lync 2013 사용자는 Skype 사용자의 MSA(Microsoft 계정)를 사용하여 Skype 대화 상대를 추가할 수 있습니다. Skype 클라이언트가 Lync 사용자를 대화 상대 목록에 추가할 수도 있습니다. Lync Server에서 관리자 권한으로 설정된 정책을 기반으로 Lync 및 Skype 사용자는 메신저를 사용해 통신하고, 서로의 현재 상태를 확인하고, 오디오 및 비디오 통화를 시작할 수 있습니다. Lync-Skype 연결은 Lync Online의 기능이기도 하며 Office 365 포털 내의 Lync 관리 센터에서 Lync Online 고객도 사용하도록 설정될 수 있습니다.
+Lync Server 2013는 Skype와의 연결을 지원 합니다. 이 연결은 Lync 2013 사용자가 Skype 사용자의 Microsoft 계정 (MSA)을 사용 하 여 Skype 연락처를 추가할 수 있도록 합니다. 또한 Skype 클라이언트는 대화 상대 목록에 Lync 사용자를 추가할 수 있습니다. Lync Server에서 관리적으로 설정 된 정책에 따라 Lync 및 Skype 사용자는 인스턴트 메시징을 사용 하 여 통신 하 고, 서로의 현재 상태를 확인 하 고, 오디오 및 비디오 통화를 시작할 수 있습니다. Lync Online의 기능 이기도 한 lync 온라인의 기능은 Office 365 포털 내의 Lync 관리 센터에서 Lync Online 고객에 대해 사용 하도록 설정할 수 있습니다.
 
 <div>
 
 > [!IMPORTANT]  
-> Lync Server가 PIC(공용 메신저 연결)를 사용하여 Windows Messenger와 연결하도록 이미 구성된 경우 해당 배포는 Lync-Skype 연결에 맞게 이미 구성되어 있습니다. 따라서 사용자는 기존 메신저 PIC 항목의 이름을 Skype로 바꿀 것인지만 고려할 수 있습니다. 자세한 내용은 이 가이드 뒷부분에 나오는 "Lync에 대해 Skype PIC 공급자 설정 구성"을 참조하세요.
+> Lync Server가 공용 im (인스턴트 메시징 연결)을 사용 하 여 Windows Messenger에 연결 되도록 이미 구성 되어 있는 경우에는 Lync Skype 연결에 대 한 배포가 이미 구성 되어 있는 것입니다. 기존 Messenger PIC 항목 이름을 Skype로 변경 하는 것이 고려할 수 있습니다. 자세한 내용은이 가이드 뒷부분에 나오는 Lync의 Skype PIC 공급자 설정 구성을 참조 하십시오.
 
 </div>
 
@@ -50,15 +50,15 @@ Lync Server 2013에서는 Skype와의 연결이 지원됩니다. 이 연결을 �
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Online 고객을 위한 lync Server 2013의 Lync-Skype 연결에 대 한 참고 사항](lync-server-2013-note-about-lync-skype-connectivity-for-lync-on.md)
+  - [Lync Online 고객에 대 한 lync Server 2013의 Lync Skype 연결에 대 한 참고 사항](lync-server-2013-note-about-lync-skype-connectivity-for-lync-on.md)
 
-  - [Lync Server 2013에서 Lync Server 공용 메신저 연결 프로비저닝 사이트에 액세스](lync-server-2013-accessing-the-lync-server-public-im-connectivity-provisioning-site.md)
+  - [Lync Server 2013에서 Lync Server 공용 IM 연결 프로 비전 사이트 액세스](lync-server-2013-accessing-the-lync-server-public-im-connectivity-provisioning-site.md)
 
   - [Lync Server 2013에서 Lync-Skype 연결 사용](lync-server-2013-enabling-lync-skype-connectivity.md)
 
-  - [최종 사용자로서 Lync Server 2013에서 Lync-Skype 연결 사용](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
+  - [Lync Server 2013에서 최종 사용자로 Lync Skype 연결 사용](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
 
-  - [질문과 대답: Skype 연결을 위한 Lync Server 2013 프로비전](lync-server-2013-frequently-asked-questions-provisioning-lync-server-for-skype-connectivity.md)
+  - [질문과 대답: Skype 연결용 Lync Server 2013 프로 비전](lync-server-2013-frequently-asked-questions-provisioning-lync-server-for-skype-connectivity.md)
 
 </div>
 

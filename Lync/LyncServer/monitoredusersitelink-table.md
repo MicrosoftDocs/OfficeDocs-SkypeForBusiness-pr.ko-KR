@@ -12,16 +12,16 @@ ms:contentKeyID: 48183508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17c7996b4c06496a39bc7db5f4cd5b4adbb83c2d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03423d1754a87d32adc2d00ddd0697f8a8389d95
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762866"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762866"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-MonitoredUserSiteLink 링크 테이블은 지원 테이블입니다. 각 레코드는 두 사용자 사이트 간의 링크 하나를 나타냅니다.
+MonitoredUserSiteLink 테이블은 지원 테이블입니다. 각 레코드는 두 사용자 사이트 간의 한 링크를 나타냅니다.
 
 
 <table>
@@ -52,21 +52,21 @@ MonitoredUserSiteLink 링크 테이블은 지원 테이블입니다. 각 레코�
 <th><strong>열</strong></th>
 <th><strong>데이터 형식</strong></th>
 <th><strong>키/인덱스</strong></th>
-<th><strong>세부적인</strong></th>
+<th><strong>세부 정보</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>UserSite1Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>기본, 외래</p></td>
-<td><p><a href="lync-server-2013-usersite-table.md">Lync Server 2013의 Usersite 테이블</a>에서 참조 합니다.</p></td>
+<td><p>Primary, Foreign</p></td>
+<td><p><a href="lync-server-2013-usersite-table.md">Lync Server 2013의 Usersite 테이블</a>에서 참조 됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSite2Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>기본, 외래</p></td>
-<td><p><a href="lync-server-2013-usersite-table.md">Lync Server 2013의 Usersite 테이블</a>에서 참조 합니다.</p></td>
+<td><p>Primary, Foreign</p></td>
+<td><p><a href="lync-server-2013-usersite-table.md">Lync Server 2013의 Usersite 테이블에</a>대 한 참조입니다.</p></td>
 </tr>
 </tbody>
 </table>

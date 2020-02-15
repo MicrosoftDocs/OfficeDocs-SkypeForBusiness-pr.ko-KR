@@ -12,20 +12,20 @@ ms:contentKeyID: 48185415
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0932eb97ee276368ee7b4479d17100b00af29d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cccae79c64205ece3256851a19e54dce8582f9fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755692"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-pin-policy-settings-in-lync-server-2013"></a>(선택 사항) Lync Server 2013에서 PIN 정책 설정 확인
+# <a name="optional-verify-pin-policy-settings-in-lync-server-2013"></a>반드시 Lync Server 2013에서 PIN 정책 설정 확인
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41755692"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-20_
+_**마지막으로 수정 된 항목:** 2012-06-20_
 
-Active Directory 도메인 서비스 자격 증명이 있는 Lync Server 2013 사용자는 PIN (개인 식별 번호)을 입력 하 여 전화 접속 회의에 인증 된 사용자로 참가할 수 있습니다. PIN 정책은 전화 접속 회의 핀이 작동 하는 방식에 대 한 규칙을 정의 합니다.
+Lync Server 2013 Active Directory 도메인 서비스 자격 증명을 가진 사용자는 PIN (개인 식별 번호)을 입력 하 여 전화 접속 회의를 인증 된 사용자로 참가할 수 있습니다. PIN 정책은 전화 접속 회의 Pin이 작동 하는 방식에 대 한 규칙을 정의 합니다.
 
-전화 접속 회의를 배포 하는 경우 기본 글로벌 PIN 정책이 요구 사항을 충족 하는지 확인 해야 합니다. 변경 작업을 수행 해야 하는 경우 기본 전역 정책을 수정 하거나 새 PIN 정책을 만들 수 있습니다. 특정 사이트, 특정 사용자 또는 특정 사용자 그룹에 적용 되는 PIN 정책을 만들 수 있습니다.
+전화 접속 회의를 배포할 때는 기본 전역 PIN 정책이 요구 사항을 충족 하는지 확인 해야 합니다. 변경을 수행 해야 하는 경우에는 기본 글로벌 정책을 수정 하거나 새 PIN 정책을 만들 수 있습니다. 특정 사이트, 특정 사용자 또는 특정 사용자 그룹에 적용 되는 PIN 정책을 만들 수 있습니다.
 
 <div>
 
@@ -47,7 +47,7 @@ Active Directory 도메인 서비스 자격 증명이 있는 Lync Server 2013 �
 
   - [Lync Server 2013에서 기본 전화 접속 회의 PIN 설정 수정](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
 
-  - [Lync Server 2013에서 사이트 또는 사용자 그룹에 대한 전화 접속 회의 PIN 설정 만들기 또는 수정](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
+  - [Lync Server 2013에서 사이트 또는 사용자 그룹에 대 한 전화 접속 회의 PIN 설정 만들기 또는 수정](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
 
 </div>
 

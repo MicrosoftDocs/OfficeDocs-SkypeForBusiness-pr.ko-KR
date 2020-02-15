@@ -12,16 +12,16 @@ ms:contentKeyID: 48183638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6978802893b2c4af4f4d4199c3e35452200d8d4a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3fcbcad9c69731d2a39d990f2342b7427f98fb74
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737608"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042285"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737608"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-AppliedBandwidthSource 테이블은 지원 테이블입니다. 각 레코드는 하나의 원본을 나타냅니다.
+AppliedBandwidthSource 테이블은 지원 테이블입니다. 각 레코드는 하나의 소스를 나타냅니다.
 
 
 <table>
@@ -52,21 +52,21 @@ AppliedBandwidthSource 테이블은 지원 테이블입니다. 각 레코드는 
 <th><strong>열</strong></th>
 <th><strong>데이터 형식</strong></th>
 <th><strong>키/인덱스</strong></th>
-<th><strong>세부적인</strong></th>
+<th><strong>세부 정보</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>AppliedBandwidthSourceKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
-<td><p>출처를 식별 하는 고유 번호입니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>원본을 식별 하는 고유 번호입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AppliedBandwidthSource</strong></p></td>
 <td><p>varchar (256)</p></td>
-<td><p>독특한</p></td>
-<td><p>적용 되는 대역폭 cap의 원본입니다. 대역폭 한도가 시작 되는 위치를 설명 합니다 (예: "정책 서버", "서버 설정" 또는 "모달").</p></td>
+<td><p>고유한</p></td>
+<td><p>적용 되는 대역폭 캡의 출처입니다. 이 원본은 대역폭 제한이 시작되는 위치(예: "정책 서버", "TURN 서버" 또는 "형식")를 설명합니다.</p></td>
 </tr>
 </tbody>
 </table>

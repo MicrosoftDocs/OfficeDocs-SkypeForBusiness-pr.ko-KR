@@ -12,16 +12,16 @@ ms:contentKeyID: 48183424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2a9fb05c3f1777722d1a6f7aaa49f1bb00baeff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94624d4c301d6715b1435ab26132668a8d7efd93
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728748"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048519"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41728748"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-28_
+_**마지막으로 수정 된 항목:** 2012-06-28_
 
-Lync 2013의 온라인 모임 추가 기능을 통해 Outlook 메시징 및 공동 작업 클라이언트 내에서 모임 관리를 지원 합니다. 추가 기능의 동작을 사용자 지정 하는 방법에는 여러 가지가 있습니다. 다음은 온라인 모임 초대의 본문에 로고 및 텍스트를 추가 하기 위한 새로운 옵션입니다.
+Lync 2013에 대 한 온라인 모임 추가 기능에서는 Outlook 메시징 및 공동 작업 클라이언트 내에서 모임 관리를 지원 합니다. 여러 가지 방법으로 추가 기능 동작을 사용자 지정할 수 있습니다. 이러한 방법 중에는 로고와 텍스트를 온라인 모임 초대 본문에 추가하는 새로운 옵션도 포함됩니다.
 
 <div>
 

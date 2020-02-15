@@ -12,20 +12,20 @@ ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61205cf4ecdac8eac78820442264286f414095ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8b64f06d9ca879236c0842554c1779fb7bbc1cbe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736828"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013에 대한 인증서 인프라 요구 사항
+# <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013의 인증서 인프라 요구 사항
 
 </div>
 
@@ -35,64 +35,64 @@ ms.locfileid: "41736828"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2016-06-23_
+_**마지막으로 수정 된 항목:** 2016-06-23_
 
-Lync Server 2013에는 TLS 및 상호 TLS (MTLS) 연결을 지원 하기 위한 PKI (공개 키 인프라)가 필요 합니다.
+Lync Server 2013에서는 TLS 및 상호 TLS (MTLS) 연결을 지원 하기 위해 PKI (공개 키 인프라)를 사용 해야 합니다.
 
-Lync Server는 다음과 같은 목적으로 인증서를 사용 합니다.
+Lync Server에서는 다음 용도로 인증서를 사용 합니다.
 
   - 클라이언트와 서버 간의 TLS 연결
 
-  - 서버 간 MTLS 연결
+  - 서버 간의 MTLS 연결
 
-  - 파트너의 자동 DNS 검색을 사용 하는 페더레이션
+  - 파트너의 자동 DNS 검색을 사용한 페더레이션
 
-  - IM (인스턴트 메시징)에 대 한 원격 사용자 액세스
+  - IM(인스턴트 메시징)에 대한 원격 사용자 액세스
 
-  - 오디오/비디오 (A/V) 세션, 응용 프로그램 공유, 회의에 대 한 외부 사용자 액세스
+  - A/V(오디오/비디오) 세션, 응용 프로그램 공유 및 웹 회의에 대한 외부 사용자 액세스
 
-  - 웹 서비스의 자동 검색을 사용 하는 모바일 요청
+  - 웹 서비스 자동 검색을 사용하는 모바일 요청
 
 Lync Server의 경우 다음과 같은 일반적인 요구 사항이 적용 됩니다.
 
-  - 모든 서버 인증서는 서버 권한 부여 (서버 EKU)를 지원 해야 합니다.
+  - 모든 서버 인증서는 서버 권한 부여(서버 EKU)를 지원해야 합니다.
 
-  - 모든 서버 인증서에는 CDP (CRL 배포 지점이)가 포함 되어 있어야 합니다.
+  - 모든 서버 인증서에는 CDP(CRL 배포 지점)가 포함되어 있어야 합니다.
 
-  - 모든 인증서는 운영 체제에서 지원 되는 서명 알고리즘을 사용 하 여 서명 해야 합니다. Lync Server 2013는 다이제스트 크기의 SHA-1 및 SHA-2 제품군 (224, 256, 384, 512 비트)을 지원 하 고 운영 체제 요구 사항을 충족 하거나 초과 합니다. 운영 체제 지원은을 참조 [http://go.microsoft.com/fwlink/?LinkId=287002](http://go.microsoft.com/fwlink/?linkid=287002)하세요.
+  - 모든 인증서는 운영 체제에서 지 원하는 서명 알고리즘을 사용 하 여 서명 해야 합니다. Lync Server 2013는 다이제스트 크기의 sha-1 및 SHA-2 제품군 (224, 256, 384 및 512 비트)을 지원 하며 운영 체제 요구 사항을 충족 하거나 초과 합니다. 운영 체제 지원에 대해서는 [http://go.microsoft.com/fwlink/?LinkId=287002](http://go.microsoft.com/fwlink/?linkid=287002)를 참조 하세요.
     
     <div>
     
 
     > [!NOTE]  
-    > RSASSA 서명 알고리즘을 사용 하는 것은 지원 되지 않으며,이 경우 로그인 및 착신 전환 문제에 대 한 오류가 발생할 수 있습니다 (다른 여러 가지 문제).
+    > RSASSA 서명 알고리즘을 사용 하는 것은 지원 되지 않으며 다른 문제 중에서 로그인 및 착신 전환 문제에 대 한 오류가 발생할 수 있습니다.
 
     
     </div>
 
   - Lync Server를 실행 하는 내부 서버에 대해 자동 등록이 지원 됩니다.
 
-  - Lync Server Edge 서버에는 자동 등록이 지원 되지 않습니다.
+  - Lync Server에 지 서버에 대해서는 자동 등록이 지원 되지 않습니다.
 
-  - Windows Server 2003 CA에 웹 기반 인증서 요청을 제출 하는 경우 Windows Server 2003 SP2 또는 Windows XP를 실행 하는 컴퓨터에서 제출 해야 합니다.
+  - Windows Server 2003 CA로 웹 기반 인증서 요청을 전송할 때는 Windows Server 2003 SP2 또는 Windows XP를 실행하는 컴퓨터에서 요청을 전송해야 합니다.
     
-    KB922706는 Windows Server 2003 인증서 서비스 웹 등록에 대해 웹 인증서 등록 문제를 해결할 수 있도록 지원 하지만, Windows Server 2008, Windows Vista 또는 Windows 7을 사용 하 여 다음을 요청 하는 것은 불가능 합니다. Windows Server 2003 CA의 인증서
+    KB 922706에서는 Windows Server 2003 인증서 서비스 웹 등록에 대해 웹 인증서를 등록할 때 발생하는 문제를 해결하기 위한 지원 정보가 제공되지만, Windows Server 2008, Windows Vista 또는 Windows 7을 사용하여 Windows Server 2003 CA에서 인증서를 요청할 수는 없습니다.
 
-  - 1024, 2048, 4096의 암호화 키 길이가 지원 됩니다. 2048 이상의 키 길이를 권장 합니다.
+  - 1024, 2048 및 4096의 암호화 키 길이는 지원 됩니다. 키 길이가 2048 이상인 경우 권장 됩니다.
 
-  - 기본 다이제스트 또는 해시 서명 알고리즘은 RSA입니다. ECDH\_P256, ecdh\_P384, ecdh\_P521 알고리즘도 지원 됩니다. 
+  - 기본 다이제스트 또는 해시 서명 알고리즘은 RSA입니다. ECDH\_P256, ecdh\_P384 및 ecdh\_P521 알고리즘도 지원 됩니다. 
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013의 내부 서버에 대한 인증서 요구 사항](lync-server-2013-certificate-requirements-for-internal-servers.md)
+  - [Lync Server 2013의 내부 서버에 대 한 인증서 요구 사항](lync-server-2013-certificate-requirements-for-internal-servers.md)
 
-  - [Lync Server 2013의 외부 사용자 액세스에 대한 인증서 요구 사항](lync-server-2013-certificate-requirements-for-external-user-access.md)
+  - [Lync Server 2013의 외부 사용자 액세스에 대 한 인증서 요구 사항](lync-server-2013-certificate-requirements-for-external-user-access.md)
 
-  - [Lync Server 2013의 영구 채팅 서버에 대한 인증서 요구 사항](lync-server-2013-certificate-requirements-for-persistent-chat-server.md)
+  - [Lync Server 2013의 영구 채팅 서버에 대 한 인증서 요구 사항](lync-server-2013-certificate-requirements-for-persistent-chat-server.md)
 
-  - [Lync Server 2013의 모바일 기능에 대한 인증서 요구 사항](lync-server-2013-certificate-requirements-for-mobility.md)
+  - [Lync Server 2013의 모바일 기능에 대 한 인증서 요구 사항](lync-server-2013-certificate-requirements-for-mobility.md)
 
 </div>
 

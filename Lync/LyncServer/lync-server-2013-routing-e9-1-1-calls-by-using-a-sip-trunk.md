@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: SIP 트렁크를 사용하여 E9-1-1 통화 라우팅'
+title: 'Lync Server 2013: SIP 트렁크를 사용 하 여 E9-1-1 통화 라우팅'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 918aaf97b1567f012a2b41de7128db23aa383acb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f45bd91eade0de6f290fd87e52effb25c669999a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732858"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037328"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="routing-e9-1-1-calls-by-using-a-sip-trunk-in-lync-server-2013"></a>Lync Server 2013에서 SIP 트렁크를 사용하여 E9-1-1 통화 라우팅
+# <a name="routing-e9-1-1-calls-by-using-a-sip-trunk-in-lync-server-2013"></a>Lync Server 2013에서 SIP 트렁크를 사용 하 여 E9-1-1 통화 라우팅
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41732858"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-29_
+_**마지막으로 수정 된 항목:** 2012-09-29_
 
-SIP 트렁크를 사용 하 여 적격 E9-1 서비스 공급자에 연결 하는 방법은 E9-1-1을 배포할 수 있는 한 가지 방법입니다. 게이트웨이에서 elin를 사용 하 여 공공 교환 전화 네트워크 (PSTN) 기반 E9 서비스 공급자에 연결 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 elin gateway를 사용 하 여 E9-1-1 통화 라우팅](lync-server-2013-routing-e9-1-1-calls-by-using-an-elin-gateway.md)을 참조 하세요.
+SIP 트렁크를 사용하여 적격 E9-1-1 서비스 공급자에 연결하는 것은 E9-1-1을 배포하는 데 사용할 수 있는 한 가지 방법입니다. ELIN 게이트웨이를 사용 하 여 PSTN (공중 전화망) 기반 E9-1-1 서비스 공급자에 연결 하는 방법에 대 한 자세한 내용은 [Routing E9-1-1 통화를 Lync Server 2013에서 ELIN 게이트웨이를 사용 하 여 라우팅을](lync-server-2013-routing-e9-1-1-calls-by-using-an-elin-gateway.md)참조 하십시오.
 
-다음 다이어그램에서는 SIP 트렁크 및 유자격 E9-1 서비스 공급자를 사용 하는 경우 Lync Server에서 공용 안전 응답 시점 (PSAP)으로 긴급 통화를 라우팅하는 방법을 보여 줍니다.
+다음 다이어그램에서는 SIP 트렁크 및 정규화 된 E9-1-1 서비스 공급자를 사용할 때 Lync Server에서 공용 안전 응답 지점 (PSAP)으로 긴급 통화를 라우팅하는 방법을 보여 줍니다.
 
-**라우팅 E9-SIP 트렁크를 통해 1 ~ 1 통화**
+**SIP 트렁크를 통한 E9-1-1 통화 라우팅**
 
 ![Lync Server에서 PSAP로의 긴급 통화 라우팅](images/JJ204701.0637a9d4-2ca7-438a-8ed0-19090a4b992d(OCS.15).jpg "Lync Server에서 PSAP로의 긴급 통화 라우팅")
 
-호환 가능한 Lync 서버 클라이언트에서 긴급 통화를 하는 경우:
+호환 되는 Lync Server 클라이언트에서 긴급 통화를 하면 다음이 발생 합니다.
 
-1.  위치, 발신자의 콜백 번호 및 (선택 사항) 알림 URL과 회의 콜백 번호를 포함 하는 SIP 초대가 Lync 서버로 라우팅됩니다.
+1.  위치, 발신자의 콜백 번호 및 (선택 사항) 알림 URL 및 회의 콜백 번호를 포함 하는 SIP 초대는 Lync Server로 라우팅됩니다.
 
-2.  Lync Server는 비상 번호와 일치 하 고 해당 위치 정책에 정의 된 **PSTN 사용** 값에 기반 하 여 통화를 중재 서버에 연결 하 고, E9-1-1 서비스 공급자에 대 한 SIP 트렁크를 통해이에 대 한 통신을 라우팅합니다.
+2.  Lync Server는 긴급 전화 번호와 일치 하 고 해당 통화를 적절 한 위치 정책에 정의 된 **PSTN 사용** 값에 따라 중재 서버에 라우트 하며, E9-1-1 서비스 공급자에 게 전달 합니다.
 
-3.  E9 서비스 공급자는 통화와 함께 제공 된 위치에 따라 비상 전화를 올바른 PSAP로 라우팅합니다. 클라이언트에 비상 전화를 사용 하 여 확인 된 긴급 응답 위치 (ERL)가 포함 되어 있으면 공급자가 자동으로 해당 PSAP로 전화를 라우팅합니다. 사용자가 위치를 수동으로 입력 한 경우 비상 통화 응답 센터 (ECRC)에서 첫 구두로는 응급 호출을 PSAP로 라우팅하기 전에 호출자와의 정확성을 확인 합니다.
+3.  E9-1-1 서비스 공급자는 통화와 함께 제공된 위치에 따라 긴급 통화를 올바른 PSAP로 라우팅합니다. 클라이언트가 긴급 통화와 함께 확인된 ERL(Emergency Response Location)을 포함하는 경우 공급자는 통화를 적절한 PSAP로 자동으로 라우팅합니다. 사용자가 수동으로 위치를 입력한 경우에는 먼저 ECRC(Emergency Call Response Center)에서 발신자와 구두로 위치가 정확한지 확인한 후 긴급 통화를 PSAP로 라우팅합니다.
 
-4.  알림에 대 한 위치 정책을 구성한 경우 조직의 보안 책임자 중 한 명에 게 특별 Lync 긴급 알림 인스턴트 메시지가 전송 됩니다. 이 메시지는 항상 보안 관리자의 화면에 표시 되며, 발신자의 이름, 전화 번호, 시간 및 위치를 포함 하 여 보안 담당자가 인스턴트 메시지 또는 음성을 사용 하 여 긴급 호출자에 게 신속 하 게 응답할 수 있도록 합니다.
+4.  알림에 대 한 위치 정책을 구성한 경우 조직의 보안 관리자 중 한 명 이상이 특수 Lync 긴급 알림 인스턴트 메시지를 보냅니다. 보안 담당자의 화면에 항상 팝업으로 표시되는 이 메시지에는 발신자 이름, 전화 번호, 시간, 및 위치가 포함되므로 보안 담당자가 인스턴트 메시지나 음성을 통해 긴급 발신자에게 빠르게 대응할 수 있습니다.
 
-5.  회의에 대 한 위치 정책을 구성 하 고 E9 서비스 공급자에서 지원 되는 경우 내부 보안 데스크는 단방향 오디오 또는 양방향 오디오를 사용 하 여 통화에 conferenced 됩니다.
+5.  회의에 대해 위치 정책을 구성한 경우 E9-1-1 서비스 공급자가 해당 정책을 지원하면 내부 보안 데스크가 단방향 오디오 또는 양방향 오디오를 사용하여 전화 회의에 참가하게 됩니다.
 
-6.  통화가 중간에 끊어지면 PSAP는 콜백 번호를 사용 하 여 직접 호출자에 게 연락을 합니다.
+6.  통화가 중간에 끊기면 PSAP가 콜백 번호를 사용하여 발신자와 직접 연결합니다.
 
 </div>
 

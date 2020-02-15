@@ -12,16 +12,16 @@ ms:contentKeyID: 48184155
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27e99c56ae8c7699b3e19f18ef057b194539b75e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0726a1c7893a2411ed1fc1ad8981349b8cc9add
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755782"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41755782"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2015-01-26_
+_**마지막으로 수정 된 항목:** 2015-01-26_
 
 이 섹션의 항목에서는 관리 도구를 사용 하 여 Lync Server 2013 배포를 구성 하 고 관리 하는 방법에 대해 설명 합니다.
 
@@ -43,7 +43,7 @@ _**마지막으로 수정한 주제:** 2015-01-26_
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Operations Guide for Lync Server 2013](lync-server-2013-operations-guide.md)
+  - [Lync Server 2013에 대 한 운영 가이드](lync-server-2013-operations-guide.md)
 
   - [Lync Server 2013 관리 도구](lync-server-2013-lync-server-administrative-tools.md)
 
@@ -51,21 +51,21 @@ _**마지막으로 수정한 주제:** 2015-01-26_
 
   - [Lync Server 2013 토폴로지 관리](lync-server-2013-managing-the-lync-server-topology.md)
 
-  - [Lync Server 2013 관리 권한 위임](lync-server-2013-delegating-administrative-control-of-lync-server.md)
+  - [Lync Server 2013의 관리 제어 위임](lync-server-2013-delegating-administrative-control-of-lync-server.md)
 
-  - [Lync Server 2013에서 메신저 및 현재 상태 설정 관리](lync-server-2013-managing-im-and-presence-settings.md)
+  - [Lync Server 2013에서 IM 및 현재 상태 설정 관리](lync-server-2013-managing-im-and-presence-settings.md)
 
   - [Lync Server 2013, 영구 채팅 서버 관리](managing-lync-server-2013-persistent-chat-server.md)
 
   - [Lync Server 2013에서 음성 라우팅 관리](lync-server-2013-managing-voice-routing.md)
 
-  - [Lync Server 2013에서 통화 관리 기능 관리](lync-server-2013-managing-call-management-features.md)
+  - [Lync Server 2013의 통화 관리 기능 관리](lync-server-2013-managing-call-management-features.md)
 
   - [Lync Server 2013에서 모임 및 회의 관리](lync-server-2013-managing-meetings-and-conferences.md)
 
   - [Lync Server 2013에서 장치, 전화 및 클라이언트 응용 프로그램 관리](lync-server-2013-managing-devices-phones-and-client-applications.md)
 
-  - [Lync Server 2013에 대한 외부 액세스 및 페더레이션 관리](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)
+  - [Lync Server 2013에 대 한 페더레이션 및 외부 액세스 관리](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)
 
   - [Lync Server 2013 보관 관리](lync-server-2013-managing-archiving.md)
 
@@ -73,7 +73,7 @@ _**마지막으로 수정한 주제:** 2015-01-26_
 
   - [Lync Server 2013 네트워크 인프라 관리](lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md)
 
-  - [Lync Server 2013에서 고급 9-1-1 및 위치 서비스 관리](lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md)
+  - [Lync Server 2013의 향상 된 9-1-1 및 위치 서비스 관리](lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md)
 
   - [Lync Server 2013 서비스 및 서버 역할 관리](lync-server-2013-managing-lync-server-services-and-server-roles.md)
 
@@ -97,7 +97,7 @@ _**마지막으로 수정한 주제:** 2015-01-26_
 
 
 [Lync Server 2013 배포](lync-server-2013-deployment.md)  
-[Lync Server 2013에 대 한 계획](lync-server-2013-planning.md)  
+[Lync Server 2013 계획](lync-server-2013-planning.md)  
   
 
 </div>

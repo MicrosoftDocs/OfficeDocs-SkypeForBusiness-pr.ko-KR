@@ -12,16 +12,16 @@ ms:contentKeyID: 49733827
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7609747848e1943a08eff2fa77b87f0168710f81
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98c24093f332f568daadfb0cd336f0d5fde3eb35
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744258"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744258"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-28_
+_**마지막으로 수정 된 항목:** 2012-09-28_
 
-UserStatistics 테이블은 지원 테이블입니다. 표의 각 레코드에는 시스템의 개별 사용자 사용에 대 한 정보가 저장 됩니다. 이 표는 Microsoft Lync Server 2013에서 도입 되었습니다.
+UserStatistics 테이블이 지원 테이블입니다. 테이블의 각 레코드에는 개별 사용자의 시스템 사용에 대 한 정보가 저장 됩니다. 이 표는 Microsoft Lync Server 2013에 도입 되었습니다.
 
 
 <table>
@@ -52,39 +52,39 @@ UserStatistics 테이블은 지원 테이블입니다. 표의 각 레코드에�
 <th>열</th>
 <th>데이터 형식</th>
 <th>키/인덱스</th>
-<th>세부적인</th>
+<th>세부 정보</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
-<td><p>이 사용자를 식별 하는 고유 번호입니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>이 사용자를 식별하는 고유 번호입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastLogInTime</strong></p></td>
-<td><p>dmtf</p></td>
+<td><p>datetime</p></td>
 <td></td>
-<td><p>사용자가 마지막으로 로그인 한 시간</p></td>
+<td><p>사용자가 로그인 한 마지막 시간입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizedTime</strong></p></td>
-<td><p>dmtf</p></td>
+<td><p>datetime</p></td>
 <td></td>
 <td><p>사용자가 회의를 마지막으로 구성한 시간입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastCallOrganizerCallFailureTime</strong></p></td>
-<td><p>dmtf</p></td>
+<td><p>datetime</p></td>
 <td></td>
-<td><p>마지막으로 사용자에 게 전화 실패가 발생 한 시간입니다.</p></td>
+<td><p>마지막으로 사용자에 게 통화 오류가 발생 한 시간입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizerCallFailureTime</strong></p></td>
-<td><p>dmtf</p></td>
+<td><p>datetime</p></td>
 <td></td>
-<td><p>마지막으로 사용자에 게 컨퍼런스 이끌이로 인해 전화 실패가 발생 한 시간입니다.</p></td>
+<td><p>전화 회의 이끌이의 사용자에 게 통화 오류가 발생 한 마지막 시간입니다.</p></td>
 </tr>
 </tbody>
 </table>

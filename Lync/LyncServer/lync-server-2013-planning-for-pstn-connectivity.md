@@ -12,16 +12,16 @@ ms:contentKeyID: 48183684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec12aa5e579aed30e61c7cd34eab444e807c628f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 811f69e8286e341b7769a58d03c42d0a43e63075
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725258"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049910"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41725258"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-21_
+_**마지막으로 수정 된 항목:** 2012-09-21_
 
-엔터프라이즈급 VoIP 솔루션은 서비스 품질 (QoS)에 동의 하지 않고 PSTN (공공 교환 전화 네트워크)에 대 한 통화를 제공 해야 합니다. 전화를 걸고 받는 사용자는 기본 기술을 인식 하지 못합니다. 사용자 관점에서 보면 엔터프라이즈 음성 인프라와 PSTN 간의 통화는 다른 전화 통화 처럼 보일 수 있습니다.
+엔터프라이즈급 VoIP 솔루션은 QoS (서비스 품질)를 제외 하 고는 PSTN (공중 전화망)에 대 한 통화를 제공 해야 합니다. 전화를 걸고 받는 사용자는 기본 기술에 대해 알 수 없습니다. 사용자의 관점에서 보면 기업 음성 인프라와 PSTN 간의 통화는 다른 전화 통화 처럼 보일 것으로 생각 하면 됩니다.
 
-Lync Server 2013는 다음 옵션을 사용 하 여 안정적이 고 확장 가능한 PSTN 연결을 제공 합니다.
+Lync Server 2013에서는 다음 옵션을 사용 하 여 안정적이 고 확장 가능한 PSTN 연결을 제공 합니다.
 
-  - **SIP Trunks** 인터넷 통신 서비스 공급자 (itsp)
+  - ITSP(인터넷 전화 통신 서비스 공급자)에 대한 **SIP 트렁크**
 
-  - PSTN 게이트웨이에 대 한 **직접 SIP 연결**
+  - PSTN 게이트웨이에 대한 **직접 SIP 연결**
 
-  - PBX로 **직접 SIP 연결**
+  - PBX에 대한 **직접 SIP 연결**
 
-해당 크기, 지역 및 기존 음성 인프라에 따라 엔터프라이즈는 다양 한 위치에서 하나, 두 가지 또는 세 가지 옵션을 모두 사용할 수 있습니다.
+크기, 포함 지역 및 기존 음성 인프라에 따라 엔터프라이즈는 여러 위치에서 위의 옵션 중 하나 또는 두 개를 사용할 수도 있고 세 옵션을 모두 사용할 수도 있습니다.
 
 <div>
 
@@ -55,13 +55,13 @@ Lync Server 2013는 다음 옵션을 사용 하 여 안정적이 고 확장 가�
 
   - [Lync Server 2013의 SIP 트렁크](lync-server-2013-sip-trunking.md)
 
-  - [Lync Server 2013에서 직접 SIP 연결](lync-server-2013-direct-sip-connections.md)
+  - [Lync Server 2013의 직접 SIP 연결](lync-server-2013-direct-sip-connections.md)
 
-  - [M:N-Lync Server 2013의 트렁크](lync-server-2013-m-n-trunk.md)
+  - [Lync Server 2013의 M:N 트렁크](lync-server-2013-m-n-trunk.md)
 
-  - [Lync Server 2013의 번역 규칙](lync-server-2013-translation-rules.md)
+  - [Lync Server 2013의 변환 규칙](lync-server-2013-translation-rules.md)
 
-  - [Lync Server 2013에서 아웃바운드 음성 라우팅 계획](lync-server-2013-planning-outbound-voice-routing.md)
+  - [Lync Server 2013의 아웃 바운드 음성 라우팅 계획](lync-server-2013-planning-outbound-voice-routing.md)
 
 </div>
 

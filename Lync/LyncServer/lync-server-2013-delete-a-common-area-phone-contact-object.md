@@ -12,20 +12,20 @@ ms:contentKeyID: 51803999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a3088150c882a5ebca99318f7c85ddbddddc333
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98702f392020586b546d2db89fe6355923b47f67
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741018"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-common-area-phone-contact-object-in-lync-server-2013"></a>Lync Server 2013에서 공통 영역 휴대폰 연락처 개체 삭제
+# <a name="delete-a-common-area-phone-contact-object-in-lync-server-2013"></a>Lync Server 2013에서 공통 영역 전화 연락처 개체 삭제
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41741018"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-20_
+_**마지막으로 수정 된 항목:** 2013-02-20_
 
-일반 지역 전화와 연결 된 contact 개체를 삭제 하는 것이 좋습니다. 예를 들어 직원 \ ()에서 전화를 제거 하는 경우 해당 휴대폰에 연결 된 연락처 개체를 사용할 필요가 없습니다. **CsCommonAreaPhone** cmdlet은 일반적인 지역 전화 계정을 삭제 하는 방법을 제공 합니다. 이 cmdlet을 실행 하면 **CsCommonAreaPhone**에서 반환 되는 일반적인 지역 전화 목록에서 전화가 삭제 됩니다. 또한이 휴대폰에 연결 된 contact 개체는 Active Directory 도메인 서비스에서 삭제 됩니다.
+공통 영역 전화와 연결 된 contact 개체를 삭제할 수도 있습니다. 예를 들어 직원 \에 게 전화를 제거 하는 경우 해당 전화와 연결 된 연락처 개체를 사용할 필요가 없습니다. **Move-cscommonareaphone** cmdlet은 공통 영역 전화 계정을 삭제할 수 있는 방법을 제공 합니다. 이 cmdlet을 실행 하면 **move-cscommonareaphone**에서 반환 되는 공통 영역 전화 목록에서 전화가 삭제 됩니다. 또한 해당 전화와 연결 된 contact 개체가 Active Directory 도메인 서비스에서 삭제 됩니다.
 
-**CsCommonAreaPhone** 를 사용 하 여 표시 이름 또는 국가 및 지역 번호와 같은 공통 요소가 있는 하나의 공통 영역 전화기 또는 모든 공통 영역 전화기를 제거 합니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+**Move-cscommonareaphone** 을 사용 하 여 표시 이름, 국가 및 지역 코드와 같은 공통 요소를 가진 공통 영역 전화 또는 모든 공통 영역 전화를 제거 합니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
 
 <div>
 
@@ -48,7 +48,7 @@ _**마지막으로 수정한 주제:** 2013-02-20_
 
 ## <a name="removing-a-specified-common-area-phone"></a>지정 된 공통 영역 전화 제거
 
-  - 다음 명령은 SIP 주소 sip:mainlobby@litwareinc.com를 사용 하 여 일반적인 지역 전화를 제거 합니다.
+  - 다음 명령은 SIP 주소 sip:mainlobby@litwareinc.com를 사용 하 여 공통 영역 전화를 제거 합니다.
     
         Remove-CsCommonAreaPhone -Identity "sip:mainlobby@litwareinc.com"
 
@@ -58,7 +58,7 @@ _**마지막으로 수정한 주제:** 2013-02-20_
 
 ## <a name="removing-common-area-phones-based-on-their-display-name"></a>표시 이름에 따라 공통 영역 전화 제거
 
-  - 이 명령은 표시 이름에 문자열 값 "빌딩 14"가 포함 된 공통 영역 전화기를 모두 제거 합니다.
+  - 이 명령은 표시 이름에 문자열 값 "빌딩 14"가 포함 된 공통 영역 전화를 모두 제거 합니다.
     
         Get-CsCommonAreaPhone | Where-Object {$_.DisplayName -match "Building 14"} | Remove-CsCommonAreaPhone
 
@@ -66,7 +66,7 @@ _**마지막으로 수정한 주제:** 2013-02-20_
 
 <div>
 
-## <a name="removing-common-area-phones-based-on-their-country-and-area-codes"></a>국가 및 지역 코드를 기준으로 공통 지역 전화 제거
+## <a name="removing-common-area-phones-based-on-their-country-and-area-codes"></a>국가 및 지역 번호에 따라 공통 영역 전화 제거
 
   - 이 명령은 미국 (국가 코드 1) 및 지역 번호 425에 대 한 공통 영역 전화를 모두 제거 합니다.
     
@@ -74,7 +74,7 @@ _**마지막으로 수정한 주제:** 2013-02-20_
 
 </div>
 
-자세한 내용은 [제거 CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Remove-CsCommonAreaPhone) cmdlet에 대 한 도움말 항목을 참조 하세요.
+자세한 내용은 [move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/Remove-CsCommonAreaPhone) cmdlet에 대 한 도움말 항목을 참조 하십시오.
 
 </div>
 
@@ -83,7 +83,7 @@ _**마지막으로 수정한 주제:** 2013-02-20_
 ## <a name="see-also"></a>참고 항목
 
 
-[Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)  
+[Move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)  
   
 
 </div>

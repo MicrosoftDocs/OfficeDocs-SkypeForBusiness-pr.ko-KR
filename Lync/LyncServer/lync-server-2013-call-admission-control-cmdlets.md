@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 호출 허용 제어 cmdlet'
+title: 'Lync Server 2013: 통화 허용 제어 cmdlet'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3805a597cba993e8b50e006a198fdc693a1d595b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: df8c589d6bceea4e0eec108d1d2d2c6c1ac70a37
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741778"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044710"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,148 +35,148 @@ ms.locfileid: "41741778"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-03-21_
+_**마지막으로 수정 된 항목:** 2012-03-21_
 
-CAC (Call 허용 제어)는 실시간 오디오 또는 비디오 세션을 허용 가능한 품질로 설정 하기에 충분 한 네트워크 대역폭이 있는지 여부를 결정 합니다. 네트워크, 사이트 및 서브넷 및 그 간의 상호 작용에 대 한 제한 사항 및 설정을 적용 하 여 CAC를 관리 합니다.
+CAC(통화 허용 제어)는 허용 가능한 품질의 실시간 오디오 또는 비디오 세션을 설정하기 위해 충분한 네트워크 대역폭이 있는지 여부를 확인합니다. CAC는 네트워크, 사이트, 서브넷 및 이들 간 상호 작용에 대한 제한과 설정을 구성하여 관리됩니다.
 
 <div>
 
 ## <a name="call-admission-control-cmdlets"></a>통화 허용 제어 Cmdlet
 
-다음 cmdlet을 사용 하 여 Lync Server 관리 셸에서 CAC를 관리 하세요.
+다음 cmdlet를 사용 하 여 Lync Server 관리 셸에서 CAC를 관리할 수 있습니다.
 
-**통화 허용 컨트롤**
-
-  - <span></span>  
-    [Get-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg412727(v=OCS.15))
+**통화 허용 제어**
 
   - <span></span>  
-    [새로운 CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398175(v=OCS.15))
+    [CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/library/Gg412727(v=OCS.15))
 
   - <span></span>  
-    [제거-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398877(v=OCS.15))
+    [CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/library/Gg398175(v=OCS.15))
 
   - <span></span>  
-    [Set-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg412863(v=OCS.15))
+    [CsBandwidthPolicyServiceConfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg398877(v=OCS.15))
+
+  - <span></span>  
+    [CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/library/Gg412863(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg425815(v=OCS.15))
+    [Get-csnetworkbandwidthpolicyprofile](https://technet.microsoft.com/library/Gg425815(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg398675(v=OCS.15))
+    [Get-csnetworkbandwidthpolicyprofile](https://technet.microsoft.com/library/Gg398675(v=OCS.15))
 
   - <span></span>  
-    [제거-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg398609(v=OCS.15))
+    [Get-csnetworkbandwidthpolicyprofile을 제거 합니다.](https://technet.microsoft.com/library/Gg398609(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg398338(v=OCS.15))
+    [Get-csnetworkbandwidthpolicyprofile](https://technet.microsoft.com/library/Gg398338(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새로운 CsNetworkBWAlternatePath](https://technet.microsoft.com/en-us/library/Gg398732(v=OCS.15))
+    [CsNetworkBWAlternatePath](https://technet.microsoft.com/library/Gg398732(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새-CsNetworkBWPolicy](https://technet.microsoft.com/en-us/library/Gg412916(v=OCS.15))
+    [새-CsNetworkBWPolicy](https://technet.microsoft.com/library/Gg412916(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))
+    [Get-csnetworkconfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))
 
   - <span></span>  
-    [제거-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))
+    [Get-csnetworkconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg398938(v=OCS.15))
 
   - <span></span>  
-    [Set-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))
+    [Get-csnetworkconfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Csnetworkinter국가 경로](https://technet.microsoft.com/en-us/library/Gg425817(v=OCS.15))
+    [Get-Csnetworkinterroute](https://technet.microsoft.com/library/Gg425817(v=OCS.15))
 
   - <span></span>  
-    [새-Csnetworkinter국가 경로](https://technet.microsoft.com/en-us/library/Gg398779(v=OCS.15))
+    [새-Csnetworkinterroute](https://technet.microsoft.com/library/Gg398779(v=OCS.15))
 
   - <span></span>  
-    [제거-Csnetworkinter국가 경로](https://technet.microsoft.com/en-us/library/Gg398743(v=OCS.15))
+    [제거-Csnetworkinterroute](https://technet.microsoft.com/library/Gg398743(v=OCS.15))
 
   - <span></span>  
-    [Set-Csnetworkinter국가 경로](https://technet.microsoft.com/en-us/library/Gg398410(v=OCS.15))
+    [설정-Csnetworkinter지역 경로](https://technet.microsoft.com/library/Gg398410(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg412769(v=OCS.15))
+    [Remove-csnetworkintersitepolicy](https://technet.microsoft.com/library/Gg412769(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg398994(v=OCS.15))
+    [Remove-csnetworkintersitepolicy](https://technet.microsoft.com/library/Gg398994(v=OCS.15))
 
   - <span></span>  
-    [제거-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg398963(v=OCS.15))
+    [Remove-csnetworkintersitepolicy을 제거 합니다.](https://technet.microsoft.com/library/Gg398963(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg398772(v=OCS.15))
+    [Remove-csnetworkintersitepolicy](https://technet.microsoft.com/library/Gg398772(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg398406(v=OCS.15))
+    [Get-CsNetworkRegion](https://technet.microsoft.com/library/Gg398406(v=OCS.15))
 
   - <span></span>  
-    [새-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg425829(v=OCS.15))
+    [새-CsNetworkRegion](https://technet.microsoft.com/library/Gg425829(v=OCS.15))
 
   - <span></span>  
-    [CsNetworkRegion 제거](https://technet.microsoft.com/en-us/library/Gg398466(v=OCS.15))
+    [CsNetworkRegion 제거](https://technet.microsoft.com/library/Gg398466(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg413089(v=OCS.15))
+    [설정-CsNetworkRegion](https://technet.microsoft.com/library/Gg413089(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Csnetwork국가 링크](https://technet.microsoft.com/en-us/library/Gg398972(v=OCS.15))
+    [Get-Csnetwork지역 링크](https://technet.microsoft.com/library/Gg398972(v=OCS.15))
 
   - <span></span>  
-    [새-Csnetwork국가 링크](https://technet.microsoft.com/en-us/library/Gg398437(v=OCS.15))
+    [새-Csnetwork지역 링크](https://technet.microsoft.com/library/Gg398437(v=OCS.15))
 
   - <span></span>  
-    [-Csnetwork국가 링크 제거](https://technet.microsoft.com/en-us/library/Gg413012(v=OCS.15))
+    [-Csnetwork지역 링크 제거](https://technet.microsoft.com/library/Gg413012(v=OCS.15))
 
   - <span></span>  
-    [Set-Csnetwork국가 링크](https://technet.microsoft.com/en-us/library/Gg412867(v=OCS.15))
+    [설정-Csnetwork지역 링크](https://technet.microsoft.com/library/Gg412867(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398766(v=OCS.15))
+    [Get-CsNetworkSite](https://technet.microsoft.com/library/Gg398766(v=OCS.15))
 
   - <span></span>  
-    [새-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398365(v=OCS.15))
+    [새-CsNetworkSite](https://technet.microsoft.com/library/Gg398365(v=OCS.15))
 
   - <span></span>  
-    [CsNetworkSite 사이트 제거](https://technet.microsoft.com/en-us/library/Gg398135(v=OCS.15))
+    [CsNetworkSite를 제거 합니다.](https://technet.microsoft.com/library/Gg398135(v=OCS.15))
 
   - <span></span>  
-    [집합-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398295(v=OCS.15))
+    [설정-CsNetworkSite](https://technet.microsoft.com/library/Gg398295(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg412825(v=OCS.15))
+    [Get-CsNetworkSubnet](https://technet.microsoft.com/library/Gg412825(v=OCS.15))
 
   - <span></span>  
-    [새-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg398226(v=OCS.15))
+    [새-CsNetworkSubnet](https://technet.microsoft.com/library/Gg398226(v=OCS.15))
 
   - <span></span>  
-    [CsNetworkSubnet 제거](https://technet.microsoft.com/en-us/library/Gg425726(v=OCS.15))
+    [제거-CsNetworkSubnet](https://technet.microsoft.com/library/Gg425726(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg412739(v=OCS.15))
+    [설정-CsNetworkSubnet](https://technet.microsoft.com/library/Gg412739(v=OCS.15))
 
 </div>
 

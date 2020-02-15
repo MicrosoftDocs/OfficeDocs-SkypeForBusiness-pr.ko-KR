@@ -12,16 +12,16 @@ ms:contentKeyID: 48184071
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 878ce959b10c6868f415ec86d717de590b9c8c29
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ca3abaa9817095e2c125affa240c3e5f4d44e9db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744868"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044010"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,68 +35,68 @@ ms.locfileid: "41744868"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-20_
+_**마지막으로 수정 된 항목:** 2012-06-20_
 
-신뢰할 수 있는 응용 프로그램은 Microsoft Lync Server 2013의 일부로 실행할 신뢰할 수 있는 상태를 제공 하는 제 3 자에 의해 개발 된 응용 프로그램이 며, 제품의 기본 제공 부분이 아닙니다. Lync Server 2013는 신뢰할 수 있는 응용 프로그램을 구성 하 고 관리 하는 데 사용 되는 cmdlet을 제공 합니다.
+신뢰할 수 있는 응용 프로그램 이란 타사에서 개발한 응용 프로그램으로, Microsoft Lync Server 2013의 일부로 실행 되며 제품의 기본 제공 부분은 아닙니다. Lync Server 2013에서는 신뢰할 수 있는 응용 프로그램을 구성 하 고 관리 하는 데 사용 되는 cmdlet을 제공 합니다.
 
 <div>
 
 ## <a name="trusted-applications-cmdlets"></a>신뢰할 수 있는 응용 프로그램 Cmdlet
 
-다음 cmdlet을 사용 하 여 신뢰할 수 있는 응용 프로그램을 관리 합니다.
+다음 cmdlet를 사용하여 신뢰할 수 있는 응용 프로그램을 관리합니다.
 
 **신뢰할 수 있는 응용 프로그램**
 
   - <span></span>  
-    [Get-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg399025(v=OCS.15))
+    [New-cstrustedapplication](https://technet.microsoft.com/library/Gg399025(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398259(v=OCS.15))
+    [New-cstrustedapplication](https://technet.microsoft.com/library/Gg398259(v=OCS.15))
 
   - <span></span>  
-    [제거-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398176(v=OCS.15))
+    [New-cstrustedapplication을 제거 합니다.](https://technet.microsoft.com/library/Gg398176(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg425840(v=OCS.15))
+    [New-cstrustedapplication](https://technet.microsoft.com/library/Gg425840(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg425843(v=OCS.15))
+    [CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg425843(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398405(v=OCS.15))
+    [CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg398405(v=OCS.15))
 
   - <span></span>  
-    [제거-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398838(v=OCS.15))
+    [CsTrustedApplicationComputer을 제거 합니다.](https://technet.microsoft.com/library/Gg398838(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg413035(v=OCS.15))
+    [CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg413035(v=OCS.15))
 
   - <span></span>  
-    [New-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398594(v=OCS.15))
+    [CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398594(v=OCS.15))
 
   - <span></span>  
-    [제거-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398837(v=OCS.15))
+    [CsTrustedApplicationEndpoint을 제거 합니다.](https://technet.microsoft.com/library/Gg398837(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398509(v=OCS.15))
+    [CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398509(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg413055(v=OCS.15))
+    [New-cstrustedapplicationpool](https://technet.microsoft.com/library/Gg413055(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg425804(v=OCS.15))
+    [New-cstrustedapplicationpool](https://technet.microsoft.com/library/Gg425804(v=OCS.15))
 
   - <span></span>  
-    [제거-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398750(v=OCS.15))
+    [New-cstrustedapplicationpool을 제거 합니다.](https://technet.microsoft.com/library/Gg398750(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398187(v=OCS.15))
+    [New-cstrustedapplicationpool](https://technet.microsoft.com/library/Gg398187(v=OCS.15))
 
 </div>
 

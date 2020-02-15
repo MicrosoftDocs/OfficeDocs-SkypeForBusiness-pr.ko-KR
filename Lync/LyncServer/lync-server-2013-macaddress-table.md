@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: MacAddress 테이블'
+title: Lync Server 2013:가 중 표
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9bf888e7e04f60fc8c1e06e4ef4ab4e9d9e0f3d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f855b09e0174c9688aa122f97736e86ed7f2fdf9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765316"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037588"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="macaddress-table-in-lync-server-2013"></a>Lync Server 2013의 MacAddress 테이블
+# <a name="macaddress-table-in-lync-server-2013"></a>Lync Server 2013의 (가) 테이블
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765316"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-로이 테이블은 지원 테이블입니다. 각 레코드는 하나의 원본을 나타냅니다.
+MacAddress 테이블은 지원 테이블입니다. 각 레코드는 하나의 소스를 나타냅니다.
 
 
 <table>
@@ -52,20 +52,20 @@ _**마지막으로 수정한 주제:** 2012-10-02_
 <th><strong>열</strong></th>
 <th><strong>데이터 형식</strong></th>
 <th><strong>키/인덱스</strong></th>
-<th><strong>세부적인</strong></th>
+<th><strong>세부 정보</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>MacAddressKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
-<td><p>Mac 주소를 식별 하는 고유 번호입니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>Mac 주소를 식별하는 고유 번호입니다.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MacAddress</strong></p></td>
+<td><p><strong>Mac</strong></p></td>
 <td><p>varchar (256)</p></td>
-<td><p>독특한</p></td>
+<td><p>고유한</p></td>
 <td><p>Mac 주소 문자열입니다.</p></td>
 </tr>
 </tbody>

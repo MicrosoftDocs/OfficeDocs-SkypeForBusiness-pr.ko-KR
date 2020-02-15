@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 디렉터 시나리오'
+title: 'Lync Server 2013: 디렉터에 대 한 시나리오'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac7c5a262f5323f28ff089766cab1f4d65e30757
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23b05a44e139c59dcb0656c2339d67a0e529e59a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732619"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-the-director-in-lync-server-2013"></a>Lync Server 2013의 디렉터 시나리오
+# <a name="scenarios-for-the-director-in-lync-server-2013"></a>Lync Server 2013의 디렉터에 대 한 시나리오
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732619"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-22_
+_**마지막으로 수정 된 항목:** 2012-10-22_
 
-디렉터는 사용자 요청을 인증할 수 있지만 사용자 계정은 홈이 아닌 Microsoft Lync Server 2013 통신 소프트웨어를 실행 하는 서버입니다. 또한 디렉터는 프런트 엔드 서버와 유사한 웹 서비스도 호스팅하고 웹 티켓 요청을 인증 하 고 다른 서비스를 제공 합니다.
+디렉터는 사용자 요청을 인증할 수 있지만 사용자 계정에는 사용 하지 않는 Microsoft Lync Server 2013 통신 소프트웨어를 실행 하는 서버입니다. 또한 디렉터는 프런트 엔드 서버와 유사한 웹 서비스도 호스팅하고 웹 티켓 요청을 인증 하 고 다른 서비스를 제공 합니다.
 
 <div>
 
 
 > [!IMPORTANT]  
-> 디렉터를 배포 하는 경우 역방향 프록시를 통해 외부의 디렉터 웹 서비스 및 프런트 엔드 서버의 웹 서비스를 게시 해야 합니다. 다음 항목에서는 가능 디렉터 토폴로지에 대 한 계획 프로세스에 대해 설명 합니다.
+> 디렉터를 배포 하는 경우 프런트 엔드 서버의 웹 서비스 뿐만 아니라 역방향 프록시를 통해 외부에서 디렉터 웹 서비스를 게시 해야 합니다. 다음 항목에서는 가능한 디렉터 토폴로지의 계획 프로세스에 대해 설명 합니다.
 
 
 
@@ -57,11 +57,11 @@ _**마지막으로 수정한 주제:** 2012-10-22_
 
   - [Lync Server 2013의 디렉터에 필요한 구성 요소](lync-server-2013-components-required-for-the-director.md)
 
-  - [Lync Server 2013의 디렉터에 대한 하드웨어 및 소프트웨어 요구 사항](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
+  - [Lync Server 2013의 디렉터에 대 한 하드웨어 및 소프트웨어 요구 사항](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
 
   - [Lync Server 2013의 단일 디렉터](lync-server-2013-single-director.md)
 
-  - [Lync Server 2013의 조정된 디렉터 풀](lync-server-2013-scaled-director-pool.md)
+  - [Lync Server 2013의 조정 된 디렉터 풀](lync-server-2013-scaled-director-pool.md)
 
 </div>
 
@@ -70,8 +70,8 @@ _**마지막으로 수정한 주제:** 2012-10-22_
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013의 지원되는 토폴로지](lync-server-2013-supported-topologies.md)  
-[Lync Server 2013의 서버 하드웨어 플랫폼](lync-server-2013-server-hardware-platforms.md)  
+[Lync Server 2013에서 지원 되는 토폴로지](lync-server-2013-supported-topologies.md)  
+[Lync Server 2013 용 서버 하드웨어 플랫폼](lync-server-2013-server-hardware-platforms.md)  
   
 
 </div>

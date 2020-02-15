@@ -12,16 +12,16 @@ ms:contentKeyID: 48184608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 087c6fa4518f90fdfca6b752386e0eed3b5162bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a627da511dcaf82512e2fd41f9cb434ab4d476c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725198"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41725198"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-19_
+_**마지막으로 수정 된 항목:** 2012-06-19_
 
-조직에 고객 서비스, 내부 지원 센터 또는 부서에 대 한 일반 전화 지원과 같은 특정 유형의 통화를 응답 하 고 관리 하는 사용자 그룹이 있는 경우 Lync Server 응답 그룹 응용 프로그램을 배포 하 여 이러한 유형을 관리할 수 있습니다. 통화 중. 응답 그룹 응용 프로그램은 상담원 이라고 하는 지정 된 사람에 게 수신 전화를 라우팅하고 큐에 대기 시킵니다. 전화 지원 서비스의 사용을 높이고 응답 그룹을 사용 하 여 이러한 서비스를 실행 하는 오버 헤드를 줄일 수 있습니다. 이 섹션에서는 응답 그룹에 대 한 계획 고려 사항을 설명 합니다.
+조직에 고객 서비스, 내부 지원 센터 또는 부서에 대 한 일반 전화 지원과 같이 특정 유형의 통화를 응답 하 고 관리 하는 사용자 그룹이 있는 경우 Lync Server 응답 그룹 응용 프로그램을 배포 하 여 이러한 유형을 관리할 수 있습니다. 입니다. 응답 그룹 응용 프로그램은 지정 된 사람에 게 에이전트로 알려진 수신 전화를 라우팅하고 큐에 대기 시킵니다. 응답 그룹을 사용하여 전화 지원 서비스 사용을 늘리고 이러한 서비스를 실행하는 오버헤드를 줄일 수 있습니다. 이 섹션에서는 응답 그룹에 대 한 계획 고려 사항을 설명 합니다.
 
 <div>
 
@@ -45,15 +45,15 @@ _**마지막으로 수정한 주제:** 2012-06-19_
 
   - [Lync Server 2013의 응답 그룹 응용 프로그램 개요](lync-server-2013-overview-of-the-response-group-application.md)
 
-  - [Lync Server 2013의 응답 그룹에서 사용하는 구성 요소](lync-server-2013-components-used-by-response-group.md)
+  - [Lync Server 2013의 응답 그룹에서 사용 하는 구성 요소](lync-server-2013-components-used-by-response-group.md)
 
-  - [Lync Server 2013의 응답 그룹에 대한 기술 요구 사항](lync-server-2013-technical-requirements-for-response-group.md)
+  - [Lync Server 2013의 응답 그룹에 대 한 기술 요구 사항](lync-server-2013-technical-requirements-for-response-group.md)
 
-  - [Lync Server 2013의 응답 그룹에 지원되는 클라이언트](lync-server-2013-clients-supported-for-response-group.md)
+  - [Lync Server 2013의 응답 그룹에 대해 지원 되는 클라이언트](lync-server-2013-clients-supported-for-response-group.md)
 
-  - [Lync Server 2013의 응답 그룹 용량 계획](lync-server-2013-capacity-planning-for-response-group.md)
+  - [Lync Server 2013의 응답 그룹에 대 한 용량 계획](lync-server-2013-capacity-planning-for-response-group.md)
 
-  - [Lync Server 2013의 응답 그룹에 대 한 배포 프로세스](lync-server-2013-deployment-process-for-response-group.md)
+  - [Lync Server 2013의 응답 그룹 배포 프로세스](lync-server-2013-deployment-process-for-response-group.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: CDR(통화 정보 기록) 데이터베이스 스키마'
+title: 'Lync Server 2013: CDR (통화 정보 기록) 데이터베이스 스키마'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccda99476c1d74c68aacda358a6759b02bc65a78
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cf08b4562550807ce40c26844a89f3f32aba769
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743168"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-detail-recording-cdr-database-schema-in-lync-server-2013"></a>Lync Server 2013의 CDR(통화 정보 기록) 데이터베이스 스키마
+# <a name="call-detail-recording-cdr-database-schema-in-lync-server-2013"></a>Lync Server 2013의 CDR (통화 정보 기록) 데이터베이스 스키마
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743168"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-17_
+_**마지막으로 수정 된 항목:** 2012-10-17_
 
-이 문서에는 Microsoft Lync Server 2013의 CDR (통화 정보 기록) 데이터베이스 스키마가 나와 있습니다.
+이 문서에서는 Microsoft Lync Server 2013의 CDR (통화 정보 기록) 데이터베이스에 대 한 스키마를 설명 합니다.
 
 <div>
 

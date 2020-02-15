@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 중재 서버 배포 지침'
+title: 'Lync Server 2013: 중재 서버에 대 한 배포 지침'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c91ea4368d96e6a558a25eda86d163e4ced4cb8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0404590ab5b3208de989093df7ede55a3aee2f54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762676"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,61 +35,61 @@ ms.locfileid: "41762676"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-12_
+_**마지막으로 수정 된 항목:** 2012-10-12_
 
-이 항목에서는 중재 서버 배포에 대 한 계획 지침을 설명 합니다. 이러한 지침을 검토 한 후 계획 도구를 사용 하 여 배포 하기로 결정 하는 최종 맞춤형 토폴로지에 대 한 모델로 사용할 수 있는 대체 토폴로지를 만들고 보는 것이 좋습니다.
+이 항목에서는 중재 서버 배포에 대 한 계획 지침에 대해 설명 합니다. 이러한 지침을 검토 한 후 계획 도구를 사용 하 여 배포를 결정 하는 최종 맞춤형 토폴로지의 모델로 사용할 수 있는 가능한 대체 토폴로지를 만들고 확인 하는 것이 좋습니다.
 
 <div>
 
-## <a name="collocated-or-stand-alone-mediation-server"></a>Collocated 또는 독립 실행형 중재 서버
+## <a name="collocated-or-stand-alone-mediation-server"></a>배치 된 또는 독립 실행형 중재 서버
 
-중재 서버는 기본적으로 Standard Edition Server 또는 중앙 사이트의 프런트 엔드 풀에 있는 프런트 엔드 서버에 collocated 됩니다. 처리할 수 있는 PSTN (공개 통신 네트워크) 및 풀에 필요한 컴퓨터 수는 다음 사항에 따라 달라 집니다.
+중재 서버는 기본적으로 중앙 사이트 프런트 엔드 풀의 Standard Edition Server 또는 프런트 엔드 서버에 배치됩니다. 처리할 수 있는 PSTN (공중 전화망) 통화 수 및 풀에 필요한 컴퓨터 수는 다음에 따라 달라 집니다.
 
-  - 중재 서버 풀 컨트롤에서 제어 하는 게이트웨이 피어 수
+  - 중재 서버 풀에서 제어 하는 게이트웨이 피어 수
 
-  - 이러한 게이트웨이를 통한 대용량 트래픽 기간
+  - 이러한 게이트웨이를 통한 고용량 트래픽 기간
 
-  - 미디어에서 중재 서버를 우회 하는 전화 통화의 백분율입니다.
+  - 해당 미디어에서 중재 서버를 바이패스 하는 통화의 비율입니다.
 
-계획을 수립할 때는 미디어를 우회 하도록 구성 되지 않은 PSTN 통화 및 A/V 회의에 대 한 미디어 처리 요구 사항을 고려 하 고 지원 해야 하는 사용 중인 통화 시간에 대 한 신호 상호 작용을 처리 하는 데 필요한 처리 작업을 고려해 야 합니다. CPU가 충분 하지 않으면 중재 서버의 독립 실행형 풀을 배포 해야 합니다. 및 PSTN 게이트웨이, IP-Pbx, SBCs는 하나의 풀에 있는 collocated 중재 서버에 의해 제어 되는 하위 집합으로 분할 되어야 하며 하나 이상의 독립 실행형 풀에 독립 실행형 중재 서버에 있어야 합니다.
+계획할 때는 PSTN 통화에 대 한 미디어 처리 요구 사항과 미디어 바이패스를 위해 구성 되지 않은 A/V 회의 및 지원 해야 하는 사용량이 많은 시간에 대 한 신호 상호 작용을 처리 하는 데 필요한 처리를 고려해 야 합니다. CPU가 충분 하지 않으면 중재 서버의 독립 실행형 풀을 배포 해야 합니다. 및 PSTN 게이트웨이, IP-Pbx 및 자회사는 하나의 풀에 있는 배치 된 중재 서버 및 하나 이상의 독립 실행형 풀에 독립 실행형 중재 서버에 의해 제어 되는 하위 집합으로 분할 해야 합니다.
 
-다음을 포함 하 여 조정 서버 풀과 상호 작용 하기 위한 올바른 기능을 지원 하지 않는 PSTN 게이트웨이, IP-Pbx 또는 SBCs (세션 경계 컨트롤러)를 배포 하는 경우, 다음과 같이 구성 된 독립 실행형 풀에 연결 해야 합니다. 단일 중재 서버의 경우:
+다음을 포함 하 여 중재 서버 풀과 상호 작용 하기 위한 올바른 기능을 지원 하지 않는 PSTN 게이트웨이, IP-PBX 또는 sbc (Session Border Controller)를 배포한 경우에는이를 구성 하는 독립 실행형 풀에 연결 해야 합니다. 단일 중재 서버의 경우:
 
-  - 풀의 중재 서버에서 네트워크 레이어 DNS (Domain Name System) 로드 균형 조정을 수행 하거나 풀의 모든 중재 서버에 일관 된 트래픽 라우팅
+  - 풀의 중재 서버 간에 네트워크 계층 DNS (Domain Name System) 부하 분산을 수행 합니다 (또는 풀의 모든 중재 서버에 트래픽을 균일 하 게 라우팅하는 경우).
 
-  - 풀의 중재 서버에서 트래픽 수락
+  - 풀에 있는 중재 서버의 트래픽 허용
 
-Microsoft Lync Server 2013, 계획 도구를 사용 하 여 collocating가 프런트 엔드 풀을 사용 하는 조정 서버에서 부하를 처리할 수 있는지 여부를 평가할 수 있습니다. 환경이 이러한 요구 사항을 충족 하지 못하는 경우에는 독립 실행형 중재 서버 풀을 배포 해야 합니다.
+Microsoft Lync Server 2013, 계획 도구를 사용 하 여 배치 중재 서버가 프런트 엔드 풀과의 부하를 처리할 수 있는지 여부를 평가할 수 있습니다. 사용자 환경에서 이러한 요구 사항을 충족할 수 없는 경우 독립 실행형 중재 서버 풀을 배포해야 합니다.
 
 </div>
 
 <div>
 
-## <a name="central-site-and-branch-site-considerations"></a>중앙 사이트 및 지점 사이트 고려 사항
+## <a name="central-site-and-branch-site-considerations"></a>중앙 사이트 및 분기 사이트 고려 사항
 
-중앙 사이트의 중재 서버를 사용 하 여 지점 사이트에서 IP Pbx 또는 PSTN 게이트웨이에 대 한 통화를 라우팅할 수 있습니다. 그러나 SIP trunks를 배포 하는 경우 각 트렁크가 종료 되는 사이트에 중재 서버를 배포 해야 합니다. 중앙 사이트에서 지점 사이트의 IP PBX 또는 PSTN 게이트웨이에 대 한 중재 서버를 사용 하는 경우 미디어 바이패스를 사용할 필요가 없습니다. 그러나 미디어 바이패스를 사용 하도록 설정할 수 있는 경우에는 미디어 경로 대기 시간이 줄어들지만, 따라서 더 이상 미디어 경로가 신호 경로를 따르지 않아도 되므로 미디어 품질이 향상 됩니다. 미디어 바이패스는 또한 풀의 처리 로드를 줄입니다.
+중앙 사이트의 중재 서버는 분기 사이트의 IP-PBX 또는 PSTN 게이트웨이에 대한 통화를 라우팅하는 데 사용될 수 있습니다. 그러나 SIP 트렁크를 배포한 경우에는 각 트렁크가 종료되는 사이트에 중재 서버를 배포해야 합니다. 분기 사이트의 IP-PBX 또는 PSTN 게이트웨이에 대한 통화를 라우팅하는 중재 서버를 중앙 사이트에 배포한 경우에는 미디어 바이패스를 사용할 필요가 없습니다. 하지만 미디어 바이패스를 사용하도록 설정할 수 있는 경우 미디어 바이패스를 사용하면 미디어 경로가 더 이상 신호 경로를 따를 필요가 없어 미디어 경로 대기 시간이 줄어들므로 미디어 품질이 향상됩니다. 미디어 바이패스는 풀의 처리 부하도 감소시킵니다.
 
 <div>
 
 
 > [!NOTE]  
-> 미디어 바이패스는 모든 PSTN 게이트웨이, IP PBX, SBC와 상호 작용 하지 않습니다. Microsoft는 인증 된 파트너와 함께 PSTN 게이트웨이 및 SBCs 집합을 테스트 했으며 Cisco IP-Pbx를 사용 하 여 테스트를 완료 했습니다. 미디어 바이패스는 통합 커뮤니케이션 오픈 상호 운용성 프로그램 –의 Lync Server에 나열 된 제품 및 버전 에서만 <A href="http://go.microsoft.com/fwlink/p/?linkid=268730">http://go.microsoft.com/fwlink/p/?LinkId=268730</A>지원 됩니다.
+> 미디어 바이패스가 모든 PSTN 게이트웨이, IP-PBX 및 SBC에서 작동하지는 않습니다. Microsoft는 인증 된 파트너와의 PSTN 게이트웨이 및 국내 집합을 테스트 했으며 Cisco IP-Pbx를 사용 하 여 몇 가지 테스트를 수행 했습니다. 미디어 바이패스는 통합 커뮤니케이션 오픈 상호 운용성 프로그램-Lync Server에 <A href="http://go.microsoft.com/fwlink/p/?linkid=268730">http://go.microsoft.com/fwlink/p/?LinkId=268730</A>나열 된 제품 및 버전 에서만 지원 됩니다.
 
 
 
 </div>
 
-지점 사이트의 복원성이 필요한 경우 Survivable Branch 기기 또는 프런트 엔드 서버, 중재 서버 및 게이트웨이의 조합이 지점 사이트에 배포 되어야 합니다. 지점 사이트 복원에 대 한 전제 하에는 현재 상태와 회의가 사이트에 탄력적으로 포함 되어 있지 않습니다. 음성에 대 한 지점 사이트 계획에 대 한 지침은 [Lync Server 2013의 지점 사이트 음성 복원 계획](lync-server-2013-planning-for-branch-site-voice-resiliency.md)을 참조 하세요.
+분기 사이트 복구가 필요한 경우에는 SBA(Survivable Branch Appliance) 또는 프런트 엔드 서버, 중재 서버 및 게이트웨이의 조합을 분기 사이트에 배포해야 합니다. 분기 사이트 복구에 대 한 가정에는 현재 상태 및 회의가 사이트에서 탄력적으로 발생 하지 않는다는 것입니다. 음성에 대 한 분기 사이트 계획에 대 한 지침은 [Lync Server 2013에서 분기 사이트 음성 복구 계획](lync-server-2013-planning-for-branch-site-voice-resiliency.md)을 참조 하세요.
 
-Ip pbx와의 상호 작용을 위해 IP-PBX가 여러 초기 대화 및 RFC 3960 상호 작용을 통해 초기 미디어 조작을 올바르게 지원 하지 않는 경우에는 IP PBX에서 Lync 끝점으로 들어오는 통화에 대 한 인사말의 처음 몇 단어를 클리핑 하 게 될 수 있습니다. 중앙 사이트의 중재 서버가 지점 사이트에서 경로가 종료 되는 IP PBX에 대 한 라우팅 호출을 수행 하는 경우, 알림을 보내는 데 시간이 더 필요 하기 때문에 더욱 심각한 문제가 될 수 있습니다. 이 동작이 발생 하는 경우 분기 사이트에서 중재 서버를 배포 하는 것이 처음 몇 단어의 클리핑을 줄이는 유일한 방법입니다.
+Ip-https와 상호 작용 하는 경우, IP-PBX가 여러 초기 대화 및 RFC 3960 상호 작용과 함께 초기 미디어 상호 작용을 올바르게 지원 하지 않으면 IP-PBX에서 Lync 끝점으로 들어오는 호출에 대해 인사말의 처음 몇 단어를 클리핑 해야 할 수 있습니다. 중앙 사이트의 중재 서버가 지점 사이트에서 경로가 종료 되는 IP PBX에 대 한 호출을 라우팅하는 경우, 신호가 완료 되는 데 더 많은 시간이 필요 하기 때문에이 동작이 더 심각 해질 수 있습니다. 이 문제가 발생 하는 경우 분기 사이트에 중재 서버를 배포 하는 것은 처음 몇 단어의 클리핑을 줄이는 유일한 방법입니다.
 
-마지막으로, 중앙 사이트에 TDM PBX가 있거나 IP PBX가 PSTN 게이트웨이를 필요로 하지 않는 경우에는 중재 서버와 PBX를 연결 하는 call 경로에 게이트웨이를 배포 해야 합니다.
+끝으로, 중앙 사이트에 TDM PBX가 있거나, IP-PBX가 PSTN 게이트웨이의 필요성을 해소하지 못한 경우 통화 경로에 중재 서버와 PBX를 연결하는 게이트웨이를 배포해야 합니다.
 
 <div>
 
 
 > [!NOTE]  
-> 독립 실행형 중재 서버의 미디어 성능을 향상 시키려면 이러한 서버의 네트워크 어댑터에서 수신측 배율 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서가 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은에서 <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</A>"Windows Server의 수신측 스케일링 개선 사항"을 참조 하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
+> 독립 실행형 중재 서버의 미디어 성능을 향상 시키려면 이러한 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은 Windows Server의 "수신측 확장 향상 기능"을 참조 <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</A>하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
 
 
 

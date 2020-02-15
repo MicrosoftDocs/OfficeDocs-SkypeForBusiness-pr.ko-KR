@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 통합 된 대화 상대 저장소 계획 및 배포'
+title: 'Lync Server 2013: 통합 연락처 저장소 계획 및 배포'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9685902f44793ba2cd446827ef13e88266b548af
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2fe98de82378b84c75f538e34bd2ce768a4ceb9b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725618"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050790"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-and-deploying-unified-contact-store-in-lync-server-2013"></a>Lync Server 2013의 통합 된 연락처 저장소 계획 및 배포
+# <a name="planning-and-deploying-unified-contact-store-in-lync-server-2013"></a>Lync Server 2013에서 통합 연락처 저장소 계획 및 배포
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41725618"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-14_
+_**마지막으로 수정 된 항목:** 2012-06-14_
 
-통합 된 대화 상대 저장소는 Microsoft Office 제품에서 일관 된 접촉 환경을 제공 하는 기능입니다. 이 기능을 사용 하면 사용자가 Exchange 2013의 모든 연락처 정보를 저장 하 여 Lync, Exchange, Outlook, Outlook Web Access에서 해당 정보를 전역적으로 사용할 수 있습니다.
+통합된 대화 상대 저장소는 Microsoft Office 제품 전체에 걸쳐 일관된 대화 상대(연락처)를 사용할 수 있는 환경을 제공하는 기능입니다. 이 기능을 사용 하면 Lync, Exchange, Outlook 및 Outlook Web Access에서 전체적으로 정보를 사용할 수 있도록 Exchange 2013의 모든 연락처 정보를 저장할 수 있습니다.
 
 <div>
 

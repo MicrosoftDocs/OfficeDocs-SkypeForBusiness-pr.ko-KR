@@ -12,16 +12,16 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6731d0bcda6e4e66b1b498a5f1bf91023627b1f0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4da3af65a20d13ce4d4f1078e5ef76cbc67f402c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764088"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764088"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-12_
+_**마지막으로 수정 된 항목:** 2012-09-12_
 
-tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류 하는 principal 형식이 포함 되어 있습니다.
+tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류하기 위한 사용자 유형이 포함됩니다.
 
-### <a name="columns"></a>열
+### <a name="columns"></a>단
 
 <table>
 <colgroup>
@@ -50,30 +50,30 @@ tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류 하는 
 <thead>
 <tr class="header">
 <th>열</th>
-<th>유형</th>
+<th>형식</th>
 <th>설명</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ptypeID</p></td>
+<td><p>Tblprincipaltype.ptypeid</p></td>
 <td><p>smallint, null이 아님</p></td>
-<td><p>Principal type ID.</p></td>
+<td><p>사용자 유형 ID입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>ptypeDesc</p></td>
-<td><p>nvarchar (256), null 아님</p></td>
-<td><p>형식에 대 한 설명입니다.</p></td>
+<td><p>nvarchar(256), null이 아님</p></td>
+<td><p>유형에 대한 설명입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>ptypeIsSystemUser</p></td>
 <td><p>bit, null이 아님</p></td>
-<td><p>내부 용도에 사용 되는 주체에 해당 하는 형식인 경우 True입니다.</p></td>
+<td><p>유형이 내부 용도로 사용되는 사용자에 해당하는 경우 True입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>ptypeIsUser</p></td>
 <td><p>bit, null이 아님</p></td>
-<td><p>형식이 사용자 형식인 경우 True입니다.</p></td>
+<td><p>유형이 사용자 유형인 경우 True입니다.</p></td>
 </tr>
 </tbody>
 </table>
@@ -94,14 +94,14 @@ tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류 하는 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ptypeID</p></td>
+<td><p>Tblprincipaltype.ptypeid</p></td>
 <td><p>기본 키입니다.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="principal-values"></a>Principal 값
+### <a name="principal-values"></a>사용자 값
 
 <table>
 <colgroup>
@@ -112,7 +112,7 @@ tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류 하는 
 </colgroup>
 <thead>
 <tr class="header">
-<th>I</th>
+<th>ID</th>
 <th>역할</th>
 <th>설명</th>
 <th>사용자</th>
@@ -120,51 +120,51 @@ tblPrincipalType에는 tblPrincipal 테이블에 있는 항목을 분류 하는 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>이상</p></td>
-<td><p>알려진 형식이 없는 일반 주체입니다. TblPrincipal 테이블에서 사용 되지 않습니다.</p></td>
+<td><p>1 </p></td>
+<td><p>모두</p></td>
+<td><p>유형이 알려지지 않은 일반 사용자입니다. tblPrincipal 테이블에서 사용되지 않습니다.</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>2 </p></td>
 <td><p>AnyUser</p></td>
-<td><p>사용자 유형의 일반 사용자입니다. TblPrincipal 테이블에서 사용 되지 않습니다.</p></td>
+<td><p>사용자 유형의 일반 사용자입니다. tblPrincipal 테이블에서 사용되지 않습니다.</p></td>
 <td><p>예</p></td>
 </tr>
 <tr class="odd">
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>AnyGroup</p></td>
-<td><p>그룹 의미가 있는 일반 주체입니다. TblPrincipal 테이블에서 사용 되지 않습니다.</p></td>
+<td><p>그룹 체계를 포함하는 일반 사용자입니다. tblPrincipal 테이블에서 사용되지 않습니다.</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>4(tcp/ipv4)</p></td>
+<td><p>4 </p></td>
 <td><p>SystemUser</p></td>
-<td><p>영구 채팅 서버에서 내부적으로 사용 하는 주체입니다.</p></td>
+<td><p>영구 채팅 서버에서 내부적으로 사용 되는 보안 주체입니다.</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>5mb</p></td>
+<td><p>5 </p></td>
 <td><p>사용자</p></td>
-<td><p>일반 사용자.</p></td>
+<td><p>일반 사용자입니다.</p></td>
 <td><p>예</p></td>
 </tr>
 <tr class="even">
-<td><p>20cm(8</p></td>
-<td><p>DC</p></td>
-<td><p>Active Directory 도메인 서비스 도메인 컨트롤러.</p></td>
+<td><p>8 </p></td>
+<td><p>AD</p></td>
+<td><p>Active Directory 도메인 서비스 도메인 컨트롤러입니다.</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>되었는지</p></td>
-<td><p>그룹과</p></td>
-<td><p>Active Directory 보안 그룹</p></td>
+<td><p>9 </p></td>
+<td><p>Group</p></td>
+<td><p>Active Directory 보안 그룹입니다.</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>1천만</p></td>
-<td><p>폴더</p></td>
-<td><p>Active Directory 컨테이너 또는 조직 구성 단위입니다.</p></td>
+<td><p>10 </p></td>
+<td><p>편지함</p></td>
+<td><p>Active Directory 컨테이너 또는 조직 단위입니다.</p></td>
 <td></td>
 </tr>
 </tbody>

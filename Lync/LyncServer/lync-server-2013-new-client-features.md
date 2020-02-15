@@ -12,16 +12,16 @@ ms:contentKeyID: 48183431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f4709743df0cffaed9200bf3dc480cc19fd48f0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9aa31c37c2785d6e789fb6d02523ddd27cd8a152
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765789"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765789"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-04_
+_**마지막으로 수정 된 항목:** 2012-06-04_
 
-다음 섹션에서는 Lync Server 2013 클라이언트에 대 한 새로운 기능과 배포 업데이트에 대해 설명 합니다.
+다음 섹션에서는 Lync Server 2013 클라이언트에 대 한 새로운 기능 및 배포 업데이트에 대해 설명 합니다.
 
 <div>
 
@@ -45,7 +45,7 @@ _**마지막으로 수정한 주제:** 2012-06-04_
 
   - [Lync Server 2013의 새로운 클라이언트 기능](lync-server-2013-what-s-new-for-clients.md)
 
-  - [Lync Server 2013의 장치에 대한 새로운 기능](lync-server-2013-what-s-new-for-devices.md)
+  - [Lync Server 2013의 장치에 대 한 새로운 기능](lync-server-2013-what-s-new-for-devices.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aad97b0f2009b8f90fa64abc66791d5954c637a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7fa21b154b34dbc576291c34ac5239da6fb2d63
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732478"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048859"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732478"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-01-02_
+_**마지막으로 수정 된 항목:** 2012-01-02_
 
-토폴로지를 정의 하 고 구성할 수 있으려면 먼저 중앙 관리 서버를 설치할 위치를 정의 해야 합니다.
+토폴로지를 정의 및 구성 하려면 먼저 중앙 관리 서버를 설치할 위치를 정의 해야 합니다.
 
 <div>
 
 
 > [!NOTE]  
-> 토폴로지 작성기에서 토폴로지를 게시 해야이 문제가 적용 됩니다. 토폴로지가 만들어지고 게시 되기 전에 중앙 관리 서버를 설정 하려면 <STRONG>set-CSConfigurationStoreLocation</STRONG>를 실행 합니다.
+> 이 작업은 토폴로지 작성기에서 토폴로지를 게시 한 후에 적용 됩니다. 토폴로지가 만들어지고 게시 되기 전에 중앙 관리 서버를 설정 하려면 <STRONG>remove-csconfigurationstorelocation</STRONG>를 실행 합니다.
 
 
 
@@ -53,7 +53,7 @@ _**마지막으로 수정한 주제:** 2012-01-02_
 
 ## <a name="to-select-the-central-management-server"></a>중앙 관리 서버를 선택 하려면
 
-1.  토폴로지 작성기 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.
+1.  토폴로지 작성기 시작: **시작**, **모든 프로그램**, **Microsoft lync server 2013**을 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.
 
 2.  Lync Server 2013 노드를 마우스 오른쪽 단추로 클릭 한 다음 **속성 편집**을 클릭 합니다.
 

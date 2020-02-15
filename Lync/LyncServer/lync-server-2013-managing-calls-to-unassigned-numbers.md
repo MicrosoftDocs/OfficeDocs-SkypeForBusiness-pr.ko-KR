@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 지정 하지 않은 번호로의 통화 관리'
+title: 'Lync Server 2013: 지정 되지 않은 번호로 전화 관리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 571bddf8de62d7b22ac23a3b00de740030a2f7ca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 154f32e22ccce5ae23a4e3dceb175072618cc289
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738788"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037518"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-calls-to-unassigned-numbers-in-lync-server-2013"></a>Lync Server 2013에서 할당 되지 않은 번호로의 통화 관리
+# <a name="managing-calls-to-unassigned-numbers-in-lync-server-2013"></a>Lync Server 2013에서 할당 되지 않은 번호에 대 한 통화 관리
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41738788"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-전화 거는 번호가 조직에 대해 유효 하지만 사용자 또는 전화기에 할당 되지 않은 경우 Lync Server를 사용 하 여 수신 전화 통화 처리를 구성할 수 있습니다. 알림 응용 프로그램을 사용 하 여 이러한 통화를 미리 지정 된 대상 (전화 번호, SIP URI 또는 음성 메일)으로 전송 하거나 오디오 알림 또는 두 가지 모두를 재생할 수 있습니다. 이러한 통화를 Exchange UM 자동 전화 교환 전화 번호로 양도할 수도 있습니다. 이러한 방법 중 하나를 사용 하 여 할당 되지 않은 번호로 전화를 처리 하면 호출자가 전화를 건 후 통화 중 발신음을 듣게 하거나 SIP 클라이언트에 오류 메시지가 표시 되는 상황을 방지할 수 있습니다.
+Lync Server를 사용 하 여 조직에서 전화 건 번호를 사용할 수 있지만 사용자 또는 전화에 게 할당 되지 않은 수신 전화 통화에 대 한 처리를 구성할 수 있습니다. 알림 응용 프로그램을 사용 하 여 이러한 통화를 미리 결정 된 대상 (전화 번호, SIP URI 또는 음성 메일)으로 전송 하거나 오디오 알림을 재생 하거나 두 가지 모두를 수행할 수 있습니다. 또한 이러한 통화를 Exchange UM 자동 전화 교환 전화 번호로 전송할 수 있습니다. 발신자가 번호를 잘못 눌러 통화 중 신호를 듣게 되거나 SIP 클라이언트가 오류 메시지를 수신하는 경우를 피할 수 있습니다.
 
-이 섹션에서는 지정 하지 않은 번호 범위를 관리 하 여 할당 되지 않은 전화 번호로 전화를 처리 하는 방법을 설명 합니다. 또한이 섹션에서는 장애 복구 중에이 기능을 사용할 수 있는 경우에 대 한 알림을 관리 하는 방법을 설명 합니다.
+이 섹션에서는 할당되지 않은 전화 번호로 걸린 전화를 처리하기 위해 할당되지 않은 번호 범위를 관리하는 방법에 대해 설명합니다. 또한 중단 시 알림 기능을 사용하려는 경우 재해 복구 시 알림을 관리하는 방법에 대해서도 설명합니다.
 
 <div>
 
 
 > [!NOTE]  
-> 중단 중에 할당 되지 않은 번호 처리를 사용 하는 것은 선택 사항입니다.
+> 중단 시 할당되지 않은 번호 처리를 사용하는 것은 선택 사항입니다.
 
 
 

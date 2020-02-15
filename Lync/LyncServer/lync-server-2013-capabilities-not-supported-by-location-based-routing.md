@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 위치 기반 라우팅에서 지원하지 않는 기능'
+title: 'Lync Server 2013: 위치 기반 라우팅에서 지원 하지 않는 기능'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803982
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 967b5b7388ce60eafd46791c226bf1a3edbe0c2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 99e28778a8bd299d5ead25220f19b27927a63d44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743188"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Lync Server 2013의 위치 기반 라우팅에서 지원하지 않는 기능
+# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Lync Server 2013의 위치 기반 라우팅에서 지원 하지 않는 기능
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41743188"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2014-03-12_
+_**마지막으로 수정 된 항목:** 2014-03-12_
 
-위치 기반 라우팅은 다음 유형의 조작에는 적용 되지 않습니다. 이러한 기능을 사용 하 여 Lync 끝점이 PSTN 끝점과 상호 작용 하는 경우 위치 기반 라우팅이 적용 되지 않습니다.
+위치 기반 라우팅은 다음 유형의 상호 작용에는 적용 되지 않습니다. Lync 끝점이 이러한 기능을 사용 하 여 PSTN 끝점과 상호 작용 하는 경우에는 위치 기반 라우팅이 적용 되지 않습니다.
 
   - PSTN 전화 접속 회의
 
-  - 응답 그룹을 통해 들어오고 나가는 PSTN 통화
+  - 응답 그룹을 통한 들어오고 나가는 PSTN 통화
 
-  - 통화 공원를 통한 PSTN 통화 통화 대기 또는 검색
+  - 통화 대기를 통한 PSTN 통화 검색
 
   - 알림 서비스에 대 한 수신 PSTN 통화
 
-  - 그룹 통화 픽업을 통해 검색 된 수신 PSTN 통화
+  - 그룹 통화 픽업를 통해 검색 되는 들어오는 PSTN 통화
 
-위치 기반 라우팅 규칙을 다음 목록에 있는 조작 유형에 적용 하려면 회의에 위치 기반 라우팅을 사용 해야 합니다.
+위치 기반 라우팅 규칙을 다음 목록의 상호 작용 유형에 적용 하려면 회의에 위치 기반 라우팅을 사용 하도록 설정 해야 합니다.
 
-  - 회의에서 PSTN 다이얼 아웃
+  - PSTN 다이얼 아웃 전화 회의
 
-  - PSTN 끝점을 포함 하는 회의로 피어 투 피어 오디오 대화에서 에스컬레이션
+  - PSTN 끝점과 관련 된 회의에 대 한 피어 투 피어 오디오 대화에서의 에스컬레이션
 
-  - PSTN 끝점과 관련 된 Consultative 전송
+  - PSTN 끝점과 관련 된 문의 후 전송
 
-회의에 위치 기반 라우팅을 사용 하려면 [Lync Server 2013에서 회의에 대 한 위치 기반 라우팅을](lync-server-2013-location-based-routing-for-conferencing.md)참조 하세요.
+회의에 대해 위치 기반 라우팅을 사용 하도록 설정 하려면 [Lync Server 2013에서 회의에 대 한 위치 기반 라우팅을](lync-server-2013-location-based-routing-for-conferencing.md)참조 하십시오.
 
 <div>
 

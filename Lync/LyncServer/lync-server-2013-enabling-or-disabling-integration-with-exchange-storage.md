@@ -12,16 +12,16 @@ ms:contentKeyID: 48185295
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5c8a52aabb504ce63ef6e340b5a68e9e8c4c0e7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d11e8bff053e483080e4725f2357c3434d9f08f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735668"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41735668"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-09_
+_**마지막으로 수정 된 항목:** 2012-10-09_
 
-Lync Server 2013 제어판에서 보관 구성을 사용 하 여 Exchange 저장소와의 통합을 사용 하거나 사용 하지 않도록 설정 합니다. 여기에는 다음과 같은 보관 구성이 포함 됩니다.
+Lync Server 2013 제어판에서는 보관 구성을 사용 하 여 Exchange 저장소와의 통합을 사용 하도록 설정 하 고 사용 하지 않도록 설정 합니다. 여기에는 다음 보관 구성이 포함됩니다.
 
-  - Lync Server 2013을 배포할 때 기본적으로 만들어지는 전역 구성입니다.
+  - Lync Server 2013를 배포할 때 기본적으로 만들어지는 글로벌 구성입니다.
 
-  - 특정 사이트 또는 풀에 대해 보관을 구현 하는 방법을 지정 하기 위해 만들고 사용할 수 있는 선택적 사이트 수준 및 풀 수준 구성입니다.
+  - 보관이 특정 사이트 또는 풀에 구현되는 방식을 지정하는 데 사용하도록 만들 수 있는 사이트 수준 및 풀 수준 구성(선택 사항)
 
-사용자가 지정할 수 있는 옵션 및 보관 구성의 계층 구조를 비롯 하 여 보관 구성을 구현 하는 방법에 대 한 자세한 내용은 계획 문서, 배포 설명서 또는 운영 설명서의 [Lync Server 2013에서 보관을 작동 하는 방법을](lync-server-2013-how-archiving-works.md) 참조 하세요.
+지정할 수 있는 옵션 및 보관 구성의 계층 구조를 비롯 하 여 보관 구성이 구현 되는 방식에 대 한 자세한 내용은 계획 설명서, 배포 설명서 또는 작업 설명서의 [Lync Server 2013에서 보관이 작동 하는 방식을](lync-server-2013-how-archiving-works.md) 참조 하십시오.
 
 <div>
 
 ## <a name="to-enable-or-disable-integration-with-microsoft-exchange-storage"></a>Microsoft Exchange 저장소와의 통합을 사용 하거나 사용 하지 않도록 설정 하려면
 
-1.  CsArchivingAdministrator 또는 CsAdministrator 역할에 할당 된 사용자 계정에서 내부 배포의 컴퓨터에 로그온 합니다.
+1.  CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+2.  브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.
 
-3.  왼쪽 탐색 모음에서 **모니터링 및 보관**을 클릭 한 다음 **구성 보관**을 클릭 합니다.
+3.  왼쪽 탐색 모음에서 **모니터링 및 보관**을 클릭하고 **보관 구성**을 클릭합니다.
 
-4.  보관 구성 목록에서 적절 한 전역, 사이트 또는 풀 구성의 이름을 클릭 하 고 **편집**을 클릭 한 다음 **세부 정보 표시**를 클릭 하 고 다음을 수행 합니다.
+4.  보관 구성 목록에서 적합한 전역, 사이트 또는 풀 구성 이름을 클릭하고 **편집**, **자세한 정보 표시**를 차례로 클릭한 후 다음을 수행합니다.
     
       - Exchange 2013 저장소와의 통합을 사용 하도록 설정 하려면 **Microsoft Exchange 통합** 확인란을 선택 합니다.
     
@@ -70,7 +70,7 @@ Lync Server 2013 제어판에서 보관 구성을 사용 하 여 Exchange 저장
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013에서 보관 하는 방식](lync-server-2013-how-archiving-works.md)  
+[Lync Server 2013에서 보관이 작동 하는 방식](lync-server-2013-how-archiving-works.md)  
 
 
 [조직, 사이트 및 풀에 대 한 Lync Server 2013의 보관 구성 옵션 관리](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  

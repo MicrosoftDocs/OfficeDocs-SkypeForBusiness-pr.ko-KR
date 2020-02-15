@@ -12,16 +12,16 @@ ms:contentKeyID: 48184496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5a5c5dcefa5c4650c6bbfabf940840f22fc5df2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d9e5b67153d353c0b08ba33853c76d16cd8ba3f8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731798"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038750"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,88 +35,88 @@ ms.locfileid: "41731798"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-20_
+_**마지막으로 수정 된 항목:** 2012-06-20_
 
-고정 경로를 사용 하는 경우 관리자는 SIP 메시지가 취한 네트워크 경로를 predetermine 수 있습니다. 서버에서 메시지를 수신 하면 서버는 메시지 주소를 확인 한 다음 관리자가 미리 구성한 다음 홉 서버로 메시지를 전달 합니다. 적절 하 게 구성 하는 경우 고정 경로를 사용 하 여 정확 하 고 정확한 메시지를 전달 하 고 서버에 최소 overheard을 배치할 수 있습니다.
+관리자는 고정 경로를 사용하여 SIP 메시지에 사용할 네트워크 경로를 미리 결정할 수 있습니다. 메시지가 서버에 수신되면 서버는 메시지 주소를 확인한 다음 관리자가 미리 구성한 다음 홉 서버로 메시지를 전달합니다. 고정 경로를 제대로 구성한 경우에는 제시간에 정확하게 메시지를 전달하고 서버에 대한 오버헤드를 최소화할 수 있습니다.
 
 <div>
 
-## <a name="static-routing-cmdlets"></a>정적 라우팅 Cmdlet
+## <a name="static-routing-cmdlets"></a>고정 라우팅 Cmdlet
 
-Microsoft 지원 담당자가 달리 지침을 지정 하지 않는 한, Microsoft Lync Server 2013에 대해 구성 된 고정 경로를 [새 CsStaticRoute](https://technet.microsoft.com/en-us/library/Gg398265(v=OCS.15)) cmdlet을 사용 하 여 만들어야 합니다. 경로가 만들어졌으면 CsStaticRoutingConfiguration cmdlet을 사용 하 여 해당 경로를 정적 라우팅 컬렉션에 추가할 수 있습니다.
+Microsoft 지원 담당자가 달리 지시한 경우가 아니면 Microsoft Lync Server 2013에 대해 구성 된 고정 경로를 [새 CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15)) cmdlet을 사용 하 여 만들어야 합니다. 경로를 만든 후 CsStaticRoutingConfiguration cmdlet를 사용하여 해당 경로를 고정 경로 컬렉션에 추가할 수 있습니다.
 
-**고정 라우팅**
-
-  - <span></span>  
-    [Get-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg398130(v=OCS.15))
+**고정 경로**
 
   - <span></span>  
-    [New-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg413041(v=OCS.15))
+    [Get-cssipresponsecodetranslationrule](https://technet.microsoft.com/library/Gg398130(v=OCS.15))
 
   - <span></span>  
-    [제거-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg412932(v=OCS.15))
+    [Get-cssipresponsecodetranslationrule](https://technet.microsoft.com/library/Gg413041(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg425895(v=OCS.15))
+    [Get-cssipresponsecodetranslationrule을 제거 합니다.](https://technet.microsoft.com/library/Gg412932(v=OCS.15))
+
+  - <span></span>  
+    [Get-cssipresponsecodetranslationrule](https://technet.microsoft.com/library/Gg425895(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새-CsStaticRoute](https://technet.microsoft.com/en-us/library/Gg398265(v=OCS.15))
+    [새-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398754(v=OCS.15))
+    [Get-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398754(v=OCS.15))
 
   - <span></span>  
-    [새-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425811(v=OCS.15))
+    [새-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg425811(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398668(v=OCS.15))
+    [제거-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398668(v=OCS.15))
 
   - <span></span>  
-    [Set-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398724(v=OCS.15))
+    [설정-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398724(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyCustom](https://technet.microsoft.com/en-us/library/Gg425904(v=OCS.15))
+    [New-cssipproxycustom](https://technet.microsoft.com/library/Gg425904(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새로운 CsSipProxyRealm](https://technet.microsoft.com/en-us/library/Gg413084(v=OCS.15))
+    [New-cssipproxyrealm](https://technet.microsoft.com/library/Gg413084(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새로운 CsSipProxyTCP](https://technet.microsoft.com/en-us/library/Gg425745(v=OCS.15))
+    [New-cssipproxytcp](https://technet.microsoft.com/library/Gg425745(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새로운 CsSipProxyTLS](https://technet.microsoft.com/en-us/library/Gg398629(v=OCS.15))
+    [New-cssipproxytls](https://technet.microsoft.com/library/Gg398629(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyTransport](https://technet.microsoft.com/en-us/library/Gg398489(v=OCS.15))
+    [New-cssipproxytransport](https://technet.microsoft.com/library/Gg398489(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새로운 CsSipProxyUseDefault](https://technet.microsoft.com/en-us/library/Gg398274(v=OCS.15))
+    [New-cssipproxyusedefault](https://technet.microsoft.com/library/Gg398274(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새로운 CsSipProxyUseDefaultCert](https://technet.microsoft.com/en-us/library/Gg425858(v=OCS.15))
+    [New-cssipproxyusedefaultcert](https://technet.microsoft.com/library/Gg425858(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새로운 CsIssuedCertId](https://technet.microsoft.com/en-us/library/Gg425814(v=OCS.15))
+    [New-csissuedcertid](https://technet.microsoft.com/library/Gg425814(v=OCS.15))
 
 </div>
 

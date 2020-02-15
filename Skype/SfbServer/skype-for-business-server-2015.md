@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
-description: '요약: 비즈니스용 Skype Server 2015을 구현 하는 방법을 알아보려면이 링크를 탐색 하세요.'
-ms.openlocfilehash: 7a5753e481e1014ea8ff95aafc5e3a1f632bafa1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '요약: 이러한 링크를 탐색 하 여 비즈니스용 Skype 서버 2015을 구현 하는 방법을 알아봅니다.'
+ms.openlocfilehash: 05d9da9fb1edb9b9063b9d2649b34a45003dee7e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824102"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045370"
 ---
 # <a name="skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015
 
-비즈니스용 skype는 엔터프라이즈 수준의 보안, 규정 준수 및 제어를 통해 Skype에서 제공 하는 클라이언트 환경을 함께 제공 하는 통신 및 공동 작업 플랫폼입니다. 비즈니스용 Skype는 현재 상태, 메신저 대화, 음성 및 영상 통화, 온라인 모임 등의 기능을 제공 합니다. 
+비즈니스용 skype는 비즈니스용 Skype의 보안, 준수 및 제어를 통해 고객에 게 제공 되는 클라이언트 환경을 함께 제공 하는 커뮤니케이션 및 공동 작업 플랫폼입니다. 비즈니스용 Skype는 현재 상태, 메신저 대화, 음성 및 화상 통화, 온라인 모임을 비롯 한 기능을 제공 합니다.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -118,7 +118,7 @@ ms.locfileid: "41824102"
         </a>
     </li>
     <li>
-        <a href="https://www.microsoft.com/en-us/evalcenter/evaluate-skype-for-business-server">
+        <a href="https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -128,7 +128,7 @@ ms.locfileid: "41824102"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>비즈니스용 Skype 평가판 센터에서 다운로드</h3>
+                        <h3>비즈니스용 Skype 평가 센터에서 다운로드</h3>
                     </div>
                 </div>
             </div>
@@ -146,8 +146,8 @@ ms.locfileid: "41824102"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>시작 하기 전에</h3>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">환경의 요구 사항</a></p>
+                        <h3>시작하기 전에</h3>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">환경 요구 사항</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">네트워크 요구 사항</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">클라이언트 및 장치</a></p>
                     </div>
@@ -187,7 +187,7 @@ ms.locfileid: "41824102"
                 <div class="card">
                     <div class="cardText">
                         <h3>Skype 모임 브로드캐스트</h3>
-                        <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">이게 뭐예요?</a></p>
+                        <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">OME(Office 365 메시지 암호화)란 무엇입니까?</a></p>
                         <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Skype 모임 브로드캐스트에 대 한 온-프레미스 배포 구성</a>
                     </div>
                 </div>
@@ -204,7 +204,7 @@ ms.locfileid: "41824102"
                                        </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </li>
     <li>
         <div class="cardSize">
@@ -213,7 +213,7 @@ ms.locfileid: "41824102"
                     <div class="cardText">
                         <h3>기타 리소스</h3>
                         <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">비즈니스용 Skype 준비 시리즈</a></p>
-                        <p><a href="/SkypeForBusiness/skype-for-business-server-2019">비즈니스용 Skype 서버 2019 문서</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-server-2019">비즈니스용 Skype 서버 2019 설명서</a></p>
                         <p><a href="/lyncserver/microsoft-lync-server-2013">Lync Server 2013 설명서</a></p>
                     </div>
                 </div>
@@ -221,4 +221,3 @@ ms.locfileid: "41824102"
         </div>
     </li>
 </ul>
-

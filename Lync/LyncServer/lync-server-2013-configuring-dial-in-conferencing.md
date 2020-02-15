@@ -12,16 +12,16 @@ ms:contentKeyID: 48184587
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d722abaf76ef915b7587039cb7732cb281a06308
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ef825aa799cdcdec66903e002791f30d9b4cac00
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758142"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046421"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,49 +35,49 @@ ms.locfileid: "41758142"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2014-10-03_
+_**마지막으로 수정 된 항목:** 2014-10-03_
 
-이 섹션에서는 Lync Server 2013 전화 접속 회의를 구성 하는 방법을 안내 합니다.
+이 섹션에서는 Lync Server 2013 전화 접속 회의를 구성 하는 과정을 안내 합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013의 전화 접속 회의 구성 필수 구성 요소 및 권한](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
+  - [Lync Server 2013의 전화 접속 회의 구성 필수 구성 요소 및 사용 권한](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
 
-  - [Lync Server 2013 의 전화 접속 회의 배포 검사 목록](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
+  - [Lync Server 2013의 전화 접속 회의에 대 한 배포 검사 목록](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
 
-  - [Lync Server 2013에서 전화 접속 회의에 대한 다이얼 플랜 구성](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
+  - [Lync Server 2013에서 전화 접속 회의에 대 한 다이얼 플랜 구성](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
 
-  - [다이얼 플랜 설정 Lync 서버 2013에 지역이 지정 되어 있어야 합니다.](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
+  - [다이얼 플랜 Lync Server 2013에 지역이 할당 되었는지 확인](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
 
-  - [(선택 사항) Lync Server 2013에서 PIN 정책 설정 확인](lync-server-2013-optional-verify-pin-policy-settings.md)
+  - [반드시 Lync Server 2013에서 PIN 정책 설정 확인](lync-server-2013-optional-verify-pin-policy-settings.md)
 
-  - [Lync Server 2013에서 전화 접속에 대한 회의 정책 구성](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
+  - [Lync Server 2013에서 전화 접속에 대 한 회의 정책 구성](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
 
   - [Lync Server 2013에서 전화 접속 회의 액세스 번호 구성](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
 
-  - [(선택 사항) Lync Server 2013에서 전화 접속 회의 설정 확인](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
+  - [반드시 Lync Server 2013에서 전화 접속 회의 설정 확인](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
 
-  - [(선택 사항) Lync Server 2013에서 DTMF 명령에 대한 키 매핑 수정](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
+  - [반드시 Lync Server 2013의 DTMF 명령에 대 한 키 매핑 수정](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
 
-  - [(선택 사항) Lync Server 2013에서 회의 참가/나가기 알림 활성화/비활성화](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
+  - [반드시 Lync Server 2013에서 전화 회의 참가 및 탈퇴 알림 사용 및 사용 안 함](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
 
-  - [(선택 사항) Lync Server 2013에서 전화 접속 회의 확인](lync-server-2013-optional-verify-dial-in-conferencing.md)
+  - [반드시 Lync Server 2013에서 전화 접속 회의 확인](lync-server-2013-optional-verify-dial-in-conferencing.md)
 
-  - [Lync 2013용 온라인 모임 추가 기능 배포](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
+  - [Lync 2013 용 온라인 모임 추가 기능 배포](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
 
   - [Lync Server 2013에서 사용자 계정 설정 구성](lync-server-2013-configure-user-account-settings.md)
 
-  - [(권장) 전화 회의 디렉터리 만들기](recommended-create-conference-directories.md)
+  - [는 전화 회의 디렉터리 만들기](recommended-create-conference-directories.md)
 
-  - [(선택 사항) Lync Server 2013에서 사용자에게 전화 접속 회의 시작 메시지 보내기](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
+  - [반드시 Lync Server 2013에서 사용자에 게 전화 접속 회의 시작](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>관련 단원
+## <a name="related-sections"></a>관련 섹션
 
 [Lync Server 2013 배포](lync-server-2013-deploying-lync-server.md)
 

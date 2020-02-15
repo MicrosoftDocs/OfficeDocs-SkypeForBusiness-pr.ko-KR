@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: SessionCorrelation 테이블'
+title: 'Lync Server 2013: SessionCorrelation 관계 테이블'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183267
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fe8deda7486d699073bf271953e382ac7b7c508
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9551cf5824d5f13f6167f2aaeb301ab619f6209b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764806"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sessioncorrelation-table-in-lync-server-2013"></a>Lync Server 2013의 SessionCorrelation 테이블
+# <a name="sessioncorrelation-table-in-lync-server-2013"></a>Lync Server 2013의 SessionCorrelation 관계 테이블
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764806"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-SessionCorrelation 관계 테이블은 지원 테이블입니다. 각 레코드는 여러 세션을 연결 하는 데 사용 되는 CorrelationID 하나를 나타냅니다.
+SessionCorrelation 관계 테이블은 지원 테이블입니다. 각 레코드는 여러 세션을 상호 연결 하는 데 사용 되는 하나의 CorrelationID를 나타냅니다.
 
 
 <table>
@@ -52,12 +52,12 @@ SessionCorrelation 관계 테이블은 지원 테이블입니다. 각 레코드�
 <th><strong>열</strong></th>
 <th><strong>데이터 형식</strong></th>
 <th><strong>키/인덱스</strong></th>
-<th><strong>세부적인</strong></th>
+<th><strong>세부 정보</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>검사</strong></p></td>
+<td><p><strong>제외</strong></p></td>
 <td><p>int</p></td>
 <td></td>
 <td></td>
@@ -65,20 +65,20 @@ SessionCorrelation 관계 테이블은 지원 테이블입니다. 각 레코드�
 <tr class="even">
 <td><p><strong>CorrelationKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
+<td><p>Primary</p></td>
 <td><p>이 A/V 회의 서버를 식별 하는 고유 번호입니다.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Legredir</strong></p></td>
+<td><p><strong>관계</strong></p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>독특한</p></td>
-<td><p>상호 관련 된 세션은 동일한 상관 관계 ID를 갖습니다.</p></td>
+<td><p>고유한</p></td>
+<td><p>상호 연관 된 세션은 상관 ID가 동일 합니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>dmtf</p></td>
+<td><p>datetime</p></td>
 <td><p> </p></td>
-<td><p>내부용 으로만 사용 됩니다.</p></td>
+<td><p>내부 용도로만 사용됩니다.</p></td>
 </tr>
 </tbody>
 </table>

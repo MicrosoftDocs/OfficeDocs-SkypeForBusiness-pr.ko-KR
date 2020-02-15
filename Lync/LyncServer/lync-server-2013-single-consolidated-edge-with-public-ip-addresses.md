@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 공용 IP 주소의 단일 통합 에지'
+title: 'Lync Server 2013: 공용 IP 주소를 포함 하는 단일 통합에 지'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185035
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8189d360a43887e2992b8b8abf063ef96230e06e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1867abe0cc16190650d2be303a55ecf0dd6a5efd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764504"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037488"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>Lync Server 2013의 공용 IP 주소의 단일 통합 에지
+# <a name="single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>Lync Server 2013의 공용 IP 주소를 포함 하는 단일 통합에 지
 
 </div>
 
@@ -35,58 +35,58 @@ ms.locfileid: "41764504"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-08_
+_**마지막으로 수정 된 항목:** 2012-09-08_
 
-조직의 15000 액세스에 대 한 Edge 서비스 클라이언트 연결에 대 한 지원이 필요 하 고, 1000 활성 Lync Server 웹 회의 서비스 클라이언트 연결 및 500 동시 A/V Edge 세션을 사용 하 고, Edge 서버의 가용성이 중요 하지 않은 경우,이 토폴로지에서는 낮은 하드웨어 비용 및 간단한 배포의 이점을 제공 합니다. 용량이 더 많이 필요 하거나 고가용성이 필요한 경우에는 배율 조정 된 통합에 지 서버 토폴로지를 배포 해야 합니다.
-
-  - <span></span>  
-    [Lync Server 2013의 조정된 통합 에지, NAT 사용 개인 IP 주소의 DNS 부하 분산](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+조직에서 15000 개 미만 액세스에 지 서비스 클라이언트 연결, 1000 액티브 Lync Server 웹 회의 서비스 클라이언트 연결 및 500 동시 A/V에 지 세션을 지원 해야 하 고에 지 서버의 고가용성이 중요 하지 않은 경우이 토폴로지는 하드웨어 비용 및 배포를 간소화 하는 이점을 제공 합니다. 더 큰 용량을 필요로 하거나 고가용성을 필요로 하는 경우에는 확장 통합 에지 서버 토폴로지를 배포해야 합니다.
 
   - <span></span>  
-    [Lync Server 2013의 조정된 통합 에지, 공용 IP 주소의 DNS 부하 분산](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+    [Lync Server 2013의 확장 된 통합에 지, NAT 사용 개인 IP 주소의 DNS 부하 분산](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
   - <span></span>  
-    [Lync Server 2013의 하드웨어 부하 분산 장치를 사용하는 조정된 통합 에지](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+    [Lync Server 2013의 확장 된 통합에 지, 공용 IP 주소의 DNS 부하 분산](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+
+  - <span></span>  
+    [Lync Server 2013의 하드웨어 부하 분산 장치로 확장 된 통합에 지](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 <div>
 
 
 > [!IMPORTANT]  
-> Edge 서버에서 공용 IP 주소를 사용 하는 경우에는 Edge 서버의 기본 게이트웨이가 더 이상 방화벽 또는 라우터가 아니지만 공용 경계에 있는 라우터 또는 방화벽으로 공용 주소가 됩니다. 역방향 프록시는 가장 바깥쪽 경계 네트워크와 연결 된 라우터 또는 방화벽을 계속 사용 합니다. 역방향 프록시와 공용 IP 주소에 대 한 Edge 서버의 차이점은 역방향 프록시는 여전히 NAT를 사용 하 고 있고 Edge 서버는 경로 관계를 사용 한다는 것입니다.
+> 에 지 서버에서 공용 IP 주소를 사용 하는 경우에 지 서버의 기본 게이트웨이는 더 이상 방화벽이 나 라우터는 아니지만 공용 경계에 지의 라우터나 방화벽은 공용 주소가 됩니다. 역방향 프록시는 가장 바깥 경계 네트워크와 연결된 라우터 또는 방화벽을 계속 사용합니다. 역방향 프록시와 공용 IP 주소에 대 한에 지 서버가 서로 다른 점은 역방향 프록시가 여전히 NAT를 사용 하며에 지 서버에서 경로 관계를 사용 한다는 점입니다.
 
 
 
 </div>
 
-이 그림에는 Edge 서버와 프런트 엔드 풀 또는 서버 간의 내부 네트워크에 배포 된 선택적 서버 역할인 디렉터가 표시 되지 않습니다. 디렉터 토폴로지에 대 한 자세한 내용은 [Lync Server 2013의 디렉터에 필요한 구성 요소](lync-server-2013-components-required-for-the-director.md)를 참조 하세요. 그림은 단일 역 프록시를 나타냅니다.
+이 그림에는에 지 서버와 프런트 엔드 풀 또는 서버 간에 내부 네트워크에 배포 된 선택적 서버 역할인 디렉터는 표시 되지 않습니다. 디렉터 토폴로지에 대 한 자세한 내용은 [Lync Server 2013의 디렉터에 필요한 구성 요소](lync-server-2013-components-required-for-the-director.md)를 참조 하세요. 그림은 단일 역방향 프록시를 나타냅니다.
 
 <div>
 
 
 > [!NOTE]  
-> 표시 되는 그림은 IP 주소 지정 방향과 예에 대 한 것 이지만 올바른 들어오고 나가는 트래픽에 대 한 실제 통신 흐름을 나타내지는 않습니다. 이 그림은 가능 소통량에 대 한 높은 수준의 보기를 나타냅니다. 수신 (수신 대기 포트)에 관련 된 트래픽 흐름에 대 한 세부 정보 및 보내는 (대상 서버 또는 클라이언트에 게)는 각 시나리오의 포트 요약 다이어그램에 표시 됩니다. 예를 들어 TCP 443는 실제로 경계 (Edge 또는 리버스 프록시)에만 사용할 수 있으며, 프로토콜 (TCP) 관점에서 양방향 으로만 전달 됩니다. 또한이 그림에는 NAT (네트워크 주소 변환)가 발생할 때 변경 되는 트래픽 특성 (대상 주소는 인바운드에서 변경 되 고 원본 주소는 아웃 바운드로 변경 됨)이 표시 됩니다. 외부 및 내부 방화벽 예제와 서버 인터페이스가 참조용 으로만 표시 됩니다. 마지막으로, 해당 하는 경우 기본 게이트웨이 및 경로 관계 예를 표시 합니다. 또한 다이어그램은 <EM>.Com</EM> dns 영역을 사용 하 여 역방향 프록시와 경계 서버 모두에 대해 외부 dns 영역을 표시 하 고, <EM>.net</EM> dns 영역은 내부 DNS 영역을 참조 한다는 점에 유의 하세요.
+> 그림에는 방향과 IP 주소 예가 표시되어 있지만 올바른 수신/발신 트래픽의 실제 통신 흐름을 나타낼 목적으로 제작되지는 않았습니다. 이 그림은 발생 가능한 트래픽을 대략적으로 보여줍니다. 수신 포트로의 수신 및 대상 서버/클라이언트로의 발신과 관련된 트래픽 흐름에 대한 세부 정보는 각 시나리오의 포트 요약 다이어그램에 나타납니다. 예를 들어 실제로 TCP 443은 에지 또는 역방향 프록시로의 인바운드만 수행하지만 TCP 프로토콜 관점에서는 양방향 흐름입니다. 또한 그림은 NAT(Network Address Translation)가 발생하는 경우, 즉 대상 주소가 인바운드에서 변경되거나 원본 주소가 아웃바운드에서 변경된 경우 변경되는 트래픽의 특성도 보여줍니다. 외부 및 내부 방화벽 예와 서버 인터페이스는 참조 목적으로만 표시되어 있습니다. 마지막으로 적용 가능한 경우 기본 게이트웨이 및 경로 관계 예가 표시되었습니다. 또한 다이어그램은 <EM>.Com</EM> dns 영역을 사용 하 여 역방향 프록시와에 지 서버 둘 다에 대해 외부 dns 영역을 나타내지만, <EM>.net</EM> dns 영역은 내부 dns 영역을 참조 한다는 점에 유의 하십시오.
 
 
 
 </div>
 
-Microsoft Lync Server 2013에 대 한 새로운 기능은 IPv6 주소 지정을 지원 합니다. IPv4 주소 지정과 매우 유사 하 게 IPv6 주소는 지정 된 IPv6 주소 공간의 일부인 방식으로 할당 되어야 합니다. 이 항목의 주소는 예를 보여 줍니다. 배포에서 작동 하는 IPv6 주소를 확보 하 고 올바른 범위를 제공 하 고 내부 및 외부 주소 지정과 상호 운용 되도록 해야 합니다. Windows Server는 IPv6 작업을 전환 하는 데 중요 한 기능과 *이중 스택*이라는 ipv6 통신에 IPv4를 제공 합니다. 이중 스택은 IPv4 및 IPv6에 대 한 별도의 개별 네트워크 스택입니다. 이중 스택은 IPv4 및 IPv6에 대 한 주소 지정을 동시에 할당할 수 있도록 허용 하 고 서버가 요구 사항에 따라 다른 호스트 및 클라이언트와 통신할 수 있도록 합니다.
+Microsoft Lync Server 2013의 새로운 기능에서는 IPv6 주소 지정을 지원 합니다. IPv4 주소와 거의 마찬가지로 IPv6 주소를 할당할 때 할당된 IPv6 주소 공간에 포함되어야 합니다. 이 문서에 사용된 주소는 오직 예입니다. 배포 환경에서 작동하고 올바른 범위를 제공하며 내/외부 주소와 통합되는 IPv6 주소를 보유해야 합니다. Windows Server에서는 IPv6 작업을 전환 하는 중요 한 기능과 *이중 스택*이라고 하는 ipv6 통신에 대 한 IPv4를 제공 합니다. 이중 스택은 IPv4 및 IPv6 각각에 대한 별도의 네트워크 스택입니다. 이중 스택을 사용하면 IPv4 및 IPv6의 주소를 동시에 할당할 수 있을 뿐 아니라 서버가 각 요구 사항에 기반하여 다른 호스트 및 클라이언트와 통신할 수 있습니다.
 
-Ipv6 주소 지정에 사용 하는 일반적인 주소 유형은 IPv6 전역 주소 (공용 IPv4 주소와 유사), IPv6 고유 로컬 주소 (개인 IPv4 주소 범위와 유사) 및 IPv6 링크 로컬 주소 (자동 개인 IP와 유사)가 됩니다. IPv4 용 Windows Server의 주소)
+IPv6 주소 지정에 사용할 일반적인 주소 유형은 IPv6 글로벌 주소 (공용 IPv4 주소와 유사함), ipv6 고유 로컬 주소 (개인 IPv4 주소 범위와 비슷함) 및 IPv6 링크 로컬 주소 (자동 개인 IP와 유사)가 됩니다. IPv4 용 Windows Server의 주소)
 
-IPv6에 대 한 nat (Network address translation) (네트워크 주소 변환 기술)는 NAT IPv6에서 IPv4 (일반적으로 NAT64로 지칭 됨)로, 그리고 IPv6에 대 한 NAT IPv6의 경우 (일반적으로 NAT66 이라고 함)에 사용 됩니다. NAT 기술이 있으면 Lync Server Edge 서버에 대해 제공 되는 5 가지 시나리오가 여전히 유효 하다는 것을 의미 합니다.
+NAT IPv6에서 IPv4로의 변환(주로 NAT64라고 함) 및 NAT IPv6에서 IPv6로의 변환(주로 NAT66라고 함)을 허용하는 IPv6의 NAT(네트워크 주소 변환) 기술이 존재합니다. NAT 기술이 있다는 것은 Lync Server에 지 서버에 대해 제공 되는 5 가지 시나리오가 여전히 유효한 것임을 의미 합니다.
 
 <div>
 
 
 > [!WARNING]  
-> IPv6은 복잡 한 항목이 며, 네트워크 팀과 인터넷 공급자를 사용 하 여 Windows server 수준 및 Lync Server 2013 수준에서 할당 하는 주소가 예상 대로 작동 하는지 확인 하는 데 세심 한 계획이 필요 합니다. IPv6 주소 지정 및 계획에 대 한 추가 리소스는이 항목의 끝부분에 있는 링크를 참조 하세요.
+> IPv6은 복잡 한 주제 이며, Windows server 수준 및 Lync Server 2013 수준에서 할당 하는 주소가 예상 대로 작동 하는지 확인 하기 위해 네트워킹 팀 및 인터넷 공급자와의 신중한 계획이 필요 합니다. IPv6 주소 지정 및 계획에 대한 추가 리소스는 이 항목의 끝에 있는 링크를 참조하십시오.
 
 
 
 </div>
 
-**공용 IP 주소 토폴로지가 있는 단일 통합 된 Edge**
+**공용 IP 주소를 사용하는 단일 통합 에지 토폴로지**
 
 ![2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d](images/JJ205148.2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d(OCS.15).jpg "2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d")
 
@@ -94,7 +94,7 @@ IPv6에 대 한 nat (Network address translation) (네트워크 주소 변환 �
 
 
 > [!IMPORTANT]  
-> CAC (Call 허용 제어)를 사용 하는 경우에도 Edge Server 내부 인터페이스에 IPv4 주소를 할당 해야 합니다. CAC는 IPv4 주소를 사용 하며 작동 하는 데 사용할 수 있어야 합니다.
+> CAC (통화 허용 제어)를 사용 하는 경우에도에 지 서버 내부 인터페이스에 IPv4 주소를 할당 해야 합니다. CAC는 IPv4 주소를 사용하며, 작동을 위해 이를 사용할 수 있어야 합니다.
 
 
 
@@ -104,11 +104,11 @@ IPv6에 대 한 nat (Network address translation) (네트워크 주소 변환 �
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013의 인증서 요약 - 공용 IP 주소의 단일 통합 에지](lync-server-2013-certificate-summary-single-consolidated-edge-with-public-ip-addresses.md)
+  - [인증서 요약-Lync Server 2013의 공용 IP 주소를 포함 하는 단일 통합에 지](lync-server-2013-certificate-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [Lync Server 2013의 포트 요약 - 공용 IP 주소의 단일 통합 에지](lync-server-2013-port-summary-single-consolidated-edge-with-public-ip-addresses.md)
+  - [포트 요약-Lync Server 2013의 공용 IP 주소를 포함 하는 단일 통합에 지](lync-server-2013-port-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [Lync Server 2013의 DNS 요약 - 공용 IP 주소의 단일 통합 에지](lync-server-2013-dns-summary-single-consolidated-edge-with-public-ip-addresses.md)
+  - [Lync Server 2013의 DNS 요약-공용 IP 주소를 포함 하는 단일 통합에 지](lync-server-2013-dns-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
 </div>
 

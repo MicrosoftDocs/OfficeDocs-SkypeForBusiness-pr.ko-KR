@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server 2013에서 스키마 변경'
+title: 'Lync Server 2013: Lync Server 2013의 스키마 변경 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54a3fd5f18785a649803cc6f9a0a56d7b98a2ee6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 789a6a67b1794eee5f01e8672f9aeb1076646ecf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732598"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049410"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="schema-changes-in-lync-server-2013"></a>Lync Server 2013의 스키마 변경 사항
+# <a name="schema-changes-in-lync-server-2013"></a>Lync Server 2013의 스키마 변경 내용
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41732598"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-18_
+_**마지막으로 수정 된 항목:** 2012-10-18_
 
-Lync Server 2013를 배포 하 고 작동 하기 전에 스키마를 확장 하 여 Active Directory 도메인 서비스를 준비 해야 합니다. 스키마 확장에서는 Lync Server 2013에서 요구 하는 클래스 및 특성을 추가 합니다.
+Lync Server 2013를 배포 하 고 작동 하기 전에 스키마를 확장 하 여 Active Directory 도메인 서비스를 준비 해야 합니다. 스키마 확장은 Lync Server 2013에 필요한 클래스 및 특성을 추가 합니다.
 
-Lync Server 2013에는 몇 가지 새로운 클래스 및 특성이 필요 하며 일부 기존 클래스 및 특성을 수정 합니다. 또한 Lync Server 2013에 대 한 많은 구성 정보는 이전 버전 에서처럼 AD DS 대신 중앙 관리 저장소에 저장 됩니다. 다음 정보는 여전히 Lync Server 2013의 AD DS에 저장 되어 있습니다.
+Lync Server 2013에는 몇 가지 새 클래스와 특성이 필요 하며 일부 기존 클래스 및 특성을 수정 해야 합니다. 또한 Lync Server 2013에 대 한 많은 구성 정보는 이전 버전과 같이 AD DS가 아닌 중앙 관리 저장소에 저장 됩니다. 다음 정보는 여전히 Lync Server 2013의 AD DS에 저장 됩니다.
 
   - **스키마 확장**:
     
       - 사용자 개체 확장
     
-      - 지원 되는 이전 버전과의 호환성을 유지 하기 위해 Office Communications Server 2007 및 Office Communications Server 2007 R2 클래스의 확장
+      - 지원 되는 이전 버전과의 이전 버전과의 호환성을 유지 하기 위해 Office Communications Server 2007 및 Office Communications Server 2007 R2 클래스에 대 한 확장
 
 <!-- end list -->
 
-  - **데이터** (Lync Server 확장 스키마 및 기존 스키마 클래스에 저장 됨):
+  - **데이터** (Lync Server 확장 스키마 및 기존 스키마 클래스에 저장):
     
-      - 사용자 SIP URI (Uniform Resource Identifier) 및 기타 사용자 설정
+      - 사용자 SIP URI(Uniform Resource Identifier) 및 기타 사용자 설정
     
-      - 응답 그룹 및 회의 수행자와 같은 응용 프로그램에 대 한 연락처 개체
+      - 응답 그룹 및 회의 길잡이 등과 같은 응용 프로그램에 대한 대화 상대 개체
     
-      - 중앙 관리 저장소에 대 한 포인터
+      - 중앙 관리 저장소에 대한 포인터
     
-      - Kerberos 인증 계정 (선택적 컴퓨터 개체)
+      - Kerberos 인증 계정(선택적 컴퓨터 개체)
 
-이 항목에서는 Lync Server 2013에 필요한 Active Directory 스키마 변경 사항에 대해 설명 합니다. 이전 버전의 Office Communications Server에서 도입 된 스키마 변경은 설명 하지 않습니다. 수업 목록과 해당 설명은 [Lync Server 2013의 스키마 클래스 및 설명을](lync-server-2013-schema-classes-and-descriptions.md)참조 하세요. 특성 및 설명 목록은 [Lync Server 2013의 스키마 특성 및 설명을](lync-server-2013-schema-attributes-and-descriptions.md)참조 하세요. 포함 될 수 있는 특성을 가진 클래스 목록은 [Lync Server 2013에서 클래스별 스키마 특성](lync-server-2013-schema-attributes-by-class.md)을 참조 하세요.
+이 항목에서는 Lync Server 2013에서 요구 하는 Active Directory 스키마 변경 사항에 대해 설명 합니다. 이전 버전의 Office Communications Server에서 도입 되었던 스키마 변경 내용은 설명 하지 않습니다. 클래스 목록과 해당 설명에 대 한 자세한 내용은 [Lync Server 2013의 스키마 클래스 및 설명을](lync-server-2013-schema-classes-and-descriptions.md)참조 하십시오. 특성 목록과 해당 설명에 대 한 자세한 내용은 [Lync Server 2013의 스키마 특성 및 설명을](lync-server-2013-schema-attributes-and-descriptions.md)참조 하십시오. 여기에 포함 될 수 있는 특성을 가진 클래스 목록은 [Lync Server 2013에서 클래스별 스키마 특성](lync-server-2013-schema-attributes-by-class.md)을 참조 하십시오.
 
-MsRTCSIP 접두사는 Lync Server와 관련 된 클래스 및 특성을 식별 합니다.
+Msrtcsip-gateways 접두사는 Lync Server와 관련 된 클래스 및 특성을 식별 합니다.
 
 <div>
 
 ## <a name="new-active-directory-attributes"></a>새 Active Directory 특성
 
-다음 표에서는 Lync Server 2013에서 추가 된 Active Directory 특성에 대해 설명 합니다.
+다음 표에서는 Lync Server 2013에서 추가 하는 Active Directory 특성에 대해 설명 합니다.
 
-### <a name="attributes-added-by-lync-server-2013"></a>Lync Server 2013에서 추가한 특성
+### <a name="attributes-added-by-lync-server-2013"></a>Lync Server 2013에서 추가 된 특성
 
 <table>
 <colgroup>
@@ -85,15 +85,15 @@ MsRTCSIP 접두사는 Lync Server와 관련 된 클래스 및 특성을 식별 �
 <tbody>
 <tr class="odd">
 <td><p>msExchUserHoldPolicies</p></td>
-<td><p>이 다중 값 특성에는 사용자에 게 적용 되는 보류 정책에 대 한 식별자가 저장 됩니다. 보존 정책은 보류 기간 동안 사용자의 사서함 항목을 보존 합니다. 이 특성은 Exchange 2013와 공유 됩니다.</p></td>
+<td><p>이 다중값 특성은 사용자에 적용되는 유지 정책의 ID를 보유합니다. 유지 정책은 유지 기간 동안 사용자의 사서함 항목을 보존합니다. 이 특성은 Exchange 2013와 공유 됩니다.</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-UserRoutingGroupId</p></td>
-<td><p>SIP 라우팅 그룹 ID입니다. 같은 그룹의 사용자가 동일한 프런트 엔드 서버에 등록 됩니다.</p></td>
+<td><p>Msrtcsip-gateways-UserRoutingGroupId</p></td>
+<td><p>이는 SIP 라우팅 그룹 ID입니다. 동일한 그룹의 사용자는 동일한 프런트 엔드 서버에 등록됩니다.</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MirrorBackEndServer</p></td>
-<td><p>이 특성은 프런트 엔드 풀에 사용 되는 미러된 SQL Server 백 엔드를 저장 하는 데 사용 됩니다.</p></td>
+<td><p>Msrtcsip-gateways-MirrorBackEndServer</p></td>
+<td><p>이 특성은 프런트 엔드 풀에서 사용 하는 미러링된 SQL Server 백 엔드를 저장 하는 데 사용 됩니다.</p></td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ MsRTCSIP 접두사는 Lync Server와 관련 된 클래스 및 특성을 식별 �
 
 <div>
 
-## <a name="modified-active-directory-classes"></a>수정 된 Active Directory 클래스
+## <a name="modified-active-directory-classes"></a>수정된 Active Directory 클래스
 
 다음 표에서는 Lync Server 2013에서 수정 된 Active Directory 클래스에 대해 설명 합니다.
 
-### <a name="classes-modified-by-lync-server-2013"></a>Lync Server 2013에서 수정한 클래스
+### <a name="classes-modified-by-lync-server-2013"></a>Lync Server 2013에서 수정 된 클래스
 
 <table>
 <colgroup>
@@ -117,8 +117,8 @@ MsRTCSIP 접두사는 Lync Server와 관련 된 클래스 및 특성을 식별 �
 </colgroup>
 <thead>
 <tr class="header">
-<th>클래스만</th>
-<th>바뀌지</th>
+<th>클래스</th>
+<th>변경 사항</th>
 <th>클래스 또는 특성</th>
 </tr>
 </thead>
@@ -128,24 +128,24 @@ MsRTCSIP 접두사는 Lync Server와 관련 된 클래스 및 특성을 식별 �
 <td><p>추가: mayContain</p>
 <p>추가: mayContain</p></td>
 <td><p>ProxyAddresses</p>
-<p>msRTCSIP-UserRoutingGroupId</p></td>
+<p>Msrtcsip-gateways-UserRoutingGroupId</p></td>
 </tr>
 <tr class="even">
-<td><p>Contact</p></td>
+<td><p>담당자</p></td>
 <td><p>추가: mayContain</p>
 <p>추가: mayContain</p></td>
 <td><p>ProxyAddresses</p>
-<p>msRTCSIP-UserRoutingGroupId</p></td>
+<p>Msrtcsip-gateways-UserRoutingGroupId</p></td>
 </tr>
 <tr class="odd">
-<td><p>메일 받는 사람</p></td>
+<td><p>Mail-Recipient</p></td>
 <td><p>추가: mayContain</p></td>
 <td><p>msExchUserHoldPolicies</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-GlobalTopologySetting</p></td>
+<td><p>Msrtcsip-gateways-GlobalTopologySetting</p></td>
 <td><p>추가: mayContain</p></td>
-<td><p>msRTCSIP-MirrorBackEndServer</p></td>
+<td><p>Msrtcsip-gateways-MirrorBackEndServer</p></td>
 </tr>
 </tbody>
 </table>

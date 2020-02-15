@@ -12,16 +12,16 @@ ms:contentKeyID: 48183864
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f676730eac8ec6959d10ad2dd039f2aa124a0a65
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bcf2a65fdb435057c9e6e436ed35502a0c63da5c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41761944"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045160"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41761944"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-03-21_
+_**마지막으로 수정 된 항목:** 2012-03-21_
 
-미디어 구성과 관련 된 cmdlet을 사용 하면 지원 되는 암호화 수준 및 최대 허용 비디오 해상도 등을 지정할 수 있습니다.
+미디어 구성 관련 cmdlet를 사용하면 지원되는 암호화 수준, 허용되는 최대 비디오 해상도 등을 지정할 수 있습니다.
 
 <div>
 
 ## <a name="media-configuration-cmdlets"></a>미디어 구성 Cmdlet
 
-미디어 구성에 다음 cmdlet을 사용 합니다.
+미디어 구성에는 다음 cmdlet를 사용합니다.
 
 **미디어 구성**
 
   - <span></span>  
-    [Get-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398128(v=OCS.15))
+    [Get-csmediaconfiguration](https://technet.microsoft.com/library/Gg398128(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg425881(v=OCS.15))
+    [Get-csmediaconfiguration](https://technet.microsoft.com/library/Gg425881(v=OCS.15))
 
   - <span></span>  
-    [제거-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398705(v=OCS.15))
+    [Get-csmediaconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg398705(v=OCS.15))
 
   - <span></span>  
-    [Set-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398580(v=OCS.15))
+    [Get-csmediaconfiguration](https://technet.microsoft.com/library/Gg398580(v=OCS.15))
 
 </div>
 

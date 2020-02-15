@@ -1,5 +1,5 @@
 ---
-title: 시스템 센터 검색에 참여 하도록 감시자 노드 구성
+title: System Center discovery에 참여 하도록 감시자 노드 구성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ca3724f9b5bc8200e2ca006d9fa7445d7368ab7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7a90f07b445da792e0bc3b22967e41d8cd8d2fcc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763492"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-in-lync-server-2013-to-participate-in-system-center-discovery"></a>Lync Server 2013에서 시스템 센터 검색에 참가 하도록 감시자 노드 구성
+# <a name="configuring-a-watcher-node-in-lync-server-2013-to-participate-in-system-center-discovery"></a>System Center discovery에 참여 하도록 Lync Server 2013에서 감시자 노드 구성
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763492"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-22_
+_**마지막으로 수정 된 항목:** 2012-10-22_
 
-감시자 노드가 System Center Operations Manager의 검색 프로세스에 참여 하 고 있는지 확인 하려면 System Center Operations Manager 콘솔이 설치 된 컴퓨터에서 다음 절차를 완료 해야 합니다.
+감시자 노드가 System Center Operations Manager의 검색 프로세스에 참여 하는지 확인 하려면 System Center Operations Manager 콘솔이 설치 된 컴퓨터에서 다음 절차를 완료 해야 합니다.
 
-1.  **관리** 탭에서 **에이전트 관리**를 클릭 합니다.
+1.  **관리** 탭에서 **에이전트에서 관리**를 클릭합니다.
 
-2.  감시자 노드 컴퓨터의 이름을 마우스 오른쪽 단추로 클릭 한 다음 **속성**을 클릭 합니다. **속성** 대화 상자의 **보안** 탭에서 **이 에이전트가 프록시로 작동할 수 있도록 허용을 선택 하 고 다른 컴퓨터에서 관리 되는 개체를 검색**한 다음 **확인**을 클릭 합니다.
+2.  감시자 노드 컴퓨터의 이름을 마우스 오른쪽 단추로 클릭하고 **속성**을 클릭합니다. **속성** 대화 상자의 **보안** 탭에서 **이 에이전트를 프록시로 허용하고 다른 컴퓨터에서 관리되는 개체 검색**을 선택하고 **확인**을 클릭합니다.
 
-감시자 노드를 프록시 역할을 구성한 후에는 감시자 노드 컴퓨터를 다시 부팅 합니다. 컴퓨터를 다시 부팅 한 후 해당 컴퓨터의 Operations Manager 이벤트 로그에 오류 이벤트가 기록 되지 않는지 확인 합니다. 컴퓨터가 15 분 동안 실행 된 후에는 Operations Manager 콘솔을 사용 하 여 lync Server 컴퓨터가 **lync** 범주 아래에 나열 되어 있는지 확인 합니다.
+감시자 노드가 프록시로 작동하도록 구성한 후 감시자 노드 컴퓨터를 다시 부팅합니다. 컴퓨터를 다시 부팅 한 후에는 해당 컴퓨터의 Operations Manager 이벤트 로그에 오류 이벤트가 기록 되지 않는지 확인 합니다. 15 분 동안 컴퓨터를 실행 한 후 Operations Manager 콘솔을 사용 하 여 lync Server 컴퓨터가 **lync** 범주에 나열 되는지 확인 합니다.
 
 </div>
 

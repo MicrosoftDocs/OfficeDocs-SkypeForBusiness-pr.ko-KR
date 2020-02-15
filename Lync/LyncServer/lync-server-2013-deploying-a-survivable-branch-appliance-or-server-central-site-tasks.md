@@ -1,5 +1,5 @@
 ---
-title: SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버 배포 - 중앙 사이트 작업
+title: Sba (survivable Branch 기기 또는 서버-중앙 사이트 작업 배포
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9aa6d38ec873652feae6ef6a374ee5b771520b1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4756da7db87504e8b8c700cea1abb171b594543e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729628"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047552"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>Lync Server 2013을 통해 SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버 배포 - 중앙 사이트 작업
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>Lync Server 2013을 사용 하 여 Sba (survivable 분기 어플라이언스 또는 서버 배포-중앙 사이트 작업
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41729628"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-18_
+_**마지막으로 수정 된 항목:** 2012-10-18_
 
-중앙 사이트에서이 섹션의 작업을 완료 합니다. Survivable Branch 서버를 배포 하는 경우 첫 번째 작업을 건너뜁니다.
+중앙 사이트에서이 섹션의 작업을 완료 합니다. Sba (survivable 분기 서버를 배포 하는 경우 첫 번째 작업을 건너뜁니다.
 
 <div>
 
 
 > [!IMPORTANT]
-> 이 섹션의 작업을 수행 하기 전에 다음 조건이 충족 되어야 합니다. 
+> 이 섹션의 작업을 수행 하기 전에 다음 조건을 충족 해야 합니다. 
 > <UL>
 > <LI>
-> <P>중앙 사이트에서 Lync Server를 설정 해야 합니다.</P>
+> <P>Lync Server는 중앙 사이트에서 설정 해야 합니다.</P>
 > <LI>
-> <P>지점 사이트의 설치 기술자를 RTCUniversalSBATechnicians 그룹에 추가 해야 합니다.</P></LI></UL>또한 다음을 수행 하는 것이 좋습니다.
+> <P>분기 사이트의 설치 기술자를 RTCUniversalSBATechnicians 그룹에 추가 해야 합니다.</P></LI></UL>또한 다음을 수행 하는 것이 좋습니다.
 > <UL>
 > <LI>
-> <P>각 지점 사이트에 DHCP 서버를 배포 하 여 클라이언트가 IP 주소를 얻을 수 있도록 합니다.</P>
+> <P>각 분기 사이트에서 DHCP 서버를 배포 하 여 클라이언트가 IP 주소를 가져올 수 있도록 합니다.</P>
 > <LI>
-> <P>각 지점 사이트에서 DHCP 서버를 배포 하는 대신 Survivable Branch 기기 또는 Survivable Branch 서버에서 lync server Management Shell cmdlet <STRONG>Set-CsRegistrarConfiguration – EnableDHCPServer $true</STRONG>를 사용 하 여이 서버를 사용할 수 있도록 설정 합니다. 자세한 내용은 계획 설명서의 <A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013의 지점 사이트 복원 요구 사항에 대 한</A> "하드웨어 및 소프트웨어 요구 사항" 섹션을 참조 하세요.</P></LI></UL>
+> <P>각 분기 사이트에서 DHCP 서버를 배포 하는 대신, Lync Server 관리 셸 cmdlet <STRONG>get-csregistrarconfiguration-EnableDHCPServer $true</STRONG>를 사용 하 여 Sba (survivable 분기 어플라이언스 또는 Sba (survivable 분기 서버에서 LYNC server DHCP를 사용 하도록 설정 합니다. 자세한 내용은 계획 설명서에서 <A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013에 대 한 분기 사이트 복구 요구 사항의</A> "하드웨어 및 소프트웨어 요구 사항" 섹션을 참조 하십시오.</P></LI></UL>
 
 
 
@@ -63,11 +63,11 @@ _**마지막으로 수정한 주제:** 2012-10-18_
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에서 Active Directory에 SBA(Survivable Branch Appliance) 추가](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
+  - [Lync Server 2013에서 Active Directory에 Sba (survivable Branch 기기 추가](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
 
   - [Lync Server 2013에서 토폴로지에 분기 사이트 추가](lync-server-2013-add-branch-sites-to-your-topology.md)
 
-  - [Lync Server 2013에서 SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버 정의](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
+  - [Lync Server 2013에서 Sba (survivable Branch 기기 또는 서버 정의](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
 
 </div>
 

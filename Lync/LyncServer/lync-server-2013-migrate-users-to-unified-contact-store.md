@@ -12,16 +12,16 @@ ms:contentKeyID: 48183600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a57ea93af90176009fff43ed4dcca9f1880a658
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d170fa183e045203398725a7b7ec4bdd4c38203
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766049"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039325"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41766049"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-15_
+_**마지막으로 수정 된 항목:** 2012-10-15_
 
-사용자의 연락처가 다음과 같이 자동으로 Exchange 2013 서버로 마이그레이션됩니다.
+사용자의 연락처가 다음과 같은 경우 Exchange 2013 서버로 자동으로 마이그레이션됩니다.
 
-  - (으)로 지정 된 사용자 서비스 정책에 대 한 모든 권한이 True로 설정 되었습니다.
+  - UcsAllowed가 True로 설정된 사용자 서비스 정책을 할당한 경우
 
-  - 이 (가) Exchange 2013 사서함으로 프로 비전 되었으며 사서함에 한 번 이상 로그인 되어 있습니다.
+  - Exchange 2013 사서함으로 프로 비전 되었으며 사서함에 한 번 이상 로그인 되어 있습니다.
 
   - Lync 2013 리치 클라이언트를 사용 하 여 로그인 합니다.
 
-사용자가 Lync 2010 또는 이전 클라이언트를 사용 하 여 로그인 하거나 사용자가 Exchange 2013 서버에 연결 되어 있지 않은 경우 사용자 서비스 정책이 무시 되 고 사용자의 연락처가 Lync Server에 남아 있습니다.
+사용자가 Lync 2010 또는 이전 클라이언트를 사용 하 여 로그인 하거나 사용자가 Exchange 2013 서버에 연결 되어 있지 않은 경우에는 사용자 서비스 정책이 무시 되 고 사용자의 연락처가 Lync Server에 남아 있습니다.
 
-다음 방법 중 하나를 사용 하 여 사용자의 연락처가 마이그레이션 되었는지 여부를 확인할 수 있습니다.
+다음 방법 중 하나를 사용하여 사용자 연락처가 마이그레이션되었는지 확인할 수 있습니다.
 
-  - 클라이언트 컴퓨터에서 다음 레지스트리 키를 확인 합니다.
+  - 클라이언트 컴퓨터에서 다음 레지스트리 키를 확인합니다.
     
     HKEY\_현재\_사용자\\소프트웨어\\Microsoft\\Office\\15.0\\Lync\\\<SIP URL\>\\UCS
     
-    사용자의 연락처가 Exchange 2013에 저장 되어 있는 경우이 키에는 2165 값을 사용 하 여 InUCSMode 값이 포함 됩니다.
+    사용자의 연락처가 Exchange 2013에 저장 되어 있는 경우이 키에는 값이 2165 인 InUCSMode 값이 포함 됩니다.
 
-  - **테스트 CsUnifiedContactStore** cmdlet을 실행 합니다. Lync Server 관리 셸 명령줄에 다음을 입력 합니다.
+  - **Test-CsUnifiedContactStore** cmdlet을 실행합니다. Lync Server 관리 셸 명령줄에 다음을 입력 합니다.
     
         Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
     
-    **테스트-CsUnifiedContactStore** 성공 하면 사용자의 연락처가 통일 된 대화 상대 저장소로 마이그레이션됩니다.
+    **Test-CsUnifiedContactStore**가 정상적으로 실행되면 사용자 연락처가 통합 연락처 저장소로 마이그레이션된 것입니다.
 
 </div>
 

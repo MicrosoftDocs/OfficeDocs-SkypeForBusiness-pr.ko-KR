@@ -12,20 +12,20 @@ ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c4d3741564cd0228213400d7ee1fbb7271c4ddd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 760e66403fd1da2b5a45cf0db065dc201e1fd02a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756862"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051160"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>다시 종료 Lync Server 2013 저장소 성능 모니터링
+# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>모니터링 백 엔드 Lync Server 2013 저장소 성능
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41756862"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2014-05-02_
+_**마지막으로 수정 된 항목:** 2014-05-02_
 
-Lync Server 2013 백 엔드 데이터베이스는 Lync Server 2013 배포에서 매우 중요 한 부분입니다. Lync Server 2013 백 엔드가 최적으로 수행 되 고 있는지 확인 하는 데 도움이 되도록 데이터베이스 및 해당 트랜잭션 로그를 지속적으로 모니터링 하는 것이 좋습니다.
+Lync Server 2013 백 엔드 데이터베이스는 Lync Server 2013 배포에서 매우 중요 한 부분입니다. Lync Server 2013 백 엔드를 최적으로 수행 하 고 있는지 확인 하는 데 도움이 되도록 데이터베이스 및 각 트랜잭션 로그를 지속적으로 모니터링 하는 것이 좋습니다.
 
-다음 표에서는 저장소 성능에 대 한 정보를 확인 하기 위해 모니터링 해야 하는 성능 카운터를 설명 합니다. 시스템 성능이 저하 될 때 성능 변화를 이해 하기 위해 이러한 카운터의 초기 계획 값을 먼저 결정 해야 합니다 (시스템의 정상적인 경우 부하가 예상 되는 경우).
+다음 표에는 저장소 성능에 대 한 정보를 파악 하기 위해 모니터링 해야 하는 성능 카운터가 나와 있습니다. 시스템이 스트레스를 받을 때 성능 변경을 이해 하기 위해 이러한 카운터의 초기 계획 값을 먼저 결정 해야 합니다 (시스템이 정상, 예상 되는 부하).
 
 ### <a name="performance-counters-to-be-monitored"></a>모니터링할 성능 카운터
 
@@ -56,15 +56,15 @@ Lync Server 2013 백 엔드 데이터베이스는 Lync Server 2013 배포에서 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>트랜잭션/초 (RTC)</p></td>
+<td><p>초당 트랜잭션 (RTC)</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Rtcdyn (트랜잭션/초)</p></td>
+<td><p>초당 트랜잭션 (rtcdyn)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>트랜잭션/초 (tempdb)</p></td>
+<td><p>초당 트랜잭션 (tempdb)</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -80,19 +80,19 @@ Lync Server 2013 백 엔드 데이터베이스는 Lync Server 2013 배포에서 
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Disk 전송/초 (읽기 + 쓰기)-RTC db</p></td>
+<td><p>초당 디스크 전송-RTC db</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Disk 전송/초-RTC 로그</p></td>
+<td><p>초당 디스크 전송-RTC 로그</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Disk 전송/초-rtcdyn db</p></td>
+<td><p>초당 디스크 전송 rtcdyn db</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>디스크 전송/초-rtcdyn 로그</p></td>
+<td><p>초당 디스크 전송 rtcdyn 로그</p></td>
 <td></td>
 </tr>
 </tbody>

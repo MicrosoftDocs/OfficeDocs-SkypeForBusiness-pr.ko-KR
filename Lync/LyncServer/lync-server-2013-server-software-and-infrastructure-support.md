@@ -12,16 +12,16 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f9b7ef52da78219f66df79d9e02bc67786b76d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad3368748f7cbfa1c8ca41e1c563283ef5a390bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764846"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051310"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764846"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-29_
+_**마지막으로 수정 된 항목:** 2012-06-29_
 
-모든 Lync Server 2013 서버 역할 및 저장소를 비롯 한 서버 구성 요소에 대 한 소프트웨어 지원은 지원 되는 운영 체제, 데이터베이스 소프트웨어, 인프라 소프트웨어 및 특정 기능을 지 원하는 데 필요한 기타 소프트웨어를 포함 합니다. 여기에는 서버 구성 요소의 가상화도 포함 됩니다.
+모든 Lync Server 2013 서버 역할 및 저장소를 비롯 한 서버 구성 요소에 대 한 소프트웨어 지원에는 지원 되는 운영 체제, 데이터베이스 소프트웨어, 인프라 소프트웨어 및 특정 기능을 지 원하는 데 필요한 기타 소프트웨어가 포함 되어 있습니다. 또한 서버 구성 요소 가상화도 포함됩니다.
 
 <div>
 
@@ -51,7 +51,7 @@ _**마지막으로 수정한 주제:** 2012-06-29_
 
   - [Lync Server 2013의 인증서 인프라 지원](lync-server-2013-certificate-infrastructure-support.md)
 
-  - [Lync Server 2013의 와일드카드 인증서 지원](lync-server-2013-wildcard-certificate-support.md)
+  - [Lync Server 2013의 와일드 카드 인증서 지원](lync-server-2013-wildcard-certificate-support.md)
 
   - [Lync Server 2013의 DNS 인프라 지원](lync-server-2013-dns-infrastructure-support.md)
 
@@ -59,9 +59,9 @@ _**마지막으로 수정한 주제:** 2012-06-29_
 
   - [Lync Server 2013의 IP 및 네트워킹 프로토콜 지원](lync-server-2013-ip-and-networking-protocol-support.md)
 
-  - [Lync Server 2013의 공용 메신저 지원](lync-server-2013-public-instant-messaging-support.md)
+  - [Lync Server 2013의 공용 인스턴트 메시징 지원](lync-server-2013-public-instant-messaging-support.md)
 
-  - [Lync Server 2013 제어판에 대한 브라우저 지원](lync-server-2013-browser-support-for-lync-server-control-panel.md)
+  - [Lync Server 2013 제어판에 대 한 브라우저 지원](lync-server-2013-browser-support-for-lync-server-control-panel.md)
 
   - [Lync Server 2013의 음성 지원](lync-server-2013-voice-support.md)
 

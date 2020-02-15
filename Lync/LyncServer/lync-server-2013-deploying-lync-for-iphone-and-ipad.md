@@ -12,20 +12,20 @@ ms:contentKeyID: 51541511
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3cf86aa601d17301b261ae8144c0b911672a0bd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 888fdd0a34973d5b7c7b6063056c98d4426a2f1a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758032"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050470"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-for-iphone-and-ipad-in-lync-server-2013"></a>IPhone 및 iPad 용 Lync 배포 서버 2013
+# <a name="deploying-lync-for-iphone-and-ipad-in-lync-server-2013"></a>Lync Server 2013에서 iPhone 용 Lync 및 iPad 배포
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758032"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-19_
+_**마지막으로 수정 된 항목:** 2013-02-19_
 
-이 섹션에서는 모바일 사용자를 위해 iPhone 용 Lync 2013 및 iPad 용 Lync 2013을 배포 하는 방법을 설명 합니다.
+이 섹션에서는 모바일 사용자를 위해 iPhone 용 Lync 2013 및 Lync 2013를 배포 하는 방법을 설명 합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [IPhone 및 iPad 용 Lync 설치 중 Lync Server 2013](lync-server-2013-installing-lync-for-iphone-and-ipad.md)
+  - [Lync Server 2013에서 iPhone 및 iPad 용 Lync 설치](lync-server-2013-installing-lync-for-iphone-and-ipad.md)
 
   - [Lync Server 2013에서 iPhone 및 iPad 용 Lync 제거](lync-server-2013-removing-lync-for-iphone-and-ipad.md)
 

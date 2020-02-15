@@ -12,16 +12,16 @@ ms:contentKeyID: 48185216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2df1871956b33b3781128e2b62af13bdd875d10b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9b03a612ba94733d52600af1db775e1bb0ef9b26
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735048"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037830"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,45 +35,45 @@ ms.locfileid: "41735048"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-05_
+_**마지막으로 수정 된 항목:** 2012-10-05_
 
-지점 사이트는 WAN 링크를 통해 메인 사무실에 연결 된 지사의 실제 지점을 나타냅니다. Lync 토폴로지에 분기 사이트를 추가 하려면 중앙 사이트에서이 절차를 수행 합니다.
+분기 사이트는 WAN 링크를 통해 본사에 연결되는 실제 지점을 나타냅니다. Lync 토폴로지에 분기 사이트를 추가하려면 중앙 사이트에서 다음 절차를 수행하십시오.
 
 <div>
 
-## <a name="to-add-branch-sites-to-your-topology"></a>토폴로지에 지점 사이트를 추가 하려면
+## <a name="to-add-branch-sites-to-your-topology"></a>토폴로지에 분기 사이트를 추가하려면
 
-1.  **시작**을 클릭 하 고 **모든 프로그램**, **Microsoft Lync server**를 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.
+1.  **시작**, **모든 프로그램**, **Microsoft Lync Server**를 차례로 클릭한 다음 **Lync Server 토폴로지 작성기**를 클릭합니다.
 
-2.  콘솔 트리에서 중앙 사이트를 확장 하 고 **분기 사이트**를 마우스 오른쪽 단추로 클릭 한 다음 **새 분기 사이트**를 클릭 합니다.
+2.  콘솔 트리에서 중앙 사이트를 확장하고 **분기 사이트**를 마우스 오른쪽 단추로 클릭한 다음 **새 분기 사이트**를 클릭합니다.
 
-3.  **새 분기 사이트 정의** 대화 상자에서 **이름을**클릭 한 다음 분기 사이트의 이름을 입력 합니다.
+3.  **새 분기 사이트 정의** 대화 상자에서 **이름**을 클릭한 다음 분기 사이트의 이름을 입력합니다.
 
-4.  ) **설명을**클릭 한 다음 분기 사이트에 대 한 의미 있는 설명을 입력 합니다.
+4.  (선택 사항) **설명**을 클릭한 다음 분기 사이트에 대한 의미 있는 설명을 입력합니다.
 
-5.  **다음**을 클릭 합니다.
+5.  **다음**을 클릭합니다.
 
-6.  ) 다음 **새 분기 사이트 정의** 대화 상자에서 다음 중 하나를 수행 합니다.
+6.  (선택 사항) 다음 **새 분기 사이트 정의** 대화 상자에서 다음 중 일부를 수행합니다.
     
-      - **도시**를 클릭 한 다음 지점 사이트가 있는 도시의 이름을 입력 합니다.
+      - **구/군/시**를 클릭한 다음 분기 사이트가 있는 구/군/시의 이름을 입력합니다.
     
-      - **상태/지역을**클릭 한 다음 분기 사이트가 있는 상태 또는 지역의 이름을 입력 합니다.
+      - **시/도/지역**을 클릭한 다음 분기 사이트가 있는 시/도/지역의 이름을 입력합니다.
     
-      - **국가 코드**를 클릭 한 다음 분기 사이트가 있는 국가/지역에 대 한 두 자리 통화 코드를 입력 합니다.
+      - 국가 코드를 클릭한 다음 분기 사이트가 있는 국가/지역에 대한 두 자리 국가/지역 번호를 입력합니다.
 
-7.  **다음**을 클릭 하 고 다음 중 하나를 수행 합니다.
+7.  **다음**을 클릭하고 다음 중 하나를 수행합니다.
     
-      - 이 사이트에서 Survivable Branch 기기 또는 서버를 사용 하는 경우 **마법사를 닫을 때 새 Survivable 마법사 열기** 확인란을 선택 하 고 **마침을**클릭 한 다음 마법사에서 열리는 지침을 따릅니다. 마법사 항목에 대 한 자세한 내용은 [Lync Server 2013에서 Survivable Branch 기기 또는 서버 정의](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)를 참조 하세요.
+      - 이 사이트에서 Sba (survivable Branch 어플라이언스 또는 서버를 사용 하는 경우에는 **이 마법사가 닫히면 새 Sba (survivable 마법사 열기** 확인란을 선택 하 고 **마침을**클릭 한 다음 마법사에서 열리는 지시를 따릅니다. 마법사 항목에 대 한 자세한 내용은 [Define a Sba (survivable Branch 어플라이언스 Or Server in a Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)을 참조 하십시오.
     
-      - 이 사이트에서 Survivable Branch 기기 또는 서버를 사용 하 고 있지 않은 경우 마법사를 **닫을 때 새 Survivable 마법사 열기** 확인란의 선택을 취소 하 고 **마침을**클릭 합니다.
+      - 이 사이트에서 SBA 또는 지속 가능 분기 서버를 사용하지 않는 경우에는 **이 마법사가 닫히면 새 지속 가능 마법사 열기** 확인란의 선택을 취소한 다음 **마침**을 클릭합니다.
 
-8.  토폴로지에 추가 하려는 각 분기 사이트에 대해 앞의 단계를 반복 합니다.
+8.  토폴로지에 추가할 각 분기 사이트에 대해 앞의 단계를 반복합니다.
 
 **다음 단계:**
 
-Survivable Branch 기기 또는 서버의 경우: [Lync Server 2013에서 Survivable Branch 기기 또는 서버 정의](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
+Sba (survivable 분기 어플라이언스 또는 Servers의 경우: [Lync Server 2013에서 Sba (survivable 분기 어플라이언스 또는 Server 정의](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
 
-회복성 있지 않은 PSTN 연결의 경우: [Lync server 2013에서 지점 사이트에 대 한 PSTN 게이트웨이를 정의](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)하 고, [lync server 2013에서 미디어 바이패스를 사용 하 여 트렁크를 구성](lync-server-2013-configure-a-trunk-with-media-bypass.md)하거나, [lync server 2013에서 미디어 바이패스 없이 트렁크를 구성](lync-server-2013-configure-a-trunk-without-media-bypass.md) 합니다.
+탄성 이외의 PSTN 연결의 경우: lync server [2013에서 분기 사이트에 대 한 PSTN 게이트웨이를 정의](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)하거나 lync server [2013에서 미디어 바이패스를 사용 하 여 트렁크를 구성](lync-server-2013-configure-a-trunk-with-media-bypass.md)하거나 [lync server 2013에서 미디어 바이패스 없이 트렁크를 구성](lync-server-2013-configure-a-trunk-without-media-bypass.md) 합니다.
 
 </div>
 

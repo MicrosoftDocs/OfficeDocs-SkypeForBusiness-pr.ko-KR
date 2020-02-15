@@ -12,16 +12,16 @@ ms:contentKeyID: 49733655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4609a3db5b81b4a6cbf134fc2347e4fc459c58c0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0cf9e589cf239cd7c0e61090dc65995ef71357d0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741748"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044290"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741748"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-21_
+_**마지막으로 수정 된 항목:** 2013-02-21_
 
-네트워크 사이트는 호출 허용 제어 (CAC), E9-1-1, 미디어 바이패스 배포의 각 네트워크 영역 내에 있는 사무실 또는 위치입니다. 이 섹션의 절차를 사용 하 여 네트워크 사이트에 대 한 통화 허용 제어를 구성 합니다.
+네트워크 사이트는 CAC (통화 허용 제어), E9-1-1 및 미디어 바이패스 배포의 각 네트워크 지역 내의 사무실 또는 위치입니다. 이 섹션의 절차를 사용 하 여 네트워크 사이트에 대 한 통화 허용 제어를 구성 합니다.
 
 <div>
 
@@ -53,9 +53,9 @@ _**마지막으로 수정한 주제:** 2013-02-21_
 
 <div>
 
-## <a name="related-sections"></a>관련 단원
+## <a name="related-sections"></a>관련 섹션
 
-[Lync Server 2013의 통화 허용 제어 서비스 계획](lync-server-2013-planning-for-call-admission-control.md)
+[Lync Server 2013의 통화 허용 제어 계획](lync-server-2013-planning-for-call-admission-control.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df13c5182d97534e32f0f4d383df73985907c8f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a3144739a1633a72c2bee160c1225fc9c376ef0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732498"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048909"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,203 +35,203 @@ ms.locfileid: "41732498"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-09_
+_**마지막으로 수정 된 항목:** 2012-10-09_
 
-Microsoft Lync Server 2013에 포함 된 보안 cmdlet은 주로 인증을 관리 하는 데 사용 되며 사용자 권한 및 사용 권한입니다. 인증서 및 PIN (개인 식별 번호) 인증에 대 한 cmdlet을 비롯 한 다양 한 cmdlet을 인증 관리에 사용할 수 있습니다. 또한 많은 cmdlet을 사용 하 여 새 RBAC (역할 기반 액세스 제어) 기능을 통해 Lync Server의 관리 제어권을 위임할 수 있습니다.
+Microsoft Lync Server 2013에 포함 된 보안 cmdlet은 주로 인증을 관리 하는 데 사용 되며 사용자 권한 및 사용 권한을 제공 합니다. 인증서 및 PIN(개인 식별 번호) 인증을 위한 cmdlet 등 인증 관리에 사용할 수 있는 다양한 cmdlet가 있습니다. 또한 많은 cmdlet을 사용 하 여 새 RBAC (역할 기반 액세스 제어) 기능을 통해 Lync Server의 관리 제어를 위임할 수 있습니다.
 
 <div>
 
 ## <a name="security-cmdlets"></a>보안 Cmdlet
 
-보안 설정에 적용 되는 대부분의 관리 작업은 Lync Server 제어판에서 수행할 수 있습니다. 한 가지 주요 예외는 사용자 권한 cmdlet입니다. 그러나 모든 보안 관리 작업은 Lync Server 관리 셸에서 또는 스크립트 내에서 cmdlet을 사용 하 여 수행할 수 있습니다. 스크립트를 사용 하 여 특정 작업을 자동화할 수 있습니다. 다음은 보안 설정 관리와 직접 관련 된 cmdlet의 목록입니다.
+보안 설정에 적용 되는 대부분의 관리 작업은 Lync Server 제어판에서 실행할 수 있습니다. 한 가지 주요 예외는 사용자 권한 cmdlet입니다. 그러나 모든 보안 관리 작업은 Lync Server 관리 셸 또는 스크립트 내에서 cmdlet을 사용 하 여 수행할 수 있습니다. 스크립트를 사용 하면 특정 작업을 자동화할 수 있습니다. 다음은 보안 설정 관리에 직접적으로 관련된 cmdlet 목록입니다.
 
 **[Lync Server 2013의 인증서 및 인증 cmdlet](lync-server-2013-certificate-and-authentication-cmdlets.md)**
 
   - <span></span>  
-    [Get-CsCertificate](https://technet.microsoft.com/en-us/library/Gg398227(v=OCS.15))
+    [Set-cscertificate](https://technet.microsoft.com/library/Gg398227(v=OCS.15))
 
   - <span></span>  
-    [가져오기-CsCertificate](https://technet.microsoft.com/en-us/library/Gg398688(v=OCS.15))
+    [Set-cscertificate](https://technet.microsoft.com/library/Gg398688(v=OCS.15))
 
   - <span></span>  
-    [제거-CsCertificate](https://technet.microsoft.com/en-us/library/Gg412895(v=OCS.15))
+    [Set-cscertificate을 제거 합니다.](https://technet.microsoft.com/library/Gg412895(v=OCS.15))
 
   - <span></span>  
-    [요청-CsCertificate](https://technet.microsoft.com/en-us/library/Gg425723(v=OCS.15))
+    [요청-Set-cscertificate](https://technet.microsoft.com/library/Gg425723(v=OCS.15))
 
   - <span></span>  
-    [Set-CsCertificate](https://technet.microsoft.com/en-us/library/Gg398518(v=OCS.15))
+    [Set-cscertificate](https://technet.microsoft.com/library/Gg398518(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [테스트-CsCertificateConfiguration](https://technet.microsoft.com/en-us/library/Gg398647(v=OCS.15))
+    [Test-cscertificateconfiguration](https://technet.microsoft.com/library/Gg398647(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsClientCertificate](https://technet.microsoft.com/en-us/library/Gg398143(v=OCS.15))
+    [Get-csclientcertificate](https://technet.microsoft.com/library/Gg398143(v=OCS.15))
 
   - <span></span>  
-    [철회-CsClientCertificate](https://technet.microsoft.com/en-us/library/Gg425748(v=OCS.15))
+    [Get-csclientcertificate](https://technet.microsoft.com/library/Gg425748(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [잠금-CsClientPin](https://technet.microsoft.com/en-us/library/Gg398650(v=OCS.15))
+    [잠금-CsClientPin](https://technet.microsoft.com/library/Gg398650(v=OCS.15))
 
   - <span></span>  
-    [Set-CsClientPin](https://technet.microsoft.com/en-us/library/Gg398929(v=OCS.15))
+    [설정-CsClientPin](https://technet.microsoft.com/library/Gg398929(v=OCS.15))
 
   - <span></span>  
-    [잠금 해제-CsClientPin](unhttps://technet.microsoft.com/en-us/library/Gg398650(v=OCS.15))
+    [잠금 해제-CsClientPin](unhttps://technet.microsoft.com/library/Gg398650(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsClientPinInfo](https://technet.microsoft.com/en-us/library/Gg425947(v=OCS.15))
+    [Get-CsClientPinInfo](https://technet.microsoft.com/library/Gg425947(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [신규-C(c) Ercosaccount](https://technet.microsoft.com/en-us/library/Gg398485(v=OCS.15))
+    [새-C고 Ercosaccount](https://technet.microsoft.com/library/Gg398485(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398526(v=OCS.15))
+    [Get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg398526(v=OCS.15))
 
   - <span></span>  
-    [New-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398074(v=OCS.15))
+    [Get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg398074(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg413052(v=OCS.15))
+    [Get-cskerberosaccountassignment을 제거 합니다.](https://technet.microsoft.com/library/Gg413052(v=OCS.15))
 
   - <span></span>  
-    [Set-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398232(v=OCS.15))
+    [Get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg398232(v=OCS.15))
 
   - <span></span>  
-    [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15))
+    [Get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-c. Ercosaccountpassword](https://technet.microsoft.com/en-us/library/Gg398659(v=OCS.15))
+    [Set-CsKerberosAccountPassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsPinPolicy](https://technet.microsoft.com/en-us/library/Gg398262(v=OCS.15))
+    [Get-cspinpolicy](https://technet.microsoft.com/library/Gg398262(v=OCS.15))
 
   - <span></span>  
-    [부여-CsPinPolicy](https://technet.microsoft.com/en-us/library/Gg398871(v=OCS.15))
+    [Get-cspinpolicy](https://technet.microsoft.com/library/Gg398871(v=OCS.15))
 
   - <span></span>  
-    [New-CsPinPolicy](https://technet.microsoft.com/en-us/library/Gg398935(v=OCS.15))
+    [Get-cspinpolicy](https://technet.microsoft.com/library/Gg398935(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsPinPolicy](https://technet.microsoft.com/en-us/library/Gg398431(v=OCS.15))
+    [Get-cspinpolicy을 제거 합니다.](https://technet.microsoft.com/library/Gg398431(v=OCS.15))
 
   - <span></span>  
-    [Set-CsPinPolicy](https://technet.microsoft.com/en-us/library/Gg412997(v=OCS.15))
+    [Get-cspinpolicy](https://technet.microsoft.com/library/Gg412997(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsProxyConfiguration](https://technet.microsoft.com/en-us/library/Gg399011(v=OCS.15))
+    [Get-CsProxyConfiguration](https://technet.microsoft.com/library/Gg399011(v=OCS.15))
 
   - <span></span>  
-    [New-CsProxyConfiguration](https://technet.microsoft.com/en-us/library/Gg398335(v=OCS.15))
+    [새-CsProxyConfiguration](https://technet.microsoft.com/library/Gg398335(v=OCS.15))
 
   - <span></span>  
-    [CsProxyConfiguration 제거](https://technet.microsoft.com/en-us/library/Gg398553(v=OCS.15))
+    [CsProxyConfiguration 제거](https://technet.microsoft.com/library/Gg398553(v=OCS.15))
 
   - <span></span>  
-    [Set-CsProxyConfiguration](https://technet.microsoft.com/en-us/library/Gg425796(v=OCS.15))
+    [설정-CsProxyConfiguration](https://technet.microsoft.com/library/Gg425796(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsSipDomain](https://technet.microsoft.com/en-us/library/Gg398701(v=OCS.15))
+    [New-cssipdomain](https://technet.microsoft.com/library/Gg398701(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsSipDomain](https://technet.microsoft.com/en-us/library/Gg425857(v=OCS.15))
+    [New-cssipdomain](https://technet.microsoft.com/library/Gg425857(v=OCS.15))
 
   - <span></span>  
-    [제거-CsSipDomain](https://technet.microsoft.com/en-us/library/Gg398865(v=OCS.15))
+    [New-cssipdomain을 제거 합니다.](https://technet.microsoft.com/library/Gg398865(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSipDomain](https://technet.microsoft.com/en-us/library/Gg412949(v=OCS.15))
+    [New-cssipdomain](https://technet.microsoft.com/library/Gg412949(v=OCS.15))
 
 **[Lync Server 2013의 사용자 권한 및 사용 권한 cmdlet](lync-server-2013-user-rights-and-permissions-cmdlets.md)**
 
   - <span></span>  
-    [Get-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399050(v=OCS.15))
+    [Get-CsAdminRole](https://technet.microsoft.com/library/Gg399050(v=OCS.15))
 
   - <span></span>  
-    [새-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg398271(v=OCS.15))
+    [새-CsAdminRole](https://technet.microsoft.com/library/Gg398271(v=OCS.15))
 
   - <span></span>  
-    [-CsAdminRole 제거](https://technet.microsoft.com/en-us/library/Gg413036(v=OCS.15))
+    [제거-CsAdminRole](https://technet.microsoft.com/library/Gg413036(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399066(v=OCS.15))
+    [설정-CsAdminRole](https://technet.microsoft.com/library/Gg399066(v=OCS.15))
 
   - <span></span>  
-    [업데이트-CsAdminRole](https://technet.microsoft.com/en-us/library/JJ204851(v=OCS.15))
+    [업데이트-CsAdminRole](https://technet.microsoft.com/library/JJ204851(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsAdminRoleAssignment](https://technet.microsoft.com/en-us/library/Gg398434(v=OCS.15))
+    [Get-CsAdminRoleAssignment](https://technet.microsoft.com/library/Gg398434(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [부여-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15))
+    [부여-CsOUPermission](https://technet.microsoft.com/library/Gg425739(v=OCS.15))
 
   - <span></span>  
-    [해지-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398977(v=OCS.15))
+    [CsOUPermission](https://technet.microsoft.com/library/Gg398977(v=OCS.15))
 
   - <span></span>  
-    [테스트-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398787(v=OCS.15))
+    [테스트-CsOUPermission](https://technet.microsoft.com/library/Gg398787(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [부여-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15))
+    [부여-CsSetupPermission](https://technet.microsoft.com/library/Gg398569(v=OCS.15))
 
   - <span></span>  
-    [해지가 CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg425834(v=OCS.15))
+    [CsSetupPermission](https://technet.microsoft.com/library/Gg425834(v=OCS.15))
 
   - <span></span>  
-    [테스트-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398428(v=OCS.15))
+    [테스트-CsSetupPermission](https://technet.microsoft.com/library/Gg398428(v=OCS.15))
 
 **[Lync Server 2013의 상호 운용성 cmdlet](lync-server-2013-interoperability-cmdlets.md)**
 
-  - [Get-CsOAuthConfiguration](https://technet.microsoft.com/en-us/library/JJ205155(v=OCS.15))
+  - [Get-CsOAuthConfiguration](https://technet.microsoft.com/library/JJ205155(v=OCS.15))
 
-  - [Set-CsOAuthConfiguration](https://technet.microsoft.com/en-us/library/JJ204841(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ205238(v=OCS.15))
-
-  - [New-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ205206(v=OCS.15))
-
-  - [CsOAuthServer 제거](https://technet.microsoft.com/en-us/library/JJ205408(v=OCS.15))
-
-  - [Set-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ204896(v=OCS.15))
+  - [Set-CsOAuthConfiguration](https://technet.microsoft.com/library/JJ204841(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ205128(v=OCS.15))
+  - [Get-CsOAuthServer](https://technet.microsoft.com/library/JJ205238(v=OCS.15))
 
-  - [New-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204628(v=OCS.15))
+  - [새-CsOAuthServer](https://technet.microsoft.com/library/JJ205206(v=OCS.15))
 
-  - [제거-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204820(v=OCS.15))
+  - [CsOAuthServer 제거](https://technet.microsoft.com/library/JJ205408(v=OCS.15))
 
-  - [Set-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204755(v=OCS.15))
+  - [Set-CsOAuthServer](https://technet.microsoft.com/library/JJ204896(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-cspartnerapplication](https://technet.microsoft.com/library/JJ205128(v=OCS.15))
+
+  - [Get-cspartnerapplication](https://technet.microsoft.com/library/JJ204628(v=OCS.15))
+
+  - [Get-cspartnerapplication을 제거 합니다.](https://technet.microsoft.com/library/JJ204820(v=OCS.15))
+
+  - [Get-cspartnerapplication](https://technet.microsoft.com/library/JJ204755(v=OCS.15))
 
 </div>
 

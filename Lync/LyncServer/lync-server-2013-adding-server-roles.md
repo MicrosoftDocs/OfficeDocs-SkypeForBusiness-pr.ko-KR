@@ -12,16 +12,16 @@ ms:contentKeyID: 48185033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cb56bb77cdd190894f905f0ff0848b9f86dd9a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f80ce308640b249dc4b73af98a0c2206923abf84
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738028"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038520"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41738028"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-19_
+_**마지막으로 수정 된 항목:** 2012-06-19_
 
-초기 배포를 실행 한 후에는 사용자가 Lync Server 2013 (예: 디렉터 또는 독립 실행형 중재 서버)에 대 한 추가 서버 역할을 추가할 수 있습니다.
+초기 배포를 수행 하 고 실행 한 후에는 디렉터 나 독립 실행형 중재 서버와 같은 Lync Server 2013에 대 한 서버 역할을 더 추가할 수 있습니다.
 
 <div>
 
 
 > [!NOTE]  
-> 추가 서버 역할을 설치 하는 작업을 수행 하기 전에 각 역할과 관련 된 계획 항목을 참조 하세요.
+> 추가 서버 역할을 설치하는 작업을 수행하려면 각 역할과 관련된 계획 항목을 참조하십시오.
 
 
 
@@ -55,7 +55,7 @@ _**마지막으로 수정한 주제:** 2012-06-19_
 
   - [Lync Server 2013에서 전화 접속 회의 구성](lync-server-2013-configuring-dial-in-conferencing.md)
 
-또한, Lync Server 2013와 함께 사용할 수 있는 클라이언트 소프트웨어 및 장치 배포에 대 한 자세한 내용은 [Lync server 2013에서 클라이언트 및 장치 배포](lync-server-2013-deploying-clients-and-devices.md)를 참조 하세요.
+또한 Lync Server 2013에서 사용할 수 있는 클라이언트 소프트웨어 및 장치를 배포 하는 방법에 대 한 자세한 내용은 [Lync server 2013에서 클라이언트 및 장치 배포](lync-server-2013-deploying-clients-and-devices.md)를 참조 하십시오.
 
 </div>
 
