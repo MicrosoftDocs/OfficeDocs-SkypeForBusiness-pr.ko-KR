@@ -12,20 +12,20 @@ ms:contentKeyID: 48184790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff5ff630162d8576bb0a099253c7a4ca2af4523c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 484d865ead73d52d867dded3a12b07e1f4a6d20f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727308"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-message"></a><span data-ttu-id="4d46d-102">메시지 제거</span><span class="sxs-lookup"><span data-stu-id="4d46d-102">Remove a message</span></span>
+# <a name="remove-a-message"></a><span data-ttu-id="15a43-102">메시지 제거</span><span class="sxs-lookup"><span data-stu-id="15a43-102">Remove a message</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41727308"
 
 <span> </span>
 
-<span data-ttu-id="4d46d-103">_**마지막으로 수정한 주제:** 2012-04-04_</span><span class="sxs-lookup"><span data-stu-id="4d46d-103">_**Topic Last Modified:** 2012-04-04_</span></span>
+<span data-ttu-id="15a43-103">_**마지막으로 수정 된 항목:** 2012-04-04_</span><span class="sxs-lookup"><span data-stu-id="15a43-103">_**Topic Last Modified:** 2012-04-04_</span></span>
 
-<span data-ttu-id="4d46d-104">메시지를 제거 하려면</span><span class="sxs-lookup"><span data-stu-id="4d46d-104">To remove a message</span></span>
+<span data-ttu-id="15a43-104">메시지를 제거하려면</span><span class="sxs-lookup"><span data-stu-id="15a43-104">To remove a message</span></span>
 
     Remove-CsPersistentChatMessage -Identity <string> [-UserUri <string>] [-StartDate <DateTime>] [-EndDate <DateTime>] [-Filter <string>] [-MatchClause <AndOr> {And | Or | Exact}] [-CaseSensitive <bool>] [-ReplaceMessage <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 

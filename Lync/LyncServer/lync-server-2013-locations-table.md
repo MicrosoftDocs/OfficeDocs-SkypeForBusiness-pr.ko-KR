@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Locations 테이블'
+title: 'Lync Server 2013: 위치 테이블'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2d16ffd08184a650f993d175239f5aff72b8b3b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: accab39d1f1f7cb1855ba651ea217aa3b0a4bd8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762136"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033357"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="locations-table-in-lync-server-2013"></a><span data-ttu-id="809ed-102">Lync Server 2013의 Locations 테이블</span><span class="sxs-lookup"><span data-stu-id="809ed-102">Locations table in Lync Server 2013</span></span>
+# <a name="locations-table-in-lync-server-2013"></a><span data-ttu-id="ec3bd-102">Lync Server 2013의 위치 테이블</span><span class="sxs-lookup"><span data-stu-id="ec3bd-102">Locations table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762136"
 
 <span> </span>
 
-<span data-ttu-id="809ed-103">_**마지막으로 수정한 주제:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="809ed-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+<span data-ttu-id="ec3bd-103">_**마지막으로 수정 된 항목:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="ec3bd-103">_**Topic Last Modified:** 2012-05-25_</span></span>
 
-<span data-ttu-id="809ed-104">각 레코드는 E9-1-1 통화와 같이 비상 전화의 한 위치 참조를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="809ed-104">Each record represents one location reference in an emergency call, like an E9-1-1 call.</span></span>
+<span data-ttu-id="ec3bd-104">각 레코드는 E9-1-1 통화와 같은 응급 통화에서 하나의 위치 참조를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ec3bd-104">Each record represents one location reference in an emergency call, like an E9-1-1 call.</span></span>
 
 
 <table>
@@ -49,30 +49,30 @@ ms.locfileid: "41762136"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="809ed-105">열</span><span class="sxs-lookup"><span data-stu-id="809ed-105">Column</span></span></th>
-<th><span data-ttu-id="809ed-106">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="809ed-106">Data Type</span></span></th>
-<th><span data-ttu-id="809ed-107">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="809ed-107">Key/Index</span></span></th>
-<th><span data-ttu-id="809ed-108">세부적인</span><span class="sxs-lookup"><span data-stu-id="809ed-108">Details</span></span></th>
+<th><span data-ttu-id="ec3bd-105">열</span><span class="sxs-lookup"><span data-stu-id="ec3bd-105">Column</span></span></th>
+<th><span data-ttu-id="ec3bd-106">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="ec3bd-106">Data Type</span></span></th>
+<th><span data-ttu-id="ec3bd-107">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="ec3bd-107">Key/Index</span></span></th>
+<th><span data-ttu-id="ec3bd-108">세부 정보</span><span class="sxs-lookup"><span data-stu-id="ec3bd-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="809ed-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="809ed-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="809ed-110">dmtf</span><span class="sxs-lookup"><span data-stu-id="809ed-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="809ed-111">기본, 외래</span><span class="sxs-lookup"><span data-stu-id="809ed-111">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="809ed-112">세션 요청 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="809ed-112">Time of session request.</span></span> <span data-ttu-id="809ed-113">세션을 고유 하 게 식별 하는 <strong>Sessionidseq</strong> 와 함께 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="809ed-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="809ed-114">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 대화 상자 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="809ed-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ec3bd-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="ec3bd-109"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="ec3bd-110">datetime</span><span class="sxs-lookup"><span data-stu-id="ec3bd-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="ec3bd-111">Primary, Foreign</span><span class="sxs-lookup"><span data-stu-id="ec3bd-111">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="ec3bd-112">세션 요청 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="ec3bd-112">Time of session request.</span></span> <span data-ttu-id="ec3bd-113"><strong>SessionIdSeq</strong>와 함께 세션을 고유하게 식별하기 위해 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="ec3bd-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="ec3bd-114">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ec3bd-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="809ed-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="809ed-115"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="809ed-116">int</span><span class="sxs-lookup"><span data-stu-id="809ed-116">int</span></span></p></td>
-<td><p><span data-ttu-id="809ed-117">기본, 외래</span><span class="sxs-lookup"><span data-stu-id="809ed-117">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="809ed-118">세션을 식별 하는 ID 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="809ed-118">ID number to identify the session.</span></span> <span data-ttu-id="809ed-119">세션을 고유 하 게 식별 하는 <strong>Sessionidtime</strong> 과 함께 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="809ed-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="809ed-120">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 대화 상자 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="809ed-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="ec3bd-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="ec3bd-115"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="ec3bd-116">int</span><span class="sxs-lookup"><span data-stu-id="ec3bd-116">int</span></span></p></td>
+<td><p><span data-ttu-id="ec3bd-117">Primary, Foreign</span><span class="sxs-lookup"><span data-stu-id="ec3bd-117">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="ec3bd-118">세션을 식별하기 위한 ID 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="ec3bd-118">ID number to identify the session.</span></span> <span data-ttu-id="ec3bd-119"><strong>SessionIdTime</strong>과 함께 세션을 고유하게 식별하기 위해 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="ec3bd-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="ec3bd-120">자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ec3bd-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="809ed-121"><strong>위치</strong></span><span class="sxs-lookup"><span data-stu-id="809ed-121"><strong>Location</strong></span></span></p></td>
-<td><p><span data-ttu-id="809ed-122">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="809ed-122">nvarchar(max)</span></span></p></td>
+<td><p><span data-ttu-id="ec3bd-121"><strong>위치</strong></span><span class="sxs-lookup"><span data-stu-id="ec3bd-121"><strong>Location</strong></span></span></p></td>
+<td><p><span data-ttu-id="ec3bd-122">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="ec3bd-122">nvarchar(max)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="809ed-123">비상 전화의 위치입니다.</span><span class="sxs-lookup"><span data-stu-id="809ed-123">Location of emergency call.</span></span></p></td>
+<td><p><span data-ttu-id="ec3bd-123">응급 통화의 위치입니다.</span><span class="sxs-lookup"><span data-stu-id="ec3bd-123">Location of emergency call.</span></span></p></td>
 </tr>
 </tbody>
 </table>
