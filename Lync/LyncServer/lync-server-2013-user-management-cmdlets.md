@@ -12,16 +12,16 @@ ms:contentKeyID: 48184702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2396cb1a157b88d8beb9458006c1c8a44874dba3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a672eea92c820970b3cc4cc1c112c15fcffd641
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744578"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033797"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744578"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-18_
+_**마지막으로 수정 된 항목:** 2013-02-18_
 
-Microsoft Lync Server 2013에 포함 된 사용자 관리 cmdlet을 사용 하 여 Lync Server 사용자 계정을 설정, 해제, 수정할 수 있습니다.
+Microsoft Lync Server 2013에 포함 된 사용자 관리 cmdlet은 Lync Server 사용자 계정을 사용 하거나 사용 하지 않도록 설정 하 고 수정할 수 있도록 합니다.
 
 <div>
 
 ## <a name="user-management-cmdlets"></a>사용자 관리 Cmdlet
 
-사용자 및 사용자 계정에 적용 되는 대부분의 관리 작업은 Lync Server 제어판에서 수행할 수 있습니다. 기본 예외는 오디오 회의 공급자를 처리 하는 cmdlet입니다. Lync Server 관리 셸에서 또는 스크립트 내에서 cmdlet을 사용 하 여 사용자 관리 작업을 수행할 수 있습니다. 스크립트를 사용 하 여 특정 작업을 자동화할 수 있습니다. 다음은 사용자 및 사용자 계정 관리와 직접 관련 된 cmdlet의 목록입니다.
+사용자 및 사용자 계정에 적용 되는 대부분의 관리 작업은 Lync Server 제어판에서 수행할 수 있습니다. 주된 예외는 오디오 회의 공급자를 처리하는 cmdlet입니다. 사용자 관리 작업은 Lync Server 관리 셸 또는 스크립트 내에서 cmdlet을 사용 하 여 수행할 수 있습니다. 스크립트를 사용하는 경우 특정 작업을 자동화할 수 있습니다. 다음은 사용자 및 사용자 계정 관리에 직접적으로 관련된 cmdlet 목록입니다.
 
   - <span></span>  
     [Get-CsAdContact](https://docs.microsoft.com/powershell/module/skype/Get-CsAdContact)
@@ -59,25 +59,25 @@ Microsoft Lync Server 2013에 포함 된 사용자 관리 cmdlet을 사용 하 �
 
 <!-- end list -->
 
-  - [Get-CsEffectivePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsEffectivePolicy)
+  - [Get-cseffectivepolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsEffectivePolicy)
 
 <!-- end list -->
 
-  - [CsUcsRollback-호출](https://docs.microsoft.com/powershell/module/skype/Invoke-CsUcsRollback)
+  - [Invoke-csucsrollback-를 호출 합니다.](https://docs.microsoft.com/powershell/module/skype/Invoke-CsUcsRollback)
 
 <!-- end list -->
 
-  - [디버그-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/Debug-CsUnifiedContactStore)
+  - [Test-csunifiedcontactstore](https://docs.microsoft.com/powershell/module/skype/Debug-CsUnifiedContactStore)
 
-  - [Test-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/Test-CsUnifiedContactStore)
+  - [Test-csunifiedcontactstore](https://docs.microsoft.com/powershell/module/skype/Test-CsUnifiedContactStore)
 
 <!-- end list -->
 
   - <span></span>  
-    [-CsUser 사용 안 함](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)
+    [사용 안 함-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)
 
   - <span></span>  
-    [사용-CsUser](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)
+    [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)
 
   - <span></span>  
     [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)
@@ -86,7 +86,7 @@ Microsoft Lync Server 2013에 포함 된 사용자 관리 cmdlet을 사용 하 �
     [CsUser 이동](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)
 
   - <span></span>  
-    [집합-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser)
+    [설정-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser)
 
 <!-- end list -->
 
@@ -97,10 +97,10 @@ Microsoft Lync Server 2013에 포함 된 사용자 관리 cmdlet을 사용 하 �
     [제거-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserAcp)
 
   - <span></span>  
-    [Set-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp)
+    [설정-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp)
 
   - <span></span>  
-    [Test-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Test-CsAudioConferencingProvider)
+    [Test-csaudioconferencingprovider](https://docs.microsoft.com/powershell/module/skype/Test-CsAudioConferencingProvider)
 
 <!-- end list -->
 
@@ -113,11 +113,11 @@ Microsoft Lync Server 2013에 포함 된 사용자 관리 cmdlet을 사용 하 �
 
   - [부여-Csuser서비스 정책](https://docs.microsoft.com/powershell/module/skype/Grant-CsUserServicesPolicy)
 
-  - [New-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)
+  - [새-Csuser서비스 정책](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)
 
-  - [-Csuser서비스 정책 제거](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserServicesPolicy)
+  - [Csuser서비스 정책 제거](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserServicesPolicy)
 
-  - [Set-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)
+  - [설정-Csuser서비스 정책](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)
 
 </div>
 

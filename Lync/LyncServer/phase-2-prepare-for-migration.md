@@ -1,5 +1,5 @@
 ---
-title: '2단계: 마이그레이션 준비'
+title: '2 단계: 마이그레이션 준비'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85db7e4aea8405bf1ec3f94e491c7007ae8b51ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: febd806e55e8e2d6234818ec45eefb33cc3ef708
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757702"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034328"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a>2단계: 마이그레이션 준비
+# <a name="phase-2-prepare-for-migration"></a>2 단계: 마이그레이션 준비
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757702"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-17_
+_**마지막으로 수정 된 항목:** 2012-09-17_
 
-Lync Server 2010에서 Lync Server 2013으로 마이그레이션을 시작 하기 전에이 섹션에 설명 된 단계를 따르세요.
+Lync Server 2010에서 Lync Server 2013로의 마이그레이션을 시작 하기 전에이 섹션에서 설명 하는 단계를 따르세요.
 
 <div>
 
@@ -45,7 +45,7 @@ Lync Server 2010에서 Lync Server 2013으로 마이그레이션을 시작 하�
 
   - [Lync Server 2010 업데이트 적용](apply-lync-server-2010-updates.md)
 
-  - [파일럿 풀 배포에 대한 DNS 레코드 구성](configure-dns-records-for-pilot-pool-deployment.md)
+  - [파일럿 풀 배포를 위한 DNS 레코드 구성](configure-dns-records-for-pilot-pool-deployment.md)
 
   - [모범 사례 분석기 실행](run-best-practices-analyzer.md)
 

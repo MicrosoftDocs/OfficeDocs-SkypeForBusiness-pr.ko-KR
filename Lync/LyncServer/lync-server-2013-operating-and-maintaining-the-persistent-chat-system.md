@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 영구 채팅 시스템 운영 및 유지 관리'
+title: 'Lync Server 2013: 영구 채팅 시스템 작동 및 유지 관리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a90b1416f617dd687bcfff10a925bfe809d18f7d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ce455f32181ee604c84a6ec0c2e9a1de74aac5a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755822"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034088"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="operating-and-maintaining-the-persistent-chat-system-in-lync-server-2013"></a>Lync Server 2013에서 영구 채팅 시스템 운영 및 유지 관리
+# <a name="operating-and-maintaining-the-persistent-chat-system-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 시스템 운영 및 유지 관리
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41755822"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
 다음 항목에서는 영구 채팅 서버를 실행 하는 컴퓨터를 유지 관리 하는 방법과 영구 채팅 서버 작업을 관리 하는 방법에 대해 설명 합니다.
 

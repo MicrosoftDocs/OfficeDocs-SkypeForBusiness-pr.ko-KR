@@ -1,5 +1,5 @@
 ---
-title: Microsoft MSPL (SIP 처리 언어) 응용 프로그램 관리
+title: MSPL (Microsoft SIP Processing Language) 응용 프로그램 관리
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d0f73933c04b78b9557694fa8b030fbeffe8a2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ae3d8fbe015b260d4867635874d5eea39e7f5ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765599"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033717"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-microsoft-sip-processing-language-mspl-applications-in-lync-server-2013"></a>Lync Server 2013에서 Microsoft MSPL (SIP 처리 언어) 응용 프로그램 관리
+# <a name="managing-microsoft-sip-processing-language-mspl-applications-in-lync-server-2013"></a>Lync Server 2013에서 MSPL (Microsoft SIP Processing Language) 응용 프로그램 관리
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41765599"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-14_
+_**마지막으로 수정 된 항목:** 2012-10-14_
 
-이 섹션의 절차를 사용 하 여 Microsoft MSPL (SIP 처리 언어) 응용 프로그램을 관리할 수 있습니다.
+이 섹션의 절차에 따라 MSPL(Microsoft SIP Processing Language) 응용 프로그램을 관리할 수 있습니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에서 MSPL(Microsoft SIP Processing Language) 서버 응용 프로그램 보기](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)
+  - [Lync Server 2013에서 MSPL (Microsoft SIP Processing Language) 서버 응용 프로그램 보기](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)
 
-  - [Lync Server 2013에서 Microsoft MSPL (SIP 처리 언어) 응용 프로그램을 중요 하거나 중요 하지 않음으로 표시](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)
+  - [Lync Server 2013에서 Microsoft MSPL (SIP 처리 언어) 응용 프로그램을 중요 또는 중요 하지 않음으로 표시](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)
 
-  - [Lync Server 2013에서 Microsoft SIP 처리 언어 (MSPL) 서버 응용 프로그램 사용 또는 사용 안 함](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)
+  - [Lync Server 2013에서 MSPL (Microsoft SIP Processing Language) 서버 응용 프로그램을 사용 하거나 사용 하지 않도록 설정](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)
 
 </div>
 

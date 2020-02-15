@@ -12,16 +12,16 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37d5becaab996d6fe4889086d3a68a45ffc1f6d7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db7291674485dec30211d88e2739b0da89fb334f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733458"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035060"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41733458"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-27_
+_**마지막으로 수정 된 항목:** 2012-06-27_
 
-IPsec (인터넷 프로토콜 보안) (IETF RFC 4301-4309 참조)이 배포 된 엔터프라이즈 네트워크의 경우 오디오, 비디오, 파노라마 비디오를 제공 하는 데 사용 되는 포트 범위에 대해 IPsec을 사용 하지 않도록 설정 해야 합니다. 권장 사항은 IPsec 협상으로 인해 미디어 포트를 할당할 때 지연 되지 않도록 하는 데 필요 합니다.
+IPsec (인터넷 프로토콜 보안) (IETF RFC 4301-4309 참조)이 배포 된 엔터프라이즈 네트워크의 경우에는 오디오, 비디오 및 파노라마 비디오를 배달 하는 데 사용 되는 포트 범위에서 IPsec을 사용 하지 않도록 설정 해야 합니다. 권장 사항은 IPsec 협상으로 인 한 미디어 포트 할당의 지연을 방지 해야 하는 경우에의 동기입니다.
 
-다음 표에서는 권장 IPsec 예외 설정에 대해 설명 합니다.
+다음 표에서는 권장 되는 IPsec 예외 설정에 대해 설명 합니다.
 
 ### <a name="recommended-ipsec-exceptions"></a>권장 IPsec 예외
 
@@ -58,7 +58,7 @@ IPsec (인터넷 프로토콜 보안) (IETF RFC 4301-4309 참조)이 배포 된 
 <th>규칙 이름</th>
 <th>원본 IP</th>
 <th>대상 IP</th>
-<th>프로토콜별</th>
+<th>프로토콜로</th>
 <th>원본 포트</th>
 <th>대상 포트</th>
 <th>인증 요구 사항</th>
@@ -66,140 +66,140 @@ IPsec (인터넷 프로토콜 보안) (IETF RFC 4301-4309 참조)이 배포 된 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>A/V Edge 서버 내부 인바운드</p></td>
-<td><p>이상</p></td>
+<td><p>A/V에 지 서버 내부 인바운드</p></td>
+<td><p>모두</p></td>
 <td><p>A/V에 지 서버 내부</p></td>
 <td><p>UDP 및 TCP</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V Edge 서버 외부 인바운드</p></td>
-<td><p>이상</p></td>
+<td><p>A/V에 지 서버 외부 인바운드</p></td>
+<td><p>모두</p></td>
 <td><p>A/V에 지 서버 외부</p></td>
 <td><p>UDP 및 TCP</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V Edge 서버 내부 아웃 바운드</p></td>
+<td><p>A/V에 지 서버 내부 아웃 바운드</p></td>
 <td><p>A/V에 지 서버 내부</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
 <td><p>UDP &amp; TCP</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V Edge 서버 외부 아웃 바운드</p></td>
+<td><p>A/V에 지 서버 외부 아웃 바운드</p></td>
 <td><p>A/V에 지 서버 외부</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
 <td><p>UDP 및 TCP</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 <tr class="odd">
 <td><p>중재 서버 인바운드</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
 <td><p>중재</p>
 <p>서버 (s)</p></td>
 <td><p>UDP 및 TCP</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 <tr class="even">
 <td><p>중재 서버 아웃 바운드</p></td>
 <td><p>중재</p>
 <p>서버 (s)</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
 <td><p>UDP 및 TCP</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 <tr class="odd">
 <td><p>회의 전화 교환 인바운드</p></td>
-<td><p>이상</p></td>
-<td><p>회의 수행자를 실행 하는 프런트 엔드 서버</p></td>
+<td><p>모두</p></td>
+<td><p>회의 전화 교환을 실행 하는 프런트 엔드 서버</p></td>
 <td><p>UDP 및 TCP</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 <tr class="even">
 <td><p>회의 전화 교환 아웃 바운드</p></td>
-<td><p>회의 수행자를 실행 하는 프런트 엔드 서버</p></td>
-<td><p>이상</p></td>
+<td><p>회의 전화 교환을 실행 하는 프런트 엔드 서버</p></td>
+<td><p>모두</p></td>
 <td><p>UDP 및 TCP</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V 회의 인바운드</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
 <td><p>프런트 엔드 서버</p></td>
 <td><p>UDP 및 TCP</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V 회의 아웃 바운드</p></td>
 <td><p>프런트 엔드 서버</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
 <td><p>UDP 및 TCP</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 <tr class="odd">
 <td><p>Exchange 인바운드</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
 <td><p>Exchange 통합 메시징</p></td>
 <td><p>UDP 및 TCP</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 <tr class="even">
 <td><p>응용 프로그램 공유 서버 인바운드</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
 <td><p>응용 프로그램 공유 서버</p></td>
-<td><p>NET.TCP</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
+<td><p>TCP</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 <tr class="odd">
 <td><p>응용 프로그램 공유 서버 아웃 바운드</p></td>
 <td><p>응용 프로그램 공유 서버</p></td>
-<td><p>이상</p></td>
-<td><p>NET.TCP</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
+<td><p>TCP</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 <tr class="even">
 <td><p>Exchange 아웃 바운드</p></td>
 <td><p>Exchange 통합 메시징</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
 <td><p>UDP 및 TCP</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 <tr class="odd">
 <td><p>클라이언트</p></td>
-<td><p>이상</p></td>
-<td><p>이상</p></td>
-<td><p>UDP</p></td>
+<td><p>모두</p></td>
+<td><p>모두</p></td>
+<td><p>P</p></td>
 <td><p>지정 된 미디어 포트 범위</p></td>
-<td><p>이상</p></td>
+<td><p>모두</p></td>
 <td><p>인증 안 함</p></td>
 </tr>
 </tbody>

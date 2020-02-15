@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: E9에 대 한 사이트 정보 구성-1-1'
+title: 'Lync Server 2013: E9-1-1에 대 한 사이트 정보 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183824
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 157054343b299e7be1be75d3ee615c27cf74fb83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f39760dde02ab573111642d5ec888a321184b41
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730008"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013에서 E9에 대 한 사이트 정보 구성-1-1
+# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013에서 E9-1-1에 대 한 사이트 정보 구성
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41730008"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-03_
+_**마지막으로 수정 된 항목:** 2012-10-03_
 
-서브넷에 대 한 위치 정책을 정의 하려면 다음을 순서에 관계 없이 수행 해야 합니다.
+서브넷용 위치 정책을 정의하려면 다음을 수행해야 합니다(순서는 관계없음).
 
-  - 네트워크 사이트에 위치 정책을 적용 합니다.
+  - 네트워크 사이트에 위치 정책을 적용합니다.
 
-  - 서브넷을 네트워크 사이트에 추가 합니다.
+  - 네트워크 사이트에 서브넷을 추가합니다.
 
-네트워크 사이트에 대 한 자세한 내용은 [Lync server 2013의 Lync server 사이트](lync-server-2013-sites.md)를 참조 하세요.
+네트워크 사이트에 대 한 자세한 내용은 lync server [sites For Lync server 2013](lync-server-2013-sites.md)을 참조 하십시오.
 
 <div>
 
 
 > [!NOTE]  
-> 다른 음성 기능에 대 한 네트워크 사이트를 만들고 같은 사이트를 사용 하 여 E9-1을 구성 하려면 E9-1-1에 사용할 사이트를 수정할 수 있습니다.
+> 다른 음성 기능용으로 네트워크 사이트를 만드는 경우 동일한 사이트를 사용해 E9-1-1을 구성하려면 E9-1-1에 사용되도록 사이트를 수정하면 됩니다.
 
 
 
@@ -61,7 +61,7 @@ _**마지막으로 수정한 주제:** 2012-10-03_
 
   - [Lync Server 2013에서 네트워크 사이트에 위치 정책 추가](lync-server-2013-add-a-location-policy-to-a-network-site.md)
 
-  - [Lync Server 2013 에서 네트워크 사이트에 서브넷 연결](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [Lync Server 2013에서 서브넷을 네트워크 사이트에 연결](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
 </div>
 

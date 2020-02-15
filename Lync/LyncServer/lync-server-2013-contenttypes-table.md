@@ -12,16 +12,16 @@ ms:contentKeyID: 48185723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cf7ba9c9fb267e8c65c3ba672850c04eb95a459
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 461b578613a90a0df33e3145ed19e1709db45206
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740568"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41740568"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2010-11-07_
+_**마지막으로 수정 된 항목:** 2010-11-07_
 
-ContentTypes 테이블은 피어 투 피어 세션과 회의 세션에 사용 되는 콘텐츠 형식의 목록을 저장 하는 지원 테이블입니다. 테이블의 각 레코드는 한 가지 콘텐츠 형식을 나타냅니다.
+ContentTypes 테이블은 피어-투-피어 세션 및 회의 세션에 사용되는 콘텐츠 유형 목록을 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 콘텐츠 유형을 나타냅니다.
 
 
 <table>
@@ -52,21 +52,21 @@ ContentTypes 테이블은 피어 투 피어 세션과 회의 세션에 사용 �
 <th>열</th>
 <th>데이터 형식</th>
 <th>키/인덱스</th>
-<th>세부적인</th>
+<th>세부 정보</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>ContentTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
-<td><p>콘텐츠 형식을 식별 하는 고유 번호입니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>콘텐츠 유형을 식별하는 고유 번호입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentType</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td> </td>
-<td><p>콘텐츠 형식 이름입니다.</p></td>
+<td><p>콘텐츠 유형 이름입니다.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 장애 조치(failover) 경로 구성'
+title: 'Lync Server 2013: 장애 조치 (failover) 경로 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22ebdf359a8cdf5f20ada8740a589b0181c3cc93
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 17477c647d2e5dd5918225486c43b93a29509fb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741288"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-failover-route-in-lync-server-2013"></a>Lync Server 2013에서 장애 조치(failover) 경로 구성
+# <a name="configuring-a-failover-route-in-lync-server-2013"></a>Lync Server 2013에서 장애 조치 (failover) 경로 구성
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41741288"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-21_
+_**마지막으로 수정 된 항목:** 2012-09-21_
 
-다음 예에서는 관리자가 GW1에서 유지 관리를 위해 중단 되거나 사용할 수 없는 경우에 사용할 장애 조치 경로를 정의 하는 방법을 보여 줍니다. 다음 표에는 필요한 구성 변경 내용이 설명 되어 있습니다.
+다음 예제에서는 관리자가 Dallas-GW1이 유지 관리를 위해 다운되거나 다른 이유로 인해 사용할 수 없는 경우 사용할 장애 조치(failover) 경로를 정의할 수 있는 방법을 보여 줍니다. 다음 표에서는 필요한 구성 변경을 보여 줍니다.
 
-### <a name="table-1-user-policy"></a>표 1 사용자 정책
+### <a name="table-1-user-policy"></a>표 1. 사용자 정책
 
 <table>
 <colgroup>
@@ -55,15 +55,15 @@ _**마지막으로 수정한 주제:** 2012-09-21_
 <tbody>
 <tr class="odd">
 <td><p>기본 통화 정책</p></td>
-<td><p>로컬</p>
+<td><p>Local</p>
 <p>GlobalPSTNHopoff</p></td>
 </tr>
 <tr class="even">
-<td><p>Redmond 로컬 정책</p></td>
+<td><p>레드몬드 시내 정책</p></td>
 <td><p>RedmondLocal</p></td>
 </tr>
 <tr class="odd">
-<td><p>달라스 호출 정책</p></td>
+<td><p>달라스 통화 정책</p></td>
 <td><p>DallasUsers</p>
 <p>GlobalPSTNHopoff</p></td>
 </tr>
@@ -71,7 +71,7 @@ _**마지막으로 수정한 주제:** 2012-09-21_
 </table>
 
 
-### <a name="table-2-routes"></a>표 2. 경로도
+### <a name="table-2-routes"></a>표 2. 경로
 
 <table>
 <colgroup>
@@ -84,43 +84,43 @@ _**마지막으로 수정한 주제:** 2012-09-21_
 <thead>
 <tr class="header">
 <th>경로 이름</th>
-<th>번호 패턴</th>
+<th>발신 제한</th>
 <th>전화 사용</th>
 <th>트렁크</th>
-<th>게이트웨이와</th>
+<th>게이트웨이</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Redmond 로컬 경로</p></td>
+<td><p>레드몬드 시내 경로</p></td>
 <td><p>^\+1 (425 | 206 | 253) (\d{7}) $</p></td>
-<td><p>로컬</p>
+<td><p>Local</p>
 <p>RedmondLocal</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p></td>
-<td><p>빨강-GW1</p>
-<p>빨강-GW2</p></td>
+<td><p>레드-GW1</p>
+<p>레드-GW2</p></td>
 </tr>
 <tr class="even">
-<td><p>달라스 로컬 경로</p></td>
+<td><p>달라스 시내 경로</p></td>
 <td><p>^\+1 (972 | 214 | 469) (\d{7}) $</p></td>
-<td><p>로컬</p></td>
+<td><p>Local</p></td>
 <td><p>Trunk3</p></td>
 <td><p>달라스-GW1</p></td>
 </tr>
 <tr class="odd">
-<td><p>유니버설 경로</p></td>
+<td><p>범용 경로</p></td>
 <td><p>^\+? (\d *) $</p></td>
 <td><p>GlobalPSTNHopoff</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p>
 <p>Trunk3</p></td>
-<td><p>빨강-GW1</p>
-<p>빨강-GW2</p>
+<td><p>레드-GW1</p>
+<p>레드-GW2</p>
 <p>달라스-GW1</p></td>
 </tr>
 <tr class="even">
-<td><p>달라스 사용자 라우팅</p></td>
+<td><p>달라스 사용자 경로</p></td>
 <td><p>^\+? (\d *) $</p></td>
 <td><p>DallasUsers</p></td>
 <td><p>Trunk3</p></td>
@@ -130,7 +130,7 @@ _**마지막으로 수정한 주제:** 2012-09-21_
 </table>
 
 
-표 1에서 GlobalPSTNHopoff의 전화 사용은 달라스 호출 정책의 DallasUsers 전화 사용 후에 추가 됩니다. 이렇게 하면 DallasUsers 전화 사용에 대 한 경로를 사용할 수 없는 경우 달라스 호출 정책으로 전화를 걸 때 GlobalPSTNHopoff 전화 사용에 대해 구성 된 경로를 사용할 수 있습니다.
+표 1에서 GlobalPSTNHopoff의 전화 사용은 달라스 통화 정책의 DallasUsers 전화 사용 뒤에 추가됩니다. 이렇게 하면 DallasUsers 전화 사용의 경로를 사용할 수 없는 경우 달라스 통화 정책의 통화가 GlobalPSTNHopoff 전화에 대해 구성된 경로를 사용할 수 있습니다.
 
 </div>
 

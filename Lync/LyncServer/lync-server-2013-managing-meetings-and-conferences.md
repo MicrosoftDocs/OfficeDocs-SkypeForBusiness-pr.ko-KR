@@ -12,16 +12,16 @@ ms:contentKeyID: 48184755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23a3b907702cda1ae3f528da8890256dd0facce1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f9da919b539ce80303889069379aea9abc89e80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762066"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033727"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41762066"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-08-09_
+_**마지막으로 수정 된 항목:** 2013-08-09_
 
 이 섹션의 항목에서는 Lync Server 제어판의 **회의** 그룹에 있는 페이지를 사용 하 여 수행할 수 있는 작업에 대 한 단계별 절차를 제공 합니다.
 
@@ -49,7 +49,7 @@ _**마지막으로 수정한 주제:** 2013-08-09_
 
   - [Lync Server 2013 (구성/액세스 번호)의 전화 접속 회의](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)
 
-  - [Lync 사용 전화 및 Lync Server 2013을 사용 하 여 전화 걸기](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
+  - [Lync 사용 전화 및 Lync Server 2013에서 전화 걸기 사용](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
 
 </div>
 

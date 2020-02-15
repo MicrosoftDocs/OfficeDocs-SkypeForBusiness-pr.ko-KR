@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server에 대해 사용 하도록 설정 된 사용자 계정'
+title: 'Lync Server 2013: Lync Server에 사용할 수 있는 사용자 계정'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 613d6350fcb405b1ae8beef78c3ee8c8a64a084c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d51f72f586ab6d5b5094c61ae09d8ac316350b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744658"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033988"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-accounts-enabled-for-lync-server-2013"></a>Lync Server 2013에 대해 사용 하도록 설정 된 사용자 계정
+# <a name="user-accounts-enabled-for-lync-server-2013"></a>Lync Server 2013에 사용할 수 있는 사용자 계정
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41744658"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2014-04-18_
+_**마지막으로 수정 된 항목:** 2014-04-18_
 
-이 섹션의 항목에서는 Lync Server 2013 제어판을 사용 하 여 수행할 수 있는 사용자 설정을 구성 하는 단계별 절차를 제공 합니다.
+이 섹션의 항목에서는 Lync Server 2013 제어판을 사용 하 여 수행할 수 있는 사용자 설정을 구성 하기 위한 단계별 절차를 제공 합니다.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync Server 제어판을 사용 하 여 Active Directory Domain Admins 그룹의 구성원 인 사용자를 관리할 수 없습니다. Domain Admins 사용자의 경우 Lync Server 제어판을 사용 하 여 읽기 전용 검색 작업을 수행할 수 있습니다. 도메인 관리자 사용자 (예: Lync Server 제어판에 대 한 사용 또는 사용 안 함, 풀 또는 정책 할당 변경, 전화 통신 설정, SIP 주소)에 대해 쓰기 작업을 수행 하려면 Domain Admins 사용자로 로그온 한 상태에서 Windows PowerShell cmdlet을 사용 해야 합니다. Windows PowerShell cmdlet을 사용 하 여 사용자를 관리 하는 방법에 대 한 자세한 내용은 <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 관리 셸을</A>참조 하세요.
+> Lync Server 제어판을 사용 하 여 Active Directory Domain Admins 그룹의 구성원 인 사용자를 관리할 수는 없습니다. Domain Admins 사용자의 경우 Lync Server 제어판을 사용 하 여 읽기 전용 검색 작업을 수행할 수 있습니다. 도메인 관리자 사용자 (예: Lync Server 제어판에 대 한 사용 또는 사용 안 함, 변경 풀 또는 정책 할당, 전화 통신 설정, SIP 주소)에 대해 쓰기 작업을 수행 하려면 Domain Admins 사용자로 로그온 한 상태에서 Windows PowerShell cmdlet을 사용 해야 합니다. Windows PowerShell cmdlet을 사용 하 여 사용자를 관리 하는 방법에 대 한 자세한 내용은 <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 관리 셸을</A>참조 하세요.
 
 
 
 </div>
 
-사용자 검색 또는 사용자 검색 결과 필터링이 포함 된 Lync Server 2013 관리 작업을 수행 하는 경우 Active Directory 도메인 서비스의 특성으로 존재 하지만 글로벌 카탈로그로 복제 되지 않는 일부 사용자 속성이 있습니다. Microsoft Exchange Server가 배포 될 때까지 Lync Server가 아닌 Microsoft Exchange는 다음 특성을 설치할 때 글로벌 카탈로그로 복제 하도록 표시 합니다.
+사용자를 검색 하거나 사용자 검색 결과를 필터링 하는 모든 Lync Server 2013 관리 작업을 수행 하는 경우 Active Directory 도메인 서비스에서 특성으로 존재 하지만 글로벌 카탈로그로 복제 되지 않는 일부 사용자 속성이 있습니다. Microsoft Exchange Server를 배포할 때까지 Lync Server가 아닌 Microsoft Exchange에서는 다음 특성을 설치할 때 글로벌 카탈로그로 복제를 표시 합니다.
 
 
 <table>
@@ -67,16 +67,16 @@ _**마지막으로 수정한 주제:** 2014-04-18_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>머리글자</p></td>
-<td><p>주소란</p>
+<td><p>이니셜</p></td>
+<td><p>나머지 주소</p>
 <p>국가/지역</p>
-<p>호출</p>
-<p>전송</p>
+<p>호출기</p>
+<p>팩스</p>
 <p>모바일</p></td>
-<td><p>타이틀이</p>
-<p>회사별로</p>
+<td><p>제목</p>
+<p>Company</p>
 <p>부서</p>
-<p>Office</p></td>
+<p>사무실</p></td>
 </tr>
 </tbody>
 </table>
@@ -86,17 +86,17 @@ _**마지막으로 수정한 주제:** 2014-04-18_
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에서 사용 하도록 설정 된 사용자 계정에 대 한 정보 보기](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)
+  - [Lync Server 2013에 대해 사용 하도록 설정 된 사용자 계정에 대 한 정보 보기](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)
 
-  - [Lync Server 2013에 대 한 사용자 설정 및 해제](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
+  - [Lync Server 2013에 대 한 사용자 사용 및 사용 안 함](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
 
-  - [Lync Server 2013의 사용자를 위한 엔터프라이즈 음성 관리](lync-server-2013-managing-enterprise-voice-for-users.md)
+  - [Lync Server 2013의 사용자에 대 한 Enterprise Voice 관리](lync-server-2013-managing-enterprise-voice-for-users.md)
 
   - [Lync Server 2013에서 사용자 계정 속성 수정](lync-server-2013-modifying-user-account-properties.md)
 
   - [Lync Server 2013에서 외부 액세스 정책 관리](lync-server-2013-manage-external-access-policy-for-your-organization.md)
 
-  - [Lync Server 2013에서 사용자별 정책 지정](lync-server-2013-assigning-per-user-policies.md)
+  - [Lync Server 2013에서 사용자별 정책 할당](lync-server-2013-assigning-per-user-policies.md)
 
 </div>
 

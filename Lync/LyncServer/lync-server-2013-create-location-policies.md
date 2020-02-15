@@ -12,20 +12,20 @@ ms:contentKeyID: 48185794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55c10244bb3a70f7218dc3967e7f4f134048024f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e7b815f533661fb553c7b9217f23b70f0027c559
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726318"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-location-policies-in-lync-server-2013"></a>Lync Server 2013에서 위치 정책 만들기
+# <a name="create-location-policies-in-lync-server-2013"></a>Lync Server 2013의 위치 정책 만들기
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41726318"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-11_
+_**마지막으로 수정 된 항목:** 2012-09-11_
 
-Lync Server는 위치 정책을 사용 하 여 클라이언트 등록 중 E9-1-1에 Lync 클라이언트를 사용 하도록 설정 합니다. 위치 정책에는 E9-1-1이 구현 되는 방법을 정의 하는 설정이 포함 되어 있습니다.
+Lync Server는 클라이언트 등록 중에 E9-1-1에 대해 Lync 클라이언트를 사용 하도록 설정 하기 위해 위치 정책을 사용 합니다. 위치 정책에는 E9-1-1이 구현 되는 방식을 정의 하는 설정이 포함 되어 있습니다.
 
-전역 위치 정책을 편집 하 고 태그가 지정 된 새 위치 정책을 만들 수 있습니다. 클라이언트는 연결 된 위치 정책을 사용 하 여 서브넷 내에 있지 않거나 클라이언트에 위치 정책이 직접 할당 되지 않은 경우 전역 정책을 가져옵니다. 태그가 지정 된 정책은 서브넷 또는 사용자에 게 할당 됩니다.
+전역 위치 정책을 편집 하 고 태그가 지정 된 새 위치 정책을 만들 수 있습니다. 클라이언트가 연결 된 위치 정책을 사용 하는 서브넷 내에 없거나 클라이언트에 위치 정책이 직접 할당 되지 않은 경우에는 글로벌 정책을 가져옵니다. 태그가 지정 된 정책은 서브넷 또는 사용자에 게 할당 됩니다.
 
-위치 정책을 만들려면 RTCUniversalServerAdmins 그룹의 구성원 이거나 CsVoiceAdministrator 관리 역할의 구성원 이거나 해당 관리자 권한 및 사용 권한이 있는 계정을 사용 해야 합니다.
+위치 정책을 만들려면 RTCUniversalServerAdmins 그룹의 구성원 이거나 CsVoiceAdministrator 관리 역할의 구성원 이거나이에 해당 하는 관리자 권한 및 사용 권한이 있는 계정을 사용 해야 합니다.
 
-위치 정책에 대 한 자세한 설명은 [Lync Server 2013의 위치 정책 정의](lync-server-2013-defining-the-location-policy.md)를 참조 하세요. 이 절차의 cmdlet에서는 다음 값을 사용 하 여 정의 된 위치 정책을 사용 합니다.
+위치 정책에 대 한 자세한 내용은 [Lync Server 2013에 대 한 위치 정책 정의](lync-server-2013-defining-the-location-policy.md)를 참조 하십시오. 이 절차의 cmdlet은 다음 값을 사용 하 여 정의 된 위치 정책을 사용 합니다.
 
 
 <table>
@@ -60,19 +60,19 @@ Lync Server는 위치 정책을 사용 하 여 클라이언트 등록 중 E9-1-1
 <tbody>
 <tr class="odd">
 <td><p>EnhancedEmergencyServicesEnabled</p></td>
-<td><p><strong>False</strong></p></td>
+<td><p><strong>적용</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>LocationRequired</p></td>
-<td><p><strong>고 지 사항</strong></p></td>
+<td><p><strong>고지 사항</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>EnhancedEmergencyServiceDisclaimer</p></td>
-<td><p>회사 정책에 따라 위치를 설정 해야 합니다. 위치를 설정 하지 않으면 비상 서비스는 비상 시 사용자를 찾을 수 없게 됩니다. 위치를 설정 하십시오.</p></td>
+<td><p>Microsoft.rtc.management.writableconfig.policy.location.enhancedemergencyservicedisclaimer 유형의</p></td>
+<td><p>회사 정책에 따라 위치를 설정 해야 합니다. 위치를 설정 하지 않으면 응급 서비스에서 해당 사용자를 찾을 수 없게 됩니다. 위치를 설정 하십시오.</p></td>
 </tr>
 <tr class="even">
 <td><p>UseLocationForE911Only</p></td>
-<td><p><strong>해제</strong></p></td>
+<td><p><strong>False</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p>PstnUsage</p></td>
@@ -106,23 +106,23 @@ Lync Server는 위치 정책을 사용 하 여 클라이언트 등록 중 E9-1-1
 </table>
 
 
-위치 정책을 사용 하는 방법에 대 한 자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하세요.
+위치 정책을 사용 하는 방법에 대 한 자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하십시오.
 
-  - New-CsLocationPolicy
+  - 새-CsLocationPolicy
 
   - Get-CsLocationPolicy
 
-  - Set-CsLocationPolicy
+  - 설정-CsLocationPolicy
 
-  - Remove-CsLocationPolicy
+  - 제거-CsLocationPolicy
 
-  - 허용-CsLocationPolicy
+  - 부여-CsLocationPolicy
 
 <div>
 
-## <a name="to-create-location-policies"></a>위치 정책 만들기
+## <a name="to-create-location-policies"></a>위치 정책을 만들려면
 
-1.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
     
     <div>
     
@@ -133,7 +133,7 @@ Lync Server는 위치 정책을 사용 하 여 클라이언트 등록 중 E9-1-1
     
     </div>
 
-2.  필요에 따라 다음 cmdlet을 실행 하 여 전역 위치 정책을 편집 합니다.
+2.  필요한 경우 다음 cmdlet을 실행 하 여 전역 위치 정책을 편집 합니다.
     
         Set-CsLocationPolicy -Identity Global -EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -PstnUsage "emergencyUsage" -EmergencyDialString "911" -ConferenceMode "twoway" -ConferenceUri "sip:+14255550123@litwareinc.com" -EmergencyDialMask "112" NotificationUri "sip:security@litwareinc.com" -UseLocationForE911Only $true -LocationRefreshInterval 2
 
@@ -141,7 +141,7 @@ Lync Server는 위치 정책을 사용 하 여 클라이언트 등록 중 E9-1-1
     
         New-CsLocationPolicy -Identity Tag:Redmond - EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -UseLocationForE911Only $false -PstnUsage "EmergencyUsage" -EmergencyDialString "911" -EmergencyDialMask "112" -NotificationUri "sip:security@litwareinc.com" -ConferenceUri "sip:+14255550123@litwareinc.com" -ConferenceMode "twoway" -LocationRefreshInterval 2
 
-4.  3 단계에서 만든 태그가 지정 된 위치 정책을 사용자 정책에 적용 하려면 다음 cmdlet을 실행 합니다.
+4.  다음 cmdlet를 실행 하 여 3 단계에서 만든 태그가 지정 된 위치 정책을 사용자 정책에 적용 합니다.
     
         (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond
 

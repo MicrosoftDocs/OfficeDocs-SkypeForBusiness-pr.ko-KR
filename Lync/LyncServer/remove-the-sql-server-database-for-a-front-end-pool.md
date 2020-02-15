@@ -1,5 +1,5 @@
 ---
-title: 프런트 엔드 풀에 대한 SQL Server 데이터베이스 제거
+title: 프런트 엔드 풀에 대 한 SQL Server 데이터베이스 제거
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 853b52c6f6a06d05f106114ab6b59ebc52129fc3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a6aba3f084be6c40d5019af5da37f1a682f6eb8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727148"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>프런트 엔드 풀에 대한 SQL Server 데이터베이스 제거
+# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>프런트 엔드 풀에 대 한 SQL Server 데이터베이스 제거
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41727148"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-04_
+_**마지막으로 수정 된 항목:** 2012-10-04_
 
-Microsoft Lync Server 2010 프런트 엔드 풀을 제거 하거나 다른 데이터베이스를 사용 하도록 풀을 다시 구성한 후에는 풀 데이터를 호스트 하는 SQL Server 데이터베이스를 제거할 수 있습니다. 토폴로지 작성기에서 정의를 제거 하려면 다음 절차를 사용 하 여 데이터베이스 서버에서 데이터베이스 및 로그 파일을 제거 합니다.
+Microsoft Lync Server 2010 프런트 엔드 풀을 제거 하거나 다른 데이터베이스를 사용 하도록 풀을 다시 구성한 후에는 해당 풀 데이터를 호스팅한 SQL Server 데이터베이스를 제거할 수 있습니다. 다음 절차에 따라 토폴로지 작성기에서 정의를 제거 하 고 데이터베이스 서버에서 데이터베이스 및 로그 파일을 제거 합니다.
 
 <div>
 
@@ -45,9 +45,9 @@ Microsoft Lync Server 2010 프런트 엔드 풀을 제거 하거나 다른 데�
 
 1.  Lync Server 2013 프런트 엔드 서버에서 토폴로지 작성기를 열고 기존 토폴로지를 다운로드 합니다.
 
-2.  토폴로지 작성기에서 **공유 구성 요소** 를 탐색 하 고 **sql server 저장소**로 이동한 다음 제거 되거나 다시 구성 된 프런트 엔드 풀과 연결 된 sql server 인스턴스를 마우스 오른쪽 단추로 클릭 한 다음 **삭제**를 클릭 합니다.
+2.  토폴로지 작성기에서 **공유 구성 요소** 를 탐색 한 다음 **sql server 저장소**로 이동한 후 제거 되거나 다시 구성 된 프런트 엔드 풀과 연결 된 SQL Server 인스턴스를 마우스 오른쪽 단추로 클릭 한 다음 **삭제**를 클릭 합니다.
 
-3.  토폴로지를 게시 한 다음 복제 상태를 확인 합니다.
+3.  토폴로지를 게시 한 후 복제 상태를 확인 합니다.
 
 </div>
 
@@ -55,23 +55,23 @@ Microsoft Lync Server 2010 프런트 엔드 풀을 제거 하거나 다른 데�
 
 ## <a name="to-remove-user-and-application-databases-from-the-sql-server"></a>SQL Server에서 사용자 및 응용 프로그램 데이터베이스를 제거 하려면
 
-1.  SQL Server에서 데이터베이스를 제거 하려면 데이터베이스 파일을 제거 하려는 SQL Server에 대 한 SQL Server sysadmins 그룹의 구성원 이어야 합니다.
+1.  SQL Server에서 데이터베이스를 제거하려면 사용자가 데이터베이스 파일을 제거하려는 SQL Server에 대해 SQL Server sysadmins 그룹의 구성원이어야 합니다.
 
 2.  Lync Server 관리 셸 열기
 
-3.  풀 사용자 저장소의 데이터베이스를 제거 하려면 다음을 입력 합니다.
+3.  풀 사용자 저장소에 대 한 데이터베이스를 제거 하려면 다음을 입력 합니다.
     
         Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    여기서 \<fqdn\> 은 데이터베이스 서버의 fqdn (정규화 된 도메인 이름)이 고 \<인스턴스\> 는 명명 된 데이터베이스 인스턴스 (즉, 정의 된 경우)입니다.
+    여기서 \<fqdn\> 은 데이터베이스 서버의 fqdn (정규화 된 도메인 이름)이 고 \<인스턴스\> 는 명명 된 데이터베이스 인스턴스이며 (즉, 정의 된 경우).
 
-4.  풀 응용 프로그램 저장소의 데이터베이스를 제거 하려면 다음을 입력 합니다.
+4.  풀 응용 프로그램 저장소에 대 한 데이터베이스를 제거 하려면 다음을 입력 합니다.
     
         Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    여기서 \<fqdn\> 은 데이터베이스 서버의 FQDN이 고 \<, 인스턴스\> 는 명명 된 데이터베이스 인스턴스 (즉, 정의 된 경우)입니다.
+    여기서 \<fqdn\> 은 데이터베이스 서버의 FQDN이 고 \<인스턴스\> 는 명명 된 데이터베이스 인스턴스이며 (즉, 정의 된 경우).
 
-5.  **제거-CsDataBase** cmdlet에서 작업을 확인 하 라는 메시지가 표시 되 면 정보를 읽은 다음 **Y** 키를 누르거나 enter 키를 눌러 계속 진행 하거나 **N** 키를 누른 다음 cmdlet을 중지 하려는 경우 (즉, 오류가 발생 하는 경우)를 입력 합니다.
+5.  **Uninstall-CsDataBase** cmdlet에서 작업을 확인하라는 메시지가 표시되면 해당 정보를 읽고, 계속하려면 **Y**(또는 Enter 키)를 누르고, cmdlet을 중지하려면 **N**을 누른 후 Enter 키를 누릅니다(즉, 오류가 있을 경우에 대비하여).
 
 </div>
 

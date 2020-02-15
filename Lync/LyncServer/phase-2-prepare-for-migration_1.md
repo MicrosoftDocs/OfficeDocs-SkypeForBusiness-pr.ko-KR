@@ -1,5 +1,5 @@
 ---
-title: '2단계: 마이그레이션 준비'
+title: '2 단계: 마이그레이션 준비'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9303c1a1b394216dfaed4adf826edf665fbd0c2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dc1007da4b793c837c937d572366ea64230050e8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757692"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034318"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a>2단계: 마이그레이션 준비
+# <a name="phase-2-prepare-for-migration"></a>2 단계: 마이그레이션 준비
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757692"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-08-24_
+_**마지막으로 수정 된 항목:** 2012-08-24_
 
-Office Communications Server 2007 R2에서 Lync Server 2013으로 마이그레이션을 시작 하기 전에이 섹션에 설명 된 단계를 따르세요.
+Office Communications Server 2007 r 2에서 Lync Server 2013로의 마이그레이션을 시작 하기 전에이 섹션에서 설명 하는 단계를 따르세요.
 
 <div>
 
@@ -45,7 +45,7 @@ Office Communications Server 2007 R2에서 Lync Server 2013으로 마이그레�
 
   - [Office Communications Server 2007 R2 업데이트 적용](apply-office-communications-server-2007-r2-updates.md)
 
-  - [파일럿 풀 배포에 대한 DNS 레코드 구성](configure-dns-records-for-pilot-pool-deployment_1.md)
+  - [파일럿 풀 배포를 위한 DNS 레코드 구성](configure-dns-records-for-pilot-pool-deployment_1.md)
 
   - [모범 사례 분석기 실행](run-best-practices-analyzer_1.md)
 

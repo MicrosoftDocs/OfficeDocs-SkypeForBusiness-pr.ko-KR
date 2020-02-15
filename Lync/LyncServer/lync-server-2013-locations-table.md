@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Locations 테이블'
+title: 'Lync Server 2013: 위치 테이블'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2d16ffd08184a650f993d175239f5aff72b8b3b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: accab39d1f1f7cb1855ba651ea217aa3b0a4bd8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762136"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033357"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="locations-table-in-lync-server-2013"></a>Lync Server 2013의 Locations 테이블
+# <a name="locations-table-in-lync-server-2013"></a>Lync Server 2013의 위치 테이블
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762136"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-05-25_
+_**마지막으로 수정 된 항목:** 2012-05-25_
 
-각 레코드는 E9-1-1 통화와 같이 비상 전화의 한 위치 참조를 나타냅니다.
+각 레코드는 E9-1-1 통화와 같은 응급 통화에서 하나의 위치 참조를 나타냅니다.
 
 
 <table>
@@ -52,27 +52,27 @@ _**마지막으로 수정한 주제:** 2012-05-25_
 <th>열</th>
 <th>데이터 형식</th>
 <th>키/인덱스</th>
-<th>세부적인</th>
+<th>세부 정보</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
-<td><p>dmtf</p></td>
-<td><p>기본, 외래</p></td>
-<td><p>세션 요청 시간입니다. 세션을 고유 하 게 식별 하는 <strong>Sessionidseq</strong> 와 함께 사용 됩니다. 자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 대화 상자 표</a> 를 참조 하세요.</p></td>
+<td><p>datetime</p></td>
+<td><p>Primary, Foreign</p></td>
+<td><p>세션 요청 시간입니다. <strong>SessionIdSeq</strong>와 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>기본, 외래</p></td>
-<td><p>세션을 식별 하는 ID 번호입니다. 세션을 고유 하 게 식별 하는 <strong>Sessionidtime</strong> 과 함께 사용 됩니다. 자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 대화 상자 표</a> 를 참조 하세요.</p></td>
+<td><p>Primary, Foreign</p></td>
+<td><p>세션을 식별하기 위한 ID 번호입니다. <strong>SessionIdTime</strong>과 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>위치</strong></p></td>
 <td><p>nvarchar (max)</p></td>
 <td></td>
-<td><p>비상 전화의 위치입니다.</p></td>
+<td><p>응급 통화의 위치입니다.</p></td>
 </tr>
 </tbody>
 </table>

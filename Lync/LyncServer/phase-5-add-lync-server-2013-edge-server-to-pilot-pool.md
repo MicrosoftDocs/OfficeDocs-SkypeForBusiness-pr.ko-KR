@@ -1,5 +1,5 @@
 ---
-title: '5 단계: 파일럿 풀에 Lync Server 2013 Edge 서버 추가'
+title: '단계 5: Lync Server 2013에 지 서버를 파일럿 풀에 추가'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88949c4a2be1779d6be0704bfa90c211640e88be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4822e68ea060056e78f460b77a01e9931d4ee604
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765719"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034258"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-5-add-lync-server-2013-edge-server-to-pilot-pool"></a>5 단계: 파일럿 풀에 Lync Server 2013 Edge 서버 추가
+# <a name="phase-5-add-lync-server-2013-edge-server-to-pilot-pool"></a>단계 5: Lync Server 2013에 지 서버를 파일럿 풀에 추가
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41765719"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-06_
+_**마지막으로 수정 된 항목:** 2012-09-06_
 
-이 섹션의 항목에서는 Lync Server 2013 Edge 서버를 파일럿 풀 배포에 추가 하는 방법에 대해 설명 합니다. 이 항목에서는 새 Edge 풀 배포 마법사를 실행할 때 구성 및 확인 지침을 제공 합니다.
+이 섹션의 항목에서는 파일럿 풀 배포에 Lync Server 2013에 지 서버를 추가 하는 방법에 대해 설명 합니다. 이 항목에서는 새에 지 풀 배포 마법사를 실행할 때의 구성 및 확인 지침을 제공 합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [파일럿 Edge 서버 배포](deploy-pilot-edge-server.md)
+  - [파일럿에 지 서버 배포](deploy-pilot-edge-server.md)
 
   - [구성 설정 확인](verify-configuration-settings.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 관리 도구에 대한 시스템 요구 사항'
+title: 'Lync Server 2013: 관리 도구에 대 한 시스템 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183785
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40901f879af6de5066f210b84caea30f37485983
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cafa0403035be17f3247fa289079295a0d99004e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731638"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031222"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-administration-tools-in-lync-server-2013"></a>Lync Server 2013의 관리 도구에 대한 시스템 요구 사항
+# <a name="system-requirements-for-administration-tools-in-lync-server-2013"></a>Lync Server 2013의 관리 도구에 대 한 시스템 요구 사항
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731638"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-29_
+_**마지막으로 수정 된 항목:** 2012-06-29_
 
-다음 항목에서는 관리 도구를 설치 하 고 토폴로지를 게시 하기 위한 요구 사항을 설명 합니다.
+다음 항목에서는 관리 도구를 설치하고 토폴로지를 게시하기 위한 요구 사항에 대해 설명합니다.
 
 <div>
 

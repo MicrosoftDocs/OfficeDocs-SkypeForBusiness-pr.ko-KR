@@ -1,5 +1,5 @@
 ---
-title: '8단계: 레거시 풀 해제'
+title: '8 단계: 레거시 풀 해제'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9c21aa29f2e98aacd3ec68076a21ba2b4d2a76e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6450e129d68aadcb0e79f38def3e89176ef93373
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729078"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034148"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a>8단계: 레거시 풀 해제
+# <a name="phase-8-decommission-legacy-pools"></a>8 단계: 레거시 풀 해제
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729078"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2016-12-08_
+_**마지막으로 수정 된 항목:** 2016-12-08_
 
-다음 항목에서는 DNS 항목 업데이트, 콘텐츠 관리 서버 이동, 풀 서비스 해제, Lync Server 2010의 레거시 배포에서 서버 및 풀 비활성화 및 제거에 대 한 지침을 제공 합니다. 이 섹션에 나열 된 절차 중 일부는 필요 하지 않습니다. 설명서를 읽고 사용할 서비스 해제 프로시저를 결정 합니다.
+다음 항목에서는 DNS 항목 업데이트, 콘텐츠 관리 서버 이동, 풀 해제 및 이전에 Lync Server 2010의 서버 및 풀을 비활성화 하 고 제거 하는 방법에 대 한 지침을 제공 합니다. 이 섹션에 나열된 모든 절차가 필수는 아닙니다. 사용할 해제 절차를 확인하려면 설명서를 확인하십시오.
 
-Lync Server 2010 서버 및 서버 역할 제거와 Lync Server 2010 배포를 해제 하는 방법에 대 한 단계별 가이드는 "Microsoft Lync Server 2010 제거 및 서버 역할 제거"를 참조 하 여에서 [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)다운로드할 수 있습니다.
+Lync Server 2010 서버 및 서버 역할 제거를 철저히 검사 하 고 Lync Server 2010 배포를 해제 하는 단계별 가이드를 확인 하려면에서 [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)다운로드할 수 있는 "Microsoft Lync Server 2010 제거 및 서버 역할 삭제"를 참조 하세요.
 
 <div>
 
 
 > [!IMPORTANT]  
-> 레거시 환경을 서비스 해제 하기 전에 Microsoft 통합 커뮤니케이션 관리 API (사용자 MA) 응용 프로그램을 마이그레이션 및 업그레이드 하는 방법에 대 한 자세한 내용은 다음을 참조 하세요.<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> 레거시 환경을 제거 하기 전에 Microsoft 통합 커뮤니케이션 관리 API (c) 응용 프로그램을 마이그레이션 및 업그레이드 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오.<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 
@@ -59,10 +59,10 @@ Lync Server 2010 서버 및 서버 역할 제거와 Lync Server 2010 배포를 �
     [DNS SRV 레코드 업데이트](update-dns-srv-records.md)
 
   - <span></span>  
-    [Lync Server 2010 중앙 관리 서버를 Lync Server 2013로 이동](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
+    [Lync server 2010 중앙 관리 서버를 Lync Server 2013로 이동](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
 
   - <span></span>  
-    [회의 디렉터리 이동](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
+    [전화 회의 디렉터리 이동](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
   - <span></span>  
     [보관 서버 연결 제거](remove-the-archiving-server-association.md)

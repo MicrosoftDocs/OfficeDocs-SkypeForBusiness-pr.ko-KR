@@ -12,20 +12,20 @@ ms:contentKeyID: 48183258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9486431d320a5ba081afd85daa3b5e295028a12
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 84def7e711a18762f4473bbda5946a14eff3b1e8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758002"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034930"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="legal-information-for-lync-server-2013"></a>Lync Server 2013 에 대한 법적 정보
+# <a name="legal-information-for-lync-server-2013"></a>Lync Server 2013에 대 한 법적 정보
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758002"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2011-02-22_
+_**마지막으로 수정 된 항목:** 2011-02-22_
 
-이 문서는 "있는 그대로" 제공 됩니다. URL 및 기타 인터넷 웹 사이트 참조를 포함 하 여이 문서에 표시 된 정보 및 보기는 예 고 없이 변경 될 수 있습니다.
+이 문서는 "있는 그대로" 제공됩니다. URL 및 다른 인터넷 웹 사이트 참조를 비롯하여 이 문서에 나와 있는 정보와 보기는 예고 없이 변경될 수 있습니다.
 
-여기에 나와 있는 일부 예제는 설명을 돕기 위해 제공 되며 실제는 아닙니다. 실제 연결 또는 연결이 의도 되지 않았거나 유추할 수 없습니다.
+이 문서에 언급된 몇 가지 예는 설명을 돕기 위해 제공된 것이며 실제 데이터가 아닙니다. 어떠한 실제 데이터와도 연관 또는 연결시킬 의도가 없으며 그렇게 유추해서도 안 됩니다 어떠한 연관도 없으며 그렇게 유추해서도 안 됩니다.
 
-이 문서는 Microsoft 제품의 모든 지적 재산권에 대 한 법적 권리를 제공 하지 않습니다. 내부 참조 목적으로이 문서를 복사 하 여 사용할 수 있습니다.
+이 문서는 모든 Microsoft 제품의 모든 지적 재산권에 대한 모든 법적 권한을 사용자에게 제공하지 않습니다. 내부, 참조 목적으로 이 문서를 복사하여 사용할 수 있습니다.
 
-Copyright © 2013 Microsoft Corporation. 모든 rights reserved.
+Copyright © 2013 Microsoft Corporation 모든 권리 보유.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6344319fbdf581a5e51a1f61e141833910e9e29f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31e99e05013d823d5a3a1c1ce1eef6ccc47cfb59
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733468"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41733468"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-17_
+_**마지막으로 수정 된 항목:** 2012-10-17_
 
-IPAddress 테이블은 경력 데이터베이스의 다른 곳에 사용 되는 고유한 IP 주소 식별자에 IP 주소를 매핑합니다. 이 표는 Microsoft Lync Server 2013에서 도입 되었습니다.
+IPAddress 테이블은 QoE(체감 품질) 데이터베이스의 모든 위치에서 사용되는 고유한 IP 주소 식별자에 IP 주소를 매핑합니다. 이 표는 Microsoft Lync Server 2013에 도입 되었습니다.
 
 
 <table>
@@ -52,21 +52,21 @@ IPAddress 테이블은 경력 데이터베이스의 다른 곳에 사용 되는 
 <th><strong>열</strong></th>
 <th><strong>데이터 형식</strong></th>
 <th><strong>키/인덱스</strong></th>
-<th><strong>세부적인</strong></th>
+<th><strong>세부 정보</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>IPAddressKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
-<td><p>지정 된 IP 주소에 대 한 고유 식별자입니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>지정된 IP 주소의 고유 식별자입니다.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>IPAddress</strong></p></td>
+<td><p><strong>Address</strong></p></td>
 <td><p>varchar (50)</p></td>
-<td><p>독특한</p></td>
-<td><p>IpAddressKey에 매핑되는 고유 IP 주소 (예: 189.168.1.1)입니다. IPv4 또는 IPv6 주소 일 수 있습니다.</p></td>
+<td><p>고유한</p></td>
+<td><p>IpAddressKey에 매핑되는 고유 IP 주소(예: 189.168.1.1)입니다. IPv4 또는 IPv6 주소일 수 있습니다.</p></td>
 </tr>
 </tbody>
 </table>

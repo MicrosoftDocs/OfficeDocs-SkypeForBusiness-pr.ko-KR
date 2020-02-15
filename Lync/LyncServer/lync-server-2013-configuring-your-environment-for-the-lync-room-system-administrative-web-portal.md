@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync 채팅방 시스템 관리 웹 포털에 대한 환경 구성'
+title: 'Lync Server 2013: Lync 대화방 시스템 관리 웹 포털에 대 한 환경 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f0f415cfeca5b798a1e29ac6ebe09105fbf08b4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c42b5541fb28646e4c01d9d070b67f6fe103234
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740588"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>Lync 채팅방 시스템 관리 웹 포털에 대한 Lync Server 2013 환경 구성
+# <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>Lync 대화방 시스템 관리 웹 포털에 대 한 Lync Server 2013 환경 구성
 
 </div>
 
@@ -35,55 +35,55 @@ ms.locfileid: "41740588"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2014-05-22_
+_**마지막으로 수정 된 항목:** 2014-05-22_
 
-Lync 채팅방 시스템 (LRS) 관리 웹 포털을 사용 하려면 다음 필수 구성 요소를 설치 하거나 구성 해야 합니다.
+LRS (Lync 대화방 시스템) 관리 웹 포털을 사용 하려면 다음 필수 구성 요소를 설치 하거나 구성 해야 합니다.
 
 <div>
 
 
 > [!IMPORTANT]  
-> 서버가 Kerberos 및 NTLM 인증을 모두 사용 하도록 구성 되었고 도메인에 가입 되지 않은 컴퓨터에서 LRS가 실행 되는 경우 Kerberos 인증이 실패 하 고 사용자가 관리 포털에서 LRS의 상태를 볼 수 없게 됩니다. 이 문제를 해결 하려면 ntlm 인증 또는 NTLM 및 TLS DSK 인증 (Kerberos 불포함)을 사용 하 여 서버를 구성 하거나 LRS 컴퓨터를 도메인에 참가 합니다.
+> 서버가 Kerberos 인증과 NTLM 인증을 모두 사용 하 여 구성 되었지만 도메인에 가입 되지 않은 컴퓨터에서 LRS가 실행 되 고 있으면 Kerberos 인증이 실패 하 고 사용자에 게 관리 포털의 LRS 상태가 표시 되지 않습니다. 이 문제를 해결 하려면 NTLM 인증 또는 NTLM 및 DSK 인증 (Kerberos 제외)을 사용 하 여 서버를 구성 하거나 LRS 컴퓨터를 도메인에 참가 시킵니다.
 
 
 
 </div>
 
-1.  Lync server 2013 누적 업데이트 설치: Lync Server 토폴로지에서는 7 월 2013입니다.
+1.  Lync server 토폴로지에서 Lync Server 2013 누적 업데이트: 7 월 2013을 설치 합니다.
     
-    업데이트를 다운로드 하거나 포함 된 항목을 보려면 [Lync Server 2013 업데이트](http://go.microsoft.com/fwlink/p/?linkid=323959)를 참조 하세요.
+    업데이트를 가져오거나 여기에 포함 된 항목을 확인 하려면 [Lync Server 2013 용 업데이트](http://go.microsoft.com/fwlink/p/?linkid=323959)를 참조 하세요.
 
-2.  SIP 지원 Active Directory 사용자를 만듭니다.
+2.  SIP 사용이 가능한 Active Directory 사용자를 만듭니다.
     
-    LRS 관리 웹 포털은 이러한 자격 증명을 사용 하 여 Lync Server에서 정보를 쿼리 합니다. 추천 사용자 이름은 LRSApp입니다.
+    LRS 관리 웹 포털은 이러한 자격 증명을 사용 하 여 Lync Server에서 정보를 쿼리 합니다. 권장 사용자 이름은 LRSApp입니다.
 
-3.  이름 LRSSupportAdminGroup를 사용 하 여 Active Directory 보안 그룹을 만듭니다.
+3.  이름이 LRSSupportAdminGroup 인 Active Directory 보안 그룹을 만듭니다.
     
-    그룹 범위가 전역 및 그룹 유형으로 보안으로 지정 된 그룹을 만듭니다. SIP 사용이 가능이 그룹에 추가 된 사용자는 채팅방 목록을 볼 수 있도록 승인 되 고 로그 수집과 같은 특정 명령을 실행 합니다.
+    그룹 범위가 글로벌이 고 그룹 유형이 Security 인 그룹을 만듭니다. SIP 사용이 그룹에 추가 된 사용자는 대화방 목록을 확인 하 고 로그 수집과 같은 특정 명령을 실행할 수 있습니다.
 
-4.  이름 LRSFullAccessAdminGroup를 사용 하 여 Active Directory 보안 그룹을 만듭니다.
+4.  이름이 LRSFullAccessAdminGroup 인 Active Directory 보안 그룹을 만듭니다.
     
-    그룹 범위가 글로벌이 고 그룹 유형이 보안으로 설정 된 그룹을 만듭니다 .이 그룹에 추가 된 SIP는 모든 관리 포털 기능을 사용할 수 있는 권한이 있습니다.
+    그룹 범위가 글로벌이 고 그룹 유형이 Security 인 그룹을 만듭니다 .이 그룹에 추가 된 SIP 사용 사용자에 게는 모든 관리자 포털 기능을 사용할 수 있는 권한이 부여 됩니다.
     
      
     
-    ![보안 그룹 역할이 있는 관리 그룹 목록](images/Dn436325.5d432819-a2e2-452c-bc2a-5d4ee79d8c33(OCS.15).png "보안 그룹 역할이 있는 관리 그룹 목록")  
+    ![보안 그룹 역할이 포함 된 관리자 그룹 목록](images/Dn436325.5d432819-a2e2-452c-bc2a-5d4ee79d8c33(OCS.15).png "보안 그룹 역할이 포함 된 관리자 그룹 목록")  
     
      
 
-5.  LRSFullAccessAdminGroup를 LRSSupportAdminGroup의 구성원으로 추가 합니다.
+5.  LRSFullAccessAdminGroup을 LRSSupportAdminGroup의 구성원으로 추가 합니다.
     
-    ![LRSSupportAdminGroup 속성 구성원 페이지](images/Dn436325.91a4a28a-cacf-4ef6-aac1-915ec41c9648(OCS.15).png "LRSSupportAdminGroup 속성 구성원 페이지")  
-    
-     
-
-6.  이름 LRSSupport를 사용 하 여 SIP 활성화 된 Active Directory 사용자를 만듭니다. 이 사용자를 LRSSupportAdminGroup에 추가 합니다.
-    
-    ![LRSSupportAdminGroup 속성 구성원 페이지](images/Dn436325.7638055d-22ac-4909-914d-1966f5623909(OCS.15).png "LRSSupportAdminGroup 속성 구성원 페이지")  
+    ![LRSSupportAdminGroup Properties Members 페이지](images/Dn436325.91a4a28a-cacf-4ef6-aac1-915ec41c9648(OCS.15).png "LRSSupportAdminGroup Properties Members 페이지")  
     
      
 
-7.  Microsoft 다운로드 센터에서 제공 되는 Visual Studio 2010 SP1 및 Visual Web Developer 2010 SP1 용 ASP.NET MVC 4를 설치 [http://go.microsoft.com/fwlink/p/?LinkId=323967](http://go.microsoft.com/fwlink/p/?linkid=323967)합니다.
+6.  이름이 LRSSupport 인 SIP 사용 Active Directory 사용자를 만듭니다. 이 사용자를 LRSSupportAdminGroup에 추가 합니다.
+    
+    ![LRSSupportAdminGroup Properties Members 페이지](images/Dn436325.7638055d-22ac-4909-914d-1966f5623909(OCS.15).png "LRSSupportAdminGroup Properties Members 페이지")  
+    
+     
+
+7.  Microsoft 다운로드 센터에서 사용할 수 있는 Visual Studio 2010 SP1 및 Visual Web Developer 2010 s p 1 용 ASP.NET MVC 4 [http://go.microsoft.com/fwlink/p/?LinkId=323967](http://go.microsoft.com/fwlink/p/?linkid=323967)를 설치 합니다.
 
 </div>
 

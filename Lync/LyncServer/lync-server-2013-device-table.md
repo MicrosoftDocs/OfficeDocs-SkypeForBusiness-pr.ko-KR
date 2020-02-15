@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Device 테이블'
+title: 'Lync Server 2013: 장치 테이블'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fd06db1bd429526826962d5c3ad098642a3a42d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3d9281c3059d8fa234b8f62b6223eb601f38b119
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762416"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031282"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="device-table-in-lync-server-2013"></a>Lync Server 2013의 Device 테이블
+# <a name="device-table-in-lync-server-2013"></a>Lync Server 2013의 장치 테이블
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762416"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-장치 테이블은 다양 한 캡처 또는 렌더링 장치에 대 한 정보를 저장 하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 장치를 나타냅니다.
+Device 테이블은 여러 캡처 또는 렌더링 장치에 대한 정보를 저장하는 지원 테이블입니다. 테이블의 각 레코드는 하나의 장치를 나타냅니다.
 
 
 <table>
@@ -52,27 +52,27 @@ _**마지막으로 수정한 주제:** 2012-10-02_
 <th><strong>열</strong></th>
 <th><strong>데이터 형식</strong></th>
 <th><strong>키/인덱스</strong></th>
-<th><strong>세부적인</strong></th>
+<th><strong>세부 정보</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>DeviceKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
-<td><p>이 장치를 식별 하는 고유 번호입니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>이 장치를 식별하는 고유 번호입니다.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>이름</strong></p></td>
+<td><p><strong>장치 이름</strong></p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>장치 이름 + DeviceType는 고유 합니다.</p></td>
+<td><p>DeviceName + DeviceType은 고유합니다.</p></td>
 <td><p>장치 이름입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceType</strong></p></td>
-<td><p>다소</p></td>
-<td><p>장치 이름 + DeviceType는 고유 합니다.</p></td>
-<td><p>장치 유형. 1은 캡처 장치이 고 0은 렌더링 장치입니다.</p></td>
+<td><p>비트만</p></td>
+<td><p>DeviceName + DeviceType은 고유합니다.</p></td>
+<td><p>장치 유형입니다. 1은 캡처 장치이고 0은 렌더링 장치입니다.</p></td>
 </tr>
 </tbody>
 </table>

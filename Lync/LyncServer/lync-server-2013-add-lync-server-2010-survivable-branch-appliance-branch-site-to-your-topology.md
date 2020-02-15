@@ -1,5 +1,5 @@
 ---
-title: 토폴로지에 Lync Server 2010 SBA(Survivable Branch Appliance) 분기 사이트 추가
+title: Lync Server 2010 Sba (survivable Branch 기기 분기 사이트를 토폴로지에 추가
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64f359a97f6c4bc76d5e0d6f475a037ab53afb91
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bd7b4acc877ba174be0b0d6b03368bb06200574b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735038"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033787"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology"></a>토폴로지에 Lync Server 2010 SBA(Survivable Branch Appliance) 분기 사이트 추가
+# <a name="add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology"></a>Lync Server 2010 Sba (survivable Branch 기기 분기 사이트를 토폴로지에 추가
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "41735038"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-07_
+_**마지막으로 수정 된 항목:** 2012-10-07_
 
-Microsoft Lync Server 2010 Survivable Branch 기기 (SBA)는 백업 등록 기관으로 Microsoft Lync Server 2013 프런트 엔드 풀에 연결 될 수 있습니다. Microsoft lync Server 2010 SBA를 Microsoft Lync Server 2013 프런트 엔드 풀에 연결 하는 방법에 대 한 자세한 절차는 마이그레이션 섹션, [Survivable Branch 기기 연결](connect-a-survivable-branch-appliance.md)을 참조 하세요.
+Microsoft Lync Server 2010 Sba (survivable Branch 기기 (SBA)를 백업 등록자 인 Microsoft Lync Server 2013 프런트 엔드 풀에 연결할 수 있습니다. Microsoft lync server 2010 SBA를 Microsoft Lync Server 2013 프런트 엔드 풀에 연결 하는 방법에 대 한 자세한 절차는 마이그레이션 섹션, [Sba (survivable Branch 기기 연결](connect-a-survivable-branch-appliance.md)을 참조 하십시오.
 
 <div>
 
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013에서 SBA(Survivable Branch Appliance) 또는 지속 가능 분기 서버 정의](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)  
-[Lync Server 2013에서 분기 사이트에 대한 PSTN 게이트웨이 정의](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)  
-[Lync Server 2013에서 미디어 바이패스를 사용 하 여 트렁크 구성](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[Lync Server 2013에서 Sba (survivable Branch 기기 또는 서버 정의](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)  
+[Lync Server 2013에서 분기 사이트에 대 한 PSTN 게이트웨이 정의](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)  
+[Lync Server 2013의 미디어 바이패스로 트렁크 구성](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
 [Lync Server 2013에서 미디어 바이패스 없이 트렁크 구성](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
 
 
-[SBA(Survivable Branch Appliance) 연결](connect-a-survivable-branch-appliance.md)  
+[Sba (survivable 분기 기기 연결](connect-a-survivable-branch-appliance.md)  
   
 
 </div>

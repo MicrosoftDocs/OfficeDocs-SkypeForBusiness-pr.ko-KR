@@ -1,5 +1,5 @@
 ---
-title: Exchange 통합 메시징 연락처 개체 이동
+title: Exchange 통합 메시징 대화 상대 개체 이동
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d79354522675daaf221052579b0863899d1176ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6c02e391fa66084a27e3790ccaf42753bcaeaa16
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756042"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034418"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="move-exchange-unified-messaging-contact-objects"></a>Exchange 통합 메시징 연락처 개체 이동
+# <a name="move-exchange-unified-messaging-contact-objects"></a>Exchange 통합 메시징 대화 상대 개체 이동
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41756042"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-19_
+_**마지막으로 수정 된 항목:** 2012-10-19_
 
-자동 전화 교환 (AA) 및 SA (구독자 액세스) 연락처 개체를 새 Lync Server 2013 배포로 마이그레이션하려면 먼저 레거시 Office Communications Server 2007 R2 배포의 개체를 **Get-c고** umcontact 및 **Move-csexumcontact** cmdlet을 사용 하 여 Lync Server 2013 배포로 이동 합니다. Exchange 서버에서 **ExchUCUtil** Windows PowerShell 스크립트를 실행 하 여 새로 배포 된 Lync 풀에 대해 다음을 수행 합니다.
+자동 전화 교환 (AA) 및 SA (구독자 액세스) 연락처 개체를 새 Lync Server 2013 배포로 마이그레이션하려면 먼저 이전 Office Communications Server 2007 R2 배포의 개체를 **Get-csexumcontact** 및 **Move-csexumcontact** cmdlet을 사용 하 여 Lync Server 2013 배포로 이동 합니다. Exchange 서버에서 **Exchucutil.ps1** Windows PowerShell 스크립트를 실행 하 여 새로 배포 된 Lync 풀에 대해 다음을 수행 합니다.
 
-  - 통합 메시징 IP 게이트웨이에 추가 합니다.
+  - Unified Messaging IP 게이트웨이에 개체 추가
 
-  - 통합 메시징 헌트 그룹에 추가 합니다.
+  - Unified Messaging 헌트 그룹에 개체 추가
 
 <div>
 
 
 > [!NOTE]  
-> <STRONG>Get-help</STRONG> 또는 <STRONG>Move-c고 umcontact</STRONG> Cmdlet을 사용 하려면 RTCUniversalUserAdmins 그룹의 구성원 이며 연락처 개체가 저장 된 OU에 대 한 ou (조직 구성 단위) 권한이 있어야 합니다. OU 권한은 <STRONG>부여-oupermission</STRONG> cmdlet을 사용 하 여 부여할 수 있습니다.
+> <STRONG>Get-CsExUmContact</STRONG> 및 <STRONG>Move-CsExUmContact</STRONG> cmdlet을 사용하려면 RTCUniversalUserAdmins 그룹의 구성원이어야 하며 대화 상대 개체가 저장된 OU에 대한 OU(조직 구성 단위) 권한이 있어야 합니다. OU 권한은 <STRONG>Grant-OUPermission</STRONG> cmdlet을 사용하여 부여할 수 있습니다.
 
 
 
@@ -55,45 +55,45 @@ _**마지막으로 수정한 주제:** 2012-10-19_
 
 <div>
 
-## <a name="to-move-contact-objects-by-using-the-lync-server-management-shell"></a>Lync Server Management Shell을 사용 하 여 연락처 개체 이동
+## <a name="to-move-contact-objects-by-using-the-lync-server-management-shell"></a>Lync Server 관리 셸을 사용하여 대화 상대 개체를 이동하려면
 
 1.  Lync Server 관리 셸을 엽니다.
 
-2.  Exchange UM을 사용 하 여 등록 된 각 풀 (pool1.contoso.net는 Office Communications Server 2007 R2 배포의 풀이 고 pool2.contoso.net는 Lync Server 2013 배포의 풀 인 경우) 명령줄에 다음을 입력 합니다.
+2.  Exchange UM에 등록 된 각 풀 (여기서 pool1.contoso.net은 Office Communications Server 2007 R2 배포의 풀이 고 pool2.contoso.net는 Lync Server 2013 배포의 풀)에 명령줄에서 다음을 입력 합니다.
     
         Get-CsExUmContact -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsExUmContact -Target pool02.contoso.net
     
-    연락처 개체가 이동 되었는지 확인 하려면 **Get-CRegistrarPool Umcontact** cmdlet을 실행 하 고 현재 새 풀을 **가리키고 있는지 확인** 합니다.
+    대화 상대 개체가 이동되었는지 확인하려면 **Get-CsExumContact** cmdlet을 실행하고 **RegistrarPool**이 이제 새 풀을 가리키는지 확인합니다.
 
 </div>
 
 <div>
 
-## <a name="to-run-the-exchucutil-windows-powershell-script"></a>ExchUCUtil Windows PowerShell 스크립트를 실행 하려면
+## <a name="to-run-the-exchucutil-windows-powershell-script"></a>ExchUCUtil Windows PowerShell 스크립트를 실행하려면
 
-1.  Exchange 조직 관리자 권한이 있는 사용자로 Exchange UM 서버에 로그온 합니다.
+1.  Exchange 조직 관리자 권한이 있는 사용자로 Exchange UM 서버에 로그온합니다.
 
-2.  ExchUCUtil Windows PowerShell 스크립트로 이동 합니다.
+2.  Exchucutil.ps1 Windows PowerShell 스크립트로 이동 합니다.
     
-    Exchange 2007에서 ExchUCUtil는 다음 위치에 있습니다: **% Program Files%\\Microsoft\\Exchange Server\\스크립트\\ExchUCUtil. ps1**
+    Exchange 2007에서 Exchucutil.ps1는 **%\\Program Files%\\Microsoft Exchange Server\\스크립트\\exchucutil.ps1** 에 있습니다. ps1
     
-    Exchange 2010에서 ExchUCUtil는 다음 위치에 있습니다: **\\% Program Files% Microsoft\\Exchange Server\\V14\\스크립트\\ExchUCUtil. ps1**
+    Exchange 2010에서 Exchucutil.ps1는 **%\\Program Files% Microsoft\\Exchange Server\\v 14\\Scripts\\exchucutil.ps1. ps1** 위치에 있습니다.
 
-3.  Exchange를 단일 포리스트에 배포 하는 경우 다음을 입력 합니다.
+3.  Exchange가 단일 포리스트에 배포된 경우 다음을 입력합니다.
     
         exchucutil.ps1
     
-    또는 Exchange가 여러 포리스트에 배포 된 경우 다음을 입력 합니다.
+    또는 Exchange가 여러 포리스트에 배포된 경우 다음을 입력합니다.
     
         exchucutil.ps1 -Forest:" <forest FQDN>"
     
-    여기서 포리스트 FQDN은 Lync Server 2013을 배포 하는 포리스트를 지정 합니다.
+    여기서 포리스트 FQDN은 Lync Server 2013이 배포 되는 포리스트를 지정 합니다.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Exchucutil를 실행 <EM>한 후</EM> <STRONG>Lync Server 프런트 엔드</STRONG> 서비스 (rtcsrv)를 다시 시작 해야 합니다. 그렇지 않으면 Lync Server 2013이 토폴로지에서 통합 메시징을 검색 하지 않습니다.
+    > exchucutil.ps1을 실행한 <EM>후</EM><STRONG>Lync Server 프런트 엔드</STRONG> 서비스(rtcsrv.exe)를 다시 시작해야 합니다. 그렇지 않으면 Lync Server 2013이 토폴로지에서 통합 메시징을 검색 하지 않습니다.
 
     
     </div>

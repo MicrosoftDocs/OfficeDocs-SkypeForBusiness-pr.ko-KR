@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 위치 기반 회의 라우팅'
+title: 'Lync Server 2013: 회의를 위한 위치 기반 라우팅'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56335087
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dffc6ee9beaabc4705ac47e643a3fb19e589a745
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ec3268109b522a96e5593f6e0246ee7b36651c06
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762166"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033387"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a>Lync Server 2013에서 회의를 위한 위치 기반 라우팅
+# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a>Lync Server 2013의 회의에 대 한 위치 기반 라우팅
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762166"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-07-31_
+_**마지막으로 수정 된 항목:** 2013-07-31_
 
-위치 기반 라우팅을 사용 하면 통화 중 파티의 위치에 따라 VoIP 끝점과 PSTN 끝점 간의 호출 라우팅을 제한할 수 있습니다. Lync Server 2013의 누적 업데이트 2를 사용 하는 경우 PSTN 유료 바이패스를 방지 하기 위해 위치 기반 라우팅 규칙을 Lync 모임 (예: 회의)에 적용할 수 있습니다. 이 응용 프로그램은 활성 회의를 모니터링 하 고 참여 하는 사용자의 위치를 기준으로 위치 기반 라우팅 제한을 적용 합니다. 또한 위치 기반 라우팅 회의 응용 프로그램을 통해 위치 기반 라우팅 제한을 적용 하 여 PSTN 끝점 관련 consultative 전송을 적용할 수 있습니다.
+위치 기반 라우팅은 통화에서 파티 위치에 따라 VoIP 끝점과 PSTN 끝점 간의 통화 라우팅을 제한할 수 있도록 합니다. Lync Server 2013의 누적 업데이트 2를 사용 하 여 PSTN 전화 바이패스를 방지 하기 위해 Lync 모임 (예: 회의)에서 위치 기반 라우팅 규칙을 적용할 수 있습니다. 이 응용 프로그램은 활성 회의를 모니터링 하 고 참가 하는 사용자의 위치에 따라 위치 기반 라우팅 제한을 적용 합니다. 또한 위치 기반 라우팅 회의 응용 프로그램을 사용 하면 PSTN 끝점과 관련 된 문의 후 전송에 위치 기반 라우팅 제한이 적용 됩니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에서 회의를 위한 위치 기반 라우팅 개요](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
+  - [Lync Server 2013의 회의에 대 한 위치 기반 라우팅 개요](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
 
-  - [Lync Server 2013의 위치 기반 라우팅 및 consultative 통화 전송](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
+  - [Lync Server 2013의 위치 기반 라우팅 및 문의 후 통화 전송](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
 
-  - [Lync Server 2013에서 회의를 위한 위치 기반 라우팅에 대 한 요구 사항](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
+  - [Lync Server 2013의 회의에 대 한 위치 기반 라우팅 요구 사항](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
 
   - [Lync Server 2013에서 회의를 위한 위치 기반 라우팅 구성](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
 

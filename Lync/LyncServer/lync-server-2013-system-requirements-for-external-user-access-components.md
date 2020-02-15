@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 외부 사용자 액세스 구성 요소에 대한 시스템 요구 사항'
+title: 'Lync Server 2013: 외부 사용자 액세스 구성 요소에 대 한 시스템 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8407f7fa407713f6feff6123e5526c779d3bfd3d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8548c1d8dd456d3bb65d98dd639aec71c236fc5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764274"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031212"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-external-user-access-components-for-lync-server-2013"></a>Lync Server 2013의 외부 사용자 액세스 구성 요소에 대한 시스템 요구 사항
+# <a name="system-requirements-for-external-user-access-components-for-lync-server-2013"></a>Lync Server 2013의 외부 사용자 액세스 구성 요소에 대 한 시스템 요구 사항
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764274"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-01-17_
+_**마지막으로 수정 된 항목:** 2013-01-17_
 
-Edge 구성 요소에 대 한 시스템 요구 사항에는 Edge 서버, 리버스 프록시 서버 및 배포 하려는 선택적 디렉터에 대 한 하드웨어, 소프트웨어 및 위치 요구 사항이 포함 됩니다.
+에 지 구성 요소에 대 한 시스템 요구 사항에는 배포할에 지 서버, 역방향 프록시 서버 및 배포 하려는 선택적 디렉터에 대 한 하드웨어, 소프트웨어 및 위치 요구 사항이 포함 됩니다.
 
 <div>
 
@@ -45,13 +45,13 @@ Edge 구성 요소에 대 한 시스템 요구 사항에는 Edge 서버, 리버�
 
   - [Lync Server 2013의 외부 사용자 액세스에 필요한 구성 요소](lync-server-2013-components-required-for-external-user-access.md)
 
-  - [Lync Server 2013의 리버스 프록시에 대 한 구성 요구 사항](lync-server-2013-configuration-requirements-for-reverse-proxy.md)
+  - [Lync Server 2013의 역방향 프록시에 대 한 구성 요구 사항](lync-server-2013-configuration-requirements-for-reverse-proxy.md)
 
-  - [Lync Server 2013에 대한 하드웨어 부하 분산 장치 요구 사항](lync-server-2013-hardware-load-balancer-requirements.md)
+  - [Lync Server 2013에 대 한 하드웨어 부하 분산 장치 요구 사항](lync-server-2013-hardware-load-balancer-requirements.md)
 
-  - [Lync Server 2013의 에지 구성 요소에 대한 하드웨어 및 소프트웨어 요구 사항](lync-server-2013-hardware-and-software-requirements-for-edge-components.md)
+  - [Lync Server 2013의에 지 구성 요소에 대 한 하드웨어 및 소프트웨어 요구 사항](lync-server-2013-hardware-and-software-requirements-for-edge-components.md)
 
-  - [Lync Server 2013의 에지 구성 요소에 대한 지원되는 서버 배치](lync-server-2013-supported-server-collocation-for-edge-components.md)
+  - [Lync Server 2013의에 지 구성 요소에 대 한 지원 되는 서버 배치](lync-server-2013-supported-server-collocation-for-edge-components.md)
 
 </div>
 

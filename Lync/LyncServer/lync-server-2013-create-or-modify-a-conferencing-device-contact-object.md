@@ -12,16 +12,16 @@ ms:contentKeyID: 51803945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56d594f0bf6e393545f4a7c29785b5f66b328bdc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03bd3cfa6099d45cbad2d15ed164652756f50f5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758102"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035406"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41758102"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-10-02_
+_**마지막으로 수정 된 항목:** 2013-10-02_
 
-회의실 개체를 만들려면 먼저 디바이스를 나타내는 Active Directory 사용자 계정을 만듭니다. 그런 다음 **CsMeetingRoom** cmdlet을 사용 하 여 해당 계정이 회의 장치로 작동 하도록 설정 합니다. 기존 회의 장치의 속성을 변경 해야 하는 경우 **CsMeetingRoom** cmdlet을 사용 합니다.
+회의 대화방 개체를 만들려면 먼저 장치를 나타내는 Active Directory 사용자 계정을 만듭니다. 그런 다음 **enable-csmeetingroom** cmdlet을 사용 하 여 해당 계정이 회의 장치로 작동 하도록 설정 합니다. 기존 회의 장치의 속성을 변경 해야 하는 경우 **enable-csmeetingroom** cmdlet을 사용 합니다.
 
-이러한 cmdlet은 Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.
+이러한 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.
 
 <div>
 
@@ -58,7 +58,7 @@ _**마지막으로 수정한 주제:** 2013-10-02_
 
 ## <a name="creating-a-conferencing-device"></a>회의 장치 만들기
 
-  - 새 회의 장치를 나타내는 Active Directory 사용자 계정을 만든 후 **CsMeetingRoom** cmdlet을 사용 하 여 사용 하도록 설정 합니다. 해당 계정에 할당할 SIP 주소에 대 한 회의 장치 id 인 b), 룸 계정이 속한 등록자 풀, 그리고 c를 포함 해야 합니다. 예를 들면 다음과 같습니다.
+  - 새 회의 장치를 나타내는 Active Directory 사용자 계정을 만든 후에는 **enable-csmeetingroom** cmdlet을 사용 하 여 사용 하도록 설정 합니다. 회의 장치 id, b) 대화방 계정이 있는 등록자 풀 및 c) 해당 계정에 할당할 SIP 주소를 포함 해야 합니다. 예:
     
         Enable-CsMeetingRoom -Identity "Redmond Conferencing device" -RegistrarPool "atl-cs-001.litwareinc.com" -SipAddress "sip:RedmondMeetingRoom@litwareinc.com"
 
@@ -68,13 +68,13 @@ _**마지막으로 수정한 주제:** 2013-10-02_
 
 ## <a name="modifying-a-conferencing-device"></a>회의 장치 수정
 
-  - 기존 회의 장치의 속성 값을 수정 하려면 **Set-CsMeetingRoom** cmdlet을 사용 합니다. 예를 들어 다음 명령은 회의 장치에 연결 된 전화 번호 (LineUri)를 업데이트 합니다.
+  - 기존 회의 장치의 속성 값을 수정 하려면 **enable-csmeetingroom** cmdlet을 사용 합니다. 예를 들어 다음 명령은 회의 장치와 연결 된 전화 번호 (LineUri)를 업데이트 합니다.
     
         Set-CsMeetingRoom -Identity "Redmond Conferencing device" -LineUri "tel:+12065551219"
 
 </div>
 
-자세한 내용은 [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) Cmdlet 및 [CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom) Cmdlet에 대 한 도움말 항목을 참조 하세요.
+자세한 내용은 [enable-csmeetingroom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) Cmdlet 및 [enable-csmeetingroom](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom) Cmdlet에 대 한 도움말 항목을 참조 하십시오.
 
 </div>
 

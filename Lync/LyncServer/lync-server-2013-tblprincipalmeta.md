@@ -12,16 +12,16 @@ ms:contentKeyID: 48184648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 848f4dc19ddf64c53c2dd30ae6ca4c8036b67c79
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3a3571cd93ae5d69fa4a432035284b9a752287b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764098"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033687"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764098"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-12_
+_**마지막으로 수정 된 항목:** 2012-09-12_
 
-tblPrincipalMeta에는 Active Directory 도메인 서비스에서 새로 고쳐야 하는 사용자가 포함 되어 있습니다.
+tblPrincipalMeta에는 Active Directory 도메인 서비스에서 새로 고쳐야 하는 사용자가 포함 됩니다.
 
-### <a name="columns"></a>열
+### <a name="columns"></a>단
 
 <table>
 <colgroup>
@@ -50,51 +50,51 @@ tblPrincipalMeta에는 Active Directory 도메인 서비스에서 새로 고쳐�
 <thead>
 <tr class="header">
 <th>열</th>
-<th>유형</th>
+<th>형식</th>
 <th>설명</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
-<td><p>int, null 아님</p></td>
-<td><p>Principal ID.</p></td>
+<td><p>Tblprincipal.prinid</p></td>
+<td><p>int, null이 아님</p></td>
+<td><p>사용자 ID입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinAffiliationsDirty</p></td>
 <td><p>bit, null이 아님</p></td>
-<td><p>Principal 소속을 새로 고쳐야 하는 경우 True입니다.</p></td>
+<td><p>사용자 회원 정보를 새로 고쳐야 하는 경우 True입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAttributesDirty</p></td>
 <td><p>bit, null이 아님</p></td>
-<td><p>Principal 특성을 새로 고쳐야 하는 경우 True입니다.</p></td>
+<td><p>사용자 특성을 새로 고쳐야 하는 경우 True입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDeleted</p></td>
 <td><p>bit, null이 아님</p></td>
-<td><p>보안 주체가 삭제 된 경우 True입니다.</p></td>
+<td><p>사용자가 삭제된 경우 True입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>tryCount</p></td>
 <td><p>int</p></td>
-<td><p>지금까지 발생 한 AD DS에서 보안 주체의 새로 고침 시도 횟수입니다.</p></td>
+<td><p>지금까지 AD DS에서 사용자를 새로 고치려는 시도가 발생한 횟수입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>lastTry</p></td>
-<td><p>dmtf</p></td>
-<td><p>주 사용자를 새로 고치기 위한 최신 시도의 타임 스탬프입니다. 아직 새로 고침이 시도 되지 않은 경우 null이 될 수 있습니다.</p></td>
+<td><p>datetime</p></td>
+<td><p>사용자를 새로 고치려는 가장 최근 시도의 타임스탬프입니다. 새로 고침이 아직 시도되지 않은 경우 Null일 수 있습니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>nextTry</p></td>
-<td><p>dmtf</p></td>
-<td><p>예정 된 다음 새로 고침에 대 한 타임 스탬프입니다. 추가 새로 고침이 예약 되지 않은 경우 null이 될 수 있습니다.</p></td>
+<td><p>datetime</p></td>
+<td><p>다음 예약된 새로 고침의 타임스탬프입니다. 이후 새로 고침이 예약되지 않은 경우 Null일 수 있습니다.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>핵심
+### <a name="keys"></a>키
 
 <table>
 <colgroup>
@@ -109,12 +109,12 @@ tblPrincipalMeta에는 Active Directory 도메인 서비스에서 새로 고쳐�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
+<td><p>Tblprincipal.prinid</p></td>
 <td><p>기본 키입니다.</p></td>
 </tr>
 <tr class="even">
-<td><p>prinID</p></td>
-<td><p>TblPrincipal 테이블에 조회를 포함 하는 외래 키입니다.</p></td>
+<td><p>Tblprincipal.prinid</p></td>
+<td><p>tblPrincipal.prinID 테이블에서 조회 기능이 있는 외래 키입니다.</p></td>
 </tr>
 </tbody>
 </table>

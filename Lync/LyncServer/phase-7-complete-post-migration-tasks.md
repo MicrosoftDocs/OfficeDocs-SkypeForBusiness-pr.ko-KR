@@ -1,5 +1,5 @@
 ---
-title: '7단계: 마이그레이션 후 작업 완료'
+title: '단계 7: 마이그레이션 후 작업 완료'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6eb1761688070e13e22057d1cbec339c87db0f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c791bd363bce3a0bd553017bc16dd719fc7514ef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757132"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034158"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-complete-post-migration-tasks"></a>7단계: 마이그레이션 후 작업 완료
+# <a name="phase-7-complete-post-migration-tasks"></a>단계 7: 마이그레이션 후 작업 완료
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757132"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-19_
+_**마지막으로 수정 된 항목:** 2012-10-19_
 
-이 섹션의 항목에서는 Lync Server 2013으로 마이그레이션을 완료 한 후 수행 해야 하는 작업에 대해 설명 합니다.
+이 섹션의 항목에서는 Lync Server 2013로의 마이그레이션을 완료 한 후에 수행 해야 하는 작업에 대해 설명 합니다.
 
 <div>
 
@@ -57,15 +57,15 @@ _**마지막으로 수정한 주제:** 2012-10-19_
 
   - [레거시 보관 및 모니터링 서버 제거](remove-legacy-archiving-and-monitoring-servers.md)
 
-  - [신뢰할 수 있는 응용 프로그램 서버 구성](configure-trusted-application-servers.md)
+  - [트러스트된 응용 프로그램 서버 구성](configure-trusted-application-servers.md)
 
   - [Lync Server 2013 클라이언트 배포](deploy-lync-server-2013-clients.md)
 
-  - [SBA(Survivable Branch Appliance) 연결](connect-a-survivable-branch-appliance.md)
+  - [Sba (survivable 분기 기기 연결](connect-a-survivable-branch-appliance.md)
 
   - [SCOM 모니터링 구성](configure-scom-monitoring.md)
 
-  - [공통 지역 전화 마이그레이션](migrate-common-area-phones.md)
+  - [공통 영역 전화 마이그레이션](migrate-common-area-phones.md)
 
   - [아날로그 장치 마이그레이션](migrate-analog-devices.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3976b98fddc96ad08f3de4413bf8f38ec3525496
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee16c492a42cb98ff3b5f326bd6f43a57c4d3f56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764154"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034278"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764154"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-12_
+_**마지막으로 수정 된 항목:** 2012-09-12_
 
-tblPrincipalAffiliations active directory 컨테이너에서 Active Directory 도메인 서비스 보안 그룹을 포함 한 위치의 구성원 자격을 도메인에 설명 하는 주요 소속을 포함 합니다.
+tblPrincipalAffiliations active directory 컨테이너의 도메인에서 Active Directory 도메인 서비스 보안 그룹을 비롯 한 위치에 있는 구성원을 설명 하는 사용자의 소속을 포함 합니다.
 
-### <a name="columns"></a>열
+### <a name="columns"></a>단
 
 <table>
 <colgroup>
@@ -50,36 +50,36 @@ tblPrincipalAffiliations active directory 컨테이너에서 Active Directory �
 <thead>
 <tr class="header">
 <th>열</th>
-<th>유형</th>
+<th>형식</th>
 <th>설명</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>principalID</p></td>
-<td><p>int, null 아님</p></td>
-<td><p>관련 된 사용자의 ID입니다.</p></td>
+<td><p>int, null이 아님</p></td>
+<td><p>연관된 사용자의 ID입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>affiliationID</p></td>
-<td><p>int, null 아님</p></td>
-<td><p>소속을 나타내는 주체의 ID입니다. 각 주도자 (시스템-사용자 유형 제외)에는 자기 관련 된 것도 있습니다.</p></td>
+<td><p>int, null이 아님</p></td>
+<td><p>회원 정보를 나타내는 사용자의 ID입니다. 각 사용자(system-user-types 제외)에는 self-affiliation도 포함됩니다.</p></td>
 </tr>
 <tr class="odd">
-<td><p>색인</p></td>
-<td><p>int, null 아님</p></td>
-<td><p>색인. 자기 소속에 대 한 값은-1 이며, 다른 소속은 각 &lt;principalid, affiliationId&gt; 버킷에 있는 1에서 순차적으로 증가 합니다.</p></td>
+<td><p>인덱스</p></td>
+<td><p>int, null이 아님</p></td>
+<td><p>인덱스. 자체 가입 값은-1이 고, 각 &lt;Principalid (affiliationId&gt; 버킷) 내에서 1부터 차례로 증가 하는 다른 인스턴스에 대 한 정보입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>updatedBy</p></td>
-<td><p>int, null 아님</p></td>
-<td><p>최신 업데이트를 수행한 보안 주체입니다. 이는 일반적으로 Active Directory 동기화를 의미 하는 1입니다.</p></td>
+<td><p>int, null이 아님</p></td>
+<td><p>최근 업데이트를 수행한 사용자입니다. 이 값은 일반적으로 Active Directory 동기화를 의미하는 1입니다.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>핵심
+### <a name="keys"></a>키
 
 <table>
 <colgroup>
@@ -88,7 +88,7 @@ tblPrincipalAffiliations active directory 컨테이너에서 Active Directory �
 </colgroup>
 <thead>
 <tr class="header">
-<th>열</th>
+<th>단</th>
 <th>설명</th>
 </tr>
 </thead>
@@ -99,11 +99,11 @@ tblPrincipalAffiliations active directory 컨테이너에서 Active Directory �
 </tr>
 <tr class="even">
 <td><p>principalID</p></td>
-<td><p>TblPrincipal 테이블에 조회를 포함 하는 외래 키입니다.</p></td>
+<td><p>tblPrincipal.prinID 테이블에서 조회 기능이 있는 외래 키입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>affiliationID</p></td>
-<td><p>TblPrincipal 테이블에 조회를 포함 하는 외래 키입니다.</p></td>
+<td><p>tblPrincipal.prinID 테이블에서 조회 기능이 있는 외래 키입니다.</p></td>
 </tr>
 </tbody>
 </table>

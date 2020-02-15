@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 토폴로지 테스트 문제'
+title: 'Lync Server 2013: 토폴로지 테스트 관련 문제'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0492f53692230bf02b3b66d91ba7fdf14b01c23
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 254fb591acca4f58bf27b300d5ead3e615e026ce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765446"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="issues-with-the-topology-test-in-lync-server-2013"></a>Lync Server 2013의 토폴로지 테스트 문제
+# <a name="issues-with-the-topology-test-in-lync-server-2013"></a>Lync Server 2013의 토폴로지 테스트 관련 문제
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765446"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-21_
+_**마지막으로 수정 된 항목:** 2012-09-21_
 
-**CsTopology** cmdlet과 같이 모범 사례 분석기는 Lync Server 2013이 전역 수준에서 올바르게 작동 하는지 확인 하는 방법을 제공 합니다. 기본적으로 cmdlet과 같은 모범 사례 분석기는 전체 Lync Server 2013 인프라를 확인 하 고, 필요한 서비스가 실행 중인지 확인 하 고, 이러한 서비스 및 유니버설에 대해 적절 한 사용자 권한 및 사용 권한이 설정 되었는지 Lync Server 2013을 설치할 때 생성 되는 보안 그룹
+**Enable-cstopology** cmdlet과 마찬가지로 모범 사례 분석기를 통해 Lync Server 2013이 전역 수준에서 올바르게 작동 하는지 확인할 수 있습니다. 기본적으로 cmdlet과 같은 모범 사례 분석기에서는 전체 Lync Server 2013 인프라를 확인 하 고, 필요한 서비스가 실행 되 고 있는지 확인 하 고, 이러한 서비스 및 유니버설에 대해 적절 한 사용자 권한 및 사용 권한을 설정 해야 합니다. Lync Server 2013를 설치할 때 만들어지는 보안 그룹입니다.
 
-Lync Server의 유효성을 전반적으로 확인 하는 것 외에도 **테스트-CsTopology** 는 특정 서비스의 유효성을 검사 합니다. Cmdlet을 사용 하 여 특정 서비스를 테스트 하는 방법에 대 한 자세한 내용은 Lync Server 관리 셸 설명서의 [test-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) 을 참조 하세요. 다음 정보를 사용 하 여 토폴로지의 문제를 해결할 수 있습니다.
+Lync Server 전체적으로 유효성을 확인 하는 것 외에도 **enable-cstopology** 에서는 특정 서비스의 유효성을 검사 합니다. Cmdlet을 사용 하 여 특정 서비스를 테스트 하는 방법에 대 한 자세한 내용은 Lync Server 관리 셸 설명서의 [enable-cstopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) 를 참조 하십시오. 토폴로지 문제를 해결하는 데 도움이 필요하면 다음 정보를 참조하십시오.
 
 <div>
 
 
 > [!NOTE]  
-> Edge 서버 구성 및 방화벽 설정 및 사용 권한을 비롯 한 관련 경계 네트워크 설정에 따라 모범 사례 분석기에서 Edge 서버에 액세스 하 고 검색 하지 못할 수 있습니다. 스캔에 Edge 서버를 포함 하는 경우 보고서에 Edge 서버에 액세스 하는 데 문제가 있는 것으로 표시 되는 경우 <STRONG>Edge 서버</STRONG> 확인란의 선택을 취소 하 고 스캔을 다시 실행 하 여 보고서에 문제가 표시 되지 않도록 합니다.
+> 방화벽 설정과 권한을 포함하여 에지 서버 및 관련 경계 네트워크 설정의 구성에 따라 모범 사례 분석기가 에지 서버를 액세스하고 검색하지 못할 수 있습니다. 검색에 에지 서버를 포함하고 보고서에 에지 서버 액세스 문제가 표시되면 <STRONG>에지 서버</STRONG> 확인란의 선택을 취소하고 검색을 다시 실행해서 문제가 보고서에 표시되지 않도록 합니다.
 
 
 
@@ -53,15 +53,15 @@ Lync Server의 유효성을 전반적으로 확인 하는 것 외에도 **테스
 
 <div>
 
-## <a name="resolving-issues-with-your-topology"></a>토폴로지와 관련 한 문제 해결
+## <a name="resolving-issues-with-your-topology"></a>토폴로지 문제 해결
 
-토폴로지 테스트에서 토폴로지에 문제가 발견 되는 경우 이러한 문제는 토폴로지를 게시 하거나 사용할 수 있는 경우 발생 하는 문제로 인해 발생할 수 있습니다.
+토폴로지 테스트로 토폴로지 문제가 발견된 경우 이러한 문제는 토폴로지를 게시하거나 사용하도록 설정할 때 발생한 문제로 인한 것일 수 있습니다.
 
-토폴로지를 변경 하면 변경 내용이 게시 되 고 사용 하도록 설정 된 경우에만 적용 됩니다. 토폴로지가 변경 되 게 하려면 토폴로지 작성기를 사용 해야 합니다. 변경한 후에는 토폴로지 작성기를 사용 하 여 해당 변경 내용을 게시 하 고 사용할 수 있습니다.
+토폴로지를 변경할 때는 토폴로지를 게시하고 사용하도록 설정한 경우에만 변경 내용이 적용됩니다. 토폴로지를 변경 하려면 토폴로지 작성기를 사용 해야 합니다. 변경한 후에는 토폴로지 작성기를 사용 하 여 이러한 변경 내용을 게시 하 고 사용 하도록 설정할 수 있습니다.
 
-변경 내용을 게시할 때 새 사이트 또는 새 서버 역할 같은 새 정보가 중앙 관리 저장소에 기록 됩니다. 그러나 이러한 새로운 (또는 새로 수정 된) 개체는 토폴로지에 즉시 참여 하지 않습니다. 개체는 업데이트 된 토폴로지를 사용 하도록 설정한 경우에만 토폴로지에 참여 합니다. 토폴로지 작성기에서 게시 옵션을 선택 하는 경우이 두 단계가 모두 발생 합니다 (즉, 중앙 관리 저장소에 기록 됨), 새 토폴로지가 사용 하도록 설정 된 것입니다.
+변경 내용을 게시 하면 새 사이트 또는 새 서버 역할 등의 새 정보가 중앙 관리 저장소에 기록 됩니다. 그러나 이러한 새 개체 또는 새로 수정한 개체가 토폴로지에 즉시 조인되는 것은 아닙니다. 개체는 사용자가 업데이트한 토폴로지를 사용하도록 설정할 때만 토폴로지에 참가합니다. 토폴로지 작성기에서 게시 옵션을 선택 하면 변경 내용이 게시 되 고 (중앙 관리 저장소에 기록 됨) 새 토폴로지가 사용 되도록 설정 됩니다.
 
-기본적으로 RTCUniversalServerAdmins 그룹의 구성원은 **게시-CsTopology** Cmdlet 및 **Enable-CsTopology** cmdlet을 실행할 권한이 있습니다. 그러나 설정 권한이 위임 되지 않은 경우에는 도메인 관리자로 로그온 해야 **게시-CsTopology**를 실행할 수 있습니다. RTCUniversalServerAdmins cmdlet을 실제로 사용할 수 있는 권한을 부여 하려면 Lync Server services를 실행 **하는 컴퓨터** 를 포함 하는 모든 Active Directory 컨테이너에서 **부여-cssetuppermission** cmdlet을 실행 해야 합니다. **CsTopology** cmdlet을 사용할 권한을 RTCUniversalServerAdmins 제공 하려면 Lync Server services를 실행 하는 컴퓨터를 포함 하는 모든 Active Directory 도메인 서비스 컨테이너에 대해 **Set-cssetuppermission** cmdlet을 실행 해야 합니다. 토폴로지 작성기를 사용 하 여 토폴로지를 활성화 하 고 게시 하는 데이 사항이 적용 됩니다. **Set-CsSetupPermission**을 사용 하 여 사용 권한을 위임 하지 않은 경우 도메인 관리자만 토폴로지 작성기를 통해 토폴로지를 사용 하도록 설정 하 고 게시할 수 있습니다.
+기본적으로 RTCUniversalServerAdmins 그룹의 구성원에게는 **Publish-CsTopology** cmdlet 및 **Enable-CsTopology** cmdlet을 실행할 수 있는 권한이 부여됩니다. 하지만 설정 권한이 위임되지 않은 경우 **Publish-CsTopology**를 실행하려면 도메인 관리자로 로그온해야 합니다. **Enable-cstopology** cmdlet을 실제로 사용 하는 권한을 RTCUniversalServerAdmins에 게 제공 하려면 Lync Server 서비스를 실행 하는 컴퓨터를 포함 하는 모든 Active Directory 컨테이너에서 **-cssetuppermission** cmdlet을 실행 해야 합니다. RTCUniversalServerAdmins에서 **enable-cstopology** cmdlet을 사용할 수 있는 권한을 부여 하려면 Lync Server services를 실행 하는 컴퓨터를 포함 하는 모든 Active Directory 도메인 서비스 컨테이너에 대해 **Set-cssetuppermission** cmdlet을 실행 해야 합니다. 이는 토폴로지 작성기를 사용 하 여 토폴로지를 활성화 하 고 게시 하는 데 적용 됩니다. **Set-CsSetupPermission**을 사용 하 여 사용 권한을 위임 하지 않은 경우 도메인 관리자만 토폴로지 작성기를 통해 토폴로지를 사용 하도록 설정 하 고 게시할 수 있습니다.
 
 </div>
 

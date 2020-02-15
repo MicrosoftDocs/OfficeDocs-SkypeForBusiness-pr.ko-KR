@@ -1,5 +1,5 @@
 ---
-title: 토폴로지 내보내기 및 에지 설치용 외부 미디어에 토폴로지 복사
+title: 토폴로지를 내보내고에 지 설치를 위해 외부 미디어에 복사
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8eb8f20e7af8cbfd772226917b027a33a688a4a5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db1637b711d2743d5a2e1fb8a5138949fc3a21ec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756212"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035020"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>Lync Server 2013 토폴로지 내보내기 및 에지 설치용 외부 미디어에 토폴로지 복사
+# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>Lync Server 2013 토폴로지를 내보내고에 지 설치를 위해 외부 미디어에 복사 합니다.
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756212"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-08_
+_**마지막으로 수정 된 항목:** 2012-09-08_
 
-토폴로지를 게시 한 후에는 Lync Server 배포 마법사에서 중앙 관리 저장소 데이터에 액세스 하 여 서버에서 배포 프로세스를 시작 해야 합니다. 내부 네트워크에서는 서버에서 직접 데이터를 사용할 수 있지만, 내부 도메인에 있지 않은 Edge 서버는 데이터에 액세스할 수 없습니다. Edge 서버 배포에 대 한 토폴로지 구성 데이터를 사용 하려면 파일에 토폴로지 데이터를 내보낸 다음 외부 미디어 (예: Edge 서버에서 사용할 수 있는 USB 드라이브 또는 네트워크 공유)에 복사 하 여 Lync Server Dep를 실행 해야 합니다. Edge 서버의 loyment 마법사. 배포 중인 Edge 서버에서 토폴로지 구성 데이터를 사용 하려면 다음 절차를 사용 합니다.
+토폴로지를 게시 한 후에는 Lync Server 배포 마법사에서 중앙 관리 저장소 데이터에 액세스 하 여 서버에서 배포 프로세스를 시작 해야 합니다. 내부 네트워크에서는 서버에서 데이터를 직접 사용할 수 있지만 내부 도메인에 없는 에지 서버에서는 데이터에 액세스할 수 없습니다. 에 지 서버 배포에서 토폴로지 구성 데이터를 사용할 수 있도록 하려면 Lync Server Dep를 실행 하기 전에 토폴로지 데이터를 파일로 내보낸 다음 해당 파일을 외부 미디어 (예:에 지 서버에서 사용할 수 있는 USB 드라이브 또는 네트워크 공유)에 복사 해야 합니다. 에 지 서버에서 loyment 마법사를 설정 합니다. 다음 절차를 사용하여 배포 중인 에지 서버에서 토폴로지 구성 데이터를 사용할 수 있도록 설정할 수 있습니다.
 
 <div>
 
 
 > [!NOTE]
-> Edge 서버에 Lync Server 2013을 설치한 후에는 배포의 모든 Edge 서버로 구성을 자동으로 복제 하는 내부 네트워크의 관리 도구를 사용 하 여 Edge 서버를 관리 합니다. 유일한 예외는 인증서를 할당 및 설치 하 고 서비스를 중지 하 고 시작 하는 것입니다 (둘 다 Edge 서버에서 수행 되어야 함).
+> 에 지 서버에 Lync Server 2013을 설치한 후에는 내부 네트워크의 관리 도구를 사용 하 여에 지 서버를 관리 하 여 배포의 모든에 지 서버로 구성을 자동으로 복제 합니다. 단, 인증서를 할당 및 설치 하 고 서비스를 중지 및 시작 하는 것은 모두에 지 서버에서 수행 해야 하는 작업입니다.
 
 
 
@@ -51,15 +51,15 @@ _**마지막으로 수정한 주제:** 2012-09-08_
 
 <div>
 
-## <a name="to-make-your-topology-data-available-on-an-edge-server-by-using-lync-server-management-shell"></a>Lync Server Management Shell을 사용 하 여 Edge 서버에서 토폴로지 데이터를 사용할 수 있도록 설정 하려면
+## <a name="to-make-your-topology-data-available-on-an-edge-server-by-using-lync-server-management-shell"></a>Lync Server 관리 셸을 사용하여 토폴로지 데이터를 에지 서버에서 사용할 수 있도록 설정하려면
 
-1.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
 2.  Lync Server 관리 셸에서 다음 cmdlet을 실행 합니다.
     
         Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
 
-3.  내보낸 파일을 외부 미디어 (예: 배포 중에 Edge 서버에서 사용 가능한 USB 드라이브 또는 네트워크 공유)에 복사 합니다.
+3.  내보낸 파일을 외부 미디어(예: 배포하는 동안 에지 서버에서 사용할 수 있는 네트워크 공유나 USB 드라이브)에 복사합니다.
 
 </div>
 

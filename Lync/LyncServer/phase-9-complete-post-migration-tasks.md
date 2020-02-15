@@ -1,5 +1,5 @@
 ---
-title: '9 단계: 마이그레이션 후 작업 완료'
+title: '단계 9: 마이그레이션 후 작업 완료'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfedd6cc909b1d164df145862c8bd783581ed306
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d28ad5b4f00c724a6344d201cc871fdddf189706
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727378"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034128"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-9-complete-post-migration-tasks"></a>9 단계: 마이그레이션 후 작업 완료
+# <a name="phase-9-complete-post-migration-tasks"></a>단계 9: 마이그레이션 후 작업 완료
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41727378"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-15_
+_**마지막으로 수정 된 항목:** 2012-10-15_
 
-이 섹션의 항목에서는 Lync Server 2013으로 마이그레이션을 완료 한 후 수행 해야 하는 작업에 대해 설명 합니다.
+이 섹션의 항목에서는 Lync Server 2013로의 마이그레이션을 완료 한 후에 수행 해야 하는 작업에 대해 설명 합니다.
 
 <div>
 
@@ -47,7 +47,7 @@ _**마지막으로 수정한 주제:** 2012-10-15_
 
   - [전화 접속 액세스 번호 마이그레이션](migrate-dial-in-access-numbers_1.md)
 
-  - [Exchange 2013 Outlook Web App 및 IM 통합 기능 사용](enable-exchange-2013-outlook-web-app-and-im-integration.md)
+  - [Exchange 2013 Outlook Web App 및 IM 통합 사용](enable-exchange-2013-outlook-web-app-and-im-integration.md)
 
   - [주소록 마이그레이션](migrate-address-book_1.md)
 
@@ -57,15 +57,15 @@ _**마지막으로 수정한 주제:** 2012-10-15_
 
   - [중재 서버 마이그레이션](migrate-mediation-server.md)
 
-  - [신뢰할 수 있는 응용 프로그램 서버 구성](configure-trusted-application-servers_1.md)
+  - [트러스트된 응용 프로그램 서버 구성](configure-trusted-application-servers_1.md)
 
   - [모임 참가 페이지 구성](configure-the-meeting-join-page_1.md)
 
   - [Lync Server 2013 클라이언트 배포](deploy-lync-server-2013-clients_1.md)
 
-  - [Exchange 통합 메시징 연락처 개체 이동](move-exchange-unified-messaging-contact-objects.md)
+  - [Exchange 통합 메시징 대화 상대 개체 이동](move-exchange-unified-messaging-contact-objects.md)
 
-  - [모든 Exchange UM 연락처 개체가 레거시 풀에서 제거 되었는지 확인](verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool.md)
+  - [레거시 풀에서 모든 Exchange UM 대화 상대 개체가 제거 되었는지 확인](verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool.md)
 
 </div>
 

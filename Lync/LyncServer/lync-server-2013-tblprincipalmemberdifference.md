@@ -12,16 +12,16 @@ ms:contentKeyID: 48183379
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: baaf336013ec09b17b8e688889fdf27aa29ef644
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ca8ccc9c60bdd608992dc3daf085568d34bee69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764144"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764144"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-12_
+_**마지막으로 수정 된 항목:** 2012-09-12_
 
-tblPrincipalMemberDifference에는 이후 Active Directory 도메인 서비스 동기화 단계에서 아직 처리 하지 않은 그룹 구성원 변경 (구성원을 추가 및 제거 함)이 포함 됩니다.
+tblPrincipalMemberDifference에는 이후 Active Directory 도메인 서비스 동기화 단계에서 아직 처리 되지 않은 그룹 구성원 자격 변경 내용 (추가 및 제거 된 구성원 모두)이 포함 됩니다.
 
-### <a name="columns"></a>열
+### <a name="columns"></a>단
 
 <table>
 <colgroup>
@@ -50,25 +50,25 @@ tblPrincipalMemberDifference에는 이후 Active Directory 도메인 서비스 �
 <thead>
 <tr class="header">
 <th>열</th>
-<th>유형</th>
+<th>형식</th>
 <th>설명</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinGuid</p></td>
-<td><p>GUID (null 아님)</p></td>
-<td><p>변경 된 그룹의 Principal GUID입니다.</p></td>
+<td><p>Principal.pringuid</p></td>
+<td><p>GUID, null이 아님</p></td>
+<td><p>변경된 그룹의 사용자 GUID입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>memberADPath</p></td>
-<td><p>nvarchar (256)</p></td>
+<td><p>nvarchar(256)</p></td>
 <td><p>구성원의 고유 이름입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>memberRemoved 됨</p></td>
 <td><p>bit, null이 아님</p></td>
-<td><p>구성원이 추가 된 경우 False입니다. 구성원이 제거 된 경우 True입니다.</p></td>
+<td><p>구성원이 추가된 경우 False입니다. 구성원이 제거된 경우 True입니다.</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,7 +89,7 @@ tblPrincipalMemberDifference에는 이후 Active Directory 도메인 서비스 �
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prinGuid, memberADPath&gt;</p></td>
+<td><p>&lt;Principal.pringuid, memberADPath&gt;</p></td>
 <td><p>기본 키입니다.</p></td>
 </tr>
 </tbody>

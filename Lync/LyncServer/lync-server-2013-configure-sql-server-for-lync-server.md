@@ -12,16 +12,16 @@ ms:contentKeyID: 48183869
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efdd9d8fa7b010b420c7c532d422c9b52b6d69ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1e52534744849e41fa08895bd114833892f4b8a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756972"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41756972"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-08-12_
+_**마지막으로 수정 된 항목:** 2013-08-12_
 
-이 섹션의 항목에서는 Lync Server의 엔터프라이즈 배포에 사용할 SQL Server를 배포 하 고 구성 하는 방법에 대해 설명 합니다. Standard Edition 서버는 collocated SQL server Express 버전의 SQL Server를 사용 하며,이는 스탠더드 버전 서버의 작업 부하에 맞게 크기가 조정 됩니다.
+이 섹션의 항목에서는 Lync Server의 엔터프라이즈 배포에서 사용할 SQL Server를 배포 하 고 구성 하는 방법을 설명 합니다. Standard Edition 서버는 Standard Edition server의 작업 부하를 위해 적절 한 크기를 가진 배치 된 SQL Server Express 버전의 SQL Server를 사용 합니다.
 
-Lync Server 2013 중앙 관리 저장소는 풀 내의 모든 Enterprise Edition 서버에 대 한 사용자 데이터를 보유 하 고 있으며 SQL Server 기반 백 엔드 서버에 위치 하도록 디자인 되었습니다. 중앙 집중화 된 저장소는 다른 Lync Server 2013 역할과 동일한 컴퓨터에 중앙 관리 저장소를 설치할 수 없습니다. 중앙 관리 저장소는 풀의 엔터프라이즈 버전 서버에 상주할 수 없습니다. 중앙 관리 저장소는 처음으로 토폴로지를 게시 하 고 데이터베이스를 만들기 위해 선택 하면 자동으로 만들어집니다. 백 엔드 서버로 지정 하는 컴퓨터는 설치를 완료 하기 위해 이미 SQL Server 데이터베이스 소프트웨어를 실행 중 이어야 합니다.
+Lync Server 2013 중앙 관리 저장소는 풀 내의 모든 Enterprise Edition 서버에 대 한 사용자 데이터를 보유 하며, SQL Server 기반 백 엔드 서버에 배치 되도록 설계 되었습니다. 중앙 관리 저장소는 다른 Lync Server 2013 역할과 동일한 컴퓨터에 설치할 수 없습니다. 중앙 관리 저장소는 풀의 Enterprise Edition 서버에 상주할 수 없습니다. 처음으로 토폴로지를 게시 하 고 데이터베이스를 만들려면를 선택 하면 중앙 관리 저장소가 자동으로 만들어집니다. 백 엔드 서버로 지정 하는 컴퓨터는 설치에 성공 하기 위해 이미 SQL Server 데이터베이스 소프트웨어를 실행 중 이어야 합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에 대한 SQL Server 데이터 및 로그 파일 배치](lync-server-2013-sql-server-data-and-log-file-placement.md)
+  - [Lync Server 2013에 대 한 SQL Server 데이터 및 로그 파일 배치](lync-server-2013-sql-server-data-and-log-file-placement.md)
 
   - [Lync Server 2013에서 SQL Server 구성](lync-server-2013-configure-sql-server.md)
 
-  - [Lync Server 2013의 SQL Server에 대한 배포 권한](lync-server-2013-deployment-permissions-for-sql-server.md)
+  - [Lync Server 2013의 SQL Server에 대 한 배포 권한](lync-server-2013-deployment-permissions-for-sql-server.md)
 
-  - [Lync Server 2013에서 Lync Server 관리 셸을 사용하여 데이터베이스 설치](lync-server-2013-database-installation-using-lync-server-management-shell.md)
+  - [Lync Server 2013에서 Lync Server 관리 셸을 사용 하 여 데이터베이스 설치](lync-server-2013-database-installation-using-lync-server-management-shell.md)
 
-  - [Lync Server 2013의 SQL Server에 대한 방화벽 요구 사항 이해](lync-server-2013-understanding-firewall-requirements-for-sql-server.md)
+  - [Lync Server 2013을 사용 하 여 SQL Server에 대 한 방화벽 요구 사항 이해](lync-server-2013-understanding-firewall-requirements-for-sql-server.md)
 
-  - [Lync Server 2013 용 SQL Server 클러스터링 구성](lync-server-2013-configure-sql-server-clustering.md)
+  - [Lync Server 2013에 대해 SQL Server 클러스터링 구성](lync-server-2013-configure-sql-server-clustering.md)
 
 </div>
 
