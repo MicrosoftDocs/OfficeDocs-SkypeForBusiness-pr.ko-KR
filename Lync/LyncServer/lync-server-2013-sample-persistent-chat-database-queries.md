@@ -12,20 +12,20 @@ ms:contentKeyID: 48184133
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a31863ef11f144b5996468ccbeef35f55bd9aa66
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3fc1d53046b6a43da38a7a91c7e19f195e6667f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732768"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987303"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sample-persistent-chat-database-queries-for-lync-server-2013"></a>Lync Server 2013의 샘플 영구 채팅 데이터베이스 쿼리
+# <a name="sample-persistent-chat-database-queries-for-lync-server-2013"></a>Lync Server 2013에 대 한 샘플 영구 채팅 데이터베이스 쿼리
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41732768"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-06_
+_**마지막으로 수정 된 항목:** 2012-10-06_
 
-이 섹션에는 영구 채팅 데이터베이스에 대 한 예제 쿼리가 포함 되어 있습니다.
+이 섹션에는 영구 채팅 데이터베이스에 대 한 샘플 쿼리가 포함 되어 있습니다.
 
-다음 예제를 사용 하 여 특정 날짜 이후에 가장 활발 한 영구 채팅방의 목록을 가져옵니다.
+다음 예를 사용 하 여 특정 날짜 후의 가장 적극적인 영구 대화방 목록을 가져옵니다.
 
     SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
       FROM tblChat, tblNode
@@ -47,7 +47,7 @@ _**마지막으로 수정한 주제:** 2012-10-06_
       GROUP BY nodeName
       ORDER BY ChatMessages DESC
 
-다음 예제를 사용 하 여 특정 날짜 이후에 가장 활발 한 사용자 목록을 가져올 수 있습니다.
+특정 날짜 이후에 가장 활동이 많은 사용자 목록을 가져오려면 다음 예를 사용합니다.
 
     SELECT prinName as Name, count(*) as ChatMessages
       FROM tblChat, tblPrincipal
@@ -55,25 +55,25 @@ _**마지막으로 수정한 주제:** 2012-10-06_
       GROUP BY prinName
       ORDER BY ChatMessages DESC
 
-다음 예제를 사용 하 여 "Hello World"를 사용 하 여 메시지를 보낸 모든 사용자의 목록을 가져올 수 있습니다.
+"Hello World"가 포함된 메시지를 전송한 모든 사용자의 목록을 가져오려면 다음 예를 사용합니다.
 
     SELECT nodeName as ChatRoom, prinName as Name, content as Message
       FROM tblChat, tblNode, tblPrincipal
       WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
 
-다음 예제를 사용 하 여 특정 주체에 대 한 그룹 구성원 목록을 가져옵니다.
+특정 사용자에 대해 그룹 구성원 자격의 목록을 가져오려면 다음 예를 사용합니다.
 
     SELECT prinName as Name    
       FROM tblPrincipalAffiliations as pa, tblPrincipal
       where principalID = 7 and affiliationID = prinID
 
-다음 예제를 사용 하 여 "홍길동 Dow" 사용자가 직접 구성원 인 모든 채팅방의 목록을 가져옵니다.
+Jane Dow라는 사용자가 직접 구성원으로 있는 모든 대화방의 목록을 가져오려면 다음 예를 사용합니다.
 
     SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
       FROM tblPrincipalRole, tblPrincipal, tblNode
       WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
 
-다음 예제를 사용 하 여 사용자가 받은 초대 목록을 가져옵니다.
+사용자가 수신한 초대 목록을 가져오려면 다음 예를 사용합니다.
 
     SELECT prinName
           ,nodeName

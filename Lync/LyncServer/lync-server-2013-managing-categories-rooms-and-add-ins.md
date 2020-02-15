@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 범주, 채팅방 및 추가 기능 관리'
+title: 'Lync Server 2013: 범주, 대화방 및 추가 기능 관리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89d7caadc6ccc4bd7c1030a3e7020129be14a68f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6c1fcd4422ca855e7247c57d07887b9df20ea695
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738768"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006966"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a>Lync Server 2013에서 범주, 채팅방 및 추가 기능 관리
+# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a>Lync Server 2013에서 범주, 대화방 및 추가 기능 관리
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41738768"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-06_
+_**마지막으로 수정 된 항목:** 2012-10-06_
 
-Lync Server 2013 제어판 또는 Windows PowerShell cmdlet을 사용 하 여 영구 채팅 관리자가 **영구 채팅** 페이지를 사용 하 여 범주와 추가 기능을 만들 수 있습니다. 영구 채팅방을 관리 하기 위해 관리자는 Windows PowerShell cmdlet을 사용할 수 있습니다. 또는 지속적인 채팅 관리자도 SIP 클라이언트를 사용 하 여 웹 페이지를 실행 하 여 채팅방을 만들고 관리할 수 있습니다.
+Lync Server 2013 제어판 또는 Windows PowerShell cmdlet을 사용 하 여 영구 채팅 관리자는 **영구 채팅** 페이지를 사용 하 여 범주 및 추가 기능을 만들 수 있습니다. 영구 채팅방을 관리 하기 위해 관리자는 Windows PowerShell cmdlet을 사용할 수 있습니다. 또한 영구 채팅 관리자가 SIP를 사용 하도록 설정 된 경우에는 Lync 클라이언트를 사용 하 여 웹 페이지를 실행 하 여 대화방을 만들고 관리할 수 있습니다.
 
-다음 항목에서는 범주와 채팅방을 만들고 사용 하는 방법에 대해 설명 합니다.
+다음 항목에서는 범주 및 대화방을 만들고 작업하는 방법에 대해 설명합니다.
 
 <div>
 
@@ -47,19 +47,19 @@ Lync Server 2013 제어판 또는 Windows PowerShell cmdlet을 사용 하 여 �
 
   - [Lync Server 2013에서 새 범주 만들기 또는 편집](lync-server-2013-creating-or-editing-a-new-category.md)
 
-  - [Lync Server 2013에서 새 채팅방 만들기 및 편집](lync-server-2013-creating-or-editing-a-new-room.md)
+  - [Lync Server 2013에서 새 채팅방 만들기 또는 편집](lync-server-2013-creating-or-editing-a-new-room.md)
 
-  - [Lync Server 2013에서 채팅방을 위한 새 추가 기능 만들기](lync-server-2013-creating-new-add-ins-for-rooms.md)
+  - [Lync Server 2013에서 대화방을 위한 새 추가 기능 만들기](lync-server-2013-creating-new-add-ins-for-rooms.md)
 
-  - [Lync Server 2013에서 강당 채팅방에서 메시지를 게시할 수 있는 사용자 설정](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
+  - [Lync Server 2013의 강당 대화방에서 메시지를 게시할 수 있는 사용자 설정](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
 
-  - [Lync Server 2013에서 채팅방 비활성화 또는 활성화](lync-server-2013-disabling-or-enabling-a-chat-room.md)
+  - [Lync Server 2013에서 대화방을 사용 하지 않도록 설정 하거나 사용 하도록 설정](lync-server-2013-disabling-or-enabling-a-chat-room.md)
 
-  - [Lync Server 2013에서 범주 간 채팅방 이동](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
+  - [Lync Server 2013에서 한 범주에서 다른 범주로 대화방 이동](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
 
   - [Lync Server 2013에서 채팅방 또는 범주 삭제](lync-server-2013-deleting-a-chat-room-or-category.md)
 
-  - [Lync Server 2013에서 메시지 삭제 또는 오래된 메시지 제거](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
+  - [Lync Server 2013에서 메시지 삭제 또는 오래 된 메시지 제거](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
 
 </div>
 

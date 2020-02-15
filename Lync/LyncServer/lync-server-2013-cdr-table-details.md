@@ -12,16 +12,16 @@ ms:contentKeyID: 48184730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 650caa5244eaf796c066f1388f2fcbb5d3b0703a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32b48f6a03c0663277404876f538ae2f15d1bc38
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736948"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008510"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41736948"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-18_
+_**마지막으로 수정 된 항목:** 2012-10-18_
 
-다음 항목에서는 각 CDR (호출 정보 레코드) 데이터베이스 스키마 테이블의 열에 대해 자세히 설명 합니다.
+다음 항목에서는 각 CDR(통화 정보 기록) 데이터베이스 스키마 테이블에 있는 열에 대해 자세히 설명합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013의 Application 테이블](lync-server-2013-application-table.md)
+  - [Lync Server 2013의 응용 프로그램 테이블](lync-server-2013-application-table.md)
 
-  - [Lync Server 2013의 CallPriorities 테이블](lync-server-2013-callpriorities-table.md)
+  - [Lync Server 2013의 CallPriorities 순위 테이블](lync-server-2013-callpriorities-table.md)
 
   - [Lync Server 2013의 CallType 테이블](lync-server-2013-calltype-table.md)
 
@@ -55,7 +55,7 @@ _**마지막으로 수정한 주제:** 2012-10-18_
 
   - [Lync Server 2013의 ConferenceMessageCount 테이블](lync-server-2013-conferencemessagecount-table.md)
 
-  - [Lync Server 2013의 Conferences 테이블](lync-server-2013-conferences-table.md)
+  - [Lync Server 2013의 회의 테이블](lync-server-2013-conferences-table.md)
 
   - [Lync Server 2013의 ConferenceSessionDetails 테이블](lync-server-2013-conferencesessiondetails-table.md)
 
@@ -83,21 +83,21 @@ _**마지막으로 수정한 주제:** 2012-10-18_
 
   - [Lync Server 2013의 프런트 엔드 테이블](lync-server-2013-frontend-table.md)
 
-  - [Lync Server 2013의 Gateways 테이블](lync-server-2013-gateways-table.md)
+  - [Lync Server 2013의 게이트웨이 테이블](lync-server-2013-gateways-table.md)
 
   - [Lync Server 2013의 HardwareVersions 테이블](lync-server-2013-hardwareversions-table.md)
 
   - [Lync Server 2013의 IMReportSummary 테이블](lync-server-2013-imreportsummary-table.md)
 
-  - [Lync Server 2013의 Locations 테이블](lync-server-2013-locations-table.md)
+  - [Lync Server 2013의 위치 테이블](lync-server-2013-locations-table.md)
 
-  - [Lync Server 2013의 Manufacturers 테이블](lync-server-2013-manufacturers-table.md)
+  - [Lync Server 2013의 제조업체 테이블](lync-server-2013-manufacturers-table.md)
 
   - [Lync Server 2013의 McuJoinsAndLeaves 테이블](lync-server-2013-mcujoinsandleaves-table.md)
 
   - [Lync Server 2013의 Mcus 테이블](lync-server-2013-mcus-table.md)
 
-  - [Lync Server 2013의 Media 테이블](lync-server-2013-media-table.md)
+  - [Lync Server 2013의 미디어 테이블](lync-server-2013-media-table.md)
 
   - [Lync Server 2013의 MediaList 테이블](lync-server-2013-medialist-table.md)
 
@@ -105,17 +105,17 @@ _**마지막으로 수정한 주제:** 2012-10-18_
 
   - [Lync Server 2013의 MSMQProcessing 테이블](lync-server-2013-msmqprocessing-table.md)
 
-  - [Lync Server 2013의 Phones 테이블](lync-server-2013-phones-table.md)
+  - [Lync Server 2013의 전화 테이블](lync-server-2013-phones-table.md)
 
-  - [Lync Server 2013의 Pools 테이블](lync-server-2013-pools-table.md)
+  - [Lync Server 2013의 풀 테이블](lync-server-2013-pools-table.md)
 
   - [Lync Server 2013의 ProgressReport 테이블](lync-server-2013-progressreport-table.md)
 
   - [Lync Server 2013의 PurgeSettings 테이블](lync-server-2013-purgesettings-table.md)
 
-  - [Lync Server 2013의 Registration 테이블](lync-server-2013-registration-table.md)
+  - [Lync Server 2013의 정합 테이블](lync-server-2013-registration-table.md)
 
-  - [Lync Server 2013의 Roles 테이블](lync-server-2013-roles-table.md)
+  - [Lync Server 2013의 역할 테이블](lync-server-2013-roles-table.md)
 
   - [Lync Server 2013의 Servers 테이블](lync-server-2013-servers-table.md)
 
@@ -129,7 +129,7 @@ _**마지막으로 수정한 주제:** 2012-10-18_
 
   - [Lync Server 2013의 작업 테이블](lync-server-2013-task-table.md)
 
-  - [Lync Server 2013의 Tenants 테이블](lync-server-2013-tenants-table.md)
+  - [Lync Server 2013의 테 넌 트 테이블](lync-server-2013-tenants-table.md)
 
   - [Lync Server 2013의 UriTypes 테이블](lync-server-2013-uritypes-table.md)
 

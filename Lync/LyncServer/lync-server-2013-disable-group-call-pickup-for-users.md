@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 사용자 용 그룹 통화 픽업 사용 안 함'
+title: 'Lync Server 2013: 사용자의 그룹 통화 픽업 사용 안 함'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7e47b5c3b12997bd05f3721555a5dfdfe692bbc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c03242cf0b3521dada944ccaba30946306c1ff24
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762206"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a>Lync Server 2013에서 사용자에 대 한 그룹 통화 픽업 기능을 사용 하지 않도록 설정
+# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a>Lync Server 2013의 사용자에 대 한 그룹 통화 픽업 사용 안 함
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762206"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-01-30_
+_**마지막으로 수정 된 항목:** 2013-01-30_
 
-다음 절차를 사용 하 여 사용자에 대 한 그룹 통화 픽업 기능을 사용 하지 않도록 설정 합니다.
+다음 절차에 따라 사용자에 대 한 그룹 통화 픽업를 사용 하지 않도록 설정 합니다.
 
 <div>
 
 
 > [!NOTE]  
-> 사용자의 그룹 통화 픽업 기능을 사용 하지 않도록 설정 하면 사용자에 게 할당 된 통화 픽업 그룹 번호가 보존 되지 않습니다. 이후 해당 사용자의 그룹 통화 픽업을 다시 사용 하도록 설정 하려면/enablegrouppickup 매개 변수를 사용 하 여 통화 픽업 그룹 번호를 다시 지정 해야 합니다.
+> 사용자에 대해 그룹 통화 픽업를 사용 하지 않도록 설정 하면 사용자에 게 할당 된 통화 픽업 그룹 번호가 보존 되지 않습니다. 이후에 해당 사용자에 대해 그룹 통화 픽업을 다시 사용 하도록 설정 하려면/enablegrouppickup 매개 변수를 사용 하 여 통화 픽업 그룹 번호를 다시 할당 해야 합니다.
 
 
 
@@ -51,11 +51,11 @@ _**마지막으로 수정한 주제:** 2013-01-30_
 
 <div>
 
-## <a name="to-disable-group-call-pickup-for-a-user"></a>사용자의 그룹 통화 픽업를 사용 하지 않도록 설정 하려면
+## <a name="to-disable-group-call-pickup-for-a-user"></a>사용자에 대 한 그룹 통화 픽업를 사용 하지 않도록 설정 하려면
 
 1.  관리자 권한으로 SEFAUtil 도구를 설치한 컴퓨터에 로그온 합니다.
 
-2.  명령줄에서 다음을 실행 합니다.
+2.  명령줄에서 다음을 실행합니다.
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /disablegrouppickup
     
@@ -70,8 +70,8 @@ _**마지막으로 수정한 주제:** 2013-01-30_
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013에서 사용자에 게 그룹 통화 픽업 번호 할당](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
-[Lync Server 2013에서 사용자의 그룹 통화 픽업 사용 설정](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[Lync Server 2013의 사용자에 게 그룹 통화 픽업 번호 할당](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
+[Lync Server 2013의 사용자에 대 한 그룹 통화 픽업 사용 설정](lync-server-2013-enable-group-call-pickup-for-users.md)  
   
 
 </div>

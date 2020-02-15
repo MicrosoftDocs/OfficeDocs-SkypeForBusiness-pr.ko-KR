@@ -12,16 +12,16 @@ ms:contentKeyID: 48185353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fe905db80edae74e81cc496c9ad70ca3148854f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44edea16dc4874b797dd69402709a880c530147c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755392"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41989703"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755392"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-PayloadDescription 테이블은 지원 테이블입니다. 각 레코드는 오디오 또는 비디오 세션에 사용 되는 하나의 코덱을 나타냅니다.
+PayloadDescription 테이블은 지원 테이블입니다. 각 레코드는 오디오 및 비디오 세션에 사용되는 하나의 코덱을 나타냅니다.
 
 
 <table>
@@ -52,21 +52,21 @@ PayloadDescription 테이블은 지원 테이블입니다. 각 레코드는 오�
 <th><strong>열</strong></th>
 <th><strong>데이터 형식</strong></th>
 <th><strong>키/인덱스</strong></th>
-<th><strong>세부적인</strong></th>
+<th><strong>세부 정보</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>PayloadDescriptionKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
-<td><p>코덱을 식별 하는 고유 번호입니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>코덱을 식별하는 고유 번호입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PayloadDescription</strong></p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>독특한</p></td>
-<td><p>코덱 이름.</p></td>
+<td><p>고유한</p></td>
+<td><p>코덱 이름입니다.</p></td>
 </tr>
 </tbody>
 </table>

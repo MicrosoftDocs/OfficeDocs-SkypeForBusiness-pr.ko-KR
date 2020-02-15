@@ -12,16 +12,16 @@ ms:contentKeyID: 51541475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66b95df76c812b50ff9c220ea208406a5ab7cf2a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 179bde8b8e23cc21fb95fa93e3c6cbeb7f381630
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741028"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41741028"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-01-30_
+_**마지막으로 수정 된 항목:** 2013-01-30_
 
-그룹 통화 픽업 번호 범위를 삭제 하려면 다음 절차를 사용 합니다.
+다음 절차에 따라 그룹 통화 픽업 번호 범위를 삭제 합니다.
 
 <div>
 
 ## <a name="to-delete-a-call-pickup-group-number-range"></a>통화 픽업 그룹 번호 범위를 삭제 하려면
 
-1.  Lync Server Management 셸이 RTCUniversalServerAdmins group의 구성원으로 설치 된 컴퓨터 또는 [Lync server 2013의 대리인 설정 권한에](lync-server-2013-delegate-setup-permissions.md)설명 된 대로 필요한 사용자 권한으로 로그온 합니다.
+1.  Lync server 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치 되어 있거나 [Lync server 2013의 설치 권한 위임](lync-server-2013-delegate-setup-permissions.md)에 설명 된 대로 필요한 사용자 권한으로 컴퓨터에 로그온 합니다.
 
-2.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  명령줄에 다음을 입력 합니다.
+3.  명령줄에 다음을 입력합니다.
     
         Remove-CsCallParkOrbit -Identity "<group number range name>" 
     
@@ -59,7 +59,7 @@ _**마지막으로 수정한 주제:** 2013-01-30_
     
 
     > [!NOTE]  
-    > 추가 옵션에 대 한 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">제거-CsCallParkOrbit</A>를 참조 하세요.
+    > 기타 옵션에 대 한 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">get-cscallparkorbit</A>를 참조 하십시오.
 
     
     </div>
@@ -71,11 +71,11 @@ _**마지막으로 수정한 주제:** 2013-01-30_
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013에서 통화 공원 궤도 범위 만들기 또는 수정](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
+[Lync Server 2013에서 통화 대기 번호 범위 만들기 또는 수정](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
 
 
-[제거-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  
-[Get-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Get-CsCallParkOrbit)  
+[Get-cscallparkorbit을 제거 합니다.](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  
+[Get-cscallparkorbit](https://docs.microsoft.com/powershell/module/skype/Get-CsCallParkOrbit)  
   
 
 </div>

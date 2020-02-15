@@ -12,16 +12,16 @@ ms:contentKeyID: 48183515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e1b03e7c64c15d147e09883b9d7580bacbca7be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cb04adb830e4b7207391675aeabd5f3be315724
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729768"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036226"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729768"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-13_
+_**마지막으로 수정 된 항목:** 2012-06-13_
 
-토폴로지 작성기에서 구성한 토폴로지 설정을 사용 하 여 IP 주소 형식을 배포 합니다. 이 섹션에서는 프런트 엔드 서버, 중재 서버 및 Edge 서버에서 IP 주소 유형을 배포 하는 방법에 대해 설명 합니다.
+토폴로지 작성기에서 구성한 토폴로지 설정을 사용 하 여 IP 주소 유형을 배포 합니다. 이 섹션에서는 프런트 엔드 서버, 중재 서버 및에 지 서버에 IP 주소 유형을 배포 하는 방법에 대해 설명 합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013의 프런트 엔드 서버에 IP 주소 유형 배포](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
+  - [Lync Server 2013에 대 한 프런트 엔드 서버에 IP 주소 유형 배포](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
 
-  - [Lync Server 2013의 중재 서버에 IP 주소 유형 배포](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
+  - [Lync Server 2013에 대 한 중재 서버에 IP 주소 유형 배포](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
 
-  - [Lync Server 2013의 에지 서버에 IP 주소 유형 배포](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
+  - [Lync Server 2013에 대 한에 지 서버에 IP 주소 유형 배포](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
 
 </div>
 

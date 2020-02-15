@@ -12,20 +12,20 @@ ms:contentKeyID: 48183357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5cd00033eeccc855cd5ff10b6a2bee6f78da1d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: edd6c7cbcaa1789d9f37cd77123b4afd8c2416de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762236"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036658"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-connections-in-lync-server-2013"></a>Lync Server 2013에서 직접 SIP 연결
+# <a name="direct-sip-connections-in-lync-server-2013"></a>Lync Server 2013의 직접 SIP 연결
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762236"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-08-13_
+_**마지막으로 수정 된 항목:** 2012-08-13_
 
 *직접 SIP 연결* 을 사용 하 여 Lync Server를 다음 중 하나에 연결할 수 있습니다.
 
-  - IP-PBX (자세한 내용은 [Lync Server 2013의 DIRECT SIP 배포 옵션](lync-server-2013-direct-sip-deployment-options.md)을 참조 하세요.)
+  - IP-PBX (자세한 내용은 [Lync Server 2013의 DIRECT SIP 배포 옵션](lync-server-2013-direct-sip-deployment-options.md)참조).
 
-  - PSTN 게이트웨이 (자세한 내용은 [Lync Server 2013의 pstn 게이트웨이 배포 옵션](lync-server-2013-pstn-gateway-deployment-options.md)을 참조 하세요.)
+  - PSTN 게이트웨이 (자세한 내용은 [Lync Server 2013의 PSTN 게이트웨이 배포 옵션](lync-server-2013-pstn-gateway-deployment-options.md)참조).
 
-직접 SIP 연결을 구현 하기 위해 SIP 트렁크를 구현 하는 것과 같은 배포 단계를 기본적으로 따릅니다. 두 경우 모두 중재 서버의 외부 인터페이스를 사용 하 여 연결을 구현 합니다. 유일한 차이점은 SIP trunks를 ITSP 게이트웨이와 같은 외부 엔터티에 연결 하 고, 직접 SIP 연결을 IP PBX 또는 PSTN (공개 교환 전화 네트워크) 게이트웨이와 같은 로컬 네트워크 내의 내부 엔터티에 연결 하는 것입니다.
+직접 SIP 연결을 구현하려면 기본적으로 SIP 트렁크를 구현할 때와 동일한 배포 단계를 따릅니다. 두 경우 모두 중재 서버의 외부 인터페이스를 사용 하 여 연결을 구현 합니다. 단, SIP 트렁크는 ITSP 게이트웨이와 같은 외부 엔터티에 연결하고 직접 SIP 연결은 IP-PBX, 공중 전화망(PSTN) 게이트웨이 등 로컬 네트워크의 내부 엔터티에 연결한다는 점이 다릅니다.
 
 <div>
 

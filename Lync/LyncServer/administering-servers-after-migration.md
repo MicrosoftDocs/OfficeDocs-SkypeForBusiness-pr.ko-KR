@@ -13,16 +13,16 @@ ms:contentKeyID: 48184582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 067dadbb1578aa89f2d7199c0c356ddf86884eac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af2a420b12b10f0b96609fbcfbd31907294a1a08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724198"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42005923"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,15 +36,15 @@ ms.locfileid: "41724198"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-29_
+_**마지막으로 수정 된 항목:** 2012-09-29_
 
-일반적으로 관리 하려는 서버 버전에 해당 하는 관리 도구를 사용 해야 합니다. Lync Server 2010 및 Lync Server 2013 관리 도구는 같은 컴퓨터에 설치할 수 없습니다. 또한 Lync Server 2013 제어판은 각 서버에 자동으로 설치 되지 않습니다. Lync Server 2013 제어판을 설치 하려면 배포 설명서의 [Lync server 2013 관리 도구 설치](lync-server-2013-install-lync-server-administrative-tools.md) 항목에 있는 절차를 따릅니다.
+일반적으로 관리하려는 서버 버전에 해당하는 관리 도구를 사용해야 합니다. Lync Server 2010와 Lync Server 2013 관리 도구는 동일한 컴퓨터에 설치할 수 없습니다. 또한 Lync Server 2013 제어판은 각 서버에 자동으로 설치 되지 않습니다. Lync Server 2013 제어판을 설치 하려면 배포 설명서의 [Install Lync Server 2013 관리 도구](lync-server-2013-install-lync-server-administrative-tools.md) 항목에 포함 된 절차를 따르세요.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync Server 2013 시험 풀이 배포 된 후에는 lync server 2010 토폴로지 작성기 또는 Lync Server 2010 제어판을 사용 하 여 Lync Server 2013 리소스를 관리할 수 없습니다. Lync server 2013 도구를 사용 하 여 Lync Server 2013 및 Lync Server 2010 리소스를 관리 해야 합니다.
+> Lync Server 2013 파일럿 풀이 배포 된 후 lync server 2010 토폴로지 작성기 또는 Lync Server 2010 제어판을 사용 하 여 Lync Server 2013 리소스를 관리할 수 없습니다. Lync server 2013 및 Lync Server 2010 리소스를 관리 하려면 Lync Server 2013 도구를 사용 해야 합니다.
 
 
 

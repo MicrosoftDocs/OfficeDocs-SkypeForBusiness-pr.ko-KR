@@ -12,16 +12,16 @@ ms:contentKeyID: 48184772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 264cd8f1495840eb6dd86879f279110cd4de4784
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8014f947a669b7b636061f17e40dee0fef287345
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743888"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007497"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,53 +35,53 @@ ms.locfileid: "41743888"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-22_
+_**마지막으로 수정 된 항목:** 2012-10-22_
 
-대부분의 고객은 사용자가 Microsoft Lync Server 2010에서 Lync Server 2013로 점진적으로 마이그레이션되는 기업 내에 출시 프로그램을 채택 하 고 있습니다. 이러한 회사의 관리자는 모든 최종 사용자가 최상의 통신 환경을 제공 하도록 하기 위해 두 버전의 Lync Server를 모니터링 하는 데 신경을 써야 합니다. 이 시나리오에서는 Lync Server 2013 관리 팩이 Lync Server 2010 관리 팩과 함께 나란히 마이그레이션 경로를 지원 합니다.
+대부분의 고객은 사용자가 Microsoft Lync Server 2010에서 Lync Server 2013로 점진적으로 마이그레이션되는 기업 내부에 롤아웃 프로그램을 채택 하 고 있습니다. 이러한 회사의 관리자는 두 버전의 Lync Server를 모니터링 하 여 모든 최종 사용자가 최상의 통신 환경을 얻을 수 있도록 하는 데 도움이 됩니다. 이 시나리오의 경우 Lync Server 2013 관리 팩은 Lync Server 2010 관리 팩과 함께 병행 마이그레이션 경로를 지원 합니다.
 
-Lync Server 2010에서 중앙 관리 저장소와 함께 저장 된 토폴로지 문서를 통해 Lync Server 컴퓨터를 검색 했습니다. 이 구성에서 단일 컴퓨터는 다른 모든 Lync Server 컴퓨터의 존재를 보고 합니다.
+Lync Server 2010에서는 중앙 관리 저장소와 함께 저장 된 토폴로지 문서를 통해 Lync Server 컴퓨터를 검색 했습니다. 이 구성에서는 단일 컴퓨터에서 다른 모든 Lync Server 컴퓨터가 있는지 여부를 보고 합니다.
 
-Lync Server 2013의 관리 팩은 이제 Lync Server 2010에서 사용 된 중앙 검색 메커니즘 대신 컴퓨터 수준 검색을 사용 합니다. 즉, 각 System Center 에이전트는 본질적으로 자체를 검색 하 고 System Center Operations Manager에 대 한 존재를 보고 합니다. 컴퓨터 수준 검색을 사용 하 여 시스템 센터 인프라의 관리를 간소화 하 고 lync server 관리 팩 (예: lync server 2010 및 Lync Server 2013 관리 팩 용 관리 팩)을 사용 하도록 설정 합니다. 더 쉽게 공존할 수 있습니다.
+Lync Server 2013의 관리 팩은 이제 Lync Server 2010에서 사용 된 중앙 검색 메커니즘 대신 컴퓨터 수준 검색을 사용 합니다. 즉, 각 System Center 에이전트가 자신의 상태를 검색해서 이를 System Center Operations Manager에 보고합니다. 컴퓨터 수준 검색을 사용 하면 시스템 센터 인프라를 간편 하 게 관리할 수 있으며 lync server 관리 팩의 다양 한 버전 (예: lync server 2010 및 Lync Server 2013 용 관리 팩)을 사용 하도록 설정할 수도 있습니다. 보다 쉽게 사용할 수 있습니다.
 
-이 마이그레이션을 지원 하려면 먼저 기존 Lync Server 2010 모니터링을 업그레이드 하 여 범위 간격을 방지 해야 합니다. 이렇게 하려면 중앙 관리 저장소를 Lync Server 2013로 업그레이드 하기 전에 Lync server 2010에 대 한 중앙 검색 스크립트를 서비스 하기 위해 기존 Lync Server 2010 컴퓨터를 먼저 시작 합니다. 4 단계 프로세스입니다.
+이 마이그레이션을 지원 하려면 먼저 기존 Lync Server 2010 모니터링을 업그레이드 하 여 범위에 대 한 차이를 방지 해야 합니다. 이렇게 하려면 중앙 관리 저장소를 Lync Server 2013로 업그레이드 하기 전에 Lync Server 2010에 대 한 중앙 검색 스크립트를 서비스 하기 위해 기존 Lync Server 2010 컴퓨터를 선택 합니다. 이 프로세스는 다음 4단계로 구성됩니다.
 
 1.  Lync Server 2010 관리 팩을 누적 업데이트 7로 업그레이드 합니다.
 
-2.  중앙 검색 스크립트를 실행 하도록 Lync Server 2010 컴퓨터에 지시 합니다.
+2.  Lync Server 2010 컴퓨터에 중앙 검색 스크립트를 실행 하도록 지시 합니다.
 
 3.  Microsoft Lync Server 2010 관리 팩의 중앙 검색 후보를 재정의 합니다.
 
-4.  새로운 중앙 검색 후보가 검색 되었는지 확인 합니다.
+4.  새 중앙 검색 후보가 검색되었는지 확인합니다.
 
 <div>
 
-## <a name="instructing-a-lync-server-2010-computer-to-run-the-central-discovery-script"></a>Lync Server 2010 컴퓨터에 중앙 검색 스크립트를 실행 하도록 지시
+## <a name="instructing-a-lync-server-2010-computer-to-run-the-central-discovery-script"></a>중앙 검색 스크립트를 실행할 Lync Server 2010 컴퓨터 지정
 
-중앙 검색을 처리 하기 위해 중앙 집중화 되지 않은 관리 저장소 컴퓨터 (예: Lync Server 프런트 엔드) 서버를 지명할 중앙 집중화 되지 않은 관리 저장소 서버에 다음 레지스트리 키를 만들어야 합니다.
+중앙 검색을 처리 하기 위해 중앙 집중식 관리 저장소 컴퓨터 (예: Lync Server 프런트 엔드) 서버를 위한 비 중앙 관리 저장소 서버에 다음과 같은 레지스트리 키를 만들어야 합니다.
 
-HKLM\\소프트웨어\\Microsoft\\실시간 통신\\상태\\CentralDiscoveryCandidate
+HKLM\\Software\\Microsoft\\실시간 통신\\상태\\만들어졌으면 centraldiscoverycandidate
 
-다음 절차를 완료 하 여이 레지스트리 키를 만들 수 있습니다.
+이 레지스트리 키는 다음 절차에 따라 만들 수 있습니다.
 
-1.  **시작** 을 클릭 한 다음 **실행**을 클릭 합니다.
+1.  **시작**을 클릭한 다음 **실행**을 클릭합니다.
 
-2.  **실행** 대화 상자에서 **regedit** 를 입력 한 다음 enter 키를 누릅니다.
+2.  **실행** 대화 상자에 **regedit**를 입력한 다음 Enter 키를 누릅니다.
 
-3.  레지스트리 편집기에서 **\_HKEY LOCAL\_MACHINE**을 확장 하 고 **소프트웨어**를 확장 한 다음 **Microsoft**를 확장 하 고 **실시간 통신**을 확장 합니다.
+3.  레지스트리 편집기에서 **\_HKEY 로컬\_컴퓨터**를 확장 하 고 **소프트웨어**, **Microsoft**를 차례로 확장 한 다음 **실시간 통신**을 확장 합니다.
 
-4.  **상태**를 마우스 오른쪽 단추로 클릭 하 고 **새로 만들기**를 클릭 한 다음 **키**를 클릭 합니다. **상태** 키가 없는 경우 **실시간 통신**을 마우스 오른쪽 단추로 클릭 하 고 **새로 만들기**를 가리킨 다음 **키**를 클릭 합니다. 새 키가 만들어지면 체력을 입력 한 다음 enter 키를 누릅니다.
+4.  **Health**를 마우스 오른쪽 단추로 클릭하고, **새로 만들기**를 클릭한 후 **키**를 클릭합니다. **Health** 키가 없으면 **Real-Time Communications**를 마우스 오른쪽 단추로 클릭하고 **새로 만들기**를 가리킨 후 **키**를 클릭합니다. 새 키가 만들어졌으면 Health를 입력한 후 Enter 키를 누릅니다.
     
-    새 키를 만든 후 **CentralDiscoveryCandidate** 를 입력 하 고 enter 키를 눌러 키의 이름을 바꿉니다.
+    새 키가 만들어졌으면 **CentralDiscoveryCandidate**를 입력한 후 Enter 키를 눌러서 키 이름을 바꿉니다.
 
-이 변경 사항을 적용 하는 데 몇 시간이 걸릴 수 있습니다. 변경 내용이 즉시 적용 되도록 하려면 상태 에이전트 서비스를 중지 한 다음 다시 시작 합니다. 상태 에이전트 서비스를 다시 시작 하려면 Lync Server 2010 컴퓨터에서 다음 절차를 완료 합니다.
+컴퓨터에서 이 변경 내용을 선택하려면 몇 시간 정도 걸릴 수 있습니다. 변경 내용을 즉시 적용하려면 상태 에이전트 서비스를 중지한 후 다시 시작합니다. 상태 에이전트 서비스를 다시 시작 하려면 Lync Server 2010 컴퓨터에서 다음 절차를 완료 합니다.
 
-1.  **시작**을 클릭 하 고 **모든 프로그램**을 클릭 한 다음 **보조 프로그램**을 클릭 하 고 **명령 프롬프트**를 마우스 오른쪽 단추로 클릭 한 다음 **관리자 권한으로 실행**을 클릭 합니다.
+1.  **시작**, **모든 프로그램**, **보조 프로그램**을 차례로 클릭하고 **명령 프롬프트**를 마우스 오른쪽 단추로 클릭한 후 **관리자로 실행**을 클릭합니다.
 
-2.  콘솔 창에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
+2.  콘솔 창에 다음 명령을 입력한 다음 Enter 키를 누릅니다.
     
         Net stop HealthService
 
-3.  "System Center 관리 서비스를 중지 하 고 있습니다" 라는 메시지가 표시 되 고 그 뒤에 서비스가 중지 되었음을 알려 주는 두 번째 메시지가 나타납니다. 서비스가 중단 되 면 다음 명령을 입력 하 고 ENTER 키를 눌러 다시 시작할 수 있습니다.
+3.  "System Center 관리 서비스를 중지하는 중입니다."라는 메시지가 표시되고 이후 서비스가 중지되었다는 메시지가 나타납니다. 서비스가 중지된 후 다음 명령을 입력하고 Enter 키를 눌러서 서비스를 다시 시작할 수 있습니다.
     
         Net start HealthService
 
@@ -91,27 +91,27 @@ HKLM\\소프트웨어\\Microsoft\\실시간 통신\\상태\\CentralDiscoveryCand
 
 ## <a name="overriding-the-central-discovery-candidate-in-the-lync-server-2010-management-pack"></a>Lync Server 2010 관리 팩의 중앙 검색 후보 재정의
 
-Lync server 2010 컴퓨터에서 Lync Server 2010 컴퓨터를 보고 하도록 설정한 후에는 Lync Server 2010 관리 팩에이 변경 사항에 대 한 정보를 알려 주어 야 합니다. 이렇게 하려면 관리 팩에서 재정의를 만들어야 합니다. 다음 절차를 완료 하 여이 작업을 수행할 수 있습니다.
+Lync server 2010 컴퓨터에 Lync Server 2010 컴퓨터에 대 한 보고를 한 후에는이 변경 사항에 대 한 정보를 Lync Server 2010 관리 팩에도 알려야 합니다. 이렇게 하려면 관리 팩에서 재정의를 만들어야 합니다. 이 작업은 다음 절차에 따라 수행할 수 있습니다.
 
-1.  Operations Manager 콘솔에서 **작성**을 클릭 합니다.
+1.  Operations Manager 콘솔에서 **제작**을 클릭합니다.
 
-2.  제작 탭에서 **관리 팩 개체**를 확장 하 고 **개체**검색을 클릭 한 다음 **범위**를 클릭 합니다.
+2.  제작 탭에서 **관리 팩 개체**를 확장하고, **개체 검색**을 클릭한 후 **범위**를 클릭합니다.
 
-3.  **범위 관리 팩 개체** 대화 상자에서 대상 **LS 검색 후보가** 있는 항목을 선택한 다음 **확인**을 클릭 합니다. LS 검색 후보는 Lync Server 2010 관리 팩을 설치한 경우에만 표시 됨을 참고 하세요.
+3.  **관리 팩 개체 범위 지정** 대화 상자에서 대상 **LS 검색 후보**가 포함된 항목을 선택한 후 **확인**을 클릭합니다. LS 검색 후보는 Lync Server 2010 관리 팩을 설치한 경우에만 표시 됩니다.
 
-4.  Operations Manager 콘솔에서 **Ls 검색 후보**를 마우스 오른쪽 단추로 클릭 하 고 **재정의**를 가리킨 다음 **개체 검색 재정의**를 가리킨 다음 **Class: LS 검색 후보의 모든 개체를**클릭 합니다.
+4.  Operations Manager 콘솔에서 **LS 검색 후보**를 마우스 오른쪽 단추로 클릭하고 **재정의**, **개체 검색 재정의**를 가리킨 후 **클래스의 모든 개체: LS 검색 후보**를 클릭합니다.
 
-5.  **속성 재정의** 대화 상자에서 매개 변수 **중앙 검색 WatcherNode Fqdn**옆에 있는 **재정의** 확인란을 선택 합니다. 값 및 **유효 값** **다시 정의** 상자에 Lync Server 2010 컴퓨터의 정규화 된 도메인 이름을 입력 합니다. **적용** 확인란을 선택 하 고 **확인**을 클릭 합니다.
+5.  **재정의 속성** 대화 상자에서 **중앙 검색 감시자 노드 FQDN** 매개 변수 옆에 있는 **재정의** 확인란을 선택합니다. **값 재정의** 및 **유효 값** 상자에 Lync Server 2010 컴퓨터의 정규화 된 도메인 이름을 입력 합니다. **적용** 확인란을 선택하고 **확인**을 클릭합니다.
 
-재정의를 만든 후 루트 관리 서버에서 상태 서비스를 다시 시작 해야 합니다. 상태 서비스를 다시 시작 하려면 루트 관리 서버에서 다음 절차를 완료 합니다.
+재정의를 만든 후에는 루트 관리 서버의 상태 서비스를 다시 시작해야 합니다. 상태 서비스를 다시 시작하려면 루트 관리 서버에서 다음 절차를 완료합니다.
 
-1.  **시작**을 클릭 하 고 **모든 프로그램**을 클릭 한 다음 **보조 프로그램**을 클릭 하 고 **명령 프롬프트**를 마우스 오른쪽 단추로 클릭 한 다음 **관리자 권한으로 실행**을 클릭 합니다.
+1.  **시작**, **모든 프로그램**, **보조 프로그램**을 차례로 클릭하고 **명령 프롬프트**를 마우스 오른쪽 단추로 클릭한 후 **관리자로 실행**을 클릭합니다.
 
-2.  콘솔 창에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
+2.  콘솔 창에 다음 명령을 입력한 다음 Enter 키를 누릅니다.
     
         Net stop HealthService
 
-3.  "System Center 관리 서비스를 중지 하 고 있습니다" 라는 메시지가 표시 되 고 서비스가 중지 되었음을 알리는 두 번째 메시지가 나타납니다. 서비스가 중단 되 면 다음 명령을 입력 하 고 ENTER 키를 눌러 다시 시작할 수 있습니다.
+3.  "System Center 관리 서비스를 중지하는 중입니다."라는 메시지가 표시되고 이후 서비스가 중지되었다는 메시지가 나타납니다. 서비스가 중지된 후 다음 명령을 입력하고 Enter 키를 눌러서 서비스를 다시 시작할 수 있습니다.
     
         Net start HealthService
 
@@ -119,9 +119,9 @@ Lync server 2010 컴퓨터에서 Lync Server 2010 컴퓨터를 보고 하도록 
 
 <div>
 
-## <a name="verifying-that-the-new-central-discovery-candidate-was-discovered"></a>새 중앙 검색 후보가 검색 되었는지 확인
+## <a name="verifying-that-the-new-central-discovery-candidate-was-discovered"></a>새 중앙 검색 후보가 검색되었는지 확인
 
-중앙 관리 저장소를 업그레이드 하기 전의 마지막 단계는 Lync Server 2010 관리 팩에서 새 중앙 검색 후보가 검색 되었는지 확인 하는 것입니다. 이렇게 하려면 Operations Manager 콘솔을 열고 모니터링을 클릭 합니다. 모니터링 탭에서 **Microsoft Lync Server 2010 상태**를 확장 하 고 **토폴로지 검색**을 확장 한 다음 **검색 상태 보기**를 클릭 합니다. 표시의 행에 중앙 검색 후보의 정규화 된 도메인 이름이 나열 되는 **경로가** 있는지 확인 합니다. 또한 컴퓨터 상태가 **정상**으로 보고 되었는지 확인 해야 합니다.
+중앙 관리 저장소를 업그레이드 하기 전 마지막 단계는 새 중앙 검색 후보가 Lync Server 2010 관리 팩에서 검색 되었는지 확인 하는 것입니다. 이를 위해서는 Operations Manager 콘솔을 열고 모니터링을 클릭합니다. 모니터링 탭에서 **Microsoft Lync Server 2010 Health**, **토폴로지 검색**을 확장한 후 **검색 상태 보기**를 클릭합니다. 디스플레이의 행에 중앙 검색 후보의 FQDN(정규화된 도메인 이름)이 나열된 **경로**가 있는지 확인합니다. 또한 컴퓨터 상태가 **정상**으로 보고되었는지 확인해야 합니다.
 
 </div>
 

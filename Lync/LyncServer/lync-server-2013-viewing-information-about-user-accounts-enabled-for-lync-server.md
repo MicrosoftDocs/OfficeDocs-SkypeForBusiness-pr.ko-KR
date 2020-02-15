@@ -1,5 +1,5 @@
 ---
-title: Lync Server에 대해 사용 하도록 설정 된 사용자 계정에 대 한 정보 보기
+title: Lync Server에 사용 되는 사용자 계정에 대 한 정보 보기
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba84f9ef504dcf9e8798a7d25a0ea79b3cb367cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0662bb954e3ac914d29d7dce7b22cb4ad2659c19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757332"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007137"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-information-about-user-accounts-enabled-for-lync-server-2013"></a>Lync Server 2013에서 사용 하도록 설정 된 사용자 계정에 대 한 정보 보기
+# <a name="viewing-information-about-user-accounts-enabled-for-lync-server-2013"></a>Lync Server 2013에 대해 사용 하도록 설정 된 사용자 계정에 대 한 정보 보기
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41757332"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-18_
+_**마지막으로 수정 된 항목:** 2012-10-18_
 
 이 섹션의 절차에 따라 Lync Server 2013 사용자 계정에 대 한 설정 및 정책 정보를 확인 합니다.
 
@@ -49,9 +49,9 @@ _**마지막으로 수정한 주제:** 2012-10-18_
 
 <div>
 
-## <a name="related-sections"></a>관련 단원
+## <a name="related-sections"></a>관련 섹션
 
-[Lync Server 2013에서 사용자별 정책 지정](lync-server-2013-assigning-per-user-policies.md)
+[Lync Server 2013에서 사용자별 정책 할당](lync-server-2013-assigning-per-user-policies.md)
 
 </div>
 

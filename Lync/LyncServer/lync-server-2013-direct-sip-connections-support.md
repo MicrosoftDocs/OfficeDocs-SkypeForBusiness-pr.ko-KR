@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 직접 SIP 연결 지원
+title: Lync Server 2013 direct SIP 연결 지원
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b987069b4b242ab91cf1b4e6a6cadf4113ed387
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be5a7fc7fba086130775a3f394af435c0d823f04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762266"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036708"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762266"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-29_
+_**마지막으로 수정 된 항목:** 2012-06-29_
 
-Lync Server 2013는 direct SIP 연결을 사용 하 여 Lync Server 2013을 다음 중 하나에 연결할 수 있습니다.
+Lync Server 2013에서는 직접 SIP 연결을 사용 하 여 Lync Server 2013를 다음 중 하에도 연결할 수 있습니다.
 
   - IP-PBX
 
   - PSTN 게이트웨이
 
-Lync Server 2013 풀의 중재 서버는 전화 통신 서비스 공급자가 제공 하는 여러 게이트웨이, 세션 경계 컨트롤러 (SBCs) 또는 그에 대 한 일부 조합을 제어할 수 있습니다. 또한 풀의 여러 중재 서버는 단일 게이트웨이와 상호 작용할 수 있습니다.
+Lync Server 2013 풀의 중재 서버는 전화 통신 서비스 공급자가 제공 하는 다중 게이트웨이, 또는이에 대 한 일부 조합을 제어할 수 있습니다. 또한 풀의 여러 중재 서버가 단일 게이트웨이와 상호 작용할 수도 있습니다.
 
-엔터프라이즈 전화 통신 인프라에 대 한 Microsoft 통합 커뮤니케이션 오픈 상호 운용성 프로그램을 사용 하 여 검증 된 PSTN 게이트웨이, IP-Pbx 및 SIP 트렁크 서비스를 찾을 수 있습니다. 자세한 내용은에서 [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)Microsoft 통합 커뮤니케이션 오픈 상호 운용성 프로그램 웹 사이트를 참조 하세요.
+엔터프라이즈 전화 통신 인프라에 대한 Microsoft Unified Communications 개방형 상호 운용성 프로그램을 사용하여 적격 PSTN 게이트웨이, IP-PBX 및 SIP 트렁크 서비스를 찾을 수 있습니다. 자세한 내용은에서 [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)Microsoft 통합 커뮤니케이션 오픈 상호 운용성 프로그램 웹 사이트를 참조 하세요.
 
-직접 SIP 연결에 대 한 토폴로지 및 배포 옵션에 대 한 자세한 내용은 계획 설명서의 [Lync Server 2013에서 직접 sip 연결](lync-server-2013-direct-sip-connections.md) 을 참조 하세요.
+직접 SIP 연결에 대 한 토폴로지 및 배포 옵션에 대 한 자세한 내용은 계획 설명서에서 [Lync Server 2013의 직접 sip 연결](lync-server-2013-direct-sip-connections.md) 을 참조 하십시오.
 
 </div>
 

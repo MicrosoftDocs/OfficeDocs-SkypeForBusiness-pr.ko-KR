@@ -12,16 +12,16 @@ ms:contentKeyID: 49733645
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f324064e2936bda7b5e015aa502aaca10407e591
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 727751762fc63d9e4f888b20dabd62fef0278ea6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733418"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007807"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41733418"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-10_
+_**마지막으로 수정 된 항목:** 2012-09-10_
 
-Lync Server 2013는 재해 복구 중 백업 풀에서 통화 공원을 지원 합니다. 이 섹션에서는 정전이 진행 되는 동안 통화 대기를 지원 하려는 경우와 중단 단계 중에 대기 중인 통화에 대 한 고려 사항에 대해 설명 합니다.
+Lync Server 2013는 재해 복구 중에 백업 풀에서 통화 대기를 지원 합니다. 이 섹션에서는 중단 중에 통화 대기를 지원 하 고 중단 단계 동안 대기 중인 통화를 지 원하는 경우 고려해 야 할 사항에 대해 설명 합니다.
 
 <div>
 

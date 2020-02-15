@@ -12,20 +12,20 @@ ms:contentKeyID: 48185408
 ms.date: 10/17/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b8b35871b740bd6d52d741922a3dcea9b7b60b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 635e252953956d9dc6619ab51eea88804c2905c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754058"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036910"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-enterprise-voice-resiliency-in-lync-server-2013"></a>Lync Server 2013 의 Enterprise Voice 복구 계획
+# <a name="planning-for-enterprise-voice-resiliency-in-lync-server-2013"></a>Lync Server 2013의 Enterprise Voice 복구 계획
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41754058"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2014-10-17_
+_**마지막으로 수정 된 항목:** 2014-10-17_
 
-음성 복원 기능은 WAN (광역 네트워크) 장애 또는 다른 이유를 통해 Lync Server 2013을 호스트 하는 중앙 사이트를 사용할 수 없게 되는 경우 사용자가 전화를 걸고 받을 수 있음을 의미 합니다. 중앙 사이트에 장애가 발생 하는 경우 엔터프라이즈 음성 서비스는 원활한 장애 조치를 통해 백업 사이트에 대 한 중단 없이 계속 해야 합니다. WAN 장애가 발생 하는 경우 지사 사이트 호출이 로컬 PSTN 게이트웨이로 리디렉션 되어야 합니다. 이 섹션에서는 중앙 사이트 또는 WAN 장애가 발생 하는 경우 음성 복원 계획에 대해 설명 합니다.
+음성 복원 이란 Lync Server 2013를 호스트 하는 중앙 사이트가 WAN (광역 네트워크) 오류 또는 다른 원인에 따라 사용할 수 없는 경우 전화를 걸고 수신 하는 사용자 기능을 나타냅니다. 중앙 사이트가 실패할 경우에는 Enterprise Voice 서비스에서 백업 사이트에 대해 원활한 장애 조치를 수행하여 중단 없이 작업을 계속 수행하도록 해야 합니다. WAN 실패의 경우 분기 사이트 통화가 로컬 PSTN 게이트웨이로 리디렉션되어야 합니다. 이 섹션에서는 중앙 사이트 또는 WAN 실패 시 음성 복구 기능 계획에 대해 설명합니다.
 
 <div>
 

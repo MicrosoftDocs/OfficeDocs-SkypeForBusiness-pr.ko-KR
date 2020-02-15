@@ -12,16 +12,16 @@ ms:contentKeyID: 48183723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80e835bfcf12495c75612ecee93d87cf3c421651
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1cfde603ace9036ba547ffb0a7ee80c1963ae6cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755942"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755942"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-18_
+_**마지막으로 수정 된 항목:** 2012-10-18_
 
-미디어 포트 범위 설정은 클라이언트 성능에 큰 영향을 미칠 수 있으므로 구성 해야 합니다. Lync Server Management Shell을 사용 하 여 이러한 설정을 구성할 수 있습니다.
+미디어 포트 범위 설정은 클라이언트 성능에 큰 영향을 줄 수 있으므로 구성해야 합니다. Lync Server 관리 셸을 사용 하 여 이러한 설정을 구성할 수 있습니다.
 
 ### <a name="media-port-range-settings"></a>미디어 포트 범위 설정
 
@@ -59,21 +59,21 @@ _**마지막으로 수정한 주제:** 2012-10-18_
 <tbody>
 <tr class="odd">
 <td><p>Portrange\Enabled</p></td>
-<td><p>서버에서 보낸 포트 범위를 클라이언트에서 미디어 및 신호에 사용할지 여부를 지정 합니다. 하위 값 MinMediaPort 및 MaxMediaPort와 함께 사용 됩니다.</p></td>
-<td><p><strong>CsConferencingConfiguration</strong></p></td>
+<td><p>사용자가 서버에서 전송된 포트 범위를 미디어 및 신호 전달에 사용해야 하는지 여부를 지정합니다. 하위 값인 MinMediaPort 및 MaxMediaPort와 함께 사용됩니다.</p></td>
+<td><p><strong>Get-csconferencingconfiguration</strong></p></td>
 <td><p>ClientMediaPortRangeEnabled</p></td>
 </tr>
 <tr class="even">
 <td><p>Portrange\MinMediaPort</p></td>
-<td><p>미디어에 사용할 시작 포트 번호를 지정 합니다. MaxMediaPort와 결합 하 여 포트 범위를 지정 합니다. 권장 되는 최소 범위는 40 포트입니다.</p></td>
-<td><p><strong>CsConferencingConfiguration</strong></p></td>
-<td><p>ClientMediaPort (클라이언트 미디어에 사용할 시작 포트 번호를 나타냄)</p></td>
+<td><p>미디어에 사용할 시작 포트 번호를 지정합니다. MaxMediaPort와 함께 포트 범위를 지정합니다. 권장되는 최소 범위는 40포트입니다.</p></td>
+<td><p><strong>Get-csconferencingconfiguration</strong></p></td>
+<td><p>ClientMediaPort(클라이언트 미디어에 사용할 시작 포트 번호를 나타냄)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Portrange\MaxMediaPort</p></td>
-<td><p>미디어에 사용할 가장 높은 포트 번호를 지정 합니다. MinMediaPort와 결합 하 여 포트 범위를 지정 합니다. 권장 되는 최소 범위는 40 포트입니다.</p></td>
-<td><p><strong>CsConferencingConfiguration</strong></p></td>
-<td><p>ClientMediaPortRange (클라이언트 미디어에 사용할 수 있는 총 포트 수를 나타냅니다. 기본값은 40입니다.)</p></td>
+<td><p>미디어에 사용할 최대 포트 번호를 지정합니다. MinMediaPort와 함께 포트 범위를 지정합니다. 권장되는 최소 범위는 40포트입니다.</p></td>
+<td><p><strong>Get-csconferencingconfiguration</strong></p></td>
+<td><p>ClientMediaPortRange(클라이언트 미디어에 사용할 수 있는 총 포트 수를 나타내며, 기본값은 40임)</p></td>
 </tr>
 </tbody>
 </table>
@@ -81,17 +81,17 @@ _**마지막으로 수정한 주제:** 2012-10-18_
 
 <div>
 
-## <a name="to-configure-media-port-range-settings"></a>미디어 포트 범위 설정을 구성 하려면
+## <a name="to-configure-media-port-range-settings"></a>미디어 포트 범위 설정을 구성하려면
 
-1.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-2.  다음 cmdlet을 실행 합니다.
+2.  다음 cmdlet을 실행합니다.
     
         Get-CsConferencingConfiguration
     
-    이 cmdlet은 회의 구성 설정을 반환 합니다.
+    이 cmdlet는 회의 구성 설정을 반환합니다.
 
-3.  변경 하려는 매개 변수 및 값을 사용 하 여 다음 cmdlet을 실행 합니다 (이 cmdlet에 대 한 매개 변수에 대 한 자세한 내용은 Lync Server 관리 셸 설명서 참조):
+3.  변경 하려는 매개 변수 및 값을 사용 하 여 다음 cmdlet을 실행 합니다 (이 cmdlet의 매개 변수에 대 한 자세한 내용은 Lync Server 관리 셸 설명서 참조).
     
         Set-CsConferencingConfiguration
     
@@ -99,7 +99,7 @@ _**마지막으로 수정한 주제:** 2012-10-18_
     
 
     > [!NOTE]  
-    > 특정 사이트에 대 한 추가 회의 구성 설정 집합을 만들 수 있습니다. 사이트 id에 <STRONG>New-CsConferencingConfiguration</STRONG> cmdlet을 사용 합니다. 사이트에 대 한 새 회의 구성 설정을 만들면 사이트 설정이 전역 설정 보다 우선적으로 적용 됩니다. 자세한 내용은 Lync Server 관리 셸 설명서를 참조 하세요.
+    > 특정 사이트에 대한 추가 회의 구성 설정 집합을 만들 수 있습니다. 사이트 ID로 <STRONG>New-CsConferencingConfiguration</STRONG> cmdlet를 사용합니다. 사이트에 대한 새 회의 구성 설정을 만들면 사이트 설정이 전역 설정보다 우선합니다. 자세한 내용은 Lync Server 관리 셸 설명서를 참조하십시오.
 
     
     </div>

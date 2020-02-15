@@ -12,20 +12,20 @@ ms:contentKeyID: 48184376
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab30a2153dc7dbf5a15557f6eeaf3b6cb65f68f7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44c8ca531ccb9df74e382068af127d630d5c62b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729708"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036930"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-ip-address-types-on-a-mediation-server-for-lync-server-2013"></a>Lync Server 2013의 중재 서버에 IP 주소 유형 배포
+# <a name="deploy-ip-address-types-on-a-mediation-server-for-lync-server-2013"></a>Lync Server 2013에 대 한 중재 서버에 IP 주소 유형 배포
 
 </div>
 
@@ -35,44 +35,44 @@ ms.locfileid: "41729708"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2016-07-28_
+_**마지막으로 수정 된 항목:** 2016-07-28_
 
-토폴로지 작성기를 사용 하 여 다음 절차의 단계를 수행 하 여 중재 서버에 IP 주소 유형을 배포 합니다.
+토폴로지 작성기를 사용 하 여 중재 서버에 IP 주소 유형을 배포 하려면 다음 절차의 단계를 수행 합니다.
 
 <div>
 
-## <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>중재 서버에서 IP 주소 유형을 배포 하려면
+## <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>중재 서버에 IP 주소 유형을 배포 하려면
 
-  - 토폴로지 작성기의 **중재 풀**에서 풀 내의 서버를 마우스 오른쪽 단추로 클릭 한 다음 **속성 편집**을 선택 합니다. 또는 서버를 선택한 다음 **작업** 메뉴에서 **속성 편집** 을 클릭 합니다.
+  - 토폴로지 작성기의 **중재 풀**에서 풀 내의 서버를 마우스 오른쪽 단추로 클릭 한 다음 **속성 편집**을 선택 합니다. 또흔 서버를 선택한 후 **동작** 메뉴에서 **속성 편집**을 클릭합니다.
 
-  - **속성 편집** 대화 상자에서 구성 하려는 IP 주소 유형을 선택 합니다. 이중 스택 구성은 **IPv4 사용** 을 선택 하 고 다음 그림과 같이 **IPv6을 사용 하도록 설정**합니다.
+  - **속성 편집** 대화 상자에서 구성할 IP 주소 유형을 선택합니다. 이중 스택 구성의 경우 다음 그림과 같이 **IPv4 사용**과 **IPv6 사용**을 선택합니다.
     
     **중재 서버 풀에 대 한 속성 편집 대화 상자**
     
-    ![Lync Server 일반 속성 페이지(FQDN 포함)](images/JJ204964.4e650aca-dbff-4a86-b10d-f0162c032539(OCS.15).png "Lync Server 일반 속성 페이지(FQDN 포함)")
+    ![FQDN이 있는 Lync Server 일반 속성 페이지](images/JJ204964.4e650aca-dbff-4a86-b10d-f0162c032539(OCS.15).png "FQDN이 있는 Lync Server 일반 속성 페이지")
     
-      - **구성 된 모든 IP 주소를 사용**합니다. 컴퓨터에 정의 된 모든 IP 주소를 사용할 수 있도록 허용 하려면이 옵션을 선택 합니다.
+      - **구성된 모든 IP 주소**. 컴퓨터에 정의되어 있는 모든 IP 주소를 사용할 수 있도록 하려면 이 옵션을 선택합니다.
         
         <div>
         
 
         > [!NOTE]  
-        > 이 옵션은 IP 버전 6 (IPv6) 구성에 권장 됩니다.
+        > 이것이 IP 버전 6(IPv6) 구성에서 권장되는 옵션입니다.
 
         
         </div>
     
-      - **선택한 IP 주소로 서비스 사용량을 제한**합니다. 새 서버에서 사용할 특정 주소를 지정 하려면이 옵션을 선택 합니다. 이 옵션을 선택 하는 경우 기본 IP 주소에 대 한 값을 입력 해야 합니다.
+      - **선택한 IP 주소로 서비스 사용 제한**. 새 서버에서 사용할 특정 주소를 지정하려면 이 옵션을 선택합니다. 이 옵션을 선택하는 경우 기본 IP 주소의 값을 입력해야 합니다.
     
-      - **주 IP 주소** 서버가 PSTN (공공 교환 전화 네트워크)을 제외한 모든 통신에 사용할 IP 주소를 입력 합니다. 입력 하는 IP 주소는 선택 주소 유형의 형식과 일치 해야 합니다.
+      - **기본 IP 주소**. 서버에서 PSTN(공중 전화망)을 제외한 모든 통신에 사용할 IP 주소를 입력합니다. 입력하는 IP 주소는 선택한 주소 유형의 형식과 일치해야 합니다.
     
-      - **PSTN IP 주소**. 중재 서버가 독립 실행형 이면 PSTN IP 주소를 정의 합니다. 이 주소는 선택한 주소 유형의 형식과 일치 해야 합니다.
+      - **PSTN IP 주소**. 중재 서버가 독립 실행형 인 경우 PSTN IP 주소를 정의 합니다. 이 주소는 선택한 주소 유형의 형식과 일치해야 합니다.
         
         <div>
         
 
         > [!NOTE]  
-        > Lync Server 2013의 PSTN IP 주소 구성을 지원 하기 위해 추가 NIC (네트워크 인터페이스 카드)를 설치 하는 것은 collocated 중재 서버 역할에서 지원 되지 않습니다. Lync Server 2013의 지원 되는 NIC 구성에 대 한 자세한 내용은 <A href="lync-server-2013-server-hardware-platforms.md">Lync server 2013 용 서버 하드웨어 플랫폼</A>을 참조 하세요.
+        > Lync Server 2013에 대 한 PSTN IP 주소 구성을 지원 하기 위해 추가 NIC (네트워크 인터페이스 카드)를 설치 하는 것은 배치 된 중재 서버 역할에서 지원 되지 않습니다. Lync Server 2013에 대해 지원 되는 NIC 구성에 대 한 자세한 내용은 <A href="lync-server-2013-server-hardware-platforms.md">Lync server 2013 용 서버 하드웨어 플랫폼</A>을 참조 하십시오.
 
         
         </div>

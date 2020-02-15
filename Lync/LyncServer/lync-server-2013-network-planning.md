@@ -12,16 +12,16 @@ ms:contentKeyID: 49733817
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6084fdb6a73566c14185e5b39d1064aa7d5d3647
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eed16a295e678ea2df169fc2d1ec9ddb2eb33d90
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765909"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765909"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-10_
+_**마지막으로 수정 된 항목:** 2012-09-10_
 
-이 섹션의 항목을 사용 하 여 네트워크가 Lync Server에 대해 준비 되었는지 확인할 수 있습니다.
+이 섹션의 내용을 참조하여 네트워크가 Lync Server용으로 현재 준비된 상태인지 확인할 수 있습니다.
 
 <div>
 
@@ -45,11 +45,11 @@ _**마지막으로 수정한 주제:** 2012-09-10_
 
   - [Lync Server 2013의 네트워크 인프라 요구 사항](lync-server-2013-network-infrastructure-requirements.md)
 
-  - [Lync Server 2013에서 IPv6 계획 및 구성](lync-server-2013-planning-for-and-configuring-ipv6.md)
+  - [Lync Server 2013의 IPv6 계획 및 구성](lync-server-2013-planning-for-and-configuring-ipv6.md)
 
   - [Lync Server 2013에 대 한 부하 분산 요구 사항](lync-server-2013-load-balancing-requirements.md)
 
-  - [Lync Server 2013의 DNS (Domain Name System) 요구 사항](lync-server-2013-domain-name-system-dns-requirements.md)
+  - [Lync Server 2013에 대 한 DNS (Domain Name System) 요구 사항](lync-server-2013-domain-name-system-dns-requirements.md)
 
   - [Lync Server 2013의 포트 요구 사항](lync-server-2013-port-requirements.md)
 
@@ -64,7 +64,7 @@ _**마지막으로 수정한 주제:** 2012-09-10_
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013에 대한 인프라 요구 사항 확인](lync-server-2013-determining-your-infrastructure-requirements.md)  
+[Lync Server 2013에 대 한 인프라 요구 사항 확인](lync-server-2013-determining-your-infrastructure-requirements.md)  
   
 
 </div>

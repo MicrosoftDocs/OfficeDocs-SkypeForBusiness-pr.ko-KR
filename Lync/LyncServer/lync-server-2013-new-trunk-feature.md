@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 새로운 트렁크 기능'
+title: 'Lync Server 2013: 새 트렁크 기능'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 962da42567ffcc1c0d541b74266ac5bb1b4653c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 250b240ed0e1b42051e92e9393f10c01ebb753f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755892"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,16 +35,16 @@ ms.locfileid: "41755892"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-21_
+_**마지막으로 수정 된 항목:** 2012-09-21_
 
-Microsoft Lync Server 2013에서 중재 서버와 게이트웨이 간의 여러 trunks를 정의할 수 있습니다. Microsoft Lync Server 2010는 중재 서버와 PSTN 게이트웨이 간의 단일 트렁크에만 사용할 수 있습니다. 이 기능은 추가 trunks을 정의 하는 유연성을 제공 합니다. 트렁크는 중재 서버 FQDN과 수신 포트, PSTN 게이트웨이 FQDN 및 수신 대기 포트 간의 논리적 연결입니다. 이 새로운 접근 권한 값을 통해 여러 중재 서버를 사용 하 여 동일한 PSTN 게이트웨이로 통화를 라우팅할 수 있는 복구를 위해 다양 한 연결 정책을 사용 하는 여러 trunks를 사용할 수 있는 PBX 상호 운용성에 대 한 트렁크의 간편한 사용을 가능 하 게 합니다. IP PBX와 중재 서버, 그리고 서로 다른 사이트의 중재 서버에 동일한 통신 회사 FQDN이 참조 하는 반송파에 대 한 SIP trunks 있는 SIP 트렁크 구성에 적합 합니다.
+Microsoft Lync Server 2013에서는 중재 서버와 게이트웨이 간에 여러 트렁크을 정의할 수 있습니다. Microsoft Lync Server 2010는 중재 서버와 PSTN 게이트웨이 간의 단일 트렁크에만 허용 됩니다. 이 기능을 통해 필요에 따라 유연하게 추가 트렁크를 정의할 수 있습니다. 트렁크는 중재 서버 FQDN 및 수신 대기 포트와 PSTN 게이트웨이 FQDN 및 수신 대기 포트 간의 논리적 연결입니다. 이 새로운 기능을 통해 PBX 상호 운용성을 위해 여러 중재 서버를 사용 하 여 동일한 PSTN 게이트웨이로 통화를 라우팅할 수 있는 복구를 위한 트렁크를 간편 하 게 정의할 수 있습니다. IP-PBX와 중재 서버 및 다른 사이트의 중재 서버가 같은 캐리어 FQDN에서 참조 하는 통신 회사에 SIP를 트렁크 하는 SIP 트렁크 구성의 경우
 
 <div>
 
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013의 새 Enterprise Voice 기능](lync-server-2013-new-enterprise-voice-features.md)  
+[Lync Server 2013의 새로운 Enterprise Voice 기능](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

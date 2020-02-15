@@ -12,16 +12,16 @@ ms:contentKeyID: 63969608
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d88d9872b8a03d5867897c0ac904e0ac1c46669f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3bf9aa2a8246f9f639a33381d7bcfa790df0cffb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736978"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008520"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41736978"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2014-05-20_
+_**마지막으로 수정 된 항목:** 2014-05-20_
 
-지난 달에 대 한 용량 수치를 검토 하 고 향후 개월에 필요할 수 있는 모든 업그레이드에 대 한 계획을 만들어 시스템을 조직의 Sla에서 지정한 제한 내에서 운영 하는 것을 유지 합니다.
+이전 달에 대 한 용량 수치를 검토 하 고, 시스템을 조직의 Sla에 지정 된 제한 내에서 운영 하는 데 필요한 모든 업그레이드 계획을 작성 합니다.
 
 <div>
 
@@ -47,7 +47,7 @@ _**마지막으로 수정한 주제:** 2014-05-20_
 [Lync Server 2013에 대 한 용량 계획 계산기 사용](lync-server-2013-capacity-planning-calculator.md)  
 
 
-[Lync Server 2013의 용량 계획](lync-server-2013-capacity-planning.md)  
+[Lync Server 2013에 대 한 용량 계획](lync-server-2013-capacity-planning.md)  
   
 
 </div>

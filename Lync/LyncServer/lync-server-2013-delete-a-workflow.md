@@ -12,16 +12,16 @@ ms:contentKeyID: 48183274
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ed32780e23cce82027271e74a89fb87e194cc4a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 91326023357df0903ab506217c6abb53babcdf66
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742528"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036126"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,38 +35,38 @@ ms.locfileid: "41742528"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-다음 절차 중 하나를 사용 하 여 워크플로를 삭제 합니다.
+다음 절차 중 하나를 수행하여 워크플로를 삭제합니다.
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-delete-a-workflow"></a>Lync Server 제어판을 사용 하려면 워크플로를 삭제 합니다.
+## <a name="to-use-lync-server-control-panel-delete-a-workflow"></a>Lync Server 제어판을 사용 하 여 워크플로를 삭제 하려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지 원하는 미리 정의 된 관리 역할 중 하나의 구성원으로 로그온 합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원이 나 응답 그룹을 지 원하는 미리 정의 된 관리 역할 중 하나의 구성원으로 로그온 합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+2.  브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.
 
-3.  왼쪽 탐색 모음에서 **응답 그룹**을 클릭 한 다음 **워크플로**를 클릭 합니다.
+3.  왼쪽 탐색 모음에서 **응답 그룹**을 클릭하고 **워크플로**를 클릭합니다.
 
-4.  **워크플로** 페이지에서 **워크플로 만들기 또는 편집**을 클릭 합니다.
+4.  **워크플로** 페이지에서 **워크플로 만들기 또는 편집**을 클릭합니다.
 
-5.  서비스 검색 **선택** 필드에 삭제 하려는 워크플로를 호스팅하는 **applicationserver** 서비스 이름의 일부나 전부를 입력 합니다.
+5.  **서비스 선택** 검색 필드에 삭제할 워크플로를 호스팅하는 **ApplicationServer** 서비스의 이름을 일부분 또는 모두 입력합니다.
 
-6.  서비스 목록에서 원하는 서비스를 클릭 한 다음 **확인**을 클릭 합니다.
+6.  서비스 목록에서 원하는 서비스를 클릭하고 **확인**을 클릭합니다.
     
     <div>
     
 
     > [!NOTE]  
-    > 응답 그룹 구성 도구 웹 페이지가 열립니다. <STRONG>Https://&lt;webpoolfqdn&gt;/RgsConfig</STRONG>에 연결 하 여 웹 브라우저에서 응답 그룹 구성 도구 웹 페이지를 직접 열 수도 있습니다.
+    > 응답 그룹 구성 도구 웹 페이지가 열립니다. <STRONG>Https://&lt;webpoolfqdn&gt;/RgsConfig</STRONG>에 연결 하 여 웹 브라우저에서 직접 응답 그룹 구성 도구 웹 페이지를 열 수도 있습니다.
 
     
     </div>
 
-7.  **기존 워크플로 관리**에서 삭제 하려는 워크플로를 찾은 다음, **실행**에서 **삭제**를 클릭 합니다.
+7.  **기존 워크플로 관리**에서 삭제할 워크플로를 찾은 다음 **동작**에서 **삭제**를 클릭합니다.
 
-8.  **예**를 클릭 합니다.
+8.  **예**를 클릭합니다.
 
 </div>
 
@@ -74,11 +74,11 @@ _**마지막으로 수정한 주제:** 2012-11-01_
 
 ## <a name="to-use-windows-powershell-to-delete-a-workflow"></a>Windows PowerShell을 사용 하 여 워크플로를 삭제 하려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원 또는 응답 그룹을 지 원하는 미리 정의 된 관리 역할 중 하나의 구성원으로 로그온 합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원이 나 응답 그룹을 지 원하는 미리 정의 된 관리 역할 중 하나의 구성원으로 로그온 합니다.
 
-2.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  명령줄에서 다음을 실행 합니다.
+3.  명령줄에서 다음을 실행합니다.
     
         Get-CsRgsWorkflow -Identity <Application Server service> -Name "<name of workflow>" | Remove-CsRgsWorkflow
     

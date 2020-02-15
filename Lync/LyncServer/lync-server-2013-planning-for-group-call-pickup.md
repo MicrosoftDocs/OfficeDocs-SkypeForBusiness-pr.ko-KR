@@ -12,16 +12,16 @@ ms:contentKeyID: 51541487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c815e49b1fb60c43e93963c21b3b44c57ff31ae0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 10dbaf1842533830411b94476c988629e17aa291
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725385"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036718"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41725385"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-01_
+_**마지막으로 수정 된 항목:** 2013-02-01_
 
-Lync Server의 누적 업데이트 2013:2013 2 월에는 그룹 통화 픽업 Pickup가 새로운 엔터프라이즈 음성 기능으로 도입 되었습니다. 그룹 통화 픽업 사용자는 통화 픽업 그룹 번호로 전화를 걸어 다른 사용자에 게 연결 되는 통화를 선택할 수 있습니다. 이 섹션에는 그룹 통화 픽업과 관련 된 계획 정보가 포함 됩니다.
+Lync Server에 대 한 누적 업데이트 2013:2 월 2013 그룹 통화 픽업을 새 Enterprise Voice 기능으로 도입 합니다. 그룹 통화 픽업 사용자는 통화 픽업 그룹 번호를 사용 하 여 다른 사용자에 게 신호를 거는 통화를 선택할 수 있습니다. 이 섹션에는 그룹 통화 픽업에 해당 하는 계획 정보에 대 한 정보가 포함 되어 있습니다.
 
 <div>
 
@@ -45,11 +45,11 @@ Lync Server의 누적 업데이트 2013:2013 2 월에는 그룹 통화 픽업 Pi
 
   - [Lync Server 2013의 그룹 통화 픽업 개요](lync-server-2013-overview-of-group-call-pickup.md)
 
-  - [Lync Server 2013의 그룹 통화 픽업에 사용 되는 구성 요소](lync-server-2013-components-used-by-group-call-pickup.md)
+  - [Lync Server 2013의 그룹 통화 픽업에서 사용 되는 구성 요소](lync-server-2013-components-used-by-group-call-pickup.md)
 
   - [Lync Server 2013의 그룹 통화 픽업에 대 한 기술 요구 사항](lync-server-2013-technical-requirements-for-group-call-pickup.md)
 
-  - [Lync Server 2013에서 그룹 통화 픽업으로 지원 되는 클라이언트](lync-server-2013-clients-supported-for-group-call-pickup.md)
+  - [Lync Server 2013의 그룹 통화 픽업에 대해 지원 되는 클라이언트](lync-server-2013-clients-supported-for-group-call-pickup.md)
 
   - [Lync Server 2013의 그룹 통화 픽업 배포 프로세스](lync-server-2013-deployment-process-for-group-call-pickup.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93dc2fd539ccc24717939ccfa2ca93032fd9f25b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9ffd2c289917c5ccf0ec3a484284fecca3323810
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741988"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007257"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741988"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-VideoMetricsThreshold 테이블에는 영상 통화에 사용 되는 경력 메트릭의 품질에 적합 한 값이 포함 되어 있습니다.
+VideoMetricsThreshold 테이블은 비디오 통화에 사용되는 체감 품질 메트릭에 대한 최적의 값과 적절한 값을 포함합니다.
 
 
 <table>
@@ -52,15 +52,15 @@ VideoMetricsThreshold 테이블에는 영상 통화에 사용 되는 경력 메�
 <th><strong>열</strong></th>
 <th><strong>데이터 형식</strong></th>
 <th><strong>키/인덱스</strong></th>
-<th><strong>세부적인</strong></th>
+<th><strong>세부 정보</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>CallType</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
-<td><p>배치 된 통화 유형입니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>건 전화의 유형입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoPostFECPLROptimal</strong></p></td>
@@ -108,7 +108,7 @@ VideoMetricsThreshold 테이블에는 영상 통화에 사용 되는 경력 메�
 <td><p><strong>LowFrameRateCallPercentAcceptable</strong></p></td>
 <td><p>10 진수 (5, 2)</p></td>
 <td></td>
-<td><p>기본값은 10.0/</p></td>
+<td><p>기본값은 10.0입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowResolutionCallPercentOptimal</strong></p></td>
@@ -124,25 +124,25 @@ VideoMetricsThreshold 테이블에는 영상 통화에 사용 되는 경력 메�
 </tr>
 <tr class="even">
 <td><p><strong>VideoPacketLossRateOptimal</strong></p></td>
-<td><p>에</p></td>
+<td><p>at</p></td>
 <td></td>
 <td><p>기본값은 0.05입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoPacketLossRateAcceptable</strong></p></td>
-<td><p>o</p></td>
+<td><p>식</p></td>
 <td></td>
 <td><p>기본값은 0.10입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoFrameRateAvgOptimal</strong></p></td>
-<td><p>o</p></td>
+<td><p>식</p></td>
 <td></td>
 <td><p>기본값은 12입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoFrameRateAvgAcceptable</strong></p></td>
-<td><p>o</p></td>
+<td><p>식</p></td>
 <td></td>
 <td><p>기본값은 7입니다.</p></td>
 </tr>

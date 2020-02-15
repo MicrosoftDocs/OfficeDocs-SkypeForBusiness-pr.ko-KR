@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Standard Edition 서버 데이터베이스 설치'
+title: 'Lync Server 2013: Standard Edition Server 데이터베이스 설치'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183385
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63f2ef304b1a603203d09f260b8d3c7c46e23ccf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 52853073fec62a3386936fe093b83e902d576069
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763692"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-standard-edition-server-database-for-lync-server-2013"></a>Lync Server 2013에 대한 Standard Edition 서버 데이터베이스 설치
+# <a name="install-standard-edition-server-database-for-lync-server-2013"></a>Lync Server 2013에 대 한 Standard Edition server 데이터베이스 설치
 
 </div>
 
@@ -35,36 +35,36 @@ ms.locfileid: "41763692"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-01_
+_**마지막으로 수정 된 항목:** 2012-10-01_
 
-표준 버전 서버를 인프라의 유일한 서버로 설정 하는 것은 **배포 마법사** 에서 초기 서버 설정에 대 한 선택이 있기 때문에 사용자가 다른 서버 설치와 다릅니다.
+Standard Edition 서버를 인프라의 유일한 서버로 설정 하는 것은 **배포 마법사** 에서 초기 서버를 설정 하는 것이 기본적으로 선택 되어 있으므로 사용자를 가정 하는 다른 서버 설치와는 다릅니다.
 
 <div>
 
-## <a name="to-install-a-standard-edition-server"></a>스탠더드 버전 서버를 설치 하려면
+## <a name="to-install-a-standard-edition-server"></a>Standard Edition 서버를 설치하려면
 
-1.  Standard Edition server를 로컬 관리자 또는 동등한 도메인으로 설치할 서버에 로그온 합니다.
+1.  Standard Edition server를 설치할 서버에 로컬 관리자 또는 동등한 도메인으로 로그온 합니다.
 
-2.  Active Directory 도메인 서비스를 준비 하지 않은 경우 먼저 해당 절차를 수행 합니다. 자세한 내용은 [Lync Server 2013에 대 한 Active Directory 도메인 서비스 준비](lync-server-2013-preparing-active-directory-domain-services.md)를 참조 하세요.
+2.  Active Directory 도메인 서비스를 준비 하지 않은 경우 먼저 해당 절차를 수행 합니다. 자세한 내용은 [Lync Server 2013에 대 한 Active Directory 도메인 서비스 준비](lync-server-2013-preparing-active-directory-domain-services.md)를 참조 하십시오.
 
 3.  Lync Server 배포 마법사에서 **첫 번째 Standard Edition Server 준비**를 클릭 합니다.
 
-4.  **단일 Standard Edition Server 준비** 페이지에서 **다음**을 클릭 합니다.
+4.  **단일 Standard Edition Server 준비** 페이지에서 **다음**을 클릭합니다.
 
-5.  **명령 실행** 페이지에서 SQL Server 2012 Express가 중앙 관리 저장소로 설치 됩니다. 필요한 방화벽 규칙이 생성 됩니다. 데이터베이스 설치 및 필수 소프트웨어 소프트웨어가 완료 되 면 **마침을**클릭 합니다.
+5.  **명령 실행** 페이지에서 SQL Server 2012 Express는 중앙 관리 저장소로 설치 됩니다. 또한 필요한 방화벽 규칙이 만들어집니다. 데이터베이스 및 필수 구성 요소 소프트웨어 설치가 완료되면 **마침**을 클릭합니다.
     
     <div>
     
 
     > [!NOTE]  
-    > 초기 설치에는 명령 출력 요약 화면에 표시 되는 업데이트 없이 시간이 걸릴 수 있습니다. 이는 SQL Server Express의 설치 때문입니다. 데이터베이스 설치를 모니터링 해야 하는 경우 작업 관리자를 사용 하 여 설정을 모니터링 합니다.
+    > 초기 설치는 시간이 오래 걸릴 수 있으며 명령 출력 요약 화면에 업데이트가 표시되지 않을 수 있습니다. SQL Server Express가 설치 되었기 때문입니다. 데이터베이스 설치를 모니터링해야 하는 경우 작업 관리자를 사용하여 설치를 모니터링합니다.
 
     
     </div>
 
-6.  Lync Server 배포 마법사 페이지에서 이전에 관리 도구를 설치 하지 않은 경우 **토폴로지 작성기 설치** 를 클릭 합니다. 자세한 내용은 [Lync Server 2013 관리 도구 설치](lync-server-2013-install-lync-server-administrative-tools.md)를 참조 하세요.
+6.  Lync Server 배포 마법사 페이지에서 이전에 관리 도구를 설치 하지 않은 경우 **토폴로지 작성기 설치** 를 클릭 합니다. 자세한 내용은 [Install Lync Server 2013 관리 도구](lync-server-2013-install-lync-server-administrative-tools.md)를 참조 하십시오.
 
-7.  "Active Directory 준비", "첫 번째 Standard Edition server 준비" 및 "토폴로지 작성기 설치" 옆에 녹색 확인 표시가 있는지 확인 합니다.
+7.  "Active Directory 준비", "첫 번째 Standard Edition 서버 준비" 및 "토폴로지 작성기 설치" 옆에 녹색 확인 표시가 있는지 확인합니다.
 
 </div>
 

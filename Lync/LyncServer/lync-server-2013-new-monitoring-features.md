@@ -12,16 +12,16 @@ ms:contentKeyID: 48185883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ce8fa7b78aa00008cd5aaf748ba66a78ecefbe7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53144bfd9a05d1fc20671b1d7b6aeb22b0f84f6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725606"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007767"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41725606"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-08_
+_**마지막으로 수정 된 항목:** 2012-11-08_
 
-Lync Server 2013에는 별도의 모니터링 서버 역할이 없습니다. 모니터링은 Enterprise Edition 배포의 모든 프런트 엔드 서버와 풀 또는 사이트에 대해 구현 및 구성할 수 있는 표준 버전 서버에서 사용할 수 있는 선택적 기능입니다. Lync Server 2013을 처음 사용 하는 경우 모니터링 데이터베이스에 대해 SQL Server 데이터베이스 미러링을 사용할 수 있습니다.
+Lync Server 2013에는 별도의 모니터링 서버 역할이 없습니다. 모니터링은 Enterprise Edition 배포의 모든 프런트 엔드 서버 및 Standard Edition server에서 사용할 수 있는 선택적 기능으로, 풀 또는 사이트에 대해 구현 및 구성할 수 있습니다. Lync Server 2013의 새로운 기능을 통해 모니터링 데이터베이스에 대해 SQL Server 데이터베이스 미러링을 사용 하도록 설정할 수 있습니다.
 
 </div>
 

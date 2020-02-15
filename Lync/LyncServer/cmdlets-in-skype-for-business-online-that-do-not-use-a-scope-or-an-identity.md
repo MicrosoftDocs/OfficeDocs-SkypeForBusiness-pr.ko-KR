@@ -12,27 +12,27 @@ ms:contentKeyID: 56558839
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3dfc2ee8cd812b597f363934475d1996f2e42a0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad366315bbc4acf5afb417262da92a5683a084df
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727598"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42001733"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a>범위 또는 id를 사용 하지 않는 비즈니스용 Skype Online의 cmdlet
 
  
 
 
-허용 목록 및 차단 된 목록을 수정할 때 사용 되는 cmdlet (사용자가 통신 하도록 허용 된 외부 조직에 따라 결정 되는 목록)은 범위 또는 Id를 사용 하지 않습니다. 사실, **CsEdgeAllowAllKnownDomains** cmdlet에는 매개 변수가 없습니다. 범위 또는 Id 중 하나를 사용 하지 않는 cmdlet은 다음과 같습니다.
+허용 목록 및 차단 된 목록 (사용자가 통신할 수 있는 외부 조직에 따라 결정 되는 목록)을 수정할 때 사용 되는 cmdlet은 범위 또는 Id를 사용 하지 않습니다. **CsEdgeAllowAllKnownDomains** cmdlet에는 매개 변수가 없는 것이 사실에 해당 합니다. 범위나 Id 중 하나를 사용 하지 않는 cmdlet은 다음과 같습니다.
 
-  - [New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/en-us/library/jj994088\(v=ocs.15\))
+  - [CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/jj994088\(v=ocs.15\))
 
-  - [New-CsEdgeAllowList](https://technet.microsoft.com/en-us/library/jj994023\(v=ocs.15\))
+  - [CsEdgeAllowList](https://technet.microsoft.com/library/jj994023\(v=ocs.15\))
 
-  - [New-CsEdgeDomainPattern](https://technet.microsoft.com/en-us/library/jj994040\(v=ocs.15\))
+  - [새-CsEdgeDomainPattern](https://technet.microsoft.com/library/jj994040\(v=ocs.15\))
 
-**새 CsEdgeAllowList** Cmdlet 및 **새-CsEdgeDomainPattern** cmdlet을 모두 사용 하 여 Domain 매개 변수를 포함 해야 합니다. 예를 들면 다음과 같습니다.
+**CsEdgeAllowList** Cmdlet과 **새-CsEdgeDomainPattern** cmdlet을 모두 사용 하 여 Domain 매개 변수를 포함 해야 합니다. 예를 들면 다음과 같습니다.
 
     $x = New-CsEdgeDomainPattern -Domain "fabrikam.com"
 
@@ -40,5 +40,5 @@ ms.locfileid: "41727598"
 
 
 [비즈니스용 Skype Online의 id, 범위 및 테 넌 트](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online Cmdlet](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
+[비즈니스용 Skype 온라인 cmdlet](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

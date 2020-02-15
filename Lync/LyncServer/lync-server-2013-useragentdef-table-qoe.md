@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: UserAgentDef 테이블 (체감 품질)'
+title: 'Lync Server 2013: UserAgentDef 테이블 (QoE)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185394
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 146c22b77ac6d2681c1844feade86242e1fcd72f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ebddb1e0313d0c47acb4171929d12d352f69c260
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744408"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007607"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="useragentdef-table-qoe-in-lync-server-2013"></a>Lync Server 2013의 UserAgentDef 테이블 (체감 품질)
+# <a name="useragentdef-table-qoe-in-lync-server-2013"></a>Lync Server 2013의 UserAgentDef 테이블 (QoE)
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744408"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2014-03-25_
+_**마지막으로 수정 된 항목:** 2014-03-25_
 
-UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 설명 이름에 매핑합니다. 사용자 에이전트는 Microsoft Lync Server 2013에 연결 하는 데 사용 되는 소프트웨어 클라이언트입니다.
+UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 설명이 포함된 이름에 매핑합니다. 사용자 에이전트는 Microsoft Lync Server 2013에 연결 하는 데 사용 되는 소프트웨어 클라이언트입니다.
 
 
 <table>
@@ -55,27 +55,27 @@ UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 �
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>MediationServer</p></td>
 <td><p>MediationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>2 </p></td>
 <td><p>AV-MCU</p></td>
 <td><p>AV-MCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>4(tcp/ipv4)</p></td>
-<td><p>OC</p></td>
-<td><p>OC</p></td>
+<td><p>4 </p></td>
+<td><p>NM-OC-14-2ND</p></td>
+<td><p>NM-OC-14-2ND</p></td>
 </tr>
 <tr class="even">
-<td><p>20cm(8</p></td>
-<td><p>OCPhone</p></td>
-<td><p>OCPhone</p></td>
+<td><p>8 </p></td>
+<td><p>Cpe-ocphone</p></td>
+<td><p>Cpe-ocphone</p></td>
 </tr>
 <tr class="odd">
-<td><p>16</p></td>
+<td><p>16 </p></td>
 <td><p>LMC</p></td>
 <td><p>LMC</p></td>
 </tr>
@@ -86,23 +86,23 @@ UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 �
 </tr>
 <tr class="odd">
 <td><p>64</p></td>
-<td><p>200</p></td>
-<td><p>200</p></td>
+<td><p>19</p></td>
+<td><p>19</p></td>
 </tr>
 <tr class="even">
 <td><p>64</p></td>
 <td><p>MC</p></td>
-<td><p>200</p></td>
+<td><p>19</p></td>
 </tr>
 <tr class="odd">
 <td><p>128</p></td>
-<td><p>리소스만</p></td>
-<td><p>리소스만</p></td>
+<td><p>교환</p></td>
+<td><p>교환</p></td>
 </tr>
 <tr class="even">
 <td><p>256</p></td>
 <td><p>Conferencing_Announcement_Service_1 0</p></td>
-<td><p>이어지는</p></td>
+<td><p>인증</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
@@ -117,7 +117,7 @@ UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 �
 <tr class="odd">
 <td><p>1024</p></td>
 <td><p>Response_Group_Service</p></td>
-<td><p>RGS</p></td>
+<td><p>컴파일하지</p></td>
 </tr>
 <tr class="even">
 <td><p>1032</p></td>
@@ -127,7 +127,7 @@ UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 �
 <tr class="odd">
 <td><p>1040</p></td>
 <td><p>Response_Group_Service Announcement_Service</p></td>
-<td><p>문자열로</p></td>
+<td><p>에</p></td>
 </tr>
 <tr class="even">
 <td><p>2048</p></td>
@@ -141,8 +141,8 @@ UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 �
 </tr>
 <tr class="even">
 <td><p>16387</p></td>
-<td><p>CWA</p></td>
-<td><p>CWA</p></td>
+<td><p>NM-CWA-NO-VERSION</p></td>
+<td><p>NM-CWA-NO-VERSION</p></td>
 </tr>
 <tr class="odd">
 <td><p>16388</p></td>
@@ -206,8 +206,8 @@ UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 �
 </tr>
 <tr class="odd">
 <td><p>16404</p></td>
-<td><p>플레이어</p></td>
-<td><p>플레이어</p></td>
+<td><p>PC</p></td>
+<td><p>PC</p></td>
 </tr>
 <tr class="even">
 <td><p>16405</p></td>
@@ -241,8 +241,8 @@ UserAgentDef 테이블은 사용자 에이전트 식별자를 에이전트의 �
 </tr>
 <tr class="even">
 <td><p>32769</p></td>
-<td><p>게이트웨이와</p></td>
-<td><p>게이트웨이와</p></td>
+<td><p>게이트웨이</p></td>
+<td><p>게이트웨이</p></td>
 </tr>
 <tr class="odd">
 <td><p>32770</p></td>

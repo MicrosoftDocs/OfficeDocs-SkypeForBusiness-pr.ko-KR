@@ -12,16 +12,16 @@ ms:contentKeyID: 48185323
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd738a423744257968eb029abdd29e5964c0c623
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3caf59185bc3fbe985ea8b7d4371d464b515e3fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755218"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006896"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755218"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-25_
+_**마지막으로 수정 된 항목:** 2012-06-25_
 
-다음 항목에서는 각 영구 채팅 데이터베이스 스키마 테이블의 열에 대해 자세히 설명 합니다.
+다음 항목에서는 각 영구 채팅 데이터베이스 스키마 테이블에 있는 열에 대해 자세히 설명 합니다.
 
 <div>
 
@@ -83,7 +83,7 @@ _**마지막으로 수정한 주제:** 2012-06-25_
 
   - [Lync Server 2013의 tblLastChatId](lync-server-2013-tbllastchatid.md)
 
-  - [Lync Server 2013의 tblPreference](lync-server-2013-tblpreference.md)
+  - [Lync Server 2013의 tblPreference 설정](lync-server-2013-tblpreference.md)
 
   - [Lync Server 2013의 tblFileToken](lync-server-2013-tblfiletoken.md)
 

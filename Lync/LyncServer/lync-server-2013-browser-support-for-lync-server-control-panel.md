@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server 제어판에 대한 브라우저 지원'
+title: 'Lync Server 2013: Lync Server 제어판에 대 한 브라우저 지원'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43e224e878b645daa355cfa5617ff42c69b61b94
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6fbdd00adb7a71c85d35f7f3834db0bd831ec9a8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741808"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007998"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="browser-support-for-lync-server-2013-control-panel"></a>Lync Server 2013 제어판에 대한 브라우저 지원
+# <a name="browser-support-for-lync-server-2013-control-panel"></a>Lync Server 2013 제어판에 대 한 브라우저 지원
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41741808"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-28_
+_**마지막으로 수정 된 항목:** 2012-09-28_
 
-Lync Server 2013는 다음 브라우저를 사용할 때 토폴로지 작성기의 사용을 지원 하 고 Lync Server 2013 제어판이 지원 됩니다.
+Lync Server 2013에서는 다음 브라우저를 사용할 때 토폴로지 작성기와 Lync Server 2013 제어판을 사용할 수 있습니다.
 
-  - Internet Explorer 10, 32 비트
+  - Internet Explorer 10, 32비트
 
-  - Internet Explorer 9, 32 비트
+  - Internet Explorer 9, 32비트
 
-  - Internet Explorer 8, 32 비트
+  - Internet Explorer 8, 32비트
 
 </div>
 

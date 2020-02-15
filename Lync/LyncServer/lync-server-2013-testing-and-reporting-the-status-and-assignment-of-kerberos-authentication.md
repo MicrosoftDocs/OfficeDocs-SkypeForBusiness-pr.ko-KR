@@ -12,16 +12,16 @@ ms:contentKeyID: 48184716
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4aeeff884decf5d94ba15eecd5f49c87baece99
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a23252190b9ce93ed397e1e44ea400efa9db856c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745868"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41745868"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2010-11-03_
+_**마지막으로 수정 된 항목:** 2010-11-03_
 
-Kerberos 할당을 테스트 하거나 Kerberos 인증의 상태를 확인 해야 하는 경우 Windows PowerShell cmdlet을 사용할 수 있습니다.
+Kerberos 할당을 테스트 하거나 Kerberos 인증의 상태를 확인 해야 하는 경우에는 Windows PowerShell cmdlet을 사용할 수 있습니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에서 Kerberos 인증에 대한 기능 준비 상태 테스트 및 보고](lync-server-2013-test-and-report-functional-readiness-for-kerberos-authentication.md)
+  - [Lync Server 2013에서 Kerberos 인증에 대 한 기능 준비 상태 테스트 및 보고](lync-server-2013-test-and-report-functional-readiness-for-kerberos-authentication.md)
 
   - [Lync Server 2013에서 Kerberos 계정 할당 보고](lync-server-2013-report-kerberos-account-assignments.md)
 

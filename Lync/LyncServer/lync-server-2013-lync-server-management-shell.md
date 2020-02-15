@@ -12,16 +12,16 @@ ms:contentKeyID: 48184386
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d519b647eae4937af10a38673803484a253baef7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d8ba2330e59d4f352407d94c6e73f96a5fff816
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742188"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41742188"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2017-09-20_
+_**마지막으로 수정 된 항목:** 2017-09-20_
 
 <div>
 
 
 > [!NOTE]  
-> 비즈니스용 Skype cmdlet 참조가 docs.microsoft.com으로 이동 했습니다. 아래 링크를 클릭 하면 새 docs.microsoft.com 페이지로 이동 합니다. 이제 콘텐츠가 열리고, GitHub를 통해 커뮤니티에서 기고 가능 합니다. 참여 하는 데 관심이 있으십니까? 여기에 있는 리포지토리의 추가 정보를 확인 하세요.<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> 비즈니스용 Skype cmdlet 참조가 docs.microsoft.com로 이동 되었습니다. 아래 링크를 클릭 하면 새 docs.microsoft.com 페이지로 이동 합니다. 이제 콘텐츠가 사용 가능 하 게 열리고 GitHub를 통한 커뮤니티 기고에 사용할 수 있습니다. 참여에 관심이 있으십니까? 여기에 있는 리포지토리의 추가 정보를 확인 하세요.<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
 </div>
 
-Microsoft Lync Server 2010에는 Microsoft Office Communications Server 2007 R2에서 제공 하는 것과 비교 하 여 다양 한 새롭고 향상 된 기능이 도입 되었습니다. 한 가지 개선 사항은 구현을 관리 하는 방법입니다. 예를 들어 Lync Server 제어판 이라는 새 사용자 인터페이스가 있는데,이는 대부분의 사용자가 Microsoft 관리 콘솔에서 사용 하는 대규모 이동을 나타내는 것입니다. 관리 효율성에 대 한 그 밖의 주요 개선 사항은 Windows PowerShell을 포함 하는 것입니다.
+Microsoft Lync Server 2010에서는 Microsoft Office Communications Server 2007 r 2에서 제공 하는 것과 비교 하 여 다양 한 새 기능과 향상 된 기능이 도입 되었습니다. 개선된 기능 중 하나는 구현을 관리하는 방식입니다. 예를 들어 Lync Server 제어판 이라는 새로운 사용자 인터페이스를 사용 하 여 대부분의 사용자가 Microsoft Management Console을 사용할 수 있는 대규모 이동을 나타냅니다. 관리 효율성이 향상 되는 또 다른 주요 기능은 Windows PowerShell을 포함 하는 것입니다.
 
-Windows PowerShell을 사용 하면 명령줄에서 Microsoft 응용 프로그램을 관리할 수 있습니다. 여기에는 명령줄 환경, 제품별 명령, 전체 스크립팅 언어가 포함됩니다. Windows PowerShell은 먼저 2006에서 발생 하는 Windows 운영 체제의 다운로드 가능한 릴리스로 도입 되었으며 Microsoft Exchange Server 2007의 관리 효율성을 위한 명령줄 인터페이스로 통합 되었습니다. 그 당시에는 microsoft Lync Server 2013의 최신 버전을 Microsoft 서버 제품에 통합 하는 것이 더 커지고 있습니다. Lync Server 2010는 배포의 모든 측면을 관리 하는 데 사용할 수 있는 550 제품별 cmdlet을 도입 했습니다.
+Windows PowerShell을 사용 하면 명령줄에서 Microsoft 응용 프로그램을 관리할 수 있습니다. 명령줄 환경, 제품별 명령 및 전체 스크립트 언어를 포함 합니다. Windows PowerShell은 처음에 2006의 Windows 운영 체제에 대 한 다운로드 가능한 릴리스로 도입 되었으며, Microsoft Exchange Server 2007의 관리 효율성을 위한 명령줄 인터페이스로 통합 되었습니다. 이 시점이 계속 해 서 증가 하 고 있으며, 대부분의 Microsoft Server 제품에 통합 되어 있으며, 이러한 제품은 가장 최근 microsoft Lync Server 2013입니다. Lync Server 2010에서는 배포의 모든 측면을 관리 하는 데 사용할 수 있는 550 제품 관련 cmdlet이 도입 되었습니다.
 
-다음 섹션에는 cmdlet 및 해당 설명 목록이 나와 있습니다. 이 정보는 명령줄에서 직접 확인할 수도 있습니다. Lync Server 관리 셸 명령 프롬프트에서 다음을 입력 하면 됩니다.
+다음 섹션에는 cmdlet 및 해당 설명 목록이 나와 있습니다. 이 정보는 명령줄에서 직접 확인할 수도 있습니다. Lync Server 관리 셸 명령 프롬프트에 다음을 입력 하기만 하면 됩니다.
 
     Get-Help <cmdlet name> -Full
 
@@ -67,14 +67,14 @@ Lync Server 2013의 Windows PowerShell에 대해 알아야 할 사항:
     
 
     > [!WARNING]  
-    > Lync Server 관리 셸이 아닌 Windows PowerShell 창을 여는 경우 기본적으로 Lync Server cmdlet을 실행할 수 없습니다. Windows PowerShell에서 Lync Server cmdlet을 실행 하려면 먼저 Windows PowerShell 명령 프롬프트에서 다음을 입력 합니다.<BR>가져오기-모듈 Lync
+    > Lync Server 관리 셸이 아닌 Windows PowerShell 창을 여는 경우 기본적으로 Lync Server cmdlet을 실행할 수 없게 됩니다. Windows PowerShell 내에서 Lync Server cmdlet을 실행 하려면 먼저 Windows PowerShell 명령 프롬프트에 다음을 입력 합니다.<BR>Import-Module Lync
 
     
     </div>
 
-  - Lync server 관리 셸은 모든 Lync Server Enterprise Edition 프런트 엔드 서버 또는 Standard Edition 서버에 자동으로 설치 됩니다.
+  - Lync Server 관리 셸은 모든 Lync Server Enterprise Edition 프런트 엔드 서버 또는 Standard Edition 서버에 자동으로 설치 됩니다.
 
-  - Windows PowerShell 및 Microsoft Lync Server 2013 cmdlet에 대 한 새로운 및 업데이트 된 정보, 샘플 스크립트, 시작 및 학습에 대 한 도움말은 Lync Server Windows PowerShell 블로그에서 [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)제공 됩니다.
+  - Lync Server Windows PowerShell 블로그에서 [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)windows Powershell 및 Microsoft Lync server 2013 cmdlet에 대 한 새로운 정보와 업데이트 된 정보, 예제 스크립트 및 시작 하는 방법에 대 한 도움말을 확인할 수 있습니다.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 모바일 지원
+title: Lync Server 2013 모바일 기능 지원
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184029
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7872852810eac15049dc8cec5a7cac3f36b60e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a8c136543a5f28ceacc6bf4939983157c183975a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758670"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41758670"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-29_
+_**마지막으로 수정 된 항목:** 2012-06-29_
 
-Lync Server 2013 mobility를 통해 사용자는 모바일 장치에서 Lync 2013 기능에 액세스할 수 있습니다. 지원 되는 모바일 장치는 다음과 같습니다.
+Lync Server 2013 mobility를 사용 하면 사용자가 모바일 장치에서 Lync 2013 기능에 액세스할 수 있습니다. 지원되는 모바일 장치는 다음과 같습니다.
 
-  - 지원 되는 Apple iOS 장치
+  - 지원되는 Apple iOS 장치
 
   - Windows Phone
 
@@ -47,7 +47,7 @@ Lync Server 2013 mobility를 통해 사용자는 모바일 장치에서 Lync 201
 
   - Nokia
 
-이동성 기능 및 요구 사항에 대 한 자세한 내용은 계획 설명서의 [Lync Server 2013에서 이동성 계획](lync-server-2013-planning-for-mobility.md) 을 참조 하세요.
+모바일 기능 및 요구 사항에 대 한 자세한 내용은 계획 설명서에서 [Lync Server 2013의 mobility에 대 한 계획](lync-server-2013-planning-for-mobility.md) 을 참조 하십시오.
 
 </div>
 

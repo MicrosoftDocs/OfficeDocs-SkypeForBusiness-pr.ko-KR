@@ -12,16 +12,16 @@ ms:contentKeyID: 51803954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5355ae418e53c44cc61340b57910993ac2afea2c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aeac19510f69eed8798c92c2d45b727cf5882978
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757452"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757452"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-20_
+_**마지막으로 수정 된 항목:** 2013-02-20_
 
-Windows PowerShell 및 **CsMeetingRoom** cmdlet을 사용 하 여 조직에서 사용 하도록 구성 된 회의 장치에 대 한 정보를 볼 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 **CsMeetingRoom** cmdlet을 실행 합니다.
+Windows PowerShell 및 **enable-csmeetingroom** cmdlet을 사용 하 여 조직에서 사용 하도록 구성 된 회의 장치에 대 한 정보를 볼 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 **enable-csmeetingroom** cmdlet을 실행 합니다.
 
 <div>
 
@@ -49,7 +49,7 @@ Windows PowerShell 및 **CsMeetingRoom** cmdlet을 사용 하 여 조직에서 �
 
 </div>
 
-매개 변수 없이 **Get-CsMeetingRoom** cmdlet을 사용 하는 경우 모든 회의 장치에 대 한 정보를 반환 합니다. 선택적 매개 변수는 다양 한 방법으로 정보를 필터링 하는 방법을 제공 합니다. 자세한 내용은 Get-help의 Parameters 섹션 [CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom)을 참조 하세요.
+**Enable-csmeetingroom** cmdlet을 매개 변수 없이 사용 하는 경우에는 모든 회의 장치에 대 한 정보를 반환 합니다. 선택적 매개 변수를 통해 정보를 필터링 하는 다양 한 방법을 사용할 수 있습니다. 자세한 내용은 [Get-enable-csmeetingroom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom)의 Parameters 섹션을 참조 하십시오.
 
 <div>
 
@@ -58,11 +58,11 @@ Windows PowerShell 및 **CsMeetingRoom** cmdlet을 사용 하 여 조직에서 �
 
 ## <a name="viewing-information-about-all-your-conferencing-devices"></a>모든 회의 장치에 대 한 정보 보기
 
-  - 모든 회의 장치에 대 한 세부 정보를 보려면 Lync Server 관리 셸에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
+  - 모든 회의 장치에 대 한 세부 정보를 보려면 Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다.
     
         Get-CsMeetingRoom
     
-    이 cmdlet은 각 회의 장치에 대해 다음과 같은 정보를 반환 합니다. 이 예제에서는이 cmdlet을 실행할 때 표시 되는 정보만 보여 줍니다.
+    이 cmdlet은 각 회의 장치에 대해 다음과 같은 정보를 반환 합니다. 이 예에서는이 cmdlet을 실행할 때 볼 수 있는 몇 가지 정보만 표시 합니다.
     
         ContactOptionFlags                : 64
         OwnerUrn                          : urn:device:roomsystem
@@ -88,13 +88,13 @@ Windows PowerShell 및 **CsMeetingRoom** cmdlet을 사용 하 여 조직에서 �
 
 ## <a name="viewing-information-about-a-specific-conferencing-device"></a>특정 회의 장치에 대 한 정보 보기
 
-  - 특정 회의 장치에 대 한 정보를 보려면 Id 매개 변수 뒤에 회의 장치 id (일반적으로 Active Directory 표시 이름)를 포함 합니다. 예를 들면 다음과 같습니다.
+  - 특정 회의 장치에 대 한 정보를 보려면 Identity 매개 변수 다음에 회의 장치 id (일반적으로 Active Directory 표시 이름)를 포함 합니다. 예:
     
         Get-CsMeetingRoom -Identity "Room 1219"
 
 </div>
 
-자세한 내용은 Get-help cmdlet에 대 한 도움말 항목을 [CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom) .
+자세한 내용은 [enable-csmeetingroom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom) cmdlet에 대 한 도움말 항목을 참조 하십시오.
 
 </div>
 

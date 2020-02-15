@@ -12,20 +12,20 @@ ms:contentKeyID: 49733757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe172863d2a1f8e762f8da2d6029f00531e04c70
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 289e210b8f8959c8bee471a73d9dc5680923d80d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743298"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991933"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-groups-in-lync-server-2013-during-a-disaster"></a>재해 시 Lync Server 2013에서 응답 그룹 관리
+# <a name="managing-response-groups-in-lync-server-2013-during-a-disaster"></a>재해 발생 시 Lync Server 2013의 응답 그룹 관리
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41743298"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-Lync Server 2013는 재해 복구 중 백업 풀에서 응답 그룹 실행을 지원 합니다. 이 섹션에서는 중단 중에 응답 그룹을 계획 하는 방법, 중단 하는 동안 응답 그룹이 작동 하는 방식, 응답 그룹을 장애 조치 및 복구 하는 데 필요한 단계에 대해 설명 합니다.
+Lync Server 2013에서는 재해 복구 중에 백업 풀에서 응답 그룹을 실행할 지를 지원 합니다. 이 섹션에서는 중단 시의 응답 그룹에 대한 계획을 세우는 방법, 중단 시 응답 그룹의 작동 방식 및 응답 그룹의 장애 조치(failover) 및 장애 복구(failback)에 필요한 단계에 대해 설명합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013의 응답 그룹 재해 복구 계획](lync-server-2013-planning-for-response-group-disaster-recovery.md)
+  - [Lync Server 2013에서 응답 그룹 재해 복구 계획](lync-server-2013-planning-for-response-group-disaster-recovery.md)
 
   - [풀 오류 발생 시 Lync Server 2013의 응답 그룹 환경](lync-server-2013-response-group-experience-during-pool-failure.md)
 

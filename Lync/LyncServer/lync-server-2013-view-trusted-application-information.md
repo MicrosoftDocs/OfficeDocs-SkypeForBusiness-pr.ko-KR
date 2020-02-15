@@ -12,16 +12,16 @@ ms:contentKeyID: 49733702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf8a95fa58ea1398c281fc5cba2f8b08a5ec902e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bca1ec48696cab7a0dffa1881dba34a589954874
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757392"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036366"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41757392"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-23_
+_**마지막으로 수정 된 항목:** 2013-02-23_
 
-Windows PowerShell 및 **CsTrustedApplication** cmdlet을 사용 하 여 신뢰 된 응용 프로그램에 대 한 정보를 볼 수 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+Windows PowerShell 및 **new-cstrustedapplication** cmdlet을 사용 하 여 신뢰할 수 있는 응용 프로그램에 대 한 정보를 볼 수 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
 
 <div>
 
 ## <a name="to-view-trusted-applications"></a>신뢰할 수 있는 응용 프로그램을 보려면
 
-  - 신뢰할 수 있는 모든 응용 프로그램을 보려면 Lync Server 관리 셸에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
+  - 신뢰할 수 있는 응용 프로그램을 모두 보려면 Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다.
     
         Get-CsConferenceDisclaimer
     
-    이 명령은 각 신뢰 하는 응용 프로그램에 대해 다음과 같은 정보를 반환 합니다.
+    이 명령은 신뢰할 수 있는 각 응용 프로그램에 대해 다음과 비슷한 정보를 반환합니다.
     
         Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
                                  Service,CN=Services,CN=Configuration,DC=litware,DC=com
@@ -65,7 +65,7 @@ Windows PowerShell 및 **CsTrustedApplication** cmdlet을 사용 하 여 신뢰 
         ExUmEnabled            : False
         Enabled                : True
     
-    자세한 내용은 [Get-help CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication)을 참조 하세요.
+    자세한 내용은 [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication)을 참조하십시오.
 
 </div>
 

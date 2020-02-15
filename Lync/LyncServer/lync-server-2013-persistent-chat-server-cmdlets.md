@@ -12,16 +12,16 @@ ms:contentKeyID: 48184226
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5609939fa28a68e53f3b24cf469df4665bbaaa0b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 62d0c554cb9c0ae5cbc21aea08eddf8c1d087601
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755228"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006906"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,117 +35,117 @@ ms.locfileid: "41755228"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-27_
+_**마지막으로 수정 된 항목:** 2012-06-27_
 
-영구 채팅 cmdlet을 사용 하 여 Microsoft Lync Server 2013 영구 채팅 서비스를 관리 하 고 구성할 수 있습니다 (이전에는 그룹 채팅 서비스 라고 함). 영구 채팅을 통해 사용자는 온라인 메신저 대화 세션에 참가할 수 있습니다. 이러한 세션은 실시간으로 수행할 수 있지만, 각 세션의 콘텐츠는 지속적으로 발생 합니다. 즉, 언제 든 지 이러한 대화를 다시 시작할 수 있습니다.
+영구 채팅 cmdlet을 사용 하면 Microsoft Lync Server 2013 영구 채팅 서비스 (이전에는 그룹 채팅 서비스)를 관리 하 고 구성할 수 있습니다. 영구 채팅을 사용 하면 사용자가 온라인 인스턴트 메시징 세션에 참가할 수 있습니다. 이러한 세션은 실시간으로 수행할 수 있지만 각 세션의 내용은 영구적입니다. 즉, 언제 든 지 이러한 대화를 모든 사용자가 다시 시작할 수 있습니다.
 
 <div>
 
 ## <a name="persistent-chat-cmdlets"></a>영구 채팅 Cmdlet
 
-영구 채팅 cmdlet을 사용 하 여 Lync Server 영구 채팅 서비스를 관리 하 고 구성할 수 있습니다.
+영구 채팅 cmdlet을 사용 하면 Lync Server 영구 채팅 서비스를 관리 및 구성할 수 있습니다.
 
 **영구 채팅 Cmdlet**
 
-  - [Get-CsAdPrincipal](https://technet.microsoft.com/en-us/library/JJ205326(v=OCS.15))
+  - [Get-CsAdPrincipal](https://technet.microsoft.com/library/JJ205326(v=OCS.15))
 
 <!-- end list -->
 
-  - [Set-CsPersistentChatActiveServer](https://technet.microsoft.com/en-us/library/JJ205065(v=OCS.15))
+  - [Set-cspersistentchatactiveserver](https://technet.microsoft.com/library/JJ205065(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPersistentChatAddin](https://technet.microsoft.com/en-us/library/JJ204670(v=OCS.15))
+  - [Get-cspersistentchataddin](https://technet.microsoft.com/library/JJ204670(v=OCS.15))
 
-  - [New-CsPersistentChatAddin](https://technet.microsoft.com/en-us/library/JJ204641(v=OCS.15))
+  - [Get-cspersistentchataddin](https://technet.microsoft.com/library/JJ204641(v=OCS.15))
 
-  - [제거-CsPersistentChatAddin](https://technet.microsoft.com/en-us/library/JJ205350(v=OCS.15))
+  - [Get-cspersistentchataddin을 제거 합니다.](https://technet.microsoft.com/library/JJ205350(v=OCS.15))
 
-  - [Set-CsPersistentChatAddin](https://technet.microsoft.com/en-us/library/JJ204721(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsPersistentChatCategory](https://technet.microsoft.com/en-us/library/JJ204771(v=OCS.15))
-
-  - [새로운 CsPersistentChatCategory](https://technet.microsoft.com/en-us/library/JJ204803(v=OCS.15))
-
-  - [제거-CsPersistentChatCategory](https://technet.microsoft.com/en-us/library/JJ204660(v=OCS.15))
-
-  - [Set-CsPersistentChatCategory](https://technet.microsoft.com/en-us/library/JJ204952(v=OCS.15))
+  - [Get-cspersistentchataddin](https://technet.microsoft.com/library/JJ204721(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPersistentChatComplianceConfiguration](https://technet.microsoft.com/en-us/library/JJ204625(v=OCS.15))
+  - [Get-cspersistentchatcategory](https://technet.microsoft.com/library/JJ204771(v=OCS.15))
 
-  - [새로운 CsPersistentChatComplianceConfiguration](https://technet.microsoft.com/en-us/library/JJ205163(v=OCS.15))
+  - [Get-cspersistentchatcategory](https://technet.microsoft.com/library/JJ204803(v=OCS.15))
 
-  - [제거-CsPersistentChatComplianceConfiguration](https://technet.microsoft.com/en-us/library/JJ204767(v=OCS.15))
+  - [Get-cspersistentchatcategory을 제거 합니다.](https://technet.microsoft.com/library/JJ204660(v=OCS.15))
 
-  - [Set-CsPersistentChatComplianceConfiguration](https://technet.microsoft.com/en-us/library/JJ204949(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsPersistentChatConfiguration](https://technet.microsoft.com/en-us/library/JJ205140(v=OCS.15))
-
-  - [새로운 CsPersistentChatConfiguration](https://technet.microsoft.com/en-us/library/JJ205330(v=OCS.15))
-
-  - [제거-CsPersistentChatConfiguration](https://technet.microsoft.com/en-us/library/JJ204927(v=OCS.15))
-
-  - [Set-CsPersistentChatConfiguration](https://technet.microsoft.com/en-us/library/JJ205122(v=OCS.15))
+  - [Get-cspersistentchatcategory](https://technet.microsoft.com/library/JJ204952(v=OCS.15))
 
 <!-- end list -->
 
-  - [Export-CsPersistentChatData](https://technet.microsoft.com/en-us/library/JJ205378(v=OCS.15))
+  - [Get-cspersistentchatcomplianceconfiguration](https://technet.microsoft.com/library/JJ204625(v=OCS.15))
 
-  - [가져오기-CsPersistentChatData](https://technet.microsoft.com/en-us/library/JJ204709(v=OCS.15))
+  - [Get-cspersistentchatcomplianceconfiguration](https://technet.microsoft.com/library/JJ205163(v=OCS.15))
 
-<!-- end list -->
+  - [Get-cspersistentchatcomplianceconfiguration을 제거 합니다.](https://technet.microsoft.com/library/JJ204767(v=OCS.15))
 
-  - [Get-CsPersistentChatEligiblePrincipal](https://technet.microsoft.com/en-us/library/JJ204891(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsPersistentChatEndpoint](https://technet.microsoft.com/en-us/library/JJ204764(v=OCS.15))
-
-  - [새로운 CsPersistentChatEndpoint](https://technet.microsoft.com/en-us/library/JJ204811(v=OCS.15))
-
-  - [제거-CsPersistentChatEndpoint](https://technet.microsoft.com/en-us/library/JJ204626(v=OCS.15))
+  - [Get-cspersistentchatcomplianceconfiguration](https://technet.microsoft.com/library/JJ204949(v=OCS.15))
 
 <!-- end list -->
 
-  - [제거-CsPersistentChatMessage](https://technet.microsoft.com/en-us/library/JJ204668(v=OCS.15))
+  - [Get-cspersistentchatconfiguration](https://technet.microsoft.com/library/JJ205140(v=OCS.15))
 
-  - [Test-CsPersistentChatMessage](https://technet.microsoft.com/en-us/library/JJ204656(v=OCS.15))
+  - [Get-cspersistentchatconfiguration](https://technet.microsoft.com/library/JJ205330(v=OCS.15))
 
-<!-- end list -->
+  - [Get-cspersistentchatconfiguration을 제거 합니다.](https://technet.microsoft.com/library/JJ204927(v=OCS.15))
 
-  - [Get-CsPersistentChatPolicy](https://technet.microsoft.com/en-us/library/JJ204673(v=OCS.15))
-
-  - [부여-CsPersistentChatPolicy](https://technet.microsoft.com/en-us/library/JJ204907(v=OCS.15))
-
-  - [New-CsPersistentChatPolicy](https://technet.microsoft.com/en-us/library/JJ205396(v=OCS.15))
-
-  - [Remove-CsPersistentChatPolicy](https://technet.microsoft.com/en-us/library/JJ205301(v=OCS.15))
-
-  - [Set-CsPersistentChatPolicy](https://technet.microsoft.com/en-us/library/JJ205192(v=OCS.15))
+  - [Get-cspersistentchatconfiguration](https://technet.microsoft.com/library/JJ205122(v=OCS.15))
 
 <!-- end list -->
 
-  - [일반-CsPersistentChatRoom](https://technet.microsoft.com/en-us/library/JJ204976(v=OCS.15))
+  - [Export-cspersistentchatdata](https://technet.microsoft.com/library/JJ205378(v=OCS.15))
 
-  - [Get-CsPersistentChatRoom](https://technet.microsoft.com/en-us/library/JJ205123(v=OCS.15))
-
-  - [새로운 CsPersistentChatRoom](https://technet.microsoft.com/en-us/library/JJ205166(v=OCS.15))
-
-  - [제거-CsPersistentChatRoom](https://technet.microsoft.com/en-us/library/JJ204639(v=OCS.15))
-
-  - [Set-CsPersistentChatRoom](https://technet.microsoft.com/en-us/library/JJ204801(v=OCS.15))
+  - [Export-cspersistentchatdata](https://technet.microsoft.com/library/JJ204709(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPersistentChatState](https://technet.microsoft.com/en-us/library/JJ204915(v=OCS.15))
+  - [Get-cspersistentchateligibleprincipal](https://technet.microsoft.com/library/JJ204891(v=OCS.15))
 
-  - [Set-CsPersistentChatState](https://technet.microsoft.com/en-us/library/JJ205109(v=OCS.15))
+<!-- end list -->
+
+  - [Get-cspersistentchatendpoint](https://technet.microsoft.com/library/JJ204764(v=OCS.15))
+
+  - [Get-cspersistentchatendpoint](https://technet.microsoft.com/library/JJ204811(v=OCS.15))
+
+  - [Get-cspersistentchatendpoint을 제거 합니다.](https://technet.microsoft.com/library/JJ204626(v=OCS.15))
+
+<!-- end list -->
+
+  - [Test-cspersistentchatmessage을 제거 합니다.](https://technet.microsoft.com/library/JJ204668(v=OCS.15))
+
+  - [Test-cspersistentchatmessage](https://technet.microsoft.com/library/JJ204656(v=OCS.15))
+
+<!-- end list -->
+
+  - [Grant-cspersistentchatpolicy](https://technet.microsoft.com/library/JJ204673(v=OCS.15))
+
+  - [Grant-cspersistentchatpolicy](https://technet.microsoft.com/library/JJ204907(v=OCS.15))
+
+  - [Grant-cspersistentchatpolicy](https://technet.microsoft.com/library/JJ205396(v=OCS.15))
+
+  - [Grant-cspersistentchatpolicy을 제거 합니다.](https://technet.microsoft.com/library/JJ205301(v=OCS.15))
+
+  - [Grant-cspersistentchatpolicy](https://technet.microsoft.com/library/JJ205192(v=OCS.15))
+
+<!-- end list -->
+
+  - [일반-Clear-cspersistentchatroom](https://technet.microsoft.com/library/JJ204976(v=OCS.15))
+
+  - [Clear-cspersistentchatroom](https://technet.microsoft.com/library/JJ205123(v=OCS.15))
+
+  - [Clear-cspersistentchatroom](https://technet.microsoft.com/library/JJ205166(v=OCS.15))
+
+  - [Clear-cspersistentchatroom을 제거 합니다.](https://technet.microsoft.com/library/JJ204639(v=OCS.15))
+
+  - [Clear-cspersistentchatroom](https://technet.microsoft.com/library/JJ204801(v=OCS.15))
+
+<!-- end list -->
+
+  - [Set-cspersistentchatstate](https://technet.microsoft.com/library/JJ204915(v=OCS.15))
+
+  - [Set-cspersistentchatstate](https://technet.microsoft.com/library/JJ205109(v=OCS.15))
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184685
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f9d705acb282c68372a2f3087ff010bab8f9a01
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 08b5ad344df748c56173ce36dd9335a3c0719066
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742688"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-cac-in-lync-server-2013"></a>Lync Server 2013의 CAC의 구성 요소 및 토폴로지
+# <a name="components-and-topologies-for-cac-in-lync-server-2013"></a>Lync Server 2013의 CAC에 대 한 구성 요소 및 토폴로지
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41742688"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-20_
+_**마지막으로 수정 된 항목:** 2012-10-20_
 
-이 섹션의 항목은 다양 한 유형의 네트워크 토폴로지에 대해 CAC (call 허용 제어) 배포에 대 한 특별 고려 사항에 대 한 정보를 제공 합니다.
+이 섹션의 항목에서는 다양한 네트워크 토폴로지 유형으로 CAC(통화 허용 제어)를 배포할 때의 특별 고려 사항에 대한 정보를 제공합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에서 MPLS 네트워크에 대 한 통화 허용 제어](lync-server-2013-call-admission-control-on-an-mpls-network.md)
+  - [Lync Server 2013를 사용 하는 MPLS 네트워크의 통화 허용 제어](lync-server-2013-call-admission-control-on-an-mpls-network.md)
 
-  - [Lync Server 2013의 SIP 트렁크에 대한 통화 허용 제어 서비스](lync-server-2013-call-admission-control-on-a-sip-trunk.md)
+  - [Lync Server 2013의 SIP 트렁크에 대 한 통화 허용 제어](lync-server-2013-call-admission-control-on-a-sip-trunk.md)
 
-  - [타사 PSTN 게이트웨이 또는 PBX에 대한 Lync Server 2013의 통화 허용 제어 서비스](lync-server-2013-call-admission-control-with-a-third-party-pstn-gateway-or-pbx.md)
+  - [타사 PSTN 게이트웨이 또는 PBX가 있는 Lync Server 2013의 통화 허용 제어](lync-server-2013-call-admission-control-with-a-third-party-pstn-gateway-or-pbx.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da91f6a7247f152599f740aebaa7ebea09c852bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fadc7b822fe1bdd04c170031407fe0441bfdc2f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730758"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036186"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41730758"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-26_
+_**마지막으로 수정 된 항목:** 2012-09-26_
 
-풀 간에 사용자를 이동할 수 있는 다양 한 방법을 배우기 전에 먼저 레거시 Lync Server 2010 풀에 존재 하는 사용자를 확인 해야 합니다. 아래 이미지에서 등록자 풀 열은 레거시 Lync Server 2010 풀에 대해 구성 된 6 명의 사용자를 식별 합니다. Lync Server 2013 풀로 이동 하는 테스트 사용자는 다음과 같습니다.
+풀 간에 사용자를 이동할 수 있는 다양 한 방법을 학습 하기 전에 먼저 레거시 Lync Server 2010 풀에 있는 사용자를 확인 해야 합니다. 아래 이미지에서 등록자 풀 열은 레거시 Lync Server 2010 풀에 대해 구성 된 6 명의 사용자를 식별 합니다. Lync Server 2013 풀로 이동 하는 테스트 사용자는 다음과 같습니다.
 
-**Lync Server 2010 풀의 사용자 목록을 보려면 다음을 참조 하세요.**
+**Lync Server 2010 풀의 사용자 목록을 보려면**
 
 1.  RTCUniversalServerAdmins 그룹의 구성원 이거나 CsAdministrator 또는 CsUserAdministrator 관리 역할의 구성원 인 계정을 사용 하 여 Lync Server 2010 프런트 엔드 서버에 로그온 합니다.
 
 2.  **Lync Server 제어판**을 엽니다.
 
-3.  **사용자**를 클릭 하 고 검색을 클릭 한 다음 **찾기를**클릭 합니다.
+3.  **사용자**, 검색, **찾기**를 차례로 클릭합니다.
 
 **Lync Server 15 제어판**
 

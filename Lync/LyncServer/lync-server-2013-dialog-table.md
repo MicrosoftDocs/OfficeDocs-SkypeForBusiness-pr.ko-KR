@@ -12,16 +12,16 @@ ms:contentKeyID: 48184068
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f0ef564ad1224ba9970b7cceb5db60e0eb344da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 578b27a61e6af7114da19eb0d6d21dea38dba551
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762246"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762246"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-대화 상자 테이블은 지원 테이블입니다. 각 레코드는 하나의 SIP (세션 초기화 프로토콜) 대화 상자를 나타냅니다.
+Dialog 테이블은 각 레코드가 하나의 SIP(Session Initiation Protocol) 대화를 나타내는 지원 테이블입니다.
 
 
 <table>
@@ -52,33 +52,33 @@ _**마지막으로 수정한 주제:** 2012-10-02_
 <th><strong>열</strong></th>
 <th><strong>데이터 형식</strong></th>
 <th><strong>키/인덱스</strong></th>
-<th><strong>세부적인</strong></th>
+<th><strong>세부 정보</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>dmtf</p></td>
-<td><p>주요한</p></td>
-<td><p>체감 품질 (고급 품질) 에이전트가 호출자 또는 호출 수신자 중 첫 번째 보고서를 받는 시간입니다. 세션을 고유 하 게 식별 하는 SessionSeq와 함께 사용 됩니다.</p></td>
+<td><p><strong>Conferencedatetime이 동일할</strong></p></td>
+<td><p>datetime</p></td>
+<td><p>Primary</p></td>
+<td><p>QoE(체감 품질) 에이전트가 발신자 또는 수신자로부터 첫 번째 보고서를 받는 시간입니다. SessionSeq와 함께 세션을 고유하게 식별하기 위해 사용됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
-<td><p>동일한 ConferenceDateTime 있을 때 세션을 구분 하는 시퀀스 번호입니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>ConferenceDateTime이 동일할 때 세션을 구분하기 위한 시퀀스 번호입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogID</strong></p></td>
 <td><p>varchar (256)</p></td>
 <td></td>
-<td><p>전역으로 고유한 대화 상자 ID입니다.</p></td>
+<td><p>전역으로 고유한 대화 ID입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogIDChecksum</strong></p></td>
 <td><p>int</p></td>
-<td><p>색인</p></td>
-<td><p>대화 상자 ID의 체크섬입니다.</p></td>
+<td><p>인덱스</p></td>
+<td><p>대화 ID의 체크섬입니다.</p></td>
 </tr>
 </tbody>
 </table>

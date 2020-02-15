@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 샘플 QoE 데이터베이스 쿼리'
+title: 'Lync Server 2013: 예제 QoE 데이터베이스 쿼리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e0a077a4da1bcbda9e8f14f9e2c4fcd838434b6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d454f04d521324f51712a632a339617b259cde5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765026"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sample-qoe-database-queries-in-lync-server-2013"></a>Lync Server 2013의 샘플 QoE 데이터베이스 쿼리
+# <a name="sample-qoe-database-queries-in-lync-server-2013"></a>Lync Server 2013의 예제 QoE 데이터베이스 쿼리
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41765026"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-17_
+_**마지막으로 수정 된 항목:** 2012-10-17_
 
-이 섹션에는 체감 품질 (환경 품질) 데이터베이스에 대 한 샘플 쿼리가 포함 되어 있습니다.
+이 섹션에는 QoE(체감 품질) 데이터베이스에 대한 샘플 쿼리가 포함됩니다.
 
-다음 예제를 사용 하 여 모든 오디오 스트림에 대 한 지터 및 패킷 손실 평균을 얻을 수 있습니다.
+다음 예제를 사용하여 모든 오디오 스트림에 대한 지터 및 패킷 손실 평균을 가져옵니다.
 
     select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 
-다음 예제를 사용 하 여 모임 콘솔을 사용 하는 총 회의 수를 확인 합니다.
+다음 예제를 사용하여 Meeting Console을 사용한 총 회의 수를 찾습니다.
 
     select avg(ConversationalMOS)
     from SessionView s
@@ -54,7 +54,7 @@ _**마지막으로 수정한 주제:** 2012-10-17_
        and s.CallerUserAgentType = 4 -- Lync
        and s.CalleeUserAgentType = 4 -- Lync
 
-다음 예제를 사용 하 여 캡처 장치 당 ConversstionalMOS, SendingMOS 및 ListendingMOS를 가져옵니다.
+다음 예제를 사용하여 캡처 장치별 ConversstionalMOS, SendingMOS 및 ListendingMOS를 가져옵니다.
 
     select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
     from
