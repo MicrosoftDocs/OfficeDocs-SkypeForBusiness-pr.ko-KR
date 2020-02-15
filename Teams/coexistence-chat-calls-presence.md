@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 이 문서는 할당 된 Team를 사용 하는 팀 사용자와 테 넌 트 및 페더레이션 모두에 대 한 채팅, 통화 라우팅 및 현재 상태 간 동작에 대해 설명 합니다. 여기에는 라우팅 최적화, 현재 상태 동작, *레거시* 에서 *아일랜드* 로의 기본 team문제 등급 모드 변경 및 *이전 버전*의 임박한 만료가 포함 됩니다.
-ms.openlocfilehash: 449340affb00b1f05ba199c3376941a843da329c
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1a4a9f4c08da3e89324eb44551c0002931cee714
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824936"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050120"
 ---
 # <a name="coexistence-with-skype-for-business"></a>비즈니스용 Skype와 공존
 
@@ -215,6 +215,6 @@ ms.locfileid: "41824936"
 특히 이전에 영구 interop 대화 스레드를 보유 하 고 있던 받는 사람이 팀으로 업그레이드 되 면 해당 스레드는 더 이상 정확한 현재 상태를 반영 하지 않으며 더 이상 라우팅할 수 없게 됩니다. 새 스레드를 시작 해야 합니다.
 
 ## <a name="related-links"></a>관련 링크
-[비즈니스용 Skype로 팀을 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[비즈니스용 Skype로 팀을 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [비디오: SfB 및 팀 간의 공존 및 상호 운용성 관리](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

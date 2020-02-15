@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 무료 가상 사용자 라이선스에 대해 알아보세요.
-ms.openlocfilehash: 0b580a396dedfab81ab207fa0b1d6fee5caa705b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5b31c9edaf42508e59000257a33b9ddeba4c6fb5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826516"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029359"
 ---
 # <a name="phone-systemvirtual-user-license"></a>전화 시스템-가상 사용자 라이선스 
 
@@ -67,7 +67,7 @@ Contoso는 자동 전화 교환 및 통화 대기열 시스템 다시 디자인�
 리소스 계정의 라이선스를 전화 시스템 라이선스에서 전화 시스템으로 전환 하기로 결정 한 경우-가상 사용자 라이선스: 
 
 1. 새 전화 시스템-가상 사용자 라이선스를 받으세요. 
-2. Microsoft 365 관리 센터의 연결 된 단계에 따라 [사용자를 다른 구독으로 이동](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)합니다. 
+2. Microsoft 365 관리 센터의 연결 된 단계에 따라 [사용자를 다른 구독으로 이동](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)합니다. 
 
 > [!WARNING]
 > 항상 전체 전화 시스템 라이선스를 제거 하 고 동일한 라이선스 활동에서 가상 사용자 라이선스를 할당 합니다. 이전 라이선스를 제거 하 고, 계정 변경 내용을 저장 하 고, 새 라이선스를 추가한 다음 계정 설정을 다시 저장 하면 리소스 계정이 더 이상 예상 대로 작동 하지 않을 수 있습니다. 이 문제가 발생 하는 경우 전화 시스템에 대 한 새 리소스 계정 (가상 사용자 라이선스)을 만들고 끊어진 리소스 계정을 제거 하는 것이 좋습니다. 

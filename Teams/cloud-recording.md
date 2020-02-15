@@ -16,12 +16,12 @@ f1.keywords:
 description: Microsoft 팀에서 클라우드 음성 기능을 배포 하기 위한 실용적인 지침입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38981774af168c978371b06d8de6eeedd4b16644
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825606"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030722"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -112,7 +112,7 @@ PowerShell을 사용 하 여 TeamsMeetingPolicy에서 AllowCloudRecording/녹화
 
 Microsoft stream 데이터가 저장 된 영역을 찾으려면 Microsoft Stream에서 **을 클릭 합니다** . 오른쪽 위 모서리에서 **Microsoft Stream 정보**를 클릭 한 다음 **데이터를 저장**합니다 .를 클릭 합니다.  Microsoft Stream에서 데이터를 저장 하는 영역에 대 한 자세한 내용은 [Microsoft STREAM FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)를 참조 하세요.
 
-Office 365의 서비스에서 데이터가 저장 되는 위치에 대 한 자세한 내용은 [데이터](https://products.office.com/en-us/where-is-your-data-located?rtc=1) 위치
+Office 365의 서비스에서 데이터가 저장 되는 위치에 대 한 자세한 내용은 [데이터](https://products.office.com/where-is-your-data-located?rtc=1) 위치
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>녹음/녹화 기록 설정 또는 해제
 

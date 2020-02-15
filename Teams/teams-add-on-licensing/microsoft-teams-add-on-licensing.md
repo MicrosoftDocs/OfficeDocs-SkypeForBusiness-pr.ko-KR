@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 추가 기능 라이선스, 각 라이선스에 대해 얻을 수 있는 기능, 제품을 위해 구입 하는 방법, 기존 통신 회사를 사용 하는 방법에 대해 알아보세요. Office 365, 커뮤니케이션 크레딧, 통화 플랜에 대 한 가격 및 계획 세부 정보를 얻을 수 있습니다.
-ms.openlocfilehash: e7a4853bcb5cb1522f185f8f66ccb0931cdc2be2
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: c1faf51c6f0c61ce569a0e3f14181aa8db276a2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826636"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029379"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft 팀 추가 기능 라이선스
 
@@ -55,7 +55,7 @@ Microsoft 팀 라이선스는 최대한 많은 유연성을 제공 하도록 디
 |**오디오 회의** <br/> |때로는 조직의 사용자가 컴퓨터를 사용 하는 대신 전화를 사용 하 여 팀 모임에 통화를 해야 하는 경우가 있습니다. 이 경우 오디오 회의 기능을 사용 합니다.  <br/> 국가 또는 지역에서 오디오 회의를 사용할 수 있는지 여부를 확인 하려면 [오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능성](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)을 참조 하세요. <br/> 비용을 원하는 경우 [오디오 회의에 대 한 가격 산정](https://products.office.com/microsoft-teams/online-meeting-solutions)을 참조 하세요.  <br/> |
 |**회의에 대 한 전화 접속 액세스를 위한 무료 전화 번호와 전화를 걸 때 휴대폰 번호로 전화를 걸어 다른 사람을 추가 하는 기능** <br/> |오디오 회의를 추가 하는 경우 [통신 크레딧을 설정](../set-up-communications-credits-for-your-organization.md)하는 것이 좋습니다. <br/> |
 |**전화 시스템** <br/> |PBX는 기업의 전화 시스템입니다. Office 365의 전화 시스템은 호스팅된 전화 서비스입니다. 일반 및 혁신적인 PBX 기능을 모두 사용할 수 있지만 복잡 하 고 저렴 한 장비를 제공 하지 않습니다. [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 것은 다음과](../here-s-what-you-get-with-phone-system.md)같습니다.  <br/> 비용을 찾고 있다면 [전화 시스템](https://products.office.com/microsoft-teams/voice-calling)을 참조 하세요.  <br/> |
-|**통화 플랜** <br/> |다른 팀 사용자에 게 거는 통화는 무료 이지만 사용자가 회사 외부의 모든 전화 번호로 전화를 받을 수 있도록 하려면 [통화 요금제](../calling-plans-for-office-365.md)를 받으세요. Office 365에는 국내 통화 요금제와 국내 및 국제 통화 요금제가 있습니다.  <br/> 비용을 원하는 경우 [계획 가격 산정 호출](https://products.office.com/en-us/microsoft-teams/voice-calling)을 참조 하세요.  <br/> |
+|**통화 플랜** <br/> |다른 팀 사용자에 게 거는 통화는 무료 이지만 사용자가 회사 외부의 모든 전화 번호로 전화를 받을 수 있도록 하려면 [통화 요금제](../calling-plans-for-office-365.md)를 받으세요. Office 365에는 국내 통화 요금제와 국내 및 국제 통화 요금제가 있습니다.  <br/> 비용을 원하는 경우 [계획 가격 산정 호출](https://products.office.com/microsoft-teams/voice-calling)을 참조 하세요.  <br/> |
 |**Microsoft Teams 룸** <br/> |이는 추가 기능이 아니지만, 회의실에 비디오, 오디오 및 콘텐츠 공유를 제공 하는 기능입니다. [Microsoft 팀 대화방](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)을 참조 하세요.  <br/> |
 
 모든 추가 기능 옵션에 대해 이야기 해야 하나요? [비즈니스 제품에 대 한 고객 지원 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
@@ -84,7 +84,7 @@ Microsoft 팀 라이선스는 최대한 많은 유연성을 제공 하도록 디
 ## <a name="how-do-i-use-my-existing-calling-plans-with-teams"></a>팀과 기존 통화 계획을 사용 하는 방법은 무엇 인가요?
 <a name="bkmk_existing"></a>
 <!---
-If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
+If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/library/mt605227.aspx)**.
 --->
 하이브리드 사용자에 대해 온-프레미스 PSTN 연결을 사용 하는 경우 사용자 에게만 **전화 시스템** 라이선스 *를 할당 합니다* . 통화 요금제도 지정 **하지 마세요** .
 
@@ -102,5 +102,5 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
     
 - [자금 추가 및 통신 크레딧 관리](../add-funds-and-manage-communications-credits.md)
 <!---    
-- [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
+- [Configure the Cloud Connector](https://technet.microsoft.com/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
 --->

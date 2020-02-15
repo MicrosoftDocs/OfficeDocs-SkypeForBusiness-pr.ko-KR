@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9ad590f61b63aad1208fb2ad04f4aa3b80a3ddb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 806a96db63ca0bbb44eb92ed6e84f8451069e725
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836978"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035462"
 ---
 # <a name="teams-only-mode-considerations"></a>팀 전용 모드 고려 사항
 
@@ -55,7 +55,7 @@ Office 365 테 넌 트의 관리자는 Microsoft 팀 관리 센터에서 팀 전
  - Office 365 독일
  - 비즈니스용 Skype 테 넌 **트가 대한민국에서** 호스팅되며 조직에는 대한민국에 저장 되는 팀 데이터가 필요 합니다. 현재 대한민국에 저장 된 비즈니스용 Skype 데이터를 보유 하 고 있는 조직에서 팀으로 업그레이드 하면 해당 팀 데이터가 동남 한국 데이터 센터 지역에 저장 되지 않고 아시아 데이터 센터 지역에 저장 됩니다.
 
-**사용자 관련 고려 사항**: 일부 사용자 시나리오는 계속 진화 하 고 있으며, 관리자는 조직의 다른 사용자를 업그레이드 하면서 특정 사용자의 업그레이드를 일시적으로 연기 하도록 결정할 수 있습니다. 특히, 기본 장치가 VDI 기반 사용자에 대 한 주소 지정 시나리오를 계속 사용 하 고 있습니다. [Office 365 로드맵](https://www.microsoft.com/en-us/microsoft-365/roadmap) 사이트에서 공지 사항을 모니터링 하세요.
+**사용자 관련 고려 사항**: 일부 사용자 시나리오는 계속 진화 하 고 있으며, 관리자는 조직의 다른 사용자를 업그레이드 하면서 특정 사용자의 업그레이드를 일시적으로 연기 하도록 결정할 수 있습니다. 특히, 기본 장치가 VDI 기반 사용자에 대 한 주소 지정 시나리오를 계속 사용 하 고 있습니다. [Office 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap) 사이트에서 공지 사항을 모니터링 하세요.
 
 > [!NOTE]
 > 팀 전용 모드로 이동 하기 전에 팀을 지원 하지 않는 장치를 바꾸거나 업데이트 해야 합니다. 

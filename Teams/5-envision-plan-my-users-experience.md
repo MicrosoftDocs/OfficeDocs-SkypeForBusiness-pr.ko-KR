@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d156761d8ebc39822d6ccf2fc28ed6c380c4e117
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 77a325fbe8cacb3b2760f5b3034dee0e16695278
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825186"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021599"
 ---
 # <a name="plan-my-users-experience"></a>내 사용자 환경 계획
 
@@ -108,7 +108,7 @@ Microsoft 팀은 모임 또는 전화 시스템에 사용할 수 있습니다. �
 장치를 선택한 후 파일럿 테스트 계획에 최종 유효성 검사에 포함 합니다. 파일럿에서 설문 조사를 활용 하 여 피드백을 수집 하 여 디바이스 전략이 최적화 되었는지 확인 합니다.
 
 > [!NOTE]
-> 이번에는 비즈니스용 Skype 인증 프로그램을 통해 인증 된 오디오 장치를 사용 하는 것이 좋습니다. 이 프로그램에서 인증 된 장치를 찾으려면 [Microsoft 팀 디바이스](https://products.office.com/en-us/microsoft-teams/across-devices/devices) 및 [USB 오디오 및 비디오 장치](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)를 참조 하세요.
+> 이번에는 비즈니스용 Skype 인증 프로그램을 통해 인증 된 오디오 장치를 사용 하는 것이 좋습니다. 이 프로그램에서 인증 된 장치를 찾으려면 [Microsoft 팀 디바이스](https://products.office.com/microsoft-teams/across-devices/devices) 및 [USB 오디오 및 비디오 장치](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)를 참조 하세요.
 
 
 

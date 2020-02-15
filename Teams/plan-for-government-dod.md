@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be952d838135a03a873d7193118febf5639bd415
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9e5031c804242f2927a5fe9f2521682d736d034a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836858"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038120"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Microsoft 365 정부 기관-DoD 배포 계획
 
@@ -42,7 +42,7 @@ Microsoft 365 정부 기관-DoD 환경은 클라우드 서비스에 대 한 미�
 
 [자격 요건](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)을 포함 하 여 [Office 365 정부 계획](https://products.office.com/government/compare-office-365-government-plans)에서 미국 정부의 고객을 위한 Microsoft 365 정부에 대 한 자세한 정보를 확인할 수 있습니다.
 
-[Office 365 미국 정부의 서비스 설명은](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) 미국 내의 모임 준수 요구 사항을 중심으로 하는 플랫폼의 이점에 대해 설명 합니다.
+[Office 365 미국 정부의 서비스 설명은](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) 미국 내의 모임 준수 요구 사항을 중심으로 하는 플랫폼의 이점에 대해 설명 합니다.
 
 
 > [!Tip]

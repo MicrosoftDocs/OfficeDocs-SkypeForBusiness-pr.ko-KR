@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9986355905cb40e26182368dec8f53d796432fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: faaed56f9b150104fba93683b37b7551b828ce80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837948"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029399"
 ---
 # <a name="skype-for-business-online-retirement"></a>비즈니스용 Skype Online 단종
 
@@ -34,7 +34,7 @@ ms.locfileid: "41837948"
 
 ## <a name="why-are-we-making-this-announcement-now"></a>지금 알림을 보내는 이유는 무엇 인가요?
 
-2017에서 microsoft 팀은 Microsoft 365의 "팀워크 용 hub"로 시작 되었습니다. 팀은 채팅, 비디오, 통화, 문서 공동 작업을 단일 통합 앱으로 결합 하 고 완전히 새로운 작업 방법을 사용할 수 있습니다. 지난 2 년 동안 고객과 긴밀 하 게 협력 하 여 팀을 개선 하 고 있으며, 이제 모든 비즈니스용 Skype Online 고객에 게이를 업그레이드 하는 것이 가능 하다 고 생각 하 고 있습니다. 이미 이동한 고객은 팀이 공동 작업을 개선 하는 데 도움을 줄 수 있을 뿐만 아니라, 조직에서 작업을 수행 하는 방법에 대 한 희귀 한 기회가 제공 됩니다. 팀을 사용 하면 전 세계의 회사가 민첩 해지고, 주기 시간을 단축 하 고, 주요 워크플로의 효율성을 개선 하 고, 불필요 한 오버 헤드를 줄일 수 있습니다. 팀은 비즈니스용 Skype Online을 업그레이드 하는 것이 아니라 완전히 새로운 비즈니스 방법으로 도어를 여는 강력한 도구입니다. 하지만이 단어를 사용 하지 마세요! "[Microsoft 팀의 총 경제 영향](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf)" Forrester 백서를 사용 하 여 조직에 대 한 팀의 잠재적 이점에 대해 자세히 알아보세요.
+2017에서 microsoft 팀은 Microsoft 365의 "팀워크 용 hub"로 시작 되었습니다. 팀은 채팅, 비디오, 통화, 문서 공동 작업을 단일 통합 앱으로 결합 하 고 완전히 새로운 작업 방법을 사용할 수 있습니다. 지난 2 년 동안 고객과 긴밀 하 게 협력 하 여 팀을 개선 하 고 있으며, 이제 모든 비즈니스용 Skype Online 고객에 게이를 업그레이드 하는 것이 가능 하다 고 생각 하 고 있습니다. 이미 이동한 고객은 팀이 공동 작업을 개선 하는 데 도움을 줄 수 있을 뿐만 아니라, 조직에서 작업을 수행 하는 방법에 대 한 희귀 한 기회가 제공 됩니다. 팀을 사용 하면 전 세계의 회사가 민첩 해지고, 주기 시간을 단축 하 고, 주요 워크플로의 효율성을 개선 하 고, 불필요 한 오버 헤드를 줄일 수 있습니다. 팀은 비즈니스용 Skype Online을 업그레이드 하는 것이 아니라 완전히 새로운 비즈니스 방법으로 도어를 여는 강력한 도구입니다. 하지만이 단어를 사용 하지 마세요! "[Microsoft 팀의 총 경제 영향](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf)" Forrester 백서를 사용 하 여 조직에 대 한 팀의 잠재적 이점에 대해 자세히 알아보세요.
 
 ## <a name="what-is-microsoft-doing-to-help-customers-migrate-to-teams"></a>고객이 팀으로 마이그레이션 하는 데 도움이 되는 Microsoft는 무엇 인가요?
 

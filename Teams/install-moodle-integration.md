@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 128e476447898e659961a27e071b992b6b802ebf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: efb53e9b3299f45cd1abfabe508a55ca081a0b92
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836618"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045130"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Microsoft 팀과 Moodle 통합 설치
 
@@ -173,7 +173,7 @@ Azure에 대 한 구축이 완료 되 면 Office 365 Moodle 플러그 인을 해
 
 이제 귀하의 봇을 Azure에 배포 하 고 Moodle 서버와 대화를 구성 했으므로 Microsoft 팀 앱을 배포할 차례입니다. 이렇게 하려면 이전 단계의 Office 365 Moodle 플러그 인 팀 설정 페이지에서 다운로드 한 매니페스트 파일을 로드 합니다.
 
-앱을 설치 하기 전에 앱의 외부 앱과 테스트용 로드를 사용 하도록 설정 해야 합니다. 이렇게 하려면 [다음 단계](https://docs.microsoft.com/en-us/MicrosoftTeams/admin-settings)를 수행 하면 됩니다. 외부 앱을 사용 하도록 설정한 후에는 아래 단계에 따라 앱을 배포할 수 있습니다.
+앱을 설치 하기 전에 앱의 외부 앱과 테스트용 로드를 사용 하도록 설정 해야 합니다. 이렇게 하려면 [다음 단계](https://docs.microsoft.com/MicrosoftTeams/admin-settings)를 수행 하면 됩니다. 외부 앱을 사용 하도록 설정한 후에는 아래 단계에 따라 앱을 배포할 수 있습니다.
 
 1. Microsoft 팀을 엽니다.
 2. 탐색 모음의 왼쪽 아래에 있는 **스토어** 아이콘을 클릭 합니다.

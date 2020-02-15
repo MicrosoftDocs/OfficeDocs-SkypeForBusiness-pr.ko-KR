@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5a6079924803f7dbdde0c49bb5bd5d1f1aa2c4b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ad0043b1599ac7ce90599a03d786d756cf16e684
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825707"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008150"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft 팀에서 StaffHub 팀을 교대으로 이동 하는 계획
 
@@ -49,7 +49,7 @@ ms.locfileid: "41825707"
 |1천만    |팀에서 변화 하는 전환에 대해 StaffHub 사용자에 게 전달         |[팀 StaffHub 사용자에 게 전자 메일 통신 샘플](staffhub-to-teams-email-template.md)         |
 |mb     |팀 클라이언트 설치         |[Teams용 클라이언트 가져오기](../../get-clients.md) |
 |까지    |사용자에 게 FirstLineWorker 앱 설정 정책을 할당 (또는 사용자 지정 앱 설정 정책 만들기 및 할당) 하 여 이동 하는 앱을 팀 클라이언트에 고정  |[사용자에 게 FirstlineWorker 앱 설정 정책 할당](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |
-|일자     |교대 근무와 팀을 사용 하는 방법에 대 한 사용자 교육         |[팀에 대 한 온보드 사용자](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[도움말 문서 이동](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Teams 도움말 문서](https://support.office.com/teams)<br><br>[Teams 교육 비디오](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
+|일자     |교대 근무와 팀을 사용 하는 방법에 대 한 사용자 교육         |[팀에 대 한 온보드 사용자](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[도움말 문서 이동](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Teams 도움말 문서](https://support.office.com/teams)<br><br>[Teams 교육 비디오](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
 |13     |StaffHub 팀 목록을 검토 하 여 해당 팀의 모든 사용자를 팀으로 이동 해야 합니다. 일정에 없는 사용자를 제거 합니다. |         |
 
 ## <a name="move-your-organizations-staffhub-teams-to-teams"></a>조직의 StaffHub 팀을 팀으로 이동

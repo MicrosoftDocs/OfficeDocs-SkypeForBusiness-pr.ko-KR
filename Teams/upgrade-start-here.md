@@ -26,12 +26,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ebbefefa64df4ac2a27b4b5cc10cd447327281f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d9f45ba60aeaff37f77769966ed97f50aec2950a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837088"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045050"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Microsoft 팀 업그레이드 시작 하기
 
@@ -41,7 +41,7 @@ ms.locfileid: "41837088"
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Microsoft 팀으로 업그레이드 해야 하는 이유
 
-Microsoft 팀은 채팅, 모임, 통화, 공동 작업, 앱 통합, 파일 저장소를 단일 인터페이스로 결합 하 여 비즈니스용 Skype의 기능을 확장 합니다. 이 새로운 팀워크의 중앙 허브는 사용자가 작업을 수행 하는 방식을 간소화 하 여 사용자 만족도를 개선 하 고 비즈니스 결과물을 가속화 하는 데 도움이 됩니다. 새로운 방식으로 통신 및 공동 작업을 수행 하 고, 조직 및 지리적 장애를 차단 하 고, 프로세스 및 의사 결정에 효율성을 높일 수 있도록 팀의 능력이 지속적으로 확장 되 고 있습니다. Forrester 보고서에서 팀으로 업그레이드 하는 이점에 대해 자세히 알아보세요. [Microsoft 팀의 총 경제 영향](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
+Microsoft 팀은 채팅, 모임, 통화, 공동 작업, 앱 통합, 파일 저장소를 단일 인터페이스로 결합 하 여 비즈니스용 Skype의 기능을 확장 합니다. 이 새로운 팀워크의 중앙 허브는 사용자가 작업을 수행 하는 방식을 간소화 하 여 사용자 만족도를 개선 하 고 비즈니스 결과물을 가속화 하는 데 도움이 됩니다. 새로운 방식으로 통신 및 공동 작업을 수행 하 고, 조직 및 지리적 장애를 차단 하 고, 프로세스 및 의사 결정에 효율성을 높일 수 있도록 팀의 능력이 지속적으로 확장 되 고 있습니다. Forrester 보고서에서 팀으로 업그레이드 하는 이점에 대해 자세히 알아보세요. [Microsoft 팀의 총 경제 영향](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
 
 ## <a name="when-should-my-organization-upgrade-to-teams"></a>조직에서 팀으로 업그레이드 해야 하는 경우
 

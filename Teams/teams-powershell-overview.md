@@ -15,12 +15,12 @@ f1.keywords:
 description: PowerShell 컨트롤을 사용 하 여 Microsoft 팀을 관리 하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836958"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035360"
 ---
 # <a name="teams-powershell-overview"></a>팀 PowerShell 개요
 
@@ -30,7 +30,7 @@ Microsoft 팀에는 Microsoft 팀 관리 센터, PowerShell 컨트롤, 그래프
 
 팀 관리를 위한 PowerShell 컨트롤은 두 가지 다른 PowerShell 모듈에 있습니다. 
 - [Microsoft 팀 powershell 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams/) : 팀 powershell 모듈에는 팀을 만들고 관리 하는 데 필요한 모든 cmdlet이 포함 되어 있습니다.  
-- 비즈니스용 [Skype powershell 모듈](https://www.microsoft.com/en-us/download/details.aspx?id=39366): 비즈니스용 skype powershell 모듈에는 정책, 구성, 기타 팀 도구를 관리 하는 cmdlet이 포함 되어 있습니다. 
+- 비즈니스용 [Skype powershell 모듈](https://www.microsoft.com/download/details.aspx?id=39366): 비즈니스용 skype powershell 모듈에는 정책, 구성, 기타 팀 도구를 관리 하는 cmdlet이 포함 되어 있습니다. 
 
 PowerShell 컨트롤에 대 한 참조 설명서에서는 조사 하는 cmdlet을 포함 하는 모듈을 확인할 수 있습니다. (최종적으로 두 모듈을 결합 하는 것입니다.)
 
@@ -79,7 +79,7 @@ PowerShell 컨트롤에 대 한 참조 설명서에서는 조사 하는 cmdlet�
 
 ## <a name="managing-policies-via-powershell"></a>PowerShell을 통해 정책 관리
 
-정책을 관리 하는 cmdlet은 [비즈니스용 Skype cmdlet 모듈](https://www.microsoft.com/en-us/download/details.aspx?id=39366)에 있습니다.
+정책을 관리 하는 cmdlet은 [비즈니스용 Skype cmdlet 모듈](https://www.microsoft.com/download/details.aspx?id=39366)에 있습니다.
 
 > [!NOTE]
 > 비즈니스용 Skype Online에 연결 되 면 PowerShell 세션에서 cmdlet을 사용할 수 있습니다. 자세한 내용은 [Office 365 PowerShell을 사용 하 여 비즈니스용 Skype Online 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)를 참조 하세요. 
@@ -111,7 +111,7 @@ PowerShell 컨트롤에 대 한 참조 설명서에서는 조사 하는 cmdlet�
 
 ## <a name="managing-configurations-via-powershell"></a>PowerShell을 통한 구성 관리
 
-구성을 관리 하는 cmdlet은 [비즈니스용 Skype cmdlet 모듈](https://www.microsoft.com/en-us/download/details.aspx?id=39366)에 있습니다.
+구성을 관리 하는 cmdlet은 [비즈니스용 Skype cmdlet 모듈](https://www.microsoft.com/download/details.aspx?id=39366)에 있습니다.
 
 구성은 사용자 수준에서 지정할 수 없는 서비스에서 유지 관리 되는 설정의 버킷을 말합니다. 설정은 항상 전체 조직에서 적용 됩니다. 글로벌 구성은 조직의 유일한 유효 구성입니다. 각 구성 유형에는 두 가지 기본 cmdlet이 포함 됩니다.
 

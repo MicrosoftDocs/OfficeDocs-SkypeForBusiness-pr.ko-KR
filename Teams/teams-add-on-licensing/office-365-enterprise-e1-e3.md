@@ -20,16 +20,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Office 365 Enterprise E1 및 E3 요금제에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 2e547c23115f43dcc54a7f4bb99190116200f319
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 18a15c59b93fa0f426c780028b0029dd909abb2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826546"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029369"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1 and E3
 
-[Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software) 또는 [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) 계획을 이미 구매한 경우 다음과 같이 추가 기능 라이선스를 구입 하 여 더 많은 Microsoft 팀 기능을 확보 해야 합니다.
+[Office 365 Enterprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software) 또는 [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) 계획을 이미 구매한 경우 다음과 같이 추가 기능 라이선스를 구입 하 여 더 많은 Microsoft 팀 기능을 확보 해야 합니다.
 
 |이 기능을 추가 하려면|수행 해야 하는 작업은 다음과 같습니다.|
 |:------------------|:--------------------------|

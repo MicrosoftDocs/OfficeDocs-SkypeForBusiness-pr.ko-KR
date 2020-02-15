@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40bf05951551bfa6d67d0b71fe2d35d19025b253
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 32c1ea2ceb816d54c08cbe22e8dabf1b8eb24f6d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837298"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045440"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Microsoft Teams를 배포하는 방법
 
@@ -54,9 +54,9 @@ ms.locfileid: "41837298"
 
 |  |조직의 프로필|지침  |
 |---------|---------|---------|
-|<IMG src="https://docs.microsoft.com/en-us/office/media/icons/migration-blue.svg" alt="An icon representing migration" height="50" width="50">|현재 비즈니스용 Skype Online을 사용하고 있으며 Teams로 이동할 준비가 되었습니다. |[Teams로 업그레이드](upgrade-start-here.md)로 이동합니다.        |
-|<IMG SRC="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="An icon representing hybrid connectivity" height="50" width="50">|조직에서 비즈니스용 Skype 서버를 실행하고 있으며 Teams를 배포하려고 합니다. |대규모 Teams 배포의 경우 먼저 온-프레미스 환경과 Microsoft 365 사이에 하이브리드 연결을 구성해야 합니다. 먼저 [비즈니스용 Skype 서버 및 Office 365 간 하이브리드 연결 플랜](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity)을 읽어보세요. <br><br>또한 [Teams로 업그레이드](upgrade-start-here.md)를 검토해야 합니다.    |
-|<IMG src="https://docs.microsoft.com/en-us/office/media/icons/on-premises.svg" alt="An icon representing an on-premises solution" height="50" width="50">|비즈니스용 Skype 서버는 없지만 온-프레미스 PSTN 솔루션이 있습니다. 팀을 배포하려고 하지만 온-프레미스 PSTN 솔루션을 유지하고 싶습니다. |위의 [권장 경로](#recommended-path-to-teams)에 따라 팀을 배포하세요.<br><br>그런 다음 [직접 라우팅 계획](direct-routing-plan.md)을 읽고 전화 시스템 직접 라우팅을 사용하여 온-프레미스 PSTN 솔루션을 Teams와 연결하는 방법에 대해 알아보세요.|
+|<IMG src="https://docs.microsoft.com/office/media/icons/migration-blue.svg" alt="An icon representing migration" height="50" width="50">|현재 비즈니스용 Skype Online을 사용하고 있으며 Teams로 이동할 준비가 되었습니다. |[Teams로 업그레이드](upgrade-start-here.md)로 이동합니다.        |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-blue.svg" alt="An icon representing hybrid connectivity" height="50" width="50">|조직에서 비즈니스용 Skype 서버를 실행하고 있으며 Teams를 배포하려고 합니다. |대규모 Teams 배포의 경우 먼저 온-프레미스 환경과 Microsoft 365 사이에 하이브리드 연결을 구성해야 합니다. 먼저 [비즈니스용 Skype 서버 및 Office 365 간 하이브리드 연결 플랜](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity)을 읽어보세요. <br><br>또한 [Teams로 업그레이드](upgrade-start-here.md)를 검토해야 합니다.    |
+|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises.svg" alt="An icon representing an on-premises solution" height="50" width="50">|비즈니스용 Skype 서버는 없지만 온-프레미스 PSTN 솔루션이 있습니다. 팀을 배포하려고 하지만 온-프레미스 PSTN 솔루션을 유지하고 싶습니다. |위의 [권장 경로](#recommended-path-to-teams)에 따라 팀을 배포하세요.<br><br>그런 다음 [직접 라우팅 계획](direct-routing-plan.md)을 읽고 전화 시스템 직접 라우팅을 사용하여 온-프레미스 PSTN 솔루션을 Teams와 연결하는 방법에 대해 알아보세요.|
 |
 
 

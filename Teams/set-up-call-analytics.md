@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 통화 분석을 설정 하 고 사용 하 여 비즈니스용 Skype 및 Microsoft 팀 통화 품질 문제를 식별 하 고 해결 합니다.
-ms.openlocfilehash: fe46ee580554969d26395b26117649ab8ada2ea0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 347725e77806f94e44b4c8d160736ceb23265f11
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838058"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029409"
 ---
 # <a name="set-up-call-analytics"></a>통화 분석 설정
 
@@ -74,7 +74,7 @@ ms.locfileid: "41838058"
  ### <a name="set-up-permissions-by-assigning-admin-roles"></a>관리자 역할을 할당 하 여 사용 권한 설정
 <a name="BKMK_SetUpTier"> </a>
 
-Azure Active Directory에서 관리 역할을 할당 하는 방법에 대 한 자세한 내용은 [Azure Active directory에서 역할 보기 및 지정](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-manage-roles-portal)을 참조 하세요.
+Azure Active Directory에서 관리 역할을 할당 하는 방법에 대 한 자세한 내용은 [Azure Active directory에서 역할 보기 및 지정](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)을 참조 하세요.
 
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Tsv 또는 .csv 파일을 업로드 하 여 빌드, 사이트 및 테 넌 트 정보 추가
 <a name="BKMK_UploadFiles"> </a>

@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버 및 Exchange 서버의 필수 구성 요소 설치
+title: 비즈니스용 Skype 서버에 대 한 필수 구성 요소 설치
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -16,55 +16,55 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
-description: '요약: 비즈니스용 Skype 서버를 설치 하기 전에 구성 해야 하는 서버 및 서버 역할에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server하세요.'
-ms.openlocfilehash: f8ecb50525a9bb312975bf71b55a5f71c19db205
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '요약: 비즈니스용 Skype 서버를 설치 하기 전에 구성 해야 하는 서버 및 서버 역할에 대해 알아봅니다. Microsoft 평가 센터에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 하세요. https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server'
+ms.openlocfilehash: fedcebe601d21f0e581795c264ed26c6e90716bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41791766"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018259"
 ---
-# <a name="install-prerequisites-for-skype-for-business-server"></a>비즈니스용 Skype 서버 및 Exchange 서버의 필수 구성 요소 설치
+# <a name="install-prerequisites-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 필수 구성 요소 설치
  
-**요약:** 비즈니스용 Skype Server를 설치 하기 전에 구성 해야 하는 서버 및 서버 역할에 대해 알아봅니다. [Microsoft 평가 센터](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 하세요.
+**요약:** 비즈니스용 Skype 서버를 설치 하기 전에 구성 해야 하는 서버 및 서버 역할에 대해 설명 합니다. [Microsoft 평가 센터](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)에서 비즈니스용 Skype 서버의 무료 평가판을 다운로드 합니다.
   
-필수 구성 요소 설치는 토폴로지의 각 서버에 필요한 역할 및 기능을 설치 하 여 Windows Server를 설정 하는 것으로 구성 됩니다. 요구 사항은 서버가 토폴로지에서 처리 하는 역할을 기준으로 합니다. 1 ~ 5 단계는 순서에 관계 없이 수행할 수 있습니다. 그러나 6, 7, 8 단계를 순서 대로 수행 하 고 다이어그램에 명시 된 대로 1 ~ 5 단계를 완료 해야 합니다. 필수 구성 요소를 설치 하는 과정은 1 ~ 8 단계입니다.
+필수 구성 요소 설치는 토폴로지의 각 서버에 필요한 역할과 기능을 설치 하 여 Windows Server를 설정 하는 것으로 구성 됩니다. 요구 사항은 서버가 토폴로지에서 수행 하는 역할을 기반으로 합니다. 순서에 관계 없이 1 ~ 5 단계를 수행할 수 있습니다. 그러나 다이어그램에 나와 있는 것 처럼, 1 ~ 5 단계를 순서 대로 수행 해야 합니다. 필수 구성 요소를 설치 하는 과정은 1-8 단계입니다.
   
-![개요 다이어그램-필수 구성 요소를 설치 합니다.](../../media/0a85349b-b398-4e04-8901-8f4bd25d8afe.png)
+![개요 다이어그램-필수 구성 요소 설치](../../media/0a85349b-b398-4e04-8901-8f4bd25d8afe.png)
   
 ## <a name="setup-windows-server"></a>Windows Server 설정
 
-비즈니스용 Skype 서버를 설치 하려면 Windows Server 운영 체제와 여러 필수 구성 요소가 필요 합니다. 필수 구성 요소 계획에 대 한 자세한 내용은 [비즈니스용 Skype server의 서버 요구 사항](../../../SfBServer2019/plan/system-requirements.md)을 참조 하세요. 
+비즈니스용 Skype 서버에는 Windows Server 운영 체제와 설치 해야 하는 필수 구성 요소가 몇 가지 있습니다. 필수 구성 요소 계획에 대 한 자세한 내용은 [비즈니스용 Skype 서버에 대 한 서버 요구 사항](../../../SfBServer2019/plan/system-requirements.md)를 참조 하세요. 
   
 > [!TIP]
-> 이 절차에서는 Windows Server 2012 R2를 사용 합니다. 다른 버전의 Windows Server를 사용 하는 경우 절차가 약간 다를 수 있습니다. 
+> 이 절차에서는 Windows Server 2012 R2를 사용 합니다. 다른 버전의 Windows Server를 사용 하는 경우에는 프로시저가 약간 다를 수 있습니다. 
   
 > [!IMPORTANT]
 > 시작 하기 전에 windows Update를 사용 하 여 Windows Server가 최신 상태 인지 확인 합니다. 
   
-![Windows Server를 최신 버전으로 업데이트 합니다.](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
+![Windows Server가 최신 버전입니다.](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
   
 **설치 필수 구성 요소**에 대 한 비디오 단계를 시청 하세요.
   
-> [!video https://www.microsoft.com/en-us/videoplayer/embed/02447c2a-5b26-432f-aad6-b9b05cc93478?autoplay=false]
+> [!video https://www.microsoft.com/videoplayer/embed/02447c2a-5b26-432f-aad6-b9b05cc93478?autoplay=false]
   
 ### <a name="install-required-roles-and-features-for-front-end-servers"></a>프런트 엔드 서버에 필요한 역할 및 기능 설치
 
 서버 관리자를 사용 하 여 필요한 역할 및 기능을 설치할 수 있습니다. 
     
-1. [비즈니스용 Skype 서버에 대 한 서버 요구 사항](../../../SfBServer2019/plan/system-requirements.md)에 나열 된 필수 소프트웨어 기능을 설치 합니다. 필수 소프트웨어는 비즈니스용 Skype Server를 실행 하는 서버에 있어야 합니다.
+1. [비즈니스용 Skype 서버에 대 한 서버 요구 사항](../../../SfBServer2019/plan/system-requirements.md)에 나열 된 필수 구성 요소 소프트웨어 기능을 설치 합니다. 필요한 소프트웨어가 비즈니스용 Skype 서버를 실행할 서버에 있어야 합니다.
     
     > [!CAUTION]
-    > Windows Server 2012 R2는 기본적으로 필요한 기능에 대 한 원본 파일을 모두 설치 하지는 않습니다. 서버가 인터넷에 연결 되어 있지 않은 경우에는 Windows Server 2012 R2 미디어를 삽입 하 고 **대체 원본 경로 지정** 을 선택 하 여 필요한 기능을 설치 해야 합니다. 원본 파일은 \sxs 디렉터리에 있습니다. 예를 들어 Windows Server 2012 R2 미디어가 D 드라이브에 있는 경우 경로를으로 `d:\sources\sxs`설정 합니다. Windows 업데이트의 최신 업데이트를 사용 하는 것이 중요 합니다. 인터넷에 연결 되어 있지 않은 경우에는 필수 업데이트에 모든 필수 업데이트와 함께 수동으로 설치 해야 합니다. 
+    > Windows Server 2012 R2에서는 기본적으로 필요한 기능에 대 한 모든 원본 파일을 설치 하지 않습니다. 서버가 인터넷에 연결 되어 있지 않은 경우에는 Windows Server 2012 R2 미디어를 삽입 하 고 **대체 원본 경로 지정** 을 선택 해야 필요한 기능을 설치할 수 있습니다. 원본 파일은 sources\sxs 디렉터리에 있습니다. 예를 들어 Windows Server 2012 R2 미디어가 D 드라이브에 있는 경우에 대 한 경로를로 `d:\sources\sxs`설정 합니다. Windows Update에서 최신 업데이트를 포함 하는 것이 중요 합니다. 인터넷에 연결 되어 있지 않은 경우 필수 업데이트에 필수 구성 요소와 함께 모든 관련 업데이트를 수동으로 설치 해야 합니다. 
   
-1. 대화 상자에 설치가 완료 되었다는 내용이 표시 되 면 서버를 다시 부팅 하 여 프로세스를 완료 해야 합니다.
+1. 이 대화 상자에 설치가 완료 되었음을 나타내는 경우에는 서버를 다시 부팅 하 여 프로세스를 완료 해야 합니다.
     
 1. **Windows Update** 를 다시 실행 하 여 설치 된 역할 및 서비스에 대 한 업데이트가 있는지 확인 합니다.
     
-1. 이 서버에서 비즈니스용 Skype Server 제어판을 사용 하는 경우에는 Silverlight도 설치 해야 합니다. Silverlight를 설치 하려면 [Microsoft Silverlight](https://www.microsoft.com/silverlight/)를 참조 하세요.
+1. 이 서버에서 비즈니스용 Skype 서버 제어판을 사용 하려는 경우에는 Silverlight도 설치 해야 합니다. Silverlight를 설치 하려면 [Microsoft silverlight](https://www.microsoft.com/silverlight/)를 참조 하세요.
 
 
 > [!IMPORTANT]
-> 프런트 엔드 서버 이외의 역할을 수행 하는 서버에 대 한 필수 구성 요소 (예: 디렉터, 영구 채팅 또는 가장자리의 역할)에는 고유한 필수 구성 요소가 있습니다. 각 서버 유형에 필요한 정확한 필수 구성 요소에 대 한 자세한 내용은 [비즈니스용 Skype 서버에 대 한 서버 요구 사항](../../../SfBServer2019/plan/system-requirements.md)을 참조 하세요. 
+> 프런트 엔드 서버 이외의 역할을 수행 하는 서버 (예: 디렉터, 영구 채팅 또는 Edge의 역할)에 대 한 필수 구성 요소는 고유한 필수 구성 요소를 포함 합니다. 각 서버 유형에 필요한 정확한 필수 구성 요소에 대 한 자세한 내용은 [비즈니스용 Skype 서버에 대 한 서버 요구 사항을](../../../SfBServer2019/plan/system-requirements.md)참조 하세요. 
   
 

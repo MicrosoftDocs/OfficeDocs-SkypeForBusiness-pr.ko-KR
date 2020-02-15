@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '비즈니스에 대 한 Microsoft 전화 시스템을 계획 하 고 설정 하는 방법, 사용 가능성, 기능에 대해 알아보세요. '
-ms.openlocfilehash: ec41a7ac88c6c7c1a99c7c547b45ef1b95c25cc8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b1ba96143c62b829ef9461c1429a83a8b3cfe51e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836320"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045170"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능
 
@@ -56,13 +56,13 @@ PC, Mac, 모바일에서 클라이언트를 사용할 수 있으며, 태블릿 �
 |[발신자 ID](how-can-caller-id-be-used-in-your-organization.md)  <br/> |회사 내에서의 통화에는 회사 디렉터리의 정보를 가져오는 상세 발신자 ID가 표시 되며 전화 번호 대신 그림 ID와 직함을 표시 합니다. 외부 전화 번호에서 전화를 거는 경우 휴대폰 서비스 공급자가 제공한 발신자 ID가 표시 됩니다. 외부 전화 번호가 회사 디렉터리의 보조 번호 이면 회사 디렉터리의 정보가 표시 됩니다.  <br/> |
 |장치 전환  <br/> |사용자가 팀에 연결 된 다른 HID 장치에서 통화 또는 모임을 재생할 수 있습니다. 예를 들어 PC 스피커에서 헤드셋으로 전환 합니다.   <br/> |
 |현재 상태 기반 통화 라우팅 <br/> |현재 상태에 있는 인바운드 통신을 제어 하 여 사용자가 구체적으로 지정 된 통신을 제외한 모든 수신 통신을 차단할 수 있도록 합니다.  <br/> |
-|[통합 다이얼 패드](https://support.office.com/en-us/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | 사용자가 이름 또는 검색 막대의 아무 곳 이나 번호로 전화를 걸 수 있도록 하 여 아웃 바운드 통화 프로세스의 속도를 높여 보세요. <br/> |
+|[통합 다이얼 패드](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | 사용자가 이름 또는 검색 막대의 아무 곳 이나 번호로 전화를 걸 수 있도록 하 여 아웃 바운드 통화 프로세스의 속도를 높여 보세요. <br/> |
 |페더레이션된 통화  <br/> |사용자가 페더레이션 테 넌 트의 사용자와 안전 하 게 연결, 통신 및 공동 작업을 할 수 있습니다.  <br/> |
 |[영상 통화 만들기 및 받기](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 사용자 계정이 영상 통화를 사용할 수 있도록 설정 되어 있으면 사용자는 대화 상대와 얼굴을 마주 하는 영상 통화를 할 수 있습니다. 카메라, 컴퓨터 스피커 및 마이크가 필요 합니다. 사용자의 컴퓨터에 오디오 장치가 내장 되어 있지 않은 경우에도 헤드셋을 사용할 수 있습니다.<br/> |
 |[구름 보이스 메일](set-up-phone-system-voicemail.md) <br/> | 사용자가 보이스 메일을 받으면 보이스 메일 메시지를 첨부 파일로 사용 하 여 Exchange 사서함으로 배달 됩니다. 사용자는 인증 된 데스크톱 휴대폰, 모든 팀 또는 비즈니스용 Skype 응용 프로그램에서 메시지를 수신할 수 있습니다. 보이스 메일에 대 한 지원은 3 월 2017 (으)로 추가 되었으며 모든 조직 및 사용자에 대해 기본적으로 사용 하도록 설정 되어 있습니다.   <br/> |
 |[클라우드 보이스 메일 사용자 설정](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 사용자가 음성 메일 인사말, 통화 응답 규칙, 인사말 언어 (부재 중 인사말 포함)에 대 한 클라이언트 설정을 구성할 수 있도록 합니다.   |
 |[보조 벨소리](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | PC에 여러 개의 스피커 장치가 연결 된 사용자는 기본 스피커 외에도 보조 장치를 설정 하도록 선택할 수 있습니다. 예를 들어 PC 및 데스크 스피커에 연결 된 헤드셋을 사용 하는 사용자는 전화를 걸 때 전화를 받지 않도록 헤드셋과 책상 스피커가 모두 링 하도록 선택할 수 있습니다.  |
-|[특수 전화 벨 소리 알림](https://support.office.com/en-us/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (팀 전용)<br/> |사용자가 통화 유형을 구분할 수 있도록 일반 통화, 착신 전환 및 위임 된 통화에 대해 별도의 벨 소리를 선택할 수 있습니다.  <br/> |
+|[특수 전화 벨 소리 알림](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (팀 전용)<br/> |사용자가 통화 유형을 구분할 수 있도록 일반 통화, 착신 전환 및 위임 된 통화에 대해 별도의 벨 소리를 선택할 수 있습니다.  <br/> |
 |[회선 공유 기능](shared-line-appearance.md) <br/> | 다른 사용자가 자신을 대신 하 여 전화를 걸고 받을 수 있도록 사용자의 전화선을 공유할 수 있습니다.|
 |약속 있음 (팀 [에](teams-calling-policy.md) 만 해당) <br/> | 사용자가 이미 통화 중이거나 회의에 있거나 통화 대기 상태에 있을 때 수신 전화를 처리 하는 방법을 구성할 수 있는 호출 정책입니다. 발신자는 전화 수신자가 이미 통화 중일 때 통화 중 신호를 들을 수 있습니다. 호출 수신자가 부재 중 전화 알림을 받지만 수신 전화에 응답할 수 없습니다. 이 기능은 기본적으로 비활성화 되어 있지만 테 넌 트 관리자가 설정할 수 있습니다. |
 |[통화 차단](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 사용자가 해당 번호의 다음 통화가 사용자에 게 연결 되지 않도록 차단 된 목록에 추가 (PSTN) 전화 번호를 추가할 수 있습니다.|

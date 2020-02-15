@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eb6fa4a4b8aabcc84f70d6ce33c89fe0d84df98
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 87c78839c0c6998464ed362dc8a3c2e4798a2321
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834958"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035240"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>조직에서 Microsoft Teams 설정 관리
 
@@ -60,6 +60,10 @@ Microsoft Teams의 **게스트 액세스**를 사용하면 조직의 팀에서 �
 #### <a name="notifications-and-feeds"></a>알림 및 피드
 
 Teams의 사용자 활동 피드에 제안된 피드를 표시할지 여부를 제어할 수 있습니다. 활동 피드에 대한 자세한 내용은 [Teams에서 활동 피드 둘러보기](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)를 참조하세요.
+
+#### <a name="tagging"></a>태그 지정
+
+태그를 사용하면 사용자가 팀의 사람들과 의사 소통할 수 있습니다. 하나 이상의 팀 구성원에게 태그를 추가할 수 있습니다. 태그를 추가한 후 채널 게시물의 모든 팀 구성원은 @mentions에서 태그를 사용하여 해당 태그가 지정된 사람과만 의사 소통할 수 있습니다. 이 설정을 사용하여 태그를 추가할 수 있는 사용자와 조직 전체에서 태그를 사용하는 방법을 제어하세요. 자세한 내용은 [Teams에서 태그 관리](manage-tags.md)를 참조하세요.
 
 #### <a name="email-integration"></a>전자 메일 통합
 
@@ -109,7 +113,7 @@ Microsoft Teams 범위 디렉터리 검색은 Exchange APB(주소록 정책)를 
 
 #### <a name="app-preferences"></a>앱 기본 설정
 
-여기에서 사용자가 비즈니스용 Skype 모임(비즈니스용 Skype 또는 [Skype 모임 앱](https://support.office.com/ko-KR/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5))에 참가하기 위해 사용하는 앱을 선택할 수 있습니다. 이 설정은 공존 모드 설정에 따라 달라집니다.
+여기에서 사용자가 비즈니스용 Skype 모임(비즈니스용 Skype 또는 [Skype 모임 앱](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5))에 참가하기 위해 사용하는 앱을 선택할 수 있습니다. 이 설정은 공존 모드 설정에 따라 달라집니다.
 
 
 #### <a name="network-planner"></a>Network Planner
@@ -121,7 +125,7 @@ Network Planner를 통해 조직 전체에 팀 사용자를 연결하는데 필�
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>어떤 기능을 사용할 수 있는지 어떻게 알 수 있나요?
 
-새 Teams 기능에 대한 내용은 [Microsoft 365 로드맵](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)을 참조하세요. 새 기능 및 예정된 기능에 대한 자세한 내용은 Teams의 [새로운 기능](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) 페이지 및 Teams의 [기술 커뮤니티 Microsoft Teams 블로그](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)를 참조하세요. 
+새 Teams 기능에 대한 내용은 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)을 참조하세요. 새 기능 및 예정된 기능에 대한 자세한 내용은 Teams의 [새로운 기능](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) 페이지 및 Teams의 [기술 커뮤니티 Microsoft Teams 블로그](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)를 참조하세요. 
 
 ## <a name="more-information"></a>추가 정보
 

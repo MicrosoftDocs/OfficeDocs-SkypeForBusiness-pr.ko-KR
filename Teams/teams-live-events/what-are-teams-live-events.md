@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c3a32b49b6b95a2feea222d880a0e943c7189d0
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 23d0aac3fd5697b8e06c727acb3138a878e38bea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827006"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008090"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft 팀 live 이벤트는 무엇 인가요?
 
@@ -48,7 +48,7 @@ Microsoft 365 live 이벤트는 라이브 비디오 스트리밍을 새 수준�
 위의 그림에서 팀의 라이브 이벤트와 함께 사용 되는 4 가지 주요 구성 요소를 확인할 수 있습니다.
 
 > [!NOTE]
-> 라이브 이벤트와 참석자 환경을 설정 하는 방법에 대 한 개요는이 짧은 [비디오](https://support.office.com/en-us/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)를 확인 하세요.
+> 라이브 이벤트와 참석자 환경을 설정 하는 방법에 대 한 개요는이 짧은 [비디오](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)를 확인 하세요.
 
 ### <a name="scheduling"></a>일정
 팀은 이끌이가 적절 한 참석자 권한으로 이벤트를 만들고, 이벤트 팀 구성원을 지정 하 고, 프로덕션 방법을 선택 하 고, 참석자를 초대할 수 있는 기능을 제공 합니다. Yammer 그룹 내에서 라이브 이벤트를 만든 경우 실시간 이벤트 참석자가 Yammer 대화를 사용 하 여 이벤트의 사람들과 상호 작용할 수 있습니다. 

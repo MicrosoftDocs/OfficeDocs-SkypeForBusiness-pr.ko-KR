@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c700ed6fb4f95f3cc9a4ecfc6d66c7791aabb74
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
+ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833238"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41977530"
 ---
 <a name="what-the-guest-experience-is-like"></a>게스트 환경의 모양
 =================================
@@ -56,6 +56,7 @@ ms.locfileid: "41833238"
 |공개 팀 검색 및 참가  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |조직도 보기  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |인라인 번역 사용  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|팀 소유자가 됩니다.  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 다음 표에서는 다른 유형의 사용자와 비교 하 여 게스트로 사용할 수 있는 통화 및 모임 기능을 보여 줍니다.
 

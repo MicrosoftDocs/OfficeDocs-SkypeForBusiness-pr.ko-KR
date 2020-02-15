@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3f569cfc225c1933b978e9a0a7d9e9bf95be783
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837137"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048599"
 ---
 ![여행 다이어그램 업그레이드, 사용자 준비 단계 강조](media/upgrade-banner-user-readiness.png "사용자 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
@@ -107,7 +107,7 @@ It의 핵심은 사람들이 작업을 수행 하기 위해 협력 하는 방법
 | | |
 |---|---|
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>팀워크에서 팀의 사용자 채택을 가속화 하 고 비즈니스용 Skype에서 간편 하 게 업그레이드할 수 있도록 하는 방법은 무엇 인가요?</li></ul> |
-| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 샘플을 사용 하 여 고유한 팀워크 시나리오를 만들 수 있습니다. [업그레이드 통합 문서](https://aka.ms/upgradesuccesskit)에서 문서를 문서화 합니다.</li><li>추가 시나리오 및 예제를 보려면 [생산성 라이브러리로](https://www.microsoft.com/en-us/microsoft-365/success/) 이동 하세요.</li></ul>|
+| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>아래 샘플을 사용 하 여 고유한 팀워크 시나리오를 만들 수 있습니다. [업그레이드 통합 문서](https://aka.ms/upgradesuccesskit)에서 문서를 문서화 합니다.</li><li>추가 시나리오 및 예제를 보려면 [생산성 라이브러리로](https://www.microsoft.com/microsoft-365/success/) 이동 하세요.</li></ul>|
 
 ### <a name="examples"></a>예제
 

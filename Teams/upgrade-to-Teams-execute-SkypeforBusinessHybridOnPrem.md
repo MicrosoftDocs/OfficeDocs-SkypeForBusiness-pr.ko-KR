@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7fa2629127e4a779087eadbea5ac5dc6065be73
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5c467fe63cee4681f2b758b264949cd931e3f901
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836240"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045030"
 ---
 ![여행 다이어그램 업그레이드, 배포 및 구현 강조](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
 
@@ -49,7 +49,7 @@ ms.locfileid: "41836240"
 
 온-프레미스 사용자를 팀으로 업그레이드 하기 위한 주요 전제 조건은 비즈니스용 Skype Server 온-프레미스 배포에 하이브리드 연결을 구성 하는 것입니다. 
 
-먼저 [하이브리드 연결 계획](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) 을 읽고 [하이브리드 연결 구성](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)에 설명 된 작업을 수행 합니다.
+먼저 [하이브리드 연결 계획](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) 을 읽고 [하이브리드 연결 구성](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)에 설명 된 작업을 수행 합니다.
 
 
 ## <a name="step-2-set-transitional-coexistence-mode-optional"></a>2 단계: 전환 공존 모드 설정 (선택 사항)

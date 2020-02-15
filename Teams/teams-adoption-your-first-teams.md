@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8cf33a5ac4c498e6d6996f6096fbf9599b5ad2e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837718"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030772"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Microsoft 팀에서 첫 번째 팀 만들기
 
@@ -32,11 +32,11 @@ ms.locfileid: "41837718"
 
 | 팀 이름 | 제안 된 채널 이름 |
 | --------- | ---------------------- |
-| 팀을 확인 하세요. | 일반</br> 님의 말 말하기</br> 어떻게 하나요?</br>알림 </br> 향후 팀을 위한 아이디어 </br> 기술 |
+| 팀을 확인 하세요. | 일반</br> 인사하기</br> 어떻게 하나요?</br>사용자 의견 </br> 미래의 팀을 위한 아이디어 </br> 지원 |
 | Microsoft 팀 구현 | 일반 <br/> 인식 및 채택 <br/> 비즈니스 참여 <br/> 초기 도입자 프로그램 <br/> 피드백 및 정보 활용 <br/> 보안 및 규정 준수 <br/> 전략 및 계획 <br/> 서비스 상태 및 사고 <br/> 교육 <br/> Watercooler 채팅 |
 | 팀워크 챔피언 | 일반 <br/> 모범 사례, 교육 및 방법 <br/> 챔피언 모서리 <br/> 피드백 및 지원 <br/> 프로그램 리드 <br/> 소셜 허브 |
 
-Microsoft 팀 내에서 [탭 갤러리](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) 는 관리자가 설정한 모든 Office 365 및 타사 앱에 대 한 액세스를 제공 합니다. 제품에서 최대한의 값을 얻으려면 주요 리소스를 적절 한 각 채널의 탭으로 고정 하는 것이 좋습니다. 아래 예제를 참조 하세요.
+Microsoft 팀 내에서 [탭 갤러리](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview) 는 관리자가 설정한 모든 Office 365 및 타사 앱에 대 한 액세스를 제공 합니다. 제품에서 최대한의 값을 얻으려면 주요 리소스를 적절 한 각 채널의 탭으로 고정 하는 것이 좋습니다. 아래 예제를 참조 하세요.
 
 ![기본 및 사용자 지정 탭을 보여 주는 스크린샷](media/teams-adoption-tab-example.png)
 
@@ -50,7 +50,7 @@ Microsoft 팀 내에서 [탭 갤러리](https://docs.microsoft.com/en-us/microso
 | 비즈니스 참여 | 위 키-계약 지침<br/>양식 – 팀 상담에 대 한 요청<br/>목록 – 계약 요청 |
 |조기 도입자 | 고정 된 피드백 커뮤니티 <br/> FAQ 및 일반 테마 용 OneNote |
 | 피드백 및 보고 | 고정 된 Office 365 사용 보고서 (Office 365 관리자 전용) |
-| 보안 및 규정 준수 | Microsoft 신뢰 포털 <br/> [보안 및 규정 준수 문서](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> [로드맵](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
+| 보안 및 규정 준수 | Microsoft 신뢰 포털 <br/> [보안 및 규정 준수 문서](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [로드맵](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | 전략 및 계획 | 공동으로 북쪽 별 PowerPoint <br/> 서비스 채택 프로젝트 계획 |
 | 교육 | 사용자 지정 학습 교육 포털 <br/> [팀 온라인 교육](https://aka.ms/TeamsTraining) |
 | **팀워크 챔피언**|  |

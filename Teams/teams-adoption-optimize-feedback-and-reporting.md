@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b1367ce5f3814c7ca6a9743e5ec0ccc159312cc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 81e0b580099f3fb8f40a3109dc5f1c76e910c02b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837788"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046041"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft 팀 채택을 위한 피드백 및 신고 최적화
 
@@ -55,7 +55,7 @@ Microsoft 팀의 사용 현황을 확대할 준비가 되 면 확장 하는 각 
 Microsoft 팀을 배포 하 고 채택할 때 검토 해야 하는 세 가지 보고 유형은 다음과 같습니다.
 
 - [서비스 상태](https://status.office365.com/) – Office 365와 내부 IT 지원 부서에서 모두 사용할 수 있습니다.
-- [서비스 활동](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) - [Microsoft 팀의](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)Office 365 보고서 보기를 참조 하세요. 조직 내 다른 시스템의 정보를 사용할 수도 있습니다.
+- [서비스 활동](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) - [Microsoft 팀의](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)Office 365 보고서 보기를 참조 하세요. 조직 내 다른 시스템의 정보를 사용할 수도 있습니다.
 - 서비스 만족도 – 특정 환경에 대 한 내부 커뮤니티 포럼 및 설문 조사에서 수집
 
 ![다음 단계](media/teams-adoption-next-icon.png) 를 나타내는 아이콘 (다음: [드라이브 인식 및 교육 구현](teams-adoption-drive-awareness.md) )

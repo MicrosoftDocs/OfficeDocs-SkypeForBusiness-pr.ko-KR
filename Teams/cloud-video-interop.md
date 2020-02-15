@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3a8d3d41d974e78a708fdf91ee6aac13beb6b7b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2f2c5cb45c82696ec5b365dc8e887cbaa9abce13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825066"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046501"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 팀을 위한 클라우드 비디오 Interop
 
@@ -83,7 +83,7 @@ CVI 배포에 대해 선택한 파트너는 조직 내에서 성공적으로 배
 
 ### <a name="provision"></a>공급  
 
-구축 단계에서 파트너 구성 가이드에 따라 라이선스를 적절 한 사용자에 게 할당 합니다. 또한 협력 업체에 게 팀 환경에 대 한 액세스를 제공 하기 위해 Azure 승인 프로세스를 거쳐야 할 것입니다. Azure 승인 프로세스에 대 한 자세한 내용은 다음을 참조 하세요.https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
+구축 단계에서 파트너 구성 가이드에 따라 라이선스를 적절 한 사용자에 게 할당 합니다. 또한 협력 업체에 게 팀 환경에 대 한 액세스를 제공 하기 위해 Azure 승인 프로세스를 거쳐야 할 것입니다. Azure 승인 프로세스에 대 한 자세한 내용은 다음을 참조 하세요.https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent 
 
 ### <a name="schedule"></a>따라
 
