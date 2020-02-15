@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 에지 구성 요소에 대한 하드웨어 및 소프트웨어 요구 사항'
+title: Lync Server 2013:에 지 구성 요소에 대 한 하드웨어 및 소프트웨어 요구 사항
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185273
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1951d682b42cd30477b25287525b7c457c910d6e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 296aed129b590d69103c89f50a1c2965d3181f7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757882"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hardware-and-software-requirements-for-edge-components-in-lync-server-2013"></a>Lync Server 2013의 에지 구성 요소에 대한 하드웨어 및 소프트웨어 요구 사항
+# <a name="hardware-and-software-requirements-for-edge-components-in-lync-server-2013"></a>Lync Server 2013의에 지 구성 요소에 대 한 하드웨어 및 소프트웨어 요구 사항
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757882"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-03-14_
+_**마지막으로 수정 된 항목:** 2013-03-14_
 
-Edge 구성 요소에 대 한 하드웨어 및 소프트웨어 요구 사항에는 Edge 서버 및 선택 디렉터를 포함 하 여 Lync Server 2013 통신 소프트웨어 구성 요소에 대 한 하드웨어가 포함 됩니다. 외부 사용자 액세스 및 지원 되는 토폴로지를 지 원하는 데 필요한 구성 요소에 대 한 자세한 내용은 [Lync Server 2013의 외부 사용자 액세스에 필요한 구성 요소](lync-server-2013-components-required-for-external-user-access.md)를 참조 하세요.
+에 지 구성 요소에 대 한 하드웨어 및 소프트웨어 요구 사항에는에 지 서버 및 선택적 디렉터를 비롯 한 Lync Server 2013 통신 소프트웨어 구성 요소에 대 한 정보를 포함 합니다. 외부 사용자 액세스 및 지원 되는 토폴로지를 지 원하는 데 필요한 구성 요소에 대 한 자세한 내용은 [Lync Server 2013의 외부 사용자 액세스에 필요한 구성 요소](lync-server-2013-components-required-for-external-user-access.md)를 참조 하세요.
 
 <div>
 
-## <a name="hardware-for-edge-servers-and-directors"></a>Edge 서버 및 디렉터 용 하드웨어
+## <a name="hardware-for-edge-servers-and-directors"></a>에 지 서버 및 디렉터에 대 한 하드웨어
 
-하드웨어 권장 사항 및 요구 사항은 지원 가능성 섹션에 정의 되어 있습니다. Edge 서버와 선택적 디렉터에 대 한 권장 하드웨어 구성은 다음 항목에 자세히 설명 되어 있습니다. 계획에는 [Lync server 2013의 서버 하드웨어 플랫폼](lync-server-2013-server-hardware-platforms.md)을 참조 하세요.
+하드웨어 권장 사항 및 요구 사항은 지원 가능성 섹션에 정의 되어 있습니다. 에 지 서버 및 선택적 디렉터에 대 한 권장 하드웨어 구성은 다음 항목에 자세히 설명 되어 있습니다. 계획에서는 [Lync server 2013에 대 한 서버 하드웨어 플랫폼](lync-server-2013-server-hardware-platforms.md)을 참조 하십시오.
 
 </div>
 
 <div>
 
-## <a name="software-requirements-for-edge-servers-and-directors"></a>Edge 서버 및 디렉터에 대 한 소프트웨어 요구 사항
+## <a name="software-requirements-for-edge-servers-and-directors"></a>에 지 서버 및 디렉터에 대 한 소프트웨어 요구 사항
 
-Edge 서버와 선택적 디렉터에 대 한 운영 체제 요구 사항은 다른 Lync Server 2013 역할과 일치 합니다. 지원 되는 운영 체제는 [Lync server 2013의 서버 및 도구 운영 체제 지원](lync-server-2013-server-and-tools-operating-system-support.md)에 자세히 설명 되어 있습니다.
+에 지 서버 및 선택적 디렉터에 대 한 운영 체제 요구 사항은 다른 Lync Server 2013 역할과 일치 합니다. 지원 되는 운영 체제는 [Lync server 2013의 서버 및 도구 운영 체제 지원](lync-server-2013-server-and-tools-operating-system-support.md)에 자세히 설명 되어 있습니다.
 
-Edge 서버와 선택적 디렉터에 대 한 추가 구성 요소 및 소프트웨어 요구 사항은 [Lync Server 2013의 추가 소프트웨어 요구 사항](lync-server-2013-additional-software-requirements.md)에 자세히 설명 되어 있습니다.
+에 지 서버 및 선택적 디렉터에 대 한 추가 구성 요소 및 소프트웨어 요구 사항은 [Lync Server 2013의 추가 소프트웨어 요구 사항](lync-server-2013-additional-software-requirements.md)에 자세히 설명 되어 있습니다.
 
 </div>
 
@@ -63,9 +63,9 @@ Edge 서버와 선택적 디렉터에 대 한 추가 구성 요소 및 소프트
 
 
 [Lync Server 2013의 외부 사용자 액세스에 필요한 구성 요소](lync-server-2013-components-required-for-external-user-access.md)  
-[Lync Server 2013의 서버 하드웨어 플랫폼](lync-server-2013-server-hardware-platforms.md)  
+[Lync Server 2013 용 서버 하드웨어 플랫폼](lync-server-2013-server-hardware-platforms.md)  
 [Lync Server 2013의 서버 및 도구 운영 체제 지원](lync-server-2013-server-and-tools-operating-system-support.md)  
-[Lync Server 2013에 대한 추가 소프트웨어 요구 사항](lync-server-2013-additional-software-requirements.md)  
+[Lync Server 2013의 추가 소프트웨어 요구 사항](lync-server-2013-additional-software-requirements.md)  
   
 
 </div>

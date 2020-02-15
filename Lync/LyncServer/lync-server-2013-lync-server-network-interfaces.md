@@ -12,16 +12,16 @@ ms:contentKeyID: 49733834
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9432bf07203efa97e04552fd50224d555e868602
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9cf51bfa8b7c76edf0d8060ff86c861d355d2f95
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742168"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030201"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742168"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-15_
+_**마지막으로 수정 된 항목:** 2012-10-15_
 
-이 섹션의 절차를 사용 하 여 Lync Server 2013 환경에 대 한 네트워크 인터페이스를 관리할 수 있습니다.
+이 섹션의 절차에 따라 Lync Server 2013 환경에 대 한 네트워크 인터페이스를 관리 합니다.
 
 <div>
 

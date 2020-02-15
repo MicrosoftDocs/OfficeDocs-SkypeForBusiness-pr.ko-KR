@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Windows PowerShell cmdlet으로 영구 채팅 서버 구성 문제 해결'
+title: 'Lync Server 2013: Windows PowerShell cmdlet을 사용 하 여 영구 채팅 서버 구성 문제 해결'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba5420fb06a0c69d94ec7cf5183cba61bb8e72b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dff2cf4fb11c04a59baa54db88b5cb90c738fa31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745008"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028889"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a>Lync Server 2013에서 Windows PowerShell cmdlet으로 영구 채팅 서버 구성 문제 해결
+# <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a>Lync Server 2013에서 Windows PowerShell cmdlet을 사용 하 여 영구 채팅 서버 구성 문제 해결
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41745008"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-06_
+_**마지막으로 수정 된 항목:** 2012-10-06_
 
-다음 해결 방법을 사용 하 여 Windows PowerShell 명령줄 인터페이스 cmdlet의 영구 채팅 서버 구성 문제를 해결 하세요.
+다음 해결 방법을 사용 하 여 Windows PowerShell 명령줄 인터페이스 cmdlet의 영구 채팅 서버 구성 문제를 해결 합니다.
 
-  - "주도자가 프로 비전 되지 않음" 오류 메시지가 표시 되는 경우 추가 하려는 주도자를 사용할 수 없습니다.
+  - "계정이 프로비전되지 않음" 오류 메시지가 표시되면 추가하려고 시도한 계정이 사용할 수 있는 상태가 아닙니다.
     
     <div>
     
 
     > [!TIP]  
-    > 해결 방법 — 해결 방법 없음 이 오류 메시지는 해당 주체를 사용할 수 없음을 의미 합니다.
+    > 해결 방법 — 해결 방법이 없습니다. 이 오류 메시지는 해당 계정을 사용할 수 없음을 의미합니다.
 
     
     </div>

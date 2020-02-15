@@ -12,16 +12,16 @@ ms:contentKeyID: 49733672
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db5610ddee677af989b16c150ffab96308bbb837
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ed95953b7016264b47d63d53e14442a108320c08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757292"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028919"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,32 +35,32 @@ ms.locfileid: "41757292"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-23_
+_**마지막으로 수정 된 항목:** 2013-02-23_
 
-네트워크 영역은 여러 지리적 영역에 걸친 네트워크의 다양 한 부분을 상호 구성 합니다. 모든 네트워크 지역은 중앙 사이트와 연결 되어 있어야 합니다. 중앙 사이트는 CAC (call 허용 제어) 대역폭 정책 서비스가 실행 되는 데이터 센터 사이트입니다. Lync Server 제어판을 사용 하 여 네트워크 지역을 볼 수 있습니다. 네트워크 영역에는 오디오 및 비디오 연결에 인터넷을 통한 대체 경로가 허용 되는지 여부를 결정 하는 설정이 포함 됩니다. 기존 네트워크 지역을 보려면이 항목을 사용 합니다. 기존 네트워크 지역을 만들거나 수정 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 네트워크 지역 만들기 또는 수정을](lync-server-2013-creating-or-modifying-network-regions.md)참조 하세요.
+네트워크 지역은 여러 지역의 많은 네트워크 부분을 교차합니다. 모든 네트워크 지역은 중앙 사이트와 연결되어야 합니다. 중앙 사이트는 CAC(통화 허용 제어) 대역폭 정책 서비스가 실행되는 데이터 센터 사이트입니다. Lync Server 제어판을 사용 하 여 네트워크 지역을 볼 수 있습니다. 네트워크 지역에는 오디오 및 비디오 연결에 대해 인터넷을 통한 대체 경로가 허용되는지 여부를 결정하는 설정이 포함됩니다. 이 항목을 사용하여 기존 네트워크 지역을 확인합니다. 기존 네트워크 지역을 만들거나 수정 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 네트워크 지역 만들기 또는 수정을](lync-server-2013-creating-or-modifying-network-regions.md)참조 하십시오.
 
 <div>
 
-## <a name="to-view-information-about-a-network-region-with-lync-server-control-panel"></a>Lync Server 제어판을 사용 하 여 네트워크 영역에 대 한 정보를 보려면
+## <a name="to-view-information-about-a-network-region-with-lync-server-control-panel"></a>Lync Server 제어판을 사용 하 여 네트워크 지역에 대 한 정보를 보려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원 이거나 해당 사용자 권한이 있는 사용자 계정에서 또는 CsAdministrator 역할에 할당 된 경우 내부 배포의 컴퓨터에 로그온 합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원 인 사용자 계정 (또는 이와 동등한 사용자 권한 포함) 또는 CsAdministrator 역할이 할당 되 면 내부 배포의 컴퓨터에 로그온 합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+2.  브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.
 
-3.  왼쪽 탐색 모음에서 **네트워크 구성을** 클릭 한 다음 **지역을**클릭 합니다.
+3.  왼쪽 탐색 표시줄에서 **네트워크 구성**을 클릭한 다음 **지역**을 클릭합니다.
 
-4.  **지역** 페이지에서 보려는 지역을 클릭 합니다.
+4.  **지역** 페이지에서 보려는 지역을 클릭합니다.
     
     <div>
     
 
     > [!NOTE]  
-    > 한 번에 한 영역만 볼 수 있습니다.
+    > 한 번에 한 지역만 볼 수 있습니다.
 
     
     </div>
 
-5.  **편집** 메뉴에서 **세부 정보 표시**를 클릭 합니다.
+5.  **편집** 메뉴에서 **세부 정보 표시**를 클릭합니다.
 
 </div>
 
@@ -68,17 +68,17 @@ _**마지막으로 수정한 주제:** 2013-02-23_
 
 ## <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 네트워크 지역 정보 보기
 
-Windows PowerShell 및 **Get-CsNetworkRegion** cmdlet을 사용 하 여 네트워크 지역 정보를 볼 수 있습니다. Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+Windows PowerShell 및 **Get-CsNetworkRegion** cmdlet을 사용 하 여 네트워크 지역 정보를 볼 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
 
 <div>
 
 ## <a name="to-view-network-region-information"></a>네트워크 지역 정보를 보려면
 
-  - 모든 네트워크 지역에 대 한 정보를 보려면 Lync Server 관리 셸에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
+  - 모든 네트워크 지역에 대 한 정보를 보려면 Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다.
     
         Get-CsNetworkRegion
     
-    이는 다음과 같은 정보를 반환 합니다.
+    그러면 다음과 같은 정보가 반환됩니다.
     
         Identity         : Pacific Northwest
         Description      :
@@ -90,7 +90,7 @@ Windows PowerShell 및 **Get-CsNetworkRegion** cmdlet을 사용 하 여 네트�
 
 </div>
 
-자세한 내용은 [Get CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet에 대 한 도움말 항목을 참조 하세요.
+자세한 내용은 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet의 도움말 항목을 참조하십시오.
 
 </div>
 
@@ -100,7 +100,7 @@ Windows PowerShell 및 **Get-CsNetworkRegion** cmdlet을 사용 하 여 네트�
 
 
 [Lync Server 2013에서 네트워크 지역 만들기 또는 수정](lync-server-2013-creating-or-modifying-network-regions.md)  
-[Lync Server 2013에서 기존 네트워크 영역 삭제](lync-server-2013-deleting-existing-network-regions.md)  
+[Lync Server 2013에서 기존 네트워크 지역 삭제](lync-server-2013-deleting-existing-network-regions.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 외부 사용자에 대한 페더레이션 및 원격 액세스 확인
+title: 외부 사용자를 위한 페더레이션 및 원격 액세스 확인
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61ad994eb7769dff067195520c2c6fde955910f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 382c3e892f7e4d46b5c584e7efc0c03cc89531ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738548"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983063"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-federation-and-remote-access-for-external-users"></a>외부 사용자에 대한 페더레이션 및 원격 액세스 확인
+# <a name="verify-federation-and-remote-access-for-external-users"></a>외부 사용자를 위한 페더레이션 및 원격 액세스 확인
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41738548"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-18_
+_**마지막으로 수정 된 항목:** 2012-09-18_
 
-페더레이션 경로를 Lync Server 2013 Edge 서버로 전환 하 고 나면 일부 기능적 테스트를 수행 하 여 페더레이션이 예상 대로 수행 되는지 확인 해야 합니다. 외부 사용자 액세스에 대 한 테스트에는 조직에서 지 원하는 각 외부 사용자 유형 (다음의 일부 또는 모두 포함)이 포함 되어야 합니다.
+페더레이션 경로를 Lync Server 2013 Edge 서버로 전환 하 고 나면 일부 기능 테스트를 수행 하 여 페더레이션이 예상 대로 수행 되는지 확인 해야 합니다. 외부 사용자 액세스를 위한 테스트에는 다음 중 일부 또는 모두를 포함하여 조직에서 지원하는 각각의 외부 사용자 유형이 포함됩니다.
 
 <div>
 
 ## <a name="test-connectivity-of-external-users-and-external-access"></a>외부 사용자 및 외부 액세스 연결 테스트
 
-  - 하나 이상의 페더레이션 도메인, Lync Server 2013의 내부 사용자, Lync Server 2010의 사용자 등의 사용자 인스턴트 메시지 (IM), 현재 상태, 오디오/비디오 (A/V) 및 데스크톱 공유를 테스트 합니다.
+  - 하나 이상의 페더레이션 도메인, Lync Server 2013의 내부 사용자 및 Lync Server 2010의 사용자입니다. IM(인스턴트 메시징), 현재 상태, A/V(오디오/비디오) 및 데스크톱 공유를 테스트합니다.
 
-  - 조직에서 지원 하 고 프로 비전이 완료 된 각 공용 IM 서비스 공급자의 사용자는 Lync Server 2013 및 Lync Server 2010의 사용자와 통신 합니다.
+  - 조직이 지원 하 고 프로 비전이 완료 된 각 공용 IM 서비스 공급자의 사용자가 Lync Server 2013의 사용자와 Lync Server 2010의 사용자와 통신 합니다.
 
-  - 익명 사용자가 회의에 참가할 수 있는지 확인 합니다.
+  - 익명 사용자가 회의에 참가할 수 있는지 확인합니다.
 
-  - Lync server 2010에서 원격 사용자 액세스를 사용 하 여 (VPN을 제외한 인트라넷 외부에서 Lync Server 2010에 로그인 하는 경우 2013) 사용자 및 lync server 2010의 사용자가 있습니다. IM, 현재 상태, A/V, 데스크톱 공유를 테스트 합니다.
+  - Lync server 2013 2010을 사용 하는 사용자에 게는 원격 사용자 액세스 (인트라넷 외부에서 Lync Server 2010에 로그온 하지만 VPN은 제외)을 사용할 수 있습니다. 2010 IM, 현재 상태, A/V 및 데스크톱 공유를 테스트합니다.
 
-  - Lync server 2013에서 원격 사용자 액세스를 사용 하 여 (VPN을 제외한 인트라넷 외부에서 Lync Server 2013에 로그인 하는 경우 2013) 사용자 및 lync server 2010의 사용자가 있습니다. IM, 현재 상태, A/V, 데스크톱 공유를 테스트 합니다.
+  - Lync server 2013 2010을 사용 하는 사용자에 게는 원격 사용자 액세스 (인트라넷 외부에서 Lync Server 2013에 로그온 하지만 VPN은 제외)을 사용할 수 있습니다. 2013 IM, 현재 상태, A/V 및 데스크톱 공유를 테스트합니다.
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 659ae8b1184e22b8e681f6c8166d079655b12c4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a1fc4f23779c7f75dc7e11a9eed7050e6bd737c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764464"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985103"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="software-setup-for-lync-server-2013"></a>Lync Server 2013의 소프트웨어 설치
+# <a name="software-setup-for-lync-server-2013"></a>Lync Server 2013 용 소프트웨어 설치
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764464"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-29_
+_**마지막으로 수정 된 항목:** 2012-06-29_
 
-이 섹션에서는 환경에서 하드웨어를 설정 하는 데 필요한 소프트웨어 설정에 대해 자세히 설명 합니다.
+이 섹션에서는 환경에서 하드웨어를 설치한 후 수행해야 하는 소프트웨어 설치에 대해 자세하게 설명합니다.
 
 <div>
 
@@ -45,13 +45,13 @@ _**마지막으로 수정한 주제:** 2012-06-29_
 
   - [Lync Server 2013의 서버에 운영 체제 및 필수 구성 요소 소프트웨어 설치](lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md)
 
-  - [Lync Server 2013의 파일 저장소 구성](lync-server-2013-configure-dfs-file-storage.md)
+  - [Lync Server 2013에 대 한 파일 저장소 구성](lync-server-2013-configure-dfs-file-storage.md)
 
-  - [Lync Server 2013에 대한 사전 인증서 요청(선택 사항)](lync-server-2013-request-certificates-in-advance-optional.md)
+  - [Lync Server 2013에 대해 사전 인증서 요청 (선택 사항)](lync-server-2013-request-certificates-in-advance-optional.md)
 
-  - [Lync Server 2013에 대한 IIS 구성](lync-server-2013-configure-iis.md)
+  - [Lync Server 2013에 대 한 IIS 구성](lync-server-2013-configure-iis.md)
 
-  - [Lync Server 2013용 Windows PowerShell 3.0 설치](lync-server-2013-installing-windows-powershell-3-0.md)
+  - [Lync Server 2013 용 Windows PowerShell 3.0 설치](lync-server-2013-installing-windows-powershell-3-0.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184994
 ms.date: 02/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c17f30b05141e9b47ce09685ff18cd166c195f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 913a484262d9e1b3a899aeda42c5f23049d8c73c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765519"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030922"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765519"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2016-02-25_
+_**마지막으로 수정 된 항목:** 2016-02-25_
 
-이 섹션에서는 lync 2013 용 소프트웨어 지원과 Lync 2013 용 온라인 모임 추가 기능에 대해 간략하게 설명 합니다.
+이 섹션에는 lync 2013 용 온라인 모임 추가 기능 및 Lync 2013에 대 한 소프트웨어 지원이 요약 되어 있습니다.
 
 <div>
 
 
 > [!NOTE]  
-> Outlook messaging 및 공동 작업 클라이언트 내에서 모임 관리를 지 원하는 Lync 2013의 온라인 모임 추가 기능이 Lync 2013를 사용 하 여 자동으로 설치 됩니다.
+> Outlook 메시징 및 공동 작업 클라이언트 내에서 모임 관리를 지 원하는 Lync 2013 용 온라인 모임 추가 기능이 Lync 2013을 사용 하 여 자동으로 설치 됩니다.
 
 
 
 </div>
 
-### <a name="software-requirements-for-lync-2013-and-the-online-meeting-add-in-for-lync-2013"></a>Lync 2013 용 소프트웨어 요구 사항 및 Lync 2013 용 온라인 모임 추가 기능
+### <a name="software-requirements-for-lync-2013-and-the-online-meeting-add-in-for-lync-2013"></a>Lync 2013에 대 한 소프트웨어 요구 사항 및 lync 2013 온라인 모임 추가 기능
 
 <table>
 <colgroup>
@@ -69,11 +69,11 @@ _**마지막으로 수정한 주제:** 2016-02-25_
 <p>Windows 8.1</p>
 <p>Windows 8</p>
 <p>Windows 7 운영 체제</p>
-<p>최신 서비스 팩이 포함 되어 있는 Windows Server 2008 R2</p>
+<p>최신 서비스 팩이 포함 된 Windows Server 2008 R2</p>
 <div>
 
 > [!NOTE]  
-> Lync 2013 용 lync 2013 및 온라인 모임 추가 기능은 Windows Vista 또는 Windows XP (모든 버전)에서 지원 되지 않습니다.
+> Lync 2013 용 온라인 모임 추가 기능은 Windows Vista 또는 Windows XP (any 버전)에서 지원 되지 않습니다. 2013
 
 
 </div></td>
@@ -93,14 +93,14 @@ _**마지막으로 수정한 주제:** 2016-02-25_
 <div>
 
 > [!NOTE]  
-> Microsoft Exchange Online에서 Lync를 사용 하는 경우 조직이 인증 HTTP 프록시를 배포한 경우 Internet Explorer 9 또는 Internet Explorer 8이 필요 합니다.
+> Microsoft Exchange Online에서 Lync를 사용 하는 경우 조직에서 인증 HTTP 프록시를 배포한 경우 Internet Explorer 9 또는 Internet Explorer 8이 필요 합니다.
 
 
 </div></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Office 통합</p></td>
-<td><p>전체 통합 기능 집합:</p>
+<td><p>완전한 통합 기능을 위해서는 다음이 필요합니다.</p>
 <ul>
 <li><p>Outlook 2013 메시징 및 공동 작업 클라이언트</p></li>
 <li><p>Outlook 2010 메시징 및 공동 작업 클라이언트</p></li>
@@ -108,7 +108,7 @@ _**마지막으로 수정한 주제:** 2016-02-25_
 </tr>
 <tr class="odd">
 <td><p>Microsoft Exchange 통합</p></td>
-<td><p>전체 통합 기능 집합:</p>
+<td><p>완전한 통합 기능을 위해서는 다음이 필요합니다.</p>
 <ul>
 <li><p>Microsoft Exchange Server 2013</p></li>
 <li><p>Microsoft Exchange Server 2010</p></li>
@@ -122,7 +122,7 @@ _**마지막으로 수정한 주제:** 2016-02-25_
 
 ## <a name="macintosh-operating-systems"></a>Macintosh 운영 체제
 
-Lync 2013는 Windows 에서만 사용할 수 있습니다. 그러나 Lync Server 2013는 Mac OS 10.5.8 이상과 또는 최신 서비스 팩 또는 릴리스 (Intel 기반) 운영 체제를 실행 하는 컴퓨터에서 다음 클라이언트를 지원 합니다 (Mac OS 10.9 운영 체제는 현재 지원 되지 않음). 지원 되는 기능에 대 한 자세한 내용은 [Lync Server 2013의 클라이언트 비교 표](lync-server-2013-desktop-client-comparison-tables.md)를 참조 하세요.
+Lync 2013은 Windows 에서만 사용할 수 있습니다. 그러나 Lync Server 2013에서는 Mac OS 10.5.8 또는 최신 서비스 팩 또는 릴리스 (Intel 기반) 운영 체제를 실행 하는 컴퓨터에서 다음 클라이언트를 지원 합니다 (Mac OS 10.9 운영 체제가 현재 지원 되지 않음). 지원 되는 기능에 대 한 자세한 내용은 [Lync Server 2013의 클라이언트 비교 표](lync-server-2013-desktop-client-comparison-tables.md)를 참조 하십시오.
 
   - Mac 용 Microsoft Lync 2011 ("Mac 용 Lync 2011 배포 가이드" 참조 [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786))
 
@@ -134,7 +134,7 @@ Lync 2013는 Windows 에서만 사용할 수 있습니다. 그러나 Lync Server
 
 ## <a name="lync-web-app-browsers"></a>Lync Web App 브라우저
 
-Lync Web App은 특정 운영 체제 및 브라우저 조합을 지원 합니다. 자세한 내용은 계획 설명서에서 lync [Web App에서 Lync Server 2013을 지 원하는 플랫폼](lync-server-2013-lync-web-app-supported-platforms.md) 을 참조 하세요.
+Lync Web App에서는 특정 운영 체제 및 브라우저 조합을 지원 합니다. 자세한 내용은 계획 설명서에서 lync [Server 2013에 대 한 지원 되는 앱 플랫폼](lync-server-2013-lync-web-app-supported-platforms.md) 을 참조 하십시오.
 
 </div>
 
@@ -142,13 +142,13 @@ Lync Web App은 특정 운영 체제 및 브라우저 조합을 지원 합니다
 
 ## <a name="microsoft-office-supportability"></a>Microsoft Office 지원 가능성
 
-Lync Server 2013 클라이언트는이 섹션에 요약 된 것 처럼 다양 한 Microsoft Office 버전과의 통합을 지원 합니다.
+Lync Server 2013 클라이언트는이 섹션에 요약 된 것 처럼 다양 한 버전의 Microsoft Office와의 통합을 지원 합니다.
 
-  - Outlook 2013 및 Microsoft Outlook 2010에서는 Lync 2013 통합 기능이 지원 됩니다.
+  - Lync 2013 통합 기능은 Outlook 2013 및 Microsoft Outlook 2010에서 지원 됩니다.
 
   - Lync 2013 통합 기능은 Microsoft Exchange Server 2013 및 Microsoft Exchange Server 2010에서 지원 됩니다.
 
-  - Lync 2013 용 온라인 모임 추가 기능은 Office 2013 및 Microsoft Office 2010에서 지원 됩니다.
+  - Lync 2013에 대 한 온라인 모임 추가 기능은 Office 2013 및 Microsoft Office 2010에서 지원 됩니다.
 
 </div>
 
@@ -156,7 +156,7 @@ Lync Server 2013 클라이언트는이 섹션에 요약 된 것 처럼 다양 �
 
 ## <a name="using-mandatory-profiles"></a>필수 프로필 사용
 
-사용자가 Lync 2013 회의 기능을 사용할 계획 이라면 Active Directory 도메인 서비스 필수 프로필을 사용 하 여 Lync 2013 클라이언트에 로그인 하지 않아야 합니다. 필수 프로필은 읽기 전용 사용자 프로필 이므로 Lync 2013 회의에 필요한 PKI (공개 키 인프라) 키를 프로필에 저장할 수 없습니다. 자세한 내용은 Microsoft 기술 자료 문서 2552221, "사용자가 필수 사용자 프로필을 사용 하 여 로그인 할 때 Lync 2010 회의 기능이 실패 [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)했습니다."를 참조 하세요.
+사용자가 Lync 2013 회의 기능을 사용할 계획인 경우 Active Directory 도메인 서비스 필수 프로필을 사용 하 여 Lync 2013 클라이언트에 로그인 할 수 없습니다. 필수 프로필은 읽기 전용 사용자 프로필 이므로 Lync 2013 회의에 필요한 PKI (공개 키 인프라) 키를 프로필에 저장할 수 없습니다. 자세한 내용은 Microsoft 기술 자료 문서 2552221, "사용자가 필수 사용자 프로필을 사용 하 여 로그인 한 경우 Lync 2010 회의 기능 실패"를 참조 하세요 [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221).
 
 </div>
 
@@ -165,9 +165,9 @@ Lync Server 2013 클라이언트는이 섹션에 요약 된 것 처럼 다양 �
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013의 Lync 클라이언트 하드웨어 지원](lync-server-2013-lync-client-hardware-support.md)  
+[Lync Server 2013의 lync 클라이언트 하드웨어 지원](lync-server-2013-lync-client-hardware-support.md)  
 [Lync Server 2013의 lync 클라이언트 비디오 요구 사항](lync-server-2013-lync-client-video-requirements.md)  
-[Lync Server 2013의 이전 배포에서 지원되는 클라이언트](lync-server-2013-supported-clients-from-previous-deployments.md)  
+[Lync Server 2013의 이전 배포에서 지원 되는 클라이언트](lync-server-2013-supported-clients-from-previous-deployments.md)  
   
 
 </div>

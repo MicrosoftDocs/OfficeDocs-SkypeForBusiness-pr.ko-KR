@@ -12,16 +12,16 @@ ms:contentKeyID: 48679561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 329f2621a4c1904e515f77e0cbcc17effad99bc3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ea1e2993ed168ece718864f4167815e799605d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733258"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028949"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41733258"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-19_
+_**마지막으로 수정 된 항목:** 2012-10-19_
 
-이 문서는 예비 문서로, 변경 될 수 있습니다. 빈 항목은 개체 틀로 포함 됩니다.
+이 내용은 예비 설명서 이며 변경 될 수 있습니다. 빈 항목은 자리 표시자로 포함되어 있습니다.
 
-XMPP 페더레이션 도메인의 사용자에 대 한 지원을 관리 하려면 다음을 수행 해야 합니다.
+XMPP 페더레이션 도메인의 사용자에 대한 지원을 관리하려면 다음을 수행해야 합니다.
 
-  - XMPP 페더레이션 도메인의 사용자를 지원 하기 위해 하나 이상의 외부 액세스 정책을 구성 합니다.
+  - XMPP 페더레이션 도메인의 사용자를 지원하도록 하나 이상의 외부 액세스 정책을 구성합니다.
 
-  - 페더레이션을 지원 하도록 액세스에 지 구성 정책을 구성 합니다.
+  - 페더레이션을 지원하도록 액세스 에지 구성 정책을 구성합니다.
 
-  - XMPP 연합 파트너 정의를 만듭니다.
+  - XMPP 페더레이션 파트너 정의를 만듭니다.
 
-  - XMPP 페더레이션에 사용할 수 있는 협상 설정을 이해 합니다.
+  - XMPP 페더레이션에 사용할 수 있는 협상 설정을 이해합니다.
 
-이러한 작업을 수행 하려면이 섹션의 절차를 사용 합니다.
+이 섹션의 절차를 사용하여 이러한 작업을 수행할 수 있습니다.
 
 <div>
 
@@ -57,9 +57,9 @@ XMPP 페더레이션 도메인의 사용자에 대 한 지원을 관리 하려�
 
   - [Lync Server 2013에서 XMPP 파트너 구성 만들기 또는 편집](lync-server-2013-create-or-edit-xmpp-partner-configuration.md)
 
-  - [Lync Server 2013의 XMPP 페더레이션 파트너의 협상 설정](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
+  - [Lync Server 2013의 XMPP 페더레이션 파트너에 대 한 협상 설정](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
 
-  - [Lync Server 2013의 예제 XMPP 구성 - Google Talk와 XMPP 페더레이션](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)
+  - [Lync Server 2013의 XMPP 구성 예-Google 대화를 사용한 XMPP 페더레이션](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)
 
 </div>
 

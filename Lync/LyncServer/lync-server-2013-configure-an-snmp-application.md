@@ -12,16 +12,16 @@ ms:contentKeyID: 48185346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e11d79278318c99e1c6a1db3c4609e19553ba4c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3e7dafe07796f6d93e6357a5bff9aa058fe29b85
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757822"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028749"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41757822"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-03_
+_**마지막으로 수정 된 항목:** 2012-10-03_
 
-Lync Server 2013에는 위치 정보 서비스를 포트 및 스위치 정보를 사용 하 여 MAC 주소와 일치 하는 SNMP (단순 네트워크 관리 프로토콜) 응용 프로그램에 연결 하는 데 사용할 수 있는 표준 웹 서비스 인터페이스가 포함 되어 있습니다.
+Lync Server 2013에는 위치 정보 서비스를 포트 및 스위치 정보와 MAC 주소와 일치 하는 SNMP (Simple Network Management Protocol) 응용 프로그램에 연결 하는 데 사용할 수 있는 표준 웹 서비스 인터페이스가 포함 되어 있습니다.
 
-SNMP 응용 프로그램이 설치 되어 있고 위치 정보 서비스가 위치 데이터베이스에서 일치 하는 항목을 찾지 못하는 경우 위치 정보 서비스는 클라이언트에서 제공 하는 MAC 주소를 사용 하 여 응용 프로그램을 자동으로 쿼리 합니다. 위치 정보 서비스는 SNMP 응용 프로그램에서 반환 된 포트 및 스위치 정보를 사용 하 여 위치 데이터베이스를 다시 쿼리 합니다.
+SNMP 응용 프로그램을 설치 하 고 위치 정보 서비스가 위치 데이터베이스에서 일치 하는 항목을 찾지 못하는 경우 위치 정보 서비스는 클라이언트에서 제공 하는 MAC 주소를 사용 하 여 응용 프로그램을 자동으로 쿼리 합니다. 그런 다음 위치 정보 서비스는 SNMP 응용 프로그램에서 반환 하는 포트 및 스위치 정보를 사용 하 여 위치 데이터베이스를 다시 쿼리 합니다.
 
-자세한 내용은 [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)을 참조 하세요.
+자세한 내용은 [set-cswebserviceconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)를 참조 하십시오.
 
 <div>
 
 
 > [!NOTE]  
-> MAC 주소는 Windows 8을 실행 하는 컴퓨터에서 사용할 수 없습니다.
+> Windows 8을 실행 하는 컴퓨터에서는 MAC 주소를 사용할 수 없습니다.
 
 
 
@@ -55,11 +55,11 @@ SNMP 응용 프로그램이 설치 되어 있고 위치 정보 서비스가 위�
 
 <div>
 
-## <a name="to-configure-the-snmp-application-url"></a>SNMP 응용 프로그램 URL을 구성 하려면
+## <a name="to-configure-the-snmp-application-url"></a>SNMP 응용 프로그램 URL을 구성하려면
 
-1.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-2.  SNMP 응용 프로그램의 URL을 구성 하려면 다음 cmdlet을 실행 합니다.
+2.  다음 cmdlet를 실행하여 SNMP 응용 프로그램에 대한 URL을 구성합니다.
     
         Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
 

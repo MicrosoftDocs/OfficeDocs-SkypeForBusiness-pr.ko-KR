@@ -12,16 +12,16 @@ ms:contentKeyID: 48184139
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 434cc1eb721635f4a56be33f48802da3bc6db0e3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d854a70fed08bd364f1df69b272ee46792eab786
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733358"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028449"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,33 +35,33 @@ ms.locfileid: "41733358"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-20_
+_**마지막으로 수정 된 항목:** 2012-09-20_
 
-*호스팅된 음성 메일 정책은* Lync Server 2013 Exum Routing application에 대 한 정보를 제공 하는데,이는 해당 사서함이 호스팅된 Exchange 서비스에 있는 사용자에 대 한 통화를 라우팅할 위치에 대해 설명 합니다.
+*호스팅된 음성 메일 정책은* Lync Server 2013 Exum 라우팅 응용 프로그램에 사서함이 호스팅된 Exchange 서비스에 있는 사용자에 대해 통화를 라우팅할 위치에 대 한 정보를 제공 합니다.
 
 <div>
 
 
 > [!NOTE]  
-> 일반적으로 호스팅된 음성 메일 정책은 하나만 필요 합니다. 대부분의 경우 모든 요구에 맞게 전역 정책을 수정할 수 있습니다. 사이트 범위를 사용 하 여 정책을 만들면 지정 된 사이트에 속한 모든 사용자에 게 자동으로 할당 됩니다. 사용자별 범위를 사용 하 여 정책을 만드는 경우 사용자, 그룹 및 연락처 개체에 명시적으로 할당 해야 합니다. 여러 호스팅 음성 메일 정책을 배포할 수 있지만,이 경우 사용자 기준으로 정책을 할당 해야 합니다.
+> 일반적으로는 호스팅된 음성 메일 정책만 있으면 됩니다. 대부분의 경우 모든 요구를 충족하기 위해 글로벌 정책을 수정할 수 있습니다. 사이트 범위를 사용하여 정책을 만드는 경우 지정된 사이트에 속한 모든 사용자에 대해 자동으로 해당 정책이 지정됩니다. 사용자별 범위를 사용하여 정책을 만드는 경우에는 해당 정책을 사용자, 그룹 및 대화 상대 개체에 대해 명시적으로 지정해야 합니다. 호스팅된 음성 메일 정책을 여러 개 배포할 수는 있지만, 이렇게 하는 경우에는 사용자별로 정책을 지정해야 합니다.
 
 
 
 </div>
 
-호스팅된 음성 메일 정책 계획에 대 한 자세한 내용은 계획 설명서의 [Lync Server 2013에서 호스팅된 음성 메일 정책을](lync-server-2013-hosted-voice-mail-policies.md) 참조 하세요.
+호스팅된 음성 메일 정책을 계획 하는 방법에 대 한 자세한 내용은 계획 설명서에서 [hosted voice mail 정책도 Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) 을 참조 하십시오.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013의 글로벌 호스팅 음성 메일 정책 수정](lync-server-2013-modify-the-global-hosted-voice-mail-policy.md)
+  - [Lync Server 2013에서 호스팅된 글로벌 음성 메일 정책 수정](lync-server-2013-modify-the-global-hosted-voice-mail-policy.md)
 
-  - [Lync Server 2013에서 사이트 수준의 호스팅 음성 메일 정책 만들기](lync-server-2013-create-a-site-level-hosted-voice-mail-policy.md)
+  - [Lync Server 2013에서 사이트 수준 호스팅된 음성 메일 정책 만들기](lync-server-2013-create-a-site-level-hosted-voice-mail-policy.md)
 
-  - [Lync Server 2013에서 사용자 단위 호스팅 음성 메일 정책 만들기](lync-server-2013-create-a-per-user-hosted-voice-mail-policy.md)
+  - [Lync Server 2013에서 사용자별 호스팅 음성 메일 정책 만들기](lync-server-2013-create-a-per-user-hosted-voice-mail-policy.md)
 
-  - [Lync Server 2013에서 사용자 단위 호스팅 음성 메일 정책 할당](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
+  - [Lync Server 2013에서 사용자별 호스팅 음성 메일 정책 할당](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
 
 </div>
 

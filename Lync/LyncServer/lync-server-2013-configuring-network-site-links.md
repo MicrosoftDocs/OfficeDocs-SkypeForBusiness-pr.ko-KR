@@ -12,16 +12,16 @@ ms:contentKeyID: 48184622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e379a8195dd0a50d97a514307ac594908be4736c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: face7287ecf65a75e335b63f0a657c4534891277
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763482"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,57 +35,57 @@ ms.locfileid: "41763482"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-CAC (call 허용 제어) 구성 내에서 직접 연결 된 사이트 간의 대역폭 제한을 정의 하는 네트워크 간 정책을 만들 수 있습니다. 네트워크 사이트에서 직접 링크를 공유 하는 경우 오디오 및 비디오 연결에 대 한 대역폭 제한이 해당 두 사이트 간에 정의 될 수 있습니다. Lync server 제어판을 사용 하 여 네트워크 사이트 정책을 구성할 수는 없지만 Lync Server 관리 셸에서 cmdlet을 사용 하 여이 작업을 수행할 수 있습니다. Lync Server 관리 셸에서 네트워크 사이트 링크 (사이트 간 정책 라고도 함)를 만들고, 수정 하 고, 제거할 수 있습니다.
+CAC(통화 허용 제어) 구성 내에서 직접 연결된 사이트 간의 대역폭 제한을 정의하는 네트워크 사이트 간 정책을 만들 수 있습니다. 네트워크 사이트에서 직접 링크를 공유하는 경우 이 두 사이트 간에 오디오 및 비디오 연결에 대한 대역폭 제한이 정의될 수 있습니다. Lync Server 제어판을 사용 하 여 네트워크 사이트 정책을 구성할 수는 없으며 Lync Server 관리 셸에서 cmdlet을 사용 해야만이 작업을 수행할 수 있습니다. Lync Server 관리 셸에서 네트워크 사이트 링크 (네트워크 간 정책이 라고도 함)를 만들고, 수정 하 고, 제거할 수 있습니다.
 
 <div>
 
 ## <a name="to-create-a-network-site-link"></a>네트워크 사이트 링크를 만들려면
 
-1.  Lync Server Management 셸이 RTCUniversalServerAdmins group의 구성원으로 설치 된 컴퓨터 또는 [Lync server 2013의 대리인 설정 권한에](lync-server-2013-delegate-setup-permissions.md)설명 된 대로 필요한 사용자 권한으로 로그온 합니다.
+1.  Lync server 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치 되어 있거나 [Lync server 2013의 설치 권한 위임](lync-server-2013-delegate-setup-permissions.md)에 설명 된 대로 필요한 사용자 권한으로 컴퓨터에 로그온 합니다.
 
-2.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  명령 프롬프트에서 다음 명령을 입력 하 고 구성에 유효한 값으로 대체 합니다.
+3.  명령 프롬프트에서 다음 명령을 입력하여 구성에 대해 올바른 값으로 대체합니다.
     
         New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
     
-    이 예제에서는 Reno 및 포틀랜드 네트워크 사이트 간의 대역폭\_제한을 설정 하는 Reno 포틀랜드 이라는 새 네트워크 사이트 링크를 만듭니다. 네트워크 사이트 및 대역폭 정책 프로필은이 명령을 실행 하기 전에 이미 존재 해야 합니다.
+    이 예에서는 리노 및 포틀랜드 네트워크 사이트 간에 대역폭\_제한을 설정 하는 리노 포틀랜드 라는 새 네트워크 사이트 링크를 만듭니다. 네트워크 사이트 및 대역폭 정책 프로필은 이 명령을 실행하기 전에 이미 있어야 합니다.
 
-매개 변수 설명에 대 한 자세한 내용은 Lync Server 관리 셸 설명서의 [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 을 참조 하세요. 네트워크 사이트 링크에 적용할 수 있는 대역폭 정책 프로필 목록을 검색 하려면 **CsNetworkBandwidthPolicyProfile** cmdlet을 호출 합니다. 자세한 내용은 Lync Server 관리 셸 설명서의 [Get-help CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) 을 참조 하세요.
+매개 변수에 대 한 자세한 내용은 Lync Server Management Shell 설명서의 [remove-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 를 참조 하십시오. 네트워크 사이트 링크에 적용할 수 있는 대역폭 정책 프로필 목록을 검색하려면 **Get-CsNetworkBandwidthPolicyProfile** cmdlet을 호출합니다. 자세한 내용은 Lync Server 관리 셸 설명서에서 [get-csnetworkbandwidthpolicyprofile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) 를 참조 하세요.
 
 </div>
 
 <div>
 
-## <a name="to-modify-a-network-site-link"></a>네트워크 사이트 링크를 수정 하려면
+## <a name="to-modify-a-network-site-link"></a>네트워크 사이트 링크를 수정하려면
 
-1.  Lync Server Management 셸이 RTCUniversalServerAdmins group의 구성원으로 설치 된 컴퓨터 또는 [Lync server 2013의 대리인 설정 권한에](lync-server-2013-delegate-setup-permissions.md)설명 된 대로 필요한 사용자 권한으로 로그온 합니다.
+1.  Lync server 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치 되어 있거나 [Lync server 2013의 설치 권한 위임](lync-server-2013-delegate-setup-permissions.md)에 설명 된 대로 필요한 사용자 권한으로 컴퓨터에 로그온 합니다.
 
-2.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  **Set-CsNetworkInterSitePolicy** cmdlet을 사용 하 여 지정 된 네트워크 사이트 링크의 속성을 수정 합니다. (또는 둘 다) 또는 연결 된 사이트를 수정할 수 있으며 링크와 연결 된 대역폭 정책 프로필을 수정할 수 있습니다. 다음은 Reno\_포틀랜드 라는 사이트 링크의 대역폭 정책 프로필을 수정 하는 예입니다.
+3.  **Set-CsNetworkInterSitePolicy** cmdlet을 사용하여 해당 네트워크 사이트 링크의 속성을 수정합니다. 연결된 사이트 중 하나(또는 둘 다)를 수정할 수 있으며 링크와 연결된 대역폭 정책 프로필을 수정할 수 있습니다. 다음은 리노\_포틀랜드 라는 사이트 링크의 대역폭 정책 프로필을 수정 하는 예입니다.
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-자세한 매개 변수 설명은 Lync Server 관리 셸 설명서의 [CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy) 을 참조 하세요.
+매개 변수에 대 한 자세한 내용은 Lync Server Management Shell 설명서의 [remove-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy) 를 참조 하십시오.
 
 </div>
 
 <div>
 
-## <a name="to-delete-a-network-site-link"></a>네트워크 사이트 링크를 삭제 하려면
+## <a name="to-delete-a-network-site-link"></a>네트워크 사이트 링크를 삭제하려면
 
-1.  Lync Server Management 셸이 RTCUniversalServerAdmins group의 구성원으로 설치 된 컴퓨터 또는 [Lync server 2013의 대리인 설정 권한에](lync-server-2013-delegate-setup-permissions.md)설명 된 대로 필요한 사용자 권한으로 로그온 합니다.
+1.  Lync server 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치 되어 있거나 [Lync server 2013의 설치 권한 위임](lync-server-2013-delegate-setup-permissions.md)에 설명 된 대로 필요한 사용자 권한으로 컴퓨터에 로그온 합니다.
 
-2.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  네트워크 사이트 링크를 제거 하려면 **CsNetworkInterSitePolicy** cmdlet을 사용 합니다. 다음 예에서는 Reno\_포틀랜드 네트워크 사이트 링크를 삭제 합니다.
+3.  **Remove-CsNetworkInterSitePolicy** cmdlet을 사용하여 네트워크 사이트 링크를 제거합니다. 다음 예에서는 리노\_포틀랜드 네트워크 사이트 링크를 삭제 합니다.
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-매개 변수 설명에 대 한 자세한 내용은 Lync Server 관리 셸 설명서의 [제거-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy) 를 참조 하세요.
+매개 변수에 대 한 자세한 내용은 Lync Server 관리 셸 설명서에서 [remove-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy) 를 참조 하십시오.
 
 </div>
 
@@ -97,11 +97,11 @@ CAC (call 허용 제어) 구성 내에서 직접 연결 된 사이트 간의 대
 [Lync Server 2013의 통화 허용 제어 cmdlet](https://docs.microsoft.com/powershell/module/skype/)  
 
 
-[새로운 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)  
-[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
-[제거-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
-[Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
+[Remove-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)  
+[Remove-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
+[Remove-csnetworkintersitepolicy을 제거 합니다.](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
+[Remove-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
+[Get-csnetworkbandwidthpolicyprofile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
   
 
 </div>

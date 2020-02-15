@@ -12,16 +12,16 @@ ms:contentKeyID: 48183523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73ac5a7cf26c97b31daf5785a90fac102c50e480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d7078c36763fb5c582f62c5b4ff7ddedf9cd100
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764194"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027339"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764194"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-12_
+_**마지막으로 수정 된 항목:** 2012-09-12_
 
-tblEnumAttribute는 노드 테이블에 사용 되는 Visibility 및 Behavior 특성을 포함 하는 하드 코드 된 테이블입니다.
+tblEnumAttribute는 Node 테이블에 사용된 Visibility 및 Behavior 특성이 들어 있는 하드코드된 테이블입니다.
 
-### <a name="columns"></a>열
+### <a name="columns"></a>단
 
 <table>
 <colgroup>
@@ -50,7 +50,7 @@ tblEnumAttribute는 노드 테이블에 사용 되는 Visibility 및 Behavior �
 <thead>
 <tr class="header">
 <th>열</th>
-<th>유형</th>
+<th>형식</th>
 <th>설명</th>
 </tr>
 </thead>
@@ -62,7 +62,7 @@ tblEnumAttribute는 노드 테이블에 사용 되는 Visibility 및 Behavior �
 </tr>
 <tr class="even">
 <td><p>attributeName</p></td>
-<td><p>nvarchar (256), null 아님</p></td>
+<td><p>nvarchar(256), null이 아님</p></td>
 <td><p>특성의 이름입니다.</p></td>
 </tr>
 </tbody>
@@ -106,12 +106,12 @@ tblEnumAttribute는 노드 테이블에 사용 되는 Visibility 및 Behavior �
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>시도가.</p></td>
+<td><p>1 </p></td>
+<td><p>가시성.</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
-<td><p>결과가.</p></td>
+<td><p>2 </p></td>
+<td><p>동작과.</p></td>
 </tr>
 </tbody>
 </table>

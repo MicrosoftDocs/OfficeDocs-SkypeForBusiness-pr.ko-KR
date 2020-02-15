@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 이전 배포에서 지원되는 클라이언트'
+title: 'Lync Server 2013: 이전 배포에서 지원 되는 클라이언트'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184390
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38d4fe00b834778f1ad87f021656ed08488c1ba2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6cff76b750b2c6643ec1bf6ac3419a9892719ea4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731728"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-clients-from-previous-deployments-in-lync-server-2013"></a>Lync Server 2013의 이전 배포에서 지원되는 클라이언트
+# <a name="supported-clients-from-previous-deployments-in-lync-server-2013"></a>Lync Server 2013의 이전 배포에서 지원 되는 클라이언트
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41731728"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-12-14_
+_**마지막으로 수정 된 항목:** 2012-12-14_
 
-공존 시나리오에서 Lync Server 2013 클라이언트는 이전 버전의 Lync Server 및 Office Communications Server의 클라이언트와 상호 작용할 수 있습니다. 이전 릴리스와 달리 Lync Server 2010는 새로운 Lync 2013 클라이언트를 지원 합니다. 이를 통해 Lync Server 2010에서 업그레이드 하는 조직이 Lync Server 업그레이드와 독립적으로 새 클라이언트를 롤아웃할 수 있습니다.
+동시 사용 시나리오에서 Lync Server 2013 클라이언트는 이전 버전의 Lync Server 및 Office Communications Server에서 클라이언트와 상호 작용할 수 있습니다. 이전 릴리스와 달리 Lync Server 2010에서는 새 Lync 2013 클라이언트를 지원 합니다. 이를 통해 Lync Server 2010에서 업그레이드 하는 조직은 Lync Server 업그레이드에 관계 없이 새 클라이언트를 롤아웃할 수 있습니다.
 
 <div>
 
 ## <a name="supported-server-and-client-combinations"></a>지원 되는 서버 및 클라이언트 조합
 
-다음 표에는 클라이언트 버전과 서버 버전의 지원 되는 조합이 나와 있습니다. Lync 서버 2013는 두 개의 이전 클라이언트 버전을 지원 하 고 Lync Server 2010는 새로운 Lync 2013 클라이언트를 지원 합니다.
+다음 표에는 지원 되는 클라이언트 버전 및 서버 버전 조합이 나와 있습니다. Lync Server 2013는 이전 클라이언트 버전 두 개를 지원 하며 Lync Server 2010은 새로운 Lync 2013 클라이언트를 지원 합니다.
 
 
 <table>
@@ -66,43 +66,43 @@ _**마지막으로 수정한 주제:** 2012-12-14_
 <td><p>Lync 2013</p></td>
 <td><p>지원</p></td>
 <td><p>지원</p></td>
-<td><p>지원 되지 않음</p></td>
+<td><p>미지원</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Web App 2013</p></td>
 <td><p>지원</p></td>
-<td><p>지원 되지 않음</p></td>
-<td><p>지원 되지 않음</p></td>
+<td><p>미지원</p></td>
+<td><p>미지원</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010</p></td>
 <td><p>지원</p></td>
 <td><p>지원</p></td>
-<td><p>지원 되지 않음</p></td>
+<td><p>미지원</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync 2010 수행자</p></td>
+<td><p>Lync 2010 Attendant</p></td>
 <td><p>지원</p></td>
 <td><p>지원</p></td>
-<td><p>지원 되지 않음</p></td>
+<td><p>미지원</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010 그룹 채팅</p></td>
 <td><p>해당 없음</p></td>
-<td><p>Supported1</p></td>
+<td><p>1</p></td>
 <td><p>해당 없음</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Web App 2010</p></td>
-<td><p>지원 되지 않음</p></td>
+<td><p>미지원</p></td>
 <td><p>지원</p></td>
-<td><p>지원 되지 않음</p></td>
+<td><p>미지원</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync 2010 참석자</p></td>
-<td><p>Supported2 되지 않음</p></td>
+<td><p>Lync 2010 Attendee</p></td>
+<td><p>2 아님</p></td>
 <td><p>지원</p></td>
-<td><p>지원 되지 않음</p></td>
+<td><p>미지원</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Communicator 2007 R2</p></td>
@@ -111,20 +111,20 @@ _**마지막으로 수정한 주제:** 2012-12-14_
 <td><p>지원</p></td>
 </tr>
 <tr class="odd">
-<td><p>Microsoft Office Communications Server 2007 R2 전화 교환</p></td>
-<td><p>지원 되지 않음</p></td>
+<td><p>Microsoft Office Communications Server 2007 R2 Attendant</p></td>
+<td><p>미지원</p></td>
 <td><p>지원</p></td>
 <td><p>지원</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Communicator 2007</p></td>
-<td><p>지원 되지 않음</p></td>
+<td><p>미지원</p></td>
 <td><p>지원</p></td>
 <td><p>지원</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Live Meeting 2007</p></td>
-<td><p>지원 되지 않음</p></td>
+<td><p>미지원</p></td>
 <td><p>지원</p></td>
 <td><p>지원</p></td>
 </tr>
@@ -132,17 +132,17 @@ _**마지막으로 수정한 주제:** 2012-12-14_
 </table>
 
 
-1In Microsoft Lync Server 2010, 그룹 채팅 기능을 제공 하는 타사의 Lync Server 2010에 대 한 신뢰할 수 있는 응용 프로그램 (그룹 채팅 서버)이 있습니다. Lync 2013 클라이언트는 Lync Server 2010, 그룹 채팅에서 호환 되지 않습니다.
+1In Microsoft Lync Server 2010의 경우 그룹 채팅 기능은 Lync Server 2010 용 타사 트러스트 응용 프로그램 그룹 채팅 서버에서 사용할 수 있었습니다. Lync 2013 클라이언트는 Lync Server 2010, 그룹 채팅과 호환 되지 않습니다.
 
-2 Lync Web App 2013는 이제 컴퓨터 오디오 및 비디오를 비롯 한 전체 모임 경험을 제공 하며 Lync 2010 참석자의 교체품으로 간주 됩니다.
+2Lync Web App 2013는 이제 컴퓨터 오디오 및 비디오를 비롯 한 전체 모임 환경을 제공 하며 Lync 2010 참석자의 교체로 간주 됩니다.
 
-3 Office Communicator 2007 R2의 현재 상태 및 메신저 기능은 Lync Server 2013와 호환 되지만, 회의 기능은 그렇지 않습니다. Office Communications Server 2007 R2에서 마이그레이션하는 동안 Office Communicator 2007 R2는 현재 상태 및 IM 상호 운용성에 적합 하지만 사용자는 lync Web App 2013을 사용 하 여 Lync Server 2013 모임에 참가 해야 합니다.
+3 Office Communicator 2007 R2의 현재 상태 및 IM 기능은 Lync Server 2013와 호환 되지만 회의 기능은 없습니다. Office Communications Server 2007 R2에서 마이그레이션하는 동안 Office Communicator 2007 R2는 현재 상태 및 IM 상호 운용성에 적합 하지만 lync Web App 2013을 사용 하 여 Lync Server 2013 meeting에 참가 해야 합니다.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 클라이언트가 이전 버전의 Lync Server 및 Office Communications Server와 공존 하 고 상호 작용 하는 기능에 대 한 자세한 내용은 계획 설명서의 <A href="lync-server-2013-client-interoperability-in-lync-2013.md">lync 2013에서 클라이언트 상호 운용성</A> 을 참조 하세요.
+> Lync Server 2013 클라이언트가 이전 버전의 Lync Server 및 Office Communications Server와 함께 사용 되 고 클라이언트와 상호 작용 하는 기능에 대 한 자세한 내용은 계획 설명서에서 <A href="lync-server-2013-client-interoperability-in-lync-2013.md">lync 2013의 클라이언트 상호 운용성</A> 을 참조 하십시오.
 
 
 

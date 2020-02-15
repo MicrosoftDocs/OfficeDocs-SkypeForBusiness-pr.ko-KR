@@ -12,16 +12,16 @@ ms:contentKeyID: 48183403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 217857cf0699b68ef3a0daf63bfc0b658258c480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88ffdc547bf0caed9b10f6555e2c56f03b50f467
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765366"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028469"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41765366"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-19_
+_**마지막으로 수정 된 항목:** 2012-06-19_
 
-환경 준비를 완료 한 후에는 토폴로지 디자인을 마무리 하 고 구현할 준비가 된 것입니다. 여기에는 토폴로지 작성기를 사용 하 여 Lync Server 2013 서버 역할을 설치 하는 데 필요한 토폴로지가 게시 됩니다.
+환경 준비를 완료한 후에는 토폴로지 디자인을 마무리 및 구현할 수 있습니다. 여기에는 Lync Server 2013 서버 역할을 설치 하기 위해 토폴로지 작성기를 사용 하 여 토폴로지를 게시 하는 작업이 포함 됩니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에 대한 Standard Edition 서버 데이터베이스 설치](lync-server-2013-install-standard-edition-server-database.md)
+  - [Lync Server 2013에 대 한 Standard Edition server 데이터베이스 설치](lync-server-2013-install-standard-edition-server-database.md)
 
   - [Lync Server 2013에서 토폴로지 디자인 확인](lync-server-2013-verify-the-topology-design.md)
 

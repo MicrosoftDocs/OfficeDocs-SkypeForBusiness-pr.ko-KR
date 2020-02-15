@@ -12,16 +12,16 @@ ms:contentKeyID: 48183768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf3161c66d522c09692e9fb7f1b124b506549ceb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a1205ca5deb666922c723f5c6773a2aa4b5c59f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742218"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030231"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41742218"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-13_
+_**마지막으로 수정 된 항목:** 2012-06-13_
 
-Lync Server 2013, 모범 사례 분석기는 Lync Server 2013 환경에서 구성 정보를 수집 하 고 구성이 Microsoft 모범 사례에 따라 설정 되어 있는지 여부를 확인 하는 진단 도구입니다.
+Lync Server 2013, 모범 사례 분석기는 Lync Server 2013 환경에서 구성 정보를 수집 하 고 구성이 Microsoft 모범 사례에 따라 설정 되는지 여부를 확인 하는 진단 도구입니다.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013, 모범 사례 분석기는 Lync Server 2013 구성 요소 에서만 문제를 검사 하 고 보고 합니다. 배포에 Lync Server 2010 또는 Office Communications Server 2007 R2 구성 요소가 포함 되어 있는 경우 이전 버전의 모범 사례 분석기를 사용 하 여 해당 구성 요소를 분석 합니다. 자세한 내용은 <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Lync Server 2013에서 모범 사례 분석기를 실행 하기 위한 요구 사항을</A>참조 하세요.
+> Lync Server 2013, 모범 사례 분석기는 Lync Server 2013 구성 요소 에서만 문제를 검사 하 고 보고 합니다. 배포에 Lync Server 2010 또는 Office Communications Server 2007 R2 구성 요소가 포함 되어 있으면 이전 버전의 모범 사례 분석기를 사용 하 여 해당 구성 요소를 분석 합니다. 자세한 내용은 <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Lync Server 2013에서 모범 사례 분석기를 실행 하기 위한 요구 사항을</A>참조 하세요.
 
 
 
@@ -57,9 +57,9 @@ Lync Server 2013, 모범 사례 분석기는 Lync Server 2013 환경에서 구�
 
   - [Lync Server 2013에서 모범 사례 분석기 준비 및 설치](lync-server-2013-preparing-for-and-installing-best-practices-analyzer.md)
 
-  - [모범 사례 분석기를 사용 하 여 Lync Server 2013 배포의 잠재적인 문제 식별](lync-server-2013-using-best-practices-analyzer-to-identify-potential-issues-in-your-deployment.md)
+  - [모범 사례 분석기를 사용 하 여 Lync Server 2013 배포에서 발생할 수 있는 문제 식별](lync-server-2013-using-best-practices-analyzer-to-identify-potential-issues-in-your-deployment.md)
 
-  - [스캔 결과를 사용 하 여 Lync Server 2013의 모범 사례 분석기에서 보고 한 문제 분석 및 해결](lync-server-2013-using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer.md)
+  - [검사 결과를 사용 하 여 Lync Server 2013의 모범 사례 분석기에서 보고 하는 문제 분석 및 해결](lync-server-2013-using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 부록: SBA(Survivable Branch Appliance) 및 지속 가능 분기 서버'
+title: 'Lync Server 2013: 부록: Sba (survivable Branch 기기 및 서버'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183896
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6f825179b2967ef96db3b2f035eefbad1049572
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf5f651e93097537659d6df0ea7bb4fa469fabcd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737788"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029029"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="appendices-survivable-branch-appliances-and-servers-in-lync-server-2013"></a>부록: Lync Server 2013의 SBA(Survivable Branch Appliance) 및 지속 가능 분기 서버
+# <a name="appendices-survivable-branch-appliances-and-servers-in-lync-server-2013"></a>부록: Lync Server 2013의 Sba (survivable 분기 기기 및 서버
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41737788"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-28_
+_**마지막으로 수정 된 항목:** 2012-06-28_
 
-이 섹션에서는 Survivable 분기 기기 및 Survivable Branch 서버에 대 한 추가 정보를 제공 합니다.
+이 섹션에서는 Sba (survivable 분기 기기 및 Sba (survivable 분기 서버에 대 한 추가 정보를 제공 합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [부록 A: Lync Server 2013에서 Cmdlet을 사용하여 SBA(Survivable Branch Appliance) 배포](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)
+  - [부록 A: cmdlet을 사용 하 여 Lync Server 2013에 Sba (survivable 분기 기기 배포](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)
 
-  - [부록 B: Lync Server 2013에서 SBA(Survivable Branch Appliance) 관리](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md)
+  - [부록 B: Lync Server 2013에서 Sba (survivable 분기 기기 관리](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md)
 
 </div>
 

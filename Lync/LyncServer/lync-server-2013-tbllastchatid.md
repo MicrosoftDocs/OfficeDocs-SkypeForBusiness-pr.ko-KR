@@ -12,16 +12,16 @@ ms:contentKeyID: 48183513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0fc42a3151b5863885fdb3853ea529503e18a6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be10514a933cb6a311d115fbbb011398f2758ef9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731548"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42025579"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731548"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-12_
+_**마지막으로 수정 된 항목:** 2012-09-12_
 
-tblLastChatId에는 각 사용자에 대해 생성 된 마지막 채팅 ID (및 tblChat 테이블에 사용 됨)가 포함 되어 있습니다.
+tblLastChatId에는 각 사용자에 대해 생성(및 tblChat 테이블에서 사용)된 마지막 채팅 ID가 포함됩니다.
 
-### <a name="columns"></a>열
+### <a name="columns"></a>단
 
 <table>
 <colgroup>
@@ -50,26 +50,26 @@ tblLastChatId에는 각 사용자에 대해 생성 된 마지막 채팅 ID (및 
 <thead>
 <tr class="header">
 <th>열</th>
-<th>유형</th>
+<th>형식</th>
 <th>설명</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>nodeID</p></td>
-<td><p>int, null 아님</p></td>
-<td><p>노드 ID (채팅방에만 입력 하세요).</p></td>
+<td><p>입니다</p></td>
+<td><p>int, null이 아님</p></td>
+<td><p>노드 ID(대화방 유형 전용)입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>lastChatID</p></td>
 <td><p>bigint, null이 아님</p></td>
-<td><p>마지막으로 사용한 채팅 ID.</p></td>
+<td><p>마지막으로 사용된 채팅 ID입니다.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>핵심
+### <a name="keys"></a>키
 
 <table>
 <colgroup>
@@ -84,12 +84,12 @@ tblLastChatId에는 각 사용자에 대해 생성 된 마지막 채팅 ID (및 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;nodeID, lastChatID&gt;</p></td>
-<td><p>기본 키 (nodeID만 처리에 충분 합니다.)</p></td>
+<td><p>&lt;입니다, lastChatID&gt;</p></td>
+<td><p>기본 키(처리를 위해서는 nodeID만으로도 충분함)입니다.</p></td>
 </tr>
 <tr class="even">
-<td><p>nodeID</p></td>
-<td><p>NodeID 테이블에 조회를 포함 하는 외래 키입니다.</p></td>
+<td><p>입니다</p></td>
+<td><p>tblNode.nodeID 테이블에서 조회 기능이 있는 외래 키입니다.</p></td>
 </tr>
 </tbody>
 </table>

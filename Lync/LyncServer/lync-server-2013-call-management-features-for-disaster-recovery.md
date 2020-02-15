@@ -12,16 +12,16 @@ ms:contentKeyID: 49733871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c276c8dac153ebd2ba08c55d8444bcc746287ffc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4126f35850aeae6bd2d0bbd8f678e9f082a13355
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742998"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028969"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41742998"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-21_
+_**마지막으로 수정 된 항목:** 2012-09-21_
 
 다음 항목에는 Lync Server의 통화 관리 기능에 대 한 고가용성 및 재해 복구 기능에 대 한 정보가 포함 되어 있습니다.
 
@@ -43,7 +43,7 @@ _**마지막으로 수정한 주제:** 2012-09-21_
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [재해 시 Lync Server 2013에서 응답 그룹 관리](lync-server-2013-managing-response-groups-during-a-disaster.md)
+  - [재해 발생 시 Lync Server 2013의 응답 그룹 관리](lync-server-2013-managing-response-groups-during-a-disaster.md)
 
   - [Lync Server 2013에서 재해 복구 중 통화 대기 관리](lync-server-2013-manage-call-park-during-disaster-recovery.md)
 

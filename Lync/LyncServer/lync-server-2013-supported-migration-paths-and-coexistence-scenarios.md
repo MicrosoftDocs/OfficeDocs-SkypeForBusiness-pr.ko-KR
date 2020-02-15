@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 지원되는 마이그레이션 경로 및 동시 사용 시나리오'
+title: 'Lync Server 2013: 지원 되는 마이그레이션 경로 및 동시 사용 시나리오'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184182
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71f298db233a76f40538fe2372d4a23f2dc7de62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 72df2bc5dc871d4eb86ea5f3a8153e7693e6f695
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731698"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029799"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013의 지원되는 마이그레이션 경로 및 동시 사용 시나리오
+# <a name="supported-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013의 지원 되는 마이그레이션 경로 및 동시 사용 시나리오
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41731698"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-04-30_
+_**마지막으로 수정 된 항목:** 2012-04-30_
 
-Lync Server 2013는 이전 배포의 특정 클라이언트 및 서버 구성 요소와 함께 공존 하는 것을 포함 하 여 Microsoft Lync Server 2010 및 Microsoft Office Communications Server 2007 R2의 마이그레이션을 지원 합니다.
+Lync Server 2013는 이전 배포의 특정 클라이언트 및 서버 구성 요소와 함께 사용 하는 Microsoft Lync Server 2010 및 Microsoft Office Communications Server 2007 r 2의 마이그레이션을 지원 합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013의 지원되는 서버 마이그레이션 경로 및 동시 사용 시나리오](lync-server-2013-supported-server-migration-paths-and-coexistence-scenarios.md)
+  - [Lync Server 2013의 지원 되는 서버 마이그레이션 경로 및 동시 사용 시나리오](lync-server-2013-supported-server-migration-paths-and-coexistence-scenarios.md)
 
-  - [Lync Server 2013의 이전 배포에서 지원되는 클라이언트](lync-server-2013-supported-clients-from-previous-deployments.md)
+  - [Lync Server 2013의 이전 배포에서 지원 되는 클라이언트](lync-server-2013-supported-clients-from-previous-deployments.md)
 
 </div>
 

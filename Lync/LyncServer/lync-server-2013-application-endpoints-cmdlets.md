@@ -12,16 +12,16 @@ ms:contentKeyID: 48184812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 455f6c7a8be662b2aeac39929ba6a4263f9f244b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53c68b2ad88140aadd7e30beb46bb357c83b93c0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737758"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028999"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41737758"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-20_
+_**마지막으로 수정 된 항목:** 2012-06-20_
 
-응용 프로그램 끝점은 Active Directory 도메인 서비스 내의 연락처 개체입니다. Lync Server 관리 셸에서 cmdlet을 사용 하 여 Microsoft Lync Server 2013에서 이러한 연락처를 관리할 수 있습니다.
+응용 프로그램 끝점은 Active Directory 도메인 서비스 내의 대화 상대 개체입니다. Lync Server 관리 셸에서 cmdlet을 사용 하 여 Microsoft Lync Server 2013에 대 한 이러한 연락처를 관리할 수 있습니다.
 
 <div>
 
 ## <a name="application-endpoints-cmdlets"></a>응용 프로그램 끝점 Cmdlet
 
-다음 cmdlet을 사용 하 여 응용 프로그램 끝점을 관리 합니다.
+다음 cmdlet를 사용하여 응용 프로그램 끝점을 관리합니다.
 
 **응용 프로그램 끝점**
 
   - <span></span>  
-    [Get-CsApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398655(v=OCS.15))
+    [Get-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398655(v=OCS.15))
 
   - <span></span>  
-    [이동-CsApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398188(v=OCS.15))
+    [CsApplicationEndpoint 이동](https://technet.microsoft.com/library/Gg398188(v=OCS.15))
 
 </div>
 

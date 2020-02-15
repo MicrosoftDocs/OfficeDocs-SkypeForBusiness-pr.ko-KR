@@ -12,16 +12,16 @@ ms:contentKeyID: 48184515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b0e383791eafbe017e5163156ba53cdad581cb0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 399d4e794b45f549aed86838463091db437b286f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731498"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027459"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731498"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-12_
+_**마지막으로 수정 된 항목:** 2012-09-12_
 
 tblConfig에는 일부 영구 채팅 서버에서 지원 되지 않는 구성이 한 행에 포함 되어 있습니다.
 
-### <a name="columns"></a>열
+### <a name="columns"></a>단
 
 <table>
 <colgroup>
@@ -50,25 +50,25 @@ tblConfig에는 일부 영구 채팅 서버에서 지원 되지 않는 구성이
 <thead>
 <tr class="header">
 <th>열</th>
-<th>유형</th>
+<th>형식</th>
 <th>설명</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>configLabel</p></td>
-<td><p>nvarchar (255), null 아님</p></td>
+<td><p>nvarchar(255), null이 아님</p></td>
 <td><p>풀 &quot;을 포함 합니다.&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p>configContent</p></td>
-<td><p>nvarchar (max)</p></td>
-<td><p>구성 콘텐츠.</p></td>
+<td><p>nvarchar(max)</p></td>
+<td><p>구성 콘텐츠입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>configPoolID</p></td>
-<td><p>GUID (null 아님)</p></td>
-<td><p>데이터베이스 인스턴스의 고유 ID입니다.</p></td>
+<td><p>GUID, null이 아님</p></td>
+<td><p>데이터베이스 인스턴스의 고유한 ID입니다.</p></td>
 </tr>
 </tbody>
 </table>

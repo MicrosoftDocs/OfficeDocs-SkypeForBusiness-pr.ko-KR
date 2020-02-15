@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 사용자별 현재 상태 정책 지정'
+title: 'Lync Server 2013: 사용자별 현재 상태 정책 할당'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185955
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ec15b826614afcca970989b6436d3ad94d7941f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 618ab1b18f92d19f65084d321b71219cc0fafb06
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722838"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030031"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assigning-per-user-presence-policies-in-lync-server-2013"></a>Lync Server 2013에서 사용자 단위 현재 상태 정책 지정
+# <a name="assigning-per-user-presence-policies-in-lync-server-2013"></a>Lync Server 2013에서 사용자별 현재 상태 정책 할당
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41722838"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-11_
+_**마지막으로 수정 된 항목:** 2012-10-11_
 
-현재 상태 정책은 현재 상태에 영향을 주는 제한 및 제한 집합입니다. 다음 표에서는 Lync Server 2013에서 사용할 수 있는 현재 상태 정책 설정에 대해 설명 합니다.
+현재 상태 정책은 현재 상태에 영향을 미치는 제한 집합입니다. 다음 표에서는 Lync Server 2013에서 사용할 수 있는 현재 상태 정책 설정에 대해 설명 합니다.
 
 ### <a name="presence-policy-settings"></a>현재 상태 정책 설정
 
@@ -61,13 +61,13 @@ _**마지막으로 수정한 주제:** 2012-10-11_
 <tbody>
 <tr class="odd">
 <td><p>CategorySubscriptions</p></td>
-<td><p>최대 구독자 범주 구독 수</p></td>
-<td><p>구독자 범주 구독 수를 제한 합니다. 예를 들어 Communicator에서 사용자의 현재 상태를 구독할 때 각 연락처 카드, 일정 데이터, 메모, 서비스 및 상태 범주에 대 한 범주 구독을 가져옵니다.</p>
-<p>0으로 설정 하면 사용자 또는 연락처 개체가 다른 사람에 의해 구독 될 수 없음을 의미 합니다.</p>
+<td><p>구독자 범주의 최대 구독 수</p></td>
+<td><p>구독자의 범주 구독 수를 제한합니다. 예를 들어 Communicator가 사용자의 현재 상태를 구독하면 대화 상대 카드, 일정 데이터, 메모, 서비스 및 상태 범주 각각에 대한 범주 구독을 가져오게 됩니다.</p>
+<p>설정이 0인 경우 다른 사용자가 사용자나 대화 상대 개체의 상태를 구독할 수 없습니다.</p>
 <div>
 
 > [!NOTE]  
-> 이 설정은 높은 번호로 설정 했 고 평균 사용자가 자신의 현재 상태를 구독 하는 사용자 수가 많은 경우 성능에 큰 영향을 미칠 수 있습니다.
+> 이 설정에 지정된 숫자가 높을 경우 성능이 심각하게 저하될 수 있으며 해당 사용자의 현재 상태를 구독하는 사용자가 많아집니다.
 
 
 </div></td>
@@ -76,9 +76,9 @@ _**마지막으로 수정한 주제:** 2012-10-11_
 </tr>
 <tr class="even">
 <td><p>PromptedSubscribers</p></td>
-<td><p>대기 중인 현재 상태 구독 알림의 최대 수</p></td>
-<td><p>메시지를 입력 하 여 구독자 테이블의 항목 수를 제한 합니다. 이 설정은 지정 된 사용자에 대해 대기 시킬 수 있는 최대 메시지 수를 결정 합니다. 예를 들어 사용자 A가 사용자 B의 현재 상태를 구독 하는 경우 사용자 B가 사용자 B에 게 구독 하 라는 메시지가 표시 되 고 사용자 B의 질문 구독자 테이블에 승인 메시지가 만들어집니다. 사용자 B가 구독을 수락 하거나 승인 하면 사용자 B의 질문 구독자 테이블에서 승인 메시지가 제거 됩니다.</p>
-<p>0으로 설정 하면 다른 사용자가 자신의 현재 상태를 구독할 때 메시지가 표시 되지 않는다는 의미입니다.</p></td>
+<td><p>현재 상태 구독에 대해 대기할 수 있는 최대 알림 수</p></td>
+<td><p>프롬프트 구독자 테이블의 항목 수를 제한합니다. 이 설정으로, 해당 사용자에 대해 대기할 수 있는 최대 프롬프트 수가 결정됩니다. 예를 들어 사용자 A가 사용자 B의 현재 상태를 구독할 때 사용자 B는 사용자 A가 이제 사용자 B의 현재 상태를 구독한다는 프롬프트를 받게 되며 사용자 B의 프롬프트 구독자 테이블에서 승인 프롬프트가 만들어집니다. 사용자 B가 구독을 수락하거나 승인하고 나면 사용자 B의 프롬프트 구독자 테이블에서 승인 프롬프트가 제거됩니다.</p>
+<p>설정이 0인 경우 다른 사람이 사용자의 현재 상태를 구독할 때 해당 사용자에게 메시지가 표시되지 않습니다.</p></td>
 <td><p>정수 또는 토큰</p></td>
 <td><p>0-500</p></td>
 </tr>
@@ -86,7 +86,7 @@ _**마지막으로 수정한 주제:** 2012-10-11_
 </table>
 
 
-기본적으로 **기본 정책** 및 **서비스:** 사용자가 Lync Server를 배포할 때 중간 현재 상태 정책이 설치 됩니다. 다음 표에서는 두 현재 상태 정책의 특정 설정에 대해 설명 합니다.
+기본적으로 **기본 정책** 및 **서비스: 중간** 거점 정책은 Lync Server를 배포할 때 설치 됩니다. 다음 표에는 두 개의 현재 상태 정책에 대한 특정 설정이 나와 있습니다.
 
 ### <a name="presence-policies"></a>현재 상태 정책
 
@@ -108,15 +108,15 @@ _**마지막으로 수정한 주제:** 2012-10-11_
 <tbody>
 <tr class="odd">
 <td><p>기본 정책</p></td>
-<td><p>일반 사용자를 위한 정책. 이는 기본 현재 상태 정책입니다.</p></td>
+<td><p>일반 사용자를 위한 정책이며, 기본 현재 상태 정책입니다.</p></td>
 <td><p>1000</p></td>
 <td><p>200</p></td>
 </tr>
 <tr class="even">
 <td><p>서비스: 보통</p></td>
-<td><p>더 많은 사용자가 개체의 현재 상태를 구독 하도록 요구 하는 응용 프로그램에 대 한 정책입니다.</p></td>
+<td><p>기타 사용자가 개체의 현재 상태를 구독해야 하는 응용 프로그램을 위한 정책입니다.</p></td>
 <td><p>1000</p></td>
-<td><p>0</p></td>
+<td><p>개</p></td>
 </tr>
 </tbody>
 </table>

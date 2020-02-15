@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server Management Shell 구성 cmdlet'
+title: 'Lync Server 2013: Lync Server 관리 셸 구성 cmdlet'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce76166c44f7b35781c6181ac37191bad784fa74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a6cd1ea107dee9a32d695bf51e7b6998542fc76
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742208"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 lync Server 관리 셸 구성 cmdlet
+# <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a>Lync server 2013의 lync Server 관리 셸 구성 cmdlet
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41742208"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-03-21_
+_**마지막으로 수정 된 항목:** 2012-03-21_
 
-Lync Server 관리 셸은 환경에서 Microsoft Lync Server 2010을 미리 로드 하는 cmdlet이 포함 된 Windows PowerShell 명령 창의 구현입니다. 이러한 cmdlet을 사용 하 여 해당 환경을 사용자 지정할 수 있습니다.
+Lync Server 관리 셸은 환경에서 Microsoft Lync Server 2010을 미리 로드 하는 작업을 관리 하는 데 사용 되는 cmdlet이 포함 된 Windows PowerShell 명령 창의 구현입니다. 이러한 cmdlet를 통해 해당 환경을 사용자 지정할 수 있습니다.
 
 <div>
 
-## <a name="lync-server-management-shell-configuration-cmdlets"></a>Lync Server Management Shell 구성 Cmdlet
+## <a name="lync-server-management-shell-configuration-cmdlets"></a>Lync Server 관리 셸 구성 Cmdlet
 
 이러한 cmdlet을 사용 하 여 Lync Server 관리 셸의 특정 사용자 지정 속성을 설정할 수 있습니다.
 
   - <span></span>  
-    [Get-CsUICulture](https://technet.microsoft.com/en-us/library/Gg412900(v=OCS.15))
+    [Get-csuiculture](https://technet.microsoft.com/library/Gg412900(v=OCS.15))
 
   - <span></span>  
-    [Set-CsUICulture](https://technet.microsoft.com/en-us/library/Gg398354(v=OCS.15))
+    [Get-csuiculture](https://technet.microsoft.com/library/Gg398354(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg412849(v=OCS.15))
+    [Get-CsManagementConnection](https://technet.microsoft.com/library/Gg412849(v=OCS.15))
 
   - <span></span>  
-    [-CsManagementConnection 제거](https://technet.microsoft.com/en-us/library/Gg425803(v=OCS.15))
+    [제거-CsManagementConnection](https://technet.microsoft.com/library/Gg425803(v=OCS.15))
 
   - <span></span>  
-    [Set-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg413045(v=OCS.15))
+    [설정-CsManagementConnection](https://technet.microsoft.com/library/Gg413045(v=OCS.15))
 
 </div>
 

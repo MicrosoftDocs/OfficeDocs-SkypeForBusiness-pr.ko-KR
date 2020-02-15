@@ -12,16 +12,16 @@ ms:contentKeyID: 48183310
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d85fc3dd6575433b605d6ce9100aacfde56782e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 86ffecf185ab0c32c45e910d1821a33cbcabaea3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764068"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764068"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-28_
+_**마지막으로 수정 된 항목:** 2012-06-28_
 
-tblSiopWhiteList는 노드와 연결할 수 있는 등록 된 추가 기능 목록입니다.
+tblSiopWhiteList는 노드와 연결할 수 있는 등록된 추가 기능 목록입니다.
 
-### <a name="columns"></a>열
+### <a name="columns"></a>단
 
 <table>
 <colgroup>
@@ -50,24 +50,24 @@ tblSiopWhiteList는 노드와 연결할 수 있는 등록 된 추가 기능 목�
 <thead>
 <tr class="header">
 <th>열</th>
-<th>유형</th>
+<th>형식</th>
 <th>설명</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>siopID</p></td>
-<td><p>GUID (null 아님)</p></td>
+<td><p>Tblsiopwhitelist.siopid</p></td>
+<td><p>GUID, null이 아님</p></td>
 <td><p>추가 기능의 GUID입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>siopName</p></td>
-<td><p>nvarchar (50), null 아님</p></td>
-<td><p>Display-추가 기능의 이름입니다.</p></td>
+<td><p>nvarchar(50), null이 아님</p></td>
+<td><p>추가 기능의 표시 이름입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>siopUrl</p></td>
-<td><p>nvarchar (255), null 아님</p></td>
+<td><p>nvarchar(255), null이 아님</p></td>
 <td><p>추가 기능의 URL입니다.</p></td>
 </tr>
 </tbody>
@@ -89,7 +89,7 @@ tblSiopWhiteList는 노드와 연결할 수 있는 등록 된 추가 기능 목�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>siopID</p></td>
+<td><p>Tblsiopwhitelist.siopid</p></td>
 <td><p>기본 키입니다.</p></td>
 </tr>
 </tbody>

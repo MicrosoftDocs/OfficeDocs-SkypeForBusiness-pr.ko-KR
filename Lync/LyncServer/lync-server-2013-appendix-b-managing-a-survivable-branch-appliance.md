@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 부록 B: SBA(Survivable Branch Appliance) 관리'
+title: 'Lync Server 2013: 부록 B: Sba (survivable Branch 어플라이언스 관리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183773
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b16d4c55197785a6df12ad2031dbd2e624501ebd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b98dbf9fa99c5dcfdea3b9b1517c533340329f24
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737768"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029009"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="appendix-b-managing-a-survivable-branch-appliance-in-lync-server-2013"></a>부록 B: Lync Server 2013에서 SBA(Survivable Branch Appliance) 관리
+# <a name="appendix-b-managing-a-survivable-branch-appliance-in-lync-server-2013"></a>부록 B: Lync Server 2013에서 Sba (survivable 분기 기기 관리
 
 </div>
 
@@ -35,93 +35,93 @@ ms.locfileid: "41737768"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-18_
+_**마지막으로 수정 된 항목:** 2012-10-18_
 
-이 항목에서는 Survivable Branch 기기를 관리 하는 절차에 대해 설명 합니다. 특히 Survivable Branch 기기를 바꾸거나 이름을 바꾸는 방법 및 Survivable 분기 기기가 연결 된 Lync Server 2013 프런트 엔드 풀을 변경 하는 방법을 설명 합니다.
+이 항목에서는 Sba (survivable 분기 어플라이언스를 관리 하는 절차에 대해 설명 합니다. 특히 Sba (survivable 분기 어플라이언스를 교체 하 고 이름을 바꾸는 방법 및 Sba (survivable 분기 기기가 연결 된 Lync Server 2013 프런트 엔드 풀을 변경 하는 방법을 설명 합니다.
 
 <div>
 
-## <a name="to-replace-a-survivable-branch-appliance"></a>Survivable Branch 기기를 바꾸려면
+## <a name="to-replace-a-survivable-branch-appliance"></a>SBA(Survivable Branch Appliance)를 대체하려면
 
-1.  Survivable Branch 기기에서 모든 Lync Server 2013 서비스를 중지 합니다. (Survivable Branch 기기 공급 업체 문서를 참조 하세요.)
+1.  Sba (survivable Branch 기기에서 모든 Lync Server 2013 서비스를 중지 합니다. 자세한 내용은 SBA(Survivable Branch Appliance) 공급업체 설명서를 참조하십시오.
 
-2.  권장 도메인에서 Survivable Branch 기기를 제거 합니다.
+2.  는 도메인에서 Sba (survivable Branch 기기를 제거 합니다.
 
-3.  Active Directory 도메인 서비스에서 Survivable Branch 기기 컴퓨터 개체를 삭제 하려면 다음 단계를 따르세요.
+3.  다음 단계를 수행 하 여 Active Directory 도메인 서비스에서 Sba (survivable Branch 기기 computer 개체를 삭제 합니다.
     
-      - 엔터프라이즈 관리자 그룹의 구성원으로 구성원 서버에 로그온 합니다.
+      - Enterprise Admins 그룹의 구성원으로 구성원 서버에 로그온합니다.
     
-      - **시작**을 클릭 하 고 **관리 도구**를 클릭 한 다음 **Active Directory 사용자 및 컴퓨터**를 클릭 합니다.
+      - **시작**, **관리 도구**를 차례로 클릭한 다음 **Active Directory 사용자 및 컴퓨터**를 클릭합니다.
     
-      - Survivable Branch 기기 개체를 마우스 오른쪽 단추로 클릭 하 고 **삭제**를 클릭 합니다.
+      - Sba (survivable Branch 기기 개체를 마우스 오른쪽 단추로 클릭 하 고 **삭제**를 클릭 합니다.
 
-4.  Survivable Branch 기기 컴퓨터 개체를 다시 추가 합니다. ( [Lync Server 2013에서 Active Directory에 Survivable Branch 기기 추가를](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)참조 하세요.)
+4.  Sba (survivable Branch 기기 컴퓨터 개체를 다시 추가 합니다. ( [Lync Server 2013에서 Active Directory에 Sba (survivable 분기 어플라이언스 추가](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)를 참조 하세요.)
 
 5.  Active Directory 복제가 수행 될 때까지 기다립니다.
 
-6.  Lync Server Management Shell을 열고 **Enable-CSTopology**를 입력 합니다.
+6.  Lync Server 관리 셸을 열고 **Enable-enable-cstopology**을 입력 합니다.
 
-7.  새 Survivable Branch 기기를 네트워크에 연결 하 고 [Lync server 2013를 사용 하 여 Survivable Branch 기기 또는 서버 배포](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) 의 단계를 따르고, [lync server 2013-지사 사이트 작업으로 Survivable Branch 기기 또는 서버를 배포](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)합니다.
-
-</div>
-
-<div>
-
-## <a name="to-rename-a-survivable-branch-appliance"></a>Survivable Branch 기기 이름 바꾸기
-
-1.  사용자를 중앙 사이트로 이동 합니다. 자세한 내용은 [Lync Server 2013에서 다른 풀로 사용자 이동을](lync-server-2013-move-users-to-another-pool.md)참조 하세요.
-
-2.  Survivable Branch 기기에서 모든 Lync Server 2013 서비스를 중지 합니다. (Survivable Branch 기기 공급 업체 문서를 참조 하세요.)
-
-3.  다음 단계에 따라 토폴로지에서 Survivable Branch 기기를 제거 합니다.
-    
-      - **시작**을 클릭 하 고 **모든 프로그램**, **Microsoft Lync server**를 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.
-    
-      - 콘솔 트리에서 **지점 사이트**를 확장 하 고 Survivable Branch 기기를 클릭 한 다음 작업 창에서 **삭제** 를 클릭 합니다.
-
-4.  도메인에서 Survivable Branch 기기를 제거 합니다.
-
-5.  Active Directory에서 Survivable Branch 기기 컴퓨터 개체를 삭제 하려면 다음 단계를 따르세요.
-    
-      - 엔터프라이즈 관리자 그룹의 구성원으로 도메인 컨트롤러에 로그온 합니다.
-    
-      - **시작**을 클릭 하 고 **관리 도구**를 클릭 한 다음 **Active Directory 사용자 및 컴퓨터**를 클릭 합니다.
-    
-      - Survivable Branch 기기 개체를 마우스 오른쪽 단추로 클릭 하 고 **삭제**를 클릭 합니다.
-
-6.  Survivable Branch 기기를 출하시 기본값으로 복원 합니다. (Survivable Branch 기기 공급 업체 문서를 참조 하세요.)
-
-7.  [Lync server 2013를 사용 하 여 Survivable Branch 기기 또는 서버 배포](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) 의 단계를 따르고 [lync server 2013-지사 사이트 작업을 사용 하 여 Survivable Branch 기기 또는 서버를 배포](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)합니다.
-
-8.  이름을 바꾼 Survivable Branch 기기로 사용자를 이동 합니다. 자세한 내용은 [Lync Server 2013에서 다른 풀로 사용자 이동을](lync-server-2013-move-users-to-another-pool.md)참조 하세요.
+7.  새 Sba (survivable 분기 기기를 네트워크에 연결 하 고, [Sba (survivable Branch 기기 또는 server For Lync server 2013-중앙 사이트 작업](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) 을 배포 하 고 [, sba (survivable Branch 기기 또는 서버를 lync server 2013-Branch site task를 사용 하 여 배포](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)의 단계를 수행 합니다.
 
 </div>
 
 <div>
 
-## <a name="to-change-the-lync-server-front-end-pool-that-the-survivable-branch-appliance-is-associated-with"></a>Survivable 분기 기기가 연결 된 Lync Server 프런트 엔드 풀을 변경 하려면
+## <a name="to-rename-a-survivable-branch-appliance"></a>SBA(Survivable Branch Appliance)의 이름을 바꾸려면
 
-1.  Survivable Branch 기기에서 중앙 사이트의 Lync Server 프런트 엔드 풀로 사용자를 이동 합니다. 자세한 내용은 [Lync Server 2013에서 다른 풀로 사용자 이동을](lync-server-2013-move-users-to-another-pool.md)참조 하세요.
+1.  사용자를 중앙 사이트로 이동합니다. 자세한 내용은 [Lync Server 2013의 다른 풀로 사용자 이동](lync-server-2013-move-users-to-another-pool.md)을 참조 하십시오.
 
-2.  Survivable Branch 기기에서 모든 Lync Server 서비스를 중지 합니다. (Survivable Branch 기기 공급 업체 문서를 참조 하세요.)
+2.  Sba (survivable Branch 기기에서 모든 Lync Server 2013 서비스를 중지 합니다. 자세한 내용은 SBA(Survivable Branch Appliance) 공급업체 설명서를 참조하십시오.
 
-3.  다음 단계에 따라 Survivable 분기 기기가 연결 된 Lync Server 프런트 엔드 풀을 업데이트 합니다.
+3.  다음 단계를 수행 하 여 토폴로지에서 Sba (survivable Branch 기기를 제거 합니다.
     
-      - **시작**을 클릭 하 고 **모든 프로그램**, **Microsoft Lync server**를 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.
+      - **시작**, **모든 프로그램**, **Microsoft Lync Server**를 차례로 클릭한 다음 **Lync Server 토폴로지 작성기**를 클릭합니다.
     
-      - **지점 사이트**를 확장 합니다.
-    
-      - 수정할 Survivable Branch 기기 개체를 마우스 오른쪽 단추로 클릭 하 고 **속성 편집** 을 클릭 합니다.
-    
-      - 회복성에서 Survivable Branch 기기를 연결할 새 프런트 엔드 풀을 선택 하 고 **다음**을 클릭 합니다.
-    
-      - 콘솔 트리에서 새 Survivable Branch 기기를 마우스 오른쪽 단추로 클릭 하 고 **토폴로지**를 클릭 한 다음 **게시**를 클릭 합니다.
+      - 콘솔 트리에서 **분기 사이트**를 확장 하 고 Sba (survivable Branch 기기를 클릭 한 다음 작업 창에서 **삭제** 를 클릭 합니다.
 
-4.  Survivable Branch 기기에서 모든 Lync Server 서비스를 다시 시작 합니다.
+4.  도메인에서 Sba (survivable Branch 기기를 제거 합니다.
 
-5.  Survivable Branch 기기를 테스트 합니다. 자세한 내용은 [Lync Server 2013에서 Survivable Branch 기기 또는 서버의 가정용 사용자](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)를 참조 하세요.
+5.  다음 단계를 수행 하 여 Active Directory에서 Sba (survivable Branch 기기 computer 개체를 삭제 합니다.
+    
+      - Enterprise Admins 그룹의 구성원으로 도메인 컨트롤러에 로그온합니다.
+    
+      - **시작**, **관리 도구**, **Active Directory 사용자 및 컴퓨터**를 차례로 클릭합니다.
+    
+      - Sba (survivable Branch 기기 개체를 마우스 오른쪽 단추로 클릭 하 고 **삭제**를 클릭 합니다.
 
-6.  중앙 사이트의 Lync Server 프런트 엔드 풀에서 Survivable Branch 기기로 사용자를 이동 합니다.
+6.  Sba (survivable 분기 어플라이언스를 출고시 기본값으로 복원 합니다. 자세한 내용은 SBA(Survivable Branch Appliance) 공급업체 설명서를 참조하십시오.
+
+7.  [Sba (survivable Branch 기기 또는 Lync server 2013을 사용](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) 하는 서버를 배포 하는 단계와 중앙 사이트 작업을 배포 하 고 [sba (survivable Branch 기기 또는 서버를 lync server 2013-Branch site task를 사용](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)하 여 배치 합니다.
+
+8.  이름이 바뀐 Sba (survivable Branch 기기로 사용자를 이동 합니다. 자세한 내용은 [Lync Server 2013의 다른 풀로 사용자 이동](lync-server-2013-move-users-to-another-pool.md)을 참조 하십시오.
+
+</div>
+
+<div>
+
+## <a name="to-change-the-lync-server-front-end-pool-that-the-survivable-branch-appliance-is-associated-with"></a>SBA(Survivable Branch Appliance)가 연결된 Lync Server 프런트 엔드 풀을 변경하려면
+
+1.  Sba (survivable 분기 기기의 사용자를 중앙 사이트의 Lync Server 프런트 엔드 풀로 이동 합니다. 자세한 내용은 [Lync Server 2013의 다른 풀로 사용자 이동](lync-server-2013-move-users-to-another-pool.md)을 참조 하십시오.
+
+2.  Sba (survivable Branch 기기에서 모든 Lync Server 서비스를 중지 합니다. (Sba (survivable Branch 어플라이언스 공급 업체 설명서 참조).
+
+3.  다음 단계를 수행 하 여 Sba (survivable 분기 기기가 연결 된 Lync Server 프런트 엔드 풀을 업데이트 합니다.
+    
+      - **시작**, **모든 프로그램**, **Microsoft Lync Server**를 차례로 클릭한 다음 **Lync Server 토폴로지 작성기**를 클릭합니다.
+    
+      - **분기 사이트**를 확장합니다.
+    
+      - 수정할 Sba (survivable Branch 기기 개체를 마우스 오른쪽 단추로 클릭 하 고 **속성 편집** 을 클릭 합니다.
+    
+      - 복구에서 Sba (survivable 분기 기기가 연결 될 새 프런트 엔드 풀을 선택 하 고 **다음**을 클릭 합니다.
+    
+      - 콘솔 트리에서 새 Sba (survivable 분기 기기를 마우스 오른쪽 단추로 클릭 하 고 **토폴로지**를 클릭 한 다음 **게시**를 클릭 합니다.
+
+4.  Sba (survivable Branch 기기에서 모든 Lync Server 서비스를 다시 시작 합니다.
+
+5.  Sba (survivable Branch 기기를 테스트 합니다. 자세한 내용은 [Home users in a Sba (survivable Branch 어플라이언스 Or Server in a Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)을 참조 하십시오.
+
+6.  중앙 사이트의 Lync Server 프런트 엔드 풀에서 Sba (survivable Branch 기기로 사용자를 이동 합니다.
 
 </div>
 

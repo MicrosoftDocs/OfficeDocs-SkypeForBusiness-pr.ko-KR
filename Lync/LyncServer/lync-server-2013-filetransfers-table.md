@@ -12,16 +12,16 @@ ms:contentKeyID: 48184118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de8a3e69c670c273bcdd91ac5895c0b1f0b15d80
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9aedca2ae840947aef4ccc6ec7bff4ba825090a0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743367"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028489"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41743367"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-28_
+_**마지막으로 수정 된 항목:** 2012-09-28_
 
 각 레코드는 하나의 파일 전송 세션을 나타냅니다.
 
@@ -52,57 +52,57 @@ _**마지막으로 수정한 주제:** 2012-09-28_
 <th>열</th>
 <th>데이터 형식</th>
 <th>키/인덱스</th>
-<th>세부적인</th>
+<th>세부 정보</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
-<td><p>dmtf</p></td>
-<td><p>기본, 외래</p></td>
-<td><p>세션 요청 시간입니다. 세션을 고유 하 게 식별 하는 <strong>Sessionidseq</strong> 와 함께 사용 됩니다. 자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 대화 상자 표</a> 를 참조 하세요.</p></td>
+<td><p>datetime</p></td>
+<td><p>Primary, Foreign</p></td>
+<td><p>세션 요청 시간입니다. <strong>SessionIdSeq</strong>와 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>기본, 외래</p></td>
-<td><p>세션을 식별 하는 ID 번호입니다. 세션을 고유 하 게 식별 하는 <strong>Sessionidtime</strong> 과 함께 사용 됩니다. 자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 대화 상자 표</a> 를 참조 하세요.</p></td>
+<td><p>Primary, Foreign</p></td>
+<td><p>세션을 식별하기 위한 ID 번호입니다. <strong>SessionIdTime</strong>과 함께 세션을 고유하게 식별하기 위해 사용됩니다. 자세한 내용은 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013의 Dialogs 표</a> 를 참조 하십시오.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>파일 이름</strong></p></td>
+<td><p><strong>File Name</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>파일의 이름입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FileIdentity</strong></p></td>
-<td><p>uniqueidentifier</p></td>
+<td><p>고유</p></td>
 <td></td>
-<td><p>동일한 파일 이름을 포함 하는 파일 전송을 구분 하는 고유 식별자입니다.</p></td>
+<td><p>동일한 파일 이름을 포함하는 각 전송 작업을 구분하기 위한 고유 식별자입니다.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>쿠키란</strong></p></td>
+<td><p><strong>쿠키나</strong></p></td>
 <td><p>name</p></td>
-<td><p>주요한</p></td>
-<td><p>모든 추가 작업 메시지를이 항목에 연결 된 것으로 식별 하는 데 사용 됩니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>이 항목과 연결 중인 모든 후속 작업 메시지를 식별하기 위해 사용됩니다.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>사항</strong></p></td>
-<td><p>다소</p></td>
+<td><p><strong>수락</strong></p></td>
+<td><p>비트만</p></td>
 <td></td>
-<td><p>TRUE 또는 NULL 일 수 있습니다. TRUE 인 경우 거부 및 취소는 NULL입니다.</p></td>
+<td><p>TRUE 또는 NULL일 수 있습니다. TRUE인 경우 Reject 및 Cancel이 NULL이 됩니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>거부</strong></p></td>
-<td><p>다소</p></td>
+<td><p>비트만</p></td>
 <td></td>
-<td><p>TRUE 또는 NULL 일 수 있습니다. TRUE 이면 Accept와 Cancel은 NULL입니다.</p></td>
+<td><p>TRUE 또는 NULL일 수 있습니다. TRUE인 경우 Accept 및 Cancel이 NULL이 됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>취소</strong></p></td>
-<td><p>다소</p></td>
+<td><p>비트만</p></td>
 <td></td>
-<td><p>TRUE 또는 NULL 일 수 있습니다. TRUE 이면 Accept 및 Reject는 NULL입니다.</p></td>
+<td><p>TRUE 또는 NULL일 수 있습니다. TRUE인 경우 Accept 및 Reject가 NULL이 됩니다.</p></td>
 </tr>
 </tbody>
 </table>

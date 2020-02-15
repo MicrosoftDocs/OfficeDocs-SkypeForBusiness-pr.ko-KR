@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 사용자별 정책 지정'
+title: 'Lync Server 2013: 사용자별 정책 할당'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184971
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b80446d9117a37b86c386132aa80439cb568a98
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2e9b5780b17ad2ed7a057979f77e504fb1fca0db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734038"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030041"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assigning-per-user-policies-in-lync-server-2013"></a>Lync Server 2013에서 사용자별 정책 지정
+# <a name="assigning-per-user-policies-in-lync-server-2013"></a>Lync Server 2013에서 사용자별 정책 할당
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41734038"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-14_
+_**마지막으로 수정 된 항목:** 2012-10-14_
 
-사용자 또는 사용자 그룹에 특정 정책을 할당 하 여 전역 정책과 같은 다른 사용자에 게 할당 된 정책에 정의 된 설정에서 벗어난 특정 설정을 지정할 수 있습니다. 이러한 정책은 사용자 단위 정책 이라고 합니다.
+사용자나 사용자 그룹에 특정 정책을 지정하여 전역 정책 등 다른 사용자에게 지정된 정책에서 정의된 설정에서 파생된 특정 설정을 할당할 수 있으며, 이러한 정책은 사용자별 정책이라고 합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에서 사용자 단위 회의 정책 할당](lync-server-2013-assign-a-per-user-conferencing-policy.md)
+  - [Lync Server 2013에서 사용자별 회의 정책 할당](lync-server-2013-assign-a-per-user-conferencing-policy.md)
 
-  - [Lync Server 2013에서 사용자 단위 클라이언트 버전 정책 할당](lync-server-2013-assign-a-per-user-client-version-policy.md)
+  - [Lync Server 2013에서 사용자별 클라이언트 버전 정책 할당](lync-server-2013-assign-a-per-user-client-version-policy.md)
 
-  - [Lync Server 2013에서 사용자 단위 PIN 정책 할당](lync-server-2013-assign-a-per-user-pin-policy.md)
+  - [Lync Server 2013에서 사용자별 PIN 정책 할당](lync-server-2013-assign-a-per-user-pin-policy.md)
 
-  - [Lync Server 2013에서 Lync 사용이 가능한 사용자에게 외부 사용자 액세스 정책 할당](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
+  - [Lync Server 2013의 Lync 사용 가능 사용자에 게 외부 사용자 액세스 정책 할당](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
 
-  - [Lync Server 2013에서 사용자 단위 보관 정책 할당](lync-server-2013-assign-a-per-user-archiving-policy.md)
+  - [Lync Server 2013에서 사용자별 보관 정책 할당](lync-server-2013-assign-a-per-user-archiving-policy.md)
 
-  - [Lync Server 2013에서 사용자 단위 위치 정책 할당](lync-server-2013-assign-a-per-user-location-policy.md)
+  - [Lync Server 2013에서 사용자별 위치 정책 할당](lync-server-2013-assign-a-per-user-location-policy.md)
 
-  - [Lync Server 2013에서 사용자 단위 이동성 정책 할당](lync-server-2013-assign-a-per-user-mobility-policy.md)
+  - [Lync Server 2013에서 사용자별 모바일 정책 할당](lync-server-2013-assign-a-per-user-mobility-policy.md)
 
   - [Lync Server 2013에서 사용자별 영구 채팅 정책 할당](lync-server-2013-assign-a-per-user-persistent-chat-policy.md)
 
-  - [Lync Server 2013에서 사용자 단위 다이얼 플랜 정책 할당](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
+  - [Lync Server 2013에서 사용자별 다이얼 플랜 정책 할당](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
 
-  - [Lync Server 2013에서 사용자 단위 음성 정책 할당](lync-server-2013-assign-a-per-user-voice-policy.md)
+  - [Lync Server 2013에서 사용자별 음성 정책 할당](lync-server-2013-assign-a-per-user-voice-policy.md)
 
 </div>
 

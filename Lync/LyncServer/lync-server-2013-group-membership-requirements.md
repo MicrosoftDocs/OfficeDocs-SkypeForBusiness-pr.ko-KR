@@ -12,20 +12,20 @@ ms:contentKeyID: 48183239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44ad8c7f6eab93f3bdcd7b73d4ae05bd3b2e25ad
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2944b6f3feea6bfc4cadd3566abbdfe4918d9688
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743348"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030391"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="group-membership-requirements-for-lync-server-2013"></a>Lync Server 2013에 대한 그룹 구성원 자격 요구 사항
+# <a name="group-membership-requirements-for-lync-server-2013"></a>Lync Server 2013에 대 한 그룹 구성원 자격 요구 사항
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743348"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-05_
+_**마지막으로 수정 된 항목:** 2012-10-05_
 
-다음 표에는 Lync Server 2013를 성공적으로 설치, 관리 및 문제 해결 하기 위해 사용자가 속해야 하는 그룹이 요약 되어 있습니다.
+다음 표에는 Lync Server 2013을 성공적으로 설치, 관리 및 문제 해결 하기 위해 사용자가 속해 있어야 하는 그룹이 요약 되어 있습니다.
 
 
 <table>
@@ -48,48 +48,48 @@ _**마지막으로 수정한 주제:** 2012-10-05_
 <thead>
 <tr class="header">
 <th>Lync Server 2013 실행 파일</th>
-<th>그룹 등록 필요</th>
+<th>필요한 그룹 구성원 자격</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Setup.exe – Lync</strong> Server 2013 관리 도구의 설치를 시작 하는 실행 파일입니다.</p></td>
-<td><p>실행 파일이 실행 되는 컴퓨터의 로컬 관리자 그룹의 구성원입니다. Active Directory 도메인 서비스의 정보를 읽을 수 있는 Domain Users group의 구성원입니다. 로컬 컴퓨터에 필요한 MSI 패키지의 자동 설치에는 프로그램 파일 디렉터리와 같은 보호 된 로컬 컴퓨터 리소스에 대 한 읽기 및 쓰기를 허용 하 고 보호 되는 권한이 필요 하기 때문에이 수준의 권한이 필요 합니다. 레지스트리 (예: 로컬 컴퓨터 하이브)</p>
+<td><p><strong>Setup.exe – Lync</strong> Server 2013 관리 도구 설치를 시작 하는 실행 파일입니다.</p></td>
+<td><p>실행 파일이 실행되는 컴퓨터에서 로컬 Administrators 그룹의 구성원. Active Directory 도메인 서비스에서 정보를 읽을 수 있도록 Domain Users 그룹의 구성원 이어야 합니다. 로컬 컴퓨터에서 필수 MSI 패키지를 자동으로 설치하려면 Program Files 디렉터리와 같은 보호된 로컬 컴퓨터 리소스와 Local Machine 하이브와 같은 보호된 레지스트리를 읽고 쓸 수 있는 권한이 필요하므로 이 사용 권한 수준이 필요합니다.</p>
 <div>
 
 > [!TIP]  
-> 또한 Domain Admins 그룹에서 구성원 자격을 부여 하지 않으려는 사용자 또는 그룹에 게 설치 권한을 위임할 수도 있습니다. 자세한 내용은 배포 설명서의 <A href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013에서 설정에 대 한 사용 권한 부여</A> 를 참조 하세요.
+> 또한 도메인 관리자 그룹의 구성원 자격을 부여하지 않으려는 사용자 또는 그룹에 설치 권한을 위임할 수 있습니다. 자세한 내용은 배포 설명서에서 <A href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013의 설치 권한 부여</A> 를 참조 하십시오.
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p><strong>Update.exe – setup.exe</strong> 에서 호출 하는 경우 서버 역할에 대 한 소프트웨어 구성 요소 배포를 담당 합니다.</p></td>
-<td><p>실행 파일이 실행 되는 컴퓨터의 로컬 관리자 그룹의 구성원입니다. AD DS에서 정보를 읽을 수 있는 Domain Users group의 구성원입니다. 로컬 컴퓨터에 필요한 MSI 패키지의 자동 설치에는 프로그램 파일 디렉터리와 같은 보호 된 로컬 컴퓨터 리소스에 대 한 읽기 및 쓰기를 허용 하 고 보호 되는 권한이 필요 하기 때문에이 수준의 권한이 필요 합니다. 레지스트리 (예: 로컬 컴퓨터 하이브) 중앙 관리 저장소를 읽으려면 RtcUniversalReadOnlyAdmins 그룹의 구성원 자격이 필요 합니다.</p>
+<td><p><strong>deploy.exe</strong> - setup.exe에 의해 호출되는 deploy.exe는 서버 역할에 대한 소프트웨어 구성 요소를 배포하는 작업을 담당합니다.</p></td>
+<td><p>실행 파일이 실행되는 컴퓨터에서 로컬 Administrators 그룹의 구성원. AD DS의 정보를 읽을 수 있는 도메인 사용자 그룹의 구성원. 로컬 컴퓨터에서 필수 MSI 패키지를 자동으로 설치하려면 Program Files 디렉터리와 같은 보호된 로컬 컴퓨터 리소스와 Local Machine 하이브와 같은 보호된 레지스트리를 읽고 쓸 수 있는 권한이 필요하므로 이 사용 권한 수준이 필요합니다. 중앙 관리 저장소를 읽으려면 RtcUniversalReadOnlyAdmins 그룹의 구성원 자격이 필요 합니다.</p>
 <div>
 
 > [!NOTE]  
-> Windows Vista 운영 체제 또는 Windows 7 운영 체제를 실행 하는 경우에는 UAC (사용자 계정 컨트롤)가 설치를 진행 하 라는 메시지가 표시 됩니다. 표준 사용자 계정으로 로그온 한 경우 소프트웨어를 설치할 수 있는 권한이 있는 계정에 대 한 메시지가 표시 되 면 자격 증명을 제공 하기 위해 로컬 관리자 그룹의 구성원 인 사용자가 필요 합니다.
+> Windows Vista 운영 체제 또는 Windows 7 운영 체제를 실행 하는 경우에는 UAC (사용자 계정 컨트롤)를 통해 설치를 계속 진행할 것인지 묻는 메시지가 표시 됩니다. 표준 사용자 계정으로 로그온한 경우 소프트웨어를 설치할 권한이 있는 계정이 필요하다는 메시지가 표시되면 로컬 Administrators 그룹 구성원이 자격 증명을 제공해야 합니다.
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Mage.exe – setup.exe</strong> 에서 호출 하는 경우 서버 역할의 배포 및 구성을 담당 합니다.</p></td>
-<td><p>실행 파일이 실행 되는 컴퓨터의 로컬 관리자 그룹의 구성원입니다. RTCUniversalServerAdmins 그룹의 구성원으로 서 부트스트래퍼를 실행 합니다. AD DS에서 정보를 읽을 수 있는 Domain Users group의 구성원입니다. 로컬 컴퓨터에 필요한 MSI 패키지의 자동 설치에는 프로그램 파일 디렉터리와 같은 보호 된 로컬 컴퓨터 리소스에 대 한 읽기 및 쓰기를 허용 하 고 보호 되는 권한이 필요 하기 때문에이 수준의 권한이 필요 합니다. 레지스트리 (예: 로컬 컴퓨터 하이브)</p></td>
+<td><p><strong>bootstrapper.exe</strong> - setup.exe에 의해 호출되는 bootstrapper.exe는 서버 역할을 배포 및 구성하는 작업을 담당합니다.</p></td>
+<td><p>실행 파일이 실행되는 컴퓨터에서 로컬 Administrators 그룹의 구성원. Bootstrapper.exe를 실행하려는 경우 RTCUniversalServerAdmins 그룹의 구성원. AD DS의 정보를 읽을 수 있는 Domain Users 그룹의 구성원. 로컬 컴퓨터에서 필수 MSI 패키지를 자동으로 설치하려면 Program Files 디렉터리와 같은 보호된 로컬 컴퓨터 리소스와 Local Machine 하이브와 같은 보호된 레지스트리를 읽고 쓸 수 있는 권한이 필요하므로 이 사용 권한 수준이 필요합니다.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TopologyBuilder</strong> – 마법사 기반의 사용자 인터페이스를 사용 하 여 Lync Server 2013 토폴로지를 만들고, 보고, 조정 하 고, 유효성을 검사할 수 있습니다.</p></td>
-<td><p>토폴로지를 보기 위해 실행 파일을 실행 하는 컴퓨터의 로컬 관리자 그룹의 구성원입니다. RTCUniversalServerAdmins 그룹의 구성원으로 구성 설정을 변경 합니다. RTCUniversalServerAdmins group 및 Domain Admins 그룹의 구성원 또는 RTCUniversalServerAdmins 그룹의 구성원 (그룹에 대리인 설정 권한이 부여 된 경우에만)을 사용 하 여 토폴로지를 게시 합니다. RTCUniversalServerAdmins 그룹의 구성원이 Domain Admins 그룹의 구성원이 아닌 토폴로지를 게시할 수 있도록 설정 권한을 위임 하는 방법에 대 한 자세한 내용은 배포 설명서의 <a href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013에서 설정에 대 한 사용 권한 부여</a> 를 참조 하세요.</p></td>
+<td><p><strong>TopologyBuilder</strong> – 마법사 기반 사용자 인터페이스 Lync Server 2013 토폴로지를 만들고, 보고, 조정 하 고, 유효성을 검사 합니다.</p></td>
+<td><p>토폴로지를 표시하기 위해 실행 파일이 실행되는 컴퓨터에서 로컬 Administrators 그룹의 구성원. 구성 설정을 변경하기 위한 RTCUniversalServerAdmins 그룹의 구성원. 토폴로지를 게시하기 위한 RTCUniversalServerAdmins 그룹 및 Domain Admins 그룹의 구성원 또는 RTCUniversalServerAdmins 그룹의 구성원(그룹에 대리인 설치 권한이 부여된 경우만). RTCUniversalServerAdmins 그룹의 구성원이 Domain Admins 그룹의 구성원이 아닌 토폴로지를 게시할 수 있도록 설정 권한을 위임 하는 방법에 대 한 자세한 내용은 배포 설명서에서 <a href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013의 설치 권한 부여</a> 를 참조 하십시오.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Adminuihost</strong> – Lync Server 2013을 관리 하기 위한 웹 기반 그래픽 사용자 인터페이스입니다.</p></td>
-<td><p>특정 관리 작업에 할당 된 다른 RBAC (역할 기반 액세스 제어) 역할의 구성원 또는 CsAdministrator 그룹의 구성원입니다. Lync Server 2013 제어판은 Lync Server 2013 관리 셸 cmdlet을 실행 하 여 구성 변경을 구현 합니다. 미리 정의 된 역할 및 cmdlet 구성원을 실행할 수 있도록 허용 된 목록은 계획 문서에서 <a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013의 역할 기반 액세스 제어 계획</a> 을 참조 하세요.</p></td>
+<td><p><strong>Adminuihost</strong> -Lync Server 2013을 관리 하기 위한 웹 기반 그래픽 사용자 인터페이스입니다.</p></td>
+<td><p>특정 관리 작업이 할당된 CsAdministrator 그룹의 구성원 또는 다른 RBAC(역할 기반 액세스 제어) 역할의 구성원. Lync Server 2013 제어판은 Lync Server 2013 관리 셸 cmdlet을 실행 하 여 구성을 변경 하는 방법을 구현 합니다. 미리 정의 된 역할 및 cmdlet 구성원의 실행을 허용 하는 목록은 계획 설명서의 <a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013에서 역할 기반 액세스 제어에 대 한 계획</a> 을 참조 하십시오.</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync <strong>server 2013 모듈이 로드</strong> 된 명령줄 관리 도구를 사용 하 여 lync server 2013의 관리와 관련 된 cmdlet이 있는 PowerShell exe.</p></td>
-<td><p>CsAdministrator 그룹의 구성원 또는 특정 cmdlet이 할당 된 다른 RBAC 역할의 구성원입니다. 미리 정의 된 역할 및 cmdlet 구성원을 실행할 수 있도록 허용 된 목록은 계획 문서에서 <a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013의 역할 기반 액세스 제어 계획</a> 을 참조 하세요.</p>
-<p>또는 cmdlet에 따라 다음 그룹 중 하나 이상의 구성원입니다.</p>
+<td><p>Lync server <strong>2013 모듈이 로드</strong> 된 명령줄 관리 도구인 lync server 2013의 관리와 관련 된 cmdlet이 포함 된 PowerShell .exe</p></td>
+<td><p>특정 cmdlet이 할당된 CsAdministrator 그룹의 구성원 또는 다른 RBAC 역할의 구성원. 미리 정의 된 역할 및 cmdlet 구성원의 실행을 허용 하는 목록은 계획 설명서의 <a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013에서 역할 기반 액세스 제어에 대 한 계획</a> 을 참조 하십시오.</p>
+<p>또는 cmdlet에 따라 다음 그룹 중 하나 이상의 구성원</p>
 <ul>
 <li><p>RTCUniversalServerAdmins</p></li>
 <li><p>RTCUniversalUserAdmins</p></li>

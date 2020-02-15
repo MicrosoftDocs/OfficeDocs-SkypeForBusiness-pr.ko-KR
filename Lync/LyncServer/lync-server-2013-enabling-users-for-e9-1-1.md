@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: E9에서 사용자 사용-1-1'
+title: 'Lync Server 2013: 사용자가 E9-1-1을 사용 하도록 설정'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86d5032defc7322e96662dcfe6357bd30c598e45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a5ba14f24694bf3b9485e60102007a0bfee788c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735608"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031092"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-users-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013에서 E9에 대해 사용자 설정-1-1
+# <a name="enabling-users-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013에서 E9-1-1에 대해 사용자를 사용 하도록 설정
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41735608"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-06_
+_**마지막으로 수정 된 항목:** 2012-06-06_
 
-클라이언트 등록 중에 Lync Server는 위치 정책을 사용 하 여 Enterprise Voice 사용이 가능한 사용자의 E9-1-1 속성을 구성 합니다. 이 정책에는 E9-1-1이 구현 되는 방법을 정의 하는 설정이 포함 되어 있습니다. 예를 들어 위치 정책에는 긴급 전화 접속 문자열, 위치 정보 서비스에서 자동으로 위치를 제공 하지 않는 경우 사용자가 수동으로 위치를 입력 해야 하는지 여부 등의 정보가 포함 됩니다. 위치 정책에 대 한 전체 정의는 [Lync Server 2013의 위치 정책 정의](lync-server-2013-defining-the-location-policy.md)를 참조 하세요.
+클라이언트 등록 중에 Lync Server는 위치 정책을 사용 하 여 Enterprise Voice 사용이 가능한 사용자에 대 한 E9-1-1 속성을 구성 합니다. 이 정책에는 E9-1-1 구현 방법을 정의하는 설정이 포함됩니다. 예를 들어 위치 정책에는 비상 다이얼 문자열과 같은 정보가 포함 되 고, 위치 정보 서비스가 자동으로이를 제공 하지 않는 경우에는 위치를 수동으로 입력 해야 하는지 여부 위치 정책에 대 한 자세한 정의는 [Lync Server 2013에 대 한 위치 정책 정의](lync-server-2013-defining-the-location-policy.md)를 참조 하십시오.
 
-Lync Server는 위치 정책을 서브넷에 기반 하 여 클라이언트에 게 할당 하거나, 전역, 사이트별 또는 사용자 단위 정책을 기반으로 하는 사용자에 게 할당할 수 있습니다. 사용자를 설정 하는 방법을 결정 하려면 먼저 다음 질문에 대답 해야 합니다.
+Lync Server에서는 위치 정책을 서브넷을 기반으로 하는 클라이언트에 할당 하거나 전역, 사이트별 또는 사용자별 정책을 기반으로 사용자에 게 할당할 수 있습니다. 사용자를 설정하는 방법을 결정하기 위해서는 먼저 다음과 같은 질문을 확인해야 합니다.
 
-  - **모든 사용자를 설정 하거나 엔터프라이즈의 특정 지리적 영역에 대 한 지원을 제한할 계획 입니까?**  
-    전역 위치 정책을 사용 하 여 엔터프라이즈의 모든 사용자에 게 위치를 할당할 수 있습니다. 그러나 위치 정책을 Lync Server 네트워크 사이트에 할당 한 다음 사이트에 서브넷을 추가 하 여 E9-1-1 지원을 엔터프라이즈 내에서 선택 된 위치로 제한 하 고 각 사이트 별로 E9-1 라우팅 동작을 지정할 수 있습니다.
-
-<!-- end list -->
-
-  - **사용자 정책을 통해 개별 사용자를 사용할 계획 입니까?**  
-    E9-1-1 지원을 사용자 지정 하려는 경우 특정 사용자 또는 공용 지역 전화 연락처 개체에 위치 정책을 직접 할당할 수 있습니다.
+  - **모든 사용자를 설정하시겠습니까? 아니면 해당 기업의 특정 영역으로만 지원을 제한하시겠습니까?**  
+    전역 위치 정책을 사용하여 기업 내 모든 사용자에게 위치를 지정할 수 있습니다. 그러나 위치 정책을 Lync Server 네트워크 사이트에 할당 한 다음 사이트에 서브넷을 추가 하 여 E9-1-1 지원을 엔터프라이즈 내의 선택한 위치로 제한 하 고 사이트별로 E9-1-1 라우팅 동작을 지정할 수 있습니다.
 
 <!-- end list -->
 
-  - **클라이언트가 네트워크 외부에서 로밍 하거나 정의 되지 않은 서브넷에서 연결 하는 경우 E9-1-1에 대해 클라이언트를 계속 사용할 수 있게 하려면**  
-    사용자에 게 전역, 사이트 또는 사용자 단위 위치 정책을 할당 한 경우에는 클라이언트가 정의 된 서브넷 내에 없거나 위치 정보 서비스에 위치를 찾을 수 없는 경우 수동으로 클라이언트에 위치를 입력 해야 합니다. 자세한 내용은 [Lync Server 2013에서 수동으로 위치를 가져오기 위한 사용자 환경 정의](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md)를 참조 하세요.
+  - **사용자 정책을 통해 개별 사용자를 설정할 계획이 있습니까?**  
+    E9-1-1 지원을 사용자 지정하려는 경우 특정 사용자 또는 공통 영역 전화 연락처 개체에 직접 위치 정책을 지정할 수 있습니다.
+
+<!-- end list -->
+
+  - **클라이언트가 네트워크 외부에서 로밍하거나 정의되지 않은 서브넷에서 연결할 경우에도 해당 클라이언트에 대해 E9-1-1을 설정해야 합니까?**  
+    사용자에 게 전역, 사이트 또는 사용자별 위치 정책이 할당 된 경우 클라이언트가 정의 된 서브넷 내에 없거나 위치 정보 서비스에서 위치를 찾지 못한 경우 클라이언트에 위치를 수동으로 입력 해야 할 수 있습니다. 자세한 내용은 [Lync Server 2013에서 위치를 수동으로 가져오기 위한 사용자 환경 정의](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md)를 참조 하십시오.
 
 </div>
 

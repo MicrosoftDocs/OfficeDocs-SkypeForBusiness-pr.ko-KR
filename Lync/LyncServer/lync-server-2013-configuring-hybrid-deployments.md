@@ -12,20 +12,20 @@ ms:contentKeyID: 48184343
 ms.date: 06/14/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 299c80b3626f60209e268a51d91916bb72bb56c8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4e1192882a7727ca4388b09a8644253be889b25
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728798"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-hybrid-deployments"></a>Lync Server 2013에 대한 하이브리드 배포 구성
+# <a name="configuring-lync-server-2013-hybrid-deployments"></a>Lync Server 2013 하이브리드 배포 구성
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41728798"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2016-05-26_
+_**마지막으로 수정 된 항목:** 2016-05-26_
 
 이 섹션에서는 하이브리드 Lync Server 2013 배포를 구성 하는 데 필요한 단계에 대해 설명 합니다.
 
@@ -43,15 +43,15 @@ _**마지막으로 수정한 주제:** 2016-05-26_
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - 온-프레미스 Lync 배포가 있고 일부 사용자를 클라우드로 이동 하 여 Office 365에서 Lync Online을 사용 하려면 [Lync online을 사용 하 여 하이브리드 용 온-프레미스 배포 구성을](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md)참조 하세요.
+  - 온-프레미스 Lync 배포가 있고 일부 사용자를 클라우드로 이동 하 여 Office 365에서 Lync Online을 사용 하려는 경우 [Lync online을 사용 하 여 하이브리드에 대 한 온-프레미스 배포 구성을](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md)참조 하세요.
 
-  - Lync Online에서 Lync를 사용할 수 있도록 설정 했지만 온-프레미스 배포에서 사용할 수 없는 경우 lync [Server 2013에서 Lync Online에서 lync 온-프레미스로 사용자 이동](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md)을 참조 하세요.
+  - Lync Online에서 Lync를 사용 하도록 설정한 사용자가 온-프레미스 배포에서 사용 하도록 설정 되어 있지 않은 경우 lync [Server 2013에서 Lync online에서 lync 온-프레미스로 사용자 이동](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md)을 참조 하십시오.
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>관련 단원
+## <a name="related-sections"></a>관련 섹션
 
 [Lync Server 2013 하이브리드 배포 계획](lync-server-2013-planning-for-hybrid-deployments.md)
 

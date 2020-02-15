@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Application management cmdlet'
+title: 'Lync Server 2013: 응용 프로그램 관리 cmdlet'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183917
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8482a7efa1a66017bdc55cb2f121e5a3c14eade9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 223f954c4cbd6725259a8188c3213fce5f241872
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737748"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028989"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,95 +35,95 @@ ms.locfileid: "41737748"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-20_
+_**마지막으로 수정 된 항목:** 2012-06-20_
 
-Microsoft Lync Server 2013는 Lync Server 응용 프로그램과 신뢰할 수 있는 타사 응용 프로그램을 관리할 수 있는 cmdlet을 제공 합니다.
+Microsoft Lync Server 2013에서는 Lync Server 응용 프로그램 및 신뢰할 수 있는 타사 응용 프로그램을 관리 하는 데 사용할 수 있는 cmdlet을 제공 합니다.
 
 <div>
 
 ## <a name="application-management-cmdlets"></a>응용 프로그램 관리 Cmdlet
 
-이러한 범주에 있는 cmdlet을 사용 하 여 응용 프로그램을 관리 하세요.
+다음 범주의 cmdlet를 사용하여 응용 프로그램을 관리합니다.
 
 **[Lync Server 2013의 응용 프로그램 끝점 cmdlet](lync-server-2013-application-endpoints-cmdlets.md)**
 
   - <span></span>  
-    [Get-CsApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398655(v=OCS.15))
+    [Get-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398655(v=OCS.15))
 
   - <span></span>  
-    [이동-CsApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398188(v=OCS.15))
+    [CsApplicationEndpoint 이동](https://technet.microsoft.com/library/Gg398188(v=OCS.15))
 
 **[Lync Server 2013의 응용 프로그램 서버 및 서비스 cmdlet](lync-server-2013-application-server-and-services-cmdlets.md)**
 
   - <span></span>  
-    [Set CsApplicationServer](https://technet.microsoft.com/en-us/library/Gg398562(v=OCS.15))
+    [설정-CsApplicationServer](https://technet.microsoft.com/library/Gg398562(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsServerApplication](https://technet.microsoft.com/en-us/library/Gg425948(v=OCS.15))
+    [Get-CsServerApplication](https://technet.microsoft.com/library/Gg425948(v=OCS.15))
 
   - <span></span>  
-    [새-CsServerApplication](https://technet.microsoft.com/en-us/library/Gg398096(v=OCS.15))
+    [새-CsServerApplication](https://technet.microsoft.com/library/Gg398096(v=OCS.15))
 
   - <span></span>  
-    [CsServerApplication 제거](https://technet.microsoft.com/en-us/library/Gg398366(v=OCS.15))
+    [CsServerApplication 제거](https://technet.microsoft.com/library/Gg398366(v=OCS.15))
 
   - <span></span>  
-    [Set-CsServerApplication](https://technet.microsoft.com/en-us/library/Gg412850(v=OCS.15))
+    [설정-CsServerApplication](https://technet.microsoft.com/library/Gg412850(v=OCS.15))
 
 **[Lync Server 2013의 신뢰할 수 있는 응용 프로그램 cmdlet](lync-server-2013-trusted-applications-cmdlets.md)**
 
   - <span></span>  
-    [Get-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg399025(v=OCS.15))
+    [New-cstrustedapplication](https://technet.microsoft.com/library/Gg399025(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398259(v=OCS.15))
+    [New-cstrustedapplication](https://technet.microsoft.com/library/Gg398259(v=OCS.15))
 
   - <span></span>  
-    [제거-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398176(v=OCS.15))
+    [New-cstrustedapplication을 제거 합니다.](https://technet.microsoft.com/library/Gg398176(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg425840(v=OCS.15))
+    [New-cstrustedapplication](https://technet.microsoft.com/library/Gg425840(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg425843(v=OCS.15))
+    [CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg425843(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398405(v=OCS.15))
+    [CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg398405(v=OCS.15))
 
   - <span></span>  
-    [제거-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398838(v=OCS.15))
+    [CsTrustedApplicationComputer을 제거 합니다.](https://technet.microsoft.com/library/Gg398838(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg413035(v=OCS.15))
+    [CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg413035(v=OCS.15))
 
   - <span></span>  
-    [New-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398594(v=OCS.15))
+    [CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398594(v=OCS.15))
 
   - <span></span>  
-    [제거-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398837(v=OCS.15))
+    [CsTrustedApplicationEndpoint을 제거 합니다.](https://technet.microsoft.com/library/Gg398837(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398509(v=OCS.15))
+    [CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398509(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg413055(v=OCS.15))
+    [New-cstrustedapplicationpool](https://technet.microsoft.com/library/Gg413055(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg425804(v=OCS.15))
+    [New-cstrustedapplicationpool](https://technet.microsoft.com/library/Gg425804(v=OCS.15))
 
   - <span></span>  
-    [제거-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398750(v=OCS.15))
+    [New-cstrustedapplicationpool을 제거 합니다.](https://technet.microsoft.com/library/Gg398750(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398187(v=OCS.15))
+    [New-cstrustedapplicationpool](https://technet.microsoft.com/library/Gg398187(v=OCS.15))
 
 </div>
 

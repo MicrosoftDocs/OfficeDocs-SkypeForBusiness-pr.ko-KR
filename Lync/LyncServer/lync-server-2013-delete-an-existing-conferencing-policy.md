@@ -12,16 +12,16 @@ ms:contentKeyID: 49733688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a78071697750a95bb8832585ea036dc90aa984da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 511f6e9c3b0b4e3caf614fdd00d71fc0ac84e524
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736378"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41736378"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-23_
+_**마지막으로 수정 된 항목:** 2013-02-23_
 
-사용자 수준 또는 사이트 수준 회의 정책을 삭제 하려면 다음 단계를 따르세요.
+사용자 수준 또는 사이트 수준 회의 정책을 삭제하려면 다음 단계를 수행합니다.
 
 <div>
 
@@ -51,13 +51,13 @@ _**마지막으로 수정한 주제:** 2013-02-23_
 
 <div>
 
-## <a name="to-delete-a-site-or-user-conferencing-policy"></a>사이트 또는 사용자 회의 정책을 삭제 하려면
+## <a name="to-delete-a-site-or-user-conferencing-policy"></a>사이트 또는 사용자 회의 정책을 삭제하려면
 
-1.  CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당 된 사용자 계정에서 내부 배포의 컴퓨터에 로그온 합니다.
+1.  CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+2.  브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.
 
-3.  왼쪽 탐색 모음에서 **회의** 를 클릭 한 다음 **회의 정책을**클릭 합니다.
+3.  왼쪽 탐색 모음에서 **회의**를 클릭하고 **회의 정책**을 클릭합니다.
 
 4.  회의 정책 목록에서 삭제 하려는 사이트 또는 사용자 정책을 클릭 하 고 **편집**을 클릭 한 다음 **삭제**를 클릭 합니다.
 
@@ -67,13 +67,13 @@ _**마지막으로 수정한 주제:** 2013-02-23_
 
 ## <a name="removing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 회의 정책 제거
 
-Lync Server Management Shell 및 **Remove-CsConferencingPolicy** cmdlet을 사용 하 여 회의 정책을 삭제할 수 있습니다. Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+Lync Server 관리 셸 및 **get-csconferencingpolicy** cmdlet을 사용 하 여 회의 정책을 삭제할 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
 
 <div>
 
-## <a name="to-remove-a-specified-conferencing-policy"></a>지정 된 회의 정책을 제거 하려면
+## <a name="to-remove-a-specified-conferencing-policy"></a>지정된 회의 정책을 제거하려면
 
-  - 다음 명령은 Id RedmondConferencingPolicy를 사용 하 여 회의 정책을 제거 합니다.
+  - 다음 명령은 ID RedmondConferencingPolicy가 포함된 회의 정책을 제거합니다.
     
         Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 
@@ -81,9 +81,9 @@ Lync Server Management Shell 및 **Remove-CsConferencingPolicy** cmdlet을 사�
 
 <div>
 
-## <a name="to-remove-all-of-the-conferencing-policies-applied-to-the-per-user-scope"></a>사용자별 범위에 적용 된 모든 회의 정책을 제거 하려면
+## <a name="to-remove-all-of-the-conferencing-policies-applied-to-the-per-user-scope"></a>사용자별 범위에 적용된 모든 회의 정책을 제거하려면
 
-  - 다음 명령은 사용자 단위 범위에서 구성 된 모든 회의 정책을 제거 합니다.
+  - 다음 명령은 사용자별 범위에 구성된 모든 회의 정책을 제거합니다.
     
         Get-CsConferencingPolicy -Filter "tag:*" | Remove-CsConferencingPolicy
 
@@ -91,15 +91,15 @@ Lync Server Management Shell 및 **Remove-CsConferencingPolicy** cmdlet을 사�
 
 <div>
 
-## <a name="to-remove-all-of-the-conferencing-polices-that-allow-recording-by-external-users"></a>외부 사용자의 기록을 허용 하는 모든 회의 정책을 제거 하려면
+## <a name="to-remove-all-of-the-conferencing-polices-that-allow-recording-by-external-users"></a>외부 사용자의 기록을 허용하는 모든 회의 정책을 제거하려면
 
-  - 다음 명령은 외부 사용자가 회의를 녹음할 수 있도록 허용 하는 회의 정책을 삭제 합니다.
+  - 다음 명령은 외부 사용자가 회의를 기록하도록 허용하는 모든 회의 정책을 삭제합니다.
     
         Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 
 </div>
 
-자세한 내용은 [제거-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsConferencingPolicy)를 참조 하세요.
+자세한 내용은 [Remove-get-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsConferencingPolicy)를 참조 하십시오.
 
 </div>
 

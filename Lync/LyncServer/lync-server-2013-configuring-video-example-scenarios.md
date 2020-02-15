@@ -12,20 +12,20 @@ ms:contentKeyID: 48185536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbdd47056b97da1ba3ac1bf884cc3e8bd9aaf43f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 085a87d24efed3f9f5e1a5d2d30c29c9b8461693
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734428"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-video-example-scenarios-for-lync-server-2013"></a>Lync Server 2013에 대 한 비디오 구성 예제 시나리오
+# <a name="configuring-video-example-scenarios-for-lync-server-2013"></a>Lync Server 2013에 대 한 비디오 예제 시나리오 구성
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41734428"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-Lync 2013는 1920 x 1080 full 고화질 (HD) 비디오 및 갤러리 보기 비디오를 지원 하기 위해 새로운 비디오 기능을 추가 합니다. 고객 데이터를 기반으로 하는 측정값은 일반적인 비디오 대역폭이 Lync 2010에 비해 약간만 증가 했지만 전체 HD 지원으로 인해 최대 비디오 스트림 대역폭이 증가 함 (자세한 내용은 [Lync Server 2013의 미디어 트래픽에 대 한 네트워크 대역폭 요구 사항](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)"미디어 트래픽 네트워크 사용량" 섹션을 참조 하세요.) 따라서 관리자는 특정 사용자 (예: 네트워크 용량이 적은 지점의 사용자)에 대 한 비디오 대역폭을 제한 하 고 다른 사용자에 게 최상의 화질 (예: 임원)을 적용할 수 있습니다.
+Lync 2013는 새로운 비디오 기능을 지원 합니다. 1920 x 1080 full HD (고화질) 비디오 및 갤러리 보기 비디오 고객 데이터를 기반으로 하는 측정값은 일반적인 비디오 대역폭이 Lync 2010에 비해 약간 비해 증가 했지만, 전체 HD 지원으로 인해 최대 비디오 스트림 대역폭이 증가 함 (자세한 내용은 [Lync Server 2013의 미디어 트래픽에 대 한 네트워크 대역폭 요구 사항](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)에서 "미디어 트래픽 네트워크 사용" 섹션을 참조 하세요.) 따라서 관리자는 특정 사용자 (예: 네트워크 용량이 적은 지점의 사용자)에 대해 비디오 대역폭을 제한 하 고, 다른 사용자에 대해 최상의 가능한 비디오 품질을 유지 하는 데 도움을 받을 수 있습니다 (예: 임원).
 
-다음 표에서는 다양 한 네트워크 용량에 대해 비디오를 구성 하기 위한 권장 설정 목록을 제공 합니다. 이러한 설정은 일부 사용자 시나리오가 더 높은 해상도 동영상을 보내고 받지 못하도록 제한 합니다 (맨 오른쪽 열 참조). 최소 설정으로 인해 최대 수신 네트워크 대역폭 때문에 갤러리 비디오를 사용할 수 없게 됩니다.
+다음 표에는 다양한 네트워크 용량에 대한 권장 비디오 구성 설정 목록이 나와 있습니다. 이러한 설정은 일부 사용자 시나리오에 대한 고해상도 비디오 송/수신을 제한합니다(맨 오른쪽 열 참조). 최소 설정으로 인해 최대 수신 네트워크 대역폭이 낮아지므로 갤러리 비디오를 사용할 수 없게 됩니다.
 
-### <a name="recommended-video-settings"></a>권장 되는 비디오 설정
+### <a name="recommended-video-settings"></a>권장 비디오 설정
 
 <table style="width:100%;">
 <colgroup>
@@ -59,41 +59,41 @@ Lync 2013는 1920 x 1080 full 고화질 (HD) 비디오 및 갤러리 보기 비�
 <th>EnableMultiViewJoin</th>
 <th>VideoBitRateKB</th>
 <th>TotalReceiveVideoBitRateKB</th>
-<th>우수한 품질의 동영상을 위한 비디오 해상도가 필요 합니다.</th>
+<th>표준 화질 비디오에 대한 예상 비디오 해상도</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>방법은</p></td>
-<td><p>False</p></td>
-<td><p>False</p></td>
+<td><p>참</p></td>
+<td><p>참</p></td>
 <td><p>8000</p></td>
 <td><p>8000</p></td>
 <td><p>피어 투 피어: 최대 1920 x 1080 비디오 해상도</p>
-<p>갤러리 보기: 최대 2 1920 x 1080 비디오 또는 여러 개의 작은 해상도 비디오</p></td>
+<p>갤러리 보기: 최대 1920 x 1080 비디오 두 개 또는 이보다 낮은 해상도의 여러 비디오</p></td>
 </tr>
 <tr class="even">
-<td><p>적합</p></td>
-<td><p>False</p></td>
-<td><p>False</p></td>
+<td><p>좋습니다</p></td>
+<td><p>참</p></td>
+<td><p>참</p></td>
 <td><p>2500</p></td>
 <td><p>2500</p></td>
 <td><p>피어 투 피어: 최대 1280 x 720 비디오 해상도</p>
-<p>갤러리 보기: 최대 5 640 x 360 해상도 비디오</p></td>
+<p>갤러리 보기: 최대 640 x 360 해상도 비디오 5개</p></td>
 </tr>
 <tr class="odd">
-<td><p>높음이나</p></td>
-<td><p>False</p></td>
-<td><p>False</p></td>
+<td><p>보통</p></td>
+<td><p>참</p></td>
+<td><p>참</p></td>
 <td><p>1000</p></td>
 <td><p>1000</p></td>
 <td><p>피어 투 피어: 최대 960 x 540 비디오 해상도</p>
-<p>갤러리 보기: 최대 5 424 x 240 해상도 비디오</p></td>
+<p>갤러리 보기: 최대 424 x 240 해상도 비디오 5개</p></td>
 </tr>
 <tr class="even">
-<td><p>솟</p></td>
+<td><p>적어도</p></td>
+<td><p>참</p></td>
 <td><p>False</p></td>
-<td><p>해제</p></td>
 <td><p>350</p></td>
 <td><p>350</p></td>
 <td><p>피어 투 피어: 최대 424 x 240 비디오 해상도</p>
@@ -103,57 +103,57 @@ Lync 2013는 1920 x 1080 full 고화질 (HD) 비디오 및 갤러리 보기 비�
 </table>
 
 
-위의 표에 나와 있는 정보를 사용 하 여 조직의 일부 사용자에 대 한 새 HD 비디오 및 갤러리 보기 비디오 회의 기능을 배포 하는 동시에 다른 사용자에 대 한 비디오 해상도를 허용할 수 있습니다.
+위의 표의 정보를 사용하여 조직 내 일부 사용자를 위한 새 HD 비디오와 갤러리 보기 비디오 회의 기능을 배포하면서 나머지 사용자에게 다양한 비디오 해상도를 허용할 수 있습니다.
 
-다음 예제에서는 관리자가 최고 화질으로 경영진만 사용할 수 있는 새로운 비디오 기능을 제공 합니다. 네트워크 용량이 낮은 원격 지점 사무실의 경우에는 앞 테이블의 최소 설정만 배포 됩니다. 다른 모든 직원의 경우 앞의 표에 나와 있는 "좋은" 설정이 배포 됩니다.
+다음 예제에서는 관리자가 중역만 사용할 수 있는 최고 비디오 품질의 새 비디오 기능을 공개합니다. 네트워크 용량이 적은 원격 지점 직원의 경우 위의 표에 나오는 최소 설정만 배포됩니다. 그 밖의 모든 직원에게는 위의 표에 나오는 "표준" 설정이 배포됩니다.
 
-관리자가 경영진에 게 새 기능을 배포 하기 위해 ExecutiveVideo 이라는 회의 정책을 만듭니다. 이 회의 정책에는 다음과 같은 설정이 있습니다.
+중역에게 새 기능을 공개하기 위해 관리자는 ExecutiveVideo라는 회의 정책을 만듭니다. 이 회의 정책의 설정은 다음과 같습니다.
 
-  - VideoBitRateKB는 8000 Kbps로 설정 됩니다.
+  - VideoBitRateKB가 8000Kbps로 설정됨
 
-  - TotalReceiveVideoBitRateKB는 8000 Kbps로 설정 됩니다.
+  - TotalReceiveVideoBitRateKB가 8000Kbps로 설정됨
 
-  - AllowMultiview가 True로 설정 되어 있습니다.
+  - AllowMultiview가 True로 설정됨
 
-  - EnableMultiviewJoin가 True로 설정 되어 있습니다.
+  - EnableMultiviewJoin이 True로 설정됨
 
-지사의 직원의 경우 관리자가 BranchOfficeVideo 이라는 회의 정책을 만듭니다. 이 회의 정책에는 다음과 같은 설정이 있습니다.
+관리자는 지점 직원을 위해 BranchOfficeVideo라는 회의 정책을 만듭니다. 이 회의 정책의 설정은 다음과 같습니다.
 
-  - VideoBitRateKB는 350 Kbps로 설정 됩니다.
+  - VideoBitRateKB가 350Kbps로 설정됨
 
-  - TotalReceiveVideoBitRateKB는 350 Kbps로 설정 됩니다.
+  - TotalReceiveVideoBitRateKB가 350Kbps로 설정됨
 
-  - AllowMultiview가 True로 설정 되어 있습니다.
+  - AllowMultiview가 True로 설정됨
 
-  - EnableMultiviewJoin가 False로 설정 됨
+  - EnableMultiviewJoin이 False로 설정됨
 
-다른 모든 직원의 경우 관리자가 StandardVideo 라는 회의 정책을 만듭니다. 이 회의 정책에는 다음과 같은 설정이 있습니다.
+관리자는 그 밖의 모든 직원을 위해 StandardVideo라는 회의 정책을 만듭니다. 이 회의 정책의 설정은 다음과 같습니다.
 
-  - VideoBitRateKB는 2500 Kbps로 설정 됩니다.
+  - VideoBitRateKB가 2500Kbps로 설정됨
 
-  - TotalReceiveVideoBitRateKB는 2500 Kbps로 설정 됩니다.
+  - TotalReceiveVideoBitRateKB가 2500Kbps로 설정됨
 
-  - AllowMultiview가 True로 설정 되어 있습니다.
+  - AllowMultiview가 True로 설정됨
 
-  - EnableMultiviewJoin가 True로 설정 되어 있습니다.
+  - EnableMultiviewJoin이 True로 설정됨
 
-관리자가 사용자에 게 다음과 같이 회의 정책을 할당 합니다.
+관리자는 다음과 같이 사용자에게 회의 정책을 할당합니다.
 
-  - ExecutiveVideo 회의 정책은 경영진에 게 배정 됩니다.
+  - ExecutiveVideo 회의 정책은 중역에게 할당됩니다.
 
-  - BranchOfficeVideo 회의 정책은 지사에 있는 모든 직원에 게 할당 됩니다.
+  - BranchOfficeVideo 회의 정책은 지점의 모든 직원에게 할당됩니다.
 
-  - StandardVideo 회의 정책은 다른 모든 직원에 게 할당 됩니다.
+  - StandardVideo 회의 정책은 그 밖의 모든 직원에게 할당됩니다.
 
-이러한 회의 정책 할당을 통해 다음 사용자 환경이 생성 됩니다.
+이러한 회의 정책 할당에 따라 다음과 같은 사용자 환경이 만들어집니다.
 
-  - 모든 사용자 지원 갤러리 보기를 사용 하 여 구성 되었지만 지점에 있는 직원이 갤러리 보기를 경험해 볼 수 없습니다.
+  - 사용자에 의해 구성된 모든 회의에서 갤러리 보기를 지원하지만, 지점의 직원은 갤러리 보기를 사용할 수 없습니다.
 
-  - 2-파티 또는 단체 회의의 경우, 해당 하드웨어와 네트워크 링크가 지 원하는 경우 1920 x 1080 full HD 비디오를 보낼 수 있으며, 다른 참가자 클라이언트가이를 지 원하는 경우 1920 x 1080 full HD 비디오를 받을 수 있습니다.
+  - 두 사용자 간 회의 또는 단체 회의에서 중역은 자신의 하드웨어 및 네트워크 링크에서 지원할 경우 1920 x 1080 Full HD 비디오를 전송할 수 있으며, 다른 참여자 클라이언트에서 지원할 경우 1920 x 1080 Full HD 비디오를 수신할 수 있습니다.
 
-  - 임원을 보유 하 고 있지 않은 직원은 2 자 또는 단체 회의에서 경영진 보다 저렴 한 해상도를 경험할 수 있지만 좋은 해상도를 제공 합니다.
+  - 중역 이외의 직원은 두 사용자 간 회의 또는 단체 회의에서 중역보다 낮은 표준 화질의 해상도를 사용하게 됩니다.
 
-  - Lync에서 기본 비디오 창 크기를 표시할 때 지사에 거주 하는 직원이 두 대의 영상 품질을 잘 알 수 있습니다. 그러나 Lync 창이 전체 화면으로 최대화 되어 있으면 비디오 해상도가 증가 하지 않습니다. 단체 컨퍼런스의 경우 지사에 있는 직원이 하나의 활성 비디오만 볼 수 있습니다.
+  - Lync에서 기본 비디오 창 크기를 표시 하는 경우 지사에 거주 하는 직원이 두 명의 사용자에 게 좋은 화질을 얻게 됩니다. 그러나 Lync 창이 전체 화면으로 최대화 되 면 비디오 해상도가 증가 하지 않습니다. 단체 전화 회의의 경우 지사의 직원에 게는 하나의 활성 비디오만 표시 됩니다.
 
 </div>
 

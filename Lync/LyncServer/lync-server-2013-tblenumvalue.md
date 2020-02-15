@@ -12,16 +12,16 @@ ms:contentKeyID: 48185040
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c09c5e911dcd63f50d8b15343075c5b3e05e631
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d182a3689ae38d4117b45d6590bb2ccd08c0a8b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731478"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027059"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731478"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-28_
+_**마지막으로 수정 된 항목:** 2012-06-28_
 
-tblEnumValue는 노드 테이블에 사용 되는 특성의 Visibility 및 Behavior 값을 포함 하는 하드 코드 된 테이블입니다.
+tblEnumValue는 Node 테이블에 사용된 특성의 표시 및 동작 값이 포함된 하드코드된 테이블입니다.
 
-### <a name="columns"></a>열
+### <a name="columns"></a>단
 
 <table>
 <colgroup>
@@ -50,13 +50,13 @@ tblEnumValue는 노드 테이블에 사용 되는 특성의 Visibility 및 Behav
 <thead>
 <tr class="header">
 <th>열</th>
-<th>유형</th>
+<th>형식</th>
 <th>설명</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>고 대 Eid</p></td>
+<td><p>Tblenumvalue.valueid</p></td>
 <td><p>smallint, null이 아님</p></td>
 <td><p>값의 ID입니다.</p></td>
 </tr>
@@ -67,14 +67,14 @@ tblEnumValue는 노드 테이블에 사용 되는 특성의 Visibility 및 Behav
 </tr>
 <tr class="odd">
 <td><p>attributeValue</p></td>
-<td><p>nvarchar (256), null 아님</p></td>
+<td><p>nvarchar(256), null이 아님</p></td>
 <td><p>값의 이름입니다.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>핵심
+### <a name="keys"></a>키
 
 <table>
 <colgroup>
@@ -89,12 +89,12 @@ tblEnumValue는 노드 테이블에 사용 되는 특성의 Visibility 및 Behav
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>고 대 Eid</p></td>
+<td><p>Tblenumvalue.valueid</p></td>
 <td><p>기본 키입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>attributeID</p></td>
-<td><p>TblEnumAttribute의 조회가 포함 되어 있는 외래 키입니다.</p></td>
+<td><p>tblEnumAttribute.attributeID 테이블에서 조회 기능이 있는 외래 키입니다.</p></td>
 </tr>
 </tbody>
 </table>
@@ -110,36 +110,36 @@ tblEnumValue는 노드 테이블에 사용 되는 특성의 Visibility 및 Behav
 </colgroup>
 <thead>
 <tr class="header">
-<th>고 대 Eid</th>
+<th>Tblenumvalue.valueid</th>
 <th>attributeID</th>
 <th>attributeValue</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>1</p></td>
-<td><p>개인용</p></td>
+<td><p>2 </p></td>
+<td><p>1 </p></td>
+<td><p>유지</p></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>1</p></td>
-<td><p>범위도</p></td>
+<td><p>3 </p></td>
+<td><p>1 </p></td>
+<td><p>scope</p></td>
 </tr>
 <tr class="odd">
-<td><p>4(tcp/ipv4)</p></td>
-<td><p>2</p></td>
-<td><p>크기로</p></td>
+<td><p>4 </p></td>
+<td><p>2 </p></td>
+<td><p>보통인</p></td>
 </tr>
 <tr class="even">
-<td><p>5mb</p></td>
-<td><p>2</p></td>
-<td><p>auditorium</p></td>
+<td><p>5 </p></td>
+<td><p>2 </p></td>
+<td><p>강당</p></td>
 </tr>
 <tr class="odd">
-<td><p>26</p></td>
-<td><p>1</p></td>
-<td><p>열면</p></td>
+<td><p>6 </p></td>
+<td><p>1 </p></td>
+<td><p>열린</p></td>
 </tr>
 </tbody>
 </table>

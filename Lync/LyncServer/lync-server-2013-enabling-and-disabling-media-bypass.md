@@ -12,16 +12,16 @@ ms:contentKeyID: 49733874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 612b944d35e3e8158622a4d18105074f5888daca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dfdb2e252ec50ca73471f22a59d8f9d1f65f4908
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735848"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030842"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735848"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-이 섹션의 절차를 사용 하 여 Lync Server 제어판을 사용 하 여 미디어 바이패스를 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 미디어 바이패스를 사용 하는 경우에 대 한 자세한 내용은 [Lync Server 2013에서 미디어 바이패스 계획](lync-server-2013-planning-for-media-bypass.md)을 참조 하세요.
+이 섹션의 절차에 따라 Lync Server 제어판을 사용 하 여 미디어 바이패스를 사용 하거나 사용 하지 않도록 설정 합니다. 미디어 바이패스를 사용 하는 경우에 대 한 자세한 내용은 [Lync Server 2013의 미디어 바이패스 계획](lync-server-2013-planning-for-media-bypass.md)을 참조 하십시오.
 
 <div>
 
@@ -45,7 +45,7 @@ _**마지막으로 수정한 주제:** 2012-11-01_
 
   - [Lync Server 2013에서 네트워크 미디어 바이패스 사용](lync-server-2013-enabling-network-media-bypass.md)
 
-  - [Lync Server 2013에서 네트워크 미디어 바이패스를 사용 하지 않도록 설정](lync-server-2013-disabling-network-media-bypass.md)
+  - [Lync Server 2013에서 네트워크 미디어 바이패스 사용 안 함](lync-server-2013-disabling-network-media-bypass.md)
 
 </div>
 

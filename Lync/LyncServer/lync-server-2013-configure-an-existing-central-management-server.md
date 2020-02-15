@@ -12,16 +12,16 @@ ms:contentKeyID: 48185584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b5df4fedc49e85d7fe26a918ea36de3a64b440a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50835858c9c78851ec5fc7359f988790bb0d1c2f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757832"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028759"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41757832"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-21_
+_**마지막으로 수정 된 항목:** 2013-02-21_
 
 기존 Lync Server 2013 배포에서 중앙 관리 서버를 다시 사용 하는 경우 아래에 설명 된 절차를 실행 하 여 Lync Server 제어판 및 Windows PowerShell이 올바르게 작동 하는지 확인 해야 합니다.
 
@@ -43,7 +43,7 @@ _**마지막으로 수정한 주제:** 2013-02-21_
 
 ## <a name="to-configure-an-existing-central-management-server"></a>기존 중앙 관리 서버를 구성 하려면
 
-1.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
 2.  **업데이트-CsAdminRole** cmdlet을 사용 하 여 중앙 관리 서버에 저장 된 RBAC (역할 기반 액세스 제어) 역할을 업데이트 합니다.
     
@@ -51,7 +51,7 @@ _**마지막으로 수정한 주제:** 2013-02-21_
     
 
     > [!NOTE]  
-    > 오류가 발생 하지 않으면 출력이 예상 되지 않습니다.
+    > 오류가 있는 경우를 제외하고 출력되는 내용이 없습니다.
 
     
     </div>

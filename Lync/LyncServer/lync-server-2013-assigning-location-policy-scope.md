@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 위치 정책 범위 지정'
+title: 'Lync Server 2013: 위치 정책 범위 할당'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 395b8a4271338231b4c2c1927f7e40fb21a1cb14
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69218c3f5399b62fc67fe0d538a98f1bdadd3cf4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734028"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030051"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assigning-location-policy-scope-in-lync-server-2013"></a>Lync Server 2013에서 위치 정책 범위 지정
+# <a name="assigning-location-policy-scope-in-lync-server-2013"></a>Lync Server 2013에서 위치 정책 범위 할당
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41734028"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-06_
+_**마지막으로 수정 된 항목:** 2012-06-06_
 
-다른 Lync Server 정책과 마찬가지로 위치 정책은 전역, 사이트 및 사용자의 여러 범위 수준에서 할당할 수 있습니다. 그러나 사용자 수준 위치 정책의 범위는 다른 Lync Server 정책과 약간 다르게 작동 합니다. 끝점 개체 (예: 사용자 및 공용 지역 전화 연락처 개체)에는 사용자 단위 위치 정책을 적용할 수 있을 뿐만 아니라 Lync Server 네트워크 사이트에도 적용할 수 있습니다. 네트워크 사이트는 지리적 위치와 관련 된 클라이언트 서브넷의 그룹 이지만, 전체 중앙 사이트 또는 지사 사이트의 모든 서브넷 일 필요는 없습니다. 네트워크 사이트의 서브넷에 연결 된 클라이언트는 해당 네트워크 사이트에 할당 된 위치 정책을 자동으로 선택 합니다. 사용자 수준 위치 정책이 사용자와 네트워크 사이트에 모두 할당 되는 경우 네트워크 사이트 기반 위치 정책은 사용자별 정책 설정 보다 우선 합니다.
+다른 Lync Server 정책과 마찬가지로 위치 정책은 전역, 사이트 및 사용자의 여러 범위 수준에서 할당할 수 있습니다. 그러나 사용자 수준 위치 정책의 범위는 다른 Lync Server 정책과 약간 다르게 동작 합니다. 사용자 또는 공통 영역 전화 연락처 개체와 같은 끝점 개체에는 사용자별 위치 정책을 적용 하는 것 뿐만 아니라 Lync Server 네트워크 사이트에도 적용할 수 있습니다. 네트워크 사이트는 지리적 위치와 연결 된 클라이언트 서브넷의 그룹으로, 전체 중앙 사이트 또는 분기 사이트의 모든 서브넷 일 필요는 없습니다. 네트워크 사이트의 서브넷에 연결 된 클라이언트는 자동으로 해당 네트워크 사이트에 할당 되는 위치 정책을 선택 합니다. 사용자 수준 위치 정책이 사용자와 네트워크 사이트에 모두 할당 되는 경우 네트워크 사이트 기반 위치 정책이 사용자별 정책 설정 보다 우선 합니다.
 
-각 네트워크 사이트에는 위치 정책이 할당 되며 각 정책에는 서로 다른 PSTN 용도, 알림 Uri 및 전화 회의 Uri 값이 지정 됩니다.
+각 네트워크 사이트에는 위치 정책이 할당되어 있으며 각 정책에는 서로 다른 PSTN 사용, 알림 URI 및 회의 URI 값이 할당됩니다.
 
 <div>
 
 
 > [!NOTE]  
-> 이 특수 정책 범위 지정 동작이 발생 하는 이유는 한 office 사이트의 풀에 속한 사용자가 다른 사이트를 방문할 때 긴급 통화를 해야 할 때 해당 네트워크 사이트에 적합 한 E9-1-1 통화 라우팅 설정이 어떤 풀이나 사이트에 관계 없이 적용 될 수 있기 때문입니다. ser이 할당 되었습니다.
+> 이러한 특수 정책 범위 지정 동작이 발생 하는 이유는 한 office 사이트의 풀에 있는 사용자가 다른 사이트를 방문 하 여 긴급 통화를 해야 하는 경우 해당 네트워크 사이트에 적합 한 E9-1-1 통화 라우팅 설정이 어떤 풀 또는 사이트에 든 관계 없이 적용 되도록 하는 것입니다. ser이 할당 됩니다.
 
 
 

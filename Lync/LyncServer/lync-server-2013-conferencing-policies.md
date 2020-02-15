@@ -12,16 +12,16 @@ ms:contentKeyID: 49733732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96d1d9ed6fc0ad75e316a41ef7939f36ecaba354
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44bf77ff67167b6d3e66ff70b9db5b00dad09b96
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741488"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029199"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41741488"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-18_
+_**마지막으로 수정 된 항목:** 2012-09-18_
 
-회의 정책은 회의 중에 사용자가 사용할 수 있는 기능 (모임이 라고도 함)을 정의 합니다. 회의 정책 설정에는 모임에서 IP 오디오 및 비디오를 참석할 수 있는 최대 사용자 수까지 포함할 수 있는지 여부에 이르기까지 다양 한 일정 및 참가 옵션이 포함 됩니다. 관리자는 회의 정책을 사용 하 여 보안, 대역폭, 모임에 대 한 법적 측면을 관리할 수 있습니다.
+회의 정책은 사용자가 회의(모임이라고도 함) 중에 사용할 수 있는 기능을 정의합니다. 회의 정책 설정에는 모임에 IP 음성/화상을 포함할 수 있는지 여부, 최대 참가 가능 인원 등 다양한 일정 및 참가 옵션이 포함됩니다. 관리자는 회의 정책을 사용하여 모임의 보안, 대역폭 및 법적 요소를 관리할 수 있습니다.
 
-회의 정책은 전역 범위, 사이트 범위, 사용자 범위 등 세 가지 수준에서 정의할 수 있습니다. 설정은 해당 사용자에 게 가장 좁은 범위의 범위에 적용 됩니다. 사용자에 게 사용자 정책을 할당 하면 해당 설정이 우선적으로 적용 됩니다. 사용자 정책을 할당 하지 않으면 사이트 설정이 적용 됩니다. 적용 되는 사용자 또는 사이트 정책이 없는 경우 전역 정책은 기본 설정을 제공 합니다.
+회의 정책은 전역 범위, 사이트 범위 및 사용자 범위의 세 가지 수준에서 정의할 수 있습니다. 설정은 가장 좁은 범위에서 가장 넓은 범위순으로 특정 사용자에게 적용됩니다. 사용자에게 사용자 정책을 할당하는 경우에는 해당 설정이 우선적으로 적용됩니다. 사용자 정책을 할당하지 않으면 사이트 설정이 적용됩니다. 사용자 정책이나 사이트 정책을 적용하지 않는 경우에는 글로벌 정책에서 기본 설정을 제공합니다.
 
-전역 정책은 기본적으로 존재 하므로 새 전역 정책을 만들 수 없습니다. 또한 기존 전역 정책을 삭제할 수 없지만 기존 전역 정책을 변경 하 여 기본 설정을 사용자 지정할 수 있습니다.
+글로벌 정책은 기본적으로 있으므로 새 글로벌 정책을 만들 수는 없습니다. 또한 기존 글로벌 정책을 삭제할 수도 없지만, 기존 글로벌 정책을 변경하여 기본 설정을 사용자 지정할 수는 있습니다.
 
 <div>
 

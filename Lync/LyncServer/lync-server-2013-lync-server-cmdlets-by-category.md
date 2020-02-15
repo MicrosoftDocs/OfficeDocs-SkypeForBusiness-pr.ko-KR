@@ -12,16 +12,16 @@ ms:contentKeyID: 48184106
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d5d0dfc2540f5c623bff18f9739968983288e9e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d5db33e3d41bca0a3d14361b6d7bda254d43d19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723328"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030212"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41723328"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2017-09-20_
+_**마지막으로 수정 된 항목:** 2017-09-20_
 
-Microsoft Lync Server 2013는 관리자가 명령줄에서 Lync Server를 관리할 수 있도록 특별히 디자인 된 거의 모든 550 cmdlet을 제공 합니다. Lync Server 관리 셸에서 cmdlet에 액세스 합니다. 다음과 같은 명령을 입력 하 여 명령줄에서 직접 cmdlet에 대 한 도움말을 검색할 수 있습니다.
+Microsoft Lync Server 2013에서는 관리자가 명령줄에서 Lync Server를 관리할 수 있도록 특별히 설계 된 거의 550 cmdlet이 제공 됩니다. Lync Server 관리 셸에서 cmdlet에 액세스 합니다. 명령줄에서 다음과 같은 명령을 입력 하 여 cmdlet에 대 한 도움말을 직접 검색할 수 있습니다.
 
     Get-Help New-CsVoicePolicy -Full
 
-앞의 명령은 **CsVoicePolicy** cmdlet에 대해 사용할 수 있는 도움말을 모두 검색 합니다. 도움말을 검색 하려는 cmdlet의 이름으로 **CsVoicePolicy** 에 대 한 참조를 대체 합니다.
+위 명령은 **set-csvoicepolicy** cmdlet에 사용할 수 있는 도움말을 모두 검색 합니다. **Set-csvoicepolicy** 에 대 한 참조를 도움말을 검색 하려는 cmdlet의 이름으로 바꿉니다.
 
-Microsoft Lync Server 2013을 관리 하는 데 사용할 수 있는 전체 cmdlet 목록을 검색 하려면 Lync Server Management Shell 명령 프롬프트에서 다음을 입력 합니다.
+Microsoft Lync Server 2013을 관리 하는 데 사용할 수 있는 전체 cmdlet 목록을 검색 하려면 Lync Server 관리 셸 명령 프롬프트에 다음을 입력 합니다.
 
     Get-Command * -Module Lync -CommandType cmdlet
 
-필요한 cmdlet을 잘 모를 경우에는 분류 된 cmdlet 및 도움말 항목도 제공 됩니다. 일부 cmdlet은 두 개 이상의 범주에 표시 되며,이는 제품의 여러 영역에 적용 될 때 의도적인 것을 알 수 있습니다. 범주 목록은 다음과 같습니다.
+필요한 cmdlet을 잘 모르는 경우에는 분류 된 cmdlet 및 도움말 항목도 제공 됩니다. 일부 cmdlet은 제품의 여러 영역에 적용 되는 의도적인 것으로, 둘 이상의 범주에 표시 됩니다. 다음은 범주 목록입니다.
 
 <div>
 
 
 > [!NOTE]
-> 비즈니스용 Skype cmdlet 참조가 docs.microsoft.com으로 이동 했습니다. 아래 링크를 클릭 하면 새 docs.microsoft.com 페이지로 이동 합니다. 이제 콘텐츠가 열리고, GitHub를 통해 커뮤니티에서 기고 가능 합니다. 참여 하는 데 관심이 있으십니까? 여기에 있는 리포지토리의 추가 정보를 확인 하세요.<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> 비즈니스용 Skype cmdlet 참조가 docs.microsoft.com로 이동 되었습니다. 아래 링크를 클릭 하면 새 docs.microsoft.com 페이지로 이동 합니다. 이제 콘텐츠가 사용 가능 하 게 열리고 GitHub를 통한 커뮤니티 기고에 사용할 수 있습니다. 참여에 관심이 있으십니까? 여기에 있는 리포지토리의 추가 정보를 확인 하세요.<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
@@ -76,10 +76,10 @@ Microsoft Lync Server 2013을 관리 하는 데 사용할 수 있는 전체 cmdl
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-client-management-cmdlets.md">Lync Server 2013의 클라이언트 관리 cmdlet</a></p></td>
-<td><p><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Lync Server 2013의 고급 엔터프라이즈 음성 cmdlet</a></p></td>
+<td><p><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Lync Server 2013의 고급 Enterprise Voice cmdlet</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-im-and-presence-cmdlets.md">Lync Server 2013의 메신저 대화 및 현재 상태 cmdlet</a></p></td>
+<td><p><a href="lync-server-2013-im-and-presence-cmdlets.md">Lync Server 2013의 IM 및 현재 상태 cmdlet</a></p></td>
 <td><p><a href="lync-server-2013-pstn-connectivity-cmdlets.md">Lync Server 2013의 PSTN 연결 cmdlet</a></p></td>
 </tr>
 <tr class="even">
@@ -88,15 +88,15 @@ Microsoft Lync Server 2013을 관리 하는 데 사용할 수 있는 전체 cmdl
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-infrastructure-and-deployment-cmdlets.md">Lync Server 2013의 인프라 및 배포 cmdlet</a></p></td>
-<td><p><a href="lync-server-2013-migration-and-coexistence-cmdlets.md">Lync Server 2013의 마이그레이션 및 공존 cmdlet</a></p></td>
+<td><p><a href="lync-server-2013-migration-and-coexistence-cmdlets.md">Lync Server 2013의 마이그레이션 및 동시 사용 cmdlet</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-security-cmdlets.md">Lync Server 2013의 보안 cmdlet</a></p></td>
-<td><p><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Lync Server 2013의 lync Server 관리 셸 구성 cmdlet</a></p></td>
+<td><p><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Lync server 2013의 lync Server 관리 셸 구성 cmdlet</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-server-roles-and-services-cmdlets.md">Lync Server 2013의 서버 역할 및 서비스 cmdlet</a></p></td>
-<td><p><a href="lync-server-2013-mobility-cmdlets.md">Lync Server 2013의 모바일 cmdlet</a></p></td>
+<td><p><a href="lync-server-2013-mobility-cmdlets.md">Lync Server 2013의 모바일 기능 cmdlet</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-application-management-cmdlets.md">Lync Server 2013의 응용 프로그램 관리 cmdlet</a></p></td>
@@ -104,10 +104,10 @@ Microsoft Lync Server 2013을 관리 하는 데 사용할 수 있는 전체 cmdl
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Lync Server 2013의 페더레이션 및 외부 액세스 cmdlet</a></p></td>
-<td><p><a href="lync-server-2013-centralized-logging-cmdlets.md">Lync Server 2013의 중앙 집중화 된 로깅 cmdlet</a></p></td>
+<td><p><a href="lync-server-2013-centralized-logging-cmdlets.md">Lync Server 2013의 중앙 로깅 cmdlet</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-enterprise-voice-cmdlets.md">Lync Server 2013의 엔터프라이즈 음성 cmdlet</a></p></td>
+<td><p><a href="lync-server-2013-enterprise-voice-cmdlets.md">Lync Server 2013의 Enterprise Voice cmdlet</a></p></td>
 <td></td>
 </tr>
 </tbody>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e80416897370711ce3bbadf3285cf25fad51f67d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 826dc7971eb2069573cb2b51095162b8f29f1ab9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729308"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029509"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729308"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-19_
+_**마지막으로 수정 된 항목:** 2013-02-19_
 
-이 섹션의 항목에서는 Lync Server 2013 제어판에서 **클라이언트** 그룹을 사용 하 여 수행할 수 있는 작업에 대 한 단계별 절차를 제공 합니다.
+이 섹션의 항목에서는 Lync Server 2013 제어판의 **Clients** 그룹을 사용 하 여 수행할 수 있는 작업에 대 한 단계별 절차를 제공 합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013의 일반적인 지역 전화](lync-server-2013-common-area-phones.md)
+  - [Lync Server 2013의 공통 영역 전화](lync-server-2013-common-area-phones.md)
 
   - [Lync Server 2013의 회의 장치](lync-server-2013-conferencing-devices.md)
 
-  - [Lync Server 2013의 휴대 전화 (정책/푸시 알림)](lync-server-2013-mobile-phones-policy-push-notification.md)
+  - [Lync Server 2013의 휴대폰 (정책/푸시 알림)](lync-server-2013-mobile-phones-policy-push-notification.md)
 
   - [Lync Server 2013의 테스트 장치](lync-server-2013-test-devices.md)
 
