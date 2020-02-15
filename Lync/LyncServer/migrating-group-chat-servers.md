@@ -12,16 +12,16 @@ ms:contentKeyID: 49733609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5741b3344c6cff3ae3acd641478c9203f5e9a6a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5446cdb144b59865f22b6bd18a73fb2782802f44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763310"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036106"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763310"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-29_
+_**마지막으로 수정 된 항목:** 2012-09-29_
 
-레거시 Lync Server 2010 환경에서 그룹 채팅 서버를 배포한 경우 Lync Server 2013 영구 채팅 서버를 배포 해야 합니다. 그룹 채팅 서버와 영구 채팅 서버는 공존할 수 있지만, 콘텐츠 (예: 채팅방 등)는 이러한 서버에서 공유 되지 않습니다. 영구 채팅 서버에서 레거시 그룹 채팅 서버 콘텐츠에 액세스 하려면 그룹 채팅 서버를 영구 채팅 서버로 마이그레이션해야 합니다. 영구 채팅 서버로 마이그레이션하는 방법에 대 한 자세한 내용은 [Lync server 2010, 그룹 채팅 또는 Office Communications server 2007 R2 그룹 채팅에서 마이그레이션 설명서의 Lync server 2013, 영구 채팅 서버로 마이그레이션을](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) 참조 하세요.
+레거시 Lync Server 2010 환경에 그룹 채팅 서버를 배포한 경우 Lync Server 2013 영구 채팅 서버를 배포 해야 합니다. 그룹 채팅 서버와 영구 채팅 서버는 동시에 사용할 수 있지만 콘텐츠 (예: 채팅방 등)는 이러한 서버 간에 공유 되지 않습니다. 영구 채팅 서버에서 레거시 그룹 채팅 서버 콘텐츠에 액세스 하려면 그룹 채팅 서버를 영구 채팅 서버로 마이그레이션해야 합니다. 영구 채팅 서버로 마이그레이션하는 방법에 대 한 자세한 내용은 마이그레이션 설명서에서 [Lync server 2010, 그룹 채팅 또는 Office Communications server 2007 R2 그룹 채팅에서 Lync server 2013, 영구 채팅 서버로 마이그레이션을](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) 참조 하십시오.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183389
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1021295b375e4f28294ffb1ca5738d651f9ced2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 123535ae3e14669e343c881869304e95ce666040
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734588"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41996183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41734588"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-엔터프라이즈 음성 배포의 일부로, 중재 서버와 다음 피어 중 하나 이상을 구성할 수 있으므로 조직의 엔터프라이즈 음성 클라이언트 및 장치에 대 한 PSTN (공개 통신 네트워크) 연결을 제공 합니다.
+Enterprise Voice 배포의 일부로 중재 서버와 다음 중 하나 이상의 피어 간에 트렁크를 구성 하 여 조직의 Enterprise Voice 클라이언트 및 장치에 대해 공중 전화망 (PSTN) 연결을 제공할 수 있습니다.
 
-  - 인터넷 전화 통신 서비스 공급자 (ITSP)에 대 한 SIP 트렁크 연결
+  - ITSP(인터넷 전화 통신 서비스 공급자)에 대한 SIP 트렁크 연결
 
   - PSTN 게이트웨이
 
-  - PBX (사설 분기 교환)
+  - PBX(Private Branch Exchange)
 
-자세한 내용은 계획 설명서의 [Lync Server 2013에서 PSTN 연결 계획](lync-server-2013-planning-for-pstn-connectivity.md) 을 참조 하세요.
+자세한 내용은 계획 설명서에서 [Lync Server 2013의 PSTN 연결 계획](lync-server-2013-planning-for-pstn-connectivity.md) 을 참조 하십시오.
 
 <div>
 
 
 > [!IMPORTANT]  
-> 트렁크 구성을 시작 하기 전에 토폴로지가 만들어졌는지, 중재 서버와 해당 피어가 서로 구성 되어 연결 되었는지 확인 합니다. 자세한 내용은 배포 설명서에서 <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">Lync Server 2013의 토폴로지 작성기에서 게이트웨이 정의</A> 를 참조 하세요.
+> 트렁크 구성을 시작하기 전에 토폴로지가 작성되었으며 중재 서버 및 해당 피어가 구성되어 서로 연결되었는지 확인합니다. 자세한 내용은 배포 설명서에서 <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">Lync Server 2013의 토폴로지 작성기에서 게이트웨이 정의</A> 를 참조 하십시오.
 
 
 
@@ -61,7 +61,7 @@ _**마지막으로 수정한 주제:** 2012-11-01_
 
 
 > [!NOTE]  
-> 트렁크 구성의 일부로 서, Lync Server 2013 미디어 건너뛰기 기능을 사용 하도록 설정 하 여 미디어에서 중재 서버를 우회할 수 있습니다. 미디어 바이패스를 사용 하도록 설정 하거나 포함 하지 않고 Trunks를 구성할 수 있지만, 사용 하도록 설정 하는 것이 좋습니다. 자세한 내용은 계획 설명서의 <A href="lync-server-2013-planning-for-media-bypass.md">Lync Server 2013에서 미디어 바이패스 계획</A> 을 참조 하세요.
+> 트렁크 구성의 일부로 인해 미디어에서 중재 서버를 바이패스 하도록 하는 Lync Server 2013 미디어 바이패스 기능을 사용 하도록 설정할 수 있습니다. 트렁크는 미디어 바이패스를 사용하거나 사용하지 않도록 설정한 상태로 구성할 수 있지만, 사용하도록 설정하는 것이 좋습니다. 자세한 내용은 계획 설명서의 <A href="lync-server-2013-planning-for-media-bypass.md">Lync Server 2013에서 미디어 바이패스를 계획</A> 합니다 .를 참조 하십시오.
 
 
 
@@ -77,19 +77,19 @@ _**마지막으로 수정한 주제:** 2012-11-01_
 
   - [Lync Server 2013에서 트렁크 구성 정보 보기](lync-server-2013-view-trunk-configuration-information.md)
 
-  - [Lync Server 2013에서 미디어 바이패스를 사용 하 여 트렁크 구성](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [Lync Server 2013의 미디어 바이패스로 트렁크 구성](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
   - [Lync Server 2013에서 미디어 바이패스 없이 트렁크 구성](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
-  - [Lync Server 2013에서 새 트렁크 구성 설정 모음 만들기](lync-server-2013-create-a-new-collection-of-trunk-configuration-settings.md)
+  - [Lync Server 2013에서 새 트렁크 구성 설정 컬렉션 만들기](lync-server-2013-create-a-new-collection-of-trunk-configuration-settings.md)
 
-  - [Lync Server 2013에서 기존 SIP 트렁크 구성 설정 모음 삭제](lync-server-2013-delete-an-existing-collection-of-sip-trunk-configuration-settings.md)
+  - [Lync Server 2013에서 SIP 트렁크 구성 설정의 기존 컬렉션 삭제](lync-server-2013-delete-an-existing-collection-of-sip-trunk-configuration-settings.md)
 
   - [Lync Server 2013에서 SIP 트렁크 구성 설정 수정](lync-server-2013-modify-sip-trunk-configuration-settings.md)
 
   - [Lync Server 2013에서 SIP 트렁크 구성 설정 테스트](lync-server-2013-test-sip-trunk-configuration-settings.md)
 
-  - [Lync Server 2013의 개별 SIP trunks에 대 한 정보 보기](lync-server-2013-view-information-about-individual-sip-trunks.md)
+  - [Lync Server 2013의 개별 SIP 트렁크에 대 한 정보 보기](lync-server-2013-view-information-about-individual-sip-trunks.md)
 
 </div>
 

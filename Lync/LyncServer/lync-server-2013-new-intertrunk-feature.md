@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 새로운 인터트렁크 기능'
+title: 'Lync Server 2013: 새 인터 트렁크 기능'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 833cfd1e11b885fc4291f2bbbfecb7d6118074e9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c88447434594f940ef28b74212e4db2357d6ce38
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758620"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007777"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-intertrunk-feature-in-lync-server-2013"></a>Lync Server 2013의 새로운 인터트렁크 기능
+# <a name="new-intertrunk-feature-in-lync-server-2013"></a>Lync Server 2013의 새로운 인터 트렁크 기능
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758620"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-08_
+_**마지막으로 수정 된 항목:** 2012-10-08_
 
-Lync Server 2013는 intertrunk 라우팅 지원을 통해 기본적인 세션 관리를 제공 합니다. 이 새로운 접근 권한 값을 통해 Lync Server에서 다운스트림 전화 통신 시스템에 대 한 통화 제어 기능을 제공할 수 있습니다. 라우팅 연결을 통해 Lync Server는 IP-PBX (사설 branch exchange) 휴대폰의 호출을 PSTN으로 라우팅할 수 있고 들어오는 PSTN 통화를 PBX 전화기로 라우팅할 수 있도록 IP PBX를 PSTN (공개 전환 통신 네트워크) 게이트웨이와 상호 연결할 수 있습니다. 마찬가지로, Lync Server는 두 개 이상의 IP PBX 시스템을 상호 연결 하 여 여러 IP PBX 시스템에서 PBX 전화기 간에 전화를 걸고 받을 수 있습니다.
+Lync Server 2013에서는 인터 트렁크 라우팅 지원을 통해 기본 세션 관리 기능을 제공 합니다. 이 새로운 기능을 사용 하면 Lync Server에서 다운스트림 전화 통신 시스템에 통화 제어 기능을 제공할 수 있습니다. 인터 트렁크 라우팅을 사용 하는 경우 Lync Server는 pbx (private branch exchange) 전화 로부터의 통화를 pstn으로 라우팅할 수 있도록 IP pbx를 pstn (공중 전화망) 게이트웨이에 상호 연결할 수 있으며 들어오는 PSTN 통화를 PBX 전화로 라우팅할 수 있습니다. 마찬가지로 Lync Server는 두 개 이상의 IP PBX 시스템을 상호 연결 하 여 서로 다른 IP PBX 시스템에서 PBX 전화 간에 통화를 주고 받을 수 있도록 합니다.
 
 <div>
 
@@ -45,7 +45,7 @@ Lync Server 2013는 intertrunk 라우팅 지원을 통해 기본적인 세션 �
 
 
 [Lync Server 2013의 트렁크 간 라우팅](lync-server-2013-inter-trunk-routing.md)  
-[Lync Server 2013의 새 Enterprise Voice 기능](lync-server-2013-new-enterprise-voice-features.md)  
+[Lync Server 2013의 새로운 Enterprise Voice 기능](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

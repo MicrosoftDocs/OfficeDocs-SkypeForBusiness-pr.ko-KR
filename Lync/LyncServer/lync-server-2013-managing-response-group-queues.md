@@ -12,20 +12,20 @@ ms:contentKeyID: 48183576
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 496dcc3dfafcc7a583fe74d729c3b90d8677691e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e1c9a55c72522604168fec235f1b9d716cd5cec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756082"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41992043"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-group-queues-in-lync-server-2013"></a>Lync Server 2013의 응답 그룹 큐 관리
+# <a name="managing-response-group-queues-in-lync-server-2013"></a>Lync Server 2013에서 응답 그룹 큐 관리
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756082"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-큐는 상담원이 전화에 응답할 때까지 응답 그룹에 대 한 통화를 보류 합니다. 큐를 관리 하는 경우 하나 이상의 에이전트 그룹을 큐에 할당 하 고 오버플로 작업을 수행 하기 전에 큐가 보유할 수 있는 통화 수와 대기 시간을 수행 하기 전에 에이전트에서 대기 하는 시간을 지정 합니다. ction. 응답 그룹 응용 프로그램이 사용 가능한 에이전트를 검색 하는 경우 목록에 나열 된 순서 대로 에이전트 그룹을 검색 합니다.
+큐는 에이전트가 통화에 응답할 때까지 응답 그룹에 통화를 대기 시킵니다. 큐를 관리할 때 큐에 하나 이상의 에이전트 그룹을 할당 하 고, 오버플로 작업을 수행 하기 전에 큐에 보관할 수 있는 통화 수 및 호출이 시간 초과 될 때까지 대기 하는 시간을 지정 하 여 큐 설정을 지정할 수 있습니다. ction. 응답 그룹 응용 프로그램이 사용 가능한 에이전트를 검색할 때 목록에 나열 된 순서 대로 에이전트 그룹을 검색 합니다.
 
 <div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 788a0638dee6b9d52a5d954eafb7b4e33bdfd294
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ea0083a28253f5b79e6124dc7733a3ea096f4509
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731878"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006123"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41731878"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-12-11_
+_**마지막으로 수정 된 항목:** 2012-12-11_
 
-Lync Server 2013를 사용 하면 해당 환경에서 지원 되는 클라이언트 버전을 지정할 수 있습니다. 클라이언트 버전 정책을 사용 하면 여러 클라이언트 버전 지원과 관련 된 비용을 줄일 수 있습니다. 또한 이전 버전과 이후 버전의 클라이언트가 상호 작용 하는 경우 사용 가능한 기능을 이전 버전의 클라이언트로 제한할 수 있기 때문에 전체적인 사용자 환경을 향상 시킬 수 있습니다.
+Lync Server 2013에서는 사용자 환경에서 지원 되는 클라이언트 버전을 지정할 수 있습니다. 클라이언트 버전 정책을 사용 하면 여러 클라이언트 버전을 지 원하는 데 드는 비용을 줄일 수 있습니다. 이전 버전의 클라이언트가 상호 작용 하는 경우 이전 버전의 클라이언트에 의해 사용 가능한 기능을 제한할 수 있으므로 전반적인 사용자 환경도 향상 시킬 수 있습니다.
 
 클라이언트 버전 제어에는 다음과 같은 세 가지 구성 요소가 있습니다.
 
-  - 클라이언트 버전 구성 설정은 전역 또는 특정 사이트에 대해 클라이언트 버전 제어를 설정 또는 해제 하는 데 사용 됩니다.
+  - 클라이언트 버전 구성 설정은 전역으로 또는 특정 사이트에 대해 클라이언트 버전 제어를 설정/해제 하는 데 사용 됩니다.
 
-  - 클라이언트 버전 정책은 규칙 집합을 전역 또는 특정 사이트, 풀 또는 사용자 그룹에 할당 하는 데 사용 됩니다.
+  - 클라이언트 버전 정책을 사용 하 여 규칙 집합을 전역적으로 할당 하거나 특정 사이트, 풀 또는 사용자 그룹에 할당할 수 있습니다.
 
-  - 클라이언트 버전 정책 규칙은 클라이언트 버전 정책을 구성 하 고, 사용자가 특정 클라이언트 및 클라이언트 버전으로 로그온 하려고 할 때 수행 해야 하는 작업을 정의 하는 데 사용 됩니다.
+  - 클라이언트 버전 정책 규칙은 클라이언트 버전 정책을 구성 하며, 사용자가 특정 클라이언트 및 클라이언트 버전을 사용 하 여 로그온을 시도할 때 수행 해야 하는 작업을 정의 하는 데 사용 됩니다.
 
 <div>
 

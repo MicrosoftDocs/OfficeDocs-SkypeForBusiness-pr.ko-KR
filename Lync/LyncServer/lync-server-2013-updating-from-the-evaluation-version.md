@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 평가판 버전에서 업데이트'
+title: 'Lync Server 2013: 평가 버전에서 업데이트'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184294
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b4cc704a77f824cbf7b2ec8ab4920c25454f3c2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 703362f34c367d301e7d47e1bdc65f16a497ce88
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744778"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007677"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="updating-from-the-evaluation-version-of-lync-server-2013"></a>Lync Server 2013의 평가판 버전에서 업데이트
+# <a name="updating-from-the-evaluation-version-of-lync-server-2013"></a>Lync Server 2013의 평가 버전에서 업데이트
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41744778"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-20_
+_**마지막으로 수정 된 항목:** 2012-06-20_
 
-Microsoft Lync Server 2013의 평가판 버전을 설치한 경우 최종적으로 해당 설치를 소프트웨어의 라이선스 복사본으로 업데이트 해야 합니다. 평가판 버전은 설치 후 180 일이 지나면 만료 됩니다. 그러나 평가판 버전을 완전히 제거한 다음 라이선스 버전을 설치할 필요는 없습니다. 대신 유효한 라이선스 키를 가져온 후 lync server 프런트 엔드 서버, 디렉터 또는 Edge 서버로 작동 하는 각 컴퓨터에서 다음 절차를 수행 하 여 Lync Server 2013의 평가판 버전을 업데이트할 수 있습니다. 모니터링 서버 또는 보관 서버와 같은 다른 서버 역할을 수행 하는 컴퓨터를 업데이트 하지 않아도 된다는 점에 유의 하세요.
+Microsoft Lync Server 2013 평가 버전을 설치한 경우 결국에는 해당 설치를 소프트웨어 라이선스 복사본으로 업데이트 해야 합니다. 이는 평가판 버전이 설치 후 180 일이 지나면 만료 되기 때문입니다. 그러나 평가용 버전을 완전히 제거한 다음 라이선스 버전을 설치할 필요는 없습니다. 대신 유효한 라이선스 키를 얻은 후 Lync Server 프런트 엔드 서버, 디렉터 또는에 지 서버 역할을 하는 각 컴퓨터에서 다음 절차를 수행 하 여 Lync Server 2013의 평가 버전을 업데이트할 수 있습니다. 모니터링 서버 또는 보관 서버와 같은 다른 서버 역할을 수행 하는 컴퓨터는 업데이트할 필요가 없습니다.
 
 <div>
 
-## <a name="updating-from-the-evaluation-version-of-microsoft-lync-server-2013"></a>Microsoft Lync Server 2013의 평가판 버전에서 업데이트
+## <a name="updating-from-the-evaluation-version-of-microsoft-lync-server-2013"></a>Microsoft Lync Server 2013의 평가 버전에서 업데이트
 
-Lync Server 2013의 평가판 버전에서 라이선스를 받은 소프트웨어 버전으로 컴퓨터를 업데이트 하려면 다음을 수행 합니다.
+Lync Server 2013의 평가 버전에서 라이선스 버전의 소프트웨어를 사용 하 여 컴퓨터를 업데이트 하려면 다음을 수행 합니다.
 
-**Microsoft Lync Server 2013의 평가판 버전에서 업데이트**
+**Microsoft Lync Server 2013의 평가 버전에서 업데이트**
 
-1.  로컬 관리자로 컴퓨터에 로그온 합니다.
+1.  로컬 관리자로 컴퓨터에 로그온합니다.
 
-2.  **시작**을 클릭 하 고 **모든 프로그램**, **Microsoft lync server 2013**을 차례로 클릭 한 다음 **Lync server 관리 셸을**클릭 합니다.
+2.  **시작**, **모든 프로그램**, **Microsoft lync server 2013**을 차례로 클릭 한 다음 **Lync server 관리 셸을**클릭 합니다.
 
 3.  Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다.
     
         msiexec.exe /fvomus server.msi EVALTOFULL=1 /qb
     
-    파일 서버 .msi에 대 한 전체 경로를 지정 해야 할 수 있다는 점에 유의 하세요. 이 파일은 Lync Server 볼륨 미디어 설치 파일의 설정 폴더에서 찾을 수 있습니다.
+    server.msi 파일의 전체 경로를 지정해야 할 수 있습니다. 이 파일은 Lync Server 볼륨 미디어 설치 파일의 설치 폴더에서 찾을 수 있습니다.
 
-4.  설치 프로그램이 실행을 완료 한 후 명령 프롬프트에서 다음을 입력 하 고 enter 키를 누릅니다.
+4.  설치 실행이 완료되면 명령 프롬프트에 다음을 입력하고 Enter 키를 누릅니다.
     
         Enable-CsComputer
 
-5.  Lync Server의 평가 복사본을 실행 하는 다른 프런트 엔드 서버, 디렉터 또는 Edge 서버에 대해이 절차를 반복 합니다. 이 절차는 Lync Server 미디어 설치 파일을 사용 하 여 배포한 지사 서버 에서도 수행 해야 합니다.
+5.  Lync Server의 평가용 복사본을 실행 하는 다른 모든 프런트 엔드 서버, 디렉터 또는에 지 서버에서이 절차를 반복 합니다. 이 절차는 Lync Server 미디어 설치 파일을 사용 하 여 배포 된 모든 지점 서버 에서도 수행 해야 합니다.
 
-Lync Server의 평가판 버전이 지정 된 컴퓨터에서 실행 중인지 확실 하지 않은 경우 Lync Server Management Shell 내에서 다음 명령을 실행 하 여 확인할 수 있습니다.
+Lync Server의 평가 버전이 지정 된 컴퓨터에서 실행 되 고 있는지 잘 모르는 경우 Lync Server 관리 셸에서 다음 명령을 실행 하 여이를 확인할 수 있습니다.
 
     Get-CsServerVersion
 
-[Get-CsServerVersion](https://docs.microsoft.com/powershell/module/skype/Get-CsServerVersion) cmdlet은 로컬 컴퓨터를 분석 하 고 다음 중 하나를 다시 보고 합니다.
+[Get-CsServerVersion](https://docs.microsoft.com/powershell/module/skype/Get-CsServerVersion) cmdlet은 로컬 컴퓨터를 분석하여 다음 중 하나를 보고합니다.
 
-  - Lync Server 볼륨 라이선스 키가 컴퓨터에 설치 되어 있는지, 업데이트가 필요 하지 않음을 의미 합니다.
+  - Lync Server volume license 키가 컴퓨터에 설치 되어 있는지 여부는 업데이트 하지 않아도 된다는 것을 의미 합니다.
 
-  - Lync Server 평가 라이선스 키가 설치 되어 있는지 확인 하 고 컴퓨터를 업데이트 해야 함을 의미 합니다.
+  - Lync Server 평가 라이선스 키가 설치 되었는지, 즉 컴퓨터를 업데이트 해야 한다는 것을 의미 합니다.
 
-  - 컴퓨터에 볼륨 라이선스 키가 필요 하지 않습니다. 평가판 버전을 사용 허가를 받은 버전으로 업데이트 하는 것은 프런트 엔드 서버, 디렉터 및 Edge 서버 에서만 필요 합니다.
+  - 해당 볼륨 라이센스 키는 컴퓨터에 필요하지 않습니다. 프런트 엔드 서버, 디렉터 및 에지 서버만 평가판 버전에서 정식 버전으로 업데이트하면 됩니다.
 
 </div>
 

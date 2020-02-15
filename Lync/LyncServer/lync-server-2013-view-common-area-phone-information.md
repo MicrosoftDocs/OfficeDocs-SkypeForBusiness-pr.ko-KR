@@ -12,16 +12,16 @@ ms:contentKeyID: 51803992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38614b2993ddd9ad3fe3a662a334440a1d1287b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e045cb13d0e0d0c085d9d45e23b1510d61c93a3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757462"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007167"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,24 +35,24 @@ ms.locfileid: "41757462"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-20_
+_**마지막으로 수정 된 항목:** 2013-02-20_
 
-**CsCommonAreaPhone** cmdlet을 사용 하 여 조직에서 사용 하도록 구성 된 공통 영역 전화에 대 한 정보를 볼 수 있습니다. 매개 변수 없이 사용 하면이 cmdlet은 모든 공통 지역 전화에 대 한 정보를 반환 합니다. 선택적 매개 변수는 다양 한 방법으로 정보를 필터링 하는 방법을 제공 합니다. 예를 들어 지정 된 조직 구성 단위 (OU) 또는 지정 된 건물에 위치한 모든 연락처 개체에 연락처 개체가 있는 공통 영역 전화기를 모두 반환할 수 있습니다. **Get-CsCommonAreaPhone** 매개 변수에 대 한 자세한 내용은 [get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)을 참조 하세요.
+**Move-cscommonareaphone** cmdlet을 사용 하 여 조직에서 사용 하도록 구성 된 공통 영역 전화에 대 한 정보를 확인할 수 있습니다. 이 cmdlet은 매개 변수 없이 사용 하면 모든 공통 영역 전화에 대 한 정보를 반환 합니다. 선택적 매개 변수를 통해 정보를 필터링 하는 다양 한 방법을 사용할 수 있습니다. 예를 들어 특정 OU (조직 구성 단위) 또는 지정 된 건물에 위치한 모든 대화 상대 개체에 연락처 개체가 있는 모든 공통 영역 전화를 반환할 수 있습니다. **Move-cscommonareaphone** 매개 변수에 대 한 자세한 내용은 [get-move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)를 참조 하십시오.
 
-Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서 **CsCommonAreaPhone** 를 실행 합니다.
-
-<div>
-
+Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 **move-cscommonareaphone** 를 실행 합니다.
 
 <div>
 
-## <a name="viewing-information-about-all-your-common-area-phones"></a>모든 공통 지역 전화에 대 한 정보 보기
 
-  - 모든 공통 지역 전화에 대 한 정보를 보려면 Lync Server 관리 셸에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
+<div>
+
+## <a name="viewing-information-about-all-your-common-area-phones"></a>모든 공통 영역 전화에 대 한 정보 보기
+
+  - 모든 공통 영역 전화에 대 한 정보를 보려면 Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다.
     
         Get-CsCommonAreaPhone
     
-    다음과 같은 정보를 얻을 수 있습니다.
+    다음과 같은 정보가 표시 됩니다.
     
         Identity           : CN=Building 14 Lobby,OU=Redmond,
                              DC=litwareinc,DC=com
@@ -74,7 +74,7 @@ Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에�
 
 </div>
 
-자세한 내용은 Get-help cmdlet에 대 한 도움말 항목을 [CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) .
+자세한 내용은 [move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) cmdlet에 대 한 도움말 항목을 참조 하십시오.
 
 </div>
 

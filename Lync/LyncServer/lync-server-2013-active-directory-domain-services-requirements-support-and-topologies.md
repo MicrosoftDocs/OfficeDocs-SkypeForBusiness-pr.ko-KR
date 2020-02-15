@@ -12,16 +12,16 @@ ms:contentKeyID: 48184902
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95251144f6876adb7bd31cf5ae2926e53560976f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f13e337f509fe776b63b7a212670d5a5492e9929
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730470"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008570"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41730470"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-05_
+_**마지막으로 수정 된 항목:** 2012-10-05_
 
-Lync server 2010 이전에 lync Server는 Active Directory 도메인 서비스에 의존 하 여 Lync Server를 배포 하 고 관리 하는 데 필요한 모든 전역 설정과 그룹을 저장 합니다. 이 정보는 대부분 AD DS 대신 중앙 관리 저장소에 저장 됩니다. 그러나 Lync Server 2013, Lync Server 2010, Office Communications Server 2007 R2 스키마 확장을 비롯 한 사용자 개체 스키마 확장은 여전히 AD DS에 저장 됩니다.
+Lync server 2010 이전에 lync server는 lync server를 배포 하 고 관리 하는 데 필요한 모든 전역 설정과 그룹을 저장 하기 위해 Active Directory 도메인 서비스에 의존 합니다. 이제 이러한 정보의 대부분은 AD DS 대신 중앙 관리 저장소에 저장 됩니다. 그러나 Lync Server 2013, Lync Server 2010 및 Office Communications Server 2007 R2 스키마 확장을 비롯 한 사용자 개체 스키마 확장은 여전히 AD DS에 저장 됩니다.
 
 <div>
 
@@ -45,9 +45,9 @@ Lync server 2010 이전에 lync Server는 Active Directory 도메인 서비스�
 
   - [Lync Server 2013의 Active Directory 도메인 서비스 지원](lync-server-2013-active-directory-domain-services-support.md)
 
-  - [Lync Server 2013에서 지원되는 Active Directory 토폴로지](lync-server-2013-supported-active-directory-topologies.md)
+  - [Lync Server 2013의 지원 되는 Active Directory 토폴로지](lync-server-2013-supported-active-directory-topologies.md)
 
-  - [Lync Server 2013에 대한 Active Directory 인프라 요구 사항](lync-server-2013-active-directory-infrastructure-requirements.md)
+  - [Lync Server 2013에 대 한 Active Directory 인프라 요구 사항](lync-server-2013-active-directory-infrastructure-requirements.md)
 
 </div>
 

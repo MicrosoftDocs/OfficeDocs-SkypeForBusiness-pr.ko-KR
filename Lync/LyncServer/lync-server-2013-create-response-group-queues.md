@@ -12,16 +12,16 @@ ms:contentKeyID: 48184070
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34344654dfc8d2b26a935607111d8fd417d01c19
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05c918d9f06bb1b22fd65bcde13e4049a0bab3c6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763592"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009401"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763592"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-01-18_
+_**마지막으로 수정 된 항목:** 2012-01-18_
 
-큐는 에이전트가 전화를 대답할 때까지 호출자를 보유 합니다. 응답 그룹 응용 프로그램이 사용 가능한 에이전트를 검색 하는 경우 목록에 나열 된 순서 대로 에이전트 그룹을 검색 합니다. 큐에 할당 되는 에이전트 그룹을 선택 하 고 큐에 대기 시킬 수 있는 호출 수를 제한 하는 방법, 에이전트가 전화를 받을 때까지 대기 하는 시간 간격 등의 대기열 동작을 지정할 수 있습니다.
+큐는 에이전트가 통화에 응답할 때까지 발신자를 보관합니다. 응답 그룹 응용 프로그램이 사용 가능한 에이전트를 검색할 때 목록에 나열 된 순서 대로 에이전트 그룹을 검색 합니다. 큐에 지정되는 에이전트 그룹을 선택할 수 있으며, 큐에 보관할 수 있는 통화 수 및 에이전트가 통화에 응답할 때까지의 통화 대기 시간을 제한하는 등 큐 동작을 지정할 수 있습니다.
 
 <div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 63969663
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4212e8616916f6a2a256530a7a0b74c9811f166d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7d411733712cf274760a45cd4e315b4f02a66e0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736858"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008490"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41736858"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2015-01-26_
+_**마지막으로 수정 된 항목:** 2015-01-26_
 
-관리자가 일부 종류의 Lync Server를 변경 하는 경우 (예: 관리자가 새 음성 정책을 만들거나 주소록 서버 구성 설정을 변경 하는 경우) 변경 내용이 중앙 관리 저장소에 기록 됩니다. 그런 다음에는 Lync Server services 또는 서버 역할을 실행 하는 모든 컴퓨터에 변경 내용을 복제 해야 합니다.
+관리자가 특정 종류의 Lync Server를 변경 하는 경우 (예: 관리자가 새 음성 정책을 만들거나 주소록 서버 구성 설정을 변경 하면 변경 내용이 중앙 관리 저장소에 기록 되는 경우) 그런 후에는 Lync Server 서비스 또는 서버 역할을 실행 하는 모든 컴퓨터에 변경 내용을 복제 해야 합니다.
 
-데이터를 복제하기 위해 중앙 관리 서버에서 실행되는 Master Replicator는 변경된 구성 데이터의 스냅샷을 만듭니다. 그런 다음이 스냅숏의 복사본을 Lync Server 서비스 또는 서버 역할을 실행 하는 각 컴퓨터에 보냅니다. 이러한 컴퓨터에서는 복제 에이전트가 스냅샷을 수신하고 변경된 데이터를 업로드합니다. 그런 다음 에이전트는 Master Replicator에 최신 복제 상태를 알리는 메시지를 전송합니다.
+데이터를 복제 하기 위해 마스터 복제기 (중앙 관리 서버에서 실행)에서는 변경 된 구성 데이터의 스냅숏을 만듭니다. 이 스냅숏의 복사본은 Lync Server 서비스 또는 서버 역할을 실행 하는 각 컴퓨터에 전송 됩니다. 이러한 컴퓨터에서 복제 에이전트는 스냅숏을 수신 하 고 변경 된 데이터를 업로드 합니다. 그런 다음 에이전트는 마스터 복제기에서 최신 복제 상태를 보고 하는 메시지를 보냅니다.
 
-CsManagementStoreReplicationStatus cmdlet을 사용 하 여 조직의 Lync Server 컴퓨터 (또는 모든)에 대 한 복제 상태를 확인할 수 있습니다.
+Get-csmanagementstorereplicationstatus cmdlet을 사용 하면 조직에 있는 모든 Lync Server 컴퓨터의 복제 상태를 확인할 수 있습니다.
 
-이 cmdlet을 실행할 수 있는 사람은 누구 인가요? 기본적으로 다음 그룹의 구성원은 CsManagementStoreReplicationStatus cmdlet을 로컬로 실행할 권한이 있습니다. RTCUniversalUserAdmins, RTCUniversalServerAdmins.
+이 cmdlet을 실행할 수 있는 사람은 누구 인가요? 기본적으로 다음 그룹의 구성원은 Get-csmanagementstorereplicationstatus cmdlet을 로컬로 실행할 수 있습니다 RTCUniversalUserAdmins, RTCUniversalServerAdmins를 사용 하도록 허가 됩니다.
 
 이 cmdlet이 할당 된 모든 RBAC 역할 목록 (직접 만든 사용자 지정 RBAC 역할 포함)을 반환 하려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
 
@@ -54,7 +54,7 @@ CsManagementStoreReplicationStatus cmdlet을 사용 하 여 조직의 Lync Serve
 ## <a name="see-also"></a>참고 항목
 
 
-[Get-CsManagementStoreReplicationStatus](https://docs.microsoft.com/powershell/module/skype/Get-CsManagementStoreReplicationStatus)  
+[Get-csmanagementstorereplicationstatus](https://docs.microsoft.com/powershell/module/skype/Get-CsManagementStoreReplicationStatus)  
   
 
 </div>

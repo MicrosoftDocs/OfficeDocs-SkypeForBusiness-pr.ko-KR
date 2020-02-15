@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server와 함께 작동하도록 Microsoft Exchange Server의 통합 메시징 구성'
+title: 'Lync Server 2013: Lync Server에서 작동 하도록 Microsoft Exchange Server의 통합 메시징 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e2bc41d4fa0411c4184c0edda35d6d0cd98df9a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2cbb859a3cd9f49791eb7b959a59c00c38db6336
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734478"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41995973"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Lync Server 2013과 함께 작동하도록 Microsoft Exchange Server의 통합 메시징 구성
+# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Lync Server 2013에서 작동 하도록 Microsoft Exchange Server의 통합 메시징 구성
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41734478"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-11_
+_**마지막으로 수정 된 항목:** 2012-10-11_
 
 <div>
 
 
 > [!IMPORTANT]  
-> UM (통합 메시징)을 사용 하 여 Enterprise Voice 사용자를 위한 전화 접속, Outlook Voice Access 또는 자동 전화 교환 서비스를 제공 하려는 경우 계획 설명서의 <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Lync Server 2013에서 Exchange 통합 메시징 통합에 대 한 계획</A> 을 읽고이 섹션의 지침을 따릅니다.
+> Exchange UM (통합 메시징)을 사용 하 여 Enterprise Voice users에 대 한 전화 응답, Outlook Voice Access 또는 자동 전화 교환 서비스를 제공 하려는 경우 계획 설명서의 <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Lync Server 2013에서 Exchange 통합 메시징 통합에 대 한 계획</A> 을 읽고이 섹션의 지침을 따르세요.
 
 
 
 </div>
 
-엔터프라이즈 음성으로 작업 하도록 Exchange UM (통합 메시징)를 구성 하려면 다음 작업을 수행 해야 합니다.
+Enterprise Voice와 함께 작동 하도록 Exchange UM (통합 메시징)을 구성 하려면 다음 작업을 수행 해야 합니다.
 
   - Exchange UM (통합 메시징) 서비스를 실행 하는 서버에서 인증서 구성
     
@@ -55,61 +55,61 @@ _**마지막으로 수정한 주제:** 2012-10-11_
     
 
     > [!NOTE]  
-    > 모든 클라이언트 액세스 및 사서함 서버를 모든 UM SIP URI 다이얼 플랜에 추가 합니다. 그렇지 않은 경우에는 아웃 바운드 통화 라우팅이 예상 대로 작동 하지 않습니다.
+    > 모든 클라이언트 액세스 및 사서함 서버를 모든 UM SIP URI 다이얼 플랜에 추가 합니다. 그렇지 않으면 아웃 바운드 통화 라우팅이 예상 대로 작동 하지 않습니다.
 
     
     </div>
 
   - 필요에 따라 하나 이상의 UM SIP URI 다이얼 플랜을 구독자 액세스 전화 번호와 함께 만든 다음 해당 Lync Server 다이얼 플랜을 만듭니다.
 
-  - Exchucutil 스크립트를 사용 하 여 다음을 수행 **합니다** .
+  - **Exchucutil.ps1** 스크립트를 사용 하 여 다음을 수행 합니다.
     
-      - UM IP 게이트웨이를 만듭니다.
+      - UM IP 게이트웨이 만들기
     
-      - UM 헌트 그룹을 만듭니다.
+      - UM 헌트 그룹 만들기
     
-      - Lync Server 2013에서 UM Active Directory 도메인 서비스 개체를 읽을 수 있는 권한을 부여 합니다.
+      - Lync Server 2013에 UM Active Directory 도메인 서비스 개체를 읽을 수 있는 권한을 부여 합니다.
 
   - UM 자동 전화 교환 개체를 만듭니다.
 
   - 구독자 액세스 개체를 만듭니다.
 
-  - 각 사용자에 대해 SIP URI를 만들고 사용자를 UM SIP URI 다이얼 플랜에 연결 합니다.
+  - 각 사용자에 대해 SIP URI를 만들고 UM SIP URI 다이얼 플랜에 사용자를 연결 합니다.
 
 <div>
 
-## <a name="requirements-and-recommendations"></a>요구 사항 및 제안
+## <a name="requirements-and-recommendations"></a>요구 사항 및 권장 사항
 
-시작 하기 전에이 섹션의 문서에서는 다음과 같은 Exchange 2013 역할을 배포한 것으로 가정 합니다. 클라이언트 액세스 및 사서함. Microsoft Exchange Server 2013에서는 Exchange UM을 이러한 서버에서 서비스로 실행 합니다.
+시작 하기 전에이 섹션의 설명서에서는 클라이언트 액세스 및 사서함과 같은 Exchange 2013 역할을 배포한 것으로 가정 합니다. Microsoft Exchange Server 2013에서 Exchange UM은 이러한 서버에서 서비스로 실행 됩니다.
 
-Exchange 2013 배포에 대 한 자세한 내용은 Exchange 2013 TechNet 라이브러리를 참조 하세요.[http://go.microsoft.com/fwlink/p/?LinkId=266637](http://go.microsoft.com/fwlink/p/?linkid=266637)
+Exchange 2013 배포에 대 한 자세한 내용은 다음 위치에서 Exchange 2013 TechNet 라이브러리를 참조 하세요.[http://go.microsoft.com/fwlink/p/?LinkId=266637](http://go.microsoft.com/fwlink/p/?linkid=266637)
 
-또한 다음을 참고 하세요.
+또한 다음에 주의하십시오.
 
-  - Exchange UM을 여러 포리스트에 설치 하는 경우 각 UM 포리스트에 대해 Exchange Server 통합 단계를 수행 해야 합니다. 또한 각 UM 포리스트는 Lync Server 2013을 배포 하는 포리스트를 신뢰 하도록 구성 해야 하며, 각 UM 포리스트를 신뢰 하도록 Lync Server 2013를 배포 하는 포리스트를 구성 해야 합니다.
+  - Exchange UM이 여러 포리스트에 설치 된 경우 각 UM 포리스트에서 Exchange Server 통합 단계를 수행 해야 합니다. 또한 각 UM 포리스트는 Lync Server 2013이 배포 되는 포리스트를 신뢰 하도록 구성 해야 하며, Lync Server 2013가 배포 되는 포리스트는 각 UM 포리스트를 신뢰 하도록 구성 해야 합니다.
 
-  - 통합 메시징 서비스가 실행 되는 Exchange 서버 역할 및 Lync Server 2013를 실행 하는 서버에 대해 통합 단계를 수행 합니다. Lync Server 2013 통합 단계를 수행 하기 전에 Exchange Server 통합 메시징 통합 단계를 수행 해야 합니다.
+  - 통합 메시징 서비스가 실행 되 고 있는 Exchange 서버 역할과 Lync Server 2013을 실행 하는 서버에서 함께 수행 하는 작업에 대해 설명 합니다. Lync Server 2013 통합 단계를 수행 하기 전에 Exchange Server 통합 메시징 통합 단계를 수행 해야 합니다.
     
     <div>
     
 
     > [!NOTE]  
-    > 어떤 서버와 어떤 관리자 역할에 대해 어떤 통합 단계를 수행 해야 하는지 확인 하려면 온 <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">-프레미스 통합 메시징 및 Lync Server 2013 통합에 대 한 배포 프로세스</A>를 참조 하세요.
+    > 어떤 서버에서 어떤 통합 단계를 수행 하 고 어떤 관리자 역할을 사용 하는지 확인 하려면 <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">온-프레미스 통합 메시징 및 Lync Server 2013 통합을 위한 배포 프로세스</A>를 참조 하십시오.
 
     
     </div>
 
-Exchange UM을 (를) 실행 하는 각 서버에서 다음 도구를 사용할 수 있어야 합니다.
+다음 도구는 Exchange UM을 실행 하는 각 서버에서 사용할 수 있어야 합니다.
 
   - Exchange 관리 셸
 
-  - 다음 작업을 수행 하는 **exchucutil 스크립트.**
+  - 다음 작업을 수행하는 스크립트 **exchucutil.ps1**
     
       - 각 Lync Server 2013에 대해 UM IP 게이트웨이를 만듭니다.
     
-      - 각 게이트웨이에 대 한 헌트 그룹을 만듭니다. 각 헌트 그룹의 파일럿 식별자는 게이트웨이와 연결 된 프런트 엔드 풀 또는 Standard Edition 서버에서 사용 하는 UM SIP URI 다이얼 플랜을 지정 합니다.
+      - 각 게이트웨이에 대한 헌트 그룹 만들기. 각 헌트 그룹의 파일럿 식별자는 게이트웨이와 연결 된 프런트 엔드 풀 또는 Standard Edition 서버에서 사용 하는 UM SIP URI 다이얼 플랜을 지정 합니다.
     
-      - Active Directory 도메인 서비스에서 Exchange UM 개체를 읽을 수 있도록 Lync Server 2013 사용 권한을 부여 합니다.
+      - Lync Server 2013에 Active Directory 도메인 서비스에서 Exchange UM 개체를 읽을 수 있는 권한을 부여 합니다.
 
 </div>
 

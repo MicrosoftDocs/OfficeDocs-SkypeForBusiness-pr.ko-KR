@@ -12,16 +12,16 @@ ms:contentKeyID: 48185050
 ms.date: 01/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 078c3d8eed34e7fb6fd98d2d7c12014b87a0497b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a13a7d618b7d7f8883d43e6aed7ac456bb5ab6c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724018"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008844"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41724018"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2016-01-21_
+_**마지막으로 수정 된 항목:** 2016-01-21_
 
-풀에 프런트 엔드 서버를 추가 하거나 풀에서 프런트 엔드 서버를 제거 하는 경우에는 풀을 다시 시작 해야 합니다. 사용자에 대 한 서비스 중단을 방지 하려면 프런트 엔드 서버를 추가 하거나 제거할 때 다음 절차를 사용 합니다.
+프런트 엔드 서버를 풀에 추가 하거나 풀에서 프런트 엔드 서버를 제거 하는 경우에는 풀을 다시 시작 해야 합니다. 사용자에 대 한 서비스 중단을 방지 하려면 프런트 엔드 서버를 추가 또는 제거할 때 다음 절차를 사용 합니다.
 
 <div>
 
@@ -53,7 +53,7 @@ _**마지막으로 수정한 주제:** 2016-01-21_
 
 ## <a name="to-add-or-remove-front-end-servers"></a>프런트 엔드 서버를 추가 하거나 제거 하려면
 
-1.  프런트 엔드 서버를 제거 하는 경우 먼저 해당 서버에 대 한 새 연결을 중지 합니다. 이렇게 하려면 다음 cmdlet을 사용 하면 됩니다.
+1.  프런트 엔드 서버를 제거 하는 경우 먼저 해당 서버에 대 한 새 연결을 중지 합니다. 이렇게 하려면 다음 cmdlet을 사용할 수 있습니다.
     
         Stop-CsWindowsServices -Graceful
 
@@ -61,13 +61,13 @@ _**마지막으로 수정한 주제:** 2016-01-21_
 
 3.  토폴로지 작성기를 열고 필요한 서버를 추가 또는 제거 합니다.
 
-4.  토폴로지를 게시 합니다.
+4.  토폴로지를 게시합니다.
 
-5.  풀의 프런트 엔드 서버를 2 개 이상으로 유지 하거나, 두 개 이상의 서버에서 정확히 2 개에 이르기까지 다음 cmdlet을 입력 해야 합니다.
+5.  풀의 프런트 엔드 서버를 2 개 이상으로 만들거나 두 대 이상의 서버에서 정확히 2 개까지 작업을 수행 하지 않은 경우 다음 cmdlet을 입력 해야 합니다.
     
         Reset-CsPoolRegistrarState-ResetType FullReset -PoolFqdn <PoolFqdn>
     
-    풀에 서버가 세 대 이상 있는 경우이 cmdlet을 입력할 때 세 개 이상의 서버가 실행 중 이어야 합니다.
+    풀에 서버가 3 개 이상 있는 경우이 cmdlet을 입력할 때 이러한 서버 중 세 개 이상이 실행 중 이어야 합니다.
 
 6.  풀의 모든 프런트 엔드 서버를 한 번에 하나씩 다시 시작 합니다.
 

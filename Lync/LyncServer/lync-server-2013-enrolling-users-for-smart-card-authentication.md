@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 스마트 카드 인증을 위한 사용자 등록'
+title: 'Lync Server 2013: 스마트 카드 인증용 사용자 등록'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 750e77b342b48d2c81bf05e160779ca5566f5a2f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a1d60a29eff876ef362d15c90e2615fd70bc8774
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735448"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41993813"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41735448"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-07-03_
+_**마지막으로 수정 된 항목:** 2013-07-03_
 
-스마트 카드 인증을 위해 사용자를 등록 하는 방법에는 일반적으로 두 가지가 있습니다. 더 간단한 방법은 사용자가 웹 등록을 사용 하 여 스마트 카드 인증을 직접 등록 하도록 하는 반면 복잡 한 방법은 등록 에이전트를 사용 하는 것입니다. 이 항목에서는 스마트 카드 인증서의 자체 등록에 대해 중점적으로 설명 합니다.
+스마트 카드 인증용으로 사용자를 등록 하는 방법에는 일반적으로 두 가지가 있습니다. 보다 쉬운 방법은 사용자가 웹 등록을 사용 하 여 직접 스마트 카드 인증을 등록 하도록 하는 반면, 복잡 한 방법은 등록 에이전트를 사용 하는 것입니다. 이 항목에서는 스마트 카드 인증서의 자체 등록에 대해 중점적으로 설명 합니다.
 
-등록 에이전트로 사용자를 등록 하는 방법에 대 한 자세한 내용은의 다른 사용자 대신 인증서 등록을 참조 하세요 [http://go.microsoft.com/fwlink/p/?LinkID=313367](http://go.microsoft.com/fwlink/p/?linkid=313367).
+사용자를 대신 하 여 등록 에이전트로 등록 하는 방법에 대 한 자세한 내용은 다른 사용자 대신 인증서 등록을 참조 하십시오 [http://go.microsoft.com/fwlink/p/?LinkID=313367](http://go.microsoft.com/fwlink/p/?linkid=313367).
 
 <div>
 
 ## <a name="to-enroll-users-for-smart-card-authentication"></a>스마트 카드 인증을 위해 사용자를 등록 하려면
 
-1.  Lync를 사용 하는 사용자의 자격 증명을 사용 하 여 Windows 8 workstation에 로그인 합니다.
+1.  Lync 사용 가능 사용자의 자격 증명을 사용 하 여 Windows 8 워크스테이션에 로그인 합니다.
 
-2.  Internet Explorer를 실행합니다.
+2.  Internet Explorer를 시작 합니다.
 
-3.  **인증 기관 웹 등록** 페이지 (예:)로 이동 https://MyCA.contoso.com/certsrv)합니다.
+3.  **인증 기관 웹 등록** 페이지로 이동 합니다 (예:) https://MyCA.contoso.com/certsrv).
     
     <div>
     
@@ -64,37 +64,37 @@ _**마지막으로 수정한 주제:** 2013-07-03_
 
 5.  그런 다음 **고급 요청**을 선택 합니다.
 
-6.  **이 CA에 대 한 요청 만들기 및 제출을**선택 합니다.
+6.  **이 CA에 요청을 만들어 제출 합니다를**선택 합니다.
 
-7.  **인증서 템플릿** 섹션에서 **스마트 카드 사용자** 를 선택 하 고 다음 값을 사용 하 여 고급 인증서 요청을 완료 합니다.
+7.  **인증서 템플릿** 섹션 아래의 **스마트 카드 사용자** 를 선택 하 고 다음 값을 사용 하 여 고급 인증서 요청을 완료 합니다.
     
-      - **키 옵션** 다음 설정을 확인 합니다.
+      - **키 옵션** 에서 다음 설정을 확인 합니다.
         
           - **새 키 집합 만들기** 라디오 단추를 선택 합니다.
         
-          - **CSP**의 경우 **Microsoft 기본 스마트 카드 암호화 공급자** 선택
+          - **CSP**의 경우 **Microsoft 기본 스마트 카드 암호화 공급자** 를 선택 합니다.
         
           - **키 사용**에 대해 **Exchange** 를 선택 합니다 (사용 가능한 유일한 옵션).
         
-          - **키 크기**에는 **2048** 을 입력 합니다.
+          - **키 크기**에 **2048** 을 입력 합니다.
         
           - **자동 키 컨테이너 이름이** 선택 되었는지 확인
         
-          - 다른 확인란은 선택 하지 않은 상태로 둡니다.
+          - 다른 확인란은 선택 하지 않은 상태로 유지 합니다.
     
       - **추가 옵션** 에서 다음 값을 확인 합니다.
         
-          - **요청 형식의** 경우 **CMC**를 선택 합니다.
+          - **요청 형식** 에 대해 **CMC**를 선택 합니다.
         
           - **해시 알고리즘** 의 경우 **sha1**을 선택 합니다.
         
-          - **대화명** 으로 **Smardcard Certificate**를 입력 합니다.
+          - **이름** 으로 **Smardcard 인증서**를 입력 합니다.
 
-8.  실제 스마트 카드 판독기를 사용 하는 경우 장치에 스마트 카드를 삽입 합니다.
+8.  실제 스마트 카드 판독기를 사용 하는 경우 장치에 스마트 카드로 삽입 합니다.
 
 9.  **제출을** 클릭 하 여 인증서 요청을 제출 합니다.
 
-10. 메시지가 표시 되 면 가상 스마트 카드를 만드는 데 사용 된 PIN을 입력 합니다.
+10. 메시지가 나타나면 가상 스마트 카드를 만드는 데 사용 된 PIN을 입력 합니다.
     
     <div>
     
@@ -111,12 +111,12 @@ _**마지막으로 수정한 주제:** 2013-07-03_
     
 
     > [!NOTE]  
-    > "이 웹 브라우저가 인증서 요청 생성을 지원 하지 않습니다" 오류가 발생 하 여 인증서 요청이 실패 하면 문제를 해결할 수 있는 세 가지 방법이 있습니다. 
+    > "이 웹 브라우저가 인증서 요청 생성을 지원 하지 않습니다." 라는 오류로 인해 인증서 요청이 실패 하면 문제를 해결할 수 있는 세 가지 방법이 있습니다. 
     > <OL>
     > <LI>
     > <P>Internet Explorer에서 호환성 보기 사용</P>
     > <LI>
-    > <P>Internet Explorer에서 인트라넷 설정 켜기 옵션 사용</P>
+    > <P>Internet Explorer에서 인트라넷 설정 켜기 옵션을 사용 하도록 설정</P>
     > <LI>
     > <P>Internet Explorer 옵션 메뉴의 보안 탭에 있는 모든 영역을 기본 수준으로 다시 설정 설정을 선택 합니다.</P></LI></OL>
 

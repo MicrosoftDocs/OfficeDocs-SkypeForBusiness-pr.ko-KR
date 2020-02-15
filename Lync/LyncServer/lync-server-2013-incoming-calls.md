@@ -12,16 +12,16 @@ ms:contentKeyID: 51803948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e70e5a489cbfa581c666374e6535b898727e1fdc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c153af6e14c291189f714f7054f72301d6859a88
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763802"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036838"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763802"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-03-09_
+_**마지막으로 수정 된 항목:** 2013-03-09_
 
-위치 기반 라우팅에 대해 사용 하도록 설정 된 사용자에 게 들어오는 통화 라우팅은 사용자 끝점의 위치에 따라 달라 집니다. 수신 전화 라우팅은 다음과 같은 방식으로 영향을 받습니다. 사용자가 위치 기반 라우팅 사용 네트워크 사이트에 있는 끝점에 대 한 수신 호출을가지고 있고, 종점이 PSTN 게이트웨이와 동일한 네트워크 사이트에 있는 경우에는 통화가 라우팅됩니다. 사용자가 위치 기반 라우팅 사용 네트워크 사이트에 있는 끝점에 대 한 수신 호출을가지고 있고 해당 끝점이 PSTN 게이트웨이와 다른 네트워크 사이트에 있는 경우에는 통화가 라우팅되지 않습니다. 사용자에 게 수신 통화가 시작 되는 PSTN 게이트웨이와 동일한 네트워크 사이트에 있는 끝점이 없는 경우 수신 전화는 사용자의 음성 메일로 직접 라우팅되며 부재 중 전화 알림이 상대방이 전송 됩니다.
+위치 기반 라우팅을 사용 하도록 설정 된 사용자에 대 한 수신 전화 라우팅은 사용자 끝점의 위치에 따라 달라 집니다. 수신 전화의 라우팅은 다음과 같은 방식으로 영향을 받습니다. 사용자가 위치 기반 라우팅 사용 네트워크 사이트에 있는 끝점에 대 한 수신 전화를가지고 있고 해당 끝점이 PSTN 게이트웨이와 동일한 네트워크 사이트에 있는 경우 통화가 라우팅됩니다. 사용자가 위치 기반 라우팅 설정 네트워크 사이트에 있는 끝점에 대 한 수신 호출을가지고 있고 끝점이 PSTN 게이트웨이와 다른 네트워크 사이트에 있는 경우에는 통화가 라우팅되지 않습니다. 사용자가 수신 전화를 거는 PSTN 게이트웨이와 동일한 네트워크 사이트에 있는 끝점이 없으면 수신 전화가 사용자의 음성 메일로 직접 라우팅되고 부재 중 전화 알림이 발신자에 게 전송 됩니다.
 
-위치 기반 라우팅에 대해 사용 하도록 설정 된 사용자의 착신 전환 설정은 계속 적용 되지만, 착신 전환 된 통화에는 사용자의 위치 기반 라우팅 제한 사항이 적용 됩니다.
+위치 기반 라우팅을 사용 하도록 설정 된 사용자의 착신 전환 설정은 계속 적용 되지만 착신 전환 된 통화에는 사용자의 위치 기반 라우팅 제한 사항이 적용 됩니다.
 
-다음 표에서는 위치 기반 라우팅이 호출 수신자의 끝점 위치에 따라 인바운드 호출의 라우팅에 영향을 주는 방식을 보여 줍니다. PSTN 게이트웨이의 네트워크 사이트는 위치 기반 라우팅에 사용할 수 있으며, 위치 기반 라우팅은 동일한 네트워크 사이트 내의 끝점에 대 한 PSTN 호출 라우팅만 허용 합니다.
+다음 표에서는 수신자의 끝점 위치에 따라 위치 기반 라우팅이 인바운드 호출의 라우팅에 미치는 영향을 보여 줍니다. 위치 기반 라우팅을 위해 PSTN 게이트웨이의 네트워크 사이트를 사용할 수 있으며, 위치 기반 라우팅은 동일한 네트워크 사이트 내의 끝점에 대 한 PSTN 호출 라우팅만 허용 합니다.
 
-### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a>호출 수신자가 PSTN에서 인바운드 호출을 수신 합니다.
+### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a>수신자가 PSTN에서 인바운드 호출을 수신 합니다.
 
 <table>
 <colgroup>
@@ -55,17 +55,17 @@ _**마지막으로 수정한 주제:** 2013-03-09_
 <thead>
 <tr class="header">
 <th></th>
-<th>PSTN 게이트웨이와 동일한 네트워크 사이트에 있는 피호출자의 끝점</th>
-<th>PSTN 게이트웨이와 동일한 네트워크 사이트에 호출 수신자의 끝점이 위치 하지 않음</th>
-<th>알 수 없는 네트워크 사이트에 있는 피호출자의 끝점 또는 위치 기반 라우팅에 대해 사용 안 함</th>
+<th>PSTN 게이트웨이와 같은 네트워크 사이트에 있는 수신자의 끝점</th>
+<th>PSTN 게이트웨이와 동일한 네트워크 사이트에 있는 수신자의 끝점 없음</th>
+<th>알 수 없는 네트워크 사이트에 있는 수신자의 끝점 또는 위치 기반 라우팅을 사용 하도록 설정 되지 않음</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>인바운드 PSTN 통화 라우팅</p></td>
-<td><p>수신 통화가 호출 수신자의 끝점으로 라우팅됩니다.</p></td>
-<td><p>수신 통화가 피호출자의 끝점으로 라우팅되지 않습니다.</p></td>
-<td><p>수신 통화가 피호출자의 끝점으로 라우팅되지 않습니다.</p></td>
+<td><p>수신 전화가 수신자의 끝점으로 라우팅됩니다.</p></td>
+<td><p>수신 전화가 수신자의 끝점으로 라우팅되지 않습니다.</p></td>
+<td><p>수신 전화가 수신자의 끝점으로 라우팅되지 않습니다.</p></td>
 </tr>
 </tbody>
 </table>
@@ -77,7 +77,7 @@ _**마지막으로 수정한 주제:** 2013-03-09_
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013의 위치 기반 라우팅 시나리오](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Lync Server 2013의 위치 기반 라우팅에 대 한 시나리오](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

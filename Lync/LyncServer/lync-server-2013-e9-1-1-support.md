@@ -12,16 +12,16 @@ ms:contentKeyID: 48183485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1412830edf1ff260ed272164d1bdbc9b10bfe83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d38dfb5b75f367b84c51d14d820462e69669befd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729408"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006284"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41729408"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-21_
+_**마지막으로 수정 된 항목:** 2012-09-21_
 
-Lync Server 2013는 엔터프라이즈 배포의 일부로 향상 된 9-1-1 (E9-1)을 지원 합니다. E9-1-1은 전화 상대의 전화 번호를 도심 (즉, 거리) 주소와 연결 하는 긴급 알림 기능입니다. E9-1-1 지원은 미국 에서만 사용할 수 있습니다.
+Lync Server 2013는 엔터프라이즈 배포의 일부로, E9-1-1 (고급 9-1-1)을 지원 합니다. E9-1-1은 발신자의 전화 번호와 주소를 연결하는 긴급 알림 기능입니다. E9-1-1은 미국에서만 지원됩니다.
 
-Lync Server 2013 배포의 일부로 E9-1을 지원 하려면 인증 된 비상 서비스 공급자 로부터 E9-1 라우팅 서비스를 획득 하거나 비상 위치 Id 번호 (ELIN) 게이트웨이를 사용 해야 합니다. 비상 서비스 공급자 또는 통신 회사는 Lync Server 2013에서 발생 하는 비상 전화를 통화 내에 포함 된 위치 정보에 따라 올바른 공공 안전 응답 시점 (PSAP)으로 라우팅합니다. E9-1-1 지원에 대 한 자세한 내용은 계획 설명서의 [Lync Server 2013에서 응급 서비스 계획 (E9-1-1)](lync-server-2013-planning-for-emergency-services-e9-1-1.md) 을 참조 하세요.
+Lync Server 2013 배포의 일환으로 E9-1-1을 지원 하려면 인증 된 응급 서비스 공급자 로부터 E9-1-1 라우팅 서비스를 구하거 나 비상 위치 식별 번호 (ELIN) 게이트웨이를 사용 해야 합니다. 응급 서비스 공급자 또는 반송파는 호출에 포함 된 위치 정보에 따라 Lync Server 2013에서 올바른 공용 안전 응답 지점 (PSAP)로 보낸 긴급 통화를 라우팅합니다. E9-1-1 지원에 대 한 자세한 내용은 계획 설명서에서 [Lync Server 2013의 응급 서비스 계획 (E9-1)](lync-server-2013-planning-for-emergency-services-e9-1-1.md) 을 참조 하십시오.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733774
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bbc4ca63a2b2b31a43b5f5a99aa007fedc745b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2d5dfa79936b5d9162c6907df961dee38fa1fec2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756102"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41992503"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41756102"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-Lync server 2013 제어판 또는 Lync Server 관리 셸에서 Lync Server 2013 PIN 정책을 관리할 수 있습니다. 조직의 PIN 정책을 구성 하려면 다음 절차를 사용 합니다.
+Lync server 2013 제어판 또는 Lync Server 관리 셸에서 Lync Server 2013 PIN 정책을 관리할 수 있습니다. 조직의 PIN 정책을 구성하려면 다음 절차를 따르십시오.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에서 PIN 정책 inforrmation 보기](lync-server-2013-view-pin-policy-inforrmation.md)
+  - [Lync Server 2013에서 PIN 정책 정보 보기 보기](lync-server-2013-view-pin-policy-inforrmation.md)
 
   - [Lync Server 2013에서 새 PIN 정책 만들기](lync-server-2013-create-a-new-pin-policy.md)
 
   - [Lync Server 2013에서 기존 PIN 정책 수정](lync-server-2013-modify-an-existing-pin-policy.md)
 
-  - [Lync Server 2013에서 핀 정책 삭제](lync-server-2013-delete-a-pin-policy.md)
+  - [Lync Server 2013에서 PIN 정책 삭제](lync-server-2013-delete-a-pin-policy.md)
 
-  - [Lync Server 2013에서 사용자 단위 PIN 정책 할당](lync-server-2013-assign-a-per-user-pin-policy.md)
+  - [Lync Server 2013에서 사용자별 PIN 정책 할당](lync-server-2013-assign-a-per-user-pin-policy.md)
 
 </div>
 

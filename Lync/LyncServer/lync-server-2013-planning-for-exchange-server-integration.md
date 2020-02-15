@@ -12,20 +12,20 @@ ms:contentKeyID: 49733693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ebfc5543e7708b4c88bce458ae8a0a20b3ac593
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 631e80d9de61e2304cd8ec65bb144aa3e0e3e7fb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725428"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-exchange-server-integration-with-lync-server-2013"></a>Lync Server 2013에서 Exchange Server 통합 계획
+# <a name="planning-for-exchange-server-integration-with-lync-server-2013"></a>Lync Server 2013와의 Exchange Server 통합 계획
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41725428"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-20_
+_**마지막으로 수정 된 항목:** 2012-09-20_
 
-조직에서 Exchange 및 Lync Server를 둘 다 배포 하는 경우 두 제품의 여러 기능이 향상 됩니다. 이 섹션에서는 이러한 기능에 대 한 정보를 제공 합니다.
+조직에 Exchange 및 Lync Server를 둘 다 배포 하면 두 제품의 기능 대부분이 향상 됩니다. 이 섹션에서는 이러한 기능들에 대한 정보를 제공합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Microsoft Lync Server 2013 및 Microsoft Exchange Server 2013 통합](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
+  - [Microsoft Lync Server 2013과 Microsoft Exchange Server 2013 통합](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
 
   - [Lync Server 2013의 Exchange 통합 메시징 통합 계획](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
 

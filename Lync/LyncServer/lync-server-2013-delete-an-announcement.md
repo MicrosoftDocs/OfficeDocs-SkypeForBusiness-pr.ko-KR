@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 공지 사항 삭제'
+title: 'Lync Server 2013: 알림 삭제'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733588
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91a15057e4785a16e7fc632422573ee02d1d920b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a7c21a6b44d31514cc9addc800b2ae0812a5ad3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736428"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035974"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-announcement-in-lync-server-2013"></a>Lync Server 2013에서 공지 사항 삭제
+# <a name="delete-an-announcement-in-lync-server-2013"></a>Lync Server 2013에서 알림 삭제
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41736428"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-다음 절차를 사용 하 여 할당 되지 않은 번호로 전화를 거는 데 사용 되는 알림을 삭제 합니다.
+다음 절차에 따라 지정 되지 않은 번호에 대 한 통화에 사용 되는 알림을 삭제 합니다.
 
 <div>
 
-## <a name="to-delete-an-announcement"></a>공지 사항을 삭제 하려면
+## <a name="to-delete-an-announcement"></a>알림을 삭제 하려면
 
-1.  Lync Server Management 셸이 RTCUniversalServerAdmins group의 구성원으로 설치 된 컴퓨터 또는 [Lync server 2013의 대리인 설정 권한에](lync-server-2013-delegate-setup-permissions.md)설명 된 대로 필요한 사용자 권한으로 로그온 합니다.
+1.  Lync server 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치 되어 있거나 [Lync server 2013의 설치 권한 위임](lync-server-2013-delegate-setup-permissions.md)에 설명 된 대로 필요한 사용자 권한으로 컴퓨터에 로그온 합니다.
 
-2.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  조직의 모든 공지 사항을 나열 합니다. 명령줄에서 다음을 실행 합니다.
+3.  조직의 모든 알림을 나열 합니다. 명령줄에서 다음을 실행합니다.
     
         Get-CsAnnouncement
 
-4.  결과 목록에서 삭제 하려는 공지 사항을 찾아 GUID를 복사 합니다. 그런 다음 명령줄에서 다음을 실행 합니다.
+4.  결과 목록에서 삭제 하려는 알림을 찾은 다음 GUID를 복사 합니다. 그런 다음 명령줄에서 다음을 실행 합니다.
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>" 
     
-    예를 들면 다음과 같습니다.
+    예:
     
         Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
     
@@ -63,7 +63,7 @@ _**마지막으로 수정한 주제:** 2012-11-01_
     
 
     > [!NOTE]  
-    > 추가 옵션에 대 한 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Csannouncement 가져오기</A> 및 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">-csannouncement 제거</A>를 참조 하세요.
+    > 더 많은 옵션에 대 한 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">csannouncement</A> 및 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-csannouncement</A>를 참조 하십시오.
 
     
     </div>
@@ -78,8 +78,8 @@ _**마지막으로 수정한 주제:** 2012-11-01_
 [Lync Server 2013에서 알림 만들기](lync-server-2013-create-an-announcement.md)  
 
 
-[CsAnnouncement 제거](https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement)  
-[다운로드-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement)  
+[CsAnnouncement-사후 알림](https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement)  
+[Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement)  
   
 
 </div>

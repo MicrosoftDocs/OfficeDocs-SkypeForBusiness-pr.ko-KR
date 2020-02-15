@@ -12,20 +12,20 @@ ms:contentKeyID: 48183233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2e5dc3323ad14f02a5b24258878512707f66f19
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db3e420a1fad89692133df4422138b43d4d7210e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764474"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987033"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-sites-for-lync-server-2013"></a>Lync Server 2013에 대한 Lync Server 사이트
+# <a name="lync-server-sites-for-lync-server-2013"></a>Lync Server 2013 용 lync Server 사이트
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41764474"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-16_
+_**마지막으로 수정 된 항목:** 2012-10-16_
 
-Lync Server에서 Lync 서버 구성 요소를 포함 하는 네트워크 *사이트* 를 정의 합니다. 사이트는 단일 LAN 또는 고속 광섬유 네트워크로 연결 된 두 대의 네트워크와 같이 고속의 짧은 대기 네트워크로 연결 된 컴퓨터 집합입니다 .이 (가) 있습니다. Lync Server 사이트는 Active Directory 도메인 서비스 사이트 및 Microsoft Exchange Server 사이트와는 별개의 개념을 참조 하세요. Lync Server 사이트는 Active Directory 사이트와 일치 하지 않아도 됩니다.
+Lync Server에서는 Lync Server 구성 요소를 포함 하는 네트워크의 *사이트* 를 정의 합니다. 사이트는 단일 LAN(Local Area Network)이나 고속 광섬유 네트워크로 연결된 두 개의 네트워크와 같이 고속, 짧은 대기 시간 네트워크로 견고하게 연결된 컴퓨터 집합입니다. Lync Server 사이트는 Active Directory 도메인 서비스 사이트와 Microsoft Exchange Server 사이트와는 별개의 개념입니다. Lync Server 사이트가 Active Directory 사이트와 일치할 필요는 없습니다.
 
 <div>
 
-## <a name="site-types"></a>사이트 종류
+## <a name="site-types"></a>사이트 유형
 
-각 사이트는 하나 이상의 프런트 엔드 풀 또는 스탠더드 버전 서버를 포함 하는 *중앙 사이트*이거나 *지점 사이트*입니다. 각 지점 사이트는 정확히 하나의 중앙 사이트와 연결 되며, 지점 사이트의 사용자는 연결 된 중앙 사이트의 서버에서 대부분의 Lync Server 기능을 가져옵니다.
+각 사이트는 하나 이상의 프런트 엔드 풀 또는 Standard Edition server 또는 *분기 사이트*를 포함 하는 *중앙 사이트*입니다. 각 분기 사이트는 정확히 하나의 중앙 사이트와 연결 되며, 분기 사이트의 사용자는 연결 된 중앙 사이트에 있는 서버에서 대부분의 Lync Server 기능을 가져옵니다.
 
-각 지점 사이트에는 다음 중 하나가 포함 됩니다.
+각 분기 사이트는 다음 중 하나를 포함합니다.
 
-  - Lync Server 등록자와 Windows Server에서 실행 되는 중재 서버를 사용 하는 산업 표준 블레이드 서버인 *Survivable Branch 기기 (SBA)*. Survivable Branch 기기에는 PSTN (공용 전환 전화 네트워크) 게이트웨이도 포함 되어 있습니다. Survivable Branch 기기는 25 명에서 1000 사용자 사이의 지점 사이트를 위해 설계 되었습니다.
+  - Lync Server 등록자 및 Windows Server에서 실행 되는 중재 서버를 사용 하는 업계 표준의 블레이드 서버인 *SBA (Sba (survivable Branch 어플라이언스)* Sba (survivable 분기 기기에는 PSTN (공중 전화망) 게이트웨이도 포함 되어 있습니다. Sba (survivable 분기 어플라이언스는 25 ~ 1000 명의 사용자가 포함 된 분기 사이트용으로 설계 되었습니다.
 
-  - *Survivable Branch 서버 (SBS)*-Windows Server를 실행 하는 서버로,이는 지정 된 하드웨어 요구 사항을 충족 하며 Lync server 등록자와 중재 서버 소프트웨어가 설치 되어 있는 것입니다. 전화 서비스 공급자에 게 PSTN 게이트웨이나 SIP 트렁크에 연결 해야 합니다. Survivable Branch 서버는 1000와 5000 사용자 사이의 지점 사이트를 위해 설계 되었습니다.
+  - 지정 된 하드웨어 요구 사항을 충족 하 고 Lync Server 등록자 및 중재 서버 소프트웨어가 설치 된 Windows Server를 실행 하는 서버에 해당 하는 *SBS (Sba (survivable Branch server)* 이 서버는 전화 서비스 공급자에 대한 SIP 트렁크 또는 PSTN 게이트웨이에 연결되어야 합니다. 지속 가능 분기 서버는 사용자가 1,000~5,000명 사이인 분기 사이트용으로 디자인됩니다.
 
-  - PSTN 게이트웨이, 선택적으로 *중재 서버*. 이 및 다른 서버 역할에 대 한 자세한 내용은 [Lync server 2013의 서버 역할](lync-server-2013-server-roles.md)을 참조 하세요.
+  - PSTN 게이트웨이 및 *중재 서버*(선택 사항). 이 및 기타 서버 역할에 대 한 자세한 내용은 [Lync server 2013의 서버 역할](lync-server-2013-server-roles.md)을 참조 하십시오.
 
-중앙 사이트에 대 한 회복성 있는 WAN (광역 네트워크) 링크가 있는 지사는 세 번째 옵션인 PSTN 게이트웨이, 선택적으로 중재 서버를 사용할 수 있습니다. 복원성이 적은 링크를 가진 지점 사이트는 Survivable Branch 기기 또는 Survivable Branch 서버를 사용 하 여 광역 네트워크 장애가 발생 한 시간에 탄력성을 제공 해야 합니다. 예를 들어 Survivable Branch 기기 또는 Survivable Branch 서버가 배포 된 사이트에서 사용자는 지점 사이트를 중앙 사이트에 연결 하는 WAN이 작동 하지 않는 경우에도 계속 해 서 엔터프라이즈 음성 통화를 걸고 받을 수 있습니다. Survivable Branch 기기, Survivable Branch 서버 및 복원 력에 대 한 자세한 내용은 계획 설명서의 [Lync Server 2013에서 엔터프라이즈 음성 복원 계획](lync-server-2013-planning-for-enterprise-voice-resiliency.md) 을 참조 하세요.
+중앙 사이트에 대한 복구 가능 WAN(광역 네트워크) 링크가 있는 지점에서는 세 번째 옵션인 PSTN 게이트웨이 및 중재 서버(선택 사항)를 사용할 수 있습니다. 더 낮은 기능의 링크가 포함 된 지점 사이트는 Sba (survivable Branch 기기 또는 Sba (survivable 분기 서버를 사용 하 여 광역 네트워크 오류가 발생 한 시간에 복구를 제공 해야 합니다. 예를 들어 Sba (survivable Branch 기기 또는 Sba (survivable 분기 서버가 배포 된 사이트에서는 분기 사이트를 중앙 사이트에 연결 하는 WAN이 작동 하지 않는 경우 사용자는 여전히 Enterprise Voice 통화를 만들고 받을 수 있습니다. Sba (survivable Branch 기기, Sba (survivable 분기 서버 및 복구에 대 한 자세한 내용은 계획 설명서의 [Lync Server 2013에서 Enterprise Voice 복구 계획](lync-server-2013-planning-for-enterprise-voice-resiliency.md) 을 참조 하십시오.
 
 </div>
 
@@ -61,9 +61,9 @@ Lync Server에서 Lync 서버 구성 요소를 포함 하는 네트워크 *사�
 
 ## <a name="site-topologies"></a>사이트 토폴로지
 
-배포에는 하나 이상의 중앙 사이트가 포함 되어야 하며, 여러 분기 사이트에 0이 포함 될 수 있습니다. 각 지점 사이트는 하나의 중앙 사이트와 관련이 있습니다. 중앙 사이트는 현재 상태, 회의 등 지사 사이트에 로컬로 호스팅되지 않은 지점 사이트에 Lync Server 서비스를 제공 합니다.
+배포에는 하나 이상의 중앙 사이트가 포함되어야 하며, 분기 사이트는 포함되지 않을 수도 있고 여러 개 포함될 수도 있습니다. 각 분기 사이트는 중앙 사이트 하나와 연결됩니다. 중앙 사이트에서는 현재 상태 및 회의와 같은 분기 사이트에서 로컬로 호스트 되지 않는 Lync Server 서비스를 분기 사이트에 제공 합니다.
 
-여러 사이트가 있는 경우 재해 복구 기능을 사용 하도록 다양 한 사이트에서 프런트 엔드 풀을 함께 연결할 수 있습니다. 자세한 내용은 [Lync Server 2013에서 고가용성 및 재해 복구 지원을](lync-server-2013-high-availability-and-disaster-recovery-support.md)참조 하세요.
+사이트가 여러 개인 경우에는 각 사이트의 프런트 엔드 풀을 페어링하여 재해 복구 기능을 사용하도록 설정해야 합니다. 자세한 내용은 [Lync Server 2013에서 고가용성 및 재해 복구 지원](lync-server-2013-high-availability-and-disaster-recovery-support.md)를 참조 하세요.
 
 </div>
 
@@ -76,7 +76,7 @@ Lync Server에서 Lync 서버 구성 요소를 포함 하는 네트워크 *사�
 [Lync Server 2013의 고가용성 및 재해 복구 지원](lync-server-2013-high-availability-and-disaster-recovery-support.md)  
 
 
-[Lync Server 2013 의 Enterprise Voice 복구 계획](lync-server-2013-planning-for-enterprise-voice-resiliency.md)  
+[Lync Server 2013의 Enterprise Voice 복구 계획](lync-server-2013-planning-for-enterprise-voice-resiliency.md)  
   
 
 </div>

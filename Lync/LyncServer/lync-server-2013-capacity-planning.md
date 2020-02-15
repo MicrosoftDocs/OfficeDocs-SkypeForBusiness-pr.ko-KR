@@ -12,20 +12,20 @@ ms:contentKeyID: 49352446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6e2abe708554a24fabfe5c408d969dc0789c683
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ca40d198a03ccae9924292fdf85eb2c10cc5841
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737008"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008530"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-lync-server-2013"></a>Lync Server 2013의 용량 계획
+# <a name="capacity-planning-for-lync-server-2013"></a>Lync Server 2013에 대 한 용량 계획
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737008"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-07-31_
+_**마지막으로 수정 된 항목:** 2013-07-31_
 
-이 섹션의 항목은 조직의 사용자 수를 적절 하 게 계획 하 고 활동에서 생성 되는 서버 부하를 계획할 수 있도록 Lync Server 2013를 계획 하 고 배포 하는 방법을 설명 합니다.
+이 섹션의 항목은 조직의 사용자 수를 적절 하 게 계획 하 고 활동이 생성 하는 서버 부하를 계획할 수 있도록 Lync Server 2013을 계획 및 배포 하는 방법을 이해 하는 데 도움이 됩니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [사용자 모델을 사용 하 여 Lync Server 2013에 대 한 용량 계획](lync-server-2013-capacity-planning-using-the-user-models.md)
+  - [사용자 모델을 사용 하는 Lync Server 2013에 대 한 용량 계획](lync-server-2013-capacity-planning-using-the-user-models.md)
 
   - [Lync Server 2013의 음성 사용량 및 트래픽 예상](lync-server-2013-estimating-voice-usage-and-traffic.md)
 

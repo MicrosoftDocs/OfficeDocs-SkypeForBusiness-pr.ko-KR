@@ -12,16 +12,16 @@ ms:contentKeyID: 49733540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad3d4a56a03d22ecf7fcef85df8b3e6e5ea4c8b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5ae37b876ec2a3cab28d778ffc2bac4682c6a66b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762020"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008690"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762020"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-15_
+_**마지막으로 수정 된 항목:** 2012-10-15_
 
-Lync Server 2013 제어판 또는 Lync Server 2013 관리 셸을 사용 하 여 네트워크 서브넷을 관리할 수 있습니다. 호출 허용 제어 (CAC)가 구현 되는 Lync Server 2013의 대부분 배포에서는 일반적으로 많은 수의 서브넷이 있습니다. 이 때문에 Lync Server 관리 셸에서 서브넷을 구성 하는 것이 가장 좋습니다.
+Lync Server 2013 제어판 또는 Lync Server 2013 관리 셸을 사용 하 여 네트워크 서브넷을 관리할 수 있습니다. Lync Server 2013의 대부분의 배포에서 CAC (통화 허용 제어)가 구현 되 면 일반적으로 많은 수의 서브넷이 만들어집니다. 따라서 Lync Server 관리 셸에서 서브넷을 구성 하는 것이 가장 좋습니다.
 
 <div>
 
@@ -56,7 +56,7 @@ Lync Server 2013 제어판 또는 Lync Server 2013 관리 셸을 사용 하 여 
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013 에서 네트워크 사이트에 서브넷 연결](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
+[Lync Server 2013에서 서브넷을 네트워크 사이트에 연결](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
   
 
 </div>

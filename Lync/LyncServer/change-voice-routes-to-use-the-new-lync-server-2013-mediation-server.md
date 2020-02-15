@@ -13,16 +13,16 @@ ms:contentKeyID: 48185069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40f9bed4262adcabdb23e5b5b85e7de43292d18b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8edaf6c8d912e9784a0a3df6dfe27a45aa873e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727558"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003213"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,37 +36,37 @@ ms.locfileid: "41727558"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-28_
+_**마지막으로 수정 된 항목:** 2012-09-28_
 
-이 절차는 레거시 Office Communications Server 2007 R2 중재 서버 대신 Lync Server 2013 조정 서버를 사용 하도록 음성 경로를 변경 합니다.
+이 절차에서는 레거시 Office Communications Server 2007 R2 중재 서버가 아닌 Lync Server 2013 중재 서버를 사용 하도록 음성 경로를 변경 합니다.
 
 <div>
 
-## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a>새 중재 서버를 사용 하도록 음성 경로를 변경 하려면
+## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a>새 중재 서버를 사용하도록 음성 경로를 변경하려면
 
 1.  Lync Server 2013 제어판
 
-2.  왼쪽 창에서 **음성 라우팅과** **경로**를 차례로 선택 합니다.
+2.  왼쪽 창에서 **음성 라우팅**을 선택한 다음 **경로**를 선택합니다.
 
-3.  새로 **만들기를 클릭 하** 여 새 음성 경로를 만듭니다.
+3.  **새로 만들기**를 클릭하여 새 음성 경로를 만듭니다.
 
-4.  다음 필드를 입력 합니다.
+4.  다음 필드를 채웁니다.
     
-      - **Name (이름**): 음성 경로의 설명적인 이름을 입력 합니다. 이 문서에서는 **W15PSTNRoute**를 사용 합니다.
+      - **이름**: 음성 경로에 대한 설명적인 이름을 입력합니다. 이 문서에서는 **W15PSTNRoute**를 사용합니다.
     
-      - **설명**: 음성 경로에 대 한 간단한 설명을 입력 합니다.
+      - **설명**: 음성 경로에 대한 간단한 설명을 입력합니다.
 
-5.  **연결 된 게이트웨이에**도달할 때까지 나머지 섹션을 모두 건너뜁니다. **추가**를 클릭 합니다. 새 기본 게이트웨이를 선택 하 고 **확인을**클릭 합니다.
+5.  **연결된 게이트웨이**가 표시될 때까지 남은 모든 섹션을 건너뜁니다. **추가**를 클릭합니다. 새 기본 게이트웨이를 선택하고 **확인**을 클릭합니다.
 
-6.  **연결 된 PSTN 용도**에서 **선택을**클릭 합니다.
+6.  **연결된 PSTN 사용** 아래에서 **선택**을 클릭합니다.
 
-7.  **PSTN 사용 레코드 선택** 페이지에서 레코드 이름을 선택한 다음 **확인을**클릭 합니다.
+7.  **PSTN 사용 기록 선택** 페이지에서 레코드 이름을 선택한 후 **확인**을 클릭합니다.
 
-8.  **새 음성 경로** 페이지에서 **확인** 을 클릭 하 여 **음성 경로**를 만듭니다.
+8.  **새 음성 경로** 페이지에서 **확인**을 클릭하여 **음성 경로**를 만듭니다.
 
-9.  **음성 라우팅** 페이지에서 **경로**를 선택 합니다.
+9.  **음성 라우팅** 페이지에서 **경로**를 선택합니다.
 
-10. 새로 만든 경로를 목록의 맨 위로 이동한 다음 **Commit**을 선택 합니다.
+10. 새로 만든 경로를 목록의 맨 위로 이동한 후 **커밋**을 선택합니다.
 
 </div>
 

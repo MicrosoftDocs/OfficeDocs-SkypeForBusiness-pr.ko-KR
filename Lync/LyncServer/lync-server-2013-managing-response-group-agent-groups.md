@@ -12,16 +12,16 @@ ms:contentKeyID: 48183806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6001e8b6301df1863de21e0d88369116cef03ff5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f791ea6a2091ab50e159b541ef19789ffcde02b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756092"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41992173"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756092"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-01_
+_**마지막으로 수정 된 항목:** 2012-10-01_
 
-에이전트 그룹은 응답 그룹에 대 한 통화에 응답 하도록 지정 된 사용자 그룹으로 구성 됩니다. 에이전트 그룹을 만들 때 그룹에 할당 된 에이전트를 선택 하 고 라우팅 메서드, 에이전트에서 그룹에 로그인 할 수 있는지 여부 등의 추가 그룹 설정을 지정 합니다.
+에이전트 그룹은 응답 그룹에 대한 통화에 응답하도록 지정된 사용자 그룹으로 구성됩니다. 에이전트 그룹을 만들 때 그룹에 할당되는 에이전트를 선택하고 라우팅 방법 및 에이전트가 그룹에 로그인하고 그룹에서 로그아웃할 수 있는지 여부와 같은 추가 그룹 설정을 지정합니다.
 
 <div>
 
 
 > [!NOTE]  
-> 사용자가 Enterprise Voice를 사용 하도록 설정 해야 에이전트 그룹에 추가할 수 있습니다. 엔터프라이즈 음성에 대 한 사용자를 설정 하는 방법에 대 한 자세한 내용은 <A href="lync-server-2013-enable-users-for-enterprise-voice.md">Lync Server 2013에서 엔터프라이즈 음성 사용자 사용</A>을 참조 하세요.
+> 사용자가 Enterprise Voice를 사용 하도록 설정 해야 에이전트 그룹에 추가할 수 있습니다. 사용자가 Enterprise Voice를 사용할 수 있도록 설정 하는 방법에 대 한 자세한 내용은 <A href="lync-server-2013-enable-users-for-enterprise-voice.md">Lync Server 2013에서 사용자에 게 Enterprise Voice 사용</A>을 사용 하도록 설정을 참조 하십시오.
 
 
 
@@ -53,21 +53,21 @@ _**마지막으로 수정한 주제:** 2012-10-01_
 
 
 > [!NOTE]  
-> 온-프레미스 사용자만 에이전트 일 수 있습니다. 에이전트가 온-프레미스에서 온라인으로 이동 하는 경우 응답 그룹 통화는 해당 에이전트로 라우팅되지 않습니다.
+> 온-프레미스 사용자만 에이전트가 될 수 있습니다. 에이전트를 온-프레미스에서 온라인으로 이동하면 응답 그룹 통화가 해당 에이전트에게 라우팅되지 않습니다.
 
 
 
 </div>
 
-그룹에 로그인 하 여 Lync Server에 로그인 하거나 로그 아웃 하는 것과는 다른 에이전트를 *공식 에이전트*라고 합니다. 정식 에이전트는 그룹으로 라우팅되는 통화를 수신 하기 전에 먼저 그룹에 로그인 해야 합니다. 이는 파트 시간 단위로 그룹에서 전화를 받는 에이전트에 유용할 수 있습니다. 공식 에이전트는 Lync 2013에서 메뉴 항목을 클릭 하 여 Windows Internet Explorer 인터넷 브라우저를 열고 웹 페이지 콘솔을 표시 하 여 그룹에 로그인 하 고 로그 아웃 합니다.
+Lync Server에 로그인 하거나 외부에서 제외 해야 하는 에이전트를 *공식 에이전트*라고 합니다. 공식 에이전트는 그룹에 로그인해야 그룹에 라우팅된 통화를 수신할 수 있습니다. 이 기능은 비상근직으로 그룹의 호출에 응답하는 에이전트에 유용할 수 있습니다. 공식 에이전트는 Lync 2013에서 메뉴 항목을 클릭 하 여 Windows Internet Explorer 인터넷 브라우저를 열고 웹 페이지 콘솔을 표시 하는 방법으로 그룹에 로그인 하 고 사용자를 제외 합니다.
 
-그룹에 로그인 하거나 로그 아웃 하지 않은 에이전트를 *비공식적인 에이전트*라고 합니다. 비공식적인 에이전트는 Lync Server에 로그인 할 때 자동으로 그룹에 로그인 되며 그룹에서 로그 아웃할 수 없습니다.
+그룹에 로그인하거나 그룹에서 로그아웃하지 않는 에이전트를 *비공식 에이전트*라고 합니다. 사용자가 Lync Server에 로그인 할 때 비공식 에이전트가 그룹에 자동으로 로그인 되며, 그룹에서 로그 아웃할 수 없습니다.
 
 <div>
 
 
 > [!IMPORTANT]  
-> 사용자를 응답 그룹 에이전트로 지정 하는 경우 개인 정보 모드를 사용 하도록 설정한 경우 "RGS 현재 감시자" 연락처를 검색 하 여 해당 연락처 목록에 추가 해야 한다는 것을 알립니다. 개인 정보 모드를 사용 하도록 설정 했지만 대화 상대 목록에 "RGS 현재 상태 감시자"가 없는 에이전트는 응답 그룹에 대 한 통화를 받을 수 없습니다. 개인 정보 모드를 사용할 수 없는 에이전트는 영향을 받지 않습니다.
+> 사용자를 응답 그룹 에이전트로 할당할 때 해당 사용자가 개인 정보 보호 모드를 사용하도록 설정한 경우 "RGS Presence Watcher" 대화 상대를 검색하여 대화 상대 목록에 추가해야 합니다. 개인 정보 보호 모드를 사용하도록 설정한 에이전트의 대화 상대 목록에 "RGS Presence Watcher"가 없으면 응답 그룹으로 걸려 온 전화를 받을 수 없습니다. 개인 정보 보호 모드를 사용하도록 설정하지 않은 에이전트는 영향을 받지 않습니다.
 
 
 
