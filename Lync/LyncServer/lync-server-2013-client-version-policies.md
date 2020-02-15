@@ -12,20 +12,20 @@ ms:contentKeyID: 50675351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81d930e1f3991235f34735ac0c178199e06caa9f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1af922cb1c6542835d696406e52b6d9f37fe4a52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742818"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-version-policies-in-lync-server-2013"></a><span data-ttu-id="36c18-102">Lync Server 2013의 클라이언트 버전 정책</span><span class="sxs-lookup"><span data-stu-id="36c18-102">Client version policies in Lync Server 2013</span></span>
+# <a name="client-version-policies-in-lync-server-2013"></a><span data-ttu-id="ee082-102">Lync Server 2013의 클라이언트 버전 정책</span><span class="sxs-lookup"><span data-stu-id="ee082-102">Client version policies in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41742818"
 
 <span> </span>
 
-<span data-ttu-id="36c18-103">_**마지막으로 수정한 주제:** 2012-12-11_</span><span class="sxs-lookup"><span data-stu-id="36c18-103">_**Topic Last Modified:** 2012-12-11_</span></span>
+<span data-ttu-id="ee082-103">_**마지막으로 수정 된 항목:** 2012-12-11_</span><span class="sxs-lookup"><span data-stu-id="ee082-103">_**Topic Last Modified:** 2012-12-11_</span></span>
 
-<span data-ttu-id="36c18-104">클라이언트 버전 정책은 전역 또는 특정 사이트, 풀 또는 사용자 그룹에 클라이언트 버전 관리 규칙 집합을 적용 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="36c18-104">Client version policies are used to apply a set of client versioning rules globally or to a particular site, pool, or group of users.</span></span> <span data-ttu-id="36c18-105">다음 절차를 사용 하 여 Lync Server 2013에 대 한 클라이언트 버전 정책을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="36c18-105">Use the following procedures to configure client version policies for Lync Server 2013.</span></span>
+<span data-ttu-id="ee082-104">클라이언트 버전 정책은 전역으로 또는 특정 사이트, 풀 또는 사용자 그룹에 클라이언트 버전 관리 규칙 집합을 적용 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee082-104">Client version policies are used to apply a set of client versioning rules globally or to a particular site, pool, or group of users.</span></span> <span data-ttu-id="ee082-105">Lync Server 2013에 대 한 클라이언트 버전 정책을 구성 하려면 다음 절차를 따르십시오.</span><span class="sxs-lookup"><span data-stu-id="ee082-105">Use the following procedures to configure client version policies for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="36c18-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="36c18-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ee082-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="ee082-106">In This Section</span></span>
 
-  - [<span data-ttu-id="36c18-107">Lync Server 2013에서 클라이언트 버전 정책 보기</span><span class="sxs-lookup"><span data-stu-id="36c18-107">View client version policies in Lync Server 2013</span></span>](lync-server-2013-view-client-version-policies.md)
+  - [<span data-ttu-id="ee082-107">Lync Server 2013에서 클라이언트 버전 정책 보기</span><span class="sxs-lookup"><span data-stu-id="ee082-107">View client version policies in Lync Server 2013</span></span>](lync-server-2013-view-client-version-policies.md)
 
-  - [<span data-ttu-id="36c18-108">Lync Server 2013에서 새 클라이언트 버전 정책 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="36c18-108">Create or modify a new client version policy in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-new-client-version-policy.md)
+  - [<span data-ttu-id="ee082-108">Lync Server 2013에서 새 클라이언트 버전 정책 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="ee082-108">Create or modify a new client version policy in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-new-client-version-policy.md)
 
-  - [<span data-ttu-id="36c18-109">Lync Server 2013에서 기존 클라이언트 버전 정책 삭제</span><span class="sxs-lookup"><span data-stu-id="36c18-109">Delete an existing client version policy in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-client-version-policy.md)
+  - [<span data-ttu-id="ee082-109">Lync Server 2013에서 기존 클라이언트 버전 정책 삭제</span><span class="sxs-lookup"><span data-stu-id="ee082-109">Delete an existing client version policy in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-client-version-policy.md)
 
 </div>
 

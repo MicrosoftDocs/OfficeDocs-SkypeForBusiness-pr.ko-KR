@@ -12,20 +12,20 @@ ms:contentKeyID: 48183431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f4709743df0cffaed9200bf3dc480cc19fd48f0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9aa31c37c2785d6e789fb6d02523ddd27cd8a152
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765789"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-client-features-in-lync-server-2013"></a><span data-ttu-id="cd8b7-102">Lync Server 2013의 새로운 클라이언트 기능</span><span class="sxs-lookup"><span data-stu-id="cd8b7-102">New client features in Lync Server 2013</span></span>
+# <a name="new-client-features-in-lync-server-2013"></a><span data-ttu-id="d06d6-102">Lync Server 2013의 새로운 클라이언트 기능</span><span class="sxs-lookup"><span data-stu-id="d06d6-102">New client features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765789"
 
 <span> </span>
 
-<span data-ttu-id="cd8b7-103">_**마지막으로 수정한 주제:** 2012-06-04_</span><span class="sxs-lookup"><span data-stu-id="cd8b7-103">_**Topic Last Modified:** 2012-06-04_</span></span>
+<span data-ttu-id="d06d6-103">_**마지막으로 수정 된 항목:** 2012-06-04_</span><span class="sxs-lookup"><span data-stu-id="d06d6-103">_**Topic Last Modified:** 2012-06-04_</span></span>
 
-<span data-ttu-id="cd8b7-104">다음 섹션에서는 Lync Server 2013 클라이언트에 대 한 새로운 기능과 배포 업데이트에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="cd8b7-104">The following sections describe new features and deployment updates for Lync Server 2013 clients.</span></span>
+<span data-ttu-id="d06d6-104">다음 섹션에서는 Lync Server 2013 클라이언트에 대 한 새로운 기능 및 배포 업데이트에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="d06d6-104">The following sections describe new features and deployment updates for Lync Server 2013 clients.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="cd8b7-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="cd8b7-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d06d6-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="d06d6-105">In This Section</span></span>
 
-  - [<span data-ttu-id="cd8b7-106">Lync Server 2013의 새로운 클라이언트 기능</span><span class="sxs-lookup"><span data-stu-id="cd8b7-106">What's new for clients in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-clients.md)
+  - [<span data-ttu-id="d06d6-106">Lync Server 2013의 새로운 클라이언트 기능</span><span class="sxs-lookup"><span data-stu-id="d06d6-106">What's new for clients in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-clients.md)
 
-  - [<span data-ttu-id="cd8b7-107">Lync Server 2013의 장치에 대한 새로운 기능</span><span class="sxs-lookup"><span data-stu-id="cd8b7-107">What's new for devices in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-devices.md)
+  - [<span data-ttu-id="d06d6-107">Lync Server 2013의 장치에 대 한 새로운 기능</span><span class="sxs-lookup"><span data-stu-id="d06d6-107">What's new for devices in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-devices.md)
 
 </div>
 

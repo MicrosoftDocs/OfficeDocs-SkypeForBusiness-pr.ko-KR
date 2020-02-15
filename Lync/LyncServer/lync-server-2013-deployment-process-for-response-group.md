@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 응답 그룹에 대 한 배포 프로세스'
+title: 'Lync Server 2013: 응답 그룹 배포 프로세스'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2eb302f57cd335decf3523c271ff464f2954db86
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dfc249ec8df233e6c22c9d5c1b54b81e23c5a173
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762586"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-response-group-in-lync-server-2013"></a><span data-ttu-id="5dd8d-102">Lync Server 2013의 응답 그룹에 대 한 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="5dd8d-102">Deployment process for Response Group in Lync Server 2013</span></span>
+# <a name="deployment-process-for-response-group-in-lync-server-2013"></a><span data-ttu-id="a5489-102">Lync Server 2013의 응답 그룹 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="a5489-102">Deployment process for Response Group in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41762586"
 
 <span> </span>
 
-<span data-ttu-id="5dd8d-103">_**마지막으로 수정한 주제:** 2012-09-27_</span><span class="sxs-lookup"><span data-stu-id="5dd8d-103">_**Topic Last Modified:** 2012-09-27_</span></span>
+<span data-ttu-id="a5489-103">_**마지막으로 수정 된 항목:** 2012-09-27_</span><span class="sxs-lookup"><span data-stu-id="a5489-103">_**Topic Last Modified:** 2012-09-27_</span></span>
 
-<span data-ttu-id="5dd8d-104">이 섹션에서는 응답 그룹 응용 프로그램 배포 단계에 대 한 개요를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-104">This section provides an overview of the phases and steps involved in deploying the Response Group application.</span></span>
+<span data-ttu-id="a5489-104">이 섹션에서는 응답 그룹 응용 프로그램 배포와 관련 된 단계 및 단계에 대 한 개요를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-104">This section provides an overview of the phases and steps involved in deploying the Response Group application.</span></span>
 
-### <a name="response-group-deployment-process"></a><span data-ttu-id="5dd8d-105">응답 그룹 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="5dd8d-105">Response Group Deployment Process</span></span>
+### <a name="response-group-deployment-process"></a><span data-ttu-id="a5489-105">응답 그룹 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="a5489-105">Response Group Deployment Process</span></span>
 
 <table>
 <colgroup>
@@ -50,87 +50,87 @@ ms.locfileid: "41762586"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5dd8d-106">단계의</span><span class="sxs-lookup"><span data-stu-id="5dd8d-106">Phase</span></span></th>
-<th><span data-ttu-id="5dd8d-107">방법은</span><span class="sxs-lookup"><span data-stu-id="5dd8d-107">Steps</span></span></th>
-<th><span data-ttu-id="5dd8d-108">필요한</span><span class="sxs-lookup"><span data-stu-id="5dd8d-108">Permissions</span></span></th>
-<th><span data-ttu-id="5dd8d-109">배포 설명서</span><span class="sxs-lookup"><span data-stu-id="5dd8d-109">Deployment documentation</span></span></th>
+<th><span data-ttu-id="a5489-106">단계</span><span class="sxs-lookup"><span data-stu-id="a5489-106">Phase</span></span></th>
+<th><span data-ttu-id="a5489-107">단계</span><span class="sxs-lookup"><span data-stu-id="a5489-107">Steps</span></span></th>
+<th><span data-ttu-id="a5489-108">권한</span><span class="sxs-lookup"><span data-stu-id="a5489-108">Permissions</span></span></th>
+<th><span data-ttu-id="a5489-109">배포 설명서</span><span class="sxs-lookup"><span data-stu-id="a5489-109">Deployment documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5dd8d-110">응답 그룹 응용 프로그램 설치</span><span class="sxs-lookup"><span data-stu-id="5dd8d-110">Install the Response Group application</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-111">엔터프라이즈 음성을 배포할 때 응답 그룹 응용 프로그램이 기본적으로 설치 되 고 활성화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-111">The Response Group application is installed and activated by default when you deploy Enterprise Voice.</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-112">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="5dd8d-112">RTCUniversalServerAdmins</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-113"><a href="lync-server-2013-deploying-enterprise-voice.md">Lync Server 2013에서 엔터프라이즈 음성 배포</a></span><span class="sxs-lookup"><span data-stu-id="5dd8d-113"><a href="lync-server-2013-deploying-enterprise-voice.md">Deploying Enterprise Voice in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a5489-110">응답 그룹 응용 프로그램 설치</span><span class="sxs-lookup"><span data-stu-id="a5489-110">Install the Response Group application</span></span></p></td>
+<td><p><span data-ttu-id="a5489-111">Enterprise Voice를 배포할 때 응답 그룹 응용 프로그램이 기본적으로 설치 및 활성화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-111">The Response Group application is installed and activated by default when you deploy Enterprise Voice.</span></span></p></td>
+<td><p><span data-ttu-id="a5489-112">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="a5489-112">RTCUniversalServerAdmins</span></span></p></td>
+<td><p><span data-ttu-id="a5489-113"><a href="lync-server-2013-deploying-enterprise-voice.md">Lync Server 2013에서 Enterprise Voice 배포</a></span><span class="sxs-lookup"><span data-stu-id="a5489-113"><a href="lync-server-2013-deploying-enterprise-voice.md">Deploying Enterprise Voice in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5dd8d-114">응답 그룹의 구성 요소 설치</span><span class="sxs-lookup"><span data-stu-id="5dd8d-114">Install components for Response Group</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-115">Lync server 제어판, 응답 그룹 구성 도구, 에이전트 ' 로그인 및 로그 아웃 콘솔, 응답 그룹 클라이언트 웹 서비스는 웹 서비스의 일부로 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-115">Lync Server cmdlets, the Lync Server Control Panel, Response Group Configuration Tool, agents' sign-in and sign-out console, and Response Group Client Web service are installed as part of Web Services.</span></span> <span data-ttu-id="5dd8d-116">웹 서비스는 엔터프라이즈 버전 풀이나 Standard Edition 서버를 배포 하는 경우에 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-116">Web Services is installed when you deploy an Enterprise Edition pool or a Standard Edition server.</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-117">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="5dd8d-117">RTCUniversalServerAdmins</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-118"><a href="lync-server-2013-deploying-lync-server.md">Lync Server 2013 배포</a></span><span class="sxs-lookup"><span data-stu-id="5dd8d-118"><a href="lync-server-2013-deploying-lync-server.md">Deploying Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a5489-114">응답 그룹 구성 요소 설치</span><span class="sxs-lookup"><span data-stu-id="a5489-114">Install components for Response Group</span></span></p></td>
+<td><p><span data-ttu-id="a5489-115">Lync Server cmdlet, Lync Server 제어판, 응답 그룹 구성 도구, 에이전트의 로그인 및 로그 아웃 콘솔 및 응답 그룹 클라이언트 웹 서비스는 웹 서비스의 일부로 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-115">Lync Server cmdlets, the Lync Server Control Panel, Response Group Configuration Tool, agents' sign-in and sign-out console, and Response Group Client Web service are installed as part of Web Services.</span></span> <span data-ttu-id="a5489-116">웹 서비스는 Enterprise Edition 풀이나 Standard Edition Server 배포 시 설치됩니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-116">Web Services is installed when you deploy an Enterprise Edition pool or a Standard Edition server.</span></span></p></td>
+<td><p><span data-ttu-id="a5489-117">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="a5489-117">RTCUniversalServerAdmins</span></span></p></td>
+<td><p><span data-ttu-id="a5489-118"><a href="lync-server-2013-deploying-lync-server.md">Lync Server 2013 배포</a></span><span class="sxs-lookup"><span data-stu-id="a5489-118"><a href="lync-server-2013-deploying-lync-server.md">Deploying Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5dd8d-119">Lync 2013 및 Enterprise Voice에 대해 사용자 설정</span><span class="sxs-lookup"><span data-stu-id="5dd8d-119">Enable users for Lync 2013 and for Enterprise Voice</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-120">Lync Server 및 Enterprise Voice의 에이전트로 사용할 사용자를 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-120">Enable users who will be agents for Lync Server and Enterprise Voice.</span></span> <span data-ttu-id="5dd8d-121">사용자는 에이전트 그룹에 추가 하기 전에 먼저 사용 하도록 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-121">Users must be enabled before you can add them to agent groups.</span></span> <span data-ttu-id="5dd8d-122">일반적으로 사용자는 Enterprise Edition 또는 Standard Edition 서버 배포 중에 Lync Server를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-122">Typically, users are enabled for Lync Server during the Enterprise Edition or Standard Edition server deployment.</span></span> <span data-ttu-id="5dd8d-123">엔터프라이즈 음성 배포 중에 사용자가 엔터프라이즈 음성을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-123">Users are enabled for Enterprise Voice during the Enterprise Voice deployment.</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-124">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="5dd8d-124">RTCUniversalUserAdmins</span></span></p>
-<p><span data-ttu-id="5dd8d-125">CsUserAdministrator</span><span class="sxs-lookup"><span data-stu-id="5dd8d-125">CsUserAdministrator</span></span></p>
-<p><span data-ttu-id="5dd8d-126">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="5dd8d-126">CsAdministrator</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-127"><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Lync Server 2013의 사용자 계정을 사용 하지 않도록 설정 하거나 다시 사용 하도록 설정</a></span><span class="sxs-lookup"><span data-stu-id="5dd8d-127"><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Disable or re-enable user account for Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="5dd8d-128"><a href="lync-server-2013-enable-users-for-enterprise-voice.md">Lync Server 2013에서 엔터프라이즈 음성에 대 한 사용자 활성화</a></span><span class="sxs-lookup"><span data-stu-id="5dd8d-128"><a href="lync-server-2013-enable-users-for-enterprise-voice.md">Enable users for Enterprise Voice in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a5489-119">사용자가 Lync 2013 및 Enterprise Voice를 사용할 수 있도록 설정</span><span class="sxs-lookup"><span data-stu-id="a5489-119">Enable users for Lync 2013 and for Enterprise Voice</span></span></p></td>
+<td><p><span data-ttu-id="a5489-120">Lync Server 및 Enterprise Voice를 위한 에이전트로 사용할 사용자를 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-120">Enable users who will be agents for Lync Server and Enterprise Voice.</span></span> <span data-ttu-id="a5489-121">에이전트 그룹에 사용자를 추가하려면 해당 사용자가 사용되도록 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-121">Users must be enabled before you can add them to agent groups.</span></span> <span data-ttu-id="a5489-122">일반적으로 사용자는 Enterprise Edition 또는 Standard Edition 서버 배포 중에 Lync Server를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-122">Typically, users are enabled for Lync Server during the Enterprise Edition or Standard Edition server deployment.</span></span> <span data-ttu-id="a5489-123">Enterprise Voice 배포 중에 사용자가 Enterprise Voice를 사용할 수 있도록 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-123">Users are enabled for Enterprise Voice during the Enterprise Voice deployment.</span></span></p></td>
+<td><p><span data-ttu-id="a5489-124">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="a5489-124">RTCUniversalUserAdmins</span></span></p>
+<p><span data-ttu-id="a5489-125">CsUserAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5489-125">CsUserAdministrator</span></span></p>
+<p><span data-ttu-id="a5489-126">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5489-126">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="a5489-127"><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Lync Server 2013에 대해 사용자 계정을 사용 하지 않도록 설정 하거나 다시 사용 하도록 설정</a></span><span class="sxs-lookup"><span data-stu-id="a5489-127"><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Disable or re-enable user account for Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="a5489-128"><a href="lync-server-2013-enable-users-for-enterprise-voice.md">Lync Server 2013에서 Enterprise Voice를 사용할 수 있도록 사용자 설정</a></span><span class="sxs-lookup"><span data-stu-id="a5489-128"><a href="lync-server-2013-enable-users-for-enterprise-voice.md">Enable users for Enterprise Voice in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5dd8d-129">에이전트 그룹, 큐 및 워크플로로 구성 된 응답 그룹을 만들고 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-129">Create and configure response groups, which consist of agent groups, queues, and workflows</span></span></p></td>
+<td><p><span data-ttu-id="a5489-129">에이전트 그룹, 큐 및 워크플로로 구성 된 응답 그룹 만들기 및 구성</span><span class="sxs-lookup"><span data-stu-id="a5489-129">Create and configure response groups, which consist of agent groups, queues, and workflows</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="5dd8d-130">Lync Server 제어판 또는 Lync Server 관리 셸을 사용 하 여 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-130">Use the Lync Server Control Panel or Lync Server Management Shell to do the following:</span></span></p>
+<li><p><span data-ttu-id="a5489-130">Lync Server 제어판 또는 Lync Server 관리 셸을 사용 하 여 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-130">Use the Lync Server Control Panel or Lync Server Management Shell to do the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="5dd8d-131">에이전트 그룹을 만들고 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-131">Create and configure agent groups.</span></span></p></li>
-<li><p><span data-ttu-id="5dd8d-132">큐를 만들고 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-132">Create and configure queues.</span></span></p></li>
+<li><p><span data-ttu-id="a5489-131">에이전트 그룹을 만들고 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-131">Create and configure agent groups.</span></span></p></li>
+<li><p><span data-ttu-id="a5489-132">큐를 만들고 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-132">Create and configure queues.</span></span></p></li>
 </ol></li>
-<li><p><span data-ttu-id="5dd8d-133">선택적으로 Lync Server Management Shell을 사용 하 여 미리 정의 된 응답 그룹 비즈니스 시간 및 휴일을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-133">Optionally, use Lync Server Management Shell to create predefined response group business hours and holidays.</span></span></p></li>
-<li><p><span data-ttu-id="5dd8d-134">응답 그룹 구성 도구 또는 Lync Server Management Shell을 사용 하 여 사용자 지정 응답 그룹 비즈니스 시간 및 휴일을 비롯 한 워크플로 (헌트 그룹 또는 IVR (대화형 음성 응답) 통화 흐름)를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-134">Use the Response Group Configuration Tool or Lync Server Management Shell to create workflows (hunt groups or interactive voice response (IVR) call flows), including custom response group business hours and holidays.</span></span></p>
+<li><p><span data-ttu-id="a5489-133">필요한 경우 Lync Server 관리 셸을 사용 하 여 미리 정의 된 응답 그룹 업무 시간 및 휴일을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-133">Optionally, use Lync Server Management Shell to create predefined response group business hours and holidays.</span></span></p></li>
+<li><p><span data-ttu-id="a5489-134">응답 그룹 구성 도구 또는 Lync Server 관리 셸을 사용 하 여 사용자 지정 응답 그룹 업무 시간 및 휴일을 포함 하 여 워크플로 (헌트 그룹 또는 IVR (대화형 음성 응답) 호출 흐름)를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-134">Use the Response Group Configuration Tool or Lync Server Management Shell to create workflows (hunt groups or interactive voice response (IVR) call flows), including custom response group business hours and holidays.</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="5dd8d-135">Lync Server 제어판을 통해 응답 그룹 구성 도구에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-135">You can access the Response Group Configuration Tool through Lync Server Control Panel.</span></span>
+> <span data-ttu-id="a5489-135">Lync Server 제어판을 통해 응답 그룹 구성 도구에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-135">You can access the Response Group Configuration Tool through Lync Server Control Panel.</span></span>
 
 
 </div></li>
 </ol></td>
-<td><p><span data-ttu-id="5dd8d-136">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="5dd8d-136">RTCUniversalServerAdmins</span></span></p>
-<p><span data-ttu-id="5dd8d-137">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="5dd8d-137">CsResponseGroupAdministrator</span></span></p>
-<p><span data-ttu-id="5dd8d-138">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="5dd8d-138">CsVoiceAdministrator</span></span></p>
-<p><span data-ttu-id="5dd8d-139">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="5dd8d-139">CsServerAdministrator</span></span></p>
-<p><span data-ttu-id="5dd8d-140">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="5dd8d-140">CsAdministrator</span></span></p>
-<p><span data-ttu-id="5dd8d-141">CsResponseGroupManager</span><span class="sxs-lookup"><span data-stu-id="5dd8d-141">CsResponseGroupManager</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-142"><a href="lync-server-2013-create-response-group-agent-groups.md">Lync Server 2013에서 응답 그룹 에이전트 그룹 만들기</a></span><span class="sxs-lookup"><span data-stu-id="5dd8d-142"><a href="lync-server-2013-create-response-group-agent-groups.md">Create Response Group agent groups Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="5dd8d-143"><a href="lync-server-2013-create-response-group-queues.md">Lync Server 2013에서 응답 그룹 큐 만들기</a></span><span class="sxs-lookup"><span data-stu-id="5dd8d-143"><a href="lync-server-2013-create-response-group-queues.md">Create Response Group queues in Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="5dd8d-144"><a href="lync-server-2013-optional-define-response-group-business-hours.md">) Lync Server 2013에서 응답 그룹 비즈니스 시간 정의</a></span><span class="sxs-lookup"><span data-stu-id="5dd8d-144"><a href="lync-server-2013-optional-define-response-group-business-hours.md">(Optional) Define Response Group business hours in Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="5dd8d-145"><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">) Lync Server 2013에서 응답 그룹의 휴일 집합 정의</a></span><span class="sxs-lookup"><span data-stu-id="5dd8d-145"><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">(Optional) Define Response Group holiday sets in Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="5dd8d-146"><a href="lync-server-2013-create-or-modify-a-workflow.md">Lync Server 2013에서 워크플로 만들기 또는 수정</a></span><span class="sxs-lookup"><span data-stu-id="5dd8d-146"><a href="lync-server-2013-create-or-modify-a-workflow.md">Create or modify a workflow in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a5489-136">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="a5489-136">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="a5489-137">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5489-137">CsResponseGroupAdministrator</span></span></p>
+<p><span data-ttu-id="a5489-138">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5489-138">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="a5489-139">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5489-139">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="a5489-140">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5489-140">CsAdministrator</span></span></p>
+<p><span data-ttu-id="a5489-141">CsResponseGroupManager</span><span class="sxs-lookup"><span data-stu-id="a5489-141">CsResponseGroupManager</span></span></p></td>
+<td><p><span data-ttu-id="a5489-142"><a href="lync-server-2013-create-response-group-agent-groups.md">응답 그룹 에이전트 그룹 만들기 Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="a5489-142"><a href="lync-server-2013-create-response-group-agent-groups.md">Create Response Group agent groups Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="a5489-143"><a href="lync-server-2013-create-response-group-queues.md">Lync Server 2013에서 응답 그룹 큐 만들기</a></span><span class="sxs-lookup"><span data-stu-id="a5489-143"><a href="lync-server-2013-create-response-group-queues.md">Create Response Group queues in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="a5489-144"><a href="lync-server-2013-optional-define-response-group-business-hours.md">반드시 Lync Server 2013에서 응답 그룹 업무 시간 정의</a></span><span class="sxs-lookup"><span data-stu-id="a5489-144"><a href="lync-server-2013-optional-define-response-group-business-hours.md">(Optional) Define Response Group business hours in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="a5489-145"><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">반드시 Lync Server 2013에서 응답 그룹 휴일 집합 정의</a></span><span class="sxs-lookup"><span data-stu-id="a5489-145"><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">(Optional) Define Response Group holiday sets in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="a5489-146"><a href="lync-server-2013-create-or-modify-a-workflow.md">Lync Server 2013에서 워크플로 만들기 또는 수정</a></span><span class="sxs-lookup"><span data-stu-id="a5489-146"><a href="lync-server-2013-create-or-modify-a-workflow.md">Create or modify a workflow in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5dd8d-147">) 응용 프로그램 수준 설정 사용자 지정</span><span class="sxs-lookup"><span data-stu-id="5dd8d-147">(Optional) Customize application-level settings</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-148">Lync Server Management Shell을 사용 하 여 기본 음악 보관 구성, 기본 음악 오디오 파일, 에이전트 ringback 유예 기간, 통화 컨텍스트 구성을 사용자 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-148">Use Lync Server Management Shell to customize the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration.</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-149">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="5dd8d-149">RTCUniversalServerAdmins</span></span></p>
-<p><span data-ttu-id="5dd8d-150">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="5dd8d-150">CsResponseGroupAdministrator</span></span></p>
-<p><span data-ttu-id="5dd8d-151">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="5dd8d-151">CsVoiceAdministrator</span></span></p>
-<p><span data-ttu-id="5dd8d-152">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="5dd8d-152">CsServerAdministrator</span></span></p>
-<p><span data-ttu-id="5dd8d-153">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="5dd8d-153">CsAdministrator</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-154"><a href="lync-server-2013-managing-application-level-response-group-settings.md">Lync Server 2013의 응용 프로그램 수준 응답 그룹 설정 관리</a></span><span class="sxs-lookup"><span data-stu-id="5dd8d-154"><a href="lync-server-2013-managing-application-level-response-group-settings.md">Managing application-level Response Group settings in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a5489-147">반드시 응용 프로그램 수준 설정 사용자 지정</span><span class="sxs-lookup"><span data-stu-id="a5489-147">(Optional) Customize application-level settings</span></span></p></td>
+<td><p><span data-ttu-id="a5489-148">Lync Server 관리 셸을 사용 하 여 기본 음악 대기 구성, 기본 음악 대기 오디오 파일, 에이전트의 되 걸기 유예 기간 및 통화 컨텍스트 구성을 사용자 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-148">Use Lync Server Management Shell to customize the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration.</span></span></p></td>
+<td><p><span data-ttu-id="a5489-149">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="a5489-149">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="a5489-150">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5489-150">CsResponseGroupAdministrator</span></span></p>
+<p><span data-ttu-id="a5489-151">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5489-151">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="a5489-152">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5489-152">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="a5489-153">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5489-153">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="a5489-154"><a href="lync-server-2013-managing-application-level-response-group-settings.md">Lync Server 2013에서 응용 프로그램 수준 응답 그룹 설정 관리</a></span><span class="sxs-lookup"><span data-stu-id="a5489-154"><a href="lync-server-2013-managing-application-level-response-group-settings.md">Managing application-level Response Group settings in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5dd8d-155">) 응답 그룹의 관리 위임</span><span class="sxs-lookup"><span data-stu-id="5dd8d-155">(Optional) Delegate management of response groups</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-156">응답 그룹의 구성을 위임 하도록 CsResponseGroupManager 역할을 사용자에 게 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-156">Assign users the CsResponseGroupManager role to delegate configuration of response groups.</span></span> <span data-ttu-id="5dd8d-157">그러면 응답 그룹 관리자가 자신에 게 할당 된 응답 그룹을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-157">Response Group Managers can then configure the response groups assigned to them.</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-158">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="5dd8d-158">RTCUniversalServerAdmins</span></span></p>
-<p><span data-ttu-id="5dd8d-159">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="5dd8d-159">CsResponseGroupAdministrator</span></span></p>
-<p><span data-ttu-id="5dd8d-160">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="5dd8d-160">CsVoiceAdministrator</span></span></p>
-<p><span data-ttu-id="5dd8d-161">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="5dd8d-161">CsServerAdministrator</span></span></p>
-<p><span data-ttu-id="5dd8d-162">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="5dd8d-162">CsAdministrator</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-163"><a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013의 역할 기반 액세스 제어 계획</a></span><span class="sxs-lookup"><span data-stu-id="5dd8d-163"><a href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a5489-155">반드시 응답 그룹 관리 위임</span><span class="sxs-lookup"><span data-stu-id="a5489-155">(Optional) Delegate management of response groups</span></span></p></td>
+<td><p><span data-ttu-id="a5489-156">사용자에 게 CsResponseGroupManager 역할을 할당 하 여 응답 그룹의 구성을 위임 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-156">Assign users the CsResponseGroupManager role to delegate configuration of response groups.</span></span> <span data-ttu-id="a5489-157">그러면 응답 그룹 관리자가 자신에 게 할당 된 응답 그룹을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-157">Response Group Managers can then configure the response groups assigned to them.</span></span></p></td>
+<td><p><span data-ttu-id="a5489-158">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="a5489-158">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="a5489-159">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5489-159">CsResponseGroupAdministrator</span></span></p>
+<p><span data-ttu-id="a5489-160">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5489-160">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="a5489-161">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5489-161">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="a5489-162">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5489-162">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="a5489-163"><a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013에서 역할 기반 액세스 제어 계획</a></span><span class="sxs-lookup"><span data-stu-id="a5489-163"><a href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5dd8d-164">응답 그룹 배포 확인</span><span class="sxs-lookup"><span data-stu-id="5dd8d-164">Verify your Response Group deployment</span></span></p></td>
-<td><p><span data-ttu-id="5dd8d-165">헌트 그룹과 대화형 음성 응답 워크플로에 대 한 응답 전화를 테스트 하 여 구성이 예상 대로 작동 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="5dd8d-165">Test answering calls to your hunt group and interactive voice response workflows to ensure that your configuration works as expected.</span></span></p></td>
+<td><p><span data-ttu-id="a5489-164">응답 그룹 배포 확인</span><span class="sxs-lookup"><span data-stu-id="a5489-164">Verify your Response Group deployment</span></span></p></td>
+<td><p><span data-ttu-id="a5489-165">헌트 그룹 및 대화형 음성 응답 워크플로에 대한 통화 응답을 테스트하여 구성이 예상대로 작동하는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="a5489-165">Test answering calls to your hunt group and interactive voice response workflows to ensure that your configuration works as expected.</span></span></p></td>
 <td><p>-</p></td>
 <td><p>-</p></td>
 </tr>

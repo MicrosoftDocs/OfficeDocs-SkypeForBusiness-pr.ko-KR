@@ -12,20 +12,20 @@ ms:contentKeyID: 50120200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cc1ab2b397111cef1040592f29a11d55e5f1f64
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 48804305d58be57e824b1ac93f22c2a998d070ce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765326"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-windows-store-app-requirements-for-lync-server-2013"></a><span data-ttu-id="22881-102">Lync Server 2013에 대 한 lync Windows 스토어 앱 요구 사항</span><span class="sxs-lookup"><span data-stu-id="22881-102">Lync Windows Store app requirements for Lync Server 2013</span></span>
+# <a name="lync-windows-store-app-requirements-for-lync-server-2013"></a><span data-ttu-id="eb7ee-102">Lync Server 2013에 대 한 lync Windows 스토어 앱 요구 사항</span><span class="sxs-lookup"><span data-stu-id="eb7ee-102">Lync Windows Store app requirements for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,40 +35,40 @@ ms.locfileid: "41765326"
 
 <span> </span>
 
-<span data-ttu-id="22881-103">_**마지막으로 수정한 주제:** 2013-12-03_</span><span class="sxs-lookup"><span data-stu-id="22881-103">_**Topic Last Modified:** 2013-12-03_</span></span>
+<span data-ttu-id="eb7ee-103">_**마지막으로 수정 된 항목:** 2013-12-03_</span><span class="sxs-lookup"><span data-stu-id="eb7ee-103">_**Topic Last Modified:** 2013-12-03_</span></span>
 
-<span data-ttu-id="22881-104">Lync Server의 온-프레미스 배포를 사용 하는 조직은 Lync Windows 스토어 앱을 지원 하기 위해 다음 요구 사항을 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="22881-104">Organizations with an on-premises deployment of Lync Server must meet the following requirements to support Lync Windows Store app.</span></span>
+<span data-ttu-id="eb7ee-104">Lync Server의 온-프레미스 배포를 사용 하는 조직은 Lync Windows 스토어 앱을 지원 하기 위해 다음 요구 사항을 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7ee-104">Organizations with an on-premises deployment of Lync Server must meet the following requirements to support Lync Windows Store app.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="22881-105">Lync server 2010의 경우 lync server 2010에 대 한 누적 업데이트: 2 월 2012 (at <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> http://go.microsoft.com/fwlink/?linkid=3052&amp, kbid = 2670352</A>사용 가능) 이상 또는 이후 모든 서버에서 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="22881-105">For Lync Server 2010, run the cumulative update for Lync Server 2010: February 2012 (available at <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2670352</A>) or later on all servers.</span></span> <span data-ttu-id="22881-106">사용자가 모임에 참가할 수 있도록 하려면 서버에서 Lync Server 2010:10 월 2012 (at <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> http://go.microsoft.com/fwlink/?linkid=3052&amp, kbid = 2737915</A>에 사용 가능)에 대 한 누적 업데이트를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="22881-106">To enable users to join meetings, run the cumulative update for Lync Server 2010: October 2012 (available at <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2737915</A>) on the servers.</span></span>
+> <span data-ttu-id="eb7ee-105">Lync server 2010의 경우 lync server 2010에 대 한 누적 업데이트: 2 월 2012 (사용 가능한 경우 <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> http://go.microsoft.com/fwlink/?linkid=3052&amp; kbid = 2670352</A>) 이상에서 모든 서버에 대해 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7ee-105">For Lync Server 2010, run the cumulative update for Lync Server 2010: February 2012 (available at <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2670352</A>) or later on all servers.</span></span> <span data-ttu-id="eb7ee-106">사용자가 모임에 참가할 수 있도록 설정 하려면 서버에서 Lync Server 2010 10 월 2012 (사용 가능한 경우 <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> http://go.microsoft.com/fwlink/?linkid=3052&amp, 2737915</A>)에 대 한 누적 업데이트를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7ee-106">To enable users to join meetings, run the cumulative update for Lync Server 2010: October 2012 (available at <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2737915</A>) on the servers.</span></span>
 
 
 
 </div>
 
-  - <span data-ttu-id="22881-107">서버에서 자동 검색, Lync Web App, 웹 티켓 서비스를 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="22881-107">Enable the Autodiscover, Lync Web App, and Web Ticket services on the server.</span></span>
+  - <span data-ttu-id="eb7ee-107">서버에서 자동 검색, Lync Web App 및 웹 티켓 서비스를 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7ee-107">Enable the Autodiscover, Lync Web App, and Web Ticket services on the server.</span></span>
 
-  - <span data-ttu-id="22881-108">프런트 엔드 서버 또는 프런트 엔드 풀에서 인증서 인증을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="22881-108">Enable certificate authentication on the Front End Server or Front End pool.</span></span> <span data-ttu-id="22881-109">프런트 엔드 서버 또는 프런트 엔드 풀의 사용자 등록 프로세스를 레지스트라 라고도 합니다. 자세한 내용은 [Lync Server 2013에서 등록자 구성 설정 만들기](lync-server-2013-create-registrar-configuration-settings.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="22881-109">(The user registration process on the Front End Server or Front End pool is often referred to as the registrar.) For details, see [Create Registrar configuration settings in Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md).</span></span>
+  - <span data-ttu-id="eb7ee-108">프런트 엔드 서버 또는 프런트 엔드 풀에서 인증서 인증을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7ee-108">Enable certificate authentication on the Front End Server or Front End pool.</span></span> <span data-ttu-id="eb7ee-109">프런트 엔드 서버 또는 프런트 엔드 풀의 사용자 등록 프로세스를 등록자 라고 합니다. 자세한 내용은 [Create 등록자 구성 설정에서 Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="eb7ee-109">(The user registration process on the Front End Server or Front End pool is often referred to as the registrar.) For details, see [Create Registrar configuration settings in Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md).</span></span>
 
-  - <span data-ttu-id="22881-110">자동 검색 서비스에 대 한 CNAME (DNS 별칭) 리소스 레코드를 게시 합니다.</span><span class="sxs-lookup"><span data-stu-id="22881-110">Publish the DNS alias (CNAME) resource records for the Autodiscover service.</span></span>
+  - <span data-ttu-id="eb7ee-110">자동 검색 서비스에 대 한 CNAME (DNS 별칭) 리소스 레코드를 게시 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7ee-110">Publish the DNS alias (CNAME) resource records for the Autodiscover service.</span></span>
 
-  - <span data-ttu-id="22881-111">Lync server에 발급 된 인증서의 CDP (인증서 해지 목록)에서 LDAP 리소스 대신 HTTP 리소스를 가리키는지 확인 하는 것은 더 이상 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="22881-111">It is no longer a requirement to make sure the Certificate Revocation List (CRL) Distribution Point (CDP) for the certificates issued to Lync server points to an HTTP resource instead of an LDAP resource.</span></span> <span data-ttu-id="22881-112">그러나 클라이언트 컴퓨터에 최신 Windows 업데이트가 설치 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="22881-112">However, make sure that client computers have the latest Windows updates installed.</span></span>
+  - <span data-ttu-id="eb7ee-111">Lync server에 발급 된 인증서에 대 한 CRL (인증서 해지 목록)이 LDAP 리소스 대신 HTTP 리소스를 가리키는지 확인 하는 것은 더 이상 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="eb7ee-111">It is no longer a requirement to make sure the Certificate Revocation List (CRL) Distribution Point (CDP) for the certificates issued to Lync server points to an HTTP resource instead of an LDAP resource.</span></span> <span data-ttu-id="eb7ee-112">그러나 클라이언트 컴퓨터에 최신 Windows 업데이트가 설치 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7ee-112">However, make sure that client computers have the latest Windows updates installed.</span></span>
 
-  - <span data-ttu-id="22881-113">Lync server 관련 HTTP 트래픽을 허용 하도록 엔터프라이즈의 HTTP 프록시를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="22881-113">Configure HTTP proxies in the enterprise to allow Lync server related HTTP traffic.</span></span><span data-ttu-id="22881-114">필요한 경우 자동 검색, Lync Web App 및 WebTicket 서비스에 대 한 예외를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="22881-114">  Add exceptions for the Autodiscover, Lync Web App, and WebTicket services, if necessary.</span></span>
+  - <span data-ttu-id="eb7ee-113">Lync server 관련 HTTP 트래픽을 허용 하도록 엔터프라이즈의 HTTP 프록시를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7ee-113">Configure HTTP proxies in the enterprise to allow Lync server related HTTP traffic.</span></span><span data-ttu-id="eb7ee-114">필요한 경우 자동 검색, Lync Web App 및 WebTicket 서비스에 대 한 예외를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7ee-114">  Add exceptions for the Autodiscover, Lync Web App, and WebTicket services, if necessary.</span></span>
 
-  - <span data-ttu-id="22881-115">클라이언트에서 여러 도메인을 사용할 때 일반적으로 발생 하는 로그인 문제를 해결 하기 위해 Windows 8.1 및 최신 버전의 Lync Windows 스토어 앱을 설치 합니다 (예: SIP URI가 **userA@domainZ.com** 되지만 Edge 서버는 **sip.domainX.com**).</span><span class="sxs-lookup"><span data-stu-id="22881-115">On clients, install Windows 8.1 and the latest version of Lync Windows Store app to fix a sign-in issue that generally occurs when using multiple domains (for example, when the SIP URI is **userA@domainZ.com** but the Edge Server is **sip.domainX.com**).</span></span>
+  - <span data-ttu-id="eb7ee-115">클라이언트에서 Windows 8.1 및 최신 버전의 Lync Windows 스토어 앱을 설치 하 여 여러 도메인을 사용 하는 경우 일반적으로 발생 하는 로그인 문제 (예: SIP URI가 **userA@domainZ.com** 되지만에 지 서버는 **sip.domainX.com**)를 수정 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7ee-115">On clients, install Windows 8.1 and the latest version of Lync Windows Store app to fix a sign-in issue that generally occurs when using multiple domains (for example, when the SIP URI is **userA@domainZ.com** but the Edge Server is **sip.domainX.com**).</span></span>
 
-<span data-ttu-id="22881-116">조직에서 Lync Online 또는 Office 365를 구독 하 고 사용자 고유의 도메인 이름을 사용 하는 경우 Lync 서버의 자동 검색을 위해 네트워크를 설정 하는 몇 가지 추가 단계를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="22881-116">If your organization subscribes to Lync Online or Office 365 and you are using your own domain name, you must take some extra steps to set up your network for autodiscovery of the Lync servers.</span></span> <span data-ttu-id="22881-117">모바일 장치에서 Lync Windows 스토어 앱과 Lync에 대 한 네트워크 구성 요구 사항이 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="22881-117">The network configuration requirements are the same for Lync Windows Store app and Lync on mobile devices.</span></span> <span data-ttu-id="22881-118">Office 365 위 키 문서에서 "Lync 모바일 장치 설정"에서 사용할 수 있는 "네트워크 설정"의 지침을 따릅니다 [http://go.microsoft.com/fwlink/?LinkId=271822](http://go.microsoft.com/fwlink/?linkid=271822).</span><span class="sxs-lookup"><span data-stu-id="22881-118">Follow the instructions “Set up your network” in the Office 365 wiki article “Set up Lync mobile devices,” available at [http://go.microsoft.com/fwlink/?LinkId=271822](http://go.microsoft.com/fwlink/?linkid=271822).</span></span>
+<span data-ttu-id="eb7ee-116">조직에서 Lync Online 또는 Office 365을 구독 하 고 사용자의 도메인 이름을 사용 하는 경우 Lync 서버의 자동 검색을 위해 네트워크를 설정 하기 위한 몇 가지 추가 단계를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7ee-116">If your organization subscribes to Lync Online or Office 365 and you are using your own domain name, you must take some extra steps to set up your network for autodiscovery of the Lync servers.</span></span> <span data-ttu-id="eb7ee-117">네트워크 구성 요구 사항은 Lync Windows 스토어 앱 및 Lync for 모바일 장치에서 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb7ee-117">The network configuration requirements are the same for Lync Windows Store app and Lync on mobile devices.</span></span> <span data-ttu-id="eb7ee-118">Office 365 wiki 문서 "Lync 모바일 장치 설정"의 "네트워크 설정"에 제공 되는 지침을 따릅니다 [http://go.microsoft.com/fwlink/?LinkId=271822](http://go.microsoft.com/fwlink/?linkid=271822).</span><span class="sxs-lookup"><span data-stu-id="eb7ee-118">Follow the instructions “Set up your network” in the Office 365 wiki article “Set up Lync mobile devices,” available at [http://go.microsoft.com/fwlink/?LinkId=271822](http://go.microsoft.com/fwlink/?linkid=271822).</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="22881-119">참고 항목</span><span class="sxs-lookup"><span data-stu-id="22881-119">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="eb7ee-119">참고 항목</span><span class="sxs-lookup"><span data-stu-id="eb7ee-119">See Also</span></span>
 
 
-[<span data-ttu-id="22881-120">Lync Server 2013에서 Lync Windows 스토어 앱 배포</span><span class="sxs-lookup"><span data-stu-id="22881-120">Deploying Lync Windows Store app in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-windows-store-app.md)  
+[<span data-ttu-id="eb7ee-120">Lync Server 2013에서 Lync Windows 스토어 앱 배포</span><span class="sxs-lookup"><span data-stu-id="eb7ee-120">Deploying Lync Windows Store app in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-windows-store-app.md)  
   
 
 </div>

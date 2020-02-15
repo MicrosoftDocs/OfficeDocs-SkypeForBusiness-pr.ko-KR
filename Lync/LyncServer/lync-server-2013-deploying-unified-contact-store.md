@@ -12,20 +12,20 @@ ms:contentKeyID: 48184373
 ms.date: 06/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d224ec7a9c452c45f9f3471403301460a2a31cc8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d0e8fe5aaac47ce98cfae1376e83cdea89a4a1af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740798"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="95c42-102">Lync Server 2013에서 통합 연락처 저장소 배포</span><span class="sxs-lookup"><span data-stu-id="95c42-102">Deploying unified contact store in Lync Server 2013</span></span>
+# <a name="deploying-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="9f09a-102">Lync Server 2013에서 통합 연락처 저장소 배포</span><span class="sxs-lookup"><span data-stu-id="9f09a-102">Deploying unified contact store in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41740798"
 
 <span> </span>
 
-<span data-ttu-id="95c42-103">_**마지막으로 수정한 주제:** 2016-06-06_</span><span class="sxs-lookup"><span data-stu-id="95c42-103">_**Topic Last Modified:** 2016-06-06_</span></span>
+<span data-ttu-id="9f09a-103">_**마지막으로 수정 된 항목:** 2016-06-06_</span><span class="sxs-lookup"><span data-stu-id="9f09a-103">_**Topic Last Modified:** 2016-06-06_</span></span>
 
-<span data-ttu-id="95c42-104">Lync Server 2013에서 통합 된 연락처 저장소를 사용 하도록 설정 하는 경우에는 토폴로지 설정이 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="95c42-104">Enabling unified contact store in Lync Server 2013 does not require any topology settings.</span></span> <span data-ttu-id="95c42-105">사용자를 위해 통일 된 연락처 저장소를 사용 하도록 설정 하려면 다음이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="95c42-105">Enabling unified contact store for users requires the following:</span></span>
+<span data-ttu-id="9f09a-104">Lync Server 2013에서 통합 연락처 저장소를 사용 하도록 설정 하는 경우에는 토폴로지 설정이 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9f09a-104">Enabling unified contact store in Lync Server 2013 does not require any topology settings.</span></span> <span data-ttu-id="9f09a-105">사용자에 대해 통합 연락처 저장소를 사용 하도록 설정 하려면 다음이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="9f09a-105">Enabling unified contact store for users requires the following:</span></span>
 
-  - <span data-ttu-id="95c42-106">통합 된 대화 상대 저장소 정책을 사용할 수 있습니다 (기본값 사용 가능).</span><span class="sxs-lookup"><span data-stu-id="95c42-106">Unified contact store policy is enabled (default is enabled).</span></span>
+  - <span data-ttu-id="9f09a-106">통합 연락처 저장소 정책이 사용 하도록 설정 되어 있습니다 (기본값을 사용 하도록 설정 됨).</span><span class="sxs-lookup"><span data-stu-id="9f09a-106">Unified contact store policy is enabled (default is enabled).</span></span>
 
-  - <span data-ttu-id="95c42-107">사용자가 최소한 한 번 Lync 2013으로 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="95c42-107">Users log in with Lync 2013 at least once.</span></span>
+  - <span data-ttu-id="9f09a-107">사용자가 한 번 이상 Lync 2013을 사용 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="9f09a-107">Users log in with Lync 2013 at least once.</span></span>
 
-<span data-ttu-id="95c42-108">사용자가 Lync 2013을 사용 하 여 로그인 할 때 자동으로 발생 하는 사용자의 연락처를 마이그레이션한 후에는 사용자가 lync 2013, Outlook 2013 또는 Outlook Web Access에서 Lync 연락처에 액세스 하 고 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="95c42-108">After a user’s contacts have been migrated, which happens automatically when a user logs in with Lync 2013, the user can access and manage their Lync contacts from Lync 2013, Outlook 2013, or Outlook Web Access.</span></span> <span data-ttu-id="95c42-109">사용자는 Outlook 또는 Outlook Web Access에서 연락처를 관리 하기 위해 Lync에 로그인 할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="95c42-109">The user does not have to be logged in to Lync to manage their contacts from Outlook or Outlook Web Access.</span></span>
+<span data-ttu-id="9f09a-108">사용자가 Lync 2013을 사용 하 여 로그인 할 때 자동으로 실행 되는 사용자의 연락처가 마이그레이션된 후 사용자는 Lync 2013, Outlook 2013 또는 Outlook Web Access에서 Lync 연락처에 액세스 하 고 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9f09a-108">After a user’s contacts have been migrated, which happens automatically when a user logs in with Lync 2013, the user can access and manage their Lync contacts from Lync 2013, Outlook 2013, or Outlook Web Access.</span></span> <span data-ttu-id="9f09a-109">사용자는 Outlook 또는 Outlook Web Access에서 연락처를 관리 하기 위해 Lync에 로그인 할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9f09a-109">The user does not have to be logged in to Lync to manage their contacts from Outlook or Outlook Web Access.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="95c42-110">사용자가 마이그레이션 후 Lync 2010에서 로그인 한 경우에는 연락처 및 그룹을 사용할 수 있지만, 사용자는 해당 연락처를 관리 (추가, 삭제, 이동, 태그 지정, untag 또는 수정) 할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="95c42-110">If a user logs in from Lync 2010 after migration, contacts and groups are available and up-to-date, but the user cannot manage (that is, add, delete, move, tag, untag, or modify) those contacts.</span></span>
+> <span data-ttu-id="9f09a-110">사용자가 마이그레이션 후 Lync 2010에서 로그인 하는 경우, 연락처 및 그룹을 최신 상태로 사용할 수 있지만 사용자가 관리할 수는 없습니다 (즉, 해당 연락처를 추가, 삭제, 이동, 태그, 해도, 수정).</span><span class="sxs-lookup"><span data-stu-id="9f09a-110">If a user logs in from Lync 2010 after migration, contacts and groups are available and up-to-date, but the user cannot manage (that is, add, delete, move, tag, untag, or modify) those contacts.</span></span>
 
 
 
@@ -57,13 +57,13 @@ ms.locfileid: "41740798"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="95c42-111">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="95c42-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9f09a-111">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="9f09a-111">In This Section</span></span>
 
-  - [<span data-ttu-id="95c42-112">Lync Server 2013에서 통합 연락처 저장소에 사용자 사용</span><span class="sxs-lookup"><span data-stu-id="95c42-112">Enable users for unified contact store in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-unified-contact-store.md)
+  - [<span data-ttu-id="9f09a-112">Lync Server 2013에서 통합 연락처 저장소에 사용자 사용</span><span class="sxs-lookup"><span data-stu-id="9f09a-112">Enable users for unified contact store in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-unified-contact-store.md)
 
-  - [<span data-ttu-id="95c42-113">Lync Server 2013에서 통합 연락처 저장소로 사용자 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="95c42-113">Migrate users to unified contact store in Lync Server 2013</span></span>](lync-server-2013-migrate-users-to-unified-contact-store.md)
+  - [<span data-ttu-id="9f09a-113">Lync Server 2013에서 통합 연락처 저장소로 사용자 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="9f09a-113">Migrate users to unified contact store in Lync Server 2013</span></span>](lync-server-2013-migrate-users-to-unified-contact-store.md)
 
-  - [<span data-ttu-id="95c42-114">Lync Server 2013에서 마이그레이션된 사용자 롤백</span><span class="sxs-lookup"><span data-stu-id="95c42-114">Roll back migrated users in Lync Server 2013</span></span>](lync-server-2013-roll-back-migrated-users.md)
+  - [<span data-ttu-id="9f09a-114">Lync Server 2013에서 마이그레이션된 사용자 롤백</span><span class="sxs-lookup"><span data-stu-id="9f09a-114">Roll back migrated users in Lync Server 2013</span></span>](lync-server-2013-roll-back-migrated-users.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733667
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04a80b13cc7fd1bd88ce8b361b08938719f5929b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f3fb02e36927c10f5a4f66f0e4908a26e440b555
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744918"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045911"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a><span data-ttu-id="177cd-102">Lync Server 2013의 신뢰할 수 있는 응용 프로그램 (응용 프로그램/컴퓨터/끝점/풀)</span><span class="sxs-lookup"><span data-stu-id="177cd-102">Trusted applications (application/computer/endpoint/pool) in Lync Server 2013</span></span>
+# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a><span data-ttu-id="35a12-102">Lync Server 2013의 신뢰할 수 있는 응용 프로그램 (응용 프로그램/컴퓨터/끝점/풀)</span><span class="sxs-lookup"><span data-stu-id="35a12-102">Trusted applications (application/computer/endpoint/pool) in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41744918"
 
 <span> </span>
 
-<span data-ttu-id="177cd-103">_**마지막으로 수정한 주제:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="177cd-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="35a12-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="35a12-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="177cd-104">이 섹션의 절차를 사용 하 여 Lync Server 2013의 신뢰할 수 있는 응용 프로그램을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="177cd-104">Use the procedures in this section to manage trusted applications for Lync Server 2013.</span></span>
+<span data-ttu-id="35a12-104">이 섹션의 절차를 사용 하 여 Lync Server 2013에 대 한 신뢰할 수 있는 응용 프로그램을 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="35a12-104">Use the procedures in this section to manage trusted applications for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="177cd-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="177cd-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="35a12-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="35a12-105">In This Section</span></span>
 
-  - [<span data-ttu-id="177cd-106">Lync Server 2013에서 신뢰할 수 있는 응용 프로그램 관리</span><span class="sxs-lookup"><span data-stu-id="177cd-106">Managing trusted applications in Lync Server 2013</span></span>](lync-server-2013-managing-trusted-applications.md)
+  - [<span data-ttu-id="35a12-106">Lync Server 2013에서 신뢰할 수 있는 응용 프로그램 관리</span><span class="sxs-lookup"><span data-stu-id="35a12-106">Managing trusted applications in Lync Server 2013</span></span>](lync-server-2013-managing-trusted-applications.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="177cd-107">관련 단원</span><span class="sxs-lookup"><span data-stu-id="177cd-107">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="35a12-107">관련 섹션</span><span class="sxs-lookup"><span data-stu-id="35a12-107">Related Sections</span></span>
 
-[<span data-ttu-id="177cd-108">Lync Server 2013의 신뢰할 수 있는 응용 프로그램 cmdlet</span><span class="sxs-lookup"><span data-stu-id="177cd-108">Trusted applications cmdlets in Lync Server 2013</span></span>](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
+[<span data-ttu-id="35a12-108">Lync Server 2013의 신뢰할 수 있는 응용 프로그램 cmdlet</span><span class="sxs-lookup"><span data-stu-id="35a12-108">Trusted applications cmdlets in Lync Server 2013</span></span>](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="177cd-109">참고 항목</span><span class="sxs-lookup"><span data-stu-id="177cd-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="35a12-109">참고 항목</span><span class="sxs-lookup"><span data-stu-id="35a12-109">See Also</span></span>
 
 
-[<span data-ttu-id="177cd-110">Lync Server 2013에서 신뢰할 수 있는 응용 프로그램 관리</span><span class="sxs-lookup"><span data-stu-id="177cd-110">Managing trusted applications in Lync Server 2013</span></span>](lync-server-2013-managing-trusted-applications.md)  
+[<span data-ttu-id="35a12-110">Lync Server 2013에서 신뢰할 수 있는 응용 프로그램 관리</span><span class="sxs-lookup"><span data-stu-id="35a12-110">Managing trusted applications in Lync Server 2013</span></span>](lync-server-2013-managing-trusted-applications.md)  
   
 
 </div>
