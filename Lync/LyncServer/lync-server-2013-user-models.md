@@ -12,20 +12,20 @@ ms:contentKeyID: 49733811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8f45b3ea11911ea7a3dce36b0b6a9d64ac1e690
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cec912d84859baf77363764851d7abd1592b2760
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744588"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029439"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-models-in-lync-server-2013"></a><span data-ttu-id="91042-102">Lync Server 2013의 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="91042-102">User models in Lync Server 2013</span></span>
+# <a name="user-models-in-lync-server-2013"></a><span data-ttu-id="f7688-102">Lync Server 2013의 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="f7688-102">User models in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41744588"
 
 <span> </span>
 
-<span data-ttu-id="91042-103">_**마지막으로 수정한 주제:** 2013-10-07_</span><span class="sxs-lookup"><span data-stu-id="91042-103">_**Topic Last Modified:** 2013-10-07_</span></span>
+<span data-ttu-id="f7688-103">_**마지막으로 수정 된 항목:** 2013-10-07_</span><span class="sxs-lookup"><span data-stu-id="f7688-103">_**Topic Last Modified:** 2013-10-07_</span></span>
 
-<span data-ttu-id="91042-104">여기에 설명 된 사용자 모델은 [사용자 모델을 사용 하 여 Lync Server 2013의 용량 계획](lync-server-2013-capacity-planning-using-the-user-models.md)에 설명 된 용량 계획 측정값 및 권장 사항에 대 한 기반을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-104">The user models described here provide the basis for the capacity planning measurements and recommendations described in [Capacity planning for Lync Server 2013 using the user models](lync-server-2013-capacity-planning-using-the-user-models.md).</span></span>
+<span data-ttu-id="f7688-104">여기에 설명 된 사용자 모델은 [사용자 모델을 사용 하 여 Lync Server 2013의 용량 계획](lync-server-2013-capacity-planning-using-the-user-models.md)에 설명 된 용량 계획 측정값 및 권장 사항에 대 한 토대를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-104">The user models described here provide the basis for the capacity planning measurements and recommendations described in [Capacity planning for Lync Server 2013 using the user models](lync-server-2013-capacity-planning-using-the-user-models.md).</span></span>
 
 <div>
 
-## <a name="lync-server-2013-user-models"></a><span data-ttu-id="91042-105">Lync Server 2013 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="91042-105">Lync Server 2013 User Models</span></span>
+## <a name="lync-server-2013-user-models"></a><span data-ttu-id="f7688-105">Lync Server 2013 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="f7688-105">Lync Server 2013 User Models</span></span>
 
-<span data-ttu-id="91042-106">다음 표에서는 Lync Server 2013의 등록, 연락처, 인스턴트 메시징 (IM) 및 현재 상태에 대 한 사용자 모델에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-106">The following table describes the user model for registration, contacts, instant messaging (IM), and presence for Lync Server 2013.</span></span>
+<span data-ttu-id="f7688-106">다음 표에서는 Lync Server 2013의 등록, 연락처, IM (인스턴트 메시징) 및 현재 상태에 대 한 사용자 모델을 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-106">The following table describes the user model for registration, contacts, instant messaging (IM), and presence for Lync Server 2013.</span></span>
 
-### <a name="environment-and-registration-user-model"></a><span data-ttu-id="91042-107">환경 및 등록 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="91042-107">Environment and Registration User Model</span></span>
+### <a name="environment-and-registration-user-model"></a><span data-ttu-id="f7688-107">환경 및 등록 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="f7688-107">Environment and Registration User Model</span></span>
 
 <table>
 <colgroup>
@@ -54,88 +54,88 @@ ms.locfileid: "41744588"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="91042-108">범주만</span><span class="sxs-lookup"><span data-stu-id="91042-108">Category</span></span></th>
-<th><span data-ttu-id="91042-109">설명</span><span class="sxs-lookup"><span data-stu-id="91042-109">Description</span></span></th>
+<th><span data-ttu-id="f7688-108">범주</span><span class="sxs-lookup"><span data-stu-id="f7688-108">Category</span></span></th>
+<th><span data-ttu-id="f7688-109">설명</span><span class="sxs-lookup"><span data-stu-id="f7688-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-110">배포 크기 및 배포</span><span class="sxs-lookup"><span data-stu-id="91042-110">Deployment size and distribution</span></span></p></td>
-<td><p><span data-ttu-id="91042-111">사이트 당 하나의 프런트 엔드 풀을 사용 하 여 세 개의 중앙 사이트를 사용 하는 대규모 배포를 모델링 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-111">We model a large deployment with three central sites, with one Front End pool per site.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-110">배포 크기 및 분포</span><span class="sxs-lookup"><span data-stu-id="f7688-110">Deployment size and distribution</span></span></p></td>
+<td><p><span data-ttu-id="f7688-111">모델링하는 대상은 대규모 배포로, 3개의 중앙 사이트와 사이트당 하나의 프런트 엔드 풀이 구축됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-111">We model a large deployment with three central sites, with one Front End pool per site.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-112">Active Directory 사용자의 백분율</span><span class="sxs-lookup"><span data-stu-id="91042-112">Percentage of Active Directory users</span></span></p></td>
-<td><p><span data-ttu-id="91042-113">조직의 모든 Active Directory 사용자의 70%가 Lync Server에 대해 사용 하도록 설정 되어 있다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-113">We assume that 70% of all Active Directory users in the organization are enabled for Lync Server.</span></span> <span data-ttu-id="91042-114">이 사용 가능한 사용자의 80%가 하루 종일 Lync Server에 로그온 되어 있습니다 (80% 병행성).</span><span class="sxs-lookup"><span data-stu-id="91042-114">80% of those enabled users are logged on to Lync Server each day (80% concurrency).</span></span> <span data-ttu-id="91042-115">동시 사용자는이 섹션의 나머지 부분에 있는 숫자를 기반으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-115">The concurrent users are the basis for the numbers in the rest of this section.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-112">Active Directory 사용자의 비율(%)</span><span class="sxs-lookup"><span data-stu-id="f7688-112">Percentage of Active Directory users</span></span></p></td>
+<td><p><span data-ttu-id="f7688-113">조직의 모든 Active Directory 사용자 중 70%가 Lync Server에 대해 사용 된다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-113">We assume that 70% of all Active Directory users in the organization are enabled for Lync Server.</span></span> <span data-ttu-id="f7688-114">이 사용 가능한 사용자의 80%가 매일 Lync Server에 로그온 되어 있습니다 (80% 동시).</span><span class="sxs-lookup"><span data-stu-id="f7688-114">80% of those enabled users are logged on to Lync Server each day (80% concurrency).</span></span> <span data-ttu-id="f7688-115">동시 사용자 수는 이 섹션의 나머지 부분에 나오는 수치의 기본 요소입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-115">The concurrent users are the basis for the numbers in the rest of this section.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-116">Active Directory 변경 내용</span><span class="sxs-lookup"><span data-stu-id="91042-116">Active Directory changes</span></span></p></td>
-<td><p><span data-ttu-id="91042-117">모든 사용자의 0.5%가 매주 Active Directory에서 Lync에 만들어지고 사용 하도록 설정 되었고, 모든 사용자의 0.5%는 Active Directory 및 매 주마다 Lync에서 사용 하지 않도록 설정 되어 있다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-117">We assume that 0.5% of total users are created and enabled for Lync in Active Directory each week, and that 0.5% of total users are disabled from Active Directory and from Lync each week.</span></span> <span data-ttu-id="91042-118">사용자의 5%는 매주 1 개 이상의 Active Directory 특성을 변경 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-118">5% of users have at least one Active Directory attribute changed each week.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-116">Active Directory 변경 사항</span><span class="sxs-lookup"><span data-stu-id="f7688-116">Active Directory changes</span></span></p></td>
+<td><p><span data-ttu-id="f7688-117">총 사용자의 0.5%가 매주 Active Directory의 Lync에 대해 만들어지고 사용 하도록 설정 되어 있으며, 총 사용자의 0.5%는 Active Directory 및 각 주에 Lync에서 사용 하지 않도록 설정 되어 있다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-117">We assume that 0.5% of total users are created and enabled for Lync in Active Directory each week, and that 0.5% of total users are disabled from Active Directory and from Lync each week.</span></span> <span data-ttu-id="f7688-118">사용자의 5%는 매주 하나 이상의 Active Directory 특성을 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-118">5% of users have at least one Active Directory attribute changed each week.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-119">Active Directory 메일 그룹</span><span class="sxs-lookup"><span data-stu-id="91042-119">Active Directory distribution groups</span></span></p></td>
-<td><p><span data-ttu-id="91042-120">조직의 Active Directory 메일 그룹 수가 Active Directory의 모든 사용자 수의 3 배가 되는 것으로 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-120">We assume that the number of Active Directory distribution groups in the organization is equal to three times the number of all users in Active Directory.</span></span> <span data-ttu-id="91042-121">메일 그룹의 크기는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-121">The distribution groups have the following sizes:</span></span></p>
+<td><p><span data-ttu-id="f7688-119">Active Directory 메일 그룹</span><span class="sxs-lookup"><span data-stu-id="f7688-119">Active Directory distribution groups</span></span></p></td>
+<td><p><span data-ttu-id="f7688-p103">조직의 Active Directory 메일 그룹 수는 Active Directory에 있는 모든 사용자 수의 3배와 동일한 것으로 가정합니다. 메일 그룹의 크기는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p103">We assume that the number of Active Directory distribution groups in the organization is equal to three times the number of all users in Active Directory. The distribution groups have the following sizes:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="91042-122">64%에 2-30 사용자가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-122">64% have 2-30 users</span></span></p></li>
-<li><p><span data-ttu-id="91042-123">13%에 31-50 사용자가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-123">13% have 31-50 users</span></span></p></li>
-<li><p><span data-ttu-id="91042-124">10%에 51-100 사용자가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-124">10% have 51-100 users</span></span></p></li>
-<li><p><span data-ttu-id="91042-125">13%에 101-500 사용자가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-125">13% have 101-500 users</span></span></p></li>
+<li><p><span data-ttu-id="f7688-122">64%: 2-30명의 사용자</span><span class="sxs-lookup"><span data-stu-id="f7688-122">64% have 2-30 users</span></span></p></li>
+<li><p><span data-ttu-id="f7688-123">13%: 31-50명의 사용자</span><span class="sxs-lookup"><span data-stu-id="f7688-123">13% have 31-50 users</span></span></p></li>
+<li><p><span data-ttu-id="f7688-124">10%: 51-100명의 사용자</span><span class="sxs-lookup"><span data-stu-id="f7688-124">10% have 51-100 users</span></span></p></li>
+<li><p><span data-ttu-id="f7688-125">13%: 101-500명의 사용자</span><span class="sxs-lookup"><span data-stu-id="f7688-125">13% have 101-500 users</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-126">VoIP (Voice over IP) 사용자</span><span class="sxs-lookup"><span data-stu-id="91042-126">Voice over IP (VoIP) users</span></span></p></td>
-<td><p><span data-ttu-id="91042-127">Lync Server 사용자의 60%는 통합 커뮤니케이션 (UC)에 사용할 수 있습니다 (즉, 전화 번호는 Lync Server에서 소유).</span><span class="sxs-lookup"><span data-stu-id="91042-127">60% of Lync Server users are enabled for unified communications (UC) (that is, their phone numbers are owned by Lync Server).</span></span></p></td>
+<td><p><span data-ttu-id="f7688-126">VoIP(Voice over IP) 사용자</span><span class="sxs-lookup"><span data-stu-id="f7688-126">Voice over IP (VoIP) users</span></span></p></td>
+<td><p><span data-ttu-id="f7688-127">Lync Server 사용자의 60%는 UC (통합 통신)를 사용 하도록 설정 되어 있습니다 (즉, 전화 번호는 Lync Server에서 소유 함).</span><span class="sxs-lookup"><span data-stu-id="f7688-127">60% of Lync Server users are enabled for unified communications (UC) (that is, their phone numbers are owned by Lync Server).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-128">등록 된 클라이언트 배포</span><span class="sxs-lookup"><span data-stu-id="91042-128">Registered client distribution</span></span></p></td>
-<td><p><span data-ttu-id="91042-129">클라이언트의 65%는 Lync 및 Lync Phone 버전을 포함 하 여 Lync 2013 소프트웨어를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-129">65% of clients run Lync 2013 software, including Lync and Lync Phone Edition.</span></span></p>
-<p><span data-ttu-id="91042-130">이전 버전의 Lync에서 클라이언트 소프트웨어를 실행 하는 클라이언트의 30%</span><span class="sxs-lookup"><span data-stu-id="91042-130">30% of clients running client software from a previous version of Lync.</span></span></p>
-<p><span data-ttu-id="91042-131">Lync Web App을 사용 하는 클라이언트의 5%</span><span class="sxs-lookup"><span data-stu-id="91042-131">5% of clients using Lync Web App.</span></span></p>
-<p><span data-ttu-id="91042-132">이동성을 사용 하도록 설정한 경우 사용자의 40%가 이전에 인용 된 다른 클라이언트 옵션과 동시에 이동성을 사용 하 고 있다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-132">If mobility is enabled, we assume that 40% of users are using mobility concurrently with the other previously cited registered client options.</span></span> <span data-ttu-id="91042-133">이 경우 클라이언트는 MPOP (다중 시점) 비율이 1:1.9입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-133">In this case the client multiple point of presence (MPOP) ratio is 1:1.9.</span></span> <span data-ttu-id="91042-134">이동성을 사용 하지 않도록 설정한 경우 MPOP 비율은 1:1.5입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-134">If mobility is disabled, the MPOP ratio is 1:1.5.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-128">등록된 클라이언트 분포</span><span class="sxs-lookup"><span data-stu-id="f7688-128">Registered client distribution</span></span></p></td>
+<td><p><span data-ttu-id="f7688-129">클라이언트의 65%는 Lync 및 Lync Phone Edition을 포함 하 여 Lync 2013 소프트웨어를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-129">65% of clients run Lync 2013 software, including Lync and Lync Phone Edition.</span></span></p>
+<p><span data-ttu-id="f7688-130">이전 버전의 Lync에서 클라이언트 소프트웨어를 실행 하는 클라이언트의 30%</span><span class="sxs-lookup"><span data-stu-id="f7688-130">30% of clients running client software from a previous version of Lync.</span></span></p>
+<p><span data-ttu-id="f7688-131">Lync Web App을 사용 하는 클라이언트의 5%</span><span class="sxs-lookup"><span data-stu-id="f7688-131">5% of clients using Lync Web App.</span></span></p>
+<p><span data-ttu-id="f7688-132">이동성을 사용 하도록 설정 하면 사용자의 40%가 이전에 설명한 다른 모든 등록 된 클라이언트 옵션과 동시에 모바일 기능을 사용 하 고 있다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-132">If mobility is enabled, we assume that 40% of users are using mobility concurrently with the other previously cited registered client options.</span></span> <span data-ttu-id="f7688-133">이 경우 클라이언트의 다중 현재 상태 (MPOP) 비율은 1:1.9입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-133">In this case the client multiple point of presence (MPOP) ratio is 1:1.9.</span></span> <span data-ttu-id="f7688-134">모바일을 사용하지 않도록 설정하면 MPOP 비율이 1:1.5가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-134">If mobility is disabled, the MPOP ratio is 1:1.5.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-135">원격 사용자 배포</span><span class="sxs-lookup"><span data-stu-id="91042-135">Remote user distribution</span></span></p></td>
-<td><p><span data-ttu-id="91042-136">내부적으로 연결 하는 사용자의 70%입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-136">70% of users connecting internally.</span></span></p>
-<p><span data-ttu-id="91042-137">Edge 서버 및 디렉터를 통해 연결 되는 사용자의 30%</span><span class="sxs-lookup"><span data-stu-id="91042-137">30% of users connecting through an Edge Server and a Director.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-135">원격 사용자 분포</span><span class="sxs-lookup"><span data-stu-id="f7688-135">Remote user distribution</span></span></p></td>
+<td><p><span data-ttu-id="f7688-136">사용자의 70%는 내부에서 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-136">70% of users connecting internally.</span></span></p>
+<p><span data-ttu-id="f7688-137">사용자의 30%는 에지 서버 및 디렉터를 통해 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-137">30% of users connecting through an Edge Server and a Director.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-138">연락처 배포</span><span class="sxs-lookup"><span data-stu-id="91042-138">Contact distribution</span></span></p></td>
-<td><p><span data-ttu-id="91042-139">사용자에 게 표시 되는 최대 연락처 수는 1000입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-139">The maximum number of contacts a user has is 1,000.</span></span> <span data-ttu-id="91042-140">1% 미만의 사용자가 1000 연락처를가지고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-140">Less than 1% of users have 1,000 contacts.</span></span> <span data-ttu-id="91042-141">사용자 중 25% 미만의 연락처가 100 개 이상 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-141">Less than 25% of users have 100 or more contacts.</span></span></p>
-<p><span data-ttu-id="91042-142">공용 클라우드 연결이 있는 사용자에 대 한 80 연락처의 평균입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-142">Average of 80 contacts for users with public cloud connectivity.</span></span> <span data-ttu-id="91042-143">다음 사용자:</span><span class="sxs-lookup"><span data-stu-id="91042-143">Of these users:</span></span></p>
+<td><p><span data-ttu-id="f7688-138">대화 상대 분포</span><span class="sxs-lookup"><span data-stu-id="f7688-138">Contact distribution</span></span></p></td>
+<td><p><span data-ttu-id="f7688-p105">사용자가 유지할 수 있는 최대 대화 상대 수는 1,000명입니다. 대화 상대 수가 1,000명인 사용자는 1% 미만입니다. 또한 25% 미만의 사용자는 대화 상대 수가 100명 이상입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p105">The maximum number of contacts a user has is 1,000. Less than 1% of users have 1,000 contacts. Less than 25% of users have 100 or more contacts.</span></span></p>
+<p><span data-ttu-id="f7688-p106">사용자의 대화 상대 중 평균 80명은 공용 클라우드를 통해 연결합니다. 이러한 사용자의 비율은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p106">Average of 80 contacts for users with public cloud connectivity. Of these users:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="91042-144">50%의 연락처가 조직 내에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-144">50% of the contacts are within the organization.</span></span> <span data-ttu-id="91042-145">이러한 사용자의 10%는 원격 사용자로 방화벽 외부에서 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-145">10% of those users are remote users, connecting from outside the firewall.</span></span></p></li>
-<li><p><span data-ttu-id="91042-146">연락처의 40%는 공용 클라우드 사용자 (AOL, Yahoo!, MSN 또는 Google 대화 사용자 등)입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-146">40% of the contacts are public cloud users (such as users of AOL, Yahoo!, MSN, or Google Talk).</span></span></p></li>
-<li><p><span data-ttu-id="91042-147">연락처의 10%는 페더레이션 파트너에서 가져온 것입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-147">10% of the contacts are from federated partners.</span></span></p>
+<li><p><span data-ttu-id="f7688-p107">대화 상대의 50%는 조직 내에 있습니다. 이러한 사용자의 10%는 방화벽 외부에서 연결하는 원격 사용자입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p107">50% of the contacts are within the organization. 10% of those users are remote users, connecting from outside the firewall.</span></span></p></li>
+<li><p><span data-ttu-id="f7688-146">대화 상대의 40%는 공용 클라우드 사용자(예: AOL, Yahoo!, MSN, Google Talk 사용자)입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-146">40% of the contacts are public cloud users (such as users of AOL, Yahoo!, MSN, or Google Talk).</span></span></p></li>
+<li><p><span data-ttu-id="f7688-147">대화 상대의 10%는 페더레이션 파트너의 사용자입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-147">10% of the contacts are from federated partners.</span></span></p>
 <div>
 
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P><span data-ttu-id="91042-148">2012 년 9 월 1 일부 터, Microsoft Lync 공용 IM 연결 사용자 구독 라이선스 ("PIC USL")는 신규 또는 갱신 계약에 대해 더 이상 구매할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-148">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements.</span></span> <span data-ttu-id="91042-149">활성 라이선스가 있는 고객은 계속 Yahoo!에 페더레이션 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-149">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="91042-150">서비스 종료 날짜가 될 때까지 메신저를 종료 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-150">Messenger until the service shut down date.</span></span> <span data-ttu-id="91042-151">AOL 및 Yahoo!에 대 한 6 월 2014의 기간 종료 날짜</span><span class="sxs-lookup"><span data-stu-id="91042-151">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="91042-152">님이 발표 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-152">has been announced.</span></span> <span data-ttu-id="91042-153">자세한 내용은 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013에서 공개 인스턴트 메신저 연결 지원을</A>참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="91042-153">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</span></span></P>
+> <P><span data-ttu-id="f7688-148">2012 년 9 월 1 일, Microsoft Lync 공용 IM 연결 사용자 구독 라이선스 ("PIC USL")를 신규 또는 갱신 동의를 위해 더 이상 구매할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-148">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements.</span></span> <span data-ttu-id="f7688-149">활성 라이선스를 사용 하는 고객은 Yahoo!에 계속 페더레이션 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-149">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="f7688-150">서비스 종료 날짜까지 메신저</span><span class="sxs-lookup"><span data-stu-id="f7688-150">Messenger until the service shut down date.</span></span> <span data-ttu-id="f7688-151">AOL 및 Yahoo!의 6 월 2014 일 종료 날짜</span><span class="sxs-lookup"><span data-stu-id="f7688-151">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="f7688-152">이 발표 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-152">has been announced.</span></span> <span data-ttu-id="f7688-153">자세한 내용은 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013에서 공용 인스턴트 메신저 연결에 대 한 지원을</A>참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f7688-153">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="91042-154">PIC USL은 Lync Server 또는 Office Communications Server와 Yahoo!에 페더레이션 하는 데 필요한 사용자별 사용자 단위 구독 라이선스입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-154">The PIC USL is a per-user per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="91042-155">받으려면.</span><span class="sxs-lookup"><span data-stu-id="91042-155">Messenger.</span></span> <span data-ttu-id="91042-156">이 서비스를 제공 하는 Microsoft의 기능은 기본 계약 인 Yahoo!에 대 한 지원을 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-156">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which is winding down.</span></span></P>
+> <P><span data-ttu-id="f7688-154">PIC USL은 Lync Server 또는 Office Communications Server와 Yahoo!을 페더레이션 하는 데 필요한 사용자별 구독 라이선스입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-154">The PIC USL is a per-user per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="f7688-155">메신저로.</span><span class="sxs-lookup"><span data-stu-id="f7688-155">Messenger.</span></span> <span data-ttu-id="f7688-156">이 서비스를 제공 하는 Microsoft의 기능은 기본 규약에 따라 세로 맞춤에 사용 되는 Yahoo!에 대 한 지원을 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-156">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which is winding down.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="91042-157">이전 보다 훨씬 더 많은 수의 Lync는 전세계의 조직과 사용자 간에 연결 하는 강력한 도구입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-157">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="91042-158">Windows Live Messenger를 사용 하는 페더레이션에서는 Lync 표준 CAL 외에 추가 사용자/장치 라이선스가 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-158">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="91042-159">Skype 페더레이션이이 목록에 추가 되어 Lync 사용자가 IM 및 음성을 사용 하 여 수백만 명의 사용자에 게 연락할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-159">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.</span></span></P></LI></UL>
+> <P><span data-ttu-id="f7688-157">이전 보다 Lync는 전 세계의 조직과 조직 간에 연결 하는 강력한 도구입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-157">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="f7688-158">Windows Live Messenger와 페더레이션 하려면 Lync Standard CAL 외에 추가 사용자/장치 라이선스가 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-158">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="f7688-159">Lync 사용자가 IM 및 음성을 사용 하 여 수백만 명의 사용자에 게 도달할 수 있도록 하는이 목록에 Skype 페더레이션이 추가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-159">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.</span></span></P></LI></UL>
 
 
 </div></li>
 </ul>
-<p><span data-ttu-id="91042-160">공용 클라우드 연결이 없는 사용자에 대 한 50 연락처의 평균입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-160">Average of 50 contacts for users without public cloud connectivity.</span></span> <span data-ttu-id="91042-161">다음 사용자:</span><span class="sxs-lookup"><span data-stu-id="91042-161">Of these users:</span></span></p>
+<p><span data-ttu-id="f7688-p111">사용자의 대화 상대 중 평균 50명은 공용 클라우드 연결을 사용하지 않습니다. 이러한 사용자의 비율은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p111">Average of 50 contacts for users without public cloud connectivity. Of these users:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="91042-162">80%의 연락처가 조직 내에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-162">80% of the contacts are within the organization.</span></span> <span data-ttu-id="91042-163">이러한 사용자의 10%는 원격 사용자로 방화벽 외부에서 연결 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-163">10% of those users are remote users, connecting from outside the firewall.</span></span></p></li>
-<li><p><span data-ttu-id="91042-164">페더레이션 파트너는 연락처의 20%를 말합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-164">20% of the contacts are from federated partners.</span></span></p>
-<p><span data-ttu-id="91042-165">각 사용자의 연락처 목록에는 1 개의 메일 그룹이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-165">Each user has 1 distribution group in their contact list.</span></span> <span data-ttu-id="91042-166">성능 테스트를 위해 메일 그룹이 항상 확장 되었다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-166">For performance testing, we assume that distribution groups are always expanded.</span></span></p></li>
+<li><p><span data-ttu-id="f7688-p112">대화 상대의 80%는 조직 내에 있습니다. 이러한 사용자의 10%는 방화벽 외부에서 연결하는 원격 사용자입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p112">80% of the contacts are within the organization. 10% of those users are remote users, connecting from outside the firewall.</span></span></p></li>
+<li><p><span data-ttu-id="f7688-164">대화 상대의 20%는 페더레이션 파트너의 사용자입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-164">20% of the contacts are from federated partners.</span></span></p>
+<p><span data-ttu-id="f7688-p113">각 사용자에게는 대화 상대 목록에 하나의 메일 그룹이 있습니다. 성능 테스트를 위해 메일 그룹은 항상 확장된 것으로 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p113">Each user has 1 distribution group in their contact list. For performance testing, we assume that distribution groups are always expanded.</span></span></p></li>
 </ul>
-<p><span data-ttu-id="91042-167">사용자의 연락처 중 25%는 XMPP를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-167">25% of a user’s contacts use XMPP.</span></span></p></td>
+<p><span data-ttu-id="f7688-167">25%의 사용자 대화 상대가 XMPP를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-167">25% of a user’s contacts use XMPP.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-168">세션 시간</span><span class="sxs-lookup"><span data-stu-id="91042-168">Session time</span></span></p></td>
-<td><p><span data-ttu-id="91042-169">평균 사용자 로그온 세션은 12 시간 동안 지속 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-169">The average user logon session lasts 12 hours.</span></span> <span data-ttu-id="91042-170">모든 사용자가 세션 시작 시 120 분 내에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-170">All users log on within 120 minutes of the start of the session.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-168">세션 시간</span><span class="sxs-lookup"><span data-stu-id="f7688-168">Session time</span></span></p></td>
+<td><p><span data-ttu-id="f7688-p114">평균 사용자 로그온 세션은 12시간 동안 지속됩니다. 모든 사용자가 세션 시작 후 120분 이내에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p114">The average user logon session lasts 12 hours. All users log on within 120 minutes of the start of the session.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="im-and-presence-user-model"></a><span data-ttu-id="91042-171">IM 및 현재 상태 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="91042-171">IM and Presence User Model</span></span>
+### <a name="im-and-presence-user-model"></a><span data-ttu-id="f7688-171">메신저 및 현재 상태 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="f7688-171">IM and Presence User Model</span></span>
 
 <table>
 <colgroup>
@@ -144,49 +144,49 @@ ms.locfileid: "41744588"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="91042-172">범주만</span><span class="sxs-lookup"><span data-stu-id="91042-172">Category</span></span></th>
-<th><span data-ttu-id="91042-173">설명</span><span class="sxs-lookup"><span data-stu-id="91042-173">Description</span></span></th>
+<th><span data-ttu-id="f7688-172">범주</span><span class="sxs-lookup"><span data-stu-id="f7688-172">Category</span></span></th>
+<th><span data-ttu-id="f7688-173">설명</span><span class="sxs-lookup"><span data-stu-id="f7688-173">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-174">피어 투 피어 IM 세션</span><span class="sxs-lookup"><span data-stu-id="91042-174">Peer-to-peer IM sessions</span></span></p></td>
-<td><p><span data-ttu-id="91042-175">각 사용자는 하루에 6 개의 피어 투 피어 IM 세션 평균을 계산 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-175">Each user averages six peer-to-peer IM sessions per day.</span></span></p>
-<p><span data-ttu-id="91042-176">세션 당 10 개의 인스턴트 메시지.</span><span class="sxs-lookup"><span data-stu-id="91042-176">10 instant messages per session.</span></span></p>
-<p><span data-ttu-id="91042-177">각 메시지는 두 개의 SIP 정보 메시지와 ""&lt;이름&gt; 입력 "과 같은 상태 표시기 용 2 sip 200 OK 메시지와 일치 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-177">Each message is matched by two SIP INFO messages and 2 SIP 200 OK messages (for the status indicators such as “&lt;Name&gt; is Typing”)</span></span></p></td>
+<td><p><span data-ttu-id="f7688-174">피어 투 피어 메신저 세션</span><span class="sxs-lookup"><span data-stu-id="f7688-174">Peer-to-peer IM sessions</span></span></p></td>
+<td><p><span data-ttu-id="f7688-175">각 사용자는 하루 평균 6개의 피어 투 피어 메신저 세션에 참가합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-175">Each user averages six peer-to-peer IM sessions per day.</span></span></p>
+<p><span data-ttu-id="f7688-176">세션당 메신저 메시지 수는 10개입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-176">10 instant messages per session.</span></span></p>
+<p><span data-ttu-id="f7688-177">각 메시지는 SIP 정보 메시지 두 개와 SIP 200 정상 메시지 2 개 ("&lt;이름이&gt; 입력 됨"와 같은 상태 표시기의 경우)와 일치 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-177">Each message is matched by two SIP INFO messages and 2 SIP 200 OK messages (for the status indicators such as “&lt;Name&gt; is Typing”)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-178">현재 상태 폴링</span><span class="sxs-lookup"><span data-stu-id="91042-178">Presence polling</span></span></p></td>
-<td><p><span data-ttu-id="91042-179">전반적으로 시간 당 사용자 당 평균 60 폴링에 대 한 현재 상태 폴링을 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-179">Overall, we assume presence polling at an average of 60 polls per user per hour.</span></span> <span data-ttu-id="91042-180">각 사용자에 대해 다음 평균을 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-180">For each user, assume an average of:</span></span></p>
+<td><p><span data-ttu-id="f7688-178">현재 상태 폴링</span><span class="sxs-lookup"><span data-stu-id="f7688-178">Presence polling</span></span></p></td>
+<td><p><span data-ttu-id="f7688-p115">전반적으로 현재 상태 폴링을 사용자당 1시간에 평균 60개 설문으로 가정합니다. 각 사용자에 대해 다음과 같은 평균을 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p115">Overall, we assume presence polling at an average of 60 polls per user per hour. For each user, assume an average of:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="91042-181">사용자의 조직 탭에 있는 사용자의 하루에 한 번의 폴링 (대화 상대 목록 제외)</span><span class="sxs-lookup"><span data-stu-id="91042-181">One poll per day of the presence of users in the user’s organization tab (but not Contacts list).</span></span> <span data-ttu-id="91042-182">사용자의 조직 탭에 있는 연락처가 아닌 평균 수는 사용자 15 명입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-182">Average number of non-contacts in the user’s organization tab is 15 users.</span></span> <span data-ttu-id="91042-183">1 일에 두 개의 대화 상대 카드 보기 작업</span><span class="sxs-lookup"><span data-stu-id="91042-183">Two contact card viewing operations per day.</span></span></p></li>
-<li><p><span data-ttu-id="91042-184">사용자가 다른 사용자를 클릭 하 여 대화를 시작할 때마다 한 번의 현재 상태 폴링으로 시간 당 한 번씩 예상 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-184">One presence poll every time the user clicks another user to start a conversation, estimated at once per hour.</span></span></p></li>
-<li><p><span data-ttu-id="91042-185">시간 당 6 명의 사용자 검색.</span><span class="sxs-lookup"><span data-stu-id="91042-185">Six user searches per hour.</span></span> <span data-ttu-id="91042-186">검색을 수행할 때마다 검색 결과 목록의 모든 사용자에 대해 일괄 처리 폴링이 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-186">Every time a search is performed, a batch poll is sent for everyone in the search result list.</span></span> <span data-ttu-id="91042-187">검색 결과의 평균 크기는 20으로 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-187">We assume the average size of search results is 20.</span></span> <span data-ttu-id="91042-188">검색 결과가 화면에 남아 있는 경우 일괄 처리 설문은 5 분 마다 새로 고쳐집니다. 이번에는 시간 당 두 가지 그러한 새로 고침이 있을 것으로 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-188">If the search results stay on screen, the batch poll is refreshed every 5 minutes; we assume that there will be two such refreshes per hour.</span></span></p></li>
-<li><p><span data-ttu-id="91042-189">사용자가 Outlook에서 전자 메일을 열거나 미리 볼 때 전자 메일의 받는 사람: 및 CC: 필드에 사용자가 있는 경우와 전자 메일 당 최대 4 명의 사용자에 게 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-189">When the user opens or previews an email in Outlook, a poll of the presence of users in the To: and CC: fields of the email, estimated at five emails per hour and four users per email.</span></span></p></li>
+<li><p><span data-ttu-id="f7688-p116">사용자의 조직 탭(대화 상대 목록이 아님)에 있는 사용자의 현재 상태에 대해 하루에 하나의 설문. 사용자의 조직 탭에 있는 대화 상대가 아닌 사용자는 평균 15명입니다. 대화 상대 카드를 보는 작업은 하루에 두 번 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p116">One poll per day of the presence of users in the user’s organization tab (but not Contacts list). Average number of non-contacts in the user’s organization tab is 15 users. Two contact card viewing operations per day.</span></span></p></li>
+<li><p><span data-ttu-id="f7688-184">사용자가 대화를 시작하기 위해 다른 사용자를 클릭할 때마다 하나의 현재 상태 설문(1시간에 평균 한 번)</span><span class="sxs-lookup"><span data-stu-id="f7688-184">One presence poll every time the user clicks another user to start a conversation, estimated at once per hour.</span></span></p></li>
+<li><p><span data-ttu-id="f7688-p117">시간당 6번의 사용자 검색. 검색이 수행될 때마다 일괄 설문이 검색 결과 목록 내의 모든 사람에게 전송됩니다. 검색 결과의 평균 크기는 20으로 가정됩니다. 검색 결과가 화면에 유지되면 일괄 설문은 5분 간격으로 새로 고쳐집니다. 여기서는 시간당 두 번의 새로 고침이 있는 것으로 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p117">Six user searches per hour. Every time a search is performed, a batch poll is sent for everyone in the search result list. We assume the average size of search results is 20. If the search results stay on screen, the batch poll is refreshed every 5 minutes; we assume that there will be two such refreshes per hour.</span></span></p></li>
+<li><p><span data-ttu-id="f7688-189">사용자가 Outlook에서 전자 메일을 열거나 미리 볼 때 전자 메일의 받는 사람 및 참조 필드에 있는 사용자의 현재 상태 설문(1시간에 평균 5개의 전자 메일, 전자 메일당 4명의 사용자)</span><span class="sxs-lookup"><span data-stu-id="f7688-189">When the user opens or previews an email in Outlook, a poll of the presence of users in the To: and CC: fields of the email, estimated at five emails per hour and four users per email.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-190">현재 상태 구독</span><span class="sxs-lookup"><span data-stu-id="91042-190">Presence subscriptions</span></span></p></td>
-<td><p><span data-ttu-id="91042-191">사용자 중 한 명에 게 연락처를 추가 하는 경우 첫 번째 사용자는 두 번째 사용자에 대 한 다섯 가지 범주의 정보를 <em>구독</em> 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-191">When one user adds another as a contact, the first user is <em>subscribing</em> to five categories of information about the second user.</span></span> <span data-ttu-id="91042-192">이러한 범주의 정보에 대 한 업데이트는 자동으로 첫 번째 사용자에 게 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-192">Updates of these categories of information are automatically sent to the first user.</span></span></p>
-<p><span data-ttu-id="91042-193">각 클라이언트에 대해 단일 일괄 처리 요청을 전송 하 여 평균 40 연락처의 현재 상태를 얻고 추가 40 대화 상자를 사용 하 여 페더레이션 대화 상대에 대 한 상태를 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-193">For each client, a single batch subscription request is sent to obtain the presence state of an average of 40 contacts, with an additional 40 dialogs to obtain presence for federated contacts.</span></span></p>
-<p><span data-ttu-id="91042-194">확장 된 메일 그룹의 구성원에 대 한 현재 상태는 폴링이 아닌 영구 현재 상태 구독을 통해 검색 되며 각 2 시간 동안 사용자 당 하나의 확장으로 모델링 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-194">Presence for members of an expanded distribution group is found through persistent presence subscriptions, not polling, and is modeled as 1 expansion per user for each 2 hours.</span></span></p>
-<p><span data-ttu-id="91042-195"><em>짧은</em> 플랜 사용자가 로그인 하면 모든 사용자의 연락처에 대 한 일괄 구독이 있는 경우 사용자가 곧 로그 오프 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-195"><em>Short subscriptions</em> happen when a user logs in, there is a batch subscription for all the user’s contacts, and then the user soon logs off.</span></span> <span data-ttu-id="91042-196">각 구독이 10 분 후에 시간 당 6 개의 짧은 구독이 있는 것으로 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-196">We assume 6 short subscriptions per user per hour, where each subscription lasts 10 minutes.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-190">현재 상태 구독</span><span class="sxs-lookup"><span data-stu-id="f7688-190">Presence subscriptions</span></span></p></td>
+<td><p><span data-ttu-id="f7688-p118">한 사용자가 다른 사용자를 대화 상대로 추가한 경우 첫 번째 사용자는 두 번째 사용자에 대한 5개 정보 범주를 <em>구독</em>할 수 있습니다. 이러한 정보 범주의 업데이트는 첫 번째 사용자에게 자동으로 전송됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p118">When one user adds another as a contact, the first user is <em>subscribing</em> to five categories of information about the second user. Updates of these categories of information are automatically sent to the first user.</span></span></p>
+<p><span data-ttu-id="f7688-193">각 클라이언트의 경우 단일 일괄 구독 요청이 전송되어 평균 대화 상대 40명의 현재 상태를 가져오고 추가적으로 40개의 대화를 통해 페더레이션 대화 상대의 현재 상태를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-193">For each client, a single batch subscription request is sent to obtain the presence state of an average of 40 contacts, with an additional 40 dialogs to obtain presence for federated contacts.</span></span></p>
+<p><span data-ttu-id="f7688-194">확장된 메일 그룹 구성원의 현재 상태는 폴링이 아닌 영구 현재 상태 구독을 통해 확인되고 각각 2시간마다 사용자당 1번의 확장으로 모델링됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-194">Presence for members of an expanded distribution group is found through persistent presence subscriptions, not polling, and is modeled as 1 expansion per user for each 2 hours.</span></span></p>
+<p><span data-ttu-id="f7688-p119"><em>단기 구독</em>은 사용자가 로그인하고 모든 사용자의 대화 상대에 대한 일괄 구독이 발생한 후 바로 로그오프한 경우에 발생합니다. 사용자당 1시간에 6번의 단기 구독, 즉 각 구독이 10분간 지속된다고 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p119"><em>Short subscriptions</em> happen when a user logs in, there is a batch subscription for all the user’s contacts, and then the user soon logs off. We assume 6 short subscriptions per user per hour, where each subscription lasts 10 minutes.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-197">현재 상태 게시</span><span class="sxs-lookup"><span data-stu-id="91042-197">Presence Publication</span></span></p></td>
-<td><p><span data-ttu-id="91042-198">현재 상태는 시간당 사용자 당 최대 4 개의 출판물에 게시 됩니다 (시간당 사용자 당 최고 6 개).</span><span class="sxs-lookup"><span data-stu-id="91042-198">Presence state is published at an average of 4 publications per user per hour, with a maximum 6 per user per hour.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-197">현재 상태 게시</span><span class="sxs-lookup"><span data-stu-id="f7688-197">Presence Publication</span></span></p></td>
+<td><p><span data-ttu-id="f7688-198">현재 상태는 사용자당 1시간에 평균 4회, 최대 6회까지 게시됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-198">Presence state is published at an average of 4 publications per user per hour, with a maximum 6 per user per hour.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-199">현재 상태 문서 크기</span><span class="sxs-lookup"><span data-stu-id="91042-199">Presence Document Size</span></span></p></td>
-<td><p><span data-ttu-id="91042-200">전체 현재 상태 문서의 평균 크기는 최대 25K의 4K로 간주 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-200">The average size of a complete presence document is assumed to be 4K, with a maximum of 25K.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-199">현재 상태 문서 크기</span><span class="sxs-lookup"><span data-stu-id="f7688-199">Presence Document Size</span></span></p></td>
+<td><p><span data-ttu-id="f7688-200">완전한 현재 상태 문서의 평균 크기는 4K, 최대 25K로 가정됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-200">The average size of a complete presence document is assumed to be 4K, with a maximum of 25K.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="91042-201">다음 표에서는 주소록 사용에 대 한 사용자 모델에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-201">The following table describes the user model for address book use.</span></span>
+<span data-ttu-id="f7688-201">다음 표에서는 주소록 사용에 대한 사용자 모델을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-201">The following table describes the user model for address book use.</span></span>
 
-### <a name="address-book-usage-user-model"></a><span data-ttu-id="91042-202">주소록 사용 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="91042-202">Address Book Usage User Model</span></span>
+### <a name="address-book-usage-user-model"></a><span data-ttu-id="f7688-202">주소록 사용 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="f7688-202">Address Book Usage User Model</span></span>
 
 <table>
 <colgroup>
@@ -195,31 +195,31 @@ ms.locfileid: "41744588"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="91042-203">주소록 검색 모드</span><span class="sxs-lookup"><span data-stu-id="91042-203">Address Book search mode</span></span></th>
-<th><span data-ttu-id="91042-204">용도</span><span class="sxs-lookup"><span data-stu-id="91042-204">Usage</span></span></th>
+<th><span data-ttu-id="f7688-203">주소록 검색 모드</span><span class="sxs-lookup"><span data-stu-id="f7688-203">Address Book search mode</span></span></th>
+<th><span data-ttu-id="f7688-204">Usage</span><span class="sxs-lookup"><span data-stu-id="f7688-204">Usage</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-205">주소록 웹 쿼리 전용 (주소록 웹 쿼리 서비스를 통해 수행 되는 모든 쿼리)</span><span class="sxs-lookup"><span data-stu-id="91042-205">Address Book Web Query only (all queries performed by Address Book Web Query service)</span></span></p></td>
-<td><p><span data-ttu-id="91042-206">일일 사용자 당 4 개의 접두 번호 쿼리.</span><span class="sxs-lookup"><span data-stu-id="91042-206">Four prefix queries per user per day.</span></span></p>
-<p><span data-ttu-id="91042-207">60 사용자 당 정확한 검색 쿼리.</span><span class="sxs-lookup"><span data-stu-id="91042-207">60 exact search queries per user per day.</span></span> <span data-ttu-id="91042-208">쿼리 당 평균 20 개의 연락처가 있는 일괄 처리 된 40%가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-208">40% of those are batched, with an average of 20 contacts per query.</span></span> <span data-ttu-id="91042-209">쿼리의 다른 60%는 단일 연락처에 대 한 것입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-209">The other 60% of the queries are for a single contact.</span></span></p>
-<p><span data-ttu-id="91042-210">일일 사용자 당 25 개의 사진 쿼리.</span><span class="sxs-lookup"><span data-stu-id="91042-210">25 photo queries per user per day.</span></span> <span data-ttu-id="91042-211">24는 단일 사진에 대 한 것이 고, 다른 하나는 평균 20 개의 연락처를 포함 하는 일괄 처리 쿼리입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-211">24 are for a single photo, the other is a batch query with an average of 20 contacts.</span></span></p>
-<p><span data-ttu-id="91042-212">일일 사용자 당 총 조직 검색 쿼리 1 개.</span><span class="sxs-lookup"><span data-stu-id="91042-212">One total organization search query per user per day.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-205">주소록 웹 쿼리만(모든 쿼리는 주소록 웹 쿼리 서비스에 의해 수행됨)</span><span class="sxs-lookup"><span data-stu-id="f7688-205">Address Book Web Query only (all queries performed by Address Book Web Query service)</span></span></p></td>
+<td><p><span data-ttu-id="f7688-206">사용자당 하루 4번의 접두어 쿼리</span><span class="sxs-lookup"><span data-stu-id="f7688-206">Four prefix queries per user per day.</span></span></p>
+<p><span data-ttu-id="f7688-p120">사용자당 하루 60번의 정확한 검색 쿼리. 이 중 40%는 일괄 처리되고(쿼리당 평균 20명의 대화 상대), 나머지 60%는 단일 대화 상대에 대한 쿼리입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p120">60 exact search queries per user per day. 40% of those are batched, with an average of 20 contacts per query. The other 60% of the queries are for a single contact.</span></span></p>
+<p><span data-ttu-id="f7688-p121">사용자당 하루 25번의 사진 쿼리. 24번은 단일 사전에 대한 쿼리이고, 나머지 하나는 평균 20명의 대화 상대에 대한 일괄 쿼리입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p121">25 photo queries per user per day. 24 are for a single photo, the other is a batch query with an average of 20 contacts.</span></span></p>
+<p><span data-ttu-id="f7688-212">사용자당 하루에 한 번의 전체 조직 검색 쿼리</span><span class="sxs-lookup"><span data-stu-id="f7688-212">One total organization search query per user per day.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-213">주소록 파일과 웹 쿼리를 모두 사용 하는 혼합 모드</span><span class="sxs-lookup"><span data-stu-id="91042-213">Mixed mode, both address book file and web queries used.</span></span> <span data-ttu-id="91042-214">기본 모드입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-214">This is the default mode.</span></span></p></td>
-<td><p><span data-ttu-id="91042-215">두 가지 유형의 쿼리만 네트워크, 사진 및 총 조직 검색 쿼리로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-215">Only two types of queries go to the network, the photo and total organizational search queries.</span></span></p>
-<p><span data-ttu-id="91042-216">일일 사용자 당 25 개의 사진 쿼리.</span><span class="sxs-lookup"><span data-stu-id="91042-216">25 photo queries per user per day.</span></span> <span data-ttu-id="91042-217">24는 단일 사진에 대 한 것이 고, 다른 하나는 평균 20 개의 연락처를 포함 하는 일괄 처리 쿼리입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-217">24 are for a single photo, the other is a batch query with an average of 20 contacts.</span></span></p>
-<p><span data-ttu-id="91042-218">일일 사용자 당 총 조직 검색 쿼리 1 개.</span><span class="sxs-lookup"><span data-stu-id="91042-218">One total organization search query per user per day.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-p122">혼합 모드(주소록 파일과 사용된 웹 쿼리). 기본 모드입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p122">Mixed mode, both address book file and web queries used. This is the default mode.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-215">두 가지 유형의 쿼리(사진 및 전체 조직 검색 쿼리)만 네트워크로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-215">Only two types of queries go to the network, the photo and total organizational search queries.</span></span></p>
+<p><span data-ttu-id="f7688-p123">사용자당 하루 25번의 사진 쿼리. 24번은 단일 사전에 대한 쿼리이고, 나머지 하나는 평균 20명의 대화 상대에 대한 일괄 쿼리입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p123">25 photo queries per user per day. 24 are for a single photo, the other is a batch query with an average of 20 contacts.</span></span></p>
+<p><span data-ttu-id="f7688-218">사용자당 하루에 한 번의 전체 조직 검색 쿼리</span><span class="sxs-lookup"><span data-stu-id="f7688-218">One total organization search query per user per day.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="91042-219">다음 표에서는 회의 모델에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-219">The following table describes the conferencing model.</span></span>
+<span data-ttu-id="f7688-219">다음 표에서는 회의 모델에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-219">The following table describes the conferencing model.</span></span>
 
-### <a name="conferencing-model"></a><span data-ttu-id="91042-220">회의 모델</span><span class="sxs-lookup"><span data-stu-id="91042-220">Conferencing Model</span></span>
+### <a name="conferencing-model"></a><span data-ttu-id="f7688-220">회의 모델</span><span class="sxs-lookup"><span data-stu-id="f7688-220">Conferencing Model</span></span>
 
 <table>
 <colgroup>
@@ -228,90 +228,90 @@ ms.locfileid: "41744588"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="91042-221">범주만</span><span class="sxs-lookup"><span data-stu-id="91042-221">Category</span></span></th>
-<th><span data-ttu-id="91042-222">설명</span><span class="sxs-lookup"><span data-stu-id="91042-222">Description</span></span></th>
+<th><span data-ttu-id="f7688-221">범주</span><span class="sxs-lookup"><span data-stu-id="f7688-221">Category</span></span></th>
+<th><span data-ttu-id="f7688-222">설명</span><span class="sxs-lookup"><span data-stu-id="f7688-222">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-223">예약 된 모임 &quot;과 모임&quot; 시작 모임 비교</span><span class="sxs-lookup"><span data-stu-id="91042-223">Scheduled meetings versus &quot;Meet now&quot; meetings</span></span></p></td>
-<td><p><span data-ttu-id="91042-224">60%의 예정, 40%가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-224">60% scheduled, 40% unscheduled.</span></span></p>
-<p><span data-ttu-id="91042-225">예약 된 모임의 경우 80%에 회의 회의가 있는 것으로 간주 됩니다. 10%는 일회성 열려 있는 모임입니다. 8%는 일회성 익명 모임이 며 2%는 일회성으로 닫힌 모임입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-225">Of the scheduled meetings, we assume that 80% are assigned conferences, which are occurences of recurring conferences; 10% are one-time open meetings; 8% are one-time anonymous meetings, and 2% are one-time closed meetings.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-223">예약 된 모임 &quot;및 모임&quot; 시작 모임</span><span class="sxs-lookup"><span data-stu-id="f7688-223">Scheduled meetings versus &quot;Meet now&quot; meetings</span></span></p></td>
+<td><p><span data-ttu-id="f7688-224">60%는 예약, 40%는 비예약</span><span class="sxs-lookup"><span data-stu-id="f7688-224">60% scheduled, 40% unscheduled.</span></span></p>
+<p><span data-ttu-id="f7688-225">예약된 모임의 경우 80%는 회의(되풀이 회의)에 할당되고, 10%는 1회성 공개 모임, 8%는 1회성 익명 모임, 2%는 1회성 폐쇄형 모임으로 가정됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-225">Of the scheduled meetings, we assume that 80% are assigned conferences, which are occurences of recurring conferences; 10% are one-time open meetings; 8% are one-time anonymous meetings, and 2% are one-time closed meetings.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-226">회의 클라이언트 배포</span><span class="sxs-lookup"><span data-stu-id="91042-226">Conferencing client distribution</span></span></p></td>
-<td><p><span data-ttu-id="91042-227">예약 된 모임의 경우:</span><span class="sxs-lookup"><span data-stu-id="91042-227">For scheduled meetings:</span></span></p>
+<td><p><span data-ttu-id="f7688-226">회의 클라이언트 분포</span><span class="sxs-lookup"><span data-stu-id="f7688-226">Conferencing client distribution</span></span></p></td>
+<td><p><span data-ttu-id="f7688-227">예약 모임의 경우</span><span class="sxs-lookup"><span data-stu-id="f7688-227">For scheduled meetings:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="91042-228">회의 사용자의 65%는 Lync 2013를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-228">65% of conferencing users use Lync 2013.</span></span></p></li>
-<li><p><span data-ttu-id="91042-229">회의 사용자의 5%는 Microsoft Lync Web App을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-229">5% of conferencing users use Microsoft Lync Web App.</span></span></p></li>
-<li><p><span data-ttu-id="91042-230">회의의 30%는 Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007, Microsoft Office Communicator Web Access (2007 release)를 포함 하 여 이전 버전의 클라이언트를 사용 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-230">30% of conferencing users use earlier clients, including Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007, and Microsoft Office Communicator Web Access (2007 release).</span></span></p></li>
+<li><p><span data-ttu-id="f7688-228">65%의 회의 사용자가 Lync 2013을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-228">65% of conferencing users use Lync 2013.</span></span></p></li>
+<li><p><span data-ttu-id="f7688-229">회의 사용자의 5%가 Microsoft Lync Web App을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-229">5% of conferencing users use Microsoft Lync Web App.</span></span></p></li>
+<li><p><span data-ttu-id="f7688-230">회의 사용자의 30%는 Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007 및 Microsoft Office Communicator Web Access (2007 release)를 포함 하 여 이전 버전의 클라이언트를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-230">30% of conferencing users use earlier clients, including Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007, and Microsoft Office Communicator Web Access (2007 release).</span></span></p></li>
 </ul>
-<p><span data-ttu-id="91042-231">예정 되지 않은 모임의 경우:</span><span class="sxs-lookup"><span data-stu-id="91042-231">For unscheduled meetings:</span></span></p>
+<p><span data-ttu-id="f7688-231">예약되지 않은 모임의 경우</span><span class="sxs-lookup"><span data-stu-id="f7688-231">For unscheduled meetings:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="91042-232">회의 사용자의 70%는 Lync 2013를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-232">70% of conferencing users use Lync 2013.</span></span></p></li>
-<li><p><span data-ttu-id="91042-233">회의의 30%는 Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007, Microsoft Office Communicator Web Access (2007 release)를 포함 하 여 이전 버전의 클라이언트를 사용 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-233">30% of conferencing users use earlier clients, including Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007, and Microsoft Office Communicator Web Access (2007 release).</span></span></p></li>
+<li><p><span data-ttu-id="f7688-232">70%의 회의 사용자가 Lync 2013을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-232">70% of conferencing users use Lync 2013.</span></span></p></li>
+<li><p><span data-ttu-id="f7688-233">회의 사용자의 30%는 Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007 및 Microsoft Office Communicator Web Access (2007 release)를 포함 하 여 이전 버전의 클라이언트를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-233">30% of conferencing users use earlier clients, including Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007, and Microsoft Office Communicator Web Access (2007 release).</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-234">모임 동시성</span><span class="sxs-lookup"><span data-stu-id="91042-234">Meeting concurrency</span></span></p></td>
-<td><p><span data-ttu-id="91042-235">사용자의 5%는 근무 시간 동안 회의에 참여 하 고 있는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-235">5% of users will be in conferences during working hours.</span></span> <span data-ttu-id="91042-236">따라서 8만 사용자 풀에서 4000 사용자는 언제 든 지 회의에 참석할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-236">Thus, in an 80,000-user pool, as many as 4,000 users might be in conferences at any one time.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-234">모임 동시성</span><span class="sxs-lookup"><span data-stu-id="f7688-234">Meeting concurrency</span></span></p></td>
+<td><p><span data-ttu-id="f7688-p124">사용자의 5%가 근무 시간 중에 회의에 참가합니다. 따라서 80,000명 사용자 풀의 경우 최대 4,000명의 사용자가 동시에 회의에 참가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p124">5% of users will be in conferences during working hours. Thus, in an 80,000-user pool, as many as 4,000 users might be in conferences at any one time.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-237">모임 오디오 배포</span><span class="sxs-lookup"><span data-stu-id="91042-237">Meeting audio distribution</span></span></p></td>
-<td><p><span data-ttu-id="91042-238">40% 혼합 VoIP 오디오 및 전화 접속 회의, 그리고 전화 접속 사용자를 위한 VoIP 사용자의 3:1 비율.</span><span class="sxs-lookup"><span data-stu-id="91042-238">40% mixed VoIP audio and dial-in conferencing, with a 3:1 ratio of VoIP users to dial-in users.</span></span></p>
-<p><span data-ttu-id="91042-239">35% VoIP 오디오만.</span><span class="sxs-lookup"><span data-stu-id="91042-239">35% VoIP audio only.</span></span></p>
-<p><span data-ttu-id="91042-240">15% 전화 접속 회의 오디오만</span><span class="sxs-lookup"><span data-stu-id="91042-240">15% dial-in conferencing audio only.</span></span></p>
-<p><span data-ttu-id="91042-241">10% 오디오 없음 (IM 전용 회의, 사용자 당 평균 5 개의 메시지가 전송 됨).</span><span class="sxs-lookup"><span data-stu-id="91042-241">10% no audio (IM-only conferences, with an average of five messages sent per user).</span></span></p></td>
+<td><p><span data-ttu-id="f7688-237">모임 오디오 분포</span><span class="sxs-lookup"><span data-stu-id="f7688-237">Meeting audio distribution</span></span></p></td>
+<td><p><span data-ttu-id="f7688-238">40%가 VoIP 오디오 및 전화 접속 회의 혼합(VoIP 사용자와 전화 접속 사용자의 비율 3:1)</span><span class="sxs-lookup"><span data-stu-id="f7688-238">40% mixed VoIP audio and dial-in conferencing, with a 3:1 ratio of VoIP users to dial-in users.</span></span></p>
+<p><span data-ttu-id="f7688-239">35%가 VoIP 오디오만 사용</span><span class="sxs-lookup"><span data-stu-id="f7688-239">35% VoIP audio only.</span></span></p>
+<p><span data-ttu-id="f7688-240">15%가 전화 접속 회의 오디오만 사용</span><span class="sxs-lookup"><span data-stu-id="f7688-240">15% dial-in conferencing audio only.</span></span></p>
+<p><span data-ttu-id="f7688-241">10%가 오디오 사용 안 함(메신저 전용 회의, 사용자당 평균 5개의 메시지 전송)</span><span class="sxs-lookup"><span data-stu-id="f7688-241">10% no audio (IM-only conferences, with an average of five messages sent per user).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-242">회의를 위한 미디어 조합</span><span class="sxs-lookup"><span data-stu-id="91042-242">Media mix for conferences</span></span></p></td>
-<td><p><span data-ttu-id="91042-243">회의의 75%는 오디오와 다른 공동 작업 형식을 포함 하는 웹 회의입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-243">75% of conferences are web conferences, which include audio plus some other collaboration modalities.</span></span></p>
-<p><span data-ttu-id="91042-244">이러한 컨퍼런스에 대 한 다른 공동 작업 방법은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-244">For these conferences, the other collaboration methods are as follows:</span></span></p>
+<td><p><span data-ttu-id="f7688-242">회의의 미디어 혼합</span><span class="sxs-lookup"><span data-stu-id="f7688-242">Media mix for conferences</span></span></p></td>
+<td><p><span data-ttu-id="f7688-243">회의의 75%가 웹 회의(오디오 + 다른 공동 작업 형식)</span><span class="sxs-lookup"><span data-stu-id="f7688-243">75% of conferences are web conferences, which include audio plus some other collaboration modalities.</span></span></p>
+<p><span data-ttu-id="f7688-244">이러한 회의에 사용되는 다른 공동 작업 방법은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-244">For these conferences, the other collaboration methods are as follows:</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="91042-245">이러한 수치는 하나의 회의에 여러 공동 작업 방법이 있을 수 있으므로 100% 이상을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-245">These numbers add up to more than 100% because one conference can have multiple collaboration methods.</span></span>
+> <span data-ttu-id="f7688-245">한 회의에서 여러 공동 작업 방법을 사용할 수 있으므로 합계가 100%를 초과합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-245">These numbers add up to more than 100% because one conference can have multiple collaboration methods.</span></span>
 
 
 </div>
 <ul>
-<li><p><span data-ttu-id="91042-246">50% 응용 프로그램 공유 추가</span><span class="sxs-lookup"><span data-stu-id="91042-246">50% add application sharing.</span></span> <span data-ttu-id="91042-247">한 명의 사용자가 초당 최대 1.1 MB의 데이터를 전송 하는 것으로 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-247">We assume one users sends data at a peak of 1.1 MB per second.</span></span></p></li>
-<li><p><span data-ttu-id="91042-248">50% 인스턴트 메시지 추가 (사용자 당 평균 2 개의 메시지)</span><span class="sxs-lookup"><span data-stu-id="91042-248">50% add instant messaging (with an average of 2 messages per user).</span></span></p></li>
-<li><p><span data-ttu-id="91042-249">20% 이러한 데이터 공동 작업 (예: PowerPoint 또는 화이트 보드 포함)을 추가 하면 각 회의에 대해 표시 되는 평균 2 개의 PowerPoint 파일, 최대 PowerPoint 파일 크기: 10 MB (임베디드 비디오 제외) 또는 30mb (포함 된 비디오 사용)가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-249">20% add data collaboration, including PowerPoint or whiteboard In these, an average of 2 PowerPoint files presented per conference, with an average PowerPoint file size of 10 MB (without embedded video) or 30 MB (with embedded video).</span></span> <span data-ttu-id="91042-250">화이트 보드 당 평균 20 개의 주석</span><span class="sxs-lookup"><span data-stu-id="91042-250">Average of 20 annotations per whiteboard.</span></span></p></li>
-<li><p><span data-ttu-id="91042-251">20% 영상 추가.</span><span class="sxs-lookup"><span data-stu-id="91042-251">20% add video.</span></span> <span data-ttu-id="91042-252">이러한 사용자 중 70%는 각 사용자가 2-3 비디오 스트림을 수신 하는 multiview 비디오에 대해 회의에 설정 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-252">Of these users, 70% are in conferences enabled for multiview video, where each user receives 2-3 video streams.</span></span></p></li>
-<li><p><span data-ttu-id="91042-253">15% 공유 메모 추가</span><span class="sxs-lookup"><span data-stu-id="91042-253">15% add shared notes.</span></span></p></li>
+<li><p><span data-ttu-id="f7688-p125">50%가 응용 프로그램 공유 추가(한 사용자가 보내는 데이터는 초당 최대 1.1MB)</span><span class="sxs-lookup"><span data-stu-id="f7688-p125">50% add application sharing. We assume one users sends data at a peak of 1.1 MB per second.</span></span></p></li>
+<li><p><span data-ttu-id="f7688-248">50%가 메신저 추가(사용자당 평균 2가지의 메신저)</span><span class="sxs-lookup"><span data-stu-id="f7688-248">50% add instant messaging (with an average of 2 messages per user).</span></span></p></li>
+<li><p><span data-ttu-id="f7688-p126">20%가 데이터 공동 작업 추가(PowerPoint 또는 화이트보드 추가). 이 경우 회의당 평균 2개의 PowerPoint 파일을 발표하고, 포함된 비디오가 없는 경우 평균 PowerPoint 파일 크기는 10MB, 포함된 비디오가 있으면 평균 30MB이며, 화이트보드당 평균 주석 수는 20개입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p126">20% add data collaboration, including PowerPoint or whiteboard In these, an average of 2 PowerPoint files presented per conference, with an average PowerPoint file size of 10 MB (without embedded video) or 30 MB (with embedded video). Average of 20 annotations per whiteboard.</span></span></p></li>
+<li><p><span data-ttu-id="f7688-p127">20%가 비디오 추가. 이들 가운데 70%는 여러 보기의 비디오를 사용하며 각 사용자는 2~3개의 비디오 스트림을 수신합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p127">20% add video. Of these users, 70% are in conferences enabled for multiview video, where each user receives 2-3 video streams.</span></span></p></li>
+<li><p><span data-ttu-id="f7688-253">15%가 공유 메모 추가</span><span class="sxs-lookup"><span data-stu-id="f7688-253">15% add shared notes.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-254">모임 참가자 배포</span><span class="sxs-lookup"><span data-stu-id="91042-254">Meeting participant distribution</span></span></p></td>
-<td><p><span data-ttu-id="91042-255">50% 내부 인증 된 사용자</span><span class="sxs-lookup"><span data-stu-id="91042-255">50% internal, authenticated users.</span></span></p>
-<p><span data-ttu-id="91042-256">인증 된 사용자 인 25% 원격 액세스</span><span class="sxs-lookup"><span data-stu-id="91042-256">25% remote access, authenticated users.</span></span></p>
-<p><span data-ttu-id="91042-257">15% 익명 사용자.</span><span class="sxs-lookup"><span data-stu-id="91042-257">15% anonymous users.</span></span></p>
-<p><span data-ttu-id="91042-258">10% 페더레이션 사용자.</span><span class="sxs-lookup"><span data-stu-id="91042-258">10% federated users.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-254">모임 참가자 분포</span><span class="sxs-lookup"><span data-stu-id="f7688-254">Meeting participant distribution</span></span></p></td>
+<td><p><span data-ttu-id="f7688-255">50%는 인증된 내부 사용자</span><span class="sxs-lookup"><span data-stu-id="f7688-255">50% internal, authenticated users.</span></span></p>
+<p><span data-ttu-id="f7688-256">25%는 인증된 원격 사용자</span><span class="sxs-lookup"><span data-stu-id="f7688-256">25% remote access, authenticated users.</span></span></p>
+<p><span data-ttu-id="f7688-257">15%는 익명 사용자</span><span class="sxs-lookup"><span data-stu-id="f7688-257">15% anonymous users.</span></span></p>
+<p><span data-ttu-id="f7688-258">10%는 페더레이션 사용자</span><span class="sxs-lookup"><span data-stu-id="f7688-258">10% federated users.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-259">모임 참가 배포</span><span class="sxs-lookup"><span data-stu-id="91042-259">Meeting join distribution</span></span></p></td>
-<td><p><span data-ttu-id="91042-260">사용자는 처음 5 분 내에 모임에 참가 하는 것으로 시뮬레이션 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-260">Users are simulated as joining the meeting within the first 5 minutes.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-259">모임 참가 분포</span><span class="sxs-lookup"><span data-stu-id="f7688-259">Meeting join distribution</span></span></p></td>
+<td><p><span data-ttu-id="f7688-260">사용자는 처음 5분 이내에 모임에 참가하는 것으로 시뮬레이션합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-260">Users are simulated as joining the meeting within the first 5 minutes.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="91042-261">일반 프런트 엔드 풀에서 Lync Server 2013에는 지원 되는 최대 모임 크기 (250 사용자)가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-261">In regular Front End pools, Lync Server 2013 has a maximum supported meeting size of 250 users.</span></span> <span data-ttu-id="91042-262">각 풀은 한 번에 1 250 사용자 모임을 호스트할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-262">Each pool can host one 250-user meeting at a time.</span></span> <span data-ttu-id="91042-263">이 대규모 모임이 진행 되는 동안에는 풀이 다른 작은 회의를 호스트할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-263">While this large meeting is occurring, the pool can also host other smaller conferences.</span></span> <span data-ttu-id="91042-264">또한이 모임을 호스팅하도록 전용 풀을 설정 하 여 최대 1000 사용자의 모임을 지원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-264">Additionally, you can support meetings of up to 1000 users by setting up a dedicated pool to host these meetings.</span></span> <span data-ttu-id="91042-265">자세한 내용은 [Lync Server 2013의 대규모 모임 지원을](lync-server-2013-support-for-large-meetings.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="91042-265">For details, see [Support for large meetings in Lync Server 2013](lync-server-2013-support-for-large-meetings.md).</span></span>
+<span data-ttu-id="f7688-261">일반 프런트 엔드 풀에서 Lync Server 2013에는 지원 되는 최대 모임 크기인 250 사용자가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-261">In regular Front End pools, Lync Server 2013 has a maximum supported meeting size of 250 users.</span></span> <span data-ttu-id="f7688-262">각 풀은 한 번에 하나의 250명 규모 모임을 호스팅할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-262">Each pool can host one 250-user meeting at a time.</span></span> <span data-ttu-id="f7688-263">이 대규모 모임 중에 다른 소규모 회의를 호스팅할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-263">While this large meeting is occurring, the pool can also host other smaller conferences.</span></span> <span data-ttu-id="f7688-264">추가적으로 이러한 모임을 호스팅하는 전용 풀을 설정하여 최대 1,000명의 사용자를 모임에 지원할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-264">Additionally, you can support meetings of up to 1000 users by setting up a dedicated pool to host these meetings.</span></span> <span data-ttu-id="f7688-265">자세한 내용은 [Lync Server 2013의 대규모 모임 지원](lync-server-2013-support-for-large-meetings.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f7688-265">For details, see [Support for large meetings in Lync Server 2013](lync-server-2013-support-for-large-meetings.md).</span></span>
 
-<span data-ttu-id="91042-266">회의는 다음과 같이 시뮬레이트할 것입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-266">Conferences were simulated as follows:</span></span>
+<span data-ttu-id="f7688-266">회의가 시뮬레이션된 환경은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-266">Conferences were simulated as follows:</span></span>
 
-  - <span data-ttu-id="91042-267">회의의 85%는 참가자가 네 명 이었습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-267">85% of conferences had four participants.</span></span>
+  - <span data-ttu-id="f7688-267">85%의 회의에 4명의 참가자가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-267">85% of conferences had four participants.</span></span>
 
-  - <span data-ttu-id="91042-268">회의의 10%는 참가자가 6 명 이었습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-268">10% of conferences had six participants.</span></span>
+  - <span data-ttu-id="f7688-268">10%의 회의에 6명의 참가자가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-268">10% of conferences had six participants.</span></span>
 
-  - <span data-ttu-id="91042-269">회의의 5%는 참가자가 11 명 이었습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-269">5% of conferences had 11 participants.</span></span>
+  - <span data-ttu-id="f7688-269">5%의 회의에 11명의 참가자가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-269">5% of conferences had 11 participants.</span></span>
 
-  - <span data-ttu-id="91042-270">250 사용자 1 명으로 이루어진 대용량 회의.</span><span class="sxs-lookup"><span data-stu-id="91042-270">One large conference of 250 users.</span></span>
+  - <span data-ttu-id="f7688-270">한 번의 대규모 회의에 250명의 사용자가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-270">One large conference of 250 users.</span></span>
 
-<span data-ttu-id="91042-271">다음 표에서는 전화 접속 사용자와 관련 된 사용자 모델에 대 한 세부 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-271">The following table provides details about the user model for conferences involving dial-in users.</span></span>
+<span data-ttu-id="f7688-271">다음 표에서는 전화 접속 사용자가 포함된 회의에 대한 사용자 모델의 세부 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-271">The following table provides details about the user model for conferences involving dial-in users.</span></span>
 
-### <a name="dial-in-conferencing-user-model"></a><span data-ttu-id="91042-272">전화 접속 회의 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="91042-272">Dial-In Conferencing User Model</span></span>
+### <a name="dial-in-conferencing-user-model"></a><span data-ttu-id="f7688-272">전화 접속 회의 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="f7688-272">Dial-In Conferencing User Model</span></span>
 
 <table>
 <colgroup>
@@ -320,36 +320,36 @@ ms.locfileid: "41744588"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="91042-273">범주만</span><span class="sxs-lookup"><span data-stu-id="91042-273">Category</span></span></th>
-<th><span data-ttu-id="91042-274">설명</span><span class="sxs-lookup"><span data-stu-id="91042-274">Description</span></span></th>
+<th><span data-ttu-id="f7688-273">범주</span><span class="sxs-lookup"><span data-stu-id="f7688-273">Category</span></span></th>
+<th><span data-ttu-id="f7688-274">설명</span><span class="sxs-lookup"><span data-stu-id="f7688-274">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-275">인증 됨/익명</span><span class="sxs-lookup"><span data-stu-id="91042-275">Authenticated/anonymous</span></span></p></td>
-<td><p><span data-ttu-id="91042-276">발신자의 70%는 익명으로 참가 하 고 기록 된 이름을 입력 하 라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-276">70% of callers join as anonymous and are prompted for a recorded name.</span></span> <span data-ttu-id="91042-277">인증 된 사용자로 30% 참가.</span><span class="sxs-lookup"><span data-stu-id="91042-277">30% join as authenticated users.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-275">인증 됨/익명</span><span class="sxs-lookup"><span data-stu-id="f7688-275">Authenticated/anonymous</span></span></p></td>
+<td><p><span data-ttu-id="f7688-p129">70%의 발신자가 익명으로 참가하고 기록된 이름을 묻는 프롬프트가 나타납니다. 30%는 인증된 사용자로 참가합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p129">70% of callers join as anonymous and are prompted for a recorded name. 30% join as authenticated users.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-278">통화 시간 및 음악 보류</span><span class="sxs-lookup"><span data-stu-id="91042-278">Call duration and music on hold</span></span></p></td>
-<td><p><span data-ttu-id="91042-279">음악을 보유 하지 않은 평균 통화 시간: 50 초.</span><span class="sxs-lookup"><span data-stu-id="91042-279">Average call duration without music on hold: 50 seconds.</span></span></p>
-<p><span data-ttu-id="91042-280">통화 사용자의 50%는 평균적으로 5 분 동안 대기 음악을 들을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-280">50% of call-in users hear music on hold, for an average of 5 minutes.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-278">통화 시간 및 대기 음악</span><span class="sxs-lookup"><span data-stu-id="f7688-278">Call duration and music on hold</span></span></p></td>
+<td><p><span data-ttu-id="f7688-279">대기 음악을 제외한 평균 통화 시간: 50초.</span><span class="sxs-lookup"><span data-stu-id="f7688-279">Average call duration without music on hold: 50 seconds.</span></span></p>
+<p><span data-ttu-id="f7688-280">전화 접속 사용자의 50%에게 평균 5분간 대기 음악 재생</span><span class="sxs-lookup"><span data-stu-id="f7688-280">50% of call-in users hear music on hold, for an average of 5 minutes.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-281">Multifrequency (DTMF)</span><span class="sxs-lookup"><span data-stu-id="91042-281">Dual-tone multifrequency (DTMF)</span></span></p></td>
-<td><p><span data-ttu-id="91042-282">전화 접속 인 회의의 15%는 전화 선도 지역에만 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-282">15% of conferences that are dial-in only have phone leaders.</span></span> <span data-ttu-id="91042-283">전화 접속 사용자를 포함 하는 혼합 컨퍼런스 10%에도 전화 리더가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-283">10% of mixed conferences that include dial-in users also have phone leaders.</span></span></p>
-<p><span data-ttu-id="91042-284">전화 리더의 20%는 각 회의에 대해 DTMF 명령 2 개를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-284">20% of phone leaders use 2 DTMF commands per conference.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-281">DTMF(Dual-tone Mtifrequency)</span><span class="sxs-lookup"><span data-stu-id="f7688-281">Dual-tone multifrequency (DTMF)</span></span></p></td>
+<td><p><span data-ttu-id="f7688-p130">전화 접속 전용 회의의 15%에 전화 리더가 있습니다. 또한 전화 접속 사용자가 포함된 혼합형 회의의 10%에도 전화 리더가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p130">15% of conferences that are dial-in only have phone leaders. 10% of mixed conferences that include dial-in users also have phone leaders.</span></span></p>
+<p><span data-ttu-id="f7688-284">전화 리더의 20%는 회의당 두 가지 DTMF 명령을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-284">20% of phone leaders use 2 DTMF commands per conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-285">알림 언어</span><span class="sxs-lookup"><span data-stu-id="91042-285">Announcement languages</span></span></p></td>
-<td><p><span data-ttu-id="91042-286">시뮬레이션에서는 영어를 공지 사항 언어로 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-286">Simulations use English as the announcement language.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-285">알림 언어</span><span class="sxs-lookup"><span data-stu-id="f7688-285">Announcement languages</span></span></p></td>
+<td><p><span data-ttu-id="f7688-286">알림 언어로 영어를 사용하여 시뮬레이션합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-286">Simulations use English as the announcement language.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="91042-287">다음 표에서는 컨퍼런스 로비 사용자 모델에 대 한 세부 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-287">The following table provides details about the user model for conference lobbies.</span></span>
+<span data-ttu-id="f7688-287">다음 표에서는 회의 대기실 사용자 모델에 대한 세부 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-287">The following table provides details about the user model for conference lobbies.</span></span>
 
-### <a name="conference-lobby-user-model"></a><span data-ttu-id="91042-288">컨퍼런스 대기실 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="91042-288">Conference Lobby User Model</span></span>
+### <a name="conference-lobby-user-model"></a><span data-ttu-id="f7688-288">회의 대기실 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="f7688-288">Conference Lobby User Model</span></span>
 
 <table>
 <colgroup>
@@ -358,26 +358,26 @@ ms.locfileid: "41744588"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="91042-289">범주만</span><span class="sxs-lookup"><span data-stu-id="91042-289">Category</span></span></th>
-<th><span data-ttu-id="91042-290">설명</span><span class="sxs-lookup"><span data-stu-id="91042-290">Description</span></span></th>
+<th><span data-ttu-id="f7688-289">범주</span><span class="sxs-lookup"><span data-stu-id="f7688-289">Category</span></span></th>
+<th><span data-ttu-id="f7688-290">설명</span><span class="sxs-lookup"><span data-stu-id="f7688-290">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-291">대기실에 있는 사용자 수</span><span class="sxs-lookup"><span data-stu-id="91042-291">Number of users in lobby</span></span></p></td>
-<td><p><span data-ttu-id="91042-292">전화 접속 사용자의 5%는 대기실에서 진행 되며, 다른 사용자의 25%는 대기실를 통해 진행 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-292">5% of dial-in users go through the lobby, and 25% of other users go through the lobby</span></span></p></td>
+<td><p><span data-ttu-id="f7688-291">대기실의 사용자 수</span><span class="sxs-lookup"><span data-stu-id="f7688-291">Number of users in lobby</span></span></p></td>
+<td><p><span data-ttu-id="f7688-292">전화 접속 사용자의 5%와 다른 사용자의 25%가 대기실로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-292">5% of dial-in users go through the lobby, and 25% of other users go through the lobby</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-293">대기실에서 Admitting</span><span class="sxs-lookup"><span data-stu-id="91042-293">Admitting from lobby</span></span></p></td>
-<td><p><span data-ttu-id="91042-294">시뮬레이션에서 클라이언트 제한 시간 전에 발표자가 모든 사용자를 허가 했습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-294">In simulations, all users were admitted by the presenter before client timeout.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-293">대기실에서 입장</span><span class="sxs-lookup"><span data-stu-id="f7688-293">Admitting from lobby</span></span></p></td>
+<td><p><span data-ttu-id="f7688-294">시뮬레이션에서 클라이언트의 시간이 초과되기 전에 발표자가 모든 사용자의 입장을 허용합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-294">In simulations, all users were admitted by the presenter before client timeout.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="91042-295">다음 표에서는 다른 피어 투 피어 세션의 사용자 모델에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-295">The following table describes the user model for other peer-to-peer sessions.</span></span>
+<span data-ttu-id="f7688-295">다음 표에서는 다른 피어 투 피어 세션 사용자 모델에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-295">The following table describes the user model for other peer-to-peer sessions.</span></span>
 
-### <a name="peer-to-peer-sessions-user-model"></a><span data-ttu-id="91042-296">피어 투 피어 세션 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="91042-296">Peer-to-Peer Sessions User Model</span></span>
+### <a name="peer-to-peer-sessions-user-model"></a><span data-ttu-id="f7688-296">피어 투 피어 세션 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="f7688-296">Peer-to-Peer Sessions User Model</span></span>
 
 <table>
 <colgroup>
@@ -386,26 +386,26 @@ ms.locfileid: "41744588"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="91042-297">범주만</span><span class="sxs-lookup"><span data-stu-id="91042-297">Category</span></span></th>
-<th><span data-ttu-id="91042-298">설명</span><span class="sxs-lookup"><span data-stu-id="91042-298">Description</span></span></th>
+<th><span data-ttu-id="f7688-297">범주</span><span class="sxs-lookup"><span data-stu-id="f7688-297">Category</span></span></th>
+<th><span data-ttu-id="f7688-298">설명</span><span class="sxs-lookup"><span data-stu-id="f7688-298">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-299">응용 프로그램 공유</span><span class="sxs-lookup"><span data-stu-id="91042-299">Application sharing</span></span></p></td>
-<td><p><span data-ttu-id="91042-300">각 사용자는 일일 5 개 피어 투 피어 응용 프로그램 공유 세션에 참여 합니다 (일별 평균 0.25 세션).</span><span class="sxs-lookup"><span data-stu-id="91042-300">Each user participates in 5 peer-to-peer application sharing sessions per month, for an average of 0.25 sessions per day.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-299">응용 프로그램 공유</span><span class="sxs-lookup"><span data-stu-id="f7688-299">Application sharing</span></span></p></td>
+<td><p><span data-ttu-id="f7688-300">각 사용자는 한 달에 5번 피어 투 피어 응용 프로그램 공유 세션에 참가합니다(하루 평균 0.25세션).</span><span class="sxs-lookup"><span data-stu-id="f7688-300">Each user participates in 5 peer-to-peer application sharing sessions per month, for an average of 0.25 sessions per day.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-301">파일 전송</span><span class="sxs-lookup"><span data-stu-id="91042-301">File transfer</span></span></p></td>
-<td><p><span data-ttu-id="91042-302">각 사용자는 하루에 평균 0.05 세션에 대해 1 개월 피어 투 피어 파일 전송 세션 (IM 세션의 일부로)에 참여 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-302">Each user participates in 1 peer-to-peer file transfer session per month (as part of an IM session), for an average of 0.05 sessions per day.</span></span> <span data-ttu-id="91042-303">전송 되는 평균 세션 파일 크기는 1mb입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-303">The average session file size transferred is 1 MB.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-301">파일 전송</span><span class="sxs-lookup"><span data-stu-id="f7688-301">File transfer</span></span></p></td>
+<td><p><span data-ttu-id="f7688-p131">각 사용자는 한 달에 한 번 메신저 세션의 일부로 피어 투 피어 파일 전송 세션에 참가합니다(하루 평균 0.05 세션). 세션에서 전송되는 평균 파일 크기는 1MB입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p131">Each user participates in 1 peer-to-peer file transfer session per month (as part of an IM session), for an average of 0.05 sessions per day. The average session file size transferred is 1 MB.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="91042-304">다음 표에서는 정책에 대 한 사용자 모델에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-304">The following table describes the user model for policies.</span></span>
+<span data-ttu-id="f7688-304">다음 표에서는 정책에 대한 사용자 모델을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-304">The following table describes the user model for policies.</span></span>
 
-### <a name="policies-user-model"></a><span data-ttu-id="91042-305">정책 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="91042-305">Policies User Model</span></span>
+### <a name="policies-user-model"></a><span data-ttu-id="f7688-305">정책 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="f7688-305">Policies User Model</span></span>
 
 <table>
 <colgroup>
@@ -414,18 +414,18 @@ ms.locfileid: "41744588"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="91042-306">범주만</span><span class="sxs-lookup"><span data-stu-id="91042-306">Category</span></span></th>
-<th><span data-ttu-id="91042-307">설명</span><span class="sxs-lookup"><span data-stu-id="91042-307">Description</span></span></th>
+<th><span data-ttu-id="f7688-306">범주</span><span class="sxs-lookup"><span data-stu-id="f7688-306">Category</span></span></th>
+<th><span data-ttu-id="f7688-307">설명</span><span class="sxs-lookup"><span data-stu-id="f7688-307">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="91042-308">회의, 현재 상태 및 보관 정책</span><span class="sxs-lookup"><span data-stu-id="91042-308">Conferencing, Presence, and Archiving Policies</span></span></p></td>
-<td><p><span data-ttu-id="91042-309">글로벌 정책, 10 개의 태그 회의 정책, 보관 정책 4 개, 태그 현재 상태 정책 1 개가 있다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-309">We assume that there is one global policy, 10 tag conferencing policies, 4 Archiving policies, and 10 tag presence policies.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-308">회의, 현재 상태 및 보관 정책</span><span class="sxs-lookup"><span data-stu-id="f7688-308">Conferencing, Presence, and Archiving Policies</span></span></p></td>
+<td><p><span data-ttu-id="f7688-309">1개의 전역 정책, 10개의 태그 전화 회의 정책, 4개의 보관 정책 및 10개의 태그 현재 상태 정책이 있다고 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-309">We assume that there is one global policy, 10 tag conferencing policies, 4 Archiving policies, and 10 tag presence policies.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91042-310">음성 정책</span><span class="sxs-lookup"><span data-stu-id="91042-310">Voice Policy</span></span></p></td>
-<td><p><span data-ttu-id="91042-311">사이트 마다 하나의 글로벌 정책 및 2 개의 태그 정책이 있다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-311">We assume that there is one global policy and 2 tag policies per site.</span></span> <span data-ttu-id="91042-312">사이트의 100%에는 사이트 정책이 있으며 사용자의 30%에는 사용자 별 정책이 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-312">100% of sites have a site policy, and 30% of users have a per-user policy assigned.</span></span> <span data-ttu-id="91042-313">사이트별로 하나의 다이얼 플랜을 만들고 각 사이트에는 두 개의 경로를 계획 하 고 있다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-313">We assume one dial plan per site and two routes per site.</span></span></p></td>
+<td><p><span data-ttu-id="f7688-310">음성 정책</span><span class="sxs-lookup"><span data-stu-id="f7688-310">Voice Policy</span></span></p></td>
+<td><p><span data-ttu-id="f7688-311">사이트당 1개의 전역 정책과 2개의 태그 정책이 있다고 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-311">We assume that there is one global policy and 2 tag policies per site.</span></span> <span data-ttu-id="f7688-312">100%의 사이트에 사이트 정책이 있고 30%의 사용자에게 사용자별 정책이 할당되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-312">100% of sites have a site policy, and 30% of users have a per-user policy assigned.</span></span> <span data-ttu-id="f7688-313">사이트당 하나의 다이얼 플랜 및 사이트당 두 개의 경로가 있다고 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-313">We assume one dial plan per site and two routes per site.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -435,57 +435,57 @@ ms.locfileid: "41744588"
 
 <div>
 
-## <a name="busy-hour"></a><span data-ttu-id="91042-314">통화 시간</span><span class="sxs-lookup"><span data-stu-id="91042-314">Busy Hour</span></span>
+## <a name="busy-hour"></a><span data-ttu-id="f7688-314">사용량이 많은 시간</span><span class="sxs-lookup"><span data-stu-id="f7688-314">Busy Hour</span></span>
 
-<span data-ttu-id="91042-315">피어 투 피어 세션의 경우 사용량이 많은 시간 (BHCA)을 사용 하 여 최대 로드가 계산 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-315">For peer-to-peer sessions, peak load is calculated using busy hour call attempts (BHCA).</span></span> <span data-ttu-id="91042-316">이 음성 산업 약관은 하루 종일 통화의 50%가 20% 동안 완료 된다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-316">This voice industry term assumes that 50% of all calls for the day will be completed in 20% of the time.</span></span> <span data-ttu-id="91042-317">다음 수식을 사용 하 여 계산 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-317">It is calculated using the following formula:</span></span>
+<span data-ttu-id="f7688-p133">피어 투 피어 세션의 경우 BHCA(Busy Hour Call Attempts)를 사용하여 최대 부하를 계산합니다. 이 음성 산업 용어는 하루 총 통화의 50%가 20% 시간 내에 완료되는 것으로 가정합니다. 이는 다음 수식을 통해 계산됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p133">For peer-to-peer sessions, peak load is calculated using busy hour call attempts (BHCA). This voice industry term assumes that 50% of all calls for the day will be completed in 20% of the time. It is calculated using the following formula:</span></span>
 
 `BHCA=(total calls * 0.5) / 1.6`
 
-<span data-ttu-id="91042-318">일일 최소 1.6 시간 동안 바쁜 시간에 VoIP 및 기타 피어 투 피어 세션을 실행 하 여 시간을 시뮬레이션 한 성능 테스트.</span><span class="sxs-lookup"><span data-stu-id="91042-318">Performance testing simulated busy hour by running VoIP and other peer-to-peer sessions at a busy hour load for at least 1.6 hours per day.</span></span>
+<span data-ttu-id="f7688-318">성능 테스트를 통해 하루 1.6시간 이상의 사용량이 많은 시간에 VoIP와 다른 피어 투 피어 세션을 실행하여 사용량이 많은 시간을 시뮬레이션했습니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-318">Performance testing simulated busy hour by running VoIP and other peer-to-peer sessions at a busy hour load for at least 1.6 hours per day.</span></span>
 
-<span data-ttu-id="91042-319">회의 최고 로드는 하루에 모든 컨퍼런스의 75%가 최대 4 시간 동안 발생 한다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-319">Conferencing peak load assumes that 75% of all conferences for an eight-hour day happen in 4 peak time hours.</span></span> <span data-ttu-id="91042-320">이러한 피크 시간은 평균 회의 부하의 1.5 배입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-320">Those peak hours have 1.5 times the average conferencing load.</span></span>
-
-</div>
-
-<div>
-
-## <a name="enterprise-voice-to-pstn-calls"></a><span data-ttu-id="91042-321">엔터프라이즈 음성 ~ PSTN 통화</span><span class="sxs-lookup"><span data-stu-id="91042-321">Enterprise Voice to PSTN Calls</span></span>
-
-<span data-ttu-id="91042-322">엔터프라이즈 음성 통화에는 다음과 같은 가정이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-322">The following assumptions apply to Enterprise Voice calls:</span></span>
-
-  - <span data-ttu-id="91042-323">사용자의 50%가 엔터프라이즈 음성에 대해 사용 하도록 설정 되어 있으며 이러한 사용자의 60%는 PSTN 통화에 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="91042-323">50% of users are enabled for Enterprise Voice, and 60% of these users are enabled for PSTN calling.</span></span>
-
-  - <span data-ttu-id="91042-324">PSTN 통화에 대해 사용 하도록 설정 된 이러한 각 사용자는 바쁜 시간 동안 4 개의 PSTN 통화를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-324">Each of these users enabled for PSTN calling makes 4 PSTN calls during the busy hour.</span></span> <span data-ttu-id="91042-325">각 통화 기간은 3 분입니다.</span><span class="sxs-lookup"><span data-stu-id="91042-325">Each call duration is 3 minutes.</span></span>
-
-  - <span data-ttu-id="91042-326">이 PSTN 음성 통화의 65%는 미디어 바이패스를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-326">65% of these PSTN voice calls use media bypass.</span></span>
+<span data-ttu-id="f7688-p134">회의 최대 부하는 하루 8시간 동안 이루어지는 모든 회의의 75%가 4시간의 피크 시간 동안 발생하는 것으로 가정합니다. 이러한 피크 시간의 부하는 평균 회의 부하의 1.5배입니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p134">Conferencing peak load assumes that 75% of all conferences for an eight-hour day happen in 4 peak time hours. Those peak hours have 1.5 times the average conferencing load.</span></span>
 
 </div>
 
 <div>
 
-## <a name="mobility"></a><span data-ttu-id="91042-327">이동성</span><span class="sxs-lookup"><span data-stu-id="91042-327">Mobility</span></span>
+## <a name="enterprise-voice-to-pstn-calls"></a><span data-ttu-id="f7688-321">Enterprise Voice to PSTN 통화</span><span class="sxs-lookup"><span data-stu-id="f7688-321">Enterprise Voice to PSTN Calls</span></span>
 
-<span data-ttu-id="91042-328">등록 된 사용자의 40%는 이동성을 사용할 수 있는 것으로 간주 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-328">40% of registered users are assumed to be enabled for Mobility.</span></span> <span data-ttu-id="91042-329">이동성을 사용 하는 각 사용자에 대해 모바일 클라이언트의 활동은 해당 사용자에 대 한 다른 MPOP 인스턴스를 추가 하는 것으로 간주 되며,이는 이동성 클라이언트가 다른 클라이언트 유형으로 서만 사용할 수 있는 것으로 서, 회의 조작의 예외입니다. 회의에 참여 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="91042-329">For each user that has mobility enabled, we assume that the activity of the mobile client is additive to that of the other MPOP instances for that user, with the exception of conferencing interactions, for which the mobility client is just another client type that can be used to participate in conferences.</span></span>
+<span data-ttu-id="f7688-322">Enterprise Voice 통화에는 다음과 같은 가정이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-322">The following assumptions apply to Enterprise Voice calls:</span></span>
 
-</div>
+  - <span data-ttu-id="f7688-323">사용자의 50%가 Enterprise Voice를 사용 하도록 설정 되었으며, 이러한 사용자의 60%는 PSTN 통화에 사용 하도록 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-323">50% of users are enabled for Enterprise Voice, and 60% of these users are enabled for PSTN calling.</span></span>
 
-<div>
+  - <span data-ttu-id="f7688-p135">PSTN 통화를 사용하는 개별 사용자는 사용량이 많은 시간에 4번의 PSTN 통화를 하고 각 통화는 3분간 지속됩니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p135">Each of these users enabled for PSTN calling makes 4 PSTN calls during the busy hour. Each call duration is 3 minutes.</span></span>
 
-## <a name="persistent-chat"></a><span data-ttu-id="91042-330">영구 채팅</span><span class="sxs-lookup"><span data-stu-id="91042-330">Persistent Chat</span></span>
-
-<span data-ttu-id="91042-331">등록 된 사용자 중 25%가 영구 채팅 세션에 포함 되는 경우 다음 특성을 사용 하는 것으로 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-331">We assume that 25% of registered users will be involved in Persistent chat sessions, with the following characteristics:</span></span>
-
-  - <span data-ttu-id="91042-332">사용자 당 평균 1.5 채팅 채팅방</span><span class="sxs-lookup"><span data-stu-id="91042-332">An average of 1.5 chat rooms per user</span></span>
-
-  - <span data-ttu-id="91042-333">각 채팅방은 평균 10 명의 사용자를 대상으로 하 여 시간당 12 회 폴링 요청을 생성 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-333">Each chat room results in 12 polling requests per hour, targeting an average of 10 users each</span></span>
+  - <span data-ttu-id="f7688-326">PSTN 음성 통화의 65%가 미디어 바이패스를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-326">65% of these PSTN voice calls use media bypass.</span></span>
 
 </div>
 
 <div>
 
-## <a name="response-group-and-call-park"></a><span data-ttu-id="91042-334">응답 그룹 및 통화 공원</span><span class="sxs-lookup"><span data-stu-id="91042-334">Response Group and Call Park</span></span>
+## <a name="mobility"></a><span data-ttu-id="f7688-327">이동성</span><span class="sxs-lookup"><span data-stu-id="f7688-327">Mobility</span></span>
 
-<span data-ttu-id="91042-335">등록 된 사용자의 0.15%가 응답 그룹에 속해 있다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-335">We assume that 0.15% of registered users belong to response groups.</span></span> <span data-ttu-id="91042-336">사용자의 0.02%가 지정 된 시점에 대기 중인 통화를 보유 하 고 있다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="91042-336">We assume that 0.02% of registered users have parked calls at any given point of time.</span></span>
+<span data-ttu-id="f7688-p136">40%의 등록된 사용자에게 모바일 기능이 허용되는 것으로 가정합니다. 모바일 기능을 사용하는 각 사용자의 경우 모바일 클라이언트의 작업이 해당 사용자의 다른 MPOP 인스턴스의 작업에 추가됩니다. 단, 모바일 클라이언트가 회의 상호 작용을 위해 회의 참가에 사용되는 또 다른 유형의 클라이언트인 경우는 제외합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p136">40% of registered users are assumed to be enabled for Mobility. For each user that has mobility enabled, we assume that the activity of the mobile client is additive to that of the other MPOP instances for that user, with the exception of conferencing interactions, for which the mobility client is just another client type that can be used to participate in conferences.</span></span>
+
+</div>
+
+<div>
+
+## <a name="persistent-chat"></a><span data-ttu-id="f7688-330">영구 채팅</span><span class="sxs-lookup"><span data-stu-id="f7688-330">Persistent Chat</span></span>
+
+<span data-ttu-id="f7688-331">등록된 사용자의 25%가 다음과 같은 특징으로 영구 채팅 세션에 연관된다고 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-331">We assume that 25% of registered users will be involved in Persistent chat sessions, with the following characteristics:</span></span>
+
+  - <span data-ttu-id="f7688-332">사용자당 평균 1.5개의 채팅방</span><span class="sxs-lookup"><span data-stu-id="f7688-332">An average of 1.5 chat rooms per user</span></span>
+
+  - <span data-ttu-id="f7688-333">각 채팅방에는 시간당 평균 10명의 사용자를 대상으로 하는 12개의 설문 조사 요청이 발생합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-333">Each chat room results in 12 polling requests per hour, targeting an average of 10 users each</span></span>
+
+</div>
+
+<div>
+
+## <a name="response-group-and-call-park"></a><span data-ttu-id="f7688-334">응답 그룹 및 통화 대기</span><span class="sxs-lookup"><span data-stu-id="f7688-334">Response Group and Call Park</span></span>
+
+<span data-ttu-id="f7688-p137">등록된 사용자의 0.15%가 응답 그룹에 속하고, 등록된 사용자의 0.02%가 지정한 시점에 통화 대기 상태인 것으로 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="f7688-p137">We assume that 0.15% of registered users belong to response groups. We assume that 0.02% of registered users have parked calls at any given point of time.</span></span>
 
 </div>
 

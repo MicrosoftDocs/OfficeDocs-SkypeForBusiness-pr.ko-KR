@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server 페더레이션에 사용되는 에지 풀 장애 조치(failover)'
+title: 'Lync Server 2013: Lync Server federation에 사용 되는에 지 풀 장애 조치 (failover)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f144def3d3a8df9cc63221342a85666eb3c28913
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f884f9e2ee822e99ebb17bd4b17717d1e147bf95
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765196"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030431"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-the-edge-pool-used-for-lync-server-federation-in-lync-server-2013"></a><span data-ttu-id="6049c-102">Lync Server 2013에서 Lync Server 페더레이션에 사용되는 에지 풀 장애 조치(failover)</span><span class="sxs-lookup"><span data-stu-id="6049c-102">Failing over the Edge pool used for Lync Server federation in Lync Server 2013</span></span>
+# <a name="failing-over-the-edge-pool-used-for-lync-server-federation-in-lync-server-2013"></a><span data-ttu-id="92e99-102">Lync Server 2013의 Lync Server federation에 사용 되는에 지 풀 장애 조치 (failover)</span><span class="sxs-lookup"><span data-stu-id="92e99-102">Failing over the Edge pool used for Lync Server federation in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "41765196"
 
 <span> </span>
 
-<span data-ttu-id="6049c-103">_**마지막으로 수정한 주제:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="6049c-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="92e99-103">_**마지막으로 수정 된 항목:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="92e99-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="6049c-104">Lync Server federation 구성 된 Edge 풀이 작동 하지 않으면 페더레이션에서 다른 Edge 풀을 사용 하 여 페더레이션을 변경 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-104">If the Edge pool where you have Lync Server federation configured goes down, you must change federation to use a different Edge pool for federation to work.</span></span>
+<span data-ttu-id="92e99-104">Lync Server 페더레이션을 구성한 에지 풀이 다운될 경우 페더레이션이 작동하도록 하려면 다른 에지 풀을 사용하도록 페더레이션을 변경해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="92e99-104">If the Edge pool where you have Lync Server federation configured goes down, you must change federation to use a different Edge pool for federation to work.</span></span>
 
 <div>
 
-## <a name="failing-over-the-edge-pool-used-for-lync-server-federation"></a><span data-ttu-id="6049c-105">Lync Server Federation에 사용 되는 Edge 풀을 통한 장애 조치</span><span class="sxs-lookup"><span data-stu-id="6049c-105">Failing Over the Edge Pool Used for Lync Server Federation</span></span>
+## <a name="failing-over-the-edge-pool-used-for-lync-server-federation"></a><span data-ttu-id="92e99-105">Lync Server 페더레이션에 사용된 에지 풀 장애 조치(Failover)</span><span class="sxs-lookup"><span data-stu-id="92e99-105">Failing Over the Edge Pool Used for Lync Server Federation</span></span>
 
-1.  <span data-ttu-id="6049c-106">프런트 엔드 서버에서 토폴로지 작성기를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-106">On a Front End server, open Topology Builder.</span></span> <span data-ttu-id="6049c-107">**Edge 풀**을 확장 한 다음, 현재 페더레이션에 대해 구성 된 edge 서버 또는 edge 서버 풀을 마우스 오른쪽 단추로 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-107">Expand **Edge pools**, then right click the Edge server or Edge server pool that is currently configured for Federation.</span></span> <span data-ttu-id="6049c-108">**속성 편집**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-108">Select **Edit properties**.</span></span>
+1.  <span data-ttu-id="92e99-p101">프런트 엔드 서버에서 토폴로지 작성기를 엽니다. **에지 풀**을 확장하고 현재 페더레이션에 대해 구성된 에지 서버 또는 에지 서버 풀을 마우스 오른쪽 단추로 클릭합니다. **속성 편집**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="92e99-p101">On a Front End server, open Topology Builder. Expand **Edge pools**, then right click the Edge server or Edge server pool that is currently configured for Federation. Select **Edit properties**.</span></span>
 
-2.  <span data-ttu-id="6049c-109">**일반**아래의 **속성 편집** 에서 **이 Edge 풀에 페더레이션 사용 (포트 5061)** 을 선택 취소 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-109">In **Edit Properties** under **General**, clear **Enable federation for this Edge pool (Port 5061)**.</span></span> <span data-ttu-id="6049c-110">**확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-110">Click **OK**.</span></span>
+2.  <span data-ttu-id="92e99-p102">**일반** 아래의 **속성 편집**에서 **이 에지 풀에 페더레이션 사용(포트 5061)** 의 선택을 취소합니다. **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92e99-p102">In **Edit Properties** under **General**, clear **Enable federation for this Edge pool (Port 5061)**. Click **OK**.</span></span>
 
-3.  <span data-ttu-id="6049c-111">**Edge 풀**을 확장 한 다음 현재 페더레이션에 사용할 edge 서버 또는 edge 서버 풀을 마우스 오른쪽 단추로 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-111">Expand **Edge pools**, then right click the Edge server or Edge server pool that you now want to use for Federation.</span></span> <span data-ttu-id="6049c-112">**속성 편집**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-112">Select **Edit properties**.</span></span>
+3.  <span data-ttu-id="92e99-p103">**에지 풀**을 확장한 후 현재 페더레이션에 대해 사용할 에지 서버 또는 에지 서버 풀을 마우스 오른쪽 단추로 클릭합니다. **에지 속성**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="92e99-p103">Expand **Edge pools**, then right click the Edge server or Edge server pool that you now want to use for Federation. Select **Edit properties**.</span></span>
 
-4.  <span data-ttu-id="6049c-113">**일반**아래에서 **속성 편집** 에서 **이 Edge 풀에 페더레이션 사용 (포트 5061)** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-113">In **Edit Properties** under **General**, select **Enable federation for this Edge pool (Port 5061)**.</span></span> <span data-ttu-id="6049c-114">**확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-114">Click **OK**.</span></span>
+4.  <span data-ttu-id="92e99-p104">**일반** 아래의 **속성 편집**에서 **이 에지 풀에 페더레이션 사용(포트 5061)** 을 선택합니다. **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92e99-p104">In **Edit Properties** under **General**, select **Enable federation for this Edge pool (Port 5061)**. Click **OK**.</span></span>
 
-5.  <span data-ttu-id="6049c-115">**작업**을 클릭 하 고 **토폴로지**를 선택한 다음 **게시**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-115">Click **Action**, select **Topology**, select **Publish**.</span></span> <span data-ttu-id="6049c-116">**토폴로지를 게시할**것인지 묻는 메시지가 표시 되 면 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-116">When prompted on **Publish the topology**, click **Next**.</span></span> <span data-ttu-id="6049c-117">게시가 완료 되 면 **마침을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-117">When the Publish is finished, click **Finish**.</span></span>
+5.  <span data-ttu-id="92e99-p105">**작업**을 클릭하고, **토폴로지**, **게시**를 차례로 클릭합니다. **토폴로지 게시** 프롬프트가 표시되면 **다음**을 클릭합니다. 게시가 완료되면 **마침**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92e99-p105">Click **Action**, select **Topology**, select **Publish**. When prompted on **Publish the topology**, click **Next**. When the Publish is finished, click **Finish**.</span></span>
 
-6.  <span data-ttu-id="6049c-118">Edge 서버에서 Lync Server 배포 마법사를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-118">On the Edge server, open the Lync Server Deployment wizard.</span></span> <span data-ttu-id="6049c-119">**Lync Server 시스템 설치 또는 업데이트**를 클릭 한 다음 **설정 또는 Lync Server 구성 요소 제거**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-119">Click **Install or Update Lync Server System**, then click **Setup or Remove Lync Server Components**.</span></span> <span data-ttu-id="6049c-120">**다시 실행**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-120">Click **Run Again**.</span></span>
+6.  <span data-ttu-id="92e99-p106">에지 서버에서 Lync Server 배포 마법사를 엽니다. **Lync Server 시스템 설치 또는 업데이트**를 클릭한 후 **Lync Server 구성 요소 설치 또는 제거**를 클릭합니다. **다시 실행**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92e99-p106">On the Edge server, open the Lync Server Deployment wizard. Click **Install or Update Lync Server System**, then click **Setup or Remove Lync Server Components**. Click **Run Again**.</span></span>
 
-7.  <span data-ttu-id="6049c-121">Lync Server 구성 요소를 설정 하 고 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-121">At Setup Lync Server components, click **Next**.</span></span> <span data-ttu-id="6049c-122">요약 화면에 실행 되는 작업이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-122">The summary screen will show actions as they are executed.</span></span> <span data-ttu-id="6049c-123">배포가 완료 되 면 **로그 보기** 를 클릭 하 여 사용 가능한 로그 파일을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-123">Once the deployment is done, click **View Log** to view available log files.</span></span> <span data-ttu-id="6049c-124">**마침을** 클릭 하 여 배포를 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-124">Click **Finish** to complete the deployment.</span></span>
+7.  <span data-ttu-id="92e99-p107">Lync Server 구성 요소 설치에서 **다음**을 클릭합니다. 요약 화면에 실행되는 작업이 표시됩니다. 배포가 완료되었으면 **로그 보기**를 클릭하여 사용 가능한 로그 파일을 확인합니다. **마침**을 클릭하여 배포를 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="92e99-p107">At Setup Lync Server components, click **Next**. The summary screen will show actions as they are executed. Once the deployment is done, click **View Log** to view available log files. Click **Finish** to complete the deployment.</span></span>
     
-    <span data-ttu-id="6049c-125">실행 중인 프런트 엔드 서버가 실패 한 Edge 풀을 포함 하는 사이트에 포함 되어 있는 경우, 현재 실행 중인 원격 사이트의 Edge 풀을 사용 하도록 이러한 프런트 엔드 풀의 웹 회의 서비스와 A/V 회의 서비스를 업데이트 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6049c-125">If the site containing the failed Edge pool contains Front End Servers that are still running, you must update the Web Conferencing Service and A/V Conferencing Service on these Front End pools to use an Edge pool in a remote site that is still running.</span></span> <span data-ttu-id="6049c-126">자세한 내용은 [Lync Server 2013의 프런트 엔드 풀에 연결 된 Edge 풀 변경을](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="6049c-126">For more information, see [Changing the Edge pool associated with a Front End pool in Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).</span></span>
+    <span data-ttu-id="92e99-125">실패한 에지 풀을 포함하는 사이트에 아직 실행 중인 프런트 엔드 서버가 포함된 경우 아직 실행 중인 원격 사이트의 에지 풀을 사용하도록 해당 프런트 엔드 풀에서 웹 회의 서비스 및 A/V 회의 서비스를 업데이트해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="92e99-125">If the site containing the failed Edge pool contains Front End Servers that are still running, you must update the Web Conferencing Service and A/V Conferencing Service on these Front End pools to use an Edge pool in a remote site that is still running.</span></span> <span data-ttu-id="92e99-126">자세한 내용은 [Lync Server 2013에서 프런트 엔드 풀과 연결 된에 지 풀 변경을](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="92e99-126">For more information, see [Changing the Edge pool associated with a Front End pool in Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="6049c-127">참고 항목</span><span class="sxs-lookup"><span data-stu-id="6049c-127">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="92e99-127">참고 항목</span><span class="sxs-lookup"><span data-stu-id="92e99-127">See Also</span></span>
 
 
-[<span data-ttu-id="6049c-128">Lync Server 2013에서 XMPP 페더레이션에 사용되는 에지 풀 장애 조치(failover)</span><span class="sxs-lookup"><span data-stu-id="6049c-128">Failing over the Edge pool used for XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)  
-[<span data-ttu-id="6049c-129">Lync Server 2013에서 Lync Server 페더레이션 또는 XMPP 페더레이션에 사용되는 에지 풀 장애 복구(failback)</span><span class="sxs-lookup"><span data-stu-id="6049c-129">Failing back the Edge pool used for Lync Server federation or XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)  
+[<span data-ttu-id="92e99-128">Lync Server 2013의 XMPP 페더레이션에 사용 되는에 지 풀 장애 조치 (failover)</span><span class="sxs-lookup"><span data-stu-id="92e99-128">Failing over the Edge pool used for XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)  
+[<span data-ttu-id="92e99-129">Lync Server 2013에서 Lync Server 페더레이션 또는 XMPP 페더레이션에 사용 되는에 지 풀 장애 복구 (failback)</span><span class="sxs-lookup"><span data-stu-id="92e99-129">Failing back the Edge pool used for Lync Server federation or XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)  
 
 
-[<span data-ttu-id="6049c-130">Lync Server 2013의 에지 서버 재해 복구</span><span class="sxs-lookup"><span data-stu-id="6049c-130">Edge Server disaster recovery in Lync Server 2013</span></span>](lync-server-2013-edge-server-disaster-recovery.md)  
+[<span data-ttu-id="92e99-130">Lync Server 2013의에 지 서버 재해 복구</span><span class="sxs-lookup"><span data-stu-id="92e99-130">Edge Server disaster recovery in Lync Server 2013</span></span>](lync-server-2013-edge-server-disaster-recovery.md)  
   
 
 </div>

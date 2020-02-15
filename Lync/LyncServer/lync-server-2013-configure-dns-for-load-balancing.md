@@ -12,20 +12,20 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5b68bf226c71d65835791577ab9a45f18b2a10e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 797a788649edab99852cfec9f83423075b14f742
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758356"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028599"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a><span data-ttu-id="c2cf4-102">Lync Server 2013에서 부하 분산을 위한 DNS 구성</span><span class="sxs-lookup"><span data-stu-id="c2cf4-102">Configure DNS for load balancing in Lync Server 2013</span></span>
+# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a><span data-ttu-id="0f821-102">Lync Server 2013에서 부하 분산을 위한 DNS 구성</span><span class="sxs-lookup"><span data-stu-id="0f821-102">Configure DNS for load balancing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,87 +35,87 @@ ms.locfileid: "41758356"
 
 <span> </span>
 
-<span data-ttu-id="c2cf4-103">_**마지막으로 수정한 주제:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="c2cf4-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="0f821-103">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="0f821-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="c2cf4-104">이 절차를 완료 하려면 Domain Admins 그룹의 구성원 또는 DnsAdmins 그룹의 구성원으로 최소한 서버나 도메인에 로그온 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-104">To successfully complete this procedure, you should be logged on to the server or domain minimally as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
+<span data-ttu-id="0f821-104">이 절차를 성공적으로 완료하려면 서버 또는 도메인에 최소한 Domain Admins 그룹의 구성원 또는 DnsAdmins 그룹의 구성원으로 로그온해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-104">To successfully complete this procedure, you should be logged on to the server or domain minimally as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
 
-<span data-ttu-id="c2cf4-105">DNS (Domain Name System) 부하 분산은 SIP 서버 2013에 고유한 네트워크 트래픽 (예: SIP 트래픽 및 미디어 트래픽)의 균형을 유지 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-105">Domain Name System (DNS) Load Balancing balances the network traffic that is unique to Lync Server 2013, such as SIP traffic and media traffic.</span></span> <span data-ttu-id="c2cf4-106">DNS 부하 분산은 프런트 엔드 풀, Edge 풀, 디렉터 풀 및 독립 실행형 중재 풀에 대해 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-106">DNS load balancing is supported for Front End pools, Edge pools, Director pools, and stand-alone Mediation pools.</span></span> <span data-ttu-id="c2cf4-107">DNS 부하 분산을 사용 하도록 구성 된 풀에는 DNS 부하 분산 (예: pool1.contoso.com)에서 사용 되 고 풀에 있는 서버의 실제 Ip로 확인 되는 일반 풀 FQDN이 정의 되어 있어야 합니다. 풀의 가상 IP 주소를 확인 하는 풀의 웹 서비스 (예: web1.contoso.net)에 대 한 다른 FQDN.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-107">A pool that is configured to use DNS load balancing must have two fully qualified domain names (FQDNs) defined: the regular pool FQDN that is used by DNS load balancing (for example, pool1.contoso.com) and that resolves to the physical IPs of the servers in the pool, and another FQDN for the pool’s Web Services (for example, web1.contoso.net), which resolves to the virtual IP address of the pool.</span></span> <span data-ttu-id="c2cf4-108">DNS 부하 분산에 대 한 자세한 내용은 계획 설명서의 [Lync Server 2013에서 dns 부하 분산](lync-server-2013-dns-load-balancing.md) 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-108">For details about DNS Load Balancing, see [DNS load balancing in Lync Server 2013](lync-server-2013-dns-load-balancing.md) in the Planning documentation.</span></span>
+<span data-ttu-id="0f821-105">DNS (Domain Name System) 부하 분산은 SIP 트래픽 및 미디어 트래픽 같은 Lync Server 2013에 고유한 네트워크 트래픽의 균형을 조정 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-105">Domain Name System (DNS) Load Balancing balances the network traffic that is unique to Lync Server 2013, such as SIP traffic and media traffic.</span></span> <span data-ttu-id="0f821-106">DNS 부하 분산은 프런트 엔드 풀, 에지 풀, 디렉터 풀 및 독립 실행형 중재 풀에 대해 지원됩니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-106">DNS load balancing is supported for Front End pools, Edge pools, Director pools, and stand-alone Mediation pools.</span></span> <span data-ttu-id="0f821-107">DNS 부하 분산을 사용 하도록 구성 된 풀에는 DNS 부하 분산에 사용 되는 일반 풀 FQDN (예: pool1.contoso.com)이 정의 되어 있어야 하며 풀에 있는 서버의 실제 Ip로 확인 됩니다. 및 풀의 웹 서비스 (예: web1.contoso.net)에 대 한 또 다른 FQDN은 풀의 가상 IP 주소로 확인 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-107">A pool that is configured to use DNS load balancing must have two fully qualified domain names (FQDNs) defined: the regular pool FQDN that is used by DNS load balancing (for example, pool1.contoso.com) and that resolves to the physical IPs of the servers in the pool, and another FQDN for the pool’s Web Services (for example, web1.contoso.net), which resolves to the virtual IP address of the pool.</span></span> <span data-ttu-id="0f821-108">DNS 부하 분산에 대 한 자세한 내용은 계획 설명서에서 [Lync Server 2013의 dns 부하 분산](lync-server-2013-dns-load-balancing.md) 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="0f821-108">For details about DNS Load Balancing, see [DNS load balancing in Lync Server 2013](lync-server-2013-dns-load-balancing.md) in the Planning documentation.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="c2cf4-109">클라이언트에서 서버 HTTPS 트래픽에 대해 하드웨어 로드 균형 조정이 여전히 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-109">Hardware load balancing is still required for client to server HTTPS traffic.</span></span>
+> <span data-ttu-id="0f821-109">클라이언트에서 서버로의 HTTPS 트래픽에는 하드웨어 부하 분산을 계속 수행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-109">Hardware load balancing is still required for client to server HTTPS traffic.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="c2cf4-110">DNS 부하 분산을 사용 하려면 먼저 다음을 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-110">Before you can use DNS load balancing, you must do the following:</span></span>
+<span data-ttu-id="0f821-110">DNS 부하 분산을 사용하려면 다음을 수행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-110">Before you can use DNS load balancing, you must do the following:</span></span>
 
-1.  <span data-ttu-id="c2cf4-111">내부 웹 서비스 풀 FQDN을 재정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-111">Override the internal Web Services pool FQDN.</span></span>
+1.  <span data-ttu-id="0f821-111">내부 웹 서비스 풀 FQDN을 재정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-111">Override the internal Web Services pool FQDN.</span></span>
     
     <div>
     
 
     > [!WARNING]  
-    > <span data-ttu-id="c2cf4-112">내부 웹 서비스를 자체 정의 FQDN으로 재정의 하기로 결정 한 경우 각 FQDN은 다른 프런트 엔드 풀, 디렉터 또는 디렉터 풀에서 고유 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-112">If decide to override the Internal web services with a self-defined FQDN, each FQDN must be unique from any other Front End pool, Director or a Director pool.</span></span>
+    > <span data-ttu-id="0f821-112">내부 웹 서비스를 자체 정의 된 FQDN으로 다시 정의 하려는 경우 각 FQDN은 다른 프런트 엔드 풀, 디렉터 또는 디렉터 풀에서 고유 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-112">If decide to override the Internal web services with a self-defined FQDN, each FQDN must be unique from any other Front End pool, Director or a Director pool.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="c2cf4-113">DNS 호스트 레코드를 만들어 풀에 있는 모든 서버의 IP 주소에 대 한 풀 FQDN을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-113">Create DNS A host records to resolve the pool FQDN to the IP addresses of all the servers in the pool.</span></span>
+2.  <span data-ttu-id="0f821-113">풀 FQDN이 풀에 있는 모든 서버의 IP 주소로 확인되도록 DNS A 호스트 레코드를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-113">Create DNS A host records to resolve the pool FQDN to the IP addresses of all the servers in the pool.</span></span>
 
-3.  <span data-ttu-id="c2cf4-114">IP 주소 임의 사용 또는 Windows Server DNS의 경우 라운드 로빈 기능을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-114">Enable IP Address randomization or, for Windows Server DNS, enable round robin.</span></span>
+3.  <span data-ttu-id="0f821-114">IP 주소 임의화를 사용하도록 설정하거나, Windows Server DNS의 경우 라운드 로빈을 사용하도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-114">Enable IP Address randomization or, for Windows Server DNS, enable round robin.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="c2cf4-115">라운드 로빈은 기본적으로 사용 하도록 설정 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-115">Round robin should be enabled by default.</span></span>
+    > <span data-ttu-id="0f821-115">라운드 로빈은 기본적으로 사용하도록 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-115">Round robin should be enabled by default.</span></span>
 
     
     </div>
 
 <div>
 
-## <a name="to-override-internal-web-services-fqdn"></a><span data-ttu-id="c2cf4-116">내부 웹 서비스 FQDN을 재정의 하려면</span><span class="sxs-lookup"><span data-stu-id="c2cf4-116">To override internal Web services FQDN</span></span>
+## <a name="to-override-internal-web-services-fqdn"></a><span data-ttu-id="0f821-116">내부 웹 서비스 FQDN을 재정의하려면</span><span class="sxs-lookup"><span data-stu-id="0f821-116">To override internal Web services FQDN</span></span>
 
-1.  <span data-ttu-id="c2cf4-117">토폴로지 작성기 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-117">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+1.  <span data-ttu-id="0f821-117">토폴로지 작성기 시작: **시작**, **모든 프로그램**, **Microsoft lync server 2013**을 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-117">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
-2.  <span data-ttu-id="c2cf4-118">콘솔 트리에서 Enterprise Edition 프런트 엔드 풀 노드를 확장 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-118">From the console tree, expand the Enterprise Edition Front End pools node.</span></span>
+2.  <span data-ttu-id="0f821-118">콘솔 트리에서 Enterprise Edition 프런트 엔드 풀 노드를 확장합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-118">From the console tree, expand the Enterprise Edition Front End pools node.</span></span>
 
-3.  <span data-ttu-id="c2cf4-119">풀을 마우스 오른쪽 단추로 클릭 하 고 **속성 편집**을 클릭 한 다음 **웹 서비스**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-119">Right-click the pool, click **Edit Properties**, and then click **Web Services**.</span></span>
+3.  <span data-ttu-id="0f821-119">풀을 마우스 오른쪽 단추로 클릭하고 **속성 편집**을 클릭한 후에 **웹 서비스**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-119">Right-click the pool, click **Edit Properties**, and then click **Web Services**.</span></span>
 
-4.  <span data-ttu-id="c2cf4-120">**내부 웹 서비스**아래에서 **FQDN 재정의** 확인란을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-120">Below **Internal web services**, select the **Override FQDN** check box.</span></span>
+4.  <span data-ttu-id="0f821-120">**내부 웹 서비스** 아래에서 **FQDN 다시 정의** 확인란을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-120">Below **Internal web services**, select the **Override FQDN** check box.</span></span>
 
-5.  <span data-ttu-id="c2cf4-121">풀에 있는 서버의 실제 IP 주소로 확인 되는 풀 FQDN을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-121">Type the pool FQDN that resolves to the physical IP addresses of the servers in the pool.</span></span>
+5.  <span data-ttu-id="0f821-121">풀에 있는 서버의 실제 IP 주소로 확인되는 풀 FQDN을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-121">Type the pool FQDN that resolves to the physical IP addresses of the servers in the pool.</span></span>
 
-6.  <span data-ttu-id="c2cf4-122">**외부 웹 서비스**아래에서 풀의 가상 IP 주소로 확인 되는 외부 풀 FQDN을 입력 한 다음 **확인**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-122">Below **External web services**, type the external pool FQDN that resolves to the virtual IP addresses of the pool, and then click **OK**.</span></span>
+6.  <span data-ttu-id="0f821-122">**외부 웹 서비스**아래에 풀의 가상 IP 주소로 확인되는 외부 풀 FQDN을 입력하고 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-122">Below **External web services**, type the external pool FQDN that resolves to the virtual IP addresses of the pool, and then click **OK**.</span></span>
 
-7.  <span data-ttu-id="c2cf4-123">콘솔 트리에서 **Lync Server 2013**을 클릭 한 다음 **작업** 창에서 **토폴로지 게시**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-123">From the console tree, click **Lync Server 2013**, and then in the **Actions** pane, click **Publish Topology**.</span></span>
+7.  <span data-ttu-id="0f821-123">콘솔 트리에서 **Lync Server 2013**을 클릭 한 다음 **작업** 창에서 **토폴로지 게시**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-123">From the console tree, click **Lync Server 2013**, and then in the **Actions** pane, click **Publish Topology**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-create-dns-host-a-records-for-all-internal-pool-servers"></a><span data-ttu-id="c2cf4-124">모든 내부 풀 서버에 대 한 DNS 호스트 (A) 레코드를 만들려면</span><span class="sxs-lookup"><span data-stu-id="c2cf4-124">To create DNS Host (A) Records for all internal pool servers</span></span>
+## <a name="to-create-dns-host-a-records-for-all-internal-pool-servers"></a><span data-ttu-id="0f821-124">모든 내부 풀 서버에 대해 DNS 호스트(A) 레코드를 만들려면</span><span class="sxs-lookup"><span data-stu-id="0f821-124">To create DNS Host (A) Records for all internal pool servers</span></span>
 
-1.  <span data-ttu-id="c2cf4-125">**시작**을 클릭 하 고 **모든 프로그램**을 클릭 한 다음 **관리 도구**를 클릭 하 고 **DNS**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-125">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.</span></span>
+1.  <span data-ttu-id="0f821-125">**시작**을 클릭하고 **모든 프로그램**과 **관리 도구**를 차례로 클릭한 다음 **DNS**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-125">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-2.  <span data-ttu-id="c2cf4-126">**Dns 관리자**에서 레코드를 관리 하는 dns 서버를 클릭 하 여 확장 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-126">In **DNS Manager**, click the DNS Server that manages your records to expand it.</span></span>
+2.  <span data-ttu-id="0f821-126">**DNS 관리자**에서 레코드를 관리하는 DNS 서버를 클릭하여 확장합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-126">In **DNS Manager**, click the DNS Server that manages your records to expand it.</span></span>
 
-3.  <span data-ttu-id="c2cf4-127">**정방향 조회 영역** 을 클릭 하 여 확장 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-127">Click **Forward Lookup Zones** to expand it.</span></span>
+3.  <span data-ttu-id="0f821-127">**정방향 조회 영역**을 클릭하여 확장합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-127">Click **Forward Lookup Zones** to expand it.</span></span>
 
-4.  <span data-ttu-id="c2cf4-128">레코드를 추가 해야 하는 DNS 도메인을 마우스 오른쪽 단추로 클릭 한 다음 **새 호스트 (A 또는 AAAA)** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-128">Right-click the DNS domain that you need to add records to, and then click **New Host (A or AAAA)**.</span></span>
+4.  <span data-ttu-id="0f821-128">레코드를 추가해야 하는 DNS 도메인을 마우스 오른쪽 단추로 클릭하고 **새 호스트(A 또는 AAAA)** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-128">Right-click the DNS domain that you need to add records to, and then click **New Host (A or AAAA)**.</span></span>
 
-5.  <span data-ttu-id="c2cf4-129">**이름** 상자에 호스트 레코드의 이름을 입력 합니다 (도메인 이름이 자동으로 추가 됨).</span><span class="sxs-lookup"><span data-stu-id="c2cf4-129">In the **Name** box, type the name of the host record (the domain name will be automatically appended).</span></span>
+5.  <span data-ttu-id="0f821-129">**이름** 상자에 호스트 레코드의 이름을 입력 합니다 (도메인 이름은 자동으로 추가 됨).</span><span class="sxs-lookup"><span data-stu-id="0f821-129">In the **Name** box, type the name of the host record (the domain name will be automatically appended).</span></span>
 
-6.  <span data-ttu-id="c2cf4-130">IP 주소 상자에 개별 프런트 엔드 서버의 IP 주소를 입력 한 다음 **연결 된 포인터 (PTR) 레코드 만들기** 를 선택 하거나, 해당 되는 경우 **인증 된 모든 사용자가 동일한 소유자 이름을 사용 하 여 DNS 레코드를 업데이트 하도록 허용**합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-130">In the IP Address box, type the IP address of the individual Front End Server and then select **Create associated pointer (PTR) record** or **Allow any authenticated user to update DNS records with the same owner name**, if applicable.</span></span>
+6.  <span data-ttu-id="0f821-130">IP 주소 상자에 개별 프런트 엔드 서버의 IP 주소를 입력하고 **연결된 PTR(포인터) 레코드 만들기** 또는 해당하는 경우 **인증된 사용자는 누구든지 DNS 레코드를 같은 소유자 이름으로 업데이트할 수 있도록 허용**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-130">In the IP Address box, type the IP address of the individual Front End Server and then select **Create associated pointer (PTR) record** or **Allow any authenticated user to update DNS records with the same owner name**, if applicable.</span></span>
 
-7.  <span data-ttu-id="c2cf4-131">DNS 부하 분산에 참여 하는 모든 구성원 프런트 엔드 서버에 대 한 레코드를 계속 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-131">Continue creating records for all member Front End Servers that will participate in DNS Load Balancing.</span></span>
+7.  <span data-ttu-id="0f821-131">계속해서 DNS 부하 분산에 참가할 모든 구성원 프런트 엔드 서버에 대해 레코드를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-131">Continue creating records for all member Front End Servers that will participate in DNS Load Balancing.</span></span>
     
-    <span data-ttu-id="c2cf4-132">예를 들어 pool1.contoso.com 및 프런트 엔드 서버 3 대의 풀을 보유 하 고 있는 경우 다음과 같은 DNS 항목을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-132">For example, if you had a pool named pool1.contoso.com and three Front End Servers, you would create the following DNS entries:</span></span>
+    <span data-ttu-id="0f821-132">예를 들어 풀 이름이 pool1.contoso.com이고 프런트 엔드 서버가 세 개 있는 경우에는 다음과 같은 DNS 항목을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-132">For example, if you had a pool named pool1.contoso.com and three Front End Servers, you would create the following DNS entries:</span></span>
     
     
     <table>
@@ -126,51 +126,51 @@ ms.locfileid: "41758356"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><span data-ttu-id="c2cf4-133">Q</span><span class="sxs-lookup"><span data-stu-id="c2cf4-133">FQDN</span></span></th>
-    <th><span data-ttu-id="c2cf4-134">유형</span><span class="sxs-lookup"><span data-stu-id="c2cf4-134">Type</span></span></th>
-    <th><span data-ttu-id="c2cf4-135">데이터</span><span class="sxs-lookup"><span data-stu-id="c2cf4-135">Data</span></span></th>
+    <th><span data-ttu-id="0f821-133">FQDN</span><span class="sxs-lookup"><span data-stu-id="0f821-133">FQDN</span></span></th>
+    <th><span data-ttu-id="0f821-134">유형</span><span class="sxs-lookup"><span data-stu-id="0f821-134">Type</span></span></th>
+    <th><span data-ttu-id="0f821-135">데이터</span><span class="sxs-lookup"><span data-stu-id="0f821-135">Data</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><span data-ttu-id="c2cf4-136">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c2cf4-136">Pool1.contoso.com</span></span></p></td>
-    <td><p><span data-ttu-id="c2cf4-137">Host (A)</span><span class="sxs-lookup"><span data-stu-id="c2cf4-137">Host (A)</span></span></p></td>
-    <td><p><span data-ttu-id="c2cf4-138">192.168.1.1</span><span class="sxs-lookup"><span data-stu-id="c2cf4-138">192.168.1.1</span></span></p></td>
+    <td><p><span data-ttu-id="0f821-136">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="0f821-136">Pool1.contoso.com</span></span></p></td>
+    <td><p><span data-ttu-id="0f821-137">호스트(A)</span><span class="sxs-lookup"><span data-stu-id="0f821-137">Host (A)</span></span></p></td>
+    <td><p><span data-ttu-id="0f821-138">192.168.1.1</span><span class="sxs-lookup"><span data-stu-id="0f821-138">192.168.1.1</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="c2cf4-139">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c2cf4-139">Pool1.contoso.com</span></span></p></td>
-    <td><p><span data-ttu-id="c2cf4-140">Host (A)</span><span class="sxs-lookup"><span data-stu-id="c2cf4-140">Host (A)</span></span></p></td>
-    <td><p><span data-ttu-id="c2cf4-141">192.168.1.2</span><span class="sxs-lookup"><span data-stu-id="c2cf4-141">192.168.1.2</span></span></p></td>
+    <td><p><span data-ttu-id="0f821-139">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="0f821-139">Pool1.contoso.com</span></span></p></td>
+    <td><p><span data-ttu-id="0f821-140">호스트(A)</span><span class="sxs-lookup"><span data-stu-id="0f821-140">Host (A)</span></span></p></td>
+    <td><p><span data-ttu-id="0f821-141">192.168.1.2</span><span class="sxs-lookup"><span data-stu-id="0f821-141">192.168.1.2</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="c2cf4-142">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c2cf4-142">Pool1.contoso.com</span></span></p></td>
-    <td><p><span data-ttu-id="c2cf4-143">Host (A)</span><span class="sxs-lookup"><span data-stu-id="c2cf4-143">Host (A)</span></span></p></td>
-    <td><p><span data-ttu-id="c2cf4-144">192.168.1.3</span><span class="sxs-lookup"><span data-stu-id="c2cf4-144">192.168.1.3</span></span></p></td>
+    <td><p><span data-ttu-id="0f821-142">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="0f821-142">Pool1.contoso.com</span></span></p></td>
+    <td><p><span data-ttu-id="0f821-143">호스트(A)</span><span class="sxs-lookup"><span data-stu-id="0f821-143">Host (A)</span></span></p></td>
+    <td><p><span data-ttu-id="0f821-144">192.168.1.3</span><span class="sxs-lookup"><span data-stu-id="0f821-144">192.168.1.3</span></span></p></td>
     </tr>
     </tbody>
     </table>
     
-    <span data-ttu-id="c2cf4-145">DNS 호스트 (A) 레코드를 만드는 방법에 대 한 자세한 내용은 [Lync Server 2013에 대 한 Dns 호스트 레코드 구성을](lync-server-2013-configure-dns-host-records.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-145">For details about creating DNS Host (A) records, see [Configure DNS Host records for Lync Server 2013](lync-server-2013-configure-dns-host-records.md).</span></span>
+    <span data-ttu-id="0f821-145">DNS 호스트 (A) 레코드를 만드는 방법에 대 한 자세한 내용은 [CONFIGURE Dns Host records For Lync Server 2013](lync-server-2013-configure-dns-host-records.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="0f821-145">For details about creating DNS Host (A) records, see [Configure DNS Host records for Lync Server 2013](lync-server-2013-configure-dns-host-records.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-enable-round-robin-for-windows-server"></a><span data-ttu-id="c2cf4-146">Windows Server에서 라운드 로빈 사용</span><span class="sxs-lookup"><span data-stu-id="c2cf4-146">To enable round robin for Windows Server</span></span>
+## <a name="to-enable-round-robin-for-windows-server"></a><span data-ttu-id="0f821-146">Windows Server에 대해 라운드 로빈을 사용하도록 설정하려면</span><span class="sxs-lookup"><span data-stu-id="0f821-146">To enable round robin for Windows Server</span></span>
 
-1.  <span data-ttu-id="c2cf4-147">**시작**을 클릭 하 고 **모든 프로그램**을 클릭 한 다음 **관리 도구**를 클릭 하 고 **DNS**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-147">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.</span></span>
+1.  <span data-ttu-id="0f821-147">**시작**을 클릭하고 **모든 프로그램**과 **관리 도구**를 차례로 클릭한 다음 **DNS**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-147">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-2.  <span data-ttu-id="c2cf4-148">**Dns**를 확장 하 고 구성 하려는 dns 서버를 마우스 오른쪽 단추로 클릭 한 다음 **속성**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-148">Expand **DNS**, right-click the DNS server you want to configure, and then click **Properties**.</span></span>
+2.  <span data-ttu-id="0f821-148">**DNS**를 확장하고 구성할 DNS 서버를 마우스 오른쪽 단추로 클릭한 후에 **속성**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-148">Expand **DNS**, right-click the DNS server you want to configure, and then click **Properties**.</span></span>
 
-3.  <span data-ttu-id="c2cf4-149">**고급** 탭을 클릭 하 고 **라운드 로빈 사용** 및 **넷마스크 순서 지정 사용**을 선택한 다음 **확인**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-149">Click the **Advanced** tab, select **Enable round robin** and **Enable netmask ordering**, and then click **OK**.</span></span>
+3.  <span data-ttu-id="0f821-149">**고급** 탭을 클릭하고 **라운드 로빈 사용** 및 **네트워크 마스크 순서 사용**을 선택한 후에 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-149">Click the **Advanced** tab, select **Enable round robin** and **Enable netmask ordering**, and then click **OK**.</span></span>
     
-    <span data-ttu-id="c2cf4-150">![DNS 라운드 로빈 대화 상자](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS 라운드 로빈 대화 상자")</span><span class="sxs-lookup"><span data-stu-id="c2cf4-150">![DNS Round Robin dialog box](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS Round Robin dialog box")</span></span>
+    <span data-ttu-id="0f821-150">![DNS 라운드 로빈 대화 상자](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS 라운드 로빈 대화 상자")</span><span class="sxs-lookup"><span data-stu-id="0f821-150">![DNS Round Robin dialog box](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS Round Robin dialog box")</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="c2cf4-151">이 기능은 기본적으로 사용 하도록 설정 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2cf4-151">This feature should be enabled by default.</span></span>
+> <span data-ttu-id="0f821-151">이 기능은 기본적으로 사용하도록 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0f821-151">This feature should be enabled by default.</span></span>
 
 
 
@@ -180,10 +180,10 @@ ms.locfileid: "41758356"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c2cf4-152">참고 항목</span><span class="sxs-lookup"><span data-stu-id="c2cf4-152">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0f821-152">참고 항목</span><span class="sxs-lookup"><span data-stu-id="0f821-152">See Also</span></span>
 
 
-[<span data-ttu-id="c2cf4-153">Lync Server 2013의 DNS 부하 분산</span><span class="sxs-lookup"><span data-stu-id="c2cf4-153">DNS load balancing in Lync Server 2013</span></span>](lync-server-2013-dns-load-balancing.md)  
+[<span data-ttu-id="0f821-153">Lync Server 2013의 DNS 부하 분산</span><span class="sxs-lookup"><span data-stu-id="0f821-153">DNS load balancing in Lync Server 2013</span></span>](lync-server-2013-dns-load-balancing.md)  
   
 
 </div>

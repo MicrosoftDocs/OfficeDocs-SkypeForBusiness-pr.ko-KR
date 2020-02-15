@@ -12,20 +12,20 @@ ms:contentKeyID: 48184699
 ms.date: 01/22/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a074da011f02b0a78d0886badc991651bb7d9c91
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28ab80634e7aeb4c3385c1fb60f0290a9cfe14ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733878"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028929"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-sql-server-in-lync-server-2013"></a><span data-ttu-id="fdfd6-102">Lync Server 2013에서 SQL Server 구성</span><span class="sxs-lookup"><span data-stu-id="fdfd6-102">Configure SQL Server in Lync Server 2013</span></span>
+# <a name="configure-sql-server-in-lync-server-2013"></a><span data-ttu-id="84ba9-102">Lync Server 2013에서 SQL Server 구성</span><span class="sxs-lookup"><span data-stu-id="84ba9-102">Configure SQL Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41733878"
 
 <span> </span>
 
-<span data-ttu-id="fdfd6-103">_**마지막으로 수정한 주제:** 2015-01-22_</span><span class="sxs-lookup"><span data-stu-id="fdfd6-103">_**Topic Last Modified:** 2015-01-22_</span></span>
+<span data-ttu-id="84ba9-103">_**마지막으로 수정 된 항목:** 2015-01-22_</span><span class="sxs-lookup"><span data-stu-id="84ba9-103">_**Topic Last Modified:** 2015-01-22_</span></span>
 
-<span data-ttu-id="fdfd6-104">배포 하는 각 데이터베이스에 대해 데이터베이스 서버에 collocated 수 있는 Lync Server 2013 배포의 모든 데이터베이스에 대해 단일 SQL Server 인스턴스를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fdfd6-104">For each database that you deploy, you can use a single SQL Server instance for all databases for your Lync Server 2013 deployment that can be collocated on a database server.</span></span> <span data-ttu-id="fdfd6-105">데이터베이스 collocation에 대 한 자세한 내용은 지원 가능성 설명서의 [Lync server 2013에서 지원 되는 서버 위치](lync-server-2013-supported-server-collocation.md) 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fdfd6-105">For details about database collocation, see [Supported server collocation in Lync Server 2013](lync-server-2013-supported-server-collocation.md) in the Supportability documentation.</span></span>
+<span data-ttu-id="84ba9-104">배포 하는 각 데이터베이스에 대해 데이터베이스 서버에서 배치 된 수 있는 Lync Server 2013 배포의 모든 데이터베이스에 대해 단일 SQL Server 인스턴스를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84ba9-104">For each database that you deploy, you can use a single SQL Server instance for all databases for your Lync Server 2013 deployment that can be collocated on a database server.</span></span> <span data-ttu-id="84ba9-105">데이터베이스 배치에 대 한 자세한 내용은 지원 가능성 설명서에서 [Lync server 2013의 Supported server 배치](lync-server-2013-supported-server-collocation.md) 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="84ba9-105">For details about database collocation, see [Supported server collocation in Lync Server 2013](lync-server-2013-supported-server-collocation.md) in the Supportability documentation.</span></span>
 
-<span data-ttu-id="fdfd6-106">또한 데이터베이스를 설정 하거나 Windows PowerShell cmdlet을 사용 하 여 데이터베이스를 수동으로 만드는 토폴로지 작성기의 단계를 완료 하기 전에 각 SQL Server 인스턴스를 설치 하 고 사용할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="fdfd6-106">Additionally, each SQL Server instance must be installed and available prior to completing the steps in Topology Builder that set up the databases, or manually creating the databases with Windows PowerShell cmdlets.</span></span> <span data-ttu-id="fdfd6-107">SQL Server 지원 가능성에 대 한 자세한 내용은 [Lync Server 2013의 하드웨어 설정을](lync-server-2013-hardware-setup.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fdfd6-107">For details about SQL Server supportability, see [Hardware setup for Lync Server 2013](lync-server-2013-hardware-setup.md).</span></span>
+<span data-ttu-id="84ba9-106">또한 토폴로지 작성기에서 데이터베이스를 설정 하는 단계를 완료 하거나 Windows PowerShell cmdlet을 사용 하 여 데이터베이스를 수동으로 만드는 방법 보다 각 SQL Server 인스턴스를 설치 하 고 사용 가능한 상태로 두어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="84ba9-106">Additionally, each SQL Server instance must be installed and available prior to completing the steps in Topology Builder that set up the databases, or manually creating the databases with Windows PowerShell cmdlets.</span></span> <span data-ttu-id="84ba9-107">SQL Server 지원 가능성에 대 한 자세한 내용은 [하드웨어 설정 (Lync Server 2013](lync-server-2013-hardware-setup.md))을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="84ba9-107">For details about SQL Server supportability, see [Hardware setup for Lync Server 2013](lync-server-2013-hardware-setup.md).</span></span>
 
 <div>
 
-## <a name="to-install-microsoft-sql-server-2012"></a><span data-ttu-id="fdfd6-108">Microsoft SQL Server 2012를 설치 하려면</span><span class="sxs-lookup"><span data-stu-id="fdfd6-108">To install Microsoft SQL Server 2012</span></span>
+## <a name="to-install-microsoft-sql-server-2012"></a><span data-ttu-id="84ba9-108">Microsoft SQL Server 2012을 설치 하려면</span><span class="sxs-lookup"><span data-stu-id="84ba9-108">To install Microsoft SQL Server 2012</span></span>
 
-  - <span data-ttu-id="fdfd6-109">Microsoft SQL Server 2012 설명서를 참조 하세요 <https://technet.microsoft.com/en-us/library/bb500395(v=sql.110).aspx>.</span><span class="sxs-lookup"><span data-stu-id="fdfd6-109">See the Microsoft SQL Server 2012 documentation at: <https://technet.microsoft.com/en-us/library/bb500395(v=sql.110).aspx>.</span></span>
+  - <span data-ttu-id="84ba9-109">Microsoft SQL Server 2012 설명서 <https://technet.microsoft.com/library/bb500395(v=sql.110).aspx>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="84ba9-109">See the Microsoft SQL Server 2012 documentation at: <https://technet.microsoft.com/library/bb500395(v=sql.110).aspx>.</span></span>
 
 </div>
 

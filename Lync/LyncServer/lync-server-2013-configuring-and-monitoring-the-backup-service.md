@@ -12,20 +12,20 @@ ms:contentKeyID: 48185365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9992f0466ceb2e01fa54cb2b2d511eeb96af755a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f0fc9d65f1879c453c01813e09ad2ca0e8a99c2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726538"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029669"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a><span data-ttu-id="cf94b-102">Lync Server 2013에서 백업 서비스 구성 및 모니터링</span><span class="sxs-lookup"><span data-stu-id="cf94b-102">Configuring and monitoring the Backup Service in Lync Server 2013</span></span>
+# <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a><span data-ttu-id="851c9-102">Lync Server 2013에서 백업 서비스 구성 및 모니터링</span><span class="sxs-lookup"><span data-stu-id="851c9-102">Configuring and monitoring the Backup Service in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41726538"
 
 <span> </span>
 
-<span data-ttu-id="cf94b-103">_**마지막으로 수정한 주제:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="cf94b-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="851c9-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="851c9-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="cf94b-104">다음 Lync Server 관리 셸 명령을 사용 하 여 백업 서비스를 구성 하 고 모니터링할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-104">You can use the following Lync Server Management Shell commands to configure and monitor the Backup Service.</span></span>
+<span data-ttu-id="851c9-104">다음 Lync Server 관리 셸 명령을 사용 하 여 백업 서비스를 구성 하 고 모니터링할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-104">You can use the following Lync Server Management Shell commands to configure and monitor the Backup Service.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="cf94b-105">RTCUniversalServerAdmins 그룹은 기본적으로 <STRONG>Get-CsBackupServiceStatus</STRONG> 를 실행할 수 있는 권한이 있는 유일한 그룹입니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-105">The RTCUniversalServerAdmins group is the only group that has permissions to run <STRONG>Get-CsBackupServiceStatus</STRONG> by default.</span></span> <span data-ttu-id="cf94b-106">이 cmdlet을 사용 하려면이 그룹의 구성원으로 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-106">To use this cmdlet, log on as a member of this group.</span></span> <span data-ttu-id="cf94b-107">또는 <STRONG>Set-CsBackupServiceConfiguration</STRONG> cmdlet을 사용 하 여 다른 그룹 (예: csadministrator)에이 명령에 대 한 액세스 권한을 부여할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-107">Or, you can grant access to this command to other groups (for example, CSAdministrator) by using the <STRONG>Set-CsBackupServiceConfiguration</STRONG> cmdlet.</span></span>
+> <span data-ttu-id="851c9-105">RTCUniversalServerAdmins 그룹은 기본적으로 <STRONG>Get-CsBackupServiceStatus</STRONG>를 실행할 수 있는 사용 권한을 보유한 유일한 그룹입니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-105">The RTCUniversalServerAdmins group is the only group that has permissions to run <STRONG>Get-CsBackupServiceStatus</STRONG> by default.</span></span> <span data-ttu-id="851c9-106">이 cmdlet을 사용하려면 이 그룹의 구성원으로 로그온해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-106">To use this cmdlet, log on as a member of this group.</span></span> <span data-ttu-id="851c9-107">또는 <STRONG>Set-CsBackupServiceConfiguration</STRONG> cmdlet을 사용하여 이 명령에 대한 액세스 권한을 다른 그룹(예: CSAdministrator)에 부여할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-107">Or, you can grant access to this command to other groups (for example, CSAdministrator) by using the <STRONG>Set-CsBackupServiceConfiguration</STRONG> cmdlet.</span></span>
 
 
 
@@ -51,25 +51,25 @@ ms.locfileid: "41726538"
 
 <div>
 
-## <a name="to-see-the-backup-service-configuration"></a><span data-ttu-id="cf94b-108">백업 서비스 구성을 보려면 다음을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="cf94b-108">To see the Backup Service configuration</span></span>
+## <a name="to-see-the-backup-service-configuration"></a><span data-ttu-id="851c9-108">백업 서비스 구성을 보려면</span><span class="sxs-lookup"><span data-stu-id="851c9-108">To see the Backup Service configuration</span></span>
 
-<span data-ttu-id="cf94b-109">다음 cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-109">Run the following cmdlet:</span></span>
+<span data-ttu-id="851c9-109">다음 cmdlet을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-109">Run the following cmdlet:</span></span>
 
     Get-CsBackupServiceConfiguration
 
-<span data-ttu-id="cf94b-110">SyncInterval의 기본값은 2 분입니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-110">The default for SyncInterval is two minutes.</span></span>
+<span data-ttu-id="851c9-110">SyncInterval의 기본값은 2분입니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-110">The default for SyncInterval is two minutes.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-set-the-backup-service-sync-interval"></a><span data-ttu-id="cf94b-111">백업 서비스 동기화 간격을 설정 하려면</span><span class="sxs-lookup"><span data-stu-id="cf94b-111">To set the Backup Service sync interval</span></span>
+## <a name="to-set-the-backup-service-sync-interval"></a><span data-ttu-id="851c9-111">백업 서비스의 동기화 간격을 설정하려면</span><span class="sxs-lookup"><span data-stu-id="851c9-111">To set the Backup Service sync interval</span></span>
 
-<span data-ttu-id="cf94b-112">다음 cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-112">Run the following cmdlet:</span></span>
+<span data-ttu-id="851c9-112">다음 cmdlet을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-112">Run the following cmdlet:</span></span>
 
     Set-CsBackupServiceConfiguration -SyncInterval interval
 
-<span data-ttu-id="cf94b-113">예를 들어 다음은 간격을 3 분으로 설정 하는 예제입니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-113">For example, the following sets the interval to three minutes.</span></span>
+<span data-ttu-id="851c9-113">예를 들어 다음 명령은 간격을 3분으로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-113">For example, the following sets the interval to three minutes.</span></span>
 
     Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
@@ -77,7 +77,7 @@ ms.locfileid: "41726538"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="cf94b-114">이 cmdlet을 사용 하 여 백업 서비스의 기본 동기화 간격을 변경할 수 있지만, 동기화 간격이 백업 서비스 성능 및 RPO (복구 시점 목표)에 큰 영향을 주므로 반드시 필요한 경우가 아니면 안 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-114">Although you can use this cmdlet to change the default sync interval for the Backup Service, you should not do so unless it is absolutely necessary, as the sync interval has a great impact on the Backup Service performance and the recovery point objective (RPO).</span></span>
+> <span data-ttu-id="851c9-114">이 cmdlet을 사용하여 백업 서비스의 기본 동기화 간격을 변경할 수 있지만, 절대적으로 필요한 경우를 제외하고는 변경해서는 안 됩니다. 동기화 간격은 백업 서비스 성능과 RPO(복구 지점 목표)에 상당한 영향을 미치기 때문입니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-114">Although you can use this cmdlet to change the default sync interval for the Backup Service, you should not do so unless it is absolutely necessary, as the sync interval has a great impact on the Backup Service performance and the recovery point objective (RPO).</span></span>
 
 
 
@@ -87,9 +87,9 @@ ms.locfileid: "41726538"
 
 <div>
 
-## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a><span data-ttu-id="cf94b-115">특정 풀에 대 한 백업 서비스 상태를 가져오려면</span><span class="sxs-lookup"><span data-stu-id="cf94b-115">To get the Backup Service status for a particular pool</span></span>
+## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a><span data-ttu-id="851c9-115">특정 풀의 백업 서비스 상태를 가져오려면</span><span class="sxs-lookup"><span data-stu-id="851c9-115">To get the Backup Service status for a particular pool</span></span>
 
-<span data-ttu-id="cf94b-116">다음 cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-116">Run the following cmdlet:</span></span>
+<span data-ttu-id="851c9-116">다음 cmdlet을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-116">Run the following cmdlet:</span></span>
 
     Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
 
@@ -97,7 +97,7 @@ ms.locfileid: "41726538"
 
 
 > [!NOTE]  
-> <span data-ttu-id="cf94b-117">백업 서비스 동기화 상태는 풀 (P1)에서 해당 백업 풀 (P2)로 unidirectionally 정의 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-117">The Backup Service sync status is defined unidirectionally from a pool (P1) to its backup pool (P2).</span></span> <span data-ttu-id="cf94b-118">P1에서 P2 까지의 동기화 상태가 P2 ~ P1과 다를 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-118">The sync status from P1 to P2 can be different than the one from P2 to P1.</span></span> <span data-ttu-id="cf94b-119">P1에서 P2의 경우 P1의 모든 변경 내용이 동기화 간격 내에 P2로 완전히 복제 되는 경우 백업 서비스가 "안정 된" 상태가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-119">For P1 to P2, Backup Service is in a “steady” state if all the changes made in P1 are completely replicated over to P2 within the sync interval.</span></span> <span data-ttu-id="cf94b-120">P1에서 P2와 동기화 할 변경 내용이 더 이상 없으면 "final" 상태가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-120">It is in the “final” state if there are no more changes to be synchronized from P1 to P2.</span></span> <span data-ttu-id="cf94b-121">두 상태 모두 cmdlet이 실행 될 때 백업 서비스의 스냅숏을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-121">Both states indicate a snapshot of the Backup Service at the time the cmdlet is executed.</span></span> <span data-ttu-id="cf94b-122">이는 반환 되는 상태가 나중에 그대로 유지 된다는 것을 의미 하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-122">It does not imply that the state returned will stay as is afterwards.</span></span> <span data-ttu-id="cf94b-123">특히, "최종" 상태는 P1이 cmdlet을 실행 한 후 변경 내용을 생성 하지 않는 경우에만 계속 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-123">In particular, the “final” state will continue to hold only if P1 does not generate any changes after the cmdlet is executed.</span></span> <span data-ttu-id="cf94b-124">이는 P1이 <STRONG>CsPoolfailover</STRONG> 실행 논리의 일부로 읽기 전용 모드로 설정 된 후에 P1을 P2로 실패 하는 경우에 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-124">This is true in the case of failing P1 over to P2 after P1 is placed into the read-only mode as part of the <STRONG>Invoke-CsPoolfailover</STRONG> execution logic.</span></span>
+> <span data-ttu-id="851c9-117">백업 서비스의 동기화 상태는 풀(P1)에서 백업 풀(P2)로 단방향으로 정의됩니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-117">The Backup Service sync status is defined unidirectionally from a pool (P1) to its backup pool (P2).</span></span> <span data-ttu-id="851c9-118">P1에서 P2로의 동기화 상태는 P2에서 P1로의 동기화 상태와 다를 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-118">The sync status from P1 to P2 can be different than the one from P2 to P1.</span></span> <span data-ttu-id="851c9-119">P1에서 P2로의 경우 P1의 모든 변경 내용이 동기화 간격 내에 P2로 완전히 복제되면 백업 서비스는 "안정" 상태가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-119">For P1 to P2, Backup Service is in a “steady” state if all the changes made in P1 are completely replicated over to P2 within the sync interval.</span></span> <span data-ttu-id="851c9-120">P1에서 P2로 동기화할 변경 내용이 더 이상 없는 경우 "최종" 상태가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-120">It is in the “final” state if there are no more changes to be synchronized from P1 to P2.</span></span> <span data-ttu-id="851c9-121">두 상태 모두 cmdlet이 실행되는 시점의 백업 서비스 스냅숏을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-121">Both states indicate a snapshot of the Backup Service at the time the cmdlet is executed.</span></span> <span data-ttu-id="851c9-122">반환된 상태가 이후로도 계속 지속됨을 의미하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-122">It does not imply that the state returned will stay as is afterwards.</span></span> <span data-ttu-id="851c9-123">특히 "최종" 상태는 cmdlet이 실행된 이후 P1에 변경 내용이 전혀 생성되지 않은 경우에만 유지됩니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-123">In particular, the “final” state will continue to hold only if P1 does not generate any changes after the cmdlet is executed.</span></span> <span data-ttu-id="851c9-124">이는 <STRONG>Invoke-CsPoolfailover</STRONG> 실행 논리의 일부로 읽기 전용 모드로 전환된 후 P1에서 P2로 장애 조치되는 경우에도 마찬가지입니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-124">This is true in the case of failing P1 over to P2 after P1 is placed into the read-only mode as part of the <STRONG>Invoke-CsPoolfailover</STRONG> execution logic.</span></span>
 
 
 
@@ -107,9 +107,9 @@ ms.locfileid: "41726538"
 
 <div>
 
-## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a><span data-ttu-id="cf94b-125">특정 풀의 백업 관계에 대 한 정보를 가져오려면</span><span class="sxs-lookup"><span data-stu-id="cf94b-125">To get information about the backup relationship for a particular pool</span></span>
+## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a><span data-ttu-id="851c9-125">특정 풀의 백업 관계 정보를 가져오려면</span><span class="sxs-lookup"><span data-stu-id="851c9-125">To get information about the backup relationship for a particular pool</span></span>
 
-<span data-ttu-id="cf94b-126">다음 cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-126">Run the following cmdlet:</span></span>
+<span data-ttu-id="851c9-126">다음 cmdlet을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-126">Run the following cmdlet:</span></span>
 
     Get-CsPoolBackupRelationship -PoolFQDN <poolFQDN>
 
@@ -117,9 +117,9 @@ ms.locfileid: "41726538"
 
 <div>
 
-## <a name="to-force-a-backup-service-sync"></a><span data-ttu-id="cf94b-127">백업 서비스 동기화를 적용 하려면</span><span class="sxs-lookup"><span data-stu-id="cf94b-127">To force a Backup Service sync</span></span>
+## <a name="to-force-a-backup-service-sync"></a><span data-ttu-id="851c9-127">백업 서비스의 동기화를 강제로 실행하려면</span><span class="sxs-lookup"><span data-stu-id="851c9-127">To force a Backup Service sync</span></span>
 
-<span data-ttu-id="cf94b-128">다음 cmdlet을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf94b-128">Run the following cmdlet:</span></span>
+<span data-ttu-id="851c9-128">다음 cmdlet을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="851c9-128">Run the following cmdlet:</span></span>
 
     Invoke-CsBackupServiceSync -PoolFqdn <poolFqdn> [-BackupModule  {All|PresenceFocus|DataConf|CMSMaster}]
 

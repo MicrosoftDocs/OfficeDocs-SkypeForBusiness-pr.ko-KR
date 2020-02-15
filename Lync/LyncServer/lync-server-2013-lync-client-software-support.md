@@ -12,20 +12,20 @@ ms:contentKeyID: 48184994
 ms.date: 02/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c17f30b05141e9b47ce09685ff18cd166c195f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 913a484262d9e1b3a899aeda42c5f23049d8c73c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765519"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030922"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-client-software-support-in-lync-server-2013"></a><span data-ttu-id="87393-102">Lync Server 2013의 lync 클라이언트 소프트웨어 지원</span><span class="sxs-lookup"><span data-stu-id="87393-102">Lync client software support in Lync Server 2013</span></span>
+# <a name="lync-client-software-support-in-lync-server-2013"></a><span data-ttu-id="2416f-102">Lync Server 2013의 lync 클라이언트 소프트웨어 지원</span><span class="sxs-lookup"><span data-stu-id="2416f-102">Lync client software support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765519"
 
 <span> </span>
 
-<span data-ttu-id="87393-103">_**마지막으로 수정한 주제:** 2016-02-25_</span><span class="sxs-lookup"><span data-stu-id="87393-103">_**Topic Last Modified:** 2016-02-25_</span></span>
+<span data-ttu-id="2416f-103">_**마지막으로 수정 된 항목:** 2016-02-25_</span><span class="sxs-lookup"><span data-stu-id="2416f-103">_**Topic Last Modified:** 2016-02-25_</span></span>
 
-<span data-ttu-id="87393-104">이 섹션에서는 lync 2013 용 소프트웨어 지원과 Lync 2013 용 온라인 모임 추가 기능에 대해 간략하게 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="87393-104">This section summarizes software support for Lync 2013 and the Online Meeting Add-in for Lync 2013.</span></span>
+<span data-ttu-id="2416f-104">이 섹션에는 lync 2013 용 온라인 모임 추가 기능 및 Lync 2013에 대 한 소프트웨어 지원이 요약 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2416f-104">This section summarizes software support for Lync 2013 and the Online Meeting Add-in for Lync 2013.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="87393-105">Outlook messaging 및 공동 작업 클라이언트 내에서 모임 관리를 지 원하는 Lync 2013의 온라인 모임 추가 기능이 Lync 2013를 사용 하 여 자동으로 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="87393-105">The Online Meeting Add-in for Lync 2013, which supports meeting management from within the Outlook messaging and collaboration client, installs automatically with Lync 2013.</span></span>
+> <span data-ttu-id="2416f-105">Outlook 메시징 및 공동 작업 클라이언트 내에서 모임 관리를 지 원하는 Lync 2013 용 온라인 모임 추가 기능이 Lync 2013을 사용 하 여 자동으로 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2416f-105">The Online Meeting Add-in for Lync 2013, which supports meeting management from within the Outlook messaging and collaboration client, installs automatically with Lync 2013.</span></span>
 
 
 
 </div>
 
-### <a name="software-requirements-for-lync-2013-and-the-online-meeting-add-in-for-lync-2013"></a><span data-ttu-id="87393-106">Lync 2013 용 소프트웨어 요구 사항 및 Lync 2013 용 온라인 모임 추가 기능</span><span class="sxs-lookup"><span data-stu-id="87393-106">Software Requirements for Lync 2013 and the Online Meeting Add-in for Lync 2013</span></span>
+### <a name="software-requirements-for-lync-2013-and-the-online-meeting-add-in-for-lync-2013"></a><span data-ttu-id="2416f-106">Lync 2013에 대 한 소프트웨어 요구 사항 및 lync 2013 온라인 모임 추가 기능</span><span class="sxs-lookup"><span data-stu-id="2416f-106">Software Requirements for Lync 2013 and the Online Meeting Add-in for Lync 2013</span></span>
 
 <table>
 <colgroup>
@@ -58,60 +58,60 @@ ms.locfileid: "41765519"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="87393-107">시스템 구성 요소</span><span class="sxs-lookup"><span data-stu-id="87393-107">System component</span></span></th>
-<th><span data-ttu-id="87393-108">최소 요구 사항</span><span class="sxs-lookup"><span data-stu-id="87393-108">Minimum requirement</span></span></th>
+<th><span data-ttu-id="2416f-107">시스템 구성 요소</span><span class="sxs-lookup"><span data-stu-id="2416f-107">System component</span></span></th>
+<th><span data-ttu-id="2416f-108">최소 요구 사항</span><span class="sxs-lookup"><span data-stu-id="2416f-108">Minimum requirement</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="87393-109">Windows 운영 체제</span><span class="sxs-lookup"><span data-stu-id="87393-109">Windows Operating system</span></span></p></td>
-<td><p><span data-ttu-id="87393-110">Windows 10</span><span class="sxs-lookup"><span data-stu-id="87393-110">Windows 10</span></span></p>
-<p><span data-ttu-id="87393-111">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="87393-111">Windows 8.1</span></span></p>
-<p><span data-ttu-id="87393-112">Windows 8</span><span class="sxs-lookup"><span data-stu-id="87393-112">Windows 8</span></span></p>
-<p><span data-ttu-id="87393-113">Windows 7 운영 체제</span><span class="sxs-lookup"><span data-stu-id="87393-113">Windows 7 operating system</span></span></p>
-<p><span data-ttu-id="87393-114">최신 서비스 팩이 포함 되어 있는 Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="87393-114">Windows Server 2008 R2 with latest service pack</span></span></p>
+<td><p><span data-ttu-id="2416f-109">Windows 운영 체제</span><span class="sxs-lookup"><span data-stu-id="2416f-109">Windows Operating system</span></span></p></td>
+<td><p><span data-ttu-id="2416f-110">Windows 10</span><span class="sxs-lookup"><span data-stu-id="2416f-110">Windows 10</span></span></p>
+<p><span data-ttu-id="2416f-111">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="2416f-111">Windows 8.1</span></span></p>
+<p><span data-ttu-id="2416f-112">Windows 8</span><span class="sxs-lookup"><span data-stu-id="2416f-112">Windows 8</span></span></p>
+<p><span data-ttu-id="2416f-113">Windows 7 운영 체제</span><span class="sxs-lookup"><span data-stu-id="2416f-113">Windows 7 operating system</span></span></p>
+<p><span data-ttu-id="2416f-114">최신 서비스 팩이 포함 된 Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="2416f-114">Windows Server 2008 R2 with latest service pack</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="87393-115">Lync 2013 용 lync 2013 및 온라인 모임 추가 기능은 Windows Vista 또는 Windows XP (모든 버전)에서 지원 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="87393-115">Lync 2013 and the Online Meeting Add-in for Lync 2013 are not supported on Windows Vista or Windows XP (any version).</span></span>
+> <span data-ttu-id="2416f-115">Lync 2013 용 온라인 모임 추가 기능은 Windows Vista 또는 Windows XP (any 버전)에서 지원 되지 않습니다. 2013</span><span class="sxs-lookup"><span data-stu-id="2416f-115">Lync 2013 and the Online Meeting Add-in for Lync 2013 are not supported on Windows Vista or Windows XP (any version).</span></span>
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="87393-116">설치 및 업데이트</span><span class="sxs-lookup"><span data-stu-id="87393-116">Installation and updates</span></span></p></td>
-<td><p><span data-ttu-id="87393-117">관리자 권한 및 사용 권한</span><span class="sxs-lookup"><span data-stu-id="87393-117">Administrator rights and permissions</span></span></p></td>
+<td><p><span data-ttu-id="2416f-116">설치 및 업데이트</span><span class="sxs-lookup"><span data-stu-id="2416f-116">Installation and updates</span></span></p></td>
+<td><p><span data-ttu-id="2416f-117">관리자 권한 및 사용 권한</span><span class="sxs-lookup"><span data-stu-id="2416f-117">Administrator rights and permissions</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="87393-118">브라우저</span><span class="sxs-lookup"><span data-stu-id="87393-118">Browser</span></span></p></td>
-<td><p><span data-ttu-id="87393-119">Internet Explorer 11 인터넷 브라우저</span><span class="sxs-lookup"><span data-stu-id="87393-119">Internet Explorer 11 Internet browser</span></span></p>
-<p><span data-ttu-id="87393-120">Internet Explorer 10 인터넷 브라우저</span><span class="sxs-lookup"><span data-stu-id="87393-120">Internet Explorer 10 Internet browser</span></span></p>
-<p><span data-ttu-id="87393-121">Internet Explorer 9 인터넷 브라우저</span><span class="sxs-lookup"><span data-stu-id="87393-121">Internet Explorer 9 Internet browser</span></span></p>
-<p><span data-ttu-id="87393-122">Internet Explorer 8 인터넷 브라우저</span><span class="sxs-lookup"><span data-stu-id="87393-122">Internet Explorer 8 Internet browser</span></span></p>
-<p><span data-ttu-id="87393-123">Internet Explorer 7 인터넷 브라우저</span><span class="sxs-lookup"><span data-stu-id="87393-123">Internet Explorer 7 Internet browser</span></span></p>
-<p><span data-ttu-id="87393-124">Mozilla Firefox 웹 브라우저</span><span class="sxs-lookup"><span data-stu-id="87393-124">Mozilla Firefox web browser</span></span></p>
+<td><p><span data-ttu-id="2416f-118">브라우저</span><span class="sxs-lookup"><span data-stu-id="2416f-118">Browser</span></span></p></td>
+<td><p><span data-ttu-id="2416f-119">Internet Explorer 11 인터넷 브라우저</span><span class="sxs-lookup"><span data-stu-id="2416f-119">Internet Explorer 11 Internet browser</span></span></p>
+<p><span data-ttu-id="2416f-120">Internet Explorer 10 인터넷 브라우저</span><span class="sxs-lookup"><span data-stu-id="2416f-120">Internet Explorer 10 Internet browser</span></span></p>
+<p><span data-ttu-id="2416f-121">Internet Explorer 9 인터넷 브라우저</span><span class="sxs-lookup"><span data-stu-id="2416f-121">Internet Explorer 9 Internet browser</span></span></p>
+<p><span data-ttu-id="2416f-122">Internet Explorer 8 인터넷 브라우저</span><span class="sxs-lookup"><span data-stu-id="2416f-122">Internet Explorer 8 Internet browser</span></span></p>
+<p><span data-ttu-id="2416f-123">Internet Explorer 7 인터넷 브라우저</span><span class="sxs-lookup"><span data-stu-id="2416f-123">Internet Explorer 7 Internet browser</span></span></p>
+<p><span data-ttu-id="2416f-124">Mozilla Firefox 웹 브라우저</span><span class="sxs-lookup"><span data-stu-id="2416f-124">Mozilla Firefox web browser</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="87393-125">Microsoft Exchange Online에서 Lync를 사용 하는 경우 조직이 인증 HTTP 프록시를 배포한 경우 Internet Explorer 9 또는 Internet Explorer 8이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="87393-125">If you are using Lync with Microsoft Exchange Online and your organization has deployed an authenticating HTTP proxy, Internet Explorer 9 or Internet Explorer 8 is required.</span></span>
+> <span data-ttu-id="2416f-125">Microsoft Exchange Online에서 Lync를 사용 하는 경우 조직에서 인증 HTTP 프록시를 배포한 경우 Internet Explorer 9 또는 Internet Explorer 8이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="2416f-125">If you are using Lync with Microsoft Exchange Online and your organization has deployed an authenticating HTTP proxy, Internet Explorer 9 or Internet Explorer 8 is required.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="87393-126">Microsoft Office 통합</span><span class="sxs-lookup"><span data-stu-id="87393-126">Microsoft Office Integration</span></span></p></td>
-<td><p><span data-ttu-id="87393-127">전체 통합 기능 집합:</span><span class="sxs-lookup"><span data-stu-id="87393-127">For the full set of integration features:</span></span></p>
+<td><p><span data-ttu-id="2416f-126">Microsoft Office 통합</span><span class="sxs-lookup"><span data-stu-id="2416f-126">Microsoft Office Integration</span></span></p></td>
+<td><p><span data-ttu-id="2416f-127">완전한 통합 기능을 위해서는 다음이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="2416f-127">For the full set of integration features:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="87393-128">Outlook 2013 메시징 및 공동 작업 클라이언트</span><span class="sxs-lookup"><span data-stu-id="87393-128">Outlook 2013 messaging and collaboration client</span></span></p></li>
-<li><p><span data-ttu-id="87393-129">Outlook 2010 메시징 및 공동 작업 클라이언트</span><span class="sxs-lookup"><span data-stu-id="87393-129">Outlook 2010 messaging and collaboration client</span></span></p></li>
+<li><p><span data-ttu-id="2416f-128">Outlook 2013 메시징 및 공동 작업 클라이언트</span><span class="sxs-lookup"><span data-stu-id="2416f-128">Outlook 2013 messaging and collaboration client</span></span></p></li>
+<li><p><span data-ttu-id="2416f-129">Outlook 2010 메시징 및 공동 작업 클라이언트</span><span class="sxs-lookup"><span data-stu-id="2416f-129">Outlook 2010 messaging and collaboration client</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="87393-130">Microsoft Exchange 통합</span><span class="sxs-lookup"><span data-stu-id="87393-130">Microsoft Exchange Integration</span></span></p></td>
-<td><p><span data-ttu-id="87393-131">전체 통합 기능 집합:</span><span class="sxs-lookup"><span data-stu-id="87393-131">For the full set of integration features:</span></span></p>
+<td><p><span data-ttu-id="2416f-130">Microsoft Exchange 통합</span><span class="sxs-lookup"><span data-stu-id="2416f-130">Microsoft Exchange Integration</span></span></p></td>
+<td><p><span data-ttu-id="2416f-131">완전한 통합 기능을 위해서는 다음이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="2416f-131">For the full set of integration features:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="87393-132">Microsoft Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="87393-132">Microsoft Exchange Server 2013</span></span></p></li>
-<li><p><span data-ttu-id="87393-133">Microsoft Exchange Server 2010</span><span class="sxs-lookup"><span data-stu-id="87393-133">Microsoft Exchange Server 2010</span></span></p></li>
+<li><p><span data-ttu-id="2416f-132">Microsoft Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="2416f-132">Microsoft Exchange Server 2013</span></span></p></li>
+<li><p><span data-ttu-id="2416f-133">Microsoft Exchange Server 2010</span><span class="sxs-lookup"><span data-stu-id="2416f-133">Microsoft Exchange Server 2010</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -120,54 +120,54 @@ ms.locfileid: "41765519"
 
 <div>
 
-## <a name="macintosh-operating-systems"></a><span data-ttu-id="87393-134">Macintosh 운영 체제</span><span class="sxs-lookup"><span data-stu-id="87393-134">Macintosh Operating Systems</span></span>
+## <a name="macintosh-operating-systems"></a><span data-ttu-id="2416f-134">Macintosh 운영 체제</span><span class="sxs-lookup"><span data-stu-id="2416f-134">Macintosh Operating Systems</span></span>
 
-<span data-ttu-id="87393-135">Lync 2013는 Windows 에서만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="87393-135">Lync 2013 is available only for Windows.</span></span> <span data-ttu-id="87393-136">그러나 Lync Server 2013는 Mac OS 10.5.8 이상과 또는 최신 서비스 팩 또는 릴리스 (Intel 기반) 운영 체제를 실행 하는 컴퓨터에서 다음 클라이언트를 지원 합니다 (Mac OS 10.9 운영 체제는 현재 지원 되지 않음).</span><span class="sxs-lookup"><span data-stu-id="87393-136">However, Lync Server 2013 supports the following clients on computers that are running Mac OS 10.5.8 or latest service pack or release (Intel-based) operating systems (Mac OS 10.9 operating system is not currently supported).</span></span> <span data-ttu-id="87393-137">지원 되는 기능에 대 한 자세한 내용은 [Lync Server 2013의 클라이언트 비교 표](lync-server-2013-desktop-client-comparison-tables.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="87393-137">For details about supported features, see [Client comparison tables for Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).</span></span>
+<span data-ttu-id="2416f-135">Lync 2013은 Windows 에서만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2416f-135">Lync 2013 is available only for Windows.</span></span> <span data-ttu-id="2416f-136">그러나 Lync Server 2013에서는 Mac OS 10.5.8 또는 최신 서비스 팩 또는 릴리스 (Intel 기반) 운영 체제를 실행 하는 컴퓨터에서 다음 클라이언트를 지원 합니다 (Mac OS 10.9 운영 체제가 현재 지원 되지 않음).</span><span class="sxs-lookup"><span data-stu-id="2416f-136">However, Lync Server 2013 supports the following clients on computers that are running Mac OS 10.5.8 or latest service pack or release (Intel-based) operating systems (Mac OS 10.9 operating system is not currently supported).</span></span> <span data-ttu-id="2416f-137">지원 되는 기능에 대 한 자세한 내용은 [Lync Server 2013의 클라이언트 비교 표](lync-server-2013-desktop-client-comparison-tables.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2416f-137">For details about supported features, see [Client comparison tables for Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).</span></span>
 
-  - <span data-ttu-id="87393-138">Mac 용 Microsoft Lync 2011 ("Mac 용 Lync 2011 배포 가이드" 참조 [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786))</span><span class="sxs-lookup"><span data-stu-id="87393-138">Microsoft Lync for Mac 2011 (see “Lync for Mac 2011 Deployment Guide” at [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786))</span></span>
+  - <span data-ttu-id="2416f-138">Mac 용 Microsoft Lync 2011 ("Mac 용 Lync 2011 배포 가이드" 참조 [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786))</span><span class="sxs-lookup"><span data-stu-id="2416f-138">Microsoft Lync for Mac 2011 (see “Lync for Mac 2011 Deployment Guide” at [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786))</span></span>
 
-  - <span data-ttu-id="87393-139">Mac 용 Microsoft Communicator 2011 ("Mac 용 Communicator 2011 배포 가이드" 참조 [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787))</span><span class="sxs-lookup"><span data-stu-id="87393-139">Microsoft Communicator for Mac 2011 (see “Communicator for Mac 2011 Deployment Guide” at [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787))</span></span>
-
-</div>
-
-<div>
-
-## <a name="lync-web-app-browsers"></a><span data-ttu-id="87393-140">Lync Web App 브라우저</span><span class="sxs-lookup"><span data-stu-id="87393-140">Lync Web App Browsers</span></span>
-
-<span data-ttu-id="87393-141">Lync Web App은 특정 운영 체제 및 브라우저 조합을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="87393-141">Lync Web App supports specific combinations of operating systems and browsers.</span></span> <span data-ttu-id="87393-142">자세한 내용은 계획 설명서에서 lync [Web App에서 Lync Server 2013을 지 원하는 플랫폼](lync-server-2013-lync-web-app-supported-platforms.md) 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="87393-142">For details, see [Lync Web App supported platforms for Lync Server 2013](lync-server-2013-lync-web-app-supported-platforms.md) in the Planning documentation.</span></span>
+  - <span data-ttu-id="2416f-139">Mac 용 Microsoft Communicator 2011 ("Mac 용 Communicator 2011 배포 가이드" 참조 [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787))</span><span class="sxs-lookup"><span data-stu-id="2416f-139">Microsoft Communicator for Mac 2011 (see “Communicator for Mac 2011 Deployment Guide” at [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787))</span></span>
 
 </div>
 
 <div>
 
-## <a name="microsoft-office-supportability"></a><span data-ttu-id="87393-143">Microsoft Office 지원 가능성</span><span class="sxs-lookup"><span data-stu-id="87393-143">Microsoft Office Supportability</span></span>
+## <a name="lync-web-app-browsers"></a><span data-ttu-id="2416f-140">Lync Web App 브라우저</span><span class="sxs-lookup"><span data-stu-id="2416f-140">Lync Web App Browsers</span></span>
 
-<span data-ttu-id="87393-144">Lync Server 2013 클라이언트는이 섹션에 요약 된 것 처럼 다양 한 Microsoft Office 버전과의 통합을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="87393-144">Lync Server 2013 clients support integration with various versions of Microsoft Office, as summarized in this section.</span></span>
-
-  - <span data-ttu-id="87393-145">Outlook 2013 및 Microsoft Outlook 2010에서는 Lync 2013 통합 기능이 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="87393-145">Lync 2013 integration features are supported on Outlook 2013 and Microsoft Outlook 2010.</span></span>
-
-  - <span data-ttu-id="87393-146">Lync 2013 통합 기능은 Microsoft Exchange Server 2013 및 Microsoft Exchange Server 2010에서 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="87393-146">Lync 2013 integration features are supported on Microsoft Exchange Server 2013 and Microsoft Exchange Server 2010.</span></span>
-
-  - <span data-ttu-id="87393-147">Lync 2013 용 온라인 모임 추가 기능은 Office 2013 및 Microsoft Office 2010에서 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="87393-147">The Online Meeting Add-in for Lync 2013 is supported with Office 2013 and Microsoft Office 2010.</span></span>
+<span data-ttu-id="2416f-141">Lync Web App에서는 특정 운영 체제 및 브라우저 조합을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="2416f-141">Lync Web App supports specific combinations of operating systems and browsers.</span></span> <span data-ttu-id="2416f-142">자세한 내용은 계획 설명서에서 lync [Server 2013에 대 한 지원 되는 앱 플랫폼](lync-server-2013-lync-web-app-supported-platforms.md) 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2416f-142">For details, see [Lync Web App supported platforms for Lync Server 2013](lync-server-2013-lync-web-app-supported-platforms.md) in the Planning documentation.</span></span>
 
 </div>
 
 <div>
 
-## <a name="using-mandatory-profiles"></a><span data-ttu-id="87393-148">필수 프로필 사용</span><span class="sxs-lookup"><span data-stu-id="87393-148">Using Mandatory Profiles</span></span>
+## <a name="microsoft-office-supportability"></a><span data-ttu-id="2416f-143">Microsoft Office 지원 가능성</span><span class="sxs-lookup"><span data-stu-id="2416f-143">Microsoft Office Supportability</span></span>
 
-<span data-ttu-id="87393-149">사용자가 Lync 2013 회의 기능을 사용할 계획 이라면 Active Directory 도메인 서비스 필수 프로필을 사용 하 여 Lync 2013 클라이언트에 로그인 하지 않아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="87393-149">If users are planning to use Lync 2013 conferencing features, they should not use Active Directory Domain Services mandatory profiles to sign in to the Lync 2013 client.</span></span> <span data-ttu-id="87393-150">필수 프로필은 읽기 전용 사용자 프로필 이므로 Lync 2013 회의에 필요한 PKI (공개 키 인프라) 키를 프로필에 저장할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="87393-150">Because mandatory profiles are read-only user profiles, the public key infrastructure (PKI) keys that are required for Lync 2013 conferencing cannot be saved to the profile.</span></span> <span data-ttu-id="87393-151">자세한 내용은 Microsoft 기술 자료 문서 2552221, "사용자가 필수 사용자 프로필을 사용 하 여 로그인 할 때 Lync 2010 회의 기능이 실패 [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)했습니다."를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="87393-151">For details, see Microsoft Knowledge Base article 2552221, “Lync 2010 conferencing feature fails when the user is signed in using a mandatory user profile,” at [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221).</span></span>
+<span data-ttu-id="2416f-144">Lync Server 2013 클라이언트는이 섹션에 요약 된 것 처럼 다양 한 버전의 Microsoft Office와의 통합을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="2416f-144">Lync Server 2013 clients support integration with various versions of Microsoft Office, as summarized in this section.</span></span>
+
+  - <span data-ttu-id="2416f-145">Lync 2013 통합 기능은 Outlook 2013 및 Microsoft Outlook 2010에서 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2416f-145">Lync 2013 integration features are supported on Outlook 2013 and Microsoft Outlook 2010.</span></span>
+
+  - <span data-ttu-id="2416f-146">Lync 2013 통합 기능은 Microsoft Exchange Server 2013 및 Microsoft Exchange Server 2010에서 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2416f-146">Lync 2013 integration features are supported on Microsoft Exchange Server 2013 and Microsoft Exchange Server 2010.</span></span>
+
+  - <span data-ttu-id="2416f-147">Lync 2013에 대 한 온라인 모임 추가 기능은 Office 2013 및 Microsoft Office 2010에서 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2416f-147">The Online Meeting Add-in for Lync 2013 is supported with Office 2013 and Microsoft Office 2010.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="87393-152">참고 항목</span><span class="sxs-lookup"><span data-stu-id="87393-152">See Also</span></span>
+## <a name="using-mandatory-profiles"></a><span data-ttu-id="2416f-148">필수 프로필 사용</span><span class="sxs-lookup"><span data-stu-id="2416f-148">Using Mandatory Profiles</span></span>
+
+<span data-ttu-id="2416f-149">사용자가 Lync 2013 회의 기능을 사용할 계획인 경우 Active Directory 도메인 서비스 필수 프로필을 사용 하 여 Lync 2013 클라이언트에 로그인 할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="2416f-149">If users are planning to use Lync 2013 conferencing features, they should not use Active Directory Domain Services mandatory profiles to sign in to the Lync 2013 client.</span></span> <span data-ttu-id="2416f-150">필수 프로필은 읽기 전용 사용자 프로필 이므로 Lync 2013 회의에 필요한 PKI (공개 키 인프라) 키를 프로필에 저장할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="2416f-150">Because mandatory profiles are read-only user profiles, the public key infrastructure (PKI) keys that are required for Lync 2013 conferencing cannot be saved to the profile.</span></span> <span data-ttu-id="2416f-151">자세한 내용은 Microsoft 기술 자료 문서 2552221, "사용자가 필수 사용자 프로필을 사용 하 여 로그인 한 경우 Lync 2010 회의 기능 실패"를 참조 하세요 [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221).</span><span class="sxs-lookup"><span data-stu-id="2416f-151">For details, see Microsoft Knowledge Base article 2552221, “Lync 2010 conferencing feature fails when the user is signed in using a mandatory user profile,” at [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221).</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="2416f-152">참고 항목</span><span class="sxs-lookup"><span data-stu-id="2416f-152">See Also</span></span>
 
 
-[<span data-ttu-id="87393-153">Lync Server 2013의 Lync 클라이언트 하드웨어 지원</span><span class="sxs-lookup"><span data-stu-id="87393-153">Lync client hardware support in Lync Server 2013</span></span>](lync-server-2013-lync-client-hardware-support.md)  
-[<span data-ttu-id="87393-154">Lync Server 2013의 lync 클라이언트 비디오 요구 사항</span><span class="sxs-lookup"><span data-stu-id="87393-154">Lync client video requirements for Lync Server 2013</span></span>](lync-server-2013-lync-client-video-requirements.md)  
-[<span data-ttu-id="87393-155">Lync Server 2013의 이전 배포에서 지원되는 클라이언트</span><span class="sxs-lookup"><span data-stu-id="87393-155">Supported clients from previous deployments in Lync Server 2013</span></span>](lync-server-2013-supported-clients-from-previous-deployments.md)  
+[<span data-ttu-id="2416f-153">Lync Server 2013의 lync 클라이언트 하드웨어 지원</span><span class="sxs-lookup"><span data-stu-id="2416f-153">Lync client hardware support in Lync Server 2013</span></span>](lync-server-2013-lync-client-hardware-support.md)  
+[<span data-ttu-id="2416f-154">Lync Server 2013의 lync 클라이언트 비디오 요구 사항</span><span class="sxs-lookup"><span data-stu-id="2416f-154">Lync client video requirements for Lync Server 2013</span></span>](lync-server-2013-lync-client-video-requirements.md)  
+[<span data-ttu-id="2416f-155">Lync Server 2013의 이전 배포에서 지원 되는 클라이언트</span><span class="sxs-lookup"><span data-stu-id="2416f-155">Supported clients from previous deployments in Lync Server 2013</span></span>](lync-server-2013-supported-clients-from-previous-deployments.md)  
   
 
 </div>

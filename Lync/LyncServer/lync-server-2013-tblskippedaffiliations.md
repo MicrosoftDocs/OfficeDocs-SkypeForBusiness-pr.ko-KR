@@ -12,20 +12,20 @@ ms:contentKeyID: 48183373
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 510f9559091395665019dad699f346f26e81b1ab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c61c2744c6a2cdf8b857161d3476885992c4d74e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731198"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024719"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblskippedaffiliations-in-lync-server-2013"></a><span data-ttu-id="bf3f7-102">Lync Server 2013의 tblSkippedAffiliations</span><span class="sxs-lookup"><span data-stu-id="bf3f7-102">tblSkippedAffiliations in Lync Server 2013</span></span>
+# <a name="tblskippedaffiliations-in-lync-server-2013"></a><span data-ttu-id="04407-102">Lync Server 2013의 tblSkippedAffiliations</span><span class="sxs-lookup"><span data-stu-id="04407-102">tblSkippedAffiliations in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731198"
 
 <span> </span>
 
-<span data-ttu-id="bf3f7-103">_**마지막으로 수정한 주제:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="bf3f7-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="04407-103">_**마지막으로 수정 된 항목:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="04407-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="bf3f7-104">tblSkippedAffiliations에는 읽을 수 없는 소속 (일반적으로 Active Directory 도메인 서비스 액세스 오류로 인해)이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf3f7-104">tblSkippedAffiliations contains the affiliations that could not be read (usually due to Active Directory Domain Services access errors).</span></span>
+<span data-ttu-id="04407-104">tblSkippedAffiliations에는 읽을 수 없는 이유 (대개 Active Directory 도메인 서비스 액세스 오류)가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="04407-104">tblSkippedAffiliations contains the affiliations that could not be read (usually due to Active Directory Domain Services access errors).</span></span>
 
-### <a name="columns"></a><span data-ttu-id="bf3f7-105">열</span><span class="sxs-lookup"><span data-stu-id="bf3f7-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="04407-105">단</span><span class="sxs-lookup"><span data-stu-id="04407-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,33 +49,33 @@ ms.locfileid: "41731198"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bf3f7-106">열</span><span class="sxs-lookup"><span data-stu-id="bf3f7-106">Column</span></span></th>
-<th><span data-ttu-id="bf3f7-107">유형</span><span class="sxs-lookup"><span data-stu-id="bf3f7-107">Type</span></span></th>
-<th><span data-ttu-id="bf3f7-108">설명</span><span class="sxs-lookup"><span data-stu-id="bf3f7-108">Description</span></span></th>
+<th><span data-ttu-id="04407-106">열</span><span class="sxs-lookup"><span data-stu-id="04407-106">Column</span></span></th>
+<th><span data-ttu-id="04407-107">형식</span><span class="sxs-lookup"><span data-stu-id="04407-107">Type</span></span></th>
+<th><span data-ttu-id="04407-108">설명</span><span class="sxs-lookup"><span data-stu-id="04407-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bf3f7-109">prinID</span><span class="sxs-lookup"><span data-stu-id="bf3f7-109">prinID</span></span></p></td>
-<td><p><span data-ttu-id="bf3f7-110">int, null 아님</span><span class="sxs-lookup"><span data-stu-id="bf3f7-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="bf3f7-111">Principal ID.</span><span class="sxs-lookup"><span data-stu-id="bf3f7-111">Principal ID.</span></span></p></td>
+<td><p><span data-ttu-id="04407-109">Tblprincipal.prinid</span><span class="sxs-lookup"><span data-stu-id="04407-109">prinID</span></span></p></td>
+<td><p><span data-ttu-id="04407-110">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="04407-110">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="04407-111">사용자 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="04407-111">Principal ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf3f7-112">affDescription</span><span class="sxs-lookup"><span data-stu-id="bf3f7-112">affDescription</span></span></p></td>
-<td><p><span data-ttu-id="bf3f7-113">nvarchar (256), null 아님</span><span class="sxs-lookup"><span data-stu-id="bf3f7-113">nvarchar (256), not null</span></span></p></td>
-<td><p><span data-ttu-id="bf3f7-114">소속을 식별 하는 문자열입니다.</span><span class="sxs-lookup"><span data-stu-id="bf3f7-114">A string identifying the affiliation.</span></span></p>
-<p><span data-ttu-id="bf3f7-115">형식: guid: {0} uri: {1} &gt; id:{2}</span><span class="sxs-lookup"><span data-stu-id="bf3f7-115">The format is: guid: {0} uri: {1}&gt; id: {2}</span></span></p></td>
+<td><p><span data-ttu-id="04407-112">affDescription</span><span class="sxs-lookup"><span data-stu-id="04407-112">affDescription</span></span></p></td>
+<td><p><span data-ttu-id="04407-113">nvarchar(256), null이 아님</span><span class="sxs-lookup"><span data-stu-id="04407-113">nvarchar (256), not null</span></span></p></td>
+<td><p><span data-ttu-id="04407-114">회원 정보를 식별하는 문자열입니다.</span><span class="sxs-lookup"><span data-stu-id="04407-114">A string identifying the affiliation.</span></span></p>
+<p><span data-ttu-id="04407-115">형식: guid: {0} uri: {1} &gt; id:{2}</span><span class="sxs-lookup"><span data-stu-id="04407-115">The format is: guid: {0} uri: {1}&gt; id: {2}</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf3f7-116">updatedBy</span><span class="sxs-lookup"><span data-stu-id="bf3f7-116">updatedBy</span></span></p></td>
-<td><p><span data-ttu-id="bf3f7-117">int, null 아님</span><span class="sxs-lookup"><span data-stu-id="bf3f7-117">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="bf3f7-118">이 행을 업데이트 한 사용자의 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="bf3f7-118">ID of the principal that updated this row.</span></span> <span data-ttu-id="bf3f7-119">Active Directory 동기화가 이러한 항목에 대 한 유일한 원본 이므로 항상 1 (시스템 사용자)입니다.</span><span class="sxs-lookup"><span data-stu-id="bf3f7-119">It is always 1 (system user) because Active Directory Sync is the only source for these entries.</span></span></p></td>
+<td><p><span data-ttu-id="04407-116">updatedBy</span><span class="sxs-lookup"><span data-stu-id="04407-116">updatedBy</span></span></p></td>
+<td><p><span data-ttu-id="04407-117">int, null이 아님</span><span class="sxs-lookup"><span data-stu-id="04407-117">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="04407-p101">이 행을 업데이트한 사용자의 ID입니다. 이러한 항목에 대해서는 Active Directory 동기화가 유일한 소스이므로 이 값은 항상 1(시스템 사용자)입니다.</span><span class="sxs-lookup"><span data-stu-id="04407-p101">ID of the principal that updated this row. It is always 1 (system user) because Active Directory Sync is the only source for these entries.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="bf3f7-120">핵심</span><span class="sxs-lookup"><span data-stu-id="bf3f7-120">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="04407-120">키</span><span class="sxs-lookup"><span data-stu-id="04407-120">Keys</span></span>
 
 <table>
 <colgroup>
@@ -84,18 +84,18 @@ ms.locfileid: "41731198"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bf3f7-121">개 열</span><span class="sxs-lookup"><span data-stu-id="bf3f7-121">Column(s)</span></span></th>
-<th><span data-ttu-id="bf3f7-122">설명</span><span class="sxs-lookup"><span data-stu-id="bf3f7-122">Description</span></span></th>
+<th><span data-ttu-id="04407-121">열 (s)</span><span class="sxs-lookup"><span data-stu-id="04407-121">Column(s)</span></span></th>
+<th><span data-ttu-id="04407-122">설명</span><span class="sxs-lookup"><span data-stu-id="04407-122">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bf3f7-123">&lt;prinID, affDescription&gt;</span><span class="sxs-lookup"><span data-stu-id="bf3f7-123">&lt;prinID, affDescription&gt;</span></span></p></td>
-<td><p><span data-ttu-id="bf3f7-124">기본 키입니다.</span><span class="sxs-lookup"><span data-stu-id="bf3f7-124">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="04407-123">&lt;Tblprincipal.prinid, affDescription&gt;</span><span class="sxs-lookup"><span data-stu-id="04407-123">&lt;prinID, affDescription&gt;</span></span></p></td>
+<td><p><span data-ttu-id="04407-124">기본 키입니다.</span><span class="sxs-lookup"><span data-stu-id="04407-124">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf3f7-125">prinID</span><span class="sxs-lookup"><span data-stu-id="bf3f7-125">prinID</span></span></p></td>
-<td><p><span data-ttu-id="bf3f7-126">TblPrincipal 테이블에 조회를 포함 하는 외래 키입니다.</span><span class="sxs-lookup"><span data-stu-id="bf3f7-126">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
+<td><p><span data-ttu-id="04407-125">Tblprincipal.prinid</span><span class="sxs-lookup"><span data-stu-id="04407-125">prinID</span></span></p></td>
+<td><p><span data-ttu-id="04407-126">tblPrincipal.prinID 테이블에서 조회 기능이 있는 외래 키입니다.</span><span class="sxs-lookup"><span data-stu-id="04407-126">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>

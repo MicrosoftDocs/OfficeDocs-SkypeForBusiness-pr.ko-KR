@@ -12,20 +12,20 @@ ms:contentKeyID: 48183573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3a87063503d373c8ef318633c5113624fef00b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6fc69514b425c6a619a0edcd349a8b8733eca369
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734408"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029859"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-policies-pstn-usage-records-and-voice-routes-in-lync-server-2013"></a><span data-ttu-id="3df2c-102">Lync Server 2013에서 음성 정책, PSTN 사용 레코드 및 음성 경로 구성</span><span class="sxs-lookup"><span data-stu-id="3df2c-102">Configuring voice policies, PSTN usage records, and voice routes in Lync Server 2013</span></span>
+# <a name="configuring-voice-policies-pstn-usage-records-and-voice-routes-in-lync-server-2013"></a><span data-ttu-id="6074d-102">Lync Server 2013에서 음성 정책, PSTN 사용 레코드 및 음성 경로 구성</span><span class="sxs-lookup"><span data-stu-id="6074d-102">Configuring voice policies, PSTN usage records, and voice routes in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41734408"
 
 <span> </span>
 
-<span data-ttu-id="3df2c-103">_**마지막으로 수정한 주제:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="3df2c-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="6074d-103">_**마지막으로 수정 된 항목:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="6074d-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="3df2c-104">음성 정책, PSTN 사용 레코드 및 음성 경로는 동맹 관계에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3df2c-104">Voice policies, PSTN usage records, and voice routes are integrally related.</span></span> <span data-ttu-id="3df2c-105">통화 기능 집합을 선택한 다음 정책을 할당 하 여 음성 정책을 할당 받은 사용자 또는 그룹에 대해 권한이 부여 된 권한을 지정 하는 PSTN 사용 레코드 집합을 설정 하 여 음성 정책을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3df2c-105">You configure voice policies by selecting a set of calling features and then assigning the policy a set of PSTN usage records, which specify what rights are authorized for the users or groups who are assigned the voice policy.</span></span> <span data-ttu-id="3df2c-106">또한 음성 경로에는 사용 하도록 승인 된 사용자와 경로를 일치 시키는 PSTN 사용 레코드도 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3df2c-106">Voice routes are also assigned PSTN usage records, which serve to match routes with the users who are authorized to use them.</span></span> <span data-ttu-id="3df2c-107">즉, 사용자는 일치 하는 PSTN 사용 레코드가 있는 경로를 사용 하는 호출만 가질 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3df2c-107">That is, users can only place calls that use the routes for which they have a matching PSTN usage record.</span></span>
+<span data-ttu-id="6074d-p101">음성 정책, PSTN 사용 레코드 및 음성 경로는 완전하게 관련되어 있습니다. 음성 정책을 구성하려면 전화 걸기 기능 집합을 선택한 다음, PSTN 사용 현황 레코드 집합을 정책에 할당합니다. 그러면 음성 정책이 할당되는 사용자 또는 그룹에 대해 부여되는 권한을 지정합니다. 또한 음성 경로에도 PSTN 사용 레코드가 할당됩니다. 이 레코드는 경로 사용 권한이 부여된 사용자와 경로를 일치시키는 데 사용됩니다. 즉, 사용자는 일치하는 PSTN 사용 레코드를 가진 경로를 사용하는 전화만 걸 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6074d-p101">Voice policies, PSTN usage records, and voice routes are integrally related. You configure voice policies by selecting a set of calling features and then assigning the policy a set of PSTN usage records, which specify what rights are authorized for the users or groups who are assigned the voice policy. Voice routes are also assigned PSTN usage records, which serve to match routes with the users who are authorized to use them. That is, users can only place calls that use the routes for which they have a matching PSTN usage record.</span></span>
 
-<span data-ttu-id="3df2c-108">새 엔터프라이즈 음성 배포의 권장 워크플로는 적절 한 PSTN 사용 레코드가 포함 된 음성 정책을 구성한 다음, 각 PSTN 사용 레코드에 적절 한 경로를 연결 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="3df2c-108">The recommended workflow for a new Enterprise Voice deployment is to start by configuring a voice policy that includes the appropriate PSTN usage records, and then associate the appropriate routes to each PSTN usage record.</span></span>
+<span data-ttu-id="6074d-108">새 Enterprise Voice 배포에 권장되는 워크플로는, 먼저 해당하는 PSTN 사용 레코드를 포함하는 음성 정책을 구성한 다음 각 PSTN 사용 레코드에 적절한 경로를 연결하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="6074d-108">The recommended workflow for a new Enterprise Voice deployment is to start by configuring a voice policy that includes the appropriate PSTN usage records, and then associate the appropriate routes to each PSTN usage record.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="3df2c-109"><EM>사용자</EM> 범위를 사용 하 여 음성 정책을 만들어 개별 사용자 또는 그룹에 지정할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3df2c-109">You can also create voice policies with <EM>user</EM> scope and assign them to individual users or groups.</span></span>
+> <span data-ttu-id="6074d-109"><EM>사용자</EM> 범위를 사용하여 음성 정책을 만든 다음 개별 사용자 또는 그룹에 정책을 할당할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6074d-109">You can also create voice policies with <EM>user</EM> scope and assign them to individual users or groups.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="3df2c-110">각 작업을 수행 하는 자세한 단계는이 섹션의 절차를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="3df2c-110">For the detailed steps to perform each of these tasks, see the procedures in this section.</span></span>
+<span data-ttu-id="6074d-110">이러한 각 작업을 수행하는 자세한 단계는 이 섹션의 절차를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="6074d-110">For the detailed steps to perform each of these tasks, see the procedures in this section.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="3df2c-111">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="3df2c-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6074d-111">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="6074d-111">In This Section</span></span>
 
-  - [<span data-ttu-id="3df2c-112">Lync Server 2013에서 통화 기능 및 권한을 부여하도록 음성 정책 및 PSTN 사용 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="3df2c-112">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)
+  - [<span data-ttu-id="6074d-112">Lync Server 2013에서 호출 기능 및 권한을 부여 하도록 음성 정책 및 PSTN 사용 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="6074d-112">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)
 
-  - [<span data-ttu-id="3df2c-113">Lync Server 2013에서 PSTN 사용 레코드 보기</span><span class="sxs-lookup"><span data-stu-id="3df2c-113">View PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-view-pstn-usage-records.md)
+  - [<span data-ttu-id="6074d-113">Lync Server 2013에서 PSTN 사용 레코드 보기</span><span class="sxs-lookup"><span data-stu-id="6074d-113">View PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-view-pstn-usage-records.md)
 
-  - [<span data-ttu-id="3df2c-114">Lync Server 2013에서 아웃바운드 통화에 대한 음성 경로 구성</span><span class="sxs-lookup"><span data-stu-id="3df2c-114">Configuring voice routes for outbound calls in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)
+  - [<span data-ttu-id="6074d-114">Lync Server 2013에서 아웃 바운드 통화에 대 한 음성 경로 구성</span><span class="sxs-lookup"><span data-stu-id="6074d-114">Configuring voice routes for outbound calls in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)
 
-  - [<span data-ttu-id="3df2c-115">Lync Server 2013에서 음성 라우팅 구성 내보내기 및 가져오기</span><span class="sxs-lookup"><span data-stu-id="3df2c-115">Exporting and importing voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
+  - [<span data-ttu-id="6074d-115">Lync Server 2013에서 음성 라우팅 구성 내보내기 및 가져오기</span><span class="sxs-lookup"><span data-stu-id="6074d-115">Exporting and importing voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
 
-  - [<span data-ttu-id="3df2c-116">Lync Server 2013에서 음성 라우팅 구성에 보류 중인 변경 내용 게시</span><span class="sxs-lookup"><span data-stu-id="3df2c-116">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
+  - [<span data-ttu-id="6074d-116">Lync Server 2013의 음성 라우팅 구성에 보류 중인 변경 내용 게시</span><span class="sxs-lookup"><span data-stu-id="6074d-116">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
 
-  - [<span data-ttu-id="3df2c-117">Lync Server 2013에서 음성 라우팅 테스트</span><span class="sxs-lookup"><span data-stu-id="3df2c-117">Test voice routing in Lync Server 2013</span></span>](lync-server-2013-test-voice-routing.md)
+  - [<span data-ttu-id="6074d-117">Lync Server 2013에서 음성 라우팅 테스트</span><span class="sxs-lookup"><span data-stu-id="6074d-117">Test voice routing in Lync Server 2013</span></span>](lync-server-2013-test-voice-routing.md)
 
 </div>
 

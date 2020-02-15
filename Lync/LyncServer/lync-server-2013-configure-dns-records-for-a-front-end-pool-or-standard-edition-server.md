@@ -1,5 +1,5 @@
 ---
-title: 프런트 엔드 풀 또는 Standard Edition 서버에 대한 DNS 레코드 구성
+title: 프런트 엔드 풀 또는 Standard Edition server에 대 한 DNS 레코드 구성
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183244
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89acbccd226c15d9c8359fc01d010655fc46a989
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 633282e30cae401f2bed39522864f076d0ce85ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755972"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028579"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a><span data-ttu-id="c1732-102">프런트 엔드 풀 또는 Standard Edition 서버에 대한 Lync Server 2013의 DNS 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="c1732-102">Configure DNS records in Lync Server 2013 for a Front End pool or Standard Edition server</span></span>
+# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a><span data-ttu-id="7c38e-102">Lync Server 2013에서 프런트 엔드 풀 또는 Standard Edition Server에 대 한 DNS 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="7c38e-102">Configure DNS records in Lync Server 2013 for a Front End pool or Standard Edition server</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755972"
 
 <span> </span>
 
-<span data-ttu-id="c1732-103">_**마지막으로 수정한 주제:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="c1732-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="7c38e-103">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="7c38e-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="c1732-104">Lync Server 2013는 DNS (Domain Name System)를 사용 하 여 올바른 도메인 이름에 대 한 레코드를 등록 하 고 IP 주소 확인을 유지 합니다.</span><span class="sxs-lookup"><span data-stu-id="c1732-104">Lync Server 2013 uses the Domain Name System (DNS) to register and maintain records for proper domain name to IP address resolution.</span></span> <span data-ttu-id="c1732-105">Standard Edition server 또는 프런트 엔드 풀을 운영 하기 전에 배포에 대해 필요한 DNS 레코드를 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c1732-105">You need to configure required DNS records for your deployment prior to operating the Standard Edition server or Front End pool.</span></span> <span data-ttu-id="c1732-106">다음 링크는 Lync Server 2013의 적절 한 작동을 위해 만들어야 할 레코드에 대 한 지침을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="c1732-106">The following links will provide guidance on what records need to be created to allow for the proper operation of Lync Server 2013.</span></span>
+<span data-ttu-id="7c38e-104">Lync Server 2013는 DNS (Domain Name System)를 사용 하 여 IP 주소 확인에 적절 한 도메인 이름을 가진 레코드를 등록 하 고 유지 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="7c38e-104">Lync Server 2013 uses the Domain Name System (DNS) to register and maintain records for proper domain name to IP address resolution.</span></span> <span data-ttu-id="7c38e-105">Standard Edition server 또는 프런트 엔드 풀을 운영 하기 전에 배포에 필요한 DNS 레코드를 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7c38e-105">You need to configure required DNS records for your deployment prior to operating the Standard Edition server or Front End pool.</span></span> <span data-ttu-id="7c38e-106">다음 링크는 Lync Server 2013의 적절 한 작동을 위해 만들어야 하는 레코드에 대 한 지침을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="7c38e-106">The following links will provide guidance on what records need to be created to allow for the proper operation of Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c1732-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="c1732-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7c38e-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="7c38e-107">In This Section</span></span>
 
-  - [<span data-ttu-id="c1732-108">Lync Server 2013에서 부하 분산을 위한 DNS 구성</span><span class="sxs-lookup"><span data-stu-id="c1732-108">Configure DNS for load balancing in Lync Server 2013</span></span>](lync-server-2013-configure-dns-for-load-balancing.md)
+  - [<span data-ttu-id="7c38e-108">Lync Server 2013에서 부하 분산을 위한 DNS 구성</span><span class="sxs-lookup"><span data-stu-id="7c38e-108">Configure DNS for load balancing in Lync Server 2013</span></span>](lync-server-2013-configure-dns-for-load-balancing.md)
 
-  - [<span data-ttu-id="c1732-109">Lync Server 2013에 대한 DNS 호스트 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="c1732-109">Configure DNS Host records for Lync Server 2013</span></span>](lync-server-2013-configure-dns-host-records.md)
+  - [<span data-ttu-id="7c38e-109">Lync Server 2013에 대 한 DNS 호스트 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="7c38e-109">Configure DNS Host records for Lync Server 2013</span></span>](lync-server-2013-configure-dns-host-records.md)
 
-  - [<span data-ttu-id="c1732-110">Lync Server 2013에서 DNS SRV 레코드 만들기 및 확인</span><span class="sxs-lookup"><span data-stu-id="c1732-110">Create and verify DNS SRV records in Lync Server 2013</span></span>](lync-server-2013-create-and-verify-dns-srv-records.md)
+  - [<span data-ttu-id="7c38e-110">Lync Server 2013에서 DNS SRV 레코드 만들기 및 확인</span><span class="sxs-lookup"><span data-stu-id="7c38e-110">Create and verify DNS SRV records in Lync Server 2013</span></span>](lync-server-2013-create-and-verify-dns-srv-records.md)
 
 </div>
 

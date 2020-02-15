@@ -12,20 +12,20 @@ ms:contentKeyID: 48185444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b27fc4f3dfc42e9187ea0aee801b3c2115d83ff0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b45f52a07713973d8f642389513d0e34b5236de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746038"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-routing-in-lync-server-2013"></a><span data-ttu-id="b7150-102">Lync Server 2013에서 음성 라우팅 테스트</span><span class="sxs-lookup"><span data-stu-id="b7150-102">Test voice routing in Lync Server 2013</span></span>
+# <a name="test-voice-routing-in-lync-server-2013"></a><span data-ttu-id="5e208-102">Lync Server 2013에서 음성 라우팅 테스트</span><span class="sxs-lookup"><span data-stu-id="5e208-102">Test voice routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41746038"
 
 <span> </span>
 
-<span data-ttu-id="b7150-103">_**마지막으로 수정한 주제:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="b7150-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="5e208-103">_**마지막으로 수정 된 항목:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="5e208-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="b7150-104">Lync Server 제어판의 **음성 라우팅 탭 테스트** 를 사용 하 여 테스트 사례 시나리오를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7150-104">You can use the Lync Server Control Panel **Test Voice Routing** tab to configure test case scenarios.</span></span> <span data-ttu-id="b7150-105">테스트 사례를 정의 하려면 지정 된 전화 번호를 테스트 하는 데 사용할 다이얼 플랜, 음성 정책, PSTN 사용 및 음성 경로를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7150-105">To define a test case, you specify the dial plan, voice policy, PSTN usage, and voice route against which to test a specified phone number.</span></span>
+<span data-ttu-id="5e208-104">Lync Server 제어판 **테스트 음성 라우팅** 탭을 사용 하 여 테스트 사례 시나리오를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e208-104">You can use the Lync Server Control Panel **Test Voice Routing** tab to configure test case scenarios.</span></span> <span data-ttu-id="5e208-105">테스트 사례를 정의 하려면 지정 된 전화 번호를 테스트할 다이얼 플랜, 음성 정책, PSTN 사용 및 음성 경로를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e208-105">To define a test case, you specify the dial plan, voice policy, PSTN usage, and voice route against which to test a specified phone number.</span></span>
 
-<span data-ttu-id="b7150-106">실제로 음성 라우팅 구성을 배포 하기 전에 다양 한 전화 번호를 테스트 하 여 예상 되는 결과를 확인 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="b7150-106">Before you actually deploy your voice routing configuration, we recommend that you test it on various phone numbers to make sure that the results are what you're expecting.</span></span>
+<span data-ttu-id="5e208-106">음성 라우팅 구성을 실제로 배포 하기 전에 다양 한 전화 번호에서이를 테스트 하 여 예상 되는 결과를 확인 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="5e208-106">Before you actually deploy your voice routing configuration, we recommend that you test it on various phone numbers to make sure that the results are what you're expecting.</span></span>
 
 <div>
 
 
 > [!TIP]  
-> <span data-ttu-id="b7150-107"><STRONG>테스트 사례 내보내기</STRONG> 및 <STRONG>테스트 사례 가져오기</STRONG> 명령을 사용 하 여 음성 라우팅 테스트 사례를 저장 하 고 다른 컴퓨터에서 사용 하도록 가져올 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7150-107">You can use the <STRONG>Export test cases</STRONG> and <STRONG>Import test cases</STRONG> commands to save voice routing test cases and import them for use on another computer.</span></span>
+> <span data-ttu-id="5e208-107"><STRONG>테스트 사례 내보내기</STRONG> 및 <STRONG>테스트 사례 가져오기</STRONG> 명령을 사용 하 여 음성 라우팅 테스트 사례를 저장 하 고 다른 컴퓨터에서 사용 하도록 가져올 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5e208-107">You can use the <STRONG>Export test cases</STRONG> and <STRONG>Import test cases</STRONG> commands to save voice routing test cases and import them for use on another computer.</span></span>
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "41746038"
 
 
 > [!WARNING]  
-> <span data-ttu-id="b7150-108">음성 라우팅 구성에서 다이얼 플랜, 음성 정책, 음성 경로, 전화 사용 등의 일부를 삭제 하는 경우에는 음성 라우팅 테스트 사례를 검토 하 고 업데이트 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b7150-108">If you delete any part of your voice routing configuration, such as a dial plan, voice policy, voice route, or phone usage, you should review and update your voice routing test cases.</span></span> <span data-ttu-id="b7150-109">Lync Server 제어판은 변경 된 구성으로 인해 더 이상 유효 하지 않은 테스트 사례에 대 한 경고를 표시 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="b7150-109">The Lync Server Control Panel will not alert you to test cases that are no longer valid due to changed configurations.</span></span>
+> <span data-ttu-id="5e208-108">다이얼 플랜, 음성 정책, 음성 경로 또는 전화와 같은 음성 라우팅 구성 부분을 삭제 하는 경우에는 음성 라우팅 테스트 사례를 검토 하 고 업데이트 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e208-108">If you delete any part of your voice routing configuration, such as a dial plan, voice policy, voice route, or phone usage, you should review and update your voice routing test cases.</span></span> <span data-ttu-id="5e208-109">Lync Server 제어판은 변경 된 구성으로 인해 더 이상 유효 하지 않은 테스트 사례를 알려 주지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="5e208-109">The Lync Server Control Panel will not alert you to test cases that are no longer valid due to changed configurations.</span></span>
 
 
 
@@ -63,15 +63,15 @@ ms.locfileid: "41746038"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b7150-110">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="b7150-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5e208-110">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="5e208-110">In This Section</span></span>
 
-  - [<span data-ttu-id="b7150-111">Lync Server 2013에서 음성 라우팅 테스트 사례 만들기</span><span class="sxs-lookup"><span data-stu-id="b7150-111">Create a voice routing test case in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-routing-test-case.md)
+  - [<span data-ttu-id="5e208-111">Lync Server 2013에서 음성 라우팅 테스트 사례 만들기</span><span class="sxs-lookup"><span data-stu-id="5e208-111">Create a voice routing test case in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-routing-test-case.md)
 
-  - [<span data-ttu-id="b7150-112">Lync Server 2013에서 음성 라우팅 테스트 사례 내보내기</span><span class="sxs-lookup"><span data-stu-id="b7150-112">Export voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-export-voice-routing-test-cases.md)
+  - [<span data-ttu-id="5e208-112">Lync Server 2013에서 음성 라우팅 테스트 사례 내보내기</span><span class="sxs-lookup"><span data-stu-id="5e208-112">Export voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-export-voice-routing-test-cases.md)
 
-  - [<span data-ttu-id="b7150-113">Lync Server 2013에서 음성 라우팅 테스트 사례 가져오기</span><span class="sxs-lookup"><span data-stu-id="b7150-113">Import voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-import-voice-routing-test-cases.md)
+  - [<span data-ttu-id="5e208-113">Lync Server 2013에서 음성 라우팅 테스트 사례 가져오기</span><span class="sxs-lookup"><span data-stu-id="5e208-113">Import voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-import-voice-routing-test-cases.md)
 
-  - [<span data-ttu-id="b7150-114">Lync Server 2013에서 음성 라우팅 테스트 실행</span><span class="sxs-lookup"><span data-stu-id="b7150-114">Running voice routing tests in Lync Server 2013</span></span>](lync-server-2013-running-voice-routing-tests.md)
+  - [<span data-ttu-id="5e208-114">Lync Server 2013에서 음성 라우팅 테스트 실행</span><span class="sxs-lookup"><span data-stu-id="5e208-114">Running voice routing tests in Lync Server 2013</span></span>](lync-server-2013-running-voice-routing-tests.md)
 
 </div>
 
