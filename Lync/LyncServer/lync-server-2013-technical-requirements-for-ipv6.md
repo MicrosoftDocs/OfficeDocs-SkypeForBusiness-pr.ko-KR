@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 IPv6에 대한 기술 요구 사항
+title: Lync Server 2013 IPv6에 대 한 기술 요구 사항
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0688319a1b37dbd609a2f2051b3b8c6dfc6a2d4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88e0d822e14ea1792751338bd3606766cc98ab96
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746538"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006704"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a><span data-ttu-id="e48a0-102">Lync Server 2013의 IPv6에 대한 기술 요구 사항</span><span class="sxs-lookup"><span data-stu-id="e48a0-102">Technical requirements for IPv6 in Lync Server 2013</span></span>
+# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a><span data-ttu-id="1eb64-102">Lync Server 2013의 i p v 6에 대 한 기술 요구 사항</span><span class="sxs-lookup"><span data-stu-id="1eb64-102">Technical requirements for IPv6 in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41746538"
 
 <span> </span>
 
-<span data-ttu-id="e48a0-103">_**마지막으로 수정한 주제:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="e48a0-103">_**Topic Last Modified:** 2012-10-30_</span></span>
+<span data-ttu-id="1eb64-103">_**마지막으로 수정 된 항목:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="1eb64-103">_**Topic Last Modified:** 2012-10-30_</span></span>
 
-<span data-ttu-id="e48a0-104">IPv6에 대 한 Lync Server 2013를 구성 하려는 경우 다음 요구 사항을 염두에 두어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e48a0-104">If you plan to configure Lync Server 2013 for IPv6, keep the following requirements in mind:</span></span>
+<span data-ttu-id="1eb64-104">Lync Server 2013 for IPv6을 구성 하려는 경우에는 다음 요구 사항을 염두에 두어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1eb64-104">If you plan to configure Lync Server 2013 for IPv6, keep the following requirements in mind:</span></span>
 
-  - <span data-ttu-id="e48a0-105">Lync Server에서 IPv6 주소를 사용 하려면 IPv6 주소로 검색 하 고 확인 해야 하는 레코드에 대 한 DNS (domain name system) 레코드를 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e48a0-105">To use IPv6 addresses with Lync Server, you need to create domain name system (DNS) records for records that must be discovered and resolved to an IPv6 address.</span></span> <span data-ttu-id="e48a0-106">IPv6 DNS가 호스트 AAAA (쿼드-A) 레코드를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="e48a0-106">IPv6 DNS uses host AAAA (quad-A) records.</span></span> <span data-ttu-id="e48a0-107">배포에 IPv4와 IPv6을 모두 사용 하는 경우 IPv4에 대 한 호스트 A 레코드와 IPv6의 호스트 AAAA 레코드를 모두 구성 하 고 유지 관리 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="e48a0-107">If you use both IPv4 and IPv6 in your deployment, it is best to configure and maintain both host A records for IPv4 and host AAAA records for IPv6.</span></span> <span data-ttu-id="e48a0-108">배포를 IPv6으로 완전히 전환 하더라도 여전히 IPv4를 사용 하는 외부 사용자에 대해 IPv4 DNS 호스트 레코드가 필요할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e48a0-108">Even when you fully transition your deployment to IPv6, you may still require IPv4 DNS host records for external users who still use IPv4.</span></span>
+  - <span data-ttu-id="1eb64-105">Lync Server에서 IPv6 주소를 사용 하려면 검색 하 고 IPv6 주소로 확인 해야 하는 레코드에 대해 DNS (domain name system) 레코드를 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1eb64-105">To use IPv6 addresses with Lync Server, you need to create domain name system (DNS) records for records that must be discovered and resolved to an IPv6 address.</span></span> <span data-ttu-id="1eb64-106">IPv6 DNS는 호스트 AAAA(4개의 A) 레코드를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="1eb64-106">IPv6 DNS uses host AAAA (quad-A) records.</span></span> <span data-ttu-id="1eb64-107">배포 환경에 IPv4 및 IPv6를 모두 사용하는 경우 IPv4에 대한 호스트 A 레코드 및 IPv6에 대한 호스트 AAAA 레코드를 모두 구성하고 유지 관리하는 것이 가장 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="1eb64-107">If you use both IPv4 and IPv6 in your deployment, it is best to configure and maintain both host A records for IPv4 and host AAAA records for IPv6.</span></span> <span data-ttu-id="1eb64-108">배포 환경을 IPv6로 완전히 전환하는 경우라도 IPv4를 계속 사용하는 외부 사용자를 위해 IPv4 DNS 호스트 레코드가 계속 필요할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1eb64-108">Even when you fully transition your deployment to IPv6, you may still require IPv4 DNS host records for external users who still use IPv4.</span></span>
     
-    <span data-ttu-id="e48a0-109">Ipv6 사용을 시작 하기 전에 IPv6 DNS 호스트 레코드를 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e48a0-109">You can deploy IPv6 DNS host records before you start using IPv6.</span></span> <span data-ttu-id="e48a0-110">클라이언트나 서버에서 IPv6을 사용 하지 않는 경우 레코드가 참조 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="e48a0-110">If the client or server doesn't use IPv6, the record will not be referenced.</span></span> <span data-ttu-id="e48a0-111">전환 기술에는 변환 기술 구성 및 정책에 따라 어떤 레코드를 사용할지 결정 하 게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e48a0-111">Transitional technologies will make the decision about which record to use, based on transition technology configuration and policies.</span></span>
+    <span data-ttu-id="1eb64-109">IPv6의 사용을 시작하기 전에 IPv6 DNS 호스트 레코드를 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1eb64-109">You can deploy IPv6 DNS host records before you start using IPv6.</span></span> <span data-ttu-id="1eb64-110">클라이언트 또는 서버가 IPv6를 사용하지 않는 경우 레코드는 참조되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="1eb64-110">If the client or server doesn't use IPv6, the record will not be referenced.</span></span> <span data-ttu-id="1eb64-111">변환 기술 구성 및 정책에 기반하여 사용할 레코드가 변환 기술에 따라 결정됩니다.</span><span class="sxs-lookup"><span data-stu-id="1eb64-111">Transitional technologies will make the decision about which record to use, based on transition technology configuration and policies.</span></span>
 
-  - <span data-ttu-id="e48a0-112">각 IPv6 주소에는 범위가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e48a0-112">Each IPv6 address has a scope.</span></span> <span data-ttu-id="e48a0-113">Ipv6 주소 지정에 사용할 수 있는 세 가지 범위는 IPv6 전역 주소 (공용 IPv4 주소와 유사), IPv6 고유 로컬 주소 (사설 IPv4 주소 범위와 비슷함), IPv6 링크 로컬 주소 (다음의 자동 개인 IP 주소와 유사) IPv4 용 Windows Server).</span><span class="sxs-lookup"><span data-stu-id="e48a0-113">The three scopes that you can use for IPv6 addressing are IPv6 global addresses (similar to public IPv4 addresses), IPv6 unique local addresses (similar to the private IPv4 address ranges), and IPv6 link-local addresses (similar to automatic private IP addresses in Windows Server for IPv4).</span></span> <span data-ttu-id="e48a0-114">풀 내의 모든 서버에는 동일한 범위의 IPv6 주소가 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e48a0-114">All the servers within a pool should have IPv6 addresses with the same scope.</span></span>
+  - <span data-ttu-id="1eb64-112">각 IPv6 주소에는 범위가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1eb64-112">Each IPv6 address has a scope.</span></span> <span data-ttu-id="1eb64-113">IPv6 주소 지정에 사용할 수 있는 세 가지 범위는 IPv6 글로벌 주소 (공용 IPv4 주소와 유사함), ipv6 고유 로컬 주소 (개인 IPv4 주소 범위와 비슷함) 및 IPv6 링크 로컬 주소 (의 자동 개인 IP 주소와 비슷함) IPv4 용 Windows Server).</span><span class="sxs-lookup"><span data-stu-id="1eb64-113">The three scopes that you can use for IPv6 addressing are IPv6 global addresses (similar to public IPv4 addresses), IPv6 unique local addresses (similar to the private IPv4 address ranges), and IPv6 link-local addresses (similar to automatic private IP addresses in Windows Server for IPv4).</span></span> <span data-ttu-id="1eb64-114">풀 내의 모든 서버는 동일한 범위의 IPv6 주소를 보유해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1eb64-114">All the servers within a pool should have IPv6 addresses with the same scope.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="e48a0-115">IPv6은 복잡 한 주제로, Windows Server 수준 및 Lync Server 2013 수준에서 할당 하는 주소가 예상 대로 작동 하도록 하는 데 도움이 되도록 네트워킹 팀과 인터넷 공급자와의 신중한 계획이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="e48a0-115">IPv6 is a complex topic and requires careful planning with your networking team and your Internet provider to help ensure that the addresses that you assign at the Windows Server level and at the Lync Server 2013 level work as expected.</span></span> <span data-ttu-id="e48a0-116">IPv6 주소 지정 및 계획에 대 한 추가 리소스는이 항목의 끝부분에 있는 링크를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e48a0-116">See the links at the end of this topic for additional resources on IPv6 addressing and planning.</span></span>
+> <span data-ttu-id="1eb64-115">IPv6은 복잡 한 주제 이며, Windows Server 수준 및 Lync Server 2013 수준에서 할당 하는 주소가 예상 대로 작동 하는지 확인 하는 데 도움이 되도록 네트워킹 팀과 인터넷 공급자를 신중 하 게 계획 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1eb64-115">IPv6 is a complex topic and requires careful planning with your networking team and your Internet provider to help ensure that the addresses that you assign at the Windows Server level and at the Lync Server 2013 level work as expected.</span></span> <span data-ttu-id="1eb64-116">IPv6 주소 지정 및 계획에 대한 추가 리소스는 이 항목의 끝에 있는 링크를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="1eb64-116">See the links at the end of this topic for additional resources on IPv6 addressing and planning.</span></span>
 
 
 
@@ -57,12 +57,12 @@ ms.locfileid: "41746538"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e48a0-117">참고 항목</span><span class="sxs-lookup"><span data-stu-id="e48a0-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1eb64-117">참고 항목</span><span class="sxs-lookup"><span data-stu-id="1eb64-117">See Also</span></span>
 
 
-[<span data-ttu-id="e48a0-118">IP 버전 6 주소 지정 아키텍처</span><span class="sxs-lookup"><span data-stu-id="e48a0-118">IP Version 6 Addressing Architecture</span></span>](http://tools.ietf.org/html/rfc4291)  
-[<span data-ttu-id="e48a0-119">IPv6 글로벌 유니캐스트 주소 형식</span><span class="sxs-lookup"><span data-stu-id="e48a0-119">IPv6 Global Unicast Address Format</span></span>](http://tools.ietf.org/html/rfc3587)  
-[<span data-ttu-id="e48a0-120">고유한 로컬 IPv6 유니캐스트 주소</span><span class="sxs-lookup"><span data-stu-id="e48a0-120">Unique Local IPv6 Unicast Addresses</span></span>](http://tools.ietf.org/html/rfc4193)  
+[<span data-ttu-id="1eb64-118">IP 버전 6 주소 지정 아키텍처</span><span class="sxs-lookup"><span data-stu-id="1eb64-118">IP Version 6 Addressing Architecture</span></span>](http://tools.ietf.org/html/rfc4291)  
+[<span data-ttu-id="1eb64-119">IPv6 글로벌 유니캐스트 주소 형식</span><span class="sxs-lookup"><span data-stu-id="1eb64-119">IPv6 Global Unicast Address Format</span></span>](http://tools.ietf.org/html/rfc3587)  
+[<span data-ttu-id="1eb64-120">고유한 로컬 IPv6 유니캐스트 주소</span><span class="sxs-lookup"><span data-stu-id="1eb64-120">Unique Local IPv6 Unicast Addresses</span></span>](http://tools.ietf.org/html/rfc4193)  
   
 
 </div>

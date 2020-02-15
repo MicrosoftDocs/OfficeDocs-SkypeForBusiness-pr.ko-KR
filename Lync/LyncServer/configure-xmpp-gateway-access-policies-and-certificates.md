@@ -13,20 +13,20 @@ ms:contentKeyID: 49733882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b1aab41b1a9af8c7b8df888dcb3a0c8621fa44e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e785b3f3df2e37bc7cdaaaccdb2e027652a0da36
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723238"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a><span data-ttu-id="e62cd-102">XMPP 게이트웨이 액세스 정책 및 인증서 구성</span><span class="sxs-lookup"><span data-stu-id="e62cd-102">Configure XMPP gateway access policies and certificates</span></span>
+# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a><span data-ttu-id="5c69f-102">XMPP 게이트웨이 액세스 정책 및 인증서 구성</span><span class="sxs-lookup"><span data-stu-id="5c69f-102">Configure XMPP gateway access policies and certificates</span></span>
 
 </div>
 
@@ -36,21 +36,21 @@ ms.locfileid: "41723238"
 
 <span> </span>
 
-<span data-ttu-id="e62cd-103">_**마지막으로 수정한 주제:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="e62cd-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="5c69f-103">_**마지막으로 수정 된 항목:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="5c69f-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="e62cd-104">XMPP federation는 XMPP (확장할 수 있는 메시징 및 현재 상태 프로토콜)를 기반으로 외부 배포를 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62cd-104">XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol (XMPP).</span></span> <span data-ttu-id="e62cd-105">XMPP 구성은 다음을 수행 하 여 Lync 사용자가 XMPP 도메인 사용자에 액세스할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62cd-105">An XMPP configuration allows Lync users access to XMPP domain users by:</span></span>
+<span data-ttu-id="5c69f-p101">XMPP 페더레이션은 XMPP(eXtensible Messaging and Presence Protocol)에 따라 외부 배포를 정의합니다. XMPP 구성을 사용하면 Lync 사용자가 다음을 통해 MPP 도메인 사용자에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5c69f-p101">XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol (XMPP). An XMPP configuration allows Lync users access to XMPP domain users by:</span></span>
 
-  - <span data-ttu-id="e62cd-106">IM 및 현재 상태 – 사용자에만 해당</span><span class="sxs-lookup"><span data-stu-id="e62cd-106">IM and Presence – person to person only</span></span>
+  - <span data-ttu-id="5c69f-106">IM 및 현재 상태 – 개인 간에만</span><span class="sxs-lookup"><span data-stu-id="5c69f-106">IM and Presence – person to person only</span></span>
 
-  - <span data-ttu-id="e62cd-107">Lync 클라이언트에서 XMPP 페더레이션 대화 만들기</span><span class="sxs-lookup"><span data-stu-id="e62cd-107">Creation of XMPP federated contacts in the Lync client</span></span>
+  - <span data-ttu-id="5c69f-107">Lync 클라이언트에서 XMPP 페더레이션 연락처 만들기</span><span class="sxs-lookup"><span data-stu-id="5c69f-107">Creation of XMPP federated contacts in the Lync client</span></span>
 
-<span data-ttu-id="e62cd-108">XMPP (확장할 수 있는 메시징 및 현재 상태 프로토콜) 페더레이션 파트너 지원에 대 한 정책을 구성할 때 정책은 XMPP 페더레이션 도메인의 사용자에 게 적용 되지만 SIP (세션 초기화 프로토콜) 서비스 공급자의 사용자에 게는 적용 되지 않습니다. (예: Windows Live) 또는 SIP 페더레이션 도메인</span><span class="sxs-lookup"><span data-stu-id="e62cd-108">When you configure policies for support of extensible messaging and presence protocol (XMPP) federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers (for example, Windows Live), or SIP federated domains.</span></span> <span data-ttu-id="e62cd-109">사용자가 연락처를 추가 하 고 통신 하는 데 사용할 각 XMPP 페더레이션 도메인에 대해 XMPP 페더레이션 파트너를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62cd-109">You configure an XMPP Federated Partner for each XMPP federated domain that you want to allow your users to add contacts and communicate with.</span></span> <span data-ttu-id="e62cd-110">정책이 설정 되 면 XMPP 게이트웨이 인증서를 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62cd-110">Once the policies are in place, you need to configure the XMPP Gateway certificates.</span></span>
+<span data-ttu-id="5c69f-p102">XMPP(eXtensible Messaging and Presence Protocol) 페더레이션 파트너 지원을 위한 정책을 구성하는 경우 SIP(Session Initiation Protocol) 서비스 공급자(예: Windows Live)나 SIP 페더레이션된 도메인의 사용자가 아닌 XMPP 페더레이션된 도메인의 사용자에게 적용됩니다. 사용자가 연락처를 추가하고 통신하도록 허용할 각 XMPP 페더레이션된 도메인에 대해 XMPP 페더레이션 파트너를 구성할 수 있습니다. 정책을 만들었으면 XMPP 게이트웨이 인증서를 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5c69f-p102">When you configure policies for support of extensible messaging and presence protocol (XMPP) federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers (for example, Windows Live), or SIP federated domains. You configure an XMPP Federated Partner for each XMPP federated domain that you want to allow your users to add contacts and communicate with. Once the policies are in place, you need to configure the XMPP Gateway certificates.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e62cd-111">XMPP 게이트웨이 마이그레이션을 시작 하려면 Lync Server 2013 XMPP 게이트웨이를 배포 하 고 Lync Server 2013 XMPP 게이트웨이에 대 한 사용자를 사용 하도록 설정 하는 액세스 정책을 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62cd-111">To begin the XMPP Gateway migration, you need to deploy the Lync Server 2013 XMPP Gateway, and configure access policies to enable users for Lync Server 2013 XMPP Gateway.</span></span> <span data-ttu-id="e62cd-112">이 단계를 수행 하기 전에 모든 사용자가 Lync Server 2013 배포로 이동 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62cd-112">All users must be moved to the Lync Server 2013 deployment before you perform these steps.</span></span> <span data-ttu-id="e62cd-113">자세한 내용은 <A href="configure-xmpp-gateway-on-lync-server-2013.md">Lync Server 2013에서 XMPP 게이트웨이 구성을</A>참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e62cd-113">For details, see <A href="configure-xmpp-gateway-on-lync-server-2013.md">Configure XMPP gateway on Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="5c69f-111">XMPP 게이트웨이 마이그레이션을 시작 하려면 Lync Server 2013 XMPP 게이트웨이를 배포 하 고 사용자가 Lync Server 2013 XMPP 게이트웨이를 사용할 수 있도록 액세스 정책을 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5c69f-111">To begin the XMPP Gateway migration, you need to deploy the Lync Server 2013 XMPP Gateway, and configure access policies to enable users for Lync Server 2013 XMPP Gateway.</span></span> <span data-ttu-id="5c69f-112">다음 단계를 수행 하기 전에 모든 사용자를 Lync Server 2013 배포로 이동 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5c69f-112">All users must be moved to the Lync Server 2013 deployment before you perform these steps.</span></span> <span data-ttu-id="5c69f-113">자세한 내용은 <A href="configure-xmpp-gateway-on-lync-server-2013.md">Configure XMPP gateway In Lync Server 2013</A>을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="5c69f-113">For details, see <A href="configure-xmpp-gateway-on-lync-server-2013.md">Configure XMPP gateway on Lync Server 2013</A>.</span></span>
 
 
 
@@ -58,23 +58,23 @@ ms.locfileid: "41723238"
 
 <div>
 
-## <a name="configure-an-external-access-policy-to-enable-users-for-lync-server-2013-xmpp-gateway"></a><span data-ttu-id="e62cd-114">Lync Server 2013 XMPP Gateway에 대 한 사용자를 사용할 수 있도록 외부 액세스 정책 구성</span><span class="sxs-lookup"><span data-stu-id="e62cd-114">Configure an External Access Policy to Enable Users for Lync Server 2013 XMPP Gateway</span></span>
+## <a name="configure-an-external-access-policy-to-enable-users-for-lync-server-2013-xmpp-gateway"></a><span data-ttu-id="5c69f-114">사용자가 Lync Server 2013 XMPP 게이트웨이를 사용할 수 있도록 외부 액세스 정책 구성</span><span class="sxs-lookup"><span data-stu-id="5c69f-114">Configure an External Access Policy to Enable Users for Lync Server 2013 XMPP Gateway</span></span>
 
-1.  <span data-ttu-id="e62cd-115">Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="e62cd-115">Open Lync Server Control Panel.</span></span>
+1.  <span data-ttu-id="5c69f-115">Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="5c69f-115">Open Lync Server Control Panel.</span></span>
 
-2.  <span data-ttu-id="e62cd-116">왼쪽 탐색 모음에서 **페더레이션 및 외부 액세스**를 클릭 한 다음 **외부 액세스 정책을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62cd-116">In the left navigation bar, click **Federation and External Access**, and then click **External Access Policy**.</span></span>
+2.  <span data-ttu-id="5c69f-116">왼쪽 탐색 모음에서 **Federation and External Access(페더레이션 및 외부 액세스)** 를 클릭하고 **외부 액세스 정책**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="5c69f-116">In the left navigation bar, click **Federation and External Access**, and then click **External Access Policy**.</span></span>
 
-3.  <span data-ttu-id="e62cd-117">**새로 만들기** 를 클릭 한 다음 **사용자 정책을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62cd-117">Click **New** and then click **User policy**.</span></span>
+3.  <span data-ttu-id="5c69f-117">**새로 만들기**를 클릭하고 **사용자 정책**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="5c69f-117">Click **New** and then click **User policy**.</span></span>
 
-4.  <span data-ttu-id="e62cd-118">외부 액세스 사용자 정책의 이름을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62cd-118">Enter a name for the external access user policy.</span></span>
+4.  <span data-ttu-id="5c69f-118">외부 액세스 사용자 정책의 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="5c69f-118">Enter a name for the external access user policy.</span></span>
 
-5.  <span data-ttu-id="e62cd-119">외부 액세스 사용자 정책에 대 한 설명을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62cd-119">Provide a description for external access user policy.</span></span>
+5.  <span data-ttu-id="5c69f-119">외부 액세스 사용자 정책에 대한 설명을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="5c69f-119">Provide a description for external access user policy.</span></span>
 
-6.  <span data-ttu-id="e62cd-120">**페더레이션 사용자와의 통신 사용**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62cd-120">Select **Enable communications with federated users**.</span></span>
+6.  <span data-ttu-id="5c69f-120">**페더레이션 사용자와의 통신 사용**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="5c69f-120">Select **Enable communications with federated users**.</span></span>
 
-7.  <span data-ttu-id="e62cd-121">**XMPP 페더레이션 사용자와 통신 사용을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62cd-121">Select **Enable communications with XMPP federated users**.</span></span>
+7.  <span data-ttu-id="5c69f-121">Select **Enable communications with XMPP federated users(XMPP 페더레이션 사용자와의 통신 사용)** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="5c69f-121">Select **Enable communications with XMPP federated users**.</span></span>
 
-8.  <span data-ttu-id="e62cd-122">**커밋을** 클릭 하 여 사이트 또는 사용자 정책의 변경 내용을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="e62cd-122">Click **Commit** to save your changes to the site or user policy.</span></span>
+8.  <span data-ttu-id="5c69f-122">**커밋**을 클릭하여 사이트 또는 사용자 정책에 대한 변경 내용을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="5c69f-122">Click **Commit** to save your changes to the site or user policy.</span></span>
 
 </div>
 

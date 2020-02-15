@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 피어 투 피어 작업 요약 보고서'
+title: 'Lync Server 2013: 피어-투-피어 활동 요약 보고서'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d55c3d84fe48158490473c31e9782dc63e298310
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8f96470163b1f258f59bb37128b45fbc5e15476e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755318"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41989363"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-activity-summary-report-in-lync-server-2013"></a><span data-ttu-id="b5642-102">Lync Server 2013의 피어 투 피어 작업 요약 보고서</span><span class="sxs-lookup"><span data-stu-id="b5642-102">Peer-to-Peer Activity Summary Report in Lync Server 2013</span></span>
+# <a name="peer-to-peer-activity-summary-report-in-lync-server-2013"></a><span data-ttu-id="55afd-102">Lync Server 2013의 피어 투 피어 활동 요약 보고서</span><span class="sxs-lookup"><span data-stu-id="55afd-102">Peer-to-Peer Activity Summary Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,57 +35,57 @@ ms.locfileid: "41755318"
 
 <span> </span>
 
-<span data-ttu-id="b5642-103">_**마지막으로 수정한 주제:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="b5642-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+<span data-ttu-id="55afd-103">_**마지막으로 수정 된 항목:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="55afd-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-<span data-ttu-id="b5642-104">피어 투 피어 활동 요약 보고서는 피어 투 피어 통신 세션의 전체 보기를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-104">The Peer-to-Peer Activity Summary Report provides an overall view of your peer-to-peer communication sessions.</span></span> <span data-ttu-id="b5642-105">피어 투 피어 세션에는 일반적으로 두 명의 사용자만 포함 되며 Lync Server 회의 서비스는 사용할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-105">A peer-to-peer session typically involves just two users, and does not require the use of the Lync Server conferencing services.</span></span> <span data-ttu-id="b5642-106">일반적으로 회의에는 두 명 이상의 사용자가 포함 되며 Microsoft Lync Server 2013 회의 서비스를 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-106">By comparison, a conference typically involves more than two users and requires the use of Microsoft Lync Server 2013 conferencing services.</span></span> <span data-ttu-id="b5642-107">회의 활동이 회의 요약 보고서에 보고 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-107">Conference activity is reported on the Conference Summary Report.</span></span>
+<span data-ttu-id="55afd-104">피어 투 피어 활동 요약 보고서는 피어 투 피어 통신 세션에 대 한 전체 보기를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-104">The Peer-to-Peer Activity Summary Report provides an overall view of your peer-to-peer communication sessions.</span></span> <span data-ttu-id="55afd-105">피어 투 피어 세션에는 일반적으로 두 명의 사용자만 포함 되며 Lync Server 회의 서비스는 사용할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-105">A peer-to-peer session typically involves just two users, and does not require the use of the Lync Server conferencing services.</span></span> <span data-ttu-id="55afd-106">일반적으로 회의에는 두 명 이상의 사용자가 포함 되므로 Microsoft Lync Server 2013 회의 서비스를 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-106">By comparison, a conference typically involves more than two users and requires the use of Microsoft Lync Server 2013 conferencing services.</span></span> <span data-ttu-id="55afd-107">전화 회의 활동이 전화 회의 요약 보고서에 보고 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-107">Conference activity is reported on the Conference Summary Report.</span></span>
 
-<span data-ttu-id="b5642-108">피어 투 피어 활동 요약 보고서를 통해 다음과 같은 질문에 대답할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-108">The Peer-to-Peer Activity Summary Report helps you answer questions like the following:</span></span>
+<span data-ttu-id="55afd-108">피어 투 피어 활동 요약 보고서는 다음과 같은 질문에 답할 수 있도록 도와줍니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-108">The Peer-to-Peer Activity Summary Report helps you answer questions like the following:</span></span>
 
-  - <span data-ttu-id="b5642-109">사용자가 일반적인 날에 보내는 피어 투 피어 인스턴트 메시지의 수는 몇 개입니까?</span><span class="sxs-lookup"><span data-stu-id="b5642-109">How many peer-to-peer instant messages do my users send on a typical day?</span></span>
+  - <span data-ttu-id="55afd-109">사용자가 일반적인 날에 얼마나 많은 피어 투 피어 인스턴트 메시지를 보낼 것인가?</span><span class="sxs-lookup"><span data-stu-id="55afd-109">How many peer-to-peer instant messages do my users send on a typical day?</span></span>
 
-  - <span data-ttu-id="b5642-110">사용자가 실제로 Lync Server 응용 프로그램 공유 및 파일 전송 기능을 활용 하 고 있나요?</span><span class="sxs-lookup"><span data-stu-id="b5642-110">Are any of my users actually taking advantage of the Lync Server application sharing and file transfer capabilities?</span></span>
+  - <span data-ttu-id="55afd-110">실제로 Lync Server 응용 프로그램 공유 및 파일 전송 기능을 활용 하는 사용자가 있나요?</span><span class="sxs-lookup"><span data-stu-id="55afd-110">Are any of my users actually taking advantage of the Lync Server application sharing and file transfer capabilities?</span></span>
 
-  - <span data-ttu-id="b5642-111">사용자는 특정 시간에 네트워크가 느려지는 일을 complaining 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-111">Users have been complaining that the network seems slow at certain times of the day.</span></span> <span data-ttu-id="b5642-112">이러한 기간 동안 피어 투 피어 오디오 및 비디오 세션에 소요 되는 시간은 몇 분 정도 인가요?</span><span class="sxs-lookup"><span data-stu-id="b5642-112">How many minutes are devoted to peer-to-peer audio and video sessions during those time periods?</span></span>
+  - <span data-ttu-id="55afd-111">사용자가 하루 중 특정 시간에 느린 속도로 네트워크를 불만 했습니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-111">Users have been complaining that the network seems slow at certain times of the day.</span></span> <span data-ttu-id="55afd-112">이러한 기간 동안 피어 투 피어 오디오 및 비디오 세션에 소요 되는 시간은 몇 분 입니까?</span><span class="sxs-lookup"><span data-stu-id="55afd-112">How many minutes are devoted to peer-to-peer audio and video sessions during those time periods?</span></span>
 
 <div>
 
-## <a name="accessing-the-peer-to-peer-activity-summary-report"></a><span data-ttu-id="b5642-113">피어 투 피어 활동 요약 보고서에 액세스</span><span class="sxs-lookup"><span data-stu-id="b5642-113">Accessing the Peer-to-Peer Activity Summary Report</span></span>
+## <a name="accessing-the-peer-to-peer-activity-summary-report"></a><span data-ttu-id="55afd-113">피어 투 피어 활동 요약 보고서 액세스</span><span class="sxs-lookup"><span data-stu-id="55afd-113">Accessing the Peer-to-Peer Activity Summary Report</span></span>
 
-<span data-ttu-id="b5642-114">모니터링 보고서 홈 페이지에서 피어 투 피어 활동 요약 보고서에 액세스 합니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-114">You access the Peer-to-Peer Activity Summary Report from the Monitoring Reports home page.</span></span> <span data-ttu-id="b5642-115">[Lync Server 2013에서](lync-server-2013-peer-to-peer-im-report.md) 다음 메트릭 중 하나를 클릭 하 여 피어 투 피어 IM 보고서를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-115">You open the [Peer-to-Peer IM Report in Lync Server 2013](lync-server-2013-peer-to-peer-im-report.md) by clicking either of the following metrics:</span></span>
+<span data-ttu-id="55afd-114">모니터링 보고서 홈 페이지에서 피어 투 피어 활동 요약 보고서에 액세스 합니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-114">You access the Peer-to-Peer Activity Summary Report from the Monitoring Reports home page.</span></span> <span data-ttu-id="55afd-115">[Lync Server 2013에서](lync-server-2013-peer-to-peer-im-report.md) 다음 메트릭 중 하나를 클릭 하 여 피어 투 피어 IM 보고서를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-115">You open the [Peer-to-Peer IM Report in Lync Server 2013](lync-server-2013-peer-to-peer-im-report.md) by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="b5642-116">총 피어 투 피어 IM 세션</span><span class="sxs-lookup"><span data-stu-id="b5642-116">Total peer-to-peer IM sessions</span></span>
+  - <span data-ttu-id="55afd-116">총 피어 투 피어 IM 세션</span><span class="sxs-lookup"><span data-stu-id="55afd-116">Total peer-to-peer IM sessions</span></span>
 
-  - <span data-ttu-id="b5642-117">총 피어 투 피어 IM 메시지</span><span class="sxs-lookup"><span data-stu-id="b5642-117">Total peer-to-peer IM messages</span></span>
+  - <span data-ttu-id="55afd-117">총 피어 투 피어 IM 메시지</span><span class="sxs-lookup"><span data-stu-id="55afd-117">Total peer-to-peer IM messages</span></span>
 
-<span data-ttu-id="b5642-118">마찬가지로 다음 메트릭 중 하나를 클릭 하 여 피어 투 피어 음성 및 비디오 보고서를 열 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-118">Likewise, you can open the Peer-to-Peer Voice and Video Report by clicking any of these metrics:</span></span>
+<span data-ttu-id="55afd-118">마찬가지로 다음 메트릭 중 하나를 클릭 하 여 피어 투 피어 음성 및 비디오 보고서를 열 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-118">Likewise, you can open the Peer-to-Peer Voice and Video Report by clicking any of these metrics:</span></span>
 
-  - <span data-ttu-id="b5642-119">총 피어 투 피어 오디오 세션</span><span class="sxs-lookup"><span data-stu-id="b5642-119">Total peer-to-peer audio sessions</span></span>
+  - <span data-ttu-id="55afd-119">총 피어 투 피어 오디오 세션</span><span class="sxs-lookup"><span data-stu-id="55afd-119">Total peer-to-peer audio sessions</span></span>
 
-  - <span data-ttu-id="b5642-120">총 피어 투 피어 오디오 세션 시간 (분)</span><span class="sxs-lookup"><span data-stu-id="b5642-120">Total peer-to-peer audio session minutes</span></span>
+  - <span data-ttu-id="55afd-120">총 피어 투 피어 오디오 세션 시간 (분)</span><span class="sxs-lookup"><span data-stu-id="55afd-120">Total peer-to-peer audio session minutes</span></span>
 
-  - <span data-ttu-id="b5642-121">총 피어 투 피어 오디오 세션</span><span class="sxs-lookup"><span data-stu-id="b5642-121">Total peer-to-peer audio sessions</span></span>
+  - <span data-ttu-id="55afd-121">총 피어 투 피어 오디오 세션</span><span class="sxs-lookup"><span data-stu-id="55afd-121">Total peer-to-peer audio sessions</span></span>
 
-  - <span data-ttu-id="b5642-122">총 피어 투 피어 오디오 세션 시간 (분)</span><span class="sxs-lookup"><span data-stu-id="b5642-122">Total peer-to-peer audio session minutes</span></span>
+  - <span data-ttu-id="55afd-122">총 피어 투 피어 오디오 세션 시간 (분)</span><span class="sxs-lookup"><span data-stu-id="55afd-122">Total peer-to-peer audio session minutes</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-peer-to-peer-activity-summary-report"></a><span data-ttu-id="b5642-123">피어 투 피어 활동 요약 보고서를 최대한 활용 하기</span><span class="sxs-lookup"><span data-stu-id="b5642-123">Making the Best Use of the Peer-to-Peer Activity Summary Report</span></span>
+## <a name="making-the-best-use-of-the-peer-to-peer-activity-summary-report"></a><span data-ttu-id="55afd-123">피어 투 피어 활동 요약 보고서의 모범 사례 만들기</span><span class="sxs-lookup"><span data-stu-id="55afd-123">Making the Best Use of the Peer-to-Peer Activity Summary Report</span></span>
 
-<span data-ttu-id="b5642-124">피어 투 피어 활동 요약 보고서 아래쪽에 총 피어 투 피어 IM 세션 및 총 피어 투 피어 IM 메시지 등의 메트릭에 대 한 합계를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-124">At the bottom of the Peer-to-Peer Activity Summary Report you'll find totals for metrics such as Total peer-to-peer IM sessions and Total peer-to-peer IM messages.</span></span> <span data-ttu-id="b5642-125">이렇게 하면 보고서 본문에서 찾은 상세 정보에 대 한 간략 한 요약이 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-125">This provides a quick summary of the detailed information found in the body of the report.</span></span>
+<span data-ttu-id="55afd-124">피어 투 피어 활동 요약 보고서 아래쪽에서 총 피어 투 피어 IM 세션 및 총 피어 투 피어 IM 메시지와 같은 메트릭에 대 한 합계를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-124">At the bottom of the Peer-to-Peer Activity Summary Report you'll find totals for metrics such as Total peer-to-peer IM sessions and Total peer-to-peer IM messages.</span></span> <span data-ttu-id="55afd-125">보고서 본문에서 찾은 자세한 정보를 요약 하 여 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-125">This provides a quick summary of the detailed information found in the body of the report.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="b5642-126">필터가</span><span class="sxs-lookup"><span data-stu-id="b5642-126">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="55afd-126">필터</span><span class="sxs-lookup"><span data-stu-id="55afd-126">Filters</span></span>
 
-<span data-ttu-id="b5642-127">필터는 더욱 세밀 하 게 지정 된 데이터 집합을 반환 하거나 반환 된 데이터를 다양 한 방식으로 볼 수 있는 방법을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-127">Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="b5642-128">예를 들어 피어 투 피어 활동 요약 보고서를 사용 하 여 데이터를 그룹화 하는 방법을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-128">For example, the Peer-to-Peer Activity Summary Report enables you to choose how data should be grouped.</span></span> <span data-ttu-id="b5642-129">이 경우 작업 시간은 시, 일, 주 또는 월로 그룹화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-129">In this case, activity grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="55afd-127">필터를 사용하면 여러 방식으로 반환된 데이터를 보거나 보다 세부적으로 대상화된 데이터 집합을 반환할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-127">Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="55afd-128">예를 들어 피어 투 피어 활동 요약 보고서를 사용 하 여 데이터를 그룹화 하는 방법을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-128">For example, the Peer-to-Peer Activity Summary Report enables you to choose how data should be grouped.</span></span> <span data-ttu-id="55afd-129">이 경우 작업은 시, 일, 주 또는 월별로 그룹화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-129">In this case, activity grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="b5642-130">다음 표에는 피어 투 피어 활동 요약 보고서에 사용할 수 있는 필터가 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-130">The following table lists the filters that you can use with the Peer-to-Peer Activity Summary Report.</span></span>
+<span data-ttu-id="55afd-130">다음 표에서는 피어 투 피어 활동 요약 보고서에 사용할 수 있는 필터를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-130">The following table lists the filters that you can use with the Peer-to-Peer Activity Summary Report.</span></span>
 
-### <a name="peer-to-peer-activity-summary-report-filters"></a><span data-ttu-id="b5642-131">피어 투 피어 작업 요약 보고서 필터</span><span class="sxs-lookup"><span data-stu-id="b5642-131">Peer-to-Peer Activity Summary Report Filters</span></span>
+### <a name="peer-to-peer-activity-summary-report-filters"></a><span data-ttu-id="55afd-131">피어-투-피어 활동 요약 보고서 필터</span><span class="sxs-lookup"><span data-stu-id="55afd-131">Peer-to-Peer Activity Summary Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -94,41 +94,41 @@ ms.locfileid: "41755318"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b5642-132">이름</span><span class="sxs-lookup"><span data-stu-id="b5642-132">Name</span></span></th>
-<th><span data-ttu-id="b5642-133">설명</span><span class="sxs-lookup"><span data-stu-id="b5642-133">Description</span></span></th>
+<th><span data-ttu-id="55afd-132">이름</span><span class="sxs-lookup"><span data-stu-id="55afd-132">Name</span></span></th>
+<th><span data-ttu-id="55afd-133">설명</span><span class="sxs-lookup"><span data-stu-id="55afd-133">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b5642-134"><strong>보낸 사람</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-134"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-135">시간 범위에 대 한 시작 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-135">Start date and time for the time range.</span></span> <span data-ttu-id="b5642-136">시간별로 데이터를 보려면 시작 날짜와 시간을 모두 다음과 같이 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-136">To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="b5642-137">오후 7/17/12012 1:00</span><span class="sxs-lookup"><span data-stu-id="b5642-137">7/17/12012 1:00 PM</span></span></p>
-<p><span data-ttu-id="b5642-138">시작 시간을 입력 하지 않으면 지정한 날짜에 오전 12:00부터 보고서가 자동으로 시작 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-138">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day.</span></span> <span data-ttu-id="b5642-139">날짜별로 데이터를 보려면 날짜만 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-139">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="b5642-140">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="b5642-140">7/17/12012</span></span></p>
-<p><span data-ttu-id="b5642-141">주별 또는 월별로 보려면 보려는 주 또는 월의 어디에 나 날짜를 입력 합니다 (주 또는 월의 첫 번째 요일을 입력할 필요는 없음).</span><span class="sxs-lookup"><span data-stu-id="b5642-141">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="b5642-142">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="b5642-142">7/13/2012</span></span></p>
-<p><span data-ttu-id="b5642-143">주는 항상 일요일 ~ 토요일을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-143">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="55afd-134"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-134"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-p106">시간 범위의 시작 날짜 및 시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜와 시간을 모두 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-p106">Start date and time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="55afd-137">2012/7/17 오후 1:00</span><span class="sxs-lookup"><span data-stu-id="55afd-137">7/17/12012 1:00 PM</span></span></p>
+<p><span data-ttu-id="55afd-p107">시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="55afd-140">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="55afd-140">7/17/12012</span></span></p>
+<p><span data-ttu-id="55afd-141">주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-141">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="55afd-142">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="55afd-142">7/13/2012</span></span></p>
+<p><span data-ttu-id="55afd-143">주는 항상 일요일부터 토요일까지로 실행됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-143">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b5642-144"><strong>받는 사람</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-144"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-145">시간 범위의 종료 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-145">End date and time for the time range.</span></span> <span data-ttu-id="b5642-146">시간별로 데이터를 보려면 다음과 같이 종료 날짜와 시간을 모두 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-146">To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="b5642-147">오후 7/17/12012 1:00</span><span class="sxs-lookup"><span data-stu-id="b5642-147">7/17/12012 1:00 PM</span></span></p>
-<p><span data-ttu-id="b5642-148">종료 시간을 입력 하지 않으면 지정한 날짜에 12:00 오전에 보고서가 자동으로 종료 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-148">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day.</span></span> <span data-ttu-id="b5642-149">날짜별로 데이터를 보려면 날짜만 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-149">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="b5642-150">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="b5642-150">7/17/12012</span></span></p>
-<p><span data-ttu-id="b5642-151">주별 또는 월별로 보려면 보려는 주 또는 월의 어디에 나 날짜를 입력 합니다 (주 또는 월의 첫 번째 요일을 입력할 필요는 없음).</span><span class="sxs-lookup"><span data-stu-id="b5642-151">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="b5642-152">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="b5642-152">7/13/2012</span></span></p>
-<p><span data-ttu-id="b5642-153">주는 항상 일요일 ~ 토요일을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-153">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="55afd-144"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-144"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-p108">시간 범위의 종료 날짜 및 시간입니다. 시간별 데이터를 보려면 다음과 같이 종료 날짜 및 시간을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-p108">End date and time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="55afd-147">2012/7/17 오후 1:00</span><span class="sxs-lookup"><span data-stu-id="55afd-147">7/17/12012 1:00 PM</span></span></p>
+<p><span data-ttu-id="55afd-p109">종료 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시에 종료됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="55afd-150">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="55afd-150">7/17/12012</span></span></p>
+<p><span data-ttu-id="55afd-151">주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-151">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="55afd-152">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="55afd-152">7/13/2012</span></span></p>
+<p><span data-ttu-id="55afd-153">주는 항상 일요일부터 토요일까지로 실행됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-153">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b5642-154"><strong>간격만</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-154"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-155">시간 간격.</span><span class="sxs-lookup"><span data-stu-id="b5642-155">Time interval.</span></span> <span data-ttu-id="b5642-156">다음 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-156">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="55afd-154"><strong>간격당</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-154"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-p110">시간 간격입니다. 다음 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-p110">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="b5642-157">매시간 (최대 25 시간 표시할 수 있음)</span><span class="sxs-lookup"><span data-stu-id="b5642-157">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="b5642-158">매일 (최대 31 일이 표시 될 수 있음)</span><span class="sxs-lookup"><span data-stu-id="b5642-158">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="b5642-159">주간 (최대 12 주를 표시할 수 있음)</span><span class="sxs-lookup"><span data-stu-id="b5642-159">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="b5642-160">월간 (최대 12 개월을 표시할 수 있음)</span><span class="sxs-lookup"><span data-stu-id="b5642-160">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="55afd-157">시간별(최대 25시간 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="55afd-157">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="55afd-158">일별(최대 31일 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="55afd-158">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="55afd-159">주별(최대 12주 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="55afd-159">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="55afd-160">월별(최대 12개월 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="55afd-160">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="b5642-161">시작 및 끝 날짜가 선택한 기간에 허용 되는 최대 값을 초과 하는 경우에는 시작 날짜부터 시작 하 여 최대 값만 표시할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-161">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed.</span></span> <span data-ttu-id="b5642-162">예를 들어 시작 날짜가 7/17/12012이 고 종료 날짜가 2/28/2012 인 일일 간격을 선택 하는 경우에는 8/7/12012 12:00 AM ~ 9/7/12012 12:00 AM (즉, 총 31 일 "의 데이터)에 대 한 데이터가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-162">For example, if you select the Daily interval with a start date of 7/17/12012 and an end date of 2/28/2012, data is displayed for the days 8/7/12012 12:00 AM to 9/7/12012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="55afd-161">시작 및 종료 날짜가 선택한 간격에 허용되는 최대 값 수를 초과하면 시작 날짜로부터 최대 값 수만 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-161">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed.</span></span> <span data-ttu-id="55afd-162">예를 들어 시작 날짜가 7/17/12012이 고 종료 날짜가 2/28/2012 인 일별 간격을 선택 하는 경우 데이터는 8/7/12012 12:00 오전에서 9/7/12012 12:00까지, 즉 총 31 일 분량의 데이터에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-162">For example, if you select the Daily interval with a start date of 7/17/12012 and an end date of 2/28/2012, data is displayed for the days 8/7/12012 12:00 AM to 9/7/12012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -138,11 +138,11 @@ ms.locfileid: "41755318"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="b5642-163">매트릭스</span><span class="sxs-lookup"><span data-stu-id="b5642-163">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="55afd-163">선별한</span><span class="sxs-lookup"><span data-stu-id="55afd-163">Metrics</span></span>
 
-<span data-ttu-id="b5642-164">다음 표에서는 피어 투 피어 활동 요약 보고서에 제공 되는 정보를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-164">The following table lists the information provided in the Peer-to-Peer Activity Summary Report.</span></span>
+<span data-ttu-id="55afd-164">다음 표에서는 피어 투 피어 활동 요약 보고서에서 제공 되는 정보를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-164">The following table lists the information provided in the Peer-to-Peer Activity Summary Report.</span></span>
 
-### <a name="peer-to-peer-activity-summary-report-metrics"></a><span data-ttu-id="b5642-165">피어 투 피어 작업 요약 보고서 메트릭</span><span class="sxs-lookup"><span data-stu-id="b5642-165">Peer-to-Peer Activity Summary Report Metrics</span></span>
+### <a name="peer-to-peer-activity-summary-report-metrics"></a><span data-ttu-id="55afd-165">피어 투 피어 활동 요약 보고서 메트릭</span><span class="sxs-lookup"><span data-stu-id="55afd-165">Peer-to-Peer Activity Summary Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -152,74 +152,74 @@ ms.locfileid: "41755318"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b5642-166">이름</span><span class="sxs-lookup"><span data-stu-id="b5642-166">Name</span></span></th>
-<th><span data-ttu-id="b5642-167">이 항목을 정렬할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="b5642-167">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="b5642-168">설명</span><span class="sxs-lookup"><span data-stu-id="b5642-168">Description</span></span></th>
+<th><span data-ttu-id="55afd-166">이름</span><span class="sxs-lookup"><span data-stu-id="55afd-166">Name</span></span></th>
+<th><span data-ttu-id="55afd-167">이 항목에 대한 정렬 가능 여부</span><span class="sxs-lookup"><span data-stu-id="55afd-167">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="55afd-168">설명</span><span class="sxs-lookup"><span data-stu-id="55afd-168">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b5642-169"><strong>마다</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-169"><strong>Hourly</strong></span></span></p>
-<p><span data-ttu-id="b5642-170"><strong>Daily</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-170"><strong>Daily</strong></span></span></p>
-<p><span data-ttu-id="b5642-171"><strong>매주</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-171"><strong>Weekly</strong></span></span></p>
-<p><span data-ttu-id="b5642-172"><strong>월간</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-172"><strong>Monthly</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-173">아니요</span><span class="sxs-lookup"><span data-stu-id="b5642-173">No</span></span></p></td>
-<td><p><span data-ttu-id="b5642-174">필터 도구 모음에서 선택한 시간 간격을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-174">Indicates the time interval that you selected on the filter toolbar.</span></span> <span data-ttu-id="b5642-175">해당 되는 경우 지정 된 시간 간격을 클릭 하 여 해당 간격에 대 한 세부 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-175">Where applicable, you can click a given time interval to view detailed information for that interval.</span></span> <span data-ttu-id="b5642-176">예를 들어 일일 기간을 사용 하는 경우 7/17/12012을 클릭 하면 해당 날짜에 대 한 사용자 등록 작업을 시간별로 분류 하 여 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-176">For example, if you are using the Daily interval and you click 7/17/12012, you see an hourly breakdown of user registration activity for that date.</span></span></p></td>
+<td><p><span data-ttu-id="55afd-169"><strong>매시간</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-169"><strong>Hourly</strong></span></span></p>
+<p><span data-ttu-id="55afd-170"><strong>매일</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-170"><strong>Daily</strong></span></span></p>
+<p><span data-ttu-id="55afd-171"><strong>매주</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-171"><strong>Weekly</strong></span></span></p>
+<p><span data-ttu-id="55afd-172"><strong>월간</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-172"><strong>Monthly</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-173">아니요</span><span class="sxs-lookup"><span data-stu-id="55afd-173">No</span></span></p></td>
+<td><p><span data-ttu-id="55afd-174">필터 도구 모음에서 선택한 시간 간격을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-174">Indicates the time interval that you selected on the filter toolbar.</span></span> <span data-ttu-id="55afd-175">적용 가능한 경우 제공된 시간 간격을 클릭하여 해당 간격에 대한 세부 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-175">Where applicable, you can click a given time interval to view detailed information for that interval.</span></span> <span data-ttu-id="55afd-176">예를 들어 일별 간격을 사용 하는 상태에서 7/17/12012를 클릭 하면 해당 날짜에 대 한 사용자 등록 작업을 시간별로 분석 하 여 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-176">For example, if you are using the Daily interval and you click 7/17/12012, you see an hourly breakdown of user registration activity for that date.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b5642-177"><strong>총 피어 투 피어 세션</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-177"><strong>Total peer-to-peer sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-178">아니요</span><span class="sxs-lookup"><span data-stu-id="b5642-178">No</span></span></p></td>
-<td><p><span data-ttu-id="b5642-179">세션 유형에 관계 없이 수행 된 총 피어 투 피어 세션 수입니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-179">Total number of peer-to-peer sessions conducted, regardless of session type.</span></span></p></td>
+<td><p><span data-ttu-id="55afd-177"><strong>총 피어 투 피어 세션</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-177"><strong>Total peer-to-peer sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-178">아니요</span><span class="sxs-lookup"><span data-stu-id="55afd-178">No</span></span></p></td>
+<td><p><span data-ttu-id="55afd-179">세션 유형에 관계 없이 수행 된 총 피어 투 피어 세션 수입니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-179">Total number of peer-to-peer sessions conducted, regardless of session type.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b5642-180"><strong>총 피어 투 피어 IM 세션</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-180"><strong>Total peer-to-peer IM sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-181">아니요</span><span class="sxs-lookup"><span data-stu-id="b5642-181">No</span></span></p></td>
-<td><p><span data-ttu-id="b5642-182">피어 투 피어 인스턴트 메시지 (IM) 세션의 총 수입니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-182">Total number of peer-to-peer instant messaging (IM) sessions.</span></span> <span data-ttu-id="b5642-183">이 항목을 클릭 하면 보고서에 선택한 기간에 대 한 피어 투 피어 IM 보고서가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-183">When you click this item, the report shows you the Peer-to-Peer IM Report for the selected time period.</span></span></p></td>
+<td><p><span data-ttu-id="55afd-180"><strong>총 피어 투 피어 IM 세션</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-180"><strong>Total peer-to-peer IM sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-181">아니요</span><span class="sxs-lookup"><span data-stu-id="55afd-181">No</span></span></p></td>
+<td><p><span data-ttu-id="55afd-182">피어 투 피어 IM (인스턴트 메시징) 세션의 총 수입니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-182">Total number of peer-to-peer instant messaging (IM) sessions.</span></span> <span data-ttu-id="55afd-183">이 항목을 클릭 하면 보고서에 선택한 기간에 대 한 피어 투 피어 IM 보고서가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-183">When you click this item, the report shows you the Peer-to-Peer IM Report for the selected time period.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b5642-184"><strong>총 피어 투 피어 IM 메시지</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-184"><strong>Total peer-to-peer IM messages</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-185">아니요</span><span class="sxs-lookup"><span data-stu-id="b5642-185">No</span></span></p></td>
-<td><p><span data-ttu-id="b5642-186">피어 투 피어 세션에서 전송 된 총 인스턴트 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-186">Total number of instant messages sent in peer-to-peer sessions.</span></span> <span data-ttu-id="b5642-187">이 항목을 클릭 하면 보고서에 선택한 기간에 대 한 피어 투 피어 IM 보고서가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-187">When you click this item, the report shows you the Peer-to-Peer IM Report for the selected time period.</span></span></p></td>
+<td><p><span data-ttu-id="55afd-184"><strong>총 피어 투 피어 IM 메시지</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-184"><strong>Total peer-to-peer IM messages</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-185">아니요</span><span class="sxs-lookup"><span data-stu-id="55afd-185">No</span></span></p></td>
+<td><p><span data-ttu-id="55afd-186">피어 투 피어 세션에서 전송 된 총 인스턴트 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-186">Total number of instant messages sent in peer-to-peer sessions.</span></span> <span data-ttu-id="55afd-187">이 항목을 클릭 하면 보고서에 선택한 기간에 대 한 피어 투 피어 IM 보고서가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-187">When you click this item, the report shows you the Peer-to-Peer IM Report for the selected time period.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b5642-188"><strong>총 피어 투 피어 오디오 세션</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-188"><strong>Total peer-to-peer audio sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-189">아니요</span><span class="sxs-lookup"><span data-stu-id="b5642-189">No</span></span></p></td>
-<td><p><span data-ttu-id="b5642-190">총 피어 투 피어 오디오 통화 수입니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-190">Total number of peer-to-peer audio calls.</span></span> <span data-ttu-id="b5642-191">이 필드를 클릭 하면 보고서에 선택한 기간에 대 한 피어 투 피어 음성 및 비디오 보고서가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-191">When you click this field, the report shows you the Peer-to-Peer Voice and Video Report for the selected time period.</span></span></p></td>
+<td><p><span data-ttu-id="55afd-188"><strong>총 피어 투 피어 오디오 세션</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-188"><strong>Total peer-to-peer audio sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-189">아니요</span><span class="sxs-lookup"><span data-stu-id="55afd-189">No</span></span></p></td>
+<td><p><span data-ttu-id="55afd-190">총 피어 투 피어 오디오 통화 수입니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-190">Total number of peer-to-peer audio calls.</span></span> <span data-ttu-id="55afd-191">이 필드를 클릭 하면 보고서에 선택한 기간에 대 한 피어 투 피어 음성 및 비디오 보고서가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-191">When you click this field, the report shows you the Peer-to-Peer Voice and Video Report for the selected time period.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b5642-192"><strong>총 피어 투 피어 오디오 세션 시간 (분)</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-192"><strong>Total peer-to-peer audio session minutes</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-193">아니요</span><span class="sxs-lookup"><span data-stu-id="b5642-193">No</span></span></p></td>
-<td><p><span data-ttu-id="b5642-194">피어 투 피어 오디오 세션에 소요 된 총 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-194">Total amount of time spent in peer-to-peer audio sessions.</span></span> <span data-ttu-id="b5642-195">이 항목을 클릭 하면 보고서에 선택한 기간에 대 한 피어 투 피어 음성 및 비디오 보고서가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-195">When you click this item, the report shows you the Peer-to-Peer Voice and Video Report for the selected time period.</span></span></p></td>
+<td><p><span data-ttu-id="55afd-192"><strong>총 피어 투 피어 오디오 세션 시간 (분)</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-192"><strong>Total peer-to-peer audio session minutes</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-193">아니요</span><span class="sxs-lookup"><span data-stu-id="55afd-193">No</span></span></p></td>
+<td><p><span data-ttu-id="55afd-194">피어 투 피어 오디오 세션에 소요 된 총 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-194">Total amount of time spent in peer-to-peer audio sessions.</span></span> <span data-ttu-id="55afd-195">이 항목을 클릭 하면 보고서에 선택한 기간에 대 한 피어 투 피어 음성 및 비디오 보고서가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-195">When you click this item, the report shows you the Peer-to-Peer Voice and Video Report for the selected time period.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b5642-196"><strong>평균 피어 투 피어 오디오 세션 시간 (분)</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-196"><strong>Average peer-to-peer audio session minutes</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-197">아니요</span><span class="sxs-lookup"><span data-stu-id="b5642-197">No</span></span></p></td>
-<td><p><span data-ttu-id="b5642-198">피어 투 피어 오디오 세션에 소요 된 평균 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-198">Average amount of time spent in peer-to-peer audio sessions.</span></span> <span data-ttu-id="b5642-199">총 오디오 세션 시간을 총 오디오 세션 수로 나누는 방법으로 계산 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-199">Calculated by dividing the total audio session time by the total number of audio sessions.</span></span></p></td>
+<td><p><span data-ttu-id="55afd-196"><strong>평균 피어 투 피어 오디오 세션 시간 (분)</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-196"><strong>Average peer-to-peer audio session minutes</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-197">아니요</span><span class="sxs-lookup"><span data-stu-id="55afd-197">No</span></span></p></td>
+<td><p><span data-ttu-id="55afd-198">피어 투 피어 오디오 세션에 소요 된 평균 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-198">Average amount of time spent in peer-to-peer audio sessions.</span></span> <span data-ttu-id="55afd-199">총 오디오 세션 시간을 총 오디오 세션 수로 나누어서 계산 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-199">Calculated by dividing the total audio session time by the total number of audio sessions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b5642-200"><strong>총 피어 투 피어 비디오 세션</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-200"><strong>Total peer-to-peer video sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-201">아니요</span><span class="sxs-lookup"><span data-stu-id="b5642-201">No</span></span></p></td>
-<td><p><span data-ttu-id="b5642-202">총 피어 투 피어 영상 통화 수입니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-202">Total number of peer-to-peer video calls.</span></span> <span data-ttu-id="b5642-203">비디오 세션도 오디오 세션으로 계산 되며, 각 비디오 세션은 하나의 비디오 세션 및 하나의 오디오 세션으로 계산 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-203">Note that video sessions are also counted as audio sessions: each video session is counted as one video session and one audio session.</span></span> <span data-ttu-id="b5642-204">이 항목을 클릭 하면 보고서에 선택한 기간에 대 한 피어 투 피어 음성 및 비디오 보고서가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-204">When you click this item, the report shows you the Peer-to-Peer Voice and Video Report for the selected time period.</span></span></p></td>
+<td><p><span data-ttu-id="55afd-200"><strong>총 피어 투 피어 비디오 세션</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-200"><strong>Total peer-to-peer video sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-201">아니요</span><span class="sxs-lookup"><span data-stu-id="55afd-201">No</span></span></p></td>
+<td><p><span data-ttu-id="55afd-202">총 피어 투 피어 비디오 통화 수입니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-202">Total number of peer-to-peer video calls.</span></span> <span data-ttu-id="55afd-203">비디오 세션은 오디오 세션으로도 계산 되며, 각 비디오 세션은 하나의 비디오 세션 및 하나의 오디오 세션으로 계산 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-203">Note that video sessions are also counted as audio sessions: each video session is counted as one video session and one audio session.</span></span> <span data-ttu-id="55afd-204">이 항목을 클릭 하면 보고서에 선택한 기간에 대 한 피어 투 피어 음성 및 비디오 보고서가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-204">When you click this item, the report shows you the Peer-to-Peer Voice and Video Report for the selected time period.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b5642-205"><strong>총 피어 투 피어 비디오 세션 시간 (분)</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-205"><strong>Total peer-to-peer video session minutes</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-206">아니요</span><span class="sxs-lookup"><span data-stu-id="b5642-206">No</span></span></p></td>
-<td><p><span data-ttu-id="b5642-207">피어 투 피어 비디오 세션에 소요 된 총 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-207">Total amount of time spent in peer-to-peer video sessions.</span></span> <span data-ttu-id="b5642-208">이 항목을 클릭 하면 보고서에 선택한 기간에 대 한 피어 투 피어 음성 및 비디오 보고서가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-208">When you click this item, the report shows you the Peer-to-Peer Voice and Video Report for the selected time period.</span></span></p></td>
+<td><p><span data-ttu-id="55afd-205"><strong>총 피어 투 피어 비디오 세션 시간 (분)</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-205"><strong>Total peer-to-peer video session minutes</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-206">아니요</span><span class="sxs-lookup"><span data-stu-id="55afd-206">No</span></span></p></td>
+<td><p><span data-ttu-id="55afd-207">피어 투 피어 비디오 세션에서 소요 된 총 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-207">Total amount of time spent in peer-to-peer video sessions.</span></span> <span data-ttu-id="55afd-208">이 항목을 클릭 하면 보고서에 선택한 기간에 대 한 피어 투 피어 음성 및 비디오 보고서가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-208">When you click this item, the report shows you the Peer-to-Peer Voice and Video Report for the selected time period.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b5642-209"><strong>평균 피어 투 피어 비디오 세션 시간 (분)</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-209"><strong>Average peer-to-peer video session minutes</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-210">아니요</span><span class="sxs-lookup"><span data-stu-id="b5642-210">No</span></span></p></td>
-<td><p><span data-ttu-id="b5642-211">피어 투 피어 비디오 세션에서 소요 된 평균 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-211">Average amount of time spent in peer-to-peer video sessions.</span></span> <span data-ttu-id="b5642-212">총 비디오 세션 시간을 총 비디오 세션 수로 나누는 방법으로 계산 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-212">Calculated by dividing the total video session time by the total number of video sessions.</span></span></p></td>
+<td><p><span data-ttu-id="55afd-209"><strong>평균 피어 투 피어 비디오 세션 시간 (분)</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-209"><strong>Average peer-to-peer video session minutes</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-210">아니요</span><span class="sxs-lookup"><span data-stu-id="55afd-210">No</span></span></p></td>
+<td><p><span data-ttu-id="55afd-211">피어 투 피어 비디오 세션에 소요 된 평균 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-211">Average amount of time spent in peer-to-peer video sessions.</span></span> <span data-ttu-id="55afd-212">총 비디오 세션 시간을 총 비디오 세션 수로 나누면 계산 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-212">Calculated by dividing the total video session time by the total number of video sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b5642-213"><strong>총 피어 투 피어 파일 전송 세션</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-213"><strong>Total peer-to-peer file transfer sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-214">아니요</span><span class="sxs-lookup"><span data-stu-id="b5642-214">No</span></span></p></td>
-<td><p><span data-ttu-id="b5642-215">파일 전송이 포함 된 총 피어 투 피어 세션 수입니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-215">Total number of peer-to-peer sessions that included file transfers.</span></span></p></td>
+<td><p><span data-ttu-id="55afd-213"><strong>총 피어 투 피어 파일 전송 세션</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-213"><strong>Total peer-to-peer file transfer sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-214">아니요</span><span class="sxs-lookup"><span data-stu-id="55afd-214">No</span></span></p></td>
+<td><p><span data-ttu-id="55afd-215">파일 전송이 포함 된 총 피어 투 피어 세션 수입니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-215">Total number of peer-to-peer sessions that included file transfers.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b5642-216"><strong>총 피어 투 피어 응용 프로그램 공유 세션</strong></span><span class="sxs-lookup"><span data-stu-id="b5642-216"><strong>Total peer-to-peer application sharing sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="b5642-217">아니요</span><span class="sxs-lookup"><span data-stu-id="b5642-217">No</span></span></p></td>
-<td><p><span data-ttu-id="b5642-218">응용 프로그램 공유가 포함 된 총 피어 투 피어 세션 수입니다.</span><span class="sxs-lookup"><span data-stu-id="b5642-218">Total number of peer-to-peer sessions that included application sharing.</span></span></p></td>
+<td><p><span data-ttu-id="55afd-216"><strong>총 피어 투 피어 응용 프로그램 공유 세션</strong></span><span class="sxs-lookup"><span data-stu-id="55afd-216"><strong>Total peer-to-peer application sharing sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="55afd-217">아니요</span><span class="sxs-lookup"><span data-stu-id="55afd-217">No</span></span></p></td>
+<td><p><span data-ttu-id="55afd-218">응용 프로그램 공유가 포함 된 총 피어 투 피어 세션 수입니다.</span><span class="sxs-lookup"><span data-stu-id="55afd-218">Total number of peer-to-peer sessions that included application sharing.</span></span></p></td>
 </tr>
 </tbody>
 </table>

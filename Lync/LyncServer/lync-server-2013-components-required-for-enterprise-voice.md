@@ -12,20 +12,20 @@ ms:contentKeyID: 48185752
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61dc7668f5b99d94c9f64ed0310ad220f6398536
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c68bfdcc69dfabddd7bf052b64ead7fafd917ec8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757112"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007968"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-required-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="2e7e3-102">Lync Server 2013의 엔터프라이즈 음성에 필요한 구성 요소</span><span class="sxs-lookup"><span data-stu-id="2e7e3-102">Components required for Enterprise Voice in Lync Server 2013</span></span>
+# <a name="components-required-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="90677-102">Lync Server 2013의 Enterprise Voice에 필요한 구성 요소</span><span class="sxs-lookup"><span data-stu-id="90677-102">Components required for Enterprise Voice in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757112"
 
 <span> </span>
 
-<span data-ttu-id="2e7e3-103">_**마지막으로 수정한 주제:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="2e7e3-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="90677-103">_**마지막으로 수정 된 항목:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="90677-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="2e7e3-104">이 섹션에서는 하나 이상의 엔터프라이즈 음성 기능에 사용 되는 모든 구성 요소에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="2e7e3-104">This section describes all components that are used by one or more Enterprise Voice features.</span></span> <span data-ttu-id="2e7e3-105">여기에는 다음이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2e7e3-105">They include the following:</span></span>
+<span data-ttu-id="90677-104">이 섹션에서는 하나 이상의 Enterprise Voice 기능에 사용 되는 모든 구성 요소에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="90677-104">This section describes all components that are used by one or more Enterprise Voice features.</span></span> <span data-ttu-id="90677-105">여기에는 다음과 같은 항목이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="90677-105">They include the following:</span></span>
 
-  - [<span data-ttu-id="2e7e3-106">Lync Server 2013의 프런트 엔드 서버 VoIP 구성 요소</span><span class="sxs-lookup"><span data-stu-id="2e7e3-106">Front End Server VoIP components for Lync Server 2013</span></span>](lync-server-2013-front-end-server-voip-components.md)
+  - [<span data-ttu-id="90677-106">Lync Server 2013의 프런트 엔드 서버 VoIP 구성 요소</span><span class="sxs-lookup"><span data-stu-id="90677-106">Front End Server VoIP components for Lync Server 2013</span></span>](lync-server-2013-front-end-server-voip-components.md)
 
-  - [<span data-ttu-id="2e7e3-107">Lync Server 2013의 중재 서버 구성 요소</span><span class="sxs-lookup"><span data-stu-id="2e7e3-107">Mediation Server component in Lync Server 2013</span></span>](lync-server-2013-mediation-server-component.md)
+  - [<span data-ttu-id="90677-107">Lync Server 2013의 중재 서버 구성 요소</span><span class="sxs-lookup"><span data-stu-id="90677-107">Mediation Server component in Lync Server 2013</span></span>](lync-server-2013-mediation-server-component.md)
 
-  - [<span data-ttu-id="2e7e3-108">Lync Server 2013의 PSTN 연결 구성 요소</span><span class="sxs-lookup"><span data-stu-id="2e7e3-108">PSTN connectivity components in Lync Server 2013</span></span>](lync-server-2013-pstn-connectivity-components.md)
+  - [<span data-ttu-id="90677-108">Lync Server 2013의 PSTN 연결 구성 요소</span><span class="sxs-lookup"><span data-stu-id="90677-108">PSTN connectivity components in Lync Server 2013</span></span>](lync-server-2013-pstn-connectivity-components.md)
 
-  - [<span data-ttu-id="2e7e3-109">Lync Server 2013에 대한 경계 네트워크 VoIP 구성 요소</span><span class="sxs-lookup"><span data-stu-id="2e7e3-109">Perimeter network VoIP components for Lync Server 2013</span></span>](lync-server-2013-perimeter-network-voip-components.md)
+  - [<span data-ttu-id="90677-109">Lync Server 2013에 대 한 경계 네트워크 VoIP 구성 요소</span><span class="sxs-lookup"><span data-stu-id="90677-109">Perimeter network VoIP components for Lync Server 2013</span></span>](lync-server-2013-perimeter-network-voip-components.md)
 
 </div>
 

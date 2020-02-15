@@ -12,20 +12,20 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42b8b9d3fc21c590bda12841cb6002987d4c0650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6b0a6179e77e4688693fe277748a8933a9dbe911
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739598"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a><span data-ttu-id="bed80-102">Lync Server 2013에 대한 서버 및 응용 프로그램 강화 및 보호</span><span class="sxs-lookup"><span data-stu-id="bed80-102">Hardening and protecting servers and applications for Lync Server 2013</span></span>
+# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a><span data-ttu-id="3e72b-102">Lync Server 2013에 대 한 서버 및 응용 프로그램 강화 및 보호</span><span class="sxs-lookup"><span data-stu-id="3e72b-102">Hardening and protecting servers and applications for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41739598"
 
 <span> </span>
 
-<span data-ttu-id="bed80-103">_**마지막으로 수정한 주제:** 2013-12-05_</span><span class="sxs-lookup"><span data-stu-id="bed80-103">_**Topic Last Modified:** 2013-12-05_</span></span>
+<span data-ttu-id="3e72b-103">_**마지막으로 수정 된 항목:** 2013-12-05_</span><span class="sxs-lookup"><span data-stu-id="3e72b-103">_**Topic Last Modified:** 2013-12-05_</span></span>
 
-<span data-ttu-id="bed80-104">특정 구성 요소에 대 한 모범 사례에 따라 운영 체제 및 응용 프로그램을 강화 하 고 보호 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-104">You should harden and protect your operating system and applications according to best practices for that specific component.</span></span> <span data-ttu-id="bed80-105">이 섹션에서는 응용 프로그램 서버를 강화 하는 방법과 그룹 정책을 사용 하 여 보안 lockdowns를 구현 하는 방법을 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-105">This section describes how to harden application servers and use Group Policy to implement security lockdowns.</span></span>
+<span data-ttu-id="3e72b-104">특정 구성 요소에 대 한 모범 사례에 따라 운영 체제 및 응용 프로그램을 강화 하 고 보호 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-104">You should harden and protect your operating system and applications according to best practices for that specific component.</span></span> <span data-ttu-id="3e72b-105">이 섹션에서는 응용 프로그램 서버를 강화 하 고 그룹 정책을 사용 하 여 보안 잠금을을 구현 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-105">This section describes how to harden application servers and use Group Policy to implement security lockdowns.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="bed80-106">Microsoft Lync Server 2013 배포에 사용 되는 데이터베이스를 강화 하 고 보호할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-106">You can also harden and protect the databases used for you Microsoft Lync Server 2013 deployment.</span></span> <span data-ttu-id="bed80-107">자세한 내용은 <A href="lync-server-2013-hardening-and-protecting-databases.md">Lync Server 2013의 데이터베이스 강화 및 보호</A>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="bed80-107">For details, see <A href="lync-server-2013-hardening-and-protecting-databases.md">Hardening and protecting the databases of Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="3e72b-106">Microsoft Lync Server 2013 배포에 사용 되는 데이터베이스를 강화 하 고 보호할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-106">You can also harden and protect the databases used for you Microsoft Lync Server 2013 deployment.</span></span> <span data-ttu-id="3e72b-107">자세한 내용은 <A href="lync-server-2013-hardening-and-protecting-databases.md">Lync Server 2013의 데이터베이스 보안 강화 및 보호</A>를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="3e72b-107">For details, see <A href="lync-server-2013-hardening-and-protecting-databases.md">Hardening and protecting the databases of Lync Server 2013</A>.</span></span>
 
 
 
@@ -51,63 +51,63 @@ ms.locfileid: "41739598"
 
 <div>
 
-## <a name="securing-application-servers"></a><span data-ttu-id="bed80-108">응용 프로그램 서버 보안</span><span class="sxs-lookup"><span data-stu-id="bed80-108">Securing Application Servers</span></span>
+## <a name="securing-application-servers"></a><span data-ttu-id="3e72b-108">응용 프로그램 서버 보안</span><span class="sxs-lookup"><span data-stu-id="3e72b-108">Securing Application Servers</span></span>
 
-<span data-ttu-id="bed80-109">응용 프로그램 서버의 경우 운영 체제와 응용 프로그램을 강화 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-109">For applications servers, the operating system and the application should be hardened.</span></span> <span data-ttu-id="bed80-110">예를 들어 Microsoft Internet Security 및 가속 (ISA) 서버 2006을 실행 하는 것을 전담 하는 Windows Server 2008 컴퓨터는 운영 체제와 응용 프로그램 관점에서 강화 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-110">For example, a Windows Server 2008 computer dedicated to running Microsoft Internet Security and Acceleration (ISA) Server 2006 should be hardened from the operating system and from the application perspective.</span></span> <span data-ttu-id="bed80-111">서버에서 실행 중이거나 제공 하는 서비스 수를 최소화 하는 것은 주요 목표입니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-111">Minimizing the number of services running and provided by the server should be a primary goal.</span></span>
-
-</div>
-
-<div>
-
-## <a name="securing-virtual-servers"></a><span data-ttu-id="bed80-112">가상 서버 보안</span><span class="sxs-lookup"><span data-stu-id="bed80-112">Securing Virtual Servers</span></span>
-
-<span data-ttu-id="bed80-113">가상 서버 스냅숏에는 서버 데이터 디스크의 복사본이 포함 되며 메모리 내 데이터의 덤프가 포함 되며,이 둘 모두 공격이 발생할 수 있는 민감한 암호화 데이터를 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-113">Virtual server snapshots contain copies of the server’s data disks and also contain dumps of in-memory data, both of which can contain sensitive cryptographic data that might lead to attacks.</span></span> <span data-ttu-id="bed80-114">가상화를 사용 하 여 구현 된 프로덕션 서버의 경우 거의 제어 되는 방식으로 모든 서버 스냅숏을 사용 하지 않도록 설정 하거나 관리 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-114">For production servers implemented using virtualization, you should disable all server snapshots or manage them in a very controlled manner.</span></span> <span data-ttu-id="bed80-115">Hyper-v 가상 서버를 보호 하는 방법에 대 한 자세한 내용은 다음 [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)Hyper-v 보안 가이드를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="bed80-115">For details about securing Hyper-V virtual servers, see the Hyper-V Security Guide at: [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176).</span></span>
+<span data-ttu-id="3e72b-109">응용 프로그램 서버의 경우 운영 체제와 응용 프로그램을 강화 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-109">For applications servers, the operating system and the application should be hardened.</span></span> <span data-ttu-id="3e72b-110">예를 들어 Microsoft Internet Security and 가속화 (ISA) 서버 2006을 실행 하기 위한 Windows Server 2008 컴퓨터는 운영 체제와 응용 프로그램 측면에서 강화 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-110">For example, a Windows Server 2008 computer dedicated to running Microsoft Internet Security and Acceleration (ISA) Server 2006 should be hardened from the operating system and from the application perspective.</span></span> <span data-ttu-id="3e72b-111">서버에서 실행 되 고 제공 하는 서비스 수를 최소화 하는 것은 주요 목표입니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-111">Minimizing the number of services running and provided by the server should be a primary goal.</span></span>
 
 </div>
 
 <div>
 
-## <a name="group-policy"></a><span data-ttu-id="bed80-116">그룹 정책</span><span class="sxs-lookup"><span data-stu-id="bed80-116">Group Policy</span></span>
+## <a name="securing-virtual-servers"></a><span data-ttu-id="3e72b-112">가상 서버 보안</span><span class="sxs-lookup"><span data-stu-id="3e72b-112">Securing Virtual Servers</span></span>
 
-<span data-ttu-id="bed80-117">Windows Server 2008 및 Windows Server 2008 R2에서 그룹 정책은 디렉터리 기반 데스크톱 구성 관리를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-117">In Windows Server 2008 and Windows Server 2008 R2, Group Policy provides directory-based desktop configuration management.</span></span> <span data-ttu-id="bed80-118">그룹 정책을 사용 하 여 다음에 대 한 GPO (그룹 정책 개체) 내에 컴퓨터 및 사용자 설정을 정의 하 여 보안 lockdowns를 구현할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-118">You can use Group Policy to implement security lockdowns by defining Computer and User settings within a Group Policy object (GPO) for the following:</span></span>
-
-  - <span data-ttu-id="bed80-119">레지스트리 기반 정책</span><span class="sxs-lookup"><span data-stu-id="bed80-119">Registry-based policies</span></span>
-
-  - <span data-ttu-id="bed80-120">보안</span><span class="sxs-lookup"><span data-stu-id="bed80-120">Security</span></span>
-
-  - <span data-ttu-id="bed80-121">소프트웨어 설치</span><span class="sxs-lookup"><span data-stu-id="bed80-121">Software installation</span></span>
-
-  - <span data-ttu-id="bed80-122">문자</span><span class="sxs-lookup"><span data-stu-id="bed80-122">Scripts</span></span>
-
-  - <span data-ttu-id="bed80-123">폴더 리디렉션</span><span class="sxs-lookup"><span data-stu-id="bed80-123">Folder redirection</span></span>
-
-  - <span data-ttu-id="bed80-124">원격 설치 서비스</span><span class="sxs-lookup"><span data-stu-id="bed80-124">Remote installation services</span></span>
-
-<span data-ttu-id="bed80-125">관리자가 이러한 설정을 구성할 수 있는 사용자 인터페이스를 제공 하기 위해 관리 템플릿은 운영 체제 릴리스, 서비스 팩 릴리스 및 Lync Server 2013을 비롯 한 일부 응용 프로그램과 함께 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-125">To provide a user interface for the administrator to configure these settings, administrative templates are shipped with operating system releases, service pack releases, and some applications, including Lync Server 2013.</span></span>
-
-<span data-ttu-id="bed80-126">Communicator .adm 파일은 Lync Server 2013와 함께 제공 되는 관리 템플릿으로,% windir%\\inf\\ 디렉터리에 설치 되어 있으며, 그룹 정책 설정에 대 한 인터페이스를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-126">The Communicator.adm file is an administrative template that ships with Lync Server 2013, is installed to the %windir%\\inf\\ directory, and provides an interface to the Group Policy settings.</span></span> <span data-ttu-id="bed80-127">Communicator의 각 설정은 응용 프로그램 동작에 영향을 주는 레지스트리의 설정에 해당 합니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-127">Each setting in Communicator.adm corresponds to a setting in the registry that affects application behavior.</span></span>
-
-<span data-ttu-id="bed80-128">Active Directory 사용자 및 컴퓨터 콘솔과 GPMC (그룹 정책 관리 콘솔)에서 사용할 수 있는 GPedit에서 설정을 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-128">The settings can be accessed from GPedit.dll, which is available from the Active Directory Users and Computers console and the Group Policy Management Console (GPMC).</span></span>
+<span data-ttu-id="3e72b-113">가상 서버 스냅숏에는 서버의 데이터 디스크 복사본이 포함 되며 메모리 내 데이터의 덤프도 포함 되며, 둘 다 공격이 발생할 수 있는 중요 한 암호화 데이터를 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-113">Virtual server snapshots contain copies of the server’s data disks and also contain dumps of in-memory data, both of which can contain sensitive cryptographic data that might lead to attacks.</span></span> <span data-ttu-id="3e72b-114">가상화를 사용 하 여 구현 되는 프로덕션 서버의 경우 모든 서버 스냅숏을 사용 하지 않도록 설정 하거나 매우 통제 된 방식으로 관리 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-114">For production servers implemented using virtualization, you should disable all server snapshots or manage them in a very controlled manner.</span></span> <span data-ttu-id="3e72b-115">Hyper-v 가상 서버를 보호 하는 방법에 대 한 자세한 내용은: [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)의 Hyper-v 보안 가이드를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="3e72b-115">For details about securing Hyper-V virtual servers, see the Hyper-V Security Guide at: [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176).</span></span>
 
 </div>
 
 <div>
 
-## <a name="group-policy-security-settings"></a><span data-ttu-id="bed80-129">그룹 정책 보안 설정</span><span class="sxs-lookup"><span data-stu-id="bed80-129">Group Policy Security Settings</span></span>
+## <a name="group-policy"></a><span data-ttu-id="3e72b-116">그룹 정책</span><span class="sxs-lookup"><span data-stu-id="3e72b-116">Group Policy</span></span>
 
-<span data-ttu-id="bed80-130">그룹 정책에는 GPedit에서 액세스할 때 컴퓨터 구성/Windows 설정/보안 설정 아래에 있는 GPO에 대 한 보안 설정이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-130">Group Policy contains security settings for a GPO under Computer Configuration/Windows Settings/Security Settings when accessed from GPedit.dll.</span></span> <span data-ttu-id="bed80-131">보안 템플릿을 가져와 GPO에 대 한 보안 설정을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-131">You can import security templates to configure security settings for the GPO.</span></span> <span data-ttu-id="bed80-132">의 Windows Server 2008 보안 가이드 [http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) 및 windows Server 2008 R2 보안 준수 관리 도구 키트에는 [http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) 요구 사항에 맞게 수정할 수 있는 다양 한 샘플 템플릿이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-132">The Windows Server 2008 Security Guide at [http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) and the Windows Server 2008 R2 Security Compliance Management Toolkit at [http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) contain a number of sample templates that you can modify to meet your needs.</span></span>
+<span data-ttu-id="3e72b-117">Windows Server 2008 및 Windows Server 2008 R2에서 그룹 정책은 디렉터리 기반 데스크톱 구성 관리를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-117">In Windows Server 2008 and Windows Server 2008 R2, Group Policy provides directory-based desktop configuration management.</span></span> <span data-ttu-id="3e72b-118">그룹 정책을 사용 하 여 다음에 대 한 GPO (그룹 정책 개체) 내에서 컴퓨터 및 사용자 설정을 정의 하 여 보안 잠금을를 구현할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-118">You can use Group Policy to implement security lockdowns by defining Computer and User settings within a Group Policy object (GPO) for the following:</span></span>
+
+  - <span data-ttu-id="3e72b-119">레지스트리 기반 정책</span><span class="sxs-lookup"><span data-stu-id="3e72b-119">Registry-based policies</span></span>
+
+  - <span data-ttu-id="3e72b-120">보안</span><span class="sxs-lookup"><span data-stu-id="3e72b-120">Security</span></span>
+
+  - <span data-ttu-id="3e72b-121">소프트웨어 설치</span><span class="sxs-lookup"><span data-stu-id="3e72b-121">Software installation</span></span>
+
+  - <span data-ttu-id="3e72b-122">스크립트</span><span class="sxs-lookup"><span data-stu-id="3e72b-122">Scripts</span></span>
+
+  - <span data-ttu-id="3e72b-123">폴더 리디렉션</span><span class="sxs-lookup"><span data-stu-id="3e72b-123">Folder redirection</span></span>
+
+  - <span data-ttu-id="3e72b-124">원격 설치 서비스</span><span class="sxs-lookup"><span data-stu-id="3e72b-124">Remote installation services</span></span>
+
+<span data-ttu-id="3e72b-125">관리자가 이러한 설정을 구성 하는 데 사용할 수 있는 사용자 인터페이스를 제공 하기 위해 관리 템플릿은 운영 체제 릴리스, 서비스 팩 릴리스 및 일부 응용 프로그램 (Lync Server 2013 포함)과 함께 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-125">To provide a user interface for the administrator to configure these settings, administrative templates are shipped with operating system releases, service pack releases, and some applications, including Lync Server 2013.</span></span>
+
+<span data-ttu-id="3e72b-126">Communicator .adm 파일은 Lync Server 2013와 함께 제공 되는 관리 템플릿으로,% windir%\\inf\\ 디렉터리에 설치 되어 있으며, 그룹 정책 설정에 대 한 인터페이스를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-126">The Communicator.adm file is an administrative template that ships with Lync Server 2013, is installed to the %windir%\\inf\\ directory, and provides an interface to the Group Policy settings.</span></span> <span data-ttu-id="3e72b-127">Communicator의 각 설정은 응용 프로그램 동작에 영향을 주는 레지스트리 설정에 해당 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-127">Each setting in Communicator.adm corresponds to a setting in the registry that affects application behavior.</span></span>
+
+<span data-ttu-id="3e72b-128">이 설정은 Active Directory 사용자 및 컴퓨터 콘솔과 GPMC (그룹 정책 관리 콘솔)에서 제공 되는 Gpedit.msc에서 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-128">The settings can be accessed from GPedit.dll, which is available from the Active Directory Users and Computers console and the Group Policy Management Console (GPMC).</span></span>
 
 </div>
 
 <div>
 
-## <a name="best-practices"></a><span data-ttu-id="bed80-133">모범 사례</span><span class="sxs-lookup"><span data-stu-id="bed80-133">Best Practices</span></span>
+## <a name="group-policy-security-settings"></a><span data-ttu-id="3e72b-129">그룹 정책 보안 설정</span><span class="sxs-lookup"><span data-stu-id="3e72b-129">Group Policy Security Settings</span></span>
 
-  - <span data-ttu-id="bed80-134">모든 서버 운영 체제 및 응용 프로그램을 강화 합니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-134">Harden all server operating systems and applications.</span></span>
+<span data-ttu-id="3e72b-130">그룹 정책 Gpedit.msc에서 액세스할 때 컴퓨터 구성/Windows 설정/보안 설정 아래에 GPO에 대 한 보안 설정이 들어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-130">Group Policy contains security settings for a GPO under Computer Configuration/Windows Settings/Security Settings when accessed from GPedit.dll.</span></span> <span data-ttu-id="3e72b-131">보안 템플릿을 가져와서 GPO에 대 한 보안 설정을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-131">You can import security templates to configure security settings for the GPO.</span></span> <span data-ttu-id="3e72b-132">의 Windows Server 2008 보안 가이드 [http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) 및 windows Server 2008 R2 보안 준수 관리 도구 키트에는 [http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) 사용자의 요구를 충족 하기 위해 수정할 수 있는 다양 한 샘플 서식 파일이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-132">The Windows Server 2008 Security Guide at [http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) and the Windows Server 2008 R2 Security Compliance Management Toolkit at [http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) contain a number of sample templates that you can modify to meet your needs.</span></span>
 
-  - <span data-ttu-id="bed80-135">서버 스냅숏을 보호 하 고 모든 가상 서버의 보안을 강화 합니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-135">Protect server snapshots and enhance the security of all virtual servers.</span></span>
+</div>
 
-  - <span data-ttu-id="bed80-136">그룹 정책을 사용 하 여 보안 lockdowns를 구현 합니다.</span><span class="sxs-lookup"><span data-stu-id="bed80-136">Use Group Policy to implement security lockdowns.</span></span>
+<div>
+
+## <a name="best-practices"></a><span data-ttu-id="3e72b-133">모범 사례</span><span class="sxs-lookup"><span data-stu-id="3e72b-133">Best Practices</span></span>
+
+  - <span data-ttu-id="3e72b-134">모든 서버 운영 체제 및 응용 프로그램을 강화 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-134">Harden all server operating systems and applications.</span></span>
+
+  - <span data-ttu-id="3e72b-135">서버 스냅숏을 보호 하 고 모든 가상 서버의 보안을 향상 시킵니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-135">Protect server snapshots and enhance the security of all virtual servers.</span></span>
+
+  - <span data-ttu-id="3e72b-136">그룹 정책을 사용 하 여 보안 잠금을을 구현 합니다.</span><span class="sxs-lookup"><span data-stu-id="3e72b-136">Use Group Policy to implement security lockdowns.</span></span>
 
 </div>
 

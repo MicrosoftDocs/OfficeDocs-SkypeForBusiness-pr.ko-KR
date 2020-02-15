@@ -12,20 +12,20 @@ ms:contentKeyID: 48185300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a23ced0c93aae8f55868f44f179c659aead26f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 90fa941f575a49b3cb5de23f6aa38944d885eb85
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738198"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a><span data-ttu-id="2af07-102">Lync Server 2013에서 영구 채팅 관리자 추가</span><span class="sxs-lookup"><span data-stu-id="2af07-102">Adding a Persistent Chat administrator in Lync Server 2013</span></span>
+# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a><span data-ttu-id="ff6e3-102">Lync Server 2013에서 영구 채팅 관리자 추가</span><span class="sxs-lookup"><span data-stu-id="ff6e3-102">Adding a Persistent Chat administrator in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41738198"
 
 <span> </span>
 
-<span data-ttu-id="2af07-103">_**마지막으로 수정한 주제:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="2af07-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="ff6e3-103">_**마지막으로 수정 된 항목:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="ff6e3-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="2af07-104">Lync Server 2013에서 특정 작업을 수행 하는 사용자는 하나 이상의 특정 그룹의 구성원으로 할당 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2af07-104">In Lync Server 2013, users who perform specific tasks must be assigned as members of one or more specific groups.</span></span> <span data-ttu-id="2af07-105">사용자를 미리 정의 된 Lync Server 2013 관리 역할에 할당 하 여 권한을 부여 하는 데는 RBAC (역할 기반 액세스 제어)를 사용할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2af07-105">Role-based access control (RBAC) can also be used to grant privileges by assigning users to predefined Lync Server 2013 administrative roles.</span></span>
+<span data-ttu-id="ff6e3-104">Lync Server 2013에서는 특정 작업을 수행 하는 사용자를 하나 이상의 특정 그룹의 구성원으로 할당 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ff6e3-104">In Lync Server 2013, users who perform specific tasks must be assigned as members of one or more specific groups.</span></span> <span data-ttu-id="ff6e3-105">RBAC (역할 기반 액세스 제어)를 사용 하 여 미리 정의 된 Lync Server 2013 관리 역할에 사용자를 할당 하 여 권한을 부여할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ff6e3-105">Role-based access control (RBAC) can also be used to grant privileges by assigning users to predefined Lync Server 2013 administrative roles.</span></span>
 
-<span data-ttu-id="2af07-106">영구 채팅 서버를 구성 하 고 관리 하기 전에 적절 한 사용자 권한 및 사용 권한이 있는지, 그리고 영구 채팅 관리자로 분류 되는 사용자가 CsPersistentChatAdministrator 보안에 추가 되어야 합니다. 그룹과.</span><span class="sxs-lookup"><span data-stu-id="2af07-106">Before configuring and administering Persistent Chat Server, be sure that the appropriate user rights and permissions are in place, and that any users to be classified as Persistent Chat administrators are added to the CsPersistentChatAdministrator security group.</span></span>
+<span data-ttu-id="ff6e3-106">영구 채팅 서버를 구성 하 고 관리 하기 전에 적절 한 사용자 권한 및 사용 권한이 있는지, 그리고 영구 채팅 관리자로 분류할 사용자가 CsPersistentChatAdministrator 보안에 추가 되었는지 확인해 보십시오. 여러.</span><span class="sxs-lookup"><span data-stu-id="ff6e3-106">Before configuring and administering Persistent Chat Server, be sure that the appropriate user rights and permissions are in place, and that any users to be classified as Persistent Chat administrators are added to the CsPersistentChatAdministrator security group.</span></span>
 
 </div>
 

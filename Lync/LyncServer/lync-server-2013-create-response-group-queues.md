@@ -12,20 +12,20 @@ ms:contentKeyID: 48184070
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34344654dfc8d2b26a935607111d8fd417d01c19
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05c918d9f06bb1b22fd65bcde13e4049a0bab3c6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763592"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009401"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-response-group-queues-in-lync-server-2013"></a><span data-ttu-id="72916-102">Lync Server 2013에서 응답 그룹 큐 만들기</span><span class="sxs-lookup"><span data-stu-id="72916-102">Create Response Group queues in Lync Server 2013</span></span>
+# <a name="create-response-group-queues-in-lync-server-2013"></a><span data-ttu-id="bb66c-102">Lync Server 2013에서 응답 그룹 큐 만들기</span><span class="sxs-lookup"><span data-stu-id="bb66c-102">Create Response Group queues in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763592"
 
 <span> </span>
 
-<span data-ttu-id="72916-103">_**마지막으로 수정한 주제:** 2012-01-18_</span><span class="sxs-lookup"><span data-stu-id="72916-103">_**Topic Last Modified:** 2012-01-18_</span></span>
+<span data-ttu-id="bb66c-103">_**마지막으로 수정 된 항목:** 2012-01-18_</span><span class="sxs-lookup"><span data-stu-id="bb66c-103">_**Topic Last Modified:** 2012-01-18_</span></span>
 
-<span data-ttu-id="72916-104">큐는 에이전트가 전화를 대답할 때까지 호출자를 보유 합니다.</span><span class="sxs-lookup"><span data-stu-id="72916-104">Queues hold callers until an agent answers the call.</span></span> <span data-ttu-id="72916-105">응답 그룹 응용 프로그램이 사용 가능한 에이전트를 검색 하는 경우 목록에 나열 된 순서 대로 에이전트 그룹을 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="72916-105">When the Response Group application searches for an available agent, it searches agent groups in the order that you list them.</span></span> <span data-ttu-id="72916-106">큐에 할당 되는 에이전트 그룹을 선택 하 고 큐에 대기 시킬 수 있는 호출 수를 제한 하는 방법, 에이전트가 전화를 받을 때까지 대기 하는 시간 간격 등의 대기열 동작을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="72916-106">You can select the agent groups that are assigned to the queue and specify queue behavior, such as limiting the number of calls that the queue can hold and the period of time that a call waits until an agent answers the call.</span></span>
+<span data-ttu-id="bb66c-104">큐는 에이전트가 통화에 응답할 때까지 발신자를 보관합니다.</span><span class="sxs-lookup"><span data-stu-id="bb66c-104">Queues hold callers until an agent answers the call.</span></span> <span data-ttu-id="bb66c-105">응답 그룹 응용 프로그램이 사용 가능한 에이전트를 검색할 때 목록에 나열 된 순서 대로 에이전트 그룹을 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb66c-105">When the Response Group application searches for an available agent, it searches agent groups in the order that you list them.</span></span> <span data-ttu-id="bb66c-106">큐에 지정되는 에이전트 그룹을 선택할 수 있으며, 큐에 보관할 수 있는 통화 수 및 에이전트가 통화에 응답할 때까지의 통화 대기 시간을 제한하는 등 큐 동작을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb66c-106">You can select the agent groups that are assigned to the queue and specify queue behavior, such as limiting the number of calls that the queue can hold and the period of time that a call waits until an agent answers the call.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="72916-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="72916-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bb66c-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="bb66c-107">In This Section</span></span>
 
-[<span data-ttu-id="72916-108">Lync Server 2013에서 큐 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="72916-108">Create or modify a queue in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-queue.md)
+[<span data-ttu-id="bb66c-108">Lync Server 2013에서 큐 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="bb66c-108">Create or modify a queue in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-queue.md)
 
 </div>
 
