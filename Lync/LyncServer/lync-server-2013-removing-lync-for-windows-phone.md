@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Windows Phone 용 Lync 제거'
+title: 'Lync Server 2013: Lync for Windows Phone 제거'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e0b3183433050420fa9b995638121e2838c438e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4b2f55e88ff48c2719a56756501ac239b756858b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746778"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050490"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="removing-lync-for-windows-phone-in-lync-server-2013"></a><span data-ttu-id="8a1f9-102">Lync Server 2013에서 Windows Phone 용 Lync 제거</span><span class="sxs-lookup"><span data-stu-id="8a1f9-102">Removing Lync for Windows Phone in Lync Server 2013</span></span>
+# <a name="removing-lync-for-windows-phone-in-lync-server-2013"></a><span data-ttu-id="68c6d-102">Lync Server 2013에서 Windows Phone 용 Lync 제거</span><span class="sxs-lookup"><span data-stu-id="68c6d-102">Removing Lync for Windows Phone in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41746778"
 
 <span> </span>
 
-<span data-ttu-id="8a1f9-103">_**마지막으로 수정한 주제:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="8a1f9-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="68c6d-103">_**마지막으로 수정 된 항목:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="68c6d-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
-<span data-ttu-id="8a1f9-104">모바일 장치에서 Windows Phone 응용 프로그램 용 Lync 2013을 제거 하려면 다음 단계를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a1f9-104">To remove the Lync 2013 for Windows Phone application from the mobile device, perform the following steps:</span></span>
+<span data-ttu-id="68c6d-104">모바일 장치에서 Windows Phone 응용 프로그램에 대 한 Lync 2013을 제거 하려면 다음 단계를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="68c6d-104">To remove the Lync 2013 for Windows Phone application from the mobile device, perform the following steps:</span></span>
 
-1.  <span data-ttu-id="8a1f9-105">모바일 장치의 시작 화면에서 응용 프로그램 목록을 아래로 살짝 밉니다.</span><span class="sxs-lookup"><span data-stu-id="8a1f9-105">On the mobile device, from the start screen, swipe to see the application list.</span></span>
+1.  <span data-ttu-id="68c6d-105">모바일 장치의 시작 화면을 살짝 밀어 응용 프로그램 목록을 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="68c6d-105">On the mobile device, from the start screen, swipe to see the application list.</span></span>
 
-2.  <span data-ttu-id="8a1f9-106">Lync 응용 프로그램을 길게 탭 한 다음 **제거**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8a1f9-106">Tap and hold the Lync application, and then select **Uninstall**.</span></span>
+2.  <span data-ttu-id="68c6d-106">Lync 응용 프로그램을 길게 누른 다음 **Uninstall(제거)** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="68c6d-106">Tap and hold the Lync application, and then select **Uninstall**.</span></span>
 
 </div>
 

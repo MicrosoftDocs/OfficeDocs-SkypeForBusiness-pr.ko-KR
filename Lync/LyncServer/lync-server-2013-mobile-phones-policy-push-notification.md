@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 휴대 전화 (정책/푸시 알림)'
+title: 'Lync Server 2013: 휴대폰 (정책/푸시 알림)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f17db6a855bb7c890f5218213e66986830e8badf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe34ff7d4d0c31c282ee308f1dd389e124cb652b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758720"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044890"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mobile-phones-policypush-notification-in-lync-server-2013"></a><span data-ttu-id="d9951-102">Lync Server 2013의 휴대 전화 (정책/푸시 알림)</span><span class="sxs-lookup"><span data-stu-id="d9951-102">Mobile phones (policy/push notification) in Lync Server 2013</span></span>
+# <a name="mobile-phones-policypush-notification-in-lync-server-2013"></a><span data-ttu-id="9507f-102">Lync Server 2013의 휴대폰 (정책/푸시 알림)</span><span class="sxs-lookup"><span data-stu-id="9507f-102">Mobile phones (policy/push notification) in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758720"
 
 <span> </span>
 
-<span data-ttu-id="d9951-103">_**마지막으로 수정한 주제:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="d9951-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="9507f-103">_**마지막으로 수정 된 항목:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="9507f-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="d9951-104">Lync server 2013 제어판의 **클라이언트** 섹션에서 lync server 2013에 대 한 모바일 정책 및 푸시 알림을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d9951-104">You can configure mobility policies and push notifications for Lync Server 2013 from the **Clients** section of Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="d9951-105">이 섹션의 절차를 사용 하 여 휴대 전화 설정을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="d9951-105">Use the procedures in this section to configure your mobile phone settings.</span></span>
+<span data-ttu-id="9507f-104">Lync server 2013 제어판의 **Clients** 섹션에서 lync server 2013에 대 한 모바일 정책 및 푸시 알림을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9507f-104">You can configure mobility policies and push notifications for Lync Server 2013 from the **Clients** section of Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="9507f-105">이 섹션의 절차에 따라 휴대폰 설정을 구성하십시오.</span><span class="sxs-lookup"><span data-stu-id="9507f-105">Use the procedures in this section to configure your mobile phone settings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d9951-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="d9951-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9507f-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="9507f-106">In This Section</span></span>
 
-  - [<span data-ttu-id="d9951-107">Lync Server 2013의 이동성 정책</span><span class="sxs-lookup"><span data-stu-id="d9951-107">Mobility policies in Lync Server 2013</span></span>](lync-server-2013-mobility-policies.md)
+  - [<span data-ttu-id="9507f-107">Lync Server 2013의 모바일 기능 정책</span><span class="sxs-lookup"><span data-stu-id="9507f-107">Mobility policies in Lync Server 2013</span></span>](lync-server-2013-mobility-policies.md)
 
-  - [<span data-ttu-id="d9951-108">Lync Server 2013의 푸시 알림</span><span class="sxs-lookup"><span data-stu-id="d9951-108">Push notifications in Lync Server 2013</span></span>](lync-server-2013-push-notifications.md)
+  - [<span data-ttu-id="9507f-108">Lync Server 2013의 푸시 알림</span><span class="sxs-lookup"><span data-stu-id="9507f-108">Push notifications in Lync Server 2013</span></span>](lync-server-2013-push-notifications.md)
 
 </div>
 

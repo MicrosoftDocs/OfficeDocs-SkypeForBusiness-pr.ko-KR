@@ -12,20 +12,20 @@ ms:contentKeyID: 49733593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 751234b4f3a9a903612d8354abe26f6a2d960ead
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: baa2326a827959d7d21286152950e1025ad2f457
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739768"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038090"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="1e67c-102">Lync Server 2013의 프런트 엔드 풀 재해 복구</span><span class="sxs-lookup"><span data-stu-id="1e67c-102">Front End pool disaster recovery in Lync Server 2013</span></span>
+# <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="4e076-102">Lync Server 2013의 프런트 엔드 풀 재해 복구</span><span class="sxs-lookup"><span data-stu-id="4e076-102">Front End pool disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41739768"
 
 <span> </span>
 
-<span data-ttu-id="1e67c-103">_**마지막으로 수정한 주제:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="1e67c-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="4e076-103">_**마지막으로 수정 된 항목:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="4e076-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="1e67c-104">이 섹션의 항목에서는 Lync Server 2013의 고가용성 및 재해 복구 기능 프런트 엔드 풀에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="1e67c-104">The topics in this section explain the high availability and disaster recovery abilities Front End pools in Lync Server 2013.</span></span>
+<span data-ttu-id="4e076-104">이 섹션의 항목에서는 Lync Server 2013의 고가용성 및 재해 복구 기능 프런트 엔드 풀에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="4e076-104">The topics in this section explain the high availability and disaster recovery abilities Front End pools in Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1e67c-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="1e67c-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4e076-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="4e076-105">In This Section</span></span>
 
-  - [<span data-ttu-id="1e67c-106">Lync Server 2013의 프런트 엔드 풀 연결 계획</span><span class="sxs-lookup"><span data-stu-id="1e67c-106">Planning for Front End pool pairing in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-pool-pairing.md)
+  - [<span data-ttu-id="4e076-106">Lync Server 2013의 프런트 엔드 풀 페어링 계획</span><span class="sxs-lookup"><span data-stu-id="4e076-106">Planning for Front End pool pairing in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-pool-pairing.md)
 
-  - [<span data-ttu-id="1e67c-107">Lync Server 2013에서 풀 장애가 발생 한 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="1e67c-107">User experience during pool failure in Lync Server 2013</span></span>](lync-server-2013-user-experience-during-pool-failure.md)
+  - [<span data-ttu-id="4e076-107">Lync Server 2013에서 풀 오류 시 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="4e076-107">User experience during pool failure in Lync Server 2013</span></span>](lync-server-2013-user-experience-during-pool-failure.md)
 
-  - [<span data-ttu-id="1e67c-108">백 엔드 서버의 Lync Server 2013에서 높은 가용성을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="1e67c-108">Back End Server high availability in Lync Server 2013</span></span>](lync-server-2013-back-end-server-high-availability.md)
+  - [<span data-ttu-id="4e076-108">Lync Server 2013의 백 엔드 서버 고가용성</span><span class="sxs-lookup"><span data-stu-id="4e076-108">Back End Server high availability in Lync Server 2013</span></span>](lync-server-2013-back-end-server-high-availability.md)
 
-  - [<span data-ttu-id="1e67c-109">Lync Server 2013에서 파일 공유 고가용성</span><span class="sxs-lookup"><span data-stu-id="1e67c-109">File sharing high availability in Lync Server 2013</span></span>](lync-server-2013-file-sharing-high-availability.md)
+  - [<span data-ttu-id="4e076-109">Lync Server 2013의 파일 공유 고가용성</span><span class="sxs-lookup"><span data-stu-id="4e076-109">File sharing high availability in Lync Server 2013</span></span>](lync-server-2013-file-sharing-high-availability.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 모바일 기능'
+title: 'Lync Server 2013: 모바일 기능 및 기능'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e00274e62cc0fe7cf55c45e11a49670c7f1e6a0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ac62cb2fe222a2a36c0fc0aeb79a4aaa37e9964
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758700"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044830"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a><span data-ttu-id="84e69-102">Lync Server 2013의 모바일 기능</span><span class="sxs-lookup"><span data-stu-id="84e69-102">Mobility features and capabilities in Lync Server 2013</span></span>
+# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a><span data-ttu-id="72e99-102">Lync Server 2013의 모바일 기능</span><span class="sxs-lookup"><span data-stu-id="72e99-102">Mobility features and capabilities in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,61 +35,61 @@ ms.locfileid: "41758700"
 
 <span> </span>
 
-<span data-ttu-id="84e69-103">_**마지막으로 수정한 주제:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="84e69-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="72e99-103">_**마지막으로 수정 된 항목:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="72e99-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-<span data-ttu-id="84e69-104">Lync Server 2013의 누적 업데이트에 도입 된 이동성 기능: 2 월 2013은 Lync 2010 Mobile 및 Lync 2013 모바일 클라이언트 기능을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-104">The mobility feature introduced in the Cumulative Updates for Lync Server 2013: February 2013 supports Lync 2010 Mobile and Lync 2013 Mobile clients functionality.</span></span> <span data-ttu-id="84e69-105">Lync Server 2013 모바일 서비스를 배포 하는 경우 사용자는 지원 되는 Apple iOS, Android, Windows Phone 또는 Nokia Symbian 모바일 장치를 사용 하 여 인스턴트 메시지 보내기 및 받기, 연락처 보기, 현재 상태 보기 등의 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-105">When you deploy the Lync Server 2013 Mobility Service, users can use supported Apple iOS, Android, and Windows Phone, or Nokia Symbian mobile devices to perform activities such as sending and receiving instant messages, viewing contacts, and viewing presence.</span></span> <span data-ttu-id="84e69-106">또한 모바일 장치는 클릭 하 여 회의에 참가 하 고, 회사, 단일 전화 접속, 음성 메일 및 부재 중 통화를 통해 전화를 걸 수 있는 몇 가지 엔터프라이즈 음성 기능을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-106">In addition, mobile devices support some Enterprise Voice features, such as click to join a conference, Call via Work, single number reach, voice mail, and missed calls.</span></span> <span data-ttu-id="84e69-107">Lync Server 용 누적 업데이트에 도입 된 새로운 기능 2013:2 월 2013에는 모임 참석자를 위한 VoIP (Voice over IP) 기능 및 비디오 (.H)가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-107">New features introduced in the Cumulative Updates for Lync Server 2013: February 2013 include Voice over IP (VoIP) capability and video (H.264) for meeting attendee.</span></span>
+<span data-ttu-id="72e99-104">Lync Server 2013 용 누적 업데이트에 도입 된 모바일 기능: 2 월 2013은 Lync 2010 Mobile 및 Lync 2013 모바일 클라이언트 기능을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-104">The mobility feature introduced in the Cumulative Updates for Lync Server 2013: February 2013 supports Lync 2010 Mobile and Lync 2013 Mobile clients functionality.</span></span> <span data-ttu-id="72e99-105">Lync Server 2013 Mobility Service를 배포할 때는 사용자가 지원 되는 Apple iOS, Android, Windows Phone 또는 Nokia Symbian 모바일 장치를 사용 하 여 인스턴트 메시지 보내기/받기, 연락처 보기, 현재 상태 보기 등의 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-105">When you deploy the Lync Server 2013 Mobility Service, users can use supported Apple iOS, Android, and Windows Phone, or Nokia Symbian mobile devices to perform activities such as sending and receiving instant messages, viewing contacts, and viewing presence.</span></span> <span data-ttu-id="72e99-106">또한 모바일 장치에서는 클릭하여 회의 참가, 회사번호로 전화, 단일 번호 연결, 음성 메일, 부재 중 통화 등의 일부 Enterprise Voice 기능도 지원됩니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-106">In addition, mobile devices support some Enterprise Voice features, such as click to join a conference, Call via Work, single number reach, voice mail, and missed calls.</span></span> <span data-ttu-id="72e99-107">Lync Server 2013 용 누적 업데이트에 도입 된 새로운 기능: 2 월 2013 회의 참석자를 위한 VoIP (Voice over IP) 기능 및 동영상 (.H)을 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-107">New features introduced in the Cumulative Updates for Lync Server 2013: February 2013 include Voice over IP (VoIP) capability and video (H.264) for meeting attendee.</span></span>
 
-<span data-ttu-id="84e69-108">Lync Server 2013의 누적 업데이트에 도입 된 이동성 기능: 2 월 2013에서는 Lync 2013 모바일 클라이언트 기능을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-108">The mobility feature introduced in the Cumulative Updates for Lync Server 2013: February 2013 supports Lync 2013 Mobile client functionality.</span></span> <span data-ttu-id="84e69-109">Lync Server 2013의 누적 업데이트: 2 월 2013 통합 커뮤니케이션 웹 API 또는 기타를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-109">The Cumulative Updates for Lync Server 2013: February 2013 install Unified Communications Web API, or UCWA.</span></span> <span data-ttu-id="84e69-110">일부는 Lync 2013 모바일 클라이언트에 사용 되는 구성 요소입니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-110">UCWA is the component used for Lync 2013 Mobile clients.</span></span> <span data-ttu-id="84e69-111">Lync Server 2013에서 Mcx는 Lync 2010 모바일 클라이언트에 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-111">In Lync Server 2013, Mcx is used for Lync 2010 Mobile clients.</span></span> <span data-ttu-id="84e69-112">Lync Server에 대 한 누적 업데이트 2013:2013 2 월에 모바일 서비스를 위한 새 진입점으로 서의 요소를 소개 합니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-112">Cumulative Updates for Lync Server 2013: February 2013 introduce UCWA as the new entry point for mobility services.</span></span> <span data-ttu-id="84e69-113">Lync Server 2013는 lync Server 2010에 대 한 누적 업데이트 (년 11 2011 월)에 도입 된 모바일 서비스 (Mcx)를 동시에 구현 하 고 Lync 2010 Mobile에 대 한 지원을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-113">Lync Server 2013 concurrently implements the Mobility Service (Mcx), introduced in the Cumulative Updates for Lync Server 2010: November 2011, and provides support for Lync 2010 Mobile.</span></span> <span data-ttu-id="84e69-114">Lync Server 2013 2013의 누적 업데이트를 배포 하는 경우 사용자가 지원 되는 Apple iOS, Android 및 Windows Phone 모바일 장치를 사용 하 여 다음과 같은 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-114">When you deploy the Cumulative Updates for Lync Server 2013: February 2013, users can use supported Apple iOS, Android, and Windows Phone mobile devices to perform such activities as:</span></span>
+<span data-ttu-id="72e99-108">Lync Server 2013 용 누적 업데이트에 도입 된 모바일 기능: 2 월 2013은 Lync 2013 모바일 클라이언트 기능을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-108">The mobility feature introduced in the Cumulative Updates for Lync Server 2013: February 2013 supports Lync 2013 Mobile client functionality.</span></span> <span data-ttu-id="72e99-109">Lync Server 2013 용 누적 업데이트: 2 월 2013 통합 커뮤니케이션 웹 API 또는 c를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-109">The Cumulative Updates for Lync Server 2013: February 2013 install Unified Communications Web API, or UCWA.</span></span> <span data-ttu-id="72e99-110">(C)는 Lync 2013 모바일 클라이언트에 사용 되는 구성 요소입니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-110">UCWA is the component used for Lync 2013 Mobile clients.</span></span> <span data-ttu-id="72e99-111">Lync Server 2013에서는 Mcx가 Lync 2010 모바일 클라이언트에 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-111">In Lync Server 2013, Mcx is used for Lync 2010 Mobile clients.</span></span> <span data-ttu-id="72e99-112">Lync Server에 대 한 누적 업데이트 2013:2 월 2013에는 모바일 서비스에 대 한 새 진입점으로 필요한 요소를 소개 합니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-112">Cumulative Updates for Lync Server 2013: February 2013 introduce UCWA as the new entry point for mobility services.</span></span> <span data-ttu-id="72e99-113">Lync Server 2013는 lync Server 2010 용 누적 업데이트: 11 월 2011 12 일에 도입 된 모바일 서비스 (Mcx)를 동시에 구현 하며 Lync 2010 Mobile에 대 한 지원을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-113">Lync Server 2013 concurrently implements the Mobility Service (Mcx), introduced in the Cumulative Updates for Lync Server 2010: November 2011, and provides support for Lync 2010 Mobile.</span></span> <span data-ttu-id="72e99-114">Lync Server 2013 2013에 대 한 누적 업데이트를 배포 하는 경우 사용자는 다음과 같은 작업을 수행 하기 위해 지원 되는 Apple iOS, Android 및 Windows Phone 모바일 장치를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-114">When you deploy the Cumulative Updates for Lync Server 2013: February 2013, users can use supported Apple iOS, Android, and Windows Phone mobile devices to perform such activities as:</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="84e69-115">Lync Server 2010의 누적 업데이트에서 지원 되는 기능: (Mcx)에는 11 월 2011이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-115">Features supported by the Mobility Service from the Cumulative Updates for Lync Server 2010: November 2011 are noted with (Mcx).</span></span> <span data-ttu-id="84e69-116">나열 된 모든 기능은 Lync Server 2013의 누적 업데이트에서 도입 된 (예: 2013 년 2 월)에 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-116">All listed features are supported by the UCWA, introduced in the Cumulative Updates for Lync Server 2013: February 2013.</span></span>
+> <span data-ttu-id="72e99-115">Lync Server 용 누적 업데이트 2010에서 지원 되는 기능: 11 월 2011은 (Mcx)에 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-115">Features supported by the Mobility Service from the Cumulative Updates for Lync Server 2010: November 2011 are noted with (Mcx).</span></span> <span data-ttu-id="72e99-116">나열 된 모든 기능은 Lync Server 2013:2 월 2013에 대 한 누적 업데이트에 도입 된 작업을 통해 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-116">All listed features are supported by the UCWA, introduced in the Cumulative Updates for Lync Server 2013: February 2013.</span></span>
 
 
 
 </div>
 
-  - <span data-ttu-id="84e69-117">인스턴트 메시지 보내기 및 받기 (Mcx)</span><span class="sxs-lookup"><span data-stu-id="84e69-117">Send and receive instant messages (Mcx)</span></span>
+  - <span data-ttu-id="72e99-117">인스턴트 메시지 보내기 및 받기 (Mcx)</span><span class="sxs-lookup"><span data-stu-id="72e99-117">Send and receive instant messages (Mcx)</span></span>
 
-  - <span data-ttu-id="84e69-118">현재 상태 보기 (Mcx)</span><span class="sxs-lookup"><span data-stu-id="84e69-118">View presence (Mcx)</span></span>
+  - <span data-ttu-id="72e99-118">현재 상태 보기 (Mcx)</span><span class="sxs-lookup"><span data-stu-id="72e99-118">View presence (Mcx)</span></span>
 
-  - <span data-ttu-id="84e69-119">연락처 보기 (Mcx)</span><span class="sxs-lookup"><span data-stu-id="84e69-119">View contacts (Mcx)</span></span>
+  - <span data-ttu-id="72e99-119">대화 상대 보기 (Mcx)</span><span class="sxs-lookup"><span data-stu-id="72e99-119">View contacts (Mcx)</span></span>
 
-  - <span data-ttu-id="84e69-120">회의에 참가 하려면 클릭 하십시오 (Mcx).</span><span class="sxs-lookup"><span data-stu-id="84e69-120">Click to join a conference (Mcx)</span></span>
+  - <span data-ttu-id="72e99-120">회의에 참가 하려면 클릭 합니다 (Mcx).</span><span class="sxs-lookup"><span data-stu-id="72e99-120">Click to join a conference (Mcx)</span></span>
 
-  - <span data-ttu-id="84e69-121">직장 (Mcx)을 통한 통화</span><span class="sxs-lookup"><span data-stu-id="84e69-121">Call via work (Mcx)</span></span>
+  - <span data-ttu-id="72e99-121">직장을 통한 통화 (Mcx)</span><span class="sxs-lookup"><span data-stu-id="72e99-121">Call via work (Mcx)</span></span>
 
-  - <span data-ttu-id="84e69-122">단일 숫자에 도달 (Mcx)</span><span class="sxs-lookup"><span data-stu-id="84e69-122">Single number reach (Mcx)</span></span>
+  - <span data-ttu-id="72e99-122">1 번 도착 (Mcx)</span><span class="sxs-lookup"><span data-stu-id="72e99-122">Single number reach (Mcx)</span></span>
 
-  - <span data-ttu-id="84e69-123">음성 메일 (Mcx)</span><span class="sxs-lookup"><span data-stu-id="84e69-123">Voice mail (Mcx)</span></span>
+  - <span data-ttu-id="72e99-123">음성 메일 (Mcx)</span><span class="sxs-lookup"><span data-stu-id="72e99-123">Voice mail (Mcx)</span></span>
 
-  - <span data-ttu-id="84e69-124">부재 중 통화 알림 (Mcx)</span><span class="sxs-lookup"><span data-stu-id="84e69-124">Missed call notification (Mcx)</span></span>
+  - <span data-ttu-id="72e99-124">부재 중 전화 알림 (Mcx)</span><span class="sxs-lookup"><span data-stu-id="72e99-124">Missed call notification (Mcx)</span></span>
 
-  - <span data-ttu-id="84e69-125">VoIP (Voice over IP)</span><span class="sxs-lookup"><span data-stu-id="84e69-125">Voice over IP (VoIP)</span></span>
+  - <span data-ttu-id="72e99-125">VoIP(Voice over IP)</span><span class="sxs-lookup"><span data-stu-id="72e99-125">Voice over IP (VoIP)</span></span>
 
-  - <span data-ttu-id="84e69-126">참석자 비디오 (H. 264)</span><span class="sxs-lookup"><span data-stu-id="84e69-126">Attendee video (H.264)</span></span>
+  - <span data-ttu-id="72e99-126">참석자 비디오 (.H. 264)</span><span class="sxs-lookup"><span data-stu-id="72e99-126">Attendee video (H.264)</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="84e69-127">Lync 2010 Mobile에서 Nokia Symbian 장치에 대 한 클라이언트를 제공 했습니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-127">Lync 2010 Mobile provided a client for Nokia Symbian devices.</span></span> <span data-ttu-id="84e69-128">Lync 2013 Mobile에는 Nokia Symbian 기반 장치에 대 한 클라이언트가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-128">Lync 2013 Mobile will not have a client for Nokia Symbian-based devices.</span></span>
+> <span data-ttu-id="72e99-127">Lync 2010 Mobile에서는 Nokia Symbian 장치에 대 한 클라이언트를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-127">Lync 2010 Mobile provided a client for Nokia Symbian devices.</span></span> <span data-ttu-id="72e99-128">Lync 2013 Mobile에는 Nokia Symbian 기반 장치에 대 한 클라이언트가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-128">Lync 2013 Mobile will not have a client for Nokia Symbian-based devices.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="84e69-129">Apple iPad 사용자는 향상 된 기능에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-129">Apple iPad users will have access to enhanced capabilities.</span></span> <span data-ttu-id="84e69-130">오디오 통화를 사용 하 여 모임에 참가 한 후에는 iPad 사용자가 모임 내에서 업로드 된 Microsoft PowerPoint 프레젠테이션을 보고, 응용 프로그램 및 데스크톱을 공유 하 고, 모임 참가자 목록을 보고, 다른 콘텐츠 형식의 알림을 받을 수 있습니다. 모임 내에서 공유 되 고 있는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-130">After joining a meeting by using audio call back, an iPad user will be able to view uploaded Microsoft PowerPoint presentations within a meeting, share applications and desktops, view the meeting participant list, and receive notifications of other content types that are being shared within the meeting.</span></span>
+<span data-ttu-id="72e99-129">Apple iPad 사용자는 향상된 기능에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-129">Apple iPad users will have access to enhanced capabilities.</span></span> <span data-ttu-id="72e99-130">오디오 통화를 사용 하 여 모임에 참가 한 후에는 iPad 사용자가 모임 내에서 업로드 된 Microsoft PowerPoint 프레젠테이션을 보고, 응용 프로그램 및 데스크톱을 공유 하 고, 모임 참가자 목록을 보고, 다른 콘텐츠 형식에 대 한 알림을 받을 수 있습니다. 모임 내에서 공유 되는 중입니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-130">After joining a meeting by using audio call back, an iPad user will be able to view uploaded Microsoft PowerPoint presentations within a meeting, share applications and desktops, view the meeting participant list, and receive notifications of other content types that are being shared within the meeting.</span></span>
 
 <div>
 
 
 > [!TIP]  
-> <span data-ttu-id="84e69-131">단일 번호에 도달 하면 사용자가 회사 번호로 전화를 건 휴대 전화에서 전화를 받습니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-131">With single number reach, a user receives calls on a mobile phone that were dialed to the work number.</span></span> <span data-ttu-id="84e69-132">작업을 통한 통화를 통해 사용자는 휴대 전화 번호 대신 회사 전화 번호를 사용 하 여 Lync 모바일 클라이언트에서 아웃 바운드 통화를 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-132">With Call via Work, the user places an outbound call from the Lync Mobile client by using a work phone number instead of the mobile phone number.</span></span> <span data-ttu-id="84e69-133">전화 걸기를 사용 하면 클라이언트는 Lync Mobile 버전을 기반으로 하는 Mcx 또는 a에 대 한 요청을 보내 해당 사용자에 게 전화를 겁니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-133">With dial-out, the client sends a request to Mcx or UCWA (based on the Lync Mobile version) to make the call for them.</span></span> <span data-ttu-id="84e69-134">서버가 전화를 시작 하 고 휴대폰에서 사용자에 게 다시 전화 합니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-134">The server initiates the call and then calls the user back on the mobile phone.</span></span> <span data-ttu-id="84e69-135">사용자가 응답 하면 서버는 상대방에 게 전화를 걸어 통화를 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-135">When the user answers, the server completes the call by dialing the other party.</span></span> <span data-ttu-id="84e69-136">작업을 통한 통화를 사용 하 여 사용자는 통화 중에 작업 id를 유지할 수 있으며,이는 통화 수신자에 게 발신자의 휴대폰 번호가 표시 되지 않으며 발신자가 아웃 바운드 통화 요금을 방지 한다는 의미입니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-136">By using Call via Work, users can maintain their work identity during a call, which means that the call recipient does not see the caller's mobile number, and the caller avoids incurring outbound calling charges.</span></span>
+> <span data-ttu-id="72e99-131">단일 번호 연결을 사용하는 경우 회사 번호로 걸려온 전화를 휴대폰에서 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-131">With single number reach, a user receives calls on a mobile phone that were dialed to the work number.</span></span> <span data-ttu-id="72e99-132">직장에서 작업을 수행 하는 경우 사용자는 휴대폰 번호 대신 회사 전화 번호를 사용 하 여 Lync 모바일 클라이언트에서 아웃 바운드 호출을 합니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-132">With Call via Work, the user places an outbound call from the Lync Mobile client by using a work phone number instead of the mobile phone number.</span></span> <span data-ttu-id="72e99-133">전화 걸기를 사용 하는 경우 클라이언트는 Lync Mobile 버전을 기반으로 Mcx 또는 WA 인천에 요청을 보내 통화를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-133">With dial-out, the client sends a request to Mcx or UCWA (based on the Lync Mobile version) to make the call for them.</span></span> <span data-ttu-id="72e99-134">그러면 서버에서는 통화를 시작한 다음 사용자의 휴대폰으로 다시 전화를 겁니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-134">The server initiates the call and then calls the user back on the mobile phone.</span></span> <span data-ttu-id="72e99-135">사용자가 전화를 받으면 서버에서 상대방에 전화를 걸어 통화를 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-135">When the user answers, the server completes the call by dialing the other party.</span></span> <span data-ttu-id="72e99-136">회사번호로 전화 기능을 사용하면 통화 중에 회사 번호가 표시되도록 할 수 있으므로 통화 수신자가 발신자의 휴대폰 번호를 볼 수 없으며, 발신자에게 발신 통화 요금이 부과되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-136">By using Call via Work, users can maintain their work identity during a call, which means that the call recipient does not see the caller's mobile number, and the caller avoids incurring outbound calling charges.</span></span>
 
 
 
@@ -99,27 +99,27 @@ ms.locfileid: "41758700"
 
 
 > [!NOTE]  
-> <span data-ttu-id="84e69-137">모든 모바일 장치에서 모든 기능이 정확히 동일 하 게 작동 하는 것은 아닙니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-137">Not all features work exactly the same on all mobile devices.</span></span> <span data-ttu-id="84e69-138">모바일 장치에서 지원 되는 기능에 대 한 자세한 내용은 모바일 클라이언트 비교 표 <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</A>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="84e69-138">For details about features supported on mobile devices, see the Mobile Client Comparison Tables at <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</A>.</span></span> <span data-ttu-id="84e69-139">지원 되는 장치 및 운영 체제에 대 한 자세한 내용은 <A href="lync-server-2013-planning-for-mobile-clients.md">Lync Server 2013의 모바일 클라이언트 계획</A>에서 요구 사항 항목을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="84e69-139">For details about supported devices and operating systems, see the requirements topics under <A href="lync-server-2013-planning-for-mobile-clients.md">Planning for mobile clients in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="72e99-137">모든 기능이 모든 모바일 장치에서 정확히 동일하게 작동하는 것은 아닙니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-137">Not all features work exactly the same on all mobile devices.</span></span> <span data-ttu-id="72e99-138">모바일 장치에서 지원 되는 기능에 대 한 자세한 내용은 모바일 클라이언트 비교 표 <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</A>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="72e99-138">For details about features supported on mobile devices, see the Mobile Client Comparison Tables at <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</A>.</span></span> <span data-ttu-id="72e99-139">지원 되는 장치 및 운영 체제에 대 한 자세한 내용은 <A href="lync-server-2013-planning-for-mobile-clients.md">Lync Server 2013의 모바일 클라이언트 계획</A>에서 요구 사항 항목을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="72e99-139">For details about supported devices and operating systems, see the requirements topics under <A href="lync-server-2013-planning-for-mobile-clients.md">Planning for mobile clients in Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="84e69-140">Lync Server 2013 자동 검색 기능을 사용 하는 경우 모바일 응용 프로그램은 사용자가 수동으로 해당 장치 설정에 Url을 입력할 필요 없이 Lync Server 2013 웹 서비스를 자동으로 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-140">When you use the Lync Server 2013 Autodiscover feature, mobile applications can automatically locate Lync Server 2013 Web Services without requiring users to manually enter the URLs in their device settings.</span></span> <span data-ttu-id="84e69-141">모바일 장치 설정에서 수동으로 Url을 입력 하는 것도 주로 문제 해결을 위해 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-141">Manually entering URLs in mobile device settings is also supported, primarily for troubleshooting purposes.</span></span>
+<span data-ttu-id="72e99-140">Lync Server 2013 자동 검색 기능을 사용할 때 모바일 응용 프로그램은 사용자가 자신의 장치 설정에 Url을 수동으로 입력할 필요 없이 Lync Server 2013 웹 서비스를 자동으로 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-140">When you use the Lync Server 2013 Autodiscover feature, mobile applications can automatically locate Lync Server 2013 Web Services without requiring users to manually enter the URLs in their device settings.</span></span> <span data-ttu-id="72e99-141">그러나 모바일 장치 설정에서 URL을 수동으로 입력할 수도 있으며, 이 기능은 주로 문제 해결을 위해 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-141">Manually entering URLs in mobile device settings is also supported, primarily for troubleshooting purposes.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="84e69-142">Mcx 및 2013 2010/또는 a i h a i a i a h a i a i a i a i a i a i a i a i a i a i a</span><span class="sxs-lookup"><span data-stu-id="84e69-142">The Mcx and UCWA are complimentary services and both are deployed to support Lync 2010 Mobile and Lync 2013 Mobile clients.</span></span> <span data-ttu-id="84e69-143">Lync 2013 Mobile에서 Lync Server 2010 배포에 로그인 할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-143">Lync 2013 Mobile will not be able to sign in to Lync Server 2010 deployments.</span></span> <span data-ttu-id="84e69-144">Lync 2010 모바일 및 Lync 2013 Mobile은 lync server 2013 배포를 사용할 수 있습니다.: 2 월 2013 적용 됨 2013이 업데이트 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-144">Lync 2010 Mobile and Lync 2013 Mobile will be able to use a Lync Server 2013 deployment with the Cumulative Updates for Lync Server 2013: February 2013 applied.</span></span>
+> <span data-ttu-id="72e99-142">Mcx 및 WA는 무료 서비스이 고 둘 다 Lync 2010 모바일 및 Lync 2013 모바일 클라이언트를 지원 하기 위해 배포 됩니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-142">The Mcx and UCWA are complimentary services and both are deployed to support Lync 2010 Mobile and Lync 2013 Mobile clients.</span></span> <span data-ttu-id="72e99-143">Lync 2013 Mobile은 Lync Server 2010 배포에 로그인 할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-143">Lync 2013 Mobile will not be able to sign in to Lync Server 2010 deployments.</span></span> <span data-ttu-id="72e99-144">Lync 2010 모바일 및 Lync 2013 Mobile에서는 lync Server 2013:2 2013 월 적용 된 lync server 2013 배포를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-144">Lync 2010 Mobile and Lync 2013 Mobile will be able to use a Lync Server 2013 deployment with the Cumulative Updates for Lync Server 2013: February 2013 applied.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="84e69-145">또한 모바일 기능은 백그라운드에서 실행 되는 응용 프로그램을 지원 하지 않는 모바일 장치에 대 한 *푸시 알림을* 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-145">The mobility feature also supports *push notifications* for mobile devices that do not support applications running in the background.</span></span> <span data-ttu-id="84e69-146">푸시 알림은 모바일 응용 프로그램이 비활성 상태일 때 발생 하는 이벤트에 대 한 모바일 장치에 전송 되는 알림입니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-146">A push notification is a notification that is sent to a mobile device about an event that occurs while a mobile application is inactive.</span></span> <span data-ttu-id="84e69-147">예를 들어 부재 중 메신저 대화 초대를 통해 푸시 알림을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-147">For example, a missed instant messaging (IM) invitation can result in a push notification.</span></span>
+<span data-ttu-id="72e99-145">모바일 기능에는 또한 백그라운드에서 실행 중인 응용 프로그램을 지원하지 않는 모바일 장치를 위한 *푸시 알림*도 지원됩니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-145">The mobility feature also supports *push notifications* for mobile devices that do not support applications running in the background.</span></span> <span data-ttu-id="72e99-146">푸시 알림은 해당 모바일 응용 프로그램이 비활성 상태일 때 발생한 이벤트에 대해 모바일 장치에 전송되는 알림입니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-146">A push notification is a notification that is sent to a mobile device about an event that occurs while a mobile application is inactive.</span></span> <span data-ttu-id="72e99-147">예를 들어 부재 중 IM (인스턴트 메시징) 초대로 인해 푸시 알림이 생성 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-147">For example, a missed instant messaging (IM) invitation can result in a push notification.</span></span>
 
-<span data-ttu-id="84e69-148">Mcx, 함께, 자동 검색 서비스, 푸시 알림 지원은 Lync Server 2013에서 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-148">Mcx, UCWA, Autodiscover Service, and support for push notifications are provided in Lync Server 2013.</span></span> <span data-ttu-id="84e69-149">모바일 진입점에 대 한 업데이트 된 클라이언트 기능, 기능 및 사용은 Lync Server 2013:2013 2 월에 대 한 누적 업데이트에서 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="84e69-149">Updated client features, capabilities, and the use of UCWA as the mobility entry point are introduced in the Cumulative Updates for Lync Server 2013: February 2013.</span></span>
+<span data-ttu-id="72e99-148">Mcx, COWA, 자동 검색 서비스 및 푸시 알림 지원은 Lync Server 2013에 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-148">Mcx, UCWA, Autodiscover Service, and support for push notifications are provided in Lync Server 2013.</span></span> <span data-ttu-id="72e99-149">업데이트 된 클라이언트 기능, 기능 및 이동성 진입점을 사용 하는 경우 Lync Server 2013:2 월 2013에 대 한 누적 업데이트에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="72e99-149">Updated client features, capabilities, and the use of UCWA as the mobility entry point are introduced in the Cumulative Updates for Lync Server 2013: February 2013.</span></span>
 
 </div>
 

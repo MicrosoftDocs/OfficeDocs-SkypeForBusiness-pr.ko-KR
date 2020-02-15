@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 호출 진단 요약 보고서'
+title: 'Lync Server 2013: 통화 진단 요약 보고서'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0228af8690fe7170fc4fd77e72f67f6cb3adc08c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 112a21dbb131e0bd34729584b8fb58399b192f70
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743038"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044490"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a><span data-ttu-id="b8a97-102">Lync Server 2013의 호출 진단 요약 보고서</span><span class="sxs-lookup"><span data-stu-id="b8a97-102">Call Diagnostic Summary Report in Lync Server 2013</span></span>
+# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a><span data-ttu-id="2554e-102">Lync Server 2013의 통화 진단 요약 보고서</span><span class="sxs-lookup"><span data-stu-id="2554e-102">Call Diagnostic Summary Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,51 +35,51 @@ ms.locfileid: "41743038"
 
 <span> </span>
 
-<span data-ttu-id="b8a97-103">_**마지막으로 수정한 주제:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="b8a97-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="2554e-103">_**마지막으로 수정 된 항목:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="2554e-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="b8a97-104">전화 진단 요약 보고서는 실패 한 피어 투 피어 및 회의 세션의 전반적인 모습을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-104">The Call Diagnostic Summary Report provides an overall look at failed peer-to-peer and conferencing sessions.</span></span> <span data-ttu-id="b8a97-105">이 보고서는 두 유형의 세션에 대 한 전체 오류율을 표시 하 고 오류 정보를 세션 형식으로 아래로 나눕니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-105">The report shows the overall failure rate for both types of sessions, and further breaks the failure information down by session modality type:</span></span>
+<span data-ttu-id="2554e-104">통화 진단 요약 보고서는 실패 한 피어-투-피어 및 회의 세션에 대 한 전체 확인을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-104">The Call Diagnostic Summary Report provides an overall look at failed peer-to-peer and conferencing sessions.</span></span> <span data-ttu-id="2554e-105">이 보고서에는 두 세션 유형의 전체 오류율이 표시 되 고, 오류 정보는 세션 모달 형식에 따라 아래로 나뉩니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-105">The report shows the overall failure rate for both types of sessions, and further breaks the failure information down by session modality type:</span></span>
 
-  - <span data-ttu-id="b8a97-106">인스턴트 메시지</span><span class="sxs-lookup"><span data-stu-id="b8a97-106">Instant messaging</span></span>
+  - <span data-ttu-id="2554e-106">인스턴트 메시징</span><span class="sxs-lookup"><span data-stu-id="2554e-106">Instant messaging</span></span>
 
-  - <span data-ttu-id="b8a97-107">응용 프로그램 공유</span><span class="sxs-lookup"><span data-stu-id="b8a97-107">Application sharing</span></span>
+  - <span data-ttu-id="2554e-107">응용 프로그램 공유</span><span class="sxs-lookup"><span data-stu-id="2554e-107">Application sharing</span></span>
 
-  - <span data-ttu-id="b8a97-108">파일 전송</span><span class="sxs-lookup"><span data-stu-id="b8a97-108">File transfer</span></span>
+  - <span data-ttu-id="2554e-108">파일 전송</span><span class="sxs-lookup"><span data-stu-id="2554e-108">File transfer</span></span>
 
-  - <span data-ttu-id="b8a97-109">오디오</span><span class="sxs-lookup"><span data-stu-id="b8a97-109">Audio</span></span>
+  - <span data-ttu-id="2554e-109">오디오만</span><span class="sxs-lookup"><span data-stu-id="2554e-109">Audio</span></span>
 
-  - <span data-ttu-id="b8a97-110">비디오만</span><span class="sxs-lookup"><span data-stu-id="b8a97-110">Video</span></span>
+  - <span data-ttu-id="2554e-110">비디오</span><span class="sxs-lookup"><span data-stu-id="2554e-110">Video</span></span>
 
 <div>
 
-## <a name="accessing-the-call-diagnostic-summary-report"></a><span data-ttu-id="b8a97-111">전화 진단 요약 보고서에 액세스</span><span class="sxs-lookup"><span data-stu-id="b8a97-111">Accessing the Call Diagnostic Summary Report</span></span>
+## <a name="accessing-the-call-diagnostic-summary-report"></a><span data-ttu-id="2554e-111">통화 진단 요약 보고서 액세스</span><span class="sxs-lookup"><span data-stu-id="2554e-111">Accessing the Call Diagnostic Summary Report</span></span>
 
-<span data-ttu-id="b8a97-112">모니터링 보고서 홈 페이지에서 전화 진단 요약 보고서에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-112">The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home page.</span></span> <span data-ttu-id="b8a97-113">호출 진단 요약 보고서에서 보고서의 피어 투 피어 세션 요약 섹션에서 오류율을 클릭 하 여 [Lync Server 2013에서 피어 투 피어 작업 진단 보고서](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) 에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-113">From the Call Diagnostic Summary Report you can access the [Peer-to-Peer Activity Diagnostic Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) by clicking the Failure rate metric under the Peer-to-Peer Session Summary section of the report.</span></span> <span data-ttu-id="b8a97-114">다음 회의 메트릭 중 하나를 클릭 하 여 [Lync Server 2013에서 전화 회의 진단 보고서](lync-server-2013-conference-diagnostic-report.md) 에 액세스할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-114">You can also access the [Conference Diagnostic Report in Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) by clicking any of the following conference metrics:</span></span>
+<span data-ttu-id="2554e-112">통화 진단 요약 보고서는 모니터링 보고서 홈 페이지에서 액세스 합니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-112">The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home page.</span></span> <span data-ttu-id="2554e-113">통화 진단 요약 보고서에서 보고서의 피어 투 피어 세션 요약 섹션에서 오류율을 클릭 하 여 [Lync Server 2013의 피어 투 피어 활동 진단 보고서](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) 에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-113">From the Call Diagnostic Summary Report you can access the [Peer-to-Peer Activity Diagnostic Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) by clicking the Failure rate metric under the Peer-to-Peer Session Summary section of the report.</span></span> <span data-ttu-id="2554e-114">다음 회의 메트릭 중 하나를 클릭 하 여 [Lync Server 2013의 전화 회의 진단 보고서](lync-server-2013-conference-diagnostic-report.md) 에 액세스할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-114">You can also access the [Conference Diagnostic Report in Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) by clicking any of the following conference metrics:</span></span>
 
-  - <span data-ttu-id="b8a97-115">전체 세션 실패 율</span><span class="sxs-lookup"><span data-stu-id="b8a97-115">Overall session failure rate</span></span>
+  - <span data-ttu-id="2554e-115">전체 세션 실패율</span><span class="sxs-lookup"><span data-stu-id="2554e-115">Overall session failure rate</span></span>
 
-  - <span data-ttu-id="b8a97-116">초점 고장 속도</span><span class="sxs-lookup"><span data-stu-id="b8a97-116">Focus failure rate</span></span>
+  - <span data-ttu-id="2554e-116">회의 센터 실패율</span><span class="sxs-lookup"><span data-stu-id="2554e-116">Focus failure rate</span></span>
 
-  - <span data-ttu-id="b8a97-117">MCU 실패 율</span><span class="sxs-lookup"><span data-stu-id="b8a97-117">MCU failure rate</span></span>
+  - <span data-ttu-id="2554e-117">MCU 실패율</span><span class="sxs-lookup"><span data-stu-id="2554e-117">MCU failure rate</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a><span data-ttu-id="b8a97-118">통화 진단 요약 보고서를 최대한 활용 하기</span><span class="sxs-lookup"><span data-stu-id="b8a97-118">Making the Best Use of the Call Diagnostic Summary Report</span></span>
+## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a><span data-ttu-id="2554e-118">통화 진단 요약 보고서의 효과적인 활용</span><span class="sxs-lookup"><span data-stu-id="2554e-118">Making the Best Use of the Call Diagnostic Summary Report</span></span>
 
-<span data-ttu-id="b8a97-119">전화 진단 요약 보고서에는 Microsoft Lync Server 2013에서 사용 되는 다양 한 형식을의 실패율을 비교 하는 그래프가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-119">The Call Diagnostic Summary Report includes graphs that compare failure rates for the various modalities used in Microsoft Lync Server 2013.</span></span> <span data-ttu-id="b8a97-120">이러한 그래프의 열은 실제로 hotlinks. 예를 들어 피어 투 피어 세션에 대해 인스턴트 메시지 열을 클릭 하면 [Lync Server 2013에서 피어 투 피어 작업 진단 보고서](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)의 인스턴스가 드릴 다운 되며,이는 전화 진단 요약 보고서에 포함 된 모든 인스턴트 메시징 세션에 대 한 추가 세부 정보를 제공 하는 보고서입니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-120">The columns in these graphs are actually hotlinks; for example, if you click the Instant messaging column for peer-to-peer sessions, you'll drill down to an instance of the [Peer-to-Peer Activity Diagnostic Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), a report that provides additional details about all the instant messaging sessions included in the Call Diagnostic Summary Report.</span></span>
+<span data-ttu-id="2554e-119">통화 진단 요약 보고서에는 Microsoft Lync Server 2013에서 사용 되는 다양 한 형식의 실패율을 비교 하는 그래프가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-119">The Call Diagnostic Summary Report includes graphs that compare failure rates for the various modalities used in Microsoft Lync Server 2013.</span></span> <span data-ttu-id="2554e-120">이러한 그래프의 열은 실제로 hotlinks 예를 들어 피어 투 피어 세션에 대 한 인스턴트 메시징 열을 클릭 하면 호출 진단 요약 보고서에 포함 된 모든 인스턴트 메시징 세션에 대 한 추가 정보를 제공 하는 보고서 인 [Lync Server 2013의 피어 투 피어 활동 진단 보고서](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)인스턴스로 드릴 다운 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-120">The columns in these graphs are actually hotlinks; for example, if you click the Instant messaging column for peer-to-peer sessions, you'll drill down to an instance of the [Peer-to-Peer Activity Diagnostic Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), a report that provides additional details about all the instant messaging sessions included in the Call Diagnostic Summary Report.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="b8a97-121">필터가</span><span class="sxs-lookup"><span data-stu-id="b8a97-121">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="2554e-121">필터</span><span class="sxs-lookup"><span data-stu-id="2554e-121">Filters</span></span>
 
-<span data-ttu-id="b8a97-122">필터를 통해 더욱 세밀 하 게 대상 지정 된 데이터 집합을 반환 하거나 반환 된 데이터를 다양 한 방식으로 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-122">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="b8a97-123">예를 들어 통화 진단 요약 보고서를 사용 하 여 세션에 사용 되는 등록자 풀이나 Edge 서버와 같은 작업을 필터링 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-123">For example, the Call Diagnostic Summary Report enables you to filter on such things as the Registrar pool or Edge Server used in the session.</span></span> <span data-ttu-id="b8a97-124">데이터 그룹화 방법을 선택할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-124">You can also choose how data should be grouped.</span></span> <span data-ttu-id="b8a97-125">이 경우 통화는 시, 일, 주 또는 월로 그룹화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-125">In this case, calls are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="2554e-122">필터를 사용하면 여러 방식으로 반환된 데이터를 보거나 보다 세부적으로 대상화된 데이터 집합을 반환할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-122">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="2554e-123">예를 들어 통화 진단 요약 보고서를 사용 하면 세션에서 사용 되는 등록자 풀 또는에 지 서버와 같은 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-123">For example, the Call Diagnostic Summary Report enables you to filter on such things as the Registrar pool or Edge Server used in the session.</span></span> <span data-ttu-id="2554e-124">또한 데이터의 그룹 지정 방식도 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-124">You can also choose how data should be grouped.</span></span> <span data-ttu-id="2554e-125">이 경우 통화는 시간, 일, 주 및 월별로 그룹이 지정됩니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-125">In this case, calls are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="b8a97-126">다음 표에는 호출 진단 요약 보고서와 함께 사용할 수 있는 필터가 나열 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-126">The following table lists the filters that you can use with the Call Diagnostic Summary Report.</span></span>
+<span data-ttu-id="2554e-126">다음 표에서는 통화 진단 요약 보고서에서 사용할 수 있는 필터를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-126">The following table lists the filters that you can use with the Call Diagnostic Summary Report.</span></span>
 
-### <a name="call-diagnostic-summary-report-filters"></a><span data-ttu-id="b8a97-127">전화 진단 요약 보고서 필터</span><span class="sxs-lookup"><span data-stu-id="b8a97-127">Call Diagnostic Summary Report Filters</span></span>
+### <a name="call-diagnostic-summary-report-filters"></a><span data-ttu-id="2554e-127">통화 진단 요약 보고서 필터</span><span class="sxs-lookup"><span data-stu-id="2554e-127">Call Diagnostic Summary Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -88,45 +88,45 @@ ms.locfileid: "41743038"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b8a97-128">이름</span><span class="sxs-lookup"><span data-stu-id="b8a97-128">Name</span></span></th>
-<th><span data-ttu-id="b8a97-129">설명</span><span class="sxs-lookup"><span data-stu-id="b8a97-129">Description</span></span></th>
+<th><span data-ttu-id="2554e-128">이름</span><span class="sxs-lookup"><span data-stu-id="2554e-128">Name</span></span></th>
+<th><span data-ttu-id="2554e-129">설명</span><span class="sxs-lookup"><span data-stu-id="2554e-129">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b8a97-130"><strong>보낸 사람</strong></span><span class="sxs-lookup"><span data-stu-id="b8a97-130"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="b8a97-131">시간 범위의 시작 날짜/시간입니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-131">Start date/time for the time range.</span></span> <span data-ttu-id="b8a97-132">시간별로 데이터를 보려면 시작 날짜와 시간을 모두 다음과 같이 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-132">To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="b8a97-133">오후 7/7/2012 1:00</span><span class="sxs-lookup"><span data-stu-id="b8a97-133">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="b8a97-134">시작 시간을 입력 하지 않으면 지정한 날짜에 오전 12:00부터 보고서가 자동으로 시작 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-134">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day.</span></span> <span data-ttu-id="b8a97-135">날짜별로 데이터를 보려면 날짜만 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-135">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="b8a97-136">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="b8a97-136">7/7/2012</span></span></p>
-<p><span data-ttu-id="b8a97-137">주별 또는 월별로 보려면 보려는 주 또는 월의 어디에 나 날짜를 입력 합니다 (주 또는 월의 첫 번째 요일을 입력할 필요는 없음).</span><span class="sxs-lookup"><span data-stu-id="b8a97-137">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="b8a97-138">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="b8a97-138">7/3/2012</span></span></p>
-<p><span data-ttu-id="b8a97-139">주는 항상 일요일 ~ 토요일을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-139">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="2554e-130"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="2554e-130"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="2554e-p105">시간 범위의 시작 날짜/시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜 및 시간을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-p105">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="2554e-133">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="2554e-133">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="2554e-p106">시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-p106">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="2554e-136">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="2554e-136">7/7/2012</span></span></p>
+<p><span data-ttu-id="2554e-137">주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-137">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="2554e-138">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="2554e-138">7/3/2012</span></span></p>
+<p><span data-ttu-id="2554e-139">주는 항상 일요일부터 토요일까지입니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-139">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8a97-140"><strong>받는 사람</strong></span><span class="sxs-lookup"><span data-stu-id="b8a97-140"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="b8a97-141">시간 범위의 종료 날짜/시간입니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-141">End date/time for the time range.</span></span> <span data-ttu-id="b8a97-142">시간별로 데이터를 보려면 다음과 같이 종료 날짜와 시간을 모두 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-142">To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="b8a97-143">오후 7/7/2012 1:00</span><span class="sxs-lookup"><span data-stu-id="b8a97-143">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="b8a97-144">종료 시간을 입력 하지 않으면 지정한 날짜에 12:00 오전에 보고서가 자동으로 종료 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-144">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day.</span></span> <span data-ttu-id="b8a97-145">날짜별로 데이터를 보려면 날짜만 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-145">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="b8a97-146">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="b8a97-146">7/7/2012</span></span></p>
-<p><span data-ttu-id="b8a97-147">주별 또는 월별로 보려면 보려는 주 또는 월의 어디에 나 날짜를 입력 합니다 (주 또는 월의 첫 번째 요일을 입력할 필요는 없음).</span><span class="sxs-lookup"><span data-stu-id="b8a97-147">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="b8a97-148">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="b8a97-148">7/3/2012</span></span></p>
-<p><span data-ttu-id="b8a97-149">주는 항상 일요일 ~ 토요일을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-149">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="2554e-140"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="2554e-140"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="2554e-p107">시간 범위의 종료 날짜/시간입니다. 시간별 데이터를 보려면 다음과 같이 종료 날짜 및 시간을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-p107">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="2554e-143">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="2554e-143">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="2554e-p108">종료 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시에 종료됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-p108">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="2554e-146">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="2554e-146">7/7/2012</span></span></p>
+<p><span data-ttu-id="2554e-147">주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-147">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="2554e-148">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="2554e-148">7/3/2012</span></span></p>
+<p><span data-ttu-id="2554e-149">주는 항상 일요일부터 토요일까지로 실행됩니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-149">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b8a97-150"><strong>간격만</strong></span><span class="sxs-lookup"><span data-stu-id="b8a97-150"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="b8a97-151">시간 간격.</span><span class="sxs-lookup"><span data-stu-id="b8a97-151">Time interval.</span></span> <span data-ttu-id="b8a97-152">다음 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-152">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="2554e-150"><strong>간격당</strong></span><span class="sxs-lookup"><span data-stu-id="2554e-150"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="2554e-p109">시간 간격입니다. 다음 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-p109">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="b8a97-153">매시간 (최대 25 시간 표시할 수 있음)</span><span class="sxs-lookup"><span data-stu-id="b8a97-153">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="b8a97-154">매일 (최대 31 일이 표시 될 수 있음)</span><span class="sxs-lookup"><span data-stu-id="b8a97-154">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="b8a97-155">주간 (최대 12 주를 표시할 수 있음)</span><span class="sxs-lookup"><span data-stu-id="b8a97-155">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="b8a97-156">월간 (최대 12 개월을 표시할 수 있음)</span><span class="sxs-lookup"><span data-stu-id="b8a97-156">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="2554e-153">시간별(최대 25시간 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="2554e-153">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="2554e-154">일별(최대 31일 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="2554e-154">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="2554e-155">주별(최대 12주 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="2554e-155">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="2554e-156">월별(최대 12개월 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="2554e-156">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="b8a97-157">시작 및 끝 날짜가 선택한 기간에 허용 되는 최대 값을 초과 하는 경우에는 시작 날짜부터 시작 하 여 최대 값만 표시할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-157">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed.</span></span> <span data-ttu-id="b8a97-158">예를 들어 시작 날짜가 7/7/2012이 고 종료 날짜가 2/28/2012 인 일일 간격을 선택 하는 경우에는 8/7/2012 12:00 AM ~ 9/7/2012 12:00 AM (즉, 총 31 일 "의 데이터)에 대 한 데이터가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-158">For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="2554e-p110">시작 및 종료 날짜가 선택한 간격에 허용되는 최대 값 수를 초과하면 시작 날짜로부터 최대 값 수만 표시됩니다. 예를 들어 일별 간격을 선택하는 경우 시작 날짜가 2012/8/7이고 종료 날짜가 2012/9/28이면 2012/8/7 오전 12:00부터 2012/9/7 오전 12:00까지 총 31일의 데이터만 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-p110">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8a97-159"><strong>풀</strong></span><span class="sxs-lookup"><span data-stu-id="b8a97-159"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="b8a97-160">등록자 풀 또는 Edge 서버의 FQDN (정규화 된 도메인 이름)입니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-160">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server.</span></span> <span data-ttu-id="b8a97-161">개별 풀을 선택 하거나 <strong>[모두]</strong> 를 클릭 하 여 모든 풀에 대 한 데이터를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-161">You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools.</span></span> <span data-ttu-id="b8a97-162">이 드롭다운 목록은 데이터베이스의 레코드에 따라 자동으로 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-162">This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="2554e-159"><strong>그룹</strong></span><span class="sxs-lookup"><span data-stu-id="2554e-159"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="2554e-p111">등록자 풀 또는 에지 서버의 FQDN(정규화된 도메인 이름)입니다. 개별 풀을 선택하거나 <strong>[모두]</strong>를 클릭하여 모든 풀에 대한 데이터를 봅니다. 이 드롭다운 목록은 데이터베이스의 레코드에 따라 자동으로 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-p111">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -136,11 +136,11 @@ ms.locfileid: "41743038"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="b8a97-163">피어 투 피어 세션에 대 한 메트릭</span><span class="sxs-lookup"><span data-stu-id="b8a97-163">Metrics for Peer-to-Peer Sessions</span></span>
+## <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="2554e-163">피어 투 피어 세션에 대 한 메트릭</span><span class="sxs-lookup"><span data-stu-id="2554e-163">Metrics for Peer-to-Peer Sessions</span></span>
 
-<span data-ttu-id="b8a97-164">다음 표에는 피어 투 피어 세션 (즉, 두 명의 참가자만 참여 하는 세션)에 대 한 호출 진단 요약 보고서에 제공 되는 정보가 나열 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-164">The following table lists the information provided in the Call Diagnostic Summary Report for peer-to-peer sessions (that is, sessions involving just two participants).</span></span>
+<span data-ttu-id="2554e-164">다음 표에서는 피어 투 피어 세션 (즉, 참가자가 두 개만 포함 되는 세션)에 대해 통화 진단 요약 보고서에 제공 되는 정보를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-164">The following table lists the information provided in the Call Diagnostic Summary Report for peer-to-peer sessions (that is, sessions involving just two participants).</span></span>
 
-### <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="b8a97-165">피어 투 피어 세션에 대 한 메트릭</span><span class="sxs-lookup"><span data-stu-id="b8a97-165">Metrics for Peer-to-Peer Sessions</span></span>
+### <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="2554e-165">피어 투 피어 세션에 대 한 메트릭</span><span class="sxs-lookup"><span data-stu-id="2554e-165">Metrics for Peer-to-Peer Sessions</span></span>
 
 <table>
 <colgroup>
@@ -150,21 +150,21 @@ ms.locfileid: "41743038"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b8a97-166">이름</span><span class="sxs-lookup"><span data-stu-id="b8a97-166">Name</span></span></th>
-<th><span data-ttu-id="b8a97-167">이 항목을 정렬할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="b8a97-167">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="b8a97-168">설명</span><span class="sxs-lookup"><span data-stu-id="b8a97-168">Description</span></span></th>
+<th><span data-ttu-id="2554e-166">이름</span><span class="sxs-lookup"><span data-stu-id="2554e-166">Name</span></span></th>
+<th><span data-ttu-id="2554e-167">이 항목에 대한 정렬 가능 여부</span><span class="sxs-lookup"><span data-stu-id="2554e-167">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="2554e-168">설명</span><span class="sxs-lookup"><span data-stu-id="2554e-168">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b8a97-169"><strong>총 세션</strong></span><span class="sxs-lookup"><span data-stu-id="b8a97-169"><strong>Total sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="b8a97-170">아니요</span><span class="sxs-lookup"><span data-stu-id="b8a97-170">No</span></span></p></td>
-<td><p><span data-ttu-id="b8a97-171">수행 된 피어 투 피어 세션의 총 수입니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-171">Total number of peer-to-peer sessions conducted.</span></span></p></td>
+<td><p><span data-ttu-id="2554e-169"><strong>총 세션</strong></span><span class="sxs-lookup"><span data-stu-id="2554e-169"><strong>Total sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="2554e-170">아니요</span><span class="sxs-lookup"><span data-stu-id="2554e-170">No</span></span></p></td>
+<td><p><span data-ttu-id="2554e-171">수행 된 총 피어 투 피어 세션 수입니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-171">Total number of peer-to-peer sessions conducted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8a97-172"><strong>실패 율</strong></span><span class="sxs-lookup"><span data-stu-id="b8a97-172"><strong>Failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="b8a97-173">아니요</span><span class="sxs-lookup"><span data-stu-id="b8a97-173">No</span></span></p></td>
-<td><p><span data-ttu-id="b8a97-174">실패 한 피어 투 피어 세션의 백분율입니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-174">Percentage of peer-to-peer sessions that failed.</span></span> <span data-ttu-id="b8a97-175">이 항목을 클릭 하면 실패 한 피어 투 피어 세션에 대 한 자세한 정보를 표시 하는 피어 투 피어 작업 진단 보고서가 보고서에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-175">When you click this item, the report shows the Peer-to-Peer Activity Diagnostic report, which displays more detailed information about the failed peer-to-peer sessions.</span></span></p></td>
+<td><p><span data-ttu-id="2554e-172"><strong>실패율</strong></span><span class="sxs-lookup"><span data-stu-id="2554e-172"><strong>Failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="2554e-173">아니요</span><span class="sxs-lookup"><span data-stu-id="2554e-173">No</span></span></p></td>
+<td><p><span data-ttu-id="2554e-174">실패한 피어 투 피어 세션의 비율입니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-174">Percentage of peer-to-peer sessions that failed.</span></span> <span data-ttu-id="2554e-175">이 항목을 클릭 하면 보고서에 실패 한 피어 투 피어 세션에 대 한 자세한 정보가 표시 되는 피어 투 피어 활동 진단 보고서가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-175">When you click this item, the report shows the Peer-to-Peer Activity Diagnostic report, which displays more detailed information about the failed peer-to-peer sessions.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -174,11 +174,11 @@ ms.locfileid: "41743038"
 
 <div>
 
-## <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="b8a97-176">회의 세션에 대 한 메트릭</span><span class="sxs-lookup"><span data-stu-id="b8a97-176">Metrics for Conferencing Sessions</span></span>
+## <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="2554e-176">회의 세션에 대 한 메트릭</span><span class="sxs-lookup"><span data-stu-id="2554e-176">Metrics for Conferencing Sessions</span></span>
 
-<span data-ttu-id="b8a97-177">다음 표에는 회의 세션 (즉, 세 명 이상의 참가자와 관련 된 세션)에 대 한 호출 진단 보고서에서 제공 하는 정보가 나열 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-177">The following table lists the information provided in the Call Diagnostic Report for conferencing sessions (that is, sessions involving three or more participants).</span></span>
+<span data-ttu-id="2554e-177">다음 표에서는 회의 세션 (즉, 참가자가 세 명 이상인 세션)에 대해 통화 진단 보고서에 제공 되는 정보를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-177">The following table lists the information provided in the Call Diagnostic Report for conferencing sessions (that is, sessions involving three or more participants).</span></span>
 
-### <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="b8a97-178">회의 세션에 대 한 메트릭</span><span class="sxs-lookup"><span data-stu-id="b8a97-178">Metrics for Conferencing Sessions</span></span>
+### <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="2554e-178">회의 세션에 대 한 메트릭</span><span class="sxs-lookup"><span data-stu-id="2554e-178">Metrics for Conferencing Sessions</span></span>
 
 <table>
 <colgroup>
@@ -188,46 +188,46 @@ ms.locfileid: "41743038"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b8a97-179">이름</span><span class="sxs-lookup"><span data-stu-id="b8a97-179">Name</span></span></th>
-<th><span data-ttu-id="b8a97-180">이 항목을 정렬할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="b8a97-180">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="b8a97-181">설명</span><span class="sxs-lookup"><span data-stu-id="b8a97-181">Description</span></span></th>
+<th><span data-ttu-id="2554e-179">이름</span><span class="sxs-lookup"><span data-stu-id="2554e-179">Name</span></span></th>
+<th><span data-ttu-id="2554e-180">이 항목에 대한 정렬 가능 여부</span><span class="sxs-lookup"><span data-stu-id="2554e-180">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="2554e-181">설명</span><span class="sxs-lookup"><span data-stu-id="2554e-181">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b8a97-182"><strong>총 컨퍼런스</strong></span><span class="sxs-lookup"><span data-stu-id="b8a97-182"><strong>Total conferences</strong></span></span></p></td>
-<td><p><span data-ttu-id="b8a97-183">아니요</span><span class="sxs-lookup"><span data-stu-id="b8a97-183">No</span></span></p></td>
-<td><p><span data-ttu-id="b8a97-184">수행 된 총 컨퍼런스 수입니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-184">Total number of conferences conducted.</span></span></p></td>
+<td><p><span data-ttu-id="2554e-182"><strong>총 전화 회의</strong></span><span class="sxs-lookup"><span data-stu-id="2554e-182"><strong>Total conferences</strong></span></span></p></td>
+<td><p><span data-ttu-id="2554e-183">아니요</span><span class="sxs-lookup"><span data-stu-id="2554e-183">No</span></span></p></td>
+<td><p><span data-ttu-id="2554e-184">수행 된 총 전화 회의 수입니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-184">Total number of conferences conducted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8a97-185"><strong>총 회의 세션</strong></span><span class="sxs-lookup"><span data-stu-id="b8a97-185"><strong>Total conference sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="b8a97-186">아니요</span><span class="sxs-lookup"><span data-stu-id="b8a97-186">No</span></span></p></td>
-<td><p><span data-ttu-id="b8a97-187">수행 된 총 회의 세션 수입니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-187">Total number of conferencing sessions conducted.</span></span></p></td>
+<td><p><span data-ttu-id="2554e-185"><strong>총 전화 회의 세션</strong></span><span class="sxs-lookup"><span data-stu-id="2554e-185"><strong>Total conference sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="2554e-186">아니요</span><span class="sxs-lookup"><span data-stu-id="2554e-186">No</span></span></p></td>
+<td><p><span data-ttu-id="2554e-187">수행 된 총 회의 세션 수입니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-187">Total number of conferencing sessions conducted.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b8a97-188"><strong>전체 세션 실패 율</strong></span><span class="sxs-lookup"><span data-stu-id="b8a97-188"><strong>Overall session failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="b8a97-189">아니요</span><span class="sxs-lookup"><span data-stu-id="b8a97-189">No</span></span></p></td>
-<td><p><span data-ttu-id="b8a97-190">실패 한 총 회의 세션의 백분율입니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-190">Percentage of the total conferencing sessions that failed.</span></span></p></td>
+<td><p><span data-ttu-id="2554e-188"><strong>전체 세션 실패율</strong></span><span class="sxs-lookup"><span data-stu-id="2554e-188"><strong>Overall session failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="2554e-189">아니요</span><span class="sxs-lookup"><span data-stu-id="2554e-189">No</span></span></p></td>
+<td><p><span data-ttu-id="2554e-190">실패 한 총 회의 세션의 비율입니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-190">Percentage of the total conferencing sessions that failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8a97-191"><strong>포커스 세션</strong></span><span class="sxs-lookup"><span data-stu-id="b8a97-191"><strong>Focus sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="b8a97-192">아니요</span><span class="sxs-lookup"><span data-stu-id="b8a97-192">No</span></span></p></td>
-<td><p><span data-ttu-id="b8a97-193">실패 한 포커스 기반 회의 세션의 총 수입니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-193">Total number of Focus-based conferencing sessions that failed.</span></span></p></td>
+<td><p><span data-ttu-id="2554e-191"><strong>회의 센터 세션</strong></span><span class="sxs-lookup"><span data-stu-id="2554e-191"><strong>Focus sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="2554e-192">아니요</span><span class="sxs-lookup"><span data-stu-id="2554e-192">No</span></span></p></td>
+<td><p><span data-ttu-id="2554e-193">실패 한 총 포커스 기반 전화 회의 세션 수입니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-193">Total number of Focus-based conferencing sessions that failed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b8a97-194"><strong>초점 고장 속도</strong></span><span class="sxs-lookup"><span data-stu-id="b8a97-194"><strong>Focus failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="b8a97-195">아니요</span><span class="sxs-lookup"><span data-stu-id="b8a97-195">No</span></span></p></td>
-<td><p><span data-ttu-id="b8a97-196">실패 한 포커스 기반 회의 세션의 백분율입니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-196">Percentage of the Focus-based conferencing sessions that failed.</span></span></p></td>
+<td><p><span data-ttu-id="2554e-194"><strong>회의 센터 실패율</strong></span><span class="sxs-lookup"><span data-stu-id="2554e-194"><strong>Focus failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="2554e-195">아니요</span><span class="sxs-lookup"><span data-stu-id="2554e-195">No</span></span></p></td>
+<td><p><span data-ttu-id="2554e-196">실패 한 집중 (Focus) 기반 회의 세션의 비율입니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-196">Percentage of the Focus-based conferencing sessions that failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8a97-197"><strong>MCU 세션</strong></span><span class="sxs-lookup"><span data-stu-id="b8a97-197"><strong>MCU sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="b8a97-198">아니요</span><span class="sxs-lookup"><span data-stu-id="b8a97-198">No</span></span></p></td>
-<td><p><span data-ttu-id="b8a97-199">실패 한 총 회의 서버 기반 (이전의 Multipoint 컨트롤 단위 또는 MCU) 회의 수입니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-199">Total number of conferencing server-based (formerly known as Multipoint Control Unit or MCU) conferences that failed.</span></span></p></td>
+<td><p><span data-ttu-id="2554e-197"><strong>MCU 세션</strong></span><span class="sxs-lookup"><span data-stu-id="2554e-197"><strong>MCU sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="2554e-198">아니요</span><span class="sxs-lookup"><span data-stu-id="2554e-198">No</span></span></p></td>
+<td><p><span data-ttu-id="2554e-199">실패 한 총 회의 서버 기반 (이전의 Multipoint 컨트롤 단위 또는 MCU) 전화 회의 수입니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-199">Total number of conferencing server-based (formerly known as Multipoint Control Unit or MCU) conferences that failed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b8a97-200"><strong>MCU 실패 율</strong></span><span class="sxs-lookup"><span data-stu-id="b8a97-200"><strong>MCU failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="b8a97-201">아니요</span><span class="sxs-lookup"><span data-stu-id="b8a97-201">No</span></span></p></td>
-<td><p><span data-ttu-id="b8a97-202">장애가 있는 회의 서버 기반 (이전의 Multipoint 컨트롤 단위 또는 MCU) 회의의 백분율입니다.</span><span class="sxs-lookup"><span data-stu-id="b8a97-202">Percentage of the conferencing server-based (formerly known as Multipoint Control Unit or MCU) conferences that failed.</span></span></p></td>
+<td><p><span data-ttu-id="2554e-200"><strong>MCU 실패율</strong></span><span class="sxs-lookup"><span data-stu-id="2554e-200"><strong>MCU failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="2554e-201">아니요</span><span class="sxs-lookup"><span data-stu-id="2554e-201">No</span></span></p></td>
+<td><p><span data-ttu-id="2554e-202">실패 한 회의 서버 기반 (이전의 Multipoint Control Unit 또는 MCU) 회의의 비율입니다.</span><span class="sxs-lookup"><span data-stu-id="2554e-202">Percentage of the conferencing server-based (formerly known as Multipoint Control Unit or MCU) conferences that failed.</span></span></p></td>
 </tr>
 </tbody>
 </table>

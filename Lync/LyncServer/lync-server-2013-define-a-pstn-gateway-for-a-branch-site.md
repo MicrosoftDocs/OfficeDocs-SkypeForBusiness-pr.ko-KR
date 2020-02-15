@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 분기 사이트에 대한 PSTN 게이트웨이 정의'
+title: 'Lync Server 2013: 분기 사이트에 대 한 PSTN 게이트웨이 정의'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4445647e6ffcbfc2cfc137bd120d0aced6a9908
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ae74ead7eb481a6551156fc0ce228c743fdf1b6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728528"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="define-a-pstn-gateway-for-a-branch-site-in-lync-server-2013"></a><span data-ttu-id="a0c54-102">Lync Server 2013에서 분기 사이트에 대한 PSTN 게이트웨이 정의</span><span class="sxs-lookup"><span data-stu-id="a0c54-102">Define a PSTN gateway for a branch site in Lync Server 2013</span></span>
+# <a name="define-a-pstn-gateway-for-a-branch-site-in-lync-server-2013"></a><span data-ttu-id="128c1-102">Lync Server 2013에서 분기 사이트에 대 한 PSTN 게이트웨이 정의</span><span class="sxs-lookup"><span data-stu-id="128c1-102">Define a PSTN gateway for a branch site in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,20 +35,20 @@ ms.locfileid: "41728528"
 
 <span> </span>
 
-<span data-ttu-id="a0c54-103">_**마지막으로 수정한 주제:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="a0c54-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="128c1-103">_**마지막으로 수정 된 항목:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="128c1-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="a0c54-104">하나 이상의 프런트 엔드 풀 또는 Standard Edition 서버가 포함 된 중앙 사이트에서이 절차를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="a0c54-104">Perform this procedure at the central site, which contains at least one Front End pool or Standard Edition server.</span></span>
+<span data-ttu-id="128c1-104">하나 이상의 프런트 엔드 풀 또는 Standard Edition server를 포함 하는 중앙 사이트에서이 절차를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="128c1-104">Perform this procedure at the central site, which contains at least one Front End pool or Standard Edition server.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="a0c54-105">절차를 수행 하기 전에 다음 조건이 충족 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a0c54-105">Before you perform the procedure, the following conditions must be in place:</span></span> 
+> <span data-ttu-id="128c1-105">절차를 수행하기 전에 다음 조건을 충족해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="128c1-105">Before you perform the procedure, the following conditions must be in place:</span></span> 
 > <UL>
 > <LI>
-> <P><span data-ttu-id="a0c54-106">Lync Server 2013&nbsp;통신 소프트웨어는 중앙 사이트에 설정 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a0c54-106">Lync Server 2013&nbsp;communications software must be set up at the central site.</span></span></P>
+> <P><span data-ttu-id="128c1-106">Lync Server 2013&nbsp;통신 소프트웨어는 중앙 사이트에서 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="128c1-106">Lync Server 2013&nbsp;communications software must be set up at the central site.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="a0c54-107">중재 서버는 중앙 사이트에 배포 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a0c54-107">Mediation Server must be deployed at the central site.</span></span></P></LI></UL>
+> <P><span data-ttu-id="128c1-107">중재 서버를 중앙 사이트에 배포 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="128c1-107">Mediation Server must be deployed at the central site.</span></span></P></LI></UL>
 
 
 
@@ -56,25 +56,25 @@ ms.locfileid: "41728528"
 
 <div>
 
-## <a name="to-define-a-pstn-gateway"></a><span data-ttu-id="a0c54-108">PSTN 게이트웨이를 정의 하려면</span><span class="sxs-lookup"><span data-stu-id="a0c54-108">To define a PSTN gateway</span></span>
+## <a name="to-define-a-pstn-gateway"></a><span data-ttu-id="128c1-108">PSTN 게이트웨이를 정의하려면</span><span class="sxs-lookup"><span data-stu-id="128c1-108">To define a PSTN gateway</span></span>
 
-1.  <span data-ttu-id="a0c54-109">**시작**을 클릭 하 고 **모든 프로그램**, **Microsoft Lync server**를 차례로 클릭 한 다음 **Lync server 토폴로지 작성기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a0c54-109">Click **Start**, click **All Programs**, click **Microsoft Lync Server**, and then click **Lync Server Topology Builder**.</span></span>
+1.  <span data-ttu-id="128c1-109">**시작**, **모든 프로그램**, **Microsoft Lync Server**를 차례로 클릭한 다음 **Lync Server 토폴로지 작성기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="128c1-109">Click **Start**, click **All Programs**, click **Microsoft Lync Server**, and then click **Lync Server Topology Builder**.</span></span>
 
-2.  <span data-ttu-id="a0c54-110">콘솔 트리에서 중앙 사이트를 확장 하 고, **지점**사이트를 확장 하 고, 다음에 대 한 PSTN (공용 전환 전화 네트워크) 게이트웨이를 정의 하려는 지점 사이트의 이름을 확장 한 다음 **공유 구성 요소**를 확장 합니다.</span><span class="sxs-lookup"><span data-stu-id="a0c54-110">In the console tree, expand the central site, expand **Branch Office Sites**, expand name of the branch site that you want to define a public switched telephone network (PSTN) gateway for, and then expand **Shared Components**.</span></span>
+2.  <span data-ttu-id="128c1-110">콘솔 트리에서 중앙 사이트, **지점 사이트**를 차례로 확장한 다음 PSTN(공중 전화망) 게이트웨이를 정의할 분기 사이트의 이름을 확장한 후 **공유 구성 요소**를 확장합니다.</span><span class="sxs-lookup"><span data-stu-id="128c1-110">In the console tree, expand the central site, expand **Branch Office Sites**, expand name of the branch site that you want to define a public switched telephone network (PSTN) gateway for, and then expand **Shared Components**.</span></span>
 
-3.  <span data-ttu-id="a0c54-111">**PSTN 게이트웨이**를 마우스 오른쪽 단추로 클릭 한 다음 **새 IP/PSTN 게이트웨이**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a0c54-111">Right-click **PSTN gateways**, and then click **New IP/PSTN Gateway**.</span></span>
+3.  <span data-ttu-id="128c1-111">**PSTN 게이트웨이**를 마우스 오른쪽 단추로 클릭한 다음 **새 IP/PSTN 게이트웨이**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="128c1-111">Right-click **PSTN gateways**, and then click **New IP/PSTN Gateway**.</span></span>
 
-4.  <span data-ttu-id="a0c54-112">**새 IP/PSTN 게이트웨이 정의** 대화 상자에서 **게이트웨이 Fqdn 또는 IP 주소**를 클릭 한 다음 지점 사이트에서 배포 하려는 게이트웨이의 FQDN (정규화 된 도메인 이름) 또는 ip 주소를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="a0c54-112">In the **Define New IP/PSTN Gateway** dialog box, click **Gateway FQDN or IP Address**, and then type the fully qualified domain name (FQDN) or IP address of the gateway that you are deploying at the branch site.</span></span>
+4.  <span data-ttu-id="128c1-112">**새 IP/PSTN 게이트웨이 정의** 대화 상자에서 **게이트웨이 FQDN 또는 IP 주소**를 클릭한 다음 분기 사이트에 배포할 게이트웨이의 FQDN(정규화된 도메인 이름) 또는 IP 주소를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="128c1-112">In the **Define New IP/PSTN Gateway** dialog box, click **Gateway FQDN or IP Address**, and then type the fully qualified domain name (FQDN) or IP address of the gateway that you are deploying at the branch site.</span></span>
 
-5.  <span data-ttu-id="a0c54-113">**IP/PSTN 게이트웨이의 수신 대기 포트**를 클릭 한 다음 기본값을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="a0c54-113">Click **Listening Port for IP/PSTN Gateway**, and then accept the default values.</span></span>
+5.  <span data-ttu-id="128c1-113">**IP/PSTN 게이트웨이용 수신 대기 포트**를 클릭한 다음 기본값을 수락합니다.</span><span class="sxs-lookup"><span data-stu-id="128c1-113">Click **Listening Port for IP/PSTN Gateway**, and then accept the default values.</span></span>
 
-6.  <span data-ttu-id="a0c54-114">**SIP 전송 프로토콜** 목록에서 게이트웨이에서 사용 하는 전송 프로토콜을 클릭 한 다음 **확인**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a0c54-114">In the **SIP Transport Protocol** list, click the transport protocol the gateway uses, and then click **OK**.</span></span>
+6.  <span data-ttu-id="128c1-114">**SIP 전송 프로토콜** 목록에서 게이트웨이가 사용하는 전송 프로토콜을 클릭한 다음 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="128c1-114">In the **SIP Transport Protocol** list, click the transport protocol the gateway uses, and then click **OK**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="a0c54-115">보안상의 이유로 TLS (전송 계층 보안)를 지 원하는 PSTN 게이트웨이를 사용 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="a0c54-115">For security reasons, we strongly recommend that you use a PSTN gateway that supports Transport Layer Security (TLS).</span></span>
+    > <span data-ttu-id="128c1-115">보안을 위해 TLS(전송 계층 보안)를 지원하는 PSTN 게이트웨이를 사용하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="128c1-115">For security reasons, we strongly recommend that you use a PSTN gateway that supports Transport Layer Security (TLS).</span></span>
 
     
     </div>
@@ -83,22 +83,22 @@ ms.locfileid: "41728528"
 
 
 > [!TIP]  
-> <span data-ttu-id="a0c54-116">이 <STRONG>(가) Cmdlet 집합-CsPstnGateway</STRONG> 를 사용 하 여 PSTN 게이트웨이의 속성을 수정 합니다.</span><span class="sxs-lookup"><span data-stu-id="a0c54-116">Use the cmdlet <STRONG>Set-CsPstnGateway</STRONG> to modify properties of a PSTN gateway.</span></span> <span data-ttu-id="a0c54-117">자세한 내용은 Lync Server 관리 셸 도움말에서 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</A>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a0c54-117">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</A>, in the Lync Server Management Shell Help.</span></span>
+> <span data-ttu-id="128c1-116">PSTN 게이트웨이의 속성을 수정하려면 <STRONG>Set-CsPstnGateway</STRONG> cmdlet을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="128c1-116">Use the cmdlet <STRONG>Set-CsPstnGateway</STRONG> to modify properties of a PSTN gateway.</span></span> <span data-ttu-id="128c1-117">자세한 내용은 Lync Server 관리 셸 도움말에서 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsPstnGateway">설정-CsPstnGateway</A>를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="128c1-117">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</A>, in the Lync Server Management Shell Help.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="a0c54-118">지점 사이트 복원에 대 한 **다음 단계** : [Lync Server 2013에서 지점 사이트 복원에 대 한 사용자 구성](lync-server-2013-configuring-users-for-branch-site-resiliency.md)</span><span class="sxs-lookup"><span data-stu-id="a0c54-118">**Next step** for branch-site resiliency: [Configuring users for branch site resiliency in Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)</span></span>
+<span data-ttu-id="128c1-118">분기 사이트 복구의 **다음 단계** : [Lync Server 2013에서 분기 사이트 복구를 위한 사용자 구성](lync-server-2013-configuring-users-for-branch-site-resiliency.md)</span><span class="sxs-lookup"><span data-stu-id="128c1-118">**Next step** for branch-site resiliency: [Configuring users for branch site resiliency in Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a0c54-119">참고 항목</span><span class="sxs-lookup"><span data-stu-id="a0c54-119">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="128c1-119">참고 항목</span><span class="sxs-lookup"><span data-stu-id="128c1-119">See Also</span></span>
 
 
-[<span data-ttu-id="a0c54-120">Lync Server 2013의 PSTN 게이트웨이 배포 옵션</span><span class="sxs-lookup"><span data-stu-id="a0c54-120">PSTN gateway deployment options in Lync Server 2013</span></span>](lync-server-2013-pstn-gateway-deployment-options.md)  
+[<span data-ttu-id="128c1-120">Lync Server 2013의 PSTN 게이트웨이 배포 옵션</span><span class="sxs-lookup"><span data-stu-id="128c1-120">PSTN gateway deployment options in Lync Server 2013</span></span>](lync-server-2013-pstn-gateway-deployment-options.md)  
   
 
 </div>

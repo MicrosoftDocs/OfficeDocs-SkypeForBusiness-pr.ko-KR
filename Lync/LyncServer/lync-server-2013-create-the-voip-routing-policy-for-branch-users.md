@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 분기 사용자에 대한 VoIP 라우팅 정책 만들기'
+title: 'Lync Server 2013: 분기 사용자에 대 한 VoIP 라우팅 정책 만들기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1cc8f0a6c4d960b4dacf6f62f283d806a6dd6f9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 308c4ad3a7371c9a27f668b79623a512227623b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733678"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046721"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-the-voip-routing-policy-for-branch-users-in-lync-server-2013"></a><span data-ttu-id="8f321-102">Lync Server 2013에서 분기 사용자에 대한 VoIP 라우팅 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="8f321-102">Create the VoIP routing policy for branch users in Lync Server 2013</span></span>
+# <a name="create-the-voip-routing-policy-for-branch-users-in-lync-server-2013"></a><span data-ttu-id="8ef3e-102">Lync Server 2013에서 분기 사용자에 대 한 VoIP 라우팅 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="8ef3e-102">Create the VoIP routing policy for branch users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41733678"
 
 <span> </span>
 
-<span data-ttu-id="8f321-103">_**마지막으로 수정한 주제:** 2012-09-23_</span><span class="sxs-lookup"><span data-stu-id="8f321-103">_**Topic Last Modified:** 2012-09-23_</span></span>
+<span data-ttu-id="8ef3e-103">_**마지막으로 수정 된 항목:** 2012-09-23_</span><span class="sxs-lookup"><span data-stu-id="8ef3e-103">_**Topic Last Modified:** 2012-09-23_</span></span>
 
-<span data-ttu-id="8f321-104">지사 사이트의 사용자를 위해 별도의 VoIP (voice over IP) 정책을 만드는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="8f321-104">We recommend creating a separate voice over IP (VoIP) policy for users at branch sites.</span></span> <span data-ttu-id="8f321-105">이 정책에는 중앙 사이트의 게이트웨이에서 Survivable Branch 기기 게이트웨이 또는 Survivable Branch 서버 외부 게이트웨이 및 백업 경로에서 egress 까지의 경로가 포함 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f321-105">This policy should contain routes to egress from the Survivable Branch Appliance gateway or the Survivable Branch Server external gateway and backup routes to egress from a gateway at the central site.</span></span> <span data-ttu-id="8f321-106">사용자가 등록 되는 위치에 관계 없이, Survivable Branch 기기 또는 Survivable Branch 서버의 레지스트라 또는 중앙 사이트의 백업 등록자 클러스터에서 사용자의 VoIP 정책이 항상 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8f321-106">Regardless of where the user is registered, either on the Registrar on the Survivable Branch Appliance or Survivable Branch Server or on the backup Registrar cluster at the central site, the user’s VoIP policy is always in effect.</span></span>
+<span data-ttu-id="8ef3e-104">분기 사이트의 사용자에 대해 별도의 VoIP(Voice Over IP) 정책을 만드는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="8ef3e-104">We recommend creating a separate voice over IP (VoIP) policy for users at branch sites.</span></span> <span data-ttu-id="8ef3e-105">이 정책에는 중앙 사이트의 게이트웨이에서 egress로 Sba (survivable Branch 기기 게이트웨이 또는 Sba (survivable 분기 서버 외부 게이트웨이와 백업 경로에서 egress에 대 한 경로가 포함 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8ef3e-105">This policy should contain routes to egress from the Survivable Branch Appliance gateway or the Survivable Branch Server external gateway and backup routes to egress from a gateway at the central site.</span></span> <span data-ttu-id="8ef3e-106">사용자가 등록 되는 위치 (예: Sba (survivable Branch 어플라이언스 또는 Sba (survivable 분기 서버의 등록자 또는 중앙 사이트의 백업 등록자 클러스터에서)에 상관 없이 사용자의 VoIP 정책이 항상 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8ef3e-106">Regardless of where the user is registered, either on the Registrar on the Survivable Branch Appliance or Survivable Branch Server or on the backup Registrar cluster at the central site, the user’s VoIP policy is always in effect.</span></span>
 
 <div>
 
-## <a name="to-configure-the-voip-routing-policy-for-branch-users"></a><span data-ttu-id="8f321-107">지사 사용자를 위한 VoIP 라우팅 정책 구성</span><span class="sxs-lookup"><span data-stu-id="8f321-107">To configure the VoIP routing policy for branch users</span></span>
+## <a name="to-configure-the-voip-routing-policy-for-branch-users"></a><span data-ttu-id="8ef3e-107">분기 사용자에 대한 VoIP 라우팅 정책을 구성하려면</span><span class="sxs-lookup"><span data-stu-id="8ef3e-107">To configure the VoIP routing policy for branch users</span></span>
 
-1.  <span data-ttu-id="8f321-108">사용자 수준 다이얼 플랜을 만들어 분기 사용자에 게 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f321-108">Create a user-level dial plan and assign it to branch users.</span></span> <span data-ttu-id="8f321-109">(운영 설명서의 [Lync Server 2013에서 다이얼 플랜 만들기](lync-server-2013-create-a-dial-plan.md) 를 참조 하세요.)</span><span class="sxs-lookup"><span data-stu-id="8f321-109">(See [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) in the Operations documentation.)</span></span>
+1.  <span data-ttu-id="8ef3e-108">사용자 수준 다이얼 플랜을 만들어 분기 사용자에게 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="8ef3e-108">Create a user-level dial plan and assign it to branch users.</span></span> <span data-ttu-id="8ef3e-109">(작업 설명서의 [Lync Server 2013에서 다이얼 플랜 만들기](lync-server-2013-create-a-dial-plan.md) 를 참조 하세요.)</span><span class="sxs-lookup"><span data-stu-id="8ef3e-109">(See [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) in the Operations documentation.)</span></span>
 
-2.  <span data-ttu-id="8f321-110">해당 사이트의 사용자에 대 한 전화 걸기 습관에 해당 하는 정규화 규칙을 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f321-110">Assign normalization rules corresponding to the dialing habits of users at that site.</span></span> <span data-ttu-id="8f321-111">Survivable Branch 기기 또는 Survivable Branch 서버 사용자가 중앙 사이트의 백업 등록자 풀로 장애 조치 되는 경우 동일한 다이얼 플랜이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8f321-111">If the Survivable Branch Appliance or Survivable Branch Server user fails over to the backup Registrar pool at the central site, the same dial plan will be in effect.</span></span> <span data-ttu-id="8f321-112">(운영 설명서의 [Lync Server 2013에서 다이얼 플랜 만들기](lync-server-2013-create-a-dial-plan.md) 를 참조 하세요.)</span><span class="sxs-lookup"><span data-stu-id="8f321-112">(See [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) in the Operations documentation.)</span></span>
+2.  <span data-ttu-id="8ef3e-110">사이트 사용자의 전화 거는 방식에 해당하는 정규화 규칙을 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="8ef3e-110">Assign normalization rules corresponding to the dialing habits of users at that site.</span></span> <span data-ttu-id="8ef3e-111">Sba (survivable Branch 기기 또는 Sba (survivable 분기 서버 사용자가 중앙 사이트의 백업 등록자 풀로 장애 조치 (failover) 되 면 동일한 다이얼 플랜이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8ef3e-111">If the Survivable Branch Appliance or Survivable Branch Server user fails over to the backup Registrar pool at the central site, the same dial plan will be in effect.</span></span> <span data-ttu-id="8ef3e-112">(작업 설명서의 [Lync Server 2013에서 다이얼 플랜 만들기](lync-server-2013-create-a-dial-plan.md) 를 참조 하세요.)</span><span class="sxs-lookup"><span data-stu-id="8ef3e-112">(See [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) in the Operations documentation.)</span></span>
 
-3.  <span data-ttu-id="8f321-113">Survivable Branch 기기 게이트웨이 또는 Survivable Branch Server 외부 게이트웨이에서 egresses 하는 음성 경로를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f321-113">Configure a voice route that egresses from the Survivable Branch Appliance gateway or the Survivable Branch Server external gateway.</span></span> <span data-ttu-id="8f321-114">(운영 설명서의 [Lync Server 2013에서 음성 경로 만들기](lync-server-2013-create-a-voice-route.md) 를 참조 하세요.)</span><span class="sxs-lookup"><span data-stu-id="8f321-114">(See [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md) in the Operations documentation.)</span></span>
+3.  <span data-ttu-id="8ef3e-113">Sba (survivable Branch 기기 게이트웨이 또는 Sba (survivable Branch Server external gateway에서 egresses는 음성 경로를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="8ef3e-113">Configure a voice route that egresses from the Survivable Branch Appliance gateway or the Survivable Branch Server external gateway.</span></span> <span data-ttu-id="8ef3e-114">(작업 설명서에서 [Lync Server 2013에서 음성 경로 만들기](lync-server-2013-create-a-voice-route.md) 를 참조 하세요.)</span><span class="sxs-lookup"><span data-stu-id="8ef3e-114">(See [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md) in the Operations documentation.)</span></span>
 
-4.  <span data-ttu-id="8f321-115">Survivable Branch 기기 또는 Survivable Branch 서버 게이트웨이에서 백업 통화 경로를 설정 하 여 중앙 사이트에서 백업 등록자 풀 (collocated를 사용 하는 서버)을 가리킵니다.</span><span class="sxs-lookup"><span data-stu-id="8f321-115">Set a backup call route on the Survivable Branch Appliance or Survivable Branch Server gateway to point to the backup Registrar pool (collocated with Mediation Server) at the central site.</span></span> <span data-ttu-id="8f321-116">(Survivable Branch 기기 또는 Survivable Branch Server 공급 업체 문서를 참조 하세요.)</span><span class="sxs-lookup"><span data-stu-id="8f321-116">(See your Survivable Branch Appliance or Survivable Branch Server vendor documentation.)</span></span>
+4.  <span data-ttu-id="8ef3e-115">중앙 사이트에서 백업 등록자 풀 (중재 서버를 사용 하 여 배치 된)을 가리키도록 Sba (survivable Branch 기기 또는 Sba (survivable Branch Server 게이트웨이에서 백업 통화 경로를 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="8ef3e-115">Set a backup call route on the Survivable Branch Appliance or Survivable Branch Server gateway to point to the backup Registrar pool (collocated with Mediation Server) at the central site.</span></span> <span data-ttu-id="8ef3e-116">(Sba (survivable Branch 어플라이언스 또는 Sba (survivable Branch Server vendor 설명서를 참조 하세요.)</span><span class="sxs-lookup"><span data-stu-id="8ef3e-116">(See your Survivable Branch Appliance or Survivable Branch Server vendor documentation.)</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="8f321-117">이 백업 경로 설정에서는 Survivable Branch 기기 또는 Survivable Branch 서버를 사용할 수 없는 경우, 예를 들어 유지 관리를 위해 지점 사용자에 게 들어오는 인바운드 통화가 작동 하는지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8f321-117">This backup call route setup helps ensure that inbound calls to the branch user will work when the Survivable Branch Appliance or Survivable Branch Server is not available (for example, if it is down for maintenance).</span></span> <span data-ttu-id="8f321-118">Survivable Branch 기기 또는 Survivable Branch 서버의 등록자 및 조정 서버를 사용할 수 없고 사용자가 중앙 사이트의 백업 등록자 풀에 등록 되어 있는 경우에도 인바운드 통화를 사용자에 게 라우팅할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8f321-118">If the Registrar and Mediation Server on the Survivable Branch Appliance or Survivable Branch Server are not available, and the user is registered with the backup Registrar pool at the central site, inbound calls can still be routed to the user.</span></span>
+    > <span data-ttu-id="8ef3e-117">이 백업 경로 설정을 사용 하면 Sba (survivable Branch 기기 또는 Sba (survivable 분기 서버를 사용할 수 없는 경우 분기 사용자에 대 한 인바운드 통화가 작동 하 게 됩니다 (예: 유지 관리를 위해 다운 된 경우).</span><span class="sxs-lookup"><span data-stu-id="8ef3e-117">This backup call route setup helps ensure that inbound calls to the branch user will work when the Survivable Branch Appliance or Survivable Branch Server is not available (for example, if it is down for maintenance).</span></span> <span data-ttu-id="8ef3e-118">Sba (survivable Branch 기기 또는 Sba (survivable 분기 서버의 등록자 및 중재 서버를 사용할 수 없고 사용자가 중앙 사이트에서 백업 등록자 풀에 등록 되어 있으면 인바운드 전화를 사용자에 게 라우팅할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8ef3e-118">If the Registrar and Mediation Server on the Survivable Branch Appliance or Survivable Branch Server are not available, and the user is registered with the backup Registrar pool at the central site, inbound calls can still be routed to the user.</span></span>
 
     
     </div>
 
-<span data-ttu-id="8f321-119">**다음 단계**: [Lync Server 2013에서 음성 메일 다시 라우팅 설정을 구성](lync-server-2013-configure-voice-mail-rerouting-settings.md) 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f321-119">**Next step**: [Configure voice mail rerouting settings in Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)</span></span>
+<span data-ttu-id="8ef3e-119">**다음 단계**: [Lync Server 2013에서 음성 메일 다시 라우팅 설정 구성](lync-server-2013-configure-voice-mail-rerouting-settings.md)</span><span class="sxs-lookup"><span data-stu-id="8ef3e-119">**Next step**: [Configure voice mail rerouting settings in Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)</span></span>
 
 </div>
 

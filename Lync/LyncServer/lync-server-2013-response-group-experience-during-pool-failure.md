@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 풀 오류 발생 시 응답 그룹 환경
+title: 풀 오류 발생 시 Lync Server 2013 응답 그룹 환경
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184116
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad00afac363642106019269e86111f61eaca504e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0e7867af15eb5e8824562eb03244280cfbc84f7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723608"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051692"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="response-group-experience-in-lync-server-2013-during-pool-failure"></a><span data-ttu-id="bc598-102">풀 오류 발생 시 Lync Server 2013의 응답 그룹 환경</span><span class="sxs-lookup"><span data-stu-id="bc598-102">Response group experience in Lync Server 2013 during pool failure</span></span>
+# <a name="response-group-experience-in-lync-server-2013-during-pool-failure"></a><span data-ttu-id="7f1c0-102">풀 오류 발생 시 Lync Server 2013의 응답 그룹 환경</span><span class="sxs-lookup"><span data-stu-id="7f1c0-102">Response group experience in Lync Server 2013 during pool failure</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41723608"
 
 <span> </span>
 
-<span data-ttu-id="bc598-103">_**마지막으로 수정한 주제:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="bc598-103">_**Topic Last Modified:** 2012-10-30_</span></span>
+<span data-ttu-id="7f1c0-103">_**마지막으로 수정 된 항목:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="7f1c0-103">_**Topic Last Modified:** 2012-10-30_</span></span>
 
-<span data-ttu-id="bc598-104">이 섹션에서는 응답 그룹 활동이 다음 단계에서 영향을 받는 방법에 대해 자세히 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-104">This section describes in detail how response group activity is affected in the following stages:</span></span>
+<span data-ttu-id="7f1c0-104">이 섹션에서는 다음 단계에서 응답 그룹 활동에 주는 영향에 대해 자세히 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-104">This section describes in detail how response group activity is affected in the following stages:</span></span>
 
-  - <span data-ttu-id="bc598-105">기본 풀에서 작동 중지가 발생 하지만 장애 조치는 아직 시작 되지 않았습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-105">An outage occurs in the primary pool, but failover is not yet initiated.</span></span>
+  - <span data-ttu-id="7f1c0-105">기본 풀에서 중단이 발생하지만 장애 조치(Failover)가 아직 시작되지 않았습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-105">An outage occurs in the primary pool, but failover is not yet initiated.</span></span>
 
-  - <span data-ttu-id="bc598-106">서비스가 백업 풀로 장애 조치 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-106">Service is failed over to the backup pool.</span></span>
+  - <span data-ttu-id="7f1c0-106">서비스가 백업 풀로 장애 조치(failover)됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-106">Service is failed over to the backup pool.</span></span>
 
-  - <span data-ttu-id="bc598-107">서비스가 기본 풀로 장애 복구 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-107">Service is failed back to the primary pool.</span></span>
+  - <span data-ttu-id="7f1c0-107">서비스가 기본 풀로 장애 복구(failback)됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-107">Service is failed back to the primary pool.</span></span>
 
 <div>
 
-## <a name="user-experience-when-outage-occurs"></a><span data-ttu-id="bc598-108">중단 발생 시 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="bc598-108">User Experience When Outage Occurs</span></span>
+## <a name="user-experience-when-outage-occurs"></a><span data-ttu-id="7f1c0-108">중단 발생 시 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="7f1c0-108">User Experience When Outage Occurs</span></span>
 
-<span data-ttu-id="bc598-109">풀 또는 사이트 중단이 발생 하지만 관리자가 아직 장애 조치를 시작 하지 않은 경우 응답 그룹 활동은 다음 표에 설명 된 대로 처리 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-109">When a pool or site outage occurs, but the administrator has not yet initiated failover, response group activity is handled as described in the following table.</span></span>
+<span data-ttu-id="7f1c0-109">풀 또는 사이트 중단이 발생하지만 관리자가 아직 장애 조치(failover)를 시작하지 않은 경우 응답 그룹 활동은 다음 표에 설명된 방식으로 처리됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-109">When a pool or site outage occurs, but the administrator has not yet initiated failover, response group activity is handled as described in the following table.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="bc598-110">재해 복구 중에는 복구 중에 기본 풀 응답 그룹을 백업 풀로 가져왔는지 여부에 따라 호출이 다르게 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-110">During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery.</span></span> <span data-ttu-id="bc598-111">다음 표에서는 재해 복구 모드 중에 주 풀 응답 그룹을 백업 풀로 가져왔는지 평균 응답 그룹을 참조 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-111">In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.</span></span>
+> <span data-ttu-id="7f1c0-p101">재해 복구 중 통화는 기본 풀 응답 그룹을 복구 중에 백업 풀로 가져왔는지 여부에 따라 다르게 작동합니다. 다음 표에서 가져온 응답 그룹에 대한 참조는 기본 풀 응답 그룹을 재해 복구 모드 중에 백업 풀로 가져왔음을 의미합니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-p101">During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery. In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.</span></span>
 
 
 
 </div>
 
-### <a name="outage-occurs"></a><span data-ttu-id="bc598-112">중단 발생</span><span class="sxs-lookup"><span data-stu-id="bc598-112">Outage Occurs</span></span>
+### <a name="outage-occurs"></a><span data-ttu-id="7f1c0-112">중단 발생</span><span class="sxs-lookup"><span data-stu-id="7f1c0-112">Outage Occurs</span></span>
 
 <table>
 <colgroup>
@@ -70,47 +70,47 @@ ms.locfileid: "41723608"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bc598-113">통화 유형 또는 사용자 작업</span><span class="sxs-lookup"><span data-stu-id="bc598-113">Type of call or user action</span></span></th>
-<th><span data-ttu-id="bc598-114">비활성 동안</span><span class="sxs-lookup"><span data-stu-id="bc598-114">During outage</span></span></th>
+<th><span data-ttu-id="7f1c0-113">통화 또는 사용자 작업 유형</span><span class="sxs-lookup"><span data-stu-id="7f1c0-113">Type of call or user action</span></span></th>
+<th><span data-ttu-id="7f1c0-114">중단 중</span><span class="sxs-lookup"><span data-stu-id="7f1c0-114">During outage</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bc598-115">에이전트에 연결 된 통화</span><span class="sxs-lookup"><span data-stu-id="bc598-115">Calls connected to an agent</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-115">에이전트에 연결된 통화</span><span class="sxs-lookup"><span data-stu-id="7f1c0-115">Calls connected to an agent</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-116">일반 통화는 연결 된 상태로 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-116">Regular calls remain connected.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-117">익명 통화는 연결이 끊깁니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-117">Anonymous calls are disconnected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-116">일반 통화는 연결된 상태로 유지됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-116">Regular calls remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-117">익명 통화는 연결이 끊어집니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-117">Anonymous calls are disconnected.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc598-118">아직 에이전트에 연결 되지 않은 진행 중인 통화</span><span class="sxs-lookup"><span data-stu-id="bc598-118">In progress calls not yet connected to an agent</span></span></p></td>
-<td><p><span data-ttu-id="bc598-119">통화가 끊깁니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-119">Calls are disconnected.</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-118">에이전트에 아직 연결되지 않은 진행 중인 통화</span><span class="sxs-lookup"><span data-stu-id="7f1c0-118">In progress calls not yet connected to an agent</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-119">통화 연결이 끊어집니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-119">Calls are disconnected.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc598-120">새로운 통화</span><span class="sxs-lookup"><span data-stu-id="bc598-120">New calls</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-120">새 통화</span><span class="sxs-lookup"><span data-stu-id="7f1c0-120">New calls</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-121">통화가 끊깁니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-121">Calls are disconnected.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-122">응답 그룹을 가져온 경우 백업 풀에 연결을 호출 하지만 기본 풀에 있는 에이전트는 연결할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-122">If response groups were imported, calls connect to backup pool, but agents homed in primary pool are unreachable.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-121">통화 연결이 끊어집니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-121">Calls are disconnected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-122">응답 그룹을 가져왔으면 백업 풀로 통화가 연결되지만 기본 풀에 있는 에이전트에 연결할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-122">If response groups were imported, calls connect to backup pool, but agents homed in primary pool are unreachable.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc598-123">응답 그룹을 대신 하 여 에이전트 호출</span><span class="sxs-lookup"><span data-stu-id="bc598-123">Agent calls on behalf of response group</span></span></p></td>
-<td><p><span data-ttu-id="bc598-124">이 단계에서는 기능을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-124">Feature is disabled during this stage.</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-123">응답 그룹을 대신하는 에이전트 통화</span><span class="sxs-lookup"><span data-stu-id="7f1c0-123">Agent calls on behalf of response group</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-124">이 단계 중에는 기능이 해제됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-124">Feature is disabled during this stage.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc598-125">에이전트 로그인 및 에이전트 정보</span><span class="sxs-lookup"><span data-stu-id="bc598-125">Agent sign-in and agent information</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-125">에이전트 로그인 및 에이전트 정보</span><span class="sxs-lookup"><span data-stu-id="7f1c0-125">Agent sign-in and agent information</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-126">주 풀 소유의 에이전트 그룹은 에이전트 콘솔에서 볼 수 있지만 에이전트는 로그인 할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-126">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-127">에이전트 콘솔에서 백업 풀 소유의 에이전트 그룹을 볼 수 있으며, 에이전트는 로그인 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-127">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-128">가져온 에이전트 그룹은 에이전트 콘솔에 표시 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-128">Imported agent groups are not displayed on agent console.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-126">기본 풀이 소유하는 에이전트 그룹은 에이전트 콘솔에서 볼 수 있지만 에이전트가 로그인할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-126">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-127">백업 풀이 소유하는 에이전트 그룹은 에이전트 콘솔에서 볼 수 있고 에이전트가 로그인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-127">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-128">가져온 에이전트 그룹은 에이전트 콘솔에 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-128">Imported agent groups are not displayed on agent console.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc598-129">응답 그룹 구성</span><span class="sxs-lookup"><span data-stu-id="bc598-129">Response group configuration</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-129">응답 그룹 구성</span><span class="sxs-lookup"><span data-stu-id="7f1c0-129">Response group configuration</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-130">기본 풀에서 소유 하는 응답 그룹은 기본 풀의 백 엔드 데이터베이스 가용성에 따라 볼 수 있지만 수정할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-130">Response groups owned by the primary pool can be viewed, depending on the availability of the primary pool’s back-end database, but cannot be modified.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-131">백업 풀 소유의 응답 그룹을 보고 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-131">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-132">가져온 응답 그룹은 Lync Server 제어판 또는 응답 그룹 구성 도구로 볼 수 없지만 Lync Server 관리 셸 cmdlet을 사용 하 여 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-132">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-130">기본 풀이 소유하는 응답 그룹은 기본 풀의 백 엔드 데이터베이스 가용성에 따라 볼 수 있지만 수정할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-130">Response groups owned by the primary pool can be viewed, depending on the availability of the primary pool’s back-end database, but cannot be modified.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-131">백업 풀이 소유하는 응답 그룹은 보고 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-131">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-132">가져온 응답 그룹은 Lync Server 제어판 또는 응답 그룹 구성 도구로 볼 수 없지만 Lync Server 관리 셸 cmdlet을 사용 하 여 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-132">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -121,21 +121,21 @@ ms.locfileid: "41723608"
 
 <div>
 
-## <a name="user-experience-during-failover"></a><span data-ttu-id="bc598-133">장애 조치 중 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="bc598-133">User Experience During Failover</span></span>
+## <a name="user-experience-during-failover"></a><span data-ttu-id="7f1c0-133">장애 조치(Failover) 중 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="7f1c0-133">User Experience During Failover</span></span>
 
-<span data-ttu-id="bc598-134">관리자가 백업 풀로 장애 조치 (failover)를 호출 하면 다음 표에 설명 된 대로 응답 그룹 활동이 장애 조치 중에 처리 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-134">When an administrator invokes failover to a backup pool, response group activity is handled during and after the failover as described in the following table.</span></span> <span data-ttu-id="bc598-135">첫 번째 열은 수행할 수 있는 활동 유형을 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-135">The first column describes the type of activity that might be taking place.</span></span> <span data-ttu-id="bc598-136">중간 열에서는 백업 풀로 장애 조치 하는 데 걸리는 짧은 시간 동안 각 활동이 처리 되는 방식을 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-136">The middle column describes how each activity is handled during the brief time that it takes to fail over to the backup pool.</span></span> <span data-ttu-id="bc598-137">마지막 열은 장애 조치 프로세스가 완료 되 고 백업 풀이 기본 풀에 대해 발생 한 후 해당 기간 동안 활동이 처리 되는 방식을 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-137">The last column describes how the activity is handled for the duration, after the failover process is complete and the backup pool is standing in for the primary pool.</span></span>
+<span data-ttu-id="7f1c0-p102">관리자가 백업 풀에 대한 장애 조치(failover)를 호출할 경우, 장애 조치(failover) 동안 및 이후의 응답 그룹 활동은 다음 표에 설명된 대로 처리됩니다. 첫 번째 열은 발생 가능한 활동 유형에 대해 설명합니다. 가운데 열은 백업 풀로 장애 조치(failover)하는 짧은 시간 동안 각 활동이 처리되는 방법에 대해 설명합니다. 마지막 열은 장애 조치(failover) 프로세스가 완료되고 백업 풀이 기본 풀 대신 작동하는 기간 동안 활동이 처리되는 방법을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-p102">When an administrator invokes failover to a backup pool, response group activity is handled during and after the failover as described in the following table. The first column describes the type of activity that might be taking place. The middle column describes how each activity is handled during the brief time that it takes to fail over to the backup pool. The last column describes how the activity is handled for the duration, after the failover process is complete and the backup pool is standing in for the primary pool.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="bc598-138">재해 복구 중에는 복구 중에 기본 풀 응답 그룹을 백업 풀로 가져왔는지 여부에 따라 호출이 다르게 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-138">During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery.</span></span> <span data-ttu-id="bc598-139">다음 표에서는 재해 복구 모드 중에 주 풀 응답 그룹을 백업 풀로 가져왔는지 평균 응답 그룹을 참조 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-139">In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.</span></span>
+> <span data-ttu-id="7f1c0-p103">재해 복구 중 통화는 기본 풀 응답 그룹을 복구 중에 백업 풀로 가져왔는지 여부에 따라 다르게 작동합니다. 다음 표에서 가져온 응답 그룹에 대한 참조는 기본 풀 응답 그룹을 재해 복구 모드 중에 백업 풀로 가져왔음을 의미합니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-p103">During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery. In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.</span></span>
 
 
 
 </div>
 
-### <a name="failover-is-initiated"></a><span data-ttu-id="bc598-140">장애 조치 시작 됨</span><span class="sxs-lookup"><span data-stu-id="bc598-140">Failover Is Initiated</span></span>
+### <a name="failover-is-initiated"></a><span data-ttu-id="7f1c0-140">장애 조치(Failover)가 시작됨</span><span class="sxs-lookup"><span data-stu-id="7f1c0-140">Failover Is Initiated</span></span>
 
 <table>
 <colgroup>
@@ -145,74 +145,74 @@ ms.locfileid: "41723608"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bc598-141">통화 유형 또는 사용자 작업</span><span class="sxs-lookup"><span data-stu-id="bc598-141">Type of call or user action</span></span></th>
-<th><span data-ttu-id="bc598-142">장애 조치 동안</span><span class="sxs-lookup"><span data-stu-id="bc598-142">During Failover</span></span></th>
-<th><span data-ttu-id="bc598-143">장애 조치 완료 후</span><span class="sxs-lookup"><span data-stu-id="bc598-143">After Failover Completes</span></span></th>
+<th><span data-ttu-id="7f1c0-141">통화 또는 사용자 작업 유형</span><span class="sxs-lookup"><span data-stu-id="7f1c0-141">Type of call or user action</span></span></th>
+<th><span data-ttu-id="7f1c0-142">장애 조치(Failover) 동안</span><span class="sxs-lookup"><span data-stu-id="7f1c0-142">During Failover</span></span></th>
+<th><span data-ttu-id="7f1c0-143">장애 조치(Failover) 완료 후</span><span class="sxs-lookup"><span data-stu-id="7f1c0-143">After Failover Completes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bc598-144">에이전트에 연결 된 통화</span><span class="sxs-lookup"><span data-stu-id="bc598-144">Calls connected to an agent</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-144">에이전트에 연결된 통화</span><span class="sxs-lookup"><span data-stu-id="7f1c0-144">Calls connected to an agent</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-145">일반 통화는 연결 된 상태로 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-145">Regular calls remain connected.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-146">익명 통화는 연결이 끊깁니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-146">Anonymous calls are disconnected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-145">일반 통화는 연결된 상태로 유지됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-145">Regular calls remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-146">익명 통화는 연결이 끊어집니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-146">Anonymous calls are disconnected.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-147">일반 통화는 연결 된 상태로 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-147">Regular calls remain connected.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-148">가져온 응답 그룹의 경우 백업 풀에 도달한 익명 호출은 연결 된 상태로 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-148">For imported response groups, anonymous calls that have reached the backup pool remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-147">일반 통화는 연결된 상태로 유지됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-147">Regular calls remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-148">가져온 응답 그룹의 경우 백업 풀에 연결된 익명 통화는 연결된 상태로 유지됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-148">For imported response groups, anonymous calls that have reached the backup pool remain connected.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc598-149">아직 에이전트에 연결 되지 않은 진행 중인 통화</span><span class="sxs-lookup"><span data-stu-id="bc598-149">In progress calls not yet connected to an agent</span></span></p></td>
-<td><p><span data-ttu-id="bc598-150">통화가 끊깁니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-150">Calls are disconnected.</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-149">에이전트에 아직 연결되지 않은 진행 중인 통화</span><span class="sxs-lookup"><span data-stu-id="7f1c0-149">In progress calls not yet connected to an agent</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-150">통화 연결이 끊어집니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-150">Calls are disconnected.</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-151">응답 그룹을 가져오지 못한 경우에는 모든 호출이이 상태에 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-151">If response groups were not imported, no calls are in this status.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-152">가져온 응답 그룹의 경우 백업 풀에 도달 하는 호출은 연결 된 상태로 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-152">For imported response groups, calls that have reached the backup pool remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-151">응답 그룹을 가져오지 않은 경우 이 상태의 통화가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-151">If response groups were not imported, no calls are in this status.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-152">가져온 응답 그룹의 경우 백업 풀에 연결된 통화는 연결된 상태로 유지됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-152">For imported response groups, calls that have reached the backup pool remain connected.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc598-153">새로운 통화</span><span class="sxs-lookup"><span data-stu-id="bc598-153">New calls</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-153">새 통화</span><span class="sxs-lookup"><span data-stu-id="7f1c0-153">New calls</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-154">통화가 끊깁니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-154">Calls are disconnected.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-155">가져온 응답 그룹의 경우 백업 풀에 연결을 호출 하지만 기본 풀에 있는 에이전트는 연결할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-155">For imported response groups, calls connect to the backup pool, but agents homed in the primary pool are unreachable.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-154">통화 연결이 끊어집니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-154">Calls are disconnected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-155">가져온 응답 그룹의 경우 통화가 백업 풀에 연결되지만 기본 풀에 있는 에이전트에는 연결할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-155">For imported response groups, calls connect to the backup pool, but agents homed in the primary pool are unreachable.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-156">응답 그룹을 가져오지 못한 경우에는 통화가 끊깁니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-156">If response groups were not imported, calls are disconnected.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-157">가져온 응답 그룹의 경우 백업 풀에 연결을 호출 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-157">For imported response groups, calls connect to the backup pool.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-156">응답 그룹을 가져오지 않은 경우 통화의 연결이 끊어집니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-156">If response groups were not imported, calls are disconnected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-157">가져온 응답 그룹의 경우 통화가 백업 풀에 연결됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-157">For imported response groups, calls connect to the backup pool.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc598-158">응답 그룹을 대신 하 여 에이전트 호출</span><span class="sxs-lookup"><span data-stu-id="bc598-158">Agent calls on behalf of response group</span></span></p></td>
-<td><p><span data-ttu-id="bc598-159">이 단계에서 기능을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-159">Feature is disabled during this stage</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-158">응답 그룹을 대신하는 에이전트 통화</span><span class="sxs-lookup"><span data-stu-id="7f1c0-158">Agent calls on behalf of response group</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-159">이 단계 중에는 기능이 해제됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-159">Feature is disabled during this stage</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-160">응답 그룹을 가져오지 못한 경우에는 호출이 실패 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-160">If response groups were not imported, calls fail.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-161">가져온 응답 그룹의 경우 호출이 성공 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-161">For imported response groups, calls succeed.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-160">응답 그룹을 가져오지 않은 경우 통화가 실패합니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-160">If response groups were not imported, calls fail.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-161">가져온 응답 그룹의 경우 통화가 성공합니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-161">For imported response groups, calls succeed.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc598-162">에이전트 로그인 및 에이전트 정보</span><span class="sxs-lookup"><span data-stu-id="bc598-162">Agent sign-in and agent information</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-162">에이전트 로그인 및 에이전트 정보</span><span class="sxs-lookup"><span data-stu-id="7f1c0-162">Agent sign-in and agent information</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-163">주 풀 소유의 에이전트 그룹은 에이전트 콘솔에서 볼 수 있지만 에이전트는 로그인 할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-163">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-164">에이전트 콘솔에서 백업 풀 소유의 에이전트 그룹을 볼 수 있으며, 에이전트는 로그인 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-164">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-165">가져온 에이전트 그룹은 에이전트 콘솔에 표시 되 고, 에이전트는 로그인 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-165">Imported agent groups are displayed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-163">기본 풀이 소유하는 에이전트 그룹은 에이전트 콘솔에서 볼 수 있지만 에이전트가 로그인할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-163">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-164">백업 풀이 소유하는 에이전트 그룹은 에이전트 콘솔에서 볼 수 있고 에이전트가 로그인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-164">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-165">가져온 에이전트 그룹이 에이전트 콘솔에 표시되고 에이전트가 로그인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-165">Imported agent groups are displayed on agent console and agents can sign in.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-166">주 풀 소유의 에이전트 그룹은 에이전트 콘솔에서 볼 수 있지만 에이전트는 로그인 할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-166">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-167">에이전트 콘솔에서 백업 풀 소유의 에이전트 그룹을 볼 수 있으며, 에이전트는 로그인 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-167">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-168">가져온 에이전트 그룹은 에이전트 콘솔에 표시 되 고, 에이전트는 로그인 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-168">Imported agent groups are displayed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-166">기본 풀이 소유하는 에이전트 그룹은 에이전트 콘솔에서 볼 수 있지만 에이전트가 로그인할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-166">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-167">백업 풀이 소유하는 에이전트 그룹은 에이전트 콘솔에서 볼 수 있고 에이전트가 로그인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-167">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-168">가져온 에이전트 그룹이 에이전트 콘솔에 표시되고 에이전트가 로그인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-168">Imported agent groups are displayed on agent console and agents can sign in.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc598-169">응답 그룹 구성</span><span class="sxs-lookup"><span data-stu-id="bc598-169">Response group configuration</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-169">응답 그룹 구성</span><span class="sxs-lookup"><span data-stu-id="7f1c0-169">Response group configuration</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-170">기본 풀에서 소유 하는 응답 그룹은 기본 풀의 백 엔드 데이터베이스 가용성에 따라 볼 수 있지만 수정할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-170">Response groups owned by the primary pool can be viewed, depending on the availability of the primary pool’s back-end database, but cannot be modified.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-171">백업 풀 소유의 응답 그룹을 보고 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-171">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-172">가져온 응답 그룹은 Lync Server 제어판 또는 응답 그룹 구성 도구로 볼 수 없지만 Lync Server 관리 셸 cmdlet을 사용 하 여 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-172">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-170">기본 풀이 소유하는 응답 그룹은 기본 풀의 백 엔드 데이터베이스 가용성에 따라 볼 수 있지만 수정할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-170">Response groups owned by the primary pool can be viewed, depending on the availability of the primary pool’s back-end database, but cannot be modified.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-171">백업 풀이 소유하는 응답 그룹은 보고 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-171">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-172">가져온 응답 그룹은 Lync Server 제어판 또는 응답 그룹 구성 도구로 볼 수 없지만 Lync Server 관리 셸 cmdlet을 사용 하 여 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-172">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-173">백 엔드 데이터베이스의 가용성에 따라 주 풀에서 소유 하는 응답 그룹을 볼 수는 있지만 수정할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-173">Response groups owned by the primary pool can be viewed, depending on the availability of the back end database, but cannot be modified.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-174">백업 풀 소유의 응답 그룹을 보고 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-174">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-175">가져온 응답 그룹은 Lync Server 제어판 또는 응답 그룹 구성 도구로 볼 수 없지만 Lync Server 관리 셸 cmdlet을 사용 하 여 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-175">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-173">기본 풀이 소유하는 응답 그룹은 백 엔드 데이터베이스의 가용성에 따라 볼 수 있지만 수정할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-173">Response groups owned by the primary pool can be viewed, depending on the availability of the back end database, but cannot be modified.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-174">백업 풀이 소유하는 응답 그룹은 보고 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-174">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-175">가져온 응답 그룹은 Lync Server 제어판 또는 응답 그룹 구성 도구로 볼 수 없지만 Lync Server 관리 셸 cmdlet을 사용 하 여 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-175">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -223,21 +223,21 @@ ms.locfileid: "41723608"
 
 <div>
 
-## <a name="user-experience-during-failback"></a><span data-ttu-id="bc598-176">장애 복구 중 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="bc598-176">User Experience During Failback</span></span>
+## <a name="user-experience-during-failback"></a><span data-ttu-id="7f1c0-176">복구(Failback) 중 사용자 환경</span><span class="sxs-lookup"><span data-stu-id="7f1c0-176">User Experience During Failback</span></span>
 
-<span data-ttu-id="bc598-177">관리자가 기본 풀로 장애 복구 (failback)를 호출 하면 다음 표에 설명 된 대로 응답 그룹 활동이 장애 복구 중 및 이후 처리 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-177">When an administrator invokes failback to the primary pool, response group activity is handled during and after the failback as described in the following table.</span></span>
+<span data-ttu-id="7f1c0-177">관리자가 기본 풀로 복구(failback)를 호출할 경우, 복구(failback) 동안 및 이후의 응답 그룹 활동은 다음 표에 설명된 대로 처리됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-177">When an administrator invokes failback to the primary pool, response group activity is handled during and after the failback as described in the following table.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="bc598-178">재해 복구 중에는 복구 중에 기본 풀 응답 그룹을 백업 풀로 가져왔는지 여부에 따라 호출이 다르게 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-178">During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery.</span></span> <span data-ttu-id="bc598-179">다음 표에서는 재해 복구 모드 중에 주 풀 응답 그룹을 백업 풀로 가져왔는지 평균 응답 그룹을 참조 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-179">In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.</span></span>
+> <span data-ttu-id="7f1c0-p104">재해 복구 중 통화는 기본 풀 응답 그룹을 복구 중에 백업 풀로 가져왔는지 여부에 따라 다르게 작동합니다. 다음 표에서 가져온 응답 그룹에 대한 참조는 기본 풀 응답 그룹을 재해 복구 모드 중에 백업 풀로 가져왔음을 의미합니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-p104">During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery. In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.</span></span>
 
 
 
 </div>
 
-### <a name="call-handling-in-failback"></a><span data-ttu-id="bc598-180">장애 복구 시 통화 처리</span><span class="sxs-lookup"><span data-stu-id="bc598-180">Call Handling in Failback</span></span>
+### <a name="call-handling-in-failback"></a><span data-ttu-id="7f1c0-180">복구(Failback) 중 통화 처리</span><span class="sxs-lookup"><span data-stu-id="7f1c0-180">Call Handling in Failback</span></span>
 
 <table>
 <colgroup>
@@ -247,70 +247,70 @@ ms.locfileid: "41723608"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bc598-181">통화 유형 또는 사용자 작업</span><span class="sxs-lookup"><span data-stu-id="bc598-181">Type of call or user action</span></span></th>
-<th><span data-ttu-id="bc598-182">장애 복구 중</span><span class="sxs-lookup"><span data-stu-id="bc598-182">During Failback</span></span></th>
-<th><span data-ttu-id="bc598-183">장애 복구 완료 후</span><span class="sxs-lookup"><span data-stu-id="bc598-183">After Failback Completes</span></span></th>
+<th><span data-ttu-id="7f1c0-181">통화 또는 사용자 작업 유형</span><span class="sxs-lookup"><span data-stu-id="7f1c0-181">Type of call or user action</span></span></th>
+<th><span data-ttu-id="7f1c0-182">복구(Failback) 동안</span><span class="sxs-lookup"><span data-stu-id="7f1c0-182">During Failback</span></span></th>
+<th><span data-ttu-id="7f1c0-183">복구(Failback) 완료 후</span><span class="sxs-lookup"><span data-stu-id="7f1c0-183">After Failback Completes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bc598-184">에이전트에 연결 된 통화</span><span class="sxs-lookup"><span data-stu-id="bc598-184">Calls connected to an agent</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-184">에이전트에 연결된 통화</span><span class="sxs-lookup"><span data-stu-id="7f1c0-184">Calls connected to an agent</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-185">일반 통화는 연결 된 상태로 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-185">Regular calls remain connected.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-186">응답 그룹을 가져오지 못한 경우에는 익명 호출이이 상태에 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-186">If response groups were not imported, no anonymous calls are in this status.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-187">가져온 응답 그룹의 경우 익명 통화가 연결 된 상태로 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-187">For imported response groups, anonymous calls remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-185">일반 통화는 연결된 상태로 유지됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-185">Regular calls remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-186">응답 그룹을 가져오지 않은 경우 이 상태의 익명 통화가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-186">If response groups were not imported, no anonymous calls are in this status.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-187">가져온 응답 그룹의 경우 익명 통화가 연결된 상태로 유지됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-187">For imported response groups, anonymous calls remain connected.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-188">일반 통화는 연결 된 상태로 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-188">Regular calls remain connected.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-189">응답 그룹을 가져오지 못한 경우에는 익명 호출이이 상태에 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-189">If response groups were not imported, no anonymous calls are in this status.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-190">가져온 응답 그룹의 경우 익명 통화가 연결 된 상태로 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-190">For imported response groups, anonymous calls remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-188">일반 통화는 연결된 상태로 유지됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-188">Regular calls remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-189">응답 그룹을 가져오지 않은 경우 이 상태의 익명 통화가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-189">If response groups were not imported, no anonymous calls are in this status.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-190">가져온 응답 그룹의 경우 익명 통화가 연결된 상태로 유지됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-190">For imported response groups, anonymous calls remain connected.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc598-191">아직 에이전트에 연결 되지 않은 진행 중인 통화</span><span class="sxs-lookup"><span data-stu-id="bc598-191">In progress calls not yet connected to an agent</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-191">에이전트에 아직 연결되지 않은 진행 중인 통화</span><span class="sxs-lookup"><span data-stu-id="7f1c0-191">In progress calls not yet connected to an agent</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-192">응답 그룹을 가져오지 못한 경우에는 모든 호출이이 상태에 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-192">If response groups were not imported, no calls are in this status.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-193">가져온 응답 그룹의 경우 통화 연결이 끊어집니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-193">For imported response groups, calls will be disconnected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-192">응답 그룹을 가져오지 않은 경우 이 상태의 통화가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-192">If response groups were not imported, no calls are in this status.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-193">가져온 응답 그룹의 경우 통화의 연결이 끊어집니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-193">For imported response groups, calls will be disconnected.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-194">응답 그룹을 가져오지 못한 경우에는 모든 호출이이 상태에 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-194">If response groups were not imported, no calls are in this status.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-195">가져온 응답 그룹의 경우 통화 연결이 끊어집니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-195">For imported response groups, calls will be disconnected.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-194">응답 그룹을 가져오지 않은 경우 이 상태의 통화가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-194">If response groups were not imported, no calls are in this status.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-195">가져온 응답 그룹의 경우 통화의 연결이 끊어집니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-195">For imported response groups, calls will be disconnected.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc598-196">새로운 통화</span><span class="sxs-lookup"><span data-stu-id="bc598-196">New calls</span></span></p></td>
-<td><p><span data-ttu-id="bc598-197">기본 풀에 연결 하는 호출이 있지만 기본 풀에 있는 에이전트에는 연결할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-197">Calls connect to the primary pool, but agents homed in the primary pool are unreachable.</span></span></p></td>
-<td><p><span data-ttu-id="bc598-198">기본 풀에 연결을 호출 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-198">Calls connect to the primary pool.</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-196">새 통화</span><span class="sxs-lookup"><span data-stu-id="7f1c0-196">New calls</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-197">통화가 기본 풀에 연결되지만 기본 풀에 있는 에이전트에는 연결할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-197">Calls connect to the primary pool, but agents homed in the primary pool are unreachable.</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-198">통화가 기본 풀에 연결됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-198">Calls connect to the primary pool.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc598-199">응답 그룹을 대신 하 여 에이전트 호출</span><span class="sxs-lookup"><span data-stu-id="bc598-199">Agent calls on behalf of response group</span></span></p></td>
-<td><p><span data-ttu-id="bc598-200">이 단계에서는 기능을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-200">Feature is disabled during this stage.</span></span></p></td>
-<td><p><span data-ttu-id="bc598-201">통화에 성공 했습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-201">Calls succeed.</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-199">응답 그룹을 대신하는 에이전트 통화</span><span class="sxs-lookup"><span data-stu-id="7f1c0-199">Agent calls on behalf of response group</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-200">이 단계 중에는 기능이 해제됩니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-200">Feature is disabled during this stage.</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-201">통화가 성공합니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-201">Calls succeed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc598-202">에이전트 로그인 및 에이전트 정보</span><span class="sxs-lookup"><span data-stu-id="bc598-202">Agent sign-in and agent information</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-202">에이전트 로그인 및 에이전트 정보</span><span class="sxs-lookup"><span data-stu-id="7f1c0-202">Agent sign-in and agent information</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-203">주 풀 소유의 에이전트 그룹은 에이전트 콘솔에서 볼 수 있지만 에이전트는 로그인 할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-203">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-204">에이전트 콘솔에서 백업 풀 소유의 에이전트 그룹을 볼 수 있으며, 에이전트는 로그인 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-204">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-205">가져온 에이전트 그룹은 에이전트 콘솔에 표시 되 고, 에이전트는 로그인 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-205">Imported agent groups are displayed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-203">기본 풀이 소유하는 에이전트 그룹은 에이전트 콘솔에서 볼 수 있지만 에이전트가 로그인할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-203">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-204">백업 풀이 소유하는 에이전트 그룹은 에이전트 콘솔에서 볼 수 있고 에이전트가 로그인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-204">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-205">가져온 에이전트 그룹이 에이전트 콘솔에 표시되고 에이전트가 로그인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-205">Imported agent groups are displayed on agent console and agents can sign in.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-206">주 풀 소유의 에이전트 그룹은 에이전트 콘솔에서 볼 수 있으며, 에이전트는 로그인 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-206">Agent groups owned by the primary pool can be viewed on agent console and agents can sign in.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-207">에이전트 콘솔에서 백업 풀 소유의 에이전트 그룹을 볼 수 있으며, 에이전트는 로그인 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-207">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-208">가져온 에이전트 그룹은 에이전트 콘솔에 표시 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-208">Imported agent groups are not displayed on agent console.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-206">기본 풀이 소유하는 에이전트 그룹은 에이전트 콘솔에서 볼 수 있고 에이전트가 로그인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-206">Agent groups owned by the primary pool can be viewed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-207">백업 풀이 소유하는 에이전트 그룹은 에이전트 콘솔에서 볼 수 있고 에이전트가 로그인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-207">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-208">가져온 에이전트 그룹은 에이전트 콘솔에 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-208">Imported agent groups are not displayed on agent console.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc598-209">응답 그룹 구성</span><span class="sxs-lookup"><span data-stu-id="bc598-209">Response group configuration</span></span></p></td>
+<td><p><span data-ttu-id="7f1c0-209">응답 그룹 구성</span><span class="sxs-lookup"><span data-stu-id="7f1c0-209">Response group configuration</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-210">기본 풀에서 소유 하는 응답 그룹은 기본 풀의 백 엔드 데이터베이스 가용성에 따라 볼 수 있지만 수정할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-210">Response groups owned by the primary pool can be viewed, depending on the availability of the primary pool’s back-end database, but cannot be modified.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-211">백업 풀 소유의 응답 그룹을 보고 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-211">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-212">가져온 응답 그룹은 Lync Server 제어판 또는 응답 그룹 구성 도구로 볼 수 없지만 Lync Server 관리 셸 cmdlet을 사용 하 여 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-212">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-210">기본 풀이 소유하는 응답 그룹은 기본 풀의 백 엔드 데이터베이스 가용성에 따라 볼 수 있지만 수정할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-210">Response groups owned by the primary pool can be viewed, depending on the availability of the primary pool’s back-end database, but cannot be modified.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-211">백업 풀이 소유하는 응답 그룹은 보고 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-211">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-212">가져온 응답 그룹은 Lync Server 제어판 또는 응답 그룹 구성 도구로 볼 수 없지만 Lync Server 관리 셸 cmdlet을 사용 하 여 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-212">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="bc598-213">기본 풀 소유의 응답 그룹을 보고 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-213">Response groups owned by the primary pool can be viewed and modified.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-214">백업 풀 소유의 응답 그룹을 보고 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-214">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
-<li><p><span data-ttu-id="bc598-215">가져온 응답 그룹은 Lync Server 제어판 또는 응답 그룹 구성 도구로 볼 수 없지만 Lync Server 관리 셸 cmdlet을 사용 하 여 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bc598-215">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-213">기본 풀이 소유하는 응답 그룹은 보고 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-213">Response groups owned by the primary pool can be viewed and modified.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-214">백업 풀이 소유하는 응답 그룹은 보고 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-214">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
+<li><p><span data-ttu-id="7f1c0-215">가져온 응답 그룹은 Lync Server 제어판 또는 응답 그룹 구성 도구로 볼 수 없지만 Lync Server 관리 셸 cmdlet을 사용 하 여 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7f1c0-215">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6060048101bba9d4095adf08c176e8c2a944a19
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2732545b807e29f6bda7d7dc931648dc7f759d67
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731998"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037468"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="single-director-in-lync-server-2013"></a><span data-ttu-id="5f24d-102">Lync Server 2013의 단일 디렉터</span><span class="sxs-lookup"><span data-stu-id="5f24d-102">Single Director in Lync Server 2013</span></span>
+# <a name="single-director-in-lync-server-2013"></a><span data-ttu-id="dcef2-102">Lync Server 2013의 단일 디렉터</span><span class="sxs-lookup"><span data-stu-id="dcef2-102">Single Director in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41731998"
 
 <span> </span>
 
-<span data-ttu-id="5f24d-103">_**마지막으로 수정한 주제:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="5f24d-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="dcef2-103">_**마지막으로 수정 된 항목:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="dcef2-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="5f24d-104">디렉터는 단일 디렉터 구성 또는 디렉터 풀로 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5f24d-104">The Director can be deployed in either a single Director configuration or as a Director pool.</span></span> <span data-ttu-id="5f24d-105">이 섹션에서는 단일 디렉터에 대 한 토폴로지 및 구성을 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="5f24d-105">This section defines a topology and configuration for a single Director.</span></span> <span data-ttu-id="5f24d-106">높은 용량을 처리 하 고 가용성을 높이기 위해 디렉터 풀을 배포 하려는 경우 해당 토폴로지에 대 한 계획 고려 사항을 보려면 [Lync Server 2013의 축소 된 디렉터 풀](lync-server-2013-scaled-director-pool.md) 항목을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="5f24d-106">If you are planning on deploying a pool of Directors for the purposes of handling higher capacity and for high availability, see the topic [Scaled Director pool in Lync Server 2013](lync-server-2013-scaled-director-pool.md) for planning considerations for that topology.</span></span>
+<span data-ttu-id="dcef2-104">디렉터는 단일 디렉터 구성 이나 디렉터 풀로 배포 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dcef2-104">The Director can be deployed in either a single Director configuration or as a Director pool.</span></span> <span data-ttu-id="dcef2-105">이 섹션에서는 단일 디렉터에 대 한 토폴로지 및 구성을 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="dcef2-105">This section defines a topology and configuration for a single Director.</span></span> <span data-ttu-id="dcef2-106">더 높은 용량을 처리 하 고 고가용성을 위해 디렉터 풀을 배포 하려는 경우에는 [Lync Server 2013의 확장 된 디렉터 풀](lync-server-2013-scaled-director-pool.md) 항목에서 해당 토폴로지의 계획에 대 한 고려 사항을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="dcef2-106">If you are planning on deploying a pool of Directors for the purposes of handling higher capacity and for high availability, see the topic [Scaled Director pool in Lync Server 2013](lync-server-2013-scaled-director-pool.md) for planning considerations for that topology.</span></span>
 
-<span data-ttu-id="5f24d-107">![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")</span><span class="sxs-lookup"><span data-stu-id="5f24d-107">![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")</span></span>
+<span data-ttu-id="dcef2-107">![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")</span><span class="sxs-lookup"><span data-stu-id="dcef2-107">![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5f24d-108">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="5f24d-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="dcef2-108">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="dcef2-108">In This Section</span></span>
 
-  - [<span data-ttu-id="5f24d-109">Lync Server 2013의 인증서 요약 - 단일 디렉터</span><span class="sxs-lookup"><span data-stu-id="5f24d-109">Certificate summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-single-director.md)
+  - [<span data-ttu-id="dcef2-109">인증서 요약-Lync Server 2013의 단일 디렉터</span><span class="sxs-lookup"><span data-stu-id="dcef2-109">Certificate summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-single-director.md)
 
-  - [<span data-ttu-id="5f24d-110">Lync Server 2013의 포트 요약 - 단일 디렉터</span><span class="sxs-lookup"><span data-stu-id="5f24d-110">Port summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-port-summary-single-director.md)
+  - [<span data-ttu-id="dcef2-110">포트 요약-Lync Server 2013의 단일 디렉터</span><span class="sxs-lookup"><span data-stu-id="dcef2-110">Port summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-port-summary-single-director.md)
 
-  - [<span data-ttu-id="5f24d-111">Lync Server 2013의 DNS 요약 - 단일 디렉터</span><span class="sxs-lookup"><span data-stu-id="5f24d-111">DNS summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-dns-summary-single-director.md)
+  - [<span data-ttu-id="dcef2-111">Lync Server 2013의 DNS 요약-단일 디렉터</span><span class="sxs-lookup"><span data-stu-id="dcef2-111">DNS summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-dns-summary-single-director.md)
 
 </div>
 

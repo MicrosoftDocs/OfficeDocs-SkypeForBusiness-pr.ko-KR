@@ -1,5 +1,5 @@
 ---
-title: L Cperf도구 실행
+title: LyncPerfTool 실행
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29a36be8c6703dad52e6c36d363ae23013643bd7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 165154591e8829a9586382f93b39c39f9fa78c5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743558"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="run-lyncperftool"></a><span data-ttu-id="95225-102">L Cperf도구 실행</span><span class="sxs-lookup"><span data-stu-id="95225-102">Run LyncPerfTool</span></span>
+# <a name="run-lyncperftool"></a><span data-ttu-id="ad36f-102">LyncPerfTool 실행</span><span class="sxs-lookup"><span data-stu-id="ad36f-102">Run LyncPerfTool</span></span>
 
 </div>
 
@@ -35,38 +35,38 @@ ms.locfileid: "41743558"
 
 <span> </span>
 
-<span data-ttu-id="95225-103">_**마지막으로 수정한 주제:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="95225-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="ad36f-103">_**마지막으로 수정 된 항목:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="ad36f-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="95225-104">Lync Server 2013 스트레스 및 성능 도구 (L Cperftool. exe)를 실행 하기 전에 사용자, 연락처 및 시나리오를 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="95225-104">Before running the Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe), you must create users, contacts, and scenarios.</span></span> <span data-ttu-id="95225-105">도구를 사용 하 여 이러한 작업을 수행 하는 방법에 대 한 자세한 내용은 [사용자 및 연락처 만들기](create-users-and-contacts.md) 및 [사용자 프로필 구성을](configure-user-profile.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="95225-105">For details about using the tools to perform these actions, see [Create Users and Contacts](create-users-and-contacts.md) and [Configure User Profile](configure-user-profile.md).</span></span> <span data-ttu-id="95225-106">이러한 도구를 실행 하면 필수 매개 변수를 포함 하는 배치 파일의 일부로 L를 사용 하는 파일이 생성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="95225-106">Running these tools will also generate a file that will run LyncPerfTool.exe as part of a batch file with the required parameters included.</span></span>
+<span data-ttu-id="ad36f-104">Lync Server 2013 스트레스 및 성능 도구 (LyncPerfTool)를 실행 하기 전에 사용자, 연락처 및 시나리오를 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-104">Before running the Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe), you must create users, contacts, and scenarios.</span></span> <span data-ttu-id="ad36f-105">도구를 사용 하 여 이러한 작업을 수행 하는 방법에 대 한 자세한 내용은 [Create Users And Contacts](create-users-and-contacts.md) 및 [Configure User Profile](configure-user-profile.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ad36f-105">For details about using the tools to perform these actions, see [Create Users and Contacts](create-users-and-contacts.md) and [Configure User Profile](configure-user-profile.md).</span></span> <span data-ttu-id="ad36f-106">이러한 도구를 실행 하면 필요한 매개 변수를 포함 하는 배치 파일의 일부로 LyncPerfTool .exe를 실행 하는 파일도 생성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-106">Running these tools will also generate a file that will run LyncPerfTool.exe as part of a batch file with the required parameters included.</span></span>
 
 <div>
 
-## <a name="running-the-lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="95225-107">Lync Server 2013 스트레스 및 성능 도구 실행</span><span class="sxs-lookup"><span data-stu-id="95225-107">Running the Lync Server 2013 Stress and Performance Tool</span></span>
+## <a name="running-the-lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="ad36f-107">Lync Server 2013 스트레스 및 성능 도구 실행</span><span class="sxs-lookup"><span data-stu-id="ad36f-107">Running the Lync Server 2013 Stress and Performance Tool</span></span>
 
-<span data-ttu-id="95225-108">UserProfileGenerator 도구는 L Cperftool 성능 카운터를 등록 하 고 XML 구성 파일을 로드 하 여 l Cperftool을 실행할 수 있는 배치 파일을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="95225-108">The UserProfileGenerator.exe tool creates a batch file that enables you to run LyncPerfTool.exe by registering the LyncPerfTool performance counters and loading the XML configuration file.</span></span> <span data-ttu-id="95225-109">일괄 처리 파일은 각 구성 파일에 대해 L Cperftool의 인스턴스 하나를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="95225-109">The batch file runs one instance of LyncPerfTool.exe per configuration file.</span></span> <span data-ttu-id="95225-110">배치 파일을 실행 하려면 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="95225-110">To run the batch file, do the following:</span></span>
+<span data-ttu-id="ad36f-108">Userprofilegenerator.exe 공용 도구는 LyncPerfTool 성능 카운터를 등록 하 고 XML 구성 파일을 로드 하 여 LyncPerfTool를 실행할 수 있는 배치 파일을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-108">The UserProfileGenerator.exe tool creates a batch file that enables you to run LyncPerfTool.exe by registering the LyncPerfTool performance counters and loading the XML configuration file.</span></span> <span data-ttu-id="ad36f-109">일괄 파일은 구성 파일당 LyncPerfTool 인스턴스 하나를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-109">The batch file runs one instance of LyncPerfTool.exe per configuration file.</span></span> <span data-ttu-id="ad36f-110">배치 파일을 실행 하려면 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-110">To run the batch file, do the following:</span></span>
 
-1.  <span data-ttu-id="95225-111">구성 폴더 및 파일을 포함 하는 폴더를 각 클라이언트 컴퓨터의 LyncStressTool를 포함 하는 디렉터리에 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="95225-111">Copy the folder that contains the configuration folders and files to the directory that contains LyncStressTool.exe on each client computer.</span></span> <span data-ttu-id="95225-112">예를 들어 1.28\_13.16.16 이라는 폴더에 있는 구성 파일을 생성 한 경우 각 클라이언트에서 L Cperftool이 포함 된 폴더로 해당 폴더를 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="95225-112">(For example, if you generated the configuration files in the folder named 1.28\_13.16.16, copy that folder to the folder that contains LyncPerfTool.exe on each client.)</span></span>
+1.  <span data-ttu-id="ad36f-111">구성 폴더 및 파일이 포함 된 폴더를 각 클라이언트 컴퓨터에서 LyncStressTool를 포함 하는 디렉터리에 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-111">Copy the folder that contains the configuration folders and files to the directory that contains LyncStressTool.exe on each client computer.</span></span> <span data-ttu-id="ad36f-112">예를 들어 1.28\_13.16.16 이라는 폴더에 구성 파일을 생성 한 경우 각 클라이언트에서이 폴더를 LyncPerfTool가 포함 된 폴더로 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-112">(For example, if you generated the configuration files in the folder named 1.28\_13.16.16, copy that folder to the folder that contains LyncPerfTool.exe on each client.)</span></span>
 
-2.  <span data-ttu-id="95225-113">적절 한 번호를 매긴 클라이언트 폴더로 이동 하 고 RunClient batch 스크립트를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="95225-113">Navigate to the appropriately numbered client folder and run the RunClient batch script.</span></span> <span data-ttu-id="95225-114">Windows 탐색기에서 배치 파일을 두 번 클릭 하기만 하면 해당 클라이언트 번호에 대 한 모든 구성 파일이 실행 됩니다.</span><span class="sxs-lookup"><span data-stu-id="95225-114">You can simply double-click the batch file in Windows Explorer and it will run all of the configuration files for that client number.</span></span> <span data-ttu-id="95225-115">다음 구문을 사용 하 여 적절 한 클라이언트 폴더에서 스크립트를 실행할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="95225-115">You can also run the script from the appropriate client folder by using the following syntax:</span></span>
+2.  <span data-ttu-id="ad36f-113">적절 하 게 번호가 매겨진 클라이언트 폴더로 이동 하 고 RunClient batch 스크립트를 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-113">Navigate to the appropriately numbered client folder and run the RunClient batch script.</span></span> <span data-ttu-id="ad36f-114">Windows 탐색기에서 배치 파일을 두 번 클릭 하기만 하면 해당 클라이언트 번호에 대 한 모든 구성 파일이 실행 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-114">You can simply double-click the batch file in Windows Explorer and it will run all of the configuration files for that client number.</span></span> <span data-ttu-id="ad36f-115">다음 구문을 사용 하 여 해당 클라이언트 폴더에서 스크립트를 실행할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-115">You can also run the script from the appropriate client folder by using the following syntax:</span></span>
 
     ```Batch
         RunClient0.bat "C:\Program Files\Microsoft Lync Server 2013\LyncStressAndPerfTool\LyncStress" 
     ```
-<span data-ttu-id="95225-116">L Cperftool을 직접 실행 하려면 명령 프롬프트를 열고 명령줄에 다음 명령을 입력 합니다 (이 항목의 뒷부분에 나오는 노트에 표시 된 대로 성능 카운터 regsvr32/i/n/s L Ccptoolperf: dll을 등록 해야 합니다.). L Cperftool. exe/file:\<configxml\></span><span class="sxs-lookup"><span data-stu-id="95225-116">To run LyncPerfTool.exe directly, open a command prompt, and then type the following command at the command line (when doing this for the first time, be sure to register the performance counters regsvr32 /i /n /s LyncPerfToolPerf.dll, as show in the note later in this topic):LyncPerfTool.exe /file:\<configXML\></span></span>
+<span data-ttu-id="ad36f-116">Lyncperftool를 직접 실행 하려면 명령 프롬프트를 열고 명령줄에서 다음 명령을 입력 합니다 (이 항목의 뒷부분에 나오는 참고 사항에 표시 되는 것 처럼 성능 카운터 regsvr32/i/n/s Lsioncperftoolcluster.exe를 등록 해야 함). LyncPerfTool .exe/file:\<configxml\></span><span class="sxs-lookup"><span data-stu-id="ad36f-116">To run LyncPerfTool.exe directly, open a command prompt, and then type the following command at the command line (when doing this for the first time, be sure to register the performance counters regsvr32 /i /n /s LyncPerfToolPerf.dll, as show in the note later in this topic):LyncPerfTool.exe /file:\<configXML\></span></span>
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml
 ```
-<span data-ttu-id="95225-117">도구가 구성 파일의 값을 표시 하도록 하려면 다음과 같이 앞의 명령에/displayfile 매개 변수를 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="95225-117">To have the tool display the values in the configuration file, include the /displayfile parameter on the preceding command, like this:</span></span>
+<span data-ttu-id="ad36f-117">도구에서 구성 파일의 값을 표시 하도록 하려면 다음과 같이 위 명령에/displayfile 매개 변수를 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-117">To have the tool display the values in the configuration file, include the /displayfile parameter on the preceding command, like this:</span></span>
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
-<span data-ttu-id="95225-118">프로세스를 종료 하려면 Ctrl + C를 누릅니다.</span><span class="sxs-lookup"><span data-stu-id="95225-118">To end the process, press Ctrl+C.</span></span>
+<span data-ttu-id="ad36f-118">프로세스를 종료 하려면 Ctrl + C를 누릅니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-118">To end the process, press Ctrl+C.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="95225-119">L Cperf도구를 직접 실행 하기 전에 성능 카운터를 등록 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="95225-119">Before running LyncPerfTool directly, you must register the performance counters.</span></span> <span data-ttu-id="95225-120">다음 명령을 입력 하 여 성능 카운터를 등록 합니다.</span><span class="sxs-lookup"><span data-stu-id="95225-120">Enter the following command to register performance counters:</span></span>
+> <span data-ttu-id="ad36f-119">LyncPerfTool를 직접 실행 하기 전에 성능 카운터를 등록 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-119">Before running LyncPerfTool directly, you must register the performance counters.</span></span> <span data-ttu-id="ad36f-120">다음 명령을 입력 하 여 성능 카운터를 등록 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-120">Enter the following command to register performance counters:</span></span>
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "41743558"
 
 
 > [!NOTE]  
-> <span data-ttu-id="95225-121">시작 하는 L Cperftool의 모든 인스턴스는 사용자의 로그인을 즉시 시작 하 고, 일반적으로 초 당 한 명의 사용자에 게 서명 합니다.</span><span class="sxs-lookup"><span data-stu-id="95225-121">Every instance of LyncPerfTool.exe that you start will immediately start signing in users, usually at a rate of one user per second.</span></span> <span data-ttu-id="95225-122">풀의 최고 사용자 로그인 속도는 초당 약 12입니다.</span><span class="sxs-lookup"><span data-stu-id="95225-122">The peak user sign-in rate for the pool is about 12 per second.</span></span> <span data-ttu-id="95225-123">즉, 사용자가 계속 해 서 로그인 하는 동안 12 개의 L Cperftool 인스턴스를 동시에 시작 해서는 안 됩니다.</span><span class="sxs-lookup"><span data-stu-id="95225-123">This means that you should not start more than 12 LyncPerfTool instances at the same time, while the users are still signing in.</span></span> <span data-ttu-id="95225-124">1000 사용자는 1 초에 완전히 로그인 하는 데 20 분 정도 소요 됩니다.</span><span class="sxs-lookup"><span data-stu-id="95225-124">1000 users will take about 20 minutes to fully sign in, at one per second.</span></span>
+> <span data-ttu-id="ad36f-121">시작 하는 LyncPerfTool의 모든 인스턴스는 사용자에 게 즉시 로그인을 시작 하 고, 일반적으로 초당 1 명의 사용자에 대 한 작업을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-121">Every instance of LyncPerfTool.exe that you start will immediately start signing in users, usually at a rate of one user per second.</span></span> <span data-ttu-id="ad36f-122">풀에 대 한 최고 사용자 로그인 속도는 초당 약 12입니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-122">The peak user sign-in rate for the pool is about 12 per second.</span></span> <span data-ttu-id="ad36f-123">즉, 사용자가 계속 해 서 로그인 하는 동안 12 개 이상의 LyncPerfTool 인스턴스를 동시에 시작 해서는 안 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-123">This means that you should not start more than 12 LyncPerfTool instances at the same time, while the users are still signing in.</span></span> <span data-ttu-id="ad36f-124">1000 사용자는 초당 1 초에 완전히 로그인 하는 데 약 20 분 정도 소요 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ad36f-124">1000 users will take about 20 minutes to fully sign in, at one per second.</span></span>
 
 
 
@@ -89,11 +89,11 @@ ms.locfileid: "41743558"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="95225-125">참고 항목</span><span class="sxs-lookup"><span data-stu-id="95225-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ad36f-125">참고 항목</span><span class="sxs-lookup"><span data-stu-id="ad36f-125">See Also</span></span>
 
 
-[<span data-ttu-id="95225-126">사용자 및 연락처 만들기</span><span class="sxs-lookup"><span data-stu-id="95225-126">Create Users and Contacts</span></span>](create-users-and-contacts.md)  
-[<span data-ttu-id="95225-127">사용자 프로필 구성</span><span class="sxs-lookup"><span data-stu-id="95225-127">Configure User Profile</span></span>](configure-user-profile.md)  
+[<span data-ttu-id="ad36f-126">사용자 및 연락처 만들기</span><span class="sxs-lookup"><span data-stu-id="ad36f-126">Create Users and Contacts</span></span>](create-users-and-contacts.md)  
+[<span data-ttu-id="ad36f-127">사용자 프로필 구성</span><span class="sxs-lookup"><span data-stu-id="ad36f-127">Configure User Profile</span></span>](configure-user-profile.md)  
   
 
 </div>

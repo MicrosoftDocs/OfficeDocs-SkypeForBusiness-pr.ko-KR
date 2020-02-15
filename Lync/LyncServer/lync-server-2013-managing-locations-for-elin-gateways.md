@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 게이트웨이에서 ELIN 대 한 위치 관리'
+title: 'Lync Server 2013: ELIN 게이트웨이에 대 한 위치 관리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba5a7e9067e4cd59ca42e60c620dbb4e8ee5b901
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 35c470b704e7467f573cd5e1fec03d63cf1f4b4e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762106"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043090"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a><span data-ttu-id="4957c-102">Lync Server 2013의 게이트웨이에서 ELIN 대 한 위치 관리</span><span class="sxs-lookup"><span data-stu-id="4957c-102">Managing locations for ELIN gateways in Lync Server 2013</span></span>
+# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a><span data-ttu-id="5756b-102">Lync Server 2013의 ELIN 게이트웨이 위치 관리</span><span class="sxs-lookup"><span data-stu-id="5756b-102">Managing locations for ELIN gateways in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,57 +35,57 @@ ms.locfileid: "41762106"
 
 <span> </span>
 
-<span data-ttu-id="4957c-103">_**마지막으로 수정한 주제:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="4957c-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="5756b-103">_**마지막으로 수정 된 항목:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="5756b-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="4957c-104">Lync Server에서 네트워크 내의 클라이언트에 대 한 위치를 자동으로 제공 하도록 하려면 다음 작업을 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-104">To have Lync Server automatically provide locations for clients within a network, you need to perform the following tasks:</span></span>
+<span data-ttu-id="5756b-104">Lync Server에서 네트워크 내의 클라이언트 위치를 자동으로 제공 하도록 하려면 다음 작업을 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-104">To have Lync Server automatically provide locations for clients within a network, you need to perform the following tasks:</span></span>
 
-  - <span data-ttu-id="4957c-105">네트워크 wiremap 매핑으로 위치 정보 서비스 데이터베이스를 채우고 CompanyName 필드에 비상 위치 Id 번호 (ELINs)를 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-105">Populate the Location Information service database with a network wiremap, and include the Emergency Location Identification Numbers (ELINs) in the CompanyName field.</span></span>
+  - <span data-ttu-id="5756b-105">네트워크 wiremap 매핑 기능을 사용 하 여 위치 정보 서비스 데이터베이스를 채우고 CompanyName 필드에 비상 위치 Id 번호 (ELINs)를 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-105">Populate the Location Information service database with a network wiremap, and include the Emergency Location Identification Numbers (ELINs) in the CompanyName field.</span></span>
 
-  - <span data-ttu-id="4957c-106">네트워크의 클라이언트에서 사용할 수 있도록 위치를 게시 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-106">Publish the locations so that they are available for clients in your network.</span></span>
+  - <span data-ttu-id="5756b-106">네트워크의 클라이언트에서 사용할 수 있도록 위치를 게시 합니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-106">Publish the locations so that they are available for clients in your network.</span></span>
 
-  - <span data-ttu-id="4957c-107">PSTN (공개 교환 전화 네트워크)의 ALI (자동 위치 확인) 데이터베이스에 ELINs을 업로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-107">Upload the ELINs to your public switched telephone network (PSTN) carrier's Automatic Location Identification (ALI) database.</span></span>
+  - <span data-ttu-id="5756b-107">PSTN (공중 전화망) 캐리어의 ALI (자동 위치 식별) 데이터베이스에 ELINs를 업로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-107">Upload the ELINs to your public switched telephone network (PSTN) carrier's Automatic Location Identification (ALI) database.</span></span>
 
-<span data-ttu-id="4957c-108">이러한 작업을 수행 하는 방법에 대 한 자세한 내용은 배포 설명서의 [Lync Server 2013에서 위치 데이터베이스 구성을](lync-server-2013-configure-the-location-database.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="4957c-108">For details about how to perform these tasks, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="5756b-108">이러한 작업을 수행 하는 방법에 대 한 자세한 내용은 배포 설명서의 [Configure the location database In Lync Server 2013](lync-server-2013-configure-the-location-database.md) 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="5756b-108">For details about how to perform these tasks, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="4957c-109">중앙 위치 데이터베이스에 추가 된 위치는 Lync Server Management Shell 명령을 사용 하 여 게시 되거나 풀의 로컬 저장소에 복제 될 때까지 클라이언트에서 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-109">Locations added to the central location database are not available to the client until they have been published by using a Lync Server Management Shell command and are replicated to the pool's local stores.</span></span> <span data-ttu-id="4957c-110">자세한 내용은 배포 설명서의 <A href="lync-server-2013-publish-the-location-database.md">Lync Server 2013에서 위치 데이터베이스 게시</A> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="4957c-110">For details, see <A href="lync-server-2013-publish-the-location-database.md">Publish the location database from Lync Server 2013</A> in the Deployment documentation.</span></span>
+> <span data-ttu-id="5756b-109">중앙 위치 데이터베이스에 추가 된 위치는 Lync Server 관리 셸 명령을 사용 하 여 게시 하 고 풀의 로컬 저장소로 복제 되기 전 까지는 클라이언트에서 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-109">Locations added to the central location database are not available to the client until they have been published by using a Lync Server Management Shell command and are replicated to the pool's local stores.</span></span> <span data-ttu-id="5756b-110">자세한 내용은 배포 설명서의 " <A href="lync-server-2013-publish-the-location-database.md">Lync Server 2013에서 위치 데이터베이스 게시</A> "를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="5756b-110">For details, see <A href="lync-server-2013-publish-the-location-database.md">Publish the location database from Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="4957c-111">이 섹션에서는 위치 데이터베이스를 업데이트 하 고 유지 관리 하는 데 고려해 야 할 사항에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-111">This section describes things to consider as you plan to update and maintain the location database.</span></span>
+<span data-ttu-id="5756b-111">이 섹션에서는 위치 데이터베이스의 업데이트 및 유지 관리를 계획할 때 고려해 야 할 사항에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-111">This section describes things to consider as you plan to update and maintain the location database.</span></span>
 
 <div>
 
-## <a name="planning-emergency-locations"></a><span data-ttu-id="4957c-112">응급 위치 계획</span><span class="sxs-lookup"><span data-stu-id="4957c-112">Planning Emergency Locations</span></span>
+## <a name="planning-emergency-locations"></a><span data-ttu-id="5756b-112">응급 위치 계획</span><span class="sxs-lookup"><span data-stu-id="5756b-112">Planning Emergency Locations</span></span>
 
-<span data-ttu-id="4957c-113">게이트웨이에서 ELIN 사용 하는 경우 위치 정보 서비스 데이터베이스를 도심 주소, 건물 내의 특정 위치, 각 위치에 대해 하나 이상의 ELIN으로 채웁니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-113">When you use ELIN gateways, you populate the Location Information service database with the civic address, a specific location within a building, and at least one ELIN for each location .</span></span> <span data-ttu-id="4957c-114">계획 단계에서는 위치의 이름을 지정할 방법과 ELINs을 지정 하는 방법을 결정 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-114">During the planning phase, it is a good idea to decide how you want to name the locations and how you want to assign ELINs.</span></span>
+<span data-ttu-id="5756b-113">ELIN 게이트웨이를 사용 하는 경우 위치 정보 서비스 데이터베이스를 도심 주소, 건물 내의 특정 위치, 각 위치에 대해 하나 이상의 ELIN으로 채웁니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-113">When you use ELIN gateways, you populate the Location Information service database with the civic address, a specific location within a building, and at least one ELIN for each location .</span></span> <span data-ttu-id="5756b-114">계획 단계 중에 위치 이름을 지정 하는 방법과 ELINs를 할당할 방법을 결정 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-114">During the planning phase, it is a good idea to decide how you want to name the locations and how you want to assign ELINs.</span></span>
 
 <div>
 
-## <a name="planning-location-names"></a><span data-ttu-id="4957c-115">계획 위치 이름</span><span class="sxs-lookup"><span data-stu-id="4957c-115">Planning Location Names</span></span>
+## <a name="planning-location-names"></a><span data-ttu-id="5756b-115">위치 이름 계획</span><span class="sxs-lookup"><span data-stu-id="5756b-115">Planning Location Names</span></span>
 
-<span data-ttu-id="4957c-116">위치 정보 서비스 **위치** 필드에는 건물 내의 특정 위치가 포함 되며, 최대 길이는 20 자 (공백 포함)입니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-116">The Location Information service **Location** field, which holds the specific location within a building, has a maximum length of 20 characters (including spaces).</span></span> <span data-ttu-id="4957c-117">제한 된 길이 내에 다음을 포함 하세요.</span><span class="sxs-lookup"><span data-stu-id="4957c-117">Within that limited length, try to include the following:</span></span>
+<span data-ttu-id="5756b-116">건물 내에서 특정 위치를 보유 하는 위치 정보 서비스 **위치** 필드에는 최대 길이 20 자 (공백 포함)가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-116">The Location Information service **Location** field, which holds the specific location within a building, has a maximum length of 20 characters (including spaces).</span></span> <span data-ttu-id="5756b-117">이 제한 길이 내에서 다음을 포함합니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-117">Within that limited length, try to include the following:</span></span>
 
-  - <span data-ttu-id="4957c-118">응급 응답 자가 도심 주소에 도착할 때 바로 특정 위치를 찾을 수 있도록 911 발신자의 위치를 식별 하는 이해 하기 쉬운 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-118">An easy-to-understand name that identifies the location of the 911 caller to help ensure that emergency responders find the specific location promptly when they arrive at the civic address.</span></span> <span data-ttu-id="4957c-119">이 위치 이름에는 건물 번호, 바닥 번호, 날개 지정자, 방 번호 등이 포함 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-119">This location name may include a building number, floor number, wing designator, room number, and so on.</span></span> <span data-ttu-id="4957c-120">직원 에게만 알려진 닉네임을 사용 하지 마세요 .이로 인해 비상 응답 자가 잘못 된 위치로 이동할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-120">Avoid nicknames that are known only to employees, which might cause emergency responders to go to the wrong location.</span></span>
+  - <span data-ttu-id="5756b-118">응급 응답 자가 도심 주소에 도착 했을 때 즉시 특정 위치를 찾을 수 있도록 911 발신자의 위치를 식별 하는 이해 하기 쉬운 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-118">An easy-to-understand name that identifies the location of the 911 caller to help ensure that emergency responders find the specific location promptly when they arrive at the civic address.</span></span> <span data-ttu-id="5756b-119">이 위치 이름에는 건물 번호, 바닥 번호, 윙 지정자, 방 번호 등이 포함 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-119">This location name may include a building number, floor number, wing designator, room number, and so on.</span></span> <span data-ttu-id="5756b-120">직원 에게만 알려진 애칭을 사용 하지 않으며,이로 인해 응급 응답 자가 잘못 된 위치로 이동할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-120">Avoid nicknames that are known only to employees, which might cause emergency responders to go to the wrong location.</span></span>
 
-  - <span data-ttu-id="4957c-121">사용자의 Lync 클라이언트가 올바른 위치를 선택 했는지 쉽게 확인할 수 있도록 돕는 위치 식별자입니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-121">A location identifier that helps users to easily see that their Lync client picked up the correct location.</span></span> <span data-ttu-id="4957c-122">Lync 클라이언트는 검색 된 **위치** 및 **도시** 필드를 해당 머리글에 자동으로 연결 하 여 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-122">The Lync client automatically concatenates and displays the discovered **Location** and **City** fields in its header.</span></span> <span data-ttu-id="4957c-123">좋은 방법은 각 위치 식별자에 건물의 거리를 추가 하는 것입니다 (예: "1 층 \<거리 번호\>").</span><span class="sxs-lookup"><span data-stu-id="4957c-123">A good practice is to add the street address of the building to each location identifier (for example, "1st Floor \<street number\>").</span></span> <span data-ttu-id="4957c-124">이 주소가 없으면 "1 층"과 같은 일반적인 위치 식별자가 도시의 모든 건물에 적용 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-124">Without the street address, a generic location identifier such as "1st Floor" could apply to any building in the city.</span></span>
+  - <span data-ttu-id="5756b-121">Lync 클라이언트가 정확한 위치를 선택했는지 사용자가 쉽게 알 수 있도록 하는 위치 식별자입니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-121">A location identifier that helps users to easily see that their Lync client picked up the correct location.</span></span> <span data-ttu-id="5756b-122">Lync 클라이언트가 헤더에서 검색된 **Location** 및 **City** 필드를 자동으로 연결하여 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-122">The Lync client automatically concatenates and displays the discovered **Location** and **City** fields in its header.</span></span> <span data-ttu-id="5756b-123">건물의 주소를 각 위치 식별자 (예: "1 층 \<거리 번호\>")로 추가 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-123">A good practice is to add the street address of the building to each location identifier (for example, "1st Floor \<street number\>").</span></span> <span data-ttu-id="5756b-124">번지를 사용하지 않을 경우 "1층"과 같은 일반 위치 식별자를 도시의 모든 건물에 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-124">Without the street address, a generic location identifier such as "1st Floor" could apply to any building in the city.</span></span>
 
-  - <span data-ttu-id="4957c-125">위치가 무선 액세스 포인트로 결정 되기 때문에 근사값 인 경우에는 근처에 단어를 추가할 수 있습니다 (예: "가까운 1 층 1234").</span><span class="sxs-lookup"><span data-stu-id="4957c-125">If the location is approximate because it’s determined by a wireless access point, you may want to add the word Near (for example, "Near 1st Floor 1234").</span></span>
+  - <span data-ttu-id="5756b-125">무선 액세스 지점에 의해 결정 된 것으로 예상 되는 위치인 경우 근처에 단어를 추가할 수 있습니다 (예: "가까운 1 층 1234").</span><span class="sxs-lookup"><span data-stu-id="5756b-125">If the location is approximate because it’s determined by a wireless access point, you may want to add the word Near (for example, "Near 1st Floor 1234").</span></span>
 
 </div>
 
 <div>
 
-## <a name="planning-elins"></a><span data-ttu-id="4957c-126">ELINs</span><span class="sxs-lookup"><span data-stu-id="4957c-126">Planning ELINs</span></span>
+## <a name="planning-elins"></a><span data-ttu-id="5756b-126">ELINs 계획</span><span class="sxs-lookup"><span data-stu-id="5756b-126">Planning ELINs</span></span>
 
-<span data-ttu-id="4957c-127">건물 공간을 위치로 나누는 방법을 결정 한 후에는 각 위치에 할당할 ELINs의 수를 결정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-127">After you decide how you want to divide your building space into locations, you need to decide how many ELINs to assign to each location.</span></span> <span data-ttu-id="4957c-128">예를 들어 multifloor 또는 다중 테 넌 트 빌드에서는 건물의 다른 영역에 다른 긴급 영역을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-128">For example, in a multifloor or multitenant building, different areas in the building can be assigned different emergency zones.</span></span> <span data-ttu-id="4957c-129">일반적으로 건물의 각 층은 위치로 지정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-129">Typically, each floor in a building is designated as a location.</span></span> <span data-ttu-id="4957c-130">그런 다음, 긴급 통화 중에 전화 번호로 사용 되는 하나 이상의 ELINs을 각 위치에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-130">Each location is then assigned one or more ELINs, which are used as the calling number(s) during an emergency call.</span></span> <span data-ttu-id="4957c-131">ELINs에 사용할 수 있는 전화 번호는 PSTN 통신 회사에 문의 하세요.</span><span class="sxs-lookup"><span data-stu-id="4957c-131">Contact your PSTN carrier for phone numbers that you can use for ELINs.</span></span> <span data-ttu-id="4957c-132">다음 표에서는 특정 주소에 대 한 위치의 예를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-132">The following table provides an example of locations for a specific street address.</span></span>
+<span data-ttu-id="5756b-127">건물 공간을 위치로 나누는 방법을 결정 한 후에는 각 위치에 할당할 ELINs 수를 결정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-127">After you decide how you want to divide your building space into locations, you need to decide how many ELINs to assign to each location.</span></span> <span data-ttu-id="5756b-128">예를 들어 multifloor 또는 다중 테 넌 트 건물에서 건물의 각 영역에 서로 다른 응급 영역을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-128">For example, in a multifloor or multitenant building, different areas in the building can be assigned different emergency zones.</span></span> <span data-ttu-id="5756b-129">일반적으로 건물의 각 층은 위치를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-129">Typically, each floor in a building is designated as a location.</span></span> <span data-ttu-id="5756b-130">그런 다음 각 위치에는 긴급 통화 중에 통화 번호로 사용 되는 하나 이상의 ELINs가 할당 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-130">Each location is then assigned one or more ELINs, which are used as the calling number(s) during an emergency call.</span></span> <span data-ttu-id="5756b-131">ELINs에 사용할 수 있는 전화 번호에 대해서는 PSTN 캐리어에 문의 하세요.</span><span class="sxs-lookup"><span data-stu-id="5756b-131">Contact your PSTN carrier for phone numbers that you can use for ELINs.</span></span> <span data-ttu-id="5756b-132">다음 표에서는 특정 주소에 대 한 위치의 예를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-132">The following table provides an example of locations for a specific street address.</span></span>
 
-### <a name="sample-location-and-elin-assignments"></a><span data-ttu-id="4957c-133">과제에 대 한 예제 위치 및 ELIN</span><span class="sxs-lookup"><span data-stu-id="4957c-133">Sample Location and ELIN Assignments</span></span>
+### <a name="sample-location-and-elin-assignments"></a><span data-ttu-id="5756b-133">샘플 위치 및 ELIN 할당</span><span class="sxs-lookup"><span data-stu-id="5756b-133">Sample Location and ELIN Assignments</span></span>
 
 <table>
 <colgroup>
@@ -95,36 +95,36 @@ ms.locfileid: "41762106"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4957c-134">건물 면적</span><span class="sxs-lookup"><span data-stu-id="4957c-134">Building Area</span></span></th>
-<th><span data-ttu-id="4957c-135">위치</span><span class="sxs-lookup"><span data-stu-id="4957c-135">Location</span></span></th>
-<th><span data-ttu-id="4957c-136">ELIN</span><span class="sxs-lookup"><span data-stu-id="4957c-136">ELIN</span></span></th>
+<th><span data-ttu-id="5756b-134">건물 면적</span><span class="sxs-lookup"><span data-stu-id="5756b-134">Building Area</span></span></th>
+<th><span data-ttu-id="5756b-135">위치</span><span class="sxs-lookup"><span data-stu-id="5756b-135">Location</span></span></th>
+<th><span data-ttu-id="5756b-136">ELIN</span><span class="sxs-lookup"><span data-stu-id="5756b-136">ELIN</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4957c-137">1 층</span><span class="sxs-lookup"><span data-stu-id="4957c-137">First floor</span></span></p></td>
-<td><p><span data-ttu-id="4957c-138">1</span><span class="sxs-lookup"><span data-stu-id="4957c-138">1</span></span></p></td>
-<td><p><span data-ttu-id="4957c-139">425-555-0100</span><span class="sxs-lookup"><span data-stu-id="4957c-139">425-555-0100</span></span></p></td>
+<td><p><span data-ttu-id="5756b-137">첫 번째 층</span><span class="sxs-lookup"><span data-stu-id="5756b-137">First floor</span></span></p></td>
+<td><p><span data-ttu-id="5756b-138">1 </span><span class="sxs-lookup"><span data-stu-id="5756b-138">1</span></span></p></td>
+<td><p><span data-ttu-id="5756b-139">425-555-0100</span><span class="sxs-lookup"><span data-stu-id="5756b-139">425-555-0100</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4957c-140">2 층</span><span class="sxs-lookup"><span data-stu-id="4957c-140">Second floor</span></span></p></td>
-<td><p><span data-ttu-id="4957c-141">2</span><span class="sxs-lookup"><span data-stu-id="4957c-141">2</span></span></p></td>
-<td><p><span data-ttu-id="4957c-142">425-555-0111</span><span class="sxs-lookup"><span data-stu-id="4957c-142">425-555-0111</span></span></p></td>
+<td><p><span data-ttu-id="5756b-140">2 층</span><span class="sxs-lookup"><span data-stu-id="5756b-140">Second floor</span></span></p></td>
+<td><p><span data-ttu-id="5756b-141">2 </span><span class="sxs-lookup"><span data-stu-id="5756b-141">2</span></span></p></td>
+<td><p><span data-ttu-id="5756b-142">425-555-0111</span><span class="sxs-lookup"><span data-stu-id="5756b-142">425-555-0111</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4957c-143">세 번째 층</span><span class="sxs-lookup"><span data-stu-id="4957c-143">Third floor</span></span></p></td>
-<td><p><span data-ttu-id="4957c-144">3</span><span class="sxs-lookup"><span data-stu-id="4957c-144">3</span></span></p></td>
-<td><p><span data-ttu-id="4957c-145">425-555-0123</span><span class="sxs-lookup"><span data-stu-id="4957c-145">425-555-0123</span></span></p></td>
+<td><p><span data-ttu-id="5756b-143">3 층</span><span class="sxs-lookup"><span data-stu-id="5756b-143">Third floor</span></span></p></td>
+<td><p><span data-ttu-id="5756b-144">3 </span><span class="sxs-lookup"><span data-stu-id="5756b-144">3</span></span></p></td>
+<td><p><span data-ttu-id="5756b-145">425-555-0123</span><span class="sxs-lookup"><span data-stu-id="5756b-145">425-555-0123</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="4957c-146">정의한 위치는 다음 요구 사항을 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-146">The locations you define should meet the following requirements:</span></span>
+<span data-ttu-id="5756b-146">정의 하는 위치는 다음 요구 사항을 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-146">The locations you define should meet the following requirements:</span></span>
 
-  - <span data-ttu-id="4957c-147">지역 및 국가/지역 규정에 대 한 각 위치 당 최대 영역과 해당 주소에 대 한 위치 수를 준수 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-147">Comply with local and national/regional regulations in terms of maximum area per location and number of locations per street address.</span></span>
+  - <span data-ttu-id="5756b-147">위치 당 최대 영역과 지역 규정, 주소 당 위치 수 측면에서 현지 및 국가/지역 규제를 준수 합니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-147">Comply with local and national/regional regulations in terms of maximum area per location and number of locations per street address.</span></span>
 
-  - <span data-ttu-id="4957c-148">는 긴급 전화 발신자를 쉽게 찾을 수 있도록 충분히 특별 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-148">Are specific enough to make it easy to locate the emergency caller.</span></span>
+  - <span data-ttu-id="5756b-148">긴급 전화 건 사람을 쉽게 찾을 수 있도록 구체적으로 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-148">Are specific enough to make it easy to locate the emergency caller.</span></span>
 
 </div>
 
@@ -132,37 +132,37 @@ ms.locfileid: "41762106"
 
 <div>
 
-## <a name="populating-the-location-database"></a><span data-ttu-id="4957c-149">위치 데이터베이스 채우기</span><span class="sxs-lookup"><span data-stu-id="4957c-149">Populating the Location Database</span></span>
+## <a name="populating-the-location-database"></a><span data-ttu-id="5756b-149">위치 데이터베이스 채우기</span><span class="sxs-lookup"><span data-stu-id="5756b-149">Populating the Location Database</span></span>
 
-<span data-ttu-id="4957c-150">다음 질문은 위치 데이터베이스를 채우는 방법을 결정 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-150">The following questions will help you determine how to will populate the location database.</span></span>
+<span data-ttu-id="5756b-150">다음은 위치 데이터베이스를 채우는 방법을 결정 하는 데 도움이 되는 질문입니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-150">The following questions will help you determine how to will populate the location database.</span></span>
 
-  - <span data-ttu-id="4957c-151">**위치 데이터베이스를 채우는 데 어떤 프로세스를 사용할 수 있나요?**</span><span class="sxs-lookup"><span data-stu-id="4957c-151">**What process will you use to populate the location database?**</span></span>  
-    <span data-ttu-id="4957c-152">데이터는 어디에 있으며 데이터를 위치 데이터베이스에서 요구 하는 형식으로 변환 하기 위해 수행 해야 하는 단계는 무엇 인가요?</span><span class="sxs-lookup"><span data-stu-id="4957c-152">Where does the data exist, and what steps do you need to take to convert the data into the format required by the location database?</span></span> <span data-ttu-id="4957c-153">CSV 파일을 사용 하 여 개별적으로 또는 대량으로 위치를 추가 하나요?</span><span class="sxs-lookup"><span data-stu-id="4957c-153">Will you add locations individually, or in bulk, by using a CSV file?</span></span>
+  - <span data-ttu-id="5756b-151">**위치 데이터베이스를 채우는 데 사용할 프로세스는 무엇입니까?**</span><span class="sxs-lookup"><span data-stu-id="5756b-151">**What process will you use to populate the location database?**</span></span>  
+    <span data-ttu-id="5756b-p107">데이터가 어디에 있습니까 그리고 이러한 데이터를 위치 데이터베이스에서 요구하는 형식으로 변환하기 위해 수행해야 할 단계는 무엇입니까? 위치를 CSV 파일을 사용하여 일괄적으로 또는 개별적으로 추가하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="5756b-p107">Where does the data exist, and what steps do you need to take to convert the data into the format required by the location database? Will you add locations individually, or in bulk, by using a CSV file?</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="4957c-154">**위치 매핑이 이미 포함 되어 있는 타사 데이터베이스를 사용 하 고 있나요?**</span><span class="sxs-lookup"><span data-stu-id="4957c-154">**Do you have a third party database that already contains a mapping of locations?**</span></span>  
-    <span data-ttu-id="4957c-155">타사 데이터베이스에 연결 하기 위해 Lync 서버의 보조 위치 정보 서비스 옵션을 사용 하면 오프 라인 플랫폼을 사용 하 여 위치를 그룹화 하 고 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-155">By using Lync Server's Secondary Location Information service option to connect to a third-party database, you can group and manage locations by using an offline platform.</span></span> <span data-ttu-id="4957c-156">이 방법의 장점은 위치를 네트워크 식별자와 연결 하는 것 외에 위치를 사용자와 연결할 수 있다는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-156">A benefit to this approach is that in addition to associating locations to network identifiers, you can associate locations to a user.</span></span> <span data-ttu-id="4957c-157">즉, 위치 정보 서비스는 보조 위치 정보 서비스에서 가져온 여러 주소를 Lync Server 클라이언트로 반환할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-157">This means that the Location Information service can return multiple addresses, originating from the Secondary Location Information service, to a Lync Server client.</span></span> <span data-ttu-id="4957c-158">그러면 사용자가 가장 적합 한 위치를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-158">The user can then choose the most appropriate location.</span></span>
+  - <span data-ttu-id="5756b-154">**위치 매핑이 이미 포함된 타사 데이터베이스가 있습니까?**</span><span class="sxs-lookup"><span data-stu-id="5756b-154">**Do you have a third party database that already contains a mapping of locations?**</span></span>  
+    <span data-ttu-id="5756b-155">Lync Server의 보조 위치 정보 서비스 옵션을 사용 하 여 타사 데이터베이스에 연결 하는 방법으로 오프 라인 플랫폼을 사용 하 여 위치를 그룹화 하 고 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-155">By using Lync Server's Secondary Location Information service option to connect to a third-party database, you can group and manage locations by using an offline platform.</span></span> <span data-ttu-id="5756b-156">이 방법을 사용하면 위치를 네트워크 식별자에게 연결할 수 있을 뿐만 아니라 사용자에게도 연결할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-156">A benefit to this approach is that in addition to associating locations to network identifiers, you can associate locations to a user.</span></span> <span data-ttu-id="5756b-157">즉, 위치 정보 서비스는 보조 위치 정보 서비스에서 시작 하는 여러 주소를 Lync Server 클라이언트에 반환할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-157">This means that the Location Information service can return multiple addresses, originating from the Secondary Location Information service, to a Lync Server client.</span></span> <span data-ttu-id="5756b-158">그러면 사용자는 가장 적합한 위치를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-158">The user can then choose the most appropriate location.</span></span>
     
-    <span data-ttu-id="4957c-159">위치 정보 서비스와 통합 하려면 타사 데이터베이스가 Lync 서버 위치 요청/응답 스키마를 따라야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-159">To integrate with the Location Information service, the third-party database must follow the Lync Server Location Request/Response schema.</span></span> <span data-ttu-id="4957c-160">자세한 내용은을 참조 <http://go.microsoft.com/fwlink/p/?linkid=213819>하세요.</span><span class="sxs-lookup"><span data-stu-id="4957c-160">For details, see <http://go.microsoft.com/fwlink/p/?linkid=213819>.</span></span> <span data-ttu-id="4957c-161">보조 위치 정보 서비스 배포에 대 한 자세한 내용은 배포 설명서의 [Lync Server 2013에서 보조 위치 정보 서비스 구성을](lync-server-2013-configure-a-secondary-location-information-service.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="4957c-161">For details about deploying a Secondary Location Information service, see [Configure a secondary Location Information service in Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) in the Deployment documentation.</span></span>
+    <span data-ttu-id="5756b-159">위치 정보 서비스와 통합 하려면 타사 데이터베이스가 Lync Server 위치 요청/응답 스키마를 따라야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-159">To integrate with the Location Information service, the third-party database must follow the Lync Server Location Request/Response schema.</span></span> <span data-ttu-id="5756b-160">자세한 내용은를 참조 <http://go.microsoft.com/fwlink/p/?linkid=213819>하세요.</span><span class="sxs-lookup"><span data-stu-id="5756b-160">For details, see <http://go.microsoft.com/fwlink/p/?linkid=213819>.</span></span> <span data-ttu-id="5756b-161">보조 위치 정보 서비스를 배포 하는 방법에 대 한 자세한 내용은 배포 설명서에서 [Lync Server 2013의 구성 a 보조 위치 정보 서비스](lync-server-2013-configure-a-secondary-location-information-service.md) 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="5756b-161">For details about deploying a Secondary Location Information service, see [Configure a secondary Location Information service in Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) in the Deployment documentation.</span></span>
 
-<span data-ttu-id="4957c-162">위치 데이터베이스를 채우는 방법에 대 한 자세한 내용은 배포 설명서의 [Lync Server 2013에서 위치 데이터베이스 구성을](lync-server-2013-configure-the-location-database.md) 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="4957c-162">For details about populating the location database, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="5756b-162">위치 데이터베이스를 채우는 방법에 대 한 자세한 내용은 배포 설명서의 [Configure the location database In Lync Server 2013](lync-server-2013-configure-the-location-database.md) 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="5756b-162">For details about populating the location database, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.</span></span>
 
 </div>
 
 <div>
 
-## <a name="maintaining-the-location-database"></a><span data-ttu-id="4957c-163">위치 데이터베이스 유지 관리</span><span class="sxs-lookup"><span data-stu-id="4957c-163">Maintaining the Location Database</span></span>
+## <a name="maintaining-the-location-database"></a><span data-ttu-id="5756b-163">위치 데이터베이스 유지 관리</span><span class="sxs-lookup"><span data-stu-id="5756b-163">Maintaining the Location Database</span></span>
 
-<span data-ttu-id="4957c-164">위치 데이터베이스를 채운 후에는 네트워크 구성 변경으로 데이터베이스를 업데이트 하기 위한 전략을 개발 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-164">After you populate the location database, you need to develop a strategy for updating the database as the network configuration changes.</span></span> <span data-ttu-id="4957c-165">다음 질문은 위치 데이터베이스를 유지 관리 하는 방법을 결정 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-165">The following questions will help you determine how to maintain the location database.</span></span>
+<span data-ttu-id="5756b-p110">위치 데이터베이스를 채우고 나면 네트워크 구성이 변경되므로 데이터베이스를 업데이트하기 위한 전략을 개발해야 합니다. 다음 질문은 위치 데이터베이스를 유지 관리하는 방법을 결정하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-p110">After you populate the location database, you need to develop a strategy for updating the database as the network configuration changes. The following questions will help you determine how to maintain the location database.</span></span>
 
-  - <span data-ttu-id="4957c-166">**위치 데이터베이스를 업데이트 하는 방법은 무엇 인가요?**</span><span class="sxs-lookup"><span data-stu-id="4957c-166">**How will you update the location database?**</span></span>  
-    <span data-ttu-id="4957c-167">위치 데이터베이스에 업데이트 해야 하는 몇 가지 시나리오는 WAPs (무선 액세스 지점), office recabling 추가 (다른 전환 지정) 및 서브넷 확장을 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-167">There are several scenarios that require an update to the location database, including adding wireless access points (WAPs), office recabling (resulting in different switch assignments), and subnet expansion.</span></span> <span data-ttu-id="4957c-168">각각의 개별 위치를 직접 업데이트 하거나 CSV 파일을 사용 하 여 모든 위치의 대량 업데이트를 수행할지 여부를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-168">Will you directly update each individual location, or will you perform a bulk update of all the locations by using a CSV file?</span></span>
+  - <span data-ttu-id="5756b-166">**어떤 방법으로 위치 데이터베이스를 업데이트하시겠습니까?**</span><span class="sxs-lookup"><span data-stu-id="5756b-166">**How will you update the location database?**</span></span>  
+    <span data-ttu-id="5756b-167">Wap (무선 액세스 지점), office recabling (서로 다른 스위치 할당의 결과) 및 서브넷 확장을 포함 하 여 위치 데이터베이스를 업데이트 해야 하는 몇 가지 시나리오가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-167">There are several scenarios that require an update to the location database, including adding wireless access points (WAPs), office recabling (resulting in different switch assignments), and subnet expansion.</span></span> <span data-ttu-id="5756b-168">각 개별 위치를 직접 업데이트하시겠습니까 아니면 CSV 파일을 사용하여 모든 위치를 일괄적으로 업데이트하시겠습니까?</span><span class="sxs-lookup"><span data-stu-id="5756b-168">Will you directly update each individual location, or will you perform a bulk update of all the locations by using a CSV file?</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="4957c-169">**Lync 클라이언트 MAC 주소와 포트 및 스위치 식별자를 비교 하는 데 SNMP 응용 프로그램을 사용 하나요?**</span><span class="sxs-lookup"><span data-stu-id="4957c-169">**Will you use an SNMP application to match Lync client MAC addresses to port and switch identifiers?**</span></span>  
-    <span data-ttu-id="4957c-170">SNMP 응용 프로그램을 사용 하는 경우 SNMP 응용 프로그램과 위치 데이터베이스 간에 스위치 섀시 및 포트 정보를 일관성 있게 유지 하는 수동 프로세스를 개발 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-170">If you use an SNMP application, you need to develop a manual process for keeping the switch chassis and port information consistent between the SNMP application and the location database.</span></span> <span data-ttu-id="4957c-171">SNMP 응용 프로그램이 데이터베이스에 포함 되지 않은 섀시 IP 주소나 포트 ID를 반환 하는 경우 위치 정보 서비스에서 클라이언트에 대 한 위치를 반환할 수 없게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4957c-171">If the SNMP application returns a chassis IP address or port ID that is not included in the database, the Location Information service will not be able to return a location to the client.</span></span>
+  - <span data-ttu-id="5756b-169">**SNMP 응용 프로그램을 사용하여 Lync 클라이언트 MAC 주소를 포트 및 스위치 식별자와 일치시키시겠습니까?**</span><span class="sxs-lookup"><span data-stu-id="5756b-169">**Will you use an SNMP application to match Lync client MAC addresses to port and switch identifiers?**</span></span>  
+    <span data-ttu-id="5756b-170">SNMP 응용 프로그램을 사용할 경우 SNMP 응용 프로그램과 위치 데이터베이스 간 포트 및 스위치 정보를 일치시키기 위한 수동 프로세스를 개발해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-170">If you use an SNMP application, you need to develop a manual process for keeping the switch chassis and port information consistent between the SNMP application and the location database.</span></span> <span data-ttu-id="5756b-171">SNMP 응용 프로그램이 데이터베이스에 포함 되지 않은 섀시 IP 주소 또는 포트 ID를 반환 하는 경우에는 위치 정보 서비스에서 클라이언트에 대 한 위치를 반환할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="5756b-171">If the SNMP application returns a chassis IP address or port ID that is not included in the database, the Location Information service will not be able to return a location to the client.</span></span>
 
 </div>
 

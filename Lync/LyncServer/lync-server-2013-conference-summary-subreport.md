@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 컨퍼런스 요약 하위 보고서'
+title: 'Lync Server 2013: 전화 회의 요약 하위 보고서'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183742
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2537cbe959639baee6f0f986b3faea1ebd79b5a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d2c31c614298112b91874882df1e4945845b74bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756992"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046321"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-subreport-in-lync-server-2013"></a><span data-ttu-id="85b4d-102">Lync Server 2013의 컨퍼런스 요약 하위 보고서</span><span class="sxs-lookup"><span data-stu-id="85b4d-102">Conference Summary Subreport in Lync Server 2013</span></span>
+# <a name="conference-summary-subreport-in-lync-server-2013"></a><span data-ttu-id="34bdf-102">Lync Server 2013의 전화 회의 요약 하위 보고서</span><span class="sxs-lookup"><span data-stu-id="34bdf-102">Conference Summary Subreport in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41756992"
 
 <span> </span>
 
-<span data-ttu-id="85b4d-103">_**마지막으로 수정한 주제:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="85b4d-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="34bdf-103">_**마지막으로 수정 된 항목:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="34bdf-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="85b4d-104">회의 요약 하위 보고서는 실패 한 회의 세션의 전체적인 보기를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-104">The Conference Summary Subreport provides an overall view of failed conference sessions.</span></span> <span data-ttu-id="85b4d-105">이러한 실패 한 세션은 세션 유형: 포커스 세션 및 MCU 세션으로 더욱 세분화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-105">These failed sessions are further broken down by session type: Focus sessions and MCU sessions.</span></span>
+<span data-ttu-id="34bdf-p101">전화 회의 요약 하위 보고서에서는 실패한 전화 회의 세션에 대한 전반적인 정보를 제공합니다. 이와 같은 실패한 세션은 세션 유형(회의 센터 세션 및 MCU 세션)별로 세분화됩니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-p101">The Conference Summary Subreport provides an overall view of failed conference sessions. These failed sessions are further broken down by session type: Focus sessions and MCU sessions.</span></span>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="85b4d-106">필터가</span><span class="sxs-lookup"><span data-stu-id="85b4d-106">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="34bdf-106">필터</span><span class="sxs-lookup"><span data-stu-id="34bdf-106">Filters</span></span>
 
-<span data-ttu-id="85b4d-107">필터를 통해 더욱 세밀 하 게 대상 지정 된 데이터 집합을 반환 하거나 반환 된 데이터를 다양 한 방식으로 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-107">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="85b4d-108">다음 표에는 회의 요약 하위 보고서와 함께 사용할 수 있는 필터가 나열 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-108">The following table lists the filters that you can use with the Conference Summary Subreport.</span></span>
+<span data-ttu-id="34bdf-p102">필터를 사용하면 여러 방식으로 반환된 데이터를 보거나 보다 세부적으로 대상화된 데이터 집합을 반환할 수 있습니다. 다음 표에서는 전화 회의 요약 하위 보고서에 사용할 수 있는 필터를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-p102">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Conference Summary Subreport.</span></span>
 
-### <a name="conference-summary-subreport-filters"></a><span data-ttu-id="85b4d-109">컨퍼런스 요약 하위 보고서 필터</span><span class="sxs-lookup"><span data-stu-id="85b4d-109">Conference Summary Subreport Filters</span></span>
+### <a name="conference-summary-subreport-filters"></a><span data-ttu-id="34bdf-109">전화 회의 요약 하위 보고서 필터</span><span class="sxs-lookup"><span data-stu-id="34bdf-109">Conference Summary Subreport Filters</span></span>
 
 <table>
 <colgroup>
@@ -54,34 +54,34 @@ ms.locfileid: "41756992"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="85b4d-110">이름</span><span class="sxs-lookup"><span data-stu-id="85b4d-110">Name</span></span></th>
-<th><span data-ttu-id="85b4d-111">설명</span><span class="sxs-lookup"><span data-stu-id="85b4d-111">Description</span></span></th>
+<th><span data-ttu-id="34bdf-110">이름</span><span class="sxs-lookup"><span data-stu-id="34bdf-110">Name</span></span></th>
+<th><span data-ttu-id="34bdf-111">설명</span><span class="sxs-lookup"><span data-stu-id="34bdf-111">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="85b4d-112"><strong>보낸 사람</strong></span><span class="sxs-lookup"><span data-stu-id="85b4d-112"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="85b4d-113">시간 범위의 시작 날짜/시간입니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-113">Start date/time for the time range.</span></span> <span data-ttu-id="85b4d-114">시간별로 데이터를 보려면 시작 날짜와 시간을 모두 다음과 같이 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-114">To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="85b4d-115">오후 7/7/2012 1:00</span><span class="sxs-lookup"><span data-stu-id="85b4d-115">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="85b4d-116">시작 시간을 입력 하지 않으면 지정한 날짜에 오전 12:00부터 보고서가 자동으로 시작 됩니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-116">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day.</span></span> <span data-ttu-id="85b4d-117">날짜별로 데이터를 보려면 날짜만 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-117">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="85b4d-118">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="85b4d-118">7/7/2012</span></span></p>
-<p><span data-ttu-id="85b4d-119">주별 또는 월별로 보려면 보려는 주 또는 월의 어디에 나 날짜를 입력 합니다 (주 또는 월의 첫 번째 요일을 입력할 필요는 없음).</span><span class="sxs-lookup"><span data-stu-id="85b4d-119">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="85b4d-120">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="85b4d-120">7/3/2012</span></span></p>
-<p><span data-ttu-id="85b4d-121">주는 항상 일요일 ~ 토요일을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-121">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-112"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="34bdf-112"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="34bdf-p103">시간 범위의 시작 날짜/시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜 및 시간을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-p103">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="34bdf-115">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="34bdf-115">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="34bdf-p104">시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-p104">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="34bdf-118">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="34bdf-118">7/7/2012</span></span></p>
+<p><span data-ttu-id="34bdf-119">주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-119">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="34bdf-120">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="34bdf-120">7/3/2012</span></span></p>
+<p><span data-ttu-id="34bdf-121">주는 항상 일요일부터 토요일까지로 실행됩니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-121">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85b4d-122"><strong>받는 사람</strong></span><span class="sxs-lookup"><span data-stu-id="85b4d-122"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="85b4d-123">시간 범위의 종료 날짜/시간입니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-123">End date/time for the time range.</span></span> <span data-ttu-id="85b4d-124">시간별로 데이터를 보려면 다음과 같이 종료 날짜와 시간을 모두 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-124">To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="85b4d-125">오후 7/7/2012 1:00</span><span class="sxs-lookup"><span data-stu-id="85b4d-125">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="85b4d-126">종료 시간을 입력 하지 않으면 지정한 날짜에 12:00 오전에 보고서가 자동으로 종료 됩니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-126">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day.</span></span> <span data-ttu-id="85b4d-127">날짜별로 데이터를 보려면 날짜만 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-127">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="85b4d-128">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="85b4d-128">7/7/2012</span></span></p>
-<p><span data-ttu-id="85b4d-129">주별 또는 월별로 보려면 보려는 주 또는 월의 어디에 나 날짜를 입력 합니다 (주 또는 월의 첫 번째 요일을 입력할 필요는 없음).</span><span class="sxs-lookup"><span data-stu-id="85b4d-129">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="85b4d-130">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="85b4d-130">7/3/2012</span></span></p>
-<p><span data-ttu-id="85b4d-131">주는 항상 일요일 ~ 토요일을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-131">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-122"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="34bdf-122"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="34bdf-p105">시간 범위의 종료 날짜/시간입니다. 시간별 데이터를 보려면 다음과 같이 종료 날짜 및 시간을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-p105">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="34bdf-125">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="34bdf-125">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="34bdf-p106">종료 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시에 종료됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-p106">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="34bdf-128">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="34bdf-128">7/7/2012</span></span></p>
+<p><span data-ttu-id="34bdf-129">주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-129">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="34bdf-130">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="34bdf-130">7/3/2012</span></span></p>
+<p><span data-ttu-id="34bdf-131">주는 항상 일요일부터 토요일까지로 실행됩니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-131">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85b4d-132"><strong>풀</strong></span><span class="sxs-lookup"><span data-stu-id="85b4d-132"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="85b4d-133">등록자 풀 또는 Edge 서버의 FQDN (정규화 된 도메인 이름)입니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-133">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server.</span></span> <span data-ttu-id="85b4d-134">개별 풀을 선택 하거나 <strong>[모두]</strong> 를 클릭 하 여 모든 풀에 대 한 데이터를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-134">You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools.</span></span> <span data-ttu-id="85b4d-135">이 드롭다운 목록은 데이터베이스의 레코드에 따라 자동으로 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-135">This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-132"><strong>그룹</strong></span><span class="sxs-lookup"><span data-stu-id="34bdf-132"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="34bdf-p107">등록자 풀 또는 에지 서버의 FQDN(정규화된 도메인 이름)입니다. 개별 풀을 선택하거나 <strong>[모두]</strong>를 클릭하여 모든 풀에 대한 데이터를 봅니다. 이 드롭다운 목록은 데이터베이스의 레코드에 따라 자동으로 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-p107">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -91,11 +91,11 @@ ms.locfileid: "41756992"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="85b4d-136">매트릭스</span><span class="sxs-lookup"><span data-stu-id="85b4d-136">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="34bdf-136">선별한</span><span class="sxs-lookup"><span data-stu-id="34bdf-136">Metrics</span></span>
 
-<span data-ttu-id="85b4d-137">다음 표에는 회의 요약 하위 보고서에서 제공 하는 정보가 나열 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-137">The following table lists the information provided in the Conference Summary Subreport.</span></span>
+<span data-ttu-id="34bdf-137">다음 표에서는 전화 회의 요약 하위 보고서에서 제공되는 정보를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-137">The following table lists the information provided in the Conference Summary Subreport.</span></span>
 
-### <a name="conference-summary-subreport-metrics"></a><span data-ttu-id="85b4d-138">컨퍼런스 요약 하위 보고서 메트릭</span><span class="sxs-lookup"><span data-stu-id="85b4d-138">Conference Summary Subreport Metrics</span></span>
+### <a name="conference-summary-subreport-metrics"></a><span data-ttu-id="34bdf-138">전화 회의 요약 하위 보고서 메트릭</span><span class="sxs-lookup"><span data-stu-id="34bdf-138">Conference Summary Subreport Metrics</span></span>
 
 <table>
 <colgroup>
@@ -105,56 +105,56 @@ ms.locfileid: "41756992"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="85b4d-139">이름</span><span class="sxs-lookup"><span data-stu-id="85b4d-139">Name</span></span></th>
-<th><span data-ttu-id="85b4d-140">이 항목을 정렬할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="85b4d-140">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="85b4d-141">설명</span><span class="sxs-lookup"><span data-stu-id="85b4d-141">Description</span></span></th>
+<th><span data-ttu-id="34bdf-139">이름</span><span class="sxs-lookup"><span data-stu-id="34bdf-139">Name</span></span></th>
+<th><span data-ttu-id="34bdf-140">이 항목에 대한 정렬 가능 여부</span><span class="sxs-lookup"><span data-stu-id="34bdf-140">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="34bdf-141">설명</span><span class="sxs-lookup"><span data-stu-id="34bdf-141">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="85b4d-142"><strong>총 컨퍼런스</strong></span><span class="sxs-lookup"><span data-stu-id="85b4d-142"><strong>Total conferences</strong></span></span></p></td>
-<td><p><span data-ttu-id="85b4d-143">아니요</span><span class="sxs-lookup"><span data-stu-id="85b4d-143">No</span></span></p></td>
-<td><p><span data-ttu-id="85b4d-144">보유 한 총 컨퍼런스 수입니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-144">Total number of conferences held.</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-142"><strong>총 전화 회의</strong></span><span class="sxs-lookup"><span data-stu-id="34bdf-142"><strong>Total conferences</strong></span></span></p></td>
+<td><p><span data-ttu-id="34bdf-143">아니요</span><span class="sxs-lookup"><span data-stu-id="34bdf-143">No</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-144">진행된 총 전화 회의 수입니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-144">Total number of conferences held.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85b4d-145"><strong>총 회의 세션</strong></span><span class="sxs-lookup"><span data-stu-id="85b4d-145"><strong>Total conference sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="85b4d-146">아니요</span><span class="sxs-lookup"><span data-stu-id="85b4d-146">No</span></span></p></td>
-<td><p><span data-ttu-id="85b4d-147">회의 세션의 총 수입니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-147">Total number of conference sessions.</span></span> <span data-ttu-id="85b4d-148">단일 회의는 여러 세션을 가질 수 있습니다. 예를 들어 컨퍼런스에는 포커스 세션과 MCU 세션이 모두 포함 될 것입니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-148">A single conference can have multiple sessions; for example, a conference might include both a Focus session and an MCU session.</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-145"><strong>총 전화 회의 세션</strong></span><span class="sxs-lookup"><span data-stu-id="34bdf-145"><strong>Total conference sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="34bdf-146">아니요</span><span class="sxs-lookup"><span data-stu-id="34bdf-146">No</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-p108">총 전화 회의 세션 수입니다. 전화 회의 하나에 여러 세션이 포함될 수 있습니다. 예를 들어 하나의 전화 회의가 회의 센터 세션과 MCU 세션을 둘 다 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-p108">Total number of conference sessions. A single conference can have multiple sessions; for example, a conference might include both a Focus session and an MCU session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85b4d-149"><strong>전체 세션 실패 율</strong></span><span class="sxs-lookup"><span data-stu-id="85b4d-149"><strong>Overall session failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="85b4d-150">아니요</span><span class="sxs-lookup"><span data-stu-id="85b4d-150">No</span></span></p></td>
-<td><p><span data-ttu-id="85b4d-151">실패 한 모든 컨퍼런스의 백분율입니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-151">Percentage of all conferences that failed.</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-149"><strong>전체 세션 실패율</strong></span><span class="sxs-lookup"><span data-stu-id="34bdf-149"><strong>Overall session failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="34bdf-150">아니요</span><span class="sxs-lookup"><span data-stu-id="34bdf-150">No</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-151">실패한 모든 전화 회의의 비율입니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-151">Percentage of all conferences that failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85b4d-152"><strong>포커스 세션</strong></span><span class="sxs-lookup"><span data-stu-id="85b4d-152"><strong>Focus sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="85b4d-153">아니요</span><span class="sxs-lookup"><span data-stu-id="85b4d-153">No</span></span></p></td>
-<td><p><span data-ttu-id="85b4d-154">총 포커스 세션 수입니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-154">Total number of Focus sessions.</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-152"><strong>회의 센터 세션</strong></span><span class="sxs-lookup"><span data-stu-id="34bdf-152"><strong>Focus sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="34bdf-153">아니요</span><span class="sxs-lookup"><span data-stu-id="34bdf-153">No</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-154">회의 센터 세션의 총 수입니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-154">Total number of Focus sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85b4d-155"><strong>초점 고장 속도</strong></span><span class="sxs-lookup"><span data-stu-id="85b4d-155"><strong>Focus failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="85b4d-156">아니요</span><span class="sxs-lookup"><span data-stu-id="85b4d-156">No</span></span></p></td>
-<td><p><span data-ttu-id="85b4d-157">실패 한 포커스 세션의 백분율입니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-157">Percentage of Focus sessions that failed.</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-155"><strong>회의 센터 실패율</strong></span><span class="sxs-lookup"><span data-stu-id="34bdf-155"><strong>Focus failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="34bdf-156">아니요</span><span class="sxs-lookup"><span data-stu-id="34bdf-156">No</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-157">실패한 회의 센터 세션의 비율입니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-157">Percentage of Focus sessions that failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85b4d-158">MCU 세션</span><span class="sxs-lookup"><span data-stu-id="85b4d-158">MCU sessions</span></span></p></td>
-<td><p><span data-ttu-id="85b4d-159">아니요</span><span class="sxs-lookup"><span data-stu-id="85b4d-159">No</span></span></p></td>
-<td><p><span data-ttu-id="85b4d-160">총 MCU 세션 수입니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-160">Total number of MCU sessions.</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-158">MCU 세션</span><span class="sxs-lookup"><span data-stu-id="34bdf-158">MCU sessions</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-159">아니요</span><span class="sxs-lookup"><span data-stu-id="34bdf-159">No</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-160">MCU 세션의 총 수입니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-160">Total number of MCU sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85b4d-161"><strong>MCU 실패 율</strong></span><span class="sxs-lookup"><span data-stu-id="85b4d-161"><strong>MCU failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="85b4d-162">아니요</span><span class="sxs-lookup"><span data-stu-id="85b4d-162">No</span></span></p></td>
-<td><p><span data-ttu-id="85b4d-163">실패 한 MCU 세션의 백분율입니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-163">Percentage of MCU sessions that failed.</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-161"><strong>MCU 실패율</strong></span><span class="sxs-lookup"><span data-stu-id="34bdf-161"><strong>MCU failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="34bdf-162">아니요</span><span class="sxs-lookup"><span data-stu-id="34bdf-162">No</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-163">실패한 MCU 세션의 비율입니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-163">Percentage of MCU sessions that failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85b4d-164"><strong>모달에의 한 MCU 세션</strong></span><span class="sxs-lookup"><span data-stu-id="85b4d-164"><strong>MCU sessions by modality</strong></span></span></p></td>
-<td><p><span data-ttu-id="85b4d-165">아니요</span><span class="sxs-lookup"><span data-stu-id="85b4d-165">No</span></span></p></td>
-<td><p><span data-ttu-id="85b4d-166">형식 (예: IM 회의)으로 그룹화 된 총 MCU 세션 수입니다.</span><span class="sxs-lookup"><span data-stu-id="85b4d-166">Total number of MCU sessions, grouped by modality (for example, IM conferencing).</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-164"><strong>형식별 MCU 세션</strong></span><span class="sxs-lookup"><span data-stu-id="34bdf-164"><strong>MCU sessions by modality</strong></span></span></p></td>
+<td><p><span data-ttu-id="34bdf-165">아니요</span><span class="sxs-lookup"><span data-stu-id="34bdf-165">No</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-166">형식별(예: IM 회의)로 그룹화된 MCU 세션의 총 수입니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-166">Total number of MCU sessions, grouped by modality (for example, IM conferencing).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85b4d-167"><strong>모달의 실패 비율</strong></span><span class="sxs-lookup"><span data-stu-id="85b4d-167"><strong>Failure rate by modality</strong></span></span></p></td>
-<td><p><span data-ttu-id="85b4d-168">아니요</span><span class="sxs-lookup"><span data-stu-id="85b4d-168">No</span></span></p></td>
-<td><p><span data-ttu-id="85b4d-169">실패 한 MCU 세션의 백분율 (예: IM 회의)</span><span class="sxs-lookup"><span data-stu-id="85b4d-169">Percentage of MCU sessions that failed, grouped by modality (for example, IM conferencing).</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-167"><strong>형식별 실패율</strong></span><span class="sxs-lookup"><span data-stu-id="34bdf-167"><strong>Failure rate by modality</strong></span></span></p></td>
+<td><p><span data-ttu-id="34bdf-168">아니요</span><span class="sxs-lookup"><span data-stu-id="34bdf-168">No</span></span></p></td>
+<td><p><span data-ttu-id="34bdf-169">형식별(예: IM 회의)로 그룹화된 실패한 MCU 세션의 비율입니다.</span><span class="sxs-lookup"><span data-stu-id="34bdf-169">Percentage of MCU sessions that failed, grouped by modality (for example, IM conferencing).</span></span></p></td>
 </tr>
 </tbody>
 </table>

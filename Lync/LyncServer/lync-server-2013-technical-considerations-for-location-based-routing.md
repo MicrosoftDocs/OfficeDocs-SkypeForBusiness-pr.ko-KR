@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 위치 기반 라우팅을 위한 기술적 고려 사항'
+title: 'Lync Server 2013: 위치 기반 라우팅에 대 한 기술 고려 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803936
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 978590484cbb6bd3c23fac26422c186847662e49
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fcdebdccd0584d31b27120709212be674e8d3c2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764048"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-considerations-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="a3734-102">Lync Server 2013의 위치 기반 라우팅을 위한 기술적 고려 사항</span><span class="sxs-lookup"><span data-stu-id="a3734-102">Technical considerations for Location-Based Routing in Lync Server 2013</span></span>
+# <a name="technical-considerations-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="04c1b-102">Lync Server 2013의 위치 기반 라우팅에 대 한 기술적 고려 사항</span><span class="sxs-lookup"><span data-stu-id="04c1b-102">Technical considerations for Location-Based Routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41764048"
 
 <span> </span>
 
-<span data-ttu-id="a3734-103">_**마지막으로 수정한 주제:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="a3734-103">_**Topic Last Modified:** 2013-03-09_</span></span>
+<span data-ttu-id="04c1b-103">_**마지막으로 수정 된 항목:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="04c1b-103">_**Topic Last Modified:** 2013-03-09_</span></span>
 
-<span data-ttu-id="a3734-104">위치 기반 라우팅을 계획할 때는 다음 시나리오에 미치는 영향을 고려해 야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a3734-104">When planning Location-Based Routing, you should consider the impact to the following scenarios.</span></span>
+<span data-ttu-id="04c1b-104">위치 기반 라우팅을 계획할 때는 다음 시나리오에 미치는 영향을 고려해 야 합니다.</span><span class="sxs-lookup"><span data-stu-id="04c1b-104">When planning Location-Based Routing, you should consider the impact to the following scenarios.</span></span>
 
 <div>
 
-## <a name="disaster-recovery"></a><span data-ttu-id="a3734-105">재해 복구</span><span class="sxs-lookup"><span data-stu-id="a3734-105">Disaster Recovery</span></span>
+## <a name="disaster-recovery"></a><span data-ttu-id="04c1b-105">재해 복구</span><span class="sxs-lookup"><span data-stu-id="04c1b-105">Disaster Recovery</span></span>
 
-<span data-ttu-id="a3734-106">기본 풀에서 백업 풀로 장애 조치를 수행 하는 것은 물론, 정상 작업을 주 풀로 복원 하는 동안에는 재해 및 복구 절차 중에 위치 기반 라우팅이 항상 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a3734-106">During a failover from the primary pool to a backup pool as well as when restoring normal operations to the primary pool, Location-Based Routing remains enforced at all times during a disaster and recovery procedure.</span></span>
+<span data-ttu-id="04c1b-106">기본 풀에서 백업 풀로 장애 조치 (failover) 하는 동안과 정상 작업을 기본 풀로 복원 하는 동안 재해 및 복구 절차 중에 항상 위치 기반 라우팅이 계속 해 서 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="04c1b-106">During a failover from the primary pool to a backup pool as well as when restoring normal operations to the primary pool, Location-Based Routing remains enforced at all times during a disaster and recovery procedure.</span></span>
 
 </div>
 
 <div>
 
-## <a name="survivable-branch-appliance"></a><span data-ttu-id="a3734-107">Survivable 분기 기기</span><span class="sxs-lookup"><span data-stu-id="a3734-107">Survivable Branch Appliance</span></span>
+## <a name="survivable-branch-appliance"></a><span data-ttu-id="04c1b-107">Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="04c1b-107">Survivable Branch Appliance</span></span>
 
-<span data-ttu-id="a3734-108">위치 기반 라우팅 구성은 Survivable Branch 기기와 연결 된 게이트웨이를 배포 하는 위치 계획에 영향을 줍니다.</span><span class="sxs-lookup"><span data-stu-id="a3734-108">Configuring Location-Based Routing impacts the planning of where you deploy the gateways associated to your Survivable Branch Appliances.</span></span> <span data-ttu-id="a3734-109">SBA에 연결 된 게이트웨이는 Survivable Branch 기기와 동일한 네트워크 사이트에 있어야 합니다. 그렇지 않으면 위치 기반 라우팅이 구성 된 경우 Survivable Branch 기기에 속한 사용자는 아웃 바운드 호출을 허용 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a3734-109">The gateway associated to your SBA must be located in the same network site as your Survivable Branch Appliance; otherwise, users homed on your Survivable Branch Appliance will not be permitted to place outbound calls if Location-Based Routing is configured.</span></span> <span data-ttu-id="a3734-110">Survivable Branch 기기와 중앙 사이트 간의 WAN 연결이 중단 되 면 위치 기반 라우팅 제한이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a3734-110">When the WAN connection between your Survivable Branch Appliance and the central site is down, Location-Based Routing restrictions remains enforced.</span></span>
+<span data-ttu-id="04c1b-108">위치 기반 라우팅 구성은 Sba (survivable 분기 기기와 연결 된 게이트웨이를 배포 하는 계획에 영향을 줍니다.</span><span class="sxs-lookup"><span data-stu-id="04c1b-108">Configuring Location-Based Routing impacts the planning of where you deploy the gateways associated to your Survivable Branch Appliances.</span></span> <span data-ttu-id="04c1b-109">SBA와 연결 된 게이트웨이는 Sba (survivable 분기 기기와 동일한 네트워크 사이트에 있어야 합니다. 그렇지 않으면 위치 기반 라우팅이 구성 된 경우 Sba (survivable 분기 기기에 속한 사용자가 아웃 바운드 호출을 수행할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="04c1b-109">The gateway associated to your SBA must be located in the same network site as your Survivable Branch Appliance; otherwise, users homed on your Survivable Branch Appliance will not be permitted to place outbound calls if Location-Based Routing is configured.</span></span> <span data-ttu-id="04c1b-110">Sba (survivable 분기 어플라이언스와 중앙 사이트 간의 WAN 연결이 다운 되 면 위치 기반 라우팅 제한이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="04c1b-110">When the WAN connection between your Survivable Branch Appliance and the central site is down, Location-Based Routing restrictions remains enforced.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a3734-111">참고 항목</span><span class="sxs-lookup"><span data-stu-id="a3734-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="04c1b-111">참고 항목</span><span class="sxs-lookup"><span data-stu-id="04c1b-111">See Also</span></span>
 
 
-[<span data-ttu-id="a3734-112">Lync Server 2013의 위치 기반 라우팅 계획</span><span class="sxs-lookup"><span data-stu-id="a3734-112">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
+[<span data-ttu-id="04c1b-112">Lync Server 2013의 위치 기반 라우팅 계획</span><span class="sxs-lookup"><span data-stu-id="04c1b-112">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

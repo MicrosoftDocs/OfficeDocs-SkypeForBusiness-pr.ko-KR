@@ -12,20 +12,20 @@ ms:contentKeyID: 48185727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 068c574cc21a3f81d91491da521911aa56c5ce83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0f42d4b61302b17d8d6247d7a9a1dcc5dbe6b218
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754388"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037040"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="f0b22-102">Lync Server 2013의 통화 대기 계획</span><span class="sxs-lookup"><span data-stu-id="f0b22-102">Planning for Call Park in Lync Server 2013</span></span>
+# <a name="planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="45fc5-102">Lync Server 2013의 통화 대기 계획</span><span class="sxs-lookup"><span data-stu-id="45fc5-102">Planning for Call Park in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41754388"
 
 <span> </span>
 
-<span data-ttu-id="f0b22-103">_**마지막으로 수정한 주제:** 2012-09-07_</span><span class="sxs-lookup"><span data-stu-id="f0b22-103">_**Topic Last Modified:** 2012-09-07_</span></span>
+<span data-ttu-id="45fc5-103">_**마지막으로 수정 된 항목:** 2012-09-07_</span><span class="sxs-lookup"><span data-stu-id="45fc5-103">_**Topic Last Modified:** 2012-09-07_</span></span>
 
-<span data-ttu-id="f0b22-104">Lync Server 통화 공원 응용 프로그램을 사용 하면 엔터프라이즈 음성 사용자가 통화를 대기 상태로 전환 하 고 나중에 모든 전화기에서 검색할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0b22-104">The Lync Server Call Park application makes it possible for Enterprise Voice users to put a call on hold and then retrieve it later from any phone.</span></span> <span data-ttu-id="f0b22-105">통화를 파킹 한 사용자는 통화 공원에서 제공 하는 궤도 번호를 사용 하 여 파킹 된 통화를 검색 하거나 인스턴트 메시지 또는 페이징 시스템 등의 외부 메커니즘을 통해 다른 사용자에 게 전화를 가져오도록 요청할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0b22-105">The user who parked the call can either dial the orbit number provided by Call Park to retrieve the parked call or use an external mechanism, such as instant messaging or a paging system, to ask someone else to retrieve the call.</span></span> <span data-ttu-id="f0b22-106">이 섹션에는 통화 공원에 해당 하는 계획 정보가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f0b22-106">This section includes planning information that is specific to Call Park.</span></span>
+<span data-ttu-id="45fc5-104">Lync Server 통화 대기 응용 프로그램을 사용 하면 Enterprise Voice 사용자가 통화를 대기 상태로 전환한 다음 나중에 휴대폰에서 검색할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45fc5-104">The Lync Server Call Park application makes it possible for Enterprise Voice users to put a call on hold and then retrieve it later from any phone.</span></span> <span data-ttu-id="45fc5-105">통화를 대기시킨 사용자는 통화 대기에서 제공하는 파킹된 통화 번호로 전화를 걸어서 대기된 통화를 재개하거나 인스턴트 메시징 또는 호출 시스템 등의 외부 메커니즘을 사용하여 다른 사람에게 통화를 재개하도록 요청할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45fc5-105">The user who parked the call can either dial the orbit number provided by Call Park to retrieve the parked call or use an external mechanism, such as instant messaging or a paging system, to ask someone else to retrieve the call.</span></span> <span data-ttu-id="45fc5-106">이 섹션에는 통화 대기와 관련 된 계획 정보를 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="45fc5-106">This section includes planning information that is specific to Call Park.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f0b22-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="f0b22-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="45fc5-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="45fc5-107">In This Section</span></span>
 
-  - [<span data-ttu-id="f0b22-108">Lync Server 2013의 통화 공원 개요</span><span class="sxs-lookup"><span data-stu-id="f0b22-108">Overview of Call Park in Lync Server 2013</span></span>](lync-server-2013-overview-of-call-park.md)
+  - [<span data-ttu-id="45fc5-108">Lync Server 2013의 통화 대기 개요</span><span class="sxs-lookup"><span data-stu-id="45fc5-108">Overview of Call Park in Lync Server 2013</span></span>](lync-server-2013-overview-of-call-park.md)
 
-  - [<span data-ttu-id="f0b22-109">Lync Server 2013의 통화 대기에 사용되는 구성 요소</span><span class="sxs-lookup"><span data-stu-id="f0b22-109">Components used by Call Park in Lync Server 2013</span></span>](lync-server-2013-components-used-by-call-park.md)
+  - [<span data-ttu-id="45fc5-109">Lync Server 2013의 통화 대기에 사용 되는 구성 요소</span><span class="sxs-lookup"><span data-stu-id="45fc5-109">Components used by Call Park in Lync Server 2013</span></span>](lync-server-2013-components-used-by-call-park.md)
 
-  - [<span data-ttu-id="f0b22-110">Lync Server 2013의 통화 대기에 대한 기술 요구 사항</span><span class="sxs-lookup"><span data-stu-id="f0b22-110">Technical requirements for Call Park in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-call-park.md)
+  - [<span data-ttu-id="45fc5-110">Lync Server 2013의 통화 대기에 대 한 기술 요구 사항</span><span class="sxs-lookup"><span data-stu-id="45fc5-110">Technical requirements for Call Park in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-call-park.md)
 
-  - [<span data-ttu-id="f0b22-111">Lync Server 2013의 통화 대기에 지원되는 클라이언트</span><span class="sxs-lookup"><span data-stu-id="f0b22-111">Clients supported for Call Park in Lync Server 2013</span></span>](lync-server-2013-clients-supported-for-call-park.md)
+  - [<span data-ttu-id="45fc5-111">Lync Server 2013의 통화 대기에 지원 되는 클라이언트</span><span class="sxs-lookup"><span data-stu-id="45fc5-111">Clients supported for Call Park in Lync Server 2013</span></span>](lync-server-2013-clients-supported-for-call-park.md)
 
-  - [<span data-ttu-id="f0b22-112">Lync Server 2013의 통화 대기에 대한 용량 계획</span><span class="sxs-lookup"><span data-stu-id="f0b22-112">Capacity planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-capacity-planning-for-call-park.md)
+  - [<span data-ttu-id="45fc5-112">Lync Server 2013의 통화 대기에 대 한 용량 계획</span><span class="sxs-lookup"><span data-stu-id="45fc5-112">Capacity planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-capacity-planning-for-call-park.md)
 
-  - [<span data-ttu-id="f0b22-113">Lync Server 2013의 통화 공원 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="f0b22-113">Deployment process for Call Park in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-call-park.md)
+  - [<span data-ttu-id="45fc5-113">Lync Server 2013의 통화 대기 배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="45fc5-113">Deployment process for Call Park in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-call-park.md)
 
 </div>
 

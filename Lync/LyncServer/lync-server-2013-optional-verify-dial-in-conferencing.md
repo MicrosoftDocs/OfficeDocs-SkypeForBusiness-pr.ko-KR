@@ -12,20 +12,20 @@ ms:contentKeyID: 48183941
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1b5f078ccd5e95df708012b7be1527736133392
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 133d0bccb919e537998878306b3bbf85d77bd0cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755702"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037648"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="85cbe-102">(선택 사항) Lync Server 2013에서 전화 접속 회의 확인</span><span class="sxs-lookup"><span data-stu-id="85cbe-102">(Optional) Verify dial-in conferencing in Lync Server 2013</span></span>
+# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="efc02-102">반드시 Lync Server 2013에서 전화 접속 회의 확인</span><span class="sxs-lookup"><span data-stu-id="efc02-102">(Optional) Verify dial-in conferencing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41755702"
 
 <span> </span>
 
-<span data-ttu-id="85cbe-103">_**마지막으로 수정한 주제:** 2011-01-21_</span><span class="sxs-lookup"><span data-stu-id="85cbe-103">_**Topic Last Modified:** 2011-01-21_</span></span>
+<span data-ttu-id="efc02-103">_**마지막으로 수정 된 항목:** 2011-01-21_</span><span class="sxs-lookup"><span data-stu-id="efc02-103">_**Topic Last Modified:** 2011-01-21_</span></span>
 
-<span data-ttu-id="85cbe-104">전화 접속 회의 설정 웹 페이지와 전화 접속 액세스 번호가 올바르게 작동 하는지 확인 하려면 다음을 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="85cbe-104">To verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly, you need to do the following:</span></span>
+<span data-ttu-id="efc02-104">전화 접속 회의 설정 웹 페이지와 전화 접속 액세스 번호가 올바르게 작동하는지 확인하려면 다음을 수행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="efc02-104">To verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly, you need to do the following:</span></span>
 
-  - <span data-ttu-id="85cbe-105">간단한 URL에 로그인 하 여 전화 접속 회의 설정 웹 페이지를 테스트 합니다.</span><span class="sxs-lookup"><span data-stu-id="85cbe-105">Test the Dial-in Conferencing Settings webpage by signing in to the simple URL.</span></span>
+  - <span data-ttu-id="efc02-105">단순 URL에 로그인하여 전화 접속 회의 설정 웹 페이지를 테스트합니다.</span><span class="sxs-lookup"><span data-stu-id="efc02-105">Test the Dial-in Conferencing Settings webpage by signing in to the simple URL.</span></span>
 
-  - <span data-ttu-id="85cbe-106">이 항목의 뒷부분에 나오는 스크립트를 실행 하 여 액세스 번호가 특정 풀에 대해 올바르게 작동 하는지 테스트 합니다.</span><span class="sxs-lookup"><span data-stu-id="85cbe-106">Test that access numbers work correctly for a specific pool by running the script later in this topic.</span></span> <span data-ttu-id="85cbe-107">이 스크립트는 access 번호에 대 한 통화를 시뮬레이트합니다.</span><span class="sxs-lookup"><span data-stu-id="85cbe-107">This script simulates calls to access numbers.</span></span> <span data-ttu-id="85cbe-108">이 스크립트를 사용 하기 위해 특정 풀에 호스팅되는 하나의 통합 커뮤니케이션 (UC) 클라이언트의 SIP 주소와 자격 증명이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="85cbe-108">You need the SIP address and credentials of one unified communications (UC) client that is hosted on the specific pool to use this script.</span></span>
+  - <span data-ttu-id="efc02-p101">이 항목 뒷부분에 나와 있는 스크립트를 실행하여 특정 풀에 대해 액세스 번호가 올바르게 작동하는지 테스트합니다. 이 스크립트는 액세스 번호에 대한 호출을 시뮬레이트합니다. 이 스크립트를 사용하려면 특정 풀에서 호스팅되는 단일 UC(통합 통신) 클라이언트의 SIP 주소 및 자격 증명이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="efc02-p101">Test that access numbers work correctly for a specific pool by running the script later in this topic. This script simulates calls to access numbers. You need the SIP address and credentials of one unified communications (UC) client that is hosted on the specific pool to use this script.</span></span>
 
-<span data-ttu-id="85cbe-109">이 단계는 선택 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="85cbe-109">This step is optional.</span></span>
+<span data-ttu-id="efc02-109">이 단계는 선택 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="efc02-109">This step is optional.</span></span>
 
 <div>
 
-## <a name="to-test-access-numbers-for-a-specific-pool"></a><span data-ttu-id="85cbe-110">특정 풀에 대 한 액세스 번호를 테스트 하려면</span><span class="sxs-lookup"><span data-stu-id="85cbe-110">To test access numbers for a specific pool</span></span>
+## <a name="to-test-access-numbers-for-a-specific-pool"></a><span data-ttu-id="efc02-110">특정 풀에 대한 액세스 번호를 테스트하려면</span><span class="sxs-lookup"><span data-stu-id="efc02-110">To test access numbers for a specific pool</span></span>
 
-1.  <span data-ttu-id="85cbe-111">RTCUniversalServerAdmins 그룹의 구성원 또는 **Cs-serveradministrator** 또는 **csadministrator** 역할의 구성원으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="85cbe-111">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **Cs-ServerAdministrator** or **CsAdministrator** role.</span></span>
+1.  <span data-ttu-id="efc02-111">RTCUniversalServerAdmins 그룹의 구성원이나 **Cs-ServerAdministrator** 또는 **CsAdministrator** 역할의 구성원으로 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="efc02-111">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **Cs-ServerAdministrator** or **CsAdministrator** role.</span></span>
 
-2.  <span data-ttu-id="85cbe-112">Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="85cbe-112">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="efc02-112">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="efc02-112">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="85cbe-113">명령 프롬프트에서 다음을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="85cbe-113">Run the following at the command prompt:</span></span>
+3.  <span data-ttu-id="efc02-113">명령 프롬프트에서 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="efc02-113">Run the following at the command prompt:</span></span>
     
         $credentials = Get-Credential
            User name:  testuser1@contoso.com
            Password:   ********
         Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
     
-    <span data-ttu-id="85cbe-114">결과 보고서에는 특정 진단 정보와 함께 성공 또는 실패가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="85cbe-114">The resulting report shows either Success or Failure, along with specific diagnostic information.</span></span> <span data-ttu-id="85cbe-115">– Verbose 플래그는 찾을 수 있는 액세스 번호 및 세부 정보에 대 한 자세한 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="85cbe-115">The –Verbose flag provides more detailed information about how many access numbers were found and details about them.</span></span>
+    <span data-ttu-id="efc02-p102">결과 보고서에는 성공 또는 실패와 특정 진단 정보가 표시됩니다. –Verbose 플래그는 발견된 액세스 번호의 수와 각 번호의 세부 사항에 대해 더욱 자세한 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="efc02-p102">The resulting report shows either Success or Failure, along with specific diagnostic information. The –Verbose flag provides more detailed information about how many access numbers were found and details about them.</span></span>
 
 </div>
 

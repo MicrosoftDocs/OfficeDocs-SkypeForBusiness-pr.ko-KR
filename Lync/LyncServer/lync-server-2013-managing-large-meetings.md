@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 대용량 모임 관리'
+title: 'Lync Server 2013: 대규모 모임 관리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185146
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb8a83edc6dc049d5c333a2c1b4bec19f60afd45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 451bc37811f0c591ad067bf57432ac70fec7edb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729268"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043110"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-large-meetings-in-lync-server-2013"></a><span data-ttu-id="43417-102">Lync Server 2013에서 대규모 모임 관리</span><span class="sxs-lookup"><span data-stu-id="43417-102">Managing large meetings in Lync Server 2013</span></span>
+# <a name="managing-large-meetings-in-lync-server-2013"></a><span data-ttu-id="f0197-102">Lync Server 2013에서 대규모 모임 관리</span><span class="sxs-lookup"><span data-stu-id="f0197-102">Managing large meetings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41729268"
 
 <span> </span>
 
-<span data-ttu-id="43417-103">_**마지막으로 수정한 주제:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="43417-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="f0197-103">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="f0197-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="43417-104">대규모 회의를 위한 전용 풀을 설정한 후에는 풀에 호스트 된 대규모 모임이 최상의 사용자 환경을 제공 하도록 하는 데 필요한 단계를 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="43417-104">After setting up a dedicated pool for large conferences, you can take steps to help ensure that large meetings hosted in the pool provide the best user experience.</span></span> <span data-ttu-id="43417-105">이 섹션의 항목에서는 대규모 모임을 구성 하 고 관리 하는 방법에 대 한 세부 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="43417-105">The topics in this section provide details about how to organize and manage large meetings.</span></span>
+<span data-ttu-id="f0197-104">대규모 회의에 전용 풀을 설정한 후 풀에서 호스트 되는 대규모 모임이 최상의 사용자 환경을 제공 하도록 하기 위한 단계를 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0197-104">After setting up a dedicated pool for large conferences, you can take steps to help ensure that large meetings hosted in the pool provide the best user experience.</span></span> <span data-ttu-id="f0197-105">이 섹션의 항목에서는 대규모 모임을 구성 및 관리 하는 방법에 대 한 세부 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="f0197-105">The topics in this section provide details about how to organize and manage large meetings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="43417-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="43417-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f0197-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="f0197-106">In This Section</span></span>
 
-  - [<span data-ttu-id="43417-107">Lync Server 2013의 전용 모임 이끌이</span><span class="sxs-lookup"><span data-stu-id="43417-107">Dedicated meeting organizers in Lync Server 2013</span></span>](lync-server-2013-dedicated-meeting-organizers.md)
+  - [<span data-ttu-id="f0197-107">Lync Server 2013의 전용 모임 이끌이</span><span class="sxs-lookup"><span data-stu-id="f0197-107">Dedicated meeting organizers in Lync Server 2013</span></span>](lync-server-2013-dedicated-meeting-organizers.md)
 
-  - [<span data-ttu-id="43417-108">Lync Server 2013에서 대용량 모임 일정 구분</span><span class="sxs-lookup"><span data-stu-id="43417-108">Separate large-meeting calendar in Lync Server 2013</span></span>](lync-server-2013-separate-large-meeting-calendar.md)
+  - [<span data-ttu-id="f0197-108">Lync Server 2013의 별도의 대규모 모임 달력</span><span class="sxs-lookup"><span data-stu-id="f0197-108">Separate large-meeting calendar in Lync Server 2013</span></span>](lync-server-2013-separate-large-meeting-calendar.md)
 
-  - [<span data-ttu-id="43417-109">Lync Server 2013의 대용량 모임 예약 프로세스</span><span class="sxs-lookup"><span data-stu-id="43417-109">Large-meeting scheduling process in Lync Server 2013</span></span>](lync-server-2013-large-meeting-scheduling-process.md)
+  - [<span data-ttu-id="f0197-109">Lync Server 2013의 대량 모임 예약 프로세스</span><span class="sxs-lookup"><span data-stu-id="f0197-109">Large-meeting scheduling process in Lync Server 2013</span></span>](lync-server-2013-large-meeting-scheduling-process.md)
 
-  - [<span data-ttu-id="43417-110">Lync Server 2013의 모임에 대 한 일정 세부 정보</span><span class="sxs-lookup"><span data-stu-id="43417-110">Scheduling details for meetings in Lync Server 2013</span></span>](lync-server-2013-scheduling-details-for-meetings.md)
+  - [<span data-ttu-id="f0197-110">Lync Server 2013의 모임에 대 한 일정 세부 정보</span><span class="sxs-lookup"><span data-stu-id="f0197-110">Scheduling details for meetings in Lync Server 2013</span></span>](lync-server-2013-scheduling-details-for-meetings.md)
 
-  - [<span data-ttu-id="43417-111">Lync Server 2013에서 대용량 모임 실행</span><span class="sxs-lookup"><span data-stu-id="43417-111">Running large meetings in Lync Server 2013</span></span>](lync-server-2013-running-large-meetings.md)
+  - [<span data-ttu-id="f0197-111">Lync Server 2013에서 대규모 모임 실행</span><span class="sxs-lookup"><span data-stu-id="f0197-111">Running large meetings in Lync Server 2013</span></span>](lync-server-2013-running-large-meetings.md)
 
 </div>
 

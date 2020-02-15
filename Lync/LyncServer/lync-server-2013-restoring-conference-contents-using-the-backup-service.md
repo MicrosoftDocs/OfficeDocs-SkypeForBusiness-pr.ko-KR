@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 백업 서비스로 전화 회의 내용 복원'
+title: 'Lync Server 2013: 백업 서비스를 사용 하 여 전화 회의 내용 복원'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 873ca354ca592eb6bc317b579a0a6f5008e6a172
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8fb791362718b2bce5e7c13c0cc6aab779d954f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733198"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051080"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a><span data-ttu-id="6d3d7-102">Lync Server 2013에서 백업 서비스로 전화 회의 내용 복원</span><span class="sxs-lookup"><span data-stu-id="6d3d7-102">Restoring conference contents using the Backup Service in Lync Server 2013</span></span>
+# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a><span data-ttu-id="7c5ee-102">Lync Server 2013에서 백업 서비스를 사용 하 여 전화 회의 내용 복원</span><span class="sxs-lookup"><span data-stu-id="7c5ee-102">Restoring conference contents using the Backup Service in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41733198"
 
 <span> </span>
 
-<span data-ttu-id="6d3d7-103">_**마지막으로 수정한 주제:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="6d3d7-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="7c5ee-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="7c5ee-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="6d3d7-104">프런트 엔드 풀의 파일 저장소에 저장 된 회의 정보를 사용할 수 없게 되는 경우</span><span class="sxs-lookup"><span data-stu-id="6d3d7-104">If the conference information stored in the file store of a Front End pool becomes unavailable.</span></span> <span data-ttu-id="6d3d7-105">그룹에 속한 사용자가 회의 데이터를 유지할 수 있도록이 정보를 복원 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d3d7-105">you must restore this information so that users homed on the pool retain their conference data.</span></span> <span data-ttu-id="6d3d7-106">회의 데이터가 손실 된 프런트 엔드 풀이 다른 프런트 엔드 풀과 쌍을 이루는 경우 백업 서비스를 사용 하 여 데이터를 복원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d3d7-106">If the Front End pool which has lost conference data is paired with another Front End pool, you can use the Backup Service to restore the data.</span></span>
+<span data-ttu-id="7c5ee-p101">프런트 엔드 풀의 파일 저장소에 저장된 회의 정보가 사용할 수 없는 상태가 되면 풀에 있는 사용자가 자신의 회의 데이터를 보유할 수 있도록 이 정보를 복원해야 합니다. 회의 데이터가 손실된 프런트 엔드 풀이 다른 프런트 엔드 풀과 쌍으로 연결된 경우 백업 서비스를 사용하여 데이터를 복원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7c5ee-p101">If the conference information stored in the file store of a Front End pool becomes unavailable. you must restore this information so that users homed on the pool retain their conference data. If the Front End pool which has lost conference data is paired with another Front End pool, you can use the Backup Service to restore the data.</span></span>
 
-<span data-ttu-id="6d3d7-107">전체 풀이 실패 하 고 해당 사용자를 백업 풀로 장애 조치 해야 하는 경우에도이 작업을 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d3d7-107">You must also perform this task if an entire pool has failed and you have to fail over its users to a backup pool.</span></span> <span data-ttu-id="6d3d7-108">이러한 사용자가 원래 풀로 장애 복구 되는 경우이 절차를 사용 하 여 회의 콘텐츠를 원래 풀로 다시 복사 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d3d7-108">When these users are failed back over to their original pool, you must use this procedure to copy their conference content back to their original pool as well.</span></span>
+<span data-ttu-id="7c5ee-p102">또한 전체 풀이 실패한 경우에도 이 작업을 수행해야 하며 해당 사용자를 백업 풀로 장애 조치(failover)해야 합니다. 이러한 사용자를 원래 풀로 다시 장애 조치(failover)한 경우 이 절차에 따라 해당 회의 콘텐츠를 다시 원래 풀에도 복사해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7c5ee-p102">You must also perform this task if an entire pool has failed and you have to fail over its users to a backup pool. When these users are failed back over to their original pool, you must use this procedure to copy their conference content back to their original pool as well.</span></span>
 
-<span data-ttu-id="6d3d7-109">Pool1가 Pool2와 쌍을 이루고 있고 Pool1의 컨퍼런스 데이터가 손실 된다고 가정 하세요.</span><span class="sxs-lookup"><span data-stu-id="6d3d7-109">Assume that Pool1 is paired with Pool2, and the conference data in Pool1 is lost.</span></span> <span data-ttu-id="6d3d7-110">다음 cmdlet을 사용 하 여 백업 서비스를 호출 하 여 콘텐츠를 복원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d3d7-110">You can use the following cmdlet to invoke the Backup Service to restore the contents:</span></span>
+<span data-ttu-id="7c5ee-109">Pool1이 Pool2와 쌍으로 연결되었고 Pool1의 회의 데이터가 손실되었다고 가정해보십시오.</span><span class="sxs-lookup"><span data-stu-id="7c5ee-109">Assume that Pool1 is paired with Pool2, and the conference data in Pool1 is lost.</span></span> <span data-ttu-id="7c5ee-110">다음 cmdlet을 사용 하 여 백업 서비스를 호출 하 여 콘텐츠를 복원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7c5ee-110">You can use the following cmdlet to invoke the Backup Service to restore the contents:</span></span>
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-<span data-ttu-id="6d3d7-111">회의 콘텐츠는 크기에 따라 시간이 오래 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d3d7-111">Restoring the conference contents may take some time, depending on their size.</span></span> <span data-ttu-id="6d3d7-112">다음 cmdlet을 사용 하 여 프로세스 상태를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6d3d7-112">You can use the following cmdlet to check the process status:</span></span>
+<span data-ttu-id="7c5ee-p104">회의 콘텐츠를 복원할 때는 크기에 따라 시간이 오래 걸릴 수 있습니다. 다음 cmdlet을 사용해서 프로세스 상태를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7c5ee-p104">Restoring the conference contents may take some time, depending on their size. You can use the following cmdlet to check the process status:</span></span>
 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-<span data-ttu-id="6d3d7-113">이 cmdlet은 데이터 컨퍼런스 모듈에 대 한 안정 된 상태 값을 반환 하는 경우에 수행 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6d3d7-113">The process is done when this cmdlet returns a value of Steady State for the data conference module.</span></span>
+<span data-ttu-id="7c5ee-113">이 cmdlet이 데이터 회의 모듈에 대해 정상 상태 값을 반환하면 처리가 완료된 것입니다.</span><span class="sxs-lookup"><span data-stu-id="7c5ee-113">The process is done when this cmdlet returns a value of Steady State for the data conference module.</span></span>
 
 </div>
 

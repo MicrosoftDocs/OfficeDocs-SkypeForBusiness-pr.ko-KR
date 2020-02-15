@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 사용자에 게 그룹 통화 픽업 배정 전달'
+title: 'Lync Server 2013: 사용자에 게 그룹 통화 픽업 할당 정보 교환'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 389416ddbab40aa4aa49d9225c7908ff4a4c82ca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ef0eebdfdb840d1d603fd6852a4d8cd1817a44af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742768"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="communicate-group-call-pickup-assignments-to-users-in-lync-server-2013"></a><span data-ttu-id="20f1a-102">Lync Server 2013에서 사용자에 게 그룹 통화 픽업 배정 전달</span><span class="sxs-lookup"><span data-stu-id="20f1a-102">Communicate Group Call Pickup assignments to users in Lync Server 2013</span></span>
+# <a name="communicate-group-call-pickup-assignments-to-users-in-lync-server-2013"></a><span data-ttu-id="45cf9-102">Lync Server 2013의 사용자에 게 그룹 통화 픽업 할당 전달</span><span class="sxs-lookup"><span data-stu-id="45cf9-102">Communicate Group Call Pickup assignments to users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742768"
 
 <span> </span>
 
-<span data-ttu-id="20f1a-103">_**마지막으로 수정한 주제:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="20f1a-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="45cf9-103">_**마지막으로 수정 된 항목:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="45cf9-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="20f1a-104">사용자를 위해 그룹 통화 픽업을 사용 하도록 설정한 후에는 전자 메일 또는 기타 메커니즘을 사용 하 여 사용자에 게 통화 픽업 그룹 번호를 알립니다.</span><span class="sxs-lookup"><span data-stu-id="20f1a-104">After you enable Group Call Pickup for users, use email or some other mechanism to notify users of their call pickup group number.</span></span> <span data-ttu-id="20f1a-105">사용자에 게 모니터링 하려는 모든 그룹에 대 한 통화 픽업 그룹 번호를 알립니다.</span><span class="sxs-lookup"><span data-stu-id="20f1a-105">Notify users of the call pickup group number for any group that they might want to monitor.</span></span> <span data-ttu-id="20f1a-106">사용자는 같은 그룹에 속하지 않더라도 다른 사용자에 대 한 통화를 검색할 수 있으므로 사용자는 여러 그룹에 대 한 통화 픽업 그룹 번호가 필요할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20f1a-106">Because users can retrieve calls for other users even if they are not in the same group, users might need the call pickup group number for multiple groups.</span></span>
+<span data-ttu-id="45cf9-104">사용자에 대해 그룹 통화 픽업을 사용 하도록 설정한 후에는 전자 메일 또는 기타 메커니즘을 사용 하 여 사용자에 게 통화 픽업 그룹 번호를 알릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45cf9-104">After you enable Group Call Pickup for users, use email or some other mechanism to notify users of their call pickup group number.</span></span> <span data-ttu-id="45cf9-105">사용자에 게 모니터링 하려는 모든 그룹에 대 한 통화 픽업 그룹 번호를 알립니다.</span><span class="sxs-lookup"><span data-stu-id="45cf9-105">Notify users of the call pickup group number for any group that they might want to monitor.</span></span> <span data-ttu-id="45cf9-106">사용자는 다른 사용자의 통화를 검색할 수 있으므로 같은 그룹에 있지 않은 경우에도 사용자는 여러 그룹에 대 한 통화 픽업 그룹 번호를 필요로 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45cf9-106">Because users can retrieve calls for other users even if they are not in the same group, users might need the call pickup group number for multiple groups.</span></span>
 
 </div>
 

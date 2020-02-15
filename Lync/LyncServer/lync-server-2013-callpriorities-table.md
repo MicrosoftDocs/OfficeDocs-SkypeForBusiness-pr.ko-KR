@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: CallPriorities 테이블'
+title: 'Lync Server 2013: CallPriorities 순위 테이블'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183275
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31ddf598fcf33b4f4841f9e3a9e857fd57ea608c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2be19538e065a1f9a25dd58da93b2752a27333e9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743218"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="callpriorities-table-in-lync-server-2013"></a><span data-ttu-id="7b75e-102">Lync Server 2013의 CallPriorities 테이블</span><span class="sxs-lookup"><span data-stu-id="7b75e-102">CallPriorities table in Lync Server 2013</span></span>
+# <a name="callpriorities-table-in-lync-server-2013"></a><span data-ttu-id="69f98-102">Lync Server 2013의 CallPriorities 순위 테이블</span><span class="sxs-lookup"><span data-stu-id="69f98-102">CallPriorities table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743218"
 
 <span> </span>
 
-<span data-ttu-id="7b75e-103">_**마지막으로 수정한 주제:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="7b75e-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="69f98-103">_**마지막으로 수정 된 항목:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="69f98-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="7b75e-104">CallPriorities 순위 테이블은 "비상 ', ' 긴급 ' 또는 ' normal ' 등의 가능한 통화 우선 순위 목록을 저장 하는 정적 테이블입니다.</span><span class="sxs-lookup"><span data-stu-id="7b75e-104">The CallPriorities table is a static table that stores the list of possible call priorities, such as ‘emergency’, ‘urgent’, or ‘normal’.</span></span>
+<span data-ttu-id="69f98-104">CallPriorities 테이블은 '응급', '긴급' 또는 '보통'과 같은 가능한 통화 우선 순위 목록을 저장하는 정적 테이블입니다.</span><span class="sxs-lookup"><span data-stu-id="69f98-104">The CallPriorities table is a static table that stores the list of possible call priorities, such as ‘emergency’, ‘urgent’, or ‘normal’.</span></span>
 
 
 <table>
@@ -49,30 +49,30 @@ ms.locfileid: "41743218"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7b75e-105">열</span><span class="sxs-lookup"><span data-stu-id="7b75e-105">Column</span></span></th>
-<th><span data-ttu-id="7b75e-106">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="7b75e-106">Data Type</span></span></th>
-<th><span data-ttu-id="7b75e-107">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="7b75e-107">Key/Index</span></span></th>
-<th><span data-ttu-id="7b75e-108">세부적인</span><span class="sxs-lookup"><span data-stu-id="7b75e-108">Details</span></span></th>
+<th><span data-ttu-id="69f98-105">열</span><span class="sxs-lookup"><span data-stu-id="69f98-105">Column</span></span></th>
+<th><span data-ttu-id="69f98-106">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="69f98-106">Data Type</span></span></th>
+<th><span data-ttu-id="69f98-107">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="69f98-107">Key/Index</span></span></th>
+<th><span data-ttu-id="69f98-108">세부 정보</span><span class="sxs-lookup"><span data-stu-id="69f98-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7b75e-109"><strong>PriorityId</strong></span><span class="sxs-lookup"><span data-stu-id="7b75e-109"><strong>PriorityId</strong></span></span></p></td>
-<td><p><span data-ttu-id="7b75e-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="7b75e-110">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="7b75e-111">주요한</span><span class="sxs-lookup"><span data-stu-id="7b75e-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="69f98-109"><strong>PriorityId</strong></span><span class="sxs-lookup"><span data-stu-id="69f98-109"><strong>PriorityId</strong></span></span></p></td>
+<td><p><span data-ttu-id="69f98-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="69f98-110">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="69f98-111">Primary</span><span class="sxs-lookup"><span data-stu-id="69f98-111">Primary</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7b75e-112"><strong>중요도</strong></span><span class="sxs-lookup"><span data-stu-id="7b75e-112"><strong>Priority</strong></span></span></p></td>
-<td><p><span data-ttu-id="7b75e-113">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="7b75e-113">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="69f98-112"><strong>우선 순위</strong></span><span class="sxs-lookup"><span data-stu-id="69f98-112"><strong>Priority</strong></span></span></p></td>
+<td><p><span data-ttu-id="69f98-113">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="69f98-113">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="7b75e-114">허용 되는 값:</span><span class="sxs-lookup"><span data-stu-id="7b75e-114">Allowed values:</span></span></p>
+<td><p><span data-ttu-id="69f98-114">허용되는 값</span><span class="sxs-lookup"><span data-stu-id="69f98-114">Allowed values:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="7b75e-115">0-알 수 없음</span><span class="sxs-lookup"><span data-stu-id="7b75e-115">0 - Unknown</span></span></p></li>
-<li><p><span data-ttu-id="7b75e-116">1-비 긴급</span><span class="sxs-lookup"><span data-stu-id="7b75e-116">1 – Non-Urgent</span></span></p></li>
-<li><p><span data-ttu-id="7b75e-117">2-보통</span><span class="sxs-lookup"><span data-stu-id="7b75e-117">2 - Normal</span></span></p></li>
-<li><p><span data-ttu-id="7b75e-118">3-긴급</span><span class="sxs-lookup"><span data-stu-id="7b75e-118">3 - Urgent</span></span></p></li>
-<li><p><span data-ttu-id="7b75e-119">4-긴급</span><span class="sxs-lookup"><span data-stu-id="7b75e-119">4 - Emergency</span></span></p></li>
+<li><p><span data-ttu-id="69f98-115">0 - 알 수 없음</span><span class="sxs-lookup"><span data-stu-id="69f98-115">0 - Unknown</span></span></p></li>
+<li><p><span data-ttu-id="69f98-116">1 - 일반</span><span class="sxs-lookup"><span data-stu-id="69f98-116">1 – Non-Urgent</span></span></p></li>
+<li><p><span data-ttu-id="69f98-117">2 - 보통</span><span class="sxs-lookup"><span data-stu-id="69f98-117">2 - Normal</span></span></p></li>
+<li><p><span data-ttu-id="69f98-118">3 - 긴급</span><span class="sxs-lookup"><span data-stu-id="69f98-118">3 - Urgent</span></span></p></li>
+<li><p><span data-ttu-id="69f98-119">4 - 응급</span><span class="sxs-lookup"><span data-stu-id="69f98-119">4 - Emergency</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

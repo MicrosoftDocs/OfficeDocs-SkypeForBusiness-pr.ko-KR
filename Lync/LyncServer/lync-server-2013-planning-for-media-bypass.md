@@ -12,20 +12,20 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97b28559ea58439d370042d54ab7ef58943bc594
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0bb4d495637cd78e430e975e9831421906bfbf6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41751158"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050090"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-media-bypass-in-lync-server-2013"></a><span data-ttu-id="1b46b-102">Lync Server 2013의 미디어 바이패스 계획</span><span class="sxs-lookup"><span data-stu-id="1b46b-102">Planning for media bypass in Lync Server 2013</span></span>
+# <a name="planning-for-media-bypass-in-lync-server-2013"></a><span data-ttu-id="746f4-102">Lync Server 2013의 미디어 바이패스 계획</span><span class="sxs-lookup"><span data-stu-id="746f4-102">Planning for media bypass in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,55 +35,55 @@ ms.locfileid: "41751158"
 
 <span> </span>
 
-<span data-ttu-id="1b46b-103">_**마지막으로 수정한 주제:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="1b46b-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="746f4-103">_**마지막으로 수정 된 항목:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="746f4-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="1b46b-104">미디어 바이패스는 신호 조정 서버를 통과 하는 호출에 대해 가능 하면 미디어 경로에서 중재 서버를 제거 하는 것을 의미 합니다.</span><span class="sxs-lookup"><span data-stu-id="1b46b-104">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span>
+<span data-ttu-id="746f4-104">미디어 바이패스는 신호가 중재 서버를 트래버스하는 통화에 대해 가능할 때마다 미디어 경로에서 중재 서버를 제거하는 것을 가리킵니다.</span><span class="sxs-lookup"><span data-stu-id="746f4-104">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span>
 
-<span data-ttu-id="1b46b-105">미디어 바이패스는 대기 시간, 불필요 한 번역, 패킷 손실 가능성 및 잠재적 실패 지점의 수를 줄여 음성 품질을 향상 시킬 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1b46b-105">Media bypass can improve voice quality by reducing latency, needless translation, possibility of packet loss, and the number of points of potential failure.</span></span> <span data-ttu-id="1b46b-106">우회 된 통화에 대 한 미디어 처리를 제거 하면 조정 서버의 로드가 줄어들기 때문에 확장성이 향상 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1b46b-106">Scalability can be improved, because elimination of media processing for bypassed calls reduces the load on the Mediation Server.</span></span> <span data-ttu-id="1b46b-107">이러한 로드 감소는 중재 서버에서 여러 게이트웨이를 제어 하는 기능을 보완 합니다.</span><span class="sxs-lookup"><span data-stu-id="1b46b-107">This reduction in load complements the ability of the Mediation Server to control multiple gateways.</span></span>
+<span data-ttu-id="746f4-105">미디어 바이패스는 대기 시간, 불필요한 변환, 패킷 손실 가능성 및 잠재적 오류 지점 수를 줄여 음성 품질을 향상시킬 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="746f4-105">Media bypass can improve voice quality by reducing latency, needless translation, possibility of packet loss, and the number of points of potential failure.</span></span> <span data-ttu-id="746f4-106">바이패스된 통화에 대한 미디어 처리가 없으므로 중재 서버에 대한 부하가 줄어 들어 확장성이 향상될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="746f4-106">Scalability can be improved, because elimination of media processing for bypassed calls reduces the load on the Mediation Server.</span></span> <span data-ttu-id="746f4-107">이러한 부하가 줄어들면 중재 서버가 여러 게이트웨이를 제어 하는 기능이 보완 됩니다.</span><span class="sxs-lookup"><span data-stu-id="746f4-107">This reduction in load complements the ability of the Mediation Server to control multiple gateways.</span></span>
 
-<span data-ttu-id="1b46b-108">중재 서버가 없는 지점 사이트는 제한 된 대역폭의 하나 이상의 WAN 링크로 중앙 사이트에 연결 되며, 미디어 바이패스는 지점 사이트의 클라이언트에서 미디어를 통해 로컬 게이트웨이로 바로 이동 하도록 허용 하 여 대역폭 요구 사항을 줄입니다. 중앙 사이트의 중재 서버에 대 한 WAN 링크를 통해 먼저 이동 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1b46b-108">Where a branch site without a Mediation Server is connected to a central site by one or more WAN links with constrained bandwidth, media bypass lowers the bandwidth requirement by allowing media from a client at a branch site to flow directly to its local gateway without first having to flow across the WAN link to a Mediation Server at the central site and back.</span></span>
+<span data-ttu-id="746f4-108">중재 서버가 없는 분기 사이트가 제한 된 대역폭을 사용 하는 하나 이상의 WAN 링크에 의해 중앙 사이트에 연결 되어 있는 경우 미디어 바이패스는 분기 사이트에 있는 클라이언트의 미디어가 로컬 게이트웨이로 바로 이동 하도록 허용 하 여 대역폭 요구 사항을 줄입니다. 먼저 WAN 링크에서 중앙 사이트의 중재 서버로 이동 하 고 다시 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="746f4-108">Where a branch site without a Mediation Server is connected to a central site by one or more WAN links with constrained bandwidth, media bypass lowers the bandwidth requirement by allowing media from a client at a branch site to flow directly to its local gateway without first having to flow across the WAN link to a Mediation Server at the central site and back.</span></span>
 
-<span data-ttu-id="1b46b-109">미디어 처리에서 중재 서버를 relieving 하 여 엔터프라이즈 음성 인프라에 필요한 중재 서버 수를 줄일 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1b46b-109">By relieving the Mediation Server from media processing, media bypass may also reduce the number of Mediation Servers that an Enterprise Voice infrastructure requires.</span></span>
+<span data-ttu-id="746f4-109">미디어 바이패스를 통해 중재 서버를 fea-mediation-server-role-plural 하 여 엔터프라이즈 음성 인프라에 필요한 중재 서버 수를 줄일 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="746f4-109">By relieving the Mediation Server from media processing, media bypass may also reduce the number of Mediation Servers that an Enterprise Voice infrastructure requires.</span></span>
 
-<span data-ttu-id="1b46b-110">다음 그림은 미디어 바이패스를 사용 하는 것과 없는 토폴로지의 기본 미디어 및 신호 경로를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="1b46b-110">The following figure shows basic media and signaling pathways in topologies with and without media bypass.</span></span>
+<span data-ttu-id="746f4-110">다음 그림에서는 미디어 바이패스가 있는 경우와 없는 경우의 토폴로지의 기본 미디어 및 신호 경로를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="746f4-110">The following figure shows basic media and signaling pathways in topologies with and without media bypass.</span></span>
 
-<span data-ttu-id="1b46b-111">**미디어를 우회 하거나 사용 하지 않고 미디어 및 신호 경로**</span><span class="sxs-lookup"><span data-stu-id="1b46b-111">**Media and signaling pathways with and without media bypass**</span></span>
+<span data-ttu-id="746f4-111">**미디어 바이패스가 있는 경우와 없는 경우의 미디어 및 신호 경로**</span><span class="sxs-lookup"><span data-stu-id="746f4-111">**Media and signaling pathways with and without media bypass**</span></span>
 
-<span data-ttu-id="1b46b-112">![음성 CAC 미디어 바이패스 연결 적용](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "음성 CAC 미디어 바이패스 연결 적용")</span><span class="sxs-lookup"><span data-stu-id="1b46b-112">![Voice CAC Media Bypass Connection Enforcement](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Voice CAC Media Bypass Connection Enforcement")</span></span>
+<span data-ttu-id="746f4-112">![음성 CAC 미디어 바이패스 연결 적용](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "음성 CAC 미디어 바이패스 연결 적용")</span><span class="sxs-lookup"><span data-stu-id="746f4-112">![Voice CAC Media Bypass Connection Enforcement](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Voice CAC Media Bypass Connection Enforcement")</span></span>
 
-<span data-ttu-id="1b46b-113">일반적으로 가능한 모든 곳에서 미디어를 우회 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="1b46b-113">As a general rule, enable media bypass wherever possible.</span></span>
+<span data-ttu-id="746f4-113">일반적으로 가능한 모든 곳에 미디어 바이패스를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="746f4-113">As a general rule, enable media bypass wherever possible.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1b46b-114">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="1b46b-114">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="746f4-114">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="746f4-114">In This Section</span></span>
 
-  - [<span data-ttu-id="1b46b-115">Lync Server 2013의 미디어 바이패스 개요</span><span class="sxs-lookup"><span data-stu-id="1b46b-115">Overview of media bypass in Lync Server 2013</span></span>](lync-server-2013-overview-of-media-bypass.md)
+  - [<span data-ttu-id="746f4-115">Lync Server 2013의 미디어 바이패스 개요</span><span class="sxs-lookup"><span data-stu-id="746f4-115">Overview of media bypass in Lync Server 2013</span></span>](lync-server-2013-overview-of-media-bypass.md)
 
-  - [<span data-ttu-id="1b46b-116">Lync Server 2013의 미디어 바이패스 모드</span><span class="sxs-lookup"><span data-stu-id="1b46b-116">Media bypass modes in Lync Server 2013</span></span>](lync-server-2013-media-bypass-modes.md)
+  - [<span data-ttu-id="746f4-116">Lync Server 2013의 미디어 바이패스 모드</span><span class="sxs-lookup"><span data-stu-id="746f4-116">Media bypass modes in Lync Server 2013</span></span>](lync-server-2013-media-bypass-modes.md)
 
-  - [<span data-ttu-id="1b46b-117">Lync Server 2013의 미디어 바이패스 및 통화 허용 제어 서비스</span><span class="sxs-lookup"><span data-stu-id="1b46b-117">Media bypass and call admission control in Lync Server 2013</span></span>](lync-server-2013-media-bypass-and-call-admission-control.md)
+  - [<span data-ttu-id="746f4-117">Lync Server 2013의 미디어 바이패스 및 통화 허용 제어 서비스</span><span class="sxs-lookup"><span data-stu-id="746f4-117">Media bypass and call admission control in Lync Server 2013</span></span>](lync-server-2013-media-bypass-and-call-admission-control.md)
 
-  - [<span data-ttu-id="1b46b-118">Lync Server 2013의 미디어 바이패스에 대한 기술 요구 사항</span><span class="sxs-lookup"><span data-stu-id="1b46b-118">Technical requirements for media bypass in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-media-bypass.md)
+  - [<span data-ttu-id="746f4-118">Lync Server 2013의 미디어 바이패스에 대 한 기술 요구 사항</span><span class="sxs-lookup"><span data-stu-id="746f4-118">Technical requirements for media bypass in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-media-bypass.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="1b46b-119">관련 단원</span><span class="sxs-lookup"><span data-stu-id="1b46b-119">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="746f4-119">관련 섹션</span><span class="sxs-lookup"><span data-stu-id="746f4-119">Related Sections</span></span>
 
-[<span data-ttu-id="1b46b-120">Lync Server 2013에서 고급 엔터프라이즈 음성 기능 배포</span><span class="sxs-lookup"><span data-stu-id="1b46b-120">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[<span data-ttu-id="746f4-120">Lync Server 2013에서 고급 Enterprise Voice 기능 배포</span><span class="sxs-lookup"><span data-stu-id="746f4-120">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="1b46b-121">참고 항목</span><span class="sxs-lookup"><span data-stu-id="1b46b-121">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="746f4-121">참고 항목</span><span class="sxs-lookup"><span data-stu-id="746f4-121">See Also</span></span>
 
 
-[<span data-ttu-id="1b46b-122">Lync Server 2013에서 미디어 바이패스를 사용 하 여 트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="1b46b-122">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[<span data-ttu-id="746f4-122">Lync Server 2013의 미디어 바이패스로 트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="746f4-122">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
 
 
-[<span data-ttu-id="1b46b-123">Lync Server 2013의 글로벌 미디어 우회 옵션</span><span class="sxs-lookup"><span data-stu-id="1b46b-123">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
+[<span data-ttu-id="746f4-123">Lync Server 2013의 글로벌 미디어 바이패스 옵션</span><span class="sxs-lookup"><span data-stu-id="746f4-123">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
   
 
 </div>

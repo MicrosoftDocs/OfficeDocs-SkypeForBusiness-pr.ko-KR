@@ -12,20 +12,20 @@ ms:contentKeyID: 48184816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20a6897ae45964f3f179e951916dfb6bf7180641
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 173b1293fb4bf0353b4e6d9038d05c1480697d17
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724948"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-domains-for-lync-server-2013"></a><span data-ttu-id="0582c-102">Lync Server 2013에 대한 도메인 준비</span><span class="sxs-lookup"><span data-stu-id="0582c-102">Preparing domains for Lync Server 2013</span></span>
+# <a name="preparing-domains-for-lync-server-2013"></a><span data-ttu-id="45460-102">Lync Server 2013에 대 한 도메인 준비</span><span class="sxs-lookup"><span data-stu-id="45460-102">Preparing domains for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41724948"
 
 <span> </span>
 
-<span data-ttu-id="0582c-103">_**마지막으로 수정한 주제:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="0582c-103">_**Topic Last Modified:** 2012-10-29_</span></span>
+<span data-ttu-id="45460-103">_**마지막으로 수정 된 항목:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="45460-103">_**Topic Last Modified:** 2012-10-29_</span></span>
 
-<span data-ttu-id="0582c-104">도메인 준비는 Lync Server 2013의 Active Directory 도메인 서비스를 준비 하는 마지막 단계입니다.</span><span class="sxs-lookup"><span data-stu-id="0582c-104">Domain preparation is the final step in preparing Active Directory Domain Services for Lync Server 2013.</span></span> <span data-ttu-id="0582c-105">도메인 준비 단계에서는 도메인 내에서 사용자를 호스트 하 고 관리할 수 있는 권한을 부여 하는 유니버설 그룹에 필요한 Ace (액세스 제어 항목)를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="0582c-105">The domain preparation step adds the necessary access control entries (ACEs) to universal groups that grant permissions to host and manage users within the domain.</span></span> <span data-ttu-id="0582c-106">도메인 준비는 도메인 루트 및 세 가지 기본 제공 컨테이너 (사용자, 컴퓨터 및 도메인 컨트롤러)에 Ace를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="0582c-106">Domain preparation creates ACEs on the domain root and three built-in containers: User, Computers, and Domain Controllers.</span></span>
+<span data-ttu-id="45460-104">도메인 준비는 Lync Server 2013에 대 한 Active Directory 도메인 서비스 준비의 마지막 단계입니다.</span><span class="sxs-lookup"><span data-stu-id="45460-104">Domain preparation is the final step in preparing Active Directory Domain Services for Lync Server 2013.</span></span> <span data-ttu-id="45460-105">도메인 준비 단계에서는 호스트에 권한을 부여하고 도메인 내의 사용자를 관리하는 유니버설 그룹에 필요한 ACE(액세스 제어 항목)를 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="45460-105">The domain preparation step adds the necessary access control entries (ACEs) to universal groups that grant permissions to host and manage users within the domain.</span></span> <span data-ttu-id="45460-106">도메인 준비는 도메인 루트와 세 개의 기본 제공 컨테이너인 사용자, 컴퓨터 및 도메인 컨트롤러에 ACE를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="45460-106">Domain preparation creates ACEs on the domain root and three built-in containers: User, Computers, and Domain Controllers.</span></span>
 
-<span data-ttu-id="0582c-107">Lync Server를 배포 하는 도메인의 모든 컴퓨터에서 도메인 준비를 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0582c-107">You can run domain preparation on any computer in the domain where you are deploying Lync Server.</span></span> <span data-ttu-id="0582c-108">Lync Server 또는 사용자를 호스트 하는 모든 도메인을 준비 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0582c-108">You must prepare every domain that will host Lync Server or users.</span></span>
+<span data-ttu-id="45460-107">Lync Server를 배포 하는 도메인의 모든 컴퓨터에서 도메인 준비를 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="45460-107">You can run domain preparation on any computer in the domain where you are deploying Lync Server.</span></span> <span data-ttu-id="45460-108">Lync Server 또는 사용자를 호스트 하는 모든 도메인을 준비 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="45460-108">You must prepare every domain that will host Lync Server or users.</span></span>
 
-<span data-ttu-id="0582c-109">사용 권한 상속을 사용 하지 않거나 인증 된 사용자 권한을 조직에서 사용할 수 없는 경우에는 도메인을 준비 하는 동안 추가 단계를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0582c-109">If permissions inheritance is disabled or authenticated user permissions are disabled in your organization, you must perform additional steps during domain preparation.</span></span> <span data-ttu-id="0582c-110">자세한 내용은 [Lync Server 2013에서 잠겨진 Active Directory 도메인 서비스 준비](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="0582c-110">For details, see [Preparing a locked-down Active Directory Domain Services in Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).</span></span>
+<span data-ttu-id="45460-109">조직에서 권한 상속이 비활성화되어 있거나 인증된 사용자 권한을 비활성화해야 하는 경우 도메인 준비 작업 중에 추가 단계를 수행해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="45460-109">If permissions inheritance is disabled or authenticated user permissions are disabled in your organization, you must perform additional steps during domain preparation.</span></span> <span data-ttu-id="45460-110">자세한 내용은 [Lync Server 2013에서 잠긴 Active Directory 도메인 서비스 준비](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="45460-110">For details, see [Preparing a locked-down Active Directory Domain Services in Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).</span></span>
 
-<span data-ttu-id="0582c-111">조직에서 세 가지 기본 제공 컨테이너 (즉, 사용자, 컴퓨터 및 도메인 컨트롤러) 대신 OU (조직 구성 단위)를 사용 하는 경우 인증 된 사용자 그룹의 Ou에 대 한 읽기 권한을 부여 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0582c-111">If your organization uses organizational units (OU) instead of the three built-in containers (that is, Users, Computers, and Domain Controllers), you must grant read access to the OUs for the Authenticated Users group.</span></span> <span data-ttu-id="0582c-112">도메인 준비에는 컨테이너에 대 한 읽기 권한이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="0582c-112">Read access to the containers is required for domain preparation.</span></span> <span data-ttu-id="0582c-113">인증 된 사용자 그룹에 OU에 대 한 읽기 권한이 없는 경우 다음 코드 예제에 나와 있는 것 처럼 **Grant-CsOuPermission** cmdlet을 실행 하 여 각 OU에 대 한 읽기 권한을 부여 합니다.</span><span class="sxs-lookup"><span data-stu-id="0582c-113">If the Authenticated Users group does not have read access to the OU, run the **Grant-CsOuPermission** cmdlet as illustrated in the following code examples to grant read permissions for each OU.</span></span>
+<span data-ttu-id="45460-111">조직에서 세 개의 기본 제공 컨테이너(즉, 사용자, 컴퓨터 및 도메인 컨트롤러) 대신에 OU(조직 구성 단위)를 사용하는 경우 OU에 Authenticated Users 그룹에 대한 읽기 권한을 부여해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="45460-111">If your organization uses organizational units (OU) instead of the three built-in containers (that is, Users, Computers, and Domain Controllers), you must grant read access to the OUs for the Authenticated Users group.</span></span> <span data-ttu-id="45460-112">컨테이너에 대한 읽기 권한은 도메인을 준비하는 데 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="45460-112">Read access to the containers is required for domain preparation.</span></span> <span data-ttu-id="45460-113">Authenticated Users 그룹에 OU에 대한 읽기 권한이 없는 경우 각 OU에 읽기 권한을 부여하는 다음 코드 예제와 같이 **Grant-CsOuPermission** cmdlet을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="45460-113">If the Authenticated Users group does not have read access to the OU, run the **Grant-CsOuPermission** cmdlet as illustrated in the following code examples to grant read permissions for each OU.</span></span>
 
    ```PowerShell
     Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
@@ -53,13 +53,13 @@ ms.locfileid: "41724948"
     Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
    ```
 
-<span data-ttu-id="0582c-114">**허용-CsOuPermission** cmdlet에 대 한 자세한 내용은 Lync Server 관리 셸 설명서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="0582c-114">For details about the **Grant-CsOuPermission** cmdlet, see the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="45460-114">**부여-CsOuPermission** cmdlet에 대 한 자세한 내용은 Lync Server 관리 셸 설명서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="45460-114">For details about the **Grant-CsOuPermission** cmdlet, see the Lync Server Management Shell documentation.</span></span>
 
 <div class="">
 
 
 > [!TIP]  
-> <span data-ttu-id="0582c-115">도메인 루트 및 사용자, 컴퓨터 및 도메인 컨트롤러 컨테이너에서 만든 Ace에 대 한 자세한 내용은 <A href="lync-server-2013-changes-made-by-domain-preparation.md">Lync Server 2013에서 도메인 준비를 통해 변경한 내용을</A>참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="0582c-115">For details about the ACEs created on the domain root and in the Users, Computers, and Domain Controllers containers, see <A href="lync-server-2013-changes-made-by-domain-preparation.md">Changes made by domain preparation in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="45460-115">도메인 루트와 사용자, 컴퓨터 및 도메인 컨트롤러 컨테이너에서 만들어진 Ace에 대 한 자세한 내용은 <A href="lync-server-2013-changes-made-by-domain-preparation.md">Lync Server 2013에서 도메인 준비로 인 한 변경 내용을</A>참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="45460-115">For details about the ACEs created on the domain root and in the Users, Computers, and Domain Controllers containers, see <A href="lync-server-2013-changes-made-by-domain-preparation.md">Changes made by domain preparation in Lync Server 2013</A>.</span></span>
 
 
 
@@ -67,11 +67,11 @@ ms.locfileid: "41724948"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0582c-116">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="0582c-116">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="45460-116">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="45460-116">In This Section</span></span>
 
-  - [<span data-ttu-id="0582c-117">Lync Server 2013에 대한 도메인 준비 실행</span><span class="sxs-lookup"><span data-stu-id="0582c-117">Running domain preparation for Lync Server 2013</span></span>](lync-server-2013-running-domain-preparation.md)
+  - [<span data-ttu-id="45460-117">Lync Server 2013에 대 한 도메인 준비 실행</span><span class="sxs-lookup"><span data-stu-id="45460-117">Running domain preparation for Lync Server 2013</span></span>](lync-server-2013-running-domain-preparation.md)
 
-  - [<span data-ttu-id="0582c-118">Lync Server 2013에 대해 cmdlet을 사용하여 도메인 준비 되돌리기</span><span class="sxs-lookup"><span data-stu-id="0582c-118">Using cmdlets to reverse domain preparation for Lync Server 2013</span></span>](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)
+  - [<span data-ttu-id="45460-118">Cmdlet을 사용 하 여 Lync Server 2013에 대 한 도메인 준비 되돌리기</span><span class="sxs-lookup"><span data-stu-id="45460-118">Using cmdlets to reverse domain preparation for Lync Server 2013</span></span>](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)
 
 </div>
 

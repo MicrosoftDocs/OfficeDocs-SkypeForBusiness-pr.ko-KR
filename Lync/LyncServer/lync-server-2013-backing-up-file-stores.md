@@ -12,20 +12,20 @@ ms:contentKeyID: 51541449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1989c399ec01ab2bbe3412a086a58c2583c0dad5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e61c9a70477d18ebdacaf9233bbbb0693bb74a2e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741038"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-file-stores-in-lync-server-2013"></a><span data-ttu-id="a1017-102">Lync Server 2013에서 파일 저장소 백업</span><span class="sxs-lookup"><span data-stu-id="a1017-102">Backing up file stores in Lync Server 2013</span></span>
+# <a name="backing-up-file-stores-in-lync-server-2013"></a><span data-ttu-id="f4358-102">Lync Server 2013에서 파일 저장소 백업</span><span class="sxs-lookup"><span data-stu-id="f4358-102">Backing up file stores in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41741038"
 
 <span> </span>
 
-<span data-ttu-id="a1017-103">_**마지막으로 수정한 주제:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="a1017-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+<span data-ttu-id="f4358-103">_**마지막으로 수정 된 항목:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="f4358-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-<span data-ttu-id="a1017-104">Lync Server 파일 저장소를 백업 하려면 Lync Server 구성 요소에서 사용 하는 모든 파일과 폴더가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a1017-104">Backing up the Lync Server File Stores includes all the files and folders used by Lync Server components.</span></span>
+<span data-ttu-id="f4358-104">Lync Server 파일 저장소를 백업 하면 Lync Server 구성 요소에서 사용 하는 모든 파일 및 폴더가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f4358-104">Backing up the Lync Server File Stores includes all the files and folders used by Lync Server components.</span></span>
 
 <div>
 
-## <a name="to-back-up-file-stores"></a><span data-ttu-id="a1017-105">파일 저장소를 백업 하려면</span><span class="sxs-lookup"><span data-stu-id="a1017-105">To back up File Stores</span></span>
+## <a name="to-back-up-file-stores"></a><span data-ttu-id="f4358-105">파일 저장소를 백업하려면</span><span class="sxs-lookup"><span data-stu-id="f4358-105">To back up File Stores</span></span>
 
-1.  <span data-ttu-id="a1017-106">Lync Server 파일 저장소의 특정 위치를 찾으려면 토폴로지 작성기를 열고 **파일 저장소** 노드를 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="a1017-106">To find the specific locations of your Lync Server File Stores, open Topology Builder and look in the **File stores** node.</span></span>
+1.  <span data-ttu-id="f4358-106">Lync Server 파일 저장소의 특정 위치를 찾으려면 토폴로지 작성기를 열고 **파일 저장소** 노드를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="f4358-106">To find the specific locations of your Lync Server File Stores, open Topology Builder and look in the **File stores** node.</span></span>
 
-2.  <span data-ttu-id="a1017-107">Robocopy 또는 다른 파일 시스템 관리 도구를 사용 하 여 각 파일 저장소를\\$Backup 대상 저장소에 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="a1017-107">Use Robocopy or another file system management tool to copy each File Store to $Backup\\filestore.</span></span>
+2.  <span data-ttu-id="f4358-107">Robocopy 또는 다른 파일 시스템 관리 도구를 사용 하 여 각 파일 저장소를\\$Backup 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="f4358-107">Use Robocopy or another file system management tool to copy each File Store to $Backup\\filestore.</span></span>
 
 </div>
 

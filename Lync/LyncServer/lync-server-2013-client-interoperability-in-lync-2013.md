@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync 2013 에서 클라이언트 상호 운용성'
+title: 'Lync Server 2013: Lync 2013의 클라이언트 상호 운용성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b28d0de09a46a2be8b968e55c8f551e397da6ae8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dc807d65c76a1307ccd8532e644f9f9d23ffc69e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756762"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046741"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-interoperability-in-lync-2013"></a><span data-ttu-id="cbf20-102">Lync 2013 에서 클라이언트 상호 운용성</span><span class="sxs-lookup"><span data-stu-id="cbf20-102">Client interoperability in Lync 2013</span></span>
+# <a name="client-interoperability-in-lync-2013"></a><span data-ttu-id="93dd4-102">Lync 2013의 클라이언트 상호 운용성</span><span class="sxs-lookup"><span data-stu-id="93dd4-102">Client interoperability in Lync 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756762"
 
 <span> </span>
 
-<span data-ttu-id="cbf20-103">_**마지막으로 수정한 주제:** 2016-03-04_</span><span class="sxs-lookup"><span data-stu-id="cbf20-103">_**Topic Last Modified:** 2016-03-04_</span></span>
+<span data-ttu-id="93dd4-103">_**마지막으로 수정 된 항목:** 2016-03-04_</span><span class="sxs-lookup"><span data-stu-id="93dd4-103">_**Topic Last Modified:** 2016-03-04_</span></span>
 
-<span data-ttu-id="cbf20-104">이 항목에서는 이전 버전의 Lync Server 및 Office Communications Server에서 클라이언트와 함께 사용 하 고 상호 작용 하는 Microsoft Lync Server 2013 클라이언트의 기능에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-104">This topic discusses the ability of Microsoft Lync Server 2013 clients to coexist and interact with clients from earlier versions of Lync Server and Office Communications Server.</span></span>
+<span data-ttu-id="93dd4-104">이 항목에서는 Microsoft Lync Server 2013 클라이언트가 이전 버전의 Lync Server 및 Office Communications Server와 함께 사용 되 고 클라이언트와 상호 작용 하는 기능에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-104">This topic discusses the ability of Microsoft Lync Server 2013 clients to coexist and interact with clients from earlier versions of Lync Server and Office Communications Server.</span></span>
 
 <div>
 
-## <a name="server-and-client-compatibility"></a><span data-ttu-id="cbf20-105">서버 및 클라이언트 호환성</span><span class="sxs-lookup"><span data-stu-id="cbf20-105">Server and Client Compatibility</span></span>
+## <a name="server-and-client-compatibility"></a><span data-ttu-id="93dd4-105">서버 및 클라이언트 호환성</span><span class="sxs-lookup"><span data-stu-id="93dd4-105">Server and Client Compatibility</span></span>
 
-<span data-ttu-id="cbf20-106">다음 표에는 클라이언트 버전과 서버 버전의 지원 되는 조합이 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-106">The following table shows the supported combinations of client versions and server versions.</span></span> <span data-ttu-id="cbf20-107">이 표에는 클라이언트가 표시 된 서버에 연결 하려고 할 때 로그인이 지원 되는지 여부가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-107">This table indicates whether sign-in is supported when the client attempts to connect to the server indicated.</span></span> <span data-ttu-id="cbf20-108">Lync Server 2013는 이전 클라이언트 버전을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-108">Lync Server 2013 supports the previous client version.</span></span> <span data-ttu-id="cbf20-109">또한 이전 릴리스와 달리 Lync Server 2010는 새로운 Lync 2013 클라이언트를 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-109">Also, unlike previous releases, Lync Server 2010 supports the new Lync 2013 clients.</span></span> <span data-ttu-id="cbf20-110">이를 통해 Lync Server 2010에서 업그레이드 하는 조직이 Lync Server 업그레이드와 독립적으로 새 클라이언트를 롤아웃할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-110">This allows organizations who are upgrading from Lync Server 2010 to roll out new clients independent of Lync Server upgrades.</span></span>
+<span data-ttu-id="93dd4-106">다음 표에는 지원 되는 클라이언트 버전 및 서버 버전 조합이 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-106">The following table shows the supported combinations of client versions and server versions.</span></span> <span data-ttu-id="93dd4-107">이 테이블은 클라이언트가 지정 된 서버에 연결 하려고 할 때 로그인이 지원 되는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-107">This table indicates whether sign-in is supported when the client attempts to connect to the server indicated.</span></span> <span data-ttu-id="93dd4-108">Lync Server 2013는 이전 클라이언트 버전을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-108">Lync Server 2013 supports the previous client version.</span></span> <span data-ttu-id="93dd4-109">또한 이전 릴리스와 달리 Lync Server 2010는 새 Lync 2013 클라이언트를 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-109">Also, unlike previous releases, Lync Server 2010 supports the new Lync 2013 clients.</span></span> <span data-ttu-id="93dd4-110">이를 통해 Lync Server 2010에서 업그레이드 하는 조직은 Lync Server 업그레이드에 관계 없이 새 클라이언트를 롤아웃할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-110">This allows organizations who are upgrading from Lync Server 2010 to roll out new clients independent of Lync Server upgrades.</span></span>
 
 
 <table>
@@ -55,130 +55,130 @@ ms.locfileid: "41756762"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="cbf20-111">클라이언트</span><span class="sxs-lookup"><span data-stu-id="cbf20-111">Client</span></span></th>
-<th><span data-ttu-id="cbf20-112">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbf20-112">Lync Server 2013</span></span></th>
-<th><span data-ttu-id="cbf20-113">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="cbf20-113">Lync Server 2010</span></span></th>
-<th><span data-ttu-id="cbf20-114">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="cbf20-114">Office Communications Server 2007 R2</span></span></th>
+<th><span data-ttu-id="93dd4-111">클라이언트</span><span class="sxs-lookup"><span data-stu-id="93dd4-111">Client</span></span></th>
+<th><span data-ttu-id="93dd4-112">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93dd4-112">Lync Server 2013</span></span></th>
+<th><span data-ttu-id="93dd4-113">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="93dd4-113">Lync Server 2010</span></span></th>
+<th><span data-ttu-id="93dd4-114">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="93dd4-114">Office Communications Server 2007 R2</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-115">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="cbf20-115">Lync 2013</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-116">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-116">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-117">Supported5</span><span class="sxs-lookup"><span data-stu-id="cbf20-117">Supported5</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-118">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-118">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-115">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="93dd4-115">Lync 2013</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-116">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-116">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-117">Supported5</span><span class="sxs-lookup"><span data-stu-id="93dd4-117">Supported5</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-118">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-118">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbf20-119">Lync 2013 Basic</span><span class="sxs-lookup"><span data-stu-id="cbf20-119">Lync 2013 Basic</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-120">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-120">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-121">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-121">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-122">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-122">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-119">Lync 2013 Basic</span><span class="sxs-lookup"><span data-stu-id="93dd4-119">Lync 2013 Basic</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-120">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-120">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-121">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-121">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-122">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-122">Not Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-123">Lync Web App 2013</span><span class="sxs-lookup"><span data-stu-id="cbf20-123">Lync Web App 2013</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-124">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-124">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-125">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-125">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-126">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-126">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-123">Lync Web App 2013</span><span class="sxs-lookup"><span data-stu-id="93dd4-123">Lync Web App 2013</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-124">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-124">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-125">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-125">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-126">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-126">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbf20-127">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="cbf20-127">Lync 2010</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-128">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-128">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-129">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-129">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-130">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-130">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-127">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="93dd4-127">Lync 2010</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-128">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-128">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-129">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-129">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-130">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-130">Not Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-131">Lync 2010 수행자</span><span class="sxs-lookup"><span data-stu-id="cbf20-131">Lync 2010 Attendant</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-132">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-132">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-133">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-133">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-134">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-134">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-131">Lync 2010 Attendant</span><span class="sxs-lookup"><span data-stu-id="93dd4-131">Lync 2010 Attendant</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-132">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-132">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-133">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-133">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-134">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-134">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbf20-135">Lync 2010 그룹 채팅</span><span class="sxs-lookup"><span data-stu-id="cbf20-135">Lync 2010 Group Chat</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-136">Supported1</span><span class="sxs-lookup"><span data-stu-id="cbf20-136">Supported1</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-137">Supported2</span><span class="sxs-lookup"><span data-stu-id="cbf20-137">Supported2</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-138">해당 없음</span><span class="sxs-lookup"><span data-stu-id="cbf20-138">Not Applicable</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-135">Lync 2010 그룹 채팅</span><span class="sxs-lookup"><span data-stu-id="93dd4-135">Lync 2010 Group Chat</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-136">1</span><span class="sxs-lookup"><span data-stu-id="93dd4-136">Supported1</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-137">2</span><span class="sxs-lookup"><span data-stu-id="93dd4-137">Supported2</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-138">해당 없음</span><span class="sxs-lookup"><span data-stu-id="93dd4-138">Not Applicable</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-139">Lync Web App 2010</span><span class="sxs-lookup"><span data-stu-id="cbf20-139">Lync Web App 2010</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-140">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-140">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-141">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-141">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-142">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-142">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-139">Lync Web App 2010</span><span class="sxs-lookup"><span data-stu-id="93dd4-139">Lync Web App 2010</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-140">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-140">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-141">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-141">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-142">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-142">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbf20-143">Lync 2010 참석자</span><span class="sxs-lookup"><span data-stu-id="cbf20-143">Lync 2010 Attendee</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-144">Supported3 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-144">Not Supported3</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-145">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-145">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-146">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-146">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-143">Lync 2010 Attendee</span><span class="sxs-lookup"><span data-stu-id="93dd4-143">Lync 2010 Attendee</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-144">Supported3 아님</span><span class="sxs-lookup"><span data-stu-id="93dd4-144">Not Supported3</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-145">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-145">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-146">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-146">Not Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-147">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="cbf20-147">Office Communicator 2007 R2</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-148">Interoperable4</span><span class="sxs-lookup"><span data-stu-id="cbf20-148">Interoperable4</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-149">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-149">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-150">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-150">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-147">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="93dd4-147">Office Communicator 2007 R2</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-148">Interoperable4</span><span class="sxs-lookup"><span data-stu-id="93dd4-148">Interoperable4</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-149">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-149">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-150">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-150">Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbf20-151">Microsoft Office Communications Server 2007 R2 전화 교환</span><span class="sxs-lookup"><span data-stu-id="cbf20-151">Microsoft Office Communications Server 2007 R2 Attendant</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-152">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-152">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-153">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-153">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-154">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-154">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-151">Microsoft Office Communications Server 2007 R2 Attendant</span><span class="sxs-lookup"><span data-stu-id="93dd4-151">Microsoft Office Communications Server 2007 R2 Attendant</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-152">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-152">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-153">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-153">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-154">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-154">Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-155">Office Communicator 2007</span><span class="sxs-lookup"><span data-stu-id="cbf20-155">Office Communicator 2007</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-156">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-156">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-157">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-157">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-158">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-158">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-155">Office Communicator 2007</span><span class="sxs-lookup"><span data-stu-id="93dd4-155">Office Communicator 2007</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-156">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-156">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-157">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-157">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-158">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-158">Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbf20-159">Office Live Meeting 2007</span><span class="sxs-lookup"><span data-stu-id="cbf20-159">Office Live Meeting 2007</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-160">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-160">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-161">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-161">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-162">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-162">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-159">Office Live Meeting 2007</span><span class="sxs-lookup"><span data-stu-id="93dd4-159">Office Live Meeting 2007</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-160">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-160">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-161">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-161">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-162">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-162">Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-163">Lync Windows 스토어 앱</span><span class="sxs-lookup"><span data-stu-id="cbf20-163">Lync Windows Store app</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-164">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-164">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-165">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-165">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-166">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-166">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-163">Lync Windows 스토어 앱</span><span class="sxs-lookup"><span data-stu-id="93dd4-163">Lync Windows Store app</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-164">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-164">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-165">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-165">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-166">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-166">Not Supported</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="cbf20-167">1For 세부 정보는 [Lync server 2010, 그룹 채팅 또는 Office Communications server 2007 R2 그룹 채팅에서 Lync server 2013, 영구 채팅 서버로의 마이그레이션을](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="cbf20-167">1For details, see [Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md).</span></span>
+<span data-ttu-id="93dd4-167">1For 자세한 내용은 [Lync server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그룹 채팅에서 Lync server 2013, 영구 채팅 서버로 마이그레이션을](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="93dd4-167">1For details, see [Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md).</span></span>
 
-<span data-ttu-id="cbf20-168">2 Microsoft Lync Server 2010에서 그룹 채팅 기능은 Lync Server 2010 용 타사 신뢰할 수 있는 응용 프로그램, 그룹 채팅 서버에서 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-168">2In Microsoft Lync Server 2010, group chat functionality was available with Group Chat Server, a third-party trusted application for Lync Server 2010.</span></span> <span data-ttu-id="cbf20-169">Lync 2013 클라이언트는 Lync Server 2010, 그룹 채팅에서 호환 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-169">Lync 2013 clients are not compatible with Lync Server 2010, Group Chat.</span></span>
+<span data-ttu-id="93dd4-168">2In Lync Server 2010에서 그룹 채팅 기능은 Lync Server 2010 용 타사 트러스트 응용 프로그램을 사용 하 여 그룹 채팅 서버에서 사용할 수 있었습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-168">2In Microsoft Lync Server 2010, group chat functionality was available with Group Chat Server, a third-party trusted application for Lync Server 2010.</span></span> <span data-ttu-id="93dd4-169">Lync 2013 클라이언트는 Lync Server 2010, 그룹 채팅과 호환 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-169">Lync 2013 clients are not compatible with Lync Server 2010, Group Chat.</span></span>
 
-<span data-ttu-id="cbf20-170">3 Lync Web App 2013는 이제 컴퓨터 오디오 및 비디오를 비롯 한 전체 모임 경험을 제공 하며 Lync 2010 참석자의 교체품으로 간주 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-170">3Lync Web App 2013 now provides a full in-meeting experience, including computer audio and video, and is considered the replacement for Lync 2010 Attendee.</span></span> <span data-ttu-id="cbf20-171">Lync 2010 참석자는 지원 되지 않는 브라우저 (Internet Explorer 6 또는 Internet Explorer 7) 및 Windows XP를 사용 하는 경우에만 Lync Server 2013에 연결 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-171">Lync 2010 Attendee will connect to Lync Server 2013 only when you are using an unsupported browser (Internet Explorer 6 or Internet Explorer 7) and Windows XP.</span></span>
+<span data-ttu-id="93dd4-170">3Lync Web App 2013는 이제 컴퓨터 오디오 및 비디오를 비롯 한 전체 모임 환경을 제공 하며 Lync 2010 참석자의 교체로 간주 됩니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-170">3Lync Web App 2013 now provides a full in-meeting experience, including computer audio and video, and is considered the replacement for Lync 2010 Attendee.</span></span> <span data-ttu-id="93dd4-171">Lync 2010 참석자는 지원 되지 않는 브라우저 (Internet Explorer 6 또는 Internet Explorer 7) 및 Windows XP를 사용 하는 경우에만 Lync Server 2013에 연결 됩니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-171">Lync 2010 Attendee will connect to Lync Server 2013 only when you are using an unsupported browser (Internet Explorer 6 or Internet Explorer 7) and Windows XP.</span></span>
 
-<span data-ttu-id="cbf20-172">4 Office Communicator 2007 R2의 현재 상태 및 메신저 기능은 Lync Server 2013와 호환 되지만, 회의 기능은 그렇지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-172">4The presence and IM features in Office Communicator 2007 R2 are compatible with Lync Server 2013, but conferencing features are not.</span></span> <span data-ttu-id="cbf20-173">Office Communications Server 2007 R2에서 마이그레이션하는 동안 Office Communicator 2007 R2는 현재 상태 및 IM 상호 운용성에 적합 하지만 사용자는 lync Web App 2013을 사용 하 여 Lync Server 2013 모임에 참가 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-173">During migration from Office Communications Server 2007 R2, Office Communicator 2007 R2 is suitable for presence and IM interoperability, but users should use Lync Web App 2013 to join Lync Server 2013 meetings.</span></span>
+<span data-ttu-id="93dd4-172">4The Communicator 2007 R2의 현재 상태 및 IM 기능은 Lync Server 2013과 호환 되지만 회의 기능은 없습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-172">4The presence and IM features in Office Communicator 2007 R2 are compatible with Lync Server 2013, but conferencing features are not.</span></span> <span data-ttu-id="93dd4-173">Office Communications Server 2007 R2에서 마이그레이션하는 동안 Office Communicator 2007 R2는 현재 상태 및 IM 상호 운용성에 적합 하지만 lync Web App 2013을 사용 하 여 Lync Server 2013 meeting에 참가 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-173">During migration from Office Communications Server 2007 R2, Office Communicator 2007 R2 is suitable for presence and IM interoperability, but users should use Lync Web App 2013 to join Lync Server 2013 meetings.</span></span>
 
-<span data-ttu-id="cbf20-174">제한에 대 한 자세한 내용은이 항목의 뒷부분에 나오는 "Lync Server 2010 모임에서 Lync 2013 클라이언트에 대 한 회의 기능 지원"을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="cbf20-174">5 For limitations, see "Conferencing Feature Support for Lync 2013 Clients in Lync Server 2010 Meetings" later in this topic.</span></span>
+<span data-ttu-id="93dd4-174">5 제한에 대 한 자세한 내용은이 항목의 뒷부분에 나오는 "Lync Server 2010 회의의 Lync 2013 클라이언트에 대 한 회의 기능 지원"을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="93dd4-174">5 For limitations, see "Conferencing Feature Support for Lync 2013 Clients in Lync Server 2010 Meetings" later in this topic.</span></span>
 
 </div>
 
 <div>
 
-## <a name="interoperability-among-clients"></a><span data-ttu-id="cbf20-175">클라이언트 간 상호 운용성</span><span class="sxs-lookup"><span data-stu-id="cbf20-175">Interoperability among Clients</span></span>
+## <a name="interoperability-among-clients"></a><span data-ttu-id="93dd4-175">클라이언트 간 상호 운용성</span><span class="sxs-lookup"><span data-stu-id="93dd4-175">Interoperability among Clients</span></span>
 
-<span data-ttu-id="cbf20-176">Lync Server 2013 릴리스를 사용 하면 다양 한 클라이언트 버전이 피어 투 피어 및 회의 시나리오에서 원활 하 게 상호 작용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-176">With the Lync Server 2013 release, various client versions can interact seamlessly in both peer-to-peer and conferencing scenarios.</span></span> <span data-ttu-id="cbf20-177">이 섹션에서는 사용자가 다른 버전의 클라이언트 및 서버를 사용 하는 다른 사용자와 상호 작용할 때의 기능 사용 가능성에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-177">This section discusses feature availability when users interact with other users who are using different versions of clients and servers.</span></span>
+<span data-ttu-id="93dd4-176">Lync Server 2013 릴리스를 사용 하면 다양 한 클라이언트 버전이 피어-투-피어 및 회의 시나리오에서 원활 하 게 상호 작용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-176">With the Lync Server 2013 release, various client versions can interact seamlessly in both peer-to-peer and conferencing scenarios.</span></span> <span data-ttu-id="93dd4-177">이 섹션에서는 사용자가 다른 버전의 클라이언트 및 서버를 사용 하는 다른 사용자와 상호 작용할 때의 기능 가용성에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-177">This section discusses feature availability when users interact with other users who are using different versions of clients and servers.</span></span>
 
 <div>
 
-## <a name="peer-to-peer-feature-support"></a><span data-ttu-id="cbf20-178">피어 투 피어 기능 지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-178">Peer-to-Peer Feature Support</span></span>
+## <a name="peer-to-peer-feature-support"></a><span data-ttu-id="93dd4-178">피어-투-피어 기능 지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-178">Peer-to-Peer Feature Support</span></span>
 
-<span data-ttu-id="cbf20-179">피어 투 피어 기능은 서로 다른 버전의 서버와 다른 클라이언트 버전을 사용 하는 사용자에 대해 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-179">Peer-to-peer features are supported for users who are homed on different versions of the server and who are using different client versions.</span></span> <span data-ttu-id="cbf20-180">최종 사용자 환경 및 사용 가능한 기능은 사용자 클라이언트의 기능 및 사용자가 로그인 한 서버의 버전과 일치 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-180">The end-user experience and available features are consistent with the capabilities of the user’s client and the version of the server the user is signed in to.</span></span> <span data-ttu-id="cbf20-181">즉, 다음과 같이 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-181">In other words:</span></span>
+<span data-ttu-id="93dd4-179">피어 투 피어 기능은 서로 다른 서버 버전에 있고 다른 클라이언트 버전을 사용 하는 사용자에 대해 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-179">Peer-to-peer features are supported for users who are homed on different versions of the server and who are using different client versions.</span></span> <span data-ttu-id="93dd4-180">최종 사용자 환경 및 사용 가능한 기능은 사용자 클라이언트의 기능과 사용자가 로그인 되어 있는 서버의 버전에 일치 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-180">The end-user experience and available features are consistent with the capabilities of the user’s client and the version of the server the user is signed in to.</span></span> <span data-ttu-id="93dd4-181">위의 명령이 반환하는 결과는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-181">In other words:</span></span>
 
-  - <span data-ttu-id="cbf20-182">사용자가 이전 클라이언트를 사용 하 여 Lync Server 2013에 로그인 한 경우에는 사용자가 사용 하는 것과 동일한 환경을 갖게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-182">If a user is signed in to Lync Server 2013 with an older client, the user will have the same experience he or she is used to.</span></span> <span data-ttu-id="cbf20-183">Lync Server 2013에 도입 된 새로운 기능은 사용자의 클라이언트가 업그레이드 될 때까지 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-183">None of the new features introduced in Lync Server 2013 will be available until the user’s client is upgraded.</span></span> <span data-ttu-id="cbf20-184">비디오 갤러리 보기, HD 비디오, 업데이트 된 PowerPoint 공유, 모임 입장에서 모든 참석자 오디오 및 비디오 음소거 옵션을 예로 들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-184">Examples include video gallery view, HD video, updated PowerPoint sharing, and the option to mute all attendee audio and video upon meeting entry.</span></span> <span data-ttu-id="cbf20-185">새로운 기능은 [Lync server 2013의 새로운 회의 기능과](lync-server-2013-new-conferencing-features.md) [lync server 2013의 클라이언트에 대 한 새로운](lync-server-2013-what-s-new-for-clients.md)기능에 개략적으로 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-185">The new features are outlined in [New conferencing features in Lync Server 2013](lync-server-2013-new-conferencing-features.md) and [What's new for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span></span>
+  - <span data-ttu-id="93dd4-182">사용자가 이전 클라이언트를 사용 하 여 Lync Server 2013에 로그인 되어 있으면 사용자는에 사용 하는 것과 같은 환경을 갖게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-182">If a user is signed in to Lync Server 2013 with an older client, the user will have the same experience he or she is used to.</span></span> <span data-ttu-id="93dd4-183">Lync Server 2013에 도입 된 새로운 기능은 사용자의 클라이언트를 업그레이드할 때까지 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-183">None of the new features introduced in Lync Server 2013 will be available until the user’s client is upgraded.</span></span> <span data-ttu-id="93dd4-184">비디오 갤러리 보기, HD 비디오, 업데이트 된 PowerPoint 공유, 모임 입장에서 모든 참석자 오디오 및 비디오 음소거 옵션을 예로 들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-184">Examples include video gallery view, HD video, updated PowerPoint sharing, and the option to mute all attendee audio and video upon meeting entry.</span></span> <span data-ttu-id="93dd4-185">새로운 기능은 [Lync server 2013의 새로운 회의 기능과](lync-server-2013-new-conferencing-features.md) [lync server 2013의 클라이언트에 대 한](lync-server-2013-what-s-new-for-clients.md)새로운 기능에 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-185">The new features are outlined in [New conferencing features in Lync Server 2013](lync-server-2013-new-conferencing-features.md) and [What's new for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span></span>
 
-  - <span data-ttu-id="cbf20-186">사용자가 lync 2013 클라이언트를 사용 하 여 Lync Server 2010에 로그인 한 경우 lync server 2010에서 지원 하지 않는 새로운 기능은 사용자가 Lync Server 2013로 이동할 때까지 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-186">If a user is signed in to Lync Server 2010 with a Lync 2013 client, any new features not supported by Lync Server 2010 will be unavailable until the user is moved to Lync Server 2013.</span></span>
+  - <span data-ttu-id="93dd4-186">Lync 2013 클라이언트를 사용 하 여 Lync Server 2010에 로그인 한 사용자는 lync server 2013로 이동할 때까지 Lync Server 2010에서 지원 하지 않는 모든 새 기능을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-186">If a user is signed in to Lync Server 2010 with a Lync 2013 client, any new features not supported by Lync Server 2010 will be unavailable until the user is moved to Lync Server 2013.</span></span>
 
-<span data-ttu-id="cbf20-187">다음 표에서는 클라이언트가 Lync Server 2013 또는 Lync Server 2010에 로그인 한 피어 투 피어 세션의 기능 가용성을 비교 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-187">The following table compares feature availability in peer-to-peer sessions where the client is signed in to either Lync Server 2013 or Lync Server 2010.</span></span>
+<span data-ttu-id="93dd4-187">다음 표에서는 클라이언트가 Lync Server 2013 또는 Lync Server 2010에 로그인 한 피어 투 피어 세션의 기능 가용성을 비교 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-187">The following table compares feature availability in peer-to-peer sessions where the client is signed in to either Lync Server 2013 or Lync Server 2010.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="cbf20-188">Lync Web App 및 Lync 2010 참석자는 모임 전용 클라이언트 이며이 표에 포함 되어 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-188">Lync Web App and Lync 2010 Attendee are meeting-only clients and aren’t included in this table.</span></span>
+> <span data-ttu-id="93dd4-188">Lync Web App 및 Lync 2010 참석자는 모임 전용 클라이언트이 고이 테이블에 포함 되어 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-188">Lync Web App and Lync 2010 Attendee are meeting-only clients and aren’t included in this table.</span></span>
 
 
 
@@ -197,94 +197,94 @@ ms.locfileid: "41756762"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="cbf20-189">클라이언트</span><span class="sxs-lookup"><span data-stu-id="cbf20-189">Client</span></span></th>
-<th><span data-ttu-id="cbf20-190">인스턴트 메시지</span><span class="sxs-lookup"><span data-stu-id="cbf20-190">Instant Messaging</span></span></th>
-<th><span data-ttu-id="cbf20-191">현재 상태</span><span class="sxs-lookup"><span data-stu-id="cbf20-191">Presence</span></span></th>
-<th><span data-ttu-id="cbf20-192">음성</span><span class="sxs-lookup"><span data-stu-id="cbf20-192">Voice</span></span></th>
-<th><span data-ttu-id="cbf20-193">비디오만</span><span class="sxs-lookup"><span data-stu-id="cbf20-193">Video</span></span></th>
-<th><span data-ttu-id="cbf20-194">응용 프로그램 공유</span><span class="sxs-lookup"><span data-stu-id="cbf20-194">Application Sharing</span></span></th>
-<th><span data-ttu-id="cbf20-195">파일 전송</span><span class="sxs-lookup"><span data-stu-id="cbf20-195">File Transfer</span></span></th>
+<th><span data-ttu-id="93dd4-189">클라이언트</span><span class="sxs-lookup"><span data-stu-id="93dd4-189">Client</span></span></th>
+<th><span data-ttu-id="93dd4-190">인스턴트 메시징</span><span class="sxs-lookup"><span data-stu-id="93dd4-190">Instant Messaging</span></span></th>
+<th><span data-ttu-id="93dd4-191">이들의</span><span class="sxs-lookup"><span data-stu-id="93dd4-191">Presence</span></span></th>
+<th><span data-ttu-id="93dd4-192">음성</span><span class="sxs-lookup"><span data-stu-id="93dd4-192">Voice</span></span></th>
+<th><span data-ttu-id="93dd4-193">비디오</span><span class="sxs-lookup"><span data-stu-id="93dd4-193">Video</span></span></th>
+<th><span data-ttu-id="93dd4-194">응용 프로그램 공유</span><span class="sxs-lookup"><span data-stu-id="93dd4-194">Application Sharing</span></span></th>
+<th><span data-ttu-id="93dd4-195">파일 전송</span><span class="sxs-lookup"><span data-stu-id="93dd4-195">File Transfer</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-196">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="cbf20-196">Lync 2013</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-197">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-197">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-198">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-198">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-199">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-199">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-200">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-200">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-201">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-201">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-202">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-202">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-196">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="93dd4-196">Lync 2013</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-197">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-197">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-198">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-198">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-199">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-199">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-200">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-200">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-201">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-201">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-202">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-202">Yes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbf20-203">Lync 2013 Basic</span><span class="sxs-lookup"><span data-stu-id="cbf20-203">Lync 2013 Basic</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-204">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-204">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-205">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-205">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-206">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-206">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-207">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-207">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-208">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-208">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-209">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-209">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-203">Lync 2013 Basic</span><span class="sxs-lookup"><span data-stu-id="93dd4-203">Lync 2013 Basic</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-204">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-204">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-205">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-205">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-206">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-206">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-207">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-207">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-208">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-208">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-209">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-209">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-210">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="cbf20-210">Lync 2010</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-211">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-211">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-212">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-212">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-213">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-213">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-214">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-214">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-215">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-215">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-216">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-216">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-210">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="93dd4-210">Lync 2010</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-211">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-211">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-212">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-212">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-213">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-213">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-214">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-214">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-215">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-215">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-216">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-216">Yes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbf20-217">Lync 2010 수행자</span><span class="sxs-lookup"><span data-stu-id="cbf20-217">Lync 2010 Attendant</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-218">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-218">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-219">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-219">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-220">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-220">Yes</span></span></p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="cbf20-221">Lync 2010 모바일</span><span class="sxs-lookup"><span data-stu-id="cbf20-221">Lync 2010 Mobile</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-222">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-222">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-223">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-223">Yes</span></span></p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="cbf20-224">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="cbf20-224">Lync Phone Edition</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-225">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-225">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-226">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-226">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-227">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-227">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-217">Lync 2010 Attendant</span><span class="sxs-lookup"><span data-stu-id="93dd4-217">Lync 2010 Attendant</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-218">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-218">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-219">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-219">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-220">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-220">Yes</span></span></p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-228">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="cbf20-228">Office Communicator 2007 R2</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-229">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-229">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-230">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-230">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-231">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-231">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-232">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-232">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-233">예1</span><span class="sxs-lookup"><span data-stu-id="cbf20-233">Yes1</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-234">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-234">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-221">Lync 2010 모바일</span><span class="sxs-lookup"><span data-stu-id="93dd4-221">Lync 2010 Mobile</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-222">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-222">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-223">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-223">Yes</span></span></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbf20-235">공용 IM (AOL, Yahoo!)</span><span class="sxs-lookup"><span data-stu-id="cbf20-235">Public IM (AOL, Yahoo!)</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-236">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-236">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-237">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-237">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-224">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="93dd4-224">Lync Phone Edition</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-225">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-225">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-226">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-226">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-227">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-227">Yes</span></span></p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="93dd4-228">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="93dd4-228">Office Communicator 2007 R2</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-229">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-229">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-230">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-230">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-231">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-231">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-232">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-232">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-233">Yes1</span><span class="sxs-lookup"><span data-stu-id="93dd4-233">Yes1</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-234">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-234">Yes</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="93dd4-235">공용 IM (AOL, Yahoo!)</span><span class="sxs-lookup"><span data-stu-id="93dd4-235">Public IM (AOL, Yahoo!)</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-236">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-236">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-237">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-237">Yes</span></span></p></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-238">공용 인스턴트 메시지 (MSN, Windows Live Messenger)</span><span class="sxs-lookup"><span data-stu-id="cbf20-238">Public IM (MSN, Windows Live Messenger)</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-239">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-239">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-240">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-240">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-241">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-241">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-242">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-242">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-238">공용 IM (MSN, Windows Live Messenger)</span><span class="sxs-lookup"><span data-stu-id="93dd4-238">Public IM (MSN, Windows Live Messenger)</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-239">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-239">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-240">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-240">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-241">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-241">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-242">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-242">Yes</span></span></p></td>
 <td></td>
 <td></td>
 </tr>
@@ -298,23 +298,23 @@ ms.locfileid: "41756762"
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P><span data-ttu-id="cbf20-243">2012 년 9 월 1 일부 터, Microsoft Lync 공용 IM 연결 사용자 구독 라이선스 (PIC USL)는 더 이상 신규 또는 갱신 계약을 구매할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-243">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (PIC USL) is no longer available for the purchase for new or renewing agreements.</span></span> <span data-ttu-id="cbf20-244">활성 라이선스가 있는 고객은 계속 Yahoo!에 페더레이션 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-244">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="cbf20-245">서비스 종료 날짜까지 Messenger.</span><span class="sxs-lookup"><span data-stu-id="cbf20-245">Messenger until the service shutdown date.</span></span> <span data-ttu-id="cbf20-246">AOL 및 Yahoo!에 대 한 6 월 2014의 기간 종료 날짜</span><span class="sxs-lookup"><span data-stu-id="cbf20-246">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="cbf20-247">님이 발표 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-247">has been announced.</span></span> <span data-ttu-id="cbf20-248">자세한 내용은 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013에서 공개 인스턴트 메신저 연결 지원</A>을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="cbf20-248">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>..</span></span></P>
+> <P><span data-ttu-id="93dd4-243">2012 년 9 월 1 일부 터 신규 또는 갱신 계약에 대 한 Microsoft Lync 공용 IM 연결 사용자 구독 라이선스 (PIC USL)를 더 이상 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-243">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (PIC USL) is no longer available for the purchase for new or renewing agreements.</span></span> <span data-ttu-id="93dd4-244">활성 라이선스를 사용 하는 고객은 Yahoo!에 계속 페더레이션 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-244">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="93dd4-245">서비스 종료 날짜까지 메신저</span><span class="sxs-lookup"><span data-stu-id="93dd4-245">Messenger until the service shutdown date.</span></span> <span data-ttu-id="93dd4-246">AOL 및 Yahoo!의 6 월 2014 일 종료 날짜</span><span class="sxs-lookup"><span data-stu-id="93dd4-246">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="93dd4-247">이 발표 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-247">has been announced.</span></span> <span data-ttu-id="93dd4-248">자세한 내용은 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013에서 공용 인스턴트 메신저 연결에 대 한 지원을</A>참조 하세요..</span><span class="sxs-lookup"><span data-stu-id="93dd4-248">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>..</span></span></P>
 > <LI>
-> <P><span data-ttu-id="cbf20-249">PIC USL은 Lync Server 또는 Office Communications Server가 Yahoo!에 페더레이션 하는 데 필요한 사용자별, 월별 구독 라이선스입니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-249">The PIC USL is a per-user, per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="cbf20-250">받으려면.</span><span class="sxs-lookup"><span data-stu-id="cbf20-250">Messenger.</span></span> <span data-ttu-id="cbf20-251">이 서비스를 제공 하는 Microsoft의 기능은 갱신 되지 않을 기본 규약 인 Yahoo!의 지원으로 부과 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-251">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which will not be renewed.</span></span></P>
+> <P><span data-ttu-id="93dd4-249">PIC USL은 Lync Server 또는 Office Communications Server가 Yahoo!과 페더레이션 하는 데 필요한 사용자별 구독 라이선스 (매달)입니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-249">The PIC USL is a per-user, per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="93dd4-250">메신저로.</span><span class="sxs-lookup"><span data-stu-id="93dd4-250">Messenger.</span></span> <span data-ttu-id="93dd4-251">이 서비스를 제공 하는 Microsoft의 기능은 갱신 되지 않을 기본 규약 인 Yahoo!을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-251">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which will not be renewed.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="cbf20-252">이전 보다 훨씬 더 많은 수의 Lync는 전세계의 조직과 사용자 간에 연결 하는 강력한 도구입니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-252">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="cbf20-253">Windows Live Messenger를 사용 하는 페더레이션에서는 Lync 표준 CAL 외에 추가 사용자/장치 라이선스가 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-253">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="cbf20-254">Skype 페더레이션은이 목록에 추가 되어 Lync 사용자가 IM 및 음성을 통해 수백만 명에 게 연락할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-254">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people through IM and voice.</span></span></P></LI></UL>
+> <P><span data-ttu-id="93dd4-252">이전 보다 Lync는 전 세계의 조직과 조직 간에 연결 하는 강력한 도구입니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-252">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="93dd4-253">Windows Live Messenger와 페더레이션 하려면 Lync Standard CAL 외에 추가 사용자/장치 라이선스가 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-253">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="93dd4-254">Lync 사용자가 IM 및 음성을 통해 수백만 명의 사용자에 게 도달할 수 있도록 하는이 목록에 Skype 페더레이션이 추가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-254">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people through IM and voice.</span></span></P></LI></UL>
 
 
 
 </div>
 
-<span data-ttu-id="cbf20-255">1 Office Communicator 2007 R2에서는 데스크톱 공유 (프로그램 공유 아님)만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-255">1 In Office Communicator 2007 R2, only desktop sharing (and not program sharing) is available.</span></span>
+<span data-ttu-id="93dd4-255">1 Office Communicator 2007 R2에서는 데스크톱 공유 (및 프로그램 공유 아님)만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-255">1 In Office Communicator 2007 R2, only desktop sharing (and not program sharing) is available.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="cbf20-256">비즈니스용 Skype 2015 클라이언트 사용자 인터페이스가 시행 되는 경우 Office Communicator 2007 R2와 비즈니스용 Skype 2015을 최신 버전의 클라이언트에서 초기화할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-256">Desktop sharing between Office Communicator 2007 R2 and Skype for Business 2015 cannot be initiated from the newer client when the Skype for Business 2015 client user interface is enforced.</span></span>
+> <span data-ttu-id="93dd4-256">Office Communicator 2007 R2와 비즈니스용 Skype 2015 간의 데스크톱 공유는 비즈니스용 Skype 2015 클라이언트 사용자 인터페이스가 적용 되는 경우 최신 클라이언트에서 시작할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-256">Desktop sharing between Office Communicator 2007 R2 and Skype for Business 2015 cannot be initiated from the newer client when the Skype for Business 2015 client user interface is enforced.</span></span>
 
 
 
@@ -324,27 +324,27 @@ ms.locfileid: "41756762"
 
 <div>
 
-## <a name="conferencing-feature-support-for-lync-2013-clients-in-lync-server-2010-meetings"></a><span data-ttu-id="cbf20-257">Lync Server 2010 모임에서 Lync 2013 클라이언트에 대 한 회의 기능 지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-257">Conferencing Feature Support for Lync 2013 Clients in Lync Server 2010 Meetings</span></span>
+## <a name="conferencing-feature-support-for-lync-2013-clients-in-lync-server-2010-meetings"></a><span data-ttu-id="93dd4-257">Lync Server 2010 모임의 Lync 2013 클라이언트에 대 한 회의 기능 지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-257">Conferencing Feature Support for Lync 2013 Clients in Lync Server 2010 Meetings</span></span>
 
-<span data-ttu-id="cbf20-258">Lync 2013 클라이언트를 사용 하 여 Lync Server 2010 모임에 참가 하면 다음과 같은 예외로 Lync 2013 클라이언트 기능에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-258">When users join Lync Server 2010 meetings with a Lync 2013 client, they have access to Lync 2013 client features with the following exceptions:</span></span>
+<span data-ttu-id="93dd4-258">사용자가 lync 2013 클라이언트를 사용 하 여 Lync Server 2010 회의에 참가 하면 다음과 같은 예외 사항을 제외 하 고 Lync 2013 클라이언트 기능에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-258">When users join Lync Server 2010 meetings with a Lync 2013 client, they have access to Lync 2013 client features with the following exceptions:</span></span>
 
-  - <span data-ttu-id="cbf20-259">모임 창에서 사람 아이콘을 가리켜 액세스할 수 있는 **참가자** 관리 옵션에서 **모임 메신저 대화 없음** 옵션이 작동 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-259">In the **Participants** management options, which are accessible by pointing to the people icon in the meeting window, the **No Meeting IM** option does not function.</span></span>
+  - <span data-ttu-id="93dd4-259">모임 창에서 사람 아이콘을 가리켜 액세스할 수 있는 **참가자** 관리 옵션에서 **모임 메신저 대화** 상대가 작동 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-259">In the **Participants** management options, which are accessible by pointing to the people icon in the meeting window, the **No Meeting IM** option does not function.</span></span>
 
-  - <span data-ttu-id="cbf20-260">갤러리 보기는 영상 회의에서 작동 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-260">Gallery View does not function in video conferences.</span></span> <span data-ttu-id="cbf20-261">사용자는 모든 스피커가 아닌 활성 스피커로 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-261">The user sees only the active speaker instead of all speakers.</span></span> <span data-ttu-id="cbf20-262">**레이아웃 옵션 선택** 목록에서 **갤러리 보기** 를 사용할 수 없음</span><span class="sxs-lookup"><span data-stu-id="cbf20-262">In the list of **Pick a Layout** options, **Gallery View** is unavailable</span></span>
+  - <span data-ttu-id="93dd4-260">갤러리 보기가 비디오 회의에서 작동 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-260">Gallery View does not function in video conferences.</span></span> <span data-ttu-id="93dd4-261">사용자는 모든 스피커가 아닌 활성 발표자만 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-261">The user sees only the active speaker instead of all speakers.</span></span> <span data-ttu-id="93dd4-262">**레이아웃 옵션 선택** 목록에서 **갤러리 보기** 를 사용할 수 없음</span><span class="sxs-lookup"><span data-stu-id="93dd4-262">In the list of **Pick a Layout** options, **Gallery View** is unavailable</span></span>
 
-  - <span data-ttu-id="cbf20-263">참가자 목록은 기본적으로 비디오 회의에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-263">The participant list displays by default in video conferences.</span></span>
+  - <span data-ttu-id="93dd4-263">참가자 목록은 비디오 회의에 기본적으로 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-263">The participant list displays by default in video conferences.</span></span>
 
-  - <span data-ttu-id="cbf20-264">참가자 목록에서 사용자를 마우스 오른쪽 단추로 클릭 하면 **비디오 스포트라이트** 및 **갤러리에 대 한 Pin** 참가 관리 옵션을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-264">When right-clicking a user in the participants list, the **Lock the Video Spotlight** and **Pin to Gallery** participant management options are unavailable.</span></span>
+  - <span data-ttu-id="93dd4-264">참가자 목록에서 사용자를 마우스 오른쪽 단추로 클릭 하는 경우에는 **비디오 스포트라이트** 및 **Pin을 갤러리** 참가자 관리 옵션으로 잠글 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-264">When right-clicking a user in the participants list, the **Lock the Video Spotlight** and **Pin to Gallery** participant management options are unavailable.</span></span>
 
 </div>
 
 <div>
 
-## <a name="conferencing-feature-support-in-lync-server-2013-meetings"></a><span data-ttu-id="cbf20-265">Lync Server 2013 모임에서 회의 기능 지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-265">Conferencing Feature Support in Lync Server 2013 Meetings</span></span>
+## <a name="conferencing-feature-support-in-lync-server-2013-meetings"></a><span data-ttu-id="93dd4-265">Lync Server 2013 모임의 회의 기능 지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-265">Conferencing Feature Support in Lync Server 2013 Meetings</span></span>
 
-<span data-ttu-id="cbf20-266">Lync Server 2013는 계정이 Lync Server 2013로 이동 하 고 Lync 2013 클라이언트를 사용 하 여 로그인 한 후 사용자에 게 제공 되는 새로운 회의 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-266">Lync Server 2013 provides new conferencing features that become available to users after their accounts are moved to Lync Server 2013 and they sign in with the Lync 2013 client.</span></span> <span data-ttu-id="cbf20-267">비디오 갤러리 보기, HD 비디오, PowerPoint 공유, 모임 입력 시 모든 참석자 오디오 및 비디오 음소거 옵션을 예로 들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-267">Examples include video gallery view, HD video, PowerPoint sharing, and the option to mute all attendee audio and video upon meeting entry.</span></span> <span data-ttu-id="cbf20-268">새로운 기능은 [Lync server 2013의 새로운 회의 기능과](lync-server-2013-new-conferencing-features.md) [lync server 2013의 클라이언트에 대 한 새로운](lync-server-2013-what-s-new-for-clients.md)기능에 개략적으로 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-268">The new features are outlined in [New conferencing features in Lync Server 2013](lync-server-2013-new-conferencing-features.md) and [What's new for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span></span>
+<span data-ttu-id="93dd4-266">Lync Server 2013에서는 계정이 Lync Server 2013로 이동 되 고 Lync 2013 클라이언트에 로그인 한 후 사용자에 게 제공 되는 새로운 회의 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-266">Lync Server 2013 provides new conferencing features that become available to users after their accounts are moved to Lync Server 2013 and they sign in with the Lync 2013 client.</span></span> <span data-ttu-id="93dd4-267">비디오 갤러리 보기, HD 비디오, PowerPoint 공유 및 모든 참석자의 오디오 및 비디오를 모임 항목에 음소거 하는 옵션을 예로 들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-267">Examples include video gallery view, HD video, PowerPoint sharing, and the option to mute all attendee audio and video upon meeting entry.</span></span> <span data-ttu-id="93dd4-268">새로운 기능은 [Lync server 2013의 새로운 회의 기능과](lync-server-2013-new-conferencing-features.md) [lync server 2013의 클라이언트에 대 한](lync-server-2013-what-s-new-for-clients.md)새로운 기능에 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-268">The new features are outlined in [New conferencing features in Lync Server 2013](lync-server-2013-new-conferencing-features.md) and [What's new for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span></span>
 
-<span data-ttu-id="cbf20-269">Lync Server 2013 모임에서는 다른 버전의 서버에 거주 하는 사용자와 다른 클라이언트 및 클라이언트 버전을 사용 하는 경우 특정 회의 기능이 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-269">In Lync Server 2013 meetings, certain conferencing features are supported for users who are homed on different versions of the server and who are using different clients and client versions.</span></span> <span data-ttu-id="cbf20-270">클라이언트가 Lync Server 2013 모임에 참가할 때 사용자는이 표에 표시 된 기능에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-270">When clients join a Lync Server 2013 meeting, users have access to the features and capabilities shown in this table.</span></span>
+<span data-ttu-id="93dd4-269">Lync Server 2013 모임에서는 서로 다른 클라이언트 및 클라이언트 버전을 사용 하는 사용자 및 서버 버전에 따라 특정 회의 기능이 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-269">In Lync Server 2013 meetings, certain conferencing features are supported for users who are homed on different versions of the server and who are using different clients and client versions.</span></span> <span data-ttu-id="93dd4-270">클라이언트가 Lync Server 2013 회의에 참가 하면 사용자는이 표에 나와 있는 기능에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-270">When clients join a Lync Server 2013 meeting, users have access to the features and capabilities shown in this table.</span></span>
 
 
 <table style="width:100%;">
@@ -361,65 +361,65 @@ ms.locfileid: "41756762"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="cbf20-271">클라이언트</span><span class="sxs-lookup"><span data-stu-id="cbf20-271">Client</span></span></th>
-<th><span data-ttu-id="cbf20-272">피어 투 피어 IM</span><span class="sxs-lookup"><span data-stu-id="cbf20-272">Peer-to-peer IM</span></span></th>
-<th><span data-ttu-id="cbf20-273">음성</span><span class="sxs-lookup"><span data-stu-id="cbf20-273">Voice</span></span></th>
-<th><span data-ttu-id="cbf20-274">비디오만</span><span class="sxs-lookup"><span data-stu-id="cbf20-274">Video</span></span></th>
-<th><span data-ttu-id="cbf20-275">응용 프로그램 공유</span><span class="sxs-lookup"><span data-stu-id="cbf20-275">Application Sharing</span></span></th>
-<th><span data-ttu-id="cbf20-276">틀린</span><span class="sxs-lookup"><span data-stu-id="cbf20-276">PowerPoint</span></span></th>
-<th><span data-ttu-id="cbf20-277">파일 전송</span><span class="sxs-lookup"><span data-stu-id="cbf20-277">File Transfer</span></span></th>
-<th><span data-ttu-id="cbf20-278">Whiteboard</span><span class="sxs-lookup"><span data-stu-id="cbf20-278">Whiteboard</span></span></th>
-<th><span data-ttu-id="cbf20-279">투표</span><span class="sxs-lookup"><span data-stu-id="cbf20-279">Polling</span></span></th>
+<th><span data-ttu-id="93dd4-271">클라이언트</span><span class="sxs-lookup"><span data-stu-id="93dd4-271">Client</span></span></th>
+<th><span data-ttu-id="93dd4-272">피어 투 피어 IM</span><span class="sxs-lookup"><span data-stu-id="93dd4-272">Peer-to-peer IM</span></span></th>
+<th><span data-ttu-id="93dd4-273">음성</span><span class="sxs-lookup"><span data-stu-id="93dd4-273">Voice</span></span></th>
+<th><span data-ttu-id="93dd4-274">비디오</span><span class="sxs-lookup"><span data-stu-id="93dd4-274">Video</span></span></th>
+<th><span data-ttu-id="93dd4-275">응용 프로그램 공유</span><span class="sxs-lookup"><span data-stu-id="93dd4-275">Application Sharing</span></span></th>
+<th><span data-ttu-id="93dd4-276">PowerPoint</span><span class="sxs-lookup"><span data-stu-id="93dd4-276">PowerPoint</span></span></th>
+<th><span data-ttu-id="93dd4-277">파일 전송</span><span class="sxs-lookup"><span data-stu-id="93dd4-277">File Transfer</span></span></th>
+<th><span data-ttu-id="93dd4-278">Whiteboard</span><span class="sxs-lookup"><span data-stu-id="93dd4-278">Whiteboard</span></span></th>
+<th><span data-ttu-id="93dd4-279">폴링</span><span class="sxs-lookup"><span data-stu-id="93dd4-279">Polling</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-280">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="cbf20-280">Lync 2013</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-281">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-281">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-282">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-282">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-283">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-283">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-284">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-284">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-285">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-285">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-286">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-286">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-287">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-287">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-288">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-288">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-280">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="93dd4-280">Lync 2013</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-281">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-281">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-282">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-282">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-283">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-283">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-284">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-284">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-285">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-285">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-286">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-286">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-287">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-287">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-288">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-288">Yes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbf20-289">Lync 2013 Basic</span><span class="sxs-lookup"><span data-stu-id="cbf20-289">Lync 2013 Basic</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-290">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-290">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-291">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-291">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-292">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-292">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-293">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-293">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-294">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-294">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-295">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-295">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-296">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-296">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-297">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-297">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-289">Lync 2013 Basic</span><span class="sxs-lookup"><span data-stu-id="93dd4-289">Lync 2013 Basic</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-290">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-290">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-291">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-291">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-292">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-292">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-293">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-293">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-294">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-294">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-295">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-295">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-296">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-296">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-297">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-297">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-298">Lync Web App</span><span class="sxs-lookup"><span data-stu-id="cbf20-298">Lync Web App</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-299">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-299">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-300">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-300">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-301">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-301">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-302">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-302">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-303">예2</span><span class="sxs-lookup"><span data-stu-id="cbf20-303">Yes2</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-304">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-304">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-305">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-305">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-306">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-306">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-298">Lync Web App</span><span class="sxs-lookup"><span data-stu-id="93dd4-298">Lync Web App</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-299">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-299">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-300">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-300">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-301">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-301">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-302">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-302">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-303">예2</span><span class="sxs-lookup"><span data-stu-id="93dd4-303">Yes2</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-304">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-304">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-305">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-305">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-306">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-306">Yes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbf20-307">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="cbf20-307">Lync 2010</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-308">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-308">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-309">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-309">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-310">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-310">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-311">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-311">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-312">Yes3</span><span class="sxs-lookup"><span data-stu-id="cbf20-312">Yes3</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-313">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-313">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-314">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-314">Yes</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-315">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-315">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-307">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="93dd4-307">Lync 2010</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-308">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-308">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-309">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-309">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-310">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-310">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-311">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-311">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-312">Yes3</span><span class="sxs-lookup"><span data-stu-id="93dd4-312">Yes3</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-313">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-313">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-314">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-314">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-315">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-315">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-316">Office Communicator 2007 R2 4</span><span class="sxs-lookup"><span data-stu-id="cbf20-316">Office Communicator 2007 R2 4</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-317">예</span><span class="sxs-lookup"><span data-stu-id="cbf20-317">Yes</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-316">Office Communicator 2007 R2 4</span><span class="sxs-lookup"><span data-stu-id="93dd4-316">Office Communicator 2007 R2 4</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-317">예</span><span class="sxs-lookup"><span data-stu-id="93dd4-317">Yes</span></span></p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -432,13 +432,13 @@ ms.locfileid: "41756762"
 </table>
 
 
-<span data-ttu-id="cbf20-318">1 Office Communicator 2007 R2에서는 데스크톱 공유 (프로그램 공유 아님)만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-318">1 In Office Communicator 2007 R2, only desktop sharing (and not program sharing) is available.</span></span>
+<span data-ttu-id="93dd4-318">1 Office Communicator 2007 R2에서는 데스크톱 공유 (및 프로그램 공유 아님)만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-318">1 In Office Communicator 2007 R2, only desktop sharing (and not program sharing) is available.</span></span>
 
-<span data-ttu-id="cbf20-319">2 Lync Server 2013에서 PowerPoint 파일을 업로드 하는 데 업데이트 된 메커니즘을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-319">2 Lync Server 2013 uses an updated mechanism for uploading PowerPoint files.</span></span> <span data-ttu-id="cbf20-320">원래 Lync Server 2010에서 예약한 모임에 참가 하는 lync Web App 사용자는 PowerPoint 프레젠테이션을 보고 탐색할 수 있지만 PowerPoint 파일을 업로드할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-320">Lync Web App users who join a meeting that was originally scheduled on Lync Server 2010 can view and navigate PowerPoint presentations, but cannot upload PowerPoint files.</span></span>
+<span data-ttu-id="93dd4-319">2 Lync Server 2013에서는 PowerPoint 파일을 업로드 하는 데 업데이트 된 메커니즘을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-319">2 Lync Server 2013 uses an updated mechanism for uploading PowerPoint files.</span></span> <span data-ttu-id="93dd4-320">처음에 Lync Server 2010에 예약 된 모임에 참가 하는 lync Web App 사용자는 PowerPoint 프레젠테이션을 보고 탐색할 수 있지만 PowerPoint 파일을 업로드 하는 것은 불가능 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-320">Lync Web App users who join a meeting that was originally scheduled on Lync Server 2010 can view and navigate PowerPoint presentations, but cannot upload PowerPoint files.</span></span>
 
-<span data-ttu-id="cbf20-321">3 lync Server 2013 및 PowerPoint 슬라이드에 대 한 모임이 Lync 2013 클라이언트에 의해 업로드 된 경우 Lync 2010 사용자는 슬라이드에 보기 전용으로 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-321">3 If the meeting was scheduled on Lync Server 2013 and PowerPoint slides were uploaded by a Lync 2013 client, Lync 2010 users have view-only access to the slides.</span></span> <span data-ttu-id="cbf20-322">반대로, PowerPoint 슬라이드를 Lync 2010 사용자가 업로드 한 경우에는 Lync Server 2013 사용자가 보기 및 슬라이드를 수행할 수 있으며, Office Web Apps Server가 구성 되어 있는 경우 더 높은 해상도 표시, 애니메이션, 화면 전환 등의 새로운 기능에 액세스할 수 있습니다. 포함 된 비디오.</span><span class="sxs-lookup"><span data-stu-id="cbf20-322">Conversely, if the PowerPoint slides were uploaded by a Lync 2010 user, Lync Server 2013 users will be able to view and slides and, if Office Web Apps Server is configured, access new capabilities such as higher resolution display, animations, slide transitions, and embedded video.</span></span> <span data-ttu-id="cbf20-323">자세한 내용은 [Office Web Apps 서버 및 Lync server 2013의 통합 구성을](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="cbf20-323">For more information, see [Configuring integration with Office Web Apps Server and Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).</span></span>
+<span data-ttu-id="93dd4-321">3 lync Server 2013에 회의가 예약 되었고 PowerPoint 슬라이드를 Lync 2013 클라이언트에서 업로드 한 경우 Lync 2010 사용자에 게 슬라이드에 대 한 보기 전용 액세스 권한이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-321">3 If the meeting was scheduled on Lync Server 2013 and PowerPoint slides were uploaded by a Lync 2013 client, Lync 2010 users have view-only access to the slides.</span></span> <span data-ttu-id="93dd4-322">반대로, PowerPoint 슬라이드를 Lync 2010 사용자가 업로드 한 경우 Lync Server 2013 사용자는 보기 및 슬라이드를 볼 수 있으며, Office Web Apps 서버가 구성 되어 있으면 더 높은 해상도의 디스플레이, 애니메이션, 화면 전환과 같은 새로운 기능에 액세스 합니다. 포함 된 비디오</span><span class="sxs-lookup"><span data-stu-id="93dd4-322">Conversely, if the PowerPoint slides were uploaded by a Lync 2010 user, Lync Server 2013 users will be able to view and slides and, if Office Web Apps Server is configured, access new capabilities such as higher resolution display, animations, slide transitions, and embedded video.</span></span> <span data-ttu-id="93dd4-323">자세한 내용은 [Office Web Apps 서버 및 Lync server 2013의 통합 구성을](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="93dd4-323">For more information, see [Configuring integration with Office Web Apps Server and Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).</span></span>
 
-<span data-ttu-id="cbf20-324">4 Office Communicator 2007 R2의 현재 상태 및 메신저 기능은 Lync Server 2013와 호환 되지만, 회의 기능은 그렇지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-324">4The presence and IM features in Office Communicator 2007 R2 are compatible with Lync Server 2013, but conferencing features are not.</span></span> <span data-ttu-id="cbf20-325">Office Communications Server 2007 R2에서 마이그레이션하는 동안 Office Communicator 2007 R2는 현재 상태 및 IM 상호 운용성에 적합 하지만 사용자는 lync Web App 2013을 사용 하 여 Lync Server 2013 모임에 참가 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-325">During migration from Office Communications Server 2007 R2, Office Communicator 2007 R2 is suitable for presence and IM interoperability, but users should use Lync Web App 2013 to join Lync Server 2013 meetings.</span></span>
+<span data-ttu-id="93dd4-324">4The Communicator 2007 R2의 현재 상태 및 IM 기능은 Lync Server 2013과 호환 되지만 회의 기능은 없습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-324">4The presence and IM features in Office Communicator 2007 R2 are compatible with Lync Server 2013, but conferencing features are not.</span></span> <span data-ttu-id="93dd4-325">Office Communications Server 2007 R2에서 마이그레이션하는 동안 Office Communicator 2007 R2는 현재 상태 및 IM 상호 운용성에 적합 하지만 lync Web App 2013을 사용 하 여 Lync Server 2013 meeting에 참가 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-325">During migration from Office Communications Server 2007 R2, Office Communicator 2007 R2 is suitable for presence and IM interoperability, but users should use Lync Web App 2013 to join Lync Server 2013 meetings.</span></span>
 
 </div>
 
@@ -446,21 +446,21 @@ ms.locfileid: "41756762"
 
 <div>
 
-## <a name="scheduling-add-in-support"></a><span data-ttu-id="cbf20-326">추가 기능 지원 예약</span><span class="sxs-lookup"><span data-stu-id="cbf20-326">Scheduling Add-in Support</span></span>
+## <a name="scheduling-add-in-support"></a><span data-ttu-id="93dd4-326">추가 기능 지원 예약</span><span class="sxs-lookup"><span data-stu-id="93dd4-326">Scheduling Add-in Support</span></span>
 
-<span data-ttu-id="cbf20-327">다양 한 스케줄링 추가 기능에 대 한 서버 지원은 서버 및 클라이언트 버전 호환성과 일관성을 유지 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-327">Server support for the various scheduling add-ins is consistent with server and client version compatibility.</span></span> <span data-ttu-id="cbf20-328">일반적으로 Lync Server 2013에서 다음과 같은 일정 예약 추가 기능이 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-328">In general, the following scheduling add-ins are supported on Lync Server 2013.</span></span> <span data-ttu-id="cbf20-329">그러나 이전 버전의 추가 기능은 모임 항목에 모든 참석자 오디오 및 비디오를 음소거 하는 옵션과 같은 새로운 Lync 2013 추가 기능 기능을 제공 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-329">However, previous versions of add-ins do not provide new Lync 2013 add-in features, such as the option to mute all attendee audio and video upon meeting entry.</span></span>
+<span data-ttu-id="93dd4-327">다양 한 일정 추가 기능에 대 한 서버 지원은 서버 및 클라이언트 버전 호환성과 일치 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-327">Server support for the various scheduling add-ins is consistent with server and client version compatibility.</span></span> <span data-ttu-id="93dd4-328">일반적으로 Lync Server 2013에서는 다음과 같은 예약 추가 기능이 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-328">In general, the following scheduling add-ins are supported on Lync Server 2013.</span></span> <span data-ttu-id="93dd4-329">그러나 이전 버전의 추가 기능은 모임 항목에 모든 참석자 오디오 및 비디오를 음소거 하는 옵션과 같은 새로운 Lync 2013 추가 기능 기능을 제공 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-329">However, previous versions of add-ins do not provide new Lync 2013 add-in features, such as the option to mute all attendee audio and video upon meeting entry.</span></span>
 
-  - <span data-ttu-id="cbf20-330">**Lync 2013**   의 온라인 모임 추가 기능을 사용 하면 모임 이끌이가 기본적으로 참석자 오디오와 비디오가 음소거 된 회의를 예약할 수 있는 참석자 음소거 컨트롤을 통해 lync 2010와 동일한 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-330">**Online Meeting Add-in for Lync 2013**   Provides the same features as the Online Meeting Add-in for Lync 2010, with the addition of attendee mute controls, which allow meeting organizers to schedule conferences that have attendee audio and video muted by default.</span></span> <span data-ttu-id="cbf20-331">관리자는 사용자 지정 로고, 지원 URL, 법적 고 지 사항 URL 또는 사용자 지정 바닥글 텍스트를 추가 하 여 조직의 모임 초대를 사용자 지정할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-331">Administrators can also customize the organization’s meeting invitations by adding a custom logo, a support URL, a legal disclaimer URL, or custom footer text.</span></span>
+  - <span data-ttu-id="93dd4-330">**Lync 2013**   의 온라인 모임 추가 기능은 lync 2010에 대 한 온라인 모임 추가 기능과 같은 기능을 제공 하며, 모임 이끌이가 기본적으로 참석자의 오디오 및 비디오가 음소거 된 회의를 예약할 수 있도록 하는 참석자 음소거 컨트롤을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-330">**Online Meeting Add-in for Lync 2013**   Provides the same features as the Online Meeting Add-in for Lync 2010, with the addition of attendee mute controls, which allow meeting organizers to schedule conferences that have attendee audio and video muted by default.</span></span> <span data-ttu-id="93dd4-331">또한 관리자는 사용자 지정 로고, 지원 URL, 법적 고 지 사항 URL 또는 사용자 지정 바닥글 텍스트를 추가 하 여 조직의 모임 초대를 사용자 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-331">Administrators can also customize the organization’s meeting invitations by adding a custom logo, a support URL, a legal disclaimer URL, or custom footer text.</span></span>
 
-  - <span data-ttu-id="cbf20-332">**Lync 2010**   용 온라인 모임 추가 기능은 lync 모임에 대 한 예약을 제공 하 고 Office Live Meeting 회의를 예약 하는 기능을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-332">**Online Meeting Add-in for Lync 2010**   Provides scheduling for Lync meetings and removes the capability to schedule Office Live Meeting conferences.</span></span>
+  - <span data-ttu-id="93dd4-332">**Lync 2010**   용 온라인 모임 추가 기능은 lync 모임 예약을 제공 하 고 Office Live Meeting 회의를 예약 하는 기능을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-332">**Online Meeting Add-in for Lync 2010**   Provides scheduling for Lync meetings and removes the capability to schedule Office Live Meeting conferences.</span></span>
 
-  - <span data-ttu-id="cbf20-333">**Office communicator 2007 R2 회의 추가 기능**   을 통해 office Live 모임 컨퍼런스와 office Communicator 2007 R2 회의를 둘 다 사용할 계획을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-333">**Office Communicator 2007 R2 Conferencing Add-in**   Provides scheduling for both Office Live Meeting conferences and Office Communicator 2007 R2 conferences.</span></span> 
+  - <span data-ttu-id="93dd4-333">**Office communicator 2007 R2 회의 추가 기능**   office Live Meeting 회의 및 office Communicator 2007 R2 회의 모두의 일정을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-333">**Office Communicator 2007 R2 Conferencing Add-in**   Provides scheduling for both Office Live Meeting conferences and Office Communicator 2007 R2 conferences.</span></span> 
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="cbf20-334">Lync Server 2013에서 Live Meeting 회의를 예약할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-334">Live Meeting conferences cannot be scheduled on Lync Server 2013.</span></span>
+> <span data-ttu-id="93dd4-334">Lync Server 2013에서는 Live Meeting 회의를 예약할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-334">Live Meeting conferences cannot be scheduled on Lync Server 2013.</span></span>
 
 
 
@@ -476,36 +476,36 @@ ms.locfileid: "41756762"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="cbf20-335">예약 클라이언트</span><span class="sxs-lookup"><span data-stu-id="cbf20-335">Scheduling Client</span></span></th>
-<th><span data-ttu-id="cbf20-336">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbf20-336">Lync Server 2013</span></span></th>
-<th><span data-ttu-id="cbf20-337">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="cbf20-337">Lync Server 2010</span></span></th>
-<th><span data-ttu-id="cbf20-338">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="cbf20-338">Office Communications Server 2007 R2</span></span></th>
+<th><span data-ttu-id="93dd4-335">예약 클라이언트</span><span class="sxs-lookup"><span data-stu-id="93dd4-335">Scheduling Client</span></span></th>
+<th><span data-ttu-id="93dd4-336">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93dd4-336">Lync Server 2013</span></span></th>
+<th><span data-ttu-id="93dd4-337">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="93dd4-337">Lync Server 2010</span></span></th>
+<th><span data-ttu-id="93dd4-338">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="93dd4-338">Office Communications Server 2007 R2</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-339">Lync 2013 용 온라인 모임 추가 기능 (Office 2013, Outlook 2010 및 Outlook 2007에서 사용할 수 있음)</span><span class="sxs-lookup"><span data-stu-id="cbf20-339">Online Meeting Add-in for Lync 2013 (can be used with Office 2013, Outlook 2010, and Outlook 2007)</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-340">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-340">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-341">지원 됨 (새 추가 기능 기능을 사용할 수 없음)</span><span class="sxs-lookup"><span data-stu-id="cbf20-341">Supported (new add-in features not available)</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-342">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-342">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-339">Lync 2013 용 온라인 모임 추가 기능 (Office 2013, Outlook 2010 및 Outlook 2007과 함께 사용할 수 있음)</span><span class="sxs-lookup"><span data-stu-id="93dd4-339">Online Meeting Add-in for Lync 2013 (can be used with Office 2013, Outlook 2010, and Outlook 2007)</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-340">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-340">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-341">지원 (새 추가 기능 기능을 사용할 수 없음)</span><span class="sxs-lookup"><span data-stu-id="93dd4-341">Supported (new add-in features not available)</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-342">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-342">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbf20-343">Lync 2013 웹 스케줄러</span><span class="sxs-lookup"><span data-stu-id="cbf20-343">Lync 2013 Web Scheduler</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-344">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-344">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-345">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-345">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-346">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-346">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-343">Lync 2013 웹 스케줄러</span><span class="sxs-lookup"><span data-stu-id="93dd4-343">Lync 2013 Web Scheduler</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-344">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-344">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-345">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-345">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-346">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-346">Not Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbf20-347">Lync 2010 용 온라인 모임 추가 기능</span><span class="sxs-lookup"><span data-stu-id="cbf20-347">Online Meeting Add-in for Lync 2010</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-348">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-348">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-349">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-349">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-350">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-350">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-347">Online Meeting Add-in for Lync 2010(Lync 2010용 온라인 모임 추가 기능)</span><span class="sxs-lookup"><span data-stu-id="93dd4-347">Online Meeting Add-in for Lync 2010</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-348">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-348">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-349">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-349">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-350">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-350">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbf20-351">Office Communicator 2007 R2 회의 추가 기능</span><span class="sxs-lookup"><span data-stu-id="cbf20-351">Office Communicator 2007 R2 Conferencing Add-in</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-352">지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="cbf20-352">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-353">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-353">Supported</span></span></p></td>
-<td><p><span data-ttu-id="cbf20-354">지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-354">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-351">Office Communicator 2007 R2 회의 추가 기능</span><span class="sxs-lookup"><span data-stu-id="93dd4-351">Office Communicator 2007 R2 Conferencing Add-in</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-352">미지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-352">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-353">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-353">Supported</span></span></p></td>
+<td><p><span data-ttu-id="93dd4-354">지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-354">Supported</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -515,22 +515,22 @@ ms.locfileid: "41756762"
 
 <div>
 
-## <a name="support-for-joining-meetings"></a><span data-ttu-id="cbf20-355">모임 참가 지원</span><span class="sxs-lookup"><span data-stu-id="cbf20-355">Support for Joining Meetings</span></span>
+## <a name="support-for-joining-meetings"></a><span data-ttu-id="93dd4-355">모임 참가 지원</span><span class="sxs-lookup"><span data-stu-id="93dd4-355">Support for Joining Meetings</span></span>
 
-<span data-ttu-id="cbf20-356">Lync Server 2013에서 지원 되는 모든 클라이언트는 Lync 2013 모임에 참가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-356">All of the clients that Lync Server 2013 supports are allowed to join Lync 2013 meetings.</span></span> <span data-ttu-id="cbf20-357">Lync Web App이 서버의 웹 구성 요소 이기 때문에 lync Web App이 Lync Server 2013 모임에 참가 하는 데 사용 되는 경우에는 최신 버전의 Lync Web App이 항상 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-357">Because Lync Web App is a web component of the server, in cases where Lync Web App is used to join a Lync Server 2013 meeting, the newer version of Lync Web App is always used.</span></span>
+<span data-ttu-id="93dd4-356">Lync Server 2013에서 지 원하는 모든 클라이언트는 Lync 2013 모임에 참가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-356">All of the clients that Lync Server 2013 supports are allowed to join Lync 2013 meetings.</span></span> <span data-ttu-id="93dd4-357">Lync Web App은 lync Server 2013 회의에 참가 하는 것과 같은 서버 웹 구성 요소 이므로, 최신 버전의 Lync Web App이 항상 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-357">Because Lync Web App is a web component of the server, in cases where Lync Web App is used to join a Lync Server 2013 meeting, the newer version of Lync Web App is always used.</span></span>
 
-<span data-ttu-id="cbf20-358">Lync 2013 클라이언트는 Lync 2010 및 Office Communications Server 2007 R2에 호스트 된 모임에 확장 기능을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-358">Lync 2013 clients can join meetings hosted on Lync 2010 and Office Communications Server 2007 R2 with scaled-down functionality.</span></span> <span data-ttu-id="cbf20-359">모임 중 기능은 모임이 호스팅되는 서버의 버전으로 제한 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cbf20-359">In-meeting features are limited by the version of the server on which the meeting is hosted.</span></span>
+<span data-ttu-id="93dd4-358">Lync 2013 클라이언트는 Lync 2010 및 Office Communications Server 2007 r 2에서 호스트 되는 모임에 확장 된 기능을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-358">Lync 2013 clients can join meetings hosted on Lync 2010 and Office Communications Server 2007 R2 with scaled-down functionality.</span></span> <span data-ttu-id="93dd4-359">모임 중인 기능은 모임이 호스트 되는 서버의 버전에 따라 제한 됩니다.</span><span class="sxs-lookup"><span data-stu-id="93dd4-359">In-meeting features are limited by the version of the server on which the meeting is hosted.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="cbf20-360">참고 항목</span><span class="sxs-lookup"><span data-stu-id="cbf20-360">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="93dd4-360">참고 항목</span><span class="sxs-lookup"><span data-stu-id="93dd4-360">See Also</span></span>
 
 
-[<span data-ttu-id="cbf20-361">Lync Server 2013에 대 한 lync Windows 스토어 앱 요구 사항</span><span class="sxs-lookup"><span data-stu-id="cbf20-361">Lync Windows Store app requirements for Lync Server 2013</span></span>](lync-server-2013-lync-windows-store-app-requirements.md)  
-[<span data-ttu-id="cbf20-362">Lync Server 2013의 새로운 회의 기능</span><span class="sxs-lookup"><span data-stu-id="cbf20-362">New conferencing features in Lync Server 2013</span></span>](lync-server-2013-new-conferencing-features.md)  
-[<span data-ttu-id="cbf20-363">Lync Server 2013의 새로운 클라이언트 기능</span><span class="sxs-lookup"><span data-stu-id="cbf20-363">What's new for clients in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-clients.md)  
+[<span data-ttu-id="93dd4-361">Lync Server 2013에 대 한 lync Windows 스토어 앱 요구 사항</span><span class="sxs-lookup"><span data-stu-id="93dd4-361">Lync Windows Store app requirements for Lync Server 2013</span></span>](lync-server-2013-lync-windows-store-app-requirements.md)  
+[<span data-ttu-id="93dd4-362">Lync Server 2013의 새로운 회의 기능</span><span class="sxs-lookup"><span data-stu-id="93dd4-362">New conferencing features in Lync Server 2013</span></span>](lync-server-2013-new-conferencing-features.md)  
+[<span data-ttu-id="93dd4-363">Lync Server 2013의 새로운 클라이언트 기능</span><span class="sxs-lookup"><span data-stu-id="93dd4-363">What's new for clients in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-clients.md)  
   
 
 </div>
