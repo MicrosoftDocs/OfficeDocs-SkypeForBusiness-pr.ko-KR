@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: SIP 트렁크에 대한 구성 요소 및 토폴로지'
+title: 'Lync Server 2013: SIP 트렁크에 대 한 구성 요소 및 토폴로지'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d30c589ff02717ad49ce89d0d4e3324f6fe993e9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9e31b7cc0ea6e5acec0382ecd468a868152570d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742568"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-sip-trunking-in-lync-server-2013"></a><span data-ttu-id="4f52c-102">Lync Server 2013의 SIP 트렁크에 대한 구성 요소 및 토폴로지</span><span class="sxs-lookup"><span data-stu-id="4f52c-102">Components and topologies for SIP trunking in Lync Server 2013</span></span>
+# <a name="components-and-topologies-for-sip-trunking-in-lync-server-2013"></a><span data-ttu-id="c6c52-102">Lync Server 2013의 SIP 트렁크에 대 한 구성 요소 및 토폴로지</span><span class="sxs-lookup"><span data-stu-id="c6c52-102">Components and topologies for SIP trunking in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41742568"
 
 <span> </span>
 
-<span data-ttu-id="4f52c-103">_**마지막으로 수정한 주제:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="4f52c-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="c6c52-103">_**마지막으로 수정 된 항목:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="c6c52-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="4f52c-104">다음 그림은 Lync Server의 SIP 트렁크 토폴로지를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-104">The following figure depicts the SIP trunking topology in Lync Server.</span></span>
+<span data-ttu-id="c6c52-104">다음 그림에서는 Lync Server의 SIP 트렁크 토폴로지를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-104">The following figure depicts the SIP trunking topology in Lync Server.</span></span>
 
-<span data-ttu-id="4f52c-105">**SIP 트렁크 토폴로지**</span><span class="sxs-lookup"><span data-stu-id="4f52c-105">**SIP trunking topology**</span></span>
+<span data-ttu-id="c6c52-105">**SIP 트렁크 토폴로지**</span><span class="sxs-lookup"><span data-stu-id="c6c52-105">**SIP trunking topology**</span></span>
 
-<span data-ttu-id="4f52c-106">![SIP 트렁크 토폴로지](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "SIP 트렁크 토폴로지")</span><span class="sxs-lookup"><span data-stu-id="4f52c-106">![SIP Trunking Topology](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "SIP Trunking Topology")</span></span>
+<span data-ttu-id="c6c52-106">![SIP 트렁크 토폴로지](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "SIP 트렁크 토폴로지")</span><span class="sxs-lookup"><span data-stu-id="c6c52-106">![SIP Trunking Topology](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "SIP Trunking Topology")</span></span>
 
-<span data-ttu-id="4f52c-107">다이어그램에 표시 된 대로 IP 가상 개인 네트워크 (VPN)는 엔터프라이즈 네트워크와 PSTN (공개 통신 네트워크) 서비스 공급자 간의 연결에 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-107">As shown in the diagram, an IP virtual private network (VPN) is used for connectivity between the enterprise network and the public switched telephone network (PSTN) service provider.</span></span> <span data-ttu-id="4f52c-108">이 개인 네트워크의 용도는 IP 연결을 제공 하 고 보안을 강화 하며 서비스 품질 (옵션) 보장을 받을 수 있도록 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-108">The purpose of this private network is to provide IP connectivity, enhance security, and (optionally) obtain Quality of Service (QoS) guarantees.</span></span> <span data-ttu-id="4f52c-109">VPN의 특성상 SIP 신호 소통량에는 TLS (전송 계층 보안)를 사용 하거나 미디어 트래픽에 대 한 보안 실시간 전송 프로토콜 (SRTP)을 사용할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-109">Because of the nature of a VPN, you do not need to use Transport Layer Security (TLS) for SIP signaling traffic or secure real-time transport protocol (SRTP) for the media traffic.</span></span> <span data-ttu-id="4f52c-110">따라서 엔터프라이즈와 서비스 공급자 간의 연결은 IP VPN을 통해 터널링 된 미디어에 대 한 UDP를 통해 SIP 및 일반 실시간 전송 프로토콜 (터널)에 대 한 일반 TCP 연결로 구성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-110">Connections between the enterprise and the service provider therefore consist of plain TCP connections for SIP and plain real-time transport protocol (RTP) (over UDP) for media tunneled through an IP VPN.</span></span> <span data-ttu-id="4f52c-111">Vpn 라우터 간의 모든 방화벽이 VPN 라우터 통신을 허용 하도록 포트가 열려 있는지 확인 하 고 VPN 라우터의 외부 경계에 있는 IP 주소를 공개적으로 라우팅할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-111">Ensure that all firewalls between the VPN routers have ports open to allow the VPN routers to communicate, and that the IP addresses on the external edges of the VPN routers are publicly routable.</span></span>
+<span data-ttu-id="c6c52-p101">다이어그램에 나온 것처럼 엔터프라이즈 네트워크 및 PSTN(공중 전화망) 서비스 공급자 간의 연결에 IP VPN(가상 사설망)이 사용됩니다. 이 사설망의 목적은 IP 연결을 제공하고 보안을 향상시키며 선택적으로 QoS(서비스 품질) 보증을 얻는 것입니다. VPN의 특성으로 인해 SIP 신호 트래픽을 위한 TLS(Transport Layer Security)나 미디어 트래픽을 위한 SRTP(실시간 전송 프로토콜)를 사용할 필요가 없습니다. 따라서 엔터프라이즈와 서비스 공급자 간의 연결은 SIP를 위한 일반 TCP 연결 및 IP VPN을 통해 터널링되는 미디어를 위한 UDP를 통한 일반 RTP(실시간 전송 프로토콜)로 구성됩니다. 이때 VPN 라우터 간 모든 방화벽에서는 VPN 라우터가 통신할 수 있도록 포트를 열어 놓아야 하고 VPN 라우터의 외부 에지에 대한 IP 주소는 공개적으로 라우팅 가능한 주소여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-p101">As shown in the diagram, an IP virtual private network (VPN) is used for connectivity between the enterprise network and the public switched telephone network (PSTN) service provider. The purpose of this private network is to provide IP connectivity, enhance security, and (optionally) obtain Quality of Service (QoS) guarantees. Because of the nature of a VPN, you do not need to use Transport Layer Security (TLS) for SIP signaling traffic or secure real-time transport protocol (SRTP) for the media traffic. Connections between the enterprise and the service provider therefore consist of plain TCP connections for SIP and plain real-time transport protocol (RTP) (over UDP) for media tunneled through an IP VPN. Ensure that all firewalls between the VPN routers have ports open to allow the VPN routers to communicate, and that the IP addresses on the external edges of the VPN routers are publicly routable.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="4f52c-112">서비스 공급자에 게 문의 하 여 장애 조치를 포함 하 여 고가용성에 대 한 지원을 제공 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-112">Contact your service provider to determine whether it provides support for high availability, including failover.</span></span> <span data-ttu-id="4f52c-113">이 경우 설정 절차를 결정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-113">If so, you will need to determine the procedures for setting it up.</span></span> <span data-ttu-id="4f52c-114">예를 들어 각 중재 서버에서 하나의 IP 주소와 하나의 SIP 트렁크만 구성 해야 하나요, 아니면 각 중재 서버에서 여러 SIP trunks를 구성 해야 합니까?</span><span class="sxs-lookup"><span data-stu-id="4f52c-114">For example, do you need to configure only one IP address and one SIP trunk on each Mediation Server, or do you need to configure multiple SIP trunks on each Mediation Server?</span></span><BR><span data-ttu-id="4f52c-115">중앙 사이트가 여러 개 있는 경우 서비스 공급자에 게 다른 중앙 사이트와의 연결을 설정 하는 기능이 있는지를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-115">If you have multiple central sites, also ask whether the service provider has the ability to enable connections to and from another central site.</span></span>
+> <span data-ttu-id="c6c52-112">서비스 공급자에 게 문의 하 여 장애 조치 (failover)를 포함 하 여 고가용성에 대 한 지원을 제공 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-112">Contact your service provider to determine whether it provides support for high availability, including failover.</span></span> <span data-ttu-id="c6c52-113">해당 하는 경우 설정 절차를 결정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-113">If so, you will need to determine the procedures for setting it up.</span></span> <span data-ttu-id="c6c52-114">예를 들어 각 중재 서버에 하나의 IP 주소와 하나의 SIP 트렁크를 구성 해야 합니까, 아니면 각 중재 서버에서 여러 SIP 트렁크를 구성 해야 하나요?</span><span class="sxs-lookup"><span data-stu-id="c6c52-114">For example, do you need to configure only one IP address and one SIP trunk on each Mediation Server, or do you need to configure multiple SIP trunks on each Mediation Server?</span></span><BR><span data-ttu-id="c6c52-115">중앙 사이트가 여러 개인 경우 서비스 공급자가 다른 중앙 사이트에 대 한 연결을 설정 하는 기능을 사용할 수 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-115">If you have multiple central sites, also ask whether the service provider has the ability to enable connections to and from another central site.</span></span>
 
 
 
@@ -59,7 +59,7 @@ ms.locfileid: "41742568"
 
 
 > [!NOTE]  
-> <span data-ttu-id="4f52c-116">SIP 트렁크의 경우 독립 실행형 중재 서버를 배포 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-116">For SIP trunking, we strongly recommend that you deploy stand-alone Mediation Servers.</span></span> <span data-ttu-id="4f52c-117">자세한 내용은 배포 설명서의 <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Lync Server 2013에서 중재 서버 배포 및 피어 정의</A> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="4f52c-117">For details, see <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Deploying Mediation Servers and defining peers in Lync Server 2013</A> in the Deployment documentation.</span></span>
+> <span data-ttu-id="c6c52-116">SIP 트렁크의 경우 독립 실행형 중재 서버를 배포 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-116">For SIP trunking, we strongly recommend that you deploy stand-alone Mediation Servers.</span></span> <span data-ttu-id="c6c52-117">자세한 내용은 배포 설명서에서 <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">중재 서버 배포 및 Lync Server 2013의 피어 정의</A> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c6c52-117">For details, see <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Deploying Mediation Servers and defining peers in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
@@ -67,27 +67,27 @@ ms.locfileid: "41742568"
 
 <div>
 
-## <a name="securing-the-mediation-server-for-sip-trunking"></a><span data-ttu-id="4f52c-118">SIP 트렁크 중재 서버 보안 유지</span><span class="sxs-lookup"><span data-stu-id="4f52c-118">Securing the Mediation Server for SIP Trunking</span></span>
+## <a name="securing-the-mediation-server-for-sip-trunking"></a><span data-ttu-id="c6c52-118">SIP 트렁크에 대해 중재 서버 보호</span><span class="sxs-lookup"><span data-stu-id="c6c52-118">Securing the Mediation Server for SIP Trunking</span></span>
 
-<span data-ttu-id="4f52c-119">보안을 위해서는 두 VPN 라우터 간의 각 연결에 대해 VLAN (가상 LAN)을 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-119">For security purposes, you should set up a virtual LAN (VLAN) for each connection between the two VPN routers.</span></span> <span data-ttu-id="4f52c-120">VLAN을 설정 하는 실제 프로세스는 라우터 제조업체 마다 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-120">The actual process for setting up a VLAN varies from one router manufacturer to another.</span></span> <span data-ttu-id="4f52c-121">자세한 내용은 라우터 공급 업체에 문의 하세요.</span><span class="sxs-lookup"><span data-stu-id="4f52c-121">For details, contact your router vendor.</span></span>
+<span data-ttu-id="c6c52-p104">보안을 위해 두 VPN 라우터 간의 각 연결에 대해 VLAN(가상 LAN)을 설치해야 합니다. VLAN의 실제 설치 프로세스는 라우터 제조업체별로 다릅니다. 자세한 내용은 라우터 공급업체에 문의하십시오.</span><span class="sxs-lookup"><span data-stu-id="c6c52-p104">For security purposes, you should set up a virtual LAN (VLAN) for each connection between the two VPN routers. The actual process for setting up a VLAN varies from one router manufacturer to another. For details, contact your router vendor.</span></span>
 
-<span data-ttu-id="4f52c-122">다음 지침을 따르는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-122">We recommend that you follow these guidelines:</span></span>
+<span data-ttu-id="c6c52-122">다음 지침을 따르는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-122">We recommend that you follow these guidelines:</span></span>
 
-  - <span data-ttu-id="4f52c-123">중재 서버와 경계 네트워크 (DMZ, 완충 영역 및 스크린 된 서브넷이 라고도 함)의 VPN 라우터 사이에 VLAN (가상 LAN)을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-123">Set up a virtual LAN (VLAN) between the Mediation Server and the VPN router in the perimeter network (also known as DMZ, demilitarized zone, and screened subnet).</span></span>
+  - <span data-ttu-id="c6c52-123">중재 서버와 경계 네트워크 (DMZ, 완충 영역 및 스크린 된 서브넷이 라고도 함)의 VPN 라우터 간에 VLAN (가상 LAN)을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-123">Set up a virtual LAN (VLAN) between the Mediation Server and the VPN router in the perimeter network (also known as DMZ, demilitarized zone, and screened subnet).</span></span>
 
-  - <span data-ttu-id="4f52c-124">브로드캐스트 또는 멀티 캐스트 패킷을 라우터에서 VLAN으로 전송 하는 것을 허용 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-124">Do not allow broadcast or multicast packets to be transferred from the router to the VLAN.</span></span>
+  - <span data-ttu-id="c6c52-124">라우터에서 VLAN으로 브로드캐스트나 멀티캐스트 패킷이 전송되는 것을 허용하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-124">Do not allow broadcast or multicast packets to be transferred from the router to the VLAN.</span></span>
 
-  - <span data-ttu-id="4f52c-125">라우터에서 중재 서버를 제외한 아무 곳에 나 트래픽을 라우팅하는 라우팅 규칙을 차단 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-125">Block any routing rules that route traffic from the router to anywhere but the Mediation Server.</span></span>
+  - <span data-ttu-id="c6c52-125">라우터에서 중재 서버를 제외한 모든 사람에 게 트래픽을 라우팅하는 모든 라우팅 규칙을 차단 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-125">Block any routing rules that route traffic from the router to anywhere but the Mediation Server.</span></span>
 
-<span data-ttu-id="4f52c-126">VPN 서버를 사용 하는 경우 다음 지침을 따르는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-126">If you use a VPN server, we recommend that you follow these guidelines:</span></span>
+<span data-ttu-id="c6c52-126">VPN 서버를 사용하는 경우 다음 지침을 따르는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-126">If you use a VPN server, we recommend that you follow these guidelines:</span></span>
 
-  - <span data-ttu-id="4f52c-127">VPN 서버와 중재 서버 간에 VLAN을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-127">Set up a VLAN between the VPN server and the Mediation Server.</span></span>
+  - <span data-ttu-id="c6c52-127">VPN 서버와 중재 서버 간에 VLAN을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-127">Set up a VLAN between the VPN server and the Mediation Server.</span></span>
 
-  - <span data-ttu-id="4f52c-128">브로드캐스트 또는 멀티 캐스트 패킷을 VPN 서버에서 VLAN으로 전송 하도록 허용 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-128">Do not allow broadcast or multicast packets to be transmitted from the VPN server to the VLAN.</span></span>
+  - <span data-ttu-id="c6c52-128">VPN 서버에서 VLAN으로 브로드캐스트나 멀티캐스트 패킷이 전송되는 것을 허용하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-128">Do not allow broadcast or multicast packets to be transmitted from the VPN server to the VLAN.</span></span>
 
-  - <span data-ttu-id="4f52c-129">중재 서버를 제외한 아무 곳으로도 VPN 서버 트래픽을 라우팅하는 라우팅 규칙을 차단 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-129">Block any routing rule that routes VPN server traffic to anywhere but the Mediation Server.</span></span>
+  - <span data-ttu-id="c6c52-129">VPN 서버 트래픽을 사용 하지 않고 중재 서버로 라우팅하는 모든 라우팅 규칙을 차단 합니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-129">Block any routing rule that routes VPN server traffic to anywhere but the Mediation Server.</span></span>
 
-  - <span data-ttu-id="4f52c-130">GRE (generic routing 캡슐화)를 사용 하 여 VPN의 데이터를 암호화 합니다.</span><span class="sxs-lookup"><span data-stu-id="4f52c-130">Encrypt data on the VPN by using generic routing encapsulation (GRE).</span></span>
+  - <span data-ttu-id="c6c52-130">GRE(Generic Routing Encapsulation)를 사용하여 VPN의 데이터를 암호화합니다.</span><span class="sxs-lookup"><span data-stu-id="c6c52-130">Encrypt data on the VPN by using generic routing encapsulation (GRE).</span></span>
 
 </div>
 
