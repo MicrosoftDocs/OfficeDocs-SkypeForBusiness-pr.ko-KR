@@ -12,16 +12,16 @@ ms:contentKeyID: 48185554
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 858cdaec39e61b1f18f1a97e560dfdd34a68cd20
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a89c7bb7cdd54e1d0e3d388223d0054992d35e9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738229"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045480"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41738229"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
 이 섹션의 항목에서는 Lync Server 제어판의 **음성 라우팅** 그룹을 사용 하 여 수행할 수 있는 작업에 대 한 단계별 절차를 제공 합니다.
 
@@ -43,7 +43,7 @@ _**마지막으로 수정한 주제:** 2012-11-01_
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에서 번역 규칙 및 정규화 규칙 정의](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
+  - [Lync Server 2013에서 변환 규칙 및 정규화 규칙 정의](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
 
   - [Lync Server 2013에서 트렁크 구성](lync-server-2013-configuring-trunks.md)
 
@@ -58,10 +58,10 @@ _**마지막으로 수정한 주제:** 2012-11-01_
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013에서 엔터프라이즈 음성에 대 한 계획](lync-server-2013-planning-for-enterprise-voice.md)  
+[Lync Server 2013의 Enterprise Voice 계획](lync-server-2013-planning-for-enterprise-voice.md)  
 
 
-[Lync Server 2013에서 통화 관리 기능 관리](lync-server-2013-managing-call-management-features.md)  
+[Lync Server 2013의 통화 관리 기능 관리](lync-server-2013-managing-call-management-features.md)  
   
 
 </div>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185644
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6642906c1855575fb8077846eef6646bfb37531
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 388a39c81af2f7e3ca4e0c61f468b283deaa7a4e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746878"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045730"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41746878"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-01_
+_**마지막으로 수정 된 항목:** 2012-10-01_
 
-일부 Lync Server 2013 역할은 IIS (인터넷 정보 서비스) 포트 4443에서 웹 서비스를 실행 합니다. Lync Server 배포 마법사 실행, 부트스트래퍼 또는 **Enable-CsComputer** cmdlet을 사용 하 여 방화벽에서 예외를 만들고 포트를 엽니다. 그런 다음 Windows Server 2008 R2 보안 구성 마법사 (또는 기타 강화 스크립트)를 실행 하면 포트 4443이 차단 되 고 외부 클라이언트가 웹 서비스에 연결할 수 없게 됩니다. 포트를 다시 열려면 방화벽 예외를 직접 수정 하거나 서버를 다시 활성화 하면 됩니다.
+일부 Lync Server 2013 역할은 IIS (인터넷 정보 서비스) 포트 4443에서 웹 서비스를 실행 합니다. Lync Server 배포 마법사를 실행 하거나, 부트스트래퍼가 나 **Enable-CsComputer** cmdlet을 사용 하 여 방화벽에서 예외를 만들고 포트를 엽니다. 그런 다음 Windows Server 2008 R2 보안 구성 마법사 또는 기타 강화 스크립트를 실행 하면 포트 4443이 차단 되 고 외부 클라이언트에서 웹 서비스에 연결할 수 없게 됩니다. 포트를 다시 열려면 방화벽 예외를 직접 수정하거나 서버를 다시 활성화하면 됩니다.
 
 <div>
 
-## <a name="to-re-activate-the-server-by-using-the-deployment-wizard"></a>배포 마법사를 사용 하 여 서버를 다시 활성화 하려면
+## <a name="to-re-activate-the-server-by-using-the-deployment-wizard"></a>배포 마법사를 사용하여 서버를 다시 활성화하려면
 
-1.  Lync Server 배포 마법사 페이지에서 **2 단계: Lync Server 구성 요소 설정 또는 제거**옆의 **실행** 을 클릭 합니다.
+1.  Lync Server 배포 마법사 페이지에서 **2 단계: Lync Server 구성 요소 설치 또는 제거**옆의 **실행** 을 클릭 합니다.
 
-2.  **Lync Server 구성 요소 설정** 페이지에서 **다음**을 클릭 합니다.
+2.  **Lync Server 구성 요소 설치** 페이지에서 **다음**을 클릭합니다.
 
-3.  **명령 실행** 페이지에서 작업 상태가 완료로 표시 되 면 **마침을**클릭 합니다.
+3.  **명령 실행** 페이지에서 작업 상태가 완료됨으로 표시되면 **마침**을 클릭합니다.
     
     <div>
     
 
     > [!NOTE]
-    > 또한 부트스트래퍼가 나 <STRONG>-CsComputer</STRONG> 를 사용 하 여 서버를 다시 활성화할 수도 있습니다.
+    > bootstrapper.exe 또는 <STRONG>Enable-CsComputer</STRONG>를 사용하여 서버를 다시 활성화할 수도 있습니다.
 
     
     </div>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183579
 ms.date: 07/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b92c8a0a6957eed00cf4e25f60ce2e0ff24d1fd2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6fe16e903a1dfbc958336dca68903ca80770995d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762996"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039492"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762996"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2016-07-12_
+_**마지막으로 수정 된 항목:** 2016-07-12_
 
-MediaList 테이블은 다양 한 미디어 유형의 목록을 저장 하는 정적 테이블입니다.
+MediaList 테이블은 다양한 미디어 유형 목록이 저장된 정적 테이블입니다.
 
 
 <table>
@@ -52,14 +52,14 @@ MediaList 테이블은 다양 한 미디어 유형의 목록을 저장 하는 �
 <th>열</th>
 <th>데이터 형식</th>
 <th>키/인덱스</th>
-<th>세부적인</th>
+<th>세부 정보</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>MediaId</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>주요한</p></td>
+<td><p>Primary</p></td>
 <td><p>값: 1-7</p></td>
 </tr>
 <tr class="even">
@@ -68,20 +68,20 @@ MediaList 테이블은 다양 한 미디어 유형의 목록을 저장 하는 �
 <td></td>
 <td><p>MediaID 및 Media 값의 정적 매핑:</p>
 <ul>
-<li><p>1 – 메신저 대화</p></li>
-<li><p>2-파일 전송</p></li>
-<li><p>3-원격 지원</p></li>
-<li><p>4-응용 프로그램 공유</p></li>
+<li><p>1-IM</p></li>
+<li><p>2 -- 파일 전송</p></li>
+<li><p>3 -- 원격 지원</p></li>
+<li><p>4 -- 응용 프로그램 공유</p></li>
 <li><p>5-오디오</p></li>
-<li><p>6 – 영상</p></li>
-<li><p>7 – 앱 초대</p></li>
+<li><p>6-비디오</p></li>
+<li><p>7 -- 응용 프로그램 초대</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-LcsCDR에서 MediaTypes의 값에 대 한 형식 지정을 확인 하려는 경우 다음 조인 조각을 사용 해야 합니다.
+LcsCDR에서 MediaTypes의 값에 대 한 형식 형식을 확인 하려는 경우 다음 Join 조각을 사용 해야 합니다.
 
     LEFT JOIN on Media.MediaId = MediaList.MediaId
 

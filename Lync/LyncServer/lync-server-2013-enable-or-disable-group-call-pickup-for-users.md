@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 사용자 용 그룹 통화 픽업 사용 설정 또는 해제'
+title: 'Lync Server 2013: 사용자에 대 한 그룹 통화 픽업 사용 또는 사용 안 함'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bec90c71a10c0064f7c2b9bb95bce1dfe6afa54
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46bc1bb958fae23f4e8c66587d358004e7b6cf3d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736029"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040147"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a>Lync Server 2013에서 사용자 용 그룹 통화 픽업 사용 또는 사용 안 함
+# <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a>Lync Server 2013의 사용자에 대 한 그룹 통화 픽업 사용 또는 사용 안 함
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41736029"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-22_
+_**마지막으로 수정 된 항목:** 2013-02-22_
 
-통화 공원 표에 그룹 통화 픽업 범위가 추가 되 면 필요에 따라 사용자에 대 한 그룹 통화 픽업 기능을 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 이 섹션에서는 SEFAUtil 리소스 키트 도구를 사용 하 여 사용자 용 그룹 통화 픽업를 사용 하거나 사용 하지 않도록 설정 하는 방법을 설명 합니다.
+통화 대기 번호 표에 그룹 통화 픽업 범위가 추가 되 면 필요에 따라 사용자에 대 한 그룹 통화 픽업도 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 이 섹션에서는 SEFAUtil 리소스 키트 도구를 사용 하 여 사용자의 그룹 통화 픽업를 사용 하거나 사용 하지 않도록 설정 하는 방법에 대해 설명 합니다.
 
 <div>
 
 
 > [!NOTE]  
-> SEFAUtil 매개 변수인/enablegrouppickup는 그룹 통화 픽업을 사용 하도록 설정 하 고 그룹 번호를 할당 합니다.
+> SEFAUtil 매개 변수/enablegrouppickup는 그룹 통화 픽업을 사용 하도록 설정 하 고 그룹 번호를 할당 합니다.
 
 
 
@@ -53,9 +53,9 @@ _**마지막으로 수정한 주제:** 2013-02-22_
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에서 사용자의 그룹 통화 픽업 사용 설정](lync-server-2013-enable-group-call-pickup-for-users.md)
+  - [Lync Server 2013의 사용자에 대 한 그룹 통화 픽업 사용 설정](lync-server-2013-enable-group-call-pickup-for-users.md)
 
-  - [Lync Server 2013에서 사용자에 대 한 그룹 통화 픽업 기능을 사용 하지 않도록 설정](lync-server-2013-disable-group-call-pickup-for-users.md)
+  - [Lync Server 2013의 사용자에 대 한 그룹 통화 픽업 사용 안 함](lync-server-2013-disable-group-call-pickup-for-users.md)
 
 </div>
 

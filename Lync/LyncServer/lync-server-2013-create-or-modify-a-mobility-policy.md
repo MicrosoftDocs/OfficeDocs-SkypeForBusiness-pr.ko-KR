@@ -12,16 +12,16 @@ ms:contentKeyID: 49733884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f64e74b389b268027e06b2f4103b0c828c5be6f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 469b7789de98cee3d399e09c9cec4396fdb365e9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758052"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048689"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41758052"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-23_
+_**마지막으로 수정 된 항목:** 2013-02-23_
 
-모바일 사용자가 인스턴트 메시지 (IM), 현재 상태, 대화 상대 등의 Lync 기능에 지원 되는 모바일 장치를 사용할 수 있도록 이동성 정책을 만들거나 수정할 수 있습니다. Lync Server 2013 제어판 또는 Lync Server 2013 관리 셸에서 모바일 정책을 만들거나 수정할 수 있습니다.
+모바일 사용자가 IM(인스턴트 메시징), 현재 상태 및 연락처 등 Lync 기능용으로 지원되는 모바일 장치를 사용할 수 있도록 모바일 정책을 만들거나 수정할 수 있습니다. Lync Server 2013 제어판 또는 Lync Server 2013 관리 셸에서 모바일 정책을 만들거나 수정할 수 있습니다.
 
 <div>
 
-## <a name="to-create-a-mobility-policy-with-lync-server-control-panel"></a>Lync Server 제어판을 사용 하 여 모바일 정책 만들기
+## <a name="to-create-a-mobility-policy-with-lync-server-control-panel"></a>Lync Server 제어판을 사용 하 여 모바일 정책을 만들려면
 
-1.  CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당 된 사용자 계정에서 내부 배포의 컴퓨터에 로그온 합니다.
+1.  CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+2.  브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.
 
-3.  왼쪽 탐색 모음에서 **클라이언트**를 클릭 한 다음 **모바일 정책** 탐색 단추를 클릭 합니다.
+3.  왼쪽 탐색 표시줄에서 **클라이언트**를 클릭하고 **모바일 정책** 탐색 단추를 클릭합니다.
 
 4.  **모바일 정책** 페이지에서 **새로 만들기**를 클릭 하 고 다음 중 하나를 수행 합니다.
     
-    1.  사이트 모바일 정책을 만들려면 **사이트 정책을**클릭 하 고 사이트를 클릭 한 다음 **확인**을 클릭 하 고 기본 설정을 검토 하 고 원하는 경우 변경 작업을 수행 합니다.
+    1.  사이트 모바일 정책을 만들려면 **사이트 정책**을 클릭하고 사이트 하나를 클릭한 다음 **확인**을 클릭하고 기본 설정을 검토한 후 원할 경우 설정을 변경합니다.
     
-    2.  사용자 이동성 정책을 만들려면 **사용자 정책을**클릭 하 고, 이름을 입력 하 고, 기본 설정을 검토 하 고, 원하는 대로 변경 합니다.
+    2.  사용자 모바일 정책을 만들려면 **사용자 정책**을 클릭하고 이름 하나를 입력한 다음 기본 설정을 검토한 후 원할 경우 설정을 변경합니다.
 
 5.  **커밋**을 클릭합니다.
 
@@ -63,17 +63,17 @@ _**마지막으로 수정한 주제:** 2013-02-23_
 
 ## <a name="to-modify-a-mobility-policy-with-lync-server-control-panel"></a>Lync Server 제어판을 사용 하 여 모바일 정책을 수정 하려면
 
-1.  CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당 된 사용자 계정에서 내부 배포의 컴퓨터에 로그온 합니다.
+1.  CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+2.  브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.
 
-3.  왼쪽 탐색 모음에서 **클라이언트**를 클릭 한 다음 **모바일 정책** 탐색 단추를 클릭 합니다.
+3.  왼쪽 탐색 표시줄에서 **클라이언트**를 클릭하고 **모바일 정책** 탐색 단추를 클릭합니다.
 
-4.  **모바일 정책** 페이지에서 기존 이동성 정책 중 하나를 클릭 합니다.
+4.  **모바일 정책** 페이지에서 기존 모바일 정책 중 하나를 클릭 합니다.
 
-5.  **편집** 메뉴에서 **세부 정보 표시**를 클릭 합니다.
+5.  **편집** 메뉴에서 **자세한 정보 표시**를 클릭합니다.
 
-6.  설정을 편집 합니다.
+6.  설정을 편집합니다.
 
 7.  **커밋**을 클릭합니다.
 
@@ -83,17 +83,17 @@ _**마지막으로 수정한 주제:** 2013-02-23_
 
 ## <a name="creating-external-access-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 외부 액세스 정책 만들기
 
-Windows PowerShell 및 **CsMobilityPolicy** cmdlet을 사용 하 여 사이트 범위 또는 사용자 단위 범위에서 모바일 기능 정책을 만들 수 있습니다. 또한 **Set-CsMobilityPolicy** cmdlet을 사용 하 여 전역 정책을 비롯 한 기존 정책을 수정할 수 있습니다. 이러한 cmdlet은 Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+Windows PowerShell 및 **get-csmobilitypolicy** cmdlet을 사용 하 여 사이트 범위 또는 사용자별 범위에서 모바일 정책을 만들 수 있습니다. 또한 **get-csmobilitypolicy** cmdlet을 사용 하 여 전역 정책을 비롯 한 기존 정책을 수정할 수 있습니다. 이러한 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
 
 <div>
 
-## <a name="to-create-a-mobility-policy-at-the-site-scope"></a>사이트 범위에서 이동성 정책 만들기
+## <a name="to-create-a-mobility-policy-at-the-site-scope"></a>사이트 범위에서 모바일 정책을 만들려면
 
-  - 이 명령은 Redmond 사이트에 대 한 새로운 이동성 정책을 만듭니다.
+  - 이 명령은 Redmond 사이트에 대한 새로운 모바일 정책을 만듭니다.
     
         New-CsMobilityPolicy -Identity "site:Redmond"
     
-    앞의 명령에서 필수 Id 매개 변수 이외의 매개 변수를 지정 하지 않았으므로 정책의 모든 속성에 대 한 기본값이 사용 됩니다.
+    이전 명령에 매개 변수(필수 Identity 매개 변수 이외)가 지정되지 않았으므로 정책에서 모든 속성에 대해 기본값을 사용합니다.
 
 </div>
 
@@ -101,7 +101,7 @@ Windows PowerShell 및 **CsMobilityPolicy** cmdlet을 사용 하 여 사이트 �
 
 ## <a name="to-create-a-mobility-policy-at-the-per-user-scope"></a>사용자별 범위에서 모바일 정책을 만들려면
 
-  - 사용자별 범위에서 모바일 정책을 만들려면 정책에 대 한 고유 Id를 지정 합니다.
+  - 사용자별 범위에서 모바일 정책을 만들려면 정책에 대한 고유 ID를 지정합니다.
     
         New-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
@@ -109,9 +109,9 @@ Windows PowerShell 및 **CsMobilityPolicy** cmdlet을 사용 하 여 사이트 �
 
 <div>
 
-## <a name="to-change-a-single-property-value-when-creating-a-mobility-policy"></a>이동성 정책을 만들 때 단일 속성 값을 변경 하려면
+## <a name="to-change-a-single-property-value-when-creating-a-mobility-policy"></a>모바일 정책을 만들 때 단일 속성 값을 변경 하려면
 
-  - 다른 속성 값을 사용 하는 정책을 만들려면 적절 한 매개 변수와 매개 변수 값을 포함 합니다. 예를 들어이 명령은 작업을 통한 통화를 사용 하지 않도록 설정 하는 이동성 정책을 만듭니다.
+  - 다양한 속성 값을 사용하는 정책을 만들려면 해당 매개 변수 및 매개 변수 값을 포함합니다. 예를 들면 이 명령은 회사번호로 전화 기능을 사용하지 않도록 설정하는 모바일 정책을 만듭니다.:
     
         New-CsMobilityPolicy -Identity "site:Redmond" -EnableOutsideVoice $False
 
@@ -119,15 +119,15 @@ Windows PowerShell 및 **CsMobilityPolicy** cmdlet을 사용 하 여 사이트 �
 
 <div>
 
-## <a name="to-change-multiple-property-values-when-creating-a-mobility-policy"></a>이동성 정책을 만들 때 여러 속성 값을 변경 하려면
+## <a name="to-change-multiple-property-values-when-creating-a-mobility-policy"></a>모바일 정책을 만들 때 여러 속성 값을 변경 하려면
 
-  - 여러 매개 변수를 포함 하 여 여러 속성 값을 수정할 수 있습니다. 예를 들어이 명령은 작업을 통해 이동성 및 통화를 모두 해제 하는 정책을 만듭니다.
+  - 여러 매개 변수를 포함하여 여러 속성 값을 수정할 수 있습니다. 예를 들면 이 명령은 모바일 및 회사번호로 전화 기능을 둘 다 사용하지 않도록 설정하는 정책을 만듭니다.
     
         New-CsMobilityPolicy "site:Redmond" -EnableMobility $False -EnableOutsideVoice $False
 
 </div>
 
-자세한 내용은 [새 CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy) 및 [CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy) Cmdlet에 대 한 도움말 항목을 참조 하세요.
+자세한 내용은 [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy) 및 [Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy) cmdlet 관련 도움말 항목을 참조하십시오.
 
 </div>
 

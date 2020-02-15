@@ -12,16 +12,16 @@ ms:contentKeyID: 48184318
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40c5c18c4e991c3b53e37e090e7f2d960a32f71c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e530f24150bac692717cefb2412712bf3bf8dd1c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732038"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037548"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41732038"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-03_
+_**마지막으로 수정 된 항목:** 2012-10-03_
 
 VDI 플러그 인을 사용 하도록 설정한 후에는 사용자가 Lync 2013에 로그인 할 때 다음 단계가 수행 됩니다.
 
-1.  사용자는 가상 컴퓨터에서 실행 되는 Lync 2013 클라이언트에 자신의 자격 증명을 입력 합니다.
+1.  사용자는 가상 컴퓨터에서 실행 되는 Lync 2013 클라이언트에 자격 증명을 입력 합니다.
 
-2.  Lync가 VDI 플러그 인의 가용성을 감지 하면 Lync에서 사용자에 게 해당 자격 증명을 다시 입력 하 라는 메시지를 표시 합니다. 이 대화 상자에서 사용자가 다음에 로그인 할 때 자격 증명을 입력할 필요가 없도록 **암호 저장** 확인란을 선택 하는 것이 좋습니다.
+2.  Lync가 VDI 플러그 인의 가용성을 감지 하면 사용자에 게 해당 자격 증명을 다시 입력 하 라는 메시지가 표시 됩니다. 이 대화 상자에서는 사용자가 이후 로그인할 때 자격 증명을 입력할 필요가 없도록 **암호 저장** 확인란을 선택하는 것이 좋습니다.
 
-3.  Lync는 VDI 플러그 인과 페어링을 시작 합니다. 페어링이 완료 되기 전에 클라이언트는 Lync 상태 표시줄에 두 개의 아이콘을 표시 합니다. 왼쪽 아래에 있는 아이콘은 사용할 수 있는 오디오 장치가 없고 오른쪽 아래에 깜박이는 아이콘은 VDI 페어링이 진행 중임을 나타냅니다.
+3.  Lync는 VDI 플러그 인과 페어링을 시작 합니다. 페어링이 완료 되기 전에 클라이언트는 Lync 상태 표시줄에 두 개의 아이콘을 표시 합니다. 아래 표시된 것처럼 왼쪽 아래에 있는 아이콘은 사용할 수 있는 오디오 장치가 없음을 나타내고, 오른쪽 아래에서 깜박이는 아이콘은 VDI 연결이 진행 중임을 나타냅니다.
     
-    ![성공적인 연결을 보여 주는 Lync VDI 아이콘](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "성공적인 연결을 보여 주는 Lync VDI 아이콘")  
+    ![성공적인 페어링을 보여 주는 Lync VDI 아이콘](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "성공적인 페어링을 보여 주는 Lync VDI 아이콘")  
 
-4.  VDI 페어링에 성공한 후에는 전화 및 VDI 페어링 성공에 사용 되는 오디오 장치를 나타내기 위해 아이콘이 변경 됩니다.
+4.  VDI 연결이 성공한 후 아이콘이 변경되어 통화에 오디오 장치가 사용됨을 나타내고 VDI 연결이 성공했음을 나타냅니다.
     
-    ![성공한 상태를 나타내는 Lync VDI 페어링 아이콘](images/JJ204948.57be3387-a3e5-4949-831e-f5ff9fcc5598(OCS.15).png "성공한 상태를 나타내는 Lync VDI 페어링 아이콘")  
+    ![성공 여부를 보여주는 Lync VDI 페어링 아이콘](images/JJ204948.57be3387-a3e5-4949-831e-f5ff9fcc5598(OCS.15).png "성공 여부를 보여주는 Lync VDI 페어링 아이콘")  
 
-5.  Lync 쌍이 VDI 플러그 인을 사용 하는 경우 사용자는 로컬 컴퓨터에 연결 된 Lync 호환 장치에서 현재 상태를 볼 수 있습니다. 이제 사용자가 평소 대로 전화를 걸고 응답할 수 있습니다.
+5.  Lync 쌍이 VDI 플러그 인을 사용 하는 경우 사용자는 로컬 컴퓨터에 연결 되어 있는 Lync 호환 장치에서 현재 상태를 볼 수 있습니다. 이제 사용자가 일반적으로 통화를 걸거나 받을 수 있습니다.
 
 </div>
 

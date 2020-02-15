@@ -12,16 +12,16 @@ ms:contentKeyID: 49733581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0680332d89bb44707d89adf06dc892e5865f576f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c714741020cd399e59b095bf8780bab4f41e69b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747018"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045800"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41747018"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-19_
+_**마지막으로 수정 된 항목:** 2012-10-19_
 
 Lync Server 2013 제어판의 **클라이언트** 섹션에서 푸시 알림을 관리할 수 있습니다.
 
@@ -43,11 +43,11 @@ Lync Server 2013 제어판의 **클라이언트** 섹션에서 푸시 알림을 
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에서 Iphone에 대 한 푸시 알림 사용 또는 사용 안 함](lync-server-2013-enabling-or-disabling-push-notifications-for-iphones.md)
+  - [Lync Server 2013에서 Iphone에 대해 푸시 알림 사용 또는 사용 안 함](lync-server-2013-enabling-or-disabling-push-notifications-for-iphones.md)
 
-  - [Lync Server 2013에서 Windows phone의 푸시 알림 사용 또는 사용 안 함](lync-server-2013-enabling-or-disabling-push-notifications-for-windows-phones.md)
+  - [Lync Server 2013에서 Windows phone에 대해 푸시 알림 사용 또는 사용 안 함](lync-server-2013-enabling-or-disabling-push-notifications-for-windows-phones.md)
 
-  - [Lync Server 2013에서 푸시 알림 설정에 대 한 정보 보기](lync-server-2013-viewing-information-about-push-notification-settings.md)
+  - [Lync Server 2013의 푸시 알림 설정에 대 한 정보 보기](lync-server-2013-viewing-information-about-push-notification-settings.md)
 
 </div>
 
@@ -56,7 +56,7 @@ Lync Server 2013 제어판의 **클라이언트** 섹션에서 푸시 알림을 
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013의 푸시 알림 구성](lync-server-2013-configuring-for-push-notifications.md)  
+[Lync Server 2013에서 푸시 알림 구성](lync-server-2013-configuring-for-push-notifications.md)  
   
 
 </div>

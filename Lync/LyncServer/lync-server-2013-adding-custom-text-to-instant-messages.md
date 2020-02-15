@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 메신저 대화에 사용자 지정 텍스트 추가'
+title: 'Lync Server 2013: 인스턴트 메시지에 사용자 지정 텍스트 추가'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b54b4724568a4f57bebc7ef6162a553cfdd9a091
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0681df9803615fee04c20e52258120bd6616e57d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738158"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038570"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-custom-text-to-instant-messages-in-lync-server-2013"></a>Lync Server 2013에서 메신저 대화에 사용자 지정 텍스트 추가
+# <a name="adding-custom-text-to-instant-messages-in-lync-server-2013"></a>Lync Server 2013의 인스턴트 메시지에 사용자 지정 텍스트 추가
 
 </div>
 
@@ -35,16 +35,16 @@ ms.locfileid: "41738158"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-20_
+_**마지막으로 수정 된 항목:** 2013-02-20_
 
-IMWarning 매개 변수를 사용 하는 **새 csclientpolicy** 또는 **Set csclientpolicy** Lync Server Management Shell cmdlet을 사용 하 여 모든 Lync 2013 인스턴트 메시징 대화의 시작 부분에 부인 또는 경고를 추가 합니다.
+IMWarning 매개 변수를 사용 하 여 **새-csclientpolicy** 또는 **Set-Csclientpolicy** lync Server Management Shell cmdlet을 사용 하 여 모든 Lync 2013 IM (인스턴트 메시징) 대화 시작 부분에 고 지 사항이 나 경고를 추가할 수 있습니다.
 
-다음 예제의 명령은 새 메신저 대화가 시작 될 때마다 대화 창 맨 위에 보안 알림을 추가 합니다.
+다음 예의 명령은 새 IM 대화가 시작 될 때마다 대화 창 위쪽에 보안 알림을 추가 합니다.
 
     New-CsClientPolicy -Identity IMSecurityNotice -IMWarning 
     "Remember, security is everyone's responsibility. Keep it confidential."
 
-**허용-CSClientPolicy** 를 사용 하 여이 새 정책을 사용자에 게 할당 합니다. 자세한 내용은 Lync Server 관리 셸 설명서에서 **새 csclientpolicy** 및 **부여-csclientpolicy** 를 참조 하세요.
+**Grant-CSClientPolicy**를 사용하여 새로운 이 정책을 사용자에게 지정합니다. 자세한 내용은 Lync Server 관리 셸 설명서에서 **New-csclientpolicy** 및 **Grant-csclientpolicy** 를 참조 하십시오.
 
 </div>
 

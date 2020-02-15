@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 주소록 관리용 새-CsClientPolicy'
+title: 'Lync Server 2013: 주소록 관리를 위한 신규-CsClientPolicy'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f68f6cfa2fde4d1e5a2bc58a36478a60060dd5e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f84ef03f782263ed9f82b1667418c907087f5d5c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765759"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051396"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013의 주소록 관리에 대 한 새 CsClientPolicy
+# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013의 주소록 관리를 위한 신규 및 CsClientPolicy
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41765759"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-이 cmdlet을 실행할 수 있는 사람: 기본적으로 다음 그룹의 구성원은 새 CsClientPolicy cmdlet: RTCUniversalServerAdmins을 실행할 권한이 있습니다. 이 cmdlet이 할당 된 모든 RBAC (역할 기반 액세스 제어) 역할 목록 (직접 만든 사용자 지정 RBAC 역할 포함)을 반환 하려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
+이 cmdlet을 실행할 수 있는 사용자: 기본적으로 RTCUniversalServerAdmins 그룹의 구성원은 New-CsClientPolicy cmdlet을 실행할 수 있습니다. 사용자가 직접 만든 사용자 지정 RBAC(역할 기반 액세스 제어) 역할을 포함하여 이 cmdlet이 할당된 모든 RBAC 역할의 목록을 반환하려면 Windows PowerShell 프롬프트에서 다음 명령을 실행합니다.
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsClientPolicy"}
 
-Cmdlet 새 CsClientPolicy는 Lync Server 2013에서 사용할 수 있는 기능에 대 한 클라이언트 프로 비전에 대 한 여러 설정을 정의 합니다. 주소록 서비스의 경우 매개 변수 AddressBookAvailability이 중요 합니다. 클라이언트가 사용할 수 있는 옵션에 직접적인 영향을 주는이 매개 변수는 세 가지 가능한 옵션을 제공 합니다.
+Cmdlet 새 CsClientPolicy는 Lync Server 2013에서 사용할 수 있는 기능에 대해 클라이언트 프로 비전을 위한 다 수의 설정을 정의 합니다. 주소록 서비스의 경우 AddressBookAvailability 매개 변수가 고려됩니다. 클라이언트에서 사용할 수 있는 옵션에 직접 영향을 주는 이 매개 변수에는 다음과 같은 세 가지 옵션이 있습니다.
 
   - WebSearchAndFileDownload
 
@@ -49,9 +49,9 @@ Cmdlet 새 CsClientPolicy는 Lync Server 2013에서 사용할 수 있는 기능�
 
   - FileDownloadOnly
 
-정의 되 면 클라이언트가 주소록에 액세스 하는 방법을 결정 합니다. 이 매개 변수를 정의 하는 경우 옵션 중 하나를 정의 해야 합니다. 이 설정을 수정 하지 않으면 기본 WebSearchAndFileDownload가 계속 적용 됩니다.
+이 매개 변수가 정의된 경우 클라이언트에서 주소록에 액세스하는 방법이 결정됩니다. 이 매개 변수를 정의할 경우 옵션 중 하나를 정의해야 합니다. 이 설정을 수정하지 않으면 기본 WebSearchAndFileDownload가 적용됩니다.
 
-예를 들면 다음과 같습니다.
+예:
 
     New-CsClientPolicy -Identity RedmondClientPolicy -DisableCalendarPresence $True -DisablePhonePresence $True -DisplayPhoto "PhotosFromADOnly" -AddressBookAvailability "WebSearchOnly"
 
@@ -60,7 +60,7 @@ Cmdlet 새 CsClientPolicy는 Lync Server 2013에서 사용할 수 있는 기능�
 ## <a name="see-also"></a>참고 항목
 
 
-[New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)  
+[신규-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)  
   
 
 </div>

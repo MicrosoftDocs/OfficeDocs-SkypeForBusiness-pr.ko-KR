@@ -12,16 +12,16 @@ ms:contentKeyID: 49733593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 751234b4f3a9a903612d8354abe26f6a2d960ead
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: baa2326a827959d7d21286152950e1025ad2f457
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739768"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038090"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41739768"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-17_
+_**마지막으로 수정 된 항목:** 2012-09-17_
 
 이 섹션의 항목에서는 Lync Server 2013의 고가용성 및 재해 복구 기능 프런트 엔드 풀에 대해 설명 합니다.
 
@@ -43,13 +43,13 @@ _**마지막으로 수정한 주제:** 2012-09-17_
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013의 프런트 엔드 풀 연결 계획](lync-server-2013-planning-for-front-end-pool-pairing.md)
+  - [Lync Server 2013의 프런트 엔드 풀 페어링 계획](lync-server-2013-planning-for-front-end-pool-pairing.md)
 
-  - [Lync Server 2013에서 풀 장애가 발생 한 사용자 환경](lync-server-2013-user-experience-during-pool-failure.md)
+  - [Lync Server 2013에서 풀 오류 시 사용자 환경](lync-server-2013-user-experience-during-pool-failure.md)
 
-  - [백 엔드 서버의 Lync Server 2013에서 높은 가용성을 제공 합니다.](lync-server-2013-back-end-server-high-availability.md)
+  - [Lync Server 2013의 백 엔드 서버 고가용성](lync-server-2013-back-end-server-high-availability.md)
 
-  - [Lync Server 2013에서 파일 공유 고가용성](lync-server-2013-file-sharing-high-availability.md)
+  - [Lync Server 2013의 파일 공유 고가용성](lync-server-2013-file-sharing-high-availability.md)
 
 </div>
 

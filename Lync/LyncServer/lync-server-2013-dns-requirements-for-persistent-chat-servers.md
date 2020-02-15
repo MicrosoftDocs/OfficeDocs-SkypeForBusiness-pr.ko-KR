@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 영구 채팅 서버의 DNS 요구 사항'
+title: 'Lync Server 2013: 영구 채팅 서버에 대 한 DNS 요구 사항'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b97d3238c64173cb5f9bfcfc12dce40f987da123
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bc401fa844c750e57c870ad64ebd919c9b673d0e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737398"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049700"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41737398"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-28_
+_**마지막으로 수정 된 항목:** 2012-06-28_
 
 이 섹션에서는 영구 채팅 서버를 배포 하는 데 필요한 DNS (Domain Name System) 레코드에 대해 설명 합니다.
 
 <div>
 
-## <a name="dns-records-for-persistent-chat-servers"></a>영구 채팅 서버용 DNS 레코드
+## <a name="dns-records-for-persistent-chat-servers"></a>영구 채팅 서버에 대한 DNS 레코드
 
 다음 표에서는 영구 채팅 서버 배포에 대 한 DNS 요구 사항을 지정 합니다.
 
-### <a name="dns-requirements-for-a-persistent-chat-server"></a>영구 채팅 서버의 DNS 요구 사항
+### <a name="dns-requirements-for-a-persistent-chat-server"></a>영구 채팅 서버에 대한 DNS 요구 사항
 
 <table>
 <colgroup>
@@ -60,16 +60,16 @@ _**마지막으로 수정한 주제:** 2012-06-28_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>영구 채팅 서버 1 개</p></td>
-<td><p>서버의 FQDN (정규화 된 도메인 이름)을 IP 주소로 확인 하는 내부 A 레코드입니다.</p></td>
+<td><p>영구 채팅 서버 한 개</p></td>
+<td><p>서버의 FQDN(정규화된 도메인 이름)을 IP 주소로 확인하는 내부 A 레코드</p></td>
 </tr>
 <tr class="even">
 <td><p>영구 채팅 풀</p></td>
-<td><p>서버의 FQDN (정규화 된 도메인 이름)을 IP 주소로 확인 하는 내부 A 레코드입니다.</p>
+<td><p>서버의 FQDN(정규화된 도메인 이름)을 IP 주소로 확인하는 내부 A 레코드</p>
 <p><strong>예</strong></p>
 <p>PersistentChatServer01.contoso.com 10.10.10.1</p>
 <p>PersistentChatServer02.contoso.com 10.10.10.2</p>
-<p>서버의 FQDN (정규화 된 도메인 이름)을 IP 주소로 확인 하는 내부 A 레코드입니다.</p>
+<p>서버의 FQDN(정규화된 도메인 이름)을 IP 주소로 확인하는 내부 A 레코드</p>
 <p><strong>예</strong></p>
 <p>PersistentChatPool.contoso.com 10.10.10.1</p>
 <p>PersistentChatPool.contoso.com 10.10.10.2</p></td>

@@ -12,16 +12,16 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 590bfae33e12cca2e2305eab9d842f0e2f105838
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bca2871acdaf67e318e7e402d78f34748de4b722
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762506"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762506"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-03-04_
+_**마지막으로 수정 된 항목:** 2013-03-04_
 
-Microsoft Lync Server 2013의 계획 도구는 디자인 중인 Lync Server 2013 토폴로지에 대해 질문을 하는 마법사 기반 인터뷰 도구입니다. 계획 도구는 제공 되는 정보를 사용 하 여 토폴로지 디자인 및 용량에 대 한 기본 방법과 결합 하 여 제공 된 답변에 따라 추천 토폴로지를 제시 합니다. Microsoft 다운로드 센터 ([http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725))에서 계획 도구를 다운로드할 수 있습니다.
+Microsoft Lync Server 2013, 계획 도구는 디자인 중인 Lync Server 2013 토폴로지에 대 한 질문을 하는 마법사 기반 인터뷰 도구입니다. 계획 도구는 제공 된 정보를 사용 하 여 토폴로지 디자인 및 용량에 대 한 기본 설정 방법과 함께 제공 되는 정보와 함께 권장 되는 답변을 기반으로 추천 토폴로지를 제공 합니다. Microsoft 다운로드 센터 ([http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725))에서 계획 도구를 다운로드할 수 있습니다.
 
-계획 도구의 목표는 궁극적으로 Lync Server 2013 토폴로지를 디자인 하는 것이 잠재적인 복잡성을 줄이기 위한 것입니다. 또한이 도구는 Microsoft TechNet 웹 사이트에 연결 하는 데 인터넷 연결을 사용할 수 있는 경우 도구 내부의 계획 및 배포 설명서에 대 한 상황별 참조를 제공 합니다.
+계획 도구의 목표는 궁극적으로 전체 Lync Server 2013 토폴로지를 디자인 하는 것이 잠재적으로 복잡 함을 줄이기 위한 것입니다. 또한 인터넷을 통해 Microsoft TechNet 웹 사이트에 연결할 수 있는 경우에 한해, 이 도구 내에서는 상황별 계획 및 배포 설명서 참조도 제공됩니다.
 
-인프라의 TCP/IP 주소와 Fqdn (정규화 된 도메인 이름)을 사용 하 여 토폴로지를 사용자 지정한 후에는 계획 도구에서 DNS (Domain Name System) 명명, 방화벽 규칙, 인증서 등을 다루는 일련의 보고서를 사용할 수 있게 됩니다.
+인프라의 TCP/IP 주소 및 Fqdn (정규화 된 도메인 이름)을 사용 하 여 토폴로지를 사용자 지정한 후에는 계획 도구에서 DNS (Domain Name System) 명명, 방화벽 규칙, 인증서 등을 포함 하는 일련의 보고서를 사용할 수 있게 됩니다.
 
-계획 도구는 다음 두 가지 형식의 정보를 내보내는 기능도 제공 합니다.
+계획 도구에서는 또한 다음과 같은 두 가지 형식의 정보를 내보낼 수 있습니다.
 
   - Microsoft Excel
 
@@ -57,13 +57,13 @@ Microsoft Lync Server 2013의 계획 도구는 디자인 중인 Lync Server 2013
 
   - [Lync Server 2013에서 계획 도구 설치](lync-server-2013-installing-the-planning-tool.md)
 
-  - [Lync Server 2013에서 선택적 소프트웨어 설치](lync-server-2013-installing-optional-software.md)
+  - [Lync Server 2013에 선택적 소프트웨어 설치](lync-server-2013-installing-optional-software.md)
 
   - [Lync Server 2013에서 계획 도구 탐색](lync-server-2013-navigating-the-planning-tool.md)
 
-  - [Lync Server 2013의 초기 토폴로지 디자인 만들기](lync-server-2013-create-the-initial-topology-design.md)
+  - [Lync Server 2013에 대 한 초기 토폴로지 디자인 만들기](lync-server-2013-create-the-initial-topology-design.md)
 
-  - [Lync Server 2013에서 관리자 보고서 검토](lync-server-2013-reviewing-the-administrator-reports.md)
+  - [Lync Server 2013의 관리자 보고서 검토](lync-server-2013-reviewing-the-administrator-reports.md)
 
 </div>
 
@@ -73,7 +73,7 @@ Microsoft Lync Server 2013의 계획 도구는 디자인 중인 Lync Server 2013
 
 
 [Lync Server 2013 배포](lync-server-2013-deploying-lync-server.md)  
-[Lync Server 2013의 프런트 엔드 서버, 메신저 및 현재 상태 계획](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)  
+[Lync Server 2013의 프런트 엔드 서버, 인스턴트 메시징 및 현재 상태 계획](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)  
   
 
 </div>

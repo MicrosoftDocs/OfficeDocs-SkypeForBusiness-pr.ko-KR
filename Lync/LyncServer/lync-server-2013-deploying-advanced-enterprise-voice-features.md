@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 고급 엔터프라이즈 음성 기능 배포'
+title: 'Lync Server 2013: 고급 Enterprise Voice 기능 배포'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5780c06fb9903075ad50631d57a738099eef15e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c29d679b047f5ccf616102c4b96c8468150fd77f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729583"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a>Lync Server 2013에서 고급 엔터프라이즈 음성 기능 배포
+# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a>Lync Server 2013에서 고급 Enterprise Voice 기능 배포
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41729583"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-22_
+_**마지막으로 수정 된 항목:** 2012-09-22_
 
-조직의 기본 Enterprise Voice 기능을 구성한 후에는이 섹션의 절차에 따라 하나 또는 그 이상의 고급 엔터프라이즈 음성 기능을 배포할 수 있습니다.
+조직에 대해 기본 Enterprise Voice 기능을 구성한 후에는 이 섹션의 절차에 따라 원하는 경우 하나 이상의 고급 Enterprise Voice 기능을 배포할 수 있습니다.
 
-고급 엔터프라이즈 음성 기능에 대 한 자세한 내용은 [Lync Server 2013 설명서 계획](lync-server-2013-planning.md) 의 다음 섹션을 참조 하세요.
+고급 Enterprise Voice 기능에 대 한 자세한 내용은 [Lync Server 2013 설명서 계획](lync-server-2013-planning.md) 의 다음 섹션을 참조 하십시오.
 
-  - [Lync Server 2013의 통화 허용 제어 서비스 계획](lync-server-2013-planning-for-call-admission-control.md)
+  - [Lync Server 2013의 통화 허용 제어 계획](lync-server-2013-planning-for-call-admission-control.md)
 
-  - [Lync Server 2013의 응급 서비스 계획(E9-1-1)](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+  - [Lync Server 2013의 응급 서비스 계획 (E9-1-1)](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
   - [Lync Server 2013의 미디어 바이패스 계획](lync-server-2013-planning-for-media-bypass.md)
 
@@ -53,15 +53,15 @@ _**마지막으로 수정한 주제:** 2012-09-22_
 
   - [Lync Server 2013의 네트워크 지역, 사이트 및 서브넷 정보](lync-server-2013-about-network-regions-sites-and-subnets.md)
 
-  - [Lync Server 2013에서 네트워크 영역 만들기 또는 수정](lync-server-2013-create-or-modify-a-network-region.md)
+  - [Lync Server 2013에서 네트워크 지역 만들기 또는 수정](lync-server-2013-create-or-modify-a-network-region.md)
 
   - [Lync Server 2013에서 네트워크 사이트 만들기 또는 수정](lync-server-2013-create-or-modify-a-network-site.md)
 
-  - [Lync Server 2013 에서 네트워크 사이트에 서브넷 연결](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [Lync Server 2013에서 서브넷을 네트워크 사이트에 연결](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
   - [Lync Server 2013에서 통화 허용 제어 구성](lync-server-2013-configure-call-admission-control.md)
 
-  - [Lync Server 2013에서 고급 9-1-1 구성](lync-server-2013-configure-enhanced-9-1-1.md)
+  - [Lync Server 2013에서 향상 된 9-1-1 구성](lync-server-2013-configure-enhanced-9-1-1.md)
 
   - [Lync Server 2013에서 미디어 바이패스 구성](lync-server-2013-configure-media-bypass.md)
 

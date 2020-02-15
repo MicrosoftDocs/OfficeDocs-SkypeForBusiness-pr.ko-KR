@@ -12,16 +12,16 @@ ms:contentKeyID: 48185170
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2035fff89437c10732c704eee47c145b45d9db96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 784e229ee16bfee0e9e828f1df7f06a98e898eb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765859"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765859"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-NetworkConnectionDetail 테이블은 환경 데이터베이스의 다른 곳에서 사용 되는 네트워크 연결 식별자에 네트워크 연결 유형을 매핑합니다. 이 표는 Microsoft Lync Server 2013에서 도입 되었습니다.
+NetworkConnectionDetail 테이블은 네트워크 연결 유형을 체감 품질 데이터베이스의 다른 위치에서 사용 되는 네트워크 연결 식별자에 매핑합니다. 이 표는 Microsoft Lync Server 2013에 도입 되었습니다.
 
 
 <table>
@@ -52,21 +52,21 @@ NetworkConnectionDetail 테이블은 환경 데이터베이스의 다른 곳에�
 <th><strong>열</strong></th>
 <th><strong>데이터 형식</strong></th>
 <th><strong>키/인덱스</strong></th>
-<th><strong>세부적인</strong></th>
+<th><strong>세부 정보</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>NetworkConnectionDetailKey</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>주요한</p></td>
-<td><p>네트워크 연결 형식의 고유 식별자입니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>네트워크 연결 유형의 고유 식별자입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NetworkConnectionDetail</strong></p></td>
 <td><p>varchar (256)</p></td>
-<td><p>독특한</p></td>
-<td><p>NetworkConnectionDetailKey에 해당 하는 네트워크 연결 형식입니다. 사용 가능한 값은 다음과 같습니다.</p>
+<td><p>고유한</p></td>
+<td><p>NetworkConnectionDetailKey에 해당 하는 네트워크 연결 유형입니다. 사용 가능한 값은 다음과 같습니다.</p>
 <ol>
 <li><p>0--유선</p></li>
 <li><p>1--WiFi</p></li>

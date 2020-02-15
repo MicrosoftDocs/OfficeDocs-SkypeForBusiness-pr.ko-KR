@@ -12,16 +12,16 @@ ms:contentKeyID: 51541516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5734296a9b3463740b28e6ead33cc64234640432
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 78d43cedaec50adac895b143a3643a6a1a1a8a48
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733108"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41733108"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-18_
+_**마지막으로 수정 된 항목:** 2013-02-18_
 
-영구 채팅방 콘텐츠는 mgc .mdf (영구 채팅 데이터베이스)에 저장 됩니다. 정기적으로 백업 해야 하는 비즈니스에 중요 한 데이터입니다. 채팅방 콘텐츠, 사용자 및 그룹과 같은 주체와 채팅방 콘텐츠를 채팅 하는 데 사용 하는 역할 및 액세스 권한 외에도 영구 채팅 데이터베이스에 저장 됩니다.
+영구 채팅방 콘텐츠는 영구 채팅 데이터베이스 (mgc .mdf)에 저장 됩니다. 정기적으로 백업 해야 하는 업무상 중요 한 데이터입니다. 대화방 콘텐츠 (예: 사용자 및 그룹)와 채팅방 및 채팅방 콘텐츠를 채팅 하는 데 사용할 수 있는 역할 및 액세스와 함께 영구 채팅 데이터베이스에도 저장 됩니다.
 
-영구 채팅 데이터를 복원 하는 방법은 백업 하는 데 사용한 방법에 따라 다릅니다.
+영구 채팅 데이터를 복원 하는 방법은 백업 하는 데 사용한 방법에 따라 달라 집니다.
 
-  - SQL Server 백업 절차를 사용 하는 경우 SQL Server restore 프로시저를 사용 해야 합니다.
+  - SQL Server 백업 절차를 사용한 경우 SQL Server 복원 절차를 사용 해야 합니다.
 
-  - **CsPersistentChatData** cmdlet을 사용 하 여 영구 채팅 데이터를 백업한 경우 **CsPersistentChatData** cmdlet을 사용 하 여 데이터를 복원 해야 합니다.
+  - **Export-cspersistentchatdata** cmdlet을 사용 하 여 영구 채팅 데이터를 백업한 경우 **export-cspersistentchatdata** cmdlet을 사용 하 여 데이터를 복원 해야 합니다.
 
 </div>
 

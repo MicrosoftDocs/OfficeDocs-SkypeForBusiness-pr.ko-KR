@@ -12,16 +12,16 @@ ms:contentKeyID: 63969654
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d4a7ae6009c7e34c49d0e49bea131b6cc03fd15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c2ced4d5d61a51ff3e25422ba9486887b72470a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756772"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047466"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41756772"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2014-08-18_
+_**마지막으로 수정 된 항목:** 2014-08-18_
 
-월간 작업은 시스템의 장기간 상태를 보장 하는 방법에 중점을 둔 것입니다.
+월별 작업은 시스템의 장기간 상태를 확인 하는 데 중점을 둔 것입니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-다음 작업은 월 단위로 수행 해야 합니다.
+다음 작업은 매달 수행 해야 합니다.
 
   - [Lync Server 2013에서 포리스트의 전역 설정 상태 보기](lync-server-2013-viewing-status-of-global-settings-for-a-forest.md)
 
-  - [Lync Server 2013의 Edge 서버 설정 보기](lync-server-2013-view-edge-server-settings.md)
+  - [Lync Server 2013의에 지 서버 설정 보기](lync-server-2013-view-edge-server-settings.md)
 
   - [Lync Server 2013 서버 인증서 확인](lync-server-2013-check-lync-server-2013-server-certificates.md)
 
   - [Lync Server 2013에서 전화 번호를 기준으로 트렁크 구성 확인](lync-server-2013-check-trunk-configuration-against-a-phone-number.md)
 
-  - [Lync Server 2013에서 음성 표준화 규칙 확인](lync-server-2013-check-voice-normalization-rules.md)
+  - [Lync Server 2013에서 음성 정규화 규칙 확인](lync-server-2013-check-voice-normalization-rules.md)
 
-  - [Lync Server 2013에서 음성 정책에 대해 전화 번호 테스트](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
+  - [Lync Server 2013의 음성 정책에 대해 전화 번호 테스트](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
 
-  - [Lync Server 2013에서 음성 경로에 대해 전화 번호 테스트](lync-server-2013-test-telephone-number-against-a-voice-route.md)
+  - [Lync Server 2013에서 음성 경로에 대 한 전화 번호 테스트](lync-server-2013-test-telephone-number-against-a-voice-route.md)
 
   - [Lync Server 2013에서 음성 구성 테스트](lync-server-2013-test-voice-configuration.md)
 
@@ -71,7 +71,7 @@ _**마지막으로 수정한 주제:** 2014-08-18_
 
   - [Lync Server 2013에서 모바일 사용자의 인스턴트 메시지 교환 기능 테스트](lync-server-2013-test-mobile-users-ability-to-exchange-instant-messages.md)
 
-  - [Lync Server 2013에서 스마트 전화로 푸시 알림 테스트](lync-server-2013-test-push-notifications-to-smart-phones.md)
+  - [Lync Server 2013에서 smart 전화로 푸시 알림 테스트](lync-server-2013-test-push-notifications-to-smart-phones.md)
 
   - [Lync Server 2013의 보안 검사](lync-server-2013-security-checks.md)
 
@@ -86,7 +86,7 @@ _**마지막으로 수정한 주제:** 2014-08-18_
 ## <a name="see-also"></a>참고 항목
 
 
-[월간 작업 검사 목록](lync-server-2013-operations-checklists.md)  
+[월별 작업 검사 목록](lync-server-2013-operations-checklists.md)  
   
 
 </div>

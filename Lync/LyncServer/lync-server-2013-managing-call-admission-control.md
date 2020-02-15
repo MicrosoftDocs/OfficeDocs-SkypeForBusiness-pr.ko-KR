@@ -12,20 +12,20 @@ ms:contentKeyID: 49733784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11cd9e2bb894f5fcb2230d08939d29852fba3fcd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ccb92b69c16f6dd45eedb584f0f63294dcbea4c0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738818"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037136"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-call-admission-control-in-lync-server-2013"></a>Lync Server 2013에서 통화 허용 제어 관리
+# <a name="managing-call-admission-control-in-lync-server-2013"></a>Lync Server 2013의 통화 허용 제어 관리
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41738818"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-CAC (호출 허용 제어)는 음성 또는 영상 통화 등의 실시간 통신 세션을 설정할 수 있는 사용 가능한 네트워크 대역폭을 기준으로 결정 됩니다. Lync Server 2013 환경에 대해 다른 CAC 기능을 관리 하려면 다음 절차를 사용 합니다.
+CAC(통화 허용 제어)는 사용 가능한 네트워크 대역폭에 따라 음성 또는 화상 통화와 같은 실시간 통신 세션을 설정하도록 허용할지 여부를 결정합니다. 다음 절차에 따라 Lync Server 2013 환경에 대해 서로 다른 CAC 기능을 관리 합니다.
 
 <div>
 

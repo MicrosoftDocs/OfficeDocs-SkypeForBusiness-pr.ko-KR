@@ -12,16 +12,16 @@ ms:contentKeyID: 48185449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f52354a153f155f57ce6466ea8082b63ef105e34
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b7431be7ceb964aead28b3c9fa76593c9dda891a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762366"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762366"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-DeviceDriver 테이블은 지원 테이블입니다. 각 레코드는 캡처 장치 또는 렌더 장치에 사용 되는 드라이버를 나타냅니다.
+DeviceDriver 테이블은 지원 테이블입니다. 각 레코드는 캡처 장치 또는 렌더링 장치에서 사용되는 드라이버를 나타냅니다.
 
 
 <table>
@@ -52,20 +52,20 @@ DeviceDriver 테이블은 지원 테이블입니다. 각 레코드는 캡처 장
 <th><strong>열</strong></th>
 <th><strong>데이터 형식</strong></th>
 <th><strong>키/인덱스</strong></th>
-<th><strong>세부적인</strong></th>
+<th><strong>세부 정보</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>DeviceDriverKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
-<td><p>이 장치 드라이버 레코드를 식별 하는 고유 번호입니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>이 장치 드라이버 레코드를 식별하는 고유 번호입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceDriver</strong></p></td>
 <td><p>varchar (256)</p></td>
-<td><p>독특한</p></td>
+<td><p>고유한</p></td>
 <td><p>장치 드라이버 이름입니다.</p></td>
 </tr>
 </tbody>

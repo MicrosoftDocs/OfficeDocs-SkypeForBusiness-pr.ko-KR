@@ -12,16 +12,16 @@ ms:contentKeyID: 51541521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8924194d89eafb75c06ff78ed3b765699e36b196
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f97ed9c5346252782b8105bf1de9f76bf3522155
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734868"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049730"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,33 +35,33 @@ ms.locfileid: "41734868"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-12-12_
+_**마지막으로 수정 된 항목:** 2012-12-12_
 
-하이브리드 배포는 Microsoft Lync Online 클라우드 서비스와 온-프레미스 배포를 모두 사용 하는 구성입니다. 이런 종류의 구성에서는 자동 검색 서비스가 사용자가 실제로 어디에 있는지 찾을 수 있어야 합니다. 즉, 자동 검색을 사용 하면 사용자 계정을 찾는 데 도움이 되며 사용자 계정을 호스트 하는 서버가 온-프레미스 배포 인지 Lync Online 배포에 있는지 여부에 관계 없이 사용 가능 합니다.
+하이브리드 배포는 Microsoft Lync Online 클라우드 서비스와 온-프레미스 배포를 모두 사용 하는 구성입니다. 이 성 유형에서 자동 검색 서비스는 사용자가 실제로 있는 위치를 찾을 수 있어야 합니다. 즉, 자동 검색 기능은 사용자 계정 및 사용자 계정을 호스트 하는 서버가 온-프레미스 배포에 있는지, 아니면 Lync Online 배포에 있든 관계 없이 검색 하는 데 도움이 됩니다.
 
-예를 들어 사용자의 계정이 Lync Online의 서버에서 호스팅되는 경우 검색 기능 이라고 하는 프로세스 *에서 다음과 같이*사용자를 찾으려고 시도 하는 것이 발생 합니다.
+예를 들어 사용자의 계정이 Lync Online의 서버에서 호스팅되는 경우 검색 기능 이라고 하는 프로세스에서 사용자를 찾기 위한 *시도가 다음과 같이 수행 됩니다.*
 
-  - 사용자가 온-프레미스 배포 ( **contoso.com**)에 대 한 연결 시도를 시작 합니다.
+  - 사용자가 **contoso.com**이라는 온 프레미스 배포와의 연결 시도를 시작합니다.
 
-  - Lyncdiscover.contoso.com에서 자동 검색 서비스와 연결 된 DNS 이름으로 시도를 보냅니다.
+  - 시도가 자동 검색 서비스와 연결된 DNS 이름인 lyncdiscover.contoso.com으로 전송됩니다.
 
-  - 자동 검색은 contoso.com 온-프레미스 배포의 가정 된 등록자 풀을 나타내며 Lync Online에서 호스팅되는 사용자의 실제 홈 서버에 대 한 정보를 제공 합니다. 다시 검색 하면 사용자가 **lync.com** Online 자동 검색 서비스에 대 한 조회를 보냅니다.
+  - 자동 검색은 contoso.com 온-프레미스 배포의 가정 된 등록자 풀을 의미 하며 Lync Online에 호스트 되는 사용자의 실제 홈 서버에 대 한 정보가 제공 됩니다. 그러면 자동 검색에서 사용자에게 **lync.com** 온라인 자동 검색 서비스 조회를 전송합니다.
 
-  - 사용자가 lync.com 온라인 자동 검색 서비스에 대 한 연결 시도를 시작 하 고 사용자의 계정 및 사용자의 홈 서버를 찾을 수 있습니다.
+  - 사용자가 lync.com 온라인 자동 검색 서비스와의 연결 시도를 시작하고 사용자의 계정과 사용자의 홈 서버를 찾을 수 있습니다.
 
-클라이언트가 사용자 홈 서버가 있는 배포를 검색할 수 있도록 하려면 새 URL (uniform resource locator)을 사용 하 여 자동 검색 서비스를 구성 해야 합니다. 자동 검색 서비스를 구성 하려면 다음을 수행 합니다.
+클라이언트에서 사용자 홈 서버가 있는 배포를 검색할 수 있도록 하려면 새 URL (uniform resource locator)을 사용 하 여 자동 검색 서비스를 구성 해야 합니다. 다음을 수행하여 자동 검색 서비스를 구성합니다.
 
 <div>
 
-## <a name="configuring-autodiscover-for-hybrid-deployments"></a>하이브리드 배포에 대 한 자동 검색 구성
+## <a name="configuring-autodiscover-for-hybrid-deployments"></a>하이브리드 배포용 자동 검색 구성
 
-1.  [Lync Server 2013에 대 한 자동 검색 서비스 요구 사항](lync-server-2013-autodiscover-service-requirements.md)항목에서 Get-CsHostingProvider를 사용 하 여 proxyfqdn 특성의 값을 검색 합니다.
+1.  [Lync Server 2013의 자동 검색 서비스 요구 사항](lync-server-2013-autodiscover-service-requirements.md)항목에서, get-help fqdn의 값을 검색 하려면 Get-CsHostingProvider를 사용 합니다.
 
 2.  Lync Server 관리 셸에서 다음을 입력 합니다.
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodisccoverservice.svc/root
     
-    \[Id\] 가 공유 SIP 주소 공간의 도메인 이름으로 대체 됩니다.
+    여기서 \[identity\] 는 공유 SIP 주소 공간의 도메인 이름으로 대체 됩니다.
 
 </div>
 

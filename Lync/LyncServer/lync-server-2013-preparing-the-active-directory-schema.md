@@ -12,16 +12,16 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 572f531b57c504bda210f8f21298076428342b62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4d98f7ba4ac0f2efe8a78ebcaacdc966ac5fdf3a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747398"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050500"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41747398"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-08-27_
+_**마지막으로 수정 된 항목:** 2012-08-27_
 
-Active Directory 도메인 서비스의 준비를 시작 하기 전에 Windows 메모장과 같은 텍스트 편집기를 사용 하 여 스키마 파일을 열거나 lync Server 2013에서 Lync server 2013에 대해 수정 될 모든 Active Directory 도메인 서비스 스키마 확장을 검토 하 [는 데 사용 되는 Active directory 스키마 확장, 클래스 및 특성을](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) 확인할 수 있습니다. Lync Server는 네 가지 스키마 파일을 사용 합니다.
+Active Directory 도메인 서비스 준비를 시작 하기 전에 Windows 메모장과 같은 텍스트 편집기를 사용 하 여 스키마 파일을 열거나 lync [server 2013에서 사용 하는 Active directory 스키마 확장, 클래스 및 특성](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) 을 확인 하 여 lync server 2013에 대해 수정 될 모든 Active Directory 도메인 서비스 스키마 확장을 검토할 수 있습니다. Lync Server에서는 다음과 같은 네 개의 스키마 파일을 사용 합니다.
 
-  - Microsoft Exchange Server와의 상호 운용성에 사용 되는 ExternalSchema .ldf
+  - Microsoft Exchange Server와의 상호 운용성을 위해 사용 되는 ExternalSchema .ldf
 
   - 기본 Lync Server 2013 스키마 파일인 ServerSchema .ldf
 
-  - 이전 릴리스의 구성 요소와 상호 운용 하는 데 사용 되는 BackCompatSchema
+  - BackCompatSchema.ldf - 이전 릴리스 구성 요소와의 상호 운용성을 위해 사용됩니다.
 
-  - 준비 된 스키마의 버전 정보에 사용 되는 VersionSchema. .ldf
+  - VersionSchema.ldf - 준비된 스키마의 버전 정보에 사용됩니다.
 
-모든 .ldf 파일은 이전 릴리스의 마이그레이션 또는 새로 설치 수행 여부에 관계 없이 스키마 준비 중에 설치 됩니다. 이러한 스키마 파일은 앞의 목록에 표시 된 순서 대로 설치 되며 설치 미디어의 \\지원\\스키마 폴더에 있습니다.
+모든 .ldf 파일은 이전 릴리스에서 마이그레이션하든, 새 설치를 수행하든 관계없이 스키마 준비 중에 설치됩니다. 이러한 스키마 파일은 앞의 목록에 표시 된 순서 대로 설치 되며 설치 미디어의 \\지원\\스키마 폴더에 있습니다.
 
-Lync Server 스키마 확장은 네트워크 트래픽에 영향을 주는 모든 도메인에 복제 됩니다. 네트워크 사용량이 낮을 때 스키마 준비를 한 번에 실행 합니다.
+Lync Server 스키마 확장은 네트워크 트래픽에 영향을 주는 모든 도메인에서 복제 됩니다. 따라서 스키마 준비는 네트워크 사용량이 적을 때 실행해야 합니다.
 
 <div>
 
 
 > [!NOTE]  
-> Microsoft® Office Communicator Mobile 2007 R2 for Java 및 Microsoft® Nokia 1.0 모바일 클라이언트의 Lync Server 2013 배포에 대 한 지원을 추가 해야 하는 경우 Microsoft Office 용 Active Directory 스키마를 준비 해야 합니다. Lync Server 2013를 설치 하는 동안 통신 서버 2007 R2. 필요한 소프트웨어와 설명서는를 참조 <A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>하세요.
+> Microsoft® Office Communicator Mobile 2007 R2 for Java 및 Microsoft® Nokia 1.0 모바일 클라이언트에 대 한 Office Communicator Mobile for a Lync Server 2013 배포에 대 한 지원을 추가 해야 하는 경우 Microsoft Office 용 Active Directory 스키마를 준비 해야 합니다. Lync Server 2013을 설치 하는 동안 Communications Server 2007 R2 필요한 소프트웨어 및 설명서는를 참조 <A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>하세요.
 
 
 
@@ -65,11 +65,11 @@ Lync Server 스키마 확장은 네트워크 트래픽에 영향을 주는 모�
 
 ## <a name="adsi-edit"></a>ADSI 편집
 
-Active Directory 서비스 인터페이스 편집기 (ADSI Edit)는 스키마 준비 및 복제를 확인 하는 데 사용할 수 있는 AD DS 관리 도구입니다.
+ADSI 편집(Active Directory 서비스 인터페이스 편집기)은 스키마 준비 및 복제를 확인하는 데 사용할 수 있는 AD DS 관리 도구입니다.
 
-ADSI Edit는 서버를 도메인 컨트롤러로 만들기 위해 AD DS 역할을 설치할 때 기본적으로 설치 됩니다. Windows Server 2008 및 Windows Server 2008 R2의 경우 ADSI Edit (adsiedit)는 원격 서버 관리 도구 (RSAT)에 포함 되어 있습니다. 도메인 구성원 서버나 독립 실행형 서버에 RSAT를 설치할 수도 있습니다. RSAT 패키지는 Windows를 설치할 때 기본적으로 이러한 서버에 복사 되지만 기본적으로 설치 되지 않습니다. 서버 관리자를 사용 하 여 개별 도구를 설치 합니다. ADSI 편집은 **역할 관리 도구**, **Active Directory 도메인 서비스 도구**, **active directory 도메인 컨트롤러 도구**에 포함 되어 있습니다.
+서버를 도메인 컨트롤러로 만들기 위해 AD DS 역할을 설치할 때 ADSI 편집이 기본적으로 설치됩니다. Windows Server 2008 및 Windows Server 2008 r 2의 경우 RSAT (원격 서버 관리 도구)에 ADSI 편집 (adsiedit)이 포함 되어 있습니다. RSAT를 도메인 구성원 서버 또는 독립 실행형 서버에 설치할 수도 있습니다. RSAT 패키지는 Windows를 설치할 때 이러한 서버에 기본적으로 복사되지만, 기본적으로 설치되지는 않습니다. 서버 관리자를 사용하여 개별 도구를 설치합니다. ADSI 편집은 **역할 관리 도구**, **Active Directory 도메인 서비스 도구** 및 **Active Directory 도메인 컨트롤러 도구**에 포함되어 있습니다.
 
-Windows Server 2003의 경우 ADSI 편집이 지원 도구에 포함 되어 있습니다. 지원 도구는 Windows Server 2003 CD의 \\지원\\도구 폴더에서 사용할 수 있거나 "Windows server 2003 서비스 팩 2 32 비트 지원 도구"에서 다운로드할 수 있습니다. [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770) 제품 CD에서 지원 도구를 설치 하는 방법에 대 한 자세한 내용은의 [http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771)"Windows 지원 도구 설치"에서 확인할 수 있습니다. 지원 도구를 설치할 때 Adsiedit가 자동으로 등록 됩니다. 그러나 파일을 컴퓨터로 복사한 경우에는 **regsvr32** 명령을 실행 하 여 adsiedit 파일을 등록 해야 도구를 실행할 수 있습니다.
+Windows Server 2003의 경우 ADSI 편집은 지원 도구에 포함되어 있습니다. 지원 도구는 Windows Server 2003 CD의 \\지원\\도구 폴더에서 제공 되거나 "Windows server 2003 서비스 팩 2 32 비트 지원 도구"에서 다운로드할 수 있습니다. [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770) 제품 CD에서 지원 도구를 설치 하는 방법에 대 한 자세한 내용은의 "Windows 지원 도구 [http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771)설치"를 참조 하십시오. Adsiedit.dll은 지원 도구를 설치할 때 자동으로 등록됩니다. 그러나 이 파일을 컴퓨터에 그냥 복사한 경우에는 도구를 실행하기 전에 **regsvr32** 명령을 실행하여 adsiedit.dll 파일을 등록해야 합니다.
 
 </div>
 
@@ -88,8 +88,8 @@ Windows Server 2003의 경우 ADSI 편집이 지원 도구에 포함 되어 있�
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013에 대한 포리스트 준비](lync-server-2013-preparing-the-forest.md)  
-[Lync Server 2013에 대한 도메인 준비](lync-server-2013-preparing-domains.md)  
+[Lync Server 2013에 대 한 포리스트 준비](lync-server-2013-preparing-the-forest.md)  
+[Lync Server 2013에 대 한 도메인 준비](lync-server-2013-preparing-domains.md)  
   
 
 </div>

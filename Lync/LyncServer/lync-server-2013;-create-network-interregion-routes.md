@@ -1,5 +1,5 @@
 ---
-title: Lync 서버 2013; 네트워크 간 영역 경로 만들기
+title: Lync Server 2013; 네트워크 통과 영역 경로 만들기
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,16 +13,16 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3909c41328e18302ef1104ac05d9a7c7987f57d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2259f47608b09ad7cff54ee0dc9b6be57502ee10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727388"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041137"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,31 +36,31 @@ ms.locfileid: "41727388"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-20_
+_**마지막으로 수정 된 항목:** 2012-10-20_
 
-*네트워크 연동 지역 경로* 는 네트워크 지역 쌍 간의 경로를 정의 합니다. 통화 허용 제어 배포의 각 네트워크 지역 쌍에는 네트워크 간 지역 경로가 필요 합니다. 이렇게 하면 배포 내의 모든 네트워크 영역이 다른 모든 지역에 액세스할 수 있습니다.
+*네트워크 지역 간 경로*는 네트워크 지역 쌍 간의 경로를 정의합니다. 통화 허용 제어 배포의 각 네트워크 지역 쌍에는 네트워크 지역 간 경로가 필요합니다. 따라서 배포 내의 모든 네트워크 지역이 다른 모든 지역에 액세스할 수 있습니다.
 
-지역 링크는 지역 간 연결에 대 한 대역폭 제한을 설정 하는 반면, 영역 경로에 따라 연결 된 영역이 한 영역에서 다른 지역으로 이동 하는 연결 경로가 결정 됩니다.
+지역 링크는 지역 간 연결에 대한 대역폭 제한을 설정하는 반면, 지역 간 경로는 연결이 지역 간에 이어지는 링크된 경로를 결정합니다.
 
-네트워크 간 영역 경로 사용에 대 한 자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하세요.
+네트워크 통과 경로를 사용 하는 방법에 대 한 자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하십시오.
 
-  - [새-Csnetworkinter국가 경로](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
+  - [새-Csnetworkinterroute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
-  - [Get-Csnetworkinter국가 경로](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)
+  - [Get-Csnetworkinterroute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)
 
-  - [Set-Csnetworkinter국가 경로](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
+  - [설정-Csnetworkinter지역 경로](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
 
-  - [제거-Csnetworkinter국가 경로](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
+  - [제거-Csnetworkinterroute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
 
-예제 토폴로지에서는 세 가지 지역 쌍 (북미/EMEA, EMEA/APAC, 북미/APAC) 각각에 대해 네트워크 간 지역 경로를 정의 해야 합니다.
+예제 토폴로지에서는 각각의 세 지역 쌍, 즉 North America/EMEA, EMEA/APAC, North America/APAC에 대해 네트워크 지역 간 경로를 정의해야 합니다.
 
 <div>
 
-## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a>Lync Server Management Shell을 사용 하 여 네트워크 간 지역 경로를 만들려면
+## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a>Lync Server 관리 셸을 사용 하 여 네트워크 간 지역 경로를 만들려면
 
-1.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-2.  **새-Csnetworkinter지역 경로** cmdlet을 실행 하 여 필요한 경로를 정의 합니다. 예를 들어 다음을 실행합니다.
+2.  **New-CsNetworkInterRegionRoute** cmdlet을 사용하여 필요한 경로를 정의합니다. 예를 들어 다음을 실행합니다.
     
        ```PowerShell
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
@@ -78,7 +78,7 @@ _**마지막으로 수정한 주제:** 2012-10-20_
     
 
     > [!NOTE]  
-    > 북미/APAC 네트워크 interregion 경로에는 두 개의 네트워크 지역 연결이 없기 때문에 둘 중 연결을 사용 해야 합니다.
+    > North America/APAC 네트워크 지역 간 경로의 경우, 지역 간에 직접 네트워크 지역 링크가 없으므로 네트워크 지역 링크가 두 개 필요합니다.
 
     
     </div>
@@ -89,34 +89,34 @@ _**마지막으로 수정한 주제:** 2012-10-20_
 
 ## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a>Lync Server 제어판을 사용 하 여 네트워크 간 지역 경로를 만들려면
 
-1.  브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+1.  브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.
 
-2.  왼쪽 탐색 모음에서 **네트워크 구성을**클릭 합니다.
+2.  왼쪽 탐색 모음에서 **네트워크 구성**을 클릭합니다.
 
-3.  **지역 경로** 탐색 단추를 클릭 합니다.
+3.  **지역 경로** 탐색 단추를 클릭합니다.
 
-4.  **새로 만들기**를 클릭 합니다.
+4.  **새로 만들기**를 클릭합니다.
 
-5.  **새 영역 경로** 페이지에서 **이름을** 클릭 한 다음 네트워크 간 영역 경로의 이름을 입력 합니다.
+5.  **새 지역 경로** 페이지에서 **이름**을 클릭하고 네트워크 지역 간 경로의 이름을 입력합니다.
 
-6.  **네트워크 지역 \#1**을 클릭 한 다음 목록에서 네트워크 지역 \#2로 경로 설정할 네트워크 지역을 클릭 합니다.
+6.  **네트워크 지역 \#1**을 클릭 하 고 목록에서 네트워크 지역 \#2로 라우팅할 네트워크 지역을 클릭 합니다.
 
-7.  **네트워크 지역 \#2**를 클릭 한 다음 목록에서 네트워크 지역 \#1로 경로 설정할 네트워크 지역을 클릭 합니다.
+7.  **네트워크 지역 \#2**를 클릭 하 고 목록에서 네트워크 지역 \#1로 라우팅할 네트워크 지역을 클릭 합니다.
 
-8.  **네트워크 지역 링크** 필드 옆에 있는 **추가** 를 클릭 한 다음 네트워크 간 영역 경로에 사용 될 네트워크 지역 링크를 추가 합니다.
+8.  **네트워크 지역 링크** 필드 옆의 **추가**를 클릭한 다음, 네트워크 지역 간 경로에 사용할 네트워크 지역 링크를 추가합니다.
     
     <div class=" ">
     
 
     > [!NOTE]  
-    > 두 개의 네트워크 지역에 대해 직접 네트워크 지역 링크가 없는 경우 경로를 만들려면 경로를 완료 하는 데 필요한 모든 링크를 추가 해야 합니다. 예를 들어 북미/APAC 네트워크 간 지역 경로 사이에는 직접 네트워크 지역 연결이 없기 때문에 두 개의 네트워크 영역 연결이 필요 합니다.
+    > 두 네트워크 지역에 대한 경로를 만드는데 해당 지역 사이에 직접 네트워크 지역 링크가 없는 경우, 경로를 완료하려면 필요한 모든 링크를 추가해야 합니다. 예를 들어 North America/APAC 네트워크 지역 간 경로의 경우, 지역 간에 직접 네트워크 지역 링크가 없으므로 네트워크 지역 링크가 두 개 필요합니다.
 
     
     </div>
 
 9.  **커밋**을 클릭합니다.
 
-10. 토폴로지에 대 한 네트워크 간 지역 경로 만들기를 완료 하려면 다른 네트워크 통과 지역 경로에 대 한 설정을 사용 하 여 4 ~ 9 단계를 반복 합니다.
+10. 토롤로지에 대해 네트워크 지역 간 경로 만들기를 완료하려면 다른 네트워크 지역 간 경로에 대한 설정을 사용하여 4-9단계를 반복합니다.
 
 </div>
 

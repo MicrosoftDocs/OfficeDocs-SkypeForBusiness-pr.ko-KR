@@ -12,16 +12,16 @@ ms:contentKeyID: 48183674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 522c7babbda63c550679dab1eb8eb03114417169
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6b82d01c96f22aabb797bdcf04820cfb944ccb7e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737178"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045310"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737178"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-28_
+_**마지막으로 수정 된 항목:** 2012-09-28_
 
-Mcus 테이블은 지원 테이블입니다. 각 레코드는 하나의 회의 서비스에 대 한 정보를 저장 합니다. 여기에는 IM 회의 서비스 및 전화 통신 회의 서비스 (프런트 엔드 서버에서 프로세스로 실행 됨)와 웹 회의 서비스 및 A/V 회의 서비스가 포함 될 수 있습니다.
+Mcus 테이블은 지원 테이블입니다. 각 레코드에는 하나의 회의 서비스에 대 한 정보가 저장 됩니다. 여기에는 IM 회의 서비스와 전화 회의 서비스 (프런트 엔드 서버에서 프로세스로 실행), 웹 회의 서비스 및 A/V 회의 서비스가 포함 될 수 있습니다.
 
 
 <table>
@@ -52,14 +52,14 @@ Mcus 테이블은 지원 테이블입니다. 각 레코드는 하나의 회의 �
 <th>열</th>
 <th>데이터 형식</th>
 <th>키/인덱스</th>
-<th>세부적인</th>
+<th>세부 정보</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>McuId</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
+<td><p>Primary</p></td>
 <td><p>이 회의 서버를 식별 하는 고유 번호입니다.</p></td>
 </tr>
 <tr class="even">
@@ -72,7 +72,7 @@ Mcus 테이블은 지원 테이블입니다. 각 레코드는 하나의 회의 �
 <td><p><strong>M가공선 Ypeid</strong></p></td>
 <td><p>inyint</p></td>
 <td><p> 외부</p></td>
-<td><p>컨퍼런스: 채팅 (Im의 경우) 또는 컨퍼런스: 오디오-비디오 등의 회의 서버 유형입니다. 자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하세요.</p></td>
+<td><p>회의 서버 유형 (예: 전화 (IMs) 또는 회의: 오디오-비디오)입니다. 자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</p></td>
 </tr>
 </tbody>
 </table>

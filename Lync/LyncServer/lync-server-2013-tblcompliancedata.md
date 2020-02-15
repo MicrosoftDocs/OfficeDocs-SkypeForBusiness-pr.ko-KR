@@ -12,16 +12,16 @@ ms:contentKeyID: 48183308
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48516f307a084d30fde06a03548119e0ada34d6a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03f5a65b11c610849c5b9d031f24d236dcbcf332
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731508"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048509"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731508"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-12_
+_**마지막으로 수정 된 항목:** 2012-09-12_
 
-tblComplianceData에는 규정 준수 어댑터에서 아직 처리 하지 않은 준수 이벤트가 포함 됩니다.
+tblComplianceData에는 준수 어댑터에서 아직 처리되지 않은 준수 이벤트가 포함됩니다.
 
-### <a name="columns"></a>열
+### <a name="columns"></a>단
 
 <table>
 <colgroup>
@@ -50,64 +50,64 @@ tblComplianceData에는 규정 준수 어댑터에서 아직 처리 하지 않�
 <thead>
 <tr class="header">
 <th>열</th>
-<th>유형</th>
+<th>형식</th>
 <th>설명</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>cmplEventID</p></td>
+<td><p>Tblcompliancedata.cmpleventid</p></td>
 <td><p>bigint, null이 아님</p></td>
 <td><p>이벤트 ID입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>entryDate</p></td>
 <td><p>smalldatetime, null이 아님</p></td>
-<td><p>삽입 시간 (이 경우에는 항목이 자리 표시자 일 수 있으므로 cmplType = 9의 미래입니다).</p></td>
+<td><p>삽입 시간(cmplType=9의 경우에는 항목이 단순히 자리 표시자이므로 오랜 시간 후일 수 있음)</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplType</p></td>
-<td><p>int, null 아님</p></td>
+<td><p>int, null이 아님</p></td>
 <td><p>준수 이벤트 유형:</p>
 <ul>
 <li><p>1: 채팅</p></li>
-<li><p>2: 백 채팅</p></li>
+<li><p>2: 백채트</p></li>
 <li><p>3: 파일 다운로드</p></li>
 <li><p>4: 파일 업로드</p></li>
-<li><p>9: Provisional 파일 전송</p></li>
-<li><p>10: 채팅 삭제 (바꾸기 사용)</p></li>
-<li><p>11: 채팅 제거</p></li>
+<li><p>9: 임시 파일 전송</p></li>
+<li><p>10: 채팅 삭제(바꾸기 포함)</p></li>
+<li><p>11: 채팅 삭제</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>cmplTime</p></td>
 <td><p>bigint, null이 아님</p></td>
-<td><p>이벤트에 대 한 타임 스탬프입니다.</p></td>
+<td><p>이벤트의 타임스탬프입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplChannelUri</p></td>
-<td><p>nvarchar (255), null 아님</p></td>
-<td><p>채널 URI (Uniform Resource Identifier)입니다.</p></td>
+<td><p>nvarchar(255), null이 아님</p></td>
+<td><p>채널 URI(Uniform Resource Identifier)입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>cmplChatID</p></td>
 <td><p>bigint</p></td>
-<td><p>채팅 ID (chatId 테이블에 해당).</p></td>
+<td><p>채팅 ID(tblChat.chatId 테이블에 해당됨)</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplUserID</p></td>
-<td><p>int, null 아님</p></td>
-<td><p>포스터의 Principal ID (tblPrincipal 테이블에 해당)</p></td>
+<td><p>int, null이 아님</p></td>
+<td><p>게시자의 사용자 ID(tblPrincipal.prinID 테이블에 해당됨)</p></td>
 </tr>
 <tr class="even">
 <td><p>cmplUserUri</p></td>
-<td><p>nvarchar (255), null 아님</p></td>
+<td><p>nvarchar(255), null이 아님</p></td>
 <td><p>사용자 URI입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplMessage</p></td>
-<td><p>nvarchar (max)</p></td>
-<td><p>메시지 (인코딩은 cmplType에 따라 다름)</p></td>
+<td><p>nvarchar(max)</p></td>
+<td><p>메시지(인코딩은 cmplType에 따라 다름)</p></td>
 </tr>
 </tbody>
 </table>
@@ -128,7 +128,7 @@ tblComplianceData에는 규정 준수 어댑터에서 아직 처리 하지 않�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>cmplEventID</p></td>
+<td><p>Tblcompliancedata.cmpleventid</p></td>
 <td><p>기본 키입니다.</p></td>
 </tr>
 </tbody>

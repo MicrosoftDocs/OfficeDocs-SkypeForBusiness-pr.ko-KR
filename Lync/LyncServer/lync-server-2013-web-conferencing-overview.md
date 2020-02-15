@@ -12,16 +12,16 @@ ms:contentKeyID: 48183949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de63cb5bf2578359d012cda72b07b8fc7f62880d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 253141be23396ccce12a52123d907b3523a30b03
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758540"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038500"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41758540"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-30_
+_**마지막으로 수정 된 항목:** 2012-09-30_
 
-웹 회의를 통해 사용자는 회의가 진행 되는 동안 PowerPoint 프레젠테이션과 같은 문서를 공유 하 고 공동 작업할 수 있습니다. 또한 사용자는 데스크톱의 전체 또는 일부를 실시간으로 서로 공유 하 여 회의의 다른 사용자가 모임에서 동일한 표를 통해 수집 된 것 처럼 보일 수 있습니다.
+웹 회의를 통해 사용자는 회의 중에 PowerPoint 프레젠테이션과 같은 문서를 공유하고 공동 작업할 수 있습니다. 또한 회의에 참가한 사용자가 모임에서 같은 테이블에 앉아 있는 것처럼 사용자가 실시간으로 자신의 데스크톱 전체 또는 일부를 공유할 수 있습니다.
 
 <div>
 
-## <a name="whiteboard-and-annotations"></a>화이트 보드 및 주석
+## <a name="whiteboard-and-annotations"></a>화이트보드 및 주석
 
-화이트 보드는 텍스트, 잉크, 그리기 및 이미지를 사용 하 여 공동 작업에 사용할 수 있는 빈 캔버스입니다. 화이트 보드에 대 한 주석이 모든 모임 참가자에 게 표시 될 수 있습니다. 화이트 보드 기능을 사용 하면 모임 참가자가 아이디어, 브레인스토밍, 메모 작성 등을 논의 하 여 공동 작업을 향상 시킬 수 있습니다.
+화이트보드는 텍스트, 잉크, 드로잉 및 이미지와 같은 도구를 활용하여 공동 작업을 수행하는 데 사용할 수 있는 빈 캔버스입니다. 화이트보드에 작성된 주석은 모든 모임 참가자에게 표시할 수 있습니다. 화이트보드 기능은 모임 참가자가 아이디어를 토론하고, 브레인스토밍을 하고, 메모를 작성할 수 있게 함으로써 공동 작업 효과를 높여줍니다.
 
 </div>
 
 <div>
 
-## <a name="polling"></a>투표
+## <a name="polling"></a>폴링
 
-폴링 기능을 사용 하면 발표자가 참가자의 기본 설정을 빠르게 결정할 수 있으므로 공동 작업이 향상 됩니다. 온라인 모임 및 대화 중 발표자는 폴링을 사용 하 여 참가자 로부터 익명 응답을 수집할 수 있습니다. 모든 발표자는 결과를 볼 수 있으며 결과를 숨기 거 나 모든 참석자에 게 표시할 수 있습니다.
+폴링 기능은 발표자가 참가자의 의견을 빠르게 확인할 수 있도록 지원하여 공동 작업 효과를 높여줍니다. 온라인 모임 및 대화 중에 발표자는 폴링을 사용해서 참가자로부터 익명의 응답을 수집할 수 있습니다. 모든 발표자가 결과를 볼 수 있으며 이를 모든 참석자에게 보여주거나 숨길 수도 있습니다.
 
 </div>
 
@@ -59,13 +59,13 @@ _**마지막으로 수정한 주제:** 2012-09-30_
 
 ## <a name="application-sharing-and-desktop-sharing"></a>응용 프로그램 공유 및 데스크톱 공유
 
-회의 중에 멀티 모니터 환경에서 전체 데스크톱, 개별 응용 프로그램 또는 개별 모니터를 공유할 수 있습니다. 회의의 다른 참가자는 콘텐츠를 보는 것 외에도 화면 제어권을 요청 하 고, 사용 권한으로 콘텐츠 (스크롤 및 편집 포함)를 조작할 수 있습니다.
+회의 중에 다중 모니터 환경에서 전체 데스크톱, 개별 응용 프로그램 또는 개별 모니터를 공유할 수 있습니다. 콘텐츠를 보는 것뿐만 아니라 회의에 참가한 다른 사용자가 화면 제어를 요청할 수도 있고, 권한 설정을 통해 콘텐츠를 상호 작용할 수도 있습니다(스크롤 및 편집 포함).
 
 <div>
 
 
 > [!NOTE]  
-> 회의가 진행 되는 동안에도 회의를 보고 있는 참가자가 콘텐츠 공유를 수행 하 고 시작할 수 있습니다.
+> 회의를 보고 있는 참가자도 차례를 넘겨 받아서 모임 중에 콘텐츠 공유를 시작할 수 있습니다.
 
 
 
@@ -77,21 +77,21 @@ _**마지막으로 수정한 주제:** 2012-09-30_
 
 ## <a name="powerpoint-sharing"></a>PowerPoint 공유
 
-Lync 2010 PowerPoint 프레젠테이션은 다음 두 가지 방법 중 하나로 표시 되었습니다. Lync 2010를 실행 하는 사용자의 경우 powerpoint 프레젠테이션을 powerpoint 97-2003 형식으로 표시 하 고 PowerPoint viewer의 포함 된 복사본을 사용 하 여 볼 수 있습니다. Lync Web App을 실행 하는 사용자의 경우 PowerPoint 프레젠테이션은 동적 HTML 파일로 변환 된 다음 사용자 지정 DHTML 파일과 Silverlight를 조합 하 여 볼 수 있습니다. 일반적으로이 방법에는 몇 가지 제한 사항이 있습니다.
+Lync 2010에서는 PowerPoint 프레젠테이션이 다음 두 가지 방법 중 하나로 표시 되었습니다. Lync 2010를 실행 하는 사용자의 경우 powerpoint 97-2003 형식을 사용 하 여 powerpoint 프레젠테이션을 표시 했으며 powerpoint viewer가 포함 된 복사본을 사용 하 여 보았습니다. Lync Web App을 실행 하는 사용자의 경우 PowerPoint 프레젠테이션은 동적 HTML 파일로 변환 된 다음 사용자 지정 DHTML 파일 및 Silverlight를 조합 하 여 표시 됩니다. 이러한 접근 방식이 대체적으로 효율적이긴 하지만 몇 가지 제한 사항도 포함되었습니다.
 
-  - 최적화 된 보기 환경을 제공 하는 포함 된 PowerPoint 뷰어는 Windows 플랫폼 에서만 사용할 수 있습니다.
+  - 최적의 보기 환경을 제공 하는 포함 된 PowerPoint Viewer는 Windows 플랫폼 에서만 사용할 수 있습니다.
 
-  - 많이 사용 하는 모바일 장치 중 일부는 Silverlight를 지원 하지 않습니다.
+  - 많이 사용 되는 휴대폰을 비롯 한 대부분의 모바일 장치에서는 Silverlight를 지원 하지 않습니다.
 
-  - PowerPoint 뷰어와 DHTML/Silverlight 접근 방법에서는 최신 버전의 PowerPoint에 있는 일부 기능 (예: 슬라이드 전환 및 포함 된 비디오)을 지원 하지 않습니다.
+  - PowerPoint Viewer 및 DHTML/Silverlight 방법은 최신 버전의 PowerPoint에서 제공 되는 일부 기능 (예: 슬라이드 전환 및 포함 된 비디오)을 지원 하지 않습니다.
 
-이러한 문제를 해결 하 고 PowerPoint 프레젠테이션을 표시 하거나 보는 사용자의 전반적인 환경을 개선 하기 위해 Lync Server 2013에서 Office Web Apps 및 Office Web Apps 서버를 사용 하 여 PowerPoint 프레젠테이션을 처리 합니다. 이 새로운 접근 방법으로 다음을 수행할 수 있습니다.
+이러한 문제를 해결 하 고 PowerPoint 프레젠테이션을 발표 하거나 보는 사용자의 전반적인 환경을 개선 하기 위해 Lync Server 2013에서는 Office Web Apps 및 Office Web Apps 서버를 활용 하 여 PowerPoint 프레젠테이션을 처리 합니다. 이 새로운 접근 방식으로 얻을 수 있는 주요 이점은 다음과 같습니다.
 
-  - 해상도가 높을수록 애니메이션, 슬라이드 전환, 포함 된 비디오 등의 PowerPoint 기능에 대 한 지원이 향상 됩니다.
+  - 고해상도 디스플레이와 PowerPoint 기능(예: 애니메이션, 슬라이드 전환 및 포함된 비디오 등)에 대해 향상된 지원.
 
-  - 이러한 프레젠테이션에 액세스 하는 추가 모바일 장치 이는 Lync Server 2013이 표준 DHTML 및 JavaScript를 사용 하 여 사용자 지정 DHTML과 Silverlight 대신 PowerPoint 프레젠테이션을 브로드캐스트하는 것입니다.
+  - 프레젠테이션에 액세스할 수 있는 모바일 장치 추가 지원. Lync Server 2013는 사용자 지정 DHTML 및 Silverlight 대신 표준 DHTML 및 JavaScript를 사용 하 여 PowerPoint 프레젠테이션을 브로드캐스트하는 것입니다.
 
-  - 적절 한 권한이 있는 사용자에 게 프레젠테이션 자체와 독립적으로 PowerPoint 프레젠테이션을 스크롤할 수 있습니다. 예를 들어: 진구 Myer에서 슬라이드 쇼를 발표 하는 동안 Pilar Ackerman은: 진구의 프레젠테이션에 영향을 주지 않고 원하는 슬라이드를 볼 수 있습니다.
+  - 프레젠테이션 자체와 별도로 PowerPoint 프레젠테이션을 스크롤할 수 있는 적합한 권한을 사용자에게 제공. 예를 들어 Ken Myer라는 사람이 슬라이드쇼를 발표하는 동안 Pilar Ackerman은 Ken의 프레젠테이션에 영향을 주지 않으면서 자신이 원하는 아무 슬라이드나 볼 수 있습니다.
 
 </div>
 

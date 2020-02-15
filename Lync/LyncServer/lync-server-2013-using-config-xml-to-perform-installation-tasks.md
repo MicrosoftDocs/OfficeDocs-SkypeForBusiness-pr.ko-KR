@@ -12,16 +12,16 @@ ms:contentKeyID: 48183332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b6e037f2c69e963e8ca5963a71dabe80f9c75fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2adadafcbb5338f47aa13d25b3dfd39386935b30
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744178"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044330"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41744178"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-OCT (Office 사용자 지정 도구)는 사용자 지정 설치에 대 한 기본 도구 이지만 관리자는 Config.xml 파일을 사용 하 여 OCT에서 사용할 수 없는 추가 설치 지침을 지정할 수 있습니다. 다음 사용자 지정은 Config.xml 파일만을 사용 하 여 만들 수 있습니다.
+사용자 지정 설치에는 기본적으로 OCT(Office 사용자 지정 도구)가 사용되기는 하지만, 관리자는 Config.xml 파일을 사용하여 OCT에서 사용할 수 없는 추가 설치 지침을 지정할 수 있습니다. Config.xml 파일을 통해서만 수행할 수 있는 사용자 지정 작업은 다음과 같습니다.
 
-  - 네트워크 설치 지점의 경로를 지정 합니다.
+  - 네트워크 설치 지점 경로 지정
 
-  - 설치할 제품을 선택 합니다.
+  - 설치할 제품 선택
 
-  - 로깅 및 설치 사용자 지정 파일 및 소프트웨어 업데이트의 위치를 구성 합니다.
+  - 설치 사용자 지정 파일 및 소프트웨어 업데이트의 위치와 로깅 구성
 
-  - 사용자 이름 등의 설치 옵션을 지정 합니다.
+  - 사용자 이름 등의 설치 옵션 지정
 
-  - Office를 설치 하지 않고 사용자의 컴퓨터에 LIS (로컬 설치 원본)를 복사 합니다.
+  - Office를 설치하지 않고 사용자 컴퓨터에 LIS(로컬 설치 원본) 복사
 
-  - 설치에서 언어를 추가 하거나 제거 합니다.
+  - 설치에서 언어 추가 또는 제거
 
-Lync 2013 자동 설치를 구성 하려면 Config.xml 파일을 사용 하는 것이 좋습니다.
+Config.xml 파일을 사용 하 여 Lync 2013 자동 설치를 구성 하는 것이 좋습니다.
 
-기본적으로 핵심 제품 폴더 (예: \\product)에 저장 된 config.xml 파일입니다. WW) 설치 프로그램이 해당 제품을 설치 하도록 지시 합니다. 예를 들어 다음 폴더의 Config.xml 파일은 Lync 2013를 설치 합니다.
+기본적으로 핵심 제품 폴더에 저장 된 Config.xml 파일 (예: \\product) WW) 설치 프로그램에 해당 제품을 설치 하도록 지시 합니다. 예를 들어 다음 폴더의 Config.xml 파일은 Lync 2013을 설치 합니다.
 
-  - \\\\서버\\공유\\Lync15\\(Lync. \\a l a)
+  - \\\\서버\\공유\\lync15.admx가\\ \\
 
-Lync 2013 설치에 가장 일반적으로 사용 되는 Config.xml 요소는 다음 표에 나열 되어 있습니다.
+Lync 2013 설치에 가장 일반적으로 사용 되는 Config.xml 요소는 다음 표에 나와 있습니다.
 
 ### <a name="configxml-elements"></a>Config.xml 요소
 
@@ -75,36 +75,36 @@ Lync 2013 설치에 가장 일반적으로 사용 되는 Config.xml 요소는 �
 <tbody>
 <tr class="odd">
 <td><p>구성</p></td>
-<td><p>최상위 수준 요소 (필수). Product 특성을 포함 합니다 (예: Product = Lync).</p></td>
+<td><p>최상위 요소(필수)입니다. Product=Lync 등의 Product 특성을 포함합니다.</p></td>
 </tr>
 <tr class="even">
-<td><p>없음 상태</p></td>
-<td><p>설치 중에 특정 제품 기능을 처리 하는 방법을 지정 합니다. 다음 특성을 사용 하 여 Outlook 2010에 방해가 되는 공유 구성 요소를 포함 하는 Business Connectivity Services의 설치를 방지 합니다.</p>
+<td><p>OptionState</p></td>
+<td><p>특정 제품 기능이 설치 중에 처리되는 방법을 지정합니다. 다음 특성을 사용 하 여 Outlook 2010을 방해 하는 공유 구성 요소를 포함 하는 Business Connectivity Services의 설치를 차단 합니다.</p>
 <ul>
-<li><p>Id =&quot;(발신자 i 주)&quot;</p></li>
+<li><p>Id =&quot;주 번호&quot;</p></li>
 <li><p>State =&quot;없음&quot;</p></li>
 <li><p>Children =&quot;Force&quot;</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>표시</p></td>
-<td><p>설치 프로그램이 사용자에 게 표시 하는 UI 수준입니다. 일반적인 특성에는 다음이 포함 됩니다.</p>
+<td><p>디스플레이</p></td>
+<td><p>설치 프로그램에서 사용자에게 표시하는 UI의 수준입니다. 일반적인 특성은 다음과 같습니다.</p>
 <ul>
-<li><p># 고 지&quot;사항&quot; | &quot;=&quot;예 아니요 (기본값)</p></li>
+<li><p>고 지 사항&quot;=&quot; | &quot;예&quot;아니요 (기본값)</p></li>
 <li><p>AcceptEula =&quot;Yes&quot; | &quot;No&quot;(기본값)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>로깅하</p></td>
-<td><p>설정이 수행 하는 로깅 종류에 대 한 옵션입니다. 일반적인 특성에는 다음이 포함 됩니다.</p>
+<td><p>기록을</p></td>
+<td><p>설치 프로그램이 수행하는 로깅 종류에 대한 옵션입니다. 일반적인 특성은 다음과 같습니다.</p>
 <ul>
-<li><p>종류 =&quot;해제&quot; | &quot;표준&quot;(기본값) | &quot;자세한 정보&quot;</p></li>
-<li><p>Template = "파일명" (로그 파일 이름)</p></li>
+<li><p>Type =&quot;Off&quot; | &quot;Standard&quot;(기본값) | &quot;자세한 정보 표시&quot;</p></li>
+<li><p>Template=”파일 이름.txt”(로그 파일의 이름)</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>설정</p></td>
-<td><p>Windows Installer 속성에 대 한 값을 지정 합니다. 일반적인 특성에는 다음이 포함 됩니다.</p>
+<td><p>Windows Installer 속성의 값을 지정합니다. 일반적인 특성은 다음과 같습니다.</p>
 <ul>
 <li><p>설정 Id =&quot;이름&quot; (Windows Installer 속성의 이름)</p></li>
 <li><p>Value =&quot;value&quot; (속성에 할당할 값)</p></li>
@@ -112,16 +112,16 @@ Lync 2013 설치에 가장 일반적으로 사용 되는 Config.xml 요소는 �
 </tr>
 <tr class="even">
 <td><p>DistributionPoint</p></td>
-<td><p>설치를 실행할 네트워크 설치 지점의 정규화 된 경로입니다. Location 특성을 포함 합니다.</p>
+<td><p>설치를 실행할 네트워크 설치 지점의 정규화된 경로입니다. Location 특성을 포함합니다.</p>
 <ul>
-<li><p>위치 = "path"</p></li>
+<li><p>Location = "path"</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-다음 예제에서는 Lync 2013의 일반적인 자동 설치에 해당 하는 Config.xml 파일을 보여 줍니다.
+다음 예제에서는 Lync 2013의 일반적인 자동 설치를 위한 Config.xml 파일을 보여 줍니다.
 
     <Configuration Product="Lync">
       <OptionState Id="LOBiMain" State="Absent" Children="Force" />
@@ -131,21 +131,21 @@ Lync 2013 설치에 가장 일반적으로 사용 되는 Config.xml 요소는 �
       <DistributionPoint Location="\\server\share\Lync15" />
     </Configuration>
 
-Config.xml 파일을 사용 하 여 Office 설치 및 유지 관리 작업을 수행 하는 방법에 대 <http://go.microsoft.com/fwlink/p/?linkid=267514>한 자세한 내용은에서 확인할 수 있습니다.
+Config.xml 파일을 사용 하 여 Office 설치 및 유지 관리 작업을 수행 하는 방법에 대 <http://go.microsoft.com/fwlink/p/?linkid=267514>한 자세한 내용은를 제공 합니다.
 
 <div>
 
-## <a name="to-customize-the-configxml-file"></a>Config.xml 파일을 사용자 지정 하려면
+## <a name="to-customize-the-configxml-file"></a>Config.xml 파일을 사용자 지정하려면
 
-1.  메모장과 같은 텍스트 편집기 도구를 사용 하 여 Config.xml 파일을 엽니다.
+1.  메모장과 같은 텍스트 편집기 도구를 사용하여 Config.xml 파일을 엽니다.
 
-2.  변경 하려는 요소가 포함 된 선을 찾습니다.
+2.  변경할 요소가 포함된 줄을 찾습니다.
 
-3.  사용할 자동 옵션으로 요소 항목을 수정 합니다. 주석 구분 기호 "\<\!--" 및 "--\>"를 제거 해야 합니다. 예를 들어 다음 구문을 사용 합니다.
+3.  요소 항목을 사용하려는 자동 옵션으로 수정합니다. 주석 구분 기호 "\<\!--" 및 "--\>"를 제거 해야 합니다. 예를 들어 다음과 같은 구문을 사용할 수 있습니다.
     
         < DistributionPoint Location="\\server\share\Lync15" />
 
-4.  Config.xml 파일을 저장 합니다.
+4.  Config.xml 파일을 저장합니다.
 
 </div>
 

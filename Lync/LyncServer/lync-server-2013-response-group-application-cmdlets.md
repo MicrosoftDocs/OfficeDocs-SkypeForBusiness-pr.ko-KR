@@ -12,16 +12,16 @@ ms:contentKeyID: 48184199
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c91b5541a0587d427d3b45e72ba156b7d1f79487
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 237e7ed5a80a89eee6c33bc20e343dbd8e181e94
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723668"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043900"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41723668"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-26_
+_**마지막으로 수정 된 항목:** 2012-06-26_
 
 응답 그룹 응용 프로그램은 수신 전화를 에이전트 그룹으로 라우팅하는 엔터프라이즈 음성 통화 관리 기능입니다.
 
@@ -48,124 +48,124 @@ _**마지막으로 수정한 주제:** 2012-06-26_
 **응답 그룹 응용 프로그램**
 
   - <span></span>  
-    [Get-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425793(v=OCS.15))
+    [Get-csrgsagentgroup](https://technet.microsoft.com/library/Gg425793(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg413065(v=OCS.15))
+    [Get-csrgsagentgroup](https://technet.microsoft.com/library/Gg413065(v=OCS.15))
 
   - <span></span>  
-    [제거-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg398969(v=OCS.15))
+    [Get-csrgsagentgroup을 제거 합니다.](https://technet.microsoft.com/library/Gg398969(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425955(v=OCS.15))
+    [Get-csrgsagentgroup](https://technet.microsoft.com/library/Gg425955(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새로운 CsRgsAnswer](https://technet.microsoft.com/en-us/library/Gg412812(v=OCS.15))
+    [New-csrgsanswer](https://technet.microsoft.com/library/Gg412812(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [가져오기-CsRgsAudioFile](https://technet.microsoft.com/en-us/library/Gg412830(v=OCS.15))
+    [Import-csrgsaudiofile](https://technet.microsoft.com/library/Gg412830(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새로운 CsRgsCallAction](https://technet.microsoft.com/en-us/library/Gg398136(v=OCS.15))
+    [New-csrgscallaction](https://technet.microsoft.com/library/Gg398136(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Export-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205011(v=OCS.15))
+    [Export-csrgsconfiguration](https://technet.microsoft.com/library/JJ205011(v=OCS.15))
 
   - <span></span>  
-    [Get-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg412762(v=OCS.15))
+    [Export-csrgsconfiguration](https://technet.microsoft.com/library/Gg412762(v=OCS.15))
 
   - <span></span>  
-    [가져오기-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205245(v=OCS.15))
+    [Export-csrgsconfiguration](https://technet.microsoft.com/library/JJ205245(v=OCS.15))
 
   - <span></span>  
-    [Move-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg398782(v=OCS.15))
+    [이동-Export-csrgsconfiguration](https://technet.microsoft.com/library/Gg398782(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg425728(v=OCS.15))
+    [Export-csrgsconfiguration](https://technet.microsoft.com/library/Gg425728(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새로운 CsRgsHoliday](https://technet.microsoft.com/en-us/library/Gg398075(v=OCS.15))
+    [New-csrgsholiday](https://technet.microsoft.com/library/Gg398075(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg412983(v=OCS.15))
+    [New-csrgsholidayset](https://technet.microsoft.com/library/Gg412983(v=OCS.15))
 
   - <span></span>  
-    [New-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398403(v=OCS.15))
+    [New-csrgsholidayset](https://technet.microsoft.com/library/Gg398403(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398521(v=OCS.15))
+    [New-csrgsholidayset을 제거 합니다.](https://technet.microsoft.com/library/Gg398521(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398736(v=OCS.15))
+    [New-csrgsholidayset](https://technet.microsoft.com/library/Gg398736(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398284(v=OCS.15))
+    [Get-csrgshoursofbusiness](https://technet.microsoft.com/library/Gg398284(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398291(v=OCS.15))
+    [Get-csrgshoursofbusiness](https://technet.microsoft.com/library/Gg398291(v=OCS.15))
 
   - <span></span>  
-    [제거-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398568(v=OCS.15))
+    [Get-csrgshoursofbusiness을 제거 합니다.](https://technet.microsoft.com/library/Gg398568(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg412929(v=OCS.15))
+    [Get-csrgshoursofbusiness](https://technet.microsoft.com/library/Gg412929(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새로운 CsRgsPrompt](https://technet.microsoft.com/en-us/library/Gg398486(v=OCS.15))
+    [New-csrgsprompt](https://technet.microsoft.com/library/Gg398486(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새로운 CsRgsQuestion](https://technet.microsoft.com/en-us/library/Gg398186(v=OCS.15))
+    [New-csrgsquestion](https://technet.microsoft.com/library/Gg398186(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412759(v=OCS.15))
+    [Get-csrgsqueue](https://technet.microsoft.com/library/Gg412759(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398989(v=OCS.15))
+    [Get-csrgsqueue](https://technet.microsoft.com/library/Gg398989(v=OCS.15))
 
   - <span></span>  
-    [제거-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398576(v=OCS.15))
+    [Get-csrgsqueue을 제거 합니다.](https://technet.microsoft.com/library/Gg398576(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412947(v=OCS.15))
+    [Get-csrgsqueue](https://technet.microsoft.com/library/Gg412947(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [새로운 CsRgsTimeRange](https://technet.microsoft.com/en-us/library/Gg399040(v=OCS.15))
+    [New-csrgstimerange](https://technet.microsoft.com/library/Gg399040(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425766(v=OCS.15))
+    [Get-csrgsworkflow](https://technet.microsoft.com/library/Gg425766(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398246(v=OCS.15))
+    [Get-csrgsworkflow](https://technet.microsoft.com/library/Gg398246(v=OCS.15))
 
   - <span></span>  
-    [제거-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398765(v=OCS.15))
+    [Get-csrgsworkflow을 제거 합니다.](https://technet.microsoft.com/library/Gg398765(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425845(v=OCS.15))
+    [Get-csrgsworkflow](https://technet.microsoft.com/library/Gg425845(v=OCS.15))
 
 </div>
 

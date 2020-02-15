@@ -12,16 +12,16 @@ ms:contentKeyID: 49733825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fd25da49e8a3b6ad7838ff27a4472e711b97421
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a7e62fbf56d270c6d2d0c65415dc28dd30e4449
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756412"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046671"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756412"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-01_
+_**마지막으로 수정 된 항목:** 2012-10-01_
 
-ClientVersions view는 다양 한 클라이언트 유형 및 데이터베이스에 기록 된 세션에 참가 한 버전에 대 한 정보를 저장 합니다. 뷰의 각 레코드는 하나의 클라이언트 버전을 나타냅니다. 이 보기는 Microsoft Lync Server 2013에서 도입 되었습니다.
+ClientVersions 보기에는 데이터베이스에 기록되는 세션에 참여한 다양한 클라이언트 유형 및 버전 정보가 저장되어 있습니다. 보기의 각 레코드는 하나의 클라이언트 버전을 나타냅니다. 이 보기는 Microsoft Lync Server 2013에 도입 되었습니다.
 
 <div>
 
@@ -60,14 +60,14 @@ ClientVersions view는 다양 한 클라이언트 유형 및 데이터베이스�
 <tr class="header">
 <th>열</th>
 <th>데이터 형식</th>
-<th>세부적인</th>
+<th>세부 정보</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>#</strong></p></td>
 <td><p>int</p></td>
-<td><p>이 클라이언트 유형 및 버전을 식별 하는 고유 번호입니다.</p></td>
+<td><p>이 클라이언트 유형 및 버전을 식별하는 고유 번호입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>버전</strong></p></td>
@@ -77,12 +77,12 @@ ClientVersions view는 다양 한 클라이언트 유형 및 데이터베이스�
 <tr class="odd">
 <td><p><strong>ClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>클라이언트의 유형입니다.</p></td>
+<td><p>클라이언트 유형입니다</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>클라이언트가 속한 범주 예를 들어 클라이언트 Conferencing_Attendant_1 .0는 ClientCategory CA에 속합니다.</p></td>
+<td><p>클라이언트가 속한 범주입니다. 예를 들어 Conferencing_Attendant_1.0 클라이언트는 ClientCategory CAA에 속합니다.</p></td>
 </tr>
 </tbody>
 </table>

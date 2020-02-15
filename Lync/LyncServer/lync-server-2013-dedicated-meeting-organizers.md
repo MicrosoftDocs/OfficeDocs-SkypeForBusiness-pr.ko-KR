@@ -12,16 +12,16 @@ ms:contentKeyID: 48183730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 429c68ad96d4738b835f549a5f355e6c133ead74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4609f588eec8d68ec163abd8a15a44f5f88a7620
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728538"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044090"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41728538"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-01_
+_**마지막으로 수정 된 항목:** 2012-10-01_
 
-대규모 모임 풀에서 실시간 통신 트래픽을 최소화 하려면 Lync 클라이언트를 사용 하 여 정기적으로 로그인 하 고 인스턴트 메시지 (IM), 현재 상태, 회의, 음성 세션에 참여 하는 사용자를 호스팅하지 않는 것이 좋습니다. 대신 다음 중 하나를 수행 하는 것이 좋습니다.
+대규모 모임 풀에서 실시간 통신 트래픽을 최소화하려면 정기적으로 Lync 클라이언트를 사용해 로그인하여 IM(인스턴트 메시징), 현재 상태, 전화 회의 및 음성 세션에 참가하는 사용자를 호스팅하지 않는 것이 좋습니다. 대신 다음 중 하나를 수행하는 것이 좋습니다.
 
-  - 대규모 모임을 예약 하기 위해 하나 이상의 전용 사용자 계정을 만들거나
+  - 대규모 모임 예약 전용으로 사용자 계정을 하나 이상 만듭니다. 또는
 
-  - 대규모 모임 풀에서 대규모 모임 일정을 관리 하는 직원의 사용자 계정을 가정 합니다.
+  - 대규모 모임 예약 담당 직원의 사용자 계정을 대규모 모임 풀에 배치합니다.
 
-두 경우 모두 모임이 예약 되는 것 외에는 대량 모임 풀에 속한 사용자 계정을 사용 하 여 Lync에 정기적으로 로그인 할 수 없습니다.
+두 경우 모두 대규모 모임 풀에 배치되는 사용자 계정은 모임 예약 이외의 작업을 수행하기 위해 Lync에 정기적으로 로그인하는 데 사용해서는 안 됩니다.
 
 </div>
 

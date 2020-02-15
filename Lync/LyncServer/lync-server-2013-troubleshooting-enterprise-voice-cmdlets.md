@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 엔터프라이즈 음성 cmdlet 문제 해결'
+title: 'Lync Server 2013: Enterprise Voice cmdlet 문제 해결'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 499da8c727237a581af55e56aec3517a7a427e44
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8ef88ac7a55480df050719fa1a85a056df8a02ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745038"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-enterprise-voice-cmdlets-in-lync-server-2013"></a>Lync Server 2013에서 엔터프라이즈 음성 cmdlet 문제 해결
+# <a name="troubleshooting-enterprise-voice-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 Enterprise Voice cmdlet 문제 해결
 
 </div>
 
@@ -35,68 +35,68 @@ ms.locfileid: "41745038"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-20_
+_**마지막으로 수정 된 항목:** 2012-06-20_
 
-Microsoft Lync Server 2013 구현의 일부로 엔터프라이즈 음성을 설정 하는 것은 수신 및 발신 통화가 예상 대로 완료 되도록 모든 사용자가 함께 작업 해야 하는 경로, 정책 및 규칙을 만드는 것과 관련이 있습니다. Lync Server 관리 셸에는 연결 및 경로를 테스트 하 고 구현 중에 발생할 수 있는 문제를 해결 하는 데 사용할 수 있는 cmdlet이 포함 되어 있습니다.
+Microsoft Lync Server 2013 구현에서 Enterprise Voice를 설정 하는 경우 수신 및 발신 전화가 예상 대로 완료 되도록 모든 작업을 수행 해야 하는 경로, 정책 및 규칙을 만드는 과정이 진행 됩니다. Lync Server 관리 셸에는 연결 및 경로를 테스트 하 고 구현 중에 발생할 수 있는 문제를 해결 하는 데 사용할 수 있는 cmdlet이 포함 되어 있습니다.
 
 <div>
 
-## <a name="troubleshooting-enterprise-voice-cmdlets"></a>엔터프라이즈 음성 Cmdlet 문제 해결
+## <a name="troubleshooting-enterprise-voice-cmdlets"></a>Enterprise Voice 문제 해결 Cmdlet
 
-다음 cmdlet을 사용 하 여 엔터프라이즈 음성 연결을 테스트 하 고 문제를 해결할 수 있습니다.
+다음 cmdlet를 사용하여 Enterprise Voice 연결을 테스트하고 문제를 해결할 수 있습니다.
 
-**엔터프라이즈 음성 Cmdlet 문제 해결**
-
-  - <span></span>  
-    [Get-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398815(v=OCS.15))
+**Enterprise Voice 문제 해결 Cmdlet**
 
   - <span></span>  
-    [제거-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398804(v=OCS.15))
+    [CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398815(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398967(v=OCS.15))
+    [CsVoiceConfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg398804(v=OCS.15))
+
+  - <span></span>  
+    [CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398967(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412957(v=OCS.15))
+    [수정한 구성은 test-csvoicetestconfiguration](https://technet.microsoft.com/library/Gg412957(v=OCS.15))
 
   - <span></span>  
-    [새로운 CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398961(v=OCS.15))
+    [수정한 구성은 test-csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398961(v=OCS.15))
 
   - <span></span>  
-    [제거-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412813(v=OCS.15))
+    [수정한 구성은 test-csvoicetestconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg412813(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398614(v=OCS.15))
+    [수정한 구성은 test-csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398614(v=OCS.15))
 
   - <span></span>  
-    [테스트-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398260(v=OCS.15))
+    [수정한 구성은 test-csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398260(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [테스트-CsDialPlan 플랜](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))
+    [테스트-CsDialPlan 플랜](https://technet.microsoft.com/library/Gg399024(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [테스트-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))
+    [Get-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [테스트-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))
+    [Set-csvoicepolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [테스트-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))
+    [Get-csvoiceroute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [테스트-CsVoiceUser](https://technet.microsoft.com/en-us/library/Gg413013(v=OCS.15))
+    [CsVoiceUser](https://technet.microsoft.com/library/Gg413013(v=OCS.15))
 
 </div>
 
@@ -105,7 +105,7 @@ Microsoft Lync Server 2013 구현의 일부로 엔터프라이즈 음성을 설�
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013의 엔터프라이즈 음성 cmdlet](lync-server-2013-enterprise-voice-cmdlets.md)  
+[Lync Server 2013의 Enterprise Voice cmdlet](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
 [Lync Server PowerShell 블로그](http://go.microsoft.com/fwlink/p/?linkid=203150)  

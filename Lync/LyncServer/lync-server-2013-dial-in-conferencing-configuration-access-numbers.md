@@ -12,16 +12,16 @@ ms:contentKeyID: 49733858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e30bc351494185203808a9e8b0c6d7138ebf00d7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 997d343d535c54a493125978a73c0a53d0a4ca44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762316"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762316"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-18_
+_**마지막으로 수정 된 항목:** 2012-09-18_
 
-이 섹션의 항목에서는 Lync Server 2013 제어판을 사용 하 여 Lync Server 2013 환경 사용을 위한 전화 접속 회의를 구성 하는 방법에 대해 설명 합니다.
+이 섹션의 항목에서는 Lync server 2013 제어판을 사용 하 여 Lync Server 2013 환경을 사용 하도록 전화 접속 회의를 구성 하는 방법을 설명 합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에서 모임에 대 한 전화 접속 회의 사용 또는 사용 안 함](lync-server-2013-enable-or-disable-dial-in-conferencing-for-meetings.md)
+  - [Lync Server 2013에서 모임에 대 한 전화 접속 회의를 사용 하거나 사용 하지 않도록 설정](lync-server-2013-enable-or-disable-dial-in-conferencing-for-meetings.md)
 
   - [Lync Server 2013의 전화 접속 회의 액세스 번호](lync-server-2013-dial-in-conferencing-access-numbers.md)
 

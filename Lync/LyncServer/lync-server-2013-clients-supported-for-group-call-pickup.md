@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 그룹 통화 픽업 용으로 지원 되는 클라이언트'
+title: 'Lync Server 2013: 그룹 통화 픽업 서버에서 지원 되는 클라이언트'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b924741e6dc733f167368f88faa24e6d56b362e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 723877737bd358ab4b364191c4e799bcc73eddc8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756452"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013에서 그룹 통화 픽업으로 지원 되는 클라이언트
+# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013의 그룹 통화 픽업에 대해 지원 되는 클라이언트
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756452"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-12_
+_**마지막으로 수정 된 항목:** 2013-02-12_
 
-그룹 통화 픽업 회원에 게 전화를 받기 위해 다음 클라이언트를 사용할 수 있습니다.
+다음 클라이언트 중 하나를 사용 하 여 그룹 통화 픽업 구성원에 대 한 통화에 응답할 수 있습니다.
 
   - Lync 2013
 
@@ -49,13 +49,13 @@ _**마지막으로 수정한 주제:** 2013-02-12_
 
 
 > [!NOTE]  
-> 사용자는 이러한 클라이언트 중 하나를 사용 하 여 그룹 통화 픽업 회원에 게 전화를 걸 수 있지만, lync server 2013의 누적 업데이트를 사용 하 여 사용자를 연결 해야 합니다 (2013 예: 2 월 2013).
+> 사용자는 이러한 클라이언트 중 하나를 사용 하 여 그룹 통화 픽업 구성원에 게 전화를 걸 수 있지만 사용자는 lync server 2013 풀 (Lync Server 2013에 대 한 누적 업데이트 포함)에 속해 있어야 합니다 2013.
 
 
 
 </div>
 
-Lync Server 2013:2013 년 2 월에 다음 클라이언트 및 장치는 그룹 통화 픽업 구성원에 대 한 통화를 선택 하는 데 지원 되지 않습니다.
+Lync Server에 대 한 누적 업데이트 2013:2 월 2013 일, 다음 클라이언트 및 장치는 그룹 통화 픽업 구성원에 대 한 호출을 선택할 때 지원 되지 않습니다.
 
   - Lync 모바일
 
@@ -65,7 +65,7 @@ Lync Server 2013:2013 년 2 월에 다음 클라이언트 및 장치는 그룹 �
 
   - 아날로그 전화
 
-  - PSTN (공개 전화 통신망) 번호가 있는 전화
+  - 공중 전화망 (PSTN) 번호가 있는 전화
 
 </div>
 

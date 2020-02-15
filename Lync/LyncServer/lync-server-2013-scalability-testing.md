@@ -12,16 +12,16 @@ ms:contentKeyID: 48185289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d702b0a197e6e81fbc6833ca58968a10d8dd3fff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b23bd731e123c8dba78c3919f9f2a1ff1a6fd1cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732778"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049890"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41732778"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-01_
+_**마지막으로 수정 된 항목:** 2012-10-01_
 
-Lync Server 2013는 IM (인스턴트 메시징) 및 현재 상태, 회의, 엔터프라이즈 음성을 비롯 한 모든 Lync Server 실시간 통신에 대 한 서버 인프라를 제공 합니다. 여기에는 Lync Server 2013 풀의 하드웨어 리소스를 사용 하는 모든 기능이 포함 되어 있으므로 성능 및 배율에 영향을 줍니다. 모든 조직은 모든 기능을 동등 하 게 사용 하지 않습니다.
+Lync Server 2013에서는 IM (인스턴트 메시징) 및 현재 상태, 회의 및 Enterprise Voice를 비롯 한 모든 Lync Server 실시간 통신에 대 한 서버 인프라를 제공 합니다. 여기에는 Lync Server 2013 풀의 하드웨어 리소스를 사용 하는 모든 기능이 포함 되며, 따라서 성능 및 확장에 영향을 줍니다. 조직에 따라 기능을 사용하는 방식이 다릅니다.
 
-예를 들어 일부 조직의 경우 매우 많은 양의 회의에서 비디오를 사용할 수 있으며, 다른 사용자는 영상 사용이 거의 없거나 전혀 없을 수 있습니다. 일부 조직에서는 PowerPoint 슬라이드를 응용 프로그램 공유에 공유 하 고 다른 사용자는 반대쪽을 선호 합니다. 엔터프라이즈 음성을 배포 하는 조직에서는 응답 그룹 응용 프로그램을 크게 사용 하지 않을 수 있습니다. 대부분의 조직에서는 모니터링 서버를 배포 하지만 대부분의 조직은 보관 서버를 배포 합니다. 또한 조직에는 하드웨어 용량, 네트워크 용량, 배포 된 풀의 수 및 크기를 비롯 하 여 모두 동일한 인프라가 없습니다. 다양 한 기능과 인프라를 통해 확장성 테스트를 할 수 있으며, 모든 기능을 사용할 수 있는 기능과 인프라의 모든 조합을 시뮬레이트하는 것은 불가능 합니다.
+예를 들어 일부 조직에서는 너무 많이 전화 회의에서 비디오를 사용할 수도 있고, 일부 경우에는 비디오 사용이 거의 없거나 전혀 없을 수도 있습니다. 일부 조직은 PowerPoint 슬라이드 공유에 응용 프로그램 공유를 선호 하지만 그 반대를 선호 합니다. Enterprise Voice를 배포 하는 조직은 응답 그룹 응용 프로그램을 크게 사용 하지 않을 수도 있습니다. 대부분의 조직은 모니터링 서버를 배포 하지만 대부분의 조직에서는 보관 서버를 배포 하지 않습니다. 또한 조직에는 하드웨어 용량, 네트워크 용량, 배포 된 풀 수 및 크기와 같은 인프라가 모두 포함 되지 않습니다. 기능 및 인프라의 다양성은 확장성 테스트를 위한 과제 이며, 모든 가능한 기능 및 인프라 조합을 시뮬레이션할 수는 없습니다.
 
-Lync Server에 대 한 확장성 지원을 확인 하려면 평균 사용 모델 (사용자 모델)에 따라 모든 Lync Server 기능을 동시에 사용 하 여 테스트를 수행 합니다. Lync Server 작업에 적합 한 사용자 모델을 결정 하기 위해 고객의 설문 조사, Microsoft 사용자 환경 개선 프로그램의 피드백, Microsoft의 내부 IT 부서에서 제공 하는 Lync Server 사용 데이터 등 다양 한 데이터 요소를 분석 합니다. Live Meeting 서비스에서 찾은 데이터 대부분의 경우 사용자 모델에는 더 무거운 부하를 보정 하 여 조직 내에서 사용 하기에 적합 한 여백을 제공 합니다.
+Lync Server에 대 한 확장성 지원을 확인 하기 위해 평균 사용 모델 (사용자 모델)을 기반으로 모든 Lync Server 기능을 동시에 사용 하 여 테스트를 수행 합니다. Lync Server 작업에 적합 한 사용자 모델을 결정 하기 위해 Microsoft는 고객 환경 개선 프로그램의 피드백, Microsoft의 내부 IT 부서에서 제공 하는 Lync Server usage data 등의 다양 한 데이터 요소를 분석 합니다. Live Meeting 서비스에서 찾은 데이터 대부분의 경우 사용자 모델은 조직에 넉넉한 사용 여유를 제공하도록 보다 큰 부하를 위주로 사용하고 있습니다.
 
-이 확장성 테스트에서는 Active Directory 도메인 서비스, 하드웨어 부하 분산 장치, 방화벽 등의 인프라 구성 요소를 포함 하 여 권장 하드웨어 및 소프트웨어 사양에 따라 Lync Server 2013 풀을 설정 합니다. Lync 서버 환경을 일반적인 실제 환경과 최대한 유사 하 게 설정 합니다. 그런 다음 Lync Server 2013 스트레스 및 성능 도구를 사용 하 여 Lync Server 2013 부하를 시뮬레이트합니다 (사용자 모델에 기반). .
+이 확장성 테스트에서는 Active Directory 도메인 서비스, 하드웨어 부하 분산 장치 및 방화벽과 같은 인프라 구성 요소를 비롯 하 여 권장 되는 하드웨어 및 소프트웨어 사양에 따라 Lync Server 2013 풀을 설정 합니다. 일반적인 실제 환경에 최대한 근접 하 게 Lync Server 환경을 설정 합니다. 그런 다음 Lync Server 2013 스트레스 및 성능 도구를 사용 하 여 Lync Server 2013 부하를 시뮬레이트할 수 있습니다 (사용자 모델에 따라). .
 
-여러 3 주 테스트 실행을 비롯 한 확장성 테스트의 여러 번 반복을 수행 합니다. 성능 조정을 위해 모든 테스트의 결과를 사용 하 고 사용자 모델의 확장성 번호에 대 한 지원을 확인 하는 데 도움이 됩니다.
+Microsoft에서는 3주에 걸친 여러 차례의 테스트 실행을 포함하여 확장성 테스트를 여러 번 반복하며, 모든 테스트 결과를 사용하여 성능 조정을 개선하고 사용자 모델의 확장성 수치가 지원되는지 확인합니다.
 
 </div>
 

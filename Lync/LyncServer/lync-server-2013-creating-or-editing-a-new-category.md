@@ -12,16 +12,16 @@ ms:contentKeyID: 48706005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88ca98ade04110aa2c6543e7f368d0fcd9b3e627
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fec264c0abf8b0482e451b47a0c419ffc206253d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722371"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046401"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41722371"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-06_
+_**마지막으로 수정 된 항목:** 2012-10-06_
 
-새 범주를 만들려면 배포 설명서의 [Lync Server 2013에서 범주 구성을](lync-server-2013-configure-categories.md) 참조 하세요. 영구 채팅 관리자는 Lync Server 제어판 또는 Windows PowerShell cmdlet을 사용 하 여 범주를 만들 수 있습니다.
+새 범주를 만들려면 배포 설명서에서 [Lync Server 2013의 범주 구성을](lync-server-2013-configure-categories.md) 참조 하십시오. 영구 채팅 관리자는 Lync Server 제어판 또는 Windows PowerShell cmdlet을 사용 하 여 범주를 만들 수 있습니다.
 
 </div>
 

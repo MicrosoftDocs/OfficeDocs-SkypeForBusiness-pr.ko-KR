@@ -12,16 +12,16 @@ ms:contentKeyID: 48185334
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84906a5d68893e89c3ad48d739754f89bf38cbf3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8f694b2c6065e4800dadf2fb5389429748ab4078
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41761964"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41761964"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-03-21_
+_**마지막으로 수정 된 항목:** 2012-03-21_
 
-미디어 바이패스는 신호 조정 서버를 통과 하는 호출에 대해 가능 하면 미디어 경로에서 중재 서버를 제거 하는 것을 의미 합니다.
+미디어 바이패스는 신호가 중재 서버를 트래버스하는 통화에 대해 가능할 때마다 미디어 경로에서 중재 서버를 제거하는 것을 가리킵니다.
 
 <div>
 
 ## <a name="media-bypass-cmdlets"></a>미디어 바이패스 Cmdlet
 
-다음 cmdlet을 사용 하 여 미디어 바이패스를 구성 합니다.
+다음 cmdlet를 사용하여 미디어 바이패스를 구성할 수 있습니다.
 
 **미디어 바이패스**
 
   - <span></span>  
-    [새-Csnetworkmediabyp을 구성 합니다.](https://technet.microsoft.com/en-us/library/Gg425718(v=OCS.15))
+    [새-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/library/Gg425718(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))
+    [Get-csnetworkconfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))
 
   - <span></span>  
-    [제거-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))
+    [Get-csnetworkconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg398938(v=OCS.15))
 
   - <span></span>  
-    [Set-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))
+    [Get-csnetworkconfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))
 
 </div>
 

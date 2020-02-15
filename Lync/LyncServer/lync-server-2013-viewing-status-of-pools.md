@@ -12,20 +12,20 @@ ms:contentKeyID: 63969579
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb2be0880e0ea819e66d552e8b178c81bff101a3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1af7503571a3a715dafc852485b8b55b64ba22f8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757222"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041955"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-status-of-pools-in-lync-server-2013"></a>Lync Server 2013에서 풀 상태 보기
+# <a name="viewing-status-of-pools-in-lync-server-2013"></a>Lync Server 2013에서 풀의 상태 보기
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757222"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2014-05-01_
+_**마지막으로 수정 된 항목:** 2014-05-01_
 
-각 엔터프라이즈 풀 및 각 Standard Edition Server 풀에 대해 Lync Server 2013 제어판을 통해 풀에 사용 되는 다른 구성 요소의 상태 및 풀 상태에 대 한 정보를 볼 수 있습니다. 관리자가 환경 내에서 풀의 상태를 볼 수 있도록 Lync Server 제어판을 사용 하 여 System Center Operations Manager 2012을 구현 하는 것이 좋습니다.
+각 Enterprise 풀 및 각 Standard Edition Server 풀에 대해 Lync Server 2013 제어판을 통해 풀에 사용 되는 다른 구성 요소의 상태 및 풀 상태에 대 한 정보를 볼 수 있습니다. 관리자가 환경 내의 풀 상태를 보는 데 도움을 주기 위해 Lync Server 제어판을 사용 하 여 System Center Operations Manager 2012을 구현 하는 것이 좋습니다.
 
 <div>
 
@@ -45,7 +45,7 @@ _**마지막으로 수정한 주제:** 2014-05-01_
 
 1.  Lync Server 제어판을 사용 하 여 Lync Server 제어판을 엽니다.
 
-2.  토폴로지를 클릭 하 고 토폴로지에서 모든 서버의 상태를 확인 합니다.
+2.  토폴로지를 클릭 하 고 토폴로지의 모든 서버 상태를 확인 합니다.
 
 </div>
 

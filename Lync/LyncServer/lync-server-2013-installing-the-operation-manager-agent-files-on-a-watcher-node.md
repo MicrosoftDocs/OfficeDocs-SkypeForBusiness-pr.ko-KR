@@ -12,20 +12,20 @@ ms:contentKeyID: 48183901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d50bbcb6397888308424e5140913680ab89995e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4a6ab24a655a96c00f019e6a0d4239d33424d7a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725968"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046771"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-operation-manager-agent-files-on-a-watcher-node-in-lync-server-2013"></a>Lync Server 2013의 감시자 노드에 작업 관리자 에이전트 파일 설치
+# <a name="installing-the-operation-manager-agent-files-on-a-watcher-node-in-lync-server-2013"></a>Lync Server 2013의 감시자 노드에 Operation Manager 에이전트 파일 설치
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41725968"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-20_
+_**마지막으로 수정 된 항목:** 2012-10-20_
 
-Lync server에서 구성 요소 알림을 보고 하도록 설정 하는 것과 마찬가지로, Lync Server 2013 감시자 노드에는 System Center Operations Manager 에이전트 파일이 설치 되어 있어야 합니다. 이렇게 하면 가상 트랜잭션을 실행할 수 있고 경고가 System Center Operations Manager 루트 관리 서버에 보고 됩니다.
+Lync server가 구성 요소 알림을 보고 하도록 설정 하는 것과 마찬가지로 Lync Server 2013 감시자 노드를 설치 하려면 System Center Operations Manager 에이전트 파일이 있어야 합니다. 그러면 가상 트랜잭션을 실행할 수 있으며 System Center Operations Manager 루트 관리 서버에 대해 알림을 보고할 수 있습니다.
 
-에이전트 파일을 설치 하려면 다음 섹션에 나열 된 절차를 따릅니다.
+에이전트 파일을 설치하려면 다음 섹션에 나와 있는 절차를 따르십시오.
 
 1.  [Lync Server 2013의 경계 네트워크 외부에 있는 감시자 노드에 인증서 설치](lync-server-2013-installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network.md)
 
-2.  [Lync Server 2013에서 Operation Manager 에이전트 파일을 설치 하는 중](lync-server-2013-installing-the-operation-manager-agent-files.md)
+2.  [Lync Server 2013에서 Operation Manager 에이전트 파일 설치](lync-server-2013-installing-the-operation-manager-agent-files.md)
 
-3.  [시스템 센터 검색에 참가 하도록 Lync Server 2013 컴퓨터 구성](lync-server-2013-configuring-the-lync-server-computer-to-participate-in-system-center-discovery.md)
+3.  [System Center discovery에 참여 하도록 Lync Server 2013 컴퓨터 구성](lync-server-2013-configuring-the-lync-server-computer-to-participate-in-system-center-discovery.md)
 
 </div>
 

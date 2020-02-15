@@ -12,16 +12,16 @@ ms:contentKeyID: 49733637
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa234a4420c1bec54cd673eb59d254e07deab8f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9b5a3176067d7ec9927165bd13b6b1a34dfb00d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766059"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41766059"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-Lync Server 2013에서 회의 정책은 사용자 예약 및 참여 경험을 정의 하 고 모임 구성 페이지에 있는 모임 참가 설정은 다음을 정의 합니다.
+Lync Server 2013에서 회의 정책은 사용자 일정 및 참여 환경을 정의 하 고, 모임 구성 페이지에 있는 모임 참가 설정은 다음을 정의 합니다.
 
-  - 사용자가 공공 전화망 (PSTN)에서 전화 접속을 할 수 있는지 여부 대기실로 이동 합니다.
+  - 공중 전화망(PSTN)에서 전화 접속하는 사용자가 대기실로 이동하는지 여부
 
-  - 발표자가 될 수 있는 사람
+  - 발표자로 지정될 수 있는 사용자
 
-  - 회의 종류가 기본적으로 할당 되는지 여부
+  - 회의 유형이 기본적으로 지정되는지 여부
 
-  - 익명 (인증 되지 않은) 사용자가 기본적으로 허가 되었는지 여부
+  - 인증되지 않은 익명 사용자가 기본적으로 허용되는지 여부
 
-이 섹션의 항목에서는 모임 참가 설정을 구성 하는 방법에 대해 설명 합니다.
+이 섹션의 항목에서는 모임 참가 설정을 구성하는 방법을 설명합니다.
 
 <div>
 
@@ -57,7 +57,7 @@ Lync Server 2013에서 회의 정책은 사용자 예약 및 참여 경험을 �
 
   - [Lync Server 2013에서 모임 구성 설정 모음 만들기 또는 수정](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
 
-  - [Lync Server 2013에서 모임 구성 설정의 기존 모음 삭제](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
+  - [Lync Server 2013에서 기존 모임 구성 설정 모음 삭제](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
 
 </div>
 

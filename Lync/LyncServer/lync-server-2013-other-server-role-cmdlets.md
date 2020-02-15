@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 다른 서버 역할 cmdlet'
+title: 'Lync Server 2013: 기타 서버 역할 cmdlet'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa633bb9a1d5abcf34feb027b3fd364c5ad6b4cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 43a4c63851e45ea1763650d8e908427672bd7fbf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755652"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047342"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="other-server-role-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 다른 서버 역할 cmdlet
+# <a name="other-server-role-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 기타 서버 역할 cmdlet
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41755652"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-03-21_
+_**마지막으로 수정 된 항목:** 2012-03-21_
 
-이러한 cmdlet은 Edge 서버 또는 주소록 서버와 같은 서버 역할 범주에 맞지 않는 "일회용" 서버 역할 (예: 회의 서버)을 관리 하는 방법을 제공 합니다.
+이러한 cmdlet는 에지 서버나 주소록 서버와 같은 서버 역할 범주에 맞지 않는 "일회용" 서버 역할(예: 회의 서버)을 관리할 수 있는 방법을 제공합니다.
 
 <div>
 
 ## <a name="other-server-role-and-cmdlets"></a>기타 서버 역할 및 Cmdlet
 
-다음은 다른 서버 역할 및 서비스 관리와 직접 관련 된 cmdlet의 목록입니다.
+다음은 기타 서버 역할 및 서비스 관리에 직접적으로 관련된 cmdlet 목록입니다.
 
 **기타 서버 역할**
 
   - <span></span>  
-    [Set-CsConferenceServer](https://technet.microsoft.com/en-us/library/Gg398738(v=OCS.15))
+    [Set-csconferenceserver](https://technet.microsoft.com/library/Gg398738(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsUserServer](https://technet.microsoft.com/en-us/library/Gg413026(v=OCS.15))
+    [설정-CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))
 
 </div>
 

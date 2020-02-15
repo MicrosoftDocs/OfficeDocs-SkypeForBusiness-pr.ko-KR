@@ -12,16 +12,16 @@ ms:contentKeyID: 49733546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d327da37188625fd44e01dc6146c5d6341f60fbc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e10f172ec6b1d96a94d74a7654ceb908687ad264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766009"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051260"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41766009"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
 이 섹션의 절차를 사용 하 여 개별 사용자 계정 속성을 수정할 수 있습니다.
 
@@ -45,7 +45,7 @@ _**마지막으로 수정한 주제:** 2012-11-01_
 
   - [Lync Server 2013에서 사용자에 대 한 전화 통신 구성](lync-server-2013-configure-telephony-for-a-user.md)
 
-  - [Lync Server 2013에서 다른 풀로 사용자 이동](lync-server-2013-move-users-to-another-pool.md)
+  - [Lync Server 2013의 다른 풀로 사용자 이동](lync-server-2013-move-users-to-another-pool.md)
 
 </div>
 
@@ -54,8 +54,8 @@ _**마지막으로 수정한 주제:** 2012-11-01_
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013에 대해 사용 하도록 설정 된 사용자 계정](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
-[Lync Server 2013에서 사용자별 정책 지정](lync-server-2013-assigning-per-user-policies.md)  
+[Lync Server 2013에 사용할 수 있는 사용자 계정](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
+[Lync Server 2013에서 사용자별 정책 할당](lync-server-2013-assigning-per-user-policies.md)  
   
 
 </div>

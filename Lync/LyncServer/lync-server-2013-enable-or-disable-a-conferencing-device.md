@@ -12,20 +12,20 @@ ms:contentKeyID: 51803981
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a4a0f582f57d4e096001d508d3983facdded74c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3eb79f77bd6e99d36b1a6c9c9feb67f697e40f1d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736228"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042585"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-a-conferencing-device-in-lync-server-2013"></a>Lync Server 2013에서 회의 장치 사용 또는 사용 안 함
+# <a name="enable-or-disable-a-conferencing-device-in-lync-server-2013"></a>Lync Server 2013에서 회의 디바이스 사용 또는 사용 안 함
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41736228"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-20_
+_**마지막으로 수정 된 항목:** 2013-02-20_
 
-**CsMeetingRoom** Cmdlet 및 **disable-CsMeetingRoom** cmdlet을 사용 하 여 회의 장치를 사용 하거나 사용 하지 않도록 설정 합니다. 이러한 cmdlet은 Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.
+**Enable-csmeetingroom** Cmdlet 및 **enable-csmeetingroom** cmdlet을 사용 하 여 회의 장치를 사용 하도록 설정 하 고 사용 하지 않도록 설정 합니다. 이러한 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.
 
 <div>
 
@@ -56,7 +56,7 @@ _**마지막으로 수정한 주제:** 2013-02-20_
 
 ## <a name="enabling-a-conferencing-device"></a>회의 장치 사용
 
-  - 회의 장치를 사용 하도록 설정 하려면 **enable-CsMeetingRoom** cmdlet을 사용 합니다. 회의 장치를 사용 하도록 설정 하는 경우, 회의 장치 id 인 b), 룸 계정이 위치할 레지스트라 풀, 그리고 해당 계정에 할당할 SIP 주소를 포함 해야 합니다.
+  - 회의 장치를 사용 하도록 설정 하려면 **enable-csmeetingroom** cmdlet을 사용 합니다. 회의 장치를 사용 하도록 설정 하는 경우에는 회의 장치 id, b) 채팅방 계정을 배치할 등록자 풀 및 c) 해당 계정에 할당할 SIP 주소를 포함 해야 합니다.
     
         Enable-CsMeetingRoom -Identity "Redmond Conferencing device" -RegistrarPool "atl-cs-001.litwareinc.com" -SipAddress "sip:RedmondMeetingRoom@litwareinc.com"
 
@@ -64,15 +64,15 @@ _**마지막으로 수정한 주제:** 2013-02-20_
 
 <div>
 
-## <a name="disabling-a-conferencing-device"></a>회의 장치 비활성화
+## <a name="disabling-a-conferencing-device"></a>회의 장치 사용 안 함
 
-  - 회의 장치를 사용 하지 않도록 설정 하려면 **CsMeetingRoom** cmdlet을 사용 합니다. 사용할 회의 장치의 id를 지정 했는지 확인 합니다.
+  - 회의 장치를 사용 하지 않도록 설정 하려면 **enable-csmeetingroom** cmdlet을 사용 합니다. 사용 하지 않도록 설정할 회의 장치의 id를 지정 했는지 확인 합니다.
     
         Disable-CsMeetingRoom -Identity "sip:RedmondMeetingRoom@litwareinc.com"
 
 </div>
 
-자세한 내용은 [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) Cmdlet 및 [Disable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) Cmdlet에 대 한 도움말 항목을 참조 하세요.
+자세한 내용은 [enable-csmeetingroom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) Cmdlet 및 [enable-csmeetingroom](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) Cmdlet에 대 한 도움말 항목을 참조 하십시오.
 
 </div>
 

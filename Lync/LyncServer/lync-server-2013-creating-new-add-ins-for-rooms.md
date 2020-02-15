@@ -12,20 +12,20 @@ ms:contentKeyID: 48706001
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e69f7061abb735e751a5d5df3a1b926a7a7003dd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6bd76602da91dfc41458d1f8fd76356cb11e6e7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729718"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="creating-new-add-ins-for-rooms-in-lync-server-2013"></a>Lync Server 2013에서 채팅방을 위한 새 추가 기능 만들기
+# <a name="creating-new-add-ins-for-rooms-in-lync-server-2013"></a>Lync Server 2013에서 대화방을 위한 새 추가 기능 만들기
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41729718"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-06_
+_**마지막으로 수정 된 항목:** 2012-10-06_
 
-영구 채팅방 용 추가 기능을 만들려면 배포 설명서의 [Lync Server 2013에서 채팅방에 대 한 추가 기능 구성을](lync-server-2013-configure-add-ins-for-rooms.md) 참조 하세요. 영구 채팅 관리자는 Lync Server 제어판 또는 Windows PowerShell cmdlet을 사용 하 여 추가 기능을 만들 수 있습니다.
+영구 채팅방에 대 한 추가 기능을 만들려면 배포 설명서의 [Lync Server 2013에서 대화방에 대 한 추가 기능 구성을](lync-server-2013-configure-add-ins-for-rooms.md) 참조 하세요. 영구 채팅 관리자는 Lync Server 제어판 또는 Windows PowerShell cmdlet을 사용 하 여 추가 기능을 만들 수 있습니다.
 
 </div>
 

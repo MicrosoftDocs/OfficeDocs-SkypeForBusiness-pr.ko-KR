@@ -12,16 +12,16 @@ ms:contentKeyID: 48184756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6f159cc77cccd5db031caa83b1d9abf90c92790
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a1bd882fa889589a260e2327ff27fb80fe30937c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755138"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046751"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755138"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-28_
+_**마지막으로 수정 된 항목:** 2012-09-28_
 
-회사 및 기타 조직에는 특정 유형의 통신 보존을 요구 하는 다양 한 산업 및 정부 규정이 적용 됩니다. 조직에 이러한 요구 사항이 있는 경우 Lync Server 2013에서 보관을 사용 하 여 Lync Server를 통해 전송 된 인스턴트 메시징 (IM) 및 회의 (모임) 통신을 보관 하 여 일부 준수 요구 사항을 지원할 수 있습니다.
+특정 유형의 통신을 보존하도록 요구하는 회사 및 기타 조직에서 따라야 할 업계 및 정부 규정이 점차 증가하고 있습니다. 조직에서 이러한 요구 사항을 충족 하는 경우 Lync Server 2013의 보관을 사용 하 여 Lync Server를 통해 전송 되는 IM (인스턴트 메시징) 및 회의 (모임) 통신을 보관 하 고 일부 규정 준수 요구 사항을 지원할 수 있습니다.
 
 <div>
 
@@ -45,15 +45,15 @@ _**마지막으로 수정한 주제:** 2012-09-28_
 
   - [Lync Server 2013의 보관 개요](lync-server-2013-overview-of-archiving.md)
 
-  - [Lync Server 2013에서 보관 하는 방식](lync-server-2013-how-archiving-works.md)
+  - [Lync Server 2013에서 보관이 작동 하는 방식](lync-server-2013-how-archiving-works.md)
 
-  - [Lync Server 2013에서 보관에 대한 요구 사항 정의](lync-server-2013-defining-your-requirements-for-archiving.md)
+  - [Lync Server 2013에서 보관에 대 한 요구 사항 정의](lync-server-2013-defining-your-requirements-for-archiving.md)
 
-  - [Lync Server 2013의 보관의 구성 요소 및 토폴로지](lync-server-2013-components-and-topologies-for-archiving.md)
+  - [Lync Server 2013의 보관에 대 한 구성 요소 및 토폴로지](lync-server-2013-components-and-topologies-for-archiving.md)
 
   - [Lync Server 2013의 보관에 대 한 기술 요구 사항](lync-server-2013-technical-requirements-for-archiving.md)
 
-  - [Lync Server 2013의 보관용 배포 검사 목록](lync-server-2013-deployment-checklist-for-archiving.md)
+  - [Lync Server 2013의 보관을 위한 배포 검사 목록](lync-server-2013-deployment-checklist-for-archiving.md)
 
 </div>
 

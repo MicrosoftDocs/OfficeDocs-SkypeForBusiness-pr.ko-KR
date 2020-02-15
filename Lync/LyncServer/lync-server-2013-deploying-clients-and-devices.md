@@ -12,16 +12,16 @@ ms:contentKeyID: 48185915
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20a28df76c87df01ab39e3c3113c3c4beaa09347
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e405ef520af5533f89475eeaf53d2fd35eaad87
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729448"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41729448"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2015-04-03_
+_**마지막으로 수정 된 항목:** 2015-04-03_
 
-이 섹션에서는 Lync Server 2013 클라이언트 및 장치 배포 절차에 대해 간략하게 설명 합니다.
+이 섹션에서는 Lync Server 2013 클라이언트 및 장치를 배포 하는 절차에 대해 설명 합니다.
 
 <div>
 
@@ -45,7 +45,7 @@ _**마지막으로 수정한 주제:** 2015-04-03_
 
   - [Lync Server 2013에서 Lync 클라이언트 배포](lync-server-2013-deploying-lync-clients.md)
 
-  - [비즈니스용 Skype에서 클라이언트 환경 구성](configure-the-skype-for-business-client-in-lync-server-2013.md)
+  - [비즈니스용 Skype를 사용 하 여 클라이언트 환경 구성](configure-the-skype-for-business-client-in-lync-server-2013.md)
 
   - [Lync Server 2013에서 Lync VDI 플러그 인 배포](lync-server-2013-deploying-the-lync-vdi-plug-in.md)
 

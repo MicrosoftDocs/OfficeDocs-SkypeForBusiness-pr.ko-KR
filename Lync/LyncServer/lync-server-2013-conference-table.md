@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Conference 테이블'
+title: 'Lync Server 2013: 회의 표'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4941dc3ef59630cd77cfb0f8a51407d15ca628f7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 733b3fc6fa77f8f18de1a5c79be86a5aea340cec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756982"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048589"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-table-in-lync-server-2013"></a>Lync Server 2013의 Conference 테이블
+# <a name="conference-table-in-lync-server-2013"></a>Lync Server 2013의 회의 테이블
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756982"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-회의 테이블은 지원 테이블입니다. 각 레코드는 하나의 회의 또는 피어 투 피어 세션을 나타냅니다.
+Conference 테이블은 지원 테이블입니다. 각 레코드는 하나의 회의 또는 피어-투-피어 세션을 나타냅니다.
 
 
 <table>
@@ -52,33 +52,33 @@ _**마지막으로 수정한 주제:** 2012-10-02_
 <th><strong>열</strong></th>
 <th><strong>데이터 형식</strong></th>
 <th><strong>키/인덱스</strong></th>
-<th><strong>세부적인</strong></th>
+<th><strong>세부 정보</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>ConferenceKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
-<td><p>이 회의 레코드를 식별 하는 고유 번호입니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>이 회의 레코드를 식별하는 고유 번호입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConfURI</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>독특한</p></td>
-<td><p>회의가 면 회의 URI이 고 피어 투 피어 세션 인 경우 DialogID입니다.</p></td>
+<td><p>고유한</p></td>
+<td><p>항목이 회의인 경우 회의 URI이고 피어 투 피어 세션인 경우에는 DialogID입니다.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>검사</strong></p></td>
+<td><p><strong>제외</strong></p></td>
 <td><p>int</p></td>
-<td><p>색인</p></td>
-<td><p>회의 URI의 체크섬입니다. 이는 내부적으로 사용 됩니다.</p></td>
+<td><p>인덱스</p></td>
+<td><p>회의 URI의 체크섬입니다. 내부적으로 사용됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>dmtf</p></td>
+<td><p>datetime</p></td>
 <td></td>
-<td><p>내부용 으로만 사용 됩니다.</p></td>
+<td><p>내부 용도로만 사용됩니다.</p></td>
 </tr>
 </tbody>
 </table>

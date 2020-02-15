@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 주소록 관리용 가져오기-CsService'
+title: 'Lync Server 2013: 주소록 관리용 Get-help 서비스'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 656c1aa545a1f10e49c5ff60b51c20386854d146
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d41d0d3fe8960f286cfe9bed1f27ae08d43c9fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763582"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013의 주소록 관리를 위한 Get CsService
+# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013의 주소록 관리를 위한 get-help 서비스
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41763582"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-이 cmdlet을 실행할 수 있는 사용자: 기본적으로 다음 그룹의 구성원은 Get-CsService cmdlet을 로컬로 실행할 권한이 있습니다 (RTCUniversalUserAdmins, RTCUniversalServerAdmins). 이 cmdlet이 할당 된 모든 RBAC (역할 기반 액세스 제어) 역할 목록 (직접 만든 사용자 지정 RBAC 역할 포함)을 반환 하려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.
+이 cmdlet을 실행할 수 있는 사용자: 기본적으로 RTCUniversalUserAdmins 및 RTCUniversalServerAdmins 그룹의 구성원은 Get-CsService cmdlet을 로컬로 실행할 수 있습니다. 사용자가 직접 만든 사용자 지정 RBAC(역할 기반 액세스 제어) 역할을 포함하여 이 cmdlet이 할당된 모든 RBAC 역할의 목록을 가져오려면 Windows PowerShell 프롬프트에서 다음 명령을 실행합니다.
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
-Get-CsService는 인프라의 정의 된 웹 서비스에 대 한 현재 구성을 검색 하 고 표시 하는 데 유용 합니다. 풀의 FQDN (정규화 된 도메인 이름) 및 매개 변수 WebServer을 정의 하면 cmdlet은 주소록 처리기 및 메일 그룹 확장 Uri를 포함 하 여 서버에서 제공 하는 웹 기반 서비스를 반환 합니다.
+Get-CsService는 인프라의 정의 된 웹 서비스에 대 한 현재 구성을 검색 하 고 표시 하는 데 유용 합니다. 이 cmdlet은 풀의 FQDN(정규화된 도메인 이름) 및 WebServer 매개 변수를 정의하여 서버에서 제공하는 웹 기반 서비스(주소록 처리기 및 메일 그룹 확장 URK 포함)를 반환합니다.
 
-예를 들면 다음과 같습니다.
+예:
 
     Get-CsService -PoolFqdn "fe01.contoso.net" -WebServer
 
-이 cmdlet은 다음을 반환 합니다.
+이 cmdlet이 반환하는 내용은 다음과 같습니다.
 
-Id: WebServer "pool01.
+Identity: WebServer.
 
-작업 저장소: 네트워크 저장소:dc01. e 1.
+초당 작업 저장소: 저장소 1, dc01. contoso.
 
-UserServer: UserServer:pool01 net.tcp. e 1.
+UserServer: UserServer:pool01. contoso.
 
 PrimaryHttpPort: 80
 
@@ -129,11 +129,11 @@ ExternalFqdn: csweb.contoso.com
 
 InternalFqdn: internalweb.contoso.net
 
-DependentServiceList: {등록자 1], pool01. ConferencingServer:pool01. e t e}
+DependentServiceList: {등록자:pool01. ConferencingServer:pool01. contoso.
 
 ServiceId: 1-WebServices-1
 
-SiteId: 사이트: Redmond
+SiteId: Site: Redmond
 
 PoolFqdn: pool01.contoso.net
 

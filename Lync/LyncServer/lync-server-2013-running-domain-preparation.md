@@ -12,20 +12,20 @@ ms:contentKeyID: 48184847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 408dea780b4136f86ffed30d199d1d0ee63d6821
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 960a3664bb7b629a9d66b375d072f826ed9e2738
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765066"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="running-domain-preparation-for-lync-server-2013"></a>Lync Server 2013에 대한 도메인 준비 실행
+# <a name="running-domain-preparation-for-lync-server-2013"></a>Lync Server 2013에 대 한 도메인 준비 실행
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765066"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-04-16_
+_**마지막으로 수정 된 항목:** 2013-04-16_
 
-설치 또는 Lync Server Management Shell cmdlet을 사용 하 여 도메인을 준비할 수 있습니다. 도메인을 준비 하는 cmdlet은 **CsAdDomain을 사용 하도록 설정**합니다.
+설치 또는 Lync Server 관리 셸 cmdlet을 사용 하 여 도메인을 준비할 수 있습니다. 도메인을 준비하는 cmdlet은 **Enable-CsAdDomain**입니다.
 
-도메인 준비는 Lync Server 2013의 Active Directory 도메인 서비스를 준비 하는 마지막 단계입니다.
+도메인 준비는 Lync Server 2013에 대 한 Active Directory 도메인 서비스 준비의 마지막 단계입니다.
 
 <div>
 
-## <a name="to-use-setup-to-prepare-domains"></a>설치 프로그램을 사용 하 여 도메인 준비
+## <a name="to-use-setup-to-prepare-domains"></a>설치 프로그램을 사용하여 도메인을 준비하려면
 
-1.  도메인 관리자 그룹의 구성원으로 서 도메인의 모든 서버에 로그온 합니다.
+1.  도메인의 서버에 Domain Admins 그룹 구성원으로 로그온합니다.
 
 2.  Lync Server 2013 설치 폴더 또는 미디어에서 Setup.exe를 실행 하 여 Lync Server 배포 마법사를 시작 합니다.
 
@@ -53,45 +53,45 @@ _**마지막으로 수정한 주제:** 2013-04-16_
 
 4.  **5단계: 현재 도메인 준비**에서 **실행**을 클릭합니다.
 
-5.  **도메인 준비** 페이지에서 **다음**을 클릭 합니다.
+5.  **도메인 준비** 페이지에서 **다음**을 클릭합니다.
 
 6.  **명령 실행** 페이지에서 **작업 상태: 완료됨**을 찾은 다음 **로그 보기**를 클릭합니다.
 
-7.  **작업** 열에서 **도메인 Prep**을 확장 하 고 각 작업의 끝에서 ** \<성공\> ** 실행 결과를 찾아 도메인 준비가 성공적으로 완료 되었는지 확인 하 고 로그를 닫은 다음 **마침을**클릭 합니다.
+7.  **작업** 열 아래에 있는 **도메인 준비**를 확장 하 고 각 작업 끝에 있는 ** \<성공\> ** 실행 결과를 찾아서 도메인 준비가 성공적으로 완료 되었는지 확인 한 다음 로그를 닫고 **마침을**클릭 합니다.
 
-8.  Active directory 복제가 완료 되거나 포리스트 루트 도메인 컨트롤러에 대 한 Active Directory 사이트 및 서비스 스냅인에 나열 된 모든 도메인 컨트롤러로 강제로 복제 될 때까지 기다립니다.
+8.  Active Directory 복제가 포리스트 루트 도메인 컨트롤러의 Active Directory 사이트 및 서비스 스냅인에 나열된 모든 도메인 컨트롤러로 복제를 완료하거나 적용할 때까지 기다립니다.
 
 </div>
 
 <div>
 
-## <a name="to-use-cmdlets-to-prepare-the-domain"></a>Cmdlet을 사용 하 여 도메인을 준비 하려면
+## <a name="to-use-cmdlets-to-prepare-the-domain"></a>cmdlet을 사용하여 도메인을 준비하려면
 
-1.  도메인 관리자 그룹의 구성원으로 서 도메인의 모든 서버에 로그온 합니다.
+1.  도메인의 서버에 Domain Admins 그룹 구성원으로 로그온합니다.
 
-2.  다음과 같이 Lync Server Core 구성 요소를 설치 합니다.
+2.  Lync Server Core 구성 요소는 다음과 같이 설치 합니다.
     
     1.  Lync Server 2013 설치 폴더 또는 미디어에서 Setup.exe를 실행 하 여 Lync Server 배포 마법사를 시작 합니다.
     
-    2.  Microsoft Visual c + + 재배포 가능 패키지를 설치 하 라는 메시지가 표시 되 면 **예**를 클릭 합니다.
+    2.  Microsoft Visual C++ 재배포 가능 파일을 설치하라는 메시지가 표시되면 **예**를 클릭합니다.
     
-    3.  Lync Server 2013 설정 대화 상자에서 Lync Server 파일을 설치할 위치를 묻는 메시지가 표시 됩니다. 기본 위치를 선택 하거나 선택한 위치를 **찾은** 다음 **설치**를 클릭 합니다.
+    3.  Lync server 2013 설치 대화 상자에 Lync Server 파일을 설치할 위치를 묻는 메시지가 표시 됩니다. 기본 위치를 선택하거나 **찾아보기**를 클릭하여 원하는 위치를 선택한 후에 **설치**를 클릭합니다.
     
-    4.  사용권 계약 페이지에서 **사용권 계약에 동의**를 선택 하 고 **확인**을 클릭 합니다. 설치 관리자가 Lync Server 2013 핵심 구성 요소를 설치 합니다.
+    4.  사용권 계약 페이지에서 **동의함**을 선택한 다음 **확인**을 클릭합니다. 설치 관리자가 Lync Server 2013 핵심 구성 요소를 설치 합니다.
 
-3.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+3.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-4.  런
+4.  를 실행합니다.
     
         Enable-CsAdDomain [-Domain <DomainFQDN>] 
     
-    예를 들면 다음과 같습니다.
+    예:
     
         Enable-CsAdDomain -Domain domain1.contoso.net 
     
-    Domain 매개 변수를 지정 하지 않으면 로컬 도메인이 기본값이 됩니다.
+    Domain 매개 변수를 지정하지 않는 경우에는 로컬 도메인이 기본값으로 사용됩니다.
 
-5.  도메인 준비가 완료 되었는지 확인 합니다. 런
+5.  다음을 실행하여 도메인 준비가 성공적으로 완료되었는지 확인합니다.
     
         Get-CsAdDomain [-Domain <Domain FQDN>] [-DomainController <Domain controller FQDN>] [-GlobalCatalog <Global catalog server FQDN>] [-GlobalSettingsDomainController <Domain controller FQDN where global settings are stored>] 
     
@@ -103,14 +103,14 @@ _**마지막으로 수정한 주제:** 2013-04-16_
     
 
     > [!NOTE]  
-    > GlobalSettingsDomainController 매개 변수를 사용 하면 전역 설정이 저장 되는 위치를 표시할 수 있습니다. 설정이 시스템 컨테이너에 저장 된 경우 (구성 컨테이너로 마이그레이션된 전역 설정이 없는 업그레이드 배포의 경우), Active Directory 포리스트의 루트에 도메인 컨트롤러를 정의 합니다. 전역 설정이 구성 컨테이너에 있는 경우(설정이 구성 컨테이너로 마이그레이션된 업그레이드 배포 또는 새 배포에서 일반적임) 포리스트에서 도메인 컨트롤러를 정의합니다. 이 매개 변수를 지정 하지 않으면 cmdlet은 설정이 구성 컨테이너에 저장 되어 있고 AD&nbsp;DS의 모든 도메인 컨트롤러를 참조 한다고 가정 합니다.
+    > GlobalSettingsDomainController 매개 변수를 통해 전역 설정이 저장되어 있는 위치를 나타낼 수 있습니다. 설정이 시스템 컨테이너에 저장되어 있는 경우(전역 설정이 구성 컨테이너로 마이그레이션되지 않은 업그레이드 배포에서 일반적임) Active Directory 포리스트의 루트에서 도메인 컨트롤러를 정의합니다. 전역 설정이 구성 컨테이너에 있는 경우(설정이 구성 컨테이너로 마이그레이션된 업그레이드 배포 또는 새 배포에서 일반적임) 포리스트에서 도메인 컨트롤러를 정의합니다. 이 매개 변수를 지정 하지 않으면 cmdlet은 설정이 구성 컨테이너에 저장 된 것으로 가정 하 고 AD&nbsp;DS의 모든 도메인 컨트롤러를 참조 합니다.
 
     
     </div>
     
-    **Domain** 매개 변수를 지정 하지 않으면 로컬 도메인이 기본값이 됩니다.
+    **Domain** 매개 변수를 지정 하지 않을 경우 기본값은 로컬 도메인입니다.
     
-    이 cmdlet은 도메인 준비에 성공한 경우 **\_LC\_domainsettings STATE\_의 준비** 된 값을 반환 합니다.
+    이 cmdlet은 도메인 준비가 성공적으로 완료 된 경우 **LC\_domainsettings\_STATE\_** 의 가능한 값을 반환 합니다.
 
 </div>
 
@@ -119,10 +119,10 @@ _**마지막으로 수정한 주제:** 2013-04-16_
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013에 대해 cmdlet을 사용하여 도메인 준비 되돌리기](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)  
+[Cmdlet을 사용 하 여 Lync Server 2013에 대 한 도메인 준비 되돌리기](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)  
 
 
-[Lync Server 2013에 대한 도메인 준비](lync-server-2013-preparing-domains.md)  
+[Lync Server 2013에 대 한 도메인 준비](lync-server-2013-preparing-domains.md)  
   
 
 </div>

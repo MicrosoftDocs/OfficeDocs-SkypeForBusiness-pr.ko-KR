@@ -12,16 +12,16 @@ ms:contentKeyID: 48184403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55a6ab9a8bf50639267824c8330701ee74cb3f5a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c490bc9b5058af75704ec3d10c3535581c56df2b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735438"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41735438"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-05-25_
+_**마지막으로 수정 된 항목:** 2012-05-25_
 
 ErrorDef 테이블에는 발생할 수 있는 각 유형의 오류에 대 한 정보가 저장 됩니다. 각 레코드는 오류 유형 중 하나입니다.
 
@@ -52,15 +52,15 @@ ErrorDef 테이블에는 발생할 수 있는 각 유형의 오류에 대 한 �
 <th>열</th>
 <th>데이터 형식</th>
 <th>키/인덱스</th>
-<th>세부적인</th>
+<th>세부 정보</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>ErrorId</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
-<td><p>이 유형의 오류를 식별 하는 고유 ID 번호입니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>이 오류 유형을 식별 하는 고유 ID 번호입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ResponseCode</strong></p></td>
@@ -76,24 +76,24 @@ ErrorDef 테이블에는 발생할 수 있는 각 유형의 오류에 대 한 �
 </tr>
 <tr class="even">
 <td><p><strong>CallTypeId</strong></p></td>
-<td><p>Int</p></td>
+<td><p>임계값</p></td>
 <td><p>외부</p></td>
-<td><p>통화의 유형입니다. 자세한 내용은 <a href="lync-server-2013-calltype-table.md">Lync Server 2013의 Calltype 테이블</a> 을 참조 하세요.</p></td>
+<td><p>통화의 유형입니다. 자세한 내용은 <a href="lync-server-2013-calltype-table.md">Lync Server 2013의 Calltype table</a> 을 참조 하십시오.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RequestType</strong></p></td>
 <td><p>varbinary (33)</p></td>
 <td><p> </p></td>
-<td><p>실패 한 요청의 유형입니다.</p>
-<p>이 구문을 사용 하 여이 데이터를 텍스트 형식으로 변환할 수 있습니다.</p>
+<td><p>실패한 요청 유형입니다.</p>
+<p>이 데이터는 다음 구문을 사용하여 텍스트 형식으로 변환할 수 있습니다.</p>
 <p><code>cast(cast(RequestType as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentType</strong></p></td>
 <td><p>varbinary (257)</p></td>
 <td><p> </p></td>
-<td><p>실패 한 요청의 콘텐츠 형식입니다.</p>
-<p>이 데이터는이 syntaxt를 사용 하 여 텍스트 형식으로 변환할 수 있습니다.</p>
+<td><p>실패한 요청의 콘텐츠 유형입니다.</p>
+<p>이 데이터는 다음을 사용 하 여 텍스트 형식으로 변환할 수 있습니다.</p>
 <p><code>cast(cast(ContentType as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 </tbody>

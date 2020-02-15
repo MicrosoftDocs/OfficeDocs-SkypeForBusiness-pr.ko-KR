@@ -12,16 +12,16 @@ ms:contentKeyID: 63969574
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7932e4cb7a7a9d74b945dcd60c2a1211ca5af694
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b67831b6dbcd7dae12f9b19dd71f2512a8807189
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733958"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043490"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41733958"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2014-05-20_
+_**마지막으로 수정 된 항목:** 2014-05-20_
 
 
 <table>
@@ -53,9 +53,9 @@ _**마지막으로 수정한 주제:** 2014-05-20_
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>권한이 필요 함</p></td>
-<td><p>Lync Server Management Shell을 사용 하 여 로컬에서 실행 되는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</p>
-<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 Set-cstrunkconfiguration cmdlet을 실행 하는 데 필요한 권한이 있는 RBAC 역할을 사용자에 게 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
+<td><p>필요한 권한</p></td>
+<td><p>Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</p>
+<p>Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우 Get-cstrunkconfiguration cmdlet을 실행 하는 권한이 있는 RBAC 역할을 사용자에 게 할당 해야 합니다. 이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsTrunkConfiguration&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,15 +66,15 @@ _**마지막으로 수정한 주제:** 2014-05-20_
 
 ## <a name="description"></a>설명
 
-SIP trunks Lync Server 내부 엔터프라이즈 음성 네트워크를 다음 중 하나에 연결 합니다.
+SIP 트렁크 Lync Server 내부 Enterprise Voice network를 다음 중 하나에 연결 합니다.
 
-  - PSTN (공공 교환 전화 네트워크).
+  - 공중 전화망 (PSTN)
 
-  - PBX (IP 공용 분기 교환)
+  - IP-PBX (공용 분기 교환)
 
-  - SBC (세션 경계 컨트롤러).
+  - SBC (Session Border Controller)입니다.
 
-Set-cstrunkconfiguration cmdlet은 사용자가 전화를 거는 번호를 E 164 네트워크로 변환 하 고 지정 된 SIP 트렁크를 통해 라우팅할 수 있는지 확인 합니다.
+Get-cstrunkconfiguration cmdlet은 사용자가 전화를 걸 수 있는 전화번호를 E. 164 네트워크로 변환 하 고 지정 된 SIP 트렁크를 통해 라우팅해야 하는지 확인 합니다.
 
 </div>
 
@@ -82,19 +82,19 @@ Set-cstrunkconfiguration cmdlet은 사용자가 전화를 거는 번호를 E 164
 
 ## <a name="running-the-test"></a>테스트 실행
 
-Set-cstrunkconfiguration cmdlet을 실행 하려면 먼저 Get-Set-cstrunkconfiguration cmdlet을 사용 하 여 SIP 트렁크 구성 설정의 인스턴스를 검색 해야 합니다. 그런 다음 해당 인스턴스가 테스트-Set-cstrunkconfiguration로 파이프 됩니다.
+Get-cstrunkconfiguration cmdlet을 실행 하려면 먼저 Get-cstrunkconfiguration cmdlet을 사용 하 여 SIP 트렁크 구성 설정의 인스턴스를 검색 해야 합니다. 그런 다음 해당 인스턴스는 Get-cstrunkconfiguration로 파이프 됩니다.
 
 `Get-CsTrunkConfiguration -Identity "Global" | Test-CsTrunkConfiguration -DialedNumber "12065551219"`
 
-처음으로 Set-cstrunkconfiguration를 실행 하지 않고 테스트를 실행 하면 Get-Set-cstrunkconfiguration가 작동 하지 않습니다. 예를 들어 다음 명령은 데이터를 반환 하지 않고 실패 합니다.
+Get-cstrunkconfiguration를 먼저 실행 하지 않고 Get-cstrunkconfiguration를 실행 하면 작동 하지 않습니다. 예를 들어 다음 명령은 데이터를 반환 하지 않고 실패 합니다.
 
 `Test-CsTrunkConfiguration -DialedNumber "12065551219" -TrunkConfiguration "Global"`
 
-여러 개의 SIP 트렁크 구성 설정 컬렉션이 있는 경우 동일한 전화 번호에 대해 각 컬렉션을 테스트 하는 동시에 다음과 같은 명령을 사용할 수 있습니다.
+SIP 트렁크 구성 설정의 컬렉션이 여러 개 있는 경우 동일한 전화 번호에 대해 각 모음을 테스트 하는 동시에 다음과 같은 명령을 사용할 수 있습니다.
 
 `Get-CsTrunkConfiguration | Test-CsTrunkConfiguration -DialedNumber "12065551219"`
 
-자세한 내용은 테스트 Set-cstrunkconfiguration cmdlet에 대 한 도움말 문서를 참조 하세요.
+자세한 내용은 Get-cstrunkconfiguration cmdlet에 대 한 도움말 설명서를 참조 하십시오.
 
 </div>
 
@@ -102,15 +102,15 @@ Set-cstrunkconfiguration cmdlet을 실행 하려면 먼저 Get-Set-cstrunkconfig
 
 ## <a name="determining-success-or-failure"></a>성공 또는 실패 확인
 
-테스트-Set-cstrunkconfiguration에서 전화 접속 번호로 전화를 걸 수 있는 경우 변환 된 전화 번호 (E. \ 164 형식)와 해당 전화 번호를 번역 하는 데 사용 되는 규칙이 화면에 모두 표시 됩니다.
+Get-cstrunkconfiguration에서 전화 건 번호로 전화를 걸 수 있으면 변환 된 전화 번호 (E. 164 형식)와 해당 전화 번호를 변환 하는 데 사용 되는 규칙이 모두 화면에 표시 됩니다.
 
 TranslatedNumber MatchingRule
 
 \---------------- ------------
 
-\+12065551219 글로벌/레드먼드
+\+12065551219 글로벌/Redmond
 
-테스트에 실패 하면 테스트-Set-cstrunkconfiguration에서 빈 속성 값을 반환 합니다.
+테스트가 실패 하면 Get-cstrunkconfiguration에서 빈 속성 값을 반환 합니다.
 
 TranslatedNumber MatchingRule
 
@@ -120,15 +120,15 @@ TranslatedNumber MatchingRule
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패할 수 있는 이유
+## <a name="reasons-why-the-test-might-have-failed"></a>테스트가 실패 한 이유
 
-테스트-Set-cstrunkconfiguration가 일치 하는 항목을 반환 하지 않는 경우 일반적으로 테스트 중인 트렁크 구성 설정에는 전화를 거는 데 사용할 수 있는 전화 번호 변환 규칙이 없기 때문에 해당 번호를 E. \ 164 형식으로 변환할 수 있습니다. 트렁크 구성 설정 모음에 할당 된 번역 규칙을 검색 하려면 다음과 같은 구문을 사용할 수 있습니다.
+Get-cstrunkconfiguration에서 일치 하는 항목을 반환 하지 않으면 테스트 중인 트렁크 구성 설정에 전화 건 번호를 E. 164 형식으로 변환 하는 데 사용할 수 있는 발신 전화 번호 변환 규칙이 없는 것입니다. 트렁크 구성 설정 컬렉션에 할당 된 변환 규칙을 검색 하려면 다음과 같은 구문을 사용할 수 있습니다.
 
 `Get-CsTrunkConfiguration -Identity "global" | Select-Object -ExpandProperty OutboundTranslationRulesList`
 
-이는 각 번역 규칙에 대해 다음과 같은 정보를 반환 합니다.
+이는 각 변환 규칙에 대해 다음과 같은 정보를 반환 합니다.
 
-설명: 국가 코드나 지역 번호 없이 전화 번호를 사용 합니다.
+설명: 국가 코드나 지역 코드가 없는 전화 번호입니다.
 
 패턴: ^\\+ (\\d\*) $
 
@@ -136,7 +136,7 @@ TranslatedNumber MatchingRule
 
 이름: NoAreaCode
 
-이 때 패턴 속성 ( [정규식](http://go.microsoft.com/fwlink/?linkid=400464) 문자열)의 값을 확인 하 여 전화를 거는 번호를 처리 하도록 구성 된 번역 규칙이 있는지 여부를 확인 합니다. 그렇지 않은 경우에는 기존 규칙 (CsOutboundTranslationRule) 중 하나를 변경 하거나 새-CsOutboundTranslationRule cmdlet을 사용 하 여 컬렉션에 새 규칙을 추가 해야 합니다.
+이때 패턴 속성의 값 ( [정규식](http://go.microsoft.com/fwlink/?linkid=400464) 문자열)을 확인 하 여 전화 건 번호를 처리 하도록 변환 규칙이 구성 되었는지 여부를 확인 합니다. 그렇지 않은 경우에는 기존 규칙 (New-csoutboundtranslationrule) 중 하나를 변경 하거나 New-csoutboundtranslationrule cmdlet을 사용 하 여 컬렉션에 새 규칙을 추가 해야 합니다.
 
 </div>
 
@@ -145,7 +145,7 @@ TranslatedNumber MatchingRule
 ## <a name="see-also"></a>참고 항목
 
 
-[테스트-Set-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration)  
+[Get-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration)  
   
 
 </div>

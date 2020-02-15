@@ -12,16 +12,16 @@ ms:contentKeyID: 51541442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fd0262e769cbcfb140f0cdceb21a1297bae0a58
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f28d1bbc1b0879da04755840af3aa2d15dabb5b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747428"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042435"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41747428"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-17_
+_**마지막으로 수정 된 항목:** 2013-02-17_
 
-다음 항목에서는 오류 또는 중단 시 서버와 데이터베이스를 복원할 수 있도록 백업 하는 데 필요한 설정, 구성 및 기타 데이터에 대해 설명 합니다.
+다음 항목에서는 오류 또는 중단이 발생할 경우 서버 및 데이터베이스를 복원 하기 위해 백업 해야 하는 설정, 구성 및 기타 데이터에 대해 설명 합니다.
 
 <div>
 
@@ -47,11 +47,11 @@ _**마지막으로 수정한 주제:** 2013-02-17_
 
   - [Lync Server 2013의 백업 및 복원 요구 사항: 도구 및 사용 권한](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)
 
-  - [Lync Server 2013의 백업 및 복원 프로세스 개요](lync-server-2013-backup-and-restoration-process-overview.md)
+  - [Lync Server 2013에 대 한 백업 및 복원 프로세스 개요](lync-server-2013-backup-and-restoration-process-overview.md)
 
-  - [백업 및 복원 전략 및 Lync Server 2013에 대 한 계획 개발](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
+  - [Lync Server 2013에 대 한 백업 및 복원 전략 및 계획 개발](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
 
-  - [Lync Server 2013의 백업 및 복원 모범 사례](lync-server-2013-best-practices-for-backup-and-restoration.md)
+  - [Lync Server 2013의 백업 및 복원에 대 한 모범 사례](lync-server-2013-best-practices-for-backup-and-restoration.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Call detail 기록 (CDR)'
+title: 'Lync Server 2013: CDR (통화 정보 기록)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e7490e974b970c7c0a68e16b03ed19306d89183
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf5eb1c82b6cabff3657890c83f4e8240a30e23f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743148"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045380"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743148"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-22_
+_**마지막으로 수정 된 항목:** 2012-10-22_
 
-CDR (통화 정보 기록)는 인스턴스 메시지, VoIP (Voice over 인터넷 프로토콜) 통화, 응용 프로그램 공유, 파일 전송, 모임 등 피어 투 피어 활동에 대 한 사용 및 진단 정보를 기록 합니다. 사용 현황 데이터는 ROI (투자 수익률)를 계산 하는 데 사용할 수 있으며, 진단 데이터를 사용 하 여 피어 투 피어 활동 및 모임 문제를 해결할 수 있습니다. Lync Server 2013을 설치 하는 경우에는 CDR에 대해 미리 정의 된 전역 구성 설정 모음도 설치 됩니다. 이 섹션의 항목을 사용 하 여 CDR를 구성 합니다.
+CDR(통화 정보 기록)은 인스턴스 메시징, VoIP(Voice over Internet Protocol) 통화, 응용 프로그램 공유, 파일 전송, 모임 등의 피어 투 피어 활동에 대한 사용 및 진단 정보를 기록합니다. 이러한 사용 데이터는 ROI(투자 수익)를 계산하는 데 사용하고, 진단 데이터는 피어 투 피어 활동 및 모임 관련 문제를 해결하는 데 사용할 수 있습니다. Lync Server 2013을 설치할 때 CDR에 대해 미리 정의 된 전역 구성 설정 모음도 설치 합니다. 이 섹션의 항목을 사용해서 CDR을 구성하십시오.
 
 <div>
 
@@ -51,7 +51,7 @@ CDR (통화 정보 기록)는 인스턴스 메시지, VoIP (Voice over 인터넷
 
   - [Lync Server 2013에서 기존 CDR 구성 설정 모음 삭제](lync-server-2013-delete-an-existing-collection-of-cdr-configuration-settings.md)
 
-  - [Lync Server 2013에서 통화 정보 기록 및 경력 데이터베이스의 품질을 수동으로 제거](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
+  - [Lync Server 2013에서 통화 정보 기록 및 경험 수준 데이터베이스를 수동으로 제거](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
 
 </div>
 
@@ -60,7 +60,7 @@ CDR (통화 정보 기록)는 인스턴스 메시지, VoIP (Voice over 인터넷
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013에서 통화 정보 기록 및 환경 품질 설정 구성](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
+[Lync Server 2013에서 통화 정보 기록 및 경험 수준 설정 구성](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
   
 
 </div>

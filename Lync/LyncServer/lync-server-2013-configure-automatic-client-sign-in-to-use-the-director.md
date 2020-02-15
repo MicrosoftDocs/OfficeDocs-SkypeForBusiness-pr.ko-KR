@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 디렉터를 사용하도록 자동 클라이언트 로그인 구성'
+title: 'Lync Server 2013: 디렉터를 사용 하도록 자동 클라이언트 로그인 구성'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9a6d9090796b2c6c2271025ed4d17a134943c11
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 634bfad77e61846528b6013b82921dfdc366f372
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757802"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043480"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-automatic-client-sign-in-to-use-the-director-in-lync-server-2013"></a>Lync Server 2013에서 디렉터를 사용하도록 자동 클라이언트 로그인 구성
+# <a name="configure-automatic-client-sign-in-to-use-the-director-in-lync-server-2013"></a>Lync Server 2013에서 디렉터를 사용 하도록 자동 클라이언트 로그인 구성
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757802"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-08_
+_**마지막으로 수정 된 항목:** 2012-09-08_
 
-Lync Server 2013, 디렉터 또는 디렉터 풀을 배포 하는 경우 자동 클라이언트 로그인을 모범 사례로 사용 하는 것이 좋습니다. 자동 클라이언트 로그인을 위해 DNS 서버를 구성 하는 방법에 대 한 자세한 내용은 계획 설명서의 [Lync Server 2013에서 자동 클라이언트 로그인에 대 한 dns 요구 사항을](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md) 참조 하세요.
+Lync Server 2013, 디렉터 또는 디렉터 풀을 배포할 때는 자동 클라이언트 로그인을 모범 사례로 사용 하는 것이 좋습니다. 자동 클라이언트 로그인을 사용 하도록 DNS 서버를 구성 하는 방법에 대 한 자세한 내용은 계획 설명서에서 [Lync Server 2013의 자동 클라이언트 로그인에 대 한 dns 요구 사항을](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md) 참조 하세요.
 
-자동 클라이언트 로그인을 이미 배포한 경우에는 다음 섹션을 참조 하 여 디렉터에 구성 합니다.
+이미 자동 클라이언트 로그인을 배포한 경우 이를 디렉터에서 구성하려면 다음 섹션을 참조하십시오.
 
 <div>
 
 ## <a name="single-director-instance"></a>단일 디렉터 인스턴스
 
-이미 자동 클라이언트 로그인을 배포한 경우 프런트 엔드 서버 또는 프런트 엔드 풀을 가리키고 있는 경우에는 디렉터를 가리키도록 DNS SRV 레코드를 변경 해야 합니다.
+이미 자동 클라이언트 로그인을 배포 했으며 프런트 엔드 서버 또는 프런트 엔드 풀을 가리키고 있는 경우에는 디렉터를 가리키도록 DNS SRV 레코드를 변경 해야 합니다.
 
 </div>
 
@@ -53,7 +53,7 @@ Lync Server 2013, 디렉터 또는 디렉터 풀을 배포 하는 경우 자동 
 
 ## <a name="director-pool"></a>디렉터 풀
 
-이미 자동 클라이언트 로그인을 배포한 경우 프런트 엔드 서버 또는 프런트 엔드 풀을 가리키고 있는 경우에는 디렉터 풀을 가리키도록 DNS SRV 레코드를 변경 해야 합니다.
+이미 자동 클라이언트 로그인을 배포 했으며 프런트 엔드 서버 또는 프런트 엔드 풀을 가리키고 있는 경우에는 디렉터 풀을 가리키도록 DNS SRV 레코드를 변경 해야 합니다.
 
 </div>
 

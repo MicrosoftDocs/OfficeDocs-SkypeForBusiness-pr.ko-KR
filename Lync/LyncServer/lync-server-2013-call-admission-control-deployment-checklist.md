@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 호출 허용 제어 배포 검사 목록'
+title: 'Lync Server 2013: 통화 허용 제어 배포 검사 목록'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e768cdd11d92b3aab5ce849f91cc1a422f119407
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a8dc32eb017baf832128301b9639aefe23ae4ce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741758"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,28 +35,28 @@ ms.locfileid: "41741758"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-22_
+_**마지막으로 수정 된 항목:** 2012-10-22_
 
-다음 검사 목록을 사용 하 여 CAC (call 허용 제어)를 배포 하는 데 필요한 모든 구성 작업을 완료 했는지 확인 합니다.
+다음 검사 목록을 사용하여 CAC(통화 허용 제어)를 배포하기 위해 필요한 구성 작업이 모두 완료되었는지 확인합니다.
 
-  - 하나 이상의 Edge 서버가 배포 된 경우 각 외부 인터페이스 IP 주소를 네트워크 구성 설정의 서브넷 목록에 추가 해야 하며 비트 마스크는 32입니다. 또한이 서브넷 (IP 주소)을 A/V Edge 서비스가 배포 된 지리적 위치에 대 한 네트워크 사이트 ID와 연결 해야 합니다.
+  - 하나 이상의 에지 서버가 배포된 경우 각 외부 인터페이스 IP 주소는 비트 마스크가 32인 네트워크 구성 설정의 서브넷 목록에 추가되어야 합니다. 또한 이 서브넷(IP 주소)을 A/V 에지 서비스가 배포된 지리적 위치의 네트워크 사이트 ID와 연결해야 합니다.
     
     <div>
     
 
     > [!NOTE]  
-    > Edge 서버는 CAC를 구현 하지 않아도 됩니다.
+    > CAC를 구현하는 데 에지 서버는 필요하지 않습니다.
 
     
     </div>
 
-  - Lync server 제어판을 통해 또는 [Lync server 2013에서 호출 허용 제어 사용](lync-server-2013-enable-call-admission-control.md)에 지정 된 대로 cmdlet을 실행 하 여 CAC를 사용 하도록 설정 합니다.
+  - Lync server 제어판을 통해 또는 [Lync server 2013에서 통화 허용 제어 사용](lync-server-2013-enable-call-admission-control.md)에 지정 된 cmdlet을 실행 하 여 CAC를 사용 하도록 설정 했는지 확인 합니다.
 
-  - 모든 중앙 사이트에서 CAC가 사용 하도록 설정 되어 있는지 확인 합니다. 토폴로지 작성기를 통해이 작업을 수행할 수 있습니다. 게시할 때 경고가 생성 되 면이를 무시 *하지 마세요* .
+  - CAC가 모든 중앙 사이트에서 사용하도록 설정되었는지 확인합니다. 토폴로지 작성기를 통해이 작업을 수행할 수 있습니다. 게시할 때 경고가 표시된 경우 경고를 무시하면 *안 됩니다*.
 
-  - 엔터프라이즈 네트워크에서 관리 되는 모든 서브넷이 네트워크 구성 설정에서 구성 되어 있는지 확인 합니다. 또한 [Lync Server 2013의 네트워크 사이트와 서브넷 연결](lync-server-2013-associate-a-subnet-with-a-network-site.md)에 설명 된 대로 모든 서브넷을 네트워크 사이트에 연결 하는 것이 중요 합니다.
+  - 엔터프라이즈 네트워크에서 관리된 모든 서브넷이 네트워크 구성 설정에서 구성되었는지 확인합니다. 또한 [Lync Server 2013의 네트워크 사이트에 서브넷 연결](lync-server-2013-associate-a-subnet-with-a-network-site.md)에 설명 된 대로 모든 서브넷을 네트워크 사이트에 연결 하는 것이 중요 합니다.
 
-  - 모든 프런트 엔드 서버의 서브넷 또는 IP 주소, Survivable Branch 기기 (SBAs), 오디오/비디오 회의 서버 (별도의 풀에 있는 경우) 및 중재 서버가 네트워크 구성 설정에 구성 되어 있는지 확인 합니다.
+  - 모든 프런트 엔드 서버, SBA(Survivable Branch Appliance), 오디오/비디오 회의 서버(별도의 풀에 있는 경우), 중재 서버의 서브넷이나 IP 주소가 네트워크 구성 설정에서 구성되었는지 확인합니다.
 
 </div>
 

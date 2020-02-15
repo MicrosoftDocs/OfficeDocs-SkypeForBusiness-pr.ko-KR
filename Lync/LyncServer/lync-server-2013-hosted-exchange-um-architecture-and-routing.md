@@ -12,16 +12,16 @@ ms:contentKeyID: 48184122
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0196026552d19f4338c1a2afa265b8a3e67eb77
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3846e6b2a6817bb01b678f6ddb2c8d0ce7231ec1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739018"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046831"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41739018"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-03-26_
+_**마지막으로 수정 된 항목:** 2012-03-26_
 
-이 섹션에서는 지원 되는 모드, 공유 된 SIP 공간, 라우팅 고려 사항을 비롯 하 여 온-프레미스 및 호스트 된 Exchange UM 통합에 대 한 아키텍처의 개요를 제공 합니다.
+이 섹션에서는 지원되는 모드, 공유 SIP 공간, 라우팅 고려 사항 등을 비롯하여 온-프레미스 및 호스팅된 Exchange UM 통합용 아키텍처에 대해 간략하게 설명합니다.
 
 <div>
 

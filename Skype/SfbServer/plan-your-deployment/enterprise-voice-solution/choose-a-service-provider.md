@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 서버용 E9-1-1 서비스 공급자 선택
+title: 비즈니스용 Skype 서버에 대 한 E9-1-1 서비스 공급자 선택
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -15,22 +15,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
-description: 비즈니스용 Skype Server Enterprise Voice에서 E9-1 배포에 대 한 서비스 공급자 선택
-ms.openlocfilehash: ae59f29bcf53039e13098906d8449e85af3acc21
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 비즈니스용 Skype 서버 Enterprise Voice에서 E9-1-1 배포를 위한 서비스 공급자를 선택 합니다.
+ms.openlocfilehash: 81df2723a256106957c1cd747817b4036ff38d9e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803138"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42026169"
 ---
-# <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>비즈니스용 Skype 서버용 E9-1-1 서비스 공급자 선택
+# <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 E9-1-1 서비스 공급자 선택
  
-비즈니스용 Skype Server Enterprise Voice에서 E9-1 배포에 대 한 서비스 공급자 선택
+비즈니스용 Skype 서버 Enterprise Voice에서 E9-1-1 배포를 위한 서비스 공급자를 선택 합니다.
   
-E9-1 서비스 공급자는 비즈니스용 Skype 서버에서 보내는 긴급 통화를 통화 내에 포함 된 위치 정보에 따라 올바른 PSAP (공개 안전 응답 시점)로 라우팅합니다. 
+E9-1-1 서비스 공급자는 통화 내에 포함 된 위치 정보를 기반으로 비즈니스용 Skype 서버에서 올바른 공용 안전 응답 지점 (PSAP)으로 시작 하는 긴급 통화를 라우팅합니다. 
   
-비즈니스용 Skype 서버 배포의 일부로 E9-1을 지원 하려면 Lync Open Interop 프로그램의 정식 E9-1-1 서비스 공급자에서 E9-1 라우팅 서비스를 얻어야 합니다. 조직의 요구 사항에 가장 잘 맞는 공급자를 선택 합니다.
+비즈니스용 Skype 서버 배포의 일부로, E9-1을 지원 하려면 Lync 오픈 상호 운용성 프로그램 적격 E9-1-1 서비스 공급자 로부터 E9-1-1 라우팅 서비스를 받아야 합니다. 조직의 요구 사항에 가장 적합한 공급자를 선택하십시오.
 
-Lync에 대 한 E9-1 라우팅 서비스 목록을 보려면 [lync 용 E-911 서비스](https://docs.microsoft.com/en-us/skypeforbusiness/lync-cert/e-911-service-providers)를 참조 하세요.
+Lync 용 E9-1-1 라우팅 서비스 목록을 보려면 [E-911 서비스 정식 lync](https://docs.microsoft.com/skypeforbusiness/lync-cert/e-911-service-providers)를 참조 하세요.
   
 

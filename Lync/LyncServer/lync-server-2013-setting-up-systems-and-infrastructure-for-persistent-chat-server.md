@@ -1,5 +1,5 @@
 ---
-title: 영구 채팅 서버에 대한 시스템 및 인프라 설정
+title: 영구 채팅 서버에 대 한 시스템 및 인프라 설정
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185501
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38b5f798db96dda8e0f4cfc0dd83562be19554f6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ac7a2b66e021b8d4da41d749368065d6be2d1b52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732068"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040116"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-systems-and-infrastructure-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013에서 영구 채팅 서버에 대한 시스템 및 인프라 설정
+# <a name="setting-up-systems-and-infrastructure-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버에 대 한 시스템 및 인프라 설정
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41732068"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-03-23_
+_**마지막으로 수정 된 항목:** 2012-03-23_
 
 Lync Server 2013, 영구 채팅 서버를 배포 하기 전에 모든 영구 채팅 서버 구성 요소에 적절 한 하드웨어 및 소프트웨어를 배포 해야 합니다.
 

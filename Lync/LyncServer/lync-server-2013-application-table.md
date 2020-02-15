@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Application 테이블'
+title: 'Lync Server 2013: 응용 프로그램 테이블'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 649463f3fe543e17172ecf69daa5a380c2b5e774
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c6cc89733e9e3ce85737caa29e62e3c033211713
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737618"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037268"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="application-table-in-lync-server-2013"></a>Lync Server 2013의 Application 테이블
+# <a name="application-table-in-lync-server-2013"></a>Lync Server 2013의 응용 프로그램 테이블
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737618"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-28_
+_**마지막으로 수정 된 항목:** 2012-09-28_
 
-이 표에는 라우팅 및 연결과 관련 된 Lync Server 2013의 다양 한 프로세스에 대 한 정보가 저장 됩니다.
+이 테이블에는 라우팅 및 연결과 관련 된 Lync Server 2013 내의 다양 한 프로세스에 대 한 정보가 저장 됩니다.
 
 
 <table>
@@ -52,14 +52,14 @@ _**마지막으로 수정한 주제:** 2012-09-28_
 <th>열</th>
 <th>데이터 형식</th>
 <th>키/인덱스</th>
-<th>세부적인</th>
+<th>세부 정보</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>ApplicationId</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
+<td><p>Primary</p></td>
 <td><p>이 응용 프로그램을 식별 하는 고유 번호입니다.</p></td>
 </tr>
 <tr class="even">

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185355
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46172b2996905b763f4b646a52c2c0ea95fc30b4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bbff93abc864acee730b0d31cc4b05a84915573f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755872"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048429"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,22 +35,22 @@ ms.locfileid: "41755872"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-08-16_
+_**마지막으로 수정 된 항목:** 2012-08-16_
 
-Lync Server 2013에는 다음과 같은 새로운 비디오 기능이 도입 되었습니다.
+Lync Server 2013에서는 다음과 같은 새로운 비디오 기능을 소개 합니다.
 
-  - **Hd 영상**   사용자는 2-파티 통화와 단체 회의에서 hd 1080p로 해상도를 경험할 수 있습니다.
+  - **Hd video**   사용자는 두 회사 전화 및 단체 회의에서 hd 1080p까지 해상도를 경험할 수 있습니다.
 
-  - **갤러리 보기**   두 명 이상이 있는 비디오 컨퍼런스에서는 사용자가 회의 참가자의 비디오를 볼 수 있습니다. 회의에 다섯 명 이상의 참가자가 있는 경우 가장 활발 한 참가자의 비디오만 맨 위 행에 표시 되 고 다른 참가자에 게 사진이 표시 됩니다.
+  - **갤러리 보기**   두 명 이상의 사용자가 포함 된 비디오 회의에서 사용자는 전화 회의 참가자의 비디오를 볼 수 있습니다. 회의 참가자가 5명 이상인 경우 가장 활발한 참가자의 비디오만 맨 윗줄에 나타나고 다른 참가자는 사진으로 나타납니다.
 
-  - **H-264**   비디오 코덱이 Lync 2013 클라이언트에서 비디오를 인코딩하기 위한 기본입니다. H-264 비디오는 더 다양 한 해상도와 프레임 속도를 지원 하 고 비디오 확장성을 개선 합니다.
+  - **** 이제 Lync 2013 클라이언트에서 비디오를 인코딩하기 위해 .h 비디오 코덱이 기본적으로 설정 됩니다.    H.264 비디오는 더욱 광범위한 해상도와 프레임 속도를 지원하며 비디오 확장성도 향상합니다.
 
 <div>
 
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013에서 비디오 계획 및 배포](lync-server-2013-planning-and-deploying-video.md)  
+[Lync Server 2013의 비디오 계획 및 배포](lync-server-2013-planning-and-deploying-video.md)  
   
 
 </div>

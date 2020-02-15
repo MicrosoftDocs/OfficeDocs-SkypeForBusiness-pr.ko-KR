@@ -12,16 +12,16 @@ ms:contentKeyID: 48183365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e10b8e85f6db445acb21beb6e272e2147e89b474
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73c8c13c4333ea8458d5e8365de03dcace2bcd64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754348"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037010"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41754348"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2014-02-10_
+_**마지막으로 수정 된 항목:** 2014-02-10_
 
-이 섹션의 항목에서는 Microsoft Lync Server 2013 클라이언트 배포에 대 한 계획 고려 사항에 대해 설명 합니다. 새 Lync Server 2013 설치를 배포 하거나 이전 배포에서 마이그레이션하는 경우, 다음 항목에서는 중요 한 클라이언트 계획 정보를 제공 합니다.
+이 섹션의 항목에서는 Microsoft Lync Server 2013 클라이언트를 배포 하기 위한 계획 고려 사항을 설명 합니다. 새 Lync Server 2013 설치를 배포 하 든 이전 배포에서 마이그레이션하 든, 이러한 항목은 중요 한 클라이언트 계획 정보를 제공 합니다.
 
 <div>
 
@@ -45,7 +45,7 @@ _**마지막으로 수정한 주제:** 2014-02-10_
 
   - [Lync Server 2013용 클라이언트](lync-server-2013-clients.md)
 
-  - [Lync Server 2013 의 클라이언트 비교 표](lync-server-2013-desktop-client-comparison-tables.md)
+  - [Lync Server 2013에 대 한 클라이언트 비교 표](lync-server-2013-desktop-client-comparison-tables.md)
 
   - [Lync Server 2013에 대 한 클라이언트 시스템 요구 사항](lync-server-2013-client-system-requirements.md)
 
@@ -53,9 +53,9 @@ _**마지막으로 수정한 주제:** 2014-02-10_
 
   - [Lync 2013 호환성](lync-server-2013-lync-2013-compatibility.md)
 
-  - [Lync 2013 에서 클라이언트 상호 운용성](lync-server-2013-client-interoperability-in-lync-2013.md)
+  - [Lync 2013의 클라이언트 상호 운용성](lync-server-2013-client-interoperability-in-lync-2013.md)
 
-  - [Lync Server 2013의 모임 마이그레이션 고려 사항](lync-server-2013-migration-considerations-for-meetings.md)
+  - [Lync Server 2013의 모임에 대 한 마이그레이션 고려 사항](lync-server-2013-migration-considerations-for-meetings.md)
 
 </div>
 

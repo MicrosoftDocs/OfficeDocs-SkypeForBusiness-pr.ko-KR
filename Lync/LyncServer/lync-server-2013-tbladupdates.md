@@ -12,16 +12,16 @@ ms:contentKeyID: 48185227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb4b5b73fb74c2337eeaa6b065396253a2cb0be4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e75c8079b4093290846321340b21248b9f8882ab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731518"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048529"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731518"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-12_
+_**마지막으로 수정 된 항목:** 2012-09-12_
 
-tblADUpdates에는 이후 Active Directory 동기화 단계에서 아직 처리 하지 않은 Active Directory 도메인 서비스 변경 내용이 포함 되어 있습니다.
+tblADUpdates에는 이후 Active Directory 동기화 단계에서 아직 처리 되지 않은 Active Directory 도메인 서비스 변경 내용이 포함 되어 있습니다.
 
-### <a name="columns"></a>열
+### <a name="columns"></a>단
 
 <table>
 <colgroup>
@@ -50,45 +50,45 @@ tblADUpdates에는 이후 Active Directory 동기화 단계에서 아직 처리 
 <thead>
 <tr class="header">
 <th>열</th>
-<th>유형</th>
+<th>형식</th>
 <th>설명</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinGuid</p></td>
-<td><p>GUID (null 아님)</p></td>
-<td><p>변경 된 개체의 Principal GUID입니다.</p></td>
+<td><p>Principal.pringuid</p></td>
+<td><p>GUID, null이 아님</p></td>
+<td><p>변경된 개체의 사용자 GUID입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinADPath</p></td>
-<td><p>nvarchar (384), null 아님</p></td>
+<td><p>nvarchar(384), null이 아님</p></td>
 <td><p>개체의 고유 이름입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAttributesChanged</p></td>
 <td><p>bit, null이 아님</p></td>
-<td><p>개체의 특성이 하나 이상 변경 된 경우 True입니다.</p></td>
+<td><p>개체의 특성이 하나 이상 변경된 경우 True입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinMembersChanged</p></td>
 <td><p>bit, null이 아님</p></td>
-<td><p>구성원 자격이 변경 된 경우 True입니다.</p></td>
+<td><p>구성원 자격이 변경된 경우 True입니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAffiliationsChanged</p></td>
 <td><p>bit, null이 아님</p></td>
-<td><p>사용 되지 않습니다.</p></td>
+<td><p>사용되지 않습니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDeleted</p></td>
 <td><p>bit, null이 아님</p></td>
-<td><p>개체가 삭제 된 경우 True입니다.</p></td>
+<td><p>개체가 삭제된 경우 True입니다.</p></td>
 </tr>
 <tr class="odd">
-<td><p>lastUpdated 됨</p></td>
-<td><p>datetime, null 아님</p></td>
-<td><p>행이 삽입 된 시간의 타임 스탬프입니다.</p></td>
+<td><p>lastUpdated</p></td>
+<td><p>datetime, null이 아님</p></td>
+<td><p>행이 삽입되었을 때의 타임스탬프입니다.</p></td>
 </tr>
 </tbody>
 </table>

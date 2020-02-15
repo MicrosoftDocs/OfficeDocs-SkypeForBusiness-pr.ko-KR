@@ -12,16 +12,16 @@ ms:contentKeyID: 51541529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13bd822dda38dd3b6cb5d6b801460ad463375e62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47639ea1e158ce5cb4e6463b1fb953fc50412c79
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729848"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037678"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41729848"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-22_
+_**마지막으로 수정 된 항목:** 2013-02-22_
 
-그룹 통화 픽업는 통화 공원 응용 프로그램을 기반으로 합니다. 그룹 통화 픽업을 배포 하는 경우 통화 픽업 그룹 번호로 지정 된 전화 번호 범위를 사용 하 여 통화 공원 궤도 테이블을 구성 합니다. 이러한 그룹 번호는 다른 사용자에 게 연결 되는 통화를 선택 하기 위해 사용자가 전화를 거는 번호입니다.
+그룹 통화 픽업는 통화 대기 응용 프로그램을 기반으로 합니다. 그룹 통화 픽업를 배포할 때는 통화 픽업 그룹 번호로 지정 된 전화 번호 범위를 사용 하 여 통화 대기 궤도 테이블을 구성 합니다. 이러한 그룹 번호는 사용자가 다른 사용자에 게 신호음을 울리는 통화를 선택 하기 위해 전화를 거는 번호입니다.
 
-통화 공원 번호와 같은 통화 픽업 그룹 번호는 사용자 또는 전화가 할당 되지 않은 가상 확장명 이어야 합니다. 그룹 통화 픽업을 배포 하는 각 프런트 엔드 풀에는 하나 이상의 통화 픽업 그룹 번호 범위가 포함 될 수 있습니다. 그룹 번호 범위는 Lync Server 배포에서 전역적으로 고유 해야 합니다.
+통화 대기 궤도 번호와 마찬가지로 call pickup 그룹 번호는 사용자 또는 전화가 할당 되지 않은 가상 확장명 이어야 합니다. 그룹 통화 픽업를 배포 하는 각 프런트 엔드 풀에는 하나 이상의 통화 픽업 그룹 번호 범위가 포함 될 수 있습니다. 그룹 번호 범위는 Lync Server 배포에서 전역적으로 고유 해야 합니다.
 
 <div>
 

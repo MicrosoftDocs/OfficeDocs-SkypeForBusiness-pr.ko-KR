@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 사용자 당 호출 진단 보고서'
+title: 'Lync Server 2013: 통화 진단 보고서 (사용자 당)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f1d9c1b504ac3b38948e04ed10cfe6d6e2b2744
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 961c6f70c5ca115824c71cf5366cb5f3610fd1fb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743118"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044520"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-reports-per-user-in-lync-server-2013"></a>Lync Server 2013의 사용자 당 전화 진단 보고서
+# <a name="call-diagnostic-reports-per-user-in-lync-server-2013"></a>Lync Server 2013의 사용자 당 통화 진단 보고서
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41743118"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-21_
+_**마지막으로 수정 된 항목:** 2012-10-21_
 
-통화 진단 보고서는 실패 한 피어 투 피어 및 회의 세션에 대 한 사용자별 정보를 제공 합니다.
+통화 진단 보고서는 실패한 피어-투-피어 및 회의 세션에 대한 사용자별 정보를 제공합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013](lync-server-2013-user-activity-report.md)   의 사용자 활동 보고서에서는 각 사용자에 대 한 피어 투 피어 및 회의 작업에 대 한 정보를 제공 합니다.
+  - [Lync Server 2013](lync-server-2013-user-activity-report.md)   의 사용자 활동 보고서 각 사용자의 피어 투 피어 및 회의 활동에 대 한 정보를 제공 합니다.
 
 </div>
 

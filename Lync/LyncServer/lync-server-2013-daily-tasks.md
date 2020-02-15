@@ -12,16 +12,16 @@ ms:contentKeyID: 63969666
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d63aff308b23e52284988a184e5e9d72beaca26
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc14c72f614e6e062afc089236182def0d86e634
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728678"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041057"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41728678"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2015-01-26_
+_**마지막으로 수정 된 항목:** 2015-01-26_
 
-Lync Server 2013 배포의 가용성과 안정성을 보장 하기 위해, 시스템 작동에 매우 중요 한 테스트 요소 (실제 플랫폼, 운영 체제, os를 포함 하는 일)가 필요 합니다. 모든 중요 한 Lync Server 2013 서비스. 예방적 유지 관리 및 사전 모니터링은 Lync Server 2013 배포에 좋지 않은 영향을 줄 수 있는 잠재적인 오류 및 문제를 식별 하는 데 도움이 됩니다.
+Lync Server 2013 배포의 가용성과 안정성을 보장 하려면 실제 플랫폼, 운영 체제를 비롯 하 여 시스템 작동에 매우 중요 한 일일 일상적인 모니터 및 테스트 요소의 일부로 작업을 수행 해야 합니다. 모든 중요 Lync Server 2013 서비스 예방적 유지 관리 및 사전 모니터링은 Lync Server 2013 배포에 나쁜 영향을 줄 수 있는 잠재적 오류 및 문제를 파악 하는 데 도움이 됩니다.
 
-Lync Server 2013 배포 모니터링에는 연결, 서비스, 서버 리소스 및 시스템 리소스 관련 문제가 있는지 확인 하는 작업이 포함 됩니다. Windows Server 운영 체제와 System Center Operations Manager, Lync Server는 Lync Server 조직이 원활 하 게 실행 되도록 하는 데 도움이 되는 다양 한 모니터링 도구 및 서비스를 제공 합니다. 이러한 기술이 함께 구현될 경우 관리자는 문제가 발생할 때 또는 발생하기 전에 경고를 받을 수 있습니다.
+모니터링 2013에는 연결, 서비스, 서버 리소스 및 시스템 리소스 관련 문제를 확인 하는 작업이 포함 됩니다. System Center Operations Manager와 함께 Windows Server 운영 체제와 Lync Server를 사용 하 여 Lync Server 조직을 원활 하 게 실행 하는 데 도움이 되는 다양 한 모니터링 도구와 서비스를 제공 합니다. 이러한 기술이 함께 구현 되 면 관리자는 문제가 발생할 때 또는 이전에 알림을 받을 수 있습니다.
 
-일상적인 모니터링의 장점은 다음과 같습니다.
+일일 모니터링의 주요 이점은 다음과 같습니다.
 
-  - 정의된 SLA의 성능 및 가용성 요구 사항 충족
+  - 정의 된 Sla의 성능 및 가용성 요구 사항 충족
 
-  - 일별 백업 작업 및 서버 상태 확인 등의 특정 관리 작업을 성공적으로 수행
+  - 매일 백업 작업, 서버 상태 확인과 같은 특정 관리 작업을 성공적으로 완료 했습니다.
 
-  - 서버 성능의 병목 상태와 같은 문제나 추가 리소스 요구가 생산성에 영향을 미치기 전에 이를 검색하여 해결
+  - 서버 성능의 병목 현상 등의 문제를 검색 및 해결 하 고, 생산성에 영향을 주기 전에 추가 리소스에 대 한 요구 사항을 파악 합니다.
 
-일일 유지 관리 작업을 통해 관리 팀은 조직 내 정상적인 시스템 작업의 조건 또는 기준을 정의하거나 설정하고 비정상적인 모든 작업을 검색할 수 있습니다. 관리 팀이 사용 수준, 가능한 성능 병목 현상, 관리 변경 사항 등 Lync Server 2013 인프라에 대 한 데이터를 캡처하여 유지 관리할 수 있도록 이러한 일일 유지 관리 작업을 구현 하는 것이 중요 합니다.
+일일 유지 관리 작업은 관리 팀이 조직 내의 일반 시스템 작업에 대 한 조건 또는 기준을 정의 하거나 설정 하 고 비정상적인 활동을 검색 하는 데 도움이 됩니다. 관리 팀이 사용 현황 수준, 가능한 성능 병목 현상 및 관리 변경과 같은 Lync Server 2013 인프라에 대 한 데이터를 캡처 및 유지 관리할 수 있도록 이러한 일일 유지 관리 작업을 구현 하는 것이 중요 합니다.
 
-일일 작업의 성능을 손쉽게 구성할 수 있도록 [일별 작업 검사 목록](lync-server-2013-operations-checklists.md)을 사용하세요.
+일별 작업의 성능을 쉽게 구성 하려면 [일별 작업 검사 목록을](lync-server-2013-operations-checklists.md)사용 합니다.
 
 <div>
 

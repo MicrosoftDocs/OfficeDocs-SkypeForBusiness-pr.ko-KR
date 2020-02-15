@@ -12,16 +12,16 @@ ms:contentKeyID: 51803996
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42a2579360fbb4af8d6f3c491f5a56c380b593d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c456deb3b3cb72df0bd6e8ac2dd70e926bb0769
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724248"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,14 +35,14 @@ ms.locfileid: "41724248"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-20_
+_**마지막으로 수정 된 항목:** 2013-02-20_
 
-새 장치 업데이트를 시스템에 업로드할 때마다 해당 하는 장치 업데이트 규칙이 만들어집니다. 기본적으로 이러한 새 디바이스 업데이트 규칙은 보류 상태에 할당 됩니다. 이는 테스트 장치에 대 한 규칙을 다운로드 하 고 설치할 수 있지만, 사용자가 업데이트를 사용할 수 있도록 하기 전에이를 테스트 하는 것을 가능 하 게 하는 프로덕션 장치에는 없습니다. 테스트를 기반으로 업데이트를 수락 하 고 배포 하거나 취소 하 고 삭제할 수 있습니다. 업데이트를 거부 하면 장치 업데이트는 해당 장치 업데이트 규칙에서 분리 됩니다.
+새 장치 업데이트가 시스템에 업로드 될 때마다 해당 하는 장치 업데이트 규칙이 만들어집니다. 기본적으로 이러한 새 장치 업데이트 규칙은 보류 중 상태에 할당 됩니다. 즉, 테스트 장치에는 규칙을 다운로드 하 고 설치할 수 있지만 프로덕션 장치에는 설치 하지 않아도 되므로 사용자가 해당 업데이트를 사용할 수 있도록 하는 것이 좋습니다. 테스트를 기반으로 업데이트를 수락 하 고 배포 하거나 거부 하 고 삭제 합니다. 업데이트를 거부 하면 장치 업데이트는 해당 장치 업데이트 규칙과의 연결이 끊어집니다.
 
 <div>
 
 
-디바이스에 더 이상 연결 되지 않는 장치 업데이트 파일은 Windows PowerShell 및 **일반 CsDeviceUpdateFile** cmdlet을 사용 하 여 제거할 수 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.
+장치 업데이트 더 이상 장치와 연결 되지 않은 파일은 Windows PowerShell 및 **일반 CsDeviceUpdateFile** cmdlet을 사용 하 여 제거할 수 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.
 
 <div>
 
@@ -57,13 +57,13 @@ _**마지막으로 수정한 주제:** 2013-02-20_
 <div>
 
 
-  - 예를 들어 다음 명령은 장치에 더 이상 연결 되지 않는 웹 서버 atl-cs-001.litwareinc.com에서 장치 업데이트 규칙을 제거 합니다.
+  - 예를 들어 다음 명령은 장치에 더 이상 연결 되어 있지 않은 웹 서버 atl-cs-001.litwareinc.com에서 모든 장치 업데이트 규칙을 제거 합니다.
     
         Clear-CsDeviceUpdateFile -Identity "service:WebServer:atl-cs-001.litwareinc.com"
 
 </div>
 
-자세한 내용은 [일반 CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile) cmdlet에 대 한 도움말 항목을 참조 하세요.
+자세한 내용은 [일반-CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile) cmdlet에 대 한 도움말 항목을 참조 하십시오.
 
 </div>
 

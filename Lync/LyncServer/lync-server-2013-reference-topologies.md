@@ -12,16 +12,16 @@ ms:contentKeyID: 48183544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bc7f3838cef5689cab0a81b59556c147f3588c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 145b5855f4576e68517e4bd837671000fb4a97e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724418"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41724418"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-05-21_
+_**마지막으로 수정 된 항목:** 2012-05-21_
 
-이상적인 Lync Server 토폴로지는 조직의 규모, 배포 하려는 작업 부하, 높은 사용 가능성 및 투자 비용에 대 한 기본 설정에 따라 달라 집니다.
+이상적인 Lync Server 토폴로지는 조직의 규모, 배포 하려는 작업 및 고가용성과 투자 비용에 대 한 기본 설정에 따라 달라 집니다.
 
-다음 항목에서는 각 토폴로지에 대 한 요구 사항을 충족 하는 많은 의사 결정의 의미를 포함 하 여 세 가지 참조 토폴로지에 대해 간략하게 설명 합니다.
+아래 항목에서는 각 토폴로지의 요구 사항을 지정하는 다양한 결정의 이유를 포함하여 세 가지 참조 토폴로지에 대해 간략하게 설명합니다.
 
 <div>
 
@@ -47,9 +47,9 @@ _**마지막으로 수정한 주제:** 2012-05-21_
 
   - [소규모 조직의 Lync Server 2013에 대 한 참조 토폴로지](lync-server-2013-reference-topology-for-small-organizations.md)
 
-  - [중간 규모 조직의 Lync Server 2013에 대한 참조 토폴로지](lync-server-2013-reference-topology-for-medium-size-organizations.md)
+  - [중간 규모 조직의 Lync Server 2013에 대 한 참조 토폴로지](lync-server-2013-reference-topology-for-medium-size-organizations.md)
 
-  - [데이터 센터가 여러 개인 대규모 조직에서 Lync Server 2013에 대한 참조 토폴로지](lync-server-2013-reference-topology-for-large-organizations-with-multiple-data-centers.md)
+  - [여러 데이터 센터가 있는 대규모 조직의 Lync Server 2013에 대 한 참조 토폴로지](lync-server-2013-reference-topology-for-large-organizations-with-multiple-data-centers.md)
 
 </div>
 

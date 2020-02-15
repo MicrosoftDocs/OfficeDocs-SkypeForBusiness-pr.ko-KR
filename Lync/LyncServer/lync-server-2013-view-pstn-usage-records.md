@@ -12,16 +12,16 @@ ms:contentKeyID: 48184361
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2551c8bbc40429d7e5bc4af45cae862991381a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 84ba8e2091a88238caee188f3542b76f652129c4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756682"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038040"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41756682"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-22_
+_**마지막으로 수정 된 항목:** 2013-02-22_
 
-PSTN (공개 통신 네트워크) 사용 레코드는 조직의 여러 사용자 또는 사용자 그룹에 의해 이루어질 수 있는 통화 클래스 (예: 내부, 지역 또는 시외)를 지정 합니다. 자세한 내용은 계획 설명서의 [Lync Server 2013의 PSTN 사용 레코드](lync-server-2013-pstn-usage-records.md) 를 참조 하세요.
+PSTN(공중 전화망) 사용 레코드는 조직의 여러 사용자 또는 사용자 그룹이 수행할 수 있는 통화 클래스(내부, 시내, 시외 등)를 지정합니다. 자세한 내용은 계획 설명서의 [Lync Server 2013에서 PSTN 사용 레코드](lync-server-2013-pstn-usage-records.md) 를 참조 하십시오.
 
 <div>
 
 ## <a name="to-view-a-pstn-usage-record-by-using-lync-server-control-panel"></a>Lync Server 제어판을 사용 하 여 PSTN 사용 레코드를 보려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온 합니다. 자세한 내용은 [Lync Server 2013에서 설치 권한 위임을](lync-server-2013-delegate-setup-permissions.md)참조 하세요.
+1.  RTCUniversalServerAdmins 그룹의 구성원으로 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온 합니다. 자세한 내용은 [Lync Server 2013에서 설치 권한 위임을](lync-server-2013-delegate-setup-permissions.md)참조 하십시오.
 
-2.  브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+2.  브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.
 
-3.  왼쪽 탐색 모음에서 **음성 라우팅을** 클릭 한 다음 **PSTN 사용**을 클릭 합니다.
+3.  왼쪽 탐색 모음에서 **음성 라우팅**을 클릭하고 **PSTN 사용**을 클릭합니다.
 
-4.  **Pstn 사용** 페이지에서 보려는 PSTN 사용 레코드를 강조 표시 하 고 **편집** 을 클릭 한 다음 **세부 정보 표시**를 클릭 합니다.
+4.  **PSTN 사용** 페이지에서 보려는 PSTN 사용 레코드를 강조 표시하고 **편집**을 클릭한 후에 **세부 정보 표시**를 클릭합니다.
     
     <div>
     
 
     > [!NOTE]  
-    > 선택한 PSTN 사용 레코드의 읽기 전용 페이지에 연결 된 경로와 관련 음성 정책이 표시 됩니다.
+    > 선택한 PSTN 사용 레코드의 읽기 전용 페이지에 연결된 경로 및 음성 정책이 표시됩니다.
 
     
     </div>
@@ -66,24 +66,24 @@ PSTN (공개 통신 네트워크) 사용 레코드는 조직의 여러 사용자
 
 ## <a name="viewing-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 PSTN 사용 정보 보기
 
-Windows PowerShell 및 **Get-help Stnusage** cmdlet을 사용 하 여 PSTN 사용량을 볼 수도 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+또한 Windows PowerShell 및 **Get-CsPstnUsage** cmdlet을 사용 하 여 PSTN 사용량을 볼 수 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
 
 <div>
 
-## <a name="to-view-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell cmdlet을 사용 하 여 PSTN 사용 정보를 보려면
+## <a name="to-view-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell cmdlet을 사용 하 여 PSTN 사용 정보를 확인 하려면
 
-  - 모든 PSTN 용도에 대 한 정보를 보려면 Lync Server 관리 셸에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
+  - 모든 PSTN 사용에 대 한 정보를 보려면 Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다.
     
         Get-CsPstnUsage
     
-    이 명령은 다음과 같은 정보를 반환 합니다.
+    이 명령은 다음과 비슷한 정보를 반환합니다.
     
         Identity : Global
         Usage    : {Internal, Local, Long Distance}
 
 </div>
 
-자세한 내용은 [가져오기-CsPstnUsage](https://docs.microsoft.com/powershell/module/skype/Get-CsPstnUsage)을 참조 하세요.
+자세한 내용은 [Get-CsPstnUsage](https://docs.microsoft.com/powershell/module/skype/Get-CsPstnUsage)를 참조하십시오.
 
 </div>
 

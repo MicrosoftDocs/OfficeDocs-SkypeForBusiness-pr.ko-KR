@@ -12,16 +12,16 @@ ms:contentKeyID: 48183673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7a6be73d31892b5a0d5a3a5b10ad136f92afbf5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 287fc0ceff26a5940d717b4efa1ef2c525acb0f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763822"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038690"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763822"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-08-20_
+_**마지막으로 수정 된 항목:** 2012-08-20_
 
-Imreport요약 테이블은 조직에 보관 된 인스턴트 메시징 세션에 대 한 전반적인 보고서를 제공 합니다. 이 표는 Microsoft Lync Server 2013에서 도입 되었습니다.
+IMReportSummaryTable은 조직에서 진행하는 인스턴트 메시징 세션에 대한 전체 보고서를 제공합니다. 이 표는 Microsoft Lync Server 2013에 도입 되었습니다.
 
 
 <table>
@@ -52,33 +52,33 @@ Imreport요약 테이블은 조직에 보관 된 인스턴트 메시징 세션�
 <th>열</th>
 <th>데이터 형식</th>
 <th>키/인덱스</th>
-<th>세부적인</th>
+<th>세부 정보</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>StartTime</strong></p></td>
-<td><p>dmtf</p></td>
-<td><p>주요한</p></td>
-<td><p>인스턴트 메시징 세션이 시작 된 날짜 및 시간입니다.</p></td>
+<td><p>datetime</p></td>
+<td><p>Primary</p></td>
+<td><p>인스턴트 메시징 세션이 시작된 날짜 및 시간입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TimePeriod</strong></p></td>
 <td><p>char (1)</p></td>
-<td><p>주요한</p></td>
+<td><p>Primary</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PoolFQDN</strong></p></td>
 <td><p>nvarchar (257)</p></td>
-<td><p>주요한</p></td>
-<td><p>세션을 호스트 하는 풀의 정규화 된 도메인 이름입니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>세션을 호스팅하는 풀의 정규화된 도메인 이름입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AuthType</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
-<td><p>우선 순위 (예: 긴급 또는 비 긴급 통화) 우선 순위 정보는 <a href="lync-server-2013-callpriorities-table.md">Lync Server 2013의 callpriorities 테이블</a>에 저장 됩니다.</p></td>
+<td><p>Primary</p></td>
+<td><p>통화의 우선 순위(예: 긴급, 일반)입니다. 우선 순위 정보는 <a href="lync-server-2013-callpriorities-table.md">Lync Server 2013의 callpriorities 테이블</a>에 저장 됩니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SessionCount</strong></p></td>
@@ -90,7 +90,7 @@ Imreport요약 테이블은 조직에 보관 된 인스턴트 메시징 세션�
 <td><p><strong>MsgCount</strong></p></td>
 <td><p>bigint</p></td>
 <td></td>
-<td><p>세션 중에 교환 된 총 인스턴트 메시지 수입니다.</p></td>
+<td><p>세션 중 교환된 총 인스턴트 메시지 수입니다.</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 229f5db57a4e61306dec541b402a545b8df0e77a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7addcd213fd351154ad2b3d55360cbdb6dad6286
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762116"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043100"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-location-policy-in-lync-server-2013"></a>Lync Server 2013의 위치 정책 관리
+# <a name="managing-location-policy-in-lync-server-2013"></a>Lync Server 2013에서 위치 정책 관리
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762116"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-15_
+_**마지막으로 수정 된 항목:** 2012-10-15_
 
-이 섹션의 절차를 사용 하 여 Lync server 제어판의 **네트워크 구성** 그룹에서 lync server 2013 위치 정책을 관리할 수 있습니다.
+Lync Server 제어판의 **네트워크 구성** 그룹에서 lync server 2013 location 정책을 관리 하려면이 섹션의 절차를 사용 합니다.
 
 <div>
 
@@ -53,9 +53,9 @@ _**마지막으로 수정한 주제:** 2012-10-15_
 
 <div>
 
-## <a name="related-sections"></a>관련 단원
+## <a name="related-sections"></a>관련 섹션
 
-[Lync Server 2013의 응급 서비스 계획(E9-1-1)](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+[Lync Server 2013의 응급 서비스 계획 (E9-1-1)](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
 </div>
 
@@ -64,7 +64,7 @@ _**마지막으로 수정한 주제:** 2012-10-15_
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013의 위치 정책 정의](lync-server-2013-defining-the-location-policy.md)  
+[Lync Server 2013에 대 한 위치 정책 정의](lync-server-2013-defining-the-location-policy.md)  
   
 
 </div>

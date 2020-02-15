@@ -12,20 +12,20 @@ ms:contentKeyID: 48184216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73bca2a47c65b4654ffdc94eeab2ef3dc3924e92
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28c1a068df21883a80e447d3407e023f3eb7de9c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726018"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045260"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013에서 영구 채팅 서버 설치
+# <a name="installing-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013에 영구 채팅 서버 설치
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41726018"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-01_
+_**마지막으로 수정 된 항목:** 2012-10-01_
 
-영구 채팅 서버 설치는 Lync Server 2013 설정에 통합 되어 Lync Server 2013 설치에 사용 하는 것과 동일한 부트스트래퍼를 사용 합니다. 설치 지침은 배포 설명서에서 [Lync Server 2013 배포](lync-server-2013-deploying-lync-server.md) 를 참조 하세요.
+영구 채팅 서버 설치는 Lync Server 2013 설치 프로그램에 통합 되며 Lync Server 2013에서 설치에 사용 하는 것과 동일한 부트스트래퍼를 사용 합니다. 설치 지침에 대한 자세한 내용은 배포 설명서에서 [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md)를 참조하십시오.
 
 </div>
 

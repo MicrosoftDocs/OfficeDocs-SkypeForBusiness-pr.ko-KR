@@ -12,16 +12,16 @@ ms:contentKeyID: 48185019
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98fd74831b90d88c7adc473c51ca88940eb34f18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f90be73c63921ebe9971abae85b2da22e76a560
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743198"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743198"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-28_
+_**마지막으로 수정 된 항목:** 2012-09-28_
 
-CallType 테이블은 가능한 통화 형식 목록을 저장 하는 정적 테이블입니다.
+CallType 테이블은 사용 가능한 통화 유형 목록이 저장된 정적 테이블입니다.
 
 
 <table>
@@ -52,28 +52,28 @@ CallType 테이블은 가능한 통화 형식 목록을 저장 하는 정적 테
 <th>열</th>
 <th>데이터 형식</th>
 <th>키/인덱스</th>
-<th>세부적인</th>
+<th>세부 정보</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>CallTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>주요한</p></td>
+<td><p>Primary</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallType</strong></p></td>
 <td><p>varchar</p></td>
 <td></td>
-<td><p>허용 되는 값:</p>
+<td><p>허용되는 값은 다음과 같습니다.</p>
 <ul>
-<li><p>0--알 수 없음</p></li>
-<li><p>1 – 인스턴트 메시지</p></li>
+<li><p>0 -- 알 수 없음</p></li>
+<li><p>1 -- 인스턴트 메시징</p></li>
 <li><p>2--응용 프로그램 공유</p></li>
-<li><p>3--오디오</p></li>
-<li><p>4-오디오 및 비디오</p></li>
-<li><p>5-파일 전송</p></li>
+<li><p>3 -- 오디오</p></li>
+<li><p>4 -- 오디오 및 비디오</p></li>
+<li><p>5 -- 파일 전송</p></li>
 </ul></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 조정된 디렉터 풀'
+title: 'Lync Server 2013: 확장 된 디렉터 풀'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184055
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93c3147f9397db444e816dea433fbe5478c8e87a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a2ddb19bab0ab47d1afe0014e06aad6189259b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764986"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049680"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scaled-director-pool-in-lync-server-2013"></a>Lync Server 2013의 조정된 디렉터 풀
+# <a name="scaled-director-pool-in-lync-server-2013"></a>Lync Server 2013의 조정 된 디렉터 풀
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41764986"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-08_
+_**마지막으로 수정 된 항목:** 2012-09-08_
 
-디렉터는 단일 디렉터 구성 또는 디렉터 풀로 배포할 수 있습니다. 이 섹션에서는 풀링된 두 디렉터 토폴로지에 대 한 토폴로지 및 구성을 정의 합니다. 단일 디렉터 배포를 계획 하는 경우에는 [Lync Server 2013의 단일 디렉터](lync-server-2013-single-director.md) 항목에서 해당 토폴로지에 대 한 계획 고려 사항을 참조 하세요.
+디렉터는 단일 디렉터 구성 또는 디렉터 풀에 배포 될 수 있습니다. 이 섹션에서는 풀링된 디렉터 토폴로지의 두 가지 토폴로지 및 구성을 정의 합니다. 단일 디렉터 배포를 계획 하는 경우 해당 토폴로지의 계획 고려 사항에 대해서는 [Lync Server 2013의 단일 디렉터](lync-server-2013-single-director.md) 항목을 참조 하십시오.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013의 조정된 디렉터 풀 - DNS 부하 분산 및 하드웨어 부하 분산 장치](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
+  - [Lync Server 2013의 확장 된 디렉터 풀-DNS 부하 분산 및 하드웨어 부하 분산 장치](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
 
-  - [Lync Server 2013의 조정된 디렉터 풀 - 하드웨어 부하 분산 장치](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
+  - [확장 된 디렉터 풀-Lync Server 2013의 하드웨어 부하 분산 장치](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
 
 </div>
 

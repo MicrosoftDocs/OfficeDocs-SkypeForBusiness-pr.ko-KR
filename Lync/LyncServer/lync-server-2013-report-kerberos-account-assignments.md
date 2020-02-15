@@ -12,16 +12,16 @@ ms:contentKeyID: 48184151
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4c5a6c118596acd406c3741c4dd2ee780fd381b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c742e6e7e5cedc773e0275700a738afd26a6777d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746698"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042015"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,39 +35,39 @@ ms.locfileid: "41746698"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-01-16_
+_**마지막으로 수정 된 항목:** 2012-01-16_
 
-이 절차를 성공적으로 완료 하려면 RTCUniversalServerAdmins 그룹의 구성원 인 사용자로 로그온 해야 합니다.
+이 절차를 성공적으로 완료하려면 RTCUniversalServerAdmins 그룹의 구성원인 사용자로 로그온해야 합니다.
 
-**Get-CsKerberosAccountAssignment** cmdlet을 사용 하 여 Kerberos 인증 계정 할당에 대 한 정보를 쿼리하고 배포의 현재 배정에 대 한 정보를 보고할 수 있습니다.
+**Get-CsKerberosAccountAssignment** cmdlet을 사용하여 Kerberos 인증 계정 지정에 대한 정보를 쿼리하고 배포의 현재 지정에 대한 정보를 보고할 수 있습니다.
 
 <div>
 
-## <a name="to-query-kerberos-authentication-account-assignments-for-a-site"></a>사이트에 대 한 Kerberos 인증 계정 할당을 쿼리하려면
+## <a name="to-query-kerberos-authentication-account-assignments-for-a-site"></a>사이트에 대한 Kerberos 인증 계정 지정을 쿼리하려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원으로 Lync Server 2013를 실행 하는 도메인의 컴퓨터 또는 관리 도구가 설치 된 컴퓨터에 로그온 합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원으로 Lync Server 2013 또는 관리 도구가 설치 된 컴퓨터에 있는 컴퓨터에 로그온 합니다.
 
-2.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  명령줄에서 다음 명령 중 하나를 실행 합니다.
+3.  명령줄에서 다음 명령 중 하나를 실행합니다.
     
-      - 조직에서 모든 Kerberos 인증 계정 과제를 쿼리하고 각각에 대 한 과제 정보를 반환 하려면 다음 매개 변수 없이 cmdlet을 실행 합니다.
+      - 조직의 모든 Kerberos 인증 계정 지정을 쿼리하고 각 계정에 대한 지정 정보를 반환하려면 매개 변수 없이 cmdlet을 실행합니다.
         
             Get-CsKerberosAccountAssignment
     
-      - 배포에서 모든 Kerberos 인증 계정 할당을 쿼리하고 각 사용자에 대 한 사이트 할당 정보를 반환 하려면 Id 매개 변수를 사용 하 여 cmdlet을 실행 합니다.
+      - 배포의 모든 Kerberos 인증 계정 지정을 쿼리하고 각 계정에 대한 사이트 지정 정보를 반환하려면 ID 매개 변수를 사용하여 cmdlet을 실행합니다.
         
             Get-CsKerberosAccountAssignment -Identity "site:SiteName"
         
-        예를 들면 다음과 같습니다.
+        예:
         
             Get-CsKerberosAccountAssignment -Identity "site:Redmond"
     
-      - 모든 Kerberos 인증 계정 과제를 단일 사이트에 쿼리하여 각에 대 한 할당 정보를 반환 하려면 Filter 매개 변수를 사용 하 여 cmdlet을 실행 합니다.
+      - 단일 사이트의 모든 Kerberos 인증 계정 지정을 쿼리하고 각 계정에 대한 지정 정보를 반환하려면 필터 매개 변수를 사용하여 cmdlet을 실행합니다.
         
             Get-CsKerberosAccountAssignment -Filter "SiteName"
         
-        예를 들면 다음과 같습니다.
+        예:
         
             Get-CsKerberosAccountAssignment -Filter "*Redmond"
         
@@ -75,7 +75,7 @@ _**마지막으로 수정한 주제:** 2012-01-16_
         
 
         > [!NOTE]  
-        > * SiteName 필터 매개 변수를 지정 하면 사이트 식별자 (예: 사이트 식별자의 Redmond 문자열을 포함 하는 모든 사이트)에 지정 된 사이트 이름을 포함 하는 모든 사이트에 대 한 정보가 반환 됩니다.
+        > 필터 매개 변수에 대해 *SiteName을 지정하면 사이트 식별자에서 임의의 위치에 지정한 사이트 이름이 포함된 모든 사이트(예: 사이트 식별자에 Redmond 문자열이 포함된 모든 사이트)에 대한 정보가 반환됩니다.
 
         
         </div>

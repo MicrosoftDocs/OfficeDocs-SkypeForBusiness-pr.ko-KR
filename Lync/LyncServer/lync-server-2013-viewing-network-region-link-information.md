@@ -12,16 +12,16 @@ ms:contentKeyID: 49733701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 935d1a98bd4f446ec8861ae8382eb724611a945f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7046f4f405bc3ece0170c4d598369828b47aa910
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757282"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046451"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,32 +35,32 @@ ms.locfileid: "41757282"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-23_
+_**마지막으로 수정 된 항목:** 2013-02-23_
 
-호출 허용 제어 (CAC)의 일부로 두 네트워크 지역 간 링크를 볼 수 있습니다. 네트워크 내의 영역은 실제 WAN (광역 네트워크) 연결을 통해 연결 됩니다. Lync Server 제어판을 사용 하 여 두 네트워크 지역 간의 기존 링크를 볼 수 있습니다. 네트워크 지역 링크를 만들거나 수정 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 네트워크 지역 링크 구성을](lync-server-2013-configuring-network-region-links.md)참조 하세요.
+CAC(통화 허용 제어)의 일환으로 두 네트워크 지역 간의 링크를 볼 수 있습니다. 네트워크 내의 지역은 실제 WAN(Wide Area Network) 연결을 통해 연결됩니다. Lync Server 제어판을 사용 하 여 두 네트워크 지역 간의 기존 연결을 볼 수 있습니다. 네트워크 지역 링크를 만들거나 수정 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 네트워크 지역 링크 구성을](lync-server-2013-configuring-network-region-links.md)참조 하십시오.
 
 <div>
 
 ## <a name="to-view-a-network-region-link-in-lync-server-control-panel"></a>Lync Server 제어판에서 네트워크 지역 링크를 보려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원 이거나 해당 사용자 권한이 있는 사용자 계정에서 또는 CsAdministrator 역할에 할당 된 경우 내부 배포의 컴퓨터에 로그온 합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원 인 사용자 계정 (또는 이와 동등한 사용자 권한 포함) 또는 CsAdministrator 역할이 할당 되 면 내부 배포의 컴퓨터에 로그온 합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+2.  브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.
 
-3.  왼쪽 탐색 모음에서 **네트워크 구성을** 클릭 한 다음 **지역 링크**를 클릭 합니다.
+3.  왼쪽 탐색 모음에서 **네트워크 구성**을 클릭한 다음 **지역 링크**를 클릭합니다.
 
-4.  **지역 링크** 페이지에서 보려는 지역 링크를 클릭 합니다.
+4.  **지역 링크** 페이지에서 보려는 지역 링크를 클릭합니다.
     
     <div>
     
 
     > [!NOTE]  
-    > 한 번에 하나의 지역 링크에 대 한 정보만 볼 수 있습니다.
+    > 한 번에 하나의 지역 링크에 대한 정보만 볼 수 있습니다.
 
     
     </div>
 
-5.  **편집** 메뉴에서 **세부 정보 표시**를 선택 합니다.
+5.  **편집** 메뉴에서 **세부 정보 표시**를 선택합니다.
 
 </div>
 
@@ -68,17 +68,17 @@ _**마지막으로 수정한 주제:** 2013-02-23_
 
 ## <a name="viewing-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 네트워크 지역 링크 정보 보기
 
-Windows PowerShell 및 **Get-Csnetworkregion 링크** cmdlet을 사용 하 여 네트워크 지역 링크를 볼 수 있습니다. Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+Windows PowerShell 및 **Get-Csnetworkregion 링크** cmdlet을 사용 하 여 네트워크 지역 링크를 볼 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
 
 <div>
 
 ## <a name="to-view-network-region-link-information"></a>네트워크 지역 링크 정보를 보려면
 
-  - 모든 네트워크 지역 링크에 대 한 정보를 보려면 Lync Server 관리 셸에서 다음 명령을 입력 한 다음 enter 키를 누릅니다.
+  - 모든 네트워크 지역 링크에 대 한 정보를 보려면 Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다.
     
         Get-CsNetworkRegionLink
     
-    이 명령은 다음과 같은 정보를 반환 합니다.
+    이 명령은 다음과 비슷한 정보를 반환합니다.
     
         Identity            : NorthwestToCalifornia
         BWPolicyProfileID   :
@@ -88,7 +88,7 @@ Windows PowerShell 및 **Get-Csnetworkregion 링크** cmdlet을 사용 하 여 �
 
 </div>
 
-자세한 내용은 [Get-Csnetwork국가 링크](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)를 참조 하세요.
+자세한 내용은 [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)을 참조하십시오.
 
 </div>
 

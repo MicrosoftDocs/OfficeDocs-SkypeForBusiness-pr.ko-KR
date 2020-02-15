@@ -12,16 +12,16 @@ ms:contentKeyID: 48185512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b49bc53a02f9b3a5beb4458dcebaa9aa6398823a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bcd19d3f0ae11b38afd6d95fc443683963185075
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758132"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046411"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758132"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-22_
+_**마지막으로 수정 된 항목:** 2013-02-22_
 
-Lync Server 2013 다이얼 플랜은 전화 인증 및 통화 라우팅과 관련해 서 명명 된 위치, 개인 사용자 또는 연락처 개체의 전화 번호를 변환 하는 명명 된 정규화 규칙 집합입니다.
+Lync Server 2013 다이얼 플랜은 전화 인증 및 통화 라우팅을 위해 명명 된 위치, 개별 사용자 또는 연락처 개체의 전화 번호를 변환 하는 명명 된 정규화 규칙 집합입니다.
 
 <div>
 
 
 > [!NOTE]  
-> 자세한 내용은 계획 설명서의 <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013에서 다이얼 플랜 및 정규화 규칙</A> 을 참조 하세요.
+> 자세한 내용은 계획 설명서의 <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013에서 다이얼 플랜 및 정규화 규칙</A> 을 참조 하십시오.
 
 
 

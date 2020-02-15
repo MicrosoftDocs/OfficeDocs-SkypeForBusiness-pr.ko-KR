@@ -12,16 +12,16 @@ ms:contentKeyID: 48185527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e1772a538330c897cdcc77e75e7ad796792c1d2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 25a9de5a754545aa49c4a7d9dda6b8378f448eab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724238"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050850"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,52 +35,52 @@ ms.locfileid: "41724238"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-09_
+_**마지막으로 수정 된 항목:** 2012-10-09_
 
-복제 cmdlet은 Lync Server 복제를 모니터링 하 고 관리 하는 방법을 제공 합니다. 이러한 cmdlet을 사용 하 여 복제 설정을 구성할 수 있습니다. 복제 진행률을 모니터링 하려면 서버에서 수동으로 복제를 강제로 수행 합니다.
+복제 cmdlet은 Lync Server 복제를 모니터링 및 관리할 수 있는 방법을 제공 합니다. 이러한 cmdlet를 사용하여 복제 설정을 구성하고 복제 진행 상태를 모니터링하며 서버에서 복제를 수동으로 수행할 수도 있습니다.
 
 <div>
 
 ## <a name="replication-cmdlets"></a>복제 Cmdlet
 
-다음은 복제 관리와 직접 관련 된 cmdlet의 목록입니다.
+다음은 복제 관리와 직접 관련된 cmdlet 목록입니다.
 
-**복제본**
+**복제**
 
   - <span></span>  
-    [Debug-CsInterPoolReplication](https://technet.microsoft.com/en-us/library/JJ619185(v=OCS.15))
+    [디버그-CsInterPoolReplication](https://technet.microsoft.com/library/JJ619185(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsManagementStoreReplication-호출](https://technet.microsoft.com/en-us/library/Gg413060(v=OCS.15))
+    [Invoke-csmanagementstorereplication-를 호출 합니다.](https://technet.microsoft.com/library/Gg413060(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/en-us/library/Gg399052(v=OCS.15))
+    [Get-csmanagementstorereplicationstatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [-CsReplica 사용](https://technet.microsoft.com/en-us/library/Gg425965(v=OCS.15))
+    [사용-CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))
 
   - <span></span>  
-    [테스트-CsReplica](https://technet.microsoft.com/en-us/library/JJ205289(v=OCS.15))
+    [테스트-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398548(v=OCS.15))
+    [Get-csuserreplicatorconfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))
 
   - <span></span>  
-    [New-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg399059(v=OCS.15))
+    [Get-csuserreplicatorconfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg425738(v=OCS.15))
+    [Get-csuserreplicatorconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg425738(v=OCS.15))
 
   - <span></span>  
-    [Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398540(v=OCS.15))
+    [Get-csuserreplicatorconfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))
 
 </div>
 

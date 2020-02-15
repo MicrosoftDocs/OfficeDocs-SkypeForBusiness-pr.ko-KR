@@ -12,16 +12,16 @@ ms:contentKeyID: 48185117
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3478bb3bb837e44ed33597f72738b181b4c67561
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 581ce96b0c0a6ad0e4edd68eddbfacb160bf13f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762916"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762916"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-28_
+_**마지막으로 수정 된 항목:** 2012-09-28_
 
-병합 마법사를 실행할 때 중재 서버는 Lync Server 2013 파일럿 토폴로지에 병합 됩니다. 그러나 Office Communications Server 2007 R2 풀이 Lync Server 2013 조정 서버와 통신할 수 없기 때문에 모든 사용자를 마이그레이션한 후에는 Lync Server 2013 조정 서버를 구성할 수 있습니다. 병렬 마이그레이션 중에 Lync Server 2013 풀은 Office Communications Server 2007 R2 중재 서버와 통신 합니다.
+병합 마법사를 실행 하면 중재 서버가 Lync Server 2013 파일럿 토폴로지에 병합 됩니다. 그러나 Office Communications Server 2007 R2 풀이 Lync Server 2013 중재 서버와 통신할 수 없으므로 모든 사용자가 마이그레이션된 후에 Lync Server 2013 중재 서버를 구성 합니다. 병렬 마이그레이션 중에 Lync Server 2013 풀은 Office Communications Server 2007 R2 중재 서버와 통신 합니다.
 
-Lync Server 2013 조정 서버를 구성할 때는 Office Communications Server 2007 R2 게이트웨이도 업그레이드 하거나 교체 해야 합니다. Office Communications Server 2007 R2 게이트웨이는 Lync Server 2013 중재 서버를 지원 하지 않습니다. Lync Server 2013에 대해 인증 된 게이트웨이를 배포 하 고 Lync Server 2013 조정 서버와 연결 해야 합니다. 이 단계는 Office Communications Server 2007 R2 배포를 완전히 서비스 해제 하기 전에 필요 합니다.
+Lync Server 2013 중재 서버를 구성할 때는 Office Communications Server 2007 R2 게이트웨이도 업그레이드 하거나 교체 해야 합니다. Office Communications Server 2007 R2 게이트웨이는 Lync Server 2013 중재 서버를 지원 하지 않습니다. Lync Server 2013에 대 한 인증을 받은 게이트웨이를 배포 하 고 Lync Server 2013 중재 서버에 연결 해야 합니다. Office Communications Server 2007 R2 배포를 완전히 해제 하려면이 단계를 수행 해야 합니다.
 
-이 섹션의 항목에서는 Lync Server 2013 조정 서버의 마이그레이션을 완료 한 후 수행 해야 하는 구성 작업에 대해 설명 합니다. Collocated 중재 서버를 독립 실행형 중재 서버로 전환 하는 것은 선택적 작업입니다.
+이 섹션의 항목에서는 Lync Server 2013 중재 서버의 마이그레이션을 완료 한 후에 수행 해야 하는 구성 작업에 대해 설명 합니다. 배치 된 중재 서버를 독립 실행형 중재 서버로 전환 하는 것은 선택적 작업입니다.
 
   - [중재 서버 구성](configure-mediation-server.md)
 
   - [새 Lync Server 2013 중재 서버를 사용 하도록 음성 경로 변경](change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md)
 
-  - [Collocated 중재 서버를 독립 실행형 중재 서버로 전환 (선택 사항)](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
+  - [배치 된 중재 서버를 독립 실행형 중재 서버로 전환 (선택 사항)](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
 
 </div>
 

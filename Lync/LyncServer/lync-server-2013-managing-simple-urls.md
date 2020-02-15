@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 간단한 Url 관리'
+title: 'Lync Server 2013: 단순 Url 관리'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1436855e3a5de0a20a0d08a8b8a526939d1bd17c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e72e562c2563a4e90613e2a75c424587bfb7b33d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757982"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042475"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-simple-urls-in-lync-server-2013"></a>Lync Server 2013의 간단한 Url 관리
+# <a name="managing-simple-urls-in-lync-server-2013"></a>Lync Server 2013에서 단순 Url 관리
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757982"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-11_
+_**마지막으로 수정 된 항목:** 2012-10-11_
 
-이 섹션의 절차를 사용 하 여 Lync Server 2013 제어판의 **토폴로지** 페이지에서 간단한 url을 관리할 수 있습니다.
+이 섹션의 절차를 사용 하 여 Lync Server 2013 제어판의 **토폴로지** 페이지에서 단순 url을 관리할 수 있습니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-[Lync Server 2013에서 간단한 URL 세부 정보 보기](lync-server-2013-view-simple-url-details.md)
+[Lync Server 2013에서 단순 URL 세부 정보 보기](lync-server-2013-view-simple-url-details.md)
 
 </div>
 
@@ -52,7 +52,7 @@ _**마지막으로 수정한 주제:** 2012-10-11_
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013의 단순 URL 계획](lync-server-2013-planning-for-simple-urls.md)  
+[Lync Server 2013의 단순 Url 계획](lync-server-2013-planning-for-simple-urls.md)  
   
 
 </div>

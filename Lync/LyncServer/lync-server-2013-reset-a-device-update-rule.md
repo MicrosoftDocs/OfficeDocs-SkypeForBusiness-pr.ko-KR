@@ -12,16 +12,16 @@ ms:contentKeyID: 51803980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36a85ed29f6bf4838428af302904d80a2f792388
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c1079236ceab3fda42b1920675761f272333d264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723768"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41723768"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-23_
+_**마지막으로 수정 된 항목:** 2013-02-23_
 
-테스트 장치에서 업데이트가 작동 하는 방식이 마음에 들지 않는 경우 디바이스 업데이트 규칙을 다시 설정 하 여 해당 규칙의 보류 상태를 제거 하 고 테스트 장치에서 업데이트를 제거할 수 있습니다.
+테스트 장치에서 업데이트가 작동 하는 방식이 마음에 들지 않는 경우에는 장치 업데이트 규칙을 다시 설정 하 여 해당 규칙의 보류 중 상태를 제거 하 고 테스트 장치에서 업데이트를 제거할 수 있습니다.
 
-Lync Server 제어판 또는 Windows PowerShell을 사용 하 여 디바이스 업데이트 규칙을 제거할 수 있습니다.
+Lync Server 제어판 또는 Windows PowerShell을 사용 하 여 장치 업데이트 규칙을 제거할 수 있습니다.
 
 <div>
 
 
 > [!NOTE]  
-> 이미 승인한 규칙 (즉, 롤아웃)을 제거 하려면 복원 합니다. 자세한 내용은 <A href="lync-server-2013-restore-a-device-update-rule.md">Lync Server 2013에서 장치 업데이트 규칙 복원을</A>참조 하세요.
+> 이미 승인 된 규칙 (롤아웃)을 제거 하려면 복원 합니다. 자세한 내용은 <A href="lync-server-2013-restore-a-device-update-rule.md">Lync Server 2013에서 장치 업데이트 규칙 복원을</A>참조 하십시오.
 
 
 
@@ -53,29 +53,29 @@ Lync Server 제어판 또는 Windows PowerShell을 사용 하 여 디바이스 �
 
 <div>
 
-## <a name="to-reset-a-device-update-rule-by-using-lync-server-control-panel"></a>Lync Server 제어판을 사용 하 여 디바이스 업데이트 규칙을 다시 설정 하려면
+## <a name="to-reset-a-device-update-rule-by-using-lync-server-control-panel"></a>Lync Server 제어판을 사용 하 여 장치 업데이트 규칙을 다시 설정 하려면
 
-1.  CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당 된 사용자 계정에서 내부 배포의 컴퓨터에 로그온 합니다.
+1.  CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+2.  브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.
 
-3.  왼쪽 탐색 모음에서 **클라이언트**를 클릭 한 다음 **장치 업데이트** 탐색 단추를 클릭 합니다.
+3.  왼쪽 탐색 모음에서 **클라이언트**를 클릭 하 고 **장치 업데이트** 탐색 단추를 클릭 합니다.
 
 4.  **장치 업데이트** 페이지에서 다음 중 하나를 수행 합니다.
     
-      - 하나의 규칙을 다시 설정 하려면 다시 설정 하려는 규칙을 선택 합니다.
+      - 규칙 하나를 다시 설정 하려면 다시 설정 하려는 규칙을 선택 합니다.
     
       - 모든 규칙을 다시 설정 하려면 **편집** 메뉴에서 **모두 선택을**클릭 합니다.
     
-      - 한 브랜드의 모든 규칙을 다시 설정 하려면 **브랜드** 열 메뉴를 사용 합니다.
+      - 한 브랜드에 대해 모든 규칙을 다시 설정 하려면 **브랜드** 열 메뉴를 사용 합니다.
 
-5.  **작업**을 클릭 한 다음 **보류 중인 업데이트 취소**를 클릭 합니다.
+5.  **동작**을 클릭 한 다음 **보류 중인 업데이트 취소**를 클릭 합니다.
     
     <div>
     
 
     > [!TIP]  
-    > 취소 한 디바이스 업데이트 규칙을 롤아웃할 필요가 없는 경우에는 삭제 하는 것이 좋습니다. 자세한 내용은 <A href="lync-server-2013-remove-a-device-update-rule.md">Lync Server 2013에서 장치 업데이트 규칙 제거</A>를 참조 하세요.
+    > 취소 한 장치 업데이트 규칙을 롤아웃할 필요가 없는 경우에는 삭제 하는 것이 좋습니다. 자세한 내용은 <A href="lync-server-2013-remove-a-device-update-rule.md">Lync Server 2013에서 장치 업데이트 규칙 제거</A>를 참조 하십시오.
 
     
     </div>
@@ -86,7 +86,7 @@ Lync Server 제어판 또는 Windows PowerShell을 사용 하 여 디바이스 �
 
 ## <a name="resetting-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 장치 업데이트 규칙 다시 설정
 
-Windows PowerShell 및 **reset-CsDeviceUpdateRule** cmdlet을 사용 하 여 디바이스 업데이트 규칙을 다시 설정할 수도 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸에서 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.
+Windows PowerShell 및 **get-csdeviceupdaterule** cmdlet을 사용 하 여 장치 업데이트 규칙을 다시 설정할 수도 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.
 
 <div>
 
@@ -102,7 +102,7 @@ Windows PowerShell 및 **reset-CsDeviceUpdateRule** cmdlet을 사용 하 여 디
 
 ## <a name="to-reset-a-specific-device-update-rule-on-a-server"></a>서버에서 특정 장치 업데이트 규칙을 다시 설정 하려면
 
-  - 다음 명령은 웹 서버 atl-cs-001.litwareinc.com에서 장치 업데이트 규칙 d5ce3c10-2588-420a-82ac-dc2d9b1222ff9을 다시 설정 합니다.
+  - 다음 명령은 웹 서버 atl-cs-001.litwareinc.com에서 장치 업데이트 규칙 d5ce3c10-2588-420a-82ac-82ac-dc2d9b1222ff9를 다시 설정 합니다.
     
         Reset-CsDeviceUpdateRule -Identity "service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9"
 
@@ -122,13 +122,13 @@ Windows PowerShell 및 **reset-CsDeviceUpdateRule** cmdlet을 사용 하 여 디
 
 ## <a name="to-reset-all-the-device-updates-rules-that-have-a-specific-brand"></a>특정 브랜드의 모든 장치 업데이트 규칙을 다시 설정 하려면
 
-  - 이 예제에서는 Microsoft와 동일한 브랜드를 가진 조직 전체의 모든 장치 업데이트가 다시 설정 됩니다.
+  - 이 예에서는 조직이 다음과 같은 브랜드의 조직 전체에서 모든 장치 업데이트가 다시 설정 됩니다.
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Reset-CsDeviceUpdateRule
 
 </div>
 
-자세한 내용은 [CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Reset-CsDeviceUpdateRule) cmdlet에 대 한 도움말 항목을 참조 하세요.
+자세한 내용은 [get-csdeviceupdaterule](https://docs.microsoft.com/powershell/module/skype/Reset-CsDeviceUpdateRule) cmdlet에 대 한 도움말 항목을 참조 하십시오.
 
 </div>
 

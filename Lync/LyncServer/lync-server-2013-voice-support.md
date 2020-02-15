@@ -12,16 +12,16 @@ ms:contentKeyID: 48185436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa45aef591c7a8b1ab76c42fa7791adbefee13b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a696d0ad9ece8d807011c4ff40463b2c574ef81d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758570"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758570"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-29_
+_**마지막으로 수정 된 항목:** 2012-06-29_
 
-배포에 프런트 엔드 풀이 포함 되어 있는 경우 Microsoft에서 제공 하는 VoIP (Voice over IP) 솔루션을 통해 엔터프라이즈 음성에 대 한 지원을 배포할 수 있습니다. VoIP (Voice over IP)는 기존 PBX 기반 전화 통신에 대 한 소프트웨어 기반 대안입니다. VoIP 통화 환경은 기존 전화 통신 환경과 유사 하지만 엔터프라이즈 음성에는 다양 한 통신과 공동 작업을 가능 하 게 하는 기능이 포함 되어 있습니다. 예를 들어, Lync 2013 및 Lync Phone Edition 사용자가 조직의 주소록에 있는 연락처에 대 한 향상 된 현재 상태 정보나 위치 정보를 볼 수 있도록 기업 음성 배포를 구성할 수 있습니다. 일부 Lync Server 2013 기능은 다른 Lync Server 2013 작업 부하 및 UM (통합 메시징)과 통합 하 여 사용할 수 있습니다. 엔터프라이즈 음성과 배포 계획에 사용할 수 있는 기능 및 기능에 대 한 자세한 내용은 계획 설명서의 [Lync Server 2013의 Enterprise Voice 계획](lync-server-2013-planning-for-enterprise-voice.md) 을 참조 하세요.
+배포에 프런트 엔드 풀이 포함 된 경우 Microsoft에서 제공 하는 VoIP (Voice over IP) 솔루션에 대 한 지원을 배포할 수 있습니다. VoIP (Voice over IP)는 전통적인 PBX 기반 전화 통신에 대 한 소프트웨어 기반 대안입니다. VoIP 통화 환경은 전통적인 전화 통신 환경과 유사 하지만 엔터프라이즈 음성에는 다양 한 통신 및 공동 작업을 가능 하 게 하는 기능이 포함 되어 있습니다. 예를 들어, Enterprise Voice deployment를 구성 하 여 Lync 2013 및 Lync Phone Edition 사용자가 조직의 주소록에 있는 연락처에 대 한 향상 된 현재 상태 정보 또는 위치 정보를 볼 수 있습니다. 일부 Lync server 2013 기능은 다른 Lync Server 2013 작업 및 Exchange UM (통합 메시징)과의 통합을 통해 사용 하도록 설정 되어 있습니다. Enterprise Voice에서 사용할 수 있는 기능 및 배포를 계획 하는 방법에 대 한 자세한 내용은 계획 설명서의 [Lync Server 2013에서 Enterprise Voice 계획](lync-server-2013-planning-for-enterprise-voice.md) 을 참조 하십시오.
 
 <div>
 
@@ -47,7 +47,7 @@ _**마지막으로 수정한 주제:** 2012-06-29_
 
   - [Lync Server 2013의 직접 SIP 연결 지원](lync-server-2013-direct-sip-connections-support.md)
 
-  - [Lync Server 2013의 Exchange UM(통합 메시징) 지원](lync-server-2013-exchange-unified-messaging-um-support.md)
+  - [Lync Server 2013의 Exchange UM (통합 메시징) 지원](lync-server-2013-exchange-unified-messaging-um-support.md)
 
   - [Lync Server 2013의 E9-1-1 지원](lync-server-2013-e9-1-1-support.md)
 

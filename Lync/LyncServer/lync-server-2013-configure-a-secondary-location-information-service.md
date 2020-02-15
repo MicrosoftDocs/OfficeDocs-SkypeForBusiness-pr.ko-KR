@@ -12,16 +12,16 @@ ms:contentKeyID: 48183334
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2b7ee9383939e8df5466d615f6fda4a2af33c2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50d63d8316c9ce18bdf8677686a655046601b326
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741368"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048151"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41741368"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-30_
+_**마지막으로 수정 된 항목:** 2012-10-30_
 
-Lync Server 2013는 위치 정보 서비스를 보조 위치 원본 (SLS) 데이터베이스에 가리키는 데 사용할 수 있는 웹 서비스 인터페이스를 제공 합니다. SLS 데이터베이스에 연결 하는 웹 서비스 인터페이스는 위치 정보 서비스 WSDL을 준수 해야 합니다. 위치 데이터베이스와 보조 위치 데이터베이스가 모두 구성 되어 있는 경우 위치 정보 서비스는 위치 데이터베이스에 먼저 쿼리 하 고 일치 하는 항목이 없으면 클라이언트의 위치 요청을 SLS 데이터베이스에 보냅니다. 위치가 SLS에 있는 경우에는 위치 정보 서비스에서 해당 위치를 다시 클라이언트로 보냅니다.
+Lync Server 2013는 SLS (보조 위치 원본) 데이터베이스를 가리키도록 위치 정보 서비스를 지정 하는 데 사용할 수 있는 웹 서비스 인터페이스를 제공 합니다. SLS 데이터베이스에 연결 되는 웹 서비스 인터페이스는 위치 정보 서비스 WSDL을 준수 해야 합니다. 위치 데이터베이스와 보조 위치 데이터베이스를 모두 구성 하는 경우에는 위치 정보 서비스가 먼저 위치 데이터베이스를 쿼리하고 일치 하는 항목이 없으면 클라이언트의 위치 요청을 SLS 데이터베이스에 전송 합니다. SLS에 위치가 있으면 위치 정보 서비스에서 해당 위치를 클라이언트로 다시 보냅니다.
 
-자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하세요.
+자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하십시오.
 
-  - **Set-CsWebServiceConfiguration**
+  - **Set-cswebserviceconfiguration**
 
 <div>
 
-## <a name="to-configure-secondary-location-database"></a>보조 위치 데이터베이스를 구성 하려면
+## <a name="to-configure-secondary-location-database"></a>보조 위치 데이터베이스를 구성하려면
 
-1.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+1.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-2.  다음 cmdlet을 실행 하 여 보조 위치 데이터베이스의 위치에 대 한 URL을 구성 합니다.
+2.  다음 cmdlet을 실행하여 보조 위치 데이터베이스의 위치에 대해 URL을 구성합니다.
     
         Set-CsWebServiceConfiguration -SecondaryLocationSourceURL "<web service url>" 
 

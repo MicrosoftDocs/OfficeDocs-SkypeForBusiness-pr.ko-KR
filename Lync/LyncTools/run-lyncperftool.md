@@ -1,5 +1,5 @@
 ---
-title: L Cperf도구 실행
+title: LyncPerfTool 실행
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29a36be8c6703dad52e6c36d363ae23013643bd7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 165154591e8829a9586382f93b39c39f9fa78c5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743558"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="run-lyncperftool"></a>L Cperf도구 실행
+# <a name="run-lyncperftool"></a>LyncPerfTool 실행
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "41743558"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-24_
+_**마지막으로 수정 된 항목:** 2013-02-24_
 
-Lync Server 2013 스트레스 및 성능 도구 (L Cperftool. exe)를 실행 하기 전에 사용자, 연락처 및 시나리오를 만들어야 합니다. 도구를 사용 하 여 이러한 작업을 수행 하는 방법에 대 한 자세한 내용은 [사용자 및 연락처 만들기](create-users-and-contacts.md) 및 [사용자 프로필 구성을](configure-user-profile.md)참조 하세요. 이러한 도구를 실행 하면 필수 매개 변수를 포함 하는 배치 파일의 일부로 L를 사용 하는 파일이 생성 됩니다.
+Lync Server 2013 스트레스 및 성능 도구 (LyncPerfTool)를 실행 하기 전에 사용자, 연락처 및 시나리오를 만들어야 합니다. 도구를 사용 하 여 이러한 작업을 수행 하는 방법에 대 한 자세한 내용은 [Create Users And Contacts](create-users-and-contacts.md) 및 [Configure User Profile](configure-user-profile.md)을 참조 하십시오. 이러한 도구를 실행 하면 필요한 매개 변수를 포함 하는 배치 파일의 일부로 LyncPerfTool .exe를 실행 하는 파일도 생성 됩니다.
 
 <div>
 
 ## <a name="running-the-lync-server-2013-stress-and-performance-tool"></a>Lync Server 2013 스트레스 및 성능 도구 실행
 
-UserProfileGenerator 도구는 L Cperftool 성능 카운터를 등록 하 고 XML 구성 파일을 로드 하 여 l Cperftool을 실행할 수 있는 배치 파일을 만듭니다. 일괄 처리 파일은 각 구성 파일에 대해 L Cperftool의 인스턴스 하나를 실행 합니다. 배치 파일을 실행 하려면 다음을 수행 합니다.
+Userprofilegenerator.exe 공용 도구는 LyncPerfTool 성능 카운터를 등록 하 고 XML 구성 파일을 로드 하 여 LyncPerfTool를 실행할 수 있는 배치 파일을 만듭니다. 일괄 파일은 구성 파일당 LyncPerfTool 인스턴스 하나를 실행 합니다. 배치 파일을 실행 하려면 다음을 수행 합니다.
 
-1.  구성 폴더 및 파일을 포함 하는 폴더를 각 클라이언트 컴퓨터의 LyncStressTool를 포함 하는 디렉터리에 복사 합니다. 예를 들어 1.28\_13.16.16 이라는 폴더에 있는 구성 파일을 생성 한 경우 각 클라이언트에서 L Cperftool이 포함 된 폴더로 해당 폴더를 복사 합니다.
+1.  구성 폴더 및 파일이 포함 된 폴더를 각 클라이언트 컴퓨터에서 LyncStressTool를 포함 하는 디렉터리에 복사 합니다. 예를 들어 1.28\_13.16.16 이라는 폴더에 구성 파일을 생성 한 경우 각 클라이언트에서이 폴더를 LyncPerfTool가 포함 된 폴더로 복사 합니다.
 
-2.  적절 한 번호를 매긴 클라이언트 폴더로 이동 하 고 RunClient batch 스크립트를 실행 합니다. Windows 탐색기에서 배치 파일을 두 번 클릭 하기만 하면 해당 클라이언트 번호에 대 한 모든 구성 파일이 실행 됩니다. 다음 구문을 사용 하 여 적절 한 클라이언트 폴더에서 스크립트를 실행할 수도 있습니다.
+2.  적절 하 게 번호가 매겨진 클라이언트 폴더로 이동 하 고 RunClient batch 스크립트를 실행 합니다. Windows 탐색기에서 배치 파일을 두 번 클릭 하기만 하면 해당 클라이언트 번호에 대 한 모든 구성 파일이 실행 됩니다. 다음 구문을 사용 하 여 해당 클라이언트 폴더에서 스크립트를 실행할 수도 있습니다.
 
     ```Batch
         RunClient0.bat "C:\Program Files\Microsoft Lync Server 2013\LyncStressAndPerfTool\LyncStress" 
     ```
-L Cperftool을 직접 실행 하려면 명령 프롬프트를 열고 명령줄에 다음 명령을 입력 합니다 (이 항목의 뒷부분에 나오는 노트에 표시 된 대로 성능 카운터 regsvr32/i/n/s L Ccptoolperf: dll을 등록 해야 합니다.). L Cperftool. exe/file:\<configxml\>
+Lyncperftool를 직접 실행 하려면 명령 프롬프트를 열고 명령줄에서 다음 명령을 입력 합니다 (이 항목의 뒷부분에 나오는 참고 사항에 표시 되는 것 처럼 성능 카운터 regsvr32/i/n/s Lsioncperftoolcluster.exe를 등록 해야 함). LyncPerfTool .exe/file:\<configxml\>
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml
 ```
-도구가 구성 파일의 값을 표시 하도록 하려면 다음과 같이 앞의 명령에/displayfile 매개 변수를 포함 합니다.
+도구에서 구성 파일의 값을 표시 하도록 하려면 다음과 같이 위 명령에/displayfile 매개 변수를 포함 합니다.
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
@@ -66,7 +66,7 @@ L Cperftool을 직접 실행 하려면 명령 프롬프트를 열고 명령줄�
 
 
 > [!NOTE]  
-> L Cperf도구를 직접 실행 하기 전에 성능 카운터를 등록 해야 합니다. 다음 명령을 입력 하 여 성능 카운터를 등록 합니다.
+> LyncPerfTool를 직접 실행 하기 전에 성능 카운터를 등록 해야 합니다. 다음 명령을 입력 하 여 성능 카운터를 등록 합니다.
 
 
 
@@ -79,7 +79,7 @@ L Cperftool을 직접 실행 하려면 명령 프롬프트를 열고 명령줄�
 
 
 > [!NOTE]  
-> 시작 하는 L Cperftool의 모든 인스턴스는 사용자의 로그인을 즉시 시작 하 고, 일반적으로 초 당 한 명의 사용자에 게 서명 합니다. 풀의 최고 사용자 로그인 속도는 초당 약 12입니다. 즉, 사용자가 계속 해 서 로그인 하는 동안 12 개의 L Cperftool 인스턴스를 동시에 시작 해서는 안 됩니다. 1000 사용자는 1 초에 완전히 로그인 하는 데 20 분 정도 소요 됩니다.
+> 시작 하는 LyncPerfTool의 모든 인스턴스는 사용자에 게 즉시 로그인을 시작 하 고, 일반적으로 초당 1 명의 사용자에 대 한 작업을 실행 합니다. 풀에 대 한 최고 사용자 로그인 속도는 초당 약 12입니다. 즉, 사용자가 계속 해 서 로그인 하는 동안 12 개 이상의 LyncPerfTool 인스턴스를 동시에 시작 해서는 안 됩니다. 1000 사용자는 초당 1 초에 완전히 로그인 하는 데 약 20 분 정도 소요 됩니다.
 
 
 

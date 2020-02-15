@@ -12,16 +12,16 @@ ms:contentKeyID: 51541488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f43cbe049fdedc2f0b4d31eecc4a0506a4a62201
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a4cfda150c1ea8fadba3adff98ab1a95255c11e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723538"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41723538"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-18_
+_**마지막으로 수정 된 항목:** 2013-02-18_
 
-Lync 서버 배포에는 다음 유형의 풀이 포함 될 수 있습니다.
+Lync Server 배포에는 다음과 같은 유형의 풀이 포함 될 수 있습니다.
 
-  - 프런트 엔드 서버
+  - Front End Server(프런트 엔드 서버)
 
   - 중재 서버
 
-  - 영구적 채팅 서버
+  - 영구 채팅 서버
 
-  - Edge 서버
+  - 에지 서버
 
-전체 풀에 장애가 발생 하는 경우 풀의 각 구성원 서버에 대해 다음 절차를 따르세요.
+전체 풀에 중단이 발생 하는 경우 풀의 각 구성원 서버에 대해 다음 절차를 수행 합니다.
 
-  - 프런트 엔드 풀의 경우 백 엔드 서버를 먼저 복원한 다음 각 프런트 엔드 서버를 복원 합니다. 자세한 내용은 lync [server 2013에서 Enterprise Edition 백 엔드 서버 복원](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md) 및 [lync Server 2013의 enterprise Edition 구성원 서버 복원을](lync-server-2013-restoring-an-enterprise-edition-member-server.md)참조 하세요.
+  - 프런트 엔드 풀의 경우 먼저 백 엔드 서버를 복원한 다음 각 프런트 엔드 서버를 복원 합니다. 자세한 내용은 lync server [2013에서 Enterprise Edition 백 엔드 서버 복원](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md) 및 [lync Server 2013의 enterprise Edition 구성원 서버 복원을](lync-server-2013-restoring-an-enterprise-edition-member-server.md)참조 하십시오.
 
-  - 다른 모든 유형의 풀의 경우 각 구성원 서버를 복원 합니다. 자세한 내용은 [Lync server 2013에서 Enterprise Edition 구성원 서버 복원을](lync-server-2013-restoring-an-enterprise-edition-member-server.md)참조 하세요.
+  - 다른 모든 유형의 경우 각 구성원 서버를 복원합니다. 자세한 내용은 [Lync server 2013에서 Enterprise Edition 구성원 서버 복원을](lync-server-2013-restoring-an-enterprise-edition-member-server.md)참조 하십시오.
 
 </div>
 

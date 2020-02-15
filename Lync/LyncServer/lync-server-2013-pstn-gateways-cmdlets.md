@@ -12,16 +12,16 @@ ms:contentKeyID: 48184397
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b82b4cd1a5458fac6b2d5ade712fcfeeaf120208
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 37e64fe903f873fd1d350007ee3b02601416797a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724668"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042045"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,35 +35,35 @@ ms.locfileid: "41724668"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-03-21_
+_**마지막으로 수정 된 항목:** 2012-03-21_
 
-PSTN 게이트웨이는 엔터프라이즈 음성 사용자가 PSTN 네트워크 (즉, 공개 스위치 전화 네트워크)에서 전화를 걸고 받을 수 있도록 합니다. 이러한 게이트웨이는 중재 서버와 PSTN 네트워크 간의 다리 역할을 합니다.
+PSTN 게이트웨이를 사용하면 Enterprise Voice 사용자가 PSTN 네트워크(공중 전화망)의 사용자와 전화를 걸고 받을 수 있습니다. 이러한 게이트웨이는 중재 서버와 PSTN 네트워크를 연결하는 역할을 합니다.
 
 <div>
 
 ## <a name="pstn-gateways-cmdlets"></a>PSTN 게이트웨이 Cmdlet
 
-[테스트 CsPstnOutboundCall](https://technet.microsoft.com/en-us/library/Gg398207(v=OCS.15)) 및 [테스트-Csptopeercall](https://technet.microsoft.com/en-us/library/Gg398662(v=OCS.15)) cmdlet을 사용 하 여 사용자가 PSTN 네트워크를 통해 통화할 수 있는지 확인 합니다.
+[Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) 및 [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) cmdlet를 사용하면 사용자가 PSTN 네트워크를 통해 전화를 걸 수 있는지 확인할 수 있습니다.
 
 **PSTN 게이트웨이**
 
   - <span></span>  
-    [Set-CsPstnGateway](https://technet.microsoft.com/en-us/library/Gg398408(v=OCS.15))
+    [설정-CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPstnOutboundCall](https://technet.microsoft.com/en-us/library/Gg398207(v=OCS.15))
+    [Test-cspstnoutboundcall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/en-us/library/Gg398662(v=OCS.15))
+    [테스트-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsMediationServer](https://technet.microsoft.com/en-us/library/Gg398213(v=OCS.15))
+    [Set-CsMediationServer](https://technet.microsoft.com/library/Gg398213(v=OCS.15))
 
 </div>
 

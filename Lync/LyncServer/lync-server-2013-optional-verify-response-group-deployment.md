@@ -12,20 +12,20 @@ ms:contentKeyID: 49733579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 065a48aedf1b093358193d0c8afbd12b44653025
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b5b99d5d2f1800a4d7d16b1d3fdf4d0aab213fd0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755682"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045550"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a>) Lync Server 2013에서 응답 그룹 배포 확인
+# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a>반드시 Lync Server 2013에서 응답 그룹 배포 확인
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41755682"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-11_
+_**마지막으로 수정 된 항목:** 2012-09-11_
 
-응답 그룹을 구성한 후 응답 그룹이 예상 대로 작동 하도록 구성을 확인 해야 합니다. 최소한 다음 유형의 사용자를 사용 하 여 다음과 같은 시나리오를 확인 합니다.
+응답 그룹을 구성한 후에는 해당 구성에서 응답 그룹이 예상 대로 작동 하는지 확인 해야 합니다. 최소한 다음과 같은 유형의 사용자를 사용 하 여 다음 시나리오를 확인 합니다.
 
 **사용자**
 
-  - Lync Server 2013에서 거주 하는 사용자
+  - Lync Server 2013에 있는 사용자
 
-  - PSTN (공개 교환 전화 네트워크)을 사용 하는 외부 사용자
+  - 공중 전화망 (PSTN)을 사용 하는 외부 사용자
 
-  - Lync Server 2013에 속한 에이전트
+  - Lync Server 2013에 있는 에이전트
 
 **시나리오**
 
-  - Lync Server 2013 사용자는 응답 그룹에 전화를 걸 것입니다.
+  - Lync Server 2013 사용자가 응답 그룹에 전화를 거는 경우
 
-  - 외부 사용자가 응답 그룹에 전화를 거는 경우
+  - 외부 사용자가 응답 그룹에 전화를 겁니다.
 
-  - 에이전트가 다른 호출에 있고 큐로 이동 하는 동안 사용자가 응답 그룹을 호출 합니다.
+  - 에이전트가 다른 전화를 받는 중에 사용자가 응답 그룹에 전화를 걸어 사용자가 큐로 이동됩니다.
 
 </div>
 

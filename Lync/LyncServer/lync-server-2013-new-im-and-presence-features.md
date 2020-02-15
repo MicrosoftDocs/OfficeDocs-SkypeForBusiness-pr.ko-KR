@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 새로운 메신저 및 현재 상태 기능'
+title: 'Lync Server 2013: 새 IM 및 현재 상태 기능'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16144eaee77e8eebed4f3bbb7b5e37ba8ec29107
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b5a2a9183aeceacc70937cc90b30a54287361af2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758630"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048459"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-im-and-presence-features-in-lync-server-2013"></a>Lync Server 2013의 새로운 메신저 및 현재 상태 기능
+# <a name="new-im-and-presence-features-in-lync-server-2013"></a>Lync Server 2013의 새로운 IM 및 현재 상태 기능
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41758630"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-19_
+_**마지막으로 수정 된 항목:** 2012-10-19_
 
-Microsoft Lync Server 2013는 사용자의 Lync 환경을 보강 하기 위해 다음과 같은 새로운 IM (인스턴트 메시징) 및 현재 상태 기능을 추가 합니다.
+Microsoft Lync Server 2013에서는 다음과 같은 새 IM (인스턴트 메시징) 및 현재 상태 기능을 추가 하 여 사용자의 Lync 환경을 보강 합니다.
 
-  - 조직에서 Exchange 2013도 실행 하는 경우 사용자는 통합 된 연락처 저장소를 활용할 수 있습니다. 사용자는 Outlook 2013, Outlook Web App 및 Lync 2013에서 연락처를 관리할 수 있습니다.
+  - 조직에서 Exchange 2013도 실행 하는 경우 사용자는 통합 연락처 저장소를 활용할 수 있습니다. 사용자는 Outlook 2013, Outlook Web App 및 Lync 2013에서 연락처를 관리할 수 있습니다.
 
-  - 사용자는 Lync Server 2013의 **Xmpp 통합** 기능으로 인해 Google 대화 등의 확장 가능한 메시징 및 현재 상태 프로토콜을 사용 하는 공용 IM 공급자의 사용자와 인스턴트 메시지 및 현재 상태 정보를 교환할 수 있습니다. XMPP 통합은 프런트 엔드 서버 및 Edge 서버에 기본 제공 되며이 기능을 허용 하도록 설정 하 고 구성할 수 있습니다.
+  - 사용자는 Lync Server 2013의 **Xmpp 통합** 기능으로 인해 Google 대화 등의 확장 가능한 메시징 및 현재 상태 프로토콜을 사용 하는 공용 IM 공급자의 사용자와 인스턴트 메시지 및 현재 상태 정보를 교환할 수 있습니다. XMPP 통합은 프런트 엔드 서버와 에지 서버에서 기본적으로 제공되므로 이러한 서버를 사용하도록 설정하고 이 기능을 허용하도록 구성할 수 있습니다.
 
 <div>
 
@@ -51,7 +51,7 @@ Microsoft Lync Server 2013는 사용자의 Lync 환경을 보강 하기 위해 �
 [Lync Server 2013에서 통합 연락처 저장소에 사용자 사용](lync-server-2013-enable-users-for-unified-contact-store.md)  
 
 
-[Lync Server 2013에서 확장 가능한 메시징 및 현재 상태 프로토콜 (XMPP) 페더레이션 계획](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md)  
+[Lync Server 2013의 XMPP (extensible messaging and 거점 protocol) 페더레이션 계획](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md)  
   
 
 </div>

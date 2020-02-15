@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 풀 장애 복구(failback)'
+title: 'Lync Server 2013: 풀 장애 복구 (failback)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91e1dca7ffc210e9b44913f21846726f7a776912
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c5929ed5fc3d29c0a42c223403a78f83154c5bef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756182"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048031"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-back-a-pool-in-lync-server-2013"></a>Lync Server 2013에서 풀 장애 복구(failback)
+# <a name="failing-back-a-pool-in-lync-server-2013"></a>Lync Server 2013에서 풀 장애 복구 (failback)
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41756182"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-재해가 발생 한 풀이 온라인 상태가 된 후 (즉,이 예제에서 Pool1) 다음 단계를 수행 하 여 배포를 정상 작업 상태로 복원 합니다.
+재해가 발생한 풀을 다시 온라인으로 전환한 후(이 예의 Pool1) 다음 단계에 따라 배포를 일반 작업 상태로 복원합니다.
 
-장애 복구 프로세스가 완료 되기까지 몇 분이 소요 됩니다.참조용으로 2만 사용자 풀에 대해 최대 60 분이 소요 될 것으로 예상 됩니다.
+복구(Failback) 프로세스는 완료하는 데 몇 분 정도 걸립니다. 일반적으로 사용자가 20,000명인 풀을 복구하는 데에는 최대 60분 정도 소요될 수 있습니다.
 
-1.  Pool1에서 원래 홈 이었던 사용자와 다음 cmdlet을 입력 하 여 Pool2에 장애 조치 (Fail over)를 다시 실행 합니다.
+1.  다음 cmdlet을 사용해서 원래 Pool1에 있다가 Pool2로 장애 조치(Failover)되었던 사용자를 복구(Failback)합니다.
     
         Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
 
-다른 단계는 필요 하지 않습니다. 중앙 관리 서버를 장애 조치 (Pool2) 한 경우에는 그대로 둘 수 있습니다.
+다른 단계는 필요하지 않습니다. 중앙 관리 서버를 장애 조치 (failover) 한 경우에는 호스트인에 그대로 둘 수 있습니다.
 
 </div>
 

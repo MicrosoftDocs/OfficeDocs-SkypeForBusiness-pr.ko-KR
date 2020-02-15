@@ -12,16 +12,16 @@ ms:contentKeyID: 48183489
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f68ad38ffbc8bb1b4abdfbf8119add7d9f965e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 33de3d4646424067af96644eca47cf5e16354530
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757322"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046211"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,36 +35,36 @@ ms.locfileid: "41757322"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-Lync Server 2013에서 위치 정책을 사용 하 여 향상 된 9-1-1 (E9--1) 기능 및 사용자 또는 연락처에 대 한 위치 설정에 관련 있는 설정을 적용할 수 있습니다. 위치 정책은 사용자가 E9을 사용할 수 있는지 여부를 결정 합니다 (예를 들어, 긴급 통화의 경우). 예를 들어 위치 정책을 사용 하 여 전화 통화를 구성 하는 번호 (예: 미국 내 911), 회사 보안에서 자동으로 알릴 지 여부, 통화를 라우팅하는 방법 등을 정의할 수 있습니다.
+Lync Server 2013에서는 위치 정책을 사용 하 여 E9-1-1 (고급 9-1-1) 기능 및 사용자 또는 연락처의 위치 설정과 관련 된 설정을 적용할 수 있습니다. 위치 정책은 사용자가 E9-1-1을 사용하도록 설정되어 있는지 여부를 확인하고, 설정된 경우 긴급 통화에 대한 동작을 결정합니다. 예를 들어 위치 정책을 사용하여 긴급 통화 번호(예: 한국의 경우 119), 회사 보안 부서에 자동으로 알림을 제공할지 여부 및 통화를 라우팅할 방법을 정의할 수 있습니다.
 
-Lync Server 2013 제어판의 **네트워크 구성** 그룹에서 위치 정책을 구성할 수 있습니다. Lync Server 제어판에서 위치 정책을 보고, 만들고, 수정 하 고, 삭제할 수 있습니다. 위치 정책에 대 한 정보를 보려면 다음 절차를 사용 합니다. 위치 정책을 만들거나 수정 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 위치 정책 만들기 또는 수정을](lync-server-2013-creating-or-modifying-a-location-policy.md)참조 하세요.
+Lync Server 2013 제어판의 **네트워크 구성** 그룹에서 위치 정책을 구성할 수 있습니다. Lync Server 제어판에서 위치 정책을 보거나 만들거나 수정 하거나 삭제할 수 있습니다. 다음 절차에 따라 위치 정책에 대한 정보를 확인합니다. 위치 정책을 만들거나 수정 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 위치 정책 만들기 또는 수정을](lync-server-2013-creating-or-modifying-a-location-policy.md)참조 하십시오.
 
 <div>
 
-## <a name="to-view-information-about-a-location-policy"></a>위치 정책에 대 한 정보를 보려면
+## <a name="to-view-information-about-a-location-policy"></a>위치 정책에 대한 정보를 보려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원 이거나 해당 사용자 권한이 있는 사용자 계정에서 또는 CsAdministrator 역할에 할당 된 경우 내부 배포의 컴퓨터에 로그온 합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원 인 사용자 계정 (또는 이와 동등한 사용자 권한 포함) 또는 CsAdministrator 역할이 할당 되 면 내부 배포의 컴퓨터에 로그온 합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+2.  브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.
 
-3.  왼쪽 탐색 모음에서 **네트워크 구성을** 클릭 한 다음 **위치 정책을**클릭 합니다.
+3.  왼쪽 탐색 모음에서 **네트워크 구성**을 클릭한 다음 **위치 정책**을 클릭합니다.
 
-4.  **위치 정책** 페이지에서 수정 하려는 위치 정책을 선택 합니다.
+4.  **위치 정책** 페이지에서 수정할 위치 정책을 선택합니다.
 
-5.  **편집** 메뉴에서 **세부 정보 표시**를 클릭 합니다.
+5.  **편집** 메뉴에서 **자세한 정보 표시**를 클릭합니다.
     
     <div>
     
 
     > [!NOTE]  
-    > 한 번에 한 위치 정책에 대 한 정보만 볼 수 있습니다.
+    > 한 번에 한 위치 정책에 대한 정보만 볼 수 있습니다.
 
     
     </div>
 
-전역 이라는 단일 정책은 기본적으로 존재 하며 삭제 하거나 이름을 바꿀 수 없습니다. 그러나 전역 정책은 수정할 수 있습니다. 이 정책은 사이트 정책 또는 사용자 단위 정책을 만들지 않는 한 모든 사용자 및 연락처에 적용 됩니다. 사용자별 정책은 특정 사용자에 게 적용 되어야 합니다.
+글로벌이라는 단일 정책은 기본적으로 존재하며, 삭제하거나 이름을 바꿀 수 없습니다. 그러나 글로벌 정책을 수정할 수는 있습니다. 이 정책은 사이트 정책 또는 사용자별 정책을 만들지 않은 경우 모든 사용자 및 대화 상대에 적용됩니다. 사용자별 정책은 특정 사용자에게 적용해야 합니다.
 
 </div>
 
@@ -74,13 +74,13 @@ Lync Server 2013 제어판의 **네트워크 구성** 그룹에서 위치 정책
 
 
 [Lync Server 2013에서 위치 정책 만들기 또는 수정](lync-server-2013-creating-or-modifying-a-location-policy.md)  
-[Lync Server 2013에서 위치 정책 만들기](lync-server-2013-create-location-policies.md)  
+[Lync Server 2013의 위치 정책 만들기](lync-server-2013-create-location-policies.md)  
 [Lync Server 2013에서 네트워크 사이트 만들기 또는 수정](lync-server-2013-create-or-modify-a-network-site.md)  
 
 
-[New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
-[Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy)  
-[Remove-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
+[새-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
+[설정-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy)  
+[제거-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
 [Get-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsLocationPolicy)  
   
 

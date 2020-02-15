@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: cmdlet을 사용하여 도메인 준비 되돌리기'
+title: 'Lync Server 2013: cmdlet을 사용 하 여 도메인 준비 반전'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d72c135e7daccd677f8e42ea93a2aace8d7cafb8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c280cdcaa9d06b9ce7eee02cb043ecba0a9deb8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744198"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041257"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a>Lync Server 2013에 대해 cmdlet을 사용하여 도메인 준비 되돌리기
+# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a>Cmdlet을 사용 하 여 Lync Server 2013에 대 한 도메인 준비 되돌리기
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41744198"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-29_
+_**마지막으로 수정 된 항목:** 2012-10-29_
 
-도메인 준비 단계를 취소 하려면 **CsAdDomain** cmdlet을 사용 합니다.
+**Disable-CsAdDomain** cmdlet을 사용하여 도메인 준비 단계를 반전합니다.
 
 <div>
 
-## <a name="to-use-cmdlets-to-reverse-domain-preparation"></a>Cmdlet을 사용 하 여 도메인 준비를 취소 하려면
+## <a name="to-use-cmdlets-to-reverse-domain-preparation"></a>cmdlet을 사용하여 도메인 준비를 반전하려면
 
-1.  도메인 관리자 그룹의 구성원으로 서 도메인의 모든 서버에 로그온 합니다.
+1.  도메인의 서버에 Domain Admins 그룹 구성원으로 로그온합니다.
 
-2.  Lync Server 관리 셸 시작: **시작**, **모든 프로그램**, **Microsoft Lync server 2013**을 차례로 클릭 한 다음 **lync server management shell**을 클릭 합니다.
+2.  **시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.
 
-3.  런
+3.  를 실행합니다.
     
         Disable-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-Force <SwitchParameter>] 
         [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>] 
@@ -56,13 +56,13 @@ _**마지막으로 수정한 주제:** 2012-10-29_
     
         Disable-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.net -Force
     
-    Force 매개 변수가 있는 경우 도메인에 있는 하나 이상의 프런트 엔드 서버 또는 A/V 회의 서버가 활성화 된 경우에도 도메인 준비를 롤백합니다. Force 매개 변수가 없는 경우 도메인의 프런트 엔드 서버 또는 A/V 회의 서버가 활성화 되 면 도메인 준비 롤백이 종료 됩니다.
+    Force 매개 변수가 있으면 도메인에서 하나 이상의 프런트 엔드 서버 또는 A/V 회의 서버가 활성화 된 경우에도 도메인 준비를 롤백합니다. Force 매개 변수가 없는 경우 도메인의 프런트 엔드 서버 또는 A/V 회의 서버가 활성화 되 면 도메인 준비 롤백이 종료 됩니다.
     
     <div>
     
 
     > [!NOTE]  
-    > GlobalSettingsDomainController 매개 변수를 사용 하면 전역 설정이 저장 되는 위치를 표시할 수 있습니다. 설정이 시스템 컨테이너에 저장 된 경우 (구성 컨테이너에 전역 설정이 마이그레이션되지 않은 업그레이드 배포의 경우), Active Directory 포리스트의 루트에 도메인 컨트롤러를 정의 합니다. 전역 설정이 구성 컨테이너에 있는 경우(설정이 구성 컨테이너로 마이그레이션된 업그레이드 배포 또는 새 배포에서 일반적임) 포리스트에서 도메인 컨트롤러를 정의합니다. 이 매개 변수를 지정 하지 않으면 cmdlet은 설정이 구성 컨테이너에 저장 되어 있고 AD&nbsp;DS의 모든 도메인 컨트롤러를 참조 한다고 가정 합니다.
+    > GlobalSettingsDomainController 매개 변수를 통해 전역 설정이 저장되어 있는 위치를 나타낼 수 있습니다. 설정이 시스템 컨테이너에 저장되어 있는 경우(전역 설정이 구성 컨테이너로 마이그레이션되지 않은 업그레이드 배포에서 일반적임) Active Directory 포리스트의 루트에서 도메인 컨트롤러를 정의합니다. 전역 설정이 구성 컨테이너에 있는 경우(설정이 구성 컨테이너로 마이그레이션된 업그레이드 배포 또는 새 배포에서 일반적임) 포리스트에서 도메인 컨트롤러를 정의합니다. 이 매개 변수를 지정 하지 않으면 cmdlet은 설정이 구성 컨테이너에 저장 된 것으로 가정 하 고 AD&nbsp;DS의 모든 도메인 컨트롤러를 참조 합니다.
 
     
     </div>
@@ -74,10 +74,10 @@ _**마지막으로 수정한 주제:** 2012-10-29_
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 2013에 대한 도메인 준비 실행](lync-server-2013-running-domain-preparation.md)  
+[Lync Server 2013에 대 한 도메인 준비 실행](lync-server-2013-running-domain-preparation.md)  
 
 
-[Lync Server 2013에 대한 도메인 준비](lync-server-2013-preparing-domains.md)  
+[Lync Server 2013에 대 한 도메인 준비](lync-server-2013-preparing-domains.md)  
   
 
 </div>

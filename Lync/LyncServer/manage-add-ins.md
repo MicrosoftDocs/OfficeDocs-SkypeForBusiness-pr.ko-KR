@@ -12,16 +12,16 @@ ms:contentKeyID: 48185204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55a14e84404d11f4b52bc6438991ae070ca8806a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 11b30c4edba62873eddf89ce1967e9d158fee1bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757182"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048499"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41757182"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-06_
+_**마지막으로 수정 된 항목:** 2012-10-06_
 
 새 영구 채팅 서버 추가 기능을 만들려면
 
@@ -45,7 +45,7 @@ _**마지막으로 수정한 주제:** 2012-10-06_
 
 ## <a name="create-get-set-or-remove-an-add-in"></a>추가 기능 만들기, 가져오기, 설정 또는 제거
 
-새 추가 기능을 만들려면
+새로운 추가 기능을 만들려면
 
     New-CsPersistentChatAddin -PersistentChatPoolFqdn <String> -Name <String> -Url<String>
 
@@ -53,7 +53,7 @@ _**마지막으로 수정한 주제:** 2012-10-06_
 
 
 > [!IMPORTANT]  
-> PersistentChatPoolFqdn &lt;String&gt; 은 둘 이상의 영구 채팅 서버 풀이 있는 경우에만 필요 합니다.
+> PersistentChatPoolFqdn &lt;String&gt; 은 영구 채팅 서버 풀이 둘 이상 있는 경우에만 필요 합니다.
 
 
 
@@ -67,7 +67,7 @@ _**마지막으로 수정한 주제:** 2012-10-06_
 
     Get-CsPersistentChatAddin -PersistentChatPoolFqdn <String>
 
-추가 기능을 설정 하려면
+추가 기능을 설정하려면
 
     Set-CsPersistentChatAddIn -Instance <AddinObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
@@ -75,7 +75,7 @@ _**마지막으로 수정한 주제:** 2012-10-06_
 
     Set-CsPersistentChatAddIn -Identity <String> [-Name <String>] [-Url<String>] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-추가 기능을 제거 하려면
+추가 기능을 제거하려면
 
     Remove-CsPersistentChatAddIn -Instance <AddinObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 

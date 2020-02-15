@@ -12,16 +12,16 @@ ms:contentKeyID: 48185201
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4dc692c7fb246df751d481bbb1d95c05be38cf8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5048a6ebaeef3dfe865630a65bb864ab1c6b651
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757972"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042465"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757972"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-시스템 상태 관리 및 모니터링은 전체 Lync Server 2013 상태 관리 및 모니터링에 통합 됩니다. 자세한 내용은 [Lync Server 2013의 상태 구성을](lync-server-2013-health-configuration-in-lync-server.md)참조 하세요.
+시스템 상태 관리 및 모니터링은 전체 Lync Server 2013 상태 관리 및 모니터링에 통합 됩니다. 자세한 내용은 [Lync Server 2013의 상태 구성을](lync-server-2013-health-configuration-in-lync-server.md)참조 하십시오.
 
 </div>
 

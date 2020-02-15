@@ -12,16 +12,16 @@ ms:contentKeyID: 49733590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b7f10d0fb1d8c908a6cce90ece3b0ef6f0eed2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e128536bbabc4c43fd51412ea61fe0da0b86cf56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762336"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044690"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41762336"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-09-18_
+_**마지막으로 수정 된 항목:** 2012-09-18_
 
-사용자가 PSTN (공개 교환 전화 통신망)에서 전화 접속 하 여 온-프레미스 컨퍼런스의 오디오 부분에 참가할 수 있도록 하려면 전화 접속 회의 액세스 번호를 구성 해야 합니다. 전화 접속 회의 액세스 번호는 사용자가 회의에 참가 하기 위해 호출 하는 번호입니다.
+사용자가 공중 전화망(PSTN)을 통해 전화를 걸어 온-프레미스 회의의 오디오 부분에 참가할 수 있도록 하려면 전화 접속 회의 액세스 번호를 구성해야 합니다. 전화 접속 회의 액세스 번호는 사용자가 회의에 참가하기 위해 전화를 거는 번호입니다.
 
-전화 접속 액세스 번호는 모임 초대 및 전화 접속 회의 설정 웹 페이지에 표시 됩니다.
+전화 접속 액세스 번호는 모임 초대 및 전화 접속 회의 설정 웹 페이지에 표시됩니다.
 
 <div>
 
 
 > [!NOTE]  
-> 해당 액세스 번호의 Active Directory 복제가 완료 될 때까지 새 전화 접속 액세스 번호를 사용할 수 없습니다. 복제에 몇 시간이 걸릴 수 있습니다.
+> 해당 액세스 번호에 대해 Active Directory 복제가 완료되어야 새 전화 접속 액세스 번호를 사용할 수 있습니다. 복제 작업은 몇 시간이 소요될 수 있습니다.
 
 
 

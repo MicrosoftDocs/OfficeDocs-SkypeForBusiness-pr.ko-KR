@@ -12,16 +12,16 @@ ms:contentKeyID: 50873761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c28548bdde01ed9edf4a2ca49c17aa9651309dc9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 181451e5ee4ecba114361aab5408d329f1a2a7d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756472"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756472"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-12-11_
+_**마지막으로 수정 된 항목:** 2012-12-11_
 
-클라이언트 버전 정책은 클라이언트 버전 정책 규칙 집합으로 구성 됩니다. 이러한 규칙은 사용자가 특정 클라이언트 및 클라이언트 버전을 사용하여 로그온을 시도할 때 수행할 동작을 정의합니다. 다음 절차를 사용 하 여 Lync Server 2013에 대 한 클라이언트 버전 정책 규칙을 구성 합니다.
+클라이언트 버전 정책은 클라이언트 버전 정책 규칙 집합으로 구성 됩니다. 이러한 규칙은 사용자가 특정 클라이언트 및 클라이언트 버전으로 로그온 하려고 할 때 수행 해야 하는 작업을 정의 합니다. Lync Server 2013에 대 한 클라이언트 버전 정책 규칙을 구성 하려면 다음 절차를 따르십시오.
 
 <div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4085b3c554429c960e6f9f558f82366d7b2b2532
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0dd0a41aae0244eb6f0212c6c620d23f1bbf6400
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765889"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41765889"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-02-21_
+_**마지막으로 수정 된 항목:** 2013-02-21_
 
-*네트워크 지역은* 통화 허용 제어 (E9-1-1) 및 미디어 바이패스 구성에 사용 되는 네트워크 허브나 백본. 네트워크 지역을 확인, 생성 또는 수정 하려면 다음 절차를 사용 합니다. 예를 들어 한 음성 기능에 대 한 네트워크 지역을 이미 만든 경우 새 네트워크 지역을 만들 필요가 없습니다. 그 밖의 고급 엔터프라이즈 음성 기능으로는 동일한 네트워크 지역을 사용할 수 있습니다. 그러나 기능별 설정을 적용 하려면 기존 네트워크 지역 정의를 수정 해야 할 수 있습니다. 예를 들어 E9 (연결 된 중앙 사이트가 필요 하지 않음)에 대 한 네트워크 지역을 만든 다음 통화 허용 제어를 배포 하는 경우에는 네트워크 지역 정의를 수정 하 여 중앙 사이트를 지정 해야 합니다. 자세한 내용은 [Lync Server 2013에서 CAC에 대 한 네트워크 지역 구성을](lync-server-2013-configure-network-regions-for-cac.md)참조 하세요.
+*네트워크 지역*은 통화 허용 제어, E9-1-1 및 미디어 바이패스 구성에 사용되는 네트워크 허브 또는 백본입니다. 다음 절차에 따라 네트워크 지역을 확인, 작성 또는 수정합니다. 예를 들어 단일 음성 기능에 대해 네트워크 지역을 이미 만든 경우에는 새 네트워크 지역을 만들 필요가 없으며, 다른 고급 Enterprise Voice 기능도 같은 네트워크 지역을 사용합니다. 그러나 기존 네트워크 지역 정의를 수정하여 기능별 설정을 적용할 수는 있습니다. 예를 들어 E9-1-1용으로 네트워크 지역을 만든 후(연결된 중앙 사이트가 필요하지 않음) 통화 허용 제어를 배포하는 경우에는 네트워크 지역 정의를 수정하여 중앙 사이트를 지정해야 합니다. 자세한 내용은 [Configure network regions FOR CAC In Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md)을 참조 하십시오.
 
 <div>
 
 
 > [!NOTE]  
-> 네트워크 지역 정의에 대 한 기능별 요구 사항은 해당 기능에 대 한 배포 항목에 설명 되어 있습니다.
+> 네트워크 지역 정의에 대한 기능별 요구 사항은 해당 기능의 배포 항목에 설명되어 있습니다.
 
 
 
@@ -57,7 +57,7 @@ _**마지막으로 수정한 주제:** 2013-02-21_
 
   - [Lync Server 2013에서 네트워크 지역 만들기 또는 수정](lync-server-2013-creating-or-modifying-network-regions.md)
 
-  - [Lync Server 2013에서 기존 네트워크 영역 삭제](lync-server-2013-deleting-existing-network-regions.md)
+  - [Lync Server 2013에서 기존 네트워크 지역 삭제](lync-server-2013-deleting-existing-network-regions.md)
 
 </div>
 
@@ -65,7 +65,7 @@ _**마지막으로 수정한 주제:** 2013-02-21_
 
 ## <a name="reference"></a>참조
 
-[Lync Server 2013에서 고급 엔터프라이즈 음성 기능 배포](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[Lync Server 2013에서 고급 Enterprise Voice 기능 배포](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: MonitoredRegionLink 테이블'
+title: 'Lync Server 2013: Monitored지역 링크 테이블'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5608aa36a76fe59743ed8bb24e88514822a893e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 521996e17c3827b0d2c7e7796a8e95b73f805a04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765999"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoredregionlink-table-in-lync-server-2013"></a>Lync Server 2013의 MonitoredRegionLink 테이블
+# <a name="monitoredregionlink-table-in-lync-server-2013"></a>Lync Server 2013의 Monitored지역 링크 테이블
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765999"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-02_
+_**마지막으로 수정 된 항목:** 2012-10-02_
 
-Monitored국가 링크 테이블은 지원 테이블입니다. 각 레코드는 두 국가/지역 간의 하나의 링크를 나타냅니다.
+Monitored지역 링크 테이블은 지원 테이블입니다. 각 레코드는 두 국가/지역 간의 링크 하나를 나타냅니다.
 
 
 <table>
@@ -52,21 +52,21 @@ Monitored국가 링크 테이블은 지원 테이블입니다. 각 레코드는 
 <th><strong>열</strong></th>
 <th><strong>데이터 형식</strong></th>
 <th><strong>키/인덱스</strong></th>
-<th><strong>세부적인</strong></th>
+<th><strong>세부 정보</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Region1Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>기본, 외래</p></td>
-<td><p><a href="lync-server-2013-region-table.md">Lync Server 2013의 지역 테이블</a>에서 참조 합니다.</p></td>
+<td><p>Primary, Foreign</p></td>
+<td><p><a href="lync-server-2013-region-table.md">Lync Server 2013의 Region 테이블</a>에서 참조 됩니다.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Region2Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>기본, 외래</p></td>
-<td><p><a href="lync-server-2013-region-table.md">Lync Server 2013의 지역 테이블</a>에서 참조 합니다.</p></td>
+<td><p>Primary, Foreign</p></td>
+<td><p><a href="lync-server-2013-region-table.md">Lync Server 2013의 Region 테이블</a>에서 참조 됩니다.</p></td>
 </tr>
 </tbody>
 </table>

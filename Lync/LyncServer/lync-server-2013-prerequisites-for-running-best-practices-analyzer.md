@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 모범 사례 분석기 실행을 위한 전제 조건'
+title: 'Lync Server 2013: 모범 사례 분석기 실행을 위한 필수 구성 요소'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183283
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a720a9bc1245146d816fe3c42bbf8e24020a134
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e0795e29fb52171af32ecbde62a6ecddcfa00931
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747258"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050330"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites-for-running-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013에서 모범 사례 분석기를 실행 하기 위한 필수 조건
+# <a name="prerequisites-for-running-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013에서 모범 사례 분석기 실행을 위한 필수 구성 요소
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41747258"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-25_
+_**마지막으로 수정 된 항목:** 2012-06-25_
 
-모범 사례 분석기를 사용 하 여 Lync Server 2013 환경에서 문제를 검사 하 고 보고서를 만들고 현재 또는 이전 검사의 결과를 볼 수 있습니다. 환경을 검색 하기 위해 모범 사례 분석기를 실행 하기 전에 검사를 실행 하는 데 사용할 계정에 필요한 권한 및 사용 권한이 있으며 모든 설치 필수 조건이 충족 되었는지 확인 해야 합니다.
+모범 사례 분석기를 사용 하 여 Lync Server 2013 환경에서 문제를 검색 하 고, 보고서를 작성 하 고, 현재 또는 이전 검색의 결과를 볼 수 있습니다. 모범 사례 분석기를 실행하여 환경을 검색하기 전에 검색을 실행하는 데 사용할 계정에 필요한 권한이 있으며 모든 설치 필수 구성 요소가 충족되었는지 확인해야 합니다.
 
 <div>
 

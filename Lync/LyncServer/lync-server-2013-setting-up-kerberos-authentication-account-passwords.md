@@ -12,16 +12,16 @@ ms:contentKeyID: 48185167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c156e26a54e9762b1b57d1513f37cb7d7088cee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0342c83090dee6cbe021a400acd87e557860518b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037578"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41764614"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2010-11-03_
+_**마지막으로 수정 된 항목:** 2010-11-03_
 
-Kerberos 인증 계정에 대 한 컴퓨터 개체를 만든 후에는 계정에 대 한 암호를 설정할 수 있습니다. 한 서버에서 Kerberos 계정 암호를 설정 하기 위해 Windows PowerShell cmdlet을 실행 합니다. Kerberos 인증을 위해 만든 개체에 대 한 암호를 설정할 수 있습니다. 비밀 번호는 알려진 값으로 설정할 수 있지만, 기본적으로 임의 비밀 번호입니다. 암호는 해당 계정을 사용 하는 모든 Kerberos 인증 원본에 사용할 수 있습니다. Windows PowerShell cmdlet을 사용 하 여 Kerberos 계정 암호를 설정 하 고 관리 합니다.
+Kerberos 인증 계정에 대 한 컴퓨터 개체를 만든 후에는 해당 계정의 암호를 설정할 수 있습니다. Windows PowerShell cmdlet을 실행 하 여 한 서버에서 Kerberos 계정 암호를 설정 합니다. Kerberos 인증을 위해 만든 개체에 대해 암호를 설정할 수 있습니다. 암호는 알려진 값으로 설정할 수 있지만 기본적으로 임의의 암호입니다. 암호는 해당 계정을 사용 하는 모든 Kerberos 인증 원본에 사용할 수 있습니다. Windows PowerShell cmdlet을 사용 하 여 Kerberos 계정 암호를 설정 하 고 관리 합니다.
 
 <div>
 
 
 > [!NOTE]  
-> Kerberos account 개체는 컴퓨터 개체 이지만 참조 되는 Windows PowerShell cmdlet의 작업에 대해 UserAccount 매개 변수를 사용 합니다. 이것은 실수는 아니지만, Kerberos 계정 생성 및 유지 관리와 함께 사용할 때 cmdlet의 의도 된 동작입니다.
+> Kerberos account 개체는 computer 개체 이지만 참조 되는 Windows PowerShell cmdlet의 작업에는 Useraccount 지만 매개 변수를 사용 합니다. 이는 실수는 아니지만 Kerberos 계정 만들기 및 유지 관리와 함께 사용할 때 cmdlet이 의도 한 동작을 나타내는 것을 볼 수 있습니다.
 
 
 
@@ -53,7 +53,7 @@ Kerberos 인증 계정에 대 한 컴퓨터 개체를 만든 후에는 계정에
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013에서 서버에 대한 Kerberos 인증 계정 암호 설정](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
+  - [Lync Server 2013에서 서버에 대해 Kerberos 인증 계정 암호 설정](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
 
   - [Lync Server 2013에서 IIS에 Kerberos 인증 계정 암호 동기화](lync-server-2013-synchronize-a-kerberos-authentication-account-password-to-iis.md)
 

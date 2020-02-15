@@ -12,16 +12,16 @@ ms:contentKeyID: 51541502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19099440c37da5550fb39643fad328ded08851f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6909e23849726c132ad508d9cca934014f3c36f3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765539"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048539"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41765539"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2013-10-07_
+_**마지막으로 수정 된 항목:** 2013-10-07_
 
-이 섹션에서는 다양 한 버전의 Microsoft Office 제품군, Microsoft Exchange Server, Windows 운영 체제 및 선택 된 공공 메신저 (인스턴트 메시징) 클라이언트와의 Lync 2013 호환성에 대해 설명 합니다.
+이 섹션에서는 다양 한 버전의 Microsoft Office 제품군, Microsoft Exchange Server, Windows 운영 체제 및 선택한 공용 IM (인스턴트 메시징) 클라이언트를 사용한 Lync 2013의 호환성에 대해 설명 합니다.
 
 <div>
 
 ## <a name="office-and-lync-2013"></a>Office 및 Lync 2013
 
-다음 표에서는 다양 한 버전의 Office에서 지원 되는 Lync 2013 기능에 대해 설명 합니다.
+다음 표에서는 다양 한 버전의 Office에서 지 원하는 Lync 2013 기능에 대해 설명 합니다.
 
 ### <a name="lync-2013-and-microsoft-office-compatibility"></a>Lync 2013 및 Microsoft Office 호환성
 
@@ -58,7 +58,7 @@ _**마지막으로 수정한 주제:** 2013-10-07_
 <thead>
 <tr class="header">
 <th>기능</th>
-<th>Microsoft Office 2003 (SP3) (서비스 팩 3) (필수) 또는 최신 서비스 팩 (권장)</th>
+<th>Microsoft Office 2003 SP3(서비스 팩 3)(필수) 또는 최신 서비스 팩(권장)</th>
 <th>Microsoft Office 2007</th>
 <th>Microsoft Office 2010</th>
 <th>Microsoft Office 2013</th>
@@ -66,21 +66,21 @@ _**마지막으로 수정한 주제:** 2013-10-07_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Outlook 모임 초대 사용자 지정 (로고 추가, 도움말 URL, 고 지 사항, 바닥글 텍스트)</p></td>
+<td><p>Outlook 모임 초대 사용자 지정 (로고, 도움말 URL, 고 지 사항, 바닥글 텍스트 추가)</p></td>
 <td><p>아니요</p></td>
 <td><p>아니요</p></td>
 <td><p>아니요</p></td>
 <td><p>예</p></td>
 </tr>
 <tr class="even">
-<td><p>Outlook에서 기본적으로 참석자 오디오 및 비디오를 음소거 하는 모임 옵션 구성</p></td>
+<td><p>Outlook에서 기본적으로 참석자 오디오 및 비디오를 음소거 하도록 모임 옵션을 구성 합니다.</p></td>
 <td><p>아니요</p></td>
 <td><p>아니요</p></td>
 <td><p>아니요</p></td>
 <td><p>예</p></td>
 </tr>
 <tr class="odd">
-<td><p>Office 및 Lync에서 연락처 목록을 관리 하기 위한 통일 된 대화 상대 저장소</p></td>
+<td><p>Office 및 Lync에서 연락처 목록을 관리 하기 위한 통합 연락처 저장소</p></td>
 <td><p>아니요</p></td>
 <td><p>아니요</p></td>
 <td><p>아니요</p></td>
@@ -94,7 +94,7 @@ _**마지막으로 수정한 주제:** 2013-10-07_
 <td><p>예 (Exchange 2013 필요) 1</p></td>
 </tr>
 <tr class="odd">
-<td><p>Office 설치 프로그램에 통합 된 Lync 2013 설정</p></td>
+<td><p>Office 설치 프로그램에 통합 된 Lync 2013 설치</p></td>
 <td><p>아니요</p></td>
 <td><p>아니요</p></td>
 <td><p>아니요</p></td>
@@ -122,21 +122,21 @@ _**마지막으로 수정한 주제:** 2013-10-07_
 <td><p>예</p></td>
 </tr>
 <tr class="odd">
-<td><p>사용 가능 시간 메뉴에서 전화 회의를 사용 하 여 회신</p></td>
+<td><p>가용성 메뉴에서 전화 회의로 회신</p></td>
 <td><p>아니요</p></td>
 <td><p>아니요</p></td>
-<td><p>예 (대화 상대 카드에서)</p></td>
-<td><p>예 (대화 상대 카드에서)</p></td>
+<td><p>예(대화 상대 카드에서)</p></td>
+<td><p>예(대화 상대 카드에서)</p></td>
 </tr>
 <tr class="even">
-<td><p>일정 정리 탭의 모임 요청에 있는 현재 상태</p></td>
+<td><p>일정 정리 탭의 모임 요청의 현재 상태</p></td>
 <td><p>아니요</p></td>
 <td><p>아니요</p></td>
 <td><p>예</p></td>
 <td><p>예</p></td>
 </tr>
 <tr class="odd">
-<td><p>메신저 대화 또는 받은 전자 메일 메시지의 도구 모음 또는 리본에서 전화를 사용 하 여 회신</p></td>
+<td><p>수신 된 전자 메일 메시지의 도구 모음 또는 리본에서 IM으로 회신 또는 통화</p></td>
 <td><p>아니요</p></td>
 <td><p>아니요</p></td>
 <td><p>예</p></td>
@@ -150,21 +150,21 @@ _**마지막으로 수정한 주제:** 2013-10-07_
 <td><p>예</p></td>
 </tr>
 <tr class="odd">
-<td><p>메신저 대화 또는 사용 가능 여부 메뉴를 사용 하 여 회신</p></td>
+<td><p>가용성 메뉴에서 IM 또는 음성으로 회신</p></td>
 <td><p>아니요</p></td>
 <td><p>아니요</p></td>
-<td><p>예 (대화 상대 카드에서)</p></td>
-<td><p>예 (대화 상대 카드에서)</p></td>
+<td><p>예(대화 상대 카드에서)</p></td>
+<td><p>예(대화 상대 카드에서)</p></td>
 </tr>
 <tr class="even">
-<td><p>Microsoft Word 및 Microsoft Excel 파일의 메신저 대화 및 현재 상태 (스마트 태그 사용 가능)</p></td>
+<td><p>Microsoft Word 및 Microsoft Excel 파일(스마트 태그 사용)의 IM 및 현재 상태</p></td>
 <td><p>아니요</p></td>
 <td><p>아니요</p></td>
-<td><p>Microsoft Word만</p></td>
-<td><p>Microsoft Word만</p></td>
+<td><p>Microsoft Word 전용</p></td>
+<td><p>Microsoft Word 전용</p></td>
 </tr>
 <tr class="odd">
-<td><p>Microsoft SharePoint 사이트의 메신저 대화 및 현재 상태 (Outlook이 설치 되어 있어야 함)</p></td>
+<td><p>Microsoft SharePoint 사이트(Outlook이 설치되어 있어야 함)의 IM 및 현재 상태</p></td>
 <td><p>아니요</p></td>
 <td><p>아니요</p></td>
 <td><p>예</p></td>
@@ -174,21 +174,21 @@ _**마지막으로 수정한 주제:** 2013-10-07_
 </table>
 
 
-1 자세한 내용은 계획 문서에서 [Microsoft Lync server 2013 및 Microsoft Exchange server 2013 통합](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md) 을 참조 하세요.
+1 자세한 내용은 계획 설명서에서 [Microsoft Lync Server 2013 및 Microsoft Exchange server 2013 통합](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md) 을 참조 하십시오.
 
 다음 기능은 Office 2010 또는 Office 2013 에서만 사용할 수 있습니다.
 
-  - 비디오 통화 및 데스크톱 공유와 같은 확장 옵션이 있는 대화 상대 카드
+  - 비디오 통화 및 데스크톱 공유와 같은 확장 된 옵션이 있는 대화 상대 카드
 
-  - Outlook에서 연락처 찾기 필드의 빠른 검색
+  - Outlook 연락처 찾기 필드의 빠른 검색
 
-  - 메일, 일정, 연락처, 작업 폴더의 Outlook 홈 리본 메뉴에서 메신저 대화 또는 전화를 사용 하 여 회신
+  - IM을 사용한 회신 또는 메일, 일정, 연락처 및 작업 폴더에 있는 Outlook 홈 리본에서 호출
 
-  - Outlook 할 일 모음의 Lync 연락처 목록
+  - Outlook 할 일 모음의 Lync 대화 상대 목록
 
-  - Office Backstage (파일 탭) 현재 상태, 프로그램 공유 및 파일 전송
+  - Office Backstage(파일 탭) 현재 상태, 프로그램 공유 및 파일 전송
 
-  - Microsoft Office SharePoint Workspace 2010 (이전의 Microsoft Office Groove 2007)의 현재 상태 메뉴
+  - Microsoft Office SharePoint Workspace 2010(이전의 Microsoft Office Groove 2007)의 현재 상태 메뉴
 
   - 현재 상태 메뉴 확장성
 
@@ -198,7 +198,7 @@ _**마지막으로 수정한 주제:** 2013-10-07_
 
 ## <a name="exchange-server-and-lync-2013"></a>Exchange Server 및 Lync 2013
 
-다음 표에서는 다양 한 버전의 Exchange Server에 대 한 Lync 2013 지원에 대해 설명 합니다. Outlook은 확장 MAPI 호출을 처리 하기 위해 클라이언트 컴퓨터에 설치 해야 하며, 일부 기능에는 EWS (Exchange Web Services)를 사용 해야 합니다.
+다음 표에서는 다양 한 버전의 Exchange Server에 대 한 Lync 2013 지원에 대해 설명 합니다. 확장 MAPI 통화를 처리하려면 클라이언트 컴퓨터에 Outlook을 설치해야 하며 일부 기능의 경우 EWS(Exchange 웹 서비스)를 사용해야 합니다.
 
 ### <a name="lync-2013-and-exchange-server-compatibility"></a>Lync 2013 및 Exchange Server 호환성
 
@@ -216,32 +216,32 @@ _**마지막으로 수정한 주제:** 2013-10-07_
 <tbody>
 <tr class="odd">
 <td><p>Exchange Server 2013</p></td>
-<td><p>통합 된 연락처 저장소, 고해상도 그림, 아카이빙 통합을 추가 하 여 Exchange Server 2010 지원과 동일 합니다.</p>
+<td><p>통합 연락처 저장소, 고해상도 그림 및 보관 통합을 추가 하 여 Exchange Server 2010 지원과 동일 합니다.</p>
 <div>
 
 > [!NOTE]  
-> 자세한 내용은 <A href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Microsoft Lync Server 2013 및 Microsoft Exchange server 2013 통합</A>을 참조 하세요.
+> 자세한 내용은 <A href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Microsoft Lync Server 2013 And Microsoft Exchange Server 2013 통합</A>을 참조 하십시오.
 
 
 </div></td>
 </tr>
 <tr class="even">
 <td><p>Exchange Server 2010</p></td>
-<td><p>Exchange 연락처 동기화가 추가 된 Exchange Server 2007 지원과 동일 합니다.</p></td>
+<td><p>Exchange Server 2007 지원(및 Exchange 연락처 동기화 추가)과 동일</p></td>
 </tr>
 <tr class="odd">
-<td><p>Exchange Server 2007 (SP1(서비스 팩 1) (필수) 또는 최신 서비스 팩 (권장)</p></td>
+<td><p>Exchange Server 2007 SP1(서비스 팩 1)(필수) 또는 최신 서비스 팩(권장)</p></td>
 <td><p>다음 기능은 EWS를 통해서만 사용할 수 있습니다.</p>
 <ul>
 <li><p>대화 내용 폴더에서 항목 읽기 또는 삭제</p></li>
 <li><p>음성 메일 항목 읽기 또는 삭제</p></li>
-<li><p>확장 된 약속 있음/없음 정보 및 모임 제목 및 위치 표시</p></li>
+<li><p>확장된 약속 있음/없음 정보 및 모임 제목과 위치 표시</p></li>
 </ul>
-<p>공용 폴더는 Exchange Server 2007 (SP1(서비스 팩 1) (필수) 또는 최신 서비스 팩 또는 릴리스 (권장)에서 선택 사항입니다.</p></td>
+<p>공용 폴더는 Exchange Server 2007 SP1(서비스 팩 1)(필수) 또는 최신 서비스 팩 또는 릴리스(권장)에서 선택 사항입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>Exchange Server 2003</p></td>
-<td><p>Outlook MAPI만 EWS 전용 기능은 사용할 수 없습니다 (이전 행 참조).</p></td>
+<td><p>Outlook MAPI만 해당. EWS 전용 기능은 사용할 수 없습니다(이 항목의 뒷부분 참조).</p></td>
 </tr>
 </tbody>
 </table>
@@ -253,7 +253,7 @@ _**마지막으로 수정한 주제:** 2013-10-07_
 
 ## <a name="windows-and-lync-2013"></a>Windows 및 Lync 2013
 
-Lync 2013 및 Windows 지원 가능성에 대 한 자세한 내용은 계획 설명서의 lync [Server 2013에서 lync 클라이언트 소프트웨어 지원을](lync-server-2013-lync-client-software-support.md) 참조 하세요.
+Lync 2013 및 Windows 지원 가능성에 대 한 자세한 내용은 계획 설명서에서 lync [Server 2013의 lync 클라이언트 소프트웨어 지원](lync-server-2013-lync-client-software-support.md) 을 참조 하십시오.
 
 </div>
 
@@ -261,7 +261,7 @@ Lync 2013 및 Windows 지원 가능성에 대 한 자세한 내용은 계획 설
 
 ## <a name="macintosh-and-lync-2013"></a>Macintosh 및 Lync 2013
 
-Lync Server 2013는 Macintosh 운영 체제를 실행 하는 컴퓨터에서 특정 클라이언트를 지원 합니다. 자세한 내용은 계획 설명서의 [Lync Server 2013에서 lync 클라이언트 소프트웨어 지원을](lync-server-2013-lync-client-software-support.md) 참조 하세요.
+Lync Server 2013에서는 Macintosh 운영 체제를 실행 하는 컴퓨터에서 특정 클라이언트를 지원 합니다. 자세한 내용은 계획 설명서에서 [Lync Server 2013의 lync 클라이언트 소프트웨어 지원](lync-server-2013-lync-client-software-support.md) 를 참조 하십시오.
 
 </div>
 
@@ -269,11 +269,11 @@ Lync Server 2013는 Macintosh 운영 체제를 실행 하는 컴퓨터에서 특
 
 ## <a name="public-instant-messaging-clients-and-lync-2013"></a>공용 인스턴트 메시징 클라이언트 및 Lync 2013
 
-공용 IM 연결을 위해 서버를 구성한 경우 Lync는 공용 메신저 네트워크에서 다음 기능을 지원 합니다. 현재 상태는 공용 IM 클라이언트에서 지원 되는 현재 상태를 기준으로 필터링 됩니다. 자세한 내용은 작업 설명서의 lync [server 2013의](lync-server-2013-manage-external-access-policy-for-your-organization.md) [lync server 2013에서 외부 인스턴트 메시지 연결에 대 한 계획](lync-server-2013-planning-for-public-instant-messaging-connectivity.md) 을 참조 하세요.
+공용 IM 연결을 사용 하도록 서버를 구성한 경우 Lync에서는 공용 IM 네트워크에서 다음 기능을 지원 합니다. 현재 상태는 공용 IM 클라이언트에서 지원되는 현재 상태로 필터링됩니다. 자세한 내용은 계획 설명서의 [Lync server 2013에서 공용 인스턴트 메시징 연결 계획](lync-server-2013-planning-for-public-instant-messaging-connectivity.md) 및 작업 설명서의 [lync server 2013에서 외부 액세스 관리](lync-server-2013-manage-external-access-policy-for-your-organization.md) 를 참조 하십시오.
 
-또한 Lync Server 2013의 XMPP 통합 기능을 통해 사용자는 Google 대화 등의 확장 가능한 메시징 및 현재 상태 프로토콜을 사용 하는 공용 IM 공급자의 사용자와 인스턴트 메시지 및 현재 상태 정보를 교환할 수 있습니다. 자세한 내용은 계획 설명서의 [Lync Server 2013에서 확장 가능한 메시징 및 현재 상태 프로토콜 (XMPP) 페더레이션 계획](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md) 을 참조 하세요.
+또한 Lync Server 2013의 XMPP 통합 기능을 통해 사용자는 Google 대화와 같은 확장 가능한 메시징 및 현재 상태 프로토콜을 사용 하는 공용 IM 공급자의 사용자와 인스턴트 메시지 및 현재 상태 정보를 교환할 수 있습니다. 자세한 내용은 계획 설명서의 [Lync Server 2013에서 확장 가능한 메시징 및 현재 상태 프로토콜 (XMPP) 페더레이션을 계획](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md) 합니다 .를 참조 하십시오.
 
-### <a name="lync-2013-and-public-im-clients-compatibility"></a>Lync 2013 및 공용 인스턴트 메시징 클라이언트 호환성
+### <a name="lync-2013-and-public-im-clients-compatibility"></a>Lync 2013 및 공용 IM 클라이언트 호환성
 
 <table>
 <colgroup>
@@ -283,24 +283,24 @@ Lync Server 2013는 Macintosh 운영 체제를 실행 하는 컴퓨터에서 특
 <thead>
 <tr class="header">
 <th>클라이언트</th>
-<th>지원 되는 기능</th>
+<th>지원되는 기능</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Windows Live Messenger</p></td>
-<td><p>메신저 대화, 기본 현재 상태, 오디오/비디오 (A/V) *</p></td>
+<td><p>IM, 기본 현재 상태, 오디오/비디오(A/V)*</p></td>
 </tr>
 <tr class="even">
-<td><p>Skype</p></td>
-<td><p>메신저 대화, 기본 현재 상태, 오디오</p></td>
+<td><p>시간이</p></td>
+<td><p>IM, 기본 현재 상태, 오디오</p></td>
 </tr>
 <tr class="odd">
 <td><p>AOL</p></td>
 <td><p>IM 및 기본 현재 상태</p></td>
 </tr>
 <tr class="even">
-<td><p>Yahoo!</p></td>
+<td><p>!</p></td>
 <td><p>IM 및 기본 현재 상태</p></td>
 </tr>
 <tr class="odd">
@@ -311,7 +311,7 @@ Lync Server 2013는 Macintosh 운영 체제를 실행 하는 컴퓨터에서 특
 </table>
 
 
-\*최신 버전의 Windows Live Messenger에서는 A/V가 지원 됩니다. Windows Live Messenger를 사용 하 여 오디오/비디오 (A/V) 페더레이션을 구현 하는 경우 서버 암호화 수준도 수정 해야 합니다. 기본적으로 암호화 수준이 필요 합니다. Lync Server Management Shell을 사용 하 여이 설정을 지원으로 변경 해야 합니다.
+\*최신 버전의 Windows Live Messenger에서는 A/V가 지원 됩니다. Windows Live Messenger를 사용 하 여 A/V (오디오/비디오) 페더레이션을 구현 하는 경우에는 서버 암호화 수준도 수정 해야 합니다. 기본적으로 암호화 수준은 필수입니다. Lync Server 관리 셸을 사용 하 여이 설정을 지원으로 변경 해야 합니다.
 
 <div>
 
@@ -319,11 +319,11 @@ Lync Server 2013는 Macintosh 운영 체제를 실행 하는 컴퓨터에서 특
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>2012 년 9 월 1 일부 터, Microsoft Lync 공용 IM 연결 사용자 구독 라이선스 ("PIC USL")는 신규 또는 갱신 계약에 대해 더 이상 구매할 수 없습니다. 활성 라이선스가 있는 고객은 계속 Yahoo!에 페더레이션 할 수 있습니다. 서비스 종료 날짜가 될 때까지 메신저를 종료 합니다. AOL 및 Yahoo!에 대 한 6 월 2014의 기간 종료 날짜 님이 발표 되었습니다. 자세한 내용은 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013에서 공개 인스턴트 메신저 연결 지원을</A>참조 하세요.</P>
+> <P>2012 년 9 월 1 일, Microsoft Lync 공용 IM 연결 사용자 구독 라이선스 ("PIC USL")를 신규 또는 갱신 동의를 위해 더 이상 구매할 수 없습니다. 활성 라이선스를 사용 하는 고객은 Yahoo!에 계속 페더레이션 할 수 있습니다. 서비스 종료 날짜까지 메신저 AOL 및 Yahoo!의 6 월 2014 일 종료 날짜 이 발표 되었습니다. 자세한 내용은 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013에서 공용 인스턴트 메신저 연결에 대 한 지원을</A>참조 하세요.</P>
 > <LI>
-> <P>PIC USL은 Lync Server 또는 Office Communications Server와 Yahoo!에 페더레이션 하는 데 필요한 사용자별 사용자 단위 구독 라이선스입니다. 받으려면. 이 서비스를 제공 하는 Microsoft의 기능은 기본 계약 인 Yahoo!에 대 한 지원을 받을 수 있습니다.</P>
+> <P>PIC USL은 Lync Server 또는 Office Communications Server와 Yahoo!을 페더레이션 하는 데 필요한 사용자별 구독 라이선스입니다. 메신저로. 이 서비스를 제공 하는 Microsoft의 기능은 기본 규약에 따라 세로 맞춤에 사용 되는 Yahoo!에 대 한 지원을 받을 수 있습니다.</P>
 > <LI>
-> <P>이전 보다 훨씬 더 많은 수의 Lync는 전세계의 조직과 사용자 간에 연결 하는 강력한 도구입니다. Windows Live Messenger를 사용 하는 페더레이션에서는 Lync 표준 CAL 외에 추가 사용자/장치 라이선스가 필요 하지 않습니다.</P></LI></UL>
+> <P>이전 보다 Lync는 전 세계의 조직과 조직 간에 연결 하는 강력한 도구입니다. Windows Live Messenger와 페더레이션 하려면 Lync Standard CAL 외에 추가 사용자/장치 라이선스가 필요 하지 않습니다.</P></LI></UL>
 
 
 
@@ -336,9 +336,9 @@ Lync Server 2013는 Macintosh 운영 체제를 실행 하는 컴퓨터에서 특
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync 2013 에서 클라이언트 상호 운용성](lync-server-2013-client-interoperability-in-lync-2013.md)  
+[Lync 2013의 클라이언트 상호 운용성](lync-server-2013-client-interoperability-in-lync-2013.md)  
 [Lync Server 2013의 lync 클라이언트 소프트웨어 지원](lync-server-2013-lync-client-software-support.md)  
-[Lync Server 2013 용으로 지원 되는 lync Web App 플랫폼](lync-server-2013-lync-web-app-supported-platforms.md)  
+[Lync Server 2013의 lync Web App 지원 되는 플랫폼](lync-server-2013-lync-web-app-supported-platforms.md)  
 [Lync Server 2013에 대 한 lync Windows 스토어 앱 요구 사항](lync-server-2013-lync-windows-store-app-requirements.md)  
 
 

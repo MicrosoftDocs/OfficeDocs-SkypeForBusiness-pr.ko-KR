@@ -12,20 +12,20 @@ ms:contentKeyID: 48185238
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f67fc8cfffc0b5dbecaf6da212b3a8e5414b18ef
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 453b4c63f58f6153092dae0259155dbfa72b5eca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735238"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="file-sharing-high-availability-in-lync-server-2013"></a>Lync Server 2013에서 파일 공유 고가용성
+# <a name="file-sharing-high-availability-in-lync-server-2013"></a>Lync Server 2013의 파일 공유 고가용성
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41735238"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-03-30_
+_**마지막으로 수정 된 항목:** 2012-03-30_
 
-단일 데이터 센터 내에서 Lync Server 파일 공유에 대 한 고가용성을 보장 하기 위해 DFS (분산 파일 시스템)를 사용할 수 있습니다. DFS는 같은 데이터 센터 내에서 한 파일 서버에서 다른 파일로 장애 조치를 지원 합니다. 대규모 배포의 경우 DFS를 사용 하는 전용 파일 서버를 사용 하는 것이 좋습니다.
+단일 데이터 센터 내에서 Lync Server 파일 공유에 대 한 고가용성을 보장 하기 위해 DFS (분산 파일 시스템)를 사용할 수 있습니다. DFS는 한 파일 서버에서 동일한 데이터 센터 내에 있는 다른 파일 서버로의 장애 조치(failover)를 지원합니다. 대규모 배포의 경우 DFS를 사용하여 한 쌍으로 구성한 전용 파일 서버를 사용하는 것이 좋습니다.
 
-네트워크 크기와 원하는 복원 력 크기에 따라 한 쌍의 서버를 사용 하 여 사이트의 모든 파일 공유를 호스팅하거나 프런트 엔드 당 하나의 쌍을 사용할 수 있습니다.
+네트워크 규모와 원하는 복원력 수준에 따라 한 쌍의 서버로 사이트의 모든 파일 공유를 호스팅할 수도 있고 프런트 엔드 풀당 한 쌍의 서버를 사용할 수도 있습니다.
 
-DFS는 게시 된 RTO (복구 시간 목표) 또는 RPO (복구 시점 목표) 약정 없이 최상의 파일 복제 메커니즘입니다. DFS 서버 간의 장애 조치를 빠르게 완료 해야 하지만 데이터 복제 지연 때문에 장애 조치 발생 시 사용자가 진행 중인 작업을 계속할 수 없게 됩니다.
+DFS는 공표된 RTO(복구 시간 목표) 또는 RPO(복구 시점 목표)가 없는 "최상의 노력" 파일 복제 메커니즘입니다. DFS 서버 간의 장애 조치는 신속하게 완료되겠지만 데이터 복제 지연으로 장애 조치 도중에 사용자가 작업을 계속 진행하지 못할 수 있습니다.
 
-공유 하는 DFS와 데이터 저장소를 사용 하는 것이 중요 한 경우에는 4 시간 마다 자주 파일 공유를 백업 하는 것이 좋습니다. 한 파일 공유가 다운 되 고 복제가 최신 상태가 아닌 경우 백업을 사용 하 여 실패 한 서버의 콘텐츠를 현재 사용할 수 없는 서버와 쌍을 이루는 다른 서버로 복원할 수 있습니다.
+DFS를 사용하고 있으며 파일 공유 데이터 저장소가 중요한 경우 파일 공유를 자주(예: 4~8시간마다) 백업해야 합니다. 한 파일 공유가 다운되고 복제가 최신 상태가 아닌 경우 백업을 사용하여 장애가 발생한 서버의 콘텐츠를 현재 사용할 수 없는 서버와 한 쌍으로 구성된 다른 서버로 복원할 수 있습니다.
 
 </div>
 

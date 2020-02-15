@@ -12,20 +12,20 @@ ms:contentKeyID: 48184584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8a0d9ade3fd750f5dc89526969bad7e39ad0f35
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba3e0da5402ea93ce33e844a2f8b32d545d4811a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756892"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-the-default-file-transfer-filter-in-lync-server-2013"></a>Lync Server 2013의 기본 파일 전송 필터 수정
+# <a name="modify-the-default-file-transfer-filter-in-lync-server-2013"></a>Lync Server 2013에서 기본 파일 전송 필터 수정
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41756892"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-11-01_
+_**마지막으로 수정 된 항목:** 2012-11-01_
 
-Lync Server 2013는 Lync Server 2013 배포 내에서 다음 파일 관련 작업 중 특정 형식의 파일을 차단 하는 전역 파일 전송 필터를 제공 합니다.
+Lync Server 2013에서는 Lync Server 2013 배포 내에서 다음과 같은 파일 관련 작업을 수행 하는 동안 특정 형식의 파일을 차단 하는 전역 파일 전송 필터를 제공 합니다.
 
-  - 인스턴트 메시징 (IM) 대화 중 파일 전송 요청
+  - IM(인스턴트 메시징) 대화 중 파일 전송 요청
 
-  - Office Live Meeting 2007 클라이언트의 유인물 기능을 사용 하는 동안 파일 업로드 및 다운로드
+  - Office Live Meeting 2007 클라이언트에서 참고 파일 기능을 사용하는 중의 파일 업로드 및 다운로드
 
   - 회의 중 멀티미디어 재생
 
-차단 하거나 허용 하려는 파일 형식에 따라 Lync Server 제어판을 사용 하 여 전역 필터를 수정할 수 있습니다. 파일 전송 필터링에 대 한 자세한 내용은 [Lync Server 2013에서 IM (인스턴트 메시징)에 대 한 파일 전송 및 URL 필터링 구성을](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)참조 하세요.
+차단 하거나 허용할 파일 유형에 따라 Lync Server 제어판을 사용 하 여 전역 필터를 수정할 수 있습니다. 파일 전송 필터링에 대 한 자세한 내용은 [Lync Server 2013에서 IM (인스턴트 메시징)에 대 한 파일 전송 및 URL 필터링 구성을](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)참조 하십시오.
 
 <div>
 
-## <a name="to-modify-the-default-file-transfer-filter"></a>기본 파일 전송 필터를 수정 하려면
+## <a name="to-modify-the-default-file-transfer-filter"></a>기본 파일 전송 필터를 수정하려면
 
-1.  CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당 된 사용자 계정에서 내부 배포의 컴퓨터에 로그온 합니다.
+1.  CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리자 URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Lync server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하세요.
+2.  브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다. Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.
 
-3.  왼쪽 탐색 모음에서 **메신저 대화 및 현재 상태** 를 클릭 한 다음 **파일 필터**를 클릭 합니다.
+3.  왼쪽 탐색 모음에서 **IM 및 현재 상태**를 클릭한 다음 **파일 필터**를 클릭합니다.
 
-4.  **파일 필터** 페이지에서 **전역** 필터를 두 번 클릭 합니다.
+4.  **파일 필터** 페이지에서 **전역** 필터를 두 번 클릭합니다.
 
-5.  **파일 편집 필터**에서 **파일 필터 사용** 확인란을 선택 합니다.
+5.  **파일 필터 편집**에서 **파일 필터 사용** 확인란을 선택합니다.
 
-6.  **파일 전송** 드롭다운 목록 상자에서 **모두 차단** 또는 **특정 파일 형식 차단을**클릭 합니다.
+6.  **파일 전송** 드롭다운 목록 상자에서 **모두 차단** 또는 **특정 파일 형식 차단**을 클릭합니다.
 
-7.  **모두 차단을**클릭 한 경우 9 단계로 건너뜁니다.
+7.  **모두 차단**을 클릭한 경우 9단계로 건너뜁니다.
 
-8.  **특정 파일 형식 차단을**클릭 한 경우 다음을 수행 합니다.
+8.  **특정 파일 형식 차단**을 클릭한 경우 다음을 수행합니다.
     
-    1.  **선택을** 클릭 하 여 차단 하려는 파일 형식 확장명의 기본 목록을 수정 합니다.
+    1.  **선택**을 클릭하여 차단할 파일 형식 확장명의 기본 목록을 수정합니다.
     
-    2.  **파일 형식 선택**에서 **파일 형식 확장명**아래에 있는 범주에서 확장을 추가 하거나 제거 하 여 차단 하거나 허용 하려는 파일 형식을 선택 합니다.
+    2.  **파일 형식 선택**에서 **파일 형식 확장명** 아래의 범주에서 해당 확장명을 추가하거나 제거하여 차단하거나 허용할 파일 형식을 선택합니다.
     
-    3.  차단 하려는 파일 형식에 대 한 확장명이 표시 되지 않으면 **목록에 파일 형식 확장명 추가**아래에 있는 텍스트 상자에 확장명을 입력 한 다음 **추가**를 클릭 합니다.
+    3.  차단할 파일 형식 확장명이 표시되지 않은 경우 **목록에 새 파일 형식 확장명 추가** 아래의 텍스트 상자에 확장명을 입력한 다음 **추가**를 클릭합니다.
     
     4.  **확인**을 클릭합니다.
 
@@ -85,8 +85,8 @@ Lync Server 2013는 Lync Server 2013 배포 내에서 다음 파일 관련 작�
 
 
 [Lync Server 2013에서 IM (인스턴트 메시징)에 대 한 파일 전송 및 URL 필터링 구성](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[특정 사이트에 대 한 Lync Server 2013에서 새 파일 전송 필터 만들기](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
-[Lync Server 2013에서 새 URL 필터를 만들어 메신저 대화의 하이퍼링크 처리](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
+[특정 사이트에 대해 Lync Server 2013에서 새 파일 전송 필터 만들기](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
+[Lync Server 2013에서 새 URL 필터 만들기 IM 대화의 하이퍼링크를 처리 하려면](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
 
 
 [Lync Server 2013의 기본 URL 필터 수정](lync-server-2013-modify-the-default-url-filter.md)  

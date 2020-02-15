@@ -12,16 +12,16 @@ ms:contentKeyID: 48185732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 750ea65da2b5507099f097b31044673c474bfc7c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2932053e8224b751c124c80152c097d9da82e517
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758346"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043890"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,33 +35,33 @@ ms.locfileid: "41758346"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-30_
+_**마지막으로 수정 된 항목:** 2012-10-30_
 
-통화 대기-엔터프라이즈 음성 사용자는 전화를 걸 수 있으며, 나중에 모든 전화기에서 내부 번호 (통화 공원 *회전*이라고 함)로 전화를 걸어 전화를 겁니다.
+통화 대기를 사용 하면 Enterprise Voice 사용자가 전화 통화를 한 전화기로 전환한 다음 나중에 전화로 전화 걸기 (통화 대기 *궤도*라고 함)를 모든 전화기에서 검색 하 여 전화를 걸 수 있습니다.
 
-통화 대기를 사용 하는 구성 요소는 엔터프라이즈 음성을 구축할 때 프런트 엔드 서버 또는 Standard Edition 서버에서 자동으로 설치 되 고 사용 하도록 설정 됩니다. 그러나 사용자에 게 전화를 걸 수 있으려면 먼저 통화 대기를 구성 해야 합니다.
+통화 대기를 사용 하는 구성 요소는 Enterprise Voice를 배포할 때 자동으로 설치 되 고 프런트 엔드 서버 또는 Standard Edition 서버에서 사용 하도록 설정 됩니다. 그러나 사용자에 게 통화 대기를 사용 하려면 먼저 전화 대기를 구성 해야 합니다.
 
-이 섹션에서는 통화 공원 구성 과정을 안내 합니다.
+이 섹션에서는 통화 대기를 구성 하는 과정을 안내 합니다.
 
 <div>
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-  - [Lync Server 2013의 통화 대기 구성 필수 구성 요소 및 사용자 권한](lync-server-2013-call-park-configuration-prerequisites-and-user-rights.md)
+  - [Lync Server 2013의 통화 대기 구성 선행 조건 및 사용자 권한](lync-server-2013-call-park-configuration-prerequisites-and-user-rights.md)
 
-  - [Lync Server 2013의 통화 공원 배포 프로세스](lync-server-2013-deployment-process-for-call-park.md)
+  - [Lync Server 2013의 통화 대기 배포 프로세스](lync-server-2013-deployment-process-for-call-park.md)
 
-  - [Lync Server 2013에서 통화 대기 번호 테이블 구성](lync-server-2013-configure-the-call-park-orbit-table.md)
+  - [Lync Server 2013의 통화 대기 궤도 테이블 구성](lync-server-2013-configure-the-call-park-orbit-table.md)
 
-  - [Lync Server 2013에서 통화 공원 설정 구성](lync-server-2013-configure-call-park-settings.md)
+  - [Lync Server 2013의 통화 대기 설정 구성](lync-server-2013-configure-call-park-settings.md)
 
-  - [Lync Server 2013에서 통화 공원 음악을 보류할 때 사용자 지정](lync-server-2013-customize-call-park-music-on-hold.md)
+  - [Lync Server 2013에서 통화 대기 음악 사용자 지정](lync-server-2013-customize-call-park-music-on-hold.md)
 
-  - [Lync Server 2013에서 사용자 용 통화 공원 사용](lync-server-2013-enable-call-park-for-users.md)
+  - [Lync Server 2013의 사용자에 대해 통화 대기를 사용 하도록 설정](lync-server-2013-enable-call-park-for-users.md)
 
-  - [Lync Server 2013에서 통화 공원에 대 한 정규화 규칙 확인](lync-server-2013-verify-normalization-rules-for-call-park.md)
+  - [Lync Server 2013의 통화 대기에 대 한 정규화 규칙 확인](lync-server-2013-verify-normalization-rules-for-call-park.md)
 
-  - [) Lync Server 2013에서 통화 공원 배포 확인](lync-server-2013-optional-verify-call-park-deployment.md)
+  - [반드시 Lync Server 2013의 통화 대기 배포 확인](lync-server-2013-optional-verify-call-park-deployment.md)
 
 </div>
 

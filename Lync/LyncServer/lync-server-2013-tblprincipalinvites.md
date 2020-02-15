@@ -12,16 +12,16 @@ ms:contentKeyID: 48184141
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75d842772c8c0e02352eacf7f80711aa79c29461
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4316e86d29013587b2302d18a840a4a1859f9ad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731528"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047991"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731528"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-06-25_
+_**마지막으로 수정 된 항목:** 2012-06-25_
 
-tblPrincipalInvites는 자동 초대를 사용 하는 모든 노드에 대해 프로 비전 된 모든 사용자에 대 한 초대를 포함 합니다.
+tblPrincipalInvites에는 자동 초대가 켜진 모든 노드에 대해 프로비전된 모든 사용자에 대한 초대가 포함됩니다.
 
-### <a name="columns"></a>열
+### <a name="columns"></a>단
 
 <table>
 <colgroup>
@@ -50,36 +50,36 @@ tblPrincipalInvites는 자동 초대를 사용 하는 모든 노드에 대해 �
 <thead>
 <tr class="header">
 <th>열</th>
-<th>유형</th>
+<th>형식</th>
 <th>설명</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
-<td><p>int, null 아님</p></td>
-<td><p>Principal ID.</p></td>
+<td><p>Tblprincipal.prinid</p></td>
+<td><p>int, null이 아님</p></td>
+<td><p>사용자 ID입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>invID</p></td>
-<td><p>int, null 아님</p></td>
-<td><p>TblLastInviteId 테이블에서 생성 된 고유 순차 번호 (주체 ID 당)입니다.</p></td>
+<td><p>int, null이 아님</p></td>
+<td><p>tblLastInviteId 테이블에서 생성된 고유한 일련 번호(계정 ID당 하나)입니다.</p></td>
 </tr>
 <tr class="odd">
-<td><p>nodeID</p></td>
-<td><p>int, null 아님</p></td>
-<td><p>노드 ID (대화방에만 해당).</p></td>
+<td><p>입니다</p></td>
+<td><p>int, null이 아님</p></td>
+<td><p>노드 ID(대화방 전용)입니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>createdOn</p></td>
-<td><p>datetime, null 아님</p></td>
-<td><p>생성 시간.</p></td>
+<td><p>datetime, null이 아님</p></td>
+<td><p>만든 시간입니다.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>핵심
+### <a name="keys"></a>키
 
 <table>
 <colgroup>
@@ -94,16 +94,16 @@ tblPrincipalInvites는 자동 초대를 사용 하는 모든 노드에 대해 �
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prinID, nodeID&gt;</p></td>
+<td><p>&lt;Tblprincipal.prinid,입니다&gt;</p></td>
 <td><p>기본 키입니다.</p></td>
 </tr>
 <tr class="even">
-<td><p>prinID</p></td>
-<td><p>TblPrincipal 테이블에 조회를 포함 하는 외래 키입니다.</p></td>
+<td><p>Tblprincipal.prinid</p></td>
+<td><p>tblPrincipal.prinID 테이블에서 조회 기능이 있는 외래 키입니다.</p></td>
 </tr>
 <tr class="odd">
-<td><p>nodeID</p></td>
-<td><p>NodeID 테이블에 조회를 포함 하는 외래 키입니다.</p></td>
+<td><p>입니다</p></td>
+<td><p>tblNode.nodeID 테이블에서 조회 기능이 있는 외래 키입니다.</p></td>
 </tr>
 </tbody>
 </table>

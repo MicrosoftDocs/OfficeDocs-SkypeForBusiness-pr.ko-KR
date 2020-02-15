@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ConferenceMessageCount view'
+title: 'Lync Server 2013: ConferenceMessageCount 보기'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73944e1561b88301b740fcb52cf301645154c6e7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f94e824b18cab71fe1329ffcad1c836df6d46ebd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741618"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049069"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41741618"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-01_
+_**마지막으로 수정 된 항목:** 2012-10-01_
 
-ConferenceMessageCount 보기는 사용자가 회의에 보낸 메시지 수에 대 한 정보를 저장 합니다. 이 보기는 Microsoft Lync Server 2013에서 도입 되었습니다.
+ConferenceMessageCount 보기에는 사용자가 회의에 전송한 메시지 수에 대한 정보가 저장됩니다. 이 보기는 Microsoft Lync Server 2013에 도입 되었습니다.
 
 <div>
 
 
 > [!NOTE]  
-> ConferenceMessageCount 보기에는 <A href="lync-server-2013-conferencesessiondetails-view.md">Lync Server 2013의 ConferenceSessionDetails 보기</A> 에 아래 나열 된 열 외에 모든 열이 포함 되어 있습니다.
+> ConferenceMessageCount 보기에는 아래 나열 된 열 외에도 <A href="lync-server-2013-conferencesessiondetails-view.md">Lync Server 2013의 ConferenceSessionDetails 보기</A> 에 있는 모든 열이 포함 되어 있습니다.
 
 
 
@@ -60,29 +60,29 @@ ConferenceMessageCount 보기는 사용자가 회의에 보낸 메시지 수에 
 <tr class="header">
 <th>열</th>
 <th>데이터 형식</th>
-<th>세부적인</th>
+<th>세부 정보</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>UserUri</strong></p></td>
+<td><p><strong>변수와 useruri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
 <td><p>메시지를 보낸 사용자의 URI입니다.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserUriType</strong></p></td>
+<td><p><strong>Userurit<</strong></p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>메시지를 보낸 사용자의 URI 유형입니다. 자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하세요.</p></td>
+<td><p>메시지를 보낸 사용자 URI의 형식입니다. 자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserTenant 넌 트</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>메시지를 보낸 사용자의 테 넌 트입니다. 자세한 내용은 <a href="lync-server-2013-tenants-table.md">Lync Server 2013의 테 넌 트 표</a> 를 참조 하세요.</p></td>
+<td><p>고유</p></td>
+<td><p>메시지를 보낸 사용자의 테넌트입니다. 자세한 내용은 <a href="lync-server-2013-tenants-table.md">Lync Server 2013의 테 넌 트 표</a> 를 참조 하세요.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserMessageCount</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>회의 세션 동안 사용자가 보낸 메시지 수입니다.</p></td>
+<td><p>회의 세션 중 사용자가 보낸 메시지 수입니다.</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d0411156d6d4c8a801f643f62a93f1a31d999b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 37a7a823e2dc1aa0e7ea1df5d873292f2932ac32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727768"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045590"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41727768"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-11_
+_**마지막으로 수정 된 항목:** 2012-10-11_
 
 이 섹션의 항목에서는 Lync Server 2013 제어판의 **토폴로지** 페이지를 사용 하 여 수행할 수 있는 작업에 대 한 단계별 절차를 제공 합니다.
 
@@ -45,13 +45,13 @@ _**마지막으로 수정한 주제:** 2012-10-11_
 
   - [Lync Server 2013를 실행 하는 컴퓨터 목록 보기](lync-server-2013-view-a-list-of-computers-running-lync-server-2013.md)
 
-  - [Lync Server 2013에서 컴퓨터에 실행 중인 서비스의 상태 보기](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
+  - [Lync Server 2013에서 컴퓨터에서 실행 되는 서비스의 상태 보기](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
 
-  - [Lync Server 2013에서 서비스에 대 한 세부 정보 보기](lync-server-2013-view-details-about-a-service.md)
+  - [Lync Server 2013의 서비스에 대 한 세부 정보 보기](lync-server-2013-view-details-about-a-service.md)
 
   - [Lync Server 2013 서비스 시작 또는 중지](lync-server-2013-start-or-stop-lync-server-services.md)
 
-  - [Lync Server 2013에서 서비스에 대 한 세션 방지](lync-server-2013-prevent-sessions-for-services.md)
+  - [Lync Server 2013의 서비스에 대 한 세션 방지](lync-server-2013-prevent-sessions-for-services.md)
 
   - [Lync Server 2013에서 프런트 엔드 서버 업그레이드 또는 업데이트](lync-server-2013-upgrade-or-update-front-end-servers.md)
 
@@ -59,9 +59,9 @@ _**마지막으로 수정한 주제:** 2012-10-11_
 
   - [Lync Server 2013에서 백 엔드 서버 또는 Standard Edition 서버 업그레이드 또는 업데이트](lync-server-2013-upgrade-or-update-a-back-end-server-or-standard-edition-server.md)
 
-  - [Lync Server 2013에서 Microsoft MSPL (SIP 처리 언어) 응용 프로그램 관리](lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md)
+  - [Lync Server 2013에서 MSPL (Microsoft SIP Processing Language) 응용 프로그램 관리](lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md)
 
-  - [Lync Server 2013의 간단한 Url 관리](lync-server-2013-managing-simple-urls.md)
+  - [Lync Server 2013에서 단순 Url 관리](lync-server-2013-managing-simple-urls.md)
 
 </div>
 

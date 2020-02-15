@@ -12,16 +12,16 @@ ms:contentKeyID: 48183543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bac2433702a90624e3ee4fb865bfb70b6d07d16
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 97b161ab9dce464bdab96432ed909ed48b7df19d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757172"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048302"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41757172"
 
 <span> </span>
 
-_**마지막으로 수정한 주제:** 2012-10-06_
+_**마지막으로 수정 된 항목:** 2012-10-06_
 
 새 영구 채팅 서버 범주를 만들려면
 
@@ -45,22 +45,22 @@ _**마지막으로 수정한 주제:** 2012-10-06_
 
 
 > [!IMPORTANT]  
-> PersistentChatPoolFqdn는 둘 이상의 영구 채팅 서버 풀이 있는 경우에만 필요 합니다.
+> PersistentChatPoolFqdn은 영구 채팅 서버 풀이 둘 이상 있는 경우에만 필요 합니다.
 
 
 
 </div>
 
-기존 영구 채팅 서버 범주를 변경 하려면 다음을 수행 합니다.
+기존 영구 채팅 서버 범주를 변경 하려면
 
     Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell: AllowedMembers, DeniedMembers, 크리에이터을 동시에 설정할 수 있습니다. 작성자는 AllowedMembers의 하위 집합에서 DeniedMembers를 뺀 값 이어야 합니다. 멤버 및 작성자와 동시에 범주의 속성을 설정할 수도 있습니다.
+Windows PowerShell: AllowedMembers, DeniedMembers 및 생성기를 동시에 설정할 수 있습니다. Creators는 AllowedMembers에서 DeniedMembers를 제외한 구성원이어야 합니다. 범주의 속성을 구성원과 작성자로 동시에 설정할 수도 있습니다.
 
 <div>
 
-## <a name="create-get-set-or-remove-a-category"></a>범주 만들기, 가져오기, 설정 또는 제거
+## <a name="create-get-set-or-remove-a-category"></a>범주 작성, 가져오기, 설정 또는 제거
 
 새 범주를 만들려면
 
@@ -74,7 +74,7 @@ Windows PowerShell: AllowedMembers, DeniedMembers, 크리에이터을 동시에 
 
     Get-CsPersistentChatCategory -PersistentChatPoolFqdn <String>
 
-범주를 설정 하려면
+범주를 설정하려면
 
     Set-CsPersistentChatCategory -Instance <CategoryObject> [-WhatIf] [-Confirm] [<CommonParameters>]
 
@@ -82,7 +82,7 @@ Windows PowerShell: AllowedMembers, DeniedMembers, 크리에이터을 동시에 
 
     Set-CsPersistentChatCategory [-Identity] <string> [-Name <string>] [-Description <string>] [-Invitations <bool>] [-FileUpload <bool>] [-ChatHistory <bool>] [-AllowedMembers <PSListModifier[string]>] [-DeniedMembers <PSListModifier[string]>] [-Creators <PSListModifier[string]>] [-WhatIf] [-Confirm]  [<CommonParameters>]
 
-범주를 제거 하려면
+범주를 제거하려면
 
     Remove-CsPersistentChatCategory -Instance <CategoryObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
