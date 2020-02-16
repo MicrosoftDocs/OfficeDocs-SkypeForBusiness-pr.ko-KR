@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Security
 description: 비즈니스용 Skype Online에 대 한 보안 가이드<add description>
-ms.openlocfilehash: 268a9859439ca91b5ad7cd8d5e32edf707860cde
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e1cb2c51e688c460f86b1ee4956155bbaa2ea293
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706813"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006013"
 ---
 # <a name="security-and-skype-for-business-online"></a>보안 및 비즈니스용 Skype Online
 
 Office 365 서비스의 일부로 서 SfBO (비즈니스용 Skype Online)는 서비스 수준 보안과 같은 보안 모범 사례 및 절차를 모두 따르고 서비스 내에서 고객 컨트롤, 보안 강화 및 운영을 최적화 합니다. 실습. 자세한 내용은 Microsoft 보안 센터 ()https://microsoft.com/trustcenter)를 참조 하세요.
 
 ## <a name="trustworthy-by-design"></a>신뢰할 수 있는 디자인
-비즈니스용 Skype Online은에 https://www.microsoft.com/en-us/sdl/default.aspx설명 된 Microsoft의 신뢰할 수 있는 컴퓨팅 SDL (보안 개발 수명 주기)을 준수 하 여 디자인 및 개발 되었습니다. 더욱 안전한 통합 커뮤니케이션 시스템을 만드는 첫 번째 단계는 위협 모델을 디자인 하 고 각 기능을 디자인 한 대로 테스트 하는 것입니다. 여러 보안 관련 개선 사항이 코딩 프로세스 및 관례에 기본으로 제공 되었습니다. 빌드 시간 도구는 코드가 최종 제품에 체크 인 되기 전에 버퍼 오버런과 기타 잠재적인 보안 위험을 검색 합니다. 물론 알 수 없는 모든 보안 위협 으로부터 디자인 하는 것은 불가능 합니다. 시스템에서 완벽 한 보안을 보장할 수 없습니다. 그러나 제품 개발 embraced 시작부터 안전한 디자인 원칙 때문에 비즈니스용 Skype Online은 업계 표준 보안 기술을 해당 아키텍처의 기본 부분으로 통합 합니다. 
+비즈니스용 Skype Online은에 https://www.microsoft.com/sdl/default.aspx설명 된 Microsoft의 신뢰할 수 있는 컴퓨팅 SDL (보안 개발 수명 주기)을 준수 하 여 디자인 및 개발 되었습니다. 더욱 안전한 통합 커뮤니케이션 시스템을 만드는 첫 번째 단계는 위협 모델을 디자인 하 고 각 기능을 디자인 한 대로 테스트 하는 것입니다. 여러 보안 관련 개선 사항이 코딩 프로세스 및 관례에 기본으로 제공 되었습니다. 빌드 시간 도구는 코드가 최종 제품에 체크 인 되기 전에 버퍼 오버런과 기타 잠재적인 보안 위험을 검색 합니다. 물론 알 수 없는 모든 보안 위협 으로부터 디자인 하는 것은 불가능 합니다. 시스템에서 완벽 한 보안을 보장할 수 없습니다. 그러나 제품 개발 embraced 시작부터 안전한 디자인 원칙 때문에 비즈니스용 Skype Online은 업계 표준 보안 기술을 해당 아키텍처의 기본 부분으로 통합 합니다. 
 
 ## <a name="trustworthy-by-default"></a>신뢰할 수 있는 기본
 비즈니스용 Skype Online의 네트워크 통신은 기본적으로 암호화 됩니다. 모든 서버가 인증서를 사용 하 고 OAUTH, TLS, 안전한 실시간 전송 프로토콜 (SRTP) 및 256 비트 AES (고급 암호화 표준) 암호화를 비롯 한 기타 업계 표준 암호화 기법을 사용 하 여 모든 비즈니스용 Skype를 요청 함으로써 온라인 데이터는 네트워크에서 보호 됩니다.
@@ -210,7 +210,7 @@ SfBO 인증은 다음 두 단계로 구성 됩니다.
 SfBO에서 관리자는 O365 관리 포털을 통해 또는 TRPS (테 넌 트 원격 PowerShell)를 사용 하 여 서비스를 관리할 수 있습니다. 테 넌 트 관리자는 최신 인증을 사용 하 여 TRPS를 인증 합니다.
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>인터넷 경계에서 SfBO에 대 한 액세스 구성
-SfBO (모임에 참가할 수 있는 사용자)가 제대로 작동 하려면, 고객은 SfBO 클라우드의 서비스에 대 한 아웃 바운드 UDP 및 TCP 트래픽을 허용 하도록 인터넷 액세스를 구성 해야 합니다. 자세한 내용은 다음을 참조 하세요.https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
+SfBO (모임에 참가할 수 있는 사용자)가 제대로 작동 하려면, 고객은 SfBO 클라우드의 서비스에 대 한 아웃 바운드 UDP 및 TCP 트래픽을 허용 하도록 인터넷 액세스를 구성 해야 합니다. 자세한 내용은 다음을 참조 하세요.https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 및 TCP 443
 
@@ -290,6 +290,6 @@ SfBO에서 익명 사용자는 대기실 라고 하는 대기 영역으로 전�
 - ****&nbsp;&nbsp;모든 사람에 게 소속 된 모든 사람을 포함 하 여 모든 사용자가 모임에 참가 하는 것을 제한 없이 볼 수 있습니다.
 - ****&nbsp;&nbsp;모임 이끌이를 선택 하는 사용자는 발표자 목록에 추가 하 여 발표할 수 있는 사용자를 지정 합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [Microsoft 보안 센터](https://microsoft.com/trustcenter)
 

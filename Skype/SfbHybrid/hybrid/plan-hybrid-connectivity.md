@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 비즈니스용 Skype 서버 및 비즈니스용 Skype Online 또는 팀 간의 하이브리드 연결을 구현 하기 위한 계획 시 고려 사항
-ms.openlocfilehash: 55986df708c1ce190605ecef77b3789ae7e55db5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a1513b307c6f55f6b403a0d5db85ac14d1f7a6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756012"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043380"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>비즈니스용 Skype 서버와 Office 365 간의 하이브리드 연결 플랜
 
@@ -68,7 +68,7 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
 - 비즈니스용 Skype Online을 사용 하는 Microsoft Office 365 테 넌 트입니다.
     > [!NOTE]
     > 온-프레미스 배포의 경우 단일 테 넌 트만 하이브리드 구성에 사용할 수 있습니다.
-- Azure Active Directory Connect 온-프레미스 디렉터리를 Office 365와 동기화 합니다. 자세한 내용은 [AZURE AD Connect: 계정 및 사용 권한을](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)참조 하세요.
+- Azure Active Directory Connect 온-프레미스 디렉터리를 Office 365와 동기화 합니다. 자세한 내용은 [AZURE AD Connect: 계정 및 사용 권한을](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)참조 하세요.
 - 비즈니스용 Skype 서버 관리 도구입니다.  사용자를 온-프레미스에서 클라우드로 이동 하는 데 필요 합니다. 이러한 도구는 온-프레미스 배포와 인터넷 모두에 대 한 액세스 권한이 있는 서버에 설치 되어 있어야 합니다.
 - 온라인 관리 도구  팀 관리 센터 또는 Windows PowerShell을 사용 하 여 팀 및 비즈니스용 Skype Online을 관리할 수 있습니다. PowerShell을 사용 하 여 팀 또는 비즈니스용 Skype Online을 관리 하려면 비즈니스용 Skype Online 커넥터를 다운로드 하 여 설치 합니다.
 - 공유 SIP 주소 공간을 사용 하도록 설정 해야 하며, 호스팅 공급자로 Office 365을 사용 하도록 온-프레미스 배포를 구성 해야 합니다. 하이브리드 연결을 구성 하는 데 필요한 단계에 대 한 자세한 내용은 [configure 하이브리드 connectivity](configure-hybrid-connectivity.md)을 참조 하십시오.
@@ -89,7 +89,7 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
   - Lync Server 2013 및 비즈니스용 Skype 서버 2019
   - Lync Server 2013 및 비즈니스용 Skype 서버 2015
 
-*하이브리드 음성이 어떤 토폴로지에서 든 지 원하는 경우*에는 페더레이션 모서리로 지정 되는 edge 서버와 SIP 페더레이션과 연결 된 풀 모두에서 비즈니스용 Skype 2015 이상을 실행 해야 합니다. 사용자는 Lync 2013 풀 (있는 경우)에 남아 있을 수 있습니다. 자세한 내용은 [비즈니스용 Skype 서버의 전화 시스템에 PSTN 연결을 계획](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)합니다 .를 참조 하세요.
+*하이브리드 음성이 어떤 토폴로지에서 든 지 원하는 경우*에는 페더레이션 모서리로 지정 되는 edge 서버와 SIP 페더레이션과 연결 된 풀 모두에서 비즈니스용 Skype 2015 이상을 실행 해야 합니다. 사용자는 Lync 2013 풀 (있는 경우)에 남아 있을 수 있습니다. 자세한 내용은 [비즈니스용 Skype 서버의 전화 시스템에 PSTN 연결을 계획](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)합니다 .를 참조 하세요.
 
 Lync Server 2010이 포함 된 다음과 같은 토폴로지가 인스턴트 메시징과 모임을 위해 **비즈니스용 Skype Online에서 지원 됩니다** .  **Lync Server 2010이 포함 된 토폴로지는 하이브리드 음성 및 팀에서 지원 되지 않습니다**.
 
@@ -112,7 +112,7 @@ Microsoft는 다음과 같은 유형의 다중 포리스트 하이브리드 시�
 - **여러 포리스트에 비즈니스용 Skype 서버를 여러 개 배포 합니다.** 이러한 구성은 합병 및 인식 시나리오의 결과로, 보다 복잡 한 엔터프라이즈에서 발생할 수 있습니다.  다음과 같은 주요 요구 사항을 충족 하는 경우 비즈니스용 Skype 배포가 여러 개인 조직에 대해 온-프레미스에서 365 클라우드로 모든 사용자를 통합 하는 방법을 사용할 수 있습니다.
 
   - 관련 Office 365 테넌트가 최대 하나가 있어야 합니다. Office 365 테넌트가 두 개 이상 있는 시나리오의 통합 기능은 지원되지 않습니다.
-  - 주어진 시간에 한 번에 온-프레미스 비즈니스용 Skype 포리스트가 하이브리드 모드 (공유 SIP 주소 공간) 일 수 있습니다. 다른 모든 온-프레미스 비즈니스용 Skype 포리스트는 완전히 온-프레미스에 유지 되 고 서로 연결 되어 있어야 합니다. [새로운 기능을 사용 하 여 온라인 SIP 도메인](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) 을 12 월 2018 일 때 사용할 수 없도록 설정 하는 경우 이러한 다른 온-프레미스 조직은 AAD와 동기화 할 수 있습니다.
+  - 주어진 시간에 한 번에 온-프레미스 비즈니스용 Skype 포리스트가 하이브리드 모드 (공유 SIP 주소 공간) 일 수 있습니다. 다른 모든 온-프레미스 비즈니스용 Skype 포리스트는 완전히 온-프레미스에 유지 되 고 서로 연결 되어 있어야 합니다. [새로운 기능을 사용 하 여 온라인 SIP 도메인](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) 을 12 월 2018 일 때 사용할 수 없도록 설정 하는 경우 이러한 다른 온-프레미스 조직은 AAD와 동기화 할 수 있습니다.
 
     여러 포리스트에서 비즈니스용 Skype를 배포 하는 고객은 분할 도메인 (공유 SIP 주소 공간) 기능을 사용 하 여 각 비즈니스용 Skype 포리스트를 Office 365 테 넌 트로 개별적으로 마이그레이션한 다음, 다음을 사용 하 여 하이브리드를 사용 하지 않도록 설정 해야 합니다. 온-프레미스 배포를 진행 하기 전에 다음 온-프레미스 비즈니스용 Skype 배포를 마이그레이션합니다. 또한 클라우드로 마이그레이션 되기 전에 온-프레미스 사용자는 동일한 사용자의 온-프레미스 디렉터리에 표시 되지 않는 모든 사용자와의 페더레이션 상태로 유지 됩니다. 자세한 내용은 [팀 및 비즈니스용 Skype에 대 한 클라우드 통합](cloud-consolidation.md)을 참조 하세요.
 

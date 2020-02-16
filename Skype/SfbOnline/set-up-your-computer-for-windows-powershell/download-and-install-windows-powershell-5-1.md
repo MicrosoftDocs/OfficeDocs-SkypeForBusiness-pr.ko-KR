@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Windows PowerShell 5.1을 다운로드 하 여 설치한 다음 비즈니스용 Skype Online에 연결 하는 원격 PowerShell 세션을 만듭니다.
-ms.openlocfilehash: 227023d5c86b99a66ecdbdabd3b2973d0383a534
-ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
+ms.openlocfilehash: 64d1ed1b3e3031f5186a09289ab6e1d9088840cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41831157"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029099"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Windows PowerShell 5.1 다운로드 및 설치
 
@@ -49,7 +49,7 @@ Windows 10 기념 업데이트 또는 Windows Server 2016를 사용 하는 경�
     4.0
     </pre>
 
-    반환 되는 버전 번호가 5.1 이면 Windows PowerShell 5.1을 실행 하는 것입니다. 반환 되는 버전 번호가 5.1이 아닌 경우 Windows PowerShell 5.1을 설치 해야 합니다. [Microsoft 다운로드 센터](https://www.microsoft.com/en-us/download/details.aspx?id=54616)에서 windows PowerShell 5.1을 포함 하는 Windows Management 프레임 워크 5.1을 다운로드할 수 있습니다.
+    반환 되는 버전 번호가 5.1 이면 Windows PowerShell 5.1을 실행 하는 것입니다. 반환 되는 버전 번호가 5.1이 아닌 경우 Windows PowerShell 5.1을 설치 해야 합니다. [Microsoft 다운로드 센터](https://www.microsoft.com/download/details.aspx?id=54616)에서 windows PowerShell 5.1을 포함 하는 Windows Management 프레임 워크 5.1을 다운로드할 수 있습니다.
   
 Windows PowerShell 5.1이 설치 되어 있는지 확인 한 후에는 원격 스크립트 실행을 위해 PowerShell이 구성 되어 있는지 확인 해야 합니다. 이렇게 하려면 관리자로 PowerShell을 시작 합니다. Windows 7, Windows Server 2008 R2, Windows Server 2012 또는 Windows Server 2012 R2에서는 다음을 수행 합니다.
   

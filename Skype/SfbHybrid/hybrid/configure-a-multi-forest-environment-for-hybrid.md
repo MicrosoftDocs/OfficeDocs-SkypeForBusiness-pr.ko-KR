@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 다음 섹션에서는 하이브리드 시나리오에서 비즈니스용 Skype 기능을 제공 하기 위해 리소스/사용자 포리스트 모델에 여러 포리스트가 포함 된 환경을 구성 하는 방법에 대 한 지침을 제공 합니다.
-ms.openlocfilehash: f018699040fc202cbe827a2b8b05bd1f4371e190
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 33945b245009a221d709e13d587f435aa4c054d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726948"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983043"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>리소스 포리스트 토폴로지 배포
  
@@ -48,7 +48,7 @@ ms.locfileid: "41726948"
   
 ## <a name="configure-forest-trusts"></a>포리스트 트러스트 구성
 
-리소스 포리스트 토폴로지에서 비즈니스용 Skype 서버를 호스트 하는 리소스 포리스트는 사용자가 액세스할 수 있는 계정을 포함 하는 각 계정 포리스트를 신뢰 해야 합니다. 여러 사용자 포리스트가 있는 경우 포리스트 간 인증을 사용 하도록 설정 하려면 이러한 각 포리스트 트러스트에 대해 이름 접미사 라우팅을 사용 하도록 설정 하는 것이 중요 합니다. 자세한 내용은 [포리스트 트러스트 관리](https://technet.microsoft.com/en-us/library/cc772440.aspx)를 참조 하십시오. 다른 포리스트에 배포 된 Exchange Server가 비즈니스용 Skype 사용자에 게 기능을 제공 하는 경우 Exchange를 호스팅하는 포리스트는 비즈니스용 Skype 서버를 호스트 하는 포리스트를 신뢰 해야 합니다. 예를 들어 Exchange가 계정 포리스트에 배포 된 경우이는 계정 및 비즈니스용 Skype 포리스트가 해당 구성에 필요한 것을 의미 합니다.
+리소스 포리스트 토폴로지에서 비즈니스용 Skype 서버를 호스트 하는 리소스 포리스트는 사용자가 액세스할 수 있는 계정을 포함 하는 각 계정 포리스트를 신뢰 해야 합니다. 여러 사용자 포리스트가 있는 경우 포리스트 간 인증을 사용 하도록 설정 하려면 이러한 각 포리스트 트러스트에 대해 이름 접미사 라우팅을 사용 하도록 설정 하는 것이 중요 합니다. 자세한 내용은 [포리스트 트러스트 관리](https://technet.microsoft.com/library/cc772440.aspx)를 참조 하십시오. 다른 포리스트에 배포 된 Exchange Server가 비즈니스용 Skype 사용자에 게 기능을 제공 하는 경우 Exchange를 호스팅하는 포리스트는 비즈니스용 Skype 서버를 호스트 하는 포리스트를 신뢰 해야 합니다. 예를 들어 Exchange가 계정 포리스트에 배포 된 경우이는 계정 및 비즈니스용 Skype 포리스트가 해당 구성에 필요한 것을 의미 합니다.
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>비즈니스용 Skype를 호스트 하는 포리스트에서 계정 동기화
 
@@ -140,6 +140,6 @@ AAD 연결은 계정 및 리소스 포리스트 간에 온-프레미스 동기�
   
 ## <a name="configure-hybrid-connectivity-for-exchange-server"></a>Exchange Server에 대 한 하이브리드 연결 구성
 
-필요한 경우 Exchange 하이브리드 구성에 대 한 모범 사례를 따릅니다. 자세한 내용은 [Exchange Server 하이브리드 배포](https://docs.microsoft.com/en-us/exchange/exchange-hybrid)를 참조 하세요. 
+필요한 경우 Exchange 하이브리드 구성에 대 한 모범 사례를 따릅니다. 자세한 내용은 [Exchange Server 하이브리드 배포](https://docs.microsoft.com/exchange/exchange-hybrid)를 참조 하세요. 
   
 

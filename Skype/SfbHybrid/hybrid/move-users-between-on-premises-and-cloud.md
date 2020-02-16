@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 하이브리드를 사용할 수 있는 비즈니스용 Skype 서버의 온-프레미스 배포에서 온-프레미스 환경과 클라우드 간에 사용자를 이동할 수 있습니다 (Microsoft 팀 또는 비즈니스용 Skype Online)...'
-ms.openlocfilehash: 0f0a29ab88f17c80227e6dc6968be85457dc799e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 721352e1aa13cce8a9c03aa71c73f11e8c0d2452
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726768"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008610"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>온-프레미스와 클라우드 간에 사용자 이동
 
@@ -100,4 +100,4 @@ ms.locfileid: "41726768"
 
 [직접 라우팅 계획](/microsoftteams/direct-routing-plan)
 
-[CsUser 이동](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[CsUser 이동](https://docs.microsoft.com/powershell/module/skype/move-csuser)

@@ -21,16 +21,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Office 365 엔터프라이즈 요금제에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 1913d16b4a6595db27b4d32a10023866a5f76bb0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5181136bc95d2f74840af36ed6b4a29484485ed4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706103"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010581"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 
-[Office 365 Enterprise E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) 계획에는 대부분의 비즈니스용 Skype 기능이 포함 되어 있습니다. 몇 가지 추가 옵션이 있습니다.
+[Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) 계획에는 대부분의 비즈니스용 Skype 기능이 포함 되어 있습니다. 몇 가지 추가 옵션이 있습니다.
   
 |||
 |:-----|:-----|

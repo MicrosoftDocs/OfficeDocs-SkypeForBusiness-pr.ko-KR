@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 이 문서에서는 비즈니스용 Skype Online 위임을 설정 하 고 문제를 해결 하는 방법을 설명 합니다. 이 문서에서는 설정 권장 사항, 모범 사례 및 문제 해결 단계에 대 한 지침을 제공 합니다.
-ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6774fe36760e6a9c53808f33f7a842d5460e0f4c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706483"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010801"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>비즈니스용 Skype Online 위임을 설정하고 문제 해결
 
@@ -140,7 +140,7 @@ ms.locfileid: "41706483"
   
 - 보안 그룹을 만들고 해당 보안 그룹에 대 한 위임 권한을 추가 하는 것은 지원 되지 않습니다.
     
-- MAPI를 사용할 수 없습니다. [비즈니스용 Skype 2016 클라이언트에서 "MAPI를 사용할 수 없음" 오류를](https://support.microsoft.com/en-us/help/3147130)참조 하세요.
+- MAPI를 사용할 수 없습니다. [비즈니스용 Skype 2016 클라이언트에서 "MAPI를 사용할 수 없음" 오류를](https://support.microsoft.com/help/3147130)참조 하세요.
     
 - 비즈니스용 Skype 클라이언트를 통해 Exchange Online 사서함에 액세스할 수 없습니다. 이런 경우 [Outlook 연결 테스트](https://testconnectivity.microsoft.com/) 를 실행 하 여 해당 메시지가 전달 되는지 확인 합니다.
     

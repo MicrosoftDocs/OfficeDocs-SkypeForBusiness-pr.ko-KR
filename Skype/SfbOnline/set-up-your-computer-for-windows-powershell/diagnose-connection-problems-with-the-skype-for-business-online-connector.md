@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 가져오기-모듈, 동시 셸, Live ID 및 사용 권한 오류를 포함 하 여 비즈니스용 Skype Online에 연결 하는 데 필요한 원격 PowerShell 세션을 만드는 문제를 해결 합니다.
-ms.openlocfilehash: 873139f279114910bb802bc023ade35c0f84f7d1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f3de8d67079aaf4afeffdc63588f6806413383fc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706273"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010691"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>비즈니스용 Skype Online 커넥터의 연결 문제 진단
 
@@ -69,7 +69,7 @@ PowerShell 실행 정책은 PowerShell 콘솔로 로드할 수 있는 구성 파
   
   - **오류**: *가져오기-모듈: 로드 된 PowerShell의 버전은 ' 2.0 '입니다. 모듈 d\\: 프로그램 파일\\일반적인 파일\\Microsoft Lync Server 2013\\module\\LyncOnlineConnector\\LyncOnlineConnector를 실행 하려면 최소 PowerShell 버전 ' 3.0 '이 필요 합니다. PowerShell 설치를 확인 한 후 다시 시도 하세요.*
 
-- **해결**방법:이 문제를 해결 하는 유일한 방법은 Microsoft 다운로드 센터에서 제공 하는 Windows PowerShell 3.0을 설치 하는 [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)것입니다.
+- **해결**방법:이 문제를 해결 하는 유일한 방법은 Microsoft 다운로드 센터에서 제공 하는 Windows PowerShell 3.0을 설치 하는 [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595)것입니다.
   
 ## <a name="failed-to-connect-to-live-id-server"></a>Live ID 서버에 연결 하지 못했습니다.
 <a name="BKMKFailedConnect"> </a>
@@ -98,7 +98,7 @@ PowerShell을 사용 하 여 비즈니스용 Skype Online을 관리 하기 위�
 
 - **오류**: *Get-Cswebticket: Live Id 모듈을 로드할 수 없습니다. 올바른 버전의 Live Id 로그인 도우미가 설치 되어 있는지 확인 합니다.*
 
-- **해결**방법: Microsoft Online Services 로그인 도우미는 [IT 전문가를 위한 Microsoft Online services 로그인 도우미](https://www.microsoft.com/en-us/download/details.aspx?id=28177) 의 microsoft 다운로드 센터에서 사용할 수 있습니다. rtw
+- **해결**방법: Microsoft Online Services 로그인 도우미는 [IT 전문가를 위한 Microsoft Online services 로그인 도우미](https://www.microsoft.com/download/details.aspx?id=28177) 의 microsoft 다운로드 센터에서 사용할 수 있습니다. rtw
 
 ## <a name="logon-failed-for-the-user"></a>사용자에 대 한 로그온 실패
 <a name="BKMKLogonFailed"> </a>
@@ -146,7 +146,7 @@ PowerShell을 사용 하 여 비즈니스용 Skype Online을 관리 하려면 �
 
 - **해결**방법:이 문제를 해결 하는 유일한 방법은 이전 연결을 하나 이상 닫는 것입니다. 비즈니스용 Skype Online 세션을 마치면 **제거-PSSession** cmdlet을 사용 하 여 해당 세션을 종료 하는 것이 좋습니다. 이는이 문제를 방지 하는 데 도움이 됩니다.  
  
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [Windows PowerShell을 사용 하 여 비즈니스용 skype online 관리를 위한 컴퓨터 설정](set-up-your-computer-for-windows-powershell.md)
 
   

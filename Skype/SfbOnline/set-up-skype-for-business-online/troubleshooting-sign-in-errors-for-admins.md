@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '비즈니스용 Skype Online 로그인 오류의 일반적인 원인을 알아보고 이들을 해결하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: 3315dec928ec019dc8f970171d2eb44693cdf909
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6014c8af8a3fd39ad3a79d80f7abfbddeaa4340b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692773"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010761"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>관리자를 위한 비즈니스용 Skype Online 로그인 오류 문제 해결
 
@@ -195,7 +195,7 @@ ADFS (Active Directory Federation Services) 서버에 타사의 SSL 인증서를
 
 1. 영향을 받는 모든 사용자의 **msRTCSIP- UserEnabled** 속성을 **TRUE**로 업데이트합니다.
 
-2. Microsoft Online Services DirSync(디렉터리 동기화)도구를 반환합니다. 자세한 내용은 [Azure Active Directory와 온-프레미스 디렉터리 통합](https://technet.microsoft.com/ko-KR/library/hh967642.aspx)을 참조하세요.
+2. Microsoft Online Services DirSync(디렉터리 동기화)도구를 반환합니다. 자세한 내용은 [Azure Active Directory와 온-프레미스 디렉터리 통합](https://technet.microsoft.com/library/hh967642.aspx)을 참조하세요.
 
 비즈니스용 Skype Online 로그인 오류 문제를 해결하기 위해서는 로그인 문제의 가장 일반적인 원인을 제거하면서 시작합니다. 이후 필요에 따라 오류의 유형에 따라 특정 해결 단계를 따라 수행할 수 있습니다. 사용자가 여전히 로그인할 수 없는 경우 추가 정보를 수집한 다음 추가 도움말을 검색합니다.
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Microsoft 지원 문제 해결 가이드 사용

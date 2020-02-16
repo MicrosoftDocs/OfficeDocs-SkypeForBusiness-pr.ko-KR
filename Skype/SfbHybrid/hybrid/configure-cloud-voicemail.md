@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버에 있는 사용자에 대해 클라우드 기반 음성 메일을 구현 하기 위한 지침입니다.
-ms.openlocfilehash: f99286d4a3495d0214c46d28b105ad9076d238b2
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8fab0cf237137d87a8b7e49be65232dc0595de6d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888537"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041247"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>온-프레미스 사용자를 위한 클라우드 음성 메일 서비스 구성
 
@@ -86,7 +86,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
     조직 이름은 Office 365의 기본 도메인 이름 이기도 합니다.
 
-- **테 넌 트** 는 Office 365에서 테 넌 트를 식별 하는 데 사용 됩니다. 자세한 내용은 [Office 365 테 넌 트 ID 찾기를](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b)참조 하세요.
+- **테 넌 트** 는 Office 365에서 테 넌 트를 식별 하는 데 사용 됩니다. 자세한 내용은 [Office 365 테 넌 트 ID 찾기를](https://support.office.com/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b)참조 하세요.
 
 호스팅된 음성 메일 정책이 제대로 만들어졌는지 확인 하려면 다음 명령을 실행 합니다.
 

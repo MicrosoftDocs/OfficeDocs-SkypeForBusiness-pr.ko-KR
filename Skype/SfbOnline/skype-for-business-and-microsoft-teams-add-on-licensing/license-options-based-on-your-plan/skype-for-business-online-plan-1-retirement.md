@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 비즈니스용 Skype Online 요금제 1이 만료 되었습니다. 그러나 비즈니스용 Skype Online 계획 1에 대 한 현재 구독이 있는 경우에는이 변경으로 바로 영향을 받지 않습니다. 지금 또는 갱신 중에 새 요금제로 이동할 준비가 되 면 세 가지 옵션이 제공 됩니다.
-ms.openlocfilehash: d0d553946ddbde84ede48b715332e66aea75dac4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1b6642ccea185136c21e6064a8af9f271491c1f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692663"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029089"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>비즈니스용 Skype Online 플랜 1 단종 
 
@@ -38,7 +38,7 @@ Office 365의 새로운 기능과 기능을 활용 하는 동시에 비즈니스
 
 ## <a name="switching-to-office-365-f1"></a>Office 365으로 전환 F1
 
-이 옵션은 Office 365 F1에 제공 해야 하는 추가 기능을 활용 하려는 경우에 적합 합니다. 자세한 내용 및 가격 정보를 보려면 [Office 365 F1](https://products.office.com/en-us/business/office-365-f1)을 참조 하세요.
+이 옵션은 Office 365 F1에 제공 해야 하는 추가 기능을 활용 하려는 경우에 적합 합니다. 자세한 내용 및 가격 정보를 보려면 [Office 365 F1](https://products.office.com/business/office-365-f1)을 참조 하세요.
 
 
 ### <a name="how-to-switch"></a>전환 하는 방법 

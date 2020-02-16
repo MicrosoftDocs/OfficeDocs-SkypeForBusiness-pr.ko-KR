@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: '비즈니스용 Skype를 설치 하도록 조직의 도메인, 사용자, IM, 현재 상태를 설정 하는 방법을 알아봅니다. 오디오 회의, 전화 시스템 및 통화 요금제 및 Skype 모임 브로드캐스트를 설정 하는 방법도 알아봅니다. '
-ms.openlocfilehash: dda75716014c81b2c1fcf333bfd7e9e05ea606e0
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 7ac027549f45c55f62c6fc83d7ebc03d0afef5d2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769601"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010791"
 ---
 # <a name="set-up-skype-for-business-online"></a>비즈니스용 Skype 온라인 설정
 
@@ -41,7 +41,7 @@ Office 365 구독으로 Skype를 설정 하는 데 도움이 필요한 것 같�
 
 ## <a name="1-plan-for-skype-for-business"></a>1. 비즈니스용 Skype 계획
 
-**[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium)** 또는 **Business Essentials**가 있는 경우 비즈니스용 Skype를 사용 하 여 구독 중인 비즈니스의 다른 사용자에 게 온라인으로 전화를 걸 수 있습니다. 예를 들어 비즈니스에 10 명의 사용자가 있는 경우 [IM 및 온라인 모임에 비즈니스용 skype를 사용 하](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) 고, 아래에서 2-6 단계를 수행한 후 비즈니스용 skype를 사용 하 여 비즈니스용 Skype [로 모임을](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) 시작할 수 있습니다. Outlook에서 온라인 모임으로도 [비즈니스용 Skype 모임을 설정할](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) 수 있습니다.
+**[Office 365 Business Premium](https://products.office.com/business/office-365-business-premium)** 또는 **Business Essentials**가 있는 경우 비즈니스용 Skype를 사용 하 여 구독 중인 비즈니스의 다른 사용자에 게 온라인으로 전화를 걸 수 있습니다. 예를 들어 비즈니스에 10 명의 사용자가 있는 경우 [IM 및 온라인 모임에 비즈니스용 skype를 사용 하](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) 고, 아래에서 2-6 단계를 수행한 후 비즈니스용 skype를 사용 하 여 비즈니스용 Skype [로 모임을](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) 시작할 수 있습니다. Outlook에서 온라인 모임으로도 [비즈니스용 Skype 모임을 설정할](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) 수 있습니다.
 
 비즈니스용 Skype를 사용 하 여 회사 *외부* 의 사용자에 게 **전화를 걸고** 수신 하려면 다음을 수행 합니다.
 

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 문서에서는 UC 작업을 팀 및/또는 비즈니스용 Skype Online으로 이동 하기 위해 이동 하려는 비즈니스용 Skype (또는 Lync)에 대 한 온-프레미스 배포를 수행 하는 조직에 대해이 통합을 구현 하는 방법을 설명 합니다.
-ms.openlocfilehash: 7f3ad27404ec80e0592baa7174b01363f1aa0ed1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f09359f126a051f72397b10724c6ab51d6ca0c1a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726958"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033667"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Teams과 비즈니스용 Skype를 위한 클라우드 통합
 
@@ -42,7 +42,7 @@ ms.locfileid: "41726958"
 다음 핵심 요구 사항이 충족되는 경우 여러 비즈니스용 Skype 배포를 사용하는 모든 조직에 대해 단일 Office 365 테넌트에서 온-프레미스의 모든 사용자를 클라우드로 통합 할 수 있습니다.
 
 - 관련 Office 365 테넌트가 최대 하나가 있어야 합니다. Office 365 테넌트가 두 개 이상 있는 시나리오의 통합 기능은 지원되지 않습니다.
-- 언제든지 하나의 온-프레미스 비즈니스용 Skype 포리스트만 하이브리드 모드(공유 SIP 주소 공간)에 있을 수 있습니다. 다른 모든 온-프레미스 비즈니스용 Skype 포리스트는 온-프레미스로 유지되어야(아마도 서로 연결되어) 합니다. [새로운 기능을 사용 하 여 온라인 SIP 도메인](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain?view=skype-ps) 을 12 월 2018 일 때 사용할 수 없도록 설정 하는 경우 이러한 다른 온-프레미스 조직은 AAD와 동기화 *할 수 있습니다* .
+- 언제든지 하나의 온-프레미스 비즈니스용 Skype 포리스트만 하이브리드 모드(공유 SIP 주소 공간)에 있을 수 있습니다. 다른 모든 온-프레미스 비즈니스용 Skype 포리스트는 온-프레미스로 유지되어야(아마도 서로 연결되어) 합니다. [새로운 기능을 사용 하 여 온라인 SIP 도메인](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain?view=skype-ps) 을 12 월 2018 일 때 사용할 수 없도록 설정 하는 경우 이러한 다른 온-프레미스 조직은 AAD와 동기화 *할 수 있습니다* .
 
 여러 포리스트에 비즈니스용 Skype를 배포하는 고객은 공유 SIP 주소 공간 기능을 사용하여 단일 하이브리드 비즈니스용 Skype 포리스트의 모든 사용자를 개별적으로 Office 365 테넌트로 완전히 마이그레이션해야 합니다. 그런 다음, 다음 온-프레미스 비즈니스용 Skype 배포를 마이그레이션하기 전에 해당 온-프레미스 배포와 하이브리드를 비활성화합니다. 클라우드로 마이그레이션하기 전에 온-프레미스 사용자는 동일한 사용자의 온-프레미스 디렉터리에 표시되지 않는 사용자와 페더레이션 상태로 유지됩니다.  
 
@@ -63,9 +63,9 @@ Microsoft 팀 또는 비즈니스용 Skype Online에 온라인으로 통합 하�
 2.  온-프레미스 배포에서 모든 관련 SIP 도메인이 확인 된 Office 365 도메인 인지 확인 합니다.
 3.  Office 365을 사용 하 여 하이브리드로 사용할 비즈니스용 Skype 배포를 선택 합니다. 이 예에서는 OriginalCompany를 사용 합니다. <span>com
 4.  처음에 하이브리드 (OriginalCompany)이 될 [포리스트에 대해 AAD 연결을 사용 하도록 설정](configure-azure-ad-connect.md) 합니다.<span> com). 
-5.  조직에 팀이 도입 되는 경우 [TeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy) 에 대 한 테 넌 트 전체 정책을 SfBWithTeamsCollab 또는 기타 SfB 모드 (SfBOnly 또는 SfBWithTeamsCollabAndMeetings) 중 하나로 설정 합니다. 이는 온-프레미스에 있는 사용자 에게만 팀으로 이동 하는 사용자에 대 한 통화 및 채팅의 라우팅을 보장 하기 위해 중요 합니다.
+5.  조직에 팀이 도입 되는 경우 [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy) 에 대 한 테 넌 트 전체 정책을 SfBWithTeamsCollab 또는 기타 SfB 모드 (SfBOnly 또는 SfBWithTeamsCollabAndMeetings) 중 하나로 설정 합니다. 이는 온-프레미스에 있는 사용자 에게만 팀으로 이동 하는 사용자에 대 한 통화 및 채팅의 라우팅을 보장 하기 위해 중요 합니다.
 6.  이 지점에서 다른 포리스트 (AcquiredCompany) [에 대해 AAD 연결을 사용 하도록 설정](cloud-consolidation-aad-connect.md) 하는 것이 좋습니다 (아직 11 단계까지<span> 필요 함). com). 두 포리스트에서 AAD 연결이 사용 되도록 설정 된 경우 org가 **[그림 A](#figure-a)** 와 같이 표시 되며,이는 일부 orgs에 대 한 공통 시작 지점이 될 수 있습니다. 
-7.  다른 온-프레미스 배포에서 호스트 되는 모든 SIP 도메인 (이 경우에는 AcquiredCompany<span> . com)에서 PowerShell을 사용 하 여 `Disable-CsOnlineSipDomain` [비즈니스용 Skype ONLINE에서 이러한 SIP 도메인을 사용 하지 않도록 설정](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) 합니다. (이 기능은 12 월 2018의 새로운 기능입니다.)
+7.  다른 온-프레미스 배포에서 호스트 되는 모든 SIP 도메인 (이 경우에는 AcquiredCompany<span> . com)에서 PowerShell을 사용 하 여 `Disable-CsOnlineSipDomain` [비즈니스용 Skype ONLINE에서 이러한 SIP 도메인을 사용 하지 않도록 설정](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) 합니다. (이 기능은 12 월 2018의 새로운 기능입니다.)
 8.  OriginalCompany에 대해 [비즈니스용 Skype 하이브리드를 구성](configure-federation-with-skype-for-business-online.md) 합니다. <span>com (온라인 SIP 도메인을 사용 하도록 설정 된 한 개의 배포)
 9.  하이브리드 배포 (OriginalCompany<span> ) com)에서 비즈니스용 [Skype Online의 사용자 이동을 클라우드로 이동](move-users-between-on-premises-and-cloud.md) 하기 시작 합니다 (팀 전용 여부에 관계 없이). 이제 **[그림 B](#figure-b)** 와 같은 조직이 표시 됩니다. 그림 A의 주요 변경 사항은 다음과 같습니다.
     - 온-프레미스 디렉터리의 사용자는 이제 AAD에 있습니다.
@@ -76,11 +76,11 @@ Microsoft 팀 또는 비즈니스용 Skype Online에 온라인으로 통합 하�
     - OriginalCompany에서 Office 365와 통신 하는 기능을 사용 하지 않도록 설정 합니다. <span>com 온-프레미스
     - OriginalCompany에 대 한 DNS 레코드를 업데이트 합니다. <span>Office 365를 가리키도록 com을 지정 합니다.
 11. 아직 수행 하지 않은 경우 다음에 하이브리드가 이동 될 [포리스트에 대해 AAD 연결을 사용 하도록 설정](cloud-consolidation-aad-connect.md) 합니다 (AcquiredCompany).<span> com). 이 시점에서 조직은 **[그림 C](#figure-c)** 와 같습니다. 이는 일부 조직에서 시작 되는 다른 일반적인 출발점 일 수 있습니다. 
-12. PowerShell에서 하이브리드, AcquiredCompany로 이동 하는 [다음 온-프레미스 배포에 대해 SIP 도메인을 사용 하도록 설정](https://docs.microsoft.com/en-us/powershell/module/skype/enable-csonlinesipdomain?view=skype-ps) 합니다. <span>com 이 작업은 12 `Enable-CsOnlineSipDomain`월 2018까지 사용할 수 있는 새로운 기능을 사용 하 여 수행 합니다.
+12. PowerShell에서 하이브리드, AcquiredCompany로 이동 하는 [다음 온-프레미스 배포에 대해 SIP 도메인을 사용 하도록 설정](https://docs.microsoft.com/powershell/module/skype/enable-csonlinesipdomain?view=skype-ps) 합니다. <span>com 이 작업은 12 `Enable-CsOnlineSipDomain`월 2018까지 사용할 수 있는 새로운 기능을 사용 하 여 수행 합니다.
 13. 닫힌 페더레이션을 사용 하는 경우 **동일한** Office 365에서 순수 온라인 테 넌 트의 모든 SIP 도메인 (microsoftonline.com 제외)을 허용 도메인으로 추가 해야 합니다. 변경 내용이 적용 될 때까지 시간이 걸릴 수 있으며이 작업을 일찍 수행 하는 데는 문제가 없기 때문에 14 단계로 이동 하기 전에이 작업을 수행 하는 것이 좋습니다.
 14. 온라인 테 넌 트에서 SIP 도메인을 수락 하도록 온-프레미스 환경을 업데이트 하 여 일치 시킵니다.
     - [모든에 지 인증서의 SAN](cloud-consolidation-edge-certificates.md) 을 이전와 동일한 값으로 업데이트 하 고,이 경우에는 microsoftonline.com를 제외한 모든 기존 온라인 SIP 도메인의 값을이 경우에는. <span>com
-    - OriginalCompany를 확인 합니다. <span>com은 온-프레미스 배포의 AcquiredCompany에 허용 되는 [도메인](https://docs.microsoft.com/en-us/powershell/module/skype/new-csalloweddomain) 입니다. 허용 도메인을 추가 합니다.
+    - OriginalCompany를 확인 합니다. <span>com은 온-프레미스 배포의 AcquiredCompany에 허용 되는 [도메인](https://docs.microsoft.com/powershell/module/skype/new-csalloweddomain) 입니다. 허용 도메인을 추가 합니다.
 15. 온-프레미스 AcquiredCompany 간에 [비즈니스용 Skype hybrid을 사용 하도록 설정](configure-federation-with-skype-for-business-online.md) 합니다. <span>com 및 클라우드
 16. 필요에 따라 온 [-프레미스에서 클라우드로 사용자를 마이그레이션합니다](move-users-between-on-premises-and-cloud.md). 사용자를 [Teamsonly](/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability) 모드로 직접 마이그레이션하거나 마이그레이션할 수도 있고, 먼저 비즈니스용 Skype Online으로 마이그레이션할 수도 있습니다. 이 상태에서 조직은 **[그림 D](#figure-d)** 와 같습니다.
 17. 모든 사용자가 마이그레이션된 후 [에는 온-프레미스 환경에서 하이브리드를 사용 하지 않도록 설정](cloud-consolidation-disabling-hybrid.md) 하 여 *조직 순수 클라우드로 만듭니다*.
@@ -97,7 +97,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에 온라인으로 통합 하�
 
 ##### <a name="figure-b"></a>그림 B:
 
-- AcquiredCompany. <span>com은 [사용 하지 않도록 설정](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) 된 온라인 SIP 도메인입니다. 모든 사용자가 온-프레미스입니다. 팀을 사용 하는 경우 페더레이션 또는 상호 운용성이 없습니다. 이 단계에서는 채널에만 팀을 사용 하는 것이 좋습니다.
+- AcquiredCompany. <span>com은 [사용 하지 않도록 설정](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) 된 온라인 SIP 도메인입니다. 모든 사용자가 온-프레미스입니다. 팀을 사용 하는 경우 페더레이션 또는 상호 운용성이 없습니다. 이 단계에서는 채널에만 팀을 사용 하는 것이 좋습니다.
 - 비즈니스용 Skype 하이브리드가 온-프레미스 조직 중 하나에 대해 사용 하도록 설정 되었습니다.
 - 하이브리드 조직의 일부 사용자는 클라우드 (자주색 음영으로 표시 된 사용자 A)로 옮겨졌습니다. 이러한 사용자는 비즈니스용 Skype Online 사용자 또는 팀이 전체 상호 운용성 및 페더레이션 지원을 가진 사용자 일 수 있습니다.<br><br>
     ![그림 B 다이어그램](../media/cloudconsolidationfigb.png)

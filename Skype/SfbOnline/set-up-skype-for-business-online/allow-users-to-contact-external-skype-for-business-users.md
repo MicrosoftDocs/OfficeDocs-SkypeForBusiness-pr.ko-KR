@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: '사용자가 다른 조직의 사용자에 게 대화를 보내거나 외부 연락처를 사용할 수 있도록 비즈니스용 Skype를 구성 하는 방법을 알아봅니다. '
-ms.openlocfilehash: bc0a59487d3cfd3e5721d60213d367c750349604
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 394613e3137c65e814cc08dd898ec797d560d1c6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692943"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010941"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용
 
@@ -51,7 +51,7 @@ ms.locfileid: "41692943"
 ## <a name="enable-business-to-business-communications-for-your-users"></a>사용자에 대해 b2b 통신 사용
 <a name="bk_preview"> </a>
 
-이 작업을 수행 하려면 두 조직의 Office 365에 [대 한 관리자 권한이](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 있어야 합니다.
+이 작업을 수행 하려면 두 조직의 Office 365에 [대 한 관리자 권한이](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 있어야 합니다.
 
 ![](../images/teams-logo-30x30.png) **팀 관리 센터를 사용 하 여** Microsoft 팀 로고를 표시 하는 아이콘
   
@@ -112,9 +112,9 @@ ms.locfileid: "41692943"
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>페더레이션된 비즈니스와의 통신 설정에 대 한 팁
 <a name="bk_preview"> </a>
 
-- 비즈니스용 Skype 2015 및 비즈니스용 Skype Online 간의 페더레이션을 구성 하려면이 문서: [비즈니스용 Skype online을 사용 하 여 페더레이션 구성](https://technet.microsoft.com/en-us/library/jj205126.aspx)을 참조 하세요.
+- 비즈니스용 Skype 2015 및 비즈니스용 Skype Online 간의 페더레이션을 구성 하려면이 문서: [비즈니스용 Skype online을 사용 하 여 페더레이션 구성](https://technet.microsoft.com/library/jj205126.aspx)을 참조 하세요.
     
-- Lync와 비즈니스용 Skype Online 간의 페더레이션을 구성 하려면이 문서에서는 [Lync Online 고객에 대 한 페더레이션 지원 구성을](https://technet.microsoft.com/en-us/library/hh202193.aspx)참조 하세요.
+- Lync와 비즈니스용 Skype Online 간의 페더레이션을 구성 하려면이 문서에서는 [Lync Online 고객에 대 한 페더레이션 지원 구성을](https://technet.microsoft.com/library/hh202193.aspx)참조 하세요.
     
 - Office 365에 있는 두 개의 비즈니스용 Skype 사용자 들이 별도의 도메인에 서로 통신 하는 경우, 두 조직 모두에서 사용 하도록 설정 된 비즈니스용 Skype 기능 (예: 비디오 대화 또는 데스크톱 공유)만 사용할 수 있습니다.
     
@@ -149,7 +149,7 @@ ms.locfileid: "41692943"
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 <a name="bk_preview"> </a>
 
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)

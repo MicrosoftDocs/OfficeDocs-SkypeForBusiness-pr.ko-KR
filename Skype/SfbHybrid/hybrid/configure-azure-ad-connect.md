@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 하이브리드 환경에서 Azure AD Connect를 구성 하기 위한 지침입니다.
-ms.openlocfilehash: 3060ef443fd2ee57157c2590441c5fe04b1d8739
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7ae6fb7d3df6d955437a51224637264033bfa662
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726938"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41982993"
 ---
 # <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>Teams 및 비즈니스용 Skype에 Azure AD Connect 구성
  
@@ -34,12 +34,12 @@ ms.locfileid: "41726938"
 
 ## <a name="background-information"></a>배경 정보
 
-Azure Active Directory Connect는 온-프레미스 Active Directory를 계속 해 서 Office 365와 동기화 합니다.  온-프레미스 디렉터리는 신뢰할 수 있는 ID 원본으로 유지되고 온-프레미스 환경의 변경 내용은 Azure AD로 동기화됩니다. 자세한 내용은 [AZURE AD Connect 동기화](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis)를 참조 하세요.  모든 사용자를 온-프레미스에서 클라우드로 이동 하는 경우에도, 팀을 사용 하는 모든 사용자, 온-프레미스 비즈니스용 skype 또는 비즈니스용 Skype Online을 온-프레미스에서 Azure AD로 동기화 하 여 온-프레미스와 온라인 사용자 간의 통신을 보장 해야 합니다. *조직의 사용자는 온-프레미스와 온라인 디렉터리에서 모두 표시됩니다.*
+Azure Active Directory Connect는 온-프레미스 Active Directory를 계속 해 서 Office 365와 동기화 합니다.  온-프레미스 디렉터리는 신뢰할 수 있는 ID 원본으로 유지되고 온-프레미스 환경의 변경 내용은 Azure AD로 동기화됩니다. 자세한 내용은 [AZURE AD Connect 동기화](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)를 참조 하세요.  모든 사용자를 온-프레미스에서 클라우드로 이동 하는 경우에도, 팀을 사용 하는 모든 사용자, 온-프레미스 비즈니스용 skype 또는 비즈니스용 Skype Online을 온-프레미스에서 Azure AD로 동기화 하 여 온-프레미스와 온라인 사용자 간의 통신을 보장 해야 합니다. *조직의 사용자는 온-프레미스와 온라인 디렉터리에서 모두 표시됩니다.*
 
 
 ## <a name="configuring-azure-ad-when-you-have-skype-for-business-server"></a>비즈니스용 Skype 서버가 있는 경우 Azure AD 구성 
 
-온-프레미스 Active Directory 포리스트를 하나 또는 여러 개 사용 하 고 있는지 여부에 상관 없이 azure ad [connect에 대 한 토폴로지에](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies)설명 된 것 처럼 지원 되는 다양 한 토폴로지에 연결 될 수 있습니다.  비즈니스용 Skype 서버의 관점에서 다음과 같이 세 가지 주요 변형이 있습니다. 
+온-프레미스 Active Directory 포리스트를 하나 또는 여러 개 사용 하 고 있는지 여부에 상관 없이 azure ad [connect에 대 한 토폴로지에](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)설명 된 것 처럼 지원 되는 다양 한 토폴로지에 연결 될 수 있습니다.  비즈니스용 Skype 서버의 관점에서 다음과 같이 세 가지 주요 변형이 있습니다. 
 
 1. 단일 포리스트, 신뢰할 수 있는 사용자 ID를 포함하고 비즈니스용 Skype 서버를 호스팅 
 
@@ -66,7 +66,7 @@ Azure Active Directory Connect는 온-프레미스 Active Directory를 계속 �
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>여러 포리스트에 여러 비즈니스용 Skype 서버 배포 
 
-이 시나리오에는 각각 비즈니스용 Skype 서버와 단일 Office 365 테넌트가 포함된 여러 포리스트가 있습니다.  비즈니스용 Skype 서버가 포함 된 각 포리스트는 AAD Connect를 사용 하 여 해당 테 넌 트에 대해 Azure AD로 동기화 할 수 있습니다. 주어진 시간에 비즈니스 용 Skype 하이브리드에 대해 하나의 포리스트만 구성할 수 있습니다. 포리스트에서 hybrid를 사용 하도록 설정 하기 전에 다른 모든 포리스트의 모든 SIP 도메인을 [disable-csonlineSipDomain](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)을 사용 하 여 사용 하지 않도록 설정 해야 합니다. 이러한 환경을 Office 365로 통합 하는 방법에 대 한 자세한 내용은 [팀 및 비즈니스용 Skype에 대 한 클라우드 통합](cloud-consolidation.md)을 참조 하세요.
+이 시나리오에는 각각 비즈니스용 Skype 서버와 단일 Office 365 테넌트가 포함된 여러 포리스트가 있습니다.  비즈니스용 Skype 서버가 포함 된 각 포리스트는 AAD Connect를 사용 하 여 해당 테 넌 트에 대해 Azure AD로 동기화 할 수 있습니다. 주어진 시간에 비즈니스 용 Skype 하이브리드에 대해 하나의 포리스트만 구성할 수 있습니다. 포리스트에서 hybrid를 사용 하도록 설정 하기 전에 다른 모든 포리스트의 모든 SIP 도메인을 [disable-csonlineSipDomain](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)을 사용 하 여 사용 하지 않도록 설정 해야 합니다. 이러한 환경을 Office 365로 통합 하는 방법에 대 한 자세한 내용은 [팀 및 비즈니스용 Skype에 대 한 클라우드 통합](cloud-consolidation.md)을 참조 하세요.
 
 ## <a name="general-requirements"></a>일반 요구 사항 
 
@@ -74,7 +74,7 @@ Azure Active Directory Connect는 온-프레미스 Active Directory를 계속 �
 
  사용자의 ID가 여러 포리스트 사이에 존재하는 경우 Azure AD Connect는 병합을 수행해야 합니다. 이 지침을 준수 하는 경우 azure AD Connect에서 커넥터 또는 동기화 규칙을 수정 하지 않는 경우에 자동으로 올바른 특성이 동기화 됩니다. 
   
-사용자 id 및 비즈니스용 Skype 서버 배포를 포함 하는 모든 포리스트에서 동기화 하지 않는 경우에도 팀 또는 Skype를 사용 하는 모든 사용자의 관련 id 및 비즈니스용 Skype 특성이 Azure AD에 올바르게 채워졌는지 확인 해야 합니다. 비즈니스용 Business (온-프레미스 또는 온라인)--추가 온-프레미스 디렉터리 동기화가 필요한 경우가 많습니다. 자세한 내용은 [AZURE AD Connect sync: 특성을 Azure Active Directory에 동기화](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)됨을 참조 하세요.
+사용자 id 및 비즈니스용 Skype 서버 배포를 포함 하는 모든 포리스트에서 동기화 하지 않는 경우에도 팀 또는 Skype를 사용 하는 모든 사용자의 관련 id 및 비즈니스용 Skype 특성이 Azure AD에 올바르게 채워졌는지 확인 해야 합니다. 비즈니스용 Business (온-프레미스 또는 온라인)--추가 온-프레미스 디렉터리 동기화가 필요한 경우가 많습니다. 자세한 내용은 [AZURE AD Connect sync: 특성을 Azure Active Directory에 동기화](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)됨을 참조 하세요.
 
 이러한 시나리오에서 특성을 Azure AD로 채우기 위한 적절 한 구성을 보장 해야 하는 고객의 책임입니다. 다음 사항에 유의해야 합니다. 
 
@@ -84,10 +84,10 @@ Azure Active Directory Connect는 온-프레미스 Active Directory를 계속 �
 
 ## <a name="related-information"></a>관련 정보
 
-- [하이브리드 id 란](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fen-us%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
+- [하이브리드 id 란](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fen-us%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
 
-- [Azure AD Connect 동기화: 동기화 이해 및 사용자 지정](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis)
+- [Azure AD Connect 동기화: 동기화 이해 및 사용자 지정](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)
 
-- [Azure AD Connect에 대한 토폴로지](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies)
+- [Azure AD Connect에 대한 토폴로지](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)
 
-- [Azure AD Connect 동기화: 특성이 Azure Active Directory와 동기화 됨](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+- [Azure AD Connect 동기화: 특성이 Azure Active Directory와 동기화 됨](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)

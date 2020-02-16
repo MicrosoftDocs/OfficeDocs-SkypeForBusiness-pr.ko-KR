@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '비즈니스용 Skype Online을 설정 하는 방법에 대 한 자세한 정보 사용자를 위한 외부 통신은 외부 Skype 연락처와 통신할 수 있습니다. '
-ms.openlocfilehash: 65def1712c916ff670457a99dd114dcc405683be
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ec10b29c87d4dcab00bb2e680c0ed594aa9de2d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706283"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010741"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>비디오: 비즈니스용 Skype Online 외부 통신
 
@@ -37,8 +37,8 @@ ms.locfileid: "41706283"
 
 ***
   
-## <a name="related-topics"></a>관련 주제
-[비즈니스용 Skype Online 외부 통신 설정](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications) (안내 연습)
+## <a name="related-topics"></a>관련 항목
+[비즈니스용 Skype Online 외부 통신 설정](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (안내 연습)
 
 [사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](allow-users-to-contact-external-skype-for-business-users.md)
 

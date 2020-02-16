@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: '동료의 가용성을 확인할 수 있도록 비즈니스용 Skype를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 75294b62e516ef5e39a498f91ff6284c0a26cac5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 80d0edfc5ba192f86d64d45d34116b55d43a5a25
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769731"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010901"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 현재 상태 구성
 
@@ -50,9 +50,9 @@ ms.locfileid: "41769731"
 
 비즈니스용 Skype에서 사용자가 변경할 수 있는 사항에 대 한 자세한 내용은 다음 문서를 참조 하세요.
 
-- [비즈니스용 Skype에서 현재 상태 정보에 대 한 액세스 제어](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
+- [비즈니스용 Skype에서 현재 상태 정보에 대 한 액세스 제어](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 
-- [비즈니스용 Skype에서 상태 옵션 설정](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
+- [비즈니스용 Skype에서 상태 옵션 설정](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
 ## <a name="related-topics"></a>관련 주제
 

@@ -20,18 +20,18 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '비즈니스용 Skype를 사용 하는 사용자에 게 조직 외부의 비즈니스용 Skype 사용자에 게 연락 하 여 연락처 목록에 추가 하는 방법을 알아봅니다. '
-ms.openlocfilehash: d6251e8e86527172e6818d11b1e07da892b4b0ef
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ffefa664845f5dbe06b064e0a197a28d8df2c3da
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692883"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010811"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용
 
 비즈니스용 Skype를 사용 하는 경우 사용자는 Skype를 사용 하는 모든 사용자와 무료 앱을 검색 하 고 메신저 대화를 할 수 있습니다. 이 문서에서는 Skype 연락처를 추가할 수 있도록 하기 위해 수행 해야 할 작업에 대해 설명 합니다. 
   
-이 작업을 수행 하려면 Office 365에서 [관리자 권한이](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) 있어야 합니다.
+이 작업을 수행 하려면 Office 365에서 [관리자 권한이](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) 있어야 합니다.
 
 ![비즈니스용 skype](../images/sfb-logo-30x30.png) **관리 센터를 사용 하 여** 비즈니스용 skype 로고를 표시 하는 아이콘
   
@@ -55,11 +55,11 @@ ms.locfileid: "41692883"
     
 6.  Windows 방화벽을 사용 중인 경우 비즈니스용 Skype는 필요한 포트를 자동으로 엽니다.
     
-    조직에서 다른 솔루션을 사용 하 여 네트워크의 컴퓨터를 인터넷에 연결 하지 못하도록 제한 하는 경우 클라이언트 컴퓨터가 Skype 연결 및 Skype 디렉터리 검색을 위해 모든 [IP 주소 및 url](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) 에 액세스할 수 있는지 확인 합니다. 방화벽 또는 프록시 인프라 구성의 아웃 바운드 허용 목록에 추가 해야 할 수 있습니다.
+    조직에서 다른 솔루션을 사용 하 여 네트워크의 컴퓨터를 인터넷에 연결 하지 못하도록 제한 하는 경우 클라이언트 컴퓨터가 Skype 연결 및 Skype 디렉터리 검색을 위해 모든 [IP 주소 및 url](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) 에 액세스할 수 있는지 확인 합니다. 방화벽 또는 프록시 인프라 구성의 아웃 바운드 허용 목록에 추가 해야 할 수 있습니다.
     
 7. **테스트 하는 데 최대 24 시간까지 기다립니다**. 외부 통신 설정을 변경할 때마다 변경 내용이 모든 데이터 센터에 걸친 24 시간이 소요 될 수 있습니다.
     
-8. 비즈니스용 Skype 연락처 목록에 Skype 연락처를 찾고 추가 하는 방법을 사용자에 게 보여 줍니다. [비즈니스용 Skype에서 사용자를 검색](https://support.office.com/en-us/article/b12500ef-e37f-4d22-aade-c11277e53f19)하려면이를 가리킵니다.
+8. 비즈니스용 Skype 연락처 목록에 Skype 연락처를 찾고 추가 하는 방법을 사용자에 게 보여 줍니다. [비즈니스용 Skype에서 사용자를 검색](https://support.office.com/article/b12500ef-e37f-4d22-aade-c11277e53f19)하려면이를 가리킵니다.
     
 ## <a name="test-and-troubleshoot"></a>테스트 및 문제 해결
 
@@ -73,7 +73,7 @@ ms.locfileid: "41692883"
   
 3. 비즈니스용 Skype에서 Skype에서 대화 상대를 검색 하 고 채팅 요청을 보냅니다. 
     
-    회사 정책 때문에 메시지를 보낼 수 없는 경우에는 [방화벽 설정을](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)다시 확인 해야 합니다. 
+    회사 정책 때문에 메시지를 보낼 수 없는 경우에는 [방화벽 설정을](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)다시 확인 해야 합니다. 
     
 4. 문제가 방화벽에 해당 하는지 여부를 테스트 하는 또 다른 방법은 커피숍과 같이 방화벽 뒤에 있지 않은 wifi 위치로 이동 하 고 비즈니스용 Skype를 사용 하 여 Skype 연락처에 게 채팅에 대 한 요청을 보내는 것입니다. 
     
@@ -101,7 +101,7 @@ Microsoft 계정 (이전의 Windows Live ID)으로 로그인 한 skype 연락처
    
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용](allow-users-to-contact-external-skype-for-business-users.md)
   

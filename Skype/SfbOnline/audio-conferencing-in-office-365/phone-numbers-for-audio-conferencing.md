@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 국가 및 지역에 전화 접속 회의 번호와 자동으로 할당 되는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 32eeebf54fbb9e6ab75ca0e43734f64b1d811c10
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 19f2cb6f0c03ecdbc6890c7c1c24daceb508377a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707163"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986513"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의를 위한 전화 번호
 
@@ -41,7 +41,7 @@ ms.locfileid: "41707163"
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>오디오 회의 적용 범위 및 가격
 
-오디오 회의를 사용할 수 있는 모든 국가/지역 및 도시의 전체 목록은 [오디오 회의 및 통화 요금제에 대 한 국가 및 지역 사용 가능성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)을 참조 하세요. 가격 정보는 [오디오 회의 가격 산정](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)을 참조 하세요.
+오디오 회의를 사용할 수 있는 모든 국가/지역 및 도시의 전체 목록은 [오디오 회의 및 통화 요금제에 대 한 국가 및 지역 사용 가능성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)을 참조 하세요. 가격 정보는 [오디오 회의 가격 산정](https://products.office.com/skype-for-business/audio-conferencing#Requirements)을 참조 하세요.
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>모임 초대의 전화 접속 전화 번호
 
@@ -87,6 +87,6 @@ ms.locfileid: "41707163"
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

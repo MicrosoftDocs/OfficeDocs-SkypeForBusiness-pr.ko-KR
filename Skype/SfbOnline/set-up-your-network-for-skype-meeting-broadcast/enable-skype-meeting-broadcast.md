@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 조직의 사용자가 Skype 모임 브로드캐스트를 사용 하기 전에 먼저 사용 하도록 설정 해야 합니다. 이렇게 하려면 Windows PowerShell을 사용 하는 방법을 알고 있어야 합니다. Windows PowerShell을 모르는 경우 Microsoft 파트너를 고용 하 여이 단계를 수행 하는 것이 좋습니다.
-ms.openlocfilehash: 6ad681972bb62fa1790290a90d4281fe4ccd8571
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1b06f327fa59ec8e90c9b014db8a252ca7b40579
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692633"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010611"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트 사용
 
@@ -86,7 +86,7 @@ ms.locfileid: "41692633"
     > [!TIP]
     > 변경 후 Skype 모임 브로드캐스트 포털에 영향을 주는 데 시간이 걸릴 수 있습니다. 
   
-10. 이제 사용자가 비즈니스의 다른 사용자와 브로드캐스트 모임을 보관할 수 있습니다. 시작 하려면 [Skype 모임 브로드캐스트를 선택](https://support.office.com/en-us/article/c472c76b-21f1-4e4b-ab58-329a6c33757d) 하세요.
+10. 이제 사용자가 비즈니스의 다른 사용자와 브로드캐스트 모임을 보관할 수 있습니다. 시작 하려면 [Skype 모임 브로드캐스트를 선택](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d) 하세요.
     
 ## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a>외부 참석자와의 모임을 브로드캐스트하도록 네트워크 구성
 
@@ -96,7 +96,7 @@ ms.locfileid: "41692633"
   
 이 단계를 건너뛰고 대신 다른 비즈니스를 페더레이션에 추가 하려면 [사용자가 외부 비즈니스용 Skype 사용자에 게 연락할 수 있도록 허용](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)을 참조 하세요. 
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Windows PowerShell 및 Lync Online 소개](https://go.microsoft.com/fwlink/?LinkId=525039)
   

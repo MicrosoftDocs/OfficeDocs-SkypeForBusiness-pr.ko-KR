@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에서 클라우드 자동 전화 교환 사용 개요
-ms.openlocfilehash: d34e298db9cdd8f1bbd0378e37c6d9aae2b02726
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7a3799df083d1404a2d635ee38403cc2653b9ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724228"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037820"
 ---
 # <a name="plan-cloud-auto-attendants"></a>클라우드 자동 전화 교환 계획
 
@@ -98,7 +98,7 @@ Microsoft는 다음과 같은 마이그레이션 경로를 권장 합니다.
 사용자의 요구에 맞는 견고한 구조와 고객을 효율적으로 안내 하는 스크립트를 만들려면 [리소스 계정 구성을](configure-onprem-ra.md)계속 진행 합니다.
 
 > [!CAUTION]
-> [KB4480742](https://support.microsoft.com/en-us/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)에서 설명한 것 처럼 서버 2015에서 만든 Exchange UM 자동 전화 교환을 서버 2019을 실행 하는 서버로 이동 하지 않는 것이 좋습니다. 시간에 coexistance 모드에서 실행 되는 비즈니스용 Skype 서버 2015 풀에 해당 기간을 보관 해야 합니다.
+> [KB4480742](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)에서 설명한 것 처럼 서버 2015에서 만든 Exchange UM 자동 전화 교환을 서버 2019을 실행 하는 서버로 이동 하지 않는 것이 좋습니다. 시간에 coexistance 모드에서 실행 되는 비즈니스용 Skype 서버 2015 풀에 해당 기간을 보관 해야 합니다.
 
 ## <a name="see-also"></a>참고 항목
 

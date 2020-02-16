@@ -21,16 +21,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Office 365 Enterprise, E1, E3, E4 요금제에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다. '
-ms.openlocfilehash: fa51f8ff6e785009be5392aef8b137a6ff57430b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 79a803061acfd4550c75871c08f40b16ee2f8e2b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692473"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010591"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 및 E4
 
-[Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)또는 E4 계획을 이미 구매한 경우 다음을 수행 하 여 비즈니스용 Skype 기능을 확보 하기 위해 구입 해야 하는 추가 기능 라이선스가 있습니다.
+[Office 365 Enterprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/business/office-365-enterprise-e3-business-software)또는 E4 계획을 이미 구매한 경우 다음을 수행 하 여 비즈니스용 Skype 기능을 확보 하기 위해 구입 해야 하는 추가 기능 라이선스가 있습니다.
 
 |||
 |:-----|:-----|

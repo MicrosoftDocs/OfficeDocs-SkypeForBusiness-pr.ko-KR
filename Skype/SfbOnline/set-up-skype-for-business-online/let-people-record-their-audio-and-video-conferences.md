@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: '오디오 및 비디오 회의 녹화를 설정 하 고 녹화에 포함 되어 있지 않은 내용에 대해 알아봅니다. '
-ms.openlocfilehash: 7e06d2bddc95b8ab57a2a4a5c47fb4b86837d161
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 956d1eb4e3ad57e2d801a8f08842d646be742a97
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769611"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010821"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>사용자가 음성 및 비디오 회의를 녹음/녹화하도록 허용
 
@@ -45,7 +45,7 @@ ms.locfileid: "41769611"
 |:-----|:-----|
 |오디오 및 HD 비디오  <br/> PowerPoint 및 화이트 보드 프레젠테이션  <br/> 데스크톱 또는 프로그램 공유 세션  <br/> |공유 OneNote 페이지  <br/> PowerPoint 주석  <br/> 공유 파일 (첨부 파일)  <br/> |
    
-자세한 내용은 [lync 기록 저장 및 게시](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) 및 [lync 기록 관리자](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)를 참조 하세요. 
+자세한 내용은 [lync 기록 저장 및 게시](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) 및 [lync 기록 관리자](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b)를 참조 하세요. 
   
 ## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)

@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '추가 기능 라이선스, 사용할 수 있는 기능, 제품을 위해 구입 하는 방법, 기존 통신 회사를 사용 하는 방법에 대해 알아보세요. Office 365, 커뮤니케이션 크레딧, 통화 플랜에 대 한 가격 및 계획 세부 정보를 얻을 수 있습니다. '
-ms.openlocfilehash: c48136176673676df83833833b4424d8d0a593f3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 94a5adc1e9f9abf5529aaf5b149d9cfc906efbe8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706083"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010571"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>비즈니스용 Skype 추가 기능 라이선스
 
@@ -44,11 +44,11 @@ ms.locfileid: "41706083"
 
 자세한 비용 정보는 가격을 [확인 하 고 추가 기능 라이선스를 구입 하는 방법](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) 또는 다음 중 하나를 참조 하세요.
 
-- [오디오 회의에 대 한 가격](https://products.office.com/en-us/skype-for-business/audio-conferencing)
+- [오디오 회의에 대 한 가격](https://products.office.com/skype-for-business/audio-conferencing)
 
-- [전화 시스템의 가격 책정](https://products.office.com/en-us/skype-for-business/phone-system)
+- [전화 시스템의 가격 책정](https://products.office.com/skype-for-business/phone-system)
 
-- [통화 요금제 가격](https://products.office.com/en-us/skype-for-business/calling-plans)
+- [통화 요금제 가격](https://products.office.com/skype-for-business/calling-plans)
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>추가 기능 라이선스를 사용 하 여 어떤 기능을 얻을 수 있나요?
 
@@ -57,10 +57,10 @@ ms.locfileid: "41706083"
 |||
 |:-----|:-----|
 |**기능** <br/> |**설명** <br/> |
-|**오디오 회의** <br/> |때로는 조직의 사용자가 컴퓨터를 사용 하지 않고 비즈니스용 Skype 모임에 전화를 거는 것이 필요할 수 있습니다. 이 경우 오디오 회의 기능을 사용 합니다.  <br/> 국가 또는 지역에서 오디오 회의를 사용할 수 있는지 여부를 확인 하려면 [오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)을 참조 하세요. <br/> 비용을 원하는 경우 [오디오 회의에 대 한 요구 사항을](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements)참조 하세요.  <br/> |
+|**오디오 회의** <br/> |때로는 조직의 사용자가 컴퓨터를 사용 하지 않고 비즈니스용 Skype 모임에 전화를 거는 것이 필요할 수 있습니다. 이 경우 오디오 회의 기능을 사용 합니다.  <br/> 국가 또는 지역에서 오디오 회의를 사용할 수 있는지 여부를 확인 하려면 [오디오 회의 및 통화 요금제의 국가 및 지역 사용 가능성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)을 참조 하세요. <br/> 비용을 원하는 경우 [오디오 회의에 대 한 요구 사항을](https://products.office.com/skype-for-business/audio-conferencing#requirements)참조 하세요.  <br/> |
 |**회의에 대 한 전화 접속 액세스를 위한 무료 전화 번호와 전화를 걸 때 휴대폰 번호로 전화를 걸어 다른 사람을 추가 하는 기능** <br/> |오디오 회의를 추가 하는 경우 [통신 크레딧을 설정](/microsoftteams/set-up-communications-credits-for-your-organization)하는 것이 좋습니다. <br/> |
-|**전화 시스템** <br/> |PBX는 기업의 전화 시스템입니다. Office 365의 전화 시스템은 호스팅된 전화 서비스입니다. 일반 및 혁신적인 PBX 기능을 모두 사용할 수 있지만 복잡 하 고 저렴 한 장비를 제공 하지 않습니다. [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 것은 다음과](/MicrosoftTeams/here-s-what-you-get-with-phone-system)같습니다.  <br/> 비용을 원하는 경우 [전화 시스템에 대 한 요구 사항을](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)참조 하세요.  <br/> |
-|**통화 플랜** <br/> |다른 비즈니스용 Skype 사용자와의 통화는 무료 이지만 사용자가 회사 외부의 모든 전화 번호로 전화를 받을 수 있도록 하려면 [통화 요금제](/MicrosoftTeams/calling-plans-for-office-365)를 받으세요. Office 365에는 국내 통화 요금제와 국내 및 국제 통화 요금제가 있습니다.  <br/> 비용을 원하는 경우 [통화 요금제에 대 한 요구 사항을](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)참조 하세요.  <br/> |
+|**전화 시스템** <br/> |PBX는 기업의 전화 시스템입니다. Office 365의 전화 시스템은 호스팅된 전화 서비스입니다. 일반 및 혁신적인 PBX 기능을 모두 사용할 수 있지만 복잡 하 고 저렴 한 장비를 제공 하지 않습니다. [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 것은 다음과](/MicrosoftTeams/here-s-what-you-get-with-phone-system)같습니다.  <br/> 비용을 원하는 경우 [전화 시스템에 대 한 요구 사항을](https://products.office.com/skype-for-business/cloud-pbx#requirements)참조 하세요.  <br/> |
+|**통화 플랜** <br/> |다른 비즈니스용 Skype 사용자와의 통화는 무료 이지만 사용자가 회사 외부의 모든 전화 번호로 전화를 받을 수 있도록 하려면 [통화 요금제](/MicrosoftTeams/calling-plans-for-office-365)를 받으세요. Office 365에는 국내 통화 요금제와 국내 및 국제 통화 요금제가 있습니다.  <br/> 비용을 원하는 경우 [통화 요금제에 대 한 요구 사항을](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)참조 하세요.  <br/> |
 |**Microsoft Teams 룸** <br/> |이는 추가 기능이 아니지만, 회의실에 비디오, 오디오 및 콘텐츠 공유를 제공 하는 기능입니다. [Microsoft 팀 대화방](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)을 참조 하세요.  <br/> |
 
 모든 추가 기능 옵션에 대해 이야기 해야 하나요? [비즈니스 제품에 대 한 고객 지원 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
@@ -91,11 +91,11 @@ ms.locfileid: "41706083"
 ## <a name="how-do-i-use-my-existing-calling-plans-with-skype-for-business"></a>비즈니스용 Skype에서 기존 통화 요금제를 사용 하는 방법은 무엇 인가요?
 <a name="bkmk_existing"></a>
 
-기존 통화 계획을 사용 하려는 경우 **전화 시스템** 추가 기능을 구입 하 여 **[무료 클라우드 커넥터](https://technet.microsoft.com/en-us/library/mt605227.aspx)** 에 사용 합니다.
+기존 통화 계획을 사용 하려는 경우 **전화 시스템** 추가 기능을 구입 하 여 **[무료 클라우드 커넥터](https://technet.microsoft.com/library/mt605227.aspx)** 에 사용 합니다.
 
 하이브리드 사용자에 대해 온-프레미스 PSTN 연결을 사용 하는 경우 사용자 에게만 **전화 시스템** 라이선스 *를 할당 합니다* . 통화 요금제도 지정 **하지 마세요** .
 
-온-프레미스 PSTN 연결을 사용 하는 전화 시스템을 포함 하 여 배포 계획에 대 한 자세한 내용은 [Office 365 (클라우드 PBX) 솔루션에서 전화 시스템 계획](https://technet.microsoft.com/en-us/library/mt612869.aspx)을 참조 하세요.
+온-프레미스 PSTN 연결을 사용 하는 전화 시스템을 포함 하 여 배포 계획에 대 한 자세한 내용은 [Office 365 (클라우드 PBX) 솔루션에서 전화 시스템 계획](https://technet.microsoft.com/library/mt612869.aspx)을 참조 하세요.
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
@@ -110,4 +110,4 @@ ms.locfileid: "41706083"
     
 - [자금 추가 및 통신 크레딧 관리](/microsoftteams/add-funds-and-manage-communications-credits)
     
-- [클라우드 커넥터를 구성](https://technet.microsoft.com/en-us/library/mt605228.aspx) 하 고 [클라우드 커넥터 다운로드](https://aka.ms/CloudConnectorInstaller)
+- [클라우드 커넥터를 구성](https://technet.microsoft.com/library/mt605228.aspx) 하 고 [클라우드 커넥터 다운로드](https://aka.ms/CloudConnectorInstaller)

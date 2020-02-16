@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 상태 대시보드를 사용 하 여 세션 경계 컨트롤러와 직접 라우팅 간의 연결을 모니터링 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a1644eb94cc18bf149a5e866aae0faf4b41d1d67
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836078"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051804"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>직접 라우팅에 대 한 상태 대시보드
 
@@ -102,7 +102,7 @@ Microsoft 팀 및 비즈니스용 Skype 관리 센터에서 상태 대시보드�
 
 - **동시 통화**-SBC에서 처리 된 동시 호출 수를 보여 줍니다. 이 정보는 필요한 동시 채널 수를 예측 하 고 추세를 확인 하는 데 유용 합니다. 일 수 및 통화 방향 (인바운드/아웃 바운드/모든 스트림)으로 데이터를 밀어 삽입할 수 있습니다.
 
-- **네트워크 매개 변수** -모든 네트워크 매개 변수는 직접 라우팅 인터페이스에서 세션 경계 컨트롤러로 측정 됩니다. 권장 값에 대 한 자세한 내용은 [Microsoft 팀 용 조직의 네트워크 준비](https://docs.microsoft.com/en-us/microsoftteams/prepare-network)를 참조 하 고 고객 Edge에서 microsoft edge 추천 값을 확인 하세요.
+- **네트워크 매개 변수** -모든 네트워크 매개 변수는 직접 라우팅 인터페이스에서 세션 경계 컨트롤러로 측정 됩니다. 권장 값에 대 한 자세한 내용은 [Microsoft 팀 용 조직의 네트워크 준비](https://docs.microsoft.com/microsoftteams/prepare-network)를 참조 하 고 고객 Edge에서 microsoft edge 추천 값을 확인 하세요.
 
    - 지터 – RTCP (RTP 컨트롤 프로토콜)를 사용 하 여 두 끝점 간에 계산 된 네트워크 전파 지연 시간 변동의 밀리초 단위입니다.
 

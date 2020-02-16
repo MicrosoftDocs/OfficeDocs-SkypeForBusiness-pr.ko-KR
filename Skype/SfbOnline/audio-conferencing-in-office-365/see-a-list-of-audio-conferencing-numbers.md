@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '비즈니스용 Skype Online에서 전화 접속 회의 번호를 찾는 방법을 알아보세요. '
-ms.openlocfilehash: 6cfbc79ff4e282c1b7f8f3f6b19483aa9347f646
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6c9c9633f99edf42c3016b90f3b52c6c4c54b0d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680515"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42011021"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>비즈니스용 Skype Online의 오디오 회의 번호 목록 보기
 
@@ -35,7 +35,7 @@ ms.locfileid: "41680515"
 
 비즈니스용 Skype 사용자를 위해 오디오 회의를 설정할 때 오디오 회의에 사용할 수 있는 전화 번호를 볼 수 있습니다. 이 목록에는 조직에서 사용할 수 있는 모든 오디오 회의 전화 번호가 포함 됩니다.
   
- **가격을 찾으십니까?** [오디오 회의에 대 한 가격 산정을](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)참조 하세요.
+ **가격을 찾으십니까?** [오디오 회의에 대 한 가격 산정을](https://products.office.com/skype-for-business/audio-conferencing#Requirements)참조 하세요.
   
 > [!IMPORTANT]
 > **오디오 회의에 대 한 모든 전화 접속 번호 목록이 포함 된 리소스가 없습니다.** 해당 지역 또는 국가/지역에서 전화 접속 전화 번호를 사용할 수 있는지 확인 하려면 **비즈니스용 Skype 관리 센터** > **음성** > **전화 번호로**이동 하 고 **추가**를 클릭 한 다음 **새 서비스 번호**를 클릭 합니다. **국가/지역**, **시/지역**, **구/군/시** 목록을 사용 하 여 검색을 필터링 합니다. 또한 무료 서비스 번호를 찾고 있는 경우에는 **상태/지역** 목록에서 무료 **통화** 를 선택 합니다.
@@ -87,7 +87,7 @@ ms.locfileid: "41680515"
     > [!NOTE]
     > 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 사용 하면 비즈니스용 Skype Online에 연결 하는 원격 Windows PowerShell 세션을 만들 수 있습니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688) 의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
   

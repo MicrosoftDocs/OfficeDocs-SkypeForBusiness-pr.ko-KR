@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '비즈니스용 Skype Online에서 사용자의 모임 전화 회의 ID를 다시 설정 하는 단계를 알아보고 모임 업데이트 및 마이그레이션 도구에 대 한 링크를 확인 하세요. '
-ms.openlocfilehash: c87db0972fb8144d7a8a807de81905f5be23191c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9a1c2766da021d30feb14954d6e69b6978b64bc9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707153"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986493"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 사용자의 전화 회의 ID 다시 설정
 
@@ -66,7 +66,7 @@ ms.locfileid: "41707153"
     
   - [비즈니스용 Skype Online, 모임 마이그레이션 도구 (64 비트)](https://go.microsoft.com/fwlink/?LinkID=626047)
     
-  - [비즈니스용 Skype Online, 모임 마이그레이션 도구 (32 비트)](https://www.microsoft.com/en-us/download/details.aspx?id=54079)
+  - [비즈니스용 Skype Online, 모임 마이그레이션 도구 (32 비트)](https://www.microsoft.com/download/details.aspx?id=54079)
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell을 사용 하 여 관리 하는 방법을 알고 싶으세요?
 
@@ -84,6 +84,6 @@ ms.locfileid: "41707153"
     
   - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [오디오 회의 PIN 재설정](reset-the-audio-conferencing-pin.md)

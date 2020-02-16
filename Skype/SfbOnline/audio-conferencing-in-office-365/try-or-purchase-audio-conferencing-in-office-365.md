@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 용 오디오 회의 (PSTN 회의) 라이선스를 구입 하거나 구매 하 여 사용자가 전화를 걸 수 있는 컨퍼런스 통화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 5a2c797b1e31dd98d09ee8773396f599f070c3c2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d2ae202cbed7c59876ea04c9d3a5760d6495898d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680335"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010961"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>비즈니스용 Skype Online에 대 한 Office 365에서 오디오 회의 체험 또는 구매
 
@@ -38,7 +38,7 @@ ms.locfileid: "41680335"
 
 일정을 예약 하거나 리드 회의를 하는 사용자를 위해 오디오 회의를 설정 하기만 하면 됩니다. 모임에 전화를 거는 모임 참석자는 자신에 게 할당 된 라이선스가 필요 하지 않으며 다른 설정이 필요 하지 않습니다.
 
-가격 정보는 [오디오 회의 가격 산정](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)을 참조 하세요.
+가격 정보는 [오디오 회의 가격 산정](https://products.office.com/skype-for-business/audio-conferencing#Requirements)을 참조 하세요.
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>1 단계: 오디오 회의 라이선스 구입 및 할당
 

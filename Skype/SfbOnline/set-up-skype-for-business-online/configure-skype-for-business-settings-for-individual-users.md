@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: '오디오 및 비디오 회의, 통화 기록, 모임 기록과 같은 개별 사용자의 비즈니스용 Skype 설정을 변경 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: d6054db4bfdd8b161dca427237a10d70ba558fcb
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 756de9829194139f39c7618e0c8bbd74f3418264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769691"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010891"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>관리자: 개별 사용자에 대해 비즈니스용 Skype 설정을 구성 합니다.
 
@@ -43,7 +43,7 @@ ms.locfileid: "41769691"
 ## <a name="configure-general-settings-for-one-user"></a>한 명의 사용자에 대 한 일반 설정 구성
 <a name="__toc325019204"> </a>
 
-이 단계를 수행 하려면 [관리자 권한이](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 있어야 합니다.
+이 단계를 수행 하려면 [관리자 권한이](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 있어야 합니다.
 
 ![비즈니스용 skype](../images/sfb-logo-30x30.png) **관리 센터를 사용 하 여** 비즈니스용 skype 로고를 표시 하는 아이콘
   
@@ -67,7 +67,7 @@ ms.locfileid: "41769691"
 |:-----|:-----|
 |오디오 및 HD 비디오  <br/> |이 사람이 오디오 모임, 오디오 및 비디오 모임을 녹음/녹화할 수 있도록 허용 하거나 모임 예약을 허용 하지 않습니다 (없음).  <br/> |
 |대화 및 모임 기록  <br/> |이 사용자가 녹화할 수 있는 항목을 선택 합니다.  <br/> 이 옵션은 비즈니스용 Skype Basic에서 사용할 수 없습니다.  <br/> |
-|준수를 위해 보관 되지 않는 기능 해제  <br/> | 전자적으로 저장 된 정보를 보존 해야 하는 경우이 옵션을 선택 합니다. <br/>  이 옵션을 선택 하면 Exchange 관리 센터에 원본 [위치 유지](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) 가 설정 되어 있는 경우에는 캡처되지 않은 기능이 꺼집니다. 이 기능은 다음 기능을 해제 합니다. <br/>  인스턴트 메시지를 사용 하 여 파일 전송 <br/>  공유 OneNote 페이지 <br/>  PowerPoint 주석 <br/> |
+|준수를 위해 보관 되지 않는 기능 해제  <br/> | 전자적으로 저장 된 정보를 보존 해야 하는 경우이 옵션을 선택 합니다. <br/>  이 옵션을 선택 하면 Exchange 관리 센터에 원본 [위치 유지](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx) 가 설정 되어 있는 경우에는 캡처되지 않은 기능이 꺼집니다. 이 기능은 다음 기능을 해제 합니다. <br/>  인스턴트 메시지를 사용 하 여 파일 전송 <br/>  공유 OneNote 페이지 <br/>  PowerPoint 주석 <br/> |
    
 이러한 설정을 일괄적으로 구성 하려면 PowerShell을 사용 합니다. [Windows PowerShell에 대 한 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
   
