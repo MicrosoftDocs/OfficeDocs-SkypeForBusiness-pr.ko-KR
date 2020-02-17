@@ -53,7 +53,7 @@ _**마지막으로 수정 된 항목:** 2013-02-19_
     
         Uninstall -CsMirrorDatabase -DatabaseType User -SqlServerFqdn <PrimaryServerFqdn> -SqlInstanceName <SQLInstance> -verbose
     
-    예:
+    예시는 다음과 같습니다:
     
         Uninstall -CsMirrorDatabase -DatabaseType User -SqlServerFqdn server4.contoso.com -SqlInstanceName archinst -verbose
     

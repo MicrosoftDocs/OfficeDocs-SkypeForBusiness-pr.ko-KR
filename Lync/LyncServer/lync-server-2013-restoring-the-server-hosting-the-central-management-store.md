@@ -214,7 +214,7 @@ Lync Server 배포에는 Lync Server 서버 역할을 실행 하는 각 서버�
         
             Import-CsUserData -PoolFqdn <Fqdn> -FileName <String>
         
-        예:
+        예시는 다음과 같습니다:
         
             Import-CsUserData -PoolFqdn "atl0cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserDatal.zip"
     

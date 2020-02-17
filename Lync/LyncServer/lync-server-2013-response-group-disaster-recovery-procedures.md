@@ -59,7 +59,7 @@ Lync Server 응답 그룹 서비스에 대 한 재해 복구를 준비 하 고 �
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<backup pool FQDN>" -FileName "<backup path and file name>"
     
-    백업 풀의 응용 프로그램 수준 설정을 기본 풀의 설정으로 바꾸려면 – ReplaceExistingSettings 매개 변수를 포함 합니다. 예:
+    백업 풀의 응용 프로그램 수준 설정을 기본 풀의 설정으로 바꾸려면 – ReplaceExistingSettings 매개 변수를 포함 합니다. 예시는 다음과 같습니다:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:backup.contoso.com" -FileName "C:\RgsExportPrimary.zip" -ReplaceExistingSettings
     
@@ -114,7 +114,7 @@ Lync Server 응답 그룹 서비스에 대 한 재해 복구를 준비 하 고 �
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-    또는 기본 풀이 소유한 모든 응답 그룹 및-Owner 매개 변수 대신 – ShowAll 매개 변수를 사용 하 여 백업 풀이 소유한 위치를 포함 하 여 백업 풀의 모든 응답이 표시 되도록 할 수 있습니다. 예:
+    또는 기본 풀이 소유한 모든 응답 그룹 및-Owner 매개 변수 대신 – ShowAll 매개 변수를 사용 하 여 백업 풀이 소유한 위치를 포함 하 여 백업 풀의 모든 응답이 표시 되도록 할 수 있습니다. 예시는 다음과 같습니다:
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -ShowAll
     

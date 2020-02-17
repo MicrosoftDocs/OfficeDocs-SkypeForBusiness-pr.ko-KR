@@ -76,7 +76,7 @@ EnableQoS 속성이 False (앞의 출력)로 설정 되어 있으면 Windows 이
 
     Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True
 
-EnableQoS 속성 값을 False로 설정 하 여 Windows 이외의 운영 체제를 사용 하는 장치에 대해 QoS를 사용 하지 않도록 설정할 수 있습니다. 예:
+EnableQoS 속성 값을 False로 설정 하 여 Windows 이외의 운영 체제를 사용 하는 장치에 대해 QoS를 사용 하지 않도록 설정할 수 있습니다. 예시는 다음과 같습니다:
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False
 

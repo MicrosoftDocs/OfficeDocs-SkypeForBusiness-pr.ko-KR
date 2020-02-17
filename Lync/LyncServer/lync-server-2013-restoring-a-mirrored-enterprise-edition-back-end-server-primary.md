@@ -55,7 +55,7 @@ _**마지막으로 수정 된 항목:** 2013-02-17_
     
         Invoke-CsDataBaseFailover -PoolFqdn <Pool FQDN> -DatabaseType <Configured Database Type> -NewPrincipal Mirror -Force -Verbose
     
-    예:
+    예시는 다음과 같습니다:
     
         Invoke-CsDataBaseFailover -PoolFqdn pool0.vdomain.com -DatabaseType User -NewPrincipal Mirror -Force -Verbose
     
@@ -89,7 +89,7 @@ _**마지막으로 수정 된 항목:** 2013-02-17_
     
         Uninstall-CsMirrorDatabase -DatabaseType User -SqlServerFqdn <MirrorServerFqdn> -SqlInstanceName <SQLInstance> -verbose
     
-    예:
+    예시는 다음과 같습니다:
     
         Uninstall-CsMirrorDatabase -DatabaseType User -SqlServerFqdn DB2.contoso.com -SqlInstanceName rtc -verbose
     

@@ -91,7 +91,7 @@ _**마지막으로 수정 된 항목:** 2012-10-07_
     
         Set-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $False
     
-    예:
+    예시는 다음과 같습니다:
     
         Set-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $False
 
@@ -110,7 +110,7 @@ _**마지막으로 수정 된 항목:** 2012-10-07_
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
-    예:
+    예시는 다음과 같습니다:
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     
@@ -143,7 +143,7 @@ _**마지막으로 수정 된 항목:** 2012-10-07_
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
-    예:
+    예시는 다음과 같습니다:
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     

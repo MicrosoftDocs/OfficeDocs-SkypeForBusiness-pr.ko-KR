@@ -50,11 +50,11 @@ _**마지막으로 수정 된 항목:** 2013-02-20_
 
   - 공통 영역 전화에 대해 핫 desking을 사용 하도록 설정 하려면 해당 휴대폰 또는 전화 모음에 할당 된 클라이언트 정책을 수정 해야 합니다.
     
-    수정 해야 하는 정책을 식별 한 후에는 **CsClientPolicy** cmdlet을 사용 하 여 EnableHotdesking 매개 변수를 True로 설정 합니다. 예:
+    수정 해야 하는 정책을 식별 한 후에는 **CsClientPolicy** cmdlet을 사용 하 여 EnableHotdesking 매개 변수를 True로 설정 합니다. 예시는 다음과 같습니다:
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $True
 
-  - 또는 **새 CsClientPolicy** cmdlet을 사용 하 여 핫 desking을 사용 하도록 설정 하는 새 클라이언트 정책을 만들 수 있습니다. 예:
+  - 또는 **새 CsClientPolicy** cmdlet을 사용 하 여 핫 desking을 사용 하도록 설정 하는 새 클라이언트 정책을 만들 수 있습니다. 예시는 다음과 같습니다:
     
         New-CsClientPolicy -Identity "NewCommonAreaPhonePolicy" - EnableHotdesking $True
 
@@ -74,7 +74,7 @@ _**마지막으로 수정 된 항목:** 2013-02-20_
 
 ## <a name="disabling-hot-desking"></a>Hot desking 사용 안 함
 
-  - 공통 영역 전화에 대해 핫 desking를 사용 하지 **않도록 설정 하려면** EnableHotdesking 매개 변수를 기본값인 False로 다시 설정 합니다. 예:
+  - 공통 영역 전화에 대해 핫 desking를 사용 하지 **않도록 설정 하려면** EnableHotdesking 매개 변수를 기본값인 False로 다시 설정 합니다. 예시는 다음과 같습니다:
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $False
 
