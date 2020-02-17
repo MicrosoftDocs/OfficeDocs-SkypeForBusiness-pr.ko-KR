@@ -105,7 +105,7 @@ _**마지막으로 수정 된 항목:** 2013-02-23_
 
 ## <a name="to-view-all-the-device-update-rules-on-a-specific-web-server"></a>특정 웹 서버에서 모든 장치 업데이트 규칙을 보려면
 
-  - 특정 컴퓨터에서 장치 업데이트 규칙을 보려면 Filter 매개 변수 다음에 서버 Id와 와일드 카드 문자 (\*)를 사용 합니다. 예:
+  - 특정 컴퓨터에서 장치 업데이트 규칙을 보려면 Filter 매개 변수 다음에 서버 Id와 와일드 카드 문자 (\*)를 사용 합니다. 예시는 다음과 같습니다:
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*"
 

@@ -69,7 +69,7 @@ Lync 환경과 모바일 클라이언트 간의 보안 연결을 지원 하기 �
     
     **중요:**
     
-    각 사용에 대해 별도의 인증서가 할당 되어 있는 경우 위 예에서와 같이, 위에서 확인 한 지문 값이 서로 다른 경우에는 **set-cscertificate** cmdlet을 실행 **하지** 않는 것이 중요 합니다. 이 경우 각 사용에 대해 **set-cscertificate** cmdlet을 개별적으로 실행 합니다. 예:
+    각 사용에 대해 별도의 인증서가 할당 되어 있는 경우 위 예에서와 같이, 위에서 확인 한 지문 값이 서로 다른 경우에는 **set-cscertificate** cmdlet을 실행 **하지** 않는 것이 중요 합니다. 이 경우 각 사용에 대해 **set-cscertificate** cmdlet을 개별적으로 실행 합니다. 예시는 다음과 같습니다:
     
         Set-CsCertificate -Type Default -Thumbprint <Certificate Thumbprint>
         Set-CsCertificate -Type WebServicesInternal -Thumbprint <Certificate Thumbprint>
@@ -107,7 +107,7 @@ Lync 환경과 모바일 클라이언트 간의 보안 연결을 지원 하기 �
         
             Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
         
-        SIP 도메인이 많은 경우에는 새 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신 DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 lyncdiscoverinternal 및 lyncdiscover 레코드의 FQDN을 정의 해야 합니다. 예:
+        SIP 도메인이 많은 경우에는 새 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신 DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 lyncdiscoverinternal 및 lyncdiscover 레코드의 FQDN을 정의 해야 합니다. 예시는 다음과 같습니다:
         
             Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
     
@@ -123,7 +123,7 @@ Lync 환경과 모바일 클라이언트 간의 보안 연결을 지원 하기 �
         
             Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
         
-        SIP 도메인이 많은 경우에는 새 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신 DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 SIP 도메인 FQDN에 대해 적절 한 접두사를 사용 해야 합니다. 예:
+        SIP 도메인이 많은 경우에는 새 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신 DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 SIP 도메인 FQDN에 대해 적절 한 접두사를 사용 해야 합니다. 예시는 다음과 같습니다:
         
             Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
     
@@ -131,7 +131,7 @@ Lync 환경과 모바일 클라이언트 간의 보안 연결을 지원 하기 �
         
             Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
         
-        SIP 도메인이 많은 경우에는 새 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신 DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 SIP 도메인 FQDN에 대해 적절 한 접두사를 사용 해야 합니다. 예:
+        SIP 도메인이 많은 경우에는 새 AllSipDomain 매개 변수를 사용할 수 없습니다. 대신 DomainName 매개 변수를 사용 해야 합니다. DomainName 매개 변수를 사용 하는 경우 SIP 도메인 FQDN에 대해 적절 한 접두사를 사용 해야 합니다. 예시는 다음과 같습니다:
         
             Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -DomainName "Lyncdiscover.contoso.com, Lyncdiscover.contoso.net" -verbose
     

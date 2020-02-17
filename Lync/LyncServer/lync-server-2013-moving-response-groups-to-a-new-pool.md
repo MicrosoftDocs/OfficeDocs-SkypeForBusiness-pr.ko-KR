@@ -61,7 +61,7 @@ Lync Server 2013에는 FQDN (정규화 된 도메인 이름)이 다를 때를 �
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source FQDN>" -FileName "<export file name>"
     
-    예:
+    예시는 다음과 같습니다:
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -FileName "C:\RgsExportSource.zip"
     

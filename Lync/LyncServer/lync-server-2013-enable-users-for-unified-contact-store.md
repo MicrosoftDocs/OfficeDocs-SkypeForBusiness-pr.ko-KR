@@ -55,7 +55,7 @@ Lync Server 2013을 배포 하 고 토폴로지를 게시 하면 기본적으로
         
             New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
         
-        예:
+        예시는 다음과 같습니다:
         
             New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
     
@@ -63,7 +63,7 @@ Lync Server 2013을 배포 하 고 토폴로지를 게시 하면 기본적으로
         
             Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
         
-        예:
+        예시는 다음과 같습니다:
         
             Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
     

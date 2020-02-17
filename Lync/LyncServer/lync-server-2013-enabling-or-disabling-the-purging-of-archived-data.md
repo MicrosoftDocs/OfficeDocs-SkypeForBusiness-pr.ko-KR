@@ -89,7 +89,7 @@ Windows PowerShell 및 **get-csarchivingconfiguration** cmdlet을 사용 하 여
 
 ## <a name="to-enable-the-purging-of-all-archiving-data"></a>모든 보관 데이터를 삭제할 수 있도록 설정 하려면
 
-  - 모든 보관 데이터의 삭제를 사용하도록 설정하려면 **EnablePurging** 속성을 true($True)로 설정합니다. 예:
+  - 모든 보관 데이터의 삭제를 사용하도록 설정하려면 **EnablePurging** 속성을 true($True)로 설정합니다. 예시는 다음과 같습니다:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
     
@@ -101,7 +101,7 @@ Windows PowerShell 및 **get-csarchivingconfiguration** cmdlet을 사용 하 여
 
 ## <a name="to-enable-the-purging-only-of-exported-archiving-data"></a>내보낸 보관 데이터만 삭제할 수 있도록 설정 하려면
 
-  - [Export-csarchivingdata](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) cmdlet을 사용 하 여 데이터 파일로 내보낸 보관 레코드에 대 한 삭제를 제한 하려면 PurgeExportedArchivesOnly 속성을 True ($True)로도 설정 해야 합니다. 예:
+  - [Export-csarchivingdata](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) cmdlet을 사용 하 여 데이터 파일로 내보낸 보관 레코드에 대 한 삭제를 제한 하려면 PurgeExportedArchivesOnly 속성을 True ($True)로도 설정 해야 합니다. 예시는 다음과 같습니다:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     

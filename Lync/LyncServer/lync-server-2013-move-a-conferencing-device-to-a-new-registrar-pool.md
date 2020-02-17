@@ -56,7 +56,7 @@ _**마지막으로 수정 된 항목:** 2013-02-20_
 
 ## <a name="moving-a-conferencing-device-to-a-new-registrar-pool"></a>회의 장치를 새 등록자 풀로 이동
 
-  - 회의 장치를 이동 하려면 이동할 대화방의 id를 지정 하 고 Target 매개 변수를 장치를 이동할 등록자 풀의 FQDN (정규화 된 도메인 이름)으로 설정 해야 합니다. 예:
+  - 회의 장치를 이동 하려면 이동할 대화방의 id를 지정 하 고 Target 매개 변수를 장치를 이동할 등록자 풀의 FQDN (정규화 된 도메인 이름)으로 설정 해야 합니다. 예시는 다음과 같습니다:
     
         Move-CsMeetingRoom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
 

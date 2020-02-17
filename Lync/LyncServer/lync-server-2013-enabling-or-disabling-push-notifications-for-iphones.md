@@ -85,7 +85,7 @@ Apple iPhone에 대 한 푸시 알림은 **get-cspushnotificationconfiguration**
 
 ## <a name="to-enable-push-notifications-for-iphone"></a>IPhone에 대해 푸시 알림을 사용 하도록 설정 하려면
 
-  - IPhone에 푸시 알림을 사용 하도록 설정 하려면 EnableApplePushNotificationService 속성의 값을 True ($True)로 설정 합니다. 예:
+  - IPhone에 푸시 알림을 사용 하도록 설정 하려면 EnableApplePushNotificationService 속성의 값을 True ($True)로 설정 합니다. 예시는 다음과 같습니다:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableApplePushNotificationService $True
 
@@ -95,7 +95,7 @@ Apple iPhone에 대 한 푸시 알림은 **get-cspushnotificationconfiguration**
 
 ## <a name="to-disable-push-notifications-for-iphone"></a>IPhone에 대해 푸시 알림을 사용 하지 않도록 설정 하려면
 
-  - IPhone에 대해 푸시 알림을 사용 하지 않도록 설정 하려면 EnableApplePushNotificationService 속성의 값을 False ($False)로 set 합니다. 예:
+  - IPhone에 대해 푸시 알림을 사용 하지 않도록 설정 하려면 EnableApplePushNotificationService 속성의 값을 False ($False)로 set 합니다. 예시는 다음과 같습니다:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableApplePushNotificationService $False
 

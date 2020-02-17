@@ -47,7 +47,7 @@ Lync Server와 Exchange 간에 서버 간 인증을 설정 하려면 다음 두 
 
 ## <a name="configuring-lync-server-2013-to-be-a-partner-application-for-exchange-2013"></a>Lync Server 2013을 Exchange 2013에 대 한 파트너 응용 프로그램으로 구성
 
-Lync Server 2013를 Exchange 2013에서 파트너 응용 프로그램으로 구성 하는 가장 쉬운 방법은 Exchange 2013과 함께 제공 되는 Windows PowerShell 스크립트인의 configure-enterprisepartnerapplication.ps1 스크립트를 실행 하는 것입니다. 이 스크립트를 실행 하려면 Lync Server 인증 메타 데이터 문서의 URL을 제공 해야 합니다. 이는 일반적으로 Lync Server 2013 풀의 정규화 된 도메인 이름이 고 그 뒤에 https://accounts.accesscontrol.windows.net/접미사가 됩니다. 예:
+Lync Server 2013를 Exchange 2013에서 파트너 응용 프로그램으로 구성 하는 가장 쉬운 방법은 Exchange 2013과 함께 제공 되는 Windows PowerShell 스크립트인의 configure-enterprisepartnerapplication.ps1 스크립트를 실행 하는 것입니다. 이 스크립트를 실행 하려면 Lync Server 인증 메타 데이터 문서의 URL을 제공 해야 합니다. 이는 일반적으로 Lync Server 2013 풀의 정규화 된 도메인 이름이 고 그 뒤에 https://accounts.accesscontrol.windows.net/접미사가 됩니다. 예시는 다음과 같습니다:
 
     https://atl-cs-001.litwareinc.com/metadata/json/1
 
@@ -67,11 +67,11 @@ Lync Server를 파트너 응용 프로그램으로 구성 하려면 Exchange 관
 
 ## <a name="configuring-exchange-2013-to-be-a-partner-application-for-lync-server-2013"></a>Lync Server 2013에 대해 Exchange 2013을 파트너 응용 프로그램으로 구성
 
-Lync Server 2013을 Exchange 2013에 대 한 파트너 응용 프로그램으로 구성한 후에는 Exchange를 Lync Server에 대 한 파트너 응용 프로그램으로 구성 해야 합니다. Lync Server 관리 셸을 사용 하 고 Exchange에 대 한 인증 메타 데이터 문서를 지정 하 여이 작업을 수행할 수 있습니다. 이는 일반적으로 Exchange 자동 검색 서비스의 URI 다음에 접미사 https://accounts.accesscontrol.windows.net/가 됩니다. 예:
+Lync Server 2013을 Exchange 2013에 대 한 파트너 응용 프로그램으로 구성한 후에는 Exchange를 Lync Server에 대 한 파트너 응용 프로그램으로 구성 해야 합니다. Lync Server 관리 셸을 사용 하 고 Exchange에 대 한 인증 메타 데이터 문서를 지정 하 여이 작업을 수행할 수 있습니다. 이는 일반적으로 Exchange 자동 검색 서비스의 URI 다음에 접미사 https://accounts.accesscontrol.windows.net/가 됩니다. 예시는 다음과 같습니다:
 
     https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 
-Lync Server에서 파트너 응용 프로그램은 [get-cspartnerapplication](https://technet.microsoft.com/library/JJ204628(v=OCS.15)) cmdlet을 사용 하 여 구성 됩니다. 메타 데이터 URI를 지정 하는 것 외에도 응용 프로그램 신뢰 수준을 Full로 설정 해야 합니다. 이렇게 하면 Exchange가 자신 및 영역에 있는 모든 권한이 부여 된 사용자를 표현할 수 있습니다. 예:
+Lync Server에서 파트너 응용 프로그램은 [get-cspartnerapplication](https://technet.microsoft.com/library/JJ204628(v=OCS.15)) cmdlet을 사용 하 여 구성 됩니다. 메타 데이터 URI를 지정 하는 것 외에도 응용 프로그램 신뢰 수준을 Full로 설정 해야 합니다. 이렇게 하면 Exchange가 자신 및 영역에 있는 모든 권한이 부여 된 사용자를 표현할 수 있습니다. 예시는 다음과 같습니다:
 
     New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 

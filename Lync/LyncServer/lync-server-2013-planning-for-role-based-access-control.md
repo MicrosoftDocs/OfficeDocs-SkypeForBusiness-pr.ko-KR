@@ -99,7 +99,7 @@ RBAC에서 *역할*은 특정 유형의 관리자 또는 기술자에게 유용�
 <td><p>CsVoiceAdministrator</p></td>
 <td><p>음성 관련 설정 및 정책을 만들고 구성하고 관리할 수 있습니다.</p></td>
 <td><p>CSVoiceAdministrator</p></td>
-<td><p>해당 사항 없음</p></td>
+<td><p>해당 없음</p></td>
 </tr>
 <tr class="even">
 <td><p>CsServerAdministrator</p></td>
@@ -129,13 +129,13 @@ RBAC에서 *역할*은 특정 유형의 관리자 또는 기술자에게 유용�
 <td><p>CsResponseGroupAdministrator</p></td>
 <td><p>사이트 내에서 응답 그룹 응용 프로그램 구성을 관리할 수 있습니다.</p></td>
 <td><p>CSResponseGroupAdministrator</p></td>
-<td><p>해당 사항 없음</p></td>
+<td><p>해당 없음</p></td>
 </tr>
 <tr class="odd">
 <td><p>CsLocationAdministrator</p></td>
 <td><p>E9-1-1(Enhanced 9-1-1) 위치 및 네트워크 식별자를 만들고 서로 연결하는 등 E9-1-1 관리에 대한 최하위 수준의 권한을 가집니다. 이 역할은 항상 전역 범위로 지정됩니다.</p></td>
 <td><p>CSLocationAdministrator</p></td>
-<td><p>해당 사항 없음</p></td>
+<td><p>해당 없음</p></td>
 </tr>
 <tr class="even">
 <td><p>CsResponseGroupManager</p></td>
@@ -147,7 +147,7 @@ RBAC에서 *역할*은 특정 유형의 관리자 또는 기술자에게 유용�
 <td><p>CsPersistentChatAdministrator</p></td>
 <td><p>영구 채팅 기능 및 특정 영구 채팅방을 관리할 수 있습니다.</p></td>
 <td><p>CSPersistentChatAdministrator</p></td>
-<td><p>해당 사항 없음</p></td>
+<td><p>해당 없음</p></td>
 </tr>
 </tbody>
 </table>

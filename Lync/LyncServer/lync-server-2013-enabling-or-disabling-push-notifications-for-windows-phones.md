@@ -85,7 +85,7 @@ _**마지막으로 수정 된 항목:** 2013-02-23_
 
 ## <a name="to-enable-push-notifications-for-windows-phone"></a>Windows Phone에 대해 푸시 알림을 사용 하도록 설정 하려면
 
-  - Windows Phone에 대해 푸시 알림을 사용 하도록 설정 하려면 Enablemicro소프트 Pushnotificationservice 속성의 값을 True ($True)로 지정 합니다. 예:
+  - Windows Phone에 대해 푸시 알림을 사용 하도록 설정 하려면 Enablemicro소프트 Pushnotificationservice 속성의 값을 True ($True)로 지정 합니다. 예시는 다음과 같습니다:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableMicrosoftPushNotificationService $True
 
@@ -95,7 +95,7 @@ _**마지막으로 수정 된 항목:** 2013-02-23_
 
 ## <a name="to-disable-push-notifications-for-windows-phone"></a>Windows Phone에 대해 푸시 알림을 사용 하지 않도록 설정 하려면
 
-  - Windows Phone에 대해 푸시 알림을 사용 하지 않으려면 Enablemicro소프트 Pushnotificationservice 속성의 값을 False ($False)로 설정 합니다. 예:
+  - Windows Phone에 대해 푸시 알림을 사용 하지 않으려면 Enablemicro소프트 Pushnotificationservice 속성의 값을 False ($False)로 설정 합니다. 예시는 다음과 같습니다:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableMicrosoftPushNotificationService $False
 

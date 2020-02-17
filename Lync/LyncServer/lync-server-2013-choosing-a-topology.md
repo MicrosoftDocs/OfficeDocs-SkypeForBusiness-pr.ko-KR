@@ -183,7 +183,7 @@ Lync Server 2013에서는 단일 및 확장 된 통합에 지 서버 토폴로�
 </tr>
 <tr class="odd">
 <td><p>4 </p></td>
-<td><p>12 </p></td>
+<td><p>12</p></td>
 <td><p>3개(VIP당 1개) + 12개</p></td>
 </tr>
 <tr class="even">

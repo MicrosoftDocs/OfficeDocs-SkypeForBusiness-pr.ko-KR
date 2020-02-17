@@ -101,7 +101,7 @@ _**마지막으로 수정 된 항목:** 2012-11-01_
     
         Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
     
-    예:
+    예시는 다음과 같습니다:
     
         Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
     
