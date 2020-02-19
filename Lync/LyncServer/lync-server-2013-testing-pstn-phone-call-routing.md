@@ -12,18 +12,18 @@ ms:contentKeyID: 63969598
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 750efc8ced1dbb4c048d10c879f0bfa2dd4a4f32
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8b831aef01d80a0d68a0eea06f429502026b7ccb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050230"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>Lync Server 2013에서 PSTN 전화 통화 라우팅 테스트
 

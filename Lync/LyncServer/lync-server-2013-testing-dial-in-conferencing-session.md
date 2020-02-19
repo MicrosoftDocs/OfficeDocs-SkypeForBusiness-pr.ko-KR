@@ -12,18 +12,18 @@ ms:contentKeyID: 63969613
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d83d3c3fe933a4538d9c2508668497af42c3340
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 11a5126d0555e39c5e0c4637a70939227c787299
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046591"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141444"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a>Lync Server 2013에서 전화 접속 회의 세션 테스트
 
@@ -74,7 +74,7 @@ Test-csdialinconferencing cmdlet은 사용자가 전화 접속 회의에 참가�
 
 ## <a name="running-the-test"></a>테스트 실행
 
-Test-csdialinconferencing cmdlet은 미리 구성 된 테스트 계정 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다. 예시는 다음과 같습니다:
+Test-csdialinconferencing cmdlet은 미리 구성 된 테스트 계정 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다. 테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다. 예:
 
     Test-CsDialInConferencing -TargetFqdn "atl-cs-001.litwareinc.com" 
 

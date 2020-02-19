@@ -12,18 +12,18 @@ ms:contentKeyID: 63969659
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efc07ff877d5692c2871a8b0481233d3bd8c58b6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1c1b1e1a5b13ace725d0fa38a5c2f4b5227cf0ae
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045580"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-lync-client-authentication-in-lync-server-2013"></a>Lync Server 2013에서 Lync 클라이언트 인증 테스트
 
@@ -79,7 +79,7 @@ _**마지막으로 수정 된 항목:** 2014-06-05_
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-자세한 내용은 [CsClientAuth](http://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx) cmdlet에 대 한 도움말 설명서를 참조 하십시오.
+자세한 내용은 [CsClientAuth](https://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx) cmdlet에 대 한 도움말 설명서를 참조 하십시오.
 
 </div>
 
