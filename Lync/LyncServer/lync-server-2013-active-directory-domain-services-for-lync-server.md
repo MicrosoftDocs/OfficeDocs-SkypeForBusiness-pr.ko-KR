@@ -12,18 +12,18 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b53b878d7f41a5eb83eb67d98fc69d68709a603
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f05832a3390101aad7acb1c9d25f532288ca020a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008580"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="active-directory-domain-services-for-lync-server-2013"></a>Lync Server 2013에 대 한 Active Directory 도메인 서비스
 
@@ -71,7 +71,7 @@ Active Directory의 인프라 요구 사항은 다음과 같습니다.
 
 
 > [!NOTE]  
-> 시스템 컨테이너 대신 구성 컨테이너에 전역 설정을 배포하는 것이 좋습니다. 이렇게 하면 보안이 향상되지 않지만 일부 Active Directory 도메인 서비스 토폴로지에 대한 확장성이 향상될 수 있습니다. Microsoft Office Communications Server 2007에서 마이그레이션하고 System 컨테이너를 사용 하지만 구성 컨테이너를 사용 하려는 경우에는 업그레이드 준비를 수행 하기 전에 시스템 컨테이너에서 설정을 이동 해야 합니다. 구성 컨테이너로 시스템 컨테이너 설정을 마이그레이션하려면 Office Communications Server 2007 전역 설정 마이그레이션 도구를 참조 하세요 <A href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</A>.
+> 시스템 컨테이너 대신 구성 컨테이너에 전역 설정을 배포하는 것이 좋습니다. 이렇게 하면 보안이 향상되지 않지만 일부 Active Directory 도메인 서비스 토폴로지에 대한 확장성이 향상될 수 있습니다. Microsoft Office Communications Server 2007에서 마이그레이션하고 System 컨테이너를 사용 하지만 구성 컨테이너를 사용 하려는 경우에는 업그레이드 준비를 수행 하기 전에 시스템 컨테이너에서 설정을 이동 해야 합니다. 구성 컨테이너로 시스템 컨테이너 설정을 마이그레이션하려면 Office Communications Server 2007 전역 설정 마이그레이션 도구를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A>.
 
 
 
@@ -219,7 +219,7 @@ Lync Server 2013에서 트러스트 된 서버는 토폴로지 작성기를 실�
 </table>
 
 
-이전 릴리스의 신뢰할 수 있는 서버를 지원 하려면 모범 사례 분석기 도구를 실행 해야 합니다. 모범 사례 분석기를 실행 하는 방법에 대 [http://go.microsoft.com/fwlink/p/?LinkId=330633](http://go.microsoft.com/fwlink/p/?linkid=330633)한 자세한 내용은를 참조 하세요.
+이전 릴리스의 신뢰할 수 있는 서버를 지원 하려면 모범 사례 분석기 도구를 실행 해야 합니다. 모범 사례 분석기를 실행 하는 방법에 대 [https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633)한 자세한 내용은를 참조 하세요.
 
 </div>
 

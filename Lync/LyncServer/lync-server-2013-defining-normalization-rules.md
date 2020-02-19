@@ -12,18 +12,18 @@ ms:contentKeyID: 48185741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99a09f5075ffe8ff267f31333d3dba0f4fffbc41
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e19edb375235d64587c60b2abf388835ffc468e7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036397"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135304"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="defining-normalization-rules-in-lync-server-2013"></a>Lync Server 2013에서 정규화 규칙 정의
 
@@ -41,7 +41,7 @@ Lync Server 2013 정규화 규칙은 .NET Framework 정규식을 사용 하 여 
 
 정규화 규칙에 대 한 자세한 내용은 계획 설명서의 [Lync Server 2013에서 다이얼 플랜 및 정규화 규칙](lync-server-2013-dial-plans-and-normalization-rules.md) 을 참조 하십시오.
 
-정규식을 작성 하는 방법에 대 한 자세한 내용은의 ".NET Framework 정규식" [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)을 참조 하십시오.
+정규식을 작성 하는 방법에 대 한 자세한 내용은의 ".NET Framework 정규식" [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)을 참조 하십시오.
 
 다음 방법 중 하나를 사용하여 정규화 규칙을 정의하거나 편집할 수 있습니다.
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57c7aa0f754491371f0b8f87c2ec0eac805ae5f5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6fa619262aee2b1342dce6f211eec7ff31aabe62
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044020"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42133943"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-a-trunk-with-media-bypass-in-lync-server-2013"></a>Lync Server 2013의 미디어 바이패스로 트렁크 구성
 
@@ -45,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2014-02-07_
 
 
 > [!NOTE]  
-> 미디어 바이패스는 모든 공중 전화망 (PSTN) 게이트웨이, IP-PBX 및 SBC (Session Border Controller)와 상호 작용 하지 않습니다. Microsoft는 인증 된 파트너와의 PSTN 게이트웨이 및 국내 집합을 테스트 했으며 Cisco IP-Pbx를 사용 하 여 몇 가지 테스트를 수행 했습니다. 미디어 바이패스는 통합 커뮤니케이션 오픈 상호 운용성 프로그램-Lync Server에 나열 된 제품과 버전 에서만 지원 됩니다 <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>.
+> 미디어 바이패스는 모든 공중 전화망 (PSTN) 게이트웨이, IP-PBX 및 SBC (Session Border Controller)와 상호 작용 하지 않습니다. Microsoft는 인증 된 파트너와의 PSTN 게이트웨이 및 국내 집합을 테스트 했으며 Cisco IP-Pbx를 사용 하 여 몇 가지 테스트를 수행 했습니다. 미디어 바이패스는 통합 커뮤니케이션 오픈 상호 운용성 프로그램-Lync Server에 나열 된 제품과 버전 에서만 지원 됩니다 <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>.
 
 
 

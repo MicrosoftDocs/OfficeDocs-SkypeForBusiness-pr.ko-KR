@@ -12,18 +12,18 @@ ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b64f06d9ca879236c0842554c1779fb7bbc1cbe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3dd1aa5bdde1c94e3d0558be14c67cf62ec8142a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038460"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135294"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013의 인증서 인프라 요구 사항
 
@@ -59,7 +59,7 @@ Lync Server의 경우 다음과 같은 일반적인 요구 사항이 적용 됩�
 
   - 모든 서버 인증서에는 CDP(CRL 배포 지점)가 포함되어 있어야 합니다.
 
-  - 모든 인증서는 운영 체제에서 지 원하는 서명 알고리즘을 사용 하 여 서명 해야 합니다. Lync Server 2013는 다이제스트 크기의 sha-1 및 SHA-2 제품군 (224, 256, 384 및 512 비트)을 지원 하며 운영 체제 요구 사항을 충족 하거나 초과 합니다. 운영 체제 지원에 대해서는 [http://go.microsoft.com/fwlink/?LinkId=287002](http://go.microsoft.com/fwlink/?linkid=287002)를 참조 하세요.
+  - 모든 인증서는 운영 체제에서 지 원하는 서명 알고리즘을 사용 하 여 서명 해야 합니다. Lync Server 2013는 다이제스트 크기의 sha-1 및 SHA-2 제품군 (224, 256, 384 및 512 비트)을 지원 하며 운영 체제 요구 사항을 충족 하거나 초과 합니다. 운영 체제 지원에 대해서는 [https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002)를 참조 하세요.
     
     <div>
     

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aada74d1cc96d0dfd7396231ccd96e6ed0d13a6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b200fb122f436e7afa5587e56a9e62edd0d3fa5e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008560"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135575"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Lync Server 2013의 Active Directory 도메인 서비스 지원
 
@@ -103,7 +103,7 @@ Lync Server 2013은 사용할 수 있는 쓰기 가능한 도메인 컨트롤러
 
 ## <a name="domain-names"></a>도메인 이름
 
-Lync Server에서는 단일 레이블 도메인을 지원 하지 않습니다. 예를 들어 **contoso.local**이라는 루트 도메인으로 구성된 포리스트는 지원되지만 **local**이라는 루트 도메인은 지원되지 않습니다. 자세한 내용은 Microsoft 기술 자료 문서 300684, "단일 레이블 DNS 이름이 있는 도메인에 대 한 Windows 구성 정보"를 참조 하세요 [http://go.microsoft.com/fwlink/p/?linkId=143752](http://go.microsoft.com/fwlink/p/?linkid=143752).
+Lync Server에서는 단일 레이블 도메인을 지원 하지 않습니다. 예를 들어 **contoso.local**이라는 루트 도메인으로 구성된 포리스트는 지원되지만 **local**이라는 루트 도메인은 지원되지 않습니다. 자세한 내용은 Microsoft 기술 자료 문서 300684, "단일 레이블 DNS 이름이 있는 도메인에 대 한 Windows 구성 정보"를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752).
 
 <div>
 

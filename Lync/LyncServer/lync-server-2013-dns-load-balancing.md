@@ -12,18 +12,18 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46d1efb960e6f60118364193dffdbedcefea94a3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0d08c56e8b88f13a965f7ab24c8f497e01f10400
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034821"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135104"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dns-load-balancing-in-lync-server-2013"></a>Lync Server 2013의 DNS 부하 분산
 
@@ -41,7 +41,7 @@ Lync Server에서는 네트워크의 부하 분산에 대 한 관리 오버 헤�
 
 DNS 부하 분산을 배포 하는 경우 하드웨어 부하 분산 장치에 대 한 조직의 관리 오버 헤드가 최소화 됩니다. 또한 SIP 트래픽에 대한 부하 분산 장치의 잘못된 구성과 관련된 복잡한 문제를 해결할 필요가 없게 됩니다. 또한 서버를 오프라인으로 설정할 수 있도록 서버 연결을 방지할 수도 있습니다. 또한 DNS 부하 분산은 하드웨어 부하 분산 장치 문제가 기본 통화 라우팅과 같은 SIP 트래픽 요소에 영향을 주지 않도록 합니다.
 
-DNS 부하 분산을 사용하는 경우에는 모든 트래픽 유형에 대해 하드웨어 부하 분산 장치를 사용하는 경우에 비해 저렴한 가격에 하드웨어 부하 분산 장치를 구입할 수도 있습니다. Lync Server를 사용 하 여 상호 운용성 검증 테스트를 통과 한 부하 분산 장치를 사용 해야 합니다. 부하 분산 장치 상호 운용성 테스트에 대 한 자세한 내용은의 "Lync Server 2010 부하 분산 [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)장치 파트너"를 참조 하십시오.
+DNS 부하 분산을 사용하는 경우에는 모든 트래픽 유형에 대해 하드웨어 부하 분산 장치를 사용하는 경우에 비해 저렴한 가격에 하드웨어 부하 분산 장치를 구입할 수도 있습니다. Lync Server를 사용 하 여 상호 운용성 검증 테스트를 통과 한 부하 분산 장치를 사용 해야 합니다. 부하 분산 장치 상호 운용성 테스트에 대 한 자세한 내용은의 "Lync Server 2010 부하 분산 [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)장치 파트너"를 참조 하십시오.
 
 DNS 부하 분산은 프런트 엔드 풀, 에지 서버 풀, 디렉터 풀 및 독립 실행형 중재 서버 풀에서 지원됩니다.
 

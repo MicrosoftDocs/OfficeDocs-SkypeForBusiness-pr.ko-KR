@@ -12,18 +12,18 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab2b7026ca49f8e12a5f8b67aa0780996feaebe1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 664091baee67d0ddf953d8a114370fdb875eef29
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036488"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135545"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>사용자 모델을 사용 하는 Lync Server 2013에 대 한 용량 계획
 
@@ -220,7 +220,7 @@ _**마지막으로 수정 된 항목:** 2014-01-14_
 
 
 > [!NOTE]  
-> 프런트 엔드 서버에서 공동 위치 A/V 회의 및 중재 서버 기능의 미디어 성능을 개선 하려면 프런트 엔드 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은의 "Windows Server 2008에서 수신측 확장 향상 기능"을 참조 <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
+> 프런트 엔드 서버에서 공동 위치 A/V 회의 및 중재 서버 기능의 미디어 성능을 개선 하려면 프런트 엔드 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은의 "Windows Server 2008에서 수신측 확장 향상 기능"을 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
 
 
 
@@ -266,7 +266,7 @@ _**마지막으로 수정 된 항목:** 2014-01-14_
 
 
 > [!NOTE]  
-> 에 지 서버에서 A/V 회의에 지 서비스의 성능을 향상 시키려면에 지 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은의 "Windows Server 2008에서 수신측 확장 향상 기능"을 참조 <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
+> 에 지 서버에서 A/V 회의에 지 서비스의 성능을 향상 시키려면에 지 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은의 "Windows Server 2008에서 수신측 확장 향상 기능"을 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
 
 
 
@@ -396,7 +396,7 @@ _**마지막으로 수정 된 항목:** 2014-01-14_
 
 
 > [!NOTE]  
-> 중재 서버의 성능을 향상 시키려면 중재 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은의 "Windows Server 2008에서 수신측 확장 향상 기능"을 참조 <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
+> 중재 서버의 성능을 향상 시키려면 중재 서버의 네트워크 어댑터에 대해 수신측 확장 (RSS)을 사용 하도록 설정 해야 합니다. RSS를 사용 하면 서버의 여러 프로세서에서 들어오는 패킷을 병렬로 처리할 수 있습니다. 자세한 내용은의 "Windows Server 2008에서 수신측 확장 향상 기능"을 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>하세요. RSS를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 네트워크 어댑터 설명서를 참조 하세요.
 
 
 
@@ -495,18 +495,18 @@ Microsoft는 성능 테스트 중에 모니터링 및 보관을 위해 데이터
 </tr>
 <tr class="odd">
 <td><p>CDR 데이터베이스 로그 파일</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>개</p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="even">
 <td><p>QoE 데이터베이스 로그 파일</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>개</p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="odd">
 <td><p>보관 데이터베이스 로그 파일</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>개</p></td>
+<td><p>2</p></td>
 </tr>
 </tbody>
 </table>

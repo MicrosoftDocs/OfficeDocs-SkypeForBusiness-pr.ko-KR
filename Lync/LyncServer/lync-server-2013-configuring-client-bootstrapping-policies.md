@@ -12,18 +12,18 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3827bf913c4108c1105376a6f178598a2fb45a06
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 457702a4b237493beb8ca5dfe1e2d7ce9b3d2654
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41996653"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135535"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>Lync Server 2013에서 클라이언트 부트스트랩 정책 구성
 
@@ -37,7 +37,7 @@ ms.locfileid: "41996653"
 
 _**마지막으로 수정 된 항목:** 2013-02-21_
 
-GPMC (그룹 정책 관리 콘솔) 및 그룹 정책 개체 편집기는 그룹 정책을 관리 하는 데 사용 하는 도구입니다. Office 그룹 정책 관리 템플릿에는 도메인의 그룹 정책 개체에 대해 구성 하는 레지스트리 기반 정책 설정을 포함 하는 adml (ADML) 관리 템플릿, Lync 2013. ADML 파일은 ADMX 파일에 대 한 언어 관련 보완 기능입니다. 각 ADMX 및 ADML 파일에는 단일 Office 응용 프로그램에 대 한 정책 설정이 포함 되어 있습니다. 자세한 내용은 Office 2013 설명서에서 "Office 2013 관리 템플릿 파일 (ADMX, ADML)"를 참조 하세요 <http://go.microsoft.com/fwlink/p/?linkid=267516>.
+GPMC (그룹 정책 관리 콘솔) 및 그룹 정책 개체 편집기는 그룹 정책을 관리 하는 데 사용 하는 도구입니다. Office 그룹 정책 관리 템플릿에는 도메인의 그룹 정책 개체에 대해 구성 하는 레지스트리 기반 정책 설정을 포함 하는 adml (ADML) 관리 템플릿, Lync 2013. ADML 파일은 ADMX 파일에 대 한 언어 관련 보완 기능입니다. 각 ADMX 및 ADML 파일에는 단일 Office 응용 프로그램에 대 한 정책 설정이 포함 되어 있습니다. 자세한 내용은 Office 2013 설명서에서 "Office 2013 관리 템플릿 파일 (ADMX, ADML)"를 참조 하세요 <https://go.microsoft.com/fwlink/p/?linkid=267516>.
 
 Lync 2013에는 사용자가 처음으로 서버에 로그인 하기 전에 구성 해야 하는 몇 가지 클라이언트 부트스트랩 정책이 있습니다. 예를 들어 클라이언트에서 로그인이 완료 될 때까지 사용 해야 하는 기본 서버 및 보안 모드를 예로 들 수 있습니다. 그룹 정책을 사용 하 여 사용자의 컴퓨터 레지스트리를 설정 하 고 서버에서 대역내 프로 비전 설정을 받기 시작 하기 전에 이러한 설정을 설정할 수 있습니다. 다음 표에는 Lync 2013에 사용할 수 있는 그룹 정책 설정이 나와 있습니다.
 
@@ -155,19 +155,19 @@ SavePassword</p></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>개</p></td>
 <td><p>Lync Server 2013 대역내 프로 비전</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3(sp3)</p></td>
 <td><p>HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>4 </p></td>
+<td><p>1-4</p></td>
 <td><p>Lync 2013의 Lync-옵션 대화 상자</p></td>
 </tr>
 </tbody>

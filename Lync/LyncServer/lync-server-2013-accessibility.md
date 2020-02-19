@@ -12,18 +12,18 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddaf4d5c8d85adfd7d69955df20ab6018966845b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e86fbe2c8ac007f81743bd5a5be105421767089e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037890"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135645"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="accessibility-in-lync-server-2013"></a>Lync Server 2013의 내게 필요한 옵션
 
@@ -49,7 +49,7 @@ Lync Server 2013의 다음 기능은 장애가 있는 사용자가 쉽게 액세
 
   - 그림의 대체 텍스트
 
-또한 Windows의 내게 필요한 옵션 기능 및 도구를 사용 하면 Lync Server 사용자에 게 도움이 될 수 있습니다. Windows PowerShell 크기 및 색 변경은 Lync Server 관리 셸을 사용할 때 내게 필요한 옵션을 제공 합니다. Windows PowerShell 내게 필요한 옵션에 대 한 자세한 내용은 TechNet 라이브러리의 "Windows PowerShell 2.0에서 내게 필요한 기능 [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)"을 참조 하십시오.
+또한 Windows의 내게 필요한 옵션 기능 및 도구를 사용 하면 Lync Server 사용자에 게 도움이 될 수 있습니다. Windows PowerShell 크기 및 색 변경은 Lync Server 관리 셸을 사용할 때 내게 필요한 옵션을 제공 합니다. Windows PowerShell 내게 필요한 옵션에 대 한 자세한 내용은 TechNet 라이브러리의 "Windows PowerShell 2.0에서 내게 필요한 기능 [https://go.microsoft.com/fwlink/p/?linkId=98964](https://go.microsoft.com/fwlink/p/?linkid=98964)"을 참조 하십시오.
 
 </div>
 
@@ -156,7 +156,7 @@ Lync Server 2013의 다음 기능은 장애가 있는 사용자가 쉽게 액세
 
 
 > [!NOTE]  
-> 이 섹션의 정보는 미국에서 Microsoft 제품의 사용이 허가된 사용자에게만 적용됩니다. 이 제품을 미국 이외의 지역에서 구입한 경우 Microsoft 지원 서비스의 전화 번호 및 주소 목록을 <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> 보려면 소프트웨어 패키지와 함께 제공 된 자회사 정보 카드를 사용 하거나 Microsoft 내게 필요한 옵션 웹 사이트를 방문 하세요. 자회사에 문의하여 이 섹션에서 설명하는 제품 및 서비스 유형을 해당 지역에서 사용할 수 있는지 여부를 확인할 수 있습니다. Microsoft 제품에 포함된 접근성 기능에 대한 자세한 내용은 Microsoft 제품 웹 사이트의 접근성 섹션에서 자세히 확인할 수 있습니다.
+> 이 섹션의 정보는 미국에서 Microsoft 제품의 사용이 허가된 사용자에게만 적용됩니다. 이 제품을 미국 이외의 지역에서 구입한 경우 Microsoft 지원 서비스의 전화 번호 및 주소 목록을 <A href="https://go.microsoft.com/fwlink/p/?linkid=18139">https://go.microsoft.com/fwlink/p/?linkId=18139</A> 보려면 소프트웨어 패키지와 함께 제공 된 자회사 정보 카드를 사용 하거나 Microsoft 내게 필요한 옵션 웹 사이트를 방문 하세요. 자회사에 문의하여 이 섹션에서 설명하는 제품 및 서비스 유형을 해당 지역에서 사용할 수 있는지 여부를 확인할 수 있습니다. Microsoft 제품에 포함된 접근성 기능에 대한 자세한 내용은 Microsoft 제품 웹 사이트의 접근성 섹션에서 자세히 확인할 수 있습니다.
 
 
 
@@ -166,13 +166,13 @@ Lync Server 2013의 다음 기능은 장애가 있는 사용자가 쉽게 액세
 
 ## <a name="accessibility-features-of-windows"></a>Windows의 접근성 기능
 
-Windows 운영 체제에는 입력하거나 마우스를 사용하는 데 어려움이 있는 사용자, 시각 장애가 있거나 시력이 약한 사용자 또는 청각 장애가 있거나 청각이 약한 사용자에게 유용한 기본 제공 내게 필요한 옵션 기능이 포함되어 있습니다. 이 기능은 설치하는 동안 설치됩니다. 이러한 기능에 대 한 자세한 내용은 Windows 도움말 또는 Microsoft 내게 필요한 [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)옵션 (를 참조 하세요.
+Windows 운영 체제에는 입력하거나 마우스를 사용하는 데 어려움이 있는 사용자, 시각 장애가 있거나 시력이 약한 사용자 또는 청각 장애가 있거나 청각이 약한 사용자에게 유용한 기본 제공 내게 필요한 옵션 기능이 포함되어 있습니다. 이 기능은 설치하는 동안 설치됩니다. 이러한 기능에 대 한 자세한 내용은 Windows 도움말 또는 Microsoft 내게 필요한 [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)옵션 (를 참조 하세요.
 
   - **무료 단계별 자습서**   Microsoft에서는 컴퓨터의 내게 필요한 옵션 및 설정을 조정 하는 절차를 자세히 설명 하는 일련의 단계별 자습서를 제공 합니다. 이 정보는 병렬 형식으로 제공되므로 마우스, 키보드 또는 두 가지 모두를 함께 사용하는 방법에 대해 학습할 수 있습니다.
     
-    Microsoft 제품에 대 한 단계별 자습서를 보려면의 Microsoft 내게 필요한 옵션을 참조 [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)하세요.
+    Microsoft 제품에 대 한 단계별 자습서를 보려면의 Microsoft 내게 필요한 옵션을 참조 [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)하세요.
 
-  - **Windows 용 보조 기술 제품**   장애가 있는 사용자가 컴퓨터를 보다 쉽게 사용할 수 있도록 하는 다양 한 보조 기술 제품이 제공 됩니다. Microsoft 내게 필요한 옵션 웹 사이트에서 Windows에서 실행 되는 보조 기술 제품의 카탈로그를 검색할 [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)수 있습니다.
+  - **Windows 용 보조 기술 제품**   장애가 있는 사용자가 컴퓨터를 보다 쉽게 사용할 수 있도록 하는 다양 한 보조 기술 제품이 제공 됩니다. Microsoft 내게 필요한 옵션 웹 사이트에서 Windows에서 실행 되는 보조 기술 제품의 카탈로그를 검색할 [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)수 있습니다.
     
     보조 기술 제품을 사용하는 경우에는 소프트웨어 또는 하드웨어를 업그레이드하기 전에 보조 기술 공급업체에게 문의하여 가능한 호환성 문제를 확인하십시오.
 
@@ -182,7 +182,7 @@ Windows 운영 체제에는 입력하거나 마우스를 사용하는 데 어려
 
 ## <a name="documentation-in-alternative-formats"></a>대체 형식 설명서
 
-인쇄된 자료를 읽거나 처리하기 어려운 경우 다양한 Microsoft 제품에 대한 문서를 보다 사용하기 쉬운 형식으로 가져올 수 있습니다. Microsoft 내게 필요한 옵션 웹 사이트에서 액세스할 수 있는 제품 설명서에 대 한 [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)인덱스를 받을 수도 있습니다.
+인쇄된 자료를 읽거나 처리하기 어려운 경우 다양한 Microsoft 제품에 대한 문서를 보다 사용하기 쉬운 형식으로 가져올 수 있습니다. Microsoft 내게 필요한 옵션 웹 사이트에서 액세스할 수 있는 제품 설명서에 대 한 [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)인덱스를 받을 수도 있습니다.
 
 또한 장애 & Dyslexic (http (RFB&D\&)에 대 한 녹음 으로부터 추가 Microsoft 발행물을 구할 수 있습니다. RFB&D\&D는 해당 배포 서비스의 등록 된 적격 구성원에 게 이러한 문서를 배포 합니다. Microsoft에서 제공 하는 microsoft 제품 설명서 및 서적의 가용성에 대 한 자세한 내용은 RFB&D\&에 문의 하세요.
 
@@ -211,7 +211,7 @@ Windows 운영 체제에는 입력하거나 마우스를 사용하는 데 어려
 
 Microsoft는 장애가 있는 사용자를 포함 하 여 모든 고객에 게 가장 적합 한 환경을 제공 하려고 합니다. 도움이 필요한 경우 전화나 전자 메일을 통해 장애가 있는 사용자를 도울 수 있도록 교육을 받은 내게 필요한 옵션 지원 팀에 문의 하세요.
 
-[장애 응답 센터에 문의](http://support.microsoft.com/gp/contact-microsoft-accessibility)
+[장애 응답 센터에 문의](https://support.microsoft.com/gp/contact-microsoft-accessibility)
 
 다이렉트 전화선: 1-800-936-5900
 
@@ -233,7 +233,7 @@ TTY: 1-800-892-5234
 
   - 미국에서의 기술 지원의 경우 Microsoft 기술 지원 서비스(전화 번호: (800) 892-5234, 지원 시간: 오전 6:00 - 오후 6:00, 태평양 표준시, 월요일 - 금요일, 공휴일 제외)에 문의하십시오. 캐나다의 경우 다음 전화 번호로 문의하십시오. 전화번호: (905) 568-9641, 지원 시간: 오전 8:00 - 오후 8:00, 동부 표준시, 월요일 - 금요일, 공휴일 제외
 
-Microsoft 지원 서비스는 서비스 제공 시의 가격, 기간 및 조건을 준수합니다. 자세한 내용은 Microsoft 지원 센터를 참조 [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142)하세요.
+Microsoft 지원 서비스는 서비스 제공 시의 가격, 기간 및 조건을 준수합니다. 자세한 내용은 Microsoft 지원 센터를 참조 [https://go.microsoft.com/fwlink/p/?linkId=18142](https://go.microsoft.com/fwlink/p/?linkid=18142)하세요.
 
 </div>
 
@@ -243,7 +243,7 @@ Microsoft 지원 서비스는 서비스 제공 시의 가격, 기간 및 조건�
 
 ## <a name="for-more-information"></a>자세한 내용
 
-컴퓨터의 내게 필요한 옵션 기술이 장애가 있는 사용자의 수를 향상 시키는 데 도움이 되는 방법에 대 한 [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)자세한 내용은의 Microsoft 접근성을 참조 하세요.
+컴퓨터의 내게 필요한 옵션 기술이 장애가 있는 사용자의 수를 향상 시키는 데 도움이 되는 방법에 대 한 [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)자세한 내용은의 Microsoft 접근성을 참조 하세요.
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc807d65c76a1307ccd8532e644f9f9d23ffc69e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69a4616cbe9519a8196ce78e35f21c673a0d2c95
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046741"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134074"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="client-interoperability-in-lync-2013"></a>Lync 2013의 클라이언트 상호 운용성
 
@@ -64,32 +64,32 @@ _**마지막으로 수정 된 항목:** 2016-03-04_
 <tbody>
 <tr class="odd">
 <td><p>Lync 2013</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
 <td><p>Supported5</p></td>
 <td><p>미지원</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2013 Basic</p></td>
-<td><p>지원</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
+<td><p>지원됨</p></td>
 <td><p>미지원</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Web App 2013</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
 <td><p>미지원</p></td>
 <td><p>미지원</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
-<td><p>지원</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
+<td><p>지원됨</p></td>
 <td><p>미지원</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010 Attendant</p></td>
-<td><p>지원</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
+<td><p>지원됨</p></td>
 <td><p>미지원</p></td>
 </tr>
 <tr class="even">
@@ -101,43 +101,43 @@ _**마지막으로 수정 된 항목:** 2016-03-04_
 <tr class="odd">
 <td><p>Lync Web App 2010</p></td>
 <td><p>미지원</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
 <td><p>미지원</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010 Attendee</p></td>
 <td><p>Supported3 아님</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
 <td><p>미지원</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007 R2</p></td>
 <td><p>Interoperable4</p></td>
-<td><p>지원</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
+<td><p>지원됨</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Office Communications Server 2007 R2 Attendant</p></td>
 <td><p>미지원</p></td>
-<td><p>지원</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
+<td><p>지원됨</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007</p></td>
 <td><p>미지원</p></td>
-<td><p>지원</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
+<td><p>지원됨</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Live Meeting 2007</p></td>
 <td><p>미지원</p></td>
-<td><p>지원</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
+<td><p>지원됨</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Windows 스토어 앱</p></td>
-<td><p>지원</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
+<td><p>지원됨</p></td>
 <td><p>미지원</p></td>
 </tr>
 </tbody>
@@ -485,27 +485,27 @@ Lync Server 2013 모임에서는 서로 다른 클라이언트 및 클라이언�
 <tbody>
 <tr class="odd">
 <td><p>Lync 2013 용 온라인 모임 추가 기능 (Office 2013, Outlook 2010 및 Outlook 2007과 함께 사용할 수 있음)</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
 <td><p>지원 (새 추가 기능 기능을 사용할 수 없음)</p></td>
 <td><p>미지원</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2013 웹 스케줄러</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
 <td><p>미지원</p></td>
 <td><p>미지원</p></td>
 </tr>
 <tr class="odd">
 <td><p>Online Meeting Add-in for Lync 2010(Lync 2010용 온라인 모임 추가 기능)</p></td>
-<td><p>지원</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
+<td><p>지원됨</p></td>
 <td><p>미지원</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Communicator 2007 R2 회의 추가 기능</p></td>
 <td><p>미지원</p></td>
-<td><p>지원</p></td>
-<td><p>지원</p></td>
+<td><p>지원됨</p></td>
+<td><p>지원됨</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183654
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2203c4169075b7b906156bf3436e61011f873a4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 04cf51d16c27a75d65b1936f2f95e1e5865ad63e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007477"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42116761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a>Lync Server 2013의 OCT (Office 사용자 지정 도구) 사용
 
@@ -53,7 +53,7 @@ OCT는 설치 프로그램의 일부로, 볼륨 라이선스 버전의 제품에
 
   - **Outlook** 사용자의 기본 Outlook 프로필을 사용자 지정 하 고, Exchange 설정을 지정 하 고, 계정을 추가 하 고, 계정을 제거 하 고\\, 설정을 내보내고, 보내기 수신 그룹을 지정 하는 데 사용 됩니다.
 
-OCT에 대 한 자세한 내용은를 <http://go.microsoft.com/fwlink/p/?linkid=267516>참조 하세요.
+OCT에 대 한 자세한 내용은를 <https://go.microsoft.com/fwlink/p/?linkid=267516>참조 하세요.
 
 </div>
 

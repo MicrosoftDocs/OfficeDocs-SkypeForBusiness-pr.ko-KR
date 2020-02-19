@@ -12,12 +12,12 @@ ms:contentKeyID: 49733836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1014bce74e0e7dcd789c9b2948c029f4b40ecb9a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7b9a5a1bf5132fb78086fdd424714e03af2caab5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030141"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134424"
 ---
 # <a name="assign-a-per-user-mobility-policy-in-lync-server-2013"></a>Lync Server 2013에서 사용자별 모바일 정책 할당
 
@@ -86,7 +86,7 @@ ms.locfileid: "42030141"
 
 ## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 사용자별 모바일 정책 할당
 
-Windows PowerShell 및 **get-csmobilitypolicy** cmdlet을 사용 하 여 사용자별 모바일 정책을 할당할 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+Windows PowerShell 및 **get-csmobilitypolicy** cmdlet을 사용 하 여 사용자별 모바일 정책을 할당할 수 있습니다. Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
 
 ## <a name="to-assign-a-per-user-mobility-policy-to-a-single-user"></a>단일 사용자에게 사용자별 모바일 정책을 할당하려면
 

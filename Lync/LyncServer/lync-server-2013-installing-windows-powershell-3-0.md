@@ -12,18 +12,18 @@ ms:contentKeyID: 48185621
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35ab12cc2e00bf81bc17552253eb56417dde2c6e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ce694fe34451d6465f1fff31119ecf40c13e82d7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041007"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42118631"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="installing-windows-powershell-30-for-lync-server-2013"></a>Lync Server 2013 용 Windows PowerShell 3.0 설치
 
@@ -45,7 +45,7 @@ Lync Server 2013을 성공적으로 배포 하려면 Lync Server 토폴로지의
 
 
 > [!IMPORTANT]  
-> 그러나 Windows Server 2008 R2 s p 1을 실행 하는 시스템의 경우 Lync Server 2013을 설치 하기 전에 PowerShell 3.0을 필수 구성 요소로 설치 해야 하며, 그렇지 않은 경우에는 작동 하지 않습니다. PowerShell 3.0을 설치 하려면 <A href="http://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3.0</A>를 참조 하세요. PowerShell 3.0 다운로드 페이지에 대 한 직접 링크 이며 성공적인 설치와 관련 된 정보를 포함 합니다.
+> 그러나 Windows Server 2008 R2 s p 1을 실행 하는 시스템의 경우 Lync Server 2013을 설치 하기 전에 PowerShell 3.0을 필수 구성 요소로 설치 해야 하며, 그렇지 않은 경우에는 작동 하지 않습니다. PowerShell 3.0을 설치 하려면 <A href="https://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3.0</A>를 참조 하세요. PowerShell 3.0 다운로드 페이지에 대 한 직접 링크 이며 성공적인 설치와 관련 된 정보를 포함 합니다.
 
 
 

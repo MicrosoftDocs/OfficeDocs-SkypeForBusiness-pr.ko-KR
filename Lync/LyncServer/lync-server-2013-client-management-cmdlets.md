@@ -12,18 +12,18 @@ ms:contentKeyID: 48183261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa957a6c0c8e995a6e1cff8b0ec1df38ec732c6d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b4639a3e51ca3674cdb521f49ef607f6a50f81fd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044440"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134064"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="client-management-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 클라이언트 관리 cmdlet
 
@@ -43,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2012-09-27_
 
 
 > [!NOTE]
-> Cmdlet에 대 한 자세한 내용은 Lync Server&nbsp;Windows PowerShell 블로그를 참조 <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>하세요. 각 블로그의 콘텐츠와 해당 URL은 사전 통지 없이 변경될 수 있습니다.
+> Cmdlet에 대 한 자세한 내용은 Lync Server&nbsp;Windows PowerShell 블로그를 참조 <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A>하세요. 각 블로그의 콘텐츠와 해당 URL은 사전 통지 없이 변경될 수 있습니다.
 
 
 

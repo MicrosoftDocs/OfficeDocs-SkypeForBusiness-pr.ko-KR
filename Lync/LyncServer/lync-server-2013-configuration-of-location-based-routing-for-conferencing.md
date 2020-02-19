@@ -12,18 +12,18 @@ ms:contentKeyID: 56335088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a959addbcd98e04d336ba380676399dbff2f586b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 237799a84d0230bf55737779921dd66b23c27130
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040787"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42133993"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuration-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>Lync Server 2013에서 회의를 위한 위치 기반 라우팅 구성
 
@@ -63,11 +63,11 @@ Get-CsServerApplication-Identity Service: 등록자:\<풀 FQDN\>
 
 위치 기반 라우팅 회의 응용 프로그램에 대 한 올바른 우선 순위 값을 찾은 후에 위치 기반 라우팅을 사용 하도록 설정 된 사용자를 가정 하는 각 프런트 엔드 풀 또는 Standard Edition 서버에 대해 다음 cmdlet을 입력 합니다.
 
-새-CsServerApplication-Identity Service: 등록자:\<Pool FQDN\>/LBRouting-Priority \<응용 프로그램\> 우선 순위-사용 $true-Critical $true-Urihttp://www.microsoft.com/LCS/LBRouting
+새-CsServerApplication-Identity Service: 등록자:\<Pool FQDN\>/LBRouting-Priority \<응용 프로그램\> 우선 순위-사용 $true-Critical $true-Urihttps://www.microsoft.com/LCS/LBRouting
 
 예:
 
-새-CsServerApplication-Identity Service:Registrar:Ls2013-2lbrpool. s t s/LBRouting-Priority 3-사용 $true-Critical $true-Urihttp://www.microsoft.com/LCS/LBRouting
+새-CsServerApplication-Identity Service:Registrar:Ls2013-2lbrpool. s t s/LBRouting-Priority 3-사용 $true-Critical $true-Urihttps://www.microsoft.com/LCS/LBRouting
 
 이 cmdlet을 사용한 후에는 풀의 모든 프런트 엔드 서버 또는 위치 기반 라우팅 회의 응용 프로그램을 사용할 수 있는 Standard Edition 서버를 다시 시작 합니다.
 

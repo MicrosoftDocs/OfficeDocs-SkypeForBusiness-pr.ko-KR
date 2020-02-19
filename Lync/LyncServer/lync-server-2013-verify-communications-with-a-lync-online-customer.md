@@ -12,18 +12,18 @@ ms:contentKeyID: 48185378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1dffbb5d8a0e49e19c0fa5487a4af05b7e7f0155
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 59fcf8398fa012543303f959f4888074f5192470
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007367"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113361"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="verify-communications-with-a-lync-online-customer-in-lync-server-2013"></a>Lync Server 2013에서 Lync Online 고객과의 통신 확인
 
@@ -45,7 +45,7 @@ _**마지막으로 수정 된 항목:** 2012-10-08_
 
   - 페더레이션을 지원하도록 사용자 계정을 구성했습니다. 자세한 내용은 [Lync Server 2013에서 Lync Online 고객과의 페더레이션을 위한 사용자 액세스 구성](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)를 참조 하십시오.
 
-이러한 모든 단계를 완료 하 고 Lync Online 2010 고객의 관리자가 모든 온라인 서비스 구성을 완료 하 여 조직과의 페더레이션을 지원 하려면 내부에서 통신을 테스트 하 여 통신을 확인 합니다. 조직의 사용자 및 Lync Online 고객의 사용자입니다. 통신이 실패할 경우 문제를 해결 하기 위해에 지 서버에서 로깅 도구를 사용 하 여 로그 및 추적 파일을 캡처합니다. 로깅 도구를 사용 하는 방법에 대 한 자세한 내용은 작업 설명서에서 [Lync Server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md) 를 참조 하십시오. 로깅 도구에 대 한 자세한 내용은 TechNet 라이브러리에서 Lync Server 2010 로깅 도구 설명서를 참조 하십시오 [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265).
+이러한 모든 단계를 완료 하 고 Lync Online 2010 고객의 관리자가 모든 온라인 서비스 구성을 완료 하 여 조직과의 페더레이션을 지원 하려면 내부에서 통신을 테스트 하 여 통신을 확인 합니다. 조직의 사용자 및 Lync Online 고객의 사용자입니다. 통신이 실패할 경우 문제를 해결 하기 위해에 지 서버에서 로깅 도구를 사용 하 여 로그 및 추적 파일을 캡처합니다. 로깅 도구를 사용 하는 방법에 대 한 자세한 내용은 작업 설명서에서 [Lync Server 2013 관리 도구 열기](lync-server-2013-open-lync-server-administrative-tools.md) 를 참조 하십시오. 로깅 도구에 대 한 자세한 내용은 TechNet 라이브러리에서 Lync Server 2010 로깅 도구 설명서를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265).
 
 </div>
 

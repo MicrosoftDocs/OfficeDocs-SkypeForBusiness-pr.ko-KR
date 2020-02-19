@@ -12,18 +12,18 @@ ms:contentKeyID: 49733566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8debab39073bf31f509ec504f944c8e4c7a9dfc3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 04e9599e0790c3d3468273ba27ea26f28ed3d766
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008420"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-microsoft-sharepoint-server-2013-to-search-for-archived-microsoft-lync-server-2013-data"></a>보관 된 Microsoft Lync Server 2013 데이터를 검색 하도록 Microsoft SharePoint Server 2013 구성
 
@@ -39,7 +39,7 @@ _**마지막으로 수정 된 항목:** 2014-02-04_
 
 Microsoft Lync Server 2013 대신 Microsoft Exchange Server 2013에서 인스턴트 메시징 및 웹 회의 성적 증명서를 저장 하는 주요 이점 중 하나는 데이터를 같은 위치에 저장 하면 관리자가 단일 도구를 사용 하 여 보관 된 Exchange 데이터 및/또는 아카이브된 Lync Server 데이터를 검색할 수 있다는 점입니다. 모든 데이터가 같은 위치에 저장 되므로 보관 된 Exchange 데이터를 검색할 수 있는 도구를 통해 아카이브된 Lync Server 데이터를 검색할 수도 있습니다.
 
-보관 된 데이터를 쉽게 검색할 수 있도록 하는 한 가지 도구는 Microsoft SharePoint Server 2013입니다. SharePoint를 사용 하 여 Lync Server 데이터를 검색 하려면 먼저 Lync Server에서 Exchange 보관을 구성 하는 데 관련 된 모든 단계를 완료 해야 합니다. Exchange 2013 및 Lync Server 2013이 통합 된 후에는 SharePoint 서버에 Exchange 웹 서비스 관리 API 버전 2.0을 설치 해야 합니다. 해당 API의 설치 프로그램은 Microsoft 다운로드 센터 ([http://go.microsoft.com/fwlink/p/?LinkId=258305](http://go.microsoft.com/fwlink/p/?linkid=258305))에서 다운로드할 수 있습니다. 다운로드 한 파일 (EWSManagedAPI)은 SharePoint server의 모든 폴더에 저장할 수 있습니다.
+보관 된 데이터를 쉽게 검색할 수 있도록 하는 한 가지 도구는 Microsoft SharePoint Server 2013입니다. SharePoint를 사용 하 여 Lync Server 데이터를 검색 하려면 먼저 Lync Server에서 Exchange 보관을 구성 하는 데 관련 된 모든 단계를 완료 해야 합니다. Exchange 2013 및 Lync Server 2013이 통합 된 후에는 SharePoint 서버에 Exchange 웹 서비스 관리 API 버전 2.0을 설치 해야 합니다. 해당 API의 설치 프로그램은 Microsoft 다운로드 센터 ([https://go.microsoft.com/fwlink/p/?LinkId=258305](https://go.microsoft.com/fwlink/p/?linkid=258305))에서 다운로드할 수 있습니다. 다운로드 한 파일 (EWSManagedAPI)은 SharePoint server의 모든 폴더에 저장할 수 있습니다.
 
 파일을 다운로드한 후 SharePoint 서버에서 다음 절차를 완료합니다.
 

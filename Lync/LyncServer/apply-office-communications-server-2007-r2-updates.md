@@ -13,18 +13,18 @@ ms:contentKeyID: 48185546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e49b9c63e7303fe101e909d39419b1bb6b491577
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 168770a577f09c6a08587677b47a95290c045110
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42004123"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="apply-office-communications-server-2007-r2-updates"></a>Office Communications Server 2007 R2 업데이트 적용
 
@@ -38,9 +38,9 @@ ms.locfileid: "42004123"
 
 _**마지막으로 수정 된 항목:** 2012-10-19_
 
-Lync Server 2013로 마이그레이션하기 전에 Office Communications Server 2007 R2 환경에 업데이트를 적용 해야 합니다. Office Communications Server 2007 r 2에 대 한 최신 정보는 **Communications server 2007** r 2에 [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802) **대 한 업데이트** 를 참조 하세요.
+Lync Server 2013로 마이그레이션하기 전에 Office Communications Server 2007 R2 환경에 업데이트를 적용 해야 합니다. Office Communications Server 2007 r 2에 대 한 최신 정보는 **Communications server 2007** r 2에 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802) **대 한 업데이트** 를 참조 하세요.
 
-Office Communications Server 2007 r 2에 대 한 업데이트를 설치 하려면 Microsoft 기술 자료 문서 968802, "Communications Server 2007 r 2에 대 한 업데이트"에 설명 된 **방법 1 누적 서버 업데이트 설치 관리자** 절차를 따르는 것이 좋습니다 [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).
+Office Communications Server 2007 r 2에 대 한 업데이트를 설치 하려면 Microsoft 기술 자료 문서 968802, "Communications Server 2007 r 2에 대 한 업데이트"에 설명 된 **방법 1 누적 서버 업데이트 설치 관리자** 절차를 따르는 것이 좋습니다 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).
 
 </div>
 

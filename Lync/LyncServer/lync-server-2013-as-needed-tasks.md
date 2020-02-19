@@ -12,18 +12,18 @@ ms:contentKeyID: 63969643
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67a0355d32e5e704d6609335c82f8cfe1fe7aa86
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03a819fad54bbd19be842f7ae28f655186135b50
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029289"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="as-needed-tasks-in-lync-server-2013"></a>Lync Server 2013의 필요에 따라 작업
 
@@ -103,7 +103,7 @@ _**마지막으로 수정 된 항목:** 2014-08-18_
     
       - Lync Server 사용자 삭제
 
-  - **Lync server 2013 로그 파일**   분석 일반적으로 문제 해결에 사용 되는 매우 유용한 도구는 lync [server 2013 logging tool 사용](http://technet.microsoft.com/library/gg558599.aspx)에 자세히 설명 되어 있는 lync server 2013 로깅 도구입니다.
+  - **Lync server 2013 로그 파일**   분석 일반적으로 문제 해결에 사용 되는 매우 유용한 도구는 lync [server 2013 logging tool 사용](https://technet.microsoft.com/library/gg558599.aspx)에 자세히 설명 되어 있는 lync server 2013 로깅 도구입니다.
 
 로깅 도구는 로그 파일을 생성 하므로 (서버 기준으로) Microsoft Office Server 12 Resource Kit Tools가 컴퓨터에 설치 되어 있는 경우에는 Snooper 도구를 사용 하 여 이러한 로그 파일을 보고 분석할 수 있습니다. 그렇지 않은 경우에는 Snooper 유틸리티를 사용 하는 것 보다 훨씬 덜 투명 하 고 복잡 한 텍스트 편집기를 사용 하 여 로그를 분석할 수도 있습니다.
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 49733716
 ms.date: 09/25/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f02f87e0cc7adc9cdfbd5e7ba1a9b7a4a6b736ee
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f450f5627fb79bd54a3b2a743a13a3cdfced82d5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008230"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42129641"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="network-bandwidth-requirements-for-media-traffic-in-lync-server-2013"></a>Lync Server 2013의 미디어 트래픽에 대 한 네트워크 대역폭 요구 사항
 
@@ -265,7 +265,7 @@ Lync 2013은 더 많은 해상도를 지원 합니다. 이를 통해 여러 가�
 <tbody>
 <tr class="odd">
 <td><p>오디오만</p></td>
-<td><p>5 </p></td>
+<td><p>2-5</p></td>
 </tr>
 <tr class="even">
 <td><p>비디오(H.264 또는 RTVideo만 전송/수신됨)</p></td>
