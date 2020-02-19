@@ -12,18 +12,18 @@ ms:contentKeyID: 48184021
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c24c8879f967553d5bb6449f9245781f2b56e46
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 015ced1b1f2e908b421709244793dc0140d57838
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029459"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="top-failures-report-in-lync-server-2013"></a>Lync Server 2013의 상위 실패 보고서
 
@@ -129,7 +129,7 @@ Top Failures 보고서는 한 가지 측면에서 일반적이지 않습니다. 
 <td><p>등록자 풀 또는 에지 서버의 FQDN(정규화된 도메인 이름)입니다. 개별 풀을 선택하거나 <strong>[모두]</strong>를 클릭하여 모든 풀에 대한 데이터를 봅니다. 이 드롭다운 목록은 데이터베이스의 레코드에 따라 자동으로 채워집니다.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>종류</strong></p></td>
+<td><p><strong>범주</strong></p></td>
 <td><p>발생한 오류 유형입니다. 다음 중 하나를 선택합니다.</p>
 <ul>
 <li><p>예상 오류 및 예기치 않은 오류 모두</p></li>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e8e53116879e194bca7d0ea4066bc5f10de38f7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2865d1a4169491751643e7b16601a5ed3efcded
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029449"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 서버, 인스턴트 메시징 및 현재 상태에 대 한 토폴로지 및 구성 요소
 
@@ -91,28 +91,28 @@ Lync Server 2013에서는 프런트 엔드 풀 아키텍처가 변경 되었으�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>1 </p></td>
+<td><p>2</p></td>
+<td><p>개</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
-<td><p>3 </p></td>
+<td><p>3(sp3)</p></td>
+<td><p>3(sp3)</p></td>
 </tr>
 <tr class="odd">
-<td><p>4 </p></td>
-<td><p>3 </p></td>
+<td><p>1-4</p></td>
+<td><p>3(sp3)</p></td>
 </tr>
 <tr class="even">
-<td><p>5 </p></td>
-<td><p>4 </p></td>
+<td><p>2-5</p></td>
+<td><p>1-4</p></td>
 </tr>
 <tr class="odd">
 <td><p>6 </p></td>
-<td><p>5 </p></td>
+<td><p>2-5</p></td>
 </tr>
 <tr class="even">
 <td><p>7 </p></td>
-<td><p>5 </p></td>
+<td><p>2-5</p></td>
 </tr>
 <tr class="odd">
 <td><p>8 </p></td>
@@ -131,7 +131,7 @@ Lync Server 2013에서는 프런트 엔드 풀 아키텍처가 변경 되었으�
 <td><p>9 </p></td>
 </tr>
 <tr class="odd">
-<td><p>12 </p></td>
+<td><p>12</p></td>
 <td><p>10 </p></td>
 </tr>
 </tbody>
@@ -144,7 +144,7 @@ Lync Server 2013에서는 프런트 엔드 풀 아키텍처가 변경 되었으�
 
 
 > [!NOTE]  
-> Lync Server에서는 기본 SQL 데이터베이스를 미러링 모니터로 사용 하기 때문에 기본 데이터베이스를 종료 하 고 미러 복사본으로 전환한 다음 충분 한 프런트 엔드 서버를 종료 하 여 앞의 표에 따라 충분히 실행 되지 않도록 하려면 전체 풀이 다운 됩니다. 자세한 내용은 <A href="http://go.microsoft.com/fwlink/?linkid=393672">데이터베이스 미러링 모니터 서버</A>를 참조 하세요.
+> Lync Server에서는 기본 SQL 데이터베이스를 미러링 모니터로 사용 하기 때문에 기본 데이터베이스를 종료 하 고 미러 복사본으로 전환한 다음 충분 한 프런트 엔드 서버를 종료 하 여 앞의 표에 따라 충분히 실행 되지 않도록 하려면 전체 풀이 다운 됩니다. 자세한 내용은 <A href="https://go.microsoft.com/fwlink/?linkid=393672">데이터베이스 미러링 모니터 서버</A>를 참조 하세요.
 
 
 
@@ -172,8 +172,8 @@ Lync Server 2013에서는 프런트 엔드 풀 아키텍처가 변경 되었으�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>1 </p></td>
+<td><p>2</p></td>
+<td><p>개</p></td>
 </tr>
 <tr class="even">
 <td><p>3-4</p></td>

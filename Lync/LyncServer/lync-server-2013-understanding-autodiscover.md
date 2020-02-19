@@ -12,18 +12,18 @@ ms:contentKeyID: 51541522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f57dd0158f4a9b6c798d1b968353e5f84b55d46e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 033f3a12ccbe0817f586aa7eb868679fa44541fd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046111"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="understanding-autodiscover-in-lync-server-2013"></a>Lync Server 2013의 자동 검색 이해
 
@@ -59,7 +59,7 @@ Lync Server 2013에서는 클라이언트에서 사용할 수 있는 요소, 기
 
 
 > [!NOTE]  
-> Lync 자동 검색 웹 서비스는 MSDN ( <STRONG>Microsoft Developer Network</STRONG> ) 라이브러리의 <STRONG>공개 사양</STRONG> 섹션에 있는 <STRONG>microsoft Office 프로토콜</STRONG> 에 정의 되어 있습니다. 자세한 내용은의 "Lync 자동 검색 웹 서비스 프로토콜" <A href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?LinkId=273839</A>전체 사양 문서를 참조 하십시오. 인증에 대 한 자세한 내용은의 <A href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?LinkId=279015</A>"OC 인증 웹 서비스 프로토콜"을 참조 하세요.
+> Lync 자동 검색 웹 서비스는 MSDN ( <STRONG>Microsoft Developer Network</STRONG> ) 라이브러리의 <STRONG>공개 사양</STRONG> 섹션에 있는 <STRONG>microsoft Office 프로토콜</STRONG> 에 정의 되어 있습니다. 자세한 내용은의 "Lync 자동 검색 웹 서비스 프로토콜" <A href="https://go.microsoft.com/fwlink/?linkid=273839">https://go.microsoft.com/fwlink/?LinkId=273839</A>전체 사양 문서를 참조 하십시오. 인증에 대 한 자세한 내용은의 <A href="https://go.microsoft.com/fwlink/?linkid=279015">https://go.microsoft.com/fwlink/?LinkId=279015</A>"OC 인증 웹 서비스 프로토콜"을 참조 하세요.
 
 
 
