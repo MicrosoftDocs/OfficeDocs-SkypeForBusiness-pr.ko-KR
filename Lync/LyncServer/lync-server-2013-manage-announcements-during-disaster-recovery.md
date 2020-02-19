@@ -12,20 +12,20 @@ ms:contentKeyID: 49733807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6058974b8473bc2c6db91abaaeb1550647ba592d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0f7c54293205ac9246db39950e701074b12a42a6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037538"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137637"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="a5322-102">Lync Server 2013에서 재해 복구 시 알림 관리</span><span class="sxs-lookup"><span data-stu-id="a5322-102">Manage announcements during disaster recovery in Lync Server 2013</span></span>
+# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="9a1d5-102">Lync Server 2013에서 재해 복구 시 알림 관리</span><span class="sxs-lookup"><span data-stu-id="9a1d5-102">Manage announcements during disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,81 +35,81 @@ ms.locfileid: "42037538"
 
 <span> </span>
 
-<span data-ttu-id="a5322-103">_**마지막으로 수정 된 항목:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="a5322-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="9a1d5-103">_**마지막으로 수정 된 항목:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="9a1d5-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="a5322-104">Lync Server 2013에서는 중단 시 할당 되지 않은 번호로 전화를 걸 수 있는 알림을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-104">Lync Server 2013 supports announcements for calls to unassigned numbers during outages.</span></span> <span data-ttu-id="a5322-105">중단 시 알림 기능을 복원하는 것은 선택 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-105">Restoring announcement functionality during an outage is optional.</span></span> <span data-ttu-id="a5322-106">중단 시 알림을 복원하려는 경우 백업 풀에서 알림 구성을 다시 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-106">If you choose to restore announcements during an outage, you need recreate your announcement configuration in the backup pool.</span></span> <span data-ttu-id="a5322-107">이 섹션에서는 재해 복구 시 알림을 복원하려는 경우 수행해야 할 작업에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-107">This section describes what you need to do if you choose to restore announcements during disaster recovery.</span></span>
+<span data-ttu-id="9a1d5-104">Lync Server 2013에서는 중단 시 할당 되지 않은 번호로 전화를 걸 수 있는 알림을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-104">Lync Server 2013 supports announcements for calls to unassigned numbers during outages.</span></span> <span data-ttu-id="9a1d5-105">중단 시 알림 기능을 복원하는 것은 선택 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-105">Restoring announcement functionality during an outage is optional.</span></span> <span data-ttu-id="9a1d5-106">중단 시 알림을 복원하려는 경우 백업 풀에서 알림 구성을 다시 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-106">If you choose to restore announcements during an outage, you need recreate your announcement configuration in the backup pool.</span></span> <span data-ttu-id="9a1d5-107">이 섹션에서는 재해 복구 시 알림을 복원하려는 경우 수행해야 할 작업에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-107">This section describes what you need to do if you choose to restore announcements during disaster recovery.</span></span>
 
-<span data-ttu-id="a5322-108">이 섹션은 알림 응용 프로그램을 사용 하는 할당 되지 않은 번호 범위에 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-108">This section applies to unassigned number ranges that use the Announcement application.</span></span> <span data-ttu-id="a5322-109">이 섹션은 Exchange UM (통합 메시징) 자동 전화 교환을 사용 하는 할당 되지 않은 번호 범위에는 적용 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-109">This section does not apply to unassigned number ranges that use Exchange Unified Messaging (UM) Auto Attendant.</span></span>
+<span data-ttu-id="9a1d5-108">이 섹션은 알림 응용 프로그램을 사용 하는 할당 되지 않은 번호 범위에 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-108">This section applies to unassigned number ranges that use the Announcement application.</span></span> <span data-ttu-id="9a1d5-109">이 섹션은 Exchange UM (통합 메시징) 자동 전화 교환을 사용 하는 할당 되지 않은 번호 범위에는 적용 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-109">This section does not apply to unassigned number ranges that use Exchange Unified Messaging (UM) Auto Attendant.</span></span>
 
 <div>
 
-## <a name="before-an-outage"></a><span data-ttu-id="a5322-110">중단 전 수행할 작업</span><span class="sxs-lookup"><span data-stu-id="a5322-110">Before an Outage</span></span>
+## <a name="before-an-outage"></a><span data-ttu-id="9a1d5-110">중단 전 수행할 작업</span><span class="sxs-lookup"><span data-stu-id="9a1d5-110">Before an Outage</span></span>
 
-<span data-ttu-id="a5322-111">중단 시간 중에 알림을 사용할지 여부에 관계 없이 알림 응용 프로그램에 대해 구성한 모든 사용자 지정 오디오 파일을 별도로 백업 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-111">Regardless of whether you choose to use announcements during outages, you should take separate backups of any customized audio files that you configured for the Announcement application.</span></span> <span data-ttu-id="a5322-112">사용자 지정 된 알림은 Lync Server 재해 복구 프로세스의 일부로 백업 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-112">Customized announcements are not backed up as part of the Lync Server disaster recovery process.</span></span> <span data-ttu-id="a5322-113">이러한 파일의 별도 백업을 만들지 않은 상태에서 서버 또는 풀에 업로드한 파일이 손상되거나 삭제될 경우 파일이 손실됩니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-113">If you do not take separate backups of the files and the files that you uploaded to the server or pool are damaged, corrupted, or erased, the files will be lost.</span></span>
+<span data-ttu-id="9a1d5-111">중단 시간 중에 알림을 사용할지 여부에 관계 없이 알림 응용 프로그램에 대해 구성한 모든 사용자 지정 오디오 파일을 별도로 백업 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-111">Regardless of whether you choose to use announcements during outages, you should take separate backups of any customized audio files that you configured for the Announcement application.</span></span> <span data-ttu-id="9a1d5-112">사용자 지정 된 알림은 Lync Server 재해 복구 프로세스의 일부로 백업 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-112">Customized announcements are not backed up as part of the Lync Server disaster recovery process.</span></span> <span data-ttu-id="9a1d5-113">이러한 파일의 별도 백업을 만들지 않은 상태에서 서버 또는 풀에 업로드한 파일이 손상되거나 삭제될 경우 파일이 손실됩니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-113">If you do not take separate backups of the files and the files that you uploaded to the server or pool are damaged, corrupted, or erased, the files will be lost.</span></span>
 
-<span data-ttu-id="a5322-114">사용자 지정 된 오디오 파일의 백업 복사본을 사용 하지 않고 원본 오디오 파일을 더 이상 사용할 수 없는 경우 알림 응용 프로그램에 대해 구성한 오디오 파일을 찾을 수 있습니다. 파일을 가져왔습니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-114">If you do not have backup copies of customized audio files, and the original audio files are no longer available, you can find the audio files that you configured for an Announcement application by looking in the File Store for the server or pool where you originally imported the files.</span></span> <span data-ttu-id="a5322-115">알림 응용 프로그램에 대해 구성한 모든 오디오 파일을 파일 저장소에서 복사할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-115">You can copy all the audio files that you configured for the Announcement application from the File Store.</span></span>
+<span data-ttu-id="9a1d5-114">사용자 지정 된 오디오 파일의 백업 복사본을 사용 하지 않고 원본 오디오 파일을 더 이상 사용할 수 없는 경우 알림 응용 프로그램에 대해 구성한 오디오 파일을 찾을 수 있습니다. 파일을 가져왔습니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-114">If you do not have backup copies of customized audio files, and the original audio files are no longer available, you can find the audio files that you configured for an Announcement application by looking in the File Store for the server or pool where you originally imported the files.</span></span> <span data-ttu-id="9a1d5-115">알림 응용 프로그램에 대해 구성한 모든 오디오 파일을 파일 저장소에서 복사할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-115">You can copy all the audio files that you configured for the Announcement application from the File Store.</span></span>
 
-<span data-ttu-id="a5322-116">**파일 저장소에서 오디오 파일을 복사 하려면**</span><span class="sxs-lookup"><span data-stu-id="a5322-116">**To copy audio files from the file store**</span></span>
+<span data-ttu-id="9a1d5-116">**파일 저장소에서 오디오 파일을 복사 하려면**</span><span class="sxs-lookup"><span data-stu-id="9a1d5-116">**To copy audio files from the file store**</span></span>
 
-1.  <span data-ttu-id="a5322-117">명령줄에서 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-117">At the command line, run:</span></span>
+1.  <span data-ttu-id="9a1d5-117">명령줄에서 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-117">At the command line, run:</span></span>
     
         Xcopy <Source: Pool Announcement Service File Store path> <Destination>
     
-    <span data-ttu-id="a5322-118">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-118">For example:</span></span>
+    <span data-ttu-id="9a1d5-118">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-118">For example:</span></span>
     
         Xcopy "<Pool File Store Path>\X-ApplicationServer-X\AppServerFiles\RGS\AS" "<Destination: Backup location>"
     
-    <span data-ttu-id="a5322-119">여기서 X-ApplicationServer-X는 풀의 응용 프로그램 서버의 서비스 ID(예: 1-ApplicationServer-1")를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-119">Where X-ApplicationServer-X refers to the service ID of the Application Server of the pool (for example, 1-ApplicationServer-1")</span></span>
+    <span data-ttu-id="9a1d5-119">여기서 X-ApplicationServer-X는 풀의 응용 프로그램 서버의 서비스 ID(예: 1-ApplicationServer-1")를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-119">Where X-ApplicationServer-X refers to the service ID of the Application Server of the pool (for example, 1-ApplicationServer-1")</span></span>
 
 
 </div>
 
 <div>
 
-## <a name="during-an-outage"></a><span data-ttu-id="a5322-120">중단 도중 수행할 작업</span><span class="sxs-lookup"><span data-stu-id="a5322-120">During an Outage</span></span>
+## <a name="during-an-outage"></a><span data-ttu-id="9a1d5-120">중단 도중 수행할 작업</span><span class="sxs-lookup"><span data-stu-id="9a1d5-120">During an Outage</span></span>
 
-<span data-ttu-id="a5322-121">중단 되는 동안 알림 응용 프로그램을 사용 하려면이 섹션에서 설명 하는 작업을 수행 하 여 백업 풀에서 알림 구성을 다시 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-121">To use the Announcement application during an outage, you need to recreate the announcement configuration in the backup pool by performing the tasks described in this section.</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="a5322-122">이러한 작업은 백업 풀로 장애 조치한(failover) 후에 수행하는 것이 좋습니다. 2단계를 수행하자마자 할당되지 않은 번호 범위를 백업 풀에서 소유하기 때문입니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-122">We recommend that you perform these tasks after you fail over to the backup pool, because as soon as you perform step 2, the backup pool takes ownership of the unassigned number ranges.</span></span>
-
-
-
-</div>
+<span data-ttu-id="9a1d5-121">중단 되는 동안 알림 응용 프로그램을 사용 하려면이 섹션에서 설명 하는 작업을 수행 하 여 백업 풀에서 알림 구성을 다시 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-121">To use the Announcement application during an outage, you need to recreate the announcement configuration in the backup pool by performing the tasks described in this section.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="a5322-123">이러한 단계는 Exchange UM 자동 전화 교환 전화 번호를 사용하는 번호 범위에는 필요하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-123">These steps are not required for number ranges that use an Exchange UM Auto Attendant phone number.</span></span>
+> <span data-ttu-id="9a1d5-122">이러한 작업은 백업 풀로 장애 조치한(failover) 후에 수행하는 것이 좋습니다. 2단계를 수행하자마자 할당되지 않은 번호 범위를 백업 풀에서 소유하기 때문입니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-122">We recommend that you perform these tasks after you fail over to the backup pool, because as soon as you perform step 2, the backup pool takes ownership of the unassigned number ranges.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="a5322-124">**백업 풀에서 알림 구성을 다시 만들려면**</span><span class="sxs-lookup"><span data-stu-id="a5322-124">**To recreate the announcement configuration in the backup pool**</span></span>
+<div>
 
-1.  <span data-ttu-id="a5322-125">백업 풀에서 다음을 수행하여 주 풀에 배포한 알림을 다시 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-125">Recreate the announcements that you deployed in the primary pool in the backup pool by doing the following:</span></span>
+
+> [!NOTE]  
+> <span data-ttu-id="9a1d5-123">이러한 단계는 Exchange UM 자동 전화 교환 전화 번호를 사용하는 번호 범위에는 필요하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-123">These steps are not required for number ranges that use an Exchange UM Auto Attendant phone number.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="9a1d5-124">**백업 풀에서 알림 구성을 다시 만들려면**</span><span class="sxs-lookup"><span data-stu-id="9a1d5-124">**To recreate the announcement configuration in the backup pool**</span></span>
+
+1.  <span data-ttu-id="9a1d5-125">백업 풀에서 다음을 수행하여 주 풀에 배포한 알림을 다시 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-125">Recreate the announcements that you deployed in the primary pool in the backup pool by doing the following:</span></span>
     
-    1.  <span data-ttu-id="a5322-126">**Import-CsAnnouncementFile** cmdlet을 사용하고 Parent 매개 변수에 백업 풀을 지정하여 주 풀에서 사용된 모든 오디오 파일을 해당 백업 풀로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-126">Import any audio files used in the primary pool to the backup pool by using the **Import-CsAnnouncementFile** cmdlet and specifying the backup pool for the Parent parameter.</span></span>
+    1.  <span data-ttu-id="9a1d5-126">**Import-CsAnnouncementFile** cmdlet을 사용하고 Parent 매개 변수에 백업 풀을 지정하여 주 풀에서 사용된 모든 오디오 파일을 해당 백업 풀로 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-126">Import any audio files used in the primary pool to the backup pool by using the **Import-CsAnnouncementFile** cmdlet and specifying the backup pool for the Parent parameter.</span></span>
     
-    2.  <span data-ttu-id="a5322-127">**New-CsAnnouncement** cmdlet을 사용하고 Parent 매개 변수에 백업 풀을 지정하여 각 알림을 다시 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-127">Recreate each announcement by using the **New-CsAnnouncement** cmdlet and specifying the backup pool for the Parent parameter.</span></span>
+    2.  <span data-ttu-id="9a1d5-127">**New-CsAnnouncement** cmdlet을 사용하고 Parent 매개 변수에 백업 풀을 지정하여 각 알림을 다시 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-127">Recreate each announcement by using the **New-CsAnnouncement** cmdlet and specifying the backup pool for the Parent parameter.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="a5322-128">이러한 매개 변수를 사용 하 여 백업 풀에서 알림을 만드는 방법에 대 한 자세한 내용은 <A href="lync-server-2013-create-an-announcement.md">create a 공고 in The Lync Server 2013</A>을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="a5322-128">For details about using these parameters to create announcements in the backup pool, see <A href="lync-server-2013-create-an-announcement.md">Create an announcement in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="9a1d5-128">이러한 매개 변수를 사용 하 여 백업 풀에서 알림을 만드는 방법에 대 한 자세한 내용은 <A href="lync-server-2013-create-an-announcement.md">create a 공고 in The Lync Server 2013</A>을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-128">For details about using these parameters to create announcements in the backup pool, see <A href="lync-server-2013-create-an-announcement.md">Create an announcement in Lync Server 2013</A>.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="a5322-129">백업 풀에서 모든 알림을 다시 만든 후에는 주 풀에서 알림을 사용하는, 할당되지 않은 모든 번호 범위를 백업 풀에 다시 만든 알림으로 리디렉션합니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-129">After all announcements are recreated in the backup pool, redirect all the unassigned number ranges that use announcements in the primary pool to the recreated announcements in the backup pool.</span></span>
+2.  <span data-ttu-id="9a1d5-129">백업 풀에서 모든 알림을 다시 만든 후에는 주 풀에서 알림을 사용하는, 할당되지 않은 모든 번호 범위를 백업 풀에 다시 만든 알림으로 리디렉션합니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-129">After all announcements are recreated in the backup pool, redirect all the unassigned number ranges that use announcements in the primary pool to the recreated announcements in the backup pool.</span></span>
     
-    <span data-ttu-id="a5322-130">주 풀에서 알림을 사용하는, 할당되지 않은 각 번호 범위를 얻으려면 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-130">For each unassigned number range that uses an announcement in the primary pool, run the following:</span></span>
+    <span data-ttu-id="9a1d5-130">주 풀에서 알림을 사용하는, 할당되지 않은 각 번호 범위를 얻으려면 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-130">For each unassigned number range that uses an announcement in the primary pool, run the following:</span></span>
     
         Set-CsUnassignedNumber -Identity "<name of number range>" -AnnouncementService "<FQDN of backup pool>" -AnnouncementName "<announcement name in backup pool>"
 
@@ -117,41 +117,41 @@ ms.locfileid: "42037538"
 
 <div>
 
-## <a name="after-the-outage"></a><span data-ttu-id="a5322-131">중단 후 수행할 작업</span><span class="sxs-lookup"><span data-stu-id="a5322-131">After the Outage</span></span>
+## <a name="after-the-outage"></a><span data-ttu-id="9a1d5-131">중단 후 수행할 작업</span><span class="sxs-lookup"><span data-stu-id="9a1d5-131">After the Outage</span></span>
 
-<span data-ttu-id="a5322-132">주 풀을 사용할 수 있게 되면 중단 시 변경한 할당되지 않은 번호 범위를 주 풀로 다시 리디렉션해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-132">When the primary pool becomes available, you need to redirect the unassigned number ranges that you changed for the outage back to the primary pool.</span></span>
+<span data-ttu-id="9a1d5-132">주 풀을 사용할 수 있게 되면 중단 시 변경한 할당되지 않은 번호 범위를 주 풀로 다시 리디렉션해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-132">When the primary pool becomes available, you need to redirect the unassigned number ranges that you changed for the outage back to the primary pool.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="a5322-133">이러한 단계는 Exchange UM 자동 전화 교환 전화 번호를 사용하는 번호 범위에는 필요하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-133">These steps are not required for number ranges that use an Exchange UM Auto Attendant phone number.</span></span>
+> <span data-ttu-id="9a1d5-133">이러한 단계는 Exchange UM 자동 전화 교환 전화 번호를 사용하는 번호 범위에는 필요하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-133">These steps are not required for number ranges that use an Exchange UM Auto Attendant phone number.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="a5322-134">**기본 풀에서 알림을 복원 하려면**</span><span class="sxs-lookup"><span data-stu-id="a5322-134">**To restore announcements in the primary pool**</span></span>
+<span data-ttu-id="9a1d5-134">**기본 풀에서 알림을 복원 하려면**</span><span class="sxs-lookup"><span data-stu-id="9a1d5-134">**To restore announcements in the primary pool**</span></span>
 
-1.  <span data-ttu-id="a5322-p105">복구 시 주 풀을 재구성해야 했던 경우, 백업 풀에서 한 것처럼(단, Parent 매개 변수에 주 풀을 지정) 오디오 파일을 가져오고 알림을 만들어 주 풀에서 알림을 다시 만들어야 합니다. 자세한 내용은 이 항목 앞부분에 있는 "중단 도중 수행할 작업"을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="a5322-p105">If you had to rebuild the primary pool during the recovery, you need to recreate the announcements in the primary pool by importing the audio files and creating announcements, just as you did in the backup pool, except that you specify the primary pool for the Parent parameter. For details, see "During an Outage" earlier in this topic.</span></span>
+1.  <span data-ttu-id="9a1d5-p105">복구 시 주 풀을 재구성해야 했던 경우, 백업 풀에서 한 것처럼(단, Parent 매개 변수에 주 풀을 지정) 오디오 파일을 가져오고 알림을 만들어 주 풀에서 알림을 다시 만들어야 합니다. 자세한 내용은 이 항목 앞부분에 있는 "중단 도중 수행할 작업"을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-p105">If you had to rebuild the primary pool during the recovery, you need to recreate the announcements in the primary pool by importing the audio files and creating announcements, just as you did in the backup pool, except that you specify the primary pool for the Parent parameter. For details, see "During an Outage" earlier in this topic.</span></span>
 
-2.  <span data-ttu-id="a5322-137">중단 시 변경한 할당되지 않은 각 번호 범위를 얻으려면 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-137">For each unassigned number range that you changed for the outage, run the following:</span></span>
+2.  <span data-ttu-id="9a1d5-137">중단 시 변경한 할당되지 않은 각 번호 범위를 얻으려면 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-137">For each unassigned number range that you changed for the outage, run the following:</span></span>
     
         Set-CsUnassignedNumber [-Identity "<name of number range>"] -AnnouncementService "<FQDN of primary pool>" -AnnouncementName "<announcement name in primary pool>"
 
-3.  <span data-ttu-id="a5322-138">필요한 경우 백업 풀에서 다시 만든 알림을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-138">Optionally, remove the announcements that you recreated in the backup pool.</span></span> <span data-ttu-id="a5322-139">백업 풀 알림 응용 프로그램에 대 한 공지 사항 목록을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-139">Get a list of announcements for the backup pool Announcement application.</span></span> <span data-ttu-id="a5322-140">명령줄에서 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-140">At the command line, run:</span></span>
+3.  <span data-ttu-id="9a1d5-138">필요한 경우 백업 풀에서 다시 만든 알림을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-138">Optionally, remove the announcements that you recreated in the backup pool.</span></span> <span data-ttu-id="9a1d5-139">백업 풀 알림 응용 프로그램에 대 한 공지 사항 목록을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-139">Get a list of announcements for the backup pool Announcement application.</span></span> <span data-ttu-id="9a1d5-140">명령줄에서 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-140">At the command line, run:</span></span>
     
         Get-CsAnnouncement -Identity "<Service:service ID>"
     
-    <span data-ttu-id="a5322-141">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-141">For example:</span></span>
+    <span data-ttu-id="9a1d5-141">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-141">For example:</span></span>
     
         Get-CsAnnouncement -Identity "ApplicationServer:redmond.contoso.com
     
-    <span data-ttu-id="a5322-p107">결과로 반환된 목록에서 제거할 알림을 찾아 GUID를 복사합니다. 제거할 각 알림에 대해 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-p107">In the resulting list, locate the announcements you want to remove and copy the GUIDs. For each announcement you want to remove, run:</span></span>
+    <span data-ttu-id="9a1d5-p107">결과로 반환된 목록에서 제거할 알림을 찾아 GUID를 복사합니다. 제거할 각 알림에 대해 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-p107">In the resulting list, locate the announcements you want to remove and copy the GUIDs. For each announcement you want to remove, run:</span></span>
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
     
-    <span data-ttu-id="a5322-144">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="a5322-144">For example:</span></span>
+    <span data-ttu-id="9a1d5-144">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9a1d5-144">For example:</span></span>
     
         Remove-CsAnnouncement -Identity "ApplicationServer:redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
 

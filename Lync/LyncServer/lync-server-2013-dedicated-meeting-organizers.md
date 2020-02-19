@@ -12,20 +12,20 @@ ms:contentKeyID: 48183730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4609f588eec8d68ec163abd8a15a44f5f88a7620
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e5f109c20136bbef07842eaed1669cac2912b3b4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044090"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138289"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dedicated-meeting-organizers-in-lync-server-2013"></a><span data-ttu-id="97b98-102">Lync Server 2013의 전용 모임 이끌이</span><span class="sxs-lookup"><span data-stu-id="97b98-102">Dedicated meeting organizers in Lync Server 2013</span></span>
+# <a name="dedicated-meeting-organizers-in-lync-server-2013"></a><span data-ttu-id="57109-102">Lync Server 2013의 전용 모임 이끌이</span><span class="sxs-lookup"><span data-stu-id="57109-102">Dedicated meeting organizers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42044090"
 
 <span> </span>
 
-<span data-ttu-id="97b98-103">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="97b98-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="57109-103">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="57109-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="97b98-p101">대규모 모임 풀에서 실시간 통신 트래픽을 최소화하려면 정기적으로 Lync 클라이언트를 사용해 로그인하여 IM(인스턴트 메시징), 현재 상태, 전화 회의 및 음성 세션에 참가하는 사용자를 호스팅하지 않는 것이 좋습니다. 대신 다음 중 하나를 수행하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="97b98-p101">To minimize the real-time communications traffic in the large-meeting pool, we do not recommend hosting users who regularly sign in using Lync clients and participate in instant messaging (IM), presence, conferencing, and voice sessions. Instead, we recommend doing one of the following:</span></span>
+<span data-ttu-id="57109-p101">대규모 모임 풀에서 실시간 통신 트래픽을 최소화하려면 정기적으로 Lync 클라이언트를 사용해 로그인하여 IM(인스턴트 메시징), 현재 상태, 전화 회의 및 음성 세션에 참가하는 사용자를 호스팅하지 않는 것이 좋습니다. 대신 다음 중 하나를 수행하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="57109-p101">To minimize the real-time communications traffic in the large-meeting pool, we do not recommend hosting users who regularly sign in using Lync clients and participate in instant messaging (IM), presence, conferencing, and voice sessions. Instead, we recommend doing one of the following:</span></span>
 
-  - <span data-ttu-id="97b98-106">대규모 모임 예약 전용으로 사용자 계정을 하나 이상 만듭니다. 또는</span><span class="sxs-lookup"><span data-stu-id="97b98-106">Create one or more dedicated user accounts just for scheduling large meetings, or</span></span>
+  - <span data-ttu-id="57109-106">대규모 모임 예약 전용으로 사용자 계정을 하나 이상 만듭니다. 또는</span><span class="sxs-lookup"><span data-stu-id="57109-106">Create one or more dedicated user accounts just for scheduling large meetings, or</span></span>
 
-  - <span data-ttu-id="97b98-107">대규모 모임 예약 담당 직원의 사용자 계정을 대규모 모임 풀에 배치합니다.</span><span class="sxs-lookup"><span data-stu-id="97b98-107">Home the user accounts of the staff responsible for scheduling large meetings on a large-meeting pool.</span></span>
+  - <span data-ttu-id="57109-107">대규모 모임 예약 담당 직원의 사용자 계정을 대규모 모임 풀에 배치합니다.</span><span class="sxs-lookup"><span data-stu-id="57109-107">Home the user accounts of the staff responsible for scheduling large meetings on a large-meeting pool.</span></span>
 
-<span data-ttu-id="97b98-108">두 경우 모두 대규모 모임 풀에 배치되는 사용자 계정은 모임 예약 이외의 작업을 수행하기 위해 Lync에 정기적으로 로그인하는 데 사용해서는 안 됩니다.</span><span class="sxs-lookup"><span data-stu-id="97b98-108">In either case, the user accounts that are homed on the large-meeting pool should not be used to regularly sign in to Lync, other than to schedule meetings.</span></span>
+<span data-ttu-id="57109-108">두 경우 모두 대규모 모임 풀에 배치되는 사용자 계정은 모임 예약 이외의 작업을 수행하기 위해 Lync에 정기적으로 로그인하는 데 사용해서는 안 됩니다.</span><span class="sxs-lookup"><span data-stu-id="57109-108">In either case, the user accounts that are homed on the large-meeting pool should not be used to regularly sign in to Lync, other than to schedule meetings.</span></span>
 
 </div>
 

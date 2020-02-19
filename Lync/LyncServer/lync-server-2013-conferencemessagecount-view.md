@@ -12,20 +12,20 @@ ms:contentKeyID: 49733727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f94e824b18cab71fe1329ffcad1c836df6d46ebd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2a35b1f223c16c1a490197a11206ea972816c94e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049069"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140601"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencemessagecount-view-in-lync-server-2013"></a><span data-ttu-id="2649a-102">Lync Server 2013의 ConferenceMessageCount 보기</span><span class="sxs-lookup"><span data-stu-id="2649a-102">ConferenceMessageCount view in Lync Server 2013</span></span>
+# <a name="conferencemessagecount-view-in-lync-server-2013"></a><span data-ttu-id="1d3c1-102">Lync Server 2013의 ConferenceMessageCount 보기</span><span class="sxs-lookup"><span data-stu-id="1d3c1-102">ConferenceMessageCount view in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42049069"
 
 <span> </span>
 
-<span data-ttu-id="2649a-103">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="2649a-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="1d3c1-103">_**마지막으로 수정 된 항목:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="1d3c1-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="2649a-104">ConferenceMessageCount 보기에는 사용자가 회의에 전송한 메시지 수에 대한 정보가 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="2649a-104">The ConferenceMessageCount view stores information about how many messages were sent by a user to a conference.</span></span> <span data-ttu-id="2649a-105">이 보기는 Microsoft Lync Server 2013에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="2649a-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="1d3c1-104">ConferenceMessageCount 보기에는 사용자가 회의에 전송한 메시지 수에 대한 정보가 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="1d3c1-104">The ConferenceMessageCount view stores information about how many messages were sent by a user to a conference.</span></span> <span data-ttu-id="1d3c1-105">이 보기는 Microsoft Lync Server 2013에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="1d3c1-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="2649a-106">ConferenceMessageCount 보기에는 아래 나열 된 열 외에도 <A href="lync-server-2013-conferencesessiondetails-view.md">Lync Server 2013의 ConferenceSessionDetails 보기</A> 에 있는 모든 열이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2649a-106">The ConferenceMessageCount view contains all of the columns in the <A href="lync-server-2013-conferencesessiondetails-view.md">ConferenceSessionDetails view in Lync Server 2013</A> in addition the columns listed below.</span></span>
+> <span data-ttu-id="1d3c1-106">ConferenceMessageCount 보기에는 아래 나열 된 열 외에도 <A href="lync-server-2013-conferencesessiondetails-view.md">Lync Server 2013의 ConferenceSessionDetails 보기</A> 에 있는 모든 열이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1d3c1-106">The ConferenceMessageCount view contains all of the columns in the <A href="lync-server-2013-conferencesessiondetails-view.md">ConferenceSessionDetails view in Lync Server 2013</A> in addition the columns listed below.</span></span>
 
 
 
@@ -58,31 +58,31 @@ ms.locfileid: "42049069"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2649a-107">열</span><span class="sxs-lookup"><span data-stu-id="2649a-107">Column</span></span></th>
-<th><span data-ttu-id="2649a-108">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="2649a-108">Data Type</span></span></th>
-<th><span data-ttu-id="2649a-109">세부 정보</span><span class="sxs-lookup"><span data-stu-id="2649a-109">Details</span></span></th>
+<th><span data-ttu-id="1d3c1-107">열</span><span class="sxs-lookup"><span data-stu-id="1d3c1-107">Column</span></span></th>
+<th><span data-ttu-id="1d3c1-108">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="1d3c1-108">Data Type</span></span></th>
+<th><span data-ttu-id="1d3c1-109">세부 정보</span><span class="sxs-lookup"><span data-stu-id="1d3c1-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2649a-110"><strong>변수와 useruri</strong></span><span class="sxs-lookup"><span data-stu-id="2649a-110"><strong>UserUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="2649a-111">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="2649a-111">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="2649a-112">메시지를 보낸 사용자의 URI입니다.</span><span class="sxs-lookup"><span data-stu-id="2649a-112">URI of the user who sent the message.</span></span></p></td>
+<td><p><span data-ttu-id="1d3c1-110"><strong>변수와 useruri</strong></span><span class="sxs-lookup"><span data-stu-id="1d3c1-110"><strong>UserUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="1d3c1-111">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="1d3c1-111">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="1d3c1-112">메시지를 보낸 사용자의 URI입니다.</span><span class="sxs-lookup"><span data-stu-id="1d3c1-112">URI of the user who sent the message.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2649a-113"><strong>Userurit<</strong></span><span class="sxs-lookup"><span data-stu-id="2649a-113"><strong>UserUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="2649a-114">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="2649a-114">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2649a-115">메시지를 보낸 사용자 URI의 형식입니다.</span><span class="sxs-lookup"><span data-stu-id="2649a-115">Type of URI of the user who sent the messages.</span></span> <span data-ttu-id="2649a-116">자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="2649a-116">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="1d3c1-113"><strong>Userurit<</strong></span><span class="sxs-lookup"><span data-stu-id="1d3c1-113"><strong>UserUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="1d3c1-114">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="1d3c1-114">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="1d3c1-115">메시지를 보낸 사용자 URI의 형식입니다.</span><span class="sxs-lookup"><span data-stu-id="1d3c1-115">Type of URI of the user who sent the messages.</span></span> <span data-ttu-id="1d3c1-116">자세한 내용은 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013의 UriTypes 테이블</a> 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="1d3c1-116">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2649a-117"><strong>UserTenant 넌 트</strong></span><span class="sxs-lookup"><span data-stu-id="2649a-117"><strong>UserTenant</strong></span></span></p></td>
-<td><p><span data-ttu-id="2649a-118">고유</span><span class="sxs-lookup"><span data-stu-id="2649a-118">uniqueidentifier</span></span></p></td>
-<td><p><span data-ttu-id="2649a-119">메시지를 보낸 사용자의 테넌트입니다.</span><span class="sxs-lookup"><span data-stu-id="2649a-119">Tenant of user who sent the messages.</span></span> <span data-ttu-id="2649a-120">자세한 내용은 <a href="lync-server-2013-tenants-table.md">Lync Server 2013의 테 넌 트 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="2649a-120">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="1d3c1-117"><strong>UserTenant 넌 트</strong></span><span class="sxs-lookup"><span data-stu-id="1d3c1-117"><strong>UserTenant</strong></span></span></p></td>
+<td><p><span data-ttu-id="1d3c1-118">고유</span><span class="sxs-lookup"><span data-stu-id="1d3c1-118">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="1d3c1-119">메시지를 보낸 사용자의 테넌트입니다.</span><span class="sxs-lookup"><span data-stu-id="1d3c1-119">Tenant of user who sent the messages.</span></span> <span data-ttu-id="1d3c1-120">자세한 내용은 <a href="lync-server-2013-tenants-table.md">Lync Server 2013의 테 넌 트 표</a> 를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="1d3c1-120">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2649a-121"><strong>UserMessageCount</strong></span><span class="sxs-lookup"><span data-stu-id="2649a-121"><strong>UserMessageCount</strong></span></span></p></td>
-<td><p><span data-ttu-id="2649a-122">smallint</span><span class="sxs-lookup"><span data-stu-id="2649a-122">smallint</span></span></p></td>
-<td><p><span data-ttu-id="2649a-123">회의 세션 중 사용자가 보낸 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="2649a-123">Number of messages sent by the user during the conference session.</span></span></p></td>
+<td><p><span data-ttu-id="1d3c1-121"><strong>UserMessageCount</strong></span><span class="sxs-lookup"><span data-stu-id="1d3c1-121"><strong>UserMessageCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="1d3c1-122">smallint</span><span class="sxs-lookup"><span data-stu-id="1d3c1-122">smallint</span></span></p></td>
+<td><p><span data-ttu-id="1d3c1-123">회의 세션 중 사용자가 보낸 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="1d3c1-123">Number of messages sent by the user during the conference session.</span></span></p></td>
 </tr>
 </tbody>
 </table>

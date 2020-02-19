@@ -12,20 +12,20 @@ ms:contentKeyID: 48185655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 330f1a31f9a91d69c9e2514d0744abc72806bf4f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 38e2cffcaa54df8d9a7bc3715d609ac4bc7d7b8f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007006"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135905"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a><span data-ttu-id="e857a-102">Lync Server 2013의 E9-1-1에 대 한 배포 검사 목록</span><span class="sxs-lookup"><span data-stu-id="e857a-102">Deployment checklist for E9-1-1 in Lync Server 2013</span></span>
+# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a><span data-ttu-id="a021a-102">Lync Server 2013의 E9-1-1에 대 한 배포 검사 목록</span><span class="sxs-lookup"><span data-stu-id="a021a-102">Deployment checklist for E9-1-1 in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42007006"
 
 <span> </span>
 
-<span data-ttu-id="e857a-103">_**마지막으로 수정 된 항목:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="e857a-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="a021a-103">_**마지막으로 수정 된 항목:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="a021a-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="e857a-104">향상 된 9-1-1 (E9-1-1)을 효과적으로 계획 하려면 다음 배포 요구 사항을 포함 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-104">To plan effectively for Enhanced 9-1-1 (E9-1-1), be sure to include the following deployment requirements:</span></span>
+<span data-ttu-id="a021a-104">향상 된 9-1-1 (E9-1-1)을 효과적으로 계획 하려면 다음 배포 요구 사항을 포함 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-104">To plan effectively for Enhanced 9-1-1 (E9-1-1), be sure to include the following deployment requirements:</span></span>
 
-  - <span data-ttu-id="e857a-105">E9-1-1 배포를 위한 필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="e857a-105">Prerequisites for deploying E9-1-1.</span></span>
+  - <span data-ttu-id="a021a-105">E9-1-1 배포를 위한 필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="a021a-105">Prerequisites for deploying E9-1-1.</span></span>
 
-  - <span data-ttu-id="e857a-106">E9-1-1을 배포 하는 데 필요한 단계</span><span class="sxs-lookup"><span data-stu-id="e857a-106">Steps that are required to deploy E9-1-1.</span></span>
+  - <span data-ttu-id="a021a-106">E9-1-1을 배포 하는 데 필요한 단계</span><span class="sxs-lookup"><span data-stu-id="a021a-106">Steps that are required to deploy E9-1-1.</span></span>
 
 <div>
 
-## <a name="deployment-prerequisites-for-e9-1-1"></a><span data-ttu-id="e857a-107">E9-1-1 배포 필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="e857a-107">Deployment Prerequisites for E9-1-1</span></span>
+## <a name="deployment-prerequisites-for-e9-1-1"></a><span data-ttu-id="a021a-107">E9-1-1 배포 필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="a021a-107">Deployment Prerequisites for E9-1-1</span></span>
 
-<span data-ttu-id="e857a-108">E9-1-1을 배포 하기 전에 먼저 Lync Server 내부 서버 (중앙 관리 저장소, 프런트 엔드 풀 또는 Standard Edition 서버, 하나 이상의 중재 서버 또는 중재 서버 풀 및 Lync Server 클라이언트 포함)를 배포 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-108">Before you deploy E9-1-1, you must already have deployed your Lync Server internal servers, including a Central Management store, a Front End pool or a Standard Edition server, one or more Mediation Servers or Mediation Server pools, and Lync Server clients.</span></span> <span data-ttu-id="e857a-109">또한 E9-1-1 배포에서는 SIP 트렁크가 적격 E9-1-1 서비스 공급자 또는 공중 전화망 (응급 위치 식별 번호) 게이트웨이를 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-109">In addition, an E9-1-1 deployment requires a SIP trunk to a qualified E9-1-1 service provider or an Emergency Location Identification Number (ELIN) gateway to your public switched telephone network (PSTN).</span></span> <span data-ttu-id="e857a-110">Lync Server에서는 미국 내 에서만 E9-1-1 서비스 공급자를 사용할 지를 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-110">Lync Server supports using E9-1-1 service providers only inside the United States.</span></span>
+<span data-ttu-id="a021a-108">E9-1-1을 배포 하기 전에 먼저 Lync Server 내부 서버 (중앙 관리 저장소, 프런트 엔드 풀 또는 Standard Edition 서버, 하나 이상의 중재 서버 또는 중재 서버 풀 및 Lync Server 클라이언트 포함)를 배포 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-108">Before you deploy E9-1-1, you must already have deployed your Lync Server internal servers, including a Central Management store, a Front End pool or a Standard Edition server, one or more Mediation Servers or Mediation Server pools, and Lync Server clients.</span></span> <span data-ttu-id="a021a-109">또한 E9-1-1 배포에서는 SIP 트렁크가 적격 E9-1-1 서비스 공급자 또는 공중 전화망 (응급 위치 식별 번호) 게이트웨이를 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-109">In addition, an E9-1-1 deployment requires a SIP trunk to a qualified E9-1-1 service provider or an Emergency Location Identification Number (ELIN) gateway to your public switched telephone network (PSTN).</span></span> <span data-ttu-id="a021a-110">Lync Server에서는 미국 내 에서만 E9-1-1 서비스 공급자를 사용할 지를 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-110">Lync Server supports using E9-1-1 service providers only inside the United States.</span></span>
 
 </div>
 
 <div>
 
-## <a name="deployment-process"></a><span data-ttu-id="e857a-111">배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="e857a-111">Deployment Process</span></span>
+## <a name="deployment-process"></a><span data-ttu-id="a021a-111">배포 프로세스</span><span class="sxs-lookup"><span data-stu-id="a021a-111">Deployment Process</span></span>
 
-<span data-ttu-id="e857a-112">다음 표에서는 E9-1-1 배포 프로세스에 대해 간략하게 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-112">The following table provides an overview of the E9-1-1 deployment process.</span></span> <span data-ttu-id="e857a-113">배포 단계에 대 한 자세한 내용은 배포 설명서의 [Configure 다기능 9-1-1 In Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md) 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="e857a-113">For details about deployment steps, see [Configure Enhanced 9-1-1 in Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="a021a-112">다음 표에서는 E9-1-1 배포 프로세스에 대해 간략하게 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-112">The following table provides an overview of the E9-1-1 deployment process.</span></span> <span data-ttu-id="a021a-113">배포 단계에 대 한 자세한 내용은 배포 설명서의 [Configure 다기능 9-1-1 In Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md) 을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="a021a-113">For details about deployment steps, see [Configure Enhanced 9-1-1 in Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md) in the Deployment documentation.</span></span>
 
 
 <table>
@@ -67,62 +67,62 @@ ms.locfileid: "42007006"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e857a-114">단계</span><span class="sxs-lookup"><span data-stu-id="e857a-114">Phase</span></span></th>
-<th><span data-ttu-id="e857a-115">단계</span><span class="sxs-lookup"><span data-stu-id="e857a-115">Steps</span></span></th>
-<th><span data-ttu-id="e857a-116">역할</span><span class="sxs-lookup"><span data-stu-id="e857a-116">Roles</span></span></th>
-<th><span data-ttu-id="e857a-117">배포 설명서</span><span class="sxs-lookup"><span data-stu-id="e857a-117">Deployment documentation</span></span></th>
+<th><span data-ttu-id="a021a-114">단계</span><span class="sxs-lookup"><span data-stu-id="a021a-114">Phase</span></span></th>
+<th><span data-ttu-id="a021a-115">단계</span><span class="sxs-lookup"><span data-stu-id="a021a-115">Steps</span></span></th>
+<th><span data-ttu-id="a021a-116">역할</span><span class="sxs-lookup"><span data-stu-id="a021a-116">Roles</span></span></th>
+<th><span data-ttu-id="a021a-117">배포 설명서</span><span class="sxs-lookup"><span data-stu-id="a021a-117">Deployment documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e857a-118">음성 용도, 경로 및 트렁크 구성 구성</span><span class="sxs-lookup"><span data-stu-id="e857a-118">Configure voice usages, routes, and trunk configurations</span></span></p></td>
+<td><p><span data-ttu-id="a021a-118">음성 용도, 경로 및 트렁크 구성 구성</span><span class="sxs-lookup"><span data-stu-id="a021a-118">Configure voice usages, routes, and trunk configurations</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="e857a-119">새 PSTN 사용 레코드를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-119">Create a new PSTN usage record.</span></span> <span data-ttu-id="e857a-120">이 이름은 위치 정책의 <strong>PSTN 사용</strong> 설정에 사용 되는 이름과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-120">This is the same name that is used for the <strong>PSTN Usage</strong> setting in the location policy.</span></span></p></li>
-<li><p><span data-ttu-id="e857a-121">이전 단계에서 만든 PSTN 사용 레코드에 대 한 음성 경로를 만들거나 할당 한 다음 gateway 특성을 E9-1-1 SIP 트렁크 또는 ELIN gateway로 가리킵니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-121">Create or assign a voice route to the PSTN usage record created in the previous step and then point the gateway attribute to the E9-1-1 SIP trunk or ELIN gateway.</span></span></p></li>
-<li><p><span data-ttu-id="e857a-122">SIP 트렁크 E9-1-1 서비스 공급자의 경우 SIP를 통해 E9-1-1 통화를 처리할 트렁크를 설정 하 여 <strong>get-cstrunkconfiguration-EnablePIDFLOSupport</strong> cmdlet을 사용 하 여 pidf-로 데이터를 전달 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-122">For a SIP trunk E9-1-1 service provider, set the trunk that will be handling E9-1-1 calls over the SIP to pass PIDF-LO data by using the <strong>Set-CsTrunkConfiguration –EnablePIDFLOSupport</strong> cmdlet.</span></span></p></li>
-<li><p><span data-ttu-id="e857a-123">SIP 트렁크 E9-1-1 서비스 공급자의 경우 E9-1-1 서비스 공급자의 SIP 트렁크에서 처리 하지 않는 통화에 대해 로컬 PSTN 경로를 만들거나 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-123">Optionally, for a SIP trunk E9-1-1 service provider, create or assign a local PSTN route for calls that are not handled by the E9-1-1 service provider’s SIP trunk.</span></span> <span data-ttu-id="e857a-124">E9-1-1 서비스 공급자에 대 한 연결을 사용할 수 없는 경우이 경로가 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-124">This route will be used if the connection to the E9-1-1 service provider is not available.</span></span> <span data-ttu-id="e857a-125">E9-1-1 서비스 공급자가 지 원하는 경우 911 다이얼 문자열을 국내/지역 긴급 통화 응답 센터 (i/o) 번호로 변환 하는 트렁크 구성 규칙을 게이트웨이에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-125">If supported by your E9-1-1 service provider, assign a trunk configuration rule to the gateway that translates the 911 dial string into the direct inward dialing (DID) number of the national/regional Emergency Call Response Center (ECRC).</span></span></p></li>
+<li><p><span data-ttu-id="a021a-119">새 PSTN 사용 레코드를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-119">Create a new PSTN usage record.</span></span> <span data-ttu-id="a021a-120">이 이름은 위치 정책의 <strong>PSTN 사용</strong> 설정에 사용 되는 이름과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-120">This is the same name that is used for the <strong>PSTN Usage</strong> setting in the location policy.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-121">이전 단계에서 만든 PSTN 사용 레코드에 대 한 음성 경로를 만들거나 할당 한 다음 gateway 특성을 E9-1-1 SIP 트렁크 또는 ELIN gateway로 가리킵니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-121">Create or assign a voice route to the PSTN usage record created in the previous step and then point the gateway attribute to the E9-1-1 SIP trunk or ELIN gateway.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-122">SIP 트렁크 E9-1-1 서비스 공급자의 경우 SIP를 통해 E9-1-1 통화를 처리할 트렁크를 설정 하 여 <strong>get-cstrunkconfiguration-EnablePIDFLOSupport</strong> cmdlet을 사용 하 여 pidf-로 데이터를 전달 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-122">For a SIP trunk E9-1-1 service provider, set the trunk that will be handling E9-1-1 calls over the SIP to pass PIDF-LO data by using the <strong>Set-CsTrunkConfiguration –EnablePIDFLOSupport</strong> cmdlet.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-123">SIP 트렁크 E9-1-1 서비스 공급자의 경우 E9-1-1 서비스 공급자의 SIP 트렁크에서 처리 하지 않는 통화에 대해 로컬 PSTN 경로를 만들거나 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-123">Optionally, for a SIP trunk E9-1-1 service provider, create or assign a local PSTN route for calls that are not handled by the E9-1-1 service provider’s SIP trunk.</span></span> <span data-ttu-id="a021a-124">E9-1-1 서비스 공급자에 대 한 연결을 사용할 수 없는 경우이 경로가 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-124">This route will be used if the connection to the E9-1-1 service provider is not available.</span></span> <span data-ttu-id="a021a-125">E9-1-1 서비스 공급자가 지 원하는 경우 911 다이얼 문자열을 국내/지역 긴급 통화 응답 센터 (i/o) 번호로 변환 하는 트렁크 구성 규칙을 게이트웨이에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-125">If supported by your E9-1-1 service provider, assign a trunk configuration rule to the gateway that translates the 911 dial string into the direct inward dialing (DID) number of the national/regional Emergency Call Response Center (ECRC).</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="e857a-126">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="e857a-126">CSVoiceAdmin</span></span></p></td>
-<td><p><span data-ttu-id="e857a-127"><a href="lync-server-2013-configure-an-e9-1-1-voice-route.md">Lync Server 2013에서 E9-1-1 음성 경로 구성</a></span><span class="sxs-lookup"><span data-stu-id="e857a-127"><a href="lync-server-2013-configure-an-e9-1-1-voice-route.md">Configure an E9-1-1 voice route in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a021a-126">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="a021a-126">CSVoiceAdmin</span></span></p></td>
+<td><p><span data-ttu-id="a021a-127"><a href="lync-server-2013-configure-an-e9-1-1-voice-route.md">Lync Server 2013에서 E9-1-1 음성 경로 구성</a></span><span class="sxs-lookup"><span data-stu-id="a021a-127"><a href="lync-server-2013-configure-an-e9-1-1-voice-route.md">Configure an E9-1-1 voice route in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e857a-128">위치 정책을 만들고 사용자 및 서브넷에 할당</span><span class="sxs-lookup"><span data-stu-id="e857a-128">Create location policies and assign them to users and subnets</span></span></p></td>
+<td><p><span data-ttu-id="a021a-128">위치 정책을 만들고 사용자 및 서브넷에 할당</span><span class="sxs-lookup"><span data-stu-id="a021a-128">Create location policies and assign them to users and subnets</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="e857a-129">전역 위치 정책을 검토 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-129">Review the global location policy.</span></span></p></li>
-<li><p><span data-ttu-id="e857a-130">사용자 수준 범위로 위치 정책을 만듭니다. 또는 조직에 응급 용도가 서로 다른 사이트가 둘 이상 있는 경우 네트워크 수준 범위를 사용 하 여 위치 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-130">Create a location policy with a user-level scope; or, if the organization has more than one site with different emergency usages, create a location policy with a network-level scope.</span></span></p></li>
-<li><p><span data-ttu-id="e857a-131">네트워크 사이트에 위치 정책을 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-131">Assign the location policy to network sites.</span></span></p></li>
-<li><p><span data-ttu-id="e857a-132">네트워크 사이트에 적절 한 서브넷을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-132">Add the appropriate subnets to the network site.</span></span></p></li>
-<li><p><span data-ttu-id="e857a-133">반드시 위치 정책을 사용자 정책에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-133">(Optional) Assign the location policy to user policies.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-129">전역 위치 정책을 검토 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-129">Review the global location policy.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-130">사용자 수준 범위로 위치 정책을 만듭니다. 또는 조직에 응급 용도가 서로 다른 사이트가 둘 이상 있는 경우 네트워크 수준 범위를 사용 하 여 위치 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-130">Create a location policy with a user-level scope; or, if the organization has more than one site with different emergency usages, create a location policy with a network-level scope.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-131">네트워크 사이트에 위치 정책을 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-131">Assign the location policy to network sites.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-132">네트워크 사이트에 적절 한 서브넷을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-132">Add the appropriate subnets to the network site.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-133">반드시 위치 정책을 사용자 정책에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-133">(Optional) Assign the location policy to user policies.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="e857a-134">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="e857a-134">CSVoiceAdmin</span></span></p>
-<p><span data-ttu-id="e857a-135">CSLocationAdmin (위치 정책 만들기 제외)</span><span class="sxs-lookup"><span data-stu-id="e857a-135">CSLocationAdmin (except for creating Location Policies)</span></span></p></td>
-<td><p><span data-ttu-id="e857a-136"><a href="lync-server-2013-create-location-policies.md">Lync Server 2013의 위치 정책 만들기</a></span><span class="sxs-lookup"><span data-stu-id="e857a-136"><a href="lync-server-2013-create-location-policies.md">Create location policies in Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="e857a-137"><a href="lync-server-2013-add-a-location-policy-to-a-network-site.md">Lync Server 2013에서 네트워크 사이트에 위치 정책 추가</a></span><span class="sxs-lookup"><span data-stu-id="e857a-137"><a href="lync-server-2013-add-a-location-policy-to-a-network-site.md">Add a location policy to a network site in Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="e857a-138"><a href="lync-server-2013-associate-subnets-with-network-sites-for-e9-1-1.md">Lync Server 2013에서 E9-1-1에 대 한 네트워크 사이트와 서브넷 연결</a></span><span class="sxs-lookup"><span data-stu-id="e857a-138"><a href="lync-server-2013-associate-subnets-with-network-sites-for-e9-1-1.md">Associate subnets with network sites for E9-1-1 in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a021a-134">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="a021a-134">CSVoiceAdmin</span></span></p>
+<p><span data-ttu-id="a021a-135">CSLocationAdmin (위치 정책 만들기 제외)</span><span class="sxs-lookup"><span data-stu-id="a021a-135">CSLocationAdmin (except for creating Location Policies)</span></span></p></td>
+<td><p><span data-ttu-id="a021a-136"><a href="lync-server-2013-create-location-policies.md">Lync Server 2013의 위치 정책 만들기</a></span><span class="sxs-lookup"><span data-stu-id="a021a-136"><a href="lync-server-2013-create-location-policies.md">Create location policies in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="a021a-137"><a href="lync-server-2013-add-a-location-policy-to-a-network-site.md">Lync Server 2013에서 네트워크 사이트에 위치 정책 추가</a></span><span class="sxs-lookup"><span data-stu-id="a021a-137"><a href="lync-server-2013-add-a-location-policy-to-a-network-site.md">Add a location policy to a network site in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="a021a-138"><a href="lync-server-2013-associate-subnets-with-network-sites-for-e9-1-1.md">Lync Server 2013에서 E9-1-1에 대 한 네트워크 사이트와 서브넷 연결</a></span><span class="sxs-lookup"><span data-stu-id="a021a-138"><a href="lync-server-2013-associate-subnets-with-network-sites-for-e9-1-1.md">Associate subnets with network sites for E9-1-1 in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e857a-139">위치 데이터베이스 구성</span><span class="sxs-lookup"><span data-stu-id="e857a-139">Configure the location database</span></span></p></td>
+<td><p><span data-ttu-id="a021a-139">위치 데이터베이스 구성</span><span class="sxs-lookup"><span data-stu-id="a021a-139">Configure the location database</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="e857a-140">데이터베이스를 위치에 대한 네트워크 요소 매핑으로 채웁니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-140">Populate the database with a mapping of network elements to locations.</span></span></p></li>
-<li><p><span data-ttu-id="e857a-141">ELIN 게이트웨이의 경우에는 &lt;CompanyName&gt; 열에 elin를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-141">For ELIN gateways, add the ELINs to the &lt;CompanyName&gt; column.</span></span></p></li>
-<li><p><span data-ttu-id="e857a-142">주소 유효성 검사를 위해 E9-1-1 서비스 공급자에 대 한 연결을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-142">Configure the connection to the E9-1-1 service provider for validating addresses.</span></span></p></li>
-<li><p><span data-ttu-id="e857a-143">E9-1-1 서비스 공급자를 사용 하 여 주소 유효성을 검사 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-143">Validate the addresses with the E9-1-1 service provider.</span></span></p></li>
-<li><p><span data-ttu-id="e857a-144">업데이트된 데이터베이스를 게시합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-144">Publish the updated database.</span></span></p></li>
-<li><p><span data-ttu-id="e857a-145">ELIN 게이트웨이의 경우 PSTN 캐리어의 ALI (자동 위치 식별) 데이터베이스에 Elin을 업로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-145">For ELIN gateways, upload the ELINs to your PSTN carrier's Automatic Location Identification (ALI) database.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-140">데이터베이스를 위치에 대한 네트워크 요소 매핑으로 채웁니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-140">Populate the database with a mapping of network elements to locations.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-141">ELIN 게이트웨이의 경우에는 &lt;CompanyName&gt; 열에 elin를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-141">For ELIN gateways, add the ELINs to the &lt;CompanyName&gt; column.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-142">주소 유효성 검사를 위해 E9-1-1 서비스 공급자에 대 한 연결을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-142">Configure the connection to the E9-1-1 service provider for validating addresses.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-143">E9-1-1 서비스 공급자를 사용 하 여 주소 유효성을 검사 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-143">Validate the addresses with the E9-1-1 service provider.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-144">업데이트된 데이터베이스를 게시합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-144">Publish the updated database.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-145">ELIN 게이트웨이의 경우 PSTN 캐리어의 ALI (자동 위치 식별) 데이터베이스에 Elin을 업로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-145">For ELIN gateways, upload the ELINs to your PSTN carrier's Automatic Location Identification (ALI) database.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="e857a-146">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="e857a-146">CSVoiceAdmin</span></span></p>
-<p><span data-ttu-id="e857a-147">CSLocationAdmin</span><span class="sxs-lookup"><span data-stu-id="e857a-147">CSLocationAdmin</span></span></p></td>
-<td><p><span data-ttu-id="e857a-148"><a href="lync-server-2013-configure-the-location-database.md">Lync Server 2013에서 위치 데이터베이스 구성</a></span><span class="sxs-lookup"><span data-stu-id="e857a-148"><a href="lync-server-2013-configure-the-location-database.md">Configure the location database in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a021a-146">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="a021a-146">CSVoiceAdmin</span></span></p>
+<p><span data-ttu-id="a021a-147">CSLocationAdmin</span><span class="sxs-lookup"><span data-stu-id="a021a-147">CSLocationAdmin</span></span></p></td>
+<td><p><span data-ttu-id="a021a-148"><a href="lync-server-2013-configure-the-location-database.md">Lync Server 2013에서 위치 데이터베이스 구성</a></span><span class="sxs-lookup"><span data-stu-id="a021a-148"><a href="lync-server-2013-configure-the-location-database.md">Configure the location database in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e857a-149">고급 기능 구성 (선택 사항)</span><span class="sxs-lookup"><span data-stu-id="e857a-149">Configure Advanced Features (optional)</span></span></p></td>
+<td><p><span data-ttu-id="a021a-149">고급 기능 구성 (선택 사항)</span><span class="sxs-lookup"><span data-stu-id="a021a-149">Configure Advanced Features (optional)</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="e857a-150">SNMP 응용 프로그램에 대 한 URL을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-150">Configure the URL for the SNMP application.</span></span></p></li>
-<li><p><span data-ttu-id="e857a-151">보조 위치 정보 서비스의 위치에 대 한 URL을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="e857a-151">Configure the URL for the location of the Secondary Location Information service.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-150">SNMP 응용 프로그램에 대 한 URL을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-150">Configure the URL for the SNMP application.</span></span></p></li>
+<li><p><span data-ttu-id="a021a-151">보조 위치 정보 서비스의 위치에 대 한 URL을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="a021a-151">Configure the URL for the location of the Secondary Location Information service.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="e857a-152">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="e857a-152">CSVoiceAdmin</span></span></p></td>
-<td><p><span data-ttu-id="e857a-153"><a href="lync-server-2013-configure-an-snmp-application.md">Lync Server 2013에서 SNMP 응용 프로그램 구성</a></span><span class="sxs-lookup"><span data-stu-id="e857a-153"><a href="lync-server-2013-configure-an-snmp-application.md">Configure an SNMP application in Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="e857a-154"><a href="lync-server-2013-configure-a-secondary-location-information-service.md">Lync Server 2013에서 보조 위치 정보 서비스 구성</a></span><span class="sxs-lookup"><span data-stu-id="e857a-154"><a href="lync-server-2013-configure-a-secondary-location-information-service.md">Configure a secondary Location Information service in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a021a-152">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="a021a-152">CSVoiceAdmin</span></span></p></td>
+<td><p><span data-ttu-id="a021a-153"><a href="lync-server-2013-configure-an-snmp-application.md">Lync Server 2013에서 SNMP 응용 프로그램 구성</a></span><span class="sxs-lookup"><span data-stu-id="a021a-153"><a href="lync-server-2013-configure-an-snmp-application.md">Configure an SNMP application in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="a021a-154"><a href="lync-server-2013-configure-a-secondary-location-information-service.md">Lync Server 2013에서 보조 위치 정보 서비스 구성</a></span><span class="sxs-lookup"><span data-stu-id="a021a-154"><a href="lync-server-2013-configure-a-secondary-location-information-service.md">Configure a secondary Location Information service in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185374
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a0b6d6bece5fa107e0fe130aab983458acbc0a4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3b4a833736368fe6060dad4fbb62e6a528e91b6c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007938"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136485"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-call-park-in-lync-server-2013"></a><span data-ttu-id="ada48-102">Lync Server 2013의 통화 대기에 사용 되는 구성 요소</span><span class="sxs-lookup"><span data-stu-id="ada48-102">Components used by Call Park in Lync Server 2013</span></span>
+# <a name="components-used-by-call-park-in-lync-server-2013"></a><span data-ttu-id="a4718-102">Lync Server 2013의 통화 대기에 사용 되는 구성 요소</span><span class="sxs-lookup"><span data-stu-id="a4718-102">Components used by Call Park in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42007938"
 
 <span> </span>
 
-<span data-ttu-id="ada48-103">_**마지막으로 수정 된 항목:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="ada48-103">_**Topic Last Modified:** 2012-09-13_</span></span>
+<span data-ttu-id="a4718-103">_**마지막으로 수정 된 항목:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="a4718-103">_**Topic Last Modified:** 2012-09-13_</span></span>
 
-<span data-ttu-id="ada48-104">통화 대기 응용 프로그램은 Enterprise Voice를 배포할 때 자동으로 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ada48-104">The Call Park application is automatically installed when you deploy Enterprise Voice.</span></span> <span data-ttu-id="ada48-105">음성 정책을 구성 하 여 통화 대기를 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="ada48-105">You enable Call Park by configuring voice policy.</span></span> <span data-ttu-id="ada48-106">다음 Lync Server 2013 구성 요소는 통화 대기 응용 프로그램을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="ada48-106">The following Lync Server 2013 components support the Call Park application:</span></span>
+<span data-ttu-id="a4718-104">통화 대기 응용 프로그램은 Enterprise Voice를 배포할 때 자동으로 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4718-104">The Call Park application is automatically installed when you deploy Enterprise Voice.</span></span> <span data-ttu-id="a4718-105">음성 정책을 구성 하 여 통화 대기를 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4718-105">You enable Call Park by configuring voice policy.</span></span> <span data-ttu-id="a4718-106">다음 Lync Server 2013 구성 요소는 통화 대기 응용 프로그램을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4718-106">The following Lync Server 2013 components support the Call Park application:</span></span>
 
-  - <span data-ttu-id="ada48-107">**응용 프로그램 서비스**   응용 프로그램 서비스는 통화 대기 응용 프로그램 등의 통합 통신 응용 프로그램을 배포, 호스팅 및 관리 하기 위한 플랫폼을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="ada48-107">**Application service**   Application service provides a platform for deploying, hosting, and managing unified communications applications, such as the Call Park application.</span></span> <span data-ttu-id="ada48-108">응용 프로그램 서비스는 프런트 엔드 풀의 모든 프런트 엔드 서버와 모든 Standard Edition 서버에 자동으로 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ada48-108">Application service is automatically installed on every Front End Server in a Front End pool and on every Standard Edition server.</span></span>
+  - <span data-ttu-id="a4718-107">**응용 프로그램 서비스**   응용 프로그램 서비스는 통화 대기 응용 프로그램 등의 통합 통신 응용 프로그램을 배포, 호스팅 및 관리 하기 위한 플랫폼을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4718-107">**Application service**   Application service provides a platform for deploying, hosting, and managing unified communications applications, such as the Call Park application.</span></span> <span data-ttu-id="a4718-108">응용 프로그램 서비스는 프런트 엔드 풀의 모든 프런트 엔드 서버와 모든 Standard Edition 서버에 자동으로 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4718-108">Application service is automatically installed on every Front End Server in a Front End pool and on every Standard Edition server.</span></span>
 
-  - <span data-ttu-id="ada48-109">**통화 대기 응용**   프로그램 통화 대기 응용 프로그램은 응용 프로그램 서비스에서 호스팅하는 통합 통신 응용 프로그램 중 하나입니다.</span><span class="sxs-lookup"><span data-stu-id="ada48-109">**Call Park application**   The Call Park application is one of the unified communications applications that are hosted by Application service.</span></span> <span data-ttu-id="ada48-110">Enterprise Voice를 배포할 때 자동으로 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ada48-110">It is included automatically when you deploy Enterprise Voice.</span></span> <span data-ttu-id="ada48-111">통화 대기 공원를 검색 하 고 통화 대기 궤도를 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="ada48-111">Call Park parks and retrieves calls and manages call park orbits.</span></span>
+  - <span data-ttu-id="a4718-109">**통화 대기 응용**   프로그램 통화 대기 응용 프로그램은 응용 프로그램 서비스에서 호스팅하는 통합 통신 응용 프로그램 중 하나입니다.</span><span class="sxs-lookup"><span data-stu-id="a4718-109">**Call Park application**   The Call Park application is one of the unified communications applications that are hosted by Application service.</span></span> <span data-ttu-id="a4718-110">Enterprise Voice를 배포할 때 자동으로 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4718-110">It is included automatically when you deploy Enterprise Voice.</span></span> <span data-ttu-id="a4718-111">통화 대기 공원를 검색 하 고 통화 대기 궤도를 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4718-111">Call Park parks and retrieves calls and manages call park orbits.</span></span>
 
-  - <span data-ttu-id="ada48-112">**음악-온-오프-파일**   음악을 사용 하는 경우 통화가 대기 중일 때 음악 파일이 재생 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ada48-112">**Music-on hold-file**   If music in enabled, the music file is played while a call is parked.</span></span> <span data-ttu-id="ada48-113">기본 음악 파일은 통화 대기 응용 프로그램을 설치할 때 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ada48-113">A default music file is included when the Call Park application is installed.</span></span>
+  - <span data-ttu-id="a4718-112">**음악-온-오프-파일**   음악을 사용 하는 경우 통화가 대기 중일 때 음악 파일이 재생 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4718-112">**Music-on hold-file**   If music in enabled, the music file is played while a call is parked.</span></span> <span data-ttu-id="a4718-113">기본 음악 파일은 통화 대기 응용 프로그램을 설치할 때 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4718-113">A default music file is included when the Call Park application is installed.</span></span>
 
-  - <span data-ttu-id="ada48-114">**파일 저장소**   통화 대기 응용 프로그램은 파일 저장소를 사용 하 여 사용자 지정 오디오 파일을 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="ada48-114">**File Store**   The Call Park application uses File Store to hold custom audio files.</span></span>
+  - <span data-ttu-id="a4718-114">**파일 저장소**   통화 대기 응용 프로그램은 파일 저장소를 사용 하 여 사용자 지정 오디오 파일을 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4718-114">**File Store**   The Call Park application uses File Store to hold custom audio files.</span></span>
 
-  - <span data-ttu-id="ada48-115">**Lync server 제어판**   lync server 제어판을 사용 하 여 통화 대기 궤도 테이블을 구성 하 고 사용자에 대해 통화 대기를 사용 하도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ada48-115">**Lync Server Control Panel**   You can use Lync Server Control Panel to configure the call park orbit table and to enable Call Park for users.</span></span>
+  - <span data-ttu-id="a4718-115">**Lync server 제어판**   lync server 제어판을 사용 하 여 통화 대기 궤도 테이블을 구성 하 고 사용자에 대해 통화 대기를 사용 하도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4718-115">**Lync Server Control Panel**   You can use Lync Server Control Panel to configure the call park orbit table and to enable Call Park for users.</span></span>
 
-  - <span data-ttu-id="ada48-116">**Lync server 관리 셸**   모든 통화 대기 응용 프로그램 구성은 Lync Server 관리 셸 cmdlet을 사용 하 여 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ada48-116">**Lync Server Management Shell**   All Call Park application configuration can be performed by using Lync Server Management Shell cmdlets.</span></span>
+  - <span data-ttu-id="a4718-116">**Lync server 관리 셸**   모든 통화 대기 응용 프로그램 구성은 Lync Server 관리 셸 cmdlet을 사용 하 여 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4718-116">**Lync Server Management Shell**   All Call Park application configuration can be performed by using Lync Server Management Shell cmdlets.</span></span>
 
 </div>
 

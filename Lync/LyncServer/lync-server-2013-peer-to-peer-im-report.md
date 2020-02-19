@@ -12,20 +12,20 @@ ms:contentKeyID: 48183533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b74f22e422539a8d7de1f2f7bad29a72d43646a5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7e2cf987c40279a4854b9fe776c1585247d24e55
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41989293"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140021"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-im-report-in-lync-server-2013"></a><span data-ttu-id="a601e-102">Lync Server 2013의 피어 투 피어 IM 보고서</span><span class="sxs-lookup"><span data-stu-id="a601e-102">Peer-to-Peer IM Report in Lync Server 2013</span></span>
+# <a name="peer-to-peer-im-report-in-lync-server-2013"></a><span data-ttu-id="918d3-102">Lync Server 2013의 피어 투 피어 IM 보고서</span><span class="sxs-lookup"><span data-stu-id="918d3-102">Peer-to-Peer IM Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41989293"
 
 <span> </span>
 
-<span data-ttu-id="a601e-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="a601e-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="918d3-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="918d3-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="a601e-p101">피어-투-피어 IM 보고서는 풀과 인증 유형별로 구분된 피어-투-피어 IM(인스턴트 메시징) 세션에 대한 추세 정보를 제공합니다. 이 보고서는 지정된 기간(예: 일별 또는 시간별) 동안 진행된 세션의 총 수를 표시할 수도 있고, 해당 기간 동안 발송된 인스턴트 메시지의 총 수를 표시할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-p101">The Peer-to-Peer IM Report provides trend information about peer-to-peer instant messaging (IM) sessions, broken down by pool and by authentication type. The report can show either the total number of sessions held during the specified time period (for example, day-by-day or hour-by-hour), or it can show the total number of instant messages sent during that time period.</span></span>
+<span data-ttu-id="918d3-p101">피어-투-피어 IM 보고서는 풀과 인증 유형별로 구분된 피어-투-피어 IM(인스턴트 메시징) 세션에 대한 추세 정보를 제공합니다. 이 보고서는 지정된 기간(예: 일별 또는 시간별) 동안 진행된 세션의 총 수를 표시할 수도 있고, 해당 기간 동안 발송된 인스턴트 메시지의 총 수를 표시할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-p101">The Peer-to-Peer IM Report provides trend information about peer-to-peer instant messaging (IM) sessions, broken down by pool and by authentication type. The report can show either the total number of sessions held during the specified time period (for example, day-by-day or hour-by-hour), or it can show the total number of instant messages sent during that time period.</span></span>
 
 <div>
 
-## <a name="accessing-the-peer-to-peer-im-report"></a><span data-ttu-id="a601e-106">피어-투-피어 IM 보고서 액세스</span><span class="sxs-lookup"><span data-stu-id="a601e-106">Accessing the Peer-to-Peer IM Report</span></span>
+## <a name="accessing-the-peer-to-peer-im-report"></a><span data-ttu-id="918d3-106">피어-투-피어 IM 보고서 액세스</span><span class="sxs-lookup"><span data-stu-id="918d3-106">Accessing the Peer-to-Peer IM Report</span></span>
 
-<span data-ttu-id="a601e-107">[Lync Server 2013에서 피어 투 피어 활동 요약 보고서](lync-server-2013-peer-to-peer-activity-summary-report.md) 를 열고 다음 메트릭 중 하나를 클릭 하 여 피어 투 피어 IM 보고서에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-107">You can access the Peer-to-Peer IM Report only by opening the [Peer-to-Peer Activity Summary Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md) and then clicking either of the following metrics:</span></span>
+<span data-ttu-id="918d3-107">[Lync Server 2013에서 피어 투 피어 활동 요약 보고서](lync-server-2013-peer-to-peer-activity-summary-report.md) 를 열고 다음 메트릭 중 하나를 클릭 하 여 피어 투 피어 IM 보고서에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-107">You can access the Peer-to-Peer IM Report only by opening the [Peer-to-Peer Activity Summary Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md) and then clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="a601e-108">총 피어 투 피어 IM 세션</span><span class="sxs-lookup"><span data-stu-id="a601e-108">Total peer-to-peer IM sessions</span></span>
+  - <span data-ttu-id="918d3-108">총 피어 투 피어 IM 세션</span><span class="sxs-lookup"><span data-stu-id="918d3-108">Total peer-to-peer IM sessions</span></span>
 
-  - <span data-ttu-id="a601e-109">총 피어 투 피어 IM 메시지</span><span class="sxs-lookup"><span data-stu-id="a601e-109">Total peer-to-peer IM messages</span></span>
+  - <span data-ttu-id="918d3-109">총 피어 투 피어 IM 메시지</span><span class="sxs-lookup"><span data-stu-id="918d3-109">Total peer-to-peer IM messages</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-peer-to-peer-im-report"></a><span data-ttu-id="a601e-110">피어 투 피어 IM 보고서를 가장 효율적으로 활용</span><span class="sxs-lookup"><span data-stu-id="a601e-110">Making the Best Use of the Peer-to-Peer IM Report</span></span>
+## <a name="making-the-best-use-of-the-peer-to-peer-im-report"></a><span data-ttu-id="918d3-110">피어 투 피어 IM 보고서를 가장 효율적으로 활용</span><span class="sxs-lookup"><span data-stu-id="918d3-110">Making the Best Use of the Peer-to-Peer IM Report</span></span>
 
-<span data-ttu-id="a601e-p102">기본적으로 피어 투 피어 IM 보고서에는 시간별(또는 설정에 따라 일별) 메시지 수가 표시됩니다. 그러나 특정일의 시간당 세션 수를 표시할 수도 있습니다. 이렇게 하려면 보고서 창 오른쪽 위에서 **매개 변수 표시/숨기기**를 클릭하고 **보고서 작성자** 목록에서 **세션 수**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-p102">By default, the Peer-to-Peer IM Report shows you the message count per-hour (or day, depending on your settings). However, you can also choose to view the day by sessions per hour. To do that, click **Hide/Show Parameters** in the upper-right corner of the Reports window, and then click **Session Count** from the **Report by** list.</span></span>
+<span data-ttu-id="918d3-p102">기본적으로 피어 투 피어 IM 보고서에는 시간별(또는 설정에 따라 일별) 메시지 수가 표시됩니다. 그러나 특정일의 시간당 세션 수를 표시할 수도 있습니다. 이렇게 하려면 보고서 창 오른쪽 위에서 **매개 변수 표시/숨기기**를 클릭하고 **보고서 작성자** 목록에서 **세션 수**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-p102">By default, the Peer-to-Peer IM Report shows you the message count per-hour (or day, depending on your settings). However, you can also choose to view the day by sessions per hour. To do that, click **Hide/Show Parameters** in the upper-right corner of the Reports window, and then click **Session Count** from the **Report by** list.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="a601e-114">필터</span><span class="sxs-lookup"><span data-stu-id="a601e-114">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="918d3-114">필터</span><span class="sxs-lookup"><span data-stu-id="918d3-114">Filters</span></span>
 
-<span data-ttu-id="a601e-p103">필터를 사용하면 여러 방식으로 반환된 데이터를 보거나 보다 세부적으로 대상화된 데이터 집합을 반환할 수 있습니다. 다음 표에서는 피어 투 피어 IM 보고서에 사용할 수 있는 필터를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-p103">Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Peer-to-Peer IM Report.</span></span>
+<span data-ttu-id="918d3-p103">필터를 사용하면 여러 방식으로 반환된 데이터를 보거나 보다 세부적으로 대상화된 데이터 집합을 반환할 수 있습니다. 다음 표에서는 피어 투 피어 IM 보고서에 사용할 수 있는 필터를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-p103">Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Peer-to-Peer IM Report.</span></span>
 
-### <a name="peer-to-peer-im-report-filters"></a><span data-ttu-id="a601e-117">피어 투 피어 IM 보고서 필터</span><span class="sxs-lookup"><span data-stu-id="a601e-117">Peer-to-Peer IM Report Filters</span></span>
+### <a name="peer-to-peer-im-report-filters"></a><span data-ttu-id="918d3-117">피어 투 피어 IM 보고서 필터</span><span class="sxs-lookup"><span data-stu-id="918d3-117">Peer-to-Peer IM Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -74,48 +74,48 @@ ms.locfileid: "41989293"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a601e-118">이름</span><span class="sxs-lookup"><span data-stu-id="a601e-118">Name</span></span></th>
-<th><span data-ttu-id="a601e-119">설명</span><span class="sxs-lookup"><span data-stu-id="a601e-119">Description</span></span></th>
+<th><span data-ttu-id="918d3-118">이름</span><span class="sxs-lookup"><span data-stu-id="918d3-118">Name</span></span></th>
+<th><span data-ttu-id="918d3-119">설명</span><span class="sxs-lookup"><span data-stu-id="918d3-119">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a601e-120"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="a601e-120"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="a601e-p104">시간 범위의 시작 날짜 및 시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜와 시간을 모두 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-p104">Start date and time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="a601e-123">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="a601e-123">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="a601e-p105">시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="a601e-126">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="a601e-126">7/7/2012</span></span></p>
-<p><span data-ttu-id="a601e-127">주 또는 월별로 보려면 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-127">To view by week or by month, enter a date that falls anywhere within the week or month (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="a601e-128">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="a601e-128">7/3/2012</span></span></p>
-<p><span data-ttu-id="a601e-129">주는 항상 일요일부터 토요일까지입니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-129">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="918d3-120"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="918d3-120"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="918d3-p104">시간 범위의 시작 날짜 및 시간입니다. 시간별 데이터를 보려면 다음과 같이 시작 날짜와 시간을 모두 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-p104">Start date and time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="918d3-123">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="918d3-123">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="918d3-p105">시작 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시부터 시작됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="918d3-126">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="918d3-126">7/7/2012</span></span></p>
+<p><span data-ttu-id="918d3-127">주 또는 월별로 보려면 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-127">To view by week or by month, enter a date that falls anywhere within the week or month (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="918d3-128">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="918d3-128">7/3/2012</span></span></p>
+<p><span data-ttu-id="918d3-129">주는 항상 일요일부터 토요일까지입니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-129">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a601e-130"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="a601e-130"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="a601e-p106">시간 범위의 종료 날짜 및 시간입니다. 시간별 데이터를 보려면 다음과 같이 종료 날짜 및 시간을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-p106">End date and time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="a601e-133">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="a601e-133">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="a601e-p107">종료 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시에 종료됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="a601e-136">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="a601e-136">7/7/2012</span></span></p>
-<p><span data-ttu-id="a601e-137">주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-137">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="a601e-138">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="a601e-138">7/3/2012</span></span></p>
-<p><span data-ttu-id="a601e-139">주는 항상 일요일부터 토요일까지로 실행됩니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-139">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="918d3-130"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="918d3-130"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="918d3-p106">시간 범위의 종료 날짜 및 시간입니다. 시간별 데이터를 보려면 다음과 같이 종료 날짜 및 시간을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-p106">End date and time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="918d3-133">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="918d3-133">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="918d3-p107">종료 시간을 입력하지 않으면 보고서가 자동으로 지정된 날짜의 오전 12시에 종료됩니다. 일별 데이터를 보려면 날짜만 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="918d3-136">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="918d3-136">7/7/2012</span></span></p>
+<p><span data-ttu-id="918d3-137">주 또는 월별로 보려면 데이터를 보려는 해당 주 또는 월에 속하는 날짜를 입력합니다. 주 또는 월의 첫 번째 날짜를 입력할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-137">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="918d3-138">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="918d3-138">7/3/2012</span></span></p>
+<p><span data-ttu-id="918d3-139">주는 항상 일요일부터 토요일까지로 실행됩니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-139">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a601e-140"><strong>간격당</strong></span><span class="sxs-lookup"><span data-stu-id="a601e-140"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="a601e-p108">시간 간격입니다. 다음 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-p108">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="918d3-140"><strong>간격당</strong></span><span class="sxs-lookup"><span data-stu-id="918d3-140"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="918d3-p108">시간 간격입니다. 다음 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-p108">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="a601e-143">시간별(최대 25시간 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="a601e-143">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="a601e-144">일별(최대 31일 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="a601e-144">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="a601e-145">주별(최대 12주 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="a601e-145">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="a601e-146">월별(최대 12개월 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="a601e-146">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="918d3-143">시간별(최대 25시간 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="918d3-143">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="918d3-144">일별(최대 31일 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="918d3-144">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="918d3-145">주별(최대 12주 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="918d3-145">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="918d3-146">월별(최대 12개월 표시 가능)</span><span class="sxs-lookup"><span data-stu-id="918d3-146">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="a601e-p109">시작 및 종료 날짜가 선택한 간격에 허용되는 최대 값 수를 초과하면 시작 날짜로부터 최대 값 수만 표시됩니다. 예를 들어 일별 간격을 선택하는 경우 시작 날짜가 2012/8/7이고 종료 날짜가 2012/9/28이면 2012/8/7 오전 12:00부터 2012/9/7 오전 12:00까지 총 31일의 데이터만 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-p109">If the start and end dates exceed the maximum number of values allowed for the selected interval then only the maximum number of values (starting from the start date) are displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="918d3-p109">시작 및 종료 날짜가 선택한 간격에 허용되는 최대 값 수를 초과하면 시작 날짜로부터 최대 값 수만 표시됩니다. 예를 들어 일별 간격을 선택하는 경우 시작 날짜가 2012/8/7이고 종료 날짜가 2012/9/28이면 2012/8/7 오전 12:00부터 2012/9/7 오전 12:00까지 총 31일의 데이터만 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-p109">If the start and end dates exceed the maximum number of values allowed for the selected interval then only the maximum number of values (starting from the start date) are displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a601e-149"><strong>보고서 작성자</strong></span><span class="sxs-lookup"><span data-stu-id="a601e-149"><strong>Report by</strong></span></span></p></td>
-<td><p><span data-ttu-id="a601e-p110">보고서에 사용할 값을 나타냅니다. 다음 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-p110">Indicates the values to be used in the report. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="918d3-149"><strong>보고서 작성자</strong></span><span class="sxs-lookup"><span data-stu-id="918d3-149"><strong>Report by</strong></span></span></p></td>
+<td><p><span data-ttu-id="918d3-p110">보고서에 사용할 값을 나타냅니다. 다음 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-p110">Indicates the values to be used in the report. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="a601e-152">세션 수</span><span class="sxs-lookup"><span data-stu-id="a601e-152">Session count</span></span></p></li>
-<li><p><span data-ttu-id="a601e-153">메시지 수</span><span class="sxs-lookup"><span data-stu-id="a601e-153">Message count</span></span></p></li>
+<li><p><span data-ttu-id="918d3-152">세션 수</span><span class="sxs-lookup"><span data-stu-id="918d3-152">Session count</span></span></p></li>
+<li><p><span data-ttu-id="918d3-153">메시지 수</span><span class="sxs-lookup"><span data-stu-id="918d3-153">Message count</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -126,11 +126,11 @@ ms.locfileid: "41989293"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-im-session-by-pool"></a><span data-ttu-id="a601e-154">풀별 피어 투 피어 IM 세션 메트릭</span><span class="sxs-lookup"><span data-stu-id="a601e-154">Metrics for Peer-to-Peer IM Session by Pool</span></span>
+## <a name="metrics-for-peer-to-peer-im-session-by-pool"></a><span data-ttu-id="918d3-154">풀별 피어 투 피어 IM 세션 메트릭</span><span class="sxs-lookup"><span data-stu-id="918d3-154">Metrics for Peer-to-Peer IM Session by Pool</span></span>
 
-<span data-ttu-id="a601e-155">다음 표에서는 피어 투 피어 IM 보고서에서 제공되는 정보를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-155">The following table lists the information provided in the Peer-to-Peer IM Report.</span></span>
+<span data-ttu-id="918d3-155">다음 표에서는 피어 투 피어 IM 보고서에서 제공되는 정보를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-155">The following table lists the information provided in the Peer-to-Peer IM Report.</span></span>
 
-### <a name="metrics-for-peer-to-peer-im-session-by-pool"></a><span data-ttu-id="a601e-156">풀별 피어 투 피어 IM 세션 메트릭</span><span class="sxs-lookup"><span data-stu-id="a601e-156">Metrics for Peer-to-Peer IM Session by Pool</span></span>
+### <a name="metrics-for-peer-to-peer-im-session-by-pool"></a><span data-ttu-id="918d3-156">풀별 피어 투 피어 IM 세션 메트릭</span><span class="sxs-lookup"><span data-stu-id="918d3-156">Metrics for Peer-to-Peer IM Session by Pool</span></span>
 
 <table>
 <colgroup>
@@ -140,26 +140,26 @@ ms.locfileid: "41989293"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a601e-157">이름</span><span class="sxs-lookup"><span data-stu-id="a601e-157">Name</span></span></th>
-<th><span data-ttu-id="a601e-158">이 항목에 대한 정렬 가능 여부</span><span class="sxs-lookup"><span data-stu-id="a601e-158">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="a601e-159">설명</span><span class="sxs-lookup"><span data-stu-id="a601e-159">Description</span></span></th>
+<th><span data-ttu-id="918d3-157">이름</span><span class="sxs-lookup"><span data-stu-id="918d3-157">Name</span></span></th>
+<th><span data-ttu-id="918d3-158">이 항목에 대한 정렬 가능 여부</span><span class="sxs-lookup"><span data-stu-id="918d3-158">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="918d3-159">설명</span><span class="sxs-lookup"><span data-stu-id="918d3-159">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a601e-160"><strong>그룹</strong></span><span class="sxs-lookup"><span data-stu-id="a601e-160"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="a601e-161">아니요</span><span class="sxs-lookup"><span data-stu-id="a601e-161">No</span></span></p></td>
-<td><p><span data-ttu-id="a601e-162">등록자 풀 또는에 지 서버의 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-162">Name of the Registrar pool or Edge Server.</span></span></p></td>
+<td><p><span data-ttu-id="918d3-160"><strong>그룹</strong></span><span class="sxs-lookup"><span data-stu-id="918d3-160"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="918d3-161">아니요</span><span class="sxs-lookup"><span data-stu-id="918d3-161">No</span></span></p></td>
+<td><p><span data-ttu-id="918d3-162">등록자 풀 또는에 지 서버의 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-162">Name of the Registrar pool or Edge Server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a601e-163"><strong>날짜/시간</strong></span><span class="sxs-lookup"><span data-stu-id="a601e-163"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="a601e-164">아니요</span><span class="sxs-lookup"><span data-stu-id="a601e-164">No</span></span></p></td>
-<td><p><span data-ttu-id="a601e-165">세션이 발생한 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-165">Date and time that the sessions took place.</span></span></p></td>
+<td><p><span data-ttu-id="918d3-163"><strong>날짜/시간</strong></span><span class="sxs-lookup"><span data-stu-id="918d3-163"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="918d3-164">아니요</span><span class="sxs-lookup"><span data-stu-id="918d3-164">No</span></span></p></td>
+<td><p><span data-ttu-id="918d3-165">세션이 발생한 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-165">Date and time that the sessions took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a601e-166"><strong>합계</strong></span><span class="sxs-lookup"><span data-stu-id="a601e-166"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="a601e-167">아니요</span><span class="sxs-lookup"><span data-stu-id="a601e-167">No</span></span></p></td>
-<td><p><span data-ttu-id="a601e-168">총 세션 수 또는 총 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-168">Total number of sessions or total message count.</span></span></p></td>
+<td><p><span data-ttu-id="918d3-166"><strong>합계</strong></span><span class="sxs-lookup"><span data-stu-id="918d3-166"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="918d3-167">아니요</span><span class="sxs-lookup"><span data-stu-id="918d3-167">No</span></span></p></td>
+<td><p><span data-ttu-id="918d3-168">총 세션 수 또는 총 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-168">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -169,11 +169,11 @@ ms.locfileid: "41989293"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a><span data-ttu-id="a601e-169">인증 유형별 피어 투 피어 IM 세션 메트릭</span><span class="sxs-lookup"><span data-stu-id="a601e-169">Metrics for Peer-to-Peer IM Session by Authentication Type</span></span>
+## <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a><span data-ttu-id="918d3-169">인증 유형별 피어 투 피어 IM 세션 메트릭</span><span class="sxs-lookup"><span data-stu-id="918d3-169">Metrics for Peer-to-Peer IM Session by Authentication Type</span></span>
 
-<span data-ttu-id="a601e-170">다음 표에서는 피어 투 피어 세션의 참가자가 사용하는 각 인증 유형에 대해 피어 투 피어 IM 보고서에 제공되는 정보를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-170">The following table lists the information provided in the Peer-to-Peer IM Report for each type of authentication used by the participants in a peer-to-peer session.</span></span>
+<span data-ttu-id="918d3-170">다음 표에서는 피어 투 피어 세션의 참가자가 사용하는 각 인증 유형에 대해 피어 투 피어 IM 보고서에 제공되는 정보를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-170">The following table lists the information provided in the Peer-to-Peer IM Report for each type of authentication used by the participants in a peer-to-peer session.</span></span>
 
-### <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a><span data-ttu-id="a601e-171">인증 유형별 피어 투 피어 IM 세션 메트릭</span><span class="sxs-lookup"><span data-stu-id="a601e-171">Metrics for Peer-to-Peer IM Session by Authentication Type</span></span>
+### <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a><span data-ttu-id="918d3-171">인증 유형별 피어 투 피어 IM 세션 메트릭</span><span class="sxs-lookup"><span data-stu-id="918d3-171">Metrics for Peer-to-Peer IM Session by Authentication Type</span></span>
 
 <table>
 <colgroup>
@@ -183,31 +183,31 @@ ms.locfileid: "41989293"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a601e-172">이름</span><span class="sxs-lookup"><span data-stu-id="a601e-172">Name</span></span></th>
-<th><span data-ttu-id="a601e-173">이 항목에 대한 정렬 가능 여부</span><span class="sxs-lookup"><span data-stu-id="a601e-173">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="a601e-174">설명</span><span class="sxs-lookup"><span data-stu-id="a601e-174">Description</span></span></th>
+<th><span data-ttu-id="918d3-172">이름</span><span class="sxs-lookup"><span data-stu-id="918d3-172">Name</span></span></th>
+<th><span data-ttu-id="918d3-173">이 항목에 대한 정렬 가능 여부</span><span class="sxs-lookup"><span data-stu-id="918d3-173">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="918d3-174">설명</span><span class="sxs-lookup"><span data-stu-id="918d3-174">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a601e-175"><strong>인증 유형</strong></span><span class="sxs-lookup"><span data-stu-id="a601e-175"><strong>Authentication type</strong></span></span></p></td>
-<td><p><span data-ttu-id="a601e-176">아니요</span><span class="sxs-lookup"><span data-stu-id="a601e-176">No</span></span></p></td>
-<td><p><span data-ttu-id="a601e-p111">세션 참가자가 사용하는 인증 유형입니다. 값은 일반적으로 다음 중 하나입니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-p111">Type of authentication used by the session participants. Values are typically one of the following:</span></span></p>
+<td><p><span data-ttu-id="918d3-175"><strong>인증 유형</strong></span><span class="sxs-lookup"><span data-stu-id="918d3-175"><strong>Authentication type</strong></span></span></p></td>
+<td><p><span data-ttu-id="918d3-176">아니요</span><span class="sxs-lookup"><span data-stu-id="918d3-176">No</span></span></p></td>
+<td><p><span data-ttu-id="918d3-p111">세션 참가자가 사용하는 인증 유형입니다. 값은 일반적으로 다음 중 하나입니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-p111">Type of authentication used by the session participants. Values are typically one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="a601e-179">엔터프라이즈</span><span class="sxs-lookup"><span data-stu-id="a601e-179">Enterprise</span></span></p></li>
-<li><p><span data-ttu-id="a601e-180">페더레이션된</span><span class="sxs-lookup"><span data-stu-id="a601e-180">Federated</span></span></p></li>
-<li><p><span data-ttu-id="a601e-181">C</span><span class="sxs-lookup"><span data-stu-id="a601e-181">PIC</span></span></p></li>
+<li><p><span data-ttu-id="918d3-179">엔터프라이즈</span><span class="sxs-lookup"><span data-stu-id="918d3-179">Enterprise</span></span></p></li>
+<li><p><span data-ttu-id="918d3-180">페더레이션된</span><span class="sxs-lookup"><span data-stu-id="918d3-180">Federated</span></span></p></li>
+<li><p><span data-ttu-id="918d3-181">C</span><span class="sxs-lookup"><span data-stu-id="918d3-181">PIC</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a601e-182"><strong>날짜/시간</strong></span><span class="sxs-lookup"><span data-stu-id="a601e-182"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="a601e-183">아니요</span><span class="sxs-lookup"><span data-stu-id="a601e-183">No</span></span></p></td>
-<td><p><span data-ttu-id="a601e-184">세션이 발생한 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-184">Date and time that the sessions took place.</span></span></p></td>
+<td><p><span data-ttu-id="918d3-182"><strong>날짜/시간</strong></span><span class="sxs-lookup"><span data-stu-id="918d3-182"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="918d3-183">아니요</span><span class="sxs-lookup"><span data-stu-id="918d3-183">No</span></span></p></td>
+<td><p><span data-ttu-id="918d3-184">세션이 발생한 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-184">Date and time that the sessions took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a601e-185"><strong>합계</strong></span><span class="sxs-lookup"><span data-stu-id="a601e-185"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="a601e-186">아니요</span><span class="sxs-lookup"><span data-stu-id="a601e-186">No</span></span></p></td>
-<td><p><span data-ttu-id="a601e-187">총 세션 수 또는 총 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="a601e-187">Total number of sessions or total message count.</span></span></p></td>
+<td><p><span data-ttu-id="918d3-185"><strong>합계</strong></span><span class="sxs-lookup"><span data-stu-id="918d3-185"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="918d3-186">아니요</span><span class="sxs-lookup"><span data-stu-id="918d3-186">No</span></span></p></td>
+<td><p><span data-ttu-id="918d3-187">총 세션 수 또는 총 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="918d3-187">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>

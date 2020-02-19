@@ -12,20 +12,20 @@ ms:contentKeyID: 48184932
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32522f0818b95e829bbb643dea8749e2f91d1f31
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c44ad3541b4de3ac45169a01b14b2d571ed11b23
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045830"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138939"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="purgesettings-table-in-lync-server-2013"></a><span data-ttu-id="226e4-102">Lync Server 2013의 PurgeSettings 테이블</span><span class="sxs-lookup"><span data-stu-id="226e4-102">PurgeSettings table in Lync Server 2013</span></span>
+# <a name="purgesettings-table-in-lync-server-2013"></a><span data-ttu-id="b6a06-102">Lync Server 2013의 PurgeSettings 테이블</span><span class="sxs-lookup"><span data-stu-id="b6a06-102">PurgeSettings table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42045830"
 
 <span> </span>
 
-<span data-ttu-id="226e4-103">_**마지막으로 수정 된 항목:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="226e4-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="b6a06-103">_**마지막으로 수정 된 항목:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="b6a06-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="226e4-104">PurgeSettings 테이블에는 오래된 통화 정보 기록을 CDR 데이터베이스에서 자동으로 삭제할지 여부 및 시기를 지정하는 정보가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="226e4-104">The PurgeSettings table contains information that specifies if (and when) outdated call detail records will automatically be deleted from the CDR database.</span></span> <span data-ttu-id="226e4-105">다음 명령을 실행 하 여 Microsoft Lync Server 2013 관리 셸 내 에서도 제거 관련 정보를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="226e4-105">Note that purging-related information can also be obtained from within the Microsoft Lync Server 2013 Management Shell by running the following command:</span></span>
+<span data-ttu-id="b6a06-104">PurgeSettings 테이블에는 오래된 통화 정보 기록을 CDR 데이터베이스에서 자동으로 삭제할지 여부 및 시기를 지정하는 정보가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="b6a06-104">The PurgeSettings table contains information that specifies if (and when) outdated call detail records will automatically be deleted from the CDR database.</span></span> <span data-ttu-id="b6a06-105">다음 명령을 실행 하 여 Microsoft Lync Server 2013 관리 셸 내 에서도 제거 관련 정보를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b6a06-105">Note that purging-related information can also be obtained from within the Microsoft Lync Server 2013 Management Shell by running the following command:</span></span>
 
     Get-CsCdrConfiguration
 
-<span data-ttu-id="226e4-106">관리자는 PurgeSettings 테이블을 읽기 전용으로 취급 해야 합니다. 통화 정보 제거 설정에 대 한 변경 내용은 [get-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) 또는 [get-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlet을 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="226e4-106">Administrators should treat the PurgeSettings table as read-only: changes to the call detail purge settings should only be made using the [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) or [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlets.</span></span>
+<span data-ttu-id="b6a06-106">관리자는 PurgeSettings 테이블을 읽기 전용으로 취급 해야 합니다. 통화 정보 제거 설정에 대 한 변경 내용은 [get-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) 또는 [get-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlet을 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b6a06-106">Administrators should treat the PurgeSettings table as read-only: changes to the call detail purge settings should only be made using the [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) or [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlets.</span></span>
 
-<span data-ttu-id="226e4-107">이 표는 Microsoft Lync Server 2013에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="226e4-107">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="b6a06-107">이 표는 Microsoft Lync Server 2013에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="b6a06-107">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -55,42 +55,42 @@ ms.locfileid: "42045830"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="226e4-108">열</span><span class="sxs-lookup"><span data-stu-id="226e4-108">Column</span></span></th>
-<th><span data-ttu-id="226e4-109">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="226e4-109">Data Type</span></span></th>
-<th><span data-ttu-id="226e4-110">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="226e4-110">Key/Index</span></span></th>
-<th><span data-ttu-id="226e4-111">세부 정보</span><span class="sxs-lookup"><span data-stu-id="226e4-111">Details</span></span></th>
+<th><span data-ttu-id="b6a06-108">열</span><span class="sxs-lookup"><span data-stu-id="b6a06-108">Column</span></span></th>
+<th><span data-ttu-id="b6a06-109">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="b6a06-109">Data Type</span></span></th>
+<th><span data-ttu-id="b6a06-110">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="b6a06-110">Key/Index</span></span></th>
+<th><span data-ttu-id="b6a06-111">세부 정보</span><span class="sxs-lookup"><span data-stu-id="b6a06-111">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="226e4-112"><strong>Id</strong></span><span class="sxs-lookup"><span data-stu-id="226e4-112"><strong>Id</strong></span></span></p></td>
-<td><p><span data-ttu-id="226e4-113">int</span><span class="sxs-lookup"><span data-stu-id="226e4-113">int</span></span></p></td>
-<td><p><span data-ttu-id="226e4-114">Primary</span><span class="sxs-lookup"><span data-stu-id="226e4-114">Primary</span></span></p></td>
-<td><p><span data-ttu-id="226e4-115">CDR 삭제 설정 컬렉션에 대한 고유 식별자입니다.</span><span class="sxs-lookup"><span data-stu-id="226e4-115">Unique identifier for the collection of CDR purge settings.</span></span></p></td>
+<td><p><span data-ttu-id="b6a06-112"><strong>Id</strong></span><span class="sxs-lookup"><span data-stu-id="b6a06-112"><strong>Id</strong></span></span></p></td>
+<td><p><span data-ttu-id="b6a06-113">int</span><span class="sxs-lookup"><span data-stu-id="b6a06-113">int</span></span></p></td>
+<td><p><span data-ttu-id="b6a06-114">Primary</span><span class="sxs-lookup"><span data-stu-id="b6a06-114">Primary</span></span></p></td>
+<td><p><span data-ttu-id="b6a06-115">CDR 삭제 설정 컬렉션에 대한 고유 식별자입니다.</span><span class="sxs-lookup"><span data-stu-id="b6a06-115">Unique identifier for the collection of CDR purge settings.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="226e4-116"><strong>EnablePurge</strong></span><span class="sxs-lookup"><span data-stu-id="226e4-116"><strong>EnablePurge</strong></span></span></p></td>
-<td><p><span data-ttu-id="226e4-117">비트만</span><span class="sxs-lookup"><span data-stu-id="226e4-117">bit</span></span></p></td>
+<td><p><span data-ttu-id="b6a06-116"><strong>EnablePurge</strong></span><span class="sxs-lookup"><span data-stu-id="b6a06-116"><strong>EnablePurge</strong></span></span></p></td>
+<td><p><span data-ttu-id="b6a06-117">비트만</span><span class="sxs-lookup"><span data-stu-id="b6a06-117">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="226e4-118">True (1)로 설정 하면 Microsoft Lync Server 2013에서는 CDR 데이터베이스에서 오래 된 레코드를 주기적으로 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="226e4-118">When set to True (1) Microsoft Lync Server 2013 will periodically purge outdated records from the CDR database.</span></span> <span data-ttu-id="226e4-119">삭제는 매일 PurgeHour 설정으로 지정된 시간에 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="226e4-119">Purging will take place each day at the tome specified by the PurgeHour setting.</span></span> <span data-ttu-id="226e4-120">False(0)로 설정하면 레코드가 데이터베이스에서 자동으로 삭제되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="226e4-120">If set to False (0) then records will not be automatically purged from the database.</span></span> <span data-ttu-id="226e4-121">기본값은 True입니다.</span><span class="sxs-lookup"><span data-stu-id="226e4-121">The default value is True.</span></span></p></td>
+<td><p><span data-ttu-id="b6a06-118">True (1)로 설정 하면 Microsoft Lync Server 2013에서는 CDR 데이터베이스에서 오래 된 레코드를 주기적으로 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="b6a06-118">When set to True (1) Microsoft Lync Server 2013 will periodically purge outdated records from the CDR database.</span></span> <span data-ttu-id="b6a06-119">삭제는 매일 PurgeHour 설정으로 지정된 시간에 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="b6a06-119">Purging will take place each day at the tome specified by the PurgeHour setting.</span></span> <span data-ttu-id="b6a06-120">False(0)로 설정하면 레코드가 데이터베이스에서 자동으로 삭제되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="b6a06-120">If set to False (0) then records will not be automatically purged from the database.</span></span> <span data-ttu-id="b6a06-121">기본값은 True입니다.</span><span class="sxs-lookup"><span data-stu-id="b6a06-121">The default value is True.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="226e4-122"><strong>Keepcalldetailfordays는</strong></span><span class="sxs-lookup"><span data-stu-id="226e4-122"><strong>KeepCallDetailForDays</strong></span></span></p></td>
-<td><p><span data-ttu-id="226e4-123">int</span><span class="sxs-lookup"><span data-stu-id="226e4-123">int</span></span></p></td>
+<td><p><span data-ttu-id="b6a06-122"><strong>Keepcalldetailfordays는</strong></span><span class="sxs-lookup"><span data-stu-id="b6a06-122"><strong>KeepCallDetailForDays</strong></span></span></p></td>
+<td><p><span data-ttu-id="b6a06-123">int</span><span class="sxs-lookup"><span data-stu-id="b6a06-123">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="226e4-p103">데이터베이스에서 삭제할 CDR 레코드의 기간(일)을 지정합니다. 삭제를 사용하도록 설정한 경우 이 값보다 오래된 CDR 레코드가 데이터베이스에서 삭제됩니다. 기본값은 60일입니다.</span><span class="sxs-lookup"><span data-stu-id="226e4-p103">Specifies the age of CDR records (in days) that will be purged from the database: if purging is enabled, CDR records older than this value will be removed from the database. The default value is 60 days.</span></span></p></td>
+<td><p><span data-ttu-id="b6a06-p103">데이터베이스에서 삭제할 CDR 레코드의 기간(일)을 지정합니다. 삭제를 사용하도록 설정한 경우 이 값보다 오래된 CDR 레코드가 데이터베이스에서 삭제됩니다. 기본값은 60일입니다.</span><span class="sxs-lookup"><span data-stu-id="b6a06-p103">Specifies the age of CDR records (in days) that will be purged from the database: if purging is enabled, CDR records older than this value will be removed from the database. The default value is 60 days.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="226e4-126"><strong>KeepErrorReportForDays</strong></span><span class="sxs-lookup"><span data-stu-id="226e4-126"><strong>KeepErrorReportForDays</strong></span></span></p></td>
-<td><p><span data-ttu-id="226e4-127">int</span><span class="sxs-lookup"><span data-stu-id="226e4-127">int</span></span></p></td>
+<td><p><span data-ttu-id="b6a06-126"><strong>KeepErrorReportForDays</strong></span><span class="sxs-lookup"><span data-stu-id="b6a06-126"><strong>KeepErrorReportForDays</strong></span></span></p></td>
+<td><p><span data-ttu-id="b6a06-127">int</span><span class="sxs-lookup"><span data-stu-id="b6a06-127">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="226e4-p104">데이터베이스에서 삭제할 오류 보고서 레코드의 기간(일)을 지정합니다. 삭제를 사용하도록 설정한 경우 이 값보다 오래된 오류 보고서 레코드가 데이터베이스에서 삭제됩니다. 기본값은 60일입니다.</span><span class="sxs-lookup"><span data-stu-id="226e4-p104">Specifies the age of error report records (in days) that will be purged from the database: if purging is enabled, error report records older than this value will be removed from the database. The default value is 60 days.</span></span></p></td>
+<td><p><span data-ttu-id="b6a06-p104">데이터베이스에서 삭제할 오류 보고서 레코드의 기간(일)을 지정합니다. 삭제를 사용하도록 설정한 경우 이 값보다 오래된 오류 보고서 레코드가 데이터베이스에서 삭제됩니다. 기본값은 60일입니다.</span><span class="sxs-lookup"><span data-stu-id="b6a06-p104">Specifies the age of error report records (in days) that will be purged from the database: if purging is enabled, error report records older than this value will be removed from the database. The default value is 60 days.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="226e4-130"><strong>PurgeHour</strong></span><span class="sxs-lookup"><span data-stu-id="226e4-130"><strong>PurgeHour</strong></span></span></p></td>
-<td><p><span data-ttu-id="226e4-131">int</span><span class="sxs-lookup"><span data-stu-id="226e4-131">int</span></span></p></td>
+<td><p><span data-ttu-id="b6a06-130"><strong>PurgeHour</strong></span><span class="sxs-lookup"><span data-stu-id="b6a06-130"><strong>PurgeHour</strong></span></span></p></td>
+<td><p><span data-ttu-id="b6a06-131">int</span><span class="sxs-lookup"><span data-stu-id="b6a06-131">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="226e4-p105">데이터베이스 삭제가 수행되는 현지 시간을 지정합니다. 시간은 24시간제를 사용하여 지정합니다. 0은 자정(오전 12:00)을 나타내고 23은 오후 11:00를 나타냅니다. 시간만 지정할 수 있습니다. 즉, 값으로 10(오전 10:00)은 사용할 수는 있지만, 10:30 또는 10.5(오전 10:30)는 사용할 수 없습니다. 기본값은 2(오전 2:00)입니다.</span><span class="sxs-lookup"><span data-stu-id="226e4-p105">Specifies the local time of day when database purging will take place. The time of day is specified using a 24-hour clock, with 0 representing midnight (12:00 AM) and 23 representing 11:00 PM. Note that you can only specify the hour of the day: a value of 10 (indicating 10:00 AM) is allowed, but a value of 10:30 of 10.5 (indicating 10:30 AM) is not allowed. The default value is 2 (2:00 AM).</span></span></p></td>
+<td><p><span data-ttu-id="b6a06-p105">데이터베이스 삭제가 수행되는 현지 시간을 지정합니다. 시간은 24시간제를 사용하여 지정합니다. 0은 자정(오전 12:00)을 나타내고 23은 오후 11:00를 나타냅니다. 시간만 지정할 수 있습니다. 즉, 값으로 10(오전 10:00)은 사용할 수는 있지만, 10:30 또는 10.5(오전 10:30)는 사용할 수 없습니다. 기본값은 2(오전 2:00)입니다.</span><span class="sxs-lookup"><span data-stu-id="b6a06-p105">Specifies the local time of day when database purging will take place. The time of day is specified using a 24-hour clock, with 0 representing midnight (12:00 AM) and 23 representing 11:00 PM. Note that you can only specify the hour of the day: a value of 10 (indicating 10:00 AM) is allowed, but a value of 10:30 of 10.5 (indicating 10:30 AM) is not allowed. The default value is 2 (2:00 AM).</span></span></p></td>
 </tr>
 </tbody>
 </table>
