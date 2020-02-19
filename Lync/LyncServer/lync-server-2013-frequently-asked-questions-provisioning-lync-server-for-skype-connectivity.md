@@ -12,18 +12,18 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 690eb5631b57a88d207816a01c887c1f94c0eeb2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 718dda9966b79ca75f64df115dc9a6ba30d15619
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044050"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136996"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>질문과 대답: Skype 연결용 Lync Server 2013 프로 비전
 
@@ -138,7 +138,7 @@ _**마지막으로 수정 된 항목:** 2019-03-22_
 
 **Q: Windows Live에서 지원 하지 않는 도메인을 포함 하는 ID가 있는 Windows Live Messenger 연락처를 추가 하는 방법은 무엇 인가요?**
 
-**A:** 계정이 나 ID가 windows live가 아닌 다른 도메인을 사용 하 여 windows live Messenger 사용자를 추가 하 \<는 경우 주소를 사용자 이름\>(도메인 이름\<\>) @msn .com으로 입력 합니다 ( \<도메인 이름은\> 사용자의 전자 메일 주소에 있는 도메인 이름). 예를 들어 ted@contoso.com를 추가 하려면 ted (contoso) @msn .com을 사용 합니다. Windows Live를 통해 관리 되는 도메인 목록은 "Live Communications Server 서비스 팩 1을 설치한 후 공용 인스턴트 메시징에서 발생 하는 알려진 문제"의 지원 되는 도메인 섹션을 참조 http://support.microsoft.com/?kbid=897567하세요.
+**A:** 계정이 나 ID가 windows live가 아닌 다른 도메인을 사용 하 여 windows live Messenger 사용자를 추가 하 \<는 경우 주소를 사용자 이름\>(도메인 이름\<\>) @msn .com으로 입력 합니다 ( \<도메인 이름은\> 사용자의 전자 메일 주소에 있는 도메인 이름). 예를 들어 ted@contoso.com를 추가 하려면 ted (contoso) @msn .com을 사용 합니다. Windows Live를 통해 관리 되는 도메인 목록은 "Live Communications Server 서비스 팩 1을 설치한 후 공용 인스턴트 메시징에서 발생 하는 알려진 문제"의 지원 되는 도메인 섹션을 참조 https://support.microsoft.com/?kbid=897567하세요.
 
 **Q: 프로 비전 프로세스는 얼마 동안 소요 됩니까?**
 

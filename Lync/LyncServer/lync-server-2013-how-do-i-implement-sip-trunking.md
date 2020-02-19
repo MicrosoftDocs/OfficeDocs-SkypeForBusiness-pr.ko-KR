@@ -12,18 +12,18 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 062eb44fb79d6ecfa33f449e62341003bbed571b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5e5265f580e3894d0fc8214b974ad03c9559323c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050450"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137989"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>Lync Server 2013에서 SIP 트렁크를 구현 하려면 어떻게 하나요?
 
@@ -153,7 +153,7 @@ Lync Server 2013는 다음 코덱과 지원 합니다.
 
 ## <a name="internet-telephony-service-provider"></a>인터넷 전화 통신 서비스 공급자
 
-SIP 트렁크 연결의 서비스 공급자 쪽을 구현하는 방법은 ITSP에 따라 다릅니다. 배포 정보에 대해서는 서비스 공급자에 문의하십시오. 인증 된 SIP 트렁크 서비스 공급자 목록은 [Microsoft 통합 커뮤니케이션 오픈 상호 운용성 프로그램 웹 사이트](http://go.microsoft.com/fwlink/?linkid=287029)를 참조 하세요.
+SIP 트렁크 연결의 서비스 공급자 쪽을 구현하는 방법은 ITSP에 따라 다릅니다. 배포 정보에 대해서는 서비스 공급자에 문의하십시오. 인증 된 SIP 트렁크 서비스 공급자 목록은 [Microsoft 통합 커뮤니케이션 오픈 상호 운용성 프로그램 웹 사이트](https://go.microsoft.com/fwlink/?linkid=287029)를 참조 하세요.
 
 Microsoft 인증 SIP 트렁크 공급자에 대한 자세한 내용은 Microsoft 담당자에게 문의하십시오.
 

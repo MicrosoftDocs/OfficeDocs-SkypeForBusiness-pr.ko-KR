@@ -12,18 +12,18 @@ ms:contentKeyID: 48183599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf2366c56c0e749aff208b8471d1db76a1c0ba35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d1549cb2f71e5f6f0ab1d16907d5e83765780cca
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042215"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137106"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deployment-tasks-for-remote-call-control-in-lync-server-2013"></a>Lync Server 2013의 원격 통화 제어에 대 한 배포 작업
 
@@ -63,7 +63,7 @@ _**마지막으로 수정 된 항목:** 2012-10-05_
 
 위 설정은 사용자 구성 중에 필요하며, 게이트웨이에서 예상대로 지정해야 PBX를 올바르게 라우팅하고 연결할 수 있습니다.
 
-의 Microsoft 통합 통신 오픈 상호 운용성 프로그램 웹 사이트에서 공급 업체를 참조할 [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)수 있습니다.
+의 Microsoft 통합 통신 오픈 상호 운용성 프로그램 웹 사이트에서 공급 업체를 참조할 [https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309)수 있습니다.
 
 </div>
 

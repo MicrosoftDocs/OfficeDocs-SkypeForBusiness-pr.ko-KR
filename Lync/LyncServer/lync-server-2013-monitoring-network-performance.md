@@ -12,18 +12,18 @@ ms:contentKeyID: 63969647
 ms.date: 04/27/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8524499737ae1e52a36a80fbc636f005b687a6a0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aafea72c7e30644f8a882f1cf556c665e1e285ad
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047971"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140181"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="monitoring-network-performance-in-lync-server-2013"></a>Lync Server 2013에서 네트워크 성능 모니터링
 
@@ -73,7 +73,7 @@ System Center Operations Manager는 IT 환경에서 향상 된 서비스 수준�
 
 자세한 내용은 다음을 참조 하십시오.
 
-[Microsoft System Center Operations Manager](http://go.microsoft.com/fwlink/p/?linkid=243651)
+[Microsoft System Center Operations Manager](https://go.microsoft.com/fwlink/p/?linkid=243651)
 
 [Microsoft System Center Operations Manager 용 솔루션](http://www.emc.com/collateral/software/data-sheet/h6135-server-manager-ds.pdf)
 
@@ -85,7 +85,7 @@ System Center Operations Manager는 IT 환경에서 향상 된 서비스 수준�
 
 Hp **네트워크 관리 센터 (이전 버전의 Hp OpenView)**   [Hp network 관리 센터](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__) 는 네트워크 가용성 및 성능을 개선 하기 위해 통합 된 내결함성 및 성능 관리 기능을 제공 합니다. 네트워크 관리 센터는 내결함성, 성능, 구성 및 변경 관리를 통합 하는 HP 자동화 네트워크 관리 솔루션의 일부입니다.
 
-**Cisco 네트워크 관리 및 자동화 제품**   엔터프라이즈에서는 CiscoWorks LAN 관리 솔루션 및 cisco 네트워크 분석 모듈을 비롯 한 다양 한 관리 제품을 사용 하 여 운영 효율성을 높이고 네트워크 가동 중지 시간을 줄일 수 있습니다. 이러한 제품에 대 한 추가 데이터를 보려면에서 [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)Cisco 웹 사이트를 참조 하세요.
+**Cisco 네트워크 관리 및 자동화 제품**   엔터프라이즈에서는 CiscoWorks LAN 관리 솔루션 및 cisco 네트워크 분석 모듈을 비롯 한 다양 한 관리 제품을 사용 하 여 운영 효율성을 높이고 네트워크 가동 중지 시간을 줄일 수 있습니다. 이러한 제품에 대 한 추가 데이터를 보려면에서 [https://www.cisco.com/en/US/products/sw/netmgtsw/index.html](https://www.cisco.com/en/us/products/sw/netmgtsw/index.html)Cisco 웹 사이트를 참조 하세요.
 
 SNMP (simple Network Management Protocol) SNMP (Simple network management Protocol)는 TCP/IP 네트워크를 관리 하기 위한 전략을 정의 하는 네트워크 관리 표준입니다. SNMP를 사용 하면 네트워크에 대 한 구성 및 상태 정보를 캡처하고, 해당 정보를 지정 된 컴퓨터로 보내 이벤트를 모니터링할 수 있습니다. 이 표준 기반 네트워크 관리 프로토콜은 다음을 포함 하는 분산 아키텍처를 사용 합니다.
 
@@ -127,7 +127,7 @@ System Center Operations Manager 2012에서는 관리자가 Windows Server 2012 
 
 서버의 리소스 사용량을 수집, 표시, 분석 하 고 네트워크 트래픽을 측정 합니다. 네트워크 모니터는 네트워크 활동을 단독으로 모니터링 합니다. 네트워크 데이터를 캡처 및 분석 하 고 성능 로그에이 데이터를 사용 하 여 네트워크 사용량을 확인 하 고, 네트워크 문제를 파악 하 고, 향후 네트워크 요구를 예측할 수 있습니다.
 
-네트워크 모니터 3.4에 대 한 자세한 내용과 네트워크 모니터를 설치 및 구성 하 고 데이터를 캡처 및 분석 하는 방법에 대 한 자세한 내용을 보려면 다음 세션: Network Monitor 3.3 Overview를 참조 하십시오. 또한 [네트워크 모니터 블로그](http://blogs.technet.com/b/netmon/)를 검토 합니다.
+네트워크 모니터 3.4에 대 한 자세한 내용과 네트워크 모니터를 설치 및 구성 하 고 데이터를 캡처 및 분석 하는 방법에 대 한 자세한 내용을 보려면 다음 세션: Network Monitor 3.3 Overview를 참조 하십시오. 또한 [네트워크 모니터 블로그](https://blogs.technet.com/b/netmon/)를 검토 합니다.
 
 </div>
 

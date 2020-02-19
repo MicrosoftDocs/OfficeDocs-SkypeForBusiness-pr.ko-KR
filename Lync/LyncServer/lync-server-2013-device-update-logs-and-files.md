@@ -12,18 +12,18 @@ ms:contentKeyID: 51804004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a4ae3508e3fb8e09e4fe60b19b3ccd480ea4099
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f4359266382ba829ae9a8515b3a68ff844b97a1c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42031262"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135825"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="device-update-logs-and-files-in-lync-server-2013"></a>Lync Server 2013의 장치 업데이트 로그 및 파일
 
@@ -43,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2013-02-20_
 
 
 > [!NOTE]  
-> 장치 업데이트 로그 파일에 대 한 자세한 내용은 Lync Server 2010 TechNet 라이브러리의 <A href="http://technet.microsoft.com/library/gg398250(v=ocs.14).aspx">로그 파일 형식 및 위치</A> 를 참조 하십시오. 모든 Lync Phone Edition 구성 요소와 마찬가지로 장치 업데이트 웹 서비스는 lync Server 2010와 마찬가지로 Lync Server 2013 에서도 동일한 방식으로 작동 합니다.
+> 장치 업데이트 로그 파일에 대 한 자세한 내용은 Lync Server 2010 TechNet 라이브러리의 <A href="https://technet.microsoft.com/library/gg398250(v=ocs.14).aspx">로그 파일 형식 및 위치</A> 를 참조 하십시오. 모든 Lync Phone Edition 구성 요소와 마찬가지로 장치 업데이트 웹 서비스는 lync Server 2010와 마찬가지로 Lync Server 2013 에서도 동일한 방식으로 작동 합니다.
 
 
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969595
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 631ec1c7c383bf6200e44378b37db7273bbf125d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cf3ba3dc27bf3849ad6c3434f4baf1fa28c07780
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008200"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="performing-and-monitoring-backups-in-lync-server-2013"></a>Lync Server 2013에서 백업 수행 및 모니터링
 
@@ -49,7 +49,7 @@ Lync Server 2013 서비스 또는 서버 역할을 실행 하는 컴퓨터에는
 
 `Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Export-CsConfiguration"}`
 
-모든 SQL 2012 백 엔드 데이터베이스는 [sql 모범 사례](http://go.microsoft.com/fwlink/p/?linkid=290716)당 백업 해야 합니다.
+모든 SQL 2012 백 엔드 데이터베이스는 [sql 모범 사례](https://go.microsoft.com/fwlink/p/?linkid=290716)당 백업 해야 합니다.
 
 Lync Server 2013 인프라에 대 한 재해 복구 계획의 정기적인 테스트는 프로덕션 환경을 최대한 비슷하게 모방 하는 랩 환경에서 수행 해야 합니다. 재해 복구 테스트에 대 한 자세한 내용은 월별 작업을 참조 하세요.
 
@@ -62,7 +62,7 @@ Lync Server 2013 인프라에 대 한 재해 복구 계획의 정기적인 테�
 
 [가져오기-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
 [수출-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Export-CsConfiguration)  
-[SQL 모범 사례](http://go.microsoft.com/fwlink/p/?linkid=290716)  
+[SQL 모범 사례](https://go.microsoft.com/fwlink/p/?linkid=290716)  
   
 
 </div>

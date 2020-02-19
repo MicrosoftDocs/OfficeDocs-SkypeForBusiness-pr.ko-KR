@@ -12,18 +12,18 @@ ms:contentKeyID: 59893874
 ms.date: 09/14/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cc25c66ce807e796cf7e510d89a5a623f98eb49
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ac24736d55b59396e9c04041b4356c0983154c71
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042245"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137487"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="encryption-for-lync-server-2013"></a>Lync Server 2013에 대 한 암호화
 
@@ -141,7 +141,7 @@ Microsoft Lync 2013 및 Windows Live 클라이언트 간에 오디오 및 비디
 
 ## <a name="fips"></a>서명에
 
-Windows Server 운영 체제가 시스템 암호화에 FIPS 140-2 알고리즘을 사용 하도록 구성 되어 있는 경우 Lync Server 2013 및 Microsoft Exchange Server 2013는 FIPS (정보 처리 표준) 140-2 알고리즘을 지원 합니다. FIPS 지원을 구현 하려면 Lync Server 2013를 실행 하는 각 서버가 지원 되도록 구성 해야 합니다. FIPS 규격 알고리즘 사용에 대 한 자세한 내용과 FIPS 지원을 구현 하는 방법에 대 한 자세한 811833 내용은 Windows XP 및 이후 버전의 Windows에서 "시스템 암호화: 암호화, 해시 및 서명에 FIPS 호환 알고리즘 사용" 보안 설정을 사용 하는 경우의 결과를 참조 하세요 [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833). Exchange 2010의 FIPS 140-2 지원 및 제한 사항에 대 한 자세한 내용은 Exchange 2010 SP1 및에서 [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)FIPS 호환 알고리즘 지원를 참조 하세요.
+Windows Server 운영 체제가 시스템 암호화에 FIPS 140-2 알고리즘을 사용 하도록 구성 되어 있는 경우 Lync Server 2013 및 Microsoft Exchange Server 2013는 FIPS (정보 처리 표준) 140-2 알고리즘을 지원 합니다. FIPS 지원을 구현 하려면 Lync Server 2013를 실행 하는 각 서버가 지원 되도록 구성 해야 합니다. FIPS 규격 알고리즘 사용에 대 한 자세한 내용과 FIPS 지원을 구현 하는 방법에 대 한 자세한 811833 내용은 Windows XP 및 이후 버전의 Windows에서 "시스템 암호화: 암호화, 해시 및 서명에 FIPS 호환 알고리즘 사용" 보안 설정을 사용 하는 경우의 결과를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833). Exchange 2010의 FIPS 140-2 지원 및 제한 사항에 대 한 자세한 내용은 Exchange 2010 SP1 및에서 [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)FIPS 호환 알고리즘 지원를 참조 하세요.
 
 </div>
 

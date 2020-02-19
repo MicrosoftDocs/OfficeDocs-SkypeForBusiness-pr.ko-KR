@@ -12,18 +12,18 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1d60a29eff876ef362d15c90e2615fd70bc8774
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 635565936712fe542c807ea4d4c65f584e836bdc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41993813"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137427"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Lync Server 2013에서 스마트 카드 인증을 위한 사용자 등록
 
@@ -39,7 +39,7 @@ _**마지막으로 수정 된 항목:** 2013-07-03_
 
 스마트 카드 인증용으로 사용자를 등록 하는 방법에는 일반적으로 두 가지가 있습니다. 보다 쉬운 방법은 사용자가 웹 등록을 사용 하 여 직접 스마트 카드 인증을 등록 하도록 하는 반면, 복잡 한 방법은 등록 에이전트를 사용 하는 것입니다. 이 항목에서는 스마트 카드 인증서의 자체 등록에 대해 중점적으로 설명 합니다.
 
-사용자를 대신 하 여 등록 에이전트로 등록 하는 방법에 대 한 자세한 내용은 다른 사용자 대신 인증서 등록을 참조 하십시오 [http://go.microsoft.com/fwlink/p/?LinkID=313367](http://go.microsoft.com/fwlink/p/?linkid=313367).
+사용자를 대신 하 여 등록 에이전트로 등록 하는 방법에 대 한 자세한 내용은 다른 사용자 대신 인증서 등록을 참조 하십시오 [https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367).
 
 <div>
 

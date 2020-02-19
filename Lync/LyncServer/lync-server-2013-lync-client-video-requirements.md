@@ -12,18 +12,18 @@ ms:contentKeyID: 49733731
 ms.date: 01/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6d5b06123879f2f9724fbd0f49facb8336d9860
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1e4a8e99c50bc62565ed597e65cef73a6aaddd08
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030912"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137287"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-client-video-requirements-for-lync-server-2013"></a>Lync Server 2013의 lync 클라이언트 비디오 요구 사항
 
@@ -71,7 +71,7 @@ Lync 2013에서는 비디오 인코딩에 대 한 하드웨어 가속을 소개 
 <div>
 
 > [!NOTE]  
-> 디코딩 모드에 대 한 자세한 내용은 <A href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</A>를 참조 하세요.
+> 디코딩 모드에 대 한 자세한 내용은 <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A>를 참조 하세요.
 
 
 </div></td>

@@ -13,18 +13,18 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8ebfefb24d1857a7addade5e92c94bf5daa54f6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8cbdc2ef87003110aed4cc9bc754fb73f62ea493
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42000573"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136135"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-clients-for-migration"></a>마이그레이션을 위한 클라이언트 구성
 
@@ -44,7 +44,7 @@ _**마지막으로 수정 된 항목:** 2012-09-24_
 
 ## <a name="to-configure-clients-before-migration"></a>마이그레이션 이전에 클라이언트를 구성하려면
 
-1.  Lync Server 2010에 대 한 최신 서버, 클라이언트 및 장치 업데이트 (핫픽스)를 배포 합니다. Lync Server 2010에 대 한 최신 정보는 업데이트 리소스 센터 for Lync at <http://go.microsoft.com/fwlink/p/?linkid=232630>를 참조 하십시오.
+1.  Lync Server 2010에 대 한 최신 서버, 클라이언트 및 장치 업데이트 (핫픽스)를 배포 합니다. Lync Server 2010에 대 한 최신 정보는 업데이트 리소스 센터 for Lync at <https://go.microsoft.com/fwlink/p/?linkid=232630>를 참조 하십시오.
 
 2.  Lync Server 2010에서 클라이언트 버전 필터링을 사용 하 여 최신 업데이트가 설치 된 클라이언트만 허용 합니다.
 

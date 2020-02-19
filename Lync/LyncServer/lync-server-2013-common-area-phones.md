@@ -12,18 +12,18 @@ ms:contentKeyID: 51803987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 736aa12c9de027aa485cfc89a6f5cd820a460833
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 523238887e8ed5ac7dc45fb05177ae0c5fa9f291
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045820"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138499"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="common-area-phones-in-lync-server-2013"></a>Lync Server 2013의 공통 영역 전화
 
@@ -47,7 +47,7 @@ _**마지막으로 수정 된 항목:** 2013-02-20_
 
 
 > [!NOTE]  
-> 공통 영역 전화에는 Aastra 6721ip 공통 영역 전화, HP 4110 IP 전화 및 Polycom CX500 IP 공통 영역 전화에 대 한 세 가지 옵션이 있습니다. Polycom CX3000 IP 회의 전화가 또 다른 변형 공통 영역 전화입니다. 그러나 회의실에서 사용 하기 위한 것입니다. 공통 영역 전화에 대 한 자세한 내용은 <A href="http://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">새 장치 선택</A>의 일반 영역 전화 섹션을 참조 하십시오.
+> 공통 영역 전화에는 Aastra 6721ip 공통 영역 전화, HP 4110 IP 전화 및 Polycom CX500 IP 공통 영역 전화에 대 한 세 가지 옵션이 있습니다. Polycom CX3000 IP 회의 전화가 또 다른 변형 공통 영역 전화입니다. 그러나 회의실에서 사용 하기 위한 것입니다. 공통 영역 전화에 대 한 자세한 내용은 <A href="https://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">새 장치 선택</A>의 일반 영역 전화 섹션을 참조 하십시오.
 
 
 

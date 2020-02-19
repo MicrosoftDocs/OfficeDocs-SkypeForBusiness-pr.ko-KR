@@ -12,18 +12,18 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d46d3bc2ce881edc183e4996c0c71d6a90af4e6a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0797ed44663f8a7b8baab7c3dbe5a3099ceac5fe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044140"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138319"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Lync Server 2013에서 Lync Server 관리 셸을 사용 하 여 데이터베이스 설치
 
@@ -77,7 +77,7 @@ _**마지막으로 수정 된 항목:** 2016-06-16_
 
 1.  원하는 컴퓨터에서 SQL Server 기반 서버에 데이터베이스를 만들기 위해 관리 자격 증명을 사용하여 로그온합니다. 자세한 내용은 [Lync server 2013의 SQL Server에 대 한 배포 권한을](lync-server-2013-deployment-permissions-for-sql-server.md)참조 하십시오.
 
-2.  Lync Server 2013 관리 셸을 엽니다. Windows PowerShell에 대 한 실행 정책을 조정 하지 않은 경우 Windows PowerShell 스크립트 실행을 허용 하도록 정책을 조정 해야 합니다. 자세한 내용은에서 [http://go.microsoft.com/fwlink/p/?linkId=203093](http://go.microsoft.com/fwlink/p/?linkid=203093)"실행 정책 검사"를 참조 하십시오.
+2.  Lync Server 2013 관리 셸을 엽니다. Windows PowerShell에 대 한 실행 정책을 조정 하지 않은 경우 Windows PowerShell 스크립트 실행을 허용 하도록 정책을 조정 해야 합니다. 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093)"실행 정책 검사"를 참조 하십시오.
 
 3.  **설치-CsDatabase** cmdlet을 사용 하 여 중앙 관리 저장소를 설치 합니다.
     

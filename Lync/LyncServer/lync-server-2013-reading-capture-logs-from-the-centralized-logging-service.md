@@ -12,18 +12,18 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5abf7b2f6962dbf38f90f52ff82c54b035d9aa0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ebb1ec3ebde4f1277d6304190aceafa2e0fe2884
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050180"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138879"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013의 중앙 로깅 서비스에서 캡처 로그 읽기
 
@@ -43,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2016-12-28_
 
 
 > [!IMPORTANT]  
-> 이 문서에서는 문제 해결 기술에 대해 자세히 설명하거나 논의하지 않습니다. 문제 해결 및 관련 프로세스는 복잡한 주제입니다. 문제 해결 기본 사항과 특정 작업의 문제 해결에 대 한 자세한 내용은에서 <A href="http://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>Microsoft Lync Server 2010 Resource Kit book을 참조 하십시오. 프로세스 및 절차는 Lync Server 2013에도 적용 됩니다.
+> 이 문서에서는 문제 해결 기술에 대해 자세히 설명하거나 논의하지 않습니다. 문제 해결 및 관련 프로세스는 복잡한 주제입니다. 문제 해결 기본 사항과 특정 작업의 문제 해결에 대 한 자세한 내용은에서 <A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>Microsoft Lync Server 2010 Resource Kit book을 참조 하십시오. 프로세스 및 절차는 Lync Server 2013에도 적용 됩니다.
 
 
 

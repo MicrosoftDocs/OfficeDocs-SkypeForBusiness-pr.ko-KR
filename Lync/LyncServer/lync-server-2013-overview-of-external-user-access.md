@@ -12,18 +12,18 @@ ms:contentKeyID: 48184934
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed3a616fb9bcf7d33819c3bee68dbe375954d02b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bf3d85b7e3eae8839e3e65e02dde5955c8145c64
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038830"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140091"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-external-user-access-in-lync-server-2013"></a>Lync Server 2013의 외부 사용자 액세스 개요
 
@@ -54,7 +54,7 @@ _**마지막으로 수정 된 항목:** 2013-11-07_
 
   - **공용 인스턴트 메시징 연결 사용자**   가 공용 인스턴트 메시징 연결 서비스 (Windows Live, Yahoo)를 통해 설정 하는 대화 상대에 게 연락 합니다.\! 및 AOL)
 
-  - **모바일 사용자**   조직의 구성원 인 Lync 모바일 클라이언트를 실행 하는 스마트 전화나 태블릿을 사용 하는 사용자는 내부 배포에 로그인 하 여 다른 사용자 클래스와 통신할 수 있습니다. 모바일 사용자는 역방향 프록시를 통해 게시 된 모바일 서비스를 사용 하 여 내부 배포에 액세스 합니다. Lync Mobile에서 사용할 수 있는 기능에 대 한 자세한 내용은 모바일 클라이언트 비교 표를 참조 [http://go.microsoft.com/fwlink/p/?LinkID=234777](http://go.microsoft.com/fwlink/p/?linkid=234777)하세요.
+  - **모바일 사용자**   조직의 구성원 인 Lync 모바일 클라이언트를 실행 하는 스마트 전화나 태블릿을 사용 하는 사용자는 내부 배포에 로그인 하 여 다른 사용자 클래스와 통신할 수 있습니다. 모바일 사용자는 역방향 프록시를 통해 게시 된 모바일 서비스를 사용 하 여 내부 배포에 액세스 합니다. Lync Mobile에서 사용할 수 있는 기능에 대 한 자세한 내용은 모바일 클라이언트 비교 표를 참조 [https://go.microsoft.com/fwlink/p/?LinkID=234777](https://go.microsoft.com/fwlink/p/?linkid=234777)하세요.
 
   - **익명 사용자**   조직의 Active Directory 도메인 서비스 또는 지원 되는 페더레이션 도메인에 사용자 계정이 없지만 온-프레미스 회의에 원격으로 참가할 수 있는 초대를 받은 사용자입니다.
 

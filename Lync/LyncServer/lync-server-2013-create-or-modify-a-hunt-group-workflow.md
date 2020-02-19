@@ -12,18 +12,18 @@ ms:contentKeyID: 48185596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f56187645a48b4e2cdaebb8ce9091abcfadc065b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03563506a739ca9eb0fcf1992899ba14167627d1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048889"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137597"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-or-modify-a-hunt-group-workflow-in-lync-server-2013"></a>Lync Server 2013에서 헌트 그룹 워크플로 만들기 또는 수정
 
@@ -349,7 +349,7 @@ _**마지막으로 수정 된 항목:** 2013-09-11_
     
         $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    예시는 다음과 같습니다:
+    예:
     
         $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "Welcome to Contoso. Please wait for an available agent."
     

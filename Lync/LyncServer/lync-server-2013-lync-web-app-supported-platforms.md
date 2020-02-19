@@ -12,18 +12,18 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 713a49fc81ba388d01a790ab260adcebbd364c8b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7070dbf25357d886b2e82e4da0140a724cbec853
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030181"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137697"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Server 2013의 lync Web App 지원 되는 플랫폼
 
@@ -43,7 +43,7 @@ Lync Web App을 사용 하려면 지원 되는 다음 운영 체제 및 브라�
 
 
 > [!NOTE]  
-> 컴퓨터 기반 음성, 비디오, 공유 및 진행 중인 화면 공유 보기를 비롯 한 특정 Lync Web App 기능에 플러그 인이 필요 합니다. 모임에 참가할 때 또는 이러한 기능 중 하나를 시작할 때 공유 플러그 인을 설치할 수 있습니다. 1 <BR>
+> 컴퓨터 기반 음성, 비디오, 공유 및 진행 중인 화면 공유 보기를 비롯 한 특정 Lync Web App 기능에 플러그 인이 필요 합니다. 모임에 참가할 때 또는 이러한 기능 중 하나를 시작할 때 공유 플러그 인을 설치할 수 있습니다. 개<BR>
 
 
 

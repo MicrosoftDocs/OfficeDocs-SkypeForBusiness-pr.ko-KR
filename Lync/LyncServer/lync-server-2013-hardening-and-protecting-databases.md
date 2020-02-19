@@ -12,18 +12,18 @@ ms:contentKeyID: 62625490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e1ef045253f6733ea3356baa6254a6c90926762
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f222e92da686792a48ccceeaf1686d96f0406e50
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006214"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140261"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hardening-and-protecting-the-databases-of-lync-server-2013"></a>Lync Server 2013의 데이터베이스 보안 강화 및 보호
 
@@ -80,7 +80,7 @@ Standard Edition server를 제외한 모든 Lync Server 2013 서버에서 SQL Se
 
 </div>
 
-사용자 지정 구성에 대 한 자세한 내용과 SQL Server 데이터베이스를 강화 하는 방법에 대 한 자세한 내용은 다음 홉 blog 문서 "사용자 지정 SQL Server 네트워크 구성으로 [http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008)Lync Server 2010 사용"을 참조 하십시오.
+사용자 지정 구성에 대 한 자세한 내용과 SQL Server 데이터베이스를 강화 하는 방법에 대 한 자세한 내용은 다음 홉 blog 문서 "사용자 지정 SQL Server 네트워크 구성으로 [https://go.microsoft.com/fwlink/p/?LinkId=214008](https://go.microsoft.com/fwlink/p/?linkid=214008)Lync Server 2010 사용"을 참조 하십시오.
 
 <div>
 

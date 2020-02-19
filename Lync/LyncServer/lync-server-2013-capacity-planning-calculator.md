@@ -12,18 +12,18 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce5ece90e8db4240eaef00f39a827e6779663dcc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0caac7e07d83658fd1b39192a6d9792ae6b17c0e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006364"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137227"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Lync Server 2013에 대 한 용량 계획 계산기 사용
 
@@ -37,13 +37,13 @@ ms.locfileid: "42006364"
 
 _**마지막으로 수정 된 항목:** 2013-11-21_
 
-Microsoft® Lync™ Server 2013 capacity 계획 계산기는에서 <http://www.microsoft.com/download/details.aspx?id=36828>다운로드할 수 있습니다. 이 기능은 조직에서 사용 하도록 설정 된 사용자 수 및 통신 형식에 따라 서버 요구 사항을 결정 하는 데 도움을 주기 위한 것입니다. 조직의 프로필을 입력 하면 계산기는 토폴로지를 계획 하는 데 도움이 되는 권장 사항을 제공 합니다.
+Microsoft® Lync™ Server 2013 capacity 계획 계산기는에서 <https://www.microsoft.com/download/details.aspx?id=36828>다운로드할 수 있습니다. 이 기능은 조직에서 사용 하도록 설정 된 사용자 수 및 통신 형식에 따라 서버 요구 사항을 결정 하는 데 도움을 주기 위한 것입니다. 조직의 프로필을 입력 하면 계산기는 토폴로지를 계획 하는 데 도움이 되는 권장 사항을 제공 합니다.
 
-계산기에서 만드는 권장 사항은 계획 목적 으로만 사용 됩니다. Lync Server 2013이 제대로 프로 비전 되도록 하려면 실제 부하 시뮬레이션이 필요 합니다. 시뮬레이트된 부하에서 스트레스 테스트를 수행 하려면 [Lync Server 2013 스트레스 및 성능 도구](http://go.microsoft.com/fwlink/?linkid=282724)를 사용 합니다.
+계산기에서 만드는 권장 사항은 계획 목적 으로만 사용 됩니다. Lync Server 2013이 제대로 프로 비전 되도록 하려면 실제 부하 시뮬레이션이 필요 합니다. 시뮬레이트된 부하에서 스트레스 테스트를 수행 하려면 [Lync Server 2013 스트레스 및 성능 도구](https://go.microsoft.com/fwlink/?linkid=282724)를 사용 합니다.
 
 사용자에 대해 사용 하도록 설정 하려는 형식를 결정 한 후에는 계산기를 사용 하 여 필요한 서버 수, 메모리 및 대역폭을 계획 해야 합니다. 이 버전의 계산기는 디스크 I/o 요구 사항에 대 한 지침을 제공 하지 않습니다.
 
-이 계산기는 [Microsoft Lync server](http://go.microsoft.com/fwlink/?linkid=282725) 및 [microsoft lync server](lync-server-2013-planning.md)를 보완 합니다. 가이드를 검토 하 고 계획 도구를 사용 하 여 권장 토폴로지를 만든 후에 계산기를 사용 합니다.
+이 계산기는 [Microsoft Lync server](https://go.microsoft.com/fwlink/?linkid=282725) 및 [microsoft lync server](lync-server-2013-planning.md)를 보완 합니다. 가이드를 검토 하 고 계획 도구를 사용 하 여 권장 토폴로지를 만든 후에 계산기를 사용 합니다.
 
 특정 사용자 프로필에 대 한 자세한 정보를 정확 하 게 알고 있는 경우에는 계산기의 장점을 가장 많이 활용할 수 있습니다. 예를 들어 음성 사용 가능 사용자, 시간 당 사용자 당 평균 통화, 통화 시간 및 전화 회의에서 동시 사용자의 백분율은 서버 요구 사항에 큰 차이를 만들 수 있습니다. 계산기에서 만드는 권장 사항의 정확성은 제공 하는 정보의 정확성에 따라 달라 집니다.
 

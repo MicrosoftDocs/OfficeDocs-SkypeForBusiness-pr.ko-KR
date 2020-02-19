@@ -12,18 +12,18 @@ ms:contentKeyID: 48184096
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8daf27670f7820a64cd7a91fe350ba7345c9463e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 920eecbdb456e3b643da9f935e2586dea7e6e165
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030802"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137066"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013에서 E9-1-1에 대 한 SIP 트렁크 디자인
 
@@ -48,7 +48,7 @@ Lync Server에서는 SIP 트렁크을 사용 하 여 E9-1-1 서비스 공급자�
 > <LI>
 > <P>외부에 연결 되는 공용 경로 인터페이스를 사용 하 여 SIP 트렁크 공급자와 통신 하는 멀티홈 중재 서버를 사용 합니다.</P>
 > <LI>
-> <P>온-프레미스 세션 경계 컨트롤러 (SBC)를 사용 하 여 중재 서버와 SIP 트렁크 공급자 서비스 간의 안전한 구분 점을 지점을 제공 합니다.</P></LI></UL>두 번째 방법을 사용할 경우 선택한 SBC 작성 및 모델이 인증되었는지 확인하고 PIDF-LO(Presence Information Data Format Location Object) 위치 데이터를 SIP INVITE의 일부로 전달하도록 지원하는지 확인합니다. 그렇지 않으면 해당 위치 정보가 제거된 상태로 통화가 긴급 서비스 제공자에게 도착합니다. 인증 된 SBCs에 대 한 자세한 내용은의 "Microsoft Lync의 인프라 자격 <A href="http://go.microsoft.com/fwlink/p/?linkid=248425">http://go.microsoft.com/fwlink/p/?LinkId=248425</A>확인"을 참조 하세요.<BR>E9-1-1 서비스 공급자는 중복성을 위해 한 쌍의 SBCs 액세스를 제공 합니다. 중재 서버 토폴로지 및 통화 라우팅 구성과 관련 하 여 몇 가지 사항을 결정 해야 합니다. 두 개의 모든 사용자를 동일한 피어로 처리 하 고 이러한 통화 간 호출에 라운드 로빈 라우팅을 사용 하 시겠습니까?
+> <P>온-프레미스 세션 경계 컨트롤러 (SBC)를 사용 하 여 중재 서버와 SIP 트렁크 공급자 서비스 간의 안전한 구분 점을 지점을 제공 합니다.</P></LI></UL>두 번째 방법을 사용할 경우 선택한 SBC 작성 및 모델이 인증되었는지 확인하고 PIDF-LO(Presence Information Data Format Location Object) 위치 데이터를 SIP INVITE의 일부로 전달하도록 지원하는지 확인합니다. 그렇지 않으면 해당 위치 정보가 제거된 상태로 통화가 긴급 서비스 제공자에게 도착합니다. 인증 된 SBCs에 대 한 자세한 내용은의 "Microsoft Lync의 인프라 자격 <A href="https://go.microsoft.com/fwlink/p/?linkid=248425">https://go.microsoft.com/fwlink/p/?LinkId=248425</A>확인"을 참조 하세요.<BR>E9-1-1 서비스 공급자는 중복성을 위해 한 쌍의 SBCs 액세스를 제공 합니다. 중재 서버 토폴로지 및 통화 라우팅 구성과 관련 하 여 몇 가지 사항을 결정 해야 합니다. 두 개의 모든 사용자를 동일한 피어로 처리 하 고 이러한 통화 간 호출에 라운드 로빈 라우팅을 사용 하 시겠습니까?
 
 
 

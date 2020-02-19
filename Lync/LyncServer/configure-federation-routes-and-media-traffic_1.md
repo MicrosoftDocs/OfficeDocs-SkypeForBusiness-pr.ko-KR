@@ -12,12 +12,12 @@ ms:contentKeyID: 49733860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9f4818e74bbc0f59900ebf7d8f0a2b79fcd003f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6fc7359a21d60c0c77028491af9fccdf21991c58
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006664"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136095"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>페더레이션 경로 및 미디어 트래픽 구성
 
@@ -41,7 +41,7 @@ ms.locfileid: "42006664"
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">Lync Server 2013로 나머지 사용자 이동</A></P>
 > <LI>
-> <P>"서버 및 서버 역할 제거"<A href="http://go.microsoft.com/fwlink/p/?linkid=268790">http://go.microsoft.com/fwlink/p/?LinkId=268790</A></P></LI></UL>
+> <P>"서버 및 서버 역할 제거"<A href="https://go.microsoft.com/fwlink/p/?linkid=268790">https://go.microsoft.com/fwlink/p/?LinkId=268790</A></P></LI></UL>
 
 
 

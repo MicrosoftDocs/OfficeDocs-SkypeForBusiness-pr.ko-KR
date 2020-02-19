@@ -12,18 +12,18 @@ ms:contentKeyID: 48183288
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24441af263d9ebd73f61d350f898e26fa89e6f48
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69ad97d578073e2b0f9ed08d929007c33e59b8fd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008280"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135715"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="install-operating-systems-and-prerequisite-software-on-servers-for-lync-server-2013"></a>Lync Server 2013의 서버에 운영 체제 및 필수 구성 요소 소프트웨어 설치
 
@@ -57,13 +57,13 @@ _**마지막으로 수정 된 항목:** 2014-07-24_
 
   - **Lync server 2013**   을 실행 하는 서버 lync server 2013 실행 서버에 대 한 운영 체제 요구 사항에 대 한 자세한 내용은 지원 가능성 설명서에서 [lync server 2013의 서버 및 도구 운영 체제 지원을](lync-server-2013-server-and-tools-operating-system-support.md) 참조 하십시오.
 
-  - **데이터베이스 서버**   백 엔드 데이터베이스, 보관 데이터베이스 및 모니터링 데이터베이스를 포함 하는 데이터베이스 서버의 운영 체제 요구 사항에 대 한 자세한 내용은 SQL Server 설명서를 참조 하십시오. SQL Server 2012의 경우 SQL Server 2012 온라인 설명서를 참조 하세요 [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015).
+  - **데이터베이스 서버**   백 엔드 데이터베이스, 보관 데이터베이스 및 모니터링 데이터베이스를 포함 하는 데이터베이스 서버의 운영 체제 요구 사항에 대 한 자세한 내용은 SQL Server 설명서를 참조 하십시오. SQL Server 2012의 경우 SQL Server 2012 온라인 설명서를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015).
 
 <div>
 
 
 > [!NOTE]
-> Windows Server&nbsp;2008&nbsp;R2 s p 1에 Lync Server 2013을 설치 하는 경우 먼저 Microsoft 기술 자료 문서 2646886, "FIX: 모듈에서" IIS 7.5의 insertentitybody 메서드를 호출 하면 힙 손상 발생 합니다. "(여기서 <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp는; kbid = 2646886</A>)에 설명 되어 있는 업데이트를 설치 해야 합니다.<BR>또한 기술 자료 문서, <A href="http://go.microsoft.com/fwlink/p/?linkid=506893">이벤트 id 32402, 61045은 Windows Server 2012 r 2에 설치 된 Lync Server 2013 프런트 엔드 서버</A>에 설명 된 대로 레지스트리를 수정 해야 합니다.
+> Windows Server&nbsp;2008&nbsp;R2 s p 1에 Lync Server 2013을 설치 하는 경우 먼저 Microsoft 기술 자료 문서 2646886, "FIX: 모듈에서" IIS 7.5의 insertentitybody 메서드를 호출 하면 힙 손상 발생 합니다. "(여기서 <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp는; kbid = 2646886</A>)에 설명 되어 있는 업데이트를 설치 해야 합니다.<BR>또한 기술 자료 문서, <A href="https://go.microsoft.com/fwlink/p/?linkid=506893">이벤트 id 32402, 61045은 Windows Server 2012 r 2에 설치 된 Lync Server 2013 프런트 엔드 서버</A>에 설명 된 대로 레지스트리를 수정 해야 합니다.
 
 
 
@@ -79,7 +79,7 @@ _**마지막으로 수정 된 항목:** 2014-07-24_
 
   - **Lync server 2013**   을 실행 하는 서버에 대 한 windows update lync server 2013을 실행 하는 서버에 필요한 windows update의 업데이트에 대 한 자세한 내용은 계획 설명서에서 [lync server 2013에 대 한 추가 소프트웨어 요구 사항을](lync-server-2013-additional-software-requirements.md) 참조 하십시오.
 
-  - **데이터베이스 서버**   백 엔드 데이터베이스, 보관 데이터베이스 및 모니터링 데이터베이스를 포함 하 여 데이터베이스 서버에 필요한 Windows Update 업데이트에 대 한 자세한 내용은 SQL Server 2012 설명서를 참조 하십시오. SQL Server 2012의 경우 SQL Server 2012 온라인 설명서를 참조 하세요 [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015).
+  - **데이터베이스 서버**   백 엔드 데이터베이스, 보관 데이터베이스 및 모니터링 데이터베이스를 포함 하 여 데이터베이스 서버에 필요한 Windows Update 업데이트에 대 한 자세한 내용은 SQL Server 2012 설명서를 참조 하십시오. SQL Server 2012의 경우 SQL Server 2012 온라인 설명서를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015).
 
 </div>
 
@@ -91,11 +91,11 @@ Lync Server 2013를 사용 하려면 서버에 다음과 같은 추가 소프트
 
   - **Lync server 2013**   을 실행 하는 서버의 필수 구성 요소 소프트웨어 lync server 2013 실행 서버에 대 한 추가 소프트웨어 필수 구성 요소는 배포 되는 서버 역할에 따라 다릅니다. 각 서버의 특정 소프트웨어 요구 사항에 대 한 자세한 내용은 계획 설명서에서 [Lync server 2013의 추가 소프트웨어 요구 사항을](lync-server-2013-additional-software-requirements.md) 참조 하십시오.
 
-  - **Windows identity foundation**   Lync server 2013에서는 서버 간 인증 시나리오를 지원 하기 위해 windows identity foundation을 설치 해야 합니다. 컴퓨터에 이미 설치 되어 있는지 확인 하려면 제어판에서 **프로그램 및 기능**을 클릭 하 고 **설치 된 업데이트를 확인**한 다음 **Microsoft Windows**를 확인 하세요. Windows Identity Foundation을 설치 하는 방법에 [http://go.microsoft.com/fwlink/p/?linkId=204657](http://go.microsoft.com/fwlink/p/?linkid=204657)대 한 자세한 내용은를 참조 하세요.
+  - **Windows identity foundation**   Lync server 2013에서는 서버 간 인증 시나리오를 지원 하기 위해 windows identity foundation을 설치 해야 합니다. 컴퓨터에 이미 설치 되어 있는지 확인 하려면 제어판에서 **프로그램 및 기능**을 클릭 하 고 **설치 된 업데이트를 확인**한 다음 **Microsoft Windows**를 확인 하세요. Windows Identity Foundation을 설치 하는 방법에 [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)대 한 자세한 내용은를 참조 하세요.
 
   - **Microsoft .net framework 4.5**   Lync Server 2013을 사용 하려면 64 비트 버전의 microsoft .net framework 4.5이 필요 합니다.
 
-  - **데이터베이스 서버용**   필수 구성 요소 소프트웨어 백 엔드 데이터베이스, 보관 데이터베이스 및 모니터링 데이터베이스를 포함 하 여 데이터베이스 서버에 필요한 Windows 업데이트에 대 한 자세한 내용은 SQL Server 2012 설명서를 참조 하십시오 [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015).
+  - **데이터베이스 서버용**   필수 구성 요소 소프트웨어 백 엔드 데이터베이스, 보관 데이터베이스 및 모니터링 데이터베이스를 포함 하 여 데이터베이스 서버에 필요한 Windows 업데이트에 대 한 자세한 내용은 SQL Server 2012 설명서를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015).
     
     <div>
     

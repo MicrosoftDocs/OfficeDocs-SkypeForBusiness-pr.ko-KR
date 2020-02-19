@@ -12,18 +12,18 @@ ms:contentKeyID: 50873758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae209caef3910ad08d09391cb13de4e1e0ceb7a2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9207ff9d615990d0e944ac8c435561f0c937f089
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046001"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137567"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-or-modify-a-new-client-version-policy-rule-in-lync-server-2013"></a>Lync Server 2013에서 새 클라이언트 버전 정책 규칙 만들기 또는 수정
 

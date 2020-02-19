@@ -12,18 +12,18 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d9d4f61fabdca7a3f9cb4808efe952ec7ce3b2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6d284fa2082c886a583baf116893f792535a096b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037880"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="iis-configuration-in-lync-server-2013"></a>Lync Server 2013의 IIS 구성
 
@@ -45,7 +45,7 @@ Lync Server 2013, Standard Edition 또는 풀의 첫 번째 프런트 엔드 서
 
 
 > [!IMPORTANT]  
-> 조직에서 IIS 및 모든 웹 서비스를 시스템 드라이브 이외의 드라이브에 배치 해야 하는 경우에는 Lync Server 2013을 처음 설치할 때 설치 대화 상자에서 Lync Server 2013 파일의 설치 위치 경로를 변경할 수 있습니다. 관리 도구 IIS를 설치 하기 전에 관리 도구를 설치 합니다. OCSCore를 포함 하 여이 경로에 설치 파일을 설치 하는 경우 나머지 Lync Server 2013 파일은이 드라이브에도 배포 됩니다. Dtails의 경우 <A href="lync-server-2013-install-lync-server-administrative-tools.md">Lync Server 2013 관리 도구 설치</A>를 참조 하세요. IIS를 설치할 때 Windows Server 관리자가 배포한 INETPUB의 위치를 변경 하는 방법에 <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>대 한 자세한 내용은를 참조 하십시오.
+> 조직에서 IIS 및 모든 웹 서비스를 시스템 드라이브 이외의 드라이브에 배치 해야 하는 경우에는 Lync Server 2013을 처음 설치할 때 설치 대화 상자에서 Lync Server 2013 파일의 설치 위치 경로를 변경할 수 있습니다. 관리 도구 IIS를 설치 하기 전에 관리 도구를 설치 합니다. OCSCore를 포함 하 여이 경로에 설치 파일을 설치 하는 경우 나머지 Lync Server 2013 파일은이 드라이브에도 배포 됩니다. Dtails의 경우 <A href="lync-server-2013-install-lync-server-administrative-tools.md">Lync Server 2013 관리 도구 설치</A>를 참조 하세요. IIS를 설치할 때 Windows Server 관리자가 배포한 INETPUB의 위치를 변경 하는 방법에 <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>대 한 자세한 내용은를 참조 하십시오.
 
 
 
@@ -155,7 +155,7 @@ Windows Server 2008 R2 SP1 x64 운영 체제에서 Windows PowerShell 2.0를 사
 
 
 > [!NOTE]  
-> 익명 인증은 기본적으로 IIS 서버 역할과 함께 설치 됩니다. IIS를 설치한 후 익명 인증을 관리할 수 있습니다. 자세한 내용은에서 <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>"익명 인증 사용 (IIS 7)"을 참조 하십시오.
+> 익명 인증은 기본적으로 IIS 서버 역할과 함께 설치 됩니다. IIS를 설치한 후 익명 인증을 관리할 수 있습니다. 자세한 내용은에서 <A href="https://go.microsoft.com/fwlink/p/?linkid=203935">https://go.microsoft.com/fwlink/p/?linkId=203935</A>"익명 인증 사용 (IIS 7)"을 참조 하십시오.
 
 
 
@@ -167,7 +167,7 @@ Windows Server 2008 R2 SP1 x64 운영 체제에서 Windows PowerShell 2.0를 사
 
 
 > [!NOTE]  
-> Windows Server 2012 및 Windows Server 2012 r 2의 경우 Add-windowsfeature cmdlet은 add-windowsfeature cmdlet으로 대체 되었습니다. 자세한 내용은 <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-add-windowsfeature</A>를 참조 하십시오.
+> Windows Server 2012 및 Windows Server 2012 r 2의 경우 Add-windowsfeature cmdlet은 add-windowsfeature cmdlet으로 대체 되었습니다. 자세한 내용은 <A href="https://go.microsoft.com/fwlink/p/?linkid=392274">Install-add-windowsfeature</A>를 참조 하십시오.
 
 
 

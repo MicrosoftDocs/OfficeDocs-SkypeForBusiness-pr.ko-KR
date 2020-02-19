@@ -12,18 +12,18 @@ ms:contentKeyID: 49733747
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd73e1356e42aca8dc4159143287371dd66f0688
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4d77d39cfa1483db9251d038f876f8e91428ae23
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037970"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135675"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-av-conferencing-in-lync-server-2013"></a>Lync Server 2013의 A/V 회의 개요
 
@@ -43,7 +43,7 @@ A/V 회의를 계획하려면 조직에서 사용할 회의 미디어 유형에 
 
 사용자가 A/V 회의를 사용할 수 있도록 설정하기 전에 네트워크에서 결과 부하를 처리할 수 있는지 확인해야 합니다. 네트워크 대역폭이 부족하면 최종 사용자의 환경이 크게 저하될 수 있습니다. CAC(통화 허용 제어)를 사용하여 A/V 회의에 사용되는 네트워크 대역폭을 관리할 수 있습니다. 이것은 중앙 사이트와 분기 사이트 간 제한된 대역폭 링크와 같은 제한적인 네트워크에서 중요합니다. 자세한 내용은 [Lync Server 2013의 통화 허용 제어 개요](lync-server-2013-overview-of-call-admission-control.md)를 참조 하세요. 미디어 대역폭 요구 사항에 대 한 자세한 내용은 [Lync Server 2013의 미디어 트래픽에 대 한 네트워크 대역폭 요구 사항을](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)참조 하세요.
 
-오디오 회의를 네트워크에 배포한 경우 사용자는 헤드셋과 같은 오디오 장치가 있어야 오디오 회의에 참가할 수 있습니다. 또한 비디오 회의를 배포한 경우 사용자를 위해 웹캠과 같은 비디오 장치를 배포해야 합니다. 모든 장치 유형에 대해 Microsoft에서 인증 한 UC (통합 통신) 장치를 사용 하 여 최적의 사용자 환경을 유지 하는 것이 좋습니다. UC 인증 장치에 대 한 자세한 내용은 "Lync 용 전화 및 장치"를 참조 [http://go.microsoft.com/fwlink/p/?LinkId=263861](http://go.microsoft.com/fwlink/p/?linkid=263861)하세요. 오디오 또는 비디오 장치의 경우 장치 배포 및 사용자 교육을 고려하고 계획해야 합니다.
+오디오 회의를 네트워크에 배포한 경우 사용자는 헤드셋과 같은 오디오 장치가 있어야 오디오 회의에 참가할 수 있습니다. 또한 비디오 회의를 배포한 경우 사용자를 위해 웹캠과 같은 비디오 장치를 배포해야 합니다. 모든 장치 유형에 대해 Microsoft에서 인증 한 UC (통합 통신) 장치를 사용 하 여 최적의 사용자 환경을 유지 하는 것이 좋습니다. UC 인증 장치에 대 한 자세한 내용은 "Lync 용 전화 및 장치"를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=263861](https://go.microsoft.com/fwlink/p/?linkid=263861)하세요. 오디오 또는 비디오 장치의 경우 장치 배포 및 사용자 교육을 고려하고 계획해야 합니다.
 
 다음 섹션에서는 대역폭 관리와 적절한 클라이언트 선택에 대한 정보를 비롯하여 오디오 회의 및 비디오 회의 기능에 대해 설명합니다.
 

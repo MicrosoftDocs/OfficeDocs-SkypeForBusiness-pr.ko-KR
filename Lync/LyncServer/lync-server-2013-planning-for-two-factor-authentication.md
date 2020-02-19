@@ -12,18 +12,18 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba76bbc896c1da2929a584611af0607a51d5afcc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b973a1eeb704788eb07e02afc502ac4bbe41544c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050250"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139279"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>Lync Server 2013의 2 단계 인증 계획
 
@@ -192,7 +192,7 @@ REG\_DWORD: SavePassword
 
 AD FS 2.0는 동일한 토큰을 사용 하는 여러 토큰 요청을 검색 한 다음 삭제할 수 있는 토큰 재생 검색 이라는 기능을 제공 합니다. 이 기능을 사용 하도록 설정 하면 토큰 재생 검색 기능이 WS-FEDERATION 수동 프로필과 SAML Websso) 프로필 둘 다에서 인증 요청의 무결성을 보호 하 여 동일한 토큰을 두 번 이상 사용 하지 않도록 합니다.
 
-이 기능은 보안을 사용 하는 경우 키오스크를 사용할 때와 같이 보안이 매우 중요 한 상황에서 사용 하도록 설정 해야 합니다. 토큰 재생 검색에 대 한 자세한 내용은 Secure FS 2.0의 보안 계획 및 배포 모범 사례를 참조 하세요 [http://go.microsoft.com/fwlink/p/?LinkId=309215](http://go.microsoft.com/fwlink/p/?linkid=309215).
+이 기능은 보안을 사용 하는 경우 키오스크를 사용할 때와 같이 보안이 매우 중요 한 상황에서 사용 하도록 설정 해야 합니다. 토큰 재생 검색에 대 한 자세한 내용은 Secure FS 2.0의 보안 계획 및 배포 모범 사례를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215).
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91f0b3396bed8944f8ac0bd3f7f06178153e28db
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 097262cc3a4ba4b56cd023bc5174d881426deff2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006384"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137919"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="how-user-photos-are-displayed-in-lync"></a>Lync에서 사용자 사진이 표시 되는 방식
 
@@ -93,11 +93,11 @@ Active Directory 도메인 서비스에서 이미지를 사용할 때 고려해 
 
 사용자는 Lync 2010 클라이언트를 통해 Active Directory 도메인 서비스 프로필에 사용 되는 이미지를 직접 변경할 수 없습니다. 사용 가능한 경우 다음 옵션 중 하나를 사용 하 여이 작업을 수행할 수 있습니다.
 
-  - **Sharepoint server**   사용자는 sharepoint server의 ' 내 사이트 '에 사진을 업로드 한 다음 [sharepoint에서 프로필 동기화를 구성](http://go.microsoft.com/fwlink/p/?linkid=507466) 하 여 Active Directory 도메인 서비스의 **thumbnailPhoto** 특성에 사진을 동기화 할 수 있습니다.
+  - **Sharepoint server**   사용자는 sharepoint server의 ' 내 사이트 '에 사진을 업로드 한 다음 [sharepoint에서 프로필 동기화를 구성](https://go.microsoft.com/fwlink/p/?linkid=507466) 하 여 Active Directory 도메인 서비스의 **thumbnailPhoto** 특성에 사진을 동기화 할 수 있습니다.
 
   - **공개적으로 액세스할**   수 있는 url에 저장 된 사진 사용자가 사용 하려는 이미지에 대해 공개적으로 액세스할 수 있는 url을 지정 하는 사용자 사진을 구성할 수도 있습니다. 이미지는 암호 없이 공개적으로 액세스할 수 있어야 합니다. 지정한 웹 주소에 저장 된 이미지는 현재 상태 정보의 대화 상대 카드 범주를 통해 다른 사용자에 게 전송 됩니다. Lync 클라이언트에서 사용자 사진을 표시 해야 하는 경우에는 지정 된 웹 주소에서 이미지를 검색 합니다.
 
-  - **Windows PowerShell**   관리자 용 exchange 2010 cmdlet은의 exchange 2010 관리 셸에서 [import-recipientdataproperty](http://go.microsoft.com/fwlink/p/?linkid=507468) cmdlet을 실행 하 여 **thumbnailPhoto** 특성을 관리할 수 있습니다. Exchange 2010 cmdlet을 사용 하 여 이미지를 가져올 때 파일 크기는 10kb로 제한 됩니다.
+  - **Windows PowerShell**   관리자 용 exchange 2010 cmdlet은의 exchange 2010 관리 셸에서 [import-recipientdataproperty](https://go.microsoft.com/fwlink/p/?linkid=507468) cmdlet을 실행 하 여 **thumbnailPhoto** 특성을 관리할 수 있습니다. Exchange 2010 cmdlet을 사용 하 여 이미지를 가져올 때 파일 크기는 10kb로 제한 됩니다.
 
   - **타사 도구**   사용자는 **thumbnailPhoto** 특성에 대해 자신의 사진만 업로드할 수 있습니다.
 
@@ -113,7 +113,7 @@ Active Directory 도메인 서비스에서 이미지를 사용할 때 고려해 
 
 웹 주소에서 이미지를 사용할 때 고려해 야 할 사항은 다음과 같습니다.
 
-  - 파일 크기 제한은 [새-CsClientPolicy](http://go.microsoft.com/fwlink/p/?linkid=507463) cmdlet을 사용 하 여 정의 되는 클라이언트 정책의 **maxphotosizekb** 특성에 의해 결정 됩니다. 기본 크기 제한은 30kb입니다. 최대값은 100입니다. 이미지 해상도에 대 한 제한은 없지만 크기 제한을 초과 하는 이미지 파일을 사용 하려고 하면 Lync 클라이언트에 다운로드 되지 않습니다. 이 값을 0으로 설정 하 여 모든 사용자 사진이 Lync에서 사용 되지 않도록 설정할 수 있습니다.
+  - 파일 크기 제한은 [새-CsClientPolicy](https://go.microsoft.com/fwlink/p/?linkid=507463) cmdlet을 사용 하 여 정의 되는 클라이언트 정책의 **maxphotosizekb** 특성에 의해 결정 됩니다. 기본 크기 제한은 30kb입니다. 최대값은 100입니다. 이미지 해상도에 대 한 제한은 없지만 크기 제한을 초과 하는 이미지 파일을 사용 하려고 하면 Lync 클라이언트에 다운로드 되지 않습니다. 이 값을 0으로 설정 하 여 모든 사용자 사진이 Lync에서 사용 되지 않도록 설정할 수 있습니다.
 
   - 웹 주소의 사용자 사진은 외부 페더레이션 대화 상대에 게 표시 될 수 있습니다.
 
@@ -123,7 +123,7 @@ Active Directory 도메인 서비스에서 이미지를 사용할 때 고려해 
 
 ## <a name="managing-users-photo-with-client-policy-cmdlets"></a>클라이언트 정책 cmdlet을 사용 하 여 사용자 사진 관리
 
-Lync Server 2010에서는 클라이언트 정책 설정이 CsClientPolicy cmdlet을 사용 하 여 구성 됩니다. 구성 된 정책 설정은 대역내 프로 비전을 통해 클라이언트에 게 전송 됩니다. 사용자 사진 환경을 결정 하는 CsClientPolicy cmdlet의 두 매개 변수는 **DisplayPhoto** 및 **Maxphoto sizekb(** 입니다. **DisplayPhoto** 및 **Maxphotosizekb** 해당 하는 대역내 프로 비전 매개 변수는 **PhotoUsage**로 지정 됩니다. **PhotoUsage** 매개 변수의 값은 **endpointConfiguration** **provisionGroup**를 통해 클라이언트로 전송 됩니다. 자세한 내용은 [클라이언트 정책 및 설정 개요](http://go.microsoft.com/fwlink/?linkid=507470) 를 참조 하세요.
+Lync Server 2010에서는 클라이언트 정책 설정이 CsClientPolicy cmdlet을 사용 하 여 구성 됩니다. 구성 된 정책 설정은 대역내 프로 비전을 통해 클라이언트에 게 전송 됩니다. 사용자 사진 환경을 결정 하는 CsClientPolicy cmdlet의 두 매개 변수는 **DisplayPhoto** 및 **Maxphoto sizekb(** 입니다. **DisplayPhoto** 및 **Maxphotosizekb** 해당 하는 대역내 프로 비전 매개 변수는 **PhotoUsage**로 지정 됩니다. **PhotoUsage** 매개 변수의 값은 **endpointConfiguration** **provisionGroup**를 통해 클라이언트로 전송 됩니다. 자세한 내용은 [클라이언트 정책 및 설정 개요](https://go.microsoft.com/fwlink/?linkid=507470) 를 참조 하세요.
 
 **DisplayPhoto** 매개 변수 값은 사용자의 사진 이미지 원본을 결정 합니다. 다음 표에는 지원 되는 값이 포함 되어 있습니다.
 
@@ -175,7 +175,7 @@ Lync 2010에서는 사용자 사진이 주소록 서비스에 의해 서버에�
 
 
 > [!NOTE]  
-> 사진이 GalContacts 데이터베이스에 저장 되지 않기 때문에 사용자 사진을 다운로드 하는 것은 클라이언트 정책 (<A href="http://go.microsoft.com/fwlink/p/?linkid=507508">설정-CsClientPolicy</A>)의 <STRONG>addressbookavailability</STRONG> 설정에 종속 되지 않습니다.
+> 사진이 GalContacts 데이터베이스에 저장 되지 않기 때문에 사용자 사진을 다운로드 하는 것은 클라이언트 정책 (<A href="https://go.microsoft.com/fwlink/p/?linkid=507508">설정-CsClientPolicy</A>)의 <STRONG>addressbookavailability</STRONG> 설정에 종속 되지 않습니다.
 
 
 
@@ -248,7 +248,7 @@ Exchange 2013이 배포에 사용 되지 않는 경우 사용자 사진에 대 �
 
 ## <a name="show-a-picture-from-a-website"></a>웹 사이트에서 그림 표시
 
-클라이언트 정책이 사용 하도록 설정 된 후 **웹 사이트에서 그림 표시** 옵션을 Lync 2013에서 사용할 수 있습니다. 클라이언트 버전은 [Lync 누적 업데이트: 11 월 2013](http://go.microsoft.com/fwlink/p/?linkid=509908)에 설치 된 15.0.4535.1002 보다 최신 이어야 합니다. 사용자가 로그 아웃 한 다음 다시 로그인 하 여 클라이언트의 변경 내용을 확인 해야 할 수 있습니다.
+클라이언트 정책이 사용 하도록 설정 된 후 **웹 사이트에서 그림 표시** 옵션을 Lync 2013에서 사용할 수 있습니다. 클라이언트 버전은 [Lync 누적 업데이트: 11 월 2013](https://go.microsoft.com/fwlink/p/?linkid=509908)에 설치 된 15.0.4535.1002 보다 최신 이어야 합니다. 사용자가 로그 아웃 한 다음 다시 로그인 하 여 클라이언트의 변경 내용을 확인 해야 할 수 있습니다.
 
 Lync Server 관리 셸에서는 [CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) 정책을 실행 하 여 **웹 사이트 설정에서 그림을 표시** 하도록 클라이언트 정책을 설정할 수 있습니다. 다음 예제 cmdlet은 배포의 모든 사용자에 대해 정책을 전역적으로 설정 하는 방법을 보여 줍니다.
 

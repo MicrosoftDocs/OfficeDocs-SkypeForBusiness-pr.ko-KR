@@ -13,18 +13,18 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24c5c530b51b24b23f266786cd763994c4798d1b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 542ee4d581d4df26a528a14fda5de792c2a2ad09
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41999193"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136125"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-clients-for-migration"></a>마이그레이션을 위한 클라이언트 구성
 
@@ -48,13 +48,13 @@ _**마지막으로 수정 된 항목:** 2013-11-21_
     
       - [Office Communications Server 2007 R2 업데이트 적용](apply-office-communications-server-2007-r2-updates.md)
     
-      - [Communicator 2007 R2의 누적 업데이트 패키지에 대 한 설명](http://go.microsoft.com/fwlink/p/?linkid=335808)
+      - [Communicator 2007 R2의 누적 업데이트 패키지에 대 한 설명](https://go.microsoft.com/fwlink/p/?linkid=335808)
     
-      - [장치의 소프트웨어 업데이트 가져오기](http://go.microsoft.com/fwlink/?linkid=335809)
+      - [장치의 소프트웨어 업데이트 가져오기](https://go.microsoft.com/fwlink/?linkid=335809)
 
 2.  Office Communications Server 2007 R2에서 클라이언트 버전 필터링을 사용 하 여 Office Communications Server 2007 R2 클라이언트만 설치 된 최신 업데이트를 허용 하 고 로그인 합니다.
 
-3.  Office Communications Server 2007 R2에서 클라이언트 버전 필터링을 사용 하 여 Lync Server 2013 클라이언트가 로그인 하지 못하도록 차단 합니다. 다음 표에 나와 있는 버전 필터 [http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488) 를 추가 하려면 **클라이언트 버전 필터링 구성** 에 설명 된 단계를 수행 합니다. 각 버전 필터에 대해 **차단** 동작을 지정합니다.
+3.  Office Communications Server 2007 R2에서 클라이언트 버전 필터링을 사용 하 여 Lync Server 2013 클라이언트가 로그인 하지 못하도록 차단 합니다. 다음 표에 나와 있는 버전 필터 [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) 를 추가 하려면 **클라이언트 버전 필터링 구성** 에 설명 된 단계를 수행 합니다. 각 버전 필터에 대해 **차단** 동작을 지정합니다.
     
     
     <table>

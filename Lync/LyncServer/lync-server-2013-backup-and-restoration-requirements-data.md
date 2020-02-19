@@ -12,18 +12,18 @@ ms:contentKeyID: 51541526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4688c143a16ffd7113a03172274436f7c1371694
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5ca6823c1f3e8265f7b06ea0d175b58d42ef4a08
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029229"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135745"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Lync Server 2013의 백업 및 복원 요구 사항: 데이터
 
@@ -213,7 +213,7 @@ Enterprise Edition 배포에서 Lync Server 파일 저장소는 일반적으로 
     
       - Kerberos 인증 계정 (선택적 컴퓨터 개체) 및 Lync Server 보안 그룹
     
-    Windows Server 2008에서 AD DS를 백업 및 복원 하는 방법에 대 한 자세한 내용은의 "AD DS 백업 및 복구 단계별 가이드"를 [http://go.microsoft.com/fwlink/p/?linkId=209105](http://go.microsoft.com/fwlink/p/?linkid=209105)참조 하세요.
+    Windows Server 2008에서 AD DS를 백업 및 복원 하는 방법에 대 한 자세한 내용은의 "AD DS 백업 및 복구 단계별 가이드"를 [https://go.microsoft.com/fwlink/p/?linkId=209105](https://go.microsoft.com/fwlink/p/?linkid=209105)참조 하세요.
 
   - **인증 기관 및 인증서**   는 CA (인증 기관) 및 인증서를 백업 하는 데 조직의 정책을 사용 합니다. 내보낼 수 있는 개인 키를 사용 하는 경우에는 인증서와 개인 키를 백업한 다음이 문서의 절차를 사용 하 여 Lync Server를 복원 하는 경우이를 내보냅니다. 내부 CA를 사용 하는 경우 Lync Server를 복원 해야 하는 경우 다시 등록할 수 있습니다. 개인 키는 컴퓨터에 문제가 발생했을 때 사용할 수 있도록 안전한 위치에 보관해야 합니다.
 
@@ -221,11 +221,11 @@ Enterprise Edition 배포에서 Lync Server 파일 저장소는 일반적으로 
 
   - **공중 전화망 (PSTN) 게이트웨이 구성**   Enterprise Voice 또는 sba (survivable Branch 기기를 사용 하는 경우 pstn 게이트웨이 구성을 백업 해야 합니다. PSTN 게이트웨이 구성의 백업 및 복원에 대한 자세한 내용은 공급업체에 문의하십시오.
 
-  - **Lync server 또는 office communications server**   의 동시 버전 사용 lync server 2013 배포가 lync server 2010 또는 이전 버전의 Office communications server와 함께 존재 하는 경우이 문서의 절차를 사용 하 여 이전 버전을 백업 하거나 복원할 수 없습니다. 대신 이전 버전에 대해 설명된 백업 및 복원 절차를 따라야 합니다. Lync Server 2010의 백업 및 복원에 대 한 자세한 내용은 [http://go.microsoft.com/fwlink/p/?linkId=265417](http://go.microsoft.com/fwlink/p/?linkid=265417) 를 참조 하세요. Microsoft Office Communications Server 2007 R2를 백업 및 복원 하는 방법에 대 [http://go.microsoft.com/fwlink/p/?linkId=168162](http://go.microsoft.com/fwlink/p/?linkid=168162)한 자세한 내용은를 참조 하세요.
+  - **Lync server 또는 office communications server**   의 동시 버전 사용 lync server 2013 배포가 lync server 2010 또는 이전 버전의 Office communications server와 함께 존재 하는 경우이 문서의 절차를 사용 하 여 이전 버전을 백업 하거나 복원할 수 없습니다. 대신 이전 버전에 대해 설명된 백업 및 복원 절차를 따라야 합니다. Lync Server 2010의 백업 및 복원에 대 한 자세한 내용은 [https://go.microsoft.com/fwlink/p/?linkId=265417](https://go.microsoft.com/fwlink/p/?linkid=265417) 를 참조 하세요. Microsoft Office Communications Server 2007 R2를 백업 및 복원 하는 방법에 대 [https://go.microsoft.com/fwlink/p/?linkId=168162](https://go.microsoft.com/fwlink/p/?linkid=168162)한 자세한 내용은를 참조 하세요.
 
   - **인프라 정보**   방화벽 구성, 부하 분산 구성, IIS (인터넷 정보 서비스) 구성, DNS (Domain Name System) 레코드 및 IP 주소, 동적 호스트 구성 프로토콜 (DHCP) 구성 등 인프라에 대 한 정보를 백업 해야 합니다. 이러한 구성 요소의 백업에 대한 자세한 내용은 해당 공급업체에 문의하십시오.
 
-  - **Microsoft exchange 및 exchange um (통합 메시징)**   은 microsoft exchange 설명서에 설명 된 대로 microsoft exchange 및 exchange um을 백업 하 고 복원 합니다. Exchange Server 2013 백업 및 복원에 대 한 자세한 내용은를 [http://go.microsoft.com/fwlink/?LinkId=285384](http://go.microsoft.com/fwlink/?linkid=285384)참조 하세요. Exchange Server 2010 백업 및 복원에 대 한 자세한 내용은를 [http://go.microsoft.com/fwlink/p/?linkId=209179](http://go.microsoft.com/fwlink/p/?linkid=209179)참조 하세요.
+  - **Microsoft exchange 및 exchange um (통합 메시징)**   은 microsoft exchange 설명서에 설명 된 대로 microsoft exchange 및 exchange um을 백업 하 고 복원 합니다. Exchange Server 2013 백업 및 복원에 대 한 자세한 내용은를 [https://go.microsoft.com/fwlink/?LinkId=285384](https://go.microsoft.com/fwlink/?linkid=285384)참조 하세요. Exchange Server 2010 백업 및 복원에 대 한 자세한 내용은를 [https://go.microsoft.com/fwlink/p/?linkId=209179](https://go.microsoft.com/fwlink/p/?linkid=209179)참조 하세요.
     
     Lync Server 2013에서는 Exchange 2013에 저장 된 사용자 연락처 목록, 고화질 사용자 사진 및 보관 데이터를 포함 하는 기능을 소개 합니다. 이러한 유형의 데이터를 백업 하는 방법을 보려면 다음 목록을 참조 하세요.
     

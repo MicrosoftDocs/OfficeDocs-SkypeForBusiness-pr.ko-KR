@@ -12,18 +12,18 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 849e74fb4857dd7b3ab98b8a8efd9c3ce3781e35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e35627633839f294cebced6df47a90919e7fc5ef
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043040"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139159"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-call-quality-methodology-in-lync-server-2013"></a>Lync Server 2013의 lync 통화 품질 방법론
 
@@ -37,7 +37,7 @@ ms.locfileid: "42043040"
 
 _**마지막으로 수정 된 항목:** 2016-06-24_
 
-이 문서는 다운로드 센터에서 다운로드할 수 있는 [Lync 통화 품질 방법론](http://go.microsoft.com/fwlink/?linkid=391841) 포스터와 함께 제공 됩니다.
+이 문서는 다운로드 센터에서 다운로드할 수 있는 [Lync 통화 품질 방법론](https://go.microsoft.com/fwlink/?linkid=391841) 포스터와 함께 제공 됩니다.
 
 ![CQM 프로세스를 설명 하는 포스터](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "CQM 프로세스를 설명 하는 포스터")
 
@@ -71,7 +71,7 @@ CQM을 사용 하는 방법에 대 한 질문이 있는 경우 cqmfeedback@micro
 
 ## <a name="what-is-lync-cqm"></a>Lync CQM 란?
 
-통화 품질 방법론은 Lync에서 enterprise voice services를 개선 하기 위한 노력을 보다 효율적으로 수행할 수 있는 새로운 문제 해결 및 서비스 관리 프레임 워크입니다. CQM을 사용 하는 경우 enterprise voice 서비스에 대 한 통화 품질과 사용자 만족도를 보장 하기 위해 노력을 덜 필요가 있습니다. CQM는 [통화 품질 방법론](http://go.microsoft.com/fwlink/p/?linkid=615208)에 더 자세히 설명 되어 있습니다. 이 문서와 포스터는 해당 콘텐츠의 요약입니다.
+통화 품질 방법론은 Lync에서 enterprise voice services를 개선 하기 위한 노력을 보다 효율적으로 수행할 수 있는 새로운 문제 해결 및 서비스 관리 프레임 워크입니다. CQM을 사용 하는 경우 enterprise voice 서비스에 대 한 통화 품질과 사용자 만족도를 보장 하기 위해 노력을 덜 필요가 있습니다. CQM는 [통화 품질 방법론](https://go.microsoft.com/fwlink/p/?linkid=615208)에 더 자세히 설명 되어 있습니다. 이 문서와 포스터는 해당 콘텐츠의 요약입니다.
 
 CQM에서는 시스템 문제 해결을 세 가지 경로 또는 "도로 구분 합니다."로 나눕니다. 여기에는 서버 플랜트도로, 서버와 이러한 간의 링크를 보여 주는, 사용자 장치 및 미디어를 통화 하는 데 사용 되는 끝점, 마지막 마일도로, 그리고 전통적인 스위칭 전화 네트워크 통화의 통합을 해결 하는 끝 점 이동도 있습니다.
 
@@ -204,9 +204,9 @@ IP 패킷은 TCP (전송 제어 프로토콜) 또는 UDP (사용자 데이터 �
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 네트워킹 가이드](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[주요 상태 지표: 정상 Lync Server를 유지 관리 하기 위한 기본 사항](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Lync 통화 품질 방법론](http://go.microsoft.com/fwlink/?linkid=391841)  
+[Lync Server 네트워킹 가이드](https://go.microsoft.com/fwlink/p/?linkid=390677)  
+[주요 상태 지표: 정상 Lync Server를 유지 관리 하기 위한 기본 사항](https://go.microsoft.com/fwlink/?linkid=391838)  
+[Lync 통화 품질 방법론](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 
 </div>

@@ -12,18 +12,18 @@ ms:contentKeyID: 49733853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c92f88d35e573f0914698db28ddcf1fa54967f97
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 686d7d5d65af28127ad95b2911962d707887029a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049860"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="prerequisites-for-integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Microsoft Lync Server 2013 및 Microsoft Exchange Server 2013 통합을 위한 필수 구성 요소
 
@@ -37,9 +37,9 @@ ms.locfileid: "42049860"
 
 _**마지막으로 수정 된 항목:** 2014-04-22_
 
-Microsoft Lync Server 2013 및 Microsoft Exchange Server 2013를 통합 하려면 먼저 모든 필수 구성 단계가 완료 되었는지 확인 해야 합니다. 예상할 수 있듯이 Exchange 2013와 Lync Server 2013가 모두 설치 되 고 실행 될 때 까지는 통합이 수행 될 수 없습니다. Exchange를 설치 하는 방법에 대 한 자세한 내용은에서 [http://go.microsoft.com/fwlink/p/?LinkId=268539](http://go.microsoft.com/fwlink/p/?linkid=268539)Exchange 2013 계획 및 배포 설명서를 참조 하세요. Lync Server 2013을 설치 하는 방법에 대 한 자세한 내용은의 계획 [http://go.microsoft.com/fwlink/p/?LinkId=254806](http://go.microsoft.com/fwlink/p/?linkid=254806)및 배포 설명서를 참조 하세요.
+Microsoft Lync Server 2013 및 Microsoft Exchange Server 2013를 통합 하려면 먼저 모든 필수 구성 단계가 완료 되었는지 확인 해야 합니다. 예상할 수 있듯이 Exchange 2013와 Lync Server 2013가 모두 설치 되 고 실행 될 때 까지는 통합이 수행 될 수 없습니다. Exchange를 설치 하는 방법에 대 한 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?LinkId=268539](https://go.microsoft.com/fwlink/p/?linkid=268539)Exchange 2013 계획 및 배포 설명서를 참조 하세요. Lync Server 2013을 설치 하는 방법에 대 한 자세한 내용은의 계획 [https://go.microsoft.com/fwlink/p/?LinkId=254806](https://go.microsoft.com/fwlink/p/?linkid=254806)및 배포 설명서를 참조 하세요.
 
-서버를 실행 한 후에 서버 간 인증 인증서를 Lync Server 2013 및 Exchange 2013 둘 다에 할당 해야 합니다. 이러한 인증서를 통해 Lync Server와 Exchange에서 정보를 교환 하 고 서로 통신할 수 있습니다. Exchange 2013을 설치 하면 Microsoft Exchange Server 인증 인증서 이름이 포함 된 자체 서명 된 인증서가 만들어집니다. 로컬 컴퓨터 인증서 저장소에서 찾을 수 있는이 인증서는 Exchange 2013에서 서버 간 인증에 사용 해야 합니다. Exchange 2013에서 인증서를 할당 하는 방법에 대 한 자세한 내용은에서 [http://go.microsoft.com/fwlink/p/?LinkId=268540](http://go.microsoft.com/fwlink/p/?linkid=268540)"메일 흐름 및 클라이언트 액세스 구성"을 참조 하십시오.
+서버를 실행 한 후에 서버 간 인증 인증서를 Lync Server 2013 및 Exchange 2013 둘 다에 할당 해야 합니다. 이러한 인증서를 통해 Lync Server와 Exchange에서 정보를 교환 하 고 서로 통신할 수 있습니다. Exchange 2013을 설치 하면 Microsoft Exchange Server 인증 인증서 이름이 포함 된 자체 서명 된 인증서가 만들어집니다. 로컬 컴퓨터 인증서 저장소에서 찾을 수 있는이 인증서는 Exchange 2013에서 서버 간 인증에 사용 해야 합니다. Exchange 2013에서 인증서를 할당 하는 방법에 대 한 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?LinkId=268540](https://go.microsoft.com/fwlink/p/?linkid=268540)"메일 흐름 및 클라이언트 액세스 구성"을 참조 하십시오.
 
 Lync Server 2013의 경우 기존 Lync Server 인증서를 서버 간 인증 인증서로 사용할 수 있습니다. 예를 들어 기본 인증서를 OAuthTokenIssuer 인증서로 사용할 수도 있습니다. Lync Server 2013에서는 모든 웹 서버 인증서를 서버 간 인증을 위한 인증서로 사용할 수 있습니다.
 
@@ -73,7 +73,7 @@ Lync Server 2013 및 Exchange 2013를 통합 하려면 자동 검색 서비스�
 
     Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 
-자동 검색 서비스에 대 한 자세한 내용은의 "자동 검색 서비스 이해" [http://go.microsoft.com/fwlink/p/?LinkId=268542](http://go.microsoft.com/fwlink/p/?linkid=268542)를 참조 하십시오.
+자동 검색 서비스에 대 한 자세한 내용은의 "자동 검색 서비스 이해" [https://go.microsoft.com/fwlink/p/?LinkId=268542](https://go.microsoft.com/fwlink/p/?linkid=268542)를 참조 하십시오.
 
 자동 검색 서비스를 구성한 후에는 Lync Server OAuth 구성 설정을 수정 해야 합니다. 이를 통해 Lync Server는 자동 검색 서비스를 찾을 수 있는 위치를 알 있습니다. Lync Server 2013의 OAuth 구성 설정을 수정 하려면 Lync Server 관리 셸 내에서 다음 명령을 실행 합니다. 이 명령을 실행할 때는 Exchange 서버에서 실행 되는 자동 검색 서비스에 대 한 URI를 지정 하 고 자동 **검색** 을 사용 하 여 서비스에서 사용 되는 xml 파일을 가리키는 **자동** 검색 대신 서비스 위치를 가리키도록 해야 합니다.
 

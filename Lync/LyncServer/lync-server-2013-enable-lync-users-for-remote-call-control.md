@@ -12,18 +12,18 @@ ms:contentKeyID: 48185795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4baa6f18e92eb284cce8610ba576b30dd6d2f320
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e7e165efe4e9b679c5464a35aac1c4130840b801
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042615"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136245"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enable-lync-users-for-remote-call-control-in-lync-server-2013"></a>Lync Server 2013에서 Lync 사용자가 원격 통화 제어를 사용 하도록 설정
 
@@ -39,7 +39,7 @@ _**마지막으로 수정 된 항목:** 2012-09-21_
 
 서버 기반의 대역내 프로 비전 정책을 사용 하 여 원격 통화 제어에 대 한 Lync 사용자를 구성할 수 있습니다. Lync Server 제어판 또는 Lync Server 관리 셸 명령줄 인터페이스를 사용 하 여 대역내 프로 비전 설정을 관리할 수 있습니다. 이러한 도구는 이전 버전에서 그룹 정책 설정을 관리 하는 데 사용 된 WMI (Windows Management Instrumentation) 스냅인을 대체 합니다.
 
-사용자가 Lync에서 자체 원격 통화 제어 설정을 구성 하도록 하려면 **줄 서버 URI** 및 **줄 URI** 값을 지정 하지 않고 서버에서 사용자에 대 한 원격 통화 제어 설정을 구성 하면 됩니다. 적절 한 **회선 서버 URI** 및 **줄 uri** 값을 사용자에 게 전달 하 고 사용자에 게 이러한 설정을 구성 하기 위한 지침을 제공 해야 합니다. Lync Server에서 원격 통화 제어를 수동으로 구성 하는 절차는 Microsoft Office 웹 사이트의 Lync 클라이언트 설명서 <http://go.microsoft.com/fwlink/p/?linkid=210132> 에서 "전화 옵션 및 번호 설정"을 참조 하십시오.
+사용자가 Lync에서 자체 원격 통화 제어 설정을 구성 하도록 하려면 **줄 서버 URI** 및 **줄 URI** 값을 지정 하지 않고 서버에서 사용자에 대 한 원격 통화 제어 설정을 구성 하면 됩니다. 적절 한 **회선 서버 URI** 및 **줄 uri** 값을 사용자에 게 전달 하 고 사용자에 게 이러한 설정을 구성 하기 위한 지침을 제공 해야 합니다. Lync Server에서 원격 통화 제어를 수동으로 구성 하는 절차는 Microsoft Office 웹 사이트의 Lync 클라이언트 설명서 <https://go.microsoft.com/fwlink/p/?linkid=210132> 에서 "전화 옵션 및 번호 설정"을 참조 하십시오.
 
 기존 Communications Server 2007 R2 또는 Communications Server 2007 배포가 있는 경우 Communicator 2007 R2 및 Communicator 2007 클라이언트는 병행 마이그레이션 중에 그룹 정책을 계속 사용 합니다. 그러나 정책 설정을 Lync 클라이언트에 전달 하려면 해당 Lync Server 대역내 프로 비전 설정을 구성 해야 합니다.
 

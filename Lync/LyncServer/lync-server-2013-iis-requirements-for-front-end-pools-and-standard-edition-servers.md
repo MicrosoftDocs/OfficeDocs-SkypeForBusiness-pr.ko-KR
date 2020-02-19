@@ -12,18 +12,18 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc92cc4c27f7af395a8e41bec26679a27010562d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8efd91c3222e5918640c4a8b078d9fdd5ebcdaae
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037870"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136185"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 풀 및 Standard Edition 서버에 대 한 IIS 요구 사항
 
@@ -70,7 +70,7 @@ Lync Server를 사용 하려면 다음 IIS 모듈을 설치 해야 합니다.
 
 
 > [!IMPORTANT]
-> 조직에서 IIS 및 모든 웹 서비스를 시스템 드라이브가 아닌 다른 드라이브에 배치 해야 하는 경우 설치 대화 상자에서 Lync Server 파일의 설치 위치 경로를 변경할 수 있습니다. OCSCore를 포함 하 여이 경로에 설치 파일을 설치 하는 경우 나머지 Lync Server 파일이이 드라이브에도 배포 됩니다. IIS를 설치할 때 Windows Server 관리자가 배포한 INETPUB의 위치를 변경 하는 방법에 <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>대 한 자세한 내용은를 참조 하십시오.
+> 조직에서 IIS 및 모든 웹 서비스를 시스템 드라이브가 아닌 다른 드라이브에 배치 해야 하는 경우 설치 대화 상자에서 Lync Server 파일의 설치 위치 경로를 변경할 수 있습니다. OCSCore를 포함 하 여이 경로에 설치 파일을 설치 하는 경우 나머지 Lync Server 파일이이 드라이브에도 배포 됩니다. IIS를 설치할 때 Windows Server 관리자가 배포한 INETPUB의 위치를 변경 하는 방법에 <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>대 한 자세한 내용은를 참조 하십시오.
 
 
   - 정적 콘텐츠

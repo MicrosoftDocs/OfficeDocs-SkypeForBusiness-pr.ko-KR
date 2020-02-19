@@ -12,18 +12,18 @@ ms:contentKeyID: 49733746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c485293fe747a16cc9c2b392d053137105306da4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7802a3c69d895f87fbcf1553a1d2e737bf2d8f30
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049710"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140071"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013의 중앙 로깅 서비스 개요
 
@@ -61,7 +61,7 @@ ClsAgent는 로컬 컴퓨터에 있는 모든 .CACHE 파일의 인덱스 파일�
 
 </div>
 
-결과 로그 파일은 **Snooper.exe**를 비롯한 다양한 도구와 텍스트 파일을 읽을 수 있는 모든 도구(예: **Notepad.exe**)를 사용하여 읽고 분석할 수 있습니다. Snooper은 Lync Server 2013 디버그 도구에 속하며에서 [http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)웹으로 다운로드할 수 있습니다.
+결과 로그 파일은 **Snooper.exe**를 비롯한 다양한 도구와 텍스트 파일을 읽을 수 있는 모든 도구(예: **Notepad.exe**)를 사용하여 읽고 분석할 수 있습니다. Snooper은 Lync Server 2013 디버그 도구에 속하며에서 [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)웹으로 다운로드할 수 있습니다.
 
 OCSLogger와 마찬가지로, 중앙화 된 로깅 서비스에는 추적할 구성 요소가 몇 개 있으며, TF\_COMPONENT 및 tf\_DIAG와 같은 플래그를 선택할 수 있는 옵션을 제공 합니다. 또한 중앙화 된 로깅 서비스에는 OCSLogger의 로깅 수준 옵션도 유지 됩니다.
 

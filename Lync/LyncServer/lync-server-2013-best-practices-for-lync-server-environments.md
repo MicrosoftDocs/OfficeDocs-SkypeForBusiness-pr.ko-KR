@@ -12,18 +12,18 @@ ms:contentKeyID: 63969642
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d02d9ed669cf9404b1bf8d07db32c9d331769ec9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8c31d39ae7537fc53fc4e72c8b1c57863b2ba189
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041117"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140611"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="best-practices-for-lync-server-2013-environments"></a>Lync Server 2013 환경에 대 한 모범 사례
 
@@ -39,7 +39,7 @@ _**마지막으로 수정 된 항목:** 2014-08-04_
 
 다음과 같은 일반적인 원칙은 시스템의 지속적인 작업에 적용 해야 합니다.
 
-  - **Mof mof를 이해 하 고 활용**   하는 것은 조직의 IT 자산 관리에 대 한 조직 기술 지침 (예: 일일 Lync Server 2013 작업)을 제공 하는 모범 사례, 원칙 및 모델의 모음입니다. 다음 MOF 지침을 참조 하 여 Microsoft 제품에 대 한 업무상 중요 한 프로덕션 시스템 안정성, 가용성, 지원 가능성 및 관리 효율성을 달성할 수 있습니다. 자세한 내용은 [Microsoft Operations Framework 4.0](http://go.microsoft.com/fwlink/p/?linkid=40939)를 참조 하세요.
+  - **Mof mof를 이해 하 고 활용**   하는 것은 조직의 IT 자산 관리에 대 한 조직 기술 지침 (예: 일일 Lync Server 2013 작업)을 제공 하는 모범 사례, 원칙 및 모델의 모음입니다. 다음 MOF 지침을 참조 하 여 Microsoft 제품에 대 한 업무상 중요 한 프로덕션 시스템 안정성, 가용성, 지원 가능성 및 관리 효율성을 달성할 수 있습니다. 자세한 내용은 [Microsoft Operations Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=40939)를 참조 하세요.
 
   - **Lync server 2013**   의 모범 사례에 대해 자세히 알아보기 lync server 2013 관리를 위한 실용적인 및 입증 된 절차를 구현 하는 것이 좋습니다. 테스트를 거친 방법과 작업을 관리 하는 방법을 사용 하면 고유한 메서드를 개발 하는 것 보다 효율적으로 관리할 수 있습니다.
 
@@ -104,7 +104,7 @@ Lync 관리자에 대 한 일반적인 작업은 다음과 같습니다.
 ## <a name="see-also"></a>참고 항목
 
 
-[Microsoft Operations Framework 4.0](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+[Microsoft Operations Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=40939)  
   
 
 </div>

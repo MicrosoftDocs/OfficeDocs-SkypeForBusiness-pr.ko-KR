@@ -12,18 +12,18 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c89c600c822bc4e830bf60ed8131f747172018e2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d54ad738824b2ccaa4daf7f67758a970c24cee6a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030321"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138029"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Lync Server 2013에 대 한 하드웨어 부하 분산 장치 요구 사항
 
@@ -75,7 +75,7 @@ Lync Server 2013 확장 통합에 지 토폴로지는 기본적으로 Lync Serve
 
 </div>
 
-하드웨어 부하 분산 장치에서 Lync Server 2013에 필요한 필요한 기능을 지원 하는지 여부를 확인 하려면 "Lync Server 2010 부하 분산 장치 파트너 [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)"를 참조 하십시오.
+하드웨어 부하 분산 장치에서 Lync Server 2013에 필요한 필요한 기능을 지원 하는지 여부를 확인 하려면 "Lync Server 2010 부하 분산 장치 파트너 [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)"를 참조 하십시오.
 
 <div>
 
@@ -143,7 +143,7 @@ Lync Server 2013 확장 통합에 지 토폴로지는 기본적으로 Lync Serve
 
 
 > [!WARNING]  
-> F5 하드웨어 부하 분산 장치에는 TCP 연결 내의 각 요청이 개별적으로 부하 분산되도록 하는 OneConnect라는 기능이 있습니다. 모바일 장치를 배포하는 경우 하드웨어 부하 분산 장치 공급업체에서 이와 동일한 기능을 지원하는지 확인하십시오. 최신 Apple iOS 모바일 앱의 경우 TLS(전송 계층 보안) 버전 1.2가 필요합니다. F5는 이 버전을 위한 특정 설정을 제공합니다.<BR>타사 하드웨어 부하 분산 장치에 대 한 자세한 내용은<A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A>
+> F5 하드웨어 부하 분산 장치에는 TCP 연결 내의 각 요청이 개별적으로 부하 분산되도록 하는 OneConnect라는 기능이 있습니다. 모바일 장치를 배포하는 경우 하드웨어 부하 분산 장치 공급업체에서 이와 동일한 기능을 지원하는지 확인하십시오. 최신 Apple iOS 모바일 앱의 경우 TLS(전송 계층 보안) 버전 1.2가 필요합니다. F5는 이 버전을 위한 특정 설정을 제공합니다.<BR>타사 하드웨어 부하 분산 장치에 대 한 자세한 내용은<A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
 
