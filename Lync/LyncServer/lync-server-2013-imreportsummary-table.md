@@ -12,20 +12,20 @@ ms:contentKeyID: 48183673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 287fc0ceff26a5940d717b4efa1ef2c525acb0f1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 619f502f3671d5f8bfe66af2b157a9729ab0e952
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038690"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42131171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="imreportsummary-table-in-lync-server-2013"></a><span data-ttu-id="d6938-102">Lync Server 2013의 IMReportSummary 테이블</span><span class="sxs-lookup"><span data-stu-id="d6938-102">IMReportSummary table in Lync Server 2013</span></span>
+# <a name="imreportsummary-table-in-lync-server-2013"></a><span data-ttu-id="697bb-102">Lync Server 2013의 IMReportSummary 테이블</span><span class="sxs-lookup"><span data-stu-id="697bb-102">IMReportSummary table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42038690"
 
 <span> </span>
 
-<span data-ttu-id="d6938-103">_**마지막으로 수정 된 항목:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="d6938-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="697bb-103">_**마지막으로 수정 된 항목:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="697bb-103">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="d6938-104">IMReportSummaryTable은 조직에서 진행하는 인스턴트 메시징 세션에 대한 전체 보고서를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="d6938-104">The IMReportSummaryTable provides an overall report on the instant messaging sessions held in an organization.</span></span> <span data-ttu-id="d6938-105">이 표는 Microsoft Lync Server 2013에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="d6938-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="697bb-104">IMReportSummaryTable은 조직에서 진행하는 인스턴트 메시징 세션에 대한 전체 보고서를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="697bb-104">The IMReportSummaryTable provides an overall report on the instant messaging sessions held in an organization.</span></span> <span data-ttu-id="697bb-105">이 표는 Microsoft Lync Server 2013에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="697bb-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -49,48 +49,48 @@ ms.locfileid: "42038690"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d6938-106">열</span><span class="sxs-lookup"><span data-stu-id="d6938-106">Column</span></span></th>
-<th><span data-ttu-id="d6938-107">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="d6938-107">Data Type</span></span></th>
-<th><span data-ttu-id="d6938-108">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="d6938-108">Key/Index</span></span></th>
-<th><span data-ttu-id="d6938-109">세부 정보</span><span class="sxs-lookup"><span data-stu-id="d6938-109">Details</span></span></th>
+<th><span data-ttu-id="697bb-106">열</span><span class="sxs-lookup"><span data-stu-id="697bb-106">Column</span></span></th>
+<th><span data-ttu-id="697bb-107">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="697bb-107">Data Type</span></span></th>
+<th><span data-ttu-id="697bb-108">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="697bb-108">Key/Index</span></span></th>
+<th><span data-ttu-id="697bb-109">세부 정보</span><span class="sxs-lookup"><span data-stu-id="697bb-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d6938-110"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="d6938-110"><strong>StartTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="d6938-111">datetime</span><span class="sxs-lookup"><span data-stu-id="d6938-111">datetime</span></span></p></td>
-<td><p><span data-ttu-id="d6938-112">Primary</span><span class="sxs-lookup"><span data-stu-id="d6938-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="d6938-113">인스턴트 메시징 세션이 시작된 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="d6938-113">Date and time that the instant messaging session began.</span></span></p></td>
+<td><p><span data-ttu-id="697bb-110"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="697bb-110"><strong>StartTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="697bb-111">datetime</span><span class="sxs-lookup"><span data-stu-id="697bb-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="697bb-112">Primary</span><span class="sxs-lookup"><span data-stu-id="697bb-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="697bb-113">인스턴트 메시징 세션이 시작된 날짜 및 시간입니다.</span><span class="sxs-lookup"><span data-stu-id="697bb-113">Date and time that the instant messaging session began.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d6938-114"><strong>TimePeriod</strong></span><span class="sxs-lookup"><span data-stu-id="d6938-114"><strong>TimePeriod</strong></span></span></p></td>
-<td><p><span data-ttu-id="d6938-115">char (1)</span><span class="sxs-lookup"><span data-stu-id="d6938-115">char(1)</span></span></p></td>
-<td><p><span data-ttu-id="d6938-116">Primary</span><span class="sxs-lookup"><span data-stu-id="d6938-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="697bb-114"><strong>TimePeriod</strong></span><span class="sxs-lookup"><span data-stu-id="697bb-114"><strong>TimePeriod</strong></span></span></p></td>
+<td><p><span data-ttu-id="697bb-115">char (1)</span><span class="sxs-lookup"><span data-stu-id="697bb-115">char(1)</span></span></p></td>
+<td><p><span data-ttu-id="697bb-116">Primary</span><span class="sxs-lookup"><span data-stu-id="697bb-116">Primary</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d6938-117"><strong>PoolFQDN</strong></span><span class="sxs-lookup"><span data-stu-id="d6938-117"><strong>PoolFQDN</strong></span></span></p></td>
-<td><p><span data-ttu-id="d6938-118">nvarchar (257)</span><span class="sxs-lookup"><span data-stu-id="d6938-118">nvarchar(257)</span></span></p></td>
-<td><p><span data-ttu-id="d6938-119">Primary</span><span class="sxs-lookup"><span data-stu-id="d6938-119">Primary</span></span></p></td>
-<td><p><span data-ttu-id="d6938-120">세션을 호스팅하는 풀의 정규화된 도메인 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="d6938-120">Fully qualified domain name of the pool hosting the session.</span></span></p></td>
+<td><p><span data-ttu-id="697bb-117"><strong>PoolFQDN</strong></span><span class="sxs-lookup"><span data-stu-id="697bb-117"><strong>PoolFQDN</strong></span></span></p></td>
+<td><p><span data-ttu-id="697bb-118">nvarchar (257)</span><span class="sxs-lookup"><span data-stu-id="697bb-118">nvarchar(257)</span></span></p></td>
+<td><p><span data-ttu-id="697bb-119">Primary</span><span class="sxs-lookup"><span data-stu-id="697bb-119">Primary</span></span></p></td>
+<td><p><span data-ttu-id="697bb-120">세션을 호스팅하는 풀의 정규화된 도메인 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="697bb-120">Fully qualified domain name of the pool hosting the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d6938-121"><strong>AuthType</strong></span><span class="sxs-lookup"><span data-stu-id="d6938-121"><strong>AuthType</strong></span></span></p></td>
-<td><p><span data-ttu-id="d6938-122">int</span><span class="sxs-lookup"><span data-stu-id="d6938-122">int</span></span></p></td>
-<td><p><span data-ttu-id="d6938-123">Primary</span><span class="sxs-lookup"><span data-stu-id="d6938-123">Primary</span></span></p></td>
-<td><p><span data-ttu-id="d6938-124">통화의 우선 순위(예: 긴급, 일반)입니다.</span><span class="sxs-lookup"><span data-stu-id="d6938-124">Priority (for example, urgent or non-urgent) of the call.</span></span> <span data-ttu-id="d6938-125">우선 순위 정보는 <a href="lync-server-2013-callpriorities-table.md">Lync Server 2013의 callpriorities 테이블</a>에 저장 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6938-125">Priority information is stored in the <a href="lync-server-2013-callpriorities-table.md">CallPriorities table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="697bb-121"><strong>AuthType</strong></span><span class="sxs-lookup"><span data-stu-id="697bb-121"><strong>AuthType</strong></span></span></p></td>
+<td><p><span data-ttu-id="697bb-122">int</span><span class="sxs-lookup"><span data-stu-id="697bb-122">int</span></span></p></td>
+<td><p><span data-ttu-id="697bb-123">Primary</span><span class="sxs-lookup"><span data-stu-id="697bb-123">Primary</span></span></p></td>
+<td><p><span data-ttu-id="697bb-124">통화의 우선 순위(예: 긴급, 일반)입니다.</span><span class="sxs-lookup"><span data-stu-id="697bb-124">Priority (for example, urgent or non-urgent) of the call.</span></span> <span data-ttu-id="697bb-125">우선 순위 정보는 <a href="lync-server-2013-callpriorities-table.md">Lync Server 2013의 callpriorities 테이블</a>에 저장 됩니다.</span><span class="sxs-lookup"><span data-stu-id="697bb-125">Priority information is stored in the <a href="lync-server-2013-callpriorities-table.md">CallPriorities table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d6938-126"><strong>SessionCount</strong></span><span class="sxs-lookup"><span data-stu-id="d6938-126"><strong>SessionCount</strong></span></span></p></td>
-<td><p><span data-ttu-id="d6938-127">bigint</span><span class="sxs-lookup"><span data-stu-id="d6938-127">bigint</span></span></p></td>
+<td><p><span data-ttu-id="697bb-126"><strong>SessionCount</strong></span><span class="sxs-lookup"><span data-stu-id="697bb-126"><strong>SessionCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="697bb-127">bigint</span><span class="sxs-lookup"><span data-stu-id="697bb-127">bigint</span></span></p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d6938-128"><strong>MsgCount</strong></span><span class="sxs-lookup"><span data-stu-id="d6938-128"><strong>MsgCount</strong></span></span></p></td>
-<td><p><span data-ttu-id="d6938-129">bigint</span><span class="sxs-lookup"><span data-stu-id="d6938-129">bigint</span></span></p></td>
+<td><p><span data-ttu-id="697bb-128"><strong>MsgCount</strong></span><span class="sxs-lookup"><span data-stu-id="697bb-128"><strong>MsgCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="697bb-129">bigint</span><span class="sxs-lookup"><span data-stu-id="697bb-129">bigint</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="d6938-130">세션 중 교환된 총 인스턴트 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="d6938-130">Total number of instant messages exchanged during the session.</span></span></p></td>
+<td><p><span data-ttu-id="697bb-130">세션 중 교환된 총 인스턴트 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="697bb-130">Total number of instant messages exchanged during the session.</span></span></p></td>
 </tr>
 </tbody>
 </table>

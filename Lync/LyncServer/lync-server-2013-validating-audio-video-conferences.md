@@ -12,20 +12,20 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82abbf918f4b375c10fdf201591e099f5cd4262e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: babd9ce23a9d7e80875fc455e92c51ea9bd47493
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007407"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113431"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a><span data-ttu-id="22a31-102">Lync Server 2013에서 오디오/비디오 회의 확인</span><span class="sxs-lookup"><span data-stu-id="22a31-102">Validating audio/video conferences in Lync Server 2013</span></span>
+# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a><span data-ttu-id="6003b-102">Lync Server 2013에서 오디오/비디오 회의 확인</span><span class="sxs-lookup"><span data-stu-id="6003b-102">Validating audio/video conferences in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "42007407"
 
 <span> </span>
 
-<span data-ttu-id="22a31-103">_**마지막으로 수정 된 항목:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="22a31-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="6003b-103">_**마지막으로 수정 된 항목:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="6003b-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -49,17 +49,17 @@ ms.locfileid: "42007407"
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="22a31-104">확인 일정</span><span class="sxs-lookup"><span data-stu-id="22a31-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="22a31-105">매일</span><span class="sxs-lookup"><span data-stu-id="22a31-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="6003b-104">확인 일정</span><span class="sxs-lookup"><span data-stu-id="6003b-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="6003b-105">매일</span><span class="sxs-lookup"><span data-stu-id="6003b-105">Daily</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="22a31-106">테스트 도구</span><span class="sxs-lookup"><span data-stu-id="22a31-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="22a31-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="22a31-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="6003b-106">테스트 도구</span><span class="sxs-lookup"><span data-stu-id="6003b-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="6003b-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="6003b-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="22a31-108">필요한 권한</span><span class="sxs-lookup"><span data-stu-id="22a31-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="22a31-109">Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="22a31-110">Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우, 사용자에 게는 CsAVConference cmdlet을 실행 하는 권한이 있는 RBAC 역할이 할당 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsAVConference cmdlet.</span></span> <span data-ttu-id="22a31-111">이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="6003b-108">필요한 권한</span><span class="sxs-lookup"><span data-stu-id="6003b-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="6003b-109">Lync Server 관리 셸을 사용 하 여 로컬로 실행 하는 경우 사용자는 RTCUniversalServerAdmins 보안 그룹의 구성원 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="6003b-110">Windows PowerShell의 원격 인스턴스를 사용 하 여 실행 하는 경우, 사용자에 게는 CsAVConference cmdlet을 실행 하는 권한이 있는 RBAC 역할이 할당 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsAVConference cmdlet.</span></span> <span data-ttu-id="6003b-111">이 cmdlet을 사용할 수 있는 모든 RBAC 역할의 목록을 보려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAVConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -68,127 +68,127 @@ ms.locfileid: "42007407"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="22a31-112">설명</span><span class="sxs-lookup"><span data-stu-id="22a31-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="6003b-112">설명</span><span class="sxs-lookup"><span data-stu-id="6003b-112">Description</span></span>
 
-<span data-ttu-id="22a31-113">테스트-CsAVConference cmdlet은 두 테스트 사용자가 A/V (오디오/비디오) 회의에 참가할 수 있는지 여부를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-113">The Test-CsAVConference cmdlet checks whether two test users can participate in an audio/video (A/V) conference.</span></span> <span data-ttu-id="22a31-114">cmdlet이 실행되면 두 사용자가 시스템에 로그온됩니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-114">When the cmdlet runs, the two users are logged on to the system.</span></span> <span data-ttu-id="22a31-115">로그온 한 후에는 첫 번째 사용자가 A/V 회의를 만든 다음 두 번째 사용자가 해당 회의에 참가 하는 것을 기다립니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-115">After they face successfully logged on, the first user creates an A/V conference, and then waits for the second user to join that conference.</span></span> <span data-ttu-id="22a31-116">간단한 데이터 교환 후 전화 회의가 삭제되고 두 테스트 사용자가 로그오프됩니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-116">After a brief exchange of data, the conference is deleted and the two tests users are logged off.</span></span>
+<span data-ttu-id="6003b-113">테스트-CsAVConference cmdlet은 두 테스트 사용자가 A/V (오디오/비디오) 회의에 참가할 수 있는지 여부를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-113">The Test-CsAVConference cmdlet checks whether two test users can participate in an audio/video (A/V) conference.</span></span> <span data-ttu-id="6003b-114">cmdlet이 실행되면 두 사용자가 시스템에 로그온됩니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-114">When the cmdlet runs, the two users are logged on to the system.</span></span> <span data-ttu-id="6003b-115">로그온 한 후에는 첫 번째 사용자가 A/V 회의를 만든 다음 두 번째 사용자가 해당 회의에 참가 하는 것을 기다립니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-115">After they face successfully logged on, the first user creates an A/V conference, and then waits for the second user to join that conference.</span></span> <span data-ttu-id="6003b-116">간단한 데이터 교환 후 전화 회의가 삭제되고 두 테스트 사용자가 로그오프됩니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-116">After a brief exchange of data, the conference is deleted and the two tests users are logged off.</span></span>
 
-<span data-ttu-id="22a31-117">CsAVConference는 두 테스트 사용자 간의 실제 A/V 회의를 수행 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-117">Note that Test-CsAVConference does not conduct an actual A/V conference between the two test users.</span></span> <span data-ttu-id="22a31-118">대신, cmdlet은 두 사용자가 이러한 회의를 수행 하는 데 필요한 모든 연결을 수행할 수 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-118">Instead, the cmdlet verifies that the two users can make all the connections necessary to conduct such a conference.</span></span>
+<span data-ttu-id="6003b-117">CsAVConference는 두 테스트 사용자 간의 실제 A/V 회의를 수행 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-117">Note that Test-CsAVConference does not conduct an actual A/V conference between the two test users.</span></span> <span data-ttu-id="6003b-118">대신, cmdlet은 두 사용자가 이러한 회의를 수행 하는 데 필요한 모든 연결을 수행할 수 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-118">Instead, the cmdlet verifies that the two users can make all the connections necessary to conduct such a conference.</span></span>
 
-<span data-ttu-id="22a31-119">이 명령에 대 한 추가 예는 [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)에서 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-119">Further examples for this command can be found at [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference).</span></span>
+<span data-ttu-id="6003b-119">이 명령에 대 한 추가 예는 [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)에서 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-119">Further examples for this command can be found at [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference).</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="22a31-120">테스트 실행</span><span class="sxs-lookup"><span data-stu-id="22a31-120">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="6003b-120">테스트 실행</span><span class="sxs-lookup"><span data-stu-id="6003b-120">Running the test</span></span>
 
-<span data-ttu-id="22a31-121">CsAVConference cmdlet은 미리 구성 된 테스트 계정 쌍 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 두 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-121">The Test-CsAVConference cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="22a31-122">테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-122">To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="22a31-123">예:</span><span class="sxs-lookup"><span data-stu-id="22a31-123">For example:</span></span>
+<span data-ttu-id="6003b-121">CsAVConference cmdlet은 미리 구성 된 테스트 계정 쌍 (Lync Server 테스트 실행을 위한 테스트 계정 설정 참조) 또는 Lync Server를 사용 하도록 설정 된 두 사용자의 계정 중 하나를 사용 하 여 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-121">The Test-CsAVConference cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="6003b-122">테스트 계정을 사용 하 여이 검사를 실행 하려면 테스트할 Lync Server 풀의 FQDN만 지정 하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-122">To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="6003b-123">예:</span><span class="sxs-lookup"><span data-stu-id="6003b-123">For example:</span></span>
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-<span data-ttu-id="22a31-124">실제 사용자 계정을 사용 하 여이 검사를 실행 하려면 각 계정에 대해 두 개의 Windows PowerShell 자격 증명 개체 (계정 이름과 암호가 포함 된 개체)를 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-124">To run this check using actual user accounts, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="22a31-125">그런 다음 이러한 자격 증명 개체와 두 계정의 SIP 주소를 테스트-CsAVConference를 호출할 때 포함 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-125">You must then include those credentials objects and the SIP addresses of the two accounts when they call Test-CsAVConference:</span></span>
+<span data-ttu-id="6003b-124">실제 사용자 계정을 사용 하 여이 검사를 실행 하려면 각 계정에 대해 두 개의 Windows PowerShell 자격 증명 개체 (계정 이름과 암호가 포함 된 개체)를 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-124">To run this check using actual user accounts, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="6003b-125">그런 다음 이러한 자격 증명 개체와 두 계정의 SIP 주소를 테스트-CsAVConference를 호출할 때 포함 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-125">You must then include those credentials objects and the SIP addresses of the two accounts when they call Test-CsAVConference:</span></span>
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-<span data-ttu-id="22a31-126">자세한 내용은 [CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference) cmdlet에 대 한 도움말 설명서를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="22a31-126">For more information, see the Help documentation for the [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference) cmdlet.</span></span>
+<span data-ttu-id="6003b-126">자세한 내용은 [CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference) cmdlet에 대 한 도움말 설명서를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="6003b-126">For more information, see the Help documentation for the [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="22a31-127">성공 또는 실패 확인</span><span class="sxs-lookup"><span data-stu-id="22a31-127">Determining Success or Failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="6003b-127">성공 또는 실패 확인</span><span class="sxs-lookup"><span data-stu-id="6003b-127">Determining Success or Failure</span></span>
 
-<span data-ttu-id="22a31-128">지정 된 사용자가 A/V 회의를 성공적으로 완료할 수 있으면 다음과 비슷한 출력을 받게 되며 Result 속성은 Success로 표시 됩니다 **.**</span><span class="sxs-lookup"><span data-stu-id="22a31-128">If the specified users can successfully complete an A/V conference, you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="6003b-128">지정 된 사용자가 A/V 회의를 성공적으로 완료할 수 있으면 다음과 비슷한 출력을 받게 되며 Result 속성은 Success로 표시 됩니다 **.**</span><span class="sxs-lookup"><span data-stu-id="6003b-128">If the specified users can successfully complete an A/V conference, you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="22a31-129">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="22a31-129">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="6003b-129">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="6003b-129">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="22a31-130">결과: 성공</span><span class="sxs-lookup"><span data-stu-id="22a31-130">Result : Success</span></span>
+<span data-ttu-id="6003b-130">결과: 성공</span><span class="sxs-lookup"><span data-stu-id="6003b-130">Result : Success</span></span>
 
-<span data-ttu-id="22a31-131">대기 시간: 00:00:02.6841765</span><span class="sxs-lookup"><span data-stu-id="22a31-131">Latency : 00:00:02.6841765</span></span>
+<span data-ttu-id="6003b-131">대기 시간: 00:00:02.6841765</span><span class="sxs-lookup"><span data-stu-id="6003b-131">Latency : 00:00:02.6841765</span></span>
 
-<span data-ttu-id="22a31-132">오류</span><span class="sxs-lookup"><span data-stu-id="22a31-132">Error :</span></span>
+<span data-ttu-id="6003b-132">오류</span><span class="sxs-lookup"><span data-stu-id="6003b-132">Error :</span></span>
 
-<span data-ttu-id="22a31-133">진단을</span><span class="sxs-lookup"><span data-stu-id="22a31-133">Diagnosis :</span></span>
+<span data-ttu-id="6003b-133">진단을</span><span class="sxs-lookup"><span data-stu-id="6003b-133">Diagnosis :</span></span>
 
-<span data-ttu-id="22a31-134">사용자가 회의를 완료할 수 없는 경우 결과가 실패로 표시 되 고 오류 및 진단 속성에 추가 정보가 기록 됩니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-134">If the users can not complete the conference, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="6003b-134">사용자가 회의를 완료할 수 없는 경우 결과가 실패로 표시 되 고 오류 및 진단 속성에 추가 정보가 기록 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-134">If the users can not complete the conference, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="22a31-135">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="22a31-135">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="6003b-135">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="6003b-135">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="22a31-136">결과: 실패</span><span class="sxs-lookup"><span data-stu-id="22a31-136">Result : Failure</span></span>
+<span data-ttu-id="6003b-136">결과: 실패</span><span class="sxs-lookup"><span data-stu-id="6003b-136">Result : Failure</span></span>
 
-<span data-ttu-id="22a31-137">대기 시간: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="22a31-137">Latency : 00:00:00</span></span>
+<span data-ttu-id="6003b-137">대기 시간: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="6003b-137">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="22a31-138">오류: 404, 찾을 수 없음</span><span class="sxs-lookup"><span data-stu-id="22a31-138">Error : 404, Not Found</span></span>
+<span data-ttu-id="6003b-138">오류: 404, 찾을 수 없음</span><span class="sxs-lookup"><span data-stu-id="6003b-138">Error : 404, Not Found</span></span>
 
-<span data-ttu-id="22a31-139">진단: ErrorCode = 4005, Source = atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="22a31-139">Diagnosis : ErrorCode=4005,Source=atl-cs-001.litwareinc.com,</span></span>
+<span data-ttu-id="6003b-139">진단: ErrorCode = 4005, Source = atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="6003b-139">Diagnosis : ErrorCode=4005,Source=atl-cs-001.litwareinc.com,</span></span>
 
-<span data-ttu-id="22a31-140">이유 = 대상 URI가 SIP에 대해 사용 하도록 설정 되지 않았거나 지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="22a31-140">Reason=Destination URI either not enabled for SIP or does not</span></span>
+<span data-ttu-id="6003b-140">이유 = 대상 URI가 SIP에 대해 사용 하도록 설정 되지 않았거나 지원 되지 않음</span><span class="sxs-lookup"><span data-stu-id="6003b-140">Reason=Destination URI either not enabled for SIP or does not</span></span>
 
-<span data-ttu-id="22a31-141">가.</span><span class="sxs-lookup"><span data-stu-id="22a31-141">exist.</span></span>
+<span data-ttu-id="6003b-141">가.</span><span class="sxs-lookup"><span data-stu-id="6003b-141">exist.</span></span>
 
-<span data-ttu-id="22a31-142">Microsoft DiagnosticHeader</span><span class="sxs-lookup"><span data-stu-id="22a31-142">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
+<span data-ttu-id="6003b-142">Microsoft DiagnosticHeader</span><span class="sxs-lookup"><span data-stu-id="6003b-142">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
 
-<span data-ttu-id="22a31-143">예를 들어 이전 출력은 계정이 없거나 Lync Server에 대해 계정이 사용 하도록 설정 되지 않았으므로 두 사용자 계정 중 하나 이상이 올바르지 않아 테스트가 실패 했음을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-143">For example, the previous output states that the test failed because at least one of the two user accounts was not valid, either because the account does not exist or because the account has not been enabled for Lync Server.</span></span> <span data-ttu-id="22a31-144">다음과 같은 명령을 실행 하 여 두 테스트 계정이 있는지, 그리고 Lync Server에 대해 사용 하도록 설정 되었는지 여부를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-144">You can verify the existence of the two test accounts, and whether they were enabled for Lync Server, by running a command similar to the following:</span></span>
+<span data-ttu-id="6003b-143">예를 들어 이전 출력은 계정이 없거나 Lync Server에 대해 계정이 사용 하도록 설정 되지 않았으므로 두 사용자 계정 중 하나 이상이 올바르지 않아 테스트가 실패 했음을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-143">For example, the previous output states that the test failed because at least one of the two user accounts was not valid, either because the account does not exist or because the account has not been enabled for Lync Server.</span></span> <span data-ttu-id="6003b-144">다음과 같은 명령을 실행 하 여 두 테스트 계정이 있는지, 그리고 Lync Server에 대해 사용 하도록 설정 되었는지 여부를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-144">You can verify the existence of the two test accounts, and whether they were enabled for Lync Server, by running a command similar to the following:</span></span>
 
     "sip:kenmyer@litwareinc.com","sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, enabled
 
-<span data-ttu-id="22a31-145">테스트-CsAVConference 실패 하면 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-145">If Test-CsAVConference fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
+<span data-ttu-id="6003b-145">테스트-CsAVConference 실패 하면 다음 시간에 Verbose 매개 변수를 포함 하 여 테스트를 다시 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-145">If Test-CsAVConference fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-<span data-ttu-id="22a31-146">Verbose 매개 변수를 포함 하는 경우-CsAVConference는 지정 된 사용자가 AV 회의에 참가 하는 기능을 확인할 때 시도한 각 작업의 단계별 계정을 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-146">When the Verbose parameter is included Test-CsAVConference will return a step-by-step account of each action it tried when it checked the ability of the specified users to participate in an AV conference.</span></span> <span data-ttu-id="22a31-147">예를 들어 테스트가 실패 하 고 다음과 같은 진단이 수신 된다고 가정해 봅니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-147">For example, suppose that your test fails and you receive the following Diagnosis:</span></span>
+<span data-ttu-id="6003b-146">Verbose 매개 변수를 포함 하는 경우-CsAVConference는 지정 된 사용자가 AV 회의에 참가 하는 기능을 확인할 때 시도한 각 작업의 단계별 계정을 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-146">When the Verbose parameter is included Test-CsAVConference will return a step-by-step account of each action it tried when it checked the ability of the specified users to participate in an AV conference.</span></span> <span data-ttu-id="6003b-147">예를 들어 테스트가 실패 하 고 다음과 같은 진단이 수신 된다고 가정해 봅니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-147">For example, suppose that your test fails and you receive the following Diagnosis:</span></span>
 
-<span data-ttu-id="22a31-148">ErrorCode = 1008, Source = accessproxy litwareinc, Reason = DNS SRV 레코드를 확인할 수 없음</span><span class="sxs-lookup"><span data-stu-id="22a31-148">ErrorCode=1008,Source=accessproxy.litwareinc.com,Reason=Unable to resolve DNS SRV record</span></span>
+<span data-ttu-id="6003b-148">ErrorCode = 1008, Source = accessproxy litwareinc, Reason = DNS SRV 레코드를 확인할 수 없음</span><span class="sxs-lookup"><span data-stu-id="6003b-148">ErrorCode=1008,Source=accessproxy.litwareinc.com,Reason=Unable to resolve DNS SRV record</span></span>
 
-<span data-ttu-id="22a31-149">Verbose 매개 변수를 사용 하 여 테스트를 다시 실행 하면 반환 되는 단계별 정보는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-149">If you rerun the test using the Verbose parameter, the step-by-step information returned will include output similar to this:</span></span>
+<span data-ttu-id="6003b-149">Verbose 매개 변수를 사용 하 여 테스트를 다시 실행 하면 반환 되는 단계별 정보는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-149">If you rerun the test using the Verbose parameter, the step-by-step information returned will include output similar to this:</span></span>
 
-<span data-ttu-id="22a31-150">VERBOSE: ' 등록 ' 활동이 시작 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-150">VERBOSE: 'Register' activity started.</span></span>
+<span data-ttu-id="6003b-150">VERBOSE: ' 등록 ' 활동이 시작 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-150">VERBOSE: 'Register' activity started.</span></span>
 
-<span data-ttu-id="22a31-151">등록 요청을 보내는 중:</span><span class="sxs-lookup"><span data-stu-id="22a31-151">Sending Registration request:</span></span>
+<span data-ttu-id="6003b-151">등록 요청을 보내는 중:</span><span class="sxs-lookup"><span data-stu-id="6003b-151">Sending Registration request:</span></span>
 
-<span data-ttu-id="22a31-152">대상 Fqdn = atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="22a31-152">Target Fqdn = atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="6003b-152">대상 Fqdn = atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="6003b-152">Target Fqdn = atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="22a31-153">사용자 Sip 주소 = sip:davidlongmire@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="22a31-153">User Sip Address = sip:davidlongmire@litwareinc.com</span></span>
+<span data-ttu-id="6003b-153">사용자 Sip 주소 = sip:davidlongmire@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="6003b-153">User Sip Address = sip:davidlongmire@litwareinc.com</span></span>
 
-<span data-ttu-id="22a31-154">등록자 포트 = 5061.</span><span class="sxs-lookup"><span data-stu-id="22a31-154">Registrar Port = 5061.</span></span>
+<span data-ttu-id="6003b-154">등록자 포트 = 5061.</span><span class="sxs-lookup"><span data-stu-id="6003b-154">Registrar Port = 5061.</span></span>
 
-<span data-ttu-id="22a31-155">' 신뢰할 수 있음 ' 인증 유형을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-155">Auth Type 'Trusted' is selected.</span></span>
+<span data-ttu-id="6003b-155">' 신뢰할 수 있음 ' 인증 유형을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-155">Auth Type 'Trusted' is selected.</span></span>
 
-<span data-ttu-id="22a31-156">' 등록 ' 활동이 시작 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-156">'Register' activity started.</span></span>
+<span data-ttu-id="6003b-156">' 등록 ' 활동이 시작 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-156">'Register' activity started.</span></span>
 
-<span data-ttu-id="22a31-157">등록 요청을 보내는 중:</span><span class="sxs-lookup"><span data-stu-id="22a31-157">Sending Registration request:</span></span>
+<span data-ttu-id="6003b-157">등록 요청을 보내는 중:</span><span class="sxs-lookup"><span data-stu-id="6003b-157">Sending Registration request:</span></span>
 
-<span data-ttu-id="22a31-158">대상 Fqdn = atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="22a31-158">Target Fqdn = atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="6003b-158">대상 Fqdn = atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="6003b-158">Target Fqdn = atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="22a31-159">사용자 Sip 주소 = sip:kenmyer@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="22a31-159">User Sip Address = sip:kenmyer@litwareinc.com</span></span>
+<span data-ttu-id="6003b-159">사용자 Sip 주소 = sip:kenmyer@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="6003b-159">User Sip Address = sip:kenmyer@litwareinc.com</span></span>
 
-<span data-ttu-id="22a31-160">등록자 포트 = 5061.</span><span class="sxs-lookup"><span data-stu-id="22a31-160">Registrar Port = 5061.</span></span>
+<span data-ttu-id="6003b-160">등록자 포트 = 5061.</span><span class="sxs-lookup"><span data-stu-id="6003b-160">Registrar Port = 5061.</span></span>
 
-<span data-ttu-id="22a31-161">' 신뢰할 수 있음 ' 인증 유형을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-161">Auth Type 'Trusted' is selected.</span></span>
+<span data-ttu-id="6003b-161">' 신뢰할 수 있음 ' 인증 유형을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-161">Auth Type 'Trusted' is selected.</span></span>
 
-<span data-ttu-id="22a31-162">' 끝점을 등록할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-162">An exception 'The endpoint was unable to register.</span></span> <span data-ttu-id="22a31-163">구체적인 이유로 ErrorCode를 참조 하세요. '</span><span class="sxs-lookup"><span data-stu-id="22a31-163">See the ErrorCode for specific reason.'</span></span> <span data-ttu-id="22a31-164">워크플로 도중 발생 함</span><span class="sxs-lookup"><span data-stu-id="22a31-164">occurred during Workflow</span></span>
+<span data-ttu-id="6003b-162">' 끝점을 등록할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-162">An exception 'The endpoint was unable to register.</span></span> <span data-ttu-id="6003b-163">구체적인 이유로 ErrorCode를 참조 하세요. '</span><span class="sxs-lookup"><span data-stu-id="6003b-163">See the ErrorCode for specific reason.'</span></span> <span data-ttu-id="6003b-164">워크플로 도중 발생 함</span><span class="sxs-lookup"><span data-stu-id="6003b-164">occurred during Workflow</span></span>
 
-<span data-ttu-id="22a31-165">이 출력에서 마지막 줄은 사용자 sip:kenmyer@litwareinc.com이 Lync Server에 등록할 수 없음을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-165">The last line in that output indicates that the user sip:kenmyer@litwareinc.com was unable to register with Lync Server.</span></span> <span data-ttu-id="22a31-166">즉, SIP 주소 sip:kenmyer@litwareinc.com가 유효 하며 연결 된 사용자가 Lync Server에 대해 사용 하도록 설정 되어 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-166">That means that you should verify that the SIP address sip:kenmyer@litwareinc.com is valid, and that the associated user is enabled for Lync Server.</span></span>
+<span data-ttu-id="6003b-165">이 출력에서 마지막 줄은 사용자 sip:kenmyer@litwareinc.com이 Lync Server에 등록할 수 없음을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-165">The last line in that output indicates that the user sip:kenmyer@litwareinc.com was unable to register with Lync Server.</span></span> <span data-ttu-id="6003b-166">즉, SIP 주소 sip:kenmyer@litwareinc.com가 유효 하며 연결 된 사용자가 Lync Server에 대해 사용 하도록 설정 되어 있는지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-166">That means that you should verify that the SIP address sip:kenmyer@litwareinc.com is valid, and that the associated user is enabled for Lync Server.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="22a31-167">테스트가 실패 한 이유</span><span class="sxs-lookup"><span data-stu-id="22a31-167">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="6003b-167">테스트가 실패 한 이유</span><span class="sxs-lookup"><span data-stu-id="6003b-167">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="22a31-168">Test-CsAVConference 실패할 수 있는 몇 가지 일반적인 이유는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-168">Here are some common reasons why Test-CsAVConference might fail:</span></span>
+<span data-ttu-id="6003b-168">Test-CsAVConference 실패할 수 있는 몇 가지 일반적인 이유는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-168">Here are some common reasons why Test-CsAVConference might fail:</span></span>
 
-  - <span data-ttu-id="22a31-169">잘못 된 사용자 계정을 지정 했습니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-169">You specified a user account that is not valid.</span></span> <span data-ttu-id="22a31-170">다음과 같은 명령을 실행 하 여 사용자 계정이 있는지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-170">You can verify that a user account exists by running a command similar to this:</span></span>
+  - <span data-ttu-id="6003b-169">잘못 된 사용자 계정을 지정 했습니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-169">You specified a user account that is not valid.</span></span> <span data-ttu-id="6003b-170">다음과 같은 명령을 실행 하 여 사용자 계정이 있는지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-170">You can verify that a user account exists by running a command similar to this:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - <span data-ttu-id="22a31-171">사용자 계정이 올바르지만 해당 계정이 Lync Server에 대해 현재 사용 하도록 설정 되어 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-171">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="22a31-172">사용자 계정이 Lync Server에 대해 사용 하도록 설정 되어 있는지 확인 하려면 다음과 같은 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-172">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
+  - <span data-ttu-id="6003b-171">사용자 계정이 올바르지만 해당 계정이 Lync Server에 대해 현재 사용 하도록 설정 되어 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-171">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="6003b-172">사용자 계정이 Lync Server에 대해 사용 하도록 설정 되어 있는지 확인 하려면 다음과 같은 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-172">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    <span data-ttu-id="22a31-173">Enabled 속성을 False로 설정 하면 사용자가 현재 Lync Server를 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="22a31-173">If the Enabled property is set to False that means that the user is currently not enabled for Lync Server.</span></span>
+    <span data-ttu-id="6003b-173">Enabled 속성을 False로 설정 하면 사용자가 현재 Lync Server를 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="6003b-173">If the Enabled property is set to False that means that the user is currently not enabled for Lync Server.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1cfde603ace9036ba547ffb0a7ee80c1963ae6cf
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 207acda151acb02e73b5fb3d6192356e8cdd7b37
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008440"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-media-port-range-settings-in-lync-server-2013"></a><span data-ttu-id="7a74a-102">Lync Server 2013에서 미디어 포트 범위 설정 구성</span><span class="sxs-lookup"><span data-stu-id="7a74a-102">Configuring media port range settings in Lync Server 2013</span></span>
+# <a name="configuring-media-port-range-settings-in-lync-server-2013"></a><span data-ttu-id="6427c-102">Lync Server 2013에서 미디어 포트 범위 설정 구성</span><span class="sxs-lookup"><span data-stu-id="6427c-102">Configuring media port range settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42008440"
 
 <span> </span>
 
-<span data-ttu-id="7a74a-103">_**마지막으로 수정 된 항목:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="7a74a-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="6427c-103">_**마지막으로 수정 된 항목:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="6427c-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="7a74a-104">미디어 포트 범위 설정은 클라이언트 성능에 큰 영향을 줄 수 있으므로 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7a74a-104">Media port range settings can significantly impact client performance and should be configured.</span></span> <span data-ttu-id="7a74a-105">Lync Server 관리 셸을 사용 하 여 이러한 설정을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7a74a-105">You can configure these settings by using Lync Server Management Shell.</span></span>
+<span data-ttu-id="6427c-104">미디어 포트 범위 설정은 클라이언트 성능에 큰 영향을 줄 수 있으므로 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6427c-104">Media port range settings can significantly impact client performance and should be configured.</span></span> <span data-ttu-id="6427c-105">Lync Server 관리 셸을 사용 하 여 이러한 설정을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6427c-105">You can configure these settings by using Lync Server Management Shell.</span></span>
 
-### <a name="media-port-range-settings"></a><span data-ttu-id="7a74a-106">미디어 포트 범위 설정</span><span class="sxs-lookup"><span data-stu-id="7a74a-106">Media Port Range Settings</span></span>
+### <a name="media-port-range-settings"></a><span data-ttu-id="6427c-106">미디어 포트 범위 설정</span><span class="sxs-lookup"><span data-stu-id="6427c-106">Media Port Range Settings</span></span>
 
 <table>
 <colgroup>
@@ -50,30 +50,30 @@ ms.locfileid: "42008440"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7a74a-107">설정</span><span class="sxs-lookup"><span data-stu-id="7a74a-107">Setting</span></span></th>
-<th><span data-ttu-id="7a74a-108">설명</span><span class="sxs-lookup"><span data-stu-id="7a74a-108">Description</span></span></th>
-<th><span data-ttu-id="7a74a-109">Lync Server 관리 셸 cmdlet</span><span class="sxs-lookup"><span data-stu-id="7a74a-109">Lync Server Management Shell cmdlet</span></span></th>
-<th><span data-ttu-id="7a74a-110">Cmdlet 매개 변수</span><span class="sxs-lookup"><span data-stu-id="7a74a-110">Cmdlet parameters</span></span></th>
+<th><span data-ttu-id="6427c-107">설정</span><span class="sxs-lookup"><span data-stu-id="6427c-107">Setting</span></span></th>
+<th><span data-ttu-id="6427c-108">설명</span><span class="sxs-lookup"><span data-stu-id="6427c-108">Description</span></span></th>
+<th><span data-ttu-id="6427c-109">Lync Server 관리 셸 cmdlet</span><span class="sxs-lookup"><span data-stu-id="6427c-109">Lync Server Management Shell cmdlet</span></span></th>
+<th><span data-ttu-id="6427c-110">Cmdlet 매개 변수</span><span class="sxs-lookup"><span data-stu-id="6427c-110">Cmdlet parameters</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7a74a-111">Portrange\Enabled</span><span class="sxs-lookup"><span data-stu-id="7a74a-111">Portrange\Enabled</span></span></p></td>
-<td><p><span data-ttu-id="7a74a-p102">사용자가 서버에서 전송된 포트 범위를 미디어 및 신호 전달에 사용해야 하는지 여부를 지정합니다. 하위 값인 MinMediaPort 및 MaxMediaPort와 함께 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="7a74a-p102">Specifies whether the port ranges sent by the server should be used by the client for media and signaling. Used in conjunction with the subvalues MinMediaPort and MaxMediaPort.</span></span></p></td>
-<td><p><span data-ttu-id="7a74a-114"><strong>Get-csconferencingconfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="7a74a-114"><strong>CsConferencingConfiguration</strong></span></span></p></td>
-<td><p><span data-ttu-id="7a74a-115">ClientMediaPortRangeEnabled</span><span class="sxs-lookup"><span data-stu-id="7a74a-115">ClientMediaPortRangeEnabled</span></span></p></td>
+<td><p><span data-ttu-id="6427c-111">Portrange\Enabled</span><span class="sxs-lookup"><span data-stu-id="6427c-111">Portrange\Enabled</span></span></p></td>
+<td><p><span data-ttu-id="6427c-p102">사용자가 서버에서 전송된 포트 범위를 미디어 및 신호 전달에 사용해야 하는지 여부를 지정합니다. 하위 값인 MinMediaPort 및 MaxMediaPort와 함께 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="6427c-p102">Specifies whether the port ranges sent by the server should be used by the client for media and signaling. Used in conjunction with the subvalues MinMediaPort and MaxMediaPort.</span></span></p></td>
+<td><p><span data-ttu-id="6427c-114"><strong>Get-csconferencingconfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="6427c-114"><strong>CsConferencingConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="6427c-115">ClientMediaPortRangeEnabled</span><span class="sxs-lookup"><span data-stu-id="6427c-115">ClientMediaPortRangeEnabled</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7a74a-116">Portrange\MinMediaPort</span><span class="sxs-lookup"><span data-stu-id="7a74a-116">Portrange\MinMediaPort</span></span></p></td>
-<td><p><span data-ttu-id="7a74a-p103">미디어에 사용할 시작 포트 번호를 지정합니다. MaxMediaPort와 함께 포트 범위를 지정합니다. 권장되는 최소 범위는 40포트입니다.</span><span class="sxs-lookup"><span data-stu-id="7a74a-p103">Specifies the starting port number to use for media. Combines with MaxMediaPort to specify the range of ports. The recommended minimum range is 40 ports.</span></span></p></td>
-<td><p><span data-ttu-id="7a74a-120"><strong>Get-csconferencingconfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="7a74a-120"><strong>CsConferencingConfiguration</strong></span></span></p></td>
-<td><p><span data-ttu-id="7a74a-121">ClientMediaPort(클라이언트 미디어에 사용할 시작 포트 번호를 나타냄)</span><span class="sxs-lookup"><span data-stu-id="7a74a-121">ClientMediaPort (represents the starting port number to use for client media)</span></span></p></td>
+<td><p><span data-ttu-id="6427c-116">Portrange\MinMediaPort</span><span class="sxs-lookup"><span data-stu-id="6427c-116">Portrange\MinMediaPort</span></span></p></td>
+<td><p><span data-ttu-id="6427c-p103">미디어에 사용할 시작 포트 번호를 지정합니다. MaxMediaPort와 함께 포트 범위를 지정합니다. 권장되는 최소 범위는 40포트입니다.</span><span class="sxs-lookup"><span data-stu-id="6427c-p103">Specifies the starting port number to use for media. Combines with MaxMediaPort to specify the range of ports. The recommended minimum range is 40 ports.</span></span></p></td>
+<td><p><span data-ttu-id="6427c-120"><strong>Get-csconferencingconfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="6427c-120"><strong>CsConferencingConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="6427c-121">ClientMediaPort(클라이언트 미디어에 사용할 시작 포트 번호를 나타냄)</span><span class="sxs-lookup"><span data-stu-id="6427c-121">ClientMediaPort (represents the starting port number to use for client media)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7a74a-122">Portrange\MaxMediaPort</span><span class="sxs-lookup"><span data-stu-id="7a74a-122">Portrange\MaxMediaPort</span></span></p></td>
-<td><p><span data-ttu-id="7a74a-p104">미디어에 사용할 최대 포트 번호를 지정합니다. MinMediaPort와 함께 포트 범위를 지정합니다. 권장되는 최소 범위는 40포트입니다.</span><span class="sxs-lookup"><span data-stu-id="7a74a-p104">Specifies the highest port number to use for media. Combines with MinMediaPort to specify the range of ports. The recommended minimum range is 40 ports.</span></span></p></td>
-<td><p><span data-ttu-id="7a74a-126"><strong>Get-csconferencingconfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="7a74a-126"><strong>CsConferencingConfiguration</strong></span></span></p></td>
-<td><p><span data-ttu-id="7a74a-127">ClientMediaPortRange(클라이언트 미디어에 사용할 수 있는 총 포트 수를 나타내며, 기본값은 40임)</span><span class="sxs-lookup"><span data-stu-id="7a74a-127">ClientMediaPortRange (indicates the total number of ports available for client media; default is 40)</span></span></p></td>
+<td><p><span data-ttu-id="6427c-122">Portrange\MaxMediaPort</span><span class="sxs-lookup"><span data-stu-id="6427c-122">Portrange\MaxMediaPort</span></span></p></td>
+<td><p><span data-ttu-id="6427c-p104">미디어에 사용할 최대 포트 번호를 지정합니다. MinMediaPort와 함께 포트 범위를 지정합니다. 권장되는 최소 범위는 40포트입니다.</span><span class="sxs-lookup"><span data-stu-id="6427c-p104">Specifies the highest port number to use for media. Combines with MinMediaPort to specify the range of ports. The recommended minimum range is 40 ports.</span></span></p></td>
+<td><p><span data-ttu-id="6427c-126"><strong>Get-csconferencingconfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="6427c-126"><strong>CsConferencingConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="6427c-127">ClientMediaPortRange(클라이언트 미디어에 사용할 수 있는 총 포트 수를 나타내며, 기본값은 40임)</span><span class="sxs-lookup"><span data-stu-id="6427c-127">ClientMediaPortRange (indicates the total number of ports available for client media; default is 40)</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -81,17 +81,17 @@ ms.locfileid: "42008440"
 
 <div>
 
-## <a name="to-configure-media-port-range-settings"></a><span data-ttu-id="7a74a-128">미디어 포트 범위 설정을 구성하려면</span><span class="sxs-lookup"><span data-stu-id="7a74a-128">To Configure Media Port Range Settings</span></span>
+## <a name="to-configure-media-port-range-settings"></a><span data-ttu-id="6427c-128">미디어 포트 범위 설정을 구성하려면</span><span class="sxs-lookup"><span data-stu-id="6427c-128">To Configure Media Port Range Settings</span></span>
 
-1.  <span data-ttu-id="7a74a-129">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="7a74a-129">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="6427c-129">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="6427c-129">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="7a74a-130">다음 cmdlet을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="7a74a-130">Run the following cmdlet:</span></span>
+2.  <span data-ttu-id="6427c-130">다음 cmdlet을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="6427c-130">Run the following cmdlet:</span></span>
     
         Get-CsConferencingConfiguration
     
-    <span data-ttu-id="7a74a-131">이 cmdlet는 회의 구성 설정을 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="7a74a-131">This cmdlet returns the conferencing configuration settings.</span></span>
+    <span data-ttu-id="6427c-131">이 cmdlet는 회의 구성 설정을 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="6427c-131">This cmdlet returns the conferencing configuration settings.</span></span>
 
-3.  <span data-ttu-id="7a74a-132">변경 하려는 매개 변수 및 값을 사용 하 여 다음 cmdlet을 실행 합니다 (이 cmdlet의 매개 변수에 대 한 자세한 내용은 Lync Server 관리 셸 설명서 참조).</span><span class="sxs-lookup"><span data-stu-id="7a74a-132">Run the following cmdlet with the parameters and values you want to change (for details about the parameters for this cmdlet, see the Lync Server Management Shell documentation):</span></span>
+3.  <span data-ttu-id="6427c-132">변경 하려는 매개 변수 및 값을 사용 하 여 다음 cmdlet을 실행 합니다 (이 cmdlet의 매개 변수에 대 한 자세한 내용은 Lync Server 관리 셸 설명서 참조).</span><span class="sxs-lookup"><span data-stu-id="6427c-132">Run the following cmdlet with the parameters and values you want to change (for details about the parameters for this cmdlet, see the Lync Server Management Shell documentation):</span></span>
     
         Set-CsConferencingConfiguration
     
@@ -99,7 +99,7 @@ ms.locfileid: "42008440"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="7a74a-133">특정 사이트에 대한 추가 회의 구성 설정 집합을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7a74a-133">You can create additional sets of conferencing configuration settings for specific sites.</span></span> <span data-ttu-id="7a74a-134">사이트 ID로 <STRONG>New-CsConferencingConfiguration</STRONG> cmdlet를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="7a74a-134">Use the <STRONG>New- CsConferencingConfiguration</STRONG> cmdlet with a site identity.</span></span> <span data-ttu-id="7a74a-135">사이트에 대한 새 회의 구성 설정을 만들면 사이트 설정이 전역 설정보다 우선합니다.</span><span class="sxs-lookup"><span data-stu-id="7a74a-135">When you create new conferencing configuration settings for sites, the site settings take precedence over the global settings.</span></span> <span data-ttu-id="7a74a-136">자세한 내용은 Lync Server 관리 셸 설명서를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="7a74a-136">For details, see the Lync Server Management Shell documentation.</span></span>
+    > <span data-ttu-id="6427c-133">특정 사이트에 대한 추가 회의 구성 설정 집합을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6427c-133">You can create additional sets of conferencing configuration settings for specific sites.</span></span> <span data-ttu-id="6427c-134">사이트 ID로 <STRONG>New-CsConferencingConfiguration</STRONG> cmdlet를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="6427c-134">Use the <STRONG>New- CsConferencingConfiguration</STRONG> cmdlet with a site identity.</span></span> <span data-ttu-id="6427c-135">사이트에 대한 새 회의 구성 설정을 만들면 사이트 설정이 전역 설정보다 우선합니다.</span><span class="sxs-lookup"><span data-stu-id="6427c-135">When you create new conferencing configuration settings for sites, the site settings take precedence over the global settings.</span></span> <span data-ttu-id="6427c-136">자세한 내용은 Lync Server 관리 셸 설명서를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="6427c-136">For details, see the Lync Server Management Shell documentation.</span></span>
 
     
     </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 63969663
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7d411733712cf274760a45cd4e315b4f02a66e0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: eb72b44cf53a33b3c0d7a79f6adda8870fe37254
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008490"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135355"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="central-management-store-replication-status-in-lync-server-2013"></a><span data-ttu-id="e424e-102">Lync Server 2013의 중앙 관리 저장소 복제 상태</span><span class="sxs-lookup"><span data-stu-id="e424e-102">Central management store replication status in Lync Server 2013</span></span>
+# <a name="central-management-store-replication-status-in-lync-server-2013"></a><span data-ttu-id="1e721-102">Lync Server 2013의 중앙 관리 저장소 복제 상태</span><span class="sxs-lookup"><span data-stu-id="1e721-102">Central management store replication status in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "42008490"
 
 <span> </span>
 
-<span data-ttu-id="e424e-103">_**마지막으로 수정 된 항목:** 2015-01-26_</span><span class="sxs-lookup"><span data-stu-id="e424e-103">_**Topic Last Modified:** 2015-01-26_</span></span>
+<span data-ttu-id="1e721-103">_**마지막으로 수정 된 항목:** 2015-01-26_</span><span class="sxs-lookup"><span data-stu-id="1e721-103">_**Topic Last Modified:** 2015-01-26_</span></span>
 
-<span data-ttu-id="e424e-104">관리자가 특정 종류의 Lync Server를 변경 하는 경우 (예: 관리자가 새 음성 정책을 만들거나 주소록 서버 구성 설정을 변경 하면 변경 내용이 중앙 관리 저장소에 기록 되는 경우)</span><span class="sxs-lookup"><span data-stu-id="e424e-104">When an administrator makes a change of some kind to Lync Server (for example, when an administrator creates a new voice policy or changes the Address Book Server configuration settings) that change is recorded in the Central Management store.</span></span> <span data-ttu-id="e424e-105">그런 후에는 Lync Server 서비스 또는 서버 역할을 실행 하는 모든 컴퓨터에 변경 내용을 복제 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e424e-105">In turn, the change must then be replicated to all the computers that are running Lync Server services or server roles.</span></span>
+<span data-ttu-id="1e721-104">관리자가 특정 종류의 Lync Server를 변경 하는 경우 (예: 관리자가 새 음성 정책을 만들거나 주소록 서버 구성 설정을 변경 하면 변경 내용이 중앙 관리 저장소에 기록 되는 경우)</span><span class="sxs-lookup"><span data-stu-id="1e721-104">When an administrator makes a change of some kind to Lync Server (for example, when an administrator creates a new voice policy or changes the Address Book Server configuration settings) that change is recorded in the Central Management store.</span></span> <span data-ttu-id="1e721-105">그런 후에는 Lync Server 서비스 또는 서버 역할을 실행 하는 모든 컴퓨터에 변경 내용을 복제 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1e721-105">In turn, the change must then be replicated to all the computers that are running Lync Server services or server roles.</span></span>
 
-<span data-ttu-id="e424e-106">데이터를 복제 하기 위해 마스터 복제기 (중앙 관리 서버에서 실행)에서는 변경 된 구성 데이터의 스냅숏을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="e424e-106">To replicate data, the Master Replicator (running on the Central Management Server) creates a snapshot of the changed configuration data.</span></span> <span data-ttu-id="e424e-107">이 스냅숏의 복사본은 Lync Server 서비스 또는 서버 역할을 실행 하는 각 컴퓨터에 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e424e-107">A copy of this snapshot is then sent to each computer that is running Lync Server services or server roles.</span></span> <span data-ttu-id="e424e-108">이러한 컴퓨터에서 복제 에이전트는 스냅숏을 수신 하 고 변경 된 데이터를 업로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="e424e-108">On those computers, a replication agent receives the snapshot and uploads the changed data.</span></span> <span data-ttu-id="e424e-109">그런 다음 에이전트는 마스터 복제기에서 최신 복제 상태를 보고 하는 메시지를 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="e424e-109">The agent then sends the Master Replicator a message reporting the latest replication status.</span></span>
+<span data-ttu-id="1e721-106">데이터를 복제 하기 위해 마스터 복제기 (중앙 관리 서버에서 실행)에서는 변경 된 구성 데이터의 스냅숏을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="1e721-106">To replicate data, the Master Replicator (running on the Central Management Server) creates a snapshot of the changed configuration data.</span></span> <span data-ttu-id="1e721-107">이 스냅숏의 복사본은 Lync Server 서비스 또는 서버 역할을 실행 하는 각 컴퓨터에 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1e721-107">A copy of this snapshot is then sent to each computer that is running Lync Server services or server roles.</span></span> <span data-ttu-id="1e721-108">이러한 컴퓨터에서 복제 에이전트는 스냅숏을 수신 하 고 변경 된 데이터를 업로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="1e721-108">On those computers, a replication agent receives the snapshot and uploads the changed data.</span></span> <span data-ttu-id="1e721-109">그런 다음 에이전트는 마스터 복제기에서 최신 복제 상태를 보고 하는 메시지를 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="1e721-109">The agent then sends the Master Replicator a message reporting the latest replication status.</span></span>
 
-<span data-ttu-id="e424e-110">Get-csmanagementstorereplicationstatus cmdlet을 사용 하면 조직에 있는 모든 Lync Server 컴퓨터의 복제 상태를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e424e-110">The Get-CsManagementStoreReplicationStatus cmdlet enables you to verify the replication status for any (or all) of the Lync Server computers in your organization.</span></span>
+<span data-ttu-id="1e721-110">Get-csmanagementstorereplicationstatus cmdlet을 사용 하면 조직에 있는 모든 Lync Server 컴퓨터의 복제 상태를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1e721-110">The Get-CsManagementStoreReplicationStatus cmdlet enables you to verify the replication status for any (or all) of the Lync Server computers in your organization.</span></span>
 
-<span data-ttu-id="e424e-111">이 cmdlet을 실행할 수 있는 사람은 누구 인가요?</span><span class="sxs-lookup"><span data-stu-id="e424e-111">Who can run this cmdlet?</span></span> <span data-ttu-id="e424e-112">기본적으로 다음 그룹의 구성원은 Get-csmanagementstorereplicationstatus cmdlet을 로컬로 실행할 수 있습니다 RTCUniversalUserAdmins, RTCUniversalServerAdmins를 사용 하도록 허가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e424e-112">By default, members of the following groups are authorized to run the Get-CsManagementStoreReplicationStatus cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins.</span></span>
+<span data-ttu-id="1e721-111">이 cmdlet을 실행할 수 있는 사람은 누구 인가요?</span><span class="sxs-lookup"><span data-stu-id="1e721-111">Who can run this cmdlet?</span></span> <span data-ttu-id="1e721-112">기본적으로 다음 그룹의 구성원은 Get-csmanagementstorereplicationstatus cmdlet을 로컬로 실행할 수 있습니다 RTCUniversalUserAdmins, RTCUniversalServerAdmins를 사용 하도록 허가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1e721-112">By default, members of the following groups are authorized to run the Get-CsManagementStoreReplicationStatus cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins.</span></span>
 
-<span data-ttu-id="e424e-113">이 cmdlet이 할당 된 모든 RBAC 역할 목록 (직접 만든 사용자 지정 RBAC 역할 포함)을 반환 하려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="e424e-113">To return a list of all RBAC roles this cmdlet was assigned to (including any custom RBAC roles that you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="1e721-113">이 cmdlet이 할당 된 모든 RBAC 역할 목록 (직접 만든 사용자 지정 RBAC 역할 포함)을 반환 하려면 Windows PowerShell 프롬프트에서 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="1e721-113">To return a list of all RBAC roles this cmdlet was assigned to (including any custom RBAC roles that you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsManagementStoreReplicationStatus"}
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e424e-114">참고 항목</span><span class="sxs-lookup"><span data-stu-id="e424e-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1e721-114">참고 항목</span><span class="sxs-lookup"><span data-stu-id="1e721-114">See Also</span></span>
 
 
-[<span data-ttu-id="e424e-115">Get-csmanagementstorereplicationstatus</span><span class="sxs-lookup"><span data-stu-id="e424e-115">Get-CsManagementStoreReplicationStatus</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsManagementStoreReplicationStatus)  
+[<span data-ttu-id="1e721-115">Get-csmanagementstorereplicationstatus</span><span class="sxs-lookup"><span data-stu-id="1e721-115">Get-CsManagementStoreReplicationStatus</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsManagementStoreReplicationStatus)  
   
 
 </div>
