@@ -12,20 +12,20 @@ ms:contentKeyID: 51541442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f28d1bbc1b0879da04755840af3aa2d15dabb5b3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c4935d8fcc9c2b42cfe4e83bc5ea889b94d6deb4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042435"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152556"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-for-lync-server-2013-backup-and-restoration"></a><span data-ttu-id="132b3-102">Lync Server 2013 백업 및 복원 준비</span><span class="sxs-lookup"><span data-stu-id="132b3-102">Preparing for Lync Server 2013 backup and restoration</span></span>
+# <a name="preparing-for-lync-server-2013-backup-and-restoration"></a><span data-ttu-id="27fb5-102">Lync Server 2013 백업 및 복원 준비</span><span class="sxs-lookup"><span data-stu-id="27fb5-102">Preparing for Lync Server 2013 backup and restoration</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42042435"
 
 <span> </span>
 
-<span data-ttu-id="132b3-103">_**마지막으로 수정 된 항목:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="132b3-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+<span data-ttu-id="27fb5-103">_**마지막으로 수정 된 항목:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="27fb5-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-<span data-ttu-id="132b3-104">다음 항목에서는 오류 또는 중단이 발생할 경우 서버 및 데이터베이스를 복원 하기 위해 백업 해야 하는 설정, 구성 및 기타 데이터에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="132b3-104">The following topics describe the settings, configuration, and other data that you need to back up, in order to be able to restore servers and databases in the event of a failure or outage.</span></span>
+<span data-ttu-id="27fb5-104">다음 항목에서는 오류 또는 중단이 발생할 경우 서버 및 데이터베이스를 복원 하기 위해 백업 해야 하는 설정, 구성 및 기타 데이터에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="27fb5-104">The following topics describe the settings, configuration, and other data that you need to back up, in order to be able to restore servers and databases in the event of a failure or outage.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="132b3-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="132b3-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="27fb5-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="27fb5-105">In This Section</span></span>
 
-  - [<span data-ttu-id="132b3-106">Lync Server 2013의 백업 및 복원 요구 사항: 데이터</span><span class="sxs-lookup"><span data-stu-id="132b3-106">Backup and restoration requirements in Lync Server 2013: data</span></span>](lync-server-2013-backup-and-restoration-requirements-data.md)
+  - [<span data-ttu-id="27fb5-106">Lync Server 2013의 백업 및 복원 요구 사항: 데이터</span><span class="sxs-lookup"><span data-stu-id="27fb5-106">Backup and restoration requirements in Lync Server 2013: data</span></span>](lync-server-2013-backup-and-restoration-requirements-data.md)
 
-  - [<span data-ttu-id="132b3-107">Lync Server 2013의 백업 및 복원 요구 사항: 도구 및 사용 권한</span><span class="sxs-lookup"><span data-stu-id="132b3-107">Backup and restoration requirements in Lync Server 2013: tools and permissions</span></span>](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)
+  - [<span data-ttu-id="27fb5-107">Lync Server 2013의 백업 및 복원 요구 사항: 도구 및 사용 권한</span><span class="sxs-lookup"><span data-stu-id="27fb5-107">Backup and restoration requirements in Lync Server 2013: tools and permissions</span></span>](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)
 
-  - [<span data-ttu-id="132b3-108">Lync Server 2013에 대 한 백업 및 복원 프로세스 개요</span><span class="sxs-lookup"><span data-stu-id="132b3-108">Backup and restoration process overview for Lync Server 2013</span></span>](lync-server-2013-backup-and-restoration-process-overview.md)
+  - [<span data-ttu-id="27fb5-108">Lync Server 2013에 대 한 백업 및 복원 프로세스 개요</span><span class="sxs-lookup"><span data-stu-id="27fb5-108">Backup and restoration process overview for Lync Server 2013</span></span>](lync-server-2013-backup-and-restoration-process-overview.md)
 
-  - [<span data-ttu-id="132b3-109">Lync Server 2013에 대 한 백업 및 복원 전략 및 계획 개발</span><span class="sxs-lookup"><span data-stu-id="132b3-109">Developing a backup and restoration strategy and plan for Lync Server 2013</span></span>](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
+  - [<span data-ttu-id="27fb5-109">Lync Server 2013에 대 한 백업 및 복원 전략 및 계획 개발</span><span class="sxs-lookup"><span data-stu-id="27fb5-109">Developing a backup and restoration strategy and plan for Lync Server 2013</span></span>](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
 
-  - [<span data-ttu-id="132b3-110">Lync Server 2013의 백업 및 복원에 대 한 모범 사례</span><span class="sxs-lookup"><span data-stu-id="132b3-110">Best practices for backup and restoration for Lync Server 2013</span></span>](lync-server-2013-best-practices-for-backup-and-restoration.md)
+  - [<span data-ttu-id="27fb5-110">Lync Server 2013의 백업 및 복원에 대 한 모범 사례</span><span class="sxs-lookup"><span data-stu-id="27fb5-110">Best practices for backup and restoration for Lync Server 2013</span></span>](lync-server-2013-best-practices-for-backup-and-restoration.md)
 
 </div>
 

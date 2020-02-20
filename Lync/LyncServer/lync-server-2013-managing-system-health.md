@@ -12,20 +12,20 @@ ms:contentKeyID: 48185201
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5048a6ebaeef3dfe865630a65bb864ab1c6b651
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 73b16e88b7985f737bb4b2980bf95aee3ec032ed
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042465"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150028"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-system-health-in-lync-server-2013"></a><span data-ttu-id="1e3e5-102">Lync Server 2013에서 시스템 상태 관리</span><span class="sxs-lookup"><span data-stu-id="1e3e5-102">Managing system health in Lync Server 2013</span></span>
+# <a name="managing-system-health-in-lync-server-2013"></a><span data-ttu-id="d0d02-102">Lync Server 2013에서 시스템 상태 관리</span><span class="sxs-lookup"><span data-stu-id="d0d02-102">Managing system health in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42042465"
 
 <span> </span>
 
-<span data-ttu-id="1e3e5-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="1e3e5-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="d0d02-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="d0d02-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="1e3e5-104">시스템 상태 관리 및 모니터링은 전체 Lync Server 2013 상태 관리 및 모니터링에 통합 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1e3e5-104">System health management and monitoring is integrated into the overall Lync Server 2013 health management and monitoring.</span></span> <span data-ttu-id="1e3e5-105">자세한 내용은 [Lync Server 2013의 상태 구성을](lync-server-2013-health-configuration-in-lync-server.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="1e3e5-105">For details, see [Health configuration in Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span></span>
+<span data-ttu-id="d0d02-104">시스템 상태 관리 및 모니터링은 전체 Lync Server 2013 상태 관리 및 모니터링에 통합 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d0d02-104">System health management and monitoring is integrated into the overall Lync Server 2013 health management and monitoring.</span></span> <span data-ttu-id="d0d02-105">자세한 내용은 [Lync Server 2013의 상태 구성을](lync-server-2013-health-configuration-in-lync-server.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="d0d02-105">For details, see [Health configuration in Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span></span>
 
 </div>
 

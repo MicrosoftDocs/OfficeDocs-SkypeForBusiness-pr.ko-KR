@@ -12,20 +12,20 @@ ms:contentKeyID: 48184023
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58853e62b7958d564f01b4616d5439d18217b07f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b6ef86940b806e71c9c90bee9b75e93df5cc016b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034438"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148567"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-1-plan-your-migration-from-office-communications-server-2007-r2"></a><span data-ttu-id="cfd03-102">1 단계: Office Communications Server 2007 r 2에서 마이그레이션 계획</span><span class="sxs-lookup"><span data-stu-id="cfd03-102">Phase 1: Plan your migration from Office Communications Server 2007 R2</span></span>
+# <a name="phase-1-plan-your-migration-from-office-communications-server-2007-r2"></a><span data-ttu-id="44db0-102">1 단계: Office Communications Server 2007 r 2에서 마이그레이션 계획</span><span class="sxs-lookup"><span data-stu-id="44db0-102">Phase 1: Plan your migration from Office Communications Server 2007 R2</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42034438"
 
 <span> </span>
 
-<span data-ttu-id="cfd03-103">_**마지막으로 수정 된 항목:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="cfd03-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="44db0-103">_**마지막으로 수정 된 항목:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="44db0-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="cfd03-104">이 섹션에서는 Office Communications Server 2007 R2에서 Lync Server 2013로 마이그레이션하는 계획 항목에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="cfd03-104">This section covers planning topics for migrating from Office Communications Server 2007 R2 to Lync Server 2013.</span></span>
+<span data-ttu-id="44db0-104">이 섹션에서는 Office Communications Server 2007 R2에서 Lync Server 2013로 마이그레이션하는 계획 항목에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="44db0-104">This section covers planning topics for migrating from Office Communications Server 2007 R2 to Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="cfd03-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="cfd03-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="44db0-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="44db0-105">In This Section</span></span>
 
-  - [<span data-ttu-id="cfd03-106">사용자 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="cfd03-106">User migration</span></span>](user-migration_1.md)
+  - [<span data-ttu-id="44db0-106">사용자 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="44db0-106">User migration</span></span>](user-migration_1.md)
 
-  - [<span data-ttu-id="cfd03-107">보관 및 모니터링 서버 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="cfd03-107">Migrating Archiving and Monitoring servers</span></span>](migrating-archiving-and-monitoring-servers_1.md)
+  - [<span data-ttu-id="44db0-107">보관 및 모니터링 서버 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="44db0-107">Migrating Archiving and Monitoring servers</span></span>](migrating-archiving-and-monitoring-servers_1.md)
 
-  - [<span data-ttu-id="cfd03-108">마이그레이션 후 서버 관리</span><span class="sxs-lookup"><span data-stu-id="cfd03-108">Administering servers after migration</span></span>](administering-servers-after-migration_1.md)
+  - [<span data-ttu-id="44db0-108">마이그레이션 후 서버 관리</span><span class="sxs-lookup"><span data-stu-id="44db0-108">Administering servers after migration</span></span>](administering-servers-after-migration_1.md)
 
-  - [<span data-ttu-id="cfd03-109">여러 사이트 및 풀 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="cfd03-109">Migrating multiple sites and pools</span></span>](migrating-multiple-sites-and-pools_1.md)
+  - [<span data-ttu-id="44db0-109">여러 사이트 및 풀 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="44db0-109">Migrating multiple sites and pools</span></span>](migrating-multiple-sites-and-pools_1.md)
 
-  - [<span data-ttu-id="cfd03-110">XMPP 페더레이션 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="cfd03-110">Migrating XMPP federation</span></span>](migrating-xmpp-federation_1.md)
+  - [<span data-ttu-id="44db0-110">XMPP 페더레이션 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="44db0-110">Migrating XMPP federation</span></span>](migrating-xmpp-federation_1.md)
 
 </div>
 

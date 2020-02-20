@@ -12,20 +12,20 @@ ms:contentKeyID: 48183276
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ae305052523c05bacb294928c1f81afd4e51931
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1ad9ae15dddfbc4a01e93a4f690183a0d2dec3fb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41995543"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151810"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-translation-rule-manually-in-lync-server-2013"></a><span data-ttu-id="97918-102">Lync Server 2013에서 수동으로 변환 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="97918-102">Create or modify a translation rule manually in Lync Server 2013</span></span>
+# <a name="create-or-modify-a-translation-rule-manually-in-lync-server-2013"></a><span data-ttu-id="9a4a0-102">Lync Server 2013에서 수동으로 변환 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="9a4a0-102">Create or modify a translation rule manually in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41995543"
 
 <span> </span>
 
-<span data-ttu-id="97918-103">_**마지막으로 수정 된 항목:** 2012-08-06_</span><span class="sxs-lookup"><span data-stu-id="97918-103">_**Topic Last Modified:** 2012-08-06_</span></span>
+<span data-ttu-id="9a4a0-103">_**마지막으로 수정 된 항목:** 2012-08-06_</span><span class="sxs-lookup"><span data-stu-id="9a4a0-103">_**Topic Last Modified:** 2012-08-06_</span></span>
 
-<span data-ttu-id="97918-104">일치하는 패턴 및 변환 규칙에 대한 정규식을 작성하여 변환 규칙을 정의하려면 다음 단계를 따르십시오.</span><span class="sxs-lookup"><span data-stu-id="97918-104">Follow these steps if you want to define a translation rule by writing a regular expression for the matching pattern and translation rule.</span></span> <span data-ttu-id="97918-105">또는 **변환 규칙 작성** 도구에서 값 집합을 입력 하 고 Lync Server 제어판을 사용 하도록 설정 하 여 해당 일치 패턴 및 변환 규칙을 생성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="97918-105">Alternatively, you can enter a set of values in the **Build a Translation Rule** tool and enable Lync Server Control Panel to generate the corresponding matching pattern and translation rule for you.</span></span> <span data-ttu-id="97918-106">자세한 내용은 [Lync Server 2013의 변환 규칙 작성 도구를 사용 하 여 변환 규칙 만들기 또는 수정을](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="97918-106">For details, see [Create or modify a translation rule by using the Build a Translation Rule tool in Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md).</span></span>
+<span data-ttu-id="9a4a0-104">일치하는 패턴 및 변환 규칙에 대한 정규식을 작성하여 변환 규칙을 정의하려면 다음 단계를 따르십시오.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-104">Follow these steps if you want to define a translation rule by writing a regular expression for the matching pattern and translation rule.</span></span> <span data-ttu-id="9a4a0-105">또는 **변환 규칙 작성** 도구에서 값 집합을 입력 하 고 Lync Server 제어판을 사용 하도록 설정 하 여 해당 일치 패턴 및 변환 규칙을 생성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-105">Alternatively, you can enter a set of values in the **Build a Translation Rule** tool and enable Lync Server Control Panel to generate the corresponding matching pattern and translation rule for you.</span></span> <span data-ttu-id="9a4a0-106">자세한 내용은 [Lync Server 2013의 변환 규칙 작성 도구를 사용 하 여 변환 규칙 만들기 또는 수정을](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-106">For details, see [Create or modify a translation rule by using the Build a Translation Rule tool in Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md).</span></span>
 
 <div>
 
-## <a name="to-define-a-translation-rule-manually"></a><span data-ttu-id="97918-107">변환 규칙을 수동으로 정의하려면</span><span class="sxs-lookup"><span data-stu-id="97918-107">To define a translation rule manually</span></span>
+## <a name="to-define-a-translation-rule-manually"></a><span data-ttu-id="9a4a0-107">변환 규칙을 수동으로 정의하려면</span><span class="sxs-lookup"><span data-stu-id="9a4a0-107">To define a translation rule manually</span></span>
 
-1.  <span data-ttu-id="97918-108">RTCUniversalServerAdmins 그룹의 구성원으로 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="97918-108">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="97918-109">자세한 내용은 [Lync Server 2013에서 설치 권한 위임을](lync-server-2013-delegate-setup-permissions.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="97918-109">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="9a4a0-108">RTCUniversalServerAdmins 그룹의 구성원으로 또는 CsVoiceAdministrator, CsServerAdministrator 또는 CsAdministrator 역할의 구성원으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-108">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="9a4a0-109">자세한 내용은 [Lync Server 2013에서 설치 권한 위임을](lync-server-2013-delegate-setup-permissions.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-109">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="97918-110">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="97918-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="97918-111">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="97918-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="9a4a0-110">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="9a4a0-111">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="97918-112">변환 규칙 정의를 시작 하려면 [Lync server 2013에서 미디어 바이패스를 사용 하 여 온 트렁크 to media bypass](lync-server-2013-configure-a-trunk-with-media-bypass.md) 에서 10 단계까지 또는 [lync server 2013에서는 미디어 바이패스 없이 트렁크를 구성](lync-server-2013-configure-a-trunk-without-media-bypass.md) 하는 방법을 설명 하는 단계를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="97918-112">To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) through step 10 or [Configure a trunk without media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) through step 9.</span></span>
+3.  <span data-ttu-id="9a4a0-112">변환 규칙 정의를 시작 하려면 [Lync server 2013에서 미디어 바이패스를 사용 하 여 온 트렁크 to media bypass](lync-server-2013-configure-a-trunk-with-media-bypass.md) 에서 10 단계까지 또는 [lync server 2013에서는 미디어 바이패스 없이 트렁크를 구성](lync-server-2013-configure-a-trunk-without-media-bypass.md) 하는 방법을 설명 하는 단계를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-112">To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) through step 10 or [Configure a trunk without media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) through step 9.</span></span>
 
-4.  <span data-ttu-id="97918-113">**새 변환 규칙** 또는 **변환 규칙 편집** 페이지의 **이름** 필드에 변환 대상 숫자 패턴을 설명하는 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="97918-113">In the **Name** field on the **New Translation Rule** or **Edit Translation Rule** page, type a name that describes the number pattern being translated.</span></span>
+4.  <span data-ttu-id="9a4a0-113">**새 변환 규칙** 또는 **변환 규칙 편집** 페이지의 **이름** 필드에 변환 대상 숫자 패턴을 설명하는 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-113">In the **Name** field on the **New Translation Rule** or **Edit Translation Rule** page, type a name that describes the number pattern being translated.</span></span>
 
-5.  <span data-ttu-id="97918-114">(선택 사항) **설명**에 변환 규칙에 대한 설명을 **미국 국제 시외 전화**와 같이 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="97918-114">(Optional) In **Description**, type a description of the translation rule, for example **US International long-distance dialing**.</span></span>
+5.  <span data-ttu-id="9a4a0-114">(선택 사항) **설명**에 변환 규칙에 대한 설명을 **미국 국제 시외 전화**와 같이 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-114">(Optional) In **Description**, type a description of the translation rule, for example **US International long-distance dialing**.</span></span>
 
-6.  <span data-ttu-id="97918-115">**변환 규칙 작성** 섹션 아래쪽의 **편집**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="97918-115">Click **Edit** at the bottom of the **Build a Translation Rule** section.</span></span>
+6.  <span data-ttu-id="9a4a0-115">**변환 규칙 작성** 섹션 아래쪽의 **편집**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-115">Click **Edit** at the bottom of the **Build a Translation Rule** section.</span></span>
 
-7.  <span data-ttu-id="97918-116">**정규식 입력**에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="97918-116">Enter the following in **Type a Regular Expression**:</span></span>
+7.  <span data-ttu-id="9a4a0-116">**정규식 입력**에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-116">Enter the following in **Type a Regular Expression**:</span></span>
     
-      - <span data-ttu-id="97918-117">**다음 패턴과 일치시킴**에 변환할 숫자와 일치시키는 데 사용할 패턴을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="97918-117">In **Match this pattern**, specify the pattern that will be used to match the numbers to be translated.</span></span>
+      - <span data-ttu-id="9a4a0-117">**다음 패턴과 일치시킴**에 변환할 숫자와 일치시키는 데 사용할 패턴을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-117">In **Match this pattern**, specify the pattern that will be used to match the numbers to be translated.</span></span>
     
-      - <span data-ttu-id="97918-118">**변환 규칙**에 변환된 숫자 형식의 패턴을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="97918-118">In **Translation rule**, specify a pattern for the format of translated numbers.</span></span>
+      - <span data-ttu-id="9a4a0-118">**변환 규칙**에 변환된 숫자 형식의 패턴을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-118">In **Translation rule**, specify a pattern for the format of translated numbers.</span></span>
     
-    <span data-ttu-id="97918-119">예를 들어 **이 패턴과 일치** 하 고 **변환 규칙**에서 **011 $1** 을 입력 \*\* ^ \\하면 + (\\d{9}\\d +) $\*\* 가 + 441235551010를 011441235551010로 변환 합니다.</span><span class="sxs-lookup"><span data-stu-id="97918-119">For example, if you enter **^\\+(\\d{9}\\d+)$** in **Match this pattern** and **011$1** in **Translation rule**, the rule will translate +441235551010 to 011441235551010.</span></span>
+    <span data-ttu-id="9a4a0-119">예를 들어 **이 패턴과 일치** 하 고 **변환 규칙**에서 **011 $1** 을 입력 \*\* ^ \\하면 + (\\d{9}\\d +) $\*\* 가 + 441235551010를 011441235551010로 변환 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-119">For example, if you enter **^\\+(\\d{9}\\d+)$** in **Match this pattern** and **011$1** in **Translation rule**, the rule will translate +441235551010 to 011441235551010.</span></span>
 
-8.  <span data-ttu-id="97918-120">**확인**을 클릭하여 변환 규칙을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="97918-120">Click **OK** to save the translation rule.</span></span>
+8.  <span data-ttu-id="9a4a0-120">**확인**을 클릭하여 변환 규칙을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-120">Click **OK** to save the translation rule.</span></span>
 
-9.  <span data-ttu-id="97918-121">**확인**을 클릭하여 트렁크 구성을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="97918-121">Click **OK** to save the trunk configuration.</span></span>
+9.  <span data-ttu-id="9a4a0-121">**확인**을 클릭하여 트렁크 구성을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-121">Click **OK** to save the trunk configuration.</span></span>
 
-10. <span data-ttu-id="97918-122">**트렁크 구성** 페이지에서 **커밋**을 클릭하고 **모두 커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="97918-122">On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**.</span></span>
+10. <span data-ttu-id="9a4a0-122">**트렁크 구성** 페이지에서 **커밋**을 클릭하고 **모두 커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-122">On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="97918-123">변환 규칙을 만들거나 수정할 때마다 <STRONG>모두 커밋</STRONG> 명령을 실행하여 구성 변경 내용을 게시해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="97918-123">Whenever you create or modify a translation rule, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change.</span></span> <span data-ttu-id="97918-124">자세한 내용은 작업 설명서의 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013에서 음성 라우팅 구성에 보류 중인 변경 내용 게시</A> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="97918-124">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
+    > <span data-ttu-id="9a4a0-123">변환 규칙을 만들거나 수정할 때마다 <STRONG>모두 커밋</STRONG> 명령을 실행하여 구성 변경 내용을 게시해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-123">Whenever you create or modify a translation rule, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change.</span></span> <span data-ttu-id="9a4a0-124">자세한 내용은 작업 설명서의 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013에서 음성 라우팅 구성에 보류 중인 변경 내용 게시</A> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="9a4a0-124">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
 
     
     </div>
@@ -82,16 +82,16 @@ ms.locfileid: "41995543"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="97918-125">참고 항목</span><span class="sxs-lookup"><span data-stu-id="97918-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9a4a0-125">참고 항목</span><span class="sxs-lookup"><span data-stu-id="9a4a0-125">See Also</span></span>
 
 
-[<span data-ttu-id="97918-126">Lync Server 2013의 변환 규칙 작성 도구를 사용 하 여 변환 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="97918-126">Create or modify a translation rule by using the Build a Translation Rule tool in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)  
-[<span data-ttu-id="97918-127">Lync Server 2013의 미디어 바이패스로 트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="97918-127">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
-[<span data-ttu-id="97918-128">Lync Server 2013에서 미디어 바이패스 없이 트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="97918-128">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
-[<span data-ttu-id="97918-129">Lync Server 2013의 음성 라우팅 구성에 보류 중인 변경 내용 게시</span><span class="sxs-lookup"><span data-stu-id="97918-129">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
+[<span data-ttu-id="9a4a0-126">Lync Server 2013의 변환 규칙 작성 도구를 사용 하 여 변환 규칙 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="9a4a0-126">Create or modify a translation rule by using the Build a Translation Rule tool in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)  
+[<span data-ttu-id="9a4a0-127">Lync Server 2013의 미디어 바이패스로 트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="9a4a0-127">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[<span data-ttu-id="9a4a0-128">Lync Server 2013에서 미디어 바이패스 없이 트렁크 구성</span><span class="sxs-lookup"><span data-stu-id="9a4a0-128">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
+[<span data-ttu-id="9a4a0-129">Lync Server 2013의 음성 라우팅 구성에 보류 중인 변경 내용 게시</span><span class="sxs-lookup"><span data-stu-id="9a4a0-129">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
 
 
-[<span data-ttu-id="97918-130">Lync Server 2013의 글로벌 미디어 바이패스 옵션</span><span class="sxs-lookup"><span data-stu-id="97918-130">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
+[<span data-ttu-id="9a4a0-130">Lync Server 2013의 글로벌 미디어 바이패스 옵션</span><span class="sxs-lookup"><span data-stu-id="9a4a0-130">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
   
 
 </div>

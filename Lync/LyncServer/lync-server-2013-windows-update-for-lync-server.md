@@ -12,20 +12,20 @@ ms:contentKeyID: 62625495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e70ac17e27508a7922d8353e6142b3b5f05b34e9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f7df13a7875aa033bc0d38d9d736eecd12bbf5b0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041147"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149057"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-update-for-lync-server-2013"></a><span data-ttu-id="c30a0-102">Lync Server 2013 용 Windows Update</span><span class="sxs-lookup"><span data-stu-id="c30a0-102">Windows Update for Lync Server 2013</span></span>
+# <a name="windows-update-for-lync-server-2013"></a><span data-ttu-id="660cb-102">Lync Server 2013 용 Windows Update</span><span class="sxs-lookup"><span data-stu-id="660cb-102">Windows Update for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42041147"
 
 <span> </span>
 
-<span data-ttu-id="c30a0-103">_**마지막으로 수정 된 항목:** 2013-12-05_</span><span class="sxs-lookup"><span data-stu-id="c30a0-103">_**Topic Last Modified:** 2013-12-05_</span></span>
+<span data-ttu-id="660cb-103">_**마지막으로 수정 된 항목:** 2013-12-05_</span><span class="sxs-lookup"><span data-stu-id="660cb-103">_**Topic Last Modified:** 2013-12-05_</span></span>
 
-<span data-ttu-id="c30a0-104">Windows Update Services를 통해 업데이트와 보안 업데이트를 자주 확인하고 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="c30a0-104">Frequently check for and apply updates and security updates using Windows Update Services.</span></span> <span data-ttu-id="c30a0-105">이렇게 하면 공격자가 관리자 권한으로 Microsoft Lync Server 2013을 실행 하는 서버에 액세스 하 고 Lync Server 2013를 손상 시킬 수 있는 다른 시스템 구성 요소의 취약성을 방지할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c30a0-105">Doing so helps prevents vulnerabilities in other system components that might lead to attackers being able to gain access to servers running Microsoft Lync Server 2013 with administrator rights and thereby compromise Lync Server 2013.</span></span>
+<span data-ttu-id="660cb-104">Windows Update Services를 통해 업데이트와 보안 업데이트를 자주 확인하고 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="660cb-104">Frequently check for and apply updates and security updates using Windows Update Services.</span></span> <span data-ttu-id="660cb-105">이렇게 하면 공격자가 관리자 권한으로 Microsoft Lync Server 2013을 실행 하는 서버에 액세스 하 고 Lync Server 2013를 손상 시킬 수 있는 다른 시스템 구성 요소의 취약성을 방지할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="660cb-105">Doing so helps prevents vulnerabilities in other system components that might lead to attackers being able to gain access to servers running Microsoft Lync Server 2013 with administrator rights and thereby compromise Lync Server 2013.</span></span>
 
-<span data-ttu-id="c30a0-106">Microsoft SQL Server 2008 Express (64 비트 버전)에 대 한 업데이트는 업그레이드 해야 하는 경우를 제외 하 고, 각 Lync Server 2013 Standard Edition Server (백 엔드 데이터베이스용) 및 다른 모든 Lync Server 2013 서버 역할 (로컬 구성 저장소)에서 실행 됩니다. SQL Server 2008 R2 Express 데이터베이스</span><span class="sxs-lookup"><span data-stu-id="c30a0-106">Updates for Microsoft SQL Server 2008 Express (64-bit edition) runs on each Lync Server 2013 Standard Edition server (for the back-end database) and on all other Lync Server 2013 server roles (for the Local Configuration Store), unless you have upgraded these databases to SQL Server 2008 R2 Express.</span></span> <span data-ttu-id="c30a0-107">프런트 엔드 풀의 백 엔드 데이터베이스에 있는 SQL Server, 모니터링 데이터베이스 및 보관 데이터베이스와 같이 이러한 데이터베이스는 일상적인 보안 업데이트 유지 관리의 일부로 생각해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c30a0-107">You should consider these databases as part of routine security update maintenance, as should SQL Server on the back-end database of a Front End pool, the Monitoring database, and the Archiving database.</span></span>
+<span data-ttu-id="660cb-106">Microsoft SQL Server 2008 Express (64 비트 버전)에 대 한 업데이트는 업그레이드 해야 하는 경우를 제외 하 고, 각 Lync Server 2013 Standard Edition Server (백 엔드 데이터베이스용) 및 다른 모든 Lync Server 2013 서버 역할 (로컬 구성 저장소)에서 실행 됩니다. SQL Server 2008 R2 Express 데이터베이스</span><span class="sxs-lookup"><span data-stu-id="660cb-106">Updates for Microsoft SQL Server 2008 Express (64-bit edition) runs on each Lync Server 2013 Standard Edition server (for the back-end database) and on all other Lync Server 2013 server roles (for the Local Configuration Store), unless you have upgraded these databases to SQL Server 2008 R2 Express.</span></span> <span data-ttu-id="660cb-107">프런트 엔드 풀의 백 엔드 데이터베이스에 있는 SQL Server, 모니터링 데이터베이스 및 보관 데이터베이스와 같이 이러한 데이터베이스는 일상적인 보안 업데이트 유지 관리의 일부로 생각해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="660cb-107">You should consider these databases as part of routine security update maintenance, as should SQL Server on the back-end database of a Front End pool, the Monitoring database, and the Archiving database.</span></span>
 
 <div>
 
-## <a name="best-practice"></a><span data-ttu-id="c30a0-108">유용한 정보</span><span class="sxs-lookup"><span data-stu-id="c30a0-108">Best Practice</span></span>
+## <a name="best-practice"></a><span data-ttu-id="660cb-108">유용한 정보</span><span class="sxs-lookup"><span data-stu-id="660cb-108">Best Practice</span></span>
 
-  - <span data-ttu-id="c30a0-109">Windows Update를 통해 최신 상태를 유지합니다.</span><span class="sxs-lookup"><span data-stu-id="c30a0-109">Keep current with Windows Update.</span></span>
+  - <span data-ttu-id="660cb-109">Windows Update를 통해 최신 상태를 유지합니다.</span><span class="sxs-lookup"><span data-stu-id="660cb-109">Keep current with Windows Update.</span></span>
 
 </div>
 

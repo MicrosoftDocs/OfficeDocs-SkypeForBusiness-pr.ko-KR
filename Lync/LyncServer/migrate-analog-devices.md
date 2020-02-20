@@ -12,20 +12,20 @@ ms:contentKeyID: 49733779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8e176b03adf3d64b06e7bd9e2a0e72282a1f0f1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: daa85bae73df45fe8252973a3bf4d4e0690ec4a1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034598"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148937"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-analog-devices"></a><span data-ttu-id="00d2d-102">아날로그 장치 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="00d2d-102">Migrate analog devices</span></span>
+# <a name="migrate-analog-devices"></a><span data-ttu-id="d3a55-102">아날로그 장치 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="d3a55-102">Migrate analog devices</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42034598"
 
 <span> </span>
 
-<span data-ttu-id="00d2d-103">_**마지막으로 수정 된 항목:** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="00d2d-103">_**Topic Last Modified:** 2012-10-16_</span></span>
+<span data-ttu-id="d3a55-103">_**마지막으로 수정 된 항목:** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="d3a55-103">_**Topic Last Modified:** 2012-10-16_</span></span>
 
-<span data-ttu-id="00d2d-104">Lync Server는 아날로그 장치에 대 한 지원을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="00d2d-104">Lync Server provides support for analog devices.</span></span> <span data-ttu-id="00d2d-105">특히 지원되는 아날로그 장치가 아날로그 오디오 전화와 아날로그 팩스입니다.</span><span class="sxs-lookup"><span data-stu-id="00d2d-105">Specifically, the supported analog devices are analog audio phones and analog fax machines.</span></span> <span data-ttu-id="00d2d-106">Lync Server 환경에서 아날로그 장치 사용을 지원 하도록 자격 있는 게이트웨이를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="00d2d-106">You can configure the qualified gateways to support the use of analog devices in your Lync Server environment.</span></span> <span data-ttu-id="00d2d-107">Lync Server 2010에서 Lync Server 2013로 마이그레이션한 후에는 아날로그 장치와 연결 된 대화 상대 개체도 마이그레이션해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="00d2d-107">After you migrate from Lync Server 2010 to Lync Server 2013, you must also migrate the contact objects associated with the analog devices.</span></span> <span data-ttu-id="00d2d-108">Lync Server 관리 셸을 사용 하 여 Lync server 2010 아날로그 장치와 연결 된 모든 대화 상대 개체를 먼저 검색 한 다음 해당 개체를 Lync Server 2013 풀로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="00d2d-108">Use Lync Server Management Shell to first retrieve all contact objects associated with the Lync Server 2010 analog devices, and then move those objects to the Lync Server 2013 pool.</span></span>
+<span data-ttu-id="d3a55-104">Lync Server는 아날로그 장치에 대 한 지원을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3a55-104">Lync Server provides support for analog devices.</span></span> <span data-ttu-id="d3a55-105">특히 지원되는 아날로그 장치가 아날로그 오디오 전화와 아날로그 팩스입니다.</span><span class="sxs-lookup"><span data-stu-id="d3a55-105">Specifically, the supported analog devices are analog audio phones and analog fax machines.</span></span> <span data-ttu-id="d3a55-106">Lync Server 환경에서 아날로그 장치 사용을 지원 하도록 자격 있는 게이트웨이를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d3a55-106">You can configure the qualified gateways to support the use of analog devices in your Lync Server environment.</span></span> <span data-ttu-id="d3a55-107">Lync Server 2010에서 Lync Server 2013로 마이그레이션한 후에는 아날로그 장치와 연결 된 대화 상대 개체도 마이그레이션해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3a55-107">After you migrate from Lync Server 2010 to Lync Server 2013, you must also migrate the contact objects associated with the analog devices.</span></span> <span data-ttu-id="d3a55-108">Lync Server 관리 셸을 사용 하 여 Lync server 2010 아날로그 장치와 연결 된 모든 대화 상대 개체를 먼저 검색 한 다음 해당 개체를 Lync Server 2013 풀로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3a55-108">Use Lync Server Management Shell to first retrieve all contact objects associated with the Lync Server 2010 analog devices, and then move those objects to the Lync Server 2013 pool.</span></span>
 
 <div>
 
-## <a name="to-migrate-analog-devices"></a><span data-ttu-id="00d2d-109">아날로그 장치를 마이그레이션하려면</span><span class="sxs-lookup"><span data-stu-id="00d2d-109">To migrate analog devices</span></span>
+## <a name="to-migrate-analog-devices"></a><span data-ttu-id="d3a55-109">아날로그 장치를 마이그레이션하려면</span><span class="sxs-lookup"><span data-stu-id="d3a55-109">To migrate analog devices</span></span>
 
-1.  <span data-ttu-id="00d2d-110">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="00d2d-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="d3a55-110">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="d3a55-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="00d2d-111">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="00d2d-111">At the command line, type:</span></span>
+2.  <span data-ttu-id="d3a55-111">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="d3a55-111">At the command line, type:</span></span>
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
 
-3.  <span data-ttu-id="00d2d-112">모든 대화 상대 개체가 Lync Server 2013 풀로 이동 되었는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="00d2d-112">Verify that all contact objects have been moved to the Lync Server 2013 pool.</span></span> <span data-ttu-id="00d2d-113">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="00d2d-113">At the command line, type:</span></span>
+3.  <span data-ttu-id="d3a55-112">모든 대화 상대 개체가 Lync Server 2013 풀로 이동 되었는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3a55-112">Verify that all contact objects have been moved to the Lync Server 2013 pool.</span></span> <span data-ttu-id="d3a55-113">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="d3a55-113">At the command line, type:</span></span>
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
 
-4.  <span data-ttu-id="00d2d-114">모든 대화 상대 개체가 Lync Server 2013 풀과 연결 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="00d2d-114">Verify that all the contact objects are now associated with the Lync Server 2013 pool.</span></span>
+4.  <span data-ttu-id="d3a55-114">모든 대화 상대 개체가 Lync Server 2013 풀과 연결 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="d3a55-114">Verify that all the contact objects are now associated with the Lync Server 2013 pool.</span></span>
 
 </div>
 

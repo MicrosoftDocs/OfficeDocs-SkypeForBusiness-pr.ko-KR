@@ -12,20 +12,20 @@ ms:contentKeyID: 48183480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8fbb2256f008106b868c8d570c9fec3f138e37d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 803357279efb630e20ce78c0cc71221d31e07112
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034448"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148577"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-1-plan-your-migration-from-lync-server-2010"></a><span data-ttu-id="5efa0-102">1 단계: Lync Server 2010에서 마이그레이션 계획</span><span class="sxs-lookup"><span data-stu-id="5efa0-102">Phase 1: Plan your migration from Lync Server 2010</span></span>
+# <a name="phase-1-plan-your-migration-from-lync-server-2010"></a><span data-ttu-id="abc50-102">1 단계: Lync Server 2010에서 마이그레이션 계획</span><span class="sxs-lookup"><span data-stu-id="abc50-102">Phase 1: Plan your migration from Lync Server 2010</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42034448"
 
 <span> </span>
 
-<span data-ttu-id="5efa0-103">_**마지막으로 수정 된 항목:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="5efa0-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="abc50-103">_**마지막으로 수정 된 항목:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="abc50-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="5efa0-104">이 섹션에서는 Lync Server 2010에서 Lync Server 2013로 마이그레이션하는 계획 항목에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="5efa0-104">This section covers planning topics for migrating from Lync Server 2010 to Lync Server 2013.</span></span>
+<span data-ttu-id="abc50-104">이 섹션에서는 Lync Server 2010에서 Lync Server 2013로 마이그레이션하는 계획 항목에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="abc50-104">This section covers planning topics for migrating from Lync Server 2010 to Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5efa0-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="5efa0-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="abc50-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="abc50-105">In This Section</span></span>
 
-  - [<span data-ttu-id="5efa0-106">사용자 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="5efa0-106">User migration</span></span>](user-migration.md)
+  - [<span data-ttu-id="abc50-106">사용자 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="abc50-106">User migration</span></span>](user-migration.md)
 
-  - [<span data-ttu-id="5efa0-107">보관 및 모니터링 서버 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="5efa0-107">Migrating Archiving and Monitoring servers</span></span>](migrating-archiving-and-monitoring-servers.md)
+  - [<span data-ttu-id="abc50-107">보관 및 모니터링 서버 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="abc50-107">Migrating Archiving and Monitoring servers</span></span>](migrating-archiving-and-monitoring-servers.md)
 
-  - [<span data-ttu-id="5efa0-108">그룹 채팅 서버 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="5efa0-108">Migrating Group Chat servers</span></span>](migrating-group-chat-servers.md)
+  - [<span data-ttu-id="abc50-108">그룹 채팅 서버 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="abc50-108">Migrating Group Chat servers</span></span>](migrating-group-chat-servers.md)
 
-  - [<span data-ttu-id="5efa0-109">마이그레이션 후 서버 관리</span><span class="sxs-lookup"><span data-stu-id="5efa0-109">Administering servers after migration</span></span>](administering-servers-after-migration.md)
+  - [<span data-ttu-id="abc50-109">마이그레이션 후 서버 관리</span><span class="sxs-lookup"><span data-stu-id="abc50-109">Administering servers after migration</span></span>](administering-servers-after-migration.md)
 
-  - [<span data-ttu-id="5efa0-110">여러 사이트 및 풀 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="5efa0-110">Migrating multiple sites and pools</span></span>](migrating-multiple-sites-and-pools.md)
+  - [<span data-ttu-id="abc50-110">여러 사이트 및 풀 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="abc50-110">Migrating multiple sites and pools</span></span>](migrating-multiple-sites-and-pools.md)
 
-  - [<span data-ttu-id="5efa0-111">XMPP 페더레이션 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="5efa0-111">Migrating XMPP federation</span></span>](migrating-xmpp-federation.md)
+  - [<span data-ttu-id="abc50-111">XMPP 페더레이션 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="abc50-111">Migrating XMPP federation</span></span>](migrating-xmpp-federation.md)
 
 </div>
 

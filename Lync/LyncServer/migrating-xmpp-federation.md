@@ -12,20 +12,20 @@ ms:contentKeyID: 49733794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64a88712d68418b6c4144c67b6583f2451fb7e10
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0dbfc5da555ddf81f7ae542a552c503cc2c24272
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036004"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148807"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-xmpp-federation"></a><span data-ttu-id="044a5-102">XMPP 페더레이션 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="044a5-102">Migrating XMPP federation</span></span>
+# <a name="migrating-xmpp-federation"></a><span data-ttu-id="37c68-102">XMPP 페더레이션 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="37c68-102">Migrating XMPP federation</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42036004"
 
 <span> </span>
 
-<span data-ttu-id="044a5-103">_**마지막으로 수정 된 항목:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="044a5-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="37c68-103">_**마지막으로 수정 된 항목:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="37c68-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="044a5-104">이전 버전의 Lync Server 및 Office Communications Server에서는 XMPP 배포와의 페더레이션을 허용 하기 위해 별도의 서버 역할로 배포할 수 있는 XMPP (extensible messaging and 거점 protocol) 게이트웨이를 제공 했습니다.</span><span class="sxs-lookup"><span data-stu-id="044a5-104">Previous versions of Lync Server and Office Communications Server provided an extensible messaging and presence protocol (XMPP) gateway that could be deployed as a separate server role to allow federating with XMPP deployments.</span></span> <span data-ttu-id="044a5-105">Lync Server 2013에서는 XMPP 기능을 기능으로 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="044a5-105">In Lync Server 2013, the XMPP functionality can be deployed as a feature.</span></span> <span data-ttu-id="044a5-106">XMPP 기능은 Lync server 2013에 지 서버에서 실행 되는 XMPP 프록시 및 Lync Server 2013 프런트 엔드 서버에서 실행 되는 XMPP 게이트웨이와 같은 두 부분으로 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="044a5-106">XMPP functionality is installed in two parts: as an XMPP proxy that runs on the Lync Server 2013 Edge Server, and the XMPP Gateway that runs on the Lync Server 2013 Front End Server.</span></span>
+<span data-ttu-id="37c68-104">이전 버전의 Lync Server 및 Office Communications Server에서는 XMPP 배포와의 페더레이션을 허용 하기 위해 별도의 서버 역할로 배포할 수 있는 XMPP (extensible messaging and 거점 protocol) 게이트웨이를 제공 했습니다.</span><span class="sxs-lookup"><span data-stu-id="37c68-104">Previous versions of Lync Server and Office Communications Server provided an extensible messaging and presence protocol (XMPP) gateway that could be deployed as a separate server role to allow federating with XMPP deployments.</span></span> <span data-ttu-id="37c68-105">Lync Server 2013에서는 XMPP 기능을 기능으로 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="37c68-105">In Lync Server 2013, the XMPP functionality can be deployed as a feature.</span></span> <span data-ttu-id="37c68-106">XMPP 기능은 Lync server 2013에 지 서버에서 실행 되는 XMPP 프록시 및 Lync Server 2013 프런트 엔드 서버에서 실행 되는 XMPP 게이트웨이와 같은 두 부분으로 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="37c68-106">XMPP functionality is installed in two parts: as an XMPP proxy that runs on the Lync Server 2013 Edge Server, and the XMPP Gateway that runs on the Lync Server 2013 Front End Server.</span></span>
 
-<span data-ttu-id="044a5-107">마이그레이션 측면에서 Lync Server 사용자 계정을 Lync Server 2013 풀로 이동 하 고 계속 해 서 레거시 XMPP 게이트웨이를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="044a5-107">From a migration perspective, a Lync Server user account can be moved to a Lync Server 2013 pool and continue to use the legacy XMPP gateway.</span></span> <span data-ttu-id="044a5-108">이는 XMPP 페더레이션 파트너가 Lync Server 2013에 구성 되어 있지 않은 경우에만 가능 합니다.</span><span class="sxs-lookup"><span data-stu-id="044a5-108">This is possible only when the XMPP federated partner is not configured in Lync Server 2013.</span></span>
+<span data-ttu-id="37c68-107">마이그레이션 측면에서 Lync Server 사용자 계정을 Lync Server 2013 풀로 이동 하 고 계속 해 서 레거시 XMPP 게이트웨이를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="37c68-107">From a migration perspective, a Lync Server user account can be moved to a Lync Server 2013 pool and continue to use the legacy XMPP gateway.</span></span> <span data-ttu-id="37c68-108">이는 XMPP 페더레이션 파트너가 Lync Server 2013에 구성 되어 있지 않은 경우에만 가능 합니다.</span><span class="sxs-lookup"><span data-stu-id="37c68-108">This is possible only when the XMPP federated partner is not configured in Lync Server 2013.</span></span>
 
-<span data-ttu-id="044a5-109">요약 하자면, Lync Server 2010이 Office Communications Server 2007 R2 XMPP 게이트웨이와 함께 배포 되 고 레거시 Lync Server 2010 사용자에 대해 XMPP 페더레이션을 사용 하도록 설정 되어 있는 경우 XMPP 페더레이션을 Lync Server 2013로 마이그레이션하려면 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="044a5-109">In summary, if Lync Server 2010 has been deployed with the Office Communications Server 2007 R2 XMPP Gateway and XMPP federation has been enabled for legacy Lync Server 2010 users, to migrate the XMPP federation to Lync Server 2013:</span></span>
+<span data-ttu-id="37c68-109">요약 하자면, Lync Server 2010이 Office Communications Server 2007 R2 XMPP 게이트웨이와 함께 배포 되 고 레거시 Lync Server 2010 사용자에 대해 XMPP 페더레이션을 사용 하도록 설정 되어 있는 경우 XMPP 페더레이션을 Lync Server 2013로 마이그레이션하려면 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="37c68-109">In summary, if Lync Server 2010 has been deployed with the Office Communications Server 2007 R2 XMPP Gateway and XMPP federation has been enabled for legacy Lync Server 2010 users, to migrate the XMPP federation to Lync Server 2013:</span></span>
 
-1.  <span data-ttu-id="044a5-110">Lync Server 2013 풀을 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="044a5-110">Deploy a Lync Server 2013 pool.</span></span>
+1.  <span data-ttu-id="37c68-110">Lync Server 2013 풀을 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="37c68-110">Deploy a Lync Server 2013 pool.</span></span>
 
-2.  <span data-ttu-id="044a5-111">Lync Server 2013에 지 서버를 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="044a5-111">Deploy a Lync Server 2013 Edge server.</span></span>
+2.  <span data-ttu-id="37c68-111">Lync Server 2013에 지 서버를 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="37c68-111">Deploy a Lync Server 2013 Edge server.</span></span>
 
-3.  <span data-ttu-id="044a5-112">모든 사용자를 Lync Server 2013 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="044a5-112">Move all users to the Lync Server 2013 pool</span></span>
+3.  <span data-ttu-id="37c68-112">모든 사용자를 Lync Server 2013 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="37c68-112">Move all users to the Lync Server 2013 pool</span></span>
 
-4.  <span data-ttu-id="044a5-113">에지 서버에 대한 XMPP 액세스 정책 및 인증서를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="044a5-113">Create XMPP access policies and certificates for the Edge Server.</span></span>
+4.  <span data-ttu-id="37c68-113">에지 서버에 대한 XMPP 액세스 정책 및 인증서를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="37c68-113">Create XMPP access policies and certificates for the Edge Server.</span></span>
 
-5.  <span data-ttu-id="044a5-114">Lync Server 2013에서 XMPP 페더레이션을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="044a5-114">Enable XMPP federation in Lync Server 2013.</span></span> 
+5.  <span data-ttu-id="37c68-114">Lync Server 2013에서 XMPP 페더레이션을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="37c68-114">Enable XMPP federation in Lync Server 2013.</span></span> 
 
-6.  <span data-ttu-id="044a5-115">Lync Server 2013 XMPP 게이트웨이를 가리키도록 DNS 항목을 업데이트 합니다.</span><span class="sxs-lookup"><span data-stu-id="044a5-115">Update the DNS entries to point to the Lync Server 2013 XMPP Gateway.</span></span>
+6.  <span data-ttu-id="37c68-115">Lync Server 2013 XMPP 게이트웨이를 가리키도록 DNS 항목을 업데이트 합니다.</span><span class="sxs-lookup"><span data-stu-id="37c68-115">Update the DNS entries to point to the Lync Server 2013 XMPP Gateway.</span></span>
 
 </div>
 

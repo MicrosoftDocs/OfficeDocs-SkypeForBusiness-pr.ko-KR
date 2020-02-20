@@ -12,20 +12,20 @@ ms:contentKeyID: 48184467
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21939a4d03e04441c25aab2209cb27f6b8895e64
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1075c96c586f2b1568edc2420873415268edbf58
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050860"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153038"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phones-and-devices-cmdlets-in-lync-server-2013"></a><span data-ttu-id="a283c-102">Lync Server 2013의 전화 및 장치 cmdlet</span><span class="sxs-lookup"><span data-stu-id="a283c-102">Phones and devices cmdlets in Lync Server 2013</span></span>
+# <a name="phones-and-devices-cmdlets-in-lync-server-2013"></a><span data-ttu-id="0fcd6-102">Lync Server 2013의 전화 및 장치 cmdlet</span><span class="sxs-lookup"><span data-stu-id="0fcd6-102">Phones and devices cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,133 +35,133 @@ ms.locfileid: "42050860"
 
 <span> </span>
 
-<span data-ttu-id="a283c-103">_**마지막으로 수정 된 항목:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="a283c-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="0fcd6-103">_**마지막으로 수정 된 항목:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="0fcd6-103">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="a283c-104">Microsoft Lync Server 2013는 전화 및 기타 하드웨어 장치를 관리 하는 데 사용할 수 있는 다양 한 cmdlet을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="a283c-104">Microsoft Lync Server 2013 provides a number of cmdlets that enable you to manage telephones and other hardware devices.</span></span> <span data-ttu-id="a283c-105">여기에는 VoIP (Voice over IP) 전화와 같은 항목이 포함 됩니다. 공통 영역 전화 (예: 건물 로비, cafeteria 또는 기타 공공 장소) 또한 Lync Phone Edition을 실행할 수 없는 전화 및 아날로그 전화도 마찬가지입니다.</span><span class="sxs-lookup"><span data-stu-id="a283c-105">This includes such things as Voice over IP (VoIP) phones; common area phones (for example, a phone in a building lobby, cafeteria, or other public location); and even analog phones, phones that are not capable of running Lync Phone Edition.</span></span>
+<span data-ttu-id="0fcd6-104">Microsoft Lync Server 2013는 전화 및 기타 하드웨어 장치를 관리 하는 데 사용할 수 있는 다양 한 cmdlet을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="0fcd6-104">Microsoft Lync Server 2013 provides a number of cmdlets that enable you to manage telephones and other hardware devices.</span></span> <span data-ttu-id="0fcd6-105">여기에는 VoIP (Voice over IP) 전화와 같은 항목이 포함 됩니다. 공통 영역 전화 (예: 건물 로비, cafeteria 또는 기타 공공 장소) 또한 Lync Phone Edition을 실행할 수 없는 전화 및 아날로그 전화도 마찬가지입니다.</span><span class="sxs-lookup"><span data-stu-id="0fcd6-105">This includes such things as Voice over IP (VoIP) phones; common area phones (for example, a phone in a building lobby, cafeteria, or other public location); and even analog phones, phones that are not capable of running Lync Phone Edition.</span></span>
 
 <div>
 
-## <a name="phones-and-devices-cmdlets"></a><span data-ttu-id="a283c-106">전화 및 장치 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="a283c-106">Phones and Devices Cmdlets</span></span>
+## <a name="phones-and-devices-cmdlets"></a><span data-ttu-id="0fcd6-106">전화 및 장치 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="0fcd6-106">Phones and Devices Cmdlets</span></span>
 
-<span data-ttu-id="a283c-107">**Csdeviceupdate** cmdlet은 관리자가 Lync Phone Edition을 실행 하는 전화 및 기타 장치에 펌웨어 업데이트를 배포할 수 있도록 하는 장치 업데이트 웹 서비스를 관리 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a283c-107">The **CsDeviceUpdate** cmdlets are used to manage the Device Update Web service, a Lync Server component that enables administrators to distribute firmware updates to telephones and other devices running Lync Phone Edition.</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="a283c-108">[Move-csanalogdevice](https://technet.microsoft.com/library/Gg398748(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-108">[Get-CsAnalogDevice](https://technet.microsoft.com/library/Gg398748(v=OCS.15))</span></span>
+<span data-ttu-id="0fcd6-107">**Csdeviceupdate** cmdlet은 관리자가 Lync Phone Edition을 실행 하는 전화 및 기타 장치에 펌웨어 업데이트를 배포할 수 있도록 하는 장치 업데이트 웹 서비스를 관리 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0fcd6-107">The **CsDeviceUpdate** cmdlets are used to manage the Device Update Web service, a Lync Server component that enables administrators to distribute firmware updates to telephones and other devices running Lync Phone Edition.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-109">[이동-Move-csanalogdevice](https://technet.microsoft.com/library/Gg398816(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-109">[Move-CsAnalogDevice](https://technet.microsoft.com/library/Gg398816(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-108">[Move-csanalogdevice](https://technet.microsoft.com/library/Gg398748(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-108">[Get-CsAnalogDevice](https://technet.microsoft.com/library/Gg398748(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-110">[Move-csanalogdevice](https://technet.microsoft.com/library/Gg412937(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-110">[New-CsAnalogDevice](https://technet.microsoft.com/library/Gg412937(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-109">[이동-Move-csanalogdevice](https://technet.microsoft.com/library/Gg398816(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-109">[Move-CsAnalogDevice](https://technet.microsoft.com/library/Gg398816(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-111">[Move-csanalogdevice을 제거 합니다.](rehttps://technet.microsoft.com/library/Gg398816(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-111">[Remove-CsAnalogDevice](rehttps://technet.microsoft.com/library/Gg398816(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-110">[Move-csanalogdevice](https://technet.microsoft.com/library/Gg412937(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-110">[New-CsAnalogDevice](https://technet.microsoft.com/library/Gg412937(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-112">[Move-csanalogdevice](https://technet.microsoft.com/library/Gg412843(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-112">[Set-CsAnalogDevice](https://technet.microsoft.com/library/Gg412843(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-111">[Move-csanalogdevice을 제거 합니다.](rehttps://technet.microsoft.com/library/Gg398816(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-111">[Remove-CsAnalogDevice](rehttps://technet.microsoft.com/library/Gg398816(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="0fcd6-112">[Move-csanalogdevice](https://technet.microsoft.com/library/Gg412843(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-112">[Set-CsAnalogDevice](https://technet.microsoft.com/library/Gg412843(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a283c-113">[Move-cscommonareaphone](https://technet.microsoft.com/library/Gg412934(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-113">[Get-CsCommonAreaPhone](https://technet.microsoft.com/library/Gg412934(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-113">[Move-cscommonareaphone](https://technet.microsoft.com/library/Gg412934(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-113">[Get-CsCommonAreaPhone](https://technet.microsoft.com/library/Gg412934(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-114">[이동-Move-cscommonareaphone](https://technet.microsoft.com/library/Gg412837(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-114">[Move-CsCommonAreaPhone](https://technet.microsoft.com/library/Gg412837(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-114">[이동-Move-cscommonareaphone](https://technet.microsoft.com/library/Gg412837(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-114">[Move-CsCommonAreaPhone](https://technet.microsoft.com/library/Gg412837(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-115">[Move-cscommonareaphone](https://technet.microsoft.com/library/Gg398430(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-115">[New-CsCommonAreaPhone](https://technet.microsoft.com/library/Gg398430(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-115">[Move-cscommonareaphone](https://technet.microsoft.com/library/Gg398430(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-115">[New-CsCommonAreaPhone](https://technet.microsoft.com/library/Gg398430(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-116">[Move-cscommonareaphone을 제거 합니다.](rehttps://technet.microsoft.com/library/Gg412837(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-116">[Remove-CsCommonAreaPhone](rehttps://technet.microsoft.com/library/Gg412837(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-116">[Move-cscommonareaphone을 제거 합니다.](rehttps://technet.microsoft.com/library/Gg412837(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-116">[Remove-CsCommonAreaPhone](rehttps://technet.microsoft.com/library/Gg412837(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-117">[Move-cscommonareaphone](https://technet.microsoft.com/library/Gg398579(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-117">[Set-CsCommonAreaPhone](https://technet.microsoft.com/library/Gg398579(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-117">[Move-cscommonareaphone](https://technet.microsoft.com/library/Gg398579(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-117">[Set-CsCommonAreaPhone](https://technet.microsoft.com/library/Gg398579(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a283c-118">[Set-csucphoneconfiguration](https://technet.microsoft.com/library/Gg398070(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-118">[Get-CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg398070(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-118">[Set-csucphoneconfiguration](https://technet.microsoft.com/library/Gg398070(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-118">[Get-CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg398070(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-119">[Set-csucphoneconfiguration](https://technet.microsoft.com/library/Gg398445(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-119">[New-CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg398445(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-119">[Set-csucphoneconfiguration](https://technet.microsoft.com/library/Gg398445(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-119">[New-CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg398445(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-120">[Set-csucphoneconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg398249(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-120">[Remove-CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg398249(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-120">[Set-csucphoneconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg398249(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-120">[Remove-CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg398249(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-121">[Set-csucphoneconfiguration](https://technet.microsoft.com/library/Gg413042(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-121">[Set-CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg413042(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-121">[Set-csucphoneconfiguration](https://technet.microsoft.com/library/Gg413042(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-121">[Set-CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg413042(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a283c-122">[가져오기-CsDeviceUpdate](https://technet.microsoft.com/library/Gg398861(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-122">[Import-CsDeviceUpdate](https://technet.microsoft.com/library/Gg398861(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-122">[가져오기-CsDeviceUpdate](https://technet.microsoft.com/library/Gg398861(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-122">[Import-CsDeviceUpdate](https://technet.microsoft.com/library/Gg398861(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a283c-123">[New-csdeviceupdateconfiguration](https://technet.microsoft.com/library/Gg399030(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-123">[Get-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg399030(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-123">[New-csdeviceupdateconfiguration](https://technet.microsoft.com/library/Gg399030(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-123">[Get-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg399030(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-124">[New-csdeviceupdateconfiguration](https://technet.microsoft.com/library/Gg425761(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-124">[New-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg425761(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-124">[New-csdeviceupdateconfiguration](https://technet.microsoft.com/library/Gg425761(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-124">[New-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg425761(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-125">[New-csdeviceupdateconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg425933(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-125">[Remove-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg425933(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-125">[New-csdeviceupdateconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg425933(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-125">[Remove-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg425933(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-126">[New-csdeviceupdateconfiguration](https://technet.microsoft.com/library/Gg398320(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-126">[Set-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg398320(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-126">[New-csdeviceupdateconfiguration](https://technet.microsoft.com/library/Gg398320(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-126">[Set-CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg398320(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a283c-127">[일반-CsDeviceUpdateFile](https://technet.microsoft.com/library/Gg425835(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-127">[Clear-CsDeviceUpdateFile](https://technet.microsoft.com/library/Gg425835(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-127">[일반-CsDeviceUpdateFile](https://technet.microsoft.com/library/Gg425835(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-127">[Clear-CsDeviceUpdateFile](https://technet.microsoft.com/library/Gg425835(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-128">[일반-CsDeviceUpdateLog](https://technet.microsoft.com/library/Gg412738(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-128">[Clear-CsDeviceUpdateLog](https://technet.microsoft.com/library/Gg412738(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-128">[일반-CsDeviceUpdateLog](https://technet.microsoft.com/library/Gg412738(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-128">[Clear-CsDeviceUpdateLog](https://technet.microsoft.com/library/Gg412738(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a283c-129">[승인-Get-csdeviceupdaterule](https://technet.microsoft.com/library/Gg398949(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-129">[Approve-CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg398949(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-129">[승인-Get-csdeviceupdaterule](https://technet.microsoft.com/library/Gg398949(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-129">[Approve-CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg398949(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-130">[Get-csdeviceupdaterule](https://technet.microsoft.com/library/Gg398215(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-130">[Get-CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg398215(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-130">[Get-csdeviceupdaterule](https://technet.microsoft.com/library/Gg398215(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-130">[Get-CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg398215(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-131">[Get-csdeviceupdaterule을 제거 합니다.](https://technet.microsoft.com/library/Gg425930(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-131">[Remove-CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg425930(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-131">[Get-csdeviceupdaterule을 제거 합니다.](https://technet.microsoft.com/library/Gg425930(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-131">[Remove-CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg425930(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-132">[Reset-Get-csdeviceupdaterule](https://technet.microsoft.com/library/Gg398181(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-132">[Reset-CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg398181(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-132">[Reset-Get-csdeviceupdaterule](https://technet.microsoft.com/library/Gg398181(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-132">[Reset-CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg398181(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-133">[복원-Get-csdeviceupdaterule](https://technet.microsoft.com/library/Gg398305(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-133">[Restore-CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg398305(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-133">[복원-Get-csdeviceupdaterule](https://technet.microsoft.com/library/Gg398305(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-133">[Restore-CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg398305(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a283c-134">[Test-csphonebootstrap](https://technet.microsoft.com/library/Gg412852(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-134">[Test-CsPhoneBootstrap](https://technet.microsoft.com/library/Gg412852(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-134">[Test-csphonebootstrap](https://technet.microsoft.com/library/Gg412852(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-134">[Test-CsPhoneBootstrap](https://technet.microsoft.com/library/Gg412852(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a283c-135">[Get-CsTestDevice](https://technet.microsoft.com/library/Gg398304(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-135">[Get-CsTestDevice](https://technet.microsoft.com/library/Gg398304(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-135">[Get-CsTestDevice](https://technet.microsoft.com/library/Gg398304(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-135">[Get-CsTestDevice](https://technet.microsoft.com/library/Gg398304(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-136">[신규-CsTestDevice](https://technet.microsoft.com/library/Gg425899(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-136">[New-CsTestDevice](https://technet.microsoft.com/library/Gg425899(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-136">[신규-CsTestDevice](https://technet.microsoft.com/library/Gg425899(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-136">[New-CsTestDevice](https://technet.microsoft.com/library/Gg425899(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-137">[제거-CsTestDevice](https://technet.microsoft.com/library/Gg398790(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-137">[Remove-CsTestDevice](https://technet.microsoft.com/library/Gg398790(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-137">[제거-CsTestDevice](https://technet.microsoft.com/library/Gg398790(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-137">[Remove-CsTestDevice](https://technet.microsoft.com/library/Gg398790(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a283c-138">[설정-CsTestDevice](https://technet.microsoft.com/library/Gg398156(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a283c-138">[Set-CsTestDevice](https://technet.microsoft.com/library/Gg398156(v=OCS.15))</span></span>
+    <span data-ttu-id="0fcd6-138">[설정-CsTestDevice](https://technet.microsoft.com/library/Gg398156(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0fcd6-138">[Set-CsTestDevice](https://technet.microsoft.com/library/Gg398156(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a283c-139">참고 항목</span><span class="sxs-lookup"><span data-stu-id="a283c-139">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0fcd6-139">참고 항목</span><span class="sxs-lookup"><span data-stu-id="0fcd6-139">See Also</span></span>
 
 
-[<span data-ttu-id="a283c-140">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="a283c-140">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="0fcd6-140">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="0fcd6-140">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

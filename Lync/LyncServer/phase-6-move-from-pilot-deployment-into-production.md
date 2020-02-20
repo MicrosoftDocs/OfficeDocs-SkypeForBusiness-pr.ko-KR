@@ -12,20 +12,20 @@ ms:contentKeyID: 49733867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50f4b6c9b9930b9966f13ec44e7f418d7595e2f5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 201fda5c86a20d30f528fd530b11ff710984f8ed
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034208"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148467"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-from-pilot-deployment-into-production"></a><span data-ttu-id="6e583-102">6 단계: 파일럿 배포에서 프로덕션으로 이동</span><span class="sxs-lookup"><span data-stu-id="6e583-102">Phase 6: Move from pilot deployment into production</span></span>
+# <a name="phase-6-move-from-pilot-deployment-into-production"></a><span data-ttu-id="f57c4-102">6 단계: 파일럿 배포에서 프로덕션으로 이동</span><span class="sxs-lookup"><span data-stu-id="f57c4-102">Phase 6: Move from pilot deployment into production</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42034208"
 
 <span> </span>
 
-<span data-ttu-id="6e583-103">_**마지막으로 수정 된 항목:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="6e583-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="f57c4-103">_**마지막으로 수정 된 항목:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="f57c4-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="6e583-104">이 섹션의 항목에서는 파일럿 배포에서 프로덕션 수준의 배포로 Lync Server 2013의 배포를 이동 하기 전에 완료 해야 하는 작업에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e583-104">The topics in this section describe tasks you must complete prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
+<span data-ttu-id="f57c4-104">이 섹션의 항목에서는 파일럿 배포에서 프로덕션 수준의 배포로 Lync Server 2013의 배포를 이동 하기 전에 완료 해야 하는 작업에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="f57c4-104">The topics in this section describe tasks you must complete prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="6e583-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="6e583-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f57c4-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="f57c4-105">In This Section</span></span>
 
-  - [<span data-ttu-id="6e583-106">페더레이션 경로 및 미디어 트래픽 구성</span><span class="sxs-lookup"><span data-stu-id="6e583-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic.md)
+  - [<span data-ttu-id="f57c4-106">페더레이션 경로 및 미디어 트래픽 구성</span><span class="sxs-lookup"><span data-stu-id="f57c4-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic.md)
 
-  - [<span data-ttu-id="6e583-107">외부 사용자에 대 한 페더레이션 및 원격 액세스 확인</span><span class="sxs-lookup"><span data-stu-id="6e583-107">Verify federation and remote access for external users</span></span>](verify-federation-and-remote-access-for-external-users.md)
+  - [<span data-ttu-id="f57c4-107">외부 사용자에 대 한 페더레이션 및 원격 액세스 확인</span><span class="sxs-lookup"><span data-stu-id="f57c4-107">Verify federation and remote access for external users</span></span>](verify-federation-and-remote-access-for-external-users.md)
 
-  - [<span data-ttu-id="6e583-108">마이그레이션 후 단순 Url 변경</span><span class="sxs-lookup"><span data-stu-id="6e583-108">Change simple URLs after migration</span></span>](change-simple-urls-after-migration.md)
+  - [<span data-ttu-id="f57c4-108">마이그레이션 후 단순 Url 변경</span><span class="sxs-lookup"><span data-stu-id="f57c4-108">Change simple URLs after migration</span></span>](change-simple-urls-after-migration.md)
 
-  - [<span data-ttu-id="6e583-109">Lync Server 2013로 나머지 사용자 이동</span><span class="sxs-lookup"><span data-stu-id="6e583-109">Move remaining users to Lync Server 2013</span></span>](move-remaining-users-to-lync-server-2013.md)
+  - [<span data-ttu-id="f57c4-109">Lync Server 2013로 나머지 사용자 이동</span><span class="sxs-lookup"><span data-stu-id="f57c4-109">Move remaining users to Lync Server 2013</span></span>](move-remaining-users-to-lync-server-2013.md)
 
-  - [<span data-ttu-id="6e583-110">Lync Server 2013에서 XMPP 게이트웨이 구성</span><span class="sxs-lookup"><span data-stu-id="6e583-110">Configure XMPP gateway on Lync Server 2013</span></span>](configure-xmpp-gateway-on-lync-server-2013.md)
+  - [<span data-ttu-id="f57c4-110">Lync Server 2013에서 XMPP 게이트웨이 구성</span><span class="sxs-lookup"><span data-stu-id="f57c4-110">Configure XMPP gateway on Lync Server 2013</span></span>](configure-xmpp-gateway-on-lync-server-2013.md)
 
 </div>
 

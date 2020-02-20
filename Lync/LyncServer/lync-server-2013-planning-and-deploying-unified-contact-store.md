@@ -12,20 +12,20 @@ ms:contentKeyID: 48185492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fe98de82378b84c75f538e34bd2ce768a4ceb9b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 44275f8c63c7b5ed68bcea7730a7fccb90f52c01
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050790"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153018"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-and-deploying-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="4303c-102">Lync Server 2013에서 통합 연락처 저장소 계획 및 배포</span><span class="sxs-lookup"><span data-stu-id="4303c-102">Planning and deploying unified contact store in Lync Server 2013</span></span>
+# <a name="planning-and-deploying-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="6a075-102">Lync Server 2013에서 통합 연락처 저장소 계획 및 배포</span><span class="sxs-lookup"><span data-stu-id="6a075-102">Planning and deploying unified contact store in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42050790"
 
 <span> </span>
 
-<span data-ttu-id="4303c-103">_**마지막으로 수정 된 항목:** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="4303c-103">_**Topic Last Modified:** 2012-06-14_</span></span>
+<span data-ttu-id="6a075-103">_**마지막으로 수정 된 항목:** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="6a075-103">_**Topic Last Modified:** 2012-06-14_</span></span>
 
-<span data-ttu-id="4303c-104">통합된 대화 상대 저장소는 Microsoft Office 제품 전체에 걸쳐 일관된 대화 상대(연락처)를 사용할 수 있는 환경을 제공하는 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="4303c-104">Unified contact store is a feature that provides a consistent contact experience across Microsoft Office products.</span></span> <span data-ttu-id="4303c-105">이 기능을 사용 하면 Lync, Exchange, Outlook 및 Outlook Web Access에서 전체적으로 정보를 사용할 수 있도록 Exchange 2013의 모든 연락처 정보를 저장할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4303c-105">This feature enables users to store all contact information in Exchange 2013 so that the information is available globally across Lync, Exchange, Outlook, and Outlook Web Access.</span></span>
+<span data-ttu-id="6a075-104">통합된 대화 상대 저장소는 Microsoft Office 제품 전체에 걸쳐 일관된 대화 상대(연락처)를 사용할 수 있는 환경을 제공하는 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="6a075-104">Unified contact store is a feature that provides a consistent contact experience across Microsoft Office products.</span></span> <span data-ttu-id="6a075-105">이 기능을 사용 하면 Lync, Exchange, Outlook 및 Outlook Web Access에서 전체적으로 정보를 사용할 수 있도록 Exchange 2013의 모든 연락처 정보를 저장할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6a075-105">This feature enables users to store all contact information in Exchange 2013 so that the information is available globally across Lync, Exchange, Outlook, and Outlook Web Access.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4303c-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="4303c-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6a075-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="6a075-106">In This Section</span></span>
 
-  - [<span data-ttu-id="4303c-107">Lync Server 2013의 통합 연락처 저장소 요구 사항</span><span class="sxs-lookup"><span data-stu-id="4303c-107">Requirements for unified contact store in Lync Server 2013</span></span>](lync-server-2013-requirements-for-unified-contact-store.md)
+  - [<span data-ttu-id="6a075-107">Lync Server 2013의 통합 연락처 저장소 요구 사항</span><span class="sxs-lookup"><span data-stu-id="6a075-107">Requirements for unified contact store in Lync Server 2013</span></span>](lync-server-2013-requirements-for-unified-contact-store.md)
 
-  - [<span data-ttu-id="4303c-108">Lync Server 2013에서 통합 연락처 저장소 배포</span><span class="sxs-lookup"><span data-stu-id="4303c-108">Deploying unified contact store in Lync Server 2013</span></span>](lync-server-2013-deploying-unified-contact-store.md)
+  - [<span data-ttu-id="6a075-108">Lync Server 2013에서 통합 연락처 저장소 배포</span><span class="sxs-lookup"><span data-stu-id="6a075-108">Deploying unified contact store in Lync Server 2013</span></span>](lync-server-2013-deploying-unified-contact-store.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37a7a823e2dc1aa0e7ea1df5d873292f2932ac32
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d7d4b688a2a6d768e93e436e0ced354d0c5070bd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045590"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149998"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-the-lync-server-2013-topology"></a><span data-ttu-id="8f02b-102">Lync Server 2013 토폴로지 관리</span><span class="sxs-lookup"><span data-stu-id="8f02b-102">Managing the Lync Server 2013 topology</span></span>
+# <a name="managing-the-lync-server-2013-topology"></a><span data-ttu-id="76bea-102">Lync Server 2013 토폴로지 관리</span><span class="sxs-lookup"><span data-stu-id="76bea-102">Managing the Lync Server 2013 topology</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "42045590"
 
 <span> </span>
 
-<span data-ttu-id="8f02b-103">_**마지막으로 수정 된 항목:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="8f02b-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="76bea-103">_**마지막으로 수정 된 항목:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="76bea-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="8f02b-104">이 섹션의 항목에서는 Lync Server 2013 제어판의 **토폴로지** 페이지를 사용 하 여 수행할 수 있는 작업에 대 한 단계별 절차를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="8f02b-104">Topics in this section provide step-by-step procedures for tasks you can perform using the **Topology** page in Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="76bea-104">이 섹션의 항목에서는 Lync Server 2013 제어판의 **토폴로지** 페이지를 사용 하 여 수행할 수 있는 작업에 대 한 단계별 절차를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="76bea-104">Topics in this section provide step-by-step procedures for tasks you can perform using the **Topology** page in Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8f02b-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="8f02b-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="76bea-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="76bea-105">In This Section</span></span>
 
-  - [<span data-ttu-id="8f02b-106">Lync Server 2013를 실행 하는 컴퓨터 목록 보기</span><span class="sxs-lookup"><span data-stu-id="8f02b-106">View a list of computers running Lync Server 2013</span></span>](lync-server-2013-view-a-list-of-computers-running-lync-server-2013.md)
+  - [<span data-ttu-id="76bea-106">Lync Server 2013를 실행 하는 컴퓨터 목록 보기</span><span class="sxs-lookup"><span data-stu-id="76bea-106">View a list of computers running Lync Server 2013</span></span>](lync-server-2013-view-a-list-of-computers-running-lync-server-2013.md)
 
-  - [<span data-ttu-id="8f02b-107">Lync Server 2013에서 컴퓨터에서 실행 되는 서비스의 상태 보기</span><span class="sxs-lookup"><span data-stu-id="8f02b-107">View the status of services running on a computer in Lync Server 2013</span></span>](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
+  - [<span data-ttu-id="76bea-107">Lync Server 2013에서 컴퓨터에서 실행 되는 서비스의 상태 보기</span><span class="sxs-lookup"><span data-stu-id="76bea-107">View the status of services running on a computer in Lync Server 2013</span></span>](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
 
-  - [<span data-ttu-id="8f02b-108">Lync Server 2013의 서비스에 대 한 세부 정보 보기</span><span class="sxs-lookup"><span data-stu-id="8f02b-108">View details about a service in Lync Server 2013</span></span>](lync-server-2013-view-details-about-a-service.md)
+  - [<span data-ttu-id="76bea-108">Lync Server 2013의 서비스에 대 한 세부 정보 보기</span><span class="sxs-lookup"><span data-stu-id="76bea-108">View details about a service in Lync Server 2013</span></span>](lync-server-2013-view-details-about-a-service.md)
 
-  - [<span data-ttu-id="8f02b-109">Lync Server 2013 서비스 시작 또는 중지</span><span class="sxs-lookup"><span data-stu-id="8f02b-109">Start or stop Lync Server 2013 services</span></span>](lync-server-2013-start-or-stop-lync-server-services.md)
+  - [<span data-ttu-id="76bea-109">Lync Server 2013 서비스 시작 또는 중지</span><span class="sxs-lookup"><span data-stu-id="76bea-109">Start or stop Lync Server 2013 services</span></span>](lync-server-2013-start-or-stop-lync-server-services.md)
 
-  - [<span data-ttu-id="8f02b-110">Lync Server 2013의 서비스에 대 한 세션 방지</span><span class="sxs-lookup"><span data-stu-id="8f02b-110">Prevent sessions for services in Lync Server 2013</span></span>](lync-server-2013-prevent-sessions-for-services.md)
+  - [<span data-ttu-id="76bea-110">Lync Server 2013의 서비스에 대 한 세션 방지</span><span class="sxs-lookup"><span data-stu-id="76bea-110">Prevent sessions for services in Lync Server 2013</span></span>](lync-server-2013-prevent-sessions-for-services.md)
 
-  - [<span data-ttu-id="8f02b-111">Lync Server 2013에서 프런트 엔드 서버 업그레이드 또는 업데이트</span><span class="sxs-lookup"><span data-stu-id="8f02b-111">Upgrade or update Front End Servers in Lync Server 2013</span></span>](lync-server-2013-upgrade-or-update-front-end-servers.md)
+  - [<span data-ttu-id="76bea-111">Lync Server 2013에서 프런트 엔드 서버 업그레이드 또는 업데이트</span><span class="sxs-lookup"><span data-stu-id="76bea-111">Upgrade or update Front End Servers in Lync Server 2013</span></span>](lync-server-2013-upgrade-or-update-front-end-servers.md)
 
-  - [<span data-ttu-id="8f02b-112">Lync Server 2013에서 프런트 엔드 서버 추가 또는 제거</span><span class="sxs-lookup"><span data-stu-id="8f02b-112">Add or remove a Front End Server in Lync Server 2013</span></span>](lync-server-2013-add-or-remove-a-front-end-server.md)
+  - [<span data-ttu-id="76bea-112">Lync Server 2013에서 프런트 엔드 서버 추가 또는 제거</span><span class="sxs-lookup"><span data-stu-id="76bea-112">Add or remove a Front End Server in Lync Server 2013</span></span>](lync-server-2013-add-or-remove-a-front-end-server.md)
 
-  - [<span data-ttu-id="8f02b-113">Lync Server 2013에서 백 엔드 서버 또는 Standard Edition 서버 업그레이드 또는 업데이트</span><span class="sxs-lookup"><span data-stu-id="8f02b-113">Upgrade or update a Back End Server or Standard Edition server in Lync Server 2013</span></span>](lync-server-2013-upgrade-or-update-a-back-end-server-or-standard-edition-server.md)
+  - [<span data-ttu-id="76bea-113">Lync Server 2013에서 백 엔드 서버 또는 Standard Edition 서버 업그레이드 또는 업데이트</span><span class="sxs-lookup"><span data-stu-id="76bea-113">Upgrade or update a Back End Server or Standard Edition server in Lync Server 2013</span></span>](lync-server-2013-upgrade-or-update-a-back-end-server-or-standard-edition-server.md)
 
-  - [<span data-ttu-id="8f02b-114">Lync Server 2013에서 MSPL (Microsoft SIP Processing Language) 응용 프로그램 관리</span><span class="sxs-lookup"><span data-stu-id="8f02b-114">Managing Microsoft SIP Processing Language (MSPL) applications in Lync Server 2013</span></span>](lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md)
+  - [<span data-ttu-id="76bea-114">Lync Server 2013에서 MSPL (Microsoft SIP Processing Language) 응용 프로그램 관리</span><span class="sxs-lookup"><span data-stu-id="76bea-114">Managing Microsoft SIP Processing Language (MSPL) applications in Lync Server 2013</span></span>](lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md)
 
-  - [<span data-ttu-id="8f02b-115">Lync Server 2013에서 단순 Url 관리</span><span class="sxs-lookup"><span data-stu-id="8f02b-115">Managing simple URLs in Lync Server 2013</span></span>](lync-server-2013-managing-simple-urls.md)
+  - [<span data-ttu-id="76bea-115">Lync Server 2013에서 단순 Url 관리</span><span class="sxs-lookup"><span data-stu-id="76bea-115">Managing simple URLs in Lync Server 2013</span></span>](lync-server-2013-managing-simple-urls.md)
 
 </div>
 

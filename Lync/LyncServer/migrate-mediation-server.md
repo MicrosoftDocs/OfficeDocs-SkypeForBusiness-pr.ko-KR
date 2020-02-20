@@ -12,20 +12,20 @@ ms:contentKeyID: 48185117
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 581ce96b0c0a6ad0e4edd68eddbfacb160bf13f1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d7786ecfd72ac32de74c9947f0effa1fad0c9603
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045860"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148887"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-mediation-server"></a><span data-ttu-id="1402b-102">중재 서버 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="1402b-102">Migrate Mediation Server</span></span>
+# <a name="migrate-mediation-server"></a><span data-ttu-id="90908-102">중재 서버 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="90908-102">Migrate Mediation Server</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42045860"
 
 <span> </span>
 
-<span data-ttu-id="1402b-103">_**마지막으로 수정 된 항목:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="1402b-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="90908-103">_**마지막으로 수정 된 항목:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="90908-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="1402b-104">병합 마법사를 실행 하면 중재 서버가 Lync Server 2013 파일럿 토폴로지에 병합 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1402b-104">Your Mediation Server is merged into your Lync Server 2013 pilot topology when you run the Merge wizard.</span></span> <span data-ttu-id="1402b-105">그러나 Office Communications Server 2007 R2 풀이 Lync Server 2013 중재 서버와 통신할 수 없으므로 모든 사용자가 마이그레이션된 후에 Lync Server 2013 중재 서버를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="1402b-105">You configure the Lync Server 2013 Mediation Server, however, after all users are migrated because an Office Communications Server 2007 R2 pool cannot communicate with a Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="1402b-106">병렬 마이그레이션 중에 Lync Server 2013 풀은 Office Communications Server 2007 R2 중재 서버와 통신 합니다.</span><span class="sxs-lookup"><span data-stu-id="1402b-106">During the side-by-side migration, the Lync Server 2013 pool communicates with the Office Communications Server 2007 R2 Mediation Server.</span></span>
+<span data-ttu-id="90908-104">병합 마법사를 실행 하면 중재 서버가 Lync Server 2013 파일럿 토폴로지에 병합 됩니다.</span><span class="sxs-lookup"><span data-stu-id="90908-104">Your Mediation Server is merged into your Lync Server 2013 pilot topology when you run the Merge wizard.</span></span> <span data-ttu-id="90908-105">그러나 Office Communications Server 2007 R2 풀이 Lync Server 2013 중재 서버와 통신할 수 없으므로 모든 사용자가 마이그레이션된 후에 Lync Server 2013 중재 서버를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="90908-105">You configure the Lync Server 2013 Mediation Server, however, after all users are migrated because an Office Communications Server 2007 R2 pool cannot communicate with a Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="90908-106">병렬 마이그레이션 중에 Lync Server 2013 풀은 Office Communications Server 2007 R2 중재 서버와 통신 합니다.</span><span class="sxs-lookup"><span data-stu-id="90908-106">During the side-by-side migration, the Lync Server 2013 pool communicates with the Office Communications Server 2007 R2 Mediation Server.</span></span>
 
-<span data-ttu-id="1402b-107">Lync Server 2013 중재 서버를 구성할 때는 Office Communications Server 2007 R2 게이트웨이도 업그레이드 하거나 교체 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1402b-107">When you configure your Lync Server 2013 Mediation Server, you must also upgrade or replace your Office Communications Server 2007 R2 gateways.</span></span> <span data-ttu-id="1402b-108">Office Communications Server 2007 R2 게이트웨이는 Lync Server 2013 중재 서버를 지원 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="1402b-108">Office Communications Server 2007 R2 gateways do not support Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="1402b-109">Lync Server 2013에 대 한 인증을 받은 게이트웨이를 배포 하 고 Lync Server 2013 중재 서버에 연결 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1402b-109">You need to deploy gateways that are certified for Lync Server 2013 and associate them with the Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="1402b-110">Office Communications Server 2007 R2 배포를 완전히 해제 하려면이 단계를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1402b-110">This step is required before you can completely decommission your Office Communications Server 2007 R2 deployment.</span></span>
+<span data-ttu-id="90908-107">Lync Server 2013 중재 서버를 구성할 때는 Office Communications Server 2007 R2 게이트웨이도 업그레이드 하거나 교체 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="90908-107">When you configure your Lync Server 2013 Mediation Server, you must also upgrade or replace your Office Communications Server 2007 R2 gateways.</span></span> <span data-ttu-id="90908-108">Office Communications Server 2007 R2 게이트웨이는 Lync Server 2013 중재 서버를 지원 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="90908-108">Office Communications Server 2007 R2 gateways do not support Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="90908-109">Lync Server 2013에 대 한 인증을 받은 게이트웨이를 배포 하 고 Lync Server 2013 중재 서버에 연결 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="90908-109">You need to deploy gateways that are certified for Lync Server 2013 and associate them with the Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="90908-110">Office Communications Server 2007 R2 배포를 완전히 해제 하려면이 단계를 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="90908-110">This step is required before you can completely decommission your Office Communications Server 2007 R2 deployment.</span></span>
 
-<span data-ttu-id="1402b-111">이 섹션의 항목에서는 Lync Server 2013 중재 서버의 마이그레이션을 완료 한 후에 수행 해야 하는 구성 작업에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="1402b-111">The topics in this section describe configuration tasks that you need to perform after you have completed your migration of Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="1402b-112">배치 된 중재 서버를 독립 실행형 중재 서버로 전환 하는 것은 선택적 작업입니다.</span><span class="sxs-lookup"><span data-stu-id="1402b-112">Transitioning the collocated Mediation Server to a stand-alone Mediation Server is an optional task.</span></span>
+<span data-ttu-id="90908-111">이 섹션의 항목에서는 Lync Server 2013 중재 서버의 마이그레이션을 완료 한 후에 수행 해야 하는 구성 작업에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="90908-111">The topics in this section describe configuration tasks that you need to perform after you have completed your migration of Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="90908-112">배치 된 중재 서버를 독립 실행형 중재 서버로 전환 하는 것은 선택적 작업입니다.</span><span class="sxs-lookup"><span data-stu-id="90908-112">Transitioning the collocated Mediation Server to a stand-alone Mediation Server is an optional task.</span></span>
 
-  - [<span data-ttu-id="1402b-113">중재 서버 구성</span><span class="sxs-lookup"><span data-stu-id="1402b-113">Configure Mediation Server</span></span>](configure-mediation-server.md)
+  - [<span data-ttu-id="90908-113">중재 서버 구성</span><span class="sxs-lookup"><span data-stu-id="90908-113">Configure Mediation Server</span></span>](configure-mediation-server.md)
 
-  - [<span data-ttu-id="1402b-114">새 Lync Server 2013 중재 서버를 사용 하도록 음성 경로 변경</span><span class="sxs-lookup"><span data-stu-id="1402b-114">Change voice routes to use the new Lync Server 2013 Mediation Server</span></span>](change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md)
+  - [<span data-ttu-id="90908-114">새 Lync Server 2013 중재 서버를 사용 하도록 음성 경로 변경</span><span class="sxs-lookup"><span data-stu-id="90908-114">Change voice routes to use the new Lync Server 2013 Mediation Server</span></span>](change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md)
 
-  - [<span data-ttu-id="1402b-115">배치 된 중재 서버를 독립 실행형 중재 서버로 전환 (선택 사항)</span><span class="sxs-lookup"><span data-stu-id="1402b-115">Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)</span></span>](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
+  - [<span data-ttu-id="90908-115">배치 된 중재 서버를 독립 실행형 중재 서버로 전환 (선택 사항)</span><span class="sxs-lookup"><span data-stu-id="90908-115">Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)</span></span>](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
 
 </div>
 
