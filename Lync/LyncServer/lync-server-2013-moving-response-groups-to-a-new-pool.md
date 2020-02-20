@@ -12,18 +12,18 @@ ms:contentKeyID: 48185538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41d739ae79998fe3dbf3acadba2b2f480a960a30
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 562d519e278096acf589482124eeb9cdf7ebf189
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046281"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="moving-response-groups-to-a-new-pool-in-lync-server-2013"></a>Lync Server 2013의 새 풀로 응답 그룹 이동
 
@@ -61,7 +61,7 @@ Lync Server 2013에는 FQDN (정규화 된 도메인 이름)이 다를 때를 �
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source FQDN>" -FileName "<export file name>"
     
-    예시는 다음과 같습니다:
+    예:
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -FileName "C:\RgsExportSource.zip"
     

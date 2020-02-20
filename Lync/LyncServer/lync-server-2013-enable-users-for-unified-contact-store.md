@@ -12,18 +12,18 @@ ms:contentKeyID: 48184599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b99fd96b16d19305ea5bb63ea9f84096ef6117c7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fc769241059a2536ff644e6ea7b711aaa8cd342d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046651"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154890"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a>Lync Server 2013에서 통합 연락처 저장소에 사용자 사용
 
@@ -55,7 +55,7 @@ Lync Server 2013을 배포 하 고 토폴로지를 게시 하면 기본적으로
         
             New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
         
-        예시는 다음과 같습니다:
+        예:
         
             New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
     
@@ -63,7 +63,7 @@ Lync Server 2013을 배포 하 고 토폴로지를 게시 하면 기본적으로
         
             Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
         
-        예시는 다음과 같습니다:
+        예:
         
             Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
     

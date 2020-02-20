@@ -12,18 +12,18 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5257490dc63e1626c0cdb6dcf7e6ce1f17e75cd1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6c5ad73d11ae629ec0848539b2f4bac2bc81a43e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048322"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="new-persistent-chat-server-features-in-lync-server-2013"></a>Lync Server 2013의 새 영구 채팅 서버 기능
 
@@ -53,7 +53,7 @@ Lync Server 2013, 영구 채팅 서버를 사용 하면 시간이 지남에 따�
 
 Lync Server 2013, 영구 채팅 서버는 Microsoft Office 365에서 사용할 수 없습니다. 현재 온-프레미스 Lync 2013 고객 에게만 제공 됩니다.
 
-Lync 2013에서는 영구 채팅 기능이 Lync 2013 클라이언트에 통합 되어 있습니다. 따라서 사용자는 Lync 2013 클라이언트에서 인스턴트 메시징/현재 상태, 오디오/비디오, 회의 및 영구 채팅에 액세스할 수 있습니다. Lync 2013 클라이언트에 대 한 자세한 내용은를 참조 <http://go.microsoft.com/fwlink/p/?linkid=270877>하세요.
+Lync 2013에서는 영구 채팅 기능이 Lync 2013 클라이언트에 통합 되어 있습니다. 따라서 사용자는 Lync 2013 클라이언트에서 인스턴트 메시징/현재 상태, 오디오/비디오, 회의 및 영구 채팅에 액세스할 수 있습니다. Lync 2013 클라이언트에 대 한 자세한 내용은를 참조 <https://go.microsoft.com/fwlink/p/?linkid=270877>하세요.
 
 이 항목에서는 새 버전의 Lync Server 2013, 영구 채팅 서버와 이전 버전 (Microsoft Lync Server 2010, 그룹 채팅) 간의 기능 변경 사항에 대해 설명 합니다.
 
@@ -67,7 +67,7 @@ Lync 2013에서는 영구 채팅 기능이 Lync 2013 클라이언트에 통합 �
 
 최신 버전의 영구 채팅 서버에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
-  - 영구 채팅 기능의 자세한 목록과 <http://go.microsoft.com/fwlink/p/?linkid=270945> 작동 방식, 그리고 영구 채팅 서버를 실행 하는 동안 사용 하는 방법에 대 한 자세한 정보를 제공 하는 영구적 채팅 도움말입니다.
+  - 영구 채팅 기능의 자세한 목록과 <https://go.microsoft.com/fwlink/p/?linkid=270945> 작동 방식, 그리고 영구 채팅 서버를 실행 하는 동안 사용 하는 방법에 대 한 자세한 정보를 제공 하는 영구적 채팅 도움말입니다.
 
   - 계획 설명서에서 [Lync Server 2013의 영구 채팅 서버 계획](lync-server-2013-planning-for-persistent-chat-server.md) lync server 2008에서 [영구 채팅 서버 배포 배포](lync-server-2013-deploying-persistent-chat-server.md) 설명서, 2013 [Lync server 2010, 그룹 채팅 또는 Office Communications server 2007 R2 그룹 채팅에서 Lync Server 2013, 영구 채팅 서버](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) (마이그레이션 설명서) 및 작업 설명서에서 [Lync server 2013, 영구 채팅 서버 관리](managing-lync-server-2013-persistent-chat-server.md) , 모든 설정에 대 한 지침을 제공 합니다. 영구 채팅 서버
 

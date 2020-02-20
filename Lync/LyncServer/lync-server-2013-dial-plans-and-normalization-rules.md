@@ -12,18 +12,18 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4adcd2cd6bebfb0797427d15819399c9b2b9f86d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3e9f42d2467a77e35eb9f5a158967357534e86da
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036758"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Lync Server 2013의 다이얼 플랜 및 정규화 규칙
 
@@ -175,7 +175,7 @@ _**마지막으로 수정 된 항목:** 2012-09-21_
 
 정규화 규칙은 .NET Framework 정규식을 사용하여 서버가 역방향 번호 조회를 수행하기 위해 전화 걸기 문자열을 E.164 형식으로 변환하는 데 사용하는 숫자 일치 패턴을 지정합니다. 수동으로 식을 입력 하거나, 일치 시킬 전화 걸기 문자열의 길이를 입력 하 여 Lync Server 제어판에서 정규화 규칙을 만들거나, Lync Server 제어판에서 해당 사용자를 위한 정규식입니다. 두 경우 모두 완료되면 테스트 번호를 입력하여 정규화 규칙이 예상대로 작동하는지 확인할 수 있습니다.
 
-.NET Framework 정규식 사용에 대 한 자세한 내용은의 ".NET Framework 정규식"을 참조 [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)하십시오.
+.NET Framework 정규식 사용에 대 한 자세한 내용은의 ".NET Framework 정규식"을 참조 [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)하십시오.
 
 </div>
 

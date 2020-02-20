@@ -12,18 +12,18 @@ ms:contentKeyID: 54973684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb8fe9fb9bcca80e7e84f19bdc484dc693b1ee68
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 29fa0be32f5a2c2a0af0b63dadddda3038675adf
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045750"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154080"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>Lync Server 2013를 사용 하 여 가상 스마트 카드를 사용 하도록 Windows 8 구성
 
@@ -39,7 +39,7 @@ _**마지막으로 수정 된 항목:** 2013-07-03_
 
 2 단계 인증 및 스마트 카드 기술을 배포할 때 고려해 야 하는 한 가지 요인은 구현 비용입니다. Windows 8에서는 새로운 여러 보안 기능을 제공 하며, 가장 흥미로운 새로운 기능 중 하나는 가상 스마트 카드에 대 한 지원입니다.
 
-규정 버전 1.2을 충족 하는 TPM (신뢰할 수 있는 플랫폼 모듈) 칩이 설치 된 컴퓨터의 경우 조직은 하드웨어에 추가 투자 없이 스마트 카드 로그온 이점을 얻을 수 있습니다. 자세한 내용은 Windows 8에서 [http://go.microsoft.com/fwlink/p/?LinkId=313365](http://go.microsoft.com/fwlink/p/?linkid=313365)가상 스마트 카드 사용을 참조 하십시오.
+규정 버전 1.2을 충족 하는 TPM (신뢰할 수 있는 플랫폼 모듈) 칩이 설치 된 컴퓨터의 경우 조직은 하드웨어에 추가 투자 없이 스마트 카드 로그온 이점을 얻을 수 있습니다. 자세한 내용은 Windows 8에서 [https://go.microsoft.com/fwlink/p/?LinkId=313365](https://go.microsoft.com/fwlink/p/?linkid=313365)가상 스마트 카드 사용을 참조 하십시오.
 
 <div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c42b5541fb28646e4c01d9d070b67f6fe103234
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 739e440765feb07d70b7f5a8d1490a85a938701d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035000"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>Lync 대화방 시스템 관리 웹 포털에 대 한 Lync Server 2013 환경 구성
 
@@ -51,7 +51,7 @@ LRS (Lync 대화방 시스템) 관리 웹 포털을 사용 하려면 다음 필�
 
 1.  Lync server 토폴로지에서 Lync Server 2013 누적 업데이트: 7 월 2013을 설치 합니다.
     
-    업데이트를 가져오거나 여기에 포함 된 항목을 확인 하려면 [Lync Server 2013 용 업데이트](http://go.microsoft.com/fwlink/p/?linkid=323959)를 참조 하세요.
+    업데이트를 가져오거나 여기에 포함 된 항목을 확인 하려면 [Lync Server 2013 용 업데이트](https://go.microsoft.com/fwlink/p/?linkid=323959)를 참조 하세요.
 
 2.  SIP 사용이 가능한 Active Directory 사용자를 만듭니다.
     
@@ -83,7 +83,7 @@ LRS (Lync 대화방 시스템) 관리 웹 포털을 사용 하려면 다음 필�
     
      
 
-7.  Microsoft 다운로드 센터에서 사용할 수 있는 Visual Studio 2010 SP1 및 Visual Web Developer 2010 s p 1 용 ASP.NET MVC 4 [http://go.microsoft.com/fwlink/p/?LinkId=323967](http://go.microsoft.com/fwlink/p/?linkid=323967)를 설치 합니다.
+7.  Microsoft 다운로드 센터에서 사용할 수 있는 Visual Studio 2010 SP1 및 Visual Web Developer 2010 s p 1 용 ASP.NET MVC 4 [https://go.microsoft.com/fwlink/p/?LinkId=323967](https://go.microsoft.com/fwlink/p/?linkid=323967)를 설치 합니다.
 
 </div>
 

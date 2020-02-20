@@ -12,18 +12,18 @@ ms:contentKeyID: 54973688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d51d4ff13fa6ec07827c638db49d9a75d370e71
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 71eab300456704e0d1402df36f2d8488179f8edd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41996143"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-two-factor-authentication-in-lync-server-2013"></a>Lync Server 2013에서 2 단계 인증 구성
 
@@ -37,7 +37,7 @@ ms.locfileid: "41996143"
 
 _**마지막으로 수정 된 항목:** 2013-07-03_
 
-다음 섹션에서는 배포에 대해 2 단계 인증을 구성 하는 데 필요한 단계에 대해 설명 합니다. 2 단계 인증에 대 한 자세한 내용은 [온라인 관리자를 위한 Office 365 다단계 인증 사용-표 사용자 게시물](http://go.microsoft.com/fwlink/p/?linkid=313332)을 참조 하세요.
+다음 섹션에서는 배포에 대해 2 단계 인증을 구성 하는 데 필요한 단계에 대해 설명 합니다. 2 단계 인증에 대 한 자세한 내용은 [온라인 관리자를 위한 Office 365 다단계 인증 사용-표 사용자 게시물](https://go.microsoft.com/fwlink/p/?linkid=313332)을 참조 하세요.
 
 <div>
 
