@@ -12,18 +12,18 @@ ms:contentKeyID: 51541426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9de9555f9f009558b700a32ca6e58059eb5ea990
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f6c4a9909bfecd8157fe3afe9f653a684fe1053b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038360"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146331"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Lync Server 2013 스트레스 및 성능 도구 FAQ
 
@@ -39,7 +39,7 @@ _**마지막으로 수정 된 항목:** 2013-02-24_
 
 <div>
 
-## <a name="frequently-asked-questions"></a>FAQ
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 Lync Server 2013 스트레스 및 성능 도구에 대 한 몇 가지 질문과 대답이 나와 있습니다.
 

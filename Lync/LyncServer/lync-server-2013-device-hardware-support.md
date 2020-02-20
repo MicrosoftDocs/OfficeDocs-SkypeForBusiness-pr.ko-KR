@@ -12,18 +12,18 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0b4b0f24523044169ae3274ae4d0ff16ae9ff67
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b5b2d730181426d5b23463816d13a6f3b0e502b0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044990"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146921"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="device-hardware-support-in-lync-server-2013"></a>Lync Server 2013의 장치 하드웨어 지원
 
@@ -53,7 +53,7 @@ LLDP-MED를 사용하도록 설정하려면 관리자가 스위치 콘솔 창을
 
   - ATA를 사용하여 통신하는 PSTN 아날로그 게이트웨이가 포함된 SBA(Survivable Branch Appliance)
 
-아날로그 게이트웨이를 구성 하는 방법에 대 한 자세한 내용은 Lync Server 2010 TechNet 라이브러리 [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) 의 "아날로그 장치 배포 계획"을 참조 하십시오. (아날로그 장치는 lync Server 2010에서와 동일한 방식으로 Lync Server 2013에서 동일 하 게 작동 합니다.)
+아날로그 게이트웨이를 구성 하는 방법에 대 한 자세한 내용은 Lync Server 2010 TechNet 라이브러리 [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) 의 "아날로그 장치 배포 계획"을 참조 하십시오. (아날로그 장치는 lync Server 2010에서와 동일한 방식으로 Lync Server 2013에서 동일 하 게 작동 합니다.)
 
 <div>
 

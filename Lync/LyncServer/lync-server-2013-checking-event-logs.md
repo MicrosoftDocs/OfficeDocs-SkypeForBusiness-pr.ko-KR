@@ -12,18 +12,18 @@ ms:contentKeyID: 63969602
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a15fb690dc213dbe22377b988f82dd59d6eb8a03
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 41c49839b01b531c1cd4c9a5eb4cff5fb6a155f4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045670"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145967"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="checking-event-logs-in-lync-server-2013"></a>Lync Server 2013에서 이벤트 로그 확인
 
@@ -37,7 +37,7 @@ ms.locfileid: "42045670"
 
 _**마지막으로 수정 된 항목:** 2014-08-06_
 
-[Windows 이벤트 뷰어](http://go.microsoft.com/fwlink/p/?linkid=314067) 를 사용 하 여 이벤트 로그를 보고, 서비스 오류, AD DS의 복제 오류 및 가상 메모리 및 디스크 공간과 같은 시스템 리소스에 대 한 경고 정보를 가져올 수 있습니다. 이벤트 뷰어는 Windows Server 2008 및 2012에 포함 되어 있습니다.
+[Windows 이벤트 뷰어](https://go.microsoft.com/fwlink/p/?linkid=314067) 를 사용 하 여 이벤트 로그를 보고, 서비스 오류, AD DS의 복제 오류 및 가상 메모리 및 디스크 공간과 같은 시스템 리소스에 대 한 경고 정보를 가져올 수 있습니다. 이벤트 뷰어는 Windows Server 2008 및 2012에 포함 되어 있습니다.
 
 Lync Server 2013 로깅 도구에서 디버그 세션을 끝낼 때 Snooper 도구를 사용 하 여 로그 파일을 보려면 로그 파일 **분석** 을 클릭 합니다.
 
@@ -93,16 +93,16 @@ Windows Server 운영 체제에서 Lync Server를 실행 하는 서버는 다음
 
 Lync Server 2013 관리 팩에 대 한 자세한 내용은 [System Center Operations Manager를 사용 하 여 Lync server 2013 모니터링](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)을 참조 하십시오.
 
-**이벤트 빗질**   이벤트 빗질 도구는 여러 컴퓨터의 이벤트 로그에서 하나의 중앙 위치로 특정 이벤트를 수집 합니다. 이 도구를 사용 하면 이벤트 Id 또는 이벤트 원본이 지정 하는 경우에만 보고할 수 있습니다. 이벤트 빗질에 대 한 자세한 내용은 [계정 잠금 및 관리 도구](http://go.microsoft.com/fwlink/?linkid=35607) 웹 사이트를 참조 하십시오.
+**이벤트 빗질**   이벤트 빗질 도구는 여러 컴퓨터의 이벤트 로그에서 하나의 중앙 위치로 특정 이벤트를 수집 합니다. 이 도구를 사용 하면 이벤트 Id 또는 이벤트 원본이 지정 하는 경우에만 보고할 수 있습니다. 이벤트 빗질에 대 한 자세한 내용은 [계정 잠금 및 관리 도구](https://go.microsoft.com/fwlink/?linkid=35607) 웹 사이트를 참조 하십시오.
 
-****   Windows Server 2012의 이벤트 트리거 관리자가 프로그램을 실행 하거나 전자 메일 메시지를 보내거나 화면 메시지를 표시할 수 있는 windows 이벤트 뷰어 내에서 "이 이벤트에 작업을 연결" 할 수 있습니다. 이 기능에 대 한 자세한 내용은 Windows Server 2008 R2 항목 [지정한 이벤트에 대 한 응답으로 작업 실행](http://technet.microsoft.com/library/cc748900.aspx)을 참조 하십시오. ' Eventtrigger '와 같은 명령줄 도구를 사용 하 여 이벤트 로그를 만들고 쿼리 하 고 로깅된 특정 이벤트에 프로그램을 연결할 수도 있습니다. Eventtriggers .exe를 사용 하 여 특정 이벤트가 발생할 때 프로그램을 실행 하는 이벤트 트리거를 만들 수 있습니다.
+****   Windows Server 2012의 이벤트 트리거 관리자가 프로그램을 실행 하거나 전자 메일 메시지를 보내거나 화면 메시지를 표시할 수 있는 windows 이벤트 뷰어 내에서 "이 이벤트에 작업을 연결" 할 수 있습니다. 이 기능에 대 한 자세한 내용은 Windows Server 2008 R2 항목 [지정한 이벤트에 대 한 응답으로 작업 실행](https://technet.microsoft.com/library/cc748900.aspx)을 참조 하십시오. ' Eventtrigger '와 같은 명령줄 도구를 사용 하 여 이벤트 로그를 만들고 쿼리 하 고 로깅된 특정 이벤트에 프로그램을 연결할 수도 있습니다. Eventtriggers .exe를 사용 하 여 특정 이벤트가 발생할 때 프로그램을 실행 하는 이벤트 트리거를 만들 수 있습니다.
 
 <div>
 
 ## <a name="see-also"></a>참고 항목
 
 
-[Windows 이벤트 뷰어](http://go.microsoft.com/fwlink/p/?linkid=314067)  
+[Windows 이벤트 뷰어](https://go.microsoft.com/fwlink/p/?linkid=314067)  
   
 
 </div>

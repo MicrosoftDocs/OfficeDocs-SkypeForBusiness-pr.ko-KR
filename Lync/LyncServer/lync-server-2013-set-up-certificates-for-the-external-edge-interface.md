@@ -12,18 +12,18 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31d8e408425ccc2810072373212f48c764974dc0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0aadbc9603fb62a2dacf78129aef3bf448da2f05
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044540"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143408"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Lync Server 2013의 외부에 지 인터페이스에 대 한 인증서 설정
 
@@ -51,7 +51,7 @@ _**마지막으로 수정 된 항목:** 2012-09-08_
 
 이 인증서 요구 사항에 대 한 자세한 내용은 [Lync Server 2013의 외부 사용자 액세스에 대 한 인증서 요구 사항을](lync-server-2013-certificate-requirements-for-external-user-access.md)참조 하십시오.
 
-통합 통신 인증서에 대 한 특정 요구 사항을 준수 하 고 Microsoft와 제휴 하 여 Lync Server 2013 인증서 마법사와 함께 사용할 수 있도록 하는 인증서를 제공 하는 공용 Ca (인증 기관) 목록은 Microsoft 기술 자료 문서 929395, "Exchange Server 및 통신 서버용 통합 커뮤니케이션 인증서 파트너"를 참조 하십시오 [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834).
+통합 통신 인증서에 대 한 특정 요구 사항을 준수 하 고 Microsoft와 제휴 하 여 Lync Server 2013 인증서 마법사와 함께 사용할 수 있도록 하는 인증서를 제공 하는 공용 Ca (인증 기관) 목록은 Microsoft 기술 자료 문서 929395, "Exchange Server 및 통신 서버용 통합 커뮤니케이션 인증서 파트너"를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).
 
 <div>
 

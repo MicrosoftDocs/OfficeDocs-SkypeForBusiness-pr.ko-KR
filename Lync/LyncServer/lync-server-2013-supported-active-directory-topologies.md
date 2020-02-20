@@ -12,18 +12,18 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 199191b8e87ba7f46956ff92fcda7239ff27dc5c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c6eb9a3db2f9b3a14726fb7ffbec05b96b15ec81
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029849"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142444"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Lync Server 2013의 지원 되는 Active Directory 토폴로지
 
@@ -159,7 +159,7 @@ Lync Server에서는 중앙 포리스트 토폴로지에 구성 된 다중 포�
 
 이 토폴로지에서는 하나 이상의 포리스트가 온-프레미스에 있으며 Active Directory 사용자 계정 호스팅 전용입니다. 리소스 포리스트는 오프-프레미스에 있으며 타사 호스팅 공급자에 의해 유지 관리 됩니다. 리소스 포리스트에는 Lync Server 배포 및 온-프레미스 사용자 계정 포리스트에서 사용자 계정의 동기화 된 복제만 포함 됩니다. 로그온을 사용 하는 사용자 계정은 포함 하지 않습니다. Exchange는 온-프레미스 사용자 계정 포리스트 (Exchange Online과 함께 통합) 또는 온-프레미스 사용자 계정에 대 한 전자 메일 서비스가 Exchange Online에서 단독으로 제공 합니다.
 
-리소스 포리스트는 사용자 개체가 상주 하는 온-프레미스 Active Directory 포리스트에 대 한 공유 서비스 환경으로 작동 합니다. 사용자 계정 포리스트에는 리소스 포리스트와 단방향 포리스트 수준 트러스트 관계가 있습니다. 이 유형의 토폴로지에서 Lync Server를 배포 하는 경우 사용자 포리스트의 모든 사용자 계정에 대해 리소스 포리스트에서 사용 하지 않도록 설정 된 사용자 개체를 하나 만듭니다. MIIS, Microsoft Forefront Identity Manager(FIM) 2010, 또는 Microsoft Identity Lifecycle Manager(ILM) 2007 FP1(Feature Pack 1)과 같은 디렉터리 동기화 제품은 사용자 계정의 수명 주기를 관리합니다. 사용자 포리스트 중 하나에서 새 사용자 계정을 만들거나 포리스트에서 사용자 계정을 삭제하면 디렉터리 동기화 제품은 리소스 포리스트에서 해당 사용자 표시를 동기화합니다. 다중 포리스트 배포를 구성 하는 방법에 대 한 자세한 내용은 [다중 포리스트 아키텍처에서 Lync 배포 (Exchange 하이브리드를 사용 하는 파트너 호스트 Lync)](http://go.microsoft.com/fwlink/p/?linkid=513216)를 참조 하십시오.
+리소스 포리스트는 사용자 개체가 상주 하는 온-프레미스 Active Directory 포리스트에 대 한 공유 서비스 환경으로 작동 합니다. 사용자 계정 포리스트에는 리소스 포리스트와 단방향 포리스트 수준 트러스트 관계가 있습니다. 이 유형의 토폴로지에서 Lync Server를 배포 하는 경우 사용자 포리스트의 모든 사용자 계정에 대해 리소스 포리스트에서 사용 하지 않도록 설정 된 사용자 개체를 하나 만듭니다. MIIS, Microsoft Forefront Identity Manager(FIM) 2010, 또는 Microsoft Identity Lifecycle Manager(ILM) 2007 FP1(Feature Pack 1)과 같은 디렉터리 동기화 제품은 사용자 계정의 수명 주기를 관리합니다. 사용자 포리스트 중 하나에서 새 사용자 계정을 만들거나 포리스트에서 사용자 계정을 삭제하면 디렉터리 동기화 제품은 리소스 포리스트에서 해당 사용자 표시를 동기화합니다. 다중 포리스트 배포를 구성 하는 방법에 대 한 자세한 내용은 [다중 포리스트 아키텍처에서 Lync 배포 (Exchange 하이브리드를 사용 하는 파트너 호스트 Lync)](https://go.microsoft.com/fwlink/p/?linkid=513216)를 참조 하십시오.
 
 </div>
 

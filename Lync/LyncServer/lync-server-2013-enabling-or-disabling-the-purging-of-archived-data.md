@@ -12,18 +12,18 @@ ms:contentKeyID: 48183678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e62ff615b4e2fcf5ec10f470993f985db0363a4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2d8ee7858e339029fa29c803400ac836871515b8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049160"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146371"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enabling-or-disabling-the-purging-of-archived-data-in-lync-server-2013"></a>Lync Server 2013에서 보관 된 데이터의 삭제를 사용 하거나 사용 하지 않도록 설정
 
@@ -83,13 +83,13 @@ Lync Server 2013 제어판에서는 보관 구성을 사용 하 여 삭제를 �
 
 ## <a name="enabling-or-disabling-the-purging-of-archiving-data-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 보관 데이터 삭제를 사용 하거나 사용 하지 않도록 설정
 
-Windows PowerShell 및 **get-csarchivingconfiguration** cmdlet을 사용 하 여 보관 데이터의 자동 삭제를 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+Windows PowerShell 및 **get-csarchivingconfiguration** cmdlet을 사용 하 여 보관 데이터의 자동 삭제를 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
 
 <div>
 
 ## <a name="to-enable-the-purging-of-all-archiving-data"></a>모든 보관 데이터를 삭제할 수 있도록 설정 하려면
 
-  - 모든 보관 데이터의 삭제를 사용하도록 설정하려면 **EnablePurging** 속성을 true($True)로 설정합니다. 예시는 다음과 같습니다:
+  - 모든 보관 데이터의 삭제를 사용하도록 설정하려면 **EnablePurging** 속성을 true($True)로 설정합니다. 예:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
     
@@ -101,7 +101,7 @@ Windows PowerShell 및 **get-csarchivingconfiguration** cmdlet을 사용 하 여
 
 ## <a name="to-enable-the-purging-only-of-exported-archiving-data"></a>내보낸 보관 데이터만 삭제할 수 있도록 설정 하려면
 
-  - [Export-csarchivingdata](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) cmdlet을 사용 하 여 데이터 파일로 내보낸 보관 레코드에 대 한 삭제를 제한 하려면 PurgeExportedArchivesOnly 속성을 True ($True)로도 설정 해야 합니다. 예시는 다음과 같습니다:
+  - [Export-csarchivingdata](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) cmdlet을 사용 하 여 데이터 파일로 내보낸 보관 레코드에 대 한 삭제를 제한 하려면 PurgeExportedArchivesOnly 속성을 True ($True)로도 설정 해야 합니다. 예:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     

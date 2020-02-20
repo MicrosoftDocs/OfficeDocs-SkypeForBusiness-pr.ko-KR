@@ -12,18 +12,18 @@ ms:contentKeyID: 48183307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7916fa550831cb86a5b8c77273b87f55365a1a1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7850615a454541ee65dba310266b19b721ab185a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046031"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145957"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013의 모범 사례 분석기에 대 한 업데이트 확인
 
@@ -43,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2012-10-02_
 
 
 > [!NOTE]  
-> 인터넷에 액세스하기 위해 프록시 인증을 수행해야 하는 경우에는 모범 사례 분석기가 다운로드할 새 업데이트에 액세스할 수 없습니다. 그러나 Microsoft 다운로드 센터에서 최신 버전의 RtcBPA를 수동으로 다운로드할 수 있습니다 <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>. 파일을 다운로드한 후에는 모범 사례 분석기를 업데이트하려는 컴퓨터에 복사한 다음 이 .msi 파일을 사용하여 해당 컴퓨터에서 새 도구 버전을 설치할 수 있습니다.
+> 인터넷에 액세스하기 위해 프록시 인증을 수행해야 하는 경우에는 모범 사례 분석기가 다운로드할 새 업데이트에 액세스할 수 없습니다. 그러나 Microsoft 다운로드 센터에서 최신 버전의 RtcBPA를 수동으로 다운로드할 수 있습니다 <A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A>. 파일을 다운로드한 후에는 모범 사례 분석기를 업데이트하려는 컴퓨터에 복사한 다음 이 .msi 파일을 사용하여 해당 컴퓨터에서 새 도구 버전을 설치할 수 있습니다.
 
 
 

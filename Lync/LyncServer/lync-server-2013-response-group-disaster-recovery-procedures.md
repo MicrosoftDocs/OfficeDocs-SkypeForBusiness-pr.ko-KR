@@ -12,18 +12,18 @@ ms:contentKeyID: 48185171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73b5dba010da09fb20c96ca6b14de2f881e32b60
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2ecd074254243629bbb3a6dc732b11a93cfebbe7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051702"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144805"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a>Lync Server 2013의 응답 그룹 재해 복구 절차
 
@@ -37,7 +37,7 @@ ms.locfileid: "42051702"
 
 _**마지막으로 수정 된 항목:** 2012-11-01_
 
-재해 복구의 장애 조치(failover) 단계 중에 응답 그룹은 여러 풀, 즉 사용할 수 없는 기본 풀과 백업 풀에 있습니다. 두 풀의 응답 그룹 이름과 소유자(기본 풀)는 같지만 상위 항목은 다릅니다. 이 기간 동안 응답 그룹 cmdlet은 약간 다르게 작동 합니다. 다음 절차에 지정 된 대로 매개 변수를 사용 해야 합니다. 장애 조치 (failover) 단계에서 cmdlet이 작동 하는 방식에 대 한 자세한 내용은 다음 홉 블로그 문서 "Lync Server 2013: 재해 복구 [http://go.microsoft.com/fwlink/p/?LinkId=263957](http://go.microsoft.com/fwlink/p/?linkid=263957)중 응답 그룹 복구"를 참조 하세요. 이 블로그 문서는 Lync Server 2013의 릴리스된 버전에도 적용 됩니다.
+재해 복구의 장애 조치(failover) 단계 중에 응답 그룹은 여러 풀, 즉 사용할 수 없는 기본 풀과 백업 풀에 있습니다. 두 풀의 응답 그룹 이름과 소유자(기본 풀)는 같지만 상위 항목은 다릅니다. 이 기간 동안 응답 그룹 cmdlet은 약간 다르게 작동 합니다. 다음 절차에 지정 된 대로 매개 변수를 사용 해야 합니다. 장애 조치 (failover) 단계에서 cmdlet이 작동 하는 방식에 대 한 자세한 내용은 다음 홉 블로그 문서 "Lync Server 2013: 재해 복구 [https://go.microsoft.com/fwlink/p/?LinkId=263957](https://go.microsoft.com/fwlink/p/?linkid=263957)중 응답 그룹 복구"를 참조 하세요. 이 블로그 문서는 Lync Server 2013의 릴리스된 버전에도 적용 됩니다.
 
 Lync Server 응답 그룹 서비스에 대 한 재해 복구를 준비 하 고 수행 하려면 다음 절차의 단계를 따르십시오.
 
@@ -59,7 +59,7 @@ Lync Server 응답 그룹 서비스에 대 한 재해 복구를 준비 하 고 �
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<backup pool FQDN>" -FileName "<backup path and file name>"
     
-    백업 풀의 응용 프로그램 수준 설정을 기본 풀의 설정으로 바꾸려면 – ReplaceExistingSettings 매개 변수를 포함 합니다. 예시는 다음과 같습니다:
+    백업 풀의 응용 프로그램 수준 설정을 기본 풀의 설정으로 바꾸려면 – ReplaceExistingSettings 매개 변수를 포함 합니다. 예:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:backup.contoso.com" -FileName "C:\RgsExportPrimary.zip" -ReplaceExistingSettings
     
@@ -114,7 +114,7 @@ Lync Server 응답 그룹 서비스에 대 한 재해 복구를 준비 하 고 �
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-    또는 기본 풀이 소유한 모든 응답 그룹 및-Owner 매개 변수 대신 – ShowAll 매개 변수를 사용 하 여 백업 풀이 소유한 위치를 포함 하 여 백업 풀의 모든 응답이 표시 되도록 할 수 있습니다. 예시는 다음과 같습니다:
+    또는 기본 풀이 소유한 모든 응답 그룹 및-Owner 매개 변수 대신 – ShowAll 매개 변수를 사용 하 여 백업 풀이 소유한 위치를 포함 하 여 백업 풀의 모든 응답이 표시 되도록 할 수 있습니다. 예:
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -ShowAll
     

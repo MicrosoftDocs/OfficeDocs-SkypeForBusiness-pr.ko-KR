@@ -12,18 +12,18 @@ ms:contentKeyID: 57793361
 ms.date: 12/16/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2b950b8ff778ee48014dc951d89baafab59510c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4bb14153739c5f29e88044eae89a1322b046a0a1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048221"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146441"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enabling-lync-skype-connectivity-in-lync-server-2013"></a>Lync Server 2013에서 Lync-Skype 연결 사용
 
@@ -87,9 +87,9 @@ Lync Server 관리 셸을 사용 하 여 관리자는 Lync 클라이언트 정�
 
 </div>
 
-1.  페더레이션 및 PIC를 구성 하려면에서 [http://go.microsoft.com/fwlink/p/?LinkId=306063](http://go.microsoft.com/fwlink/p/?linkid=306063)"페더레이션 및 공용 IM 연결을 사용 하거나 사용 하지 않도록 설정 합니다."를 참조 하세요.
+1.  페더레이션 및 PIC를 구성 하려면에서 [https://go.microsoft.com/fwlink/p/?LinkId=306063](https://go.microsoft.com/fwlink/p/?linkid=306063)"페더레이션 및 공용 IM 연결을 사용 하거나 사용 하지 않도록 설정 합니다."를 참조 하세요.
 
-2.  페더레이션 사용자 액세스를 지원 하기 위한 정책을 하나 이상 구성 하려면에서 [http://go.microsoft.com/fwlink/p/?LinkId=306064](http://go.microsoft.com/fwlink/p/?linkid=306064)"공용 사용자 액세스를 제어 하도록 정책 구성"을 참조 하십시오.
+2.  페더레이션 사용자 액세스를 지원 하기 위한 정책을 하나 이상 구성 하려면에서 [https://go.microsoft.com/fwlink/p/?LinkId=306064](https://go.microsoft.com/fwlink/p/?linkid=306064)"공용 사용자 액세스를 제어 하도록 정책 구성"을 참조 하십시오.
 
 **기존 Messenger 또는 Skype PIC provider를 편집 하 고 Skype에 맞게 구성 하려면**
 
@@ -123,7 +123,7 @@ Lync Server 관리 셸을 사용 하 여 관리자는 Lync 클라이언트 정�
     
     ![Skype 대화 상대 추가](images/Dn440170.df0e6ed9-2374-4dfa-a815-87281989487c(OCS.15).jpg "Skype 대화 상대 추가")
 
-4.  호스팅된 공급자를 수정 하는 방법에 대 한 자세한 내용은에서 [http://go.microsoft.com/fwlink/p/?LinkId=306065](http://go.microsoft.com/fwlink/p/?linkid=306065)"호스트 SIP 페더레이션 공급자 만들기 또는 편집"을 참조 하십시오.
+4.  호스팅된 공급자를 수정 하는 방법에 대 한 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065)"호스트 SIP 페더레이션 공급자 만들기 또는 편집"을 참조 하십시오.
 
 이렇게 하면 서버에서 수행 해야 하는 관리 작업이 완료 됩니다. 이제 Lync Skype 연결을 설정 합니다.
 

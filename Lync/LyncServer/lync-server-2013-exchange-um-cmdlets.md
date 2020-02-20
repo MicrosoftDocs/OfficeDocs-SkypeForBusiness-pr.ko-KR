@@ -12,18 +12,18 @@ ms:contentKeyID: 48183786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c21d013c35d8f1379d049e0f252ac6c0d3356eb1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 24004bbd01d3209f184e7368ea6d693651f55c36
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035110"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146811"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="exchange-um-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 Exchange UM cmdlet
 
@@ -116,7 +116,7 @@ Microsoft Lync Server 2013는 Exchange UM (통합 메시징)과 함께 작동 �
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server PowerShell 블로그](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 블로그](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

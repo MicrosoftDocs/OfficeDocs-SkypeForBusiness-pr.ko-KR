@@ -12,18 +12,18 @@ ms:contentKeyID: 63969638
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84e4a79f511247b3c335872b7a1ec31fb9f2201e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f5885ed34fd28f06b9a7d8c4f95abc29d3b5e147
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42021329"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>Lync Server 2013에서 모바일 사용자의 인스턴트 메시지 교환 기능 테스트
 
@@ -179,7 +179,7 @@ Enabled 속성이 True가 아니거나 명령이 실패 하는 경우에는 사�
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-인증 헤더와 함께 오류 메시지가 표시 되는 경우에는 종종 유효한 사용자 계정을 지정 하지 않은 것입니다. 사용자 이름 및 암호를 확인 한 후 테스트를 다시 시도 합니다. 사용자 계정이 유효한 것으로 확신 하는 경우 Set-cswebserviceconfiguration cmdlet을 사용 하 여 UseWindowsAuth 속성의 값을 확인 합니다. 그러면 조직에서 사용 하도록 설정 된 인증 방법을 확인할 수 있습니다. 모바일 서비스 문제를 해결 하는 방법에 대 한 자세한 내용은 블로그 게시물 [문제 해결 외부 Lync Mobility Connectivity 문제 단계별](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)설명을 참조 하십시오.
+인증 헤더와 함께 오류 메시지가 표시 되는 경우에는 종종 유효한 사용자 계정을 지정 하지 않은 것입니다. 사용자 이름 및 암호를 확인 한 후 테스트를 다시 시도 합니다. 사용자 계정이 유효한 것으로 확신 하는 경우 Set-cswebserviceconfiguration cmdlet을 사용 하 여 UseWindowsAuth 속성의 값을 확인 합니다. 그러면 조직에서 사용 하도록 설정 된 인증 방법을 확인할 수 있습니다. 모바일 서비스 문제를 해결 하는 방법에 대 한 자세한 내용은 블로그 게시물 [문제 해결 외부 Lync Mobility Connectivity 문제 단계별](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)설명을 참조 하십시오.
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183897
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff91e6b458d4c86f2246cff19e72e5221728e774
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e63d75bda22228ae14077a51f78150b3884e875f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006780"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141864"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-call-park-in-lync-server-2013"></a>Lync Server 2013의 통화 대기에 대 한 기술 요구 사항
 
@@ -89,7 +89,7 @@ _**마지막으로 수정 된 항목:** 2013-11-07_
 
 ## <a name="audio-file-requirements"></a>오디오 파일 요구 사항
 
-통화 대기 응용 프로그램은 음악을 보관할 때 Windows Media 오디오 (.wma) 파일만 지원 합니다. Microsoft Expression Encoder 4를 사용하여 대기 음악용으로 파일을 사용자 지정할 수 있습니다. 식 인코더 4를 다운로드 하려면 "식 Encoder 4"를 참조 [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)하세요. 이 도구를 사용하여 파일을 .wma 형식으로 변환합니다. 통화 대기의 대기 음악 파일로 권장되는 형식은 Media 오디오 9, 44kHz, 16비트, 모노, CBR, 32kbps입니다.
+통화 대기 응용 프로그램은 음악을 보관할 때 Windows Media 오디오 (.wma) 파일만 지원 합니다. Microsoft Expression Encoder 4를 사용하여 대기 음악용으로 파일을 사용자 지정할 수 있습니다. 식 인코더 4를 다운로드 하려면 "식 Encoder 4"를 참조 [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843)하세요. 이 도구를 사용하여 파일을 .wma 형식으로 변환합니다. 통화 대기의 대기 음악 파일로 권장되는 형식은 Media 오디오 9, 44kHz, 16비트, 모노, CBR, 32kbps입니다.
 
 <div>
 

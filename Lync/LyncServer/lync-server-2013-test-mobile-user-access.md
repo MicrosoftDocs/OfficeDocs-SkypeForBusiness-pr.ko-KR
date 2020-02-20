@@ -12,18 +12,18 @@ ms:contentKeyID: 63969624
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6052785bdb8e748ac657d800a630ecc76415af9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8afea8450df1533928a0407fb81866351705186e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42021339"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141674"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="test-mobile-user-access-in-lync-server-2013"></a>Lync Server 2013에서 모바일 사용자 액세스 테스트
 
@@ -176,7 +176,7 @@ Enabled 속성이 True가 아니거나 명령이 실패 하는 경우에는 사�
 
 유효한 사용자 계정을 지정 하지 않은 것을 의미 하는 테스트-CsMcxConference를 실행할 때 "인증 헤더" 오류 메시지가 표시 되 면 사용자 이름 및 암호를 확인 한 후 테스트를 다시 시도 합니다. 사용자 계정이 유효한 것으로 확신 하는 경우 Set-cswebserviceconfiguration cmdlet을 사용 하 여 UseWindowsAuth 속성의 값을 확인 합니다. 그러면 조직에서 사용 하도록 설정 된 인증 방법을 확인할 수 있습니다.
 
-모바일 서비스 문제를 해결 하는 방법에 대 한 자세한 내용은 블로그 게시물 [문제 해결 외부 Lync Mobility Connectivity 문제 단계별](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)설명을 참조 하십시오.
+모바일 서비스 문제를 해결 하는 방법에 대 한 자세한 내용은 블로그 게시물 [문제 해결 외부 Lync Mobility Connectivity 문제 단계별](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)설명을 참조 하십시오.
 
 </div>
 

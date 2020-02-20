@@ -12,18 +12,18 @@ ms:contentKeyID: 56737622
 ms.date: 04/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6af0f52b940e9bcfb78048ef3a2c60f09d265073
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 24757a87279f64dd903ed4fdfb26169b606f899c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045240"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Lync Server 2013에 Lync 대화방 시스템 관리 웹 포털 설치
 
@@ -37,7 +37,7 @@ ms.locfileid: "42045240"
 
 _**마지막으로 수정 된 항목:** 2015-04-09_
 
-Microsoft 다운로드 센터에서 Microsoft Lync 대화방 System 관리 웹 포털을 다운로드할 수 있습니다 [http://go.microsoft.com/fwlink/p/?LinkId=324044](http://go.microsoft.com/fwlink/p/?linkid=324044).
+Microsoft 다운로드 센터에서 Microsoft Lync 대화방 System 관리 웹 포털을 다운로드할 수 있습니다 [https://go.microsoft.com/fwlink/p/?LinkId=324044](https://go.microsoft.com/fwlink/p/?linkid=324044).
 
 Lync 대화방 시스템 관리 웹 포털을 설치 하려면 다음 단계를 사용 합니다.
 
@@ -82,7 +82,7 @@ Lync 대화방 시스템 관리 웹 포털의 설치를 확인 하려면 다음�
     
     https://\<fe-server\>/lrs
     
-    페이지에 액세스 하려면에서 "자동 클라이언트 로그인에 필요한 DNS 레코드"에 설명 된 대로 DNS 레코드를 추가 해야 [http://go.microsoft.com/fwlink/p/?LinkId=318056](http://go.microsoft.com/fwlink/p/?linkid=318056)합니다.
+    페이지에 액세스 하려면에서 "자동 클라이언트 로그인에 필요한 DNS 레코드"에 설명 된 대로 DNS 레코드를 추가 해야 [https://go.microsoft.com/fwlink/p/?LinkId=318056](https://go.microsoft.com/fwlink/p/?linkid=318056)합니다.
 
 </div>
 

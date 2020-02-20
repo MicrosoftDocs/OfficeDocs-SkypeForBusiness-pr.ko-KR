@@ -12,18 +12,18 @@ ms:contentKeyID: 49733649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44de5139d3ad8f38c5177a18260045fda7abdeea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0aa52a844a0ed1bff9ca2c9d2f7e5fc70a6a2e95
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035310"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145407"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="integrating-microsoft-lync-server-2013-and-microsoft-outlook-web-app-2013"></a>Microsoft Lync Server 2013 및 Microsoft Outlook Web App 2013 통합
 
@@ -41,11 +41,11 @@ Microsoft Outlook 2013와 통합 하는 것 외에도 Microsoft Lync Server 2013
 
 HKEY\_로컬\_컴퓨터\\시스템\\CurrentControlSet\\서비스\\MSExchange OWA\\InstantMessaging\\ImplementationDLLPath
 
-ImplementationDLLPath는 파일의 폴더 위치를 가리켜야 합니다 (예를 들어,. 그렇지 않은 경우 또는 레지스트리 값이 없는 경우 Microsoft 다운로드 센터에서 다운로드 하 고,의 설치 프로그램을 실행 해야 <http://www.microsoft.com/download/details.aspx?id=34992>합니다. 참조 페이지 MA 런타임을 설치 하는 방법에 대 한 자세한 내용은 동일한 웹 페이지로 이동할 수 있습니다.
+ImplementationDLLPath는 파일의 폴더 위치를 가리켜야 합니다 (예를 들어,. 그렇지 않은 경우 또는 레지스트리 값이 없는 경우 Microsoft 다운로드 센터에서 다운로드 하 고,의 설치 프로그램을 실행 해야 <https://www.microsoft.com/download/details.aspx?id=34992>합니다. 참조 페이지 MA 런타임을 설치 하는 방법에 대 한 자세한 내용은 동일한 웹 페이지로 이동할 수 있습니다.
 
 **이전 버전과의 호환성**
 
-Lync Server 2013는 통합 메시징과 Outlook Web App의 Microsoft Exchange Server 2010 버전과 통합 될 수 있습니다. 자세한 내용은 온-프레미스 Exchange UM을 배포 하 여 Lync Server 2010 음성 사서함을 제공 하는 문서 [http://technet.microsoft.com/library/gg398768.aspx](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)를 참조 하세요. Exchange 2010와 통합 하는 경우 통합 연락처 저장소 및 Lync 간 보관 등의 Lync Server 관련 기능은 제공 되지 않습니다.
+Lync Server 2013는 통합 메시징과 Outlook Web App의 Microsoft Exchange Server 2010 버전과 통합 될 수 있습니다. 자세한 내용은 온-프레미스 Exchange UM을 배포 하 여 Lync Server 2010 음성 사서함을 제공 하는 문서 [https://technet.microsoft.com/library/gg398768.aspx](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)를 참조 하세요. Exchange 2010와 통합 하는 경우 통합 연락처 저장소 및 Lync 간 보관 등의 Lync Server 관련 기능은 제공 되지 않습니다.
 
 Microsoft Lync 2013는 Exchange 2010 및 Outlook 2010과 함께 사용할 수도 있습니다. 그러나이 경우에도 Lync 2013 사용자는 통합 연락처 저장소와 고해상도 사진 같은 새로운 기능을 사용할 수 없습니다. 이러한 새로운 기능에는 Lync Server 2013 및 Exchange 2013이 모두 필요 합니다.
 

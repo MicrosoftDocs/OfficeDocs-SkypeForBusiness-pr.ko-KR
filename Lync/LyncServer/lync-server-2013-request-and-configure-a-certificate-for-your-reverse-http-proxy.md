@@ -12,18 +12,18 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 830d9d48e68142cf32f14d428fb48e3ab20afaca
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9c380cb67e1e156bef616f81ce0c42f699b472d8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047283"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144945"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Lync Server 2013에서 역방향 HTTP 프록시에 대 한 인증서 요청 및 구성
 
@@ -156,7 +156,7 @@ Microsoft Lync를 실행 중인 내부 서버에 서버 인증서를 발급 한 
 
 **인증서 서명 요청 만들기**
 
-1.  MMC (Microsoft Management Console)를 열고 인증서 스냅인을 추가 하 고 **컴퓨터**를 선택한 다음 **개인**을 확장 합니다. MMC (Microsoft Management Console)에서 인증서 콘솔을 만드는 방법에 대 한 자세한 내용은를 참조 [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616)하세요.
+1.  MMC (Microsoft Management Console)를 열고 인증서 스냅인을 추가 하 고 **컴퓨터**를 선택한 다음 **개인**을 확장 합니다. MMC (Microsoft Management Console)에서 인증서 콘솔을 만드는 방법에 대 한 자세한 내용은를 참조 [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616)하세요.
 
 2.  **인증서**를 마우스 오른쪽 단추로 클릭 하 고 **모든 작업**, **고급 작업**을 차례로 클릭 한 다음 **사용자 지정 요청 만들기**를 클릭 합니다.
 
@@ -217,7 +217,7 @@ Microsoft Lync를 실행 중인 내부 서버에 서버 인증서를 발급 한 
     
 
     > [!IMPORTANT]
-    > Microsoft는 통합 통신 목적에 대 한 요구 사항을 충족 하는 공용 Ca를 확인 했습니다. 목록은 다음 기술 자료 문서에 유지 됩니다. <A href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</A>
+    > Microsoft는 통합 통신 목적에 대 한 요구 사항을 충족 하는 공용 Ca를 확인 했습니다. 목록은 다음 기술 자료 문서에 유지 됩니다. <A href="https://go.microsoft.com/fwlink/?linkid=282625">https://go.microsoft.com/fwlink/?LinkId=282625</A>
 
     
     </div>

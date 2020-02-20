@@ -12,18 +12,18 @@ ms:contentKeyID: 48185908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ceb3aa60273439c94a5d936efe826e77dcc683be
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ef82a5976769543f83dc4656cf09eb64b94d7571
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043200"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145637"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-the-unassigned-number-table-in-lync-server-2013"></a>Lync Server 2013에서 지정 되지 않은 번호 테이블 구성
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184221
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: befa9ad077780eb57d4690790673fc0a5452af60
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 93e2e3bf94175f2f0ec3f4f7528cc969fe19529c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037318"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="routing-e9-1-1-calls-by-using-an-elin-gateway-in-lync-server-2013"></a>Lync Server 2013에서 ELIN 게이트웨이를 사용 하 여 E9-1-1 통화 라우팅
 
@@ -37,7 +37,7 @@ ms.locfileid: "42037318"
 
 _**마지막으로 수정 된 항목:** 2013-02-05_
 
-Unified Communications Open Interoperability Program의 일부 파트너는 자격이 있는 E9-1-1 서비스 공급자에 대한 SIP 트렁크 연결의 대안으로 사용할 수 있는 자격이 있는 ELIN(Emergency Location Identification Number) 지원 게이트웨이를 제공합니다. ELIN 게이트웨이는 PSTN(공중 전화망) 기반의 E9-1-1 서비스에 대한 ISDN 또는 CAMA(Centralized Automatic Message Accounting) 연결을 지원합니다. ELIN 게이트웨이를 제공 하는 파트너와 해당 설명서에 대 한 링크는 [http://go.microsoft.com/fwlink/p/?LinkId=248425](http://go.microsoft.com/fwlink/p/?linkid=248425)을 참조 하세요.
+Unified Communications Open Interoperability Program의 일부 파트너는 자격이 있는 E9-1-1 서비스 공급자에 대한 SIP 트렁크 연결의 대안으로 사용할 수 있는 자격이 있는 ELIN(Emergency Location Identification Number) 지원 게이트웨이를 제공합니다. ELIN 게이트웨이는 PSTN(공중 전화망) 기반의 E9-1-1 서비스에 대한 ISDN 또는 CAMA(Centralized Automatic Message Accounting) 연결을 지원합니다. ELIN 게이트웨이를 제공 하는 파트너와 해당 설명서에 대 한 링크는 [https://go.microsoft.com/fwlink/p/?LinkId=248425](https://go.microsoft.com/fwlink/p/?linkid=248425)을 참조 하세요.
 
 E9-1-1 서비스 공급자에 대 한 SIP 트렁크 연결과 마찬가지로, 게이트웨이에서는 발신자의 가장 적합 한 공용 안전 응답 지점 (PSAP)에 긴급 통화를 라우팅하는 방법도 제공 하지만, 이러한 게이트웨이는 위치 식별자로 ELIN을 사용 합니다. 조직의 각 ERL (응급 응답 위치)에 대해 ELINs를 정의 합니다. 자세한 내용은 [Lync Server 2013에서 ELINS에 대 한 위치 관리](lync-server-2013-managing-locations-for-elin-gateways.md)를 참조 하십시오.
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8548c1d8dd456d3bb65d98dd639aec71c236fc5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d5f074a7a02ff148098c66d28102917d08fa3ffe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42031212"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142264"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="system-requirements-for-external-user-access-components-for-lync-server-2013"></a>Lync Server 2013의 외부 사용자 액세스 구성 요소에 대 한 시스템 요구 사항
 

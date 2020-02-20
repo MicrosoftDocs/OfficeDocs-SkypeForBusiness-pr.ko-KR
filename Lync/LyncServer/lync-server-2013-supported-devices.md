@@ -12,18 +12,18 @@ ms:contentKeyID: 48184882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b4769e068ff079a8a5ad55177870ac9fe8e932c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7073ad8b4268aa76a409cd7e52f35402cca932c7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029829"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-devices-in-lync-server-2013"></a>Lync Server 2013에서 지원 되는 장치
 
@@ -49,7 +49,7 @@ Lync Server는 다음 표에 나열 된 모든 전화를 지원 합니다. 지�
 
 </div>
 
-Lync에서 작동 하도록 최적화 된 모든 장치에 대 한 자세한 비교 테이블은에서 <http://go.microsoft.com/fwlink/p/?linkid=208938>"Microsoft Lync에 적격 한 전화 및 장치"를 참조 하세요. 이 웹 사이트의 전화 비교 표에는 가격 정보와 기술 사양이 포함되어 있습니다.
+Lync에서 작동 하도록 최적화 된 모든 장치에 대 한 자세한 비교 테이블은에서 <https://go.microsoft.com/fwlink/p/?linkid=208938>"Microsoft Lync에 적격 한 전화 및 장치"를 참조 하세요. 이 웹 사이트의 전화 비교 표에는 가격 정보와 기술 사양이 포함되어 있습니다.
 
 
 <table>
@@ -89,32 +89,32 @@ Lync에서 작동 하도록 최적화 된 모든 장치에 대 한 자세한 비
 <tr class="odd">
 <td><p>Polycom CX300 USB 일반 전화기</p></td>
 <td></td>
-<td><p>Polycom 웹 사이트에서 <a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx300.html">CX300</a></p></td>
+<td><p>Polycom 웹 사이트에서 <a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx300.html">CX300</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Polycom CX500 IP 공통 영역 전화</p></td>
 <td><p>X</p></td>
-<td><p>Polycom 웹 사이트에서 <a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx500.html">CX500</a></p></td>
+<td><p>Polycom 웹 사이트에서 <a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx500.html">CX500</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Polycom CX600 IP 일반 전화기</p></td>
 <td><p>X</p></td>
-<td><p>Polycom 웹 사이트에서 <a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx600.html">CX600</a></p></td>
+<td><p>Polycom 웹 사이트에서 <a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx600.html">CX600</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Polycom CX700 IP 일반 전화기</p></td>
 <td></td>
-<td><p>Polycom 웹 사이트에서 <a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx700.html">CX700</a></p></td>
+<td><p>Polycom 웹 사이트에서 <a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx700.html">CX700</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Polycom CX3000 IP 회의 전화</p></td>
 <td><p>X</p></td>
-<td><p>Polycom 웹 사이트에서 <a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx3000.html">CX3000</a></p></td>
+<td><p>Polycom 웹 사이트에서 <a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/cx3000.html">CX3000</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Polycom CX5000 USB 회의 전화</p></td>
 <td></td>
-<td><p>Polycom 웹 사이트에서 <a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx5000.html">CX5000</a></p></td>
+<td><p>Polycom 웹 사이트에서 <a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/cx5000.html">CX5000</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -124,7 +124,7 @@ Lync에서 작동 하도록 최적화 된 모든 장치에 대 한 자세한 비
 
 
 > [!NOTE]  
-> 아날로그 장치도 지원됩니다. 자세한 내용은 Lync Server 2010 TechNet 라이브러리에서 <A href="http://go.microsoft.com/fwlink/p/?linkid=257502">아날로그 장치 배포 계획을</A> 참조 하십시오. Lync Phone Edition은 Lync Server 2013 및 Lync Server 2010에서와 동일한 방식으로 작동 합니다.
+> 아날로그 장치도 지원됩니다. 자세한 내용은 Lync Server 2010 TechNet 라이브러리에서 <A href="https://go.microsoft.com/fwlink/p/?linkid=257502">아날로그 장치 배포 계획을</A> 참조 하십시오. Lync Phone Edition은 Lync Server 2013 및 Lync Server 2010에서와 동일한 방식으로 작동 합니다.
 
 
 

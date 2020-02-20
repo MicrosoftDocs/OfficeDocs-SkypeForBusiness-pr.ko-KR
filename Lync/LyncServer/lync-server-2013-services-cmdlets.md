@@ -12,18 +12,18 @@ ms:contentKeyID: 48184673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9c0fb2cff1bf77017c26a61f3181b5b018d0b5f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5904198c074af0dcf6934eca87b1611c3c6993e6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048979"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143914"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="services-cmdlets-in-lync-server-2013"></a>Lync Server 2013의 서비스 cmdlet
 
@@ -68,7 +68,7 @@ Microsoft Lync Server 2013와 함께 제공 되는 서버 역할 및 서비스 c
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server PowerShell 블로그](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 블로그](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

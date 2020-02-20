@@ -12,18 +12,18 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a39bcd23516970edf1c4694a8eff1ecb682eda1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aa94715cd3360e032f2d791c0e02cc791c437185
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041027"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146931"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013에서 중앙 로깅 서비스에 대 한 시나리오 구성
 
@@ -37,7 +37,7 @@ ms.locfileid: "42041027"
 
 _**마지막으로 수정 된 항목:** 2014-02-05_
 
-시나리오는 범위 (전역, 사이트, 풀 또는 컴퓨터)와 중앙 로깅 서비스에서 사용할 공급자를 정의 합니다. 시나리오를 사용 하 여 공급자 (예: S4, 동안의 sipstack, IM 및 현재 상태)에 추적을 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 시나리오를 구성 하 여 특정 문제 조건을 해결 하는 지정 된 논리 컬렉션에 대 한 모든 공급자를 그룹화 할 수 있습니다. 문제 해결 및 로깅 요구 사항에 맞게 시나리오를 수정 해야 하는 경우 Lync Server 2013 디버그 도구는 *a* 라는 함수를 포함 하는 Windows PowerShell 모듈 (예: *Edit-csclsscenario)* 을 제공 합니다. 이 모듈은 명명 된 시나리오의 속성을 편집 하는 데 목적이 있습니다. 이 항목에서는이 모듈이 작동 하는 방식에 대 한 예를 제공 합니다. Lync Server 2013 디버그 도구는 다음 링크에서 다운로드 됩니다.[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+시나리오는 범위 (전역, 사이트, 풀 또는 컴퓨터)와 중앙 로깅 서비스에서 사용할 공급자를 정의 합니다. 시나리오를 사용 하 여 공급자 (예: S4, 동안의 sipstack, IM 및 현재 상태)에 추적을 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 시나리오를 구성 하 여 특정 문제 조건을 해결 하는 지정 된 논리 컬렉션에 대 한 모든 공급자를 그룹화 할 수 있습니다. 문제 해결 및 로깅 요구 사항에 맞게 시나리오를 수정 해야 하는 경우 Lync Server 2013 디버그 도구는 *a* 라는 함수를 포함 하는 Windows PowerShell 모듈 (예: *Edit-csclsscenario)* 을 제공 합니다. 이 모듈은 명명 된 시나리오의 속성을 편집 하는 데 목적이 있습니다. 이 항목에서는이 모듈이 작동 하는 방식에 대 한 예를 제공 합니다. Lync Server 2013 디버그 도구는 다음 링크에서 다운로드 됩니다.[https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 
@@ -114,7 +114,7 @@ Lync Server 관리 셸을 사용 하 여 중앙 로깅 서비스 기능을 실�
     
 
     > [!NOTE]  
-    > Windows PowerShell에서 알 수 있듯이 값을 사용 하 <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> 는 해시 테이블을 만드는 규칙을 <EM>splatting</EM>이라고 합니다. Windows PowerShell의 splatting에 대 한 자세한 내용은 <A href="http://go.microsoft.com/fwlink/p/?linkid=267760">http://go.microsoft.com/fwlink/p/?LinkId=267760</A>를 참조 하세요.
+    > Windows PowerShell에서 알 수 있듯이 값을 사용 하 <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> 는 해시 테이블을 만드는 규칙을 <EM>splatting</EM>이라고 합니다. Windows PowerShell의 splatting에 대 한 자세한 내용은 <A href="https://go.microsoft.com/fwlink/p/?linkid=267760">https://go.microsoft.com/fwlink/p/?LinkId=267760</A>를 참조 하세요.
 
     
     </div>

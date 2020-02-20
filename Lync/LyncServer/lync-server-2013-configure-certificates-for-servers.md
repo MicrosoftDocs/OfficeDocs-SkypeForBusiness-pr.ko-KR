@@ -12,18 +12,18 @@ ms:contentKeyID: 48185531
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e2fd3ce8c229fad2f990d5f295e4c4454ef153e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 562ec9c39d179eb1044c273a0eed0a2ccfa072a7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028689"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146481"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-certificates-for-servers-in-lync-server-2013"></a>Lync Server 2013에서 서버에 대 한 인증서 구성
 
@@ -53,7 +53,7 @@ _**마지막으로 수정 된 항목:** 2013-03-17_
 
 
 > [!WARNING]  
-> 클라이언트와 서버에서 사용 하는 서버 및 기타 컴퓨터 및 장치와 통신 하는 데 사용 되는 해시 다이제스트 및 서명 알고리즘과 클라이언트와 서버가 서로 통신할 수 있는 사용자는 누구에 게 달려 있습니다. 기관을. 운영 체제 및 일부 클라이언트 응용 프로그램에서 지원 되는 다이제스트 길이에 대 한 자세한 내용은<A href="http://go.microsoft.com/fwlink/?linkid=287002">http://go.microsoft.com/fwlink/?LinkId=287002</A>를 참조 하세요.
+> 클라이언트와 서버에서 사용 하는 서버 및 기타 컴퓨터 및 장치와 통신 하는 데 사용 되는 해시 다이제스트 및 서명 알고리즘과 클라이언트와 서버가 서로 통신할 수 있는 사용자는 누구에 게 달려 있습니다. 기관을. 운영 체제 및 일부 클라이언트 응용 프로그램에서 지원 되는 다이제스트 길이에 대 한 자세한 내용은<A href="https://go.microsoft.com/fwlink/?linkid=287002">https://go.microsoft.com/fwlink/?LinkId=287002</A>를 참조 하세요.
 
 
 

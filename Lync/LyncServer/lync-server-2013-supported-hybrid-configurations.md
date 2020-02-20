@@ -12,18 +12,18 @@ ms:contentKeyID: 51541482
 ms.date: 05/10/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f268d76c33e3a76c909d164eb63d6ad3c1eb29c8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c757fc19bd82fbf1ae3096bb4a8ac8982f9035b6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029809"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-lync-server-2013-hybrid-configurations"></a>지원 되는 Lync Server 2013 하이브리드 구성
 
@@ -37,7 +37,7 @@ ms.locfileid: "42029809"
 
 _**마지막으로 수정 된 항목:** 2016-05-10_
 
-온-프레미스와 온라인 모두에서 Microsoft Exchange Server 2010 및 Microsoft Exchange Server 2013 및 SharePoint Server와의 통합을 위해 Lync Server 2013 배포를 구성할 수 있습니다. 별도로 지정 되지 않은 경우 모든 클라이언트에서 다음 표에 나열 된 기능을 사용할 수 있습니다. 클라이언트 지원에 대 한 자세한 내용은 [비즈니스용 Skype online에](http://go.microsoft.com/fwlink/p/?linkid=281902)대 한 클라이언트의 Lync Server 2013 및 비즈니스용 skype online 클라이언트 비교 테이블 [에 대 한 클라이언트 비교 표](lync-server-2013-desktop-client-comparison-tables.md) 를 참조 하세요.
+온-프레미스와 온라인 모두에서 Microsoft Exchange Server 2010 및 Microsoft Exchange Server 2013 및 SharePoint Server와의 통합을 위해 Lync Server 2013 배포를 구성할 수 있습니다. 별도로 지정 되지 않은 경우 모든 클라이언트에서 다음 표에 나열 된 기능을 사용할 수 있습니다. 클라이언트 지원에 대 한 자세한 내용은 [비즈니스용 Skype online에](https://go.microsoft.com/fwlink/p/?linkid=281902)대 한 클라이언트의 Lync Server 2013 및 비즈니스용 skype online 클라이언트 비교 테이블 [에 대 한 클라이언트 비교 표](lync-server-2013-desktop-client-comparison-tables.md) 를 참조 하세요.
 
 <div>
 
@@ -141,7 +141,7 @@ _**마지막으로 수정 된 항목:** 2016-05-10_
 <li><p>부재 중 대화 기록 및 통화 로그가 사용자의 exchange 사서함에 기록 됨</p></li>
 <li><p>Exchange의 콘텐츠 (IM 및 모임)를 보관 합니다.</p>
 <p>자세한 내용은 <a href="lync-server-2013-deployment-checklist-for-archiving.md">배포 검사 목록을 Lync Server 2013에서 보관</a> 을 참조 하세요.</p></li>
-<li><p>보관 된 콘텐츠를 검색 합니다. 자세한 내용은 <a href="http://go.microsoft.com/fwlink/p/?linkid=285448">Configure Exchange For SharePoint EDiscovery Center</a> 를 참조 하세요.</p></li>
+<li><p>보관 된 콘텐츠를 검색 합니다. 자세한 내용은 <a href="https://go.microsoft.com/fwlink/p/?linkid=285448">Configure Exchange For SharePoint EDiscovery Center</a> 를 참조 하세요.</p></li>
 <li><p>음성 사서함 자세한 내용은 <a href="lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md">Lync Server 2013 users 사용자에 게 호스팅된 EXCHANGE UM에 대 한 음성 메일 제공</a> 을 참조 하십시오.</p></li>
 </ul></td>
 </tr>
@@ -187,7 +187,7 @@ _**마지막으로 수정 된 항목:** 2016-05-10_
 <p>두 사용자가 같은 포리스트의 온라인에 있거나 둘 다 온-프레미스에 있는 경우에만 지원 됩니다.</p></li>
 <li><p>Exchange의 콘텐츠 (IM 및 모임) 보관</p></li>
 <li><p>보관 된 콘텐츠 검색</p></li>
-<li><p>Voicemail</p></li>
+<li><p>음성 메일</p></li>
 </ul></td>
 </tr>
 </tbody>

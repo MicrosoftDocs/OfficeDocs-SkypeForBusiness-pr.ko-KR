@@ -12,18 +12,18 @@ ms:contentKeyID: 51541463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79511202ddc9e413e313d12f881e7079f088c473
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ee85d984f0d60d4275972982e4ff65b380f0f9b2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046071"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145917"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-support-for-autodiscover-in-lync-server-2013"></a>Lync Server 2013에서 자동 검색 지원 구성
 
@@ -51,7 +51,7 @@ Lync Server 웹 서비스 **자동 검색 서비스** 는 먼저 lync Server 201
 
 </div>
 
-다음 정보와 테이블은 자동 검색 서비스의 전체 및 효과적인 사용을 제공 하기 위해 구현 해야 하는 구성 (있는 경우)을 정의 합니다. 다음 항목에는 Microsoft Lync Server 2013에 대 한 정보가 있습니다. Lync Server 2010에 대 한 모바일 기능을 계획 하는 방법에 대 한 지침은 [http://go.microsoft.com/fwlink/?LinkId=275113](http://go.microsoft.com/fwlink/?linkid=275113)를 참조 하세요. Lync Server 2010에 대 한 모바일 기능을 배포 하려면를 참조 하세요.[http://go.microsoft.com/fwlink/?LinkId=275114](http://go.microsoft.com/fwlink/?linkid=275114)
+다음 정보와 테이블은 자동 검색 서비스의 전체 및 효과적인 사용을 제공 하기 위해 구현 해야 하는 구성 (있는 경우)을 정의 합니다. 다음 항목에는 Microsoft Lync Server 2013에 대 한 정보가 있습니다. Lync Server 2010에 대 한 모바일 기능을 계획 하는 방법에 대 한 지침은 [https://go.microsoft.com/fwlink/?LinkId=275113](https://go.microsoft.com/fwlink/?linkid=275113)를 참조 하세요. Lync Server 2010에 대 한 모바일 기능을 배포 하려면를 참조 하세요.[https://go.microsoft.com/fwlink/?LinkId=275114](https://go.microsoft.com/fwlink/?linkid=275114)
 
 <div>
 

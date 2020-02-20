@@ -12,18 +12,18 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ea7a68d77acd7bbaf3de43fce38c0e85c02dad4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 45dbc2c71cf34515f8f6176e4f579e6683ad319e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037278"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146261"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="administering-the-address-book-service-in-lync-server-2013"></a>Lync Server 2013에서 주소록 서비스 관리
 
@@ -43,7 +43,7 @@ Lync Server, Enterprise Edition 또는 Standard Edition Server 배포의 일환�
 
 
 > [!NOTE]  
-> <STRONG>Adsi 편집</STRONG> 을 사용 하 여 Active Directory 도메인 서비스 개체 특성을 편집 하는 방법에 대 한 자세한 내용은 <A href="http://go.microsoft.com/fwlink/?linkid=330427">adsi 편집</A>을 참조 하십시오. 주소록 서비스에 대 한 리소스 키트의 도구에 대 한 자세한 내용은 <A href="http://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 Resource Kit Tools</A>를 참조 하십시오.
+> <STRONG>Adsi 편집</STRONG> 을 사용 하 여 Active Directory 도메인 서비스 개체 특성을 편집 하는 방법에 대 한 자세한 내용은 <A href="https://go.microsoft.com/fwlink/?linkid=330427">adsi 편집</A>을 참조 하십시오. 주소록 서비스에 대 한 리소스 키트의 도구에 대 한 자세한 내용은 <A href="https://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 Resource Kit Tools</A>를 참조 하십시오.
 
 
 
@@ -85,27 +85,27 @@ Lync Server에는 표준화 된 RFC 3966/E. 164 휴대폰 번호가 필요 합�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>개</p></td>
 <td><p>givenName</p></td>
 <td><p>0x01400000</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Sn</p></td>
 <td><p>0x02400000</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3(sp3)</p></td>
 <td><p>n</p></td>
 <td><p>0x03420000</p></td>
 </tr>
 <tr class="even">
-<td><p>4 </p></td>
+<td><p>1-4</p></td>
 <td><p>제목</p></td>
 <td><p>0x04000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>5 </p></td>
+<td><p>2-5</p></td>
 <td><p>mailNickname</p></td>
 <td><p>0x05400000</p></td>
 </tr>
@@ -140,7 +140,7 @@ Lync Server에는 표준화 된 RFC 3966/E. 164 휴대폰 번호가 필요 합�
 <td><p>0x0B622800</p></td>
 </tr>
 <tr class="even">
-<td><p>12 </p></td>
+<td><p>12</p></td>
 <td><p>otherTelephone</p></td>
 <td><p>0x0C302000</p></td>
 </tr>
@@ -298,7 +298,7 @@ Lync Server에는 표준화 된 RFC 3966/E. 164 휴대폰 번호가 필요 합�
 
 
 > [!WARNING]  
-> 주소록 필터링에 대 한 자세한 내용은 <A href="https://technet.microsoft.com/library/gg415643(v=ocs.15)">Lync server 2013의 주소록 서버 cmdlet</A>및 <A href="http://go.microsoft.com/fwlink/?linkid=330430">필터 lync 2013 주소록</A> 항목을 참조 하십시오.
+> 주소록 필터링에 대 한 자세한 내용은 <A href="https://technet.microsoft.com/library/gg415643(v=ocs.15)">Lync server 2013의 주소록 서버 cmdlet</A>및 <A href="https://go.microsoft.com/fwlink/?linkid=330430">필터 lync 2013 주소록</A> 항목을 참조 하십시오.
 
 
 

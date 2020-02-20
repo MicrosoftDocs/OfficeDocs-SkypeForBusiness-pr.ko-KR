@@ -12,18 +12,18 @@ ms:contentKeyID: 48185200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19bb9bbba1d9a247b2c33a4ae0fd95f9a8e4553a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 68681e172c4683a29bb676630250f7268e20fade
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048171"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145597"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-user-account-settings-in-lync-server-2013"></a>Lync Server 2013에서 사용자 계정 설정 구성
 
@@ -39,7 +39,7 @@ _**마지막으로 수정 된 항목:** 2012-10-05_
 
 전화 접속 사용자는 전화 번호나 내선 번호를 입력 하 여 인증 된 사용자로 회의에 참가 합니다. Lync Server 사용자 계정에 지정 된 전화 통신 **회선 URI** 가 인증에 필요 합니다.
 
-이 항목의 절차에서는 단일 사용자 계정에 대해 **줄 URI**를 할당하는 방법에 대해 설명합니다. 여러 사용자 계정에 대해 **줄 URI**를 할당해야 하는 경우 **Set-CsUser** cmdlet이 사용되는 스크립트를 만들 수 있습니다. 샘플 스크립트를 사용 하 여 여러 사용자 계정에 **줄 URI** 를 할당 하는 방법에 대 한 자세한 내용은의 "여러 사용자 [http://go.microsoft.com/fwlink/p/?linkId=196945](http://go.microsoft.com/fwlink/p/?linkid=196945)에 게 줄 uri 할당"을 참조 하십시오.
+이 항목의 절차에서는 단일 사용자 계정에 대해 **줄 URI**를 할당하는 방법에 대해 설명합니다. 여러 사용자 계정에 대해 **줄 URI**를 할당해야 하는 경우 **Set-CsUser** cmdlet이 사용되는 스크립트를 만들 수 있습니다. 샘플 스크립트를 사용 하 여 여러 사용자 계정에 **줄 URI** 를 할당 하는 방법에 대 한 자세한 내용은의 "여러 사용자 [https://go.microsoft.com/fwlink/p/?linkId=196945](https://go.microsoft.com/fwlink/p/?linkid=196945)에 게 줄 uri 할당"을 참조 하십시오.
 
 <div>
 

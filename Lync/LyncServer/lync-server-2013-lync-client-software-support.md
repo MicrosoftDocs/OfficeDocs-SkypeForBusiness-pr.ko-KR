@@ -12,18 +12,18 @@ ms:contentKeyID: 48184994
 ms.date: 02/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 913a484262d9e1b3a899aeda42c5f23049d8c73c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2bdc3ee4b25e6e60dfb22ae7a1abe3c6bf7b2cb0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030922"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145787"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-client-software-support-in-lync-server-2013"></a>Lync Server 2013의 lync 클라이언트 소프트웨어 지원
 
@@ -124,9 +124,9 @@ _**마지막으로 수정 된 항목:** 2016-02-25_
 
 Lync 2013은 Windows 에서만 사용할 수 있습니다. 그러나 Lync Server 2013에서는 Mac OS 10.5.8 또는 최신 서비스 팩 또는 릴리스 (Intel 기반) 운영 체제를 실행 하는 컴퓨터에서 다음 클라이언트를 지원 합니다 (Mac OS 10.9 운영 체제가 현재 지원 되지 않음). 지원 되는 기능에 대 한 자세한 내용은 [Lync Server 2013의 클라이언트 비교 표](lync-server-2013-desktop-client-comparison-tables.md)를 참조 하십시오.
 
-  - Mac 용 Microsoft Lync 2011 ("Mac 용 Lync 2011 배포 가이드" 참조 [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786))
+  - Mac 용 Microsoft Lync 2011 ("Mac 용 Lync 2011 배포 가이드" 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268786](https://go.microsoft.com/fwlink/p/?linkid=268786))
 
-  - Mac 용 Microsoft Communicator 2011 ("Mac 용 Communicator 2011 배포 가이드" 참조 [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787))
+  - Mac 용 Microsoft Communicator 2011 ("Mac 용 Communicator 2011 배포 가이드" 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268787](https://go.microsoft.com/fwlink/p/?linkid=268787))
 
 </div>
 
@@ -156,7 +156,7 @@ Lync Server 2013 클라이언트는이 섹션에 요약 된 것 처럼 다양 �
 
 ## <a name="using-mandatory-profiles"></a>필수 프로필 사용
 
-사용자가 Lync 2013 회의 기능을 사용할 계획인 경우 Active Directory 도메인 서비스 필수 프로필을 사용 하 여 Lync 2013 클라이언트에 로그인 할 수 없습니다. 필수 프로필은 읽기 전용 사용자 프로필 이므로 Lync 2013 회의에 필요한 PKI (공개 키 인프라) 키를 프로필에 저장할 수 없습니다. 자세한 내용은 Microsoft 기술 자료 문서 2552221, "사용자가 필수 사용자 프로필을 사용 하 여 로그인 한 경우 Lync 2010 회의 기능 실패"를 참조 하세요 [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221).
+사용자가 Lync 2013 회의 기능을 사용할 계획인 경우 Active Directory 도메인 서비스 필수 프로필을 사용 하 여 Lync 2013 클라이언트에 로그인 할 수 없습니다. 필수 프로필은 읽기 전용 사용자 프로필 이므로 Lync 2013 회의에 필요한 PKI (공개 키 인프라) 키를 프로필에 저장할 수 없습니다. 자세한 내용은 Microsoft 기술 자료 문서 2552221, "사용자가 필수 사용자 프로필을 사용 하 여 로그인 한 경우 Lync 2010 회의 기능 실패"를 참조 하세요 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221).
 
 </div>
 

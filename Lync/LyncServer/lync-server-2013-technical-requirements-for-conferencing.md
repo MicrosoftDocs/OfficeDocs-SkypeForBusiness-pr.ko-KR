@@ -12,18 +12,18 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc548446120ae4088d90acb45c258f3f736063d0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f3b397e242a6188f9054810a2ce08521a9940717
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006734"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141854"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Lync Server 2013의 회의에 대 한 기술 요구 사항
 
@@ -194,9 +194,9 @@ Lync Server 2013, 전화 접속 회의, A/V 회의, IM (인스턴트 메시징) 
 
 ## <a name="audio-file-requirements-for-dial-in-conferencing"></a>전화 접속 회의에 대한 오디오 파일 요구 사항
 
-Lync Server 2013에서는 전화 접속 회의를 위한 음성 안내 및 음악의 사용자 지정 기능을 지원 하지 않습니다. 그러나 기본 오디오 파일을 변경 해야 하는 강력한 비즈니스 요구 사항이 있는 경우에는 microsoft 기술 자료 문서 961177, [Microsoft Office Communications Server 2007 r 2에서 전화 접속 오디오 회의에 대 한 음성 안내 또는 음악 파일을 사용자 지정 하는 방법을](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177)참조 하세요.
+Lync Server 2013에서는 전화 접속 회의를 위한 음성 안내 및 음악의 사용자 지정 기능을 지원 하지 않습니다. 그러나 기본 오디오 파일을 변경 해야 하는 강력한 비즈니스 요구 사항이 있는 경우에는 microsoft 기술 자료 문서 961177, [Microsoft Office Communications Server 2007 r 2에서 전화 접속 오디오 회의에 대 한 음성 안내 또는 음악 파일을 사용자 지정 하는 방법을](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177)참조 하세요.
 
-또한 [Microsoft Lync Server 회의 전화 교환 사용자 지정 음성 안내](http://go.microsoft.com/fwlink/p/?linkid=396880) 관리 유틸리티를 사용 하면 전화 발신자가 사용자 지정 프롬프트와 함께 Lync 모임에 참가 하는 경우 다른 모임 항목 환경을 제공 하기 위해 사용 되는 기본 음성 안내를 바꿀 수 있습니다. 사용자 지정 음성 안내는 Lync Server 2010 또는 Lync Server 2013 (Enterprise 또는 Standard Edition)를 실행 하는 서버에 설치할 수 있습니다.
+또한 [Microsoft Lync Server 회의 전화 교환 사용자 지정 음성 안내](https://go.microsoft.com/fwlink/p/?linkid=396880) 관리 유틸리티를 사용 하면 전화 발신자가 사용자 지정 프롬프트와 함께 Lync 모임에 참가 하는 경우 다른 모임 항목 환경을 제공 하기 위해 사용 되는 기본 음성 안내를 바꿀 수 있습니다. 사용자 지정 음성 안내는 Lync Server 2010 또는 Lync Server 2013 (Enterprise 또는 Standard Edition)를 실행 하는 서버에 설치할 수 있습니다.
 
 회의 전화 교환 응용 프로그램 및 회의 알림 응용 프로그램은 보류 중인 음악, 기록 된 이름 및 오디오 음성 안내 파일에 대해 다음과 같은 요구 사항을 충족 해야 합니다.
 

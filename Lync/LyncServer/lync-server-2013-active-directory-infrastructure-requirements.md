@@ -12,18 +12,18 @@ ms:contentKeyID: 48185318
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14980b886ac9a00b9ea23a0d915bc34ac3956c7f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: de375bd11a0cf515745b0a64fb4aef7aa32113d9
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008550"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145066"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="active-directory-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013에 대 한 Active Directory 인프라 요구 사항
 
@@ -63,7 +63,7 @@ Lync Server 2013에 대 한 Active Directory 도메인 서비스 준비 프로�
     
 
     > [!NOTE]  
-    > 도메인 또는 포리스트 기능 수준을 변경 하려면 TechNet 라이브러리에서 "도메인 및 포리스트 기능 수준 올리기"를 참조 하세요 <A href="http://go.microsoft.com/fwlink/p/?linkid=263775">http://go.microsoft.com/fwlink/p/?LinkId=263775</A>.
+    > 도메인 또는 포리스트 기능 수준을 변경 하려면 TechNet 라이브러리에서 "도메인 및 포리스트 기능 수준 올리기"를 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=263775">https://go.microsoft.com/fwlink/p/?LinkId=263775</A>.
 
     
     </div>

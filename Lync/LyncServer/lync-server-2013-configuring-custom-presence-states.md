@@ -12,18 +12,18 @@ ms:contentKeyID: 48185534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75e2e47af4951e98f21ea6b26572d39b5eebcb8d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 304bd14e62f6ee9c629dfcf43e37cb8ee7880cb6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046481"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-custom-presence-states-in-lync-server-2013"></a>Lync Server 2013에서 사용자 지정 현재 상태 구성
 
@@ -70,7 +70,7 @@ Lync 2013에서 사용자 지정 현재 상태를 정의 하려면 XML 사용자
 
 </div>
 
-XML 구성 파일에 하나 이상의 LCID (로캘 ID) 스키마를 지정 하 여 사용자 지정 현재 상태를 지역화 합니다. 이 항목의 뒷부분에 나오는 예제에서는 영어-미국 (1033), 노르웨이어-복말 (1044), 프랑스어-프랑스 (1036) 및 터키어 (1055)로 지역화 하는 방법을 보여 줍니다. Lcid 목록은 Microsoft에서 할당 한 로캘 Id를 참조 하십시오 <http://go.microsoft.com/fwlink/p/?linkid=157331>.
+XML 구성 파일에 하나 이상의 LCID (로캘 ID) 스키마를 지정 하 여 사용자 지정 현재 상태를 지역화 합니다. 이 항목의 뒷부분에 나오는 예제에서는 영어-미국 (1033), 노르웨이어-복말 (1044), 프랑스어-프랑스 (1036) 및 터키어 (1055)로 지역화 하는 방법을 보여 줍니다. Lcid 목록은 Microsoft에서 할당 한 로캘 Id를 참조 하십시오 <https://go.microsoft.com/fwlink/p/?linkid=157331>.
 
 <div>
 

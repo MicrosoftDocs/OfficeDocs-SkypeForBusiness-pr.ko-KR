@@ -12,18 +12,18 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cd5b57c29a622b7c0f051b00bb0ef30e265743e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f0d00b30100b9203c82df0a2fc8ed8c4c593dfb0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040837"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143002"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Lync Server 2013에 대 한 역방향 프록시 서버 설정
 
@@ -65,7 +65,7 @@ Microsoft Forefront Threat Management Gateway 2010, Microsoft Internet Security 
 
 
 > [!IMPORTANT]  
-> Internet Information Server 응용 프로그램 요청 라우팅 (IIS ARR)은 Lync Server 2010 및 Lync Server 2013에 대 한 역방향 프록시를 구현 하기 위해 완벽 하 게 테스트 되 고 지원 되는 옵션입니다. 11 월, 2012, Microsoft는 ForeFront Threat Management Gateway 2010 또는 TMG의 라이선스 판매량을 더 이상 사용 하지 않습니다. TMG은 여전히 완벽 하 게 지원 되는 제품 이므로 타사에서 판매 하는 기기의 판매에도 사용할 수 있습니다. 또한 많은 타사 하드웨어 부하 분산 장치 및 방화벽은 역방향 프록시 지원을 제공 합니다. 역방향 프록시 기능을 제공 하는 하드웨어 부하 분산 장치 및 방화벽의 경우 Lync Server에 대 한 역방향 프록시 지원을 제공 하도록 제품을 구성 하는 방법에 대 한 구체적인 지침을 공급 업체에 문의 하십시오. 제품에 대 한 설명서를 Microsoft에 제출한 타사도 볼 수 있습니다. 지원은 해당 솔루션의 타사에서 제공 합니다. 솔루션 제공에서 활성 상태인 제 3 자를 보려면 <A href="http://go.microsoft.com/fwlink/?linkid=268730">Microsoft Lync에 대 한 인프라 자격이</A>있는지 확인 하세요.
+> Internet Information Server 응용 프로그램 요청 라우팅 (IIS ARR)은 Lync Server 2010 및 Lync Server 2013에 대 한 역방향 프록시를 구현 하기 위해 완벽 하 게 테스트 되 고 지원 되는 옵션입니다. 11 월, 2012, Microsoft는 ForeFront Threat Management Gateway 2010 또는 TMG의 라이선스 판매량을 더 이상 사용 하지 않습니다. TMG은 여전히 완벽 하 게 지원 되는 제품 이므로 타사에서 판매 하는 기기의 판매에도 사용할 수 있습니다. 또한 많은 타사 하드웨어 부하 분산 장치 및 방화벽은 역방향 프록시 지원을 제공 합니다. 역방향 프록시 기능을 제공 하는 하드웨어 부하 분산 장치 및 방화벽의 경우 Lync Server에 대 한 역방향 프록시 지원을 제공 하도록 제품을 구성 하는 방법에 대 한 구체적인 지침을 공급 업체에 문의 하십시오. 제품에 대 한 설명서를 Microsoft에 제출한 타사도 볼 수 있습니다. 지원은 해당 솔루션의 타사에서 제공 합니다. 솔루션 제공에서 활성 상태인 제 3 자를 보려면 <A href="https://go.microsoft.com/fwlink/?linkid=268730">Microsoft Lync에 대 한 인프라 자격이</A>있는지 확인 하세요.
 
 
 
@@ -94,27 +94,27 @@ Microsoft Forefront Threat Management Gateway 2010, Microsoft Internet Security 
 Forefront Threat Management Gateway 2010을 역방향 프록시로 올바르게 배포하려면 Forefront Threat Management Gateway 2010 설명서에 정의되어 있는 필수 구성 요소 및 하드웨어 요구 사항에 따라 서버를 설치 및 구성해야 합니다. 계속 진행 하기 전에 하드웨어를 올바르게 구성 하 고 서버에 Forefront Threat Management 게이트웨이 2010을 설치 하려면 다음 항목을 참조 하십시오.
 
   - <span></span>  
-    [Forefront TMG(Threat Management Gateway) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
+    [Forefront TMG(Threat Management Gateway) 2010](https://go.microsoft.com/fwlink/?linkid=291292)
 
   - <span></span>  
-    [Forefront TMG 2010 하드웨어 권장 사항](http://go.microsoft.com/fwlink/?linkid=291293)
+    [Forefront TMG 2010 하드웨어 권장 사항](https://go.microsoft.com/fwlink/?linkid=291293)
 
 IIS ARR을 역방향 프록시로 배포 하려면 다음 항목을 검토 하 여 하드웨어 및 필수 구성 요소 소프트웨어를 구성 합니다.
 
   - <span></span>  
-    Windows Server 2008 또는 Windows Server 2008 r 2에 IIS를 설치 하려면 [Windows server 2008 또는 Windows server 2008 r 2에서 iis 7 설치](http://go.microsoft.com/fwlink/?linkid=291296) 를 참조 하세요.
+    Windows Server 2008 또는 Windows Server 2008 r 2에 IIS를 설치 하려면 [Windows server 2008 또는 Windows server 2008 r 2에서 iis 7 설치](https://go.microsoft.com/fwlink/?linkid=291296) 를 참조 하세요.
 
   - <span></span>  
-    Windows Server 2012에 IIS를 설치 하려면 [Windows server 2012에 iis 8 설치](http://go.microsoft.com/fwlink/?linkid=291297) 를 참조 하세요.
+    Windows Server 2012에 IIS를 설치 하려면 [Windows server 2012에 iis 8 설치](https://go.microsoft.com/fwlink/?linkid=291297) 를 참조 하세요.
 
   - <span></span>  
-    Windows Server 2012 r 2에 IIS를 설치 하려면 [Windows server 2012 r 2에 iis 8.5 설치](http://go.microsoft.com/fwlink/?linkid=330687) 를 참조 하세요.
+    Windows Server 2012 r 2에 IIS를 설치 하려면 [Windows server 2012 r 2에 iis 8.5 설치](https://go.microsoft.com/fwlink/?linkid=330687) 를 참조 하세요.
 
   - <span></span>  
-    IIS 용 응용 프로그램 요청 라우팅 확장을 다운로드 하려면 [응용 프로그램 요청 라우팅 v 2.5 다운로드](http://go.microsoft.com/fwlink/?linkid=291298) 의 지침을 따르세요.
+    IIS 용 응용 프로그램 요청 라우팅 확장을 다운로드 하려면 [응용 프로그램 요청 라우팅 v 2.5 다운로드](https://go.microsoft.com/fwlink/?linkid=291298) 의 지침을 따르세요.
 
   - <span></span>  
-    [응용 프로그램 요청 라우팅 버전 2 설치](http://go.microsoft.com/fwlink/?linkid=291299) 의 지침에 대해 ARR을 설치 하려면
+    [응용 프로그램 요청 라우팅 버전 2 설치](https://go.microsoft.com/fwlink/?linkid=291299) 의 지침에 대해 ARR을 설치 하려면
     
     <div>
     

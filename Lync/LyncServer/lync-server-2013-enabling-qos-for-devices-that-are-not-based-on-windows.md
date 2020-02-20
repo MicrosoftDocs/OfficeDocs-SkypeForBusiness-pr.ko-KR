@@ -12,18 +12,18 @@ ms:contentKeyID: 48183661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94d7a8fc9a2cea4fc59a9ec404486042225915df
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ad830b2cf15e3f34c443feaa5ea21e19279804cb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050660"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146361"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enabling-qos-in-lync-server-2013-for-devices-that-are-not-based-on-windows"></a>Windows를 기반으로 하지 않는 장치에 대해 Lync Server 2013에서 QoS를 사용 하도록 설정
 
@@ -76,7 +76,7 @@ EnableQoS 속성이 False (앞의 출력)로 설정 되어 있으면 Windows 이
 
     Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True
 
-EnableQoS 속성 값을 False로 설정 하 여 Windows 이외의 운영 체제를 사용 하는 장치에 대해 QoS를 사용 하지 않도록 설정할 수 있습니다. 예시는 다음과 같습니다:
+EnableQoS 속성 값을 False로 설정 하 여 Windows 이외의 운영 체제를 사용 하는 장치에 대해 QoS를 사용 하지 않도록 설정할 수 있습니다. 예:
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False
 

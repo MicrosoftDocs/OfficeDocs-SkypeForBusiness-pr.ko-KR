@@ -12,18 +12,18 @@ ms:contentKeyID: 48184383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba8e3e02efeddc1229d3616c0cdcaf4ca241bf24
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c99493a2d6921214f91c36fb62e7a75a7279f646
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42024409"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013의 영구 채팅 서버에 대 한 기술 요구 사항
 
@@ -99,9 +99,9 @@ Lync Server 및 영구 채팅 서버에 대 한 서버 및 도구 운영 체제 
 
 데이터베이스 서버에서 다음 소프트웨어 응용 프로그램 중 하나가 설치 되어 있는지 확인해 보십시오.
 
-  - Microsoft SQL Server 2012 Microsoft SQL Server 2012을 설치 하는 방법에 대 한 자세한 내용은에서 [http://go.microsoft.com/fwlink/p/?LinkID=248559](http://go.microsoft.com/fwlink/p/?linkid=248559)"SQL Server 2012 설치"를 참조 하십시오.
+  - Microsoft SQL Server 2012 Microsoft SQL Server 2012을 설치 하는 방법에 대 한 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559)"SQL Server 2012 설치"를 참조 하십시오.
 
-  - Microsoft SQL Server 2008 R2 Microsoft SQL Server 2008 r 2를 설치 하는 방법에 대 한 자세한 내용은에서 [http://go.microsoft.com/fwlink/?LinkId=275702](http://go.microsoft.com/fwlink/?linkid=275702)"Sql server 설치 (sql Server 2008 R2)"를 참조 하십시오.
+  - Microsoft SQL Server 2008 R2 Microsoft SQL Server 2008 r 2를 설치 하는 방법에 대 한 자세한 내용은에서 [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702)"Sql server 설치 (sql Server 2008 R2)"를 참조 하십시오.
 
 </div>
 

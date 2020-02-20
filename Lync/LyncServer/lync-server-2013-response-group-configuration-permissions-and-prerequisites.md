@@ -12,18 +12,18 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9712d196f485c51d720245903739387befb49dd3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c8787327b386157211e4d83317520358edfec7b5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051824"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144815"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Lync Server 2013의 응답 그룹 구성 권한 및 필수 구성 요소
 
@@ -186,7 +186,7 @@ _**마지막으로 수정 된 항목:** 2012-10-05_
 
 이 섹션은 조직에서 FIPS(Federal Information Processing Standards)를 준수해야 하는 경우에만 적용됩니다.
 
-FIPS를 준수하려면 웹 서비스를 설치한 후 다른 암호화 알고리즘을 사용하도록 응용 프로그램 수준 Web.config 파일을 수정해야 합니다. ASP.NET에서 3DES(Triple Data Encryption Standard) 알고리즘을 사용하여 보기 상태 데이터를 처리하도록 지정해야 합니다. 응답 그룹 응용 프로그램의 경우에는 응답 그룹 구성 도구와 에이전트 로그인 및 로그 아웃 콘솔에이 요구 사항이 적용 됩니다. 이 요구 사항에 대 한 자세한 내용은 Microsoft 기술 자료 문서 911722, "ViewState를 사용 하도록 설정 된 ASP.NET 웹 페이지에 액세스할 때 오류 메시지가 표시 될 수 있습니다." (여기서 [http://go.microsoft.com/fwlink/p/?linkId=196183](http://go.microsoft.com/fwlink/p/?linkid=196183)는 ASP.NET 1.1에서 ASP.NET 2.0로 업그레이드)를 참조 하십시오.
+FIPS를 준수하려면 웹 서비스를 설치한 후 다른 암호화 알고리즘을 사용하도록 응용 프로그램 수준 Web.config 파일을 수정해야 합니다. ASP.NET에서 3DES(Triple Data Encryption Standard) 알고리즘을 사용하여 보기 상태 데이터를 처리하도록 지정해야 합니다. 응답 그룹 응용 프로그램의 경우에는 응답 그룹 구성 도구와 에이전트 로그인 및 로그 아웃 콘솔에이 요구 사항이 적용 됩니다. 이 요구 사항에 대 한 자세한 내용은 Microsoft 기술 자료 문서 911722, "ViewState를 사용 하도록 설정 된 ASP.NET 웹 페이지에 액세스할 때 오류 메시지가 표시 될 수 있습니다." (여기서 [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183)는 ASP.NET 1.1에서 ASP.NET 2.0로 업그레이드)를 참조 하십시오.
 
 Web.config 파일을 수정하려면 다음을 수행합니다.
 
@@ -216,7 +216,7 @@ Web.config 파일을 수정하려면 다음을 수행합니다.
 
 
 > [!NOTE]  
-> Yi, Meng 및 Zang 문자에 대해 설명 하 고 배포에 중요 한 이유를 확인 하려면 GB18030 문자 집합 <A href="http://go.microsoft.com/fwlink/p/?linkid=240223">http://go.microsoft.com/fwlink/p/?linkId=240223</A>에 대 한 정보를 참조 하세요.
+> Yi, Meng 및 Zang 문자에 대해 설명 하 고 배포에 중요 한 이유를 확인 하려면 GB18030 문자 집합 <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A>에 대 한 정보를 참조 하세요.
 
 
 
@@ -236,9 +236,9 @@ Yi, Meng 또는 Zang 문자를 지원하려면 Rgsconfig 데이터베이스에 �
 
 SQL Server 2008 R2 및 SQL Server 2012의 경우 라틴어\_일반\_100 (악센트 구분) 데이터 정렬을 사용 합니다. 이 데이터 정렬을 사용하는 경우 모든 개체 이름이 대/소문자를 구분하지 않습니다.
 
-Microsoft SQL Server Management Studio를 사용하여 데이터 정렬을 변경할 수 있습니다. 이 도구를 사용 하는 방법에 대 한 자세한 내용은에서 [http://go.microsoft.com/fwlink/p/?linkId=196184](http://go.microsoft.com/fwlink/p/?linkid=196184)"SQL Server Management Studio 사용"을 참조 하십시오. 다음 단계에 따라 데이터 정렬을 변경합니다.
+Microsoft SQL Server Management Studio를 사용하여 데이터 정렬을 변경할 수 있습니다. 이 도구를 사용 하는 방법에 대 한 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184)"SQL Server Management Studio 사용"을 참조 하십시오. 다음 단계에 따라 데이터 정렬을 변경합니다.
 
-1.  테이블을 다시 만들어야 하는 변경 작업을 허용하도록 SQL Server Management Studio가 구성되었는지 확인합니다. 자세한 내용은의 "저장 (허용 안 됨) 대화 상자"를 [http://go.microsoft.com/fwlink/p/?linkId=196186](http://go.microsoft.com/fwlink/p/?linkid=196186)참조 하십시오. 열 데이터 정렬 설정에 대 한 자세한 내용은에서 [http://go.microsoft.com/fwlink/p/?linkId=196185](http://go.microsoft.com/fwlink/p/?linkid=196185)"방법: 열 데이터 정렬 설정 (비주얼 데이터베이스 도구)"을 참조 하십시오.
+1.  테이블을 다시 만들어야 하는 변경 작업을 허용하도록 SQL Server Management Studio가 구성되었는지 확인합니다. 자세한 내용은의 "저장 (허용 안 됨) 대화 상자"를 [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186)참조 하십시오. 열 데이터 정렬 설정에 대 한 자세한 내용은에서 [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185)"방법: 열 데이터 정렬 설정 (비주얼 데이터베이스 도구)"을 참조 하십시오.
 
 2.  Microsoft SQL Server Management Studio를 사용하여 Rgsconfig 데이터베이스에 연결합니다.
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44395f820d8837bddbf03ac903a7baa811cab842
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c8756545969f90cbece7bbac628577a51015e371
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41998653"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145096"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="administrative-tools-software-requirements-in-lync-server-2013"></a>Lync Server 2013의 관리 도구 소프트웨어 요구 사항
 
@@ -61,7 +61,7 @@ Microsoft Lync Server 2013의 구성 요소를 실행 하려면 Windows PowerShe
 
 Lync Server 2013에서는 Windows Installer 기술을 사용 하 여 다양 한 서버 역할을 설치, 제거 및 유지 관리 합니다. Windows Installer 버전 4.5는 Windows Server 운영 체제의 재배포 가능 구성 요소로 사용될 수 있습니다. Windows Installer 4.5에 windows Server 2012 R2, Windows Server 2012 및 Windows Server 2008 R2와 함께 제공 되는 경우 Lync Server 2013을 실행 하는 컴퓨터에 대해 유틸리티를 다운로드할 필요가 없습니다. Lync Server 2013는 windows Server 2012 R2, Windows Server 2012 또는 Windows Server 2008 R2를 실행 하는 컴퓨터에만 설치할 수 있습니다.
 
-그러나 관리자 워크스테이션에 Lync Server 관리 셸 또는 Lync Server 토폴로지 작성기를 설치 하려면 Windows Installer 4.5를 다운로드 해야 할 수 있습니다. 이 유틸리티는 windows 7 및 Windows 2008 R2와 함께 제공 되지만 이전 버전의 Windows 운영 체제와는 호환 되지 않습니다. Microsoft 다운로드 센터에서 Windows Installer 4.5를 다운로드할 수 있습니다 <http://go.microsoft.com/fwlink/p/?linkid=197395>.
+그러나 관리자 워크스테이션에 Lync Server 관리 셸 또는 Lync Server 토폴로지 작성기를 설치 하려면 Windows Installer 4.5를 다운로드 해야 할 수 있습니다. 이 유틸리티는 windows 7 및 Windows 2008 R2와 함께 제공 되지만 이전 버전의 Windows 운영 체제와는 호환 되지 않습니다. Microsoft 다운로드 센터에서 Windows Installer 4.5를 다운로드할 수 있습니다 <https://go.microsoft.com/fwlink/p/?linkid=197395>.
 
 </div>
 

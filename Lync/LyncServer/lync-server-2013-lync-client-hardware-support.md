@@ -12,18 +12,18 @@ ms:contentKeyID: 49733734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c51adcb773769abc4dfc553d8dc5dd72a0df152
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d6804f4b1cd9075982474c7b515c38af7ce8af01
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030932"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145797"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-client-hardware-support-in-lync-server-2013"></a>Lync Server 2013의 lync 클라이언트 하드웨어 지원
 
@@ -87,7 +87,7 @@ _**마지막으로 수정 된 항목:** 2012-12-14_
 <td><p>통신과</p></td>
 <td><p>마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치. 권장 장치는 다음과 같습니다.</p>
 <ul>
-<li><p>"Microsoft Lync 용으로 최적화 됨" 로고가 있는 전화 (목록 <a href="http://go.microsoft.com/fwlink/p/?linkid=208938">http://go.microsoft.com/fwlink/p/?LinkID=208938</a> 에 대해서는 microsoft Lync의 휴대폰 및 장치 참조)</p></li>
+<li><p>"Microsoft Lync 용으로 최적화 됨" 로고가 있는 전화 (목록 <a href="https://go.microsoft.com/fwlink/p/?linkid=208938">https://go.microsoft.com/fwlink/p/?LinkID=208938</a> 에 대해서는 microsoft Lync의 휴대폰 및 장치 참조)</p></li>
 <li><p>Lync Phone Edition을 실행 하는 전화</p></li>
 </ul></td>
 </tr>
