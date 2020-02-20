@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.
-ms.openlocfilehash: ace96ae0cc8094c1daa7d74f76790e6316ee9411
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fc83efc2b3b72be532d29b2698370c655a1da9ac
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825806"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155090"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -248,7 +248,7 @@ Introduced in this update:
 
 이 업데이트에 도입 된 내용:
 
-- [POLYCOM MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock 하드웨어 지원
+- [POLYCOM MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock 하드웨어 지원
 - [Logitech Brio](https://www.logitech.com/product/brio) 지원
 - 채팅방에 활동이 없을 때 표시 (콘솔 및 프런트 실)에서 절전 모드로 들어가지 못하는 문제를 해결 합니다.
 
@@ -258,7 +258,7 @@ Introduced in this update:
 
 - Surface Pro (2017) 태블릿에서 실행 
 - Windows 10 Enterprise Creator의 업데이트 지원 (영어 언어, 빌드 1703)
-- SR dock 하드웨어 [에서의 Crestron](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
+- SR dock 하드웨어 [에서의 Crestron](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
 - 환경 컨트롤에 대 한 OEM 지원 (Crestron)
 
 64 비트 버전의 Windows 10 Enterprise 기념일 edition (영어 버전 1607)은 Microsoft 팀 회의실 릴리스 3.0.12.0 (업데이트 3)로 더 이상 지원 되지 않습니다.

@@ -1,8 +1,8 @@
 ---
 title: SCOM 관리 팩을 사용 하 여 비즈니스용 Skype 서버 2019 관리
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '요약: System Center Operations Manager와 함께 작동 하도록 비즈니스용 Skype 서버 2019 인프라를 구성 하는 방법을 알아봅니다.'
-ms.openlocfilehash: ac8b9a99794ee12be5d6ac31b0361f46730a8e21
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 54c9f3dadb73df45ddc21cfc40ff83711032a4c2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006043"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150545"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM 관리 팩을 사용 하 여 비즈니스용 Skype 서버 2019 관리
  
@@ -126,11 +126,11 @@ ms.locfileid: "42006043"
 
 ||||
 |:-----|:-----|:-----|
-|1   <br/> |등록 (사용자 로그인)  <br/> |사용 가능한 Lync Server 2010 이상  <br/> |
-|2   <br/> |주소록 서비스 (파일 다운로드)  <br/> |사용 가능한 Lync Server 2010 이상  <br/> |
-|3   <br/> |주소록 웹 쿼리  <br/> |사용 가능한 Lync Server 2010 이상  <br/> |
-|4   <br/> |이들의  <br/> |사용 가능한 Lync Server 2010 이상  <br/> |
-|5   <br/> |통합 연락처 저장소  <br/> |사용 가능한 Lync Server 2013 이상  <br/> |
+|개  <br/> |등록 (사용자 로그인)  <br/> |사용 가능한 Lync Server 2010 이상  <br/> |
+|2  <br/> |주소록 서비스 (파일 다운로드)  <br/> |사용 가능한 Lync Server 2010 이상  <br/> |
+|3(sp3)  <br/> |주소록 웹 쿼리  <br/> |사용 가능한 Lync Server 2010 이상  <br/> |
+|1-4  <br/> |이들의  <br/> |사용 가능한 Lync Server 2010 이상  <br/> |
+|2-5  <br/> |통합 연락처 저장소  <br/> |사용 가능한 Lync Server 2013 이상  <br/> |
    
 **피어-투-피어 서비스에 대해 지원 되는 가상 트랜잭션**
 
@@ -150,7 +150,7 @@ ms.locfileid: "42006043"
 |9   <br/> |오디오 비디오 회의  <br/> |Lync Server 2010 이상에서 사용 가능  <br/> |
 |10   <br/> |데이터 회의  <br/> |Lync Server 2013 이상에서 사용 가능  <br/> |
 |11   <br/> |인스턴트 메시지 회의  <br/> |Lync Server 2010 이상에서 사용 가능  <br/> |
-|12   <br/> | 영구 채팅 <br/> |Lync Server 2013 이상에서 사용 가능  <br/> |
+|12  <br/> | 영구 채팅 <br/> |Lync Server 2013 이상에서 사용 가능  <br/> |
 |-1  <br/> |참가 시작 관리자 (예약 된 모임)  <br/> |Lync Server 2013 이상에서 사용 가능  <br/> |
 |14   <br/> |전화 회의  <br/> |비즈니스용 Skype 서버 2015 이상에서 사용 가능 <br/> |
 |15   <br/> |응용 프로그램 공유 회의  <br/> |비즈니스용 Skype 서버 2015 이상에서 사용 가능 <br/> |

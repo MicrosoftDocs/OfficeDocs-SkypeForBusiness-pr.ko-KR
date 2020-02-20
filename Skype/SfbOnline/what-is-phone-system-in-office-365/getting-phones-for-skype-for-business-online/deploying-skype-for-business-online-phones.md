@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 올바른 펌웨어를 얻고, 필요한 경우 업데이트 하 고, 라이선스를 할당 하 고, 비즈니스용 Skype online 휴대폰용 설정을 구성 하는 배포 단계를 알아보세요.
-ms.openlocfilehash: efcea04a454d846c0140e9d1dba561da228df1de
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f4f1a36e5a2e98c4566a81b41bc6e6c281ac9a3b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784755"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113151"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>비즈니스용 Skype Online 휴대폰 배포
 
@@ -208,7 +208,7 @@ BToE는 두 가지 모드 ( *자동* (기본값)와 *수동* )에서 작동 하�
   
 2. 아래 링크에서 제조업체 웹 사이트의 최신 BToE 소프트웨어를 다운로드 하 여 설치 합니다. 사용자 환경을 개선 하기 위해 Microsoft 끝점 구성 관리자와 같은 관리 배포 솔루션을 사용 하 여 BToE 소프트웨어를 배포 하 고 설치할 수 있습니다. 구성 관리자를 사용 하는 방법에 대 한 도움말은 [Configuration manager에서 패키지 및 프로그램](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)을 참조 하세요.
     
-   - [Polycom BToE 소프트웨어 다운로드 사이트](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
+   - [Polycom BToE 소프트웨어 다운로드 사이트](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
    - [옛 alink 소프트웨어 다운로드](http://www.yealink.com/products_list_10.html)
     
@@ -219,7 +219,7 @@ BToE는 두 가지 모드 ( *자동* (기본값)와 *수동* )에서 작동 하�
 > [!NOTE]
 > BToE는 현재 Mac 및 VDI 플랫폼에서 지원 되지 않습니다. 
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

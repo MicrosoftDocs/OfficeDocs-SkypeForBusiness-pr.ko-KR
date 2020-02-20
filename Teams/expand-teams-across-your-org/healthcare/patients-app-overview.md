@@ -1,7 +1,7 @@
 ---
 title: '팀 용 환자 앱 관리자 '
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: 팀 용 환자 앱 관리자
-ms.openlocfilehash: dd27fc5deb0b352467a0857448cf925228780579
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 4c4eaced1b7e3c328d589906ac50cfb8ac805ea3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827673"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153790"
 ---
 # <a name="patients-app-overview"></a>환자 앱 개요
 
@@ -68,6 +68,6 @@ EMR 모드 환자 앱을 사용 하기 위해 환경을 준비 하는 방법에 
 
 예. 환자 앱의 Microsoft 팀 사용자가 수행한 모든 단일 UI 동작은 감사 되 고 보안 및 준수 센터에서 사용할 수 있습니다. 세부 정보는 [여기](patients-audit.md) 문서에 설명 되어 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft Teams에 전자 의료 레코드 통합](patients-app.md)

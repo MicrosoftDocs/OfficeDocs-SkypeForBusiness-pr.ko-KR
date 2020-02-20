@@ -1,7 +1,7 @@
 ---
 title: 환자 앱 개요
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 팀 환자 앱 EHR 통합
-ms.openlocfilehash: 8d5723f90fe56c2af342f1cfd76e3ab9bde04c60
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 27149ad8466eec9bd3c1f73293f82a877dc1a722
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827656"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147721"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Microsoft Teams에 전자 의료 레코드 통합
 
@@ -79,7 +79,7 @@ OAuth 2.0 [클라이언트 자격 증명 흐름](https://www.oauth.com/oauth2-se
     {"resourceType": "CapabilityStatement",.
         .
         .
-        "rest": [{"모드": "서버", "보안": {"확장명": [{"확장명": [{"url": "token", "valueuri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"}, {"url": "권한 부여", "valueuri":https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize""}http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"," "서비스": [{"코딩": [{"시스템": "http://hl7.org/fhir/ValueSet/restful-security-service", "코드": "OAuth"}]}]},.
+        "rest": [{"모드": "서버", "보안": {"확장명": [{"확장명": [{"url": "token", "valueuri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"}, {"url": "권한 부여", "valueuri":https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize""}http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"," "서비스": [{"코딩": [{"시스템": "https://hl7.org/fhir/ValueSet/restful-security-service", "코드": "OAuth"}]}]},.
                 .
                 .
             } ] }

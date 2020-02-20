@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 비즈니스용 Skype 서버 Enterprise Voice는 전자 164 형식으로 정규화 된 전화 번호를 기반으로 통화를 라우팅합니다. 즉, RNL (역방향 번호 조회)를 수행 하 여 일치 하는 SIP URI로 변환할 수 있도록 모든 전화 건 문자열을 E. 164 형식으로 정규화 해야 합니다. 비즈니스용 Skype 서버는 호출 된 ID 및 발신자 번호 프레젠테이션을 조작할 수 있는 기능을 제공 합니다.
-ms.openlocfilehash: dddeee5ef7784d9c2c433763da4c8b6145611e49
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 49598c2ef6b1a145c206bece3e06068067b0a0e0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045070"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151208"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 변환 규칙 정의
 
@@ -55,7 +55,7 @@ ms.locfileid: "42045070"
 - [정규식을 수동으로 작성](#create-or-modify-a-translation-rule-manually) 하 여 일치 패턴 및 변환 규칙을 정의 합니다.
 
 > [!Note]
-> 정규식을 작성 하는 방법에 대 한 자세한 내용은 [.Net Framework 정규식](http://go.microsoft.com/fwlink/p/?linkId=140927)을 참조 하십시오. 
+> 정규식을 작성 하는 방법에 대 한 자세한 내용은 [.Net Framework 정규식](https://go.microsoft.com/fwlink/p/?linkId=140927)을 참조 하십시오. 
 
 ### <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool"></a>변환 규칙 작성 도구를 사용 하 여 변환 규칙 만들기 또는 수정
 

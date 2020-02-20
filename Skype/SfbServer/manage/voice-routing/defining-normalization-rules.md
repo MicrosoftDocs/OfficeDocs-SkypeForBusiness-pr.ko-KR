@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 비즈니스용 Skype 서버 정규화 규칙은 .NET Framework 정규식을 사용 하 여 전화 건 번호를 E. 164 형식으로 변환 합니다. 즉, 정규화 규칙은 사용자가 건 전화 번호를 받아이 번호를 비즈니스용 Skype 서버에서 내부적으로 사용 하는 형식으로 변환 합니다. 각 다이얼 플랜에는 하나 이상의 정규화 규칙을 할당해야 합니다.
-ms.openlocfilehash: 42ec43a08d1c155f61869bdfebf07e94ac040e56
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2fd7f59bcebcfe676a03ce5a6a897336551ddbad
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028849"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151218"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 정규화 규칙 정의
 
@@ -24,7 +24,7 @@ ms.locfileid: "42028849"
 
 정규화 규칙에 대 한 자세한 내용은 [다이얼 플랜 및 정규화 규칙](https://technet.microsoft.com/library/gg413082(v=ocs.15).aspx)을 참조 하십시오.
 
-정규식을 작성 하는 방법에 대 한 자세한 내용은 [.Net Framework 정규식](http://go.microsoft.com/fwlink/p/?linkId=140927)을 참조 하십시오.
+정규식을 작성 하는 방법에 대 한 자세한 내용은 [.Net Framework 정규식](https://go.microsoft.com/fwlink/p/?linkId=140927)을 참조 하십시오.
 
 다음 방법 중 하나를 사용하여 정규화 규칙을 정의하거나 편집할 수 있습니다.
 - [ **정규화 규칙 작성** 도구를 사용](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) 하 여 시작 번호, 길이, 제거할 숫자 및 추가할 숫자에 대 한 값을 지정한 다음 비즈니스용 Skype 서버 제어판에서 해당 일치 패턴 및 변환 규칙을 생성 하도록 합니다.

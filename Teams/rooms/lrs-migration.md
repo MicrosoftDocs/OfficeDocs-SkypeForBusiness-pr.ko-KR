@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: 이 항목에서는 Microsoft 팀 공간 소프트웨어를 사용 하도록 Lync 대화방 시스템 장치를 마이그레이션하는 방법을 알아봅니다.
-ms.openlocfilehash: 4aad70c0a91824f0b1eff892aa1940760fc39d39
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 4f0c255c40c64274ff4b104a8706eb8f73ee792f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826006"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155110"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>LRS (Lync 채팅방 System) 장치를 Microsoft 팀 대화방으로 마이그레이션
 
@@ -36,7 +36,7 @@ Skype 대화방 시스템 v1 소프트웨어 지원이 종료 된 후에도 기�
 - RL의 crestr
 - [RL2에서 crestron](https://www.crestron.com/Products/Featured-Solutions/Crestron-RL-2)
 - [스마트 실 시스템](https://support.smarttech.com/en/hardware/room-systems-skype)
-- [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
+- [Polycom CX8000](https://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 
 ## <a name="upgrade-options"></a>업그레이드 옵션
 

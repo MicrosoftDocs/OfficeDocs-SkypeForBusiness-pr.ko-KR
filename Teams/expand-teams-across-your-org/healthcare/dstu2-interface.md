@@ -1,7 +1,7 @@
 ---
 title: 환자 App 및 EHR integration DSTU2 인터페이스
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 팀 환자 앱 EHR 통합
-ms.openlocfilehash: d7acea1002d80a397469d242cfbbb1adfba07a24
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827806"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153820"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 인터페이스 사양
 
@@ -54,7 +54,7 @@ Microsoft 팀 환자 앱에서 두 개 이상의 리소스에 대 한 쿼리는 
    1. 모드
    2. 개입
    3. 자원: 종류
-   4. 보안: [OAuth uri 용 확장](http://hl7.org/fhir/extension-oauth-uris.html)
+   4. 보안: [OAuth uri 용 확장](https://hl7.org/fhir/extension-oauth-uris.html)
 2. Fto Rversion (코드에는 여러 버전을 지원할 때 피벗할 버전을 파악 하기 위해 필요 합니다.)
 
 이 [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) 필드 집합에 대 한 자세한 내용은을 참조 하세요.
@@ -82,7 +82,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱은 다음
     응답: {"resourceType": "환자", "id": "<환자 id>",.
       .
       .
-      "name": [{"사용": "공식", "전위": ["Mr"], "family": ["Chau"], "지정": ["Hugh"]}], "식별자": [{"사용": "공식", "유형": {"코딩": [{"시스템": "http://hl7.org/fhir/v2/0203", "코드": "Mr"}]}, "값": "1234567": "성별": "남성", "careProvider": [{"표시": "홍 길동"}],} 1957-06-05
+      "name": [{"사용": "공식", "전위": ["Mr"], "family": ["Chau"], "지정": ["Hugh"]}], "식별자": [{"사용": "공식", "유형": {"코딩": [{"시스템": "https://hl7.org/fhir/v2/0203", "코드": "Mr"}]}, "값": "1234567": "성별": "남성", "careProvider": [{"표시": "홍 길동"}],} 1957-06-05
 
 * * *
 

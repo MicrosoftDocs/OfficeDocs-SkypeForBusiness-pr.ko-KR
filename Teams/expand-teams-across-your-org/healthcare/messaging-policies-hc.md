@@ -1,7 +1,7 @@
 ---
 title: 의료 조직을 위한 보안 메시징 시작
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 의료 조직을 위한 보안 메시징 시작
-ms.openlocfilehash: ff4f9089d7fba87678345d37f8c9d85949fb478e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: efa3b8d046a9f095b6b165de134763b263b68156
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827736"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153800"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>의료 조직을 위한 보안 메시징 시작
 
@@ -62,7 +62,7 @@ ms.locfileid: "41827736"
 
   *사용 예:* 소피아 Krause는 위험도 환자, Jakob Roth readmitting입니다. Manuela Carstens는이 환자에 대 한 기본 의료입니다.  소피아는 Jakob의 심사에 대 한 즉각적인 도움을 요청 하는 우선 순위 알림을 사용 하 여 Manuela에 게 메시지를 보냅니다.  Manuela의 전화는 메시지를 받지만, Manuela가 전화 진동에 대 한 느낌을 주지 않으며, 응답 하지 않습니다. 팀에서 Manuela에 게 다시 알리고 메시지를 읽을 때까지 지속적으로 다시 알림을 보냅니다. 읽음 확인을 사용 하는 경우 Manuela에서 응답 방법을 결정 하기 전에는 Manuela에서 메시지를 소피아 알 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [팀에서 메시징 정책 관리](../../messaging-policies-in-teams.md)
 - [의료 조직을 위한 Teams 시작](teams-in-hc.md)

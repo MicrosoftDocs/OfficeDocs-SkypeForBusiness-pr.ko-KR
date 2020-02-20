@@ -1,7 +1,7 @@
 ---
 title: 비즈니스용 Skype 서버 2019에서 리소스 계정 구성
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에 대 한 리소스 계정을 설정 합니다.
-ms.openlocfilehash: e16f75063cfbe794ff0257cb9cccdf44065a5448
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726778"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113261"
 ---
 # <a name="configure-resource-accounts"></a>리소스 계정 구성
 
@@ -64,7 +64,7 @@ ms.locfileid: "41726778"
 
 2. 전화 시스템 라이선스를 구입 합니다. 자세한 내용은 다음을 참조하세요.  
    - [전화 시스템-가상 사용자 라이선스](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
-   - [Office 365 Enterprise E1 및 E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
+   - [Office 365 Enterprise E1 and E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
    - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Office 365 Enterprise E5 비즈니스 소프트웨어](https://products.office.com/business/office-365-enterprise-e5-business-software)
 

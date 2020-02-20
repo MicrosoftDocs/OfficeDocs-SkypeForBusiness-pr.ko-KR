@@ -1,7 +1,7 @@
 ---
 title: 클라우드 자동 전화 교환 계획
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에서 클라우드 자동 전화 교환 사용 개요
-ms.openlocfilehash: f7a3799df083d1404a2d635ee38403cc2653b9ea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2cb4c54e4c70e9187e44c5de3cb70fac85be30a6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037820"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150479"
 ---
 # <a name="plan-cloud-auto-attendants"></a>클라우드 자동 전화 교환 계획
 

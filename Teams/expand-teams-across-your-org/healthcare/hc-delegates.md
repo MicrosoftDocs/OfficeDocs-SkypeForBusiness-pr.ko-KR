@@ -1,7 +1,7 @@
 ---
 title: 메시지 위임
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: 사용자는 상태 메시지의 대리인으로 다른 사용자를 명시적으로 설정할 수 있습니다.
-ms.openlocfilehash: ec1f590cad4ada605b4a487d982b3a2459ecb5f2
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e76181ff69f2d4e6ed75183bdb5fbdda695d05e4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827786"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153810"
 ---
 # <a name="message-delegation"></a>메시지 위임
 
@@ -63,6 +63,6 @@ ms.locfileid: "41827786"
 
 사용자가 TeamsOnly 모드로 업그레이드 된 경우 비즈니스용 Skype에서 팀으로 노트 마이그레이션이 지원 되지 않습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [비즈니스용 Skype와 공존](../../coexistence-chat-calls-presence.md)

@@ -1,7 +1,7 @@
 ---
 title: '팀 IT 및 규정 준수 관리자를 위한 환자 앱 감사 '
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 팀 용 환자 앱 관리자
-ms.openlocfilehash: fd2aa97e9eb8fefdcaa4e9a4ccc432f42dbee5ce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 03aa421a72ab1402e0574a65117fa1eb182f1a47
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827616"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147711"
 ---
 # <a name="audit-logs-for-patients-app"></a>환자 앱에 대한 감사 로그
 
@@ -78,7 +78,7 @@ HIPAA 지침에 따라 건강 서비스 공급자는 변경 내용을 감사할 
 
 Microsoft 팀에 대 한 기록 된 활동은 일반적으로 [Microsoft 팀 활동](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)에 설명 되어 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365 감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
