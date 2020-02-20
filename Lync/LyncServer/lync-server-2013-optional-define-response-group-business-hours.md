@@ -12,20 +12,20 @@ ms:contentKeyID: 48185504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 62fe312c08c639293dbd35623d10b58f3e51fe14
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ac232fa40e4fd9a276dd7e96e8565e0dcf0b3940
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051190"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153448"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a><span data-ttu-id="b6a1b-102">반드시 Lync Server 2013에서 응답 그룹 업무 시간 정의</span><span class="sxs-lookup"><span data-stu-id="b6a1b-102">(Optional) Define Response Group business hours in Lync Server 2013</span></span>
+# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a><span data-ttu-id="92294-102">반드시 Lync Server 2013에서 응답 그룹 업무 시간 정의</span><span class="sxs-lookup"><span data-stu-id="92294-102">(Optional) Define Response Group business hours in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42051190"
 
 <span> </span>
 
-<span data-ttu-id="b6a1b-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="b6a1b-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="92294-103">_**마지막으로 수정 된 항목:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="92294-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
 <div>
 
-## <a name="defining-business-hours"></a><span data-ttu-id="b6a1b-104">업무 시간 정의</span><span class="sxs-lookup"><span data-stu-id="b6a1b-104">Defining Business Hours</span></span>
+## <a name="defining-business-hours"></a><span data-ttu-id="92294-104">업무 시간 정의</span><span class="sxs-lookup"><span data-stu-id="92294-104">Defining Business Hours</span></span>
 
-<span data-ttu-id="b6a1b-105">업무 시간 설정에서는 워크플로를 사용하여 통화에 응답할 수 있는 시간을 정의하고 업무 시간 외에 통화에 대해 수행할 작업을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="b6a1b-105">Business hour settings define when the workflow is available to answer calls and specify the actions to take for calls outside of business hours.</span></span> <span data-ttu-id="b6a1b-106">응답 그룹 관리자는 **New-CsRgsHoursOfBusiness** cmdlet를 사용하여 임의의 응답 그룹에 사용할 수 있는 미리 정의된 일정을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b6a1b-106">Response Group administrators can use the **New-CsRgsHoursOfBusiness** cmdlet to create predefined schedules that you can use for any number of response groups.</span></span>
+<span data-ttu-id="92294-105">업무 시간 설정에서는 워크플로를 사용하여 통화에 응답할 수 있는 시간을 정의하고 업무 시간 외에 통화에 대해 수행할 작업을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="92294-105">Business hour settings define when the workflow is available to answer calls and specify the actions to take for calls outside of business hours.</span></span> <span data-ttu-id="92294-106">응답 그룹 관리자는 **New-CsRgsHoursOfBusiness** cmdlet를 사용하여 임의의 응답 그룹에 사용할 수 있는 미리 정의된 일정을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92294-106">Response Group administrators can use the **New-CsRgsHoursOfBusiness** cmdlet to create predefined schedules that you can use for any number of response groups.</span></span>
 
 <div>
 
 
 > [!TIP]  
-> <span data-ttu-id="b6a1b-107">워크플로를 만들거나 수정할 때 해당 워크플로에만 적용되는 사용자 지정 일정을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b6a1b-107">When you create or modify a workflow, you can specify a custom schedule that applies only to that workflow.</span></span> <span data-ttu-id="b6a1b-108">자세한 내용은 Lync server <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">2013에서 헌트 그룹 워크플로 만들기 또는 수정</A> 또는 <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">lync server 2013에서 대화형 워크플로 만들기 또는 수정</A>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b6a1b-108">For details, see <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Create or modify a hunt group workflow in Lync Server 2013</A> or <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Create or modify an interactive workflow in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="92294-107">워크플로를 만들거나 수정할 때 해당 워크플로에만 적용되는 사용자 지정 일정을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92294-107">When you create or modify a workflow, you can specify a custom schedule that applies only to that workflow.</span></span> <span data-ttu-id="92294-108">자세한 내용은 Lync server <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">2013에서 헌트 그룹 워크플로 만들기 또는 수정</A> 또는 <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">lync server 2013에서 대화형 워크플로 만들기 또는 수정</A>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="92294-108">For details, see <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Create or modify a hunt group workflow in Lync Server 2013</A> or <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Create or modify an interactive workflow in Lync Server 2013</A>.</span></span>
 
 
 
@@ -57,7 +57,7 @@ ms.locfileid: "42051190"
 
 
 > [!NOTE]  
-> <span data-ttu-id="b6a1b-109">워크플로가 관리 워크플로로 정의되는 경우 CsResponseGroupManager 역할에 할당된 사용자는 관리할 워크플로의 사용자 지정 업무 시간을 설정하고 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b6a1b-109">If a workflow is defined as a Managed workflow, then any user who is assigned the CsResponseGroupManager role can set and modify custom business hours for workflows that they manage.</span></span>
+> <span data-ttu-id="92294-109">워크플로가 관리 워크플로로 정의되는 경우 CsResponseGroupManager 역할에 할당된 사용자는 관리할 워크플로의 사용자 지정 업무 시간을 설정하고 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92294-109">If a workflow is defined as a Managed workflow, then any user who is assigned the CsResponseGroupManager role can set and modify custom business hours for workflows that they manage.</span></span>
 
 
 
@@ -67,7 +67,7 @@ ms.locfileid: "42051190"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="b6a1b-110">다음 cmdlet의 매개 변수에 24시간 표기법을 사용하십시오(예: 20:00=오후 8:00).</span><span class="sxs-lookup"><span data-stu-id="b6a1b-110">Use 24-hour notation for the parameters in the following cmdlets (for example, 20:00=8:00 P.M.).</span></span>
+> <span data-ttu-id="92294-110">다음 cmdlet의 매개 변수에 24시간 표기법을 사용하십시오(예: 20:00=오후 8:00).</span><span class="sxs-lookup"><span data-stu-id="92294-110">Use 24-hour notation for the parameters in the following cmdlets (for example, 20:00=8:00 P.M.).</span></span>
 
 
 
@@ -75,21 +75,21 @@ ms.locfileid: "42051190"
 
 <div>
 
-## <a name="to-create-a-predefined-business-hours-collection"></a><span data-ttu-id="b6a1b-111">미리 정의된 업무 시간 컬렉션을 만들려면</span><span class="sxs-lookup"><span data-stu-id="b6a1b-111">To create a predefined business hours collection</span></span>
+## <a name="to-create-a-predefined-business-hours-collection"></a><span data-ttu-id="92294-111">미리 정의된 업무 시간 컬렉션을 만들려면</span><span class="sxs-lookup"><span data-stu-id="92294-111">To create a predefined business hours collection</span></span>
 
-1.  <span data-ttu-id="b6a1b-112">RTCUniversalServerAdmins 그룹의 구성원이 나 응답 그룹을 지 원하는 미리 정의 된 관리 역할 중 하나의 구성원으로 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="b6a1b-112">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="92294-112">RTCUniversalServerAdmins 그룹의 구성원이 나 응답 그룹을 지 원하는 미리 정의 된 관리 역할 중 하나의 구성원으로 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="92294-112">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="b6a1b-113">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="b6a1b-113">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="92294-113">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="92294-113">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="b6a1b-114">정의할 각 고유 시간 범위에 대해 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="b6a1b-114">For each unique range of hours you want to define, run:</span></span>
+3.  <span data-ttu-id="92294-114">정의할 각 고유 시간 범위에 대해 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="92294-114">For each unique range of hours you want to define, run:</span></span>
     
         $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
-    <span data-ttu-id="b6a1b-115">정의한 범위를 사용하는 업무 시간 컬렉션을 만들려면 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="b6a1b-115">To create the business hours collection that uses the ranges you defined, run:</span></span>
+    <span data-ttu-id="92294-115">정의한 범위를 사용하는 업무 시간 컬렉션을 만들려면 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="92294-115">To create the business hours collection that uses the ranges you defined, run:</span></span>
     
         New-CsRgsHoursOfBusiness -Parent <service where the workflow is hosted> -Name <unique name for collection> [-MondayHours1 <first set of opening and closing times for Monday>] [-MondayHours2 <second set of opening and closing times for Monday>] [-TuesdayHours1 <first set of opening and closing times for Tuesday>] [-TuesdayHours2 <second set of opening and closing times for Tuesday>] [-WednesdayHours1 <first set of opening and closing times for Wednesday>] [-WednesdayHours2 <second set of opening and closing times for Wednesday>] [-ThursdayHours1 <first set of opening and closing times for Thursday>] [-ThursdayHours2 <second set of opening and closing times for Thursday>] [-FridayHours1 <first set of opening and closing times for Friday>] [-FridayHours2 <second set of opening and closing times for Friday>] [-SaturdayHours1 <first set of opening and closing times for Saturday>] [-SaturdayHours2 <second set of opening and closing times for Saturday>] [-SundayHours1 <first set of opening and closing times for Sunday>] [-SundayHours2 <second set of opening and closing times for Sunday>]
     
-    <span data-ttu-id="b6a1b-p103">다음 예에서는 평일 오전 9시~오후 5시, 토요일 오전 8시~오전 10시와 오후 2시~오후 6시를 업무 시간으로 지정하고 일요일은 휴무로 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="b6a1b-p103">The following example specifies business hours of 9:00 A.M. to 5:00 P.M. for weekdays, 8:00 A.M. to 10:00 A.M. and again from 2:00 P.M. to 6:00 P.M. for Saturdays, and no business hours for Sundays:</span></span>
+    <span data-ttu-id="92294-p103">다음 예에서는 평일 오전 9시~오후 5시, 토요일 오전 8시~오전 10시와 오후 2시~오후 6시를 업무 시간으로 지정하고 일요일은 휴무로 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="92294-p103">The following example specifies business hours of 9:00 A.M. to 5:00 P.M. for weekdays, 8:00 A.M. to 10:00 A.M. and again from 2:00 P.M. to 6:00 P.M. for Saturdays, and no business hours for Sundays:</span></span>
     
         $a = NewRgsTimeRange -Name "Weekday Hours" -OpenTime "9:00" -CloseTime "17:00"
         $b = NewRgsTimeRange -Name "Saturday Morning Hours" -OpenTime "8:00" -CloseTime "10:00" 
@@ -102,15 +102,15 @@ ms.locfileid: "42051190"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b6a1b-123">참고 항목</span><span class="sxs-lookup"><span data-stu-id="b6a1b-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="92294-123">참고 항목</span><span class="sxs-lookup"><span data-stu-id="92294-123">See Also</span></span>
 
 
-[<span data-ttu-id="b6a1b-124">Lync Server 2013에서 헌트 그룹 워크플로 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="b6a1b-124">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
-[<span data-ttu-id="b6a1b-125">Lync Server 2013에서 대화형 워크플로 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="b6a1b-125">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
+[<span data-ttu-id="92294-124">Lync Server 2013에서 헌트 그룹 워크플로 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="92294-124">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+[<span data-ttu-id="92294-125">Lync Server 2013에서 대화형 워크플로 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="92294-125">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 
-[<span data-ttu-id="b6a1b-126">New-csrgstimerange</span><span class="sxs-lookup"><span data-stu-id="b6a1b-126">New-CsRgsTimeRange</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsTimeRange)  
-[<span data-ttu-id="b6a1b-127">Get-csrgshoursofbusiness</span><span class="sxs-lookup"><span data-stu-id="b6a1b-127">New-CsRgsHoursOfBusiness</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoursOfBusiness)  
+[<span data-ttu-id="92294-126">New-csrgstimerange</span><span class="sxs-lookup"><span data-stu-id="92294-126">New-CsRgsTimeRange</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsTimeRange)  
+[<span data-ttu-id="92294-127">Get-csrgshoursofbusiness</span><span class="sxs-lookup"><span data-stu-id="92294-127">New-CsRgsHoursOfBusiness</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoursOfBusiness)  
   
 
 </div>
