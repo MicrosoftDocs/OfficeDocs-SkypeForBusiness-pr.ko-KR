@@ -12,20 +12,20 @@ ms:contentKeyID: 51541516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78d43cedaec50adac895b143a3643a6a1a1a8a48
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3c905ee22ed237e908fc72e551f973b6f20fa8f2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050370"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-persistent-chat-data-in-lync-server-2013"></a><span data-ttu-id="50d28-102">Lync Server 2013에서 영구 채팅 데이터 복원</span><span class="sxs-lookup"><span data-stu-id="50d28-102">Restoring Persistent Chat data in Lync Server 2013</span></span>
+# <a name="restoring-persistent-chat-data-in-lync-server-2013"></a><span data-ttu-id="76cd7-102">Lync Server 2013에서 영구 채팅 데이터 복원</span><span class="sxs-lookup"><span data-stu-id="76cd7-102">Restoring Persistent Chat data in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42050370"
 
 <span> </span>
 
-<span data-ttu-id="50d28-103">_**마지막으로 수정 된 항목:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="50d28-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="76cd7-103">_**마지막으로 수정 된 항목:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="76cd7-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="50d28-104">영구 채팅방 콘텐츠는 영구 채팅 데이터베이스 (mgc .mdf)에 저장 됩니다.</span><span class="sxs-lookup"><span data-stu-id="50d28-104">Persistent Chat room content is stored in the Persistent Chat database (mgc.mdf).</span></span> <span data-ttu-id="50d28-105">정기적으로 백업 해야 하는 업무상 중요 한 데이터입니다.</span><span class="sxs-lookup"><span data-stu-id="50d28-105">This is business-critical data that should be backed up regularly.</span></span> <span data-ttu-id="50d28-106">대화방 콘텐츠 (예: 사용자 및 그룹)와 채팅방 및 채팅방 콘텐츠를 채팅 하는 데 사용할 수 있는 역할 및 액세스와 함께 영구 채팅 데이터베이스에도 저장 됩니다.</span><span class="sxs-lookup"><span data-stu-id="50d28-106">In addition to the chat room content, principals (such as users and groups) and the roles and access that they have to chat rooms and chat room content, is also stored in the Persistent Chat database.</span></span>
+<span data-ttu-id="76cd7-104">영구 채팅방 콘텐츠는 영구 채팅 데이터베이스 (mgc .mdf)에 저장 됩니다.</span><span class="sxs-lookup"><span data-stu-id="76cd7-104">Persistent Chat room content is stored in the Persistent Chat database (mgc.mdf).</span></span> <span data-ttu-id="76cd7-105">정기적으로 백업 해야 하는 업무상 중요 한 데이터입니다.</span><span class="sxs-lookup"><span data-stu-id="76cd7-105">This is business-critical data that should be backed up regularly.</span></span> <span data-ttu-id="76cd7-106">대화방 콘텐츠 (예: 사용자 및 그룹)와 채팅방 및 채팅방 콘텐츠를 채팅 하는 데 사용할 수 있는 역할 및 액세스와 함께 영구 채팅 데이터베이스에도 저장 됩니다.</span><span class="sxs-lookup"><span data-stu-id="76cd7-106">In addition to the chat room content, principals (such as users and groups) and the roles and access that they have to chat rooms and chat room content, is also stored in the Persistent Chat database.</span></span>
 
-<span data-ttu-id="50d28-107">영구 채팅 데이터를 복원 하는 방법은 백업 하는 데 사용한 방법에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="50d28-107">How you restore your Persistent Chat data depends on the method that you used to back it up.</span></span>
+<span data-ttu-id="76cd7-107">영구 채팅 데이터를 복원 하는 방법은 백업 하는 데 사용한 방법에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="76cd7-107">How you restore your Persistent Chat data depends on the method that you used to back it up.</span></span>
 
-  - <span data-ttu-id="50d28-108">SQL Server 백업 절차를 사용한 경우 SQL Server 복원 절차를 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="50d28-108">If you used SQL Server backup procedures, you must use SQL Server restore procedures.</span></span>
+  - <span data-ttu-id="76cd7-108">SQL Server 백업 절차를 사용한 경우 SQL Server 복원 절차를 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="76cd7-108">If you used SQL Server backup procedures, you must use SQL Server restore procedures.</span></span>
 
-  - <span data-ttu-id="50d28-109">**Export-cspersistentchatdata** cmdlet을 사용 하 여 영구 채팅 데이터를 백업한 경우 **export-cspersistentchatdata** cmdlet을 사용 하 여 데이터를 복원 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="50d28-109">If you used the **Export-CsPersistentChatData** cmdlet to back up Persistent Chat data, then you must use the **Import-CsPersistentChatData** cmdlet to restore the data.</span></span>
+  - <span data-ttu-id="76cd7-109">**Export-cspersistentchatdata** cmdlet을 사용 하 여 영구 채팅 데이터를 백업한 경우 **export-cspersistentchatdata** cmdlet을 사용 하 여 데이터를 복원 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="76cd7-109">If you used the **Export-CsPersistentChatData** cmdlet to back up Persistent Chat data, then you must use the **Import-CsPersistentChatData** cmdlet to restore the data.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 51541488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a4cfda150c1ea8fadba3adff98ab1a95255c11e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6f9bc8e86b4dcdbd74d9fd9eed11de9c3735520e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051230"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144755"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-lync-server-pool-in-lync-server-2013"></a><span data-ttu-id="967f8-102">Lync Server 2013에서 Lync Server 풀 복원</span><span class="sxs-lookup"><span data-stu-id="967f8-102">Restoring a Lync Server pool in Lync Server 2013</span></span>
+# <a name="restoring-a-lync-server-pool-in-lync-server-2013"></a><span data-ttu-id="fa3b6-102">Lync Server 2013에서 Lync Server 풀 복원</span><span class="sxs-lookup"><span data-stu-id="fa3b6-102">Restoring a Lync Server pool in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42051230"
 
 <span> </span>
 
-<span data-ttu-id="967f8-103">_**마지막으로 수정 된 항목:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="967f8-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="fa3b6-103">_**마지막으로 수정 된 항목:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="fa3b6-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="967f8-104">Lync Server 배포에는 다음과 같은 유형의 풀이 포함 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="967f8-104">Your Lync Server deployment may include any of the following types of pools:</span></span>
+<span data-ttu-id="fa3b6-104">Lync Server 배포에는 다음과 같은 유형의 풀이 포함 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fa3b6-104">Your Lync Server deployment may include any of the following types of pools:</span></span>
 
-  - <span data-ttu-id="967f8-105">Front End Server(프런트 엔드 서버)</span><span class="sxs-lookup"><span data-stu-id="967f8-105">Front End Server</span></span>
+  - <span data-ttu-id="fa3b6-105">Front End Server(프런트 엔드 서버)</span><span class="sxs-lookup"><span data-stu-id="fa3b6-105">Front End Server</span></span>
 
-  - <span data-ttu-id="967f8-106">중재 서버</span><span class="sxs-lookup"><span data-stu-id="967f8-106">Mediation Server</span></span>
+  - <span data-ttu-id="fa3b6-106">중재 서버</span><span class="sxs-lookup"><span data-stu-id="fa3b6-106">Mediation Server</span></span>
 
-  - <span data-ttu-id="967f8-107">영구 채팅 서버</span><span class="sxs-lookup"><span data-stu-id="967f8-107">Persistent Chat Server</span></span>
+  - <span data-ttu-id="fa3b6-107">영구 채팅 서버</span><span class="sxs-lookup"><span data-stu-id="fa3b6-107">Persistent Chat Server</span></span>
 
-  - <span data-ttu-id="967f8-108">에지 서버</span><span class="sxs-lookup"><span data-stu-id="967f8-108">Edge Server</span></span>
+  - <span data-ttu-id="fa3b6-108">에지 서버</span><span class="sxs-lookup"><span data-stu-id="fa3b6-108">Edge Server</span></span>
 
-<span data-ttu-id="967f8-109">전체 풀에 중단이 발생 하는 경우 풀의 각 구성원 서버에 대해 다음 절차를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="967f8-109">If an entire pool experiences an outage, follow these procedures for each member server in the pool.</span></span>
+<span data-ttu-id="fa3b6-109">전체 풀에 중단이 발생 하는 경우 풀의 각 구성원 서버에 대해 다음 절차를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="fa3b6-109">If an entire pool experiences an outage, follow these procedures for each member server in the pool.</span></span>
 
-  - <span data-ttu-id="967f8-110">프런트 엔드 풀의 경우 먼저 백 엔드 서버를 복원한 다음 각 프런트 엔드 서버를 복원 합니다.</span><span class="sxs-lookup"><span data-stu-id="967f8-110">For a Front End pool, restore the Back End Server first, and then restore each Front End Server.</span></span> <span data-ttu-id="967f8-111">자세한 내용은 lync server [2013에서 Enterprise Edition 백 엔드 서버 복원](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md) 및 [lync Server 2013의 enterprise Edition 구성원 서버 복원을](lync-server-2013-restoring-an-enterprise-edition-member-server.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="967f8-111">For details, see [Restoring an Enterprise Edition Back End Server in Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md) and [Restoring an Enterprise Edition member server in Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).</span></span>
+  - <span data-ttu-id="fa3b6-110">프런트 엔드 풀의 경우 먼저 백 엔드 서버를 복원한 다음 각 프런트 엔드 서버를 복원 합니다.</span><span class="sxs-lookup"><span data-stu-id="fa3b6-110">For a Front End pool, restore the Back End Server first, and then restore each Front End Server.</span></span> <span data-ttu-id="fa3b6-111">자세한 내용은 lync server [2013에서 Enterprise Edition 백 엔드 서버 복원](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md) 및 [lync Server 2013의 enterprise Edition 구성원 서버 복원을](lync-server-2013-restoring-an-enterprise-edition-member-server.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="fa3b6-111">For details, see [Restoring an Enterprise Edition Back End Server in Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md) and [Restoring an Enterprise Edition member server in Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).</span></span>
 
-  - <span data-ttu-id="967f8-112">다른 모든 유형의 경우 각 구성원 서버를 복원합니다.</span><span class="sxs-lookup"><span data-stu-id="967f8-112">For all other types of pools, restore each member server.</span></span> <span data-ttu-id="967f8-113">자세한 내용은 [Lync server 2013에서 Enterprise Edition 구성원 서버 복원을](lync-server-2013-restoring-an-enterprise-edition-member-server.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="967f8-113">For details, see [Restoring an Enterprise Edition member server in Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).</span></span>
+  - <span data-ttu-id="fa3b6-112">다른 모든 유형의 경우 각 구성원 서버를 복원합니다.</span><span class="sxs-lookup"><span data-stu-id="fa3b6-112">For all other types of pools, restore each member server.</span></span> <span data-ttu-id="fa3b6-113">자세한 내용은 [Lync server 2013에서 Enterprise Edition 구성원 서버 복원을](lync-server-2013-restoring-an-enterprise-edition-member-server.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="fa3b6-113">For details, see [Restoring an Enterprise Edition member server in Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).</span></span>
 
 </div>
 

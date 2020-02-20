@@ -12,20 +12,20 @@ ms:contentKeyID: 48185102
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13c1ae59995a89f121b2073fdd0be374269268df
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 829a8c09a9dfd4362b2da3cd9807b912c988f9db
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41998683"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146681"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a><span data-ttu-id="644dd-102">Lync Server 2013의 관리 도구 인프라 요구 사항</span><span class="sxs-lookup"><span data-stu-id="644dd-102">Administrative tools infrastructure requirements in Lync Server 2013</span></span>
+# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a><span data-ttu-id="94e39-102">Lync Server 2013의 관리 도구 인프라 요구 사항</span><span class="sxs-lookup"><span data-stu-id="94e39-102">Administrative tools infrastructure requirements in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,44 +35,44 @@ ms.locfileid: "41998683"
 
 <span> </span>
 
-<span data-ttu-id="644dd-103">_**마지막으로 수정 된 항목:** 2012-09-27_</span><span class="sxs-lookup"><span data-stu-id="644dd-103">_**Topic Last Modified:** 2012-09-27_</span></span>
+<span data-ttu-id="94e39-103">_**마지막으로 수정 된 항목:** 2012-09-27_</span><span class="sxs-lookup"><span data-stu-id="94e39-103">_**Topic Last Modified:** 2012-09-27_</span></span>
 
-<span data-ttu-id="644dd-104">Microsoft Lync Server 2013 관리 도구를 설치 하거나 이러한 도구를 사용 하 여 대부분의 관리 작업을 수행 하기 위한 추가 인프라 요구 사항은 없습니다.</span><span class="sxs-lookup"><span data-stu-id="644dd-104">There are no additional infrastructure requirements for you to install Microsoft Lync Server 2013 administrative tools or perform most management tasks using these tools.</span></span> <span data-ttu-id="644dd-105">특정 시나리오에 대 한 인프라 요구 사항에 대해서는이 섹션의 항목을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="644dd-105">For infrastructure requirements for specific scenarios, see the topics in this section.</span></span>
+<span data-ttu-id="94e39-104">Microsoft Lync Server 2013 관리 도구를 설치 하거나 이러한 도구를 사용 하 여 대부분의 관리 작업을 수행 하기 위한 추가 인프라 요구 사항은 없습니다.</span><span class="sxs-lookup"><span data-stu-id="94e39-104">There are no additional infrastructure requirements for you to install Microsoft Lync Server 2013 administrative tools or perform most management tasks using these tools.</span></span> <span data-ttu-id="94e39-105">특정 시나리오에 대 한 인프라 요구 사항에 대해서는이 섹션의 항목을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="94e39-105">For infrastructure requirements for specific scenarios, see the topics in this section.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="644dd-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="644dd-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="94e39-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="94e39-106">In This Section</span></span>
 
-  - [<span data-ttu-id="644dd-107">Lync Server 2013의 토폴로지 게시 요구 사항</span><span class="sxs-lookup"><span data-stu-id="644dd-107">Requirements to publish a topology in Lync Server 2013</span></span>](lync-server-2013-requirements-to-publish-a-topology.md)
+  - [<span data-ttu-id="94e39-107">Lync Server 2013의 토폴로지 게시 요구 사항</span><span class="sxs-lookup"><span data-stu-id="94e39-107">Requirements to publish a topology in Lync Server 2013</span></span>](lync-server-2013-requirements-to-publish-a-topology.md)
 
-  - [<span data-ttu-id="644dd-108">Lync Server 2013의 단순 Url 계획</span><span class="sxs-lookup"><span data-stu-id="644dd-108">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)
+  - [<span data-ttu-id="94e39-108">Lync Server 2013의 단순 Url 계획</span><span class="sxs-lookup"><span data-stu-id="94e39-108">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)
 
-  - [<span data-ttu-id="644dd-109">Lync Server 2013의 단순 Url에 대 한 DNS 요구 사항</span><span class="sxs-lookup"><span data-stu-id="644dd-109">DNS requirements for simple URLs in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-simple-urls.md)
+  - [<span data-ttu-id="94e39-109">Lync Server 2013의 단순 Url에 대 한 DNS 요구 사항</span><span class="sxs-lookup"><span data-stu-id="94e39-109">DNS requirements for simple URLs in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-simple-urls.md)
 
-  - [<span data-ttu-id="644dd-110">Lync Server 2013에서 단순 Url 편집 또는 구성</span><span class="sxs-lookup"><span data-stu-id="644dd-110">Edit or configure simple URLs in Lync Server 2013</span></span>](lync-server-2013-edit-or-configure-simple-urls.md)
+  - [<span data-ttu-id="94e39-110">Lync Server 2013에서 단순 Url 편집 또는 구성</span><span class="sxs-lookup"><span data-stu-id="94e39-110">Edit or configure simple URLs in Lync Server 2013</span></span>](lync-server-2013-edit-or-configure-simple-urls.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="644dd-111">관련 섹션</span><span class="sxs-lookup"><span data-stu-id="644dd-111">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="94e39-111">관련 섹션</span><span class="sxs-lookup"><span data-stu-id="94e39-111">Related Sections</span></span>
 
-  - [<span data-ttu-id="644dd-112">Lync Server 2013 관리 셸</span><span class="sxs-lookup"><span data-stu-id="644dd-112">Lync Server 2013 Management Shell</span></span>](lync-server-2013-lync-server-management-shell.md)
+  - [<span data-ttu-id="94e39-112">Lync Server 2013 관리 셸</span><span class="sxs-lookup"><span data-stu-id="94e39-112">Lync Server 2013 Management Shell</span></span>](lync-server-2013-lync-server-management-shell.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="644dd-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="644dd-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="94e39-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="94e39-113">See Also</span></span>
 
 
-[<span data-ttu-id="644dd-114">Lync Server 2013 관리 도구 설치</span><span class="sxs-lookup"><span data-stu-id="644dd-114">Install Lync Server 2013 administrative tools</span></span>](lync-server-2013-install-lync-server-administrative-tools.md)  
+[<span data-ttu-id="94e39-114">Lync Server 2013 관리 도구 설치</span><span class="sxs-lookup"><span data-stu-id="94e39-114">Install Lync Server 2013 administrative tools</span></span>](lync-server-2013-install-lync-server-administrative-tools.md)  
 
 
-[<span data-ttu-id="644dd-115">Lync Server 2013의 관리 도구 소프트웨어 요구 사항</span><span class="sxs-lookup"><span data-stu-id="644dd-115">Administrative tools software requirements in Lync Server 2013</span></span>](lync-server-2013-administrative-tools-software-requirements.md)  
+[<span data-ttu-id="94e39-115">Lync Server 2013의 관리 도구 소프트웨어 요구 사항</span><span class="sxs-lookup"><span data-stu-id="94e39-115">Administrative tools software requirements in Lync Server 2013</span></span>](lync-server-2013-administrative-tools-software-requirements.md)  
 
 
-[<span data-ttu-id="644dd-116">Lync Server 2013의 설정 및 관리에 필요한 관리자 권한 및 사용 권한</span><span class="sxs-lookup"><span data-stu-id="644dd-116">Administrator rights and permissions required for setup and administration of Lync Server 2013</span></span>](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
+[<span data-ttu-id="94e39-116">Lync Server 2013의 설정 및 관리에 필요한 관리자 권한 및 사용 권한</span><span class="sxs-lookup"><span data-stu-id="94e39-116">Administrator rights and permissions required for setup and administration of Lync Server 2013</span></span>](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
   
 
 </div>

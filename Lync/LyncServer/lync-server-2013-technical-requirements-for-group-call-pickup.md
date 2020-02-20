@@ -12,20 +12,20 @@ ms:contentKeyID: 51541501
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fff6c8fa2d058d5e9ee2df0beb26f97508798f2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 13994ba0240434f854e207ddbdefaa7f20e2be4b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006714"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="5e813-102">Lync Server 2013의 그룹 통화 픽업에 대 한 기술 요구 사항</span><span class="sxs-lookup"><span data-stu-id="5e813-102">Technical requirements for Group Call Pickup in Lync Server 2013</span></span>
+# <a name="technical-requirements-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="483a5-102">Lync Server 2013의 그룹 통화 픽업에 대 한 기술 요구 사항</span><span class="sxs-lookup"><span data-stu-id="483a5-102">Technical requirements for Group Call Pickup in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,16 +35,16 @@ ms.locfileid: "42006714"
 
 <span> </span>
 
-<span data-ttu-id="5e813-103">_**마지막으로 수정 된 항목:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="5e813-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="483a5-103">_**마지막으로 수정 된 항목:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="483a5-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="5e813-104">그룹 통화 픽업에는 통화 대기 응용 프로그램의 하드웨어, 소프트웨어 및 포트 요구 사항이 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="5e813-104">Group Call Pickup has the same hardware, software, and port requirements as the Call Park application.</span></span> <span data-ttu-id="5e813-105">그룹 통화 픽업에서 오디오 파일을 사용 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="5e813-105">Group Call Pickup does not use audio files.</span></span>
+<span data-ttu-id="483a5-104">그룹 통화 픽업에는 통화 대기 응용 프로그램의 하드웨어, 소프트웨어 및 포트 요구 사항이 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="483a5-104">Group Call Pickup has the same hardware, software, and port requirements as the Call Park application.</span></span> <span data-ttu-id="483a5-105">그룹 통화 픽업에서 오디오 파일을 사용 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="483a5-105">Group Call Pickup does not use audio files.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5e813-106">참고 항목</span><span class="sxs-lookup"><span data-stu-id="5e813-106">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="483a5-106">참고 항목</span><span class="sxs-lookup"><span data-stu-id="483a5-106">See Also</span></span>
 
 
-[<span data-ttu-id="5e813-107">Lync Server 2013의 통화 대기에 대 한 기술 요구 사항</span><span class="sxs-lookup"><span data-stu-id="5e813-107">Technical requirements for Call Park in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-call-park.md)  
+[<span data-ttu-id="483a5-107">Lync Server 2013의 통화 대기에 대 한 기술 요구 사항</span><span class="sxs-lookup"><span data-stu-id="483a5-107">Technical requirements for Call Park in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-call-park.md)  
   
 
 </div>

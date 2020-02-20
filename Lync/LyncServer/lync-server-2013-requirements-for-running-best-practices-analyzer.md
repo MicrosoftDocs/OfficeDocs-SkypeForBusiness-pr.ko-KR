@@ -12,20 +12,20 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c265e73f94ddfe08b7f72a1d0b4e94958208ff8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4ac8c0f9a38ca80961f9a15a40a88214ad3cf2d7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045490"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144895"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="d5747-102">Lync Server 2013에서 모범 사례 분석기를 실행 하기 위한 요구 사항</span><span class="sxs-lookup"><span data-stu-id="d5747-102">Requirements for running Best Practices Analyzer in Lync Server 2013</span></span>
+# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="dd7b6-102">Lync Server 2013에서 모범 사례 분석기를 실행 하기 위한 요구 사항</span><span class="sxs-lookup"><span data-stu-id="dd7b6-102">Requirements for running Best Practices Analyzer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42045490"
 
 <span> </span>
 
-<span data-ttu-id="d5747-103">_**마지막으로 수정 된 항목:** 2012-09-19_</span><span class="sxs-lookup"><span data-stu-id="d5747-103">_**Topic Last Modified:** 2012-09-19_</span></span>
+<span data-ttu-id="dd7b6-103">_**마지막으로 수정 된 항목:** 2012-09-19_</span><span class="sxs-lookup"><span data-stu-id="dd7b6-103">_**Topic Last Modified:** 2012-09-19_</span></span>
 
-<span data-ttu-id="d5747-104">Lync server 2013, 모범 사례 분석기를 사용 하 여 Lync Server 2013 환경을 검사할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d5747-104">You can use Lync Server 2013, Best Practices Analyzer to scan your Lync Server 2013 environment.</span></span> <span data-ttu-id="d5747-105">이전 환경을 검사 하는 데 사용할 수 없지만 이전 버전의 도구를 사용 하 여 해당 환경을 검색할 수는 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d5747-105">You cannot use it to scan previous environments, but you can use the previous versions of the tool to scan those environments.</span></span> <span data-ttu-id="d5747-106">모범 사례 분석기의 Lync Server 2010 및 Office Communications Server 2007 R2 버전을 다운로드 하 고 사용 하는 방법에 대 한 자세한 내용은 "Lync Server 2010, Best [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) practices analyzer" 및 "office communications server 2007 And Office communications server 2007 r 2에 대 [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)한 모범 사례 분석기"를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="d5747-106">For details about downloading and using the Lync Server 2010 and Office Communications Server 2007 R2 versions of Best Practices Analyzer, see "Lync Server 2010, Best Practices Analyzer" at [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) and "Best Practices Analyzer for Office Communications Server 2007 and Office Communications Server 2007 R2" at [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651).</span></span>
+<span data-ttu-id="dd7b6-104">Lync server 2013, 모범 사례 분석기를 사용 하 여 Lync Server 2013 환경을 검사할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dd7b6-104">You can use Lync Server 2013, Best Practices Analyzer to scan your Lync Server 2013 environment.</span></span> <span data-ttu-id="dd7b6-105">이전 환경을 검사 하는 데 사용할 수 없지만 이전 버전의 도구를 사용 하 여 해당 환경을 검색할 수는 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dd7b6-105">You cannot use it to scan previous environments, but you can use the previous versions of the tool to scan those environments.</span></span> <span data-ttu-id="dd7b6-106">모범 사례 분석기의 Lync Server 2010 및 Office Communications Server 2007 R2 버전을 다운로드 하 고 사용 하는 방법에 대 한 자세한 내용은 "Lync Server 2010, Best [https://go.microsoft.com/fwlink/p/?linkId=210536](https://go.microsoft.com/fwlink/p/?linkid=256358) practices analyzer" 및 "office communications server 2007 And Office communications server 2007 r 2에 대 [https://go.microsoft.com/fwlink/p/?linkId=256358](https://go.microsoft.com/fwlink/p/?linkid=210651)한 모범 사례 분석기"를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="dd7b6-106">For details about downloading and using the Lync Server 2010 and Office Communications Server 2007 R2 versions of Best Practices Analyzer, see "Lync Server 2010, Best Practices Analyzer" at [https://go.microsoft.com/fwlink/p/?linkId=210536](https://go.microsoft.com/fwlink/p/?linkid=256358) and "Best Practices Analyzer for Office Communications Server 2007 and Office Communications Server 2007 R2" at [https://go.microsoft.com/fwlink/p/?linkId=256358](https://go.microsoft.com/fwlink/p/?linkid=210651).</span></span>
 
-<span data-ttu-id="d5747-107">검색을 시작 하기 전에 Lync Server 2013 환경의 모든 구성 요소가 실행 중이 고 온라인 상태 인지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d5747-107">Prior to starting your scan, you should ensure that all components in your Lync Server 2013 environment are running and online.</span></span>
+<span data-ttu-id="dd7b6-107">검색을 시작 하기 전에 Lync Server 2013 환경의 모든 구성 요소가 실행 중이 고 온라인 상태 인지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="dd7b6-107">Prior to starting your scan, you should ensure that all components in your Lync Server 2013 environment are running and online.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="d5747-p102">방화벽 설정과 권한을 포함하여 에지 서버 및 관련 경계 네트워크 설정의 구성에 따라 모범 사례 분석기가 에지 서버를 액세스하고 검색하지 못할 수 있습니다. 검색에 에지 서버를 포함하고 보고서에 에지 서버 액세스 문제가 보고되면 문제가 보고서에 다시 표시되지 않도록 검색 옵션에서 에지 서버를 제거하고 다시 검색을 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d5747-p102">Depending on the configuration of your Edge Servers and any related perimeter network settings, including firewall settings and permissions, Best Practices Analyzer might not be able to access and scan your Edge Servers. If you include Edge Servers in your scan and the reports indicate that there is an issue with accessing Edge Servers, you might want to remove Edge Servers from the scan options and run the scan again so that the issues do not show up in the report.</span></span>
+> <span data-ttu-id="dd7b6-p102">방화벽 설정과 권한을 포함하여 에지 서버 및 관련 경계 네트워크 설정의 구성에 따라 모범 사례 분석기가 에지 서버를 액세스하고 검색하지 못할 수 있습니다. 검색에 에지 서버를 포함하고 보고서에 에지 서버 액세스 문제가 보고되면 문제가 보고서에 다시 표시되지 않도록 검색 옵션에서 에지 서버를 제거하고 다시 검색을 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dd7b6-p102">Depending on the configuration of your Edge Servers and any related perimeter network settings, including firewall settings and permissions, Best Practices Analyzer might not be able to access and scan your Edge Servers. If you include Edge Servers in your scan and the reports indicate that there is an issue with accessing Edge Servers, you might want to remove Edge Servers from the scan options and run the scan again so that the issues do not show up in the report.</span></span>
 
 
 

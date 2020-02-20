@@ -12,20 +12,20 @@ ms:contentKeyID: 48185309
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0d2459c169fb93520125ceef7a8076bd51343db
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 47c447d18589f8e0cd86c007df74a21287be949f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006103"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tenants-table-in-lync-server-2013"></a><span data-ttu-id="1c5c0-102">Lync Server 2013의 테 넌 트 테이블</span><span class="sxs-lookup"><span data-stu-id="1c5c0-102">Tenants table in Lync Server 2013</span></span>
+# <a name="tenants-table-in-lync-server-2013"></a><span data-ttu-id="d0333-102">Lync Server 2013의 테 넌 트 테이블</span><span class="sxs-lookup"><span data-stu-id="d0333-102">Tenants table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42006103"
 
 <span> </span>
 
-<span data-ttu-id="1c5c0-103">_**마지막으로 수정 된 항목:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="1c5c0-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="d0333-103">_**마지막으로 수정 된 항목:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="d0333-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="1c5c0-p101">Tenants 테이블은 다양한 테넌트 목록이 저장된 지원 테이블입니다. 테이블의 각 레코드는 하나의 테넌트를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="1c5c0-p101">The Tenants table is a supporting table that stores a list of the various tenants. Each record in the table represents one tenant.</span></span>
+<span data-ttu-id="d0333-p101">Tenants 테이블은 다양한 테넌트 목록이 저장된 지원 테이블입니다. 테이블의 각 레코드는 하나의 테넌트를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="d0333-p101">The Tenants table is a supporting table that stores a list of the various tenants. Each record in the table represents one tenant.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="1c5c0-106">온-프레미스 배포의 경우 CDR은 기본 제공되는 테넌트 ID를 사용하여 공용 IM 연결, 페더레이션 및 익명과 같은 서로 다른 인증 유형을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="1c5c0-106">In on-premises deployment, CDR uses the build-in Tenant ID to indicate different authentication type, such as public IM connectivity, Federated and Anonymous.</span></span>
+> <span data-ttu-id="d0333-106">온-프레미스 배포의 경우 CDR은 기본 제공되는 테넌트 ID를 사용하여 공용 IM 연결, 페더레이션 및 익명과 같은 서로 다른 인증 유형을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="d0333-106">In on-premises deployment, CDR uses the build-in Tenant ID to indicate different authentication type, such as public IM connectivity, Federated and Anonymous.</span></span>
 
 
 
@@ -59,29 +59,29 @@ ms.locfileid: "42006103"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1c5c0-107">열</span><span class="sxs-lookup"><span data-stu-id="1c5c0-107">Column</span></span></th>
-<th><span data-ttu-id="1c5c0-108">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="1c5c0-108">Data Type</span></span></th>
-<th><span data-ttu-id="1c5c0-109">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="1c5c0-109">Key/Index</span></span></th>
-<th><span data-ttu-id="1c5c0-110">세부 정보</span><span class="sxs-lookup"><span data-stu-id="1c5c0-110">Details</span></span></th>
+<th><span data-ttu-id="d0333-107">열</span><span class="sxs-lookup"><span data-stu-id="d0333-107">Column</span></span></th>
+<th><span data-ttu-id="d0333-108">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="d0333-108">Data Type</span></span></th>
+<th><span data-ttu-id="d0333-109">키/인덱스</span><span class="sxs-lookup"><span data-stu-id="d0333-109">Key/Index</span></span></th>
+<th><span data-ttu-id="d0333-110">세부 정보</span><span class="sxs-lookup"><span data-stu-id="d0333-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1c5c0-111"><strong>TenantId</strong></span><span class="sxs-lookup"><span data-stu-id="1c5c0-111"><strong>TenantId</strong></span></span></p></td>
-<td><p><span data-ttu-id="1c5c0-112">int</span><span class="sxs-lookup"><span data-stu-id="1c5c0-112">int</span></span></p></td>
-<td><p><span data-ttu-id="1c5c0-113">Primary</span><span class="sxs-lookup"><span data-stu-id="1c5c0-113">Primary</span></span></p></td>
-<td><p><span data-ttu-id="1c5c0-114">이 테넌트 ID를 식별하는 고유 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="1c5c0-114">Unique number identifying this Tenant ID.</span></span></p></td>
+<td><p><span data-ttu-id="d0333-111"><strong>TenantId</strong></span><span class="sxs-lookup"><span data-stu-id="d0333-111"><strong>TenantId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0333-112">int</span><span class="sxs-lookup"><span data-stu-id="d0333-112">int</span></span></p></td>
+<td><p><span data-ttu-id="d0333-113">Primary</span><span class="sxs-lookup"><span data-stu-id="d0333-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="d0333-114">이 테넌트 ID를 식별하는 고유 번호입니다.</span><span class="sxs-lookup"><span data-stu-id="d0333-114">Unique number identifying this Tenant ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1c5c0-115"><strong>TenantKey</strong></span><span class="sxs-lookup"><span data-stu-id="1c5c0-115"><strong>TenantKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="1c5c0-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="1c5c0-116">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d0333-115"><strong>TenantKey</strong></span><span class="sxs-lookup"><span data-stu-id="d0333-115"><strong>TenantKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0333-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="d0333-116">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="1c5c0-117">허용되는 값은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="1c5c0-117">Allowed values:</span></span></p>
+<td><p><span data-ttu-id="d0333-117">허용되는 값은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="d0333-117">Allowed values:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="1c5c0-118">00000000-0000-0000-0000-000000000000 - 엔터프라이즈</span><span class="sxs-lookup"><span data-stu-id="1c5c0-118">00000000-0000-0000-0000-000000000000 – Enterprise</span></span></p></li>
-<li><p><span data-ttu-id="1c5c0-119">00000000-0000-0000-0000-000000000001 - 페더레이션</span><span class="sxs-lookup"><span data-stu-id="1c5c0-119">00000000-0000-0000-0000-000000000001 – Federated</span></span></p></li>
-<li><p><span data-ttu-id="1c5c0-120">00000000-0000-0000-0000-000000000002 - 익명</span><span class="sxs-lookup"><span data-stu-id="1c5c0-120">00000000-0000-0000-0000-000000000002 – Anonymous</span></span></p></li>
-<li><p><span data-ttu-id="1c5c0-121">00000000-0000-0000-0000-000000000003 - 익명 IM 연결</span><span class="sxs-lookup"><span data-stu-id="1c5c0-121">00000000-0000-0000-0000-000000000003 – Public IM connectivity</span></span></p></li>
+<li><p><span data-ttu-id="d0333-118">00000000-0000-0000-0000-000000000000 - 엔터프라이즈</span><span class="sxs-lookup"><span data-stu-id="d0333-118">00000000-0000-0000-0000-000000000000 – Enterprise</span></span></p></li>
+<li><p><span data-ttu-id="d0333-119">00000000-0000-0000-0000-000000000001 - 페더레이션</span><span class="sxs-lookup"><span data-stu-id="d0333-119">00000000-0000-0000-0000-000000000001 – Federated</span></span></p></li>
+<li><p><span data-ttu-id="d0333-120">00000000-0000-0000-0000-000000000002 - 익명</span><span class="sxs-lookup"><span data-stu-id="d0333-120">00000000-0000-0000-0000-000000000002 – Anonymous</span></span></p></li>
+<li><p><span data-ttu-id="d0333-121">00000000-0000-0000-0000-000000000003 - 익명 IM 연결</span><span class="sxs-lookup"><span data-stu-id="d0333-121">00000000-0000-0000-0000-000000000003 – Public IM connectivity</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

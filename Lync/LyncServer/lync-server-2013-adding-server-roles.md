@@ -12,20 +12,20 @@ ms:contentKeyID: 48185033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f80ce308640b249dc4b73af98a0c2206923abf84
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5a26b64eae673fb8225ea3f628f011f3d404072e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038520"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146061"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-server-roles-in-lync-server-2013"></a><span data-ttu-id="394a3-102">Lync Server 2013에서 서버 역할 추가</span><span class="sxs-lookup"><span data-stu-id="394a3-102">Adding server roles in Lync Server 2013</span></span>
+# <a name="adding-server-roles-in-lync-server-2013"></a><span data-ttu-id="469bb-102">Lync Server 2013에서 서버 역할 추가</span><span class="sxs-lookup"><span data-stu-id="469bb-102">Adding server roles in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42038520"
 
 <span> </span>
 
-<span data-ttu-id="394a3-103">_**마지막으로 수정 된 항목:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="394a3-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+<span data-ttu-id="469bb-103">_**마지막으로 수정 된 항목:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="469bb-103">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-<span data-ttu-id="394a3-104">초기 배포를 수행 하 고 실행 한 후에는 디렉터 나 독립 실행형 중재 서버와 같은 Lync Server 2013에 대 한 서버 역할을 더 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="394a3-104">After you have your initial deployment up and running, you can add additional server roles for Lync Server 2013, such as a Director or a stand-alone Mediation Server.</span></span>
+<span data-ttu-id="469bb-104">초기 배포를 수행 하 고 실행 한 후에는 디렉터 나 독립 실행형 중재 서버와 같은 Lync Server 2013에 대 한 서버 역할을 더 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="469bb-104">After you have your initial deployment up and running, you can add additional server roles for Lync Server 2013, such as a Director or a stand-alone Mediation Server.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="394a3-105">추가 서버 역할을 설치하는 작업을 수행하려면 각 역할과 관련된 계획 항목을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="394a3-105">Before undertaking the task of installing additional server roles, see the Planning topics related to each role.</span></span>
+> <span data-ttu-id="469bb-105">추가 서버 역할을 설치하는 작업을 수행하려면 각 역할과 관련된 계획 항목을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="469bb-105">Before undertaking the task of installing additional server roles, see the Planning topics related to each role.</span></span>
 
 
 
@@ -51,11 +51,11 @@ ms.locfileid: "42038520"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="394a3-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="394a3-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="469bb-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="469bb-106">In This Section</span></span>
 
-  - [<span data-ttu-id="394a3-107">Lync Server 2013에서 전화 접속 회의 구성</span><span class="sxs-lookup"><span data-stu-id="394a3-107">Configuring dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-in-conferencing.md)
+  - [<span data-ttu-id="469bb-107">Lync Server 2013에서 전화 접속 회의 구성</span><span class="sxs-lookup"><span data-stu-id="469bb-107">Configuring dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-in-conferencing.md)
 
-<span data-ttu-id="394a3-108">또한 Lync Server 2013에서 사용할 수 있는 클라이언트 소프트웨어 및 장치를 배포 하는 방법에 대 한 자세한 내용은 [Lync server 2013에서 클라이언트 및 장치 배포](lync-server-2013-deploying-clients-and-devices.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="394a3-108">Additionally, for details about the deployment of your client software and devices that can be used with Lync Server 2013, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md).</span></span>
+<span data-ttu-id="469bb-108">또한 Lync Server 2013에서 사용할 수 있는 클라이언트 소프트웨어 및 장치를 배포 하는 방법에 대 한 자세한 내용은 [Lync server 2013에서 클라이언트 및 장치 배포](lync-server-2013-deploying-clients-and-devices.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="469bb-108">Additionally, for details about the deployment of your client software and devices that can be used with Lync Server 2013, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md).</span></span>
 
 </div>
 
