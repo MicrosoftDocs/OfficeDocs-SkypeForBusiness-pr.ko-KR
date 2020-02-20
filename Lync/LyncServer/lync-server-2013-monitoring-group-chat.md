@@ -12,18 +12,18 @@ ms:contentKeyID: 63969648
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb82eedd9d9578aeb4120136c1896267cde35392
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a42589db677132170e9456c998d96fd2eb1de5d2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051140"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149337"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="monitoring-group-chat-in-lync-server-2013"></a>Lync Server 2013의 모니터링 그룹 채팅
 
@@ -37,7 +37,7 @@ ms.locfileid: "42051140"
 
 _**마지막으로 수정 된 항목:** 2014-08-04_
 
-성능을 개선 하기 위해 Microsoft 다운로드 센터에서 제공 하는 최신 [누적 서버 업데이트 설치 관리자](http://support.microsoft.com/kb/968802) 를 실행 하는 것이 좋습니다.
+성능을 개선 하기 위해 Microsoft 다운로드 센터에서 제공 하는 최신 [누적 서버 업데이트 설치 관리자](https://support.microsoft.com/kb/968802) 를 실행 하는 것이 좋습니다.
 
 최신 누적 업데이트를 실행 중인 경우 메트릭 용으로 다음 스트레스 테스트 테이블을 사용 하 여 그룹 채팅 서버가 최적의 상태에서 실행 되 고 있는지 파악 합니다.
 

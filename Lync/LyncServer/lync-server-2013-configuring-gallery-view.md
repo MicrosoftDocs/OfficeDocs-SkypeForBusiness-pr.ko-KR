@@ -12,18 +12,18 @@ ms:contentKeyID: 48184069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 096272a2347c400a81e6d4684873c5f5828136a5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 02c13f2b1fa312394edfaba01ecd05179f86a0c9
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030592"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151428"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-gallery-view-in-lync-server-2013"></a>Lync Server 2013에서 갤러리 보기 구성
 
@@ -39,7 +39,7 @@ _**마지막으로 수정 된 항목:** 2012-10-30_
 
 Lync Server 2013에서는 회의 정책에서 갤러리 보기 비디오 회의를 구성 합니다. 갤러리 보기는 기본적으로 설정되어 있습니다. 갤러리 보기를 허용하지 않거나 일부 사용자에게만 허용하려는 경우 회의 정책에서 이 기능을 해제해야 합니다.
 
-전화 회의 참가자의 비디오를 사용할 수 없는 경우 고해상도 사진을 배포할 경우 Lync Server 2013의 새로운 기능인 사용자 갤러리 보기 환경을 향상 시킬 수 있습니다. 고해상도 사진을 사용 하면 Active Directory 도메인 서비스에 저장 된 작고 제한 된 연락처 사진을 보다 쉽게 확인할 수 있습니다. 고해상도 사진은 사용자의 Exchange 2013 사서함에 저장 되므로 Lync Server 2013과 Exchange 2013을 통합 해야 합니다. 자세한 내용은 다음 홉 블로그 문서 "Exchange 2013 및 Lync Server 2013 통합"을 참조 [http://go.microsoft.com/fwlink/p/?LinkId=260987](http://go.microsoft.com/fwlink/p/?linkid=260987)하세요.
+전화 회의 참가자의 비디오를 사용할 수 없는 경우 고해상도 사진을 배포할 경우 Lync Server 2013의 새로운 기능인 사용자 갤러리 보기 환경을 향상 시킬 수 있습니다. 고해상도 사진을 사용 하면 Active Directory 도메인 서비스에 저장 된 작고 제한 된 연락처 사진을 보다 쉽게 확인할 수 있습니다. 고해상도 사진은 사용자의 Exchange 2013 사서함에 저장 되므로 Lync Server 2013과 Exchange 2013을 통합 해야 합니다. 자세한 내용은 다음 홉 블로그 문서 "Exchange 2013 및 Lync Server 2013 통합"을 참조 [https://go.microsoft.com/fwlink/p/?LinkId=260987](https://go.microsoft.com/fwlink/p/?linkid=260987)하세요.
 
 <div>
 

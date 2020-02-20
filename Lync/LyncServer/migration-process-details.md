@@ -12,18 +12,18 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a8a5e0ec0ab94dcba48917338f130b5de1a98f91
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 79db601ccf6f87f19526f68d0e20521985092937
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030682"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148747"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="migration-process---details"></a>마이그레이션 프로세스-세부 정보
 
@@ -66,7 +66,7 @@ Lync server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그�
 
 다음 단계를 수행하여 마이그레이션을 위해 원본 데이터를 올바로 준비합니다.
 
-1.  Lync Server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그룹 채팅에 대 한 원본 데이터베이스를 백업 합니다. SQL Server를 백업 하는 방법에 대 한 자세한 내용은의 "백업 개요 (SQL <http://go.microsoft.com/fwlink/p/?linkid=254851>Server)"를 참조 하십시오.
+1.  Lync Server 2010, 그룹 채팅 또는 Office Communications Server 2007 R2 그룹 채팅에 대 한 원본 데이터베이스를 백업 합니다. SQL Server를 백업 하는 방법에 대 한 자세한 내용은의 "백업 개요 (SQL <https://go.microsoft.com/fwlink/p/?linkid=254851>Server)"를 참조 하십시오.
     
     <div>
     

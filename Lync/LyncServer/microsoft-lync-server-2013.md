@@ -12,18 +12,18 @@ ms:contentKeyID: 48184592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 442d94cbaf9ad7c3352cbd17ad88f3d84e716b61
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7b70b6d6475c7b8ee4f5588ffe4975648588cae5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050410"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148977"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="microsoft-lync-server-2013"></a>Microsoft Lync Server 2013
 
@@ -39,7 +39,7 @@ _**마지막으로 수정 된 항목:** 2014-03-14_
 
 Microsoft Lync Server 2013 통신 소프트웨어는 엔터프라이즈 수준의 공동 작업 요구 사항을 지원할 수 있는 IM (인스턴트 메시징), 현재 상태, 회의 및 전화 통신 솔루션을 제공 합니다.
 
-Lync Server 2013 설명서의 복사본을 다운로드 하 고 싶으십니까? Microsoft 다운로드 센터에서 **의\_LyncServer2013 it 전문** 컴파일된 도움말 (.chm) 파일을 다운로드할 수 있습니다. [http://go.microsoft.com/fwlink/p/?LinkID=331103](http://go.microsoft.com/fwlink/p/?linkid=331103)
+Lync Server 2013 설명서의 복사본을 다운로드 하 고 싶으십니까? Microsoft 다운로드 센터에서 **의\_LyncServer2013 it 전문** 컴파일된 도움말 (.chm) 파일을 다운로드할 수 있습니다. [https://go.microsoft.com/fwlink/p/?LinkID=331103](https://go.microsoft.com/fwlink/p/?linkid=331103)
 
 다음 표에는 Lync Server 2013 설명서 라이브러리의 항목이 나와 있습니다.
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15dae97f0c6c507c8e6645ea96e538dba42c29c2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07a333eeb794a27ca78b1f6d8c9bf71c386c8a92
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033337"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>Lync Server 2013에서 lync Online 사용자를 lync 온-프레미스로 마이그레이션
 
@@ -53,9 +53,9 @@ _**마지막으로 수정 된 항목:** 2015-11-13_
 
 1.  먼저 조직이 하이브리드 용으로 구성 되어 있는지 확인 합니다.
     
-      - Azure Active Directory 동기화 도구를 설치 합니다. 자세한 내용은 <http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>을 참조하세요.
+      - Azure Active Directory 동기화 도구를 설치 합니다. 자세한 내용은 <https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>을 참조하세요.
     
-      - 사용자가 Lync Online에 single sign-on을 사용 하도록 설정 하려면 Active Directory Federation Services <http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>를 설치 합니다.
+      - 사용자가 Lync Online에 single sign-on을 사용 하도록 설정 하려면 Active Directory Federation Services <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>를 설치 합니다.
     
       - 온-프레미스 배포의 Lync Server 관리 셸에서 다음 cmdlet을 입력 하 여 Lync Online에 대 한 호스팅 공급자를 만듭니다.
         
@@ -173,7 +173,7 @@ _**마지막으로 수정 된 항목:** 2015-11-13_
     
 
     > [!NOTE]  
-    > Rtcxds 데이터베이스에 대 한 트랜잭션 로그 파일의 기본 최대 크기는 16gb입니다. 많은 수의 사용자를 한 번에 이동 하는 경우, 특히 미러링을 사용 하도록 설정한 경우에는이 값이 충분히 크지 않을 수 있습니다. 이 문제를 해결 하려면 파일 크기를 늘리거나 로그 파일을 정기적으로 백업 하면 됩니다. 자세한 내용은를 참조 <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>하세요.
+    > Rtcxds 데이터베이스에 대 한 트랜잭션 로그 파일의 기본 최대 크기는 16gb입니다. 많은 수의 사용자를 한 번에 이동 하는 경우, 특히 미러링을 사용 하도록 설정한 경우에는이 값이 충분히 크지 않을 수 있습니다. 이 문제를 해결 하려면 파일 크기를 늘리거나 로그 파일을 정기적으로 백업 하면 됩니다. 자세한 내용은를 참조 <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>하세요.
 
     
     </div>

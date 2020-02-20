@@ -12,18 +12,18 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e225f63da97ea48d98a5a2540a6b35a9c63c08f2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 31381edc58240d990096b47498b5c98845af5b2d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007958"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147311"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="components-required-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013의 외부 사용자 액세스에 필요한 구성 요소
 
@@ -114,7 +114,7 @@ _**마지막으로 수정 된 항목:** 2014-05-29_
 
 
 > [!NOTE]  
-> 외부 사용자는 Lync Server 2013을 사용 하 여 통신에 참여 하기 위해 조직에 대 한 VPN (가상 사설망) 연결이 필요 하지 않습니다. 조직에 VPN 기술이 구현 되어 있고 사용자가 Lync 용 VPN을 사용 하는 경우 미디어 트래픽 (예: 비디오 회의)에 악영향을 줄 수 있습니다. 미디어 트래픽이 AV에 지 서비스에 직접 연결 하 고 VPN을 사용 하지 않도록 하는 방법을 제공 하는 것이 좋습니다. 자세한 내용은 다음 홉 블로그 문서, "Lync Media에서 VPN 터널 바이패스를 사용 하도록 설정"을 참조 하세요 <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>.
+> 외부 사용자는 Lync Server 2013을 사용 하 여 통신에 참여 하기 위해 조직에 대 한 VPN (가상 사설망) 연결이 필요 하지 않습니다. 조직에 VPN 기술이 구현 되어 있고 사용자가 Lync 용 VPN을 사용 하는 경우 미디어 트래픽 (예: 비디오 회의)에 악영향을 줄 수 있습니다. 미디어 트래픽이 AV에 지 서비스에 직접 연결 하 고 VPN을 사용 하지 않도록 하는 방법을 제공 하는 것이 좋습니다. 자세한 내용은 다음 홉 블로그 문서, "Lync Media에서 VPN 터널 바이패스를 사용 하도록 설정"을 참조 하세요 <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A>.
 
 
 

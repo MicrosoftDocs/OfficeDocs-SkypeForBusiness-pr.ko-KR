@@ -12,18 +12,18 @@ ms:contentKeyID: 48185215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1eb64fe83eb6f80c6470ba4173bcc968d44fb54a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b1377eabd4ffc199fe7a9014d28f153aba10afa4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048091"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149327"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="monitoring-iis-request-tracing-log-files-in-lync-server-2013"></a>Lync Server 2013에서 IIS 요청 추적 로그 파일 모니터링
 
@@ -47,7 +47,7 @@ Mcx (Lync Server Mobility Service)에 대 한 IIS (인터넷 정보 서비스) �
 
     %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 
-**HttpLogging** 명령에 대 한 자세한 내용은를 [http://go.microsoft.com/fwlink/p/?linkId=234927](http://go.microsoft.com/fwlink/p/?linkid=234927)참조 하세요.
+**HttpLogging** 명령에 대 한 자세한 내용은를 [https://go.microsoft.com/fwlink/p/?linkId=234927](https://go.microsoft.com/fwlink/p/?linkid=234927)참조 하세요.
 
 </div>
 

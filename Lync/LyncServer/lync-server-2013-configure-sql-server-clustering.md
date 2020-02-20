@@ -12,18 +12,18 @@ ms:contentKeyID: 56472032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 984e7d7e287e9177fff5798c9cb20ab476591f46
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0cb7db93813bdc7ed06398ce73d00f51ce5a60fe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035200"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147651"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Lync Server 2013에 대해 SQL Server 클러스터링 구성
 
@@ -39,7 +39,7 @@ _**마지막으로 수정 된 항목:** 2014-01-10_
 
 Microsoft Lync Server 2013는 SQL Server 2012 및 SQL Server 2008 r 2에 대 한 클러스터링을 지원 합니다. 지원 되는 기능에 대 한 자세한 내용은 [Lync Server 2013에서 데이터베이스 소프트웨어 지원을](lync-server-2013-database-software-support.md)참조 하십시오.
 
-Enterprise Edition 프런트 엔드 서버 및 백 엔드 데이터베이스를 설치 및 배포 하기 전에 SQL Server 클러스터를 설정 하 고 구성 해야 합니다. SQL Server 2012의 장애 조치 (failover) 클러스터링에 대 한 모범 사례 <http://technet.microsoft.com/library/hh231721.aspx>및 설정 지침은를 참조 하세요. SQL Server 2008의 장애 조치 (failover) <http://technet.microsoft.com/library/ms189134(v=sql.105).aspx>클러스터링의 경우를 참조 하세요.
+Enterprise Edition 프런트 엔드 서버 및 백 엔드 데이터베이스를 설치 및 배포 하기 전에 SQL Server 클러스터를 설정 하 고 구성 해야 합니다. SQL Server 2012의 장애 조치 (failover) 클러스터링에 대 한 모범 사례 <https://technet.microsoft.com/library/hh231721.aspx>및 설정 지침은를 참조 하세요. SQL Server 2008의 장애 조치 (failover) <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>클러스터링의 경우를 참조 하세요.
 
 SQL Server를 설치하는 경우 데이터베이스 위치 및 로그 파일 위치를 관리할 SQL Server Management Studio를 설치해야 합니다. SQL Server Management Studio는 SQL Server를 설치할 때 선택적 구성 요소로 설치됩니다.
 

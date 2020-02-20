@@ -12,18 +12,18 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4bbacbbb6f1a420e989f4bed02ba2fc0db6f85f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03d3d51c8323ab448951255ac9f7cf8d284896ba
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036628"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147531"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Lync Server 2013의 직접 SIP 배포 옵션
 
@@ -71,7 +71,7 @@ _**마지막으로 수정 된 항목:** 2012-09-21_
 
 
 > [!NOTE]  
-> Lync Server 배포를 인증 된 직접 SIP 파트너에 연결 하는 경우 중재 서버와 PBX 사이에 PSTN (공중 전화망) 게이트웨이가 필요 하지 않습니다. 인증 된 직접 SIP 파트너 목록은에서 <A href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</A>Microsoft 통합 커뮤니케이션 오픈 상호 운용성 프로그램 웹 사이트를 참조 하세요.
+> Lync Server 배포를 인증 된 직접 SIP 파트너에 연결 하는 경우 중재 서버와 PBX 사이에 PSTN (공중 전화망) 게이트웨이가 필요 하지 않습니다. 인증 된 직접 SIP 파트너 목록은에서 <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A>Microsoft 통합 커뮤니케이션 오픈 상호 운용성 프로그램 웹 사이트를 참조 하세요.
 
 
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 331a6f24cd2cc176679f628bc54460a6c3c7a718
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 36fb605741abfd65a43b0da39e372f31d112ae0d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008904"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148225"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>레거시 보관 및 모니터링 서버 제거
 
@@ -41,7 +41,7 @@ Office Communications Server 2007 R2 배포에 보관 서버 또는 모니터링
 
 [6 단계: 사용자를 파일럿 풀로 이동](phase-6-move-users-to-the-pilot-pool.md)에 설명 된 절차에 따라 Office Communications Server 2007 R2에서 Lync server 2013로 사용자를 이동할 수 있습니다.
 
-모든 사용자가 나머지 풀에서 제거 되었음을 확인 한 후에는에서 [http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887)"서버 및 서버 역할 제거"의 절차를 따릅니다.
+모든 사용자가 나머지 풀에서 제거 되었음을 확인 한 후에는에서 [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)"서버 및 서버 역할 제거"의 절차를 따릅니다.
 
 </div>
 

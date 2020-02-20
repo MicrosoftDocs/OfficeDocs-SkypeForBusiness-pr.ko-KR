@@ -12,18 +12,18 @@ ms:contentKeyID: 61071242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd53ac85ec544af58c1f94f7397a030f6b10fdb2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 876a4de1357786e2d5089fdc632002107a6c7cc2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029209"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150737"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="best-practices-for-your-core-infrastructure-in-lync-server-2013"></a>Lync Server 2013의 핵심 인프라에 대 한 모범 사례
 
@@ -41,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2014-01-27_
 
 Lync Server 2013 배포의 서버가 가동 중지 시간을 일으킬 수 있는 우발적 이거나 고의적 피해 로부터 보호 하려면 다음과 같은 예방 조치를 취해야 합니다.
 
-  - 보안 업데이트를 사용하여 서버를 최신 상태로 유지합니다. Microsoft Security Notification Service를 구독하면 Microsoft 제품의 보안 게시판 릴리스에 대한 알림을 즉각적으로 받을 수 있습니다. 구독 하려면에서 [http://go.microsoft.com/fwlink/p/?LinkId=145202](http://go.microsoft.com/fwlink/p/?linkid=145202)Microsoft 기술 보안 알림 웹 사이트로 이동 합니다.
+  - 보안 업데이트를 사용하여 서버를 최신 상태로 유지합니다. Microsoft Security Notification Service를 구독하면 Microsoft 제품의 보안 게시판 릴리스에 대한 알림을 즉각적으로 받을 수 있습니다. 구독 하려면에서 [https://go.microsoft.com/fwlink/p/?LinkId=145202](https://go.microsoft.com/fwlink/p/?linkid=145202)Microsoft 기술 보안 알림 웹 사이트로 이동 합니다.
 
   - 액세스 권한이 올바르게 설정되었는지 확인합니다.
 

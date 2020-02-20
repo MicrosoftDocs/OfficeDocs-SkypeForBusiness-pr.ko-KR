@@ -12,18 +12,18 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6de54e91129351a153c9cf4e08925d62eeb342c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 85ba9b1d9848fa51d798dd93b9cbc53daf69a6b7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030241"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150429"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-administrative-tools"></a>Lync Server 2013 관리 도구
 
@@ -113,7 +113,7 @@ Lync Server에서 Lync Server 관리 셸은 관리 및 관리에 대 한 새로�
 
 ## <a name="logging-tool"></a>로깅 도구
 
-Lync Server 로깅 도구를 이용 하면 제품을 실행 하는 동안 제품에서 로깅 및 추적 정보를 캡처하여 문제를 쉽게 해결할 수 있습니다. 이 도구를 사용 하 여 모든 Lync Server 서버 역할에서 디버그 세션을 실행할 수 있습니다. 로깅 도구에 대 한 자세한 내용은 TechNet 라이브러리에서 Lync Server 2010 로깅 도구 설명서를 참조 하십시오 [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265).
+Lync Server 로깅 도구를 이용 하면 제품을 실행 하는 동안 제품에서 로깅 및 추적 정보를 캡처하여 문제를 쉽게 해결할 수 있습니다. 이 도구를 사용 하 여 모든 Lync Server 서버 역할에서 디버그 세션을 실행할 수 있습니다. 로깅 도구에 대 한 자세한 내용은 TechNet 라이브러리에서 Lync Server 2010 로깅 도구 설명서를 참조 하십시오 [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265).
 
 <div>
 

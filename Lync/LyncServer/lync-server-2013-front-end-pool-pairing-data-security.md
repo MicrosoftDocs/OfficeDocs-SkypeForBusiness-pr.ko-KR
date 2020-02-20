@@ -12,18 +12,18 @@ ms:contentKeyID: 49733865
 ms.date: 10/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5157f78606a4577cf638857a4bc6719f2e1a42d9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 26759c982723fd656ac3456aad630bc695a7343e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038070"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147491"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="front-end-pool-pairing-data-security-in-lync-server-2013"></a>Lync Server 2013의 프런트 엔드 풀 연결 데이터 보안
 
@@ -55,7 +55,7 @@ _**마지막으로 수정 된 항목:** 2014-10-07_
 
 ## <a name="mitigating-security-risks"></a>보안 위험 완화
 
-데이터 센터에 대 한 액세스 제한에서 두 데이터 센터 간의 WAN 전송 보안을 보호 하는 것과 같은 다양 한 방법으로 백업 서비스 트래픽에 대 한 보안 보호를 향상 시킬 수 있습니다. 대부분의 경우 기업이 Lync Server 2013를 배포 하는 데 필요한 보안 인프라가 이미 있을 수 있습니다. 지침을 찾는 엔터프라이즈의 경우 Microsoft는 보안 IT 인프라를 구축 하는 방법의 예제로 솔루션을 제공 합니다. 그러나이는 유일한 해결책이 아니며 Lync Server에 대 한 기본 솔루션 이라고 암시 하지는 않습니다. 기업 고객이 IT 보안 인프라 및 요구 사항에 따라 특정 요구 사항에 맞는 솔루션을 선택 하는 것이 좋습니다. 예제 Microsoft 솔루션은 서버 및 도메인 격리를 위해 IPSec 및 그룹 정책을 채택 합니다. 자세한 내용은를 참조 [http://go.microsoft.com/fwlink/p/?LinkId=268544](http://go.microsoft.com/fwlink/p/?linkid=268544)하세요. 질문과 의견에 대해서는 secwish@microsoft.com에 문의 하세요.
+데이터 센터에 대 한 액세스 제한에서 두 데이터 센터 간의 WAN 전송 보안을 보호 하는 것과 같은 다양 한 방법으로 백업 서비스 트래픽에 대 한 보안 보호를 향상 시킬 수 있습니다. 대부분의 경우 기업이 Lync Server 2013를 배포 하는 데 필요한 보안 인프라가 이미 있을 수 있습니다. 지침을 찾는 엔터프라이즈의 경우 Microsoft는 보안 IT 인프라를 구축 하는 방법의 예제로 솔루션을 제공 합니다. 그러나이는 유일한 해결책이 아니며 Lync Server에 대 한 기본 솔루션 이라고 암시 하지는 않습니다. 기업 고객이 IT 보안 인프라 및 요구 사항에 따라 특정 요구 사항에 맞는 솔루션을 선택 하는 것이 좋습니다. 예제 Microsoft 솔루션은 서버 및 도메인 격리를 위해 IPSec 및 그룹 정책을 채택 합니다. 자세한 내용은를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?linkid=268544)하세요. 질문과 의견에 대해서는 secwish@microsoft.com에 문의 하세요.
 
 또 다른 가능한 해결 방법은 백업 서비스 자체가 전송 하는 데이터를 보호 하기 위해 IPSec을 사용 하는 것입니다. 이 방법을 선택 하는 경우 다음과 같은 서버에 대 한 SMB 프로토콜에 대해 IPSec 규칙을 구성 해야 하며, 여기서 풀 A와 풀 B는 두 개의 쌍으로 된 프런트 엔드 풀에 해당 합니다.
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4508c9c499b0219f754bf9815063f4b1210b811
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16a7a78c67b94084c59ebad63baa12c3a7aa3df2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029619"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147551"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-lync-web-app-in-lync-server-2013"></a>Lync Server 2013에서 Lync Web App 배포
 
@@ -78,9 +78,9 @@ Lync Server 2013 버전의 Lync Web App에서는 다단계 인증을 지원 합�
 
 **다단계 인증을 구성 하려면**
 
-1.  AD FS 페더레이션 서버 역할을 설치 합니다. 자세한 내용은 다음 위치에 있는 Active Directory Federation Services 2.0 배포 가이드를 참조 하세요.<http://go.microsoft.com/fwlink/p/?linkid=267511>
+1.  AD FS 페더레이션 서버 역할을 설치 합니다. 자세한 내용은 다음 위치에 있는 Active Directory Federation Services 2.0 배포 가이드를 참조 하세요.<https://go.microsoft.com/fwlink/p/?linkid=267511>
 
-2.  AD FS에 대 한 인증서를 만듭니다. 자세한 내용은의 ' 페더레이션 서버 인증서 ' 섹션에서 single sign-on 사용에 대 한 use AD FS를 참조 하세요 [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376).
+2.  AD FS에 대 한 인증서를 만듭니다. 자세한 내용은의 ' 페더레이션 서버 인증서 ' 섹션에서 single sign-on 사용에 대 한 use AD FS를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376).
 
 3.  Windows PowerShell 명령줄 인터페이스에서 다음 명령을 실행 합니다.
     ```powershell
@@ -113,7 +113,7 @@ Lync Server 2013 버전의 Lync Web App에서는 다단계 인증을 지원 합�
 
 Windows 7 및 Windows Server 2008 R2의 BranchCache 기능은 Lync Web App 웹 구성 요소를 방해할 수 있습니다. Lync Web App 사용자에 대 한 문제를 방지 하려면 BranchCache를 사용 하도록 설정 하지 않았는지 확인 합니다.
 
-BranchCache를 사용 하지 않도록 설정 하는 방법에 대 한 자세한 내용은 Windows Server 2008 R2 기술 라이브러리의 Microsoft 다운로드 센터 [http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?linkid=268788) 및 HTML 형식으로 제공 되는 Branchcache 배포 가이드를 참조 [http://go.microsoft.com/fwlink/p/?LinkId=268789](http://go.microsoft.com/fwlink/p/?linkid=268789)하세요.
+BranchCache를 사용 하지 않도록 설정 하는 방법에 대 한 자세한 내용은 Windows Server 2008 R2 기술 라이브러리의 Microsoft 다운로드 센터 [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) 및 HTML 형식으로 제공 되는 Branchcache 배포 가이드를 참조 [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789)하세요.
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 51541429
 ms.date: 02/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b1cb9d5f72d03d9c4899c16e35968109819b09d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 046e29fcec697a1ac073833e6b73c7bfe15fb8ba
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038370"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147391"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-resource-kit-tools-documentation"></a>Lync Server 2013 Resource Kit 도구 설명서
 
@@ -43,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2014-01-09_
 
 ## <a name="installation-of-the-resource-kit-tools"></a>리소스 키트 도구 설치
 
-Lync Server 2013, 리소스 키트 도구를 설치 하려면 **Ocsreskit.** m b를 다운로드 합니다. 리소스 키트 도구 설치 관리자는의 다운로드 센터에서 다운로드할 수 있습니다 [http://go.microsoft.com/fwlink/p/?LinkID=330429](http://go.microsoft.com/fwlink/p/?linkid=330429).
+Lync Server 2013, 리소스 키트 도구를 설치 하려면 **Ocsreskit.** m b를 다운로드 합니다. 리소스 키트 도구 설치 관리자는의 다운로드 센터에서 다운로드할 수 있습니다 [https://go.microsoft.com/fwlink/p/?LinkID=330429](https://go.microsoft.com/fwlink/p/?linkid=330429).
 
 작업을 간단 하 게 설치 하려면 **Ocsreskit** 를 실행 합니다. .Msi는 다음 경로에 있는 모든 도구를 설치 합니다: **% Program Files%\\Microsoft Lync Server 2013\\ResKit**. 자체 포함 된 실행 파일은이 폴더에 있습니다. 파일을 포함 하는 도구는 자체 하위 폴더에 있습니다.
 
@@ -199,7 +199,7 @@ Lync Server 2013 배포를 업데이트 하는 데 필요한 사용 권한이 �
 
 <div>
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 ABSConfig는 명령 프롬프트에서 **ABSConfig** 를 입력 하 여 시작할 수 있습니다. 아래에는 ABSConfig 도구 사용자 인터페이스가 나와 있습니다.
 
@@ -647,7 +647,7 @@ CPS를 실행 하는 동일한 컴퓨터에서이 도구를 실행 하는 경우
 
 <div>
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 배포한 궤도 범위:-o 매개 변수는 표시 된 것 처럼이 풀에 대해 구성 된 모든 궤도 범위를 나열 합니다.
 
@@ -705,7 +705,7 @@ Lync Server 2013, 리소스 키트 도구를 설치 합니다. 이 도구는 Lyn
 
 <div>
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 C:\\프로그램 파일\\Microsoft Lync Server 2013\\ResKit\\StorageService\> ImportStorageServiceData
 
@@ -852,7 +852,7 @@ Dbanalyze .exe를 설치 하려면 로컬 폴더에 복사한 다음 도구를 �
 
 <div>
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 다음은 유효한 Dbanalyze 명령에 대 한 예입니다.
 
@@ -919,7 +919,7 @@ Lync Server 2013, 리소스 키트 도구를 설치 합니다. 이 도구는 Lyn
 
 <div>
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
     >  C:\StorageService>ImportStorageServiceData.exe
     Description:
@@ -1130,7 +1130,7 @@ Lync Server 2013, 리소스 키트 도구를 설치 합니다. 이 도구는 Lyn
 
 <div>
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 C:\\프로그램 파일\\Microsoft Lync Server 2013\\ResKit\>lookupuserconsole
 
@@ -1236,7 +1236,7 @@ MSTurnPing 도구를 사용 하면 Lync Server 2013 통신 소프트웨어 관�
 
 <div>
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 다음은 도구 입력의 예입니다.
 
@@ -1296,7 +1296,7 @@ Microsoft Lync Server 2013 통신 소프트웨어 관리자는 네트워크 구�
 
 <div>
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 **다음은 Lync Server 2013 배포에서 CAC 네트워크 토폴로지를 그래픽 형식으로 로드 하 고 확인 하** 는 것입니다. Lync Server 2013 관리자는 아래 그림에 나와 있는 것 처럼 **네트워크 구성 다운로드** 옵션을 사용 하 여 lync server 2013 컴퓨터에서 CAC 네트워크 토폴로지 구성을 로드 하 고 확인할 수 있습니다. 이 도구는 Lync 구성 저장소에 연결 되지 않은 컴퓨터에 배포할 때 이러한 구성을 다운로드 하거나 볼 수 없습니다.
 
@@ -1420,7 +1420,7 @@ CAC 네트워크 토폴로지를 디스크의 XML 형식으로 저장 하 고 �
 
 <div>
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 아래 그림에서는 오른쪽 창에서 연락처를 마우스 오른쪽 단추로 클릭 하 여 다른 에이전트로 IM을 호출 하거나 보내는 방법을 보여 줍니다.
 
@@ -1589,7 +1589,7 @@ SEFAUtil 도구는 트러스트 된 응용 프로그램 풀의 일부인 컴퓨�
 
 <div>
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 <div>
 
@@ -2012,23 +2012,23 @@ Sysprep.inf 스크립트를 실행 하기 전에 필수 구성 요소 파일을 
 </tr>
 <tr class="even">
 <td><p>Microsoft SQL Server Express 2008 R2</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=23650</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=23650</p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows Powershell 버전 3.0</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=34595</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=34595</p></td>
 </tr>
 <tr class="even">
 <td><p>Visual 2010 재배포 가능 패키지</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=5555</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=5555</p></td>
 </tr>
 <tr class="odd">
 <td><p>인터넷 정보 서버 업데이트</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=34869</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=34869</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows Identity Foundation</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=17331</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=17331</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2013 Setup.exe</p></td>
@@ -2050,7 +2050,7 @@ Sysprep.inf 스크립트를 실행 하기 전에 필수 구성 요소 파일을 
 
 <div>
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 Sysprep.inf 스크립트를 실행 하 고 Lync Server 2013 필수 구성 요소를 설치 하려면 관리자 권한 명령 프롬프트에서 다음 명령을 실행 합니다.
 
@@ -2141,7 +2141,7 @@ CsAnnouncementConfiguration 스크립트를 사용 하려면 아래 표에 설�
 
 <div>
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 <div>
 
@@ -2227,7 +2227,7 @@ CsAnnouncementConfiguration 스크립트를 사용 하려면 아래 표에 설�
 
 <div>
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 다음 표에서는 예제에 사용 된 매개 변수에 대해 설명 합니다.
 

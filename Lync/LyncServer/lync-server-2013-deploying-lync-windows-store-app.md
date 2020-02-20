@@ -12,18 +12,18 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e2abe30cd464b223523df9d5fa878607404f7a3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d27f7a2402fabbc28080ca5efc2532497c93c653
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050670"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147541"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Lync Server 2013에서 Lync Windows 스토어 앱 배포
 
@@ -37,7 +37,7 @@ ms.locfileid: "42050670"
 
 _**마지막으로 수정 된 항목:** 2013-12-03_
 
-사용자가 Lync Windows 스토어 앱을 사용할 수 있도록 하려면 배포가 [Lync Server 2013의 Lync Windows 스토어 앱 요구 사항을](lync-server-2013-lync-windows-store-app-requirements.md)충족 하는지 확인 합니다. Lync Server 2013을 지원 하기 위해 다음 홉 블로그 문서를 구성 하는 방법에 대 한 자세한 내용은의 "Lync Server 자동 검색 및 Lync Windows 스토어 앱"을 [http://go.microsoft.com/fwlink/?LinkId=271966](http://go.microsoft.com/fwlink/?linkid=271966)참조 하십시오. 서버 환경을 올바르게 구성한 후에는 "Lync"를 검색 하 여 사용자가 Windows 스토어에서 Lync 앱을 다운로드 하도록 할 수 있습니다.
+사용자가 Lync Windows 스토어 앱을 사용할 수 있도록 하려면 배포가 [Lync Server 2013의 Lync Windows 스토어 앱 요구 사항을](lync-server-2013-lync-windows-store-app-requirements.md)충족 하는지 확인 합니다. Lync Server 2013을 지원 하기 위해 다음 홉 블로그 문서를 구성 하는 방법에 대 한 자세한 내용은의 "Lync Server 자동 검색 및 Lync Windows 스토어 앱"을 [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966)참조 하십시오. 서버 환경을 올바르게 구성한 후에는 "Lync"를 검색 하 여 사용자가 Windows 스토어에서 Lync 앱을 다운로드 하도록 할 수 있습니다.
 
 <div>
 
@@ -66,9 +66,9 @@ Lync Server 2013 용 누적 업데이트: 6 월 2013은 Lync Windows 스토어 �
 
 **다단계 인증을 구성 하려면**
 
-1.  AD FS 페더레이션 서버 역할을 설치 합니다. 자세한 내용은에서 <http://go.microsoft.com/fwlink/p/?linkid=267511>Active Directory Federation Services 2.0 배포 가이드를 참조 하세요.
+1.  AD FS 페더레이션 서버 역할을 설치 합니다. 자세한 내용은에서 <https://go.microsoft.com/fwlink/p/?linkid=267511>Active Directory Federation Services 2.0 배포 가이드를 참조 하세요.
 
-2.  AD FS에 대 한 인증서를 만듭니다. 자세한 내용은의 ' 페더레이션 서버 인증서 ' 섹션에서 single sign-on 사용에 대 한 use AD FS를 참조 하세요 [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376).
+2.  AD FS에 대 한 인증서를 만듭니다. 자세한 내용은의 ' 페더레이션 서버 인증서 ' 섹션에서 single sign-on 사용에 대 한 use AD FS를 참조 하세요 [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376).
 
 3.  Windows PowerShell 명령줄 인터페이스에서 다음 명령을 실행 합니다.
     ```powershell

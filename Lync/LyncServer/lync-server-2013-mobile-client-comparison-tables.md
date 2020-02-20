@@ -12,18 +12,18 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f9a3627930f65740fdd00596ddde24cde4dabc3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 57d7ddc97fcd3f9cbed0d5d490135be3fecbecfe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044910"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149628"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013에 대 한 모바일 클라이언트 비교 표
 
@@ -67,11 +67,11 @@ _**마지막으로 수정 된 항목:** 2015-09-21_
 > <LI>
 > <P>비즈니스용 Skype에 대 한 모바일 클라이언트 비교 테이블을 찾으십니까? <A href="https://technet.microsoft.com/library/dn951412.aspx">비즈니스용 Skype에 대 한 모바일 클라이언트 비교 표를</A>참조 하세요.</P>
 > <LI>
-> <P>최종 사용자를 위한 온라인 도움말 및 리소스에 대 한 자세한 내용은 <A href="http://go.microsoft.com/fwlink/?linkid=286237">Microsoft Lync 2013 For Mobile Clients</A>를 참조 하십시오.</P>
+> <P>최종 사용자를 위한 온라인 도움말 및 리소스에 대 한 자세한 내용은 <A href="https://go.microsoft.com/fwlink/?linkid=286237">Microsoft Lync 2013 For Mobile Clients</A>를 참조 하십시오.</P>
 > <LI>
 > <P>다른 Lync 2013 클라이언트에서 사용할 수 있는 기능을 비교 하려면 <A href="lync-server-2013-desktop-client-comparison-tables.md">Lync Server 2013에 대 한 클라이언트 비교 표</A>를 참조 하십시오.</P>
 > <LI>
-> <P>Lync Server 2013 에서도 Lync 2010 모바일 앱을 지원 합니다. 자세한 내용은 Lync Server 2010 설명서의 <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">모바일 클라이언트 비교 표</A> 를 참조 하십시오.</P></LI></UL>
+> <P>Lync Server 2013 에서도 Lync 2010 모바일 앱을 지원 합니다. 자세한 내용은 Lync Server 2010 설명서의 <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">모바일 클라이언트 비교 표</A> 를 참조 하십시오.</P></LI></UL>
 
 
 

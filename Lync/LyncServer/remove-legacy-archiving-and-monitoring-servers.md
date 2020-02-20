@@ -12,18 +12,18 @@ ms:contentKeyID: 48185278
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 144d2d1861b9e1dc75aaf740eca1a35e2d384a7b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0447305ce1ed5486c6b8d83ae99d905ea1e74362
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008914"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148235"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>레거시 보관 및 모니터링 서버 제거
 
@@ -41,7 +41,7 @@ _**마지막으로 수정 된 항목:** 2012-10-19_
 
 [4 단계: 테스트 사용자를 파일럿 풀로 이동](phase-4-move-test-users-to-the-pilot-pool.md)에 설명 된 절차에 따라 lync server 2010에서 lync server 2013로 사용자를 이동할 수 있습니다.
 
-모든 사용자가 나머지 풀에서 제거 되었음을 확인 한 후에는에서 [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)다운로드할 수 있는 "Microsoft Lync Server 2010 제거 및 서버 역할 제거"의 절차를 따릅니다.
+모든 사용자가 나머지 풀에서 제거 되었음을 확인 한 후에는에서 [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)다운로드할 수 있는 "Microsoft Lync Server 2010 제거 및 서버 역할 제거"의 절차를 따릅니다.
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185664
 ms.date: 12/09/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c16e33197ed28744df126d672385359f5eb8781b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 91326778777e6ddd1db2f8938cfb78e96ed8c7f5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042990"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151570"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>Lync Server 2013에서 향상 된 현재 상태 개인 정보 보호 모드 구성
 
@@ -64,7 +64,7 @@ _**마지막으로 수정 된 항목:** 2014-12-08_
     
         Get-CsPrivacyConfiguration | Set-CsPrivacyConfiguration -EnablePrivacyMode $True
     
-    이 명령은 조직에서 현재 사용 중인 모든 개인 정보 구성 설정에 대해 개인 정보 보호 모드를 사용 하도록 설정 합니다. Lync Server 향상 된 현재 상태 개인 정보 보호 모드 정책 구성에서 Lync 2013 클라이언트에 대 한 대화 상대 현재 상태를 관리 하는 방법에 대 한 자세한 내용은 Microsoft 기술 자료 문서 사용 안 함 [Lync Server 향상 된 현재 상태 개인 정보 보호 모드에서는 일부 Lync 대화 상대의 현재 상태가 "사용할 수 없음"](http://support.microsoft.com/kb/3020057)
+    이 명령은 조직에서 현재 사용 중인 모든 개인 정보 구성 설정에 대해 개인 정보 보호 모드를 사용 하도록 설정 합니다. Lync Server 향상 된 현재 상태 개인 정보 보호 모드 정책 구성에서 Lync 2013 클라이언트에 대 한 대화 상대 현재 상태를 관리 하는 방법에 대 한 자세한 내용은 Microsoft 기술 자료 문서 사용 안 함 [Lync Server 향상 된 현재 상태 개인 정보 보호 모드에서는 일부 Lync 대화 상대의 현재 상태가 "사용할 수 없음"](https://support.microsoft.com/kb/3020057)
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183551
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b6a5f0d7a6a89b30b0ef08f8631b06fb9047616
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0166bee22684c32581acdd1241b2b2442cd460ae
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007817"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147401"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="global-media-bypass-options-in-lync-server-2013"></a>Lync Server 2013의 글로벌 미디어 바이패스 옵션
 
@@ -55,7 +55,7 @@ _**마지막으로 수정 된 항목:** 2012-10-04_
 
 
 > [!NOTE]  
-> 여기서 설명하는 단계를 사용하여 미디어 바이패스를 구성하는 경우, 클라이언트와 중재 서버 피어(예: SIP 트렁크 공급자의 SBC, IP-PBX 또는 PSTN 게이트웨이) 간의 연결이 원활하다고 가정합니다. 링크에 대한 대역폭 제한이 있는 경우에는 미디어 바이패스를 통화에 적용할 수 없습니다. 미디어 바이패스가 모든 PSTN 게이트웨이, IP-PBX 및 SBC에서 작동하지는 않습니다. Microsoft는 인증 된 파트너와의 PSTN 게이트웨이 및 국내 집합을 테스트 했으며 Cisco IP-Pbx를 사용 하 여 몇 가지 테스트를 수행 했습니다. 미디어 바이패스는 통합 커뮤니케이션 오픈 상호 운용성 프로그램-Lync Server에 <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>나열 된 제품 및 버전 에서만 지원 됩니다.
+> 여기서 설명하는 단계를 사용하여 미디어 바이패스를 구성하는 경우, 클라이언트와 중재 서버 피어(예: SIP 트렁크 공급자의 SBC, IP-PBX 또는 PSTN 게이트웨이) 간의 연결이 원활하다고 가정합니다. 링크에 대한 대역폭 제한이 있는 경우에는 미디어 바이패스를 통화에 적용할 수 없습니다. 미디어 바이패스가 모든 PSTN 게이트웨이, IP-PBX 및 SBC에서 작동하지는 않습니다. Microsoft는 인증 된 파트너와의 PSTN 게이트웨이 및 국내 집합을 테스트 했으며 Cisco IP-Pbx를 사용 하 여 몇 가지 테스트를 수행 했습니다. 미디어 바이패스는 통합 커뮤니케이션 오픈 상호 운용성 프로그램-Lync Server에 <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>나열 된 제품 및 버전 에서만 지원 됩니다.
 
 
 

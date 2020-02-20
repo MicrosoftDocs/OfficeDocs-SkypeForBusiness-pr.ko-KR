@@ -12,18 +12,18 @@ ms:contentKeyID: 48184433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f6a169d02842df75c06a6f32b4bb9509a7e6b74
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 70d232c24e0dbcf0370cc3cf3dbc2829bc5d4949
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030832"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151128"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>인증서 요약-Lync Server 2013에서 NAT를 사용 하는 개인 IP 주소의 단일 통합에 지
 
@@ -39,7 +39,7 @@ _**마지막으로 수정 된 항목:** 2012-10-22_
 
 Microsoft Lync Server 2013에서는 인증서를 사용 하 여 다른 서버를 상호 인증 하 고 서버에서 서버 및 서버 간 데이터를 클라이언트로 암호화 합니다. 인증서는 서버와 연결된 DNS(Domain Name System) 레코드와 인증서에 적힌 SN(주체 이름) 및 SAN(주체 대체 이름)이 일치해야 합니다. 서버, DNS 레코드 및 인증서 항목을 성공적으로 매핑하기 위해서는 DNS에 등록된 대로 의도한 서버의 FQDN(정규화된 도메인 이름)과 인증서의 SN 및 SAN 항목을 신중하게 계획해야 합니다.
 
-에 지 서버의 외부 인터페이스에 할당 된 인증서가 공용 CA (인증 기관)에서 요청 됩니다. 통합 통신을 목적으로 인증서를 제공 하는 데 성공 했음을 보여 주는 공용 Ca는 다음 문서에 나와 [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)있습니다. 인증서를 요청할 때 Lync Server 배포 마법사에서 생성 된 인증서 요청을 사용 하거나, Lync Server 관리 셸 cmdlet을 사용 하거나 공용 CA에서 제공 하는 프로세스를 통해 수동으로 요청을 만들 수 있습니다. 인증서 관리용 Lync Server 관리 셸 cmdlet에 대 한 자세한 내용은 certificate [and authentication cmdlet In Lync server 2013](https://docs.microsoft.com/powershell/module/skype/) (인증서를 할당할 때) 인증서가 액세스에 지 서비스 인터페이스, 웹 회의에 지 서비스 인터페이스 및 오디오/비디오 인증 서비스에 할당 되어 있는지 확인 합니다. 오디오/비디오 인증 서비스는 인증서를 사용 하 여 오디오 및 비디오 스트림을 암호화 하지 않는 A/V에 지 서비스와 혼동 해서는 안 됩니다. 내부에 지 서버 인터페이스는 내부 (조직) CA의 인증서 또는 공용 CA의 인증서를 사용할 수 있습니다. 내부 인터페이스 인증서에는 SN만 사용되고 SAN 항목은 필요하지 않고 사용되지 않습니다.
+에 지 서버의 외부 인터페이스에 할당 된 인증서가 공용 CA (인증 기관)에서 요청 됩니다. 통합 통신을 목적으로 인증서를 제공 하는 데 성공 했음을 보여 주는 공용 Ca는 다음 문서에 나와 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)있습니다. 인증서를 요청할 때 Lync Server 배포 마법사에서 생성 된 인증서 요청을 사용 하거나, Lync Server 관리 셸 cmdlet을 사용 하거나 공용 CA에서 제공 하는 프로세스를 통해 수동으로 요청을 만들 수 있습니다. 인증서 관리용 Lync Server 관리 셸 cmdlet에 대 한 자세한 내용은 certificate [and authentication cmdlet In Lync server 2013](https://docs.microsoft.com/powershell/module/skype/) (인증서를 할당할 때) 인증서가 액세스에 지 서비스 인터페이스, 웹 회의에 지 서비스 인터페이스 및 오디오/비디오 인증 서비스에 할당 되어 있는지 확인 합니다. 오디오/비디오 인증 서비스는 인증서를 사용 하 여 오디오 및 비디오 스트림을 암호화 하지 않는 A/V에 지 서비스와 혼동 해서는 안 됩니다. 내부에 지 서버 인터페이스는 내부 (조직) CA의 인증서 또는 공용 CA의 인증서를 사용할 수 있습니다. 내부 인터페이스 인증서에는 SN만 사용되고 SAN 항목은 필요하지 않고 사용되지 않습니다.
 
 <div>
 

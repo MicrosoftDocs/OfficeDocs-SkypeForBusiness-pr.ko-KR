@@ -12,18 +12,18 @@ ms:contentKeyID: 63969574
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b67831b6dbcd7dae12f9b19dd71f2512a8807189
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2832af2c038383e0cca9f8cb931ce4b675b44f2b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043490"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150967"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Lync Server 2013에서 전화 번호를 기준으로 트렁크 구성 확인
 
@@ -136,7 +136,7 @@ Get-cstrunkconfiguration에서 일치 하는 항목을 반환 하지 않으면 �
 
 이름: NoAreaCode
 
-이때 패턴 속성의 값 ( [정규식](http://go.microsoft.com/fwlink/?linkid=400464) 문자열)을 확인 하 여 전화 건 번호를 처리 하도록 변환 규칙이 구성 되었는지 여부를 확인 합니다. 그렇지 않은 경우에는 기존 규칙 (New-csoutboundtranslationrule) 중 하나를 변경 하거나 New-csoutboundtranslationrule cmdlet을 사용 하 여 컬렉션에 새 규칙을 추가 해야 합니다.
+이때 패턴 속성의 값 ( [정규식](https://go.microsoft.com/fwlink/?linkid=400464) 문자열)을 확인 하 여 전화 건 번호를 처리 하도록 변환 규칙이 구성 되었는지 여부를 확인 합니다. 그렇지 않은 경우에는 기존 규칙 (New-csoutboundtranslationrule) 중 하나를 변경 하거나 New-csoutboundtranslationrule cmdlet을 사용 하 여 컬렉션에 새 규칙을 추가 해야 합니다.
 
 </div>
 

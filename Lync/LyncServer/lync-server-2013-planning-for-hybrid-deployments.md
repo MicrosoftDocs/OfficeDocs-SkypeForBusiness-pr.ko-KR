@@ -12,18 +12,18 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b0efc4a6a9e9f195705801969b8459c17855388
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c70002eb7be67c221997465b6cdd5d252df284db
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036688"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152786"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-lync-server-2013-hybrid-deployments"></a>Lync Server 2013 하이브리드 배포 계획
 
@@ -55,9 +55,9 @@ _**마지막으로 수정 된 항목:** 2016-05-25_
 
   - 사용자가 온-프레미스에서 Office에 로그인 할 때 동일한 로그인 자격 증명을 사용할 수 있도록 Office 365와 함께 Single Sign-on을 지원 하기 위해 Azure Active Directory (AAD) 연결의 암호 동기화 기능을 사용할 수 있습니다. Office 365에서 single sign-on을 위해 AD FS (Active Directory Federation Services)를 사용할 수도 있습니다.
     
-    자세한 내용은 [Azure Active Directory에 온-프레미스 ID 통합](http://go.microsoft.com/fwlink/p/?linkid=619754).
+    자세한 내용은 [Azure Active Directory에 온-프레미스 ID 통합](https://go.microsoft.com/fwlink/p/?linkid=619754).
 
-  - 온-프레미스 및 온라인 Active Directory 개체를 동기화 된 상태로 유지 하는 단일 디렉터리 동기화 솔루션 디렉터리 동기화에 대 한 자세한 내용은 [디렉터리 통합 도구](http://go.microsoft.com/fwlink/p/?linkid=530320)를 참조 하십시오.
+  - 온-프레미스 및 온라인 Active Directory 개체를 동기화 된 상태로 유지 하는 단일 디렉터리 동기화 솔루션 디렉터리 동기화에 대 한 자세한 내용은 [디렉터리 통합 도구](https://go.microsoft.com/fwlink/p/?linkid=530320)를 참조 하십시오.
 
 </div>
 
@@ -85,7 +85,7 @@ Lync 클라이언트에서 지 원하는 기능 및 온-프레미스 및 온라�
 
 클라이언트 지원에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
-  - [Lync Online 용 클라이언트](http://go.microsoft.com/fwlink/?linkid=281902)
+  - [Lync Online 용 클라이언트](https://go.microsoft.com/fwlink/?linkid=281902)
 
   - [Lync Server 2013에 대 한 클라이언트 비교 표](lync-server-2013-desktop-client-comparison-tables.md)
 
@@ -145,9 +145,9 @@ Lync 클라이언트에서 지 원하는 기능 및 온-프레미스 및 온라�
 
 </div>
 
-지원 되는 토폴로지에 대 한 자세한 내용은 [Lync server 2013에서 지원 되는 토폴로지](lync-server-2013-supported-topologies.md)및 [엔터프라이즈 하이브리드 배포에 대 한 Lync Server 2013 참조 토폴로지](http://go.microsoft.com/fwlink/p/?linkid=398709)를 참조 하십시오.
+지원 되는 토폴로지에 대 한 자세한 내용은 [Lync server 2013에서 지원 되는 토폴로지](lync-server-2013-supported-topologies.md)및 [엔터프라이즈 하이브리드 배포에 대 한 Lync Server 2013 참조 토폴로지](https://go.microsoft.com/fwlink/p/?linkid=398709)를 참조 하십시오.
 
-하이브리드 배포 및 PowerShell을 Lync Online에 연결 하는 방법에 대 한 문제 해결 정보는 [Lync online: Lync PowerShell 및 하이브리드 문제 해결](http://go.microsoft.com/fwlink/p/?linkid=306718)을 참조 하세요.
+하이브리드 배포 및 PowerShell을 Lync Online에 연결 하는 방법에 대 한 문제 해결 정보는 [Lync online: Lync PowerShell 및 하이브리드 문제 해결](https://go.microsoft.com/fwlink/p/?linkid=306718)을 참조 하세요.
 
 </div>
 
@@ -216,7 +216,7 @@ Lync 클라이언트에서 지 원하는 기능 및 온-프레미스 및 온라�
 
 Microsoft Online Services 데이터 센터의 위치에 따라 와일드 카드 도메인 이름 (예: outlook.com의 \*모든 트래픽)을 기반으로 연결을 허용 하도록 네트워크 방화벽 장치를 구성 해야 합니다. 조직의 방화벽이 와일드 카드 이름 구성을 지원 하지 않는 경우 허용할 IP 주소 범위 및 지정 된 포트를 수동으로 결정 해야 합니다.
 
-[Office 365 url 및 IP 주소 범위](http://go.microsoft.com/fwlink/p/?linkid=252942)도움말 항목을 참조 하세요.
+[Office 365 url 및 IP 주소 범위](https://go.microsoft.com/fwlink/p/?linkid=252942)도움말 항목을 참조 하세요.
 
 </div>
 
@@ -246,7 +246,7 @@ Microsoft Online Services 데이터 센터의 위치에 따라 와일드 카드 
 <td><p>인바운드 열기</p>
 <ul>
 <li><p>Active Directory Federation Services(페더레이션 서버 역할)</p>
-<p>자세한 내용은 <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">AD FS 역할 서비스 이해</a>를 참조 하세요.</p></li>
+<p>자세한 내용은 <a href="https://go.microsoft.com/fwlink/p/?linkid=281899">AD FS 역할 서비스 이해</a>를 참조 하세요.</p></li>
 <li><p>Active Directory Federation Services(프록시 서버 역할)</p></li>
 <li><p>Microsoft Online Services 포털</p></li>
 <li><p>회사 포털</p></li>
@@ -323,7 +323,7 @@ Lync 온-프레미스와 AD FS 및 Dirsync를 사용 하 여 lync Online 배포 
 
   - **Lync 클라이언트**     일부 사용자는 lync Online으로 이동할 때 새 클라이언트 버전이 필요할 수도 있습니다. Office Communications Server 2007 R2의 경우 Lync Online으로 마이그레이션하기 전에 사용자를 Lync Server 2013 풀로 이동 해야 합니다.
     
-    클라이언트 지원에 대 한 자세한 내용은 [Clients For Lync Online](http://go.microsoft.com/fwlink/p/?linkid=281902) 및 [지원 되는 lync 클라이언트 및 네트워크 포트 구성을](http://go.microsoft.com/fwlink/p/?linkid=281901)참조 하십시오.
+    클라이언트 지원에 대 한 자세한 내용은 [Clients For Lync Online](https://go.microsoft.com/fwlink/p/?linkid=281902) 및 [지원 되는 lync 클라이언트 및 네트워크 포트 구성을](https://go.microsoft.com/fwlink/p/?linkid=281901)참조 하십시오.
 
   - **비-온-프레미스 정책 및 구성 (사용자가 아닌)**   온라인 및 온-프레미스 정책에는 별도의 구성이 필요 합니다. 둘 다에 적용 되는 글로벌 정책을 설정할 수는 없습니다.
 

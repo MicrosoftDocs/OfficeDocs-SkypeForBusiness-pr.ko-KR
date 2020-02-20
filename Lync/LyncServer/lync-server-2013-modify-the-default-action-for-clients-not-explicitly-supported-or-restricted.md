@@ -12,18 +12,18 @@ ms:contentKeyID: 48184137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63ff08d05c9c8c18b7f81f22b04e2168a14f1a8c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b33cdb0b2055c76d5a3fbfa1db893a1267318e8a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050690"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149447"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>Lync Server 2013에서 명시적으로 지원 또는 제한 되지 않는 클라이언트에 대 한 기본 작업 수정
 
@@ -79,7 +79,7 @@ Lync Server 2013 환경에서 지원할 클라이언트 버전을 지정 하는 
 
 ## <a name="modifying-the-default-action-by-using-windows-powershell-cmdlets"></a>Windows PowerShell Cmdlet을 사용 하 여 기본 작업 수정
 
-사용자가 명시적으로 지원 되지 않거나 클라이언트 버전 정책을 통해 제한 되지 않은 클라이언트를 사용 하 여 로그온 하려고 할 때 수행 되는 기본 작업은 Windows PowerShell 명령줄 인터페이스와 **CsClientVersionPolicy** cmdlet을 사용 하 여 관리할 수 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
+사용자가 명시적으로 지원 되지 않거나 클라이언트 버전 정책을 통해 제한 되지 않은 클라이언트를 사용 하 여 로그온 하려고 할 때 수행 되는 기본 작업은 Windows PowerShell 명령줄 인터페이스와 **CsClientVersionPolicy** cmdlet을 사용 하 여 관리할 수 있습니다. 이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다. 원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.
 
 <div>
 

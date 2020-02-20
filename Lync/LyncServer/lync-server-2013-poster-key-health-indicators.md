@@ -12,18 +12,18 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6b67c4843cc0c1039bee48aa6b7c4620b77ce08
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2710e85eced76241f4946ef2746e544d07be941f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006996"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152596"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="key-health-indicators-in-lync-server-2013"></a>Lync Server 2013의 주요 상태 지표
 
@@ -37,7 +37,7 @@ ms.locfileid: "42006996"
 
 _**마지막으로 수정 된 항목:** 2014-02-10_
 
-이 문서는 다운로드 센터에서 다운로드할 수 있는 [정상적인 Lync server 포스터를 유지 관리 하는 주요 상태 표시기](http://go.microsoft.com/fwlink/?linkid=391838) 와 함께 제공 됩니다.
+이 문서는 다운로드 센터에서 다운로드할 수 있는 [정상적인 Lync server 포스터를 유지 관리 하는 주요 상태 표시기](https://go.microsoft.com/fwlink/?linkid=391838) 와 함께 제공 됩니다.
 
 ![KHI 데이터를 사용한 문제 해결에 대해 설명 하는 포스터](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "KHI 데이터를 사용한 문제 해결에 대해 설명 하는 포스터")
 
@@ -75,7 +75,7 @@ KHIs 솔루션이 아닌 표준 Lync 모니터링 솔루션 (예: System Center 
 
 KHI 성능 카운터를 수집 하 고 네트워킹 가이드와 함께 KHI 스프레드시트를 채워서 Lync 배포의 서버 상태를 결정 하는 데 도움이 되는 성과 기록표를 생성 합니다. 채워진 후에는 환경을 복구 하 고 다른 관련자에 대 한 추가 정보를 제공 합니다. 매달 KHIs를 평가 하 고이를 모든 배포의 진행 중인 운영 프로세스에 통합 합니다.
 
-[Lync Server 네트워킹 가이드](http://go.microsoft.com/fwlink/p/?linkid=390677) 를 다운로드 하 여 khis의 전체 목록을 확인 하 고 관련 스프레드시트를 얻을 수 있습니다.
+[Lync Server 네트워킹 가이드](https://go.microsoft.com/fwlink/p/?linkid=390677) 를 다운로드 하 여 khis의 전체 목록을 확인 하 고 관련 스프레드시트를 얻을 수 있습니다.
 
 </div>
 
@@ -333,9 +333,9 @@ LySS = Lync Storage Service
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server 네트워킹 가이드](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[주요 상태 지표: 정상 Lync Server를 유지 관리 하기 위한 기본 사항](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Lync 통화 품질 방법론](http://go.microsoft.com/fwlink/?linkid=391841)  
+[Lync Server 네트워킹 가이드](https://go.microsoft.com/fwlink/p/?linkid=390677)  
+[주요 상태 지표: 정상 Lync Server를 유지 관리 하기 위한 기본 사항](https://go.microsoft.com/fwlink/?linkid=391838)  
+[Lync 통화 품질 방법론](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 
 </div>

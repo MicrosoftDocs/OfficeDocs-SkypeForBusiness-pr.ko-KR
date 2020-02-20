@@ -12,18 +12,18 @@ ms:contentKeyID: 48184408
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b307e88bbf85b43a6997d46c5a822684e0421752
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 08764f432eb90f1b16a0c91ed810d394e94c6193
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043450"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152322"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="pstn-connectivity-components-in-lync-server-2013"></a>Lync Server 2013의 PSTN 연결 구성 요소
 
@@ -59,7 +59,7 @@ PSTN 게이트웨이를 사용 하는 대신 SIP 트렁크를 사용 하 여 Ent
 
 ## <a name="pstn-gateways"></a>PSTN 게이트웨이
 
-PSTN 게이트웨이는 엔터프라이즈 음성 인프라와 PSTN 또는 PBX 간에 신호 및 미디어를 변환 하는 타사 장치입니다. PSTN 게이트웨이는 중재 서버와 함께 엔터프라이즈 음성 클라이언트에 PSTN 또는 PBX 통화를 제공 하는 작업을 수행 합니다. 중재 서버는 PSTN 또는 PBX로 라우팅하기 위해 Enterprise Voice 클라이언트에서 PSTN 게이트웨이로의 통화도 제공 합니다. Microsoft와 협력 하 여 Lync Server에서 작동 하는 장치를 제공 하는 파트너 목록은의 Microsoft 통합 커뮤니케이션 파트너 웹 사이트를 [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)참조 하세요.
+PSTN 게이트웨이는 엔터프라이즈 음성 인프라와 PSTN 또는 PBX 간에 신호 및 미디어를 변환 하는 타사 장치입니다. PSTN 게이트웨이는 중재 서버와 함께 엔터프라이즈 음성 클라이언트에 PSTN 또는 PBX 통화를 제공 하는 작업을 수행 합니다. 중재 서버는 PSTN 또는 PBX로 라우팅하기 위해 Enterprise Voice 클라이언트에서 PSTN 게이트웨이로의 통화도 제공 합니다. Microsoft와 협력 하 여 Lync Server에서 작동 하는 장치를 제공 하는 파트너 목록은의 Microsoft 통합 커뮤니케이션 파트너 웹 사이트를 [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)참조 하세요.
 
 </div>
 
@@ -81,15 +81,15 @@ PBX (private branch exchange)를 사용 하는 기존 음성 인프라가 있는
 
 
 > [!NOTE]  
-> 미디어 바이패스가 모든 PSTN 게이트웨이, IP-PBX 및 SBC에서 작동하지는 않습니다. Microsoft는 인증 된 파트너와의 PSTN 게이트웨이 및 국내 집합을 테스트 했으며 Cisco IP-Pbx를 사용 하 여 몇 가지 테스트를 수행 했습니다. 미디어 바이패스는 통합 커뮤니케이션 오픈 상호 운용성 프로그램-Lync Server에 <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>나열 된 제품 및 버전 에서만 지원 됩니다.
+> 미디어 바이패스가 모든 PSTN 게이트웨이, IP-PBX 및 SBC에서 작동하지는 않습니다. Microsoft는 인증 된 파트너와의 PSTN 게이트웨이 및 국내 집합을 테스트 했으며 Cisco IP-Pbx를 사용 하 여 몇 가지 테스트를 수행 했습니다. 미디어 바이패스는 통합 커뮤니케이션 오픈 상호 운용성 프로그램-Lync Server에 <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>나열 된 제품 및 버전 에서만 지원 됩니다.
 
 
 
 </div>
 
-Enterprise Voice 솔루션을 제공 하는 파트너에 대 한 자세한 내용은의 Microsoft 통합 커뮤니케이션 파트너 [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)웹 사이트를 참조 하세요.
+Enterprise Voice 솔루션을 제공 하는 파트너에 대 한 자세한 내용은의 Microsoft 통합 커뮤니케이션 파트너 [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)웹 사이트를 참조 하세요.
 
-PSTN 게이트웨이를 포함 하 여 Enterprise Voice 하드웨어 솔루션을 제공 하는 파트너에 대 한 자세한 내용은 Microsoft 통합 [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)커뮤니케이션 파트너 웹 사이트를 참조 하십시오.
+PSTN 게이트웨이를 포함 하 여 Enterprise Voice 하드웨어 솔루션을 제공 하는 파트너에 대 한 자세한 내용은 Microsoft 통합 [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)커뮤니케이션 파트너 웹 사이트를 참조 하십시오.
 
 </div>
 

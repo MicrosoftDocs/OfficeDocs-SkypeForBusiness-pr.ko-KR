@@ -12,18 +12,18 @@ ms:contentKeyID: 48184583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03436a59fa9fbab99608e4fa3b979e4802115ed1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6b6e0e44367af86ea42099241ef3d9bbfa750133
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042960"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152566"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Lync Server 2013에서 Active Directory 도메인 서비스 준비
 
@@ -78,7 +78,7 @@ Active Directory 준비 작업을 실행하려면 다음 구성 요소가 필요
     
 
     > [!NOTE]  
-    > Windows Server 2012 및 Windows Server 2012 r 2의 경우 서버 관리자를 사용 하 여 .NET Framework 4.5을 설치 하 고 정품 인증 합니다. 자세한 내용은 <A href="lync-server-2013-additional-software-requirements.md">Lync Server 2013에 대 한 추가 소프트웨어 요구 사항</A>에서 "Microsoft .net Framework 4.5"를 참조 하세요. Windows Server&nbsp;2008&nbsp;r 2의 경우 Microsoft 웹 사이트에서 <A href="http://www.microsoft.com/download/details.aspx?id=30653">.net Framework 4.5</A> 를 다운로드 하 여 설치 합니다.
+    > Windows Server 2012 및 Windows Server 2012 r 2의 경우 서버 관리자를 사용 하 여 .NET Framework 4.5을 설치 하 고 정품 인증 합니다. 자세한 내용은 <A href="lync-server-2013-additional-software-requirements.md">Lync Server 2013에 대 한 추가 소프트웨어 요구 사항</A>에서 "Microsoft .net Framework 4.5"를 참조 하세요. Windows Server&nbsp;2008&nbsp;r 2의 경우 Microsoft 웹 사이트에서 <A href="https://www.microsoft.com/download/details.aspx?id=30653">.net Framework 4.5</A> 를 다운로드 하 여 설치 합니다.
 
     
     </div>
@@ -271,7 +271,7 @@ Ldifde.exe를 사용하여 스키마 마스터가 아닌 도메인 컨트롤러�
 
     ldifde -i -v -k -s <SchemaMasterFQDN> -f <Schema filename> -c DC=X <rootDomainNamingContext> -j logFilePath -b <administrator account> <domain> <password>
 
-Ldifde를 사용 하는 방법에 대 한 자세한 내용은 Microsoft 기술 자료 문서 237677, "LDIFDE를 사용 하 여 Active Directory로 디렉터리 개체 [http://go.microsoft.com/fwlink/p/?linkId=132204](http://go.microsoft.com/fwlink/p/?linkid=132204)가져오기 및 내보내기"를 참조 하세요.
+Ldifde를 사용 하는 방법에 대 한 자세한 내용은 Microsoft 기술 자료 문서 237677, "LDIFDE를 사용 하 여 Active Directory로 디렉터리 개체 [https://go.microsoft.com/fwlink/p/?linkId=132204](https://go.microsoft.com/fwlink/p/?linkid=132204)가져오기 및 내보내기"를 참조 하세요.
 
 </div>
 

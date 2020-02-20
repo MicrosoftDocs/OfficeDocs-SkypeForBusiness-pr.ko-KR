@@ -12,18 +12,18 @@ ms:contentKeyID: 48185978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a6cd1ea107dee9a32d695bf51e7b6998542fc76
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b5b859fca107be85ad7ae8473d49ec07f126fa36
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030221"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150399"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a>Lync server 2013의 lync Server 관리 셸 구성 cmdlet
 
@@ -69,7 +69,7 @@ Lync Server 관리 셸은 환경에서 Microsoft Lync Server 2010을 미리 로�
 ## <a name="see-also"></a>참고 항목
 
 
-[Lync Server PowerShell 블로그](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 블로그](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

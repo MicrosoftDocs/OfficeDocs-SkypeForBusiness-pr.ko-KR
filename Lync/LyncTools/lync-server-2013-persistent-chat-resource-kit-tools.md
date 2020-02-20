@@ -12,18 +12,18 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7895a1ebb2c0ce45cebf3514839b7ab3405e1c9f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 726e6bb537a16ece5c2955f005e91872f11f6a79
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983033"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147731"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Lync Server 2013 영구 채팅 리소스 킷 도구
 
@@ -49,7 +49,7 @@ Lync Server 2013, 리소스 키트 도구를 설치 하려면 PersistentChatResk
 
 
 > [!IMPORTANT]  
-> Lync Server 2013, 리소스 키트 도구를 설치한 후에는 <STRONG>PsExec</STRONG> 을 설치 하 고 <STRONG>PsExec</STRONG> 를 \\ <STRONG>Program Files \ Microsoft Lync server 2013 \ 영구 채팅 서버 리소스 Kit\ChatStressTool</STRONG>경로에 복사 해야 합니다. <STRONG>PsExec</STRONG>를 복사 하지 않으면 영구 채팅 스트레스 도구에서 오류 예외를 throw 하며 제대로 수행 되지 않습니다. 도구를 실행 하기 전에이 필수 구성 요소를 충족 하는지 확인 합니다. <STRONG>PsExec</STRONG>을 설치 하는 방법에 대 한 <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>자세한 내용은를 참조 하세요.
+> Lync Server 2013, 리소스 키트 도구를 설치한 후에는 <STRONG>PsExec</STRONG> 을 설치 하 고 <STRONG>PsExec</STRONG> 를 \\ <STRONG>Program Files \ Microsoft Lync server 2013 \ 영구 채팅 서버 리소스 Kit\ChatStressTool</STRONG>경로에 복사 해야 합니다. <STRONG>PsExec</STRONG>를 복사 하지 않으면 영구 채팅 스트레스 도구에서 오류 예외를 throw 하며 제대로 수행 되지 않습니다. 도구를 실행 하기 전에이 필수 구성 요소를 충족 하는지 확인 합니다. <STRONG>PsExec</STRONG>을 설치 하는 방법에 대 한 <A href="https://go.microsoft.com/fwlink/p/?linkid=282246">https://go.microsoft.com/fwlink/p/?LinkId=282246</A>자세한 내용은를 참조 하세요.
 
 
 

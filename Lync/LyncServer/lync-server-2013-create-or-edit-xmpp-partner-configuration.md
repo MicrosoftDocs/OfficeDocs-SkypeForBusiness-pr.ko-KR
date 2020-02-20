@@ -12,18 +12,18 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4410444d1565e61fa80ef8b8db29aad63b4401de
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 609729c65240a17b70f7ef7115bd4901f37c687a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42032494"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151940"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Lync Server 2013에서 XMPP 파트너 구성 만들기 또는 편집
 
@@ -75,7 +75,7 @@ Microsoft Lync Server 2013는 Edge 서버 및 프런트 엔드 서버 또는 프
     
     XEP 요구 사항에 대 한 자세한 내용은 XSF 문서 XEP-0178를 참조 하세요. 자세한 내용은 "XEP-0178: SASL 외부의 인증서 사용에 대 한 모범 사례"를 참조 하세요. <http://xmpp.org/extensions/xep-0178.html>
     
-    IETF 문서 "확장 가능 메시징 및 현재 상태 프로토콜 (XMPP): 코어", 섹션 5.0, STARTTLS 협상 <http://tools.ietf.org/html/rfc6120>을 참조 하십시오.
+    IETF 문서 "확장 가능 메시징 및 현재 상태 프로토콜 (XMPP): 코어", 섹션 5.0, STARTTLS 협상 <https://tools.ietf.org/html/rfc6120>을 참조 하십시오.
     
       - **TLS 협상** TLS 협상 규칙을 정의합니다. XMPP 서비스에 대해 TLS를 필수, 선택 사항 또는 지원 안 됨으로 설정할 수 있습니다. "선택 사항"으로 설정하는 경우 협상 필수 항목 결정을 위해 요구 사항을 최대한 XMPP 서비스까지 그대로 둘 수 있습니다. 유효 및 알려진 오류 구성을 포함 하 여 SASL, TLS 및 전화 접속 회의 협상에 대해 가능한 모든 설정 및 세부 정보를 확인 하려면 [Lync Server 2013의 XMPP 페더레이션 파트너에 대 한 협상 설정을](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)참조 하세요.
         
