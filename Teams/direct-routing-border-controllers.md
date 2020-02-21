@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: 사용자가 직접 라우팅으로 SBCs 작업을 인증 하도록 선택 된 SBC 공급 업체와의 협력 파트너.
-ms.openlocfilehash: b574911c2d819e665f088ec8be12f24e1830daf2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 3e442a2afd61c3d5c39ac8edc89fa128131ac468
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837588"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214414"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -53,21 +53,27 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   중일     |  7.20 a. 250  |    |    |    
 |                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7.20 a. 250   |    |    |                                                                       
 |                                                                                                                     | 가상 버전 SBC |     &#10004;     |   &#10004;     |  7.20 a. 250 |    |    |    
-|  [리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       |  Intrado <br>Intrado |   아니요 |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |   Intrado <br>Intrado  | 아니요   |    
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  Intrado <br>Intrado    |아니요|    
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   Intrado <br>Intrado  |  아니요  |    
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   Intrado <br>Intrado |   아니요 |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (빌드 537)     |  Intrado <br>Intrado   |  중일  |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (빌드 537)     |  Intrado <br>Intrado  |  중일  |    
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (빌드 216)    |  Intrado <br>Intrado   |  중일  |    
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    생각 365 SBC    |     &#10004;     |   중일    |       V 1.4       |     |    |    
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   Intrado <br>Intrado  |    |    
-|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |   Intrado <br>Intrado  |    |    
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   Intrado <br>Intrado |    |    
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  Intrado <br>Intrado  |    |    
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   Intrado <br>Intrado |    |                                            
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   Intrado <br>Intrado  |    |    
+|  [리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       | <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul> |   아니요 |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |  <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul> | 아니요   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul>  |아니요|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul> |  아니요  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul> |   아니요 |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (빌드 537)     |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |         |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (빌드 537)     |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |           |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (빌드 216)    |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>    |           |    
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    생각 365 SBC    |     &#10004;     |           |       V 1.4       |     |    |    
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |    |    
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>  |    |    
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> Intrado </li> <li>Intrado </li> </ul>  |    |    
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |    |    
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> Intrado </li> <li>Intrado </li> </ul>  |    |                                            
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |    |    
 |                     [TE-시스템](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v 3.16.2      |     |    |    
+
+다음 표에는 직접 라우팅 및 아날로그 장치 간의 상호 운용성을 확인 하는 장치가 나와 있습니다.
+
+|                                                       공급 업체                                                        |       지원부       | 유효한
+|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
+| [오디오 코드](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
 
 새 기능에 대 한 아이디어 등 팀에 대 한 제품 피드백을 제공 하려면 [Uservoice](https://microsoftteams.uservoice.com) 참고 주 버전에 부여 된 인증을 참조 하세요. 이는 주요 버전 다음의 SBC 펌웨어에 숫자가 포함 된 펌웨어가 지원 됨을 의미 합니다.

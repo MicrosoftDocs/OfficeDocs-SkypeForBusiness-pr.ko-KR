@@ -12,16 +12,16 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 718dda9966b79ca75f64df115dc9a6ba30d15619
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3679999bc12f606fe338652e8bef22e455cec9ef
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136996"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214674"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -124,7 +124,7 @@ _**마지막으로 수정 된 항목:** 2019-03-22_
 
 2.  Microsoft에서 도메인을 프로 비전 한 것으로 확인 될 때까지 기다립니다.
 
-3.  확인이 나타나면 Lync 관리 센터를 사용 하 여 "외부 통신"을 설정 합니다. 자세한 내용은[http://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  확인이 나타나면 Lync 관리 센터를 사용 하 여 "외부 통신"을 설정 합니다. 자세한 내용은[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 이 순서는 중요 합니다.Lync Online에서 통신을 사용 하도록 설정 하기 전에 온-프레미스 연결을 설정 해야 합니다. 순서가 거꾸로 된 경우 온-프레미스 <https://pic.lync.com> 에 입력 한 정보는 이동 하지 않습니다. 이 도메인과의 외부 통신에 대해 Lync Online을 이미 설정한 경우에는이 기능을 해제 하 고 24 시간 동안 기다린 후에 온-프레미스 정보 <https://pic.lync.com> 를 입력 한 다음 Lync Online에 대 한 외부 통신을 설정 하 여 다시 시작 해야 합니다.
 
