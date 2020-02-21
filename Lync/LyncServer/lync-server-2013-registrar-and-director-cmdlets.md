@@ -12,20 +12,20 @@ ms:contentKeyID: 48183813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6dc4c7fb798b0715afb6fe474cbab1863c62ef93
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 2365b9ebf32586aee31e3ad0cf8c477fbbc6e6fc
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42138839"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42215134"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="registrar-and-director-cmdlets-in-lync-server-2013"></a><span data-ttu-id="ab347-102">Lync Server 2013의 등록자 및 디렉터 cmdlet</span><span class="sxs-lookup"><span data-stu-id="ab347-102">Registrar and Director cmdlets in Lync Server 2013</span></span>
+# <a name="registrar-and-director-cmdlets-in-lync-server-2013"></a><span data-ttu-id="9bf9d-102">Lync Server 2013의 등록자 및 디렉터 cmdlet</span><span class="sxs-lookup"><span data-stu-id="9bf9d-102">Registrar and Director cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,58 +35,58 @@ ms.locfileid: "42138839"
 
 <span> </span>
 
-<span data-ttu-id="ab347-103">_**마지막으로 수정 된 항목:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="ab347-103">_**Topic Last Modified:** 2012-10-09_</span></span>
+<span data-ttu-id="9bf9d-103">_**마지막으로 수정 된 항목:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="9bf9d-103">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-<span data-ttu-id="ab347-p101">등록자 및 디렉터는 로그온 요청을 인증하고 사용자 상태에 대한 정보를 유지 관리하는 데 사용됩니다. 등록자 및 디렉터 cmdlet를 사용하면 이러한 서버에 대한 구성 설정을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ab347-p101">Registrars and Directors are used to authenticate logon requests and to maintain information about user status and availability. The Registrar and Director cmdlets enable you to manage configuration settings for these servers.</span></span>
+<span data-ttu-id="9bf9d-p101">등록자 및 디렉터는 로그온 요청을 인증하고 사용자 상태에 대한 정보를 유지 관리하는 데 사용됩니다. 등록자 및 디렉터 cmdlet를 사용하면 이러한 서버에 대한 구성 설정을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9bf9d-p101">Registrars and Directors are used to authenticate logon requests and to maintain information about user status and availability. The Registrar and Director cmdlets enable you to manage configuration settings for these servers.</span></span>
 
 <div>
 
-## <a name="registrar-and-director-cmdlets"></a><span data-ttu-id="ab347-106">등록자 및 디렉터 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="ab347-106">Registrar and Director Cmdlets</span></span>
+## <a name="registrar-and-director-cmdlets"></a><span data-ttu-id="9bf9d-106">등록자 및 디렉터 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="9bf9d-106">Registrar and Director Cmdlets</span></span>
 
-<span data-ttu-id="ab347-107">다음은 등록자 및 디렉터 관리에 직접적으로 관련된 cmdlet 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="ab347-107">The following is a list of cmdlets that relate directly to managing Registrars and Directors:</span></span>
+<span data-ttu-id="9bf9d-107">다음은 등록자 및 디렉터 관리에 직접적으로 관련된 cmdlet 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="9bf9d-107">The following is a list of cmdlets that relate directly to managing Registrars and Directors:</span></span>
 
-<span data-ttu-id="ab347-108">**등록자 및 디렉터**</span><span class="sxs-lookup"><span data-stu-id="ab347-108">**Registrars and Directors**</span></span>
+<span data-ttu-id="9bf9d-108">**등록자 및 디렉터**</span><span class="sxs-lookup"><span data-stu-id="9bf9d-108">**Registrars and Directors**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ab347-109">[설정-CsDirector](https://technet.microsoft.com/library/Gg398565(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ab347-109">[Set-CsDirector](https://technet.microsoft.com/library/Gg398565(v=OCS.15))</span></span>
+    <span data-ttu-id="9bf9d-109">[설정-CsDirector](https://technet.microsoft.com/library/Gg398565(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9bf9d-109">[Set-CsDirector](https://technet.microsoft.com/library/Gg398565(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="ab347-110">[Reset-Reset-cspoolregistrarstate](https://technet.microsoft.com/library/JJ619172(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ab347-110">[Reset-CsPoolRegistrarState](https://technet.microsoft.com/library/JJ619172(v=OCS.15))</span></span>
+    <span data-ttu-id="9bf9d-110">[Reset-Reset-cspoolregistrarstate](https://technet.microsoft.com/library/JJ619172(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9bf9d-110">[Reset-CsPoolRegistrarState](https://technet.microsoft.com/library/JJ619172(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="ab347-111">[CsRegistrar](https://technet.microsoft.com/library/Gg398993(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ab347-111">[Set-CsRegistrar](https://technet.microsoft.com/library/Gg398993(v=OCS.15))</span></span>
+    <span data-ttu-id="9bf9d-111">[CsRegistrar](https://technet.microsoft.com/library/Gg398993(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9bf9d-111">[Set-CsRegistrar](https://technet.microsoft.com/library/Gg398993(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="ab347-112">[Get-csregistrarconfiguration](https://technet.microsoft.com/library/Gg398483(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ab347-112">[Get-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398483(v=OCS.15))</span></span>
+    <span data-ttu-id="9bf9d-112">[Get-csregistrarconfiguration](https://technet.microsoft.com/library/Gg398483(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9bf9d-112">[Get-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398483(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ab347-113">[Get-csregistrarconfiguration](https://technet.microsoft.com/library/Gg425893(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ab347-113">[New-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg425893(v=OCS.15))</span></span>
+    <span data-ttu-id="9bf9d-113">[Get-csregistrarconfiguration](https://technet.microsoft.com/library/Gg425893(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9bf9d-113">[New-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg425893(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ab347-114">[Get-csregistrarconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg398482(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ab347-114">[Remove-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398482(v=OCS.15))</span></span>
+    <span data-ttu-id="9bf9d-114">[Get-csregistrarconfiguration을 제거 합니다.](https://technet.microsoft.com/library/Gg398482(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9bf9d-114">[Remove-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398482(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ab347-115">[Get-csregistrarconfiguration](https://technet.microsoft.com/library/Gg398764(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ab347-115">[Set-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398764(v=OCS.15))</span></span>
+    <span data-ttu-id="9bf9d-115">[Get-csregistrarconfiguration](https://technet.microsoft.com/library/Gg398764(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9bf9d-115">[Set-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398764(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="ab347-116">[테스트-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ab347-116">[Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15))</span></span>
+    <span data-ttu-id="9bf9d-116">[테스트-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9bf9d-116">[Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="ab347-117">참고 항목</span><span class="sxs-lookup"><span data-stu-id="ab347-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9bf9d-117">참고 항목</span><span class="sxs-lookup"><span data-stu-id="9bf9d-117">See Also</span></span>
 
 
-[<span data-ttu-id="ab347-118">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="ab347-118">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="9bf9d-118">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="9bf9d-118">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

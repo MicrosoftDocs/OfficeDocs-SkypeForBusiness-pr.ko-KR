@@ -12,20 +12,20 @@ ms:contentKeyID: 48185027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5bff47410f46516061a5a3be64bce17476b453e7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0ae67001d7e041cf0b4e8f6a01fb9278f3d79300
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153388"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42216521"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a><span data-ttu-id="12946-102">반드시 Lync Server 2013에서 전화 접속 회의 설정 확인</span><span class="sxs-lookup"><span data-stu-id="12946-102">(Optional) Verify dial-in conferencing settings in Lync Server 2013</span></span>
+# <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a><span data-ttu-id="10dca-102">반드시 Lync Server 2013에서 전화 접속 회의 설정 확인</span><span class="sxs-lookup"><span data-stu-id="10dca-102">(Optional) Verify dial-in conferencing settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "42153388"
 
 <span> </span>
 
-<span data-ttu-id="12946-103">_**마지막으로 수정 된 항목:** 2010-11-02_</span><span class="sxs-lookup"><span data-stu-id="12946-103">_**Topic Last Modified:** 2010-11-02_</span></span>
+<span data-ttu-id="10dca-103">_**마지막으로 수정 된 항목:** 2010-11-02_</span><span class="sxs-lookup"><span data-stu-id="10dca-103">_**Topic Last Modified:** 2010-11-02_</span></span>
 
-<span data-ttu-id="12946-p101">전화 접속 회의 구성의 최종 확인 작업으로 액세스 번호에서 사용되지 않은 전화 접속 회의 지역이 포함된 다이얼 플랜 및 전화 접속 회의 지역이 할당되지 않은 액세스 번호를 검색할 수 있습니다. 이 단계는 선택 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="12946-p101">As final verification of your dial-in conferencing configuration, you can search for dial plans that have a dial-in conferencing region that is not used by any access number and for access numbers that have not specified a dial-in conferencing region. This step is optional.</span></span>
+<span data-ttu-id="10dca-p101">전화 접속 회의 구성의 최종 확인 작업으로 액세스 번호에서 사용되지 않은 전화 접속 회의 지역이 포함된 다이얼 플랜 및 전화 접속 회의 지역이 할당되지 않은 액세스 번호를 검색할 수 있습니다. 이 단계는 선택 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="10dca-p101">As final verification of your dial-in conferencing configuration, you can search for dial plans that have a dial-in conferencing region that is not used by any access number and for access numbers that have not specified a dial-in conferencing region. This step is optional.</span></span>
 
 <div>
 
-## <a name="to-find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a><span data-ttu-id="12946-106">액세스 번호에서 사용되지 않은 전화 접속 회의 지역이 포함된 다이얼 플랜을 찾으려면</span><span class="sxs-lookup"><span data-stu-id="12946-106">To find dial plans with a dial-in conferencing region that is not used by an access number</span></span>
+## <a name="to-find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a><span data-ttu-id="10dca-106">액세스 번호에서 사용되지 않은 전화 접속 회의 지역이 포함된 다이얼 플랜을 찾으려면</span><span class="sxs-lookup"><span data-stu-id="10dca-106">To find dial plans with a dial-in conferencing region that is not used by an access number</span></span>
 
-1.  <span data-ttu-id="12946-107">RTCUniversalServerAdmins 그룹의 구성원이나 **Cs-ServerAdministrator** 또는 **CsAdministrator** 역할의 구성원으로 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="12946-107">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **Cs-ServerAdministrator** or **CsAdministrator** role.</span></span>
+1.  <span data-ttu-id="10dca-107">RTCUniversalServerAdmins 그룹의 구성원이나 **Cs-ServerAdministrator** 또는 **CsAdministrator** 역할의 구성원으로 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="10dca-107">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **Cs-ServerAdministrator** or **CsAdministrator** role.</span></span>
 
-2.  <span data-ttu-id="12946-108">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="12946-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="10dca-108">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="10dca-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="12946-109">명령 프롬프트에서 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="12946-109">Run the following at the command prompt:</span></span>
+3.  <span data-ttu-id="10dca-109">명령 프롬프트에서 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="10dca-109">Run the following at the command prompt:</span></span>
     
         Get-CsDialinConferencingAccessNumber -EmptyRegion
     
-    <span data-ttu-id="12946-110">이 cmdlet은 액세스 번호에서 사용되지 않은 전화 접속 회의 지역이 포함된 모든 다이얼 플랜을 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="12946-110">This cmdlet returns all of the dial plans that have a dial-in conferencing region that is not used by an access number.</span></span>
+    <span data-ttu-id="10dca-110">이 cmdlet은 액세스 번호에서 사용되지 않은 전화 접속 회의 지역이 포함된 모든 다이얼 플랜을 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="10dca-110">This cmdlet returns all of the dial plans that have a dial-in conferencing region that is not used by an access number.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-find-access-numbers-without-assigned-regions"></a><span data-ttu-id="12946-111">지역이 할당되지 않은 액세스 번호를 찾으려면</span><span class="sxs-lookup"><span data-stu-id="12946-111">To find access numbers without assigned regions</span></span>
+## <a name="to-find-access-numbers-without-assigned-regions"></a><span data-ttu-id="10dca-111">지역이 할당되지 않은 액세스 번호를 찾으려면</span><span class="sxs-lookup"><span data-stu-id="10dca-111">To find access numbers without assigned regions</span></span>
 
-1.  <span data-ttu-id="12946-112">RTCUniversalServerAdmins 그룹의 구성원이나 **Cs-ServerAdministrator** 또는 **CsAdministrator** 역할의 구성원으로 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="12946-112">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **Cs-ServerAdministrator** or **CsAdministrator** role.</span></span>
+1.  <span data-ttu-id="10dca-112">RTCUniversalServerAdmins 그룹의 구성원이나 **Cs-ServerAdministrator** 또는 **CsAdministrator** 역할의 구성원으로 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="10dca-112">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **Cs-ServerAdministrator** or **CsAdministrator** role.</span></span>
 
-2.  <span data-ttu-id="12946-113">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="12946-113">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="10dca-113">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="10dca-113">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="12946-114">명령 프롬프트에서 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="12946-114">Run the following at the command prompt:</span></span>
+3.  <span data-ttu-id="10dca-114">명령 프롬프트에서 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="10dca-114">Run the following at the command prompt:</span></span>
     
         Get-CsDialinConferencingAccessNumber -Region NULL
     
-    <span data-ttu-id="12946-115">이 cmdlet은 지역과 연관되지 않은 모든 전화 접속 회의 액세스 번호를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="12946-115">This cmdlet returns all the dial-in conferencing access numbers that are not associated with a region.</span></span>
+    <span data-ttu-id="10dca-115">이 cmdlet은 지역과 연관되지 않은 모든 전화 접속 회의 액세스 번호를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="10dca-115">This cmdlet returns all the dial-in conferencing access numbers that are not associated with a region.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 51541493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 007e4419a5763f86818d8d7320464ab41c8f8c08
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 201cfddce199f1250b5e995b6a5019e319bfedfb
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153348"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42216464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a><span data-ttu-id="da405-102">반드시 Lync Server 2013에서 그룹 통화 픽업 배포 확인</span><span class="sxs-lookup"><span data-stu-id="da405-102">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</span></span>
+# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a><span data-ttu-id="d48cf-102">반드시 Lync Server 2013에서 그룹 통화 픽업 배포 확인</span><span class="sxs-lookup"><span data-stu-id="d48cf-102">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42153348"
 
 <span> </span>
 
-<span data-ttu-id="da405-103">_**마지막으로 수정 된 항목:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="da405-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="d48cf-103">_**마지막으로 수정 된 항목:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="d48cf-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="da405-104">사용자에 대해 그룹 통화 픽업을 사용 하도록 설정한 후 구성이 정상적으로 작동 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="da405-104">After you enable Group Call Pickup for users, verify that the configuration works as expected.</span></span> <span data-ttu-id="da405-105">최소한 다음 사항을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="da405-105">At a minimum, verify the following:</span></span>
+<span data-ttu-id="d48cf-104">사용자에 대해 그룹 통화 픽업을 사용 하도록 설정한 후 구성이 정상적으로 작동 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="d48cf-104">After you enable Group Call Pickup for users, verify that the configuration works as expected.</span></span> <span data-ttu-id="d48cf-105">최소한 다음 사항을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="d48cf-105">At a minimum, verify the following:</span></span>
 
-  - <span data-ttu-id="da405-106">그룹 통화 픽업를 사용할 수 있는 사용자에 게 전화를 걸어 다른 사용자에 게 통화를 검색 하도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="da405-106">Call a user who is enabled for Group Call Pickup and have another user retrieve the call.</span></span> <span data-ttu-id="da405-107">다른 사용자는 같은 그룹에 있거나, 다른 그룹에 있거나, 그룹 통화 픽업을 사용 하도록 설정 되어 있지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="da405-107">The other user can be in the same group, in a different group, or not have Group Call Pickup enabled.</span></span>
+  - <span data-ttu-id="d48cf-106">그룹 통화 픽업를 사용할 수 있는 사용자에 게 전화를 걸어 다른 사용자에 게 통화를 검색 하도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="d48cf-106">Call a user who is enabled for Group Call Pickup and have another user retrieve the call.</span></span> <span data-ttu-id="d48cf-107">다른 사용자는 같은 그룹에 있거나, 다른 그룹에 있거나, 그룹 통화 픽업을 사용 하도록 설정 되어 있지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d48cf-107">The other user can be in the same group, in a different group, or not have Group Call Pickup enabled.</span></span>
 
-  - <span data-ttu-id="da405-108">그룹 통화 픽업를 사용할 수 있는 사용자에 게 전화를 걸어 통화에 응답 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="da405-108">Call a user who is enabled for Group Call Pickup and do not answer the call.</span></span>
+  - <span data-ttu-id="d48cf-108">그룹 통화 픽업를 사용할 수 있는 사용자에 게 전화를 걸어 통화에 응답 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d48cf-108">Call a user who is enabled for Group Call Pickup and do not answer the call.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 51803941
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1b563f28fac5eef836262138c2b0713f7b273e0
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 85d24aeb94a0c16e93d885c5b6db20385cdf0f26
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153178"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42216251"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="be7fe-102">Lync Server 2013의 위치 기반 라우팅 개요</span><span class="sxs-lookup"><span data-stu-id="be7fe-102">Overview of Location-Based Routing in Lync Server 2013</span></span>
+# <a name="overview-of-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="ec634-102">Lync Server 2013의 위치 기반 라우팅 개요</span><span class="sxs-lookup"><span data-stu-id="ec634-102">Overview of Location-Based Routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "42153178"
 
 <span> </span>
 
-<span data-ttu-id="be7fe-103">_**마지막으로 수정 된 항목:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="be7fe-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="ec634-103">_**마지막으로 수정 된 항목:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="ec634-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="be7fe-104">위치 기반 라우팅은 유료 바이패스를 방지 하기 위해 국내 및 국제 PSTN 통화의 라우팅을 수정 하는 새로운 규칙 집합을 소개 합니다.</span><span class="sxs-lookup"><span data-stu-id="be7fe-104">Location-Based Routing introduces a new set of rules that modifies the routing of national and international PSTN calls to prevent toll bypass.</span></span> <span data-ttu-id="be7fe-105">위치 기반 라우팅은 이러한 규칙을 특정 지역, 특정 게이트웨이 또는 특정 사용자 에게만 범위를 지정 하는 데 사용할 수 있는 유연성을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="be7fe-105">Location-Based Routing provides the flexibility to scope these rules to specific regions, specific gateways or to specific set of users only.</span></span>
+<span data-ttu-id="ec634-104">위치 기반 라우팅은 유료 바이패스를 방지 하기 위해 국내 및 국제 PSTN 통화의 라우팅을 수정 하는 새로운 규칙 집합을 소개 합니다.</span><span class="sxs-lookup"><span data-stu-id="ec634-104">Location-Based Routing introduces a new set of rules that modifies the routing of national and international PSTN calls to prevent toll bypass.</span></span> <span data-ttu-id="ec634-105">위치 기반 라우팅은 이러한 규칙을 특정 지역, 특정 게이트웨이 또는 특정 사용자 에게만 범위를 지정 하는 데 사용할 수 있는 유연성을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="ec634-105">Location-Based Routing provides the flexibility to scope these rules to specific regions, specific gateways or to specific set of users only.</span></span>
 
-<span data-ttu-id="be7fe-106">다음 시나리오에서는 위치 기반 라우팅이 적용할 수 있는 주요 제한 유형을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="be7fe-106">The following scenarios illustrate the main types of restrictions Location-Based Routing can enforce:</span></span>
+<span data-ttu-id="ec634-106">다음 시나리오에서는 위치 기반 라우팅이 적용할 수 있는 주요 제한 유형을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="ec634-106">The following scenarios illustrate the main types of restrictions Location-Based Routing can enforce:</span></span>
 
-  - <span data-ttu-id="be7fe-107">송신 통화-위치 기반 라우팅은 발신자가 PSTN 전화 바이패스를 방지 하는 것과 같은 지역에 있는 PSTN 게이트웨이에서 송신 전화를 보낼 수 있도록 하 여 다른 지역에 있는 PSTN 게이트웨이에서 발신을 호출 하지 못하게 합니다. 최초.</span><span class="sxs-lookup"><span data-stu-id="be7fe-107">Egress calls – Location-Based Routing can enforce outgoing calls to egress from a PSTN gateway that is located in the same region as where the caller is to prevent PSTN toll bypass, which prevents calls to egress from a PSTN gateway located in a different region as the caller.</span></span>
+  - <span data-ttu-id="ec634-107">송신 통화-위치 기반 라우팅은 발신자가 PSTN 전화 바이패스를 방지 하는 것과 같은 지역에 있는 PSTN 게이트웨이에서 송신 전화를 보낼 수 있도록 하 여 다른 지역에 있는 PSTN 게이트웨이에서 발신을 호출 하지 못하게 합니다. 최초.</span><span class="sxs-lookup"><span data-stu-id="ec634-107">Egress calls – Location-Based Routing can enforce outgoing calls to egress from a PSTN gateway that is located in the same region as where the caller is to prevent PSTN toll bypass, which prevents calls to egress from a PSTN gateway located in a different region as the caller.</span></span>
 
-  - <span data-ttu-id="be7fe-108">수신 통화-수신 전화가 호출 된 Lync 사용자와 같은 지역에 없는 경우 위치 기반 라우팅은 들어오는 PSTN 호출이 전화를 걸 수 없도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="be7fe-108">Ingress calls – Location-Based Routing can prevent incoming PSTN calls to ring Lync endpoints if the PSTN gateway routing the incoming call is not located in the same region as the called Lync user.</span></span>
+  - <span data-ttu-id="ec634-108">수신 통화-수신 전화가 호출 된 Lync 사용자와 같은 지역에 없는 경우 위치 기반 라우팅은 들어오는 PSTN 호출이 전화를 걸 수 없도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="ec634-108">Ingress calls – Location-Based Routing can prevent incoming PSTN calls to ring Lync endpoints if the PSTN gateway routing the incoming call is not located in the same region as the called Lync user.</span></span>
 
-  - <span data-ttu-id="be7fe-109">알 수 없는 지역-위치 기반 라우팅은 인터넷에서 연결 하거나 알 수 없는 지역에 있는 원격 사용자와의 들어오고 나가는 PSTN 통화를 결정 되지 않은 위치에 있는 사용자로 제한 합니다.</span><span class="sxs-lookup"><span data-stu-id="be7fe-109">Unknown regions – Location-Based Routing restricts incoming and outgoing PSTN calls to and from users that are located in undetermined locations (i.e. remote users connecting from the Internet or located in unknown regions).</span></span>
+  - <span data-ttu-id="ec634-109">알 수 없는 지역-위치 기반 라우팅은 인터넷에서 연결 하거나 알 수 없는 지역에 있는 원격 사용자와의 들어오고 나가는 PSTN 통화를 결정 되지 않은 위치에 있는 사용자로 제한 합니다.</span><span class="sxs-lookup"><span data-stu-id="ec634-109">Unknown regions – Location-Based Routing restricts incoming and outgoing PSTN calls to and from users that are located in undetermined locations (i.e. remote users connecting from the Internet or located in unknown regions).</span></span>
 
-  - <span data-ttu-id="be7fe-110">국제 지역-위치 기반 라우팅은 사용자의 위치에 대 한 로컬 게이트웨이를 찾을 수 없는 경우 국제 PSTN 게이트웨이를 통해 발신 전화의 라우팅을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="be7fe-110">International regions – Location-Based Routing enforces routing of outgoing calls through international PSTN gateways if a gateway local to the user’s location cannot be found.</span></span>
+  - <span data-ttu-id="ec634-110">국제 지역-위치 기반 라우팅은 사용자의 위치에 대 한 로컬 게이트웨이를 찾을 수 없는 경우 국제 PSTN 게이트웨이를 통해 발신 전화의 라우팅을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="ec634-110">International regions – Location-Based Routing enforces routing of outgoing calls through international PSTN gateways if a gateway local to the user’s location cannot be found.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="be7fe-111">참고 항목</span><span class="sxs-lookup"><span data-stu-id="be7fe-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ec634-111">참고 항목</span><span class="sxs-lookup"><span data-stu-id="ec634-111">See Also</span></span>
 
 
-[<span data-ttu-id="be7fe-112">Lync Server 2013의 위치 기반 라우팅 계획</span><span class="sxs-lookup"><span data-stu-id="be7fe-112">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
+[<span data-ttu-id="ec634-112">Lync Server 2013의 위치 기반 라우팅 계획</span><span class="sxs-lookup"><span data-stu-id="ec634-112">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>
