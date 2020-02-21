@@ -12,20 +12,20 @@ ms:contentKeyID: 48184307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6326bdbfb442a87e2b6d1a8e021d131d0dc73a62
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 48f419f55c062b6ffaab592dd5346194eaafe5af
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154120"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42195561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a><span data-ttu-id="0a746-102">Lync Server 2013에서 호출 기능 및 권한을 부여 하도록 음성 정책 및 PSTN 사용 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="0a746-102">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>
+# <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a><span data-ttu-id="9eb3c-102">Lync Server 2013에서 호출 기능 및 권한을 부여 하도록 음성 정책 및 PSTN 사용 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="9eb3c-102">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42154120"
 
 <span> </span>
 
-<span data-ttu-id="0a746-103">_**마지막으로 수정 된 항목:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="0a746-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="9eb3c-103">_**마지막으로 수정 된 항목:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="9eb3c-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="0a746-104">*음성 정책*은 정책이 지정되는 사용자의 통화 기능 및 사용 권한을 정의하기 위해 하나 이상의 PSTN 사용 레코드를 연결하며 일련의 통화 기능을 사용하도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="0a746-104">A *voice policy* enables a set of calling features and associates one or more PSTN usage records to define the calling features and permissions of users who are assigned the policy.</span></span>
+<span data-ttu-id="9eb3c-104">*음성 정책*은 정책이 지정되는 사용자의 통화 기능 및 사용 권한을 정의하기 위해 하나 이상의 PSTN 사용 레코드를 연결하며 일련의 통화 기능을 사용하도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="9eb3c-104">A *voice policy* enables a set of calling features and associates one or more PSTN usage records to define the calling features and permissions of users who are assigned the policy.</span></span>
 
-<span data-ttu-id="0a746-p101">음성 정책 범위는 *사이트*(네트워크 사이트에 대한 기본 기능 및 사용 권한 정의) 또는 *사용자*(사용자별 또는 그룹 기준으로 지정할 기능 및 사용 권한 정의)일 수 있습니다. 음성 정책에 지정되지 않은 사용자는 자동으로 글로벌 정책(제품과 함께 설치되는 기본 음성 정책)에 지정됩니다.</span><span class="sxs-lookup"><span data-stu-id="0a746-p101">Voice policy scope can be either *Site* (which defines the default features and permissions for a network site) or *User* (which defines the features and permissions to be assigned on a per-user or group basis). Users not assigned to a voice policy will automatically be assigned to the global policy, which is the default voice policy that is installed with the product.</span></span>
+<span data-ttu-id="9eb3c-p101">음성 정책 범위는 *사이트*(네트워크 사이트에 대한 기본 기능 및 사용 권한 정의) 또는 *사용자*(사용자별 또는 그룹 기준으로 지정할 기능 및 사용 권한 정의)일 수 있습니다. 음성 정책에 지정되지 않은 사용자는 자동으로 글로벌 정책(제품과 함께 설치되는 기본 음성 정책)에 지정됩니다.</span><span class="sxs-lookup"><span data-stu-id="9eb3c-p101">Voice policy scope can be either *Site* (which defines the default features and permissions for a network site) or *User* (which defines the features and permissions to be assigned on a per-user or group basis). Users not assigned to a voice policy will automatically be assigned to the global policy, which is the default voice policy that is installed with the product.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="0a746-107">자세한 내용은 계획 설명서에서 <A href="lync-server-2013-voice-policies.md">Lync Server 2013의 음성 정책</A> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="0a746-107">For details, see <A href="lync-server-2013-voice-policies.md">Voice policies in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="9eb3c-107">자세한 내용은 계획 설명서에서 <A href="lync-server-2013-voice-policies.md">Lync Server 2013의 음성 정책</A> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="9eb3c-107">For details, see <A href="lync-server-2013-voice-policies.md">Voice policies in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -53,13 +53,13 @@ ms.locfileid: "42154120"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0a746-108">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="0a746-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9eb3c-108">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="9eb3c-108">In This Section</span></span>
 
-  - [<span data-ttu-id="0a746-109">Lync Server 2013에서 음성 정책 만들기 및 PSTN 사용 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="0a746-109">Create a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)
+  - [<span data-ttu-id="9eb3c-109">Lync Server 2013에서 음성 정책 만들기 및 PSTN 사용 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="9eb3c-109">Create a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)
 
-  - [<span data-ttu-id="0a746-110">Lync Server 2013에서 음성 정책 수정 및 PSTN 사용 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="0a746-110">Modify a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)
+  - [<span data-ttu-id="9eb3c-110">Lync Server 2013에서 음성 정책 수정 및 PSTN 사용 레코드 구성</span><span class="sxs-lookup"><span data-stu-id="9eb3c-110">Modify a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)
 
-  - [<span data-ttu-id="0a746-111">Lync Server 2013에서 음성 메일 이스케이프 구성</span><span class="sxs-lookup"><span data-stu-id="0a746-111">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)
+  - [<span data-ttu-id="9eb3c-111">Lync Server 2013에서 음성 메일 이스케이프 구성</span><span class="sxs-lookup"><span data-stu-id="9eb3c-111">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)
 
 </div>
 

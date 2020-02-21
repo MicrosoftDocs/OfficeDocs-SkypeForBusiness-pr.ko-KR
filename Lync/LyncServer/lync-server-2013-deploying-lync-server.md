@@ -12,20 +12,20 @@ ms:contentKeyID: 48185197
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6417bb647faec4a493c124e776d519e136b0f77
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8ce04b0922e0ff2510afeefe75ecb1ce71164d02
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147561"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42195361"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-server-2013"></a><span data-ttu-id="9a343-102">Lync Server 2013 배포</span><span class="sxs-lookup"><span data-stu-id="9a343-102">Deploying Lync Server 2013</span></span>
+# <a name="deploying-lync-server-2013"></a><span data-ttu-id="ed281-102">Lync Server 2013 배포</span><span class="sxs-lookup"><span data-stu-id="ed281-102">Deploying Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "42147561"
 
 <span> </span>
 
-<span data-ttu-id="9a343-103">_**마지막으로 수정 된 항목:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="9a343-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="ed281-103">_**마지막으로 수정 된 항목:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="ed281-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="9a343-104">Lync Server 2013의 배포 프로세스는 프런트 엔드 풀 또는 Standard Edition 서버를 배포할지 여부를 포함 하 여 설치 하려는 Lync Server 토폴로지와 구성 요소에 의해 결정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9a343-104">Your deployment process for Lync Server 2013 is determined by the Lync Server topology and components you decide to install, including whether you want to deploy a Front End pool or a Standard Edition server.</span></span> <span data-ttu-id="9a343-105">이 섹션의 항목에서는 배포할 환경을 결정하는 방법을 설명하고 배포 프로세스를 안내합니다.</span><span class="sxs-lookup"><span data-stu-id="9a343-105">The topics in this section help you determine what environment you want to deploy and guide you through the deployment process.</span></span>
+<span data-ttu-id="ed281-104">Lync Server 2013의 배포 프로세스는 프런트 엔드 풀 또는 Standard Edition 서버를 배포할지 여부를 포함 하 여 설치 하려는 Lync Server 토폴로지와 구성 요소에 의해 결정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ed281-104">Your deployment process for Lync Server 2013 is determined by the Lync Server topology and components you decide to install, including whether you want to deploy a Front End pool or a Standard Edition server.</span></span> <span data-ttu-id="ed281-105">이 섹션의 항목에서는 배포할 환경을 결정하는 방법을 설명하고 배포 프로세스를 안내합니다.</span><span class="sxs-lookup"><span data-stu-id="ed281-105">The topics in this section help you determine what environment you want to deploy and guide you through the deployment process.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="9a343-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="9a343-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ed281-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="ed281-106">In This Section</span></span>
 
-  - [<span data-ttu-id="9a343-107">Lync Server 2013의 배포 개요</span><span class="sxs-lookup"><span data-stu-id="9a343-107">Deployment overview for Lync Server 2013</span></span>](lync-server-2013-deployment-overview.md)
+  - [<span data-ttu-id="ed281-107">Lync Server 2013의 배포 개요</span><span class="sxs-lookup"><span data-stu-id="ed281-107">Deployment overview for Lync Server 2013</span></span>](lync-server-2013-deployment-overview.md)
 
-  - [<span data-ttu-id="9a343-108">Lync Server 2013에 대 한 시스템 요구 사항</span><span class="sxs-lookup"><span data-stu-id="9a343-108">System requirements for Lync Server 2013</span></span>](lync-server-2013-system-requirements.md)
+  - [<span data-ttu-id="ed281-108">Lync Server 2013에 대 한 시스템 요구 사항</span><span class="sxs-lookup"><span data-stu-id="ed281-108">System requirements for Lync Server 2013</span></span>](lync-server-2013-system-requirements.md)
 
-  - [<span data-ttu-id="9a343-109">Lync Server 2013의 인프라 및 시스템 준비</span><span class="sxs-lookup"><span data-stu-id="9a343-109">Preparing the infrastructure and systems for Lync Server 2013</span></span>](lync-server-2013-preparing-the-infrastructure-and-systems.md)
+  - [<span data-ttu-id="ed281-109">Lync Server 2013의 인프라 및 시스템 준비</span><span class="sxs-lookup"><span data-stu-id="ed281-109">Preparing the infrastructure and systems for Lync Server 2013</span></span>](lync-server-2013-preparing-the-infrastructure-and-systems.md)
 
-  - [<span data-ttu-id="9a343-110">Lync Server 2013에서 토폴로지 정의 및 구성</span><span class="sxs-lookup"><span data-stu-id="9a343-110">Defining and configuring the topology in Lync Server 2013</span></span>](lync-server-2013-defining-and-configuring-the-topology.md)
+  - [<span data-ttu-id="ed281-110">Lync Server 2013에서 토폴로지 정의 및 구성</span><span class="sxs-lookup"><span data-stu-id="ed281-110">Defining and configuring the topology in Lync Server 2013</span></span>](lync-server-2013-defining-and-configuring-the-topology.md)
 
-  - [<span data-ttu-id="9a343-111">Lync Server 2013에서 토폴로지 디자인 마무리 및 구현</span><span class="sxs-lookup"><span data-stu-id="9a343-111">Finalizing and implementing the topology design in Lync Server 2013</span></span>](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
+  - [<span data-ttu-id="ed281-111">Lync Server 2013에서 토폴로지 디자인 마무리 및 구현</span><span class="sxs-lookup"><span data-stu-id="ed281-111">Finalizing and implementing the topology design in Lync Server 2013</span></span>](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
 
-  - [<span data-ttu-id="9a343-112">Lync Server 2013에 대 한 프런트 엔드 서버 및 프런트 엔드 풀 설정</span><span class="sxs-lookup"><span data-stu-id="9a343-112">Setting up Front End Servers and Front End pools for Lync Server 2013</span></span>](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
+  - [<span data-ttu-id="ed281-112">Lync Server 2013에 대 한 프런트 엔드 서버 및 프런트 엔드 풀 설정</span><span class="sxs-lookup"><span data-stu-id="ed281-112">Setting up Front End Servers and Front End pools for Lync Server 2013</span></span>](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
 
-  - [<span data-ttu-id="9a343-113">Lync Server 2013 Standard Edition을 기존 Lync Server 2013 Enterprise에 배포</span><span class="sxs-lookup"><span data-stu-id="9a343-113">Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise</span></span>](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
+  - [<span data-ttu-id="ed281-113">Lync Server 2013 Standard Edition을 기존 Lync Server 2013 Enterprise에 배포</span><span class="sxs-lookup"><span data-stu-id="ed281-113">Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise</span></span>](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
 
-  - [<span data-ttu-id="9a343-114">Lync Server 2013에서 서버 역할 추가</span><span class="sxs-lookup"><span data-stu-id="9a343-114">Adding server roles in Lync Server 2013</span></span>](lync-server-2013-adding-server-roles.md)
+  - [<span data-ttu-id="ed281-114">Lync Server 2013에서 서버 역할 추가</span><span class="sxs-lookup"><span data-stu-id="ed281-114">Adding server roles in Lync Server 2013</span></span>](lync-server-2013-adding-server-roles.md)
 
-  - [<span data-ttu-id="9a343-115">Lync Server 2013에서 Kerberos 인증 설정</span><span class="sxs-lookup"><span data-stu-id="9a343-115">Setting up Kerberos authentication in Lync Server 2013</span></span>](lync-server-2013-setting-up-kerberos-authentication.md)
+  - [<span data-ttu-id="ed281-115">Lync Server 2013에서 Kerberos 인증 설정</span><span class="sxs-lookup"><span data-stu-id="ed281-115">Setting up Kerberos authentication in Lync Server 2013</span></span>](lync-server-2013-setting-up-kerberos-authentication.md)
 
 </div>
 

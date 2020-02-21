@@ -12,20 +12,20 @@ ms:contentKeyID: 48184540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9ccbe69e4ac3c9453756a42a68969b3373a4af5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 32c5f3cdd8000892886b3273fbb33fc1b1f668e4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154780"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a><span data-ttu-id="139ea-102">Lync Server 2013에서 네트워크 지역 경로 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="139ea-102">Creating or modifying network region routes in Lync Server 2013</span></span>
+# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a><span data-ttu-id="4a3bc-102">Lync Server 2013에서 네트워크 지역 경로 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="4a3bc-102">Creating or modifying network region routes in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,78 +35,78 @@ ms.locfileid: "42154780"
 
 <span> </span>
 
-<span data-ttu-id="139ea-103">_**마지막으로 수정 된 항목:** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="139ea-103">_**Topic Last Modified:** 2012-10-08_</span></span>
+<span data-ttu-id="4a3bc-103">_**마지막으로 수정 된 항목:** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="4a3bc-103">_**Topic Last Modified:** 2012-10-08_</span></span>
 
-<span data-ttu-id="139ea-104">CAC(통화 허용 제어) 구성 내의 모든 지역에는 다른 모든 지역에 액세스할 수 있는 방법이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-104">Every region within a call admission control (CAC) configuration must have some way to access every other region.</span></span> <span data-ttu-id="139ea-105">지역 링크는 지역 간 연결에 대한 대역폭 제한을 설정하고 실제 링크를 나타내며, 경로는 한 지역에서 다른 지역으로 연결이 트래버스되는 연결된 경로를 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-105">While region links set bandwidth limitations on the connections between regions and also represent the physical links, a route determines which linked path the connection will traverse from one region to another.</span></span> <span data-ttu-id="139ea-106">Lync Server 제어판을 사용 하 여 네트워크 지역 경로를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-106">You can use Lync Server Control Panel to configure network region routes.</span></span> <span data-ttu-id="139ea-107">Lync Server 제어판에서는 네트워크 지역 경로를 만들거나 수정 하거나 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-107">From Lync Server Control Panel, you can create, modify, or delete a network region route.</span></span> <span data-ttu-id="139ea-108">이 항목의 정보에 따라 네트워크 지역을 만들거나 수정하십시오.</span><span class="sxs-lookup"><span data-stu-id="139ea-108">Use this topic to create or modify a network region route.</span></span> <span data-ttu-id="139ea-109">기존 네트워크 지역 경로를 삭제 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 기존 네트워크 지역 경로 삭제](lync-server-2013-deleting-existing-network-region-routes.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="139ea-109">For details about deleting an existing network region routes, see [Deleting existing network region routes in Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md).</span></span>
+<span data-ttu-id="4a3bc-104">CAC(통화 허용 제어) 구성 내의 모든 지역에는 다른 모든 지역에 액세스할 수 있는 방법이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-104">Every region within a call admission control (CAC) configuration must have some way to access every other region.</span></span> <span data-ttu-id="4a3bc-105">지역 링크는 지역 간 연결에 대한 대역폭 제한을 설정하고 실제 링크를 나타내며, 경로는 한 지역에서 다른 지역으로 연결이 트래버스되는 연결된 경로를 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-105">While region links set bandwidth limitations on the connections between regions and also represent the physical links, a route determines which linked path the connection will traverse from one region to another.</span></span> <span data-ttu-id="4a3bc-106">Lync Server 제어판을 사용 하 여 네트워크 지역 경로를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-106">You can use Lync Server Control Panel to configure network region routes.</span></span> <span data-ttu-id="4a3bc-107">Lync Server 제어판에서는 네트워크 지역 경로를 만들거나 수정 하거나 삭제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-107">From Lync Server Control Panel, you can create, modify, or delete a network region route.</span></span> <span data-ttu-id="4a3bc-108">이 항목의 정보에 따라 네트워크 지역을 만들거나 수정하십시오.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-108">Use this topic to create or modify a network region route.</span></span> <span data-ttu-id="4a3bc-109">기존 네트워크 지역 경로를 삭제 하는 방법에 대 한 자세한 내용은 [Lync Server 2013에서 기존 네트워크 지역 경로 삭제](lync-server-2013-deleting-existing-network-region-routes.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-109">For details about deleting an existing network region routes, see [Deleting existing network region routes in Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md).</span></span>
 
 <div>
 
-## <a name="to-create-a-network-region-route"></a><span data-ttu-id="139ea-110">네트워크 지역 경로를 만들려면</span><span class="sxs-lookup"><span data-stu-id="139ea-110">To create a network region route</span></span>
+## <a name="to-create-a-network-region-route"></a><span data-ttu-id="4a3bc-110">네트워크 지역 경로를 만들려면</span><span class="sxs-lookup"><span data-stu-id="4a3bc-110">To create a network region route</span></span>
 
-1.  <span data-ttu-id="139ea-111">RTCUniversalServerAdmins 그룹의 구성원 인 사용자 계정 (또는 이와 동등한 사용자 권한 포함) 또는 CsAdministrator 역할이 할당 되 면 내부 배포의 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-111">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="4a3bc-111">RTCUniversalServerAdmins 그룹의 구성원 인 사용자 계정 (또는 이와 동등한 사용자 권한 포함) 또는 CsAdministrator 역할이 할당 되 면 내부 배포의 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-111">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="139ea-112">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="139ea-113">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="139ea-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="4a3bc-112">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="4a3bc-113">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="139ea-114">왼쪽 탐색 모음에서 **네트워크 구성**을 클릭한 다음 **지역 경로**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-114">In the left navigation bar, click **Network Configuration** and then click **Region Route**.</span></span>
+3.  <span data-ttu-id="4a3bc-114">왼쪽 탐색 모음에서 **네트워크 구성**을 클릭한 다음 **지역 경로**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-114">In the left navigation bar, click **Network Configuration** and then click **Region Route**.</span></span>
 
-4.  <span data-ttu-id="139ea-115">**지역 경로** 페이지에서 **새로 만들기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-115">On the **Region Route** page, click **New**.</span></span>
+4.  <span data-ttu-id="4a3bc-115">**지역 경로** 페이지에서 **새로 만들기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-115">On the **Region Route** page, click **New**.</span></span>
 
-5.  <span data-ttu-id="139ea-116">**새 지역 경로**에서 **이름** 필드에 값을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-116">In **New Region Route**, type a value in the **Name** field.</span></span>
+5.  <span data-ttu-id="4a3bc-116">**새 지역 경로**에서 **이름** 필드에 값을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-116">In **New Region Route**, type a value in the **Name** field.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="139ea-117">이 값은 Microsoft Lync Server 2013 배포 내에서 고유 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-117">This value must be unique within your Microsoft Lync Server 2013 deployment.</span></span>
+    > <span data-ttu-id="4a3bc-117">이 값은 Microsoft Lync Server 2013 배포 내에서 고유 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-117">This value must be unique within your Microsoft Lync Server 2013 deployment.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="139ea-118">**네트워크 지역 \#1** 드롭다운 목록에서이 경로를 사용 하 여 연결할 두 지역 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-118">From the **Network region \#1** drop-down list, select one of the two regions to be connected by this route.</span></span>
+6.  <span data-ttu-id="4a3bc-118">**네트워크 지역 \#1** 드롭다운 목록에서이 경로를 사용 하 여 연결할 두 지역 중 하나를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-118">From the **Network region \#1** drop-down list, select one of the two regions to be connected by this route.</span></span>
 
-7.  <span data-ttu-id="139ea-119">**네트워크 지역 \#2** 드롭다운 목록에서이 경로의 다른 지역을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-119">From the **Network region \#2** drop-down list, select the other region for this route.</span></span> <span data-ttu-id="139ea-120">이 지역은 네트워크 지역 \#1에 대해 선택 된 지역과 달라 야 합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-120">This region must be different from the region selected for Network region \#1.</span></span>
+7.  <span data-ttu-id="4a3bc-119">**네트워크 지역 \#2** 드롭다운 목록에서이 경로의 다른 지역을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-119">From the **Network region \#2** drop-down list, select the other region for this route.</span></span> <span data-ttu-id="4a3bc-120">이 지역은 네트워크 지역 \#1에 대해 선택 된 지역과 달라 야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-120">This region must be different from the region selected for Network region \#1.</span></span>
 
-8.  <span data-ttu-id="139ea-p104">**네트워크 지역 링크** 목록 상자를 사용하여 경로에 지역 링크를 추가합니다. **추가** 단추를 클릭하여 **지역 링크** 페이지를 표시합니다. 이 경로에 추가할 지역 링크를 클릭한 다음 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-p104">Use the **Network region links** list box to add region links to the route. Click the **Add** button to display the **Region Link** page. Click a region link to add to this route, and then click **OK**.</span></span>
+8.  <span data-ttu-id="4a3bc-p104">**네트워크 지역 링크** 목록 상자를 사용하여 경로에 지역 링크를 추가합니다. **추가** 단추를 클릭하여 **지역 링크** 페이지를 표시합니다. 이 경로에 추가할 지역 링크를 클릭한 다음 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-p104">Use the **Network region links** list box to add region links to the route. Click the **Add** button to display the **Region Link** page. Click a region link to add to this route, and then click **OK**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="139ea-124">계속해서 링크를 더 추가하려면 <STRONG>추가</STRONG> 단추를 클릭하고 링크를 제거하려면 링크를 선택하고 <STRONG>제거</STRONG>를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-124">Continue to click the <STRONG>Add</STRONG> button to add more links, or select a link and click <STRONG>Remove</STRONG> to remove a link.</span></span>
+    > <span data-ttu-id="4a3bc-124">계속해서 링크를 더 추가하려면 <STRONG>추가</STRONG> 단추를 클릭하고 링크를 제거하려면 링크를 선택하고 <STRONG>제거</STRONG>를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-124">Continue to click the <STRONG>Add</STRONG> button to add more links, or select a link and click <STRONG>Remove</STRONG> to remove a link.</span></span>
 
     
     </div>
 
-9.  <span data-ttu-id="139ea-125">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-125">Click **Commit**.</span></span>
+9.  <span data-ttu-id="4a3bc-125">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-125">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-modify-a-network-region-route"></a><span data-ttu-id="139ea-126">네트워크 지역 경로를 수정하려면</span><span class="sxs-lookup"><span data-stu-id="139ea-126">To modify a network region route</span></span>
+## <a name="to-modify-a-network-region-route"></a><span data-ttu-id="4a3bc-126">네트워크 지역 경로를 수정하려면</span><span class="sxs-lookup"><span data-stu-id="4a3bc-126">To modify a network region route</span></span>
 
-1.  <span data-ttu-id="139ea-127">RTCUniversalServerAdmins 그룹의 구성원 인 사용자 계정 (또는 이와 동등한 사용자 권한 포함) 또는 CsAdministrator 역할이 할당 되 면 내부 배포의 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-127">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="4a3bc-127">RTCUniversalServerAdmins 그룹의 구성원 인 사용자 계정 (또는 이와 동등한 사용자 권한 포함) 또는 CsAdministrator 역할이 할당 되 면 내부 배포의 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-127">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="139ea-128">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-128">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="139ea-129">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="139ea-129">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="4a3bc-128">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-128">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="4a3bc-129">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-129">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="139ea-130">왼쪽 탐색 모음에서 **네트워크 구성**을 클릭한 다음 **지역 경로**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-130">In the left navigation bar, click **Network Configuration** and then click **Region Route**.</span></span>
+3.  <span data-ttu-id="4a3bc-130">왼쪽 탐색 모음에서 **네트워크 구성**을 클릭한 다음 **지역 경로**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-130">In the left navigation bar, click **Network Configuration** and then click **Region Route**.</span></span>
 
-4.  <span data-ttu-id="139ea-131">**지역 경로** 페이지에서 수정할 지역 경로를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-131">On the **Region Route** page, click the region route that you want to modify.</span></span>
+4.  <span data-ttu-id="4a3bc-131">**지역 경로** 페이지에서 수정할 지역 경로를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-131">On the **Region Route** page, click the region route that you want to modify.</span></span>
 
-5.  <span data-ttu-id="139ea-132">**편집** 메뉴에서 **세부 정보 표시**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-132">On the **Edit** menu, click **Show details**.</span></span>
+5.  <span data-ttu-id="4a3bc-132">**편집** 메뉴에서 **세부 정보 표시**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-132">On the **Edit** menu, click **Show details**.</span></span>
 
-6.  <span data-ttu-id="139ea-133">**지역 경로 편집**에서 이 경로에 참가하는 지역 및 해당 경로와 연결된 지역 링크를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-133">In **Edit Region Route**, you can modify the regions joined by this route and the region links associated with the route.</span></span>
+6.  <span data-ttu-id="4a3bc-133">**지역 경로 편집**에서 이 경로에 참가하는 지역 및 해당 경로와 연결된 지역 링크를 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-133">In **Edit Region Route**, you can modify the regions joined by this route and the region links associated with the route.</span></span>
 
-7.  <span data-ttu-id="139ea-134">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="139ea-134">Click **Commit**.</span></span>
+7.  <span data-ttu-id="4a3bc-134">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4a3bc-134">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="139ea-135">참고 항목</span><span class="sxs-lookup"><span data-stu-id="139ea-135">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4a3bc-135">참고 항목</span><span class="sxs-lookup"><span data-stu-id="4a3bc-135">See Also</span></span>
 
 
-[<span data-ttu-id="139ea-136">Lync Server 2013에서 기존 네트워크 지역 경로 삭제</span><span class="sxs-lookup"><span data-stu-id="139ea-136">Deleting existing network region routes in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-region-routes.md)  
+[<span data-ttu-id="4a3bc-136">Lync Server 2013에서 기존 네트워크 지역 경로 삭제</span><span class="sxs-lookup"><span data-stu-id="4a3bc-136">Deleting existing network region routes in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-region-routes.md)  
   
 
 </div>
