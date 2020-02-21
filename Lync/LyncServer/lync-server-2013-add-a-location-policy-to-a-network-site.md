@@ -12,20 +12,20 @@ ms:contentKeyID: 48183980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a817a1a94b6e02167d488212dd532537cec0146
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: de9592b631562752fd2759d54b623d2ec3177d25
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42145036"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42199961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a><span data-ttu-id="4da94-102">Lync Server 2013에서 네트워크 사이트에 위치 정책 추가</span><span class="sxs-lookup"><span data-stu-id="4da94-102">Add a location policy to a network site in Lync Server 2013</span></span>
+# <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a><span data-ttu-id="c68bb-102">Lync Server 2013에서 네트워크 사이트에 위치 정책 추가</span><span class="sxs-lookup"><span data-stu-id="c68bb-102">Add a location policy to a network site in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42145036"
 
 <span> </span>
 
-<span data-ttu-id="4da94-103">_**마지막으로 수정 된 항목:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="4da94-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="c68bb-103">_**마지막으로 수정 된 항목:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="c68bb-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="4da94-104">다음 예에서는 [Lync Server 2013의 만들기 위치 정책](lync-server-2013-create-location-policies.md) 에 정의 된 **Redmond** 위치 정책을 기존 네트워크 사이트에 추가 하는 방법과 **redmond** 위치 정책을 사용 하는 새 네트워크 사이트를 만드는 방법을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="4da94-104">The following examples show how to add the **Redmond** location policy defined in [Create location policies in Lync Server 2013](lync-server-2013-create-location-policies.md) to an existing network site and how to create a new network site that uses the **Redmond** location policy.</span></span>
+<span data-ttu-id="c68bb-104">다음 예에서는 [Lync Server 2013의 만들기 위치 정책](lync-server-2013-create-location-policies.md) 에 정의 된 **Redmond** 위치 정책을 기존 네트워크 사이트에 추가 하는 방법과 **redmond** 위치 정책을 사용 하는 새 네트워크 사이트를 만드는 방법을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="c68bb-104">The following examples show how to add the **Redmond** location policy defined in [Create location policies in Lync Server 2013](lync-server-2013-create-location-policies.md) to an existing network site and how to create a new network site that uses the **Redmond** location policy.</span></span>
 
-<span data-ttu-id="4da94-105">네트워크 사이트를 사용 하는 방법에 대 한 자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="4da94-105">For details about working with network sites, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="c68bb-105">네트워크 사이트를 사용 하는 방법에 대 한 자세한 내용은 다음 cmdlet에 대 한 Lync Server 관리 셸 설명서를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c68bb-105">For details about working with network sites, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - <span data-ttu-id="4da94-106">**새-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="4da94-106">**New-CsNetworkSite**</span></span>
+  - <span data-ttu-id="c68bb-106">**새-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="c68bb-106">**New-CsNetworkSite**</span></span>
 
-  - <span data-ttu-id="4da94-107">**Get-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="4da94-107">**Get-CsNetworkSite**</span></span>
+  - <span data-ttu-id="c68bb-107">**Get-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="c68bb-107">**Get-CsNetworkSite**</span></span>
 
-  - <span data-ttu-id="4da94-108">**설정-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="4da94-108">**Set-CsNetworkSite**</span></span>
+  - <span data-ttu-id="c68bb-108">**설정-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="c68bb-108">**Set-CsNetworkSite**</span></span>
 
-  - <span data-ttu-id="4da94-109">**CsNetworkSite를 제거 합니다.**</span><span class="sxs-lookup"><span data-stu-id="4da94-109">**Remove-CsNetworkSite**</span></span>
+  - <span data-ttu-id="c68bb-109">**CsNetworkSite를 제거 합니다.**</span><span class="sxs-lookup"><span data-stu-id="c68bb-109">**Remove-CsNetworkSite**</span></span>
 
 <div>
 
-## <a name="to-assign-a-location-policy-to-an-existing-network-site"></a><span data-ttu-id="4da94-110">기존 네트워크 사이트에 위치 정책을 지정하려면</span><span class="sxs-lookup"><span data-stu-id="4da94-110">To assign a location policy to an existing network site</span></span>
+## <a name="to-assign-a-location-policy-to-an-existing-network-site"></a><span data-ttu-id="c68bb-110">기존 네트워크 사이트에 위치 정책을 지정하려면</span><span class="sxs-lookup"><span data-stu-id="c68bb-110">To assign a location policy to an existing network site</span></span>
 
-1.  <span data-ttu-id="4da94-111">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="4da94-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="c68bb-111">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="c68bb-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="4da94-112">다음 cmdlet을 실행하여 기존 네트워크 사이트를 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="4da94-112">Run the following cmdlets to modify an existing network site.</span></span>
+2.  <span data-ttu-id="c68bb-112">다음 cmdlet을 실행하여 기존 네트워크 사이트를 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="c68bb-112">Run the following cmdlets to modify an existing network site.</span></span>
     
-    <span data-ttu-id="4da94-113">**Redmond 태그가 지정** 된 위치 정책을 **redmond**라는 기존 네트워크 사이트에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="4da94-113">Assign the **Redmond** tagged Location policy to an existing network site named **Redmond**.</span></span>
+    <span data-ttu-id="c68bb-113">**Redmond 태그가 지정** 된 위치 정책을 **redmond**라는 기존 네트워크 사이트에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="c68bb-113">Assign the **Redmond** tagged Location policy to an existing network site named **Redmond**.</span></span>
     
         Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
 
@@ -65,13 +65,13 @@ ms.locfileid: "42145036"
 
 <div>
 
-## <a name="to-assign-a-location-policy-to-a-new-network-site"></a><span data-ttu-id="4da94-114">새 네트워크 사이트에 위치 정책을 지정하려면</span><span class="sxs-lookup"><span data-stu-id="4da94-114">To assign a location policy to a new network site</span></span>
+## <a name="to-assign-a-location-policy-to-a-new-network-site"></a><span data-ttu-id="c68bb-114">새 네트워크 사이트에 위치 정책을 지정하려면</span><span class="sxs-lookup"><span data-stu-id="c68bb-114">To assign a location policy to a new network site</span></span>
 
-1.  <span data-ttu-id="4da94-115">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="4da94-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="c68bb-115">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="c68bb-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="4da94-116">다음 cmdlet을 실행하여 새 네트워크 사이트를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="4da94-116">Run the following cmdlet to create a new network site.</span></span>
+2.  <span data-ttu-id="c68bb-116">다음 cmdlet을 실행하여 새 네트워크 사이트를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="c68bb-116">Run the following cmdlet to create a new network site.</span></span>
     
-    <span data-ttu-id="4da94-117">네트워크 지역에 새 네트워크 사이트를 만들어 태그가 지정된 **Redmond** 위치 정책을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="4da94-117">Create a new network site in the network region and assign the **Redmond** tagged Location policy.</span></span>
+    <span data-ttu-id="c68bb-117">네트워크 지역에 새 네트워크 사이트를 만들어 태그가 지정된 **Redmond** 위치 정책을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="c68bb-117">Create a new network site in the network region and assign the **Redmond** tagged Location policy.</span></span>
     
         New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
 

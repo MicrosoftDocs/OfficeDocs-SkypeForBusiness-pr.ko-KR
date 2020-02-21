@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcbbfab675d21b9791537e9ebd677ad5845e02a4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 106be5636d37df64b9a047dd6ff692cc445e7a2b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018119"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42203894"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft 팀의 최종 사용자 교육
 
@@ -137,7 +137,7 @@ ms.locfileid: "42018119"
                 <div class="card">
                     <div class="cardText">
                         <h3>빠른 시작</h3>
-                         <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">이 빠른 시작 가이드 (PDF)를 다운로드 하 여 기본 사항 배우기</a></p>
+                         <p><a href="https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">이 빠른 시작 가이드 (PDF)를 다운로드 하 여 기본 사항 배우기</a></p>
                         <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">이 빠른 시작의 문서에 따라 빠르게 속도를 높일 수 있습니다.</a></p>
                     </div>
                 </div>

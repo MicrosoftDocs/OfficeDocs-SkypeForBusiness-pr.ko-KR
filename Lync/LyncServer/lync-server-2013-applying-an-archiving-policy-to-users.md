@@ -12,20 +12,20 @@ ms:contentKeyID: 48184290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0128d17f3089207eccd94b175057bcbcb5d467f2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: ff273b4c7afd8bf0a1280b37118eede9f95d3c76
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134534"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42204429"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="applying-an-archiving-policy-to-users-in-lync-server-2013"></a><span data-ttu-id="3a511-102">Lync Server 2013의 사용자에 게 보관 정책 적용</span><span class="sxs-lookup"><span data-stu-id="3a511-102">Applying an Archiving policy to users in Lync Server 2013</span></span>
+# <a name="applying-an-archiving-policy-to-users-in-lync-server-2013"></a><span data-ttu-id="0fc93-102">Lync Server 2013의 사용자에 게 보관 정책 적용</span><span class="sxs-lookup"><span data-stu-id="0fc93-102">Applying an Archiving policy to users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,60 +35,60 @@ ms.locfileid: "42134534"
 
 <span> </span>
 
-<span data-ttu-id="3a511-103">_**마지막으로 수정 된 항목:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="3a511-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="0fc93-103">_**마지막으로 수정 된 항목:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="0fc93-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="3a511-104">사용자가 Lync Server 2013를 사용할 수 있도록 설정 되어 있고 Lync Server 2013에 있는 사용자에 대해 보관 하기 위한 사용자 정책을 하나 이상 만든 경우 해당 사용자 또는 사용자 그룹에 적절 한 정책을 적용 하 여 특정 사용자에 대 한 보관 지원을 구현할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-104">If a user has been enabled for Lync Server 2013 and you have created one or more user policies for archiving for users homed on Lync Server 2013, you can implement archiving support for specific users by applying the appropriate policies to those users or user groups.</span></span> <span data-ttu-id="3a511-105">예를 들어 내부 통신 보관을 지원 하기 위한 정책을 만드는 경우 사용자의 Lync Server 2013 통신 보관을 지원 하기 위해 하나 이상의 사용자 또는 사용자 그룹에 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-105">For example, if you create a policy to support archiving of internal communications, you can apply it to at least one user or user group to support archiving of the user’s Lync Server 2013 communications.</span></span>
+<span data-ttu-id="0fc93-104">사용자가 Lync Server 2013를 사용할 수 있도록 설정 되어 있고 Lync Server 2013에 있는 사용자에 대해 보관 하기 위한 사용자 정책을 하나 이상 만든 경우 해당 사용자 또는 사용자 그룹에 적절 한 정책을 적용 하 여 특정 사용자에 대 한 보관 지원을 구현할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-104">If a user has been enabled for Lync Server 2013 and you have created one or more user policies for archiving for users homed on Lync Server 2013, you can implement archiving support for specific users by applying the appropriate policies to those users or user groups.</span></span> <span data-ttu-id="0fc93-105">예를 들어 내부 통신 보관을 지원 하기 위한 정책을 만드는 경우 사용자의 Lync Server 2013 통신 보관을 지원 하기 위해 하나 이상의 사용자 또는 사용자 그룹에 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-105">For example, if you create a policy to support archiving of internal communications, you can apply it to at least one user or user group to support archiving of the user’s Lync Server 2013 communications.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="3a511-106">배포에 Microsoft Exchange 통합을 사용 하도록 설정한 경우 Exchange 2013에 있는 사용자에 대해 보관을 사용 하도록 설정 하 고 해당 사서함을 원본 위치 유지 상태로 전환 하는지 여부를 제어 합니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-106">If you enabled Microsoft Exchange integration for your deployment, Exchange In-Place Hold policies control whether archiving is enabled for the users who are homed on Exchange 2013 and have their mailboxes put on In-Place Hold.</span></span> <span data-ttu-id="3a511-107">자세한 내용은 배포 설명서에서 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 통합을 사용 하는 경우 Lync server 2013에서 보관에 대 한 정책 설정을</A> 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="3a511-107">For details, see <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies for Archiving in Lync Server 2013 when using Exchange Server integration</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="3a511-108">보관을 사용하도록 설정하기 전에 보관 구성에서 모든 해당 옵션을 지정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-108">You should specify all appropriate options in the Archiving configurations before enabling Archiving.</span></span> <span data-ttu-id="3a511-109">자세한 내용은 작업 설명서에서 <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">조직, 사이트 및 풀에 대 한 Lync Server 2013의 보관 구성 옵션 관리</A> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="3a511-109">For details, see <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</A> in the Operations documentation.</span></span>
+> <span data-ttu-id="0fc93-106">배포에 Microsoft Exchange 통합을 사용 하도록 설정한 경우 Exchange 2013에 있는 사용자에 대해 보관을 사용 하도록 설정 하 고 해당 사서함을 원본 위치 유지 상태로 전환 하는지 여부를 제어 합니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-106">If you enabled Microsoft Exchange integration for your deployment, Exchange In-Place Hold policies control whether archiving is enabled for the users who are homed on Exchange 2013 and have their mailboxes put on In-Place Hold.</span></span> <span data-ttu-id="0fc93-107">자세한 내용은 배포 설명서에서 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 통합을 사용 하는 경우 Lync server 2013에서 보관에 대 한 정책 설정을</A> 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="0fc93-107">For details, see <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies for Archiving in Lync Server 2013 when using Exchange Server integration</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="0fc93-108">보관을 사용하도록 설정하기 전에 보관 구성에서 모든 해당 옵션을 지정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-108">You should specify all appropriate options in the Archiving configurations before enabling Archiving.</span></span> <span data-ttu-id="0fc93-109">자세한 내용은 작업 설명서에서 <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">조직, 사이트 및 풀에 대 한 Lync Server 2013의 보관 구성 옵션 관리</A> 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="0fc93-109">For details, see <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</A> in the Operations documentation.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="3a511-110">이 항목의 절차를 사용하여 이전에 만든 보관 사용자 정책을 하나 이상의 사용자 계정 또는 사용자 그룹에 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-110">Use the procedure in this topic to apply a previously created Archiving user policy to one or more user accounts or user groups.</span></span>
+<span data-ttu-id="0fc93-110">이 항목의 절차를 사용하여 이전에 만든 보관 사용자 정책을 하나 이상의 사용자 계정 또는 사용자 그룹에 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-110">Use the procedure in this topic to apply a previously created Archiving user policy to one or more user accounts or user groups.</span></span>
 
 <div>
 
-## <a name="to-apply-an-archiving-user-policy-to-a-user-account"></a><span data-ttu-id="3a511-111">사용자 계정에 보관 사용자 정책을 적용하려면</span><span class="sxs-lookup"><span data-stu-id="3a511-111">To apply an archiving user policy to a user account</span></span>
+## <a name="to-apply-an-archiving-user-policy-to-a-user-account"></a><span data-ttu-id="0fc93-111">사용자 계정에 보관 사용자 정책을 적용하려면</span><span class="sxs-lookup"><span data-stu-id="0fc93-111">To apply an archiving user policy to a user account</span></span>
 
-1.  <span data-ttu-id="3a511-112">CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-112">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="0fc93-112">CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-112">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="3a511-113">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="3a511-114">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="3a511-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="0fc93-113">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="0fc93-114">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="0fc93-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="3a511-115">왼쪽 탐색 모음에서 **사용자**를 클릭하고 구성하려는 사용자 계정을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-115">In the left navigation bar, click **Users**, and then search for the user account that you want to configure.</span></span>
+3.  <span data-ttu-id="0fc93-115">왼쪽 탐색 모음에서 **사용자**를 클릭하고 구성하려는 사용자 계정을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-115">In the left navigation bar, click **Users**, and then search for the user account that you want to configure.</span></span>
 
-4.  <span data-ttu-id="3a511-116">검색 결과가 나열된 표에서 사용자 계정을 클릭하고 **편집**을 클릭한 후에 **세부 정보 표시**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-116">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
+4.  <span data-ttu-id="0fc93-116">검색 결과가 나열된 표에서 사용자 계정을 클릭하고 **편집**을 클릭한 후에 **세부 정보 표시**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-116">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
 
-5.  <span data-ttu-id="3a511-117">**보관 정책**아래의 **Lync Server 사용자 편집** 에서 적용 하려는 보관 사용자 정책을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-117">In **Edit Lync Server User** under **Archiving policy**, select the archiving user policy that you want to apply.</span></span>
+5.  <span data-ttu-id="0fc93-117">**보관 정책**아래의 **Lync Server 사용자 편집** 에서 적용 하려는 보관 사용자 정책을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-117">In **Edit Lync Server User** under **Archiving policy**, select the archiving user policy that you want to apply.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="3a511-118">자동 설정은 기본 서버 설치 설정을 적용 합니다. <STRONG> &lt;&gt; </STRONG></span><span class="sxs-lookup"><span data-stu-id="3a511-118">The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server installation settings.</span></span> <span data-ttu-id="3a511-119">이러한 설정은 서버에 의해 자동으로 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-119">These settings are applied automatically by the server.</span></span>
+    > <span data-ttu-id="0fc93-118">자동 설정은 기본 서버 설치 설정을 적용 합니다. <STRONG> &lt;&gt; </STRONG></span><span class="sxs-lookup"><span data-stu-id="0fc93-118">The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server installation settings.</span></span> <span data-ttu-id="0fc93-119">이러한 설정은 서버에 의해 자동으로 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-119">These settings are applied automatically by the server.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="3a511-120">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-120">Click **Commit**.</span></span>
+6.  <span data-ttu-id="0fc93-120">**커밋**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-120">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="3a511-121">Windows PowerShell Cmdlet을 사용 하 여 사용자별 보관 정책 할당</span><span class="sxs-lookup"><span data-stu-id="3a511-121">Assigning a Per-User Archiving Policy by Using Windows PowerShell Cmdlets</span></span>
+## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="0fc93-121">Windows PowerShell Cmdlet을 사용 하 여 사용자별 보관 정책 할당</span><span class="sxs-lookup"><span data-stu-id="0fc93-121">Assigning a Per-User Archiving Policy by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="3a511-122">사용자 단위 보관 정책은 Windows PowerShell 및 **grant-csarchivingpolicy** cmdlet을 사용 하 여 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-122">Per-user archiving policies can be assigned by using Windows PowerShell and the **Grant-CsArchivingPolicy** cmdlet.</span></span> <span data-ttu-id="3a511-123">Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-123">You can run this cmdlet from either the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="3a511-124">원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="3a511-124">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="0fc93-122">사용자 단위 보관 정책은 Windows PowerShell 및 **grant-csarchivingpolicy** cmdlet을 사용 하 여 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-122">Per-user archiving policies can be assigned by using Windows PowerShell and the **Grant-CsArchivingPolicy** cmdlet.</span></span> <span data-ttu-id="0fc93-123">Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서이 cmdlet을 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-123">You can run this cmdlet from either the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="0fc93-124">원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="0fc93-124">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-assign-a-per-user-archiving-policy-to-a-single-user"></a><span data-ttu-id="3a511-125">단일 사용자에 게 사용자별 보관 정책을 할당 하려면</span><span class="sxs-lookup"><span data-stu-id="3a511-125">To assign a per-user archiving policy to a single user</span></span>
+## <a name="to-assign-a-per-user-archiving-policy-to-a-single-user"></a><span data-ttu-id="0fc93-125">단일 사용자에 게 사용자별 보관 정책을 할당 하려면</span><span class="sxs-lookup"><span data-stu-id="0fc93-125">To assign a per-user archiving policy to a single user</span></span>
 
-  - <span data-ttu-id="3a511-126">다음 명령은 사용자별 보관 정책 RedmondArchivingPolicy를 Ken Myer라는 사용자에게 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-126">The following command assigns the per-user archiving policy RedmondArchivingPolicy to the user Ken Myer.</span></span>
+  - <span data-ttu-id="0fc93-126">다음 명령은 사용자별 보관 정책 RedmondArchivingPolicy를 Ken Myer라는 사용자에게 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-126">The following command assigns the per-user archiving policy RedmondArchivingPolicy to the user Ken Myer.</span></span>
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 
@@ -96,9 +96,9 @@ ms.locfileid: "42134534"
 
 <div>
 
-## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a><span data-ttu-id="3a511-127">사용자별 보관 정책을 여러 사용자에 게 할당 하려면</span><span class="sxs-lookup"><span data-stu-id="3a511-127">To assign a per-user archiving policy to multiple users</span></span>
+## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a><span data-ttu-id="0fc93-127">사용자별 보관 정책을 여러 사용자에 게 할당 하려면</span><span class="sxs-lookup"><span data-stu-id="0fc93-127">To assign a per-user archiving policy to multiple users</span></span>
 
-  - <span data-ttu-id="3a511-128">이 명령은 사용자별 보관 정책 RedmondArchivingPolicy를 계정이 등록자 풀 atl-cs-001.litwareinc.com에 있는 모든 사용자에게 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-128">This command assigns the per-user archiving policy RedmondArchivingPolicy to all users who have accounts homed on the Registrar pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="3a511-129">이 명령에 사용 된 Filter 매개 변수에 대 한 자세한 내용은 [csuser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) c i c c i c c a c c-설명서를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="3a511-129">For details about the Filter parameter used in this command, see the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) cmdlet documentation.</span></span>
+  - <span data-ttu-id="0fc93-128">이 명령은 사용자별 보관 정책 RedmondArchivingPolicy를 계정이 등록자 풀 atl-cs-001.litwareinc.com에 있는 모든 사용자에게 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-128">This command assigns the per-user archiving policy RedmondArchivingPolicy to all users who have accounts homed on the Registrar pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="0fc93-129">이 명령에 사용 된 Filter 매개 변수에 대 한 자세한 내용은 [csuser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) c i c c i c c a c c-설명서를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="0fc93-129">For details about the Filter parameter used in this command, see the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) cmdlet documentation.</span></span>
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -106,25 +106,25 @@ ms.locfileid: "42134534"
 
 <div>
 
-## <a name="to-assign-a-per-user-archiving-policy"></a><span data-ttu-id="3a511-130">사용자별 보관 정책을 할당하려면</span><span class="sxs-lookup"><span data-stu-id="3a511-130">To assign a per-user archiving policy</span></span>
+## <a name="to-assign-a-per-user-archiving-policy"></a><span data-ttu-id="0fc93-130">사용자별 보관 정책을 할당하려면</span><span class="sxs-lookup"><span data-stu-id="0fc93-130">To assign a per-user archiving policy</span></span>
 
-  - <span data-ttu-id="3a511-p108">다음 명령은 이전에 Ken Myer에게 지정되었던 사용자별 보관 정책의 지정을 해제합니다. 사용자별 정책을 지정 해제한 후 Ken Myer는 자동으로 글로벌 정책 또는 로컬 사이트 정책(있는 경우)을 사용해서 관리됩니다. 사이트 정책은 글로벌 정책보다 우선 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="3a511-p108">The following command unassigns any per-user archiving policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.</span></span>
+  - <span data-ttu-id="0fc93-p108">다음 명령은 이전에 Ken Myer에게 지정되었던 사용자별 보관 정책의 지정을 해제합니다. 사용자별 정책을 지정 해제한 후 Ken Myer는 자동으로 글로벌 정책 또는 로컬 사이트 정책(있는 경우)을 사용해서 관리됩니다. 사이트 정책은 글로벌 정책보다 우선 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="0fc93-p108">The following command unassigns any per-user archiving policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.</span></span>
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
 </div>
 
-<span data-ttu-id="3a511-134">자세한 내용은 [grant-csarchivingpolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsArchivingPolicy) cmdlet 설명서를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="3a511-134">For details, see the [Grant-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsArchivingPolicy) cmdlet documentation.</span></span>
+<span data-ttu-id="0fc93-134">자세한 내용은 [grant-csarchivingpolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsArchivingPolicy) cmdlet 설명서를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="0fc93-134">For details, see the [Grant-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsArchivingPolicy) cmdlet documentation.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="3a511-135">참고 항목</span><span class="sxs-lookup"><span data-stu-id="3a511-135">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0fc93-135">참고 항목</span><span class="sxs-lookup"><span data-stu-id="0fc93-135">See Also</span></span>
 
 
-[<span data-ttu-id="3a511-136">Lync Server 2013에서 내부 및 외부 통신의 보관 관리</span><span class="sxs-lookup"><span data-stu-id="3a511-136">Managing the Archiving of internal and external communications in Lync Server 2013</span></span>](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
-[<span data-ttu-id="3a511-137">Lync Server 2013에서 사용자별 정책 할당</span><span class="sxs-lookup"><span data-stu-id="3a511-137">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)  
+[<span data-ttu-id="0fc93-136">Lync Server 2013에서 내부 및 외부 통신의 보관 관리</span><span class="sxs-lookup"><span data-stu-id="0fc93-136">Managing the Archiving of internal and external communications in Lync Server 2013</span></span>](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
+[<span data-ttu-id="0fc93-137">Lync Server 2013에서 사용자별 정책 할당</span><span class="sxs-lookup"><span data-stu-id="0fc93-137">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)  
   
 
 </div>
