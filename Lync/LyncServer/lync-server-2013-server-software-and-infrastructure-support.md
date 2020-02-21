@@ -12,20 +12,20 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c6eef7f6e7a9e9c2a11a35c46a51962c5740546
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 92794db01db02ec8c9413fdab8c2c31cc624dfaa
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42143956"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42182391"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="b1eb7-102">Lync Server 2013의 서버 소프트웨어 및 인프라 지원</span><span class="sxs-lookup"><span data-stu-id="b1eb7-102">Server software and infrastructure support in Lync Server 2013</span></span>
+# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="9c225-102">Lync Server 2013의 서버 소프트웨어 및 인프라 지원</span><span class="sxs-lookup"><span data-stu-id="9c225-102">Server software and infrastructure support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "42143956"
 
 <span> </span>
 
-<span data-ttu-id="b1eb7-103">_**마지막으로 수정 된 항목:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="b1eb7-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="9c225-103">_**마지막으로 수정 된 항목:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="9c225-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="b1eb7-104">모든 Lync Server 2013 서버 역할 및 저장소를 비롯 한 서버 구성 요소에 대 한 소프트웨어 지원에는 지원 되는 운영 체제, 데이터베이스 소프트웨어, 인프라 소프트웨어 및 특정 기능을 지 원하는 데 필요한 기타 소프트웨어가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b1eb7-104">Software support for server components, including all Lync Server 2013 server roles and storage, includes supported operating systems, database software, infrastructure software, and other software required to support specific functionality.</span></span> <span data-ttu-id="b1eb7-105">또한 서버 구성 요소 가상화도 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="b1eb7-105">It also includes virtualization of server components.</span></span>
+<span data-ttu-id="9c225-104">모든 Lync Server 2013 서버 역할 및 저장소를 비롯 한 서버 구성 요소에 대 한 소프트웨어 지원에는 지원 되는 운영 체제, 데이터베이스 소프트웨어, 인프라 소프트웨어 및 특정 기능을 지 원하는 데 필요한 기타 소프트웨어가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c225-104">Software support for server components, including all Lync Server 2013 server roles and storage, includes supported operating systems, database software, infrastructure software, and other software required to support specific functionality.</span></span> <span data-ttu-id="9c225-105">또한 서버 구성 요소 가상화도 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c225-105">It also includes virtualization of server components.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b1eb7-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="b1eb7-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9c225-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="9c225-106">In This Section</span></span>
 
-  - [<span data-ttu-id="b1eb7-107">Lync Server 2013의 서버 및 도구 운영 체제 지원</span><span class="sxs-lookup"><span data-stu-id="b1eb7-107">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)
+  - [<span data-ttu-id="9c225-107">Lync Server 2013의 서버 및 도구 운영 체제 지원</span><span class="sxs-lookup"><span data-stu-id="9c225-107">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)
 
-  - [<span data-ttu-id="b1eb7-108">Lync Server 2013의 데이터베이스 소프트웨어 지원</span><span class="sxs-lookup"><span data-stu-id="b1eb7-108">Database software support in Lync Server 2013</span></span>](lync-server-2013-database-software-support.md)
+  - [<span data-ttu-id="9c225-108">Lync Server 2013의 데이터베이스 소프트웨어 지원</span><span class="sxs-lookup"><span data-stu-id="9c225-108">Database software support in Lync Server 2013</span></span>](lync-server-2013-database-software-support.md)
 
-  - [<span data-ttu-id="b1eb7-109">Lync Server 2013의 Exchange Server 및 SharePoint 통합 지원</span><span class="sxs-lookup"><span data-stu-id="b1eb7-109">Exchange Server and SharePoint integration support in Lync Server 2013</span></span>](lync-server-2013-exchange-and-sharepoint-integration-support.md)
+  - [<span data-ttu-id="9c225-109">Lync Server 2013의 Exchange Server 및 SharePoint 통합 지원</span><span class="sxs-lookup"><span data-stu-id="9c225-109">Exchange Server and SharePoint integration support in Lync Server 2013</span></span>](lync-server-2013-exchange-and-sharepoint-integration-support.md)
 
-  - [<span data-ttu-id="b1eb7-110">Lync Server 2013의 인증서 인프라 지원</span><span class="sxs-lookup"><span data-stu-id="b1eb7-110">Certificate infrastructure support in Lync Server 2013</span></span>](lync-server-2013-certificate-infrastructure-support.md)
+  - [<span data-ttu-id="9c225-110">Lync Server 2013의 인증서 인프라 지원</span><span class="sxs-lookup"><span data-stu-id="9c225-110">Certificate infrastructure support in Lync Server 2013</span></span>](lync-server-2013-certificate-infrastructure-support.md)
 
-  - [<span data-ttu-id="b1eb7-111">Lync Server 2013의 와일드 카드 인증서 지원</span><span class="sxs-lookup"><span data-stu-id="b1eb7-111">Wildcard certificate support in Lync Server 2013</span></span>](lync-server-2013-wildcard-certificate-support.md)
+  - [<span data-ttu-id="9c225-111">Lync Server 2013의 와일드 카드 인증서 지원</span><span class="sxs-lookup"><span data-stu-id="9c225-111">Wildcard certificate support in Lync Server 2013</span></span>](lync-server-2013-wildcard-certificate-support.md)
 
-  - [<span data-ttu-id="b1eb7-112">Lync Server 2013의 DNS 인프라 지원</span><span class="sxs-lookup"><span data-stu-id="b1eb7-112">DNS infrastructure support in Lync Server 2013</span></span>](lync-server-2013-dns-infrastructure-support.md)
+  - [<span data-ttu-id="9c225-112">Lync Server 2013의 DNS 인프라 지원</span><span class="sxs-lookup"><span data-stu-id="9c225-112">DNS infrastructure support in Lync Server 2013</span></span>](lync-server-2013-dns-infrastructure-support.md)
 
-  - [<span data-ttu-id="b1eb7-113">Lync Server 2013의 IIS 지원</span><span class="sxs-lookup"><span data-stu-id="b1eb7-113">IIS support in Lync Server 2013</span></span>](lync-server-2013-iis-support.md)
+  - [<span data-ttu-id="9c225-113">Lync Server 2013의 IIS 지원</span><span class="sxs-lookup"><span data-stu-id="9c225-113">IIS support in Lync Server 2013</span></span>](lync-server-2013-iis-support.md)
 
-  - [<span data-ttu-id="b1eb7-114">Lync Server 2013의 IP 및 네트워킹 프로토콜 지원</span><span class="sxs-lookup"><span data-stu-id="b1eb7-114">IP and networking protocol support in Lync Server 2013</span></span>](lync-server-2013-ip-and-networking-protocol-support.md)
+  - [<span data-ttu-id="9c225-114">Lync Server 2013의 IP 및 네트워킹 프로토콜 지원</span><span class="sxs-lookup"><span data-stu-id="9c225-114">IP and networking protocol support in Lync Server 2013</span></span>](lync-server-2013-ip-and-networking-protocol-support.md)
 
-  - [<span data-ttu-id="b1eb7-115">Lync Server 2013의 공용 인스턴트 메시징 지원</span><span class="sxs-lookup"><span data-stu-id="b1eb7-115">Public instant messaging support in Lync Server 2013</span></span>](lync-server-2013-public-instant-messaging-support.md)
+  - [<span data-ttu-id="9c225-115">Lync Server 2013의 공용 인스턴트 메시징 지원</span><span class="sxs-lookup"><span data-stu-id="9c225-115">Public instant messaging support in Lync Server 2013</span></span>](lync-server-2013-public-instant-messaging-support.md)
 
-  - [<span data-ttu-id="b1eb7-116">Lync Server 2013 제어판에 대 한 브라우저 지원</span><span class="sxs-lookup"><span data-stu-id="b1eb7-116">Browser support for Lync Server 2013 Control Panel</span></span>](lync-server-2013-browser-support-for-lync-server-control-panel.md)
+  - [<span data-ttu-id="9c225-116">Lync Server 2013 제어판에 대 한 브라우저 지원</span><span class="sxs-lookup"><span data-stu-id="9c225-116">Browser support for Lync Server 2013 Control Panel</span></span>](lync-server-2013-browser-support-for-lync-server-control-panel.md)
 
-  - [<span data-ttu-id="b1eb7-117">Lync Server 2013의 음성 지원</span><span class="sxs-lookup"><span data-stu-id="b1eb7-117">Voice support in Lync Server 2013</span></span>](lync-server-2013-voice-support.md)
+  - [<span data-ttu-id="9c225-117">Lync Server 2013의 음성 지원</span><span class="sxs-lookup"><span data-stu-id="9c225-117">Voice support in Lync Server 2013</span></span>](lync-server-2013-voice-support.md)
 
-  - [<span data-ttu-id="b1eb7-118">Lync Server 2013의 가상화 지원</span><span class="sxs-lookup"><span data-stu-id="b1eb7-118">Virtualization support in Lync Server 2013</span></span>](lync-server-2013-virtualization-support.md)
+  - [<span data-ttu-id="9c225-118">Lync Server 2013의 가상화 지원</span><span class="sxs-lookup"><span data-stu-id="9c225-118">Virtualization support in Lync Server 2013</span></span>](lync-server-2013-virtualization-support.md)
 
 </div>
 

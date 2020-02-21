@@ -12,20 +12,20 @@ ms:contentKeyID: 48185149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6c58a9b2e4932087945322db0bd8980191c7c5a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3e6175f83e1cea20e21ed25c372849c0e6b80b49
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42139229"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183941"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a><span data-ttu-id="6f5fc-102">포트 요약-Lync Server 2013에서 DNS 및 HLB 부하 분산</span><span class="sxs-lookup"><span data-stu-id="6f5fc-102">Port summary - DNS and HLB load balanced in Lync Server 2013</span></span>
+# <a name="port-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a><span data-ttu-id="065fb-102">포트 요약-Lync Server 2013에서 DNS 및 HLB 부하 분산</span><span class="sxs-lookup"><span data-stu-id="065fb-102">Port summary - DNS and HLB load balanced in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42139229"
 
 <span> </span>
 
-<span data-ttu-id="6f5fc-103">_**마지막으로 수정 된 항목:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="6f5fc-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="065fb-103">_**마지막으로 수정 된 항목:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="065fb-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="6f5fc-104">단일 디렉터에 대 한 방화벽 포트 요구 사항은 내부 인터페이스 또는 역방향 프록시의 내부 연결 네트워크에서 디렉터와의 통신을 설정 하는 데 사용 되는 포트로 구성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6f5fc-104">Firewall port requirements for a single Director consist of the ports that are used to establish communication with the Director from the internal interface or internal-facing network of the reverse proxy.</span></span> <span data-ttu-id="6f5fc-105">기본적으로 Microsoft Lync Server 2013은 프런트 엔드 풀 및 프런트 엔드 서버 뿐만 아니라 역방향 프록시에서 디렉터로의 포트 HTTP/TCP 8080 및 HTTPS/TCP 4443을 사용할 것으로 예상 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f5fc-105">Microsoft Lync Server 2013 by default expects ports HTTP/TCP 8080 and HTTPS/TCP 4443 to be open from the reverse proxy to the Director, as well as the Front End pool and Front End Server.</span></span> <span data-ttu-id="6f5fc-106">또한에 지 서버 내부 인터페이스에서 디렉터 및 프런트 엔드 풀 및 프런트 엔드 서버로의 SIP (session 착수 프로토콜) 통신이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f5fc-106">Additionally, there must be session initiation protocol (SIP) communication from the Edge Server internal interface to the Director and to the Front End pool and Front End Server.</span></span> <span data-ttu-id="6f5fc-107">SIP 프로토콜은에 지 서버에서 프런트 엔드 풀 및 프런트 엔드 서버로의 SIP/MTLS/TCP 5061를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f5fc-107">The SIP protocol uses SIP/MTLS/TCP 5061 from the Edge Server to the Front End pool and Front End Server.</span></span> <span data-ttu-id="6f5fc-108">디렉터, 프런트 엔드 풀 및 프런트 엔드 서버에서에 지 서버 내부 인터페이스에 대 한 SIP/MTLS/TCP 5061 통신을 허용 하는 규칙을 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f5fc-108">A rule that allows SIP/MTLS/TCP 5061 communication from the Director, Front End pool and Front End Server to the Edge Server internal interface must be created as well.</span></span>
+<span data-ttu-id="065fb-104">단일 디렉터에 대 한 방화벽 포트 요구 사항은 내부 인터페이스 또는 역방향 프록시의 내부 연결 네트워크에서 디렉터와의 통신을 설정 하는 데 사용 되는 포트로 구성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="065fb-104">Firewall port requirements for a single Director consist of the ports that are used to establish communication with the Director from the internal interface or internal-facing network of the reverse proxy.</span></span> <span data-ttu-id="065fb-105">기본적으로 Microsoft Lync Server 2013은 프런트 엔드 풀 및 프런트 엔드 서버 뿐만 아니라 역방향 프록시에서 디렉터로의 포트 HTTP/TCP 8080 및 HTTPS/TCP 4443을 사용할 것으로 예상 합니다.</span><span class="sxs-lookup"><span data-stu-id="065fb-105">Microsoft Lync Server 2013 by default expects ports HTTP/TCP 8080 and HTTPS/TCP 4443 to be open from the reverse proxy to the Director, as well as the Front End pool and Front End Server.</span></span> <span data-ttu-id="065fb-106">또한에 지 서버 내부 인터페이스에서 디렉터 및 프런트 엔드 풀 및 프런트 엔드 서버로의 SIP (session 착수 프로토콜) 통신이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="065fb-106">Additionally, there must be session initiation protocol (SIP) communication from the Edge Server internal interface to the Director and to the Front End pool and Front End Server.</span></span> <span data-ttu-id="065fb-107">SIP 프로토콜은에 지 서버에서 프런트 엔드 풀 및 프런트 엔드 서버로의 SIP/MTLS/TCP 5061를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="065fb-107">The SIP protocol uses SIP/MTLS/TCP 5061 from the Edge Server to the Front End pool and Front End Server.</span></span> <span data-ttu-id="065fb-108">디렉터, 프런트 엔드 풀 및 프런트 엔드 서버에서에 지 서버 내부 인터페이스에 대 한 SIP/MTLS/TCP 5061 통신을 허용 하는 규칙을 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="065fb-108">A rule that allows SIP/MTLS/TCP 5061 communication from the Director, Front End pool and Front End Server to the Edge Server internal interface must be created as well.</span></span>
 
-### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a><span data-ttu-id="6f5fc-109">방화벽 정의를 위한 단일 디렉터 포트 및 프로토콜</span><span class="sxs-lookup"><span data-stu-id="6f5fc-109">Single Director Ports and Protocols for Firewall Definitions</span></span>
+### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a><span data-ttu-id="065fb-109">방화벽 정의를 위한 단일 디렉터 포트 및 프로토콜</span><span class="sxs-lookup"><span data-stu-id="065fb-109">Single Director Ports and Protocols for Firewall Definitions</span></span>
 
 <table>
 <colgroup>
@@ -50,66 +50,66 @@ ms.locfileid: "42139229"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6f5fc-110">역할/프로토콜/TCP 또는 UDP/포트</span><span class="sxs-lookup"><span data-stu-id="6f5fc-110">Role/Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="6f5fc-111">원본 IP 주소</span><span class="sxs-lookup"><span data-stu-id="6f5fc-111">Source IP address</span></span></th>
-<th><span data-ttu-id="6f5fc-112">대상 IP 주소</span><span class="sxs-lookup"><span data-stu-id="6f5fc-112">Destination IP address</span></span></th>
-<th><span data-ttu-id="6f5fc-113">Notes</span><span class="sxs-lookup"><span data-stu-id="6f5fc-113">Notes</span></span></th>
+<th><span data-ttu-id="065fb-110">역할/프로토콜/TCP 또는 UDP/포트</span><span class="sxs-lookup"><span data-stu-id="065fb-110">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="065fb-111">원본 IP 주소</span><span class="sxs-lookup"><span data-stu-id="065fb-111">Source IP address</span></span></th>
+<th><span data-ttu-id="065fb-112">대상 IP 주소</span><span class="sxs-lookup"><span data-stu-id="065fb-112">Destination IP address</span></span></th>
+<th><span data-ttu-id="065fb-113">Notes</span><span class="sxs-lookup"><span data-stu-id="065fb-113">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6f5fc-114">HTTP/TCP 8080</span><span class="sxs-lookup"><span data-stu-id="6f5fc-114">HTTP/TCP 8080</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-115">역방향 프록시 내부 인터페이스</span><span class="sxs-lookup"><span data-stu-id="6f5fc-115">Reverse proxy internal interface</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-116">디렉터 하드웨어 부하 분산 장치 VIP</span><span class="sxs-lookup"><span data-stu-id="6f5fc-116">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-117">역방향 프록시의 외부 쪽에서 처음 수신 되는 통신은 디렉터 HLB VIP 및 프런트 엔드 서버 웹 서비스로 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6f5fc-117">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Server web services.</span></span></p></td>
+<td><p><span data-ttu-id="065fb-114">HTTP/TCP 8080</span><span class="sxs-lookup"><span data-stu-id="065fb-114">HTTP/TCP 8080</span></span></p></td>
+<td><p><span data-ttu-id="065fb-115">역방향 프록시 내부 인터페이스</span><span class="sxs-lookup"><span data-stu-id="065fb-115">Reverse proxy internal interface</span></span></p></td>
+<td><p><span data-ttu-id="065fb-116">디렉터 하드웨어 부하 분산 장치 VIP</span><span class="sxs-lookup"><span data-stu-id="065fb-116">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="065fb-117">역방향 프록시의 외부 쪽에서 처음 수신 되는 통신은 디렉터 HLB VIP 및 프런트 엔드 서버 웹 서비스로 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="065fb-117">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Server web services.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6f5fc-118">HTTPS/TCP 4443</span><span class="sxs-lookup"><span data-stu-id="6f5fc-118">HTTPS/TCP 4443</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-119">역방향 프록시 내부 인터페이스</span><span class="sxs-lookup"><span data-stu-id="6f5fc-119">Reverse proxy internal interface</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-120">디렉터 하드웨어 부하 분산 장치 VIP</span><span class="sxs-lookup"><span data-stu-id="6f5fc-120">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-121">역방향 프록시의 외부 쪽에서 처음 수신 되는 통신은 디렉터 HLB VIP 및 프런트 엔드 서버 웹 서비스로 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6f5fc-121">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Server web services.</span></span></p></td>
+<td><p><span data-ttu-id="065fb-118">HTTPS/TCP 4443</span><span class="sxs-lookup"><span data-stu-id="065fb-118">HTTPS/TCP 4443</span></span></p></td>
+<td><p><span data-ttu-id="065fb-119">역방향 프록시 내부 인터페이스</span><span class="sxs-lookup"><span data-stu-id="065fb-119">Reverse proxy internal interface</span></span></p></td>
+<td><p><span data-ttu-id="065fb-120">디렉터 하드웨어 부하 분산 장치 VIP</span><span class="sxs-lookup"><span data-stu-id="065fb-120">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="065fb-121">역방향 프록시의 외부 쪽에서 처음 수신 되는 통신은 디렉터 HLB VIP 및 프런트 엔드 서버 웹 서비스로 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="065fb-121">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Server web services.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6f5fc-122">HTTPS/TCP 444</span><span class="sxs-lookup"><span data-stu-id="6f5fc-122">HTTPS/TCP 444</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-123">영화</span><span class="sxs-lookup"><span data-stu-id="6f5fc-123">Director</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-124">프런트 엔드 풀 또는 프런트 엔드 서버</span><span class="sxs-lookup"><span data-stu-id="6f5fc-124">Front End pool or Front End Server</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-125">디렉터 HLB VIP와 프런트 엔드 서버 또는 프런트 엔드 서버 간의 서버 간 통신</span><span class="sxs-lookup"><span data-stu-id="6f5fc-125">Inter-server communication between the Director HLB VIP and the Front End Server or Front End Servers.</span></span></p></td>
+<td><p><span data-ttu-id="065fb-122">HTTPS/TCP 444</span><span class="sxs-lookup"><span data-stu-id="065fb-122">HTTPS/TCP 444</span></span></p></td>
+<td><p><span data-ttu-id="065fb-123">영화</span><span class="sxs-lookup"><span data-stu-id="065fb-123">Director</span></span></p></td>
+<td><p><span data-ttu-id="065fb-124">프런트 엔드 풀 또는 프런트 엔드 서버</span><span class="sxs-lookup"><span data-stu-id="065fb-124">Front End pool or Front End Server</span></span></p></td>
+<td><p><span data-ttu-id="065fb-125">디렉터 HLB VIP와 프런트 엔드 서버 또는 프런트 엔드 서버 간의 서버 간 통신</span><span class="sxs-lookup"><span data-stu-id="065fb-125">Inter-server communication between the Director HLB VIP and the Front End Server or Front End Servers.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6f5fc-126">HTTP/TCP 80</span><span class="sxs-lookup"><span data-stu-id="6f5fc-126">HTTP/TCP 80</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-127">내부 클라이언트</span><span class="sxs-lookup"><span data-stu-id="6f5fc-127">Internal Clients</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-128">디렉터 하드웨어 부하 분산 장치 VIP</span><span class="sxs-lookup"><span data-stu-id="6f5fc-128">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-129">디렉터는 내부 및 외부 클라이언트에 대해 웹 서비스를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f5fc-129">The Director provides web services to internal as well as external clients.</span></span></p></td>
+<td><p><span data-ttu-id="065fb-126">HTTP/TCP 80</span><span class="sxs-lookup"><span data-stu-id="065fb-126">HTTP/TCP 80</span></span></p></td>
+<td><p><span data-ttu-id="065fb-127">내부 클라이언트</span><span class="sxs-lookup"><span data-stu-id="065fb-127">Internal Clients</span></span></p></td>
+<td><p><span data-ttu-id="065fb-128">디렉터 하드웨어 부하 분산 장치 VIP</span><span class="sxs-lookup"><span data-stu-id="065fb-128">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="065fb-129">디렉터는 내부 및 외부 클라이언트에 대해 웹 서비스를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="065fb-129">The Director provides web services to internal as well as external clients.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6f5fc-130">HTTPS/TCP 443</span><span class="sxs-lookup"><span data-stu-id="6f5fc-130">HTTPS/TCP 443</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-131">내부 클라이언트</span><span class="sxs-lookup"><span data-stu-id="6f5fc-131">Internal Clients</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-132">디렉터 하드웨어 부하 분산 장치 VIP</span><span class="sxs-lookup"><span data-stu-id="6f5fc-132">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-133">디렉터는 내부 및 외부 클라이언트에 대해 웹 서비스를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6f5fc-133">The Director provides web services to internal as well as external clients.</span></span></p></td>
+<td><p><span data-ttu-id="065fb-130">HTTPS/TCP 443</span><span class="sxs-lookup"><span data-stu-id="065fb-130">HTTPS/TCP 443</span></span></p></td>
+<td><p><span data-ttu-id="065fb-131">내부 클라이언트</span><span class="sxs-lookup"><span data-stu-id="065fb-131">Internal Clients</span></span></p></td>
+<td><p><span data-ttu-id="065fb-132">디렉터 하드웨어 부하 분산 장치 VIP</span><span class="sxs-lookup"><span data-stu-id="065fb-132">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="065fb-133">디렉터는 내부 및 외부 클라이언트에 대해 웹 서비스를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="065fb-133">The Director provides web services to internal as well as external clients.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6f5fc-134">SIP/MTLS/TCP 5061</span><span class="sxs-lookup"><span data-stu-id="6f5fc-134">SIP/MTLS/TCP 5061</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-135">에 지 서버 내부 인터페이스</span><span class="sxs-lookup"><span data-stu-id="6f5fc-135">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-136">영화</span><span class="sxs-lookup"><span data-stu-id="6f5fc-136">Director</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-137">에 지 서버에서 디렉터로의 SIP 통신 및 프런트 엔드 서버</span><span class="sxs-lookup"><span data-stu-id="6f5fc-137">SIP communication from the Edge Server to the Director, as well as the Front End Servers.</span></span></p></td>
+<td><p><span data-ttu-id="065fb-134">SIP/MTLS/TCP 5061</span><span class="sxs-lookup"><span data-stu-id="065fb-134">SIP/MTLS/TCP 5061</span></span></p></td>
+<td><p><span data-ttu-id="065fb-135">에 지 서버 내부 인터페이스</span><span class="sxs-lookup"><span data-stu-id="065fb-135">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="065fb-136">영화</span><span class="sxs-lookup"><span data-stu-id="065fb-136">Director</span></span></p></td>
+<td><p><span data-ttu-id="065fb-137">에 지 서버에서 디렉터로의 SIP 통신 및 프런트 엔드 서버</span><span class="sxs-lookup"><span data-stu-id="065fb-137">SIP communication from the Edge Server to the Director, as well as the Front End Servers.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6f5fc-138">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="6f5fc-138">MTLS/TCP/50001</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-139">모두</span><span class="sxs-lookup"><span data-stu-id="6f5fc-139">Any</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-140">영화</span><span class="sxs-lookup"><span data-stu-id="6f5fc-140">Director</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-141">중앙 로깅 서비스 컨트롤러 (ClsController .exe) 또는 에이전트 (clscontroller) 명령 및 로그 수집</span><span class="sxs-lookup"><span data-stu-id="6f5fc-141">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="065fb-138">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="065fb-138">MTLS/TCP/50001</span></span></p></td>
+<td><p><span data-ttu-id="065fb-139">모두</span><span class="sxs-lookup"><span data-stu-id="065fb-139">Any</span></span></p></td>
+<td><p><span data-ttu-id="065fb-140">영화</span><span class="sxs-lookup"><span data-stu-id="065fb-140">Director</span></span></p></td>
+<td><p><span data-ttu-id="065fb-141">중앙 로깅 서비스 컨트롤러 (ClsController .exe) 또는 에이전트 (clscontroller) 명령 및 로그 수집</span><span class="sxs-lookup"><span data-stu-id="065fb-141">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6f5fc-142">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="6f5fc-142">MTLS/TCP/50002</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-143">모두</span><span class="sxs-lookup"><span data-stu-id="6f5fc-143">Any</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-144">영화</span><span class="sxs-lookup"><span data-stu-id="6f5fc-144">Director</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-145">중앙 로깅 서비스 컨트롤러 (ClsController .exe) 또는 에이전트 (clscontroller) 명령 및 로그 수집</span><span class="sxs-lookup"><span data-stu-id="6f5fc-145">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="065fb-142">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="065fb-142">MTLS/TCP/50002</span></span></p></td>
+<td><p><span data-ttu-id="065fb-143">모두</span><span class="sxs-lookup"><span data-stu-id="065fb-143">Any</span></span></p></td>
+<td><p><span data-ttu-id="065fb-144">영화</span><span class="sxs-lookup"><span data-stu-id="065fb-144">Director</span></span></p></td>
+<td><p><span data-ttu-id="065fb-145">중앙 로깅 서비스 컨트롤러 (ClsController .exe) 또는 에이전트 (clscontroller) 명령 및 로그 수집</span><span class="sxs-lookup"><span data-stu-id="065fb-145">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6f5fc-146">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="6f5fc-146">MTLS/TCP/50003</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-147">모두</span><span class="sxs-lookup"><span data-stu-id="6f5fc-147">Any</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-148">영화</span><span class="sxs-lookup"><span data-stu-id="6f5fc-148">Director</span></span></p></td>
-<td><p><span data-ttu-id="6f5fc-149">중앙 로깅 서비스 컨트롤러 (ClsController .exe) 또는 에이전트 (clscontroller) 명령 및 로그 수집</span><span class="sxs-lookup"><span data-stu-id="6f5fc-149">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="065fb-146">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="065fb-146">MTLS/TCP/50003</span></span></p></td>
+<td><p><span data-ttu-id="065fb-147">모두</span><span class="sxs-lookup"><span data-stu-id="065fb-147">Any</span></span></p></td>
+<td><p><span data-ttu-id="065fb-148">영화</span><span class="sxs-lookup"><span data-stu-id="065fb-148">Director</span></span></p></td>
+<td><p><span data-ttu-id="065fb-149">중앙 로깅 서비스 컨트롤러 (ClsController .exe) 또는 에이전트 (clscontroller) 명령 및 로그 수집</span><span class="sxs-lookup"><span data-stu-id="065fb-149">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 </tbody>
 </table>
