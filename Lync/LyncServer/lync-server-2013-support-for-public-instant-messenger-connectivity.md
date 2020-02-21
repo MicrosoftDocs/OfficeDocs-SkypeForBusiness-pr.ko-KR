@@ -12,16 +12,16 @@ ms:contentKeyID: 59170234
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c6f21e6a58b9130ab93f827f14aad4bd09cbb33
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: be14e3dedf39883a81a040ed31ae38d2966ab647
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142464"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208284"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -43,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2013-10-07_
 
 이 문서에서는 공용 IM 연결 (PIC) 지원에 대 한 정보를 제공 합니다. PIC는 조직의 lync 사용자가 Lync 클라이언트 및 id를 통해 특정 공용 IM (인스턴트 메시징) 서비스 사용자와 연결할 수 있도록 허용 하는 Microsoft Lync의 기능입니다.
 
-최종 사용자는 해당 조항에 따라 고객, 파트너 및 공급 업체와의 연결을 통해 혜택을 얻을 수 있습니다. Lync의 제어, 준수 및 보관 기능을 유지 하는 동시에 단일 실시간 통신 클라이언트를 지 원하는 것이 이점이 있습니다. 2013 년 5 [월에 공개](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)된 Lync-Skype 연결에서는 MSN/Windows LIVE, AOL 및 Yahoo에 연결 하는 데 사용 되는 이전에 Lync/Office Communications SERVER (OCS)/Live Communications SERVER (LCS)를 설정 합니다.Lync-Skype 연결에 대 한 자세한 내용은 [lync-skype 연결](http://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx)을 참조 하십시오. Windows Live, AOL 및 Yahoo와의 페더레이션은 각각 수명 종료에 대 한 경로에 있습니다.이 페이지에서는 각 서비스의 상태를 문서화 합니다.
+최종 사용자는 해당 조항에 따라 고객, 파트너 및 공급 업체와의 연결을 통해 혜택을 얻을 수 있습니다. Lync의 제어, 준수 및 보관 기능을 유지 하는 동시에 단일 실시간 통신 클라이언트를 지 원하는 것이 이점이 있습니다. 2013 년 5 [월에 공개](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)된 Lync-Skype 연결에서는 MSN/Windows LIVE, AOL 및 Yahoo에 연결 하는 데 사용 되는 이전에 Lync/Office Communications SERVER (OCS)/Live Communications SERVER (LCS)를 설정 합니다.Lync-Skype 연결에 대 한 자세한 내용은 [lync-skype 연결](https://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx)을 참조 하십시오. Windows Live, AOL 및 Yahoo와의 페더레이션은 각각 수명 종료에 대 한 경로에 있습니다.이 페이지에서는 각 서비스의 상태를 문서화 합니다.
 
 PIC를 사용 하려면 고객이 각 공용 IM 서비스 공급자에 대해 서비스를 활성화 해야 합니다. 이 작업을 수행 하는 방법에 대 한 요구 사항 및 세부 정보는 IM 서비스 공급자 및 고객의 기본 라이선스 프로그램에 따라 달라 집니다.
 

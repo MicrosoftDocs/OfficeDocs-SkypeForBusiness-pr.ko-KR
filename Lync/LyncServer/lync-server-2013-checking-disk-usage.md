@@ -12,16 +12,16 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55d8881bc8b8a55351cc088c230574b958718a63
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: d0cb167d2a7aed3f5c107d4beba568c00ac501e0
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150937"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -69,7 +69,7 @@ Lync Server 2013에는 이전에 나열 된 파일 공유에 있는 파일 외�
 
 1.  **System center operations manager**   system center operations manager를 사용 하 여 볼륨 공간이 제한 되어 있을 때 관리자에 게 경고할 수 있습니다.
 
-2.  ****   사용 가능한 하드 디스크 공간이 20% 미만이 면 메시지를 전송 하는 스크립트를 실행 하 여 스크립트를 실행 하 여 디스크 공간을 모니터링 합니다. TechNet의 Microsoft 스크립트 센터에서 예제 스크립트를 찾을 수 있습니다.[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+2.  ****   사용 가능한 하드 디스크 공간이 20% 미만이 면 메시지를 전송 하는 스크립트를 실행 하 여 스크립트를 실행 하 여 디스크 공간을 모니터링 합니다. TechNet의 Microsoft 스크립트 센터에서 예제 스크립트를 찾을 수 있습니다.[https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
 
 3.  **Windows 탐색기**   windows 탐색기를 사용 하 여 Lync Server 2013 로그 및 데이터베이스를 저장 하는 볼륨에서 디스크 공간을 확인 합니다.
 
