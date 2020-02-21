@@ -12,20 +12,20 @@ ms:contentKeyID: 48184611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 763a940528d433b79e0958f9be09199c1f372341
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8722e629d03cb5461f01313eecc2b56041242cf5
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136165"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42185781"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-devices-phones-and-client-applications-in-lync-server-2013"></a><span data-ttu-id="7b689-102">Lync Server 2013에서 장치, 전화 및 클라이언트 응용 프로그램 관리</span><span class="sxs-lookup"><span data-stu-id="7b689-102">Managing devices, phones, and client applications in Lync Server 2013</span></span>
+# <a name="managing-devices-phones-and-client-applications-in-lync-server-2013"></a><span data-ttu-id="22026-102">Lync Server 2013에서 장치, 전화 및 클라이언트 응용 프로그램 관리</span><span class="sxs-lookup"><span data-stu-id="22026-102">Managing devices, phones, and client applications in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "42136165"
 
 <span> </span>
 
-<span data-ttu-id="7b689-103">_**마지막으로 수정 된 항목:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="7b689-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="22026-103">_**마지막으로 수정 된 항목:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="22026-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
-<span data-ttu-id="7b689-104">이 섹션의 항목에서는 Lync Server 2013 제어판의 **Clients** 그룹을 사용 하 여 수행할 수 있는 작업에 대 한 단계별 절차를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="7b689-104">The topics in this section provide step-by-step procedures for tasks that you can perform by using the **Clients** group in Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="22026-104">이 섹션의 항목에서는 Lync Server 2013 제어판의 **Clients** 그룹을 사용 하 여 수행할 수 있는 작업에 대 한 단계별 절차를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="22026-104">The topics in this section provide step-by-step procedures for tasks that you can perform by using the **Clients** group in Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="7b689-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="7b689-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="22026-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="22026-105">In This Section</span></span>
 
-  - [<span data-ttu-id="7b689-106">Lync Server 2013의 공통 영역 전화</span><span class="sxs-lookup"><span data-stu-id="7b689-106">Common area phones in Lync Server 2013</span></span>](lync-server-2013-common-area-phones.md)
+  - [<span data-ttu-id="22026-106">Lync Server 2013의 공통 영역 전화</span><span class="sxs-lookup"><span data-stu-id="22026-106">Common area phones in Lync Server 2013</span></span>](lync-server-2013-common-area-phones.md)
 
-  - [<span data-ttu-id="7b689-107">Lync Server 2013의 회의 장치</span><span class="sxs-lookup"><span data-stu-id="7b689-107">Conferencing devices in Lync Server 2013</span></span>](lync-server-2013-conferencing-devices.md)
+  - [<span data-ttu-id="22026-107">Lync Server 2013의 회의 장치</span><span class="sxs-lookup"><span data-stu-id="22026-107">Conferencing devices in Lync Server 2013</span></span>](lync-server-2013-conferencing-devices.md)
 
-  - [<span data-ttu-id="7b689-108">Lync Server 2013의 휴대폰 (정책/푸시 알림)</span><span class="sxs-lookup"><span data-stu-id="7b689-108">Mobile phones (policy/push notification) in Lync Server 2013</span></span>](lync-server-2013-mobile-phones-policy-push-notification.md)
+  - [<span data-ttu-id="22026-108">Lync Server 2013의 휴대폰 (정책/푸시 알림)</span><span class="sxs-lookup"><span data-stu-id="22026-108">Mobile phones (policy/push notification) in Lync Server 2013</span></span>](lync-server-2013-mobile-phones-policy-push-notification.md)
 
-  - [<span data-ttu-id="7b689-109">Lync Server 2013의 테스트 장치</span><span class="sxs-lookup"><span data-stu-id="7b689-109">Test devices in Lync Server 2013</span></span>](lync-server-2013-test-devices.md)
+  - [<span data-ttu-id="22026-109">Lync Server 2013의 테스트 장치</span><span class="sxs-lookup"><span data-stu-id="22026-109">Test devices in Lync Server 2013</span></span>](lync-server-2013-test-devices.md)
 
-  - [<span data-ttu-id="7b689-110">Lync Server 2013의 lync Phone Edition 구성 설정</span><span class="sxs-lookup"><span data-stu-id="7b689-110">Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-lync-phone-edition-configuration-settings.md)
+  - [<span data-ttu-id="22026-110">Lync Server 2013의 lync Phone Edition 구성 설정</span><span class="sxs-lookup"><span data-stu-id="22026-110">Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-lync-phone-edition-configuration-settings.md)
 
-  - [<span data-ttu-id="7b689-111">Lync Server 2013의 장치 업데이트 웹 서비스</span><span class="sxs-lookup"><span data-stu-id="7b689-111">Device Update Web service in Lync Server 2013</span></span>](lync-server-2013-device-update-web-service.md)
+  - [<span data-ttu-id="22026-111">Lync Server 2013의 장치 업데이트 웹 서비스</span><span class="sxs-lookup"><span data-stu-id="22026-111">Device Update Web service in Lync Server 2013</span></span>](lync-server-2013-device-update-web-service.md)
 
-  - [<span data-ttu-id="7b689-112">Lync Server 2013에 로그온 하는 데 사용할 수 있는 클라이언트 응용 프로그램 지정</span><span class="sxs-lookup"><span data-stu-id="7b689-112">Specifying the client applications that can be used to log on to Lync Server 2013</span></span>](lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013.md)
+  - [<span data-ttu-id="22026-112">Lync Server 2013에 로그온 하는 데 사용할 수 있는 클라이언트 응용 프로그램 지정</span><span class="sxs-lookup"><span data-stu-id="22026-112">Specifying the client applications that can be used to log on to Lync Server 2013</span></span>](lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="7b689-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="7b689-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="22026-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="22026-113">See Also</span></span>
 
 
-[<span data-ttu-id="7b689-114">Lync Server 2013의 작업</span><span class="sxs-lookup"><span data-stu-id="7b689-114">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
-[<span data-ttu-id="7b689-115">Lync Server 2013에서 클라이언트 및 장치 배포</span><span class="sxs-lookup"><span data-stu-id="7b689-115">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)  
+[<span data-ttu-id="22026-114">Lync Server 2013의 작업</span><span class="sxs-lookup"><span data-stu-id="22026-114">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
+[<span data-ttu-id="22026-115">Lync Server 2013에서 클라이언트 및 장치 배포</span><span class="sxs-lookup"><span data-stu-id="22026-115">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)  
   
 
 </div>

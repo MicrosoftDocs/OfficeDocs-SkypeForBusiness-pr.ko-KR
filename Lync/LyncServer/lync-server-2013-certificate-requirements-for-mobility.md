@@ -12,20 +12,20 @@ ms:contentKeyID: 48185251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c3bf95f87fa663331f05861f91cd7f7f19a2728
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 4e1267710405cb9b6c4e64d9cf2e31fb63feddaa
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135254"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187567"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-mobility-in-lync-server-2013"></a><span data-ttu-id="22daf-102">Lync Server 2013의 모바일 기능에 대 한 인증서 요구 사항</span><span class="sxs-lookup"><span data-stu-id="22daf-102">Certificate requirements for mobility in Lync Server 2013</span></span>
+# <a name="certificate-requirements-for-mobility-in-lync-server-2013"></a><span data-ttu-id="3aa59-102">Lync Server 2013의 모바일 기능에 대 한 인증서 요구 사항</span><span class="sxs-lookup"><span data-stu-id="3aa59-102">Certificate requirements for mobility in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "42135254"
 
 <span> </span>
 
-<span data-ttu-id="22daf-103">_**마지막으로 수정 된 항목:** 2012-06-24_</span><span class="sxs-lookup"><span data-stu-id="22daf-103">_**Topic Last Modified:** 2012-06-24_</span></span>
+<span data-ttu-id="3aa59-103">_**마지막으로 수정 된 항목:** 2012-06-24_</span><span class="sxs-lookup"><span data-stu-id="3aa59-103">_**Topic Last Modified:** 2012-06-24_</span></span>
 
-<span data-ttu-id="22daf-104">모바일 기능을 배포하고 모바일 클라이언트에 대해 자동 검색을 지원하는 경우에는 모바일 클라이언트로부터의 보안 연결을 지원하기 위해 인증서에 특정 주체 대체 이름 항목을 포함해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="22daf-104">If you deploy the mobility feature and support automatic discovery for mobile clients, you need to include certain subject alternative name entries on certificates to support secure connections from the mobile clients.</span></span>
+<span data-ttu-id="3aa59-104">모바일 기능을 배포하고 모바일 클라이언트에 대해 자동 검색을 지원하는 경우에는 모바일 클라이언트로부터의 보안 연결을 지원하기 위해 인증서에 특정 주체 대체 이름 항목을 포함해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3aa59-104">If you deploy the mobility feature and support automatic discovery for mobile clients, you need to include certain subject alternative name entries on certificates to support secure connections from the mobile clients.</span></span>
 
-<span data-ttu-id="22daf-105">자동 검색용 주체 대체 이름 항목을 포함해야 하는 인증서는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="22daf-105">You need to include subject alternative name entries for automatic discovery on the following certificates:</span></span>
+<span data-ttu-id="3aa59-105">자동 검색용 주체 대체 이름 항목을 포함해야 하는 인증서는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="3aa59-105">You need to include subject alternative name entries for automatic discovery on the following certificates:</span></span>
 
-  - <span data-ttu-id="22daf-106">디렉터 풀</span><span class="sxs-lookup"><span data-stu-id="22daf-106">Director pool</span></span>
+  - <span data-ttu-id="3aa59-106">디렉터 풀</span><span class="sxs-lookup"><span data-stu-id="3aa59-106">Director pool</span></span>
 
-  - <span data-ttu-id="22daf-107">프런트 엔드 풀</span><span class="sxs-lookup"><span data-stu-id="22daf-107">Front End pool</span></span>
+  - <span data-ttu-id="3aa59-107">프런트 엔드 풀</span><span class="sxs-lookup"><span data-stu-id="3aa59-107">Front End pool</span></span>
 
-  - <span data-ttu-id="22daf-108">역방향 프록시</span><span class="sxs-lookup"><span data-stu-id="22daf-108">Reverse proxy</span></span>
+  - <span data-ttu-id="3aa59-108">역방향 프록시</span><span class="sxs-lookup"><span data-stu-id="3aa59-108">Reverse proxy</span></span>
 
-<span data-ttu-id="22daf-109">이 섹션에서는 자동 검색을 위해 인증서에 필요한 주체 대체 이름 항목에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="22daf-109">This section describes the subject alternative name entries that are required on your certificates for automatic discovery.</span></span>
+<span data-ttu-id="3aa59-109">이 섹션에서는 자동 검색을 위해 인증서에 필요한 주체 대체 이름 항목에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="3aa59-109">This section describes the subject alternative name entries that are required on your certificates for automatic discovery.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="22daf-110">내부 인증 기관을 통해 인증서를 다시 발급하는 과정은 일반적으로는 간단하지만, 역방향 프록시에서 사용되는 공용 인증서에 여러 주체 대체 이름 항목을 추가하려면 비용이 많이 들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22daf-110">Reissuing certificates by using an internal certificate authority is typically a simple process, but adding multiple subject alternative name entries to public certificates used by the reverse proxy can be expensive.</span></span> <span data-ttu-id="22daf-111">SIP 도메인이 여러 개인 경우 주체 대체 이름 추가 비용이 매우 크므로, 초기 자동 검색 서비스 요청에 대해 HTTPS(기본 구성) 대신 HTTP를 사용하도록 역방향 프록시를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22daf-111">If you have many SIP domains, making the addition of subject alternative names very expensive, you can configure the reverse proxy to use HTTP for the initial Autodiscover Service request, instead of using HTTPS (the default configuration).</span></span> <span data-ttu-id="22daf-112">자세한 내용은 <A href="lync-server-2013-technical-requirements-for-mobility.md">Lync Server 2013에서 모바일 기능에 대 한 기술 요구 사항을</A>참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="22daf-112">For details, see <A href="lync-server-2013-technical-requirements-for-mobility.md">Technical requirements for mobility in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="3aa59-110">내부 인증 기관을 통해 인증서를 다시 발급하는 과정은 일반적으로는 간단하지만, 역방향 프록시에서 사용되는 공용 인증서에 여러 주체 대체 이름 항목을 추가하려면 비용이 많이 들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3aa59-110">Reissuing certificates by using an internal certificate authority is typically a simple process, but adding multiple subject alternative name entries to public certificates used by the reverse proxy can be expensive.</span></span> <span data-ttu-id="3aa59-111">SIP 도메인이 여러 개인 경우 주체 대체 이름 추가 비용이 매우 크므로, 초기 자동 검색 서비스 요청에 대해 HTTPS(기본 구성) 대신 HTTP를 사용하도록 역방향 프록시를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3aa59-111">If you have many SIP domains, making the addition of subject alternative names very expensive, you can configure the reverse proxy to use HTTP for the initial Autodiscover Service request, instead of using HTTPS (the default configuration).</span></span> <span data-ttu-id="3aa59-112">자세한 내용은 <A href="lync-server-2013-technical-requirements-for-mobility.md">Lync Server 2013에서 모바일 기능에 대 한 기술 요구 사항을</A>참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="3aa59-112">For details, see <A href="lync-server-2013-technical-requirements-for-mobility.md">Technical requirements for mobility in Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-### <a name="director-pool-certificate-requirements"></a><span data-ttu-id="22daf-113">디렉터 풀 인증서 요구 사항</span><span class="sxs-lookup"><span data-stu-id="22daf-113">Director Pool Certificate Requirements</span></span>
+### <a name="director-pool-certificate-requirements"></a><span data-ttu-id="3aa59-113">디렉터 풀 인증서 요구 사항</span><span class="sxs-lookup"><span data-stu-id="3aa59-113">Director Pool Certificate Requirements</span></span>
 
 <table>
 <colgroup>
@@ -68,18 +68,18 @@ ms.locfileid: "42135254"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="22daf-114">설명</span><span class="sxs-lookup"><span data-stu-id="22daf-114">Description</span></span></th>
-<th><span data-ttu-id="22daf-115">주체 대체 이름 항목</span><span class="sxs-lookup"><span data-stu-id="22daf-115">Subject alternative name entry</span></span></th>
+<th><span data-ttu-id="3aa59-114">설명</span><span class="sxs-lookup"><span data-stu-id="3aa59-114">Description</span></span></th>
+<th><span data-ttu-id="3aa59-115">주체 대체 이름 항목</span><span class="sxs-lookup"><span data-stu-id="3aa59-115">Subject alternative name entry</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="22daf-116">내부 자동 검색 서비스 URL</span><span class="sxs-lookup"><span data-stu-id="22daf-116">Internal Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="22daf-117">SAN = lyncdiscoverinternal. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</span><span class="sxs-lookup"><span data-stu-id="22daf-117">SAN=lyncdiscoverinternal.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="3aa59-116">내부 자동 검색 서비스 URL</span><span class="sxs-lookup"><span data-stu-id="3aa59-116">Internal Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="3aa59-117">SAN = lyncdiscoverinternal. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</span><span class="sxs-lookup"><span data-stu-id="3aa59-117">SAN=lyncdiscoverinternal.&lt;sipdomain&gt;</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="22daf-118">외부 자동 검색 서비스 URL</span><span class="sxs-lookup"><span data-stu-id="22daf-118">External Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="22daf-119">SAN = lyncdiscover &lt;microsoft.rtc.management.xds.sipdomain object&gt;</span><span class="sxs-lookup"><span data-stu-id="22daf-119">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="3aa59-118">외부 자동 검색 서비스 URL</span><span class="sxs-lookup"><span data-stu-id="3aa59-118">External Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="3aa59-119">SAN = lyncdiscover &lt;microsoft.rtc.management.xds.sipdomain object&gt;</span><span class="sxs-lookup"><span data-stu-id="3aa59-119">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -89,13 +89,13 @@ ms.locfileid: "42135254"
 
 
 > [!NOTE]  
-> <span data-ttu-id="22daf-120">또는 SAN = \*를 사용할 수 있습니다. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</span><span class="sxs-lookup"><span data-stu-id="22daf-120">Alternatively, you can use SAN=\*.&lt;sipdomain&gt;</span></span>
+> <span data-ttu-id="3aa59-120">또는 SAN = \*를 사용할 수 있습니다. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</span><span class="sxs-lookup"><span data-stu-id="3aa59-120">Alternatively, you can use SAN=\*.&lt;sipdomain&gt;</span></span>
 
 
 
 </div>
 
-### <a name="front-end-pool-certificate-requirements"></a><span data-ttu-id="22daf-121">프런트 엔드 풀 인증서 요구 사항</span><span class="sxs-lookup"><span data-stu-id="22daf-121">Front End Pool Certificate Requirements</span></span>
+### <a name="front-end-pool-certificate-requirements"></a><span data-ttu-id="3aa59-121">프런트 엔드 풀 인증서 요구 사항</span><span class="sxs-lookup"><span data-stu-id="3aa59-121">Front End Pool Certificate Requirements</span></span>
 
 <table>
 <colgroup>
@@ -104,18 +104,18 @@ ms.locfileid: "42135254"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="22daf-122">설명</span><span class="sxs-lookup"><span data-stu-id="22daf-122">Description</span></span></th>
-<th><span data-ttu-id="22daf-123">주체 대체 이름 항목</span><span class="sxs-lookup"><span data-stu-id="22daf-123">Subject alternative name entry</span></span></th>
+<th><span data-ttu-id="3aa59-122">설명</span><span class="sxs-lookup"><span data-stu-id="3aa59-122">Description</span></span></th>
+<th><span data-ttu-id="3aa59-123">주체 대체 이름 항목</span><span class="sxs-lookup"><span data-stu-id="3aa59-123">Subject alternative name entry</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="22daf-124">내부 자동 검색 서비스 URL</span><span class="sxs-lookup"><span data-stu-id="22daf-124">Internal Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="22daf-125">SAN = lyncdiscoverinternal. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</span><span class="sxs-lookup"><span data-stu-id="22daf-125">SAN=lyncdiscoverinternal.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="3aa59-124">내부 자동 검색 서비스 URL</span><span class="sxs-lookup"><span data-stu-id="3aa59-124">Internal Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="3aa59-125">SAN = lyncdiscoverinternal. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</span><span class="sxs-lookup"><span data-stu-id="3aa59-125">SAN=lyncdiscoverinternal.&lt;sipdomain&gt;</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="22daf-126">외부 자동 검색 서비스 URL</span><span class="sxs-lookup"><span data-stu-id="22daf-126">External Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="22daf-127">SAN = lyncdiscover &lt;microsoft.rtc.management.xds.sipdomain object&gt;</span><span class="sxs-lookup"><span data-stu-id="22daf-127">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="3aa59-126">외부 자동 검색 서비스 URL</span><span class="sxs-lookup"><span data-stu-id="3aa59-126">External Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="3aa59-127">SAN = lyncdiscover &lt;microsoft.rtc.management.xds.sipdomain object&gt;</span><span class="sxs-lookup"><span data-stu-id="3aa59-127">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -125,13 +125,13 @@ ms.locfileid: "42135254"
 
 
 > [!NOTE]  
-> <span data-ttu-id="22daf-128">또는 SAN = \*를 사용할 수 있습니다. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</span><span class="sxs-lookup"><span data-stu-id="22daf-128">Alternatively, you can use SAN=\*.&lt;sipdomain&gt;</span></span>
+> <span data-ttu-id="3aa59-128">또는 SAN = \*를 사용할 수 있습니다. &lt;microsoft.rtc.management.xds.sipdomain object&gt;</span><span class="sxs-lookup"><span data-stu-id="3aa59-128">Alternatively, you can use SAN=\*.&lt;sipdomain&gt;</span></span>
 
 
 
 </div>
 
-### <a name="reverse-proxy-public-ca-certificate-requirements"></a><span data-ttu-id="22daf-129">역방향 프록시(공용 CA) 인증서 요구 사항</span><span class="sxs-lookup"><span data-stu-id="22daf-129">Reverse Proxy (Public CA) Certificate Requirements</span></span>
+### <a name="reverse-proxy-public-ca-certificate-requirements"></a><span data-ttu-id="3aa59-129">역방향 프록시(공용 CA) 인증서 요구 사항</span><span class="sxs-lookup"><span data-stu-id="3aa59-129">Reverse Proxy (Public CA) Certificate Requirements</span></span>
 
 <table>
 <colgroup>
@@ -140,14 +140,14 @@ ms.locfileid: "42135254"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="22daf-130">설명</span><span class="sxs-lookup"><span data-stu-id="22daf-130">Description</span></span></th>
-<th><span data-ttu-id="22daf-131">주체 대체 이름 항목</span><span class="sxs-lookup"><span data-stu-id="22daf-131">Subject alternative name entry</span></span></th>
+<th><span data-ttu-id="3aa59-130">설명</span><span class="sxs-lookup"><span data-stu-id="3aa59-130">Description</span></span></th>
+<th><span data-ttu-id="3aa59-131">주체 대체 이름 항목</span><span class="sxs-lookup"><span data-stu-id="3aa59-131">Subject alternative name entry</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="22daf-132">외부 자동 검색 서비스 URL</span><span class="sxs-lookup"><span data-stu-id="22daf-132">External Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="22daf-133">SAN = lyncdiscover &lt;microsoft.rtc.management.xds.sipdomain object&gt;</span><span class="sxs-lookup"><span data-stu-id="22daf-133">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="3aa59-132">외부 자동 검색 서비스 URL</span><span class="sxs-lookup"><span data-stu-id="3aa59-132">External Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="3aa59-133">SAN = lyncdiscover &lt;microsoft.rtc.management.xds.sipdomain object&gt;</span><span class="sxs-lookup"><span data-stu-id="3aa59-133">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -157,7 +157,7 @@ ms.locfileid: "42135254"
 
 
 > [!NOTE]  
-> <span data-ttu-id="22daf-134">역방향 프록시의 SSL 수신기에 할당된 인증서에 이 SAN을 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="22daf-134">You assign this SAN to the certificate assigned to the SSL Listener on the reverse proxy.</span></span>
+> <span data-ttu-id="3aa59-134">역방향 프록시의 SSL 수신기에 할당된 인증서에 이 SAN을 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="3aa59-134">You assign this SAN to the certificate assigned to the SSL Listener on the reverse proxy.</span></span>
 
 
 
@@ -167,7 +167,7 @@ ms.locfileid: "42135254"
 
 
 > [!NOTE]  
-> <span data-ttu-id="22daf-135">역방향 프록시 수신기에는 외부 웹 서비스 URL에 대 한 주체 대체 이름 (예: SAN = lyncwebextpool01.contoso.com, 그리고 선택적 디렉터를 배포한 경우 dirwebexternal.contoso.com)이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22daf-135">Your reverse proxy listener will have subject alternative names for your external Web Services URL(s) (for example, SAN=lyncwebextpool01.contoso.com, and dirwebexternal.contoso.com if you have deployed the optional Director).</span></span>
+> <span data-ttu-id="3aa59-135">역방향 프록시 수신기에는 외부 웹 서비스 URL에 대 한 주체 대체 이름 (예: SAN = lyncwebextpool01.contoso.com, 그리고 선택적 디렉터를 배포한 경우 dirwebexternal.contoso.com)이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3aa59-135">Your reverse proxy listener will have subject alternative names for your external Web Services URL(s) (for example, SAN=lyncwebextpool01.contoso.com, and dirwebexternal.contoso.com if you have deployed the optional Director).</span></span>
 
 
 

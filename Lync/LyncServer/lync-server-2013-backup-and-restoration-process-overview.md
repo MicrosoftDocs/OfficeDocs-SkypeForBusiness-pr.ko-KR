@@ -12,20 +12,20 @@ ms:contentKeyID: 51541524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 249e60cfaaadcc0bb615d3388ef6dce818c79966
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: dd6efce509283d59c5cecc7325c35c9cf1ab371e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135755"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187081"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-process-overview-for-lync-server-2013"></a><span data-ttu-id="92bae-102">Lync Server 2013에 대 한 백업 및 복원 프로세스 개요</span><span class="sxs-lookup"><span data-stu-id="92bae-102">Backup and restoration process overview for Lync Server 2013</span></span>
+# <a name="backup-and-restoration-process-overview-for-lync-server-2013"></a><span data-ttu-id="94813-102">Lync Server 2013에 대 한 백업 및 복원 프로세스 개요</span><span class="sxs-lookup"><span data-stu-id="94813-102">Backup and restoration process overview for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,57 +35,57 @@ ms.locfileid: "42135755"
 
 <span> </span>
 
-<span data-ttu-id="92bae-103">_**마지막으로 수정 된 항목:** 2013-03-26_</span><span class="sxs-lookup"><span data-stu-id="92bae-103">_**Topic Last Modified:** 2013-03-26_</span></span>
+<span data-ttu-id="94813-103">_**마지막으로 수정 된 항목:** 2013-03-26_</span><span class="sxs-lookup"><span data-stu-id="94813-103">_**Topic Last Modified:** 2013-03-26_</span></span>
 
-<span data-ttu-id="92bae-104">이 섹션에서는 Lync Server 2013에 대해 백업 및 복원 프로세스가 작동 하는 방식에 대 한 개요를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-104">This section provides an overview of how the backup and restoration process works for Lync Server 2013.</span></span> <span data-ttu-id="92bae-105">위치에 관계없이 모든 Standard Edition 서버 및 Enterprise Edition 서버에 대해 동일한 프로세스를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-105">You use the same process for all Standard Edition servers and Enterprise Edition servers, regardless of their location.</span></span>
+<span data-ttu-id="94813-104">이 섹션에서는 Lync Server 2013에 대해 백업 및 복원 프로세스가 작동 하는 방식에 대 한 개요를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="94813-104">This section provides an overview of how the backup and restoration process works for Lync Server 2013.</span></span> <span data-ttu-id="94813-105">위치에 관계없이 모든 Standard Edition 서버 및 Enterprise Edition 서버에 대해 동일한 프로세스를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="94813-105">You use the same process for all Standard Edition servers and Enterprise Edition servers, regardless of their location.</span></span>
 
-<span data-ttu-id="92bae-106">일반적으로 백업 프로세스는 다음과 같이 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-106">In general, the backup process works as follows:</span></span>
+<span data-ttu-id="94813-106">일반적으로 백업 프로세스는 다음과 같이 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="94813-106">In general, the backup process works as follows:</span></span>
 
-  - <span data-ttu-id="92bae-107">특정 풀에 속하지 않는 독립 실행형 컴퓨터에서 공유 폴더로 백업 위치를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-107">You create a backup location as a shared folder on a stand-alone computer that is not part of any pool.</span></span> <span data-ttu-id="92bae-108">백업 위치는 **$Backup**에서 참조됩니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-108">The location of the backup is referenced in **$Backup**.</span></span>
+  - <span data-ttu-id="94813-107">특정 풀에 속하지 않는 독립 실행형 컴퓨터에서 공유 폴더로 백업 위치를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="94813-107">You create a backup location as a shared folder on a stand-alone computer that is not part of any pool.</span></span> <span data-ttu-id="94813-108">백업 위치는 **$Backup**에서 참조됩니다.</span><span class="sxs-lookup"><span data-stu-id="94813-108">The location of the backup is referenced in **$Backup**.</span></span>
 
-  - <span data-ttu-id="92bae-109">정기적으로 일정에 따라 lync server [2013의 백업 및 복원 요구 사항](lync-server-2013-backup-and-restoration-requirements-data.md) 에 설명 되어 있는 모든 파일 저장소 및 모든 lync server [2013](lync-server-2013-backing-up-lync-server.md) 백업에 설명 된 절차에 따라 중앙 관리 저장소에는 모든 서버 설정 및 구성이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-109">On a regular, scheduled basis, you back up all the Lync Server databases and all the file stores that are described in [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md) by following the procedures described in [Backing up Lync Server 2013](lync-server-2013-backing-up-lync-server.md) The Central Management store includes all the server settings and configurations.</span></span>
+  - <span data-ttu-id="94813-109">정기적으로 일정에 따라 lync server [2013의 백업 및 복원 요구 사항](lync-server-2013-backup-and-restoration-requirements-data.md) 에 설명 되어 있는 모든 파일 저장소 및 모든 lync server [2013](lync-server-2013-backing-up-lync-server.md) 백업에 설명 된 절차에 따라 중앙 관리 저장소에는 모든 서버 설정 및 구성이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="94813-109">On a regular, scheduled basis, you back up all the Lync Server databases and all the file stores that are described in [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md) by following the procedures described in [Backing up Lync Server 2013](lync-server-2013-backing-up-lync-server.md) The Central Management store includes all the server settings and configurations.</span></span>
 
-  - <span data-ttu-id="92bae-110">이후 백업을 실행할 때마다 새 공유 폴더를 만들고 **$Backup**이 참조하는 경로를 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-110">Each time you run a subsequent backup, you create a new shared folder and change the path that **$Backup** references.</span></span>
+  - <span data-ttu-id="94813-110">이후 백업을 실행할 때마다 새 공유 폴더를 만들고 **$Backup**이 참조하는 경로를 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="94813-110">Each time you run a subsequent backup, you create a new shared folder and change the path that **$Backup** references.</span></span>
 
-<span data-ttu-id="92bae-111">일반적으로 복원 프로세스는 다음과 같이 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-111">In general, the restoration process works as follows:</span></span>
+<span data-ttu-id="94813-111">일반적으로 복원 프로세스는 다음과 같이 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="94813-111">In general, the restoration process works as follows:</span></span>
 
-  - <span data-ttu-id="92bae-112">오류 또는 중단이 발생 하면 **$Backup** 에서 참조 하는 위치에 있는 데이터를 새 컴퓨터나 정상 컴퓨터로 복원 합니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-112">When a failure or outage occurs, you restore the data in the location referenced by **$Backup** to new or clean computers.</span></span>
+  - <span data-ttu-id="94813-112">오류 또는 중단이 발생 하면 **$Backup** 에서 참조 하는 위치에 있는 데이터를 새 컴퓨터나 정상 컴퓨터로 복원 합니다.</span><span class="sxs-lookup"><span data-stu-id="94813-112">When a failure or outage occurs, you restore the data in the location referenced by **$Backup** to new or clean computers.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="92bae-p103">이 복원 프로세스에서는 데이터를 기존 서버 상태로 복원하지 않습니다. 즉, 이 프로세스에서는 서버가 신규 서버이거나 깨끗한 서버여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-p103">This restoration process does not restore data onto an existing server state. That is, this process requires that the server is clean or new.</span></span>
+    > <span data-ttu-id="94813-p103">이 복원 프로세스에서는 데이터를 기존 서버 상태로 복원하지 않습니다. 즉, 이 프로세스에서는 서버가 신규 서버이거나 깨끗한 서버여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="94813-p103">This restoration process does not restore data onto an existing server state. That is, this process requires that the server is clean or new.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="92bae-115">사용자 및 전화 회의 정보를 오류 지점으로 복구할 수 있도록 하려면 [Lync Server 2013의 고가용성 및 재해 복구 계획](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)에서 설명 하는 대로 쌍으로 된 프런트 엔드 풀을 사용 하 여 재해 복구 토폴로지를 구현할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-115">To enable your user and conference information to be recoverable to the point of failure, you can implement a disaster recovery topology with paired Front End pools, as described in [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span>
+  - <span data-ttu-id="94813-115">사용자 및 전화 회의 정보를 오류 지점으로 복구할 수 있도록 하려면 [Lync Server 2013의 고가용성 및 재해 복구 계획](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)에서 설명 하는 대로 쌍으로 된 프런트 엔드 풀을 사용 하 여 재해 복구 토폴로지를 구현할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="94813-115">To enable your user and conference information to be recoverable to the point of failure, you can implement a disaster recovery topology with paired Front End pools, as described in [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span>
 
-  - <span data-ttu-id="92bae-116">모든 DNS(Domain Name System) 구성, DHCP(Dynamic Host Configuration Protocol) 구성, 도메인 이름, 컴퓨터 FQDN(정규화된 도메인 이름), 파일 저장소 경로 등은 백업할 때와 동일한 상태로 복원해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-116">All Domain Name System (DNS) configuration, Dynamic Host Configuration Protocol (DHCP) configuration, domain names, computer fully qualified domain names (FQDNs), file store paths, and so on must be the same at the time of restoration that they were at the time of back up.</span></span>
+  - <span data-ttu-id="94813-116">모든 DNS(Domain Name System) 구성, DHCP(Dynamic Host Configuration Protocol) 구성, 도메인 이름, 컴퓨터 FQDN(정규화된 도메인 이름), 파일 저장소 경로 등은 백업할 때와 동일한 상태로 복원해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="94813-116">All Domain Name System (DNS) configuration, Dynamic Host Configuration Protocol (DHCP) configuration, domain names, computer fully qualified domain names (FQDNs), file store paths, and so on must be the same at the time of restoration that they were at the time of back up.</span></span>
 
-<span data-ttu-id="92bae-117">Lync Server를 실행 하는 서버에 오류가 발생 하면 다음과 같은 단계가 복구 됩니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-117">If a server running Lync Server fails, recovery includes the following steps:</span></span>
+<span data-ttu-id="94813-117">Lync Server를 실행 하는 서버에 오류가 발생 하면 다음과 같은 단계가 복구 됩니다.</span><span class="sxs-lookup"><span data-stu-id="94813-117">If a server running Lync Server fails, recovery includes the following steps:</span></span>
 
-  - <span data-ttu-id="92bae-118">오류가 발생한 컴퓨터와 동일한 FQDN을 사용하여 신규 또는 깨끗한 컴퓨터에 운영 체제를 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-118">Install the operating system on a new or clean computer with the same FQDN as the failed computer.</span></span>
+  - <span data-ttu-id="94813-118">오류가 발생한 컴퓨터와 동일한 FQDN을 사용하여 신규 또는 깨끗한 컴퓨터에 운영 체제를 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="94813-118">Install the operating system on a new or clean computer with the same FQDN as the failed computer.</span></span>
 
-  - <span data-ttu-id="92bae-119">인증서를 다시 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-119">Reinstall certificates.</span></span>
+  - <span data-ttu-id="94813-119">인증서를 다시 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="94813-119">Reinstall certificates.</span></span>
 
-  - <span data-ttu-id="92bae-120">서버에서 데이터베이스를 호스트 하는 경우 Microsoft SQL Server 2012 또는 Microsoft SQL Server 2008 r 2를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-120">If the server hosted a database, install Microsoft SQL Server 2012 or Microsoft SQL Server 2008 R2.</span></span>
+  - <span data-ttu-id="94813-120">서버에서 데이터베이스를 호스트 하는 경우 Microsoft SQL Server 2012 또는 Microsoft SQL Server 2008 r 2를 설치 합니다.</span><span class="sxs-lookup"><span data-stu-id="94813-120">If the server hosted a database, install Microsoft SQL Server 2012 or Microsoft SQL Server 2008 R2.</span></span>
 
-  - <span data-ttu-id="92bae-121">일반적으로 서버에서 데이터베이스를 호스팅한 경우 토폴로지 작성기를 실행 하 여 데이터베이스를 만들고 설치 하 고 Acl (액세스 제어 목록)을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-121">In general, if the server hosted a database, run Topology Builder to create and install the database and set up access control lists (ACLs).</span></span>
+  - <span data-ttu-id="94813-121">일반적으로 서버에서 데이터베이스를 호스팅한 경우 토폴로지 작성기를 실행 하 여 데이터베이스를 만들고 설치 하 고 Acl (액세스 제어 목록)을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="94813-121">In general, if the server hosted a database, run Topology Builder to create and install the database and set up access control lists (ACLs).</span></span>
 
-  - <span data-ttu-id="92bae-122">일반적으로 서버가 서버 역할을 호스트 하는 경우 Lync Server 배포 마법사의 1-4 단계를 실행 하 여 로컬 구성 파일을 설치 하 고, 서버 역할 구성 요소를 설치 하 고, 인증서를 할당 하 고, 서비스를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-122">In general, if the server hosted a server role, run step 1 through step 4 of the Lync Server Deployment Wizard to install the local configuration files, install the server role components, assign certificates, and start the services.</span></span>
+  - <span data-ttu-id="94813-122">일반적으로 서버가 서버 역할을 호스트 하는 경우 Lync Server 배포 마법사의 1-4 단계를 실행 하 여 로컬 구성 파일을 설치 하 고, 서버 역할 구성 요소를 설치 하 고, 인증서를 할당 하 고, 서비스를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="94813-122">In general, if the server hosted a server role, run step 1 through step 4 of the Lync Server Deployment Wizard to install the local configuration files, install the server role components, assign certificates, and start the services.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="92bae-123">서버가 서버 역할을 가진 데이터베이스를 호스트 하는 경우에는 Lync Server 배포 마법사의 2 단계를 실행 하 여 데이터베이스를 다시 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-123">If the server hosted a database collocated with the server role, running step 2 of the Lync Server Deployment Wizard recreates the database.</span></span>
+    > <span data-ttu-id="94813-123">서버가 서버 역할을 가진 데이터베이스를 호스트 하는 경우에는 Lync Server 배포 마법사의 2 단계를 실행 하 여 데이터베이스를 다시 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="94813-123">If the server hosted a database collocated with the server role, running step 2 of the Lync Server Deployment Wizard recreates the database.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="92bae-124">서버에서 데이터베이스를 호스트 하는 경우 백업한 데이터를 복원 합니다.</span><span class="sxs-lookup"><span data-stu-id="92bae-124">If the server hosted a database, restore the backed up data.</span></span>
+  - <span data-ttu-id="94813-124">서버에서 데이터베이스를 호스트 하는 경우 백업한 데이터를 복원 합니다.</span><span class="sxs-lookup"><span data-stu-id="94813-124">If the server hosted a database, restore the backed up data.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 51541462
 ms.date: 06/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da246d51622da741372c63bca5a48497426e31d7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: bc713d996fecb5d185796ad5345a176725eee698
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146731"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42186311"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-for-iphone-and-ipad-requirements-in-lync-server-2013"></a><span data-ttu-id="7f0a4-102">Lync Server 2013의 lync for iPhone 및 iPad 요구 사항</span><span class="sxs-lookup"><span data-stu-id="7f0a4-102">Lync for iPhone and iPad requirements in Lync Server 2013</span></span>
+# <a name="lync-for-iphone-and-ipad-requirements-in-lync-server-2013"></a><span data-ttu-id="e75bf-102">Lync Server 2013의 lync for iPhone 및 iPad 요구 사항</span><span class="sxs-lookup"><span data-stu-id="e75bf-102">Lync for iPhone and iPad requirements in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42146731"
 
 <span> </span>
 
-<span data-ttu-id="7f0a4-103">_**마지막으로 수정 된 항목:** 2015-06-01_</span><span class="sxs-lookup"><span data-stu-id="7f0a4-103">_**Topic Last Modified:** 2015-06-01_</span></span>
+<span data-ttu-id="e75bf-103">_**마지막으로 수정 된 항목:** 2015-06-01_</span><span class="sxs-lookup"><span data-stu-id="e75bf-103">_**Topic Last Modified:** 2015-06-01_</span></span>
 
-<span data-ttu-id="7f0a4-104">Microsoft Lync 2013 for iPhone 또는 Microsoft Lync 2013 for iPad를 지원 하려면 장치가 다음 요구 사항을 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7f0a4-104">To support Microsoft Lync 2013 for iPhone or Microsoft Lync 2013 for iPad, the device must meet the following requirements:</span></span>
+<span data-ttu-id="e75bf-104">Microsoft Lync 2013 for iPhone 또는 Microsoft Lync 2013 for iPad를 지원 하려면 장치가 다음 요구 사항을 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e75bf-104">To support Microsoft Lync 2013 for iPhone or Microsoft Lync 2013 for iPad, the device must meet the following requirements:</span></span>
 
-  - <span data-ttu-id="7f0a4-105">iPhone 6 모바일 디지털 장치 (Apple iOS 8 또는 최신 버전 포함)</span><span class="sxs-lookup"><span data-stu-id="7f0a4-105">iPhone 6 mobile digital device with Apple iOS 8 or the latest version.</span></span>
+  - <span data-ttu-id="e75bf-105">iPhone 6 모바일 디지털 장치 (Apple iOS 8 또는 최신 버전 포함)</span><span class="sxs-lookup"><span data-stu-id="e75bf-105">iPhone 6 mobile digital device with Apple iOS 8 or the latest version.</span></span>
 
-  - <span data-ttu-id="7f0a4-106">iPhone 5 모바일 디지털 장치 (Apple iOS 7 또는 최신 버전 포함)</span><span class="sxs-lookup"><span data-stu-id="7f0a4-106">iPhone 5 mobile digital device with Apple iOS 7 or the latest version.</span></span>
+  - <span data-ttu-id="e75bf-106">iPhone 5 모바일 디지털 장치 (Apple iOS 7 또는 최신 버전 포함)</span><span class="sxs-lookup"><span data-stu-id="e75bf-106">iPhone 5 mobile digital device with Apple iOS 7 or the latest version.</span></span>
 
-  - <span data-ttu-id="7f0a4-107">iPhone 4 모바일 디지털 장치 (Apple iOS 7 또는 최신 버전 포함)</span><span class="sxs-lookup"><span data-stu-id="7f0a4-107">iPhone 4 mobile digital device with Apple iOS 7 or the latest version.</span></span>
+  - <span data-ttu-id="e75bf-107">iPhone 4 모바일 디지털 장치 (Apple iOS 7 또는 최신 버전 포함)</span><span class="sxs-lookup"><span data-stu-id="e75bf-107">iPhone 4 mobile digital device with Apple iOS 7 or the latest version.</span></span>
 
-  - <span data-ttu-id="7f0a4-108">iPad 2 이상 버전 모바일 디지털 장치 (Apple iOS 7 또는 최신 버전 포함)</span><span class="sxs-lookup"><span data-stu-id="7f0a4-108">iPad 2 or a later version mobile digital device with Apple iOS 7 or the latest version.</span></span>
+  - <span data-ttu-id="e75bf-108">iPad 2 이상 버전 모바일 디지털 장치 (Apple iOS 7 또는 최신 버전 포함)</span><span class="sxs-lookup"><span data-stu-id="e75bf-108">iPad 2 or a later version mobile digital device with Apple iOS 7 or the latest version.</span></span>
 
-  - <span data-ttu-id="7f0a4-109">Apple iOS 7 또는 최신 버전의 iPad 미니 모바일 디지털 장치</span><span class="sxs-lookup"><span data-stu-id="7f0a4-109">iPad mini mobile digital device with Apple iOS 7 or the latest version.</span></span>
+  - <span data-ttu-id="e75bf-109">Apple iOS 7 또는 최신 버전의 iPad 미니 모바일 디지털 장치</span><span class="sxs-lookup"><span data-stu-id="e75bf-109">iPad mini mobile digital device with Apple iOS 7 or the latest version.</span></span>
 
 </div>
 

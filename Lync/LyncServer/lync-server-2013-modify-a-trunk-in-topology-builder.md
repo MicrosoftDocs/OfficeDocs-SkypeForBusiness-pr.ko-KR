@@ -12,20 +12,20 @@ ms:contentKeyID: 49733709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c82664129cf7eae8b0155fc07b921896203376d4
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 936de680a13a3f9ec851181876ce7a80c1784e52
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42149537"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42184961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a><span data-ttu-id="d1722-102">Lync Server 2013의 토폴로지 작성기에서 트렁크 수정</span><span class="sxs-lookup"><span data-stu-id="d1722-102">Modify a trunk in Topology Builder in Lync Server 2013</span></span>
+# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a><span data-ttu-id="c0d52-102">Lync Server 2013의 토폴로지 작성기에서 트렁크 수정</span><span class="sxs-lookup"><span data-stu-id="c0d52-102">Modify a trunk in Topology Builder in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42149537"
 
 <span> </span>
 
-<span data-ttu-id="d1722-103">_**마지막으로 수정 된 항목:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="d1722-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="c0d52-103">_**마지막으로 수정 된 항목:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="c0d52-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="d1722-104">다음 단계에 따라 트렁크의 대체 바이패스 식별자 및 대체 미디어 IP 주소를 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="d1722-104">Follow these steps to modify the alternate media IP address and alternate bypass identifier of a trunk.</span></span>
+<span data-ttu-id="c0d52-104">다음 단계에 따라 트렁크의 대체 바이패스 식별자 및 대체 미디어 IP 주소를 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="c0d52-104">Follow these steps to modify the alternate media IP address and alternate bypass identifier of a trunk.</span></span>
 
 <div>
 
-## <a name="to-modify-the-alternate-media-ip-address-of-a-trunk"></a><span data-ttu-id="d1722-105">트렁크의 대체 미디어 IP 주소를 수정하려면</span><span class="sxs-lookup"><span data-stu-id="d1722-105">To Modify the Alternate Media IP Address of a Trunk</span></span>
+## <a name="to-modify-the-alternate-media-ip-address-of-a-trunk"></a><span data-ttu-id="c0d52-105">트렁크의 대체 미디어 IP 주소를 수정하려면</span><span class="sxs-lookup"><span data-stu-id="c0d52-105">To Modify the Alternate Media IP Address of a Trunk</span></span>
 
-1.  <span data-ttu-id="d1722-106">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="d1722-106">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="c0d52-106">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="c0d52-106">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="d1722-107">-CsPstnGateway cmdlet을 실행 하 고 Lync Server 관리 셸에서 AlternateBypassId 필드를 수정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d1722-107">Run the Set-CsPstnGateway cmdlet and modify the AlternateBypassId field in the Lync Server Management Shell.</span></span>
+2.  <span data-ttu-id="c0d52-107">-CsPstnGateway cmdlet을 실행 하 고 Lync Server 관리 셸에서 AlternateBypassId 필드를 수정 합니다.</span><span class="sxs-lookup"><span data-stu-id="c0d52-107">Run the Set-CsPstnGateway cmdlet and modify the AlternateBypassId field in the Lync Server Management Shell.</span></span>
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -RepresentativeMediaIP <IP address>
 
@@ -53,11 +53,11 @@ ms.locfileid: "42149537"
 
 <div>
 
-## <a name="to-modify-the-alternate-bypassid-of-a-trunk"></a><span data-ttu-id="d1722-108">트렁크의 대체 바이패스 ID를 수정하려면</span><span class="sxs-lookup"><span data-stu-id="d1722-108">To Modify the Alternate BypassID of a Trunk</span></span>
+## <a name="to-modify-the-alternate-bypassid-of-a-trunk"></a><span data-ttu-id="c0d52-108">트렁크의 대체 바이패스 ID를 수정하려면</span><span class="sxs-lookup"><span data-stu-id="c0d52-108">To Modify the Alternate BypassID of a Trunk</span></span>
 
-1.  <span data-ttu-id="d1722-109">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="d1722-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="c0d52-109">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="c0d52-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="d1722-110">-CsPstnGateway cmdlet을 실행 하 고 Lync Server 관리 셸에서 AlternateBypassId 필드를 수정 합니다.</span><span class="sxs-lookup"><span data-stu-id="d1722-110">Run the Set-CsPstnGateway cmdlet and modify the AlternateBypassId field in the Lync Server Management Shell.</span></span>
+2.  <span data-ttu-id="c0d52-110">-CsPstnGateway cmdlet을 실행 하 고 Lync Server 관리 셸에서 AlternateBypassId 필드를 수정 합니다.</span><span class="sxs-lookup"><span data-stu-id="c0d52-110">Run the Set-CsPstnGateway cmdlet and modify the AlternateBypassId field in the Lync Server Management Shell.</span></span>
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -AlternateBypassID <identifier>
 
