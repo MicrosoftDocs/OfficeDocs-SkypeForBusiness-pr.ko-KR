@@ -12,20 +12,20 @@ ms:contentKeyID: 48183515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09040e8bf428127fdbaa56efec9495539a2900c0
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3dd3f963bf2aab51416e835b490e49dffe0f0b33
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146471"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42197711"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-ip-address-types-in-lync-server-2013"></a><span data-ttu-id="c7f00-102">Lync Server 2013에서 IP 주소 유형 구성</span><span class="sxs-lookup"><span data-stu-id="c7f00-102">Configure IP address types in Lync Server 2013</span></span>
+# <a name="configure-ip-address-types-in-lync-server-2013"></a><span data-ttu-id="19765-102">Lync Server 2013에서 IP 주소 유형 구성</span><span class="sxs-lookup"><span data-stu-id="19765-102">Configure IP address types in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42146471"
 
 <span> </span>
 
-<span data-ttu-id="c7f00-103">_**마지막으로 수정 된 항목:** 2012-06-13_</span><span class="sxs-lookup"><span data-stu-id="c7f00-103">_**Topic Last Modified:** 2012-06-13_</span></span>
+<span data-ttu-id="19765-103">_**마지막으로 수정 된 항목:** 2012-06-13_</span><span class="sxs-lookup"><span data-stu-id="19765-103">_**Topic Last Modified:** 2012-06-13_</span></span>
 
-<span data-ttu-id="c7f00-104">토폴로지 작성기에서 구성한 토폴로지 설정을 사용 하 여 IP 주소 유형을 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7f00-104">You deploy IP address types by using topology settings that you configure in Topology Builder.</span></span> <span data-ttu-id="c7f00-105">이 섹션에서는 프런트 엔드 서버, 중재 서버 및에 지 서버에 IP 주소 유형을 배포 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7f00-105">This section describes how to deploy IP address types on Front End Servers, Mediation Servers, and Edge Servers.</span></span>
+<span data-ttu-id="19765-104">토폴로지 작성기에서 구성한 토폴로지 설정을 사용 하 여 IP 주소 유형을 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="19765-104">You deploy IP address types by using topology settings that you configure in Topology Builder.</span></span> <span data-ttu-id="19765-105">이 섹션에서는 프런트 엔드 서버, 중재 서버 및에 지 서버에 IP 주소 유형을 배포 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="19765-105">This section describes how to deploy IP address types on Front End Servers, Mediation Servers, and Edge Servers.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c7f00-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="c7f00-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="19765-106">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="19765-106">In This Section</span></span>
 
-  - [<span data-ttu-id="c7f00-107">Lync Server 2013에 대 한 프런트 엔드 서버에 IP 주소 유형 배포</span><span class="sxs-lookup"><span data-stu-id="c7f00-107">Deploy IP address types on a Front End Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
+  - [<span data-ttu-id="19765-107">Lync Server 2013에 대 한 프런트 엔드 서버에 IP 주소 유형 배포</span><span class="sxs-lookup"><span data-stu-id="19765-107">Deploy IP address types on a Front End Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
 
-  - [<span data-ttu-id="c7f00-108">Lync Server 2013에 대 한 중재 서버에 IP 주소 유형 배포</span><span class="sxs-lookup"><span data-stu-id="c7f00-108">Deploy IP address types on a Mediation Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
+  - [<span data-ttu-id="19765-108">Lync Server 2013에 대 한 중재 서버에 IP 주소 유형 배포</span><span class="sxs-lookup"><span data-stu-id="19765-108">Deploy IP address types on a Mediation Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
 
-  - [<span data-ttu-id="c7f00-109">Lync Server 2013에 대 한에 지 서버에 IP 주소 유형 배포</span><span class="sxs-lookup"><span data-stu-id="c7f00-109">Deploy IP address types on an Edge Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
+  - [<span data-ttu-id="19765-109">Lync Server 2013에 대 한에 지 서버에 IP 주소 유형 배포</span><span class="sxs-lookup"><span data-stu-id="19765-109">Deploy IP address types on an Edge Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
 
 </div>
 

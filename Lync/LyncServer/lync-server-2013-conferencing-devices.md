@@ -12,20 +12,20 @@ ms:contentKeyID: 51803961
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe4d478120d094e99ce32fe02c72b9bb77861930
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: e477733353567b9877547e92fedca2cfe9a5f988
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140511"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42199141"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencing-devices-in-lync-server-2013"></a><span data-ttu-id="564a6-102">Lync Server 2013의 회의 장치</span><span class="sxs-lookup"><span data-stu-id="564a6-102">Conferencing devices in Lync Server 2013</span></span>
+# <a name="conferencing-devices-in-lync-server-2013"></a><span data-ttu-id="09ab3-102">Lync Server 2013의 회의 장치</span><span class="sxs-lookup"><span data-stu-id="09ab3-102">Conferencing devices in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42140511"
 
 <span> </span>
 
-<span data-ttu-id="564a6-103">_**마지막으로 수정 된 항목:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="564a6-103">_**Topic Last Modified:** 2014-02-05_</span></span>
+<span data-ttu-id="09ab3-103">_**마지막으로 수정 된 항목:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="09ab3-103">_**Topic Last Modified:** 2014-02-05_</span></span>
 
-<span data-ttu-id="564a6-104">회의 장치는 Lync Phone Edition 기능을 회의실에 제공 하 고 대화방의 사용자가 들을 수 있도록 하며, 장치에 따라 다른 위치에 있는 사용자를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="564a6-104">Conferencing devices bring Lync Phone Edition features into conference rooms, enabling people in the room to hear, and, depending on the device, see people in other locations.</span></span>
+<span data-ttu-id="09ab3-104">회의 장치는 Lync Phone Edition 기능을 회의실에 제공 하 고 대화방의 사용자가 들을 수 있도록 하며, 장치에 따라 다른 위치에 있는 사용자를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="09ab3-104">Conferencing devices bring Lync Phone Edition features into conference rooms, enabling people in the room to hear, and, depending on the device, see people in other locations.</span></span>
 
-<span data-ttu-id="564a6-105">이 섹션의 항목을 사용 하 여 회의 장치를 설정 및 관리 하는 방법을 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="564a6-105">Use the topics in this section to learn how to set up and manage your conferencing devices.</span></span>
+<span data-ttu-id="09ab3-105">이 섹션의 항목을 사용 하 여 회의 장치를 설정 및 관리 하는 방법을 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="09ab3-105">Use the topics in this section to learn how to set up and manage your conferencing devices.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="564a6-106">Lync Server 2013에서 사용 하기 위해 지원 되는 회의 장치에 대 한 자세한 내용은 <A href="https://technet.microsoft.com/lync/gg278164.aspx">Microsoft lync에 적격 한 웹 페이지 전화 및 장치</A>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="564a6-106">For more information about the conferencing devices supported for use with Lync Server 2013 see the web page <A href="https://technet.microsoft.com/lync/gg278164.aspx">Phones and devices qualified for Microsoft Lync</A>.</span></span>
+> <span data-ttu-id="09ab3-106">Lync Server 2013에서 사용 하기 위해 지원 되는 회의 장치에 대 한 자세한 내용은 <A href="https://technet.microsoft.com/lync/gg278164.aspx">Microsoft lync에 적격 한 웹 페이지 전화 및 장치</A>를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="09ab3-106">For more information about the conferencing devices supported for use with Lync Server 2013 see the web page <A href="https://technet.microsoft.com/lync/gg278164.aspx">Phones and devices qualified for Microsoft Lync</A>.</span></span>
 
 
 
@@ -53,15 +53,15 @@ ms.locfileid: "42140511"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="564a6-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="564a6-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="09ab3-107">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="09ab3-107">In This Section</span></span>
 
-  - [<span data-ttu-id="564a6-108">Lync Server 2013에서 회의 장치 정보 보기</span><span class="sxs-lookup"><span data-stu-id="564a6-108">View conferencing device information in Lync Server 2013</span></span>](lync-server-2013-view-conferencing-device-information.md)
+  - [<span data-ttu-id="09ab3-108">Lync Server 2013에서 회의 장치 정보 보기</span><span class="sxs-lookup"><span data-stu-id="09ab3-108">View conferencing device information in Lync Server 2013</span></span>](lync-server-2013-view-conferencing-device-information.md)
 
-  - [<span data-ttu-id="564a6-109">Lync Server 2013에서 회의 장치 연락처 개체 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="564a6-109">Create or modify a conferencing device Contact object in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-conferencing-device-contact-object.md)
+  - [<span data-ttu-id="09ab3-109">Lync Server 2013에서 회의 장치 연락처 개체 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="09ab3-109">Create or modify a conferencing device Contact object in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-conferencing-device-contact-object.md)
 
-  - [<span data-ttu-id="564a6-110">Lync Server 2013에서 회의 디바이스 사용 또는 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="564a6-110">Enable or disable a conferencing device in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-a-conferencing-device.md)
+  - [<span data-ttu-id="09ab3-110">Lync Server 2013에서 회의 디바이스 사용 또는 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="09ab3-110">Enable or disable a conferencing device in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-a-conferencing-device.md)
 
-  - [<span data-ttu-id="564a6-111">Lync Server 2013에서 회의 장치를 새 등록자 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="564a6-111">Move a conferencing device to a new Registrar pool in Lync Server 2013</span></span>](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
+  - [<span data-ttu-id="09ab3-111">Lync Server 2013에서 회의 장치를 새 등록자 풀로 이동</span><span class="sxs-lookup"><span data-stu-id="09ab3-111">Move a conferencing device to a new Registrar pool in Lync Server 2013</span></span>](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
 
 </div>
 
