@@ -12,20 +12,20 @@ ms:contentKeyID: 48184871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2e6fde019cf844fc6a1e0ac784c1eec0435823a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: daf33aa6a03ac09696a4a6f945e9192bd1d8c4d3
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142304"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42192321"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="syndicators-table-in-lync-server-2013"></a><span data-ttu-id="e07db-102">Lync Server 2013의 Syndicators 테이블</span><span class="sxs-lookup"><span data-stu-id="e07db-102">Syndicators table in Lync Server 2013</span></span>
+# <a name="syndicators-table-in-lync-server-2013"></a><span data-ttu-id="c62f1-102">Lync Server 2013의 Syndicators 테이블</span><span class="sxs-lookup"><span data-stu-id="c62f1-102">Syndicators table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42142304"
 
 <span> </span>
 
-<span data-ttu-id="e07db-103">_**마지막으로 수정 된 항목:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="e07db-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="c62f1-103">_**마지막으로 수정 된 항목:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="c62f1-103">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="e07db-104">SyndicatorsTable은 내부 용도로만 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="e07db-104">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="e07db-105">이 표는 Microsoft Lync Server 2013에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="e07db-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="c62f1-104">SyndicatorsTable은 내부 용도로만 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="c62f1-104">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="c62f1-105">이 표는 Microsoft Lync Server 2013에 도입 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="c62f1-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 

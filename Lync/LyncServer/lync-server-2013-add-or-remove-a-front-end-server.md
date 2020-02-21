@@ -12,20 +12,20 @@ ms:contentKeyID: 48185050
 ms.date: 01/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29c1b3800b05ac4318f853ece95b935c6e65c16c
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 5e358415b086594b67fabdc5ed74706a510e2f82
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42144995"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42191461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a><span data-ttu-id="cf69e-102">Lync Server 2013에서 프런트 엔드 서버 추가 또는 제거</span><span class="sxs-lookup"><span data-stu-id="cf69e-102">Add or remove a Front End Server in Lync Server 2013</span></span>
+# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a><span data-ttu-id="6abb7-102">Lync Server 2013에서 프런트 엔드 서버 추가 또는 제거</span><span class="sxs-lookup"><span data-stu-id="6abb7-102">Add or remove a Front End Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42144995"
 
 <span> </span>
 
-<span data-ttu-id="cf69e-103">_**마지막으로 수정 된 항목:** 2016-01-21_</span><span class="sxs-lookup"><span data-stu-id="cf69e-103">_**Topic Last Modified:** 2016-01-21_</span></span>
+<span data-ttu-id="6abb7-103">_**마지막으로 수정 된 항목:** 2016-01-21_</span><span class="sxs-lookup"><span data-stu-id="6abb7-103">_**Topic Last Modified:** 2016-01-21_</span></span>
 
-<span data-ttu-id="cf69e-104">프런트 엔드 서버를 풀에 추가 하거나 풀에서 프런트 엔드 서버를 제거 하는 경우에는 풀을 다시 시작 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf69e-104">When you add a Front End Server to a pool, or remove a Front End Server from a pool, you then need to restart the pool.</span></span> <span data-ttu-id="cf69e-105">사용자에 대 한 서비스 중단을 방지 하려면 프런트 엔드 서버를 추가 또는 제거할 때 다음 절차를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf69e-105">To prevent any interruption of service to users, use the following procedure when adding or removing a Front End Server.</span></span>
+<span data-ttu-id="6abb7-104">프런트 엔드 서버를 풀에 추가 하거나 풀에서 프런트 엔드 서버를 제거 하는 경우에는 풀을 다시 시작 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6abb7-104">When you add a Front End Server to a pool, or remove a Front End Server from a pool, you then need to restart the pool.</span></span> <span data-ttu-id="6abb7-105">사용자에 대 한 서비스 중단을 방지 하려면 프런트 엔드 서버를 추가 또는 제거할 때 다음 절차를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="6abb7-105">To prevent any interruption of service to users, use the following procedure when adding or removing a Front End Server.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="cf69e-106">풀에 새 서버를 추가 하는 경우 새 풀 서버를 풀의 기존 서버와 동일한 누적 업데이트 수준으로 업데이트 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf69e-106">If you're adding new servers to the pool, update your new pool servers to be at the same Cumulative Update level as the existing servers in the Pool.</span></span>
+> <span data-ttu-id="6abb7-106">풀에 새 서버를 추가 하는 경우 새 풀 서버를 풀의 기존 서버와 동일한 누적 업데이트 수준으로 업데이트 합니다.</span><span class="sxs-lookup"><span data-stu-id="6abb7-106">If you're adding new servers to the pool, update your new pool servers to be at the same Cumulative Update level as the existing servers in the Pool.</span></span>
 
 
 
@@ -51,25 +51,25 @@ ms.locfileid: "42144995"
 
 <div>
 
-## <a name="to-add-or-remove-front-end-servers"></a><span data-ttu-id="cf69e-107">프런트 엔드 서버를 추가 하거나 제거 하려면</span><span class="sxs-lookup"><span data-stu-id="cf69e-107">To add or remove Front End servers</span></span>
+## <a name="to-add-or-remove-front-end-servers"></a><span data-ttu-id="6abb7-107">프런트 엔드 서버를 추가 하거나 제거 하려면</span><span class="sxs-lookup"><span data-stu-id="6abb7-107">To add or remove Front End servers</span></span>
 
-1.  <span data-ttu-id="cf69e-108">프런트 엔드 서버를 제거 하는 경우 먼저 해당 서버에 대 한 새 연결을 중지 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf69e-108">If you are removing any Front End Servers, first stop new connections to those servers.</span></span> <span data-ttu-id="cf69e-109">이렇게 하려면 다음 cmdlet을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cf69e-109">To do so, you can use the following cmdlet:</span></span>
+1.  <span data-ttu-id="6abb7-108">프런트 엔드 서버를 제거 하는 경우 먼저 해당 서버에 대 한 새 연결을 중지 합니다.</span><span class="sxs-lookup"><span data-stu-id="6abb7-108">If you are removing any Front End Servers, first stop new connections to those servers.</span></span> <span data-ttu-id="6abb7-109">이렇게 하려면 다음 cmdlet을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6abb7-109">To do so, you can use the following cmdlet:</span></span>
     
         Stop-CsWindowsServices -Graceful
 
-2.  <span data-ttu-id="cf69e-110">제거할 서버에 현재 세션이 없는 경우에는 Lync Server 서비스를 중지 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf69e-110">When the servers being removed have no current sessions, stop Lync Server services on them.</span></span>
+2.  <span data-ttu-id="6abb7-110">제거할 서버에 현재 세션이 없는 경우에는 Lync Server 서비스를 중지 합니다.</span><span class="sxs-lookup"><span data-stu-id="6abb7-110">When the servers being removed have no current sessions, stop Lync Server services on them.</span></span>
 
-3.  <span data-ttu-id="cf69e-111">토폴로지 작성기를 열고 필요한 서버를 추가 또는 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf69e-111">Open Topology Builder, and add or remove the necessary servers.</span></span>
+3.  <span data-ttu-id="6abb7-111">토폴로지 작성기를 열고 필요한 서버를 추가 또는 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="6abb7-111">Open Topology Builder, and add or remove the necessary servers.</span></span>
 
-4.  <span data-ttu-id="cf69e-112">토폴로지를 게시합니다.</span><span class="sxs-lookup"><span data-stu-id="cf69e-112">Publish the topology.</span></span>
+4.  <span data-ttu-id="6abb7-112">토폴로지를 게시합니다.</span><span class="sxs-lookup"><span data-stu-id="6abb7-112">Publish the topology.</span></span>
 
-5.  <span data-ttu-id="cf69e-113">풀의 프런트 엔드 서버를 2 개 이상으로 만들거나 두 대 이상의 서버에서 정확히 2 개까지 작업을 수행 하지 않은 경우 다음 cmdlet을 입력 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf69e-113">If the pool has gone from having two Front End Servers to more than two, or gone from more than two servers to exactly two, you need to type the following cmdlet:</span></span>
+5.  <span data-ttu-id="6abb7-113">풀의 프런트 엔드 서버를 2 개 이상으로 만들거나 두 대 이상의 서버에서 정확히 2 개까지 작업을 수행 하지 않은 경우 다음 cmdlet을 입력 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6abb7-113">If the pool has gone from having two Front End Servers to more than two, or gone from more than two servers to exactly two, you need to type the following cmdlet:</span></span>
     
         Reset-CsPoolRegistrarState-ResetType FullReset -PoolFqdn <PoolFqdn>
     
-    <span data-ttu-id="cf69e-114">풀에 서버가 3 개 이상 있는 경우이 cmdlet을 입력할 때 이러한 서버 중 세 개 이상이 실행 중 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf69e-114">If the pool has three or more servers, then at least three of those servers must be running when you type this cmdlet.</span></span>
+    <span data-ttu-id="6abb7-114">풀에 서버가 3 개 이상 있는 경우이 cmdlet을 입력할 때 이러한 서버 중 세 개 이상이 실행 중 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6abb7-114">If the pool has three or more servers, then at least three of those servers must be running when you type this cmdlet.</span></span>
 
-6.  <span data-ttu-id="cf69e-115">풀의 모든 프런트 엔드 서버를 한 번에 하나씩 다시 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf69e-115">Restart all Front End Servers in the pool, one at a time.</span></span>
+6.  <span data-ttu-id="6abb7-115">풀의 모든 프런트 엔드 서버를 한 번에 하나씩 다시 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="6abb7-115">Restart all Front End Servers in the pool, one at a time.</span></span>
 
 </div>
 
