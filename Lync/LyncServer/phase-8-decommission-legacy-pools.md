@@ -12,20 +12,20 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58ec7d07725ee75e5f20897894f465ac9fb269a4
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 474cc5ee3f508ed5a9069f3e8625bcc6ee451153
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42148427"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42209494"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a><span data-ttu-id="658e7-102">8 단계: 레거시 풀 해제</span><span class="sxs-lookup"><span data-stu-id="658e7-102">Phase 8: Decommission legacy pools</span></span>
+# <a name="phase-8-decommission-legacy-pools"></a><span data-ttu-id="faf85-102">8 단계: 레거시 풀 해제</span><span class="sxs-lookup"><span data-stu-id="faf85-102">Phase 8: Decommission legacy pools</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42148427"
 
 <span> </span>
 
-<span data-ttu-id="658e7-103">_**마지막으로 수정 된 항목:** 2016-12-08_</span><span class="sxs-lookup"><span data-stu-id="658e7-103">_**Topic Last Modified:** 2016-12-08_</span></span>
+<span data-ttu-id="faf85-103">_**마지막으로 수정 된 항목:** 2016-12-08_</span><span class="sxs-lookup"><span data-stu-id="faf85-103">_**Topic Last Modified:** 2016-12-08_</span></span>
 
-<span data-ttu-id="658e7-104">다음 항목에서는 DNS 항목 업데이트, 콘텐츠 관리 서버 이동, 풀 해제 및 이전에 Lync Server 2010의 서버 및 풀을 비활성화 하 고 제거 하는 방법에 대 한 지침을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="658e7-104">The following topic provides guidance in updating DNS entries, moving the Content Management Server, decommissioning pools, and deactivating and removing servers and pools from a legacy deployment of Lync Server 2010.</span></span> <span data-ttu-id="658e7-105">이 섹션에 나열된 모든 절차가 필수는 아닙니다.</span><span class="sxs-lookup"><span data-stu-id="658e7-105">Not all of the procedures listed in this section are required.</span></span> <span data-ttu-id="658e7-106">사용할 해제 절차를 확인하려면 설명서를 확인하십시오.</span><span class="sxs-lookup"><span data-stu-id="658e7-106">Read the documentation and determine which decommissioning procedure to use.</span></span>
+<span data-ttu-id="faf85-104">다음 항목에서는 DNS 항목 업데이트, 콘텐츠 관리 서버 이동, 풀 해제 및 이전에 Lync Server 2010의 서버 및 풀을 비활성화 하 고 제거 하는 방법에 대 한 지침을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="faf85-104">The following topic provides guidance in updating DNS entries, moving the Content Management Server, decommissioning pools, and deactivating and removing servers and pools from a legacy deployment of Lync Server 2010.</span></span> <span data-ttu-id="faf85-105">이 섹션에 나열된 모든 절차가 필수는 아닙니다.</span><span class="sxs-lookup"><span data-stu-id="faf85-105">Not all of the procedures listed in this section are required.</span></span> <span data-ttu-id="faf85-106">사용할 해제 절차를 확인하려면 설명서를 확인하십시오.</span><span class="sxs-lookup"><span data-stu-id="faf85-106">Read the documentation and determine which decommissioning procedure to use.</span></span>
 
-<span data-ttu-id="658e7-107">Lync Server 2010 서버 및 서버 역할 제거를 철저히 검사 하 고 Lync Server 2010 배포를 해제 하는 단계별 가이드를 확인 하려면에서 [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)다운로드할 수 있는 "Microsoft Lync Server 2010 제거 및 서버 역할 삭제"를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="658e7-107">For exhaustive coverage of removing Lync Server 2010 servers and server roles, and a step-by-step guide to decommissioning a Lync Server 2010 deployment, see "Uninstalling Microsoft Lync Server 2010 and Removing Server Roles," which can be downloaded at [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227).</span></span>
+<span data-ttu-id="faf85-107">Lync Server 2010 서버 및 서버 역할 제거를 철저히 검사 하 고 Lync Server 2010 배포를 해제 하는 단계별 가이드를 확인 하려면에서 [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)다운로드할 수 있는 "Microsoft Lync Server 2010 제거 및 서버 역할 삭제"를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="faf85-107">For exhaustive coverage of removing Lync Server 2010 servers and server roles, and a step-by-step guide to decommissioning a Lync Server 2010 deployment, see "Uninstalling Microsoft Lync Server 2010 and Removing Server Roles," which can be downloaded at [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227).</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="658e7-108">레거시 환경을 제거 하기 전에 Microsoft 통합 커뮤니케이션 관리 API (c) 응용 프로그램을 마이그레이션 및 업그레이드 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오.<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span><span class="sxs-lookup"><span data-stu-id="658e7-108">For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, prior to decommissioning your legacy environment, see <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span></span>
+> <span data-ttu-id="faf85-108">레거시 환경을 제거 하기 전에 Microsoft 통합 커뮤니케이션 관리 API (c) 응용 프로그램을 마이그레이션 및 업그레이드 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오.<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span><span class="sxs-lookup"><span data-stu-id="faf85-108">For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, prior to decommissioning your legacy environment, see <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span></span>
 
 
 
@@ -53,28 +53,28 @@ ms.locfileid: "42148427"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="658e7-109">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="658e7-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="faf85-109">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="faf85-109">In This Section</span></span>
 
   - <span></span>  
-    [<span data-ttu-id="658e7-110">DNS SRV 레코드 업데이트</span><span class="sxs-lookup"><span data-stu-id="658e7-110">Update DNS SRV records</span></span>](update-dns-srv-records.md)
+    [<span data-ttu-id="faf85-110">DNS SRV 레코드 업데이트</span><span class="sxs-lookup"><span data-stu-id="faf85-110">Update DNS SRV records</span></span>](update-dns-srv-records.md)
 
   - <span></span>  
-    [<span data-ttu-id="658e7-111">Lync server 2010 중앙 관리 서버를 Lync Server 2013로 이동</span><span class="sxs-lookup"><span data-stu-id="658e7-111">Move the Lync Server 2010 Central Management Server to Lync Server 2013</span></span>](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
+    [<span data-ttu-id="faf85-111">Lync server 2010 중앙 관리 서버를 Lync Server 2013로 이동</span><span class="sxs-lookup"><span data-stu-id="faf85-111">Move the Lync Server 2010 Central Management Server to Lync Server 2013</span></span>](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
 
   - <span></span>  
-    [<span data-ttu-id="658e7-112">전화 회의 디렉터리 이동</span><span class="sxs-lookup"><span data-stu-id="658e7-112">Move Conference Directories</span></span>](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
+    [<span data-ttu-id="faf85-112">전화 회의 디렉터리 이동</span><span class="sxs-lookup"><span data-stu-id="faf85-112">Move Conference Directories</span></span>](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
   - <span></span>  
-    [<span data-ttu-id="658e7-113">보관 서버 연결 제거</span><span class="sxs-lookup"><span data-stu-id="658e7-113">Remove the Archiving server association</span></span>](remove-the-archiving-server-association.md)
+    [<span data-ttu-id="faf85-113">보관 서버 연결 제거</span><span class="sxs-lookup"><span data-stu-id="faf85-113">Remove the Archiving server association</span></span>](remove-the-archiving-server-association.md)
 
   - <span></span>  
-    [<span data-ttu-id="658e7-114">모니터링 서버 연결 제거</span><span class="sxs-lookup"><span data-stu-id="658e7-114">Remove the Monitoring server association</span></span>](remove-the-monitoring-server-association.md)
+    [<span data-ttu-id="faf85-114">모니터링 서버 연결 제거</span><span class="sxs-lookup"><span data-stu-id="faf85-114">Remove the Monitoring server association</span></span>](remove-the-monitoring-server-association.md)
 
   - <span></span>  
-    [<span data-ttu-id="658e7-115">Enterprise Edition 프런트 엔드 서버 또는 Standard Edition 프런트 엔드 서버 제거</span><span class="sxs-lookup"><span data-stu-id="658e7-115">Remove the Enterprise Edition Front End Server or Standard Edition Front End Server</span></span>](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
+    [<span data-ttu-id="faf85-115">Enterprise Edition 프런트 엔드 서버 또는 Standard Edition 프런트 엔드 서버 제거</span><span class="sxs-lookup"><span data-stu-id="faf85-115">Remove the Enterprise Edition Front End Server or Standard Edition Front End Server</span></span>](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
   - <span></span>  
-    [<span data-ttu-id="658e7-116">백 엔드 서버에서 SQL Server 인스턴스 및 데이터베이스 제거</span><span class="sxs-lookup"><span data-stu-id="658e7-116">Remove SQL Server instances and databases on the Back End Server</span></span>](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+    [<span data-ttu-id="faf85-116">백 엔드 서버에서 SQL Server 인스턴스 및 데이터베이스 제거</span><span class="sxs-lookup"><span data-stu-id="faf85-116">Remove SQL Server instances and databases on the Back End Server</span></span>](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
 
 </div>
 

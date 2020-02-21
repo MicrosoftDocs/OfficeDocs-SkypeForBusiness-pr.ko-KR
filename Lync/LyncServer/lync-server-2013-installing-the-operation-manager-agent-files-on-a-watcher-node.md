@@ -12,20 +12,20 @@ ms:contentKeyID: 48183901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 108d2be5ecf322b4386dda7c10789cd690c0bcfb
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: e89516f50ba0cd49040ad0fc4884c4d5d3751ebe
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42118911"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42207244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-operation-manager-agent-files-on-a-watcher-node-in-lync-server-2013"></a><span data-ttu-id="37ca2-102">Lync Server 2013의 감시자 노드에 Operation Manager 에이전트 파일 설치</span><span class="sxs-lookup"><span data-stu-id="37ca2-102">Installing the Operation Manager agent files on a watcher node in Lync Server 2013</span></span>
+# <a name="installing-the-operation-manager-agent-files-on-a-watcher-node-in-lync-server-2013"></a><span data-ttu-id="26bf0-102">Lync Server 2013의 감시자 노드에 Operation Manager 에이전트 파일 설치</span><span class="sxs-lookup"><span data-stu-id="26bf0-102">Installing the Operation Manager agent files on a watcher node in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42118911"
 
 <span> </span>
 
-<span data-ttu-id="37ca2-103">_**마지막으로 수정 된 항목:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="37ca2-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="26bf0-103">_**마지막으로 수정 된 항목:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="26bf0-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="37ca2-104">Lync server가 구성 요소 알림을 보고 하도록 설정 하는 것과 마찬가지로 Lync Server 2013 감시자 노드를 설치 하려면 System Center Operations Manager 에이전트 파일이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="37ca2-104">Similar to setting up a Lync Server to report component alerts, a Lync Server 2013 watcher node requires System Center Operations Manager agent files to be installed.</span></span> <span data-ttu-id="37ca2-105">그러면 가상 트랜잭션을 실행할 수 있으며 System Center Operations Manager 루트 관리 서버에 대해 알림을 보고할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="37ca2-105">This will enable the synthetic transactions to be run and for alerts to be reported to the System Center Operations Manager Root Management Server.</span></span>
+<span data-ttu-id="26bf0-104">Lync server가 구성 요소 알림을 보고 하도록 설정 하는 것과 마찬가지로 Lync Server 2013 감시자 노드를 설치 하려면 System Center Operations Manager 에이전트 파일이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="26bf0-104">Similar to setting up a Lync Server to report component alerts, a Lync Server 2013 watcher node requires System Center Operations Manager agent files to be installed.</span></span> <span data-ttu-id="26bf0-105">그러면 가상 트랜잭션을 실행할 수 있으며 System Center Operations Manager 루트 관리 서버에 대해 알림을 보고할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="26bf0-105">This will enable the synthetic transactions to be run and for alerts to be reported to the System Center Operations Manager Root Management Server.</span></span>
 
-<span data-ttu-id="37ca2-106">에이전트 파일을 설치하려면 다음 섹션에 나와 있는 절차를 따르십시오.</span><span class="sxs-lookup"><span data-stu-id="37ca2-106">To install the agent files, follow the same procedures listed in the following sections:</span></span>
+<span data-ttu-id="26bf0-106">에이전트 파일을 설치하려면 다음 섹션에 나와 있는 절차를 따르십시오.</span><span class="sxs-lookup"><span data-stu-id="26bf0-106">To install the agent files, follow the same procedures listed in the following sections:</span></span>
 
-1.  [<span data-ttu-id="37ca2-107">Lync Server 2013의 경계 네트워크 외부에 있는 감시자 노드에 인증서 설치</span><span class="sxs-lookup"><span data-stu-id="37ca2-107">Installing a certificate on a watcher node located outside the perimeter network of Lync Server 2013</span></span>](lync-server-2013-installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network.md)
+1.  [<span data-ttu-id="26bf0-107">Lync Server 2013의 경계 네트워크 외부에 있는 감시자 노드에 인증서 설치</span><span class="sxs-lookup"><span data-stu-id="26bf0-107">Installing a certificate on a watcher node located outside the perimeter network of Lync Server 2013</span></span>](lync-server-2013-installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network.md)
 
-2.  [<span data-ttu-id="37ca2-108">Lync Server 2013에서 Operation Manager 에이전트 파일 설치</span><span class="sxs-lookup"><span data-stu-id="37ca2-108">Installing the Operation Manager agent files in Lync Server 2013</span></span>](lync-server-2013-installing-the-operation-manager-agent-files.md)
+2.  [<span data-ttu-id="26bf0-108">Lync Server 2013에서 Operation Manager 에이전트 파일 설치</span><span class="sxs-lookup"><span data-stu-id="26bf0-108">Installing the Operation Manager agent files in Lync Server 2013</span></span>](lync-server-2013-installing-the-operation-manager-agent-files.md)
 
-3.  [<span data-ttu-id="37ca2-109">System Center discovery에 참여 하도록 Lync Server 2013 컴퓨터 구성</span><span class="sxs-lookup"><span data-stu-id="37ca2-109">Configuring the Lync Server 2013 computer to participate in System Center discovery</span></span>](lync-server-2013-configuring-the-lync-server-computer-to-participate-in-system-center-discovery.md)
+3.  [<span data-ttu-id="26bf0-109">System Center discovery에 참여 하도록 Lync Server 2013 컴퓨터 구성</span><span class="sxs-lookup"><span data-stu-id="26bf0-109">Configuring the Lync Server 2013 computer to participate in System Center discovery</span></span>](lync-server-2013-configuring-the-lync-server-computer-to-participate-in-system-center-discovery.md)
 
 </div>
 

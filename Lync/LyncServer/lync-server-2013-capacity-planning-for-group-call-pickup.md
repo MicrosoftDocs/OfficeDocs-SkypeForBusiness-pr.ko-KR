@@ -12,20 +12,20 @@ ms:contentKeyID: 51476680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ee25eb942a044840fac6aef0f5126f06b03cd9f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: d0fa12b04507e5b42767d551af4b4b9c004175b4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42137207"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42207604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="0e991-102">Lync Server 2013의 그룹 통화 픽업 용량 계획</span><span class="sxs-lookup"><span data-stu-id="0e991-102">Capacity planning for Group Call Pickup in Lync Server 2013</span></span>
+# <a name="capacity-planning-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="c87ba-102">Lync Server 2013의 그룹 통화 픽업 용량 계획</span><span class="sxs-lookup"><span data-stu-id="c87ba-102">Capacity planning for Group Call Pickup in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42137207"
 
 <span> </span>
 
-<span data-ttu-id="0e991-103">_**마지막으로 수정 된 항목:** 2013-02-12_</span><span class="sxs-lookup"><span data-stu-id="0e991-103">_**Topic Last Modified:** 2013-02-12_</span></span>
+<span data-ttu-id="c87ba-103">_**마지막으로 수정 된 항목:** 2013-02-12_</span><span class="sxs-lookup"><span data-stu-id="c87ba-103">_**Topic Last Modified:** 2013-02-12_</span></span>
 
 <div id="sectionSection0" class="section">
 
-<span data-ttu-id="0e991-104">다음 표에서는 용량 계획 요구 사항의 기반으로 사용할 수 있는 그룹 통화 픽업 사용자 모델에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="0e991-104">The following table describes the Group Call Pickup user model that you can use as the basis for capacity planning requirements.</span></span>
+<span data-ttu-id="c87ba-104">다음 표에서는 용량 계획 요구 사항의 기반으로 사용할 수 있는 그룹 통화 픽업 사용자 모델에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="c87ba-104">The following table describes the Group Call Pickup user model that you can use as the basis for capacity planning requirements.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="0e991-105">그룹 통화 픽업는 통화 대기 응용 프로그램을 기반으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="0e991-105">Group Call Pickup is based on the Call Park application.</span></span> <span data-ttu-id="0e991-106">재해 복구 용량 계획을 위해 연결 된 풀의 각 풀은 두 풀에서 그룹 호출 픽업을 포함 하 여 통화 대기 서비스의 작업을 처리할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0e991-106">Keep in mind that, for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for Call Park services, including Group Call Pickup, in both pools.</span></span>
+> <span data-ttu-id="c87ba-105">그룹 통화 픽업는 통화 대기 응용 프로그램을 기반으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="c87ba-105">Group Call Pickup is based on the Call Park application.</span></span> <span data-ttu-id="c87ba-106">재해 복구 용량 계획을 위해 연결 된 풀의 각 풀은 두 풀에서 그룹 호출 픽업을 포함 하 여 통화 대기 서비스의 작업을 처리할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c87ba-106">Keep in mind that, for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for Call Park services, including Group Call Pickup, in both pools.</span></span>
 
 
 
 </div>
 
-### <a name="group-call-pickup-user-model"></a><span data-ttu-id="0e991-107">그룹 통화 픽업 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="0e991-107">Group Call Pickup User Model</span></span>
+### <a name="group-call-pickup-user-model"></a><span data-ttu-id="c87ba-107">그룹 통화 픽업 사용자 모델</span><span class="sxs-lookup"><span data-stu-id="c87ba-107">Group Call Pickup User Model</span></span>
 
 <table>
 <colgroup>
@@ -61,36 +61,36 @@ ms.locfileid: "42137207"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0e991-108">192.168.1.0</span><span class="sxs-lookup"><span data-stu-id="0e991-108">Metric</span></span></th>
-<th><span data-ttu-id="0e991-109">프런트 엔드 풀 당 (8 개의 프런트 엔드 서버 포함)</span><span class="sxs-lookup"><span data-stu-id="0e991-109">Per Front End pool (with 8 Front End Servers)</span></span></th>
-<th><span data-ttu-id="0e991-110">Standard Edition Server별</span><span class="sxs-lookup"><span data-stu-id="0e991-110">Per Standard Edition server</span></span></th>
+<th><span data-ttu-id="c87ba-108">192.168.1.0</span><span class="sxs-lookup"><span data-stu-id="c87ba-108">Metric</span></span></th>
+<th><span data-ttu-id="c87ba-109">프런트 엔드 풀 당 (8 개의 프런트 엔드 서버 포함)</span><span class="sxs-lookup"><span data-stu-id="c87ba-109">Per Front End pool (with 8 Front End Servers)</span></span></th>
+<th><span data-ttu-id="c87ba-110">Standard Edition Server별</span><span class="sxs-lookup"><span data-stu-id="c87ba-110">Per Standard Edition server</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0e991-111">그룹 당 추천 사용자 수</span><span class="sxs-lookup"><span data-stu-id="0e991-111">Recommended number of users per group</span></span></p></td>
-<td><p><span data-ttu-id="0e991-112">50</span><span class="sxs-lookup"><span data-stu-id="0e991-112">50</span></span></p></td>
-<td><p><span data-ttu-id="0e991-113">50</span><span class="sxs-lookup"><span data-stu-id="0e991-113">50</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-111">그룹 당 추천 사용자 수</span><span class="sxs-lookup"><span data-stu-id="c87ba-111">Recommended number of users per group</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-112">50</span><span class="sxs-lookup"><span data-stu-id="c87ba-112">50</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-113">50</span><span class="sxs-lookup"><span data-stu-id="c87ba-113">50</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0e991-114">권장 그룹 수</span><span class="sxs-lookup"><span data-stu-id="0e991-114">Recommended number of groups</span></span></p></td>
-<td><p><span data-ttu-id="0e991-115">500</span><span class="sxs-lookup"><span data-stu-id="0e991-115">500</span></span></p></td>
-<td><p><span data-ttu-id="0e991-116">60</span><span class="sxs-lookup"><span data-stu-id="0e991-116">60</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-114">권장 그룹 수</span><span class="sxs-lookup"><span data-stu-id="c87ba-114">Recommended number of groups</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-115">500</span><span class="sxs-lookup"><span data-stu-id="c87ba-115">500</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-116">60</span><span class="sxs-lookup"><span data-stu-id="c87ba-116">60</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0e991-117">그룹 통화 픽업에 사용 하도록 설정 된 풀 당 최대 사용자 수</span><span class="sxs-lookup"><span data-stu-id="0e991-117">Maximum number of users per pool enabled for Group Call Pickup</span></span></p></td>
-<td><p><span data-ttu-id="0e991-118">25,000</span><span class="sxs-lookup"><span data-stu-id="0e991-118">25,000</span></span></p></td>
-<td><p><span data-ttu-id="0e991-119">3000</span><span class="sxs-lookup"><span data-stu-id="0e991-119">3,000</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-117">그룹 통화 픽업에 사용 하도록 설정 된 풀 당 최대 사용자 수</span><span class="sxs-lookup"><span data-stu-id="c87ba-117">Maximum number of users per pool enabled for Group Call Pickup</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-118">25,000</span><span class="sxs-lookup"><span data-stu-id="c87ba-118">25,000</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-119">3000</span><span class="sxs-lookup"><span data-stu-id="c87ba-119">3,000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0e991-120">분당 그룹 통화 픽업 트럭에 대해 사용 하도록 설정 된 총 사용자에 대 한 수신 전화의 최대 속도입니다.</span><span class="sxs-lookup"><span data-stu-id="0e991-120">Maximum rate of incoming calls to total users enabled for Group Call Pickup per pool per minute</span></span></p></td>
-<td><p><span data-ttu-id="0e991-121">500</span><span class="sxs-lookup"><span data-stu-id="0e991-121">500</span></span></p></td>
-<td><p><span data-ttu-id="0e991-122">60</span><span class="sxs-lookup"><span data-stu-id="0e991-122">60</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-120">분당 그룹 통화 픽업 트럭에 대해 사용 하도록 설정 된 총 사용자에 대 한 수신 전화의 최대 속도입니다.</span><span class="sxs-lookup"><span data-stu-id="c87ba-120">Maximum rate of incoming calls to total users enabled for Group Call Pickup per pool per minute</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-121">500</span><span class="sxs-lookup"><span data-stu-id="c87ba-121">500</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-122">60</span><span class="sxs-lookup"><span data-stu-id="c87ba-122">60</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0e991-123">분당 그룹 호출 픽업가 있는 사용자가 검색 한 통화의 최대 속도입니다.</span><span class="sxs-lookup"><span data-stu-id="0e991-123">Maximum rate of calls retrieved by users with Group Call Pickup per pool per minute</span></span></p></td>
-<td><p><span data-ttu-id="0e991-124">200</span><span class="sxs-lookup"><span data-stu-id="0e991-124">200</span></span></p></td>
-<td><p><span data-ttu-id="0e991-125">25@@</span><span class="sxs-lookup"><span data-stu-id="0e991-125">25</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-123">분당 그룹 호출 픽업가 있는 사용자가 검색 한 통화의 최대 속도입니다.</span><span class="sxs-lookup"><span data-stu-id="c87ba-123">Maximum rate of calls retrieved by users with Group Call Pickup per pool per minute</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-124">200</span><span class="sxs-lookup"><span data-stu-id="c87ba-124">200</span></span></p></td>
+<td><p><span data-ttu-id="c87ba-125">25@@</span><span class="sxs-lookup"><span data-stu-id="c87ba-125">25</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -102,9 +102,9 @@ ms.locfileid: "42137207"
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P><span data-ttu-id="0e991-126">프런트 엔드 서버가 8 개 미만인 프런트 엔드 풀의 경우 메트릭을 선형으로 계산 합니다.</span><span class="sxs-lookup"><span data-stu-id="0e991-126">For Front End pools that have fewer than eight Front End Servers, calculate the metrics linearly.</span></span> <span data-ttu-id="0e991-127">예를 들어 프런트 엔드 풀에 프런트 엔드 서버가 하나인 경우 표에 표시 된 값의 최대 부하를 1/8으로 계산 합니다.</span><span class="sxs-lookup"><span data-stu-id="0e991-127">For example, if your Front End pool has one Front End Server, calculate the maximum load as 1/8 of the values shown in the table.</span></span></P>
+> <P><span data-ttu-id="c87ba-126">프런트 엔드 서버가 8 개 미만인 프런트 엔드 풀의 경우 메트릭을 선형으로 계산 합니다.</span><span class="sxs-lookup"><span data-stu-id="c87ba-126">For Front End pools that have fewer than eight Front End Servers, calculate the metrics linearly.</span></span> <span data-ttu-id="c87ba-127">예를 들어 프런트 엔드 풀에 프런트 엔드 서버가 하나인 경우 표에 표시 된 값의 최대 부하를 1/8으로 계산 합니다.</span><span class="sxs-lookup"><span data-stu-id="c87ba-127">For example, if your Front End pool has one Front End Server, calculate the maximum load as 1/8 of the values shown in the table.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="0e991-128">풀 당 최대 사용자 수를 초과 하지 않을 경우 그룹 당 권장 되는 사용자 수와 그룹 수를 늘리거나 낮출 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0e991-128">You can increase or decrease the recommended number of users per group and number of groups as long as you do not exceed the maximum number of users per pool.</span></span> <span data-ttu-id="0e991-129">예를 들어 그룹 통화 픽업에 사용 하도록 설정 된 사용자 수가 사용자 모델 최대 (즉, 120 그룹 시간 25 명의 사용자는 그룹 통화 픽업에 사용 하도록 설정 3000 된 경우) 이므로 Standard Edition 서버는 그룹 당 사용자가 25 명 인 120 그룹을 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0e991-129">For example, your Standard Edition server can have 120 groups with 25 users per group because the number of users enabled for Group Call Pickup is still within the user model maximum (that is, 120 groups times 25 users is 3,000 users enabled for Group Call Pickup).</span></span></P></LI></UL>
+> <P><span data-ttu-id="c87ba-128">풀 당 최대 사용자 수를 초과 하지 않을 경우 그룹 당 권장 되는 사용자 수와 그룹 수를 늘리거나 낮출 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c87ba-128">You can increase or decrease the recommended number of users per group and number of groups as long as you do not exceed the maximum number of users per pool.</span></span> <span data-ttu-id="c87ba-129">예를 들어 그룹 통화 픽업에 사용 하도록 설정 된 사용자 수가 사용자 모델 최대 (즉, 120 그룹 시간 25 명의 사용자는 그룹 통화 픽업에 사용 하도록 설정 3000 된 경우) 이므로 Standard Edition 서버는 그룹 당 사용자가 25 명 인 120 그룹을 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c87ba-129">For example, your Standard Edition server can have 120 groups with 25 users per group because the number of users enabled for Group Call Pickup is still within the user model maximum (that is, 120 groups times 25 users is 3,000 users enabled for Group Call Pickup).</span></span></P></LI></UL>
 
 
 

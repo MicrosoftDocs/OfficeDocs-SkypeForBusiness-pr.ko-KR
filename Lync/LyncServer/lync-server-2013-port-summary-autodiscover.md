@@ -12,20 +12,20 @@ ms:contentKeyID: 51541497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 635f8fca3b267fa2366b66b990ec0621f58f58e4
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 93750418bce8ea98d0cee385232bc09bb0bd63bc
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152666"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---autodiscover-in-lync-server-2013"></a><span data-ttu-id="31dbc-102">포트 요약-Lync Server 2013의 자동 검색</span><span class="sxs-lookup"><span data-stu-id="31dbc-102">Port summary - Autodiscover in Lync Server 2013</span></span>
+# <a name="port-summary---autodiscover-in-lync-server-2013"></a><span data-ttu-id="5cdd0-102">포트 요약-Lync Server 2013의 자동 검색</span><span class="sxs-lookup"><span data-stu-id="5cdd0-102">Port summary - Autodiscover in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "42152666"
 
 <span> </span>
 
-<span data-ttu-id="31dbc-103">_**마지막으로 수정 된 항목:** 2013-03-05_</span><span class="sxs-lookup"><span data-stu-id="31dbc-103">_**Topic Last Modified:** 2013-03-05_</span></span>
+<span data-ttu-id="5cdd0-103">_**마지막으로 수정 된 항목:** 2013-03-05_</span><span class="sxs-lookup"><span data-stu-id="5cdd0-103">_**Topic Last Modified:** 2013-03-05_</span></span>
 
-<span data-ttu-id="31dbc-104">Lync Server 2013 자동 검색 서비스는 디렉터 및 프런트 엔드 풀 서버에서 실행 되 고, `lyncdiscover.<domain>` 및 `lyncdiscoverinternal.<domain>` 호스트 레코드를 사용 하 여 DNS에 게시 되 면 클라이언트에서 lync server 기능을 찾을 때 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="31dbc-104">The Lync Server 2013 Autodiscover Service runs on the Director and Front End pool servers, and when published in DNS using the `lyncdiscover.<domain>` and `lyncdiscoverinternal.<domain>` host records, can be used by clients to locate Lync Server features.</span></span> <span data-ttu-id="31dbc-105">Lync Mobile을 실행 하는 모바일 장치에서 자동 검색을 사용 하려면 먼저 자동 검색 서비스를 실행 하는 모든 디렉터 및 프런트 엔드 서버에서 인증서 주체 대체 이름 목록을 수정 해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="31dbc-105">In order for mobile devices running Lync Mobile to use Autodiscover, you may first need to modify certificate subject alternative name lists on any Director and Front End Server running the Autodiscover Service.</span></span> <span data-ttu-id="31dbc-106">또한 역방향 프록시에 대한 외부 웹 서비스 게시 규칙에 사용되는 인증서에서도 주체 대체 이름 목록을 수정해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="31dbc-106">In addition, it may be necessary to modify the subject alternative name lists on certificates used for external web service publishing rules on reverse proxies.</span></span>
+<span data-ttu-id="5cdd0-104">Lync Server 2013 자동 검색 서비스는 디렉터 및 프런트 엔드 풀 서버에서 실행 되 고, `lyncdiscover.<domain>` 및 `lyncdiscoverinternal.<domain>` 호스트 레코드를 사용 하 여 DNS에 게시 되 면 클라이언트에서 lync server 기능을 찾을 때 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5cdd0-104">The Lync Server 2013 Autodiscover Service runs on the Director and Front End pool servers, and when published in DNS using the `lyncdiscover.<domain>` and `lyncdiscoverinternal.<domain>` host records, can be used by clients to locate Lync Server features.</span></span> <span data-ttu-id="5cdd0-105">Lync Mobile을 실행 하는 모바일 장치에서 자동 검색을 사용 하려면 먼저 자동 검색 서비스를 실행 하는 모든 디렉터 및 프런트 엔드 서버에서 인증서 주체 대체 이름 목록을 수정 해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5cdd0-105">In order for mobile devices running Lync Mobile to use Autodiscover, you may first need to modify certificate subject alternative name lists on any Director and Front End Server running the Autodiscover Service.</span></span> <span data-ttu-id="5cdd0-106">또한 역방향 프록시에 대한 외부 웹 서비스 게시 규칙에 사용되는 인증서에서도 주체 대체 이름 목록을 수정해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5cdd0-106">In addition, it may be necessary to modify the subject alternative name lists on certificates used for external web service publishing rules on reverse proxies.</span></span>
 
-<span data-ttu-id="31dbc-107">역방향 프록시에서 주체 대체 이름 목록을 사용할지 여부에 대 한 결정은 포트 80 또는 포트 443에 자동 검색 서비스를 게시할지 여부에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="31dbc-107">The decision about whether to use subject alternative name lists on reverse proxies is based on whether you publish the Autodiscover Service on port 80 or on port 443:</span></span>
+<span data-ttu-id="5cdd0-107">역방향 프록시에서 주체 대체 이름 목록을 사용할지 여부에 대 한 결정은 포트 80 또는 포트 443에 자동 검색 서비스를 게시할지 여부에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="5cdd0-107">The decision about whether to use subject alternative name lists on reverse proxies is based on whether you publish the Autodiscover Service on port 80 or on port 443:</span></span>
 
-  - <span data-ttu-id="31dbc-108">**모바일 장치용 포트 80**   에 게시 된 경우 자동 검색 서비스에 대 한 초기 쿼리가 포트 80를 통해 수행 되는 경우 인증서를 변경할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="31dbc-108">**Published on port 80**   For Mobile devices, no certificate changes are required if the initial query to the Autodiscover Service occurs over port 80.</span></span> <span data-ttu-id="31dbc-109">Lync를 실행 하는 모바일 장치는 외부에서 포트 80의 역방향 프록시에 액세스 한 다음 내부적으로 포트 8080에서 디렉터 또는 프런트 엔드 서버로 리디렉션되도록 하기 때문입니다.</span><span class="sxs-lookup"><span data-stu-id="31dbc-109">This is because mobile devices running Lync will access the reverse proxy on port 80 externally and then be redirected to a Director or Front End Server on port 8080 internally.</span></span>
+  - <span data-ttu-id="5cdd0-108">**모바일 장치용 포트 80**   에 게시 된 경우 자동 검색 서비스에 대 한 초기 쿼리가 포트 80를 통해 수행 되는 경우 인증서를 변경할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="5cdd0-108">**Published on port 80**   For Mobile devices, no certificate changes are required if the initial query to the Autodiscover Service occurs over port 80.</span></span> <span data-ttu-id="5cdd0-109">Lync를 실행 하는 모바일 장치는 외부에서 포트 80의 역방향 프록시에 액세스 한 다음 내부적으로 포트 8080에서 디렉터 또는 프런트 엔드 서버로 리디렉션되도록 하기 때문입니다.</span><span class="sxs-lookup"><span data-stu-id="5cdd0-109">This is because mobile devices running Lync will access the reverse proxy on port 80 externally and then be redirected to a Director or Front End Server on port 8080 internally.</span></span>
 
-  - <span data-ttu-id="31dbc-110">**게시 된 포트 443**   외부 웹 서비스 게시 규칙에서 사용 하는 인증서의 주체 대체 이름 목록에 조직 내의 `lyncdiscover.<sipdomain>` 각 SIP 도메인에 대 한 항목이 포함 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="31dbc-110">**Published on port 443**   The subject alternative name list on certificates used by the external web services publishing rule must contain a `lyncdiscover.<sipdomain>` entry for each SIP domain within your organization.</span></span>
+  - <span data-ttu-id="5cdd0-110">**게시 된 포트 443**   외부 웹 서비스 게시 규칙에서 사용 하는 인증서의 주체 대체 이름 목록에 조직 내의 `lyncdiscover.<sipdomain>` 각 SIP 도메인에 대 한 항목이 포함 되어 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5cdd0-110">**Published on port 443**   The subject alternative name list on certificates used by the external web services publishing rule must contain a `lyncdiscover.<sipdomain>` entry for each SIP domain within your organization.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="31dbc-111">모바일 기능을 배포한 Lync Server 2010에서 새로 설치 하거나 업그레이드 하는 경우에는 모바일 서비스의 자동 검색을 위해 Port 80을 사용 하거나 적절 한 주체 이름 및 주체 대체 이름을 사용 하 여 인증서를 다시 발급 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="31dbc-111">For new installations or upgrades from Lync Server 2010 where you deployed Mobility, you either used Port 80 for Autodiscover of the Mobility service, or reissued certificates with the proper subject name and subject alternative names in place.</span></span> <span data-ttu-id="31dbc-112">디렉터 및 프런트 엔드 서버의 인증서를 검토 하 여 선택한 경로를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="31dbc-112">Review the certificates on your Director and Front End Server to confirm which path you chose.</span></span>
+    > <span data-ttu-id="5cdd0-111">모바일 기능을 배포한 Lync Server 2010에서 새로 설치 하거나 업그레이드 하는 경우에는 모바일 서비스의 자동 검색을 위해 Port 80을 사용 하거나 적절 한 주체 이름 및 주체 대체 이름을 사용 하 여 인증서를 다시 발급 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5cdd0-111">For new installations or upgrades from Lync Server 2010 where you deployed Mobility, you either used Port 80 for Autodiscover of the Mobility service, or reissued certificates with the proper subject name and subject alternative names in place.</span></span> <span data-ttu-id="5cdd0-112">디렉터 및 프런트 엔드 서버의 인증서를 검토 하 여 선택한 경로를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="5cdd0-112">Review the certificates on your Director and Front End Server to confirm which path you chose.</span></span>
 
     
     </div>
 
-### <a name="firewall-details-for-reverse-proxy-server-external-interface"></a><span data-ttu-id="31dbc-113">역방향 프록시 서버에 대한 방화벽 세부 정보: 외부 인터페이스</span><span class="sxs-lookup"><span data-stu-id="31dbc-113">Firewall Details for Reverse Proxy Server: External Interface</span></span>
+### <a name="firewall-details-for-reverse-proxy-server-external-interface"></a><span data-ttu-id="5cdd0-113">역방향 프록시 서버에 대한 방화벽 세부 정보: 외부 인터페이스</span><span class="sxs-lookup"><span data-stu-id="5cdd0-113">Firewall Details for Reverse Proxy Server: External Interface</span></span>
 
 <table>
 <colgroup>
@@ -65,30 +65,30 @@ ms.locfileid: "42152666"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="31dbc-114">프로토콜/TCP 또는 UDP/포트</span><span class="sxs-lookup"><span data-stu-id="31dbc-114">Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="31dbc-115">원본 IP 주소</span><span class="sxs-lookup"><span data-stu-id="31dbc-115">Source IP Address</span></span></th>
-<th><span data-ttu-id="31dbc-116">대상 IP 주소</span><span class="sxs-lookup"><span data-stu-id="31dbc-116">Destination IP Address</span></span></th>
-<th><span data-ttu-id="31dbc-117">Notes</span><span class="sxs-lookup"><span data-stu-id="31dbc-117">Notes</span></span></th>
+<th><span data-ttu-id="5cdd0-114">프로토콜/TCP 또는 UDP/포트</span><span class="sxs-lookup"><span data-stu-id="5cdd0-114">Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="5cdd0-115">원본 IP 주소</span><span class="sxs-lookup"><span data-stu-id="5cdd0-115">Source IP Address</span></span></th>
+<th><span data-ttu-id="5cdd0-116">대상 IP 주소</span><span class="sxs-lookup"><span data-stu-id="5cdd0-116">Destination IP Address</span></span></th>
+<th><span data-ttu-id="5cdd0-117">Notes</span><span class="sxs-lookup"><span data-stu-id="5cdd0-117">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="31dbc-118">HTTP/TCP/80</span><span class="sxs-lookup"><span data-stu-id="31dbc-118">HTTP/TCP/80</span></span></p></td>
-<td><p><span data-ttu-id="31dbc-119">모두</span><span class="sxs-lookup"><span data-stu-id="31dbc-119">Any</span></span></p></td>
-<td><p><span data-ttu-id="31dbc-120">역방향 프록시 수신기</span><span class="sxs-lookup"><span data-stu-id="31dbc-120">Reverse proxy listener</span></span></p></td>
-<td><p><span data-ttu-id="31dbc-121">반드시 사용자가 http://&lt;publishedSiteFQDN&gt;를 입력 한 경우 HTTPS로 리디렉션</span><span class="sxs-lookup"><span data-stu-id="31dbc-121">(Optional) Redirection to HTTPS if user enters http://&lt;publishedSiteFQDN&gt;.</span></span> <span data-ttu-id="31dbc-122">또한 조직에서 외부 웹 서비스 게시 규칙 인증서를 수정 하지 않으려는 상황에서 Lync를 실행 하는 모바일 장치에 대 한 자동 검색 서비스와 회의에 Office Web Apps를 사용 하는 경우에도 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="31dbc-122">Also required if using Office Web Apps for conferencing and the Autodiscover Service for mobile devices running Lync in situations where the organization does not want to modify the external web service publishing rule certificate.</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-118">HTTP/TCP/80</span><span class="sxs-lookup"><span data-stu-id="5cdd0-118">HTTP/TCP/80</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-119">모두</span><span class="sxs-lookup"><span data-stu-id="5cdd0-119">Any</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-120">역방향 프록시 수신기</span><span class="sxs-lookup"><span data-stu-id="5cdd0-120">Reverse proxy listener</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-121">반드시 사용자가 http://&lt;publishedSiteFQDN&gt;를 입력 한 경우 HTTPS로 리디렉션</span><span class="sxs-lookup"><span data-stu-id="5cdd0-121">(Optional) Redirection to HTTPS if user enters http://&lt;publishedSiteFQDN&gt;.</span></span> <span data-ttu-id="5cdd0-122">또한 조직에서 외부 웹 서비스 게시 규칙 인증서를 수정 하지 않으려는 상황에서 Lync를 실행 하는 모바일 장치에 대 한 자동 검색 서비스와 회의에 Office Web Apps를 사용 하는 경우에도 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="5cdd0-122">Also required if using Office Web Apps for conferencing and the Autodiscover Service for mobile devices running Lync in situations where the organization does not want to modify the external web service publishing rule certificate.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="31dbc-123">HTTPS/TCP/443</span><span class="sxs-lookup"><span data-stu-id="31dbc-123">HTTPS/TCP/443</span></span></p></td>
-<td><p><span data-ttu-id="31dbc-124">모두</span><span class="sxs-lookup"><span data-stu-id="31dbc-124">Any</span></span></p></td>
-<td><p><span data-ttu-id="31dbc-125">역방향 프록시 수신기</span><span class="sxs-lookup"><span data-stu-id="31dbc-125">Reverse proxy listener</span></span></p></td>
-<td><p><span data-ttu-id="31dbc-126">주소록 다운로드, 주소록 웹 쿼리 서비스, 자동 검색, 클라이언트 업데이트, 모임 콘텐츠, 장치 업데이트, 그룹 확장, 회의를 위한 Office Web Apps, 전화 접속 회의 및 모임</span><span class="sxs-lookup"><span data-stu-id="31dbc-126">Address book downloads, Address Book Web Query service, Autodiscover, client updates, meeting content, device updates, group expansion, Office Web Apps for conferencing, dial-in conferencing, and meetings.</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-123">HTTPS/TCP/443</span><span class="sxs-lookup"><span data-stu-id="5cdd0-123">HTTPS/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-124">모두</span><span class="sxs-lookup"><span data-stu-id="5cdd0-124">Any</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-125">역방향 프록시 수신기</span><span class="sxs-lookup"><span data-stu-id="5cdd0-125">Reverse proxy listener</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-126">주소록 다운로드, 주소록 웹 쿼리 서비스, 자동 검색, 클라이언트 업데이트, 모임 콘텐츠, 장치 업데이트, 그룹 확장, 회의를 위한 Office Web Apps, 전화 접속 회의 및 모임</span><span class="sxs-lookup"><span data-stu-id="5cdd0-126">Address book downloads, Address Book Web Query service, Autodiscover, client updates, meeting content, device updates, group expansion, Office Web Apps for conferencing, dial-in conferencing, and meetings.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="firewall-details-for-reverse-proxy-server-internal-interface"></a><span data-ttu-id="31dbc-127">역방향 프록시 서버에 대한 방화벽 세부 정보: 내부 인터페이스</span><span class="sxs-lookup"><span data-stu-id="31dbc-127">Firewall Details for Reverse Proxy Server: Internal Interface</span></span>
+### <a name="firewall-details-for-reverse-proxy-server-internal-interface"></a><span data-ttu-id="5cdd0-127">역방향 프록시 서버에 대한 방화벽 세부 정보: 내부 인터페이스</span><span class="sxs-lookup"><span data-stu-id="5cdd0-127">Firewall Details for Reverse Proxy Server: Internal Interface</span></span>
 
 <table>
 <colgroup>
@@ -99,24 +99,24 @@ ms.locfileid: "42152666"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="31dbc-128">프로토콜/TCP 또는 UDP/포트</span><span class="sxs-lookup"><span data-stu-id="31dbc-128">Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="31dbc-129">원본 IP 주소</span><span class="sxs-lookup"><span data-stu-id="31dbc-129">Source IP Address</span></span></th>
-<th><span data-ttu-id="31dbc-130">대상 IP 주소</span><span class="sxs-lookup"><span data-stu-id="31dbc-130">Destination IP Address</span></span></th>
-<th><span data-ttu-id="31dbc-131">Notes</span><span class="sxs-lookup"><span data-stu-id="31dbc-131">Notes</span></span></th>
+<th><span data-ttu-id="5cdd0-128">프로토콜/TCP 또는 UDP/포트</span><span class="sxs-lookup"><span data-stu-id="5cdd0-128">Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="5cdd0-129">원본 IP 주소</span><span class="sxs-lookup"><span data-stu-id="5cdd0-129">Source IP Address</span></span></th>
+<th><span data-ttu-id="5cdd0-130">대상 IP 주소</span><span class="sxs-lookup"><span data-stu-id="5cdd0-130">Destination IP Address</span></span></th>
+<th><span data-ttu-id="5cdd0-131">Notes</span><span class="sxs-lookup"><span data-stu-id="5cdd0-131">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="31dbc-132">HTTP/TCP/8080</span><span class="sxs-lookup"><span data-stu-id="31dbc-132">HTTP/TCP/8080</span></span></p></td>
-<td><p><span data-ttu-id="31dbc-133">내부 역방향 프록시 인터페이스</span><span class="sxs-lookup"><span data-stu-id="31dbc-133">Internal reverse proxy interface</span></span></p></td>
-<td><p><span data-ttu-id="31dbc-134">프런트 엔드 서버, 프런트 엔드 풀, 디렉터, 디렉터 풀, 회의를 위한 Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="31dbc-134">Front End Server, Front End pool, Director, Director pool, Office Web Apps for conferencing</span></span></p></td>
-<td><p><span data-ttu-id="31dbc-135">조직에서 외부 웹 서비스 게시 규칙 인증서를 수정 하지 않으려는 상황에서 Lync를 실행 하는 모바일 장치에 대 한 자동 검색 서비스를 사용 하는 경우 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="31dbc-135">Required if using the Autodiscover Service for mobile devices running Lync in situations where the organization does not want to modify the external web service publishing rule certificate.</span></span> <span data-ttu-id="31dbc-136">역방향 프록시 외부 인터페이스에서 포트 80으로 전송된 트래픽은 풀 웹 서비스에서 내부 웹 트래픽과 구분할 수 있도록 역방향 프록시 내부 인터페이스에서 포트 8080을 통해 풀로 리디렉션됩니다.</span><span class="sxs-lookup"><span data-stu-id="31dbc-136">Traffic sent to port 80 on the reverse proxy external interface is redirected to a pool on port 8080 from the reverse proxy internal interface so that the pool Web Services can distinguish it from internal web traffic.</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-132">HTTP/TCP/8080</span><span class="sxs-lookup"><span data-stu-id="5cdd0-132">HTTP/TCP/8080</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-133">내부 역방향 프록시 인터페이스</span><span class="sxs-lookup"><span data-stu-id="5cdd0-133">Internal reverse proxy interface</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-134">프런트 엔드 서버, 프런트 엔드 풀, 디렉터, 디렉터 풀, 회의를 위한 Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="5cdd0-134">Front End Server, Front End pool, Director, Director pool, Office Web Apps for conferencing</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-135">조직에서 외부 웹 서비스 게시 규칙 인증서를 수정 하지 않으려는 상황에서 Lync를 실행 하는 모바일 장치에 대 한 자동 검색 서비스를 사용 하는 경우 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="5cdd0-135">Required if using the Autodiscover Service for mobile devices running Lync in situations where the organization does not want to modify the external web service publishing rule certificate.</span></span> <span data-ttu-id="5cdd0-136">역방향 프록시 외부 인터페이스에서 포트 80으로 전송된 트래픽은 풀 웹 서비스에서 내부 웹 트래픽과 구분할 수 있도록 역방향 프록시 내부 인터페이스에서 포트 8080을 통해 풀로 리디렉션됩니다.</span><span class="sxs-lookup"><span data-stu-id="5cdd0-136">Traffic sent to port 80 on the reverse proxy external interface is redirected to a pool on port 8080 from the reverse proxy internal interface so that the pool Web Services can distinguish it from internal web traffic.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="31dbc-137">HTTPS/TCP/4443</span><span class="sxs-lookup"><span data-stu-id="31dbc-137">HTTPS/TCP/4443</span></span></p></td>
-<td><p><span data-ttu-id="31dbc-138">내부 역방향 프록시 인터페이스</span><span class="sxs-lookup"><span data-stu-id="31dbc-138">Internal reverse proxy interface</span></span></p></td>
-<td><p><span data-ttu-id="31dbc-139">프런트 엔드 서버, 프런트 엔드 풀, 디렉터, 디렉터 풀, 회의를 위한 Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="31dbc-139">Front End Server, Front End pool, Director, Director pool, Office Web Apps for conferencing</span></span></p></td>
-<td><p><span data-ttu-id="31dbc-140">역방향 프록시 외부 인터페이스에서 포트 443으로 전송된 트래픽은 풀 웹 서비스에서 내부 웹 트래픽과 구분할 수 있도록 역방향 프록시 내부 인터페이스에서 포트 4443을 통해 풀로 리디렉션됩니다.</span><span class="sxs-lookup"><span data-stu-id="31dbc-140">Traffic sent to port 443 on the reverse proxy external interface is redirected to a pool on port 4443 from the reverse proxy internal interface so that the pool web services can distinguish it from internal web traffic.</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-137">HTTPS/TCP/4443</span><span class="sxs-lookup"><span data-stu-id="5cdd0-137">HTTPS/TCP/4443</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-138">내부 역방향 프록시 인터페이스</span><span class="sxs-lookup"><span data-stu-id="5cdd0-138">Internal reverse proxy interface</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-139">프런트 엔드 서버, 프런트 엔드 풀, 디렉터, 디렉터 풀, 회의를 위한 Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="5cdd0-139">Front End Server, Front End pool, Director, Director pool, Office Web Apps for conferencing</span></span></p></td>
+<td><p><span data-ttu-id="5cdd0-140">역방향 프록시 외부 인터페이스에서 포트 443으로 전송된 트래픽은 풀 웹 서비스에서 내부 웹 트래픽과 구분할 수 있도록 역방향 프록시 내부 인터페이스에서 포트 4443을 통해 풀로 리디렉션됩니다.</span><span class="sxs-lookup"><span data-stu-id="5cdd0-140">Traffic sent to port 443 on the reverse proxy external interface is redirected to a pool on port 4443 from the reverse proxy internal interface so that the pool web services can distinguish it from internal web traffic.</span></span></p></td>
 </tr>
 </tbody>
 </table>
