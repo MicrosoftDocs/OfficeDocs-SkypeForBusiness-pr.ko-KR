@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드에서 사용 하는 차원과 측정값에 대 한 자세한 정보를 확인 하세요.
-ms.openlocfilehash: 6ad18b0674dec96c163bf64b6a16f014a0413ab8
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 99013a4919dac1312564ab3f4d935fb2628d5da5
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826916"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161749"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>통화 품질 대시보드에서 사용할 수 있는 크기 및 측정
 
@@ -199,6 +199,26 @@ CQD의 여러 차원과 측정값에는 첫 또는 초로 레이블이 지정 �
 | 두 번째 CDR 연결 형식  | 열거할 <br/>**사용할 수 있는 값:** <br/>&bull;변경할 <br/>&bull;PeerDerived <br/>&bull;Stun <br/>&bull;해제할  | 이 스트림에 사용할 두 번째 끝점에서 선택한 ICE 연결 경로를 식별 합니다.  <br/> **예제 값:** 변경할   | &bull;전송 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다.   |
 |첫 번째 BSSID|문자열 | 네트워크에 연결 하는 데 사용 되는 첫 번째 끝점의 무선 LAN 기본 서비스 집합 식별자입니다.| |
 | 두 번째 BSSID| 문자열|네트워크에 연결 하는 데 사용 되는 두 번째 끝점의 무선 LAN 기본 서비스 집합 식별자입니다.| |
+| 첫 번째 기준 주소 | 문자열 | 미디어 릴레이 후보를 할당 하는 데 사용 되는 첫 번째 끝점 인터페이스의 IP 주소입니다. 지난 30 일간의 데이터만 사용할 수 있으며, EUII 액세스를 허용 하는 역할이 있는 사용자 에게만 표시 됩니다. <br/> **예제 값:** 10.0.0.10 | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 두 번째 기준 주소 | 문자열 | 두 번째 종점이 미디어 릴레이 후보를 할당 하는 데 사용 하는 인터페이스의 IP 주소입니다. 지난 30 일간의 데이터만 사용할 수 있으며, EUII 액세스를 허용 하는 역할이 있는 사용자 에게만 표시 됩니다. <br/> **예제 값:** 10.0.0.10 | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 첫 번째 로컬 주소 | 문자열 | 미디어 연결 검사가 끝날 때 미디어 흐름에 사용 되는 첫 번째 끝점의 IP 주소입니다. 지난 30 일간의 데이터만 사용할 수 있으며, EUII 액세스를 허용 하는 역할이 있는 사용자 에게만 표시 됩니다. <br/> **예제 값:** 10.0.0.10 | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 두 번째 로컬 주소 | 문자열 | 미디어 연결 검사 종료 시 미디어 흐름에 사용 되는 두 번째 끝점의 IP 주소입니다. 지난 30 일간의 데이터만 사용할 수 있으며, EUII 액세스를 허용 하는 역할이 있는 사용자 에게만 표시 됩니다. <br/> **예제 값:** 10.0.0.10 | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 첫 번째 로컬 주소 유형 | 열거할 <br/>**사용할 수 있는 값** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 첫 번째 로컬 주소의 후보 유형입니다. IceAddrType_Turn는 릴레이 된 통화를 나타냅니다. 나머지 형식은 직접 연결을 나타냅니다. | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 두 번째 로컬 주소 유형 | 열거할 <br/>**사용할 수 있는 값** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 두 번째 로컬 주소의 후보 유형입니다. IceAddrType_Turn는 릴레이 된 통화를 나타냅니다. 나머지 형식은 직접 연결을 나타냅니다. | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 첫 번째 원격 주소 | 문자열 | 미디어 연결 확인이 끝날 때 첫 번째 끝점에서 미디어를 보낼 두 번째 끝점의 IP 주소입니다. 지난 30 일간의 데이터만 사용할 수 있으며, EUII 액세스를 허용 하는 역할이 있는 사용자 에게만 표시 됩니다. <br/> **예제 값:** 10.0.0.10 | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 두 번째 원격 주소 | 문자열 | 미디어 연결 확인이 끝날 때 두 번째 끝점이 미디어를 보낼 첫 번째 끝점의 IP 주소입니다. 지난 30 일간의 데이터만 사용할 수 있으며, EUII 액세스를 허용 하는 역할이 있는 사용자 에게만 표시 됩니다. <br/> **예제 값:** 10.0.0.10 | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 첫 번째 원격 주소 유형 | 열거할 <br/>**사용할 수 있는 값** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 첫 번째 원격 주소의 후보 유형입니다. IceAddrType_Turn는 릴레이 된 통화를 나타냅니다. 나머지 값은 직접 연결을 나타냅니다. | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 두 번째 원격 주소 형식 | 열거할  <br/>**사용할 수 있는 값** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 두 번째 원격 주소의 후보 유형입니다. IceAddrType_Turn는 릴레이 된 통화를 나타냅니다. 나머지 값은 직접 연결을 나타냅니다. | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 첫 번째 로컬 사이트 | 문자열 | 미디어 릴레이 서버에 표시 되는 첫 번째 끝점의 IP 주소입니다. 일반적으로 스트림의 첫 번째 끝점과 연결 된 공용 인터넷 IP 주소입니다. 일부 이유로 인해 중계에 연결할 수 없거나 할당이 실패 한 경우 첫 번째 끝점에서 로컬 인터페이스의 IP가 됩니다. <br/> 이는 첫 번째 재귀 로컬 IP와 비슷하지만이 정보는 체감 품질 대신 전송 진단 이벤트를 통해 보고 됩니다. 지난 30 일간의 데이터만 사용할 수 있으며, EUII 액세스를 허용 하는 역할이 있는 사용자 에게만 표시 됩니다. <br/> **예제 값:** 104.43.195.251 | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 두 번째 로컬 사이트 | 문자열 | 미디어 릴레이 서버에 표시 되는 두 번째 끝점의 IP 주소입니다. 이는 일반적으로 스트림의 두 번째 끝점과 연결 된 공용 인터넷 IP 주소입니다. 일부 이유로 인해 중계에 연결할 수 없거나 할당이 실패 한 경우 첫 번째 끝점에서 로컬 인터페이스의 IP가 됩니다. <br/> 이것은 두 번째 재귀 로컬 IP와 비슷하지만,이 정보는 체감 품질 대신 전송 진단 이벤트를 통해 보고 됩니다. 지난 30 일간의 데이터만 사용할 수 있으며, EUII 액세스를 허용 하는 역할이 있는 사용자 에게만 표시 됩니다. <br/> **예제 값:** 104.43.195.251 | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 첫 번째 원격 사이트 | 문자열 | 두 번째 끝점에서 보고 하 고 첫 번째 끝점과 교환 된 로컬 사이트 IP 주소입니다. <br/> 두 번째 끝점에 대 한 추가 정보는 어떤 이유로 든 사용할 수 없습니다. 지난 30 일간의 데이터만 사용할 수 있으며, EUII 액세스를 허용 하는 역할이 있는 사용자 에게만 표시 됩니다. <br/> **예제 값:** 104.43.195.251 | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 두 번째 원격 사이트 | 문자열 | 첫 번째 끝점에서 보고 하 고 두 번째 끝점을 교환 한 로컬 사이트 IP 주소입니다. <br/> 어떤 이유로 든 첫 번째 끝점에 대 한 전송 진단 이벤트를 사용할 수 없는 경우 추가 정보 지난 30 일간의 데이터만 사용할 수 있으며, EUII 액세스를 허용 하는 역할이 있는 사용자 에게만 표시 됩니다. <br/> **예제 값:** 104.43.195.251 | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 첫 번째 로컬 미디어 릴레이 주소 | 문자열 | 첫 번째 끝점에서 할당 한 미디어 릴레이 서버의 Microsoft IP 주소입니다. <br/> 이 정보는 첫 번째 릴레이 IP와 유사 하지만 체감 품질 대신 전송 진단 이벤트에 의해 보고 됩니다. <br/> **예제 값:** 52.114.5.237 | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 두 번째 로컬 미디어 릴레이 주소 | 문자열 | 두 번째 끝점에서 할당 한 미디어 릴레이 서버의 Microsoft IP 주소입니다. <br/> 이 정보는 두 번째 릴레이 IP와 유사 하지만 체감 품질 대신 전송 진단 이벤트에 의해 보고 됩니다. <br/> **예제 값:** 52.114.5.237 | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 첫 번째 원격 미디어 릴레이 주소 | 문자열 | 두 번째 끝점에서 할당 하 고 첫 번째 끝점과 교환 되는 미디어 릴레이 서버의 Microsoft IP 주소입니다. <br/> 어떤 이유로 든 두 번째 끝점에 대 한 전송 진단 이벤트를 사용할 수 없는 경우 추가 정보 <br/> **예제 값:** 52.114.5.237 | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 두 번째 원격 미디어 릴레이 주소 | 문자열 | 첫 번째 끝점에서 할당 하 고 두 번째 끝점과 교환 되는 미디어 릴레이 서버의 Microsoft IP 주소입니다. <br/> 어떤 이유로 든 첫 번째 끝점에 대 한 전송 진단 이벤트를 사용할 수 없는 경우 추가 정보 <br/> **예제 값:** 52.114.5.237 | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 첫 번째 전송 프로토콜 | 열거 문자열 | 미디어 송신을 위한 첫 번째 끝점에서 사용 하는 통신 프로토콜입니다. <br/>**사용할 수 있는 값** <br/>&bull;UDP-선반 가공 및 호스트 할당 모두에 대해 다중 용도의 UDP가 사용 됨 <br/>&bull;TurnTCP-TCP TURN 할당. 프록시 설정이 지정 된 경우 프록시 사용 <br/>&bull;TCPHostPassive-수동 연결 형식에 대 한 TCP 수신 대기 호스트 소켓 <br/>&bull;TCPHostActive-활성 연결 형식을 사용 하 여 TCP 연결 <br/>&bull;CompoundTCP-업스트림 및 다운스트림 TCP 연결의 조합. 일반적으로 HTTPS 프로토콜을 통해 <br/> | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
+| 두 번째 전송 프로토콜 | 열거 문자열 | 두 번째 끝점에서 미디어 전송을 위해 사용 하는 통신 프로토콜입니다. <br/>**사용할 수 있는 값** <br/>&bull;UDP-선반 가공 및 호스트 할당 모두에 대해 다중 용도의 UDP가 사용 됨 <br/>&bull;TurnTCP-TCP TURN 할당. 프록시 설정이 지정 된 경우 프록시 사용 <br/>&bull;TCPHostPassive-수동 연결 형식에 대 한 TCP 수신 대기 호스트 소켓 <br/>&bull;TCPHostActive-활성 연결 형식을 사용 하 여 TCP 연결 <br/>&bull;CompoundTCP-업스트림 및 다운스트림 TCP 연결의 조합. 일반적으로 HTTPS 프로토콜을 통해 <br/> | &bull;전송 진단 유형이 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. |
 |**장치**| |||
 | 첫 번째 캡처 개발자  | 문자열  | 첫 번째 끝점에 사용 되는 캡처 디바이스의 이름입니다. 용 <br/> **오디오 스트림** = 마이크에 사용 되는 장치 <br/> **비디오 스트림** = 카메라에 사용 되는 장치 <br/> **비디오 기반 화면 공유 스트림** = 화면 scraper <br/> **앱 공유 스트림** = 비어 있음 <br/> **예제 값:** 헤드셋 마이크 (Microsoft LifeChat LX-6000)  | &bull;끝점에서 데이터가 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. <br/>&bull;스트림은 비디오 기반 화면 공유 또는 응용 프로그램 공유입니다.  |
 | 두 번째 캡처 개발자  | 문자열  | 두 번째 끝점에 사용 되는 캡처 디바이스의 이름입니다.  <br/> **오디오 스트림** = 마이크에 사용 되는 장치 <br/> **비디오 스트림** = 카메라에 사용 되는 장치 <br/> **비디오 기반 화면 공유 스트림** = 화면 scraper <br/> **앱 공유 스트림** = 비어 있음 <br/> **예제 값:** 헤드셋 마이크 (Microsoft LifeChat LX-6000) | <br/>&bull;끝점에서 데이터가 보고 되지 않았습니다. <br/>&bull;미디어 경로가 설정 되지 않았습니다. <br/>&bull;스트림이 영상 기반 화면 공유 또는 응용 프로그램 공유입니다.   |
@@ -279,6 +299,7 @@ CQD의 여러 차원과 측정값에는 첫 또는 초로 레이블이 지정 �
 | VideoFrameRateAvg로 인해 영상 품질이 나쁨  | 부울  | 비디오 스트림이 비디오 프레임 속도에 따라 불량으로 분류 된 경우 (예: [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)). 비 비디오 스트림의 경우 항상 False입니다.    | &bull;종점이이 데이터를 보고 하지 않았습니다.  <br/>&bull;스트림이 비디오 스트림이 아닙니다. |
 | VideoPostFecplr로 인해 VBSS가 잘못 되었습니다.  | 부울  | 비디오 기반 화면 공유 스트림이 여기에 나열 된 비디오 게시물 FEC PLR 메트릭 임계값을 기준으로 불량으로 분류 된 경우 True입니다. [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)입니다. 비 영상 기반 스트림 공유 스트림에 대해 항상 False가 됩니다.    | &bull;종점이이 데이터를 보고 하지 않았습니다. <br/>&bull;스트림이 비디오 기반 화면 공유 스트림이 아닙니다.  |
 | VideoLocalFrameLossPercentageAvg로 인해 VBSS가 잘못 되었습니다.  | 부울  | 비디오 기반 화면 공유 스트림이 잘못 된 것으로 분류 된 경우 비디오 로컬 프레임 손실 평균 메트릭 임계값: [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)입니다. 비 영상 기반 스트림 공유 스트림에 대해 항상 False가 됩니다.    | &bull;종점이이 데이터를 보고 하지 않았습니다. <br/>&bull;스트림이 비디오 기반 화면 공유 스트림이 아닙니다.  |
+| 고정으로 인해 화면이 나쁨 | 부울  | 비디오 스트림이 비디오 고정 인스턴스를 기준으로 불량으로 분류 된 경우 ( [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md) ) | &bull;종점이이 데이터를 보고 하지 않았습니다.  <br/>&bull;스트림이 비디오 스트림이 아닙니다. 이 필드는 Microsoft 팀에만 해당 됩니다. |
 | VideoFrameRateAvg로 인해 VBSS가 잘못 되었습니다.  | 부울  | 비디오 기반 화면 공유 스트림이 아래에 나열 된 비디오 프레임 속도 평균 메트릭 임계값을 기준으로 불량으로 분류 된 경우: [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)입니다. 비 영상 기반 스트림 공유 스트림에 대해 항상 False가 됩니다.   | &bull;종점이이 데이터를 보고 하지 않았습니다. <br/>&bull;스트림이 비디오 기반 화면 공유 스트림이 아닙니다.   |
 | SpoiledTilePercentTotal로 인해 AppSharing의 품질이 나쁨  | 부울  | 응용 프로그램 공유 스트림이 다음 목록에 나열 된 Spoiled 타일 백분율 임계값에 근거 하 여 불량으로 분류 된 경우 True: [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)입니다. 비 응용 프로그램 공유 스트림에는 항상 False가 됩니다.   | &bull;종점이이 데이터를 보고 하지 않았습니다.  <br/>&bull;스트림이 응용 프로그램 공유 스트림이 아닙니다.  |
 | RelativeOneWayAverage로 인해 AppSharing의 품질이 나쁨  | 부울  | 응용 프로그램 공유 스트림이 여기에 나열 된 상대적 단방향 평균 메트릭 임계값을 기준으로 불량으로 분류 된 경우 True입니다. [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)입니다. 비 응용 프로그램 공유 스트림에는 항상 False가 됩니다.    | &bull;종점이이 데이터를 보고 하지 않았습니다.  <br/>&bull;스트림이 응용 프로그램 공유 스트림이 아닙니다. |
@@ -522,10 +543,12 @@ CQD에 사용 되는 문자열은 종종 데이터 파일에서 파생 되며, �
 |VideoPostFecplr 수로 인해 비디오가 잘못 되었습니다. |스트림 수 |비디오 게시물 Fec plr이 여기에 나열 된 임계값을 초과 하는 비디오 스트림 수: [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)입니다. |
 |VideoLocalFrameLossPercentageAvg 수로 인해 비디오가 잘못 되었습니다. |스트림 수 |비디오 로컬 프레임 손실 평균 백분율이 여기에 나열 된 임계값을 초과 하는 비디오 스트림 수: [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)입니다. |
 |VideoFrameRateAvg 수로 인해 비디오가 잘못 되었습니다. |스트림 수 |비디오 프레임 속도가 임계값을 초과 하는 비디오 스트림 수: [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)입니다. |
+|고정 개수로 인해 비디오가 잘못 되었습니다. |스트림 수 | 비디오 고정 메트릭이 여기에 나열 된 임계값을 초과 하는 기본 비디오 스트림 수입니다. [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)입니다. 이 필드는 Microsoft 팀에만 해당 됩니다. |
 |비디오 불량 스트림 횟수 |스트림 수 |[통화 품질 대시보드의 여기에](stream-classification-in-call-quality-dashboard.md)나열 된 네트워크 메트릭에 따라 불량 한 비디오 스트림 수입니다. |
 |비디오 정상 스트림 횟수 |스트림 수 |네트워크 메트릭스에 따라 적절 하 게 분류 된 비디오 스트림 수: [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)입니다. |
 |비디오 분류 되지 않은 스트림 수 |스트림 수 |여기에 나열 된 네트워크 메트릭에 따라 제대로 분류 하기에 충분 한 데이터를 보유 하 고 있지 않은 비디오 스트림 수: [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)입니다. |
 |비디오 불량 백분율|많은 |[통화 품질 대시보드의 여기에](stream-classification-in-call-quality-dashboard.md)나열 된 네트워크 메트릭에 따라 불량으로 분류 된 총 비디오 스트림의 백분율입니다. |
+|고정으로 인 한 비디오 불량 백분율|많은 | [통화 품질 대시보드의 스트림 분류에](stream-classification-in-call-quality-dashboard.md)나열 된 중지로 인해 비디오 불량 메트릭을 기준으로 잘못 분류 된 주 비디오 스트림의 백분율입니다. 이 필드는 Microsoft 팀에만 해당 됩니다. |
 |VBSS 스트림 수 |스트림 수 |비디오 기반 화면 공유 스트림의 수입니다. |
 |VideoPostFecplr 개수로 인해 VBSS가 잘못 되었습니다. |스트림 수 |비디오 게시물 Fec plr이 임계값을 초과 하는 비디오 기반 화면 공유 스트림의 수: [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)입니다. |
 |VideoLocalFrameLossPercentageAvg 개수로 인해 VBSS가 잘못 되었습니다. |스트림 수 |비디오 로컬 프레임 손실 평균 백분율이 여기에 나열 된 임계값을 초과 하는 비디오 기반 화면 공유 스트림의 수: [통화 품질 대시보드의 스트림 분류](stream-classification-in-call-quality-dashboard.md)입니다. |
@@ -634,10 +657,11 @@ CQD에 사용 되는 문자열은 종종 데이터 파일에서 파생 되며, �
 
 여러 치수 및 측정 값을 필터로 사용할 수도 있습니다. 쿼리에 필터를 사용 하 여 차원 또는 측정값을 선택 하는 것과 같은 방식으로 정보를 제거 하 여 쿼리에 정보를 추가 하거나 포함할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [비즈니스용 Skype 통화 분석 설정](set-up-call-analytics.md)
 
 [통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [통화 분석 및 통화 품질 대시보드](difference-between-call-analytics-and-call-quality-dashboard.md)
+ 

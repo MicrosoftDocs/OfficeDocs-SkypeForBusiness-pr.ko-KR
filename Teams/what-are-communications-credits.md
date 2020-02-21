@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '통신 크레딧 (PSTN 소비) 청구, 요금을 확인 하는 방법, 제공 되는 서비스에 대해 알아봅니다. '
-ms.openlocfilehash: c071ebf297714e81cdb8a508ebf313d0054fe633
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 682d2d9fb89c0cee46ca6fb0e856a6000e4c6386
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051572"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161729"
 ---
 # <a name="what-are-communications-credits"></a>통신 크레딧이란?
 
@@ -68,7 +68,7 @@ ms.locfileid: "42051572"
 > [!NOTE]
 > [Microsoft 365 관리 센터에 로그인](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) 하 고 **요금 청구** > **구독** > 으로 진행 하 여 계획 및 가격 책정을 볼 수 있습니다.**구독을 추가**합니다. 
   
-**Microsoft 365 관리 센터** > **대금 청구** > **구독**에서 언제 든 지 수동으로 크레딧을 추가할 수 있습니다. 또한 자동 **충전** 옵션을 사용 하도록 설정 하면 잔액이 설정한 임계값 아래로 떨어질 때 자동 계정 refills을 사용할 수 있습니다. 커뮤니케이션의 크레딧 잔액을 한 번만 기준으로 한 다음 잔액이 0이 되는 경우, 위의 추가 통화 시나리오가 더 이상 작동 하지 않습니다 (무료 전화 번호 포함). 따라서, **자동 충전** 설정을 사용 하 여 통신 크레딧 잔액이 0 (영)에 도달 해야 하는 서비스 중단을 방지 하는 것이 좋습니다. 발송 거래 성공, 충전 트랜잭션 실패 (예: 만료 된 신용 카드) 또는 통신 크레딧 잔액이 0 (영)에 도달 하는 경우 전자 메일을 받게 됩니다.
+**Microsoft 365 관리 센터** > **대금** > **구매 서비스** > **추가 기능** 을 추가 하기 위해 통신 크레딧을 선택할 수 있으며 언제 든 지 수동으로 크레딧을 추가할 수 있습니다. 또한 자동 **충전** 옵션을 사용 하도록 설정 하면 잔액이 설정한 임계값 아래로 떨어질 때 자동 계정 refills을 사용할 수 있습니다. 커뮤니케이션의 크레딧 잔액을 한 번만 기준으로 한 다음 잔액이 0이 되는 경우, 위의 추가 통화 시나리오가 더 이상 작동 하지 않습니다 (무료 전화 번호 포함). 따라서, **자동 충전** 설정을 사용 하 여 통신 크레딧 잔액이 0 (영)에 도달 해야 하는 서비스 중단을 방지 하는 것이 좋습니다. 발송 거래 성공, 충전 트랜잭션 실패 (예: 만료 된 신용 카드) 또는 통신 크레딧 잔액이 0 (영)에 도달 하는 경우 전자 메일을 받게 됩니다.
   
 ## <a name="communications-credits"></a>통신 크레딧
 
@@ -99,7 +99,7 @@ ms.locfileid: "42051572"
   
 각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [비즈니스용 Skype PSTN 사용 보고서](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
 
   

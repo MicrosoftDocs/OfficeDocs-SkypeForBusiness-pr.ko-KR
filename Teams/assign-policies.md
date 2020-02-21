@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 사용자에 게 정책을 할당 하는 다양 한 방법에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: a4d50f6182441e97f5d7290610e254bd82e91e96
-ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
+ms.openlocfilehash: cb1c5fd43379388327de5e517409f01f7f52ed1b
+ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42052564"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170764"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft 팀에서 사용자에 게 정책 할당
 
 > [!NOTE]
-> **이 문서에서 설명 하는 두 가지 Microsoft 팀 기능, [일괄 처리 정책 할당](#assign-a-policy-to-a-batch-of-users) 및 [그룹 정책 할당](#assign-a-policy-to-a-group)은 현재 미리 보기 상태입니다.**
+> **이 문서에서 설명 하는 두 가지 Microsoft 팀 기능, [일괄 정책 할당](#assign-a-policy-to-a-batch-of-users) 및 [그룹에 대 한 정책 할당](#assign-a-policy-to-a-group)은 현재 미리 보기 상태입니다.**
 
 관리자는 정책을 사용 하 여 조직의 사용자가 사용할 수 있는 팀 기능을 제어 합니다. 예를 들어, 전화 정책, 모임 정책, 메시지 정책이 몇 가지 이름으로 사용할 수 있습니다.
 
@@ -213,18 +213,18 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-그룹 정책 할당을 통해 보안 그룹 또는 조직 구성 단위와 같은 사용자 그룹에 정책을 할당할 수 있습니다. 정책 할당은 선행 규칙에 따라 그룹의 구성원에 게 전파 됩니다. 그룹에서 구성원이 추가 되거나 제거 되 면 그에 따라 상속 된 정책 할당이 업데이트 됩니다.
+그룹에 정책 할당을 통해 보안 그룹 또는 조직 구성 단위와 같은 사용자 그룹에 정책을 할당할 수 있습니다. 정책 할당은 선행 규칙에 따라 그룹의 구성원에 게 전파 됩니다. 그룹에서 구성원이 추가 되거나 제거 되 면 그에 따라 상속 된 정책 할당이 업데이트 됩니다.
 
 ```New-CsGroupPolicyAssignment``` Cmdlet을 사용 하 여 그룹에 정책을 할당 합니다. 개체 Id, SIP 주소 또는 전자 메일 주소를 사용 하 여 그룹을 지정할 수 있습니다.
 
 정책을 할당 하면 그룹에 즉시 할당 됩니다. 그러나 그룹 구성원에 게 정책 할당의 전파는 백그라운드 작업으로 수행 되며 그룹 크기에 따라 시간이 걸릴 수 있습니다. 그룹에서 정책이 할당 되지 않거나 구성원이 그룹에서 추가 되거나 제거 되는 경우에도 마찬가지입니다.
 
 > [!NOTE]
-> 현재 일부 팀 정책 유형에는 그룹 정책 할당을 사용할 수 없습니다. 지원 되는 정책 유형 목록에 대 한 [새 CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 을 참조 하세요.
+> 현재, 그룹에 대 한 정책 할당은 모든 팀 정책 유형에 사용할 수 없습니다. 지원 되는 정책 유형 목록에 대 한 [새 CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 을 참조 하세요.
 
-### <a name="what-you-need-to-know-about-group-policy-assignment"></a>그룹 정책 할당에 대해 알아야 할 사항
+### <a name="what-you-need-to-know-about-policy-assignment-to-groups"></a>그룹에 정책 할당에 대해 알아야 할 사항
 
-시작 하기 전에 우선 순위 규칙 및 그룹 정책 할당 순위를 이해 하는 것이 중요 합니다.
+시작 하기 전에 우선 순위 규칙 및 그룹 배정 순위를 이해 하는 것이 중요 합니다.
 
 #### <a name="precedence-rules"></a>우선 순위 규칙
 
@@ -240,7 +240,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
  
 그룹에 정책을 할당 하는 경우 그룹 할당에 대 한 순위를 지정 합니다. 이는 사용자가 두 개 이상의 그룹의 구성원 인 경우 각 그룹에 같은 유형의 정책이 할당 되는 경우 사용자가 유효한 정책으로 상속 해야 하는 정책을 결정 하는 데 사용 됩니다.
 
-그룹 할당 순위는 같은 유형의 다른 그룹 정책 할당에 대해 상대적입니다. 예를 들어, 호출 정책을 두 그룹에 배정 하는 경우 1 개의 배정에 대 한 순위를 1로 설정 하 고, 나머지 하나는 가장 높은 순위를 사용 합니다. 그룹 할당 순위는 상속과 관련 하 여 다른 그룹 구성원 자격 보다 더 중요 하거나 관련성이 높은 그룹 구성원을 나타냅니다.
+그룹 할당 순위는 같은 종류의 다른 그룹 배정에 대해 상대적입니다. 예를 들어, 호출 정책을 두 그룹에 배정 하는 경우 1 개의 배정에 대 한 순위를 1로 설정 하 고, 나머지 하나는 가장 높은 순위를 사용 합니다. 그룹 할당 순위는 상속과 관련 하 여 다른 그룹 구성원 자격 보다 더 중요 하거나 관련성이 높은 그룹 구성원을 나타냅니다.
  
 예를 들어 두 개의 그룹이 있고 직원을 저장 하 고 저장소 관리자를 사용 하 고 있다고 가정 합니다. 두 그룹 모두 팀 호출 정책을 할당 하 고 직원을 호출 하 고 정책 및 저장소 관리자 호출 정책을 각각 저장 합니다. 두 그룹에 모두 포함 된 저장소 관리자의 경우 관리자 역할은 직원 역할 보다 관련성이 있으므로 스토어 관리자 그룹에 할당 되는 호출 정책은 우선 순위가 높아야 합니다.
 
@@ -388,6 +388,6 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $nu
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [팀 PowerShell 개요](teams-powershell-overview.md)

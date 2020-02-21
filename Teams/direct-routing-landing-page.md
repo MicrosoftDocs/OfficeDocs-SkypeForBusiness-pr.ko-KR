@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅에 대 한 랜딩 페이지
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d146c2188f57dbee3887dd2fd595c1b06a86c30e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d643c137145649c0843296300a909c520ba653a6
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836068"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157906"
 ---
 # <a name="phone-system-direct-routing"></a>전화 시스템 직접 라우팅
 
@@ -51,7 +51,7 @@ ms.locfileid: "41836068"
 
 |본인에게 질의하기|작업 |
 | :------------|:-------|
-|사용자가 직접 라우팅을 사용할 수 있도록 설정 하는 방법은 무엇 인가요? | 자세한 내용은 [직접 라우팅 서비스에 대 한 사용자 사용](direct-routing-configure.md#enable-users-for-direct-routing-service)을 참조 하세요. |
+|사용자가 직접 라우팅을 사용할 수 있도록 설정 하는 방법은 무엇 인가요? | 자세한 내용은 [직접 라우팅 서비스에 대 한 사용자 사용](direct-routing-configure.md)을 참조 하세요. |
 직접 라우팅에 필요한 라이선스가 있나요? | 자세한 내용은 [라이선스 및 기타 요구 사항을](direct-routing-plan.md#licensing-and-other-requirements)참조 하세요.
 |||
 
@@ -71,8 +71,8 @@ ms.locfileid: "41836068"
 
 |본인에게 질의하기|작업 |
 |:------------|:-------|
-| 만들어야 할 음성 라우팅 정책, PSTN 사용 및 음성 경로는 무엇 인가요? | 음성 라우팅에 대 한 자세한 내용은 [음성 라우팅 구성을](direct-routing-configure.md#configure-voice-routing)참조 하세요.
-| 내가 정의한 음성 라우팅 정책에 어떤 사용자를 할당 해야 하나요? | [음성 라우팅 구성](direct-routing-configure.md#configure-voice-routing)의 예제를 참조 하세요. |
+| 만들어야 할 음성 라우팅 정책, PSTN 사용 및 음성 경로는 무엇 인가요? | 음성 라우팅에 대 한 자세한 내용은 [음성 라우팅 구성을](direct-routing-configure.md)참조 하세요.
+| 내가 정의한 음성 라우팅 정책에 어떤 사용자를 할당 해야 하나요? | [음성 라우팅 구성](direct-routing-configure.md)의 예제를 참조 하세요. |
 |||
 
 ### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>TeamsUpgradePolicy를 사용 하 여 팀 클라이언트에서 걸려오는 전화가 있는지 확인

@@ -19,17 +19,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 9117837aab1b218ea34a77731eebaba8f4d27783
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 82af710d8c3cb89171085f9053ed1708d7f568ca
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837398"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161651"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 설치 정책 관리
 
 > [!NOTE]
-> 조직 전체 앱 권한 정책 설정을 사용 하도록 설정 하 고 **사용자 지정 앱과의 상호 작용을 허용**하는 경우 Microsoft 팀 관리 센터에 앱 설정 정책이 아직 표시 되지 않을 수 있습니다. 현재 출시 되 고 있으며 조직에서 곧 사용할 수 있게 됩니다.
+> 조직 전체 앱 설정을 사용 하도록 설정한 경우 **사용자 지정 앱과의 상호 작용을 허용**하면 Microsoft 팀 관리 센터에 앱 설정 정책이 아직 표시 되지 않을 수 있습니다. 현재 출시 되 고 있으며 조직에서 곧 사용할 수 있게 됩니다.
 
 관리자는 앱 설치 정책을 사용 하 여 Microsoft 팀을 사용자 지정 하 고 사용자에 게 가장 중요 한 앱을 강조 표시할 수 있습니다. 고정할 앱을 선택 하 고 표시 되는 순서를 설정 합니다. 앱 설정 정책을 사용 하 여 조직의 사용자에 게 제공 되는 앱을 포함 하거나 조직의 개발자가 조직에 따라 수행 해야 하는 앱을 전시 할 수 있습니다. 앱 설치 정책을 사용 하 여 사용자가 앱을 팀에 고정 하 고 기본 제공 기능이 표시 되는 방식을 관리할 수 있는지 여부를 제어할 수도 있습니다.
 
@@ -56,7 +56,7 @@ Microsoft 팀 관리 센터를 사용 하 여 사용자 지정 정책을 만들 
 2. **추가**를 클릭 합니다.
     ![앱 설정 정책 추가 페이지를 보여 주는 스크린샷](media/app-setup-policies-add.png)
 3. 정책의 이름 및 설명을 입력 합니다.
-4. 사용자 지정 앱을 팀에 업로드 하도록 허용할지 여부에 따라 **사용자 지정 앱 업로드**를 설정 하거나 해제 합니다. 앱 권한 정책의 [조직 전체 앱 설정](teams-app-permission-policies.md#manage-org-wide-app-settings) 에서 타사 **앱 허용** 이 해제 되어 있는 경우이 설정을 변경할 수 없습니다.
+4. 사용자 지정 앱을 팀에 업로드 하도록 허용할지 여부에 따라 **사용자 지정 앱 업로드**를 설정 하거나 해제 합니다. [조직 전체 앱 설정](manage-apps.md#manage-org-wide-app-settings)에서 타사 **앱 허용** 이 해제 되어 있는 경우에는이 설정을 변경할 수 없습니다.
 5. 사용자에 게 앱을 고정 하 여 앱 표시줄을 개인 설정할 수 있도록 할지 여부에 따라 **사용자 고정 허용**을 설정 하거나 해제 합니다.
 6. **앱 추가**를 클릭 합니다.
 7. 고정 된 **앱 추가** 창에서 추가 하려는 앱을 검색 한 다음 **추가**를 클릭 합니다. 앱 사용 권한 정책을 기준으로 앱을 필터링 할 수도 있습니다. 앱 목록을 선택한 후 **추가**를 클릭 합니다.
@@ -126,7 +126,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에 포함 된 기본 제공 앱 설정 정책은 무엇 인가요?
 
 - **전역 (조직 전체 기본값)**: 다른 정책을 할당 하지 않는 한이 기본 정책은 조직의 모든 사용자에 게 적용 됩니다. 전역 정책을 편집 하 여 사용자에 게 가장 중요 한 앱을 고정 합니다.
-- **Firstlineworker**:이 정책은 최초 작업자를 위한 것입니다. 조직의 첫 번째 작업자에 게 할당할 수 있습니다. 사용자 지정 정책과 마찬가지로, 설정이 활성화 되도록 사용자에 게 정책을 할당 해야 한다는 것을 이해 하는 것이 중요 합니다. 자세한 내용은이 문서의 [사용자에 게 사용자 지정 앱 설정 정책](#assign-a-custom-app-setup-policy-to-users) 지정 섹션을 참조 하세요.
+- **Firstlineworker**:이 정책은 firstline worker 용입니다. 조직의 Firstline Worker에 할당할 수 있습니다. 사용자 지정 정책과 마찬가지로, 설정이 활성화 되도록 사용자에 게 정책을 할당 해야 한다는 것을 이해 하는 것이 중요 합니다. 자세한 내용은이 문서의 [사용자에 게 사용자 지정 앱 설정 정책](#assign-a-custom-app-setup-policy-to-users) 지정 섹션을 참조 하세요.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>고정 된 앱 추가 창에서 앱을 찾을 수 없는 이유는 무엇 인가요?
 
@@ -163,7 +163,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 팀 모바일 클라이언트 (iOS 및 Android)는 현재 정적 탭이 있는 개인 앱을 지원 하지 않습니다. 정책에 설정 된 앱에 따라 팀 데스크톱 클라이언트에 고정 된 앱이 팀 모바일 클라이언트에 표시 되지 않을 수 있습니다. 개인 봇이 모바일 클라이언트의 채팅에 계속 표시 됩니다.
 
-팀 모바일 클라이언트를 사용 하는 경우 사용자에 게 활동, 채팅, 팀 등의 핵심 팀 앱이 표시 되며, Microsoft에서 일부 자사 앱 (예: 이동)을 고정할 수 있습니다. 
+팀 모바일 클라이언트를 사용 하는 경우 사용자에 게 활동, 채팅, 팀 등의 핵심 팀 앱이 표시 되며, Microsoft에서 일부 자사 앱 (예: 이동)을 고정할 수 있습니다.
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>사용자가 정책을 통해 고정 된 앱의 순서를 변경할 수 있나요?
 
@@ -171,10 +171,11 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 ### <a name="custom-teams-apps"></a>사용자 지정 팀 앱
 
-#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>조직에서 사용자 지정 팀 앱을 작성 하 고 AppSource 또는 테 넌 트 앱 카탈로그에 게시 했지만 앱이 팀의 앱 표시줄에 고정 되어 있는 경우 앱 아이콘이 예상 대로 표시 되지 않습니다. 이 문제를 해결 하려면 어떻게 하나요? 
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>조직에서 사용자 지정 팀 앱을 작성 하 고 AppSource 또는 테 넌 트 앱 카탈로그에 게시 했지만 앱이 팀의 앱 표시줄에 고정 되어 있는 경우 앱 아이콘이 예상 대로 표시 되지 않습니다. 이 문제를 해결 하려면 어떻게 하나요?
 
 앱을 제출 하기 전에 로고 지침을 따르고 있는지 확인 합니다. 자세한 내용은 [판매자 대시보드 제출에 대 한 검사 목록](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)을 참조 하세요. 
 
- ## <a name="related-topics"></a>관련 항목
+ ## <a name="related-topics"></a>관련 주제
+
 - [Team에서 앱의 관리 설정](admin-settings.md)
 - [팀 클라이언트에서 앱을 테 넌 트 앱 카탈로그에 게시](tenant-apps-catalog-teams.md)

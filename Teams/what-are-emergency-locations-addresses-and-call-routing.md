@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - Direct Routing
 description: 긴급 주소, 긴급 통화 라우팅, 동적 비상 전화에 대 한 정보를 포함 하 여 비상 전화에 대해 알아봅니다.
-ms.openlocfilehash: 010a1d3afd6ea1fa490b506b82c46c31bf3a4fa2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836678"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161691"
 ---
 # <a name="manage-emergency-calling"></a>긴급 통화 관리
 
@@ -157,9 +157,9 @@ TeamsEmergencyCallRoutingPolicy를 사용 하 여 긴급 전화 번호 및 연�
 
 ### <a name="emergency-call-routing"></a>긴급 통화 라우팅
 
-TeamsEmergencyCallRoutingPolicy는 온라인 PSTN 사용을 참조 하며, 적절 한 PSTN 게이트웨이로 긴급 통화를 제대로 라우팅하도록 적절 한 직접 라우팅 구성이 필요 합니다. 특히 긴급 전화 접속 문자열에 대 한 OnlineVoiceRoute 있는지 확인 해야 합니다. 자세한 내용은 [직접 라우팅 구성을](direct-routing-configure.md#configure-voice-routing)참조 하세요. 
+TeamsEmergencyCallRoutingPolicy는 온라인 PSTN 사용을 참조 하며, 적절 한 PSTN 게이트웨이로 긴급 통화를 제대로 라우팅하도록 적절 한 직접 라우팅 구성이 필요 합니다. 특히 긴급 전화 접속 문자열에 대 한 OnlineVoiceRoute 있는지 확인 해야 합니다. 자세한 내용은 [직접 라우팅 구성을](direct-routing-configure.md)참조 하세요. 
 
-(참고: 비즈니스용 Skype 서버에서 긴급 전화 번호 앞에 "+ 911"과 일치 하도록 음성 경로를 정의 해야 하는 "+"가 있습니다. 팀 클라이언트는 긴급 전화 번호 앞에 "+"를 사용 하지 않습니다.
+(참고: 팀 클라이언트 앞에는 비즈니스용 Skype 클라이언트와 비슷한 방식으로 긴급 전화 번호 앞에 "+" 기호가 있습니다 (즉, + 911). 이 동작은 팀 비상 통화가 더 이상 번호 앞에 있는 "+"를 보낼 수 없도록 향후 달에 수정 될 예정입니다. 즉, 911.)
 
 직접 라우팅 사용자를 위해 긴급 통화를 동적으로 라우팅하는 기능은 해당 국가 내의 비상 전화 네트워크에 따라 달라 집니다. 두 가지 해결 방법을 사용할 수 있습니다.
 
@@ -210,7 +210,7 @@ TeamsEmergencyCallingPolicy는 팀 사용자 계정에 게 부여 하거나, 네
 비상 전화 시, 보안 데스크는 통화에 conferenced, 보안 데스크 사용자의 경험은 TeamsEmergencyCallingPolicy에 따라 제어 됩니다. 그룹 채팅은 각 보안 데스크 구성원에 게 시작 되며, 긴급 전화 발신자의 위치는 중요 한 메시지 알림을 통해 공유 됩니다.  회의 옵션이 정책의 일부로 구성 되어 있으면 각 보안 데스크 사용자가 회의의 일부로 추가로 호출 됩니다.
 
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [긴급 전화 정책 관리](manage-emergency-calling-policies.md)
 - [긴급 통화 라우팅 정책 관리](manage-emergency-call-routing-policies.md)

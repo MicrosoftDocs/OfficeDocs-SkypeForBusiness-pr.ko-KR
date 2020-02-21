@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e5031c804242f2927a5fe9f2521682d736d034a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 12d9350437867b04a181e62e8b23bb6ed78d8fbc
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038120"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161739"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Microsoft 365 정부 기관-DoD 배포 계획
 
@@ -79,6 +79,7 @@ Microsoft 365 정부 기관-DoD 환경은 클라우드 서비스에 대 한 미�
 | 기반의 | 로그인 | 공간이 |
 | | 현재 상태 | 공간이 |
 | | 통합 현재 상태 (비즈니스용 Skype 및 팀 통합) | 정부 백로그 |
+| | Linux 클라이언트 | 정부 백로그 |
 | 작동이 | 피드 | 공간이 |
 |  | 내 활동 | 공간이 |
 | 채팅 | 주제별로 | 공간이 |

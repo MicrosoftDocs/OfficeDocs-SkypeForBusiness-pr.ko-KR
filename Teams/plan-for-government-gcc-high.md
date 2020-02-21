@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 537f2a51076d93808089526d7b5be10faf5954b6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e3c44867b14a4b3bf83a45cf1dbbb37151c648a8
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837458"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161593"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 정부 및 GCC 고급 배포 계획
 
@@ -79,6 +79,7 @@ Microsoft 365 정부-GCC 상위 환경은 클라우드 서비스에 대 한 미�
 | 기반의 | 로그인 | 공간이 |
 | | 현재 상태 | 공간이 |
 | | 통합 현재 상태 (비즈니스용 Skype 및 팀 통합) | 공간이 |
+| | Linux 클라이언트 | 정부 백로그 |
 | 작동이 | 피드 | 공간이 |
 |  | 내 활동 | 공간이 |
 | 채팅 | 주제별로 | 공간이 |

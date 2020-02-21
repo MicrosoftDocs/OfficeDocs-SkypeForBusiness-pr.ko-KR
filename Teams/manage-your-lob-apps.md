@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 개발에서 배포에 이르기까지 사용자 지정 팀 앱을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3369371de34cd1346e81be8ea57bb3f5675864c5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 070b0ecbf0ccc9af798e1d3a3c689ce4d4ff4da2
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837508"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161834"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Microsoft 팀에서 lob (기간 업무) 앱 관리
 
@@ -49,11 +49,11 @@ ms.locfileid: "41837508"
 
 사용자가 사용자 지정 앱을 업로드 하도록 허용 하려면 다음 단계를 따릅니다.
 
-1. 조직 전체에서 **사용자 지정 앱과 상호 작용 허용** 설정을 켭니다. 실행할 작업:
-    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱** > **권한 정책**으로 이동한 다음 **조직 전체 설정을**클릭 합니다.
+1. **사용자 지정 앱과 상호 작용 허용** 조직 전체 앱 설정을 사용 합니다. 실행할 작업:
+    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱** > 으로 이동 하 여**앱을 관리**하 고 **조직 전체 앱 설정을**클릭 합니다.
     2. **사용자 지정 앱**에서 **사용자 지정 앱과의 상호 작용 허용**을 켠 다음 **저장**을 클릭 합니다.
 
-    !["사용자 지정 앱과 상호 작용 허용" 조직 전체 설정의 스크린샷](media/manage-your-lob-apps-org-wide-custom-apps.png)
+    !["사용자 지정 앱과 상호 작용 허용" 조직 전체 앱 설정의 스크린샷](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. 전역 앱 설정 정책에서 **사용자 지정 앱 업로드** 설정을 켭니다. 실행할 작업:
     1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱** > **설정 정책**으로 이동한 다음 **전역 (조직 전체 기본값)** 정책을 클릭 합니다.
@@ -81,12 +81,12 @@ Microsoft는 <a href="https://docs.microsoft.com/microsoftteams/platform/publish
 프로덕션 테 넌 트에서 앱이 올바르게 작동 하는지 확인 하려면 조직에서 자신 및/또는 신뢰할 수 있는 사용자가 사용자 지정 앱을 업로드 하도록 허용 해야 합니다.  앞의 <a href="https://docs.microsoft.com/microsoftteams/manage-your-lob-apps#allow-custom-apps-in-the-test-tenant" target="_blank">단계</a>에서와 같이이 작업을 수행 하는 데 앱 설치 정책을 사용 합니다.
 
 > [!NOTE]
-> 유효성 검사를 위해 앱을 프로덕션 테 넌 트에 업로드 하는 것이 불편 하거나 신뢰할 수 있는 사용자 라도이 단계를 건너뛰고 3-4 단계를 수행 하 여 unvalidated 앱을 테 넌 트 앱 스토어에 업로드할 수도 있습니다. 그런 다음 자신 및 신뢰 하는 사용자만 해당 앱에 대 한 액세스를 제한 합니다. 그러면 이러한 사용자가 테 넌 트 앱 스토어에서 앱을 다운로드 하 여 유효성 검사를 수행할 수 있습니다. 앱의 유효성을 검사 한 후에는 동일한 권한 정책을 사용 하 여 access를 열고 앱을 프로덕션에 사용할 수 있도록 롤포워드합니다.
+> 유효성 검사를 위해 앱을 프로덕션 테 넌 트에 업로드 하는 것이 불편 하거나 신뢰 하는 사용자 라도이 단계를 건너뛰고 3-4 단계를 수행 하 여 unvalidated 앱을 테 넌 트 앱 스토어에 업로드할 수 있습니다. 그런 다음 자신 및 신뢰 하는 사용자만 해당 앱에 대 한 액세스를 제한 합니다. 그러면 이러한 사용자가 테 넌 트 앱 스토어에서 앱을 다운로드 하 여 유효성 검사를 수행할 수 있습니다. 앱의 유효성을 검사 한 후에는 동일한 권한 정책을 사용 하 여 access를 열고 앱을 프로덕션에 사용할 수 있도록 롤포워드합니다.
 
 신뢰할 수 있는 사용자가 사용자 지정 앱을 업로드 하도록 허용 하려면 다음 단계를 따릅니다.
 
-1. 조직 전체에서 **사용자 지정 앱과 상호 작용 허용** 설정을 켭니다. 실행할 작업:
-    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱** > **권한 정책**으로 이동한 다음 **조직 전체 설정을**클릭 합니다.
+1. **사용자 지정 앱과 상호 작용 허용** 조직 전체 앱 설정을 사용 합니다. 실행할 작업:
+    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱** > 으로 이동 하 여**앱을 관리**하 고 **조직 전체 앱 설정을**클릭 합니다.
     2. **사용자 지정 앱**에서 **사용자 지정 앱과의 상호 작용 허용**을 켠 다음 **저장**을 클릭 합니다.
 2. 전역 앱 설정 정책에서 **사용자 지정 앱 업로드** 설정을 해제 합니다. 실행할 작업:
     1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 팀 관리 센터</a>의 왼쪽 탐색 창에서 **팀 앱** > **설정 정책**으로 이동한 다음 **전역 (조직 전체 기본값)** 정책을 클릭 합니다.
@@ -99,11 +99,17 @@ Microsoft는 <a href="https://docs.microsoft.com/microsoftteams/platform/publish
 
     이러한 사용자는 이제 앱 매니페스트를 업로드 하 여 앱이 프로덕션 테 넌 트에서 올바르게 작동 하는지 확인할 수 있습니다.
 
-## <a name="step-3-upload-to-the-tenant-apps-catalog"></a>3 단계: 테 넌 트 앱 카탈로그에 업로드
+## <a name="step-3-upload-to-the-tenant-app-catalog"></a>3 단계: 테 넌 트 앱 카탈로그에 업로드
 
-테 넌 트 앱 스토어의 사용자가 앱을 사용할 수 있도록 하려면 앱을 업로드 합니다. 팀 데스크톱 클라이언트를 사용 하 여이 작업을 수행할 수 있습니다. 단계 <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">를 따르세요.</a>
+테 넌 트 앱 스토어의 사용자가 앱을 사용할 수 있도록 하려면 앱을 업로드 합니다. <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">팀 데스크톱 클라이언트를 사용</a> 하거나 Microsoft 팀 관리 센터의 [앱 관리](manage-apps.md) 페이지에서이 작업을 수행할 수 있습니다.
+
+팀 데스크톱 클라이언트의 업로드 옵션 스크린샷은 다음과 같습니다.
 
 ![앱 페이지 스크린샷](media/manage-your-lob-apps-store.png)
+
+Microsoft 팀 관리 센터의 **앱 관리** 페이지에 있는 업로드 옵션의 스크린샷은 다음과 같습니다.
+
+![관리 센터의 앱 관리 페이지 스크린샷](media/manage-your-lob-apps-upload-new-app.png)
 
 ## <a name="step-4-configure-and-assign-permissions"></a>4 단계: 사용 권한 구성 및 할당
 

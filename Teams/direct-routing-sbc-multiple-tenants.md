@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 여러 테 넌 트를 처리 하도록 한 SBC (세션 경계 컨트롤러)를 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7bd313c1b0c6d8078ee3ce80b2a08697dc6040e7
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e0027df53edcec54cbeaef560182ffddc451ecbd
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837278"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160732"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -37,7 +37,7 @@ ms.locfileid: "41837278"
 - 통화 음질을 종료까지 관리 합니다.
 - PSTN 서비스에 대 한 요금은 별도로 청구 됩니다.
 
-Microsoft는 통신 회사를 관리 하지 않습니다. Microsoft는 Microsoft 전화 시스템에서 사용할 수 있는 PBX (Microsoft 전화 시스템) 및 팀 클라이언트, 인증 전화, 인증 된 SBCs를 제공 합니다. 통신 회사를 선택 하기 전에 선택에 인증 된 SBC이 있는지 확인 하 고 음성 음질을 종료까지 관리할 수 있습니다.
+Microsoft는 통신 회사를 관리 하지 않습니다. Microsoft는 PBX (Microsoft 전화 시스템)와 팀 클라이언트를 제공 합니다. Microsoft는 또한 Microsoft 전화 시스템에서 사용할 수 있는 전화 및 인증을 인증 합니다. 통신 회사를 선택 하기 전에 선택에 인증 된 SBC이 있는지 확인 하 고 음성 음질을 종료까지 관리할 수 있습니다.
 
 시나리오를 구성 하기 위한 기술 구현 단계는 다음과 같습니다.
 
@@ -215,7 +215,6 @@ Microsoft는 직접적인 라우팅의 초기 릴리스에서 새 CSOnlinePSTNGa
 
 -  **오버 헤드 처리**. 트렁크 상태 데이터 수집 및 모니터링-즉, 같은 SBC와 물리적 트렁크가 같은 여러 논리적 trunks에서 수집 된 SIP 옵션으로 라우팅 데이터 처리 속도가 느려집니다.
  
-
 이 피드백에 따라 Microsoft는 고객 테 넌 트에 대 한 trunks를 프로 비전 하는 새 논리를 제공 하 고 있습니다.
 
 두 개의 새 엔터티가 도입 되었습니다.
@@ -245,4 +244,22 @@ Microsoft는 직접적인 라우팅의 초기 릴리스에서 새 CSOnlinePSTNGa
  
 
 연락처 머리글에 하위 도메인의 FQDN 이름 보내기를 구성 하는 방법에 대 한 [자세한 내용은 SBC 공급 업체 지침](#deploy-and-configure-the-sbc) 을 참조 하세요.
+
+## <a name="considerations-for-setting-up-muti-tenant-failover"></a>Muti-테 넌 트 장애 조치 설정에 대 한 고려 사항 
+
+다중 테 넌 트 환경에 대 한 장애 조치를 설정 하려면 다음을 수행 해야 합니다.
+
+- 각 테 넌 트에 대해 두 개의 다른 SBCs에 대 한 Fqdn을 추가 합니다.  예를 들면 다음과 같습니다.
+
+   customer1.sbc1.contoso.com <br>
+   customer2.sbc2.contoso.com <br>
+
+- 사용자의 온라인 음성 라우팅 정책에서 SBCs를 모두 지정 합니다.  한 SBC에 오류가 발생 하는 경우 라우팅 정책은 호출을 두 번째 SBC으로 라우팅합니다.
+
+
+## <a name="see-also"></a>참고 항목
+
+[직접 라우팅 계획](direct-routing-plan.md)
+
+[직접 라우팅 구성](direct-routing-configure.md)
 

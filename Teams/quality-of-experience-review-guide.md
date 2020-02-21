@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: siunies
+ms.reviewer: siunies, gageames
 audience: admin
 description: CQD (통화 품질 대시보드)를 사용 하 여 Microsoft 팀에 대 한 실시간 미디어 성능을 분석 하는 가이드입니다.
 localization_priority: Normal
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e11c7d479aeac6eef39fb38588a61c0c7be25a6
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 025bd70c79cdc0547f86514521fd1e565265d4f8
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863399"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160782"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
 
@@ -1314,3 +1314,4 @@ _표 12-네트워크 성능 요구 사항_
 -   [비즈니스용 Skype Online 보고](/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 
 -   [Microsoft 팀 보고](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)
+ 

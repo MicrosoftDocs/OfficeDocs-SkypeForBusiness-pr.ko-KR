@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 이 항목에서는 각 도구의 용도와 사용 예를 포함 하 여 비즈니스용 Skype 서버 2015 리소스 키트의 도구에 대해 설명 합니다. 비즈니스용 Skype 서버 2015 리소스 키트를 사용 하면 비즈니스용 Skype 서버 2015를 배포 및 관리 하는 IT 관리자가 일상적인 작업을 보다 쉽게 수행할 수 있습니다. 예를 들어 웹 회의 데이터 도구를 사용 하 여 온라인 모임 중에 사용자가 업로드 한 데이터를 쉽게 제어할 수 있습니다. SEFAUtil 도구를 사용 하 여 사용자에 대 한 착신 전환 및 응답을 설정할 수 있습니다. IT 관리자는 이러한 도구를 사용 하 여 비즈니스용 Skype 서버 2015을 보다 효율적으로 관리할 수 있도록 권장 합니다.
-ms.openlocfilehash: ab43d8e951308fab5a4aefc25d9dad2804ea5d0e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7269d7c82736be8e533a0782548a94d14aafcfb5
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42005993"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160772"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>비즈니스용 Skype 서버 2015 리소스 키트 도구 설명서
 
@@ -122,7 +122,7 @@ ABSConfig 도구를 실행 하려면 먼저 다음 소프트웨어 구성 요소
 
 비즈니스용 Skype 서버 2015 배포를 업데이트 하는 데 필요한 사용 권한이 있는 관리자입니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 ABSConfig는 명령 프롬프트에서 **ABSConfig** 를 입력 하 여 시작할 수 있습니다. 아래에는 ABSConfig 도구 사용자 인터페이스가 나와 있습니다.
 
@@ -436,7 +436,7 @@ Integrated Security=false;"/>
 </configuration>
 ```
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 배포한 궤도 범위:-o 매개 변수는 표시 된 것 처럼이 풀에 대해 구성 된 모든 궤도 범위를 나열 합니다.
 
@@ -513,7 +513,7 @@ Dbanalyze .exe를 설치 하려면 로컬 폴더에 복사한 다음 도구를 �
 > [!NOTE]
 > **/Preport: 디스크** 모드에는 로컬 관리자 계정이 필요 합니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 다음은 유효한 Dbanalyze 명령에 대 한 예입니다.
 
@@ -556,7 +556,7 @@ ImportStorageServiceData resource kit 도구를 사용 하면 저장소 서비�
 > [!NOTE]
 > Windows Server 2012에서는 windows PowerShell Remoting이 기본적으로 사용 하도록 설정 되어 있지만 Windows Server 2008 운영 체제에서는 사용할 수 없습니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 ```console
 >  C:\StorageService>ImportStorageServiceData.exe
@@ -742,7 +742,7 @@ LookupUserConsole 도구는 특정 사용자에 대 한 내부 비즈니스용 S
 
 비즈니스용 Skype 서버 2015 리소스 키트를 설치 합니다. 이 도구는 비즈니스용 Skype 서버가 설치 된 도메인에 가입 된 컴퓨터에서 실행 됩니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 Business Server 2015에 대 한 C:\Program Files\Skype\>\ ResKit lookupuserconsole
 
@@ -831,7 +831,7 @@ MSTurnPing 도구를 사용 하면 비즈니스용 Skype 서버 2015 통신 소�
 
 - 이 도구는 로컬 저장소에 대 한 액세스 권한이 있는 관리자 권한으로 실행 해야 합니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 다음은 도구 입력의 예입니다.
 
@@ -874,7 +874,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 그래픽 인터페이스에서 엔터프라이즈 CAC 네트워크 토폴로지 링크를 봅니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
  다음 그림에 표시 된 대로 비즈니스용 skype 서버 **2015 배포에서 cac 네트워크 토폴로지를 로드 하 고 확인**합니다.: 비즈니스용 skype 서버 2015 관리자는 다음 그림과 같이 **네트워크 구성 다운로드** 옵션을 사용 하 여 비즈니스용 skype 서버 2015 컴퓨터에서 cac 네트워크 토폴로지 구성을 로드 하 고 확인할 수 있습니다. 이 도구는 비즈니스용 Skype 서버 2015 구성 저장소에 연결 되지 않은 컴퓨터에 배포할 때 이러한 구성을 다운로드 하거나 볼 수 없습니다.
 
@@ -967,7 +967,7 @@ JPG 또는 BMP 형식으로 CAC 네트워크 토폴로지 다이어그램 저장
 
 - Windows에서 시작: 응용 프로그램이 Windows에서 자동으로 시작 되도록 구성할 수 있습니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 아래 그림에서는 오른쪽 창에서 연락처를 마우스 오른쪽 단추로 클릭 하 여 다른 에이전트로 IM을 호출 하거나 보내는 방법을 보여 줍니다.
 
@@ -1088,7 +1088,7 @@ SEFAUtil 도구는 트러스트 된 응용 프로그램 풀의 일부인 컴퓨�
 
 그룹 통화 지원 기능을 사용 하려면 비즈니스용 Skype 서버 2015의 추가 구성이 필요 합니다. 사용자에 게 pickup 그룹을 할당 하기 전에이 기능의 계획 및 배포 단계에 대 한 Call Pickup 제품 설명서 그룹을 참조 하십시오.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 #### <a name="display-current-call-handling-settings"></a>현재 통화 처리 설정 표시
 
@@ -1113,7 +1113,7 @@ Call Forward No Answer to: voicemail
 이 예에서는 착신 전환/아니요 응답 대상과 링 지연을 설정 합니다. 여기서/server 스위치는 제공 되지 않습니다. SEFAUtil는 비즈니스용 Skype 서버 2015의 자동 검색을 시도 합니다.
 
 ```console
-SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+1425555 0126@contoso.com;user=phone
+SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+14255550126@contoso.com;user=phone
 ```
 
  **출력**
@@ -1150,7 +1150,7 @@ Forward immediate to: sip:anders@contoso.com
 이 예에서는 착신 전환을 즉시 사용 하지 않도록 설정 합니다.
 
 ```console
-SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimmediate
+SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com /disablefwdimmediate
 ```
 
  **출력**
@@ -1381,7 +1381,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegroup
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
-Group Pickup Orbit: sip:199;phone-context=user-default@ contoso.com;user=phone
+Group Pickup Orbit: sip:199;phone-context=user-default@contoso.com;user=phone
 ```
 
 #### <a name="disable-group-call-pickup"></a>그룹 통화 픽업 사용 안 함
@@ -1443,7 +1443,7 @@ Sysprep.inf 스크립트를 실행 하기 전에 필수 구성 요소 파일을 
 
 **-Setupfolder** 매개 변수는 필수 구성 요소 파일의 디렉터리 위치를 인수로 사용 합니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 Sysprep.inf 스크립트를 실행 하 고 비즈니스용 Skype 서버 2015 필수 구성 요소를 설치 하려면 관리자 권한 명령 프롬프트에서 다음 명령을 실행 합니다.
 
@@ -1503,7 +1503,7 @@ CsAnnouncementConfiguration 스크립트를 사용 하려면 아래 표에 설�
 
 ![CsAnnouncementConfiguration 매개 변수입니다.](../media/Reskit_2012_Tools_Documentation_Image41.JPG)
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 #### <a name="moving-the-unassigned-number-announcements-configuration-from-a-lync-server-2013-pool-to-a-skype-for-business-server-2015-pool"></a>지정 되지 않은 번호 알림 구성을 Lync Server 2013 Pool에서 비즈니스용 Skype 서버 2015 풀로 이동
 
@@ -1559,7 +1559,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destinati
 
 이 도구는 콘텐츠 파일 저장소에 대 한 액세스 권한으로 관리자 권한을 사용 하 여 실행 해야 합니다.
 
-### <a name="examples"></a>예
+### <a name="examples"></a>예제
 
 다음 표에서는 예제에 사용 된 매개 변수에 대해 설명 합니다.
 

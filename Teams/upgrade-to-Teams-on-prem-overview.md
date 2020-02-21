@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9bac6ee38c166250746b6ce9f4fb48afe3cbfe2
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852105"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157896"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>비즈니스용 Skype에서 IT 관리자를 위한 &mdash; 팀으로 업그레이드
 
@@ -423,7 +423,7 @@ PSTN 호출 기능이 관련 되어 있으면 팀 전용 모드로 이동할 때
 
 1. [이 목록을](direct-routing-border-controllers.md)검토 하 여 SBC (세션 경계 컨트롤러)가 직접 라우팅이 지원 되는지 확인 합니다. 또한 올바른 펌웨어 버전이 있는지 확인 해야 합니다.  
 
-2. 온-프레미스 SBC를 팀 다이렉트 라우팅 서비스와 쌍으로 연결 합니다. 자세한 내용은 [전화 시스템의 다이렉트 라우팅 서비스에 SBC 페어링](direct-routing-configure.md#pair-the-sbc-to-the-direct-routing-service-of-phone-system)을 참조 하세요. 
+2. 온-프레미스 SBC를 팀 다이렉트 라우팅 서비스와 쌍으로 연결 합니다. 자세한 내용은 [전화 시스템의 다이렉트 라우팅 서비스에 SBC 페어링](direct-routing-configure.md)을 참조 하세요. 
 
 3. 이 구성은 본질적으로 온-프레미스 구성의 미러입니다. 온라인 구성은 다음으로 구성 됩니다. 
    - OnlineVoiceRoutingPolicy (비즈니스용 Skype Online에서 사용자를 마이그레이션하는 경우 온-프레미스 VoiceRoutingPolicy를 기반으로 하며, 사용자를 Enterprise Voice를 통해 온-프레미스에서 마이그레이션하는 경우 VoicePolicy에 기반을 둔 경우).

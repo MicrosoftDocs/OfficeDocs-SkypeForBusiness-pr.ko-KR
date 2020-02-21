@@ -16,18 +16,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4661239db682f1cbdc174460db803a01b553d292
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 41f586a9561a55a759768d719d751c98d2c6a975
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826176"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160375"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft 팀에서 팀을 구성 하기 위한 모범 사례
 ======================================================
-
-> [!TIP]
-> 팀을 사용 하는 모범 사례 또는 팁이 있나요? 이 문서의 끝부분에 있는 **메모** 섹션에서이를 공유 하세요.
 
 팀은 공통 목표를 기준으로 함께 모으는 사람들의 모음입니다. 이 사용자 그룹은 부서나 조직 내에 있을 수 있습니다. 이를 함께 제공 하는 것은 그들이 구동 하는 결과입니다. 팀 구성원은 다양 한 속도로 작동 하거나 자산을 다르게 만들 수 있지만, 저희 환경에서는 "고속 팀워크" 이라고 하는 프로세스를 통해 빠르게 공동으로 작업 하 게 됩니다.  
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
-ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
+ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41977530"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160572"
 ---
 <a name="what-the-guest-experience-is-like"></a>게스트 환경의 모양
 =================================
@@ -41,22 +41,23 @@ ms.locfileid: "41977530"
 
 |**팀의 기능**|**조직의 팀 사용자**|**게스트 사용자**|
 |:-----|:-----|:-----|
-|채널 만들기  <br/>  *팀 소유자는이 설정을 제어 합니다.*  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|개인 채팅 참가  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|채널 대화에 참여  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|메시지 게시, 삭제 및 편집  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|채널 파일 공유  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|채팅 파일 공유  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|앱 추가 (탭, 인공 지능 또는 커넥터)  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|모임 또는 액세스 일정 만들기  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|비즈니스용 OneDrive 저장소 액세스  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|테 넌 트 전체 및 팀/채널 게스트 액세스 정책 만들기  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Office 365 테 넌 트의 도메인 외부에 사용자 초대 <br/>  *팀 소유자는이 설정을 제어 합니다.*  <br/> <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|팀 만들기  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|공개 팀 검색 및 참가  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|조직도 보기  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|인라인 번역 사용  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|팀 소유자가 됩니다.  <br/> |![확인 표시 아이콘 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|채널 만들기  <br/>  *팀 소유자는이 설정을 제어 합니다.*  <br/> |&#x2713;|&#x2713;|
+|개인 채팅 참가  <br/> |&#x2713;|&#x2713;|
+|채널 대화에 참여  <br/> |&#x2713;|&#x2713;|
+|메시지 게시, 삭제 및 편집  <br/> |&#x2713;|&#x2713;|
+|채널 파일 공유  <br/> |&#x2713;|&#x2713;|
+|채팅 파일 공유  <br/> |&#x2713;||
+|앱 추가 (탭, 인공 지능 또는 커넥터)  <br/> |&#x2713;||
+|모임 또는 액세스 일정 만들기  <br/> |&#x2713;||
+|비즈니스용 OneDrive 저장소 액세스  <br/> |&#x2713;||
+|테 넌 트 전체 및 팀/채널 게스트 액세스 정책 만들기  <br/> |&#x2713;||
+|Office 365 테 넌 트의 도메인 외부에 사용자 초대 <br/>  *팀 소유자는이 설정을 제어 합니다.*  <br/> <br/> |&#x2713;||
+|팀 만들기  <br/> |&#x2713;||
+|공개 팀 검색 및 참가  <br/> |&#x2713;||
+|조직도 보기  <br/> |&#x2713;||
+|인라인 번역 사용  <br/> |&#x2713;||
+|팀 소유자가 됩니다.  <br/> |&#x2713;||
+
    
 다음 표에서는 다른 유형의 사용자와 비교 하 여 게스트로 사용할 수 있는 통화 및 모임 기능을 보여 줍니다.
 
