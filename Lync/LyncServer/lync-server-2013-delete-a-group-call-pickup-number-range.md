@@ -12,20 +12,20 @@ ms:contentKeyID: 51541475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7cac93a6487f5e74c916b99cc078f2a557782fa
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: d56bb73b16b2f7c028578d9d34666027bd60afbe
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154600"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-group-call-pickup-number-range-in-lync-server-2013"></a><span data-ttu-id="6d39a-102">Lync Server 2013에서 그룹 통화 픽업 번호 범위 삭제</span><span class="sxs-lookup"><span data-stu-id="6d39a-102">Delete a Group Call Pickup number range in Lync Server 2013</span></span>
+# <a name="delete-a-group-call-pickup-number-range-in-lync-server-2013"></a><span data-ttu-id="cf46e-102">Lync Server 2013에서 그룹 통화 픽업 번호 범위 삭제</span><span class="sxs-lookup"><span data-stu-id="cf46e-102">Delete a Group Call Pickup number range in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42154600"
 
 <span> </span>
 
-<span data-ttu-id="6d39a-103">_**마지막으로 수정 된 항목:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="6d39a-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="cf46e-103">_**마지막으로 수정 된 항목:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="cf46e-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="6d39a-104">다음 절차에 따라 그룹 통화 픽업 번호 범위를 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d39a-104">Use the following procedure to delete a Group Call Pickup number range.</span></span>
+<span data-ttu-id="cf46e-104">다음 절차에 따라 그룹 통화 픽업 번호 범위를 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf46e-104">Use the following procedure to delete a Group Call Pickup number range.</span></span>
 
 <div>
 
-## <a name="to-delete-a-call-pickup-group-number-range"></a><span data-ttu-id="6d39a-105">통화 픽업 그룹 번호 범위를 삭제 하려면</span><span class="sxs-lookup"><span data-stu-id="6d39a-105">To delete a call pickup group number range</span></span>
+## <a name="to-delete-a-call-pickup-group-number-range"></a><span data-ttu-id="cf46e-105">통화 픽업 그룹 번호 범위를 삭제 하려면</span><span class="sxs-lookup"><span data-stu-id="cf46e-105">To delete a call pickup group number range</span></span>
 
-1.  <span data-ttu-id="6d39a-106">Lync server 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치 되어 있거나 [Lync server 2013의 설치 권한 위임](lync-server-2013-delegate-setup-permissions.md)에 설명 된 대로 필요한 사용자 권한으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d39a-106">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="cf46e-106">Lync server 관리 셸이 RTCUniversalServerAdmins 그룹의 구성원으로 설치 되어 있거나 [Lync server 2013의 설치 권한 위임](lync-server-2013-delegate-setup-permissions.md)에 설명 된 대로 필요한 사용자 권한으로 컴퓨터에 로그온 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf46e-106">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="6d39a-107">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="6d39a-107">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="cf46e-107">**시작**, **모든 프로그램**, **Microsoft Lync Server 2013** 및 **Communications Server 관리 셸**을 차례로 클릭하여 Communications Server 관리 셸을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="cf46e-107">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="6d39a-108">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="6d39a-108">At the command line, type:</span></span>
+3.  <span data-ttu-id="cf46e-108">명령줄에 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="cf46e-108">At the command line, type:</span></span>
     
         Remove-CsCallParkOrbit -Identity "<group number range name>" 
     
-    <span data-ttu-id="6d39a-109">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="6d39a-109">For example:</span></span>
+    <span data-ttu-id="cf46e-109">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="cf46e-109">For example:</span></span>
     
         Remove-CsCallParkOrbit -Identity "Redmond call pickup"
     
@@ -59,7 +59,7 @@ ms.locfileid: "42154600"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="6d39a-110">기타 옵션에 대 한 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">get-cscallparkorbit</A>를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="6d39a-110">For details about more options, see <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.</span></span>
+    > <span data-ttu-id="cf46e-110">기타 옵션에 대 한 자세한 내용은 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">get-cscallparkorbit</A>를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="cf46e-110">For details about more options, see <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.</span></span>
 
     
     </div>
@@ -68,14 +68,14 @@ ms.locfileid: "42154600"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="6d39a-111">참고 항목</span><span class="sxs-lookup"><span data-stu-id="6d39a-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cf46e-111">참고 항목</span><span class="sxs-lookup"><span data-stu-id="cf46e-111">See Also</span></span>
 
 
-[<span data-ttu-id="6d39a-112">Lync Server 2013에서 통화 대기 번호 범위 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="6d39a-112">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
+[<span data-ttu-id="cf46e-112">Lync Server 2013에서 통화 대기 번호 범위 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="cf46e-112">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
 
 
-[<span data-ttu-id="6d39a-113">Get-cscallparkorbit을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="6d39a-113">Remove-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  
-[<span data-ttu-id="6d39a-114">Get-cscallparkorbit</span><span class="sxs-lookup"><span data-stu-id="6d39a-114">Get-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsCallParkOrbit)  
+[<span data-ttu-id="cf46e-113">Get-cscallparkorbit을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="cf46e-113">Remove-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  
+[<span data-ttu-id="cf46e-114">Get-cscallparkorbit</span><span class="sxs-lookup"><span data-stu-id="cf46e-114">Get-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsCallParkOrbit)  
   
 
 </div>

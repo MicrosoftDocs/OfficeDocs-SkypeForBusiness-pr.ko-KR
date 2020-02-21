@@ -12,20 +12,20 @@ ms:contentKeyID: 49733564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64d6bca76586f6a4b9636a92f2026658b77a9382
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: db68b4612e2adb08a391d6ee3d8e590aefbb7a8f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136716"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-lync-phone-edition-configuration-settings-information-in-lync-server-2013"></a><span data-ttu-id="48a27-102">Lync Server 2013에서 Lync Phone Edition 구성 설정 정보 보기</span><span class="sxs-lookup"><span data-stu-id="48a27-102">View Lync Phone Edition configuration settings information in Lync Server 2013</span></span>
+# <a name="view-lync-phone-edition-configuration-settings-information-in-lync-server-2013"></a><span data-ttu-id="c0dc6-102">Lync Server 2013에서 Lync Phone Edition 구성 설정 정보 보기</span><span class="sxs-lookup"><span data-stu-id="c0dc6-102">View Lync Phone Edition configuration settings information in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "42136716"
 
 <span> </span>
 
-<span data-ttu-id="48a27-103">_**마지막으로 수정 된 항목:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="48a27-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="c0dc6-103">_**마지막으로 수정 된 항목:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="c0dc6-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="48a27-104">Lync Phone Edition을 실행 하는 장치에 대 한 구성 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="48a27-104">You can view configuration information about devices running Lync Phone Edition.</span></span> <span data-ttu-id="48a27-105">정보는 컬렉션으로 구성됩니다.</span><span class="sxs-lookup"><span data-stu-id="48a27-105">The information is organized into collections.</span></span> <span data-ttu-id="48a27-106">Lync Server를 설치 하는 경우 배포에서 Lync Phone Edition을 실행 하는 모든 장치에 적용 되는 Lync Phone Edition 설정의 모음을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="48a27-106">When you install Lync Server, you get a collection of Lync Phone Edition settings that apply to all the devices running Lync Phone Edition in your deployment.</span></span> <span data-ttu-id="48a27-107">특정 사이트에 대해 새 설정 컬렉션을 만들 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="48a27-107">You can also create new collections of settings for a specific site.</span></span> <span data-ttu-id="48a27-108">사이트 설정은 전역 설정보다 우선합니다.</span><span class="sxs-lookup"><span data-stu-id="48a27-108">Site settings take precedence over global settings.</span></span> <span data-ttu-id="48a27-109">각 설정 컬렉션은 이름, 범위(전역/사이트), SIP 보안 설정, 로깅 수준, 음성 QoS(서비스 품질) 수준, 전화 잠금 설정 및 전화 잠금 세부 정보(잠금 해제 개인 ID 번호(PIN)의 최소 길이 및 전화가 자동으로 잠길 때까지의 시간)로 구성됩니다.</span><span class="sxs-lookup"><span data-stu-id="48a27-109">Each collection of settings consists of a name, the scope (global or site), SIP security setting, logging level, voice quality of service (QoS) level, phone-lock setting, and phone-lock details, that is, the minimum length of the unlock personal identification number (PIN) and time before the phone locks itself.</span></span>
+<span data-ttu-id="c0dc6-104">Lync Phone Edition을 실행 하는 장치에 대 한 구성 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-104">You can view configuration information about devices running Lync Phone Edition.</span></span> <span data-ttu-id="c0dc6-105">정보는 컬렉션으로 구성됩니다.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-105">The information is organized into collections.</span></span> <span data-ttu-id="c0dc6-106">Lync Server를 설치 하는 경우 배포에서 Lync Phone Edition을 실행 하는 모든 장치에 적용 되는 Lync Phone Edition 설정의 모음을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-106">When you install Lync Server, you get a collection of Lync Phone Edition settings that apply to all the devices running Lync Phone Edition in your deployment.</span></span> <span data-ttu-id="c0dc6-107">특정 사이트에 대해 새 설정 컬렉션을 만들 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-107">You can also create new collections of settings for a specific site.</span></span> <span data-ttu-id="c0dc6-108">사이트 설정은 전역 설정보다 우선합니다.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-108">Site settings take precedence over global settings.</span></span> <span data-ttu-id="c0dc6-109">각 설정 컬렉션은 이름, 범위(전역/사이트), SIP 보안 설정, 로깅 수준, 음성 QoS(서비스 품질) 수준, 전화 잠금 설정 및 전화 잠금 세부 정보(잠금 해제 개인 ID 번호(PIN)의 최소 길이 및 전화가 자동으로 잠길 때까지의 시간)로 구성됩니다.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-109">Each collection of settings consists of a name, the scope (global or site), SIP security setting, logging level, voice quality of service (QoS) level, phone-lock setting, and phone-lock details, that is, the minimum length of the unlock personal identification number (PIN) and time before the phone locks itself.</span></span>
 
 <div>
 
-## <a name="to-view-configuration-information-about-devices-running-lync-phone-edition"></a><span data-ttu-id="48a27-110">Lync Phone Edition을 실행 하는 장치에 대 한 구성 정보를 보려면</span><span class="sxs-lookup"><span data-stu-id="48a27-110">To view configuration information about devices running Lync Phone Edition</span></span>
+## <a name="to-view-configuration-information-about-devices-running-lync-phone-edition"></a><span data-ttu-id="c0dc6-110">Lync Phone Edition을 실행 하는 장치에 대 한 구성 정보를 보려면</span><span class="sxs-lookup"><span data-stu-id="c0dc6-110">To view configuration information about devices running Lync Phone Edition</span></span>
 
-1.  <span data-ttu-id="48a27-111">CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="48a27-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="c0dc6-111">CsUserAdministrator 역할 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="48a27-112">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="48a27-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="48a27-113">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="48a27-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="c0dc6-112">브라우저 창을 연 다음 Admin URL을 입력 하 여 Lync Server 제어판을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="c0dc6-113">Lync Server 제어판을 시작 하는 데 사용할 수 있는 다양 한 방법에 대 한 자세한 내용은 [Open Lync server 2013 관리 도구](lync-server-2013-open-lync-server-administrative-tools.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="48a27-114">왼쪽 탐색 모음에서 **클라이언트**를 클릭하고 **장치 구성** 탐색 단추를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="48a27-114">In the left navigation bar, click **Clients**, and then click the **Device Configuration** navigation button.</span></span>
+3.  <span data-ttu-id="c0dc6-114">왼쪽 탐색 모음에서 **클라이언트**를 클릭하고 **장치 구성** 탐색 단추를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-114">In the left navigation bar, click **Clients**, and then click the **Device Configuration** navigation button.</span></span>
 
-4.  <span data-ttu-id="48a27-p103">**장치 구성** 페이지에서 정보를 보려는 설정 컬렉션을 클릭합니다. 기본 페이지에 이름, 범위, SIP 보안 설정, 음성 품질 수준 및 전화 잠금 설정이 나열됩니다. 로깅 수준 및 전화 잠금 세부 정보를 보려면 **편집** 메뉴를 클릭하고 **자세한 정보 표시**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="48a27-p103">On the **Device Configuration** page, click the collection of settings you want to view information about. The name, scope, SIP security setting, voice quality level, and phone lock setting are listed on the main page. To view the logging level and phone lock details, click the **Edit** menu, and then click **Show details**.</span></span>
+4.  <span data-ttu-id="c0dc6-p103">**장치 구성** 페이지에서 정보를 보려는 설정 컬렉션을 클릭합니다. 기본 페이지에 이름, 범위, SIP 보안 설정, 음성 품질 수준 및 전화 잠금 설정이 나열됩니다. 로깅 수준 및 전화 잠금 세부 정보를 보려면 **편집** 메뉴를 클릭하고 **자세한 정보 표시**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-p103">On the **Device Configuration** page, click the collection of settings you want to view information about. The name, scope, SIP security setting, voice quality level, and phone lock setting are listed on the main page. To view the logging level and phone lock details, click the **Edit** menu, and then click **Show details**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-lync-phone-edition-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="48a27-118">Windows PowerShell Cmdlet을 사용 하 여 Lync Phone Edition 구성 정보 보기</span><span class="sxs-lookup"><span data-stu-id="48a27-118">Viewing Lync Phone Edition Configuration Information by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-lync-phone-edition-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="c0dc6-118">Windows PowerShell Cmdlet을 사용 하 여 Lync Phone Edition 구성 정보 보기</span><span class="sxs-lookup"><span data-stu-id="c0dc6-118">Viewing Lync Phone Edition Configuration Information by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="48a27-119">Lync Server 관리 셸 및 **set-csucphoneconfiguration** cmdlet을 사용 하 여 Lync Phone Edition 구성 설정을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="48a27-119">You can view Lync Phone Edition configuration settings by using Lync Server Management Shell and the **Get-CsUCPhoneConfiguration** cmdlet.</span></span> <span data-ttu-id="48a27-120">이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="48a27-120">You can run this cmdlet can from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="48a27-121">원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="48a27-121">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="c0dc6-119">Lync Server 관리 셸 및 **set-csucphoneconfiguration** cmdlet을 사용 하 여 Lync Phone Edition 구성 설정을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-119">You can view Lync Phone Edition configuration settings by using Lync Server Management Shell and the **Get-CsUCPhoneConfiguration** cmdlet.</span></span> <span data-ttu-id="c0dc6-120">이 cmdlet은 Lync Server 2013 관리 셸 또는 Windows PowerShell의 원격 세션에서 실행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-120">You can run this cmdlet can from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="c0dc6-121">원격 Windows PowerShell을 사용 하 여 Lync Server에 연결 하는 방법에 대 한 자세한 내용은 Lync Server Windows PowerShell 블로그 문서 "빠른 시작: 원격 PowerShell을 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)사용 하 여 Microsoft Lync Server 2010 관리"를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-121">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-lync-phone-edition-configuration-information"></a><span data-ttu-id="48a27-122">Lync Phone Edition 구성 정보를 보려면</span><span class="sxs-lookup"><span data-stu-id="48a27-122">To view Lync Phone Edition configuration information</span></span>
+## <a name="to-view-lync-phone-edition-configuration-information"></a><span data-ttu-id="c0dc6-122">Lync Phone Edition 구성 정보를 보려면</span><span class="sxs-lookup"><span data-stu-id="c0dc6-122">To view Lync Phone Edition configuration information</span></span>
 
-  - <span data-ttu-id="48a27-123">모든 Lync Phone Edition 구성 설정에 대 한 정보를 보려면 Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다.</span><span class="sxs-lookup"><span data-stu-id="48a27-123">To view information about all your Lync Phone Edition configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="c0dc6-123">모든 Lync Phone Edition 구성 설정에 대 한 정보를 보려면 Lync Server 관리 셸에서 다음 명령을 입력 하 고 enter 키를 누릅니다.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-123">To view information about all your Lync Phone Edition configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsUCPhoneConfiguration
     
-    <span data-ttu-id="48a27-124">이 명령은 다음과 같은 정보를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="48a27-124">The command returns information similar to the following:</span></span>
+    <span data-ttu-id="c0dc6-124">이 명령은 다음과 같은 정보를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-124">The command returns information similar to the following:</span></span>
     
         Identity             : Global
         CalendarPollInterval : 00:03:00
@@ -81,19 +81,19 @@ ms.locfileid: "42136716"
 
 </div>
 
-<span data-ttu-id="48a27-125">자세한 내용은 [set-csucphoneconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsUCPhoneConfiguration)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="48a27-125">For details, see [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsUCPhoneConfiguration).</span></span>
+<span data-ttu-id="c0dc6-125">자세한 내용은 [set-csucphoneconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsUCPhoneConfiguration)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c0dc6-125">For details, see [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsUCPhoneConfiguration).</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="48a27-126">참고 항목</span><span class="sxs-lookup"><span data-stu-id="48a27-126">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c0dc6-126">참고 항목</span><span class="sxs-lookup"><span data-stu-id="c0dc6-126">See Also</span></span>
 
 
-[<span data-ttu-id="48a27-127">Lync Server 2013에서 Lync Phone Edition 구성 설정 모음 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="48a27-127">Create or modify a collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)  
-[<span data-ttu-id="48a27-128">Lync Server 2013에서 Lync Phone Edition 구성 설정의 기존 컬렉션 삭제</span><span class="sxs-lookup"><span data-stu-id="48a27-128">Delete an existing collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)  
-[<span data-ttu-id="48a27-129">Lync Server 2013에서 Lync Phone Edition에 대 한 보안 설정 구성</span><span class="sxs-lookup"><span data-stu-id="48a27-129">Configure security settings for Lync Phone Edition in Lync Server 2013</span></span>](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)  
-[<span data-ttu-id="48a27-130">Lync Server 2013에서 전화 잠금 적용</span><span class="sxs-lookup"><span data-stu-id="48a27-130">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)  
+[<span data-ttu-id="c0dc6-127">Lync Server 2013에서 Lync Phone Edition 구성 설정 모음 만들기 또는 수정</span><span class="sxs-lookup"><span data-stu-id="c0dc6-127">Create or modify a collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)  
+[<span data-ttu-id="c0dc6-128">Lync Server 2013에서 Lync Phone Edition 구성 설정의 기존 컬렉션 삭제</span><span class="sxs-lookup"><span data-stu-id="c0dc6-128">Delete an existing collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)  
+[<span data-ttu-id="c0dc6-129">Lync Server 2013에서 Lync Phone Edition에 대 한 보안 설정 구성</span><span class="sxs-lookup"><span data-stu-id="c0dc6-129">Configure security settings for Lync Phone Edition in Lync Server 2013</span></span>](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)  
+[<span data-ttu-id="c0dc6-130">Lync Server 2013에서 전화 잠금 적용</span><span class="sxs-lookup"><span data-stu-id="c0dc6-130">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)  
   
 
 </div>

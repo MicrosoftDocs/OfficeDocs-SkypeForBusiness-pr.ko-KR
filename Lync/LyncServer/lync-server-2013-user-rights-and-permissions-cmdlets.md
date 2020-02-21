@@ -12,20 +12,20 @@ ms:contentKeyID: 48185178
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2351e00a947a1612d0e7fb05d724ad190404475a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: c5f618e79d46a076f6217af4e7903d4e9c4a4ebf
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140801"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213024"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a><span data-ttu-id="1bb18-102">Lync Server 2013의 사용자 권한 및 사용 권한 cmdlet</span><span class="sxs-lookup"><span data-stu-id="1bb18-102">User rights and permissions cmdlets in Lync Server 2013</span></span>
+# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a><span data-ttu-id="fa433-102">Lync Server 2013의 사용자 권한 및 사용 권한 cmdlet</span><span class="sxs-lookup"><span data-stu-id="fa433-102">User rights and permissions cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,68 +35,68 @@ ms.locfileid: "42140801"
 
 <span> </span>
 
-<span data-ttu-id="1bb18-103">_**마지막으로 수정 된 항목:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="1bb18-103">_**Topic Last Modified:** 2012-06-26_</span></span>
+<span data-ttu-id="fa433-103">_**마지막으로 수정 된 항목:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="fa433-103">_**Topic Last Modified:** 2012-06-26_</span></span>
 
-<span data-ttu-id="1bb18-104">사용자 권한 cmdlet은 주로 Microsoft Lync Server 2013의 관리 제어를 위임 하기 위한 새로운 기술인 RBAC (역할 기반 액세스 제어)를 관리 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1bb18-104">The user permission cmdlets are primarily used to manage role-based access control (RBAC), the new technology for delegating administrative control of Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="fa433-104">사용자 권한 cmdlet은 주로 Microsoft Lync Server 2013의 관리 제어를 위임 하기 위한 새로운 기술인 RBAC (역할 기반 액세스 제어)를 관리 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="fa433-104">The user permission cmdlets are primarily used to manage role-based access control (RBAC), the new technology for delegating administrative control of Microsoft Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="user-permission-cmdlets"></a><span data-ttu-id="1bb18-105">사용자 권한 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="1bb18-105">User Permission Cmdlets</span></span>
+## <a name="user-permission-cmdlets"></a><span data-ttu-id="fa433-105">사용자 권한 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="fa433-105">User Permission Cmdlets</span></span>
 
-<span data-ttu-id="1bb18-106">다음은 사용자 권한 관리와 직접 관련 된 cmdlet 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="1bb18-106">The following is a list of cmdlets that relate directly to managing user permissions:</span></span>
+<span data-ttu-id="fa433-106">다음은 사용자 권한 관리와 직접 관련 된 cmdlet 목록입니다.</span><span class="sxs-lookup"><span data-stu-id="fa433-106">The following is a list of cmdlets that relate directly to managing user permissions:</span></span>
 
-<span data-ttu-id="1bb18-107">**사용자 권한**</span><span class="sxs-lookup"><span data-stu-id="1bb18-107">**User Permissions**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="1bb18-108">[Get-CsAdminRole](https://technet.microsoft.com/library/Gg399050(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1bb18-108">[Get-CsAdminRole](https://technet.microsoft.com/library/Gg399050(v=OCS.15))</span></span>
+<span data-ttu-id="fa433-107">**사용자 권한**</span><span class="sxs-lookup"><span data-stu-id="fa433-107">**User Permissions**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1bb18-109">[새-CsAdminRole](https://technet.microsoft.com/library/Gg398271(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1bb18-109">[New-CsAdminRole](https://technet.microsoft.com/library/Gg398271(v=OCS.15))</span></span>
+    <span data-ttu-id="fa433-108">[Get-CsAdminRole](https://technet.microsoft.com/library/Gg399050(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa433-108">[Get-CsAdminRole](https://technet.microsoft.com/library/Gg399050(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1bb18-110">[제거-CsAdminRole](https://technet.microsoft.com/library/Gg413036(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1bb18-110">[Remove-CsAdminRole](https://technet.microsoft.com/library/Gg413036(v=OCS.15))</span></span>
+    <span data-ttu-id="fa433-109">[새-CsAdminRole](https://technet.microsoft.com/library/Gg398271(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa433-109">[New-CsAdminRole](https://technet.microsoft.com/library/Gg398271(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1bb18-111">[설정-CsAdminRole](https://technet.microsoft.com/library/Gg399066(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1bb18-111">[Set-CsAdminRole](https://technet.microsoft.com/library/Gg399066(v=OCS.15))</span></span>
+    <span data-ttu-id="fa433-110">[제거-CsAdminRole](https://technet.microsoft.com/library/Gg413036(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa433-110">[Remove-CsAdminRole](https://technet.microsoft.com/library/Gg413036(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1bb18-112">[업데이트-CsAdminRole](https://technet.microsoft.com/library/JJ204851(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1bb18-112">[Update-CsAdminRole](https://technet.microsoft.com/library/JJ204851(v=OCS.15))</span></span>
+    <span data-ttu-id="fa433-111">[설정-CsAdminRole](https://technet.microsoft.com/library/Gg399066(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa433-111">[Set-CsAdminRole](https://technet.microsoft.com/library/Gg399066(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="fa433-112">[업데이트-CsAdminRole](https://technet.microsoft.com/library/JJ204851(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa433-112">[Update-CsAdminRole](https://technet.microsoft.com/library/JJ204851(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="1bb18-113">[Get-CsAdminRoleAssignment](https://technet.microsoft.com/library/Gg398434(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1bb18-113">[Get-CsAdminRoleAssignment](https://technet.microsoft.com/library/Gg398434(v=OCS.15))</span></span>
+    <span data-ttu-id="fa433-113">[Get-CsAdminRoleAssignment](https://technet.microsoft.com/library/Gg398434(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa433-113">[Get-CsAdminRoleAssignment](https://technet.microsoft.com/library/Gg398434(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="1bb18-114">[부여-CsOUPermission](https://technet.microsoft.com/library/Gg425739(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1bb18-114">[Grant-CsOUPermission](https://technet.microsoft.com/library/Gg425739(v=OCS.15))</span></span>
+    <span data-ttu-id="fa433-114">[부여-CsOUPermission](https://technet.microsoft.com/library/Gg425739(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa433-114">[Grant-CsOUPermission](https://technet.microsoft.com/library/Gg425739(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1bb18-115">[CsOUPermission](https://technet.microsoft.com/library/Gg398977(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1bb18-115">[Revoke-CsOUPermission](https://technet.microsoft.com/library/Gg398977(v=OCS.15))</span></span>
+    <span data-ttu-id="fa433-115">[CsOUPermission](https://technet.microsoft.com/library/Gg398977(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa433-115">[Revoke-CsOUPermission](https://technet.microsoft.com/library/Gg398977(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1bb18-116">[테스트-CsOUPermission](https://technet.microsoft.com/library/Gg398787(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1bb18-116">[Test-CsOUPermission](https://technet.microsoft.com/library/Gg398787(v=OCS.15))</span></span>
+    <span data-ttu-id="fa433-116">[테스트-CsOUPermission](https://technet.microsoft.com/library/Gg398787(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa433-116">[Test-CsOUPermission](https://technet.microsoft.com/library/Gg398787(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="1bb18-117">[부여-CsSetupPermission](https://technet.microsoft.com/library/Gg398569(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1bb18-117">[Grant-CsSetupPermission](https://technet.microsoft.com/library/Gg398569(v=OCS.15))</span></span>
+    <span data-ttu-id="fa433-117">[부여-CsSetupPermission](https://technet.microsoft.com/library/Gg398569(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa433-117">[Grant-CsSetupPermission](https://technet.microsoft.com/library/Gg398569(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1bb18-118">[CsSetupPermission](https://technet.microsoft.com/library/Gg425834(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1bb18-118">[Revoke-CsSetupPermission](https://technet.microsoft.com/library/Gg425834(v=OCS.15))</span></span>
+    <span data-ttu-id="fa433-118">[CsSetupPermission](https://technet.microsoft.com/library/Gg425834(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa433-118">[Revoke-CsSetupPermission](https://technet.microsoft.com/library/Gg425834(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1bb18-119">[테스트-CsSetupPermission](https://technet.microsoft.com/library/Gg398428(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1bb18-119">[Test-CsSetupPermission](https://technet.microsoft.com/library/Gg398428(v=OCS.15))</span></span>
+    <span data-ttu-id="fa433-119">[테스트-CsSetupPermission](https://technet.microsoft.com/library/Gg398428(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa433-119">[Test-CsSetupPermission](https://technet.microsoft.com/library/Gg398428(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="1bb18-120">참고 항목</span><span class="sxs-lookup"><span data-stu-id="1bb18-120">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fa433-120">참고 항목</span><span class="sxs-lookup"><span data-stu-id="fa433-120">See Also</span></span>
 
 
-[<span data-ttu-id="1bb18-121">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="1bb18-121">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="fa433-121">Lync Server PowerShell 블로그</span><span class="sxs-lookup"><span data-stu-id="fa433-121">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
