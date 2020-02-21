@@ -12,20 +12,20 @@ ms:contentKeyID: 49733739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 894fac5341af8882db8ba4bb5fdbbc16b2a19dd7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 40abfa35892b09b3bdc4824a35f0697142980854
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147971"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42189141"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="update-dns-srv-records"></a><span data-ttu-id="193dd-102">DNS SRV 레코드 업데이트</span><span class="sxs-lookup"><span data-stu-id="193dd-102">Update DNS SRV records</span></span>
+# <a name="update-dns-srv-records"></a><span data-ttu-id="d247c-102">DNS SRV 레코드 업데이트</span><span class="sxs-lookup"><span data-stu-id="d247c-102">Update DNS SRV records</span></span>
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "42147971"
 
 <span> </span>
 
-<span data-ttu-id="193dd-103">_**마지막으로 수정 된 항목:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="193dd-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="d247c-103">_**마지막으로 수정 된 항목:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="d247c-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="193dd-104">이 절차를 성공적으로 완료하려면 서버 또는 도메인에 Domain Admins 그룹의 구성원 또는 DnsAdmins 그룹의 구성원으로 로그온해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="193dd-104">To successfully complete this procedure, you should be logged on to the server or domain as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
+<span data-ttu-id="d247c-104">이 절차를 성공적으로 완료하려면 서버 또는 도메인에 Domain Admins 그룹의 구성원 또는 DnsAdmins 그룹의 구성원으로 로그온해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d247c-104">To successfully complete this procedure, you should be logged on to the server or domain as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
 
-<span data-ttu-id="193dd-105">이 항목에서는 Lync Server 2013로 마이그레이션한 후 DNS (Domain Name System) 레코드를 업데이트 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="193dd-105">This topic describes how to update the Domain Name System (DNS) records after migrating to Lync Server 2013.</span></span> <span data-ttu-id="193dd-106">모든 사용자를 Lync Server 2013로 이동한 후에 레거시 Lync Server 2010 풀 또는 디렉터를 해제 하기 전에 모든 SIP 도메인에 대해 내부 DNS의 DNS SRV 레코드를 업데이트 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="193dd-106">After all users have been moved to Lync Server 2013, but before the legacy Lync Server 2010 pool or Director is decommissioned, you must update the DNS SRV records in your internal DNS for every SIP domain.</span></span> <span data-ttu-id="193dd-107">이 절차에서는 내부 DNS에 SIP 사용자 도메인의 영역이 있다고 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="193dd-107">This procedure assumes that your internal DNS has zones for your SIP user domains.</span></span>
+<span data-ttu-id="d247c-105">이 항목에서는 Lync Server 2013로 마이그레이션한 후 DNS (Domain Name System) 레코드를 업데이트 하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="d247c-105">This topic describes how to update the Domain Name System (DNS) records after migrating to Lync Server 2013.</span></span> <span data-ttu-id="d247c-106">모든 사용자를 Lync Server 2013로 이동한 후에 레거시 Lync Server 2010 풀 또는 디렉터를 해제 하기 전에 모든 SIP 도메인에 대해 내부 DNS의 DNS SRV 레코드를 업데이트 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d247c-106">After all users have been moved to Lync Server 2013, but before the legacy Lync Server 2010 pool or Director is decommissioned, you must update the DNS SRV records in your internal DNS for every SIP domain.</span></span> <span data-ttu-id="d247c-107">이 절차에서는 내부 DNS에 SIP 사용자 도메인의 영역이 있다고 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="d247c-107">This procedure assumes that your internal DNS has zones for your SIP user domains.</span></span>
 
-<span data-ttu-id="193dd-108">**DNS SRV 레코드를 구성하려면**</span><span class="sxs-lookup"><span data-stu-id="193dd-108">**To configure a DNS SRV record**</span></span>
+<span data-ttu-id="d247c-108">**DNS SRV 레코드를 구성하려면**</span><span class="sxs-lookup"><span data-stu-id="d247c-108">**To configure a DNS SRV record**</span></span>
 
-1.  <span data-ttu-id="193dd-109">DNS 서버에서 **시작**, **관리 도구**를 차례로 클릭한 다음 **DNS**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="193dd-109">On the DNS server, click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
+1.  <span data-ttu-id="d247c-109">DNS 서버에서 **시작**, **관리 도구**를 차례로 클릭한 다음 **DNS**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d247c-109">On the DNS server, click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-2.  <span data-ttu-id="193dd-110">SIP 도메인의 콘솔 트리에서 **정방향 조회 영역**을 확장 하 고 Lync Server 2013이 설치 된 SIP 도메인을 확장 한 다음 \*\* \_tcp\*\* 설정으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="193dd-110">In the console tree for your SIP domain, expand **Forward Lookup Zones**, expand the SIP domain in which Lync Server 2013 is installed, and navigate to the **\_tcp** setting.</span></span>
+2.  <span data-ttu-id="d247c-110">SIP 도메인의 콘솔 트리에서 **정방향 조회 영역**을 확장 하 고 Lync Server 2013이 설치 된 SIP 도메인을 확장 한 다음 \*\* \_tcp\*\* 설정으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="d247c-110">In the console tree for your SIP domain, expand **Forward Lookup Zones**, expand the SIP domain in which Lync Server 2013 is installed, and navigate to the **\_tcp** setting.</span></span>
 
-3.  <span data-ttu-id="193dd-111">오른쪽 창에서 \*\* \_sipinternaltls\*\* 를 마우스 오른쪽 단추로 클릭 하 고 **속성**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="193dd-111">In the right pane, right click **\_sipinternaltls** and select **Properties**.</span></span>
+3.  <span data-ttu-id="d247c-111">오른쪽 창에서 \*\* \_sipinternaltls\*\* 를 마우스 오른쪽 단추로 클릭 하 고 **속성**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="d247c-111">In the right pane, right click **\_sipinternaltls** and select **Properties**.</span></span>
 
-4.  <span data-ttu-id="193dd-112">**이 서비스를 제공**하는 호스트에서 Lync Server 2013 풀을 가리키도록 호스트 FQDN을 업데이트 합니다.</span><span class="sxs-lookup"><span data-stu-id="193dd-112">In **Host offering this service**, update the host FQDN to point to the Lync Server 2013 pool.</span></span>
+4.  <span data-ttu-id="d247c-112">**이 서비스를 제공**하는 호스트에서 Lync Server 2013 풀을 가리키도록 호스트 FQDN을 업데이트 합니다.</span><span class="sxs-lookup"><span data-stu-id="d247c-112">In **Host offering this service**, update the host FQDN to point to the Lync Server 2013 pool.</span></span>
 
-5.  <span data-ttu-id="193dd-113">**확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="193dd-113">Click **OK**.</span></span>
+5.  <span data-ttu-id="d247c-113">**확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d247c-113">Click **OK**.</span></span>
 
-<span data-ttu-id="193dd-114">**프런트 엔드 풀 또는 Standard Edition Server의 FQDN을 확인할 수 있는지 확인하려면**</span><span class="sxs-lookup"><span data-stu-id="193dd-114">**To verify that the FQDN of the Front End pool or Standard Edition server can be resolved**</span></span>
+<span data-ttu-id="d247c-114">**프런트 엔드 풀 또는 Standard Edition Server의 FQDN을 확인할 수 있는지 확인하려면**</span><span class="sxs-lookup"><span data-stu-id="d247c-114">**To verify that the FQDN of the Front End pool or Standard Edition server can be resolved**</span></span>
 
-1.  <span data-ttu-id="193dd-115">도메인의 클라이언트 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="193dd-115">Log on to a client computer in the domain.</span></span>
+1.  <span data-ttu-id="d247c-115">도메인의 클라이언트 컴퓨터에 로그온합니다.</span><span class="sxs-lookup"><span data-stu-id="d247c-115">Log on to a client computer in the domain.</span></span>
 
-2.  <span data-ttu-id="193dd-116">**시작**을 클릭한 다음 **실행**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="193dd-116">Click **Start**, and then click **Run**.</span></span>
+2.  <span data-ttu-id="d247c-116">**시작**을 클릭한 다음 **실행**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d247c-116">Click **Start**, and then click **Run**.</span></span>
 
-3.  <span data-ttu-id="193dd-117">**열기** 상자에 **cmd**를 입력한 다음 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="193dd-117">In the **Open** box, type **cmd**, and then click **OK**.</span></span>
+3.  <span data-ttu-id="d247c-117">**열기** 상자에 **cmd**를 입력한 다음 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d247c-117">In the **Open** box, type **cmd**, and then click **OK**.</span></span>
 
-4.  <span data-ttu-id="193dd-118">명령 프롬프트에 프런트 엔드 풀 \*\*\*\* \<\> 의 nslookup fqdn 또는 \<Standard Edition 서버의\>FQDN을 입력 한 다음 enter 키를 누릅니다.</span><span class="sxs-lookup"><span data-stu-id="193dd-118">At the command prompt, type **nslookup** \<FQDN of the Front End pool\> or \<FQDN of the Standard Edition server\>, and then press ENTER.</span></span>
+4.  <span data-ttu-id="d247c-118">명령 프롬프트에 프런트 엔드 풀 \*\*\*\* \<\> 의 nslookup fqdn 또는 \<Standard Edition 서버의\>FQDN을 입력 한 다음 enter 키를 누릅니다.</span><span class="sxs-lookup"><span data-stu-id="d247c-118">At the command prompt, type **nslookup** \<FQDN of the Front End pool\> or \<FQDN of the Standard Edition server\>, and then press ENTER.</span></span>
 
-5.  <span data-ttu-id="193dd-119">FQDN에 대해 적절한 IP 주소로 확인되는 응답이 수신되는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="193dd-119">Verify that you receive a reply that resolves to the appropriate IP address for the FQDN.</span></span>
+5.  <span data-ttu-id="d247c-119">FQDN에 대해 적절한 IP 주소로 확인되는 응답이 수신되는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="d247c-119">Verify that you receive a reply that resolves to the appropriate IP address for the FQDN.</span></span>
 
 </div>
 
