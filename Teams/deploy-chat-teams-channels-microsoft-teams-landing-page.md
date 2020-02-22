@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2acb9d1734bb04c4db522417064c3d99fd660d89
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: c7c89b4abe53621ae217ecb3874df9a51a43a7ac
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863219"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160702"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -243,7 +243,7 @@ Teams는 모임, 일정, 인터롭 차트 그리고 파일 공유를 포함하�
 
 ### <a name="government---gcc-considerations"></a>정부 - GCC 고려사항
 
-정부용 Microsoft 365의 사용 - GCC(정부의 자격증)는 정부의 규정 및 요건을 적용 받는 미국 연방, 주, 지역적,부족적 혹은 영토적 정부 기관 혹은 기타 기관에서 Office 365의 배포를 진행하는 IT 전문가의 요구 사항을 충족하는 데 적합합니다.
+정부용 Microsoft 365의 사용 - GCC(정부 커뮤니티 클라우드)는 정부의 규정 및 요건을 적용 받는 미국 연방, 주, 지역적,부족적 혹은 영토적 정부 기관 혹은 기타 기관에서 Office 365의 배포를 진행하는 IT 전문가의 요구 사항을 충족하는 데 적합합니다.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
