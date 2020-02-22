@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 82af710d8c3cb89171085f9053ed1708d7f568ca
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 171192353227e7e0d14d59ca36b632f90aeb9941
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161651"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229928"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 설치 정책 관리
 
@@ -167,7 +167,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>사용자가 정책을 통해 고정 된 앱의 순서를 변경할 수 있나요?
 
-현재 사용자는 팀 모바일 클라이언트에서 고정 된 앱의 순서를 변경할 수 있지만 팀 바탕 화면 또는 웹 클라이언트에는 해당 되지 않습니다. 
+현재 사용자는 팀 모바일 클라이언트에서 고정 된 앱의 순서를 변경할 수 있지만 팀 바탕 화면 또는 웹 클라이언트에는 해당 되지 않습니다.
 
 ### <a name="custom-teams-apps"></a>사용자 지정 팀 앱
 
@@ -178,4 +178,3 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
  ## <a name="related-topics"></a>관련 주제
 
 - [Team에서 앱의 관리 설정](admin-settings.md)
-- [팀 클라이언트에서 앱을 테 넌 트 앱 카탈로그에 게시](tenant-apps-catalog-teams.md)

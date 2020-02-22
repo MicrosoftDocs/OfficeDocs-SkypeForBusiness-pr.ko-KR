@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 개발에서 배포에 이르기까지 사용자 지정 팀 앱을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 070b0ecbf0ccc9af798e1d3a3c689ce4d4ff4da2
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161834"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229938"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Microsoft 팀에서 lob (기간 업무) 앱 관리
 
@@ -101,13 +101,7 @@ Microsoft는 <a href="https://docs.microsoft.com/microsoftteams/platform/publish
 
 ## <a name="step-3-upload-to-the-tenant-app-catalog"></a>3 단계: 테 넌 트 앱 카탈로그에 업로드
 
-테 넌 트 앱 스토어의 사용자가 앱을 사용할 수 있도록 하려면 앱을 업로드 합니다. <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">팀 데스크톱 클라이언트를 사용</a> 하거나 Microsoft 팀 관리 센터의 [앱 관리](manage-apps.md) 페이지에서이 작업을 수행할 수 있습니다.
-
-팀 데스크톱 클라이언트의 업로드 옵션 스크린샷은 다음과 같습니다.
-
-![앱 페이지 스크린샷](media/manage-your-lob-apps-store.png)
-
-Microsoft 팀 관리 센터의 **앱 관리** 페이지에 있는 업로드 옵션의 스크린샷은 다음과 같습니다.
+테 넌 트 앱 스토어의 사용자가 앱을 사용할 수 있도록 하려면 앱을 업로드 합니다. Microsoft 팀 관리 센터의 [앱 관리](manage-apps.md) 페이지에서이 작업을 수행할 수 있습니다.
 
 ![관리 센터의 앱 관리 페이지 스크린샷](media/manage-your-lob-apps-upload-new-app.png)
 
@@ -131,6 +125,8 @@ Microsoft 팀 관리 센터의 **앱 관리** 페이지에 있는 업로드 옵�
 
 앱을 업데이트 하려면 개발자가 [1 단계](#step-1-develop-and-test) 와 [2 단계](#step-2-validate-in-production)를 계속 수행 해야 합니다.
 
-테 넌 트 앱 카탈로그를 통해 앱을 업데이트할 수 있습니다. 이렇게 하려면 팀 데스크톱 클라이언트에서**테 넌 트 이름 &lt;&gt;** 으로 빌드된 **앱** > 으로 이동한 다음 ...을 클릭 **합니다.** 앱의 오른쪽 위 모서리에서 **업데이트**를 클릭 합니다. 이렇게 하면 테 넌 트 앱 카탈로그의 기존 앱이 바뀌며, 모든 사용 권한 정책 및 설정 정책은 업데이트 된 앱에 적용 됩니다. 
+테 넌 트 앱 카탈로그를 통해 앱을 업데이트할 수 있습니다. 이렇게 하려면 Microsoft 팀 관리 센터에서 **팀 앱** > 앱**관리**로 이동 합니다. 앱 목록에서 앱 이름을 클릭 한 다음 **업데이트**를 클릭 합니다. 이렇게 하면 테 넌 트 앱 카탈로그의 기존 앱이 바뀌고, 모든 앱 권한 정책 및 앱 설정 정책은 업데이트 된 앱에 적용 됩니다.
 
-![앱 페이지에서 앱을 업데이트 하는 스크린샷](media/manage-your-lob-apps-update-app.png)
+## <a name="related-apps"></a>관련 앱
+
+- [Microsoft 팀 관리 센터에서 앱 관리](manage-apps.md)

@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: 사용자가 직접 라우팅으로 SBCs 작업을 인증 하도록 선택 된 SBC 공급 업체와의 협력 파트너.
-ms.openlocfilehash: 3e442a2afd61c3d5c39ac8edc89fa128131ac468
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bc2d1fb1a0c7bcf550117c176e6f5d4f1b3068f3
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214414"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229886"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -53,15 +53,16 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   중일     |  7.20 a. 250  |    |    |    
 |                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7.20 a. 250   |    |    |                                                                       
 |                                                                                                                     | 가상 버전 SBC |     &#10004;     |   &#10004;     |  7.20 a. 250 |    |    |    
-|  [리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       | <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul> |   아니요 |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |  <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul> | 아니요   |    
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul>  |아니요|    
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul> |  아니요  |    
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul> |   아니요 |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (빌드 537)     |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |         |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (빌드 537)     |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |           |    
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (빌드 216)    |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>    |           |    
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    생각 365 SBC    |     &#10004;     |           |       V 1.4       |     |    |    
+|  [리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       7.2       | <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul> |   아니요 |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       7.2       |  <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul> | 아니요   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       7.2       |  <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul>  |아니요|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       7.2       |   <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul> |  아니요  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       7.2       |   <ul> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul> |   아니요 |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 (빌드 537)     |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |         |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (빌드 537)     |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |           |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (빌드 216)    |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>    |           |   
+| | Edgemarc 시리즈 |  &#10004; | | 15.6.1 | 
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    생각 365 SBC    |     &#10004;     |        중일   |       V 1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>  |    |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> Intrado </li> <li>Intrado </li> </ul>  |    |    
