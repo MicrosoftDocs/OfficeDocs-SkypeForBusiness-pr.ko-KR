@@ -54,6 +54,7 @@
 
 ### [개요](deploy-apps-microsoft-teams-landing-page.md)
 ### [앱 사용 권한 및 고려 사항](app-permissions.md)
+### [Teams용 앱 관리](manage-apps.md)
 ### [Team에서 앱의 관리 설정](admin-settings.md)
 ### [기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)
 ### [Office 365 및 사용자 지정 커넥터 사용](Office-365-custom-connectors.md)
@@ -259,15 +260,26 @@
 
 ### [개요](direct-routing-landing-page.md)
 ### [직접 라우팅 계획](direct-routing-plan.md)
-### [직접 라우팅 구성](direct-routing-configure.md)
+### [직접 라우팅으로 인증된 SBC(Session Border Controller) 목록](direct-routing-border-controllers.md)
+
+### 직접 라우팅 구성
+#### [개요](direct-routing-configure.md)
+#### [직접 라우팅으로 SBC를 연결](direct-routing-connect-the-sbc.md)
+#### [사용자가 직접 라우팅, 음성 및 음성 메일을 사용하도록 설정](direct-routing-enable-users.md)
+#### [음성 라우팅 구성](direct-routing-voice-routing.md)
+#### [전화 번호 번역](direct-routing-translate-numbers.md)
+#### [여러 테넌트에 대해 SBC 구성](direct-routing-sbc-multiple-tenants.md)
+#### [직접 라우팅이 있는 아날로그 장치를 사용 하는 방법](direct-routing-analog-devices.md)
+
+
 ### [직접 라우팅으로 마이그레이션](direct-routing-migrating.md)
 
 ### 직접 라우팅 모니터링 및 문제 해결
 #### [개요](direct-routing-monitor-and-troubleshoot.md)
 #### [상태 대시보드](direct-routing-health-dashboard.md)
 ### [PSTN 연결이 포함된 하이브리드 환경의 사용자 계정](direct-routing-user-accounts-in-a-hybrid-environment.md)
-### [여러 테넌트에 대해 세션 경계 컨트롤러 구성](direct-routing-sbc-multiple-tenants.md)
-### [직접 라우팅으로 인증된 SBC(Session Border Controller) 목록](direct-routing-border-controllers.md)
+
+
 ### 위치 기반 라우팅
 #### [직접 라우팅으로 전달되는 위치 기반 라우팅 계획](location-based-routing-plan.md)
 #### [위치 기반 라우팅의 네트워크 설정 구성](location-based-routing-configure-network-settings.md)
@@ -516,7 +528,7 @@
 
 
 <!-- ============================================================ -->
-# 하이브리드 연결 
+# 하이브리드 연결
 
 ## [하이브리드 연결 계획](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
@@ -531,7 +543,7 @@
 ### [사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
 ### [사용자를 클라우드에서 온-프레미스로 이동](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [모임 마이그레이션 관리](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [모임 마이그레이션 관리](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json)
 
 ## [클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
@@ -584,7 +596,7 @@
 
 
 # 산업 및 정부 지침
-## [개요](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+## [개요](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Teams 서식 파일 시작](get-started-with-teams-templates.md)
 ## [일선 직원용 빠른 시작](firstline-workers-quickstart.yml)
 ## [Teams의 교대 근무](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
@@ -627,26 +639,21 @@
 <!-- ============================================================ -->
 
 # 보안 및 규정 준수
-## [개요](security-compliance-overview.md)
-## [Teams의 정보 장벽](information-barriers-in-teams.md)
-## [Teams의 콘텐츠에 대한 eDiscovery 조사 수행](ediscovery-investigation.md)
-## [Teams의 ID 모델 및 인증](identify-models-authentication.md)
-## [최신 인증을 사용하여 Teams에 로그인](sign-in-teams.md)
-## [Teams 사용자 또는 팀을 법률 보존 상태로 배치](legal-hold.md)
-## [감사 로그에서 Teams의 이벤트 검색](audit-log-events.md)
-## [Teams에서 콘텐츠 검색 사용](content-search.md)
-## [Teams의 AppLocker 응용 프로그램 제어 정책](applocker-in-teams.md)
-## Outlook의 보존 정책
-### [개요](retention-policies.md)
-### [보존 정책의 알려진 문제](retention-policies-known-issues.md)
-## [Teams의 데이터 위치](location-of-data-in-teams.md)
-## [Microsoft Teams에서 프랑스의 규정 준수에 대한 접근성 선언](accessibility-declaration-of-conformance-in-france-for-teams.md)
-## [비즈니스용 Skype Online 및 Microsoft Teams용 접근성 솔루션](accessibility-solutions-in-france.md)
-##  [Office 365의 통화 플랜 - 영국의 직업 규약](code-of-practice-for-the-united-kingdom-u-k.md)
-##  [Office 365의 통화 플랜 - 영국의 코드 호환 처리](complaint-handling-code-for-the-united-kingdom-u-k.md)
-## [데이터 수집 사례](data-collection-practices.md)
-## [긴급 통화 사용 약관](emergency-calling-terms-and-conditions.md)
-
+## 보안
+### [ID 모델 및 인증](identify-models-authentication.md)
+### [최신 인증을 사용하여 Teams에 로그인](sign-in-teams.md)
+## 규정 준수
+### [개요](security-compliance-overview.md)
+### [정보 장벽](information-barriers-in-teams.md)
+### [보존 정책](retention-policies.md)
+### [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### eDiscovery
+#### [콘텐츠에 대한 eDiscovery 조사 수행](ediscovery-investigation.md)
+#### [Teams 사용자 또는 팀을 법률 보존 상태로 배치](legal-hold.md)
+### 콘텐츠 검색
+#### [콘텐츠 검색 사용](content-search.md)
+#### [감사 로그에서 이벤트 검색](audit-log-events.md)
+### [AppLocker 응용 프로그램 제어 정책](applocker-in-teams.md)
 
 <!-- ============================================================ -->
 # 모니터링, 유지 관리 및 문제 해결
@@ -672,13 +679,16 @@
 #    
 # 참조
 
+## [Teams의 제한과 사양](limits-specifications-teams.md)
+## [Teams의 데이터 위치](location-of-data-in-teams.md)
+## [데이터 수집 사례](data-collection-practices.md)
+
 ## Teams 배포 준비
 ### [Teams에 대한 조직의 네트워크 준비](prepare-network.md)
 ### [Teams용 관리자를 사용하여 Teams 배포](use-advisor-teams-roll-out.md)
 ### [Teams에 Network Planner 사용](network-planner.md)
 ### [Network Planner 연습](tutorial-network-planner-example.yml)
 ### [Teams 또는 비즈니스용 Skype Online 용 프록시 서버](proxy-servers-for-skype-for-business-online.md)
-### [Teams의 제한과 사양](limits-specifications-teams.md)
 ### [Teams에서 팀을 만들 때 Office 365 그룹 계획](plan-office-365-groups.md)
 ### [Teams에서 수명 주기 관리 계획](plan-teams-lifecycle.md)
 ### [Teams에서 거버넌스 계획](plan-teams-governance.md)
@@ -854,3 +864,10 @@
 ### [우루과이](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
 ### [베네수엘라](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
 ### [베트남](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
+
+## 접근성 및 규정 준수
+### [Microsoft Teams에서 프랑스의 규정 준수에 대한 접근성 선언](accessibility-declaration-of-conformance-in-france-for-teams.md)
+### [비즈니스용 Skype Online 및 Microsoft Teams용 접근성 솔루션](accessibility-solutions-in-france.md)
+### [Office 365의 통화 플랜 - 영국의 직업 규약](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Office 365의 통화 플랜 - 영국의 코드 호환 처리](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [긴급 통화 사용 약관](emergency-calling-terms-and-conditions.md)
