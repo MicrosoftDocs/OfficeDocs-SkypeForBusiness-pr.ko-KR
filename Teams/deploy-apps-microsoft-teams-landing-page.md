@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 535c34bd19a2f019d1b9dc07718cf20d5da2f98e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9c2ef9f509f64e044567d9286704458b4dc91596
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826956"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229903"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams의 앱, 봇 및 커넥터
 
@@ -57,7 +57,7 @@ Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-|<br>액세스를 허용하려는 앱은 무엇인가요? 액세스를 허용하지 않으려는 앱은 무엇인가요?  | <ul><li>앱, 봇, 탭 또는 커넥터에 대한 액세스를 허용할 때 고려해야 할 사항의 목록을 보려면 [Microsoft Teams 앱 사용 권한과 고려 사항](app-permissions.md)을 참조하세요.</li><li>조직의 사용자가 앱을 사용할 수 있도록 하는 방법에 대한 자세한 내용은 [Teams Tenant 앱 카탈로그에 앱 게시](tenant-apps-catalog-teams.md)를 참조하세요.</li></ul>|
+|<br>액세스를 허용하려는 앱은 무엇인가요? 액세스를 허용하지 않으려는 앱은 무엇인가요?  | <ul><li>앱, 봇, 탭 또는 커넥터에 대한 액세스를 허용할 때 고려해야 할 사항의 목록을 보려면 [Microsoft Teams 앱 사용 권한과 고려 사항](app-permissions.md)을 참조하세요.</li><li>조직의 사용자가 앱을 사용할 수 있도록 하는 방법에 대한 자세한 내용은 [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)를 참조하세요.</li></ul>|
 |||
 
 ### <a name="bots-for-private-chats-and-channels"></a>개인 채팅 및 채널을 위한 봇
