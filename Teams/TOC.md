@@ -59,7 +59,6 @@
 ### [기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)
 ### [Office 365 및 사용자 지정 커넥터 사용](Office-365-custom-connectors.md)
 ### [사용자의 LOB(기간 업무) 앱 관리](manage-your-lob-apps.md)
-### [Teams Tenant 앱 카탈로그에 앱 게시](tenant-apps-catalog-teams.md)
 ### [앱 인증](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams에서 작업할 수 있도록 Skype 모임 앱 구성](configure-skype-meetings-app-to-work-with-teams.md)
