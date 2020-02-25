@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 개인 채널을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 45d05f2dd726b340ac79ac11810d23d00c8b3e9d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 761d6a06da6bb02991e706f6e18ac8ce7d4106f4
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837318"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265633"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널
 
@@ -60,7 +60,7 @@ Microsoft 팀의 개인 채널은 팀 내에서 공동 작업을 위해 중요 �
 |예     |아니요         |아니요         |기존 팀에서 채널을 만듭니다.         |
 |아니요     |아니요         |아니요         |새 팀을 만드는 것이 좋습니다.         |
 |아니요     |아니요         |예         |새 팀을 만든 다음 각 항목의 기밀성에 따라 각 항목에 대해 별도의 표준 또는 개인 채널을 만드는 것이 좋습니다.         |
-|아니요     |예         |아니요         |기존 팀에서 새 팀을 만들거나 새 개인 채널을 만듭니다.         |
+|아니요     |예         |아니요         |새 팀을 만들고 개인 채널을 만들어 보세요.         |
 
 개인 채널이 만들어지면 상위 팀에 연결 되며 다른 팀으로 이동할 수 없습니다. 또한 개인 채널을 표준 채널로 변환할 수 없으며 그 반대의 경우도 마찬가지입니다.
 
@@ -159,7 +159,7 @@ Microsoft 팀의 개인 채널은 팀 내에서 공동 작업을 위해 중요 �
 - 개인 채널의 모든 사람이 기본적으로 전자 필기장에 액세스할 수 있는 것은 아닙니다. 이는 다른 팀의 SharePoint 사이트와 같이 전자 필기장이 호스팅되는 위치에 대 한 액세스 권한이 없을 수 있기 때문입니다.
 - 개인 채널의 구성원이 아닌 사용자는 전자 필기장을 볼 수 있습니다.  
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [팀의 팀 및 채널 개요](teams-channels-overview.md)
 - [팀 PowerShell 개요](teams-powershell-overview.md)

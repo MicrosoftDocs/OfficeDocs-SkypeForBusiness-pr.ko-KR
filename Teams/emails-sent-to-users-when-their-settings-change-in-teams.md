@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft 팀에서 전화 접속 회의 설정이 변경 되는 경우 전자 메일을 통해 사용자에 게 자동으로 전송 되는 정보에 대해 알아봅니다. '
-ms.openlocfilehash: 0c0764a3787fa6431d07125b607bf9916f7f8ccf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 28dcf8e166eff4a8852dd1ad77828213dc88fd05
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835008"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236868"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Microsoft 팀에서 설정이 변경 될 때 사용자에 게 전송 되는 전자 메일
 
@@ -64,7 +64,7 @@ ms.locfileid: "41835008"
   
 - **사용자의 라이선스가 제거 되거나 오디오 회의 공급자가 Microsoft에서 다른 공급자 또는 없음으로 변경 됩니다.**
 
-    이는 사용자가 **오디오 회의** 라이선스를 제거 하거나 사용자의 오디오 회의 공급자를 Microsoft에서 타사 오디오 회의 공급자로 변경 하거나 공급자를 **없음**으로 설정할 때 발생 합니다. 이 전자 메일에는 사용자가 비즈니스용 Skype Online 모임 업데이트 도구를 사용 하 여 기본 컨퍼런스 전화 번호 또는 전화 회의 ID와 같은 오디오 회의 관련 정보를 제거할 수 있는 지침 및 정보가 포함 되어 있습니다.
+    오디오 **회의** 라이선스가 사용자에서 제거 되거나 오디오 회의 공급자를 **없음**으로 설정할 때이 문제가 발생 합니다.
 
     [비즈니스용 Office 365에 대 한 라이선스 할당 또는 제거를](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)참조 하세요.
 
@@ -116,7 +116,7 @@ Windows PowerShell은 사용자 및 허용 되지 않거나 수행할 수 있는
 Windows PowerShell에 대 한 자세한 내용은 [Microsoft 팀 PowerShell 참조](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 에서 자세한 내용을 참조 하세요.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [오디오 회의 설정이 변경되면 전자 메일 보내기 사용 또는 사용 안 함](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 

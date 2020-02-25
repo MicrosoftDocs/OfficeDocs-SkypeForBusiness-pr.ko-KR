@@ -11,16 +11,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: 이 항목에서는 기존 비즈니스용 Skype 서버 또는 Exchange Server 배포를 최신 버전으로 마이그레이션하거나 비즈니스용 Skype Online 또는 Exchange Online으로 마이그레이션할지 결정할 때 고려해 야 할 사항에 대해 설명 합니다.
-ms.openlocfilehash: 072720499ac91942d5f1fdbdbe05fffe2de4db05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ce2e0712c75e5aa052c7eff7667f09ff34c3908a
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756002"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265613"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>비즈니스용 Skype 서버 및 Exchange Server 마이그레이션 계획
 
-이 항목에서는 기존 비즈니스용 Skype 서버 또는 Exchange Server 배포를 최신 버전으로 마이그레이션하거나 비즈니스용 Skype Online 또는 Exchange Online으로 마이그레이션할지 결정할 때 고려해 야 할 사항에 대해 설명 합니다. 마이그레이션할 수 있는 작업과 조직에 이미 설정 되어 있는 상황에 따라 크게 달라 집니다. 조직 자동 전화 교환 같은 일부 기능은 GA (일반 가용성)에서는 사용할 수 없지만, 2018에서는 이후 제공 될 예정입니다.
+이 항목에서는 기존 비즈니스용 Skype 서버 또는 Exchange Server 배포를 최신 버전으로 마이그레이션하거나 비즈니스용 Skype Online 또는 Exchange Online으로 마이그레이션할지 결정할 때 고려해 야 할 사항에 대해 설명 합니다. 마이그레이션할 수 있는 작업과 조직에 이미 설정 되어 있는 상황에 따라 크게 달라 집니다.
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>Exchange 2019 및 비즈니스용 Skype 서버 2019의 기능 변경 사항
 
@@ -30,7 +30,7 @@ Exchange 2019 및 비즈니스용 Skype 서버 2019를 사용 하는 경우 지�
 
 Exchange 2019에서는 UM (통합 메시징)이 더 이상 사용 되지 않습니다. 즉, Exchange 2019은 더 이상 다음과 같은 기능을 제공 하지 않습니다.
 
-- Voicemail
+- 음성 메일
 - 자동 전화 교환
 
 Exchange 2016 2013에서 UM 역할을 배포 했 고 exchange 2019로 업그레이드 하려면 음성 메일을 Office 365의 Microsoft 클라우드 음성 메일 서비스로 마이그레이션해야 합니다. 음성 메일을 클라우드 음성 메일로 마이그레이션하려면 아래의 [exchange 2013/Exchange 2016 및 비즈니스용 skype 2015 To exchange 2019 및 비즈니스용 skype 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) 섹션을 확인 하세요.
@@ -45,12 +45,12 @@ Exchange 2016 2013에서 UM 역할을 배포 했 고 exchange 2019로 업그레�
 
 비즈니스용 Skype 서버 2019를 사용 하 여 Exchange Online UM에서 클라우드 음성 메일로 이동 하 고 있습니다. 사용자가 비즈니스용 Skype 2019 서버로 이동 하면 호스팅된 음성 메일에 대해 구성할 때 클라우드 음성 메일을 사용 하 여 자동으로 시작 됩니다. 현재 Exchange Online UM을 사용 하 고 있는 경우에는 사용자를 비즈니스용 Skype 서버 2019로 이동 하는 것 외에 다른 작업을 수행 하지 않아도 클라우드 음성 메일을 사용 하 여 시작할 수 있습니다. 그러나 알아야 할 몇 가지 기능이 몇 가지 있습니다.
 
-- 조직 자동 전화 교환 (Exchange Online UM의 자동 전화 교환에 대 한 대체)은 GA에서 사용할 수 없지만 2018에서 나중에 사용할 수 있습니다.
+- 조직 자동 전화 교환은 Exchange Online UM에서 자동 전화 교환에 대 한 대체입니다.
 - 웹용 Outlook의 사용자 음성 메일 설정은 클라우드 음성 메일에 적용 되지 않습니다.
 
 ## <a name="on-premises-um-migration-scenarios"></a>온-프레미스 UM 마이그레이션 시나리오
 
-Microsoft는 다음 시나리오를 지원 하기 때문에 사용자를 Exchange 2019 및 클라우드 음성 메일로 마이그레이션할 수 있습니다. 2018의 뒷부분에서는 추가 Exchange 및 비즈니스용 Skype 서버에서 마이그레이션할 수 있는 추가 시나리오를 지원 합니다. 또한 조직 자동 전화 교환과 같은 추가 기능도 제공 됩니다.
+Microsoft는 다음 시나리오를 지원 하기 때문에 사용자를 Exchange 2019 및 클라우드 음성 메일로 마이그레이션할 수 있습니다.
 
 - Exchange 2013/Exchange 2016 및 비즈니스용 Skype 서버 2015-Exchange 2019 및 비즈니스용 Skype 서버 2019
 - Exchange 2013/Exchange 2016가 있는 비즈니스용 skype 서버 2019 (비즈니스용 skype) 2015

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 이 항목에서는 전화 시스템 다이렉트 라우팅과 함께 미디어 바이패스를 계획 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7c7d82d1ac13ec1612403ba5fd20471e72173122
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c40840e2169a67172f006a0f0910c715feb40253
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214492"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265643"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
@@ -137,7 +137,7 @@ ms.locfileid: "42214492"
 최종 사용자에 대 한 바이패스 전화의 미디어 경로 | 열리지 | 클라이언트가 공용 IP 주소의 SBC에 연결할 수 없는 경우 | 
 음성 응용 프로그램용 미디어 경로 | Always | 열리지 | 
 코드 변환 가능 (B2BUA)\* | 예 | 아니요, 끝점 간 오디오만 릴레이 합니다. | 
-전세계 인스턴스 수 및 위치 | 총 8: 미국 동부와 서쪽에 2 개 # 암스테르담 및 더블린의 경우 2 홍콩 및 싱가포르의 2 일본의 2 (Q1CY2019에서 추가 됨)  | 개인
+전세계 인스턴스 수 및 위치 | 총 8: 미국 동부와 서쪽에 2 개 # 암스테르담 및 더블린의 경우 2 홍콩 및 싱가포르의 2 일본의 2  | 개인
 
 IP 범위는 52.112.0.0/14입니다 (IP 주소는 52.112.0.1에서 52.115.255.254)입니다. 
 

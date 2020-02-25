@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 오디오 회의, 전화 시스템, 통화 요금제 등의 기능에 대 한 라이선스를 할당 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46ae5952d79f3f0ef0a6137b240661550ecead00
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 9d75201b7be82337898d4e9fe4feafb4de1155a9
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888687"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236838"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Microsoft 팀 라이선스 할당
 
@@ -108,14 +108,6 @@ for each ($user in $users)
 | 국내 통화 요금제 (각 국가의 사용자/월 240 분) </br>*참고:이 요금제는 미국에서 사용할 수 없습니다*. | MCOPSTN6 |
 | 통신 크레딧 | MCOPSTNPP | 
 
-## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>오디오 회의: 라이선스 할당을 위한 팁 및 스크립트
-
-오디오 회의 라이선스를 할당 하기 전에 알아야 할 사항에는 다음이 나와 있습니다.
-
-- 타사 **오디오 회의 공급자**: 다른 사용자가 타사 오디오 회의 공급자를 사용 하도록 이미 설정 되어 있는 경우 오디오 회의 라이선스를 할당 하면 Microsoft를 오디오 회의 공급자로 사용 하도록 변경 됩니다. 타사 공급자로 다시 변경할 수 있습니다.
-
-- **다음 단계**: 오디오 회의 라이선스를 할당 한 후 오디오 회의 공급자를 할당 해야 합니다. [Microsoft를 오디오 회의 공급자로 지정](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)을 참조 하세요.
-
 ## <a name="assign-an-audio-conferencing-license-to-one-user"></a>한 사용자에 게 오디오 회의 라이선스 할당
 
 단계는 Office 365 라이선스를 할당 하는 것과 동일 합니다. [비즈니스용 Office 365에 대 한 라이선스 할당 또는 제거를](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)참조 하세요.
@@ -194,7 +186,7 @@ foreach ($user in $users)
 
 오디오 회의 라이선스를 할당 하는 샘플 스크립트를 살펴보세요. 통신 제작진 라이선스를 할당 하는 정보로 업데이트 하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 플랜 설정](set-up-calling-plans.md)
 </br>

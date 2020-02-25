@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 이 문서는 할당 된 Team를 사용 하는 팀 사용자와 테 넌 트 및 페더레이션 모두에 대 한 채팅, 통화 라우팅 및 현재 상태 간 동작에 대해 설명 합니다. 여기에는 라우팅 최적화, 현재 상태 동작, *레거시* 에서 *아일랜드* 로의 기본 team문제 등급 모드 변경 및 *이전 버전*의 임박한 만료가 포함 됩니다.
-ms.openlocfilehash: 1a4a9f4c08da3e89324eb44551c0002931cee714
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050120"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236828"
 ---
 # <a name="coexistence-with-skype-for-business"></a>비즈니스용 Skype와 공존
 
@@ -58,9 +58,9 @@ ms.locfileid: "42050120"
 > [!NOTE]
 > 현재, 팀과 관련 된 모든 페더레이션은 비즈니스용 skype 페더레이션 파이프라인과 팀 (비즈니스용 Skype 상호 운용성)을 활용 합니다. 팀에서 기본 팀을 계획 하 고 있습니다. 현재 문서는 네이티브 페더레이션을 릴리스할 때 업데이트 됩니다.
 
-# <a name="chat-and-call-routing"></a>채팅 및 통화 라우팅
+## <a name="chat-and-call-routing"></a>채팅 및 통화 라우팅
 
-## <a name="in-tenant-routing-for-new-chats-or-calls"></a>새 채팅 또는 통화에 대 한 테 넌 트 회람 
+### <a name="in-tenant-routing-for-new-chats-or-calls"></a>새 채팅 또는 통화에 대 한 테 넌 트 회람 
 
 아래 표에는 테 넌 트 채팅 및 통화의 라우팅이 캡처 되어 있으며 기존 스레드에서 시작 되지 않는 새 통화 또는 채팅에 유효 합니다. 이 문서에서는 새 통화를 받을 클라이언트를 설명 하 고, 왼쪽에 있는 사용자가 시작 되 면 오른쪽에 있는 테 넌 트의 받는 사람 사용자에 게 채팅을 합니다.
 
@@ -102,7 +102,7 @@ ms.locfileid: "42050120"
 |TeamsOnly  | Teams | 온라인 |  &boxv; |Teams   |
 |  |  |  | | |
 
-## <a name="federated-routing-for-new-chats-or-calls"></a>새 채팅 또는 통화에 대 한 페더레이션 라우팅
+### <a name="federated-routing-for-new-chats-or-calls"></a>새 채팅 또는 통화에 대 한 페더레이션 라우팅
   
 아래 표는 페더레이션된 통화 및 채팅의 라우팅을 캡처하는 데, 새로운 통화 또는 채팅에 유효 합니다. 또한, 왼쪽에 있는 사용자가 시작 하거나, 오른쪽에 있는 페더레이션 대상 사용자에 게 새로운 통화 또는 채팅을 받게 될 클라이언트를 설명 합니다.
 
@@ -157,14 +157,14 @@ ms.locfileid: "42050120"
 
 비즈니스용 Skype 스레드는 10 분 이상의 SIP 세션 시간 제한을 초과 하 여 유지 되지 않습니다. SIP 세션 만료 이전에 비즈니스용 Skype의 기존 스레드에 대 한 채팅 및 통화는 스레드와 같은 방식으로 라우팅됩니다. 다른 파티 측에서 원래 스레드가 보낸 클라이언트에 관계 없이 비즈니스용 Skype의 기존 스레드를 이용 하는 통화와 채팅은 원격 파티의 비즈니스용 Skype로 라우팅됩니다.
 
-## <a name="availability"></a>자원
+### <a name="availability"></a>자원
 
 위에서 설명한 테 넌 트 내 및 페더레이션된 동작을 모두 사용할 수 있으며, 다음과 같은 제한 사항이 있습니다.
 
 - 테 넌 트가 다른 GoLocal 배포 또는 지리에 거주 하는 외부 참석자가 "페더레이션된" 모임에서 메신저 대화를 표시 하지 않음
 - 테 넌 트 O365 및 Sovereign 클라우드 간의 페더레이션 및 interop는 지원 되지 않습니다.
 
-# <a name="presence"></a>현재 상태
+## <a name="presence"></a>현재 상태
 
 일부 사용자가 팀 클라이언트를 사용 하 고 있고 다른 사람이 아직 비즈니스용 Skype 클라이언트를 사용 하 고 있는 경우에는 두 클라이언트를 모두 사용 하는 사용자 수가 있을 수 있습니다. 각 사용자가 사용 하는 클라이언트에 관계 없이 현재 상태 상태를 모든 사용자와 공유 하려는 경우 조직에서 공유 하는 경우 사용자는 채팅을 시작 하거나 전화를 거는 것이 적절 한지 여부를 더욱 정확 하 게 결정할 수 있습니다.
 
@@ -180,7 +180,7 @@ ms.locfileid: "42050120"
     * 비즈니스용 Skype에서 다른 사용자에 게는 귀하의 비즈니스용 Skype 현재 상태 (비 테 넌 트 및 페더레이션)가 표시 됩니다. 위의 라우팅 테이블과 맞춤
 
 
-## <a name="in-tenant-presence"></a>테 넌 트 현재 상태
+### <a name="in-tenant-presence"></a>테 넌 트 현재 상태
 
 팀에 게 전송 되는 메시지는 사용자만이 항상 팀원에 게 전달 됩니다. 앞에서 설명한 대로\* 대화가 가능 하면 SfB 사용자에 게 전송 되는 메시지는 항상 비즈니스용 Skype에 있습니다. 아일랜드 사용자에 게 전송 된 메시지는 항상 시작 된 클라이언트에 도착 합니다.
 
@@ -194,7 +194,7 @@ ms.locfileid: "42050120"
 |Teams |&boxv; |Teams |비즈니스용 Skype |Teams |
 | | | | |
 
-## <a name="federated-presence"></a>페더레이션 현재 상태
+### <a name="federated-presence"></a>페더레이션 현재 상태
 
 페더레이션된 현재 상태는 표 2에 표시 된 페더레이션 접근 가능성에 기반을 둔 것입니다.
 
@@ -208,7 +208,7 @@ ms.locfileid: "42050120"
 |Teams | &boxv;|비즈니스용 Skype |비즈니스용 Skype |Teams|
 | | | | ||
 
-## <a name="presence-in-pre-existing-threads"></a>기존 스레드 현재 상태
+### <a name="presence-in-pre-existing-threads"></a>기존 스레드 현재 상태
 
 기존 스레드를 사용 하 여 현재 상태와 연결 가능성을 맞추려면 라우팅이 가능 하다는 것을 감안 하 여 해당 스레드에 노출 된 대상의 현재 상태를 스레드 라우팅과 맞춰야 합니다.
 

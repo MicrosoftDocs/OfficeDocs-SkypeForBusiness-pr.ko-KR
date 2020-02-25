@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-ms.openlocfilehash: 1a9863f1566b06c46b2788bb484d8a4672b6cdbf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9a92715af20e2e27a4b5051bfeab461a61efdacf
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826296"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236818"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365의 오디오 회의
 Office 365의 오디오 회의를 통해 사용자는 휴대폰에서 모임에 전화를 걸 수 있습니다. 오디오 회의는 최대 250 전화 참석자를 허용 합니다.
@@ -47,7 +47,7 @@ Office 365의 오디오 회의를 통해 사용자는 휴대폰에서 모임에 
 참석자가 모임에 참가 한 후에는 전화를 걸고 다른 발신자를 비즈니스용 Skype 또는 Microsoft 팀 모임에 초대할 수도 있습니다. 다른 사용자가 [참여 하도록 비즈니스용 Skype 모임에서](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)전화를 걸고 전화를 걸 수 [있도록 팀 모임에서 다이얼 아웃](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) 을 참조 하세요.
 
 ## <a name="what-does-it-cost"></a>비용은 얼마 입니까?
-가격 정보는 [오디오 회의 가격 산정](https://products.office.com/skype-for-business/audio-conferencing#Requirements)을 참조 하세요.
+가격 정보는 [오디오 회의 가격 산정](https://products.office.com/microsoft-teams/online-meeting-solutions#customerstoryregion2)을 참조 하세요.
 
 ## <a name="where-is-it-available"></a>어디에서 사용할 수 있나요?
 오디오 회의를 통해 사용자는 유료 및 무료 전화 번호를 사용 하 여 모임에 전화를 걸 수 있습니다. 전화 번호 (서비스)는 오디오 회의를 사용 하도록 설정 된 경우 조직에 공유 오디오 회의 번호로 자동으로 할당 됩니다. 다른 도시에서 전담 유료 및 무료 전화 번호를 조직에 할당할 수 있습니다.

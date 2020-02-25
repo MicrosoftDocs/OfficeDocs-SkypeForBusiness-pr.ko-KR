@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Microsoft 팀 관리 센터를 사용 하 여 조직의 모든 전화 번호 목록과 사용자에 게 할당 되거나 지정 되지 않은 모든 번호를 확인 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7b2ae1d2cf008b3f824f3d3837b7023766571ec1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 029f5f15e4d414ed2f6bc4e06d39b3456b32ee62
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838158"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236858"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>조직의 전화 번호 목록 보기
 
@@ -104,7 +104,7 @@ Office 365의 오디오 회의와 같이 사용자 또는 다른 서비스 (서�
 
    - **업데이트 실패**
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
@@ -114,5 +114,7 @@ Office 365의 오디오 회의와 같이 사용자 또는 다른 서비스 (서�
 [긴급 통화 사용 약관](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+
+[Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
   
  

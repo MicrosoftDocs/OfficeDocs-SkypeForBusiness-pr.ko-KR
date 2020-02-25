@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의를 사용 하려는 고객에 게 제공 되는 몇 가지 주요 질문입니다.
-ms.openlocfilehash: bc8ec039cff2be47f0912f2e52bbdb56ce694a4e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826306"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236848"
 ---
 # <a name="audio-conferencing-common-questions"></a>오디오 회의 일반적인 질문
 
@@ -81,7 +81,7 @@ ms.locfileid: "41826306"
 |:-----|:-----|
 |비즈니스용 Skype 또는 Microsoft 팀 앱을 사용 하 여 참가 했거나 모임에 전화를 건 사용자가 있습니다.  <br/> |24 시간 후에 참석자 목록에 변경 사항이 없으면 모임이 종료 됩니다.  <br/> |
 |모든 사용자가 모임에 전화를 거는 중이지만 다른 사람이 모임을 시작 하기 위해 PIN을 사용 했습니다.  <br/> |24 시간 후에 모임이 종료 됩니다.  <br/> |
-|모든 사용자가 모임에 전화를 거는 중이지만 PIN을 사용 하 여 모임에 진입 하는 사람은 없습니다.  <br/> |모임이 4 시간 후에 종료 됩니다.  <br/> |
+|모든 사용자가 모임에 전화를 거는 중이지만 PIN을 사용 하 여 모임에 진입 하는 사람은 없습니다.  <br/> | 익명 사용자가 모임을 시작할 수 있는 경우 모임이 4 시간 후에 종료 됩니다. 익명 사용자가 모임을 시작 하도록 허용 되지 않는 경우, 인증 된 모든 참가자가 모임을 종료 하면 마지막으로 인증 된 참가자 보다 90 분이 남아 있습니다. <br/> |
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>모임에서 총 전화 참가자 수는 몇 명 인가요?
 
