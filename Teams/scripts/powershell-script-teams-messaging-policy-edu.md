@@ -15,24 +15,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b45eef7792ce9c0930c9e78249259caedb325c5
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 07efc7b86045de9e76669d4ffbf185aba9d94d1f
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888747"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236808"
 ---
-<a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a><span data-ttu-id="a509a-103">PowerShell 스크립트 샘플-메시징 정책 만들기 및 할당</span><span class="sxs-lookup"><span data-stu-id="a509a-103">PowerShell script sample - Create and assign a messaging policy</span></span>
--------------------------------------------------------------------------
+# <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a><span data-ttu-id="a6c83-103">PowerShell 스크립트 샘플-메시징 정책 만들기 및 할당</span><span class="sxs-lookup"><span data-stu-id="a6c83-103">PowerShell script sample - Create and assign a messaging policy</span></span>
 
-<span data-ttu-id="a509a-104">이 PowerShell 스크립트를 사용 하 여 Microsoft 팀에서 메시징 정책을 만들고이를 사용자에 게 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="a509a-104">Use this PowerShell script to create a messaging policy in Microsoft Teams and assign it to users.</span></span> 
+<span data-ttu-id="a6c83-104">이 PowerShell 스크립트를 사용 하 여 Microsoft 팀에서 메시징 정책을 만들고이를 사용자에 게 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="a6c83-104">Use this PowerShell script to create a messaging policy in Microsoft Teams and assign it to users.</span></span> 
 
-<span data-ttu-id="a509a-105">이 PowerShell 스크립트를 사용 하는 방법에 대 한 자세한 내용은 [빠른 시작-교육 팀](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a509a-105">For more information about using this PowerShell script, see [Quick start - Teams for Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span></span>
+<span data-ttu-id="a6c83-105">이 PowerShell 스크립트를 사용 하는 방법에 대 한 자세한 내용은 [빠른 시작-교육 팀](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a6c83-105">For more information about using this PowerShell script, see [Quick start - Teams for Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span></span>
 
-<span data-ttu-id="a509a-106">PowerShell을 처음 사용 하는 경우 시작 하는 데 도움이 필요한 경우 [Azure PowerShell 개요](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a509a-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="a6c83-106">PowerShell을 처음 사용 하는 경우 시작 하는 데 도움이 필요한 경우 [Azure PowerShell 개요](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a6c83-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="a509a-107">예제 스크립트</span><span class="sxs-lookup"><span data-stu-id="a509a-107">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="a6c83-107">예제 스크립트</span><span class="sxs-lookup"><span data-stu-id="a6c83-107">Sample script</span></span>
 
 ```powershell
 <#
