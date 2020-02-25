@@ -18,12 +18,12 @@ f1.keywords:
 description: Microsoft Teams 클라이언트 앱 및 관리자 환경에 대해 현재 알려진 문제 목록입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0aafe4bcceca731825726d084e41fab37bb9931
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 6a80e9a360b28ed5d00fb02be3d34aab21fb0e2e
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962097"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265523"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams의 알려진 문제
 
@@ -51,7 +51,7 @@ ms.locfileid: "41962097"
 
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|
-|데스크톱 앱에서 "웹 사이트" 탭을 사용할 때 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)가 작동하지 않을 수 있음<br/> |인트라넷 포털과 같은 웹 사이트에 조건부 액세스 정책(예: 브라우저 또는 IP 주소 제한)이있는 경우 해당 웹 사이트는 데스크톱 앱의 Teams 내부에서 탭으로 렌더링되지 않을 수 있음 <br/> |데스크톱 앱을 사용하는 대신 브라우저에서 Teams를 사용합니다.  <br/> |2018년 7월 1일  <br/> |
+|데스크톱 앱에서 "웹 사이트" 또는 “Azure DevOps” 탭을 사용할 때 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)가 작동하지 않을 수 있습니다.<br/> |인트라넷 포털과 같은 웹 사이트에 조건부 액세스 정책(예: 브라우저, IP 주소 제한 또는 장치 규정 준수)이 있는 경우 해당 웹 사이트는 데스크톱 앱의 Teams 내부에서 탭으로 렌더링되지 않을 수 있습니다. <br/> |데스크톱 앱을 사용하는 대신 브라우저에서 Teams를 사용합니다.  <br/> |2018년 7월 1일  <br/> |
 
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|
@@ -82,11 +82,15 @@ ms.locfileid: "41962097"
 
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|
+|사용자 계정의 암호를 변경한 후에 오류 메시지가 나타나는 경우 - 암호가 변경되었거나 서버에 로그인 정보가 다시 필요합니다. 새 암호를 사용해도 계속됩니다. <br/> | 팀은 출시되는 픽스에서 곧 이 문제를 해결합니다. <br/> | 잘못된 자격 증명으로 로그아웃하고 다시 로그인합니다. 오류가 발생한 후 올바른 자격 증명을 입력합니다. <br/> |2020년 1월 9일  <br/> |
+
+|**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
+|:-----|:-----|:-----|:-----|
 |Internet Explorer 또는 Edge에서 Teams에 참여하려고 하면 프로그램이 일관되게 루프 또는 충돌이 발생하고 로그인되지 않습니다.   <br/> | 조직에서 Internet Explorer의 신뢰할 수있는 사이트를 사용하고 Teams의 신뢰할 수 있는 사이트가 허용되지 않으므로 Teams 웹 기반 응용 프로그램이 올바르게 로그인되지 않습니다. <br/>|관리자 권한이나 그룹 정책 개체를 사용하여 IE 설정 또는 제어판에서 다음과 같이 변경합니다.<br/><ol><li>**인터넷 옵션** &gt; ** 개인 정보** &gt; ** 고급 **에서 현재 사이트 및 링크된 사이트의 쿠키를 허용하고 **항상 세션 쿠키 허용** 확인란을 선택합니다.</li><li>**인터넷 옵션** &gt; **보안** &gt; **신뢰할 수있는 사이트** &gt; **사이트**를 클릭하고 다음을 모두 추가합니다.<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>참고</b>: 항상 Teams의 신뢰할 수 있는 모든 URL과 다음 문서의 요구 사항을 확인하고 허용합니다. [Office 365 URL 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |2017년 11월 1일  <br/> |
 
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|
-|Microsoft Teams에서 항상 도메인에 가입된 PC 계정에 로그인합니다.   <br/> |사용자에게 두 개의 다른 Teams 계정이 있고 도메인에 가입된 컴퓨터가 있는 경우 Teams가 컴퓨터에서 도메인에 가입된 프로필을 사용하여 사용자를 Teams에 자동으로 로그인합니다. 다른 Teams 계정으로 전환하려면 사용자가 앱에서 수동으로 로그아웃하고 두 번째 계정의 자격 증명을 입력하여 로그인해야 합니다. 사용자가 Teams에서 로그아웃하고 컴퓨터를 다시 시작하면 다시 시작할 때 Teams가 도메인에 가입된 프로필을 사용하여 자동으로 로그인합니다. <br/> | 해결 방법이 없습니다. <br/> |2017년 8월 2일  <br/> |
+|Microsoft Teams에서 항상 도메인에 가입된 PC 계정에 로그인합니다.   <br/> |사용자에게 두 개의 다른 Teams 계정이 있고 도메인에 가입된 컴퓨터가 있는 경우 Teams가 컴퓨터에서 도메인에 가입된 프로필을 사용하여 사용자를 Teams에 자동으로 로그인합니다. 다른 Teams 계정으로 전환하려면 사용자가 앱에서 수동으로 로그아웃하고 두 번째 계정의 자격 증명을 입력하여 로그인해야 합니다. 사용자가 Teams에서 로그아웃하고 컴퓨터를 다시 시작하면 다시 시작할 때 Teams가 도메인에 가입된 프로필을 사용하여 자동으로 로그인합니다. <br/> | 사용자가 도메인에 가입된 컴퓨터에 로그인하고 사용자 이름이 Teams 로그인 화면에 미리 채워지지 않도록 하려면 관리자가 다음 Windows 레지스트리를 설정하여 UPN(사용자 이름의 사전 채우기)를 해제할 수 있습니다.Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams SkipUpnPrefill(REG_DWORD) 0x00000001 (1). ".local" 또는 ".corp"로 끝나는 사용자 이름에 대한 사용자 이름 미리 채우기를 건너뛰는 것이 기본적으로 설정되어 있으므로 이를 끄려고 레지스트리 키를 설정하지 않아도 됩니다. https://docs.microsoft.com/microsoftteams/sign-in-teams 참조 <br/> |2017년 8월 2일  <br/> |
 
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|
