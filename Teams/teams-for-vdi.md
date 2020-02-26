@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7abe63551eee449afd507a786cd2efbf70e89afa
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 479f272f45c4ac7c8f84f0aa26fe923ea16ff3d7
+ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888647"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42278011"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>가상화 된 데스크톱 인프라 팀
 
@@ -161,7 +161,7 @@ Office 365 ProPlus는 팀의 컴퓨터 단위 설치를 지원 하지 않습니�
 
     팀을 제거 하는 방법에는 두 가지가 있습니다.  
   
-    - PowerShell 스크립트 (권장):이 [PowerShell 스크립트](scripts/powershell-script-teams-deployment-clean-up.md) 를 사용 하 여 대상 컴퓨터 또는 사용자의 팀을 정리할 수 있습니다. 대상 컴퓨터의 모든 사용자에 대해 실행 되어야 합니다. 
+    - PowerShell 스크립트 (권장)
     
     - 명령줄:이 방법은 팀을 제거 하지만 팀을 다시 설치 하는 것을 방지 합니다. 다음 명령을 실행 합니다.
   
@@ -362,7 +362,7 @@ VDI와 관련 되지 않은 팀의 알려진 문제점은 [팀에 대해 알려�
 
 VDA 및 CWA 문제를 해결 하는 방법에 대 한 자세한 내용은 [이 Citrix 웹 사이트](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)를 참조 하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [MSI를 사용 하 여 Microsoft 팀 설치](msi-deployment.md)
 - [팀 PowerShell 개요](teams-powershell-overview.md)

@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: 사용자가 직접 라우팅으로 SBCs 작업을 인증 하도록 선택 된 SBC 공급 업체와의 협력 파트너.
-ms.openlocfilehash: bc2d1fb1a0c7bcf550117c176e6f5d4f1b3068f3
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: 75f8286355a900b8827ef7e685b9310f26434b4c
+ms.sourcegitcommit: 26e61e94f0ba5d06a56c43541ee4970f479819d8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229886"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42280306"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -61,15 +61,15 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 (빌드 537)     |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |         |    
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (빌드 537)     |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |           |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (빌드 216)    |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>    |           |   
-| | Edgemarc 시리즈 |  &#10004; | | 15.6.1 | 
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    생각 365 SBC    |     &#10004;     |        중일   |       V 1.4       |     |    |    
+| | EdgeMarc 시리즈 |  &#10004; | | 15.6.1 | 
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    생각 365 SBC    |     &#10004;     |        중일   |       1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>  |    |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> Intrado </li> <li>Intrado </li> </ul>  |    |    
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |    |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> Intrado </li> <li>Intrado </li> </ul>  |    |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> Intrado </li> <li>Intrado </li> </ul>   |    |    
-|                     [TE-시스템](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v 3.16.2      |     |    |    
+|                     [TE-시스템](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.16.2      |     |    |    
 
 다음 표에는 직접 라우팅 및 아날로그 장치 간의 상호 운용성을 확인 하는 장치가 나와 있습니다.
 

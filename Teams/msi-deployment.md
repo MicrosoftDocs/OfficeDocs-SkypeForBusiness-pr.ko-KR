@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f57eeb44fd728d1b656ce13f56cf2c5997805b9
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: bc57222f56235c71c676f952cb0dd5aa149dc4e3
+ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888367"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42277981"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 설치
 
@@ -80,9 +80,6 @@ VDI에서 팀 데스크톱 앱을 배포 하는 방법에 대 한 자세한 지�
 1. 모든 사용자 프로필에 대해 팀 앱을 설치 제거 합니다.
 2. 제거 후%localappdata%\Microsoft\Teams\.에서 디렉터리를 재귀적으로 삭제 합니다.
 3. 해당 특정 컴퓨터에 MSI 패키지를 다시 배포 합니다.
-
-> [!TIP]
-> [Microsoft 팀 배포 정리](scripts/Powershell-script-teams-deployment-clean-up.md) 스크립트를 사용 하 여 구성 관리자를 통해 1 ~ 2 단계를 수행할 수 있습니다.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>설치 후 팀이 자동으로 시작 되지 않도록 방지
 
