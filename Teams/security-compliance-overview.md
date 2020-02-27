@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27c46949391ec37178985ab3ed4a08aebc7e5747
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 45e4c49824df9a098af5251d13234eae48db5619
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285740"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288626"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
@@ -148,14 +148,14 @@ Office 365 보안 & 준수 센터에서 보존 및 유지에 대 한 자세한 �
 
 정보 보호 기능을 사용 하는 경우 Office 365 구독 및 관련 독립 실행형 라이선스에 따라 사용할 수 있는 기능 집합이 결정 됩니다.
 
-보안 및 규정 준수에 대 한 기능을 구현 하는 데 필요한 라이선스를 확인 하는 방법에 대 한 자세한 내용은 [Office 365 라이선스](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) 를 참조 하세요.
+보안 및 규정 준수에 대 한 기능을 구현 하는 데 필요한 라이선스를 확인 하는 방법에 대 한 자세한 내용은 [Office 365 라이선스](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)를 참조 하세요.
 
 > [!NOTE]
 > 보안 & 준수 센터에서 콘텐츠 검색 및 eDiscovery 기능을 사용 하도록 설정할 필요는 없습니다.
 
 ## <a name="location-of-data-in-teams"></a>Teams의 데이터 위치
 
-팀의 데이터는 Office 365 테 넌 트와 연결 된 지리적 영역에 위치 합니다. 현재 지원 되는 영역을 확인 하려면 [Microsoft 팀에서 데이터의 위치](location-of-data-in-teams.md) 를 검토 하세요.
+팀의 데이터는 Office 365 테 넌 트와 연결 된 지리적 영역에 위치 합니다. 현재 지원 되는 영역을 확인 하려면 [Microsoft 팀에서 데이터의 위치](location-of-data-in-teams.md)를 검토 하세요.
 
 테 넌 트에 대 한 데이터가 들어 있는 영역을 확인 해야 하는 경우 [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home) > **설정** > **조직 프로필로**이동 합니다. 아래로 스크롤하여 **데이터 위치로**이동 합니다.
 
