@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8362c95103594e8289aa110ec681fd6dba269bce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba381659572fa8cfda6ac605a2910ef19220dcbd
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824756"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285820"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>시작 마법사를 사용하여 Business Voice 설정하기
 
@@ -46,11 +46,8 @@ Microsoft 365 Business Voice용 시작 마법사를 사용하면 Microsoft Teams
 
 <table>
     <tr>
-        <td>긴급 주소를 변경하려면 <b>편집</b>을 클릭하고 새 주소를 입력합니다. 입력하는 주소는 긴급 대응 서비스에 적절하며 형식이 올바른지 확인을 거칩니다. 그런 다음 이 주소는 다음 단계에서 번호를 할당한 모든 사용자에게 할당됩니다. 둘 이상의 위치에 직원이 있는 경우 시작 마법사를 준비한 후 더 많은 긴급 주소를 추가하고 할당하려면 <a href="./customize-business-voice.md">Business Voice 디자인 사용자 지정</a>을 참조하세요.</td>
-
-        
+        <td>긴급 주소를 변경하려면 <b>편집</b>을 클릭하고 새 주소를 입력합니다. 입력하는 주소는 긴급 대응 서비스에 적절하며 형식이 올바른지 확인을 거칩니다. 그런 다음 이 주소는 다음 단계에서 번호를 할당한 모든 사용자에게 할당됩니다. 둘 이상의 위치에 직원이 있는 경우 시작 마법사를 준비한 후 더 많은 긴급 주소를 추가하고 할당하려면 <a href="./customize-business-voice.md">Business Voice 디자인 사용자 지정</a>을 참조하세요.</td> 
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
-            
 </table>
 
 자세한 내용은 [긴급 위치, 주소 및 통화 라우팅이 무엇인가요?](../what-are-emergency-locations-addresses-and-call-routing.md)를 참조하세요.

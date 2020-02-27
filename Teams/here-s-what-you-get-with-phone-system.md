@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '비즈니스에 대 한 Microsoft 전화 시스템을 계획 하 고 설정 하는 방법, 사용 가능성, 기능에 대해 알아보세요. '
-ms.openlocfilehash: b1ba96143c62b829ef9461c1429a83a8b3cfe51e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045170"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288706"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능
 
@@ -45,11 +45,11 @@ PC, Mac, 모바일에서 클라이언트를 사용할 수 있으며, 태블릿 �
 |**Office 365 기능의 전화 시스템** <br/> |**설명** <br/> |
 |[클라우드 자동 전화 교환](what-are-phone-system-auto-attendants.md) <br/> |외부 및 내부 발신자가 조직의 회사 사용자 또는 부서에 게 전화를 걸고 배치 하거나 양도할 수 있는 메뉴 시스템을 만들 수 있습니다.  <br/> |
 |[클라우드 통화 대기열](create-a-phone-system-call-queue.md) <br/> |조직에서 통화 대기열을 관리 하는 방법을 구성할 수 있습니다. 예를 들어 보류 중인 인사말 및 음악을 설정 하 고 통화를 처리 하는 데 사용할 수 있는 다음 통화 에이전트를 검색 합니다.  <br/> |
-|대기 중인 음악 | PSTN (공개 통신 네트워크)에서 외부 통화가 대기 상태로 전환 될 때 서비스에서 정의 하는 기본 음악을 재생 합니다. 이 기능은 통화 대기열에 대 한 통화 외에 일대일 PSTN 간 통화에 적용 됩니다. 이 기능은 다른 플랫폼에 대 한 보류 알림 패리티를 제공 합니다. 첫 번째 릴리스에서는 관리자가이 기능을 구성할 수 없습니다. 또한 consultative는 PSTN 통화 전송에서 지원 되지 않습니다.|
+|대기 중인 음악 | PSTN (공개 통신 네트워크)에서 외부 통화가 대기 상태로 전환 될 때 서비스에서 정의 하는 기본 음악을 재생 합니다. 이 기능은 통화 대기열에 대 한 통화 외에 일대일 PSTN 간 통화에 적용 됩니다. 이 기능은 다른 플랫폼에 대 한 보류 알림 패리티를 제공 합니다. 이 기능은 관리자가 구성할 수 있으 나 [현재 PowerShell을 통해서만](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)가능 합니다. 또한 consultative는 PSTN 통화 전송에서 지원 되지 않습니다.|
 |전화 걸기/시작 (이름 및 번호 기준)  <br/> |사용자가 터치를 사용 하 여 수신 전화에 응답 하 고 전체 전화 번호로 전화를 걸거나 클라이언트에서 이름을 클릭 하 여 아웃 바운드 전화를 할 수 있습니다.  <br/> |
 |[착신 전환 옵션 및 동시 연결](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |사용자가 착신 전환 규칙을 설정 하 여 어디서 나 전화를 걸거나, 전화를 동료 또는 음성 메일로 착신 전환할 수 있습니다.  <br/> |
 |[그룹 통화 픽업 및 그룹 착신 전환](call-sharing-and-group-call-pickup.md) <br/> | 사용자가 사용할 수 없는 경우에 발생 하는 전화를 동료 들이 볼 수 있도록 사용자가 들어오는 호출을 동료와 공유할 수 있습니다. 사용자가 들어오는 공유 통화에 대 한 알림을 받는 방법을 구성할 수 있으므로 다른 형태의 통화 공유 (예: 착신 전환 또는 동시 연결)를 사용할 때 보다 적은 사람에 대 한 방해가 되지 않습니다. |
-|[통화 전송 및 consultive 전송](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |사용자가 다른 사람에 게 통화를 전송할 수 있습니다. 또는 사무실에서 나가는 경우 대화를 계속 하려면 PC 또는 IP 휴대폰의 통화를 휴대폰으로 전송할 수 있습니다.  <br/> |
+|[통화 전송 및 consultative 전송](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |사용자가 다른 사람에 게 통화를 전송할 수 있습니다. 또는 사무실에서 나가는 경우 대화를 계속 하려면 PC 또는 IP 휴대폰의 통화를 휴대폰으로 전송할 수 있습니다.  <br/> |
 |[보이스 메일로 전송](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | 통화 중에 사용자가 음성 메일로 전송할 수 있습니다. |
 |[통화 대기 및 검색](call-park-and-retrieve.md)  <br/> | 사용자가 클라우드의 팀 서비스에서 통화를 대기 상태로 설정할 수 있습니다. 통화가 파킹 되 면 서비스에서 호출 검색에 대 한 고유 코드를 생성 합니다. 통화를 대기 하거나 다른 사용자가 해당 코드와 지원 되는 앱 또는 장치를 사용 하 여 통화를 검색할 수 있습니다. <br/> |
 |검색의 전화 번호  <br/> | 사용자가/ccall 명령을 사용 하 고 이름 또는 번호를 지정 하 여 검색 상자에서 전화를 걸 수 있도록 합니다. <br/> |
@@ -80,7 +80,7 @@ GCC High 및 DoD 클라우드에서는 다음 기능을 아직 사용할 수 없
 - 대기 중인 음악
 - Azure AD 역방향 번호 조회
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Office 365의 전화 시스템 소개](what-is-phone-system-in-office-365.md)
 - [Microsoft 팀의 클라우드 음성](cloud-voice-landing-page.md)

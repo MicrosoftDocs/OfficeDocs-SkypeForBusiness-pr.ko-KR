@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버에 있는 사용자에 대해 클라우드 기반 음성 메일을 구현 하기 위한 지침입니다.
-ms.openlocfilehash: 8fab0cf237137d87a8b7e49be65232dc0595de6d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4542207beb3ccd090c1215a8832f53b3ab08ed97
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041247"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288716"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>온-프레미스 사용자를 위한 클라우드 음성 메일 서비스 구성
 
@@ -77,7 +77,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 전역 정책을 수정 하려면 조직 및 TenantID를 업데이트 한 후 비즈니스용 Skype 서버 관리 셸에서 다음 명령을 실행 합니다.
 
 ```PowerShell
-Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -Tenant “11111111-1111-1111-1111-111111111111”
+Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com
 ```
 
 - **대상** 호스트 된 클라우드 음성 메일 서비스의 FQDN (정규화 된 도메인 이름)을 지정 합니다. 이 값은 **exap.um.outlook.com**로 설정 해야 합니다.
@@ -85,8 +85,6 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 - **조직** 은 테 넌 트에 할당 된 기본 도메인입니다. 테 넌 트 관리자 로그인을 통해 office.com에이 정보를 검색할 수 있으며, 관리 센터 앱을 클릭 하 고, 왼쪽의 **설정** 으로 이동한 후 **도메인**을 클릭 합니다. 예: mytenant.onmicrosoft.com.
 
     조직 이름은 Office 365의 기본 도메인 이름 이기도 합니다.
-
-- **테 넌 트** 는 Office 365에서 테 넌 트를 식별 하는 데 사용 됩니다. 자세한 내용은 [Office 365 테 넌 트 ID 찾기를](https://support.office.com/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b)참조 하세요.
 
 호스팅된 음성 메일 정책이 제대로 만들어졌는지 확인 하려면 다음 명령을 실행 합니다.
 

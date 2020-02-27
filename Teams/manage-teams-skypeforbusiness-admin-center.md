@@ -20,12 +20,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f1aba8c461ca2cbdd827fe071d5e0486ac24b5f4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 31d39b1c65afad3bdbb000ff779b590d9f82ac38
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833128"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288636"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
 ======================================================
@@ -104,12 +104,12 @@ ms.locfileid: "41833128"
 |외부 액세스 설정     |    축    |      |       |
 |사용자 관리    |         |         |    축     |    
 |오디오 회의     |    축     |    축     |         |
-|통화 요금제     |         |    축     |         |
-|전화 시스템    |         |     축    |         |
-|전화 번호 관리     |         |   축      |         |
+|통화 요금제     |    축    |    축     |         |
+|전화 시스템    |    축    |     축    |         |
+|전화 번호 관리     |    축    |   축      |         |
 |클라우드 음성 기능 라이선스     |         |         |    축     |
-|자동 전화 교환     |         |    축     |         |
-|통화 대기열     |         |    축     |         |
+|자동 전화 교환     |    축    |          |         |
+|통화 대기열     |    축    |          |         |
 
 ## <a name="manage-settings-after-the-migration"></a>마이그레이션 후 설정 관리
 

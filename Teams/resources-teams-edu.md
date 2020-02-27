@@ -1,14 +1,13 @@
 ---
 title: 교육 관리자를 위한 Microsoft 팀 리소스
-author: ChuckEdmonson
-ms.author: chucked
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.date: 07/26/2018
-ms.reviewer: ''
+ms.reviewer: olbesede
 ms.topic: reference
 ms.service: msteams
 audience: admin
-description: 교육에서 IT 관리자에 게 유용한 팀 리소스 목록입니다.
+description: 교육 관리자 팀에 게 유용한 팀 리소스를 나열 합니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,51 +16,52 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc9413690f98afeab9bb96baefd3d73e8b56d3f8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8e2f0a0d585b7bf21175ebf8dd0ab31e16133e11
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838248"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285850"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>교육 관리자를 위한 Microsoft 팀 리소스
 ==============================================
 
 ## <a name="adoption-content"></a>채택 콘텐츠
 
-학교 정보 및 로고를 사용 하 여 사용자 지정 된 전자 메일 메시지, 포스터, 안내물을 만듭니다. 또는 Microsoft 팀에 대 한 조직의 흥미를 얻을 수 있는 포스터, 안내물, 기타 유인물을 사용 하세요.
+지금 바로 사용할 수 있는 전자 메일, 포스터, 유인물 등의 리소스를 사용 하는 Microsoft 팀에 대 한 학교 흥미를 가져옵니다. 배너, Gif, 비디오로 채워진 새로운 디지털 도구 키트를 사용 하 여 온라인 및 캠퍼스 상에 서 학생 들에 게 연락할 수도 있습니다. 지금 시작 하세요!
 
-|사용자 지정 가능한 전자 메일 서식 파일 |         |
-|---------|---------|
-|**팀 기본 사항 알아보기**<br>[.Zip 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/getting-started.zip?raw=true)<br> ![팀 기본 사항 전자 메일 서식 파일에 대 한 스크린샷](media/outlook-template-teams-basics.png)   |**학습 환경 사용자 지정**<br>[.Zip 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/customize-learning.zip?raw=true)<br>![학습 환경 서식 파일을 사용자 지정 하는 스크린샷](media/outlook-template-teams-learn.png)       |
-|**팀에서 워크플로를 간소화 하는 방법 보기**<br>[.Zip 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/workflows.zip?raw=true)<br>![워크플로 서식 파일을 간소화 하는 방법을 살펴봅니다.](media/outlook-template-teams-workflow.png)     |**전문가와 유사 하 게 채팅 하는 방법 알아보기**<br>[.Zip 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/chat.zip?raw=true)<br>![Pro 서식 파일 처럼 채팅 하는 방법에 대 한 스크린샷.](media/outlook-template-teams-chat.png)        |
-|**이동 중에 팀 수강**<br>[.Zip 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-teams.zip?raw=true)<br>![이동 템플릿에서 팀을 차지 하는 스크린샷.](media/outlook-template-teams-connect.png)    |          |
+본 자료를 사용 하기 전에 [약관](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) 을 읽어 주십시오.
 
-|맞춤형 사용자 지정 및 사전 인쇄 전단 및 포스터  |        |
-|---------|---------|
-|**Microsoft 팀에 교육-값 소개**<br>[사용자 지정 .docx 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-intro-values.docx?raw=true)<br>[미리 인쇄 된 .pdf 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![값 포스터의 스크린샷.](media/poster-intro-values.png)    |**Microsoft의 교육 팀 소개-기능**<br>[사용자 지정 .docx 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/team-edu-customizable-poster-intro-features.docx?raw=true)<br>[미리 인쇄 된 .pdf 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![기능 포스터의 스크린샷.](media/poster-intro-features.png)          |
-|**Microsoft 팀 구성원-값을 사용 하 여 능력 강화**<br>[사용자 지정 .docx 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-values.docx?raw=true)<br>[미리 인쇄 된 .pdf 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![능력 강화 포스터의 스크린샷.](media/poster-empower-values.png)   |**Microsoft 팀의 역량 강화-기능**<br>[사용자 지정 .docx 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-features.docx?raw=true)<br>[미리 인쇄 된 .pdf 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![기능 포스터의 스크린샷.](media/poster-empower-features.png)          |
-|**교육용 Microsoft 팀의 가치**<br>[사용자 지정 .docx 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[미리 인쇄 된 .pdf 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-values.pdf?raw=true)<br>![교육 기관용 Microsoft 팀의 가치에 대 한 스크린샷.](media/flyer-values.png)    |**Microsoft 교육 팀의 기능**<br>[사용자 지정 .docx 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[미리 인쇄 된 .pdf 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-features.pdf?raw=true)<br>![교육용 Microsoft 팀의 기능에 대 한 스크린샷.](media/flyer-features.png)        |
+### <a name="physical-assets"></a>물리적 자산
 
-|인쇄 준비 된 패킷  |        |
+| |  |
 |---------|---------|
-|**Microsoft 팀의 교육 시작-팁 및 요령**<br>[미리 인쇄 된 .pdf 파일 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-packet-get-started.pdf?raw=true)<br>![교육 패킷에 대 한 Microsoft 팀을 시작 하기 위한 스크린샷.](media/package-teams-edu-get-started.png)    |
+|포스터- [사용자 지정](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) 및 [인쇄-준비](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![포스터 스크린샷](media/edu-adoption-posters.png)     |[유인물](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![유인물의 스크린샷](media/edu-adoption-handouts.png)|
+|[만들거나](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![전단지 스크린샷](media/edu-adoption-flyers.png)   |[책 광고가](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![책 광고 스크린샷](media/edu-adoption-book-adverts.png)         |
+
+### <a name="digital-assets"></a>디지털 자산
+
+팀을 최대한 활용 하려면 [디지털 툴킷 지침](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) 을 확인 하세요! 
+
+|  |  |
+|---------|---------|
+|[전자 메일 서식 파일](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![스크린샷에](media/edu-adoption-email-templates.png)    |[Gif](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![GIF의 스크린샷](media/edu-adoption-gifs.png)      |
+|[웹 배너](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![웹 배너 스크린샷](media/edu-adoption-web-banners.png)    |[감상](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![스크린샷에](media/edu-adoption-videos.png)          |
+|[디지털 화면 광고가](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![디지털 화면 광고 스크린샷](media/edu-adoption-digital-screen-adverts.png)   |      |
 
 ## <a name="call-to-action"></a>조치 사항
 
-- 실무 [Microsoft 팀 대화형 데모](https://teamsdemo.office.com/) 를 확인 하세요 (완료 하는 데 5 분).
-- [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) 에서 microsoft 팀 설정 (Office 365 관리자로 로그인)
+- Trainings, 동영상 및 대화형 데모에 대 한 [교육 팀 페이지](https://www.microsoft.com/en-us/education/products/teams/default.aspx) 방문
+- [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) 에서 팀 설정 (Office 365 관리자로 로그인)
 - 팀 클라이언트 다운로드: [모든 장치에서 팀 가져오기](https://teams.microsoft.com/downloads)
 - [교육 도움말 센터](https://support.office.com/education) 의 Office 365에 대 한 자세한 정보
 
 ## <a name="additional-resources"></a>추가 리소스
 
-- [Microsoft 팀 로드맵](https://aka.ms/teamsroadmap)
+- [팀 로드맵](https://aka.ms/teamsroadmap)
 - 당사의 [기술 커뮤니티 블로그](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) 를 최신 상태로 유지
-- Matt Soseman "생산적인 구름" 블로그 [Microsoft 팀 PowerShell 지원](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/) 정보
+- [팀 PowerShell 개요](teams-powershell-overview.md)
 - [제안 보내기](https://aka.ms/eduuservoice)
 - [고객 지원 문의](https://aka.ms/o365portal)
 - [팀 커뮤니티에 게 질문 하기](https://aka.ms/msteamscommunity)
 - [교육용 추가 리소스 찾기](https://education.microsoft.com/)
-
-

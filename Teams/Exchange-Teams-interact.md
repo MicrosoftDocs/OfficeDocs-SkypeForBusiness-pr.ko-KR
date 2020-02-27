@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bc03a292614b6ae5888e6334e37a3b417bcacde
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e147a300f628347b5e38837a3d277a78a4c593c4
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834508"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285750"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 및 Microsoft 팀의 상호 작용 방식
 
@@ -88,7 +88,7 @@ Microsoft 팀은 다양 한 Office 365 서비스를 사용 하 여 사용자에 
 
 - Microsoft 팀에서 eDiscovery, 콘텐츠 검색, 보관, 법률 보호 등의 보안 및 규정 준수 기능이 Exchange Online 및 SharePoint Online 환경에서 가장 잘 작동 합니다. 채널 대화의 경우 메시지가 eDiscovery에 사용할 수 있는 Exchange Online의 그룹 사서함으로 저널링 됩니다. 조직 전체에서 SharePoint Online 및 비즈니스용 OneDrive (회사 또는 학교 계정을 사용)를 사용 하는 경우 팀 내의 모든 파일에 대해 이러한 준수 기능을 사용할 수 있습니다.
 
-- 조건부 액세스를 사용 하 여 팀 및 Exchange에서 준수 정책의 구성을 제어 하 고 보호 합니다. 자세한 내용은 [팀에 대 한 조건부 액세스 정책 작동 방법](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) 보기를 참조 하세요. .
+- 조건부 액세스를 사용 하 여 팀 및 Exchange에서 준수 정책의 구성을 제어 하 고 보호 합니다. 자세한 내용은 [팀에 대 한 조건부 액세스 정책 작동 방법](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) 보기를 참조 하세요. .
 
 - 조직에 모든 모임 토론을 검색할 수 있는 규정 준수 요구 사항이 있는 경우 이끌이에게 Exchange 온-프레미스 사서함이 있는 경우 개인 모임을 사용 하지 않도록 설정 해야 합니다.
 

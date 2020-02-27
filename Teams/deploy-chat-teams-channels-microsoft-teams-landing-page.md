@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7c89b4abe53621ae217ecb3874df9a51a43a7ac
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 87de516afbd94a0d1784edd52efbcc5b10e262dd
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160702"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285830"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -226,7 +226,7 @@ Teams는 모임, 일정, 인터롭 차트 그리고 파일 공유를 포함하�
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-|<br>Teams에 대한 조건부 액세스를 구성해야 하나요?|<ul><li>액세스 정책의 작동 방식을 이해하려면 [조건부 액세스 정책이 Teams에서 어떻게 작동하나요?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams)를 참조하세요.</li><li>Teams에 대한 다단계 인증(MFA)을 설정하려면 다음을 참조하세요:<ul><li>[빠른 시작: Azure Active Directory 조건부 액세스를 사용하는 특정 앱에 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 조건부 액세스 설정 참조](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>Teams에 대한 조건부 액세스를 구성해야 하나요?|<ul><li>액세스 정책의 작동 방식을 이해하려면 [조건부 액세스 정책이 Teams에서 어떻게 작동하나요?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)를 참조하세요.</li><li>Teams에 대한 다단계 인증(MFA)을 설정하려면 다음을 참조하세요:<ul><li>[빠른 시작: Azure Active Directory 조건부 액세스를 사용하는 특정 앱에 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 조건부 액세스 설정 참조](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 
