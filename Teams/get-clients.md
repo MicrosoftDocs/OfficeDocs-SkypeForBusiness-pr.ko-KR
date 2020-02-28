@@ -3,7 +3,6 @@ title: Microsoft 팀 용 클라이언트 가져오기
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4abae267bf1a8c0c770eebf1c1b12018a6c7deb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833768"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327840"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft 팀 용 클라이언트 가져오기 
 
@@ -41,7 +40,7 @@ Microsoft 팀은 데스크톱 (Windows, Mac, Linux), 웹, 모바일 (Android 및
 > [!TIP]
 > Windows 데스크톱 클라이언트의 이점과이를 위해 계획 하는 방법 및 배포 하는 방법에 대 한 자세한 내용을 보려면 다음 세션을 시청 하세요. [팀 Windows 데스크톱 클라이언트](https://aka.ms/teams-clients)
 
-Microsoft 팀 데스크톱 클라이언트는 독립 실행형 응용 프로그램이 며 [Office 365 ProPlus 에서도 사용할 수 있습니다](https://docs.microsoft.com/deployoffice/teams-install). 팀은 Windows (7 +), Windows Server (2012 R2 +), 32 비트 및 64 비트 버전, macOS (10.10 +), Linux (in `.deb` 및 `.rpm` 형식)에 대해 사용할 수 있습니다. Windows에서 팀에는 .NET Framework 4.5 이상이 필요 합니다. 팀 설치 관리자가 없는 경우 설치를 제공 합니다. Linux에서 apt 및 yum과 같은 패키지 관리자는 모든 요구 사항을 설치 하려고 합니다. 그러나이 경우에는 Linux에 팀을 설치 하기 전에 보고 된 요구 사항을 설치 해야 합니다.
+Microsoft 팀 데스크톱 클라이언트는 독립 실행형 응용 프로그램이 며 [Office 365 ProPlus 에서도 사용할 수 있습니다](https://docs.microsoft.com/deployoffice/teams-install). 32 비트 및 64 비트 버전의 Windows (8.1 이상) 및 Windows Server (2012 R2 이상) 뿐만 아니라 macOS (10.10 이상) 및 Linux (in `.deb` 및 `.rpm` 형식)에 대 한 팀도 사용할 수 있습니다. Windows에서 팀에는 .NET Framework 4.5 이상이 필요 합니다. 팀 설치 관리자가 없는 경우 설치를 제공 합니다. Linux에서 `apt` 와 `yum` 같은 패키지 관리자는 모든 요구 사항을 설치 하려고 합니다. 그러나이 경우에는 Linux에 팀을 설치 하기 전에 보고 된 요구 사항을 설치 해야 합니다.
 
 데스크톱 클라이언트는 실시간 통신 지원 (오디오, 비디오 및 콘텐츠 공유)을 제공 하 여 팀 모임, 그룹 통화, 개인 일대일 통화를 가능 하 게 합니다.
 
@@ -181,6 +180,8 @@ sudo zypper install teams
 ## <a name="mobile-clients"></a>모바일 클라이언트
 
 Microsoft 팀 모바일 앱은 Android 및 iOS에서 사용할 수 있으며 채팅 기반 대화에 참여 하는 사용자에 게 전달 되며 피어 투 피어 오디오 통화를 허용 합니다. 모바일 앱의 경우 관련 모바일 스토어 Google Play 및 Apple App Store로 이동 합니다. Windows Phone 앱은 2018 년 7 월 20 일에 만료 되었으며 더 이상 작동 하지 않을 수 있습니다. 
+
+중국에서는 [Android 용 팀을 가져오는](get-teams-android-in-china.md)방법에 대해 설명 합니다. 
 
 Microsoft 팀을 위한 지원 되는 모바일 플랫폼 모바일 앱은 다음과 같습니다.
 

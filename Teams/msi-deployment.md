@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc57222f56235c71c676f952cb0dd5aa149dc4e3
-ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
+ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42277981"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327830"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 설치
 
@@ -55,9 +55,9 @@ MSI 파일에 대 한 링크는 다음과 같습니다.
 
 ### <a name="pc-installation"></a>PC 설치
 
-팀 MSI는 프로그램 파일에 설치 관리자를 배치 합니다. 사용자가 새 Windows 사용자 프로필에 로그인 할 때마다 설치 프로그램이 시작 되 고 팀 앱의 복사본이 해당 사용자의 appdata 폴더에 설치 됩니다. Appdata 폴더에 팀 앱이 이미 설치 되어 있는 경우 MSI 설치 관리자가 해당 사용자에 대 한 프로세스를 건너뜁니다.
+팀 MSI는 프로그램 파일에 설치 관리자를 배치 합니다. 사용자가 새 Windows 사용자 프로필에 로그인 할 때마다 설치 프로그램이 시작 되 고 팀 앱의 복사본이 해당 사용자의 `AppData` 폴더에 설치 됩니다. 사용자가 `AppData` 폴더에 이미 팀 앱을 설치한 경우 MSI 설치 관리자가 해당 사용자에 대 한 프로세스를 건너뜁니다.
 
-MSI를 사용 하 여 업데이트를 배포 하는 경우 클라이언트는 서비스에서 새 버전이 제공 될 때 자동으로 업데이트 됩니다. 최신 설치 관리자를 다시 배포 하려면 아래 설명 된 MSI 재배포 프로세스를 사용 합니다.이전 버전의 MSI 패키지를 배포 하는 경우 클라이언트는 사용자에 대해 가능 하면 VDI 환경에서 제외 하 고 자동으로 업데이트 됩니다. 오래 된 버전이 배포 되는 경우 MSI는 사용자가 팀을 사용할 수 있도록 앱 업데이트를 트리거합니다.
+MSI를 사용 하 여 업데이트를 배포 하는 경우 클라이언트는 서비스에서 새 버전이 제공 될 때 자동으로 업데이트 됩니다. 최신 설치 관리자를 다시 배포 하려면 아래 설명 된 MSI 재배포 프로세스를 사용 합니다. 이전 버전의 MSI 패키지를 배포 하는 경우 클라이언트는 사용자에 대해 가능 하면 VDI 환경에서 제외 하 고 자동으로 업데이트 됩니다. 오래 된 버전이 배포 되는 경우 MSI는 사용자가 팀을 사용할 수 있도록 앱 업데이트를 트리거합니다.
 
 > [!Important]
 > 기본 설치 위치를 변경 하는 것은 업데이트 흐름이 중단 될 수 있으므로 권장 하지 않습니다. 오래 된 버전을 보유 하면 결국 사용자가 서비스에 액세스 하지 못하도록 차단 됩니다.
@@ -65,7 +65,7 @@ MSI를 사용 하 여 업데이트를 배포 하는 경우 클라이언트는 �
 #### <a name="target-computer-requirements"></a>대상 컴퓨터 요구 사항
 
 - .NET framework 4.5 이상
-- Windows 7 이상
+- Windows 8.1 이상
 - Windows Server 2012 R2 이상
 - 각 사용자 프로필에 대해 3gb의 디스크 공간 (권장)
 
@@ -78,7 +78,7 @@ VDI에서 팀 데스크톱 앱을 배포 하는 방법에 대 한 자세한 지�
 사용자가 사용자 프로필에서 팀을 제거 하는 경우 MSI 설치 관리자는 사용자가 팀 앱을 제거 하 고 더 이상 해당 사용자 프로필에 대 한 팀을 설치 하지 않은 것을 추적 합니다. 제거 된 특정 컴퓨터에서이 사용자의 팀을 다시 배포 하려면 다음을 수행 합니다.
 
 1. 모든 사용자 프로필에 대해 팀 앱을 설치 제거 합니다.
-2. 제거 후%localappdata%\Microsoft\Teams\.에서 디렉터리를 재귀적으로 삭제 합니다.
+2. 제거 후에 재귀적으로 디렉터리를 `%localappdata%\Microsoft\Teams\`삭제 합니다.
 3. 해당 특정 컴퓨터에 MSI 패키지를 다시 배포 합니다.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>설치 후 팀이 자동으로 시작 되지 않도록 방지

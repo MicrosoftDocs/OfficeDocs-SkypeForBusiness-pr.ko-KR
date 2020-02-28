@@ -21,12 +21,12 @@ description: 교육 팀의 Microsoft 팀 관리 센터에서 과제를 관리 �
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fb811540fc4e79c65d93eefb993fa7523a39aff
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ad9e3f8b0f2f3800c7394a9d4dc21fe7a2058426
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827826"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328000"
 ---
 # <a name="assignments-in-teams-for-education"></a>교육용 Teams의 과제
 
@@ -40,7 +40,6 @@ Microsoft 팀 관리 센터의 관리 설정에서 다음 기능을 설정 하�
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>주간 보호자 이메일 요약
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 보호자 이메일은 학생의 부모나 보호자에 게 전송 되는 주간 전자 메일입니다. 전자 메일에는 이전 주의 과제 및 다음 주에 대 한 정보가 포함 되며 주말에 발송 됩니다. 전자 메일은 학교 데이터 동기화 기능을 사용 하 여 관리자가 업데이트 해야 합니다.
 
@@ -58,7 +57,6 @@ MakeCode는 모든 학생에 게 컴퓨터 과학을 수명으로 제공 하는 
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin는 plagiarism 검색 서비스입니다. 귀하의 약관 및 개인정보 보호 정책에 적용 되는 타사 제품이 나 서비스입니다. 귀하는 타사 제품 및 서비스를 사용 해야 합니다.
 

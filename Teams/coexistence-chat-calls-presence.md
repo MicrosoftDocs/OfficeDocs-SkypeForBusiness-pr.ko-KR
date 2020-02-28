@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 이 문서는 할당 된 Team를 사용 하는 팀 사용자와 테 넌 트 및 페더레이션 모두에 대 한 채팅, 통화 라우팅 및 현재 상태 간 동작에 대해 설명 합니다. 여기에는 라우팅 최적화, 현재 상태 동작, *레거시* 에서 *아일랜드* 로의 기본 team문제 등급 모드 변경 및 *이전 버전*의 임박한 만료가 포함 됩니다.
-ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: 64889ae11b4ce8665fb4a6bdbb98ff95aaf777fc
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236828"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328020"
 ---
 # <a name="coexistence-with-skype-for-business"></a>비즈니스용 Skype와 공존
 
@@ -56,7 +56,7 @@ ms.locfileid: "42236828"
     - 팀 간 통신은 항상 테 넌 트에서 가능 합니다.
 
 > [!NOTE]
-> 현재, 팀과 관련 된 모든 페더레이션은 비즈니스용 skype 페더레이션 파이프라인과 팀 (비즈니스용 Skype 상호 운용성)을 활용 합니다. 팀에서 기본 팀을 계획 하 고 있습니다. 현재 문서는 네이티브 페더레이션을 릴리스할 때 업데이트 됩니다.
+> 받는 사람과 보낸 사람이 모두 TeamsOnly 모드인 경우 대화는 다양 한 메시징 및 통화 기능을 모두 포함 하는 기본 채팅 환경이 됩니다. 자세한 내용은 [팀의 외부 (페더레이션된) 사용자를 위한 기본 채팅 환경에 대해](native-chat-for-external-users.md)알아보세요. 대화 참가자 중 하나가 TeamsOnly 모드에 있지 않은 경우 대화는 텍스트 전용 메시지를 사용 하 여 interop 환경으로 유지 됩니다.
 
 ## <a name="chat-and-call-routing"></a>채팅 및 통화 라우팅
 

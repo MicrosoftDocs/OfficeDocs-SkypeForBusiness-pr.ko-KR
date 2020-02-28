@@ -19,12 +19,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Microsoft 팀에 대해 인증 된 IP 데스크 및 전화 회의 전화
-ms.openlocfilehash: 83305c4d4d60c3347e7c55cab312311ddb014ebf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a02082719e509ed38646915a8ce5388837ceca26
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837658"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327970"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -52,6 +52,7 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 |Poly CCX400 | 1.0.0.0200 | 2020 년 1 월|
 |Poly CCX600 | 5.9.12.1111| 2020 년 1 월|
 |Poly CCX500 | 5.9.12.1111| 2019 년 12 월|
+|옛 alink VC210| 118.15.0.14|2020 년 2 월|
 |옛 alink VP59 | 91.15.0.16 |2019 년 6 월|
 |옛 alink T55 | 58.15.0.36 |2019 년 5 월|
 |옛 alink CP 960 |73.15.0.20|2018 년 12 월|
