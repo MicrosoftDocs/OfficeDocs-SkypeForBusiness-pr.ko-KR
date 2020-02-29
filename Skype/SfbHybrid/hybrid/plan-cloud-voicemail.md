@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 이 문서에서는 Microsoft Cloud 음성 메일 서비스를 구현 하기 위한 혜택, 계획 고려 사항 및 요구 사항에 대해 설명 합니다. 클라우드 음성 메일을 구성 하는 방법에 대 한 자세한 내용은 클라우드 음성 메일 구성을 참조 하세요.
-ms.openlocfilehash: 82d9473e35b5c10fd2c50b783a89df64aed62cbe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07448ab8232115e19c01261dc487c04b5a2dd4f9
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006023"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341761"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>온-프레미스 사용자를 위한 클라우드 음성 메일 서비스 계획
 
@@ -88,18 +88,13 @@ ms.locfileid: "42006023"
 - Exchange 서버 2019에서 더 이상 Exchange UM 기능을 제공 하지 않음
 - 비즈니스용 Skype 서버 2019이 더 이상 Exchange Online UM에 통합 되지 않음
 
-버전 상호 운용성 및 클라우드 음성 메일에 대해 지원 되는 토폴로지는 다음 표에 나와 있으며,이는 사용자가 사용할 수 있는 비즈니스용 Skype 서버 버전과 Exchange 사서함을 제공 하는 가능한 버전을 비교 합니다. 클라우드 음성 메일은 비즈니스용 Skype 서버 및 Exchange Server 2019 또는 Exchange Online 에서만 작동 합니다.
+버전 상호 운용성 및 클라우드 음성 메일에 대해 지원 되는 토폴로지는 다음 표에 나와 있으며,이는 사용자가 사용할 수 있는 비즈니스용 Skype 서버 버전과 Exchange 사서함을 제공 하는 가능한 버전을 비교 합니다. Exchange Online 또는 Exchange Server 2019에서 비즈니스용 Skype 2019을 사용 하려는 경우에는 클라우드 음성 메일을 사용 해야 합니다.
 
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
 | 비즈니스용 Skype 서버 2019 | Exchange Server UM | Exchange Server UM | 클라우드 음성 메일 | 클라우드 음성 메일 |
-| 비즈니스용 Skype 서버 2015 | Exchange Server UM | Exchange Server UM | 클라우드 음성 메일<sup>1</sup> | 클라우드 음성 메일 <br> Exchange Online UM<sup>2</sup> |
-| Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | 미지원 | 클라우드 음성 메일 <br> Exchange Online UM<sup>2</sup> |
-
-<sup>1</sup> 이 옵션이 아직 표시 되지 않습니까? 현재 롤아웃 중 이며 아직 조직에서 사용 하지 못할 수 있습니다. 클라우드 음성 사서함에 대 한 계획 된 연결에 대 한 옵트인을 위해 [Exchange 통합 메시징 온라인 마이그레이션 지원](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support
-) 에서 6 단계를 참조 하세요.
-
-<sup>2</sup> -사용 되지 않음 자세한 내용은 [Exchange 통합 메시징 온라인 마이그레이션 지원](../../sfbserver2019/plan/exchange-unified-messaging-online-migration-support.md) 를 참조 하세요. 
+| 비즈니스용 Skype 서버 2015 | Exchange Server UM | Exchange Server UM | 클라우드 음성 메일 | 클라우드 음성 메일 |
+| Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | 미지원 | 클라우드 음성 메일 |
 
 Microsoft는 다음과 같은 마이그레이션 경로를 권장 합니다.
 

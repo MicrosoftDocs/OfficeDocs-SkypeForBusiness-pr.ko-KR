@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e4c49824df9a098af5251d13234eae48db5619
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 5b687d528f7cb593039fdafd9dcc6ec08ec66372
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288626"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341646"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
@@ -56,7 +56,7 @@ Microsoft 팀은 SharePoint 및 비즈니스용 OneDrive, 콘텐츠 관리용 �
 
 ### <a name="safe-links"></a>안전한 링크
 
-이번에는 Microsoft 팀에서 ATP 안전한 링크를 사용할 수 없으므로 나중에 사용할 수 있어야 하며,이 경우이 내용이 업데이트 되어 사용자에 게 알려 드립니다. 그 동안 O365 안전한 링크에 대 한 자세한 내용은 [Office 365 ATP 안전 링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)를 검토 하세요.
+이번에는 Microsoft 팀에서 ATP 안전한 링크를 사용할 수 없으며, 이제 기술 채택 프로그램을 통해 공개 미리 보기를 사용 하 고, 일반 사용이 설정 된 경우에는 해당 시간이 도착할 때이 문서를 업데이트 합니다. 또한 O365 안전한 링크에 대 한 정보는 [Office 365 ATP 안전 링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)를 검토 하세요.
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>팀에 조건부 액세스 정책이 작동 하는 방식
 

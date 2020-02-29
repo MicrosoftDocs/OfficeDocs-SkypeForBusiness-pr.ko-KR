@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 479f272f45c4ac7c8f84f0aa26fe923ea16ff3d7
-ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
+ms.openlocfilehash: c5bc574fc760929d416ce3f62c921bc522c2997c
+ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42278011"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42339463"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>가상화 된 데스크톱 인프라 팀
 
@@ -351,7 +351,8 @@ PowerShell을 사용 하 여 모임 정책을 관리 하는 방법에 대해 자
     - 응용 프로그램 공유가 지원 되지 않습니다.
 - 제어권을 부여 하 고 컨트롤을 사용 합니다.  
     - 화면 공유 또는 응용 프로그램 공유 세션 중에 지원 되지 않습니다.
-    - PowerPoint 공유 세션 중에 지원 됩니다.  
+    - PowerPoint 공유 세션 중에 지원 됩니다.
+- 다중 모니터 설정에서 화면 공유 시 메인 모니터만 공유 됩니다.
 - CWA에서 높은 DPI 조정이 지원 되지 않습니다.
 
 VDI와 관련 되지 않은 팀의 알려진 문제점은 [팀에 대해 알려진 문제점](Known-issues.md)을 참조 하세요.

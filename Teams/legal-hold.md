@@ -15,12 +15,12 @@ f1.keywords:
 description: 보안 & 준수 센터를 사용 하 여 법적 고 지에 따라 Microsoft 팀 사용자 또는 팀을 배치 하 고 데이터 요구 사항에 따라 법적 보류가 필요한 경우에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c46de971a63a212c0773f5048aeded697d05e0c
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: e3727ac3f6b9ded4c3dbb34a1977f9b99cbaf15e
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863029"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341636"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>법률 보류에 Microsoft 팀 사용자 또는 팀 배치
 ==================================================

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '요약: 통화 품질 대시보드를 계획할 때 고려해 야 할 사항에 대해 알아봅니다.'
-ms.openlocfilehash: 25342998332a596abce9ecd02e63e153be6e6d94
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 63b69d64624d13253badf1d3e6f44535afdc0993
+ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029419"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42339443"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>비즈니스용 Skype 서버에 대 한 통화 품질 대시보드 계획 
  
@@ -195,9 +195,9 @@ CQD의 데이터 처리는 두 가지 주요 단계로 구분 됩니다.
 
 |**컴퓨터**|**CPU 코어**|**RAM**|**같은 디스크의 QoE 보관 및 큐브**|**QoE 보관 및 SQL Temp DB 같은 디스크**|
 |:-----|:-----|:-----|:-----|:-----|
-|가상 컴퓨터  <br/> |4   <br/> |7G B  <br/> |예  <br/> |예  <br/> |
-|코어 4 개  <br/> |4   <br/> |20GB  <br/> |예  <br/> |아니요  <br/> |
-|코어 8 개  <br/> |8   <br/> |32GB  <br/> |예  <br/> |아니요  <br/> |
+|가상 컴퓨터  <br/> |1-4  <br/> |7G B  <br/> |예  <br/> |예  <br/> |
+|코어 4 개  <br/> |1-4  <br/> |20GB  <br/> |예  <br/> |아니요  <br/> |
+|코어 8 개  <br/> |8  <br/> |32GB  <br/> |예  <br/> |아니요  <br/> |
 |16 코어  <br/> |16   <br/> |128GB  <br/> |아니요  <br/> |아니요  <br/> |
    
 **성능 결과**
@@ -296,15 +296,10 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 지원 되는 SQL Server 버전은 다음과 같습니다.
   
-- SQL Server 2012
-    
-- SQL Server 2014
-
-- SQL Server 2016
-
-- SQL Server 2017
-
-- SQL Server 2019 (비즈니스용 Skype 서버 2019 CQD만 해당)
+|||
+|:-----|:-----|
+| CQD 2015 <br/> |  SQL Server 2012, SQL Server 2014, SQL Server 2016  |
+|CQD 2019 <br/> |  SQL Server 2017, SQL Server 2019  |
     
 비즈니스 인텔리전스 또는 Enterprise edition이 성능상의 이유로 권장 됩니다. 이러한 버전은 동시에 처리 될 수 있는 여러 파티션 파일을 사용 하도록 허용 하며, 여러 달 이상으로 확장 되는 데이터를 처리 하는 데 유용 합니다. 
   
