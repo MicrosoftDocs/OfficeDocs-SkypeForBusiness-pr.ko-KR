@@ -263,10 +263,10 @@
 
 ### 직접 라우팅 구성
 #### [개요](direct-routing-configure.md)
-#### [직접 라우팅으로 SBC를 연결](direct-routing-connect-the-sbc.md)
-#### [사용자가 직접 라우팅, 음성 및 음성 메일을 사용하도록 설정](direct-routing-enable-users.md)
-#### [음성 라우팅 구성](direct-routing-voice-routing.md)
-#### [전화 번호 번역](direct-routing-translate-numbers.md)
+#### [1단계: SBC 연결](direct-routing-connect-the-sbc.md)
+#### [2단계: 사용자 활성화](direct-routing-enable-users.md)
+#### [3단계: 음성 라우팅 구성](direct-routing-voice-routing.md)
+#### [4단계: 전화 번호 번역](direct-routing-translate-numbers.md)
 #### [여러 테넌트에 대해 SBC 구성](direct-routing-sbc-multiple-tenants.md)
 #### [직접 라우팅이 있는 아날로그 장치를 사용 하는 방법](direct-routing-analog-devices.md)
 
@@ -638,11 +638,11 @@
 <!-- ============================================================ -->
 
 # 보안 및 규정 준수
+## [개요](security-compliance-overview.md)
 ## 보안
 ### [ID 모델 및 인증](identify-models-authentication.md)
 ### [최신 인증을 사용하여 Teams에 로그인](sign-in-teams.md)
 ## 규정 준수
-### [개요](security-compliance-overview.md)
 ### [정보 장벽](information-barriers-in-teams.md)
 ### [보존 정책](retention-policies.md)
 ### [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

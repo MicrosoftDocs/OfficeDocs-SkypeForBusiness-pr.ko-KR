@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: fcf6ee6bbf0f9d485a84007a01cd9ce0dfee9500
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 958ca112e52cefa31e122c02b47c76a68537d284
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836608"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288726"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -174,7 +174,7 @@ Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 �
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -184,9 +184,9 @@ Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 �
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams와 일선 직원</h3>
-                        <p>Teams의 일선 직원 기능에 대해 알아봅니다.</p>
-                        <p><i>대상 그룹: 최종 사용자</i></p>
+                        <h3>Teams로 실무 직원들의 역량을 강화하세요.</h3>
+                        <p>Teams가 어떻게 전 직원에게 무한한 잠재력을 제공하는 디지털 혁신을 가능하게 하는지 알아보세요.</p>
+                        <p><i>대상 그룹: 비즈니스 결정권자, IT 의사 결정권자</i></p>
                     </div>
                 </div>
             </div>
