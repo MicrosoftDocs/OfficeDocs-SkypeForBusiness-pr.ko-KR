@@ -4,6 +4,8 @@
 
 # [아키텍처 및 전화 통신 솔루션 포스터](teams-architecture-solutions-posters.md)  
 
+# [지원 원격 작업자 (WFH)](support-remote-work-with-teams.md)
+
 # 교육 
 ## [개요](training-microsoft-teams-landing-page.md)
 ## [Teams용 강사 진행 교육](instructor-led-training-teams-landing-page.md)
@@ -157,6 +159,7 @@
 #### [오디오 회의 브리지의 설정 변경](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [오디오 회의 번호 목록 보기](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [오디오 회의의 자동 전화 교환 언어 설정](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+#### [사용자에 대한 모임 전화 접속 확인 설정](set-up-meeting-dial-out-confirmation.md)
 
 
 ### [조직의 오디오 회의 설정 관리](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
@@ -695,6 +698,7 @@
 
 ## Teams 설치
 ### [Teams용 클라이언트 가져오기](get-clients.md)
+### [중국 Android용 Teams 가져오기](get-teams-android-in-china.md)
 ### [Teams 앱의 하드웨어 요구 사항](hardware-requirements-for-the-teams-app.md)
 ### [하드웨어 디코더와 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)
 ### [MSI를 사용하여 Teams 설치](msi-deployment.md)
