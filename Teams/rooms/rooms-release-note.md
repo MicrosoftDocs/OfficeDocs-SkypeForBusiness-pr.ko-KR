@@ -13,322 +13,329 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.
-ms.openlocfilehash: fc83efc2b3b72be532d29b2698370c655a1da9ac
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6ecc038658b8178530833ae4f8964bdfc733be84
+ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42155090"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42398196"
 ---
-# <a name="release-notes"></a><span data-ttu-id="14c79-103">릴리스 정보</span><span class="sxs-lookup"><span data-stu-id="14c79-103">Release notes</span></span>
+# <a name="release-notes"></a><span data-ttu-id="7d5a0-103">릴리스 정보</span><span class="sxs-lookup"><span data-stu-id="7d5a0-103">Release notes</span></span>
 
-<span data-ttu-id="14c79-104">이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-104">This article discusses cumulative improvements in Microsoft Teams Rooms.</span></span>
+<span data-ttu-id="7d5a0-104">이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-104">This article discusses cumulative improvements in Microsoft Teams Rooms.</span></span>
 
-## <a name="version-history"></a><span data-ttu-id="14c79-105">버전 기록</span><span class="sxs-lookup"><span data-stu-id="14c79-105">Version history</span></span>
+## <a name="version-history"></a><span data-ttu-id="7d5a0-105">버전 기록</span><span class="sxs-lookup"><span data-stu-id="7d5a0-105">Version history</span></span>
 
-|<span data-ttu-id="14c79-106">제품</span><span class="sxs-lookup"><span data-stu-id="14c79-106">Release</span></span> |<span data-ttu-id="14c79-107">게시 대상</span><span class="sxs-lookup"><span data-stu-id="14c79-107">Published to</span></span> <br/> <span data-ttu-id="14c79-108">Microsoft Store</span><span class="sxs-lookup"><span data-stu-id="14c79-108">Microsoft Store</span></span> |
+|<span data-ttu-id="7d5a0-106">제품</span><span class="sxs-lookup"><span data-stu-id="7d5a0-106">Release</span></span> |<span data-ttu-id="7d5a0-107">게시 대상</span><span class="sxs-lookup"><span data-stu-id="7d5a0-107">Published to</span></span> <br/> <span data-ttu-id="7d5a0-108">Microsoft Store</span><span class="sxs-lookup"><span data-stu-id="7d5a0-108">Microsoft Store</span></span> |
 |--- |--- |
-|<span data-ttu-id="14c79-109">4.3.33.0</span><span class="sxs-lookup"><span data-stu-id="14c79-109">4.3.33.0</span></span> |<span data-ttu-id="14c79-110">1/10/2020</span><span class="sxs-lookup"><span data-stu-id="14c79-110">1/10/2020</span></span> |
-|<span data-ttu-id="14c79-111">4.3.23.0</span><span class="sxs-lookup"><span data-stu-id="14c79-111">4.3.23.0</span></span> |<span data-ttu-id="14c79-112">12/13/2019</span><span class="sxs-lookup"><span data-stu-id="14c79-112">12/13/2019</span></span> |
-|<span data-ttu-id="14c79-113">4.2.4.0</span><span class="sxs-lookup"><span data-stu-id="14c79-113">4.2.4.0</span></span> |<span data-ttu-id="14c79-114">10/07/2019</span><span class="sxs-lookup"><span data-stu-id="14c79-114">10/07/2019</span></span> |
-|<span data-ttu-id="14c79-115">4.1.22.0</span><span class="sxs-lookup"><span data-stu-id="14c79-115">4.1.22.0</span></span> |<span data-ttu-id="14c79-116">08/15/2019</span><span class="sxs-lookup"><span data-stu-id="14c79-116">08/15/2019</span></span> |
-|<span data-ttu-id="14c79-117">4.0.105.0</span><span class="sxs-lookup"><span data-stu-id="14c79-117">4.0.105.0</span></span> |<span data-ttu-id="14c79-118">07/10/2019</span><span class="sxs-lookup"><span data-stu-id="14c79-118">07/10/2019</span></span> |
-|<span data-ttu-id="14c79-119">4.0.85.0</span><span class="sxs-lookup"><span data-stu-id="14c79-119">4.0.85.0</span></span> |<span data-ttu-id="14c79-120">04/08/2019</span><span class="sxs-lookup"><span data-stu-id="14c79-120">04/08/2019</span></span> |
-|<span data-ttu-id="14c79-121">4.0.78.0</span><span class="sxs-lookup"><span data-stu-id="14c79-121">4.0.78.0</span></span> |<span data-ttu-id="14c79-122">03/14/2019</span><span class="sxs-lookup"><span data-stu-id="14c79-122">03/14/2019</span></span> |
-|<span data-ttu-id="14c79-123">4.0.76.0</span><span class="sxs-lookup"><span data-stu-id="14c79-123">4.0.76.0</span></span> |<span data-ttu-id="14c79-124">03/04/2019</span><span class="sxs-lookup"><span data-stu-id="14c79-124">03/04/2019</span></span> |
-|<span data-ttu-id="14c79-125">4.0.64.0</span><span class="sxs-lookup"><span data-stu-id="14c79-125">4.0.64.0</span></span> |<span data-ttu-id="14c79-126">12/14/2018</span><span class="sxs-lookup"><span data-stu-id="14c79-126">12/14/2018</span></span> |
-|<span data-ttu-id="14c79-127">4.0.51.0</span><span class="sxs-lookup"><span data-stu-id="14c79-127">4.0.51.0</span></span> |<span data-ttu-id="14c79-128">11/17/2018</span><span class="sxs-lookup"><span data-stu-id="14c79-128">11/17/2018</span></span> |
-|<span data-ttu-id="14c79-129">4.0.31.0</span><span class="sxs-lookup"><span data-stu-id="14c79-129">4.0.31.0</span></span> |<span data-ttu-id="14c79-130">10/16/2018</span><span class="sxs-lookup"><span data-stu-id="14c79-130">10/16/2018</span></span> |
-|<span data-ttu-id="14c79-131">4.0.27.0</span><span class="sxs-lookup"><span data-stu-id="14c79-131">4.0.27.0</span></span> |<span data-ttu-id="14c79-132">10/1/2018</span><span class="sxs-lookup"><span data-stu-id="14c79-132">10/1/2018</span></span> |
-|<span data-ttu-id="14c79-133">4.0.19.0</span><span class="sxs-lookup"><span data-stu-id="14c79-133">4.0.19.0</span></span> |<span data-ttu-id="14c79-134">08/31/2018</span><span class="sxs-lookup"><span data-stu-id="14c79-134">08/31/2018</span></span> |
-|<span data-ttu-id="14c79-135">4.0.18.0</span><span class="sxs-lookup"><span data-stu-id="14c79-135">4.0.18.0</span></span> |<span data-ttu-id="14c79-136">08/27/2018</span><span class="sxs-lookup"><span data-stu-id="14c79-136">08/27/2018</span></span> |
-|<span data-ttu-id="14c79-137">4.0.8.0</span><span class="sxs-lookup"><span data-stu-id="14c79-137">4.0.8.0</span></span> |<span data-ttu-id="14c79-138">07/06/2018</span><span class="sxs-lookup"><span data-stu-id="14c79-138">07/06/2018</span></span> |
-|<span data-ttu-id="14c79-139">3.1.115.0</span><span class="sxs-lookup"><span data-stu-id="14c79-139">3.1.115.0</span></span>|<span data-ttu-id="14c79-140">06/18/2018</span><span class="sxs-lookup"><span data-stu-id="14c79-140">06/18/2018</span></span> |
-|<span data-ttu-id="14c79-141">3.1.113.0</span><span class="sxs-lookup"><span data-stu-id="14c79-141">3.1.113.0</span></span>|<span data-ttu-id="14c79-142">06/13/2018</span><span class="sxs-lookup"><span data-stu-id="14c79-142">06/13/2018</span></span> |
-|<span data-ttu-id="14c79-143">3.1.112.0</span><span class="sxs-lookup"><span data-stu-id="14c79-143">3.1.112.0</span></span>|<span data-ttu-id="14c79-144">06/05/2018</span><span class="sxs-lookup"><span data-stu-id="14c79-144">06/05/2018</span></span> |
-|<span data-ttu-id="14c79-145">3.1.104.0</span><span class="sxs-lookup"><span data-stu-id="14c79-145">3.1.104.0</span></span>|<span data-ttu-id="14c79-146">04/16/2018</span><span class="sxs-lookup"><span data-stu-id="14c79-146">04/16/2018</span></span> |
-|<span data-ttu-id="14c79-147">3.1.100.0</span><span class="sxs-lookup"><span data-stu-id="14c79-147">3.1.100.0</span></span>|<span data-ttu-id="14c79-148">03/16/2018</span><span class="sxs-lookup"><span data-stu-id="14c79-148">03/16/2018</span></span> |
-|<span data-ttu-id="14c79-149">3.1.99.0</span><span class="sxs-lookup"><span data-stu-id="14c79-149">3.1.99.0</span></span> |<span data-ttu-id="14c79-150">3/14/2018</span><span class="sxs-lookup"><span data-stu-id="14c79-150">3/14/2018</span></span> |
-|<span data-ttu-id="14c79-151">3.1.98.0</span><span class="sxs-lookup"><span data-stu-id="14c79-151">3.1.98.0</span></span> |<span data-ttu-id="14c79-152">3/8/2018</span><span class="sxs-lookup"><span data-stu-id="14c79-152">3/8/2018</span></span> |
-|<span data-ttu-id="14c79-153">3.0.16.0</span><span class="sxs-lookup"><span data-stu-id="14c79-153">3.0.16.0</span></span> |<span data-ttu-id="14c79-154">11/27/2017</span><span class="sxs-lookup"><span data-stu-id="14c79-154">11/27/2017</span></span> |
-|<span data-ttu-id="14c79-155">3.0.15.0</span><span class="sxs-lookup"><span data-stu-id="14c79-155">3.0.15.0</span></span> |<span data-ttu-id="14c79-156">10/3/2017</span><span class="sxs-lookup"><span data-stu-id="14c79-156">10/3/2017</span></span> |
-|<span data-ttu-id="14c79-157">3.0.12.0</span><span class="sxs-lookup"><span data-stu-id="14c79-157">3.0.12.0</span></span> |<span data-ttu-id="14c79-158">9/1/2017</span><span class="sxs-lookup"><span data-stu-id="14c79-158">9/1/2017</span></span> |
-|<span data-ttu-id="14c79-159">3.0.8.0</span><span class="sxs-lookup"><span data-stu-id="14c79-159">3.0.8.0</span></span> |<span data-ttu-id="14c79-160">11/16/2017</span><span class="sxs-lookup"><span data-stu-id="14c79-160">11/16/2017</span></span> |
-|<span data-ttu-id="14c79-161">3.0.6.0</span><span class="sxs-lookup"><span data-stu-id="14c79-161">3.0.6.0</span></span> |<span data-ttu-id="14c79-162">11/16/2017</span><span class="sxs-lookup"><span data-stu-id="14c79-162">11/16/2017</span></span> |
-|<span data-ttu-id="14c79-163">2.0.2.0</span><span class="sxs-lookup"><span data-stu-id="14c79-163">2.0.2.0</span></span> |<span data-ttu-id="14c79-164">03/15/2017</span><span class="sxs-lookup"><span data-stu-id="14c79-164">03/15/2017</span></span> |
-|<span data-ttu-id="14c79-165">RTM (1.0.8)</span><span class="sxs-lookup"><span data-stu-id="14c79-165">RTM (1.0.8)</span></span> |<span data-ttu-id="14c79-166">12/7/2016</span><span class="sxs-lookup"><span data-stu-id="14c79-166">12/7/2016</span></span> |
+|<span data-ttu-id="7d5a0-109">4.3.42.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-109">4.3.42.0</span></span> |<span data-ttu-id="7d5a0-110">03/02/2020</span><span class="sxs-lookup"><span data-stu-id="7d5a0-110">03/02/2020</span></span> |
+|<span data-ttu-id="7d5a0-111">4.3.33.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-111">4.3.33.0</span></span> |<span data-ttu-id="7d5a0-112">1/10/2020</span><span class="sxs-lookup"><span data-stu-id="7d5a0-112">1/10/2020</span></span> |
+|<span data-ttu-id="7d5a0-113">4.3.23.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-113">4.3.23.0</span></span> |<span data-ttu-id="7d5a0-114">12/13/2019</span><span class="sxs-lookup"><span data-stu-id="7d5a0-114">12/13/2019</span></span> |
+|<span data-ttu-id="7d5a0-115">4.2.4.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-115">4.2.4.0</span></span> |<span data-ttu-id="7d5a0-116">10/07/2019</span><span class="sxs-lookup"><span data-stu-id="7d5a0-116">10/07/2019</span></span> |
+|<span data-ttu-id="7d5a0-117">4.1.22.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-117">4.1.22.0</span></span> |<span data-ttu-id="7d5a0-118">08/15/2019</span><span class="sxs-lookup"><span data-stu-id="7d5a0-118">08/15/2019</span></span> |
+|<span data-ttu-id="7d5a0-119">4.0.105.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-119">4.0.105.0</span></span> |<span data-ttu-id="7d5a0-120">07/10/2019</span><span class="sxs-lookup"><span data-stu-id="7d5a0-120">07/10/2019</span></span> |
+|<span data-ttu-id="7d5a0-121">4.0.85.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-121">4.0.85.0</span></span> |<span data-ttu-id="7d5a0-122">04/08/2019</span><span class="sxs-lookup"><span data-stu-id="7d5a0-122">04/08/2019</span></span> |
+|<span data-ttu-id="7d5a0-123">4.0.78.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-123">4.0.78.0</span></span> |<span data-ttu-id="7d5a0-124">03/14/2019</span><span class="sxs-lookup"><span data-stu-id="7d5a0-124">03/14/2019</span></span> |
+|<span data-ttu-id="7d5a0-125">4.0.76.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-125">4.0.76.0</span></span> |<span data-ttu-id="7d5a0-126">03/04/2019</span><span class="sxs-lookup"><span data-stu-id="7d5a0-126">03/04/2019</span></span> |
+|<span data-ttu-id="7d5a0-127">4.0.64.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-127">4.0.64.0</span></span> |<span data-ttu-id="7d5a0-128">12/14/2018</span><span class="sxs-lookup"><span data-stu-id="7d5a0-128">12/14/2018</span></span> |
+|<span data-ttu-id="7d5a0-129">4.0.51.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-129">4.0.51.0</span></span> |<span data-ttu-id="7d5a0-130">11/17/2018</span><span class="sxs-lookup"><span data-stu-id="7d5a0-130">11/17/2018</span></span> |
+|<span data-ttu-id="7d5a0-131">4.0.31.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-131">4.0.31.0</span></span> |<span data-ttu-id="7d5a0-132">10/16/2018</span><span class="sxs-lookup"><span data-stu-id="7d5a0-132">10/16/2018</span></span> |
+|<span data-ttu-id="7d5a0-133">4.0.27.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-133">4.0.27.0</span></span> |<span data-ttu-id="7d5a0-134">10/1/2018</span><span class="sxs-lookup"><span data-stu-id="7d5a0-134">10/1/2018</span></span> |
+|<span data-ttu-id="7d5a0-135">4.0.19.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-135">4.0.19.0</span></span> |<span data-ttu-id="7d5a0-136">08/31/2018</span><span class="sxs-lookup"><span data-stu-id="7d5a0-136">08/31/2018</span></span> |
+|<span data-ttu-id="7d5a0-137">4.0.18.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-137">4.0.18.0</span></span> |<span data-ttu-id="7d5a0-138">08/27/2018</span><span class="sxs-lookup"><span data-stu-id="7d5a0-138">08/27/2018</span></span> |
+|<span data-ttu-id="7d5a0-139">4.0.8.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-139">4.0.8.0</span></span> |<span data-ttu-id="7d5a0-140">07/06/2018</span><span class="sxs-lookup"><span data-stu-id="7d5a0-140">07/06/2018</span></span> |
+|<span data-ttu-id="7d5a0-141">3.1.115.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-141">3.1.115.0</span></span>|<span data-ttu-id="7d5a0-142">06/18/2018</span><span class="sxs-lookup"><span data-stu-id="7d5a0-142">06/18/2018</span></span> |
+|<span data-ttu-id="7d5a0-143">3.1.113.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-143">3.1.113.0</span></span>|<span data-ttu-id="7d5a0-144">06/13/2018</span><span class="sxs-lookup"><span data-stu-id="7d5a0-144">06/13/2018</span></span> |
+|<span data-ttu-id="7d5a0-145">3.1.112.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-145">3.1.112.0</span></span>|<span data-ttu-id="7d5a0-146">06/05/2018</span><span class="sxs-lookup"><span data-stu-id="7d5a0-146">06/05/2018</span></span> |
+|<span data-ttu-id="7d5a0-147">3.1.104.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-147">3.1.104.0</span></span>|<span data-ttu-id="7d5a0-148">04/16/2018</span><span class="sxs-lookup"><span data-stu-id="7d5a0-148">04/16/2018</span></span> |
+|<span data-ttu-id="7d5a0-149">3.1.100.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-149">3.1.100.0</span></span>|<span data-ttu-id="7d5a0-150">03/16/2018</span><span class="sxs-lookup"><span data-stu-id="7d5a0-150">03/16/2018</span></span> |
+|<span data-ttu-id="7d5a0-151">3.1.99.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-151">3.1.99.0</span></span> |<span data-ttu-id="7d5a0-152">3/14/2018</span><span class="sxs-lookup"><span data-stu-id="7d5a0-152">3/14/2018</span></span> |
+|<span data-ttu-id="7d5a0-153">3.1.98.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-153">3.1.98.0</span></span> |<span data-ttu-id="7d5a0-154">3/8/2018</span><span class="sxs-lookup"><span data-stu-id="7d5a0-154">3/8/2018</span></span> |
+|<span data-ttu-id="7d5a0-155">3.0.16.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-155">3.0.16.0</span></span> |<span data-ttu-id="7d5a0-156">11/27/2017</span><span class="sxs-lookup"><span data-stu-id="7d5a0-156">11/27/2017</span></span> |
+|<span data-ttu-id="7d5a0-157">3.0.15.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-157">3.0.15.0</span></span> |<span data-ttu-id="7d5a0-158">10/3/2017</span><span class="sxs-lookup"><span data-stu-id="7d5a0-158">10/3/2017</span></span> |
+|<span data-ttu-id="7d5a0-159">3.0.12.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-159">3.0.12.0</span></span> |<span data-ttu-id="7d5a0-160">9/1/2017</span><span class="sxs-lookup"><span data-stu-id="7d5a0-160">9/1/2017</span></span> |
+|<span data-ttu-id="7d5a0-161">3.0.8.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-161">3.0.8.0</span></span> |<span data-ttu-id="7d5a0-162">11/16/2017</span><span class="sxs-lookup"><span data-stu-id="7d5a0-162">11/16/2017</span></span> |
+|<span data-ttu-id="7d5a0-163">3.0.6.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-163">3.0.6.0</span></span> |<span data-ttu-id="7d5a0-164">11/16/2017</span><span class="sxs-lookup"><span data-stu-id="7d5a0-164">11/16/2017</span></span> |
+|<span data-ttu-id="7d5a0-165">2.0.2.0</span><span class="sxs-lookup"><span data-stu-id="7d5a0-165">2.0.2.0</span></span> |<span data-ttu-id="7d5a0-166">03/15/2017</span><span class="sxs-lookup"><span data-stu-id="7d5a0-166">03/15/2017</span></span> |
+|<span data-ttu-id="7d5a0-167">RTM (1.0.8)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-167">RTM (1.0.8)</span></span> |<span data-ttu-id="7d5a0-168">12/7/2016</span><span class="sxs-lookup"><span data-stu-id="7d5a0-168">12/7/2016</span></span> |
 
-## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a><span data-ttu-id="14c79-167">Microsoft 팀 대화방 기능 소개 및 문제 해결</span><span class="sxs-lookup"><span data-stu-id="14c79-167">Microsoft Teams Rooms feature introduction and issue resolution</span></span>
+## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a><span data-ttu-id="7d5a0-169">Microsoft 팀 대화방 기능 소개 및 문제 해결</span><span class="sxs-lookup"><span data-stu-id="7d5a0-169">Microsoft Teams Rooms feature introduction and issue resolution</span></span>
+### <a name="43420-03022020"></a><span data-ttu-id="7d5a0-170">4.3.42.0 (03/02/2020)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-170">4.3.42.0 (03/02/2020)</span></span>
 
-### <a name="43330-1102020"></a><span data-ttu-id="14c79-168">4.3.33.0 (1/10/2020)</span><span class="sxs-lookup"><span data-stu-id="14c79-168">4.3.33.0 (1/10/2020)</span></span>
+<span data-ttu-id="7d5a0-171">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-171">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-169">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-169">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-172">"비즈니스용 Windows 업데이트"에 대 한 정책 업데이트</span><span class="sxs-lookup"><span data-stu-id="7d5a0-172">Policy updates for "Windows Updates for Business"</span></span> 
+- <span data-ttu-id="7d5a0-173">Azure 모니터의 오류를 보여 주는 장치 이벤트 보고 문제 해결</span><span class="sxs-lookup"><span data-stu-id="7d5a0-173">Fix for device events reporting showing error in Azure Monitor</span></span>
 
-- <span data-ttu-id="14c79-170">특정 구성에서 표시 되는 창 크기 조정/깜빡임 문제에 대 한 수정 사항</span><span class="sxs-lookup"><span data-stu-id="14c79-170">A fix for a Window resizing/flickering issue that's seen in certain configurations</span></span>
-- <span data-ttu-id="14c79-171">타사 모임에 대 한 일정 처리 제거 됨</span><span class="sxs-lookup"><span data-stu-id="14c79-171">Calendar processing for third-party meetings removed</span></span>
-- <span data-ttu-id="14c79-172">Cortana 상태 설정 제거 됨</span><span class="sxs-lookup"><span data-stu-id="14c79-172">Cortana status setting removed</span></span>
+### <a name="43330-1102020"></a><span data-ttu-id="7d5a0-174">4.3.33.0 (1/10/2020)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-174">4.3.33.0 (1/10/2020)</span></span>
 
-### <a name="43230-12132019"></a><span data-ttu-id="14c79-173">4.3.23.0 (12/13/2019)</span><span class="sxs-lookup"><span data-stu-id="14c79-173">4.3.23.0 (12/13/2019)</span></span>
+<span data-ttu-id="7d5a0-175">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-175">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-174">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-174">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-176">특정 구성에서 표시 되는 창 크기 조정/깜빡임 문제에 대 한 수정 사항</span><span class="sxs-lookup"><span data-stu-id="7d5a0-176">A fix for a Window resizing/flickering issue that's seen in certain configurations</span></span>
+- <span data-ttu-id="7d5a0-177">타사 모임에 대 한 일정 처리 제거 됨</span><span class="sxs-lookup"><span data-stu-id="7d5a0-177">Calendar processing for third-party meetings removed</span></span>
+- <span data-ttu-id="7d5a0-178">Cortana 상태 설정 제거 됨</span><span class="sxs-lookup"><span data-stu-id="7d5a0-178">Cortana status setting removed</span></span>
 
-- <span data-ttu-id="14c79-175">이를 제어 하기 위해 근접 기반 통화 및 관리자 설정 자동 응답</span><span class="sxs-lookup"><span data-stu-id="14c79-175">Auto-answer proximity based calls and admin setting to control this</span></span>
-- <span data-ttu-id="14c79-176">장치 구성이 추가 된 장치 관리 설정 UI 새로 고침 정보 탭에서</span><span class="sxs-lookup"><span data-stu-id="14c79-176">Device Admin Settings UI refresh with addition of device configuration under About tab</span></span>
-- <span data-ttu-id="14c79-177">주 화면으로 다시 방 컨트롤 이동</span><span class="sxs-lookup"><span data-stu-id="14c79-177">Room control back to main screen</span></span>
-- <span data-ttu-id="14c79-178">GCC에서 사용할 수 있는 회의실 SKU</span><span class="sxs-lookup"><span data-stu-id="14c79-178">Meeting Room SKU available in GCC</span></span>
-- <span data-ttu-id="14c79-179">Surface Pro 기반 시스템에 대 한 콘텐츠 카메라 지원 (최소 필수 앱 빌드: 4.2.4.0)</span><span class="sxs-lookup"><span data-stu-id="14c79-179">Content camera support for Surface Pro-based system (Minimum required app build: 4.2.4.0)</span></span>
+### <a name="43230-12132019"></a><span data-ttu-id="7d5a0-179">4.3.23.0 (12/13/2019)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-179">4.3.23.0 (12/13/2019)</span></span>
 
-### <a name="4240-10072019"></a><span data-ttu-id="14c79-180">4.2.4.0 (10/07/2019)</span><span class="sxs-lookup"><span data-stu-id="14c79-180">4.2.4.0 (10/07/2019)</span></span>
+<span data-ttu-id="7d5a0-180">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-180">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-181">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-181">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-181">이를 제어 하기 위해 근접 기반 통화 및 관리자 설정 자동 응답</span><span class="sxs-lookup"><span data-stu-id="7d5a0-181">Auto-answer proximity based calls and admin setting to control this</span></span>
+- <span data-ttu-id="7d5a0-182">장치 구성이 추가 된 장치 관리 설정 UI 새로 고침 정보 탭에서</span><span class="sxs-lookup"><span data-stu-id="7d5a0-182">Device Admin Settings UI refresh with addition of device configuration under About tab</span></span>
+- <span data-ttu-id="7d5a0-183">주 화면으로 다시 방 컨트롤 이동</span><span class="sxs-lookup"><span data-stu-id="7d5a0-183">Room control back to main screen</span></span>
+- <span data-ttu-id="7d5a0-184">GCC에서 사용할 수 있는 회의실 SKU</span><span class="sxs-lookup"><span data-stu-id="7d5a0-184">Meeting Room SKU available in GCC</span></span>
+- <span data-ttu-id="7d5a0-185">Surface Pro 기반 시스템에 대 한 콘텐츠 카메라 지원 (최소 필수 앱 빌드: 4.2.4.0)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-185">Content camera support for Surface Pro-based system (Minimum required app build: 4.2.4.0)</span></span>
 
-- <span data-ttu-id="14c79-182">Windows 10 1903 지원.</span><span class="sxs-lookup"><span data-stu-id="14c79-182">Windows 10 1903 support.</span></span> <span data-ttu-id="14c79-183">앱 업데이트 후 몇 일 후에 Windows 10 1903 업데이트가 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-183">Windows 10 1903 update is offered in a few days after app update</span></span>
-- <span data-ttu-id="14c79-184">화면 키보드에 대 한 수정 프로그램이 안정적으로 표시 되지 않음</span><span class="sxs-lookup"><span data-stu-id="14c79-184">Fixes for On-screen keyboard not showing up reliably</span></span>
+### <a name="4240-10072019"></a><span data-ttu-id="7d5a0-186">4.2.4.0 (10/07/2019)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-186">4.2.4.0 (10/07/2019)</span></span>
 
-### <a name="41220-08152019"></a><span data-ttu-id="14c79-185">4.1.22.0 (08/15/2019)</span><span class="sxs-lookup"><span data-stu-id="14c79-185">4.1.22.0 (08/15/2019)</span></span>
+<span data-ttu-id="7d5a0-187">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-187">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-186">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-186">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-188">Windows 10 1903 지원.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-188">Windows 10 1903 support.</span></span> <span data-ttu-id="7d5a0-189">앱 업데이트 후 몇 일 후에 Windows 10 1903 업데이트가 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-189">Windows 10 1903 update is offered in a few days after app update</span></span>
+- <span data-ttu-id="7d5a0-190">화면 키보드에 대 한 수정 프로그램이 안정적으로 표시 되지 않음</span><span class="sxs-lookup"><span data-stu-id="7d5a0-190">Fixes for On-screen keyboard not showing up reliably</span></span>
 
-- <span data-ttu-id="14c79-187">사용자가 기존 화이트 보드를 팀의 모임에 지능적으로 포함할 수 있는 새로운 콘텐츠 카메라 기능</span><span class="sxs-lookup"><span data-stu-id="14c79-187">A new content camera feature that enables users to intelligently include a traditional whiteboard into their Teams meeting</span></span>
-- <span data-ttu-id="14c79-188">콘솔에서 더 많은 기능을 통해 액세스 하는 새로운 측면 막대로 낮은 우선 순위 설정 및 이동 된 설정을 줄일 수 있는 추가 향상 된 콘솔 UI</span><span class="sxs-lookup"><span data-stu-id="14c79-188">Additional improvements to the Console UI to reduce clutter and moved Settings into a new side bar that is accessed via More on the console</span></span>
-- <span data-ttu-id="14c79-189">로컬 콘텐츠 케이블이 연결 되지 않았거나 콘텐츠 카메라가 연결 되지 않은 경우 공유 용지함 단추가 비활성화 됨</span><span class="sxs-lookup"><span data-stu-id="14c79-189">Disabled share tray button if local content cable is not connected or a content camera is not connected</span></span>
-- <span data-ttu-id="14c79-190">이 (가) MTR 시스템 다시 시작 후에만 처음으로 오류가 표시 되는 터치 키보드 관련 문제가 해결 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-190">Fixed an issue with the touch keyboard where it failed appear the first time only after a MTR system restart</span></span>
-- <span data-ttu-id="14c79-191">품질 및 안정성 수정</span><span class="sxs-lookup"><span data-stu-id="14c79-191">Quality and reliability fixes</span></span>
+### <a name="41220-08152019"></a><span data-ttu-id="7d5a0-191">4.1.22.0 (08/15/2019)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-191">4.1.22.0 (08/15/2019)</span></span>
 
-### <a name="401050-07102019"></a><span data-ttu-id="14c79-192">4.0.105.0 (07/10/2019)</span><span class="sxs-lookup"><span data-stu-id="14c79-192">4.0.105.0 (07/10/2019)</span></span>
+<span data-ttu-id="7d5a0-192">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-192">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-193">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-193">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-193">사용자가 기존 화이트 보드를 팀의 모임에 지능적으로 포함할 수 있는 새로운 콘텐츠 카메라 기능</span><span class="sxs-lookup"><span data-stu-id="7d5a0-193">A new content camera feature that enables users to intelligently include a traditional whiteboard into their Teams meeting</span></span>
+- <span data-ttu-id="7d5a0-194">콘솔에서 더 많은 기능을 통해 액세스 하는 새로운 측면 막대로 낮은 우선 순위 설정 및 이동 된 설정을 줄일 수 있는 추가 향상 된 콘솔 UI</span><span class="sxs-lookup"><span data-stu-id="7d5a0-194">Additional improvements to the Console UI to reduce clutter and moved Settings into a new side bar that is accessed via More on the console</span></span>
+- <span data-ttu-id="7d5a0-195">로컬 콘텐츠 케이블이 연결 되지 않았거나 콘텐츠 카메라가 연결 되지 않은 경우 공유 용지함 단추가 비활성화 됨</span><span class="sxs-lookup"><span data-stu-id="7d5a0-195">Disabled share tray button if local content cable is not connected or a content camera is not connected</span></span>
+- <span data-ttu-id="7d5a0-196">이 (가) MTR 시스템 다시 시작 후에만 처음으로 오류가 표시 되는 터치 키보드 관련 문제가 해결 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-196">Fixed an issue with the touch keyboard where it failed appear the first time only after a MTR system restart</span></span>
+- <span data-ttu-id="7d5a0-197">품질 및 안정성 수정</span><span class="sxs-lookup"><span data-stu-id="7d5a0-197">Quality and reliability fixes</span></span>
 
-- <span data-ttu-id="14c79-194">Skype 채팅방 시스템 스토어 앱-"Microsoft 팀 대화방"에 대 한 재 브랜드</span><span class="sxs-lookup"><span data-stu-id="14c79-194">Skype Room System store app rebrand to "Microsoft Teams Rooms"</span></span>
-- <span data-ttu-id="14c79-195">Microsoft 팀 공간 콘솔 사용자 인터페이스 realigned</span><span class="sxs-lookup"><span data-stu-id="14c79-195">Microsoft Teams Rooms console user interface realigned to Microsoft Teams</span></span>
-- <span data-ttu-id="14c79-196">테마 업데이트: 콘솔 UI 컨트롤이 색 대비를 유지 하도록 콘솔 배경을 중립 색으로 설정 하는 경우에만 사용자 지정 배경 이미지가 표시 됨 (접근성 요구 사항)</span><span class="sxs-lookup"><span data-stu-id="14c79-196">Theme update: only keep custom background image on front of room displays, while making console background a neutral color to ensure console UI controls meet color contrast — accessibility requirements</span></span>
-- <span data-ttu-id="14c79-197">팀 전화 회의를 위한 범용 막대로, Microsoft 팀의 PC/웹/모바일 클라이언트<sup>1</sup> 과 일관 된 환경을 제공 하기 위한 회의</span><span class="sxs-lookup"><span data-stu-id="14c79-197">Universal bar for in-meeting call controls for Teams calls/ meetings to provide consistent experience with Microsoft Teams PC/ Web/ Mobile clients<sup>1</sup></span></span>
-- <span data-ttu-id="14c79-198">팀 통화/모임<sup>1</sup> 이후 통화 품질 피드백 등급</span><span class="sxs-lookup"><span data-stu-id="14c79-198">Call quality feedback rating after Teams calls/ meetings<sup>1</sup></span></span>
-- <span data-ttu-id="14c79-199">Microsoft 팀에서 Microsoft 화이트 보드를 수신/렌더링 PC/웹/모바일 팀 클라이언트<sup>1</sup> <sup>2</sup> 에서 공유 하는 경우 채팅방의 앞면을 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-199">Recieve/ render Microsoft Whiteboard on Microsoft Teams Rooms front of room display when shared from PC/ Web/ Mobile Teams client<sup>1</sup> <sup>2</sup></span></span>
-- <span data-ttu-id="14c79-200">Microsoft 팀 대화방 클라이언트와의 호환성 문제로 인해 Windows 10 버전 1809 업그레이드에 대 한 지원이 제거 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-200">Removed support for Windows 10 Version 1809 upgrades due to compatibility issues with Microsoft Teams Rooms client.</span></span> <span data-ttu-id="14c79-201">향후 릴리스에서 Windows 10 버전 19H1 지원이 추가 될 예정입니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-201">Windows 10 Version 19H1 support will be added in future releases</span></span>
+### <a name="401050-07102019"></a><span data-ttu-id="7d5a0-198">4.0.105.0 (07/10/2019)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-198">4.0.105.0 (07/10/2019)</span></span>
 
-<span data-ttu-id="14c79-202">팀을 사용 하 여 <sup>1 개의</sup> Microsoft 팀 서비스 출시.</span><span class="sxs-lookup"><span data-stu-id="14c79-202"><sup>1</sup> Microsoft Teams service rollout using Teams rings.</span></span> <span data-ttu-id="14c79-203">이 기능은 4.0.105.0 클라이언트 업데이트 이전 또는 이후 버전에서 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-203">This feature may be available earlier or later than 4.0.105.0 client update</span></span>
+<span data-ttu-id="7d5a0-199">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-199">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-204"><sup>2</sup> Microsoft 화이트 보드를 켜려면 IT 관리자가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-204"><sup>2</sup> Requires IT admins to turn on Microsoft Whiteboard.</span></span> <span data-ttu-id="14c79-205">또한 터치가 지원 되는 채팅방이 있는 경우 장치 관리자 로그인을 사용 하 여 Windows 설정을 통해 Microsoft 화이트 보드를 사용 하 여 팀에서 공유 된 채팅방의 공동 작업을 시작 하기 위해 여러 터치 디스플레이를 보정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-205">Also, if you have a touch-enabled front of room display, you must calibrate multiple touch displays using Windows settings with device administrator login to start using Microsoft Whiteboard for collaboration from a room display shared into a Teams meeting</span></span>
+- <span data-ttu-id="7d5a0-200">Skype 채팅방 시스템 스토어 앱-"Microsoft 팀 대화방"에 대 한 재 브랜드</span><span class="sxs-lookup"><span data-stu-id="7d5a0-200">Skype Room System store app rebrand to "Microsoft Teams Rooms"</span></span>
+- <span data-ttu-id="7d5a0-201">Microsoft 팀 공간 콘솔 사용자 인터페이스 realigned</span><span class="sxs-lookup"><span data-stu-id="7d5a0-201">Microsoft Teams Rooms console user interface realigned to Microsoft Teams</span></span>
+- <span data-ttu-id="7d5a0-202">테마 업데이트: 콘솔 UI 컨트롤이 색 대비를 유지 하도록 콘솔 배경을 중립 색으로 설정 하는 경우에만 사용자 지정 배경 이미지가 표시 됨 (접근성 요구 사항)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-202">Theme update: only keep custom background image on front of room displays, while making console background a neutral color to ensure console UI controls meet color contrast — accessibility requirements</span></span>
+- <span data-ttu-id="7d5a0-203">팀 전화 회의를 위한 범용 막대로, Microsoft 팀의 PC/웹/모바일 클라이언트<sup>1</sup> 과 일관 된 환경을 제공 하기 위한 회의</span><span class="sxs-lookup"><span data-stu-id="7d5a0-203">Universal bar for in-meeting call controls for Teams calls/ meetings to provide consistent experience with Microsoft Teams PC/ Web/ Mobile clients<sup>1</sup></span></span>
+- <span data-ttu-id="7d5a0-204">팀 통화/모임<sup>1</sup> 이후 통화 품질 피드백 등급</span><span class="sxs-lookup"><span data-stu-id="7d5a0-204">Call quality feedback rating after Teams calls/ meetings<sup>1</sup></span></span>
+- <span data-ttu-id="7d5a0-205">Microsoft 팀에서 Microsoft 화이트 보드를 수신/렌더링 PC/웹/모바일 팀 클라이언트<sup>1</sup> <sup>2</sup> 에서 공유 하는 경우 채팅방의 앞면을 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-205">Recieve/ render Microsoft Whiteboard on Microsoft Teams Rooms front of room display when shared from PC/ Web/ Mobile Teams client<sup>1</sup> <sup>2</sup></span></span>
+- <span data-ttu-id="7d5a0-206">Microsoft 팀 대화방 클라이언트와의 호환성 문제로 인해 Windows 10 버전 1809 업그레이드에 대 한 지원이 제거 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-206">Removed support for Windows 10 Version 1809 upgrades due to compatibility issues with Microsoft Teams Rooms client.</span></span> <span data-ttu-id="7d5a0-207">향후 릴리스에서 Windows 10 버전 19H1 지원이 추가 될 예정입니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-207">Windows 10 Version 19H1 support will be added in future releases</span></span>
 
-### <a name="40850-0482019"></a><span data-ttu-id="14c79-206">4.0.85.0 (04/8/2019)</span><span class="sxs-lookup"><span data-stu-id="14c79-206">4.0.85.0 (04/8/2019)</span></span>
+<span data-ttu-id="7d5a0-208">팀을 사용 하 여 <sup>1 개의</sup> Microsoft 팀 서비스 출시.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-208"><sup>1</sup> Microsoft Teams service rollout using Teams rings.</span></span> <span data-ttu-id="7d5a0-209">이 기능은 4.0.105.0 클라이언트 업데이트 이전 또는 이후 버전에서 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-209">This feature may be available earlier or later than 4.0.105.0 client update</span></span>
 
-<span data-ttu-id="14c79-207">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-207">Introduced in this update:</span></span>
+<span data-ttu-id="7d5a0-210"><sup>2</sup> Microsoft 화이트 보드를 켜려면 IT 관리자가 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-210"><sup>2</sup> Requires IT admins to turn on Microsoft Whiteboard.</span></span> <span data-ttu-id="7d5a0-211">또한 터치가 지원 되는 채팅방이 있는 경우 장치 관리자 로그인을 사용 하 여 Windows 설정을 통해 Microsoft 화이트 보드를 사용 하 여 팀에서 공유 된 채팅방의 공동 작업을 시작 하기 위해 여러 터치 디스플레이를 보정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-211">Also, if you have a touch-enabled front of room display, you must calibrate multiple touch displays using Windows settings with device administrator login to start using Microsoft Whiteboard for collaboration from a room display shared into a Teams meeting</span></span>
 
-- <span data-ttu-id="14c79-208">"피드백 제공" 기능의 문제를 해결 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-208">Fixes an issue with the "give feedback" feature</span></span> 
-- <span data-ttu-id="14c79-209">앞으로 Microsoft 팀 공간 장치를 Windows 10 버전 1809으로 업그레이드 하기 위한 준비의 최적화</span><span class="sxs-lookup"><span data-stu-id="14c79-209">Optimizations in preparation for the forthcoming Microsoft Teams Rooms device upgrade to Windows 10 Version 1809</span></span>
+### <a name="40850-0482019"></a><span data-ttu-id="7d5a0-212">4.0.85.0 (04/8/2019)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-212">4.0.85.0 (04/8/2019)</span></span>
 
-### <a name="40780-03142019"></a><span data-ttu-id="14c79-210">4.0.78.0 (03/14/2019)</span><span class="sxs-lookup"><span data-stu-id="14c79-210">4.0.78.0 (03/14/2019)</span></span>
+<span data-ttu-id="7d5a0-213">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-213">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-211">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-211">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-214">"피드백 제공" 기능의 문제를 해결 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-214">Fixes an issue with the "give feedback" feature</span></span> 
+- <span data-ttu-id="7d5a0-215">앞으로 Microsoft 팀 공간 장치를 Windows 10 버전 1809으로 업그레이드 하기 위한 준비의 최적화</span><span class="sxs-lookup"><span data-stu-id="7d5a0-215">Optimizations in preparation for the forthcoming Microsoft Teams Rooms device upgrade to Windows 10 Version 1809</span></span>
 
-- <span data-ttu-id="14c79-212">레거시 Windows 10 RS2 빌드에 영향을 받는 디바이스에 대 한 "앱 시작 시 중지" 버그가 수정 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-212">Fix for "hang at app start-up" bug that affected devices on legacy Windows 10 RS2 build.</span></span> 
+### <a name="40780-03142019"></a><span data-ttu-id="7d5a0-216">4.0.78.0 (03/14/2019)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-216">4.0.78.0 (03/14/2019)</span></span>
 
+<span data-ttu-id="7d5a0-217">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-217">Introduced in this update:</span></span>
 
-### <a name="40760-03042019"></a><span data-ttu-id="14c79-213">4.0.76.0 (03/04/2019)</span><span class="sxs-lookup"><span data-stu-id="14c79-213">4.0.76.0 (03/04/2019)</span></span>
+- <span data-ttu-id="7d5a0-218">레거시 Windows 10 RS2 빌드에 영향을 받는 디바이스에 대 한 "앱 시작 시 중지" 버그가 수정 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-218">Fix for "hang at app start-up" bug that affected devices on legacy Windows 10 RS2 build.</span></span> 
 
-<span data-ttu-id="14c79-214">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-214">Introduced in this update:</span></span>
 
-- <span data-ttu-id="14c79-215">Microsoft 팀의 P2P 모임 및 PSTN 통화에 대 한 DTMF 키패드.</span><span class="sxs-lookup"><span data-stu-id="14c79-215">DTMF keypad for Microsoft Teams P2P meetings and PSTN calls.</span></span> <span data-ttu-id="14c79-216">Microsoft 팀을 기본 통화 클라이언트로 만들려면 관리자가 IsTeamsDefaultClient를 true로 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-216">To make Microsoft Teams your default calling client, admins must set IsTeamsDefaultClient to true</span></span>
-- <span data-ttu-id="14c79-217">원격 참가자의 들어오는 비디오를 채팅방 표시 앞의 전체 화면에 고정 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-217">Pin a remote participant's incoming video to full screen on front of room display.</span></span> <span data-ttu-id="14c79-218">콘솔의 참가자 명단에서 "핀" 명령 사용</span><span class="sxs-lookup"><span data-stu-id="14c79-218">Use "Pin" command from participant roster on the console</span></span>
-- <span data-ttu-id="14c79-219">회의실 알림 앞에 추가 된 로비 알림 개선 사항</span><span class="sxs-lookup"><span data-stu-id="14c79-219">Improvements to Lobby notifications with addition of Front of Room notification</span></span>
-- <span data-ttu-id="14c79-220">휴대폰 신호를 Microsoft 팀 공간 장치에서 사용할 수 없는 경우 공간 앞면 표시 캐스팅 아이콘 제거 됨</span><span class="sxs-lookup"><span data-stu-id="14c79-220">Front of Room display casting icon removed when Bluetooth beacon is not enabled on Microsoft Teams Rooms device</span></span>
-- <span data-ttu-id="14c79-221">팀 모임에서 볼륨 컨트롤 문제 해결</span><span class="sxs-lookup"><span data-stu-id="14c79-221">Fix for volume control issue in Teams meetings</span></span>
+### <a name="40760-03042019"></a><span data-ttu-id="7d5a0-219">4.0.76.0 (03/04/2019)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-219">4.0.76.0 (03/04/2019)</span></span>
 
+<span data-ttu-id="7d5a0-220">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-220">Introduced in this update:</span></span>
 
-### <a name="40640-12142018"></a><span data-ttu-id="14c79-222">4.0.64.0 (12/14/2018)</span><span class="sxs-lookup"><span data-stu-id="14c79-222">4.0.64.0 (12/14/2018)</span></span>
+- <span data-ttu-id="7d5a0-221">Microsoft 팀의 P2P 모임 및 PSTN 통화에 대 한 DTMF 키패드.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-221">DTMF keypad for Microsoft Teams P2P meetings and PSTN calls.</span></span> <span data-ttu-id="7d5a0-222">Microsoft 팀을 기본 통화 클라이언트로 만들려면 관리자가 IsTeamsDefaultClient를 true로 설정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-222">To make Microsoft Teams your default calling client, admins must set IsTeamsDefaultClient to true</span></span>
+- <span data-ttu-id="7d5a0-223">원격 참가자의 들어오는 비디오를 채팅방 표시 앞의 전체 화면에 고정 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-223">Pin a remote participant's incoming video to full screen on front of room display.</span></span> <span data-ttu-id="7d5a0-224">콘솔의 참가자 명단에서 "핀" 명령 사용</span><span class="sxs-lookup"><span data-stu-id="7d5a0-224">Use "Pin" command from participant roster on the console</span></span>
+- <span data-ttu-id="7d5a0-225">회의실 알림 앞에 추가 된 로비 알림 개선 사항</span><span class="sxs-lookup"><span data-stu-id="7d5a0-225">Improvements to Lobby notifications with addition of Front of Room notification</span></span>
+- <span data-ttu-id="7d5a0-226">휴대폰 신호를 Microsoft 팀 공간 장치에서 사용할 수 없는 경우 공간 앞면 표시 캐스팅 아이콘 제거 됨</span><span class="sxs-lookup"><span data-stu-id="7d5a0-226">Front of Room display casting icon removed when Bluetooth beacon is not enabled on Microsoft Teams Rooms device</span></span>
+- <span data-ttu-id="7d5a0-227">팀 모임에서 볼륨 컨트롤 문제 해결</span><span class="sxs-lookup"><span data-stu-id="7d5a0-227">Fix for volume control issue in Teams meetings</span></span>
 
-<span data-ttu-id="14c79-223">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-223">Introduced in this update:</span></span>
 
-- <span data-ttu-id="14c79-224">두 개의 화면 방 시스템에서 표시 되는 공간 (용)의 앞뒤에 콘텐츠 표시</span><span class="sxs-lookup"><span data-stu-id="14c79-224">Display content on both Front of Room (FoR) displays on dual screen room systems</span></span>
-- <span data-ttu-id="14c79-225">사용자 인터페이스 개선 사항 및 테마의 앞 부분</span><span class="sxs-lookup"><span data-stu-id="14c79-225">Theming and Front of Room user interface improvements</span></span>
-- <span data-ttu-id="14c79-226">TLS 1.2 클라이언트 쪽 지원.</span><span class="sxs-lookup"><span data-stu-id="14c79-226">TLS 1.2 client-side support.</span></span> <span data-ttu-id="14c79-227">온-프레미스 고객의 경우 Microsoft 팀 방에 대 한 TLS 1.2을 통한 통신을 사용 하도록 설정 하려면 비즈니스용 Skype Server 2015 누적 업데이트 CU9) 또는 비즈니스용 Skype 서버 2019 누적 업데이트 1 (CU1)이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-227">For on-premise customers, enabling communication over TLS 1.2 for Microsoft Teams Rooms requires Skype for Business Server 2015 Cumulative Update 9 (CU9) or Skype for Business Server 2019 Cumulative Update 1 (CU1).</span></span>
+### <a name="40640-12142018"></a><span data-ttu-id="7d5a0-228">4.0.64.0 (12/14/2018)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-228">4.0.64.0 (12/14/2018)</span></span>
 
-### <a name="40510-11172018"></a><span data-ttu-id="14c79-228">4.0.51.0 (11/17/2018)</span><span class="sxs-lookup"><span data-stu-id="14c79-228">4.0.51.0 (11/17/2018)</span></span>
+<span data-ttu-id="7d5a0-229">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-229">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-229">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-229">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-230">두 개의 화면 방 시스템에서 표시 되는 공간 (용)의 앞뒤에 콘텐츠 표시</span><span class="sxs-lookup"><span data-stu-id="7d5a0-230">Display content on both Front of Room (FoR) displays on dual screen room systems</span></span>
+- <span data-ttu-id="7d5a0-231">사용자 인터페이스 개선 사항 및 테마의 앞 부분</span><span class="sxs-lookup"><span data-stu-id="7d5a0-231">Theming and Front of Room user interface improvements</span></span>
+- <span data-ttu-id="7d5a0-232">TLS 1.2 클라이언트 쪽 지원.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-232">TLS 1.2 client-side support.</span></span> <span data-ttu-id="7d5a0-233">온-프레미스 고객의 경우 Microsoft 팀 방에 대 한 TLS 1.2을 통한 통신을 사용 하도록 설정 하려면 비즈니스용 Skype Server 2015 누적 업데이트 CU9) 또는 비즈니스용 Skype 서버 2019 누적 업데이트 1 (CU1)이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-233">For on-premise customers, enabling communication over TLS 1.2 for Microsoft Teams Rooms requires Skype for Business Server 2015 Cumulative Update 9 (CU9) or Skype for Business Server 2019 Cumulative Update 1 (CU1).</span></span>
 
-- <span data-ttu-id="14c79-230">팀 모임에 대 한 이중 디스플레이 (공간 전면) 지원</span><span class="sxs-lookup"><span data-stu-id="14c79-230">Dual display (Front of Room) support for Teams Meetings</span></span> 
+### <a name="40510-11172018"></a><span data-ttu-id="7d5a0-234">4.0.51.0 (11/17/2018)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-234">4.0.51.0 (11/17/2018)</span></span>
 
-### <a name="40310-10162018"></a><span data-ttu-id="14c79-231">4.0.31.0 (10/16/2018)</span><span class="sxs-lookup"><span data-stu-id="14c79-231">4.0.31.0 (10/16/2018)</span></span>
+<span data-ttu-id="7d5a0-235">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-235">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-232">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-232">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-236">팀 모임에 대 한 이중 디스플레이 (공간 전면) 지원</span><span class="sxs-lookup"><span data-stu-id="7d5a0-236">Dual display (Front of Room) support for Teams Meetings</span></span> 
 
-- <span data-ttu-id="14c79-233">품질 및 안정성 수정</span><span class="sxs-lookup"><span data-stu-id="14c79-233">Quality and reliability fixes</span></span>
+### <a name="40310-10162018"></a><span data-ttu-id="7d5a0-237">4.0.31.0 (10/16/2018)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-237">4.0.31.0 (10/16/2018)</span></span>
 
-### <a name="40270-1012018"></a><span data-ttu-id="14c79-234">4.0.27.0 (10/1/2018)</span><span class="sxs-lookup"><span data-stu-id="14c79-234">4.0.27.0 (10/1/2018)</span></span>
+<span data-ttu-id="7d5a0-238">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-238">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-235">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-235">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-239">품질 및 안정성 수정</span><span class="sxs-lookup"><span data-stu-id="7d5a0-239">Quality and reliability fixes</span></span>
 
-- <span data-ttu-id="14c79-236">나중에 Windows 10 버전 1803 업그레이드를 위해 Microsoft 팀 회의실 앱을 준비 하는 데 필요한 코드 변경 사항</span><span class="sxs-lookup"><span data-stu-id="14c79-236">Code changes necessary to prepare the Microsoft Teams Rooms app for later Windows 10 Version 1803 upgrade</span></span>
-- <span data-ttu-id="14c79-237">지역화 된 EULAs (특히 노르웨이어)의 서식 문제를 해결 하 여 EULA OOBE 설정 창 보다 더 많은 기능을 사용할 수 없도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-237">Fix formatting issue with localized EULAs (specifically Norwegian) which prevents advancing beyond EULA OOBE setup window</span></span>
-- <span data-ttu-id="14c79-238">Microsoft 팀 대화방 응용 프로그램을 레거시 Lync 대화방 시스템에서 실행할 수 있도록 하는 데 필요한 코드 변경</span><span class="sxs-lookup"><span data-stu-id="14c79-238">Code changes required to make Microsoft Teams Rooms application run on legacy Lync Room Systems.</span></span> <span data-ttu-id="14c79-239">자세한 내용은 [여기](https://aka.ms/lrsupgrade)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="14c79-239">See more [here](https://aka.ms/lrsupgrade).</span></span>
+### <a name="40270-1012018"></a><span data-ttu-id="7d5a0-240">4.0.27.0 (10/1/2018)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-240">4.0.27.0 (10/1/2018)</span></span>
 
-### <a name="40190-8312018"></a><span data-ttu-id="14c79-240">4.0.19.0 (8/31/2018)</span><span class="sxs-lookup"><span data-stu-id="14c79-240">4.0.19.0 (8/31/2018)</span></span>
+<span data-ttu-id="7d5a0-241">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-241">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-241">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-241">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-242">나중에 Windows 10 버전 1803 업그레이드를 위해 Microsoft 팀 회의실 앱을 준비 하는 데 필요한 코드 변경 사항</span><span class="sxs-lookup"><span data-stu-id="7d5a0-242">Code changes necessary to prepare the Microsoft Teams Rooms app for later Windows 10 Version 1803 upgrade</span></span>
+- <span data-ttu-id="7d5a0-243">지역화 된 EULAs (특히 노르웨이어)의 서식 문제를 해결 하 여 EULA OOBE 설정 창 보다 더 많은 기능을 사용할 수 없도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-243">Fix formatting issue with localized EULAs (specifically Norwegian) which prevents advancing beyond EULA OOBE setup window</span></span>
+- <span data-ttu-id="7d5a0-244">Microsoft 팀 대화방 응용 프로그램을 레거시 Lync 대화방 시스템에서 실행할 수 있도록 하는 데 필요한 코드 변경</span><span class="sxs-lookup"><span data-stu-id="7d5a0-244">Code changes required to make Microsoft Teams Rooms application run on legacy Lync Room Systems.</span></span> <span data-ttu-id="7d5a0-245">자세한 내용은 [여기](https://aka.ms/lrsupgrade)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-245">See more [here](https://aka.ms/lrsupgrade).</span></span>
 
-- <span data-ttu-id="14c79-242">SR 장치에서 앱 단추를 누르면 일반적으로 액세스할 수 있는 응용 프로그램 (시작 되지 않음)의 crestron</span><span class="sxs-lookup"><span data-stu-id="14c79-242">Hotfix for Crestron application not launching which would normally be accessible when the app button on a Crestron SR device is pressed.</span></span> <span data-ttu-id="14c79-243">4.0.19.0을 설치한 후 Microsoft 팀 대화방 앱을 다시 시작 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-243">Microsoft Teams Rooms app restart required after installation of 4.0.19.0.</span></span>
+### <a name="40190-8312018"></a><span data-ttu-id="7d5a0-246">4.0.19.0 (8/31/2018)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-246">4.0.19.0 (8/31/2018)</span></span>
 
-### <a name="40180-08272018"></a><span data-ttu-id="14c79-244">4.0.18.0 (08/27/2018)</span><span class="sxs-lookup"><span data-stu-id="14c79-244">4.0.18.0 (08/27/2018)</span></span>
+<span data-ttu-id="7d5a0-247">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-247">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-245">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-245">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-248">SR 장치에서 앱 단추를 누르면 일반적으로 액세스할 수 있는 응용 프로그램 (시작 되지 않음)의 crestron</span><span class="sxs-lookup"><span data-stu-id="7d5a0-248">Hotfix for Crestron application not launching which would normally be accessible when the app button on a Crestron SR device is pressed.</span></span> <span data-ttu-id="7d5a0-249">4.0.19.0을 설치한 후 Microsoft 팀 대화방 앱을 다시 시작 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-249">Microsoft Teams Rooms app restart required after installation of 4.0.19.0.</span></span>
 
-- <span data-ttu-id="14c79-246">팀 모드의 "문제 보고" 기능 개선 사항 (비즈니스용 Skype 모드의 "피드백"에 해당)</span><span class="sxs-lookup"><span data-stu-id="14c79-246">"Report a Problem" feature improvements in Teams mode (equivalent of "Give Feedback" in Skype for Business mode)</span></span>
-- <span data-ttu-id="14c79-247">SIP 통화를 위해 팀에서 비즈니스용 Skype 모드로 돌아갈 수 있는 기능 사용</span><span class="sxs-lookup"><span data-stu-id="14c79-247">Enable ability to fall back from Teams to Skype for Business mode for SIP calls</span></span>
-- <span data-ttu-id="14c79-248">접근성 향상 (내레이터, 돋보기)</span><span class="sxs-lookup"><span data-stu-id="14c79-248">Accessibility improvements (Narrator, Magnifier)</span></span>
-- <span data-ttu-id="14c79-249">XML 프로 비전 변경 사항이 적용 된 후 필요한 경우 앱을 자동으로 다시 시작</span><span class="sxs-lookup"><span data-stu-id="14c79-249">Automatically restart app when required after XML provisioning changes have been applied</span></span>
-- <span data-ttu-id="14c79-250">기타 해결 방법</span><span class="sxs-lookup"><span data-stu-id="14c79-250">Miscellaneous fixes</span></span>
+### <a name="40180-08272018"></a><span data-ttu-id="7d5a0-250">4.0.18.0 (08/27/2018)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-250">4.0.18.0 (08/27/2018)</span></span>
 
-### <a name="4080-07062018"></a><span data-ttu-id="14c79-251">4.0.8.0 (07/06/2018)</span><span class="sxs-lookup"><span data-stu-id="14c79-251">4.0.8.0 (07/06/2018)</span></span>
+<span data-ttu-id="7d5a0-251">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-251">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-252">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-252">Introduced in this update:</span></span>
-- <span data-ttu-id="14c79-253">이 업데이트는 비즈니스용 Skype *및* 팀에서 회의실 시스템 장치에 대 한 지원을 할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-253">This update enables both Skype for Business *and* Teams meetings support on Room Systems devices.</span></span> <span data-ttu-id="14c79-254">업데이트가 적용 되 면 기본적으로 팀이 꺼집니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-254">Teams is turned off by default once the update is applied.</span></span> <span data-ttu-id="14c79-255">관리자는 장치 설정에서 또는 원격 xml 푸시를 통해 팀을 로컬로 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-255">Admins can enable Teams locally in device settings or via a remote xml push.</span></span>
+- <span data-ttu-id="7d5a0-252">팀 모드의 "문제 보고" 기능 개선 사항 (비즈니스용 Skype 모드의 "피드백"에 해당)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-252">"Report a Problem" feature improvements in Teams mode (equivalent of "Give Feedback" in Skype for Business mode)</span></span>
+- <span data-ttu-id="7d5a0-253">SIP 통화를 위해 팀에서 비즈니스용 Skype 모드로 돌아갈 수 있는 기능 사용</span><span class="sxs-lookup"><span data-stu-id="7d5a0-253">Enable ability to fall back from Teams to Skype for Business mode for SIP calls</span></span>
+- <span data-ttu-id="7d5a0-254">접근성 향상 (내레이터, 돋보기)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-254">Accessibility improvements (Narrator, Magnifier)</span></span>
+- <span data-ttu-id="7d5a0-255">XML 프로 비전 변경 사항이 적용 된 후 필요한 경우 앱을 자동으로 다시 시작</span><span class="sxs-lookup"><span data-stu-id="7d5a0-255">Automatically restart app when required after XML provisioning changes have been applied</span></span>
+- <span data-ttu-id="7d5a0-256">기타 해결 방법</span><span class="sxs-lookup"><span data-stu-id="7d5a0-256">Miscellaneous fixes</span></span>
 
-### <a name="311150-06182018"></a><span data-ttu-id="14c79-256">3.1.115.0 (06/18/2018)</span><span class="sxs-lookup"><span data-stu-id="14c79-256">3.1.115.0 (06/18/2018)</span></span>
+### <a name="4080-07062018"></a><span data-ttu-id="7d5a0-257">4.0.8.0 (07/06/2018)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-257">4.0.8.0 (07/06/2018)</span></span>
 
-<span data-ttu-id="14c79-257">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-257">Introduced in this update:</span></span>
+<span data-ttu-id="7d5a0-258">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-258">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-259">이 업데이트는 비즈니스용 Skype *및* 팀에서 회의실 시스템 장치에 대 한 지원을 할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-259">This update enables both Skype for Business *and* Teams meetings support on Room Systems devices.</span></span> <span data-ttu-id="7d5a0-260">업데이트가 적용 되 면 기본적으로 팀이 꺼집니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-260">Teams is turned off by default once the update is applied.</span></span> <span data-ttu-id="7d5a0-261">관리자는 장치 설정에서 또는 원격 xml 푸시를 통해 팀을 로컬로 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-261">Admins can enable Teams locally in device settings or via a remote xml push.</span></span>
 
-- <span data-ttu-id="14c79-258">일부 시스템에서 앱이 시작 되는 동안 발생 하는 수정 문제 해결</span><span class="sxs-lookup"><span data-stu-id="14c79-258">Fix to address error observed on some systems during app launch.</span></span>
+### <a name="311150-06182018"></a><span data-ttu-id="7d5a0-262">3.1.115.0 (06/18/2018)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-262">3.1.115.0 (06/18/2018)</span></span>
 
-### <a name="311130-06132018"></a><span data-ttu-id="14c79-259">3.1.113.0 (06/13/2018)</span><span class="sxs-lookup"><span data-stu-id="14c79-259">3.1.113.0 (06/13/2018)</span></span>
+<span data-ttu-id="7d5a0-263">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-263">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-260">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-260">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-264">일부 시스템에서 앱이 시작 되는 동안 발생 하는 수정 문제 해결</span><span class="sxs-lookup"><span data-stu-id="7d5a0-264">Fix to address error observed on some systems during app launch.</span></span>
 
-- <span data-ttu-id="14c79-261">Microsoft에서 보다 유연 하 게 Windows 업데이트를 관리할 수 있도록 변경 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-261">Changes enabling Microsoft to more flexibly manage Windows Updates.</span></span>
-- <span data-ttu-id="14c79-262">최종 사용자 환경을 변경할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-262">No change to end-user experience.</span></span>
+### <a name="311130-06132018"></a><span data-ttu-id="7d5a0-265">3.1.113.0 (06/13/2018)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-265">3.1.113.0 (06/13/2018)</span></span>
 
-### <a name="311120-06052018"></a><span data-ttu-id="14c79-263">3.1.112.0 (06/05/2018)</span><span class="sxs-lookup"><span data-stu-id="14c79-263">3.1.112.0 (06/05/2018)</span></span>
+<span data-ttu-id="7d5a0-266">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-266">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-264">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-264">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-267">Microsoft에서 보다 유연 하 게 Windows 업데이트를 관리할 수 있도록 변경 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-267">Changes enabling Microsoft to more flexibly manage Windows Updates.</span></span>
+- <span data-ttu-id="7d5a0-268">최종 사용자 환경을 변경할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-268">No change to end-user experience.</span></span>
 
-- <span data-ttu-id="14c79-265">두 개의 채팅방 디스플레이 및 비디오 수집에 연결 된 Surface Pro 2017 기반 장치에서 관찰 한 콘솔 응답 문제를 해결 하는 수정 사항</span><span class="sxs-lookup"><span data-stu-id="14c79-265">Fix to address console responsiveness issues observed on Surface Pro 2017-based devices connected to two front-of-room displays and video ingest</span></span>
-- <span data-ttu-id="14c79-266">시스템에서 최신 프로비저닝 스크립트를 실행 하 고 있는지 확인 하는 자동 검사</span><span class="sxs-lookup"><span data-stu-id="14c79-266">Automated check to ensure that system is running latest provisioning script</span></span>
+### <a name="311120-06052018"></a><span data-ttu-id="7d5a0-269">3.1.112.0 (06/05/2018)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-269">3.1.112.0 (06/05/2018)</span></span>
 
-### <a name="311040-04162018"></a><span data-ttu-id="14c79-267">3.1.104.0 (04/16/2018)</span><span class="sxs-lookup"><span data-stu-id="14c79-267">3.1.104.0 (04/16/2018)</span></span>
+<span data-ttu-id="7d5a0-270">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-270">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-268">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-268">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-271">두 개의 채팅방 디스플레이 및 비디오 수집에 연결 된 Surface Pro 2017 기반 장치에서 관찰 한 콘솔 응답 문제를 해결 하는 수정 사항</span><span class="sxs-lookup"><span data-stu-id="7d5a0-271">Fix to address console responsiveness issues observed on Surface Pro 2017-based devices connected to two front-of-room displays and video ingest</span></span>
+- <span data-ttu-id="7d5a0-272">시스템에서 최신 프로비저닝 스크립트를 실행 하 고 있는지 확인 하는 자동 검사</span><span class="sxs-lookup"><span data-stu-id="7d5a0-272">Automated check to ensure that system is running latest provisioning script</span></span>
 
-- <span data-ttu-id="14c79-269">Window 10 버전 1709 기반 시스템에서 OSK (화상 키보드)의 동작을 개선 하는 해결 방법</span><span class="sxs-lookup"><span data-stu-id="14c79-269">Fix to improve OSK (on-screen keyboard) behavior in Window 10 Version 1709-based systems</span></span>
-- <span data-ttu-id="14c79-270">향후 운영 체제 업데이트를 준비 하기 위한 개선 사항</span><span class="sxs-lookup"><span data-stu-id="14c79-270">Improvements to prepare for future operating system updates</span></span>
+### <a name="311040-04162018"></a><span data-ttu-id="7d5a0-273">3.1.104.0 (04/16/2018)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-273">3.1.104.0 (04/16/2018)</span></span>
 
-### <a name="311000-03162018"></a><span data-ttu-id="14c79-271">3.1.100.0 (03/16/2018)</span><span class="sxs-lookup"><span data-stu-id="14c79-271">3.1.100.0 (03/16/2018)</span></span>
+<span data-ttu-id="7d5a0-274">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-274">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-272">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-272">Introduced in this update:</span></span> 
+- <span data-ttu-id="7d5a0-275">Window 10 버전 1709 기반 시스템에서 OSK (화상 키보드)의 동작을 개선 하는 해결 방법</span><span class="sxs-lookup"><span data-stu-id="7d5a0-275">Fix to improve OSK (on-screen keyboard) behavior in Window 10 Version 1709-based systems</span></span>
+- <span data-ttu-id="7d5a0-276">향후 운영 체제 업데이트를 준비 하기 위한 개선 사항</span><span class="sxs-lookup"><span data-stu-id="7d5a0-276">Improvements to prepare for future operating system updates</span></span>
 
-- <span data-ttu-id="14c79-273">원격 분석을 위해 업데이트 된 응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="14c79-273">Application updated to improve telemetry</span></span>
+### <a name="311000-03162018"></a><span data-ttu-id="7d5a0-277">3.1.100.0 (03/16/2018)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-277">3.1.100.0 (03/16/2018)</span></span>
 
-### <a name="31990-03142018"></a><span data-ttu-id="14c79-274">3.1.99.0 (03/14/2018)</span><span class="sxs-lookup"><span data-stu-id="14c79-274">3.1.99.0 (03/14/2018)</span></span>
+<span data-ttu-id="7d5a0-278">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-278">Introduced in this update:</span></span> 
 
-<span data-ttu-id="14c79-275">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-275">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-279">원격 분석을 위해 업데이트 된 응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="7d5a0-279">Application updated to improve telemetry</span></span>
 
-- <span data-ttu-id="14c79-276">일시적인 모임 참가 문제가 발생할 수 있는 문제를 해결 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-276">Fixes an issue where intermittent meeting join issues may occur</span></span>
-- <span data-ttu-id="14c79-277">장치 "중단" 환경에서 발생 하는 것으로 알려진 문제를 해결 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-277">Fixes an issue known to result in a device "hang" experience</span></span>
+### <a name="31990-03142018"></a><span data-ttu-id="7d5a0-280">3.1.99.0 (03/14/2018)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-280">3.1.99.0 (03/14/2018)</span></span>
 
-### <a name="31980-382018"></a><span data-ttu-id="14c79-278">3.1.98.0 (3/8/2018)</span><span class="sxs-lookup"><span data-stu-id="14c79-278">3.1.98.0 (3/8/2018)</span></span>
+<span data-ttu-id="7d5a0-281">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-281">Introduced in this update:</span></span>
 
-<span data-ttu-id="14c79-279">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-279">Introduced in this update:</span></span>
+- <span data-ttu-id="7d5a0-282">일시적인 모임 참가 문제가 발생할 수 있는 문제를 해결 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-282">Fixes an issue where intermittent meeting join issues may occur</span></span>
+- <span data-ttu-id="7d5a0-283">장치 "중단" 환경에서 발생 하는 것으로 알려진 문제를 해결 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-283">Fixes an issue known to result in a device "hang" experience</span></span>
 
-- <span data-ttu-id="14c79-280">안정성을 개선 하기 위한 버그/충돌 수정</span><span class="sxs-lookup"><span data-stu-id="14c79-280">Bug/Crash fixes to improve stability</span></span>
-- <span data-ttu-id="14c79-281">가변 크기 콘솔 지원</span><span class="sxs-lookup"><span data-stu-id="14c79-281">Support for variable-sized console</span></span>
-- <span data-ttu-id="14c79-282">주변 장치 오디오 처리 오프 로딩 (추가 미디어 whitelisting)</span><span class="sxs-lookup"><span data-stu-id="14c79-282">Peripheral audio processing offloading (additional media whitelisting)</span></span>
-- <span data-ttu-id="14c79-283">IT 전문가가 Windows 10 버전 1709 년 1 월 업데이트 이상으로 간편 하 게 이미지를 만들 수 있도록 하는 최적화 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-283">Optimizations that enable IT Pros to build do-it-yourself images with Windows 10 Version 1709 January Update and later.</span></span> 
+### <a name="31980-382018"></a><span data-ttu-id="7d5a0-284">3.1.98.0 (3/8/2018)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-284">3.1.98.0 (3/8/2018)</span></span>
+
+<span data-ttu-id="7d5a0-285">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-285">Introduced in this update:</span></span>
+
+- <span data-ttu-id="7d5a0-286">안정성을 개선 하기 위한 버그/충돌 수정</span><span class="sxs-lookup"><span data-stu-id="7d5a0-286">Bug/Crash fixes to improve stability</span></span>
+- <span data-ttu-id="7d5a0-287">가변 크기 콘솔 지원</span><span class="sxs-lookup"><span data-stu-id="7d5a0-287">Support for variable-sized console</span></span>
+- <span data-ttu-id="7d5a0-288">주변 장치 오디오 처리 오프 로딩 (추가 미디어 whitelisting)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-288">Peripheral audio processing offloading (additional media whitelisting)</span></span>
+- <span data-ttu-id="7d5a0-289">IT 전문가가 Windows 10 버전 1709 년 1 월 업데이트 이상으로 간편 하 게 이미지를 만들 수 있도록 하는 최적화 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-289">Optimizations that enable IT Pros to build do-it-yourself images with Windows 10 Version 1709 January Update and later.</span></span> 
 
 <!--### 3.1.97.0 (00/00/0000)
 Introduced in this update: 
 - Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) hardware only. -->
 
-### <a name="30160-11272017"></a><span data-ttu-id="14c79-284">3.0.16.0 (11/27/2017)</span><span class="sxs-lookup"><span data-stu-id="14c79-284">3.0.16.0 (11/27/2017)</span></span>
+### <a name="30160-11272017"></a><span data-ttu-id="7d5a0-290">3.0.16.0 (11/27/2017)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-290">3.0.16.0 (11/27/2017)</span></span>
 
-<span data-ttu-id="14c79-285">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-285">Introduced in this update:</span></span>
+<span data-ttu-id="7d5a0-291">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-291">Introduced in this update:</span></span>
 
-- <span data-ttu-id="14c79-286">"피드백 제공" 기능의 문제를 해결 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-286">Fixes an issue with the "Give Feedback" feature.</span></span>
+- <span data-ttu-id="7d5a0-292">"피드백 제공" 기능의 문제를 해결 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-292">Fixes an issue with the "Give Feedback" feature.</span></span>
 
-### <a name="30150-1032017"></a><span data-ttu-id="14c79-287">3.0.15.0 (10/3/2017)</span><span class="sxs-lookup"><span data-stu-id="14c79-287">3.0.15.0 (10/3/2017)</span></span>
+### <a name="30150-1032017"></a><span data-ttu-id="7d5a0-293">3.0.15.0 (10/3/2017)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-293">3.0.15.0 (10/3/2017)</span></span>
 
-<span data-ttu-id="14c79-288">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-288">Introduced in this update:</span></span>
+<span data-ttu-id="7d5a0-294">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-294">Introduced in this update:</span></span>
 
-- <span data-ttu-id="14c79-289">[POLYCOM MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock 하드웨어 지원</span><span class="sxs-lookup"><span data-stu-id="14c79-289">Support for [Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware</span></span>
-- <span data-ttu-id="14c79-290">[Logitech Brio](https://www.logitech.com/product/brio) 지원</span><span class="sxs-lookup"><span data-stu-id="14c79-290">Support for the [Logitech Brio](https://www.logitech.com/product/brio)</span></span>
-- <span data-ttu-id="14c79-291">채팅방에 활동이 없을 때 표시 (콘솔 및 프런트 실)에서 절전 모드로 들어가지 못하는 문제를 해결 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-291">Resolves an issue where displays (console and front-of-room) fail to enter sleep mode when there is no activity in the room</span></span>
+- <span data-ttu-id="7d5a0-295">[POLYCOM MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock 하드웨어 지원</span><span class="sxs-lookup"><span data-stu-id="7d5a0-295">Support for [Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware</span></span>
+- <span data-ttu-id="7d5a0-296">[Logitech Brio](https://www.logitech.com/product/brio) 지원</span><span class="sxs-lookup"><span data-stu-id="7d5a0-296">Support for the [Logitech Brio](https://www.logitech.com/product/brio)</span></span>
+- <span data-ttu-id="7d5a0-297">채팅방에 활동이 없을 때 표시 (콘솔 및 프런트 실)에서 절전 모드로 들어가지 못하는 문제를 해결 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-297">Resolves an issue where displays (console and front-of-room) fail to enter sleep mode when there is no activity in the room</span></span>
 
-### <a name="30120-912017"></a><span data-ttu-id="14c79-292">3.0.12.0 (9/1/2017)</span><span class="sxs-lookup"><span data-stu-id="14c79-292">3.0.12.0 (9/1/2017)</span></span>
+### <a name="30120-912017"></a><span data-ttu-id="7d5a0-298">3.0.12.0 (9/1/2017)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-298">3.0.12.0 (9/1/2017)</span></span>
 
-<span data-ttu-id="14c79-293">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-293">Introduced in this update:</span></span>
+<span data-ttu-id="7d5a0-299">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-299">Introduced in this update:</span></span>
 
-- <span data-ttu-id="14c79-294">Surface Pro (2017) 태블릿에서 실행</span><span class="sxs-lookup"><span data-stu-id="14c79-294">Runs on a Surface Pro (2017) tablet</span></span> 
-- <span data-ttu-id="14c79-295">Windows 10 Enterprise Creator의 업데이트 지원 (영어 언어, 빌드 1703)</span><span class="sxs-lookup"><span data-stu-id="14c79-295">Supports Windows 10 Enterprise Creator's Update (English language, build 1703)</span></span>
-- <span data-ttu-id="14c79-296">SR dock 하드웨어 [에서의 Crestron](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)</span><span class="sxs-lookup"><span data-stu-id="14c79-296">Support for [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware</span></span>
-- <span data-ttu-id="14c79-297">환경 컨트롤에 대 한 OEM 지원 (Crestron)</span><span class="sxs-lookup"><span data-stu-id="14c79-297">OEM Support for Environment Controls (Crestron)</span></span>
+- <span data-ttu-id="7d5a0-300">Surface Pro (2017) 태블릿에서 실행</span><span class="sxs-lookup"><span data-stu-id="7d5a0-300">Runs on a Surface Pro (2017) tablet</span></span> 
+- <span data-ttu-id="7d5a0-301">Windows 10 Enterprise Creator의 업데이트 지원 (영어 언어, 빌드 1703)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-301">Supports Windows 10 Enterprise Creator's Update (English language, build 1703)</span></span>
+- <span data-ttu-id="7d5a0-302">SR dock 하드웨어 [에서의 Crestron](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-302">Support for [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware</span></span>
+- <span data-ttu-id="7d5a0-303">환경 컨트롤에 대 한 OEM 지원 (Crestron)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-303">OEM Support for Environment Controls (Crestron)</span></span>
 
-<span data-ttu-id="14c79-298">64 비트 버전의 Windows 10 Enterprise 기념일 edition (영어 버전 1607)은 Microsoft 팀 회의실 릴리스 3.0.12.0 (업데이트 3)로 더 이상 지원 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-298">The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0 (update 3).</span></span>
+<span data-ttu-id="7d5a0-304">64 비트 버전의 Windows 10 Enterprise 기념일 edition (영어 버전 1607)은 Microsoft 팀 회의실 릴리스 3.0.12.0 (업데이트 3)로 더 이상 지원 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-304">The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0 (update 3).</span></span>
 
-### <a name="3080-842017"></a><span data-ttu-id="14c79-299">3.0.8.0 (8/4/2017)</span><span class="sxs-lookup"><span data-stu-id="14c79-299">3.0.8.0 (8/4/2017)</span></span>
+### <a name="3080-842017"></a><span data-ttu-id="7d5a0-305">3.0.8.0 (8/4/2017)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-305">3.0.8.0 (8/4/2017)</span></span>
 
-<span data-ttu-id="14c79-300">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-300">Introduced in this update:</span></span>
+<span data-ttu-id="7d5a0-306">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-306">Introduced in this update:</span></span>
 
-- <span data-ttu-id="14c79-301">참가자 검색 필드를 통해 페더레이션 사용자를 검색할 때 관찰 되는 문제를 해결 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-301">Resolves issues observed when searching for federated users through the Participants search field.</span></span> <span data-ttu-id="14c79-302">이 수정 프로그램의 이전에는 외부 페더레이션 사용자에 대 한 검색 결과가 올바르게 확인 되지 않고 대신 잘못 된 결과가 반환 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-302">Previous to this fix, search results for external federated users may not have resolved correctly and instead returned incorrect results.</span></span>
+- <span data-ttu-id="7d5a0-307">참가자 검색 필드를 통해 페더레이션 사용자를 검색할 때 관찰 되는 문제를 해결 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-307">Resolves issues observed when searching for federated users through the Participants search field.</span></span> <span data-ttu-id="7d5a0-308">이 수정 프로그램의 이전에는 외부 페더레이션 사용자에 대 한 검색 결과가 올바르게 확인 되지 않고 대신 잘못 된 결과가 반환 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-308">Previous to this fix, search results for external federated users may not have resolved correctly and instead returned incorrect results.</span></span>
 
-### <a name="3060-772017"></a><span data-ttu-id="14c79-303">3.0.6.0 (7/7/2017)</span><span class="sxs-lookup"><span data-stu-id="14c79-303">3.0.6.0 (7/7/2017)</span></span>
+### <a name="3060-772017"></a><span data-ttu-id="7d5a0-309">3.0.6.0 (7/7/2017)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-309">3.0.6.0 (7/7/2017)</span></span>
 
-<span data-ttu-id="14c79-304">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-304">Introduced in this update:</span></span>
+<span data-ttu-id="7d5a0-310">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-310">Introduced in this update:</span></span>
 
-- <span data-ttu-id="14c79-305">듀얼 화면 지원 (레거시 시스템 패리티 용)</span><span class="sxs-lookup"><span data-stu-id="14c79-305">Dual-Screen support (for legacy system parity)</span></span>
-- <span data-ttu-id="14c79-306">테마 (기본 제공 테마와 사용자 지정 테마를 설정 하는 기능)</span><span class="sxs-lookup"><span data-stu-id="14c79-306">Themes (built-in themes and the ability to set custom theme)</span></span>
-- <span data-ttu-id="14c79-307">공개 빌드에 대 한 피드백을 제공 하는 기능</span><span class="sxs-lookup"><span data-stu-id="14c79-307">Ability to Give Feedback for public builds</span></span>
-- <span data-ttu-id="14c79-308">모임 참가 안정성 관련 원격 분석 개선</span><span class="sxs-lookup"><span data-stu-id="14c79-308">Improved Telemetry around meeting join reliability</span></span>
-- <span data-ttu-id="14c79-309">향상 된 OMS 보고</span><span class="sxs-lookup"><span data-stu-id="14c79-309">Improved OMS reporting</span></span>
-- <span data-ttu-id="14c79-310">IT 관리자가 원격으로 장치를 구성할 수 있는 기능</span><span class="sxs-lookup"><span data-stu-id="14c79-310">Ability for IT Admin to configure devices remotely</span></span>
+- <span data-ttu-id="7d5a0-311">듀얼 화면 지원 (레거시 시스템 패리티 용)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-311">Dual-Screen support (for legacy system parity)</span></span>
+- <span data-ttu-id="7d5a0-312">테마 (기본 제공 테마와 사용자 지정 테마를 설정 하는 기능)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-312">Themes (built-in themes and the ability to set custom theme)</span></span>
+- <span data-ttu-id="7d5a0-313">공개 빌드에 대 한 피드백을 제공 하는 기능</span><span class="sxs-lookup"><span data-stu-id="7d5a0-313">Ability to Give Feedback for public builds</span></span>
+- <span data-ttu-id="7d5a0-314">모임 참가 안정성 관련 원격 분석 개선</span><span class="sxs-lookup"><span data-stu-id="7d5a0-314">Improved Telemetry around meeting join reliability</span></span>
+- <span data-ttu-id="7d5a0-315">향상 된 OMS 보고</span><span class="sxs-lookup"><span data-stu-id="7d5a0-315">Improved OMS reporting</span></span>
+- <span data-ttu-id="7d5a0-316">IT 관리자가 원격으로 장치를 구성할 수 있는 기능</span><span class="sxs-lookup"><span data-stu-id="7d5a0-316">Ability for IT Admin to configure devices remotely</span></span>
  <!-- - Front-of-Room UX shows room details pre-meeting U2 -->
 
-### <a name="2020-03152017"></a><span data-ttu-id="14c79-311">2.0.2.0 (03/15/2017)</span><span class="sxs-lookup"><span data-stu-id="14c79-311">2.0.2.0 (03/15/2017)</span></span>
+### <a name="2020-03152017"></a><span data-ttu-id="7d5a0-317">2.0.2.0 (03/15/2017)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-317">2.0.2.0 (03/15/2017)</span></span>
 
-<span data-ttu-id="14c79-312">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="14c79-312">Introduced in this update:</span></span>
+<span data-ttu-id="7d5a0-318">이 업데이트에 도입 된 내용:</span><span class="sxs-lookup"><span data-stu-id="7d5a0-318">Introduced in this update:</span></span>
 
-- <span data-ttu-id="14c79-313">앱에서 사용자가 회의실 오디오 및 비디오 USB 장치를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-313">In-app user selection of meeting room audio and video USB devices</span></span>
-- <span data-ttu-id="14c79-314">Microsoft Operations Management Suite를 사용 하는 고객에 대 한 통합 회의실 콘솔 상태 보고, 이제 Azure 모니터</span><span class="sxs-lookup"><span data-stu-id="14c79-314">Integrated room console status reporting for customers using Microsoft Operations Management Suite, now Azure Monitor</span></span>
+- <span data-ttu-id="7d5a0-319">앱에서 사용자가 회의실 오디오 및 비디오 USB 장치를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-319">In-app user selection of meeting room audio and video USB devices</span></span>
+- <span data-ttu-id="7d5a0-320">Microsoft Operations Management Suite를 사용 하는 고객에 대 한 통합 회의실 콘솔 상태 보고, 이제 Azure 모니터</span><span class="sxs-lookup"><span data-stu-id="7d5a0-320">Integrated room console status reporting for customers using Microsoft Operations Management Suite, now Azure Monitor</span></span>
 
-### <a name="release-to-market-1272016"></a><span data-ttu-id="14c79-315">시장에 릴리스 (12/7/2016)</span><span class="sxs-lookup"><span data-stu-id="14c79-315">Release to Market (12/7/2016)</span></span>
+### <a name="release-to-market-1272016"></a><span data-ttu-id="7d5a0-321">시장에 릴리스 (12/7/2016)</span><span class="sxs-lookup"><span data-stu-id="7d5a0-321">Release to Market (12/7/2016)</span></span>
 
-<span data-ttu-id="14c79-316">**% D 개 기능:**</span><span class="sxs-lookup"><span data-stu-id="14c79-316">**Feature(s):**</span></span>
+<span data-ttu-id="7d5a0-322">**% D 개 기능:**</span><span class="sxs-lookup"><span data-stu-id="7d5a0-322">**Feature(s):**</span></span>
 
- <span data-ttu-id="14c79-317">**비즈니스용 Skype 제작**</span><span class="sxs-lookup"><span data-stu-id="14c79-317">**Built for Skype for Business**</span></span>
+ <span data-ttu-id="7d5a0-323">**비즈니스용 Skype 제작**</span><span class="sxs-lookup"><span data-stu-id="7d5a0-323">**Built for Skype for Business**</span></span>
 
-- <span data-ttu-id="14c79-318">Skype 모임의 원 터치 참가</span><span class="sxs-lookup"><span data-stu-id="14c79-318">One-touch join of Skype Meetings</span></span>
-- <span data-ttu-id="14c79-319">화면 채우기 HD 비디오 및 HD 와이드 밴드 오디오를 사용 하는 채팅방에 최적화 된 Skype 모임 환경</span><span class="sxs-lookup"><span data-stu-id="14c79-319">Skype Meeting experience optimized for rooms with screen-filling HD video and HD wide-band audio</span></span>
-- <span data-ttu-id="14c79-320">모든 참가자가 거주 하는 곳에서 원하는 장치를 사용 하 여 Skype 모임에 연결할 수 있음</span><span class="sxs-lookup"><span data-stu-id="14c79-320">All participants can connect to the Skype Meeting using their device of choice from wherever they may be located</span></span>
-- <span data-ttu-id="14c79-321">사용자의 디렉터리에서 상대방에 게 즉시 연락 가능 여부를 표시 하거나 전화 통화를 통해 사람들을 초대 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-321">Invite people from your directory where you can instantly see their availability or via a phone call</span></span>
-- <span data-ttu-id="14c79-322">비즈니스용 Skype PSTN 회의 및 PSTN 통화를 지원 하 여 채팅방의 독립형 컨퍼런스 전화를 대체 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-322">Supports Skype for Business PSTN Conferencing and PSTN Calling to replace the stand-alone conference phone in your room</span></span>
+- <span data-ttu-id="7d5a0-324">Skype 모임의 원 터치 참가</span><span class="sxs-lookup"><span data-stu-id="7d5a0-324">One-touch join of Skype Meetings</span></span>
+- <span data-ttu-id="7d5a0-325">화면 채우기 HD 비디오 및 HD 와이드 밴드 오디오를 사용 하는 채팅방에 최적화 된 Skype 모임 환경</span><span class="sxs-lookup"><span data-stu-id="7d5a0-325">Skype Meeting experience optimized for rooms with screen-filling HD video and HD wide-band audio</span></span>
+- <span data-ttu-id="7d5a0-326">모든 참가자가 거주 하는 곳에서 원하는 장치를 사용 하 여 Skype 모임에 연결할 수 있음</span><span class="sxs-lookup"><span data-stu-id="7d5a0-326">All participants can connect to the Skype Meeting using their device of choice from wherever they may be located</span></span>
+- <span data-ttu-id="7d5a0-327">사용자의 디렉터리에서 상대방에 게 즉시 연락 가능 여부를 표시 하거나 전화 통화를 통해 사람들을 초대 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-327">Invite people from your directory where you can instantly see their availability or via a phone call</span></span>
+- <span data-ttu-id="7d5a0-328">비즈니스용 Skype PSTN 회의 및 PSTN 통화를 지원 하 여 채팅방의 독립형 컨퍼런스 전화를 대체 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-328">Supports Skype for Business PSTN Conferencing and PSTN Calling to replace the stand-alone conference phone in your room</span></span>
 
- <span data-ttu-id="14c79-323">**회의실 변형**</span><span class="sxs-lookup"><span data-stu-id="14c79-323">**Transform Any Meeting Room**</span></span>
+ <span data-ttu-id="7d5a0-329">**회의실 변형**</span><span class="sxs-lookup"><span data-stu-id="7d5a0-329">**Transform Any Meeting Room**</span></span>
  
-- <span data-ttu-id="14c79-324">표 터치 컨트롤러 중앙에 최적화 된 전용 Skype 모임 앱 및 큰 방 표시</span><span class="sxs-lookup"><span data-stu-id="14c79-324">Dedicated Skype Meeting app optimized for center of table touch controller and large front of room display</span></span>
-- <span data-ttu-id="14c79-325">공간 표시 또는 프로젝터 앞에 기존 투자 다시 사용</span><span class="sxs-lookup"><span data-stu-id="14c79-325">Reuse existing investments in your front of room display or projectors</span></span>
-- <span data-ttu-id="14c79-326">모든 유형의 모임 공간에서 huddle 공간에서 대용량 회의실으로 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-326">Works in all types of meeting spaces from huddle spaces to large conference rooms</span></span>
-- <span data-ttu-id="14c79-327">다양 한 방 크기에 대해 인증 된 비즈니스용 Skype 오디오 및 비디오 장치를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-327">Certified Skype for Business audio and video devices are available for various room sizes</span></span>
-- <span data-ttu-id="14c79-328">회의실 및 Skype 모임에 데스크톱 공유를 위한 기본 제공 유선 수집</span><span class="sxs-lookup"><span data-stu-id="14c79-328">Built-in wired ingest for to project desktop sharing to the room and to the Skype Meeting</span></span>
+- <span data-ttu-id="7d5a0-330">표 터치 컨트롤러 중앙에 최적화 된 전용 Skype 모임 앱 및 큰 방 표시</span><span class="sxs-lookup"><span data-stu-id="7d5a0-330">Dedicated Skype Meeting app optimized for center of table touch controller and large front of room display</span></span>
+- <span data-ttu-id="7d5a0-331">공간 표시 또는 프로젝터 앞에 기존 투자 다시 사용</span><span class="sxs-lookup"><span data-stu-id="7d5a0-331">Reuse existing investments in your front of room display or projectors</span></span>
+- <span data-ttu-id="7d5a0-332">모든 유형의 모임 공간에서 huddle 공간에서 대용량 회의실으로 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-332">Works in all types of meeting spaces from huddle spaces to large conference rooms</span></span>
+- <span data-ttu-id="7d5a0-333">다양 한 방 크기에 대해 인증 된 비즈니스용 Skype 오디오 및 비디오 장치를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-333">Certified Skype for Business audio and video devices are available for various room sizes</span></span>
+- <span data-ttu-id="7d5a0-334">회의실 및 Skype 모임에 데스크톱 공유를 위한 기본 제공 유선 수집</span><span class="sxs-lookup"><span data-stu-id="7d5a0-334">Built-in wired ingest for to project desktop sharing to the room and to the Skype Meeting</span></span>
 
- <span data-ttu-id="14c79-329">**간편 하 게 배포 하 고 관리 하기 쉽습니다.**</span><span class="sxs-lookup"><span data-stu-id="14c79-329">**Easy to Deploy, Simple to Manage**</span></span>
+ <span data-ttu-id="7d5a0-335">**간편 하 게 배포 하 고 관리 하기 쉽습니다.**</span><span class="sxs-lookup"><span data-stu-id="7d5a0-335">**Easy to Deploy, Simple to Manage**</span></span>
  
-- <span data-ttu-id="14c79-330">룸의 사용자를 감지 했을 때 자동으로 절전 모드를 종료 하는 항상 기기에 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-330">Always-on appliance that automatically wakes up the displays when it detects people in the room</span></span>
-- <span data-ttu-id="14c79-331">UWP (유니버설 Windows 플랫폼) Skype 모임 앱의 간단한 배포 및 업데이트</span><span class="sxs-lookup"><span data-stu-id="14c79-331">Simple deployment and updating of the UWP (Universal Windows Platform) Skype Meeting App</span></span>
-- <span data-ttu-id="14c79-332">Windows AppLocker는 Skype 모임 앱으로 장치를 잠급니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-332">Windows AppLocker locks down the device to the Skype Meeting app</span></span>
-- <span data-ttu-id="14c79-333">Intune 및 Configuration Manager (MDM)를 통해 Windows 10 Enterprise 장치를 모니터링 하 고 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="14c79-333">Monitored and managed as a Windows 10 Enterprise device via Intune and Configuration Manager (MDM)</span></span>
-- <span data-ttu-id="14c79-334">기업-성적 신뢰성</span><span class="sxs-lookup"><span data-stu-id="14c79-334">Enterprise-grade reliability</span></span>
-- <span data-ttu-id="14c79-335">친숙 한 Skype 사용자 인터페이스로 인 한 최종 사용자의 교육을 위한 저렴 한 노력</span><span class="sxs-lookup"><span data-stu-id="14c79-335">Low training effort of end-users due to familiar Skype user interface</span></span>
-- <span data-ttu-id="14c79-336">Surface Pro 4 태블릿에서 실행</span><span class="sxs-lookup"><span data-stu-id="14c79-336">Runs on Surface Pro 4 tablet</span></span>
+- <span data-ttu-id="7d5a0-336">룸의 사용자를 감지 했을 때 자동으로 절전 모드를 종료 하는 항상 기기에 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-336">Always-on appliance that automatically wakes up the displays when it detects people in the room</span></span>
+- <span data-ttu-id="7d5a0-337">UWP (유니버설 Windows 플랫폼) Skype 모임 앱의 간단한 배포 및 업데이트</span><span class="sxs-lookup"><span data-stu-id="7d5a0-337">Simple deployment and updating of the UWP (Universal Windows Platform) Skype Meeting App</span></span>
+- <span data-ttu-id="7d5a0-338">Windows AppLocker는 Skype 모임 앱으로 장치를 잠급니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-338">Windows AppLocker locks down the device to the Skype Meeting app</span></span>
+- <span data-ttu-id="7d5a0-339">Intune 및 Configuration Manager (MDM)를 통해 Windows 10 Enterprise 장치를 모니터링 하 고 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5a0-339">Monitored and managed as a Windows 10 Enterprise device via Intune and Configuration Manager (MDM)</span></span>
+- <span data-ttu-id="7d5a0-340">기업-성적 신뢰성</span><span class="sxs-lookup"><span data-stu-id="7d5a0-340">Enterprise-grade reliability</span></span>
+- <span data-ttu-id="7d5a0-341">친숙 한 Skype 사용자 인터페이스로 인 한 최종 사용자의 교육을 위한 저렴 한 노력</span><span class="sxs-lookup"><span data-stu-id="7d5a0-341">Low training effort of end-users due to familiar Skype user interface</span></span>
+- <span data-ttu-id="7d5a0-342">Surface Pro 4 태블릿에서 실행</span><span class="sxs-lookup"><span data-stu-id="7d5a0-342">Runs on Surface Pro 4 tablet</span></span>
 
-<span data-ttu-id="14c79-337"><a name="See"> </a></span><span class="sxs-lookup"><span data-stu-id="14c79-337"><a name="See"> </a></span></span> 
-## <a name="see-also"></a><span data-ttu-id="14c79-338">참고 항목</span><span class="sxs-lookup"><span data-stu-id="14c79-338">See also</span></span>
+<span data-ttu-id="7d5a0-343"><a name="See"> </a></span><span class="sxs-lookup"><span data-stu-id="7d5a0-343"><a name="See"> </a></span></span> 
+## <a name="see-also"></a><span data-ttu-id="7d5a0-344">참고 항목</span><span class="sxs-lookup"><span data-stu-id="7d5a0-344">See also</span></span>
 
-[<span data-ttu-id="14c79-339">Microsoft 팀 대화방 도움말</span><span class="sxs-lookup"><span data-stu-id="14c79-339">Microsoft Teams Rooms help</span></span>](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[<span data-ttu-id="7d5a0-345">Microsoft 팀 대화방 도움말</span><span class="sxs-lookup"><span data-stu-id="7d5a0-345">Microsoft Teams Rooms help</span></span>](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[<span data-ttu-id="14c79-340">작업 환경 준비</span><span class="sxs-lookup"><span data-stu-id="14c79-340">Prepare your environment</span></span>](rooms-prep.md)
+[<span data-ttu-id="7d5a0-346">작업 환경 준비</span><span class="sxs-lookup"><span data-stu-id="7d5a0-346">Prepare your environment</span></span>](rooms-prep.md)
 
-[<span data-ttu-id="14c79-341">Microsoft 팀 대화방 지원 현재 분기 버전</span><span class="sxs-lookup"><span data-stu-id="14c79-341">Support for Microsoft Teams Rooms Current Branch versions</span></span>](rooms-lifecycle-support.md)
+[<span data-ttu-id="7d5a0-347">Microsoft 팀 대화방 지원 현재 분기 버전</span><span class="sxs-lookup"><span data-stu-id="7d5a0-347">Support for Microsoft Teams Rooms Current Branch versions</span></span>](rooms-lifecycle-support.md)
 
-[<span data-ttu-id="14c79-342">Microsoft 팀 대화방의 알려진 문제점</span><span class="sxs-lookup"><span data-stu-id="14c79-342">Known issues for Microsoft Teams Rooms</span></span>](known-issues.md)
+[<span data-ttu-id="7d5a0-348">Microsoft 팀 대화방의 알려진 문제점</span><span class="sxs-lookup"><span data-stu-id="7d5a0-348">Known issues for Microsoft Teams Rooms</span></span>](known-issues.md)
 
-[<span data-ttu-id="14c79-343">Microsoft 팀 회의실 계획</span><span class="sxs-lookup"><span data-stu-id="14c79-343">Plan for Microsoft Teams Rooms</span></span>](rooms-plan.md)
+[<span data-ttu-id="7d5a0-349">Microsoft 팀 회의실 계획</span><span class="sxs-lookup"><span data-stu-id="7d5a0-349">Plan for Microsoft Teams Rooms</span></span>](rooms-plan.md)
 
-[<span data-ttu-id="14c79-344">Microsoft 팀 대화방 관리</span><span class="sxs-lookup"><span data-stu-id="14c79-344">Manage Microsoft Teams Rooms</span></span>](rooms-manage.md)
+[<span data-ttu-id="7d5a0-350">Microsoft 팀 대화방 관리</span><span class="sxs-lookup"><span data-stu-id="7d5a0-350">Manage Microsoft Teams Rooms</span></span>](rooms-manage.md)
