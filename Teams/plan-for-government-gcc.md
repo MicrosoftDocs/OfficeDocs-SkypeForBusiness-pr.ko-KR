@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f03c4cdd13ea63dfee6470843fea5e2dafeab7c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 51afc464b5f6d0fa698250d1255315535e383bf8
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837448"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374325"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 정부의 GCC 배포 계획
 
@@ -128,7 +128,7 @@ Office 365의 기능과 기능을 활용할 수 있을 뿐만 아니라, Microso
 | | Skype 소비자-팀 전화 지원 | 공간이 |
 | 파일 | 최근 | 공간이 |
 | | Microsoft Teams | 공간이 |
-| 스토어 | App Store | 정부 백로그 |
+| 스토어 | App Store | 공간이 |
 | 찾아 | 보내는 | 공간이 |
 | | 사용자 | 공간이 |
 | | 파일 | 공간이 |
@@ -140,7 +140,6 @@ Office 365의 기능과 기능을 활용할 수 있을 뿐만 아니라, Microso
 | | eDiscovery | 공간이 |
 
 > [!Note]
-
 > 다른 작업을 GCC 클라우드에서 완전히 사용할 수 있게 되 면 모든 추가 통합 작업이 완료 되 면 팀에서 사용할 수 있게 됩니다.
 
 
