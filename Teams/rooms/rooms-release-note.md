@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.
-ms.openlocfilehash: fc83efc2b3b72be532d29b2698370c655a1da9ac
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6ecc038658b8178530833ae4f8964bdfc733be84
+ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42155090"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42398196"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -28,6 +28,7 @@ ms.locfileid: "42155090"
 
 |제품 |게시 대상 <br/> Microsoft Store |
 |--- |--- |
+|4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
 |4.3.23.0 |12/13/2019 |
 |4.2.4.0 |10/07/2019 |
@@ -59,6 +60,12 @@ ms.locfileid: "42155090"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 팀 대화방 기능 소개 및 문제 해결
+### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
+
+이 업데이트에 도입 된 내용:
+
+- "비즈니스용 Windows 업데이트"에 대 한 정책 업데이트 
+- Azure 모니터의 오류를 보여 주는 장치 이벤트 보고 문제 해결
 
 ### <a name="43330-1102020"></a>4.3.33.0 (1/10/2020)
 
