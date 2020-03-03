@@ -16,21 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb0998579c29cd7405319600c436468bac2ec4e8
-ms.sourcegitcommit: 73376693670d12f3d9038d4ed604e6685ee21984
+ms.openlocfilehash: f2629f855485f0301f6a7fc576cd17a9e1c1f49d
+ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41917023"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42398176"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 =======================================================
 
-Microsoft Teams 예비 환경을 통해 조직에서 AAD (Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 예비 환경을 시작할 수 있습니다. 관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다. 이전의 [Microsoft 상용 클라우드 평가판](iw-trial-teams.md)은 이제 Teams 예비 환경이라고 합니다.
+Microsoft Teams 예비 환경을 통해 조직에서 AAD (Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 예비 환경을 시작할 수 있습니다. 관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다. 이전의 [Microsoft 상용 클라우드 평가판](iw-trial-teams.md)은 이제 Teams 예비 환경으로 대체되었습니다.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Teams의 예비 환경에는 무엇이 있나요?
 
-Teams의 예비 환경에 포함된 서비스 플랜은 다음과 같습니다.
+관리자가 Teams 예비 환경의 일부로서 보게 될 서비스 계획은 다음과 같습니다.
  - Exchange Online(플랜 1)
  - Office 365용 흐름
  - MyAnalytics의 인사이트
@@ -53,9 +53,10 @@ Teams의 예비 환경에 포함된 서비스 플랜은 다음과 같습니다.
 
 ## <a name="whos-eligible"></a>사용 자격이 있는 사용자
 
+사용자에게 관리되는 AAD 도메인 전자 메일 주소가 있고 현재 Teams 라이선스가 할당되지 않은 경우 이 환경을 사용할 수 있습니다. 예를 들어 사용자에게 Office 365 Business(Teams가 포함되지 않음)가 있는 경우 Teams 예비 환경을 사용할 수 있습니다.
+
 (Microsoft 365 관리 센터에서) 사용자는 앱과 평가판을 사용할 수 있게 등록하도록 설정을 해야 합니다. 자세한 내용은 이 문서 뒷부분의 [Teams 예비 환경 관리](#manage-the-teams-exploratory-experience)를 참조하십시오. 
 
-Teams를 포함하는 Office 365 라이선스가 없는 사용자는 Teams 예비 환경을 시작할 수 있습니다. 예를 들어 사용자에게 Office 365 Business(Teams가 포함되지 않음)가 있는 경우 Teams 예비 환경을 사용할 수 있습니다.
 
 ## <a name="who-isnt-eligible"></a>사용 자격이 없는 사용자
 
@@ -144,10 +145,18 @@ Teams 예비 라이선스에서 사용자를 업그레이드하려면 다음을 
 
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>레거시 Microsoft Teams 상용 클라우드 평가판 라이선스는 어떻게 되나요?
 
-2020년 1월 중순부로 적격 사용자는 최신 Microsoft Teams 예비 환경을 사용하기 시작할 수 있습니다. 모든 레거시 Teams 상용 클라우드 평가판 라이선스는 평가판이 만료되기 전에 자동으로 신규 서비스로 변환됩니다.
+2020년 2월부로 적격 사용자는 최신 Microsoft Teams 예비 환경을 사용하기 시작할 수 있습니다. 모든 레거시 Teams 상용 클라우드 평가판 라이선스는 평가판이 만료되기 전에 자동으로 신규 서비스로 변환됩니다.
 
 ### <a name="remove-a-teams-exploratory-license"></a>Teams 예비 라이선스 제거
 
 - PowerShell을 통해 이 라이선스를 제거하려면 [Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.
 
 - 관리 포털을 통해 이 라이선스를 제거하려면 [비즈니스용 Office 365의 사용자 라이선스 제거](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)를 참조하세요. 
+
+## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams 예비 환경은 얼마나 오래 지속되나요?
+
+Microsoft Teams의 예비 환경은 다음 엔터프라이즈 계약 예정일 또는 2021년 1월 이후에 갱신될 때까지 추가 비용 없이 사용할 수 있습니다. 이 경우 Microsoft 예비 환경 라이선스의 최종 사용자는 Teams가 포함된 유료 라이선스로 전환해야 합니다. 그 이후에 시작된 모든 Microsoft 예비 환경 라이선스는 다음 예정일 또는 갱신 주기까지 추가 비용 없이 계속 사용할 수 있습니다. 
+
+### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>최종 사용자가 기념일 또는 갱신 날짜 직전에 Microsoft Teams 예비 환경을 시작하는 경우 어떻게 되나요?
+
+엔터프라이즈 계약 예정일 또는 갱신 후 90일 이내에 시작된 Microsoft Teams 예비 환경 라이선스는 다음 예정일 또는 갱신 주기까지 유료 라이선스로 전환할 필요가 없습니다. 
