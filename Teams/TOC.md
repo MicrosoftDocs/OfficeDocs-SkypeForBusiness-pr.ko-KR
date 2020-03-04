@@ -723,6 +723,7 @@
 ##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
 ##### [Office 365 Enterprise E5(오디오 회의 제외)](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
 ##### [GOV, .EDU 및 비영리 조직](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [Office 365 E1 평가판 서비스 관리](e1-trial-license.md)
 ### [Teams 상업적 평가판 관리](iw-trial-teams.md)
 ### [Teams 예비 환경 관리](teams-exploratory.md)
 ### [Teams를 Office 365 구독 버전으로 무료 업그레이드](upgrade-freemium.md)
