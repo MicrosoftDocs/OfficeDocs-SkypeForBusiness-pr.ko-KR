@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 개인 채널 수명 주기를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 527e6421160eefa72b2a9c21e8e8f25303534320
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7cd7701a66c03dfc71d89f007eae4addaed0c89a
+ms.sourcegitcommit: f23c428043bb0b37c9a8600e64691bc2a1f2e874
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837328"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42403747"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널 수명 주기 관리
 
@@ -102,7 +102,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ### <a name="using-powershell"></a>PowerShell 사용
 
 1. 관리자 계정을 사용 하 여 [SharePoint Online 관리 셸에](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) 설치 하 고 연결 합니다.
-2. 팀의 그룹 Id 인 &lt;group_id&gt; 다음을 실행 합니다. (팀에 대 한 링크에서 그룹 Id를 쉽게 찾을 수 있습니다.)
+2. 팀의 그룹 ID 인 &lt;group_id&gt; 다음을 실행 합니다. (팀에 대 한 링크에서 그룹 ID를 쉽게 찾을 수 있습니다.)
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -116,7 +116,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 [그래프 탐색기](https://developer.microsoft.com/graph/graph-explorer)를 통해 이러한 명령을 수행해 볼 수 있습니다.
 
-1. 다음을 사용 하 여 지정 된 팀의 개인 채널 Id 목록을 가져올 수 있으며, 여기에서 <group_id> 팀의 그룹 Id입니다. 이후 통화에 필요 합니다. (팀에 대 한 링크에서 그룹 Id를 쉽게 찾을 수 있습니다.)
+1. 다음을 사용 하 여 지정 된 팀의 개인 채널 Id 목록을 가져올 수 있으며, 여기에서 <group_id> 팀의 그룹 ID입니다. 이후 통화에 필요 합니다. (팀에 대 한 링크에서 그룹 ID를 쉽게 찾을 수 있습니다.)
 
     **요청당**
 
@@ -184,46 +184,23 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-1. 관리자 계정으로 [Microsoft 팀 PowerShell 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams) 을 설치 하 고 연결 합니다.
-2. 팀의 그룹 Id이 &lt;고&gt; &lt;channel_id&gt; 채널 id 인 group_id는 다음을 실행 합니다.
-
-    **요청당**
+1. 다음을 실행 합니다 ( &lt;여기서&gt; group_id는 팀의 그룹 id이 고 &lt;channel_name&gt; 는 채널 이름입니다.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" 
-    ```
-    
-    **응답**
-
-    ```PowerShell
-    HTTP/1.1 200 OK Content-type: application/json
-    Content-length:
-    {
-      "value": [
-      {
-          "description": "description-value",
-          "displayName": "display-name-value",
-          "id": "channel_id",
-          "membershipType": "membership-type-value",
-          "isFavoriteByDefault": false,
-          "webUrl": "webUrl-value",
-          "email": "email-value"
-          }
-        ]
-    }
+    Get-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" 
     ```
 
-3. 구성원을 소유자로 승격 합니다.
+2. 구성원을 소유자로 승격 합니다.
 
     ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
+    Add-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
 ### <a name="using-graph-api"></a>그래프 API 사용
 
 [그래프 탐색기](https://developer.microsoft.com/graph/graph-explorer)를 통해 이러한 명령을 수행해 볼 수 있습니다.
 
-1. 팀의 그룹 Id이 &lt;고&gt; &lt;channel_id&gt; 채널 id 인 경우에는 다음을 사용 group_id.
+1. 팀의 그룹 ID이 &lt;고&gt; &lt;channel_id&gt; 채널 id 인 경우에는 다음을 사용 group_id.
 
     **요청당**
 
@@ -344,7 +321,7 @@ PowerShell 테스트 갤러리에서 팀 PowerShell 모듈을 이미 설치한 �
     Get-Module -Name MicrosoftTeams
     ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [팀 PowerShell 개요](teams-powershell-overview.md)
 - [Microsoft Graph API를 사용 하 여 팀과 공동 작업](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
