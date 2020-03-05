@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3415c68ec8d27789bd00161fc70107a3be672431
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: bc72976fd7aa2ff03d305b5edaeff0d18c1f2a61
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837368"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417873"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -52,15 +52,33 @@ ms.locfileid: "41837368"
                     <div class="cardText">
                         <h3>30에서 팀 시작 하기</h3>
                         <P>오른쪽에 있는 30 개 여행에서 팀을 시작 하세요. 프로그램, 참여 해야 하는 사용자, 성공 여부를 확인 하는 데 사용할 수 있는 리소스에 대해 이해 합니다.</P>
-                        <p>대상: 비즈니스 스폰서, IT 관리자, 채택 및 변경 소유자</p>
+                        <p>*대상: 비즈니스 스폰서, IT 관리자, 채택 및 변경 소유자*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-    <li></li>  
-    <li> 
+   <li>
+        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>최종 사용자 준비</h3>
+                    <p>사용자에 게 readying 하 고, 다양 한 챔피언를 작성 하 고, 팀의 핵심 구성 요소로 사용자 동의를 보장 하는 전략과 리소스에 대해 알아봅니다.</p><p>*대상 그룹: 채택 및 변경 소유자*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+        <li> 
         <a href="https://microsoftteams.eventbuilder.com/T30PrepareI"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
@@ -72,7 +90,7 @@ ms.locfileid: "41837368"
                     </div>
                     <div class="cardText">
                     <h3>환경 준비-파트 I</h3>
-                    <p>팀 롤아웃에 대 한 기초를 설정 합니다. 팀 필수 조건, 네트워킹 및 보안 모범 사례, 공존 정책, 분석 및 보고, 클라이언트 배포 권장 사항을 식별 합니다.</p><p>대상: IT 관리자</p>
+                    <p>팀 롤아웃에 대 한 기초를 설정 합니다. 팀 필수 조건, 네트워킹 및 보안 모범 사례, 공존 정책, 분석 및 보고, 클라이언트 배포 권장 사항을 식별 합니다.</p><p>*대상 그룹: IT 관리자*</p>
 </div>
                 </div>
             </div>
@@ -90,32 +108,13 @@ ms.locfileid: "41837368"
                     </div>
                     <div class="cardText">
                         <h3>환경 준비-파트 II</h3>
-                    <p>이제 기반을 마련 했으므로 팀에 대 한 규정 준수, 보존, 관리, 오디오 회의를 구현 하기 위한 모범 사례를 이해 하 고 있습니다.</p><p>대상: IT 관리자</p>
+                    <p>이제 기반을 마련 했으므로 팀에 대 한 규정 준수, 보존, 관리, 오디오 회의를 구현 하기 위한 모범 사례를 이해 하 고 있습니다.</p><p>*대상 그룹: IT 관리자*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li> 
-   <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>최종 사용자 준비</h3>
-                    <p>사용자에 게 readying 하 고, 다양 한 챔피언를 작성 하 고, 팀의 핵심 구성 요소로 사용자 동의를 보장 하는 전략과 리소스에 대해 알아봅니다.</p><p>대상 그룹: 채택 및 변경 소유자</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
  <li>
         <a href="https://microsoftteams.eventbuilder.com/T30Optimize"target="_blank"">
         <div class="cardSize">
@@ -129,13 +128,33 @@ ms.locfileid: "41837368"
                     <div class="cardText">
                     <h3>최적화 및 확장</h3>
                     <p>서비스 성능 최적화, 확장 팀 기능, 온 보 딩 새 사용자를 포함 하는 계획을 디자인 합니다.</p>
-                    <p>대상: 비즈니스 스폰서, IT 관리자, 채택 및 변경 소유자</p>
+                    <p>*대상: 비즈니스 스폰서, IT 관리자, 채택 및 변경 소유자*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
+   <li>
+        <a href="https://aka.ms/TeamsChalkTalks"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="Sign up symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>팀 분필 통신</h3>
+                    <p>실무 전문가의 도움을 받을 수 있는 이러한 온라인 대화형 워크샵은 팀에서 가장 인기 있고 멋진 시나리오에 대 한 모범 사례와 실용적인 지침을 배우기 위한 고유한 기회를 제공 합니다.</p><p>*대상 그룹: IT 관리자*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+
 </ul>
 
     

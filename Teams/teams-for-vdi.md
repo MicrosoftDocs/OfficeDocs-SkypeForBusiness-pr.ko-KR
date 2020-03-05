@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5bc574fc760929d416ce3f62c921bc522c2997c
-ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
+ms.openlocfilehash: f9c8f0fe24cfb94be368fb2afa6446f311f2f790
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42339463"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417883"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>가상화 된 데스크톱 인프라 팀
 
@@ -97,7 +97,7 @@ VDI 환경에서 팀의 AV 최적화가 올바르게 작동 하려면 씬 클라
 
 비 영구적인 설정에서는 사용자가 로그 아웃 한 후 사용자의 로컬 운영 체제 변경 내용이 보존 되지 않습니다. 이러한 설정은 일반적으로 공유 다중 사용자 세션입니다. VM 구성은 사용자 수와 사용 가능한 실제 box 리소스에 따라 달라 집니다.
 
-비 영구적인 설정의 경우 팀 데스크톱 앱은 골든 이미지에 컴퓨터별 설치 되어 있어야 합니다. 자세한 내용은 [VDI의 팀 데스크톱 앱 설치 또는 업데이트](#install-or-update-the-teams-desktop-app-on-vdi) 섹션을 참조 하세요. 이렇게 하면 사용자 세션 중에 팀 앱을 효율적으로 실행할 수가 있습니다. 비 영구적인 설정으로 팀을 사용 하려면 효율적인 팀 런타임 데이터 동기화를 위한 프로필 캐싱 관리자도 필요 합니다. 이렇게 하면 사용자 데이터, 프로필 및 설정 등의 적절 한 사용자 관련 정보를 사용 하는 동안 해당 정보가 캐시 됩니다.  다양 한 캐싱 관리자 솔루션을 사용할 수 있습니다. 예를 들어 [Fslogix](https://docs.microsoft.com/fslogix/overview)를 사용할 경우 특정 구성 지침은 캐싱 관리자 공급자에 게 문의 하세요.
+비 영구적인 설정의 경우 팀 데스크톱 앱은 골든 이미지에 컴퓨터별 설치 되어 있어야 합니다. 자세히 알아보려면 [VDI에서 팀 데스크톱 앱 설치 또는 업데이트](#install-or-update-the-teams-desktop-app-on-vdi) 섹션을 참조 하세요. 이렇게 하면 사용자 세션 중에 팀 앱을 효율적으로 실행할 수가 있습니다. 비 영구적인 설정으로 팀을 사용 하려면 효율적인 팀 런타임 데이터 동기화를 위한 프로필 캐싱 관리자도 필요 합니다. 이렇게 하면 사용자 데이터, 프로필 및 설정 등의 적절 한 사용자 관련 정보를 사용 하는 동안 해당 정보가 캐시 됩니다.  다양 한 캐싱 관리자 솔루션을 사용할 수 있습니다. 예를 들어 [Fslogix](https://docs.microsoft.com/fslogix/overview)를 사용할 경우 특정 구성 지침은 캐싱 관리자 공급자에 게 문의 하세요.
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>비 영구적인 설정에 대 한 팀 캐시 된 콘텐츠 제외 목록
 
@@ -363,7 +363,7 @@ VDI와 관련 되지 않은 팀의 알려진 문제점은 [팀에 대해 알려�
 
 VDA 및 CWA 문제를 해결 하는 방법에 대 한 자세한 내용은 [이 Citrix 웹 사이트](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)를 참조 하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [MSI를 사용 하 여 Microsoft 팀 설치](msi-deployment.md)
 - [팀 PowerShell 개요](teams-powershell-overview.md)

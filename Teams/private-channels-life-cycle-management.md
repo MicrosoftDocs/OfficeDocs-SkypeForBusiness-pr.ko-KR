@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 개인 채널 수명 주기를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7cd7701a66c03dfc71d89f007eae4addaed0c89a
-ms.sourcegitcommit: f23c428043bb0b37c9a8600e64691bc2a1f2e874
+ms.openlocfilehash: dd4509e809348a21231a6aa136c6cb360a152472
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42403747"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417573"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널 수명 주기 관리
 
@@ -187,13 +187,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 1. 다음을 실행 합니다 ( &lt;여기서&gt; group_id는 팀의 그룹 id이 고 &lt;channel_name&gt; 는 채널 이름입니다.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" 
+    Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
     ```
 
 2. 구성원을 소유자로 승격 합니다.
 
     ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
+    Add-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
 ### <a name="using-graph-api"></a>그래프 API 사용
@@ -321,7 +321,7 @@ PowerShell 테스트 갤러리에서 팀 PowerShell 모듈을 이미 설치한 �
     Get-Module -Name MicrosoftTeams
     ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [팀 PowerShell 개요](teams-powershell-overview.md)
 - [Microsoft Graph API를 사용 하 여 팀과 공동 작업](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)

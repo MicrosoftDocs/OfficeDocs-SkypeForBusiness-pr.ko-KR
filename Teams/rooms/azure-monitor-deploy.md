@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 이 문서에서는 Azure Monitor를 사용 하 여 통합 된 종단 간 방식으로 Microsoft 팀 회의실 디바이스의 관리를 배포 하는 방법을 설명 합니다.
-ms.openlocfilehash: 54268676eadab25599d4f8b6e415ff373717943f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826266"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417543"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>관리 :::no-loc text="Microsoft Teams Rooms"::: 배포 대상:::no-loc text="Azure Monitor":::
 
@@ -30,7 +30,7 @@ ms.locfileid: "41826266"
 
 이 가이드를 팔 로우 하 여 다음 예제와 같은 대시보드를 사용 하 여 장치 가용성, 응용 프로그램 및 하드웨어 상태, :::no-loc text="Microsoft Teams Rooms"::: 응용 프로그램 및 운영 체제 버전 배포에 대 한 자세한 상태 보고를 얻을 수 있습니다.
 
-! [예제 :::no-loc text="Log Analytics"::: 보기 스크린샷 :::no-loc text="Microsoft Teams Rooms":::] (.. /media/Deploy-Azure-Monitor-1.png "예제 :::no-loc text="Log Analytics"::: 보기 :::no-loc text="Microsoft Teams Rooms":::")
+![Microsoft 팀 대화방에 대 한 샘플 로그 분석 보기 스크린샷](../media/Deploy-Azure-Monitor-1.png "Microsoft 팀 대화방에 대 한 예제 로그 분석 보기")
 
 상위 수준에서 다음 작업을 수행 해야 합니다.
 
@@ -373,7 +373,7 @@ ms.locfileid: "41826266"
 5.  경고 논리 설정을 구성 합니다.<br>
     **기준:** 결과 수<br>
     **조건:** 더 크게<br>
-    **Treshold:** 0<br>
+    **임계값:** 0<br>
 
 6. 평가 설정을 구성 하 고 **완료**를 선택 합니다. <br>
     **기간 (분):** 60<br>
@@ -383,7 +383,7 @@ ms.locfileid: "41826266"
     1.  **새로 만들기** 를 선택 합니다.
     2.  *작업 그룹 이름* 및 *약식 이름* 필드에 적합 한 이름을 제공 합니다.
     3.  고유한 *작업 이름을* 지정 하 고 **전자 메일/SMS/푸시/음성을**선택한 다음 **세부 정보 편집**을 선택 합니다.
-    4.  전자 메일 확인란을 선택 하 고 알림을 받을 사용자 또는 그룹의 전자 메일 주소를 입력 합니다.
+    4.  **전자 메일** 확인란을 선택 하 고 알림을 받을 사용자 또는 그룹의 전자 메일 주소를 입력 합니다.
     5.  또한 전화 번호를 입력 하 여 SMS, 음성 통화 또는 두 가지 모두에 대 한 알림을 받을 수 있습니다.
     6. **확인을**선택 합니다.
 

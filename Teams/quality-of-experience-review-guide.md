@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 025bd70c79cdc0547f86514521fd1e565265d4f8
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 13c3267378d4e8fbc5b3d3631606cf0824ea7a44
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160782"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417853"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
 
@@ -379,7 +379,7 @@ _그림 5-제품 필터 선택_
 
 **예**
 
-```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
 URL 필터에 대 한 자세한 내용은이 섹션의 뒷부분에 나오는 [보고서 필터링](#filtering-reports) 을 참조 하세요.
 
@@ -472,7 +472,7 @@ CQD에서 보고 싶은 치수나 측정값을 적절히 선택 하기 위해 �
 
 다음 세 가지 방법 중 하나를 사용 하 여 CQD에 액세스할 수 있습니다.
 
--   <https://cqd.lync.com>(으)로 이동합니다.
+-   <https://cqd.teams.microsoft.com>(으)로 이동합니다.
 
 -   **Microsoft 팀 관리 센터로** 이동 하 여 다음 그림에 표시 된 대로 CQD에 대 한 링크를 선택 합니다.
 
@@ -491,7 +491,7 @@ _그림 8-비즈니스용 Skype 관리 센터를 통해 CQD에 액세스_
 
 처음으로 CQD로 이동 하면 요약 보고서 페이지가 표시 됩니다. 이 가이드에서 설명 하는 대부분의 보고서는 사용자 지정 상세 보고서입니다. 자세한 보고서 사용을 시작 하려면 페이지 맨 위에 있는 **요약 보고서** 를 선택한 다음 **상세 보고서**를 선택 합니다.
 
-![CQD에서 사용할 수 있는 보고서 유형을 보여주는 스크린샷](media/qerguide-image-choosereports.png)
+![CQD에서 사용할 수 있는 보고서 종류를 보여 주는 스크린샷](media/qerguide-image-choosereports.png)
 
 _그림 9-상세 보고서로 이동_
 
@@ -543,7 +543,7 @@ URL 필터를 구현 하려면 브라우저 주소 표시줄에서 URL의 끝에
 
 예  
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
 팀 또는 비즈니스용 Skype에 대 한 보고서를 필터링 하려면 URL의 끝에 다음을 추가 합니다.
 
@@ -553,11 +553,11 @@ URL 필터를 구현 하려면 브라우저 주소 표시줄에서 URL의 끝에
 
 예
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
 
 
 > [!NOTE]
-> 위의 URL 예제는 시각적 표현에만 해당 됩니다. 의 <https://cqd.lync.com>기본 CQD 링크를 사용 하세요.
+> 위의 URL 예제는 시각적 표현에만 해당 됩니다. 의 <https://cqd.teams.microsoft.com>기본 CQD 링크를 사용 하세요.
 
 
 #### <a name="query-filters"></a>쿼리 필터
@@ -591,7 +591,7 @@ _표 4-보고서 필터_
 
 **템플릿을 가져오려면 (. CQDX)를 CQDX 온라인으로**
 
-1. <https://cqd.lync.com>(으)로 이동합니다.
+1. <https://cqd.teams.microsoft.com>(으)로 이동합니다.
 
 2. Office 365 관리 자격 증명을 사용 하 여 인증 합니다.
 
@@ -604,7 +604,7 @@ _표 4-보고서 필터_
 
 5. 서식 파일을 업로드 한 후 팝업 창에 "보고서를 성공적으로 가져오기 했습니다." 라는 메시지가 표시 됩니다. **확인을 선택 합니다.**
 
-   ![성공한 가져오기 알림 스크린샷](media/qerguide-image-importmessage.png "템플릿을 성공적으로 가져왔는지 알림")
+   ![성공적 가져오기 알림 스크린샷](media/qerguide-image-importmessage.png "템플릿을 성공적으로 가져왔는지 알림")
 
 6. 두 번째 CQD 템플릿에 대해 4 ~ 5 단계를 반복 합니다.
 
@@ -711,7 +711,7 @@ CQD 데이터를 원본으로 하는 Office 365에 클라이언트가 보내는 
 
 CQD 요약 보고서 대시보드에는 오른쪽 위 모서리에 있는 **테 넌 트 데이터 업로드** 링크 태그를 선택 하 여 액세스할 **테 넌 트 데이터 업로드** 페이지가 포함 됩니다 (기어 아이콘을 찾습니다). 이 페이지는 관리자가 IP 주소와 지리 정보 매핑, 각 무선 액세스 지점과 해당 MAC 주소 매핑 등 자신의 정보를 업로드 하는 데 사용 됩니다.
 
-1. 으로 <https://cqd.lync.com>이동 하 여 온라인으로 이동할 수 있습니다.
+1. 으로 <https://cqd.teams.microsoft.com>이동 하 여 온라인으로 이동할 수 있습니다.
 
 2. 오른쪽 위 모서리에 있는 기어 아이콘을 선택 하 고 **요약 보고서** 페이지에서 **테 넌 트 데이터 업로드** 를 선택 합니다.
 
@@ -778,7 +778,7 @@ CQD Online의 **자세한 보고서** 페이지로 이동 하 여 cqd 템플릿�
 > [!NOTE] 
 > 이번 달에 대 한 월 연도 보고서 필터를 조정 해야 합니다. **편집**을 선택 하 고 **월 연도** 보고서 필터를 조정 하 여 새 기본 달을 저장 합니다.
 
-![누락 된 서브넷 보고서를 보여주는 스크린샷](media/qerguide-image-missingbuildingreport.png)
+![누락 된 서브넷 보고서를 보여 주는 스크린샷](media/qerguide-image-missingbuildingreport.png)
 
 _그림 17-건물 보고서 없음_
 

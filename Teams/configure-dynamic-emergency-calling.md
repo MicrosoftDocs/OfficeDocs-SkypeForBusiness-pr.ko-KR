@@ -16,12 +16,12 @@ f1.keywords:
 description: 동적인 긴급 전화 구성
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cd5f3320896c823eb81a9147a1b1b1adb36dbac
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6b22c6cec20e42ac33b15c53a49477b36a35fbe9
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825516"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417593"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -70,10 +70,10 @@ Microsoft 통화 요금제 및 전화 시스템 다이렉트 라우팅을 위한
 
 현재 지원 되는 클라이언트는 다음과 같습니다.  자주 확인 하 여이 목록에 대 한 업데이트를 확인 하세요.
 
-- Windows 용 팀 데스크톱 클라이언트
-- Mac 용 팀 데스크톱 클라이언트
-- IOS 클라이언트 버전 1.0.92.2019121004 및 App Store 버전 1.0.92 이상에 대 한 팀 모바일 클라이언트
-- Android 클라이언트용 팀 모바일 클라이언트 및 스토어 버전 1416/1.0.0.2019121201 이상
+- Microsoft Windows 용 팀 데스크톱 클라이언트
+- Apple macOS 용 팀 데스크톱 클라이언트
+- Apple iOS 클라이언트 버전 1.0.92.2019121004 및 App Store 버전 1.0.92 이상에 대 한 팀 모바일 클라이언트
+- Android 클라이언트 및 Google Play 스토어 버전 1416/1.0.0.2019121201 이상에 대 한 팀 모바일 클라이언트
 - 팀 전화 버전 1449/1.0.94.2019110802 이상
 
 ## <a name="assign-emergency-addresses"></a>긴급 주소 할당

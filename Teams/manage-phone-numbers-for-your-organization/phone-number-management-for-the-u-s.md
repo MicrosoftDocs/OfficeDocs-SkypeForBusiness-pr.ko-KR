@@ -20,17 +20,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 이 표를 사용 하 여 미국 (및 푸에르토리코)에서 Microsoft 팀을 위한 전화 번호를 받고 관리 하는 방법에 대 한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: 8013b3a822f9e453dd60bb7e5af73a1326f7c04c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 이 표를 사용 하 여 미국 (푸에르토리코 포함)에서 Microsoft 팀을 위한 전화 번호를 받고 관리 하는 방법에 대 한 정보를 찾을 수 있습니다.
+ms.openlocfilehash: a3c94b4e091529fdc2fa3389b3b0155f5bf118d9
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706933"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417633"
 ---
 # <a name="phone-number-management-for-the-us"></a>미국의 전화 번호 관리
 
-이 표를 사용 하 여 미국 (및 푸에르토리코)에서 Microsoft 팀을 위한 전화 번호를 받고 관리 하는 방법에 대 한 정보를 찾을 수 있습니다.
+이 표를 사용 하 여 미국 (푸에르토리코 포함)에서 Microsoft 팀을 위한 전화 번호를 받고 관리 하는 방법에 대 한 정보를 찾을 수 있습니다.
 
 자세한 내용은 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization.md)를 참조 하세요.
   
@@ -43,7 +43,7 @@ ms.locfileid: "41706933"
 |한 Office 365 조직에서 다른 컴퓨터로 번호를 전송 합니다.  <br/> |해당 번호를 전송할 원본 조직의 핀과 함께 전송 하려는 사용자 (구독자) 전화 번호 목록을 [보내 주십시오](mailto:ptn@microsoft.com) . PIN을 설정 하려면 [여기](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)를 방문 하세요.  <br/> |
 |||
    
-## <a name="related-topics"></a>관련 주제 
+## <a name="related-topics"></a>관련 항목 
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
