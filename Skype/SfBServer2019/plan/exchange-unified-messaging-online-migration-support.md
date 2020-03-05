@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft는 2020 년 2 월 28 일부 터 ExchUMO (Exchange 통합 메시징 온라인) 서비스를 더 이상 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 비즈니스 연속성을 계획 하 고 수행 해야 하는 작업을 요약 하 여 설명 합니다.
-ms.openlocfilehash: f6adb1636d6a40e41b006c3981dc4d21ba503289
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: c39485de1acceef0dc340f039a1586b3e6014522
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374305"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417623"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
@@ -47,7 +47,7 @@ Exchange 통합 메시징 온라인 서비스에서 다음 기능을 사용 하�
 
 Microsoft는 ExchUMO의 기능을 소비 하는 다양 한 고객 배포를 파악 했으며 다음 계획에 따라 고객을 마이그레이션하도록 지원 합니다. 
 
-|고객 그룹 |시간 표시 막대  |세부 정보  |
+|고객 그룹 |타임라인  |세부 정보  |
 |---------|---------|---------|
 |마이그레이션할 준비가 된 고객<br><br>마이그레이션할 기능:<br><ul><li>음성 메일</ul>   |   3 월 2019 일 수 있음  |예제:<ul><li>    간단한 음성 메일 배포 및 사용 현황이 포함 된 고객<li>마이그레이션을 실행 하기 위해 Microsoft에 대해 설정 된 모든 요구 사항이 있는 고객<ul>|
 |필수 구성 요소가 포함 된 고객<br><br>마이그레이션할 기능:<br><ul><li>음성 메일<li>자동 전화 교환<li>통화 큐</ul> |  5 월 2019 일 |예제: <br><ul><li>하이브리드 구성이 완료 되지 않음<li>하이브리드 PSTN 번호가 설정 되지 않음</ul>|
@@ -127,7 +127,7 @@ Office 365 테 넌 트 관리자는 Microsoft 클라우드 자동 전화 교환 
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO 및 Azure 클라우드 기반 서비스 기능 매트릭스
 
-| 서비스 | 기능 수준 | 기능 | Notes  | 클라우드 VM/AA  | ExUMO |
+| 서비스 | 기능 수준 | 기능 | 노트  | 클라우드 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | V  | 서비스 기능| 타사 PBX 지원    | Exchange UM Online에서 SIP notify 메시지를 사용 하 여 MWI (메시지 대기 표시기)와 같은 타사 PBX에 제공 되는 모든 기능 포함 | Kn   | 피지    |
 | V | 서비스 기능  | 비즈니스용 Skype 서버 지원   |  | 피지 | 피지    |
@@ -235,6 +235,8 @@ Office 365 테 넌 트 관리자는 Microsoft 클라우드 자동 전화 교환 
 자동 전화 교환에 대 한 자세한 내용은 [Set up a Cloud auto attendant](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)를 참조 하십시오.
 
 #### <a name="known-issues"></a>알려진 문제
+
+**마이그레이션 후에도 인사말이 일치 하지 않도록 구독자 액세스를 사용 하지 않도록 설정** 모든 사용자가 클라우드 음성 메일로 마이그레이션된 후에도 서비스를 완전히 사용 하지 않으면 테 넌 트에 대 한 구독자 액세스를 계속할 수 있습니다. 사용자의 혼란을 방지 하기 위해, 인사말이 변경 된 후에는 사용 하지 않는 것이 좋습니다. 이 작업을 수행 하려면 Get-CsExUmContact |를 사용 하 여 각 구독자 액세스 회선에 대 한 EXUM 연락처를 제거 합니다. {$_. Issubscriberaccess 속성이-eq $true} | 제거-CsExUmContact 
 
 **PSTN으로의 자동 전화 교환 통화 전송** 고객은 자동 전화 교환 호출을 외부 PSTN 번호로 또는 RGS 인스턴스로 전송 하는 데 필요한 요구 사항을 충족 하도록 일시적으로 해결 방법을 구성 하는 것이 좋습니다. 
  
