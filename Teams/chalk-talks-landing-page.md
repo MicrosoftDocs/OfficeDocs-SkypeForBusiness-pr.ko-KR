@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: ab643059e57b5ec621100662c4585e43e1a91607
-ms.sourcegitcommit: 0286eec17b7eea486b857a69fb6c6166ef0799d2
+ms.openlocfilehash: adead862907c29c066df8b2541c260045f19db95
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409810"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417603"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -82,7 +82,7 @@ IT 전문가 및 의사 결정권자 용으로 설계 된 팀 분필은 팀에�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>60 분 내에 팀 앱 빌드</h3>
+                        <h3>60 분 내에 팀 앱 배포</h3>
                         <p><font color="red"><i>개봉박두!</i></font> 앱 서식 파일을 사용 하 여 팀을 확장 하 여 매일 사용 하는 도구를 팀에 만들어 단일 환경 내에서 작업을 완료할 수 있습니다.</p>
                     </div>
                 </div>
