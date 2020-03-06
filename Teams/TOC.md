@@ -71,6 +71,7 @@
 ### 외부 액세스(페더레이션)
 #### [외부 액세스 관리](manage-external-access.md)
 #### [외부 사용자용 기본 Teams 채팅](native-chat-for-external-users.md)
+#### [Teams 및 Skype 상호 운용성](teams-skype-interop.md)
 
 
 ### 게스트 액세스
@@ -625,6 +626,7 @@
 ## [교육용 Teams](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [빠른 시작 - 교육용 Teams 관리](teams-quick-start-edu.yml)
 ### [원격 학습 시작](remote-learning-edu.md)
+### [교육용 Teams 라이선싱](teams-edu-licensing.md)
 ### [교육용 Teams의 과제](expand-teams-across-your-org/assignments-in-teams.md)
 ### [교육용 Teams 리소스 관리](resources-teams-edu.md)
 ### [EDU 관리자용 Microsoft Teams 정책 패키지](policy-packages-edu.md)
@@ -635,6 +637,7 @@
 ### [소매 Teams 서식 파일 시작](get-started-with-retail-teams-templates.md)
 
 ## [정부 기관용 Teams](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Office 365 G1 평가판 서비스 관리](g1-trial-license.md)
 ### [Microsoft 365 정부 - GCC 계획](plan-for-government-gcc.md)
 ### [ Microsoft 365 정부 - GCC High 계획](plan-for-government-gcc-high.md)
 ### [Microsoft 365 정부 - DoD 계획](plan-for-government-dod.md)
@@ -674,6 +677,7 @@
 ## [설치 및 업데이트 문제 해결](troubleshoot-installation.md)
 ## [Teams 클라이언트의 연결 문제 해결](connectivity-issues.md)
 ## [Teams 문제 해결에 로그 파일 사용](log-files.md)
+## [자주 묻는 질문(FAQ) - 원격 작업자 지원](FAQ-support-remote-workforce.md)
 ## [Teams의 서비스 상태 확인](service-health.md)
 ## [Teams의 알려진 문제](Known-issues.md)
 ## [Teams의 지원 리소스](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -726,6 +730,7 @@
 ##### [Office 365 Enterprise E5(오디오 회의 제외)](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
 ##### [GOV, .EDU 및 비영리 조직](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 ### [Office 365 E1 평가판 서비스 관리](e1-trial-license.md)
+### [Office 365 G1 평가판 서비스 관리](g1-trial-license.md)
 ### [Teams 상업적 평가판 관리](iw-trial-teams.md)
 ### [Teams 예비 환경 관리](teams-exploratory.md)
 ### [Teams를 Office 365 구독 버전으로 무료 업그레이드](upgrade-freemium.md)
