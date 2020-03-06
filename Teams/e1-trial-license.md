@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0709f28125bc43ebc372f3bd2cddd33476526237
-ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
+ms.openlocfilehash: a3f5d73920da0f9b18b1810768b0468c4106a6f3
+ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42398166"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42507956"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Office 365 E1 평가판 관리
 ==============================
@@ -47,7 +47,9 @@ E1 평가판 프로모션 코드를 사용한 후에는 이 코드를 다시 사
 
 ## <a name="who-isnt-eligible"></a>사용 자격이 없는 사용자
 
-- 이 서비스는 GCC, GCC High, DoD 또는 EDU 고객에게는 제공되지 않습니다. Google은 E1 평가판의 GCC 버전을 개발 중이며 곧 제공될 예정입니다. 
+- 이 서비스는 GCC, GCC High, DoD 또는 EDU 고객에게는 제공되지 않습니다. 
+
+- GCC의 경우 [Office 365 G1 평가판](g1-trial-license.md)를 확인하세요. 
 
 - EDU 고객은 무료 Office 365 A1 라이선스를 사용해야 합니다.
 
