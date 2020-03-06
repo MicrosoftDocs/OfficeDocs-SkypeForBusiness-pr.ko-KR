@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69cfb557f04644c1bb54d78ae24a8110d42ee8a0
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030772"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551035"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Microsoft 팀에서 첫 번째 팀 만들기
 
@@ -46,7 +46,7 @@ Microsoft 팀 내에서 [탭 갤러리](https://docs.microsoft.com/microsoftteam
 |----------------- | ---------- |
 | **Microsoft 팀 배포** ||
 | 일반 | 웹 탭: [팀 문서](https://aka.ms/SuccessWithTeams) |
-| 인식 및 채택 | [팀 채택 허브](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft 팀 고객 성공 키트](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
+| 인식 및 채택 | [팀 채택 허브](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft 팀 고객 성공 키트](https://aka.ms/TeamsCustomerSuccess)|
 | 비즈니스 참여 | 위 키-계약 지침<br/>양식 – 팀 상담에 대 한 요청<br/>목록 – 계약 요청 |
 |조기 도입자 | 고정 된 피드백 커뮤니티 <br/> FAQ 및 일반 테마 용 OneNote |
 | 피드백 및 보고 | 고정 된 Office 365 사용 보고서 (Office 365 관리자 전용) |

@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5d7423dfd0493af0e780b81f96d840f422d4833
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 356ff815fe05a91f203778c0f6af255182ace35c
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834658"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550905"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>도구 및 워크샵: Microsoft 팀 계획, 제공 및 채택
 
 이러한 도구를 다운로드 하 여 조직에서 팀을 계획 하 고 제공 하 고 채택 하는 과정을 안내 합니다.
 
 
-- [Microsoft 팀 고객 성공 키트](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)
+- [Microsoft 팀 고객 성공 키트](https://aka.ms/TeamsCustomerSuccess)
 
     이 키트에는 조직에서 팀을 채택 하 고 배포 하는 데 사용할 수 있는 다양 한 프레젠테이션, 전자 메일 서식 파일, 팁 & 요령, 포스터 등이 포함 되어 있습니다. 여기에는 관리자와 팀 리더에 대 한 두 개의 빠른 시작 가이드, 모든 부서의 사용 사례 예제 등이 포함 됩니다. 이러한 리소스를 사용 하 여 마케팅, 영업, 재무, 인적 자원, IT, 엔지니어링, 프로젝트 관리를 비롯 한 조직의 다양 한 기능을 위한 대부분의 팀을 만들 수 있습니다.
 

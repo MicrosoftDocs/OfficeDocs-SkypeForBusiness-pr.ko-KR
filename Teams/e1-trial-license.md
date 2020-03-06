@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db45b65388331127c78693b52de3a0e09a35c9d7
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: 0709f28125bc43ebc372f3bd2cddd33476526237
+ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374352"
+ms.locfileid: "42398166"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Office 365 E1 평가판 관리
 ==============================
@@ -27,6 +27,8 @@ ms.locfileid: "42374352"
 2020년 3월 Microsoft Teams를 포함한 6 개월 무료 Office 365 E1 평가판을 새롭게 사용할 수 있습니다. Microsoft는 COVID-19(코로나 바이러스) 발생에 대응하여 직원들이 재택 근무 (WFH)에 대한 필요성이 증가함에 따라 이 특별 E1 평가판 라이선스를 제공하고 있습니다. 
 
 E1 라이선스로 사용할 수 있는 기능을 알아보려면 [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software)을 참조하세요.
+
+[Teams로 원격 작업자를 지원](support-remote-work-with-teams.md)하기 위한 모든 지침을 놓치지 마세요.
 
 ## <a name="how-to-get-an-e1-trial-license"></a>E1 평가판 라이선스를 얻는 방법
 

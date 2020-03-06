@@ -16,30 +16,31 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 조직에 태그를 사용 하는 방법을 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3ade2f47474fe8aaf16c568e8c141dcd84526d86
-ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
+ms.openlocfilehash: 5da1d1549e6171656b0065036819be0fac450759
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034519"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551045"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft 팀의 태그 관리
 
 > [!NOTE]
 > 아직 Microsoft 팀 관리 센터에이 기능이 표시 되지 않나요? 현재 롤아웃 중 이며 아직 조직에서 사용할 수 없을 수도 있습니다. 예정 된 팀 기능을 계속 유지 하려면 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)확인 하세요.
 
-Microsoft 팀의 태그를 통해 사용자가 팀의 일부 사용자와 통신할 수 있습니다. 한 명 또는 여러 팀 구성원에 게 태그를 추가 하 여 사용자의 올바른 하위 집합으로 쉽게 연결할 수 있습니다. 팀 소유자 및 구성원 (기능을 사용 하도록 설정 된 경우) 사용자에 게 하나 이상의 태그를 추가할 수 있습니다. 그런 다음 해당 태그를 할당 한 사용자만 통신 하기 위해 채널 게시물에서 팀의 모든 사용자가 태그를 @mentions에 사용할 수 있습니다.
+Microsoft 팀의 태그를 통해 사용자가 팀의 일부 사용자와 통신할 수 있습니다. 한 명 또는 여러 팀 구성원에 게 태그를 추가 하 여 사용자의 올바른 하위 집합으로 쉽게 연결할 수 있습니다. 팀 소유자 및 구성원 (기능을 사용 하도록 설정 된 경우) 사용자에 게 하나 이상의 태그를 추가할 수 있습니다. 그런 다음 팀의 모든 사용자가 채널을 게시할 때 태그를 사용 하거나 해당 태그를 할당 한 사람만 대화를 시작 하는 것을 @mentions 수 있습니다.
 
 > [!NOTE]
 > 태그는 개인 채널에서 아직 지원 되지 않습니다.
 
 ## <a name="how-tags-work"></a>태그가 작동 하는 방식
 
-특정 팀의 사용자에 게 태그를 추가할 수 있습니다. 태그를 추가한 후에는 팀의 표준 채널에서 @mentions에 사용할 수 있습니다. 다음은 팀에서 태그를 사용 하는 방법에 대 한 몇 가지 예입니다.
+특정 팀의 사용자에 게 태그를 추가할 수 있습니다. 태그를 추가한 후에는 채팅 또는 팀의 표준 채널에서 @mentions에 사용할 수 있습니다. 다음은 팀에서 태그를 사용 하는 방법에 대 한 몇 가지 예입니다.
 
 - 스토어 관리자가 채널에 알림을 게시 하 고 모든 cashiers에 게 알려야 합니다.
 - 그룹 제품 관리자가 채널의 모든 제품 관리자에 게 메시지를 전송 하려고 합니다.
 - 병원 관리자가 채널의 모든 radiologists에 게 메시지를 보내려고 합니다.
+- 마케팅 관리자가 모든 설계자와 그룹 채팅을 시작 하려고 합니다. 
 
 자세한 내용은 [팀에서 태그를 사용 하 여](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)확인해 보세요.
 

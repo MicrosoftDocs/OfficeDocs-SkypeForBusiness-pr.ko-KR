@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7453743407696a0ba8c41cb401caf4f22ba7b78f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825306"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550915"
 ---
 ![여행 다이어그램을 업그레이드 하 여 뛰어난 작업 단계 강조](media/upgrade-banner-op-excellence.png "운영에 대 한 다양 한 단계의 강조를 통해 업그레이드 여행 단계")
 
@@ -47,7 +47,7 @@ ms.locfileid: "41825306"
 
 - 동료 사용자를 evangelize 하 고 권유 하는 데 도움이 되도록 피어 챔피언 참여
 - 계약을 높이고 추진 하는 방법에 대 한 팁은 [Office 365 채택을 참조](https://go.microsoft.com/fwlink/?linkid=859045) 하세요.
-- [팀 고객 성공 키트](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 를 활용 하 여 인식을 개선 하 고 모범 사례를 공유 하세요.
+- [팀 고객 성공 키트](https://aka.ms/TeamsCustomerSuccess) 를 활용 하 여 인식을 개선 하 고 모범 사례를 공유 하세요.
 - 채택을 증가 시킬 수 있도록 공식적인 채택을 구현 하 [고 변경 관리 전략을 수립](http://www.successwithteams.com/) 합니다.
 
 ## <a name="prepare-for-new-functionality"></a>새로운 기능 준비

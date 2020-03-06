@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55e4ec98d6e54dba88a417d9631605859962c9c1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033025"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551006"
 ---
 # <a name="tools-for-driving-adoption"></a>추진 도구 
 
@@ -155,4 +155,4 @@ Office 365 챔피언 프로그램은 Microsoft 팀과 다른 Office 365 서비�
 회사에서 팀을 배포 하는 데 도움이 되는 온라인 가이드 인 [팀 채택을 flipbook](https://aka.ms/teamstoolkit)을 확인 하세요. 여기에는 팀 채택을 여행 하는 데 도움이 되는 다양 한 다운로드 가능한 도구, 서식 파일 및 기타 리소스가 포함 됩니다.
 
 ### <a name="teams-customer-success-kit"></a>팀 고객 성공 키트
-[팀 고객 성공 키트](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 는 조직의 팀을 배포 하는 데 도움이 되는 도구를 제공 합니다. 여기에는 공지 사항, 전단지 포스터, 카운트다운, 팁 & 요령에 대 한 전자 메일 서식 파일이 포함 됩니다. 팀 리더 및 IT 관리자를 위한 시작 가이드도 포함 되어 있습니다.
+[팀 고객 성공 키트](https://aka.ms/TeamsCustomerSuccess) 는 조직의 팀을 배포 하는 데 도움이 되는 도구를 제공 합니다. 여기에는 공지 사항, 전단지 포스터, 카운트다운, 팁 & 요령에 대 한 전자 메일 서식 파일이 포함 됩니다. 팀 리더 및 IT 관리자를 위한 시작 가이드도 포함 되어 있습니다.
