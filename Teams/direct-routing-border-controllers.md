@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: 사용자가 직접 라우팅으로 SBCs 작업을 인증 하도록 선택 된 SBC 공급 업체와의 협력 파트너.
-ms.openlocfilehash: 4a39ed6bde0879bb47d1f586d0ffefba06e59ca8
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: e694f82ff7d9ed36cf217d5ebe40fc2be91b442c
+ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417863"
+ms.locfileid: "42544974"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -61,7 +61,7 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 (빌드 537)     |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Intrado </li> <li>Intrado </li> <li> 빨강 하늘 가로 이동성 </li> </ul>   |    예     |    
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (빌드 537)     |  <ul> <li>[대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Intrado </li> <li>Intrado </li> <li> 빨강 하늘 가로 이동성 </li> </ul>   |     예      |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (빌드 216)    |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Intrado </li> <li>Intrado </li> <li> 빨강 하늘 가로 이동성 </li> </ul>    |     예      |   
-| | Edgemarc 시리즈 |  &#10004; | | 15.6.1 | 
+| | EdgeMarc 시리즈 |  &#10004; | | 15.6.1 | 
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    생각 365 SBC    |     &#10004;     |        중일   |       V 1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li>  <li> Intrado </li> <li>Intrado </li> </ul>   |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li>  <li> Intrado </li> <li>Intrado </li> </ul>  |    |    
@@ -77,5 +77,8 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 |                                                       공급 업체                                                        |       지원부       | 유효한
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
 | [오디오 코드](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
+| [](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. 소프트웨어 버전: 8.1.1 (빌드 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
+| [](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. 소프트웨어 버전: 8.1.1 (빌드 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
+
 
 새 기능에 대 한 아이디어 등 팀에 대 한 제품 피드백을 제공 하려면 [Uservoice](https://microsoftteams.uservoice.com) 참고 주 버전에 부여 된 인증을 참조 하세요. 이는 주요 버전 다음의 SBC 펌웨어에 숫자가 포함 된 펌웨어가 지원 됨을 의미 합니다.

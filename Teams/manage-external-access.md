@@ -19,17 +19,17 @@ description: 팀 또는 IT 관리자가 다른 도메인 (페더레이션)에 �
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: eb0b252f2df1deb3e2a92bfada9a04b1df561316
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 61ce8219125f6dad47ef516aa9f849acb09ec3dd
+ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836898"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42544994"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft 팀에서 외부 액세스 관리
 ======================================================
 
-외부 액세스는 전체 도메인의 외부 팀 사용자가 팀에서 사용자와 모임을 검색, 통화, 채팅 및 설정 하는 방법입니다. 또한 외부 액세스를 사용 하 여 Skype for Business (online 및 온-프레미스) 및 Skype (초기 2020)를 사용 중인 외부 사용자와 통신할 수 있습니다.
+외부 액세스는 전체 도메인의 외부 팀 사용자가 팀에서 사용자와 모임을 검색, 통화, 채팅 및 설정 하는 방법입니다. 외부 액세스를 사용 하 여 아직 비즈니스용 Skype (온라인 및 온-프레미스)와 Skype (미리 보기)를 사용 중인 외부 사용자와 통신할 수도 있습니다.
 
 외부 사용자가 팀과 채널에 액세스할 수 있도록 하려면 게스트 액세스를 사용하는 것이 좋습니다. 외부 액세스와 게스트 액세스의 차이점에 대 한 자세한 내용은 [외부 및 게스트 액세스 비교](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)를 참조 하세요. 
 
@@ -41,16 +41,8 @@ ms.locfileid: "41836898"
 
 - 팀을 사용 하는 세계의 다른 사용자가 전자 메일 주소를 사용 하 여 사용자를 찾고 연락할 수 있도록 하려는 경우 
 
-
-
-
 > [!IMPORTANT]
 > 현재 Azure AD (Active Directory) 또는 테 넌 트에서 현재 게스트가 아닌 조직 외부의 외부 사용자에 게 Microsoft 팀 앱을 페더레이션 하려면 하이브리드에 대해 올바르게 설정 하 고 비즈니스용 Skype Online으로 이동 해야 합니다. 2019 년 2 월 25 일에는 비즈니스용 Skype Online에서 SIP 프로필을 사용 하지 않고 팀이 기본 페더레이션을 지원 하지 않습니다. 하이브리드 계정을 설정 하 고 팀으로 이동 하는 방법에 대해서는 [비즈니스용 Skype 하이브리드 배포를 팀으로 업그레이드](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)를 참조 하세요.
-
-
-
-
-
 
 ## <a name="plan-for-external-access"></a>외부 액세스 계획
 
@@ -72,9 +64,9 @@ ms.locfileid: "41836898"
 
 1. 왼쪽 탐색 창에서 **조직 전체 설정** > **외부 액세스**로 이동 합니다.
 
-2. **사용자가 비즈니스용 Skype 및 팀 사용자와 통신할 수** 있도록 설정/해제 **를 전환 합니다.**
+2. **사용자가 다른 비즈니스용 Skype 및 팀 사용자 설정과 통신할 수** 있도록 설정 합니다.
 
-     ![외부 액세스 스위치 설정 스크린샷](media/manage-external-access-2.png).
+     ![사용자 스크린샷-다른 비즈니스용 Skype 및 팀 사용자 설정을 켠 상태에서 통신할 수 있습니다.](media/manage-external-access-2.png).
 
 3. 모든 팀 조직이 조직의 사용자와 통신할 수 있도록 허용 하려면 5 단계로 건너뜁니다.
 
@@ -104,7 +96,7 @@ ms.locfileid: "41836898"
 
 ## <a name="communicate-with-users-in-a-skype-for-business-online-organization"></a>비즈니스용 Skype Online 조 직에서 사용자와 통신
 
-팀 사용자가 사용자에 게 연락할 수 있는 사람을 제한 하는 비즈니스용 Skype 조직에서 사용자를 찾고 연락 하도록 외부 액세스를 설정 하는 경우 단계에 따라 도메인의 외부 액세스를 다른 조직의 도메인으로 설정 합니다. 그런 다음 다른 조직의 관리자에 게 다음 단계를 따라 비즈니스용 Skype Online에 대 한 외부 액세스를 구성 하도록 요청 합니다. 
+팀 사용자가 사용자에 게 연락할 수 있는 사람을 제한 하는 비즈니스용 Skype 조직에서 사용자를 찾고 연락 하도록 외부 액세스를 설정 하는 경우 단계에 따라 도메인의 외부 액세스를 다른 조직의 도메인으로 설정 합니다. 그런 다음 다른 조직의 관리자에 게 다음 단계를 따라 비즈니스용 Skype Online에 대 한 외부 액세스를 구성 하도록 요청 합니다.
 
 일반적인 비즈니스용 Skype Online 시나리오에 대 한 특정 지침은 아래 [일반적인 외부 액세스 시나리오](#common-external-access-scenarios) 를 참조 하세요.
 
@@ -122,6 +114,20 @@ ms.locfileid: "41836898"
 
 4. **차단 되거나 허용 된 도메인**에서을 **+** 선택 하 고 허용 하려는 도메인의 이름을 추가 합니다.
 
+## <a name="communicate-with-skype-users-in-preview"></a>Skype 사용자와 통신 (미리 보기)
+
+조직의 사용자가 Skype 사용자와 채팅 하 고 통화할 수 있도록 하려면 다음 단계를 따르세요. 그러면 팀 사용자는 일대일 텍스트 대화 또는 Skype 사용자와의 음성/영상 통화를 검색 하 고 시작할 수 있습니다.
+
+![](media/teams-logo-30x30.png)**Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘  
+
+1. 왼쪽 탐색 창에서 **조직 전체 설정** > **외부 액세스**로 이동 합니다.
+
+2. **사용자가 Skype 사용자와 통신할 수** 있도록 설정을 켭니다.
+
+    ![Skype 설정을 켠 상태에서 사용자의 스크린샷을 통신할 수 있습니다.](media/manage-external-access-5.png).
+
+팀 사용자 및 Skype 사용자가 통신 하는 방법에 대 한 자세한 내용은 [팀 및 skype 상호 운용성](teams-skype-interop.md)을 참조 하세요.
+
 ## <a name="common-external-access-scenarios"></a>일반적인 외부 액세스 시나리오
 
 |**원하는 경우를 선택 합니다.**  |**실행할 작업**  |
@@ -129,16 +135,14 @@ ms.locfileid: "41836898"
 |조직의 **팀 사용자** 가 다른 (외부) 조직의 **팀 사용자** 와 통신할 수 있도록 합니다.|외부 액세스에서 허용 목록에 외부 도메인을 추가 하거나 개방형 페더레이션을 사용 합니다. 그런 다음 다른 팀 조직의 관리자가 동일한 작업을 수행 하도록 합니다.      |
 |조직의 **팀 사용자가** 같은 조직의 **비즈니스용 Skype Online 사용자** 와 통신할 수 있도록 합니다.  |공존 모드를 사용 하도록 설정 하거나, 조직에서 비즈니스용 Skype 사용자를 지원 하기 위해 군도 업그레이드 모드를 선택 합니다.   |
 |조직의 **팀 사용자가** 다른 (외부) 조직의 **비즈니스용 Skype Online 사용자** 와 통신할 수 있도록 합니다.      |외부 액세스에서 허용 목록에 외부 도메인을 추가 하거나 개방형 페더레이션을 사용 합니다. <br><br>사용자가 외부 액세스에서 비즈니스용 **Skype 및 팀 사용자 설정과 통신할 수** 있도록 설정 합니다. 그런 다음 다른 팀 조직의 관리자가 동일한 작업을 수행 하도록 합니다. <br><br>**참고**: 비즈니스용 skype 사용자가 있는 외부 도메인은 공존 모드를 사용 하도록 설정 하거나, 해당 조직의 비즈니스용 skype 사용자를 지원 하기 위해 군도 업그레이드 모드를 선택 해야 합니다.|
-|조직의 **사용자가** 조직의 내부 또는 외부에서 **Skype** 사용자와 통신할 수 있도록 합니다.   | 이 시나리오는 곧 제공 될 예정입니다. <br><br>**중요**: 팀 사용자는 아직 skype 사용자와 통신할 수 없지만 비즈니스용 skype 사용자는 조직 내부 또는 외부의 skype 사용자와 계속 통신할 수 있습니다. **사용자가 비즈니스용 skype 및 팀 사용자와 통신할 수** 있도록 설정 하 고 비즈니스용 **Skype 사용자가 외부 액세스의 skype 사용자 설정과 통신할 수** 있습니다. |
-|**비즈니스용 Skype Online 사용자가** 다른 Office 365 조직의 **팀 사용자** 와 통신할 수 있도록 합니다.| 사용자가 다음 업그레이드 모드 중 하나를 사용 하 고 있는 경우 비즈니스용 Skype Online 사용자가 다른 조직의 팀 사용자와 통신할 수 있습니다. 아일랜드, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 그리고 다른 조직의 팀 사용자는 TeamsOnly 모드입니다. <br><br>**사용자가 비즈니스용 Skype 및 팀 사용자와 통신할 수** 있도록 하려면 외부 액세스에서 설정을 설정 합니다. 그런 다음 다른 팀 조직의 관리자가 동일한 작업을 수행 하도록 합니다.|
-|**비즈니스용 Skype online 사용자가** 다른 Office 365 조 직의 **비즈니스용 skype online 사용자** 와 통신할 수 있도록 합니다.    | 사용자가 다음 업그레이드 모드 중 하나를 사용 하 고 있는 경우 비즈니스용 Skype Online 사용자가 다른 조직의 비즈니스용 Skype Online 사용자와 통신할 수 있습니다. 군도, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 다른 조직의 비즈니스용 Skype Online 사용자는 군도, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 중 하나를 업그레이드 합니다.<br><br>**사용자가 비즈니스용 Skype 및 팀 사용자와 통신할 수** 있도록 하려면 외부 액세스에서 설정을 설정 합니다. 그런 다음 다른 팀 조직의 관리자가 동일한 작업을 수행 하도록 합니다.|
-|비즈니스용 **Skype Online 사용자가** 온-프레미스 조직에서 **비즈니스용 skype 사용자** 와 통신할 수 있도록 합니다.     |사용자가 다음 업그레이드 모드 중 하나를 사용 하 고 있는 경우 비즈니스용 Skype Online 사용자가 온-프레미스 조직에서 비즈니스용 Skype 사용자와 통신할 수 있습니다. 섬, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 다른 조직의 비즈니스용 Skype Online 사용자는 군도, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 중 하나를 업그레이드 합니다.<br><br>**사용자가 비즈니스용 Skype 및 팀 사용자와 통신할 수** 있도록 하려면 외부 액세스에서 설정을 설정 합니다. 그런 다음 다른 팀 조직의 관리자가 동일한 작업을 수행 하도록 합니다.|
-|비즈니스용 **Skype Online 사용자가** **skype 사용자** (조직의 내부 또는 외부)와 통신할 수 있도록 합니다.   |비즈니스용 **skype 사용자가 외부 액세스에서 skype 사용자와 통신할 수** 있도록 설정 합니다.|
+|조직의 **팀 사용자가** **Skype** 사용자와 통신할 수 있도록 합니다.<br> (미리 보기)  |사용자가 외부 액세스에서 **Skype 사용자와 통신할 수** 있도록 설정 합니다. |
+|**비즈니스용 Skype Online 사용자가** 다른 Office 365 조직의 **팀 사용자** 와 통신할 수 있도록 합니다.| 사용자가 다음 업그레이드 모드 중 하나를 사용 하 고 있는 경우 비즈니스용 Skype Online 사용자가 다른 조직의 팀 사용자와 통신할 수 있습니다. 아일랜드, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 그리고 다른 조직의 팀 사용자는 TeamsOnly 모드입니다. <br><br>사용자가 외부 액세스에서 비즈니스용 **Skype 및 팀 사용자 설정과 통신할 수** 있도록 설정 합니다. 그런 다음 다른 팀 조직의 관리자가 동일한 작업을 수행 하도록 합니다.|
+|**비즈니스용 Skype online 사용자가** 다른 Office 365 조 직의 **비즈니스용 skype online 사용자** 와 통신할 수 있도록 합니다.    | 사용자가 다음 업그레이드 모드 중 하나를 사용 하 고 있는 경우 비즈니스용 Skype Online 사용자가 다른 조직의 비즈니스용 Skype Online 사용자와 통신할 수 있습니다. 군도, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 다른 조직의 비즈니스용 Skype Online 사용자는 군도, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 중 하나를 업그레이드 합니다.<br><br>사용자가 외부 액세스에서 비즈니스용 **Skype 및 팀 사용자 설정과 통신할 수** 있도록 설정 합니다. 그런 다음 다른 팀 조직의 관리자가 동일한 작업을 수행 하도록 합니다.|
+|비즈니스용 **Skype Online 사용자가** 온-프레미스 조직에서 **비즈니스용 skype 사용자** 와 통신할 수 있도록 합니다.     |사용자가 다음 업그레이드 모드 중 하나를 사용 하 고 있는 경우 비즈니스용 Skype Online 사용자가 온-프레미스 조직에서 비즈니스용 Skype 사용자와 통신할 수 있습니다. 섬, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 다른 조직의 비즈니스용 Skype Online 사용자는 군도, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings 중 하나를 업그레이드 합니다.<br><br>사용자가 외부 액세스에서 비즈니스용 **Skype 및 팀 사용자 설정과 통신할 수** 있도록 설정 합니다. 그런 다음 다른 팀 조직의 관리자가 동일한 작업을 수행 하도록 합니다.|
+|비즈니스용 **Skype Online 사용자가** **skype 사용자** (조직의 내부 또는 외부)와 통신할 수 있도록 합니다.   |사용자가 외부 액세스에서 **Skype 사용자와 통신할 수** 있도록 설정 합니다.|
 
 > [!IMPORTANT]
 > 비즈니스용 skype Online 사용자가 조직 내부 또는 외부의 Skype 사용자와 통신할 수 있도록 허용 된 도메인으로 **skype 도메인** 을 추가할 필요는 없습니다. 모든 **Skype 도메인** 은 허용 목록 이며,이는 모든 도메인이 허용 된 것으로 간주 된다는 것을 의미 합니다.
-
-
 
 ## <a name="how-does-external-access-compare-with-guest-access"></a>외부 액세스와 게스트 액세스를 비교 하는 방법
 
@@ -146,4 +150,4 @@ ms.locfileid: "41836898"
 
 ## <a name="related-topics"></a>관련 항목
 
-[외부 (연합) 사용자를 위한 기본 채팅 환경](native-chat-for-external-users.md)
+- [외부 (연합) 사용자를 위한 기본 채팅 환경](native-chat-for-external-users.md)
