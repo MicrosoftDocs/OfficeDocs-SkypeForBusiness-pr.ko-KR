@@ -621,8 +621,10 @@
 ##### [STU3 인터페이스 사양](expand-teams-across-your-org/healthcare/stu3-interface.md)
 ##### [환자 앱을 FHIR용 Azure API에 연결](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
 #### [환자 앱에 대한 감사 로그](expand-teams-across-your-org/healthcare/patients-audit.md)
+
 ## [교육용 Teams](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [빠른 시작 - 교육용 Teams 관리](teams-quick-start-edu.yml)
+### [원격 학습 시작](remote-learning-edu.md)
 ### [교육용 Teams의 과제](expand-teams-across-your-org/assignments-in-teams.md)
 ### [교육용 Teams 리소스 관리](resources-teams-edu.md)
 ### [EDU 관리자용 Microsoft Teams 정책 패키지](policy-packages-edu.md)
