@@ -16,17 +16,19 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: adead862907c29c066df8b2541c260045f19db95
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 7d41218e75b24432e1f67ae1dc8344f8a76b8a50
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417603"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558658"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft 팀 분필 통신</h1>
-IT 전문가 및 의사 결정권자 용으로 설계 된 팀 분필은 팀에서 가장 인기 있고 멋진 시나리오를 중심으로 모범 사례와 실용적인 지침을 배울 수 있는 고유한 기회를 제공 합니다. 이러한 온라인 대화형 워크샵은 실무 전문가의 촉진를 통해 팀 구현을 개선 하 고 최종 사용자에 게 추가 가치를 제공할 수 있는 정보를 제공 합니다.<br><br><i>사용 가능한 날짜와 시간을 보려면 아래에 있는 워크숍 제목을 클릭 하 고 지금 등록 하세요!</i>
+IT 전문가 및 의사 결정권자 용으로 설계 된 팀 분필은 팀에서 가장 인기 있고 멋진 시나리오를 중심으로 모범 사례와 실용적인 지침을 배울 수 있는 고유한 기회를 제공 합니다. 이러한 온라인 대화형 워크샵은 실무 전문가의 촉진를 통해 팀 구현을 개선 하 고 최종 사용자에 게 추가 가치를 제공할 수 있는 정보를 제공 합니다.<br><br>
+           <strong>필수 구성 요소</strong>: 먼저 <a href="https://aka.ms/Teamsin30"target="_blank">30 개 워크샵에 팀</a> 에 참가 합니다.<br><br>
+           <i>사용 가능한 날짜와 시간을 보려면 아래에 있는 워크숍 제목을 클릭 하 고 지금 등록 하세요!</i>
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a> 

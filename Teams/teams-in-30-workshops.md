@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc72976fd7aa2ff03d305b5edaeff0d18c1f2a61
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 182b7178cf24b786e81afd9181c9275541857486
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417873"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558608"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -50,9 +50,9 @@ ms.locfileid: "42417873"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>30에서 팀 시작 하기</h3>
+                        <h3>30에서 팀 시작 (여기서 시작 하세요!)</h3>
                         <P>오른쪽에 있는 30 개 여행에서 팀을 시작 하세요. 프로그램, 참여 해야 하는 사용자, 성공 여부를 확인 하는 데 사용할 수 있는 리소스에 대해 이해 합니다.</P>
-                        <p>*대상: 비즈니스 스폰서, IT 관리자, 채택 및 변경 소유자*</p>
+                        <p><i>대상: 비즈니스 스폰서, IT 관리자, 채택 및 변경 소유자</i></p>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ ms.locfileid: "42417873"
                     </div>
                     <div class="cardText">
                         <h3>최종 사용자 준비</h3>
-                    <p>사용자에 게 readying 하 고, 다양 한 챔피언를 작성 하 고, 팀의 핵심 구성 요소로 사용자 동의를 보장 하는 전략과 리소스에 대해 알아봅니다.</p><p>*대상 그룹: 채택 및 변경 소유자*</p>
+                    <p>사용자에 게 readying 하 고, 다양 한 챔피언를 작성 하 고, 팀의 핵심 구성 요소로 사용자 동의를 보장 하는 전략과 리소스에 대해 알아봅니다.</p><p><i>대상 그룹: 채택 및 변경 소유자</i></p>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@ ms.locfileid: "42417873"
                     </div>
                     <div class="cardText">
                     <h3>환경 준비-파트 I</h3>
-                    <p>팀 롤아웃에 대 한 기초를 설정 합니다. 팀 필수 조건, 네트워킹 및 보안 모범 사례, 공존 정책, 분석 및 보고, 클라이언트 배포 권장 사항을 식별 합니다.</p><p>*대상 그룹: IT 관리자*</p>
+                    <p>팀 롤아웃에 대 한 기초를 설정 합니다. 팀 필수 조건, 네트워킹 및 보안 모범 사례, 공존 정책, 분석 및 보고, 클라이언트 배포 권장 사항을 식별 합니다.</p><p><i>대상 그룹: IT 관리자</i></p>
 </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@ ms.locfileid: "42417873"
                     </div>
                     <div class="cardText">
                         <h3>환경 준비-파트 II</h3>
-                    <p>이제 기반을 마련 했으므로 팀에 대 한 규정 준수, 보존, 관리, 오디오 회의를 구현 하기 위한 모범 사례를 이해 하 고 있습니다.</p><p>*대상 그룹: IT 관리자*</p>
+                    <p>이제 기반을 마련 했으므로 팀에 대 한 규정 준수, 보존, 관리, 오디오 회의를 구현 하기 위한 모범 사례를 이해 하 고 있습니다.</p><p><i>대상 그룹: IT 관리자</i></p>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@ ms.locfileid: "42417873"
                     <div class="cardText">
                     <h3>최적화 및 확장</h3>
                     <p>서비스 성능 최적화, 확장 팀 기능, 온 보 딩 새 사용자를 포함 하는 계획을 디자인 합니다.</p>
-                    <p>*대상: 비즈니스 스폰서, IT 관리자, 채택 및 변경 소유자*</p>
+                    <p><i>대상: 비즈니스 스폰서, IT 관리자, 채택 및 변경 소유자</i></p>
                     </div>
                 </div>
             </div>
@@ -146,8 +146,10 @@ ms.locfileid: "42417873"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>팀 분필 통신</h3>
-                    <p>실무 전문가의 도움을 받을 수 있는 이러한 온라인 대화형 워크샵은 팀에서 가장 인기 있고 멋진 시나리오에 대 한 모범 사례와 실용적인 지침을 배우기 위한 고유한 기회를 제공 합니다.</p><p>*대상 그룹: IT 관리자*</p>
+                    <h3>팀 분필 통신</h3>
+                    <p>실무 전문가의 도움을 받을 수 있는 이러한 온라인 대화형 워크샵은 팀에서 가장 인기 있고 멋진 시나리오에 대 한 모범 사례와 실용적인 지침을 배우기 위한 고유한 기회를 제공 합니다.</p>
+                    <p><strong>전제 조건</strong>: 30 개 워크샵의 팀. 분필은이 페이지에서 찾은 워크샵에 대 한 정보를 작성 합니다.</p>
+                    <p><i>대상 그룹: IT 관리자</i></p>
                     </div>
                 </div>
             </div>
