@@ -14,12 +14,12 @@ search.appverid: MET150
 description: COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우, 이 가이드를 사용하여 원격 작업자의 생산성을 지원할 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f47c03432b6e90cfd6be888affee7f4342945227
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: b7cdbe0922116015f33d7f10219eb51b07abaf76
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558628"
+ms.locfileid: "42559332"
 ---
 # <a name="faq-support-your-remote-workforce"></a>자주 묻는 질문(FAQ) - 원격 작업자 지원
 
@@ -90,6 +90,14 @@ Microsoft는 [Office 365용 FastTrack 센터 혜택](https://docs.microsoft.com/
 ### <a name="where-do-i-find-help-getting-teams-running-for-my-company-so-my-users-can-work-from-home-during-this-crisis"></a>이 비상 상황 동안 사용자가 집에서 일할 수 있도록 회사에서 Teams를 운영하기 위해 도움을 받을 수 있는 곳은 어디입니까? 
 
 [Microsoft Teams를 사용하여 원격 작업자 지원하기](support-remote-work-with-teams.md)를 읽어 보세요. 원격 작업자를 위한 Teams 시작과 관련하여 일반적인 작업과 질문을 대부분 담고 있습니다.
+
+### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Teams를 사용하여 원격 작업자 또는 학생을 지원할 수 있도록 막 Microsoft 365를 시작했습니다. 서비스에 등록했지만 사용자가 Teams를 사용하려고 하면 다음 오류가 표시됩니다. "실패했습니다! 관리자에게 Microsoft Teams 사용을 설정해 달라고 요청하세요. " 무엇을 해야 하나요?
+
+무료 Teams 제공 중 하나를 활성화한 후에도 사용자를 위해 이를 사용하도록 설정해야 합니다. [Teams에 대한 사용자 액세스를 관리](user-access.md) 및 [Office 365에 사용자를 개별적으로 또는 일괄적으로 추가](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)를 확인하세요.
+
+처음으로 사용자에게 라이선스를 부여거나 사용자를 활성화했지만 Microsoft 365를 한동안 보유한 경우 조직에 대한 [Teams를 사용 설정](Office-365-set-up.md)해야 할 수 있습니다. 이 문서에서 [Microsoft 365가 이미 있지만 Teams를 사용하지 않습니다. 평가판 라이선스를 제공하나요?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)를 확인하세요.
+
+
 
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>Microsoft에서 제공하는 Office 365 E1 평가판에서 통화 플랜을 사용할 수 있나요? 사용자에게 전화 번호를 할당할 수 있나요? 지불할 금액은 얼마인가요?
 
