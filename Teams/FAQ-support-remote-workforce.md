@@ -14,12 +14,12 @@ search.appverid: MET150
 description: COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우, 이 가이드를 사용하여 원격 작업자의 생산성을 지원할 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bbd42047037985ec4ac2c211a677e4c37e45af0
-ms.sourcegitcommit: ac811017d54a55f39ecc0e3a66a883d9e027ce68
+ms.openlocfilehash: f47c03432b6e90cfd6be888affee7f4342945227
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42548021"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558628"
 ---
 # <a name="faq-support-your-remote-workforce"></a>자주 묻는 질문(FAQ) - 원격 작업자 지원
 
@@ -106,9 +106,8 @@ Teams에서 [클라우드 자동 전화 교환](what-are-phone-system-auto-atten
 IT 관리자/ITPro: [Teams를 사용하 여 원격 작업자 지원](support-remote-work-with-teams.md).
 
 
-<!-- ============================================================ 
-### What is Microsoft doing to support its own employees during the COVID-19 outbreak?
+### <a name="what-is-microsoft-doing-to-support-its-own-employees-during-the-covid-19-outbreak"></a>코로나 19 사태에 직원 지원을 위해 Microsoft는 무엇을 하고 있습니까?
 
-Please read our blog that details the recommendations we are giving our own users.
--->
+Brad Smith의 2020년 5 월 5 일 블로그를 읽어 보세요. Microsoft 사장: [공공의 건강 보호를 위해 노력하면서도 우리 사업장에서 일하는 시간제 근로자의 소득도 보호해야 합니다](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/).
+
 

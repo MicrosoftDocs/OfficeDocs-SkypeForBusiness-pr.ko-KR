@@ -16,18 +16,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.directrouting.cqd
-- ms.lync.lac.ToolsCallQualityDashboard
+f1.keywords:
+- CSH
 ms.custom:
 - Reporting
+- ms.teamsadmincenter.directrouting.cqd
+- ms.lync.lac.ToolsCallQualityDashboard
 description: '통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 참조 하세요. '
-ms.openlocfilehash: e29bced13fd4bad900c349efc07219e4edebc9d3
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: 9e9c70c88aec9fcdf898d94a17f46f76bd2c608a
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41636846"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559887"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
@@ -36,6 +37,13 @@ ms.locfileid: "41636846"
 CQD (통화 품질 대시보드)는 Microsoft 팀과 비즈니스용 Skype Online 서비스를 사용 하 여 발생 하는 통화의 품질에 대 한 통찰력을 제공 합니다. 이 항목에서는 통화 품질 문제를 해결 하는 데 사용할 수 있는 데이터 수집을 시작 하는 단계에 대해 설명 합니다.
 
 현재 고급 CQD 및 CQD를 모두 사용할 수 있습니다. 고급 CQD는에서 <span>https://cqd.teams.microsoft.com</span>사용할 수 있습니다. 새 URL 이지만 관리자 자격 증명을 사용 하 여 로그인 합니다.
+
+## <a name="use-power-bi-to-analyze-cqd-data"></a>Power BI를 사용 하 여 CQD 데이터 분석
+
+T e 2020의 새로운 [기능: CQD 용 POWER BI 쿼리 서식 파일을 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)합니다. CQD 데이터를 분석 하 고 보고 하는 데 사용할 수 있는 사용자 지정 가능한 Power BI 서식 파일입니다.
+
+자세한 내용은 [POWER BI를 사용 하 여 CQD 데이터 분석을](CQD-Power-BI-query-templates.md) 참조 하세요.
+
 
 ## <a name="latest-changes-and-updates"></a>최신 변경 및 업데이트
 
@@ -355,7 +363,7 @@ CQD는 빌드 데이터 파일을 사용 하 여 유용한 통화 정보를 제�
 - 데이터 파일에 표 머리글 행이 포함 되어 있지 않습니다. 데이터 파일의 첫 줄은 "네트워크"와 같은 머리글 레이블이 아닌 실제 데이터 여야 합니다.
 - 파일의 데이터 형식은 문자열, 정수 또는 부울 일 수만 있습니다. Integer 데이터 형식의 경우 값은 숫자 값 이어야 합니다. 부울 값은 0 또는 1 이어야 합니다.
 - 열에 문자열 데이터 형식이 사용 되는 경우 데이터 필드는 비어 있을 수 있지만 여전히 탭 또는 쉼표로 구분 되어야 합니다. 빈 데이터 필드는 빈 문자열 값만 할당 합니다.
-- 각 행에는 14 개의 열이 있고, 각 열에는 적절 한 데이터 형식이 있어야 하 고 열은 다음 표에 나열 된 순서 대로 있어야 합니다.
+- 각 행에 대해 14 개의 열이 있어야 하며 (선택적 열을 추가 하려는 경우) 각 열에 적절 한 데이터 형식이 있어야 하 고 열이 다음 표에 나열 된 순서 대로 되어 있어야 합니다.
 
 ||||||||||||||||
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
@@ -423,6 +431,33 @@ EndpointName, EndpointMake, Endpointmake, Endpointmake, EndpointLabel1, Endpoint
 
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
+### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>하나 이상의 모임 참가자에 게 좋지 않은 경험이 있는 경우 CQD 님이 "좋은" 것으로 표시 되는 이유는 무엇 인가요?
+
+[스트림 분류](stream-classification-in-call-quality-dashboard.md)에 대 한 CQD 사용 규칙을 확인 하세요.
+ 
+오디오 스트림의 경우 통화 길이를 기준으로 평균을 계산 하는 5 개의 분류자는 모두 "우수한" 매개 변수 내에 있을 수 있습니다. 이는 사용자가 오디오 드롭, 정적 또는 결함에 기여 하지 않았음을 의미 하지는 않습니다. 
+
+네트워크 문제 인지 확인 하려면 세션의 평균 값과 최대값 사이의 델타를 확인 합니다. 최대값은 세션 중에 검색 되 고 보고 된 최대 값입니다.
+ 
+이 문제를 해결 하는 방법의 예는 다음과 같습니다. 통화 중에 네트워크 추적을 취하고, 손실 된 패킷이 없기 때문에 패킷 1 개가 1.5 초와 나머지 통화에 좋은 경우를 예로 들어 보겠습니다. 평균은 Wireshark 추적 RTP 분석 에서도 10% (0.1) 패킷 손실로 진행 <됩니다. 최대 패킷 손실에는 어떤 것이 있나요? 5 초 기간의 1.5 초는 30% (0.3)입니다. 5 두 번째 샘플 기간 내에 발생 한 경우 (또는 샘플링 기간 동안 분할 될 수 있음)
+ 
+네트워크 메트릭이 평균 및 최대 값에 적합 한 경우 다른 원격 분석 데이터로 확인 합니다. 
+- CPU 불충분 이벤트 비율을 확인 하 여 감지 된 CPU 리소스를 사용할 수 있는지, 그리고 품질이 저하 되었는지 확인해 보세요. 
+- 스피커로 가까이 있는 마이크 때문에 피드백을 방지 하기 위해 반이중 모드의 오디오 장치는? 
+- Device 반이중 AEC 이벤트 비율을 확인 합니다. 허브 또는 도킹 스테이션에 연결 되었을 때 USB 오디오 낙하 때문에 장치 결함 또는 마이크 결함 소음 또는 정전기가 발생 했습니다.  
+- 장치 결함 및 마이크 결함 이벤트 비율을 확인 합니다. 장치 자체가 제대로 작동 했습니까?  
+- 캡처를 확인 하 고 작동 하지 않는 이벤트 비율이 장치를 렌더링 합니다.
+
+
+CQD 원격 분석에서 사용할 수 있는 차원과 측정값에 대 한 자세한 내용은 [통화 품질 대시보드에서 사용할 수 있는 차원과](dimensions-and-measures-available-in-call-quality-dashboard.md)측정값을 참조 하세요.
+
+배경 잡음을 위해 참가자가 음소거 된 시간을 보려면 음소거 이벤트 비율을 확인 하세요.
+ 
+CQD에서 자세한 보고서를 만들고 모임 ID를 필터링 하 여 모임에서 모든 사용자와 스트림을 보고 관심 있는 필드를 추가 합니다. 문제를 보고 하는 사용자가 문제가 발생 한 것이 아닐 수 있습니다. 귀하는 환경을 보고만 하 고 있습니다.
+ 
+원격 분석은 반드시 문제를 해결 하는 것은 아니지만, 의사 결정을 확인 하 고 알리는 위치를 보다 잘 파악 하는 데 도움이 될 수 있습니다. 네트워크, 장치, 드라이버 또는 펌웨어 업데이트, 사용 또는 사용자 인가요?
+
+
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>CQD v2 보고서 데이터가 CQD v3 보고서 데이터와 다르게 보이는 이유는 무엇 인가요? 
 
 CQD v2와 v3 간에 데이터 차이점이 표시 되는 경우, 집계 수준이 아닌 ' 사과 대 인 ' 및 좁은 수준에 대 한 데이터 비교가 나 유효성 검사가 수행 되도록 해야 합니다. 예를 들어, MSIT ' 건물 30 ' WiFi 팀 데스크톱 클라이언트 데이터에 대 한 보고서를 모두 필터링 하는 경우 낮은 품질의 백분율이 v2 및 v3에서 동일 해야 합니다.
@@ -481,3 +516,4 @@ CQD 보고서 (isTeams = 1) 에서만 팀을 필터링 하는 경우 *첫 번째
 [통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [통화 분석 및 통화 품질 대시보드](difference-between-call-analytics-and-call-quality-dashboard.md)
+ 
