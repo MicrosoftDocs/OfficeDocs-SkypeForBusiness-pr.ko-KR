@@ -15,12 +15,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b61052a7468e9fcc13f8c3812e1ec5c2aa21fb7a
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 43c22fcd7d6f578cd8f90188c67796b2c5018672
+ms.sourcegitcommit: ac811017d54a55f39ecc0e3a66a883d9e027ce68
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417613"
+ms.locfileid: "42547916"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -28,14 +28,10 @@ ms.locfileid: "42417613"
 
 ## <a name="it-admin-guidance"></a>IT 관리자 가이드
 
--  **[모든 사용자에 대해 Teams가 설정](assign-teams-licenses.md)** 되어 있는지 확인하세요.
+- 모든 사용자가 무료 6개월**[Office 365 E1 체험판](e1-trial-license.md)** 을 사용하여 평가판을 보유하거나**[Teams의 프리미엄 버전](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 에 액세스하여 Team에 액세스할 수 있도록 합니다. 도움이 필요한 경우 Microsoft 계정 팀 또는 파트너에게 연락하세요.
+
+-  Teams를 포함하는 구독이 이미 있는 경우에는 **모든 사용자를 위해 켭니다.[](assign-teams-licenses.md)**.
     
-- 모든 사용자가 사용할 수 있는 Teams 라이선스가 없는 경우 다음 중 하나를 사용하여 Teams가 모든 사용자에게 제공합니다.
-
-   - **[Teams 무료](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 또는 **[Teams E1 평가판](e1-trial-license.md)** 을 확인하세요. Teams E1 평가판을 사용하여 관리자는 Teams를 배포할 수 있습니다. 세부 정보는 Microsoft 계정 팀 또는 파트너에게 문의하세요.
-
-   - [Teams 예비](teams-exploratory.md)도 옵션이 될 수 있습니다. 
-
 - 조직에서 **[Teams에서 모임](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)** 을 시작하는 방법을 이해하세요. 
 
 자세한 내용은 [아래 원격 작업자를 지원하기 위한 추가 리소스](#additional-resources-for-supporting-remote-workers)를 참조하세요.
@@ -66,8 +62,14 @@ ms.locfileid: "42417613"
 
 ## <a name="additional-resources-for-supporting-remote-workers"></a>원격 작업자를 지원하기 위한 추가 리소스
 
+1. 당사가 정기적으로 업데이트 하고 있는 [(자주 묻는 질문: 원거리 인력 지원](FAQ-support-remote-workforce.md)를 검토합니다.
+
+2. [Office 365 E1 평가판](e1-trial-license.md) 및 [무료 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)외에도 무료 Teams 라이선스가 필요한 경우 [Teams Exploratory](teams-exploratory.md)가 선택 사항이될 수 있습니다.
+
 1. 직원들이 Teams에 적합한 인터넷 액세스와 대역폭을 보유하고 있는지 확인합니다. [Teams에 대한 조직의 네트워크 준비](prepare-network.md)의 지침을 사용하여 이 작업을 수행하는 방법을 알아보세요.
    - 제한된 대역폭은 Teams 모임의 오디오 품질에 영향을 미칠 수 있습니다. 저대역폭 조건 하에서 최고의 모임을 경험하기 위해, 사용자에게 비디오를 제한하고 통화 및 모임 오디오에 PSTN을 사용하도록 장려합니다. 
+
+   - 중국에 있는 경우 [중국 사용자를 위한 Office 365 전역 테넌트 성능 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)를 참조하세요.
 
    - 통화 또는 모임 품질 문제를 해결하는 데 도움이 필요한 경우에는 이 문서의 맨 아래에 있는 [알려진 문제 - 중국: 비즈니스용 Skype/Teams 회의에 전화 걸기](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)에 관한 지침을 따르세요.
 
@@ -90,6 +92,8 @@ ms.locfileid: "42417613"
 
       - [Office 365로 공동 작업하기](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
+      - [원격 작업에 대한 9가지 팁
+
 
 3.  모든 사람이 모바일 앱을 [설치](get-clients.md#mobile-clients)하고 사용하도록 장려하기: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) 또는 [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)
 
@@ -97,6 +101,7 @@ ms.locfileid: "42417613"
     > 중국에 있는 경우, 여기에 있는 [중국에서 Android용 Teams 받기](get-teams-android-in-china.md)로 이동하세요.
 
 8. Teams를 사용하여 직원들과 지속적으로 소통하세요.
+
    - [조직 전체 팀](create-an-org-wide-team.md) 및 [회사 커뮤니케이터](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) 앱 템플릿
     
    - 조직의 재택 근무 및 건강 및 안전 정책에 대한 정보를 보내세요.
