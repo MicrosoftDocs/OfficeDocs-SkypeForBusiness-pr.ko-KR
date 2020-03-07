@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 7d41218e75b24432e1f67ae1dc8344f8a76b8a50
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 4a66451a760e6d9e07c374e4ea900af4b0d78b36
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558658"
+ms.locfileid: "42559335"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -75,6 +75,7 @@ IT 전문가 및 의사 결정권자 용으로 설계 된 팀 분필은 팀에�
         </a>
     </li>
     <li>
+        <a href="https://aka.ms/ChalkTalkAppTemplates"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -85,11 +86,12 @@ IT 전문가 및 의사 결정권자 용으로 설계 된 팀 분필은 팀에�
                     </div>
                     <div class="cardText">
                         <h3>60 분 내에 팀 앱 배포</h3>
-                        <p><font color="red"><i>개봉박두!</i></font> 앱 서식 파일을 사용 하 여 팀을 확장 하 여 매일 사용 하는 도구를 팀에 만들어 단일 환경 내에서 작업을 완료할 수 있습니다.</p>
+                        <p>앱 서식 파일을 사용 하 여 팀을 확장 하 여 매일 사용 하는 도구를 팀에 만들어 단일 환경 내에서 작업을 완료할 수 있습니다.</p>
                     </div>
                 </div>
             </div>
         </div>
+        </a>
     </li>
     <li>
         <div class="cardSize">

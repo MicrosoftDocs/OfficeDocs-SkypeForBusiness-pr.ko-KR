@@ -1,0 +1,56 @@
+---
+title: Power BI를 사용 하 여 Microsoft 팀에 대 한 CQD 데이터 분석
+ms.author: lolaj
+author: LolaJacobsen
+manager: serdars
+ms.reviewer: siunies
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+ms.collection:
+- M365-voice
+search.appverid: MET150
+audience: Admin
+appliesto:
+- Microsoft Teams
+localization_priority: Normal
+description: Power BI를 사용 하 여 Microsoft 팀에 대 한 CQD 데이터를 분석 하세요.
+ms.openlocfilehash: d737f321ea8684ffe99b50575b1b2e8d044804d0
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559622"
+---
+# <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a><span data-ttu-id="4ddcf-103">Power BI를 사용 하 여 Microsoft 팀에 대 한 CQD 데이터 분석</span><span class="sxs-lookup"><span data-stu-id="4ddcf-103">Use Power BI to analyze CQD data for Microsoft Teams</span></span>
+
+<span data-ttu-id="4ddcf-104">T e 2020의 새로운 [기능: CQD 용 POWER BI 쿼리 서식 파일을 다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)합니다.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-104">New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).</span></span> <span data-ttu-id="4ddcf-105">CQD 데이터를 분석 하 고 보고 하는 데 사용할 수 있는 사용자 지정 가능한 Power BI 서식 파일입니다.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-105">Customizable Power BI templates you can use to analyze and report your CQD data.</span></span>
+
+<span data-ttu-id="4ddcf-106">팀의 CQD 보고서의 경우 Power BI를 사용 하 여 데이터를 쿼리하고 보고 하려면 CQD Power BI 서식 파일을 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-106">For CQD reports in Teams, if you’d rather use Power BI to query and report your data, download our CQD Power BI templates.</span></span> <span data-ttu-id="4ddcf-107">Power BI에서 서식 파일을 열면 CQD 관리자 자격 증명을 사용 하 여 로그인 하 라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-107">When you open the templates in Power BI, you’ll be prompted to sign in with your CQD admin credentials.</span></span> <span data-ttu-id="4ddcf-108">이러한 쿼리 서식 파일을 사용자 지정 하 고 Power BI 라이선스 및 CQD 관리자 권한이 있는 조직의 모든 사용자에 게 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-108">You can customize these query templates and distribute them to anyone in your organization who has a Power BI license and CQD admin permissions.</span></span>
+
+<span data-ttu-id="4ddcf-109">이러한 .PBIX 파일을 사용 하려면 [다운로드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)에 포함 된 *MicrosoftCallQuality* 파일을 사용 하 여 [Microsoft CQD 용 Power BI 커넥터를 설치](CQD-Power-BI-connector.md) 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-109">Before you can use these PBIX files, you’ll need to [Install the Power BI Connector for Microsoft CQD](CQD-Power-BI-connector.md) using the *MicrosoftCallQuality.pqx* file included in the [download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).</span></span> 
+
+
+|  |  |
+|---------|---------|
+|<span data-ttu-id="4ddcf-110">CQD 헬프데스크 보고서. .pbix</span><span class="sxs-lookup"><span data-stu-id="4ddcf-110">CQD Helpdesk Report.pbix</span></span>     |<span data-ttu-id="4ddcf-111">빌드 및 EUII 데이터 통합이 보고서는 단일 사용자에 게 드릴 다운 하 여 해당 사용자에 대 한 잘못 된 통화 품질의 업스트림 근본 원인을 찾을 수 있도록 설계 되었습니다 (예: 사용자가 네트워크 문제가 발생 하는 건물에 있는 경우).</span><span class="sxs-lookup"><span data-stu-id="4ddcf-111">Integrating building and EUII data, this report is designed to let you drill up from a single user to find the upstream root cause of poor call quality for that user (for example, the user is in a building that’s experiencing network problems).</span></span>         |
+|<span data-ttu-id="4ddcf-112">CQD 위치 향상 보고서. .pbix</span><span class="sxs-lookup"><span data-stu-id="4ddcf-112">CQD Location Enhanced Report.pbix</span></span>     | <span data-ttu-id="4ddcf-113">CQD SPD 위치 보고서를 다시 구상.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-113">Re-imagining CQD SPD location reports.</span></span> <span data-ttu-id="4ddcf-114">건물 또는 사용자를 기준으로 추가 드릴 thrus와의 통화 음질, WiFi 빌드, 안정성, 내 통화 속도 (RMC) 정보를 제공 하는 9 개의 보고서가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-114">Includes 9 reports, providing Call Quality, Building WiFi, Reliability, and Rate My Call (RMC) information with additional drill-thrus by Building or by User.</span></span>        |
+|<span data-ttu-id="4ddcf-115">CQD 모바일 장치 보고서. .pbix</span><span class="sxs-lookup"><span data-stu-id="4ddcf-115">CQD Mobile Device Report.pbix</span></span>     | <span data-ttu-id="4ddcf-116">통화 음질, 안정성, 내 통화 요금을 비롯 한 모바일 장치 사용자에 게 구체적으로 조정 되는 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-116">Provides insights specifically tuned towards mobile device users, including Call Quality, Reliability, and Rate My Call.</span></span> <span data-ttu-id="4ddcf-117">모바일 네트워크, WiFi 네트워크, 모바일 운영 체제 보고서 (Android, iOS)를 봅니다.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-117">View mobile network, WiFi network, and mobile operating system reports (Android, iOS).</span></span>        |
+|<span data-ttu-id="4ddcf-118">CQD PSTN 다이렉트 라우팅 보고서. .pbix</span><span class="sxs-lookup"><span data-stu-id="4ddcf-118">CQD PSTN Direct Routing Report.pbix</span></span>     |<span data-ttu-id="4ddcf-119">직접 라우팅을 통과 하는 PSTN 호출에 대 한 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-119">Provides insights specific for PSTN calls that go through Direct Routing.</span></span> <span data-ttu-id="4ddcf-120">자세한 내용은 [CQD PSTN 다이렉트 라우팅 보고서를 사용 하](CQD-PSTN-report.md)여 읽어 보세요.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-120">To learn more, read [Using the CQD PSTN Direct Routing Report](CQD-PSTN-report.md).</span></span>         |
+|<span data-ttu-id="4ddcf-121">CQD 요약 보고서. .pbix</span><span class="sxs-lookup"><span data-stu-id="4ddcf-121">CQD Summary Report.pbix</span></span>     |<span data-ttu-id="4ddcf-122">향상 된 시각화, 향상 된 프레젠테이션, 증가 하는 정보 조밀도 및 롤링 날짜</span><span class="sxs-lookup"><span data-stu-id="4ddcf-122">Better visualizations, improved presentation, increased information density, and rolling dates.</span></span> <span data-ttu-id="4ddcf-123">이러한 보고서를 사용 하면 식별자가 이상 이상 하 게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-123">These reports make it easier to identifier outliers.</span></span> <span data-ttu-id="4ddcf-124">편리한 대화형 지도를 사용 하 여 통화 품질을 위치에 따라 드릴 하세요.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-124">Drill into call quality by location with an easy-to-use interactive map.</span></span> <span data-ttu-id="4ddcf-125">9 개의 새 보고서:</span><span class="sxs-lookup"><span data-stu-id="4ddcf-125">9 new reports:</span></span></p><span data-ttu-id="4ddcf-126">-전체 품질</span><span class="sxs-lookup"><span data-stu-id="4ddcf-126">- Quality Overall</span></span><br><span data-ttu-id="4ddcf-127">-안정성 전반적</span><span class="sxs-lookup"><span data-stu-id="4ddcf-127">- Reliability Overall</span></span><br><span data-ttu-id="4ddcf-128">-RMC (통화 요금 평가) 전체</span><span class="sxs-lookup"><span data-stu-id="4ddcf-128">- RMC (Rate My Call) Overall</span></span><br><span data-ttu-id="4ddcf-129">-컨퍼런스 음질</span><span class="sxs-lookup"><span data-stu-id="4ddcf-129">- Conference Quality</span></span><br><span data-ttu-id="4ddcf-130">-P2P 품질</span><span class="sxs-lookup"><span data-stu-id="4ddcf-130">- P2P Quality</span></span><br><span data-ttu-id="4ddcf-131">-컨퍼런스 안정성</span><span class="sxs-lookup"><span data-stu-id="4ddcf-131">- Conference Reliability</span></span><br><span data-ttu-id="4ddcf-132">-P2P 안정성</span><span class="sxs-lookup"><span data-stu-id="4ddcf-132">- P2P Reliability</span></span><br><span data-ttu-id="4ddcf-133">-컨퍼런스 RMC</span><span class="sxs-lookup"><span data-stu-id="4ddcf-133">- Conference RMC</span></span><br><span data-ttu-id="4ddcf-134">-P2P RMC</span><span class="sxs-lookup"><span data-stu-id="4ddcf-134">- P2P RMC</span></span>         |
+|<span data-ttu-id="4ddcf-135">**(신규!)** CQD 팀 이용률 보고서. .pbix</span><span class="sxs-lookup"><span data-stu-id="4ddcf-135">**(New!)** CQD Teams Utilization Report.pbix</span></span>     | <span data-ttu-id="4ddcf-136">조직의 사용자가 팀을 사용 하는 방법과 사용량을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-136">Shows how users in your organization are using Teams and how much.</span></span> <span data-ttu-id="4ddcf-137">자세한 내용은 [CQD POWER BI 보고서를 참조 하 여 Microsoft 팀의 이용률을 확인](CQD-teams-utilization-report.md)하세요.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-137">To learn more, read [Use CQD Power BI report to view Microsoft Teams utilization](CQD-teams-utilization-report.md).</span></span>        |
+|<span data-ttu-id="4ddcf-138">CQD 사용자 피드백 (내 통화 요금) 보고서. .pbix</span><span class="sxs-lookup"><span data-stu-id="4ddcf-138">CQD User Feedback (Rate My Call) Report.pbix</span></span>     | <span data-ttu-id="4ddcf-139">조직에 대 한 통화 지원에 쉽게 사용할 수 있는 방식으로 내 통화 데이터의 요금을 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-139">Shows Rate My Call data in a way that you can easily use to help support calling for your organization.</span></span> <span data-ttu-id="4ddcf-140">Verbatims와 상호 참조를 사용 하 여 최종 사용자 교육 기회를 식별 합니다.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-140">Cross reference with verbatims to identify end user education opportunities.</span></span>        |
+
+
+## <a name="related-topics"></a><span data-ttu-id="4ddcf-141">관련 항목</span><span class="sxs-lookup"><span data-stu-id="4ddcf-141">Related topics</span></span>
+
+[<span data-ttu-id="4ddcf-142">통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값</span><span class="sxs-lookup"><span data-stu-id="4ddcf-142">Dimensions and measures available in Call Quality Dashboard</span></span>](dimensions-and-measures-available-in-call-quality-dashboard.md)
+
+[<span data-ttu-id="4ddcf-143">통화 품질 대시보드의 분류 간소화</span><span class="sxs-lookup"><span data-stu-id="4ddcf-143">Stream Classification in Call Quality Dashboard</span></span>](stream-classification-in-call-quality-dashboard.md)
+
+[<span data-ttu-id="4ddcf-144">비즈니스용 Skype 통화 분석 설정</span><span class="sxs-lookup"><span data-stu-id="4ddcf-144">Set up Skype for Business Call Analytics</span></span>](set-up-call-analytics.md)
+
+[<span data-ttu-id="4ddcf-145">통화 분석을 사용하여 통화 품질 저하 문제 해결</span><span class="sxs-lookup"><span data-stu-id="4ddcf-145">Use Call Analytics to troubleshoot poor call quality</span></span>](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+
+[<span data-ttu-id="4ddcf-146">통화 분석 및 통화 품질 대시보드</span><span class="sxs-lookup"><span data-stu-id="4ddcf-146">Call Analytics and Call Quality Dashboard</span></span>](difference-between-call-analytics-and-call-quality-dashboard.md)
+ 
