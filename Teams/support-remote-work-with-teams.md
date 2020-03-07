@@ -15,12 +15,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c22fcd7d6f578cd8f90188c67796b2c5018672
-ms.sourcegitcommit: ac811017d54a55f39ecc0e3a66a883d9e027ce68
+ms.openlocfilehash: 26a6c739212b4f1b8564dfe0b8e412d4e8f0e615
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547916"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551055"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -28,7 +28,7 @@ ms.locfileid: "42547916"
 
 ## <a name="it-admin-guidance"></a>IT 관리자 가이드
 
-- 모든 사용자가 무료 6개월**[Office 365 E1 체험판](e1-trial-license.md)** 을 사용하여 평가판을 보유하거나**[Teams의 프리미엄 버전](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 에 액세스하여 Team에 액세스할 수 있도록 합니다. 도움이 필요한 경우 Microsoft 계정 팀 또는 파트너에게 연락하세요.
+- 모든 사용자가 무료 6개월**[Office 365 E1 제공](e1-trial-license.md)** 을 사용하여 평가판을 보유하거나**[Teams의 프리미엄 버전](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 에 액세스하여 Team에 액세스할 수 있도록 합니다. 도움이 필요한 경우 Microsoft 계정 팀 또는 파트너에게 연락하세요.
 
 -  Teams를 포함하는 구독이 이미 있는 경우에는 **모든 사용자를 위해 켭니다.[](assign-teams-licenses.md)**.
     
@@ -39,13 +39,13 @@ ms.locfileid: "42547916"
 
 ## <a name="end-user-communications"></a>최종 사용자 커뮤니케이션
 
-사용자에게 Teams를 배포할 준비가 되었나요? 다음과 같은 멋진 전자 메일 템플릿을 포함하는 **[고객 성공 킷](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)** 를 다운로드하세요.
+사용자에게 Teams를 배포할 준비가 되었나요? 다음과 같은 멋진 전자 메일 템플릿을 포함하는 **[고객 성공 킷](https://aka.ms/TeamsCustomerSuccess)** 를 다운로드하세요.
 
 - **공지 사항 전자 메일**을 사용하여 Teams가 사용 가능하다는 것을 사용자에게 알립니다.
 
 - 사용자가 빠르게 생산성을 유지할 수 있도록 **Teams 첫 번째 날 전자 메일**을 보내세요.
 
-- 몇 일 후에는 사용자가 Teams를 최대한 활용하는 데 도움이 되는 **팁과 트릭 전자 메일**을 보내세요.
+- 며칠 후에는 사용자가 Teams를 최대한 활용하는 데 도움이 되는 **팁과 트릭 전자 메일**을 보내세요.
 
 ## <a name="end-user-guidance"></a>최종 사용자 가이드
 
@@ -67,6 +67,7 @@ ms.locfileid: "42547916"
 2. [Office 365 E1 평가판](e1-trial-license.md) 및 [무료 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)외에도 무료 Teams 라이선스가 필요한 경우 [Teams Exploratory](teams-exploratory.md)가 선택 사항이될 수 있습니다.
 
 1. 직원들이 Teams에 적합한 인터넷 액세스와 대역폭을 보유하고 있는지 확인합니다. [Teams에 대한 조직의 네트워크 준비](prepare-network.md)의 지침을 사용하여 이 작업을 수행하는 방법을 알아보세요.
+
    - 제한된 대역폭은 Teams 모임의 오디오 품질에 영향을 미칠 수 있습니다. 저대역폭 조건 하에서 최고의 모임을 경험하기 위해, 사용자에게 비디오를 제한하고 통화 및 모임 오디오에 PSTN을 사용하도록 장려합니다. 
 
    - 중국에 있는 경우 [중국 사용자를 위한 Office 365 전역 테넌트 성능 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)를 참조하세요.
@@ -76,9 +77,10 @@ ms.locfileid: "42547916"
 2.  직원들이 Teams를 최대한 활용할 수 있도록 [교육 링크를 보내세요](enduser-training.md).
 
 3. 세부 정보: Teams 배포에 대해 자세히 알아보기
+
    - 중간 규모의 조직(500-5000명의 사용자)인 경우 [대화형 워크샵](teams-in-30-workshops.md) 라이브로 Teams 여정을 시작하세요.
 
-   - [온라인 수업](instructor-led-training-teams-landing-page.md) 중 하나에 참여하여 Teams가 실제로 작동하는 모습을 확인하고 질문에 대한 답변을 받으세요.  
+   - [온라인 수업](instructor-led-training-teams-landing-page.md) 중 하나에 참여하여 Teams가 실제로 작동하는 모습을 확인하고 질문에 대한 답변을 받으세요.
 
    - 자세한 정보를 알고 싶어하는 사용자와 [자세한 교육용 비디오](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)를 공유합니다.
 
@@ -92,7 +94,7 @@ ms.locfileid: "42547916"
 
       - [Office 365로 공동 작업하기](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
-      - [원격 작업에 대한 9가지 팁
+      - [원격 작업에 대한 9가지 팁](https://www.microsoft.com/tips/home/working-remotely)
 
 
 3.  모든 사람이 모바일 앱을 [설치](get-clients.md#mobile-clients)하고 사용하도록 장려하기: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) 또는 [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)
@@ -113,6 +115,7 @@ ms.locfileid: "42547916"
 7. Teams 관리자 역할을 처음으로 수행하는 경우에는 [Teams 관리자 교육](itadmin-readiness.md)을 참조하세요.
 
 
+1. 사용자에게 보고 들을 수 있는 장치가 있는지 확인합니다. 개인 및 공유 공간을 위한 [Teams 인증 장치](https://aka.ms/TeamsDevices)를 확인하세요.
 
 
 ### <a name="known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids"></a>알려진 문제 - 중국: 비즈니스용 Skype 또는 Teams 회의 ID에 전화 걸기
