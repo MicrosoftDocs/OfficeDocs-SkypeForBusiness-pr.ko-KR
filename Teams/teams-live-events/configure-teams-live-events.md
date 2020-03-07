@@ -1,7 +1,7 @@
 ---
 title: Microsoft 팀에서 실시간 이벤트 설정 구성
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cdfd1bc832827dbcf48e82a49ed4d02c38116bb
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 222e7e51fcf87e0e76c3ab18f33357f7489a1ce1
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827146"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558598"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 설정 구성
 
@@ -38,7 +38,7 @@ Microsoft 팀 관리 센터에서 이러한 설정을 쉽게 관리할 수 있�
 
 이 URL은 live 이벤트 참석자에 게 표시 됩니다. 라이브 이벤트 중에 참석자에 게 고객 지원에 연락할 수 있는 방법을 제공 하는 조직의 지원 URL을 추가 합니다.
 
-### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Microsoft 팀 로고를 표시 하는 아이콘](../media/teams-logo-30x30.png) Microsoft 팀 관리 센터 사용
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft 팀 로고를 표시 하는 아이콘](../media/teams-logo-30x30.png) Microsoft 팀 관리 센터 사용
 
 1. 왼쪽 탐색 창에서 **모임** > **라이브 이벤트 설정**으로 이동 합니다.
 2. **지원 url**에서 조직의 지원 url을 입력 합니다. 
@@ -55,7 +55,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 Microsoft 비디오 배달 파트너를 통해 SDN (소프트웨어 정의 네트워크) 솔루션 또는 eCDN (enterprise content delivery network) 솔루션을 구입한 경우 팀에서 실시간 이벤트에 대 한 공급자를 구성 합니다. 
 
-### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Microsoft 팀 로고를 표시 하는 아이콘](../media/teams-logo-30x30.png) Microsoft 팀 관리 센터 사용
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft 팀 로고를 표시 하는 아이콘](../media/teams-logo-30x30.png) Microsoft 팀 관리 센터 사용
 
 1. 왼쪽 탐색 창에서 **모임** > **라이브 이벤트 설정**으로 이동 합니다.
 2. **타사 비디오 배포 공급자**아래에서 다음을 수행 합니다. 

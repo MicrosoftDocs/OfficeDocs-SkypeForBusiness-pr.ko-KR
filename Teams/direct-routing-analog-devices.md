@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 이 문서에서는 Microsoft 전화 시스템 다이렉트 라우팅으로 아날로그 장치를 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 45128b8806644e4399687787bcce251ccb807d85
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341795"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558518"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>전화 시스템 다이렉트 라우팅과 함께 아날로그 장치를 사용 하는 방법
 
@@ -39,16 +39,17 @@ ms.locfileid: "42341795"
 
 이 예제에서는 다음 단계를 안내 합니다.
 
-1. 직접 라우팅에 SBC 연결
-2. PSTN 사용 만들기
-3. 음성 경로를 만들어 PSTN 사용에 연결
-4. PSTN 사용에 음성 경로 할당
-5. 온라인 사용자 설정
-6. 사용자에 게 음성 경로 정책 할당
-7. 아날로그 장치에 대 한 음성 경로 만들기
+1. 직접 라우팅에 SBC를 연결 합니다.
+2. PSTN 사용을 만듭니다.
+3. 음성 경로를 만들어 PSTN 사용에 연결 합니다.
+4. PSTN 사용에 음성 경로를 할당 합니다.
+5. 온라인 사용자를 사용 하도록 설정 합니다.
+6. 사용자에 게 음성 경로 정책을 할당 합니다.
+7. 아날로그 장치에 대 한 음성 경로를 만듭니다.
 
 ATA를 SBC에 연결 하 고 SBC를 구성 하는 방법에 대 한 자세한 내용은 SBC 제조업체 구성 가이드를 참조 하세요.
 - [오디오 코드 구성 설명서](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
+- [리본 메뉴 구성 문서](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 
 ## <a name="step-1--connect-the-sbc-to-direct-routing"></a>1 단계.  직접 라우팅에 SBC 연결
 

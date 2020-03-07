@@ -19,12 +19,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Microsoft 팀에 대해 인증 된 IP 데스크 및 전화 회의 전화
-ms.openlocfilehash: a02082719e509ed38646915a8ce5388837ceca26
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.openlocfilehash: bca9cc1180febf4d3d218548f83705879bb852ec
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327970"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558558"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -52,12 +52,18 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 |Poly CCX400 | 1.0.0.0200 | 2020 년 1 월|
 |Poly CCX600 | 5.9.12.1111| 2020 년 1 월|
 |Poly CCX500 | 5.9.12.1111| 2019 년 12 월|
-|옛 alink VC210| 118.15.0.14|2020 년 2 월|
 |옛 alink VP59 | 91.15.0.16 |2019 년 6 월|
 |옛 alink T55 | 58.15.0.36 |2019 년 5 월|
 |옛 alink CP 960 |73.15.0.20|2018 년 12 월|
 |옛 alink T58 & T56 시리즈 |58.15.0.20|2018 년 12 월|
 
+## <a name="certified-collaboration-bars"></a>인증 된 공동 작업 모음
+
+다음 공동 작업 모음은 Microsoft 팀에 대해 인증 됩니다.
+
+|공동 작업 표시줄 모델|펌웨어 버전|릴리스 날짜 |
+|:---|:---|:---|
+|옛 alink VC210| 118.15.0.14|2020 년 2 월|
 
 이러한 장치에서 지원 되는 기능에 대 한 정보는 [Microsoft 팀 전화 기능 집합](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set) 을 참조 하세요.
 
