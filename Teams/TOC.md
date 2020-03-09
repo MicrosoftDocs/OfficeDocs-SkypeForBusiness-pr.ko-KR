@@ -672,6 +672,11 @@
 ### [통화 분석 설정](set-up-call-analytics.md)
 ### [통화 분석을 사용하여 통화 품질 저하 문제 해결](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 ### [통화 품질 대시보드 켜기 및 사용](turning-on-and-using-call-quality-dashboard.md)
+### Power BI를 사용하여 CQD 데이터 분석
+#### [Power BI를 사용하여 CQD 데이터 분석](CQD-Power-BI-query-templates.md)
+#### [CQD 쿼리 서식 파일을 사용하기 위해 Power BI 커넥터 설치](CQD-Power-BI-connector.md)
+#### [Teams 사용률에 대한 CQD 데이터 가져오기](CQD-teams-utilization-report.md)
+#### [CQD PSTN 보고서 사용](CQD-PSTN-report.md)
 ### [통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [통화 품질 대시보드의 분류 간소화](stream-classification-in-call-quality-dashboard.md)
 ## [설치 및 업데이트 문제 해결](troubleshoot-installation.md)
