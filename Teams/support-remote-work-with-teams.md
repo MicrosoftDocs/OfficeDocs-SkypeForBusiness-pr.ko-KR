@@ -15,12 +15,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26a6c739212b4f1b8564dfe0b8e412d4e8f0e615
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 011522533a5a1a0641afb3da4421a8ae8e6c6715
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551055"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558638"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -93,6 +93,8 @@ ms.locfileid: "42551055"
       - Teams 블로그 (2020년 2월 28일): [Microsoft Teams로 집에서 작업하는 4가지 팁](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
       - [Office 365로 공동 작업하기](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
+
+      - [Office 365로 원격 작업](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
 
       - [원격 작업에 대한 9가지 팁](https://www.microsoft.com/tips/home/working-remotely)
 
