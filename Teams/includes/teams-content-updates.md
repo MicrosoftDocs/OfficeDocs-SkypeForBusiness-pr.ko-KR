@@ -3,6 +3,53 @@
 
 
 
+## <a name="week-of-march-02-2020"></a>1 월 2 일, 2020
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 3/3/2020 | [무료 Office 365 E1 평가판 관리](/MicrosoftTeams/e1-trial-license) | 으 |
+| 3/3/2020 | [릴리스 정보](/MicrosoftTeams/rooms/rooms-release-note) | 으 |
+| 3/3/2020 | [Microsoft Teams 예비 환경 관리](/MicrosoftTeams/teams-exploratory) | 으 |
+| 3/3/2020 | [Microsoft 팀의 개인 채널 수명 주기 관리](/MicrosoftTeams/private-channels-life-cycle-management) | 으 |
+| 3/3/2020 | [Microsoft 팀의 최종 사용자 교육](/MicrosoftTeams/enduser-training) | 으 |
+| 3/4/2020 | [모임 설정 관리](/MicrosoftTeams/meeting-settings-in-teams) | 으 |
+| 3/4/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/remote-learning-edu) | 으 |
+| 3/4/2020 | [Microsoft Teams를 사용하여 원격 작업자 지원하기](/MicrosoftTeams/support-remote-work-with-teams) | 으 |
+| 3/4/2020 | [Microsoft 팀 분필 통신](/MicrosoftTeams/chalk-talks-landing-page) | 으 |
+| 3/4/2020 | [동적인 긴급 전화 구성](/MicrosoftTeams/configure-dynamic-emergency-calling) | 으 |
+| 3/4/2020 | [직접 라우팅으로 인증된 SBC(Session Border Controller) 목록](/MicrosoftTeams/direct-routing-border-controllers) | 으 |
+| 3/4/2020 | [미국의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 으 |
+| 3/4/2020 | [Microsoft 팀의 개인 채널 수명 주기 관리](/MicrosoftTeams/private-channels-life-cycle-management) | 으 |
+| 3/4/2020 | [Microsoft 팀에 대 한 경험 치 검토 가이드](/MicrosoftTeams/quality-of-experience-review-guide) | 으 |
+| 3/4/2020 | [Azure Monitor를 사용 하 여 Microsoft 팀 공간 관리 배포](/MicrosoftTeams/rooms/azure-monitor-deploy) | 으 |
+| 3/4/2020 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
+| 3/4/2020 | [팀 (30 개)](/MicrosoftTeams/teams-in-30-workshops) | 으 |
+| 3/5/2020 | [직접 라우팅으로 인증된 SBC(Session Border Controller) 목록](/MicrosoftTeams/direct-routing-border-controllers) | 으 |
+| 3/5/2020 | [Microsoft 팀의 페더레이션 (외부 액세스) 관리](/MicrosoftTeams/manage-external-access) | 으 |
+| 3/5/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/remote-learning-edu) | 으 |
+| 3/5/2020 | [Microsoft Teams를 사용하여 원격 작업자 지원하기](/MicrosoftTeams/support-remote-work-with-teams) | 으 |
+| 3/5/2020 | [Microsoft 팀 관리자 역할을 사용 하 여 팀 관리](/MicrosoftTeams/using-admin-roles) | 으 |
+| 3/5/2020 | [채택을 위한 도구 및 다운로드](/MicrosoftTeams/adopt-tools-and-downloads) | 으 |
+| 3/5/2020 | [Microsoft 팀 사용자 채택 계획 \| 모범 사례](/MicrosoftTeams/continue-journey) | 으 |
+| 3/5/2020 | [Microsoft 팀의 태그 관리](/MicrosoftTeams/manage-tags) | 으 |
+| 3/5/2020 | [도구 및 워크샵-Microsoft 팀 계획, 제공 및 채택](/MicrosoftTeams/planning-workshop-practical-guide) | 으 |
+| 3/5/2020 | [Microsoft 팀에서 첫 번째 팀 만들기](/MicrosoftTeams/teams-adoption-your-first-teams) | 으 |
+| 3/6/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/remote-learning-edu) | 으 |
+| 3/6/2020 | [자주 묻는 질문(FAQ) - 원격 작업자 지원](/MicrosoftTeams/faq-support-remote-workforce) | 으 |
+| 3/6/2020 | [Microsoft 팀 분필 통신](/MicrosoftTeams/chalk-talks-landing-page) | 으 |
+| 3/6/2020 | [직접 라우팅-아날로그 장치 연결](/MicrosoftTeams/direct-routing-analog-devices) | 으 |
+| 3/6/2020 | [Microsoft Teams를 사용하여 원격 작업자 지원하기](/MicrosoftTeams/support-remote-work-with-teams) | 으 |
+| 3/6/2020 | [팀 (30 개)](/MicrosoftTeams/teams-in-30-workshops) | 으 |
+| 3/6/2020 | [팀 용 전화 및 장치](/MicrosoftTeams/teams-ip-phones) | 으 |
+| 3/6/2020 | [Microsoft 팀에서 실시간 이벤트 설정 구성](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 으 |
+| 3/6/2020 | [Microsoft 팀에서 실시간 이벤트 계획](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 으 |
+| 3/6/2020 | [PowerShell을 사용 하 여 Microsoft 팀에서 실시간 이벤트 정책 설정](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 으 |
+| 3/6/2020 | [Microsoft 팀에서 실시간 이벤트 설정](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 으 |
+| 3/6/2020 | [Microsoft 팀 live 이벤트는 무엇 인가요?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 으 |
+| 3/6/2020 | [통화 품질 대시보드 켜기 및 사용](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 으 |
+
+
 ## <a name="week-of-february-17-2020"></a>2 월 17 일 1 주 2020
 
 
@@ -27,11 +74,11 @@
 | 2/25/2020 | PowerShell 스크립트 샘플-Microsoft 팀 배포 정리 지원 | 제거할 |
 | 2/25/2020 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
 | 2/25/2020 | [직접 라우팅으로 인증된 SBC(Session Border Controller) 목록](/MicrosoftTeams/direct-routing-border-controllers) | 으 |
-| 2/25/2020 | [교육 관리자를 위한 Microsoft 팀 리소스](/MicrosoftTeams/resources-teams-edu) | 으 |
+| 2/25/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/resources-teams-edu) | 으 |
 | 2/26/2020 | [Exchange 및 Microsoft 팀의 상호 작용 방식](/MicrosoftTeams/exchange-teams-interact) | 으 |
 | 2/26/2020 | [시작 마법사를 사용하여 Business Voice 설정하기](/MicrosoftTeams/business-voice/use-getting-started-wizard) | 으 |
 | 2/26/2020 | [Microsoft 팀의 채팅, 팀, 채널, & 앱](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 으 |
-| 2/26/2020 | [교육 관리자를 위한 Microsoft 팀 리소스](/MicrosoftTeams/resources-teams-edu) | 으 |
+| 2/26/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/resources-teams-edu) | 으 |
 | 2/26/2020 | [Microsoft 팀의 보안 및 준수에 대 한 개요](/MicrosoftTeams/security-compliance-overview) | 으 |
 | 2/26/2020 | [Microsoft 팀에서 조직 전체 팀 만들기](/MicrosoftTeams/create-an-org-wide-team) | 으 |
 | 2/26/2020 | [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 으 |
@@ -50,7 +97,7 @@
 | 2/27/2020 | [팀 용 전화 및 장치](/MicrosoftTeams/teams-ip-phones) | 으 |
 | 2/27/2020 | [Microsoft 팀 관리자 역할을 사용 하 여 팀 관리](/MicrosoftTeams/using-admin-roles) | 으 |
 | 2/28/2020 | [PSTN 서비스 데스크에 문의](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 으 |
-| 2/28/2020 | [Microsoft Teams를 사용하여 원격 작업자 지원](/MicrosoftTeams/support-remote-work-with-teams) | 으 |
+| 2/28/2020 | [Microsoft Teams를 사용하여 원격 작업자 지원하기](/MicrosoftTeams/support-remote-work-with-teams) | 으 |
 | 2/28/2020 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
 | 2/28/2020 | [Microsoft 팀에서 이벤트 감사 로그 검색](/MicrosoftTeams/audit-log-events) | 으 |
 | 2/28/2020 | [직접 라우팅-아날로그 장치 연결](/MicrosoftTeams/direct-routing-analog-devices) | 으 |
