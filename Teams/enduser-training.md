@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29b01c5d5bbbf386e834cf89cc2d80bff07de1ab
-ms.sourcegitcommit: 0286eec17b7eea486b857a69fb6c6166ef0799d2
+ms.openlocfilehash: 72e8543d4d279796051ae24a728092fc236b13e3
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42408853"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574015"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft 팀의 최종 사용자 교육
 
@@ -278,7 +278,7 @@ ms.locfileid: "42408853"
                 <div class="card">
                     <div class="cardText">
                         <h3>팀 팁 & 요령</h3>
-                        <p><a href="https://support.office.com/office-training-center/Teams-tips">문서: 팀 팁 & 요령</a></p>
+                        <p><a href="https://www.microsoft.com/tips/home">문서: 팀 팁 & 요령</a></p>
                     </div>
                 </div>
             </div>

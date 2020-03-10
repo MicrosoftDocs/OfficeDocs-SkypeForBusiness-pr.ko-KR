@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 182b7178cf24b786e81afd9181c9275541857486
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 094f3db845109538df4652c3f1e990465c670918
+ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558608"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574431"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -147,8 +147,8 @@ ms.locfileid: "42558608"
                     </div>
                     <div class="cardText">
                     <h3>팀 분필 통신</h3>
-                    <p>실무 전문가의 도움을 받을 수 있는 이러한 온라인 대화형 워크샵은 팀에서 가장 인기 있고 멋진 시나리오에 대 한 모범 사례와 실용적인 지침을 배우기 위한 고유한 기회를 제공 합니다.</p>
-                    <p><strong>전제 조건</strong>: 30 개 워크샵의 팀. 분필은이 페이지에서 찾은 워크샵에 대 한 정보를 작성 합니다.</p>
+                    <p>실무 전문가의 도움을 받을 수 있는 이러한 온라인 대화형 워크샵은 팀에서 가장 인기 있고 멋진 시나리오에 대 한 모범 사례와 실용적인 지침을 배우기 위한 고유한 기회를 제공 합니다. 분필은 기본 팀 롤아웃을 완료 했다고 가정 합니다.</p>
+                    <p><strong>필수 구성 요소</strong>: 팀의 30 개 워크숍에 참여 중이거나 조직 전체의 팀에 대해 이미 사용 하도록 설정 했습니다.</p>
                     <p><i>대상 그룹: IT 관리자</i></p>
                     </div>
                 </div>
