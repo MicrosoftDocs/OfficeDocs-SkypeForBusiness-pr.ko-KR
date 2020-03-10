@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Exchange Online을 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 9368a21d581b87bc71606ba4c7ccb035c3254cde
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d909174712ba27efdc5e4c5427c51c67049b8e92
+ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827876"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42572886"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online을 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -47,10 +47,10 @@ AD FS (Active Directory Federation Services)를 배포한 경우 다음 단계�
 
     ``` Powershell
     Set-ExecutionPolicy Unrestricted
-    $org='contoso.microsoft.com'
-    $cred=Get-Credential $admin@$org
-    $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
-    Import-PSSession $Session -DisableNameChecking
+    $org = 'contoso.microsoft.com'
+    $cred = Get-Credential $admin@$org
+    $sess = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic -AllowRedirection
+    Import-PSSession $sess -DisableNameChecking
     ```
 
 2. 세션을 설정한 후 새 사서함을 만들고이를 RoomMailboxAccount 사용 하도록 설정 하거나 기존 회의실 사서함에 대 한 설정을 변경할 수 있습니다. 이렇게 하면 계정이 Microsoft 팀 방에 인증 될 수 있습니다.
@@ -120,8 +120,9 @@ AD FS (Active Directory Federation Services)를 배포한 경우 다음 단계�
 1. PC에서 원격 Windows PowerShell 세션을 다음과 같이 만듭니다.
 
     ``` Powershell
-    Import-Module SkypeOnlineConnector  
-    $cssess=New-CsOnlineSession -Credential $cred  
+    Import-Module SkypeOnlineConnector
+    $cred = Get-Credential
+    $cssess = New-CsOnlineSession -Credential $cred  
     Import-PSSession $cssess -AllowClobber
     ```
 

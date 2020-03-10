@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b0a516ae74ea012d8cba4e85509b5b37ee27163
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4cf14616d4cfa2abc2caa99aee052b30e902172d
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834888"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574025"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft 팀의 팀 및 채널 개요
 
@@ -73,7 +73,7 @@ Microsoft 팀에는 두 가지 주요 역할이 있습니다.
 
 팀 소유자를 위해 다음 가이드를 참조 하세요.
 
-   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
+   > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
 Office 365의 Microsoft 팀 관리자 인 경우 Microsoft 팀 관리 센터에서 시스템 전체 설정에 액세스할 수 있습니다. 이러한 설정을 선택 하면 팀 소유자가 팀 설정 아래에 표시 되는 옵션에 영향을 줄 수 있습니다. 예를 들어 팀 전체에 걸친 공지 사항, 토론, 리소스에 대 한 기본 채널 "일반"을 사용 하도록 설정 하 여 모든 팀에 표시 되도록 할 수 있습니다.
 
