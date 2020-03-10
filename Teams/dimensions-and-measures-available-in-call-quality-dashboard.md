@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드에서 사용 하는 차원과 측정값에 대 한 자세한 정보를 확인 하세요.
-ms.openlocfilehash: 1bc3fc7e62b234d0679531d48a656c71c54db113
-ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
+ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574421"
+ms.locfileid: "42583085"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>통화 품질 대시보드에서 사용할 수 있는 크기 및 측정
 
@@ -439,10 +439,8 @@ CQD의 여러 차원과 측정값에는 첫 또는 초로 레이블이 지정 �
 |PSTN MP 위치|문자열|비 바이패스 모드일 때 미디어 프로세서 위치에 미디어 경로가 표시 됩니다.<br/>**예:** USWE||
 |첫 번째 PSTN 국가 지역|문자열|FirstIsCaller가 true 이면 먼저 PSTN 국가 영역이 발신자의 국가입니다. False 인 경우 두 번째 PSTN 국가 영역이 발신자의 국가입니다.<br/>**예:** 보세요||
 |지터|시간|RTP 패킷의 도착 시간을 변형 한 것입니다. 자세한 내용은 [통화 품질 대시보드의 스트림 분류를](stream-classification-in-call-quality-dashboard.md) 참조 하세요.<br/>**예:** 5.982||
-|패킷 손실 율|많은|중재 서버와 SBC 또는 Gateway 간의 스트림 백분율입니다 (사용 가능한 경우).
-자세한 내용은 [통화 품질 대시보드의 스트림 분류를](stream-classification-in-call-quality-dashboard.md) 참조 하세요.<br/>**예:** 1.2%||
-|지연 (왕복 시간)|시간|스트림 당 계산 된 평균 네트워크 전파 왕복 시간입니다.
-자세한 내용은 [통화 품질 대시보드의 스트림 분류를](stream-classification-in-call-quality-dashboard.md) 참조 하세요.<br/>**예:** 3.49||
+|패킷 손실 율|많은|중재 서버와 SBC 또는 Gateway 간의 스트림 백분율입니다 (사용 가능한 경우). 자세한 내용은 [통화 품질 대시보드의 스트림 분류를](stream-classification-in-call-quality-dashboard.md) 참조 하세요.<br/>**예:** 1.2%||
+|지연 (왕복 시간)|시간|스트림 당 계산 된 평균 네트워크 전파 왕복 시간입니다. 자세한 내용은 [통화 품질 대시보드의 스트림 분류를](stream-classification-in-call-quality-dashboard.md) 참조 하세요.<br/>**예:** 3.49||
 ||||
 
 ### <a name="notes-on-dimension-data-typeunits"></a>차원 데이터 형식/단위에 대 한 참고 사항

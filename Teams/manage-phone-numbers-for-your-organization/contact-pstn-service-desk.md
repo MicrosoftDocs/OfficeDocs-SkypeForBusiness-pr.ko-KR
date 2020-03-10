@@ -23,16 +23,16 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직에 대 한 전화 번호 또는 포팅 (전송) 번호를 받고 있는 경우 PSTN 서비스 데스크에서 도움말 및 지원을 받아야 할 수 있습니다.
-ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 3fe6353deb52911a4e0f0249f500a2a562e29ac1
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341788"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583080"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN 서비스 데스크 연락처
 
-Microsoft에서 전화 번호를 획득 하거나 기존 전화 번호를 Microsoft로 포팅 하는 데 도움이 필요한 경우 다음 정보를 포함 하는 전자 메일 요청을 보내십시오.
+번호 가져오기 또는 전송에 대 한 도움이 필요 하지만 도움이 필요 하시면 전자 메일을 보내 저희에 게 보낼 수 있는 방법을 알려주세요. 전자 메일 도움말 요청에서 조직 ID (테 넌 트 ID), 도메인, 도움이 필요한 숫자 형식, 원하는 숫자, 계정에 대 한 사용자 권한 및 기타 중요 한 세부 정보를 포함할 수 있는 것과 같은 세부 정보를 포함 합니다. 문제에 대해 알아보세요.
 
   - 조직 ID (테 넌 트 ID) 또는 활성 도메인
   - 도움이 필요한 숫자 형식 (사용자/구독자, 서비스/유료 또는 무료)입니다.
@@ -48,7 +48,7 @@ Microsoft에서 전화 번호를 획득 하거나 기존 전화 번호를 Micros
     - 다음 국가 중 하나에 대해 새 전화 번호 취득: **벨기에, 프랑스, 독일, 위대한 영국, 아일랜드, 네덜란드, 스페인, 스웨덴, 스위스**, [ptneu@microsoft.com에서 전자 메일을 보내 주세요](mailto:ptneu@microsoft.com) .
     - **전세계 나머지 지역** 에 대해 새 전화 번호를 취득 하 고 있습니다. [gcstnmsd@microsoft.com에서 전자 메일을 보내 주시기 바랍니다](mailto:gcstnmsd@microsoft.com).
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

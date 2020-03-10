@@ -15,12 +15,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 011522533a5a1a0641afb3da4421a8ae8e6c6715
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: cdd4338a157869d6e0453910a29514d6dc7ed0c9
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558638"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574085"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -66,6 +66,8 @@ ms.locfileid: "42558638"
 
 2. [Office 365 E1 평가판](e1-trial-license.md) 및 [무료 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)외에도 무료 Teams 라이선스가 필요한 경우 [Teams Exploratory](teams-exploratory.md)가 선택 사항이될 수 있습니다.
 
+1. 교육 기관에서 일하고 Teams에 교사, 학생 및 관리자를 설정하려면 Office 365 A1을 사용하세요. 이 무료 버전의 Office 365는 모든 교육 기관에서 사용할 수 있습니다. [전체 학교에서 무료로 Office 365 사용](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)에서 가입하세요.
+
 1. 직원들이 Teams에 적합한 인터넷 액세스와 대역폭을 보유하고 있는지 확인합니다. [Teams에 대한 조직의 네트워크 준비](prepare-network.md)의 지침을 사용하여 이 작업을 수행하는 방법을 알아보세요.
 
    - 제한된 대역폭은 Teams 모임의 오디오 품질에 영향을 미칠 수 있습니다. 저대역폭 조건 하에서 최고의 모임을 경험하기 위해, 사용자에게 비디오를 제한하고 통화 및 모임 오디오에 PSTN을 사용하도록 장려합니다. 
@@ -90,6 +92,8 @@ ms.locfileid: "42558638"
     
 3. 원격 작업에 대한 새로운 내용을 읽고 사용자와 공유하세요.
         
+      - *신규 2020년 3월 9일*: [Microsoft Teams를 사용하여 원격으로 작업](https://products.office.com/microsoft-teams/work-remotely)
+
       - Teams 블로그 (2020년 2월 28일): [Microsoft Teams로 집에서 작업하는 4가지 팁](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
       - [Office 365로 공동 작업하기](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
@@ -110,14 +114,14 @@ ms.locfileid: "42558638"
     
    - 조직의 재택 근무 및 건강 및 안전 정책에 대한 정보를 보내세요.
     
-   - 회사 전체의 모임 및 지원 활동에 [라이브 이벤트](teams-live-events/what-are-teams-live-events.md)를 사용하세요. 250명 이상의 참석자가 있는 모든 모임을 라이브 이벤트로 만드세요. 
+   - 회사 전체의 모임 및 지원 활동에 [라이브 이벤트](teams-live-events/what-are-teams-live-events.md)를 사용하세요. 250명 이상의 참석자가 있는 모든 모임을 라이브 이벤트로 만드세요. [모임](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260)과 [라이브 이벤트](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)에 대한 실시간 캡션을 켭니다. 또한 라이브 이벤트에서 자막을 켭니다. 이러한 기능은 포용력, 생산성 및 이해력을 높여줍니다. 
 
 4.  사용자 문의를 처리하기 위해 [헬프데스크](troubleshoot-installation.md) 직원을 고용하세요.
 
 7. Teams 관리자 역할을 처음으로 수행하는 경우에는 [Teams 관리자 교육](itadmin-readiness.md)을 참조하세요.
 
 
-1. 사용자에게 보고 들을 수 있는 장치가 있는지 확인합니다. 개인 및 공유 공간을 위한 [Teams 인증 장치](https://aka.ms/TeamsDevices)를 확인하세요.
+1. 사용자에게 분명하게 보고 들을 수 있는 장치가 있는지 확인합니다. 개인 및 공유 공간을 위한 [Teams 인증 장치](https://aka.ms/TeamsDevices)를 확인하세요.
 
 
 ### <a name="known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids"></a>알려진 문제 - 중국: 비즈니스용 Skype 또는 Teams 회의 ID에 전화 걸기

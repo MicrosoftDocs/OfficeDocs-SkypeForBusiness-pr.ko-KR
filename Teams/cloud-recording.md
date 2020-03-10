@@ -16,12 +16,12 @@ f1.keywords:
 description: Microsoft 팀에서 클라우드 음성 기능을 배포 하기 위한 실용적인 지침입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 678e17ed92c0f269e134ac6c23dce29169c0d36d
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030722"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583005"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -151,6 +151,10 @@ PowerShell을 사용 하 여 TeamsMeetingPolicy에서 AllowTranscription 설정�
 ## <a name="manage-meeting-recordings"></a>모임 녹음/녹화 관리
 
 모임 기록은 테 넌 트 소유 콘텐츠로 간주 됩니다. 기록의 소유자가 회사에서 나간 경우 관리자는 Microsoft Stream의 관리 모드에서 녹화 비디오 URL을 열 수 있습니다. 관리자가 녹음/녹화를 삭제 하거나, 녹음/녹화 메타 데이터를 업데이트 하거나, 녹음 비디오의 사용 권한을 변경할 수 있습니다. [스트림의 관리 기능](https://docs.microsoft.com/stream/manage-content-permissions)에 대해 자세히 알아보세요.
+
+> [!NOTE]
+> 녹음/녹화 및 사용자 액세스 관리에 대 한 자세한 내용은 microsoft stream의 [사용자 데이터 관리](https://docs.microsoft.com/stream/managing-user-data) 및 [Microsoft Stream의 사용 권한 및 개인 정보](https://docs.microsoft.com/stream/portal-permissions) 를 참조 하세요.
+
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>모임 녹음/녹화에 대 한 준수 및 eDiscovery
 
