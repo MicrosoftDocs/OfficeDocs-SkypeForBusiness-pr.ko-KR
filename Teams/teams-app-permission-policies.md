@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ab5f85e7ea6239a5b56471ed0a378af3bc1c4c9f
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: baf3f025dd9b2340f59aee18d72d3707e4cab8fd
+ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161677"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42601415"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft 팀에서 앱 권한 정책 관리
 
-관리자는 앱 권한 정책을 사용 하 여 조직의 Microsoft 팀 사용자가 사용할 수 있는 앱을 제어할 수 있습니다. Microsoft, 타사, 조직에서 게시 한 앱 또는 특정 앱을 모두 허용 하거나 차단할 수 있습니다. 앱을 차단 하면 해당 정책이 있는 사용자가 팀 앱 스토어에서이를 설치할 수 없습니다.
+관리자는 앱 권한 정책을 사용 하 여 조직의 Microsoft 팀 사용자가 사용할 수 있는 앱을 제어할 수 있습니다. Microsoft, 타사, 조직에서 게시 한 앱 또는 특정 앱을 모두 허용 하거나 차단할 수 있습니다. 앱을 차단 하면 해당 정책이 있는 사용자가 팀 앱 스토어에서이를 설치할 수 없습니다. 이러한 정책을 관리 하려면 전역 관리자 또는 팀 서비스 관리자 여야 합니다.
 
 Microsoft 팀 관리 센터에서 앱 권한 정책을 관리 합니다. 전역 (조직 차원의 기본) 정책을 사용 하거나 개별 사용자 또는 그룹의 사용자에 게 사용자 지정 정책을 만들어 할당할 수 있습니다.  
 
@@ -185,6 +185,6 @@ GCC에서는 모든 타사 앱이 기본적으로 차단 됩니다. 또한 Micro
 
 특정 사용자에 게 할당 된 앱 권한 정책의 경우, 봇 또는 커넥터 기능이 있는 앱이 허용 된 후 차단 되며,이 앱이 공유 컨텍스트의 일부 사용자 에게만 허용 되는 경우 해당 앱에 대 한 권한이 없는 그룹 채팅 또는 채널의 구성원  봇 또는 커넥터에 의해 게시 된 메시지 기록 및 메시지를 볼 수 있지만 대화형 작업할 수는 없습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Team에서 앱의 관리 설정](admin-settings.md)
