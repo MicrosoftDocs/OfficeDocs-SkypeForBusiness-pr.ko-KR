@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 새로운 비즈니스용 Skype 관리 센터 보고서 영역에 조직의 통화 및 오디오 회의 활동이 표시 됩니다. 이 기능을 사용 하면 보고서를 자세히 분석 하 여 각 사용자의 활동에 대 한 세부적인 통찰력을 제공할 수 있습니다. 예를 들어 비즈니스용 Skype PSTN 사용 정보 보고서를 사용 하 여 인바운드/아웃 바운드 통화와 이러한 통화 비용에 소요 된 시간을 확인할 수 있습니다. 통화 비용을 포함 하 여 오디오 회의 PSTN 사용 정보를 보고, 사용 현황 및 통화 대금 청구 세부 정보를 파악 하 여 조직 내 사용량을 확인할 수 있습니다.
-ms.openlocfilehash: b76bd2f752b03e59143162261b37f311f1b38b64
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a489277eceaab533fc03ac7017dcc217b4071bc6
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706053"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42582885"
 ---
 # <a name="pstn-usage-report"></a>PSTN 사용 현황 보고서
 
@@ -71,8 +71,8 @@ ms.locfileid: "41706053"
      *    **user_out_forwarding** (사용자가 PSTN 번호로 착신 전환 됨)
 
      **오디오 회의 통화 유형**
-     *    **conf_in** (오디오 회의 브리지에 대 한 인바운드 통화) 
-     *    **conf_out** (일반적으로 전화에 PSTN 번호를 추가 하기 위해 오디오 회의 브리지에서 나가는 통화)
+     *    **conf_in** (오디오 회의 브리지에 대 한 인바운드 전화). 이 통화 유형의 레코드에 대해 **사용자 ID** 열에 지정 된 사용자가 모임의 이끌이에 해당 합니다.
+     *    **conf_out** (일반적으로 전화에 PSTN 번호를 추가 하는 오디오 회의 브리지의 발신 전화). 이 통화 유형의 레코드에 대해 **사용자 ID** 열에 지정 된 사용자가 모임의 이끌이에 해당 합니다.
 
      **통합 커뮤니케이션 애플리케이션 (c-AP)** 
      *    **ucap_in** (자동 전화 교환 또는 통화 대기열 등의 UC 응용 프로그램에 대 한 인바운드 PSTN 통화) 
@@ -94,12 +94,13 @@ ms.locfileid: "41706053"
      *    **MCOPSTN6** -국내 통화 요금제 (240 분 통화 요금제) 참고: 제한 된 가용성
      *    **Mcomeetadd** 오디오 회의
      *    **MCOMEETACPEA** -분 당 오디오 회의 결제
+     
 > [!NOTE]
 > 통화 또는 회의 구독에 포함 되지 않은 통화/시간 당 요금만 포함 하도록 보고서를 실행 하려면 "MCOPSTNPP" 기능을 사용 하 여 보고서를 필터링 합니다. 이렇게 하면 분당 모든 지불에 대 한 서비스를 제공할 수 있습니다.  분 단위 오디오 회의에는 "MCOPSTNPP" 대신 "MCOMEETACPEA"를 기준으로 필터링 합니다.  
-***
+
 > [!NOTE]
 > 일부 필드에 "데이터 없음"이 표시 될 수도 있습니다. "데이터 없음"은 통화 유형이 나 접근 권한 값에 해당 필드를 적용할 수 없음을 의미 합니다. 
-***
+
 > [!NOTE]
 > Telstra 통화 요금제를 사용 하는 경우 PSTN 사용 보고서에 통화 정보 레코드가 표시 되지 않습니다. 보고 요구 사항에 대해 Telstra에 문의 하세요. 
 ***
@@ -125,7 +126,7 @@ ms.locfileid: "41706053"
 
 - [비즈니스용 Skype 세션 정보 보고서](session-details-report.md) 개인 사용자의 통화 환경에 대 한 세부 정보를 확인할 수 있습니다.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   

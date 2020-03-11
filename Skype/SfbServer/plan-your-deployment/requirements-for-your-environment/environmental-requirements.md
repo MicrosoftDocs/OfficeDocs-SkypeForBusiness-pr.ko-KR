@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '요약: 비즈니스용 Skype 서버 2015에 대 한 서버가 아닌 요구 사항을 구성 합니다. Active Directory, DNS, 인증서 및 Fileshares를 포함 하 여 배포를 수행 하기 전에 구성 해야 할 여러 가지 사항이 있습니다.'
-ms.openlocfilehash: 0d1f2ff87189cd7fd88f37429fb2ebf6805f6810
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 164f4b8037c972907eb6d1375f77b3cc350959e5
+ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42012588"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42572806"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에 대 한 환경 요구 사항
  
@@ -85,7 +85,7 @@ ms.locfileid: "42012588"
     
 - Windows Server 2003
     
-이러한 환경에서 읽기 전용 도메인 컨트롤러를 사용할 수 있나요? 사용할 수 있는 쓰기 가능한 도메인 컨트롤러가 있는 한 계속 해 서 해야 합니다.
+이러한 환경에서 읽기 전용 도메인 컨트롤러를 사용할 수 있나요? 비즈니스용 Skype 서버와 동일한 사이트에서 쓰기 가능한 도메인 컨트롤러를 사용할 수 있는 경우에만 가능 합니다.
   
 이제 비즈니스용 Skype 서버 2015이 단일 레이블 도메인을 지원 하지 않는다는 것을 알아야 합니다. 그 이유는 무엇 인가요? 루트 도메인에 contoso. local이 있는 경우이는 정상으로 표시 됩니다. 로컬에 이름이 지정 된 루트 도메인이 있는 경우 해당 도메인은 작동 하지 않으며 결과적으로 지원 되지 않습니다. 이에 대 한 자세한 내용은 [이 기술 자료 문서를 참조](https://support.microsoft.com/kb/300684/en-us)하십시오.
   
@@ -374,4 +374,3 @@ Sba (survivable Branch 기기에 대 한 인증서:
 > [!CAUTION] 
 > 파일 공유에서 NAS (network attached storage)를 사용 하는 것은 지원 되지 않으므로 위에 나열 된 옵션 중 하나를 사용 하는 것이 좋습니다. 
   
-

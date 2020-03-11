@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 요약:이 항목을 사용 하 여 비즈니스용 Skype 서버 2015 서버를 준비 합니다. 하드웨어, OS, 데이터베이스, 소프트웨어, 서버 팜의 성공적인 설치 및 배포를 보장 하는 데 도움이 되는 모든 시스템 요구 사항 및 권장 사항이 여기에 나와 있습니다.
-ms.openlocfilehash: f1898fc9de5999276b963a78c181e3b098876b69
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 9cc063a44924bd6080525ca7a751bd1a3356666c
+ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160395"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42572796"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에 대 한 서버 요구 사항
  
@@ -183,7 +183,7 @@ SQL 미러링을 더 자세히 확인 해야 하는 경우에는 비즈니스용
 |**소프트웨어/역할**|**세부 정보**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |모든 비즈니스용 Skype 서버 서버에 Windows PowerShell 3.0이 설치 되어 있어야 합니다.  <br/> • Windows Server 2012 또는 Windows Server 2012 r 2에서 설치를 수행 하는 경우 이미 있는 설정입니다.  <br/> • Windows Server 2008 r 2에서 업그레이드를 수행 하는 경우 [Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595) 를 다운로드 하 여 가져올 수 있습니다. <br/> **팁:** 올바른 PowerShell이 있으면 PowerShell 프롬프트로 이동 하 여 입력 `$PSVersionTable`하 여 BuildVersion 6.2.9200.0 이상 인지 확인 합니다. 이렇게 하면 필요한 정보를 가져올 수 있습니다.  <br/> |
-|Microsoft .NET Framework  <br/> |WCF services는 **서버 관리자**에 Windows 기능으로 설치 되어 있는 **기능** 으로, 필요한 다운로드는 없습니다. <br/> •이 기능을 설치 하는 경우,이 기능이 이미 설치 되어 있고,이를 수행 하 고 있는지 확인 해야 하는 경우에는 다음과 같이 **HTTP 정품 인증** 옵션도 확인 되 고 설치 됩니다. <br/> ![.NET Framework 4.5 기능에 나와 있는 HTTP 활성화 옵션을 보여 주는 스크린샷 ](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)HTTP 정품 인증을 설치 하려면 추가 팝업을 설치 해야 하는 경우에도 걱정할 필요가 없습니다. 정상, 확인을 클릭 하 고 계속 진행 합니다. 이 팝업이 표시 되지 않으면 이미 설치 되어 있는 것으로 가정 하 고 계속 진행 합니다.  <br/> Microsoft .NET Framework는 대개 Windows Server 2012 R2 또는 Windows Server 2016가 설치 된 경우에 설치 됩니다. 비즈니스용 Skype 서버는 다음 Microsoft .NET Framework 버전에서 작동 합니다.  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6. x  <br/> • .NET 4.7.1 (비즈니스용 Skype Server CU 5 이상 버전)  <br/> • .NET 4.7.2 (비즈니스용 Skype Server CU 6 이상 버전)  <br/>  .NET Framework 3.5는 Windows Server 2008 R2 컴퓨터에 기본적으로 설치 될 수 있지만 (업그레이드 전에 확실히 확인 해야 함) 실제로 Windows Server 2012/Windows Server 2012 R2 서버 (새 설치의 경우)에는 표시 되지 않습니다. 이를 추가 하려면 설치 드라이브 또는 미디어 (Windows Server가 설치 된 위치 또는 설치 파일이 현재 있는 위치)에 대 한 액세스 권한이 있어야 합니다. 그리고 나 서이를 서버 관리자에 게 기능으로 설치 하 고 설치 미디어 (특히 **\sources\sxs** 폴더)를 가리킨 다음 설치를 계속 진행 합니다. <br/> |
+|Microsoft .NET Framework  <br/> |WCF services는 **서버 관리자**에 Windows 기능으로 설치 되어 있는 **기능** 으로, 필요한 다운로드는 없습니다. <br/> •이 기능을 설치 하는 경우,이 기능이 이미 설치 되어 있고,이를 수행 하 고 있는지 확인 해야 하는 경우에는 다음과 같이 **HTTP 정품 인증** 옵션도 확인 되 고 설치 됩니다. <br/> ![.NET Framework 4.5 기능에 나와 있는 HTTP 활성화 옵션을 보여 주는 스크린샷 ](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)HTTP 정품 인증을 설치 하려면 추가 팝업을 설치 해야 하는 경우에도 걱정할 필요가 없습니다. 정상, 확인을 클릭 하 고 계속 진행 합니다. 이 팝업이 표시 되지 않으면 이미 설치 되어 있는 것으로 가정 하 고 계속 진행 합니다.  <br/> Microsoft .NET Framework는 대개 Windows Server 2012 R2 또는 Windows Server 2016가 설치 된 경우에 설치 됩니다. 비즈니스용 Skype 서버는 다음 Microsoft .NET Framework 버전에서 작동 합니다.  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6. x  <br/> • .NET 4.7.1 (비즈니스용 Skype Server CU 5 이상 버전)  <br/> • .NET 4.7.2 (비즈니스용 Skype Server CU 6 이상 버전)  <br/>  • .NET 4.8 (비즈니스용 Skype 서버 CU 9 이상 릴리스) <br/>  .NET Framework 3.5는 Windows Server 2008 R2 컴퓨터에 기본적으로 설치 될 수 있지만 (업그레이드 전에 확실히 확인 해야 함) 실제로 Windows Server 2012/Windows Server 2012 R2 서버 (새 설치의 경우)에는 표시 되지 않습니다. 이를 추가 하려면 설치 드라이브 또는 미디어 (Windows Server가 설치 된 위치 또는 설치 파일이 현재 있는 위치)에 대 한 액세스 권한이 있어야 합니다. 그리고 나 서이를 서버 관리자에 게 기능으로 설치 하 고 설치 미디어 (특히 **\sources\sxs** 폴더)를 가리킨 다음 설치를 계속 진행 합니다. <br/> |
 |미디어 파운데이션  <br/> |Windows Server 2016의 경우 Windows Server 2012 및 Windows Server 2012 R2 Windows Media 형식 런타임이 Microsoft Media Foundation과 함께 설치 됩니다.  <br/> 회의에 사용 되는 모든 프런트 엔드 서버 및 Standard Edition 서버에는 통화 대기, 알림 및 응답 그룹 응용 프로그램이 알림 및 음악을 재생 하는 Windows Media 오디오 (.wma) 파일을 실행 하기 위한 windows Media 형식 런타임이 필요 합니다.  <br/> |
 |Windows Identity Foundation  <br/> |비즈니스용 Skype 서버 2015에 대 한 서버 간 인증 시나리오를 지원 하려면 Windows Identity Foundation 3.5이 필요 합니다.  <br/> • Windows Server 2012 및 Windows Server 2012 r 2에서는 아무 것도 다운로드할 필요가 없습니다. **서버 관리자**를 열고 **역할 및 기능 추가 마법사로**이동 합니다. **Windows Identity Foundation 3.5** 이 **Features** 섹션 아래에 표시 됩니다. 이 확인란을 선택 하면 문제가 없는 것입니다. 그렇지 않으면 선택 하 고 다음을 클릭 하 여 **설치** 단추에 연결 합니다. <br/> |
 |원격 서버 관리 도구  <br/> |역할 관리 도구: AD DS 및 AD LDS 도구  <br/> |
