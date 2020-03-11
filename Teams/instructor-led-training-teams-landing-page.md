@@ -15,17 +15,17 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 958ca112e52cefa31e122c02b47c76a68537d284
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 9fe712b484c20f5a7a8a1b1df5c4720788ac877a
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288726"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583065"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft Teams용 강사 진행 교육</h1>
-Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 무료 온라인 라이브 교육 수업을 주관하게 되어 기쁩니다.  비즈니스 의사 결정자, 관리자, IT 전문가 또는 최종 사용자 모두가 자신에게 적합한 수업을 찾을할 수 있습니다. 어디서 시작해야 할지 잘 모르겠나요? <a href="https://aka.ms/TeamsKnowledgeCheck">Teams 지식 점검</a>을 수행하세요. 함께 Teams의 작동을 확인하고 질문에 대한 답을 듣고 실제 강사와 의견을 나누세요. 원하는 시간에 교육 수업을 보려면 <a href="https://aka.ms/TeamsOnDemand">온디맨드 최종 사용자 교육</a>을 방문하세요.<br><br>아래 세션을 클릭하여 가입하세요.
+Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 무료 온라인 라이브 교육 수업을 주관하게 되어 기쁩니다.  비즈니스 의사 결정자, 관리자, IT 전문가 또는 최종 사용자 모두가 자신에게 적합한 수업을 찾을 수 있습니다. 어디서 시작해야 할지 잘 모르겠나요? <a href="https://aka.ms/TeamsKnowledgeCheck">Teams 지식 점검</a>을 수행하세요. 함께 Teams의 작동을 확인하고 질문에 대한 답을 듣고 실제 강사와 의견을 나누세요. 원하는 시간에 교육 수업을 보려면 <a href="https://aka.ms/TeamsOnDemand">온디맨드 최종 사용자 교육</a>을 방문하세요.<br><br>아래 세션을 클릭하여 가입하세요.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
@@ -192,7 +192,28 @@ Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 �
             </div>
         </div>
         </a>
-    </li>        </ul>
+    </li>
+    <li>
+        <a href="https://aka.ms/TeamsAtHome"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/headset.svg" alt="Headset" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>집에서 Teams로 작업 중인 마스터</h3>
+                        <p><strong><font color="#4B53BC">새로운 기능!</font></strong> 팀에 계속 연결된 상태에서 생산성을 유지할 수 있는 모범 사례를 알아보세요.</p>
+                        <p><i>대상 그룹: 최종 사용자, 팀과 부서 관리자</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>  
+        </ul>
         </li>
     </ul>
     </div>
