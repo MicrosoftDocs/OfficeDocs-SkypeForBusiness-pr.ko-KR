@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: 비즈니스용 Skype 서버 2015, 2015의 11 월 누적 업데이트에 SLA (공유 선 모양)를 배포 하는 방법을 알아보려면이 항목을 읽어 보십시오. SLA는 공유 번호 라는 특정 번호에서 여러 통화를 처리 하는 기능입니다.
-ms.openlocfilehash: 2009b313b343d9746f3eeff5f53fec4899c2f9a3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6ad7d6fca40975990fdd6f6ed01bbb89c185e9e7
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129311"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604225"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에 공유 선 모양 배포
 
@@ -41,7 +41,7 @@ SLA (공유 선 모양)는 비즈니스용 Skype 서버의 새로운 기능이 �
     a. 각 풀에 대해 다음 명령을 실행 하 여 SLA를 서버 응용 프로그램으로 등록 합니다.
 
    ```powershell
-   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri   https://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled                $true -Priority (Get-CsServerApplication -Identity              'Service:Registrar:%FQDN%/UserServices').Priority
+   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri   http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled $true -Priority (Get-CsServerApplication -Identity  'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
    여기서% FQDN%는 풀의 정규화 된 도메인 이름입니다.
@@ -132,7 +132,7 @@ SLA (공유 선 모양)는 비즈니스용 Skype 서버의 새로운 기능이 �
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
-    예:
+    예를 들면 다음과 같습니다.
 
   ```powershell
   Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com
