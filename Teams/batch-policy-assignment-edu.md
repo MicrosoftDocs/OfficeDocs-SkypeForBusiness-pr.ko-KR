@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 일괄 처리 정책 할당을 사용 하 여 원격 학교 (teleschool, tele) 용도의 교육 기관에 대규모 사용자 집합에 정책을 할당 하는 방법에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: e95c6b035298ce583a0ad34a030f2086b7c12ff3
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 79c36aa0e2a7a2d310756d052b8962daeaa38634
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583358"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604305"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>학교에서 대규모 사용자 집합에 정책 할당
 
@@ -42,14 +42,14 @@ ms.locfileid: "42583358"
 
 ## <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Graph 모듈 및 팀 PowerShell 모듈에 대 한 Azure AD PowerShell에 연결
 
-이 문서의 단계를 수행 하기 전에 Graph 모듈에 대 한 Azure AD PowerShell을 설치 하 고 연결 해야 합니다 (할당 된 라이선스의 사용자 식별) 및 Microsoft 팀 PowerShell 모듈의 시험판 버전 (정책 지정 해당 사용자).
+이 문서의 단계를 수행 하기 전에 Graph 모듈에 대 한 Azure AD PowerShell을 설치 하 고 연결 (사용자에 게 할당 된 라이선스를 식별 하기 위해) 하 고 Microsoft 팀 PowerShell 모듈 (해당 사용자에 게 정책을 할당 해야 함) 합니다.
 
 ### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>Graph 모듈에 대 한 Azure AD PowerShell 설치 및 연결
 
 관리자 권한으로 windows PowerShell 명령 프롬프트를 열고 (관리자로 Windows PowerShell 실행) 다음을 실행 하 여 Graph 모듈에 대 한 Azure Active Directory PowerShell을 설치 합니다.
 
 ```powershell
-Install-Module AzureAD
+Install-Module -Name AzureAD
 ```
 
 Azure AD에 연결 하려면 다음을 실행 합니다.
@@ -60,11 +60,15 @@ Connect-AzureAD
 
 메시지가 표시 되 면 관리자 자격 증명을 사용 하 여 로그인 합니다.
 
-자세한 내용은 [Graph 용 Azure Active Directory PowerShell 모듈을 사용 하 여 연결](https://docs.microsoft.com/eoffice365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)을 참조 하세요.
+자세한 내용은 [Graph 용 Azure Active Directory PowerShell 모듈을 사용 하 여 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)을 참조 하세요.
 
-### <a name="install-and-connect-to-the-pre-release-version-of-the-teams-powershell-module"></a>팀 PowerShell 모듈의 시험판 버전 설치 및 연결
+### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Microsoft 팀 PowerShell 모듈을 설치 하 고 연결 합니다.
 
-필요한 cmdlet은 팀 PowerShell 모듈의 시험판 버전에 있습니다. [Microsoft 팀 powershell 모듈 설치 및 연결](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module) 의 단계를 따라 먼저 일반적으로 사용 가능한 팀 powershell 모듈 (설치 되어 있는 경우)을 제거한 다음 PowerShell 테스트 갤러리에서 해당 모듈의 최신 시험판 버전을 설치 합니다.
+다음을 실행 하 여 [Microsoft 팀 PowerShell 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams)을 설치 합니다. 버전 1.0.5 이상이 설치 되어 있는지 확인 합니다.
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
 
 다음을 실행 하 여 팀에 연결 하 고 세션을 시작 합니다.
 
@@ -102,7 +106,7 @@ ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365ED
 다음으로, 다음을 실행 하 여이 라이선스가 있는 사용자를 식별 하 고 함께 수집 합니다.
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains “e97c048c-37a4-45fb-ab50-922fbf07a370”)
+$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370")
 ```
 
 ## <a name="assign-a-policy-in-bulk"></a>대량으로 정책 할당
