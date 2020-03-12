@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fc4439b6e40aa29f538be461e75f672bcd82e41
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: e7d0f4a38194f80329c34cab73d61a99d4d4d03b
+ms.sourcegitcommit: 90066455ea2f982cdeabd9bff7944718bc7895c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559353"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42592548"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -32,7 +32,7 @@ ms.locfileid: "42559353"
 > - Microsoft 교육자 센터의 1시간 온라인 과정에서는 교사들이 전문 라이브에서 Teams를 사용하는 방법을 보여줍니다. [**Microsoft Teams를 사용하여 학습하도록 변환**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - Microsoft 교육자 센터의 1시간 온라인 과정은 수업 Teams에서 교육을 통해 교사들을 주도합니다. [**수업 Teams를 사용하여 공동 학습 환경을 만들기**](https://education.microsoft.com/course/b1e15cfc/overview).
 > - 교사, 학생 또는 부모나 보호자인 경우, [**Office 365를 사용하여 원격 교육 및 학습**](https://aka.ms/RemoteLearningHelp)에 대한 지침을 참고하세요.
-> - 부모님과 보호자는 [부모 지원 페이지](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588?ui=en-US&rs=en-US&ad=US)에서 원격 학습에 대한 지원을 받을 수 있습니다.
+> - 부모님과 보호자는 [**부모 지원 페이지**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)에서 원격 학습에 대한 지원을 받을 수 있습니다.
 
 2020년 3월 4일, [학교에서 Microsoft Teams로 원격 학습 프로그램을 빠르게 사용할 수 있는 방법](https://aka.ms/teamseduremoteblog) 블로그를 놓치지 마세요.
 
@@ -104,7 +104,7 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 
 - 'off'로 설정된 개인 채널 만들기
 
-**초등학교 교직원 및 교사**는 학생에게 제한될 수 있는 핵심 기능을 허용하는 정책이 할당되어야 합니다. 비공개 채팅 및 모임 예약(새 정책의 기본 설정)을 허용하는 새 정책을 만듭니다. [보안 그룹 구성원 자격을 통해 교직원 및 교사에게 이러한 정책을 할당합니다](assign-policies.md#assign-a-policy-to-a-group).
+**초등학교 교직원 및 교사**는 학생에게 제한될 수 있는 핵심 기능을 허용하는 정책이 할당되어야 합니다. 비공개 채팅 및 모임 예약(새 정책의 기본 설정)을 허용하는 새 정책을 만듭니다. [일괄 정책 할당을 통해 직원과 교육자에게 이 정책을 대량으로 할당합니다](batch-policy-assignment-edu.md).
 
 ## <a name="start-using-teams"></a>Teams 사용 시작
 
