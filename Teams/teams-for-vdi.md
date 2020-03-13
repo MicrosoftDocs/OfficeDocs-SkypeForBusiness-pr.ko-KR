@@ -1,5 +1,5 @@
 ---
-title: 가상화 된 데스크톱 인프라 팀
+title: VDI(Virtualized Desktop Infrastructure)용 Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9c8f0fe24cfb94be368fb2afa6446f311f2f790
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 4e009ccfb70e307e4a67f8331deabce51e229c0f
+ms.sourcegitcommit: 511238a3550ad0ff8d4bbd4600a252651ab6a654
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417883"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42615370"
 ---
-# <a name="teams-for-virtualized-desktop-infrastructure"></a>가상화 된 데스크톱 인프라 팀
+# <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
 이 문서에서는 가상화 된 환경에서 Microsoft 팀을 사용 하는 데 필요한 요구 사항과 제한 사항에 대해 설명 합니다.
 
@@ -132,8 +132,8 @@ Office 365 ProPlus는 팀의 컴퓨터 단위 설치를 지원 하지 않습니�
 
 1. 다음 링크 중 하나를 사용 하 여 VDI VM 운영 체제와 일치 하는 팀 MSI 패키지를 다운로드 합니다.
 
-    - [32 비트 버전](https://statics.teams.cdn.office.net/production-windows/1.2.00.32462/Teams_windows.msi)
-    - [64 비트 버전](https://statics.teams.cdn.office.net/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
+    - [32 비트 버전](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
+    - [64 비트 버전](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
 
     필요한 팀 데스크톱 앱의 최소 버전은 버전 1.2.00.31357입니다. (PSTN 보류가 이전 버전에서 지원 되지 않습니다.)
 
@@ -265,7 +265,7 @@ DisallowCalling 호출 정책 및 AllOff 모임 정책을 사용자에 게 할�
 다음 예제에서는 [CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) 를 사용 하 여 DisallowCalling 호출 정책을 사용자에 게 할당 하는 방법을 보여 줍니다.
 
 ```PowerShell
-Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
 PowerShell을 사용 하 여 호출 정책을 관리 하는 방법에 대해 자세히 알아보려면 [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)을 참조 하세요.
@@ -273,7 +273,7 @@ PowerShell을 사용 하 여 호출 정책을 관리 하는 방법에 대해 자
 다음 예제에서는 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) 를 사용 하 여 AllOff 모임 정책을 사용자에 게 할당 하는 방법을 보여 줍니다.
 
 ```PowerShell
-Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
 PowerShell을 사용 하 여 모임 정책을 관리 하는 방법에 대해 자세히 알아보려면 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)을 참조 하세요.
@@ -317,7 +317,7 @@ AllowCalling 호출 정책 및 AllOn meeting policy를 사용자에 게 할당 �
 다음 예제에서는 [CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) 를 사용 하 여 allowcalling 호출 정책을 사용자에 게 할당 하는 방법을 보여 줍니다.
 
 ```PowerShell
-Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
+Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity "user email id"
 ```
 
 PowerShell을 사용 하 여 호출 정책을 관리 하는 방법에 대해 자세히 알아보려면 [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)을 참조 하세요.
@@ -325,7 +325,7 @@ PowerShell을 사용 하 여 호출 정책을 관리 하는 방법에 대해 자
 다음 예제에서는 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) 를 사용 하 여 사용자에 게 allon 정책을 할당 하는 방법을 보여 줍니다.
 
 ```PowerShell
-Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
+Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ```
 
 PowerShell을 사용 하 여 모임 정책을 관리 하는 방법에 대해 자세히 알아보려면 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)을 참조 하세요.
