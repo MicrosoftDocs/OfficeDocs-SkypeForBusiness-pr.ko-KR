@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 새로운 비즈니스용 Skype 관리 센터 보고서 영역에 조직의 통화 및 오디오 회의 활동이 표시 됩니다. 이 기능을 사용 하면 보고서를 자세히 분석 하 여 각 사용자의 활동에 대 한 세부적인 통찰력을 제공할 수 있습니다. 예를 들어 비즈니스용 Skype PSTN 사용 정보 보고서를 사용 하 여 인바운드/아웃 바운드 통화와 이러한 통화 비용에 소요 된 시간을 확인할 수 있습니다. 통화 비용을 포함 하 여 오디오 회의 PSTN 사용 정보를 보고, 사용 현황 및 통화 대금 청구 세부 정보를 파악 하 여 조직 내 사용량을 확인할 수 있습니다.
-ms.openlocfilehash: a489277eceaab533fc03ac7017dcc217b4071bc6
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 7050334a390188f47f5d201b3fa541d337601400
+ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42582885"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637145"
 ---
 # <a name="pstn-usage-report"></a>PSTN 사용 현황 보고서
 
@@ -56,7 +56,7 @@ ms.locfileid: "42582885"
 
 ***
 ![번호 1](../images/sfbcallout1.png)<br/>이 표에서는 사용자 당 모든 PSTN 사용을 분석 한 결과를 보여 줍니다. 비즈니스용 Skype에 할당 된 모든 사용자와 해당 PSTN 사용이 표시 됩니다. 표에 열을 추가 하거나 제거할 수 있습니다.
-*    통화 **id** 는 통화에 대 한 통화 id입니다. Microsoft 서비스 지원을 호출할 때 사용 되는 통화에 대 한 고유 식별자입니다.
+*    통화 **id** 는 통화에 대 한 통화 id입니다. Microsoft 서비스 지원을 호출할 때 사용 되는 통화의 식별자입니다.
 *    **사용자 ID** 는 사용자의 로그인 이름입니다.
 *    **전화 번호** 는 통화를 수신 하는 비즈니스용 Skype 전화 번호 이거나, 발신 전화를 거는 번호입니다.
 *    **사용자 위치** 는 사용자가 위치한 국가/지역입니다.
@@ -106,7 +106,48 @@ ms.locfileid: "42582885"
 ***
 ![번호 2](../images/sfbcallout2.png)<br/>특정 열을 기준으로 그룹화 하려면 열을 클릭 하 여 하나 이상의 열에 있는 모든 데이터를 그룹화 하는 보기를 만들려는 경우 **열 머리글을 여기로 끌어** 놓습니다.
  ***
-![번호 3](../images/sfbcallout3.png)<br/>**Excel로 내보내기** 단추를 클릭 하거나 탭 하 여 보고서 데이터를 쉼표로 구분 된 Excel 파일로 내보낼 수도 있습니다. 국가 관련 규정으로 인해 12 개월 동안 데이터의 보존을 금지 하지 않는 한 현재 날짜부터 1 년 까지의 데이터를 내보낼 수 있습니다.<br/><br/> 이렇게 하면 모든 사용자의 데이터가 내보내며 추가 분석을 위해 간단한 정렬 및 필터링이 가능 합니다. 2000 명 미만의 사용자가 있는 경우 보고서 자체의 표 내에서 정렬 및 필터링을 수행할 수 있습니다. 
+
+## <a name="exporting-pstn-usage-report"></a>PSTN 사용 보고서 내보내기
+
+**Excel로 내보내기** 단추를 클릭 하거나 탭 하면 PSTN 사용 보고서를 다운로드할 수 있습니다. 국가 관련 규정이 12 개월 동안 데이터의 보존을 금지 하지 않는 한, 현재 날짜부터 1 년 까지의 데이터를 내보낼 수 있습니다.
+
+이렇게 하면 모든 사용자의 데이터가 내보내며 추가 분석을 위해 간단한 정렬 및 필터링이 가능 합니다.
+
+내보내기 프로세스는 완료 하는 데 몇 초에서 몇 분 정도 소요 될 수 있습니다 (데이터 수량에 따라 다름). 서버에서 내보내기가 완료 되 면 "Calls." 라는 zip 파일을 받게 됩니다 **. [ ] `identifier`.zip**", 식별자가 내보내기의 고유 ID 이므로 문제 해결에 사용할 수 있습니다.
+
+전화 요금제와 직접 라우팅이 모두 있는 경우 내보낸 파일에는 두 제품 모두에 대 한 데이터가 포함 될 수 있습니다. PSTN 사용 보고서 파일의 파일 이름에는 "**PSTN. 통화가 있습니다. [ ] `UTC date`. .csv**". PSTN 및 다이렉트 라우팅 파일 외에도,이 아카이브에는 "**parameters. json**"이 선택 되어 있으며, 여기에는 선택한 내보내기 시간 범위와 기능 (있는 경우)이 포함 됩니다.
+
+내보낸 파일은 [RFC 4180](https://tools.ietf.org/html/rfc4180) 표준과 호환 되는 CSV (쉼표로 구분 된 값) 파일입니다. 파일은 Excel 또는 다른 표준 규격 편집기에서 변환을 요구 하지 않고 열 수 있습니다.
+
+CSV의 첫 번째 행에 열 이름이 포함 됩니다.
+
+### <a name="fields-in-the-export"></a>내보내기의 필드
+
+내보낸 파일에는 온라인 보고서에서 사용할 수 없는 추가 필드가 포함 되어 있습니다. 문제 해결 및 자동화 워크플로를 위해 사용 될 수 있습니다.
+
+| #  | 이름 | [데이터 형식 (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 설명 |
+| :-: | :-: | :-: |:------------------- |
+| 0 | UsageId | `uniqueidentifier` | 고유한 통화 식별자 |
+| 1 | 통화 ID | `nvarchar(64)` | 통화 식별자입니다. 고유 하지 않을 수 있습니다. |
+| 2 | 전화 회의 ID | `nvarchar(64)` | 오디오 회의의 ID입니다. |
+| 3 | 사용자 위치 | `nvarchar(2)` | 사용자의 국가 코드, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+| 4(tcp/ipv4) | AAD ObjectId | `uniqueidentifier` | Azure Active Directory에서 사용자의 ID를 호출 하는 중입니다.<br/> 이 및 기타 사용자 정보는 봇 통화 형식 (ucap_in, ucap_out)에 대해 null/비어 있습니다. |
+| 5mb | UPN | `nvarchar(128)` | Azure Active Directory에서 UserPrincipalName (로그인 이름).<br/>이것은 일반적으로 사용자의 SIP 주소와 같으며 사용자의 전자 메일 주소와 같을 수 있습니다. |
+| 26 | 사용자 표시 이름 | `nvarchar(128)` | 사용자의 표시 이름 |
+| 7 | 발신자 ID | `nvarchar(128)` | 인바운드 통화에 대 한 통화 또는 발신 전화를 거는 번호를 수신 하는 번호입니다. [E 164](https://en.wikipedia.org/wiki/E.164) 형식 |
+| 20cm(8 | 통화 종류 | `nvarchar(32)` | 통화가 PSTN 아웃 바운드 통화 인지, 통화 유형 (예: 사용자 또는 음성 컨퍼런스)과 같은 통화 유형에 관계 됨 |
+| 되었는지 | 숫자 형식 | `nvarchar(16)` | 무료 번호 서비스와 같은 사용자의 전화 번호 유형 |
+| 1천만 | 국내/국제 | `nvarchar(16)` | 사용자의 위치에 따라 국가 또는 지역에 거주 하는 국가 또는 지역 외부 통화 인지 여부 |
+| mb | 대상 전화 | `nvarchar(64)` | 국가 또는 지역 전화 걸기 |
+| 까지 | 대상 번호 | `nvarchar(32)` | [E. \ 164](https://en.wikipedia.org/wiki/E.164) 형식으로 거는 번호 |
+| 일자 | 시작 시간 | `datetimeoffset` | 통화 시작 시간 (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+| 13 | 종료 시간 | `datetimeoffset` | 통화 종료 시간 (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+| ~ | 기간 (초) | `int` | 통화가 연결 된 기간 |
+| 16 | 연결 수수료 | `numeric(16, 2)` | 연결 수수료 금액 |
+| 17@@ | 부과 | `numeric(16, 2)` | 계좌에 부과 되는 통화 또는 비용의 금액입니다. |
+| awg | 통화 | `nvarchar(3)` | 통화 비용을 계산 하는 데 사용 되는 통화 유형입니다 ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)). |
+| 인치 | 성능 | `nvarchar(32)` | 통화에 사용 된 라이선스 |
+
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>다른 비즈니스용 Skype 보고서를 보 시겠습니까?
 

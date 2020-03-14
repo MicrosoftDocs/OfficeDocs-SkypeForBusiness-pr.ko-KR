@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 가져오기-모듈, 동시 셸, Live ID 및 사용 권한 오류를 포함 하 여 비즈니스용 Skype Online에 연결 하는 데 필요한 원격 PowerShell 세션을 만드는 문제를 해결 합니다.
-ms.openlocfilehash: f3de8d67079aaf4afeffdc63588f6806413383fc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: be3500ea5573dab6daa3d8ff72a8de4f60566ee2
+ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010691"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637135"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>비즈니스용 Skype Online 커넥터의 연결 문제 진단
 
@@ -140,7 +140,7 @@ PowerShell을 사용 하 여 비즈니스용 Skype Online을 관리 하려면 �
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>비즈니스용 Skype Online에서이 테 넌 트에 대 한 최대 동시 셸 수가 초과 되었습니다.
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-각 관리자가 비즈니스용 Skype Online 테 넌 트에 세 개의 동시 연결을 사용할 수 있지만, 단일 테 넌 트가 동시 연결을 9 개 이상 가질 수 없습니다. 예를 들어 세 명의 관리자는 각각 세 개의 열린 세션을 가질 수 있습니다. 네 번째 관리자가 연결을 시도 하면 (총 10 개의 동시 연결이 발생 하는 경우), 다음 오류 메시지와 함께이 시도가 실패 합니다.
+각 관리자는 비즈니스용 Skype Online 테 넌 트에 세 개 이상의 동시 연결이 허용 되지만 단일 테 넌 트는 20 개 이상의 동시 연결을 허용 하지 않습니다. 예를 들어 6 대의 관리자는 각각 세 개의 열린 세션을 가질 수 있습니다. 일곱 번째 관리자가 두 개 이상의 연결을 열려고 하는 경우 (총 21 개의 동시 연결), 다음 오류 메시지와 함께이 시도가 실패 합니다.
   
 - **오류**: *다음 오류 메시지 때문에 원격 서버 admin.vdomain.com에 대 한 새 PSSession: [Admin.vdomain.com]에 연결 하지 못했습니다. ws-management 서비스가 요청을 처리할 수 없습니다. 이 테 넌 트에 대 한 최대 동시 셸 수가 초과 되었습니다. 기존 셸을 닫거나이 테 넌 트의 할당량을 높이십시오. 자세한 내용은 [원격 문제 해결]을 참조 하세요 (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 

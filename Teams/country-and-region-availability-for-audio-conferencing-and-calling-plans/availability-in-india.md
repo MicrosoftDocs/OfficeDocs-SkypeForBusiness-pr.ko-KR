@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 다음은 비즈니스용 Skype에 대 한 Office 365 서비스와 인도에 사용할 수 있는 Microsoft 팀입니다.
-ms.openlocfilehash: 459579824f7f1c25b98e33029699c6e8635c46da
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 7fbd64ee3f00fdad0898c8dd6ea67bce224f8548
+ms.sourcegitcommit: 79572b3cb270c77ba7d78a06af02547ed9b7a7ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853280"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632763"
 ---
 # <a name="availability-in-india"></a>인도의 사용 가능 여부
 
@@ -42,7 +42,7 @@ ms.locfileid: "41853280"
 
 |**기능**|**세부적인**|
 |:-----|:-----|
-|음성 회의는 구매할 수 있나요?  <br/> |아니요  <br/> |
+|음성 회의는 구매할 수 있나요?  <br/> |Microsoft는 인도에서 오디오 회의를 판매 하지 않습니다. TATA 통신은 Microsoft 팀 모임과 호환 되는 전화 접속 및 전화 접속 서비스를 제공 합니다. 자세한 내용은 [Tata 통신 웹 사이트](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)를 참조 하세요.   <br/> |
 |오디오 회의에 대 한 전화 번호가 자동으로 할당 되나요?  <br/> |예, 다음을 수행 합니다.<br/><ul><li> Chennai<li> Mumbai</ul>전용 전화 번호를 원할 경우 [비즈니스용 Skype 및 Microsoft 팀에 대 한 서비스 전화 번호 가져오기를](/microsoftteams/getting-service-phone-numbers)참조 하세요.  <br/> |
 |전화 걸기 기능 사용  <br/> |공간이  <br/> |
    

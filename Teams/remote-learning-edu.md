@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7d0f4a38194f80329c34cab73d61a99d4d4d03b
-ms.sourcegitcommit: 90066455ea2f982cdeabd9bff7944718bc7895c4
+ms.openlocfilehash: a657954dcc72d4307c2ba8db222a2b8bbab88f09
+ms.sourcegitcommit: 79572b3cb270c77ba7d78a06af02547ed9b7a7ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42592548"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632753"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -112,7 +112,7 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 
 교육용 Microsoft Teams는 교육용 [특별 팀 유형](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)을 제공합니다. [수업 팀 유형](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)은 학생을 위한 읽기 전용 콘텐츠를 보호하기 위한 특정 기능(예: 과제, OneNote 교실 전자 필기장, [수업 자료 폴더](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988))과 수업을 방해하는 학생을 음소거하는 기능이 있는 교실을 위해 디자인되었습니다. 수업 팀을 배포할 수 있는 몇 가지 방법은 다음과 같습니다.
 
-1. SDS([School Data Sync](https://sds.microsoft.com/))는 **IT 부서**에서 설정할 수 있으며, 학교 정보 시스템의 정보를 기준으로 모든 수업에 대한 수업 팀을 만들 수 있도록 합니다. 이 프로세스는 각 부서를 위한 팀을 프로비저닝하고 강사와 학생 명단을 동기 상태로 유지합니다. 학생이 입장하기 전에 [교육자는 팀을 준비할 수 있습니다](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78). 또는 교육자가 해당 팀을 사용하지 않을 경우 ‘활성화’를 클릭하지 않으므로 학생들은 팀에 입장하도록 허용되지 않습니다. SDS는 데이터 가져오기를 위해 80가지 이상의 다른 SIS(School Information Systems)를 지원하고 [SDS 지원 팀](https://aka.ms/SDSSupport)은 계획 및 구성을 지원할 준비를 갖추고 있습니다.
+1. SDS([School Data Sync](https://sds.microsoft.com/))는 **IT 부서**에서 설정할 수 있으며, 학교 정보 시스템의 정보를 기준으로 모든 수업에 대한 수업 팀을 만들 수 있도록 합니다. 이 프로세스는 각 부서를 위한 팀을 프로비저닝하고 강사와 학생 명단을 동기 상태로 유지합니다. 학생이 입장하기 전에 [교육자는 팀을 준비할 수 있습니다](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78). 또는 교육자가 해당 팀을 사용하지 않을 경우 ‘활성화’를 클릭하지 않으므로 학생들은 팀에 입장하도록 허용되지 않습니다. SDS는 데이터 가져오기를 위해 80가지 이상의 다른 SIS(School Information Systems)를 지원하고 [SDS 지원 팀](https://aka.ms/SDSSupport)은 계획 및 구성을 지원할 준비를 갖추고 있습니다. [원격 교육을 위한 빠른 배포 가이드](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)를 참조하여 빠르게 시작할 수 있습니다.
 1. **교육자는 자신의 고유한 수업 유형 팀을 설정**하고 학생을 초대합니다. 교사는 [팀에 학생을 추가하거나](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [참가 코드를 공유하거나](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f), [팀에 대한 링크를 공유하여](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f) 이 작업을 수행할 수 있습니다. 가능한 경우, 교육자들이 팀에 학생을 추가하여 학생들에게 액세스 권한을 부여하고, 팀에 추가되었음을 알리는 것이 좋습니다.
 
 팀 설정 후 팀 소유자는 [팀 사진](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0)을 추가하는 것을 비롯하여, [팀의 설정을 사용자 지정하고](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158), 수업 과목 또는 그룹 공동 작업 영역을 위한 [채널을 만들고](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45), Quizlet/Flipgrid/Kahoot와 같은 [앱을 추가](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77)하여 기존 교육용 콘텐츠를 표시하고, [첫 번째 게시물을 팀에게 언급하여](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2) 모든 사람에게 알리고 대화를 시작할 수 있습니다.

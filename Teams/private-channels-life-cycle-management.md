@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 개인 채널 수명 주기를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: dd4509e809348a21231a6aa136c6cb360a152472
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 317cded1be30beac8fefbb579d5f0c24258f2fa1
+ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417573"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637205"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널 수명 주기 관리
 
