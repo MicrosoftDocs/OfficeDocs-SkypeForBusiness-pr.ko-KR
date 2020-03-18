@@ -18,52 +18,52 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2bcd48abb34ad3b8e18b780708e588ad9d0276
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: fb6815c805c9f5bcf47d6ee88a6c43c559b932d3
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836220"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706648"
 ---
-<span data-ttu-id="b2d99-103">![배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")</span><span class="sxs-lookup"><span data-stu-id="b2d99-103">![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")</span></span>
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a><span data-ttu-id="1e5b4-103">비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레이드</span><span class="sxs-lookup"><span data-stu-id="1e5b4-103">Upgrade from a Skype for Business on-premises deployment to Teams</span></span>
 
-<span data-ttu-id="b2d99-104">이 문서는 업그레이드 여행 배포 및 구현 단계의 일부입니다.</span><span class="sxs-lookup"><span data-stu-id="b2d99-104">This article is part of the Deployment and Implementation stage of your upgrade journey.</span></span> <span data-ttu-id="b2d99-105">계속 하기 전에 다음 활동을 완료 했는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="b2d99-105">Before proceeding, confirm that you’ve completed the following activities:</span></span>
+<span data-ttu-id="1e5b4-104">![배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")</span><span class="sxs-lookup"><span data-stu-id="1e5b4-104">![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")</span></span>
 
-- [<span data-ttu-id="b2d99-106">프로젝트 이해 관계자 참여</span><span class="sxs-lookup"><span data-stu-id="b2d99-106">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
-- [<span data-ttu-id="b2d99-107">프로젝트 범위 정의</span><span class="sxs-lookup"><span data-stu-id="b2d99-107">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
-- [<span data-ttu-id="b2d99-108">비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해</span><span class="sxs-lookup"><span data-stu-id="b2d99-108">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
-- [<span data-ttu-id="b2d99-109">업그레이드 여행 선택</span><span class="sxs-lookup"><span data-stu-id="b2d99-109">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [<span data-ttu-id="b2d99-110">환경 준비</span><span class="sxs-lookup"><span data-stu-id="b2d99-110">Prepared your environment</span></span>](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [<span data-ttu-id="b2d99-111">조직 준비</span><span class="sxs-lookup"><span data-stu-id="b2d99-111">Prepared your organization</span></span>](https://aka.ms/SkypeToTeams-UserReadiness)
-- [<span data-ttu-id="b2d99-112">파일럿 수행</span><span class="sxs-lookup"><span data-stu-id="b2d99-112">Conducted a pilot</span></span>](https://aka.ms/SkypeToTeams-Pilot)
+<span data-ttu-id="1e5b4-105">이 문서는 업그레이드 여행 배포 및 구현 단계의 일부입니다.</span><span class="sxs-lookup"><span data-stu-id="1e5b4-105">This article is part of the Deployment and Implementation stage of your upgrade journey.</span></span> <span data-ttu-id="1e5b4-106">계속 하기 전에 다음 활동을 완료 했는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="1e5b4-106">Before proceeding, confirm that you've completed the following activities:</span></span>
 
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a><span data-ttu-id="b2d99-113">비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레이드</span><span class="sxs-lookup"><span data-stu-id="b2d99-113">Upgrade from a Skype for Business on-premises deployment to Teams</span></span>
+- [<span data-ttu-id="1e5b4-107">프로젝트 이해 관계자 참여</span><span class="sxs-lookup"><span data-stu-id="1e5b4-107">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
+- [<span data-ttu-id="1e5b4-108">프로젝트 범위 정의</span><span class="sxs-lookup"><span data-stu-id="1e5b4-108">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
+- [<span data-ttu-id="1e5b4-109">비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해</span><span class="sxs-lookup"><span data-stu-id="1e5b4-109">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
+- [<span data-ttu-id="1e5b4-110">업그레이드 여행 선택</span><span class="sxs-lookup"><span data-stu-id="1e5b4-110">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [<span data-ttu-id="1e5b4-111">환경 준비</span><span class="sxs-lookup"><span data-stu-id="1e5b4-111">Prepared your environment</span></span>](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [<span data-ttu-id="1e5b4-112">조직 준비</span><span class="sxs-lookup"><span data-stu-id="1e5b4-112">Prepared your organization</span></span>](https://aka.ms/SkypeToTeams-UserReadiness)
+- [<span data-ttu-id="1e5b4-113">파일럿 수행</span><span class="sxs-lookup"><span data-stu-id="1e5b4-113">Conducted a pilot</span></span>](https://aka.ms/SkypeToTeams-Pilot)
 
-<span data-ttu-id="b2d99-114">비즈니스용 Skype 또는 Microsoft Lync 온-프레미스를 배포 하 고 조직에서 Microsoft 팀으로 업그레이드 하려는 사용자가 여러 공존 모드를 사용 하거나 모두 하는 경우에는이 문서의 지침을 따르세요.</span><span class="sxs-lookup"><span data-stu-id="b2d99-114">Follow the guidance in this article if you’ve deployed Skype for Business or Microsoft Lync on-premises and your organization wants to upgrade to Microsoft Teams either selectively—by using multiple coexistence modes—or all-in.</span></span> 
+<span data-ttu-id="1e5b4-114">비즈니스용 Skype 또는 Microsoft Lync 온-프레미스를 배포 하 고 조직에서 Microsoft 팀으로 업그레이드 하려는 사용자가 여러 공존 모드를 사용 하거나 모두 하는 경우에는이 문서의 지침을 따르세요.</span><span class="sxs-lookup"><span data-stu-id="1e5b4-114">Follow the guidance in this article if you've deployed Skype for Business or Microsoft Lync on-premises and your organization wants to upgrade to Microsoft Teams either selectively—by using multiple coexistence modes—or all-in.</span></span> 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
-## <a name="step-1-deploy-hybrid-connectivity"></a><span data-ttu-id="b2d99-115">1 단계: 하이브리드 연결 배포</span><span class="sxs-lookup"><span data-stu-id="b2d99-115">Step 1: Deploy hybrid connectivity</span></span>
+## <a name="step-1-deploy-hybrid-connectivity"></a><span data-ttu-id="1e5b4-115">1 단계: 하이브리드 연결 배포</span><span class="sxs-lookup"><span data-stu-id="1e5b4-115">Step 1: Deploy hybrid connectivity</span></span>
 
-<span data-ttu-id="b2d99-116">사용자를 팀으로 업그레이드 하기 위한 주요 전제 조건은 하이브리드 연결을 배포 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="b2d99-116">The key prerequisite for upgrading your users to Teams is to deploy hybrid connectivity.</span></span>
+<span data-ttu-id="1e5b4-116">사용자를 팀으로 업그레이드 하기 위한 주요 전제 조건은 하이브리드 연결을 배포 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="1e5b4-116">The key prerequisite for upgrading your users to Teams is to deploy hybrid connectivity.</span></span>
 
-<span data-ttu-id="b2d99-117">자세한 내용은 비즈니스용 [Skype 서버 간 하이브리드 연결 배포 및 비즈니스용 Skype Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity) 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b2d99-117">For more information, see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)</span></span>
+<span data-ttu-id="1e5b4-117">자세한 내용은 비즈니스용 [Skype 서버 간 하이브리드 연결 배포 및 비즈니스용 Skype Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity) 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="1e5b4-117">For more information, see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)</span></span>
 
-## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a><span data-ttu-id="b2d99-118">2 단계: 조직에 대해 선택한 업그레이드 여행 구현</span><span class="sxs-lookup"><span data-stu-id="b2d99-118">Step 2: Implement your chosen upgrade journey for your organization</span></span>
+## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a><span data-ttu-id="1e5b4-118">2 단계: 조직에 대해 선택한 업그레이드 여행 구현</span><span class="sxs-lookup"><span data-stu-id="1e5b4-118">Step 2: Implement your chosen upgrade journey for your organization</span></span>
 
-<span data-ttu-id="b2d99-119">하이브리드 설정을 완료 한 후 사용자를 Office 365으로 이동 하도록 계획할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b2d99-119">After you’ve completed your hybrid setup, you can plan to move your users to Office 365.</span></span>
+<span data-ttu-id="1e5b4-119">하이브리드 설정을 완료 한 후 사용자를 Office 365으로 이동 하도록 계획할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1e5b4-119">After you've completed your hybrid setup, you can plan to move your users to Office 365.</span></span>
 
-<span data-ttu-id="b2d99-120">자세한 내용은 다음을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b2d99-120">For more information, see:</span></span>
+<span data-ttu-id="1e5b4-120">자세한 내용은 다음을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="1e5b4-120">For more information, see:</span></span>
 
-- <span data-ttu-id="b2d99-121">[TeamsUpgradePolicy: 마이그레이션 및 공존 관리](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).</span><span class="sxs-lookup"><span data-stu-id="b2d99-121">[TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).</span></span>
+- <span data-ttu-id="1e5b4-121">[TeamsUpgradePolicy: 마이그레이션 및 공존 관리](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).</span><span class="sxs-lookup"><span data-stu-id="1e5b4-121">[TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).</span></span>
 
-- <span data-ttu-id="b2d99-122">[온-프레미스에서 비즈니스용 Skype Online으로 사용자를 이동](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)합니다.</span><span class="sxs-lookup"><span data-stu-id="b2d99-122">[Move users from on premises to Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).</span></span>
+- <span data-ttu-id="1e5b4-122">[온-프레미스에서 비즈니스용 Skype Online으로 사용자를 이동](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)합니다.</span><span class="sxs-lookup"><span data-stu-id="1e5b4-122">[Move users from on premises to Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).</span></span>
 
-## <a name="phone-system-and-teams-upgrade"></a><span data-ttu-id="b2d99-123">전화 시스템 및 팀 업그레이드</span><span class="sxs-lookup"><span data-stu-id="b2d99-123">Phone System and Teams upgrade</span></span>
+## <a name="phone-system-and-teams-upgrade"></a><span data-ttu-id="1e5b4-123">전화 시스템 및 팀 업그레이드</span><span class="sxs-lookup"><span data-stu-id="1e5b4-123">Phone System and Teams upgrade</span></span>
 
-<span data-ttu-id="b2d99-124">온-프레미스 전화 시스템에서 팀으로 전환 하면 전화 시스템 다이렉트 라우팅 ("직접 라우팅") 또는 Office 365에 대 한 Microsoft 제공 전화 요금제를 활용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b2d99-124">Transitioning from on-premises phone systems to Teams will allow you to take advantage of Phone System Direct Routing (“Direct Routing”) or the Microsoft-provided Calling Plans for Office 365.</span></span>
+<span data-ttu-id="1e5b4-124">온-프레미스 전화 시스템에서 팀으로 전환 하면 전화 시스템 다이렉트 라우팅 ("직접 라우팅") 또는 Office 365에 대 한 Microsoft 제공 전화 요금제를 활용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1e5b4-124">Transitioning from on-premises phone systems to Teams will allow you to take advantage of Phone System Direct Routing ("Direct Routing") or the Microsoft-provided Calling Plans for Office 365.</span></span>
 
-<span data-ttu-id="b2d99-125">Office 365에서 통화 요금제를 사용 하 고 있지 않은 경우에는 팀으로 업그레이드 하는 과정의 일부로 서 엔터프라이즈 음성 배포를 전화 시스템 다이렉트 라우팅으로 전환 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b2d99-125">If you're not using Calling Plans in Office 365, you need to transition your enterprise voice deployment to Phone System Direct Routing as part of your upgrade to Teams.</span></span>
+<span data-ttu-id="1e5b4-125">Office 365에서 통화 요금제를 사용 하 고 있지 않은 경우에는 팀으로 업그레이드 하는 과정의 일부로 서 엔터프라이즈 음성 배포를 전화 시스템 다이렉트 라우팅으로 전환 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="1e5b4-125">If you're not using Calling Plans in Office 365, you need to transition your enterprise voice deployment to Phone System Direct Routing as part of your upgrade to Teams.</span></span>
 
-<span data-ttu-id="b2d99-126">자세한 내용은 [전화 시스템 다이렉트 라우팅에 대 한 추가 고려 사항을](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b2d99-126">For more information, see [additional considerations for Phone System Direct Routing](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing).</span></span> <span data-ttu-id="b2d99-127">Office 365에서 통화 계획을 사용할 계획 이라면 [팀에 전화 번호를 전송](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)하는 지침을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b2d99-127">If you are planning to use Calling Plans in Office 365, please refer to our guidance for [transferring your phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).</span></span>
+<span data-ttu-id="1e5b4-126">자세한 내용은 [전화 시스템 다이렉트 라우팅에 대 한 추가 고려 사항을](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="1e5b4-126">For more information, see [additional considerations for Phone System Direct Routing](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing).</span></span> <span data-ttu-id="1e5b4-127">Office 365에서 통화 계획을 사용할 계획 이라면 [팀에 전화 번호를 전송](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)하는 지침을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="1e5b4-127">If you are planning to use Calling Plans in Office 365, please refer to our guidance for [transferring your phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).</span></span>
