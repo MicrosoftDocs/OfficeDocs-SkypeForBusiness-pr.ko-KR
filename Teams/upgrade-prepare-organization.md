@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea2fc7a56b3bc87a7d25c2afa86ff0b9f974995c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 088db496d6e04cb25a26a55f2748b25a11a8a76b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836250"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706788"
 ---
+# <a name="prepare-your-organization"></a>조직 준비
+
 ![사용자 준비 단계에 주안점을 두어 업그레이드 여행 단계](media/upgrade-banner-user-readiness.png "사용자 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행에 대 한 사용자 준비 단계의 일부로, 기술 준비 단계와 병행 하 여 작업을 완료 합니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
@@ -33,8 +35,6 @@ ms.locfileid: "41836250"
 - [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
 - [비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해](https://aka.ms/SkypeToTeams-Coexist)
 - [업그레이드 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-organization"></a>조직 준비
 
 팀의 최대값을 실현 하려면 사용자가 실제로이를 사용 해야 하지만, 사용자가 작동 방식을 변경 하는 것은 항상 쉽지 않습니다. 사용자를 이해 하 고 올바른 준비 계획을 디자인 하는 데 시간을 두어 팀의 채택을 더욱 간편 하 게 변경 하 고 가속화할 수 있습니다. 이러한 활동은 기술 준비와 병행 하 여 완료 해야 합니다.
 

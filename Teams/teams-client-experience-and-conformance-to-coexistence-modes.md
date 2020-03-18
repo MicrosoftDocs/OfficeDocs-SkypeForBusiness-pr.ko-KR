@@ -18,17 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94126a5d49c9573751279c645024dcb9d164bd90
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 7e2687f00a2d0ccb02e742d5077e472aa1dc37ed
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863299"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706618"
 ---
-<a name="about-upgrade-basic"></a>
-
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams 클라이언트 환경 및 공존 모드 준수
 
+<a name="about-upgrade-basic"></a>
 
 비즈니스용 skype 공존 모드 (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings)는 조직의 비즈니스용 Skype에서 팀으로 전환 하는 등 최종 사용자에 게 예측 가능한 간단한 환경을 제공 하는 데 목적이 있습니다.  팀으로 이동 하는 조직의 경우 모든 사용자에 게 **팀 전용** (또는 다른 모드)을 동시에 배정할 필요가 없지만 **팀 전용** 모드는 각 사용자의 최종 대상입니다.  사용자가 **팀** 의 유일한 모드에 도달 하기 전에, 조직에서 비즈니스용 Skype 공존 모드를 사용 하 여 다른 사용자와 현재 사용 하지 않는 사람 간의 예측 가능한 의사 소통을 보장할 수 있습니다. 
 

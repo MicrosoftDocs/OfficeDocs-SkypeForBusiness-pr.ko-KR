@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a9cedd0a169fc43e81dfdc131f98b0a90d9cd9e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 03eda4a90cc90eed38e6a1f6bb6ff6751291ffc1
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836230"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706628"
 ---
+# <a name="upgrade-from-skype-for-business-online-to-teams"></a>비즈니스용 Skype Online에서 팀으로 업그레이드
+
 ![여행 다이어그램 업그레이드, 배포 및 구현 강조](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행 배포 및 구현 단계의 일부입니다. 계속 하기 전에 다음 활동을 완료 했는지 확인 합니다.
@@ -36,8 +38,6 @@ ms.locfileid: "41836230"
 - [환경 준비](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [조직 준비](https://aka.ms/SkypeToTeams-UserReadiness)
 - [파일럿 수행](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-skype-for-business-online-to-teams"></a>비즈니스용 Skype Online에서 팀으로 업그레이드
 
 Skype for business Online을 완전히 구축한 경우 비즈니스용 Skype에서 팀으로 사용자를 업그레이드 하려면이 문서의 지침을 따르세요. 사용자에 게 적절 한 공존 및 업그레이드 모드를 지정 하 여 조직에서 선택한 업그레이드 여행에 따라 사용자를 선택적으로 또는 모두 in으로 업그레이드할 수 있습니다.
 

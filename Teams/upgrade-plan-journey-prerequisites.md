@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fb4a1c8ac462078e92c3981660872c3adc2843f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ec634105f87c548ed962bdf9f098298f01f1e93e
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836140"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706868"
 ---
+# <a name="prerequisites-and-environmental-dependencies-for-teams"></a>팀에 대 한 전제 조건 및 환경 종속성
+
 ![여행 다이어그램 업그레이드, 기술 준비 단계 강조](media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 사용자 준비 단계와 병행 하 여 완료 한 활동 인 업그레이드 여행에 대 한 기술 준비 단계의 일부입니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
@@ -33,8 +35,6 @@ ms.locfileid: "41836140"
 - [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
 - [비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해](https://aka.ms/SkypeToTeams-Coexist)
 - [업그레이드 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prerequisites-and-environmental-dependencies-for-teams"></a>팀에 대 한 전제 조건 및 환경 종속성
 
 팀은 여러 개의 Office 365 서비스를 결합 하므로 이러한 서비스의 올바른 구현과 작동에 따라 달라 집니다. 이러한 서비스에는 SharePoint Online, Exchange Online, 비즈니스용 OneDrive 등이 포함 됩니다.
 
@@ -48,7 +48,7 @@ ms.locfileid: "41836140"
 
 - 조직이 Azure Active Directory에 대 한 id를 동기화 하지 않은 경우 [Microsoft 팀의 id 모델 및 인증](identify-models-authentication.md)을 참조 하세요.
 
-- 조직에 Exchange Online이 포함 되어 있지 않은 경우 [exchange 및 Microsoft 팀의 상호 작용 방법 이해](Exchange-Teams-interact.md)를 참조 하세요.
+- 조직에 Exchange Online<sup>1</sup>이 없는 경우 [Exchange 및 Microsoft 팀의 상호 작용 방법 이해](Exchange-Teams-interact.md)를 참조 하세요.
 
 - 조직에 SharePoint Online이 없는 경우 [Sharepoint online 및 비즈니스용 OneDrive For Business가 Microsoft 팀과 어떻게 상호 작용 하는지 이해](SharePoint-OneDrive-interact.md)를 참조 하세요.
 

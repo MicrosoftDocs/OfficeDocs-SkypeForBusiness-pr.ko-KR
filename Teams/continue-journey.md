@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 41976649dec2509a9adfd472e7c382389250a4b4
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550915"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706448"
 ---
+# <a name="how-to-use-microsoft-teams-effectively"></a>Microsoft 팀을 효과적으로 사용 하는 방법
+
 ![여행 다이어그램을 업그레이드 하 여 뛰어난 작업 단계 강조](media/upgrade-banner-op-excellence.png "운영에 대 한 다양 한 단계의 강조를 통해 업그레이드 여행 단계")
 
 이 문서는 비즈니스용 Skype에서 팀으로 업그레이드를 완료 하는 즉시 시작 되는 업그레이드 여행에 대 한 작업을 위한 뛰어난 단계의 일부입니다.
-
-# <a name="how-to-use-microsoft-teams-effectively"></a>Microsoft 팀을 효과적으로 사용 하는 방법
 
 기술이 뛰어난 속도로 innovating. 최신 작업 공간 환경을 유지 하 고 사용 하도록 설정 하는 것은 조직이 작동 하는 방식에 대 한 표준입니다. Microsoft 팀, Microsoft 365, Microsoft의 지능형 통신 unfold 계속 해 서 작동 계획이 있으면 장기간 성공 하도록 조직이 설정 되도록 하는 데 도움이 됩니다. 최적의 운영 계획에는 상태 및 품질에 대 한 환경 모니터링, 사용자 통해 계속 앞서 적용을 최적화 하기 위한 계획, 시간이 지남에 따라 계속 해 서 온라인 상태가 되는 새로운 기능에 대 한 계획이 포함 됩니다.
 

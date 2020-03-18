@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c11b7fa80940ad45d4462510e8fa46531f10f1e9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6c3813b5d79f1362ff30ff15fa6fd2aff38b25a9
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836128"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706898"
 ---
+# <a name="prepare-your-it-staff-for-microsoft-teams"></a>Microsoft 팀을 위한 IT 직원 준비
+
 ![여행 다이어그램 업그레이드, 기술 준비 단계 강조](media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 사용자 준비 단계와 병행 하 여 완료 한 활동 인 업그레이드 여행에 대 한 기술 준비 단계의 일부입니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
@@ -33,8 +35,6 @@ ms.locfileid: "41836128"
 - [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
 - [비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해](https://aka.ms/SkypeToTeams-Coexist)
 - [업그레이드 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-it-staff-for-microsoft-teams"></a>Microsoft 팀을 위한 IT 직원 준비
 
 Office 365 테 넌 트 관리자, 기술 팀장 및 지원 센터는 고품질 사용자 환경을 추진 하는 데 책임이 있습니다. 여기에는 네트워크가 팀을 지원할 준비가 되어 있는지 확인 하 고, 사용자를 위해 팀을 구성 하 고, 발생할 수 있는 문제를 효과적으로 해결 하 고 해결할 수 있습니다.
 

@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 일괄 처리 정책 할당을 사용 하 여 원격 학교 (teleschool, tele) 용도의 교육 기관에 대규모 사용자 집합에 정책을 할당 하는 방법에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: 79c36aa0e2a7a2d310756d052b8962daeaa38634
-ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
+ms.openlocfilehash: 8dd771b27c1950cdce1590783bcfb3b4159c1c29
+ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604305"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42691188"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>학교에서 대규모 사용자 집합에 정책 할당
 
@@ -112,6 +112,9 @@ $faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuI
 ## <a name="assign-a-policy-in-bulk"></a>대량으로 정책 할당
 
 이제 사용자에 게 적절 한 정책을 대량으로 할당 합니다. 정책을 할당 하거나 업데이트 하는 데 사용할 수 있는 최대 사용자 수는 한 번에 2만입니다. 예를 들어 2만 개 이상의 직원과 교육자가 있는 경우 여러 일괄 처리를 제출 해야 합니다.
+
+> [!IMPORTANT]
+> 현재는 5000 사용자를 한 번에 일괄적으로 할당 하는 것을 제안 하 고 있습니다. 이러한 시간을 연장 하는 동안에는 처리 시간이 지연 될 수 있습니다. 이 늘어난 처리 시간에 대 한 영향을 최소화 하기 위해 최대 5000 사용자에 대 한 작은 일괄 처리 크기를 제출 하 고 이전 작업을 완료 한 후에 각 일괄 처리를 제출 하는 것이 좋습니다. 업무 시간 외에 일괄 처리를 제출 하는 것도 도움이 될 수 있습니다.
 
 다음을 실행 하 여 EducatorMeetingPolicy 이라는 모임 정책을 교직원 및 교육자에 게 할당 합니다.
 

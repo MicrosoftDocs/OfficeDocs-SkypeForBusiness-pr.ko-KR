@@ -19,13 +19,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c467fe63cee4681f2b758b264949cd931e3f901
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4957b22b7fe00ed756c1e81c6bb7c8e2e982720f
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045030"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706678"
 ---
+# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>비즈니스용 Skype 온-프레미스에서 팀으로 업그레이드
+
 ![여행 다이어그램 업그레이드, 배포 및 구현 강조](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행 배포 및 구현 단계의 일부입니다. 계속 하기 전에 다음 활동을 완료 했는지 확인 합니다.
@@ -37,8 +39,6 @@ ms.locfileid: "42045030"
 -   [환경 준비](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 -   [조직 준비](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [파일럿 수행](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>비즈니스용 Skype 온-프레미스에서 팀으로 업그레이드
 
 비즈니스용 Skype 서버 또는 Microsoft Lync 온-프레미스를 배포 하 고 조직에서 팀으로 업그레이드 하려는 경우이 문서의 지침을 따르세요. 사용자를 단계별로 팀으로 이동 하는 경우 Office 365 테 넌 트에서 하이브리드 연결을 설정 하 고 공존 요구 사항을 결정 해야 합니다. 
 

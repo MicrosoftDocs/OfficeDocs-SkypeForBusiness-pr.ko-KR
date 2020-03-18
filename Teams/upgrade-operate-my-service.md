@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e3ef345df2696cd0d450f8b16d93508d0eed545
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 6d9bcc5e00b9892bf8405eddb2ac24291a485d19
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863519"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706968"
 ---
+# <a name="operate-your-service"></a>서비스 운영
+
 ![여행 다이어그램을 업그레이드 하 여 뛰어난 작업 단계 강조](media/upgrade-banner-op-excellence.png "운영에 대 한 다양 한 단계의 강조를 통해 업그레이드 여행 단계")
 
 이 문서는 비즈니스용 Skype에서 팀으로 업그레이드를 완료 하는 즉시 시작 되는 업그레이드 여행에 대 한 작업을 위한 뛰어난 단계의 일부입니다.
-
-# <a name="operate-your-service"></a>서비스 운영
 
 이 문서에서는 업그레이드 한 후 조직의 팀을 성공적으로 운영 하는 데 필요한 요구 사항에 대해 간략하게 설명 합니다. 팀 서비스를 제대로 운영 하 여 조직의 고품질 안정적인 환경을 제공 하 고 있는지 확인할 수 있습니다.
 

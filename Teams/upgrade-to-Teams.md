@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8038b1d04c3deda955465d6262982d0e216e8f23
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: c1a7602139eda3eba3f1d2919312055773110fc6
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836300"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706878"
 ---
+# <a name="overview"></a>개요
+
 ![배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행 배포 및 구현 단계의 일부입니다. 계속 하기 전에 다음 활동을 완료 했는지 확인 합니다.
@@ -35,11 +37,6 @@ ms.locfileid: "41836300"
 - [업그레이드 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [환경 준비](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [조직 준비](https://aka.ms/SkypeToTeams-UserReadiness)
-
-
-
-
-# <a name="overview"></a>개요
 
 팀으로 업그레이드 하기 위해 수행 하는 단계는 비즈니스용 Skype의 현재 배포에 따라 달라 집니다.
 

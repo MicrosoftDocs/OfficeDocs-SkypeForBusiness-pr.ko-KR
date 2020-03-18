@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69f36da55daf95da66fa87b90487dde447953f53
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e870c6e6561bac991e7b9498ef76162ec1fa2eb9
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837178"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706978"
 ---
+# <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
+
 ![업그레이드 여행에 대 한 작업 진행을 보여 주는 다이어그램](media/upgrade-banner-op-excellence.png "운영에 대 한 다양 한 단계의 강조를 통해 업그레이드 여행 단계")
 
 이 문서는 비즈니스용 Skype에서 팀으로 업그레이드를 완료 하는 즉시 시작 되는 업그레이드 여행에 대 한 작업을 위한 뛰어난 단계의 일부입니다.
-
-# <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
 
 [경력 품질 검토 가이드](https://aka.ms/qerguide) 에는 아래 그림과 같이 사용자 환경 개선에 가장 큰 영향을 주는 주요 영역에서 개선 지침을 평가 하 고 제공 하는 일련의 활동이 포함 됩니다.
 

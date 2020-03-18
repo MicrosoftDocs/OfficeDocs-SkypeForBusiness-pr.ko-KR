@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec60beb606224a5b202a03187027b8e3e002dfd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833898"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706458"
 ---
+# <a name="conduct-a-user-pilot"></a>사용자 파일럿 수행
+
 ![여행 다이어그램 업그레이드, 배포 및 구현 강조 표시](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행에 대 한 배포 및 구현 단계의 일부 이며 효과적인 파일럿 실행에 대 한 지분 정보를 포함 합니다. 계속 하기 전에 다음 활동을 완료 했는지 확인 합니다.
@@ -35,8 +37,6 @@ ms.locfileid: "41833898"
 - [업그레이드 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [환경 준비](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [조직 준비](https://aka.ms/SkypeToTeams-UserReadiness)
-
-# <a name="conduct-a-user-pilot"></a>사용자 파일럿 수행
 
 조직에서는 새 기술을 배포 하 여 비용 절감, 보안 준수, 직원 만족도, 운영 효율성 등의 비즈니스 가치를 실현할 수 있지만, 사용자의 생산성 및 조직 인프라에도 영향을 줄 수 있습니다 ( 네트워크). 조직에서 신기술을 사용 하도록 설정 하기 전에 공식적인 사용자 파일럿을 실시 하세요. 전체 회의실을 그리기 전에 벽에 색의 작은 패치를 사용 하는 것과 마찬가지로, 파일럿을 수행 하 여 기술 및 사용자의 교육을 확인 하 고, 문제를 식별 및 완화 하 고, 성공 하는 데 도움이 되는 광범위 한 롤아웃을 테스트 합니다. 조직 차원의 구현.
 

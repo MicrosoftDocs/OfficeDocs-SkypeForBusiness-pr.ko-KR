@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec47733accfe9973887cd9f3f7019ac368e8e970
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d58613bc3455d5467e9e6c6589f73d498c6e1e3b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837218"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706908"
 ---
+# <a name="prepare-your-network-for-upgrading-to-teams"></a>팀으로 업그레이드 하기 위한 네트워크 준비
+
 ![여행 다이어그램 업그레이드, 기술 준비 단계 강조](media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 사용자 준비 단계와 병행 하 여 완료 한 활동 인 업그레이드 여행에 대 한 기술 준비 단계의 일부입니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
@@ -36,8 +38,6 @@ ms.locfileid: "41837218"
 
 > [!Tip]
 > 팀에서 네트워크를 활용 하는 방법과 최적의 네트워크 연결을 계획 하는 방법에 대 한 자세한 내용은 다음 세션을 시청 하세요. [팀 네트워크 계획](https://aka.ms/teams-networking)
-
-# <a name="prepare-your-network-for-upgrading-to-teams"></a>팀으로 업그레이드 하기 위한 네트워크 준비
 
 오디오, 비디오 또는 모임을 배포 하는 경우 몇 가지 추가 단계를 수행 하 여 해당 기능에 맞게 네트워크를 최적화할 수 있습니다. 팀은 변화 시킬 수 있는 오디오 및 비디오 기술 (코덱)을 사용 하므로 대부분의 네트워크 상태에서 더 잘 수행 됩니다. 최적의 성능을 유지 하려면 팀을 위해 네트워크를 준비 해야 합니다.
 

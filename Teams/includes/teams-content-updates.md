@@ -23,7 +23,7 @@
 | 3/4/2020 | [Microsoft 팀의 개인 채널 수명 주기 관리](/MicrosoftTeams/private-channels-life-cycle-management) | 으 |
 | 3/4/2020 | [Microsoft 팀에 대 한 경험 치 검토 가이드](/MicrosoftTeams/quality-of-experience-review-guide) | 으 |
 | 3/4/2020 | [Azure Monitor를 사용 하 여 Microsoft 팀 공간 관리 배포](/MicrosoftTeams/rooms/azure-monitor-deploy) | 으 |
-| 3/4/2020 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
+| 3/4/2020 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 으 |
 | 3/4/2020 | [팀 (30 개)](/MicrosoftTeams/teams-in-30-workshops) | 으 |
 | 3/5/2020 | [직접 라우팅으로 인증된 SBC(Session Border Controller) 목록](/MicrosoftTeams/direct-routing-border-controllers) | 으 |
 | 3/5/2020 | [Microsoft 팀의 페더레이션 (외부 액세스) 관리](/MicrosoftTeams/manage-external-access) | 으 |
@@ -50,6 +50,36 @@
 | 3/6/2020 | [통화 품질 대시보드 켜기 및 사용](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 으 |
 
 
+## <a name="week-of-march-09-2020"></a>1 월 9 일, 2020
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 3/10/2020 | [Teams 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 으 |
+| 3/10/2020 | [데이터 수집 사례](/MicrosoftTeams/data-collection-practices) | 으 |
+| 3/10/2020 | [통화 품질 대시보드에서 사용할 수 있는 크기 및 측정](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 으 |
+| 3/10/2020 | [PSTN 서비스 데스크에 문의](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 으 |
+| 3/10/2020 | [포트 주문의 상태 확인](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | 으 |
+| 3/10/2020 | [Microsoft 팀의 초대에 포함 된 전화 번호 설정](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 으 |
+| 3/10/2020 | [Microsoft Teams 사용자를 위한 강사 진행 교육 및 비디오](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 으 |
+| 3/10/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/remote-learning-edu) | 으 |
+| 3/10/2020 | [Microsoft 팀에서 장치 관리](/MicrosoftTeams/device-management) | 으 |
+| 3/11/2020 | [Microsoft 팀에서 앱 권한 정책 관리](/MicrosoftTeams/teams-app-permission-policies) | 으 |
+| 3/11/2020 | [Microsoft 팀에서 앱 설치 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 으 |
+| 3/11/2020 | [Microsoft 팀에서 사용자 지정 앱 정책 및 설정 관리](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 으 |
+| 3/11/2020 | [Microsoft 팀에서 사용자에 게 정책 할당](/MicrosoftTeams/assign-policies) | 으 |
+| 3/11/2020 | [학교에서 대규모 사용자 집합에 정책 할당](/MicrosoftTeams/batch-policy-assignment-edu) | 으 |
+| 3/12/2020 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 으 |
+| 3/12/2020 | [자주 묻는 질문(FAQ) - 원격 작업자 지원](/MicrosoftTeams/faq-support-remote-workforce) | 으 |
+| 3/13/2020 | [인도의 사용 가능 여부](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india) | 으 |
+| 3/13/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/remote-learning-edu) | 으 |
+| 3/13/2020 | [Microsoft 팀의 개인 채널 수명 주기 관리](/MicrosoftTeams/private-channels-life-cycle-management) | 으 |
+| 3/13/2020 | [Microsoft 팀 PSTN 사용 보고서](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 으 |
+| 3/13/2020 | [Microsoft Teams 사용자를 위한 강사 진행 교육 및 비디오](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 으 |
+| 3/13/2020 | [Microsoft Teams에 대한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 으 |
+| 3/13/2020 | [Microsoft Teams를 사용하여 원격 작업자 지원하기](/MicrosoftTeams/support-remote-work-with-teams) | 으 |
+
+
 ## <a name="week-of-february-17-2020"></a>2 월 17 일 1 주 2020
 
 
@@ -72,7 +102,7 @@
 |------|------------|--------|
 | 2/25/2020 | [Microsoft Endpoint Configuration Manager를 통해 MSI를 사용 하 여 Microsoft 팀 설치](/MicrosoftTeams/msi-deployment) | 으 |
 | 2/25/2020 | PowerShell 스크립트 샘플-Microsoft 팀 배포 정리 지원 | 제거할 |
-| 2/25/2020 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
+| 2/25/2020 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 으 |
 | 2/25/2020 | [직접 라우팅으로 인증된 SBC(Session Border Controller) 목록](/MicrosoftTeams/direct-routing-border-controllers) | 으 |
 | 2/25/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/resources-teams-edu) | 으 |
 | 2/26/2020 | [Exchange 및 Microsoft 팀의 상호 작용 방식](/MicrosoftTeams/exchange-teams-interact) | 으 |
@@ -98,7 +128,7 @@
 | 2/27/2020 | [Microsoft 팀 관리자 역할을 사용 하 여 팀 관리](/MicrosoftTeams/using-admin-roles) | 으 |
 | 2/28/2020 | [PSTN 서비스 데스크에 문의](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 으 |
 | 2/28/2020 | [Microsoft Teams를 사용하여 원격 작업자 지원하기](/MicrosoftTeams/support-remote-work-with-teams) | 으 |
-| 2/28/2020 | [가상화 된 데스크톱 인프라 팀](/MicrosoftTeams/teams-for-vdi) | 으 |
+| 2/28/2020 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 으 |
 | 2/28/2020 | [Microsoft 팀에서 이벤트 감사 로그 검색](/MicrosoftTeams/audit-log-events) | 으 |
 | 2/28/2020 | [직접 라우팅-아날로그 장치 연결](/MicrosoftTeams/direct-routing-analog-devices) | 으 |
 | 2/28/2020 | [전화 시스템 직접 라우팅](/MicrosoftTeams/direct-routing-call-notifications) | 으 |

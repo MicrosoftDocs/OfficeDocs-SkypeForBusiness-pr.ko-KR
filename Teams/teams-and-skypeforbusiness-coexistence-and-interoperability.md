@@ -18,21 +18,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adadf5bbc4ad8ea177e194c699eff7bd08384b87
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ef1c9d8fd9d30101fdd40dba5946dfefb324742c
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837418"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706658"
 ---
+# <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft 팀 및 비즈니스용 Skype 공존 및 상호 운용성 이해
+
 ![프로젝트 정의 단계를 강조 하 여 여행 다이어그램 업그레이드](media/upgrade-banner-project-definition.png "프로젝트 정의 단계에 대 한 강조를 사용 하 여 업그레이드 여행 단계")
 
 이 문서는 coalition 및 프로젝트 팀을 만들고 프로젝트에 대 한 범위, 목표, 비전을 정의 하는 과정을 완료 한 후 업그레이드를 위한 프로젝트 정의 단계의 일부입니다. 계속 하기 전에 다음 활동을 완료 했는지 확인 합니다.
 
 - [프로젝트 이해 관계자 참여](upgrade-enlist-stakeholders.md)
 - [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
-
-# <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft 팀 및 비즈니스용 Skype 공존 및 상호 운용성 이해
 
 조직에서 현재 비즈니스용 Skype를 사용 하 고 있거나 팀으로 업그레이드 하기 시작 하는 경우, 두 응용 프로그램이 공존 하는 방법, 상호 운용 되는 경우 및 방법, 관리 방법에 대해 이해 하는 것이 중요 합니다. 사용자의 마이그레이션-비즈니스용 Skype에서 팀으로의 최종 업그레이드에 대 한 모든 방법입니다.
 

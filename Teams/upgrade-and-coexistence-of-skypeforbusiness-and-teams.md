@@ -21,13 +21,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31966dbb98d89cf6a4ef9b4d4dd12710b098c755
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 849d54b5bbdab228d4d91329894da3cdf993017b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833728"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706608"
 ---
+# <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>비즈니스용 Skype에서 팀으로 업그레이드 여행 선택
+
 ![프로젝트 정의 단계를 강조 하 여 여행 다이어그램 업그레이드](media/upgrade-banner-project-definition.png "프로젝트 정의 단계에 대 한 강조를 사용 하 여 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행에 대 한 프로젝트 정의 단계의 일부입니다. 계속 하기 전에 다음 활동을 완료 했는지 확인 합니다.
@@ -35,8 +37,6 @@ ms.locfileid: "41833728"
 - [프로젝트 이해 관계자 참여](upgrade-enlist-stakeholders.md)
 - [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
 - [비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해](https://aka.ms/SkypeToTeams-Coexist)
-
-# <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>비즈니스용 Skype에서 팀으로 업그레이드 여행 선택
 
 기존 비즈니스용 Skype 고객의 경우 팀으로의 완벽 한 전환에는 약간의 시간이 걸릴 수 있습니다. 그러나 사용자가 비즈니스용 Skype와 함께 팀을 사용할 수 있도록 하 여 지금 팀의 가치를 현실화 하는 것이 시작 됩니다. 두 앱 사이에 일부 겹치는 기능이 있는 경우 조직에 적합 한 경로를 결정 하는 데 도움이 되도록 사용 가능한 공존 및 업그레이드 모드를 검토 하는 것이 좋습니다. 예를 들어 상호 운용성 없이 두 솔루션 모두에 대해 모든 작업을 사용 하도록 선택할 수 있습니다. 또는 조직에서 모든 사용자를 팀으로 업그레이드할 준비가 될 때까지 팀 역량을 점진적으로 소개 하거나 선택 기능에 대 한 사용자 그룹을 대상으로 하 여 사용자 환경을 관리 하도록 결정할 수 있습니다. 파일럿의 결과를 사용 하 여 조직의 올바른 업그레이드 여행에 대 한 평가를 도울 수 있습니다.
 
@@ -102,9 +102,9 @@ TeamsOnly의 관점에서 새 대화를 사용 하는 경우, 채팅 또는 통�
 | 팀 환경 | 아일랜드 모드 | TeamsOnly 모드 |
 |:------------------ | :------------------- | :------------------ |
 | 수신 되는 채팅 및 통화:|  비즈니스를 위한 팀 또는 비즈니스용 Skype | Teams |
-| 다음에 수신 된 PSTN 통화: | 비즈니스용 Skype <br>(팀에서 PSTN 기능 사용은 군도 모드에서 지원 되지 않습니다.)    | Teams |   
- |현재 상태  | 비즈니스용 Skype와 팀의 현재 상태는 독립적입니다. 사용자는 사용 하는 클라이언트에 따라 동일한 제도 사용자에 대해 다른 상태가 표시 될 수 있습니다. | 현재 상태는 팀의 사용자 활동만을 기반으로 합니다. 사용 하는 클라이언트에 관계 없이 다른 모든 사용자가 현재 상태를 볼 수 있습니다. | 
- | 모임 예약   | 사용자는 팀 또는 비즈니스용 Skype에서 모임을 예약할 수 있습니다. Outlook에서 두 추가 기능을 모두 볼 수 있습니다. |   사용자는 팀 에서만 모임을 예약할 수 있습니다. Outlook에서는 팀 추가 기능만 사용할 수 있습니다. | 
+| 다음에 수신 된 PSTN 통화: | 비즈니스용 Skype <br>(팀에서 PSTN 기능 사용은 군도 모드에서 지원 되지 않습니다.)     | Teams |   
+ |현재 상태    | 비즈니스용 Skype와 팀의 현재 상태는 독립적입니다. 사용자는 사용 하는 클라이언트에 따라 동일한 제도 사용자에 대해 다른 상태가 표시 될 수 있습니다. | 현재 상태는 팀의 사용자 활동만을 기반으로 합니다. 사용 하는 클라이언트에 관계 없이 다른 모든 사용자가 현재 상태를 볼 수 있습니다. | 
+ | 모임 예약    | 사용자는 팀 또는 비즈니스용 Skype에서 모임을 예약할 수 있습니다. Outlook에서 두 추가 기능을 모두 볼 수 있습니다.    |     사용자는 팀 에서만 모임을 예약할 수 있습니다. Outlook에서는 팀 추가 기능만 사용할 수 있습니다. | 
 
 다음 표에는 조직에서 팀으로 마이그레이션하는 데 겹치는 기능 방법을 사용할 때의 장단점을 요약 하 여 설명 합니다.
 

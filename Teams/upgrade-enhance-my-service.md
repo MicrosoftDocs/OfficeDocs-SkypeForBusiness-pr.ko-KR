@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02772dddf435e8c3dc2bc0fe243e453e387cd244
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2c5a437353d00fca8a59bd7de2b753967adc1134
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837208"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707008"
 ---
+# <a name="get-the-most-out-of-teams-after-upgrading"></a>업그레이드 후 팀을 최대한 활용 하기
+
 ![여행 다이어그램을 업그레이드 하 여 뛰어난 작업 단계 강조](media/upgrade-banner-op-excellence.png "운영에 대 한 다양 한 단계의 강조를 통해 업그레이드 여행 단계")
 
 이 문서는 비즈니스용 Skype에서 팀으로 업그레이드를 완료 하는 즉시 시작 되는 업그레이드 여행에 대 한 작업을 위한 뛰어난 단계의 일부입니다.
-
-# <a name="get-the-most-out-of-teams-after-upgrading"></a>업그레이드 후 팀을 최대한 활용 하기
 
 이 문서에서는 업그레이드 후 운영 팀을 최대한 활용 하기 위한 요구 사항을 간략하게 설명 합니다. 팀 서비스 기능을 지속적으로 모니터링 하 여 조직에 가장 적합 한 값을 제공 하 고 있는지 확인할 수 있습니다.
 

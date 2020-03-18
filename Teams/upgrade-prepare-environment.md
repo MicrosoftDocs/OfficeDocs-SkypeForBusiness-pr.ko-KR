@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82b9418f2e87550667cbc163f8f37a0989ec2b30
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: afbcc5721d55983e19970e6c2fbc60e5a7467cba
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863439"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706798"
 ---
+# <a name="prepare-your-environment-for-upgrading-to-teams"></a>팀으로 업그레이드 하기 위한 환경 준비
+
 ![여행 다이어그램 업그레이드, 기술 준비 단계 강조](media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 사용자 준비 단계와 병행 하 여 완료 한 활동 인 업그레이드 여행에 대 한 기술 준비 단계의 일부입니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
@@ -33,8 +35,6 @@ ms.locfileid: "41863439"
 - [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
 - [비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해](https://aka.ms/SkypeToTeams-Coexist)
 - [업그레이드 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-environment-for-upgrading-to-teams"></a>팀으로 업그레이드 하기 위한 환경 준비
 
 조직에서 팀을 업그레이드 하는 데 성공한 경우 현재 비즈니스용 Skype 환경과 네트워크 준비 상태를 확인 하는 것이 중요 합니다. 현재 환경을 준비 하면 이제 팀에서 사용자 환경의 품질을 개선 하는 것 외에도 고품질 사용자 환경을 유지할 수 있습니다. 개별 단계를 계획 하는 데 시간이 걸리는 경우 배포를 가속화 하 고 중요 한 작업 항목을 건너뛰지 않도록 할 수 있습니다.
 

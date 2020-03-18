@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13da1a583d5aa0abaad4e981e5fc68d3aa913ce9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4084bc58d98aa05af14511869fc44c6db85343b8
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837248"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707018"
 ---
+# <a name="define-your-project-scope"></a>프로젝트 범위 정의
+
 ![프로젝트 정의 스테이지를 강조 표시 하 여 여행 다이어그램 업그레이드](media/upgrade-banner-project-definition.png "프로젝트 정의 단계에 대 한 강조를 사용 하 여 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행에 대 한 프로젝트 정의 단계의 일부 이며, 확인 한 관련자 로부터 후원 coalition 및 프로젝트 팀을 만든 후 완료 한 활동은 프로젝트의 성공에 대 한 핵심입니다. 계속 하기 전에 다음 활동을 완료 했는지 확인 합니다.
 
 - [참여 한 프로젝트 이해 관계자](upgrade-enlist-stakeholders.md)
-
-# <a name="define-your-project-scope"></a>프로젝트 범위 정의
 
 프로젝트 비전, 범위, 목표, 관리를 정의 하는 데 시간이 오래 걸리면 모든 프로젝트 이해 관계자가 동일한 최종 결과를 기준으로 정렬 되 고 작업 하 게 됩니다. 이는 특히 기술 준비 팀과 사용자 준비 팀이 각자의 각 부분을 함께 하는 데 독립적으로 작동 하는 경우에 중요 합니다. 이 섹션을 완료 한 후에는 프로젝트 전체에서 해당 작업을 참조 하 여 원하는 종료 상태를 달성 하는 것이 진행 중인지 확인 합니다. 아래에서 확인 하는 목표를 사용 하 여 결과를 기준으로 측정 하 고 필요에 따라 줄입니다.
 

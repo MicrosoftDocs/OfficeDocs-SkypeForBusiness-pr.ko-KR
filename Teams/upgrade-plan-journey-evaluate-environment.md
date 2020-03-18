@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b97adde4f5016262ac3de1a5b79c9d69975580b
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: d73c40ee6a2ebe906a6a3ca66dbb430b843c6eeb
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863489"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706928"
 ---
+# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>팀으로 업그레이드 하기 전에 환경 평가
+
 ![여행 다이어그램 업그레이드, 기술 준비 단계 강조](media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 사용자 준비 단계와 병행 하 여 완료 한 활동 인 업그레이드 여행에 대 한 기술 준비 단계의 일부입니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
@@ -33,8 +35,6 @@ ms.locfileid: "41863489"
 - [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
 - [비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해](https://aka.ms/SkypeToTeams-Coexist)
 - [업그레이드 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>팀으로 업그레이드 하기 전에 환경 평가
 
 이 문서에서는 운영 팀의 현재 환경을 적절 하 게 평가 하기 위한 요구 사항을 간략하게 설명 합니다. 환경을 평가 하 여 전체 배포에 영향을 주는 위험 및 요구 사항을 식별 합니다. 이러한 항목을 미리 확인 하 여 성공에 대 한 계획을 조정할 수 있습니다.
 

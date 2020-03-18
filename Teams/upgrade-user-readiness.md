@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad51dd4b269652ec1899b2af6ace6a9b7b9f713a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d52c9d670c81e0fcbdcf31012ec08a008b082459
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836798"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706688"
 ---
+# <a name="prepare-a-user-readiness-plan"></a>사용자 준비 계획 준비
+
 ![업그레이드 여행 단계-사용자 준비 단계 강조 표시](media/upgrade-banner-user-readiness.png "사용자 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행에 대 한 사용자 준비 단계의 일부로, 기술 준비 단계와 병행 하 여 작업을 완료 합니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
@@ -33,8 +35,6 @@ ms.locfileid: "41836798"
 - [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
 - [비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해](https://aka.ms/SkypeToTeams-Coexist)
 - [업그레이드 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-a-user-readiness-plan"></a>사용자 준비 계획 준비
 
 최적의 사용자 준비 계획에는 파일럿, 통합, 팀으로의 업그레이드 등 사용자의 커뮤니케이션, 교육, 지원 방법이 포함 되어 있습니다. [조직의 변경 준비](https://aka.ms/OrgReadiness)에 나와 있는 것 처럼, 준비는 한 가지 크기에 부합 하지 않습니다. 새로운 기술에 대 한 최적의 receptiveness를 보장 하려면, 사용자가 정의한 가상 사용자 및 cohorts에 맞게 광범위 한 메시징 (비전/값 메시징 및 유니버설 사용 사례 통합)과 메시징, 교육, 지원 등을 결합 하 여 적절 하 게 laggards 합니다. 이 맞춤형 계획은 사용자가 팀과 더 빠르게 연관 시킬 수 있도록 하는 동시에 사용자의 요구를 이해 하는 데 도움을 줍니다.
 

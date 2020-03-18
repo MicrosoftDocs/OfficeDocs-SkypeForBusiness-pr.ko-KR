@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2bcd48abb34ad3b8e18b780708e588ad9d0276
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: fb6815c805c9f5bcf47d6ee88a6c43c559b932d3
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836220"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706648"
 ---
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레이드
+
 ![배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계](media/upgrade-banner-deployment.png "배포 및 구현 단계에 주안점을 두어 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행 배포 및 구현 단계의 일부입니다. 계속 하기 전에 다음 활동을 완료 했는지 확인 합니다.
@@ -36,8 +38,6 @@ ms.locfileid: "41836220"
 - [환경 준비](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [조직 준비](https://aka.ms/SkypeToTeams-UserReadiness)
 - [파일럿 수행](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레이드
 
 비즈니스용 Skype 또는 Microsoft Lync 온-프레미스를 배포 하 고 조직에서 Microsoft 팀으로 업그레이드 하려는 사용자가 여러 공존 모드를 사용 하거나 모두 하는 경우에는이 문서의 지침을 따르세요. 
 

@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e70d9bed1dfc2f04d7c5fa5a6823f93a02ec759
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 8b9e55a4189556c69e93c86286dd1b9b585bb726
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863449"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706888"
 ---
+# <a name="prepare-your-service-for-upgrading-to-teams"></a>팀으로 업그레이드 하기 위해 서비스 준비
+
 ![여행 다이어그램 업그레이드, 기술 준비 단계 강조](media/upgrade-banner-tech-readiness.png "기술 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 사용자 준비 단계와 병행 하 여 완료 한 활동 인 업그레이드 여행에 대 한 기술 준비 단계의 일부입니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
@@ -33,8 +35,6 @@ ms.locfileid: "41863449"
 - [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
 - [비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해](https://aka.ms/SkypeToTeams-Coexist)
 - [업그레이드 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-service-for-upgrading-to-teams"></a>팀으로 업그레이드 하기 위해 서비스 준비
 
 이 문서에서는 팀과 공동 작업 및 클라우드 음성 서비스에 대 한 조직을 준비 하는 데 필요한 요구 사항에 대해 간략하게 설명 합니다. 제대로 준비 하 여 조직에 이러한 접근 권한 값을 제공할 수 있는지 확인 하세요.
 

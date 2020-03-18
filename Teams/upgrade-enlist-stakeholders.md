@@ -18,19 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b271dbfbb99508c26feb86cb7803b8eacdf73910
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837198"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706998"
 ---
+# <a name="enlist-your-project-stakeholders"></a>프로젝트 관련자 참여
+
 ![업그레이드 여행의 이해 관계자 상태를 보여 주는 그림](media/upgrade-banner-stakeholders.png "프로젝트 이해 관계자 팀 수집에 대 한 강조를 통해 업그레이드 여행 단계")
 
 이 문서는 프로젝트의 성공에 대해 완료 하는 가장 중요 한 첫 번째 활동 인 업그레이드 여행에 대 한 프로젝트 관련자 단계의 일부입니다.
-
-
-# <a name="enlist-your-project-stakeholders"></a>프로젝트 관련자 참여
 
 프로젝트 인도품 구현에서 책임을 추진 하는 것부터 관계자가 프로젝트의 성공에 대 한 키를 보유 하 고 있습니다. 다음과 같은 두 가지 관계자 (1) 프로젝트의 성공 여부에 대 한 vested 이자에 영향을 주는 임원 및 프로젝트 스폰서를 포함 하 고 프로젝트 _팀_에 게 프로젝트 계획의 다양 한 작업을 완료 하는 기술 및 사용자 준비를 보장 하는 사용자로 구성 된 _coalition_ (2). 이러한 두 그룹 간의 일반적인 스레드는 프로젝트 작업을 예약할 때 완료 하 고 프로젝트 상태를 다시 coalition에 보고 하는 _프로젝트 관리자_입니다.
 

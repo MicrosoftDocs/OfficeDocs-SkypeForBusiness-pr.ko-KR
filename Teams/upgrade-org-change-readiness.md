@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 888e56561e4e6f4a521a0e1730fe3c9ea6adff82
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048599"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706938"
 ---
+# <a name="assess-organizational-change-readiness"></a>조직 변경 준비 사항 평가
+
 ![여행 다이어그램 업그레이드, 사용자 준비 단계 강조](media/upgrade-banner-user-readiness.png "사용자 준비 단계에 중점을 두어 업그레이드 여행 단계")
 
 이 문서는 업그레이드 여행에 대 한 사용자 준비 단계의 일부로, 기술 준비 단계와 병행 하 여 작업을 완료 합니다. 계속 하기 전에 이전 단계에서 다음 활동을 완료 했는지 확인 합니다.
@@ -33,8 +35,6 @@ ms.locfileid: "42048599"
 - [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
 - [비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해](https://aka.ms/SkypeToTeams-Coexist)
 - [업그레이드 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="assess-organizational-change-readiness"></a>조직 변경 준비 사항 평가
 
 프로젝트 팀을 보호 하 고 비전, 범위, 목표를 정의한 후에는 업그레이드와 관련 한 다음 단계에 따라 조직 및 사용자가 팀을 준비 하는 데 도움이 됩니다 (기술 준비를 위해 동시에 완료 하는 활동). 팀에서 가치를 실현 하려면 사용자가 실제로이를 사용 해야 합니다. 팀을 사용 하는 것은 목표를 달성 하는 것을 보장 하지 않습니다. 사용자는 다양 한 사용 사례와 다양 한 학습 스타일을 사용할 수 있으며 다양 한 속도로 새로운 기술에 적응 합니다. 좋은 소식은 변화를 관리 하는 것이 그다지 복잡 하지는 않지만, 중요 한 작업을 수행 하는 것입니다. 아래의 안내 토론은 사용자의 편의를 이해 하는 데 도움이 되도록 설계 되어 있으며, 적절 한 수준의 교육을 통해 사용자 도입을 개선 하 고 가속화할 수 있습니다. 사용자 기반을 확인 하는 방법에는 두 가지가 있습니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "42048599"
 <!--
 | **Type of user** | **%** |
 |------------|---|
-| *Early adopters* request the solution before it’s available. | |
+| *Early adopters* request the solution before it's available. | |
 | *Informed users* accept the solution as soon as its value is demonstrated. | |
 | *Laggards* reject the solution, even when pushed into change. | |
 -->
@@ -80,8 +80,8 @@ ms.locfileid: "42048599"
 | **Type of learner** | **%** |
 |---------------|---|
 | *Self-motivated* learners seek out resources, learn by doing. | |
-| *Team-players* enjoy group and interactive training; they’ll go along with coworkers. | |
-| *Hand-holding* seekers expect “white glove” or one-on-one assistance. | |
+| *Team-players* enjoy group and interactive training; they'll go along with coworkers. | |
+| *Hand-holding* seekers expect "white glove" or one-on-one assistance. | |
 -->
 
 | 자체 동기 | 팀 플레이어 | 핸드 지주 seekers |

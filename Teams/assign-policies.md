@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 사용자에 게 정책을 할당 하는 다양 한 방법에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: e9f31f9bf9d08497b58490ddc7a7bea9e0496539
-ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
+ms.openlocfilehash: 0f0ce566eb395e3bf3722149797908599091bc2a
+ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604295"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42691198"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft 팀에서 사용자에 게 정책 할당
 
@@ -125,6 +125,9 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 일괄 처리 정책 할당을 사용 하면 대규모 사용자 집합에 스크립트를 사용할 필요 없이 한 번에 정책을 할당할 수 있습니다. ```New-CsBatchPolicyAssignmentOperationd``` Cmdlet을 사용 하 여 할당 하려는 사용자의 일괄 처리 및 정책을 제출할 수 있습니다. 할당이 백그라운드 작업으로 처리 되 고 각 일괄 처리에 대 한 작업 ID가 생성 됩니다. 그런 다음 ```Get-CsBatchPolicyAssignmentOperation``` cmdlet을 사용 하 여 일괄 처리에서 배정의 진행률과 상태를 추적할 수 있습니다.
 
 일괄 처리에는 최대 2만 명의 사용자를 포함할 수 있습니다. 개체 Id, UPN (사용자 계정 이름), SIP (세션 초기화 프로토콜) 주소 또는 전자 메일 주소를 사용 하 여 사용자를 지정할 수 있습니다.
+
+> [!IMPORTANT]
+> 현재는 5000 사용자를 한 번에 일괄적으로 할당 하는 것을 제안 하 고 있습니다. 이러한 시간을 연장 하는 동안에는 처리 시간이 지연 될 수 있습니다. 이 늘어난 처리 시간에 대 한 영향을 최소화 하기 위해 최대 5000 사용자에 대 한 작은 일괄 처리 크기를 제출 하 고 이전 작업을 완료 한 후에 각 일괄 처리를 제출 하는 것이 좋습니다. 업무 시간 외에 일괄 처리를 제출 하는 것도 도움이 될 수 있습니다.
 
 > [!NOTE]
 > 현재 일부 팀 정책 유형에는 일괄 처리 정책 할당을 사용할 수 없습니다. 지원 되는 정책 유형 목록에 대 한 [CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) 을 참조 하세요.
