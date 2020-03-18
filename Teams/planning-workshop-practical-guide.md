@@ -3,11 +3,10 @@ title: 도구 및 워크샵-Microsoft 팀 계획, 제공 및 채택
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: lolaj, rowille
+ms.reviewer: karuanag
 description: 조직에서 Microsoft 팀을 시작 하는 데 도움이 되는 계획 도구, 워크샵, 시작 키트를 참조 하세요.
 localization_priority: Normal
 search.appverid: MET150
@@ -15,45 +14,50 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 356ff815fe05a91f203778c0f6af255182ace35c
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 1ac7c61675c04d6d184a3b7fe14b4088f43bd2ef
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550905"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42840112"
 ---
-# <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a><span data-ttu-id="47a55-103">도구 및 워크샵: Microsoft 팀 계획, 제공 및 채택</span><span class="sxs-lookup"><span data-stu-id="47a55-103">Tools and workshops: Plan, deliver, and adopt Microsoft Teams</span></span>
+# <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a><span data-ttu-id="244c5-103">도구 및 워크샵: Microsoft 팀 계획, 제공 및 채택</span><span class="sxs-lookup"><span data-stu-id="244c5-103">Tools and workshops: Plan, deliver, and adopt Microsoft Teams</span></span>
 
-<span data-ttu-id="47a55-104">이러한 도구를 다운로드 하 여 조직에서 팀을 계획 하 고 제공 하 고 채택 하는 과정을 안내 합니다.</span><span class="sxs-lookup"><span data-stu-id="47a55-104">Download these tools to walk you through planning, delivering, and adopting Teams in your organization.</span></span>
-
-
-- [<span data-ttu-id="47a55-105">Microsoft 팀 고객 성공 키트</span><span class="sxs-lookup"><span data-stu-id="47a55-105">Microsoft Teams Customer Success Kit</span></span>](https://aka.ms/TeamsCustomerSuccess)
-
-    <span data-ttu-id="47a55-106">이 키트에는 조직에서 팀을 채택 하 고 배포 하는 데 사용할 수 있는 다양 한 프레젠테이션, 전자 메일 서식 파일, 팁 & 요령, 포스터 등이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="47a55-106">This kit contains a wide range of presentations, email templates, tips & tricks, and posters that you can use to roll out and drive the adoption of Teams in your organization.</span></span> <span data-ttu-id="47a55-107">여기에는 관리자와 팀 리더에 대 한 두 개의 빠른 시작 가이드, 모든 부서의 사용 사례 예제 등이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="47a55-107">It includes two quick-start guides for administrators and team leaders, and use case examples for every department.</span></span> <span data-ttu-id="47a55-108">이러한 리소스를 사용 하 여 마케팅, 영업, 재무, 인적 자원, IT, 엔지니어링, 프로젝트 관리를 비롯 한 조직의 다양 한 기능을 위한 대부분의 팀을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="47a55-108">Use these resources to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, IT, Engineering, and Project Management.</span></span>
+<span data-ttu-id="244c5-104">이러한 도구를 다운로드 하 여 조직에서 팀을 계획 하 고 제공 하 고 채택 하는 과정을 안내 합니다.</span><span class="sxs-lookup"><span data-stu-id="244c5-104">Download these tools to walk you through planning, delivering, and adopting Teams in your organization.</span></span>
 
 
-- [<span data-ttu-id="47a55-109">관리 빠른 시작 가이드</span><span class="sxs-lookup"><span data-stu-id="47a55-109">Admin quick start guide</span></span>](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
+- [<span data-ttu-id="244c5-105">Microsoft 팀 고객 성공 키트</span><span class="sxs-lookup"><span data-stu-id="244c5-105">Microsoft Teams Customer Success Kit</span></span>](https://aka.ms/TeamsCustomerSuccess)
 
-    <span data-ttu-id="47a55-110">이 문서에서는 팀을 성공적으로 활성화 하기 위한 5 가지 구현 단계를 안내 합니다.</span><span class="sxs-lookup"><span data-stu-id="47a55-110">This document walks you through the five implementation phases for successfully enabling Teams.</span></span> <span data-ttu-id="47a55-111">조직의 현재 Office 365 환경에 대 한 정보를 캡처하는 기술 계획 질문 서가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="47a55-111">It includes a technical planning questionnaire that captures information about your organization’s current Office 365 environment.</span></span> <span data-ttu-id="47a55-112">워크숍 리더는이 정보를 사용 하 여 워크숍 프레젠테이션을 사용자 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="47a55-112">The workshop leader can use this information to customize the workshop presentation.</span></span> <span data-ttu-id="47a55-113">또한이 질문에 따라 워크숍의 의사 결정과 다음 단계를 캡처할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="47a55-113">The questionnaire also captures your decisions and next steps from the workshop.</span></span>
+    <span data-ttu-id="244c5-106">이 키트에는 조직에서 팀을 채택 하 고 배포 하는 데 사용할 수 있는 다양 한 프레젠테이션, 전자 메일 서식 파일, 팁 & 요령, 포스터 등이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="244c5-106">This kit contains a wide range of presentations, email templates, tips & tricks, and posters that you can use to roll out and drive the adoption of Teams in your organization.</span></span> <span data-ttu-id="244c5-107">여기에는 관리자와 팀 리더에 대 한 두 개의 빠른 시작 가이드, 모든 부서의 사용 사례 예제 등이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="244c5-107">It includes two quick-start guides for administrators and team leaders, and use case examples for every department.</span></span> <span data-ttu-id="244c5-108">이러한 리소스를 사용 하 여 마케팅, 영업, 재무, 인적 자원, IT, 엔지니어링, 프로젝트 관리를 비롯 한 조직의 다양 한 기능을 위한 대부분의 팀을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="244c5-108">Use these resources to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, IT, Engineering, and Project Management.</span></span>
 
-- [<span data-ttu-id="47a55-114">워크숍: 팀의 계획, 납품, & 운영</span><span class="sxs-lookup"><span data-stu-id="47a55-114">Workshop: Plan, deliver, & operate Teams</span></span>](https://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)
+- [<span data-ttu-id="244c5-109">Teams를 배포하는 방법</span><span class="sxs-lookup"><span data-stu-id="244c5-109">How to roll out Teams</span></span>](How-to-roll-out-teams.md)
 
-    <span data-ttu-id="47a55-115">이 PowerPoint 프레젠테이션을 사용 하 여 조직에서 팀 롤아웃을 계획 하는 워크숍을 진행 합니다.</span><span class="sxs-lookup"><span data-stu-id="47a55-115">Use this PowerPoint presentation to lead a workshop with your organization to plan your Teams rollout.</span></span> <span data-ttu-id="47a55-116">워크숍은 팀을 소개 하 고 결정 지점과 다음 단계를 통해 팀을 안내 합니다.</span><span class="sxs-lookup"><span data-stu-id="47a55-116">The workshop introduces Teams, and guides your team through decision points and next steps.</span></span>
+    <span data-ttu-id="244c5-110">팀을 롤아웃하기 위해 권장 하는 경로를 따르세요.</span><span class="sxs-lookup"><span data-stu-id="244c5-110">Follow our recommended path to rolling out Teams.</span></span>
 
-- [<span data-ttu-id="47a55-117">Office 365 정부 고객</span><span class="sxs-lookup"><span data-stu-id="47a55-117">Office 365 Government Customers</span></span>](plan-for-government-gcc.md)
+- [<span data-ttu-id="244c5-111">팀 기술 교육 받기</span><span class="sxs-lookup"><span data-stu-id="244c5-111">Get Teams technical training</span></span>](https://aka.ms/TeamsAcademy)
 
-   <span data-ttu-id="47a55-118">팀으로의 여행을 기업 고객의 환경과 매우 유사 합니다.</span><span class="sxs-lookup"><span data-stu-id="47a55-118">Your journey to Teams is much like our enterprise customers’ experience.</span></span> <span data-ttu-id="47a55-119">일반적으로 테 넌 트에서 Microsoft 팀을 사용할 수 있게 되 면 [microsoft 365 정부의 GCC 배포](plan-for-government-gcc.md) 문서 및 [관리 빠른 시작 가이드](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)에 대 한 계획을 시작 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="47a55-119">As Microsoft Teams becomes generally available to your tenants, we encourage you to start with our [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md) article and [Admin quick start guide](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).</span></span> <span data-ttu-id="47a55-120">Microsoft의 [보안 및 준수](security-compliance-overview.md) 개요를 통해 사용자 환경의 팀에 대해 확신을 느낄 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="47a55-120">Our [security and compliance](security-compliance-overview.md) overview will help you feel confident about Teams in your environment.</span></span>
+    <span data-ttu-id="244c5-112">이러한 기술 교육 리소스를 사용 하 여 자신을 교육 하거나 다른 사람을 가르쳐 하거나 워크샵을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="244c5-112">Use these technical training resources to educate yourself, teach others, or run workshops.</span></span>
 
-### <a name="see-also"></a><span data-ttu-id="47a55-121">참고 항목</span><span class="sxs-lookup"><span data-stu-id="47a55-121">See also</span></span>
+- [<span data-ttu-id="244c5-113">Office 365 정부 고객</span><span class="sxs-lookup"><span data-stu-id="244c5-113">Office 365 Government Customers</span></span>](plan-for-government-gcc.md)
 
-[<span data-ttu-id="47a55-122">IT 관리자가 팀에 대해 준비</span><span class="sxs-lookup"><span data-stu-id="47a55-122">IT admin readiness for Teams</span></span>](ITAdmin-readiness.md)
+   <span data-ttu-id="244c5-114">팀으로의 여행을 기업 고객의 환경과 매우 유사 합니다.</span><span class="sxs-lookup"><span data-stu-id="244c5-114">Your journey to Teams is much like our enterprise customers' experience.</span></span> <span data-ttu-id="244c5-115">일반적으로 테 넌 트에서 팀을 사용할 수 있게 되 면 [Microsoft 365 정부의 GCC 배포](plan-for-government-gcc.md) 문서 및 [관리 빠른 시작 가이드](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)에 대 한 계획을 시작 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="244c5-115">As Teams becomes generally available to your tenants, we encourage you to start with our [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md) article and [Admin quick start guide](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).</span></span> <span data-ttu-id="244c5-116">Microsoft의 [보안 및 준수](security-compliance-overview.md) 개요를 통해 사용자 환경의 팀에 대해 확신을 느낄 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="244c5-116">Our [security and compliance](security-compliance-overview.md) overview will help you feel confident about Teams in your environment.</span></span>
 
-[<span data-ttu-id="47a55-123">채택을 위한 도구</span><span class="sxs-lookup"><span data-stu-id="47a55-123">Tools for adoption</span></span>](adopt-tools-and-downloads.md)
+- [<span data-ttu-id="244c5-117">교육 팀-관리자를 위한 빠른 시작</span><span class="sxs-lookup"><span data-stu-id="244c5-117">Teams for Education - Quick start for admins</span></span>](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu)
 
-[<span data-ttu-id="47a55-124">비즈니스용 Skype에서 팀으로 업그레이드 계획 워크숍</span><span class="sxs-lookup"><span data-stu-id="47a55-124">Skype for Business to Teams Upgrade Planning Workshop</span></span>](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+    <span data-ttu-id="244c5-118">이 자습서를 사용 하 여 교육 기관에 대 한 팀 롤아웃을 안내해 보세요.</span><span class="sxs-lookup"><span data-stu-id="244c5-118">Use this tutorial to walk you through a Teams rollout for your education organization.</span></span>
 
-[<span data-ttu-id="47a55-125">사용자를 온-프레미스에서 Teams로 이동</span><span class="sxs-lookup"><span data-stu-id="47a55-125">Move users from on-premises to Teams</span></span>](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+### <a name="see-also"></a><span data-ttu-id="244c5-119">참고 항목</span><span class="sxs-lookup"><span data-stu-id="244c5-119">See also</span></span>
 
-[<span data-ttu-id="47a55-126">조직에서 Microsoft Teams 설정 관리</span><span class="sxs-lookup"><span data-stu-id="47a55-126">Manage Microsoft Teams settings for your organization</span></span>](enable-features-office-365.md)
+[<span data-ttu-id="244c5-120">팀 교육</span><span class="sxs-lookup"><span data-stu-id="244c5-120">Teams training</span></span>](training-microsoft-teams-landing-page.md)
+
+[<span data-ttu-id="244c5-121">IT 관리자가 팀에 대해 준비</span><span class="sxs-lookup"><span data-stu-id="244c5-121">IT admin readiness for Teams</span></span>](ITAdmin-readiness.md)
+
+[<span data-ttu-id="244c5-122">채택을 위한 도구</span><span class="sxs-lookup"><span data-stu-id="244c5-122">Tools for adoption</span></span>](adopt-tools-and-downloads.md)
+
+[<span data-ttu-id="244c5-123">비즈니스용 Skype에서 팀으로 업그레이드 계획 워크숍</span><span class="sxs-lookup"><span data-stu-id="244c5-123">Skype for Business to Teams Upgrade Planning Workshop</span></span>](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+
+[<span data-ttu-id="244c5-124">사용자를 온-프레미스에서 Teams로 이동</span><span class="sxs-lookup"><span data-stu-id="244c5-124">Move users from on-premises to Teams</span></span>](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+
+[<span data-ttu-id="244c5-125">조직의 Teams 설정 관리</span><span class="sxs-lookup"><span data-stu-id="244c5-125">Manage Teams settings for your organization</span></span>](enable-features-office-365.md)
 
 
