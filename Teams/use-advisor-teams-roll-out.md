@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams 배포를 계획하고 완료할 수 있습니다.
-ms.openlocfilehash: c1da173ffbdb150d032b11e0d70ba85e3e4f308b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ef78352df9d678d9f14dff246c3a363de755b539
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836778"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795851"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -165,6 +165,8 @@ Advisor for Teams에서는 EUII(최종 사용자 식별 정보) 이외의 정보
 ## <a name="related-topics"></a>관련 항목
 
 [Teams를 배포하는 방법](How-to-roll-out-teams.md)
+
+[Teams에서 팀을 구성하는 방법에 대한 모범 사례](best-practices-organizing.md)
 
 [라이선싱에 대한 제품 이름 및 서비스 계획 식별자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
 ) 
