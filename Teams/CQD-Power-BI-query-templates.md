@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Power BI를 사용 하 여 Microsoft 팀에 대 한 CQD 데이터를 분석 하세요.
-ms.openlocfilehash: 155bde0373880befc770d745ca246b76d4c63eec
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: c69d2ba79044d4d15e21881e5d2a9a2ce4f64feb
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572896"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796011"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Power BI를 사용 하 여 Microsoft 팀에 대 한 CQD 데이터 분석
 
@@ -40,6 +40,9 @@ T e 2020의 새로운 [기능: CQD 용 POWER BI 쿼리 서식 파일을 다운�
 |CQD 요약 보고서. .pbix     |향상 된 시각화, 향상 된 프레젠테이션, 증가 하는 정보 조밀도 및 롤링 날짜 이러한 보고서를 사용 하면 식별자가 이상 이상 하 게 됩니다. 편리한 대화형 지도를 사용 하 여 통화 품질을 위치에 따라 드릴 하세요. 9 개의 새 보고서:</p>-전체 품질<br>-안정성 전반적<br>-RMC (통화 요금 평가) 전체<br>-컨퍼런스 음질<br>-P2P 품질<br>-컨퍼런스 안정성<br>-P2P 안정성<br>-컨퍼런스 RMC<br>-P2P RMC         |
 |<strong>(신규!)</strong> CQD 팀 이용률 보고서. .pbix     | 조직의 사용자가 팀을 사용 하는 방법과 사용량을 보여 줍니다. 자세한 내용은 [CQD POWER BI 보고서를 참조 하 여 Microsoft 팀의 이용률을 확인](CQD-teams-utilization-report.md)하세요.        |
 |CQD 사용자 피드백 (내 통화 요금) 보고서. .pbix     | 조직에 대 한 통화 지원에 쉽게 사용할 수 있는 방식으로 내 통화 데이터의 요금을 표시 합니다. Verbatims와 상호 참조를 사용 하 여 최종 사용자 교육 기회를 식별 합니다.        |
+
+> [!TIP]
+> CQD 데이터에 대 한 Power BI 보고서를 설정 했으면 채널에 탭으로 추가 합니다. 채널에서을 **+** 선택한 후 **Power BI** 를 선택한 다음 보고서를 찾습니다. Power BI 라이선스가 있는 사용자와 CQD 관리자 자격 증명은 이러한 보고서에 액세스할 수 있다는 점에 유의 하세요.
 
 
 ## <a name="related-topics"></a>관련 항목

@@ -3,7 +3,6 @@ title: Teams 서식 파일 시작
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fef3357f938be0e9261d0b5459c9f6aa16942329
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 585d3241506dacf60eb02b1d7a3e97cb80357026
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837018"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796031"
 ---
 # <a name="get-started-with-teams-templates"></a>Teams 서식 파일 시작
 
@@ -77,9 +76,6 @@ ms.locfileid: "41837018"
 | 의료<br>I |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |채널 <ul><li>알림에서\*</li><li>Huddles\*</li><li>소수</li><li>자원\*</li><li>교육\*</li></ul>\*자동 즐겨찾기에 채널 |
 |의료<br>병원 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |채널<ul><li>알림에서\*</li><li>충족\*</li><li>Custodial</li><li>인적 자원</li></li><li>Pharmacy</li></ul>\*자동 즐겨찾기에 채널|
 |||
-
-> [!NOTE]
-> Microsoft 팀의 향후 릴리스에서 기본 서식 파일 형식을 추가 하면 지원 되는 속성에 대 한 최신 정보를 다시 확인 합니다.
 
 ## <a name="related-topics"></a>관련 항목
 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 806a96db63ca0bbb44eb92ed6e84f8451069e725
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035462"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796001"
 ---
 # <a name="teams-only-mode-considerations"></a>팀 전용 모드 고려 사항
 
@@ -49,8 +49,6 @@ Office 365 테 넌 트의 관리자는 Microsoft 팀 관리 센터에서 팀 전
 
 **테 넌 트 전체 고려 사항**: 다음 환경에서 팀을 사용 하도록 설정할 수 있습니다. 그러나 지금은 비즈니스용 Skype 테 넌 트가 다음 환경 중 하나에서 호스팅되는 경우 관리자는 조직의 모든 사용자를 업그레이드 하지 않아야 합니다.
 
- - 정부 커뮤니티 구름 높음
- - 정부 커뮤니티 클라우드 DoD
  - 21Vianet에서 운영 하는 Office 365
  - Office 365 독일
  - 비즈니스용 Skype 테 넌 **트가 대한민국에서** 호스팅되며 조직에는 대한민국에 저장 되는 팀 데이터가 필요 합니다. 현재 대한민국에 저장 된 비즈니스용 Skype 데이터를 보유 하 고 있는 조직에서 팀으로 업그레이드 하면 해당 팀 데이터가 동남 한국 데이터 센터 지역에 저장 되지 않고 아시아 데이터 센터 지역에 저장 됩니다.

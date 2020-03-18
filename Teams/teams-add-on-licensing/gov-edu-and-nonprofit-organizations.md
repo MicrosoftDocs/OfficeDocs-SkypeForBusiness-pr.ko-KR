@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '.GOV, .EDU 및 비영리 조직 계획에 대 한 추가 기능 라이선스 및 기능에 대해 알아보세요. '
-ms.openlocfilehash: 8544d685fffa1a4ab4f53a83e0651bd898e3c845
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 49be4e27997278d1a0b2842ced2c540783b68163
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029389"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795971"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU 및 비영리 조직
 
@@ -37,3 +37,18 @@ ms.locfileid: "42029389"
 |Office 365 통화 요금제  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
    
 이 블로그 게시물을 참조 하세요: [미국 정부 커뮤니티 클라우드 고객은 이제 고급 Office 365 기능을 사용할 수](https://www.microsoft.com/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)있습니다.
+
+## <a name="teams-trial-licenses"></a>팀 평가판 라이선스
+
+Microsoft는 사용자가 원격으로 작업 하거나 집에서 작업 하도록 하는 데 대 한 응답으로, 정부, 교육 및 비영리 조직에 대해 여러 무료 팀 평가판을 제공 합니다.
+
+- 팀을 비롯 한 [Office 365 E1 평가판](../e1-trial-license.md) 은 Microsoft 계정 담당자가 관리 하는 모든 고객에 대 한 무료 6 개월 E1 라이선스입니다. 다른 Office 365 E1 평가판을 활성화 하지 않은 조직 (비 이익 포함)의 경우 
+
+- GCC의 경우 [Office 365 G1 평가판](../g1-trial-license.md)를 확인하세요. 
+
+- .EDU 고객은 [무료 Office 365 A1 라이선스](../teams-edu-licensing.md)를 사용 해야 합니다.
+
+
+## <a name="related-topics"></a>관련 항목
+
+[Office 365 비영리](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
