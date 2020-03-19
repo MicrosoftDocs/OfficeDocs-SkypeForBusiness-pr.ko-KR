@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a657954dcc72d4307c2ba8db222a2b8bbab88f09
-ms.sourcegitcommit: 79572b3cb270c77ba7d78a06af02547ed9b7a7ea
+ms.openlocfilehash: a8f6a0d5df609724a4bdd807a3f2f41826cd40c9
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42632753"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858598"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 

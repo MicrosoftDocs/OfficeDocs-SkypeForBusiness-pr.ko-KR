@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 ms.reviewer: nichrose
 localization_priority: Priority
 search.appverid: MET150
 description: COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우, 이 가이드를 사용하여 원격 작업자의 생산성을 지원할 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 869c489fbb5ff30f611b52d3682b090422aece8d
-ms.sourcegitcommit: 5f4bcbd3011aae13db846b4fe3da0b76fff7d05f
+ms.openlocfilehash: e5b6249adc4c5f7af09f0414b07f500058f71747
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42617752"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858743"
 ---
 # <a name="faq-support-your-remote-workforce"></a>자주 묻는 질문(FAQ) - 원격 작업자 지원
 
