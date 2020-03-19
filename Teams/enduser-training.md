@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 ms.reviewer: lolaj
 search.appverid: MET150
 description: 조직의 사용자에 게 팀을 배우고 사용할 수 있는 교육 비디오, 자습서 및 기타 리소스.
@@ -19,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72e8543d4d279796051ae24a728092fc236b13e3
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
+ms.openlocfilehash: 967fdf2dd00c41425a56627082c5f74a7310acb9
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574015"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858353"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft 팀의 최종 사용자 교육
 
@@ -148,7 +149,32 @@ ms.locfileid: "42574015"
 
 <h2>특집 교육</h2>
 <ul class="panelContent cardsW">
-     <li>
+<li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>원격 작업 (WFH)</h3>
+                         <p><a href="https://aka.ms/remote-work">Office 365로 원격 작업</a></p>
+                        <p><a href="https://support.office.com/article/5144136b-1ff8-476f-bcba-00de0bdaa600">Office 365의 공동 작업을 위한 모범 사례</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li> 
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>원격 학습</h3>
+                         <p><a href="https://www.microsoft.com/en-us/education/remote-learning">원격 학습으로 전환 하기</a></p>
+                        <p><a href="https://aka.ms/TeamsEDUQuickGuide">교육 팀: 빠른 시작 가이드</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
