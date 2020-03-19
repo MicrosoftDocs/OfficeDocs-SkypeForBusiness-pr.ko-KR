@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: 오디오 회의, 전화 시스템, 통화 요금제 등의 기능에 대 한 라이선스를 할당 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d75201b7be82337898d4e9fe4feafb4de1155a9
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: b962a29f163a094f5b7c74f7504a5d78e310561a
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236838"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858561"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Microsoft 팀 라이선스 할당
 
@@ -164,10 +165,10 @@ foreach ($user in $users)
 | 제품 이름 | SKU 부품 이름 |
 |--------------|---------------|
 | 오디오 회의 (구독) | MCOMEETADV | 
-| 오디오 회의 (분당 요금) (유료)</br>*참고: 통신 크레딧이 설정 및 활성화 되어 있어야*합니다. | MCOMEETACPEA |
+| 오디오 회의 (분당 요금) (유료)</br>*참고: 통신 크레딧이 설정 및 활성화 되어 있어야*합니다. |    MCOMEETACPEA |
 | Enterprise E1 | STANDARDPACK | 
 | Enterprise E3 | ENTERPRISEPACK |
-| Enterprise E5 (오디오 회의 없음) |  ENTERPRISEPREMIUM_NOPSTNCONF |
+| Enterprise E5 (오디오 회의 없음) |     ENTERPRISEPREMIUM_NOPSTNCONF |
 | Enterprise E5 (오디오 회의 포함) | ENTERPRISEPREMIUM |
 
 ##  <a name="communications-credits"></a>통신 크레딧
@@ -186,7 +187,7 @@ foreach ($user in $users)
 
 오디오 회의 라이선스를 할당 하는 샘플 스크립트를 살펴보세요. 통신 제작진 라이선스를 할당 하는 정보로 업데이트 하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [통화 플랜 설정](set-up-calling-plans.md)
 </br>

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결 하는 방법을 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: 347a8a7dd64831281c1c9e2f94f2bea24fb18555
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 0e15f8e76bc9512a28311764c39e34b45131b9d3
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160712"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858583"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -303,6 +303,25 @@ SBC는 DNS 쿼리를 사용 하 여 sip.pstnhub.microsoft.com를 해결 합니�
   > [!NOTE]
   > Microsoft는 SBC에서 동시에 포트를 두 개 이상 사용할 것을 권장 합니다.
 
+
+## <a name="media-traffic-media-processors-geography"></a>미디어 트래픽: 미디어 프로세서 지리
+
+미디어 소통량은 미디어 프로세서 라는 구성 요소를 통해 흐릅니다. 미디어 프로세서는 SIP 프록시와 동일한 데이터 센터에 배치 됩니다. 또한 미디어 흐름을 최적화 하는 추가 미디어 프로세서가 있습니다. 예를 들어 지금 오스트레일리아에 SIP 프록시 구성 요소가 없기 때문에 (싱가포르 또는 홍콩의 SIP 흐름), 오스트레일리아에는 미디어 프로세서가 로컬로 설치 되어 있습니다. 미디어 프로세서가 로컬로 작동 하는 경우, 예를 들어 오스트레일리아에서 싱가포르 또는 홍콩 등의 소통량을 멀리 보내 경험 하는 대기 시간으로 규정 됩니다. 오스트레일리아에서 홍콩 또는 싱가포르로 흐르는 트래픽의 예에 있는 지연 시간은 SIP 소통량에 대 한 좋은 통화 음질을 유지 하는 데 허용 되지만, 실시간 미디어 소통량에는 적합 하지 않습니다.
+
+미디어 프로세서 위치:
+
+SIP 프록시와 미디어 프로세서 구성 요소가 모두 배포 된 위치:
+- 미국 (미국 서 부 및 미국 동부 데이터 센터의 두 가지)
+- 유럽 (암스테르담 및 더블린 데이터 센터)
+- 아시아 (싱가포르/홍콩 데이터 센터)
+
+미디어 프로세서만 배포 되는 위치 (위에 나열 된 가장 가까운 데이터 센터를 통한 SIP 흐름):
+- 일본 (JP/서쪽 데이터 센터)
+- 오스트레일리아 (AU 동쪽 및 서쪽 데이터 센터)
+
+
+
+
 ## <a name="media-traffic-codecs"></a>미디어 트래픽: 코덱
 
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>SBC 및 클라우드 미디어 프로세서나 Microsoft 팀 클라이언트 간의 레그.
@@ -333,6 +352,3 @@ Microsoft는 직접 라우팅과 쌍을 연결 하는 인증 된 SBCs만 지원 
 ## <a name="see-also"></a>참고 항목
 
 [직접 라우팅 구성](direct-routing-configure.md)
-
-
-

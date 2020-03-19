@@ -16,14 +16,15 @@ metadata:
   search.appverid: MET150
   ms.collection:
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 47e80b1eda888581b46284e69ef735f751962b64
-  ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+  ms.openlocfilehash: fce35ee2d37da4eefd80649acb780a8b42b60dfd
+  ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/10/2020
-  ms.locfileid: "42572786"
+  ms.lasthandoff: 03/19/2020
+  ms.locfileid: "42858643"
 items:
 - durationInMinutes: 1
   content: >
@@ -71,7 +72,7 @@ items:
   content: "\n팀에서 모임을 이해 하려면 다음을 참조 하세요.\n-   [모임 및 통화](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) 에 \"모임 참석\" (예상 읽기 시간 6 분)\n\n-   [모임 시작](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) 비디오 (1:45 분)\n\n-   [예정 된 모임](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) 비디오 (1:45 분)\n\n-   Microsoft 팀과 모임 로비에 대해 자세히 알아보고 모임에 익명으로 참가 하는 방법 [에 대 한 9 가지 팁](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (예상 읽기 시간 6 분)\n"
 - title: 시나리오 모임 형식
   durationInMinutes: 1
-  content: "\n진영는 여러 사무실이 있는 Contoso에 대해 작동 합니다. 진영는 정기적으로 다른 office 위치에 있는 사용자에 게 연결 해야 합니다.\n\n-  프로젝트 팀은 1 시간 동안 매주 월요일에 도달 합니다. Microsoft 팀에는 해당 프로젝트에 대 한 전용 채널이 이미 있기 때문에 진영는이 일반 동기화를 위해 \"채널 모임\"을 예약 합니다. 이는 진영 및 해당 팀의 여러 가지 이점을 제공 합니다.\n   -   팀의 모든 구성원이 자동으로 초대 됩니다.\n   -   모임에 대 한 모임 관련 토론은 모두 채널 토론의 일부입니다.\n   -   모임 및 토론은 팀 구성원 인 모든 사용자가 볼 수 있습니다.\n   -   모임 및 라이브 이벤트에 대 한 실시간 자막을 켭니다. 또한 라이브 이벤트에서 자막이 설정 됩니다. 이러한 기능으로 inclusivity, 생산성 및 이해력이 향상 됩니다.\n-   진영 또한 개인 사람들과 동기화 해야 하지만 이러한 모임이 다른 사람에 게 표시 되지 않도록 할 수는 없습니다. 이러한 목적을 위해 진영는 \"비공개 모임\"을 예약 합니다.\n    비공개 모임을 사용 하면 모임이 시작 되기 전에 진영에서 채팅을 시작할 수 있습니다. 이 프리 모임 환경은 진영에서 재료를 미리 공유 하거나 주요 팀 구성원과 안건에 대해 토론할 수 있으므로 모임을 보다 효과적으로 만드는 데 도움이 됩니다. 노트 캡처 모임 중에도 동일한 채팅을 사용할 수 있으며, 나중에 모든 후속 작업을 사용 하는 것이 가능 합니다.\n-   팀이 채널에서 토론을 활발 하는 경우가 있으며, 진영에서는 빠른 의사 결정이 필요 합니다. 모든 사람이 입력 하는 동안 영상 통화가 효과적으로 통신 하는 방법을 결정 합니다. 이 상황에서 진영는 현재 대화에서 **모임** 시작을 선택 하 여 임시 모임을 예약 합니다.\n"
+  content: "\n진영는 여러 사무실이 있는 Contoso에 대해 작동 합니다. 진영는 정기적으로 다른 office 위치에 있는 사용자에 게 연결 해야 합니다.\n\n-  프로젝트 팀은 1 시간 동안 매주 월요일에 도달 합니다. Microsoft 팀에는 해당 프로젝트에 대 한 전용 채널이 이미 있기 때문에 진영는이 일반 동기화를 위해 \"채널 모임\"을 예약 합니다. 이는 진영 및 해당 팀의 여러 가지 이점을 제공 합니다.\n   -   팀의 모든 구성원이 자동으로 초대 됩니다.\n   -   모임에 대 한 모임 관련 토론은 모두 채널 토론의 일부입니다.\n   -   모임 및 토론은 팀 구성원 인 모든 사용자가 볼 수 있습니다.\n   -   모임과 라이브 이벤트에 대한 실시간 캡션을 켭니다. 또한 라이브 이벤트에서 자막이 설정 됩니다. 이러한 기능은 포용력, 생산성 및 이해력을 높여줍니다.\n-   진영 또한 개인 사람들과 동기화 해야 하지만 이러한 모임이 다른 사람에 게 표시 되지 않도록 할 수는 없습니다. 이러한 목적을 위해 진영는 \"비공개 모임\"을 예약 합니다.\n    비공개 모임을 사용 하면 모임이 시작 되기 전에 진영에서 채팅을 시작할 수 있습니다. 이 프리 모임 환경은 진영에서 재료를 미리 공유 하거나 주요 팀 구성원과 안건에 대해 토론할 수 있으므로 모임을 보다 효과적으로 만드는 데 도움이 됩니다. 노트 캡처 모임 중에도 동일한 채팅을 사용할 수 있으며, 나중에 모든 후속 작업을 사용 하는 것이 가능 합니다.\n-   팀이 채널에서 토론을 활발 하는 경우가 있으며, 진영에서는 빠른 의사 결정이 필요 합니다. 모든 사람이 입력 하는 동안 영상 통화가 효과적으로 통신 하는 방법을 결정 합니다. 이 상황에서 진영는 현재 대화에서 **모임** 시작을 선택 하 여 임시 모임을 예약 합니다.\n"
 - title: 모임 클라이언트
   durationInMinutes: 5
   content: "\n다양 한 클라이언트에서 모임에 참가할 수 있습니다. 사용할 수 있는 플랫폼 팀을 파악 하기 위해 Microsoft 팀 (예상 읽기 시간 3 분) [에 대 한 클라이언트 가져오기를](https://docs.microsoft.com/MicrosoftTeams/get-clients) 검토 합니다.\n\n또한 오디오 회의를 사용 하 여 모임에 전화를 걸고 모임에서 전화를 거는 방법으로 일반 전화기에서 모임에 참석할 수 있습니다.\n오디오 회의에 대 한 자세한 내용은 전용 교육을 통해 다룹니다.\n\nWindows 용 Outlook에서 추가 기능을 사용 하 여 일정에서 직접 모임을 예약할 수 있습니다. [Outlook에서 팀 모임 추가 기능 사용](https://docs.microsoft.com/MicrosoftTeams/teams-add-in-for-outlook) (예상 읽기 시간 2 분)을 검토 합니다.\n"

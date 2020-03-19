@@ -12,22 +12,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-f1.keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 정책 패키지를 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d73cd22cc0a98cd772ba3823fffa3649602010bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7c0ded990225b969579f50ea5f87a32efebe388
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41772749"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42857988"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft 팀에서 정책 패키지 관리
 
 Microsoft 팀의 정책 패키지는 조직에서 유사한 역할을 갖는 사용자에 게 할당할 수 있는 미리 정의 된 정책 및 정책 설정의 모음입니다. 조직의 사용자 그룹에 대 한 정책을 관리할 때 일관성을 단순화 하 고 합리화 하 고 사용할 수 있도록 하는 정책 패키지를 작성 했습니다.  
 
 정책 패키지를 사용자에 게 할당 하면 패키지의 정책이 만들어지고 해당 조직의 요구 사항에 맞게 패키지의 정책 설정을 사용자 지정할 수 있습니다.
+
+정책 패키지는 GCC (미국 정부 클라우드 커뮤니티) 조 직에서 사용할 수 없습니다.
 
 ## <a name="what-is-a-policy-package"></a>정책 패키지 란?
 
