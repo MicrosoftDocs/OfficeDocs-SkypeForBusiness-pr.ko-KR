@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87de516afbd94a0d1784edd52efbcc5b10e262dd
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: f8259b8a06a4601ff7feebca53c06f268bdc08c5
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285830"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796021"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -42,14 +42,7 @@ Teams는 조직을 위해 즉시 사용 가능한 뛰어난 공동 작업 환경
 
 ## <a name="chat-deployment-prerequisites"></a>채팅 배포 전제 조건
 
-조직에서 Teams를 배포하기 전에 환경이 이를 수용할 준비가 되었는지 확인할 시간을 갖습니다. 다음의 정보를 검토하고 환경에 필요한 사항을 변경합니다.
-
-- 완전한 Teams 환경을 구성하려면 조직이 [Exchange Online 및 SharePoint Online](#exchange-and-sharepoint-interoperability)을 보유하고 사용자는 검증된 Office 365용 도메인을 보유해야 합니다(예: contoso.com).
-
-- 조직 전체에서 채팅, 팀 그리고 채널의 크기를 조정하려면 모든 위치에서 인터넷에 액세스하여 Office 365로 연결할 수 있는지 확인합니다. 최소한 다음의 일반 포트가 모든 위치에서 인터넷에 개방되어 있는지 확인합니다:
-
-    - Teams를 사용할 클라이언트에서 발신되는 트래픽용 **TCP** 포트 80과 443 개방
-    - Teams를 사용할 클라이언트에서 발신되는 트래픽용 **UDP** 포트 3478에서 3481까지 개방
+조직에서 Teams를 배포하기 전에 환경이 이를 수용할 준비가 되었는지 확인할 시간을 갖습니다. [Teams를 위한 조직의 네트워크 준비](prepare-network.md)를 검토하고 환경을 필요한 대로 변경합니다.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
