@@ -12,17 +12,18 @@ ms.service: msteams
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6efdbb15ce4a9bcd5a3691a5fa9a9a82d0b7cd5f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: dc47eee83c9347613d37d2e808f0c434b7ba9750
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837648"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858733"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 교육
 
@@ -98,13 +99,26 @@ ms.locfileid: "41837648"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
+                        <h3>원격 작업자 지원</h3>
+                         <p><a href="https://aka.ms/TeamsForRemoteWork">교육에 대한 링크를 포함하여 집에서 작업 중인 사용자를 지원하는 데 필요한 지침을 확인하세요.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+        <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
                         <h3>IT 관련 Teams 중요 사항.</h3>
                          <p><a href="https://aka.ms/MicrosoftTeamsforIT">Microsoft 메커니즘 "IT용 Teams" 비디오 시리즈는 관리자에게 Teams를 배포, 구성 및 관리하는 방법을 보여줍니다.</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </li><li>
+    </li>
+    <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

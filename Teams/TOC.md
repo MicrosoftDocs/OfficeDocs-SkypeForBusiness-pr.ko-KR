@@ -37,6 +37,7 @@
 ## [팀의 동적 구성원 개요](dynamic-memberships.md)
 ## [Teams에서 팀을 구성하는 방법에 대한 모범 사례](best-practices-organizing.md)
 ## [Teams에서 조직 전체 팀 만들기](create-an-org-wide-team.md)
+## [사용자 관리자 팀 만들기](create-manager-directs-teams.md)
 ## [팀 및 채널 정책 관리](teams-policies.md)
 ## [Teams의 민감도 레이블](sensitivity-labels.md)
 ## [Teams에서 비공개 팀의 검색 관리](manage-discovery-of-private-teams.md)
