@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31c6b04531b21996f897b3d668fdb6515f1e953f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ec16f919bad5ed696741664836aa3d7127837c5a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836818"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892368"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>정품에서 팀 서식 파일 시작 
 
@@ -64,3 +64,26 @@ ms.locfileid: "41836818"
 조직의 관리자 공동 작업 서식 파일을 사용자 지정 하는 권장 방법:
 
 - 조직에 관리자와 관련 된 내부 웹 사이트 (예: SharePoint 사이트)가 있는 경우 관련 팀 채널에서 탭으로 고정 하는 것이 좋습니다 (지침 [에 대 한](get-started-with-teams-templates.md) 설명서 참조).
+
+## <a name="how-to-use-first-party-templates"></a>자사 서식 파일을 사용 하는 방법
+
+이 템플릿을 사용 하려면 요청 본문의 ' template@odata. ' 속성을 ' standard '에서 위의 TemplateIDs로 변경 하면 됩니다.  팀 템플릿을 배포 하는 방법에 대 한 자세한 내용은 [팀을 만드는](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)방법에 대 한 Microsoft Graph 문서를 참조 하세요.
+
+> [!NOTE]
+> 서식 파일의 채널이 일반 탭 아래에 자동으로 생성 됩니다.
+
+### <a name="example-store-template-extension-script"></a>예: Store template extension 스크립트
+
+``` PowerShell
+{
+  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('retailStore')",
+  "DisplayName": "Contoso Store",
+  "Description": "Team for all staff in Contoso Store",
+  "Channels": [
+    {
+      "displayName": "Additional store channel",
+      "IsFavoriteByDefault": false
+    }
+  ]
+}
+```

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e009ccfb70e307e4a67f8331deabce51e229c0f
-ms.sourcegitcommit: 511238a3550ad0ff8d4bbd4600a252651ab6a654
+ms.openlocfilehash: 2cfe1c1af9fe85d307999289d318106c8ebc132a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42615370"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892298"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -142,28 +142,31 @@ Office 365 ProPlus는 팀의 컴퓨터 단위 설치를 지원 하지 않습니�
     - 사용자별 설치 (기본값)
   
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name>
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
         ```
-    
+
         % AppData% user 폴더에 팀을 설치 하는 기본 설치입니다. 이 시점에서 골든 이미지 설정이 완료 되었습니다. 비 영구적인 설정에서 사용자 단위 설치와 함께 팀이 제대로 작동 하지 않습니다.
-    
+
     - 컴퓨터 단위 설치
 
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
         이렇게 하면 팀이 64 비트 운영 체제의 x86 (프로그램 파일) 폴더와 32 비트 운영 체제의 Program Files 폴더에 설치 됩니다. 이 시점에서 골든 이미지 설정이 완료 되었습니다. 비 영구적인 설치에는 컴퓨터별 팀이 필요 합니다.
- 
+
         다음 대화형 로그온 세션에서 팀을 시작 하 고 자격 증명을 요청 합니다.
 
-3. VDI VM에서 MSI를 제거 합니다. 
+    > [!NOTE]
+    > 이 예제에서는 또한 **ALLUSERS = 1** 매개 변수를 사용 합니다. 이 매개 변수를 설정 하면 제어판의 프로그램 및 기능 및 컴퓨터의 모든 사용자에 대 한 Windows 설정의 앱 & 기능에 팀 컴퓨터 전체의 설치 관리자가 표시 됩니다. 모든 사용자가 관리자 자격 증명을 사용 하는 경우 팀을 제거할 수 있습니다. **ALLUSERS = 1** 과 **alluser = 1**간의 차이를 이해 하는 것이 중요 합니다. 비 VDI 및 VDI 환경에는 **ALLUSERS = 1** 매개 변수를 사용할 수 있으며 **alluser = 1** 매개 변수는 vdi 환경 에서만 사용 하 여 컴퓨터별 설치를 지정 합니다.
+
+3. VDI VM에서 MSI를 제거 합니다.
 
     팀을 제거 하는 방법에는 두 가지가 있습니다.  
   
     - PowerShell 스크립트 (권장)
-    
-    - 명령줄:이 방법은 팀을 제거 하지만 팀을 다시 설치 하는 것을 방지 합니다. 다음 명령을 실행 합니다.
+
+    - 명령줄:
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>

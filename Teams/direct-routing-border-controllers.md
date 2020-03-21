@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: 사용자가 직접 라우팅으로 SBCs 작업을 인증 하도록 선택 된 SBC 공급 업체와의 협력 파트너.
-ms.openlocfilehash: c72b086929d2915fffcfbbcac2ed4b3d3ca5e16f
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 8476ec065ac2c88b2f7006f73dfc5ba3f2d9139c
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858573"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892358"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 
@@ -52,7 +52,7 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 |                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20 a. 250   |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li>  </ul>  |    |    
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   중일     |  7.20 a. 250  |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li>  </ul>  |    |    
 |                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7.20 a. 250   | <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li>  </ul>    |    |                                                                       
-|                                                                                                                     | 가상 버전 SBC |     &#10004;     |   &#10004;     |  7.20 a. 250 |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li>  </ul>   |    |    
+|                                                                                                                     | 가상 버전 SBC |     &#10004;     |   &#10004;     |  7.20 a. 250 |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li>  </ul>   |  예  |    
 |  [리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       7.2       | <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li>  </ul> |   아니요 |    
 |                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       7.2       |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul> | 아니요   |    
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       7.2       |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li><li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li> </ul>  |아니요|    
@@ -64,7 +64,7 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 | | EdgeMarc 시리즈 |  &#10004; | | 15.6.1 | 
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    생각 365 SBC    |     &#10004;     |        중일   |       V 1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li>  </ul>   |    |    
-|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li>  </ul>  |    |    
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li>  </ul>  |  예  |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li>  </ul>  |    |    
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li>  </ul>   |    |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [대역폭 동적 위치 라우팅](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado </li> <li>Intrado</li> <li> 빨강 하늘 가로 이동성 </li>  </ul>  |    |                                            
@@ -77,6 +77,7 @@ Microsoft는 각 공급 업체와 협력 하 여 다음을 수행 합니다.
 |                                                       공급 업체                                                        |       지원부       | 유효한
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
 | [오디오 코드](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
+| [오디오 코드](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     |
 | [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. 소프트웨어 버전: 8.1.1 (빌드 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. 소프트웨어 버전: 8.1.1 (빌드 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 

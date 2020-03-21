@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.openlocfilehash: a17b9ed78f484f593715a551fd11fa158bd6262a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327830"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892208"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 설치
 
@@ -77,15 +77,15 @@ VDI에서 팀 데스크톱 앱을 배포 하는 방법에 대 한 자세한 지�
 
 사용자가 사용자 프로필에서 팀을 제거 하는 경우 MSI 설치 관리자는 사용자가 팀 앱을 제거 하 고 더 이상 해당 사용자 프로필에 대 한 팀을 설치 하지 않은 것을 추적 합니다. 제거 된 특정 컴퓨터에서이 사용자의 팀을 다시 배포 하려면 다음을 수행 합니다.
 
-1. 모든 사용자 프로필에 대해 팀 앱을 설치 제거 합니다.
-2. 제거 후에 재귀적으로 디렉터리를 `%localappdata%\Microsoft\Teams\`삭제 합니다.
+1. 모든 사용자 프로필에 대해 설치 된 팀 앱을 제거 합니다.
+2. 제거 후에 재귀적으로 디렉터리를 삭제 `%localappdata%\Microsoft\Teams\`합니다.
 3. 해당 특정 컴퓨터에 MSI 패키지를 다시 배포 합니다.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>설치 후 팀이 자동으로 시작 되지 않도록 방지
 
 MSI의 기본 동작은 사용자가 로그인 하는 즉시 팀 앱을 설치한 다음 팀을 자동으로 시작 하는 것입니다. 사용자가 설치 된 후 팀이 자동으로 시작 되지 않도록 하려면 그룹 정책을 사용 하 여 정책 설정을 설정 하거나 MSI 설치 관리자에 대 한 자동 시작을 사용 하지 않도록 설정할 수 있습니다.
 
-#### <a name="use-group-policy-recommended"></a>그룹 정책 사용 (권장)
+### <a name="use-group-policy-recommended"></a>그룹 정책 사용 (권장)
 
 **설치 후 Microsoft 팀이 자동으로 시작 되지 않도록** 설정 그룹 정책 설정을 사용 하도록 설정 합니다. 사용자 Configuration\Policies\Administrative Templates\Microsoft 팀에서이 정책 설정을 찾을 수 있습니다. 조직의 요구 사항에 따라 정책 설정을 끄거나 켤 수 있으므로이 방법을 사용 하는 것이 좋습니다.
 
@@ -103,16 +103,18 @@ MSI의 기본 동작은 사용자가 로그인 하는 즉시 팀 앱을 설치�
 32 비트 버전
 
 ```console
-msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 64 비트 버전
 
 ```console
-msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 사용자가 Windows에 로그인 하면 팀이 MSI와 함께 설치 되 고 팀 시작에 대 한 바로 가기가 사용자의 데스크톱에 추가 됩니다. 팀은 사용자가 수동으로 팀을 시작할 때까지 시작 되지 않습니다. 사용자가 수동으로 팀을 시작 하면 사용자가 로그인 할 때마다 팀이 자동으로 시작 됩니다.
+
+이러한 예제에서는 **ALLUSERS = 1** 매개 변수도 사용 합니다. 이 매개 변수를 설정 하면 제어판의 프로그램 및 기능 및 컴퓨터의 모든 사용자에 대 한 Windows 설정의 앱 & 기능에 팀 컴퓨터 전체의 설치 관리자가 표시 됩니다. 모든 사용자는 컴퓨터에 관리자 자격 증명이 있는 경우 팀을 제거할 수 있습니다.
 
 > [!Note]
 > MSI를 수동으로 실행 하는 경우 관리자 권한으로 실행 해야 합니다. 관리자 권한으로 실행 하는 경우에도 권한 상승으로이를 실행 하지 않으면 설치 관리자가 자동 시작을 사용 하지 않도록 설정 하는 옵션을 구성할 수 없게 됩니다.
