@@ -12,14 +12,15 @@ localization_priority: Priority
 description: Microsoft Teams가 없고 긴급히 필요한 경우 COVID-19(코로나 바이러스) 발생에 대응하여 원격 또는 재택 근무(WFH)가 필요한 사용자를 위해 Office 365 E1 평가판을 배포하십시오.
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3f5d73920da0f9b18b1810768b0468c4106a6f3
-ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
+ms.openlocfilehash: 62b4add4e3371604478c8a49cc6690000d699f65
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42507956"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858773"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Office 365 E1 평가판 관리
 ==============================
@@ -34,6 +35,9 @@ E1 라이선스로 사용할 수 있는 기능을 알아보려면 [Office 365 E1
 
 Microsoft 계정 담당자에게 문의하세요. E1 평가판에 등록하는 데 사용할 수 있는 프로모션 코드가 제공됩니다. 
 
+조직이 Microsoft 파트너의 서비스를 받는 경우 파트너와 협의하여 Teams 6개월 무료 평가판을 받으세요. 아직 Microsoft 파트너가 없으나 협력하기를 원하면 [Microsoft 솔루션 공급자](https://www.microsoft.com/solution-providers/home)로 가서 Teams에 대한 전문 지식을 지닌 파트너를 검색하세요.
+
+
 ## <a name="how-to-sign-up-for-e1"></a>E1 가입 방법
 
 계정 담당자가 발송할 이메일에서 프로모션 코드를 클릭하세요. 
@@ -41,7 +45,7 @@ Microsoft 계정 담당자에게 문의하세요. E1 평가판에 등록하는 �
 
 ## <a name="whos-eligible"></a>사용 자격이 있는 사용자
 
-이 서비스는 Microsoft 계정 담당자가 관리하는 고객을 위한 것입니다. 과거에 다른 Office 365 E1 평가판을 활성화하지 않은 조직을 위한 것입니다. 
+이 서비스는 Microsoft 계정 담당자가 관리하는 모든 고객을 위한 것입니다. 과거에 다른 Office 365 E1 평가판을 활성화하지 않은 조직(비영리 포함)을 위한 것입니다. 
 
 E1 평가판 프로모션 코드를 사용한 후에는 이 코드를 다시 사용할 수 없으며 다른 E1 평가판 코드를 활성화 할 수 없습니다. 이 경우 직원이 [Teams 예비 라이선스](teams-exploratory.md)를 활성화하도록 할 수 있습니다.
 
@@ -92,3 +96,4 @@ E1 평가판 사용자를 유료 구독으로 업그레이드하려면 다음을
 
 [Teams 예비 환경 관리](teams-exploratory.md)
 
+[Office 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
