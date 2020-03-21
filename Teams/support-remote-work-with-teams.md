@@ -16,12 +16,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a99bfe66d1a9f0c072e63aa49f210d216e9ff29
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: a7476328c6f0acfcaf812e2f4f75bc9c59f51b21
+ms.sourcegitcommit: 45bbec77370ed44ba069790086541a914800ae5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858613"
+ms.locfileid: "42866583"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -65,9 +65,12 @@ ms.locfileid: "42858613"
 
 1. 당사가 정기적으로 업데이트 하고 있는 [(자주 묻는 질문: 원거리 인력 지원](FAQ-support-remote-workforce.md)를 검토합니다.
 
-2. [Office 365 E1 평가판](e1-trial-license.md) 및 [무료 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)외에도 무료 Teams 라이선스가 필요한 경우 [Teams Exploratory](teams-exploratory.md)가 선택 사항이될 수 있습니다.
+1. 교육용 Teams
+   - 교육 기관에서 일하고 Teams에 교사, 학생 및 관리자를 설정하려면 Office 365 A1을 사용하세요. 이 무료 버전의 Office 365는 모든 교육 기관에서 사용할 수 있습니다. [전체 학교에서 무료로 Office 365 사용](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)에서 가입하세요.
 
-1. 교육 기관에서 일하고 Teams에 교사, 학생 및 관리자를 설정하려면 Office 365 A1을 사용하세요. 이 무료 버전의 Office 365는 모든 교육 기관에서 사용할 수 있습니다. [전체 학교에서 무료로 Office 365 사용](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)에서 가입하세요.
+   - [Teams에서 원격 학습 시작하기](remote-learning-edu.md)를 놓치지 마세요.
+
+2. [Office 365 E1 평가판](e1-trial-license.md) 및 [무료 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)외에도 무료 Teams 라이선스가 필요한 경우 [Teams Exploratory](teams-exploratory.md)가 선택 사항이될 수 있습니다.
 
 1. 직원들이 Teams에 적합한 인터넷 액세스와 대역폭을 보유하고 있는지 확인합니다. [Teams에 대한 조직의 네트워크 준비](prepare-network.md)의 지침을 사용하여 이 작업을 수행하는 방법을 알아보세요.
 
