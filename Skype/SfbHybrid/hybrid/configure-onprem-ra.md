@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에 대 한 리소스 계정을 설정 합니다.
-ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113261"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892308"
 ---
 # <a name="configure-resource-accounts"></a>리소스 계정 구성
 
@@ -32,7 +32,7 @@ ms.locfileid: "42113261"
 
 전화 시스템 자동 전화 교환 또는 통화 큐에 서비스 번호가 필요한 경우에는 다음과 같은 순서로 다양 한 종속성을 충족할 수 있습니다.
 
-1. 서비스 번호 가져오기
+1. 서비스 번호를 가져옵니다.
 2. 리소스 계정과 함께 사용할 수 있는 무료 전화 시스템- [가상 사용자 라이선스](/MicrosoftTeams/teams-add-on-licensing/virtual-user) 또는 유료 전화 시스템 라이선스를 취득 합니다.
 3. 자원 계정을 만듭니다. 연결 된 리소스 계정이 있는 자동 전화 교환 또는 전화 큐가 필요 합니다.
 4. 온라인 및 온-프레미스 간에 active directory 동기화가 완료 될 때까지 기다립니다.
@@ -71,7 +71,7 @@ ms.locfileid: "42113261"
 3. 각 전화 시스템 자동 전화 교환 또는 통화 큐에 `New-CsHybridApplicationEndpoint` 대해 cmdlet을 실행 하 여 온-프레미스 리소스 계정을 만들고 각 계정에 이름, sip 주소 등을 지정 합니다.
 
     ``` Powershell
-    New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+    New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
     이 명령에 대 한 자세한 내용은 [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 를 참조 하십시오.
@@ -103,12 +103,12 @@ ms.locfileid: "42113261"
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-최상위 자동 전화 교환 또는 통화 큐에 할당 될 경우 자원 계정에 할당 된 전화 번호가 필요 합니다. 사용자 (구독자) 전화 번호를 리소스 계정에 할당할 수 없는 경우 서비스 수신자 또는 무료 전화 번호로만 사용할 수 있습니다.
+   최상위 자동 전화 교환 또는 통화 큐에 할당 될 경우 자원 계정에 할당 된 전화 번호가 필요 합니다. 사용자 (구독자) 전화 번호를 리소스 계정에 할당할 수 없는 경우 서비스 수신자 또는 무료 전화 번호로만 사용할 수 있습니다.
 
-  리소스 계정에 직접 라우팅 하이브리드 번호를 할당할 수 있습니다.  자세한 내용은 [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) 를 참조 하세요.
+     리소스 계정에 직접 라우팅 하이브리드 번호를 할당할 수 있습니다. 자세한 내용은 [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan)을 참조 하십시오.
 
-  > [!NOTE]
-  > 자동 전화 교환 및 통화 큐에 대 한 리소스 계정에 할당 되는 직접 라우팅 서비스 번호는 Microsoft 팀 사용자 및 에이전트에 대해서만 지원 됩니다.
+     > [!NOTE]
+     > 자동 전화 교환 및 통화 큐에 대 한 리소스 계정에 할당 되는 직접 라우팅 서비스 번호는 Microsoft 팀 사용자 및 에이전트에 대해서만 지원 됩니다.
 
 7. 전화 시스템 자동 전화 교환 또는 통화 대기열을 만듭니다. 다음 중 하나를 참조하세요.
 
@@ -195,7 +195,7 @@ Exchange UM에서 전화 시스템으로 마이그레이션하는 경우에는 �
 
 [클라우드 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue)
 
-[클라우드 자동 전화 교환 이란?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
+[클라우드 자동 전화 교환이란?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
 [클라우드 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
