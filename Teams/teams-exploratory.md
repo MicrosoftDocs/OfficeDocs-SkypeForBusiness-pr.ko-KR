@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f44555f520e3789df4927e34e6579b834f75c39
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 0ad27eec186bec2fce915da0fc53f515f58ce8e9
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858623"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892318"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 =======================================================

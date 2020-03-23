@@ -1,5 +1,5 @@
 ---
-title: Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams 배포
+title: Advisor for Teams(공개 미리 보기)를 사용하여 Microsoft Teams 배포 지원
 author: lolajacobsen
 ms.author: lolaj
 ms.reviewer: brandber
@@ -17,19 +17,19 @@ localization_priority: Priority
 f1.keywords:
 - CSH
 ms.custom: ''
-description: Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams 배포를 계획하고 완료할 수 있습니다.
-ms.openlocfilehash: ef78352df9d678d9f14dff246c3a363de755b539
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+description: Advisor for Teams(공개 미리 보기)를 사용하여 Microsoft Teams 배포를 계획하고 완료할 수 있습니다.
+ms.openlocfilehash: 17fac0b4f4c974f72eccc7d0c11ae6b27337afef
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795851"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892288"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Advisor for Teams(미리 보기)는 Microsoft 팀이 배포 과정을 안내합니다. Office 365 테넌트 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다. 그런 다음 Advisor for Teams는 배포하려는 각 워크로드에 대한 채널로 배포 팀(Teams에서)을 만듭니다. 서비스 관리 팀의 각 워크로드에는 각 워크로드에 대한 모든 롤아웃 작업이 포함된 포괄적인 Planner 플랜이 함께 제공됩니다.  이 Planner 플랜을 사용하여 프로젝트 관리자, Teams 및 Office 365 관리자, 지원자, 채택 및 사용자 준비 상태 팀 등의 각 롤아웃 단계를 담당하는 사용자에게 작업을 할당합니다. 각 롤아웃 작업에는 해당 작업을 완료하는 데 필요한 모든 가이드 및 리소스가 포함됩니다.
+Advisor for Teams(공개 미리 보기)가 Microsoft Teams 배포 과정을 안내합니다. Office 365 테넌트 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다. 그런 다음 Advisor for Teams는 배포하려는 각 워크로드에 대한 채널로 배포 팀(Teams에서)을 만듭니다. 서비스 관리 팀의 각 워크로드에는 각 워크로드에 대한 모든 롤아웃 작업이 포함된 포괄적인 Planner 플랜이 함께 제공됩니다.  이 Planner 플랜을 사용하여 프로젝트 관리자, Teams 및 Office 365 관리자, 지원자, 채택 및 사용자 준비 상태 팀 등의 각 롤아웃 단계를 담당하는 사용자에게 작업을 할당합니다. 각 롤아웃 작업에는 해당 작업을 완료하는 데 필요한 모든 가이드 및 리소스가 포함됩니다.
 
 Advisor for Teams는 [Teams 관리 센터](https://admin.teams.microsoft.com)의 일부입니다. 적어도 Office 365 Business Essentials 라이선스가 있어야 하며 이를 통해 Teams용 어드바이저의 양식 및 플래너와의 통합을 활용할 수 있습니다. Teams용 어드바이저의 사용을 시작하려면 대시보드의 **Teams 워크로드 배포** 위젯에서 **시작** 단추를 클릭합니다. 또는 **계획** > **Teams Advisor**로 이동합니다.
 
@@ -38,7 +38,7 @@ Advisor for Teams는 [Teams 관리 센터](https://admin.teams.microsoft.com)의
 
 Teams용 어드바이저 환경의 지도된 개요를 보려면 Microsoft Mechanics 비디오 [Microsoft Teams 배포 및 구성](https://youtu.be/o2mlsUubIO4?t=50)을 확인하세요.
 
-## <a name="using-advisor-for-teams-preview"></a>Advisor for Teams 사용(미리 보기)
+## <a name="using-advisor-for-teams-public-preview"></a>Advisor for Teams 사용(공개 미리 보기)
 
 **Advisor for Teams를 사용하려면 Teams, Forms 및 Planner 라이선스가 필요합니다.** 그러나 Advisor for Teams를 사용하기 위해 Teams 관리자가 될 필요는 없습니다. 조직 내 누구나 사용할 수 있습니다. Advisor for Teams가 Teams 관리 센터에 있어도 관리자가 아닌 사용자가 액세스할 수 있도록 특별 권한을 설정했습니다. 테넌트 준비 상태 평가를 열려면 Teams 관리자, Teams 서비스 관리자 또는 전역 관리자이어야 합니다(이는 특수한 비관리자 역할이 평가를 기반으로 하는 Microsoft Graph API로의 액세스 권한이 없기 때문입니다).
 
@@ -52,7 +52,7 @@ Teams용 어드바이저를 처음으로 사용하는 경우 Teams에서 사용�
 
 ## <a name="available-advisor-for-teams-plans"></a>사용 가능한 Teams용 어드바이저 계획
 
-Teams용 어드바이저가 미리 보기에 있는 동안에는 다음과 같은 두 가지 플랜이 제공됩니다.
+Advisor for Teams가 공개 미리 보기에 있는 동안에는 다음과 같은 두 가지 플랜이 제공됩니다.
 
 1. 채팅, 팀, 채널 및 앱
     - 테넌트 평가
@@ -74,7 +74,7 @@ Teams용 어드바이저가 미리 보기에 있는 동안에는 다음과 같�
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>주황색 경고 삼각형은 조치가 필요한지의 여부를 판단하기 위해 후속 조치를 취할 것을 제안함을 의미합니다(예: Office 365 그룹 만료 정책을 권장하지만 필수는 아님).
 
 > [!IMPORTANT]
-> 관리자 역할이 있는 사용자가 Teams용 어드바이저를 시작하면 모든 평가가 백그라운드에서 실행됩니다. 항목을 업데이트하거나 재구성하는 경우 최대 24시간 동안 평가에 반영되지 않을 수 있습니다. 이는 일시적입니다. Teams용 어드바이저가 미리 보기를 나가는 즉시 일반적으로 가용하게 되며 평가는 거의 실시간으로 업데이트됩니다.
+> 관리자 역할이 있는 사용자가 Teams용 어드바이저를 시작하면 모든 평가가 백그라운드에서 실행됩니다. 항목을 업데이트하거나 재구성하는 경우 최대 24시간 동안 평가에 반영되지 않을 수 있습니다. 이는 일시적입니다. Advisor for Teams가 공개 미리 보기에서 나가는 즉시 정식 출시되어 평가가 거의 실시간으로 업데이트됩니다.
 
 아래의 섹션은 어떤 것이 필수 구성 요소인지 혹은 모범 사례인지와 각 평가 검사가 수행하는 작업 및 이유 그리고 필요에 따른 재구성에 대 한 지침을 포함하여 각 평가에 대해 설명합니다.
 
@@ -133,7 +133,7 @@ Teams용 어드바이저가 배포 팀을 만들면 어드바이저 봇에서 �
 적어도 Office 365 Business Essentials이 있어야 하며 이를 통해 Teams용 어드바이저의 양식 및 플래너와의 통합을 활용할 수 있습니다.
 
 ### <a name="can-i-delete-the-deployment-team"></a>배포 팀을 삭제할 수 있나요?
-Advisor for Teams에서 배포 팀을 만든 이후 삭제 기능을 포함해 다른 모든 팀과 같이 팀을 관리하십시오. Teams 관리 센터를 사용하여 팀을 삭제하지 않는 경우 Teams 관리 센터는 팀이 존재하는 것으로 표시합니다. 이는 임시적이며 Teams용 어드바이저가 미리 보기 기간을 떠나면 일반적으로 가용하게 됩니다.
+Advisor for Teams에서 배포 팀을 만든 이후 삭제 기능을 포함해 다른 모든 팀과 같이 팀을 관리하십시오. Teams 관리 센터를 사용하여 팀을 삭제하지 않는 경우 Teams 관리 센터는 팀이 존재하는 것으로 표시합니다. 이는 일시적이며 Advisor for Teams가 공개 미리 보기 기간을 지나 정식 출시되면 수정됩니다.
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>배포 팀에서 채널을 추가하거나 제거할 수 있나요?
 예. 배포 팀이 만들어졌으면 다른 모든 팀과 동일한 방식으로 채널을 관리하게 됩니다.

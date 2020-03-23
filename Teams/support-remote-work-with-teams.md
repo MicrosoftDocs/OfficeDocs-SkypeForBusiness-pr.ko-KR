@@ -16,12 +16,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7476328c6f0acfcaf812e2f4f75bc9c59f51b21
-ms.sourcegitcommit: 45bbec77370ed44ba069790086541a914800ae5a
+ms.openlocfilehash: 85fc97c801495c05a4b5a8f68fe508ef7a7b08af
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42866583"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892338"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -63,7 +63,9 @@ ms.locfileid: "42866583"
 
 ## <a name="additional-resources-for-supporting-remote-workers"></a>원격 작업자를 지원하기 위한 추가 리소스
 
-1. 당사가 정기적으로 업데이트 하고 있는 [(자주 묻는 질문: 원거리 인력 지원](FAQ-support-remote-workforce.md)를 검토합니다.
+1. Microsoft가 정기적으로 업데이트하는 [자주 묻는 질문(FAQ): 원격 작업자 지원](FAQ-support-remote-workforce.md)을 검토하세요.
+
+1. 2020년 3월 6일자 블로그 게시물인 [Microsoft가 직원들이 Microsoft Teams를 사용해 원격으로 근무 가능하도록 지원하는 방법](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)을 참조하세요.
 
 1. 교육용 Teams
    - 교육 기관에서 일하고 Teams에 교사, 학생 및 관리자를 설정하려면 Office 365 A1을 사용하세요. 이 무료 버전의 Office 365는 모든 교육 기관에서 사용할 수 있습니다. [전체 학교에서 무료로 Office 365 사용](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)에서 가입하세요.
@@ -109,6 +111,8 @@ ms.locfileid: "42866583"
       - [원격 작업에 대한 9가지 팁](https://www.microsoft.com/tips/home/working-remotely)
 
       - [집에서 더 안전한 작업을 위한 주요 팁](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+      - Satya Nadella와 Teams 제품 마케팅 관리자 Aya Tange의 [Teams를 사용한 원격 작업](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1)에 관한 비디오(2020년 3월 20일)
 
 
 3.  모든 사람이 모바일 앱을 [설치](get-clients.md#mobile-clients)하고 사용하도록 장려하기: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) 또는 [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)

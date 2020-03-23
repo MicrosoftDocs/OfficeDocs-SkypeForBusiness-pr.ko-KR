@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8f6a0d5df609724a4bdd807a3f2f41826cd40c9
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: e7a27d8f3d6da0521b09ab2c1a011eab9aa7235f
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858598"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892348"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -164,4 +164,4 @@ IT 전문가 및 지원 담당자는 Teams 아키텍처를 통해 더 빠르게 
 - [통화 품질 모니터링 및 관리](monitor-call-quality-qos.md)
 - [Teams의 서비스 상태 확인](service-health.md)
 - [Teams의 지원 리소스](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
-- [팀 도움말 센터](https://support.office.com/teams)
+- [Teams 도움말 센터](https://support.office.com/teams)
