@@ -17,147 +17,147 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f44555f520e3789df4927e34e6579b834f75c39
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 0ad27eec186bec2fce915da0fc53f515f58ce8e9
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858623"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892318"
 ---
-<a name="manage-the-microsoft-teams-exploratory-license"></a><span data-ttu-id="a9542-103">Microsoft Teams의 예비 라이선스 관리</span><span class="sxs-lookup"><span data-stu-id="a9542-103">Manage the Microsoft Teams Exploratory license</span></span>
+<a name="manage-the-microsoft-teams-exploratory-license"></a><span data-ttu-id="0cf80-103">Microsoft Teams의 예비 라이선스 관리</span><span class="sxs-lookup"><span data-stu-id="0cf80-103">Manage the Microsoft Teams Exploratory license</span></span>
 =======================================================
 
-<span data-ttu-id="a9542-104">Microsoft Teams 예비 환경을 통해 조직에서 AAD (Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 예비 환경을 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-104">The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (AAD) and are not licensed for Teams initiate an exploratory experience of Teams.</span></span> <span data-ttu-id="a9542-105">관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-105">Admins can switch this feature on or off for users in their organization.</span></span> <span data-ttu-id="a9542-106">이전의 [Microsoft 상용 클라우드 평가판](iw-trial-teams.md)은 이제 Teams 예비 환경으로 대체되었습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-106">The earlier [Microsoft Commercial Cloud Trial](iw-trial-teams.md) is now replaced by The Teams Exploratory experience.</span></span>
+<span data-ttu-id="0cf80-104">Microsoft Teams 예비 환경을 통해 조직에서 AAD (Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 예비 환경을 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-104">The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (AAD) and are not licensed for Teams initiate an exploratory experience of Teams.</span></span> <span data-ttu-id="0cf80-105">관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-105">Admins can switch this feature on or off for users in their organization.</span></span> <span data-ttu-id="0cf80-106">이전의 [Microsoft 상용 클라우드 평가판](iw-trial-teams.md)은 이제 Teams 예비 환경으로 대체되었습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-106">The earlier [Microsoft Commercial Cloud Trial](iw-trial-teams.md) is now replaced by The Teams Exploratory experience.</span></span>
 
-## <a name="whats-in-the-teams-exploratory-experience"></a><span data-ttu-id="a9542-107">Teams의 예비 환경에는 무엇이 있나요?</span><span class="sxs-lookup"><span data-stu-id="a9542-107">What's in the Teams Exploratory experience?</span></span>
+## <a name="whats-in-the-teams-exploratory-experience"></a><span data-ttu-id="0cf80-107">Teams의 예비 환경에는 무엇이 있나요?</span><span class="sxs-lookup"><span data-stu-id="0cf80-107">What's in the Teams Exploratory experience?</span></span>
 
-<span data-ttu-id="a9542-108">관리자가 Teams 예비 환경의 일부로서 보게 될 서비스 계획은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-108">The service plans that an admin will see as part of the Teams Exploratory experience are:</span></span>
- - <span data-ttu-id="a9542-109">Exchange Online(플랜 1)</span><span class="sxs-lookup"><span data-stu-id="a9542-109">Exchange Online (Plan 1)</span></span>
- - <span data-ttu-id="a9542-110">Office 365용 흐름</span><span class="sxs-lookup"><span data-stu-id="a9542-110">Flow for Office 365</span></span>
- - <span data-ttu-id="a9542-111">MyAnalytics의 인사이트</span><span class="sxs-lookup"><span data-stu-id="a9542-111">Insights by MyAnalytics</span></span>
- - <span data-ttu-id="a9542-112">Microsoft Forms(플랜 E1)</span><span class="sxs-lookup"><span data-stu-id="a9542-112">Microsoft Forms (Plan E1)</span></span>
- - <span data-ttu-id="a9542-113">Microsoft Planner</span><span class="sxs-lookup"><span data-stu-id="a9542-113">Microsoft Planner</span></span>
- - <span data-ttu-id="a9542-114">Microsoft Search</span><span class="sxs-lookup"><span data-stu-id="a9542-114">Microsoft Search</span></span>
- - <span data-ttu-id="a9542-115">Microsoft StaffHub</span><span class="sxs-lookup"><span data-stu-id="a9542-115">Microsoft StaffHub</span></span>
- - <span data-ttu-id="a9542-116">O365 E1 SKU용 Microsoft Stream</span><span class="sxs-lookup"><span data-stu-id="a9542-116">Microsoft Stream for O365 E1 SKU</span></span>
- - <span data-ttu-id="a9542-117">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a9542-117">Microsoft Teams</span></span>
- - <span data-ttu-id="a9542-118">Office 365용 모바일 장치 관리</span><span class="sxs-lookup"><span data-stu-id="a9542-118">Mobile Device Management for Office 365</span></span>
- - <span data-ttu-id="a9542-119">Office 365용 Office 모바일 앱</span><span class="sxs-lookup"><span data-stu-id="a9542-119">Office Mobile Apps for Office 365</span></span> 
- - <span data-ttu-id="a9542-120">Office Online</span><span class="sxs-lookup"><span data-stu-id="a9542-120">Office Online</span></span>
- - <span data-ttu-id="a9542-121">Office 365용 PowerApps</span><span class="sxs-lookup"><span data-stu-id="a9542-121">PowerApps for Office 365</span></span>
- - <span data-ttu-id="a9542-122">SharePoint Online(플랜 1)</span><span class="sxs-lookup"><span data-stu-id="a9542-122">SharePoint Online (Plan 1)</span></span>
- - <span data-ttu-id="a9542-123">Sway</span><span class="sxs-lookup"><span data-stu-id="a9542-123">Sway</span></span>
- - <span data-ttu-id="a9542-124">To-Do(플랜 1)</span><span class="sxs-lookup"><span data-stu-id="a9542-124">To-Do (Plan 1)</span></span>
- - <span data-ttu-id="a9542-125">화이트보드(플랜 1)</span><span class="sxs-lookup"><span data-stu-id="a9542-125">Whiteboard (Plan 1)</span></span>
- - <span data-ttu-id="a9542-126">Yammer Enterprise</span><span class="sxs-lookup"><span data-stu-id="a9542-126">Yammer Enterprise</span></span>
-
-
-## <a name="whos-eligible"></a><span data-ttu-id="a9542-127">사용 자격이 있는 사용자</span><span class="sxs-lookup"><span data-stu-id="a9542-127">Who's eligible?</span></span>
-
-<span data-ttu-id="a9542-128">사용자에게 관리되는 AAD 도메인 전자 메일 주소가 있고 현재 Teams 라이선스가 할당되지 않은 경우 이 환경을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-128">As long as the user has a managed AAD domain email address and currently does not have/haven't been assigned a Teams license, they are eligible for this experience.</span></span> <span data-ttu-id="a9542-129">예를 들어 사용자에게 Office 365 Business(Teams가 포함되지 않음)가 있는 경우 Teams 예비 환경을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-129">For example, if a user has Office 365 Business (which doesn't include Teams), they're eligible for the Teams Exploratory experience.</span></span>
-
-<span data-ttu-id="a9542-130">(Microsoft 365 관리 센터에서) 사용자는 앱과 평가판을 사용할 수 있게 등록하도록 설정을 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-130">Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center).</span></span> <span data-ttu-id="a9542-131">자세한 내용은 이 문서 뒷부분의 [Teams 예비 환경 관리](#manage-the-teams-exploratory-experience)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="a9542-131">For more information, see [Manage the Teams Exploratory experience](#manage-the-teams-exploratory-experience), later in this article.</span></span> 
+<span data-ttu-id="0cf80-108">관리자가 Teams 예비 환경의 일부로서 보게 될 서비스 계획은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-108">The service plans that an admin will see as part of the Teams Exploratory experience are:</span></span>
+ - <span data-ttu-id="0cf80-109">Exchange Online(플랜 1)</span><span class="sxs-lookup"><span data-stu-id="0cf80-109">Exchange Online (Plan 1)</span></span>
+ - <span data-ttu-id="0cf80-110">Office 365용 흐름</span><span class="sxs-lookup"><span data-stu-id="0cf80-110">Flow for Office 365</span></span>
+ - <span data-ttu-id="0cf80-111">MyAnalytics의 인사이트</span><span class="sxs-lookup"><span data-stu-id="0cf80-111">Insights by MyAnalytics</span></span>
+ - <span data-ttu-id="0cf80-112">Microsoft Forms(플랜 E1)</span><span class="sxs-lookup"><span data-stu-id="0cf80-112">Microsoft Forms (Plan E1)</span></span>
+ - <span data-ttu-id="0cf80-113">Microsoft Planner</span><span class="sxs-lookup"><span data-stu-id="0cf80-113">Microsoft Planner</span></span>
+ - <span data-ttu-id="0cf80-114">Microsoft Search</span><span class="sxs-lookup"><span data-stu-id="0cf80-114">Microsoft Search</span></span>
+ - <span data-ttu-id="0cf80-115">Microsoft StaffHub</span><span class="sxs-lookup"><span data-stu-id="0cf80-115">Microsoft StaffHub</span></span>
+ - <span data-ttu-id="0cf80-116">O365 E1 SKU용 Microsoft Stream</span><span class="sxs-lookup"><span data-stu-id="0cf80-116">Microsoft Stream for O365 E1 SKU</span></span>
+ - <span data-ttu-id="0cf80-117">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="0cf80-117">Microsoft Teams</span></span>
+ - <span data-ttu-id="0cf80-118">Office 365용 모바일 장치 관리</span><span class="sxs-lookup"><span data-stu-id="0cf80-118">Mobile Device Management for Office 365</span></span>
+ - <span data-ttu-id="0cf80-119">Office 365용 Office 모바일 앱</span><span class="sxs-lookup"><span data-stu-id="0cf80-119">Office Mobile Apps for Office 365</span></span> 
+ - <span data-ttu-id="0cf80-120">Office Online</span><span class="sxs-lookup"><span data-stu-id="0cf80-120">Office Online</span></span>
+ - <span data-ttu-id="0cf80-121">Office 365용 PowerApps</span><span class="sxs-lookup"><span data-stu-id="0cf80-121">PowerApps for Office 365</span></span>
+ - <span data-ttu-id="0cf80-122">SharePoint Online(플랜 1)</span><span class="sxs-lookup"><span data-stu-id="0cf80-122">SharePoint Online (Plan 1)</span></span>
+ - <span data-ttu-id="0cf80-123">Sway</span><span class="sxs-lookup"><span data-stu-id="0cf80-123">Sway</span></span>
+ - <span data-ttu-id="0cf80-124">To-Do(플랜 1)</span><span class="sxs-lookup"><span data-stu-id="0cf80-124">To-Do (Plan 1)</span></span>
+ - <span data-ttu-id="0cf80-125">화이트보드(플랜 1)</span><span class="sxs-lookup"><span data-stu-id="0cf80-125">Whiteboard (Plan 1)</span></span>
+ - <span data-ttu-id="0cf80-126">Yammer Enterprise</span><span class="sxs-lookup"><span data-stu-id="0cf80-126">Yammer Enterprise</span></span>
 
 
-## <a name="who-isnt-eligible"></a><span data-ttu-id="a9542-132">사용 자격이 없는 사용자</span><span class="sxs-lookup"><span data-stu-id="a9542-132">Who isn't eligible</span></span>
+## <a name="whos-eligible"></a><span data-ttu-id="0cf80-127">사용 자격이 있는 사용자</span><span class="sxs-lookup"><span data-stu-id="0cf80-127">Who's eligible?</span></span>
 
-<span data-ttu-id="a9542-133">사용자가 Syndication 파트너 고객이거나 GCC, GCC High, DoD 또는 EDU 고객인 경우 사용자의 조직은 이 서비스를 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-133">Your organization isn't eligible for this offer if you're a Syndication Partner Customer or a GCC, GCC High, DoD, or EDU customer.</span></span>
+<span data-ttu-id="0cf80-128">사용자에게 관리되는 AAD 도메인 전자 메일 주소가 있고 현재 Teams 라이선스가 할당되지 않은 경우 이 환경을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-128">As long as the user has a managed AAD domain email address and currently does not have/haven't been assigned a Teams license, they are eligible for this experience.</span></span> <span data-ttu-id="0cf80-129">예를 들어 사용자에게 Office 365 Business(Teams가 포함되지 않음)가 있는 경우 Teams 예비 환경을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-129">For example, if a user has Office 365 Business (which doesn't include Teams), they're eligible for the Teams Exploratory experience.</span></span>
 
-
-## <a name="how-users-sign-up-for-the-teams-exploratory-experience"></a><span data-ttu-id="a9542-134">Teams 예비 환경에 등록하는 방법</span><span class="sxs-lookup"><span data-stu-id="a9542-134">How users sign up for the Teams Exploratory experience</span></span>
-
-<span data-ttu-id="a9542-135">적격 사용자는 Teams에 로그인하여 Teams 예비 환경에 등록할 수 있습니다([teams.microsoft.com](https://teams.microsoft.com)).</span><span class="sxs-lookup"><span data-stu-id="a9542-135">Eligible users can sign up for the Teams Exploratory experience by signing in to Teams ([teams.microsoft.com](https://teams.microsoft.com)).</span></span> <span data-ttu-id="a9542-136">적격 사용자에게는 자동으로 라이선스가 할당 되고 조직 내 사용자가 Teams 예비 환경을 처음 시작할 때 테넌트 관리자가 전자 메일 알림을 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-136">They will be assigned this license automatically and the tenant admin will receive an email notification the first time someone in your org starts the Teams Exploratory experience.</span></span>
-
-## <a name="manage-the-teams-exploratory-experience"></a><span data-ttu-id="a9542-137">Teams 예비 환경 관리</span><span class="sxs-lookup"><span data-stu-id="a9542-137">Manage the Teams Exploratory experience</span></span>
-
-<span data-ttu-id="a9542-138">Teams 예비 환경은 개별 최종 사용자가 시작하고 최종 사용자 직원을 대신해 이 서비스를 시작할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-138">The Teams Exploratory experience is meant to be initiated by individual end users, and you may not initiate this offer on behalf of end-user employees.</span></span>
-
-<span data-ttu-id="a9542-139">Teams 예비 환경은 Exchange Online 라이선스와 함께 제공되지만 관리자가 할당할 때까지 사용자에게 할당되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-139">The Teams Exploratory experience comes with an Exchange Online license but it won't be assigned to the user until the admin assigns it.</span></span> <span data-ttu-id="a9542-140">사용자에게 아직 Exchange 라이선스가 없으며 관리자가 아직 Exchange Online 라이선스를 할당하지 않은 경우, 사용자는 Teams에서 모임을 예약할 수 없으며 Teams의 다른 기능이 표시되지 않을 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-140">If the user doesn't have an Exchange license already and the admin has yet to assign the Exchange Online license, the user won't be able to schedule meetings in Teams and may be missing other Teams functionality.</span></span>
-
-<span data-ttu-id="a9542-141">관리자는 **평가판 앱 및 서비스** 스위치를 사용하여 조직 내에서 최종 사용자가 Teams 예비 환경을 실행할 수 있는 기능을 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-141">Admins can disable the ability for end users to run the Teams Exploratory experience within their organization by using the **Trial apps and services** switch.</span></span>
+<span data-ttu-id="0cf80-130">(Microsoft 365 관리 센터에서) 사용자는 앱과 평가판을 사용할 수 있게 등록하도록 설정을 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-130">Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center).</span></span> <span data-ttu-id="0cf80-131">자세한 내용은 이 문서 뒷부분의 [Teams 예비 환경 관리](#manage-the-teams-exploratory-experience)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="0cf80-131">For more information, see [Manage the Teams Exploratory experience](#manage-the-teams-exploratory-experience), later in this article.</span></span> 
 
 
-### <a name="prevent-users-from-installing-trial-apps-and-services"></a><span data-ttu-id="a9542-142">사용자가 평가판 앱 및 서비스를 설치하지 못하도록 방지</span><span class="sxs-lookup"><span data-stu-id="a9542-142">Prevent users from installing trial apps and services</span></span>
+## <a name="who-isnt-eligible"></a><span data-ttu-id="0cf80-132">사용 자격이 없는 사용자</span><span class="sxs-lookup"><span data-stu-id="0cf80-132">Who isn't eligible</span></span>
 
-<span data-ttu-id="a9542-143">사용자가 평가판 앱 및 서비스를 설치하는 기능을 해제하여 사용자가 Teams 예비 환경을 실행하지 못하도록 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-143">You can turn off a user's ability to install trial apps and services, would prevent the user from running the Teams Exploratory experience.</span></span>
+<span data-ttu-id="0cf80-133">사용자가 Syndication 파트너 고객이거나 GCC, GCC High, DoD 또는 EDU 고객인 경우 사용자의 조직은 이 서비스를 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-133">Your organization isn't eligible for this offer if you're a Syndication Partner Customer or a GCC, GCC High, DoD, or EDU customer.</span></span>
 
-1. <span data-ttu-id="a9542-144">[Microsoft 365 관리 센터](https://portal.office.com/adminportal/home)에서 **설정** > **설정**으로 이동하여 **서비스**를 선택한 다음 **사용자 소유 앱 및 서비스**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-144">From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Settings**, select **Services**, and then select **User owned apps and services**.</span></span>
+
+## <a name="how-users-sign-up-for-the-teams-exploratory-experience"></a><span data-ttu-id="0cf80-134">Teams 예비 환경에 등록하는 방법</span><span class="sxs-lookup"><span data-stu-id="0cf80-134">How users sign up for the Teams Exploratory experience</span></span>
+
+<span data-ttu-id="0cf80-135">적격 사용자는 Teams에 로그인하여 Teams 예비 환경에 등록할 수 있습니다([teams.microsoft.com](https://teams.microsoft.com)).</span><span class="sxs-lookup"><span data-stu-id="0cf80-135">Eligible users can sign up for the Teams Exploratory experience by signing in to Teams ([teams.microsoft.com](https://teams.microsoft.com)).</span></span> <span data-ttu-id="0cf80-136">적격 사용자에게는 자동으로 라이선스가 할당 되고 조직 내 사용자가 Teams 예비 환경을 처음 시작할 때 테넌트 관리자가 전자 메일 알림을 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-136">They will be assigned this license automatically and the tenant admin will receive an email notification the first time someone in your org starts the Teams Exploratory experience.</span></span>
+
+## <a name="manage-the-teams-exploratory-experience"></a><span data-ttu-id="0cf80-137">Teams 예비 환경 관리</span><span class="sxs-lookup"><span data-stu-id="0cf80-137">Manage the Teams Exploratory experience</span></span>
+
+<span data-ttu-id="0cf80-138">Teams 예비 환경은 개별 최종 사용자가 시작하고 최종 사용자 직원을 대신해 이 서비스를 시작할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-138">The Teams Exploratory experience is meant to be initiated by individual end users, and you may not initiate this offer on behalf of end-user employees.</span></span>
+
+<span data-ttu-id="0cf80-139">Teams 예비 환경은 Exchange Online 라이선스와 함께 제공되지만 관리자가 할당할 때까지 사용자에게 할당되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-139">The Teams Exploratory experience comes with an Exchange Online license but it won't be assigned to the user until the admin assigns it.</span></span> <span data-ttu-id="0cf80-140">사용자에게 아직 Exchange 라이선스가 없으며 관리자가 아직 Exchange Online 라이선스를 할당하지 않은 경우, 사용자는 Teams에서 모임을 예약할 수 없으며 Teams의 다른 기능이 표시되지 않을 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-140">If the user doesn't have an Exchange license already and the admin has yet to assign the Exchange Online license, the user won't be able to schedule meetings in Teams and may be missing other Teams functionality.</span></span>
+
+<span data-ttu-id="0cf80-141">관리자는 **평가판 앱 및 서비스** 스위치를 사용하여 조직 내에서 최종 사용자가 Teams 예비 환경을 실행할 수 있는 기능을 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-141">Admins can disable the ability for end users to run the Teams Exploratory experience within their organization by using the **Trial apps and services** switch.</span></span>
+
+
+### <a name="prevent-users-from-installing-trial-apps-and-services"></a><span data-ttu-id="0cf80-142">사용자가 평가판 앱 및 서비스를 설치하지 못하도록 방지</span><span class="sxs-lookup"><span data-stu-id="0cf80-142">Prevent users from installing trial apps and services</span></span>
+
+<span data-ttu-id="0cf80-143">사용자가 평가판 앱 및 서비스를 설치하는 기능을 해제하여 사용자가 Teams 예비 환경을 실행하지 못하도록 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-143">You can turn off a user's ability to install trial apps and services, would prevent the user from running the Teams Exploratory experience.</span></span>
+
+1. <span data-ttu-id="0cf80-144">[Microsoft 365 관리 센터](https://portal.office.com/adminportal/home)에서 **설정** > **설정**으로 이동하여 **서비스**를 선택한 다음 **사용자 소유 앱 및 서비스**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-144">From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Settings**, select **Services**, and then select **User owned apps and services**.</span></span>
 
     ![관리 센터의 서비스 페이지 스크린샷](media/iw-trial-services.png)
 
-2. <span data-ttu-id="a9542-146">**사용자가 평가판 앱 및 서비스를 설치하도록 허용** 확인란을 해제합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-146">Clear the **Let users install trial apps and services** check box.</span></span>
+2. <span data-ttu-id="0cf80-146">**사용자가 평가판 앱 및 서비스를 설치하도록 허용** 확인란을 해제합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-146">Clear the **Let users install trial apps and services** check box.</span></span>
 
     ![관리 센터의 사용자 소유의 앱과 서비스 페이지 스크린샷](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
-    > <span data-ttu-id="a9542-148">조직에서 Teams 예비 환경을 사용할 수 없는 경우 **사용자가 평가판 앱 및 서비스를 설치하도록 허용** 옵션이 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-148">If your organization is ineligible for the Teams Exploratory experience, you won't see the **Let users install trial apps and services** option.</span></span>
+    > <span data-ttu-id="0cf80-148">조직에서 Teams 예비 환경을 사용할 수 없는 경우 **사용자가 평가판 앱 및 서비스를 설치하도록 허용** 옵션이 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-148">If your organization is ineligible for the Teams Exploratory experience, you won't see the **Let users install trial apps and services** option.</span></span>
 
-### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a><span data-ttu-id="a9542-149">Teams를 포함하는 라이선스가 있는 사용자의 상태 관리</span><span class="sxs-lookup"><span data-stu-id="a9542-149">Manage availability for a user with a license that includes Teams</span></span>
+### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a><span data-ttu-id="0cf80-149">Teams를 포함하는 라이선스가 있는 사용자의 상태 관리</span><span class="sxs-lookup"><span data-stu-id="0cf80-149">Manage availability for a user with a license that includes Teams</span></span>
 
-<span data-ttu-id="a9542-150">Teams를 포함하는 라이선스가 할당된 사용자는 Teams 예비 환경을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-150">A user who is assigned a license that includes Teams isn't eligible for the Teams Exploratory experience.</span></span> <span data-ttu-id="a9542-151">Teams 서비스 플랜을 사용할 수 있도록 설정한 경우 사용자는 로그인을 하고 Teams를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-151">When the Teams service plan is turned on, the user can sign in and use Teams.</span></span> <span data-ttu-id="a9542-152">서비스 플랜을 사용하지 않도록 설정한 경우 사용자가 로그인할 수 없으며 Teams 예비 환경을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-152">If the service plan is disabled, the user can't sign in and the Teams Exploratory experience isn't available.</span></span>
+<span data-ttu-id="0cf80-150">Teams를 포함하는 라이선스가 할당된 사용자는 Teams 예비 환경을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-150">A user who is assigned a license that includes Teams isn't eligible for the Teams Exploratory experience.</span></span> <span data-ttu-id="0cf80-151">Teams 서비스 플랜을 사용할 수 있도록 설정한 경우 사용자는 로그인을 하고 Teams를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-151">When the Teams service plan is turned on, the user can sign in and use Teams.</span></span> <span data-ttu-id="0cf80-152">서비스 플랜을 사용하지 않도록 설정한 경우 사용자가 로그인할 수 없으며 Teams 예비 환경을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-152">If the service plan is disabled, the user can't sign in and the Teams Exploratory experience isn't available.</span></span>
 
-<span data-ttu-id="a9542-153">Teams로의 액세스를 해제하려면:</span><span class="sxs-lookup"><span data-stu-id="a9542-153">To turn off access to Teams:</span></span>
+<span data-ttu-id="0cf80-153">Teams로의 액세스를 해제하려면:</span><span class="sxs-lookup"><span data-stu-id="0cf80-153">To turn off access to Teams:</span></span>
 
-1. <span data-ttu-id="a9542-154">Microsoft 365 관리 센터에서 **사용자** > **활성 사용자**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-154">In the Microsoft 365 admin center, select **Users** > **Active users**.</span></span>
+1. <span data-ttu-id="0cf80-154">Microsoft 365 관리 센터에서 **사용자** > **활성 사용자**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-154">In the Microsoft 365 admin center, select **Users** > **Active users**.</span></span>
 
-2. <span data-ttu-id="a9542-155">사용자 이름 옆에 있는 상자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-155">Select the box next to the name of the user.</span></span>
+2. <span data-ttu-id="0cf80-155">사용자 이름 옆에 있는 상자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-155">Select the box next to the name of the user.</span></span>
 
-3. <span data-ttu-id="a9542-156">우측의 **제품 라이선스** 행에서 **편집**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-156">On the right, in the **Product licenses** row, choose **Edit**.</span></span>
+3. <span data-ttu-id="0cf80-156">우측의 **제품 라이선스** 행에서 **편집**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-156">On the right, in the **Product licenses** row, choose **Edit**.</span></span>
 
-4. <span data-ttu-id="a9542-157">**제품 라이선스** 창에서 토글 스위치를 **해제**로 전환합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-157">In the **Product licenses** pane, switch the toggle to **Off**.</span></span>
+4. <span data-ttu-id="0cf80-157">**제품 라이선스** 창에서 토글 스위치를 **해제**로 전환합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-157">In the **Product licenses** pane, switch the toggle to **Off**.</span></span>
 
     ![관리 센터의 제품 라이선스 페이지 스크린샷.](media/iw-trial-enable-3.png)
 
-### <a name="manage-teams-availability-for-users-who-are-already-using-the-teams-exploratory-experience"></a><span data-ttu-id="a9542-159">Teams 예비 환경을 이미 사용 중인 사용자의 Teams 상태 관리</span><span class="sxs-lookup"><span data-stu-id="a9542-159">Manage Teams availability for users who are already using the Teams Exploratory experience</span></span>
+### <a name="manage-teams-availability-for-users-who-are-already-using-the-teams-exploratory-experience"></a><span data-ttu-id="0cf80-159">Teams 예비 환경을 이미 사용 중인 사용자의 Teams 상태 관리</span><span class="sxs-lookup"><span data-stu-id="0cf80-159">Manage Teams availability for users who are already using the Teams Exploratory experience</span></span>
 
-<span data-ttu-id="a9542-160">사용자가 Teams 예비 환경을 실행하고 있는 경우 해당 라이선스 혹은 서비스 플랜을 제거하여이 기능을 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-160">If a user is running the Teams Exploratory experience, you can turn it off by removing the license or service plan.</span></span>
+<span data-ttu-id="0cf80-160">사용자가 Teams 예비 환경을 실행하고 있는 경우 해당 라이선스 혹은 서비스 플랜을 제거하여이 기능을 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-160">If a user is running the Teams Exploratory experience, you can turn it off by removing the license or service plan.</span></span>
 
-<span data-ttu-id="a9542-161">Teams 예비 환경 라이선스를 해제하려면 다음을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-161">To turn off the the Teams Exploratory experience license:</span></span>
+<span data-ttu-id="0cf80-161">Teams 예비 환경 라이선스를 해제하려면 다음을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-161">To turn off the the Teams Exploratory experience license:</span></span>
 
-1. <span data-ttu-id="a9542-162">Microsoft 365 관리 센터에서 **사용자** > **활성 사용자**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-162">In the Microsoft 365 admin center, select **Users** > **Active users**.</span></span>
+1. <span data-ttu-id="0cf80-162">Microsoft 365 관리 센터에서 **사용자** > **활성 사용자**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-162">In the Microsoft 365 admin center, select **Users** > **Active users**.</span></span>
 
-2. <span data-ttu-id="a9542-163">사용자 이름 옆에 있는 상자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-163">Select the box next to the name of the user.</span></span>
+2. <span data-ttu-id="0cf80-163">사용자 이름 옆에 있는 상자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-163">Select the box next to the name of the user.</span></span>
 
-3. <span data-ttu-id="a9542-164">우측의 **제품 라이선스** 행에서 **편집**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-164">On the right, in the **Product licenses** row, choose **Edit**.</span></span>
+3. <span data-ttu-id="0cf80-164">우측의 **제품 라이선스** 행에서 **편집**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-164">On the right, in the **Product licenses** row, choose **Edit**.</span></span>
 
-4. <span data-ttu-id="a9542-165">**제품 라이선스** 창에서 예비 라이선스 토글 스위치를 **해제**로 전환합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-165">In the **Product licenses** pane, switch the toggle for this exploratory license to **Off**.</span></span>
+4. <span data-ttu-id="0cf80-165">**제품 라이선스** 창에서 예비 라이선스 토글 스위치를 **해제**로 전환합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-165">In the **Product licenses** pane, switch the toggle for this exploratory license to **Off**.</span></span>
    
     >[!Note]
-    ><span data-ttu-id="a9542-166">조직에서 첫 번째 사용자가 Teams 예비 환경을 실행한 후 Teams 예비 토글 스위치가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-166">The Teams Exploratory toggle switch will appear after the first user in the organization launches the Teams Exploratory experience.</span></span>
+    ><span data-ttu-id="0cf80-166">조직에서 첫 번째 사용자가 Teams 예비 환경을 실행한 후 Teams 예비 토글 스위치가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-166">The Teams Exploratory toggle switch will appear after the first user in the organization launches the Teams Exploratory experience.</span></span>
 
-### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a><span data-ttu-id="a9542-167">Teams 예비 라이선스가 있는 사용자의 Teams 관리</span><span class="sxs-lookup"><span data-stu-id="a9542-167">Manage Teams for users who have the Teams Exploratory license</span></span>
+### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a><span data-ttu-id="0cf80-167">Teams 예비 라이선스가 있는 사용자의 Teams 관리</span><span class="sxs-lookup"><span data-stu-id="0cf80-167">Manage Teams for users who have the Teams Exploratory license</span></span>
 
-<span data-ttu-id="a9542-168">정규 유료 라이선스가 있는 사용자를 관리하는 것과 같은 방식으로 Teams 예비 라이선스가 있는 사용자를 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-168">You can manage users who have the Teams Exploratory license just like you manage users who have a regular paid license.</span></span> <span data-ttu-id="a9542-169">자세한 내용은 [조직에서 Teams 설정 관리](enable-features-office-365.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="a9542-169">For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).</span></span>
+<span data-ttu-id="0cf80-168">정규 유료 라이선스가 있는 사용자를 관리하는 것과 같은 방식으로 Teams 예비 라이선스가 있는 사용자를 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-168">You can manage users who have the Teams Exploratory license just like you manage users who have a regular paid license.</span></span> <span data-ttu-id="0cf80-169">자세한 내용은 [조직에서 Teams 설정 관리](enable-features-office-365.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="0cf80-169">For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).</span></span>
 
-### <a name="upgrade-users-from-the-teams-exploratory-license"></a><span data-ttu-id="a9542-170">Teams 예비 라이선스에서 사용자 업그레이드</span><span class="sxs-lookup"><span data-stu-id="a9542-170">Upgrade users from the Teams Exploratory license</span></span>
+### <a name="upgrade-users-from-the-teams-exploratory-license"></a><span data-ttu-id="0cf80-170">Teams 예비 라이선스에서 사용자 업그레이드</span><span class="sxs-lookup"><span data-stu-id="0cf80-170">Upgrade users from the Teams Exploratory license</span></span>
 
-<span data-ttu-id="a9542-171">Teams 예비 라이선스에서 사용자를 업그레이드하려면 다음을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-171">To upgrade users from the Teams Exploratory license, do the following:</span></span>
+<span data-ttu-id="0cf80-171">Teams 예비 라이선스에서 사용자를 업그레이드하려면 다음을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-171">To upgrade users from the Teams Exploratory license, do the following:</span></span>
 
-1. <span data-ttu-id="a9542-172">Teams를 포함하는 구독을 구입합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-172">Purchase a subscription that includes Teams.</span></span>
+1. <span data-ttu-id="0cf80-172">Teams를 포함하는 구독을 구입합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-172">Purchase a subscription that includes Teams.</span></span>
 
-2. <span data-ttu-id="a9542-173">사용자의 Teams 예비 구독을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-173">Remove the Teams Exploratory subscription from the user.</span></span>
+2. <span data-ttu-id="0cf80-173">사용자의 Teams 예비 구독을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-173">Remove the Teams Exploratory subscription from the user.</span></span>
 
-3. <span data-ttu-id="a9542-174">새로 구매한 라이선스를 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-174">Assign the newly purchased license.</span></span>
+3. <span data-ttu-id="0cf80-174">새로 구매한 라이선스를 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-174">Assign the newly purchased license.</span></span>
 
-<span data-ttu-id="a9542-175">자세한 내용은 [Microsoft Teams 사용을 위한 Office 365 라이선싱](Office-365-licensing.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="a9542-175">For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span>
+<span data-ttu-id="0cf80-175">자세한 내용은 [Microsoft Teams 사용을 위한 Office 365 라이선싱](Office-365-licensing.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="0cf80-175">For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a9542-176">Teams 예비 라이선스가 종료되고 사용자가 Teams을 포함하는 구독으로 즉시 업그레이드 되지 않는 경우 사용자의 데이터는 제거되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-176">If the Teams Exploratory license ends and a user isn't immediately upgraded to a subscription that includes Teams, the user data is not removed.</span></span> <span data-ttu-id="a9542-177">사용자는 여전히 Azure Active Directory에 존재하고 Teams 내의 모든 데이터는 계속 유지됩니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-177">The user still exists in Azure Active Directory and all data within Teams still remains.</span></span> <span data-ttu-id="a9542-178">Teams의 기능을 다시 사용할 수 있도록 사용자에게 새 라이선스가 할당되면 모든 콘텐츠가 계속 존재하게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-178">Once a new license is assigned to the user to enable Teams functionality again, all content will still exist.</span></span> 
+> <span data-ttu-id="0cf80-176">Teams 예비 라이선스가 종료되고 사용자가 Teams을 포함하는 구독으로 즉시 업그레이드 되지 않는 경우 사용자의 데이터는 제거되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-176">If the Teams Exploratory license ends and a user isn't immediately upgraded to a subscription that includes Teams, the user data is not removed.</span></span> <span data-ttu-id="0cf80-177">사용자는 여전히 Azure Active Directory에 존재하고 Teams 내의 모든 데이터는 계속 유지됩니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-177">The user still exists in Azure Active Directory and all data within Teams still remains.</span></span> <span data-ttu-id="0cf80-178">Teams의 기능을 다시 사용할 수 있도록 사용자에게 새 라이선스가 할당되면 모든 콘텐츠가 계속 존재하게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-178">Once a new license is assigned to the user to enable Teams functionality again, all content will still exist.</span></span> 
 
-## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a><span data-ttu-id="a9542-179">레거시 Microsoft Teams 상용 클라우드 평가판 라이선스는 어떻게 되나요?</span><span class="sxs-lookup"><span data-stu-id="a9542-179">What happens to legacy Microsoft Teams Commercial Cloud Trial licenses?</span></span>
+## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a><span data-ttu-id="0cf80-179">레거시 Microsoft Teams 상용 클라우드 평가판 라이선스는 어떻게 되나요?</span><span class="sxs-lookup"><span data-stu-id="0cf80-179">What happens to legacy Microsoft Teams Commercial Cloud Trial licenses?</span></span>
 
-<span data-ttu-id="a9542-180">2020년 2월부로 적격 사용자는 최신 Microsoft Teams 예비 환경을 사용하기 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-180">As of February, 2020, eligible users can begin using the latest Microsoft Teams Exploratory experience.</span></span> <span data-ttu-id="a9542-181">모든 레거시 Teams 상용 클라우드 평가판 라이선스는 평가판이 만료되기 전에 자동으로 신규 서비스로 변환됩니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-181">All legacy Teams Commercial Cloud Trial licenses will be automatically converted to the new offer before their trial expires.</span></span>
+<span data-ttu-id="0cf80-180">2020년 2월부로 적격 사용자는 최신 Microsoft Teams 예비 환경을 사용하기 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-180">As of February, 2020, eligible users can begin using the latest Microsoft Teams Exploratory experience.</span></span> <span data-ttu-id="0cf80-181">모든 레거시 Teams 상용 클라우드 평가판 라이선스는 평가판이 만료되기 전에 자동으로 신규 서비스로 변환됩니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-181">All legacy Teams Commercial Cloud Trial licenses will be automatically converted to the new offer before their trial expires.</span></span>
 
-### <a name="remove-a-teams-exploratory-license"></a><span data-ttu-id="a9542-182">Teams 예비 라이선스 제거</span><span class="sxs-lookup"><span data-stu-id="a9542-182">Remove a Teams Exploratory license</span></span>
+### <a name="remove-a-teams-exploratory-license"></a><span data-ttu-id="0cf80-182">Teams 예비 라이선스 제거</span><span class="sxs-lookup"><span data-stu-id="0cf80-182">Remove a Teams Exploratory license</span></span>
 
-- <span data-ttu-id="a9542-183">PowerShell을 통해 이 라이선스를 제거하려면 [Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="a9542-183">If you would like to remove this license by using PowerShell, see: [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)</span></span>
+- <span data-ttu-id="0cf80-183">PowerShell을 통해 이 라이선스를 제거하려면 [Office 365 PowerShell을 사용하여 사용자 계정에서 라이선스 제거](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="0cf80-183">If you would like to remove this license by using PowerShell, see: [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)</span></span>
 
-- <span data-ttu-id="a9542-184">관리 포털을 통해 이 라이선스를 제거하려면 [비즈니스용 Office 365의 사용자 라이선스 제거](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)를 참조하세요. </span><span class="sxs-lookup"><span data-stu-id="a9542-184">If you would like to remove this license through the admin portal, see: [Remove licenses from users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)</span></span>
+- <span data-ttu-id="0cf80-184">관리 포털을 통해 이 라이선스를 제거하려면 [비즈니스용 Office 365의 사용자 라이선스 제거](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)를 참조하세요. </span><span class="sxs-lookup"><span data-stu-id="0cf80-184">If you would like to remove this license through the admin portal, see: [Remove licenses from users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)</span></span>
 
-## <a name="how-long-does-the-teams-exploratory-experience-last"></a><span data-ttu-id="a9542-185">Teams 예비 환경은 얼마나 오래 지속되나요?</span><span class="sxs-lookup"><span data-stu-id="a9542-185">How long does the Teams Exploratory experience last?</span></span>
+## <a name="how-long-does-the-teams-exploratory-experience-last"></a><span data-ttu-id="0cf80-185">Teams 예비 환경은 얼마나 오래 지속되나요?</span><span class="sxs-lookup"><span data-stu-id="0cf80-185">How long does the Teams Exploratory experience last?</span></span>
 
-<span data-ttu-id="a9542-186">Microsoft Teams의 예비 환경은 다음 엔터프라이즈 계약 예정일 또는 2021년 1월 이후에 갱신될 때까지 추가 비용 없이 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-186">The Microsoft Teams Exploratory experience is available at no additional cost until your next enterprise agreement anniversary or renewal on or after January 2021.</span></span> <span data-ttu-id="a9542-187">이 경우 Microsoft 예비 환경 라이선스의 최종 사용자는 Teams가 포함된 유료 라이선스로 전환해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-187">At that time, end users on a Microsoft Exploratory experience license will need to move to a paid license that includes Teams.</span></span> <span data-ttu-id="a9542-188">그 이후에 시작된 모든 Microsoft 예비 환경 라이선스는 다음 예정일 또는 갱신 주기까지 추가 비용 없이 계속 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-188">Any Microsoft Exploratory experience licenses initiated after that will remain available at no additional cost until the your next anniversary or renewal cycle.</span></span> 
+<span data-ttu-id="0cf80-186">Microsoft Teams의 예비 환경은 다음 엔터프라이즈 계약 예정일 또는 2021년 1월 이후에 갱신될 때까지 추가 비용 없이 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-186">The Microsoft Teams Exploratory experience is available at no additional cost until your next enterprise agreement anniversary or renewal on or after January 2021.</span></span> <span data-ttu-id="0cf80-187">이 경우 Microsoft 예비 환경 라이선스의 최종 사용자는 Teams가 포함된 유료 라이선스로 전환해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-187">At that time, end users on a Microsoft Exploratory experience license will need to move to a paid license that includes Teams.</span></span> <span data-ttu-id="0cf80-188">그 이후에 시작된 모든 Microsoft 예비 환경 라이선스는 다음 예정일 또는 갱신 주기까지 추가 비용 없이 계속 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-188">Any Microsoft Exploratory experience licenses initiated after that will remain available at no additional cost until your next anniversary or renewal cycle.</span></span> 
 
-### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a><span data-ttu-id="a9542-189">최종 사용자가 기념일 또는 갱신 날짜 직전에 Microsoft Teams 예비 환경을 시작하는 경우 어떻게 되나요?</span><span class="sxs-lookup"><span data-stu-id="a9542-189">What happens if an end user initiates the Microsoft Teams Exploratory experience just before my anniversary or renewal date?</span></span>
+### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a><span data-ttu-id="0cf80-189">최종 사용자가 기념일 또는 갱신 날짜 직전에 Microsoft Teams 예비 환경을 시작하는 경우 어떻게 되나요?</span><span class="sxs-lookup"><span data-stu-id="0cf80-189">What happens if an end user initiates the Microsoft Teams Exploratory experience just before my anniversary or renewal date?</span></span>
 
-<span data-ttu-id="a9542-190">엔터프라이즈 계약 예정일 또는 갱신 후 90일 이내에 시작된 Microsoft Teams 예비 환경 라이선스는 다음 예정일 또는 갱신 주기까지 유료 라이선스로 전환할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a9542-190">Microsoft Teams Exploratory experience licenses initiated within 90 days of your enterprise agreement anniversary or renewal will not be required to move to a paid license until the subsequent anniversary or renewal cycle.</span></span> 
+<span data-ttu-id="0cf80-190">엔터프라이즈 계약 예정일 또는 갱신 후 90일 이내에 시작된 Microsoft Teams 예비 환경 라이선스는 다음 예정일 또는 갱신 주기까지 유료 라이선스로 전환할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="0cf80-190">Microsoft Teams Exploratory experience licenses initiated within 90 days of your enterprise agreement anniversary or renewal will not be required to move to a paid license until the subsequent anniversary or renewal cycle.</span></span> 
