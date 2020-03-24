@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결 하는 방법을 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: 0e15f8e76bc9512a28311764c39e34b45131b9d3
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 5efed6ed21e6eb4bfa4e2ae89e625595b0307ada
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858583"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928441"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -257,7 +257,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 다음 IP 주소 중 하나로 확인 �
 
 |**통신량**|**보낸 사람**|**받는 사람**|**원본 포트**|**대상 포트**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP 프록시|하더라도|1024 – 65535|SBC에 정의 됨 (Office 365 GCC High/DoD 전용 포트 5061 및 5062을 사용 해야 함)|
+|SIP/TLS|SIP 프록시|하더라도|1024 – 65535|SBC에 정의 된 경우 (Office 365 GCC High/DoD 전용 포트 5061를 사용 해야 합니다.)|
 SIP/TLS|하더라도|SIP 프록시|SBC에 정의 됨|5061|
 ||||||
 
