@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42f0ec656036849aa87d9d4e7e092f4b5d3a505f
-ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
+ms.openlocfilehash: d85bb4ba32bf83d3c774a2b6700a96c7e35dcb2a
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42639465"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42935248"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams에 대한 조직의 네트워크 준비 
 
 ## <a name="network-requirements"></a>네트워크 요구 사항
 
-[Office 365에 대 한 네트워크](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)를 이미 최적화 한 경우 Microsoft 팀에 대 한 준비가 되었을 수 있습니다. 경우에 따라 팀 롤아웃을 시작 하기 전에 다음을 확인 하세요.
+[Office 365에 대 한 네트워크](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)를 이미 최적화 한 경우 Microsoft 팀에 대 한 준비가 되었을 수 있습니다. 어떤 경우 든 특히, **원격 작업자** 를 지원 하기 위해 첫 번째 Office 365 작업으로 신속 하 게 배포 하는 경우 팀 롤아웃을 시작 하기 전에 다음을 확인 하세요.
 
 1.  모든 위치에서 인터넷에 액세스할 수 있는지 확인 (Office 365에 연결 가능) 최소한 일반 웹 소통량 외에도 팀에서 미디어의 모든 위치에 대해 다음을 열었는지 확인 하세요.
 
@@ -75,7 +75,7 @@ ms.locfileid: "42639465"
 <thead>
 <tr class="header">
 <th><strong>네트워크 최적화 작업</strong></th>
-<th><strong>세부적인</strong></th>
+<th><strong>세부 정보</strong></th>
 </tr>
 </thead>
 <tbody>
