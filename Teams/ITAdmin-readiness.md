@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft 팀을 계획, 배포 및 실행 하는 방법을 설명 하는 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 217f099fb773d3f8468e214c2e1e9ef33990d816
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 2794891da78e8b8028bc18d82715a27d5c2eb78d
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858343"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42937612"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 팀의 관리 교육
 
@@ -91,21 +91,21 @@ ms.locfileid: "42858343"
 
 <h2>기술 교육</h2>
 
-| 모듈 | 비디오만 | PowerPoint 데크  |
+| 모듈 | 비디오 | PowerPoint 데크  |
 | ------------ | -------------------- | -------------------- |
 | [Microsoft 기술-IT YouTube 용 팀 Essentials 채널](https://aka.ms/MicrosoftTeamsforIT) | [비디오: 팀의 주요](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) 기능 (10:13 분)<br>[비디오: 팀 구성 & 배포-소개](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 분)  <br>[비디오: 보안 및 준수](https://youtu.be/91lHNKVVvQ4) (12:42 분)<br>[비디오: 보안 및 규정 준수에 대 한 팀 컨트롤](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 분)||
-| 기초-핵심 구성 요소 | [비디오만](https://aka.ms/teams-foundations) | [뒤집을](https://aka.ms/teams-foundations-deck) |
-| Windows 데스크톱 클라이언트 | [비디오만](https://aka.ms/teams-clients) | [뒤집을](https://aka.ms/teams-clients-deck) |
-| 지배 구조, 관리 및 수명 주기 | [비디오만](https://aka.ms/teams-governance) | [뒤집을](https://aka.ms/teams-governance-deck) |
-| 보안 & 준수 | [비디오만](https://aka.ms/teams-security-compliance) | [뒤집을](https://aka.ms/teams-security-compliance-deck) |
-| 통화 음질 개요 | [비디오만](https://aka.ms/teams-quality) | [뒤집을](https://aka.ms/teams-quality-deck) |
-| 모임 소개 | [비디오만](https://aka.ms/teams-meetings-intro) | [뒤집을](https://aka.ms/teams-meetings-intro-deck) |
-| 미디어-모임이 간단한 이유|[비디오만](https://aka.ms/media-in-teams)  | [뒤집을](https://aka.ms/media-in-teams-deck)|
-| 미디어-미디어 흐름 | [비디오만](https://aka.ms/teams-media-flows) | [뒤집을](https://aka.ms/teams-media-flows-deck)  |
-| 동적 비상 전화 | [비디오만](https://aka.ms/teams-dec) |  [뒤집을](https://aka.ms/teams-dec-deck) |
-| 라이브 이벤트 | [비디오만](https://aka.ms/teams-live-events-session) | [뒤집을](https://aka.ms/teams-live-events-deck) |
-| 전화 시스템 소개 | [비디오만](https://aka.ms/teams-phone-system) | [뒤집을](https://aka.ms/teams-phone-system-deck) |
-| 직접 라우팅 | [비디오만](https://aka.ms/teams-direct-routing) | [뒤집을](https://aka.ms/teams-direct-routing-deck) |
+| 기초-핵심 구성 요소 | [비디오](https://aka.ms/teams-foundations) | [뒤집을](https://aka.ms/teams-foundations-deck) |
+| Windows 데스크톱 클라이언트 | [비디오](https://aka.ms/teams-clients) | [뒤집을](https://aka.ms/teams-clients-deck) |
+| 지배 구조, 관리 및 수명 주기 | [비디오](https://aka.ms/teams-governance) | [뒤집을](https://aka.ms/teams-governance-deck) |
+| 보안 & 준수 | [비디오](https://aka.ms/teams-security-compliance) | [뒤집을](https://aka.ms/teams-security-compliance-deck) |
+| 통화 음질 개요 | [비디오](https://aka.ms/teams-quality) | [뒤집을](https://aka.ms/teams-quality-deck) |
+| 모임 소개 | [비디오](https://aka.ms/teams-meetings-intro) | [뒤집을](https://aka.ms/teams-meetings-intro-deck) |
+| 미디어-모임이 간단한 이유|[비디오](https://aka.ms/media-in-teams)  | [뒤집을](https://aka.ms/media-in-teams-deck)|
+| 미디어-미디어 흐름 | [비디오](https://aka.ms/teams-media-flows) | [뒤집을](https://aka.ms/teams-media-flows-deck)  |
+| 동적 비상 전화 | [비디오](https://aka.ms/teams-dec) |  [뒤집을](https://aka.ms/teams-dec-deck) |
+| 라이브 이벤트 | [비디오](https://aka.ms/teams-live-events-session) | [뒤집을](https://aka.ms/teams-live-events-deck) |
+| 전화 시스템 소개 | [비디오](https://aka.ms/teams-phone-system) | [뒤집을](https://aka.ms/teams-phone-system-deck) |
+| 직접 라우팅 | [비디오 1: 팀에서 직접 라우팅 계획](https://aka.ms/teams-dr-plan)<br>[비디오 2: 팀에서 직접 라우팅 구성 및 관리](https://aka.ms/teams-dr-config)<br>비디오 3: 팀에서 직접 라우팅으로 마이그레이션: <strong> <font color="#4B53BC">곧 출시!</font></strong>  | [뒤집을](https://aka.ms/teams-direct-routing-deck) |
 | 비즈니스용 Skype에서 Teams로 업그레이드 | [비디오 1: 업그레이드 소개](https://aka.ms/teams-upgrade-intro)</br>[비디오 2: 업그레이드 계획](https://aka.ms/teams-upgrade-plan)</br>[비디오 3: 공존 및 상호 운용성](https://aka.ms/teams-upgrade-coexistence-interop)</br>[비디오 4: 관리자 환경](https://aka.ms/teams-upgrade-admin) | [뒤집을](https://aka.ms/teams-upgrade-deck)|
 
 <h2>빠른 시작 가이드</h2>
