@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a17b9ed78f484f593715a551fd11fa158bd6262a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 084f6d4587bc279c4387cf44b8ed29d38d51d4a6
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892208"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42937602"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 설치
 
 > [!Tip]
-> Windows 데스크톱 클라이언트의 이점,이를 위해 계획 하는 방법 및 배포 하는 방법에 대해 알아보려면 다음 세션을 시청 하세요. [팀 Windows 데스크톱 클라이언트](https://aka.ms/teams-clients)
+> Windows 데스크톱 클라이언트의 이점,이를 위해 계획 하는 방법 및 배포 하는 방법에 대해 알아보려면 다음 세션을 시청 하세요: [팀 Windows 데스크톱 클라이언트](https://aka.ms/teams-clients).
 
 Microsoft 끝점 구성 관리자 또는 그룹 정책 또는 광범위 한 배포를 위해 타사 배포 메커니즘을 사용 하려면 관리자가 사용자를 선택 하기 위해 팀을 대량으로 배포 하는 데 사용할 수 있는 MSI 파일 (32 비트 및 64 비트)을 제공 했습니다. 컴퓨터용. 관리자는 이러한 파일을 사용 하 여 사용자가 팀 앱을 수동으로 다운로드할 필요가 없도록 팀을 원격으로 배포할 수 있습니다. 배포 되는 경우 해당 컴퓨터에 로그인 하는 모든 사용자에 대해 팀이 자동으로 실행 됩니다. (앱을 설치한 후 자동 시작을 사용 하지 않도록 설정할 수 있습니다. [아래를 참조](#disable-auto-launch-for-the-msi-installer)하세요.) 컴퓨터에 패키지를 배포 하는 것이 좋으며,이는 컴퓨터의 모든 새 사용자도이 배포를 활용할 수 있도록 하는 것이 좋습니다.
 
@@ -40,10 +40,13 @@ MSI 파일에 대 한 링크는 다음과 같습니다.
 |미국 정부-GCC 최고    | [32 비트](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 비트](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 |연방 정부-DoD     | [32 비트](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 비트](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 
+> [!NOTE]
+> 64 비트 버전의 팀을 64 비트 운영 체제에 설치 합니다. 32 비트 운영 체제에서 64 비트 버전의 팀을 설치 하려고 하면 설치에 실패 하 고 현재 오류 메시지가 표시 되지 않습니다.
+
 팀은 Office 365 ProPlus 배포에도 포함 될 수 있습니다. 자세한 내용은 [Office 365 ProPlus를 사용 하 여 Microsoft 팀 배포](https://docs.microsoft.com/deployoffice/teams-install)를 참조 하세요.
 
 > [!Note]
-> Microsoft 끝점 구성 관리자에 대 한 자세한 내용은 [Configuration manager 란?](https://docs.microsoft.com/configmgr/core/understand/introduction)을 참조 하세요.
+> Microsoft 끝점 구성 관리자에 대 한 자세한 내용은 [구성 관리자 란?](https://docs.microsoft.com/configmgr/core/understand/introduction) 을 참조 하세요.
 
 ## <a name="deployment-procedure-recommended"></a>배포 절차 (권장)
 
@@ -100,13 +103,13 @@ MSI의 기본 동작은 사용자가 로그인 하는 즉시 팀 앱을 설치�
 
 다음과 같이 **옵션 = "noAutoStart 시작 = true"** 매개 변수를 사용 하 여 MSI 설치 관리자에 대 한 자동 실행을 사용 하지 않도록 설정할 수 있습니다.  
 
-32 비트 버전
+32 비트 버전의 경우:
 
 ```console
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
-64 비트 버전
+64 비트 버전의 경우:
 
 ```console
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
