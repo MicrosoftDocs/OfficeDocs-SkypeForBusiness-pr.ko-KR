@@ -18,12 +18,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 정책 패키지를 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d7c0ded990225b969579f50ea5f87a32efebe388
-ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
+ms.openlocfilehash: a2c2ecf22529c4f16b992f349b29ccaf0ad48b0d
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42857988"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42942437"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft 팀에서 정책 패키지 관리
 
@@ -45,7 +45,8 @@ Microsoft 팀의 정책 패키지는 조직에서 유사한 역할을 갖는 사
 |교육 (주 학교 학생)   |기본 학생에 게 적용 되는 정책 및 정책 설정 집합을 만듭니다.|
 |교육 (보조 학교 학생)    |보조 학생에 게 적용 되는 정책 및 정책 설정 집합을 만듭니다.         |
 |교육 (교사)    |교사에 게 적용할 정책 및 정책 설정 집합을 만듭니다.      |
-|비즈니스 음성 |비즈니스 음성 환경에 대 한 앱을 포함 하는 앱 설치 정책을 만듭니다.|
+|중소 기업 사용자 (비즈니스 음성) |비즈니스 음성 환경에 대 한 앱을 포함 하는 앱 설치 정책을 만듭니다.|
+|중소 규모 비즈니스 사용자 (비즈니스 보이스 필요 없음) |이 정책 패키지는 비즈니스 음성 기능 없이 중소 규모의 비즈니스 사용자에 게 정책 집합을 만들고 해당 설정을 적용 하도록 설계 되었습니다.|
 |공개 안전 책임자   |조직의 공개 보안 책임자에 게 적용 되는 정책 및 정책 설정 집합을 만듭니다.|
 |의료 (임상 작업자)  |등록 된 nurses, 청구 nurses, 의사, 소셜 작업자에 게 채팅, 통화, 교대 관리, 모임에 대 한 전체 액세스 등의 임상 근로자를 제공 하는 정책 및 정책 설정 집합을 만듭니다. |
 |의료 (정보 근로자)  |IT 직원, informatics 스태프, 재무 담당자, 규정 준수 관리자, 채팅, 통화, 모임에 대 한 모든 액세스 권한을 제공 하는 정책 및 정책 설정 집합을 만듭니다.|
@@ -105,7 +106,7 @@ Microsoft 팀 관리 센터에서 정책 패키지를 보고 할당 하 고 사�
 2. 편집 하려는 정책을 클릭 합니다. 정책 패키지에 연결 된 정책에는 정책 패키지와 동일한 이름이 사용 됩니다.
 3. 원하는 변경 작업을 수행한 다음 **저장**을 클릭 합니다.
 
-## <a name="troubleshooting"></a>해결사
+## <a name="troubleshooting"></a>문제 해결
 
 **정책 패키지를 할당할 때 오류가 표시 되는 경우**
 
