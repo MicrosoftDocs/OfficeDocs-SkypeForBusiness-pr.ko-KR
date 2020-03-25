@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 조직에 태그를 사용 하는 방법을 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: cd2c2e69054923ccf287f35a15fcebb870d6a5d5
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 5fbfa980f1cf6acd8ce32af810bf2527ece3d1fa
+ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928451"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951553"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft 팀의 태그 관리
 
 Microsoft 팀의 태그를 통해 사용자가 팀의 일부 사용자와 통신할 수 있습니다. 한 명 또는 여러 팀 구성원에 게 태그를 추가 하 여 사용자의 올바른 하위 집합으로 쉽게 연결할 수 있습니다. 팀 소유자 및 구성원 (기능을 사용 하도록 설정 된 경우) 사용자에 게 하나 이상의 태그를 추가할 수 있습니다. 그런 다음 팀의 모든 사용자가 채널을 게시할 때 태그를 사용 하거나 해당 태그를 할당 한 사람만 대화를 시작 하는 것을 @mentions 수 있습니다.
 
 > [!NOTE]
-> 태그는 개인 채널에서 아직 지원 되지 않습니다.
+> 태그는 개인 채널에서 아직 지원 되지 않습니다. 미국 정부 커뮤니티 클라우드 (GCC), GCC High 또는 보안 부서 (DoD) 조직에서는 아직 태그를 사용할 수 없습니다. 
 
 ## <a name="how-tags-work"></a>태그가 작동 하는 방식
 

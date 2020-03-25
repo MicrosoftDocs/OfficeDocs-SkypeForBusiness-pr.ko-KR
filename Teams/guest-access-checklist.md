@@ -17,15 +17,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b60b0e5f0972d862ec1b945f1b267b04faae9a8a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: d5470d9ec2ec2d22d8f3b66bac09ba6c67b9982f
+ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833258"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951503"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams 게스트 액세스 검사 목록
-==========================================
+=========================================
 
 이 검사 목록을 사용하여 Microsoft Teams에서 게스트 액세스를 설정하고 구성할 수 있습니다. 이렇게 변경하려면 사용자가 전역 관리자 또는 Teams 관리자여야 합니다.
 
