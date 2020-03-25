@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: '요약: 비즈니스용 Skype 서버를 계획 하는 동안 Windows 클라이언트 지원 요구 사항을 검토 합니다.'
-ms.openlocfilehash: 0a556b2330427683c4d00577895f43f3cfede6d5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 39f9efcd2008dacb653538b56f2aff3fcb8b7887
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027959"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928241"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows 클라이언트 요구 사항 및 소프트웨어 지원
  
@@ -37,7 +37,7 @@ ms.locfileid: "42027959"
 
 |**시스템 구성 요소**|**지원 되는 버전**|
 |:-----|:-----|
-|Windows 운영 체제  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Windows 7 운영 체제  <br/> 최신 서비스 팩을 포함 한 Windows Server 2008 R2 이상  <br/> **참고:** 비즈니스용 skype 및 Skype 용 온라인 모임 추가 기능은 Windows Vista 또는 Windows XP (any 버전)에서 지원 되지 않습니다. <br/> |
+|Windows 운영 체제  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> 최신 서비스 팩을 포함 한 Windows Server 2008 R2 이상  <br/> **참고:** 비즈니스용 skype 및 Skype 용 온라인 모임 추가 기능은 Windows Vista 또는 Windows XP (any 버전)에서 지원 되지 않습니다. <br/> |
 |설치 및 업데이트  <br/> |관리자 권한 및 사용 권한  <br/> |
 |브라우저  <br/> |Microsoft Edge  <br/> Internet Explorer 11 인터넷 브라우저  <br/>  Internet Explorer 10 인터넷 브라우저 <br/> Internet Explorer 9 인터넷 브라우저  <br/> Internet Explorer 8 인터넷 브라우저  <br/> Internet Explorer 7 인터넷 브라우저  <br/> Mozilla Firefox 웹 브라우저  <br/>  Google Chrome 웹 브라우저  <br/>**참고:** Microsoft Exchange Online에서 비즈니스용 Skype를 사용 하는 경우 조직에서 인증 HTTP 프록시를 배포한 경우 Internet Explorer 8 이상이 필요 합니다.           |
 |Microsoft Office 통합  <br/> | Outlook 2010 이상 |
