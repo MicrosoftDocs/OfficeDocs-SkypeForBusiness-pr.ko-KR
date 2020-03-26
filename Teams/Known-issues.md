@@ -17,12 +17,12 @@ f1.keywords:
 description: Microsoft Teams 클라이언트 앱 및 관리자 환경에 대해 현재 알려진 문제 목록입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 212f7f2bab023127bcc110133d1b8e574ee0d5de
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 9023c7a7bfe5a629f3f2fdb9589ee3f9ef9efd68
+ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928291"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951513"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams의 알려진 문제
 
@@ -64,10 +64,6 @@ ms.locfileid: "42928291"
 |:-----|:-----|:-----|:-----|
 |UsersPermissionToReadOtherUsersEnabled가 false로 설정된 경우 팀에 구성원을 추가할 수 없음  <br/> |이 값이 AAD에서 false로 설정되면 고객은 Microsoft Teams에서 외부/내부 구성원을 추가할 수 없으며 다음 오류 메시지가 표시됩니다. "구성원을 추가할 수 없습니다. 문제가 발생했습니다. 나중에 다시 시도하세요." 그러나 Office 365 그룹에 구성원을 직접 추가할 수 있습니다.    <br/> |AAD에서 이 설정을 true로 설정합니다.  <br/> |2018년 4월 10일  <br/> |
 
-|**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
-|:-----|:-----|:-----|:-----|
-|테넌트 전체 커넥터의 관리자 관리를 더 이상 사용할 수 없음  <br/> |클라이언트와 온라인 버전 모두에서 커넥터를 추가하려고할 때 다음과 같은 오류가 발생합니다. 다시 시도하십시오. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Teams 설정에서 사용하지 않도록 설정합니다. 다음 지원 문서를 참조하세요. https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017년 6월 21일  <br/> |
-
 ## <a name="apps"></a>앱
 
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
@@ -77,14 +73,6 @@ ms.locfileid: "42928291"
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|
 |데스크톱 앱에서 "웹 사이트" 또는 “Azure DevOps” 탭을 사용할 때 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)가 작동하지 않을 수 있습니다.<br/> |인트라넷 포털과 같은 웹 사이트에 조건부 액세스 정책(예: 브라우저, IP 주소 제한 또는 장치 규정 준수)이 있는 경우 해당 웹 사이트는 데스크톱 앱의 Teams 내부에서 탭으로 렌더링되지 않을 수 있습니다. <br/> |데스크톱 앱을 사용하는 대신 브라우저에서 Teams를 사용합니다.  <br/> |2018년 7월 1일  <br/> |
-
-|**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
-|:-----|:-----|:-----|:-----|
-|일부 팀에 커넥터 옵션이 없음  <br/> |채널을 마우스 오른쪽 단추로 클릭할 때 팀 구성원에게 커넥터 옵션이 존재하지 않습니다.  <br/> |팀 작성자에게는 온라인 사서함이 있어야 하며, 그렇지 않으면 커넥터 옵션을 사용할 수 없습니다. 이는 정상적인 동작입니다.  <br/> |2017년 6월 26일  <br/> |
-
-|**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
-|:-----|:-----|:-----|:-----|
-|"Assignments" 앱을 사용하지 않도록 설정해도 계속 표시됨  <br/> |관리 센터에서 "Assignments" 앱을 사용하지 않도록 설정한 경우 EDU 라이선스가 있는 사용자가 Teams 클라이언트에 계속 표시됩니다. 이 기능을 사용하지 않도록 설정하면 다음과 같은 오류가 반환됩니다. “어머나! 문제가 발생했습니다...”  <br/> |해결 방법이 없습니다.  <br/> |2017년 12월 29일  <br/> |
 
 ## <a name="audio-conferencing"></a>오디오 회의
 
