@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft Teams에서 라이브 이벤트를 설정하기 전에 고려해야 하는 요소에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
-ms.translationtype: HT
+ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558568"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978420"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -64,13 +64,13 @@ ms.locfileid: "42558568"
 |**참석자 공개 여부**       |**Teams 프로덕션**  |**외부 앱 또는 장치 프로덕션**  |
 |------------------------------|-----------------|----------------------|
 |공개(익명 사용자)      |  예            |  아니요                  |
-|게스트 사용자                   |  아니요<sup>1</sup> |  아니요                  |
-|페더레이션된 회사의 모든 사용자 |  아니요<sup>2</sup> |  아니요                  |
+|게스트 사용자                   |  예            |  아니요                  |
+|페더레이션된 회사의 모든 사용자 |  예<sup>1</sup>|  아니요                  |
 |회사의 모든 사용자           |  예            |  예                 |
 |특정 그룹/사용자      |  예            |  예                 |
 
-<sup>1</sup> **조직 전체** 옵션을 사용하여 라이브 이벤트를 설정하는 경우 라이브 이벤트를 볼 수 있습니다.<br>
-<sup>2</sup> 익명 사용자로만 라이브 이벤트를 볼 수 있습니다.
+<sup>1 개의</sup> 페더레이션 참석자는 사용자 & 그룹을 통해서만 초대할 수 있습니다. <br>
+
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 라이브 이벤트 및 Skype 모임 브로드캐스트
@@ -81,7 +81,7 @@ ms.locfileid: "42558568"
 |---------|---------|---------|---------|
 |대상 그룹 최대 크기 |10,000명의 참석자 |10,000명의 참석자<sup>1</sup> |10,000명의 참석자<sup>1</sup> |
 |라이브 이벤트 최대 시간 |4시간 |4시간 |4시간 |
-|Office 365 테넌트당 최대 동시 라이브 이벤트 수 |15  | 15  | 15  |
+|Office 365 테넌트당 최대 동시 라이브 이벤트 수 |~  | 15  | 15  |
 |라이브 이벤트 만들기 |   Skype 모임 브로드캐스트 포털 |Teams, Teams를 통한 Yammer | Teams, Teams를 통한 Yammer, Stream |
 |대상 그룹 참여 – Yammer |&#x2714; |&#x2714; (통합 환경) |&#x2714; (통합 환경) |
 |대상 그룹 참여 – 중재된 Q&A |&#x2714;  |&#x2714; |&#x2714; |

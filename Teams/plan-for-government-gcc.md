@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b97e82edd97079c1e4615e5bb7fcf4a1eb2fea
-ms.sourcegitcommit: b6eb22e96be5fb18984f1dd05e4eb8f2cfc032f6
+ms.openlocfilehash: 97f7987d450b5a7b1fc23c39ed1e96ee0f953ae9
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/26/2020
-ms.locfileid: "42968663"
+ms.locfileid: "42978510"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 정부의 GCC 배포 계획
 
-이 지침은 Microsoft를 사용 하는 미국 연방, 주, tribal 또는 territorial 정부 기관 또는 정부 규정에 따른 데이터를 처리 하는 기타 엔터티에서 제공 하는 IT 365 전문가를 위한 것입니다. 365 정부-GCC는 이러한 요구 사항을 충족 하는 데 적합 합니다.
+이 지침은 Microsoft를 사용 하는 미국 연방, 주, tribal 또는 territorial 정부 기관 또는 정부 규정에 따른 데이터를 처리 하는 기타 엔터티에서 제공 하는 IT 365 전문가를 위한 것입니다. 365 정부-GCC는 이러한 요구 사항을 충족 하는 데 적합 합니다. 신규 3 월 26 일: 다운로드 가능한 [GCC 용 빠른 시작 가이드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)2020를 놓치지 마세요.
 
 > [!IMPORTANT]
 > Microsoft 팀은 coronavirus (COVID-19) pandemic으로 인해 온라인 통화 및 오디오/비디오 회의에서 스파이크가 발생 합니다.<br/>
@@ -35,7 +35,7 @@ ms.locfileid: "42968663"
 > 
 >이러한 오디오/비디오 서버는 미국 내 Microsoft Azure FedRAMP High 인정 경계 서버 내에 있으며 고객 콘텐츠를 저장 하지 않습니다. 그러나 이러한 서버는 통화와 회의에 대 한 오디오 및 비디오를 처리 하 고 있으며,이 중간 기간 동안 상업적 담당자에 게 서 작동 하 고 있습니다.<br/>
 > 
->선별 된 직원은 이러한 서버에 대 한 모든 대화형 로그 기능을 검토 하 여 고객 데이터에 대 한 잠재적인 액세스를 위해 이러한 서버를 모니터링 하 고 있습니다. 고객의 콘텐츠에 대 한 액세스를 위한 GCC 요구 사항을 충족 하는 자격을 갖춘 사람. 차단 요구 사항에 대 한 자세한 내용은 [GCC 서비스 설명을](Office365-ServiceDescriptions\office-365-platform-service-description\office-365-us-government\gcc.md)참조 하세요.<br/>
+>선별 된 직원은 이러한 서버에 대 한 모든 대화형 로그 기능을 검토 하 여 고객 데이터에 대 한 잠재적인 액세스를 위해 이러한 서버를 모니터링 하 고 있습니다. 고객의 콘텐츠에 대 한 액세스를 위한 GCC 요구 사항을 충족 하는 자격을 갖춘 사람. 차단 요구 사항에 대 한 자세한 내용은 [GCC 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc)참조 하세요.<br/>
 > 
 >이 특별 시간에 서비스가 사용 가능 하 고 안정적으로 유지 되도록 조치를 취할 때의 지원을 요청 해 주셔서 감사 합니다.<br/>
 

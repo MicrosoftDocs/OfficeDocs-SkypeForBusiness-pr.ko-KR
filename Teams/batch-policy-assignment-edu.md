@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 일괄 처리 정책 할당을 사용 하 여 원격 학교 (teleschool, tele) 용도의 교육 기관에 대규모 사용자 집합에 정책을 할당 하는 방법에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: 5e3ee25bf4fadea595fc224b2944a12c279f9c59
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 7e297b6a4b99162fb50564d4f552a06f0dc41a10
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892278"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978520"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>학교에서 대규모 사용자 집합에 정책 할당
 
@@ -161,7 +161,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 ## <a name="faq"></a>FAQ
 
-**학생, 교직원 및 교육자 인 모든 사용자가 라이선스를 자동으로 할당 해야 합니다. 어떻게 하면 되나요?**
+**학생, 교직원 및 교육자 인 모든 사용자가 정책을 할당 하도록 자동으로 설정 하려는 경우 어떻게 하면 되나요?**
 
 팀 제품 팀은 보안 그룹에 정책 지정을 지원 하기 위해 작업을 수행 하 고 있습니다. 이때 학생 및 교사를 위한 그룹을 만든 다음 해당 그룹에 대 한 적절 한 정책을 만들 수 있습니다. 이 자습서를 사용 하 여 할당 한 정책 등의 명시적인 사용자 할당이 그룹에서 상속 된 정책 보다 우선 한다는 점에 유의 하세요. 이 기능이 지원 되는 경우 그룹에 정책 할당을 사용 하 고 상속 된 그룹 정책을 얻을 수 있도록 사용자를 업데이트 하는 방법에 대 한 자세한 지침을 제공 합니다.
 

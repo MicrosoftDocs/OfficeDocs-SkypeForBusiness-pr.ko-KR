@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 사용자에 게 정책을 할당 하는 다양 한 방법에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: 0f0ce566eb395e3bf3722149797908599091bc2a
-ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
+ms.openlocfilehash: a3946ab7296603822655ac115ae5826f3f670cea
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42691198"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978530"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft 팀에서 사용자에 게 정책 할당
 
 > [!NOTE]
-> **이 문서에서 설명 하는 Microsoft 팀 기능 중 하나는 현재 [그룹에 대 한 정책이](#assign-a-policy-to-a-group)며 미리 보기 상태입니다.**
+> **이 문서에서 설명 하는 Microsoft 팀의 기능 중 하나는 현재 제한 된 미리 보기 에서만 사용할 수 있는 [그룹에 정책 할당](#assign-a-policy-to-a-group)입니다. 이 기능에 대 한 Powershell cmdlet은 시험판 팀 PowerShell 모듈에 있습니다.**
 
 관리자는 정책을 사용 하 여 조직의 사용자가 사용할 수 있는 팀 기능을 제어 합니다. 예를 들어, 전화 정책, 모임 정책, 메시지 정책이 몇 가지 이름으로 사용할 수 있습니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "42691198"
 
 다음은 사용자에 게 정책을 할당할 수 있는 방법과 각각에 대해 권장 되는 시나리오에 대 한 개요입니다. 링크를 클릭 하 여 자세한 내용을 알아보세요.
 
-|실행할 작업  |If ...  | 사용 하 고 있습니다 ...
+|방법  |If ...  | 사용 하 고 있습니다 ...
 |---------|---------|----|
 |[개인 사용자에 게 정책 할당](#assign-a-policy-to-individual-users)    | 팀을 처음 사용할 때 시작 하는 것이 든, 소수의 사용자에 게 하나 또는 두 가지 정책만 할당 하면 됩니다. |비즈니스용 Skype Online PowerShell 모듈의 Microsoft 팀 관리 센터 또는 PowerShell cmdlet
 | [정책 패키지 할당](#assign-a-policy-package)   | 조직에서 역할이 같거나 비슷한 특정 사용자 집합에 여러 정책을 할당 해야 합니다. 예를 들어 학교에서 교사에 게 교육 (교사) 정책 패키지를 할당 하 여 보조 학생에 게 채팅, 통화, 모임, 교육 (보조 학교 학생) 정책 패키지에 대 한 모든 액세스 권한을 부여 하 여 다음과 같은 특정 기능을 제한할 수 있습니다. 비공개 통화.  |팀 PowerShell 모듈의 Microsoft 팀 관리 센터 또는 PowerShell cmdlet|
@@ -77,8 +77,8 @@ ms.locfileid: "42691198"
 
 사용자에 게 정책을 할당 하려면 다음을 수행 합니다.
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 다음 사용자를 클릭 합니다.
-2. 사용자 이름 왼쪽의을 클릭 하 여 사용자를 선택 하 고 **설정 편집**을 클릭 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.
+2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집**을 클릭합니다.
 3. 할당 하려는 정책을 선택한 다음 **적용**을 클릭 합니다.
 
 한 번에 최대 20 명의 사용자에 게 정책을 할당 하려면 [팀 사용자 설정을 일괄적으로 편집](edit-user-settings-in-bulk.md)을 참조 하세요.
@@ -87,8 +87,8 @@ ms.locfileid: "42691198"
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 정책 페이지로 이동 합니다.
 2. 정책 이름 왼쪽을 클릭 하 여 할당 하려는 정책을 선택 합니다.
-3. **사용자 관리**를 선택 합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름을 사용 하 여 사용자를 검색 하 고 이름을 선택한 다음 **추가**를 선택 합니다. 추가 하려는 각 사용자에 대해이 단계를 반복 합니다.
+3. **사용자 관리**를 선택합니다.
+4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름을 사용 하 여 사용자를 검색 하 고 이름을 선택한 다음 **추가**를 선택 합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 5. 사용자 추가를 마쳤으면 **저장**을 선택 합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
@@ -197,7 +197,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ## <a name="assign-a-policy-to-a-group"></a>그룹에 정책 할당
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+**그룹에 대 한 정책 할당은 현재 제한적인 미리 보기 에서만 사용할 수 있습니다. 이 기능에 대 한 cmdlet은 시험판 팀 PowerShell 모듈에 있습니다.**
 
 그룹에 정책 할당을 통해 보안 그룹 또는 조직 구성 단위와 같은 사용자 그룹에 정책을 할당할 수 있습니다. 정책 할당은 선행 규칙에 따라 그룹의 구성원에 게 전파 됩니다. 그룹에서 구성원이 추가 되거나 제거 되 면 그에 따라 상속 된 정책 할당이 업데이트 됩니다.
 
@@ -304,7 +304,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 |그룹 이름  |정책 이름  |순위|
 |---------|---------|---------|
-|판매    |판매 정책       | 1        |
+|영업    |판매 정책       | 1        |
 |서쪽 지역     |서쪽 지역 정책         |2         |
 |나눠    |디비전 정책         |3         |
 |대리점   |자회사 정책        |4(tcp/ipv4)         |
@@ -313,7 +313,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 |그룹 이름  |정책 이름  |순위|
 |---------|---------|---------|
-|판매    |판매 정책       | 1        |
+|영업    |판매 정책       | 1        |
 |나눠    |디비전 정책         |2         |
 |대리점   |자회사 정책        |3        |
 
