@@ -17,14 +17,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e07ec04ba567963662d7f83bdba3fe9f788abd9e
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 62db123cbc7a038ee001367209df2efbad202d96
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862838"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928461"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams 시작하기
+
+> [!IMPORTANT]
+> **원격 작업**을 지원해야 하는 수요가 증가한 데 답하여 Microsoft Teams를 빠르게 배포할 경우 이 시작하기 지침을 사용하여 전체 조직에 Teams를 배포합니다. Teams가 Office 365 첫 번째 워크로드인 경우에도 마찬가지로 이 지침이 적용됩니다.
 
 Teams를 신속하게 시작하려면 얼리어답터의 선택 그룹에 대해 두세 개의 팀 및 채널을 만드는 것이 좋습니다. 먼저 소규모로 Teams를 배포함으로써 Teams를 사용하여 Teams를 배우고 조직 전체에 걸쳐 Teams를 배포하는 방법을 알리는 유용한 정보를 얻을 수 있습니다. 소규모 기업의 경우 조직 전체에 Teams를 배포하기 위한 모든 정보는 빠른 시작 가이드를 참조하세요.
 
@@ -40,22 +43,32 @@ Teams를 사용하여 조직 내부 및 외부 사용자와 함께 팀을 빠르
 - 3단계: [사용 현황 및 피드백 모니터링](get-started-with-teams-monitor-usage-and-feedback.md)
 - 4단계: [리소스를 다운로드하여 조직 전체 배포 계획](get-started-with-teams-resources-for-org-wide-rollout.md)
 
-대규모 조직의 경우 하이브리드 또는 온-프레미스 비즈니스용 Skype 구성을 보유하고 있거나 규정 또는 준수 요구 사항이 엄격하거나 모임이나 음성 기능 (예: 통화 요금제 또는 전화 시스템)을 배포하려는 경우에는 먼저 [Teams를 배포하는 방법](how-to-roll-out-teams.md)에 대해 읽어보세요. 해당 **시작** 섹션을 사용하여 기술을 구축하고 조직 전체 배포 계획을 시작하는 것이 좋습니다. "Teams를 사용하여 Teams 계획." 채팅, 팀, 채널 및 앱과 함께 Teams를 배포하여 소규모로 시작하고 구축하세요. 이러한 초기 환경을 통해 Teams에 대한 소식을 전하고 조직 전체에서 다음 출시 단계를 위해 흥미로운 내용을 생성할 수 있습니다. 
+대규모 조직의 경우 하이브리드 또는 온-프레미스 비즈니스용 Skype 구성을 보유하고 있거나 규정 또는 준수 요구 사항이 엄격하거나 모임이나 음성 기능 (예: 통화 요금제 또는 전화 시스템)을 배포하려는 경우에는 먼저 [Teams를 배포하는 방법](how-to-roll-out-teams.md)에 대해 읽어보세요. 해당 **시작** 섹션을 사용하여 기술을 구축하고 조직 전체 배포 계획을 시작하는 것이 좋습니다. "Teams를 사용하여 Teams 계획." 채팅, 팀, 채널 및 앱에서 Teams를 배포하여 소규모로 시작하고 거기에서 구축하세요. 이러한 초기 환경을 통해 Teams에 대한 소식을 전하고 조직 전체에서 다음 출시 단계를 위해 흥미로운 내용을 생성할 수 있습니다. 
 
-소규모 기업의 경우 빠른 시작 가이드를 사용하여 조직에 Teams를 전체적으로 배포할 수 있습니다. 소규모 기업은 단계적인 Teams 배포를 수행하지 않아도 됩니다. 조직 내에서 보다 간편하고 효율적으로 배포하기 위해 소규모 기업 전용으로 제공되는 서식 파일을 확인하세요. [중소기업을 위한 Teams 서식 파일을 사용하여 시작](https://docs.microsoft.com/microsoftteams/smb-templates)을 참조하세요.
+중소기업이거나, **최근에 재택 인력을 지원하고자 Teams를 빠르게 배포**하는 경우에 이 시작 지침을 사용하여 조직 전체에 Teams를 배포하세요. 조직 내에서 보다 간편하고 효율적으로 배포하기 위해 소규모 기업 전용으로 제공되는 서식 파일을 확인하세요. [중소기업을 위한 Teams 서식 파일을 사용하여 시작](https://docs.microsoft.com/microsoftteams/smb-templates)을 참조하세요.
 
 ## <a name="before-you-get-started"></a>시작하기 전
 
-시작 하기 전에 다음의 사항을 검토하여 Teams 배포를 계획하는 것이 좋습니다.
+Teams를 맨 먼저 배포하든("Teams 우선"), 먼저 Office 365 배포한 다음에 Teams를 배포하든 Teams 배포를 준비하기 위해 해야 할 일이 나와 있습니다.
 
 - [Teams에 대한 조직의 네트워크 준비](prepare-network.md)
+    - 여기에는 Office 365 도메인, SharePoint Online, Exchange Online, 비즈니스용 OneDrive를 구성 작업이 포함됩니다.
+
+- 모든 사용자를 위한 Teams 라이선스를 확보합니다. [Teams 플랜](https://products.office.com/microsoft-teams/free) 및 [Teams용 Office 365 라이선싱](office-365-licensing.md)을 확인하세요. 
+
 - [데스크톱, 웹 및 모바일 클라이언트를 설치하는 이점에 대한 자세한 정보](get-clients.md)
 
-모든 사용자에 대한 Teams 라이선스를 확보해야 합니다. [Teams 계획 비교](https://products.office.com/microsoft-teams/free) 및 [Teams용 Office 365 라이선싱](office-365-licensing.md)을 확인하세요. 
-
+- 온-프레미스 비즈니스용 Skype 또는 Lync Server에서 시작
+   - [비즈니스용 Skype 온-프레미스를 Teams로 업그레이드](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md) 
+   
+   - [비즈니스용 Skype 서버와 Office 365 간의 하이브리드 연결 플랜](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
+   
+   > [!NOTE]
+> 조직에서 온-프레미스 비즈니스용 Skype 서버(또는 Lync Server)를 실행하는 경우 [Azure Active Directory Connect를 구성](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)하여 온-프레미스 디렉터리를 Office 365와 동기화해야 합니다. 
 
 
 ## <a name="next-steps"></a>다음 단계
-[첫 번째 팀 및 채널 만들기](get-started-with-teams-create-your-first-teams-and-channels.md)로 이동하세요.
+
+[첫 번째 팀과 채널 만들기](get-started-with-teams-create-your-first-teams-and-channels.md)
 
 대화형 [Teams 채택 가이드](https://aka.ms/teamstoolkit)를 사용하여 자세히 알아보세요.

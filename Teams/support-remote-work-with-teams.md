@@ -16,12 +16,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85fc97c801495c05a4b5a8f68fe508ef7a7b08af
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 844aef84633c767131b60158e634b0f6f3fe1cd2
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892338"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928411"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -78,6 +78,8 @@ ms.locfileid: "42892338"
 
    - 제한된 대역폭은 Teams 모임의 오디오 품질에 영향을 미칠 수 있습니다. 저대역폭 조건 하에서 최고의 모임을 경험하기 위해, 사용자에게 비디오를 제한하고 통화 및 모임 오디오에 PSTN을 사용하도록 장려합니다. 
 
+   - 최신 블로그(2020 3월 6일) 기사, [원격 직원에 맞게 Office 365 트래픽을 빠르게 최적화하고 인프라에 대한 부하를 줄이는 방법](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)을 읽어 보세요.
+   
    - 중국에 있는 경우 [중국 사용자를 위한 Office 365 전역 테넌트 성능 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)를 참조하세요.
 
    - 통화 또는 모임 품질 문제를 해결하는 데 도움이 필요한 경우에는 이 문서의 맨 아래에 있는 [알려진 문제 - 중국: 비즈니스용 Skype/Teams 회의에 전화 걸기](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)에 관한 지침을 따르세요.
