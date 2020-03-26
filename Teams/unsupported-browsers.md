@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 팀이 지원 되지 않는 브라우저에서 오디오 및 비디오를 지 원하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f2fc7ee97a5172a849c14d9ede6d93ffc08d302
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1dfd2ba704aa2428555dd126c506e1673a120b72
+ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837258"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955717"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>지원 되지 않는 브라우저에서 Microsoft 팀 모임
 
@@ -43,7 +43,8 @@ PSTN을 사용할 수 없는 경우에는 사용자에 게 모임에 액세스 �
 - 통화가 중단 되 면 모임이 자동으로 다시 연결 되지 않습니다.
 - 사용자가 모임을 시작할 수 없습니다.
 
+팀의 브라우저 지원에 대 한 자세한 내용은 [팀에 대 한 제한 및 규정](/microsoftteams/limits-specifications-teams#browsers)을 참조 하세요.
+
 ## <a name="related-topics"></a>관련 항목
 
 - [지원 되지 않는 브라우저에서 팀 모임 참가](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
-- [Teams의 제한과 사양](/microsoftteams/limits-specifications-teams#browsers)

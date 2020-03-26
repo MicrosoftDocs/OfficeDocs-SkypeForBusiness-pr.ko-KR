@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결 하는 방법을 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: 5efed6ed21e6eb4bfa4e2ae89e625595b0307ada
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: be0d901095afa322935944a9b4898e540946bf8a
+ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928441"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955727"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -175,7 +175,8 @@ CSR (인증 서명 요청)을 생성 하 여 SBC에 대 한 인증서를 요청 
 - 아빠 이동
 - GeoTrust
 - Verisign, Inc. 
-- Starfield 
+- SSL.com
+- Starfield
 - Microsoft 용 Symantec 엔터프라이즈 모바일 루트 
 - SwissSign
 - CA의 타임 스탬프
