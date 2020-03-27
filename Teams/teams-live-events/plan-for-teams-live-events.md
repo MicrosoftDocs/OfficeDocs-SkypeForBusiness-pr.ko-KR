@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft Teams에서 라이브 이벤트를 설정하기 전에 고려해야 하는 요소에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
+ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978420"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "42983864"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -81,7 +81,8 @@ ms.locfileid: "42978420"
 |---------|---------|---------|---------|
 |대상 그룹 최대 크기 |10,000명의 참석자 |10,000명의 참석자<sup>1</sup> |10,000명의 참석자<sup>1</sup> |
 |라이브 이벤트 최대 시간 |4시간 |4시간 |4시간 |
-|Office 365 테넌트당 최대 동시 라이브 이벤트 수 |~  | 15  | 15  |
+|라이브 이벤트의 발표자 및 제작자 최대 수 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
+|Office 365 테넌트당 최대 동시 라이브 이벤트 수 |~  | ~  | ~  |
 |라이브 이벤트 만들기 |   Skype 모임 브로드캐스트 포털 |Teams, Teams를 통한 Yammer | Teams, Teams를 통한 Yammer, Stream |
 |대상 그룹 참여 – Yammer |&#x2714; |&#x2714; (통합 환경) |&#x2714; (통합 환경) |
 |대상 그룹 참여 – 중재된 Q&A |&#x2714;  |&#x2714; |&#x2714; |
@@ -104,7 +105,9 @@ ms.locfileid: "42978420"
 |프로듀서용 브로드캐스트 후 참석 보고서 |&#x2714; |&#x2714; |X |
 |대상 그룹 감정 분석 – 실시간 투표 및 설문 조사 |&#x2714; (Microsoft Pulse) |X |X |
 
-<sup>1</sup> 설정된 제한이 변경되었을 수 있습니다.
+<sup>1</sup> 설정된 제한이 변경되었을 수 있습니다.<br/>
+<sup>2</sup> 라이브 이벤트에서 최대 250 명의 발표자와 제작자를 가질 수 있지만, 사용자는 스포크를 사용 하 여 목록에 표시 되는 최근 10 개 밖에 없습니다.
+
 
 ## <a name="regional-availability"></a>국가별 가용성
 전 세계 여러 지역에서 Teams 라이브 이벤트를 사용할 수 있습니다. 다음 정보는 이벤트 팀 구성원과 참석자의 가용성을 보여 줍니다. 
