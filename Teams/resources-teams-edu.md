@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cb9e4c4b46e732b2cc96b58b67522a8a9da678c
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: fd01a781cfb5a928e4d14e64d45789b4f023648d
+ms.sourcegitcommit: 3ddb28e085a89501e4e64687de4697f82f47f119
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983821"
+ms.locfileid: "43027678"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>교육용 Microsoft Teams 리소스 관리
 ==============================================
@@ -36,9 +36,9 @@ ms.locfileid: "42983821"
 
 | |  |
 |---------|---------|
-|[팁 및 요령 소책자](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![스크린샷에](media/edu-adoption-get-started.png)    |
 |포스터- [사용자 지정](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) 및 [인쇄-준비](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![포스터 스크린샷](media/edu-adoption-posters.png)     |[유인물](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![유인물의 스크린샷](media/edu-adoption-handouts.png)|
 |[만들거나](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![전단지 스크린샷](media/edu-adoption-flyers.png)   |[책 광고가](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![책 광고 스크린샷](media/edu-adoption-book-adverts.png)         |
+|[팁 및 요령 소책자](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![스크린샷에](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>디지털 자산
 
