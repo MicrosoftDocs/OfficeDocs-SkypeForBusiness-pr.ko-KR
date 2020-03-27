@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방을 지원 하기 위한 요구 사항을 요약 하 여 설명 합니다.
-ms.openlocfilehash: e19537005717a803740f268f2d8f766ed2d87303
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
+ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728937"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982121"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 팀 방에 대 한 요구 사항
 
@@ -48,7 +48,7 @@ Microsoft 팀 객실은 공간의 크기와 사용에 따라 다양 한 인증 �
 
 현재 Microsoft 팀의 모든 회의실 장치 및 번들은 [실내 시스템 제품 전시](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)에서 사용할 수 있습니다.
 
-  |콘솔|프로세서별|할당할|공간|
+  |콘솔|프로세서|할당할|공간|
   |:-----|:-----|:-----|:-----|
   |[Flex UC에서 crestron M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8gb |128 GB |
   |[Flex UC에서 crestron B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8gb |128 GB |
@@ -63,6 +63,7 @@ Microsoft 팀 객실은 공간의 크기와 사용에 따라 다양 한 인증 �
   |[옛 alink MVC800](https://www.yealink.com/products_125.html)|Core i5|8gb|128 GB|
   |[옛 alink MVC500](https://www.yealink.com/products_126.html)|Core i5|8gb |128 GB |
   |[옛 alink MVC300](https://www.yealink.com/products_154.html)|Core i5|8gb |128 GB |
+  |[옛 alink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8gb|128 GB|
   ||||||
 
 > [!NOTE]
@@ -71,7 +72,7 @@ Microsoft 팀 객실은 공간의 크기와 사용에 따라 다양 한 인증 �
 
 **도킹 스타일 시스템에 지원 되는 Surface Pro 태블릿**
 
-  |타블렛|프로세서별|할당할|공간|
+  |타블렛|프로세서|할당할|공간|
   |:-----|:-----|:-----|:-----|
   |Surface Pro 6| Core i5 |16gb 또는 8gb |128 GB 이상 |
   |Surface Pro </br>(다섯째 Gen) |Core i5 |8gb 또는 4gb |128 GB 이상 |

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: '통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 참조 하세요. '
-ms.openlocfilehash: 9e9c70c88aec9fcdf898d94a17f46f76bd2c608a
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 7fafbebaa21a6bbd71ab0e253f226908d6787869
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559887"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42983331"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
@@ -94,7 +94,7 @@ CQD 버전 1에서 비즈니스용 Skype Server 2015 관리자에 게 제공 되
 
 ## <a name="cqd-near-real-time-nrt-data"></a>CQD 근거리 실시간 (NRT) 데이터
 
-Advanced CQD (V3, 11 월 릴리스 2019)는 거의 실시간 데이터 피드를 사용 합니다. 통화 기록은 통화 종료 후 30 분 이내에 CQD 포털에서 사용할 수 있습니다. NRT 파이프라인의 통화 레코드는 일부 달에만 사용할 수 있으며 데이터 집합에서 제거 됩니다. CQD v3은 v3 파이프라인의 NRT 데이터를 사용 하 여 현재 v2 파이프라인의 데이터를 병합 합니다. 보관 기간의 데이터에 대 한 v2 및 v3 포털의 쿼리는 동일한 결과를 생성 합니다. NRT 데이터 및 NRT 데이터 + PII 기간에 대 한 V2 및 v3 데이터 쿼리는 서로 다릅니다.
+Advanced CQD (V3, 11 월 릴리스 2019)는 거의 실시간 데이터 피드를 사용 합니다. 통화 레코드는 평균 30 분 내에 CQD 포털에서 사용할 수 있습니다 (평균 24 시간에 해당 하는 이전 CQD에 비해). NRT 파이프라인의 통화 레코드는 일부 달에만 사용할 수 있으며 데이터 집합에서 제거 됩니다. CQD v3은 v3 파이프라인의 NRT 데이터를 사용 하 여 현재 v2 파이프라인의 데이터를 병합 합니다. 보관 기간의 데이터에 대 한 v2 및 v3 포털의 쿼리는 동일한 결과를 생성 합니다. NRT 데이터 및 NRT 데이터 + PII 기간에 대 한 V2 및 v3 데이터 쿼리는 서로 다릅니다.
 
 ### <a name="piieuii-data"></a>PII/EUII 데이터
 
@@ -289,7 +289,7 @@ CQD의 모든 버전은 전체 통화 품질 정보에 대 한 상위 수준의 
 
 #### <a name="inside-test"></a>내부 테스트
 
-처리 하는 동안 CQD 백 엔드는 스트림을 빌드 정보 (있는 경우)를 사용 하 여 *내부* 또는 *외부로* 분류 합니다. 각 스트림의 끝점은 서브넷 주소와 연결 됩니다. 서브넷이 업로드 된 빌드 정보에서 InsideCorp로 표시 된 서브넷 목록에 있는 경우 *내부*로 간주 됩니다. @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ **@ @ @ @ @ @ @ @ @ @ @ Test  
+처리 하는 동안 CQD 백 엔드는 스트림을 빌드 정보 (있는 경우)를 사용 하 여 *내부* 또는 *외부로* 분류 합니다. 각 스트림의 끝점은 서브넷 주소와 연결 됩니다. 서브넷이 업로드 된 빌드 정보에서 InsideCorp로 표시 된 서브넷 목록에 있는 경우 *내부*로 간주 됩니다. @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ *Outside*@ @ @ @ @ @ @ @ @ @ @ Test  
 
 > [!NOTE]
 > 서버 클라이언트 시나리오의 내부 테스트에서는 클라이언트 끝점만 간주 합니다. 서버는 항상 사용자의 관점에서 벗어나므로이는 테스트에서 고려 되지 않습니다.

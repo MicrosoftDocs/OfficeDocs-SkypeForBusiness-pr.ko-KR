@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 이 항목에는 통화 플랜이 있는 사용자가 아웃바운드 통화를 할 수 있는 모든 국가/지역이 포함됩니다.
-ms.openlocfilehash: d882078c32b5820dc060778dca4c3f30b4b2a044
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+ms.openlocfilehash: 09e6fae92c7708e13c8b1eb595d76bf313dbba0c
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682515"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982131"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>사용자는 이러한 국가와 지역에 아웃바운드 통화를 할 수 있습니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "41682515"
 |아제르바이잔 |그루지야 |대한민국 |모나코 | 러시아 |미국(US)  |
 |바하마 |독일 |쿠웨이트 |몽골 |르완다 | 우루과이 |
 |바레인 |가나 |키르기스스탄 |몬테네그로 | 세인트 크리스토퍼 네비스 |우즈베키스탄  |
-|방글라데시 |지브롤터 |라오스 |몬트세라트 | 세인트 루시아 |바티칸 시국  |
+|방글라데시 |지 |라오스 |몬트세라트 | 세인트 루시아 |바티칸 시국  |
 |바베이도스 |그리스 |라트비아 |모로코 |세인트빈센트그레나딘 |베네수엘라   |
 |벨로루시 |그린란드 |레바논 |모잠비크 | 산마리노 |베트남  |
 |벨기에 |그레나다 |레소토 |미얀마 | 사우디아라비아 | 버진 아일랜드(영국령) |
