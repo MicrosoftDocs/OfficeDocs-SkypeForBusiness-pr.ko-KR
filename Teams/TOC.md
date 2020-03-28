@@ -640,6 +640,7 @@
 ### [소매 Teams 서식 파일 시작](get-started-with-retail-teams-templates.md)
 
 ## [정부 기관용 Teams](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [지원 원격 작업자 (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
 ### [Office 365 G1 평가판 서비스 관리](g1-trial-license.md)
 ### [Microsoft 365 정부 - GCC 계획](plan-for-government-gcc.md)
 ### [ Microsoft 365 정부 - GCC High 계획](plan-for-government-gcc-high.md)
