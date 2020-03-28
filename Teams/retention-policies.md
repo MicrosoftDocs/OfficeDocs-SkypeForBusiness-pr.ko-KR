@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86cbb37b46bca606e7225ce0267a49c709fc9619
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
-ms.translationtype: HT
+ms.openlocfilehash: a9097dfc43ca0f70d37b0051e6b0e10283da26c3
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160752"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033392"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams의 보존 정책
 
@@ -32,7 +32,7 @@ ms.locfileid: "42160752"
 [Office 365 보안 및 준수 센터](https://protection.office.com/)에서 또는 보안 및 준수 센터 PowerShell cmdlet을 사용하여 Teams 및 기타 작업에 대한 보존 정책을 만들고 관리합니다. Teams 보존 정책을 전체 조직 또는 특정 사용자 및 팀에 적용할 수 있습니다.
 
 > [!NOTE]
-> 비공개 채널 메시지 보존을 위한 구성은 아직 지원되지 않습니다. 비공개 채널에서 공유된 파일의 보존이 지원됩니다.
+> 아직 개인 채널 메시지 보존에 대 한 구성은 지원 하지 않습니다. 비공개 채널에서 공유된 파일의 보존이 지원됩니다.
 
 Office 365의 보존 정책에 대한 자세한 내용은 [보존 정책 개요](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)를 참조하세요.
 
@@ -147,14 +147,14 @@ Teams 보존 정책을 삭제하려면 다음을 수행합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-PowerShell을 사용하여 Teams 보존 정책을 만들고 관리하려면 다음 cmdlet을 사용합니다.
+[Office 365 보안 & 준수 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)을 사용 하 여 팀 보존 정책을 만들고 관리 하려면 다음 cmdlet을 사용 합니다.
 
 |정책|규칙|
 |---|---|
-|[New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [New-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
-|[Get-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
-|[Set-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [Set-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
-|[Remove-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
+|[새로운 RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancepolicy?view=exchange-ps)| [새로운 RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule?view=exchange-ps)|
+|[Get-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancepolicy?view=exchange-ps)| [Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancerule?view=exchange-ps)|
+|[Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancepolicy?view=exchange-ps)| [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancerule?view=exchange-ps)|
+|[제거-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-retentioncompliancepolicy?view=exchange-ps)| [제거-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-retentioncompliancerule?view=exchange-ps)|
 
 ## <a name="known-issues"></a>알려진 문제
 

@@ -10,18 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- remotework
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: 일괄 처리 정책 할당을 사용 하 여 원격 학교 (teleschool, tele) 용도의 교육 기관에 대규모 사용자 집합에 정책을 할당 하는 방법에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: 7e297b6a4b99162fb50564d4f552a06f0dc41a10
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: bb851981f9923869d39c690dff6d22e446e0e844
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978520"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033362"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>학교에서 대규모 사용자 집합에 정책 할당
 

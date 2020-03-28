@@ -1,5 +1,5 @@
 ---
-title: 온-프레미스에서 비즈니스용 Skype Online으로 사용자 이동
+title: 사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -18,14 +18,14 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 비즈니스용 Skype Online으로 사용자를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6653ca8fe7082f0cabd2057c078f7d0d8d6f0389
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d8e8fa08c124717a0d61a758bdb60f2dd24c410
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726758"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033382"
 ---
-# <a name="move-users-from-on-premises-to-skype-for-business-online"></a>온-프레미스에서 비즈니스용 Skype Online으로 사용자 이동
+# <a name="move-users-from-on-premises-to-skype-for-business-online"></a>사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동
 
 사용자가 온-프레미스에서 비즈니스용 Skype Online으로 이동 하면 사용자는 비즈니스용 Skype Online과 상호 작용 하 여 기능을 합니다. 온-프레미스에 있던 모든 연락처는 비즈니스용 Skype 온라인에서 사용할 수 있으며, 앞으로 구성 된 모든 기존 모임은 링크가 비즈니스용 Skype Online을 가리키도록 업데이트 됩니다. 사용자가 오디오 회의를 사용할 수 있도록 설정 된 경우 모임에는 전화 접속 좌표도 포함 됩니다.  온-프레미스 환경에서 비즈니스용 Skype Online으로 사용자를 이동 하려면 둘 다 온-프레미스 도구인 Move-CsUser cmdlet 또는 비즈니스용 Skype 서버 제어판을 사용 합니다. 
 
@@ -40,10 +40,7 @@ CsUser를 사용 하 여 온라인으로 사용자를 이동 하려면 다음을
 - Identity 매개 변수를 사용 하 여 이동할 사용자를 지정 합니다.
 - -Target 매개 변수를 "sipfed.online.lync.com>" 값과 함께 지정 합니다. <span>com "입니다.
 - 온-프레미스 및 Office 365 모두에 충분 한 사용 권한이 있는 계정이 없는 경우-credential 매개 변수를 사용 하 여 Office 365에서 충분 한 사용 권한을 가진 계정을 제공 합니다.
-- Office 365에서 사용 권한이 있는 계정이 "설정"으로 끝나지 않는 경우 <span>com "을 선택한 다음 [필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 올바른 값을 사용 하 여-HostedMigrationOverrideUrl 매개 변수를 지정 해야 합니다.
-
- > [!NOTE]
- > 테 넌 트에 대 한 올바른 HostedMigrationOverrideUrl 값을 확인 해야 합니다. 이 작업은 레거시 비즈니스용 Skype 관리 센터를 탐색 하 여 쉽게 수행할 수 있습니다. 접두사-XXXXXXX.online.lync.com 및 append/HostedMigration/hostedmigrationservice.svc.를 확인 합니다. 예를 들어 https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc 값을 확인 한 후에는 아래에 표시 된 $url 변수에 사용 합니다.
+- Office 365에서 사용 권한이 있는 계정이 ". onmicrosoft"로 끝나지 않는 경우 <span>com "을 선택한 다음 [필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 올바른 값을 사용 하 여-HostedMigrationOverrideUrl 매개 변수를 지정 해야 합니다.
 
 다음 cmdlet 시퀀스를 사용 하 여 비즈니스용 Skype Online으로 사용자를 이동할 수 있으며, Office 365 자격 증명이 별도의 계정이 고 자격 증명 확인에 대 한 입력으로 제공 된다고 가정 합니다.
 

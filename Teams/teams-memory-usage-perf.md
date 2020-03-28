@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05cbd2f4b6691c873393a7ba711e03aadf70a2f2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 59940eafcdb6f86961b3cd6805cb9c5bb40f9fb2
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836988"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033402"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams에서 메모리를 사용하는 방법
 
@@ -51,7 +51,7 @@ ms.locfileid: "41836988"
 
 ![여러 시스템 간의 팀 메모리 사용](media/teams-memory-usage.png)
 
-컴퓨터에 메모리가 더 있으면 팀에서 해당 메모리를 사용 합니다. 메모리가 부족 한 시스템에서 팀은 덜 사용 합니다. 
+컴퓨터에 메모리가 더 있으면 팀에서 해당 메모리를 사용 합니다. 메모리가 부족 한 시스템에서 팀은 덜 사용 합니다.
 
 ### <a name="symptoms-of-system-memory-issues"></a>시스템 메모리 문제 증상
 
