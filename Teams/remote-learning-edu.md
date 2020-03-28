@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7a27d8f3d6da0521b09ab2c1a011eab9aa7235f
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 28fe29133384f082dd7b8e51bcff1705906efc94
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892348"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978500"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -79,7 +79,8 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 
 #### <a name="messaging-policy"></a>메시징 정책
 
-- 변경을 'off'로 설정
+- 보낸 메시지 삭제를 ‘해제’로 설정
+- 보낸 메시지 편집을 ‘해제’로 설정
 - Giphy 콘텐츠 등급을 'strict'로 설정
 - 메시지 번역을 'on'으로 설정
 - 우선 순위 알림을 사용하여 긴급 메시지 보내기를 'off'로 설정

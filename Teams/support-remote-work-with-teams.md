@@ -16,12 +16,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 844aef84633c767131b60158e634b0f6f3fe1cd2
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 7edbce168ec3357dbc432f3cb0da30c6310ea9cc
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928411"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982101"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -65,7 +65,13 @@ ms.locfileid: "42928411"
 
 1. Microsoft가 정기적으로 업데이트하는 [자주 묻는 질문(FAQ): 원격 작업자 지원](FAQ-support-remote-workforce.md)을 검토하세요.
 
-1. 2020년 3월 6일자 블로그 게시물인 [Microsoft가 직원들이 Microsoft Teams를 사용해 원격으로 근무 가능하도록 지원하는 방법](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)을 참조하세요.
+1. 최근 블로그 게시물 읽기:
+   
+   - [Microsoft가 직원들이 Microsoft Teams를 사용해 원격으로 근무 가능하도록 지원하는 방법](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)을 참조하세요.
+   - [중소 기업이 Teams와 원격으로 작업할 수 있도록 지원](https://www.microsoft.com/ko-KR/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+
+   - [Microsoft IT가 직원들의 원격 작업을 가능하게하는 9가지 방법](https://www.microsoft.com/ko-KR/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+
 
 1. 교육용 Teams
    - 교육 기관에서 일하고 Teams에 교사, 학생 및 관리자를 설정하려면 Office 365 A1을 사용하세요. 이 무료 버전의 Office 365는 모든 교육 기관에서 사용할 수 있습니다. [전체 학교에서 무료로 Office 365 사용](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)에서 가입하세요.
@@ -79,6 +85,8 @@ ms.locfileid: "42928411"
    - 제한된 대역폭은 Teams 모임의 오디오 품질에 영향을 미칠 수 있습니다. 저대역폭 조건 하에서 최고의 모임을 경험하기 위해, 사용자에게 비디오를 제한하고 통화 및 모임 오디오에 PSTN을 사용하도록 장려합니다. 
 
    - 최신 블로그(2020 3월 6일) 기사, [원격 직원에 맞게 Office 365 트래픽을 빠르게 최적화하고 인프라에 대한 부하를 줄이는 방법](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)을 읽어 보세요.
+
+   - 2020년 3월 26일 블로그: [ PN에서 실행: Microsoft가 원격 인력을 연결 상태로 유지하는 방법](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
    - 중국에 있는 경우 [중국 사용자를 위한 Office 365 전역 테넌트 성능 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)를 참조하세요.
 
@@ -96,6 +104,13 @@ ms.locfileid: "42928411"
 
    - [Teams를 배포하는 방법](How-to-roll-out-teams.md)을 읽어 Teams 준비 방법 및 관리 방법을 알아보세요.
 
+1. 모두가 집에서 일할 때의 보안
+
+   - [집에서 더 안전한 작업을 위한 주요 팁](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+   - Microsoft Security 블로그(2020년 3월 26일): [보안 전문가와 IT가 오늘날의 고유한 원격 작업 시나리오에서 최신 보안 제어를 달성할 수 있는 다른 방법](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
+
+   - [ 원격으로 작업하면서 보안 유지 —CISO 지침](https://www.microsoft.com/security/blog/?p=90736)
 
     
 3. 원격 작업에 대한 새로운 내용을 읽고 사용자와 공유하세요.
@@ -111,8 +126,6 @@ ms.locfileid: "42928411"
       - [Office 365로 원격 작업](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
       - [원격 작업에 대한 9가지 팁](https://www.microsoft.com/tips/home/working-remotely)
-
-      - [집에서 더 안전한 작업을 위한 주요 팁](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
 
       - Satya Nadella와 Teams 제품 마케팅 관리자 Aya Tange의 [Teams를 사용한 원격 작업](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1)에 관한 비디오(2020년 3월 20일)
 
