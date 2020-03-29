@@ -629,6 +629,7 @@
 ### [원격 학습 시작](remote-learning-edu.md)
 ### [다수의 사용자에 정책 할당](batch-policy-assignment-edu.md)
 ### [교육용 Teams 라이선싱](teams-edu-licensing.md)
+### [교육 관리자용 낮은 대역폭 지침](edu-remote-low-bandwidth.md)
 ### [교육용 Teams의 과제](expand-teams-across-your-org/assignments-in-teams.md)
 ### [교육용 Teams 리소스 관리](resources-teams-edu.md)
 ### [EDU 관리자용 Microsoft Teams 정책 패키지](policy-packages-edu.md)
@@ -652,6 +653,7 @@
 # 보안 및 규정 준수
 ## [개요](security-compliance-overview.md)
 ## 보안
+### [보안 가이드](teams-security-guide.md)
 ### [ID 모델 및 인증](identify-models-authentication.md)
 ### [최신 인증을 사용하여 Teams에 로그인](sign-in-teams.md)
 ## 규정 준수
