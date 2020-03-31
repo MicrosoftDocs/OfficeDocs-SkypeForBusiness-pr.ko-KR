@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d85bb4ba32bf83d3c774a2b6700a96c7e35dcb2a
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: f91ba33e372334fed3561227f1c7f88f9357aa55
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42935248"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43060389"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams에 대한 조직의 네트워크 준비 
 
@@ -34,7 +34,7 @@ ms.locfileid: "42935248"
     |  |  |
     |---------|---------|
     |139     |UDP 포트 <strong>3478</strong> ~ <strong>3481</strong>        |
-    |[IP 주소](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong> 및 <strong>52.112.0.0/14</strong>        |
+    |[IP 주소](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, <strong>52.120.0.0/14</strong>         |
     
 2.  Office 365에 대해 확인 된 도메인이 있습니까 (예: contoso.com)?
     
@@ -67,7 +67,7 @@ ms.locfileid: "42935248"
 
   - 팀이 느리게 실행 됨 (대역폭이 부족할 수도 있음)
   - 통화 보관 (방화벽 또는 프록시 차단 때문일 수 있음)
-  - 통화는 정적-y, 오려내기 또는 로봇이 같은 음성 사운드 (지터 또는 패킷 손실이 될 수 있음)입니다.
+  - 통화에는 정적, 오려내기 또는 로봇 등의 음성 사운드가 있습니다 (지터 또는 패킷 손실이 있을 수 있음).
 
 네트워크 장애를 식별 하 고 해결 하는 지침을 비롯 한 네트워크 최적화에 대 한 자세한 내용은 [Office 365 네트워크 연결 원칙](https://aka.ms/pnc)을 참조 하세요.
 

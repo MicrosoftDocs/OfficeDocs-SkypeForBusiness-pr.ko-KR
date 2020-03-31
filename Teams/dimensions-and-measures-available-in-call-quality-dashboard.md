@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드에서 사용 하는 차원과 측정값에 대 한 자세한 정보를 확인 하세요.
-ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 71f9f2ea8ea01108b0a2f80e8e07cacfeef899ea
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583085"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059432"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>통화 품질 대시보드에서 사용할 수 있는 크기 및 측정
 
@@ -58,7 +58,7 @@ CQD의 여러 차원과 측정값에는 첫 또는 초로 레이블이 지정 �
 
 차원 정보는 CQD 포털에 업로드 된 데이터 부분을 기반으로 합니다. 여러 차원 값을 필터로 사용할 수도 있습니다. 다음 표에는 보고서를 만들거나 이전에 정의 된 보고서를 편집 하는 데 사용 되는 쿼리 편집기에 나열 된 순서 대로 CQD에서 현재 사용할 수 있는 차원이 나와 있습니다.
 
-| 이름 | 데이터 형식  | 설명 | 빈 값을 사용할 수 있는 이유 |
+| 이름 | 데이터 형식  | Description | 빈 값을 사용할 수 있는 이유 |
 |:---  |:---        |:---         |:--- |
 |**엔드포인트**|||
 | 첫 번째 CPU 이름  | 문자열  | 첫 번째 끝점에 사용 되는 CPU의 이름입니다. <br/> **예제 값:** Contoso CPU X11 @ 1.80 GHz | <br/>&bull;이 데이터는 끝점에서 보고 되지 않았습니다.   |
@@ -499,9 +499,9 @@ CQD에 사용 되는 문자열은 종종 데이터 파일에서 파생 되며, �
 
 여러 측정 값을 필터로 사용할 수도 있습니다. 다음 표에는 현재 CQD에서 사용할 수 있는 측정이 쿼리 편집기에 나열 된 순서 대로 표시 되어 있습니다.
 
-|측정값 이름 |단위 |설명 |
+|측정값 이름 |단위 |Description |
 |:--- |:--- |:--- |
-|총 스트림 수 |스트림 수 |미디어 유형에 관계 없이 미디어 스트림 번호를 표시 합니다. |
+|총 스트림 수 |스트림 수 |미디어 유형이 없을 수 있는 안정성/진단 스트림을 포함 하 여 미디어 유형에 관계 없이 미디어 스트림의 번호를 표시 합니다. |
 | 총 CDR 사용 가능 스트림 수 | 스트림 수 |안정성/진단 정보를 사용할 수 있는 미디어 스트림의 수입니다. [비즈니스용 Skype 서버의 전화 정보 기록 (CDR)을](https://docs.microsoft.com/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) 참조 하세요. |
 |총 미디어 실패 스트림 수 |스트림 수 |미디어 경로를 설정할 수 없거나 정상적으로 종료 되지 않은 스트림의 수입니다. |
 |총 통화 설정 실패 스트림 수 |스트림 수 |통화 시작 시 끝점 간에 미디어 경로를 설정할 수 없는 스트림의 수입니다. |

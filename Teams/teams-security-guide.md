@@ -14,16 +14,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- remotework
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ee261f145f256e82db55aa869623505ff3c3dc3
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 91cb2752d1e37f98056f305a287bf9e6c974e4e8
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43034079"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053631"
 ---
 # <a name="security-and-microsoft-teams"></a>보안 및 Microsoft Teams
 
@@ -195,13 +196,12 @@ Teams 모임에 참여하는 사람과 사용자가 보여주는 정보에 액�
 
 1. **대기실** 설정을 통해 모임 참석자를 제어할 수 있습니다.</p>
 
-|대기실을 지나갈 수 있는 사람  |지나가기 설정  | 직접 참가| 대기실 도착|
-|---------|---------|---------|---------|
-|EveryoneInCompany(외부 사용자를 제외한 모든 사람)     |  예    |  테넌트 내, 게스트, PSTN 전화 접속 사용자      | 페더레이션 사용자, 익명 사용자        |
-|EveryoneInCompany(외부 사용자를 제외한 모든 사람)    |  아니요     |  테넌트 내 및 게스트 사용자       |   페더레이션 사용자, 익명 사용자, PSTN 전화 접속 사용자      |
-|EveryoneInCompany(외부 사용자를 제외한 모든 사람) 및 페더레이션 사용자     |  예    | 테넌트 내, 게스트, 페더레이션 및 PSTN 전화 접속 사용자        | 익명 사용자        |
-|EveryoneInCompany(외부 사용자를 제외한 모든 사람) 및 페더레이션 사용자     |  아니요     |   테넌트 내, 게스트 및 페더레이션 사용자      |  익명 및 PSTN 전화 접속 사용자      |
-|모든 사람     |  예    | 테넌트 내, 게스트, 페더레이션, 익명 및 PSTN 전화 접속 사용자        | 해당 없음        |
+|모임 옵션 페이지에서 사용 가능한 "로비를 지나갈 수 있는 사용자" 설정 옵션   |모임에 직접 참가하는 사용자 유형  |로비로 이동하는 사용자 유형   |
+|---------|---------|---------|
+|내 조직의 사용자     |  - 테넌트 내  </br>- 테넌트의 게스트         |  - 페더레이션</br>  - 익명</br>  - PSTN 전화 접속</br>     |
+|- 내 조직 및 신뢰할 수 있는 조직의 사용자      |  - 테넌트 내</br> - 테넌트의 게스트</br> - 페더레이션</br>        |  - 익명</br>  - PSTN 전화 접속</br>      |
+|모든 사용자      |   - 테넌트 내</br>  - 테넌트의 게스트</br>  - 페더레이션된 익명</br>  - PSTN 전화 접속</br>       |         |
+
 
 2. 두 번째 방법은 **모임을 구조화**(발표자가 수행해야 하는 모든 작업을 수행하고 참석자는 제어되는 환경에 놓음)하는 방법입니다. 발표자는 구조적 모임에 참여한 후 참석자가 모임에서 수행할 수 있는 작업을 제어합니다. </p>
 
@@ -289,6 +289,12 @@ Teams에서 익명 사용자는 대기실이라는 대기 공간으로 보내질
 
 ## <a name="related-topics"></a>관련 항목
 
+[보안 팀이 재택 근무를 지원하는 상위 12가지 작업](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?view=o365-worldwide)
+
 [Microsoft 보안 센터](https://microsoft.com/trustcenter)
 
 [Microsoft Teams에서의 모임 설정 관리](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
+
+[VPN 분할 터널링을 사용하여 원격 사용자를 위해 Office 365 연결 최적화](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel?branch=vpn-split-tunnel)
+
+- [Office 365 VPN 분할 터널링 구현](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-implement-split-tunnel?branch=vpn-split-tunnel)
