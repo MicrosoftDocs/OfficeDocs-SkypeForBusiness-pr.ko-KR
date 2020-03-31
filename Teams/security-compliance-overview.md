@@ -12,18 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- remotework
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b687d528f7cb593039fdafd9dcc6ec08ec66372
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 3320681f606150be223433d6ab80e8e0ee41a42f
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341646"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053414"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
@@ -70,7 +71,11 @@ Microsoft 팀 데스크톱 응용 프로그램에서 AppLocker를 지원 합니�
 
 ## <a name="compliance"></a>충족
 
-팀에는 보존 정책, DLP (데이터 손실 방지), 채널에 대 한 eDiscovery 및 법률 보존, 채팅 및 파일, 감사 로그 검색, Microsoft와의 모바일 응용 프로그램 관리를 포함 하 여 규정 준수 영역에 도움이 되는 다양 한 정보가 있습니다. Intune. 위의 모든 항목에 대 한 정보를 제공 하 고 Office 365 보안 & 준수 센터로 이동 하 여 이러한 설정을 관리할 수 있습니다.
+팀에는 채널, 채팅, 첨부 파일, 보존 정책, 데이터 손실 방지 (DLP), 채널에 대 한 eDiscovery 및 법적 고 지 사항 보호, 채팅 및 파일, 감사 로그에 대 한 통신 준수를 포함 하 여 규정 준수 영역에 도움이 되는 다양 한 정보가 있습니다. Microsoft Intune을 사용 하 여 검색 및 모바일 응용 프로그램 관리 위의 모든 항목에 대 한 정보를 제공 하 고 [Microsoft 365 준수 센터](https://compliance.microsoft.com) 또는 [Office 365 보안 & 준수 센터로](https://protection.microsoft.com) 이동 하 여 이러한 설정을 관리할 수 있습니다.
+
+### <a name="communication-compliance"></a>통신 준수
+
+Microsoft 365의 통신 준수 기능을 사용 하면 Microsoft 팀 통신을 악의적인 언어, 중요 한 정보, 내부 및 규제 표준 관련 정보 등을 검사 하도록 구성할 수 있는 범위 내 정책에 사용자를 추가할 수 있습니다. . 공용 및 개인 팀 채널, 개인 채팅, 첨부 파일 모두에 대 한 채팅 통신 및 관련 첨부 파일을 검색 하 여 조직의 통신 위험을 최소화할 수 있습니다. 부적절 한 팀 통신을 감지 하 고 캡처하고 작업을 수행 하는 데 도움이 되도록 정책을 구성할 수 있는 방법에 대 한 자세한 내용은 [Microsoft 365의 통신 준수](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)를 참조 하세요.
 
 ### <a name="retention-policies"></a>보존 정책
 
@@ -98,14 +103,14 @@ Microsoft 팀의 DLP (데이터 손실 방지)는 o365의 대규모 DLP 스토�
 
 | |원본 위치 eDiscovery  |고급 eDiscovery  |
 |---------|---------|---------|
-|사례 관리     |축        |축         |
-|액세스 제어  |축         |축         |
-|콘텐츠 검색     |축         | 축        |
-|보류 (s)   |축         | 축        |
-|내보내기     |축         |축         |
-|중복 검색     |-         |축         |
-|기계 학습으로 관련성 검색    |-         |축         |
-|비구조적 데이터 분석      |-         |축         |
+|사례 관리     |X        |X         |
+|액세스 제어  |X         |X         |
+|콘텐츠 검색     |X         | X        |
+|보류 (s)   |X         | X        |
+|내보내기     |X         |X         |
+|중복 검색     |-         |X         |
+|기계 학습으로 관련성 검색    |-         |X         |
+|비구조적 데이터 분석      |-         |X         |
 
 ### <a name="legal-hold"></a>법률 보류
 
@@ -163,11 +168,12 @@ Office 365 보안 & 준수 센터에서 보존 및 유지에 대 한 자세한 �
 
 ## <a name="compliance-standards"></a>준수 표준
 
-팀은 계층 D 규격입니다. 여기에는 ISO 27001, ISO 27018, SSAE16 SOC 1, SOC 2, HIPAA 및 EU 모델 절 (EUMC)이 포함 됩니다. Microsoft 규정 준수 프레임 워크 내에서 Microsoft는 Office 365 응용 프로그램 및 서비스를 네 가지 범주로 분류 합니다. 각 범주는 해당 범주에 나열 되는 Office 365 서비스 또는 관련 Microsoft 서비스에 대해 충족 해야 하는 특정 준수 약정에 의해 정의 됩니다.
+팀은 계층 D 규격입니다. 여기에는 [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [iso 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 soc 1, Soc 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc), [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)및 [EU 모델 절 (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses)이 포함 됩니다. Microsoft 규정 준수 프레임 워크 내에서 Microsoft는 Office 365 응용 프로그램 및 서비스를 네 가지 범주로 분류 합니다. 각 범주는 해당 범주에 나열 되는 Office 365 서비스 또는 관련 Microsoft 서비스에 대해 충족 해야 하는 특정 준수 약정에 의해 정의 됩니다.
 
 규정 준수 범주에서 업계 선두적인 규정 준수 약정을 갖는 서비스는 기본적으로 사용 하도록 설정 되어 있습니다. 범주 A 및 B의 서비스는 전체 조직에 대해 이러한 서비스를 설정 하거나 해제 하는 컨트롤과 함께 사용 됩니다. 자세한 내용은 [업계 표준 및 규정 준수 프레임 워크](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)에 나와 있습니다. 또한 팀은 클라우드 보안 동맹 준수를 지원 합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-[M365 보안](https://docs.microsoft.com/microsoft-365/security/)
-[M365 준수](https://docs.microsoft.com/microsoft-365/compliance/)
+[Microsoft 365 보안](https://docs.microsoft.com/microsoft-365/security/)
+[microsoft 365 규정 준수](https://docs.microsoft.com/microsoft-365/compliance/)
+[microsoft 준수 제공](https://docs.microsoft.com/microsoft-365/compliance/offering-home)
