@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 조직의 정부 기관 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ba76e667b7dc5aeb3ae83b2d2a19d5e4da5d653
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: 35bd251b4b8ef6a13263148c5fbb2245256dad3f
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983851"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079390"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 정부 기관 원격 작업자 지원하기
 
@@ -57,7 +57,7 @@ ms.locfileid: "42983851"
 
 이러한 자산과 비디오를 공유하여 최종 사용자가 빠르게 시작할 수 있도록 돕습니다.
 
-  - **[정부 기관용 빠른 시작 가이드](https:aka.ms/quickstartgov)** 를 다운로드하여 Teams의 기본 사항을 알아보세요.
+  - **[정부 기관용 빠른 시작 가이드](https://aka.ms/quickstartgov)** 를 다운로드하여 Teams의 기본 사항을 알아보세요.
 
   - Teams를 안내하는 **[짧은 빠른 시작 동영상](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams)** 과 **[모임 동영상](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)** 을 시청하고 Teams에서 모임을 활용하는 방법을 알아보세요.
 
