@@ -19,27 +19,24 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 팀 메시지의 우선 순위 알림에 대해 알아봅니다.
-ms.openlocfilehash: fd3808997400e84febac66e5f8e22c91009c527d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: c6bd6c1381eee82878ce59cc2133ec72b9b9e21c
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826506"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079410"
 ---
 # <a name="messaging-policies-licensing"></a>메시징 정책 라이선스
 
-2020 년 4 월 1 일까 지 모든 사용자가 Microsoft 팀의 무제한 우선 순위 알림을 사용할 수 있습니다. 이 판촉 행사는 원래 종료 날짜부터 2019 년 12 월 1 일부 터 2020로 확장 됩니다. 4 월 1 일 이후에 라이선스가 부여 된 사용자는 구독 약관에 따라 우선 순위 알림을 보낼 수 있습니다.
+전세계의 일상 업무에 대 한 급격 한 변화를 처리 하는 데 사용 되는 COVID-19 (Coronavirus) pandemic가 새로운 챌린지를 생성 하는 방법에 대 한 고객의 질문을 하 고 있습니다.
 
-2019 년 6 월에 발표 된 대로 사용자는 팀 메시지를 긴급으로 표시할 수 있습니다. 알림 기능에 대 한 액세스 권한이 있는 경우 긴급 메시지는 받는 사람에 게 각각 20 분 동안 또는 받는 사람이 메시지를 읽을 때까지 각각 2 분 마다 시간을 알리는 우선 순위 알림과 함께 전송 됩니다. 이 기능은 메시지가 적시에 처리 될 가능성을 극대화 합니다.
+빠른 변경 조건을 사용 하는 동안 팀 동료와 직접 신속 하 게 연결할 수 있는 것은 비즈니스 연속성을 유지 관리 하는 데 반드시 필요 하며, Microsoft 팀의 주요 메시징 기능에 대 한 판촉 액세스를 확장 하는 것입니다.
 
-IT 관리자는 적절 한 사용자 라이선스를 지원 하기 위해 우선 순위 알림 사용에 대 한 보고 기능을 제공 합니다. 사용자는 라이선스에 관계 없이 우선 순위가 있는 긴급 메시지를 받을 수 있습니다. [우선 순위 알림에 대해 자세히 알아보세요](https://docs.microsoft.com/MicrosoftTeams/messaging-policies-in-teams).
+원래 2019 년 6 월에 공지, 팀에 대 한 [우선 순위 알림은](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) 사용자에 게 *긴급*으로 표시 된 모든 메시지에 최대 20 분 동안 2 분 마다 반복 되는 알림을 보낼 수 있는 권한을 부여 합니다. 릴리스할 때 2020 년 4 월 1 일까지 모든 팀 사용자에 게 우선 순위 알림을 제공 했습니다. 
 
-|쇼핑| |매달 사용자 당 최대 5 개의 메시지 전송| 매달 사용자 당 무제한 메시지 전송|
-|---|---|---|---|
-|Enterprise||Office 365 F1/Microsoft 365 F1<br> Office 365 E1 | Office 365 E3/Microsoft 365 E3 <br>Office 365 E5/Microsoft 365 E5
-|Education ||Office 365 A1/Microsoft 365 A1|Office 365 A3/Microsoft 365 A3<br> Office 365 A5/Microsoft 365 A5
-|중소기업       ||Office 365 Business Essentials|Office 365 Business Premium/Microsoft 365 Business|
-|||||
+**귀하의 위기 대응 노력으로 고객과 커뮤니티를 지원 하기 위해 2020의 두 번째 절반까지 우선 하는 알림 승격을 연장 하 고 있습니다.** 우선 순위 알림에 대 한 지속적인 액세스를 사용 하 여 위기 대응 및 복구 노력을 활용할 수 있습니다. 프로 모션 기간이 끝나면 라이선스가 부여 된 사용자는 해당 플랜의 조항에 따라 우선 순위 알림을 보낼 수 있습니다.
+
+관리자는 적절 한 사용자 라이선스를 지원 하기 위해 우선 순위 알림 사용에 대 한 보고를 받습니다. 사용자는 라이선스에 관계 없이 우선 순위가 있는 긴급 메시지를 받을 수 있습니다. [우선 순위 알림에 대해 자세히 알아보세요](../messaging-policies-in-teams.md).
 
 <!-- |Government| | |
 ||GCC|Office 365 F1 / Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3 / Microsoft 365 G3 <br> Microsoft 365 G5|

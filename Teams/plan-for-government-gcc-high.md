@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 정부 및 GCC 상위 배포 계획-Microsoft 팀
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3c44867b14a4b3bf83a45cf1dbbb37151c648a8
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 7be9916a1c51b7e98467d1e8c44a18dd6d227d35
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161593"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079420"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 정부 및 GCC 고급 배포 계획
 
-이 지침은 Microsoft 365 정부-GCC High를 사용 하는 경우를 비롯 하 여 미국 연방 정부 엔터티나 기타 엔터티에서 Office 365의 배포를 추진 하는 IT 전문가를 위한 것입니다. 이러한 요구 사항을 충족 해야 합니다.
+본 가이드는 미국 연방 정부 기관에서 Office 365의 배포를 주도하는 IT 전문가를 위한 것 이며, Microsoft 365 정부-GCC High를 사용 하는 것이 이러한 요구 사항을 충족 하는 데 적절 하 게 적용 되는 데이터를 처리 하는 기타 엔터티에서 제공 합니다.
 
 > [!NOTE]
 > 조직이 Microsoft 365 정부 (GCC High 자격 요구 사항)을 이미 충족 하 고이를 프로그램에 적용 한 경우에는 1 ~ 2 단계를 건너뛰고 3 단계로 바로 이동할 수 있습니다.
@@ -67,83 +67,14 @@ Microsoft 365 정부-GCC 상위 환경은 클라우드 서비스에 대 한 미�
 
 |    |     |
 |-----------|------------|
-| ![결정 지점을 가리키는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>기본 Microsoft 365 정부-GCC 고급 보안 설정을 수정 해야 하는지 여부를 결정 하 고, 먼저 변경할 수 있는 영향을 확인 합니다.</li></ul> |
+| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>기본 Microsoft 365 정부-GCC 고급 보안 설정을 수정 해야 하는지 여부를 결정 하 고, 먼저 변경할 수 있는 영향을 확인 합니다.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---gcc-high"></a>4 단계. 현재 Microsoft 365 정부에서 사용할 수 있는 팀 기능 이해-GCC 최고
 
 귀하의 정부 클라우드 고객의 요구 사항을 충족 하기 위해 Microsoft 365 정부-GCC 높음 팀과 엔터프라이즈 계획의 팀 간에 몇 가지 차이점이 있습니다. 사용할 수 있는 기능을 확인 하려면 다음 표를 참조 하세요.
 
-|                             | 기능                     | GCC 최고       |
-|-----------------------------|-----------------------------|----------------|
-| 기반의 | 로그인 | 공간이 |
-| | 현재 상태 | 공간이 |
-| | 통합 현재 상태 (비즈니스용 Skype 및 팀 통합) | 공간이 |
-| | Linux 클라이언트 | 정부 백로그 |
-| 작동이 | 피드 | 공간이 |
-|  | 내 활동 | 공간이 |
-| 채팅 | 주제별로 | 공간이 |
-| | 파일 | 공간이 |
-| | 조직도 | 공간이 |
-| | 작동이 | 공간이 |
-| | InterOp (1:1 팀-비즈니스용 Skype 채팅) | 공간이 |
-| Teams | 채널 메시지 | 공간이 |
-| | 채널 파일 | 공간이 |
-| | OneNote 탭 | 정부 백로그 |
-| | 채널을 전자 메일로 보내기 | 사용할 수 없음 |
-| | 구성원 추가 | 공간이 |
-| | 게스트 액세스 | 정부 백로그 |
-| 모임 | 모임 예약 | 공간이 |
-| | 모임 참가 | 공간이 |
-| | VoIP 모임 | 공간이 |
-| | 데스크톱 공유 | 공간이 |
-| | 공유 하 고 제어권을 부여 합니다. | 공간이 |
-| | 회의실에서 연결 | 공간이 |
-| | 익명 참가 | 공간이 |
-| | 클라우드 기록 | 정부 백로그 |
-| | 모임 메모 | 공간이 |
-| | 모임 브로드캐스트 | 정부 백로그 |
-| | 클라우드 내 (GCCH ~ GCCH) 페더레이션된 모임 | 공간이 |
-| | Surface Hub 지원 | 정부 백로그 |
-| 전화가 | 연락처 | 공간이 |
-| | 역사 | 공간이 |
-| | 음성 메일 | 공간이 |
-| | VoIP 통화 | 공간이 |
-| | 비즈니스용 Skype-팀 전화 | 공간이 |
-| | 통화 플랜 | 사용할 수 없음 |
-| | 오디오 회의 (모임 참가자가 PSTN을 통해 참가 하도록 허용) | 공간이 |
-| | Microsoft 전화 시스템 다이렉트 라우팅 | 공간이 |
-| | PSTN 호출자 용 대기실 | 정부 백로그 |
-| | 통화 대기열 | 정부 백로그 |
-| | 상사 및 대리인 지원 | 정부 백로그 |
-| | Consultative 및 안전한 전송 | 정부 백로그 |
-| | 혁신을 방해 하지 않음 | 정부 백로그 |
-| | 특수 전화 벨 소리 | 정부 백로그 |
-| | 팀, 비즈니스용 Skype, PSTN 참가자와의 그룹 통화 확대 1:1 | 정부 백로그 |
-| | 그룹으로 전달 | 정부 백로그 |
-| | PSTN 통화로 전송 | 정부 백로그 |
-| | 비상 전화 통화 요금제 | 정부 백로그 |
-| | 기존 인증 된 SIP 전화 지원 | 정부 백로그 |
-| | USB HID | 공간이 |
-| | 통화 및 모임 모두에 대해 eDiscovery | 공간이 |
-| | 조직 자동 전화 교환 | 정부 백로그 |
-| | Skype 소비자-팀 전화 지원 | 사용할 수 없음 |
-| 파일 | 최근 | 공간이 |
-| | Microsoft Teams | 공간이 |
-| 스토어 | App Store | 사용할 수 없음 |
-| 찾아 | 보내는 | 공간이 |
-| | 사용자 | 공간이 |
-| | 파일 | 공간이 |
-| | 슬래시 명령 | 공간이 |
-| 충족 | 콘텐츠 검색 준수 | 공간이 |
-| | 보관 | 공간이 |
-| | 감사 로그 검색 | 공간이 |
-| | 법률 보류 | 공간이 |
-| | eDiscovery | 공간이 |
-
-|    |     |
-|-----------|------------|
-| ![결정 지점을 가리키는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>팀 기능 집합이 조직의 요구 사항에 맞는지 여부를 결정 합니다.</li></ul> |
+[Microsoft 팀 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 ## <a name="step-5-plan-for-governance"></a>5 단계. 관리 계획
 

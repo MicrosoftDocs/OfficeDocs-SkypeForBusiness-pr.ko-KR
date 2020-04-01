@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 정부의 GCC 배포 계획-Microsoft 팀
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb36e9decf7fba80250dce1035187b94198bc86d
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: be3afe64ba45761f61e68c04a812bffe0129cef2
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053611"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079460"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 정부의 GCC 배포 계획
 
-이 지침은 Microsoft를 사용 하는 미국 연방, 주, tribal 또는 territorial 정부 기관 또는 정부 규정에 따른 데이터를 처리 하는 기타 엔터티에서 제공 하는 IT 365 전문가를 위한 것입니다. 365 정부-GCC는 이러한 요구 사항을 충족 하는 데 적합 합니다. 신규 3 월 26 일: 다운로드 가능한 [GCC 용 빠른 시작 가이드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)2020를 놓치지 마세요.
+이 가이드는 Office 365의 배포를 미국 연방, 주, tribal, territorial 정부 기관 또는 요구 사항에 따라 처리 하는 IT 전문가를 위한 것 이며, Microsoft 365 정부 기관 사용은 이러한 요구 사항을 충족 하는 데 적합 합니다. 신규 3 월 26 일: 다운로드 가능한 [GCC 용 빠른 시작 가이드](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)2020를 놓치지 마세요.
 
 > [!IMPORTANT]
 > Microsoft 팀은 coronavirus (COVID-19) pandemic으로 인해 온라인 통화 및 오디오/비디오 회의에서 스파이크가 발생 합니다.<br/>
@@ -82,75 +82,11 @@ Office 365의 기능과 기능을 활용할 수 있을 뿐만 아니라, Microso
 |-----------|------------|
 | ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>판단 요점|<ul><li>기본 Microsoft 365 정부-GCC 보안 설정 중 어떤 것을 수정 하 고 있는지 확인 하 고, 먼저 변경 사항에 대 한 영향을 파악 합니다.</li></ul> |
 
-## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>4 단계. 기본적으로 현재 사용할 수 없거나 사용 불가능 한 기능을 파악 합니다. 
+## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>4 단계. 기본적으로 현재 사용할 수 없거나 사용 불가능 한 기능을 파악 합니다.
 
 귀하의 정부 클라우드 고객의 요구 사항을 충족 하기 위해 Microsoft 365 정부-GCC 및 Enterprise 요금제 간에는 몇 가지 차이점이 있습니다. 사용할 수 있는 기능을 확인 하려면 다음 표를 참조 하세요.
 
-|                             | 기능                     | GCC            |
-|-----------------------------|-----------------------------|----------------|
-| 기반의 | 로그인 | 대화 가능 |
-| | 현재 상태 | 대화 가능 |
-| | 통합 현재 상태 (비즈니스용 Skype 및 팀 통합) | 대화 가능 |
-| 작동이 | 피드 | 대화 가능 |
-|  | 내 활동 | 대화 가능 |
-| 채팅 | 주제별로 | 대화 가능 |
-| | 파일 | 대화 가능 |
-| | 조직도 | 대화 가능 |
-| | 작동이 | 대화 가능 |
-| | InterOp (1:1 팀-비즈니스용 Skype 채팅) | 대화 가능 |
-| Teams | 채널 메시지 | 대화 가능 |
-| | 채널 파일 | 대화 가능 |
-| | OneNote 탭 | 정부 백로그 |
-| | 채널을 전자 메일로 보내기 | 사용할 수 없음 |
-| | 구성원 추가 | 대화 가능 |
-| | 게스트 액세스 | 대화 가능 |
-| 모임 | 모임 예약 | 대화 가능 |
-| | 모임 참가 | 대화 가능 |
-| | VoIP 모임 | 대화 가능 |
-| | 데스크톱 공유 | 대화 가능 |
-| | 공유 하 고 제어권을 부여 합니다. | 대화 가능 |
-| | 회의실에서 연결 | 대화 가능 |
-| | 익명 참가 | 대화 가능 |
-| | 클라우드 기록 | 대화 가능 |
-| | 모임 메모 | 대화 가능 |
-| | 라이브 이벤트 | 대화 가능 |
-| | 페더레이션된 모임 | 대화 가능 |
-| | Surface Hub 지원 | 대화 가능 |
-| 전화가 | 연락처 | 대화 가능 |
-| | 역사 | 대화 가능 |
-| | 음성 메일 | 사용 가능 |
-| | VoIP 통화 | 대화 가능 |
-| | 비즈니스용 Skype-팀 전화 | 사용 가능 |
-| | 통화 플랜 | 대화 가능 |
-| | 오디오 회의 (모임 참가자가 PSTN을 통해 참가 하도록 허용) | 대화 가능 |
-| | Microsoft 전화 시스템 다이렉트 라우팅 | 대화 가능 |
-| | PSTN 호출자 용 대기실 | 대화 가능 |
-| | 통화 대기열 | 대화 가능 |
-| | 상사 및 대리인 지원 | 대화 가능 |
-| | Consultative 및 안전한 전송 | 대화 가능 |
-| | 혁신을 방해 하지 않음 | 대화 가능 |
-| | 특수 전화 벨 소리 | 대화 가능 |
-| | 팀, 비즈니스용 Skype, PSTN 참가자와의 그룹 통화 확대 1:1 | 대화 가능 |
-| | 그룹으로 전달 | 대화 가능 |
-| | PSTN 통화로 전송 | 대화 가능 |
-| | 비상 전화 통화 요금제 | 대화 가능 |
-| | 기존 인증 된 SIP 전화 지원 | 대화 가능 |
-| | USB HID | 대화 가능 |
-| | 통화 및 모임 모두에 대해 eDiscovery | 대화 가능 |
-| | 조직 자동 전화 교환 | 대화 가능 |
-| | Skype 소비자-팀 전화 지원 | 대화 가능 |
-| 파일 | 최근 | 대화 가능 |
-| | Microsoft Teams | 대화 가능 |
-| 스토어 | App Store | 대화 가능 |
-| 찾아 | 보내는 | 대화 가능 |
-| | 사용자 | 대화 가능 |
-| | 파일 | 대화 가능 |
-| | 슬래시 명령 | 대화 가능 |
-| 충족 | 콘텐츠 검색 준수 | 대화 가능 |
-| | 보관 | 대화 가능 |
-| | 감사 로그 검색 | 대화 가능 |
-| | 법률 보류 | 대화 가능 |
-| | eDiscovery | 대화 가능 |
+[Microsoft 팀 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 > [!Note]
 > 다른 작업을 GCC 클라우드에서 완전히 사용할 수 있게 되 면 모든 추가 통합 작업이 완료 되 면 팀에서 사용할 수 있게 됩니다.

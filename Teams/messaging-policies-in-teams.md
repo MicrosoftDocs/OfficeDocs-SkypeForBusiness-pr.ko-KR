@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 메시징 정책 및이를 사용 하 여 팀의 채팅 메시지를 제어 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 476fd2cf77b7ec57a0279d71b614dc50395b3023
-ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
+ms.openlocfilehash: a589b676a6c1da24eae7a25218fcfd449160f374
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43059412"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079440"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>팀에서 메시징 정책 관리
 
@@ -92,7 +92,7 @@ ms.locfileid: "43059412"
 - **URL 미리 보기 허용** 이 설정을 사용 하 여 메시지에서 자동 URL 미리 보기를 설정 하거나 해제 합니다.
 - **사용자가 메시지를 번역할 수 있도록 허용** 사용자가 팀 메시지를 Office 365의 개인 언어 설정에서 지정한 언어로 자동으로 번역할 수 있도록 하려면이 설정을 사용 합니다.
 - **몰입 형 리더의 메시지 보기 허용** 이 설정을 사용 하면 사용자가 Microsoft 몰입 형 리더에서 메시지를 볼 수 있습니다. 몰입 형 리더는 텍스트의 가독성을 높이기 위해 전체 화면 읽기 환경을 제공 하는 학습 도구입니다.
-- **우선 순위 알림을 사용 하 여 긴급 메시지 보내기** 이 기능을 설정 하면 사용자는 우선 순위 알림을 사용 하는 메시지를 보낼 수 있습니다. 우선 순위 알림은 받는 사람이 메시지를 선택 하 고 읽을 때까지 약 2 분 동안 사용자에 게 알려 주고, 메시지가 언제 적절 하 게 선택 되 고 처리 될 가능성을 극대화 합니다.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **우선 순위 알림을 사용 하 여 긴급 메시지 보내기** 이 기능을 설정 하면 사용자는 [우선 순위 알림을](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)사용 하 여 메시지를 보낼 수 있습니다. 우선 순위 알림은 사용자에 게 20 분 동안 또는 *긴급* 으로 표시 된 메시지가 받는 사람에 의해 선택 되 고 읽으 며 메시지가 적시에 처리 될 가능성을 극대화할 수 있도록 합니다.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
 - **오디오 메시지 만들기** 
   > [!Important]
   > EDiscovery 보고에서 오디오 메시지가 캡처되지 않습니다. 
