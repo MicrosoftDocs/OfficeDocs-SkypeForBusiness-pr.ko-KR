@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft Teams에서 라이브 이벤트를 설정하기 전에 고려해야 하는 요소에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983864"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096823"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -92,7 +92,7 @@ ms.locfileid: "42983864"
 |여러 발표자 허용 |&#x2714;(비즈니스용 Skype) |&#x2714;(Teams) |해당 없음  |
 |모임 중에 발표자 초대 |&#x2714;(비즈니스용 Skype) |X |해당 없음 |
 |웹과 모바일의 발표자 참여 |&#x2714;(비즈니스용 Skype)  |X |해당 없음 |
-|페더레이션 및 게스트 발표자/참석자 |&#x2714;(비즈니스용 Skype)  | (곧 지원됨) |해당 없음 |
+|페더레이션 및 게스트 발표자/참석자 |&#x2714;(비즈니스용 Skype)  | &#x2714;(Teams)  |해당 없음 |
 |발표자 – PSTN 액세스 |X |&#x2714;(Teams) |해당 없음 |
 |화면 발표 |X |&#x2714;(Teams) |해당 없음 |
 |PowerPoint 발표(PPT 공유) |&#x2714; |X(화면 공유를 통해 완화됨) |해당 없음 |

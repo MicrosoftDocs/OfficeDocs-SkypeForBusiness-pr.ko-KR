@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9097dfc43ca0f70d37b0051e6b0e10283da26c3
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: e2c918a8276be2eeab0a125a1661b70b42c6b069
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033392"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43097003"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams의 보존 정책
 
@@ -82,7 +82,7 @@ SharePoint Online 또는 비즈니스 용 OneDrive에 적용되는 보존 정책
 
 - Teams는 키워드 또는 민감한 정보를 포함하는 콘텐츠에 정책을 적용하는 기능과 같은 고급 보존 설정을 지원하지 않습니다. 현재 Teams의 보존 정책은 모든 채팅 및/또는 채널 메시지 콘텐츠에 적용됩니다.
 
-- Teams에서 만료된 메시지를 정리하는 데 최대 3일이 걸릴 수 있습니다. Teams 보존 정책은 보존 기간이 만료되면 채팅 및 채널 메시지를 삭제합니다. 그러나 이 메시지를 정리하고 영구적으로 삭제하는 데 최대 3일이 걸릴 수 있습니다. 또한 보존 기간이 만료된 후부터 메시지가 영구적으로 삭제될 때까지 eDiscovery 도구를 사용하여 채팅 및 채널 메시지를 검색할 수 있습니다.
+- 만료 된 메시지를 정리 하려면 팀에 최대 3 ~ 7 일이 걸릴 수 있습니다. Teams 보존 정책은 보존 기간이 만료되면 채팅 및 채널 메시지를 삭제합니다. 그러나이 메시지를 정리 하 고 영구적으로 삭제 하는 데는 최대 3 ~ 7 일이 걸릴 수 있습니다. 또한 보존 기간이 만료된 후부터 메시지가 영구적으로 삭제될 때까지 eDiscovery 도구를 사용하여 채팅 및 채널 메시지를 검색할 수 있습니다.
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>복수의 보존 정책 및 보존 원칙
 
