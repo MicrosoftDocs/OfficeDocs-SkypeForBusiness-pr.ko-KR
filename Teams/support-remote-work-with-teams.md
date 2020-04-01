@@ -17,12 +17,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ee5947aee6055a1e69f3d404c7d341c93fd7433
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: f954e9dff86b8c660d416a1aed8031912207ea4f
+ms.sourcegitcommit: ce6b6b57eb9683649f589b747163110bf42ae420
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053601"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43062674"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -112,6 +112,13 @@ ms.locfileid: "43053601"
    - Microsoft Security 블로그(2020년 3월 26일): [보안 전문가와 IT가 오늘날의 고유한 원격 작업 시나리오에서 최신 보안 제어를 달성할 수 있는 다른 방법](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
 
    - [ 원격으로 작업하면서 보안 유지 —CISO 지침](https://www.microsoft.com/security/blog/?p=90736)
+
+   - [보안 팀이 재택 근무를 지원하는 상위 12가지 작업](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   
+   - [VPN 분할 터널링을 사용하여 원격 사용자를 위해 Office 365 연결 최적화](https://docs.microsoft.com/ko-KR/Office365/Enterprise/office-365-vpn-split-tunnel)
+
+   - [보안 및 Teams](teams-security-guide.md)에서는 Microsoft 365의 엔터프라이즈급 보안 모범 사례 및 절차의 일부로 Teams 보안의 모든 기술 세부 정보가 제공됩니다.
+
 
     
 3. 원격 작업에 대한 새로운 내용을 읽고 사용자와 공유하세요.
