@@ -17,14 +17,19 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9895875832e1d173366a4f6ef0c48abf662fc5d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1dab1673f32c6a3c902c761004e5720d8c61dbfb
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827405"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096893"
 ---
 # <a name="move-port-phone-numbers-to-business-voice"></a>전화번호를 Business Voice로 옮기기(이식)
+
+> [!IMPORTANT]
+> 이 문서의 정보는 통화 플랜이 **포함된** Business Voice에만 적용됩니다. 통화 플랜이 포함된 Business Voice는 선택된 국가 및 지역에서만 사용할 수 있습니다. 이 문서를 읽기 전에 [Business Voice의 국가 및 지역 가용성](country-region-availability.md)을 확인하여 해당 국가 또는 지역에서 통화 플랜이 포함된 Business Voice를 지원하는지 확인하세요.
+>
+> 테넌트가 통화 플랜을 포함한 Business Voice를 지원하지 않는 국가 또는 지역에있는 경우 [Microsoft 리셀러 또는 파트너에게 도움 받기](reseller-partner-support.md)를 확인하세요.
 
 시작 마법사로 Business Voice를 설정하면 회사 대표 전화와 Business Voice 라이선스를 할당받은 모든 사용자에게 전화번호를 할당합니다. Business Voice로 옳길 때 유지하기 원하는 전화번호가 이미 있는 경우 Business Voice로 가져오기 위한 전화번호 이식이라는 절차를 사용해 전화번호를 가져올 수 있습니다. 전화번호를 Business Voice로 이식한 이후 사용자 및 서비스에 전화번호를 할당할 수 있습니다. 이전 전화번호는 시작 마법사에서 지정한 임시 번호를 대체할 수 있습니다.
 
