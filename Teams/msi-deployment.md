@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 084f6d4587bc279c4387cf44b8ed29d38d51d4a6
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+ms.openlocfilehash: fe158c1f6a6d8ff7fb830408657ed2deae13c163
+ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42937602"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113151"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 설치
 
 > [!Tip]
 > Windows 데스크톱 클라이언트의 이점,이를 위해 계획 하는 방법 및 배포 하는 방법에 대해 알아보려면 다음 세션을 시청 하세요: [팀 Windows 데스크톱 클라이언트](https://aka.ms/teams-clients).
 
-Microsoft 끝점 구성 관리자 또는 그룹 정책 또는 광범위 한 배포를 위해 타사 배포 메커니즘을 사용 하려면 관리자가 사용자를 선택 하기 위해 팀을 대량으로 배포 하는 데 사용할 수 있는 MSI 파일 (32 비트 및 64 비트)을 제공 했습니다. 컴퓨터용. 관리자는 이러한 파일을 사용 하 여 사용자가 팀 앱을 수동으로 다운로드할 필요가 없도록 팀을 원격으로 배포할 수 있습니다. 배포 되는 경우 해당 컴퓨터에 로그인 하는 모든 사용자에 대해 팀이 자동으로 실행 됩니다. (앱을 설치한 후 자동 시작을 사용 하지 않도록 설정할 수 있습니다. [아래를 참조](#disable-auto-launch-for-the-msi-installer)하세요.) 컴퓨터에 패키지를 배포 하는 것이 좋으며,이는 컴퓨터의 모든 새 사용자도이 배포를 활용할 수 있도록 하는 것이 좋습니다.
+Microsoft 끝점 구성 관리자 또는 그룹 정책 또는 광범위 한 배포에 대 한 타사 배포 메커니즘을 사용 하기 위해 Microsoft는 관리자가 사용자 또는 컴퓨터를 선택 하기 위해 팀을 대량으로 배포 하는 데 사용할 수 있는 MSI 파일 (32 비트 및 64 비트)을 제공 했습니다. 관리자는 이러한 파일을 사용 하 여 사용자가 팀 앱을 수동으로 다운로드할 필요가 없도록 팀을 원격으로 배포할 수 있습니다. 배포 되는 경우 해당 컴퓨터에 로그인 하는 모든 사용자에 대해 팀이 자동으로 실행 됩니다. (앱을 설치한 후 자동 시작을 사용 하지 않도록 설정할 수 있습니다. [아래를 참조](#disable-auto-launch-for-the-msi-installer)하세요.) 컴퓨터에 패키지를 배포 하는 것이 좋으며,이는 컴퓨터의 모든 새 사용자도이 배포를 활용할 수 있도록 하는 것이 좋습니다.
 
 MSI 파일에 대 한 링크는 다음과 같습니다.
 
@@ -80,9 +80,13 @@ VDI에서 팀 데스크톱 앱을 배포 하는 방법에 대 한 자세한 지�
 
 사용자가 사용자 프로필에서 팀을 제거 하는 경우 MSI 설치 관리자는 사용자가 팀 앱을 제거 하 고 더 이상 해당 사용자 프로필에 대 한 팀을 설치 하지 않은 것을 추적 합니다. 제거 된 특정 컴퓨터에서이 사용자의 팀을 다시 배포 하려면 다음을 수행 합니다.
 
-1. 모든 사용자 프로필에 대해 설치 된 팀 앱을 제거 합니다.
-2. 제거 후에 재귀적으로 디렉터리를 삭제 `%localappdata%\Microsoft\Teams\`합니다.
-3. 해당 특정 컴퓨터에 MSI 패키지를 다시 배포 합니다.
+> [!IMPORTANT]
+> 다음 단계에는 레지스트리를 수정 하는 방법에 대 한 정보가 포함 되어 있습니다. 레지스트리를 수정 하기 전에 백업 하 고 문제가 발생 하는 경우 레지스트리를 복원 하는 방법을 알고 있는지 확인 합니다. 레지스트리를 백업, 복원 및 수정 하는 방법에 대 한 자세한 내용은 [고급 사용자를 위한 Windows 레지스트리 정보](https://support.microsoft.com/help/256986)를 참조 하세요.
+
+1. 모든 사용자 프로필에 대해 설치 된 팀 앱을 제거 합니다. 자세한 내용은 [Microsoft 팀 제거](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)를 참조 하세요.
+2. 재귀적으로 디렉터리를 삭제 `%localappdata%\Microsoft\Teams\`합니다.
+3. 레지스트리 값 `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` 을 삭제 합니다.
+4. 해당 특정 컴퓨터에 MSI 패키지를 다시 배포 합니다.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>설치 후 팀이 자동으로 시작 되지 않도록 방지
 
