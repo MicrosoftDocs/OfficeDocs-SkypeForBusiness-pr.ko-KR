@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 클라우드 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b89f2b439cf79cf90915c61771bb5a08ef27db99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9f166e8626d799cb95a447b453663b60079b0704
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824814"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43102080"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>클라우드 자동 전화 교환 설정
 
@@ -220,8 +220,13 @@ ms.locfileid: "41824814"
 
 > [!IMPORTANT]
 > 다음 사항을 준수 하세요.
->- 내선 번호로 전화를 걸 수 있도록 하려는 사용자는 내선 번호가 [Microsoft 365 관리 센터](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)에서 할당 된 전화번호 또는 휴대 전화 번호의 일부로 지정 되어 있어야 합니다.  사용자 전화 번호 필드에 확장명을 입력 하는 데 필요한 형식은 `+<phonenumber>;ext=<extension>` 또는 `x<extension>`입니다.
->- 팀 관리 센터에서 확장을 할당 하는 것은 현재 지원 되지 않습니다. [Set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) powershell 명령 또는 Microsoft 365 관리 센터를 사용 해야 합니다.
+>- 내선 번호로 전화를 걸 수 있도록 하려는 사용자는 Active Directory 또는 Azure Active Directory [Microsoft 365 관리 센터](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)에 정의 된 다음 phone 특성 중 하나의 일부로 확장명을 지정 해야 합니다.
+>    - HomePhone
+>    - 모바일/MobilePhone
+>    - TelephoneNumber/PhoneNumber
+>    - 기타 전화
+>- 사용자 전화 번호 필드에 확장명을 입력 하는 데 필요한 형식은 `+<phonenumber>;ext=<extension>` 또는 `x<extension>`입니다.
+>- 팀 관리 센터에서 확장을 할당 하는 것은 현재 지원 되지 않습니다. [Set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) PowerShell 명령 또는 Microsoft 365 관리 센터를 사용 해야 합니다.
 >- AAD PhoneNumber를 변경 하기 전에 최대 12 시간까지 걸릴 수 있으며 MobilePhone 특성을 사용할 수 있습니다.
 >- 사용자의 LineUri에 대 한 확장을 정의 하지 마세요. 이는 현재 지원 되지 않습니다.
 >- 자동 전화 교환은 이름으로 전화 걸기 또는 내선 번호를 통해 전화 접속으로 구성할 수 있습니다.
@@ -273,7 +278,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
-![숫자 6의 아이콘, 이전에는 나누기를 설정](media/teamscallout6.png) 하는 설명선 (예: 점심 작업)을 선택 하 고 해당 요일에 대해 새 테이블 행을 **추가** 하 여 새 시작 시간 및 종료 시간을 선택 합니다. 업무 시간 내에 여러 휴식을 설정할 수 있습니다.
+![숫자 6의 아이콘, 이전에는 나누기를 설정](media/teamscallout6.png) 하는 설명선 (예: 점심 작업)을 선택 하 고 해당 요일에 대해 새 표 행을 **추가** 하는 것이 없으면 새 시작 및 종료 시간을 선택 합니다. 업무 시간 내에 여러 휴식을 설정할 수 있습니다.
 
 시간이 지난 후 사용할 수 있는 [통화 흐름](#call-flow) 옵션은 업무 시간 동안 사용할 수 있는 옵션과 같습니다. 정보 입력 페이지를 아래로 스크롤하여 시간 호출 흐름 옵션을 설정 합니다.
 
@@ -424,7 +429,7 @@ PowerShell을 사용 하 여 자동 전화 교환을 만들고 설정할 수도 
 
 [서비스 전화 번호 가져오기](/microsoftteams/getting-service-phone-numbers)
 
-[오디오 회의 및 통화 요금제 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
 [새로운 CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 

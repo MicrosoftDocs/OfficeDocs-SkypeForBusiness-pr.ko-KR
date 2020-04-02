@@ -15,16 +15,16 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cdb9d63d6c14c6950f7066f5cb8b6fbd933703b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e929ce706ee2f59af5c74891ff66f643f2f14ee2
+ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008140"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43100095"
 ---
 # <a name="teams-for-education"></a>교육용 Teams
 
-팀에서 교사와 교직원은 공동 강의실을 만들고, 전문 학습 커뮤니티에서 연결 하 고, 학생 및 교사와 통신할 수 있습니다. 여기에서 관리 리소스를 사용 하 여 학교 또는 기관에서 팀을 성공적으로 배포, 채택 및 관리할 수 있습니다. 
+팀에서 교사와 교직원은 공동 강의실을 만들고, 전문 학습 커뮤니티에서 연결 하 고, 학생 및 교육자와 통신할 수 있습니다. 여기에서 관리 리소스를 사용 하 여 학교 또는 기관에서 팀을 성공적으로 배포, 채택 및 관리할 수 있습니다. 
 
 <ul class="panelContent cardsFTitle">
     <li>
