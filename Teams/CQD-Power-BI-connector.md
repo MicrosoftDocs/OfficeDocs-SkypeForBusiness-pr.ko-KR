@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
-ms.openlocfilehash: 393bfaf6348bb5ebc8c46df011387961d95cccfa
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102349"
+ms.locfileid: "43106695"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
 
@@ -121,7 +121,7 @@ Power BI를 사용 하는 데도 불구 하 고 CQD 데이터 모델 또는 일�
 
 ### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>날짜 열을 날짜 slicer로 사용 하려고 합니다. 이 열의 데이터 형식을 날짜로 변환 하는 즉시 다음과 같은 오류가 발생 합니다.
 
-  **이 시각적 개체에 대 한 데이터를 로드할 수 없습니다**. OLE DB 또는 ODBC 오류: [Expression. 오류] 식을 데이터 원본으로 접을 수 없습니다. 더 간단한 식을 사용해 보세요. 
+> **이 시각적 개체에 대 한 데이터를 로드할 수 없습니다**. OLE DB 또는 ODBC 오류: [Expression. 오류] 식을 데이터 원본으로 접을 수 없습니다. 더 간단한 식을 사용해 보세요. 
 
 Power BI 커넥터에서는 날짜 슬라이서가 지원 되지 않습니다. 날짜 범위를 지정 하려면 보고서에 두 개의 필터를 적용 하 고 그 보다 작거나 큰 값을 지정 합니다.
 

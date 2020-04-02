@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방을 지원 하기 위한 요구 사항을 요약 하 여 설명 합니다.
-ms.openlocfilehash: 9e07ac6f5f7ca477006dac703f7b3b8b2604c60b
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 9dba3a9972dee782b3d2df2ce48f7f38c19fcbc1
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102339"
+ms.locfileid: "43106685"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 팀 방에 대 한 요구 사항
 
@@ -115,7 +115,7 @@ Microsoft 팀 객실은 공간의 크기와 사용에 따라 다양 한 인증 �
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[옛 alink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Shure P300 Audio 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shmxa 310 표 배열 Mic](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
-|[Shure P300 Audio Conferening 프로세서](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Intellimix 천장 MXA 910 with Array Mic](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
+|[Shure P300 Audio 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Intellimix 천장 MXA 910 with Array Mic](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
 |[Biamp Tesira 전경 AVB VT4 고정 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 천장 2 마이크](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Bose ControlSpace EX, 440C DSP + </br>BOSE P2600A AmpLink 증폭기 +</br> Sennheiser TCC2 천장 마이크 + </br> bose EdgeMax 천장 스피커](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
 ||||||
