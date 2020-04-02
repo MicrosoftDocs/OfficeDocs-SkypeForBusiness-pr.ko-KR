@@ -14,16 +14,16 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방을 지원 하기 위한 요구 사항을 요약 하 여 설명 합니다.
-ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 9e07ac6f5f7ca477006dac703f7b3b8b2604c60b
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982121"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102339"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 팀 방에 대 한 요구 사항
 
-Microsoft 팀 객실은 공간의 크기와 사용에 따라 다양 한 인증 된 오디오 및 비디오 주변 장치를 사용 하 여 다양 한 공간으로 크기를 조정할 수 있습니다. 마이크, 스피커, 카메라, 공간에 적합 한 표시와 함께 올바른 핵심 장치 및 콘솔을 선택 하면 매우 큰 huddle 공간에 Microsoft 팀 대화방을 배포할 수 있습니다. 매우 많은 회의 공간 및 장소.  [장치 전시](https://products.office.com/microsoft-teams/across-devices)에서 회의실을 구성 하는 데 사용할 수 있는 모든 인증 된 오디오 및 비디오 주변 기기의 전체 집합을 사용할 수 있습니다.
+Microsoft 팀 객실은 공간의 크기와 사용에 따라 다양 한 인증 된 오디오 및 비디오 주변 장치를 사용 하 여 다양 한 공간으로 크기를 조정할 수 있습니다. 적절 한 핵심 장치 및 콘솔을 마이크, 스피커, 카메라, 공간에 적합 한 표시와 함께 선택 하면 매우 큰 전화 공간 및 huddle 공간을 차지 하는 매우 작은 크기의 공간에 Microsoft 팀 대화방을 배포할 수 있습니다.  [장치 전시](https://products.office.com/microsoft-teams/across-devices)에서 회의실을 구성 하는 데 사용할 수 있는 모든 인증 된 오디오 및 비디오 주변 기기의 전체 집합을 사용할 수 있습니다.
 
 이 문서에는 Microsoft 팀 대화방을 지원 하기 위한 장치 배포 및 구성 요구 사항이 요약 되어 있습니다.
 
@@ -116,7 +116,8 @@ Microsoft 팀 객실은 공간의 크기와 사용에 따라 다양 한 인증 �
 |[옛 alink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Shure P300 Audio 회의 프로세서](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shmxa 310 표 배열 Mic](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
 |[Shure P300 Audio Conferening 프로세서](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Intellimix 천장 MXA 910 with Array Mic](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
-|[Biamp Tesira 전경 AVB VT4 고정 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 천장 2 마이크](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |  |
+|[Biamp Tesira 전경 AVB VT4 고정 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 천장 2 마이크](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
+|[Bose ControlSpace EX, 440C DSP + </br>BOSE P2600A AmpLink 증폭기 +</br> Sennheiser TCC2 천장 마이크 + </br> bose EdgeMax 천장 스피커](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
 ||||||
 
 &Dagger;고객은이 번들에 대해 Dante 인터페이스 또는 Biamp/Sennheiser에서 권장 하는 네트워크 스위치를 선택할 수 있습니다.

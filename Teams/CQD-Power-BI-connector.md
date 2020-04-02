@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
-ms.openlocfilehash: c9987d05c5b057adf55791ffb2105d9ddb252722
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 393bfaf6348bb5ebc8c46df011387961d95cccfa
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559617"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102349"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
 
@@ -111,11 +111,21 @@ Power BI를 사용 하는 데도 불구 하 고 CQD 데이터 모델 또는 일�
 
 3.  **사용자 지정 시각적 개체-** CQD 커넥터는 사용자 지정 시각적 개체의 범위와 함께 작동 하지만, 모든 사용자 지정 시각적 개체와의 호환성을 보장할 수 없습니다. 많은 사용자 지정 시각적 개체는 계산 된 열 사용 또는 가져온 데이터 (DirectQuery 커넥터에서 지원 되지 않음)에 의존 합니다.
 
-4.  **캐시 된 데이터 참조-** Power BI는 현재 DirectQuery 커넥터에서 캐시 된 데이터를 어떤 방식으로든 참조할 수 없습니다. 쿼리 결과를 참조 하려고 하면 새 쿼리가 생성 됩니다.
+4.  **캐시 된 데이터 참조-** Power BI는 현재 DirectQuery 커넥터에서 캐시 된 데이터를 어떤 방식으로든 참조할 수 없습니다. 쿼리 결과를 참조 하려고 하면 새 쿼리가 생성 됩니다. 
 
 5.  **상대 데이터 필터링-** 은 (는) CQD 커넥터에서 지원 되지만 *시작 시간* 및 *종료 시간* 차원만 가능 합니다. *날짜 차원은 상대적* 날짜 필터링에 대 한 명백한 선택 일 수 있지만, *날짜* 는 날짜 시간 개체로 저장 되지 않으므로 Power BI에서 상대 날짜 필터링을 지원 하지 않습니다.
 
 연결선은 미리 보기에 있지만 커넥터의 최종 릴리스에서는 변경 될 가능성이 적습니다. 이러한 문제는 대부분 Power BI의 DirectQuery 커넥터 디자인에 대 한 제한 사항 이거나 CQD 데이터 모델 디자인의 기본입니다.
+
+## <a name="troubleshooting"></a>문제 해결
+
+### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>날짜 열을 날짜 slicer로 사용 하려고 합니다. 이 열의 데이터 형식을 날짜로 변환 하는 즉시 다음과 같은 오류가 발생 합니다.
+
+  **이 시각적 개체에 대 한 데이터를 로드할 수 없습니다**. OLE DB 또는 ODBC 오류: [Expression. 오류] 식을 데이터 원본으로 접을 수 없습니다. 더 간단한 식을 사용해 보세요. 
+
+Power BI 커넥터에서는 날짜 슬라이서가 지원 되지 않습니다. 날짜 범위를 지정 하려면 보고서에 두 개의 필터를 적용 하 고 그 보다 작거나 큰 값을 지정 합니다.
+
+또는 보려는 날짜가 최근 인 경우에는 상대 날짜 필터를 적용 하 여 지난 N 일/주/월의 데이터만 표시 합니다.
 
 ## <a name="error-codes"></a>오류 코드
 

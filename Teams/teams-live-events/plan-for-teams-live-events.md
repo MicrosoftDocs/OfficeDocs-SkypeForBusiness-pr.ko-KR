@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft Teams에서 라이브 이벤트를 설정하기 전에 고려해야 하는 요소에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096823"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102369"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -87,25 +87,25 @@ ms.locfileid: "43096823"
 |대상 그룹 참여 – Yammer |&#x2714; |&#x2714; (통합 환경) |&#x2714; (통합 환경) |
 |대상 그룹 참여 – 중재된 Q&A |&#x2714;  |&#x2714; |&#x2714; |
 |Windows의 프로듀서 클라이언트 |&#x2714;(비즈니스용 Skype) |&#x2714;(Teams) |&#x2714;(Stream, Stream Embed를 통한 Teams) |
-|Mac의 프로듀서 클라이언트 |X  | &#x2714;(Teams) |&#x2714;(Stream, Stream Embed를 통한 Teams) |
-|프로듀서 UI의 참석자 수 |X  |&#x2714;(Teams) |&#x2714;(Stream, Stream Embed를 통한 Teams) |
+|Mac의 프로듀서 클라이언트 |&#x274C;  | &#x2714;(Teams) |&#x2714;(Stream, Stream Embed를 통한 Teams) |
+|프로듀서 UI의 참석자 수 |&#x274C;  |&#x2714;(Teams) |&#x2714;(Stream, Stream Embed를 통한 Teams) |
 |여러 발표자 허용 |&#x2714;(비즈니스용 Skype) |&#x2714;(Teams) |해당 없음  |
-|모임 중에 발표자 초대 |&#x2714;(비즈니스용 Skype) |X |해당 없음 |
-|웹과 모바일의 발표자 참여 |&#x2714;(비즈니스용 Skype)  |X |해당 없음 |
-|페더레이션 및 게스트 발표자/참석자 |&#x2714;(비즈니스용 Skype)  | &#x2714;(Teams)  |해당 없음 |
-|발표자 – PSTN 액세스 |X |&#x2714;(Teams) |해당 없음 |
-|화면 발표 |X |&#x2714;(Teams) |해당 없음 |
-|PowerPoint 발표(PPT 공유) |&#x2714; |X(화면 공유를 통해 완화됨) |해당 없음 |
+|모임 중에 발표자 초대 |&#x2714;(비즈니스용 Skype) |&#x274C; |해당 없음 |
+|웹과 모바일의 발표자 참여 |&#x2714;(비즈니스용 Skype)  |&#x274C; |해당 없음 |
+|페더레이션 및 게스트 발표자/참석자 |&#x2714;(비즈니스용 Skype)  |  &#x2714;(Teams) |해당 없음 |
+|발표자 – PSTN 액세스 |&#x274C; |&#x2714;(Teams) |해당 없음 |
+|화면 발표 |&#x274C; |&#x2714;(Teams) |해당 없음 |
+|PowerPoint 발표(PPT 공유) |&#x2714; |&#x274C; (화면 공유를 통해 완화) |해당 없음 |
 |클라우드 기반 모임 녹음/녹화 |&#x2714; |&#x2714; |&#x2714; |
-|자동으로 Stream에 녹음/녹화 게시 |X |X |&#x2714; |
-|라이브 캡션 및 자막 |&#x2714; |&#x2714; |X |
+|자동으로 Stream에 녹음/녹화 게시 |&#x274C; |&#x274C; |&#x2714; |
+|라이브 캡션 및 자막 |&#x2714; |&#x2714; |&#x274C; |
 |라이브 이벤트 녹음/녹화의 캡션 |&#x2714; |&#x2714; |&#x2714; |
 |참석자 DVR 컨트롤(일시 중지, 되감기) |&#x2714; |&#x2714; |&#x2714; |
 |파트너 eCDN 지원 |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
-|프로듀서용 브로드캐스트 후 참석 보고서 |&#x2714; |&#x2714; |X |
-|대상 그룹 감정 분석 – 실시간 투표 및 설문 조사 |&#x2714; (Microsoft Pulse) |X |X |
+|프로듀서용 브로드캐스트 후 참석 보고서 |&#x2714; |&#x2714; |&#x274C; |
+|대상 그룹 감정 분석 – 실시간 투표 및 설문 조사 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> 설정된 제한이 변경되었을 수 있습니다.<br/>
+<sup>1</sup> 설정된 제한이 변경되었을 수 있습니다. [팀에 대 한 제한 및 사양을](../limits-specifications-teams.md)확인 합니다.<br/>
 <sup>2</sup> 라이브 이벤트에서 최대 250 명의 발표자와 제작자를 가질 수 있지만, 사용자는 스포크를 사용 하 여 목록에 표시 되는 최근 10 개 밖에 없습니다.
 
 

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 이 문서에서는 Microsoft 팀 대화방에 대 한 수명 지원에 대해 설명 합니다.
-ms.openlocfilehash: 0f445bf2500a01bf8ffddae569d176229bdcfde5
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9ca1f603a8931f204403870ee65a10f28a2a8795
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825916"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102329"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 팀 대화방 앱 버전 지원
  
@@ -53,16 +53,15 @@ Windows 10 기능 업데이트가 Microsoft 팀 대화방 장치에서 즉시 �
 |버전  |사용 가능 날짜   |Microsoft 팀 대화방 지원 상태   |Microsoft 팀 대화방 최소 응용 프로그램 버전 | 권장 OS 빌드  |
 |:---  |:---       |:---                                  |:---     |:---     |
 | 1909 |2019-11-12 |현재 유효성 검사 중 <br/>권장 되지 않음|&#x2014; |&#x2014; |
-| 1903 |2019-05-21 |지원 되는 &#x2780;, <br/>권장  |4.2.4.0 |18362.356 |
-| 1809 |2019-03-28 |건너뛰면 <br/>권장 하지 않음 &#x2781;|&#x2014; |&#x2014; |
+| 1903 |2019-05-21 |지원 <br/>권장  |4.2.4.0 |18362.356 |
+| 1809 |2019-03-28 |건너뛰면 <br/>권장 하지 않음 &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |지원                             |4.1.22.0 |17134.191|
 | 1709 |2018-01-18 |지원되지 않음                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |지원 되지 않음                         |&#x2014; |&#x2014; |
 ||||||
 
-인텔 그래픽 장치 드라이버 문제로 인해 플렉스 장치에서 Windows 10 1903를 사용 하 여 &#x2780; 수 없습니다. 이러한 장치에는 Windows 10 1903이 제공 되지 않습니다. 사용자는이 장치를 1903로 업그레이드 하 고 그래픽 드라이버 업데이트를 Crestron에서 사용할 때까지 Windows 10 1803에 유지 해야 합니다. 
-
-Windows 10 1809 버전 &#x2781; Microsoft 팀 대화방 응용 프로그램과 호환성 문제가 발생 하 여 사용 하지 않는 것이 좋습니다. 이 특정 문제는 야간 재부팅 후 Microsoft 팀원의 룸 응용 프로그램이 시작 되지 않는 원인이 될 수 있습니다. 이 문제는 Windows 10 1903 버전에서 해결 되었습니다.  
+ 
+Windows 10 &#x2780; 버전 1809는 Microsoft 팀 회의실 응용 프로그램에서 발견 된 호환성 문제로 인해 권장 되지 않습니다. 이 특정 문제가 발생 하면 야간 재부팅 후 Microsoft 팀 대화방 응용 프로그램이 시작 되지 않습니다. 이 문제는 Windows 10 버전 1903에서 해결 되었습니다.  
 
 지원 되는 버전의 Windows 10을 사용 하는 경우 항상 Microsoft 팀 대화방 앱에 대 한 최신 응용 프로그램 업데이트를 받게 됩니다.  
 

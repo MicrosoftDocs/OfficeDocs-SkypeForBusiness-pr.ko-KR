@@ -14,12 +14,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 사용자 지정 테마 적용을 포함 하 여 Microsoft 팀 대화방 장치에서 사용 하는 기본 설정의 원격 관리에 대해 설명 합니다.
-ms.openlocfilehash: e33934dcabc420b7e84886f0301c343f5caf333a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a06b94bff350d07e540a80092bf7edbed33ddc8
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827402"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102319"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리
 
@@ -47,6 +47,7 @@ ms.locfileid: "41827402"
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
+    <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
         <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
         <SendLogsAndFeedback>true</SendLogsAndFeedback>
@@ -91,10 +92,11 @@ ms.locfileid: "41827402"
 |\<IsTeamsDefaultClient> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 되지 않습니다. |
 |\<BluetoothAdvertisementEnabled> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 하도록 설정 되어 있습니다. |
 |\<DualScreenMode\>  |부울 &#x2777;  |첫 번째 &#x2776;  |True 이면 이중 화면 모드를 사용 하도록 설정 합니다. 그렇지 않으면 장치가 단일 화면 모드를 사용 합니다. |
-|\<SendLogs\> |컨트롤러 |첫 번째 &#x2776;  ||
-|\<EmailAddressForLogsAndFeedback\> |문자열 &#x2778;  || "피드백 제공" 창이 나타날 때 로그를 보낼 수 있는 선택적 전자 메일 주소를 설정 합니다. |
-|\<SendLogsAndFeedback\> |부울 &#x2777;  || True 이면 로그가 관리자에 게 전송 됩니다. False 인 경우, 사용자만 피드백을 관리자에 게 보냅니다 (로그 아님).  |
-| \<디바이스\>  |컨트롤러 |첫 번째 &#x2776;  | 자식 요소의 연결 된 오디오 장치 이름은 장치 관리자 앱에 나열 된 값과 동일 합니다. 구성에는 현재 콘솔에 연결 되지 않은 A/V 장치와 같이 현재 시스템에 존재 하지 않는 장치가 포함 될 수 있습니다. 해당 디바이스에 대 한 구성이 유지 됩니다.  |
+| \<DuplicateIngestDefault\> |부울 &#x2777;  |첫 번째 &#x2776; |True 인 경우 모임이 종료 되 면 두 화면에 모두 듀얼 화면 모드로 내용이 표시 됩니다. | 
+|\<SendLogs\> |컨트롤러 |첫 번째 &#x2776;  |  |
+|\<EmailAddressForLogsAndFeedback\> |문자열 &#x2778;  | | "피드백 제공" 창이 나타날 때 로그를 보낼 수 있는 선택적 전자 메일 주소를 설정 합니다. |
+|\<SendLogsAndFeedback\> |부울 &#x2777;  | | True 이면 로그가 관리자에 게 전송 됩니다. False 인 경우, 사용자만 피드백을 관리자에 게 보냅니다 (로그 아님).  |
+| \<장치\>  |컨트롤러 |첫 번째 &#x2776;  | 자식 요소의 연결 된 오디오 장치 이름은 장치 관리자 앱에 나열 된 값과 동일 합니다. 구성에는 현재 콘솔에 연결 되지 않은 A/V 장치와 같이 현재 시스템에 존재 하지 않는 장치가 포함 될 수 있습니다. 해당 디바이스에 대 한 구성이 유지 됩니다.  |
 |\<MicrophoneForCommunication\> |문자열 &#x2778;  ||회의에서 녹음 장치로 사용 되는 마이크를 설정 합니다. |
 |\<SpeakerForCommunication\> |문자열 &#x2778;  ||회의에 대 한 스피커로 사용할 장치입니다. 이 설정은 통화에 사용 되는 스피커 장치를 설정 하는 데 사용 됩니다. |
 |\<DefaultSpeaker\> |문자열 &#x2778;  ||HDMI 수집 원본에서 오디오를 재생 하는 데 사용 되는 장치입니다. |
@@ -107,7 +109,7 @@ ms.locfileid: "41827402"
 |\<CustomThemeColor\> |컨트롤러 ||\<\>RedComponent \<,\>GreenComponent 및 \<BlueComponent\> 값에 대 한 컨테이너입니다. 이러한 값은 사용자 지정 테마에 필요 합니다. |
 |\<RedComponent\> |Byte (0-255) ||빨강 색 구성 요소를 나타냅니다. |
 |\<GreenComponent\> |Byte (0-255) ||녹색 색 구성 요소를 나타냅니다. |
-|\<BlueComponent\> |Byte (0-255) ||파란색 색 구성 요소를 나타냅니다. |
+|\<BlueComponent\> |Byte (0-255) ||파란색 색 구성 요소를 나타냅니다. | 
 | | | |
 
 모든 첫 번째 수준 요소 &#x2776;는 선택 사항입니다. 첫 번째 수준 요소를 생략 하면 해당 하위 매개 변수는 장치에서 변경 되지 않은 상태로 유지 됩니다.

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방에 대 한 알려진 문제점을 기능별로 설명 합니다.
-ms.openlocfilehash: 3fedfbb4fdce0626783d285825eb75c22e2e7a78
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e0b22d55de5fcf2fd49cf795497f2cb26c1952cf
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826066"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102379"
 ---
 # <a name="known-issues"></a>알려진 문제 
  
@@ -31,14 +31,14 @@ ms.locfileid: "41826066"
 | 문제 제목 |  동작 \/ 증상 | 알려진 해결 방법 | 기술 자료 문서 |
 |  ---        |      ---             |   ---            | --- |
 |  앱이 만료 되었습니다.         |    Microsoft 팀 회의실 콘솔에 "시스템 구성 오래 됨" 오류가 표시 됩니다.                |   [Microsoft 팀 대화방 복구 도구 사용](recovery-tool.md)             |  없음 |
-
+|  장치가 지원 되지 않는 버전의 Windows 10으로 업데이트 됨   |    Windows 10 장치가 버전 1803에서 버전 1809 (지원 되지 않음)로 업데이트 되었습니다. 지원 되는 버전은 1903입니다. |   이 문제는 지정 된 일 수 동안 기능 업데이트를 지연할 수 있는 [DeferFeatureUpdatesPeriodinDays setting에 대 한 그룹 정책 또는 MDM 설정이](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) 최대 365 일로 설정 된 경우에 발생할 수 있습니다. <br><br> Windows 10 버전 1809는 Microsoft 팀 대화방에서 지원 되지 않으며 버전 1903이 지원 됩니다. 그러나, 3 월 27 일 현재 2020 버전 1809은 365 일이 하를 초과 합니다. 이 설정이 변경 되지 않으면 Windows에서 버전 1809를 설치 하려고 시도 하며,이 경우 Microsoft 팀 대화방에 문제가 발생할 수 있습니다.<br><br>이 문제를 방지 하려면 업데이트 지연에 대 한 그룹 정책 또는 MDM 설정을 **제거** 합니다. 이렇게 하면 Windows에서 지원 되는 최신 OS 버전으로 업데이트할 수 있습니다. <br><br>**중요** 그룹 정책 또는 MDM 설정을 **제거** (왼쪽에 구성 취소) 하 고 **0으로 설정 하지**않아야 합니다. 정책이 0으로 설정 되 면 Windows에서 지원 되지 않을 수 있는 최신 버전을 사용 합니다. |  없음 |
 
 <a name="OS-conflicts"> </a>  
 ## <a name="user-interface"></a>사용자 인터페이스 
 
 | 문제 제목 |  동작 \/ 증상 | 알려진 해결 방법 | 기술 자료 문서 |
 |  ---        |      ---             |   ---            | --- |
-|가상 키보드가 없음   | Microsoft 팀 대화방에 정보를 입력 해야 하는 경우 가상 키보드가 표시 되지 않습니다. 이 문제는 Microsoft 팀 대화방이 실행 되는 Surface Pro 4에 Windows 10 크리에이터 업데이트 (버전 1703)가 설치 된 후에 발생 합니다. | 이 문제를 해결 하려면 가상 키보드를 수동으로 여십시오. 다음의 단계를 따릅니다:<br><br> **1.** 작업 표시줄을 길게 탭 한 다음 **터치 키보드 단추 표시** 를 탭 합니다. 작업 표시줄의 오른쪽에 키보드 아이콘이 표시 됩니다. <br><br> **2.** 키보드 아이콘을 탭 하 여 가상 키보드를 엽니다. | [KB4037694](https://support.microsoft.com/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|가상 키보드가 없음   | Microsoft 팀 대화방에 정보를 입력 해야 하는 경우 가상 키보드가 표시 되지 않습니다. 이 문제는 Windows 10 버전 1903에서 발생 합니다. | Windows 10에 대 한 2020-04 누적 업데이트 설치, x64 기반 시스템에 대 한 windows 업데이트 (버전 1903)  | 없음 | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>하드웨어
@@ -69,9 +69,6 @@ Microsoft 팀 대화방 장치가 도메인에서 신뢰를 상실 한 경우에
 64 비트 버전의 Windows 10 Enterprise 기념일 edition (영어 버전 1607)은 Microsoft 팀 회의실 릴리스 3.0.12.0에서 더 이상 지원 되지 않습니다. 
 ***
 Microsoft 팀 대화방은 다중 창 응용 프로그램 이므로 장치의 HDMI 포트에 연결 하 여 앱이 올바르게 작동 하도록 하는 방 디스플레이가 앞에 있어야 합니다. 테스트 하는 경우에는 HDMI 디스플레이가 연결 되어 있는지 확인 하 고, 아직 표시를 구매 하지 않은 경우에는 dummy HDMI 플러그를 사용 해야 합니다.
-***
-Windows 10 1903는 그래픽 드라이버 문제로 인해 Crestron의 Microsoft 팀 공간 장치에 아직 제공 되지 않습니다.
-
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>참고 항목
