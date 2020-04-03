@@ -17,12 +17,12 @@ f1.keywords:
 description: Microsoft Teams 클라이언트 앱 및 관리자 환경에 대해 현재 알려진 문제 목록입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9023c7a7bfe5a629f3f2fdb9589ee3f9ef9efd68
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: d856962cf0fdb21d0dd58313b5ade6a9bab9d364
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951513"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096623"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams의 알려진 문제
 
@@ -275,7 +275,7 @@ ms.locfileid: "42951513"
 
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|
-|리소스 계정에서 부서가 잘못 구성됨 <br/> | 2019년 1월 이전에 생성된 자동 전화 교환 또는 통화 큐와 관련된 온 프레미스 리소스 계정에는 Department 매개 변수가 제대로 설정되어 있지 않아 전화번호 할당이 실패할 수 있습니다. 이 문제를 해결하기 위한 해결 방법이 진행 중입니다. <br/><br/> 비즈니스용 Skype 서버와 함께 New-CsHybridApplicationEndpoint를 사용하여 구성된 리소스 계정에는 Department 매개 변수가 제대로 설정되어 있지 않아 Teams 관리 센터에서 리소스 계정을 만들 수 없습니다. 이 경우 온라인으로 동기화하기 전 Active Directory의 부서 이름을 온 프레미스로 구성해야 합니다.|이 문제를 완화하기 위해 다음 Cmdlet을 실행하여 department 매개 변수를 설정할 수 있습니다. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft 통신 프로그램 인스턴스" <br/> 또한 [자동 전화 교환 및 통화 큐 서비스 업데이트](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)를 참조하세요. |2019년 5월 8일 <br/> |
+|리소스 계정에서 부서가 잘못 구성됨 <br/> | 2019년 1월 이전에 생성된 자동 전화 교환 또는 통화 큐와 관련된 온 프레미스 리소스 계정에는 Department 매개 변수가 제대로 설정되어 있지 않아 전화번호 할당이 실패할 수 있습니다. 이 문제를 해결하기 위한 해결 방법이 진행 중입니다. <br/><br/> 비즈니스용 Skype 서버와 함께 New-CsHybridApplicationEndpoint를 사용하여 구성된 리소스 계정에는 Department 매개 변수가 제대로 설정되어 있지 않아 Teams 관리 센터에서 리소스 계정을 만들 수 없습니다. 이 경우 온라인으로 동기화하기 전 Active Directory의 부서 이름을 온 프레미스로 구성해야 합니다.|이 문제를 완화하기 위해 다음 Cmdlet을 실행하여 Department 매개 변수를 설정할 수 있습니다. Set-AdUser -Identity <objectId> -Department “Microsoft 통신 응용 프로그램 인스턴스” <br/> 또한 [자동 전화 교환 및 통화 큐 서비스 업데이트](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)를 참조하세요. |2019년 5월 8일 <br/> |
 
 
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
