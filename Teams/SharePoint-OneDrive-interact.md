@@ -17,19 +17,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 236b1d570d44395f3499c0a5fec3d3a415953e12
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d5f2698330ae23f25ffbbe5fae40d8dc6234354d
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834688"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131116"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 및 비즈니스용 OneDrive가 Microsoft 팀과 상호 작용 하는 방법
 
 > [!Tip]
 > 다음 세션에서 팀이 Azure Active Directory (AAD), Office 365 그룹, Exchange, SharePoint 및 비즈니스용 OneDrive와 상호 작용 하는 방법에 대해 알아보세요. [Microsoft 팀의 기초](https://aka.ms/teams-foundations)
 
-Microsoft 팀의 각 팀은 SharePoint Online에 팀 사이트가 있으며, 팀의 각 표준 채널은 기본 팀 사이트 문서 라이브러리 내에서 폴더를 가져옵니다. 대화 내에서 공유된 파일은 문서 라이브러리에 자동으로 추가되고, SharePoint에 설정된 사용 권한 및 파일 보안 옵션은 Teams에서 자동으로 반영됩니다.
+Microsoft 팀의 각 팀은 SharePoint Online에 팀 사이트가 있으며, 팀의 각 표준 채널은 기본 팀 사이트 문서 라이브러리 내에서 폴더를 가져옵니다. 대화 내에서 공유된 파일은 문서 라이브러리에 자동으로 추가되고, SharePoint에 설정된 사용 권한 및 파일 보안 옵션은 Teams에서 자동으로 반영됩니다. SharePoint에서 사이트 주소를 변경 했을 때의 영향을 확인 하려면 [사이트 주소 변경을](https://docs.microsoft.com/sharepoint/change-site-address)참조 하세요.
 
 > [!NOTE]
 > 이 문서는 표준 채널에만 적용 됩니다. 개인 채널의 아키텍처가 표준 채널과 다릅니다. 각 개인 채널에는 상위 팀 사이트와는 별도의 SharePoint 사이트 모음이 있습니다. 자세한 내용은 [Microsoft 팀의 개인 채널](private-channels.md)을 참조 하세요.

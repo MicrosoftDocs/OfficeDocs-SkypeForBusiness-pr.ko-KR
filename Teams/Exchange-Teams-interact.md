@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e147a300f628347b5e38837a3d277a78a4c593c4
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 68468455da96fc3b2790a832b6732d7211bd7733
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285750"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131146"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 및 Microsoft 팀의 상호 작용 방식
 
@@ -32,11 +32,11 @@ ms.locfileid: "42285750"
 
 사용자의 Exchange 사서함을 온라인 또는 온-프레미스로 호스트할 수 있습니다. 그러나 일부 기능을 사용 하려면 Office 365 테 넌 트를 통해 하이브리드 배포를 배치 해야 합니다.
 
-Exchange Online 또는 Exchange 전용 vNext에서 호스팅되는 사용자는 팀의 모든 기능을 사용할 수 있습니다. 팀 및 채널을 만들고, 회의를 만들고, 채팅을 하 고, 사용자 프로필 사진을 수정 하 고, 커넥터, 탭, 인공 지능 추가 및 구성할 수 있습니다.
+Exchange Online 또는 Exchange 전용 vNext에서 호스팅되는 사용자는 팀의 모든 기능을 사용할 수 있습니다. 팀과 채널을 만들고, 모임을 만들고, 보고, 사용자 프로필 사진을 수정할 수 있으며 (웹 사서함 정책의 Outlook에서 수행할 수 있는 경우) 커넥터, 탭, 인공 지능을 추가 하 고 구성 합니다.
 
 Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Office 365의 Azure Active Directory와 동기화 되어야 합니다. 팀과 채널을 만들고 참가 하 고, 탭 및 인공 지능을 추가 및 구성 하 고, 채팅 및 통화 기능을 활용할 수 있습니다. 그러나 프로필 사진을 수정 하거나, 모임을 관리 하거나, outlook 연락처에 액세스 하거나, 연결선을 관리할 수는 없습니다.
 
-온-프레미스에 호스팅되는 사서함이 있는 사용자는 Azure Active Directory와 동기화 되어야 합니다. 위의 시나리오에서 모든 기능을 사용할 수 있지만, 또한 사용자 프로필 사진을 변경 하 고 모임 관리를 위해 Exchange Server 2016 (누적 업데이트 3)을 제공 하 여 온-프레미스로 실행할 수도 있습니다.
+온-프레미스에 호스팅되는 사서함이 있는 사용자는 Azure Active Directory와 동기화 되어야 합니다. 위의 시나리오에서 모든 기능을 사용할 수 있지만, 또한 사용자 프로필 그림만 변경할 수 있으며 (웹 사서함 정책의 Outlook에서이 작업을 수행할 수 있도록 허용 하는 경우), 모임 관리, 즉 Exchange Server 2016 (누적 업데이트 3)을 제공 하는 온-프레미스로 실행 되는 경우도 있습니다.
 
 다음 표에서는 Exchange 환경을 기반으로 하는 기능 가용성에 대 한 유용한 빠른 참조를 제공 합니다.
 
@@ -45,10 +45,10 @@ Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Office 365
 
 | 사용자의 사서함이 호스트 되는 위치: | eDiscovery| 법률&nbsp;보류 | 보관| 팀 및 채널 관리 |팀에서 모임 만들기 및 보기| 사용자 프로필 사진 수정 | 통화 기록 | 연락처 관리 | Outlook 연락처에 액세스 | 음성 메일 |커넥터 추가 및 구성|탭 추가 및 구성|봇 추가 및 구성| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예|예|예|예 <sup>7</sup>|예|예|예|예|
-|**Exchange Online 전용 vNext**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예|예|예|예 <sup>7</sup>|예|예|예|예|
+|**Exchange Online**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예<sup>8</sup>|예|예|예 <sup>7</sup>|예|예|예|예|
+|**Exchange Online 전용 vNext**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예<sup>8</sup>|예|예|예 <sup>7</sup>|예|예|예|예|
 |**Exchange Online 전용-레거시** (Azure AD와 동기화 필요)|예 <sup>2</sup>|예 <sup>2, 3</sup>|예 <sup>4|예|아니요|아니요|예|예|아니요|예 <sup>5|예 <sup>6|예|예|
-|**Exchange 온-프레미스** (Azure AD와 동기화 필요)|예 <sup>2</sup>| 예 <sup>2, 3</sup> |예 <sup>4|예|Yes (Exchange 2016 CU3 이상 +)|Yes (Exchange 2016 CU3 이상 +)|예|예|아니요|예 <sup>5|예 <sup>6|예|예|
+|**Exchange 온-프레미스** (Azure AD와 동기화 필요)|예 <sup>2</sup>| 예 <sup>2, 3</sup> |예 <sup>4|예|Yes (Exchange 2016 CU3 이상 +)|예<sup>8</sup> (EXCHANGE 2016 cu3 이상 +)|예|예|아니요|예 <sup>5|예 <sup>6|예|예|
 
 <sup>1</sup> EXCHANGE 2016 cu3 이상 이상 지원 됩니다.  
 
@@ -63,6 +63,8 @@ Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Office 365
 <sup>6</sup> 팀 소유자 중 한 명에 게 커넥터를 추가할 수 있는 경우 해당 팀의 다른 사용자는 자신의 사서함이 온-프레미스 인 경우에도이 작업을 수행할 수 있습니다.
 
 <sup>7</sup> 기본 연락처 폴더의 연락처만 다른 연락처 폴더 또는 하위 폴더에 대 한 액세스는 지원 되지 않습니다.
+
+<sup>8</sup> 팀은 테 넌 트 관리자가 구성 하는 [웹 사서함 정책](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정의 Outlook을 통해 사용자가 프로필 사진을 변경할 수 있는지 여부를 제어 합니다. 정책에서 **-set사진 사용** 설정이 해제 되어 있으면 사용자가 프로필 사진을 추가, 변경 또는 제거할 수 없습니다. 예를 들어 사용자가 조직의 IT 또는 HR 부서에서 승인한 프로필 사진을 업로드 하는 경우 아무런 작업도 필요 하지 않습니다. 그러나 사용자가 부적절 한 그림을 업로드 하는 경우 조직의 내부 정책에 따라 그림을 변경 합니다.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft 팀을 최대한 활용 하기 위한 요구 사항
 
