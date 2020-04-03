@@ -23,19 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직에 대 한 전화 번호 또는 포팅 (전송) 번호를 받고 있는 경우 PSTN 서비스 데스크에서 도움말 및 지원을 받아야 할 수 있습니다.
-ms.openlocfilehash: 3fe6353deb52911a4e0f0249f500a2a562e29ac1
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 58c32b8bf54ff6b1e9df689c6bcde184889b8462
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583080"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116704"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN 서비스 데스크 연락처
 
-번호 가져오기 또는 전송에 대 한 도움이 필요 하지만 도움이 필요 하시면 전자 메일을 보내 저희에 게 보낼 수 있는 방법을 알려주세요. 전자 메일 도움말 요청에서 조직 ID (테 넌 트 ID), 도메인, 도움이 필요한 숫자 형식, 원하는 숫자, 계정에 대 한 사용자 권한 및 기타 중요 한 세부 정보를 포함할 수 있는 것과 같은 세부 정보를 포함 합니다. 문제에 대해 알아보세요.
+번호 가져오기 또는 전송에 대 한 도움이 필요 하지만 도움이 필요 하시면 전자 메일을 보내 저희에 게 보낼 수 있는 방법을 알려주세요. 전자 메일 도움말 요청에 여러 세부 정보 (예: 조직 ID (테 넌 트 ID), 도메인, 도움이 필요한 숫자 형식, 원하는 수, 사용자의 계정에 대 한 권한 부여, 문제에 대 한 기타 중요 한 세부 정보를 포함 합니다.
 
   - 조직 ID (테 넌 트 ID) 또는 활성 도메인
   - 도움이 필요한 숫자 형식 (사용자/구독자, 서비스/유료 또는 무료)입니다.
+    - 전화 번호를 원하는 지역 번호를/Country/Region 포함 합니다.
   - 필요한 숫자의 수를 계산 합니다 (숫자 획득의 경우).
   - 계정에 대 한 사용자 권한 부여 및 요청에 따른 기타 중요 한 세부 정보
 

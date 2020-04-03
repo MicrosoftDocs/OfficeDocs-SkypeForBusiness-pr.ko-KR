@@ -19,24 +19,32 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3320681f606150be223433d6ab80e8e0ee41a42f
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: fbec8f7d246a4acfe241ef4f4d701cc9e1e6b28c
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053414"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117426"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
 > [!IMPORTANT]
-> Office 365의 고객은 데이터를 소유 하 고 제어 합니다. Microsoft는 귀하가 구독 한 서비스를 제공 하는 것 외에는 데이터를 사용 하지 않습니다. 서비스 제공 업체는 전자 메일, 문서 또는 팀이 광고 또는 서비스와 관련이 없는 목적을 검사 하지 않습니다. Microsoft는 업로드 된 콘텐츠에 액세스할 수 없습니다. 비즈니스용 OneDrive 및 SharePoint Online과 마찬가지로 고객 데이터는 테 넌 트 내에 남아 있습니다. [Microsoft 보안 센터](https://microsoft.com/trustcenter)에서 신뢰 및 보안 관련 정보에 대 한 자세한 내용을 확인할 수 있습니다. 팀은 Microsoft 보안 센터와 동일한 지침 및 원칙을 따릅니다.
+> **모든 사람이 공동으로 작업 하는 동안 보안**을 유지 하는 가장 좋은 방법을 알아보려면 다음 문서를 참조 하세요.
+>  - [보안 팀이 재택 근무를 지원하는 상위 12가지 작업](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+>  - [VPN 분할 터널링을 사용하여 원격 사용자를 위해 Office 365 연결 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+>  - 업데이트 됨 2020 년 4 월 2 일: [팀 보안 가이드](teams-security-guide.md)
+
 
 Microsoft 팀은 고객이 기대 하는 고급 보안 및 규정 준수 기능을 제공 하는 Office 365 하이퍼 규모의 엔터프라이즈 등급 클라우드를 기반으로 합니다. O365의 보안 계획에 대 한 자세한 내용은 해당 O365 콘텐츠를 검토 하세요. [O365 보안 로드맵](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) 을 시작 하는 것이 좋습니다. O365의 준수 계획에 대 한 자세한 내용은 [보안 및 준수 계획](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance) 문서를 사용 하 여 시작할 수 있습니다.
 
-이 문서에서는 팀 관련 보안 및 준수에 대 한 자세한 정보를 제공 합니다. 보안 및 규정 준수에 대 한 다음 Microsoft 기술 비디오를 검토 해야 합니다.
+
+이 문서에서는 팀 관련 보안 및 준수에 대 한 자세한 정보를 제공 합니다. 보안 및 규정 준수에 대 한 다음 Microsoft 기술 비디오를 놓치지 마세요.
 
 - [Microsoft 팀의 주요 기능: 보안 및 준수](https://youtu.be/91lHNKVVvQ4) (12:42 분)
 - [Microsoft 팀의 보안 및 규정 준수 제어](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 분)
+
+> [!IMPORTANT]
+> Office 365의 고객은 데이터를 소유 하 고 제어 합니다. Microsoft는 귀하가 구독 한 서비스를 제공 하는 것 외에는 데이터를 사용 하지 않습니다. 서비스 제공 업체는 전자 메일, 문서 또는 팀이 광고 또는 서비스와 관련이 없는 목적을 검사 하지 않습니다. Microsoft는 업로드 된 콘텐츠에 액세스할 수 없습니다. 비즈니스용 OneDrive 및 SharePoint Online과 마찬가지로 고객 데이터는 테 넌 트 내에 남아 있습니다. [Microsoft 보안 센터](https://microsoft.com/trustcenter)에서 신뢰 및 보안 관련 정보에 대 한 자세한 내용을 확인할 수 있습니다. 팀은 Microsoft 보안 센터와 동일한 지침 및 원칙을 따릅니다.
 
 ## <a name="security"></a>보안
 
@@ -71,11 +79,11 @@ Microsoft 팀 데스크톱 응용 프로그램에서 AppLocker를 지원 합니�
 
 ## <a name="compliance"></a>충족
 
-팀에는 채널, 채팅, 첨부 파일, 보존 정책, 데이터 손실 방지 (DLP), 채널에 대 한 eDiscovery 및 법적 고 지 사항 보호, 채팅 및 파일, 감사 로그에 대 한 통신 준수를 포함 하 여 규정 준수 영역에 도움이 되는 다양 한 정보가 있습니다. Microsoft Intune을 사용 하 여 검색 및 모바일 응용 프로그램 관리 위의 모든 항목에 대 한 정보를 제공 하 고 [Microsoft 365 준수 센터](https://compliance.microsoft.com) 또는 [Office 365 보안 & 준수 센터로](https://protection.microsoft.com) 이동 하 여 이러한 설정을 관리할 수 있습니다.
+팀에는 채널, 채팅, 첨부 파일, 보존 정책, 데이터 손실 방지 (DLP), 채널에 대 한 eDiscovery 및 유효 유지, 채팅 및 파일, 감사 로그 검색, Microsoft Intune의 모바일 응용 프로그램 관리에 대 한 통신 준수를 비롯 하 여 규정 준수 영역에 도움이 되는 다양 한 정보가 있습니다. 위의 모든 항목에 대 한 정보를 제공 하 고 [Microsoft 365 준수 센터](https://compliance.microsoft.com) 또는 [Office 365 보안 & 준수 센터로](https://protection.microsoft.com) 이동 하 여 이러한 설정을 관리할 수 있습니다.
 
 ### <a name="communication-compliance"></a>통신 준수
 
-Microsoft 365의 통신 준수 기능을 사용 하면 Microsoft 팀 통신을 악의적인 언어, 중요 한 정보, 내부 및 규제 표준 관련 정보 등을 검사 하도록 구성할 수 있는 범위 내 정책에 사용자를 추가할 수 있습니다. . 공용 및 개인 팀 채널, 개인 채팅, 첨부 파일 모두에 대 한 채팅 통신 및 관련 첨부 파일을 검색 하 여 조직의 통신 위험을 최소화할 수 있습니다. 부적절 한 팀 통신을 감지 하 고 캡처하고 작업을 수행 하는 데 도움이 되도록 정책을 구성할 수 있는 방법에 대 한 자세한 내용은 [Microsoft 365의 통신 준수](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)를 참조 하세요.
+Microsoft 365의 통신 준수를 통해 사용자를 범위 내 정책에 추가 하 여 악의적인 언어, 중요 한 정보, 내부 및 규제 표준 관련 정보에 대 한 Microsoft 팀 통신을 검사 하도록 구성할 수 있습니다. 공용 및 개인 팀 채널, 개인 채팅, 첨부 파일 모두에 대 한 채팅 통신 및 관련 첨부 파일을 검색 하 여 조직의 통신 위험을 최소화할 수 있습니다. 부적절 한 팀 통신을 감지 하 고 캡처하고 작업을 수행 하는 데 도움이 되도록 정책을 구성할 수 있는 방법에 대 한 자세한 내용은 [Microsoft 365의 통신 준수](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)를 참조 하세요.
 
 ### <a name="retention-policies"></a>보존 정책
 

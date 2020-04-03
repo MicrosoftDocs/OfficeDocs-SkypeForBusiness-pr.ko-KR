@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eca4b7c7c4708509eb33bc14e4514dc3f858980
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 344bf59d401e43c40c6f643b334c2f34311d6cbe
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837958"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116694"
 ---
 # <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>직접 라우팅 세션 경계 컨트롤러 연결을 테스트 하기 위한 PowerShell 스크립트
 
@@ -36,3 +36,8 @@ SIP 테스터 클라이언트는 Microsoft 팀에서 직접 SBC (라우팅 세�
 ## <a name="download-the-script-and-documentation"></a>스크립트 및 문서 다운로드
 
 [SIP 테스터 클라이언트 스크립트 및 문서](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)를 다운로드 합니다.
+
+  > [!NOTE]
+  > SIP 테스터 클라이언트 스크립트는 adal.ps 버전 3.19.8.1만 지원 합니다. 이후 버전의 adal.ps 사용 되는 경우 오류가 반환 됩니다.
+  
+  
