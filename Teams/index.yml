@@ -12,32 +12,32 @@ metadata:
   ms.author: samanro
   ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: aaa60d789f5048c11647460dccb636da8c519e62
-  ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
+  ms.openlocfilehash: e3c67ada87cdee958fbb76c4862e01b1ced7901a
+  ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 02/12/2020
-  ms.locfileid: "41953799"
+  ms.lasthandoff: 04/02/2020
+  ms.locfileid: "43117536"
 highlightedContent:
   items:
+  - title: COVID-19 응답-팀을 사용 하 여 원격 작업자 지원
+    itemType: overview
+    url: /MicrosoftTeams/support-remote-work-with-teams
   - title: Teams를 배포하는 방법
     itemType: deploy
     url: /MicrosoftTeams/how-to-roll-out-teams
+  - title: 팀의 보안 및 규정 준수
+    itemType: overview
+    url: /MicrosoftTeams/security-compliance-overview
   - title: 귀하와 사용자를 위한 교육 찾기
     itemType: learn
     url: /MicrosoftTeams/training-microsoft-teams-landing-page
   - title: 비즈니스용 Skype에서 Teams로 업그레이드
-    itemType: overview
+    itemType: how-to-guide
     url: /MicrosoftTeams/upgrade-start-here
   - title: 채택 허브
     itemType: get-started
     url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
-  - title: IT 아키텍처 포스터 및 해결 방법
-    itemType: architecture
-    url: /MicrosoftTeams/teams-architecture-solutions-posters
-  - title: 팀을 처음 접하는 경우 여기서 시작
-    itemType: quickstart
-    url: /MicrosoftTeams/teams-overview
 additionalContent:
   sections:
   - items:
@@ -51,8 +51,8 @@ additionalContent:
         url: /MicrosoftTeams/teams-memory-usage-perf
       - text: 다른 조직의 사용자와 통신 (게스트/외부 액세스)
         url: /MicrosoftTeams/communicate-with-users-from-other-organizations
-      - text: 팀의 보안 및 규정 준수
-        url: /MicrosoftTeams/security-compliance-overview
+      - text: IT 아키텍처 포스터 및 해결 방법
+        url: /MicrosoftTeams/teams-architecture-solutions-posters
     - title: 팀과 음성 통화
       links:
       - text: Microsoft 팀의 클라우드 음성
