@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91cb2752d1e37f98056f305a287bf9e6c974e4e8
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 2c6ce90a3ee92703b697a9fdb5dcfec3206193b4
+ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053631"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113211"
 ---
 # <a name="security-and-microsoft-teams"></a>보안 및 Microsoft Teams
 
@@ -143,7 +143,7 @@ Teams는 TLS 및 MTLS를 사용하여 인스턴트 메시지를 암호화합니�
 
 #### <a name="media-encryption"></a>미디어 암호화
 
-미디어 트래픽은 RTP(Real-Time Transport Protocol) 트래픽에 기밀유지, 인증 및 재생 공격으로부터 보호 기능을 제공하는 RTP 프로필인 보안 RTP(SRTP)를 사용하여 암호화됩니다. SRTP는 안전한 난수 생성기를 사용하여 생성되고 신호 TLS 채널을 사용하여 교환되는 세션 키를 사용합니다.
+미디어 트래픽은 RTP(Real-Time Transport Protocol) 트래픽에 기밀유지, 인증 및 재생 공격으로부터 보호 기능을 제공하는 RTP 프로필인 보안 RTP(SRTP)를 사용하여 암호화됩니다. SRTP는 안전한 난수 생성기를 사용하여 생성되고 신호 TLS 채널을 사용하여 교환되는 세션 키를 사용합니다. 클라이언트 대 클라이언트 미디어 트래픽은 클라이언트 대 서버 연결 신호를 통해 협상되지만 클라이언트에서 클라이언트로 직접 이동할 때 SRTP를 사용하여 암호화됩니다.
 
 Teams는 TURN을 통한 미디어 릴레이로의 보안되는 액세스를 위해 자격 증명 기반의 토큰을 사용합니다. 미디어 릴레이는 TLS 보안 채널을 통해 토큰을 교환합니다.
 
@@ -295,6 +295,6 @@ Teams에서 익명 사용자는 대기실이라는 대기 공간으로 보내질
 
 [Microsoft Teams에서의 모임 설정 관리](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[VPN 분할 터널링을 사용하여 원격 사용자를 위해 Office 365 연결 최적화](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel?branch=vpn-split-tunnel)
+[VPN 분할 터널링을 사용하여 원격 사용자에게 맞도록 Office 365 연결 최적화](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel?branch=vpn-split-tunnel)
 
 - [Office 365 VPN 분할 터널링 구현](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-implement-split-tunnel?branch=vpn-split-tunnel)
