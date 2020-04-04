@@ -19,13 +19,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 추가 기능 라이선스, 각 라이센스와 함께 제공되는 기능, 제품용 라이선스 구입 방법 및 기존 통신사와 함께 사용하는 방법에 대해 알아봅니다. Office 365, 커뮤니케이션 크레딧 및 통화 플랜의 가격 및 플랜 세부 사항에 대한 정보를 얻을 수 있습니다.
-ms.openlocfilehash: c1faf51c6f0c61ce569a0e3f14181aa8db276a2c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: 추가 기능 라이선스, 각 라이센스와 함께 제공되는 기능, 제품용 라이선스 구입 방법 및 기존 통신사와 함께 사용하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 10f8b8d0af5c0c70d68c6fbdba561b15af41f64b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029379"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140821"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 추가 기능 라이선스
 

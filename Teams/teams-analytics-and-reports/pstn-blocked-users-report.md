@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: Microsoft 팀 관리 센터에서 PSTN 차단 된 사용자 보고서를 사용 하 여 PSTN 통화를 차단 하는 조직의 팀 사용자에 대 한 개요를 확인 하는 방법에 대해 알아봅니다.
+description: Microsoft 팀 관리 센터의 PSTN 차단 사용자 보고서를 사용 하 여 PSTN 통화를 차단 하는 조직의 팀 사용자에 대 한 개요를 얻을 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ef4dfbab2b32b088c8e2f8b38b55c15a66eb32
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e6055533138f08bafbdc9c39b03350612075840f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827346"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140689"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft 팀 PSTN으로 차단 된 사용자 보고서
 
@@ -35,7 +36,7 @@ Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서**
 
 ## <a name="interpret-the-report"></a>보고서 해석
 
-|호출 |설명  |
+|호출 |Description  |
 |--------|-------------|
 |**1**   |각 보고서에는 생성 된 날짜를 포함 합니다. 일반적으로이 보고서에는 활동 시간부터 24 ~ 48 시간 대기 시간이 반영 됩니다. |
 |**2**   |X 축은 날짜입니다. Y 축은 사용자 수입니다. <br>지정 된 날짜의 점을 마우스로 가리켜 해당 날짜에 대해 차단 된 사용자 수를 확인 합니다. |

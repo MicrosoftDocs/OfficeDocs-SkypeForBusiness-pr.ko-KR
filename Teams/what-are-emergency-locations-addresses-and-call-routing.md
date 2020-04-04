@@ -1,5 +1,5 @@
 ---
-title: 비상 전화, 긴급 주소, 긴급 통화 라우팅, 동적 비상 전화 계획
+title: 비상 전화 계획 및 관리
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,14 @@ ms.custom:
 - ms.lync.lac.AddressAndLocation
 - Calling Plans
 - Direct Routing
+- seo-marvel-mar2020
 description: 긴급 주소, 긴급 통화 라우팅, 동적 비상 전화에 대 한 정보를 포함 하 여 비상 전화에 대해 알아봅니다.
-ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161691"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141031"
 ---
 # <a name="manage-emergency-calling"></a>긴급 통화 관리
 
@@ -91,7 +92,7 @@ Microsoft 호출 요금제에 대 한 동적 비상 통화는 팀 클라이언�
 
 이번에는 미국에서 전화 요금제 사용자만 동적 위치를 활용 하 여 다음과 같이 비상 전화를 라우팅할 수 있습니다.
 
-- 미국 내 전화 플랜 사용자가 동적으로 미국 내의 긴급 주소를 획득 하는 경우, 해당 주소는 등록 된 주소 대신 긴급 라우팅에 사용 되며, 통화가 자동으로 PSAP에 연결 됩니다. 주소 영역을 처리 하는 중입니다.
+- 미국 내에 있는 팀 클라이언트에서 미국 내의 긴급 주소를 동적으로 획득 하는 경우, 해당 주소는 등록 된 주소 대신 긴급 라우팅에 사용 되며, 주소가 처리 되는 영역에서 PSAP로 자동 라우팅됩니다.
 
 - 미국 전화 플랜 사용자를 위한 팀 클라이언트가 미국 내에서 긴급 주소를 동적으로 획득 하지 않은 경우, 등록 된 긴급 주소를 사용 하 여 화면을 통해 통화를 라우팅할 수 있습니다. 그러나 호출자를 적절 한 PSAP에 연결 하기 전에 업데이트 된 주소가 필요한 지 확인 하기 위해 통화가 차단 됩니다.
 
@@ -179,7 +180,7 @@ TeamsEmergencyCallRoutingPolicy는 온라인 PSTN 사용을 참조 하며, 적�
 
 #### <a name="emergency-location-identification-number-elin-applications"></a>비상 위치 Id 번호 (ELIN) 응용 프로그램
 
-SBCs (세션 경계 컨트롤러)는 비상 위치 Id 번호 (ELIN) 응용 프로그램을 포함할 수 있습니다. 응용 프로그램의 SBC ELIN을 직접 라우팅 배포에 통합 하는 경우에는 응용 프로그램의 ELIN 긴급 주소 및 연결 된 전화 번호를 구성한 다음 해당 PSTN의 비상 전화 데이터베이스에 레코드의 ELIN 업로드 해야 합니다. .  식별자가 ELIN 인 팀의 비상 위치는 응용 프로그램의 ELIN 내에서와 일치 해야 합니다.
+SBCs (세션 경계 컨트롤러)는 비상 위치 Id 번호 (ELIN) 응용 프로그램을 포함할 수 있습니다. 응용 프로그램의 SBC ELIN 직접 라우팅 배포에 통합 되어 있는 경우 응용 프로그램의 ELIN 긴급 주소 및 연결 된 전화 번호를 구성한 다음 해당 PSTN의 비상 전화 데이터베이스에 레코드의 ELIN 업로드 해야 합니다.  식별자가 ELIN 인 팀의 비상 위치는 응용 프로그램의 ELIN 내에서와 일치 해야 합니다.
 
 동적으로 취득 하는 위치가 포함 된 비상 통화가 해당 SBC, 즉 응용 프로그램의 ELIN 같이 라우팅됩니다.
 
@@ -210,7 +211,7 @@ TeamsEmergencyCallingPolicy는 팀 사용자 계정에 게 부여 하거나, 네
 비상 전화 시, 보안 데스크는 통화에 conferenced, 보안 데스크 사용자의 경험은 TeamsEmergencyCallingPolicy에 따라 제어 됩니다. 그룹 채팅은 각 보안 데스크 구성원에 게 시작 되며, 긴급 전화 발신자의 위치는 중요 한 메시지 알림을 통해 공유 됩니다.  회의 옵션이 정책의 일부로 구성 되어 있으면 각 보안 데스크 사용자가 회의의 일부로 추가로 호출 됩니다.
 
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [긴급 전화 정책 관리](manage-emergency-calling-policies.md)
 - [긴급 통화 라우팅 정책 관리](manage-emergency-call-routing-policies.md)

@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결 하는 방법을 알아보려면이 항목을 참조 하세요.
-ms.openlocfilehash: be0d901095afa322935944a9b4898e540946bf8a
-ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
+ms.custom: seo-marvel-mar2020
+description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있는 방법을 알아보세요.
+ms.openlocfilehash: bc092c2441ff359de1189e1ff000a61c51dcec1f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955727"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140287"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -264,7 +265,7 @@ SIP/TLS|하더라도|SIP 프록시|SBC에 정의 됨|5061|
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>SIP 신호에 대 한 장애 조치 메커니즘
 
-SBC는 DNS 쿼리를 사용 하 여 sip.pstnhub.microsoft.com를 해결 합니다. SBC 위치 및 데이터 센터 성능 메트릭에 기반 하 여 기본 데이터 센터를 선택 합니다. 기본 데이터 센터에서 문제가 발생 하는 경우 SBC는 두 번째 할당 된 데이터 센터로 확인 되는 sip2.pstnhub.microsoft.com를 시도 하 고, 드문 경우 지만 두 지역의 데이터 센터를 사용할 수 없는 경우 SBC는 마지막 FQDN을 다시 시도 합니다 ( sip3.pstnhub.microsoft.com)-3 차 데이터 센터 IP를 제공 합니다.
+SBC는 DNS 쿼리를 사용 하 여 sip.pstnhub.microsoft.com를 해결 합니다. SBC 위치 및 데이터 센터 성능 메트릭에 기반 하 여 기본 데이터 센터를 선택 합니다. 기본 데이터 센터에 문제가 발생 하는 경우 SBC는 두 번째 할당 된 데이터 센터로 확인 되는 sip2.pstnhub.microsoft.com를 시도 하 고, 드문 경우 지만 두 지역의 데이터 센터를 사용할 수 없는 경우에는 SBC가 마지막 FQDN (sip3.pstnhub.microsoft.com)을 다시 시도 하 여 세 번째 데이터 센터 IP를 제공 합니다.
 
 아래 표에는 기본, 보조 및 세 번째 데이터 센터 간의 관계가 요약 되어 있습니다.
 

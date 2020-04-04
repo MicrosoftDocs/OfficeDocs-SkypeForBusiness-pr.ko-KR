@@ -1,5 +1,5 @@
 ---
-title: Exchange와 함께 Microsoft 팀 대화방 배포 (온-프레미스)
+title: Exchange 온-프레미스를 사용 하 여 Microsoft 팀 대화방 배포
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -10,17 +10,19 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.custom: Strat_SB_Admin
+ms.custom:
+- Strat_SB_Admin
+- seo-marvel-mar2020
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Exchange 온-프레미스를 사용 하는 하이브리드 환경에서 Microsoft 팀 대화방을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: eb399eea64707e07d796ee36e85036e662ce8de1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0efed0a07024f0f1fcfeea7168c4f78c66fecd64
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838188"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141011"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Exchange와 함께 Microsoft 팀 대화방 배포 (온-프레미스)
 
@@ -169,7 +171,7 @@ Exchange를 사용 하 여 Microsoft 팀 회의실을 구내에 배포 하는 �
 3. Microsoft 팀 대화방 계정을 클릭 한 다음 펜 아이콘을 클릭 하 여 계정 정보를 편집 합니다.
 4. **라이선스**를 클릭 합니다.
 5. 라이선스 **할당**에서 라이선스 및 엔터프라이즈 음성 요구 사항에 따라 비즈니스용 Skype (계획 2) 또는 비즈니스용 Skype (계획 3)를 선택 합니다. Microsoft 팀 방에 Enterprise Voice를 사용 하려면 요금제 3 라이선스를 사용 해야 합니다.
-6. **저장**을 클릭 합니다.
+6. **저장**을 클릭합니다.
 
 유효성 검사를 위해 모든 클라이언트를 사용 하 여이 계정에 로그인 할 수 있습니다.
   

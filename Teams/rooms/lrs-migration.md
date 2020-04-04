@@ -14,12 +14,13 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: 이 항목에서는 Microsoft 팀 공간 소프트웨어를 사용 하도록 Lync 대화방 시스템 장치를 마이그레이션하는 방법을 알아봅니다.
-ms.openlocfilehash: 4f0c255c40c64274ff4b104a8706eb8f73ee792f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 1b8b71637ec944c4d68fafbdde4263971590c453
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42155110"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137595"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>LRS (Lync 채팅방 System) 장치를 Microsoft 팀 대화방으로 마이그레이션
 

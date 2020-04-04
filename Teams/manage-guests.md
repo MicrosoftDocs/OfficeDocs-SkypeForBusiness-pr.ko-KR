@@ -13,21 +13,22 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: IT 관리자는 테 넌 트 수준에서 게스트를 추가 하 고, 게스트 사용자 정책 및 사용 권한을 설정 및 관리 하 고, 게스트를 초대할 수 있는 사용자를 결정 하 고, 게스트 사용자의 보고서를 가져올 수 있습니다.
+description: 첫 번째 팀과 채널을 만들고, 초기 사용자를 미리 보고, 사용 및 피드백을 모니터링 하 고, 조직 전체 출시를 계획 하기 위한 리소스를 확보 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef091eb926301e6dd9d3ac27d7c62486d93075a1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834778"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139247"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft 팀에서 게스트 액세스 관리
 ======================================
 
 > [!IMPORTANT]
-> 변경 내용이 적용 되려면 24 시간까지 기다려야 할 수 있습니다. 
+> 변경 내용이 적용되는 데 최대 24시간이 걸릴 수 있습니다. 
 
 **게스트** 는 모든 Office 365 Business Premium, Office 365 Enterprise, Office 365 비즈니스 Essentials 및 Office 365 교육 구독에 포함 된 Microsoft 팀의 사용자 유형입니다. 추가 Office 365 라이선스가 필요하지 않습니다. [게스트 액세스 라이선스](#guest-access-licensing-limits) 에 대 한 자세한 내용을 확인 하세요.
 
@@ -66,7 +67,7 @@ Microsoft Enterprise Mobility + Security, E5에 포함 되어 있는 Azure AD의
 Azure Active Directory의 게스트 액세스 설정의 경우 변경 내용이 Office 365 조직에 적용 되려면 2-24 시간이 소요 됩니다. 사용자가 팀에 게스트를 추가 하려고 할 때 "관리자에 게 문의" 라는 메시지가 표시 되는 경우 게스트 기능이 설정 되지 않았거나 설정이 아직 유효 하지 않을 수 있습니다. 게스트 액세스 설정 문제에 대 한 도움말은 [팀의 게스트 액세스 문제 해결](troubleshoot-guest-access.md)을 참조 하세요.
 
   
-## <a name="external-access-federation-vs-guest-access"></a>외부 액세스 (페더레이션) 및 게스트 액세스
+## <a name="external-access-federation-vs-guest-access"></a>외부 액세스(페더레이션) 대 게스트 액세스
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 

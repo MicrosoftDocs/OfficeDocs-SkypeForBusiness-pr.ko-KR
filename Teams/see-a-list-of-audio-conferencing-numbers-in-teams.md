@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀의 오디오 회의 번호 목록 보기
+title: 오디오 회의 번호 목록 보기
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 'Microsoft 팀 내에서 전화 접속 회의 번호를 찾는 방법을 알아보세요. '
-ms.openlocfilehash: 05008f8c3d51d17023be26dcc78e9e0b60243a5c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d430daf841694029818f54d27abfeba3bc77604e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838168"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140971"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Microsoft 팀의 오디오 회의 번호 목록 보기
 
@@ -46,7 +47,7 @@ Microsoft 팀 사용자를 위해 오디오 회의를 설정할 때 오디오 �
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>오디오 회의 전화 번호를 보려면
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다. 
 2. 오디오 회의에 사용할 수 있는 전화 번호를 확인 합니다.

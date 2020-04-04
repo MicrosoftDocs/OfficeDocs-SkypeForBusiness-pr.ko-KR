@@ -1,5 +1,5 @@
 ---
-title: Project의 비즈니스용 Skype에서 Microsoft 팀 채택을 채택 하 고 있습니다. | 업그레이드
+title: 프로젝트 범위 비즈니스용 Skype를 Microsoft 팀에 채택
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4084bc58d98aa05af14511869fc44c6db85343b8
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: ef2f257934847f74466ff6f91890a667084b88d1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42707018"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139667"
 ---
 # <a name="define-your-project-scope"></a>프로젝트 범위 정의
 
@@ -94,7 +96,7 @@ ms.locfileid: "42707018"
 | **사용 및 채택** | 사용자가 솔루션을 능동적으로 사용 하는 경우 | Office 365 보고서 또는 CQD | 현재 솔루션 보다 나은 파일럿 사용자의 90% 참여 | 매주, 매월 |
 | **사용 및 교육** | 팀을 사용할 수 있는 적절 한 교육/도움말 리소스가 있습니다. | 파일럿 이후 조사 | 80% 동의 또는 강력한 동의 | 파일럿 이후, 출시 후 |
 | **사용자 만족도** | 다른 사람에 게 팀 추천 | 파일럿 이후 조사 [를 통해 NPS (네트 Promoter 점수)](http://www.npscalculator.com/en) | NPS \> 0 | 파일럿 이후, 출시 후 |
-| **비즈니스 드라이버** | 비용 절감 | 외상 매입금 | \$타사 솔루션의 X 백만 달러 비용 지출 | 6 개월, 1 년, 시행 후 5 년 |
+| **비즈니스 드라이버** | 비용 절감 | 지급 계정 | \$타사 솔루션의 X 백만 달러 비용 지출 | 6 개월, 1 년, 시행 후 5 년 |
 
 > [!TIP]
 > 프로젝트가 추적에 유지 되도록 하기 위해 장기간의 장기 목표 외에도 작은 단기 중요 시점을 정의 하는 것이 좋습니다. 여기에는 사용자 파일럿의 일부로 캡처할 메트릭이 포함 될 수 있습니다. 팀에서 아직 사용할 수 없는 기능을 기다리는 경우 시간 표시 막대를 고려할 때 [Microsoft 365 로드맵을](https://aka.ms/O365Roadmap) 사용 하세요.

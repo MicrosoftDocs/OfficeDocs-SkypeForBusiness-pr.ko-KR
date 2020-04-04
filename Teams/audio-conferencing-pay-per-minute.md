@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
-description: Microsoft 볼륨 라이선스를 사용 하는 조직에서는 사용자 단위 표준 오디오 회의 외에도 분당 유료 서비스를 선택 하 여 해당 조직에 대 한 오디오 회의 기능을 사용할 수 있습니다.
-ms.openlocfilehash: ac73ca3396e5fff9e9146206a8f9e2008d9065f7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: Microsoft 볼륨 라이선스를 사용 하는 조직의 오디오 회의 기능을 사용 하도록 설정 하는 분당 요금 옵션에 대해 알아봅니다.
+ms.openlocfilehash: 5943b5d160df1ddd2ebb3da42818b02683e47309
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826286"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139167"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>오디오 회의 분당 요금
 
@@ -59,7 +60,7 @@ ms.locfileid: "41826286"
 
 ## <a name="why-is-it-best-for-you"></a>사용자에 게 가장 적합 한 이유
 
-- 일일 비즈니스 또는 팀 용 비즈니스용 Skype를 사용 하는 대신 예약 된 모임 중에 각 참석자에 게 부과 되는 각각의 작업 (유료 또는 무료 통화 및 목적지에 따라 다름)에 대 한 분당 요금을 청구할 수 있습니다. 장치 또는 PC.
+- 1 분 단위 결제는 모바일 장치 또는 PC에서 비즈니스용 Skype 또는 팀 응용 프로그램을 사용 하는 대신 예약 된 모임 중에 각 참석자에 게 부과 되는 각각의 작업 (유료 또는 무료 통화 및 대상에 따라 다름)을 기준으로 한 분 단위만 청구 됩니다.
 
 - 관리자가 이끌이 모임에서 수행할 수 있는 전화 접속 (국제 및 국내)의 종류를 제한 하도록 제어할 수 있으므로 비용을 관리 하는 기능입니다. [오디오 회의 및 사용자 PSTN 통화에 대 한 아웃 바운드 통화 제한 정책](/microsoftteams/outbound-calling-restriction-policies) 참조
 
@@ -75,15 +76,15 @@ ms.locfileid: "41826286"
 
  **가격을 찾으십니까?** [가격을 확인 하 고 추가 기능 라이선스를 구입 하는 방법](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how) 또는 다음 중 하나를 참조 하세요.
   
-- [오디오 회의에 대 한 가격](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [오디오 회의 가격](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
-- [전화 시스템의 가격 책정](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [전화 시스템 가격](https://products.office.com/skype-for-business/phone-system#Requirements)
     
 - [통화 요금제 가격](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>관련 항목
   
-[Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Microsoft Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
   
  

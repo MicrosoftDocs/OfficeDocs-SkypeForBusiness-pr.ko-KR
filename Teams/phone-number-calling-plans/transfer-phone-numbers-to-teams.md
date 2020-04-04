@@ -16,13 +16,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: ''
-ms.openlocfilehash: b87684b6fbb73115540e20c72636200e61ca0e88
-ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
+description: 포팅 마법사를 사용 하 여 현재 서비스 공급자에서 Microsoft 팀으로 전화 번호를 전송 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 07368b6dfd05567eac4eac66614560b6ecc9d2b4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42370417"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137868"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Microsoft 팀에 전화 번호 전송
 
@@ -91,7 +92,7 @@ Microsoft 팀 관리 센터의 포팅 마법사를 사용 하 여 현재 서비�
 
 포트 순서의 상태를 보려면 Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 > **음성** > **포트 주문**으로 이동한 다음 **주문 기록을**클릭 합니다. 각 포트 주문 상태가 **상태** 열에 나열 됩니다. 자세한 내용은 [포트 주문의 상태](port-order-status.md) 를 참조 하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [포트 순서](port-order-overview.md)
 - [통화 요금제에 사용 되는 다른 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

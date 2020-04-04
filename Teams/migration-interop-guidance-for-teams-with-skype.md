@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype로 팀을 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침
+title: 마이그레이션 및 상호 운용성-비즈니스용 Skype
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,16 +15,17 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.coexistence
 - ms.teamsadmincenter.teamsupgrade.overview
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae75a26f611fc6262c9f2352c09cb175bd00656d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5bf12dc366de030329b306fdd2f68291b5ff532d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832673"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140277"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>비즈니스용 Skype로 팀을 함께 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침
 
@@ -49,13 +50,13 @@ ms.locfileid: "41832673"
 
 5.  팀과 비즈니스용 Skype 사용자 간 상호 운용성은 *팀 사용자가 비즈니스용 skype에서 온라인 상태인 경우*에만 가능 합니다. 받는 사람 비즈니스용 Skype 사용자는 온-프레미스 (비즈니스용 Skype 하이브리드 구성 필요) 또는 온라인 중 하나로 설정할 수 있습니다. 비즈니스용 Skype 온-프레미스에 속한 사용자는이 문서의 뒷부분에 정의 된 아일랜드 모드에서 팀을 사용할 수 있지만, 팀을 사용 하 여 비즈니스용 Skype를 사용 하는 다른 사용자와 상호 운용 하거나 페더레이션 할 수는 없습니다.  
 
-6.  업그레이드 및 interop 동작은 아래에 설명 된 대로 사용자의 공존 모드에 따라 결정 됩니다. Mode는 TeamsUpgradePolicy에 의해 관리 됩니다. 
+6.    업그레이드 및 interop 동작은 아래에 설명 된 대로 사용자의 공존 모드에 따라 결정 됩니다. Mode는 TeamsUpgradePolicy에 의해 관리 됩니다. 
 
 7.  사용자를 TeamsOnly 모드로 업그레이드 하면 가져온 클라이언트에 관계 없이 모든 수신 채팅 및 통화가 항상 사용자의 팀 클라이언트에 있게 됩니다. 이러한 사용자는 또한 팀의 모든 새 모임을 예약 합니다. Teamonly 모드에 있으려면 비즈니스용 Skype에서 사용자를 온라인으로 전환 해야 합니다. 이는 팀 사용자의 interop, 페더레이션 및 전체 관리를 보장 하는 데 필요 합니다. 사용자를 TeamsOnly로 업그레이드 하려면 다음을 수행 합니다.
     - 사용자가 비즈니스용 Skype online에 있는 경우 (또는 Skype 계정이 없는 경우), PowerShell을 사용 하 여 "UpgradeToTeams" 인스턴스를 사용 하는 경우에만 TeamsUpgradePolicy 모드를 허용 하거나 팀 관리 센터를 사용 하 여 TeamsOnly 모드를 선택 합니다.
     - 사용자가 온-프레미스 인 경우 온-프레미스 `Move-CsUser` 관리 도구에서 사용 하 여 먼저 사용자를 비즈니스용 Skype Online으로 이동 합니다.  비즈니스용 skype Server 2019 또는 CU8 for 비즈니스용 Skype Server 2015이 있는 경우에서 `-MoveToTeams` `Move-CsUser` 전환을 지정 하 여 온라인으로 이동의 일부로 사용자를 직접 팀으로 이동할 수 있습니다. 또한이 옵션은 사용자의 모임을 팀으로 마이그레이션합니다. 이 `-MoveToTeams` 지정 되지 않았거나 사용할 수 없는 경우 완료 후 `Move-CsUser` 에는 PowerShell 또는 팀 관리 센터를 사용 하 여 해당 사용자에 게 팀 전용 모드를 할당 합니다. 자세한 내용은 온 [-프레미스 및 클라우드 간에 사용자 이동을](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)참조 하세요.  모임 마이그레이션에 대 한 자세한 내용은 [MMS (모임 마이그레이션 서비스) 사용](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)을 참조 하세요.
 
-8.  팀과 Microsoft 전화 시스템을 사용 하려면 사용자가 Teamonly 모드 (예: 비즈니스용 Skype Online 및 팀으로 업그레이드)에 속해야 하며, Microsoft 전화 시스템 [다이렉트 라우팅](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (즉, 사용자의 SIP TRUNKS 및 SBC로 전화 시스템을 사용할 수 있음) 또는 Office 365 통화 요금제가 있어야 합니다. Microsoft 전화 시스템 다이렉트 라우팅은 군도 모드에서 지원 되지 않습니다.    
+8.    팀과 Microsoft 전화 시스템을 사용 하려면 사용자가 Teamonly 모드 (예: 비즈니스용 Skype Online 및 팀으로 업그레이드)에 속해야 하며, Microsoft 전화 시스템 [다이렉트 라우팅](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (즉, 사용자의 SIP TRUNKS 및 SBC로 전화 시스템을 사용할 수 있음) 또는 Office 365 통화 요금제가 있어야 합니다. Microsoft 전화 시스템 다이렉트 라우팅은 군도 모드에서 지원 되지 않습니다.    
 
 9.  사용자가 비즈니스용 Skype Online 또는 비즈니스용 Skype 온-프레미스를 사용 하 고 있는지 여부에 관계 없이 오디오 회의를 통한 팀 회의 예약 (PSTN을 통한 전화 접속 또는 다이얼 아웃)을 사용할 수 있습니다. 
 
@@ -86,7 +87,7 @@ Interop 및 마이그레이션은 TeamsUpgradePolicy를 사용 하 여 "공존 �
 |모드|통화 및 채팅|모임 예약<sup>1</sup>|팀 & 채널|사용 사례|
 |---|---|---|---|---|
 |**TeamsOnly<sup>2</sup>**</br>*비즈니스용 Skype Online에 홈이 필요 합니다.*|Teams|Teams|예|업그레이드 되는 최종 상태입니다. 새 테 넌 트의 기본값 이기도 합니다.|
-|분리|어떤|어떤|예|기본 구성. 단일 사용자가 두 클라이언트를 나란히 평가할 수 있도록 합니다. 채팅 및 통화는 두 클라이언트 중 하나에서 발생할 수 있으므로 사용자는 항상 두 클라이언트를 모두 실행 해야 합니다. 비즈니스용 Skype 환경, 외부 (연합) 통신, PSTN 음성 서비스 및 음성 응용 프로그램, 사무실 통합, 기타 여러 통합이 비즈니스용 Skype에서 계속 해 서 처리 되는 것을 방지 합니다.|
+|아일랜드|어떤|어떤|예|기본 구성. 단일 사용자가 두 클라이언트를 나란히 평가할 수 있도록 합니다. 채팅 및 통화는 두 클라이언트 중 하나에서 발생할 수 있으므로 사용자는 항상 두 클라이언트를 모두 실행 해야 합니다. 비즈니스용 Skype 환경, 외부 (연합) 통신, PSTN 음성 서비스 및 음성 응용 프로그램, 사무실 통합, 기타 여러 통합이 비즈니스용 Skype에서 계속 해 서 처리 되는 것을 방지 합니다.|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|비즈니스용 Skype|Teams|예|"모임 먼저". 현재 온-프레미스 조직을 클라우드로의 통화를 진행할 준비가 되지 않은 경우 팀 모임 기능을 활용할 수 있습니다.|
 |SfBWithTeamsCollab|비즈니스용 Skype|비즈니스용 Skype|예|보다 엄격한 관리 제어가 필요한 복잡 한 조직의 대체 시작 위치입니다.|
 |SfBOnly|비즈니스용 Skype|비즈니스용 Skype|아니요<sup>3</sup>|데이터 제어에 대 한 엄격한 요구 사항이 있는 조직에 대 한 특수 시나리오입니다. 팀은 다른 사람이 예약한 모임에 참가 하는 데만 사용 됩니다.|
@@ -111,9 +112,9 @@ TeamsUpgradePolicy는 Mode 및 NotifySfbUsers 라는 두 가지 키 속성을 �
 </br>
 </br>
 
-|매개 변수|유형|허용 되는 값</br>(기울임꼴의 기본값)|설명|
+|매개 변수|유형|허용 되는 값</br>(기울임꼴의 기본값)|Description|
 |---|---|---|---|
-|모드|열거할|*분리*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings|클라이언트가 실행 되어야 하는 모드를 나타냅니다.|
+|모드|열거할|*아일랜드*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings|클라이언트가 실행 되어야 하는 모드를 나타냅니다.|
 |NotifySfbUsers|부울|*False* 또는 true|Skype for Business 클라이언트에 팀이 곧 비즈니스용 Skype를 교체할 수 있음을 알리는 배너를 표시할지 여부를 나타냅니다. Mode = TeamsOnly에만 해당 하는 경우에는 true를 사용할 수 없습니다.|
 |||||
 
@@ -123,8 +124,8 @@ TeamsUpgradePolicy는 Mode 및 NotifySfbUsers 라는 두 가지 키 속성을 �
 
 |Identity|모드|NotifySfbUsers|
 |---|---|---|
-|분리|분리|해제|
-|IslandsWithNotify|분리|False|
+|아일랜드|아일랜드|해제|
+|IslandsWithNotify|아일랜드|False|
 |SfBOnly|SfBOnly|해제|
 |SfBOnlyWithNotify|SfBOnly|False|
 |SfBWithTeamsCollab|SfBWithTeamsCollab|해제|
@@ -132,7 +133,7 @@ TeamsUpgradePolicy는 Mode 및 NotifySfbUsers 라는 두 가지 키 속성을 �
 |SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|해제|
 |SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|False|
 |업그레이드 팀|TeamsOnly|해제|
-|전역</br>*기본값*|분리|해제|
+|전역</br>*기본값*|아일랜드|해제|
 ||||
 
 이러한 정책 인스턴스는 개별 사용자에 게 부여 하거나 테 넌 트 전체에 부여할 수 있습니다. 예를 들면 다음과 같습니다.
@@ -166,7 +167,7 @@ TeamsUpgradePolicy는 들어오는 페더레이션된 채팅 및 통화에 대 �
 
 |모드|볼|
 |---|---|
-|**분리**</br>기본값|사용자가 비즈니스용 Skype와 팀을 함께 실행 합니다. 사용자:</br><ul><li>비즈니스용 Skype 또는 팀 클라이언트에서 채팅 및 VoIP 통화를 시작할 수 있습니다. 참고: 받는 사람 모드에 관계 없이 비즈니스용 Skype를 사용 하는 사용자가 다른 비즈니스용 Skype 사용자에 게 연결 하도록 초기화할 수 없습니다.<li>비즈니스용 skype 클라이언트의 다른 사용자가 비즈니스용 Skype에서 시작한 채팅 & VoIP 통화를 받습니다.<li>팀에서 시작한 채팅 & VoIP 통화를 팀 클라이언트의 다른 사용자가 *동일한 테 넌 트*에 있는 경우이를 받습니다.<li>다른 사용자가 *페더레이션된 테 넌 트*를 사용 하는 경우 비즈니스용 Skype 클라이언트에서 팀에서 시작한 채팅 & VoIP 통화를 받습니다. <li>아래에 명시 된 대로 PSTN 기능을가지고 있습니다.<ul><li>사용자가 비즈니스용 Skype 온-프레미스에 있고 Enterprise Voice를 사용 하는 경우 항상 비즈니스용 Skype에서 PSTN 통화가 시작 되 고 수신 됩니다.<li>사용자가 비즈니스용 Skype Online에 있고 Microsoft 전화 시스템을 사용 하는 경우, 사용자는 항상 비즈니스용 Skype에서 PSTN 통화를 시작 하 고 받습니다.<ul><li>이 작업은 사용자에 게 Microsoft 호출 계획이 있는지 여부에 관계 없이 또는 비즈니스용 skype 클라우드 커넥터 에디션을 통해 PSTN 네트워크에 연결 하거나 비즈니스용 Skype 서버 (하이브리드 voice)의 온-프레미스 배포를 통해 수행 됩니다.<li>**참고: Microsoft 팀 전화 시스템 다이렉트 라우팅은 군도 모드에서 지원 되지 않습니다.**</ul></ul><li>비즈니스용 Skype에서 Microsoft 통화 대기열 및 자동 전화 교환 전화 받기:<ul><li>통화 대기열 및 자동 전화 교환에 할당 된 전화 번호는 아일랜드 모드의 Microsoft 팀 전화 시스템 다이렉트 라우팅 번호로 사용할 **수 없습니다** .</ul></ul><li>팀 또는 비즈니스용 Skype에서 모임을 예약할 수 있습니다 (기본적으로 두 플러그 인이 표시 됨).<li>비즈니스용 Skype 또는 팀 모임에 참가할 수 있습니다. 모임이 해당 클라이언트에 열립니다.</ul>|
+|**아일랜드**</br>기본값|사용자가 비즈니스용 Skype와 팀을 함께 실행 합니다. 사용자:</br><ul><li>비즈니스용 Skype 또는 팀 클라이언트에서 채팅 및 VoIP 통화를 시작할 수 있습니다. 참고: 받는 사람 모드에 관계 없이 비즈니스용 Skype를 사용 하는 사용자가 다른 비즈니스용 Skype 사용자에 게 연결 하도록 초기화할 수 없습니다.<li>비즈니스용 skype 클라이언트의 다른 사용자가 비즈니스용 Skype에서 시작한 채팅 & VoIP 통화를 받습니다.<li>팀에서 시작한 채팅 & VoIP 통화를 팀 클라이언트의 다른 사용자가 *동일한 테 넌 트*에 있는 경우이를 받습니다.<li>다른 사용자가 *페더레이션된 테 넌 트*를 사용 하는 경우 비즈니스용 Skype 클라이언트에서 팀에서 시작한 채팅 & VoIP 통화를 받습니다. <li>아래에 명시 된 대로 PSTN 기능을가지고 있습니다.<ul><li>사용자가 비즈니스용 Skype 온-프레미스에 있고 Enterprise Voice를 사용 하는 경우 항상 비즈니스용 Skype에서 PSTN 통화가 시작 되 고 수신 됩니다.<li>사용자가 비즈니스용 Skype Online에 있고 Microsoft 전화 시스템을 사용 하는 경우, 사용자는 항상 비즈니스용 Skype에서 PSTN 통화를 시작 하 고 받습니다.<ul><li>이 작업은 사용자에 게 Microsoft 호출 계획이 있는지 여부에 관계 없이 또는 비즈니스용 skype 클라우드 커넥터 에디션을 통해 PSTN 네트워크에 연결 하거나 비즈니스용 Skype 서버 (하이브리드 voice)의 온-프레미스 배포를 통해 수행 됩니다.<li>**참고: Microsoft 팀 전화 시스템 다이렉트 라우팅은 군도 모드에서 지원 되지 않습니다.**</ul></ul><li>비즈니스용 Skype에서 Microsoft 통화 대기열 및 자동 전화 교환 전화 받기:<ul><li>통화 대기열 및 자동 전화 교환에 할당 된 전화 번호는 아일랜드 모드의 Microsoft 팀 전화 시스템 다이렉트 라우팅 번호로 사용할 **수 없습니다** .</ul></ul><li>팀 또는 비즈니스용 Skype에서 모임을 예약할 수 있습니다 (기본적으로 두 플러그 인이 표시 됨).<li>비즈니스용 Skype 또는 팀 모임에 참가할 수 있습니다. 모임이 해당 클라이언트에 열립니다.</ul>|
 |**SfBOnly**|사용자가 비즈니스용 Skype만 실행 합니다. 사용자:</br><ul><li>비즈니스용 Skype 에서만 채팅 및 통화를 시작할 수 있습니다.<li>개시자가 비즈니스용 Skype를 사용 하는 팀 사용자가 아닌 경우, 시작 위치에 관계 없이 비즈니스용 Skype 클라이언트에서 채팅/통화를 받습니다. *비즈니스용 skype 모임만 예약할 수 있지만 비즈니스용 skype 또는 팀 모임에 참가할 수 있습니다. <li> </br> *온-프레미스 사용자와의 아일랜드 모드는 SfBOnly 모드의 다른 사용자와 함께 사용 하지 않는 것이 좋습니다. 비즈니스용 Skype를 사용 하는 팀 사용자가 SfBOnly 사용자에 게 전화를 걸거나 채팅을 시작 하는 경우 SfBOnly 사용자에 게 연결할 수 없으며 부재 중 채팅/통화 이메일이 수신 됩니다. *|
 |**SfBWithTeamsCollab**|사용자가 비즈니스용 Skype와 팀을 함께 실행 합니다. 사용자:</br><ul><li>SfBOnly 모드에서 사용자의 기능을 사용 합니다.<li>팀에 그룹 공동 작업 (채널)만 사용 하도록 설정 되어 있습니다. 채팅/통화/모임 예약을 사용할 수 없습니다.</ul>|
 |**SfBWithTeamsCollab</br>andmeetings**|사용자가 비즈니스용 Skype와 팀을 함께 실행 합니다. 사용자:<ul><li>SfBOnly 모드에서 사용자의 채팅 및 통화 기능을 사용 합니다.<li>그룹 공동 작업에 사용할 수 있는 팀 (채널 대화 포함)이 있습니다. 채팅 및 통화는 사용할 수 없습니다.<li>팀 모임만 예약할 수 있지만 비즈니스용 Skype 또는 팀 모임에 참가할 수 있습니다.</ul>|

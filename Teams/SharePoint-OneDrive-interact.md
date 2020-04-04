@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: SharePoint Online 및 비즈니스용 OneDrive가 Microsoft 팀과 상호 작용 하는 방법, 즉 개인 채팅 파일 저장 방법, 팀, 표준 채널, 문서 라이브러리 간의 관계에 대해 알아봅니다.
+description: SharePoint Online & 팀과 비즈니스용 OneDrive 상호 작용 개인 채팅 파일 저장소 팀, 표준 채널, & 문서 라이브러리 간의 상호 작용을 &.
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5f2698330ae23f25ffbbe5fae40d8dc6234354d
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fd34bf368667fcfa5776de40cad0d1444440805a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131116"
+ms.locfileid: "43137258"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 및 비즈니스용 OneDrive가 Microsoft 팀과 상호 작용 하는 방법
 

@@ -1,5 +1,5 @@
 ---
-title: 사용자는 이러한 국가와 지역에 아웃바운드 통화를 할 수 있습니다.
+title: 이러한 국가/지역에 대 한 아웃 바운드 통화 만들기
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,13 +23,14 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
+- seo-marvel-mar2020
 description: 이 항목에는 통화 플랜이 있는 사용자가 아웃바운드 통화를 할 수 있는 모든 국가/지역이 포함됩니다.
-ms.openlocfilehash: 09e6fae92c7708e13c8b1eb595d76bf313dbba0c
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 4e41235473436e326d19f42d8e838d5508becf97
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982131"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141051"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>사용자는 이러한 국가와 지역에 아웃바운드 통화를 할 수 있습니다.
 

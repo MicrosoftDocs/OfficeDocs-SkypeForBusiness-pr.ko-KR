@@ -1,5 +1,5 @@
 ---
-title: 오디오 회의 및 통화 플랜의 국가 및 지역 가용성
+title: 국가/지역 사용 가능-오디오 회의, 통화 플랜
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,13 +24,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 - LIL_Placement
-description: 국가/지역을 선택하여 오디오 회의, 전화 시스템, 통화 요금제, 통신 크레딧 및 유료 전화 번호와 무료 전화 번호 사용 가능 여부를 확인할 수 있습니다.
-ms.openlocfilehash: cc1acc2e112477c441b9bfb492dff49183e5dc3d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: 국가 또는 지역에서 오디오 회의, 전화 시스템, 통화 요금제, 통신 크레딧, 유료 및 무료 전화 번호를 사용할 수 있는지 알아봅니다.
+ms.openlocfilehash: d6c989ea073a3d12f5bd4f04496f57977534e05c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682525"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141061"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 

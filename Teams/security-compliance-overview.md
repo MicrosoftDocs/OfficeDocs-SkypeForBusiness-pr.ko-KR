@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀의 보안 및 준수에 대 한 개요
+title: 보안 및 규정 준수 개요
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,14 +17,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbec8f7d246a4acfe241ef4f4d701cc9e1e6b28c
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: e777ef76f6c8f11dfd914b3c4be149c224b63cf5
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117426"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139097"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
@@ -143,6 +144,10 @@ Office 365 보안 & 준수 센터에서 보존 및 유지에 대 한 자세한 �
 ### <a name="auditing-and-reporting"></a>감사 및 보고
 
 감사 로그 검색은 Office 365 보안 & 준수 센터에 있으며, 작업 부하를 설정 하 고 감사 이벤트를 보고할 수 있으며 무제한 감사 시간 표시 막대에서 관리를 사용 하 고 확인을 수행 하는 데 필요한 특정 또는 제네릭 이벤트 집합을 내보낼 수 있습니다. Office 365 보안 & 준수 센터 내의 모든 감사 로그 데이터에 대 한 알림을 설정 하 고 추가 분석을 위해이 데이터를 필터링 하 고 내보낼 수 있습니다. O365에 대 한 감사 로그를 수행 하는 방법에 대해 자세히 알아보려면 [감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 문서를 참조 하세요. Office 365 보안 & 준수 센터에서 Microsoft 팀 이벤트를 검색 하는 방법에 대해 자세히 알아보려면 [팀에서 감사를 사용 하도록 설정](audit-log-events.md) 하 여 검토할 수도 있습니다.
+
+## <a name="privacy"></a>프라이버시
+
+Microsoft에서 데이터를 보호 하는 것은 가장 중요 한 사항입니다. 개인정보 보호 정책에 대 한 자세한 내용은 [Microsoft에서 개인정보 보호](https://www.microsoft.com/trust-center/privacy)정책을 참조 하세요.
 
 ## <a name="information-protection-architecture"></a>정보 보호 아키텍처
 

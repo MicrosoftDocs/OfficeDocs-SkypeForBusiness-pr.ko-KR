@@ -1,5 +1,5 @@
 ---
-title: 사용자가 Microsoft 팀에서 모임에 참가할 때 이름을 기록할 수 있도록 설정
+title: 사용자가 모임 이름을 녹음/녹화할 수 있도록 설정
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 사용자가 Microsoft 팀에서 모임에 참가할 때 이름을 기록할 수 있는지 여부를 사용 하거나 사용 하지 않도록 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b7b04ba5959d4ffbbb4664401ccf8e95b46c48b9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f6d1f8ea0ef015e4d951fbf3bbe124263a3b9a1f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836108"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141221"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>사용자가 Microsoft 팀에서 모임에 참가할 때 이름을 기록할 수 있도록 설정
 
@@ -37,7 +38,7 @@ Office 365에서 오디오 회의를 설정 하는 경우 전화 번호를 받�
   
 ## <a name="set-whether-callers-should-record-their-name"></a>호출자가 자신의 이름을 기록해 야 하는지 여부 설정
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다. 
 
@@ -47,7 +48,7 @@ Office 365에서 오디오 회의를 설정 하는 경우 전화 번호를 받�
 
 4. 알림을 사용 하도록 설정 하는 경우 **시작/종료 알림 유형에**서 **이름 또는 전화 번호** 를 선택한 다음 **발신자에 게 모임에 참가 하기 전에 자신의 이름을 기록해 야 합니다.** 를 켭니다.
 
-6. **저장**을 클릭 합니다.
+6. **저장**을 클릭합니다.
     
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

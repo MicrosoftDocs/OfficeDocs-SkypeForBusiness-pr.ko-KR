@@ -1,5 +1,5 @@
 ---
-title: 통화 요금제에 사용 되는 다른 종류의 전화 번호
+title: 통화 요금제에 사용 되는 전화 번호 유형
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
+- seo-marvel-mar2020
 description: 팀에서 통화 계획에 사용 하는 다른 전화 번호 형식에 대해 알아봅니다.
-ms.openlocfilehash: d31bf767fab2f90ddd57b9bb43cd12b5960d5102
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e960da72476ec91f8f13afe42d0e4da6c12e746d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826896"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137348"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>통화 요금제에 사용 되는 다른 종류의 전화 번호
 

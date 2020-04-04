@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에 대 한 조기 등록 및 의견 수집
+title: 얼리어답터 온보딩 및 피드백 수집
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,18 +13,20 @@ search.appverid: MET150
 description: 팀의 채택을 위해 실험 단계에서 초기에 만든이를 선택한 다음 프로젝트에 대 한 의견을 수집 합니다.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65e697ef46f9ec087975b47741597a7e0ff68508
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f7000c3555a660fc692b7b88b0d94fb3ea42742c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837808"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140745"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Microsoft 팀에 대 한 조기 등록 및 의견 수집
 
@@ -37,7 +39,7 @@ ms.locfileid: "41837808"
 3. 팀워크 챔피언 팀의 피드백 채널과 사용할 수 있는 다른 모든 내부 소셜 네트워킹 도구에 대 한 액세스 권한이 있는지 확인 합니다. 
 4. 대상 정보를 수집 하는 완료를 위해 정기적으로 설문 조사를 작성 하는 것이 좋습니다.
 
-## <a name="gather-feedback"></a>의견 수집
+## <a name="gather-feedback"></a>피드백 수집
 
 Office 365의 구성 요소를 사용 하 여 프로젝트에 대 한 피드백을 수집 합니다.
   

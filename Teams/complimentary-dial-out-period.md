@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
-description: 고객은 비즈니스용 Skype Online 및 Microsoft 팀 PSTN 서비스 사용 약관 및 고객의 볼륨 라이선스 계약에 따라 Office 365 통화 요금제 및 Office 365 오디오 회의를 사용할 수 있습니다.
-ms.openlocfilehash: 59a885f53d23f5297d6730e718ac1a95801d6a30
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: Microsoft 팀에서 Office 365 통화 요금제 및 Office 365 오디오 회의에 대 한 무료 전화 걸기 기간에 대해 알아보세요.
+ms.openlocfilehash: 46c9aac02c40a973abc8356dc4212b3521852461
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825506"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137298"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>오디오 회의 무료 전화 걸기 기간
 
@@ -43,7 +44,7 @@ ms.locfileid: "41825506"
 
 ### <a name="complimentary-dial-out-period-details"></a>무료 전화 걸기 기간 세부 정보
 
-Office 365 오디오 회의 서비스를 채택 하는 고객의 경우 Microsoft는 11 월을 통해 Office 365 오디오 회의 라이선스를 할당 하는 사용자가 구성한 모임에서 전화를 거는 데 관련 된 추가 혜택을 제공 합니다. 2019. 이 무료 기간 동안 Microsoft는 모임 정책 설정에 정의 된 대로 모임 이끌이 또는 권한이 있는 참석자를 허용 하 고, 아래에 나열 된 44 "Zone A" 국가 및 지역의 "비 premium" 전화 번호로 모임에서 전화를 걸 수 있도록 합니다. 이 혜택은 오디오 회의 월간 플랜 라이선스에 적용 되며 오디오 회의 분당 요금 라이선스에 따라 확장 되지 않습니다.
+Office 365 오디오 회의 서비스를 채택 하는 고객의 경우 Microsoft는 11 2019 월을 통해 Office 365 오디오 회의 구독 라이선스를 할당 하는 사용자가 이끄는 모임에서 전화를 거는 데 관련 된 추가 혜택을 제공 합니다. 이 무료 기간 동안 Microsoft는 모임 정책 설정에 정의 된 대로 모임 이끌이 또는 권한이 있는 참석자를 허용 하 고, 아래에 나열 된 44 "Zone A" 국가 및 지역의 "비 premium" 전화 번호로 모임에서 전화를 걸 수 있도록 합니다. 이 혜택은 오디오 회의 월간 플랜 라이선스에 적용 되며 오디오 회의 분당 요금 라이선스에 따라 확장 되지 않습니다.
 
 또한 다음과 같은 무료 전화 걸기 기간 동안 900 분의 cap 제한 사항이 있습니다.
 
@@ -54,14 +55,14 @@ Office 365 오디오 회의 서비스를 채택 하는 고객의 경우 Microsof
  
 - 모든 115 사용자가 (115 사용자 X 900 min) = 103500 회의 전화 걸기 시간을 공유 하 여 지역/지역에 대 한 아웃 바운드 통화를 하는 데 사용할 수 있는 일정 달 단위
 - 1 개월 기준으로 103500 분을 초과 하는 모든 통화는 게시 된 요금으로 해당 대상에 대 한 커뮤니케이션 크레딧을 사용 하 여 분당 청구 됩니다. (참고: 테 넌 트는 통신 크레딧을 설정 하 고 모임 이끌이에게 통신 제작진 라이선스를 할당 해야 합니다.)
-- 영역에 없는 대상에 대 한 모든 아웃 바운드 통화는 게시 된 요금에 대 한 통신 크레딧을 사용 하 여 분당 청구 됩니다 (지정 된 테 넌 트가 통신 크레딧을 설정 하 고 통신 크레딧 라이선스를 해당 대상에 게 할당 함). 모임 이끌이).
+- 영역에 없는 대상에 대 한 모든 아웃 바운드 통화는 게시 된 요금에 대 한 통신 크레딧을 사용 하 여 분당 청구 됩니다 (지정 된 테 넌 트가 통신 크레딧을 설정 하 고 모임 이끌이에게 통신 크레딧 라이선스를 할당 한 경우).
 
 > [!NOTE]
 > 비즈니스용 Skype 관리 센터에서 전화 접속 지연 풀에 대 한 사용 현황을 모니터링할 수 있습니다. Microsoft 팀 & Skype 관리 센터에서 **구형 포털** > **보고서** > **PSTN 통화 은행**으로 이동 하세요. 이 무료 수영장은 보고서에 "국가 및 지역에 대 한 아웃 바운드 통화"로 표시 됩니다.
 
 테 넌 트의 전화 접속 시간 풀 사용률이 80% 및 100%에 도달 하면 지정 된 고객의 모든 테 넌 트 관리자에 게 전자 메일 알림이 전송 됩니다.
 
-분당 청구 되는 전화 접속 통화 (수신 대기 시간 풀을 초과 하는 통화 또는 국가 및 지역 목록에 없는 대상에 대 한 통화)의 경우, 통화와 관련 요금은 기본적으로 거주 지역이 아닌 통화를 대상으로 합니다. 전화 접속 통화를 시작 하는 이끌이 또는 참가자의 지역입니다. 예를 들어 프랑스의 전화 번호에 대 한 통화는 미국 또는 프랑스에 있는 모임 참가자가 시작한 경우 같은 비용으로 청구 됩니다.
+분당 청구 되는 전화 접속 통화 (예를 들어 테 넌 트 전화 걸기 지연 풀을 초과 하는 호출이 나 국가 및 지역 목록에 없는 목적지까지 통화)의 경우, 통화와 관련 요금은 기본적으로 통화의 목적지에 기반 하며, 이끌이 또는 참가자가 전화를 걸거나 받을 수 없습니다. 예를 들어 프랑스의 전화 번호에 대 한 통화는 미국 또는 프랑스에 있는 모임 참가자가 시작한 경우 같은 비용으로 청구 됩니다.
 
 통신 크레딧을 추가 하는 방법에 대 한 자세한 내용은 [통신 제작진](what-are-communications-credits.md)을 참조 하세요.
 
@@ -77,7 +78,7 @@ Office 365 오디오 회의 서비스를 채택 하는 고객의 경우 Microsof
 |캐나다  <br/> |
 |중국  <br/> |
 |크로아티아  <br/> |
-|체코  <br/> |
+|체코 공화국  <br/> |
 |덴마크  <br/> |
 |에스토니아  <br/> |
 |핀란드  <br/> |
@@ -115,4 +116,4 @@ Office 365 오디오 회의 서비스를 채택 하는 고객의 경우 Microsof
 |미국  <br/> |
      
 ## <a name="related-topics"></a>관련 항목
-[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

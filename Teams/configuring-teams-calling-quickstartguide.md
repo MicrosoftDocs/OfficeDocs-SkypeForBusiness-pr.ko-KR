@@ -1,5 +1,5 @@
 ---
-title: 빠른 시작 가이드-Microsoft 팀에서 전화 요금제 구성
+title: 빠른 시작 가이드-통화 요금제 구성
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f1ded5d843689e828b00c0a466e012b8750582
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a81cd7d3481c9c2f6e3e5c8874eef97dc0540431
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825366"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137778"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>빠른 시작 가이드: Microsoft 팀에서 통화 계획 구성
 ==============================================================
@@ -64,7 +65,7 @@ TeamsUpgradePolicy의 기본 구성은 팀을 배포 하는 동안 기존 비즈
 
 **상속자**
  - 비즈니스용 Skype IP 전화는 사용자가 TeamsOnly 모드에 있더라도 전화를 받습니다.  
- - Skype for Business Online에서 사용할 수 있도록 전화 시스템 및 통화 계획 라이선스로 프로 비전 된 사용자 (예: OnlineVoiceRoutingPolicy 값이 지정 된 경우)는 팀에서 통화 탭을 사용 하도록 설정 하 고 아웃 바운드 PSTN 통화를 관리자가 없는 팀은 관리 작업을 수행 해야 합니다.
+ - Skype for Business Online에서 사용할 수 있도록 전화 시스템 및 통화 계획 라이선스를 프로 비전 한 사용자 (예: OnlineVoiceRoutingPolicy 값이 할당 된 경우)는 팀에서 통화 탭을 사용 하도록 설정 하 고 관리자가 관리 작업을 수행 하지 않아도 팀 으로부터 아웃 바운드 PSTN 호출을 배치할 수 있습니다.
 
 
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>팀에서 모든 수신 VOIP 및 PSTN 통화를 받도록 사용자를 구성 하는 방법

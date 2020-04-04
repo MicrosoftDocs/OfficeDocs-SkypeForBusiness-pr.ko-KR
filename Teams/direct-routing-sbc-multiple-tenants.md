@@ -1,5 +1,5 @@
 ---
-title: 여러 테넌트에 대해 세션 경계 컨트롤러 구성
+title: 세션 경계 컨트롤러 구성-여러 테 넌 트
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,12 +16,13 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 여러 테 넌 트를 처리 하도록 한 SBC (세션 경계 컨트롤러)를 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: e0027df53edcec54cbeaef560182ffddc451ecbd
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 90bad0c87cef92a36dea392d98cfb66824c10113
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160732"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141091"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -118,8 +119,8 @@ SBC는 연결을 인증 하는 데 인증서가 필요 합니다. SBC 호스팅 
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>테 넌 트에 기본 도메인을 추가 하 고이를 확인 합니다.
 
-1.  Microsoft 365 관리 센터에서**** > **도메인 추가** **설정** > 으로 이동 합니다.
-2.  **소유 하는 도메인 입력** 상자에 기본 도메인의 FQDN을 입력 합니다. 다음 예제에서는 기본 도메인이 *customers.adatum.biz*.
+1.    Microsoft 365 관리 센터에서**Domains** > **도메인 추가** **설정** > 으로 이동 합니다.
+2.    **소유 하는 도메인 입력** 상자에 기본 도메인의 FQDN을 입력 합니다. 다음 예제에서는 기본 도메인이 *customers.adatum.biz*.
 
     ![도메인 추가 페이지를 보여 주는 스크린샷](media/direct-routing-2-sbc-add-domain.png)
 
@@ -128,8 +129,8 @@ SBC는 연결을 인증 하는 데 인증서가 필요 합니다. SBC 호스팅 
 
     ![확인 된 도메인 이름 확인을 보여 주는 스크린샷](media/direct-routing-3-sbc-verify-domain.png)
 
-5.  **다음**을 클릭 하 고 **dns 설정 업데이트** 페이지에서 **직접 dns 레코드 추가** 를 선택 하 고 **다음**을 클릭 합니다.
-6.  다음 페이지에서 모든 값을 지웁니다 (Exchange, SharePoint 또는 비즈니스용 도메인 이름을 사용 하지 않으려면 **다음**을 클릭 하 고 **마침을**클릭 합니다.) 새 도메인이 설정 완료 상태 인지 확인 합니다.
+5.    **다음**을 클릭 하 고 **dns 설정 업데이트** 페이지에서 **직접 dns 레코드 추가** 를 선택 하 고 **다음**을 클릭 합니다.
+6.    다음 페이지에서 모든 값을 지웁니다 (Exchange, SharePoint 또는 비즈니스용 도메인 이름을 사용 하지 않으려면 **다음**을 클릭 하 고 **마침을**클릭 합니다.) 새 도메인이 설정 완료 상태 인지 확인 합니다.
 
     ![설치 상태가 완료 된 도메인을 보여 주는 스크린샷](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -158,7 +159,7 @@ SBC는 연결을 인증 하는 데 인증서가 필요 합니다. SBC 호스팅 
 관리자 역할 및 Office 365에서 역할을 할당 하는 방법에 대 한 자세한 내용은 [office 365 관리자 역할](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)정보를 참조 하세요.
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>고객 테 넌 트에 하위 도메인을 추가 하 고 확인
-1. Microsoft 365 관리 센터에서**** > **도메인 추가** **설정** > 으로 이동 합니다.
+1. Microsoft 365 관리 센터에서**Domains** > **도메인 추가** **설정** > 으로 이동 합니다.
 2. **소유 하는 도메인 입력** 상자에이 테 넌 트에 대 한 하위 도메인의 FQDN을 입력 합니다. 아래 예제에서는 하위 도메인이 sbc1.customers.adatum.biz.
 
     ![도메인 추가 페이지 스크린샷](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -218,22 +219,22 @@ Microsoft는 직접적인 라우팅의 초기 릴리스에서 새 CSOnlinePSTNGa
 이 피드백에 따라 Microsoft는 고객 테 넌 트에 대 한 trunks를 프로 비전 하는 새 논리를 제공 하 고 있습니다.
 
 두 개의 새 엔터티가 도입 되었습니다.
--   CSOnlinePSTNGateway (예: New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true)를 사용 하 여 반송파 테 넌 트에 등록 된 반송파 트렁크
+-    CSOnlinePSTNGateway (예: New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true)를 사용 하 여 반송파 테 넌 트에 등록 된 반송파 트렁크
 
--   등록이 필요 하지 않은 파생 트렁크 이는 단순히 반송파 트렁크에서 추가 된 원하는 호스트 이름입니다. 이는 모든 구성 매개 변수를 반송파 트렁크에서 파생 합니다. 파생 트렁크는 PowerShell에서 만들 필요가 없으며, 반송파 트렁크와의 연결은 FQDN 이름 (아래 세부 정보 참조)을 기반으로 합니다.
+-    등록이 필요 하지 않은 파생 트렁크 이는 단순히 반송파 트렁크에서 추가 된 원하는 호스트 이름입니다. 이는 모든 구성 매개 변수를 반송파 트렁크에서 파생 합니다. 파생 트렁크는 PowerShell에서 만들 필요가 없으며, 반송파 트렁크와의 연결은 FQDN 이름 (아래 세부 정보 참조)을 기반으로 합니다.
 
 **프로 비전 논리 및 예제**
 
--   통신 사업자는 Set-CSOnlinePSTNGateway 명령을 사용 하 여 단일 트렁크 (통신 회사 도메인의 반송파 트렁크)를 설정 하 고 관리 하기만 하면 됩니다. 위의 예제에서 adatum.biz.
--   고객 테 넌 트에서 반송파는 파생 트렁크 FQDN을 사용자의 음성 라우팅 정책에 추가 하기만 하면 됩니다. 트렁크 용으로 CSOnlinePSTNGateway를 실행할 필요는 없습니다.
--    이름이 제안 하는 대로 파생 트렁크는 반송파 트렁크의 모든 구성 매개 변수를 상속 하거나 파생 합니다. 예제의
--   Customers.adatum.biz – 반송파 테 넌 트에 만들어야 하는 반송파 트렁크입니다.
--   Sbc1.customers.adatum.biz-고객 테 넌 트에서 PowerShell에서 만들 필요가 없는 파생 트렁크입니다.  온라인 음성 라우팅 정책의 고객 테 넌 트에서 파생 트렁크의 이름을 만들지 않고 간단히 추가할 수 있습니다.
+-    통신 사업자는 Set-CSOnlinePSTNGateway 명령을 사용 하 여 단일 트렁크 (통신 회사 도메인의 반송파 트렁크)를 설정 하 고 관리 하기만 하면 됩니다. 위의 예제에서 adatum.biz.
+-    고객 테 넌 트에서 반송파는 파생 트렁크 FQDN을 사용자의 음성 라우팅 정책에 추가 하기만 하면 됩니다. 트렁크 용으로 CSOnlinePSTNGateway를 실행할 필요는 없습니다.
+-     이름이 제안 하는 대로 파생 트렁크는 반송파 트렁크의 모든 구성 매개 변수를 상속 하거나 파생 합니다. 예제의
+-    Customers.adatum.biz – 반송파 테 넌 트에 만들어야 하는 반송파 트렁크입니다.
+-    Sbc1.customers.adatum.biz-고객 테 넌 트에서 PowerShell에서 만들 필요가 없는 파생 트렁크입니다.  온라인 음성 라우팅 정책의 고객 테 넌 트에서 파생 트렁크의 이름을 만들지 않고 간단히 추가할 수 있습니다.
 -   통신 회사는 파생 트렁크 FQDN을 통신 하는 DNS 레코드를 설정 해야 합니다.
 
--   반송파 트렁크 (반송파 테 넌 트)에서 이루어진 변경 사항은 모두 파생 trunks에 자동으로 적용 됩니다. 예를 들어 통신 업체 트렁크에서 SIP 포트를 변경할 수 있으며,이 변경 내용은 파생 된 모든 trunks에 적용 됩니다. Trunks를 구성 하는 새로운 논리는 모든 사용자의 테 넌 트로 이동할 필요가 없으므로 관리를 간소화 하 고 모든 트렁크에서 매개 변수를 변경 합니다.
--   옵션은 반송파 트렁크 FQDN 으로만 전송 됩니다. 반송파 트렁크의 상태는 파생 된 모든 trunks에 적용 되며 라우팅 결정에 사용 됩니다. 자세한 내용은 [다이렉트 라우팅 옵션](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)을 참고 하세요.
--   반송파는 반송파 트렁크를 방전 시킬 수 있으며, 모든 파생 trunks 함께 소모 됩니다. 
+-    반송파 트렁크 (반송파 테 넌 트)에서 이루어진 변경 사항은 모두 파생 trunks에 자동으로 적용 됩니다. 예를 들어 통신 업체 트렁크에서 SIP 포트를 변경할 수 있으며,이 변경 내용은 파생 된 모든 trunks에 적용 됩니다. Trunks를 구성 하는 새로운 논리는 모든 사용자의 테 넌 트로 이동할 필요가 없으므로 관리를 간소화 하 고 모든 트렁크에서 매개 변수를 변경 합니다.
+-    옵션은 반송파 트렁크 FQDN 으로만 전송 됩니다. 반송파 트렁크의 상태는 파생 된 모든 trunks에 적용 되며 라우팅 결정에 사용 됩니다. 자세한 내용은 [다이렉트 라우팅 옵션](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)을 참고 하세요.
+-    반송파는 반송파 트렁크를 방전 시킬 수 있으며, 모든 파생 trunks 함께 소모 됩니다. 
  
 
 **이전 모델에서 반송파 트렁크로 마이그레이션**

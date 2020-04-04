@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀을 위한 공통 영역 전화 라이선스 설정
+title: 일반 지역 전화 라이선스 설정
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
+- seo-marvel-mar2020
 description: '로비, 수신 지역 및 회의실에 대 한 공통 영역 전화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 5997137420a9cac0517f67a81c7dedc7b779b715
-ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
+ms.openlocfilehash: da44a7d66cdc0810405711719f4545caf64007a7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42089731"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140871"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft 팀을 위한 공통 영역 전화 라이선스 설정
 > [!NOTE]
@@ -104,7 +105,7 @@ ms.locfileid: "42089731"
 
 1. 팀 관리 센터에서 **음성** > **전화 번호**를 선택 합니다.
 
-3.  전화 번호 목록에서 번호를 선택 하 고 **할당**을 클릭 합니다.
+3.    전화 번호 목록에서 번호를 선택 하 고 **할당**을 클릭 합니다.
 
 4. **지정** 페이지의 음성 사용자 상자에 휴대폰을 사용 하는 사용자의 이름을 입력 한 다음 **음성 사용자 선택** 드롭다운 목록에서 사용자를 선택 합니다.
 

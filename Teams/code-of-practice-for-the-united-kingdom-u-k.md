@@ -1,5 +1,5 @@
 ---
-title: Office 365의 통화 요금제-영국 (영국)에 대 한 연습 코드
+title: 영국에 대 한 연습 코드 -Office 365 통화 요금제
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: '영국 비즈니스용 Skype에 대 한 통화 요금제 (PSTN 통화 요금제)에 대 한 연습 코드, 도움말을 받을 수 있는 위치, 불만을 제출 하 고 분쟁를 해결 하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: a811b3a49310a81d5cc62502fe210367b5ac6905
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 비즈니스용 Skype 영국에 대 한 PSTN 통화 요금제의 연습 코드 (도움말을 얻을 수 있는 위치, 불만을 제출 하 고 분쟁를 해결 하는 방법 포함)에 대해 알아보세요.
+ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824946"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139047"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365의 통화 요금제-영국 (영국)에 대 한 연습 코드
 
@@ -55,7 +56,7 @@ Skype for Business는 70, John Rogerson의 $ Ay, 더블린 2, 아일랜드에서
   
 ## <a name="4-number-porting"></a>4. 포팅 수
 
-일부의 경우 비즈니스용 Skype는 서비스와 함께 사용 하기 위해 고객의 전화 번호를 전송 하지 못할 수 있습니다. 번호 이식성을 사용할 수 있는 곳에서 Skype for Business는 고객의 현재 번호를 이전 하는 계약에 도달 하면 번호 및 후속 정품 인증을 즉시 완료 하는 데 적절 한 모든 단계를 수행 합니다. 서비스 공급자.
+일부의 경우 비즈니스용 Skype는 서비스와 함께 사용 하기 위해 고객의 전화 번호를 전송 하지 못할 수 있습니다. 번호 이식성을 사용할 수 있는 경우 비즈니스용 Skype는 고객의 현재 서비스 공급자에 게 번호를 이전 하는 계약에 도달 하면 번호 및 후속 정품 인증의 양도를 즉시 완료 하는 데 모든 합리적인 조치를 취할 것입니다.
 
 ## <a name="5-service-reliability"></a>5. 서비스 안정성
 
@@ -65,7 +66,7 @@ Office 365 통화 요금제는 광대역 연결에 의존 합니다. 광대역 �
 
 비즈니스용 Skype는 영국, 웨일스, 스코틀랜드, 북부 아일랜드에 거주 하는 고객에 게 999/112 공개 비상 통화 서비스에 대 한 액세스를 제공 합니다. 그러나 999 또는 112에 대 한 비상 통화는 Office 365 통화 계획 서비스와 기존 전화 서비스에 따라 다르게 작동 합니다. 고객은 이러한 차이에 대 한 Office 365 호출 계획 서비스를 각 사용자에 게 알려야 합니다.
 
-차이점에는 다음이 포함 됩니다. (i) 비즈니스용 Skype는 발신자의 실제 위치를 알 수 없기 때문에 응급 서비스가 잘못 된 위치로 despatched 될 수 있습니다. (ii) 비즈니스용 Skype 사용자가 비상 전화를 걸 때, 사용자에 게 현재 위치를 제공 하 라는 메시지가 표시 되어 긴급 통화와 despatching 응급 서비스를 적절 하 게 라우팅 하는 데 도움을 드릴 수 있습니다. (iii) 사용자의 장치에 전원이 들어오지 않거나, 전원이 중단 되거나, 어떠한 이유로 든 인터넷에 액세스할 수 없는 경우, 사용자가 Office 365 통화 요금제 서비스를 통해 비상 전화를 걸 수 없습니다. (iv) Office 365 통화 계획 서비스는 전세계 어디에서 든 인터넷 연결을 사용할 수 있지만, 사용자는 미국, 웨일스, 스코틀랜드 또는 북부 아일랜드 외부의 통화는 전화를 받을 가능성이 높기 때문에 999 또는 112 적절 한 비상 서비스.
+차이점에는 다음이 포함 됩니다. (i) 비즈니스용 Skype는 발신자의 실제 위치를 알 수 없기 때문에 응급 서비스가 잘못 된 위치로 despatched 될 수 있습니다. (ii) 비즈니스용 Skype 사용자가 비상 전화를 걸 때, 사용자에 게 현재 위치를 제공 하 라는 메시지가 표시 되어 긴급 통화와 despatching 응급 서비스를 적절 하 게 라우팅 하는 데 도움을 드릴 수 있습니다. (iii) 사용자의 장치에 전원이 들어오지 않거나, 전원이 중단 되거나, 어떠한 이유로 든 인터넷에 액세스할 수 없는 경우, 사용자가 Office 365 통화 요금제 서비스를 통해 비상 전화를 걸 수 없습니다. (iv) Office 365 통화 계획 서비스는 전세계 어디에서 든 인터넷 연결을 사용할 수 있지만, 사용자는 해당 비상 서비스로 라우팅되지 않기 때문에 영국, 웨일스, 스코틀랜드 또는 북부 아일랜드 외부의 999 또는 112을 호출 해서는 안 됩니다.
 
 각 고객이 사용자의 위치를 등록 하 고, 긴급 서비스에 제공 될 수 있도록이 정보를 업데이트 하는 것이 중요 합니다. 비즈니스용 Skype 관리자 포털을 통해 온라인으로 위치 정보를 변경할 수 있습니다.
 
@@ -139,7 +140,7 @@ PhonepayPlus를 사용 하 여 서비스 공급자에 대 한 불만을 파일 �
 
 ### <a name="dispute-resolution"></a>분쟁 해결
 
-귀하의 프리미엄 요금 서비스 청구 요금을 비즈니스용 Skype 부품에 대 한 오류로 생각 하 고 환불을 원할 경우 비즈니스용 Skype 불만 처리 코드에 따라 불만을 파일에 추가할 수 있습니다. Skype for Business를 사용 하 여 불만을 제출 하거나 (a), (a) 8 일 후에는 불만 사항이 해결 되지 않거나 (b) 최종 결정에 도달 했다는 말씀 인 한 문자를 받은 경우 Ombudsman 서비스에 대 한 불만을 참조할 수 있습니다. -통신 서비스에 대 한 불만을 처리 하기 위해 Ofcom에서 승인 하는 제 3 자입니다.
+귀하의 프리미엄 요금 서비스 청구 요금을 비즈니스용 Skype 부품에 대 한 오류로 생각 하 고 환불을 원할 경우 비즈니스용 Skype 불만 처리 코드에 따라 불만을 파일에 추가할 수 있습니다. Skype for Business를 사용 하 여 불만을 제출 하거나 (a) Ombudsman (a)가 8 일 후에는 문제가 해결 되지 않거나 (b) 최종 결정에 도달 했다는 것을 의미 하는 문자를 받은 경우, 저희는 해당 서비스에 대 한 불만을 처리 하기 위해 해당 하는 타사의 타사 서비스에 대 한 불만을 참조할 수 있습니다.
 
 ## <a name="13-national-translation-services-personal-numbers-and-0870-numbers"></a>13. 국내 번역 서비스, 개인 번호 및 0870 번호
 
@@ -149,5 +150,4 @@ PhonepayPlus를 사용 하 여 서비스 공급자에 대 한 불만을 파일 �
 
 
 ## <a name="related-topics"></a>관련 항목
-[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
+[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

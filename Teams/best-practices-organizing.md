@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에서 팀을 구성하는 방법에 대한 모범 사례
+title: 팀 구성 모범 사례
 ms.reviewer: pbethi
 author: LolaJacobsen
 ms.author: lolaj
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59dcb99e8e8734885f7e62b79102cfad2745612a
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
-ms.translationtype: HT
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e8f6335edde67fcc00e68b6aa42b3100afa603c9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795761"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136878"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams에서 팀을 구성하는 방법에 대한 모범 사례
 ======================================================
@@ -40,7 +41,7 @@ Teams 처음 배포하는 경우에는 소수의 팀과 팀 구성원으로 시�
 
 ## <a name="create-channels-to-focus-discussions"></a>토론에 집중할 채널 만들기
 
-팀을 만든 후에는 지원해야 할 다양한 프로젝트와 대화 유형에 대해 생각해 보는 것이 좋습니다. 사용자들이 어디에 참여해야 하고, 어디에서 기존 대화를 찾을 수 있는지 알 수 있도록 초기 채널을 만듭니다. 사용자가 각 대화를 위해 어디로 가야 할지를 쉽게 알 수 있도록 설명적 채널 이름을 사용하세요. 구성원이 필요한 모든 항목을 채널에서 바로 사용할 수 있도록 도구(OneNote, Power BI 또는 Planner 등)를 채널에 탭으로 추가합니다. 일반적으로 사용되는 웹 페이지를 채널에 탭으로 추가할 수도 있습니다. 
+팀을 만든 후에는 지원 해야 하는 여러 프로젝트와 대화 유형을 고려 하는 것이 좋습니다. 사용자들이 어디에 참여해야 하고, 어디에서 기존 대화를 찾을 수 있는지 알 수 있도록 초기 채널을 만듭니다. 사용자가 각 대화를 위해 어디로 가야 할지를 쉽게 알 수 있도록 설명적 채널 이름을 사용하세요. 구성원이 필요한 모든 항목을 채널에서 바로 사용할 수 있도록 도구(OneNote, Power BI 또는 Planner 등)를 채널에 탭으로 추가합니다. 일반적으로 사용되는 웹 페이지를 채널에 탭으로 추가할 수도 있습니다. 
 
 최종 사용자를 위한 이 간단한 팁과 함께 [팀에서 작업하기](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)에 대해 자세히 알아보세요. 
 

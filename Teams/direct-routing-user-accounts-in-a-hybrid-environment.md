@@ -1,5 +1,5 @@
 ---
-title: PSTN 연결이 포함된 하이브리드 환경의 사용자 계정
+title: PSTN을 사용한 하이브리드 환경의 사용자 계정
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,12 +16,13 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 사용자 만들기와 지원 또는 지원 되지 않는 조합에 대 한 다양 한 조합에 대해 알아봅니다.
-ms.openlocfilehash: f33c7bffadb443aafad6fa0e7d910f6416a95d6f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 8bdab33d6f1f009ce51afe999923f4f6f5d1905a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837288"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141081"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 연결이 포함된 하이브리드 환경의 사용자 계정
 

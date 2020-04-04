@@ -22,31 +22,32 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 사용 하는 방법을 쉽게 찾을 수 있습니다. 국가/지역을 선택 하면 무료 서비스를 사용할 수 있는 무료 서비스 사용에 대 한 특정 세부 정보, 제한 사항, 제한 사항이 포함 된 국가 관련 페이지로 이동 합니다. 전화 걸기 형식 또는 형식에는 각 국가/지역 내에서 필요한 액세스 코드를 표시 하 여 무료 전화를 받을 수 있습니다.
-ms.openlocfilehash: 6c48fedde3722339ae156a61b96dfac0178ffbc8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: 사용 가능성, 유선/고정 회선 및 모바일 네트워크 가용성, 제한을 포함 하 여 슬로바키아의 무료 전화 번호를 사용 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 19e7f5578641c2c0b730bdc3195870a38066e118
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693333"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139807"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovakia"></a>슬로바키아의 무료 전화 걸기 제한
 
 [다른 국가 또는 지역](../toll-free-dialing-limitations-and-restrictions.md)또는 무료 전화 걸기 제한 사항에 대 한 자세한 정보를 확인 하세요.
 
 
-|**세부적인**|**설명**|
+|**세부 정보**|**설명**|
 |:-----|:-----|
 |무료 전화를 받을 수 있나요?  <br/> |예  <br/> |
 |전화 걸기 형식  <br/> | 0 800 0XX XXX <br/> |
 |국가/지역 ISO 코드  <br/> |SK-SK&PLATFORM  <br/> |
-|섬/지역 포함  <br/> |해당 없음  <br/> |
-|섬/지역 포함 안 함  <br/> |해당 없음  <br/> |
+|섬/지역 포함  <br/> |해당 사항 없음  <br/> |
+|섬/지역 포함 안 함  <br/> |해당 사항 없음  <br/> |
 |유선/고정 회선 가용성  <br/> |예  <br/> |
 |모바일 네트워크 가용성  <br/> |예. 프리미엄 요금으로 이용할 수 있습니다.  <br/> |
 |메모, 제한 사항 및 액세스 문제  <br/> |없음  <br/> |
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 

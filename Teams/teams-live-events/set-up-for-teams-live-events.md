@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 네트워크 준비, 라이선스 할당, 정책으로 라이브 이벤트 기능 설정 및 사용자 예약, 타사 배포 공급자 설정 등의 단계를 통해 팀에서 이벤트에 대 한 라이브를 설정 하는 방법에 대해 알아봅니다.
-ms.custom: ms.teamsadmincenter.liveevents.policies
+description: 네트워크 설정, 라이선스 할당, 라이브 이벤트 기능 사용, 예약, 동영상 배포 솔루션을 비롯 한 팀의 이벤트에 대 한 실시간 설정
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f18f35ef6775f04049b79374a4e2940646eff9e8
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558578"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140567"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft 팀에서 실시간 이벤트 설정
 
@@ -32,7 +32,7 @@ ms.locfileid: "42558578"
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>1 단계: 팀에서 실시간 이벤트에 대 한 네트워크 설정
 팀에서 생성 된 라이브 이벤트를 위해서는 [팀을 위해 조직의 네트워크를 준비](https://docs.microsoft.com/microsoftteams/prepare-network)해야 합니다.  
 
-## <a name="step-2-get-and-assign-licenses"></a>2 단계: 라이선스 가져오기 및 할당
+## <a name="step-2-get-and-assign-licenses"></a>2단계: 라이선스 받기 및 할당하기
 [라이브 이벤트를 만들고 예약할 수 있는 사용자](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) 와 [라이브 이벤트를 볼 수 있는 사람](plan-for-teams-live-events.md#who-can-watch-live-events)에 대 한 올바른 라이선스 할당이 있는지 확인 합니다.
 
 ## <a name="step-3-set-up-live-events-policies"></a>3 단계: 라이브 이벤트 정책 설정
@@ -56,7 +56,7 @@ ms.locfileid: "42558578"
 
     ![라이브 이벤트 정책 설정 스크린샷](../media/teams-live-events-policies.png "Microsoft 팀 관리 센터의 라이브 이벤트 정책 설정 스크린샷") 
 
-|설정  |설명  |
+|설정  |Description  |
 |---------|---------|
 |**타이틀이**     |라이브 이벤트 정책 페이지에 나타나는 정책의 제목입니다. 64 자를 초과 하거나 특수 문자를 사용할 수 없습니다.          |
 |**설명**    |이를 사용 하 여 정책에 대 한 간단한 설명을 추가 합니다.         |
@@ -82,9 +82,9 @@ Windows PowerShell을 사용 하 여이 작업을 수행할 수도 있습니다.
 ![Microsoft 팀 로고를 표시 하는 아이콘](../media/teams-logo-30x30.png) Microsoft 팀 관리 센터 사용
 
 1. **모임** > **라이브 이벤트 정책**으로 이동 합니다.
-2. 정책 이름 왼쪽에 있는을 클릭 하 여 정책을 선택 합니다.
-3. **사용자 관리**를 선택 합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름을 사용 하 여 사용자를 검색 하 고 이름을 선택한 다음 **추가**를 선택 합니다. 추가 하려는 각 사용자에 대해이 단계를 반복 합니다.
+2. 정책 이름의 왼쪽을 클릭하여 정책을 선택합니다.
+3. **사용자 관리**를 선택합니다.
+4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름을 사용 하 여 사용자를 검색 하 고 이름을 선택한 다음 **추가**를 선택 합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 5. 사용자 추가를 마쳤으면 **저장**을 선택 합니다.
  
 
@@ -114,7 +114,7 @@ Windows PowerShell을 사용 하 여이 작업을 수행할 수도 있습니다.
 - **램프 OmniCache** 는 차세대 네트워크 배포를 제공 하 고, 이벤트 제작자가 네트워크 대역폭을 최적화 하 고 성공적인 라이브 이벤트 브로드캐스트 및 주문형 스트리밍을 지원 하도록 도움을 줍니다. 팀에서 생성 된 라이브 이벤트에 대 한 램프 OmniCache에 대 한 지원은 곧 제공 될 예정입니다. [자세히 알아보기](http://www.ramp.com). 
  
 > [!NOTE] 
-> 선택 된 SDN 또는 eCDN 솔루션은 선택한 타사 **공급자의 서비스 약관 및 개인정보 보호 정책**에 적용 되며,이는 공급자의 솔루션 사용을 제어 합니다. 공급자의 솔루션 사용에는 Microsoft 볼륨 라이선스 약관 또는 온라인 서비스 약관이 적용 되지 않습니다. **타사 공급자의 약관**에 동의 하지 않는 경우 팀에서 솔루션을 사용 하도록 설정 하지 마세요. 
+> 선택한 SDN 또는 eCDN 솔루션은 공급자의 솔루션 사용을 제어 하는 **타사 공급자의 서비스 약관 및 개인정보 보호 정책**에 적용 됩니다. 공급자의 솔루션 사용에는 Microsoft 볼륨 라이선스 약관 또는 온라인 서비스 약관이 적용 되지 않습니다. **타사 공급자의 약관**에 동의 하지 않는 경우 팀에서 솔루션을 사용 하도록 설정 하지 마세요. 
 
 SDN 또는 eCDN 솔루션을 설정한 후에는 팀에서 라이브 이벤트에 대 한 공급자를 구성할 준비가 된 것입니다. 
 
@@ -124,5 +124,4 @@ SDN 또는 eCDN 솔루션을 설정한 후에는 팀에서 라이브 이벤트�
 ### <a name="related-topics"></a>관련 항목
 - [Teams 라이브 이벤트란?](what-are-teams-live-events.md)
 - [Teams 라이브 이벤트 계획](plan-for-teams-live-events.md)
-- [팀에서 라이브 이벤트 설정 구성](configure-teams-live-events.md)
-
+- [Teams에서 라이브 이벤트 설정 구성하기](configure-teams-live-events.md)

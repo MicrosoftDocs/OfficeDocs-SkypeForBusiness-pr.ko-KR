@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 통화 분석 및 통화 품질 대시보드 보고서에 대 한 보고 레이블로 사용할 실제 위치 및 연결 된 서브넷 목록이 포함 된 텍스트 파일을 업로드 하는 방법에 대해 알아봅니다.
+description: 실제 위치 및 관련 서브넷 목록이 포함 된 텍스트 파일을 업로드 하 여 보고 레이블을 추가 하 고 업데이트 하는 방법에 대해 알아봅니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.locations.reportinglabels.overview
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
 - ms.teamsadmincenter.locations.overview
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebf362bf6b0cb7213b085a895e59e7c93e98d60f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b245566c0920604dac0e10e6a6cfe49937570bc2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836578"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137118"
 ---
 <a name="add-and-update-reporting-labels"></a>보고 레이블 추가 및 업데이트
 ============================
@@ -51,10 +52,10 @@ ms.locfileid: "41836578"
 
 |네트워크|네트워크 이름|네트워크 범위|건물 이름|소유권 형식|건물 종류|Office 유형 빌드|곳|우편번호|명칭|상태|지역|내부 회사|Express 경로|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso의 임대 다시&F|Office|다시&F|산 보기|94043|보세요|캐나다|보세요|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso의 임대 다시&F|Office|다시&F|산 보기|94043|보세요|캐나다|보세요|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso의 임대 다시&F|Office|다시&F|산 보기|94043|보세요|캐나다|보세요|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso의 임대 다시&F|Office|다시&F|산 보기|94043|보세요|캐나다|보세요|1|1|
+|10.0.128.0    |SVC-1|32|USCAMTV001|Contoso의 임대 다시&F|Office|다시&F|산 보기|94043|보세요|캐나다|보세요|1|1|
+|10.0.130.0    |SVC-1|32|USCAMTV001|Contoso의 임대 다시&F|Office|다시&F|산 보기|94043|보세요|캐나다|보세요|1|1|
+|10.0.131.0    |SVC-1|32|USCAMTV001|Contoso의 임대 다시&F|Office|다시&F|산 보기|94043|보세요|캐나다|보세요|1|1|
+|10.0.132.0    |SVC-1|32|USCAMTV001|Contoso의 임대 다시&F|Office|다시&F|산 보기|94043|보세요|캐나다|보세요|1|1|
 
 데이터 파일의 서식을 지정 하는 방법에 대 한 자세한 내용은 [테 넌 트 데이터 파일 형식 및 빌드 데이터 파일 구조](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure)를 참조 하세요.
 

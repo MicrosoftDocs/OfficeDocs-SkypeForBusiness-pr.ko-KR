@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀 클라우드 음성 서비스 배포 준비
+title: 클라우드 음성 서비스 배포 준비
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efc7193549fac95a29a574f455576dec5ea35c58
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862828"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137998"
 ---
 # <a name="prepare-my-service"></a>내 서비스 준비
 
@@ -80,7 +81,7 @@ ms.locfileid: "41862828"
 
 ## <a name="test-cloud-voice-workloads-in-teams"></a>팀에서 클라우드 음성 작업 부하 테스트
 
-구상 단계의 일부로 팀 구름 음성 비즈니스 성공 및 기술 구현 계획을 정의 하 고 문서화 하 고 관리 센터에서 원하는 구성을 수행 하는 경우 다음 단계는 조직의 예측 및 요구 사항은 기능, 기능 및 유용성을 통해 충족 됩니다. 프로덕션 환경에서 파일럿 또는 최종 배포를 배포 하기 전에이 유효성 검사 단계를 수행 해야 합니다.
+구상 단계의 일부로 팀 구름 음성 비즈니스 성공 및 기술 구현 계획을 정의 하 고 문서화 하 고 관리 센터에서 원하는 구성을 수행 하는 경우 다음 단계는 조직의 기대치와 요구 사항이 기능, 기능 및 유용성을 통해 충족 되는지 확인 하는 것입니다. 프로덕션 환경에서 파일럿 또는 최종 배포를 배포 하기 전에이 유효성 검사 단계를 수행 해야 합니다.
 
 구상 단계에서 정의한 비즈니스 성공 계획을 활용 하 여 테스트 단계 중 평가할 활동, 기대, 기능/기능 테스트 사례 및 전체 범위를 결정 하는 기준으로 사용할 수 있습니다.
 
@@ -117,7 +118,7 @@ ms.locfileid: "41862828"
 
 - [오디오 회의를 위한 기술 계획](cloud-voice-deployment.md)
 
-- [Microsoft 팀을 위한 오디오 회의 설정](set-up-audio-conferencing-in-teams.md)
+- [Microsoft Teams용 오디오 회의 설정하기](set-up-audio-conferencing-in-teams.md)
 
 - [통화 요금제를 사용 하 여 전화 시스템에 대 한 기술 계획](calling-plan-landing-page.md)
 

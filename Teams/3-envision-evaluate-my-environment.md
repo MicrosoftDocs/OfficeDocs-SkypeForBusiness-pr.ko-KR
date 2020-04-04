@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀 클라우드 음성 작업 부하에 대 한 환경 평가
+title: 클라우드 음성 작업 부하에 대 한 환경 평가
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3efb5a58c36a38757b2f6046ca8c8c42ab80f6ce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 17843b886fc334d7b02907882a82dffdf302e9f5
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825076"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137988"
 ---
 # <a name="evaluate-my-environment"></a>내 환경 평가
 
@@ -42,7 +43,7 @@ ms.locfileid: "41825076"
 
 ## <a name="current-environment"></a>현재 환경
 
-환경 검색의 일부로, 하드웨어 요구 사항에 따라 오디오 회의 및 전화 시스템을 지원 하기 위해 Pc 및 모바일 장치에 대 한 준비 평가와 같은 최종 사용자 컴퓨팅과 관련 된 모든 문제를 포함 하세요. 소프트웨어 요구 사항.
+환경 검색의 일부로, 하드웨어 요구 사항에서 소프트웨어 요구 사항에 이르기까지 음성 회의 및 전화 시스템을 지원 하기 위해 Pc 및 모바일 장치에 대 한 준비 평가와 같은 최종 사용자 컴퓨팅과 관련 된 모든 문제를 포함 합니다.
 
 환경 검색을 통해 [전화 번호를 Microsoft에 전송할지](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)여부를 확인할 수도 있습니다.
 이를 파악 하면 조직에서 프로젝트 계획을 적절 하 게 조정 하 여 번호 포팅에 필요한 정보를 준비할 수 있습니다. 환경 검색을 수행 하기 위해 [Microsoft 팀의 환경 검색 출시](environmental-discovery-for-microsoft-teams-rollout.md) 를 사용할 수 있습니다.
@@ -155,7 +156,7 @@ Microsoft 팀은 Microsoft 온라인 서비스에 연결 되며 인터넷에 연
 조직에서 이러한 포트를 열어야 하는 정확한 IP 주소 범위 및 도메인을 지정 해야 하는 경우 이러한 포트에 대 한 대상 IP 범위 및 도메인을 제한할 수 있습니다. 정확한 포트, 프로토콜 및 IP 범위 목록은 [Office 365 url 및 ip 주소 범위](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)를 참조 하세요.
 대상 IP 주소 범위와 도메인을 제한 하도록 선택 하는 경우 포트와 범위 목록을 변경 하는 데 문제가 있을 수 있으므로이를 반드시 유지 해야 합니다. 변경 내용이 있을 때 [이 RSS 피드](https://go.microsoft.com/fwlink/p/?linkid=236301) 를 업데이트 하도록 구독할 수 있습니다. 또한, 정기적으로 [비즈니스용 Skype 네트워크 평가 도구](https://www.microsoft.com/download/details.aspx?id=53885) 를 실행 하 여 모든 포트가 열려 있는지 테스트 하는 것이 좋습니다. 이 도구의 기능에 대 한 자세한 내용은 다음 섹션에서 확인할 수 있습니다.
 
-프록시 서버를 배포 하는 경우 모든 팀 서비스에 대 한 프록시 서버를 우회 하는 것이 좋습니다. 프록시를 사용 하는 것이 가능 하지만, UDP 대신 TCP를 강제로 사용 하도록 미디어가 작동 하기 때문에 품질이 저하 될 가능성이 높습니다. 프록시 서버 및 바이패스에 대 한 자세한 내용은 [Office 365 url 및 IP 주소 범위](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)를 참조 하세요.
+프록시 서버를 배포 하는 경우 모든 팀 서비스에 대 한 프록시 서버를 우회 하는 것이 좋습니다. 프록시를 사용 하는 것이 가능 하지만, UDP 대신 TCP를 사용 하도록 미디어를 강제 적용 하 여 품질이 낮아질 가능성이 높습니다. 프록시 서버 및 바이패스에 대 한 자세한 내용은 [Office 365 url 및 IP 주소 범위](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)를 참조 하세요.
 
 <!--ENDOFSECTION-->
 

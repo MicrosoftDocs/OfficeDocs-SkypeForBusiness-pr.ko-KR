@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀의 무료 Office 365 구독 버전 업그레이드
+title: Microsoft 팀에서 Office 365 구독으로 무료 업그레이드
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,21 +15,22 @@ f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 756f22712bb0d3f71cdeb5936eb53960700ef57b
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 6019491c7e72e91c9f3cfbcaec8a4c60ae297c14
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706988"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139647"
 ---
 # <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Microsoft 팀의 무료 Office 365 구독 버전 업그레이드
 ======================================================
 
-조직에서 무료 버전의 Microsoft 팀을 사용 하는 경우 사용자를 위해 Office 365 구독 계획을 구매 하 여 정식 버전으로 쉽게 업그레이드할 수 있습니다. 정식 버전은 예약, 오디오 회의, 향상 된 관리, 보안 기능 등 무료 버전이 제공 하지 않는 추가 팀 기능을 제공 합니다. Office 365는 사용자의 생산성을 높일 수 있도록 Exchange Online, SharePoint Online, Office를 포함 하 여, Microsoft의 클라우드 기반 Office 데스크톱 제품군과 회사의 차세대 통신 및 공동 작업 서비스를 통합 합니다. 인터넷을 통해 거의 모든 위치 팀을 업그레이드할 때 기존 팀 데이터가 손실 되지 않습니다. 모든 팀, 채널, 채팅, 파일, 사용 권한을 함께 얻을 수 있습니다. 
+조직에서 무료 버전의 Microsoft 팀을 사용 하는 경우 사용자를 위해 Office 365 구독 계획을 구매 하 여 정식 버전으로 쉽게 업그레이드할 수 있습니다. 정식 버전은 예약, 오디오 회의, 향상 된 관리, 보안 기능 등 무료 버전이 제공 하지 않는 추가 팀 기능을 제공 합니다. Office 365는 친숙 한 Microsoft Office 데스크톱 제품군과 Exchange Online, SharePoint Online, Office를 포함 하 여 클라우드 기반 Microsoft의 차세대 통신 및 공동 작업 서비스를 결합 하 여 사용자가 인터넷을 통해 사실상 생산성을 높일 수 있도록 지원 합니다. 팀을 업그레이드할 때 기존 팀 데이터가 손실 되지 않습니다. 모든 팀, 채널, 채팅, 파일, 사용 권한을 함께 얻을 수 있습니다. 
 
 > [!NOTE]
 > 이미 Office 365 구독이 있는 경우 무료 버전이 아닌 회사 id를 사용 하 여 팀 평가판을 사용할 수 있습니다. 팀 평가판은 제한 된 시간 동안 팀의 전체 버전을 제공 합니다. 자세한 내용은 [Microsoft 팀 상업용 클라우드 평가판 제공 관리](iw-trial-teams.md)를 참조 하세요.

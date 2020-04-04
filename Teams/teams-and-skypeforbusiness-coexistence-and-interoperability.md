@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀 | 업그레이드, 군도 모드, Interop 정책
+title: 비즈니스용 Skype 및 Microsoft 팀 간 상호 운용성
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef1c9d8fd9d30101fdd40dba5946dfefb324742c
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706658"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140679"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft 팀 및 비즈니스용 Skype 공존 및 상호 운용성 이해
 
@@ -34,7 +34,7 @@ ms.locfileid: "42706658"
 - [프로젝트 이해 관계자 참여](upgrade-enlist-stakeholders.md)
 - [프로젝트 범위 정의](https://aka.ms/SkypetoTeams-Scope)
 
-조직에서 현재 비즈니스용 Skype를 사용 하 고 있거나 팀으로 업그레이드 하기 시작 하는 경우, 두 응용 프로그램이 공존 하는 방법, 상호 운용 되는 경우 및 방법, 관리 방법에 대해 이해 하는 것이 중요 합니다. 사용자의 마이그레이션-비즈니스용 Skype에서 팀으로의 최종 업그레이드에 대 한 모든 방법입니다.
+조직에서 현재 비즈니스용 Skype를 사용 하 고 있거나 팀으로 업그레이드 하기 시작 하는 경우, 두 응용 프로그램이 공존 하는 방법, 상호 작용 하는 시간 및 방법, 그리고 비즈니스용 Skype에서 팀으로의 최종 업그레이드에 이르기까지 사용자의 마이그레이션을 관리 하는 방법에 대해 이해 하는 것이 중요 합니다.
 
 > [!Tip]
 > [공존 및 상호 운용성](https://aka.ms/teams-upgrade-coexistence-interop)에 대해 알아보려면 다음 세션을 시청 하세요.
@@ -70,13 +70,13 @@ ms.locfileid: "42706658"
 
 이 공존 모드에서는 사용자가 비즈니스용 Skype (예, 채팅, 모임, 통화 기능)를 유지 하 고 팀과 채널에 팀을 사용 하지 않습니다. 이 모드는 오늘 사용할 수 있습니다. 그러나 현재 구현에서 팀과 채널은 사용자에 대해 자동으로 해제 되지 않습니다. 이는 팀과 채널을 숨기기 위해 앱 사용 권한 정책을 사용 하 여 달성할 수 있습니다.
 
-이 모드는 팀의 관리 되는 배포를 시작 하기 전에 사용자가 빌드 준비를 시작 하기 전에 팀을 사용 하거나 비즈니스용 Skype 사용자를 위해 팀 회의에서 인증 된 참여를 사용 하도록 설정 하는 방법에 앞서 사용할 수 있습니다. 팀에 대 한 라이선스.
+이 모드는 팀의 관리 되는 배포를 시작 하기 전에 사용자가 팀을 위해 사용이 허가 된 경우 비즈니스용 Skype 사용자에 게 팀에서 팀 회의에 대 한 인증 된 참여를 사용 하도록 설정 하는 것을 방지 하기 위해 사용 될 수 있습니다.
 
 ### <a name="teams-only"></a>팀만
 
 
 > [!IMPORTANT]
-> 사용자가 **Teams 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거하면 Outlook 및 기타 Office 앱에서 현재 상태가 작동하지 않습니다. 현재 상태는 Teams에서 잘 작동합니다. 해결 방법: Outlook (및 다른 Office 앱)에서 현재 상태를 확인 하려면 팀 **전용** 모드로 팀을 실행 하는 경우에도 비즈니스용 Skype를 설치 해야 합니다. Microsoft는 이 문제를 알고 있으며 해결하기 위해 노력하고 있습니다.
+> 사용자가 **Teams 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거하면 Outlook 및 기타 Office 앱에서 현재 상태가 작동하지 않습니다. 현재 상태는 Teams에서 잘 작동합니다. 해결 방법: **Teams 전용** 모드에서 팀을 실행하는 경우에도 Outlook (및 기타 Office 앱)에서 현재 상태를 보려면 비즈니스용 Skype를 설치해야 합니다. Microsoft는 이 문제를 알고 있으며 해결하기 위해 노력하고 있습니다.
 
 
 **팀 전용** 사용자 ( *업그레이드* 된 사용자 라고도 함)는 팀의 모든 기능에 액세스할 수 있습니다. 업그레이드 되지 않은 사용자나 외부 사용자가 구성한 비즈니스용 Skype에서 비즈니스용 skype 클라이언트를 유지 하 여 모임에 참가할 수 있습니다. 업그레이드 된 사용자는 비즈니스용 skype (비즈니스용 skype 사용자가 **아일랜드** 모드에 있지 않은 경우)의 상호 운용성 기능을 사용 하 여 비즈니스를 계속 사용 중인 조직의 다른 사용자와 계속 통신할 수 있습니다. 그러나 업그레이드 된 사용자는 비즈니스용 Skype 채팅, 통화 또는 모임을 시작할 수 없습니다.
@@ -95,7 +95,7 @@ ms.locfileid: "42706658"
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>팀 공동 작업 및 모임이 있는 비즈니스용 Skype를 먼저 사용 하 고, 모임이 라고도 합니다.
 
-이 공존 모드를 사용 하 여 공동 작업 기능 외에도 사용자가 상위 팀 모임 경험을 활용할 수 있도록 하는 조직의 팀 모임 접근 권한 값을 높일 수 있습니다. 이동이 잦은 장치 및 브라우저를 포함 하 여 모든 플랫폼에서의 고급 사용자 환경과 기록, 번역 또는 배경 흐림 등 혁신적인 기능.
+이 공존 모드를 사용 하 여 공동 작업 기능 외에도 사용자가 상위 팀의 팀 경험을 최대한 활용할 수 있도록 하는 것은 물론, 다양 한 기능을 제공 하는 것이 좋습니다, 번역 또는 배경 흐림, 모든 플랫폼에서 모바일 장치 및 브라우저를 비롯 한 뛰어난 사용자 환경에 대 한 혁신을 받을 수 있습니다.
 
 이 모드에서 팀과 채널 기반 대화에 팀을 사용 하는 것과 함께 사용자는 팀을 사용 하 여 모임을 예약 하 고 수행 합니다. 개인 채팅 및 통화는 비즈니스용 Skype에 남아 있습니다. 팀과 비즈니스용 Skype는 현재 상태 조정, 자동 보존/유지 중단, 두 응용 프로그램 간의 HID 장치 지원과 같은 "더 나은" 기능 범위에서 혜택을 누릴 수 있습니다. 필요에 따라 앱 사용 권한 정책을 사용 하 여 팀과 채널을 숨길 수 있습니다.
 
@@ -166,7 +166,7 @@ Interop 에스컬레이션은 관리 에스컬레이션을 사용 하 여 기본
 
 팀 사용자가 interop 에스컬레이션을 트리거한 경우 팀 모임이 만들어집니다. 비즈니스용 Skype 사용자가 트리거를 사용 하는 경우 비즈니스용 Skype 모임이 만들어집니다. 두 경우 모두 생성 **된 모임은 모임 시작 모임이 며** 사용자의 일정에 반영 되지 않습니다.
  
-다른 당사자는 해당 링크를 클릭 하 여 interop 채팅 및 조인을 통해 모임 참가 링크를 받습니다. 비즈니스용 Skype 사용자에 게 팀 계정이 있고 팀 사용자가 초대 하는 경우 인증 된 모임에 참가 합니다. 그렇지 않으면 익명 참여자로 참여 하 게 됩니다. 반대로, 팀 사용자에 게는 비즈니스용 skype 계정 및 skype for business 클라이언트가 있으며,이를 사용 하 여 skype for Business meeting을 인증 된 참여자로 참가 시킬 수 있지만, Skype를 사용 하는 등 익명 참여자로 참가할 수도 있습니다. 모임 앱.
+다른 당사자는 해당 링크를 클릭 하 여 interop 채팅 및 조인을 통해 모임 참가 링크를 받습니다. 비즈니스용 Skype 사용자에 게 팀 계정이 있고 팀 사용자가 초대 하는 경우 인증 된 모임에 참가 합니다. 그렇지 않으면 익명 참여자로 참여 하 게 됩니다. 반대로, 팀 사용자는 비즈니스용 skype 계정 및 비즈니스용 skype 클라이언트를 사용 하 여 skype for business meeting을 인증 된 참여자로 참가 시킬 수 있지만,이는 Skype 모임 앱을 사용 하는 등 익명 참여자로 참가할 수도 있습니다.
 
 당사자가 모임에 참가 한 후에는 데스크톱 또는 콘텐츠 공유, 파일 공유 또는 이전, 다른 참가자 추가 등 모임에서 지원 되는 모든 활동을 수행할 수 있습니다.
 

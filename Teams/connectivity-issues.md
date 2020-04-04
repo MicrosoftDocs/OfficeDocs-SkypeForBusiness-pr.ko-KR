@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 클라이언트의 연결 문제 해결
+title: 팀 클라이언트의 연결 문제 해결
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -16,12 +16,13 @@ f1.keywords:
 description: 주로 방화벽 또는 프록시 연결에서 발생하는 Microsoft Teams 클라이언트의 연결 문제 해결 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a12be097d0609f3631b6761f31350603b283faa2
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ee6cb916388dbfc0109185a0280da052980f8ccd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825356"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137758"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Microsoft Teams 클라이언트의 연결 문제 해결
 ==============================================================

@@ -1,5 +1,5 @@
 ---
-title: XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리
+title: 콘텐츠 카메라를 설정 하는 방법 알아보기-Microsoft 팀
 ms.author: kenwith
 author: kenwith
 ms.reviewer: sohailta
@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 이 문서에서는 사용자 지정 테마 적용을 포함 하 여 Microsoft 팀 대화방 장치에서 사용 하는 기본 설정의 원격 관리에 대해 설명 합니다.
-ms.openlocfilehash: b470804ac2c5a44a0eb74330ea5158c2e9fe9098
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+description: 이미지 처리 소프트웨어와 상호 작용 하는 Microsoft 팀 방에 콘텐츠 카메라를 사용 하 여 발표자가 아날로그 화이트 보드에서 그릴 수 있도록 합니다.
+ms.openlocfilehash: 6ddc1a43a9d75e6f142c82c0215124bad97f77dd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824536"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137628"
 ---
 # <a name="content-cameras"></a>콘텐츠 카메라
 

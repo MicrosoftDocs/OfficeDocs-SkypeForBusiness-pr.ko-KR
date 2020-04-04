@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Office 365의 전화 시스템은 사용자가 할당 한 전화 번호에 해당 하는 기본 발신자 ID를 제공 합니다. 사용자의 발신자 ID (통화 라인 ID 라고도 함)를 변경 하거나 차단할 수 있습니다. 조직에서 발신자 id를 사용 하는 방법을 확인 하 여 조직에서 발신자 ID를 사용 하는 방법에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: 9b31e761ee59626482b0cd98991ae1ab886af7b6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: 전화 라인 ID 라고도 하는 Office 365 기본 발신자 ID (사용자의 지정 된 전화 번호)에 대해 알아봅니다. 사용자의 발신자 ID를 변경 하거나 차단할 수 있습니다.
+ms.openlocfilehash: c04fdfa7dc395f31eb3277fe0ab2f77aa92605c7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838098"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140911"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>사용자의 발신자 ID 설정
 Office 365의 전화 시스템은 사용자가 할당 한 전화 번호에 해당 하는 기본 발신자 ID를 제공 합니다. 사용자의 발신자 ID (통화 라인 ID 라고도 함)를 변경 하거나 차단할 수 있습니다. 조직에서 발신자 id를 사용 하는 [방법을](how-can-caller-id-be-used-in-your-organization.md)확인 하 여 조직에서 발신자 id를 사용 하는 방법에 대해 자세히 알아볼 수 있습니다.

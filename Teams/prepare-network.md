@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에 대한 조직의 네트워크 준비
+title: Teams에 대한 조직의 네트워크 준비
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
-description: Microsoft 팀을 롤아웃 하기 전에 네트워크를 평가 하 고 팀에 맞게 준비 되어 있는지 확인 합니다. 정보에는 네트워크 요구 사항, 대역폭 요구 사항, 네트워크 최적화 지침이 포함 됩니다.
+description: 네트워크 요구 사항, 네트워크 최적화, 대역폭 요구 사항을 비롯 한 조직의 네트워크를 준비 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +16,14 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64bcdee7e1a4ce7f36a9089fd5231cf2a63e9d5b
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.custom:
+- seo-marvel-mar2020
+ms.openlocfilehash: bc81781e17b16820eebb134a0ee57f1fb82d403c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43109466"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43143779"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams에 대한 조직의 네트워크 준비 
 
@@ -157,5 +159,4 @@ ms.locfileid: "43109466"
 [Teams의 ID 모델 및 인증](identify-models-authentication.md)
 
 [Teams를 배포하는 방법](How-to-roll-out-teams.md)
-
 

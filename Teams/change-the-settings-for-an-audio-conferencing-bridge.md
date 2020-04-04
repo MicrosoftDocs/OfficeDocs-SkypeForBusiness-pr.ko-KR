@@ -22,17 +22,18 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.bridgesettings
-description: '비즈니스용 Skype 또는 Microsoft 팀 앱을 사용 하지 않을 때 모임 이끌이의 이름 및 pin을 수집 하는 데 사용 되는 회의 브리지에 대 한 설정을 변경 해야 하는 단계를 확인 하세요. '
-ms.openlocfilehash: d872bf3d0db2e19089716ab65fc487db601c48ea
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: 입력 및 종료 알림, 재생 이름 또는 전화 번호, 톤, 메시지 발신자 등의 오디오 회의 브리지 설정을 변경 하 여 자신의 이름을 기록 합니다.
+ms.openlocfilehash: aaff3518675e1db56340f9dc1568b994cf2ed6e6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825116"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139087"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>오디오 회의 브리지의 설정 변경
 
-Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브리지 라고 하는 사용자의 전화 번호를 받게 됩니다. 회의 브리지에는 하나 이상의 전화 번호가 포함 될 수 있습니다. 이러한 전화 번호는 발신자가 모임에 전화를 걸 때 사용 됩니다. 전화 번호는 비즈니스용 Skype 또는 Microsoft 팀 모임 초대의 아래쪽에 포함 되어 있습니다.
+Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브리지 라고 하는 사용자의 전화 번호를 받게 됩니다. 회의 브리지에는 하나 이상의 전화 번호가 포함될 수 있습니다. 이러한 전화 번호는 발신자가 모임에 전화를 걸 때 사용 됩니다. 전화 번호는 비즈니스용 Skype 또는 Microsoft 팀 모임 초대의 아래쪽에 포함 되어 있습니다.
   
 회의 브리지는 전화를 걸거나 모임 자동 전화 교환을 사용 하 여 음성 메시지를 발신자에 게 메시지를 표시 하 고, 설정에 따라 알림을 재생 하 고, 발신자에 게 자신의 이름을 기록 하도록 요청 하 고, PIN 설정을 제어할 수 있습니다. 모임이 비즈니스용 Skype 또는 Microsoft 팀 앱을 사용 하지 않는 경우 모임을 시작할 수 있도록 모임 이끌이에게 Pin이 지정 됩니다.
 
@@ -42,7 +43,7 @@ Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브�
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Microsoft 팀 로고를 표시 하는 아이콘](media/teams-logo-30x30.png) Microsoft 팀 관리 센터 사용
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft 팀 로고를 표시 하는 아이콘](media/teams-logo-30x30.png) Microsoft 팀 관리 센터 사용
 
 1. 왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다. 
 
@@ -64,10 +65,10 @@ Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브�
 5. 사용자에 게 전자 메일을 보낼지 여부를 지정 하려면 **오디오 회의 구성이 변경 되는 경우 자동으로 전자 메일을 사용자에 게 보내기를**설정 하거나 해제 합니다.
     자세한 내용은 [비즈니스용 Skype Online에서 설정이 변경 될 때 사용자에 게 전송](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) 되 [는 Microsoft 팀 또는 전자 메일에서 오디오 회의 설정이 변경 될 때 사용자에 게 자동으로 전송 되는 전자 메일을](emails-sent-to-users-when-their-settings-change-in-teams.md) 참조 하세요.
  
-6. **저장**을 클릭 합니다. 
+6. **저장**을 클릭합니다. 
 
 
-## <a name="an-icon-showing-the-skype-for-business-logomediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![비즈니스용 Skype 로고를 표시 하는 아이콘](media/sfb-logo-30x30.png)  비즈니스용 Skype 관리 센터 사용
+## <a name="an-icon-showing-the-skype-for-business-logo--using-the-skype-for-business-admin-center"></a>![비즈니스용 Skype 로고를 표시 하는 아이콘](media/sfb-logo-30x30.png)  비즈니스용 Skype 관리 센터 사용
 
  **발신자가 모임에 참가 하는 경우의 모임 환경 설정**
     
@@ -135,6 +136,6 @@ Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브�
   
 ## <a name="related-topics"></a>관련 항목
 
-[Microsoft 팀을 위한 오디오 회의 설정](set-up-audio-conferencing-in-teams.md)
+[Microsoft Teams용 오디오 회의 설정하기](set-up-audio-conferencing-in-teams.md)
 
 [비즈니스용 Skype Online에 대 한 오디오 회의 설정](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

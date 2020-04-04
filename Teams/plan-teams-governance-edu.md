@@ -1,5 +1,5 @@
 ---
-title: IT 전문가를 위한 microsoft 교육 관리 FAQ-Microsoft 팀
+title: 관리자용 Microsoft 교육 거버넌스 FAQ
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 719f9429d49dfef7a21670c67bad96c9e26c993e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 18476e043268d8b51fdf877b27e23eb926a1885e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837438"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137788"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>관리자용 Microsoft 교육 거버넌스 FAQ
 
@@ -60,7 +61,7 @@ ms.locfileid: "41837438"
 
 각 반기 또는 분기의 시작 부분에는 여러 개의 새로운 팀이 필요 합니다. 자동으로 이러한 팀을 만들고 적절 한 사용자로 채운 다음 적절 한 사용 권한을 설정 하는 것이 좋습니다.
 
--   School Data Sync에서는 Exchange Online 및 SharePoint Online 용 Office 365 그룹, Microsoft 팀 및 OneNote 수업용 전자 필기장의 수업 팀, 교육용 Intune 용 학교 그룹, rostering 및 기타 다양 한 SSO (single sign-on) 통합을 만들 수 있습니다. 타사 응용 프로그램. [School Data Sync 개요](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)를 참고 하세요.
+-   School Data Sync는 Exchange Online 및 SharePoint Online에 대 한 Office 365 그룹, Microsoft 팀 및 OneNote 수업용 전자 필기장의 수업 팀, 교육용 Intune 용 학교 그룹, 다른 여러 타사 응용 프로그램을 위한 rostering 및 SSO (single sign-on) 통합 등을 만들 수 있습니다. [School Data Sync 개요](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)를 참고 하세요.
 -   PowerShell을 사용 하 여 팀과 채널을 만들고 설정을 자동으로 구성할 수 있습니다. 자세한 내용은 [Microsoft 팀 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 을 참조 하세요.
 -   Microsoft Graph API (현재 베타 버전)를 사용 하 여 팀을 만들고, 구성 하 고, 복제 하 고, 보관할 수 있습니다. 자세한 내용은 [Microsoft GRAPH API를 사용 하 여 Microsoft 팀 작업을](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) 참조 하세요.
 

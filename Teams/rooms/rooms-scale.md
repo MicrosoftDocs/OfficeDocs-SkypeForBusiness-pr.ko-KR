@@ -10,7 +10,9 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.custom: Strat_SB_Admin
+ms.custom:
+- Strat_SB_Admin
+- seo-marvel-mar2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
@@ -32,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: eb1e4337f97f16df6d7ef039bf4ba095ed692995
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827926"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141021"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -589,11 +591,11 @@ Microsoft 팀 대화방은 Surface Pro 및 Surface Pro 4에서 모두 지원 됩
 > 
 > Microsoft 팀 회의실 단위 배포를 시작 하려면 먼저 모든 패키지를 배포 해야 합니다.
 > 
-> **** \> **배포** 상태 \> **콘텐츠 상태**모니터링으로 진행 하 여 Configuration Manager 콘솔에서 패키지 배포의 상태를 검토할 수 있습니다.
+> **Monitoring** \> **배포** 상태 \> **콘텐츠 상태**모니터링으로 진행 하 여 Configuration Manager 콘솔에서 패키지 배포의 상태를 검토할 수 있습니다.
 
 ## <a name="configuration-manager-task-sequences"></a>Configuration Manager 작업 순서
 
-작업 순서를 구성 관리자와 함께 사용 하 여 운영 체제 이미지를 대상 컴퓨터에 배포 하는 단계를 자동화 합니다. Microsoft 팀 회의실 단위를 자동화 된 방식으로 배포 하려면 대상 Microsoft 팀 공간 컴퓨터를 시작 하는 데 사용 되는 부팅 이미지, 설치할 Windows 10 Enterprise 운영 체제 이미지, 모든 작업 순서를 만듭니다. 다른 응용 프로그램 또는 소프트웨어 업데이트와 같은 기타 추가 콘텐츠
+작업 순서를 구성 관리자와 함께 사용 하 여 운영 체제 이미지를 대상 컴퓨터에 배포 하는 단계를 자동화 합니다. Microsoft 팀 회의실 단위를 자동화 된 방식으로 배포 하려면 대상 Microsoft 팀 공간 컴퓨터를 시작 하는 데 사용 되는 부팅 이미지, 설치 하려는 Windows 10 Enterprise 운영 체제 이미지, 기타 응용 프로그램 또는 소프트웨어 업데이트 등의 다른 추가 콘텐츠를 참조 하는 작업 순서를 만듭니다.
 
 ### <a name="import-the-sample-task-sequence"></a>샘플 작업 순서 가져오기
 
@@ -656,7 +658,7 @@ Microsoft 팀 대화방은 Surface Pro 및 Surface Pro 4에서 모두 지원 됩
    11. **SRS V2 구성 파일 복사**:이 단계에서는 Microsoft 팀 대화방 배포 키트의 필수 설정 파일과 구성 파일을 로컬 하드 드라이브에 복사 합니다. 이 단계에서는 사용자 지정이 필요 하지 않습니다.
        -   **Srs v2-Srs 응용 프로그램 패키지** 및 **사용 안 함 64 비트 파일 시스템 리디렉션이** 선택 되어 있는지 확인 합니다.
 
-   12. **설치-SRSv2-OS-업데이트**:이 단계는 Microsoft 팀 대화방 배포에 필요한 필수 운영 체제 업데이트를 배포 합니다. 이렇게 하려면 다음을 수행합니다.
+   12. **설치-SRSv2-OS-업데이트**:이 단계는 Microsoft 팀 대화방 배포에 필요한 필수 운영 체제 업데이트를 배포 합니다. 다음을 수행합니다.
        -   [Microsoft 팀 대화방 콘솔 구성을](console.md) 선택 하 여 필요한 업데이트를 확인 합니다.
        -   **SRS v2-OS 업데이트 패키지** 에 필수 업데이트가 모두 포함 되어 있는지 확인 합니다.
        -   **SRS v2-OS 업데이트 패키지가** 선택 되어 있는지 확인 합니다.

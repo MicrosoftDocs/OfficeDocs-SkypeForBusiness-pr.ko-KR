@@ -1,5 +1,5 @@
 ---
-title: Office 365 조직에서 Microsoft Teams 설정
+title: Office 365 조직에서 팀 설정
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,17 +14,18 @@ f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-mar2020
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4772cc676cb9b26ec613488553e96be26d93cfa
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: b3f4225eceea027a87843f5c92047ce98187ce9e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833348"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136478"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>조직에서 Teams 설정
 

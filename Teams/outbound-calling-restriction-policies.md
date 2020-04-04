@@ -1,5 +1,5 @@
 ---
-title: 오디오 회의 및 사용자 PSTN 통화의 아웃바운드 전화 제한 정책
+title: 발신 통화 제한-오디오 회의 & PSTN 통화
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 관리자는 오디오 회의의 종류와 사용자가 설정할 수 있는 최종 사용자 PSTN 통화를 제어할 수 있습니다.
-ms.openlocfilehash: 830ab45178c10ab485d50aafd66a4bf5d4db9011
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 253553e884b3f4591a7c5340132337d295cefe09
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836888"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137908"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>오디오 회의 및 사용자 PSTN 통화의 아웃바운드 전화 제한 정책
 
@@ -33,7 +34,7 @@ ms.locfileid: "41836888"
 
 아웃 바운드 통화 컨트롤은 사용자별로 적용할 수 있으며 다음 두 가지 컨트롤을 제공 하 여 각 유형의 아웃 바운드 호출을 독립적으로 제한할 수 있습니다. 기본적으로 두 컨트롤 모두 국제 및 국내 아웃 바운드 통화를 허용 하도록 설정 됩니다. 
 
-|Ctrl|설명|제어 옵션|
+|Ctrl|Description|제어 옵션|
 |:-----|:-----|:-----|
 |오디오 회의 PSTN 통화|아웃 바운드 유형을 제한 합니다. </br>내에서 허용 되는 통화 </br>사용자가 구성한 모임|국제 및 국내 (기본값)</br>국내</br>없음|
 |최종 사용자 PSTN 통화|통화 유형을 제한 합니다. </br>사용자가 설정할 수 있습니다.|국제 및 국내 (기본값)</br>국내</br>없음|
@@ -46,7 +47,7 @@ ms.locfileid: "41836888"
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>오디오 회의 발신 전화 제한 
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **사용자**를 클릭 한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
 
@@ -56,19 +57,19 @@ ms.locfileid: "41836888"
 
 4. **모임에서 전화 걸기 사용 권한**에서 원하는 전화 걸기 제한 옵션을 선택 합니다.
 
-5. **저장**을 클릭 합니다. 
+5. **저장**을 클릭합니다. 
 
-![비즈니스용 skype](media/sfb-logo-30x30.png) **관리 센터를 사용 하 여** 비즈니스용 skype 로고를 표시 하는 아이콘
+![비즈니스용 skype 로고를 나타내는 아이콘](media/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
 
-1.  **비즈니스용 Skype 관리 센터**의 왼쪽 탐색 창에서 **오디오 회의** > **사용자**로 이동한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
+1.    **비즈니스용 Skype 관리 센터**의 왼쪽 탐색 창에서 **오디오 회의** > **사용자**로 이동한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
 
-2.  작업 창에서 **편집**을 클릭 합니다.
+2.    작업 창에서 **편집**을 클릭 합니다.
 
-3.  **이 사용자의 모임에서 전화를 걸 수 있는 제한**에서 원하는 전화 걸기 제한 옵션을 선택 합니다.
+3.    **이 사용자의 모임에서 전화를 걸 수 있는 제한**에서 원하는 전화 걸기 제한 옵션을 선택 합니다.
 
     ![전화 걸기 옵션에 대 한 제한 사항](media/restrictions-to-dial-outs.png)
 
-5. **저장**을 클릭 합니다.
+5. **저장**을 클릭합니다.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

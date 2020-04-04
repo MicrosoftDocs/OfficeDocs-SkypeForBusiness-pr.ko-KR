@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 사용 하는 방법을 쉽게 찾을 수 있습니다. 국가/지역을 선택 하면 무료 서비스를 사용할 수 있는 무료 서비스 사용에 대 한 특정 세부 정보, 제한 사항, 제한 사항이 포함 된 국가 관련 페이지로 이동 합니다. 전화 걸기 형식 또는 형식에는 각 국가/지역 내의 필요한 액세스 코드가 표시 되어 무료 번호로 전화를 걸 수 있습니다.
-ms.openlocfilehash: 270d169be6992b97dfba94bedd4802560af78ef8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: 국가/지역에서 무료 전화, 유선/고정 회선, 모바일 네트워크 가용성, 제한을 포함 하 여 유료 번호를 사용 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: e987a392be81178a043835f44e34c67143609244
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836908"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140557"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>무료 전화 걸기 제한 사항
 

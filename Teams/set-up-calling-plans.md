@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - LIL_Placement
-description: Office 365 통화 요금제의 경우 라이선스를 구입 하 고 설정 하 고, 전화 번호를 받고, 사용자에 게 긴급 위치 및 전화 번호를 추가 하 고 할당 하 고, 사용자에 게 새 전화 번호를 알려 주는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3fd123991544bc4555be7ceb7693089f0d439070
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: '& 지역에서 사용할 수 있는 보기 계획을 비롯 하 여 전화 플랜을 설정 하 고, 라이선스를 할당 하 고, 전화 번호를 얻고, 긴급 주소 & 위치를 추가 하는 방법에 대해 알아봅니다.'
+ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838048"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140881"
 ---
 # <a name="set-up-calling-plans"></a>통화 플랜 설정
 
@@ -51,17 +52,17 @@ ms.locfileid: "41838048"
 
 - **팀 관리 센터를 사용 합니다.** 일부 국가/지역의 경우 팀 관리 센터를 사용 하 여 사용자에 대 한 번호를 얻을 수 있습니다. [사용자의 전화 번호 가져오기를](getting-phone-numbers-for-your-users.md)참조 하세요.
     
-- **기존 번호를 이식 합니다.** 현재 서비스 공급자 또는 전화 통신 회사의 기존 번호를 Office 365으로 이식 하거나 전송할 수 있습니다. 자세한 내용은 [팀으로 전화 번호 양도](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요. 
+- **기존 서비스 전화 번호 포팅하기** 기존 전화번호를 현재 서비스 공급자 또는 전화 캐리어에서 Office 365로 포팅하거나 이전할 수 있습니다. 자세한 내용은 [팀으로 전화 번호 양도](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요. 
   
-- **새 번호에 요청 양식을 사용 합니다.** 때로는 (국가/지역에 따라) 팀 관리 센터를 사용 하 여 새 전화 번호를 가져올 수 없으며, 특정 전화 번호 또는 지역 코드도 필요 합니다. 그렇다면 양식을 다운로드 하 여 다시 전송 해야 합니다. 자세한 내용은 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요. 
+- **새 전화 번호를 위한 요청 양식 사용하기** 때로는 (국가/지역에 따라) 팀 관리 센터를 사용 하 여 새 전화 번호를 가져올 수 없으며, 특정 전화 번호 또는 지역 코드도 필요 합니다. 그럴 경우 양식을 다운로드하여 다시 보내주세요. 자세한 내용은 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요. 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>4 단계: 조직의 긴급 주소 및 위치 추가
-<a name="bkmk_add_addresses"></a> 비상 주소는 전화 번호와 연결 되어 있어야 합니다. 이 연결이 발생 하는 경우 국가와 지역에 따라 다를 수 있습니다. 예를 들어 미국에서 사용자에 게 전화 번호를 할당할 때 긴급 주소를 연결 해야 합니다. 영국에서는 Office 365에서 전화 번호를 받을 때와 현재 서비스 공급자 로부터 전화 번호를 전송 하는 경우 긴급 주소를 전화 번호에 연결 해야 합니다. 
+<a name="bkmk_add_addresses"> </a> 비상 주소는 전화 번호와 연결 되어 있어야 합니다. 이 연결이 발생 하는 경우 국가와 지역에 따라 다를 수 있습니다. 예를 들어 미국에서 사용자에 게 전화 번호를 할당할 때 긴급 주소를 연결 해야 합니다. 영국에서는 Office 365에서 전화 번호를 받을 때와 현재 서비스 공급자 로부터 전화 번호를 전송 하는 경우 긴급 주소를 전화 번호에 연결 해야 합니다. 
 
 긴급 주소 통화와 관리에 대 한 자세한 내용은 [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md) 및 [조직의 긴급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)를 참조 하세요.
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>5 단계: 사용자에 게 긴급 주소 및 전화 번호 할당
-<a name="bkmk_add_addresses"></a> Office 365에서 통화 계획을 설정 하는 경우 각 사용자에 게 전화 번호와 긴급 주소를 할당 해야 합니다. 전화 번호를 연결 하려면 먼저 긴급 주소를 만들어야 합니다.  자세한 내용은 [긴급 주소 지정 또는 변경을](assign-change-emergency-location-user.md)참조 하세요.
+<a name="bkmk_add_addresses"> </a> Office 365에서 통화 계획을 설정 하는 경우 각 사용자에 게 전화 번호와 긴급 주소를 할당 해야 합니다. 전화 번호를 연결 하려면 먼저 긴급 주소를 만들어야 합니다.  자세한 내용은 [긴급 주소 지정 또는 변경을](assign-change-emergency-location-user.md)참조 하세요.
 
 
 > [!TIP]

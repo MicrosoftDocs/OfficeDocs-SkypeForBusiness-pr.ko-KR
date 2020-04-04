@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀 용 Office 365에서 오디오 회의 체험 또는 구매
+title: Office 365 팀에서 오디오 회의 체험 또는 구매
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,21 +21,22 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
+- seo-marvel-mar2020
 description: 'Office 365 용 오디오 회의 (PSTN 회의) 라이선스를 구입 하거나 구매 하 여 사용자가 전화를 걸 수 있는 컨퍼런스 통화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 6c2b7583dcf286ba3b761a3445e3eff241896194
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6f30f59e20ee6fd8516bcfe420e2b936e9749a8e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837618"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139697"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Microsoft 팀 용 Office 365에서 오디오 회의 체험 또는 구매
 
-조직의 사용자가 모임에 전화를 걸 때 휴대폰을 사용 해야 하는 경우가 있습니다. Microsoft 팀에는 이러한 상황에 대 한 오디오 회의 기능이 포함 되어 있습니다. 사용자는 모바일 장치 또는 PC에서 Microsoft 팀 앱을 사용 하는 대신 휴대폰을 사용 하 여 Microsoft 팀 모임에서 전화를 걸 수 있습니다.
+경우에 따라 조직의 사용자가 전화를 사용하여 모임에 전화해야 하는 경우가 있습니다. Microsoft 팀에는 이러한 상황에 대 한 오디오 회의 기능이 포함 되어 있습니다. 사용자는 모바일 장치 또는 PC에서 Microsoft 팀 앱을 사용 하는 대신 휴대폰을 사용 하 여 Microsoft 팀 모임에서 전화를 걸 수 있습니다.
 
 일정을 예약 하거나 리드 회의를 하는 사용자를 위해 오디오 회의를 설정 하기만 하면 됩니다. 모임에 전화를 거는 모임 참석자는 자신에 게 할당 된 라이선스가 필요 하지 않으며 다른 설정이 필요 하지 않습니다.
 
-가격 정보는 [오디오 회의 가격 산정](https://products.office.com/skype-for-business/audio-conferencing#Requirements)을 참조 하세요.
+요금 정보는 [오디오 회의 요금](https://products.office.com/skype-for-business/audio-conferencing#Requirements)을 참조하세요.
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>1 단계: 오디오 회의 라이선스 구입 및 할당
 
@@ -101,4 +102,4 @@ ms.locfileid: "41837618"
 
 [오디오 회의의 전화 번호](phone-numbers-for-audio-conferencing-in-teams.md)
 
-[온라인 모임 및 컨퍼런스 통화에 대 한 옵션 설정](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)
+[온라인 모임 및 전화 회의에 대한 옵션 설정하기](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

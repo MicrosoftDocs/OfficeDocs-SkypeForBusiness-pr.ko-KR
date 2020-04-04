@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레이드-Microsoft 팀
+title: 비즈니스용 Skype 온-프레미스를 Teams로 업그레이드
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,23 +8,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: 비즈니스용 Skype 온-프레미스 배포에서 팀으로 업그레이드 하기 위한 고려 사항
+description: 비즈니스용 Skype 서버 또는 Microsoft Lync 온-프레미스 배포에서 팀으로 업그레이드를 배포 하 고 구현 합니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4957b22b7fe00ed756c1e81c6bb7c8e2e982720f
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 24ccbaa0e7f43cdf1ccc816a3839547793c65167
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706678"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139627"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>비즈니스용 Skype 온-프레미스에서 팀으로 업그레이드
 
@@ -43,7 +45,7 @@ ms.locfileid: "42706678"
 비즈니스용 Skype 서버 또는 Microsoft Lync 온-프레미스를 배포 하 고 조직에서 팀으로 업그레이드 하려는 경우이 문서의 지침을 따르세요. 사용자를 단계별로 팀으로 이동 하는 경우 Office 365 테 넌 트에서 하이브리드 연결을 설정 하 고 공존 요구 사항을 결정 해야 합니다. 
 
 > [!IMPORTANT]
-> 비즈니스용 Skype Online은 2021 년 7 월 31 일에 만료 되며, 그 이후에는 더 이상 접근성 또는 지원 되지 않습니다. 조직의 혜택 실현을 최대화 하 고 업그레이드를 구현 하는 데 적절 한 시간을 확보 하려면 지금 Microsoft 팀으로 여행을 시작 하는 것이 좋습니다. 성공적으로 업그레이드 하면 기술 및 사용자의 준비가 정렬 되므로 Microsoft 팀으로 여행을 이동할 때이 가이드의 지침을 활용 해야 합니다.
+> 비즈니스용 Skype Online은 2021년 7월 31일에 서비스가 종료되며 이후에는 더 이상 액세스할 수 없게 되거나 지원되지 않습니다. 조직의 혜택 실현을 최대화 하 고 업그레이드를 구현 하는 데 적절 한 시간을 확보 하려면 지금 Microsoft 팀으로 여행을 시작 하는 것이 좋습니다. 성공적으로 업그레이드 하면 기술 및 사용자의 준비가 정렬 되므로 Microsoft 팀으로 여행을 이동할 때이 가이드의 지침을 활용 해야 합니다.
 
 ## <a name="step-1-configure-hybrid-connectivity"></a>1 단계: 하이브리드 연결 구성 
 

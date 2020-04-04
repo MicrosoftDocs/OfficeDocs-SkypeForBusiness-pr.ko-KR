@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀의 콘텐츠 eDiscovery 조사 수행
+title: 콘텐츠의 eDiscovery 조사 수행
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,12 +16,13 @@ f1.keywords:
 description: 법률 소송 절차에 대해 전자적으로 저장 된 모든 정보를 제출 해야 하는 경우와 같은 eDiscovery을 수행 해야 하는 경우 수행할 작업에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 315ec351450224dc8d5b98dc0d974b64573bc0ab
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 955fbf6ba937ca0fc11270cb58c12a0349d46330
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033272"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136688"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft 팀의 콘텐츠 eDiscovery 조사 수행
 

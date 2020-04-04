@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Microsoft 팀에서 QoS (서비스 품질)에 대 한 조직의 네트워크를 준비 합니다.
+description: Microsoft 팀에서 QoS (서비스 품질)를 위해 조직의 네트워크를 준비 하는 방법을 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,22 +16,23 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31e8b01f5a48d74d516121c5a59ea79d94c317a3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834738"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138038"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft 팀에서 QoS (서비스 품질) 구현
 
 이 문서는 Microsoft 팀의 QoS (서비스 품질)에 대 한 조직의 네트워크를 준비 하는 데 도움이 됩니다. 대규모 사용자 그룹을 지 원하는 경우 아래에 언급 된 문제가 발생 하는 경우 QoS를 구현 해야 할 수 있습니다. 사용자 수가 적은 소규모 기업에는 QoS가 필요 하지 않을 수 있지만,이 경우에도 도움이 됩니다.
 
-QoS는 중요 한 네트워크 트래픽 (예: 음성 또는 비디오 스트림)을 사용 하는 것을 허용 하는 방법으로 네트워크 지연이 중요 한 트래픽 앞 (새 앱 다운로드 (예: 다운로드가 2 초에 큰 문제가 되지 않는 경우))입니다. QoS는 실시간 스트림의 모든 패킷을 식별 하 고 표시 합니다 (Windows 그룹 정책 개체 및 포트 기반 액세스 제어 목록 이라는 라우팅 기능을 사용 하 여 아래에 대 한 자세한 내용은 네트워크에서 음성, 비디오, 화면 공유 스트림을 제공 하는 데 도움이 됨) 네트워크 대역폭의 전용 부분.
+QoS는 중요 한 네트워크 트래픽 (예: 음성 또는 비디오 스트림)을 사용 하는 것을 허용 하는 방법으로 네트워크 지연이 중요 한 트래픽 앞 (새 앱 다운로드 (예: 다운로드가 2 초에 큰 문제가 되지 않는 경우))입니다. QoS는 실시간 스트림의 모든 패킷을 식별 하 고 표시 합니다 (Windows 그룹 정책 개체 및 포트 기반 액세스 제어 목록 이라고 하는 라우팅 기능, 아래에 대해 자세히 설명) 그런 다음 네트워크에서 음성, 비디오 및 화면 공유 스트림을 네트워크 대역폭의 전용 부분으로 제공 하는 데 도움이 됩니다.
 
 일부 QoS 형식이 없는 경우 다음과 같은 음성 및 비디오의 품질 문제가 나타날 수 있습니다.
 
@@ -109,11 +110,11 @@ DSCP 값은 패킷 또는 스트림에 제공 되는 우선 순위 (dscp 표시�
 
 _권장 되는 초기 포트 범위_
 
-|미디어 트래픽 형식| 클라이언트 원본 포트 범위 |프로토콜별|DSCP 값|DSCP 클래스|
+|미디어 트래픽 유형| 클라이언트 원본 포트 범위  |프로토콜|DSCP 값|DSCP 클래스|
 |:--- |:--- |:--- |:--- |:--- |
-|오디오| 50000 – 50019|TCP/UDP|46|전달 발송 (EF)|
-|비디오만| 50,020–50,039|TCP/UDP|34|전달 보장 (AF41)|
-|응용 프로그램/화면 공유| 50,040–50,059|TCP/UDP|awg|전달 보장 (AF21)|
+|오디오| 50,000~50,019|TCP/UDP|46|Expedited Forwarding(EF)|
+|비디오| 50,020~50,039|TCP/UDP|34|Assured Forwarding(AF41)|
+|응용 프로그램/화면 공유| 50,040~50,059|TCP/UDP|awg|Assured Forwarding(AF21)|
 ||||||
 
 이러한 설정을 사용할 때는 다음에 유의 해야 합니다.

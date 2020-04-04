@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype와 공존
+title: 비즈니스용 Skype와 동시 사용
 author: kenwith
 ms.author: kenwith
 manager: Serdars
@@ -16,15 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-description: 이 문서는 할당 된 Team를 사용 하는 팀 사용자와 테 넌 트 및 페더레이션 모두에 대 한 채팅, 통화 라우팅 및 현재 상태 간 동작에 대해 설명 합니다. 여기에는 라우팅 최적화, 현재 상태 동작, *레거시* 에서 *아일랜드* 로의 기본 team문제 등급 모드 변경 및 *이전 버전*의 임박한 만료가 포함 됩니다.
-ms.openlocfilehash: 64889ae11b4ce8665fb4a6bdbb98ff95aaf777fc
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.custom: seo-marvel-mar2020
+description: 팀 간의 공존 동작 (라우팅 매개 변수, 채팅 & 전화 접속 &, 착신 전환, 기존 스레드, & 현재 상태를 포함 하 여 Skype for Business &)
+ms.openlocfilehash: ff5e94b16cd55374ec0aeb45aaffdda41fbe0498
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42328020"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137313"
 ---
-# <a name="coexistence-with-skype-for-business"></a>비즈니스용 Skype와 공존
+# <a name="coexistence-with-skype-for-business"></a>비즈니스용 Skype와 동시 사용
 
 비즈니스용 Skype와 팀 간의 공존 및 상호 운용성 클라이언트와 사용자는 비즈니스용 [skype를 사용 하는 조직에 대 한 마이그레이션 및 상호 운용성 지침](migration-interop-guidance-for-teams-with-skype.md)에 설명 된 Team준수 학년 모드에 의해 정의 됩니다.
 
@@ -77,9 +78,9 @@ ms.locfileid: "42328020"
 
 **표 1a: 테 넌 트 내 새 채팅 또는 통화를 아일랜드 모드 받는 사람에 게 라우팅**
 
-| <br/><br/> 모드 | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB&nbsp;홈 | | 게 <br/><br/> 분리  |
+| <br/><br/> 모드 | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB&nbsp;홈 | | 게 <br/><br/> 아일랜드  |
 |--- |--- |--- |--- |--- |
-| 분리 | Teams <br/> 비즈니스용 Skype<br/> Teams<br/> 비즈니스용 Skype| 온라인<br/> 온라인<br/> 온-프레미스<br/>온-프레미스| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> 비즈니스용 Skype<br/> Teams<br/> 비즈니스용 Skype|
+| 아일랜드 | Teams <br/> 비즈니스용 Skype<br/> Teams<br/> 비즈니스용 Skype| 온라인<br/> 온라인<br/> 온-프레미스<br/>온-프레미스| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> 비즈니스용 Skype<br/> Teams<br/> 비즈니스용 Skype|
 |SfB\* <br/> | 비즈니스용 Skype<br/>비즈니스용 Skype<br/> | 온라인<br/> 온-프레미스<br/> |&boxv;<br/>&boxv;|비즈니스용 Skype<br/>비즈니스용 Skype<br/>|
 |TeamsOnly |Teams| 온라인<br/>|&boxv;<br/>|Teams|
 | | | | | |
@@ -88,7 +89,7 @@ ms.locfileid: "42328020"
 
 | <br/><br/> 모드   | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB&nbsp;홈 | |   게 <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
-| 분리 |Teams<br/>비즈니스용 Skype<br/>Teams <br/>비즈니스용 Skype  |온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype<br/> **불가능** <br/>비즈니스용 Skype<br/> |
+| 아일랜드 |Teams<br/>비즈니스용 Skype<br/>Teams <br/>비즈니스용 Skype  |온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype<br/> **불가능** <br/>비즈니스용 Skype<br/> |
 |SfB\* <br/> | 비즈니스용 Skype<br/>비즈니스용 Skype<br/> | 온라인<br/> 온-프레미스<br/> |&boxv;<br/>&boxv; |  비즈니스용 Skype<br/>비즈니스용 Skype<br/> |
 |TeamsOnly |Teams| 온라인<br/>|&boxv;<br/> |  *비즈니스용 Skype* <br/>| 
 | | | | | |
@@ -97,7 +98,7 @@ ms.locfileid: "42328020"
 
 | <br/><br/> 모드   | 주관자 <br/><br/> 클라이언트 | <br/><br/> SfB&nbsp;홈 | |   게 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| 분리   |Teams<br/>비즈니스용 Skype<br/>Teams <br/>비즈니스용 Skype<br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+| 아일랜드   |Teams<br/>비즈니스용 Skype<br/>Teams <br/>비즈니스용 Skype<br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
 |SfB\*  | 비즈니스용 Skype<br/>비즈니스용 Skype<br/> | 온라인<br/> 온-프레미스<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
 |TeamsOnly  | Teams | 온라인 |  &boxv; |Teams   |
 |  |  |  | | |
@@ -111,15 +112,15 @@ ms.locfileid: "42328020"
 이는 현재 페더레이션 비즈니스용 Skype 파트너가 이미 팀을 사용 하 고 있는 경우이를 사용자가 담당할 수 없기 때문입니다. 아일랜드는 기본 모드 이지만, 모든 아일랜드 사용자가 팀을 실행 한다고 가정할 수는 없습니다. 비즈니스용 Skype로 회람 하 여 아일랜드 사용자에 게 통신 하지 못하는 문제가 있는지 확인 합니다. 팀으로 라우팅된 경우 대상에서 팀을 사용 하지 않은 경우 해당 통신이 누락 될 수 있습니다. 비즈니스용 Skype로 회람 하면 항상 메시지를 받을 수 있습니다.  
 
 > [!NOTE]
-> 팀 페더레이션의 현재 구현은 비즈니스용 Skype 페더레이션을 기반으로 하므로,이를 통해 발신자의 테 넌 트가 순수한 온라인 또는 비즈니스용 Skype 하이브리드 이어야 하는 상호 운용성 인프라를 활용 하 고 네이티브 스레드와 비교 하 여 감소 된 기능 집합 이후 네이티브 팀에 팀 페더레이션에 제공 하는 것은 스레드가 네이티브이 고 완전 한 기능을 제공 하는 점입니다.
+> 팀의 현재 구현은 비즈니스용 Skype 페더레이션에 기반을 둔 것 이므로 interop 인프라를 활용 하 여 (발신자의 테 넌 트가 순수한 온라인 또는 비즈니스용 Skype 하이브리드 이어야 함) 기본 스레드와 비교 하 여 제한 된 기능 집합을 제공 합니다. 이후 네이티브 팀에 팀 페더레이션에 제공 하는 것은 스레드가 네이티브이 고 완전 한 기능을 제공 하는 점입니다.
 
 아래 표에서는 보낸 사람 모드, 선택한 클라이언트, 사용자의 비즈니스용 Skype 클라이언트가 홈으로 설정 된 (프레미스 또는 온라인) 발신자 로부터 전화를 받을 클라이언트를 설명 합니다 (세 개의 맨 왼쪽 열).
 
 **표 2a: 새 채팅 또는 통화를 아일랜드 받는 사람에 게 라우팅**
 
-| <br/><br/>모드   | 주관자<br/><br/> 클라이언트| <br/><br/>SfB 홈| | 게<br/><br/> 분리 |
+| <br/><br/>모드   | 주관자<br/><br/> 클라이언트| <br/><br/>SfB 홈| | 게<br/><br/> 아일랜드 |
 |--- |--- |--- |--- |--- |
-| 분리 |Teams<br/>비즈니스용 Skype <br/>Teams <br/>비즈니스용 Skype  |온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype <br/> **불가능**   <br/> 비즈니스용 Skype |
+| 아일랜드 |Teams<br/>비즈니스용 Skype <br/>Teams <br/>비즈니스용 Skype  |온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype <br/> **불가능**   <br/> 비즈니스용 Skype |
 | SfB\* |비즈니스용 Skype <br/>비즈니스용 Skype |온라인<br/> 온-프레미스<br/> | &boxv;<br/>&boxv;|비즈니스용 Skype <br/>비즈니스용 Skype |
 | TeamsOnly |Teams |온라인| &boxv;|*비즈니스용 Skype* |
 |  | | | | 
@@ -128,7 +129,7 @@ ms.locfileid: "42328020"
 
 | <br/><br/>모드   | 주관자<br/><br/> 클라이언트| <br/><br/>SfB 홈| |  게<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| 분리 |Teams<br/>비즈니스용 Skype <br/>Teams <br/>비즈니스용 Skype <br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype <br/> **불가능** <br/>비즈니스용 Skype <br/> |  
+| 아일랜드 |Teams<br/>비즈니스용 Skype <br/>Teams <br/>비즈니스용 Skype <br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *비즈니스용 Skype* <br/> 비즈니스용 Skype <br/> **불가능** <br/>비즈니스용 Skype <br/> |  
 | SfB\* |비즈니스용 Skype <br/>비즈니스용 Skype  |온라인<br/> 온-프레미스<br/>  |&boxv;<br/>&boxv; | 비즈니스용 Skype <br/>비즈니스용 Skype  |
 | TeamsOnly | Teams|온라인 |&boxv; |*비즈니스용 Skype*  |
 |  | | | | |
@@ -137,7 +138,7 @@ ms.locfileid: "42328020"
 
 | <br/><br/>모드 | 주관자<br/><br/> 클라이언트| <br/><br/>SfB 홈| |  게<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| 분리  |Teams<br/>비즈니스용 Skype <br/>Teams <br/>비즈니스용 Skype <br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**불가능** <br/>*Teams* |
+| 아일랜드  |Teams<br/>비즈니스용 Skype <br/>Teams <br/>비즈니스용 Skype <br/>|온라인<br/> 온라인<br/> 온-프레미스<br/> 온-프레미스<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**불가능** <br/>*Teams* |
 | SfB\* |비즈니스용 Skype <br/>비즈니스용 Skype  | 온라인<br/> 온-프레미스| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
 | TeamsOnly |Teams |온라인 |&boxv; |Teams |
 |  | | | | |
@@ -174,7 +175,7 @@ ms.locfileid: "42328020"
 
 * 사용자가 TeamsOnly 모드에 있는 경우 (팀 또는 비즈니스용 Skype) 다른 모든 사용자가 팀의 사용자 현재 상태를 볼 수 있습니다.
 * 사용자가 SfB\* 모드 (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings)에 있는 경우 다른 사용자 (팀 또는 비즈니스용 skype)가 해당 SfB\* 사용자의 비즈니스용 skype 현재 상태를 볼 수 있습니다.
-* 사용자가 군도 (또는 레거시) 모드에 있는 경우 비즈니스용 Skype에서 팀의 현재 상태는 독립적 이며 (값이 일치 하지 않아도 됨) 다른 사용자는 같은 테 넌 트에 있는지 아니면 federat에 따라 아일랜드 사용자의 하나 또는 다른 현재 상태를 볼 수 있습니다. ed 테 넌 트 및 해당 사용자가 사용 하는 클라이언트
+* 사용자가 아일랜드 (또는 레거시) 모드에 있는 경우 비즈니스용 Skype에서 팀의 현재 상태는 독립적 이며 (값이 일치 하지 않아도 됨) 다른 사용자는 동일한 테 넌 트에 있는지 아니면 페더레이션 테 넌 트에 있든, 사용 하는 클라이언트에 따라 아일랜드 사용자의 현재 상태를 볼 수 있습니다.
     * 팀에서 같은 테 넌 트 내의 다른 사용자는 아일랜드 사용자의 팀 상태를 볼 수 있습니다. 위의 테 넌 트 라우팅 테이블과 맞춤
     * 팀에서 페더레이션 테 넌 트의 다른 사용자는 비즈니스에 대 한 사용자의 Skype 현재 상태를 볼 수 있습니다. 위의 페더레이션된 라우팅 테이블과 맞춤
     * 비즈니스용 Skype에서 다른 사용자에 게는 귀하의 비즈니스용 Skype 현재 상태 (비 테 넌 트 및 페더레이션)가 표시 됩니다. 위의 라우팅 테이블과 맞춤
@@ -188,7 +189,7 @@ ms.locfileid: "42328020"
 
 **표 3: 테 넌 트 현재 상태 (새 스레드)**
 
-|상대가 <br/><br/>클라이언트| |<br/><br/>분리 |Publisher <br/><br/>SfB\* |<br/>팀만|
+|상대가 <br/><br/>클라이언트| |<br/><br/>아일랜드 |Publisher <br/><br/>SfB\* |<br/>팀만|
 |--- |--- |--- |--- |---|
 |비즈니스용 Skype |&boxv;|비즈니스용 Skype | 비즈니스용 Skype | Teams|
 |Teams |&boxv; |Teams |비즈니스용 Skype |Teams |
@@ -202,7 +203,7 @@ ms.locfileid: "42328020"
 
 **표 4: 페더레이션된 현재 상태 (새 스레드)**
 
-|상대가 <br/><br/> 클라이언트 | |<br/><br/> 분리  |Publisher <br/><br/> SfB\* |<br/><br/> 팀만 |
+|상대가 <br/><br/> 클라이언트 | |<br/><br/> 아일랜드  |Publisher <br/><br/> SfB\* |<br/><br/> 팀만 |
 |--- |--- |--- |--- |---|
 |비즈니스용 Skype |&boxv; |비즈니스용 Skype  | 비즈니스용 Skype  | Teams  |
 |Teams | &boxv;|비즈니스용 Skype |비즈니스용 Skype |Teams|

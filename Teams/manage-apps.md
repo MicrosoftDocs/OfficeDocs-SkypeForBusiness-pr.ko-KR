@@ -17,12 +17,12 @@ description: Microsoft 팀 관리 센터의 앱 관리 페이지에서 팀 앱�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 41d75d492cf8351f1f925713054ccf4be4d8725d
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: 532129792dd35a2b016510094f1b08beade1b32a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229918"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136848"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 앱 관리
 ======================================================
@@ -79,13 +79,17 @@ Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **팀 앱** > 으로**앱
     
 2. 타사 앱에 대 한 액세스를 제어 하기 위해이 설정을 설정 하거나 **해제 합니다.**
 
-    - **팀에서 타사 앱 허용**:이는 사용자가 타사 앱을 사용할 수 있는지 여부를 제어 합니다. 이 설정을 해제 하는 경우 사용자는 타사 앱을 설치 하거나 사용할 수 없게 됩니다. 허용 되는 앱의 경우 상태는 허용 됨으로 표시 **되지만 조직 전체에서 사용할 수 없도록 설정**됩니다.
-    
+    - **팀에서 타사 앱 허용**:이는 사용자가 타사 앱을 사용할 수 있는지 여부를 제어 합니다. 이 설정을 해제 하는 경우 사용자는 타사 앱을 설치 하거나 사용할 수 없게 됩니다. 허용 되는 앱의 경우 상태는 허용 됨으로 표시 **되지만 조직 전체에서 사용할 수 없도록 설정**됩니다.              
+
+        > [!NOTE]
+        > 팀의 Microsoft 365 정부-GCC 배포에서 **팀에서 타사 앱 허용** 설정이 기본적으로 해제 되어 있습니다.
+
+        **팀에서 타사 앱 허용** 이 해제 되어 있는 경우 [보내는 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) 는 사용 하지 않도록 설정 되며,이는 사용자가 만들 수 없음을 의미 합니다. 이 설정을 사용 하면 사용자의 앱 권한 정책에서 설정이 설정 되어 있는지 여부에 관계 없이 모든 사용자가 보내는 webhooks를 사용할 수 있습니다.
     - **기본적으로 저장소에 게시 된 새 타사 앱 허용**: 팀 앱 스토어에 게시 되는 새로운 타사 앱을 팀에서 자동으로 사용할 수 있는지 여부를 제어 합니다. 타사 앱을 허용 하는 경우에만이 옵션을 설정할 수 있습니다.
 
 3. **사용자 지정 앱**에서 **사용자 지정 앱과의 상호 작용 허용**을 설정 하거나 해제 합니다. 이 설정은 사용자가 사용자 지정 앱을 조작할 수 있는지 여부를 제어 합니다. 자세히 알아보려면 [팀에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)를 참조 하세요.
 4. **저장** 을 클릭 하 여 조직 전체 앱 설정을 적용 합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Team에서 앱의 관리 설정](admin-settings.md)

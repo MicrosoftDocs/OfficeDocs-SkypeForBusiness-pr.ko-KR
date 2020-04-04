@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 모임에 대 한 시작 및 종료 알림 설정 또는 해제
+title: 팀에서 모임에 대 한 알림 입력/해제 및 종료
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 'Microsoft 팀 모임에서 입력 및 종료 알림을 설정 하거나 해제 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 8deb53145c95f9a370e894083de8e998b50fa9ae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 558146853c7365a1eac9fdd2497326781889cf09
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832608"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139687"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Microsoft 팀에서 모임에 대 한 시작 및 종료 알림 설정 또는 해제
 
@@ -38,7 +39,7 @@ Office 365에서 오디오 회의를 설정 하는 경우 음성 회의 브리�
   
 ## <a name="setting-meeting-join-options"></a>모임 참가 옵션 설정
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다. 
 
@@ -50,7 +51,7 @@ Office 365에서 오디오 회의를 설정 하는 경우 음성 회의 브리�
     
 5. **이름 또는 전화 번호**를 선택한 경우 **전화 건 사람이 모임에 참가 하기 전에 해당 이름을 기록해 달라고 요청**하거나 사용 하지 않도록 설정 합니다.
     
-6. **저장**을 클릭 합니다.
+6. **저장**을 클릭합니다.
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell에 대 한 자세한 정보를 확인 하 고 싶으신가요?
 

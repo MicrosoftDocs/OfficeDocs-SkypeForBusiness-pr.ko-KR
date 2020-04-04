@@ -13,18 +13,20 @@ search.appverid: MET150
 description: 팀 채택을 통해 사용자 의견을 얻고 서비스 상태 보고를 사용 하는 방법에 대해 알아보세요.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81e0b580099f3fb8f40a3109dc5f1c76e910c02b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ff6a3b285033176b0262b67663fbd448392ea343
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046041"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140699"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft 팀 채택을 위한 피드백 및 신고 최적화
 

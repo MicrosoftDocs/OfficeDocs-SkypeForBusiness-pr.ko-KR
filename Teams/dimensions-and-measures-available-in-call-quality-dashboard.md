@@ -1,5 +1,5 @@
 ---
-title: 통화 품질 대시보드에서 사용할 수 있는 크기 및 측정
+title: 치수 및 측정-통화 품질 대시보드
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,14 +18,16 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Reporting
+ms.custom:
+- Reporting
+- seo-marvel-mar2020
 description: Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드에서 사용 하는 차원과 측정값에 대 한 자세한 정보를 확인 하세요.
-ms.openlocfilehash: 71f9f2ea8ea01108b0a2f80e8e07cacfeef899ea
-ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
+ms.openlocfilehash: c1c277e29f46fe9c748b82e4ebfcfe29897a60da
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43059432"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137338"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>통화 품질 대시보드에서 사용할 수 있는 크기 및 측정
 

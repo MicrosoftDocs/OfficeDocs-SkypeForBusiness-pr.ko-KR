@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 StaffHub 팀을 교대으로 이동 하는 계획
+title: StaffHub 팀이 이동 하도록 계획
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: gumariam,aaku
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0043b1599ac7ce90599a03d786d756cf16e684
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 41fd33c384bf6f91ae760d539e18ea7ee74a8503
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008150"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139587"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft 팀에서 StaffHub 팀을 교대으로 이동 하는 계획
 

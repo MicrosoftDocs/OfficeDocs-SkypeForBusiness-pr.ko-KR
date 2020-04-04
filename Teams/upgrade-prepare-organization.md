@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype를 Microsoft 팀으로 업그레이드 준비 | 사용자 도입 계획
+title: 비즈니스용 Skype를 팀으로 업그레이드 준비
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: 조직의 준비 상태를 평가 하 여 변경 내용을 수용 하 고 비즈니스용 Skype에서 Microsoft 팀으로 업그레이드할 준비가 된 사용자를 위한 계획 준비
+description: 조직의 준비 상태를 평가 하 여 변경 내용을 수용 하 고 비즈니스용 Skype에서 Microsoft 팀으로 업그레이드할 준비가 된 사용자를 위한 계획을 준비할 수 있습니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088db496d6e04cb25a26a55f2748b25a11a8a76b
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b758734de436771d94c0f9b44215d621c276b767
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706788"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136968"
 ---
 # <a name="prepare-your-organization"></a>조직 준비
 

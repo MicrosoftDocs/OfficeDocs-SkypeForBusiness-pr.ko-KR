@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에 대 한 변경 관리 전략 만들기
+title: 변경 관리 전략 만들기
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -11,15 +11,16 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 주요 관련자, 비즈니스 결과, 성공 측정값 및 캠페인 관리의 식별을 통해 Microsoft 팀에 대 한 변경 관리 전략을 세우는 방법을 알아봅니다.
+description: 주요 관련자, 비즈니스 결과, 성공 측정값 및 캠페인의 관리를 식별 하 여 Microsoft 팀에 대 한 변경 관리 전략을 만듭니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e6c07271caecd2c84301930f0b71aa6eda0011a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 628c839560423e0e2524bed24082156469faeb36
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824976"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137918"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft 팀에 대 한 변경 관리 전략 만들기
 =======================================================
@@ -36,7 +37,7 @@ ms.locfileid: "41824976"
 
 4.  채택 캠페인을 디자인, 시작 및 관리 합니다. [고객 성공 키트](https://aka.ms/TeamsSuccessKit) 를 시작 점으로 다운로드 하세요. 좋은 채택 캠페인에는 다음이 포함 됩니다.
 
-    에서.  포스터, 디지털 signage 및 이벤트와 같은 내부 인식 재료
+    a.  포스터, 디지털 signage 및 이벤트와 같은 내부 인식 재료
 
     b.  단일 위치의 자가 진단 및 교육 정보
     

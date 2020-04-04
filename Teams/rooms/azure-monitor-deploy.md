@@ -1,6 +1,5 @@
 ---
 title: Azure Monitor를 사용 하 여 Microsoft 팀 공간 관리 배포
-ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
@@ -12,15 +11,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 이 문서에서는 Azure Monitor를 사용 하 여 통합 된 종단 간 방식으로 Microsoft 팀 회의실 디바이스의 관리를 배포 하는 방법을 설명 합니다.
-ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3e01ae7a0fddcb63595b7dcc15b719ad1d41db32
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417543"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137648"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>관리 :::no-loc text="Microsoft Teams Rooms"::: 배포 대상:::no-loc text="Azure Monitor":::
 
@@ -77,7 +76,7 @@ ms.locfileid: "42417543"
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>에이전트 :::no-loc text="Microsoft Monitoring"::: 를 설치 하 여 장치 테스트
 
-컴퓨터를 :::no-loc text="Microsoft Monitoring"::: [ :::no-loc text="Log Analytics"::: 서비스 :::no-loc text="Azure":::에 연결 :::no-loc text="Windows"::: ](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)에 제공 된 지침을 사용 하 여 테스트 장치에 에이전트를 배포 합니다. 이 :::no-loc text="Microsoft Monitoring"::: 문서에서는 에이전트 배포 단계에 대 한 자세한 내용 :::no-loc text="Windows":::, :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: 배포에 연결 된 장치를 :::no-loc text="Log Analytics"::: 가져오는 :::no-loc text="Microsoft Teams Rooms"::: 데 사용할 ***기본 키*** , 환경에 대 한 에이전트 연결을 확인 하는 단계에 대해 설명 합니다. ******
+컴퓨터를 :::no-loc text="Microsoft Monitoring"::: [ :::no-loc text="Log Analytics"::: 서비스 :::no-loc text="Azure":::에 연결 :::no-loc text="Windows"::: ](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)에 제공 된 지침을 사용 하 여 테스트 장치에 에이전트를 배포 합니다. 이 :::no-loc text="Microsoft Monitoring"::: 문서에서는 에이전트 배포 단계에 대 한 자세한 내용 :::no-loc text="Windows":::, :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: 배포에 연결 된 장치를 :::no-loc text="Log Analytics"::: 가져오는 :::no-loc text="Microsoft Teams Rooms"::: 데 사용할 ***기본 키*** , 환경에 대 한 에이전트 연결을 확인 하는 단계에 대해 설명 합니다. ***Workspace ID***
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>샘플 :::no-loc text="Microsoft Teams Rooms"::: 이벤트 생성
 
@@ -138,7 +137,7 @@ ms.locfileid: "42417543"
 
 | **JSON 필드**                   | **:::no-loc text="Log Analytics":::사용자 정의 필드** | **이벤트 ID** | **추출에 사용할 쿼리**                   |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
-| 설명                      | SRSEventDescription         | **2000**     | Source \| = = "SRS-App" 및 EventID = = 2000 이벤트 |
+| Description                      | SRSEventDescription         | **2000**     | Source \| = = "SRS-App" 및 EventID = = 2000 이벤트 |
 | ResourceState                    | SRSResourceState            | **2000**     | Source \| = = "SRS-App" 및 EventID = = 2000 이벤트 |
 | OperationName                    | SRSOperationName            | **2000**     | Source \| = = "SRS-App" 및 EventID = = 2000 이벤트 |
 | OperationResult                  | SRSOperationResult          | **2000**     | Source \| = = "SRS-App" 및 EventID = = 2000 이벤트 |
@@ -416,7 +415,7 @@ ms.locfileid: "42417543"
 ! [예제 :::no-loc text="Azure Monitor"::: 알림 전자 메일] (.. /media/Deploy-Azure-Monitor-6.png "예제 :::no-loc text="Azure Monitor"::: 알림 전자 메일")
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>모든 장치 구성:::no-loc text="Azure Monitoring":::
-<a name="configure_all_devices"></a> 대시보드와 알림을 구성한 후에는 모든 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: 디바이스에서 에이전트를 설정 하 고 구성 하 여 모니터링 배포를 완료할 수 있습니다.
+<a name="configure_all_devices"> </a> 대시보드와 알림을 구성한 후에는 모든 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: 디바이스에서 에이전트를 설정 하 고 구성 하 여 모니터링 배포를 완료할 수 있습니다.
 
 각 장치에서 수동으로 :::no-loc text="Microsoft Monitoring"::: 에이전트를 설치 하 고 구성할 수 있지만, 기존 소프트웨어 배포 도구 및 방법을 활용할 것을 적극 권장 합니다.
 

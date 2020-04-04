@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 오디오 회의를 위한 자동 전화 교환 언어 설정
+title: 오디오 회의 자동 전화 교환 언어 설정
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: Microsoft 팀에서 오디오 회의 번호에 대 한 오디오 회의 자동 전화 교환 언어를 선택 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a84ee0b230ed8de35da3a4fdea488eee9b3628e6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 37d430ba641277c7b72f921b06599f58cff4e4a0
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838108"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140921"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Microsoft 팀에서 오디오 회의를 위한 자동 전화 교환 언어 설정
 
@@ -42,7 +43,7 @@ Microsoft 팀의 오디오 회의 자동 전화 교환은 사용자가 모임에
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>회의 자동 전화 교환 언어 설정
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다.
 
@@ -53,7 +54,7 @@ Microsoft 팀의 오디오 회의 자동 전화 교환은 사용자가 모임에
     > [!NOTE]
     > 지원 되는 기본 언어 및 대체 언어가 나열 됩니다. 목록에서 해당 항목을 선택 하는 순서는 호출자에 게 표시 되는 언어의 순서입니다. 
 
-4. **저장**을 클릭 합니다.
+4. **저장**을 클릭합니다.
 
     
 ## <a name="want-else-should-i-know"></a>기타 알아야 할 것

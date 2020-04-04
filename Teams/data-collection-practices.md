@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: Microsoft는 비즈니스용 Skype를 사용 하는 방법과 사용자에 게 문제가 발생 하는 방식을 이해 하기 위해 인구 조사, 사용, 오류 데이터를 수집 합니다. 데이터는 제품 개선을 계획 하는 데 사용 됩니다.
-ms.openlocfilehash: 1c88086038c3874ae95f6151c1d04d13e0b9ccaf
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+description: Microsoft에서 제품을 개선 하기 위해 비즈니스 및 비즈니스용 Skype 사용 및 문제를 이해 하기 위해 인구 조사, 사용, 오류 데이터를 수집 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: a7bc6066304bfc8d221678f0c37b484e602d1bbd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583105"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137358"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>비즈니스용 Skype 및 Microsoft 팀 데이터 수집 방법
 
@@ -117,4 +118,4 @@ Skype 모임 앱의 경우 MeetingUxEnableTelemetry는 또한 오류 보고 기�
 중국에서 21Vianet에서 운영 하는 Office 365를 사용 하는 경우 [21vianet에서 운영 하는 비즈니스용 Skype Online을 위한 네트워크 설정을](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)참조 하세요.
 
 ## <a name="related-topics"></a>관련 항목
-[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

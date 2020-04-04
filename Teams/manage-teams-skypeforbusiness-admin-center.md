@@ -1,5 +1,5 @@
 ---
-title: 새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
+title: 새 팀 관리 센터로 팀 전환
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,24 +8,25 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Microsoft 365 관리 센터의 팀 환경에서 새 Microsoft 팀 관리 센터로 전환 하는 동안 팀의 테 넌 트 전체 및 사용자 설정을 관리 하는 방법에 대해 설명 합니다.
+description: Microsoft 365 관리 센터의 팀에서 새 팀 관리 센터로 전환 하는 동안 팀의 테 넌 트 전체 및 사용자 설정을 관리 하는 방법에 대해 알아봅니다.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 - ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 31d39b1c65afad3bdbb000ff779b590d9f82ac38
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: b08f747c6a26d0401095e5aa004b972e0428b830
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288636"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137058"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
 ======================================================
@@ -96,20 +97,20 @@ ms.locfileid: "42288636"
 
 |기능  |Microsoft 팀 관리 센터                      |비즈니스용 Skype 관리 센터 (레거시)  |Microsoft 365 관리 센터  |
 |---------|:---------:|:---------:|:---------:|
-|팀 메시징, 모임 및 라이브 이벤트 정책     |     축    |         |         |
-|팀 업그레이드 정책     |    축     |         |         |
-|메시징, 모임, 음성에 대 한 게스트 설정     |   축      |         |         |
-|팀 수명 주기 관리   |    축    |      |       |
-|팀 설정   |    축    |      |       |
-|외부 액세스 설정     |    축    |      |       |
-|사용자 관리    |         |         |    축     |    
-|오디오 회의     |    축     |    축     |         |
-|통화 요금제     |    축    |    축     |         |
-|전화 시스템    |    축    |     축    |         |
-|전화 번호 관리     |    축    |   축      |         |
-|클라우드 음성 기능 라이선스     |         |         |    축     |
-|자동 전화 교환     |    축    |          |         |
-|통화 대기열     |    축    |          |         |
+|팀 메시징, 모임 및 라이브 이벤트 정책     |     X    |         |         |
+|팀 업그레이드 정책     |    X     |         |         |
+|메시징, 모임, 음성에 대 한 게스트 설정     |   X      |         |         |
+|팀 수명 주기 관리   |    X    |      |       |
+|팀 설정   |    X    |      |       |
+|외부 액세스 설정     |    X    |      |       |
+|사용자 관리    |         |         |    X     |    
+|오디오 회의     |    X     |    X     |         |
+|통화 요금제     |    X    |    X     |         |
+|전화 시스템    |    X    |     X    |         |
+|전화 번호 관리     |    X    |   X      |         |
+|클라우드 음성 기능 라이선스     |         |         |    X     |
+|자동 전화 교환     |    X    |          |         |
+|통화 큐     |    X    |          |         |
 
 ## <a name="manage-settings-after-the-migration"></a>마이그레이션 후 설정 관리
 

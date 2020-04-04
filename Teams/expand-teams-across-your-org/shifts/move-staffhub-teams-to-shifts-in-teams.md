@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 StaffHub 팀을 교대으로 이동
+title: StaffHub 팀을 교대으로 옮기기
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu, gumariam
@@ -18,12 +18,13 @@ ms.collection:
 - SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4725669d4f5829941df4bded0a5f2bbb393fb034
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3c93e01624883d9db755479baf6e87c80feba2e1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887877"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139597"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft 팀에서 Microsoft StaffHub 팀을 교대으로 옮기기
 
@@ -39,7 +40,7 @@ ms.locfileid: "41887877"
 - [파일럿 실시](#conduct-a-pilot) 
 - [파일럿을 넘어서 모든 StaffHub 팀을 이동 하세요.](#go-beyond-your-pilot-and-move-all-staffhub-teams)
 - [팀 사용량 모니터링](#monitor-teams-usage)
-- [해결사](#troubleshooting)
+- [문제 해결](#troubleshooting)
 
 하나 또는 두 개의 StaffHub 팀이 있는 중소기업이 고 수백 StaffHub 팀이 있는 대기업에 있든 관계 없이, 팀으로 전환 하는 데 도움이 되는 관리자 지침을 확인할 수 있습니다.
 
@@ -271,7 +272,7 @@ StaffHub 팀을 대량으로 이동 하려면 다음 단계를 사용 하세요.
 ```PowerShell
 $StaffHubTeams = Get-StaffHubTeamsForTenant
 
-$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
+$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
 ```
 
 모든 팀을 이동 하려면 다음을 실행 합니다.
@@ -331,7 +332,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 
 사용 현황 보고서를 통해 사용 패턴을 보다 잘 이해 하 고 조직의 교육 및 통신 작업에 대 한 우선 순위를 지정할 수 있습니다. 전체 팀 사용, 팀에서 사용자가 수행 하는 작업 유형, 사용자가 팀에 연결 하는 방법 등에 대 한 보고서를 실행할 수 있습니다. 자세한 내용은 [microsoft 365 관리 센터의](../../teams-activity-reports.md) [microsoft 팀 관리 센터](../../teams-analytics-and-reports/teams-reporting-reference.md) 및 팀 활동 보고서에서 팀 보고를 참조 하세요.
 
-## <a name="troubleshooting"></a>해결사
+## <a name="troubleshooting"></a>문제 해결
 
 **실패 오류에 대 한 자세한 정보를 얻는 방법**
 

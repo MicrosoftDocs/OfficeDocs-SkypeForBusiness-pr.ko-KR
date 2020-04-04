@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 조직의 오디오 회의 설정 관리
+title: 오디오 회의 설정 관리
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: '사용자와 다른 여러 전화 접속 회의 설정에 전화 접속 회의 라이선스 및 전화 회의 ID를 할당 하려면 Microsoft 팀의 단계를 참조 하세요. '
-ms.openlocfilehash: b7c080936b2f7e4a1fde76134cab7272c861d8d4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 513695cf905c7cb21f332f6b025318253b03334d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837528"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141161"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 오디오 회의 설정 관리
 
@@ -58,7 +59,7 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>오디오 회의 사용자에 게 전송 되는 전자 메일 사용 또는 사용 안 함
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다. 
 
@@ -66,7 +67,7 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
 
 3. **브리지 설정** 창에서 **전화 접속 설정이 변경 되는 경우 자동으로 사용자에 게 전자 메일 보내기**사용 또는 사용 안 함을 설정 하거나 해제 합니다.
 
-4. **저장**을 클릭 합니다.
+4. **저장**을 클릭합니다.
 
     
 **Windows PowerShell 사용**
@@ -89,7 +90,7 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
 
 사용자가 예약 하는 각 모임에는 고유한 전화 번호를 할당 받게 됩니다. 전화 회의 ID는 자동으로 만들어지고 사용자에 게 할당 되지만, 사용자가이를 사용 하지 않고 특정 번호로 설정 하려는 경우 또는 사용자가 자신의 전화 회의 ID를 분실 하거나 잃어 버릴 수도 있습니다. 
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **사용자**를 클릭 한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
 
@@ -101,7 +102,7 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일 보내기
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **사용자**를 클릭 한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
 
@@ -114,7 +115,7 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>초대에 포함할 전화 번호 설정
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **사용자**를 클릭 한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
 
@@ -122,7 +123,7 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
  
 3. **오디오 회의** 창에서 **유료** 번호를 설정 하 고, 허용 되는 경우 무료 **번호**를 설정할 수 있습니다.
 
-4. **저장**을 클릭 합니다.
+4. **저장**을 클릭합니다.
     
 [초대에 포함 된 전화 번호 설정을](set-the-phone-numbers-included-on-invites-in-teams.md)참조 하세요.
   
@@ -131,7 +132,7 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
 
 **발신자가 모임에 참가 하는 경우의 모임 환경 설정**
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다. 
 
@@ -145,7 +146,7 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
 
     **이름 또는 전화 번호**를 선택 하 **는 경우 모임에 참가 하기 전에 해당 사용자의 이름을 기록 하도록 요청 발신자**를 선택 하거나 사용 하지 않도록 설정할 수도 있습니다. 
 
-5. **저장**을 클릭 합니다.
+5. **저장**을 클릭합니다.
 
     
 [오디오 회의 브리지에 대 한 설정 변경을](change-the-settings-for-an-audio-conferencing-bridge.md)참조 하세요.
@@ -171,7 +172,7 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
 
 3. **브리지 설정** 창에서 **오디오 회의 설정이 변경 된 경우 자동으로 사용자에 게 전자 메일 보내기를**사용 하거나 사용 하지 않도록 설정 합니다.
 
-4. **저장**을 클릭 합니다. 
+4. **저장**을 클릭합니다. 
  
     사용자의 오디오 회의 속성으로 이동한 다음 **전자 메일로 회의 정보 보내기를**클릭 하 여 오디오 회의 설정을 사용 하 여 사용자에 게 전자 메일을 보낼 수도 있습니다.
     
@@ -181,7 +182,7 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
     
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>오디오 회의 브리지의 기본 (기본) 및 보조 (대체) 언어를 표시 하 고 설정 합니다.
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다. 
 
@@ -189,14 +190,14 @@ Microsoft 팀에 대 한 오디오 회의 설정을 한 곳에 모두 표시 하
 
 3. **기본 언어** 및 대체 언어에서 원하는 언어를 선택 합니다 **(선택 사항)**.
 
-4. **저장**을 클릭 합니다.
+4. **저장**을 클릭합니다.
 
 
 [오디오 회의에 대 한 자동 전화 교환 언어 설정을](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)참조 하세요.
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>오디오 회의 전화 접속 번호 보기
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다. 
 

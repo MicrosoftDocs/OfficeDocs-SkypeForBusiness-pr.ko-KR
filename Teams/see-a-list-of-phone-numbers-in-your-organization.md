@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Microsoft 팀 관리 센터를 사용 하 여 조직의 모든 전화 번호 목록과 사용자에 게 할당 되거나 지정 되지 않은 모든 번호를 확인 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 029f5f15e4d414ed2f6bc4e06d39b3456b32ee62
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+- seo-marvel-mar2020
+description: Microsoft 팀 관리 센터를 사용 하 여 조직의 모든 전화 번호 목록과 사용자에 게 할당 되거나 지정 되지 않은 모든 번호를 확인 하는 방법을 알아봅니다.
+ms.openlocfilehash: 8483a3847027f3790930653ead39678f6a802533
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236858"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140961"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>조직의 전화 번호 목록 보기
 
@@ -104,7 +105,7 @@ Office 365의 오디오 회의와 같이 사용자 또는 다른 서비스 (서�
 
    - **업데이트 실패**
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [전화 번호 전송 자주 묻는 질문](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [통화 요금제에 사용 되는 다른 종류의 전화 번호](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)

@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '비즈니스용 Skype를 설정 하 여 조직의 기본 음성 메일 인사말에 다른 언어를 사용 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 078fd14944d5384d38d870e09575980cc89e8889
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: 비즈니스용 Skype를 설정 하 여 조직의 기본 음성 메일 인사말에 다른 언어를 사용 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 829776be347f2453f3b87a150b19e2334e876f40
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825236"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139137"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>인사말 및 전자 메일의 기본 언어 변경
 

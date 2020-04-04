@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 조직의 교대 근무 앱 관리
+title: 조직의 교대 근무 앱 관리
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 134ff131307034381b97643a2bf9a3dd7fc87a7d
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 9298ed02c6b8559bdaf1e59c74a149a9d5164124
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161861"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141191"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft 팀에서 조직의 교대 근무 앱 관리
 
@@ -74,7 +75,7 @@ Firstlineworker 정책을 보려면 Microsoft 팀 관리 센터의 왼쪽 탐색
 
 #### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>개별 사용자에 게 FirstlineWorker 정책 할당
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 다음 사용자를 클릭 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.
 2. **할당 된 정책**옆에 있는 **편집**을 선택 합니다.
 3. **팀 앱 설정 정책**에서 **firstlineworker**를 선택 하 고 **저장**을 선택 합니다.
 
@@ -101,5 +102,5 @@ $members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWor
 ``` 
 그룹의 구성원 수에 따라이 명령을 실행 하는 데 몇 분 정도 걸릴 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 - [Firstline Worker에 대 한 도움말 이동](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)

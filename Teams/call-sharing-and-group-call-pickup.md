@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 공유 및 그룹 통화 걸기
+title: 통화 공유 및 그룹 전화 받기
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -21,19 +21,20 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.groupcallpickup.tooltip
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
 - Phone System
+- seo-marvel-mar2020
 description: 통화 공유 및 그룹 통화 픽업 사용자는 사용자를 사용할 수 없는 경우 전화를 통해 들어오는 전화를 동료와 공유할 수 있습니다.
-ms.openlocfilehash: c3a47c892940762807a86d6690fa59520f137960
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: aa59166d32de49b9163209a4836c7024d697fa8f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824556"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141291"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft 팀에서 공유 및 그룹 통화 걸기
 
 Microsoft 팀의 통화 공유 및 그룹 통화 픽업 기능을 통해 사용자가 사용자를 사용할 수 없는 동안 발생 하는 전화를 받을 수 있도록 동료와의 수신 전화를 공유할 수가 있습니다.
 
-사용자가 들어오는 공유 통화에 대 한 알림을 받는 방법을 구성할 수 있으므로 (예: 착신 통화 전환 또는 동시 연결) 다른 형태의 통화 공유에 대 한 낮은 중단의 경우 그룹 통화 또는 배너에 응답 여부를 결정할 수 있습니다.
+다른 통화 공유 (예: 착신 전환 또는 동시 연결)는 사용자가 들어오는 공유 통화에 대 한 알림을 받는 방법 (팀 앱에서 오디오 및 시각적 알림, visual only 또는 배너를 통해)을 구성할 수 있으며, 해당 통화에 대 한 응답 여부를 결정할 수 있기 때문에 메시지 전달 픽업에 대 한 더 적은 생각입니다.
 
 다른 사용자와 통화를 공유 하려면 통화 그룹을 만들고 통화를 공유 하려는 사용자를 추가 합니다. 그런 다음 동시 링 또는 전달 설정을 선택 합니다. 자세한 내용은 [팀의 착신 전환 및 동시](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) 연결을 참조 하세요.
 

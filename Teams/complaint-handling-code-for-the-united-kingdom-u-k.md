@@ -1,5 +1,5 @@
 ---
-title: Office 365의 통화 요금제-영국에 대 한 불만 처리 코드 (영국)
+title: 영국에 대 한 불만 처리 코드 -Office 365 통화 요금제
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: '비즈니스용 Skype 통화 서비스에 대 한 불만 (영국에서 PSTN 통화), 일정에 대 한 설명, 확인 되지 않은 불만에 대 한 분쟁를 해결 하는 방법에 대해 알아보세요. '
-ms.openlocfilehash: 4a035c77756acc811eec184c0749623a2142cf41
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 비즈니스용 Skype 통화 서비스에 대 한 불만 (영국에서 PSTN 통화), 회신에 대 한 시간 표시 막대, 확인 되지 않은 불만에 대 한 분쟁 해결을 확인 하세요.
+ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825576"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137288"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365의 통화 요금제-영국에 대 한 불만 처리 코드 (영국)
 
@@ -55,7 +56,7 @@ ms.locfileid: "41825576"
 
 ## <a name="alternative-dispute-resolution"></a>대체 분쟁 해결 방법
 
-서비스에 대 한 불만 사항이 제출의 8 주 (8) 일 후에 해결 되지 않거나 최종 결정에 도달 했다는 것을 알리는 경우에는 Ombudsman 서비스에 대 한 불만을 참조 하 여,이에 대 한 문제가 발생 하 여이를 처리 하는 것은 Ofcom에서 승인 하는 제 3 자입니다. 커뮤니케이션 서비스에 대 한 불만을가지고 있습니다. 또한 이러한 대안 해결 서비스의 가용성에 대 한 정보를 기록에 알려 드리겠습니다.
+서비스에 대 한 불만 사항이 제출의 8 주 (8) 일 후에 해결 되지 않거나 최종 결정에 도달 했다는 것을 알리는 경우에는 Ombudsman 서비스에 대 한 불만을 참조 하 여 통신 서비스에 대 한 불만을 처리 하도록 Ofcom에서 승인 하는 제 3 자에 해당 하는 것을 확인할 수 있습니다. 또한 이러한 대안 해결 서비스의 가용성에 대 한 정보를 기록에 알려 드리겠습니다.
 
 Ombudsman 서비스는 Microsoft와 무관 하며 불만의 장점에 대 한 impartial 의사 결정을 렌더링 합니다. Ombudsman 서비스에 대 한 불만을 참조 하는 비용은 저렴 합니다.
 
@@ -87,5 +88,5 @@ Ombudsman Services의 웹 사이트 또는 전화, 편지 또는 전자 메일�
 
 
 ## <a name="related-topics"></a>관련 항목
-[오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[오디오 회의 및 통화 플랜의 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

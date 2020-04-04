@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
 description: Fournir des expériences accessibles à tous est cœur de la 임무 de Microsoft,  i consiste à permettre à chaque personne et à chaque Microsoft offre d'accessibilité a Skype Entreprise et Microsoft 팀의 특별 한 nombre de a s'inscrivent dans son 계약 요새 en-us의 모든 포함을 취소 합니다.
-ms.openlocfilehash: 9d7e7ff471bdd2c88ff1527f224f43e6f7e30b16
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5e58f0228430d99540bbe45548018059e65be016
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825636"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139177"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>비즈니스용 Skype Online 및 프랑스의 Microsoft 팀을 위한 접근성 솔루션
 
@@ -41,7 +42,7 @@ Skype Entreprise dans Office 365 offffonctionnalités d'accessibilité  i renden
 
 Microsoft 팀 dans Office 365 est/outil은 공동 작업 professionnelle avec des fonctions et d'appel을 취소 합니다. Microsoft 팀 intègre des fonctionnalités d'accessibilité afin la 통신 des utilisateurs ayant une mauvaise 비전, une dextérité réduite ou d'autres handicaps을 취소 합니다. Ces caractéristiques sont résumées sur le site web Accessibilité Microsoft 팀 [https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)을 제거 합니다.  
   
-Les 페이지 consacrées à chacune de. d p i décrivent comment présentent généralement Skype Entreprise et Microsoft 팀 sur a app, prennent, que Windows, Mac, iOS et Android.  자세한 설명 des agencements d m Entreprise et Microsoft 팀 peuvent s'avérer particulièrement utiles a les utilisateurs voyants, malvoyants ou à mobilité réduite aider à des caractéristiques des 인터페이스 utilisateur (IU) Skype Entreprise et Microsoft 팀 afleur permettre d'y naviguer plus facilement.
+Les 페이지 consacrées à chacune de. d p i décrivent comment présentent généralement Skype Entreprise et Microsoft 팀 sur a app, prennent, que Windows, Mac, iOS et Android.  자세한 설명 des agencements Entreprise et Microsoft 팀 peuvent s'avérer particulièrement utiles a * utilisateurs voyants, malvoyants a e e à mobilité e réduite aider à construire des une des 인터페이스 représentation (MENTALE) Skype Caractéristiques et Microsoft 팀 afleur utilisateur IU Entreprise plus permettre을 취소 합니다.
   
 Personnes  i utilisent lecteur d'écran, il est를 사용할 수 있는 f t e t t e t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t  
   
@@ -85,5 +86,5 @@ Microsoft est d'offrir la meilleure 가능 à tous ses 클라이언트를 L'obje
   
 ## <a name="dclaration-de-conformit-en-301-549"></a>Déclaration de conformité *EN 301 549*
 
-Aider ses 클라이언트에 대 한 à évaluer l'accessibilité, Microsoft는 une 문서에 대해 설명 합니다. Skype Décrit et Microsoft 팀 se Entreprise conforment la me à EN 301 549 상대 aux européenne exigences 응용 프로그램 des produits 서비스 liés aux TIC (기술 정보 et de? la 통신) 동유럽 Des는 des rapports EN 301 549 sont jointes en에 복사 합니다.
+Aider ses 클라이언트에 대 한 à évaluer l'accessibilité, Microsoft는 une 문서에 설명 된 microsoft 제안 301 549 상대 보조 décrit Entreprise conforment,,,에 대 한이에 대 한 지원 à des produits 서비스 européenne aux EXIGENCES (기술 자료 정보 et de la 통신) en-us Des는 des rapports EN 301 549 sont jointes en에 복사 합니다.
 

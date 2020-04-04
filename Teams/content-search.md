@@ -13,15 +13,16 @@ ms.reviewer: anach
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft 팀의 콘텐츠 검색에 대해 알아보고 Exchange에서 채널 대화, 파일 업로드 및 SharePoint의 수정 및 OneNote 변경 내용을 검색 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-mar2020
+description: Microsoft 팀에서 콘텐츠 검색을 사용 하 여 Exchange, SharePoint Online, 비즈니스용 OneDrive, OneNote에서 Microsoft 팀 정보를 쿼리 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222b57021a259795823031d9855304d1ecf27f4f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: af81b857d6cf60f7de1a1b1e199d08ede089de5f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825346"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137748"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft 팀에서 콘텐츠 검색 사용
 =====================================
@@ -42,7 +43,7 @@ ms.locfileid: "41825346"
 
 ## <a name="content-search-of-private-channels"></a>개인 채널의 콘텐츠 검색
 
-개인 채널로 전송 된 메시지의 레코드는 그룹 사서함이 아닌 모든 비공개 채널 구성원의 사서함으로 전달 됩니다. 레코드의 제목은 전송 된 개인 채널을 나타내도록 서식이 지정 됩니다.
+비공개 채널에 전송된 메시지 레코드는 그룹 사서함이 아닌 모든 비공개 채널 구성원의 사서함에 전달됩니다. 레코드 제목은 출처 비공개 채널을 표시하도록 형식이 지정됩니다.
 
 각 개인 채널은 상위 팀 사이트와 별도의 고유한 SharePoint 사이트 모음을 포함 하므로 개인 채널의 파일은 상위 팀과 독립적으로 관리 됩니다.
 
@@ -69,7 +70,7 @@ ms.locfileid: "41825346"
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
+    $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 

@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: Microsoft 팀 관리 센터에서 팀 PSTN 통화 시간 단위 보고서를 사용 하 여 조직 내 현재 달 중 사용 되는 시간의 수를 확인 하는 방법에 대해 알아봅니다.
+description: Microsoft 팀 관리 센터에서 팀 PSTN 통화 시간 단위 보고서를 사용 하 여 현재 월에 조직 내에서 사용 된 분을 확인 하는 방법을 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa9b8f4a676c1e937fed02eabc0e7cd4acd5325
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5f44d8a48dc01b8d2cdbce9dd164d5b2440c24d8
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827326"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140669"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft 팀 PSTN 통화 시간 풀 보고서
 
@@ -35,7 +36,7 @@ Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 **분석 & 보고서**
 
 ## <a name="interpret-the-report"></a>보고서 해석
 
-|호출 |설명  |
+|호출 |Description  |
 |--------|-------------|
 |**1**   |각 보고서에는 생성 된 날짜를 포함 합니다. 일반적으로이 보고서에는 활동 시간부터 24 ~ 48 시간 대기 시간이 반영 됩니다. |
 |**2**   |권한 (라이선스)을 클릭 하 여 해당 접근 권한 작업을 볼 수 있습니다. |

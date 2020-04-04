@@ -1,7 +1,7 @@
 ### YamlMime:Tutorial
-title: Microsoft 팀의 오디오 회의
+title: '자습서: 오디오 회의-Microsoft 팀'
 metadata:
-  title: Microsoft 팀의 오디오 회의
+  title: '자습서: Microsoft 팀에서 오디오 회의 시작 하기'
   description: 대화형 자습서는 Microsoft 팀에서 오디오 회의를 안내 합니다.
   audience: IT Pro
   level: Intermediate
@@ -19,12 +19,13 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: bc4bf9f29caa34a2b645403e0de9a45c3a47a79c
-  ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+  ms.custom: seo-marvel-mar2020
+  ms.openlocfilehash: aa558029f1698f6d54b9ff2646d3238d50a8d7de
+  ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 10/17/2019
-  ms.locfileid: "37572493"
+  ms.lasthandoff: 04/03/2020
+  ms.locfileid: "43141151"
 items:
 - durationInMinutes: 1
   content: >

@@ -1,5 +1,5 @@
 ---
-title: 팀 정책의 특수 문자 제한 사항은 무엇 인가요?
+title: Teams 정책의 특수 문자 제한 사항
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.policies.naming.error
+- seo-marvel-mar2020
 description: 정책 이름에 특수 문자와 문제 해결을 위해 수행할 수 있는 작업에 대해 알아봅니다.
-ms.openlocfilehash: 4116f34c06667a3bd4e75f9a5541b23c8ea79dcb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: c6e41e19467f01252049c7fdc54745bcee3109d9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837928"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140841"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>팀 정책의 특수 문자 제한 사항은 무엇 인가요?
 

@@ -1,6 +1,6 @@
 ---
 title: 조직에서 Microsoft 팀 확장
-description: 이러한 리소스를 사용 하 여 조직에서 팀을 최대한 활용할 수 있습니다.
+description: 팀의 교대, 의료 팀, 교육 팀, 소매점 팀, 정부용 팀 등의 Microsoft 팀 리소스에 대해 알아보세요.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -15,12 +15,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b163d12d0b773f271453a8024b3c0805c0e87a1c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: d4b6e2b1706f64a37aa8174ca919bd7582b90772
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008180"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136943"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>조직에서 Microsoft 팀 확장
 

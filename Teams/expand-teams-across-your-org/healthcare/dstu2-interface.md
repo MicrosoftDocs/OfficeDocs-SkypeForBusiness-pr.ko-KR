@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft 팀 환자 앱 EHR 통합
-ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Microsoft 팀 환자 앱을 사용 하도록 FTO r 서버를 설정 하거나 다시 구성 하는 등 팀의 DSTU2 인터페이스 사양에 대해 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f09f43af431b3f0cc6d9f984171206f2549a550a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153820"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136958"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 인터페이스 사양
 
@@ -175,7 +176,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 
     요청: <fa r-server>/Condition? 환자 =<환자-id>&_count = 10
     
-    응답: {"resourceType": "번들", "id": "<번들 id>" "," 유형 ":" searchset "," total ":" entry ": [{" 리소스 ": {" resourceType ":" Condition "," id ":" <리소스 id> "," 코드 ": {" 코딩 ": [{" 시스템 ":" "http://snomed.info/sct," 코드 ":" 386033004 "," display ":" Neuropathy (nerve) "dateRecorded": "심각도": {"코딩": [{"syst 2018-09-17 em ":"http://snomed.info/sct"," 코드 ":" 24484000 "," display ":" 심각 "}]}},}]}
+    응답: {"resourceType": "번들", "id": "<번들 id>" "," 유형 ":" searchset "," "resourceType": "": "id": "<리소스 id>", "코드": {"코딩": [{"시스템": "http://snomed.info/sct", "코드": "386033004", "display": "Neuropathy (nerve 손상)"}]}, "dateRecorded": "2018-09-17", "심각도": {"코딩": [{"시스템": "http://snomed.info/sct", "코드": "24484000", "Display": "심각한"}]}},}]}
 
 * * *
 
@@ -204,7 +205,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서는 
 
     요청: <fa r-서버>/발생? 환자 =<환자-id>&_sort:d esc = date&_count = 1
     
-    응답: {"resourceType": "번들", "유형": "searchset", "total": 1, "항목": [{"리소스": "" resourceType ":" 발생 "," id ":" <리소스-id> "," 식별자 ": [{" 사용 ":" 공식 "," 값 ":"<id>"}]," 상태 ":" 도착 "," 유형 ": [{" 코딩 ": [{" 표시 ": [{" ""),}], "환자": {"" ":" 환자/<환자 ":" "시작": "09/17/2018 1:00:00 PM": "location": [{>              "위치": {"표시": "클리닉"},}]}}]}
+    응답: {"resourceType": "번들", "유형": "searchset", "total": 1 "항목": [{"resource": {"resourceType": "발생", "id": "<리소스-id>", "식별자": [{"사용": "공식", "value": "<id>"}], "status": "도착", "유형": [{"코딩": [{"표시": "약속"}],}], "환자": {"참조": "환자/<환자 번호>"}, "기간": {"시작": "09/17/2018 1:00:00 PM"}, "위치": [{"위치": {"display": "클리닉"}
 
 * * *
 
@@ -236,7 +237,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱은 다음
 
     요청: <fa r-server>/AllergyIntolerance? 환자 =<환자 id>
     
-    응답: {"resourceType": "번들", "id": "<번들 id>" "," 유형 ":" searchset "," total ":" entry ":" resourceType ":" AllergyIntolerance "," id ":" <리소스 id> "," recordedDate ": 2018 년 9 월-17T07:00:00.000 Z", "물질": {"text": "Cas 너트"}, "상태": "확인 됨", "반응": [{"물질": "cas") "manifestati on ": [{" text ":" Anaphylactic 반응은 "}]}}
+    응답: {"resourceType": "번들", "id": "<번들 id>", "유형": "searchset", "recordedDate", "total": "" entry ":" resourceType ":" AllergyIntolerance "," id ":" <리소스 id> "," ":" 2018 년 9-17T07:00:00.000 Z "," 물질 ": {" 텍스트 ":" Cas히 고 "" "status": "확인", "반응": [{"물질": {"text": "cas히 고 너트 allergenic Injectable Product"}, "manifestation": [{"텍스트": "Anaphylactic 반응"}]}
 
 * * *
 

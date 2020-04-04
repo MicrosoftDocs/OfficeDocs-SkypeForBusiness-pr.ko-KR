@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 사용자에 게 할당 된 전화 회의 ID 보기, 변경, 다시 설정
+title: 사용자의 전화 회의 ID 보기, 변경, 다시 설정
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 'Microsoft 팀의 사용자에 게 전화 회의 ID를 할당 하는 방법과 전화 회의 ID의 매개 변수를 지정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: e6b1a1ace9bdbf607fa4e1ef678687f37034a052
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: Microsoft 팀에서 사용자에 게 전화 회의 ID를 할당 하는 방법 및 회의 id 매개 변수를 지정 하는 방법을 알아봅니다.
+ms.openlocfilehash: 7c4b9614843f353438630892574c25576913d24b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838138"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140941"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Microsoft 팀에서 사용자에 게 할당 된 회의 ID 보기 및 다시 설정
 
@@ -42,7 +43,7 @@ ms.locfileid: "41838138"
 
 ### <a name="to-view-the-conference-id"></a>전화 회의 ID를 보려면
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **사용자**를 클릭 한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
 
@@ -62,7 +63,7 @@ ms.locfileid: "41838138"
 
 예를 들어 사용자가 잊어버린 경우 전화 회의 ID를 다시 설정할 수 있습니다.
   
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **사용자**를 클릭 한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
 

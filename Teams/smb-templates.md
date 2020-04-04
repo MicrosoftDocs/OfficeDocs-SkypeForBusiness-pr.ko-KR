@@ -1,5 +1,5 @@
 ---
-title: 중소 기업에 대 한 팀 서식 파일 시작 하기
+title: 중소 기업에 대 한 팀 서식 파일
 author: kenwith
 ms.author: kenwith
 manager: serdars
@@ -16,12 +16,13 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
 description: 중소 기업에 대 한 팀 서식 파일 시작 하기
-ms.openlocfilehash: be42728387189f2281f892e5cc608f9e6f557b02
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 4aa620e241bd59ce39f415fca3e33583a3c26c01
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837938"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140851"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>중소 기업에 대 한 팀 서식 파일 시작 하기
 
@@ -36,7 +37,7 @@ Microsoft 팀 서식 파일을 사용 하면 미리 정의 된 서식 파일 (�
 
 | 기본 서식 파일 형식  | baseTemplateId | 이 기본 서식 파일에 포함 된 속성 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| 중소기업 <br>회사 전체 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| 채널 <ul><li>전반적\*</li><li>인적 자원\*</li><li>재미 있는 내용\*</li></ul><br> 앱<ul><li>회사 포털 ( **인적 자원** 채널에 고정 된 웹 사이트) </li> </UL><br>팀 속성 <ul><li>팀 표시 유형을 비공개로 설정</li></ul> |
+| 중소기업 <br>회사 전체 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| 채널 <ul><li>일반\*</li><li>인적 자원\*</li><li>재미 있는 내용\*</li></ul><br> 앱<ul><li>회사 포털 ( **인적 자원** 채널에 고정 된 웹 사이트) </li> </UL><br>팀 속성 <ul><li>팀 표시 유형을 비공개로 설정</li></ul> |
 
 * 자동 즐겨찾기에 채널 
 
@@ -60,7 +61,7 @@ Content-Type: application/json
 
 | 기본 서식 파일 형식  | baseTemplateId | 이 기본 서식 파일에 포함 된 속성 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| 중소기업 <br>임원 팀 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | 채널 <ul><li>전반적\*</li><li>개인용\*</li></ul> 앱<ul><li>OneNote ( **개인** 채널로 고정)</li> <li>Planner ( **개인** 채널에 고정 됨) </li></ul><br>팀 속성 <ul><li>팀 표시 유형을 비공개로 설정</li></ul> | 
+| 중소기업 <br>임원 팀 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | 채널 <ul><li>일반\*</li><li>개인용\*</li></ul> 앱<ul><li>OneNote ( **개인** 채널로 고정)</li> <li>Planner ( **개인** 채널에 고정 됨) </li></ul><br>팀 속성 <ul><li>팀 표시 유형을 비공개로 설정</li></ul> | 
 
 * 자동 즐겨찾기에 채널<br>
 
@@ -73,7 +74,7 @@ Content-Type: application/json
 {
     "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('SmallBusinessExecutive')",
     "displayName": "Executive",
-    "description": "All posts, announcements and daily collaboration and communication for the company’s leadership team.",
+    "description": "All posts, announcements and daily collaboration and communication for the company's leadership team.",
     "visibility": "Private"
 }
 ```
@@ -84,7 +85,7 @@ Content-Type: application/json
 
 | 기본 서식 파일 형식 | baseTemplateId | 이 기본 서식 파일에 포함 된 속성 |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
-| 중소기업 <br>회계  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| 채널 <ul><li>전반적\*</li><li>개인용\*</li></ul><br> 앱<ul><li>OneNote ( **개인** 채널로 고정)</li> <li>Planner ( **개인** 채널에 고정 됨) </li> </ul><br>팀 속성 <ul><li>팀 표시 유형을 비공개로 설정</li></ul> | 
+| 중소기업 <br>재무  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| 채널 <ul><li>일반\*</li><li>개인용\*</li></ul><br> 앱<ul><li>OneNote ( **개인** 채널로 고정)</li> <li>Planner ( **개인** 채널에 고정 됨) </li> </ul><br>팀 속성 <ul><li>팀 표시 유형을 비공개로 설정</li></ul> | 
 
 * 자동 즐겨찾기에 채널
 

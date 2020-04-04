@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 오디오 회의를 사용 하도록 설정 된 사용자 목록 보기
+title: 오디오 회의에 사용 하도록 설정 된 사용자 목록 보기
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 'Microsoft 팀 내에서 전화 접속 회의를 사용 하도록 설정 된 조직의 사용자 목록을 보는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 9330aef9e143764949c4589535126eb2dd72e883
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4f4608eb7d7465e40dbec2590505b0997ccbef2c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838148"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140951"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Microsoft 팀에서 오디오 회의를 사용 하도록 설정 된 사용자 목록 보기
 

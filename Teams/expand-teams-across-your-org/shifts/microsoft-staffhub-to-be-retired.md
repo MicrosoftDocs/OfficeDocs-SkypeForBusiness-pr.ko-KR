@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: ''
+description: Microsoft StaffHub의 만료와 microsoft 팀에서 교대 근무 앱으로 전환 하는 방법에 대 한 질문과 대답을 확인할 수 있습니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 346ef795f8432154d74610e4d061d00fc6039f2a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008160"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141181"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 사용 중지 예정
 
@@ -148,7 +149,7 @@ StaffHub에서 기존 팀 rosters을 검토 하 고 해당 하는 경우 전화 
 
 사용자의 일정이 교대으로 이동 하지만 사용자는 팀 또는 Office 365 그룹의 구성원이 되지 않습니다.
 
-Azure AD 사용자 계정에 연결 되지 않은 비활성 계정의 경우, 관리자는 사용자가 StaffHub 팀 구성원 페이지에 유효한 Office 365 전자 메일 주소를 추가 하 여 사용자를 팀 구성원으로 추가 하 고 ir 조직.
+Azure AD 사용자 계정에 연결 되지 않은 비활성 계정의 경우 관리자는 사용자가 조직의 올바른 Azure AD 계정에 연결 되도록 StaffHub 팀 구성원 페이지에서 유효한 Office 365 전자 메일 주소를 추가 하 여 사용자가 팀 구성원으로 추가 되도록 할 수 있습니다.
 
 또 다른 옵션은 관리자가 **추가-StaffHubMember** 및 **Remove-StaffHubUser** cmdlet을 실행 하 여 StaffHub 팀에서 프로 비전 되지 않은 계정을 제거 하 고 사용자를 해당 UPN을 사용 하 여 팀에 다시 추가 하는 것입니다.
 

@@ -16,14 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ced9ab01c5f33ef2b8095079443c447c301ee742
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.custom:
+- seo-marvel-mar2020
+ms.openlocfilehash: e109d3a8f43d6f989c96709562efbf759c0e562e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978600"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137698"
 ---
-# <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드
+# <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
 이 가이드는 Microsoft 팀과 비즈니스용 Skype Online의 드라이브 가치 단계에 대해 설명 합니다. 이 가이드의 [Word 버전을 다운로드할](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) 수 있습니다.
@@ -800,7 +802,7 @@ _그림 17-건물 보고서 없음_
 
 #### <a name="network-planner"></a>Network Planner
 
-네트워크 계획자는 몇 가지 간단한 단계 만으로 클라우드 음성 배포에 대 한 네트워크 요구 사항을 결정 하 고 구성 합니다. 조직의 네트워킹 세부 정보 및 클라우드 음성 사용량을 제공 하 여 클라우드 음성 배포에 대 한 네트워크 요구 사항을 대략적으로 계산 하 고, 보고를 위해 이러한 세부 정보를 관리 하 고 내보내고, 추가 조사를 위해 영역을 볼 수 있습니다. 다음 단계를 수행 합니다.
+네트워크 계획자는 몇 가지 간단한 단계 만으로 클라우드 음성 배포에 대 한 네트워크 요구 사항을 결정 하 고 구성 합니다. 조직의 네트워킹 세부 정보 및 클라우드 음성 사용량을 제공 하 여 클라우드 음성 배포에 대 한 네트워크 요구 사항을 대략적으로 계산 하 고 보고를 위해 이러한 세부 정보를 관리 및 내보내고 추가 조사 및 다음 단계에 대 한 영역을 볼 수 있습니다.
 
 네트워크 계획자는 빌드 매핑 프로세스를 완전히 자동화 하지는 않지만, 네트워크 정보를 네트워크 계획자에 입력 한 후에는 업로드할 수 있도록 준비 된 빌드 파일로 내보낼 수 있습니다.
 

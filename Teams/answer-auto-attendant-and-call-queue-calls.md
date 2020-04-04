@@ -1,5 +1,5 @@
 ---
-title: 자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
+title: 자동 전화 교환 및 통화 대기열 통화 응답
 ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e864e32409730373d98263215b0bcc35d9b404d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: d630ea41915cb89013e407a6fa0b1cc21cb21abf
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825316"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137438"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
 ===========================================================
@@ -34,7 +35,7 @@ ms.locfileid: "41825316"
 
 클라우드 자동 전화 교환 기능을 통해 조직에 전화를 거는 경우 사용자가 직접 교환원 대신 듣는 오디오 파일 및 일련의 음성 메시지가 제공 됩니다. 자동 전화 교환을 통해 발신자는 전화 키패드 (DTMF) 또는 음성 인식 기능을 사용 하 여 사용자를 찾을 수 있습니다.
 
-클라우드 통화 큐에는 사용자가 조직의 전화 번호를 호출할 때 사용 되는 인사말, 통화 대기를 자동으로 전환 하는 기능, 전화를 거는 사용자가 통화를 처리 하기 위해 사용할 수 있는 다음 통화 에이전트 검색 기능 등이 포함 됩니다. 대기 중인 음악 듣기. 조직에 대 한 단일 또는 복수 통화 대기열을 만들 수 있습니다.
+클라우드 통화 큐에는 사용자가 조직의 전화 번호를 호출할 때 사용 되는 인사말, 통화를 자동으로 대기 하는 기능, 전화를 걸고 있는 사용자가 대기 중인 음악을 수신 대기 하는 동안 사용 가능한 다음 통화 에이전트를 검색 하 여 통화를 처리 하는 기능이 포함 됩니다. 조직에 대 한 단일 또는 복수 통화 대기열을 만들 수 있습니다.
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>자동 전화 교환 또는 통화 대기열 통화 처리
 
@@ -53,10 +54,10 @@ ms.locfileid: "41825316"
 
 자동 전화 교환 및 통화 대기열 통화에 대 한 지원은 다음 클라이언트에서 사용할 수 있습니다.
 
--   Microsoft 팀 Windows 클라이언트 (32 및 64 비트 버전)
--   Microsoft 팀 Mac 클라이언트
--   Microsoft 팀 iPhone 앱
--   Microsoft 팀 Android 앱
+-    Microsoft 팀 Windows 클라이언트 (32 및 64 비트 버전)
+-    Microsoft 팀 Mac 클라이언트
+-    Microsoft 팀 iPhone 앱
+-    Microsoft 팀 Android 앱
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Microsoft 팀에 대 한 자동 전화 교환 및 통화 대기열 지원 구성
 
@@ -64,8 +65,8 @@ Microsoft 팀에서 자동 전화 교환 및 통화 대기열 통화를 받으�
 
 ## <a name="related-topics"></a>관련 항목
 
--   [Office 365의 전화 시스템 소개](what-is-phone-system-in-office-365.md)
--   [클라우드 통화 큐 만들기](create-a-phone-system-call-queue.md)
--   [클라우드 자동 전화 교환이란?](what-are-phone-system-auto-attendants.md)
--   [클라우드 자동 전화 교환 설정](create-a-phone-system-auto-attendant.md)
+-    [Office 365의 전화 시스템 소개](what-is-phone-system-in-office-365.md)
+-    [클라우드 통화 큐 만들기](create-a-phone-system-call-queue.md)
+-    [클라우드 자동 전화 교환이란?](what-are-phone-system-auto-attendants.md)
+-    [클라우드 자동 전화 교환 설정](create-a-phone-system-auto-attendant.md)
 

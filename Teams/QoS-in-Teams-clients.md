@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀 클라이언트에서 서비스 품질 구현
+title: 팀 클라이언트에서 서비스 품질 구현
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fb3823a77995e401be7e60e86603f9d8c56099f
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 66e6dc43e03f1ec3606116ad001f11104de4a55f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863159"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139607"
 ---
 # <a name="set-qos-on-windows-clients"></a>Windows 클라이언트에 QoS 설정
 
@@ -30,11 +31,11 @@ ms.locfileid: "41863159"
 
 *표 1 권장 되는 초기 포트 범위*
 
-|미디어 트래픽 형식| 클라이언트 원본 포트 범위 |프로토콜별|DSCP 값|DSCP 클래스|
+|미디어 트래픽 유형| 클라이언트 원본 포트 범위  |프로토콜|DSCP 값|DSCP 클래스|
 |:--- |:--- |:--- |:--- |:--- |
-|오디오| 50000 – 50019|TCP/UDP|46|전달 발송 (EF)|
-|비디오만| 50,020–50,039|TCP/UDP|34|전달 보장 (AF41)|
-|응용 프로그램/화면 공유| 50,040–50,059|TCP/UDP|awg|전달 보장 (AF21)|
+|오디오| 50,000~50,019|TCP/UDP|46|Expedited Forwarding(EF)|
+|비디오| 50,020~50,039|TCP/UDP|34|Assured Forwarding(AF41)|
+|응용 프로그램/화면 공유| 50,040~50,059|TCP/UDP|awg|Assured Forwarding(AF21)|
 | | | | | |
 
 가능 하면 그룹 정책 개체 내에서 정책 기반 QoS 설정을 구성 합니다. 다음 단계는 [비즈니스용 Skype Server에서 클라이언트에 대 한 포트 범위와 서비스 품질 정책을 구성](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)하는 것과 매우 유사 하며, 필요 하지 않을 수도 있는 추가 세부 사항이 있습니다.
@@ -110,7 +111,7 @@ ms.locfileid: "41863159"
    |        로컬 IP        | REG_SZ |     \*      |
    | 로컬 IP 접두사 길이 | REG_SZ |     \*      |
    |       로컬 포트       | REG_SZ | 50000-50019 |
-   |        프로토콜별        | REG_SZ |     \*      |
+   |        프로토콜        | REG_SZ |     \*      |
    |       원격 IP        | REG_SZ |     \*      |
    |    원격 IP 접두사    | REG_SZ |     \*      |
    |      원격 포트       | REG_SZ |     \*      |

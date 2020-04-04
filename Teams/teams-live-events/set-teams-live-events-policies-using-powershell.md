@@ -1,5 +1,5 @@
 ---
-title: PowerShell을 사용 하 여 Microsoft 팀에서 실시간 이벤트 정책 설정
+title: PowerShell을 사용 하 여 라이브 이벤트 정책 설정
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,15 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: PowerShell을 사용 하 여 조직에서 실시간 이벤트를 보유할 수 있는 사용자 및 자신이 만드는 이벤트에서 사용할 수 있는 기능을 제어 하도록 팀에서 정책을 설정 하는 방법의 예
+description: PowerShell을 사용 하 여 조직에서 실시간 이벤트를 보유할 수 있는 사용자와 이벤트에서 사용할 수 있는 기능을 제어 하기 위해 팀에서 정책을 설정 하는 방법을 보여 주는 예입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb43e2a7420ef6c121cea93fd4cd8e4cc40ddfb2
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 4d5f1cceb42afd2be92aedcd0a40af4e23650512
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102359"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140649"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>PowerShell을 사용 하 여 Microsoft 팀에서 실시간 이벤트 정책 설정
 

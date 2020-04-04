@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype 하이브리드 배포를 Microsoft 팀으로 업그레이드 | PSTN
+title: 비즈니스용 Skype 하이브리드 배포를 팀에 업그레이드
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca9ebc7a28e07eec9b24c0628ade4941c0fd2fa2
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: fa72c0d6a03ef89d0c04b0a70a0bbc918a508243
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706698"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136978"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>비즈니스용 Skype 하이브리드 배포에서 팀으로 업그레이드
 
@@ -39,7 +41,7 @@ ms.locfileid: "42706698"
 - [조직 준비](https://aka.ms/SkypeToTeams-UserReadiness)
 - [파일럿 수행](https://aka.ms/SkypeToTeams-Pilot)
 
-비즈니스용 Skype 또는 Microsoft Lync 온-프레미스를 배포 하 고 Office 365 테 넌 트와 함께 하이브리드 배포에 구성한 경우이 문서의 지침을 따르고, 조직에서 여러 개의 앱을 사용 하 여 팀으로 업그레이드 하려고 합니다. 공존 모드 (또는 모두). 업그레이드 여행 중에는 사용자를 비즈니스용 Skype Online으로 이동 (아직 온라인 상태가 되지 않은 경우) 한 다음 적절 한 공존 및 업그레이드 모드를 할당 해야 합니다.
+비즈니스용 Skype 또는 Microsoft Lync 온-프레미스를 배포 하 고 Office 365 테 넌 트에서 하이브리드 배포에 구성한 경우이 문서의 지침에 따라 조직에서 여러 공존 모드를 사용 하 여 선택적으로 팀으로 업그레이드 하려고 합니다. 업그레이드 여행 중에는 사용자를 비즈니스용 Skype Online으로 이동 (아직 온라인 상태가 되지 않은 경우) 한 다음 적절 한 공존 및 업그레이드 모드를 할당 해야 합니다.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -57,6 +59,6 @@ ms.locfileid: "42706698"
 
 ## <a name="phone-system-and-teams-upgrade"></a>전화 시스템 및 팀 업그레이드
 
-Skype for Business 하이브리드 배포를 통화 요금제를 사용 하는 전화 시스템으로 전환 하는 경우, Microsoft는 전화 번호 포팅를 완료 했다고 가정 하 고, 사용자를 업그레이드 하는 경우 팀은 인바운드 PSTN 통화를 팀으로 자동 전환 합니다.
+Skype for Business 하이브리드 배포를 통화 요금제로 전화 시스템으로 전환 하는 경우, Microsoft는 전화 번호 포팅를 완료 했다고 가정 하 고, 사용자를 팀으로 업그레이드 하면 자동으로 인바운드 PSTN 통화가 팀으로 전환 됩니다.
 
-통화 요금제를 사용할 수 없거나 기존 PSTN 연결 공급자를 사용 하려는 경우 엔터프라이즈 음성 배포 또는 기존 온-프레미스 배포 또는 클라우드 커넥터 에디션을 사용 하는 하이브리드 음성 배포로 전환 해야 합니다. Microsoft 전화 시스템 다이렉트 라우팅. 사용자를 팀으로 업그레이드 하려면 [전화 시스템 다이렉트 라우팅에 대 한 추가 고려 사항을](2-envision-make-my-service-decisions-direct-routing.md)참조 하세요.
+통화 요금제를 사용할 수 없거나 기존 PSTN 연결 공급자를 사용 하려는 경우 엔터프라이즈 음성 배포 또는 기존 온-프레미스 배포 또는 클라우드 커넥터 에디션을 사용 하는 하이브리드 음성 배포를 Microsoft 전화 시스템 다이렉트 라우팅으로 전환 해야 합니다. 사용자를 팀으로 업그레이드 하려면 [전화 시스템 다이렉트 라우팅에 대 한 추가 고려 사항을](2-envision-make-my-service-decisions-direct-routing.md)참조 하세요.

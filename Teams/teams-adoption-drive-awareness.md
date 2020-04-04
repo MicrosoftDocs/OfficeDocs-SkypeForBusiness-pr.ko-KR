@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀의 드라이브 인식 및 교육 구현
+title: 인식 주도 및 교육 구현
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,18 +13,20 @@ search.appverid: MET150
 description: Microsoft 팀 채택을 위한 교육 프로그램을 구현 하 고 인식을 향상 시키는 방법에 대해 알아봅니다.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee8040980f0452529ec84367093262843f499d1f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 02239b1b77a8fdffbfd4e2a3081fc5a031c43878
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837838"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140791"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft 팀의 드라이브 인식 및 교육 구현
 

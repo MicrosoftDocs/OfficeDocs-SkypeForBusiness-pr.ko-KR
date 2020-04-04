@@ -1,5 +1,5 @@
 ---
-title: 오디오 회의 브리지에서 전화 번호 변경
+title: 오디오 회의 브리지의 전화 번호 변경
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 오디오 회의 라이선스를 구입 하는 경우 Microsoft는 조직에 대 한 오디오 회의 브리지를 호스팅 하 고 있습니다. 오디오 회의 브리지는 다른 위치에서 전화 접속 전화 번호를 제공 하므로 모임 이끌이 및 참가자가 휴대폰을 사용 하 여 비즈니스용 Skype 또는 Microsoft 팀 모임에 참가 하는 데 사용할 수 있습니다.
-ms.openlocfilehash: 54662b34f5b8b1f56aceffb2294801a485bc26ae
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: 회의 브리지에 새 서비스 전화 번호를 할당 하 여 사용자의 검사 범위를 확장 하는 데 필요한 단계에 대해 알아보세요.
+ms.openlocfilehash: 571b7a9c14db1601e0a4b94740395ad087808a49
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825206"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139077"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>오디오 회의 브리지에서 전화 번호 변경
 
@@ -58,7 +59,7 @@ ms.locfileid: "41825206"
 
 1. 회사 계정으로 Office 365에 로그인 합니다.
 
-2. **Microsoft 365 관리 센터** > **** > **팀** > 으로 이동 하 여 Skype**모임** > **회의 브리지**를 & 합니다.
+2. **Microsoft 365 관리 센터** > **Admin centers** > **팀** > 으로 이동 하 여 Skype**모임** > **회의 브리지**를 & 합니다.
 
 3. 기본값으로 구성 하려는 서비스 유료 전화 번호를 강조 표시 합니다.
 
@@ -82,7 +83,7 @@ ms.locfileid: "41825206"
 
 다음 두 단계는 Windows PowerShell을 시작 해야 하는 경우입니다.
   
-일부 또는 모든 사용자에 대 한 모임 초대에 사용 되는 기본 전화 번호를 업데이트 한 경우에는 조직의 사용자에 게 이미 보낸 모임 초대를 선택적으로 업데이트할 수 있으며,이 경우 해당 기본 전화 번호를 사용 하 여 변경 되었습니다. 모임 마이그레이션 서비스. 자세한 내용은 [MMS (모임 마이그레이션 서비스) 설정을](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)참조 하세요.
+일부 또는 모든 사용자에 대 한 모임 초대에 속하는 기본 전화 번호를 업데이트 한 경우 모임 마이그레이션 서비스를 사용 하 여 기본 전화 번호를 변경 하기 전에 조직의 사용자에 게 이미 보낸 모임 초대를 선택적으로 업데이트할 수 있습니다. 자세한 내용은 [MMS (모임 마이그레이션 서비스) 설정을](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)참조 하세요.
   
 - 2 단계에서 기본 전화 번호를 변경한 사용자를 위해 MMS (모임 마이그레이션 서비스)를 실행 합니다. 이렇게 하려면 다음 명령을 실행 합니다.
 
@@ -220,7 +221,7 @@ Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단�
     > [!NOTE]
     > 위에서 사용 되는 위치는 Microsoft 365 관리 센터에서 설정한 사용자의 연락처 정보와 일치 해야 합니다.
 
-## <a name="troubleshooting"></a>해결사
+## <a name="troubleshooting"></a>문제 해결
 
 **할당 취소 단추가 회색으로 표시 됨**
 
@@ -235,7 +236,7 @@ Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 
 **예**를 들어, DefaultServiceNumber "8005551234"을 할당 취소 하려면
 ```PowerShell
-Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
 ```
 
 ## <a name="about-windows-powershell"></a>Windows PowerShell 정보

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 PIN을 사용 하지 않고 전화로 오디오 회의 시작
+title: 팀에서 PIN을 사용 하지 않고 휴대폰으로 오디오 회의 시작
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: '팀 관리 센터에서 익명 호출자가 모임에 참가 하지 않도록 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 87588bc8edfcc4d50b5589339f92f56829ec38ef
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e6e3244a3b2135023d80b9b0df925cc5293244f6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837918"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140831"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Microsoft 팀에서 PIN을 사용 하지 않고 전화로 오디오 회의 시작
 
@@ -41,7 +42,7 @@ Microsoft 팀 모임 이끌이가 모임을 시작 하지 않았기 때문에 �
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>익명 호출자가 모임에 참가 하지 못하도록 설정 또는 해제
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **사용자**를 클릭 합니다. 
 

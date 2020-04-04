@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft 팀 환자 앱 EHR 통합
-ms.openlocfilehash: d718f3d3772a08ecfa57e418a4f4fc2e22fe7172
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Microsoft 팀 환자 앱을 사용 하도록 FTO r 서버를 설정 하거나 다시 구성 하는 등 팀의 STU3 인터페이스 사양에 대해 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 35d887575ffb894b7a47e50511e6bd6c3a9a75d1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147701"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141201"
 ---
 # <a name="stu3-interface-specification"></a>STU3 인터페이스 사양
 
@@ -221,7 +222,7 @@ Argonaut 필드 외에도 멋진 사용자 환경을 위해 환자 앱에서 다
 
     요청: <fa r-server>/AllergyIntolerance? 환자 =<환자 id>
     
-    응답: {"resourceType": "번들", "id": "<번들 id>" "," 유형 ":" searchset "," total ":" entry ": [{" 리소스 ": {" resourceType ":" AllergyIntolerance "," id ":" <resource-id> "," clinicalStatus ":" active "," verificationStatus ":" 확인 됨 "," ":"http://rxnav.nlm.nih.gov/REST/Ndfrt"" "시스템": "", "" display ":" sulfonamide antibacterial ",}]," 텍스트 ":" sulfonamide ant ibacterial "}," assertedDate ":" 2018-01-01T00:00:00-07:00 "," 반응 ": [{" manifestation ": [{" 코딩 ": [{" 시스템 ":"http://snomed.info/sct"" 코드 ":" 271807003 "," display ":" skin rash ",}]," text ":" skin rash "}]}
+    응답: {"resourceType": "번들", "id": "<번들 id>", "type": "searchset", "total": 1, "entry": [{"리소스": {"resourceType": "AllergyIntolerance", "id": "리소스 id>", "clinicalStatus": "active", "verificationStatus": "확인 됨", "코드": "" "http://rxnav.nlm.nih.gov/REST/Ndfrt," <"" "," 코드 ":" N0000175503 "," display ":" sulfonamide antibacterial ",}]," text ":" sulfonamide antibacterial "}," assertedDate ":" 2018-01-01T00:00:00-07:800 "," 반응 ": [{" manifestation ": [{" 코딩 ": [{" 시스템 ":"http://snomed.info/sct"," 코드 ":" 271807003 "," display ":" skin rash ",}]," 텍스트 ":" 스킨 rash "}]}
 
 * * *
 

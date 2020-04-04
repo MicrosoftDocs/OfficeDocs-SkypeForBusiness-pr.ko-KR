@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 긴급 통화 라우팅 정책 관리
+title: 긴급 전화 라우팅 정책 관리
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 긴급 통화 라우팅 정책을 사용 하 고 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: af0b7a6a82e0d5ff06c65d726b2f67af22b6f4aa
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: c0e02a44997e07626c39dc576357f8811a9b1bf9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836508"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141121"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft 팀에서 긴급 통화 라우팅 정책 관리
 
@@ -51,7 +52,7 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
     > [!NOTE]
     > 다이얼 문자열과 다이얼 마스크는 정책 내에서 고유 해야 합니다. 즉, 정책의 경우 여러 응급 번호를 정의할 수 있으며, 다이얼 문자열에 여러 개의 다이얼 마스크를 설정할 수 있지만 각 다이얼 문자열 및 다이얼 마스크는 한 번만 사용 해야 합니다.
 
-6. **저장**을 클릭 합니다.
+6. **저장**을 클릭합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
@@ -75,7 +76,7 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터 사용
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 다음 사용자를 클릭 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동한 후 해당 사용자를 클릭합니다.
 2. **정책을**클릭 한 다음 **할당 된 정책**옆에 있는 **편집**을 클릭 합니다.
 3. **비상 전화 라우팅 정책**에서 할당할 정책을 선택한 다음 **저장**을 클릭 합니다.
 
@@ -84,9 +85,9 @@ Microsoft 팀 관리 센터에서 또는 Windows PowerShell을 사용 하 여 **
 또는 다음을 수행할 수도 있습니다.
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **응급 정책**으로 이동한 다음 **전화 라우팅 정책** 탭을 클릭 합니다.
-2. 정책 이름 왼쪽에 있는을 클릭 하 여 정책을 선택 합니다.
-3. **사용자 관리**를 선택 합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름을 사용 하 여 사용자를 검색 하 고 이름을 선택한 다음 **추가**를 선택 합니다. 추가 하려는 각 사용자에 대해이 단계를 반복 합니다.
+2. 정책 이름의 왼쪽을 클릭하여 정책을 선택합니다.
+3. **사용자 관리**를 선택합니다.
+4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름을 사용 하 여 사용자를 검색 하 고 이름을 선택한 다음 **추가**를 선택 합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 5. 사용자 추가를 마쳤으면 **저장**을 클릭 합니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
@@ -131,4 +132,4 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 ## <a name="related-topics"></a>관련 항목
 
 - [팀에서 긴급 통화 정책 관리](manage-emergency-calling-policies.md)
-- [팀 PowerShell 개요](teams-powershell-overview.md)
+- [Teams PowerShell 개요](teams-powershell-overview.md)

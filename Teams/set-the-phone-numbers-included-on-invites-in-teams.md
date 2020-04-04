@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀의 초대에 포함 된 전화 번호 설정
+title: 초대에 포함할 전화 번호 설정
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: '호출자가 Microsoft 팀 모임에 참가 하는 데 사용할 기본 전화 번호를 만드는 단계를 가져옵니다. '
-ms.openlocfilehash: 88032829581224b339f47b34c432629019fd3bac
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 6c45a28ab48add26eef8929e37e5cf60113185ea
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583115"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140901"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsoft 팀의 초대에 포함 된 전화 번호 설정
 
@@ -50,7 +51,7 @@ Office 365의 오디오 회의를 통해 조직의 사용자가 Microsoft 팀 �
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>모임 이끌이 또는 사용자의 기본 오디오 회의 전화 번호 설정 또는 변경
 
-![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
+![Microsoft Teams 로고를 나타내는 아이콘](media/teams-logo-30x30.png) **Microsoft Teams 관리 센터 사용**
 
 1. 왼쪽 탐색 창에서 **사용자**를 클릭 합니다.
 

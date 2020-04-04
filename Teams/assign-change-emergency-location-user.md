@@ -17,12 +17,13 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 조직의 사용자에 대 한 긴급 위치를 할당 하거나 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: dca0116188eddeb3c28b8d1f8486ae601e742079
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 2652cbd2f01af4436de737bae54656e96488ab27
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695713"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137108"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>사용자의 응급 위치 할당 또는 변경
 
@@ -39,9 +40,9 @@ Office 365에서 전화 요금제를 가져오는 방법과 비용을 확인 하
 - 긴급 위치를 지정 하려면을 검색 하 고 긴급 위치를 선택 합니다.
 - 사용자에 게 이미 할당 된 비상 위치를 변경 하려면 **X** 를 클릭 하 여 기존 위치를 제거한 다음 할당 하려는 위치를 검색 하 여 선택 합니다.
 
-4. **저장**을 클릭 합니다.
+4. **저장**을 클릭합니다.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [응급 위치, 장소 및 통화 라우팅이란?](what-are-emergency-locations-addresses-and-call-routing.md)
 - [조직의 응급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)

@@ -7,29 +7,31 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: 입증 된 성공 프레임 워크를 사용 하 여 비즈니스용 Skype에서 팀으로 조직의 업그레이드를 지원 합니다.
+description: 입증 된 성공 프레임 워크를 사용 하 여 비즈니스용 Skype에서 팀으로 조직의 업그레이드를 도울 수 있습니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42b4efcd2e9b38aebb7f44d3aa09d7be1ca634f3
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: ab92190b95c081f1b82d27970972c77bcf726f05
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863529"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139657"
 ---
 # <a name="about-the-upgrade-framework"></a>업그레이드 프레임워크 정보
 
 업그레이드 여행에 대 한 추측을 수행 하기 위해, 변경 사항을 구현 하는 입증 된 프레임 워크를 채택 했습니다. 아래에 설명 된 대로 프레임 워크의 각 단계는 이전 단계에 빌드되고 최적의 결과를 위해 순서 대로 단계를 따르는 것이 좋습니다.  
 
-먼저 올바른 관련자를 함께 가져와 업그레이드 계획을 정의 합니다 (예: 범위, 목표 및 시간 표시 막대). 계획을 진행 하는 동안에는 기술 환경을 확인 하 고 최종 사용자가 팀을 위한 준비가 된 것입니다. 그런 다음 단계적으로 업그레이드를 구현 하 여 파일럿에서 조직 전체 업그레이드로 전환 합니다. 조직이 팀에 있는 경우 품질을 모니터링 하 고 사용자 채택을 가속화 하는 운영 계획을 설정 합니다.
+먼저 올바른 관련자를 함께 가져와 업그레이드 계획 (예: 범위, 목표 및 시간 표시 막대)을 정의 합니다. 계획을 진행 하는 동안에는 기술 환경을 확인 하 고 최종 사용자가 팀을 위한 준비가 된 것입니다. 그런 다음 단계적으로 업그레이드를 구현 하 여 파일럿에서 조직 전체 업그레이드로 전환 합니다. 조직이 팀에 있는 경우 품질을 모니터링 하 고 사용자 채택을 가속화 하는 운영 계획을 설정 합니다.
 
 ![업그레이드 여행 프레임 워크의 그림](media/upgrade-banner-main.png "프로젝트가 올바른 프로젝트 팀의 성공을 위해 설정 되어 있는지 확인 합니다. 프로젝트 범위, 목표 및 시간 표시 막대를 정의 합니다. 기술 및 사용자 준비 모두를 확인 합니다. 롤아웃 계획을 실행 합니다. 통해 계속 앞서 유지 하 여 결과를 최대화 합니다.")
 
@@ -37,7 +39,7 @@ ms.locfileid: "41863529"
 
 ## <a name="sample-upgrade-timeline"></a>샘플 업그레이드 시간 표시 막대
 
-변경 계획을 시작 하면 업그레이드에 대 한 여행 준비가 시작 됩니다. 성공 프레임 워크를 지침으로 활용 하는 것은 업그레이드를 계획 하 고 준비 하는 사전 업그레이드 단계를 안내 하는 예제 시간 표시 막대 이며 업그레이드 후 유지 및 확장할에 맞게 설계 된 업그레이드가 진행 되는 이후 작업 단계 결과가 있습니다. 
+변경 계획을 시작 하면 업그레이드에 대 한 여행 준비가 시작 됩니다. 성공 프레임 워크를 지침으로 활용 하는 경우 업그레이드를 계획 하 고 준비 하는 사전 업그레이드 단계를 수행 하는 샘플 시간 표시 막대 이며, 결과를 유지 하 고 확장할 수 있도록 설계 된 업그레이드 이후 작업 단계를 진행 하 게 됩니다. 
 
 > [!NOTE]
 > 팀으로의 여행에는 다양 한 시간에 여러 [모드](https://aka.ms/skypetoteams-coexist) 를 이용 하 고 사용자 그룹을 업그레이드 하는 작업이 포함 될 수 있으며,이를 통해 팀과 통해 계속 앞서을 유지 하면서 사용자 업그레이드 환경을 제어할 수 있습니다.  
@@ -71,7 +73,7 @@ ms.locfileid: "41863529"
 | **2** | **특히 실시간 미디어 시나리오용으로 팀 네트워크 최적화** | 오디오, 비디오 또는 모임을 배포 하는 경우 다음 단계를 추가로 수행 하 여 해당 기능에 맞게 네트워크를 최적화 합니다. | [팀으로 업그레이드 하기 위한 네트워크 준비](prepare-network.md) |
 | **3** | **조직 변경 준비를 평가 하 고 팀워크 시나리오 정의** | 사용자의 기본 메시징 및 교육 수준을 준비 하 여 사용자 채택을 쉽게 하 고 가속화할 수 있는 사용 권한 메시지를 이해 합니다. | [조직 변경 준비](upgrade-org-change-readiness.md#organizational-change-readiness) |
 | **4(tcp/ipv4)** | **사용자의 커뮤니케이션, 교육 및 지원 방법을 정의 하는 사용자 준비 계획 준비** | 새로운 기술에 대 한 최적의 receptiveness을 보장 하도록 통신, 교육 및 지원 계획을 설정 합니다. | [사용자 준비 계획 준비](upgrade-user-readiness.md)<br><br>[성공 키트 업그레이드](https://aka.ms/UpgradeSuccessKit) |
-| **5mb** | **Microsoft 팀의 보류 중인 시작 알림** | 사용자가 포함 된 느낌을 줄 수 있도록 조기에 의사 소통 하 고, 혼란을 줄이며, 흥미로운 것을 생성 | [성공 키트 업그레이드](https://aka.ms/UpgradeSuccessKit) |
+| **5mb** | **Microsoft 팀의 보류 중인 시작 알림** | 사용자가 포함 하 고 혼동을 줄이며, 흥미로운 느낌을 줄 수 있도록 조기에 의사 소통 하세요. | [성공 키트 업그레이드](https://aka.ms/UpgradeSuccessKit) |
 | **26** | **팀을 위한 IT 직원 준비** | 기술 및 지원 직원에 게 팀에 대 한 기술 환경을 준비 하 고 지원 하는 데 필요한 모든 것이 있는지 확인 합니다. | [Microsoft 팀을 위한 IT 직원 준비](upgrade-prepare-it-pros.md) <br><br> [성공 키트 업그레이드](https://aka.ms/UpgradeSuccessKit) |
 
 ### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>파일럿: 파일럿을 실행 하 여 조직이 준비 되었는지 확인 하 고 팀에 게 최적의 여행에 대해 알립니다.
@@ -96,7 +98,7 @@ ms.locfileid: "41863529"
 
 ## <a name="upgrade"></a>업그레이드 
 
-**공식적인 팀으로 이동**합니다. 사용자를 업그레이드 하는 경우 팀 전용 모드로 이동 합니다. 팀은 채팅, 모임, 통화, 공동 작업을 위한 기본 앱이 되어 비즈니스용 Skype 앱에 대 한 액세스를 사용할 수 없습니다. 이 단계의 기술적 측면은 매우 간단 하지만, 변경이 사용자 환경에 미칠 수 있는 영향을 고려 하 고 사용자가 자신의 활동을 비즈니스용 Skype에서 팀으로 공식적으로 전환 하는 데 걸리는 시간을 허용 합니다. 다른 클라이언트와의 다른 경험을 사용 하는 사용자를 줄이려면 종단 간 업그레이드 창을 45 days 이상으로 제한 하십시오.
+**공식적인 팀으로 이동**합니다. 사용자를 업그레이드 하는 경우 팀 전용 모드로 이동 합니다. 팀은 채팅, 모임, 통화, 공동 작업을 위한 기본 앱이 되어 비즈니스용 Skype 앱에 대 한 액세스를 사용할 수 없습니다. 이 단계의 기술적 측면은 매우 간단 하지만, 변경이 사용자 환경에 미칠 수 있는 영향을 고려 하 고 사용자가 자신의 활동을 비즈니스용 Skype에서 팀으로 공식적으로 전환 하는 데 걸리는 시간을 허용 합니다. 다른 클라이언트와 다양 한 경험을 갖는 사용자를 줄이려면 종단 간 업그레이드 창을 45 days로 제한 합니다.
 
 ### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>업그레이드: 비즈니스용 Skype에서 팀으로 업그레이드 구현
 
@@ -127,4 +129,4 @@ ms.locfileid: "41863529"
 > 업그레이드 콘텐츠는 지속적으로 발전 하 고 있습니다. 최신 지침을 다시 확인 하 고 [팀 블로그](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)를 읽어 보세요. 
 
 > [!Important]
-> 비즈니스용 Skype Online은 2021 년 7 월 31 일에 만료 되며, 그 이후에는 더 이상 접근성 또는 지원 되지 않습니다. 조직의 혜택 실현을 최대화 하 고 업그레이드를 구현 하는 데 적절 한 시간을 확보 하려면 지금 Microsoft 팀으로 여행을 시작 하는 것이 좋습니다. 성공적으로 업그레이드 하면 기술 및 사용자의 준비가 정렬 되므로 Microsoft 팀으로 여행을 이동할 때이 가이드의 지침을 활용 해야 합니다.
+> 비즈니스용 Skype Online은 2021년 7월 31일에 서비스가 종료되며 이후에는 더 이상 액세스할 수 없게 되거나 지원되지 않습니다. 조직의 혜택 실현을 최대화 하 고 업그레이드를 구현 하는 데 적절 한 시간을 확보 하려면 지금 Microsoft 팀으로 여행을 시작 하는 것이 좋습니다. 성공적으로 업그레이드 하면 기술 및 사용자의 준비가 정렬 되므로 Microsoft 팀으로 여행을 이동할 때이 가이드의 지침을 활용 해야 합니다.

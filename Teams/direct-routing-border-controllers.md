@@ -1,5 +1,5 @@
 ---
-title: 직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
+title: 직접 라우팅에 대해 인증 된 세션 경계 컨트롤러
 ms.author: crowe
 ms.reviewer: FilippSe
 author: CarolynRowe
@@ -17,12 +17,13 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: 사용자가 직접 라우팅으로 SBCs 작업을 인증 하도록 선택 된 SBC 공급 업체와의 협력 파트너.
-ms.openlocfilehash: e7831abf7a5d522afd05c3fd178e6acda04772e3
-ms.sourcegitcommit: 43e8960ef091d9e206f22eb7ffef9d6e84756335
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fcad24511384a9fb1cf8e49d5f305801622be6f3
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42939622"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137317"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>직접 라우팅으로 인증된 SBC(Session Border Controller) 목록
 

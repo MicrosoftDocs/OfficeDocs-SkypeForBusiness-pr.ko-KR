@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 팀을 만들 때 발생 하는 Office 365 그룹에 대 한 계획
+title: 팀을 만들 때 Office 365 그룹에 대한 계획
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -8,7 +8,7 @@ ms.date: 08/29/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: 공용 그룹과 개인 그룹 선택, 팀 클라이언트 또는 Office 365 관리 웹 콘솔 사용, 팀에 게 대화 사용에 대해 교육 하는 방법 등 Office 365 그룹에 대 한 계획을 수립할 때의 결정에 대해 알아봅니다.
+description: 그룹 & 팀 대화, 팀의 그룹 명명 정책 간의 차이점을 비롯 하 여 팀의 Office 365 그룹에 대 한 계획에 대해 알아봅니다.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 092a30be3fb8cffce8abfc9b885e3de3caa8bed4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom:
+- seo-marvel-mar2020
+ms.openlocfilehash: 5e06422d38cc2a0b1fc0b925c6b3b3c12f47d67a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833838"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137578"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Microsoft 팀에서 팀을 만들 때 발생 하는 Office 365 그룹에 대 한 계획
 ==========================================================
