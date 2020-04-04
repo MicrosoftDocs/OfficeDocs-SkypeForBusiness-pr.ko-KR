@@ -22,35 +22,36 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 사용 하는 방법을 쉽게 찾을 수 있습니다. 국가/지역을 선택 하면 무료 서비스를 사용할 수 있는 무료 서비스 사용에 대 한 특정 세부 정보, 제한 사항, 제한 사항이 포함 된 국가 관련 페이지로 이동 합니다. 전화 걸기 형식 또는 형식에는 각 국가/지역 내에서 필요한 액세스 코드를 표시 하 여 무료 전화를 받을 수 있습니다.
-ms.openlocfilehash: b1df17e062beb2decfab43b58a6695b85038f937
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: 약속 없음, 유선/고정 회선 및 모바일 네트워크 가용성, 제한을 포함 하 여 헝가리어에서 무료 전화를 거는 방법에 대해 알아보세요.
+ms.openlocfilehash: 3bf55b9fb95110f85291fe62e81b7a9a9c2f1b7b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708774"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140397"
 ---
-# <a name="toll-free-dialing-restrictions-in-hungary"></a><span data-ttu-id="cf484-105">헝가리어의 무료 전화 걸기 제한</span><span class="sxs-lookup"><span data-stu-id="cf484-105">Toll-free dialing restrictions in Hungary</span></span>
+# <a name="toll-free-dialing-restrictions-in-hungary"></a><span data-ttu-id="3335c-103">헝가리어의 무료 전화 걸기 제한</span><span class="sxs-lookup"><span data-stu-id="3335c-103">Toll-free dialing restrictions in Hungary</span></span>
 
-<span data-ttu-id="cf484-106">[다른 국가 또는 지역](../toll-free-dialing-limitations-and-restrictions.md)또는 무료 전화 걸기 제한 사항에 대 한 자세한 정보를 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="cf484-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="3335c-104">[다른 국가 또는 지역](../toll-free-dialing-limitations-and-restrictions.md)또는 무료 전화 걸기 제한 사항에 대 한 자세한 정보를 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="3335c-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="cf484-107">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="cf484-107">**Details**</span></span>|<span data-ttu-id="cf484-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="cf484-108">**Description**</span></span>|
+|<span data-ttu-id="3335c-105">**세부 정보**</span><span class="sxs-lookup"><span data-stu-id="3335c-105">**Details**</span></span>|<span data-ttu-id="3335c-106">**설명**</span><span class="sxs-lookup"><span data-stu-id="3335c-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="cf484-109">무료 전화를 받을 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="cf484-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="cf484-110">예</span><span class="sxs-lookup"><span data-stu-id="cf484-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="cf484-111">전화 걸기 형식</span><span class="sxs-lookup"><span data-stu-id="cf484-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="cf484-112">06 800 XXX XX</span><span class="sxs-lookup"><span data-stu-id="cf484-112">06 800 XXX XX</span></span> <br/>  <span data-ttu-id="cf484-113">06 801 XXX XX</span><span class="sxs-lookup"><span data-stu-id="cf484-113">06 801 XXX XX</span></span> <br/> |
-|<span data-ttu-id="cf484-114">국가/지역 ISO 코드</span><span class="sxs-lookup"><span data-stu-id="cf484-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="cf484-115">HU-HU&PLATFORM</span><span class="sxs-lookup"><span data-stu-id="cf484-115">HU</span></span>  <br/> |
-|<span data-ttu-id="cf484-116">섬/지역 포함</span><span class="sxs-lookup"><span data-stu-id="cf484-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="cf484-117">해당 없음</span><span class="sxs-lookup"><span data-stu-id="cf484-117">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="cf484-118">섬/지역 포함 안 함</span><span class="sxs-lookup"><span data-stu-id="cf484-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="cf484-119">해당 없음</span><span class="sxs-lookup"><span data-stu-id="cf484-119">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="cf484-120">유선/고정 회선 가용성</span><span class="sxs-lookup"><span data-stu-id="cf484-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="cf484-121">예</span><span class="sxs-lookup"><span data-stu-id="cf484-121">Yes</span></span>  <br/> |
-|<span data-ttu-id="cf484-122">모바일 네트워크 가용성</span><span class="sxs-lookup"><span data-stu-id="cf484-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="cf484-123">예.</span><span class="sxs-lookup"><span data-stu-id="cf484-123">Yes.</span></span> <span data-ttu-id="cf484-124">프리미엄 요금으로 이용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cf484-124">Available at premium rate.</span></span>  <br/> |
-|<span data-ttu-id="cf484-125">메모, 제한 사항 및 액세스 문제</span><span class="sxs-lookup"><span data-stu-id="cf484-125">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="cf484-126">없음</span><span class="sxs-lookup"><span data-stu-id="cf484-126">None</span></span>  <br/> |
+|<span data-ttu-id="3335c-107">무료 전화를 받을 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="3335c-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="3335c-108">예</span><span class="sxs-lookup"><span data-stu-id="3335c-108">Yes</span></span>  <br/> |
+|<span data-ttu-id="3335c-109">전화 걸기 형식</span><span class="sxs-lookup"><span data-stu-id="3335c-109">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="3335c-110">06 800 XXX XX</span><span class="sxs-lookup"><span data-stu-id="3335c-110">06 800 XXX XX</span></span> <br/>  <span data-ttu-id="3335c-111">06 801 XXX XX</span><span class="sxs-lookup"><span data-stu-id="3335c-111">06 801 XXX XX</span></span> <br/> |
+|<span data-ttu-id="3335c-112">국가/지역 ISO 코드</span><span class="sxs-lookup"><span data-stu-id="3335c-112">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="3335c-113">HU-HU&PLATFORM</span><span class="sxs-lookup"><span data-stu-id="3335c-113">HU</span></span>  <br/> |
+|<span data-ttu-id="3335c-114">섬/지역 포함</span><span class="sxs-lookup"><span data-stu-id="3335c-114">Island/territory covered</span></span>  <br/> |<span data-ttu-id="3335c-115">해당 사항 없음</span><span class="sxs-lookup"><span data-stu-id="3335c-115">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="3335c-116">섬/지역 포함 안 함</span><span class="sxs-lookup"><span data-stu-id="3335c-116">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="3335c-117">해당 사항 없음</span><span class="sxs-lookup"><span data-stu-id="3335c-117">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="3335c-118">유선/고정 회선 가용성</span><span class="sxs-lookup"><span data-stu-id="3335c-118">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="3335c-119">예</span><span class="sxs-lookup"><span data-stu-id="3335c-119">Yes</span></span>  <br/> |
+|<span data-ttu-id="3335c-120">모바일 네트워크 가용성</span><span class="sxs-lookup"><span data-stu-id="3335c-120">Mobile network availability</span></span>  <br/> |<span data-ttu-id="3335c-121">예.</span><span class="sxs-lookup"><span data-stu-id="3335c-121">Yes.</span></span> <span data-ttu-id="3335c-122">프리미엄 요금으로 이용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3335c-122">Available at premium rate.</span></span>  <br/> |
+|<span data-ttu-id="3335c-123">메모, 제한 사항 및 액세스 문제</span><span class="sxs-lookup"><span data-stu-id="3335c-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="3335c-124">없음</span><span class="sxs-lookup"><span data-stu-id="3335c-124">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="cf484-127">관련 주제</span><span class="sxs-lookup"><span data-stu-id="cf484-127">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="3335c-125">관련 항목</span><span class="sxs-lookup"><span data-stu-id="3335c-125">Related topics</span></span>
 
-[<span data-ttu-id="cf484-128">무료 전화 걸기 제한 사항</span><span class="sxs-lookup"><span data-stu-id="cf484-128">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="3335c-126">무료 전화 걸기 제한 사항</span><span class="sxs-lookup"><span data-stu-id="3335c-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="cf484-129">비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기</span><span class="sxs-lookup"><span data-stu-id="cf484-129">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="3335c-127">비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기</span><span class="sxs-lookup"><span data-stu-id="3335c-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  

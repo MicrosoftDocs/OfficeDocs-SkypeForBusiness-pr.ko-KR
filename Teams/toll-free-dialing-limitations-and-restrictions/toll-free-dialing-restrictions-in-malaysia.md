@@ -22,35 +22,36 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 사용 하는 방법을 쉽게 찾을 수 있습니다. 국가/지역을 선택 하면 무료 서비스를 사용할 수 있는 무료 서비스 사용에 대 한 특정 세부 정보, 제한 사항, 제한 사항이 포함 된 국가 관련 페이지로 이동 합니다. 전화 걸기 형식 또는 형식에는 각 국가/지역 내에서 필요한 액세스 코드를 표시 하 여 무료 전화를 받을 수 있습니다.
-ms.openlocfilehash: bcec32c632b7c17358d4ac8cbea147fb446b7d61
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: 사용 가능성, 유선/고정 회선, 모바일 네트워크 가용성, 제한을 포함 하 여 말레이시아의 무료 전화 번호를 사용 하는 방법에 대해 알아보세요.
+ms.openlocfilehash: de80bcf4d33f8aa715584ec7922b97ab3d476eda
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693563"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140337"
 ---
-# <a name="toll-free-dialing-restrictions-in-malaysia"></a><span data-ttu-id="5ccf6-105">말레이시아의 무료 전화 걸기 제한</span><span class="sxs-lookup"><span data-stu-id="5ccf6-105">Toll-free dialing restrictions in Malaysia</span></span>
+# <a name="toll-free-dialing-restrictions-in-malaysia"></a><span data-ttu-id="821c4-103">말레이시아의 무료 전화 걸기 제한</span><span class="sxs-lookup"><span data-stu-id="821c4-103">Toll-free dialing restrictions in Malaysia</span></span>
 
-<span data-ttu-id="5ccf6-106">[다른 국가 또는 지역](../toll-free-dialing-limitations-and-restrictions.md)또는 무료 전화 걸기 제한 사항에 대 한 자세한 정보를 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="5ccf6-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="821c4-104">[다른 국가 또는 지역](../toll-free-dialing-limitations-and-restrictions.md)또는 무료 전화 걸기 제한 사항에 대 한 자세한 정보를 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="821c4-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="5ccf6-107">**세부적인**</span><span class="sxs-lookup"><span data-stu-id="5ccf6-107">**Details**</span></span>|<span data-ttu-id="5ccf6-108">**설명**</span><span class="sxs-lookup"><span data-stu-id="5ccf6-108">**Description**</span></span>|
+|<span data-ttu-id="821c4-105">**세부 정보**</span><span class="sxs-lookup"><span data-stu-id="821c4-105">**Details**</span></span>|<span data-ttu-id="821c4-106">**설명**</span><span class="sxs-lookup"><span data-stu-id="821c4-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="5ccf6-109">무료 전화를 받을 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="5ccf6-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="5ccf6-110">예</span><span class="sxs-lookup"><span data-stu-id="5ccf6-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="5ccf6-111">전화 걸기 형식</span><span class="sxs-lookup"><span data-stu-id="5ccf6-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="5ccf6-112">1 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="5ccf6-112">1 800 XXX XXX</span></span>  <br/> |
-|<span data-ttu-id="5ccf6-113">국가/지역 ISO 코드</span><span class="sxs-lookup"><span data-stu-id="5ccf6-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="5ccf6-114">내</span><span class="sxs-lookup"><span data-stu-id="5ccf6-114">MY</span></span>  <br/> |
-|<span data-ttu-id="5ccf6-115">섬/지역 포함</span><span class="sxs-lookup"><span data-stu-id="5ccf6-115">Island/territory covered</span></span>  <br/> | <span data-ttu-id="5ccf6-116">Peninsular 말레이시아 및 동부 말레이시아</span><span class="sxs-lookup"><span data-stu-id="5ccf6-116">Peninsular Malaysia and East Malaysia</span></span> <br/> |
-|<span data-ttu-id="5ccf6-117">섬/지역 포함 안 함</span><span class="sxs-lookup"><span data-stu-id="5ccf6-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="5ccf6-118">해당 없음</span><span class="sxs-lookup"><span data-stu-id="5ccf6-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="5ccf6-119">유선/고정 회선 가용성</span><span class="sxs-lookup"><span data-stu-id="5ccf6-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="5ccf6-120">예</span><span class="sxs-lookup"><span data-stu-id="5ccf6-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="5ccf6-121">모바일 네트워크 가용성</span><span class="sxs-lookup"><span data-stu-id="5ccf6-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="5ccf6-122">예</span><span class="sxs-lookup"><span data-stu-id="5ccf6-122">Yes</span></span>  <br/> |
-|<span data-ttu-id="5ccf6-123">메모, 제한 사항 및 액세스 문제</span><span class="sxs-lookup"><span data-stu-id="5ccf6-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="5ccf6-124">모바일 액세스: 방송 시간이 부과 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5ccf6-124">Mobile access: Airtime is charged.</span></span>  <br/> |
+|<span data-ttu-id="821c4-107">무료 전화를 받을 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="821c4-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="821c4-108">예</span><span class="sxs-lookup"><span data-stu-id="821c4-108">Yes</span></span>  <br/> |
+|<span data-ttu-id="821c4-109">전화 걸기 형식</span><span class="sxs-lookup"><span data-stu-id="821c4-109">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="821c4-110">1 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="821c4-110">1 800 XXX XXX</span></span>  <br/> |
+|<span data-ttu-id="821c4-111">국가/지역 ISO 코드</span><span class="sxs-lookup"><span data-stu-id="821c4-111">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="821c4-112">내</span><span class="sxs-lookup"><span data-stu-id="821c4-112">MY</span></span>  <br/> |
+|<span data-ttu-id="821c4-113">섬/지역 포함</span><span class="sxs-lookup"><span data-stu-id="821c4-113">Island/territory covered</span></span>  <br/> | <span data-ttu-id="821c4-114">Peninsular 말레이시아 및 동부 말레이시아</span><span class="sxs-lookup"><span data-stu-id="821c4-114">Peninsular Malaysia and East Malaysia</span></span> <br/> |
+|<span data-ttu-id="821c4-115">섬/지역 포함 안 함</span><span class="sxs-lookup"><span data-stu-id="821c4-115">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="821c4-116">해당 사항 없음</span><span class="sxs-lookup"><span data-stu-id="821c4-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="821c4-117">유선/고정 회선 가용성</span><span class="sxs-lookup"><span data-stu-id="821c4-117">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="821c4-118">예</span><span class="sxs-lookup"><span data-stu-id="821c4-118">Yes</span></span>  <br/> |
+|<span data-ttu-id="821c4-119">모바일 네트워크 가용성</span><span class="sxs-lookup"><span data-stu-id="821c4-119">Mobile network availability</span></span>  <br/> |<span data-ttu-id="821c4-120">예</span><span class="sxs-lookup"><span data-stu-id="821c4-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="821c4-121">메모, 제한 사항 및 액세스 문제</span><span class="sxs-lookup"><span data-stu-id="821c4-121">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="821c4-122">모바일 액세스: 방송 시간이 부과 됩니다.</span><span class="sxs-lookup"><span data-stu-id="821c4-122">Mobile access: Airtime is charged.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="5ccf6-125">관련 주제</span><span class="sxs-lookup"><span data-stu-id="5ccf6-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="821c4-123">관련 항목</span><span class="sxs-lookup"><span data-stu-id="821c4-123">Related topics</span></span>
 
-[<span data-ttu-id="5ccf6-126">무료 전화 걸기 제한 사항</span><span class="sxs-lookup"><span data-stu-id="5ccf6-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="821c4-124">무료 전화 걸기 제한 사항</span><span class="sxs-lookup"><span data-stu-id="821c4-124">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="5ccf6-127">비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기</span><span class="sxs-lookup"><span data-stu-id="5ccf6-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="821c4-125">비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기</span><span class="sxs-lookup"><span data-stu-id="821c4-125">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  
