@@ -16,12 +16,12 @@ search.appverid: MET150
 description: COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우, 이 가이드를 사용하여 원격 작업자의 생산성을 지원할 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 720a94f86bd8ca0d84d682b15d59461a4b9133fb
-ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
+ms.openlocfilehash: 4df15c379d4232dafaea71114f68877dd7347989
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43059402"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096963"
 ---
 # <a name="faq-support-your-remote-workforce"></a>자주 묻는 질문(FAQ) - 원격 작업자 지원
 
@@ -42,6 +42,10 @@ Microsoft 365의 부사장인 Jared Spataro의 2020년 3월 5일 블로그 게�
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>Microsoft가 취한 조치로 인해 발생할 것으로 예상되는 문제점이 있나요?
 
 Microsoft는 문제를 피하기 위해 최선을 다하고 있지만 바이러스 확산으로 인해 예상치 못한 최대 사용 시간에 일시적인 문제가 발생할 수 있습니다. Microsoft는 필요에 따라 용량을 적극적으로 모니터링하고 추가하지만 Microsoft가 해당 영역에 용량을 추가할 수 있을 때까지 사용자는 영향이 있다고 느낄 수 있습니다. 또한 Microsoft에서 통제할 수 없는 외부 상황도 있습니다. ISP와 전화 통신 사업자도 사전 조치를 취할 것으로 예상하지만 집에서 일하는 사람들이 늘어나면 더 많은 부하를 처리할 수 있는 능력이 있다고 장담하기 어렵습니다.Microsoft는 네트워킹 인프라에 중점을 두고 산업 전반에 걸쳐 작업하고 있습니다. 중단 문제가 우려되는 경우 메시지 센터를 확인하여 현재 중단 사항에 대해 알아보세요.
+
+### <a name="what-can-admins-do-if-attendees-are-having-trouble-joining-meetings-by-dialing-in-such-as-if-calls-arent-getting-through"></a>전화가 연결되지 않는 등 전화를 걸어 모임에 참석하는 데 문제가 있는 경우 관리자는 어떻게 하나요?
+
+COVID-19 발생 기간에는 PSTN 회의 번호 또는 **전화 번호**</strong>를 사용해 전화를 거는 대신 **Teams 모임 참가** 버튼을 눌러 모임에 참석하는 것이 좋습니다. 이는 주로 COVID-19의 영향을 받는 국가의 전화 통신 인프라의 혼잡 때문입니다. PSTN 통화를 피하면 오디오 품질이 향상될 수 있습니다. 
 
 ### <a name="what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network"></a>Microsoft 365의 네트워크 최적화에 관한 일반적인 Microsoft 지침은 무엇입니까? 중국 내 일부 사용자의 경험이 좋지 않습니다. 네트워크를 최적화하려면 어떻게 해야 합니까?
 
