@@ -567,8 +567,10 @@
 
 # Microsoft 365 Business Voice
 ## [Microsoft 365 Business Voice란 무엇인가요?](business-voice/whats-business-voice.md)
+## [국가 및 지역 가용성](business-voice/country-region-availability.md)
 ## 구매 전에 알아야 할 사항
 ### [Business Voice를 사용하기 위해 구입해야 하는 것](business-voice/what-to-buy.md)
+### [r리셀러 또는 파트너로부터 도움 받기](business-voice/reseller-partner-support.md)
 ### [인터넷 연결 확인](business-voice/get-ready-internet.md)
 ### [사용자 준비시키기](business-voice/prepare-users.md)
 ## [시작 마법사의 실행](business-voice/use-getting-started-wizard.md)
@@ -603,6 +605,7 @@
 ## [개요](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Teams 서식 파일 시작](get-started-with-teams-templates.md)
 ## [일선 직원용 빠른 시작](firstline-workers-quickstart.yml)
+## [Microsoft Teams용 RealWear](flw-realwear.md)
 ## [Teams의 교대 근무](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub 사용 중지 예정](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Microsoft StaffHub PowerShell 모듈 설치](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
