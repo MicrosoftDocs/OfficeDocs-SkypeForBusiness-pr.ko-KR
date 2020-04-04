@@ -12,8 +12,6 @@
 ## [Teams에 대한 관리자 교육](itadmin-readiness.md)
 ## [Teams에 대한 최종 사용자 교육](enduser-training.md)
 <!-- ============================================================ -->
-#       
-#    
 
 # [Teams를 배포하는 방법](How-to-roll-out-teams.md)
 
@@ -475,9 +473,8 @@
 ### [피드백 및 보고 최적화](teams-adoption-optimize-feedback-and-reporting.md)
 ### [인식 주도 및 교육 구현](teams-adoption-drive-awareness.md)
 ### [서비스 상태 검토 예약](teams-adoption-schedule-service-health-reviews.md)
+
 <!-- ============================================================ -->
-#       
-#        
 
 # Teams로 업그레이드
 
@@ -560,9 +557,6 @@
 
 ## [Exchange 및 Sharepoint와의 통합](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
-#     
-#     
-
 <!-- ============================================================ -->
 
 # Microsoft 365 Business Voice
@@ -595,17 +589,11 @@
 
 ## [파트너 리소스](business-voice/partner-resources.md)
 
-#        
-#        
-
 <!-- ============================================================ -->
-
 
 # 산업 및 정부 지침
 ## [개요](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Teams 서식 파일 시작](get-started-with-teams-templates.md)
-## [일선 직원용 빠른 시작](firstline-workers-quickstart.yml)
-## [Microsoft Teams용 RealWear](flw-realwear.md)
 ## [Teams의 교대 근무](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub 사용 중지 예정](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Microsoft StaffHub PowerShell 모듈 설치](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -640,6 +628,12 @@
 ### [Moodle 통합 설치](install-moodle-integration.md)
 ### [교육 SKU 참조](sku-reference-edu.md)
 
+## 일선 직원용 Teams
+### [일선 직원용 빠른 시작](firstline-workers-quickstart.yml)
+### [일선 직원 스크립팅된 배포](flw-scripted-deployment.md)
+### [Microsoft Teams용 RealWear](flw-realwear.md)
+### [SPO 사이트 또는 페이지에서 Teams 인트라넷 포털 앱 만들기](teams-standalone-static-tabs-using-spo-sites.md)
+
 ## [소매용 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [소매 Teams 서식 파일 시작](get-started-with-retail-teams-templates.md)
 
@@ -665,6 +659,7 @@
 ### [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
 #### [콘텐츠에 대한 eDiscovery 조사 수행](ediscovery-investigation.md)
+#### [Teams의 데이터 위치](location-of-data-in-teams.md)
 #### [Teams 사용자 또는 팀을 법률 보존 상태로 배치](legal-hold.md)
 ### 콘텐츠 검색
 #### [콘텐츠 검색 사용](content-search.md)
@@ -697,8 +692,7 @@
 ## [Teams의 지원 리소스](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
-#       
-#    
+  
 # 참조
 
 ## [Teams의 제한과 사양](limits-specifications-teams.md)
