@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 ms.topic: hub-page
-title: Microsoft Teams 사용자를 위한 강사 진행 교육 및 비디오
+title: 사용자를 위한 강사 진행 교육 및 비디오
 ms.reviewer: dearbeen
 manager: serdars
 description: 강사 진행 수업에 등록하여 Microsoft Teams에 관한 모든 것을 알아보세요.
@@ -12,17 +12,19 @@ ms.author: lolaj
 ms.service: msteams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+ms.custom:
+- ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
-ms.openlocfilehash: 979dea70287f82b34ef6cb0f38ec31fa58610d3d
-ms.sourcegitcommit: ce6b6b57eb9683649f589b747163110bf42ae420
+ms.openlocfilehash: 43d7c47379c6645ca25da4974e0b08f0e4444faa
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43062677"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137128"
 ---
 <div id="main" class="v2">
     <div class="container">

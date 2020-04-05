@@ -1,5 +1,5 @@
 ---
-title: Teams에서 수명 주기 관리 계획 - Microsoft Teams
+title: 수명 주기 관리 계획
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 783ae4f1c293a51b5f9838d4ffa3039731c0c867
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ce58f292fd732c498880936c01d3e1b1343d2aa6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837358"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137828"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams에서 수명 주기 관리 계획
 
@@ -196,7 +197,7 @@ Teams는 다음과 같은 다양한 방법으로 시작할 수 있습니다.
 
 팀의 작업 과정이 모두 실행되었으면 작업이 종료되었음을 공식적으로 승인하는 것이 중요합니다. 그러면 팀 구성원은 종료를 인식하고, 다른 사용자가 오래된 부실 정보에 액세스하지 못하도록 차단할 수 있습니다. 팀만을 사용하여 사후 분석과 개요서와 같은 종료 절차를 수행할 수 있습니다.
 
-필요 없는 팀(예: 테스트전용으로 만든 팀 또는 중요한 데이터가 포함된 팀)을 삭제할 수 있습니다. IT에서 최대 21일(Office 365 그룹의 경우 30일) 동안 복구할 수 있는 "일시 삭제"를 사용하여 팀을 정말로 삭제할 수 있습니다. 팀 삭제는 준수 정책에 따라 유지되는 채팅 또는 콘텐츠에 영향을 주지 않습니다. 채널에는 "일시 삭제"가 있으며 삭제 후 최대 21일 동안 복구할 수 있습니다.
+필요 없는 팀(예: 테스트 전용으로 만든 팀 또는 중요한 데이터가 포함된 팀)을 삭제할 수 있습니다. IT에서 최대 21일(Office 365 그룹의 경우 30일) 동안 복구할 수 있는 "일시 삭제"를 사용하여 팀을 정말로 삭제할 수 있습니다. 팀 삭제는 준수 정책에 따라 유지되는 채팅 또는 콘텐츠에 영향을 주지 않습니다. 채널에는 "일시 삭제"가 있으며 삭제 후 최대 21일 동안 복구할 수 있습니다.
 
 보관 기능 외에도 만료 및 보존 정책을 사용하여 더 이상 활동하지 않거나 소유자가 조직을 떠난 팀의 노출을 줄일 수 있습니다.
 

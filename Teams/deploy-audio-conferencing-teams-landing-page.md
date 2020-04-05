@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에서의 오디오 회의
+title: 오디오 회의 설정 구성 - Microsoft Teams
 ms.reviewer: ''
 description: 다음의 배포 리소스를 사용하여 Microsoft Teams에서의 모임 작업의 일부로 오디오 회의를 출시하는 데 도움을 줄 수 있습니다.
 ms.topic: article
@@ -12,20 +12,21 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78c4443352bffa02dc5bdeef6297ede6bed01e64
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f57753947221068a21edd282ba0667efc4182690
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826746"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137328"
 ---
-# <a name="audio-conferencing-in-microsoft-teams"></a>Microsoft Teams에서의 오디오 회의
+# <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의를 배포하는 방법 알아보기
 
 오디오 회의는 일반 휴대폰에서 Teams 모임에 참가하고 모임에서 전화 번호로 전화를 걸 수 있는 기능입니다. 조직에서 오디오 회의를 출시하는 과정의 일부로서 [모임의 출시](deploy-meetings-microsoft-teams-landing-page.md)를 검토했는지 확인합니다.
 

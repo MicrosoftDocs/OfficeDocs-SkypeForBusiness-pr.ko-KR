@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 상용 클라우드 평가판 관리
+title: 상용 클라우드 평가판 관리
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb4a42ebe8772eebe5e5ebd130a68dd4bba714b3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836598"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137158"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams 상용 클라우드 평가판 관리
 =======================================================
@@ -70,7 +71,7 @@ Teams를 포함하는 Office 365 라이선스가 없는 사용자는 Microsoft T
 
 조직 내의 모든 평가판은 시작일과 종료일이 동일하고 이는 첫 번째 사용자가 평가판에 등록한 날짜입니다. 예를 들어 사용자 A가 2019년 1월 25일에 최초 평가판을 시작하고 사용자 B가 2019년 6월 3일에 평가판을 시작하는 경우 두 사용자의 평가판은 모두 2020년 1월 25일에 만료됩니다.
 
-## <a name="manage-the-trial"></a>평가판 관리
+## <a name="manage-the-trial"></a><a name="manage-the-trial"></a>평가판 관리
 
 Teams 평가판은 개별 최종 사용자가 시작하고 최종 사용자 직원을 대신해 Teams 평가판을 시작할 수 없습니다.
 
