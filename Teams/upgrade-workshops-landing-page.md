@@ -8,7 +8,6 @@ author: LolaJacobsen
 ms.author: lolaj
 audience: admin
 manager: serdars
-ms.date: 03/19/2019
 ms.service: msteams
 f1.keywords:
 - NOCSH
@@ -19,17 +18,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 756ff8d15ec58426b73504fcb240068151eabcd7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c272ce29a73b66af2eee03a04469a90b1e34bf64
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205414"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141041"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Teams 업그레이드 계획 워크숍</h1>
            <p>비즈니스용 Skype의 소중한 고객으로서 Teams로의 여정을 탐색하는 데 필요한 정보를 확인할 수 있습니다. Teams에 대한 업그레이드를 계획하고 구현하는 데 도움을 주기 위해 설계된 지침, 모범 사례 및 리소스를 공유하는 실시간 대화형 업그레이드 계획 워크숍 시리즈에 참여하세요. 최적의 환경을 위해 아래의 <strong>업그레이드 계획</strong> 세션을 사용하여 시작하세요.
+           <p>사용자가 원하는 시간에 이 워크숍을 보려면 YouTube에서 <a href="https://aka.ms/UpgradeOnDemand"target="_blank">Teams 업그레이드 계획</a>을 참조하세요.
             <p>Teams를 처음 사용하시나요? <a href="https://docs.microsoft.com/microsoftteams/teams-overview">여기</a>에서 자세히 알아보세요.
         <ul class="pivots">
             <li>
