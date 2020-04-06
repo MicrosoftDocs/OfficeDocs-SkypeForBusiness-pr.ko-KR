@@ -1,5 +1,5 @@
 ---
-title: 최신 인증을 사용하여 Microsoft Teams에 로그인
+title: 최신 인증을 사용하여 Teams에 로그인
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 최신 인증을 사용하여 Microsoft Teams에 로그인하는 방법 로그인할 때 UPN 사용자 이름 추가를 자동으로 건너뛰는 방법을 포함합니다.
+description: 최신 인증을 사용하여 Microsoft Teams에 로그인하는 방법 사용자가 Windows에 UPN을 무시하도록 지시하는 설정을 사용하여 로그인할 때 UPN 사용자 이름 추가를 자동으로 건너뛰는 방법이 포함되어 있습니다.
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -16,12 +16,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c541371b78bcd9119abe7a11523d0d2f7b5eda7c
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5e61b1cb79b7c4e2989d823af2c6617337291cf6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978370"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138897"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>최신 인증을 사용하여 Microsoft Teams에 로그인
 ==========================
@@ -40,14 +41,14 @@ Microsoft Teams는 최신 인증을 사용하여 로그인 환경을 간편하�
 
 - 사용자가 도메인에 가입된 컴퓨터에 로그인한 경우 Teams를 시작할 때 조직에서 MFA 필요 여부 또는 컴퓨터에서 이미 MFA에 로그인해야 하는지 여부에 따라 인증 단계를 한 번 더 수행하라는 메시지가 표시될 수 있습니다. 컴퓨터에서 이미 MFA에 로그인해야 하는 경우 Teams를 열면 앱이 자동으로 시작됩니다.
 
-- 사용자가 도메인에 가입된 컴퓨터에 로그인하고 사용자 이름이 Teams 로그인 화면에 미리 채워지지 않도록 하려면 관리자가 다음 Windows 레지스트리를 설정하여 UPN(사용자 이름의 사전 채우기)를 해제할 수 있습니다.
+- **사용자가 도메인에 가입된 컴퓨터에 로그인하고 사용자 이름이 Teams 로그인 화면**에 미리 채워지지 않도록 하려면 관리자가 다음 Windows 레지스트리를 설정하여 UPN(사용자 이름의 사전 채우기)를 해제할 수 있습니다.
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
 
     > [!NOTE]
-    > ".local" 또는 ".corp"로 끝나는 사용자 이름에 대한 사용자 이름 미리 채우기를 건너 뛰는 것이 기본적으로 설정되어 있으므로 이를 끄려고 레지스트리 키를 설정하지 않아도 됩니다. 
+    > ".local" 또는 ".corp"로 끝나는 사용자 이름에 대한 사용자 이름 미리 채우기를 건너뛰거나 무시하는 것이 기본적으로 설정되어 있으므로 이를 끄려고 레지스트리 키를 설정하지 않아도 됩니다. 
 
 
 ### <a name="mac-users"></a>Mac 사용자 
