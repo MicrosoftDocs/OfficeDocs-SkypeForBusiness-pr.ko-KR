@@ -19,14 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c6ce90a3ee92703b697a9fdb5dcfec3206193b4
-ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
+ms.openlocfilehash: 5a86a28cd5f7373edbd6d195fea7f857aef1ee29
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113211"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131216"
 ---
-# <a name="security-and-microsoft-teams"></a>보안 및 Microsoft Teams
+> [!IMPORTANT]
+> Teams 서비스는 고객 경험 개선을 위해 변경될 수 있습니다. 예를 들어, 기본 액세스 또는 새로 고침 토큰 만료 시간은 Teams를 사용하는 성능 및 인증 복원을 향상시키기 위해 수정될 수 있습니다. 그러한 변경 사항은 원칙적으로 Teams를 안전하고 신뢰할 수 있는 상태로 유지하는 것을 목표로 수행됩니다.
+
+ # <a name="security-and-microsoft-teams"></a>보안 및 Microsoft Teams
 
 Microsoft 365(M365) 서비스의 일부인 Microsoft Teams는 심층 방어를 통한 서비스 수준 보안, 서비스 내의 고객 컨트롤, 보안 강화 및 운영 모범 사례 같은 모든 보안 모범 사례 및 절차를 준수합니다. 자세한 내용은 [Microsoft 보안 센터](https://microsoft.com/trustcenter)를 참조하세요.
 
@@ -149,7 +152,7 @@ Teams는 TURN을 통한 미디어 릴레이로의 보안되는 액세스를 위�
 
 #### <a name="fips"></a>FIPS
 
-Teams는 암호화 키 교환을 위해 FIPS(Federal Information Processing Standard) 호환 알고리즘을 사용합니다.
+Teams는 암호화 키 교환을 위해 FIPS(Federal Information Processing Standard) 호환 알고리즘을 사용합니다. FIPS 구현에 대한 자세한 내용은 [FIPS (연방 정보 처리 표준) 게시물 140-2](https://docs.microsoft.com/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide)를 참조하세요.
 
 ### <a name="user-and-client-authentication"></a>사용자 및 클라이언트 인증
 
@@ -289,12 +292,12 @@ Teams에서 익명 사용자는 대기실이라는 대기 공간으로 보내질
 
 ## <a name="related-topics"></a>관련 항목
 
-[보안 팀이 재택 근무를 지원하는 상위 12가지 작업](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?view=o365-worldwide)
+[보안 팀이 재택 근무를 지원하는 상위 12가지 작업](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
 
 [Microsoft 보안 센터](https://microsoft.com/trustcenter)
 
 [Microsoft Teams에서의 모임 설정 관리](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[VPN 분할 터널링을 사용하여 원격 사용자에게 맞도록 Office 365 연결 최적화](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel?branch=vpn-split-tunnel)
+[VPN 분할 터널링을 사용하여 원격 사용자를 위해 Office 365 연결 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Office 365 VPN 분할 터널링 구현](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-implement-split-tunnel?branch=vpn-split-tunnel)
+- [Office 365 VPN 분할 터널링 구현](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
