@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: lolaj
-description: 조직 전반에 걸쳐 광범위하게 배포하기 전에 Teams를 사용하여 환경을 구축할 수 있도록 첫 번째 팀 및 채널을 배포하여 Microsoft Teams를 시작하세요.
+description: 조직 전반에 걸쳐 배포하기 전에 Teams를 사용하여 환경을 구축할 수 있도록 첫 번째 팀 및 채널을 배포하여 Teams를 시작하세요.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62db123cbc7a038ee001367209df2efbad202d96
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 72c6c4c959350c8320c908b4e9f4a9c649eb8d7b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928461"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136778"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams 시작하기
 

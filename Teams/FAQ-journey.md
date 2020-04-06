@@ -1,5 +1,5 @@
 ---
-title: FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
+title: 비즈니스용 Skype에서 Teams로 업그레이드 FAQ
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2b051efa327a014bc719753e7aecae81f78e0f4
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 44544e440d9f6cdfff08ae66ed7f425abf69fb4d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160385"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136538"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
 
@@ -54,7 +56,7 @@ Microsoft Teams는 조직에서 더 빠르게 이동하고 더욱 효율적으�
 
 ### <a name="what-does-this-mean-for-existing-office-365-customers"></a>이는 기존의 Office 365 고객에게는 어떠한 의미인가요?
 
-당사는 새로운 음성, 동영상 및 모임의 혁신과 함께 Teams에 비즈니스용 Skype Online의 핵심 세트를 제공했습니다. 당사는 모든 Office 365 고객이 비즈니스용 Skype와 독립적으로 또는 함께 Teams를 바로 사용할 것을 권장합니다.
+새로운 음성, 동영상 및 모임의 혁신과 함께 Teams에 비즈니스용 Skype Online의 핵심 세트를 도입했습니다. 당사는 모든 Office 365 고객이 비즈니스용 Skype와 독립적으로 또는 함께 Teams를 바로 사용할 것을 권장합니다.
 
 ### <a name="will-you-continue-to-invest-in-improving-skype-for-business-online"></a>비즈니스용 Skype Online을 개선하는 데 계속해서 투자할 것인가요?
 
@@ -68,7 +70,7 @@ Microsoft Teams는 조직에서 더 빠르게 이동하고 더욱 효율적으�
 
 ### <a name="what-support-do-you-offer-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>Teams로 이동하려는 고객에게는 어떤 지원을 제공하나요(특히 비즈니스용 Skype Online에 상당한 투자를 한 사용자)? 
 
-모든 비즈니스용 Skype 고객이 Teams의 배포 및 업그레이드를 계획하기시작할 것을 권장합니다. 당사는 프로세스를 제어 및 관리하기 위한 도구와 지침을 통해서 사용자를 Teams로 이동하고자 하는 고객을 지원할 것입니다. 규범적인 지침은 [https://aka.ms/SkypetoTeams](https://aka.ms/SkypetoTeams)에 있습니다.  당사는 전문화된 최초의 실행 환경 및 제품내의 코치 마크를 통해 Teams에 익숙하지 않은 사용자들의 전환을 쉽게 도와드릴 것입니다. FastTrack, [강사 주도 교육](https://aka.ms/TeamsLiveTraining), 고객 지원 및 파트너가 전환 과정에 걸쳐 고객을 인도하는 데 도움을 줄 수 있도록 준비되어 있습니다. 또한 Microsoft는 업그레이드를 계획하는 데 도움이 되고자 [업그레이드 워크숍](https://aka.ms/SkypeToTeamsPlanning)을 주최하고 있습니다.
+모든 비즈니스용 Skype 고객이 Teams의 배포 및 업그레이드를 계획하기시작할 것을 권장합니다. 프로세스를 제어 및 관리하기 위한 도구와 지침을 통해서 사용자를 Teams로 이동하고자 하는 고객을 지원할 것입니다. 규범적인 지침은 [https://aka.ms/SkypetoTeams](https://aka.ms/SkypetoTeams)에 있습니다.  전문화된 최초의 실행 환경 및 제품내의 코치 마크를 통해 Teams에 익숙하지 않은 사용자들의 전환을 쉽게 도와드릴 것입니다. FastTrack, [강사 주도 교육](https://aka.ms/TeamsLiveTraining), 고객 지원 및 파트너가 전환 과정에 걸쳐 고객을 인도하는 데 도움을 줄 수 있도록 준비되어 있습니다. 또한 Microsoft는 업그레이드를 계획하는 데 도움이 되고자 [업그레이드 워크숍](https://aka.ms/SkypeToTeamsPlanning)을 주최하고 있습니다.
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>이는 라이센싱의 관점에서 무엇을 의미하나요? 고객은 Teams에서 지능형 커뮤니케이션 서비스에 대해 요금을 어떻게 지불하나요?
 
@@ -76,7 +78,7 @@ Teams는 Office 365 제품군에서 사용할 수 있습니다. 현재 비즈니
 
 ### <a name="is-microsoft-planning-scheduled-upgrades"></a>Microsoft는 예정된 업그레이드를 계획하고 있나요?
 
-현재는 엔터프라이즈 고객을 위한 예정된 업그레이드 계획은 없습니다. 고객은 비즈니스용 Skype Online의 만료 날짜인 2021년 7월 31일 이전에 조직에 적합하도록 Teams로 이동하도록 선택할 수 있습니다. 당사는 관리자와 사용자에게 도구와 지침서를 제공하여 Teams로의 전환에 도움을 줄 것입니다.
+현재는 엔터프라이즈 고객을 위한 예정된 업그레이드 계획은 없습니다. 고객은 비즈니스용 Skype Online의 만료 날짜인 2021년 7월 31일 이전에 조직에 적합하도록 Teams로 이동하도록 선택할 수 있습니다. 관리자와 사용자에게 도구와 지침서를 제공하여 Teams로의 전환에 도움을 줄 것입니다.
 
 전용 IT 리소스를 보유하고 있지 않은 소규모 사업장 고객을 지원하기 위해 Microsoft는 비즈니스용 Skype Online에서 Teams로의 자동화된 업그레이드를 지원하고 있습니다. 자격을 갖춘 고객은 이메일 및 메시지 센터 알림을 통해 업그레이드에 대한 알림을 받습니다. 추가 세부 정보는 통신을 통해 제공됩니다. 자세한 내용은 [비즈니스용 Skype Online에서 Microsoft Teams로의 자동화된 업그레이드](upgrade-automated.md)를 참조하세요.
 
@@ -94,7 +96,7 @@ Teams는 Office 365 제품군에서 사용할 수 있습니다. 현재 비즈니
 
 ### <a name="how-long-will-it-take-to-upgrade-my-organization-to-teams"></a>조직을 Teams로 업그레이드하는 데 시간이 얼마나 걸리나요?
 
-조직에서 비즈니스용 Skype에서 Teams로의 이동동 과정은 사용자가 정의할 수 있습니다. 계획을 수립하고 실행하는 데 도움을 주기 위해 당사는 사용자가 변경 내용의 기술적 요소와 조직적 요소를 탐색하는 데 도움이 되도록 설계된 입증된 구조를 기반으로 하는 종합 업그레이드 지침을 개발했습니다 당사의 [업그레이드 성공 구조](upgrade-framework.md) 및 비즈니스용 Skype에서 Teams로의 이동 과정을 탐색하는 데 초석의 역할을 하는 관련 리소스를 숙지하면서 시작하세요.
+조직에서 비즈니스용 Skype에서 Teams로의 이동동 과정은 사용자가 정의할 수 있습니다. 계획을 수립하고 실행하는 데 도움을 주기 위해 사용자가 변경 내용의 기술적 요소와 조직적 요소를 탐색하는 데 도움이 되도록 설계된 입증된 구조를 기반으로 하는 종합 업그레이드 지침을 개발했습니다 당사의 [업그레이드 성공 구조](upgrade-framework.md) 및 비즈니스용 Skype에서 Teams로의 이동 과정을 탐색하는 데 초석의 역할을 하는 관련 리소스를 숙지하면서 시작하세요.
 
 ### <a name="is-there-a-recommended-upgrade-path-for-skype-for-business-online"></a>비즈니스용 Skype Online에 권장되는 업그레이드 경로가 있나요?
 

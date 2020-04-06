@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business Voice를 사용하려면 무엇을 구입해야 하나요?
+title: 통화 플랜이 포함된 Microsoft 365 Business Voice를 사용하려면 무엇을 구입해야 하나요?
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -24,12 +24,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 0e0d483a3655753527b42a44e51aab68c08eaa95
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 13c2e6dcb2f3f26fc016a96d9acabba4029d91ae
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824576"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096833"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>Microsoft 365 Business Voice를 사용하려면 무엇을 구입해야 하나요?
 
@@ -41,13 +41,26 @@ Microsoft Teams에서 *외부* 전화번호로 전화를 걸거나 받으려면 
 
 예를 들어 10명의 공장 직원과 5명의 사무실 직원이 있습니다. 공장 직원은 회사 내 다른 직원에게만 전화하면 됩니다. 사무실 직원은 다른 직원에게 전화하는 것 외에도 공급 업체, 파트너, 고객과도 전화를 걸고 받아야 합니다. 이 경우에는 5명의 사무실 직원에게만 Microsoft 365 Business Voice 라이선스가 필요합니다.
 
-Business Voice에는 국내 통화 플랜이 포함되어 있으며, 이를 사용하여 매월 일정 시간 국가 내 또는 지역 내에서 전화를 걸 수 있습니다. 다른 국가나 지역으로 전화를 걸려면 국제 통화 플랜을 구입할 수 있습니다. *통신 크레딧*으로 국제 통화 플랜, 국내 통화 플랜 월 추가 시간, 무료 전화 번호의 결제를 할 수 있습니다. 이 문서의 뒷부분에서 통화 플랜 및 통신 크레딧에 관한 자세한 내용을 볼 수 있습니다.
+### <a name="business-voice-license-types"></a>Business Voice 라이선스 유형
+
+Business Voice 라이선스에는 통화 플랜이 **있는** Business Voice와 통화 플랜이 **없는** Business Voice의 두 가지 유형이 있습니다. 사용할 수 있는 Business Voice 라이선스의 유형은 Microsoft 365 테넌트의 위치에 따라 다릅니다. 라이선스 유형에 따라 Microsoft 파트너 또는 리셀러의 도움이 필요한 경우 전화 번호를 관리하는 등 비즈니스 음성을 직접 설정할 수 있는지 여부가 결정됩니다.
+
+- **통화 플랜이 있는 Business Voice** Microsoft에서 Business Voice를 구입하고 시작 마법사를 사용하여 Business Voice를 설정한 다음 기존 전화번호를 설정하거나 Microsoft로 전송할 수 있습니다. [시작하기 마법사를 사용하여 Business Voice 설정](use-getting-started-wizard.md) 문서에서는 테넌트에 대한 Business Voice를 설정하는 방법을 보여줍니다.
+
+  [통화 플랜이 있는 Business Voice](#business-voice-with-calling-plan) 구입에 대한 자세한 내용은 이 문서의 뒷부분에 나오는 통화 요금제가 있는 Business Voice를 참조하세요.
+- **통화 플랜이 없는 Business Voice** Business Voice 설정을 도와 줄 Microsoft 파트너 또는 리셀러로부터 Business Voice를 구입해야 합니다. 기존 전화번호는 현재 타사 전화 제공업체에 남아 있습니다. [Microsoft 리셀러 또는 파트너의 도움 받기](reseller-partner-support.md) 문서는 테넌트에서 Business Voice를 설정하는 데 필요한 프로세스에 대한 개요를 제공합니다.
+
+해당 국가 또는 지역에서 통화 플랜을 지원하는지 확인하려면 [Business Voice의 국가 및 지역 가용성](country-region-availability.md)을 확인하세요.
 
 Business Voice 기능에 대한 자세한 내용은 [Microsoft 365 Business Voice 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description)을 참조하세요.
 
-Microsoft 365 Business Voice 라이선스를 구입하려면 [관리 센터](https://admin.microsoft.com/Adminportal/Home#/homepage)에 로그인하고 **청구** > **서비스 구입**으로 이동합니다.
+## <a name="business-voice-with-calling-plan"></a>통화 플랜이 있는 Business Voice
 
-## <a name="calling-plans"></a>통화 플랜
+통화 플랜이 있는 Business Voice에는 국내 통화 플랜이 포함되어 있으며, 이를 사용하여 매월 일정 시간 국가 내 또는 지역 내에서 전화를 걸 수 있습니다. 다른 국가나 지역으로 전화를 걸려면 국제 통화 플랜을 구입할 수 있습니다. *통신 크레딧*으로 국제 통화 플랜, 국내 통화 플랜 월 추가 시간, 무료 전화 번호의 결제를 할 수 있습니다. 이 문서의 뒷부분에서 통화 플랜 및 통신 크레딧에 관한 자세한 내용을 볼 수 있습니다.
+
+통화 플랜이 있는 Microsoft 365 Business Voice 라이선스를 구입하려면 [관리 센터](https://admin.microsoft.com/Adminportal/Home#/homepage)에 로그인하고 **청구** > **서비스 구입**으로 이동합니다.
+
+### <a name="calling-plans"></a>통화 플랜
 
 통화 플랜을 사용하면 사용자가 조직 외부의 전화번호와 통화할 수 있습니다. 통화 플랜에는 해당 국가나 지역에서 사용자에게 할당된 Business Voice 라이선스 수에 기반하여 통화할 수 있는 시간(분)인 월간 풀이 제공됩니다. 사용자가 전화를 걸면 해당 통화에 사용된 시간(분)이 월간 풀에서 차감됩니다. 매월 초에 풀에서 남은 시간이 초기화됩니다.
 
@@ -60,24 +73,27 @@ Microsoft 365 Business Voice 라이선스를 구입하려면 [관리 센터](htt
 
 통화 플랜에는 다음 두 가지 유형이 있습니다.
 
-### <a name="domestic-calling-plan"></a>국내 통화 플랜
+#### <a name="domestic-calling-plan"></a>국내 통화 플랜
 
-국내 통화 플랜을 사용하면 해당 국가나 지역의 전화번호에게 전화를 걸 수 있습니다. Business Voice는 Business Voice 라이선스가 할당된 각 사용자의 국내 통화 플랜을 포함합니다. 매월 각 사용자가 사용 가능한 시간(분)은 사용자가 어느 국가 또는 지역에 있는지에 따라 달라집니다. 이 표에는 Business Voice가 지원되는 각 국가 또는 지역에서 제공되는 시간(분)이 나와 있습니다.
+국내 통화 플랜을 사용하면 해당 국가나 지역의 전화번호에게 전화를 걸 수 있습니다. Business Voice는 Business Voice 라이선스가 할당된 각 사용자의 국내 통화 플랜을 포함합니다. 매월 각 사용자가 사용 가능한 시간(분)은 사용자가 어느 국가 또는 지역에 있는지에 따라 달라집니다. 이 표에는 Business Voice에 통화 플랜이 포함된 각 국가 또는 지역의 시간(분)이 표시됩니다.
 
-|사용자의 위치          |국내 통화 월별 시간(분) |
-|-----------------------------------|-------------------------------------|
+|사용자의 위치          |국내 통화 월별 시간(분)  |
+|-----------------------------------|--------------------------------------|
 |캐나다                             | 3,000                                |
 |영국                     | 1,200                                |
+|미국                      | 3,000                                |
+
+위 표에 나열되지 않은 국가 또는 지역에서는 통화 플랜이 Business Voice에 포함되어 있지 않습니다. Business Voice를 사용할 수 있는 모든 국가 및 지역의 목록은 [Business Voice 가용성](country-region-availability.md)을 참조하세요.
 
 미국과 캐나다 사이의 통화는 국내 통화로 간주됩니다. 이 두 국가 사이에서 전화를 걸기 위해 국제 통화 플랜을 추가할 필요가 없습니다.
 
-### <a name="international-calling-plan"></a>국제 통화 플랜
+#### <a name="international-calling-plan"></a>국제 통화 플랜
 
 국제 통화 플랜를 사용하면 국가 또는 지역 외부의 전화번호에게 전화를 걸 수 있습니다. 국제 통화 플랜은 추가 기능으로 구입합니다.
 
 사용자를 위해 국제 통화 플랜을 구입할지 여부를 고려할 때 국제 전화를 거는 빈도와 통화 시간을 확인합니다. 국제 통화 플랜을 구입하면 통화 시간(분)을 선불로 결제하게 되므로 이것은 중요합니다. 해당 월의 시간을 모두 사용하지 않은 경우 남은 시간은 다음 달 초에 사라집니다. 사용자가 국제 통화 플랜에서 모든 시간을 다 쓰지 않을 가능성이 있는 경우 구매하지 마세요. 대신 통신 크레딧을 사용하세요(다음 섹션 참조).
 
-## <a name="communications-credits"></a>통신 크레딧
+### <a name="communications-credits"></a>통신 크레딧
 
 통신 크레딧은 사용자가 속한 전화 시스템 밖의 전화번호와 통화할 때 지불을 위해 사용되는 디지털 지갑과 비슷합니다. 통신 크레딧은 다음과 같은 몇 가지 경우에 사용됩니다.
 
@@ -87,7 +103,7 @@ Microsoft 365 Business Voice 라이선스를 구입하려면 [관리 센터](htt
 
 월말에도 통신 크레딧이 남아 있으면 다음 달로 이월됩니다.
 
-### <a name="buy-communication-credits"></a>통신 크레딧 구입
+#### <a name="buy-communication-credits"></a>통신 크레딧 구입
 
 사용자가 언제든지 전화를 걸 수 있도록 최소한의 통신 크레딧 잔고를 항상 보유하는 것이 좋습니다. 항상 사용 가능한 잔고를 유지하는 가장 쉬운 방법은 자동 충전을 설정하는 것입니다. 자동 충전을 통해 Microsoft 365는 잔고가 최소 금액 이하로 떨어지면 자동으로 충전합니다. 최소 금액과 매번 구입할 금액을 선택할 수 있습니다. 통신 크레딧 잔고를 직접 보충할 수도 있습니다.
 
@@ -97,7 +113,3 @@ Microsoft 365 Business Voice 라이선스를 구입하려면 [관리 센터](htt
 통신 크레딧에 대한 자세한 내용은 [통신 크레딧이 무엇인가요?](../what-are-communications-credits.md)를 참조하세요.
 
 무료 전화 및 국제 통화 요금을 보려면 아래로 스크롤하여 [클라우드 기반 전화 시스템](https://products.office.com/microsoft-teams/voice-calling#ow-download-rates)에서 통신 크레딧으로 시간 추가하기를 참조하세요.
-
-## <a name="maximum-number-of-supported-users"></a>지원되는 최대 사용자 수
-
-중소 규모의 Microsoft 365 구독으로 이용할 수 있는 Business Voice 라이선스는 최대 300명에게 라이선스를 할당할 수 있습니다. 300명 이상의 사용자에게 Business Voice 라이선스를 할당하려면 Office 365 E3 또는 E5 구독을 구입해야 합니다.

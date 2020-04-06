@@ -17,12 +17,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f954e9dff86b8c660d416a1aed8031912207ea4f
-ms.sourcegitcommit: ce6b6b57eb9683649f589b747163110bf42ae420
+ms.openlocfilehash: 8ea77e0c672ffd15adcb5bc63aa77bd45d4b3604
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43062674"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117515"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -45,7 +45,7 @@ ms.locfileid: "43062674"
 
 - **공지 사항 전자 메일**을 사용하여 Teams가 사용 가능하다는 것을 사용자에게 알립니다.
 
-- 사용자가 빠르게 생산성을 유지할 수 있도록 **Teams 첫 번째 날 전자 메일**을 보내세요.
+- 사용자가 빠르게 생산성을 유지할 수 있도록 **카운트다운 - Teams 첫 번째 날 전자 메일**을 보내세요.
 
 - 며칠 후에는 사용자가 Teams를 최대한 활용하는 데 도움이 되는 **팁과 트릭 전자 메일**을 보내세요.
 
@@ -69,9 +69,9 @@ ms.locfileid: "43062674"
 1. 최근 블로그 게시물 읽기:
    
    - [Microsoft가 직원들이 Microsoft Teams를 사용해 원격으로 근무 가능하도록 지원하는 방법](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)을 참조하세요.
-   - [중소 기업이 Teams와 원격으로 작업할 수 있도록 지원](https://www.microsoft.com/ko-KR/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+   - [중소 기업이 Teams와 원격으로 작업할 수 있도록 지원](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Microsoft IT가 직원들의 원격 작업을 가능하게하는 9가지 방법](https://www.microsoft.com/ko-KR/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Microsoft IT가 직원들의 원격 작업을 가능하게하는 9가지 방법](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. 교육용 Teams
@@ -93,6 +93,21 @@ ms.locfileid: "43062674"
 
    - 통화 또는 모임 품질 문제를 해결하는 데 도움이 필요한 경우에는 이 문서의 맨 아래에 있는 [알려진 문제 - 중국: 비즈니스용 Skype/Teams 회의에 전화 걸기](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)에 관한 지침을 따르세요.
 
+1. 모두가 집에서 일할 때의 보안
+
+   - [집에서 더 안전한 작업을 위한 주요 팁](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+   - Microsoft Security 블로그(2020년 3월 26일): [보안 전문가와 IT가 오늘날의 고유한 원격 작업 시나리오에서 최신 보안 제어를 달성할 수 있는 다른 방법](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
+
+   - [ 원격으로 작업하면서 보안 유지 —CISO 지침](https://www.microsoft.com/security/blog/?p=90736)
+
+   - [보안 팀이 재택 근무를 지원하는 상위 12가지 작업](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   
+   - [VPN 분할 터널링을 사용하여 원격 사용자에게 맞도록 Office 365 연결 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+
+   - [보안 및 Teams](teams-security-guide.md)에서는 Microsoft 365의 엔터프라이즈급 보안 모범 사례 및 절차의 일부로 Teams 보안의 모든 기술 세부 정보가 제공됩니다.
+
+
 2.  직원들이 Teams를 최대한 활용할 수 있도록 [교육 링크를 보내세요](enduser-training.md).
 
 3. 세부 정보: Teams 배포에 대해 자세히 알아보기
@@ -104,21 +119,6 @@ ms.locfileid: "43062674"
    - 자세한 정보를 알고 싶어하는 사용자와 [자세한 교육용 비디오](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)를 공유합니다.
 
    - [Teams를 배포하는 방법](How-to-roll-out-teams.md)을 읽어 Teams 준비 방법 및 관리 방법을 알아보세요.
-
-1. 모두가 집에서 일할 때의 보안
-
-   - [집에서 더 안전한 작업을 위한 주요 팁](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
-
-   - Microsoft Security 블로그(2020년 3월 26일): [보안 전문가와 IT가 오늘날의 고유한 원격 작업 시나리오에서 최신 보안 제어를 달성할 수 있는 다른 방법](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
-
-   - [ 원격으로 작업하면서 보안 유지 —CISO 지침](https://www.microsoft.com/security/blog/?p=90736)
-
-   - [보안 팀이 재택 근무를 지원하는 상위 12가지 작업](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
-   
-   - [VPN 분할 터널링을 사용하여 원격 사용자를 위해 Office 365 연결 최적화](https://docs.microsoft.com/ko-KR/Office365/Enterprise/office-365-vpn-split-tunnel)
-
-   - [보안 및 Teams](teams-security-guide.md)에서는 Microsoft 365의 엔터프라이즈급 보안 모범 사례 및 절차의 일부로 Teams 보안의 모든 기술 세부 정보가 제공됩니다.
-
 
     
 3. 원격 작업에 대한 새로운 내용을 읽고 사용자와 공유하세요.

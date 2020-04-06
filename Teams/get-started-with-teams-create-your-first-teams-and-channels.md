@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에서 첫 번째 팀과 채널 만들기
+title: 첫 번째 팀과 채널 만들기
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d84d4afaabdcfd5f8b548eb938d5aa9757d4c038
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 79fc1bc2a415ae59cd581f7fdde11be8972311a2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796041"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136798"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams에서 첫 번째 팀과 채널 만들기
 
