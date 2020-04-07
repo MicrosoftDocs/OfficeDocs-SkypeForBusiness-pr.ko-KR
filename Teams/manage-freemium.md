@@ -3,7 +3,6 @@ title: 무료 버전의 Microsoft 팀 관리
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/12/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -19,21 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 046a1e0a728b0b92a90c00ee51b1130708aa3cfb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 247f2b855e3dfc66c3b5b2ef874962bdb2631736
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837538"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170576"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>무료 버전의 Microsoft 팀 관리
 ==========================================
 
-무료 버전의 Microsoft 팀에서 조직에 등록 하는 첫 번째 사용자는 제한 된 관리자 역할을 갖습니다. 이 제한 된 역할을 가진 사용자는 팀 구성원을 추가 및 제거 하 고 다른 사람이 추가 구성원을 초대할 수 있는지 여부를 지정할 수 있지만,이 사용자에 게는 고급 관리 기능이 없으며 Microsoft 팀 관리 센터에 대 한 액세스 권한이 없습니다. 
+무료 버전의 Microsoft 팀에서 조직에 등록 하는 첫 번째 사용자는 제한 된 관리자 역할을 갖습니다. 이 제한 된 역할을 가진 사용자는 팀 구성원을 추가 및 제거 하 고 다른 사람이 추가 구성원을 초대할 수 있는지 여부를 지정할 수 있지만,이 사용자에 게는 고급 관리 기능이 없으며 Microsoft 팀 관리 센터에 대 한 액세스 권한이 없습니다. 자세한 내용은 [팀에 사용자 초대 (무료)](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)를 참조 하세요.
 
 향상 된 관리를 비롯 한 전체 팀 기능 집합을 얻으려면 사용자에 대 한 Office 365 구독 계획을 구매 하 여 [전체 팀 버전으로 업그레이드](upgrade-freemium.md) 해야 합니다. 
 
 팀 버전 및 해당 기능에 대 한 자세한 내용은 [팀 계획 비교](https://products.office.com/microsoft-teams/free)를 참고 하세요.
+
+
 
 ## <a name="more-information"></a>추가 정보
 
@@ -41,3 +42,12 @@ ms.locfileid: "41837538"
 - 팀의 정식 버전으로 업그레이드 하는 방법에 대 한 자세한 내용은 팀 [에서 약속 없음으로 업그레이드](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39) 및 [Microsoft 팀에서 Office 365 구독 버전으로](upgrade-freemium.md)업그레이드를 참조 하세요.
 - 사용자 라이선스 추가, 사용자 이름 변경, 임시 암호 지정 등의 사용자 업그레이드와 관련 된 추가 관리 작업을 시작 하려면 [팀에서 무료 구독으로 관리자를 업그레이드 하는](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52)방법을 참조 하세요.
 
+## <a name="get-the-right-teams-trial"></a>적절 한 팀 평가판 다운로드
+
+Microsoft는 COVID-19 (coronavirus) 침입에 대 한 응답으로 직원 들이 가정 (WFH)에서 작업 하는 데 필요한 요구 사항에 따라 사용할 수 있는 평가판 Office 365 라이선스 (팀 포함)를 만듭니다. 
+
+- [E1 평가판](e1-trial-license.md):이 제안은 Microsoft 계정 담당자가 관리 하는 비 수익을 포함 하 여 모든 고객을 대상으로 합니다.
+
+- 미국 정부 (GCC)의 경우 [Office 365 G1 평가판](g1-trial-license.md)을 확인 하세요. 
+
+- .EDU 고객은 무료 [Office 365 A1 라이선스](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)를 사용 해야 합니다.

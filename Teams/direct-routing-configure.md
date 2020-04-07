@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft 전화 시스템 다이렉트 라우팅을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9c56078a6d016967e518746e3567373404d1c486
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: b596e5acb0002ad90f5c0298b56973f2490ad2e6
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157876"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170586"
 ---
 # <a name="configure-direct-routing"></a>직접 라우팅 구성
 
@@ -40,6 +40,7 @@ Microsoft 전화 시스템 다이렉트 라우팅을 사용 하 여 온-프레�
 - [Oracle 배포 문서](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [리본 커뮤니케이션 배포 문서](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 - [TE-시스템 (anynode) 배포 문서](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [Metaswitch 배포 설명서](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
 지원 되는 SBCs의 전체 목록은 [직접 라우팅으로 인증 된 세션 경계 컨트롤러 목록을](direct-routing-border-controllers.md)참조 하세요.
 

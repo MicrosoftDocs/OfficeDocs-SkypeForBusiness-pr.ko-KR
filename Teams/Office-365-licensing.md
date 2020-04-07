@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 012a45c679faef7e547b5017590c7b81c577dde5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d0a6c14c3fba7e5a303200499c4d158edfb56473
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834328"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170366"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft 팀 용 Office 365 라이선스
 ========================================
@@ -44,13 +44,13 @@ ms.locfileid: "41834328"
 팀을 가져오는 방법에 대 한 자세한 내용은 [Microsoft 팀에 대 한 액세스 권한을 얻는 방법](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b) 확인을 참조 하세요.
 
 > [!NOTE]
-> 비영리 조직에 대해서도 팀을 이용할 수 있습니다. 팀은 2006 년 7 월 17 일에 미국 정부 클라우드 커뮤니티 (GCC)에 대 한 롤아웃을 시작 하며 8 월 2018 끝에 모든 적격 고객에 게 제공 됩니다. Microsoft 팀을 다른 미국 정부 클라우드 (GCC High 및 DoD)로 가져올 예정입니다. Microsoft [팀 블로그에서 자세히 보기를 참조](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)하세요.
+> 비영리 조직에 대해서도 팀을 이용할 수 있습니다.
 
 > [!NOTE]
 > 2019 년 8 월부터 모든 새 Office 365 고객은 팀에 게 onboarded 비즈니스용 Skype Online에 대 한 액세스 권한을가지고 있지 않습니다. 이미 비즈니스용 Skype Online을 사용 하는 테 넌 트가 팀으로 전환할 때까지 계속 진행 (새 사용자 프로 비전 포함) 할 수 있게 됩니다. 자세한 내용은 [지금 Microsoft 팀에서 Office 365의 모임 및 통화에 대 한 기본 클라이언트](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)를 참조 하세요.
 
 > [!NOTE]
-> 비즈니스용 Skype Online이 선택한 라이선스에 대 한 앱에 나열 되는 경우 제거 하지 마세요. 해당 목록이 나열 되 고 제거 되 면 팀 사용자 설치가 성공적으로 완료 되지 않습니다. 
+> 비즈니스용 Skype Online이 선택한 라이선스에 대 한 앱에 나열 되는 경우 제거 하지 마세요. 해당 목록이 나열 되 고 제거 되 면 팀 사용자 설치가 성공적으로 완료 되지 않습니다.
         
 팀 핵심 기능 측면에서 Office 365 구독 간에는 차이점이 없습니다. 준수 기능의 사용 가능성은 올바른 구독 수준에 따라 달라 집니다. 자세한 내용은 [팀의 보안 및 규정 준수 개요](security-compliance-overview.md)를 참조 하세요. 각 구독에서 사용할 수 있는 자세한 기능 목록은 [Office 365 플랫폼 서비스 설명을](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)참조 하세요.
 
