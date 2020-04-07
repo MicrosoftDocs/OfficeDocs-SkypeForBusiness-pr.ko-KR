@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: 이미지 처리 소프트웨어와 상호 작용 하는 Microsoft 팀 방에 콘텐츠 카메라를 사용 하 여 발표자가 아날로그 화이트 보드에서 그릴 수 있도록 합니다.
-ms.openlocfilehash: 6ddc1a43a9d75e6f142c82c0215124bad97f77dd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ecd9c20c7f479c548d0ab9b4c3db8bbec945e79f
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137628"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157811"
 ---
 # <a name="content-cameras"></a>콘텐츠 카메라
 
@@ -102,6 +102,4 @@ ms.locfileid: "43137628"
 
 [Microsoft 팀 방에 대 한 요구 사항](requirements.md)
 
-> [!NOTE]
-> Microsoft Surface Pro 기반 콘솔이 있는 특정 Microsoft 팀 공간 장치 (예: Logitech Smartdock 및 Crestron)는 아직 콘텐츠 카메라를 지원 하지 않습니다. 이러한 장치에 대 한 지원은 나중에 CY2019에 추가 됩니다. 
->
+

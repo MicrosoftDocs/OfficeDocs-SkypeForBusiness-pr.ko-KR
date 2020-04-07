@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 이 항목에서는 차세대 Skype 대화방 시스템인 Microsoft 팀 회의실 관리에 대해 자세히 알아보세요.
-ms.openlocfilehash: 5368df53e7617f602265071a66f7b871c6b88f66
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825874"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157763"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 팀 회의실 유지 관리 및 운영 
  
@@ -31,10 +31,10 @@ Microsoft 팀 대화방은 회의실을 다양 한 공동 작업 환경으로 �
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Microsoft 팀 방에 대 한 로그 수집
 <a name="Logs"> </a>
 
-로그를 수집 하려면 Microsoft 팀 대화방 앱과 함께 제공 되는 로그 수집 스크립트를 호출 해야 합니다. 관리 모드에서 관리자 권한 명령 프롬프트를 시작 하 고 다음 명령을 실행 합니다.
+로그를 수집 하려면 Microsoft 팀 대화방 앱과 함께 제공 되는 로그 수집 스크립트를 호출 해야 합니다. 관리 모드에서 관리자 권한 PowerShell 프롬프트를 시작 하 고 다음 명령을 실행 합니다.
   
 ```PowerShell
-powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
+c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
 ```
 
 로그는 c:\rigel.에서 ZIP 파일로 출력 됩니다.
@@ -84,7 +84,7 @@ Microsoft 팀 채팅방이 제대로 실행 되 고 있지 않은 경우 공장 
 그룹 정책을 사용 하 여 파일을 전송 하는 방법에 대해서는 [파일 항목 구성을](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)설명 합니다.
 
 > [!NOTE]
-> Microsoft 팀 대화방 장치가 Windows 10 OS의 다음 버전과 호환 되는 경우이 장치는 자동으로 Windows Update를 통해 다음 버전으로 업데이트 됩니다. Microsoft 팀 공간 장치를 수동으로 또는 windows 10의 다음 릴리스로 업그레이드 (WUFB) 할 수 없습니다. "받을 업데이트에 대 한 Windows 준비 수준 설정" 및 "Preview 빌드를 선택 하 고 "To GPO"를 통해 기능 업데이트를 받습니다. 이러한 그룹 정책을 사용 하는 디바이스는 Microsoft 팀 대화방 앱에서 Windows 10 OS 업데이트 문제를 발생 하는 것으로 알려져 있습니다.
+> Microsoft 팀 대화방 장치가 Windows 10 OS의 다음 버전과 호환 되는 경우이 장치는 자동으로 Windows Update를 통해 다음 버전으로 업데이트 됩니다. Microsoft 팀 공간 장치를 수동으로 또는 windows 10의 다음 릴리스로 업그레이드할 수 없습니다 (WUFB). 그룹 정책 "받을 업데이트에 대 한 Windows 준비 수준 수준을 선택" 및 "Preview 빌드 및 기능 업데이트가 수신 되는 경우"를 통해 GPO를 사용 하 여 선택 합니다. 이러한 그룹 정책을 사용 하는 디바이스는 Microsoft 팀 대화방 앱에서 Windows 10 OS 업데이트 문제를 발생 하는 것으로 알려져 있습니다.
 
 ## <a name="remote-management-using-powershell"></a>PowerShell을 사용 하 여 원격 관리
 <a name="RemotePS"> </a>

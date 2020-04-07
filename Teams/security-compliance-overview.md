@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e777ef76f6c8f11dfd914b3c4be149c224b63cf5
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 922489b421a819554ae680cf70ab2df6a21b2aed
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139097"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157631"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
@@ -81,6 +81,12 @@ Microsoft 팀 데스크톱 응용 프로그램에서 AppLocker를 지원 합니�
 ## <a name="compliance"></a>충족
 
 팀에는 채널, 채팅, 첨부 파일, 보존 정책, 데이터 손실 방지 (DLP), 채널에 대 한 eDiscovery 및 유효 유지, 채팅 및 파일, 감사 로그 검색, Microsoft Intune의 모바일 응용 프로그램 관리에 대 한 통신 준수를 비롯 하 여 규정 준수 영역에 도움이 되는 다양 한 정보가 있습니다. 위의 모든 항목에 대 한 정보를 제공 하 고 [Microsoft 365 준수 센터](https://compliance.microsoft.com) 또는 [Office 365 보안 & 준수 센터로](https://protection.microsoft.com) 이동 하 여 이러한 설정을 관리할 수 있습니다.
+
+### <a name="information-barriers"></a>정보 장벽
+
+정보 장애물은 사용자 또는 그룹이 서로 통신 하는 것을 방지 (비즈니스에 필요 하지 않은 경우 또는 해당 작업을 차단 하는 규정 이유) 할 때와 같은 작업을 수행 하기 위해 팀 관리자에 게 제공 되며, 조회 및 eDiscovery (아래 내용 참조)와 관련 된 정책을 설정할 수도 있습니다. 이러한 정책은 1:1 채팅, 그룹 채팅 또는 팀 수준의 사용자에 게 영향을 줄 수 있습니다.
+
+이 항목에 대 한 자세한 [내용은 Microsoft 팀의 정보 장벽](information-barriers-in-teams.md)으로 이동 하세요.
 
 ### <a name="communication-compliance"></a>통신 준수
 

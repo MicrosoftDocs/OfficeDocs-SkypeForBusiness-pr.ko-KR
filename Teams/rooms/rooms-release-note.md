@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.
-ms.openlocfilehash: 330425650f17fa8782105616371d3c16789d1db8
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 7a411c8a94379c71226c4c5e593968a8ba65eb53
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096993"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157772"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -71,6 +71,7 @@ ms.locfileid: "43096993"
 - 응용 프로그램 시작 화면
 - 근접 기반 모임 참가 환경의 개선을 위한 자동 응답 설정 
 - 장치 설정의 OSS (오픈 원본 소프트웨어) 알림
+- 비즈니스용 Skype Server 2015/2019에서 TLS 1.0 및 TLS 1.1을 사용 하지 않도록 설정한 경우 PSOM 연결을 수정 합니다.
 
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 
