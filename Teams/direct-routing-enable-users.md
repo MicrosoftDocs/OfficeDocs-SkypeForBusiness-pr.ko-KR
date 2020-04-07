@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 사용자의 Microsoft 전화 시스템 다이렉트 라우팅을 사용 하도록 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e9120dcbcd4b1a82eb864f545efdbadc42481794
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 10c62d14f283d565765a47e4c07504bc9bffa720
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157999"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160062"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>사용자가 직접 라우팅, 음성, 보이스 메일을 사용할 수 있도록 설정
 
@@ -80,7 +80,7 @@ Office 365에서 새 사용자를 만드는 두 가지 옵션이 있습니다. �
     예를 들어 사용자 "Spencer Low"에 대 한 전화 번호를 추가 하려면 다음을 입력 합니다. 
 
     ```PowerShell
-    Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
 
     사용 된 전화 번호는 국가 코드를 사용 하 여 전체 전자 164 자로 구성 되어야 합니다. 

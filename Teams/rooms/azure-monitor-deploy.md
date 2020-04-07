@@ -1,5 +1,6 @@
 ---
 title: Azure Monitor를 사용 하 여 Microsoft 팀 공간 관리 배포
+ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 이 문서에서는 Azure Monitor를 사용 하 여 통합 된 종단 간 방식으로 Microsoft 팀 회의실 디바이스의 관리를 배포 하는 방법을 설명 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e01ae7a0fddcb63595b7dcc15b719ad1d41db32
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0e0e810bb2932918947a011a9d2091858d0819eb
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137648"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160092"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>관리 :::no-loc text="Microsoft Teams Rooms"::: 배포 대상:::no-loc text="Azure Monitor":::
 
@@ -137,7 +138,7 @@ ms.locfileid: "43137648"
 
 | **JSON 필드**                   | **:::no-loc text="Log Analytics":::사용자 정의 필드** | **이벤트 ID** | **추출에 사용할 쿼리**                   |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
-| Description                      | SRSEventDescription         | **2000**     | Source \| = = "SRS-App" 및 EventID = = 2000 이벤트 |
+| 설명                      | SRSEventDescription         | **2000**     | Source \| = = "SRS-App" 및 EventID = = 2000 이벤트 |
 | ResourceState                    | SRSResourceState            | **2000**     | Source \| = = "SRS-App" 및 EventID = = 2000 이벤트 |
 | OperationName                    | SRSOperationName            | **2000**     | Source \| = = "SRS-App" 및 EventID = = 2000 이벤트 |
 | OperationResult                  | SRSOperationResult          | **2000**     | Source \| = = "SRS-App" 및 EventID = = 2000 이벤트 |

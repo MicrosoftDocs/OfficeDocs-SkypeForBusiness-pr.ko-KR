@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 통화 다이얼 플랜을 만들고 관리 하는 방법 (PSTN 통화 다이얼 플랜)과이를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 774b0a78f39b91b634ed0833be3497935cb25c4f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a5f46772ed8eebb309ba8bd9eaeca6fddb35afa
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826926"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160082"
 ---
 # <a name="create-and-manage-dial-plans"></a>다이얼 플랜 만들기 및 관리
 
@@ -50,7 +50,7 @@ ms.locfileid: "41826926"
     > [!NOTE]
     > 팀은 정규화 규칙 목록을 위에서 아래로 이동 하 고, 전화 번호와 일치 하는 첫 번째 규칙을 사용 합니다. 전화 거는 번호가 둘 이상의 정규화 규칙을 사용할 수 있도록 다이얼 플랜을 설정 하는 경우 더 제한적인 규칙이 덜 제한적인 규칙 보다 위에 정렬 되어 있는지 확인 합니다.
 
-6. **저장**을 클릭 합니다.
+6. **저장**을 클릭합니다.
 7. 다이얼 플랜을 테스트 하려면 **다이얼 플랜 테스트**에서 전화 번호를 입력 한 다음 **테스트**를 클릭 합니다.
 
 ### <a name="edit-a-dial-plan"></a>다이얼 플랜 편집
@@ -61,11 +61,11 @@ ms.locfileid: "41826926"
 
 ### <a name="add-users-to-a-dial-plan"></a>다이얼 플랜에 사용자 추가
 
-1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **다이얼 플랜**으로 이동 합니다.
-2. 다이얼 플랜 이름 왼쪽을 클릭 하 여 다이얼 플랜을 선택 합니다.
-3. **사용자 관리**를 선택 합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름을 사용 하 여 사용자를 검색 하 고 이름을 선택한 다음 **추가**를 선택 합니다. 추가 하려는 각 사용자에 대해이 단계를 반복 합니다.
-5. 사용자 추가를 마쳤으면 **적용**을 선택 합니다.
+1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동 합니다.
+2. 표시 이름을 클릭 하 여 사용자를 선택 합니다.
+3. **정책** 탭을 선택 합니다.
+4. 할당 된 정책 오른쪽에 있는 **편집** 을 클릭 합니다.
+5. **다이얼 플랜** 드롭다운 메뉴에서 사용자에 게 할당 하려는 다이얼 플랜을 선택 하 고 **적용**을 클릭 합니다.
 
 ## <a name="using-powershell"></a>PowerShell 사용
   
@@ -248,4 +248,4 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 - [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [긴급 통화 사용 약관](emergency-calling-terms-and-conditions.md)
 - [비상 전화 고 지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-- [팀 PowerShell 개요](teams-powershell-overview.md)
+- [Teams PowerShell 개요](teams-powershell-overview.md)

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '요약: IT 전문가는 비즈니스용 Skype 서버에 대 한 계획을 진행 하는 동안 비즈니스용 Skype 웹 앱 및 Skype 모임 앱에 대 한 지원 요구 사항을 검토 해야 합니다. 이 문서는 이러한 앱의 사용자를 위한 것이 아닙니다.'
-ms.openlocfilehash: 77633b53c44e28301b21cc2f37240a4a1e459938
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013451"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157641"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>모임 클라이언트 계획 (웹 앱 및 모임 앱)
  
@@ -65,7 +65,7 @@ Skype 모임 앱은 앱을 다운로드 및 설치 하 고 모임에 참가할 �
    
 &#x2776; 비즈니스용 Skype Web App 브라우저 플러그 인을 사용 하려면 컴퓨터 기반 음성, 비디오, 공유 및 진행 중인 화면 공유 및 기타 기능 보기를 위해 특정 공유 플러그 인이 필요 합니다. 모임 참석자가 모임에 참가할 때 또는 이러한 기능 중 하나를 시작할 때 공유 플러그 인을 설치 하는 옵션이 제공 됩니다. Windows 8 및 Windows 8.1에서 공유 플러그 인은 데스크톱용 internet Explorer 10 또는 Internet Explorer 11을 실행 하는 경우에만 설치할 수 있습니다. 이러한 기능은 비 데스크톱 버전의 Internet Explorer 10 및 11에서는 사용할 수 없습니다. Firefox 및 Safari 버전 12.0 이상이 더 이상 지원 되지 않습니다.
   
-&#x2777; 지원 되는 Windows 7, Windows Server 2008 R2 및 Macintosh 운영 체제의 경우 컴퓨터 기반 음성, 비디오, 응용 프로그램 보기, 응용 프로그램 공유, 데스크톱 보기 및 데스크톱 공유를 포함 하 여 모든 기능을 사용할 수 있습니다. 이러한 기능을 사용 하려면 메시지가 표시 되 면 플러그 인을 설치 해야 합니다. Mac OS X 버전 10.7은 더 이상 지원 되지 않습니다.
+&#x2777; 지원 되는 Windows 7, Windows Server 2008 R2 및 Macintosh 운영 체제의 경우 컴퓨터 기반 음성, 비디오, 응용 프로그램 보기, 응용 프로그램 공유, 데스크톱 보기 및 데스크톱 공유를 포함 하 여 모든 기능을 사용할 수 있습니다. 이러한 기능을 사용 하려면 메시지가 표시 되 면 플러그 인을 설치 해야 합니다. Mac OS X 버전 10.7은 더 이상 지원 되지 않습니다.  또한 웹 앱은 OS X 10.15 이상에 설치 되지 않습니다.  익명 가입 시나리오를 지 원하는 Mac 용 비즈니스용 Skype 최신 버전을 사용 하는 것이 좋습니다.
   
 Windows의 Chrome에서 웹 앱에 액세스 하는 &#x2778;에는 웹 앱이 포함 된 Internet Explorer 프레임에 로드 되는 작은 프로그램이 실행 됩니다. 이 프로그램을 사용 하려면 웹 앱이 제대로 로드 되도록 지원 되는 버전의 Internet Explorer 중 하나가 설치 되어 있어야 합니다.
   

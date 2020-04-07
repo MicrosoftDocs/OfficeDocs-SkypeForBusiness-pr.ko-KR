@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: 사용자 지정 테마 적용 및 마스터 설정 파일 만들기를 포함 하 여 Microsoft 팀 대화방 장치에서 사용 하는 기본 설정의 원격 관리
-ms.openlocfilehash: 988fa11ef3a84c21bfef3a726e3901bae26e222a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0334b9de7759885b6bf00dae7a6418b3c381c68f
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140991"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160072"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리
 
@@ -44,6 +44,7 @@ ms.locfileid: "43140991"
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
+    <ModernAuthEnabled>false</ModernAuthEnabled>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
@@ -91,13 +92,14 @@ ms.locfileid: "43140991"
 | \<ConfigureDomain\>  |문자열 &#x2778;  ||여러 도메인을 쉼표로 구분 하 여 나열할 수 있습니다. |
 |\<TeamsMeetingsEnabled\> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 되지 않습니다. <br/> <br/> SkypeMeetingsEnabled \<\> 및\<TeamsMeetingsEnabled\> 를 모두 사용할 수 없는 경우 XML 파일의 형식이 잘못 된 것으로 간주 되지만 두 설정을 동시에 사용 하는 것이 허용 됩니다. |
 |\<IsTeamsDefaultClient> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 되지 않습니다. |
+|\<ModernAuthEnabled> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 되지 않습니다. <br/> <br/>이를 true로 설정 하면 Microsoft 팀 대화방 응용 프로그램이 최신 인증만 사용 하 여 리소스에 연결 하 고 기본 인증으로 대체 하지 않습니다.|
 |\<BluetoothAdvertisementEnabled> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 하도록 설정 되어 있습니다. |
 |\<DualScreenMode\>  |부울 &#x2777;  |첫 번째 &#x2776;  |True 이면 이중 화면 모드를 사용 하도록 설정 합니다. 그렇지 않으면 장치가 단일 화면 모드를 사용 합니다. |
 | \<DuplicateIngestDefault\> |부울 &#x2777;  |첫 번째 &#x2776; |True 인 경우 모임이 종료 되 면 두 화면에 모두 듀얼 화면 모드로 내용이 표시 됩니다. | 
 |\<SendLogs\> |컨트롤러 |첫 번째 &#x2776;  |  |
 |\<EmailAddressForLogsAndFeedback\> |문자열 &#x2778;  | | "피드백 제공" 창이 나타날 때 로그를 보낼 수 있는 선택적 전자 메일 주소를 설정 합니다. |
 |\<SendLogsAndFeedback\> |부울 &#x2777;  | | True 이면 로그가 관리자에 게 전송 됩니다. False 인 경우, 사용자만 피드백을 관리자에 게 보냅니다 (로그 아님).  |
-| \<장치\>  |컨트롤러 |첫 번째 &#x2776;  | 자식 요소의 연결 된 오디오 장치 이름은 장치 관리자 앱에 나열 된 값과 동일 합니다. 구성에는 현재 콘솔에 연결 되지 않은 A/V 장치와 같이 현재 시스템에 존재 하지 않는 장치가 포함 될 수 있습니다. 해당 디바이스에 대 한 구성이 유지 됩니다.  |
+| \<디바이스\>  |컨트롤러 |첫 번째 &#x2776;  | 자식 요소의 연결 된 오디오 장치 이름은 장치 관리자 앱에 나열 된 값과 동일 합니다. 구성에는 현재 콘솔에 연결 되지 않은 A/V 장치와 같이 현재 시스템에 존재 하지 않는 장치가 포함 될 수 있습니다. 해당 디바이스에 대 한 구성이 유지 됩니다.  |
 |\<MicrophoneForCommunication\> |문자열 &#x2778;  ||회의에서 녹음 장치로 사용 되는 마이크를 설정 합니다. |
 |\<SpeakerForCommunication\> |문자열 &#x2778;  ||회의에 대 한 스피커로 사용할 장치입니다. 이 설정은 통화에 사용 되는 스피커 장치를 설정 하는 데 사용 됩니다. |
 |\<DefaultSpeaker\> |문자열 &#x2778;  ||HDMI 수집 원본에서 오디오를 재생 하는 데 사용 되는 장치입니다. |
