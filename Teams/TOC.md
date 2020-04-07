@@ -123,6 +123,7 @@
 <!-- ============================================================ -->
 
 # 모 및 회의
+## [빠른 시작 - 모임 및 라이브 이벤트](quick-start-meetings-live-events.md)
 ## [배포 계획](deploy-meetings-microsoft-teams-landing-page.md)
 ## [자습서: Teams에서의 모임](Tutorial-Meetings-in-Teams.yml)
 ## [모임 정책 관리](meeting-policies-in-teams.md)
@@ -291,6 +292,16 @@
 #### [직접 라우팅을 위한 미디어 바이패스 계획](direct-routing-plan-media-bypass.md)
 #### [직접 라우팅을 위한 미디어 바이패스 구성](direct-routing-configure-media-bypass.md)
 
+### 직접 라우팅을 위한 로컬 미디어 최적화
+#### [로컬 미디어 최적화 계획](direct-routing-media-optimization.md)
+#### [로컬 미디어 최적화 구성](direct-routing-media-optimization-configure.md)
+
+### 직접 라우팅 모니터링 및 문제 해결
+#### [개요](direct-routing-monitor-and-troubleshoot.md)
+#### [상태 대시보드](direct-routing-health-dashboard.md)
+### [PSTN 연결이 포함된 하이브리드 환경의 사용자 계정](direct-routing-user-accounts-in-a-hybrid-environment.md)
+
+### [직접 라우팅으로 마이그레이션](direct-routing-migrating.md)
 
 ### 직접 라우팅의 기술 참조
 #### [발신 전화에 대한 트렁크 장애 조치](direct-routing-trunk-failover-on-outbound-call.md)
@@ -649,17 +660,18 @@
 
 # 보안 및 규정 준수
 ## [개요](security-compliance-overview.md)
+## [Teams의 데이터 위치](location-of-data-in-teams.md)
 ## 보안
 ### [보안 가이드](teams-security-guide.md)
 ### [ID 모델 및 인증](identify-models-authentication.md)
 ### [최신 인증을 사용하여 Teams에 로그인](sign-in-teams.md)
+### [Teams의 안전한 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## 규정 준수
 ### [정보 장벽](information-barriers-in-teams.md)
 ### [보존 정책](retention-policies.md)
 ### [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
 #### [콘텐츠에 대한 eDiscovery 조사 수행](ediscovery-investigation.md)
-#### [Teams의 데이터 위치](location-of-data-in-teams.md)
 #### [Teams 사용자 또는 팀을 법률 보존 상태로 배치](legal-hold.md)
 ### 콘텐츠 검색
 #### [콘텐츠 검색 사용](content-search.md)
