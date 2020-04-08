@@ -17,12 +17,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ea77e0c672ffd15adcb5bc63aa77bd45d4b3604
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: c5c359ebf1efd20d9a1db41ddf19f39240826b77
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117515"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157782"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -34,7 +34,7 @@ ms.locfileid: "43117515"
 
 -  Teams를 포함하는 구독이 이미 있는 경우에는 **모든 사용자를 위해 켭니다.[](assign-teams-licenses.md)**.
     
-- 조직에서 **[Teams에서 모임](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)** 을 시작하는 방법을 이해하세요. 
+- 조직에서 **[Teams에서 모임 및 라이브 이벤트](quick-start-meetings-live-events.md)** 를 시작하는 방법을 이해하세요. 
 
 자세한 내용은 [아래 원격 작업자를 지원하기 위한 추가 리소스](#additional-resources-for-supporting-remote-workers)를 참조하세요.
 
