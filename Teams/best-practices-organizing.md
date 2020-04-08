@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e8f6335edde67fcc00e68b6aa42b3100afa603c9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 621bb6328ab4ea59caa18d27fe7196a25ee15157
+ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136878"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43174920"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams에서 팀을 구성하는 방법에 대한 모범 사례
 ======================================================
@@ -31,9 +31,7 @@ ms.locfileid: "43136878"
 
 팀을 만들기 전에 목표, 프로젝트 또는 작업 항목과 조직에서 공동 작업을 하는 데 도움이 되는 사용자를 고려하세요. 해당 사용자 또는 그룹을 확인하고 나면 팀에 사용자를 추가하여 공동 작업을 시작합니다. 시간이 지남에 따라 구성원 자격이 변경될 수 있기 때문에 각 팀에 여러 소유자를 지정하는 것이 좋습니다. 자세한 내용은 [팀 관리하기](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)를 참조하세요.
 
-조직 간 또는 단일 목적의 팀을 구성하는 방법에 대한 몇 가지 예를 보려면 이 짧은 비디오를 살펴보세요.
-
-> [!VIDEO https://youtu.be/XAowXcmQ-kA]
+Microsoft 팀 [비디오 재생 목록은](https://www.youtube.com/playlist?list=PLXPr7gfUMmKwYKFSqoPN-aHQppI7rRQLf) 팀을 만들고 관리 하는 데 필요한 정보를 제공 합니다.
 
 ## <a name="add-teams-gradually"></a>점진적으로 팀 추가하기
 
@@ -41,11 +39,11 @@ Teams 처음 배포하는 경우에는 소수의 팀과 팀 구성원으로 시�
 
 ## <a name="create-channels-to-focus-discussions"></a>토론에 집중할 채널 만들기
 
-팀을 만든 후에는 지원 해야 하는 여러 프로젝트와 대화 유형을 고려 하는 것이 좋습니다. 사용자들이 어디에 참여해야 하고, 어디에서 기존 대화를 찾을 수 있는지 알 수 있도록 초기 채널을 만듭니다. 사용자가 각 대화를 위해 어디로 가야 할지를 쉽게 알 수 있도록 설명적 채널 이름을 사용하세요. 구성원이 필요한 모든 항목을 채널에서 바로 사용할 수 있도록 도구(OneNote, Power BI 또는 Planner 등)를 채널에 탭으로 추가합니다. 일반적으로 사용되는 웹 페이지를 채널에 탭으로 추가할 수도 있습니다. 
+팀을 만든 후에는 지원 해야 하는 여러 프로젝트와 대화 유형을 고려 하는 것이 좋습니다. 사용자들이 어디에 참여해야 하고, 어디에서 기존 대화를 찾을 수 있는지 알 수 있도록 초기 채널을 만듭니다. 사용자가 각 대화를 위해 어디로 가야 할지를 쉽게 알 수 있도록 설명적 채널 이름을 사용하세요. 구성원이 필요한 모든 항목을 채널에서 바로 사용할 수 있도록 도구(OneNote, Power BI 또는 Planner 등)를 채널에 탭으로 추가합니다. 일반적으로 사용되는 웹 페이지를 채널에 탭으로 추가할 수도 있습니다.
 
-최종 사용자를 위한 이 간단한 팁과 함께 [팀에서 작업하기](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)에 대해 자세히 알아보세요. 
+최종 사용자를 위한 이 간단한 팁과 함께 [팀에서 작업하기](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)에 대해 자세히 알아보세요.
 
-모범 사례: 구성원 집합이 크고 채널이 더 많은 팀 만들기 사용자가 참여해야 하는 팀의 수를 최소화합니다. 팀의 채널은 팀이 공동 목표를 달성하기 위해 작업을 구성하는 데 도움이 되는 주제 또는 작업 흐름이라고 생각해야 합니다. 만들어야 하는 채널의 정해진 개수는 없습니다. 각 팀은 작업, 우선 순위 및 스타일을 기반으로 채널을 만들어야 합니다. 
+모범 사례: 구성원 집합이 크고 채널이 더 많은 팀 만들기 사용자가 참여해야 하는 팀의 수를 최소화합니다. 팀의 채널은 팀이 공동 목표를 달성하기 위해 작업을 구성하는 데 도움이 되는 주제 또는 작업 흐름이라고 생각해야 합니다. 만들어야 하는 채널의 정해진 개수는 없습니다. 각 팀은 작업, 우선 순위 및 스타일을 기반으로 채널을 만들어야 합니다.
 
 팀의 모든 사용자가 참여할 수 있는 대화에는 표준 채널을 사용합니다. 엄선된 구성원 그룹을 포함하는 집중된 공동 작업 공간이 필요한 경우에는 [Teams의 비공개 채널](private-channels.md)을 활용하세요. 
 
@@ -64,12 +62,11 @@ Teams 처음 배포하는 경우에는 소수의 팀과 팀 구성원으로 시�
 
 자세한 내용은 [팀과 채널](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) 페이지의 **채널에서 작업하기**를 참고하세요.
 
-
-
 ## <a name="consider-setting-up-moderation-in-your-channels"></a>채널에서 중재 설정 고려하기
 
 팀 소유자는 채널에 대한 중재를 설정하여 해당 채널에서 새 게시물을 시작하고 채널의 게시물에 회신할 수 있는 사용자를 제어할 수 있습니다. 중재를 설정할 때 한 명 이상의 팀 구성원을 선택하여 중재자로 지정할 수 있습니다. (팀 소유자는 기본적으로 중재자입니다.) 자세한 정보는 [Microsoft Teams에서 채널 중재 설정 및 관리하기](manage-channel-moderation-in-teams.md)를 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
 
-[Teams에서 조직 전체 팀 만들기](create-an-org-wide-team.md)
+- [Teams에서 조직 전체 팀 만들기](create-an-org-wide-team.md)
+- [Microsoft Teams의 제한 사항 및 사양](limits-specifications-teams.md)
