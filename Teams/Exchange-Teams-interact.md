@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68468455da96fc3b2790a832b6732d7211bd7733
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: d97f92b56b4a3e38489b1f99f8ba25497485495f
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131146"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43191245"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 및 Microsoft 팀의 상호 작용 방식
 
@@ -36,7 +36,7 @@ Exchange Online 또는 Exchange 전용 vNext에서 호스팅되는 사용자는 
 
 Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Office 365의 Azure Active Directory와 동기화 되어야 합니다. 팀과 채널을 만들고 참가 하 고, 탭 및 인공 지능을 추가 및 구성 하 고, 채팅 및 통화 기능을 활용할 수 있습니다. 그러나 프로필 사진을 수정 하거나, 모임을 관리 하거나, outlook 연락처에 액세스 하거나, 연결선을 관리할 수는 없습니다.
 
-온-프레미스에 호스팅되는 사서함이 있는 사용자는 Azure Active Directory와 동기화 되어야 합니다. 위의 시나리오에서 모든 기능을 사용할 수 있지만, 또한 사용자 프로필 그림만 변경할 수 있으며 (웹 사서함 정책의 Outlook에서이 작업을 수행할 수 있도록 허용 하는 경우), 모임 관리, 즉 Exchange Server 2016 (누적 업데이트 3)을 제공 하는 온-프레미스로 실행 되는 경우도 있습니다.
+온-프레미스에 호스팅되는 사서함이 있는 사용자는 Azure Active Directory와 동기화 되어야 합니다. 위의 시나리오에서 모든 기능을 사용할 수 있지만, 또한 사용자 프로필 그림 (웹 사서함 정책의 Outlook에서 수행할 수 있는 경우)을 변경 하 고, Exchange Server 2016 (누적 업데이트 3)을 제공 하 여 OAuth가 구성 된 온-프레미스로 실행 되는 경우 (특히 하이브리드 구성 마법사를 통해 가능).
 
 다음 표에서는 Exchange 환경을 기반으로 하는 기능 가용성에 대 한 유용한 빠른 참조를 제공 합니다.
 
@@ -48,7 +48,7 @@ Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Office 365
 |**Exchange Online**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예<sup>8</sup>|예|예|예 <sup>7</sup>|예|예|예|예|
 |**Exchange Online 전용 vNext**|예 <sup>2</sup>|예 <sup>2</sup>|예|예|예|예<sup>8</sup>|예|예|예 <sup>7</sup>|예|예|예|예|
 |**Exchange Online 전용-레거시** (Azure AD와 동기화 필요)|예 <sup>2</sup>|예 <sup>2, 3</sup>|예 <sup>4|예|아니요|아니요|예|예|아니요|예 <sup>5|예 <sup>6|예|예|
-|**Exchange 온-프레미스** (Azure AD와 동기화 필요)|예 <sup>2</sup>| 예 <sup>2, 3</sup> |예 <sup>4|예|Yes (Exchange 2016 CU3 이상 +)|예<sup>8</sup> (EXCHANGE 2016 cu3 이상 +)|예|예|아니요|예 <sup>5|예 <sup>6|예|예|
+|**Exchange 온-프레미스** (Azure AD와 동기화 & OAuth 구성 필요)|예 <sup>2</sup>| 예 <sup>2, 3</sup> |예 <sup>4|예|Yes (Exchange 2016 CU3 이상 +)|예<sup>8</sup> (EXCHANGE 2016 cu3 이상 +)|예|예|아니요|예 <sup>5|예 <sup>6|예|예|
 
 <sup>1</sup> EXCHANGE 2016 cu3 이상 이상 지원 됩니다.  
 

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 이 문서에서는 Microsoft 팀 대화방에 대 한 수명 지원에 대해 설명 합니다.
-ms.openlocfilehash: e5142d23d9f57a6ca50bcdb348378084afffd86b
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: 27610cd7a7ed5c2bca1fcb118b3687149d2872d0
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117526"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190827"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 팀 대화방 앱 버전 지원
  
@@ -59,7 +59,7 @@ Windows 10 기능 업데이트가 Microsoft 팀 대화방 장치에서 즉시 �
 | 1709 |2018-01-18 |지원되지 않음                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |지원 되지 않음                         |&#x2014; |&#x2014; |
 
-Windows 10 1809 버전 &#x2781; Microsoft 팀 대화방 응용 프로그램과 호환성 문제가 발생 하 여 사용 하지 않는 것이 좋습니다. 이 특정 문제는 야간 재부팅 후 Microsoft 팀원의 룸 응용 프로그램이 시작 되지 않는 원인이 될 수 있습니다. 이 문제는 Windows 10 1903 버전에서 해결 되었습니다.  
+Windows 10 버전 1809 &#x2780; Microsoft 팀 회의실 응용 프로그램에 있는 호환성 문제로 인해 권장 되지 않습니다. 이 특정 문제는 야간 재부팅 후 Microsoft 팀 대화방 응용 프로그램이 시작 되지 않는 원인이 됩니다. 이 문제는 Windows 10 버전 1903에서 해결 되었습니다.  
 
 지원 되는 버전의 Windows 10을 사용 하는 경우 항상 Microsoft 팀 대화방 앱에 대 한 최신 응용 프로그램 업데이트를 받게 됩니다.  
 

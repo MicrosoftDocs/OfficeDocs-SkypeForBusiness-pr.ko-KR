@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '사용자를 위해 클라우드 보이스 메일을 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 51e03417d3bdbd09b631fa2bd07b6009bf54693e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5f975eac51cf3787ac5a1dde9b76b80b0912478d
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838008"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190836"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 메일 설정
 
@@ -60,6 +60,9 @@ ms.locfileid: "41838008"
 5. 보이스 메일 메시지는 Exchange Online 보호를 통해 라우팅된 SMTP를 통해 사용자의 Exchange 사서함으로 배달 됩니다. 이러한 메시지를 성공적으로 배달 하려면 exchange 서버와 Exchange Online 보호 간에 Exchange 커넥터가 올바르게 구성 되어 있는지 확인 하세요. [커넥터를 사용 하 여 메일 흐름을 구성](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)합니다. 
 
 6. 인사말 사용자 지정, 비즈니스용 Skype 클라이언트의 시각적 보이스 메일 기능을 사용 하도록 설정 하려면 Exchange Web Services를 통해 Office 365에서 Exchange server 사서함으로 연결 해야 합니다. 이 연결을 사용 하도록 설정 하려면 [exchange 및 Exchange Online 조 직 간의 Oauth 인증 구성](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)에 설명 된 새 Exchange Oauth 인증 프로토콜을 구성 하거나 EXCHANGE 2013 CU5 이상에서 Exchange 하이브리드 마법사를 실행 해야 합니다. 또한 통합 구성에 설명 된 비즈니스용 Skype Online 및 Exchange server (비즈니스용 [Skype online 및 Exchange server 간](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises))의 통합 및 oauth를 구성 해야 합니다. 
+
+> [!NOTE]
+> 대리인이 대리인을 대신 하 여 전화를 받으면 클라우드 보이스 메일에서 알림을 사용할 수 없습니다. 사용자는 부재 중 통화에 대 한 알림을 받을 수 있습니다.
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>조직에서 음성 메일 정책 설정
 
@@ -126,11 +129,10 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 - [비즈니스용 Skype 2016 교육](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](here-s-what-you-get-with-phone-system.md)
 
 [비즈니스용 Skype Server 및 Exchange Server의 마이그레이션 계획](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-um-migration)
-
 

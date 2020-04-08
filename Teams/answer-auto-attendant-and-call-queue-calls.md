@@ -19,17 +19,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d630ea41915cb89013e407a6fa0b1cc21cb21abf
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 80400d9e9d7ab1519a15ab299f07896f55342eaf
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137438"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190862"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
 ===========================================================
 
-팀 사용자는 자신의 팀 클라이언트에서 직접 클라우드 자동 전화 교환 및 통화 대기열에서 전화를 걸고 받을 수 있습니다. 팀 사용자의 경우, 이제 자동 전화 교환 기능을 사용할 수 있으며, 통화 대기열 기능이 미리 보기에 있습니다. 
+팀 사용자는 자신의 팀 클라이언트에서 직접 클라우드 자동 전화 교환 및 통화 대기열에서 전화를 걸고 받을 수 있습니다.
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>자동 전화 교환 및 통화 대기열 이란?
 
