@@ -16,15 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd01a781cfb5a928e4d14e64d45789b4f023648d
-ms.sourcegitcommit: 3ddb28e085a89501e4e64687de4697f82f47f119
+ms.openlocfilehash: 6b6f0b27c80baf62d85d3791982965a26f4353f9
+ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43027678"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43194848"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>교육용 Microsoft Teams 리소스 관리
 ==============================================
+
+## <a name="resources-for-remote-learning"></a>원격 학습을 위한 리소스
+
+학교 또는 대학에서 Microsoft 팀의 원격 학습을 사용 하도록 설정 해야 하나요? [시작 하기 1-호출기](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) 및 아래 채택 자료 중 하나를 사용 하 여 빠르게 실행 하세요!
 
 ## <a name="adoption-content"></a>채택 콘텐츠
 
