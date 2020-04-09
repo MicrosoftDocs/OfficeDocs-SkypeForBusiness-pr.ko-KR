@@ -28,7 +28,7 @@ ms.locfileid: "43153297"
 <div id="main" class="v2">
     <div class="container">
         <h1>Teams 업그레이드 계획 워크숍</h1>
-           <p>비즈니스용 Skype의 소중한 고객으로서 Teams로의 여정을 탐색하는 데 필요한 정보를 확인할 수 있습니다. Teams에 대한 업그레이드를 계획하고 구현하는 데 도움을 주기 위해 설계된 지침, 모범 사례 및 리소스를 공유하는 실시간 대화형 업그레이드 계획 워크숍 시리즈에 참여하세요. 최적의 환경을 위해 아래의 <strong>업그레이드 계획</strong> 세션을 사용하여 시작하세요. 사용자가 원하는 시간에 작업장을 보려면 YouTube에서 <a href="https://aka.ms/UpgradeOnDemand"target="_blank">Microsoft Teams로 업그레이드를</a> 방문하세요.
+           <p>비즈니스용 Skype의 소중한 고객으로서 Teams로의 여정을 탐색하는 데 필요한 정보를 확인할 수 있습니다. Teams에 대한 업그레이드를 계획하고 구현하는 데 도움을 주기 위해 설계된 지침, 모범 사례 및 리소스를 공유하는 실시간 대화형 업그레이드 계획 워크숍 시리즈에 참여하세요. 최적의 환경을 위해 아래의 <strong>업그레이드 계획</strong> 세션을 사용하여 시작하세요. 이러한 워크숍을 내가 원하는 시간에 보려면 YouTube에서 <a href="https://aka.ms/UpgradeOnDemand"target="_blank">Microsoft Teams로 업그레이드</a>를 방문하세요.
             <p>Teams를 처음 사용하시나요? <a href="https://docs.microsoft.com/microsoftteams/teams-overview">여기</a>에서 자세히 알아보세요.
         <ul class="pivots">
             <li>
