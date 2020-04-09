@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 922489b421a819554ae680cf70ab2df6a21b2aed
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 66ef35a8a8235507e4d87a7b9c4da7625a939770
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157631"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207007"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
@@ -36,7 +36,7 @@ ms.locfileid: "43157631"
 >  - 업데이트 됨 2020 년 4 월 2 일: [팀 보안 가이드](teams-security-guide.md)
 
 
-Microsoft 팀은 고객이 기대 하는 고급 보안 및 규정 준수 기능을 제공 하는 Office 365 하이퍼 규모의 엔터프라이즈 등급 클라우드를 기반으로 합니다. O365의 보안 계획에 대 한 자세한 내용은 해당 O365 콘텐츠를 검토 하세요. [O365 보안 로드맵](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) 을 시작 하는 것이 좋습니다. O365의 준수 계획에 대 한 자세한 내용은 [보안 및 준수 계획](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance) 문서를 사용 하 여 시작할 수 있습니다.
+Microsoft 팀은 고객이 기대 하는 고급 보안 및 규정 준수 기능을 제공 하는 Office 365 하이퍼 규모의 엔터프라이즈 등급 클라우드를 기반으로 합니다. Office 365의 보안 계획에 대 한 자세한 내용은 Office 365 콘텐츠를 검토 하세요. [Office 365 보안 로드맵](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) 을 시작 하는 것이 좋습니다. Office 365의 준수 계획에 대 한 자세한 내용은 [보안 및 준수 계획](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance) 문서를 사용 하 여 시작할 수 있습니다.
 
 
 이 문서에서는 팀 관련 보안 및 준수에 대 한 자세한 정보를 제공 합니다. 보안 및 규정 준수에 대 한 다음 Microsoft 기술 비디오를 놓치지 마세요.
@@ -53,7 +53,7 @@ Microsoft 팀은 고객이 기대 하는 고급 보안 및 규정 준수 기능�
 
 인증 및 팀에 대 한 자세한 내용을 확인 하기 위해 [id 모델 및 인증](identify-models-authentication.md) 을 읽고, [최신 인증 작동 방식](sign-in-teams.md) 에서는 최신 인증을 사용 하는 것이 특히 도움이 됩니다.
 
-팀은 SharePoint, OneNote, Exchange 등과의 협력 관계를 사용 하기 때문에 O365의 모든 보안을 관리 하는 것이 좋습니다. Office 365 보안에 대 한 자세한 내용은 [보안 강화를 위해 office 365 테 넌 트 구성을](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)읽어 보세요.
+팀은 SharePoint, OneNote, Exchange 등과의 협력 관계를 사용 하기 때문에 Office 365의 모든 보안을 더욱 안전 하 게 관리할 수 있어야 합니다. Office 365 보안에 대 한 자세한 내용은 [보안 강화를 위해 office 365 테 넌 트 구성을](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)읽어 보세요.
 
 > [!NOTE]
 > 현재 [개인 채널](private-channels.md) 은 제한 된 보안 및 규정 준수 기능을 지원 합니다. 개인 채널의 모든 보안 및 규정 준수 기능에 대 한 지원은 곧 제공 될 예정입니다.
@@ -62,11 +62,11 @@ Microsoft 팀은 고객이 기대 하는 고급 보안 및 규정 준수 기능�
 
 Microsoft 팀은 SharePoint 및 비즈니스용 OneDrive, 콘텐츠 관리용 팀과 통합 되는 응용 프로그램 등의 ATP (사전 위협 방지)를 사용할 수 있습니다. ATP를 사용 하 여 이러한 응용 프로그램의 콘텐츠가 악의적인 지 여부를 확인 하 고 사용자 액세스에서이 콘텐츠를 차단할 수 있습니다.
 
-검색 후에는 O365에서 선택한 설정에 영향을 받는 콘텐츠를 관리 하는 방법에 대해 설명 합니다. 모든 응용 프로그램에서 ATP를 구성 하는 것이 좋으며, 추가 정보를 얻기 위해 [SharePoint, OneDrive 및 Microsoft 팀 문서에 대 한 Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) 에는 시작 방법에 대 한 자세한 정보가 포함 됩니다.
+검색 후 Office 365에서 선택한 설정에 영향을 받는 콘텐츠를 관리 하는 방법입니다. 모든 응용 프로그램에서 ATP를 구성 하는 것이 좋으며, 추가 정보를 얻기 위해 [SharePoint, OneDrive 및 Microsoft 팀 문서에 대 한 Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) 에는 시작 방법에 대 한 자세한 정보가 포함 됩니다.
 
 ### <a name="safe-links"></a>안전한 링크
 
-이번에는 Microsoft 팀에서 ATP 안전한 링크를 사용할 수 없으며, 이제 기술 채택 프로그램을 통해 공개 미리 보기를 사용 하 고, 일반 사용이 설정 된 경우에는 해당 시간이 도착할 때이 문서를 업데이트 합니다. 또한 O365 안전한 링크에 대 한 정보는 [Office 365 ATP 안전 링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)를 검토 하세요.
+이번에는 Microsoft 팀에서 ATP 안전한 링크를 사용할 수 없으며, 이제 기술 채택 프로그램을 통해 공개 미리 보기를 사용 하 고, 일반 사용이 설정 된 경우에는 해당 시간이 도착할 때이 문서를 업데이트 합니다. Office 365 안전한 링크에 대 한 자세한 내용은 [office 365 ATP 안전한 링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)를 검토 하세요.
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>팀에 조건부 액세스 정책이 작동 하는 방식
 
@@ -98,15 +98,15 @@ Microsoft 팀의 보존 정책을 사용 하면 조직에서 중요 한 데이�
 
 ### <a name="data-loss-prevention-dlp"></a>DLP (데이터 손실 방지)
 
-Microsoft 팀의 DLP (데이터 손실 방지)는 o365의 대규모 DLP 스토리로, o365에서 중요 한 문서 및 데이터를 보호 하는 데 사용할 때 비즈니스 준비가 진행 됨을 중심으로 등장 합니다. 메시지 또는 문서의 중요 한 정보에 대해 염려 하는 경우 DLP 정책은 사용자가 중요 한 데이터를 잘못 된 사용자와 공유 하지 못하도록 할 수 있습니다.
+Microsoft 팀의 DLP (데이터 손실 방지)는 물론 Office 365의 대규모 DLP 스토리가 Office 365에서 중요 한 문서 및 데이터를 보호할 때 비즈니스 준비가 진행 되는 데 등장 하 고 있습니다. 메시지 또는 문서의 중요 한 정보에 대해 염려 하는 경우 DLP 정책은 사용자가 중요 한 데이터를 잘못 된 사용자와 공유 하지 못하도록 할 수 있습니다.
 
-팀에서 데이터 손실 방지에 대 한 자세한 내용은 [Microsoft 팀에 대 한 DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)를 검토 하세요. O36 DLP 관심사에 대 한 유용한 문서 [https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)입니다.
+팀에서 데이터 손실 방지에 대 한 자세한 내용은 [Microsoft 팀에 대 한 DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)를 검토 하세요. O36 DLP 관심사에 대 한 좋은 문서는 [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)에 대 한 개요입니다.
 
 ### <a name="ediscovery"></a>eDiscovery
 
 전자적 검색 또는 eDiscovery는 법 슈트 또는 조사에서 생산 요청에 대 한 응답으로 ESI (전자적으로 저장 된 정보)를 식별, 수집 및 생성 하는 전자적 측면입니다. 접근 권한 값에는 사례 관리, 유지, 검색, 분석, 팀 데이터 내보내기 등이 포함 됩니다. 여기에는 채팅, 메시지 및 파일, 모임 및 통화 요약도 포함 됩니다. 팀 모임 및 통화의 경우, 모임 및 통화에 발생 한 이벤트에 대 한 요약이 만들어져서 eDiscovery에서 사용할 수 있게 됩니다.
 
-보안 & 준수 센터에서 O365 eDiscovery 기능을 수행 하 고 팀 콘텐츠에 대 한 규정 준수 콘텐츠 검색을 실행 하는 방법에 대 한 자세한 내용은 아래 링크로 이동 하세요.
+보안 & 준수 센터에서 Office 365 eDiscovery 기능을 수행 하 고 팀 콘텐츠에 대 한 규정 준수 콘텐츠 검색을 실행 하는 방법에 대 한 자세한 내용은 아래 링크로 이동 하세요.
 
 [eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)
 
@@ -140,7 +140,7 @@ Office 365 보안 & 준수 센터에서 보존 및 유지에 대 한 자세한 �
 
 ### <a name="compliance-content-search"></a>콘텐츠 검색 준수
 
-콘텐츠 검색을 사용 하 여 풍부한 필터링 기능을 통해 모든 팀 데이터를 검색할 수 있습니다. 결과 데이터를 규정 준수 및 소송 지원을 위해 특정 컨테이너에 내보낼 수 있습니다. 이 작업은 eDiscovery 사례와 관계 없이 수행할 수 있습니다. 이렇게 하면 규정 준수 관리자가 모든 사용자에 게 팀 데이터를 수집 하 고 추가 처리를 위해 검토 하 고 내보낼 수 있습니다. Office 365 보안 & 준수 센터에서 Microsoft 팀 및 기타 O365 콘텐츠에 대 한 준수 콘텐츠 검색을 수행 하는 방법에 대해 자세히 알아보려면 [O365 문서에서이 콘텐츠 검색](https://docs.microsoft.com/microsoft-365/compliance/content-search) 을 참조 하세요.
+콘텐츠 검색을 사용 하 여 풍부한 필터링 기능을 통해 모든 팀 데이터를 검색할 수 있습니다. 결과 데이터를 규정 준수 및 소송 지원을 위해 특정 컨테이너에 내보낼 수 있습니다. 이 작업은 eDiscovery 사례와 관계 없이 수행할 수 있습니다. 이렇게 하면 규정 준수 관리자가 모든 사용자에 게 팀 데이터를 수집 하 고 추가 처리를 위해 검토 하 고 내보낼 수 있습니다. Office 365 보안 & 준수 센터에서 Microsoft 팀 및 기타 Office 365 콘텐츠에 대 한 규정 준수 콘텐츠 검색을 수행 하는 방법에 대 한 자세한 내용은 [office 365의이 콘텐츠 검색](https://docs.microsoft.com/microsoft-365/compliance/content-search) 문서를 참조 하세요.
 
 > [!TIP]
 > 콘텐츠 검색을 사용 하면 필요한 경우 채팅 및 채널 메시지, 모임, 통화와 같은 Microsoft 팀의 콘텐츠만 필터링 할 수 있습니다.
@@ -149,7 +149,7 @@ Office 365 보안 & 준수 센터에서 보존 및 유지에 대 한 자세한 �
 
 ### <a name="auditing-and-reporting"></a>감사 및 보고
 
-감사 로그 검색은 Office 365 보안 & 준수 센터에 있으며, 작업 부하를 설정 하 고 감사 이벤트를 보고할 수 있으며 무제한 감사 시간 표시 막대에서 관리를 사용 하 고 확인을 수행 하는 데 필요한 특정 또는 제네릭 이벤트 집합을 내보낼 수 있습니다. Office 365 보안 & 준수 센터 내의 모든 감사 로그 데이터에 대 한 알림을 설정 하 고 추가 분석을 위해이 데이터를 필터링 하 고 내보낼 수 있습니다. O365에 대 한 감사 로그를 수행 하는 방법에 대해 자세히 알아보려면 [감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 문서를 참조 하세요. Office 365 보안 & 준수 센터에서 Microsoft 팀 이벤트를 검색 하는 방법에 대해 자세히 알아보려면 [팀에서 감사를 사용 하도록 설정](audit-log-events.md) 하 여 검토할 수도 있습니다.
+감사 로그 검색은 Office 365 보안 & 준수 센터에 있으며, 작업 부하를 설정 하 고 감사 이벤트를 보고할 수 있으며 무제한 감사 시간 표시 막대에서 관리를 사용 하 고 확인을 수행 하는 데 필요한 특정 또는 제네릭 이벤트 집합을 내보낼 수 있습니다. Office 365 보안 & 준수 센터 내의 모든 감사 로그 데이터에 대 한 알림을 설정 하 고 추가 분석을 위해이 데이터를 필터링 하 고 내보낼 수 있습니다. Office 365에 대 한 감사 로그를 수행 하는 방법에 대해 자세히 알아보려면 [감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 문서를 참조 하세요. Office 365 보안 & 준수 센터에서 Microsoft 팀 이벤트를 검색 하는 방법에 대해 자세히 알아보려면 [팀에서 감사를 사용 하도록 설정](audit-log-events.md) 하 여 검토할 수도 있습니다.
 
 ## <a name="privacy"></a>프라이버시
 
@@ -172,7 +172,7 @@ Microsoft에서 데이터를 보호 하는 것은 가장 중요 한 사항입니
 
 정보 보호 기능을 사용 하는 경우 Office 365 구독 및 관련 독립 실행형 라이선스에 따라 사용할 수 있는 기능 집합이 결정 됩니다.
 
-보안 및 규정 준수에 대 한 기능을 구현 하는 데 필요한 라이선스를 확인 하는 방법에 대 한 자세한 내용은 [Office 365 라이선스](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)를 참조 하세요.
+보안 및 규정 준수를 위해 기능을 구현 하는 데 필요한 라이선스를 확인 하는 방법에 대 한 자세한 내용은 [Office 365 또는 Microsoft 365 라이선스](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf)를 참조 하세요.
 
 > [!NOTE]
 > 보안 & 준수 센터에서 콘텐츠 검색 및 eDiscovery 기능을 사용 하도록 설정할 필요는 없습니다.
