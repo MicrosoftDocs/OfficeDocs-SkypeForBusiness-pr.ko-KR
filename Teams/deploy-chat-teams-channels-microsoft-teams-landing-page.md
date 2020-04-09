@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8259b8a06a4601ff7feebca53c06f268bdc08c5
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 0c6cd94f5d7205b438396dcb09ebb047a49b8f2e
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796021"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170596"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -97,6 +97,10 @@ Teams는 조직의 팀을 관리하는데 사용할 수 있는 사용자 지정 
 ### <a name="guest-access"></a>게스트 액세스
 
 Teams에서 게스트 액세스를 사용하여 조직 외부의 개인 사용자는 팀과 채널에 액세스할 수 있습니다. 게스트 액세스 설정을 사용하여 게스트 사용자가 사용할 수 있거나 사용할 수 없는 기능을 제어할 수 있습니다. 게스트 액세스 기능은 기본적으로 꺼져있습니다. 자세한 내용은 [Teams에서의 게스트 액세스](https://docs.microsoft.com/microsoftteams/guest-access)를 참조하세요.
+
+> [!NOTE]
+> 외부 액세스 및 게스트 액세스에 대한 자세한 내용은 [Microsoft Teams의 다른 조직의 사용자와 통신](communicate-with-users-from-other-organizations.md)을 참조하세요
+
 
 |본인에게 질의하기|작업 |
 |------------|-------|
