@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11c3844540288bc94da445e4f13ed90b9a524f46
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 7aee2a4a8e17480be9eb99b4504ef6967e6b2bb3
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053651"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190860"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams에서의 모임 및 회의
 
@@ -31,8 +31,12 @@ ms.locfileid: "43053651"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
 
-*2019년 11월의 새로운 기능*: 이제 [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams를 배포하는 데 도움을 받을 수 있습니다](use-advisor-teams-roll-out.md). Advisor for Teams(미리 보기)는 모임 및 회의를 포함하여 Teams의 배포 과정을 안내합니다. Advisor for Teams(미리 보기)는 Office 365 환경을 평가하고 Teams에서 모임 및 회의를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다.
+사용자들의 모임 경험에 대해 자세히 알아보려면 [모임 및 통화](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)를 참조하세요. 
 
+
+*2020년 4월의 새로운 기능*: 모음 이끌이는 모임 내 모임 컨트롤에서 **모임 종료**를 클릭하여 Teams에서 모든 모임 참가자를 위해 모임을 종료할 수 있습니다.  
+
+*2019년 11월의 새로운 기능*: 이제 [Advisor for Teams(미리 보기)를 사용하여 Microsoft Teams를 배포하는 데 도움을 받을 수 있습니다](use-advisor-teams-roll-out.md). Advisor for Teams(미리 보기)는 모임 및 회의를 포함하여 Teams의 배포 과정을 안내합니다. Advisor for Teams(미리 보기)는 Office 365 환경을 평가하고 Teams에서 모임 및 회의를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다.
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>모임 및 회의 배포 결정
 
