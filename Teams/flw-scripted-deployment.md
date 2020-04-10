@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: caecd0d97e760470604fa164e6356a59699e57ad
-ms.sourcegitcommit: bc1d2e0478a429f981b53765e6194443b32ae35c
+ms.openlocfilehash: 2496656437ddcd7035b9913781c5ebc08b26582e
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43122922"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207067"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>일선 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법
 
@@ -37,6 +37,9 @@ ms.locfileid: "43122922"
 - 적절한 Teams 메시징 정책, 앱 설정 정책 및 앱 권한 정책을 만듭니다.
 - 이러한 정책을 대규모 사용자에게 적용합니다.
 - 다수의 사용자를 지정된 팀에 할당합니다.
+
+> [!NOTE]
+> 이 정보를 검토한 후에도 몇 가지 도움이 필요하거나 궁금한 사항이 있는 경우 [**여기를 클릭**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMDv-1voW9MqL7zkQ11DzBUREZaU1E0WEk5T0NYS0NDSkFMSDROUUdYMC4u)하여 고객 맞춤형 지원을 요청할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
