@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec86d9f57afca71624263d1cbd6ca212b8093dd
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 65ce8eb17efe434f5da288b89485e813b21190e4
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43158044"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170488"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>관리자 빠른 시작 - Microsoft Teams의 모임 및 라이브 이벤트
 
@@ -55,6 +55,8 @@ Microsoft 365 또는 Office 365를 배포할 때 네트워크가 이미 준비�
 
 - 관리자는 모든 사용자에 대해 [모임 설정](meeting-settings-in-teams.md)을 구성할 수 있습니다. 그런 다음 [모임 정책](meeting-policies-in-teams.md)를 사용하여 모임 기능이 사용자에게 제공하는 사항 및 제공하지 않는 사항을 제어할 수 있습니다. 
 
+- 모임 녹음/녹화를 관리하는 방법에 대해 알아보려면 [클라우드 모임 녹음/녹화](cloud-recording.md)를 참조하세요.
+
 - Teams 모임을 처음 사용하는 사용자인 경우 [모임 관리](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4) 교육을 사용자와 공유하세요. 강사 주도의 온라인 수업인 [Teams를 사용하여 효과적인 모임 실행](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings)을 확인하세요.
 
 - 모임 옵션 관리에 대한 자세한 내용은 [Teams 모임에 대한 참가자 설정 변경](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)을 참조하세요.
@@ -78,3 +80,5 @@ Microsoft 365 또는 Office 365를 배포할 때 네트워크가 이미 준비�
 [Teams의 라이브 이벤트](teams-live-events/what-are-teams-live-events.md)
 
 [Teams의 제한과 사양](limits-specifications-teams.md)
+
+[Microsoft 기술 커뮤니티: Microsoft 365의 라이브 이벤트](https://resources.techcommunity.microsoft.com/live-events/)
