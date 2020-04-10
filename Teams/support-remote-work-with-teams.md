@@ -17,16 +17,18 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5c359ebf1efd20d9a1db41ddf19f39240826b77
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 96ff59470c8d9726b4c26bf0522e5b1e730b9014
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157782"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170516"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
 조직에서 원격 또는 재택 근무하는 사용자를 지원하기 위해 Microsoft Teams를 시작하고 싶나요? 이 문서의 지침을 사용하여 신속하게 시작할 수 있습니다.
+
+중소기업인 경우 [원격 작업를 사용하여 중소기업 역량 강화](https://aka.ms/remote-business)를 놓치지 마세요.
 
 ## <a name="it-admin-guidance"></a>IT 관리자 가이드
 
