@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 3d7b2dec3b4077ddfb06035a2d7069b04c789db1
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962087"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209450"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -121,8 +121,6 @@ Teams 채팅은 Microsoft Exchange 백 엔드에서 작동하므로 Exchange 메
 |되풀이(종료 시간 없음)     |시작 시간 + 60일         |60일         |
 |되풀이(종료 시간 있음)     |마지막 발생 항목의 종료 시간 + 60일         |60일         |
 
-
-
 ## <a name="teams-live-events"></a>Teams 라이브 이벤트
 
 |기능     | 최대 한도 |
@@ -156,6 +154,15 @@ Teams는 파일 공유를 위해 SharePoint Online 백 엔드에서 실행되므
 채널은 팀을 위해 만든 SharePoint Online 사이트 모음의 폴더에 의해 지원되므로 채널 내의 파일 탭은 속해 있는 팀의 저장소 용량 한도를 공유 합니다.
 
 자세한 내용은 [SharePoint Online 제한](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)을 참조하세요.
+
+## <a name="tags"></a>태그
+
+|기능  |최대 한도  |
+|---------|---------|
+|팀당 태그 수    | 100        |
+|팀당 제안된 기본 태그 수    | 25        |
+|태그에 할당되는 팀 구성원 수    |100         |
+|사용자에게 할당되는 태그 수    |25         |
 
 ## <a name="contacts"></a>연락처
 
