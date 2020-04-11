@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66ef35a8a8235507e4d87a7b9c4da7625a939770
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: f45c83e765bcc10d81ff9cab6fb70b8c7d027ad0
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207007"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227412"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
@@ -66,7 +66,11 @@ Microsoft 팀은 SharePoint 및 비즈니스용 OneDrive, 콘텐츠 관리용 �
 
 ### <a name="safe-links"></a>안전한 링크
 
-이번에는 Microsoft 팀에서 ATP 안전한 링크를 사용할 수 없으며, 이제 기술 채택 프로그램을 통해 공개 미리 보기를 사용 하 고, 일반 사용이 설정 된 경우에는 해당 시간이 도착할 때이 문서를 업데이트 합니다. Office 365 안전한 링크에 대 한 자세한 내용은 [office 365 ATP 안전한 링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)를 검토 하세요.
+이번에는 Microsoft 팀에서 ATP (고급 위협 방지)에 대 한 안전한 링크를 사용할 수 없으며, 이제 기술 채택 프로그램을 통해 [공개 미리 보기](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide) 를 사용 하 고, 일반 사용이 가능한 경우 릴리스 날짜가 설정 되지 않은 경우, 해당 시간이 되 면이 문서를 업데이트 합니다. Office 365 안전한 링크에 대 한 자세한 내용은 [office 365 ATP 안전한 링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)를 검토 하세요. ATP 안전한 링크는 [Atp 계획 1 및 Atp 계획 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)에서 사용할 수 있습니다.
+
+### <a name="safe-attachments"></a>안전한 첨부 파일
+
+안전한 첨부 파일은 악의적인 첨부 파일을 확인 하 고 검색 하 여 사용자 보안을 강화 하기 위해 디자인 된 기능입니다. 전역 또는 보안 관리자는 이러한 의심 스러운 첨부 파일을 사용자에 게 보내고, 클릭 하 고, 처리 하지 않도록 하는 [정책을](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) 만듭니다. 안전한 첨부 파일 보호는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에서 사용할 수 있으며, Office 365 [고급 위협 방지 계획 1 및 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) 에는이 기능이 있습니다. 안전한 첨부 파일과 [이를 통해 조직을 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)하는 방법에 대 한 자세한 내용을 확인 하세요.
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>팀에 조건부 액세스 정책이 작동 하는 방식
 

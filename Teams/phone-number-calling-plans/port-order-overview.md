@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 포트 주문에 대 한 개요와 서비스 공급자 로부터 팀으로 전화 번호를 전송 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7d92c76c62405efbffaff378b2045195c175d867
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827946"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227542"
 ---
 # <a name="whats-a-port-order"></a>포트 순서
 
@@ -35,7 +35,9 @@ ms.locfileid: "41827946"
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>번호 포팅에 지원 되는 국가 또는 지역
 
-지원 되는 모든 국가 또는 지역에서 전화 번호를 이식 하거나 양도할 수 있지만, 포트 주문 요청을 제출 하는 방법은 전화 번호가 도착 하는 국가 또는 지역에 따라 달라 집니다. 번호 포팅을 지 원하는 국가 및 지역 목록은 [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요.
+지원 되는 모든 국가 또는 지역에서 전화 번호를 이식 하거나 양도할 수 있지만, 포트 주문 요청을 제출 하는 방법은 전화 번호가 도착 하는 국가 또는 지역에 따라 달라 집니다. 번호 포팅을 지 원하는 국가 및 지역 목록은 [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조 하세요.  
+
+현재 Microsoft 팀 관리 센터의 [포팅 마법사는](transfer-phone-numbers-to-teams.md) 영국, 미국 및 캐나다의 전화 번호를 얻을 수 있도록 지원 합니다. 다른 국가 및 지역에 대 한 전화 번호를 얻으려면 [포트 주문을 수동으로 제출할](manually-submit-port-order.md)수 있습니다.
   
 ## <a name="what-numbers-can-be-transferred"></a>전송할 수 있는 번호는 무엇 인가요?
 

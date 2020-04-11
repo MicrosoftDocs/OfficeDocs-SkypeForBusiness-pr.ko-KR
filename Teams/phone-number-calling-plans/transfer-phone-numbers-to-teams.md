@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 포팅 마법사를 사용 하 여 현재 서비스 공급자에서 Microsoft 팀으로 전화 번호를 전송 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 07368b6dfd05567eac4eac66614560b6ecc9d2b4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a13e08a569c34f8182997bb438e997d8caee2ae7
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137868"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227532"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Microsoft 팀에 전화 번호 전송
 
@@ -39,7 +39,7 @@ Microsoft 팀 관리 센터의 포팅 마법사를 사용 하 여 현재 서비�
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>포트 주문 만들기 및 전화 번호를 팀으로 전송
 
 > [!NOTE]
-> **현재이 마법사를 사용 하 여 영국 및 캐나다의 전화 번호를 얻을 수**있습니다. 다른 국가 및 지역에 대 한 전화 번호를 얻으려면 [포트 주문을 수동으로 제출할](manually-submit-port-order.md)수 있습니다. 포트 순서를 수동으로 제출 하는 데 필요한 양식을 가져오려면 [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)에서 드롭다운 목록에서 국가 또는 지역을 선택 합니다.
+> **현재이 마법사를 사용 하 여 영국, 미국, 캐나다에 대 한 전화 번호를 얻을 수**있습니다. 다른 국가 및 지역에 대 한 전화 번호를 얻으려면 [포트 주문을 수동으로 제출할](manually-submit-port-order.md)수 있습니다. 포트 순서를 수동으로 제출 하는 데 필요한 양식을 가져오려면 [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)에서 드롭다운 목록에서 국가 또는 지역을 선택 합니다.
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **음성** > **전화 번호로**이동 합니다. **숫자**를 클릭 한 다음 **포트** 를 클릭 하 여 포팅 마법사를 시작 합니다.
 2. **시작** 페이지의 정보를 검토 하 고 준비가 되 면 **다음**을 클릭 합니다.

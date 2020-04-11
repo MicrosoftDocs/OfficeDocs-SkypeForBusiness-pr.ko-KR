@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '사용자를 위해 클라우드 보이스 메일을 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 5f975eac51cf3787ac5a1dde9b76b80b0912478d
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: dc771847db8dca52d22b4c1db1b8ae585b99f8e4
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190836"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227502"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 메일 설정
 
@@ -120,6 +120,12 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 > [!IMPORTANT]
 > Office 365의 보이스 메일 서비스는 음성 메일 정책을 캐시 하 고 4 시간 마다 캐시를 업데이트 합니다. 따라서 정책 변경은 적용 하는 데 최대 4 시간까지 걸릴 수 있습니다.
+
+## <a name="help-your-users-learn-teams-voicemail-features"></a>사용자가 팀의 보이스 메일 기능을 배우는 데 유용한 정보
+
+팀의 다른 통화 기능 뿐만 아니라 보이스 메일 설정을 관리 하는 사용자에 게 다음과 같은 정보가 있습니다.
+
+- [팀에서 통화 설정을 관리](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)합니다. 이 문서에서는 최종 사용자 팀의 모든 통화 기능을 관리 하는 방법에 대해 설명 합니다. 
 
 ## <a name="help-your-users-learn-skype-for-business-voicemail-features"></a>사용자가 비즈니스용 Skype 보이스 메일 기능 배우기
 

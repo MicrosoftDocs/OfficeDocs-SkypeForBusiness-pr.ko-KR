@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방의 누적 된 향상 기능에 대해 설명 합니다.
-ms.openlocfilehash: 7a411c8a94379c71226c4c5e593968a8ba65eb53
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: a79f9c4087be638de5c978eda2a8cf1d12fc1ed4
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157772"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227522"
 ---
 # <a name="release-notes"></a>릴리스 정보
 
@@ -69,7 +69,6 @@ ms.locfileid: "43157772"
 - 팀에 대 한 동적 비상 통화 지원 (팀 클라이언트 링을 사용 하 여 필수 및 해제 되는 서비스 구성 요소)
 - 2에 대해 모임에서 중복 콘텐츠를 사용 하지 않도록 설정 하는 기능 XML을 사용 하 여 채팅방 표시
 - 응용 프로그램 시작 화면
-- 근접 기반 모임 참가 환경의 개선을 위한 자동 응답 설정 
 - 장치 설정의 OSS (오픈 원본 소프트웨어) 알림
 - 비즈니스용 Skype Server 2015/2019에서 TLS 1.0 및 TLS 1.1을 사용 하지 않도록 설정한 경우 PSOM 연결을 수정 합니다.
 

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
-ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: ad76c2f4378a1f639abf98d115e4700fae7796c5
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106695"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227552"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치
 
@@ -75,7 +75,8 @@ Microsoft 팀 용 Power BI 커넥터의 새 버전이 릴리스되면 *사용자
 
     ![스크린샷: Power BI 커넥터](media/CQD-power-bi-connector4.png)
 
-**중요 참고 사항:** 통화 품질 대시보드에는 쿼리를 실행 하기 위한 측정값이 필요 합니다. 쿼리에 측정값을 추가 하는 데 실패 하면 해당 쿼리가 실패 합니다.
+    > [!IMPORTANT] 
+    > 통화 품질 대시보드에는 쿼리를 실행 하기 위한 측정값이 필요 합니다. 쿼리에 측정값을 추가 하는 데 실패 하면 해당 쿼리가 실패 합니다.
 
 3.  그런 다음 필터링 할 차원을 선택 하 고 *필터* 창에서 *이 시각적 필드의 필터로* 끌어 놓습니다. CQD Power BI 커넥터는 현재 *기본 필터링* (가능한 차원 값 목록에서 값 선택), *고급 필터링* (고급 cqd와 유사 하 게 필터링 할 값 및 피연산자 지정) 및 *상대 날짜 필터링* ( *종료 시간* 및 *시작 시간* 에만 사용할 수 있음)을 지원 합니다. *Top N* 에 따라 필터링은 CQD에서 지원 되지 않습니다.
 
@@ -83,7 +84,8 @@ Microsoft 팀 용 Power BI 커넥터의 새 버전이 릴리스되면 *사용자
 
 4.  마지막으로 *시각화* 창에서 *서식* 탭을 선택 하 여 쿼리의 스타일 및 서식을 지정 합니다.
 
-**참고:** CQD 쿼리에는 실행을 위해 적어도 하나의 측정값이 필요 합니다. 쿼리가 로드 되지 않는 경우 쿼리에 측정값이 포함 되어 있는지 두 번 확인 합니다.
+    > [!NOTE]
+    > CQD 쿼리에는 실행을 위해 적어도 하나의 측정값이 필요 합니다. 쿼리가 로드 되지 않는 경우 쿼리에 측정값이 포함 되어 있는지 두 번 확인 합니다.
 
 ## <a name="creating-a-drillthrough-report"></a>드릴스루 보고서 만들기
 
@@ -100,6 +102,10 @@ Microsoft 팀 용 Power BI 커넥터의 새 버전이 릴리스되면 *사용자
     ![스크린샷: Power BI 커넥터](media/CQD-power-bi-connector7.png)
 
 Advanced CQD와 달리 Power BI는 비순차 드릴스루를 지원 합니다. 쿼리에 필요한 차원이 포함 되어 있으면 다른 페이지에 대 한 드릴스루가 될 수 있습니다.
+
+### <a name="best-practice"></a>모범 사례
+
+통화 음질 커넥터 쿼리는 드릴스루 기능을 염두에 맞춰 설계 해야 합니다. 모든 데이터를 한 번에 로드 하는 대신 필터를 사용 하 여 아래로 분할 하 고 더 넓은 수준의 카디널리티 쿼리로 시작 하 고 높은 카디널리티 쿼리로 드릴 다운할 수 있습니다. 예를 들어 가장 많은 품질 문제를 초래 하는 서브넷을 진단할 때 문제가 있는 지역 및 국가를 먼저 식별 한 다음 해당 지역 또는 국가의 서브넷으로 드릴 다운 하는 것이 좋습니다. 통화 품질 커넥터 서식 파일은 예제 역할을 하기 위해 이러한 방식으로 디자인 되었습니다.
 
 ## <a name="limitations"></a>따릅니다
 
