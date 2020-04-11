@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2496656437ddcd7035b9913781c5ebc08b26582e
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: c747d68b53e428678fd07cd690fa7575262d4ae6
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207067"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227562"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>일선 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법
 
@@ -43,7 +43,7 @@ ms.locfileid: "43207067"
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
-[이 위치](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/FLWTeamsScale.zip?raw=true)에서 자산을 다운로드합니다.
+[이 위치](https://aka.ms/flwteamsscale)에서 자산을 다운로드합니다.
 
 > [!IMPORTANT]
 > 위에 제공된 링크의 스크립트는 Microsoft에서 제공한 그대로 제공되며 개별 요구에 맞게 수정해야 합니다.
@@ -51,81 +51,84 @@ ms.locfileid: "43207067"
 ## <a name="technical-requirements"></a>기술 요구 사항
 
 - 테넌트에는 Microsoft Teams를 포함하여 사용 가능한 적절한 수의 라이센스가 있어야 합니다. 아직 이러한 라이선스가 없는 경우 여기에 나와 있는 지침에 따라 [Office 365 E1 무료 평가판](e1-trial-license.md)을 활성화합니다.
-- 이러한 단계를 수행하는 사용자는 Azure AD의 전역 관리자 또는 사용자 관리자의 역할로서 수행해야 합니다.
+- 이러한 단계를 수행하는 사용자는 Azure AD에서 전역 관리자, 사용자 관리자 및 Teams 서비스 관리자와 같은 역할이 할당되어야 합니다.
 - 사용자는 로컬 컴퓨터에 소프트웨어를 설치하고 구성할 수 있는 권한이 있어야 합니다.
 
 ## <a name="step-by-step-process-overview"></a>단계별 프로세스 개요
 
 1. **환경 설정**
-    1. 샘플 PowerShell 스크립트 및 문서가 포함된 ZIP 파일을 다운로드합니다.
-    1. 자격 증명 설정
+    1. 샘플 PowerShell 스크립트 및 문서가 포함된 GitHub 리포지토리에서 다운로드
     1. 로컬 환경 구성
+    1. 자격 증명 설정
     1. PowerShell 모듈 및 환경 변수 구성
-    1. 앱 등록 만들기
 1. **Teams 만들기 및 설정**
     1. Teams 만들기
+    1. Teams를 만드는 단계
     1. Teams를 위한 채널 만들기
 1. **Teams 정책 만들기**
-    1. Teams 메시징 정책 만들기
+    1. Teams 메시지 정책 만들기
     1. Teams 앱 설정 정책 만들기
     1. Teams 앱 권한 정책 만들기
-1. **사용자 만들기 및 설정**
+1. **사용자 및 보안 그룹**
     1. 사용자 및 보안 그룹 만들기
     1. 그룹 기반 라이선스를 사용하여 사용자에게 라이선스 할당
 1. **사용자 및 정책 할당**
     1. Teams에 사용자 할당
-    1. 사용자와 그룹에 정책 할당
+    1. 사용자에게 Teams 정책 할당
+    1. 선택 사항: 그룹 구성원 유형 변환
 1. **테스트 및 유효성 검사**
-    1. 오류 확인
     1. 테스트 사용자로 Teams에 로그인
+    1. 오류 확인
+    1. 오류 처리
+1. **추가 자료**
 
 ## <a name="set-up-your-environment"></a>환경 설정
 
 다음 단계를 통해 환경을 설정할 수 있습니다.
 
-### <a name="download-zip-file-containing-sample-powershell-scripts"></a>샘플 PowerShell 스크립트가 포함된 .zip 파일 다운로드
+### <a name="download-from-the-github-repository-containing-sample-powershell-scripts-and-documentation"></a>샘플 PowerShell 스크립트 및 문서가 포함된 GitHub 리포지토리에서 다운로드
 
-계속 진행하려면 [이 위치](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/FLWTeamsScale.zip?raw=true)에서 스크립트를 다운로드해야 합니다.
+계속 진행하려면 [이 위치](https://aka.ms/flwteamsscale)에서 스크립트를 다운로드해야 합니다.
+
+### <a name="configure-the-local-environment"></a>로컬 환경 구성
+
+로컬 환경 변수를 설정하면 여기에서 참조된 스크립트가 상대 경로를 사용하여 실행될 수 있습니다. rootPath는 이 리포지토리를 복제한 위치의 루트이며 tenantName은 **yourTenant.onmicrosoft.com** 양식에 있습니다(https는 포함되지 않음).
+
+
+1. PowerShell 세션을 열고 복제된 git 리포지토리 내부의 스크립트 폴더로 이동합니다.
+1. .\SetConfig.ps1 -tenantName [테넌트 이름] -rootPath "git 리포지토리 루트의 전체 경로" 스크립트를 실행합니다.
+
+예: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"
 
 ### <a name="setup-credentials"></a>자격 증명 설정
 
-이 문서와 샘플 스크립트에서는 작업을 더욱 쉽게 하기 위해 자격 증명이 포함된 참조 파일을 만들도록 선택했습니다. 이 기술을 사용하면 로컬 저장소에서 자격 증명을 유지하면서 다양한 서비스 끝점을 모두 인증할 필요가 없습니다. 후속 스크립트를 실행하려면 사용자 및 환경에 고유한 자격 증명으로 해당 참조 파일을 업데이트해야 합니다. 각 후속 스크립트 내에서 **GetCreds**라는 도우미 함수를 사용하여 적절한 자격 증명을 읽고 해당 자격 증명을 사용하여 다양한 서비스에 연결합니다.
+> [!IMPORTANT]
+> 이러한 스크립트에서 자격 증명을 관리하는 방법은 사용에 적합하지 않을 수 있으며 요구 사항에 맞게 쉽게 변경할 수 있습니다. 항상 서비스 계정 및 관리 ID를 보호하기 위한 회사의 표준 및 관행을 따르세요.
 
-여러 서비스에서 다양한 자격 증명을 필요로 하는 경우가 종종 있습니다. 예를 들어 MicrosoftTeams, AzureAD 및 MSonline에 대해 서로 다른 자격 증명이 있을 수 있습니다. 이 경우에는 각 자격 증명 파일을 고유한 의미 있는 이름으로 저장하는 SetCred를 실행할 수 있습니다.
+스크립트는 $ENV:LOCALAPPDATA\keys, 즉 AppData\Local 폴더에 XML 파일로 저장된 자격 증명을 사용합니다. 이러한 스크립트를 실행하는 데 사용되는 자격 증명을 설정하려면 **BulkAddFunctions.psm1** 모듈의 도우미 함수 **Set-Creds**를 호출해야합니다. 이 기술을 사용하면 로컬 저장소에서 자격 증명을 유지하면서 다양한 서비스 끝점을 모두 인증할 필요가 없습니다. 각 스크립트 내에서 **Get-Creds** 도우미 함수를 사용하여 적절한 자격 증명을 읽고 해당 자격 증명을 사용하여 다양한 서비스에 연결합니다.
 
-예: SetCreds msol-cred.xml SetCreds azuread-cred.xml SetCreds teams-cred.xml
+**Set-Creds**를 호출하면 $ENV:LOCALAPPDATA\keys에 기록될 XML 파일 이름을 제공하라는 메시지가 표시됩니다. 서비스마다 다른 자격 증명이 있을 수 있습니다. 예를 들어 MicrosoftTeams, AzureAD 및 MSonline에 대해 서로 다른 자격 증명이 있을 수 있습니다. 이 경우 **Set-Creds**를 두 번 이상 실행하여 각 자격 증명 파일을 고유한 의미있는 이름으로 저장할 수 있습니다.
+
+예: Set-Creds msol-cred.xml Set-Creds azuread-cred.xml Set-Creds teams-cred.xml
+
+**SetCreds.ps1** 스크립트를 실행하여 자격 증명을 저장합니다. ""Export-Clixml "작업 수행 중..." 메시지가 표시되고 'Y'를 입력하여 승인합니다.
 
 > [!NOTE]
-> 자격 증명에 사용되는 계정에는 MFA가 필요하지 않습니다.
+> 자격 증명에 사용되는 계정에는 MFA(다단계 인증)가 필요하지 않습니다.
 
 다음은 다양한 스크립트가 저장된 자격 증명을 사용하여 인증하는 방법에 대한 예입니다.
 
 ```azurepowershell
 # Connect to MicrosoftTeams
-$teams_cred = GetCreds teams-cred.xml
+$teams_cred = Get-Creds teams-cred.xml
 Connect-MicrosoftTeams -Credential $teams_cred
 ```
 
-자격 증명을 설정하려면 다음을 완료합니다.
-
-1. .zip 파일 자산에서 **SetCreds.ps1**을 찾습니다.
-1. PowerShell에서 **SetCreds.ps1** 스크립트를 실행하여 자격 증명을 저장합니다.
-    1. ""Export-Clixml "작업 수행 중..." 메시지가 표시되고 승인하려면 'Y'를 입력합니다.
-
-### <a name="configure-the-local-environment"></a>로컬 환경 구성
-
-1. .zip 파일 자산에서 **SetConfig.ps1**을 찾습니다.
-1. PowerShell에서 다음 명령을 실행하여 대괄호로 묶은 항목을 특정 정보로 바꿉니다.
-    1. **SetConfig.ps1** -tenantName [테넌트 이름] -rootPath "[git 리포지토리 루트의 전체 경로]"
-
-예: `.\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"`
-
 ### <a name="configure-powershell-modules-and-environmental-variables"></a>PowerShell 모듈 및 환경 변수 구성
 
-계속 진행하기 전에 Azure AD, MSAL, MSCloudUtils 및 MicrosoftTeams를 비롯한 여러 PowerShell 모듈을 설치하고 연결해야 합니다.
+Azure AD, MSAL, MSCloudUtils 및 MicrosoftTeams를 비롯한 여러 PowerShell 모듈을 설치하고 연결해야 합니다.
 
-1. .zip 파일 자산에서 **ConfigurePowerShellModules.ps1**을 찾습니다.
-1. 변수를 사용하여 다음과 같은 환경 변수를 편집하고 바꿀 수 있습니다.
+1. 리포지토리의 스크립트 폴더에서 **ConfigurePowerShellModules.ps1**을 찾습니다.
 1. PowerShell에서 **ConfigurePowerShellModules.ps1** 스크립트를 실행합니다.
 
 ## <a name="create-and-set-up-teams"></a>Teams 만들기 및 설정
@@ -146,8 +149,8 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 #### <a name="steps-to-create-teams"></a>팀을 만드는 단계
 
-1. 자산에서 **Teams Information.csv** 파일을 찾습니다.
-1. **Teams Information.csv** 파일의 정보를 조직의 특정 정보로 업데이트합니다. 위의 모범 사례에 유의하세요.
+1. 리포지토리의 데이터 폴더에서 **TeamsInformation.csv** 파일을 찾습니다.
+1. **TeamsInformation.csv** 파일의 정보를 조직의 특정 정보로 업데이트합니다. 위의 모범 사례에 유의하세요.
 1. **CreateTeams.ps1** 스크립트를 찾습니다.
 1. PowerShell에서 **CreateTeams.ps1** 스크립트를 실행합니다.
 
@@ -168,10 +171,10 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 #### <a name="steps-to-create-channels-for-teams"></a>Teams를 위한 채널을 만드는 단계
 
-1. .zip 파일 자산에서 **TeamsChannels.csv** 파일을 찾습니다.
+1. 리포지토리의 스크립트 폴더에서 **TeamsChannels.csv** 파일을 찾습니다.
 1. 조직의 특정 정보로 **TeamsChannels.csv** 파일을 업데이트합니다. 위의 모범 사례에 유의하세요.
-1. .zip 파일 자산에서 **CreateTeamsChannels.ps1** 스크립트를 찾습니다.
-1. PowerShell에서 **TeamsChannels.ps1** 스크립트를 실행합니다.
+1. 리포지토리의 스크립트 폴더에서 **CreateTeamsChannels.ps1** 스크립트를 찾습니다.
+1. PowerShell에서 **CreateTeamsChannels.ps1** 스크립트를 실행합니다.
 
 ## <a name="create-teams-policies"></a>Teams 정책 만들기
 
@@ -187,10 +190,10 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 #### <a name="steps-to-create-teams-message-policies"></a>Teams 메시지 정책을 만드는 단계
 
-1. .zip 파일 자산에서 **TeamsMessagingPolicies.csv** 파일을 찾습니다.
+1. 리포지토리의 스크립트 폴더에서 **TeamsMessagingPolicies.csv** 파일을 찾습니다.
 1. 조직의 특정 정보로 **TeamsMessagingPolicies.csv** 파일을 업데이트합니다. 몇 가지 다양한 옵션에 대한 추가 정보는 [여기](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams#messaging-policy-settings)에서 찾을 수 있습니다.
-1. 자산에서 **CreateTeamsMessagePolicies.ps1** 스크립트를 찾습니다.
-1. PowerShell에서 **TeamsMessagePolicies.ps1** 스크립트를 실행합니다.
+1. 리포지토리의 스크립트 폴더에서 **CreateTeamsMessagePolicies.ps1** 스크립트를 찾습니다.
+1. PowerShell에서 **CreateTeamsMessagePolicies.ps1** 스크립트를 실행합니다.
 
 ### <a name="create-teams-app-setup-policies"></a>Teams 앱 설정 정책 만들기
 
@@ -254,7 +257,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
     1. Teams
     1. Shifts ![직원 앱 목록의 스크린샷](media/FLW-Worker-Pinned-Apps.png)
 
-### <a name="create-app-permission-policies"></a>앱 사용 권한 정책 만들기
+### <a name="create-teams-app-permission-policies"></a>Teams 앱 권한 정책 만들기
 
 관리자는 앱 권한 정책을 사용하여 조직의 Microsoft Teams 사용자가 사용할 수있는 앱을 제어할 수 있습니다. 모든 앱 또는 Microsoft, 타사 및 조직에서 게시한 특정 앱을 허용하거나 차단할 수 있습니다. 앱을 차단하면 정책이 있는 사용자는 Teams 앱 스토어에서 goekd 앱을 설치할 수 없습니다. 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
 
@@ -288,9 +291,9 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 6. 테넌트 앱에서 **모든 앱 허용**을 선택합니다.
 7.  **저장**을 클릭합니다.
 
-## <a name="create-and-set-up-users"></a>사용자 만들기 및 설정
+## <a name="users-and-security-groups"></a>사용자 및 보안 그룹
 
-### <a name="create-user-and-security-groups"></a>사용자 및 보안 그룹 만들기
+### <a name="create-users-and-security-groups"></a>사용자 및 보안 그룹 만들기
 
 팀에서 다수의 사용자와 작업하려면 먼저 Azure AD에서 사용자를 만들어야 합니다. 다수의 사용자를 프로비전하는 방법에는 여러 가지가 있지만, 다음 방법을 살펴보겠습니다.
 
@@ -301,17 +304,17 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 이러한 사용자를 대규모로 보다 효과적으로 관리하려면 일선 직원과 일선 관리자에 대해 두 개의 보안 그룹을 만들고 다음 단계에 따라 해당 사용자를 보안 그룹에 직접 프로비전해야 합니다.
 
-1. .zip 파일 자산에서 **SecurityGroups.csv** 파일을 찾습니다.
-1. 조직의 특정 정보로 **SecurityGroups.csv** 파일을 업데이트합니다.
-    1. **MessagePolicy**, **AppPermissionPolicy** 및 **AppSetupPolicy** 필드를 업데이트하여 이전에 작성한 해당 정책에 적절히 맵핑합니다.
-    1. 이러한 사용자 각각에게 부여하려는 라이선스를 반영하도록 **LicensePlan** 필드를 업데이트합니다. 제품 이름 및 서비스 계획 식별자에 대한 자세한 내용은 [여기](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)에서 문서를 검토합니다.
-1. .zip 파일 자산에서 **Users.csv** 파일을 찾습니다.
+1. 리포지토리의 스크립트 폴더에서 **Users.csv** 파일을 찾습니다.
 1. 조직의 특정 정보로 **Users.csv** 파일을 업데이트합니다.
     1. 기본적으로 제공되는 스크립트는 임시 암호와 함께 사용자를 생성하며, 최초 로그인 시 암호를 변경해야 합니다. 기본 암호를 사용하지 않으려면 요구 사항에 맞게 **CreateUsers.ps1** 스크립트를 편집합니다.
     1. 앞에서 만든 적절한 이름을 반영하도록 SecurityGroup 필드를 업데이트합니다.
+1. 리포지토리의 스크립트 폴더에서 **SecurityGroups.csv** 파일을 찾습니다.
+1. 조직의 특정 보안 그룹 정보로 **SecurityGroups.csv** 파일을 업데이트합니다.
+    1. **MessagePolicy**, **AppPermissionPolicy** 및 **AppSetupPolicy** 필드를 업데이트하여 이전에 작성한 해당 정책에 적절히 맵핑합니다.
+    1. 이러한 사용자 각각에게 부여하려는 라이선스를 반영하도록 **LicensePlan** 필드를 업데이트합니다. 제품 이름 및 서비스 계획 식별자에 대한 자세한 내용은 [여기](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)에서 문서를 검토합니다.
 1. PowerShell의 자산에서 **CreateUsers.ps1** 스크립트를 실행합니다.
 
-### <a name="assign-licensing-to-users-by-group-based-licensing"></a>그룹 기반 라이선스로 사용자에게 라이선스 할당
+### <a name="assign-licensing-to-users-via-group-based-licensing"></a>그룹 기반 라이선스를 사용하여 사용자에게 라이선스 할당
 
 Office 365, Enterprise Mobility + Security, Dynamics 365 및 기타 유사한 제품과 같은 Microsoft 유료 클라우드 서비스에는 라이선스가 필요합니다. 이러한 라이선스는 해당 서비스에 액세스해야 하는 각 사용자에게 할당됩니다. 라이선스를 관리하기 위해 관리자는 관리 포털(Office 또는 Azure) 및 PowerShell cmdlet 중 하나를 사용합니다. Azure AD(Azure Active Directory)는 모든 Microsoft 클라우드 서비스에 대한 ID 관리를 지원하는 기본 인프라입니다. Azure AD는 사용자의 라이선스 할당 상태에 대한 정보를 저장합니다.
 
@@ -319,34 +322,65 @@ Office 365, Enterprise Mobility + Security, Dynamics 365 및 기타 유사한 �
 
 ## <a name="assign-users-and-policies"></a>사용자 및 정책 할당
 
-### <a name="assigning-users-to-teams"></a>팀에 사용자 할당
+### <a name="assign-users-to-teams"></a>Teams에 사용자 할당
 
 사용자를 만들고 Teams를 만들었으므로 이제 모든 사용자를 적절한 Teams에 배치해야 합니다.
 
-1. .zip 파일 자산에서 **Users.csv** 파일을 찾고 이 파일에서 Teams에 정확하게 맵핑했는지 확인합니다.
-1. PowerShell의 .zip 파일 자산에서 **AssignUserstoTeams.ps1** 스크립트를 실행합니다.
+1. 리포지토리의 데이터 폴더에서 **Users.csv** 파일을 찾고 이 파일에서 Teams에 정확하게 맵핑했는지 확인합니다.
+1. PowerShell에서 리포지토리의 데이터 폴더에서 **AssignUserstoTeams.ps1** 스크립트를 실행합니다.
 
 ### <a name="assign-teams-policies-to-users"></a>사용자에게 Teams 정책 할당
 
 이제 Teams에서 환경을 수정하는 사용자와 정책을 만들었으므로 해당 정책을 올바른 사용자에게 할당해야 합니다.
 
-1. .zip 파일 자산에서 **SecurityGroups.csv** 파일을 찾고 정책을 그룹에 정확하게 맵핑했는지 확인합니다.
-1. PowerShell의 .zip 파일 자산에서 **AssignPoliciestoUsers.ps1** 스크립트를 실행합니다.
+1. 리포지토리의 데이터 폴더에서 **SecurityGroups.csv** 파일을 찾고 정책을 그룹에 정확하게 맵핑했는지 확인합니다.
+1. PowerShell에서 리포지토리의 데이터 폴더에서 **AssignPoliciestoUsers.ps1** 스크립트를 실행합니다.
+
+### <a name="optional-convert-group-membership-type"></a>선택 사항: 그룹 구성원 유형 변환
+
+> [!NOTE]
+> 이 단계는 Azure AD P1 이상을 보유한 사용자용입니다.
+
+Azure AD P1 이상에 대해 라이선스를 부여하면 할당된 구성원 자격을 사용하는 대신 동적 그룹 구성원 자격을 사용할 수 있습니다. Teams를 만든 스크립트는 할당된 구성원 유형의 Office 그룹을 만들었기 때문에 해당 구성원을 명시적으로 추가해야 합니다.
+
+동적 구성원 자격을 사용하여 누군가가 팀의 구성원인지 여부를 결정하기 위해 규칙이 작성됩니다.
+
+> [!NOTE]
+> 이 스크립트를 실행하면 그룹의 현재 구성원 자격이 제거되고(소유자 제외), 구성원 자격 동기화 작업이 실행될 때 새 구성원이 추가됩니다.
+
+1. 리포지토리의 데이터 폴더에서 **migrateGroups.csv** 파일을 찾습니다.
+1. 동적 구성원 자격 규칙과 함께 마이그레이션될 그룹으로 **migrateGroups.csv** CSV 파일을 업데이트합니다.
+1. 리포지토리의 스크립트 폴더에서 **ConvertGroupMembershipType.ps1** 파일을 찾습니다.
+1. PowerShell에서 **ConvertGroupMembershipType.ps1** 스크립트를 실행합니다.
 
 ## <a name="test-and-validate"></a>테스트 및 유효성 검사
-
-### <a name="check-for-errors"></a>오류 확인
-
-이전 스크립트를 실행하는 동안 .zip 파일 자산의 logs 폴더에 있는 .csv 파일에 오류 또는 예외가 기록되었습니다. 이 파일은 발생한 문제를 조사하는 데 사용할 수 있습니다.
-
-예를 들어 테넌트에 이미 존재하는 팀을 만들려고 할 때 예외가 발생할 수 있습니다.
-
-1. **Logs** 폴더를 찾아서 포함되어 있는 모든 .csv 파일을 검토합니다. 예외가 없는 경우 여기에서 예외 파일을 찾지 못할 수 있습니다.
 
 ### <a name="login-to-teams-with-a-test-user"></a>테스트 사용자로 Teams에 로그인
 
 이제 모든 단계를 완료했으므로 완료한 작업을 확인할 차례입니다.
 
-1. 이전 목록에서 사용자를 선택하고 해당 사용자의 자격 증명으로 Teams에 로그인합니다.
+1. 생성된 사용자는 CreateUsers.ps1에 있는 초기 암호가 주어지며 처음 로그인 시 암호를 변경해야 합니다.
 1. Teams의 모양과 느낌이 예상한 것과 같은지 확인합니다. 그렇지 않은 경우 **Teams 정책 만들기** 및 **사용자에게 Teams 정책 할당** 섹션을 검토합니다.
 1. 사용자가 올바른 팀에 있는지 확인합니다. 그렇지 않은 경우 **사용자 만들기 및 설정** 및 **Teams에 사용자 할당** 섹션을 검토합니다.
+
+> [!NOTE]
+> 일선 직원 프로비저닝이 ID 및 액세스 관리 팀을 통해 관리되는 경우 직원에게 자격 증명을 제공하기 위한 프로세스를 따라야 합니다.
+
+### <a name="check-for-errors"></a>오류 확인
+
+이전 스크립트를 실행하는 동안 리포지토리 복사본의 logs 폴더에 있는 .csv 파일에 오류 또는 예외가 기록되었습니다. 이 파일은 발생한 문제를 조사하는 데 사용할 수 있습니다.
+
+예를 들어 테넌트에 이미 존재하는 팀을 만들려고 할 때 예외가 발생할 수 있습니다.
+
+1. **Logs** 폴더를 찾아서 포함되어 있는 모든 .csv 파일을 검토합니다. 예외가 없는 경우 여기에서 예외 파일을 찾지 못할 수 있습니다.
+
+### <a name="error-handling"></a>오류 처리
+
+이 샘플 스크립트에는 최소 오류 처리가 구현되었습니다. try/catch 블록이 있으며 트리거되는 경우 catch 블록의 변수에 오류를 저장합니다. 기본 설정에 따라 추가 오류 처리를 구현해야 합니다.
+
+## <a name="further-reading"></a>추가 자료
+
+- [새 팀 채널(Powershell)](https://docs.microsoft.com/powershell/module/teams/new-teamchannel?view=teams-ps)
+- [새 Teams 메시징 정책(Powershell)](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [Microsoft Teams에서 사용자에게 정책 할당](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
+- [Office 365 PowerShell을 사용하여 라이선스 및 사용자 계정 할당](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
