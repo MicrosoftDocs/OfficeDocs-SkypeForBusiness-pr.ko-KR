@@ -18,18 +18,20 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15e84c6e5d7d205910be982eb0688143cd14abfa
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: faeca9f05e13b9f5e7960340f280dc4bd6c7ee61
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131226"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207057"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
 > [!NOTE]
-> 이 문서는 학교에 원격 학습을 설정하는 데 유용한 리소스입니다. 교육자나 학교 리더의 경우 다음 리소스를 통해 도움을 받을 수 있습니다.
+> 이 문서는 학교에 원격 학습을 설정하는 데 유용한 리소스입니다. 교육자, 학교 리더 혹은 IT 전문가라면 이 리소스가 도움이 될 수 있습니다. 
 >
+> - [**One-Pager 시작하기**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)를 통해 학교 혹은 대학 전체에서 Teams를 사용하세요. 
+> - [**Teams 시작하는 방법**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) 다운로드: 보안 및 변경 관리에 도움이 되는 IT 전문가용 가이드입니다.
 > - [**Teams에서 교육하는 데 가장 중요한 첫 단계**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)에 대한 방법 지침을 포함하는 교육자용으로 작성된 문서 모음입니다.
 > - Microsoft 교육자 센터의 1시간 온라인 과정에서는 교육자들이 전문 라이브에서 Teams를 사용하는 방법을 보여줍니다. [**Microsoft Teams를 사용하여 학습하도록 변환**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - Microsoft 교육자 센터의 1시간 온라인 과정은 수업 Teams에서 교육을 통해 교육자들을 주도합니다. [**수업 Teams를 사용하여 공동 학습 환경을 만들기**](https://education.microsoft.com/course/b1e15cfc/overview).
@@ -71,6 +73,8 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 
 고등 교육 고객은 학생을 포함하는 모든 관계자가 수업, 연구, 그룹 프로젝트 및 연구 그룹을 위한 팀을 만들도록 하여 유용하게 작업할 수 있습니다. 초등 및 중학교는 학생들이 팀을 만들지 못하도록 제한하여 모든 학생 간 커뮤니케이션이 성인을 포함하는 포럼 내에서 진행되도록 할 수 있습니다. 이 경우 Office 365 그룹 및 팀 만들기는 모든 교사와 직원으로 제한될 수 있습니다.
 
+팀을 만드는 방법은 [Microsoft Teams에서 수업 만들기를](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) 참조 하세요.
+
 ### <a name="2-configure-user-experiences-using-policies"></a>2. 정책을 사용하여 사용자 환경 구성
 
 [Teams 정책](teams-policies.md)에서는 특정 사용자 또는 사용자 그룹에 대해 제공되는 옵션을 제어할 수 있습니다. 비공개 채팅, 비공개 통화, 모임 예약, 공유할 수 있는 콘텐츠 형식 등을 사용할 수 있는 사용자를 정의하는 정책을 적용할 수 있습니다.
@@ -100,6 +104,10 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 - 채널 모임 예약을 ‘off’로 설정
 - 'off'로 설정된 비공개 모임 예약 허용
 - 'off'로 설정된 비공개 모음에서 모임 시작 허용
+- 옵션: IP 비디오 ‘사용’ 설정을 허용
+
+> [!NOTE]
+> 교육자들이 실시간으로 학생들의 비디오를 볼 수 있습니다.
 
 #### <a name="live-events-policy"></a>라이브 이벤트 정책
 
@@ -136,6 +144,8 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 
 [Microsoft Teams 모임](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)은 오디오, 비디오, [콘텐츠 공유](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7), 화이트보드 및 공유 노트를 사용할 수 있는 기능을 포함하여 최대 250명의 동시 참석자를 지원합니다. Teams 클라이언트에서 [개인 영역 내부 또는 팀 채널 내의 모임](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)을 예약하여 모든 팀 구성원이 알 수 있도록 합니다. 참석자들이 나중에 검토할 수 있도록 모임을 녹화하고 저장할 수 있습니다. 이러한 녹음/녹화 내용을 [기록하여 논의된 콘텐츠를 쉽게 찾을 수도 있습니다](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308). 랩톱 또는 휴대폰 웹캠, 마이크 및 스피커를 모임에 사용하고, [Microsoft Teams 최적화 디바이스](https://products.office.com/microsoft-teams/across-devices/devices)에서 프리미엄 오디오/비디오 품질을 얻을 수 있습니다.
 
+Teams에서 모임 조직자는 모든 참여자에 대한 모임을 종료할 수 있습니다. 이 기능을 사용하여 교육자들은 학생들이 수업이 끝난 후 관리감독 없이 남겨지지 않도록 확인할 수 있습니다.
+
 ### <a name="districtuniversity-events-or-updates"></a>학군/대학 이벤트 또는 업데이트
 
 일부 교육 과정에서는 더 많은 대상 그룹과 추가 제작 기능이 필요합니다. 이러한 모임은 발표자, 제작자 및 중재 Q&A를 정의했습니다. Teams는 [Microsoft Teams 라이브 이벤트](teams-live-events/what-are-teams-live-events.md)를 사용하여 이러한 세션을 지원합니다. 라이브 이벤트를 학군이나 대학교 전체 업데이트와 같은 시나리오, 리더십 연설, 대규모 수업 또는 학생 그룹을 위한 교육에 사용하거나 커뮤니티로 확장할 수 있습니다. [라이브 이벤트 계획 및 예약](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502), [라이브 이벤트 만들기](https://support.office.com/article/video-produce-a-live-event-34c89e79-ffd4-4a6a-baf6-77055e0709cb), [라이브 이벤트 참여](https://support.office.com/article/video-attend-a-live-event-d837ad8d-ce34-44d0-9744-9beb50e943ac) 및 [중재 a Q&A](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76)에서 라이브 세션 진행에 대해 자세히 알아보세요.
@@ -147,9 +157,11 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 > [!NOTE]
 > 몇 가지 핵심 Teams 기능은 교육에 국한되지 않습니다. 핵심 Teams 기능에 대한 팁과 트릭은 [Teams 도움말 및 학습](https://support.office.com/teams)에서 찾을 수 있습니다.
 
+모임 중 학생들을 보호하는 방법에 대해 더 알아 보려면 [원격 수업용 Teams에서 모임을 통해 학생 안전하게 지키기를](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8) 확인하세요.
+
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>사용자가 자신의 프로필 사진을 변경하지 못하게 하려면 다음을 수행합니다.
 
-Teams 은 사용자가 자신의 프로필 사진을 변경할 수 있는지 여부를 제어하기 위해 테넌트 관리자가 구성한 [웹 사서함의 Outlook 정책](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정을 따릅니다. **-SetPhotoEnabled** 설정이 해제되어 있으면 사용자는 자신의 프로필 사진을 추가, 변경 또는 제거할 수 없습니다. 학생이나 교직원이 자신의 프로필 사진을 변경하거나 제거하지 못하게 하려면 자신에게 할당된 웹 사서함 정책의 Outlook에서 이 설정을 해제하세요.
+Teams는 사용자가 자신의 프로필 사진을 변경할 수 있는지 여부를 제어하기 위해 테넌트 관리자가 구성한 [웹 사서함의 Outlook 정책](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정을 따릅니다. **-SetPhotoEnabled** 설정이 해제되어 있으면 사용자는 자신의 프로필 사진을 추가, 변경 또는 제거할 수 없습니다. 학생이나 교직원이 자신의 프로필 사진을 변경하거나 제거하지 못하게 하려면 자신에게 할당된 웹 사서함 정책의 Outlook에서 이 설정을 해제하세요.
 
 예를 들어, 학생이 학교의 IT 또는 HR 부서에서 승인한 프로필 사진을 업로드할 경우, 별도의 조치가 필요하지 않습니다. 그러나 학생이 부적절한 사진을 업로드한다면 학교 내부 정책에 따라 사진을 변경하세요.  
 
