@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 621bb6328ab4ea59caa18d27fe7196a25ee15157
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: f8f142e48c005b14fc265d7efe6d4413b3c5f44c
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174920"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237941"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams에서 팀을 구성하는 방법에 대한 모범 사례
 ======================================================
@@ -31,7 +31,10 @@ ms.locfileid: "43174920"
 
 팀을 만들기 전에 목표, 프로젝트 또는 작업 항목과 조직에서 공동 작업을 하는 데 도움이 되는 사용자를 고려하세요. 해당 사용자 또는 그룹을 확인하고 나면 팀에 사용자를 추가하여 공동 작업을 시작합니다. 시간이 지남에 따라 구성원 자격이 변경될 수 있기 때문에 각 팀에 여러 소유자를 지정하는 것이 좋습니다. 자세한 내용은 [팀 관리하기](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)를 참조하세요.
 
-Microsoft 팀 [비디오 재생 목록은](https://www.youtube.com/playlist?list=PLXPr7gfUMmKwYKFSqoPN-aHQppI7rRQLf) 팀을 만들고 관리 하는 데 필요한 정보를 제공 합니다.
+
+조직 간 또는 단일 목적의 팀을 구성하는 방법에 대한 몇 가지 예를 보려면 이 짧은 비디오를 살펴보세요.
+
+> [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 ## <a name="add-teams-gradually"></a>점진적으로 팀 추가하기
 

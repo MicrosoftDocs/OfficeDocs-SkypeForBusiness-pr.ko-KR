@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5bbb66b99a061648c4c12b7611fc7054a4044c6f
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138038"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237891"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft 팀에서 QoS (서비스 품질) 구현
 
@@ -78,7 +78,7 @@ _그림 2. QoS 큐의 예_
 
 ## <a name="select-a-qos-implementation-method"></a>QoS 구현 방법 선택
 
-네트워크 라우터의 Acl (액세스 제어 목록)을 사용 하 여 포트 기반 태깅을 통해 QoS를 구현할 수 있습니다. 포트 기반 태깅은 혼합 Windows 및 Mac 환경에서 작동 하며 구현 하기가 가장 쉽고 가장 신뢰할 수 있는 방법입니다. 모바일 클라이언트는 DSCP 값을 사용 하 여 트래픽을 표시 하는 메커니즘을 제공 하지 않으므로이 메서드가 필요 합니다.  
+네트워크 라우터의 Acl (액세스 제어 목록)을 사용 하 여 포트 기반 태깅을 통해 QoS를 구현할 수 있습니다. 포트 기반 태깅은 혼합 Windows, Mac 및 Linux 환경에서 작동 하 고 구현 하기가 가장 쉽고 가장 신뢰할 수 있는 방법입니다. 모바일 클라이언트는 DSCP 값을 사용 하 여 트래픽을 표시 하는 메커니즘을 제공 하지 않으므로이 메서드가 필요 합니다.  
 
 이 방법을 사용 하면 네트워크 라우터가 들어오는 패킷을 검사 하 고, 특정 포트 또는 포트 범위를 사용 하 여 패킷이 도착 하는 경우, 다른 장치가 해당 트래픽 유형을 인식 하 고 해당 사용자의 대기열에 우선 순위를 지정할 수 있도록 특정 미디어 유형으로 지정 된 [DSCP](https://tools.ietf.org/html/rfc2474) 표시를 IP 패킷 헤더에 추가 하 여 해당 유형의 대기열에 배치 합니다.
 
