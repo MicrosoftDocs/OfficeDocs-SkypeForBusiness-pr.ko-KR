@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 요약:이 항목을 사용 하 여 비즈니스용 Skype 서버 2015 서버를 준비 합니다. 하드웨어, OS, 데이터베이스, 소프트웨어, 서버 팜의 성공적인 설치 및 배포를 보장 하는 데 도움이 되는 모든 시스템 요구 사항 및 권장 사항이 여기에 나와 있습니다.
-ms.openlocfilehash: 9cc063a44924bd6080525ca7a751bd1a3356666c
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: 53ce5d464b9faea14ca6970f85b3f937af8238e2
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572796"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237951"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에 대 한 서버 요구 사항
  
@@ -74,7 +74,10 @@ Active Directory, DNS 또는 인증서와 같은 환경 요구 사항을 찾으�
 |필요한 업데이트가 모두 설치 된 Windows Server 2012 R2 데이터 센터 OS  <br/> |모든 필수 업데이트가 설치 된 Windows Server 2012 R2 Standard OS  <br/> |
 |모든 필수 업데이트가 설치 된 Windows Server 2012 데이터 센터 OS  <br/> |모든 필수 업데이트가 설치 된 Windows Server 2012 Standard OS  <br/> |
    
-이 목록에 없는 경우에도 제대로 작동 하지 않으면 비즈니스용 Skype 서버 2015의 새 설치에 대해 시도해 보세요. Lync Server 2013에서는 운영 체제의 전체 업그레이드가 지원 되지 않습니다.  별도의 풀을 배포 하 고 다른 운영 체제를 사용 하 여 새 풀로 사용자를 마이그레이션해야 합니다.
+이 목록에 없는 경우에도 제대로 작동 하지 않으면 비즈니스용 Skype 서버 2015의 새 설치에 대해 시도해 보세요.
+
+> [!NOTE]
+> OS의 전체 업그레이드는 Lync Server 2013에서 지원 되지 않습니다. 별도의 풀을 배포 하 고 다른 운영 체제를 사용 하 여 새 풀로 사용자를 마이그레이션해야 합니다. 풀에 있는 모든 서버는 동일한 OS 버전을 가져야 합니다.
   
 > [!NOTE]
 > Windows Server 2008 R2가이 목록에 없는 것을 발견 했을 수 있습니다. 이는 SFB에 사용 되는 모든 새 서버에 대해 Windows Server 2012 R2가 권장 되기 때문입니다. Lync Server 2013이 이미 설치 되어 있는 기존 서버가 있고 해당 사용자의 전체 업그레이드를 수행할 예정인 경우에만 Windows Server 2008 R2를 사용 해야 합니다. Windows Server 2008 R2는 1/13/2015의 기본 지원 수명 주기의 끝에 도달 했으며 1/14/2020의 지원 기간 종료에 도달 합니다.
@@ -268,6 +271,6 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
   
  **마지막 생각:**
   
-Microsoft 인터넷 보안 및 가속 (ISA) 서버 클라이언트 소프트웨어를 설치 하지 마세요, 아니면 기타 모든 타사 방화벽이 나 바이러스 백신 네트워크 검사 소프트웨어를 여기에 포함 해야 합니다. 모든 프런트 엔드 서버 또는 독립 실행형 중재 서버 해당 소프트웨어를 설치할 때 잘못 된 미디어 트래픽 성능이 나타났습니다.
+모든 프런트 엔드 서버 또는 독립 실행형 중재 서버에는 Microsoft Internet Security and 가속이 (ISA) 서버 클라이언트 소프트웨어 또는 다른 Winsock 계층화 된 LSP (레이어 서비스 공급자) 소프트웨어 (여기에 포함 된 모든 타사 방화벽 또는 바이러스 백신 네트워크 검사 소프트웨어)를 설치 하지 마세요. 해당 소프트웨어를 설치할 때 잘못 된 미디어 트래픽 성능이 나타났습니다.
   
 
