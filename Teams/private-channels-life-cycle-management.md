@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 조직의 개인 채널 수명 주기를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 317cded1be30beac8fefbb579d5f0c24258f2fa1
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: 39830035ba91b2fa50c7d5bbd82e6da6e60d0f00
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637205"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240638"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft 팀의 개인 채널 수명 주기 관리
 
@@ -95,7 +95,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>팀의 모든 개인 채널에 대 한 SharePoint Url 찾기
 
-개인 채널의 파일에 대해 eDiscovery 또는 보관을 수행 하 고 있는지, 또는 특정 개인 채널에 파일을 배치 하는 lob (기간 업무) 앱을 작성 하는 경우에는 다음에 대해 생성 되는 고유한 SharePoint 사이트 모음을 쿼리 하는 방법을 원할 것입니다. 각 개인 채널.
+개인 채널의 파일에 대해 eDiscovery 또는 보관을 수행 하려는 경우 또는 특정 개인 채널에 파일을 배치 하는 lob (기간 업무) 앱을 빌드 하려는 경우 각 개인 채널에 대해 생성 되는 고유한 SharePoint 사이트 모음을 쿼리 하는 방법이 필요 합니다.
 
 관리자는 PowerShell 또는 Graph Api 명령을 사용 하 여 이러한 Url을 쿼리할 수 있습니다.
 
@@ -271,7 +271,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>PowerShell 테스트 갤러리에서 최신 팀 PowerShell 모듈 설치
 
-최근에 공개적으로 사용할 수 있는 팀 PowerShell 모듈 (현재 [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3))은 비공개 채널 관리를 지원 하지 않습니다. 이 단계를 사용 하 여 PowerShell 테스트 갤러리에서 개인 채널 지원 (현재 1.0.18)을 사용 하 여 최신 버전의 팀 PowerShell 모듈을 설치 합니다.
+최근에 공개적으로 사용할 수 있는 팀 PowerShell 모듈 (현재 [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5))은 비공개 채널 관리를 지원 하지 않습니다. 이 단계를 사용 하 여 PowerShell 테스트 갤러리에서 개인 채널 지원 (현재 1.0.21)을 사용 하 여 최신 버전의 팀 PowerShell 모듈을 설치 합니다.
 
 > [!NOTE]
 > PowerShell 테스트 갤러리에서 팀 PowerShell 모듈을 공용 PowerShell 갤러리의 모듈 버전과 나란히 설치 하지 마세요. 이 단계에 따라 먼저 공용 PowerShell 갤러리에서 팀 PowerShell 모듈을 제거 하 고 PowerShell 테스트 갤러리에서 최신 버전의 모듈을 설치 합니다.
@@ -323,8 +323,8 @@ PowerShell 테스트 갤러리에서 팀 PowerShell 모듈을 이미 설치한 �
 
 ## <a name="related-topics"></a>관련 항목
 
-- [팀 PowerShell 개요](teams-powershell-overview.md)
-- [Microsoft Graph API를 사용 하 여 팀과 공동 작업](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+- [Teams PowerShell 개요](teams-powershell-overview.md)
+- [Microsoft Graph API를 사용하여 Teams에서 작업](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
     - [목록 채널](https://docs.microsoft.com/graph/api/channel-list)
     - [채널 만들기](https://docs.microsoft.com/graph/api/channel-post)
     - [채널에 구성원 추가](https://docs.microsoft.com/graph/api/conversationmember-add)

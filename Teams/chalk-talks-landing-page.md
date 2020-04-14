@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: cde69bd588c7262e5ed6f0274b091fee29b27030
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
+ms.openlocfilehash: 2fd1b76b1aaed68cd0c9ce61fe6d6a408a2fd296
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574005"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240598"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -93,6 +93,7 @@ IT 전문가 및 의사 결정권자 용으로 설계 된 팀 분필은 팀에�
         </a>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -103,13 +104,14 @@ IT 전문가 및 의사 결정권자 용으로 설계 된 팀 분필은 팀에�
                     </div>
                     <div class="cardText">
                         <h3>팀에서 Firstline Worker 참여를 사용 하도록 설정 하는 방법</h3>
-                        <p><font color="red"><i>개봉박두!</i></font> Firstline 인력의 디지털 작업 영역 사용을 시작할 준비가 되셨습니까? 또한 커뮤니케이션, 직원 참여, 생산성 향상을 위한 파일럿 시작을 위한 모범 사례에 대해 설명 합니다.</p>
+                        <p>Firstline 인력의 디지털 작업 영역 사용을 시작할 준비가 되셨습니까? 또한 커뮤니케이션, 직원 참여, 생산성 향상을 위한 파일럿 시작을 위한 모범 사례에 대해 설명 합니다.</p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksQuality"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -119,8 +121,8 @@ IT 전문가 및 의사 결정권자 용으로 설계 된 팀 분필은 팀에�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>팀의 새로운 기능 살펴보기</h3>
-                        <p><font color="red"><i>개봉박두!</i></font>  팀에서 릴리스 하는 기능을 기다리고 계십니까? 지난 달에 가장 잘 맞는 최신 기능 릴리스와 사용자를 구현 하기 위한 모범 사례에 따라 팀 전문가와 상호 작용 합니다.</p>
+                        <h3>AV 품질 환경의 비용을 부과 합니다.</h3>
+                        <p>사용자가 팀의 모임 및 음성 기능을 사용 하 여 최적의 환경을 유지 하 고 싶으십니까? 이 세션에서는 서비스 품질&mdash;을 관리 하는 데 도움이 되는 도구, 보고 및 모범 사례에 대해 설명 하 고 일반적인 문제를 해결 하기 위한 사전 대처 전략을 수립할 수 있습니다.</p>
                     </div>
                 </div>
             </div>

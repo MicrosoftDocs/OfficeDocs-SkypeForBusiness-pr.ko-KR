@@ -18,18 +18,21 @@ localization_priority: Normal
 search.appverid: MET150
 description: 팀 구성원을 채널 중재자로 추가 하는 방법을 포함 하 여 Microsoft 팀에서 중재를 위해 채널을 설정 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 128676bbe4ec27300013836425bf221e3de10f9b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6cdf6988afb9afbd91c2bfd19ed516c8e8fdf702
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136808"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240618"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft 팀에서 채널 중재 설정 및 관리
 
-Microsoft 팀에서 팀 소유자는 채널에 대 한 중재를 설정 하 여 새 게시물을 시작 하 고 해당 채널의 게시물에 회신할 수 있는 사용자를 제어할 수 있습니다.
+Microsoft 팀에서 팀 소유자는 표준 채널에 대 한 중재를 설정 하 여 새 게시물을 시작 하 고 해당 채널의 게시물에 회신할 수 있는 사용자를 제어할 수 있습니다.
 
 팀 소유자는 팀 구성원을 중재자로 추가할 수도 있습니다. 팀 소유자는 채널 수준에 대 한 실무 전문성을 제공 하지 않을 수 있으며 채널 중재를 최적화 하는 데 도움이 됩니다. 특정 팀 멤버가 채널을 중간에 할 수 있도록 허용 하 여 채널 내에서 콘텐츠 및 컨텍스트를 관리 하는 책임은 팀 소유자와 채널 중재자 간에 공유 됩니다. 예를 들어 팀 소유자는 비즈니스 소유자 또는 콘텐츠 소유자를 중재자로 추가 하 여 해당 채널에서 정보 공유를 제어할 수 있습니다.
+
+> [!NOTE]
+> 현재는 표준 채널에 대해 채널 중재를 사용할 수 있습니다. 개인 채널에는 사용할 수 없습니다.
 
 ## <a name="what-can-a-channel-moderator-do"></a>채널 중재자는 어떤 작업을 할 수 있나요?
 
