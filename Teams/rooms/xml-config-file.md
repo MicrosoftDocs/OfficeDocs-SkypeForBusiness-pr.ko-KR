@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: 사용자 지정 테마 적용 및 마스터 설정 파일 만들기를 포함 하 여 Microsoft 팀 대화방 장치에서 사용 하는 기본 설정의 원격 관리
-ms.openlocfilehash: 0334b9de7759885b6bf00dae7a6418b3c381c68f
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 0bc693d8bee35b37184d0dcb38831b396b34b97c
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160072"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510767"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리
 
@@ -39,12 +39,12 @@ ms.locfileid: "43160072"
     <UserAccount>
         <SkypeSignInAddress>RanierConf@contoso.com</SkypeSignInAddress>
         <ExchangeAddress>RanierConf@contoso.com</ExchangeAddress>
+        <ModernAuthEnabled>false</ModernAuthEnabled>
         <DomainUsername>Seattle\RanierConf</DomainUsername>
         <Password>password</Password>
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
-    <ModernAuthEnabled>false</ModernAuthEnabled>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
@@ -87,12 +87,12 @@ ms.locfileid: "43160072"
 |\<SkypeMeetingsEnabled\>  |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 하도록 설정 되어 있습니다. |
 |\<SkypeSignInAddress\> |문자열 &#x2778;  ||콘솔의 SfB 또는 팀 디바이스 계정에 대 한 로그인 이름입니다. |
 |\<ExchangeAddress\> |문자열 &#x2778;  ||콘솔의 Exchange 디바이스 계정에 대 한 로그인 이름입니다. ExchangeAddress를 생략 하면 SkypeSignInAddress는 자동으로 다시 사용 되지 않습니다. |
+|\<ModernAuthEnabled> |부울 &#x2777;  |  |기본적으로 사용 되지 않습니다. <br/> <br/>이를 true로 설정 하면 Microsoft 팀 대화방 응용 프로그램이 최신 인증만 사용 하 여 리소스에 연결 하 고 기본 인증으로 대체 하지 않습니다.|
 |\<DomainUsername\> |문자열 &#x2778;  ||콘솔 장치의 도메인 및 사용자 이름 (예: Seattle\RanierConf.) |
 |\<입력\> |문자열 3  || Password 매개 변수는 비즈니스용 Skype 디바이스 계정 로그인에 사용 되는 암호와 동일 합니다.  |
 | \<ConfigureDomain\>  |문자열 &#x2778;  ||여러 도메인을 쉼표로 구분 하 여 나열할 수 있습니다. |
 |\<TeamsMeetingsEnabled\> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 되지 않습니다. <br/> <br/> SkypeMeetingsEnabled \<\> 및\<TeamsMeetingsEnabled\> 를 모두 사용할 수 없는 경우 XML 파일의 형식이 잘못 된 것으로 간주 되지만 두 설정을 동시에 사용 하는 것이 허용 됩니다. |
 |\<IsTeamsDefaultClient> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 되지 않습니다. |
-|\<ModernAuthEnabled> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 되지 않습니다. <br/> <br/>이를 true로 설정 하면 Microsoft 팀 대화방 응용 프로그램이 최신 인증만 사용 하 여 리소스에 연결 하 고 기본 인증으로 대체 하지 않습니다.|
 |\<BluetoothAdvertisementEnabled> |부울 &#x2777;  |첫 번째 &#x2776;  |기본적으로 사용 하도록 설정 되어 있습니다. |
 |\<DualScreenMode\>  |부울 &#x2777;  |첫 번째 &#x2776;  |True 이면 이중 화면 모드를 사용 하도록 설정 합니다. 그렇지 않으면 장치가 단일 화면 모드를 사용 합니다. |
 | \<DuplicateIngestDefault\> |부울 &#x2777;  |첫 번째 &#x2776; |True 인 경우 모임이 종료 되 면 두 화면에 모두 듀얼 화면 모드로 내용이 표시 됩니다. | 

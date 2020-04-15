@@ -16,19 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea756b24a0292a35d4e47252383bfc954fcb8fa7
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: ab24c6ee27f3e99a30a18af82f0a26196a049528
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096973"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510777"
 ---
 # <a name="user-presence-in-teams"></a>Teams에서의 사용자 현재 상태
 
 현재 상태는 Microsoft 팀 (및 Office 365)의 사용자 프로필의 일부로, 다른 사용자에 대 한 현재의 가용성과 상태를 표시 합니다. 기본적으로 Teams를 사용하는 조직의 모든 사용자는 온라인으로 다른 사용자의 대화 가능 여부를 거의 실시간으로 볼 수 있습니다.
-
-> [!IMPORTANT]
-> 사용자가 **Teams 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거하면 Outlook 및 기타 Office 앱에서 현재 상태가 작동하지 않습니다. 현재 상태는 Teams에서 잘 작동합니다. 해결 방법: **Teams 전용** 모드에서 팀을 실행하는 경우에도 Outlook (및 기타 Office 앱)에서 현재 상태를 보려면 비즈니스용 Skype를 설치해야 합니다. Microsoft는 이 문제를 알고 있으며 해결하기 위해 노력하고 있습니다.
 
 Outlook에 있는 팀의 현재 상태는 Outlook 2013 데스크톱 앱 이상에서 지원됩니다.
 
