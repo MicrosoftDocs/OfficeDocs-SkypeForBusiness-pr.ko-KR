@@ -20,12 +20,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75a45acf5758de9b2d7209c0749454adb38ba566
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7ac8e69afaab1d9055bb2513704ec50cc8790592
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033049"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506839"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft 팀 채택
 
@@ -106,7 +106,7 @@ ms.locfileid: "42033049"
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
+        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -159,7 +159,7 @@ ms.locfileid: "42033049"
                     </div>
                     <div class="cardText">
                         <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">시작</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">시작</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">시작하기</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">팀과 채널 이해</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">첫 번째 팀 만들기</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">문화 및 조직의 준비 상태 평가</a></p>
