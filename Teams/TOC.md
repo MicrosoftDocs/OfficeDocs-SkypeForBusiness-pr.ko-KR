@@ -10,7 +10,7 @@
 ## [개요](training-microsoft-teams-landing-page.md)
 ## [Teams용 강사 진행 교육](instructor-led-training-teams-landing-page.md)
 ## [Teams에 대한 관리자 교육](itadmin-readiness.md)
-## [Teams에 대한 최종 사용자 교육](enduser-training.md)
+## [Teams에 대한 최종 사용자 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [Teams를 배포하는 방법](How-to-roll-out-teams.md)
