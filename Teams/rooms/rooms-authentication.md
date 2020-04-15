@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Microsoft 팀 대화방에 대 한 최신 인증을 구성 하는 방법 알아보기
-ms.openlocfilehash: bef547ab0b9ade2edc433ec64bb1ef61eee4c040
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: ee95de457d5af82fb68acb4fd79b6b5a5a3a7ed0
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160119"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505615"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft 팀 대화방의 인증
 
@@ -33,7 +33,7 @@ Microsoft 팀 회의실 장치에 대 한 계정 관리는 응용 프로그램 �
 
 Microsoft 팀 대화방 응용 프로그램에서 최신 인증을 사용 하는 경우, Microsoft 팀, Exchange, 비즈니스용 Skype에 연결 하는 데 ADAL (Active Directory Authentication Library)을 사용 합니다. Microsoft 팀 대화방 장치는 공유 장치이 고 원활한 부팅을 수행 하 여 중요 한 운영 체제, 드라이버, 펌웨어 또는 응용 프로그램 업데이트를 얻을 수 있도록 합니다. 최신 인증 메커니즘은 사용자 개입이 필요 하지 않은 OAuth 2.0의 [리소스 소유자 암호 자격 증명](https://tools.ietf.org/html/rfc6749#section-1.3.3) 권한 부여 형식을 사용 합니다. 이는 Microsoft 팀 대화방 응용 프로그램에서 사용 하는 사용자 계정 및 리소스 계정에 대 한 최신 인증이 작동 하는 방식 간의 주요 차이점 중 하나입니다. 이 때문에 Microsoft 팀 대화방 리소스 계정은 MFA (다단계 인증), 스마트 카드 인증 또는 클라이언트 인증서 기반 인증 (최종 사용자에 게 사용할 수 있음)을 사용 하도록 구성 될 수 없습니다.
 
-Microsoft 팀 공간 장치 및 최종 사용자 장치에서 최신 인증이 작동 하는 방식 간의 다른 주요 차이점은 리소스 계정을 사용 하 여 "장치에 불만을 표시 해야 함" 또는 "하이브리드 Azure AD 조인 장치 필요"와 같은 장치 수준의 조건부 액세스 정책을 적용 하는 것입니다. 이는 장치 수준 개념이 응용 프로그램 수준에서 사용 될 때 최신 인증에 적용 되지 않기 때문입니다. 대신 Microsoft Intune에서 디바이스를 등록 하 고 [여기에 나와](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess)있는 지침을 사용 하 여 준수 정책을 적용할 수 있습니다.
+Microsoft 팀 공간 장치 및 최종 사용자 장치에서 최신 인증이 작동 하는 방법의 다른 주요 차이점은 리소스 계정을 사용 하 여 "장치를 규격으로 표시 해야 함" 또는 "하이브리드 Azure AD에 연결 된 디바이스 필요"와 같은 장치 수준의 조건부 액세스 정책을 적용 하는 것입니다. 이는 장치 수준 개념이 응용 프로그램 수준에서 사용 될 때 최신 인증에 적용 되지 않기 때문입니다. 대신 Microsoft Intune에서 장치를 등록 하 고 [Intune을 사용 하 여 팀 회의실을 관리할](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)때 제공 되는 지침에 따라 준수 정책을 적용할 수 있습니다.
 
 ## <a name="enable-modern-authentication-on-a-microsoft-teams-rooms-device"></a>Microsoft 팀 회의실 장치에서 최신 인증을 사용 하도록 설정
 
@@ -83,13 +83,13 @@ Exchange Online에서 기본 인증을 사용 하지 않도록 설정 하는 방
 
 하이브리드 토폴로지에서 최신 인증을 사용 하기 위한 전제 조건은 [하이브리드 최신 인증 개요 및 온-프레미스 Skype For Business 및 Exchange server와 함께 사용 하기 위한 필수 구성 요소](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview)에 명시 되어 있습니다. 문서에 설명 된 모든 전제 조건을 적용 합니다.
 
-그러나 Microsoft 팀 대화방에서는 최신 인증을 위해 [리소스 소유자 암호 자격 증명과](https://tools.ietf.org/html/rfc6749#section-1.3.3) 기본 REST api를 사용 하기 때문에 Microsoft 팀 대화방에만 해당 되는 중요 한 차이점을 명심 해야 합니다.
+그러나 Microsoft 팀 대화방에서는 최신 인증을 위한 [리소스 소유자 암호 자격 증명과](https://tools.ietf.org/html/rfc6749#section-1.3.3) 기본 REST api를 사용 하기 때문에 Microsoft 팀 대화방에만 해당 되는 중요 한 차이점을 고려해 야 합니다.
 
-- Exchange server 2016 CU8 이상 또는 Exchange Server 2019 CU1 이상 이어야 합니다.
+- Exchange Server 2016 CU8 이상 또는 Exchange Server 2019 CU1 이상 이어야 합니다.
 - 비즈니스용 Skype Server 2015 CU5 이상 또는 비즈니스용 Skype Server 2019 이상이 있어야 합니다.
 - 사용 중인 토폴로지에 관계 없이 MFA는 지원 되지 않습니다.
 - Azure AD에서 지원 되는 타사 인증 공급자를 사용 하는 경우 OAuth를 지원 하 고 리소스 소유자 암호 자격 증명 인증을 사용 해야 합니다.
-- 응용 프로그램을 사용 하 여 구성 된 리소스 계정에 대해 장치 수준의 조건부 액세스 정책을 사용 하지 마세요. 이렇게 하면 로그인 오류가 발생 합니다. 대신 Microsoft Intune에서 디바이스를 등록 하 고 [여기](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess)에 게시 된 지침을 사용 하 여 준수 정책을 적용 합니다.
+- 응용 프로그램을 사용 하 여 구성 된 리소스 계정에 대해 장치 수준의 조건부 액세스 정책을 사용 하지 마세요. 이렇게 하면 로그인 오류가 발생 합니다. 대신 Microsoft Intune에서 디바이스를 등록 하 고 [Intune을 사용 하 여 팀 회의실을 관리](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)하기 위해 게시 된 지침을 사용 하 여 준수 정책을 적용 합니다.
 
 ### <a name="configure-exchange-server"></a>Exchange Server 구성
 
@@ -107,4 +107,4 @@ Exchange Server에서 하이브리드 최신 인증을 사용 하도록 설정 �
 
 IP/위치 기반 액세스를 위해 Microsoft 팀 대화방에 사용 되는 리소스 계정을 구성할 수 있습니다. 자세한 내용은 [조건부 액세스: 위치에의 한 액세스 차단](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location)을 참조 하세요.
 
-다른 조건부 액세스 정책은 지원 되지 않습니다. 장치 준수에 대 한 자세한 내용은 [여기](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess)의 지침을 참조 하세요.  
+다른 조건부 액세스 정책은 지원 되지 않습니다. 디바이스 준수에 대 한 자세한 내용은 [Intune을 사용 하 여 팀 회의실 관리](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)를 참조 하세요.  

@@ -17,12 +17,12 @@ f1.keywords:
 description: Microsoft Teams 클라이언트 앱 및 관리자 환경에 대해 현재 알려진 문제 목록입니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d856962cf0fdb21d0dd58313b5ade6a9bab9d364
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 2a8775722daa5cd6fc236933fc0e0fd8bad1213a
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096623"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505535"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams의 알려진 문제
 
@@ -295,13 +295,6 @@ ms.locfileid: "43096623"
 |**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
 |:-----|:-----|:-----|:-----|
 |전화번호 차단됨|전화번호 차단됨: 전화번호를 삭제하기 전 리소스 계정을 삭제하면 전화번호가 차단됩니다.|전화번호 차단을 해제하려면 Microsoft 지원에 문의하세요.|2019년 5월 18일|
-
-## <a name="presence"></a>현재 상태
-|**문제 제목**|**동작 / 증상**|**알려진 해결 방법**|**확인 날짜**|
-|:-----|:-----|:-----|:-----|
-|사용자가 **Teams 전용** 모드로 이동한 후 Outlook 및 기타 Office 응용 프로그램의 현재 상태가 표시되지 않음 <br/> |사용자가 **Teams 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거하면 Outlook 및 기타 Office 앱에서 현재 상태가 작동하지 않습니다. 현재 상태는 Teams에서 잘 작동합니다.  <br/> |**Teams 전용** 모드에서 팀을 실행하는 경우에도 Outlook (및 기타 Office 앱)에서 현재 상태를 보려면 비즈니스용 Skype를 설치해야 합니다. Microsoft는 이 문제를 알고 있으며 해결하기 위해 노력하고 있습니다.  <br/> |2019년 9월  <br/> |
-
-
 
 ## <a name="provisioning"></a>프로비전
 

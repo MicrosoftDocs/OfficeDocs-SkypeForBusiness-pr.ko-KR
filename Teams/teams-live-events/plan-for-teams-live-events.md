@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft Teams에서 라이브 이벤트를 설정하기 전에 고려해야 하는 요소에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102369"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505625"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -55,6 +55,7 @@ ms.locfileid: "43102369"
 - Teams 모임에서 화면 공유 기능 활성화(*TeamsMeetingPolicy -ScreenSharingMode 매개 변수 = EntireScreen*).
 - Teams에서 라이브 이벤트 예약 활성화(*TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling 매개 변수 = True*)
 - Stream에서 라이브 이벤트를 만들 수 있는 사용 권한(외부 앱 또는 장치 프로덕션용)
+- 팀 회의를 예약할 수 있도록 구성 된 공존 모드 (*아일랜드, 모임 먼저 또는 팀만*해당).
 
 > [!IMPORTANT]
 > 인증되지 않은 익명 사용자는 Teams 라이브 이벤트에서 프로듀서 또는 발표자로 초대를 받을 수 없습니다. 
@@ -70,8 +71,6 @@ ms.locfileid: "43102369"
 |특정 그룹/사용자      |  예            |  예                 |
 
 <sup>1 개의</sup> 페더레이션 참석자는 사용자 & 그룹을 통해서만 초대할 수 있습니다. <br>
-
-
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 라이브 이벤트 및 Skype 모임 브로드캐스트
 
@@ -132,4 +131,3 @@ ms.locfileid: "43102369"
 - [Teams 라이브 이벤트란?](what-are-teams-live-events.md)
 - [Teams 라이브 이벤트 설정하기](set-up-for-teams-live-events.md)
 - [Teams에서 라이브 이벤트 설정 구성하기](configure-teams-live-events.md)
-

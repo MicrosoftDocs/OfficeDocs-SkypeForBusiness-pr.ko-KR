@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02239b1b77a8fdffbfd4e2a3081fc5a031c43878
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d1111a73fcd80b429d04ed688ac44053c4ef3ad9
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140791"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506869"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft 팀의 드라이브 인식 및 교육 구현
 
@@ -53,7 +53,7 @@ ms.locfileid: "43140791"
 
 - [팀에 대 한 강사 led 최종 사용자 교육](instructor-led-training-teams-landing-page.md)
 - [팀에 대 한 관리자 교육](itadmin-readiness.md)
-- [온라인 최종 사용자 교육](enduser-training.md)
+- [온라인 최종 사용자 영상 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [챔피언 & IT 전문가를 위한 클라우드 온라인 교육의 커피](https://aka.ms/CoffeeintheCloud) 
 - [Office 365 교육 치트 시트의 날짜](https://aka.ms/O365AdoptionTools)
 
