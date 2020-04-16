@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Slack에서 Microsoft Teams로 마이그레이션하기 위한 완전한 가이드
-ms.openlocfilehash: 15ef6203fa2cf27d081865e3966198f033b1bd80
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.openlocfilehash: 8e6b7383176713a34f5a00ca3914e42ac50f9834
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845217"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506879"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack에서 Microsoft Teams로 마이그레이션
 
@@ -353,7 +353,7 @@ Teams에 추가할 앱을 파악하려면 앱을 사용하는 방법을 이해�
 
 예를 들어, 두 제품에는 채널이 있지만 제품마다 다르게 사용됩니다. 예를 들어, Slack의 채널은 종종 단기 업무 대화를 위한 Teams의 채팅처럼 사용됩니다. 기타 주목할 만한 차이점은 스레드/스레드가 아닌 대화와 알림 설정 조정입니다.
 
-풍부한 [최종 사용자 Teams 교육](enduser-training.md) 라이브러리를 확인 하세요. 
+풍부한 [최종 사용자 Teams 비디오 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) 라이브러리를 확인하세요. 
 
 ## <a name="move-to-teams"></a>Teams로 이동 
 이제 전환 계획을 정의했으므로 Teams에서 팀과 채널을 만들 수 있습니다. 

@@ -17,12 +17,12 @@ description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96ff59470c8d9726b4c26bf0522e5b1e730b9014
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170516"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506849"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -68,6 +68,8 @@ ms.locfileid: "43170516"
 
 1. Microsoft가 정기적으로 업데이트하는 [자주 묻는 질문(FAQ): 원격 작업자 지원](FAQ-support-remote-workforce.md)을 검토하세요.
 
+2. [Teams용 어드바이저를 사용하여 Teams 배포](use-advisor-teams-roll-out.md) (Teams 관리 센터의) Teams용 어드바이저는 Teams 배포에 대해 안내합니다.
+
 1. 최근 블로그 게시물 읽기:
    
    - [Microsoft가 직원들이 Microsoft Teams를 사용해 원격으로 근무 가능하도록 지원하는 방법](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)을 참조하세요.
@@ -110,7 +112,7 @@ ms.locfileid: "43170516"
    - [보안 및 Teams](teams-security-guide.md)에서는 Microsoft 365의 엔터프라이즈급 보안 모범 사례 및 절차의 일부로 Teams 보안의 모든 기술 세부 정보가 제공됩니다.
 
 
-2.  직원들이 Teams를 최대한 활용할 수 있도록 [교육 링크를 보내세요](enduser-training.md).
+2.  직원들이 Teams를 최대한 활용할 수 있도록 [Teams 비디오 교육](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) 링크를 공유하세요.
 
 3. 세부 정보: Teams 배포에 대해 자세히 알아보기
 
