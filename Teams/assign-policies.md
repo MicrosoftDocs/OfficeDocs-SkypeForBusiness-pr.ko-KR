@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 사용자에 게 정책 할당
+title: Microsoft Teams에서 사용자에게 정책 할당
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,14 +16,14 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 팀에서 사용자에 게 정책을 할당 하는 다양 한 방법에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: 0ad4794d0813eec97ea723d86ae6b3c60e0c9129
-ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
+ms.openlocfilehash: 5c46b74519520950d31f01d4c86ae2a5002ae279
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068500"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521624"
 ---
-# <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft 팀에서 사용자에 게 정책 할당
+# <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams에서 사용자에게 정책 할당
 
 > [!NOTE]
 > **이 [문서에서 설명 하는](#assign-a-policy-to-a-group)Microsoft 팀의 기능 중 하나는 현재 비공개 미리 보기 에서만 사용할 수 있습니다. 이 기능에 대 한 Powershell cmdlet은 시험판 팀 PowerShell 모듈에 있습니다.** 이 기능의 릴리스 상태를 유지 하려면 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185)확인 하세요.
@@ -66,7 +66,7 @@ ms.locfileid: "43068500"
 | [정책 패키지 할당](#assign-a-policy-package)   | 조직에서 역할이 같거나 비슷한 특정 사용자 집합에 여러 정책을 할당 해야 합니다. 예를 들어 학교에서 교사에 게 교육 (교사) 정책 패키지를 할당 하 여 채팅, 통화, 모임, 교육 (보조 학생) 정책 패키지에 대 한 모든 액세스 권한을 보조 학생이 비공개 통화와 같은 특정 기능을 제한할 수 있습니다.  |팀 PowerShell 모듈의 Microsoft 팀 관리 센터 또는 PowerShell cmdlet|
 |[사용자 일괄 처리에 정책 할당](#assign-a-policy-to-a-batch-of-users)   | 대규모 사용자 집합에 정책을 할당 해야 합니다. 예를 들어 조직에서 한 번에 수백 명 또는 수천 명의 사용자에 게 정책을 할당 하려고 합니다.  |팀 PowerShell 모듈의 PowerShell cmdlet|
 |[그룹에 정책 할당](#assign-a-policy-to-a-group) (미리 보기)   |사용자의 그룹 구성원 자격을 기준으로 정책을 할당 해야 합니다. 예를 들어 보안 그룹 또는 조직 구성 단위의 모든 사용자에 게 정책을 할당 하려고 합니다.| 팀 PowerShell 모듈의 PowerShell cmdlet|
-| 사용자 일괄 처리에 정책 패키지 할당 (예정 대로) |||
+| [사용자 일괄 처리에 정책 패키지 할당](#assign-a-policy-package-to-a-batch-of-users)|조직이 동일 하거나 비슷한 역할을 하는 조직의 사용자 일괄 처리에 여러 정책을 할당 해야 합니다. 예를 들어, 교육 (교사) 정책 패키지를 일괄 처리를 사용 하 여 모든 교사에 게 배정 하 고, 채팅, 통화, 모임에 대 한 전체 액세스 권한을 부여 하 고, 교육 (보조 학생) 정책 패키지를 보조 학생의 일괄 처리에 할당 하 여 비공개 통화와 같은 특정 기능을 제한할 수 있습니다.|팀 PowerShell 모듈의 PowerShell cmdlet|
 | 그룹에 정책 패키지 할당 (예정 대로)   | ||
 
 ## <a name="assign-a-policy-to-individual-users"></a>개인 사용자에 게 정책 할당
@@ -373,6 +373,57 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $nu
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
 ```
+
+## <a name="assign-a-policy-package-to-a-batch-of-users"></a>사용자 일괄 처리에 정책 패키지 할당
+
+일괄 처리 정책 패키지를 사용 하는 경우 스크립트를 사용할 필요 없이 한 번에 대규모 사용자 집합에 정책 패키지를 할당할 수 있습니다. ```New-CsBatchPolicyPackageAssignmentOperation``` Cmdlet을 사용 하 여 할당 하려는 사용자 일괄 처리 및 정책 패키지를 제출 합니다. 할당이 백그라운드 작업으로 처리 되 고 각 일괄 처리에 대 한 작업 ID가 생성 됩니다. 그런 다음 ```Get-CsBatchPolicyAssignmentOperation``` cmdlet을 사용 하 여 일괄 처리에서 배정의 진행률과 상태를 추적할 수 있습니다.
+
+일괄 처리에는 최대 2만 명의 사용자를 포함할 수 있습니다. 개체 Id, UPN, SIP 주소 또는 전자 메일 주소로 사용자를 지정할 수 있습니다.
+
+> [!IMPORTANT]
+> 현재는 5000 사용자를 일괄적으로 한 번에 정책 패키지를 할당 하도록 제안 하 고 있습니다. 이러한 시간을 연장 하는 동안에는 처리 시간이 지연 될 수 있습니다. 이 늘어난 처리 시간에 대 한 영향을 최소화 하기 위해 최대 5000 사용자에 대 한 작은 일괄 처리 크기를 제출 하 고 이전 작업을 완료 한 후에 각 일괄 처리를 제출 하는 것이 좋습니다. 업무 시간 외에 일괄 처리를 제출 하는 것도 도움이 될 수 있습니다.
+
+### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Microsoft 팀 PowerShell 모듈을 설치 하 고 연결 합니다.
+
+다음을 실행 하 여 [Microsoft 팀 PowerShell 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams) 을 설치 합니다 (아직 없는 경우). 버전 1.0.5 이상이 설치 되어 있는지 확인 합니다.
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
+
+다음을 실행 하 여 팀에 연결 하 고 세션을 시작 합니다.
+
+```powershell
+Connect-MicrosoftTeams
+```
+
+메시지가 표시 되 면 관리자 자격 증명을 사용 하 여 로그인 합니다.
+
+### <a name="assign-a-policy-package-to-a-batch-of-users"></a>사용자 일괄 처리에 정책 패키지 할당
+
+이 예제에서는 ```New-CsBatchPolicyPackageAssignmentOperation``` cmdlet을 사용 하 여 Education_PrimaryStudent 정책 패키지를 일괄 사용자에 게 할당 합니다.
+
+```powershell
+New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent
+```
+
+자세한 내용은 [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)를 참조 하세요.
+
+### <a name="get-the-status-of-a-batch-assignment"></a>일괄 처리의 상태 가져오기
+
+일괄 처리 할당의 상태를 가져오려면 다음을 실행 합니다. 여기서 OperationId는 지정 된 일괄 처리에 대해 ```New-CsBatchPolicyAssignmentOperation``` cmdlet에서 반환 되는 작업 ID입니다.
+
+```powershell
+$Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
+```
+
+출력에 오류가 발생 했음을 표시 하는 경우 다음을 실행 하 여 ```UserState``` 속성에 있는 오류에 대 한 자세한 정보를 얻을 수 있습니다.
+
+```powershell
+Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
+```
+
+자세한 내용은 [get-help를 CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation). 
 
 ## <a name="related-topics"></a>관련 항목
 

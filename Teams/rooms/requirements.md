@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 이 문서에서는 Microsoft 팀 대화방을 지원 하기 위한 요구 사항을 요약 하 여 설명 합니다.
-ms.openlocfilehash: 9dba3a9972dee782b3d2df2ce48f7f38c19fcbc1
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: 2496fcb1af7d85a3d1c3ba755a2431aff40d5a70
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106685"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521604"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 팀 방에 대 한 요구 사항
 
@@ -78,7 +78,7 @@ Microsoft 팀 객실은 공간의 크기와 사용에 따라 다양 한 인증 �
   |Surface Pro </br>(다섯째 Gen) |Core i5 |8gb 또는 4gb |128 GB 이상 |
   |Surface Pro 4 |Core i5 |8gb 또는 4gb |128 GB 이상 |
 
-- 태블릿을 회의실 테이블로 보호 하는 다음 도킹 스테이션 옵션 중 하나입니다.
+- Surface Pro 장치에는 태블릿을 회의실 테이블로 보호 하기 위한 다음 도킹 스테이션 옵션 중 하나가 필요 합니다.
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [SR의 crestr](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )

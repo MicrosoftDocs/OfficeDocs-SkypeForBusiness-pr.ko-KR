@@ -17,12 +17,12 @@ description: 법률 소송 절차에 대해 전자적으로 저장 된 모든 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 75098323afa8aef9e80223cbc1883e9c12cb53c6
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510697"
+ms.locfileid: "43521544"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft 팀의 콘텐츠 eDiscovery 조사 수행
 
@@ -43,12 +43,12 @@ ms.locfileid: "43510697"
 | 각 사용자가 메시지를 읽었을 때 표시 하는 타임 스탬프 | 아니요 | |
 | 오디오 녹음 | 아니요 | |
 | 개인 채널 메시지 | 아니요 | |
-| Emojis, Gif, 스티커 | 아니요 | |
+| Emojis, Gif, 스티커 | 예 | |
 | 코드 조각 | 아니요 | |
 | 채팅 링크 | 아니요 | |
 | 반응과 (좋아요, 하트 등) | 아니요 | |
 | 편집 된 메시지 | 예 | 사용자가 보류 중인 경우에는 이전 버전의 편집 된 메시지가 보존 됩니다. |
-| 인라인 이미지 | 아니요 | |
+| 인라인 이미지 | 예 | |
 | 목차 | 아니요 | |
 | 제목 | 아니요 | |
 | 부호가 | 예 | 인용 부호로 묶은 콘텐츠를 검색할 수 있습니다. 그러나 검색 결과에는 콘텐츠가 인용 부호로 표시 되지 않습니다. |

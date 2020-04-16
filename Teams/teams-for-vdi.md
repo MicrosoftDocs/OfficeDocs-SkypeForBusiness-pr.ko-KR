@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cfe1c1af9fe85d307999289d318106c8ebc132a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: ee41f32ac2237e5e2c6e2e92fd18ea1c1952f7cd
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892298"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521614"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -135,7 +135,7 @@ Office 365 ProPlus는 팀의 컴퓨터 단위 설치를 지원 하지 않습니�
     - [32 비트 버전](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
     - [64 비트 버전](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
 
-    필요한 팀 데스크톱 앱의 최소 버전은 버전 1.2.00.31357입니다. (PSTN 보류가 이전 버전에서 지원 되지 않습니다.)
+    필요한 팀 데스크톱 앱의 최소 버전은 버전 1.3.00.4461입니다. (PSTN 보류가 이전 버전에서 지원 되지 않습니다.)
 
 2. 다음 명령 중 하나를 실행 하 여이 MSI를 VDI VM에 설치 합니다.
 
@@ -246,21 +246,21 @@ Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 정책을 설정
 DisallowCalling 호출 정책 및 AllOff 모임 정책을 사용자에 게 할당 하려면 다음 단계를 따릅니다.
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동 합니다.
-2. 사용자 이름 왼쪽의을 클릭 하 여 사용자를 선택 하 고 **설정 편집**을 클릭 합니다.
-3. 이렇게 하려면 다음을 수행합니다.
+2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집**을 클릭합니다.
+3. 다음을 수행합니다.
     1.  **호출 정책**에서 **DisallowCalling**를 클릭 합니다.
     2.  **모임 정책**에서 **AllOff**를 클릭 합니다.
 4. **적용**을 클릭 합니다.
 
-한 번에 여러 사용자에 게 정책을 할당 하려면 [팀 사용자 설정을 일괄적으로 편집](edit-user-settings-in-bulk.md)을 참조 하세요.
+한 번에 여러 사용자에게 정책을 할당하려면 [Teams 사용자 설정을 일괄 편집](edit-user-settings-in-bulk.md)을 참조하세요.
 
 또는 다음을 수행할 수도 있습니다.
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 할당 하려는 정책으로 이동 합니다. 예를 들면 다음과 같습니다.
     - **음성** > **통화 정책**으로 이동한 다음 **DisallowCalling**를 클릭 합니다.
     - **모임** > **모임 정책**으로 이동한 다음 **AllOff**를 클릭 합니다.
-3. **사용자 관리**를 선택 합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름을 사용 하 여 사용자를 검색 하 고 이름을 선택한 다음 **추가**를 클릭 합니다. 추가 하려는 각 사용자에 대해이 단계를 반복 합니다.
+3. **사용자 관리**를 선택합니다.
+4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 후 **추가**를 클릭합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 5. 사용자 추가를 마쳤으면 **저장**을 클릭 합니다.
 
 #### <a name="assign-policies-using-powershell"></a>PowerShell을 사용 하 여 정책 할당
@@ -283,7 +283,7 @@ PowerShell을 사용 하 여 모임 정책을 관리 하는 방법에 대해 자
 
 ## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>통화 및 모임으로 채팅 및 공동 작업을 사용 하 여 VDI에서 팀 마이그레이션
 
-사용자 수준 정책을 설정 하 여 통화 및 모임 기능을 해제 하 고 AV 최적화를 사용 하 여 Citrix로 마이그레이션하는 경우 VDI에 팀의 기존 구현이 있는 경우 정책을 설정 하 여 전화를 켜고 VDI 사용자의 해당 팀에 대 한 모임 기능입니다.
+사용자 수준 정책을 설정 하 여 통화 및 모임 기능을 해제 하 고, AV 최적화를 사용 하 여 Citrix로 마이그레이션하는 경우 VDI에 팀이 이미 구현 되어 있는 경우 VDI 사용자에 게 해당 팀의 통화 및 모임 기능을 설정 하도록 정책을 설정 해야 합니다.
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>통화 및 모임 기능을 켜려면 정책 설정
 
@@ -298,21 +298,21 @@ Microsoft 팀 관리 센터 또는 PowerShell을 사용 하 여 통화 및 모�
 AllowCalling 호출 정책 및 AllOn meeting policy를 사용자에 게 할당 하려면 다음 단계를 따릅니다.
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 창에서 **사용자**로 이동 합니다.
-2. 사용자 이름 왼쪽의을 클릭 하 여 사용자를 선택 하 고 **설정 편집**을 클릭 합니다.
-3. 이렇게 하려면 다음을 수행합니다.
+2. 사용자 이름의 왼쪽을 클릭하여 사용자를 선택한 후 **설정 편집**을 클릭합니다.
+3. 다음을 수행합니다.
     1.  **호출 정책**에서 **allowcalling**을 클릭 합니다.
     2.  **모임 정책**에서 **allon**을 클릭 합니다.
 4. **적용**을 클릭 합니다.
 
-한 번에 여러 사용자에 게 정책을 할당 하려면 [팀 사용자 설정을 일괄적으로 편집](edit-user-settings-in-bulk.md)을 참조 하세요.
+한 번에 여러 사용자에게 정책을 할당하려면 [Teams 사용자 설정을 일괄 편집](edit-user-settings-in-bulk.md)을 참조하세요.
 
 또는 다음을 수행할 수도 있습니다.
 
 1. Microsoft 팀 관리 센터의 왼쪽 탐색 모음에서 할당 하려는 정책으로 이동 합니다. 예를 들면 다음과 같습니다.
     - **음성** > **통화 정책**으로 이동한 다음 **allowcalling**를 클릭 합니다.
     - **모임** > **모임 정책**으로 이동한 다음, **allon**을 클릭 합니다.
-3. **사용자 관리**를 선택 합니다.
-4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름을 사용 하 여 사용자를 검색 하 고 이름을 선택한 다음 **추가**를 클릭 합니다. 추가 하려는 각 사용자에 대해이 단계를 반복 합니다.
+3. **사용자 관리**를 선택합니다.
+4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 후 **추가**를 클릭합니다. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 5. 사용자 추가를 마쳤으면 **저장**을 클릭 합니다.
 
 #### <a name="assign-policies-using-powershell"></a>PowerShell을 사용 하 여 정책 할당
@@ -360,7 +360,7 @@ PowerShell을 사용 하 여 모임 정책을 관리 하는 방법에 대해 자
 
 VDI와 관련 되지 않은 팀의 알려진 문제점은 [팀에 대해 알려진 문제점](Known-issues.md)을 참조 하세요.
 
-## <a name="troubleshooting"></a>해결사
+## <a name="troubleshooting"></a>문제 해결
 
 #### <a name="troubleshoot-citrix-components"></a>Citrix 구성 요소 문제 해결
 
@@ -369,4 +369,4 @@ VDA 및 CWA 문제를 해결 하는 방법에 대 한 자세한 내용은 [이 C
 ## <a name="related-topics"></a>관련 항목
 
 - [MSI를 사용 하 여 Microsoft 팀 설치](msi-deployment.md)
-- [팀 PowerShell 개요](teams-powershell-overview.md)
+- [Teams PowerShell 개요](teams-powershell-overview.md)
