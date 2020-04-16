@@ -13,20 +13,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에 대 한 리소스 계정을 설정 합니다.
-ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 1de087abdf08420a6300ae45466e9696aacb1ed1
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892308"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510787"
 ---
 # <a name="configure-resource-accounts"></a>리소스 계정 구성
 
 비즈니스용 Skype 서버 2019 하이브리드 구현에서는 통합 메시징을 위해 전화 시스템에서 제공 하는 클라우드 서비스만 사용 하 고 Exchange Online과 통합 하지 않습니다. 비즈니스용 Skype 서버 2019에서 이제 [Office 365의 전화 시스템](/MicrosoftTeams/here-s-what-you-get-with-phone-system)에서 제공 하는 것과 같이 클라우드 통화 큐와 자동 전화 교환을 사용할 수 있습니다.
 
-비즈니스용 Skype 서버 2019에서 전화 시스템 자동 전화 교환 또는 통화 큐를 사용 하려면 응용 프로그램 끝점으로 작동 하 고 전화 번호를 할당할 수 있는 리소스 계정을 만들고 온라인 팀 관리 센터를 사용 하 여 통화 큐를 구성 해야 합니다. 자동 전화 교환입니다. 이 리소스 계정은 온라인으로 사용할 수 있습니다 (이 문서에서 설명 하는 것 처럼, [Microsoft 팀의 리소스 계정 관리](/MicrosoftTeams/manage-resource-accounts) 를 참조 하세요.) 또는 온-프레미스입니다. 일반적으로 여러 전화 시스템 자동 전화 교환 또는 전화 큐 노드가 있으며, 각각은 온라인 또는 비즈니스용 Skype 서버 2019에 있는 리소스 계정에 매핑됩니다.
+비즈니스용 Skype 서버 2019에서 전화 시스템 자동 전화 교환 또는 통화 큐를 사용 하려면 응용 프로그램 끝점 역할을 하 고 전화 번호를 할당할 수 있는 리소스 계정을 만든 다음 온라인 팀 관리 센터를 사용 하 여 통화 큐 또는 자동 전화 교환을 구성 해야 합니다. 이 리소스 계정은 온라인으로 사용할 수 있습니다 (이 문서에서 설명 하는 것 처럼, [Microsoft 팀의 리소스 계정 관리](/MicrosoftTeams/manage-resource-accounts) 를 참조 하세요.) 또는 온-프레미스입니다. 일반적으로 여러 전화 시스템 자동 전화 교환 또는 전화 큐 노드가 있으며, 각각은 온라인 또는 비즈니스용 Skype 서버 2019에 있는 리소스 계정에 매핑됩니다.
 
-기존 Exchange UM 자동 전화 교환과 전화 큐 시스템이 있는 경우 Exchange Server 2019 또는 Exchange online으로 전환 하기 전에 아래 설명에 따라 세부 정보를 수동으로 기록 하 고 팀 관리 센터를 사용 하 여 완전히 새로운 시스템을 구현 해야 합니다. .
+기존 Exchange UM 자동 전화 교환과 전화 큐 시스템이 있는 경우 Exchange Server 2019 또는 Exchange online으로 전환 하기 전에 아래 설명에 따라 세부 정보를 수동으로 기록 하 고 팀 관리 센터를 사용 하 여 완전히 새로운 시스템을 구현 해야 합니다.
 
 ## <a name="overview"></a>개요
 
@@ -105,7 +105,7 @@ ms.locfileid: "42892308"
 
    최상위 자동 전화 교환 또는 통화 큐에 할당 될 경우 자원 계정에 할당 된 전화 번호가 필요 합니다. 사용자 (구독자) 전화 번호를 리소스 계정에 할당할 수 없는 경우 서비스 수신자 또는 무료 전화 번호로만 사용할 수 있습니다.
 
-     리소스 계정에 직접 라우팅 하이브리드 번호를 할당할 수 있습니다. 자세한 내용은 [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan)을 참조 하십시오.
+     리소스 계정에 직접 라우팅 또는 하이브리드 번호를 할당할 수 있습니다. 자세한 내용은 [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) 및 [클라우드 자동 전화 교환](plan-cloud-auto-attendant.md)계획을 참조 하십시오.
 
      > [!NOTE]
      > 자동 전화 교환 및 통화 큐에 대 한 리소스 계정에 할당 되는 직접 라우팅 서비스 번호는 Microsoft 팀 사용자 및 에이전트에 대해서만 지원 됩니다.

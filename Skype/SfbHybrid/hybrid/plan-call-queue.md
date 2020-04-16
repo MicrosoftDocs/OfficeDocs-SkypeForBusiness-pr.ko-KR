@@ -1,7 +1,7 @@
 ---
 title: 클라우드 통화 큐 계획
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에서 클라우드 자동 전화 교환을 사용 하는 방법에 대해 간략하게 설명 합니다.
-ms.openlocfilehash: 24a0bba82ef38288f5c96cc7c51ce1bfb88c8f05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735228"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510797"
 ---
 # <a name="plan-cloud-call-queues"></a>클라우드 통화 큐 계획
 
@@ -31,7 +31,7 @@ ms.locfileid: "41735228"
 각 호출 큐에는 Microsoft 팀 관리 센터의 통화 큐에 직접 연결 될 비즈니스용 Skype 서버 2019 시스템에서 **리소스 계정** ( [구성 리소스 계정](configure-onprem-ra.md)참조)이 할당 됩니다. 통화 큐에 대 한 자세한 내용을 보려면 [클라우드 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) 및 통화 큐에 대해 존재 하는 옵션을 참조 하십시오.
 
 > [!NOTE]
-> 여러 전화 번호를 통화 큐에 할당할 수 있지만 Microsoft 서비스 번호 또는 하이브리드 번호 여야 합니다.
+> 여러 전화 번호를 통화 큐에 할당할 수 있지만 Microsoft 서비스 번호, 직접 라우팅 번호 또는 하이브리드 번호 여야 합니다.
 
 ## <a name="requirements"></a>요구 사항
 
@@ -61,7 +61,7 @@ ms.locfileid: "41735228"
 
 [전화 사용자 인터페이스를 사용하여 사용자 지정 음성 안내 녹음 사용](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[클라우드 자동 전화 교환 이란?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
+[클라우드 자동 전화 교환이란?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
 [클라우드 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
@@ -69,4 +69,4 @@ ms.locfileid: "41735228"
 
 [비즈니스용 Skype 서버 및 Office 365 간 하이브리드 연결 구성](configure-hybrid-connectivity.md)
 
-[Microsoft 팀의 자원 계정 관리](/MicrosoftTeams/manage-resource-accounts)
+[Microsoft Teams에서 리소스 계정 관리](/MicrosoftTeams/manage-resource-accounts)

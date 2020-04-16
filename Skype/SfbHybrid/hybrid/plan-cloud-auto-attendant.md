@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 서버 2019에서 클라우드 자동 전화 교환 사용 개요
-ms.openlocfilehash: 2cb4c54e4c70e9187e44c5de3cb70fac85be30a6
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f0b8018e7a926444e7920ccac31ed3ff4ab5c15f
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150479"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510807"
 ---
 # <a name="plan-cloud-auto-attendants"></a>클라우드 자동 전화 교환 계획
 
@@ -25,10 +25,10 @@ Exchange 통합 메시징에 사용 되는 자동 전화 교환 (exchange Server
 
 이 사실은 자동 전화 교환과 같은 통합 메시징 기능을 사용 하려는 경우 비즈니스용 Skype 서버 2019을 하이브리드 방식으로 구현 하는 것을 의미 합니다. 자세한 내용은 [비즈니스용 Skype 서버 및 Office 365에서 하이브리드 연결 구성을](configure-hybrid-connectivity.md) 참조 하세요.
 
-자동 전화 교환은 고객 통화를 허용 하 고 인사말을 재생 하 고 메뉴 옵션을 제공 하며 음성 또는 dialpad를 사용 하는 발신자와 상호 작용 하 여 올바른 대상으로 호출을 라우팅하는 클라우드 서비스입니다. 각 자동 전화 교환에는 Microsoft 팀 관리 센터의 자동 전화 교환에 직접 연결 될 비즈니스용 Skype 서버 2019 시스템에서 **리소스 계정** ([구성 리소스 계정](configure-onprem-ra.md)참조)이 할당 됩니다. 자동 전화 교환에 대 한 자세한 내용 및 자동 전화 교환에 대 한 옵션 및 기능은 [클라우드 자동 전화 교환 란?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) 를 참조 하세요.
+자동 전화 교환은 고객 통화를 허용 하 고 인사말을 재생 하 고, 메뉴 옵션을 제공 하며, 음성 또는 다이얼 패드를 사용 하는 발신자와 상호 작용 하 여 호출을 올바른 대상으로 라우팅하는 클라우드 서비스입니다. 각 자동 전화 교환에는 Microsoft 팀 관리 센터의 자동 전화 교환에 직접 연결 될 비즈니스용 Skype 서버 2019 시스템에서 *리소스 계정* ( [구성 리소스 계정](configure-onprem-ra.md)참조)이 할당 됩니다. 자동 전화 교환에 대 한 자세한 내용 및 자동 전화 교환에 대 한 옵션 및 기능은 [클라우드 자동 전화 교환 란?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) 를 참조 하세요.
 
 > [!NOTE]
-> 자동 전화 교환에 여러 Microsoft 서비스 번호나 하이브리드 번호를 할당할 수 있습니다.
+> 자동 전화 교환에 여러 Microsoft 서비스 번호, 직접 라우팅 번호 또는 하이브리드 번호를 할당할 수 있습니다.
 
 클라우드 자동 전화 교환에 대 한 수신 전화는 다음과 같이 여러 경로 중 하나를 사용할 수 있습니다.
 
@@ -58,7 +58,7 @@ Exchange 통합 메시징에 사용 되는 자동 전화 교환 (exchange Server
    자세한 내용은 비즈니스용 [Skype 서버 및 office 365의 하이브리드 연결 계획](plan-hybrid-connectivity.md) 및 [비즈니스용 Skype 서버 및 office 365 간의 하이브리드 연결 구성을](configure-hybrid-connectivity.md)참조 하세요.
 
 - 자동 전화 교환에 전화 번호를 할당 하는 경우에는 [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) 라이선스가 필요 합니다.
-- 각 자동 전화 교환에 대 한 온라인 [리소스 계정](/MicrosoftTeams/manage-resource-accounts.md) 또는 온-프레미스 [리소스 계정을](configure-onprem-ra.md)만들고 전화 번호 및 라이선스를 할당 합니다. 
+- 각 자동 전화 교환에 대 한 온라인 [리소스 계정](/MicrosoftTeams/manage-resource-accounts.md) 또는 온-프레미스 [리소스 계정을](configure-onprem-ra.md) 만들고 전화 번호 및 라이선스를 할당 합니다. 
 
 ## <a name="migration-and-interoperability"></a>마이그레이션 및 상호 운용성
 
@@ -108,7 +108,7 @@ Microsoft는 다음과 같은 마이그레이션 경로를 권장 합니다.
 
 [전화 사용자 인터페이스를 사용하여 사용자 지정 음성 안내 녹음 사용](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[클라우드 자동 전화 교환 이란?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
+[클라우드 자동 전화 교환이란?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
 [클라우드 자동 전화 교환 설정](/microsoftteams/create-a-phone-system-auto-attendant)
 
