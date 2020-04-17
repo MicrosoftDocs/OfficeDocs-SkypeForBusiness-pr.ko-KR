@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
 ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/14/2020
 ms.locfileid: "43505625"
@@ -55,7 +55,7 @@ ms.locfileid: "43505625"
 - Teams 모임에서 화면 공유 기능 활성화(*TeamsMeetingPolicy -ScreenSharingMode 매개 변수 = EntireScreen*).
 - Teams에서 라이브 이벤트 예약 활성화(*TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling 매개 변수 = True*)
 - Stream에서 라이브 이벤트를 만들 수 있는 사용 권한(외부 앱 또는 장치 프로덕션용)
-- 팀 회의를 예약할 수 있도록 구성 된 공존 모드 (*아일랜드, 모임 먼저 또는 팀만*해당).
+- 팀 모임(*아일랜드, 모임 먼저 또는 Teams 전용*)를 예약할 수 있는 공존 모드가 구성되었습니다.
 
 > [!IMPORTANT]
 > 인증되지 않은 익명 사용자는 Teams 라이브 이벤트에서 프로듀서 또는 발표자로 초대를 받을 수 없습니다. 
@@ -70,7 +70,7 @@ ms.locfileid: "43505625"
 |회사의 모든 사용자           |  예            |  예                 |
 |특정 그룹/사용자      |  예            |  예                 |
 
-<sup>1 개의</sup> 페더레이션 참석자는 사용자 & 그룹을 통해서만 초대할 수 있습니다. <br>
+<sup>1</sup> 페더레이션 참석자는 사용자 및 그룹을 통해서만 초대 받을 수 있습니다. <br>
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 라이브 이벤트 및 Skype 모임 브로드캐스트
 
@@ -80,8 +80,8 @@ ms.locfileid: "43505625"
 |---------|---------|---------|---------|
 |대상 그룹 최대 크기 |10,000명의 참석자 |10,000명의 참석자<sup>1</sup> |10,000명의 참석자<sup>1</sup> |
 |라이브 이벤트 최대 시간 |4시간 |4시간 |4시간 |
-|라이브 이벤트의 발표자 및 제작자 최대 수 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Office 365 테넌트당 최대 동시 라이브 이벤트 수 |~  | ~  | ~  |
+|라이브 이벤트에서 발표자 및 프로듀서의 최대 수 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
+|Office 365 테넌트당 최대 동시 라이브 이벤트 수 |15  | 15  | 15  |
 |라이브 이벤트 만들기 |   Skype 모임 브로드캐스트 포털 |Teams, Teams를 통한 Yammer | Teams, Teams를 통한 Yammer, Stream |
 |대상 그룹 참여 – Yammer |&#x2714; |&#x2714; (통합 환경) |&#x2714; (통합 환경) |
 |대상 그룹 참여 – 중재된 Q&A |&#x2714;  |&#x2714; |&#x2714; |
@@ -94,7 +94,7 @@ ms.locfileid: "43505625"
 |페더레이션 및 게스트 발표자/참석자 |&#x2714;(비즈니스용 Skype)  |  &#x2714;(Teams) |해당 없음 |
 |발표자 – PSTN 액세스 |&#x274C; |&#x2714;(Teams) |해당 없음 |
 |화면 발표 |&#x274C; |&#x2714;(Teams) |해당 없음 |
-|PowerPoint 발표(PPT 공유) |&#x2714; |&#x274C; (화면 공유를 통해 완화) |해당 없음 |
+|PowerPoint 발표(PPT 공유) |&#x2714; |&#x274C; (화면 공유를 통해 완화됨) |해당 없음 |
 |클라우드 기반 모임 녹음/녹화 |&#x2714; |&#x2714; |&#x2714; |
 |자동으로 Stream에 녹음/녹화 게시 |&#x274C; |&#x274C; |&#x2714; |
 |라이브 캡션 및 자막 |&#x2714; |&#x2714; |&#x274C; |
@@ -104,8 +104,8 @@ ms.locfileid: "43505625"
 |프로듀서용 브로드캐스트 후 참석 보고서 |&#x2714; |&#x2714; |&#x274C; |
 |대상 그룹 감정 분석 – 실시간 투표 및 설문 조사 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> 설정된 제한이 변경되었을 수 있습니다. [팀에 대 한 제한 및 사양을](../limits-specifications-teams.md)확인 합니다.<br/>
-<sup>2</sup> 라이브 이벤트에서 최대 250 명의 발표자와 제작자를 가질 수 있지만, 사용자는 스포크를 사용 하 여 목록에 표시 되는 최근 10 개 밖에 없습니다.
+<sup>1</sup> 설정된 제한이 변경되었을 수 있습니다. [Teams의 제한과 사양](../limits-specifications-teams.md)을 확인하세요.<br/>
+<sup>2</sup> 라이브 이벤트에는 최대 250명의 발표자와 프로듀서가 있을 수 있지만, 마지막 10명만 목록에 나타납니다.
 
 
 ## <a name="regional-availability"></a>국가별 가용성
