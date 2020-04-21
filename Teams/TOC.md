@@ -657,14 +657,15 @@
 
 <!-- ============================================================ -->
 
-# 보안 및 규정 준수
+# 보안, 개인 정보 보호, 규정 준수
 ## [개요](security-compliance-overview.md)
-## [Teams의 데이터 위치](location-of-data-in-teams.md)
-## 보안
+## 보안 및 개인 정보
 ### [보안 가이드](teams-security-guide.md)
 ### [ID 모델 및 인증](identify-models-authentication.md)
 ### [최신 인증을 사용하여 Teams에 로그인](sign-in-teams.md)
 ### [Teams의 안전한 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [개인 정보 보호 및 Microsoft Teams](teams-privacy.md)
+### [Teams의 데이터 위치](location-of-data-in-teams.md)
 ## 규정 준수
 ### [정보 장벽](information-barriers-in-teams.md)
 ### [보존 정책](retention-policies.md)
@@ -728,7 +729,6 @@
 ### [하드웨어 디코더와 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)
 ### [MSI를 사용하여 Teams 설치](msi-deployment.md)
 ### [조직에서 Teams 설정](Office-365-set-up.md)
-### [바이러스 백신 검색에서 제외할 Teams 파일 및 폴더](teams-files-folders-antivirus-perf.md)
 ### [Microsoft Teams에서 메모리를 사용하는 방법](teams-memory-usage-perf.md)
 ### [Office 365 URL 및 IP 주소 범위](office-365-urls-ip-address-ranges.md)
 ### [VDI(Virtualized Desktop Infrastructure)용 Teams](teams-for-vdi.md)

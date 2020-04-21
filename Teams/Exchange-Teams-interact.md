@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d97f92b56b4a3e38489b1f99f8ba25497485495f
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 18ad8a2808b12eb05e51d781cb422c65ad14e7ad
+ms.sourcegitcommit: edca9c1310b22a7b15ee1e3d00b4064cf647aa1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43191245"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43580676"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 및 Microsoft 팀의 상호 작용 방식
 
@@ -30,16 +30,18 @@ ms.locfileid: "43191245"
 
 전체 Teams 환경에서 모든 사용자에 대해 Exchange Online, SharePoint Online 및 Office 365 그룹 만들기가 가능하도록 설정해야 합니다.
 
-사용자의 Exchange 사서함을 온라인 또는 온-프레미스로 호스트할 수 있습니다. 그러나 일부 기능을 사용 하려면 Office 365 테 넌 트를 통해 하이브리드 배포를 배치 해야 합니다.
+사용자의 Exchange 사서함을 온라인 또는 온-프레미스로 호스트할 수 있습니다. 온-프레미스 Exchange와 통합 하려면 Exchange 하이브리드 배포가 필요 합니다. 하이브리드 배포를 설정 하는 방법에 대 한 자세한 내용은 [Exchange Server 하이브리드 배포](https://docs.microsoft.com/exchange/exchange-hybrid)를 참조 하세요.
 
 Exchange Online 또는 Exchange 전용 vNext에서 호스팅되는 사용자는 팀의 모든 기능을 사용할 수 있습니다. 팀과 채널을 만들고, 모임을 만들고, 보고, 사용자 프로필 사진을 수정할 수 있으며 (웹 사서함 정책의 Outlook에서 수행할 수 있는 경우) 커넥터, 탭, 인공 지능을 추가 하 고 구성 합니다.
 
 Exchange Online 전용 (레거시)에서 호스팅되는 사용자는 Office 365의 Azure Active Directory와 동기화 되어야 합니다. 팀과 채널을 만들고 참가 하 고, 탭 및 인공 지능을 추가 및 구성 하 고, 채팅 및 통화 기능을 활용할 수 있습니다. 그러나 프로필 사진을 수정 하거나, 모임을 관리 하거나, outlook 연락처에 액세스 하거나, 연결선을 관리할 수는 없습니다.
 
-온-프레미스에 호스팅되는 사서함이 있는 사용자는 Azure Active Directory와 동기화 되어야 합니다. 위의 시나리오에서 모든 기능을 사용할 수 있지만, 또한 사용자 프로필 그림 (웹 사서함 정책의 Outlook에서 수행할 수 있는 경우)을 변경 하 고, Exchange Server 2016 (누적 업데이트 3)을 제공 하 여 OAuth가 구성 된 온-프레미스로 실행 되는 경우 (특히 하이브리드 구성 마법사를 통해 가능).
+온-프레미스에 호스팅되는 사서함이 있는 사용자는 Azure Active Directory와 동기화 되어야 합니다. 위의 시나리오에서 모든 기능을 활용할 수 있습니다. 또한 사용자 프로필 그림 (웹 사서함 정책의 Outlook에서 수행할 수 있는 경우)을 변경 하 고, exchange Server 2016 (누적 업데이트 3)을 제공 하 여 OAuth 구성 (특히 Exchange 하이브리드 구성 마법사를 통해 가능)으로 온-프레미스로 실행 되는 경우 [exchange 및 Exchange Online 조 직 간의 oauth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)에 설명 되어 있습니다. 이러한 사용자에 대해 일정 위임을 사용 하도록 설정 하려면 [통합 구성 및 비즈니스용 Skype Online 및 Exchange Server 간 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)에서 설명한 대로 2-3 단계를 완료 해야 합니다. 이 단계에서는 팀 예약 응용 프로그램에 대리인 권한을 확인 하는 데 필요한 권한을 제공 합니다.   
 
 다음 표에서는 Exchange 환경을 기반으로 하는 기능 가용성에 대 한 유용한 빠른 참조를 제공 합니다.
 
+> [!NOTE]
+> 온-프레미스 Exchange와 팀 간의 기능 통합에는 Exchange 하이브리드 배포가 필요 합니다. 이 요구 사항은 다음 표의 일부 기능에서 호출 되는 버전 관련 요구 사항 외에도 해당 됩니다.
 
 **지원 되는 작업:**
 
@@ -76,7 +78,7 @@ Microsoft 팀은 다양 한 Office 365 서비스를 사용 하 여 사용자에 
 
 - Microsoft 팀에서 팀을 만들려면 Office 365 그룹 만들기가 사용 하도록 설정 되어 있어야 합니다.
 
-- Microsoft 팀이 Exchange 온-프레미스에서 작업 하도록 하려면 [exchange 및 Exchange Online 조 직 간의 OAuth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)에 설명 된 대로 새 Exchange OAuth 인증 프로토콜을 구성 해야 합니다.
+- Microsoft 팀이 Exchange 온-프레미스에서 작업 하도록 하려면 exchange [및 Exchange Online 조 직 간의 OAuth 인증 구성](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)에 설명 된 대로 Exchange 하이브리드 마법사를 실행 하 여 새 exchange OAuth 인증 프로토콜을 구성 해야 합니다. Exchange 온-프레미스 사서함을 사용 하는 사용자가 다른 사용자를 대신 하 여 팀 모임을 예약할 수 있도록 하려면 [통합 구성 및 비즈니스용 Skype Online 및 Exchange Server 간 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)에서 설명 하는 2-3 단계도 완료 해야 합니다. 
 
 > [!NOTE]
 >Exchange 온-프레미스 및 팀 통합의 경우 AAD 동기화 된 사용자에 대해 필요한 라이선스를 할당 해야 합니다.
