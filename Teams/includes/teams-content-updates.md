@@ -3,36 +3,6 @@
 
 
 
-## <a name="week-of-march-09-2020"></a>1 월 9 일, 2020
-
-
-| 게시 날짜 |주제 제목 | 바뀌지 |
-|------|------------|--------|
-| 3/10/2020 | [Teams 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 으 |
-| 3/10/2020 | [데이터 수집 사례](/MicrosoftTeams/data-collection-practices) | 으 |
-| 3/10/2020 | [통화 품질 대시보드에서 사용할 수 있는 크기 및 측정](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 으 |
-| 3/10/2020 | [PSTN 서비스 데스크에 문의](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 으 |
-| 3/10/2020 | [포트 주문의 상태 확인](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | 으 |
-| 3/10/2020 | [Microsoft 팀의 초대에 포함 된 전화 번호 설정](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 으 |
-| 3/10/2020 | [Microsoft Teams 사용자를 위한 강사 진행 교육 및 비디오](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 으 |
-| 3/10/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/remote-learning-edu) | 으 |
-| 3/10/2020 | [Microsoft 팀에서 장치 관리](/MicrosoftTeams/device-management) | 으 |
-| 3/11/2020 | [Microsoft 팀에서 앱 권한 정책 관리](/MicrosoftTeams/teams-app-permission-policies) | 으 |
-| 3/11/2020 | [Microsoft 팀에서 앱 설치 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 으 |
-| 3/11/2020 | [Microsoft 팀에서 사용자 지정 앱 정책 및 설정 관리](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 으 |
-| 3/11/2020 | [Microsoft Teams에서 사용자에게 정책 할당](/MicrosoftTeams/assign-policies) | 으 |
-| 3/11/2020 | [학교에서 대규모 사용자 집합에 정책 할당](/MicrosoftTeams/batch-policy-assignment-edu) | 으 |
-| 3/12/2020 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 으 |
-| 3/12/2020 | [자주 묻는 질문(FAQ) - 원격 작업자 지원](/MicrosoftTeams/faq-support-remote-workforce) | 으 |
-| 3/13/2020 | [인도의 사용 가능 여부](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india) | 으 |
-| 3/13/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/remote-learning-edu) | 으 |
-| 3/13/2020 | [Microsoft 팀의 개인 채널 수명 주기 관리](/MicrosoftTeams/private-channels-life-cycle-management) | 으 |
-| 3/13/2020 | [Microsoft 팀 PSTN 사용 보고서](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 으 |
-| 3/13/2020 | [Microsoft Teams 사용자를 위한 강사 진행 교육 및 비디오](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 으 |
-| 3/13/2020 | [Microsoft Teams에 대한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 으 |
-| 3/13/2020 | [Microsoft Teams를 사용하여 원격 작업자 지원하기](/MicrosoftTeams/support-remote-work-with-teams) | 으 |
-
-
 ## <a name="week-of-march-16-2020"></a>1 월 16 일, 2020
 
 
@@ -350,7 +320,7 @@
 | 4/3/2020 | [비즈니스용 Skype 및 Microsoft 팀 간 상호 운용성](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 으 |
 | 4/3/2020 | [사용자 지정 앱 정책 및 설정 관리](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 으 |
 | 4/3/2020 | [PowerShell을 사용 하 여 라이브 이벤트 정책 설정](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 으 |
-| 4/3/2020 | [Microsoft 팀에서 실시간 이벤트 설정](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 으 |
+| 4/3/2020 | [Microsoft Teams에서 실시간 이벤트 설정](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 으 |
 | 4/3/2020 | [무료 전화 걸기 제한 사항](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | 으 |
 | 4/3/2020 | [아르헨티나의 무료 전화 걸기 제한](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina) | 으 |
 | 4/3/2020 | [오스트레일리아의 무료 전화 걸기 제한](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia) | 으 |
@@ -453,3 +423,43 @@
 | 4/10/2020 | [일선 직원을 위한 대규모 Microsoft Teams 프로비저닝](/MicrosoftTeams/flw-scripted-deployment) | 으 |
 | 4/10/2020 | [포트 순서](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | 으 |
 | 4/10/2020 | [Microsoft 팀에 전화 번호 전송](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | 으 |
+
+
+## <a name="week-of-april-13-2020"></a>4 월 13 일, 2020 주
+
+
+| 게시 날짜 |주제 제목 | 바뀌지 |
+|------|------------|--------|
+| 4/14/2020 | [Microsoft Teams의 알려진 문제](/MicrosoftTeams/known-issues) | 으 |
+| 4/14/2020 | [Microsoft 팀을 위한 클라우드 비디오 Interop](/MicrosoftTeams/cloud-video-interop) | 으 |
+| 4/14/2020 | [클라우드 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으 |
+| 4/14/2020 | [채널 중재 설정 및 관리](/MicrosoftTeams/manage-channel-moderation-in-teams) | 으 |
+| 4/14/2020 | [모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 으 |
+| 4/14/2020 | [Microsoft 팀 대화방의 인증](/MicrosoftTeams/rooms/rooms-authentication) | 으 |
+| 4/14/2020 | [Microsoft Teams의 라이브 이벤트 계획하기](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 으 |
+| 4/14/2020 | [관리 교육 리소스-Microsoft 팀](/MicrosoftTeams/itadmin-readiness) | 으 |
+| 4/14/2020 | [Microsoft 팀 채택](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 으 |
+| 4/14/2020 | Microsoft 팀의 최종 사용자 교육 | 제거할 |
+| 4/14/2020 | [Slack에서 Microsoft Teams로 마이그레이션](/MicrosoftTeams/migrate-slack-to-teams) | 으 |
+| 4/14/2020 | [Microsoft Teams를 사용하여 원격 작업자 지원하기](/MicrosoftTeams/support-remote-work-with-teams) | 으 |
+| 4/14/2020 | [인식 주도 및 교육 구현](/MicrosoftTeams/teams-adoption-drive-awareness) | 으 |
+| 4/14/2020 | [Microsoft Teams 관리자 교육](/MicrosoftTeams/training-microsoft-teams-landing-page) | 으 |
+| 4/14/2020 | [콘텐츠의 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 으 |
+| 4/14/2020 | [Teams에서 사용자 현재 상태 확인](/MicrosoftTeams/presence-admins) | 으 |
+| 4/14/2020 | [Microsoft 팀 대화방 장치 설정 원격 관리](/MicrosoftTeams/rooms/xml-config-file) | 으 |
+| 4/15/2020 | [Microsoft Teams에서 사용자에게 정책 할당](/MicrosoftTeams/assign-policies) | 으 |
+| 4/15/2020 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/rooms/requirements) | 으 |
+| 4/15/2020 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 으 |
+| 4/15/2020 | [콘텐츠의 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 으 |
+| 4/15/2020 | [Outlook에서 Microsoft Teams 모임 추가 기능 사용](/MicrosoftTeams/teams-add-in-for-outlook) | 으 |
+| 4/15/2020 | [Microsoft 팀 사용 보고서](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 으 |
+| 4/15/2020 | [Microsoft 팀 사용자 활동 보고서](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 으 |
+| 4/15/2020 | Microsoft 팀\| 을 위한 네트워크 준비 방화벽 요구 사항 포트 | 제거할 |
+| 4/16/2020 | [Microsoft Teams의 알려진 문제](/MicrosoftTeams/known-issues) | 으 |
+| 4/16/2020 | [로컬 미디어 최적화 직접 라우팅](/MicrosoftTeams/direct-routing-media-optimization-configure) | 으 |
+| 4/17/2020 | [Outlook에서 Microsoft Teams 모임 추가 기능 사용](/MicrosoftTeams/teams-add-in-for-outlook) | 으 |
+| 4/17/2020 | 온 보 딩 검사 목록-네트워킹 구성-Microsoft 팀 | 제거할 |
+| 4/17/2020 | [포트 주문 수동 제출](/MicrosoftTeams/phone-number-calling-plans/manually-submit-port-order) | 으 |
+| 4/17/2020 | [PowerShell 스크립트 샘플-메시징 정책 만들기 & 할당](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | 으 |
+| 4/17/2020 | [Microsoft Teams의 라이브 이벤트 계획하기](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 으 |
+| 4/17/2020 | [Microsoft Teams 개인 정보 보호](/MicrosoftTeams/teams-privacy) | 으 |
