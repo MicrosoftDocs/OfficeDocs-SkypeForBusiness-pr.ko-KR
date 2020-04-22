@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26eb3af88b6e16de0535d25d4b5205a72626b7b2
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: ca163d2a705b4aaebc77c03dbf4c92edf9c5d601
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521534"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749575"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 =======================================
@@ -111,22 +111,51 @@ Teams 클라이언트는 사용자가 필요로 하는 버전이 32비트인지 
 Teams 모임 추가 기능은 아직 기능적으로 빌드하는 중이므로 다음 사항을 고려해야 합니다.
 
 - 추가 기능은 채널의 모임이 아니라 특정 참가자와 예약된 모임에 사용할 수 있습니다. 채널 모임은 Teams 내에서 예약해야 합니다.
-- 인증 프록시가 사용자 PC 및 Teams 서비스의 네트워크 경로에 있는 경우 추가 기능이 작동하지 않습니다.
+- 인증 프록시가 사용자 PC 및 팀 서비스의 네트워크 경로에 있는 경우 추가 기능이 작동 하지 않습니다.
 - 사용자가 Outlook 내에서 라이브 이벤트를 예약할 수 없습니다. Teams로 이동하여 라이브 이벤트를 예약합니다. 자세한 내용은 [Microsoft Teams 라이브 이벤트란?](teams-live-events/what-are-teams-live-events.md)을 참조하세요.
+
+[Microsoft Teams의 모임 및 통화](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)에 대해 자세히 알아보세요.
 
 ## <a name="troubleshooting"></a>문제 해결
 
+팀 모임 추가 기능의 문제를 해결 하려면 다음 단계를 사용 합니다.
+
+### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Windows 용 Outlook의 팀 모임 추가 기능이 표시 되지 않음
+
 Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문제 해결 단계를 시도해보세요.
 
-- Outlook 데스크톱 클라이언트에 대해 사용 가능한 모든 업데이트를 적용했는지 확인합니다.
-- Teams 데스크톱 클라이언트를 다시 시작합니다.
-- 로그아웃한 후 Teams 데스크톱 클라이언트에 다시 로그인합니다.
-- Outlook 데스크톱 클라이언트를 다시 시작합니다. (Outlook이 관리자 모드에서 실행 되 고 있지 않은지 확인 합니다.)
+- 팀에서 모임을 예약할 수 있도록 사용자에 게 팀 업그레이드 정책이 있는지 확인 합니다. 자세한 내용은 비즈니스용 [Skype에서 팀으로 업그레이드를](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) 참조 하세요.
+- 사용자에 게 Outlook 추가 기능을 허용 하는 팀 모임 정책이 있는지 확인 합니다. 자세한 내용은 [팀에서 모임 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) 를 참조 하세요.
+- 사용자에 게 팀 데스크톱 클라이언트가 설치 되어 있는지 확인 합니다. 모임 추가 기능은 팀 웹 클라이언트만을 사용 하는 경우에는 설치 되지 않습니다.
+- 사용자에 게 regsvr32를 실행할 수 있는 권한이 있는지 확인 합니다.
+- Outlook 데스크톱 클라이언트에 대해 사용 가능한 모든 업데이트가 적용 되었는지 확인 합니다.
 - 로그인한 사용자 계정 이름에 공백이 포함되어 있지 않은지 확인합니다. (알려진 문제이며 이후 업데이트에서 수정됩니다.)
-- SSO(Single Sign-On)를 사용하도록 설정했는지 확인합니다.
+- 다음 단계를 따릅니다:
+  - Teams 데스크톱 클라이언트를 다시 시작합니다.
+  - 로그아웃한 후 Teams 데스크톱 클라이언트에 다시 로그인합니다.
+  - Outlook 데스크톱 클라이언트를 다시 시작합니다. (Outlook이 관리자 모드에서 실행 되 고 있지 않은지 확인 합니다.)
+
+여전히 추가 기능이 표시 되지 않는 경우 Outlook에서 사용 하지 않도록 설정 되어 있는지 확인 합니다.
+
+- Outlook에서 **파일** 을 선택한 다음 **옵션**을 선택 합니다.
+- **Outlook 옵션** 대화 상자의 **추가 기능** 탭을 선택 합니다.
+- **Microsoft Office 용 Microsoft 팀 모임 추가 기능이** **활성 응용 프로그램 추가 기능** 목록에 나열 되는지 확인
+- 팀 모임 추가 기능이 **비활성 응용 프로그램 추가 기능** 목록에 나열 된 경우 **관리** 에서 **COM 추가 기능** 을 선택 하 고 **이동을 선택 합니다** .
+- Microsoft **Office 용 Microsoft 팀 모임 추가 기능**옆에 있는 확인란을 설정 합니다.
+- 모든 대화 상자에서 **확인을** 선택 하 고 Outlook을 다시 시작 합니다.
+
+추가 기능을 관리 하는 방법에 대 한 일반적인 지침은 [Office 프로그램의 추가 기능 보기, 관리 및 설치](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)를 참조 하세요.
+
+추가 기능이 여전히 표시 되지 않는 경우 다음 단계를 사용 하 여 레지스트리 설정을 확인 합니다.
+
+> [!NOTE]
+> 레지스트리를 잘못 편집 하면 시스템에 심각한 손상을 줄 수 있습니다. 레지스트리를 변경 하기 전에 컴퓨터에 있는 중요 한 데이터를 백업 해야 합니다.
+- Regedit.exe 시작
+- HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins 이동
+- TeamsAddin을 확인 합니다. FastConnect가 있습니다.
+- TeamsAddin 내에서 FastConnect, LoadBehavior이 있는지 확인 하 고 3으로 설정 합니다.
+  - LoadBehavior에 3 이외의 값이 있으면 3으로 변경 하 고 Outlook을 다시 시작 합니다.
+
+### <a name="delegate-scheduling-does-not-work"></a>대리인 일정이 작동 하지 않음
 
 관리자가 [EWS(Exchange 웹 서버)에 대한 액세스 권한을 제어](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)하기 위해 Microsoft Exchange를 구성한 경우에는 대리인이 상사를 대신하여 Teams 모임을 예약할 수 없습니다. 이 구성에 대한 해결 방법은 개발 중이며 향후에 출시될 예정입니다. 
-
-추가 기능을 사용하지 않도록 설정하는 방법에 대한 일반적인 지침은 [Office 프로그램의 추가 기능 보기, 관리 및 설치](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)를 참조하세요.
-
-[Microsoft Teams의 모임 및 통화](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)에 대해 자세히 알아보세요.

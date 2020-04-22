@@ -18,17 +18,17 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: e109d3a8f43d6f989c96709562efbf759c0e562e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137698"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749865"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
-이 가이드는 Microsoft 팀과 비즈니스용 Skype Online의 드라이브 가치 단계에 대해 설명 합니다. 이 가이드의 [Word 버전을 다운로드할](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) 수 있습니다.
+이 가이드는 Microsoft 팀과 비즈니스용 Skype Online의 드라이브 가치 단계에 대해 설명 합니다. 
 
 ## <a name="introduction"></a>소개
 
@@ -114,7 +114,7 @@ CQD의 실제 측정은 작업 부하에 따라 다르지만, 품질 경험 검�
 
 _표 1-잘못 된 오디오 음질 메트릭_
 
-| 메트릭 평균     | Description     | 사용자 환경 |
+| 메트릭 평균     | 설명     | 사용자 환경 |
 |-------------|-----------------|-----------------|
 | 지터 \>30 밀리초        | 연속 된 패킷 간의 지연 시간 변경입니다. 팀과 비즈니스용 Skype는 버퍼링을 통해 일부 지터 수준에 적응할 수 있습니다. 이는 지터가 지터의 효과를 통지 하는 버퍼링을 초과 하는 경우에만 해당 됩니다.      | 다른 속도로 도착 하는 패킷은 스피커의 음성을 사운드를 통해 로보틱 할 수 있습니다.   |
 | 패킷 손실 율 \>10% 또는 0.1        | 이는 일반적으로 손실 되는 패킷의 백분율로 정의 됩니다. 패킷 손실은 오디오 품질에 직접적인 영향을 주며,이는 오디오가 완전히 잘리는 것을 초래 하는 백 투 백 버스트 손실에 거의 영향을 주지 않는 작은 개인 패킷     | 손실 되 고 있는 패킷으로 인해 미디어의 의도 하지 않은 공간에 도달 하지 않고, 음절과 단어가 손실 되거나, 비디오 및 공유가 고르지 않게 됩니다. |
@@ -478,15 +478,15 @@ CQD에서 보고 싶은 치수나 측정값을 적절히 선택 하기 위해 �
 
 -   **Microsoft 팀 관리 센터로** 이동 하 여 다음 그림에 표시 된 대로 CQD에 대 한 링크를 선택 합니다.
 
-![통화 음질 대시보드의 스크린샷이 선택 되어 있습니다.](media/qerguide-image-mopo.png "왼쪽 탐색 창에서 통화 품질 대시보드 링크를 선택 합니다.")
+    ![통화 음질 대시보드의 스크린샷이 선택 되어 있습니다.](media/qerguide-image-mopo.png "왼쪽 탐색 창에서 통화 품질 대시보드 링크를 선택 합니다.")
 
-_그림 7 – Microsoft 팀 관리 센터를 통해 CQD에 액세스_
+    _그림 7 – Microsoft 팀 관리 센터를 통해 CQD에 액세스_
 
 -   레거시 **비즈니스용 Skype 관리 센터** > **도구로**이동 하 여 다음 그림과 같이 cqd에 대 한 링크를 선택 합니다.
 
-![기본 창에서 선택한 CQD의 스크린샷](media/qerguide-image-legacyui.png "왼쪽 탐색 창에서 도구를 선택 하 고 기본 창에서 CQD에 대 한 링크를 선택 합니다.")
+    ![기본 창에서 선택한 CQD의 스크린샷](media/qerguide-image-legacyui.png "왼쪽 탐색 창에서 도구를 선택 하 고 기본 창에서 CQD에 대 한 링크를 선택 합니다.")
 
-_그림 8-비즈니스용 Skype 관리 센터를 통해 CQD에 액세스_
+    _그림 8-비즈니스용 Skype 관리 센터를 통해 CQD에 액세스_
 
 
 ### <a name="getting-started"></a>시작
@@ -568,7 +568,7 @@ URL 필터를 구현 하려면 브라우저 주소 표시줄에서 URL의 끝에
 
 _표 3-쿼리 필터_
 
-| Filter         | Description          | CQD 쿼리 필터 예제      |
+| Filter         | 설명          | CQD 쿼리 필터 예제      |
 |----------------|----------------------|-------------------------------|
 | 빈 값 없음   | 일부 필터에는 빈 값을 필터링 하는 옵션이 없습니다. 빈 값을 수동으로 필터링 하려면 필요에 따라 빈 식을 사용 하 고 필터를 같음 또는 같지 않음으로 설정 합니다.      | 두 번째 건물 \< \> \^ \\이름 s\*\$                       |
 | 공용 서브넷 제외 | 관리 되지 않는 네트워크를 구분 하기 위해 올바른 빌드 파일이 없는 경우 홈 네트워크는 보고서에 포함 됩니다. 이러한 홈 서브넷은 해당 컨트롤의 범위를 벗어나므로 보고서에서 빠르게 제외할 수 있습니다. 이 가이드에 정의 된 대로 일반적인 서브넷은 10.0.0.0, 192.168.1.0, 192.168.0.0입니다. | 두 번째 \< \> 서브넷 \| 10.0.0.0 \| 192.168.0.0 192.168.1.0 |
@@ -580,7 +580,7 @@ _표 3-쿼리 필터_
 
 _표 4-보고서 필터_
 
-| Filter     | Description                            | CQD 보고서 필터 예제         |
+| Filter     | 설명                            | CQD 보고서 필터 예제         |
 |------------|----------------------------------------|-----------------------------------|
 | 달은      | 먼저 1 년부터 시작 합니다. | 2017-10                           |
 | 가 | 모든 알파벳 문자에 대 한 필터입니다. | [a-z]                             |
@@ -634,7 +634,7 @@ CQD를 사용 하는 경우 끝점의 위치와 관리할 수 있는 네트워�
 
 -   각 열에 대해 데이터 형식이 문자열이 면 데이터는 비어 있을 수 있지만 적절 한 구분 기호 (즉, 탭 문자 또는 쉼표)로 구분 되어야 합니다. 이렇게 하면 해당 필드에 빈 문자열 값이 할당 됩니다.
 
--   각 행에 대해 14 개의 열이 있어야 합니다. 각 열은 다음 표에 설명 된 데이터 형식 이어야 하 고 열은 표에 나열 된 순서 대로 있어야 합니다.
+-   각 행에 대해 14 개의 열이 있어야 합니다 (선택적 VPN 열을 추가 하려면 15). 각 열은 다음 표에 설명 된 데이터 형식 이어야 하 고 열은 표에 나열 된 순서 대로 있어야 합니다.
 
 _표 5-파일 구조 작성_
 
@@ -1192,7 +1192,7 @@ Office 간편 실행만 사용 하는 경우에는 6 개월 내에 자동으로 
 -   [Office 365 ProPlus의 업데이트 기록](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [비즈니스용 Skype 다운로드 및 업데이트](/SkypeForBusiness/software-updates)
 
-### <a name="devices"></a>장치
+### <a name="devices"></a>디바이스
 
 마이크 장치 보고서를 사용 하려면 SPECIALIST (평균 의견 성과)의 개념을 이해 해야 합니다. SPECIALIST는 인식 되는 음질을 측정 하는 골드 표준 단위입니다. 0에서 5 까지의 정수 등급으로 표시 됩니다.
 
@@ -1304,7 +1304,7 @@ _표 12-네트워크 성능 요구 사항_
 
 -   커뮤니티: [비즈니스용 Skype 미리 보기 프로그램](https://techcommunity.microsoft.com/t5/Skype-for-Business-Preview/bd-p/SkypeforBusinessPreviewProgram)
 
-### <a name="devices"></a>장치
+### <a name="devices"></a>디바이스
 
 -   [비즈니스용 Skype 솔루션 카탈로그 개인 주변 기기 & Pc](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 

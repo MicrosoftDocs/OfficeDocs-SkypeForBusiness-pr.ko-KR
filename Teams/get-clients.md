@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 8a3425ca19ded72f814e8f81252b7224c2c08a42
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327840"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749496"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams용 클라이언트 다운로드 
 
@@ -45,6 +45,9 @@ Microsoft Teams 데스크톱 클라이언트는 독립 실행형 응용 프로�
 데스크톱 클라이언트는 팀 모임, 그룹 통화 및 비공개 일대일 통화를 위한 실시간 통신 지원(오디오, 비디오, 콘텐츠 공유)을 제공합니다.
 
 사용자가 적합한 로컬 권한(PC에서 Teams 클라이언트를 설치하는 데 관리 권한은 필요하지 않지만 Mac에서는 필요함)을 가지고 있는 경우 최종 사용자는 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)에서 직접 데스크톱 클라이언트를 다운로드하고 설치할 수 있습니다.
+
+> [!NOTE]
+> Chromebook에 팀을 설치 하는 방법에 대 한 자세한 내용은 [Chromebook에서 Microsoft Office를 설치 하 고 실행 하는 방법을](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)참조 하세요.
 
 IT 관리자는 조직의 컴퓨터에 설치 파일을 배포하기 위해 원하는 방법을 선택할 수 있습니다. 예로는 Microsoft Endpoint Configuration Manager(Windows) 또는 Jamf Pro(macOS) 등이 있습니다. Windows 배포용 MSI 패키지를 다운로드하려면 [MSI를 사용하여 Microsoft Teams 설치](msi-deployment.md)를 참조하세요.  
 
@@ -75,6 +78,8 @@ Windows 클라이언트는 사용자 프로필에 있는 AppData 폴더에 배�
 > [!NOTE]
 > "취소"를 선택하여 메시지를 해제해도 Windows 방화벽 구성이 변경됩니다. TCP 및 UDP 프로토콜에 대한 차단 동작으로 teams.exe에 대한 두 개의 인바운드 규칙이 만들어집니다.
 
+사용자가 팀에서 첫 번째 통화를 할 때 팀에서 방화벽 규칙을 만들지 못하게 하려면 아래 [샘플 PowerShell 스크립트-인바운드 방화벽 규칙](#sample-powershell-script---inbound-firewall-rule) 을 사용 합니다. 
+
 ### <a name="mac"></a>Mac
 
 Mac 사용자는 macOS 컴퓨터에 PKG 설치 파일을 사용하여 Teams를 설치할 수 있습니다. Mac 클라이언트를 설치하려면 관리자 액세스가 필요합니다. MacOS 클라이언트가 /Applications 폴더로 설치됩니다.
@@ -103,7 +108,7 @@ IT 관리자는 Teams의 관리 배포를 사용하여 설치 파일을 조직�
 ### <a name="linux"></a>Linux
 
 사용자가 전용 Linux 패키지를 `.deb` 및 `.rpm` 형식으로 설치할 수 있습니다.
-DEB 또는 RPM 패키지를 설치하면 자동으로 패키지 리포지토리가 설치됩니다.
+DEB 또는 RPM 패키지를 설치 하면 패키지 리포지토리가 자동으로 설치 됩니다.
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
@@ -214,7 +219,7 @@ Microsoft Teams 모바일 앱에 지원되는 모바일 플랫폼은 다음과 �
 
 ![알림 설정의 스크린샷입니다.](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script"></a>예제 PowerShell 스크립트
+## <a name="sample-powershell-script---inbound-firewall-rule"></a>샘플 PowerShell 스크립트-인바운드 방화벽 규칙
 
 강화된 관리자 계정 컨텍스트로 클라이언트 컴퓨터에서 실행해야 하는 이 예제 스크립트는 c:\users에 있는 각 사용자 폴더에 새 인바운드 방화벽 규칙을 만듭니다. Teams에서 이 규칙을 찾으면 Teams 응용 프로그램이 사용자가 Teams에서 처음 통화를 할 때 방화벽 규칙을 만들라는 메시지를 표시하지 못하도록 합니다. 
 

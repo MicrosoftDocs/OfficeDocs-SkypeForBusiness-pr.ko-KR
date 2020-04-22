@@ -18,43 +18,48 @@ description: 네트워크 설정, 라이선스 할당, 라이브 이벤트 기�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: HT
+ms.openlocfilehash: 8e3110717cd9279d881415bf1e01d03a1cbee293
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140567"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749805"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams에서 실시간 이벤트 설정
 
 라이브 이벤트를 설정하는 경우 몇 가지 단계를 수행해야 합니다.
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>1단계: Teams에서 실시간 이벤트를 위한 네트워크 설정
+
 Teams에서 생성된 라이브 이벤트를 사용하여 용어 집합을 가져오려면 [Teams을 위해 조직의 네트워크를 준비](https://docs.microsoft.com/microsoftteams/prepare-network)해야 합니다.  
 
 ## <a name="step-2-get-and-assign-licenses"></a>2단계: 라이선스 받기 및 할당하기
-[실시간 이벤트를 생성하고 예약 할 수 있는 사람](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events)과 [실시간 이벤트를 볼 수 있는 사람](plan-for-teams-live-events.md#who-can-watch-live-events)에게 올바른 라이선스 할당이 있는지 확인하세요.
+
+[실시간 이벤트를 생성하고 예약 할 수 있는 사람](plan-for-teams-live-events.md#who-can-attend-create-and-schedule-live-events)과 [실시간 이벤트를 볼 수 있는 사람](plan-for-teams-live-events.md#who-can-watch-live-events)에게 올바른 라이선스 할당이 있는지 확인하세요.
 
 ## <a name="step-3-set-up-live-events-policies"></a>3단계: 라이브 이벤트 정책 설정
+
 실시간 이벤트 정책은 조직에서 실시간 이벤트를 보유할 수 있는 사람과 이들이 생성한 이벤트에서 사용할 수 있는 기능을 제어하는 데 사용됩니다. 기본 정책을 사용하거나 하나 이상의 사용자 지정 라이브 이벤트 정책을 만들 수 있습니다. 사용자 지정 정책을 만든 후 조직의 사용자 또는 사용자 그룹에 할당합니다.
 
 > [!NOTE]
-> 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 적용됩니다. 기본적으로 전역 정책에서는 Teams 사용자에 게 실시간 이벤트 예약을 사용할 수 있습니다. live 캡션과 자막(기록)이 꺼져 있는 경우 조직의 모든 사용자가 실시간 이벤트에 참석할 수 있으며 녹음/녹화 설정은 항상 녹음/녹화로 설정됩니다. 
+> 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 적용됩니다. 기본적으로 전역 정책에서는 Teams 사용자에 게 실시간 이벤트 예약을 사용할 수 있습니다. live 캡션과 자막(기록)이 꺼져 있는 경우 조직의 모든 사용자가 실시간 이벤트에 참석할 수 있으며 녹음/녹화 설정은 항상 녹음/녹화로 설정됩니다.
 
 ### <a name="create-or-edit-a-live-events-policy"></a>라이브 이벤트 정책 만들기 또는 편집
+
 <a name="bkcreatepolicy"> </a>
 
 **![Microsoft Teams 로고를 나타내는 아이콘](../media/teams-logo-30x30.png)Microsoft Teams 관리 센터 사용**
 
-1. 왼쪽 탐색 메뉴에서 **모임** > **라이브 이벤트 정책**으로 이동하세요. 
+1. 왼쪽 탐색 메뉴에서 **모임** > **라이브 이벤트 정책**으로 이동하세요.
 2. 다음 중 하나를 수행합니다.
-- 기존 기본 정책을 편집하려면 **전역(조직 전체 기본값)** 을 선택하세요. 
-- 새 사용자 지정 정책을 만들려면 **새 정책**을 선택하세요. 
-- 사용자 지정 정책을 편집하려면 정책을 선택하고 **편집**을 선택합니다. 
+
+- 기존 기본 정책을 편집하려면 **전역(조직 전체 기본값)** 을 선택하세요.
+- 새 사용자 지정 정책을 만들려면 **새 정책**을 선택하세요.
+- 사용자 지정 정책을 편집하려면 정책을 선택하고 **편집**을 선택합니다.
 
     조직의 요구 사항에 맞게 변경할 수 있는 설정은 다음과 같습니다.
 
-    ![라이브 이벤트의 정책 설정 스크린샷](../media/teams-live-events-policies.png "Microsoft Teams 관리 센터의 라이브 이벤트 정책 설정 스크린샷입니다.") 
+    ![라이브 이벤트의 정책 설정 스크린샷](../media/teams-live-events-policies.png "Microsoft Teams 관리 센터의 라이브 이벤트 정책 설정 스크린샷입니다.")
 
 |설정  |설명  |
 |---------|---------|

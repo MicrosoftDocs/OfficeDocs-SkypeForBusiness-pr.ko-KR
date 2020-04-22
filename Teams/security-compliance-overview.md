@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17cf1e32b26edc609bea9e679c9f5ee5f4cc66d2
-ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
+ms.openlocfilehash: 42f6b185a8a09b0aae139175acfc632b84387db8
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237901"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749445"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
@@ -118,9 +118,9 @@ Microsoft 팀의 DLP (데이터 손실 방지)는 물론 Office 365의 대규모
 
 자세한 내용은 팀 관련 문서, [게스트 대 게스트 채팅의 eDiscovery](eDiscovery-investigation.md)를 참조 하세요.
 
-고객은 [필요](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery)에 따라 현재 위치 eDiscovery 또는 [고급 eDiscovery]을 활용할 수 있습니다. 다음 표에서는 두 가지 사이의 차이점에 대해 간략하게 설명 합니다.
+고객은 필요에 따라 eDiscovery 또는 [고급 ediscovery](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery) 를 활용할 수 있습니다. 다음 표에서는 두 가지 사이의 차이점에 대해 간략하게 설명 합니다.
 
-| |원본 위치 eDiscovery  |고급 eDiscovery  |
+| |eDiscovery  |고급 eDiscovery  |
 |---------|---------|---------|
 |사례 관리     |X        |X         |
 |액세스 제어  |X         |X         |
