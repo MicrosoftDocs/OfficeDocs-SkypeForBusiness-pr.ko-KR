@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Office 365에서 비즈니스용 Skype 관리자 및 사용자의 문제를 해결 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ed520dd5292cf67d67255457f1555ba04c87be1e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 812df872775e31109df300e3bad1911de975c07e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706333"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777163"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>비즈니스용 Skype Online 문제 해결
 
@@ -75,7 +75,7 @@ ms.locfileid: "41706333"
 ## <a name="still-need-help-contact-support"></a>아직도 도움이 필요 하세요? 고객 지원에 문의 하세요.
 <a name="BK_SupportBridge_1"> </a>
 
-비즈니스용 Office 365에 대 한 관리자는 사전 판매, 계정, 대금 청구 지원에 대 한 무료 지원 상담원에 게 무료로 액세스할 수 있으며, 기술 문제 해결을 위한 도움을 받을 수도 있습니다. 조직의 Office 365 사용자를 대신 하 여 [고객 지원에 문의할](https://go.microsoft.com/fwlink/p/?LinkID=518322) 수도 있습니다.
+비즈니스용 Office 365에 대 한 관리자는 사전 판매, 계정, 대금 청구 지원에 대 한 무료 지원 상담원에 게 무료로 액세스할 수 있으며, 기술 문제 해결을 위한 도움을 받을 수도 있습니다. 조직의 Microsoft 365 및 Office 365 사용자를 대신 하 여 [고객 지원에 문의할](https://go.microsoft.com/fwlink/p/?LinkID=518322) 수도 있습니다.
 
 - [Office 365 커뮤니티 포럼에서 도움 받기](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
@@ -84,7 +84,7 @@ ms.locfileid: "41706333"
 > [!NOTE]
 > 중국에서 21Vianet이 운영 하는 Office 365를 사용 중인 경우 [21vianet 지원 팀에 문의](https://go.microsoft.com/fwlink/p/?linkid=847978)하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

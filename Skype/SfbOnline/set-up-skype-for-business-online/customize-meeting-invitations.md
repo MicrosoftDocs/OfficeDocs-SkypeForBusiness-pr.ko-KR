@@ -1,5 +1,5 @@
 ---
-title: 모임 초대의 사용자 지정
+title: 모임 초대장의 사용자 지정
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -21,18 +21,18 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: '그래픽 로고, 도움말 및 법률 Url, 바닥글 텍스트를 사용 하 여 Skype 모임 초대를 사용자 지정 합니다. '
-ms.openlocfilehash: b30c31d3e109fa36e49665c19a7aaebad581c7cc
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 41ed423349ff34f27a164b4d9c652571241b1afb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769641"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776233"
 ---
-# <a name="customize-meeting-invitations"></a>모임 초대의 사용자 지정
+# <a name="customize-meeting-invitations"></a>모임 초대장의 사용자 지정
 
 관리자는 모든 비즈니스용 Skype 모임 초대에 지원 웹 사이트, 법적 고 지 사항, 회사 로고 및 포함 하려는 기타 텍스트에 대 한 링크와 같이 사용자에 게 필요한 몇 가지 유용한 정보가 포함 되어 있는지 확인할 수 있습니다. 
   
-## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>모임 초대에 대 한 로고 만들기 팁
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>모임 초대장에 대한 로고 만들기 팁
 <a name="__top"> </a>
 
 1. 너비가 약 188 픽셀을 초과 하지 않는 이미지를 만듭니다 (크기는 매우 작음).
@@ -41,14 +41,14 @@ ms.locfileid: "41769641"
     
 3. 조직의 모든 사용자가 액세스할 수 있는 중앙 위치 (예: 네트워크 공유, 비즈니스용 OneDrive 폴더, Dropbox 등)에 이미지를 저장 합니다.
     
-    이제 모임 초대에 추가할 수 있습니다. 다음 단계를 참조 하세요.
+    이제 이것을 모임 초대장에 추가할 수 있습니다. 다음 단계를 참조하세요.
     
-## <a name="customize-your-meeting-invitations"></a>모임 초대 사용자 지정
+## <a name="customize-your-meeting-invitations"></a>모임 초대장의 사용자 지정
 <a name="__top"> </a>
 
-![비즈니스용 skype](../images/sfb-logo-30x30.png) **관리 센터를 사용 하 여** 비즈니스용 skype 로고를 표시 하는 아이콘
+![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
     
 2. 관리 센터에서 **관리 센터** > **비즈니스용 Skype**를 선택 합니다.
     

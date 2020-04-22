@@ -12,12 +12,12 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 207cb9b8435294abeac12f67506eb356a6ca73c6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bc029df06f22524fa99c232edf6bbe6aa9759f5a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208324"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780177"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,8 +64,8 @@ _**마지막으로 수정 된 항목:** 2016-12-08_
 <tr class="even">
 <td></td>
 <td><p>도메인 추가 및 소유권 확인</p></td>
-<td><p>도메인은 <em>베 니 티 도메인이</em>라고도 하기도 합니다. Office 365 테 넌 트에 도메인을 추가 하 고 해당 단계에 따라 Office 365 도메인의 유효성을 검사 해야 합니다. 이는 사용자가 도메인의 소유자 인지 확인 하기 위한 것입니다.</p>
-<p>Office 365 테 넌 트에 도메인을 추가 하려면 <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">office 365에 도메인 추가</a>에 설명 된 단계를 수행 합니다.</p>
+<td><p>도메인은 <em>베 니 티 도메인이</em>라고도 하기도 합니다. Office 365 조직에 도메인을 추가 하 고 단계에 따라 Office 365 도메인의 유효성을 검사 해야 합니다. 이는 사용자가 도메인의 소유자 인지 확인 하기 위한 것입니다.</p>
+<p>Office 365 조 직에 도메인을 추가 하려면 <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">office 365에 도메인 추가</a>에 설명 된 단계를 수행 합니다.</p>
 <p>Office 365 서비스에 대 한 DNS 레코드 편집을 포함 &quot;하 여 항목의 각 섹션에 있는 모든 단계를 완료 합니다.&quot;</p></td>
 </tr>
 <tr class="odd">

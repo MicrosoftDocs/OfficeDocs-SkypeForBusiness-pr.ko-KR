@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 기존 비즈니스용 Skype 클라우드 Connector Edition 1.4.1 이상 배포의 구성을 수정 하려면이 항목의 단계를 수행 합니다.
-ms.openlocfilehash: 4c2c0b8ad5340cd4ae4275f1ac009bf3d9d3ec0b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 77e9940e10cc356afbade5592bf41a0cdba66b0f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018009"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779384"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>기존 클라우드 커넥터 배포의 구성 수정
  
@@ -109,7 +109,7 @@ ms.locfileid: "42018009"
 
 배포의 여러 사이트에 대 한 구성을 수정 하려면 단일 사이트에 대 한 단계를 수행 하 고 한 번에 한 사이트를 업데이트 합니다.
   
-## <a name="modify-the-configuration-of-your-office-365-tenant-to-enable-automatic-updates"></a>자동 업데이트를 사용 하도록 Office 365 테 넌 트의 구성 수정
+## <a name="modify-the-configuration-of-your-office-365-organization-to-enable-automatic-updates"></a>자동 업데이트를 사용 하도록 Office 365 조직의 구성 수정
 <a name="BKMK_MultipleSites"> </a>
 
 운영 체제 자동 업데이트 및 Bits 자동 업데이트를 사용 하도록 설정 하려면 온라인 관리에 비즈니스용 Skype 테 넌 트 관리자 계정을 사용 하 고 다음과 같이 테 넌 트 원격 PowerShell을 사용 해야 합니다.
@@ -161,7 +161,7 @@ ms.locfileid: "42018009"
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>전용 테 넌 트 관리자 자격 증명 업데이트
 <a name="BKMK_MultipleSites"> </a>
 
-클라우드 커넥터에 대 한 Office 365 테 넌 트의 관리 변경 내용은 필요한 사용 권한이 있는 계정에서 수행 됩니다. 2.0 이전 클라우드 커넥터 버전에서 해당 계정은 전용 전역 테 넌 트 관리자 계정입니다. 클라우드 커넥터 버전 2.0 이상에서는 해당 계정이 비즈니스용 Skype 관리자 권한을 가진 Office 365 계정일 수 있습니다.
+클라우드 커넥터에 대 한 Office 365 조 직의 관리 변경 사항은 필요한 사용 권한이 있는 계정에서 만든 것입니다. 2.0 이전 클라우드 커넥터 버전에서 해당 계정은 전용 전역 테 넌 트 관리자 계정입니다. 클라우드 커넥터 버전 2.0 이상에서는 해당 계정이 비즈니스용 Skype 관리자 권한을 가진 Office 365 계정일 수 있습니다.
   
 Office 365에서 관리자 계정 자격 증명이 변경 되는 경우 배포 된 각 클라우드 커넥터 기기에서 다음 관리자 PowerShell 명령을 실행 하 여 클라우드 커넥터의 로컬로 캐시 된 자격 증명도 업데이트 해야 합니다.
   

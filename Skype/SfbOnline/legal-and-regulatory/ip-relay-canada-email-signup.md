@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 캐나다에 대 한 IP 릴레이 계정을 sigh 하는 방법
-ms.openlocfilehash: 9dda43f5489b63918142aff4c2c111f4471b958b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f4aedc3f90aeaf8888ef24609cdc31068e2ad030
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693113"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778754"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>캐나다의 IP 릴레이 - 등록
 
@@ -33,8 +33,8 @@ ms.locfileid: "41693113"
 |||
 |:-----|:-----|
 |성과 이름 먼저 &:||
-|Office 365 테 넌 트 도메인 이름: <br/>(예: Contoso.com)||
-|Office 365 사용자 전화 번호: <br/>예: + 1 XXX XXX XXXX) ||
+|Microsoft 365 또는 Office 365 조직 도메인 이름: <br/>(예: Contoso.com)||
+|Microsoft 365 또는 Office 365 사용자 전화 번호: <br/>예: + 1 XXX XXX XXXX) ||
 |암호 (8 ~ 16 자): ||
 |가장 가능성 높은 실제 주소 <br/>비상 시:||
 |전화 번호 & 이름:||
@@ -43,7 +43,7 @@ ms.locfileid: "41693113"
 |시/주:||
 |우편 번호/우편 번호:||
 |전화 번호:||
-|Office 365 전자 메일 주소:||
+|Microsoft 365 또는 Office 365 전자 메일 주소:||
 |||
 
 > [!NOTE]

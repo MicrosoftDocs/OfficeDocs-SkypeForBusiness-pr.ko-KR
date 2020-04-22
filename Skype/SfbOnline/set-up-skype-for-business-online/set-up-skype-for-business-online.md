@@ -24,24 +24,24 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: '비즈니스용 Skype를 설치 하도록 조직의 도메인, 사용자, IM, 현재 상태를 설정 하는 방법을 알아봅니다. 오디오 회의, 전화 시스템 및 통화 요금제 및 Skype 모임 브로드캐스트를 설정 하는 방법도 알아봅니다. '
-ms.openlocfilehash: 7ac027549f45c55f62c6fc83d7ebc03d0afef5d2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c61e2b7dd4a9c4bb4e04a90ffa403e930e4d142b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010791"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777183"
 ---
 # <a name="set-up-skype-for-business-online"></a>비즈니스용 Skype 온라인 설정
 
-비즈니스용 Skype를 설정 하려면 Office 365 전역 관리자 권한이 있어야 합니다. 웹의 일부분에 대 한 액세스를 제한 하는 방화벽 또는 프록시 서버가 있는 경우 [Microsoft 파트너](https://go.microsoft.com/fwlink/?linkid=391089) 를 고용 하 여 비즈니스용 Skype를 설정 하는 것이 좋습니다.
+비즈니스용 Skype를 설정 하려면 전역 관리자 권한이 있어야 합니다. 웹의 일부분에 대 한 액세스를 제한 하는 방화벽 또는 프록시 서버가 있는 경우 [Microsoft 파트너](https://go.microsoft.com/fwlink/?linkid=391089) 를 고용 하 여 비즈니스용 Skype를 설정 하는 것이 좋습니다.
 
 ## <a name="setting-up-skype"></a>Skype 설정
 
-Office 365 구독으로 Skype를 설정 하는 데 도움이 필요한 것 같습니다. 이 문서에 나와 있는 단계를 따라 설치를 완료할 수 있습니다.
+Microsoft 365 또는 Office 365 구독을 사용 하 여 Skype를 설정 하는 데 도움이 필요한 것 같습니다. 이 문서에 나와 있는 단계를 따라 설치를 완료할 수 있습니다.
 
 ## <a name="1-plan-for-skype-for-business"></a>1. 비즈니스용 Skype 계획
 
-**[Office 365 Business Premium](https://products.office.com/business/office-365-business-premium)** 또는 **Business Essentials**가 있는 경우 비즈니스용 Skype를 사용 하 여 구독 중인 비즈니스의 다른 사용자에 게 온라인으로 전화를 걸 수 있습니다. 예를 들어 비즈니스에 10 명의 사용자가 있는 경우 [IM 및 온라인 모임에 비즈니스용 skype를 사용 하](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) 고, 아래에서 2-6 단계를 수행한 후 비즈니스용 skype를 사용 하 여 비즈니스용 Skype [로 모임을](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) 시작할 수 있습니다. Outlook에서 온라인 모임으로도 [비즈니스용 Skype 모임을 설정할](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) 수 있습니다.
+**[Microsoft 365 Business Premium Standard](https://products.office.com/business/office-365-business-premium)** 또는 **Business Essentials**가 있는 경우 비즈니스용 Skype를 사용 하 여 구독 중인 비즈니스의 다른 사용자에 게 온라인으로 전화를 걸 수 있습니다. 예를 들어 비즈니스에 10 명의 사용자가 있는 경우 [IM 및 온라인 모임에 비즈니스용 skype를 사용 하](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) 고, 아래에서 2-6 단계를 수행한 후 비즈니스용 skype를 사용 하 여 비즈니스용 Skype [로 모임을](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) 시작할 수 있습니다. Outlook에서 온라인 모임으로도 [비즈니스용 Skype 모임을 설정할](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) 수 있습니다.
 
 비즈니스용 Skype를 사용 하 여 회사 *외부* 의 사용자에 게 **전화를 걸고** 수신 하려면 다음을 수행 합니다.
 
@@ -56,11 +56,11 @@ Office 365 구독으로 Skype를 설정 하는 데 도움이 필요한 것 같�
 
 비즈니스용 Skype Online은 Office 365 서비스 제품군의 일부입니다. 비즈니스용 Skype Online을 설정 하려면 Office 365에 로그인 해야 합니다. 이 작업을 수행 하는 방법은 다음과 같습니다.
 
-1. Office 365 사용자 ID (예: <em>rob@fourthcoffee.com</em> )를 찾습니다. 비즈니스용 Skype Online을 구매할 때 만든 Office 365 사용자 ID가 포함 된 Microsoft Online Services 팀에서 전자 메일을 받았습니다. 메일의 모양은 다음과 같습니다.
+1. Microsoft 365 또는 Office 365 사용자 ID (예: <em>rob@fourthcoffee.com</em> )를 찾습니다. 비즈니스용 Skype Online을 구입 했을 때 만든 Microsoft 365 또는 Office 365 사용자 ID가 포함 된 Microsoft Online Services 팀에서 전자 메일을 받았습니다. 메일의 모양은 다음과 같습니다.
 
-    ![비즈니스용 Skype Online에 등록 한 후 받은 환영 전자 메일의 예입니다. 여기에는 Office 365 사용자 id가 포함 되어 있습니다.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
+    ![비즈니스용 Skype Online에 등록 한 후 받은 환영 전자 메일의 예입니다. Microsoft 365 또는 Office 365 사용자 id가 포함 되어 있습니다.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. [관리 센터](https://admin.microsoft.com) 에 로그인 하 고 Office 365 사용자 ID 및 암호를 입력 합니다. 
+2. [관리 센터](https://admin.microsoft.com) 에 로그인 하 고 Microsoft 365 또는 Office 365 사용자 ID와 암호를 입력 합니다. 
 
 ## <a name="3-set-up-your-domain-and-users"></a>3. 도메인 및 사용자 설정
 <a name="bkmk_users"> </a>
@@ -103,7 +103,7 @@ Office 365에 로그인 한 후에는 비즈니스용 Skype Online을 사용 하
 
 PC, Mac 또는 모바일 장치에서 비즈니스용 Skype를 사용 하려면 사용자와 비즈니스의 다른 사람들이 먼저 장치에 비즈니스용 Skype 다운로드를 설치 해야 합니다.
 
-- [비즈니스용 Skype 설치](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb): Office 365 포털에서 앱을 다운로드 하 고 PC 또는 Mac에 설치 하는 방법에 대 한 지침입니다.
+- [비즈니스용 Skype 설치](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb): Microsoft 365 관리 센터에서 앱을 다운로드 하 고 PC 또는 Mac에 설치 하는 방법에 대 한 지침입니다.
 
 - [Office 365에서 비즈니스용 Skype 클라이언트 배포](deploy-the-skype-for-business-client-in-office-365.md)대규모 엔터프라이즈에서 앱을 배포 하는 방법에 대 한 지침입니다.
 
@@ -116,11 +116,11 @@ PC, Mac 또는 모바일 장치에서 비즈니스용 Skype를 사용 하려면 
 
 먼저 사용자와 비즈니스의 다른 사용자가 비디오를 사용할 수 있는지 여부를 테스트 하세요. [비즈니스용 Skype에 로그인 및 로그 아웃](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451) 서로 메신저 대화를 보내고 상대방의 현재 상태를 보고 빠른 모임에 참가할 수 있는지 확인 하세요.
 
-문제? 이렇게 하려면 다음을 수행합니다.
+문제? 다음을 수행합니다.
 
 - [비즈니스용 Skype에 로그인 하는 데 도움이 필요 하세요?](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05) 일반적인 로그인 문제
 
-- [비즈니스 제품에 대 한 고객 지원 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 저희에 게 도움을 주세요!
+- [비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 저희에 게 도움을 주세요!
 
 ## <a name="do-you-want-to-set-up-other-available-features"></a>다른 사용 가능한 기능을 설정 하 시겠습니까?
 <a name="bkmk_more"> </a>

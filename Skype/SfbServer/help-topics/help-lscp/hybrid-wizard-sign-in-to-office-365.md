@@ -1,5 +1,5 @@
 ---
-title: 하이브리드 마법사 Office 365에 로그인
+title: Hybrid wizard Microsoft 365 또는 Office 365에 로그인 합니다.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -18,22 +18,22 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: 비즈니스용 skype Online을 사용 하 여 하이브리드 환경을 구성 하는 데 도움을 주는 비즈니스 서버 하이브리드 관리 마법사를 사용할 수 있습니다.
-ms.openlocfilehash: a76bdf59ab9bc54d8cabdc642f1a3824b013410e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 비즈니스용 skype Online에 대 한 하이브리드 환경을 구성 하는 데 도움이 되는 Business Server Hybrid 관리성 wizard를 사용 합니다.
+ms.openlocfilehash: 1e94dba9c0aef4a45c00409319f51c87d7e623d4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822721"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780437"
 ---
-# <a name="hybrid-wizard-sign-in-to-office-365"></a>하이브리드 마법사: Office 365에 로그인
+# <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>하이브리드 마법사: Microsoft 365 또는 Office 365에 로그인
 
-비즈니스용 skype Online을 사용 하 여 하이브리드 환경을 구성 하는 데 도움을 주는 비즈니스 서버 하이브리드 관리 마법사를 사용할 수 있습니다.
+비즈니스용 skype Online에 대 한 하이브리드 환경을 구성 하는 데 도움이 되는 Business Server Hybrid 관리성 wizard를 사용 합니다.
 
-## <a name="sign-in-to-office-365"></a>Office 365에 로그인
+## <a name="sign-in-to-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365에 로그인 합니다.
 
-Office 365 테넌트용 사용자 이름 및 암호를 입력하여 Office 365 테넌트의 온-프레미스 배포에 로그인하여 연결합니다. Office 365에 등록할 때 onmicrosoft 도메인용으로 만들어진 관리자 계정을 사용해야 합니다(예: admin@contoso.onmicrosoft.com)
+Microsoft 365 또는 Office 365 조 직에 대 한 사용자 이름과 암호를 입력 하 여 Microsoft 365 또는 Office 365 조직에 로그인 하 고 온-프레미스 배포를 연결 합니다. Microsoft 365 또는 Office 365 (예: admin@contoso.onmicrosoft.com)에 등록할 때 onmicrosoft 도메인에 대해 만들어진 관리자 계정을 사용 해야 합니다.
 
-하이브리드 환경을 구성하는 방법에 대한 자세한 내용은 [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)를 참조하세요.
+하이브리드 환경을 구성 하는 방법에 대 한 자세한 내용은 Overview to [hybrid 배포](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)를 참조 하세요.
 
 

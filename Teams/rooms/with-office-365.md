@@ -1,5 +1,5 @@
 ---
-title: Office 365를 사용 하 여 Microsoft 팀 대화방 배포
+title: Microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 대화방 배포
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -14,15 +14,15 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Office 365를 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: 39a703b844df1a1ff487187772ff8eb8ea035191
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
+ms.openlocfilehash: 02eb5869d7464a4daeece177c4d1b5a5ef440fa0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888757"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780547"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365를 사용 하 여 Microsoft 팀 대화방 배포
+# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365을 사용 하 여 Microsoft 팀 대화방 배포
 
 Microsoft 팀 또는 비즈니스용 Skype와 Exchange가 모두 온라인 상태에 있는 Microsoft 팀 대화방을 Office 365와 함께 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
 
@@ -144,7 +144,7 @@ Microsoft 팀 회의실을 Office 365에 배포 하기 전에 요구 사항을 �
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. 장치 계정에 유효한 Office 365 라이선스가 있어야 하며, Exchange 및 Microsoft 팀 또는 비즈니스용 Skype가 작동 하지 않습니다. 라이선스가 있는 경우 사용 위치를 디바이스 계정에 할당 해야 하며,이는 계정에 사용할 수 있는 라이선스 Sku를 결정 하는 것입니다. 사용할 수 있는`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 다음과 같이 Office 365 테 넌 트에 대해 사용 가능한 Sku 목록을 검색 합니다.
+6. 장치 계정에 유효한 Office 365 라이선스가 있어야 하며, Exchange 및 Microsoft 팀 또는 비즈니스용 Skype가 작동 하지 않습니다. 라이선스가 있는 경우 사용 위치를 디바이스 계정에 할당 해야 하며,이는 계정에 사용할 수 있는 라이선스 Sku를 결정 하는 것입니다. 사용할 수 있는`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 다음과 같이 Office 365 조 직에 사용할 수 있는 Sku 목록을 검색 합니다.
 
   ``` Powershell
   Get-MsolAccountSku

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c3813b5d79f1362ff30ff15fa6fd2aff38b25a9
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 47aef5ceee6daee63683655f167016e4d7ae1cf2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706898"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776738"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Microsoft 팀을 위한 IT 직원 준비
 
@@ -36,13 +36,13 @@ ms.locfileid: "42706898"
 - [비즈니스용 Skype 및 팀의 공존 성과 상호 운영성 이해](https://aka.ms/SkypeToTeams-Coexist)
 - [업그레이드 여행 선택](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Office 365 테 넌 트 관리자, 기술 팀장 및 지원 센터는 고품질 사용자 환경을 추진 하는 데 책임이 있습니다. 여기에는 네트워크가 팀을 지원할 준비가 되어 있는지 확인 하 고, 사용자를 위해 팀을 구성 하 고, 발생할 수 있는 문제를 효과적으로 해결 하 고 해결할 수 있습니다.
+Office 365 조직 관리자, 기술 팀장 및 지원 센터는 고품질 사용자 환경을 추진 하는 데 책임이 있습니다. 여기에는 네트워크가 팀을 지원할 준비가 되어 있는지 확인 하 고, 사용자를 위해 팀을 구성 하 고, 발생할 수 있는 문제를 효과적으로 해결 하 고 해결할 수 있습니다.
 
 IT 담당자와 다음 리소스를 공유 하 고 팀으로 업그레이드 하기 전에 사용자 지원 준비가 되었는지 확인 합니다.
 
 - [Microsoft 팀의 관리 교육](itadmin-readiness.md)
 - [비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [Microsoft 팀 클라이언트의 연결 문제 해결](connectivity-issues.md)
+- [Microsoft Teams 클라이언트의 연결 문제 해결](connectivity-issues.md)
 - [Microsoft 팀 문제 해결에서 로그 파일 사용](log-files.md)
 
 [//]: # (Debbie 요청:)

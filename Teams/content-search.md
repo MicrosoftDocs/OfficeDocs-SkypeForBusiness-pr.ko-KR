@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Microsoft 팀에서 콘텐츠 검색을 사용 하 여 Exchange, SharePoint Online, 비즈니스용 OneDrive, OneNote에서 Microsoft 팀 정보를 쿼리 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af81b857d6cf60f7de1a1b1e199d08ede089de5f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93f566590baedc77a4d15eca96569cc85ce54f0b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137748"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776453"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft 팀에서 콘텐츠 검색 사용
 =====================================
@@ -92,4 +92,4 @@ ms.locfileid: "43137748"
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Office 365 보안 & 준수 센터의 eDiscovery 사례](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+- [Microsoft 365 준수 센터의 eDiscovery 사례](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

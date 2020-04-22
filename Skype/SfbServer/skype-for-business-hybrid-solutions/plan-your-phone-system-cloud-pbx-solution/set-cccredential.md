@@ -12,28 +12,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
-description: 집합-CcCredential cmdlet은 현재 비즈니스용 Skype 클라우드 커넥터 에디션 배포의 자격 증명을 설정 합니다.
-ms.openlocfilehash: b7620a6d76415e4e2a49ea9bd628d1e1cba7f4ff
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 설정-CcCredential cmdlet은 현재 비즈니스용 Skype 클라우드 커넥터 에디션 배포의 자격 증명을 설정 합니다.
+ms.openlocfilehash: a97d85ef6fec31383b349e9a0c3b3d9e25d04337
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824212"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780677"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
-집합-CcCredential cmdlet은 현재 비즈니스용 Skype 클라우드 커넥터 에디션 배포의 자격 증명을 설정 합니다. 
+설정-CcCredential cmdlet은 현재 비즈니스용 Skype 클라우드 커넥터 에디션 배포의 자격 증명을 설정 합니다. 
   
-클라우드 커넥터 버전 2.0 이상을 사용 하는 경우이 cmdlet은 가상 컴퓨터 관리자와 도메인 관리자에 대 한 계정 정보도 설정할 수 있습니다.
+클라우드 커넥터 버전 2.0 이상을 사용 하는 경우이 cmdlet은 가상 컴퓨터 관리자 및 도메인 관리자에 대 한 계정 정보도 설정할 수 있습니다.
   
 ```powershell
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 ```
 
-## <a name="examples"></a>예제
+## <a name="examples"></a>예
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>예제 1
+### <a name="example-1"></a>예 1
 
 다음 예에서는 테 넌 트 관리자의 계정 이름 및 암호를 지정 합니다.
   
@@ -44,19 +44,19 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>자세한 정보
 <a name="DetailedDescription"> </a>
 
-집합-CcCredential cmdlet은 테 넌 트 관리자의 계정 이름 및 암호를 설정 합니다. 2.0 이전 버전의 경우이 관리자는 Office 365 전역 관리자 여야 합니다. 클라우드 커넥터는이 계정을 사용 하 여 구성 정보를 가져오고, 구성 매개 변수를 설정 하 고, Office 365 테 넌 트 구성으로 기기 상태를 업데이트 합니다. 릴리스 2.0 이상에서는이 cmdlet을 사용 하 여 VmAdmin 및 DomainAdmin 계정에 대 한 암호를 업데이트할 수도 있습니다.
+Set-CcCredential cmdlet은 테 넌 트 관리자의 계정 이름 및 암호를 설정 합니다. 2.0 이전 버전의 경우이 관리자는 전역 관리자 여야 합니다. 클라우드 커넥터는이 계정을 사용 하 여 구성 정보를 가져오고, 구성 매개 변수를 설정 하 고, Office 365 조직 구성으로 기기 상태를 업데이트 합니다. 릴리스 2.0 이상에서이 cmdlet을 사용 하 여 VmAdmin 및 DomainAdmin 계정의 암호를 업데이트할 수도 있습니다.
   
-## <a name="parameters"></a>매개 변수
+## <a name="parameters"></a>매개 변수 
 <a name="DetailedDescription"> </a>
 
 |**매개 변수**|**필수**|**유형**|**설명**|
 |:-----|:-----|:-----|:-----|
-| 유형 <br/> | 필수 <br/> |System.String  <br/> | 매개 변수 값은 "TenantAdmin", "VmAdmin" 또는 "DomainAdmin" 이어야 합니다. <br/> |
+| AccountType <br/> | 필수 <br/> |System.string  <br/> | 매개 변수 값은 "TenantAdmin", "VmAdmin" 또는 "DomainAdmin" 이어야 합니다. <br/> |
    
 ## <a name="input-types"></a>입력 형식
 <a name="InputTypes"> </a>
 
-없음. Set-CcCredential cmdlet은 파이프라인 입력을 허용 하지 않습니다.
+없음 설정-CcCredential cmdlet은 파이프라인 된 입력을 허용 하지 않습니다.
   
 ## <a name="return-types"></a>반환 형식
 <a name="ReturnTypes"> </a>

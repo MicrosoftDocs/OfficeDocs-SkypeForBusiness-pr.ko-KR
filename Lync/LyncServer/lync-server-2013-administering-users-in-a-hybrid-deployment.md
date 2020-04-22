@@ -12,12 +12,12 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c6cfa255eddc998047f5b404d59b7e6622fbaae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b09ca3c5a80215c0a2d63a018150361671df6859
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204377"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,11 +65,11 @@ Microsoft Office 365 Online 포털에서 제공 되는 사용자 관리 기능�
 
 **HostedMigrationOverrideUrl** 매개 변수에 대해 지정 된 url 형식은 다음과 같은 형식으로 호스팅된 마이그레이션 서비스를 실행 하는 풀의 url 이어야 합니다.
 
-Https://\<풀 FQDN\>/HostedMigration/hostedmigrationService.svc. Office 365 테 넌 트 계정에 대 한 Lync Online 제어판의 URL을 확인 하 여 호스팅된 마이그레이션 서비스의 URL을 확인할 수 있습니다.
+Https://\<풀 FQDN\>/HostedMigration/hostedmigrationService.svc. Office 365 조직 계정에 대 한 Lync Online 제어판의 URL을 확인 하 여 호스팅된 마이그레이션 서비스에 대 한 URL을 확인할 수 있습니다.
 
-**Office 365 테 넌 트에 대 한 호스팅된 마이그레이션 서비스 URL을 확인 하려면**
+**Office 365 조 직에 대 한 호스팅된 마이그레이션 서비스 URL을 확인 하려면**
 
-1.  관리자로 Office 365 테 넌 트에 로그인 합니다.
+1.  관리자로 Office 365 조직에 로그인 합니다.
 
 2.  **Lync 관리 센터**를 엽니다.
 

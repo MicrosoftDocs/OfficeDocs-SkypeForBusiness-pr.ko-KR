@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '요약: IT 전문가는 비즈니스용 Skype 서버에 대 한 계획을 진행 하는 동안 비즈니스용 Skype 웹 앱 및 Skype 모임 앱에 대 한 지원 요구 사항을 검토 해야 합니다. 이 문서는 이러한 앱의 사용자를 위한 것이 아닙니다.'
-ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157641"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777793"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>모임 클라이언트 계획 (웹 앱 및 모임 앱)
  
@@ -70,7 +70,7 @@ Skype 모임 앱은 앱을 다운로드 및 설치 하 고 모임에 참가할 �
 Windows의 Chrome에서 웹 앱에 액세스 하는 &#x2778;에는 웹 앱이 포함 된 Internet Explorer 프레임에 로드 되는 작은 프로그램이 실행 됩니다. 이 프로그램을 사용 하려면 웹 앱이 제대로 로드 되도록 지원 되는 버전의 Internet Explorer 중 하나가 설치 되어 있어야 합니다.
   
 > [!NOTE]
-> Office 365 사용자는 비즈니스용 Skype를 사용 하 여 Internet Explorer 10 이상을 사용할 수 있습니다. 
+> Microsoft 365 및 Office 365 사용자는 비즈니스용 Skype를 사용 하 여 Internet Explorer 10 이상을 사용할 수 있습니다. 
   
 ### <a name="skype-meetings-app"></a>Skype 모임 앱
 

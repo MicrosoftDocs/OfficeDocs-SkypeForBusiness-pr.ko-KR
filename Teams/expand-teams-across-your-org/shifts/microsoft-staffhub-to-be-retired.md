@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4c37d0c606a52893b69a101c99ef962e46d4deb3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141181"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780637"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 사용 중지 예정
 
@@ -97,7 +97,7 @@ StaffHub를 사용 하 여 만든 팀은 StaffHub 에서만 보고 관리할 수
 
 #### <a name="where-is-shifts-data-stored"></a>저장 된 데이터는 어디에서 이동 하나요?
 
-데이터 이동은 북미 및 서유럽의 데이터 센터에 있는 Azure에 저장 됩니다. SharePoint 콘텐츠는 Office 365 그룹을 활용 하 고 동일한 저장소 및 지원을 사용 합니다.
+데이터 이동은 북미 및 서유럽의 데이터 센터에 있는 Azure에 저장 됩니다. SharePoint 콘텐츠는 Microsoft 365 그룹을 활용 하 고 동일한 저장소 및 지원을 사용 합니다.
 
 자세한 내용은 [이동 데이터 위치](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data)를 참조 하세요.
 
@@ -131,9 +131,9 @@ StaffHub에서 팀으로 전환 하는 방법에 대 한 자세한 지침은 [�
 
 예, 팀을 사용 하는 각 관리자와 팀 구성원에 게 Office 365 계정 (Azure AD)이 있어야 하 고 유효한 라이선스를 할당 해야 합니다.
  
-#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-office-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>StaffHub에서 StaffHub 팀이 만든 모든 Office 365 그룹에 특별 한 접두사를 추가할 수 있습니다. 팀에서 동일 하 게 할 수 있나요?
+#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>StaffHub에서 StaffHub 팀이 만든 모든 Microsoft 365 그룹에 특별 한 접두사를 추가할 수 있습니다. 팀에서 동일 하 게 할 수 있나요?
 
-StaffHub에서 팀으로 이동 하는 경우에는 같은 기능을 사용할 수 없습니다. 모든 Office 365 그룹에 이름 일관성을 적용 해야 하는 경우 [office 365 그룹 명명 정책을](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)사용할 수 있습니다.
+StaffHub에서 팀으로 이동 하는 경우에는 같은 기능을 사용할 수 없습니다. 모든 Microsoft 365 그룹에 이름 일관성을 적용 해야 하는 경우 [microsoft 365 그룹 명명 정책을](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)사용할 수 있습니다.
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>팀의 이름을 동일 하 게 설정할 수 있습니다.
 
@@ -149,7 +149,7 @@ StaffHub에서 기존 팀 rosters을 검토 하 고 해당 하는 경우 전화 
 
 사용자의 일정이 교대으로 이동 하지만 사용자는 팀 또는 Office 365 그룹의 구성원이 되지 않습니다.
 
-Azure AD 사용자 계정에 연결 되지 않은 비활성 계정의 경우 관리자는 사용자가 조직의 올바른 Azure AD 계정에 연결 되도록 StaffHub 팀 구성원 페이지에서 유효한 Office 365 전자 메일 주소를 추가 하 여 사용자가 팀 구성원으로 추가 되도록 할 수 있습니다.
+Azure AD 사용자 계정에 연결 되지 않은 비활성 계정의 경우 관리자는 사용자가 조직의 올바른 Azure AD 계정에 연결 되도록 StaffHub 팀 구성원 페이지에 유효한 Microsoft 365 또는 Office 365 전자 메일 주소를 추가 하 여 사용자가 팀 구성원으로 추가 되도록 할 수 있습니다.
 
 또 다른 옵션은 관리자가 **추가-StaffHubMember** 및 **Remove-StaffHubUser** cmdlet을 실행 하 여 StaffHub 팀에서 프로 비전 되지 않은 계정을 제거 하 고 사용자를 해당 UPN을 사용 하 여 팀에 다시 추가 하는 것입니다.
 

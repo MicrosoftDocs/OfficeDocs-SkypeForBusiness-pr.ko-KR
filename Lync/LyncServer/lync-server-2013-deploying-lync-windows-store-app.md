@@ -12,12 +12,12 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de478ddf104f36fc208f2773c26c772b2cc0addd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4478f60fc99304e7cf882ddec7951aa3625d74f2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195341"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ _**마지막으로 수정 된 항목:** 2013-12-03_
 
 ## <a name="enabling-multi-factor-authentication-for-lync-windows-store-app"></a>Lync Windows 스토어 앱에 대해 다단계 인증을 사용 하도록 설정
 
-Lync Server 2013 용 누적 업데이트: 6 월 2013은 Lync Windows 스토어 앱 클라이언트에 대 한 다단계 인증 지원을 추가 합니다. 사용자 이름 및 암호 외에도 추가 인증 방법 (예: 스마트 카드나 Pin)을 사용 하 여 Lync 모임에 로그인 할 때 외부 사용자를 인증 해야 할 수 있습니다. 다단계 인증을 사용 하도록 설정 하려면 Lync Server 2013에서 AD FS (Active Directory Federation Service) 페더레이션 서버를 배포 하 고 수동 인증을 사용 하도록 설정 합니다. AD FS가 구성 되 면 Lync 모임에 참가 하려는 외부 사용자에 게 구성한 추가 인증 방법과 함께 사용자 이름 및 암호 챌린지를 포함 하는 AD FS 다단계 인증 웹 페이지가 제공 됩니다. .
+Lync Server 2013 용 누적 업데이트: 6 월 2013은 Lync Windows 스토어 앱 클라이언트에 대 한 다단계 인증 지원을 추가 합니다. 사용자 이름 및 암호 외에도 추가 인증 방법 (예: 스마트 카드나 Pin)을 사용 하 여 Lync 모임에 로그인 할 때 외부 사용자를 인증 해야 할 수 있습니다. 다단계 인증을 사용 하도록 설정 하려면 Lync Server 2013에서 AD FS (Active Directory Federation Service) 페더레이션 서버를 배포 하 고 수동 인증을 사용 하도록 설정 합니다. AD FS가 구성 되 면 Lync 모임을 연결 하려고 시도 하는 외부 사용자에 게 구성한 추가 인증 방법과 함께 사용자 이름 및 암호 챌린지를 포함 하는 AD FS 다단계 인증 웹 페이지가 제공 됩니다.
 
 <div class=" ">
 
@@ -138,7 +138,7 @@ Lync Windows 스토어 앱은 Windows 8을 실제 장치로 등록 하지 않은
 
 ## <a name="lync-windows-store-app-cannot-sign-in-due-to-a-certificate-name-validation-failure"></a>인증서 이름 유효성 검사 오류로 인해 Lync Windows 스토어 앱에서 로그인 할 수 없음
 
-최신 버전의 Lync Windows 스토어 앱을 실행 하 고 있지 않은 Office 365 사용자에 대해 로그인 문제가 발생할 수 있습니다. 이 문제는 일반적으로 여러 도메인을 사용 하는 경우 발생 합니다 (예: SIP URI가 **userA@domainZ.com** 이지만에 지 서버는 **sip.domainX.com**). 이 문제를 해결 하기 위해 사용자는 Windows 8.1이 필요한 최신 버전의 Lync Windows 스토어 앱을 설치 해야 합니다.
+Microsoft 365 또는 Office 365 사용자가 최신 버전의 Lync Windows 스토어 앱을 실행 하지 않는 경우 로그인 문제가 발생할 수 있습니다. 이 문제는 일반적으로 여러 도메인을 사용 하는 경우 발생 합니다 (예: SIP URI가 **userA@domainZ.com** 이지만에 지 서버는 **sip.domainX.com**). 이 문제를 해결 하기 위해 사용자는 Windows 8.1이 필요한 최신 버전의 Lync Windows 스토어 앱을 설치 해야 합니다.
 
 </div>
 

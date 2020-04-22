@@ -18,12 +18,12 @@ description: 클라우드, 동기화 됨, 페더레이션 등의 Microsoft 팀�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a58dcdae704be7ccdaefe1e2bca3b4978f4a10f9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 75020dfd414e6990f1a3a07ec6f1506ebc9f2f89
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139297"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776883"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft 팀의 id 모델 및 인증
 ==========================================
@@ -44,8 +44,8 @@ Microsoft 팀은 Office 365에서 사용할 수 있는 모든 id 모델을 지�
 
 |Id 모델 |배포 검사 목록  |추가 정보  |
 |---------|---------|---------|
-|모든     |<ol type="1"><li>Office 365 계획 옵션 비교 및 구독 획득</li><li>Office 365 테 넌 트 만들기</li><li>테 넌 트에 Office 365 라이선스 할당</li><li>도메인 및 관리자 사용자 구성</li><li>Id 모델 관련 지침 계속</li></ol>          |<ul style="list-style-type:none"><li>[Office 365 계획 옵션](https://technet.microsoft.com/library/office-365-plan-options.aspx)</li><li>[Office 365 비즈니스 계획 비교](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[비즈니스용 Office 365 구독에 대 한 라이선스 구입](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[구독에 라이선스 추가](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[비즈니스용 Office 365 설정](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[설정 마법사를 사용 하 여 사용자 및 도메인 추가](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li><li>참고: 도움이 필요한 경우 [Microsoft Office 365 팀 용 FastTrack](https://go.microsoft.com/fwlink/?linkid=854618) 을 통해 도움을 받을 수 있습니다.</li></ul>          |
-|클라우드 Id     |<ol type="1"><li>Office 365 관리 포털을 사용 하 여 사용자 만들기</li></ol>           |<ul style="list-style-type:none"><li>[Office 365에 개별적으로 또는 대량으로 사용자 추가](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul>         |
+|모든     |<ol type="1"><li>Office 365 계획 옵션 비교 및 구독 획득</li><li>Office 365 조직 만들기</li><li>테 넌 트에 Office 365 라이선스 할당</li><li>도메인 및 관리자 사용자 구성</li><li>Id 모델 관련 지침 계속</li></ol>          |<ul style="list-style-type:none"><li>[Office 365 계획 옵션](https://technet.microsoft.com/library/office-365-plan-options.aspx)</li><li>[비즈니스 요금제에 대 한 Microsoft 365 앱 비교](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[비즈니스용 Office 365 구독에 대 한 라이선스 구입](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[구독에 라이선스 추가](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[비즈니스용 Office 365 설정](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[설정 마법사를 사용 하 여 사용자 및 도메인 추가](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li><li>참고: 도움이 필요한 경우 [Microsoft Office 365 팀 용 FastTrack](https://go.microsoft.com/fwlink/?linkid=854618) 을 통해 도움을 받을 수 있습니다.</li></ul>          |
+|클라우드 Id     |<ol type="1"><li>Microsoft 365 관리 센터를 사용 하 여 사용자 만들기</li></ol>           |<ul style="list-style-type:none"><li>[Office 365에 개별적으로 또는 대량으로 사용자 추가](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul>         |
 |동기화 된 Id     |<ol type="1"><li>Azure AD Connect 설치</li><li>디렉터리 동기화 구성</li><li>온-프레미스 Active Directory 관리 도구를 사용 하 여 사용자 만들기</li></ol>         |<ul style="list-style-type:none"><li>[Office 365에 대 한 디렉터리 동기화 설정](https://support.office.com/article/Set-up-directory-synchronization-for-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)</li><li>참고: 인증을 수행 하려면 Office 365에 대해 암호 해시가 동기화 되어야 합니다.</li></ul>         |
 |페더레이션 Id    |<ol type="1"><li>Azure AD Connect 설치</li><li>디렉터리 동기화 구성</li><li>페더레이션 Id 공급자 설치 및 구성 (ADFS 권장)</li><li>온-프레미스 Active Directory 관리 도구를 사용 하 여 사용자 만들기</li></ol>           |<ul style="list-style-type:none"><li>[Office 365에 대 한 디렉터리 동기화 설정](https://support.office.com/article/Set-up-directory-synchronization-for-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)</li><li>[AD FS 배포 계획](https://go.microsoft.com/fwlink/?linkid=854619)</li><li>[검사 목록: 페더레이션 서버 팜 배포](https://go.microsoft.com/fwlink/?linkid=854620)</li><li>[Adfs에 대 한 엑스트라넷 액세스 구성](https://go.microsoft.com/fwlink/?linkid=854621)</li><li>[AD FS와 Azure AD 간의 신뢰 설정](https://go.microsoft.com/fwlink/?linkid=854622)</li><li>[ADFS를 사용 하 여 single sign-on 확인 및 관리](https://go.microsoft.com/fwlink/?linkid=854624)</li><li>[Azure AD federation compatibility 목록](https://go.microsoft.com/fwlink/?linkid=854625)</li><li>참고: 암호 해시를 Azure Active Directory와 동기화 할 필요는 없습니다.</li></ul>         |
 
@@ -56,7 +56,7 @@ Microsoft 팀은 Office 365에서 사용할 수 있는 모든 id 모델을 지�
 
 Office 365 계획은 Office 365 서비스에 대 한 사용자 로그인의 보안을 향상 하는 MFA (다단계 인증)를 지원 합니다. Office 365 용 MFA를 사용 하는 경우 사용자는 암호를 올바르게 입력 한 후에 스마트폰에서 전화 통화, 문자 메시지 또는 앱 알림을 승인 해야 합니다. 이 두 번째 인증 요소가 충족 된 후에만 사용자가 로그인 할 수 있습니다.
 
-다중 요소 인증은 Microsoft 팀을 포함 하는 모든 Office 365 계획에서 지원 됩니다. Microsoft 팀이 포함 된 Office 365 구독 계획에 대 한 자세한 내용은 아래 라이선스 섹션을 참고 하세요.
+Microsoft 팀이 포함 된 Microsoft 365 또는 Office 365 요금제에서는 다중 요소 인증이 지원 됩니다. Microsoft 팀이 포함 된 구독 계획에 대 한 자세한 내용은 아래 라이선스 섹션을 참고 하세요.
 
 사용자가 MFA에 등록 되 면 다음에 사용자가 로그인 할 때 두 번째 인증 요소를 설정 하 라는 메시지가 표시 됩니다. 지원 되는 인증 방법은 다음과 같습니다.
 

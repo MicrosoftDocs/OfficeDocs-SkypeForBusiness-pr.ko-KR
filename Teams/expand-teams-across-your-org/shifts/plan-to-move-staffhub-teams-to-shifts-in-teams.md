@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 41fd33c384bf6f91ae760d539e18ea7ee74a8503
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f296beffa5d9d97bd34035a80cac8068783cea54
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139587"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780617"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft 팀에서 StaffHub 팀을 교대으로 이동 하는 계획
 
@@ -40,7 +40,7 @@ ms.locfileid: "43139587"
 |---------|---------|---------|
 |1    |관련자 준비 및 식별         |         |
 |2     |StaffHub에서 팀으로 전환 및 팀 온 보 딩에 대 한 설명서를 검토 합니다.         |[사용 중지 StaffHub](microsoft-staffhub-to-be-retired.md)<br><br>[팀에서 StaffHub 팀을 교대으로 이동](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Teams 시작하기](../../get-started-with-teams-quick-start.md)         |
-|3    |조직에 Office 365 그룹 사용        |[Office 365 그룹 및 팀](../../Office-365-groups.md)      |
+|3    |조직에서 Microsoft 365 그룹을 사용 하도록 설정        |[Microsoft 365 그룹 및 팀](../../Office-365-groups.md)      |
 |4(tcp/ipv4)    |필수 조건을 충족 하는지 확인         |[전제 조건이 충족 되는지 확인](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |5mb   |조직의 StaffHub 사용자에 게 팀 라이선스 할당|[Teams 라이선스 할당](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[Teams에 대한 사용자 액세스 관리](../../user-access.md)      |
 |26    |StaffHub PowerShell 모듈 설치        |[StaffHub PowerShell 모듈 설치](install-the-staffhub-powershell-module.md)        |

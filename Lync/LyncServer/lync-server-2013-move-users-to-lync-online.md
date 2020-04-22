@@ -12,12 +12,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f490a50ade6c10d37a478729c46a5545970afb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5106d4e27921d9407b2663410cc0872892479ebb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184601"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779855"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ _**마지막으로 수정 된 항목:** 2014-05-29_
 
 사용자를 Lync Online으로 이동 하기 전에 몇 가지 파일럿 사용자를 이동 하 여 환경이 올바르게 구성 되어 있는지 확인할 수 있습니다. 그런 다음 추가 사용자 이동을 시도 하기 전에 Lync 기능 및 서비스가 예상 대로 작동 하는지 확인할 수 있습니다.
 
-온-프레미스 사용자를 Lync Online 테 넌 트로 이동 하려면 Lync Server 관리 셸에서 다음 cmdlet을 실행 하 고 Microsoft Office 365 테 넌 트에 대 한 관리자 자격 증명을 사용 합니다. 이동 하려는 사용자에 대 한 정보로 "username@contoso.com"를 바꿉니다.
+온-프레미스 사용자를 Lync Online 테 넌 트로 이동 하려면 Microsoft Office 365 조 직에 대 한 관리자 자격 증명을 사용 하 여 Lync Server 관리 셸에서 다음 cmdlet을 실행 합니다. 이동 하려는 사용자에 대 한 정보로 "username@contoso.com"를 바꿉니다.
 
    ```PowerShell
     $creds=Get-Credential
@@ -65,11 +65,11 @@ _**마지막으로 수정 된 항목:** 2014-05-29_
 
 **HostedMigrationOverrideUrl** 매개 변수에 대해 지정 된 url의 형식은 호스트 되는 마이그레이션 서비스가 실행 되는 풀의 url 이어야 하며 HTTPS://\<pool FQDN\>/HostedMigration/hostedmigrationService.svc.입니다.
 
-Office 365 테 넌 트 계정에 대 한 Lync Online 제어판의 URL을 확인 하 여 호스팅된 마이그레이션 서비스의 URL을 확인할 수 있습니다.
+Office 365 조직 계정에 대 한 Lync Online 제어판의 URL을 확인 하 여 호스팅된 마이그레이션 서비스에 대 한 URL을 확인할 수 있습니다.
 
-**Office 365 테 넌 트에 대 한 호스팅된 마이그레이션 서비스 URL을 확인 하려면**
+**Office 365 조 직에 대 한 호스팅된 마이그레이션 서비스 URL을 확인 하려면**
 
-1.  관리자로 Office 365 테 넌 트에 로그인 합니다.
+1.  관리자로 Office 365 조직에 로그인 합니다.
 
 2.  **Lync 관리 센터**를 엽니다.
 

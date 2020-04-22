@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Skype Online에 대 한 Office 365에서 오디오 회의 체험 또는 구매
+title: 비즈니스용 Skype Online의 경우 Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,24 +21,24 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 용 오디오 회의 (PSTN 회의) 라이선스를 구입 하거나 구매 하 여 사용자가 전화를 걸 수 있는 컨퍼런스 통화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: d2ae202cbed7c59876ea04c9d3a5760d6495898d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d5afdc88b4d3c891b66ef3d4fce3860a648db488
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010961"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776773"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>비즈니스용 Skype Online에 대 한 Office 365에서 오디오 회의 체험 또는 구매
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>비즈니스용 Skype Online의 경우 Microsoft 365 또는 Office 365에서 오디오 회의 체험 또는 구매
 
 > [!Note]
 > Microsoft 팀의 오디오 회의에 대 한 자세한 내용은 [Microsoft 비즈니스용 Skype에 대 한 Office 365에서 오디오 회의 체험 또는 구입](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)을 참조 하세요.
 
 
-조직의 사용자가 모임에 전화를 걸 때 휴대폰을 사용 해야 하는 경우가 있습니다. 비즈니스용 Skype에는 이러한 상황에 대 한 오디오 회의 기능이 포함 되어 있습니다. 모바일 장치 또는 PC에서 비즈니스용 Skype 앱을 사용 하는 대신 휴대폰을 사용 하 여 비즈니스용 Skype 모임에 전화를 걸 수 있습니다.
+경우에 따라 조직의 사용자가 전화를 사용하여 모임에 전화해야 하는 경우가 있습니다. 비즈니스용 Skype에는 이러한 상황에 대 한 오디오 회의 기능이 포함 되어 있습니다. 모바일 장치 또는 PC에서 비즈니스용 Skype 앱을 사용 하는 대신 휴대폰을 사용 하 여 비즈니스용 Skype 모임에 전화를 걸 수 있습니다.
 
 일정을 예약 하거나 리드 회의를 하는 사용자를 위해 오디오 회의를 설정 하기만 하면 됩니다. 모임에 전화를 거는 모임 참석자는 자신에 게 할당 된 라이선스가 필요 하지 않으며 다른 설정이 필요 하지 않습니다.
 
-가격 정보는 [오디오 회의 가격 산정](https://products.office.com/skype-for-business/audio-conferencing#Requirements)을 참조 하세요.
+요금 정보는 [오디오 회의 요금](https://products.office.com/skype-for-business/audio-conferencing#Requirements)을 참조하세요.
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>1 단계: 오디오 회의 라이선스 구입 및 할당
 
@@ -94,10 +94,10 @@ ms.locfileid: "42010961"
 > [!NOTE]
 > 중국에서 21Vianet이 운영 하는 Office 365를 사용 하는 고객은이 기능을 아직 사용할 수 없습니다. 자세한 내용은 [21vianet에서 운영 하는 Office 365에 대 한](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)자세한 내용을 알아보세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype 온라인 설정](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
 [오디오 회의의 전화 번호](phone-numbers-for-audio-conferencing.md)
 
-[온라인 모임 및 컨퍼런스 통화에 대 한 옵션 설정](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)
+[온라인 모임 및 전화 회의에 대한 옵션 설정하기](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

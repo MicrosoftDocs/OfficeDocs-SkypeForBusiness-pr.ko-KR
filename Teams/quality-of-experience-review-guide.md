@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 44ea666d39427e6be6aa60a3c05af2a10ed1cc5e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749865"
+ms.locfileid: "43780587"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE(체감 품질) 검토 가이드 
 
@@ -70,16 +70,16 @@ _그림 1-이 가이드 전체에서 다룬 주요 작업 영역_
 
 |  |보고서 보기  |EUII 필드 보기  |보고서 만들기  |빌드 데이터 업로드  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Office 365 전역 관리자     |예         |예         |예         |예         |
+|전역 관리자     |예         |예         |예         |예         |
 |Teams 서비스 관리자     |예         |예         |예         |예         |
 |Teams 커뮤니케이션 관리자     |예         |예         |예         |예         |
 |Teams 커뮤니케이션 지원 엔지니어     |예         |예         |예         |아니요         |
 |팀 의사 소통 지원 전문가     |예         |아니요         |예         |아니요         |
 |비즈니스용 Skype 관리자     |예         |예         |예         |예         |
 |Azure AD 전역 읽기 프로그램 |예         |예         |예         |아니요         |
-|Office 365 보고서 리더기<sup>1</sup>     |예         |아니요         |예         |아니요         |
+|Microsoft 365 보고서 리더기<sup>1</sup>     |예         |아니요         |예         |아니요         |
 
-<sup>1</sup> CQD 보고서 읽기 외에도, Office 365 보고서 구독자는 관리 센터의 모든 [활동 보고서](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) 와 [Microsoft 365 채택 콘텐츠 팩](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)의 모든 보고서를 볼 수 있습니다.
+<sup>1</sup> Microsoft 365 보고서 구독자는 CQD 보고서를 읽는 것 외에도 관리 센터의 모든 [활동 보고서](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) 와 [Microsoft 365 채택 콘텐츠 팩](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)의 모든 보고서를 볼 수 있습니다.
 
 > [!NOTE]
 > EUII (최종 사용자 식별 가능 정보)가 표시 되지 않고 이러한 정보를 볼 수 있는 역할 중 하나가 있는 경우 CQD는 30 일간 EUII을 유지 한다는 점에 유의 하세요. 30 일이 지난 모든 항목이 삭제 됩니다.
@@ -598,7 +598,7 @@ _표 4-보고서 필터_
 2. Office 365 관리 자격 증명을 사용 하 여 인증 합니다.
 
    > [!NOTE]
-   > CQD에 액세스 하려면 Office 365 전역 관리자, 비즈니스용 Skype 관리자 또는 보고서 독자 역할이 있어야 합니다. 
+   > 전역 관리자, 비즈니스용 Skype 관리자 또는 CQD에 액세스 하는 독자 역할 보고서를 보유 하 고 있어야 합니다. 
 
 3. 페이지 맨 위에 있는 **요약 보고서** 메뉴를 선택한 다음 **자세한 보고서**를 선택 합니다.
 
@@ -1189,7 +1189,7 @@ Office 간편 실행만 사용 하는 경우에는 6 개월 내에 자동으로 
 비즈니스용 Skype의 버전 번호는 아래 링크를 통해 볼 수 있습니다.
 
 -   [Office ProPlus 업데이트에 대 한 릴리스 정보](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
--   [Office 365 ProPlus의 업데이트 기록](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
+-   [엔터프라이즈 용 Microsoft 365 앱에 대 한 업데이트 기록](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [비즈니스용 Skype 다운로드 및 업데이트](/SkypeForBusiness/software-updates)
 
 ### <a name="devices"></a>디바이스

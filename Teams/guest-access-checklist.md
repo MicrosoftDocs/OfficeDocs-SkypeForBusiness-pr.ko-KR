@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5470d9ec2ec2d22d8f3b66bac09ba6c67b9982f
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: 22a0c2a8641203e764d6c490a008525cf71e8d5c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951503"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776953"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams 게스트 액세스 검사 목록
 =========================================
@@ -49,7 +49,7 @@ ms.locfileid: "42951503"
 4. **저장**을 클릭합니다.
 
 > [!TIP]
-> Azure Active Directory, SharePoint Online 및 Office 365 그룹에서 기본 설정을 사용하는 경우 게스트 액세스 구성을 완료했을 수 있습니다. 이 경우 나머지 단계를 건너뛸 수 있습니다. 확실하지 않거나 AAD, SharePoint Online 또는 Office 365 그룹에서 사용자 설정을 사용하는 경우 이 검사 목록의 나머지 단계를 계속 수행하세요.
+> Azure Active Directory, SharePoint Online 및 Microsoft 365 그룹에서 기본 설정을 사용 하는 경우 게스트 액세스 구성이 완료 될 수 있습니다. 이 경우 나머지 단계를 건너뛸 수 있습니다. 확실 하지 않은 경우 또는 AAD, SharePoint Online 또는 Microsoft 365 그룹에 대 한 사용자 지정 설정을 사용 하는 경우이 검사 목록의 나머지 단계를 계속 진행 합니다.
 
 ## <a name="step-2-configure-azure-ad-business-to-business-settings"></a>2단계: Azure AD B2B 설정
 
@@ -75,17 +75,17 @@ ms.locfileid: "42951503"
       
     게스트를 초대할 수 있는 사용자를 제어하는 방법에 대한 자세한 내용은 [Azure Active Directory B2B 공동 작업에 대한 초대 위임](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)을 참조합니다.
 
-## <a name="step-3-configure-office-365-groups"></a>3단계: Office 365 그룹 구성
+## <a name="step-3-configure-microsoft-365-groups"></a>3 단계: Microsoft 365 그룹 구성
 
-1. Microsoft 365 관리 센터에서 **설정** > **설정**으로 이동하여 **서비스**를 클릭한 다음 **Office 365 그룹**을 선택합니다.
+1. Microsoft 365 관리 센터에서 **설정** > **설정**으로 이동 하 여 **서비스**를 클릭 한 다음 **Microsoft 365 그룹**을 선택 합니다.
 
-     ![Office 365 그룹 설정을 보여주는 스크린샷](media/guest-access-checklist-services-settings.png)
+     ![스크린샷에는 Microsoft 365 Groups 설정이 나와 있습니다.](media/guest-access-checklist-services-settings.png)
 2. **조직 외부의 그룹 구성원이 그룹 콘텐츠에 액세스하도록 허용** 확인란을 선택했는지 확인합니다. 이 설정을 선택하지 않으면 게스트가 그룹 콘텐츠에 액세스할 수 없습니다.
 
-    ![Office 365 그룹 설정을 보여주는 스크린샷](media/guest-access-checklist-office365.png)
+    ![스크린샷에는 Microsoft 365 Groups 설정이 나와 있습니다.](media/guest-access-checklist-office365.png)
 3. **그룹 소유자가 조직 외부의 사람을 그룹에 추가하도록 허용** 확인란을 선택했는지 확인합니다. 이 설정을 선택하지 않으면 팀 소유자가 새 게스트를 추가할 수 없습니다. 게스트 액세스를 지원하려면 이 설정은 기본으로 선택해야 합니다.
 
-이러한 설정을 구성하는 방법에 대한 자세한 내용은 [Office 365 그룹에서 게스트 액세스 관리](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) 및 [Office 365 그룹에서 게스트 액세스 제어](Teams-dependencies.md#control-guest-access-in-office-365-groups)를 참조하세요.
+이러한 설정을 구성 하는 방법에 대 한 자세한 지침은 [microsoft 365 그룹에서 게스트 액세스 관리](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) 및 [microsoft 365 그룹의 게스트 액세스 제어](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups)를 참조 하세요.
 
 ## <a name="step-4-configure-sharing-in-office-365"></a>4단계: Office 365에서 공유 구성 
 

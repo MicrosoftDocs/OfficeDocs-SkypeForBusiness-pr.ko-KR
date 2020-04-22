@@ -21,12 +21,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 추가 기능 라이선스, 각 라이센스와 함께 제공되는 기능, 제품용 라이선스 구입 방법 및 기존 통신사와 함께 사용하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 10f8b8d0af5c0c70d68c6fbdba561b15af41f64b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93d3ea0637063a2422871ba82e037c8f01e36299
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140821"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780517"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 추가 기능 라이선스
 
@@ -65,8 +65,8 @@ Microsoft Teams 라이선스는 최대한의 유연성을 제공하도록 설계
 
 사용 가능한 추가 기능 라이선스 옵션은 Office 365 플랜에 따라 다릅니다. 플랜과 관련된 정보, 기능 및 옵션에 대해서는 다음 주제를 참조하세요.
 
-- [Office 365 Business Premium](office-365-business-premium.md)
-- [Office 365 ProPlus](office-365-premium-pro-plus.md)
+- [Microsoft 365 비즈니스 표준](office-365-business-premium.md)
+- [엔터프라이즈 용 Microsoft 365 앱](office-365-premium-pro-plus.md)
 - [Office 365 Enterprise E1 또는 E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5(오디오 회의 제외)](office-365-enterprise-e5-without-audio-conferencing.md)

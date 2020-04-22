@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Pin에 대해 알아야 할 내용과 비즈니스용 Skype Online에서 다시 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: fdd11e3ef9c656b4b2cc6b929a2963e9b5e10824
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a2f91e1ccae53f08507a63ea56b499a3ad968c73
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680565"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777703"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의 PIN 다시 설정
 
@@ -39,7 +39,7 @@ PIN은 오디오 회의를 사용 하도록 설정 된 각 비즈니스용 Skype
   
 ## <a name="reset-a-users-pin"></a>사용자의 PIN 다시 설정
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
     
 2. **비즈니스용 Skype**> 관리 센터로 이동 하 고 왼쪽 탐색 창에서 **오디오 회의**를 클릭 합니다.
     
@@ -64,7 +64,7 @@ PIN은 오디오 회의를 사용 하도록 설정 된 각 비즈니스용 Skype
     
 - 사용자에 게 전자 메일을 자동으로 보내는 기능은 기본적으로 사용 되며, 사용자는 오디오 회의를 사용 하도록 설정 하거나 PIN을 다시 설정한 경우 PIN이 포함 된 전자 메일을 받게 됩니다. 그러나 자동으로 전자 메일 보내기를 사용 하지 않도록 설정한 경우 PIN 다시 설정 이메일이 사용자에 게 전송 되지 않으므로 PIN 정보를 사용자에 게 수동으로 보내야 합니다.
     
-- 모임이 시작 되 면 대기실에 있는 모든 사용자가 자동으로 참가 합니다. 예를 들어 두 명의 참가자가 모임에 참가 하 려 할 때 해당 사용자는 대기실에 저장 되 고 보류 중인 음악을 수신 대기 하 고 모임 이끌이가 휴대폰을 통해 해당 PIN을 사용 하 여 참가할 때 모임이 시작 되 고 로비의 참가자가 참가 하 게 됩니다.  모임.
+- 모임이 시작 되 면 대기실에 있는 모든 사용자가 자동으로 참가 합니다. 예를 들어 두 명의 참가자가 모임에 참가 하 려 할 때 모임이 시작 되기 전에 해당 사용자가 보류 중인 음악을 청취 하 고 모임 이끌이가 휴대폰을 통해 PIN을 사용 하 여 참가할 때 모임이 시작 되 고 대기실의 참가자가 모임에 참가 합니다.
     
 - 기본 설정은 익명 호출자가 모임을 시작 하도록 허용 하지 않는 것입니다.
     
@@ -103,6 +103,6 @@ PIN은 오디오 회의를 사용 하도록 설정 된 각 비즈니스용 Skype
     > [!NOTE]
     > 비즈니스용 Skype Online 용 Windows PowerShell 모듈을 사용 하면 비즈니스용 Skype Online에 연결 하는 원격 Windows PowerShell 세션을 만들 수 있습니다. 이 모듈은 64 비트 컴퓨터 에서만 지원 되며 비즈니스용 [Skype Online 용 Windows PowerShell 모듈](https://go.microsoft.com/fwlink/?LinkId=294688) 의 Microsoft 다운로드 센터에서 다운로드할 수 있습니다.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [사용자의 회의 ID 다시 설정](reset-a-conference-id-for-a-user.md)

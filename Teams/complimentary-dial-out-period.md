@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Microsoft 팀에서 Office 365 통화 요금제 및 Office 365 오디오 회의에 대 한 무료 전화 걸기 기간에 대해 알아보세요.
-ms.openlocfilehash: 46c9aac02c40a973abc8356dc4212b3521852461
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 19ffdd1b0a634a2fb3294479b2163af38aefedf6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137298"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779795"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>오디오 회의 무료 전화 걸기 기간
 
@@ -48,7 +48,7 @@ Office 365 오디오 회의 서비스를 채택 하는 고객의 경우 Microsof
 
 또한 다음과 같은 무료 전화 걸기 기간 동안 900 분의 cap 제한 사항이 있습니다.
 
-모든 국가에서 라이선스 사용 위치 (Office 365 관리 포털의 라이선스 영역에 정의 된 사용자 국가 위치)를 사용 하는 사용자는 전화 44를 걸 수 있습니다. 각 사용자는 테 넌 트 수준에서 풀링되는 국가 및 지역 영역에 대해 매달 사용자 당 900 분을 받습니다. 예를 들어, 고객은 115 오디오 회의 구독 라이선스를 구입한 후 사용자에 게 10 명의 사용자를 보유 하 고 있으며 100, 영국의 사용자와 인도의 다섯 사용자에 게 모든 오디오 회의 구독 라이선스를 할당 해 줍니다.
+모든 국가에서 라이선스 사용 위치 (Microsoft 365 관리 센터의 라이선스 영역에 정의 된 사용자 국가 위치)를 사용 하는 사용자는 전화 44를 걸 수 있습니다. 각 사용자는 테 넌 트 수준에서 풀링되는 국가 및 지역 영역에 대해 매달 사용자 당 900 분을 받습니다. 예를 들어, 고객은 115 오디오 회의 구독 라이선스를 구입한 후 사용자에 게 10 명의 사용자를 보유 하 고 있으며 100, 영국의 사용자와 인도의 다섯 사용자에 게 모든 오디오 회의 구독 라이선스를 할당 해 줍니다.
 
 > [!NOTE]
 > 풀 크기는 할당 된 라이선스를 기반으로 하며 구입 하지 않은 라이선스입니다.

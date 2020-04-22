@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5a437353d00fca8a59bd7de2b753967adc1134
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e327ab7be4b09ca91d454ab560f06b293fba19bb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42707008"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780467"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>업그레이드 후 팀을 최대한 활용 하기
 
@@ -37,7 +37,7 @@ ms.locfileid: "42707008"
 
 조직에 팀을 성공적으로 배포 하 고 품질과 안정성을 사용 하 여 서비스를 운영 하는 경우, 다음 단계는 서비스를 향상 시킬 수 있는 기회가 있는지 정기적으로 평가 하는 것입니다. 이는 클라우드 서비스 관리에 대 한 최신 표준인 지속적인 서비스 향상 계획의 일부입니다.
 
-조직에 관심을 가질 수 있는 새로운 기능 향상을 위해 [팀 공용 로드맵](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) 를 모니터링 하 여 서비스를 항상 최대한 활용할 수 있도록 하는 좋은 방법입니다. Office 365 관리 포털에 액세스할 수 있는 경우 메시지 센터를 통해 새로운 기능과 변경 기능에 대 한 정기 업데이트를 받을 수 있습니다.
+조직에 관심을 가질 수 있는 새로운 기능 향상을 위해 [팀 공용 로드맵](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) 를 모니터링 하 여 서비스를 항상 최대한 활용할 수 있도록 하는 좋은 방법입니다. Microsoft 365 관리 센터에 액세스할 수 있는 경우에는 메시지 센터를 통해 새로운 기능과 변경 기능에 대 한 정기 업데이트를 받을 수 있습니다.
 
 서비스를 향상 시킬 수 있는 기회가 표시 되는 경우에는 시간을 사용 하는 것이 적절 합니다. [Microsoft 팀에서 채팅, 팀, 채널 및 앱 배포](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 를 다시 방문 하 여 end에 동일한 지침을 적용 합니다. 약간만 변경 되는 경우 모든 작업 및 작업을 전체적으로 완료 해야 하는 것은 아니지만, 성공적인 결과를 얻을 수 있는 방법에 따라 각 활동 및 작업을 평가 하는 것이 좋습니다.
 

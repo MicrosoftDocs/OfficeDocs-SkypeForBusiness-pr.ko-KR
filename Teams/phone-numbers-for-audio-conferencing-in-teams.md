@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 국가 및 지역에 전화 접속 회의 번호와 자동으로 할당 되는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 921878c7b0dfd8abd313adffb9b87e07e58ad66d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9f130ec72d398e55ff3f4890ae89422915fc47a2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137858"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779614"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의를 위한 전화 번호
 
@@ -50,7 +50,7 @@ Microsoft 팀 사용자가 Outlook 또는 Outlook Web App에서 모임을 예약
   
 - **전용 전화 번호**는 조직 내 사용자만 사용할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 있습니다.
   
-- **공유 전화 번호**는 다른 Office 365 조직과 공유할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 없습니다.
+- **공유 전화 번호** 는 다른 Microsoft 365 또는 Office 365s와 공유할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 없습니다.
   
 이끌이에게 할당된 기본 오디오 회의 번호는 모임 초대에만 포함되어 있지만 발신자는 회의 브리지에 할당된 모든 전화 번호를 사용하여 모임에 참가할 수 있습니다. 모임에 참여하는 데 사용할 수 있는 전화 번호 목록은 모든 모임 초대에 포함되는 **현지 번호 찾기** 링크에서 사용할 수 있습니다.
   

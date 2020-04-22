@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddbfd37754ed5ab1347fb198936c1df3f43b356c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9f3f35318c2ccfdf791becba0ae67208484c883c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835478"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779054"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Microsoft 팀을 위한 활동 보고서 사용 
 ========================================
@@ -94,7 +94,7 @@ Microsoft 365 관리 센터에서 활동 보고서를 사용 하 여 조직의 �
 
 활동 보고서에는 할당 된 사용자가 액세스할 수 있습니다.
 
-- Office 365 전역 관리자 역할
+- 전역 관리자 역할
 - 제품 관련 관리자 역할 (Exchange, 비즈니스용 Skype 또는 SharePoint)
 - 보고서 독자 역할
 

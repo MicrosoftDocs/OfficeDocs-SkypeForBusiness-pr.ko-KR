@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44b7a87a003b59543c37feb278462e839d83bd1e
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 68a7b26fa9668685fc9082ecdb202b6f589e0f4f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863309"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780187"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>팀의 동적 구성원 개요
 
-Microsoft 팀은 *동적 구성원*을 사용 하 여 Office 365 그룹과 연결 된 팀을 지원 합니다. 동적 멤버 자격을 사용 하면 Azure Active Directory (Azure AD)의 특정 사용자 특성을 확인 하는 하나 이상의 규칙으로 팀 구성원을 정의할 수 있습니다. 사용자 특성이 변경 되거나 사용자가 테 넌 트에 가입 하 고 나갈 때 사용자가 자동으로 올바른 팀에 추가 또는 제거 됩니다.
+Microsoft 팀은 *동적 구성원*을 사용 하 여 microsoft 365 그룹과 연결 된 팀을 지원 합니다. 동적 멤버 자격을 사용 하면 Azure Active Directory (Azure AD)의 특정 사용자 특성을 확인 하는 하나 이상의 규칙으로 팀 구성원을 정의할 수 있습니다. 사용자 특성이 변경 되거나 사용자가 테 넌 트에 가입 하 고 나갈 때 사용자가 자동으로 올바른 팀에 추가 또는 제거 됩니다.
 
 동적 구성원 자격을 통해 조직의 특정 cohorts 사용자에 대 한 팀을 설정할 수 있습니다. 사용할 수 있는 시나리오는 다음과 같습니다.
 - 병원은 nurses, doctors 및 surgeons에 대 한 고유한 팀을 만들어 브로드캐스트 통신을 할 수 있습니다. 이는 병원이 임시 직원을 사용 하는 경우 특히 중요 합니다.
@@ -48,7 +48,7 @@ Microsoft 팀은 팀의 Office 365 그룹에 영향을 미치는 경우 동적 �
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>O365 그룹을 사용 하 여 새 팀 만들기
 
-이제 구성원 변경 내용이 적용 되는 시간을 허용 하 고 [Microsoft 팀과 기존 Office 365 그룹 향상](enhance-office-365-groups.md)에 설명 된 대로 새 팀을 만듭니다.
+이제 구성원 변경 내용이 적용 되는 시간을 허용 하 고 [Microsoft 팀과 기존 microsoft 365 그룹 향상](enhance-office-365-groups.md)에 설명 된 대로 새 팀을 만듭니다.
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>기존 팀에 동적 구성원 자격 적용
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f411de7f0c373e82b450cd41b828fd591777311b
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: ba628bf3f58523dc37e2273b437f22af1a0ebc19
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978460"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778934"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Microsoft 팀에서 팀 소유자 및 구성원 지정
 =================================================
@@ -75,10 +75,10 @@ Microsoft 팀 내에는 **소유자** 와 **구성원**의 두 가지 사용자 
 
 ## <a name="permissions-to-create-teams"></a>팀을 만들 수 있는 권한
 
-기본적으로 Exchange Online에서 사서함을 사용 하는 모든 사용자에 게 Office 365 그룹을 만들 수 있는 사용 권한이 있으며, 따라서 Microsoft 팀 내에서 팀이 됩니다. 그룹 만들기 및 관리 권한을 사용자 집합에 위임 하 여 더욱 엄격한 제어 및 새 팀 만들기를 제한 하 여 새 Office 365 그룹을 만들 수 있습니다. 지침은 [Office 365 그룹을 만들 수 있는 사용자 관리](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조 하세요.
+기본적으로 Exchange Online에서 사서함을 사용 하는 모든 사용자에 게 Microsoft 365 그룹을 만들 수 있는 권한이 있으며, 따라서 Microsoft 팀 내에서 팀입니다. 그룹 만들기 및 관리 권한을 사용자 집합에 위임 하 여 더욱 엄격 하 게 제어 하 고 새 팀의 생성을 제한 하 여 새 Microsoft 365 그룹을 만들 수 있습니다. 지침은 [Microsoft 365 그룹을 만들 수 있는 사용자 관리](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조 하세요.
 
 
 ||||
 |---------|---------|---------|
 | ![결정 지점을 나타내는 아이콘](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |의사 결정 지점         |모든 Microsoft 팀 사용자가 팀을 만들 수 있습니까 (권장)?         |
-| ![다음 단계를 나타내는 아이콘](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |다음 단계         |팀을 만들 수 있는 사용자를 제한 해야 하는 경우 Office 365 그룹을 만들 수 있는 사용자의 기본 사용 권한을 수정 합니다.         |
+| ![다음 단계를 나타내는 아이콘](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |다음 단계         |팀을 만들 수 있는 사용자를 제한 해야 하는 경우 Microsoft 365 그룹을 만들 수 있는 사용자의 기본 사용 권한을 수정 합니다.         |

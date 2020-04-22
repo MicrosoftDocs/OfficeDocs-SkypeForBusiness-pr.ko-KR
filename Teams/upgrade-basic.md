@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c359f1d078448af33a8871ebcbe0f5cb73c1b15
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a3d65b6af52764a28548cb9ddf190959f89e8f97
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836160"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778334"
 ---
 # <a name="upgrade-basic"></a>업그레이드 기본
 
 <a name="about-upgrade-basic"></a>
 
-소규모 조직 또는 비즈니스용 Skype Online for IM (채팅) 및 모임만을 사용 하도록 디자인 됨, 업그레이드 기본 검사 목록은 핵심, 추천 활동, 관련 리소스를 포함 하는 가속화 된 작업 계획입니다. 비즈니스용 Skype에서 팀으로 성공적으로 이동 했습니다.
+소규모 조직 또는 비즈니스용 Skype Online for IM (채팅) 및 모임만을 사용 하도록 디자인 됨, 업그레이드 기본 검사 목록은 비즈니스를 위해 비즈니스용 Skype에서 팀으로 성공적으로 이동 하는 데 필요한 핵심, 추천 활동 및 관련 리소스를 포함 하는 가속화 된 동작 계획입니다.
 
 이 10 가지 간단한 단계는 성공적인 업그레이드를 위해 필요한 모든 것을 제공 합니다. 약 30 ~ 45 일 동안 완료 되도록 설계 되었지만 조직의 업그레이드 일정에 따라 작업 완료 날짜를 조정 해야 합니다.
 
@@ -75,7 +75,7 @@ ms.locfileid: "41836160"
 
 *(업그레이드 전 4 ~ 6 주)*
 
-팀은 IM (채팅), 모임 등의 비즈니스용 Skype 기능을 제공 하지만 훨씬 더 많은 작업을 수행할 수도 있습니다. 팀워크의 진정한 허브 인 팀은 작업 그룹에서 프로젝트, 파일, 대화 및 앱을 모두 한 곳에서 관리할 수 있도록 합니다. 기본적으로 팀은 모든 조직에 대해 설정 되어 있습니다. 조직에서 팀을 사용 하는 방법을 결정 하 고 성공을 위해 환경을 구성 합니다. 
+팀은 IM (채팅), 모임 등의 비즈니스용 Skype 기능을 제공 하지만 훨씬 더 많은 작업을 수행할 수도 있습니다. 팀워크의 진정한 허브 인 팀은 작업 그룹에서 프로젝트, 파일, 대화 및 앱을 모두 한 곳에서 관리할 수 있도록 합니다. 기본적으로 모든 조직에 Teams가 설정되어 있습니다. 조직에서 팀을 사용 하는 방법을 결정 하 고 성공을 위해 환경을 구성 합니다. 
 
 > [!Note]
 > 기존 비즈니스용 Skype 고객 인 경우 현재 네트워크 인프라는 이미 팀에 대해 구성 되었을 수 있습니다. 이를 확인 하기 위해 아래에 연결 된 "전체 기술 계획" 지침을 팔 로우 할 수 있습니다 (선택 사항).
@@ -83,7 +83,7 @@ ms.locfileid: "41836160"
 **리소스도**
 
 - [팀 개요](Teams-overview.md)
-- [Microsoft 팀 시작 하기](get-started-with-teams-quick-start.md)
+- [Microsoft Teams 시작하기](get-started-with-teams-quick-start.md)
 
 [맨 위로 이동](#about-upgrade-basic)
 
@@ -114,7 +114,7 @@ ms.locfileid: "41836160"
 사용자에 게 충분 한 알림을 제공 하면 생산성에 부정적인 영향을 주지 않고 팀에 익숙해질 수 있는 시간을 부여 하 여 보다 긍정적인 사용자 환경이 가능 합니다. 변경 내용, 변경 이유,이를 위해 준비 하는 방법 등을 알리기 위해 통신을 보낼 수 있습니다.
 
 > [!Note]
-> 필요한 경우 지금 Office 365 관리 포털을 통해 사용자의 팀을 사용 하도록 설정할 수 있습니다.
+> 필요한 경우 현재 Microsoft 365 관리 센터를 통해 사용자의 팀을 사용 하도록 설정할 수 있습니다.
 
 **리소스도**
 

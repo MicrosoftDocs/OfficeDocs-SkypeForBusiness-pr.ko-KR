@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6b29e850193e50049986f37c0cb19bbfb96a6c13
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9e27199d953eb04c20a10765020b179ff303c5e8
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138368"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777833"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft 팀 설치
 
@@ -44,7 +44,7 @@ MSI 파일에 대 한 링크는 다음과 같습니다.
 > [!NOTE]
 > 64 비트 버전의 팀을 64 비트 운영 체제에 설치 합니다. 32 비트 운영 체제에서 64 비트 버전의 팀을 설치 하려고 하면 설치에 실패 하 고 현재 오류 메시지가 표시 되지 않습니다.
 
-팀은 Office 365 ProPlus 배포에도 포함 될 수 있습니다. 자세한 내용은 [Office 365 ProPlus를 사용 하 여 Microsoft 팀 배포](https://docs.microsoft.com/deployoffice/teams-install)를 참조 하세요.
+팀은 enterprise 용 Microsoft 365 앱 배포에도 포함 될 수 있습니다. 자세한 내용은 microsoft [365 앱을 사용 하 여 엔터프라이즈에 대 한 Microsoft 팀 배포](https://docs.microsoft.com/deployoffice/teams-install)를 참조 하세요.
 
 > [!Note]
 > Microsoft 끝점 구성 관리자에 대 한 자세한 내용은 [구성 관리자 란?](https://docs.microsoft.com/configmgr/core/understand/introduction) 을 참조 하세요.

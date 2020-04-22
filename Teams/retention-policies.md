@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2c918a8276be2eeab0a125a1661b70b42c6b069
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 17ece37fded1d7b0743f3eeb66a300021f568c44
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43097003"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779785"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams의 보존 정책
 
@@ -29,7 +29,7 @@ ms.locfileid: "43097003"
 
 기본적으로 Teams 채팅, 채널 및 파일 데이터는 영구적으로 유지됩니다. 관리자는 채팅 및 채널 메시지에 대한 Teams 보존 정책을 설정하고 데이터의 보존, 삭제 또는 일정 기간동안 보존 후 삭제 여부를 사전에 결정할 수 있습니다.
 
-[Office 365 보안 및 준수 센터](https://protection.office.com/)에서 또는 보안 및 준수 센터 PowerShell cmdlet을 사용하여 Teams 및 기타 작업에 대한 보존 정책을 만들고 관리합니다. Teams 보존 정책을 전체 조직 또는 특정 사용자 및 팀에 적용할 수 있습니다.
+[Microsoft 365 준수 센터](https://protection.office.com/) 에서 팀과 기타 작업 부하에 대 한 보존 정책을 만들고 관리 하거나 보안 & 준수 센터 PowerShell cmdlet을 사용 합니다. Teams 보존 정책을 전체 조직 또는 특정 사용자 및 팀에 적용할 수 있습니다.
 
 > [!NOTE]
 > 아직 개인 채널 메시지 보존에 대 한 구성은 지원 하지 않습니다. 비공개 채널에서 공유된 파일의 보존이 지원됩니다.
@@ -123,7 +123,7 @@ Teams 채팅 및 채널 메시지에 대한 보존 정책을 만들려면 다음
         ![위치 선택 페이지의 Teams 채널 메시지 및 Teams 채팅 옵션 스크린 샷](media/retention-policies-create.png)
 
       > [!IMPORTANT]
-      > Teams 채팅 및 채널 메시지는 **Exchange 전자 메일** 또는 **Office 365 그룹** 위치의 사용자 또는 그룹 사서함에 적용된 보존 정책의 영향을 받지 않습니다. Teams 채팅 및 채널 메시지가 Exchange에 저장되더라도 Teams 채팅 및 채널 메시지는 Teams 위치에 적용된 보존 정책의 영향만 받습니다.
+      > 팀 채팅 및 채널 메시지는 **Exchange 전자 메일** 또는 **Microsoft 365 그룹** 위치에서 사용자 또는 그룹 사서함에 적용 된 보존 정책의 영향을 받지 않습니다. Teams 채팅 및 채널 메시지가 Exchange에 저장되더라도 Teams 채팅 및 채널 메시지는 Teams 위치에 적용된 보존 정책의 영향만 받습니다.
 
 6. 설정을 검토한 후 준비가 되면 **이 정책 만들기**를 선택합니다.
 
@@ -160,7 +160,7 @@ Teams 보존 정책을 삭제하려면 다음을 수행합니다.
 
 현재 추적 및 조사 중인 Teams의 보존 정책에 대한 알려진 문제는 다음과 같습니다.
 
-- **Teams 채널 메시지** 위치 행의 **Teams 선택**에서 Teams가 아닌 Office 365 그룹이 표시될 수 있습니다. 이 문제는 앞으로 해결될 예정입니다.
+- **팀 채널 메시지** 위치 행의 **팀 선택** 에서 팀이 아닌 Microsoft 365 그룹이 표시 될 수 있습니다. 이 문제는 앞으로 해결될 예정입니다.
 
 - **Teams 채팅** 위치 행의 **사용자 선택**에서 게스트 및 비사서함 사용자가 표시될 수 있습니다. 보존 정책은 게스트에 대한 설정이 아니며 목록에서 제거하기 위해 해결 중에 있습니다.
 

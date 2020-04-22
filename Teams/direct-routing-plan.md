@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있는 방법을 알아보세요.
-ms.openlocfilehash: bc092c2441ff359de1189e1ff000a61c51dcec1f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0140e4d2cfae95531602daec5a859a85888e9d15
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140287"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780697"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -71,11 +71,11 @@ Microsoft는 또한 통화 계획과 같은 모든 클라우드 음성 솔루션
 |:--- |:--- |
 |SBC (세션 경계 컨트롤러)|지원 되는 SBC입니다. 자세한 내용은 [지원 되는 SBCs](#supported-session-border-controllers-sbcs)를 참조 하세요.|
 |SBC에 연결 된 전화 통신 trunks|SBC에 연결 된 하나 이상의 전화 접속 trunks. 한 쪽 끝에서 SBC는 직접 라우팅을 통해 Microsoft 전화 시스템에 연결 됩니다. 또한 SBC는 Pbx, 아날로그 전화 통신 어댑터 등과 같은 타사 전화 통신 엔티티와 연결 될 수 있습니다. SBC에 연결 된 모든 PSTN 연결 옵션은 작동 합니다. SBC에 대 한 PSTN trunks 구성의 경우 SBC 공급 업체 또는 트렁크 공급자에 게 문의 하세요.|
-|Office 365 테 넌 트|Microsoft 팀 사용자와 SBC에 대 한 구성 및 연결을 홈 하는 데 사용 하는 Office 365 테 넌 트입니다.|
+|Office 365 조직|Microsoft 팀 사용자를 홈으로 설정 하 고 SBC에 대 한 구성 및 연결을 하는 데 사용 하는 Office 365 조직입니다.|
 |사용자 등록자|사용자는 Office 365에서 가져와야 합니다.<br/>회사에서 Office 365에 하이브리드 연결을 사용 하는 온-프레미스 비즈니스용 Skype 또는 Lync 환경을 보유 하 고 있는 경우 온-프레미스 사용자의 팀에서 음성을 사용할 수 없습니다.<br/><br/>사용자의 등록자를 확인 하려면 다음 비즈니스용 Skype Online PowerShell cmdlet을 사용 합니다.<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Cmdlet의 출력은 다음과 같이 표시 되어야 합니다.<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|도메인용|Office 365 테 넌 트에 하나 이상의 도메인이 추가 되었습니다.<br/><br/>테 넌 트에 대해 자동으로 만들어지는 기본 \*도메인 onmicrosoft.com는 사용할 수 없습니다.<br/><br/>다음 비즈니스용 Skype Online PowerShell cmdlet을 사용 하 여 도메인을 볼 수 있습니다.<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>도메인 및 Office 365 테 넌 트에 대 한 자세한 내용은 [도메인 FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)를 참조 하세요.|
+|도메인용|하나 이상의 도메인이 Office 365 조직에 추가 되었습니다.<br/><br/>테 넌 트에 대해 자동으로 만들어지는 기본 \*도메인 onmicrosoft.com는 사용할 수 없습니다.<br/><br/>다음 비즈니스용 Skype Online PowerShell cmdlet을 사용 하 여 도메인을 볼 수 있습니다.<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>도메인 및 Office 365 조직에 대 한 자세한 내용은 [도메인 FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)를 참조 하세요.|
 |SBC의 공용 IP 주소|SBC에 연결 하는 데 사용할 수 있는 공용 IP 주소입니다. Sbc의 유형에 따라 SBC에서 NAT를 사용할 수 있습니다.|
-|SBC에 대 한 FQDN (정규화 된 도메인 이름)|SBC에 대 한 FQDN으로, 여기서 FQDN의 도메인 부분은 Office 365 테 넌 트에서 등록 된 도메인 중 하나입니다. 자세한 내용은 [SBC 도메인 이름을](#sbc-domain-names)참조 하세요.|
+|SBC에 대 한 FQDN (정규화 된 도메인 이름)|SBC에 대 한 FQDN으로, 여기서 FQDN의 도메인 부분은 Office 365 조직의 등록 된 도메인 중 하나입니다. 자세한 내용은 [SBC 도메인 이름을](#sbc-domain-names)참조 하세요.|
 |SBC에 대 한 공용 DNS 항목 |공용 DNS 항목이 SBC FQDN을 공용 IP 주소에 매핑하는 것입니다. |
 |SBC에 대해 신뢰할 수 있는 공용 인증서 |직접 라우팅과 관련 된 모든 통신에 사용할 SBC에 대 한 인증서입니다. 자세한 내용은 [SBC에 대해 신뢰할 수 있는 공개 인증서](#public-trusted-certificate-for-the-sbc)를 참조 하세요.|
 |직접 라우팅 연결 지점 |직접 라우팅의 연결 지점은 다음 세 가지 Fqdn입니다.<br/><br/>`sip.pstnhub.microsoft.com`-전역 FQDN을 먼저 시도해 야 합니다.<br/>`sip2.pstnhub.microsoft.com`-보조 FQDN, 지리적으로 두 번째 우선 순위 영역에 매핑됩니다.<br/>`sip3.pstnhub.microsoft.com`– 3 차 FQDN, 지리적으로 세 번째 우선 순위 영역에 매핑됩니다.<br/><br/>구성 요구 사항에 대 한 자세한 내용은 [SIP 신호: fqdn](#sip-signaling-fqdns)을 참조 하세요.|

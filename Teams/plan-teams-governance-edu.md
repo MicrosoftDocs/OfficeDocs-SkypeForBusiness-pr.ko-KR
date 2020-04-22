@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 18476e043268d8b51fdf877b27e23eb926a1885e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 79b6e33c6434a1242b7d30322aff77b62f1b42fd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137788"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780217"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>관리자용 Microsoft 교육 거버넌스 FAQ
 
@@ -31,14 +31,14 @@ ms.locfileid: "43137788"
 
 ## <a name="how-do-i-control-team-creation-im-worried-students-are-going-to-create-inappropriate-teams"></a>팀 만들기를 제어 하려면 어떻게 하나요? 걱정 하는 학생 들이 부적절 한 팀을 만들어 보겠습니다.
 
-부적절 하거나 잘못 된 이름을 피하고, 팀의 이름을 지정 하는 방법에 대 한 추가 구조를 제공 하기 위해 Office 365 Groups name policy (현재 미리 보기 상태)를 사용할 수 있습니다.
+부적절 하거나 잘못 된 이름을 피하고, 팀의 이름을 지정 하는 방법에 대 한 추가 구조를 제공 하기 위해 Microsoft 365 Groups name policy (현재 미리 보기 상태)를 사용할 수 있습니다.
 
 -   **접두사 접미사 이름 지정 정책** 접두 번호 또는 접미사를 사용 하 여 팀 (그룹)의 명명 규칙 (예: **GRP_US_My Group_Engineering**)을 정의할 수 있습니다. 접두 번호와 접미사는 팀을 만드는 사용자에 따라 이름에 추가 되는 고정 문자열 또는 사용자 특성 (예: **[부서]**) 일 수 있습니다.
 -   **사용자 지정 차단 된 단어** 특정 조직의 사용자가 자신이 만든 팀의 이름에서 사용을 차단 하는 단어 집합을 업로드할 수 있습니다. 예를 들어 팀 이름에 적용 되지 않는 그룹의 경우 **CEO**, **급여**, **HR** 의 사용 조건을 차단할 수 있습니다.
 -   **분류** 조직의 사용자가 Office 365 그룹을 만들 때 설정할 수 있는 분류를 만들 수 있습니다. 
 
 > [!IMPORTANT]
-> Office 365 Groups 명명 정책을 사용 하 여 하나 이상의 Office 365 그룹의 구성원 인 각 고유 사용자에 대 한 Azure Active Directory Premium P1 라이선스 또는 Azure AD 기본 .EDU 라이선스가 필요 합니다.
+> Microsoft 365 그룹 명명 정책을 사용 하려면 하나 이상의 Microsoft 365 그룹의 구성원 인 고유 사용자 각각에 대해 Azure Active Directory Premium P1 라이선스 또는 Azure AD 기본 .EDU 라이선스가 필요 합니다.
 
 자세한 지침은 [Office 그룹 이름 지정 정책을](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)참조 하세요.
 
@@ -55,13 +55,13 @@ ms.locfileid: "43137788"
 
 우리의 경험으로, 사용자 교육을 통해 책임이 있는 팀의 사용량을 확인할 수 있습니다. 사용자가 익명이 아닌 것을 이해 하는 즉시, 팀을 만드는 carelessly의 의미를 이해 하 게 되 면이 도구를 잘못 된 방식으로 오용 하는 경향이 있습니다.
 
-팀을 만들 수 있는 사용자를 제어 하려면 [Office 365 그룹을 만들 수 있는 사용자 관리](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조 하세요.
+팀을 만들 수 있는 사용자를 제어 하려면 [Microsoft 365 그룹을 만들 수 있는 사용자 관리](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조 하세요.
 
 ## <a name="how-do-i-automatically-create-a-team-for-each-course-at-the-beginning-of-the-semester-or-quarter"></a>반기 또는 분기 시작 시 각 과정에 대 한 팀을 자동으로 만들려면 어떻게 하나요?
 
 각 반기 또는 분기의 시작 부분에는 여러 개의 새로운 팀이 필요 합니다. 자동으로 이러한 팀을 만들고 적절 한 사용자로 채운 다음 적절 한 사용 권한을 설정 하는 것이 좋습니다.
 
--   School Data Sync는 Exchange Online 및 SharePoint Online에 대 한 Office 365 그룹, Microsoft 팀 및 OneNote 수업용 전자 필기장의 수업 팀, 교육용 Intune 용 학교 그룹, 다른 여러 타사 응용 프로그램을 위한 rostering 및 SSO (single sign-on) 통합 등을 만들 수 있습니다. [School Data Sync 개요](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)를 참고 하세요.
+-   School Data Sync에서는 Exchange Online 및 SharePoint Online에 대 한 Microsoft 365 그룹, Microsoft 팀 및 OneNote 수업용 전자 필기장의 수업 팀, 교육용 Intune 용 학교 그룹, 다른 여러 타사 응용 프로그램을 위한 rostering 및 SSO (single sign-on) 통합을 만들 수 있습니다. [School Data Sync 개요](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)를 참고 하세요.
 -   PowerShell을 사용 하 여 팀과 채널을 만들고 설정을 자동으로 구성할 수 있습니다. 자세한 내용은 [Microsoft 팀 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 을 참조 하세요.
 -   Microsoft Graph API (현재 베타 버전)를 사용 하 여 팀을 만들고, 구성 하 고, 복제 하 고, 보관할 수 있습니다. 자세한 내용은 [Microsoft GRAPH API를 사용 하 여 Microsoft 팀 작업을](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) 참조 하세요.
 
@@ -78,7 +78,7 @@ ms.locfileid: "43137788"
 -   **팀 보관:** 이 설정은 팀을 읽기 전용 모드로 전환 합니다. 계속 해 서 검색 하 고 검색할 수 있지만, 새 게시물을 추가할 수는 없습니다. 팀 소유자가 팀을 보관 하는 방법에 대해 설명 하는 [팀 보관 또는 복원](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 팀 소유자는 [그래프 API (베타)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) 를 사용 하 여 팀을 보관 하거나 복원할 수도 있습니다.
  
 > [!IMPORTANT]
-> Office 365 그룹 만료 정책을 사용 하 여 하나 이상의 Office 365 그룹의 구성원 인 각 고유 사용자에 대 한 Azure Active Directory Premium P1 라이선스가 필요 합니다.
+> Microsoft 365 그룹 만료 정책을 사용 하 여 하나 이상의 Microsoft 365 그룹의 구성원 인 각 고유 사용자에 대 한 Azure Active Directory Premium P1 라이선스가 필요 합니다.
 
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>팀을 만들 때 교직원 구성원을 위해 팀 서식 파일을 사용할 수 있나요?
 
@@ -122,10 +122,10 @@ ms.locfileid: "43137788"
 게스트 액세스를 사용 하 여 테 넌 트 외부에서 사용자를 초대할 수 있으며,이를 통해 리서치 공동 작업 또는 게스트 강의에 유용할 수 있습니다.
 
 -   도메인 whitelisting를 사용 하 여 도메인에 따라 게스트를 허용 하거나 차단 합니다.
--   특정 Office 365 그룹 및 팀에 대해 게스트 액세스를 설정 하거나 해제 하 여 게스트 초대를 수행할 수 있는 팀을 제어 합니다.
+-   특정 Microsoft 365 그룹 및 팀에 대해 게스트 액세스를 설정 하거나 해제 하 여 게스트 초대를 수행할 수 있는 팀을 제어 합니다.
 -   감사 로그를 사용 하 여 초대한 게스트에 게 전송 된 알림을 확인 합니다.
 
-자세한 내용은 [Office 365 그룹의 게스트 액세스](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage)를 참조 하세요.
+자세한 내용은 [Microsoft 365 그룹의 게스트 액세스](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage)를 참조 하세요.
 
 ## <a name="what-information-can-i-review-about-existing-teams"></a>기존 팀에 대해 검토할 수 있는 정보
 

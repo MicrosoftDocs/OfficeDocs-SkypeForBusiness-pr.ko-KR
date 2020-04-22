@@ -19,21 +19,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
-description: 이 항목에서는 비즈니스용 Skype Online 서비스에 대 한 네트워크 성능 요구 사항 집합을 정의 하 고 네트워크와 인터넷을 사용 하도록 선택 하는 방법 네트워크 및 비즈니스용 Skype Online의 평가를 기반으로 하는 방법에 대해 설명 합니다. 연결성. Office 365에 대 한 전용 연결에 대 한 Azure Express를 배포 하기로 결정 한 경우,이 문서는 다른 비즈니스용 Skype Online 배포 시나리오에서 Express 경로 연결을 계획 하는 방법에 대 한 지침을 제공 합니다.
-ms.openlocfilehash: 2d9192f4dfb27de97527ff584c0ab0a204e20cca
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 이 항목에서는 비즈니스용 Skype Online 서비스에 대 한 네트워크 성능 요구 사항 집합을 정의 하 고 네트워크 연결에 대 한 평가를 기반으로 네트워크와 비즈니스용 Skype Online 간 연결을 위해 인터넷 또는 Express 경로 사용을 선택 하는 방법에 대해 설명 합니다. Office 365에 대 한 전용 연결에 대 한 Azure Express를 배포 하기로 결정 한 경우,이 문서는 다른 비즈니스용 Skype Online 배포 시나리오에서 Express 경로 연결을 계획 하는 방법에 대 한 지침을 제공 합니다.
+ms.openlocfilehash: ed7ad6ebd456122e41ccd74269180ff9c79fa3fb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693073"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776443"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>비즈니스용 Skype Online의 미디어 품질과 네트워크 연결 성능
 
-이 항목에서는 비즈니스용 Skype Online 서비스에 대 한 네트워크 성능 요구 사항 집합을 정의 하 고 네트워크와 인터넷을 사용 하도록 선택 하는 방법 네트워크 및 비즈니스용 Skype Online의 평가를 기반으로 하는 방법에 대해 설명 합니다. 연결성. Office 365에 대 한 전용 연결에 대 한 Azure Express를 배포 하기로 결정 한 경우,이 문서는 다른 비즈니스용 Skype Online 배포 시나리오에서 Express 경로 연결을 계획 하는 방법에 대 한 지침을 제공 합니다.
+이 항목에서는 비즈니스용 Skype Online 서비스에 대 한 네트워크 성능 요구 사항 집합을 정의 하 고 네트워크 연결에 대 한 평가를 기반으로 네트워크와 비즈니스용 Skype Online 간 연결을 위해 인터넷 또는 Express 경로 사용을 선택 하는 방법에 대해 설명 합니다. Office 365에 대 한 전용 연결에 대 한 Azure Express를 배포 하기로 결정 한 경우,이 문서는 다른 비즈니스용 Skype Online 배포 시나리오에서 Express 경로 연결을 계획 하는 방법에 대 한 지침을 제공 합니다.
   
 IP를 통한 실시간 미디어 (오디오, 비디오 및 응용 프로그램 공유)의 품질은 종단간 네트워크 연결의 품질에 따라 크게 영향을 받습니다. 비즈니스용 Skype Online media의 품질을 최적화 하려면 회사 네트워크와 비즈니스용 Skype Online 간에 고품질의 연결을 설정 하는 것이 중요 합니다. 이 작업을 수행 하는 가장 좋은 방법은 모든 연결에 걸친 비즈니스용 Skype Online의 최고 트래픽 볼륨에 맞게 네트워크 용량을 기준으로 내부 네트워크 및 클라우드 연결을 설정 하는 것입니다.
   
-Azure Express는 비즈니스용 Skype Online을 포함 한 Office 365 서비스에 대 한 요구 사항이 아닙니다. 그러나 Azure Express 경로는 Office 365에 대 한 연결이 비즈니스용 Skype 네트워크 성능 요구 사항을 충족 하 고 비즈니스용 Skype Online 미디어를 최대한 활용할 수 있도록 하는 데 도움이 되는 배포 옵션 중 하나입니다. 품질 경험.
+Azure Express는 비즈니스용 Skype Online을 포함 한 Office 365 서비스에 대 한 요구 사항이 아닙니다. 그러나 Azure Express 경로는 Office 365에 대 한 연결이 비즈니스용 Skype 네트워크 성능 요구 사항을 충족 하는지 확인 하 고 비즈니스용 Skype Online 미디어 품질 환경을 최적화 하는 데 도움이 될 수 있는 배포 옵션 중 하나입니다.
   
 > [!TIP]
 > 이 항목에서는 전체 네트워킹 성능 지침을 제공 하지만, 네트워크 평가에 대 한 전체 지침은이 문서의 범위를 벗어납니다. 철저 하 고 완전 한 네트워크 평가의 일부로 네트워크 성능 측정치를 도울 수 있는 비즈니스용 Skype Online 파트너의 목록을 찾으려면 [비즈니스용 Skype 파트너 솔루션](http://partnersolutions.skypeforbusiness.com/)을 방문 하세요. 
@@ -74,7 +74,7 @@ IP 네트워크를 통한 실시간 미디어의 품질은 네트워크 연결�
 > [!NOTE]
 >  지터에 대 한 버퍼링을 통해 종단 간 대기 시간이 길어집니다.
   
-다양 한 비즈니스용 Skype Online 실시간 미디어 세션 및 다른 Office 365 서비스 및 기타 비즈니스 응용 프로그램에서 생성 된 다른 네트워크 트래픽도 사용 하 여 전체 네트워크 경로에 대 한 대역폭이 충분 한지 확인 합니다. 네트워크 정체가 발생 하지 않도록 네트워크를 비즈니스용 Skype Online 서비스에 연결 하는 것은 매우 중요 하며, 뛰어난 미디어 실시간 미디어 (오디오, 비디오 및 응용 프로그램 공유) 품질을 보장 합니다. 
+다양 한 비즈니스용 Skype Online 실시간 미디어 세션 및 다른 Office 365 서비스 및 기타 비즈니스 응용 프로그램에서 생성 된 다른 네트워크 소통을 통해 네트워크 혼잡을 방지 하 고 우수한 미디어 실시간 미디어를 보장 하는 것이 중요 한 전체 네트워크 경로에 대 한 대역폭이 충분 한지 확인 합니다. , 비디오 및 응용 프로그램 공유) 품질. 
   
 #### <a name="implementing-quality-of-service-qos-across-congested-networks"></a>혼잡 네트워크에서 QoS (서비스 품질) 구현
 
@@ -120,7 +120,7 @@ PSTN 통화 시나리오에서 미디어 경로는 다음 네트워크 세그먼
 ### <a name="network-performance-requirements-from-a-skype-for-business-client-to-microsoft-network-edge"></a>비즈니스용 Skype 클라이언트에서 Microsoft 네트워크에 지에 이르기까지 네트워크 성능 요구 사항
 <a name="bkSfBClienttoEdge"></a>
 
-비즈니스용 Skype media 품질을 최적화 하려면 다음 네트워크 성능 메트릭이 회사 네트워크에서 Microsoft 네트워크에 지에 연결 하는 데 필요 합니다. 네트워크의이 세그먼트에는 내부 네트워크가 포함 되며, 여기에는 모든 WiFi 및 이더넷 연결, WAN 연결을 통한 회사 사이트 간 트래픽 (예: 멀티 프로토콜 레이블 전환 (MPLS) 및 인터넷 또는 Express 경로 파트너)이 포함 됩니다. Microsoft 네트워크에 지에 대 한 연결.
+비즈니스용 Skype media 품질을 최적화 하려면 다음 네트워크 성능 메트릭이 회사 네트워크에서 Microsoft 네트워크에 지에 연결 하는 데 필요 합니다. 이 네트워크 세그먼트에는 내부 네트워크가 포함 되며, 여기에는 모든 WiFi 및 이더넷 연결, WAN 연결을 통한 회사 사이트 간 트래픽 (예: 멀티 프로토콜 레이블 전환 (MPLS), Microsoft 네트워크 Edge에 대 한 비트 경로 연결)이 포함 됩니다.
   
 > [!CAUTION]
 > **회사 네트워크의 비즈니스용 Skype 클라이언트와 Office 365 서비스 간의 연결은 다음 네트워크 성능 요구 사항 및 임계값을 충족 해야 합니다.**
@@ -146,7 +146,7 @@ PSTN 통화 시나리오에서 미디어 경로는 다음 네트워크 세그먼
 ### <a name="network-performance-requirements-from-your-network-edge-to-microsoft-network-edge"></a>네트워크 경계에서 Microsoft 네트워크에 지에 이르기까지 네트워크 성능 요구 사항
 <a name="bkYourNetworkEdge"> </a>
 
-다음은 네트워크 경계와 Microsoft 네트워크 경계 간의 연결에 필요한 네트워크 성능 목표 또는 임계값입니다. 이 네트워크 세그먼트는 고객의 내부 네트워크 또는 WAN을 제외 하 고, 인터넷을 통해 전송 되는 네트워크 트래픽 또는 Express 경로 파트너 네트워크를 통해 테스트를 수행 하 고 성과를 협상할 때 사용할 수도 있습니다. Express 사용자 공급자와 SLA (서비스 수준 계약)를 사용 합니다.
+다음은 네트워크 경계와 Microsoft 네트워크 경계 간의 연결에 필요한 네트워크 성능 목표 또는 임계값입니다. 이 네트워크 세그먼트는 고객의 내부 네트워크 또는 WAN을 제외 하 고, 인터넷을 통해 전송 되는 네트워크 트래픽 또는 Express 경로 파트너 네트워크를 통해 사용자를 테스트 하는 경우를 위한 것 이며, Express 경로를 사용 하 여 성능 서비스 수준 계약 (SLA)을 협상할 때도 사용할 수 있습니다.
   
 > [!CAUTION]
 > **회사 네트워크 경계와 Microsoft 네트워크 edge 간의 연결은 다음 네트워크 성능 요구 사항 및 임계값을 충족 해야 합니다.**
@@ -170,7 +170,7 @@ PSTN 통화 시나리오에서 미디어 경로는 다음 네트워크 세그먼
 ## <a name="measuring-network-performance"></a>네트워크 성능 측정
 <a name="bkNetworkPerf"> </a>
 
-회사 네트워크 사이트에서 네트워크에 지에 이르기까지, 특히 대기 시간 및 패킷 손실에 대 한 실제 네트워크 성능을 측정 하기 위해 ping 등의 도구를 사용 하 여 Microsoft Edge 및 data에서 실행 되는 비즈니스용 Skype media 릴레이 서비스 집합에 대 한 테스트를 할 수 있습니다. 센터 사이트. 
+회사 네트워크 사이트에서 네트워크에 지에 이르기까지, 특히 대기 시간 및 패킷 손실에 대 한 실제 네트워크 성능을 측정 하기 위해 ping 등의 도구를 사용 하 여 Microsoft Edge 및 데이터 센터 사이트에서 실행 되는 비즈니스용 Skype media 릴레이 서비스 집합에 대해 테스트할 수 있습니다. 
 
 >[!NOTE]
 > Ping을 통해 네트워크 성능을 측정 하는 것은 유효 하지 않습니다. 이런 이유로 애니캐스트 IP 노출은 2020 년 1 월부터 ICMP 요청에 대 한 응답을 중지 합니다. 네트워크 performace 효과적으로 측정 하기 위해 Microsoft는 [네트워크 Assesment 도구](https://www.microsoft.com/download/details.aspx?id=53885)를 권장 합니다.
@@ -232,13 +232,13 @@ Azure에서 호스트 하는 테스트 서비스를 기반으로 하는 이러�
 
 Office 365의 Azure Express 경로는 Office 365에 연결 하기 위한 전용 네트워크 연결입니다. 이는 고객에 게 Office 365 네트워크 트래픽이 취하는 경로를 제어할 수 있는 능력을 제공 합니다. 더 이상, 알 수 없는 통신 업체, 공급자, Isp에 의해 데이터가 전달 되는 인터넷에서 발생 하는 예측 불가능 한 라우팅에 신경 쓰지 않아도 됩니다. Express 경로를 통해 전송 되는 네트워크 트래픽은 Express 경로 네트워크에서 Microsoft 네트워크로 바로 전송 됩니다. 이렇게 하면 고객이 Office 365를 전용 연결을 통해 자체의 오프 사이트 데이터 센터에 있는 것 처럼 취급할 수 있습니다.
   
-Azure Express는 모든 Office 365 라이선스 제공에 사용할 수 있습니다. 그러나 Office 365에서는 전역 라우팅을 사용 하도록 설정 하는 데 Azure Express Premium 추가 기능이 필요 합니다. 365을 구현 하는 최소 500의 사용자가 있는 Office 고객은 추가 비용 없이 필요한 (to) *Premium 추가 기능* 을 이용할 수 있습니다.
+Azure Express는 모든 Office 365 라이선스 제공에 사용할 수 있습니다. 그러나 Office 365에서는 전역 라우팅을 사용 하도록 설정 하는 데 Azure Express Premium 추가 기능이 필요 합니다. 500 대 중에서 대 중 하나 이상을 구현 하는 고객에 게 추가 비용 없이 필요한 *express 가능 Premium 추가 기능* 을 받을 수 있습니다.
   
 ### <a name="is-expressroute-required-for-good-media-quality"></a>미디어 품질을 위해서는 Express가 필요 한가요?
 
 Azure Express 경로는 비즈니스용 Skype Online 미디어 품질을 최대한 활용 하기 위한 요구 사항이 아닙니다. 그러나 클라우드 연결이 비즈니스용 Skype 네트워크 성능 목표 또는 임계값을 충족 하는지 확인 하는 데 도움이 되는 배포 옵션 중 하나입니다.
   
-Office 365는 인터넷을 사용 하는 고성능 및 안전한 서비스입니다. 새로운 보안 기능과 지역 경계 노드에 계속 투자 하 여 보안 및 성능을 지속적으로 개선 합니다. Azure Express는 비즈니스용 Skype Online을 포함 한 Office 365 서비스에 대 한 요구 사항이 아닙니다. Azure Express 경로는 Office 365에 대 한 연결이 비즈니스용 Skype 네트워크 성능 요구 사항을 충족 하 고 비즈니스용 Skype Online media의 최적 사용을 보장 하는 데 도움이 되는 배포 옵션 중 하나입니다. 환경.
+Office 365는 인터넷을 사용 하는 고성능 및 안전한 서비스입니다. 새로운 보안 기능과 지역 경계 노드에 계속 투자 하 여 보안 및 성능을 지속적으로 개선 합니다. Azure Express는 비즈니스용 Skype Online을 포함 한 Office 365 서비스에 대 한 요구 사항이 아닙니다. Azure Express 경로는 Office 365에 대 한 연결이 비즈니스용 Skype 네트워크 성능 요구 사항을 충족 하는지 확인 하 고 비즈니스용 Skype Online media 품질 환경을 최적화 하는 데 도움이 되는 배포 옵션 중 하나입니다.
   
 비즈니스용 Skype Online 미디어 품질의 경우, 회사 사이트와 Microsoft 네트워크 경계 간의 연결이 [네트워크 성능 요구 사항에서 비즈니스용 Skype 클라이언트에서 microsoft 네트워크로](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge) 의 성능 목표를 충족 하 고, 네트워크 가장자리와 microsoft 네트워크 가장자리 간의 연결이 네트워크 [가장자리에서 microsoft 네트워크 edge에 이르기까지 네트워크 성능 요구 사항에 대](media-quality-and-network-connectivity-performance.md#bkYourNetworkEdge)한 성능 목표를 충족 하는지 확인 해야 합니다.  
   
@@ -261,7 +261,7 @@ Office 365는 인터넷을 사용 하는 고성능 및 안전한 서비스입니
 
 비즈니스용 Skype Online에 대 한 네트워크 연결 옵션을 결정 하기 전에, 고객은 비즈니스용 [Skype online에 연결 하기 위해 네트워크 성능 요구 사항](media-quality-and-network-connectivity-performance.md#bkNetworkPerf)에 설명 된 네트워크 성능 요구 사항에 따라 네트워크 및 현재 인터넷 연결을 평가 해야 합니다.
   
-현재 인터넷 연결을 통한 네트워크 성능이 사용량이 가장 많은 시간에 충분 한 용량을 설정 하 고 사이트의 네트워크 성능 요구 사항을 Microsoft 네트워크 경계 및 네트워크 경계에서 Microsoft 네트워크 가장자리로만 충족 하는 경우 기존 인터넷 연결을 계속 사용 하 여 비즈니스용 Skype Online에 연결 합니다.
+현재 인터넷 연결을 통한 네트워크 성능이 최고 시간 동안 충분 한 용량을 유지 하도록 설정 되어 있고 사이트의 네트워크 성능 요구 사항을 Microsoft 네트워크 경계 및 네트워크 경계에서 Microsoft 네트워크 가장자리로 충족 하는 경우에는 계속 해 서 기존 인터넷 연결을 사용 하 여 비즈니스용 Skype Online에 연결할 수 있습니다.
   
 네트워크 성능 요구 사항이 충족 되지 않는 회사 사이트의 경우에는 먼저 기존 네트워크 서비스 공급자와 협력 하 여 전반적인 네트워크 성능을 향상 하는 것이 좋습니다. 그러나 아직 충족 되지 않는 경우 Azure Express 경로 사용은 비즈니스용 Skype Online 클라우드 연결이 네트워크 성능 요구 사항을 충족 하는 데 도움이 될 수 있도록 지원 합니다.
   
@@ -298,7 +298,7 @@ BGP 커뮤니티 지원을 사용 하면 Microsoft는 자신이 속한 서비스
   
 ### <a name="online-only-deployment---multiple-sites-on-the-same-continent"></a>온라인 전용 배포-동일한 대륙의 여러 사이트
 
-회사에서 같은 지역 또는 대륙의 여러 사무실에 있는 비즈니스용 Skype Online 서비스를 사용 하는 경우 Azure Express 경로를 구현 하기로 선택한 경우 Express 경로를 통해 기본 사이트를 연결한 다음 선택적으로 추가를 추가 하는 것이 좋습니다. 권장 네트워크 성능 대상에 맞지 않는 다른 위치에 대 한 Express 경로 지정 피어 링.
+회사에서 같은 지역 또는 대륙의 여러 사무실에 있는 비즈니스용 Skype Online 서비스를 사용 하는 경우 Azure Express 경로를 구현 하도록 선택한 경우 Express 경로를 사용 하 여 기본 사이트를 연결한 다음 필요에 따라 네트워크 성능 대상에 맞지 않는 다른 위치에 대 한 추가 경로 지정 피어 링을 추가 하는 것이 좋습니다.
   
 다음 예제에서 Contoso는 미국 내 다른 사무실을 보유 하 고 있지만 뉴욕에 본사가 위치한는 미국 여행 서비스 회사입니다. Office 365에 연결 하기 위해 MPLS를 사용 하는 WAN을 통해 해당 사무실이 연결 되어 있습니다. 처음에는 Hoboken의 인터넷 라우터에서 Express 경로 연결을 설정 하 고 새로운 뉴저지는 뉴욕 MeetMe 사이트로 구성 합니다. 
   
@@ -316,7 +316,7 @@ BGP 커뮤니티 지원을 사용 하면 Microsoft는 자신이 속한 서비스
   
 ### <a name="hybrid-deployment"></a>하이브리드 배포
 
-온-프레미스 Lync 또는 비즈니스용 Skype 배포를 선택 하 고 하이브리드 비즈니스용 Skype Online 통합을 구현 하는 경우 Azure Express 경로를 배포 하기로 결정 한 경우에는 각각에 대해 하나 이상의 Express 경로 연결을 사용 해야 할 것이 좋습니다. 온-프레미스 Lync 또는 비즈니스용 Skype Edge 사이트 및 각 대륙에 대 한 하나 이상의 Express 비트 대의 지사 연결. 각 대륙에 대 한 비용 vs 이점에 따라 네트워크 성능 대상이 충족 되지 않는 사무실에서 추가 Express 연결을 배포 하도록 선택할 수 있습니다.
+온-프레미스 Lync 또는 비즈니스용 Skype 배포를 선택 하 고 하이브리드 비즈니스용 skype Online 통합을 구현 하는 경우 Azure Express를 배포 하기로 결정 한 경우, 각 온-프레미스 Lync 또는 비즈니스용 Skype Edge 사이트와 각 대륙에 대해 하나 이상의 Express 경로 연결에 대해 하나 이상의 Express 경로 연결을 사용 하는 것이 좋습니다. 각 대륙에 대 한 비용 vs 이점에 따라 네트워크 성능 대상이 충족 되지 않는 사무실에서 추가 Express 연결을 배포 하도록 선택할 수 있습니다.
   
 온-프레미스 비즈니스용 Skype 배포를 사용 하는 경우에는 [Edge 서버 계획 및 배포 가이드](https://technet.microsoft.com/library/mt346417.aspx)를 따라야 합니다. 특히 Edge 서버는 네트워크 외부에서 연결할 수 있어야 합니다. 이는 일반적으로 Edge 서버에 라우팅할 수 있는 공용 IP 주소를 할당 하거나 NAT (network address translation)를 사용 하 여 수행 됩니다.
   
@@ -340,7 +340,7 @@ Azure Express 경로 및 클라우드 커넥터 에디션을 배포 하기로 �
   
 ![Express 경로 구름 커넥터 2.](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Skype Online의 ExpressRoute 및 QoS](expressroute-and-qos-in-skype-for-business-online.md)
 

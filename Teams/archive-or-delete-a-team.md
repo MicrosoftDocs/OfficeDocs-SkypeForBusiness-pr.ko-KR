@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e367fe85f1af35391fa00b4a416b6e796383d962
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: e065ddccd9781143b9c3522aa795f85ef0e118bb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826406"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780717"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams에서 팀 보관 또는 삭제하기
 ===========================================
@@ -98,7 +98,7 @@ ms.locfileid: "41826406"
     Connect-AzureAD
     ```
     메시지가 표시되면 관리자 계정 및 암호를 사용하여 로그인합니다.  
-2. 다음을 실행하여 여전히 30일 보존 기간 내에 있는 일시 삭제된 모든 Office 365 그룹을 표시합니다. 그룹이 많이 있는 경우 **-All $True** 매개 변수를 사용합니다.
+2. 다음을 실행 하 여 30 일 보존 기간 내에 있는 모든 일시 삭제 된 Microsoft 365 그룹의 목록을 표시 합니다. 그룹이 많이 있는 경우 **-All $True** 매개 변수를 사용합니다.
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 

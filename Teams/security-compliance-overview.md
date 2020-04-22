@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42f6b185a8a09b0aae139175acfc632b84387db8
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: e226acdc12d4b94b7854f6d4bdb1d2fa618fa21e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749445"
+ms.locfileid: "43777503"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 팀의 보안 및 규정 준수
 
@@ -53,7 +53,7 @@ Microsoft 팀은 고객이 기대 하는 고급 보안 및 규정 준수 기능�
 
 인증 및 팀에 대 한 자세한 내용을 확인 하기 위해 [id 모델 및 인증](identify-models-authentication.md) 을 읽고, [최신 인증 작동 방식](sign-in-teams.md) 에서는 최신 인증을 사용 하는 것이 특히 도움이 됩니다.
 
-팀은 SharePoint, OneNote, Exchange 등과의 협력 관계를 사용 하기 때문에 Office 365의 모든 보안을 더욱 안전 하 게 관리할 수 있어야 합니다. Office 365 보안에 대 한 자세한 내용은 [보안 강화를 위해 office 365 테 넌 트 구성을](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)읽어 보세요.
+팀은 SharePoint, OneNote, Exchange 등과의 협력 관계를 사용 하기 때문에 Office 365의 모든 보안을 더욱 안전 하 게 관리할 수 있어야 합니다. Office 365 보안에 대 한 자세한 내용은 [보안 강화를 위해 office 365 조직 구성을](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)참조 하세요.
 
 > [!NOTE]
 > 현재 [개인 채널](private-channels.md) 은 제한 된 보안 및 규정 준수 기능을 지원 합니다. 개인 채널의 모든 보안 및 규정 준수 기능에 대 한 지원은 곧 제공 될 예정입니다.
@@ -84,7 +84,7 @@ Microsoft 팀 데스크톱 응용 프로그램에서 AppLocker를 지원 합니�
 
 ## <a name="compliance"></a>충족
 
-팀에는 채널, 채팅, 첨부 파일, 보존 정책, 데이터 손실 방지 (DLP), 채널에 대 한 eDiscovery 및 유효 유지, 채팅 및 파일, 감사 로그 검색, Microsoft Intune의 모바일 응용 프로그램 관리에 대 한 통신 준수를 비롯 하 여 규정 준수 영역에 도움이 되는 다양 한 정보가 있습니다. 위의 모든 항목에 대 한 정보를 제공 하 고 [Microsoft 365 준수 센터](https://compliance.microsoft.com) 또는 [Office 365 보안 & 준수 센터로](https://protection.microsoft.com) 이동 하 여 이러한 설정을 관리할 수 있습니다.
+팀에는 채널, 채팅, 첨부 파일, 보존 정책, 데이터 손실 방지 (DLP), 채널에 대 한 eDiscovery 및 유효 유지, 채팅 및 파일, 감사 로그 검색, Microsoft Intune의 모바일 응용 프로그램 관리에 대 한 통신 준수를 비롯 하 여 규정 준수 영역에 도움이 되는 다양 한 정보가 있습니다. 아래의 모든 항목에 대 한 정보를 제공 하 고 [Microsoft 365 준수 센터로](https://compliance.microsoft.com) 이동 하 여 이러한 설정을 관리할 수 있습니다.
 
 ### <a name="information-barriers"></a>정보 장벽
 
@@ -140,11 +140,11 @@ Microsoft 팀의 DLP (데이터 손실 방지)는 물론 Office 365의 대규모
 
 두 경우 모두 보류를 설정한 후 최종 사용자가 그룹 사서함에 있는 채널 메시지를 삭제 하거나 편집 하더라도 해당 콘텐츠의 변경 되지 않은 복사본이 eDiscovery 검색을 통해 유지 관리 되 고 사용할 수 있도록 보장 합니다. 법률 보존은 일반적으로 eDiscovery 사례의 컨텍스트 내에서 적용 됩니다.
 
-Office 365 보안 & 준수 센터에서 보존 및 유지에 대 한 자세한 내용을 이해 하기 위해 [유지 정책 문서의 개요](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) 를 참조 하세요. 법적 고 지에 대 한 팀 관련 정보에 대 한 자세한 내용은 [Microsoft 팀 사용자 또는 팀에](legal-hold.md) 게 자세한 내용에 대 한 법률 유지 문서를 준비 합니다.
+Microsoft 365 규정 준수 센터의 보존 및 유지에 대 한 자세한 내용을 이해 하는 데는 [보존 정책 문서의 개요](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) 를 참조 하세요. 법적 고 지에 대 한 팀 관련 정보에 대 한 자세한 내용은 [Microsoft 팀 사용자 또는 팀에](legal-hold.md) 게 자세한 내용에 대 한 법률 유지 문서를 준비 합니다.
 
 ### <a name="compliance-content-search"></a>콘텐츠 검색 준수
 
-콘텐츠 검색을 사용 하 여 풍부한 필터링 기능을 통해 모든 팀 데이터를 검색할 수 있습니다. 결과 데이터를 규정 준수 및 소송 지원을 위해 특정 컨테이너에 내보낼 수 있습니다. 이 작업은 eDiscovery 사례와 관계 없이 수행할 수 있습니다. 이렇게 하면 규정 준수 관리자가 모든 사용자에 게 팀 데이터를 수집 하 고 추가 처리를 위해 검토 하 고 내보낼 수 있습니다. Office 365 보안 & 준수 센터에서 Microsoft 팀 및 기타 Office 365 콘텐츠에 대 한 규정 준수 콘텐츠 검색을 수행 하는 방법에 대 한 자세한 내용은 [office 365의이 콘텐츠 검색](https://docs.microsoft.com/microsoft-365/compliance/content-search) 문서를 참조 하세요.
+콘텐츠 검색을 사용 하 여 풍부한 필터링 기능을 통해 모든 팀 데이터를 검색할 수 있습니다. 결과 데이터를 규정 준수 및 소송 지원을 위해 특정 컨테이너에 내보낼 수 있습니다. 이 작업은 eDiscovery 사례와 관계 없이 수행할 수 있습니다. 이렇게 하면 규정 준수 관리자가 모든 사용자에 게 팀 데이터를 수집 하 고 추가 처리를 위해 검토 하 고 내보낼 수 있습니다. Microsoft 365 준수 센터에서 Microsoft 팀 및 기타 Microsoft 365 또는 Office 365 콘텐츠에 대 한 규정 준수 콘텐츠 검색을 수행 하는 방법에 대 한 자세한 내용은 [Office 365 문서에서 해당 콘텐츠 검색](https://docs.microsoft.com/microsoft-365/compliance/content-search) 을 참조 하세요.
 
 > [!TIP]
 > 콘텐츠 검색을 사용 하면 필요한 경우 채팅 및 채널 메시지, 모임, 통화와 같은 Microsoft 팀의 콘텐츠만 필터링 할 수 있습니다.
@@ -153,7 +153,7 @@ Office 365 보안 & 준수 센터에서 보존 및 유지에 대 한 자세한 �
 
 ### <a name="auditing-and-reporting"></a>감사 및 보고
 
-감사 로그 검색은 Office 365 보안 & 준수 센터에 있으며, 작업 부하를 설정 하 고 감사 이벤트를 보고할 수 있으며 무제한 감사 시간 표시 막대에서 관리를 사용 하 고 확인을 수행 하는 데 필요한 특정 또는 제네릭 이벤트 집합을 내보낼 수 있습니다. Office 365 보안 & 준수 센터 내의 모든 감사 로그 데이터에 대 한 알림을 설정 하 고 추가 분석을 위해이 데이터를 필터링 하 고 내보낼 수 있습니다. Office 365에 대 한 감사 로그를 수행 하는 방법에 대해 자세히 알아보려면 [감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 문서를 참조 하세요. Office 365 보안 & 준수 센터에서 Microsoft 팀 이벤트를 검색 하는 방법에 대해 자세히 알아보려면 [팀에서 감사를 사용 하도록 설정](audit-log-events.md) 하 여 검토할 수도 있습니다.
+감사 로그 검색은 Microsoft 365 준수 센터에 바로 연결 되며, 다양 한 감사 시간 내에 관리 사용 및 조사를 위해 작업 부하 또는 제네릭 이벤트 집합을 내보낼 수 있도록 허용 하 여 감사 이벤트에 대 한 보고를 할 수 있는 기능을 제공 합니다. Microsoft 365 준수 센터 내에서 모든 감사 로그 데이터에 대 한 알림을 설정 하 고 추가 분석을 위해이 데이터를 필터링 하 고 내보낼 수 있습니다. Office 365에 대 한 감사 로그를 수행 하는 방법에 대해 자세히 알아보려면 [감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 문서를 참조 하세요. Microsoft 365 규정 준수 센터에서 Microsoft 팀 이벤트를 검색 하는 방법에 대해 자세히 알아보려면 [팀에서 감사를 사용](audit-log-events.md) 하는 방법에 대해서도 검토할 수 있습니다.
 
 ## <a name="privacy"></a>프라이버시
 
@@ -174,7 +174,7 @@ Microsoft에서 데이터를 보호 하는 것은 가장 중요 한 사항입니
 
 ## <a name="licensing"></a>라이선싱
 
-정보 보호 기능을 사용 하는 경우 Office 365 구독 및 관련 독립 실행형 라이선스에 따라 사용할 수 있는 기능 집합이 결정 됩니다.
+정보 보호 기능을 사용 하는 경우 Microsoft 365 구독, Office 365 구독, 관련 독립 실행형 라이선스를 통해 제공 되는 기능 집합을 확인할 수 있습니다.
 
 보안 및 규정 준수를 위해 기능을 구현 하는 데 필요한 라이선스를 확인 하는 방법에 대 한 자세한 내용은 [Office 365 또는 Microsoft 365 라이선스](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf)를 참조 하세요.
 
@@ -183,7 +183,7 @@ Microsoft에서 데이터를 보호 하는 것은 가장 중요 한 사항입니
 
 ## <a name="location-of-data-in-teams"></a>Teams의 데이터 위치
 
-팀의 데이터는 Office 365 테 넌 트와 연결 된 지리적 영역에 위치 합니다. 현재 지원 되는 영역을 확인 하려면 [Microsoft 팀에서 데이터의 위치](location-of-data-in-teams.md)를 검토 하세요.
+팀의 데이터는 Office 365 조직과 연결 된 지리적 영역에 위치 합니다. 현재 지원 되는 영역을 확인 하려면 [Microsoft 팀에서 데이터의 위치](location-of-data-in-teams.md)를 검토 하세요.
 
 테 넌 트에 대 한 데이터가 들어 있는 영역을 확인 해야 하는 경우 [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home) > **설정** > **조직 프로필로**이동 합니다. 아래로 스크롤하여 **데이터 위치로**이동 합니다.
 

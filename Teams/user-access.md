@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 379573e7c671c3a5bca906cc3986bce068921b07
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f571dd461c6c783703159dfd6e9beb343612dd58
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833658"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779484"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft 팀에 대 한 사용자 액세스 관리
 =====================================
@@ -39,7 +39,7 @@ ms.locfileid: "41833658"
 
 ## <a name="manage-teams-through-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 통해 팀 관리
 
-팀 사용자 수준 라이선스는 Microsoft 365 관리 센터 사용자 관리 인터페이스를 통해 직접 관리 됩니다. 관리자는 새 사용자 계정이 만들어지거나 기존 계정이 있는 사용자에 게 라이선스를 할당할 수 있습니다. Microsoft 팀 라이선스를 관리 하려면 관리자에 게 Office 365 전역 관리자 또는 사용자 관리 관리자 권한이 있어야 합니다.
+팀 사용자 수준 라이선스는 Microsoft 365 관리 센터 사용자 관리 인터페이스를 통해 직접 관리 됩니다. 관리자는 새 사용자 계정이 만들어지거나 기존 계정이 있는 사용자에 게 라이선스를 할당할 수 있습니다. 관리자가 Microsoft 팀 라이선스를 관리 하려면 전역 관리자 또는 사용자 관리 관리자 권한이 있어야 합니다.
 
 E3 또는 E5와 같은 라이선스 SKU가 사용자에 게 할당 되 면 Microsoft 팀 라이선스가 자동으로 할당 되며 사용자가 Microsoft 팀에 대해 사용 하도록 설정 됩니다. 관리자는 모든 Office 365 서비스 및 라이선스를 세부적으로 제어할 수 있으며 특정 사용자 또는 사용자 그룹의 Microsoft 팀 라이선스를 사용 하거나 사용 하지 않도록 설정할 수 있습니다.
 
@@ -72,9 +72,9 @@ E3 또는 E5와 같은 라이선스 SKU가 사용자에 게 할당 되 면 Micro
 
 | | | |
 |---------|---------|---------|
-|![결정 지점을 나타내는 아이콘](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |판단 요점         |<ul><li>조직에서 온 팀에 대 한 조직의 계획은 무엇 인가요?  (파일럿 또는 열기)</li></ul>         |
+|![결정 지점을 나타내는 아이콘](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |의사 결정 지점         |<ul><li>조직에서 온 팀에 대 한 조직의 계획은 무엇 인가요?  (파일럿 또는 열기)</li></ul>         |
 |![다음 단계를 나타내는 아이콘](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |다음 단계         |<ul><li>폐쇄형 파일럿을 통해 온 보 딩이 있는 경우 라이선스를 통해 수행할 것인지 또는 대상을 지정 하 여 의사 소통을 할지 결정 하세요.</li><li>의사 결정에 따라 팀에 액세스할 수 있도록 허용 된 파일럿 사용자만 (필요한 경우) 해야 하는지 여부를 확인 하는 단계를 수행 합니다.</li><li>팀에 대 한 액세스 권한이 있는 사용자를 위한 지침을 문서화 합니다.</li></ul>         |
 
-## <a name="manage-teams-at-the-office-365-tenant-level"></a>Office 365 테 넌 트 수준에서 팀 관리
+## <a name="manage-teams-at-the-office-365-organization-level"></a>Office 365 조직 수준에서 팀 관리
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 

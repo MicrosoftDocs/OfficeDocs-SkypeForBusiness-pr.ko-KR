@@ -12,12 +12,12 @@ ms:contentKeyID: 57793363
 ms.date: 11/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76eb0ed3fbfffc3a30794f1cc8652090235ecc88
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6165310a32bbbc7ea13fc6663dfd4cf5ab791435
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201736"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780077"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42201736"
 
 _**마지막으로 수정 된 항목:** 2014-11-26_
 
-Lync Server 2013는 Skype와의 연결을 지원 합니다. 이 연결은 Lync 2013 사용자가 Skype 사용자의 Microsoft 계정 (MSA)을 사용 하 여 Skype 연락처를 추가할 수 있도록 합니다. 또한 Skype 클라이언트는 대화 상대 목록에 Lync 사용자를 추가할 수 있습니다. Lync Server에서 관리적으로 설정 된 정책에 따라 Lync 및 Skype 사용자는 인스턴트 메시징을 사용 하 여 통신 하 고, 서로의 현재 상태를 확인 하 고, 오디오 및 비디오 통화를 시작할 수 있습니다. Lync Online의 기능 이기도 한 lync 온라인의 기능은 Office 365 포털 내의 Lync 관리 센터에서 Lync Online 고객에 대해 사용 하도록 설정할 수 있습니다.
+Lync Server 2013는 Skype와의 연결을 지원 합니다. 이 연결은 Lync 2013 사용자가 Skype 사용자의 Microsoft 계정 (MSA)을 사용 하 여 Skype 연락처를 추가할 수 있도록 합니다. 또한 Skype 클라이언트는 대화 상대 목록에 Lync 사용자를 추가할 수 있습니다. Lync Server에서 관리적으로 설정 된 정책에 따라 Lync 및 Skype 사용자는 인스턴트 메시징을 사용 하 여 통신 하 고, 서로의 현재 상태를 확인 하 고, 오디오 및 비디오 통화를 시작할 수 있습니다. Lync Online의 기능 이기도 한 lync 온라인의 기능은 Microsoft 365 관리 센터 내의 Lync 관리 센터에서 Lync Online 고객을 위해 사용 하도록 설정할 수 있습니다.
 
 <div>
 

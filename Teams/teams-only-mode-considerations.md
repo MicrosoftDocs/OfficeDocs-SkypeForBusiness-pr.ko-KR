@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 4c4619758672022ed767c56e296ba41d2dcc33fd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796001"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776823"
 ---
 # <a name="teams-only-mode-considerations"></a>팀 전용 모드 고려 사항
 
-Office 365 테 넌 트의 관리자는 Microsoft 팀 관리 센터에서 팀 전용 모드로 업그레이드 하는 옵션이 표시 됩니다. 이 기능을 사용 하 여 개별 사용자 또는 전체 테 넌 트 중 하나를 업그레이드할 수 있습니다.  
+Office 365 조직의 관리자는 Microsoft 팀 관리 센터에서 팀 전용 모드로 업그레이드 하는 옵션이 표시 됩니다. 이 기능을 사용 하 여 개별 사용자 또는 전체 테 넌 트 중 하나를 업그레이드할 수 있습니다.  
 
 팀 전용 모드로 업그레이드 하는 경우 단일 클라이언트 환경을 통해 Office 365의 팀워크에 대 한 허브 인 Microsoft 팀의 모든 혜택을 제공 하 게 됩니다. 또한 팀 전용 모드의 사용자는 보낸 사람이 비즈니스용 Skype를 사용 하 고 있는지 여부에 관계 없이 팀의 모든 통화와 채팅을 받게 되며 interop 및 페더레이션 지원의 혜택을 받습니다.
 

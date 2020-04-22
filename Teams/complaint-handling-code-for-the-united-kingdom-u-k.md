@@ -1,5 +1,5 @@
 ---
-title: 영국에 대 한 불만 처리 코드 -Office 365 통화 요금제
+title: 영국에 대 한 불만 처리 코드 -Microsoft 365 통화 요금제
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,16 +23,16 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 비즈니스용 Skype 통화 서비스에 대 한 불만 (영국에서 PSTN 통화), 회신에 대 한 시간 표시 막대, 확인 되지 않은 불만에 대 한 분쟁 해결을 확인 하세요.
-ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137288"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780277"
 ---
-# <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365의 통화 요금제-영국에 대 한 불만 처리 코드 (영국)
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Microsoft 365-영국에 대 한 불만 처리 코드 (영국)의 통화 플랜
 
-이 코드는 영국 통신 규정에 따라 Office 365 통화 계획 서비스 ("서비스")와 관련 하 여 소규모 비즈니스 고객 (영국)에 적용 됩니다 (미국 직원이 10 명 이하인 조직). 다른 비즈니스용 Skype 서비스는 Microsoft 및 특정 서비스 사용에 적용 되는 다른 약관의 서비스 계약에 따라 결정 됩니다.
+이 코드는 영국 통신 규정에 따라 Microsoft 365 통화 계획 서비스 ("서비스")와 관련 하 여 소규모 비즈니스 고객 (영국)에 적용 됩니다 (영국의 경우 직원 10 명이 하). 다른 비즈니스용 Skype 서비스는 Microsoft 및 특정 서비스 사용에 적용 되는 다른 약관의 서비스 계약에 따라 결정 됩니다.
 
 ## <a name="how-to-make-a-complaint"></a>불만을 설정 하는 방법
 

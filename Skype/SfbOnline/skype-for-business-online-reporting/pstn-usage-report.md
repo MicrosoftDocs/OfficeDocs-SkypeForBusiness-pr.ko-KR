@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 새로운 비즈니스용 Skype 관리 센터 보고서 영역에 조직의 통화 및 오디오 회의 활동이 표시 됩니다. 이 기능을 사용 하면 보고서를 자세히 분석 하 여 각 사용자의 활동에 대 한 세부적인 통찰력을 제공할 수 있습니다. 예를 들어 비즈니스용 Skype PSTN 사용 정보 보고서를 사용 하 여 인바운드/아웃 바운드 통화와 이러한 통화 비용에 소요 된 시간을 확인할 수 있습니다. 통화 비용을 포함 하 여 오디오 회의 PSTN 사용 정보를 보고, 사용 현황 및 통화 대금 청구 세부 정보를 파악 하 여 조직 내 사용량을 확인할 수 있습니다.
-ms.openlocfilehash: 7050334a390188f47f5d201b3fa541d337601400
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: 4161f0f9f0b6e011b67f94afc14b5ac793fc1009
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637145"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776273"
 ---
 # <a name="pstn-usage-report"></a>PSTN 사용 현황 보고서
 
@@ -39,12 +39,12 @@ ms.locfileid: "42637145"
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>비즈니스용 Skype PSTN 사용 정보 보고서에 액세스 하는 방법
 
-![비즈니스용 skype](../images/sfb-logo-30x30.png) **관리 센터를 사용 하 여** 비즈니스용 skype 로고를 표시 하는 아이콘
+![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
 
 - 관리 센터로 이동 합니다. **관리** > 센터**비즈니스용 Skype 관리 센터** > 에서**PSTN 사용 정보**를**보고** > >.
     
     > [!NOTE]
-    > 사용 중인 Office 365 구독에 따라 여기에 표시 된 모든 제품 및 보고서가 표시 되지 않을 수 있습니다. 
+    > 사용 중인 Microsoft 365 또는 Office 365 구독에 따라 여기에 표시 된 모든 제품 및 보고서가 표시 되지 않을 수 있습니다.
   
 ## <a name="interpret-the-skype-for-business-pstn-usage-report"></a>비즈니스용 Skype PSTN 사용 보고서 해석
 
@@ -146,7 +146,7 @@ CSV의 첫 번째 행에 열 이름이 포함 됩니다.
 | 16 | 연결 수수료 | `numeric(16, 2)` | 연결 수수료 금액 |
 | 17@@ | 부과 | `numeric(16, 2)` | 계좌에 부과 되는 통화 또는 비용의 금액입니다. |
 | awg | 통화 | `nvarchar(3)` | 통화 비용을 계산 하는 데 사용 되는 통화 유형입니다 ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)). |
-| 인치 | 성능 | `nvarchar(32)` | 통화에 사용 된 라이선스 |
+| 인치 | 기능 | `nvarchar(32)` | 통화에 사용 된 라이선스 |
 
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>다른 비즈니스용 Skype 보고서를 보 시겠습니까?

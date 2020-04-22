@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d73c40ee6a2ebe906a6a3ca66dbb430b843c6eeb
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 1b7c7910c7c876c01d3192e16f49498e508fcd2c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706928"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776743"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>팀으로 업그레이드 하기 전에 환경 평가
 
@@ -44,24 +44,24 @@ ms.locfileid: "42706928"
 
 환경 평가 및 채택 준비 평가의 일부로 기술 위험을 식별 하 고 식별 된 각 위험에 대 한 완화 계획을 개발 합니다. 이 정보는 위험 등록기에 통합 해야 합니다.
 
-기존 공동 작업 인프라 및 Office 365 테 넌 트, 네트워킹, 끝점, 운영, 채택 및 준비와 관련 된 모든 문제가 환경 검색 질문의 일부로 포함 됩니다. 이 질문에 대 한 설문지는 여러 섹션으로 나뉘어 조직의 팀이 여러 주요 영역에서 배포에 대 한 준비가 되었는지 확인 합니다. 프로젝트 팀과 협력 하 여 필요한 정보를 최대한 자세하게 제공 하 여 계획 활동을 촉진 하세요.
+기존 공동 작업 인프라 및 Office 365 조직, 네트워킹, 끝점, 운영, 채택 및 준비와 관련 된 모든 문제가 환경 검색 질문의 일부로 포함 됩니다. 이 질문에 대 한 설문지는 여러 섹션으로 나뉘어 조직의 팀이 여러 주요 영역에서 배포에 대 한 준비가 되었는지 확인 합니다. 프로젝트 팀과 협력 하 여 필요한 정보를 최대한 자세하게 제공 하 여 계획 활동을 촉진 하세요.
 
 > [!TIP]
 > Microsoft Word 문서로 질문을 복사 하 여 시작할 수 있습니다. 모든 질문에 답을 하 고 이동할 때 모든 세부 정보를 수집 해 보세요.
 
 ## <a name="project-team"></a>프로젝트 팀
 
-프로젝트 팀에 게 적합 한 사람을 참여 했는지 확인 합니다. [프로젝트 Stakekholders 참여](upgrade-enlist-stakeholders.md)하 여 완료 한 단계를 확인 합니다.
+프로젝트 팀에 게 적합 한 사람을 참여 했는지 확인 합니다. [프로젝트 이해 관계자 참여](upgrade-enlist-stakeholders.md)에서 완료 한 단계를 확인 합니다.
 
-## <a name="office-365-tenant-details"></a>Office 365 테 넌 트 정보
+## <a name="office-365-organization-details"></a>Office 365 조직 세부 정보
 
-이 질문에 대 한 작업을 할 때 활성 Office 365 테 넌 트가 있는 것이 좋습니다. 아직 Office 365 테 넌 트를 활성화 하거나 구성 하지 않은 경우 [비즈니스용 office 365의 설정 계획](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)을 참조 하세요.
+이 질문에 대 한 작업을 하는 동안 활성 Office 365 조직을 사용 하는 것이 좋습니다. 아직 Office 365 조직을 활성화 하지 않았거나 구성 하지 않은 경우 [비즈니스용 office 365의 설정 계획](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)을 참조 하세요.
 
-다음 표를 사용 하 여 Office 365 테 넌 트에 대 한 정보를 수집 합니다.
+다음 표를 사용 하 여 Office 365 조직에 대 한 정보를 수집 합니다.
 
 > | 리콜 | 질문 | 메모 |
 > |---|---|---|
-> | 프로덕션 Office 365 테 넌 트 참고 <br>응답 열의 이름 및 ID <br/>테 넌 트가 두 개 이상 있는 경우 <br>조직과 연결 된 경우 <br>모든 Id를 기록해 둡니다. | 테 넌 트 이름: <br/>테 넌 트 ID:| |
+> | 프로덕션 Office 365 조직에 유의 하십시오. <br>응답 열의 이름 및 ID <br/>테 넌 트가 두 개 이상 있는 경우 <br>조직과 연결 된 경우 <br>모든 Id를 기록해 둡니다. | 테 넌 트 이름: <br/>테 넌 트 ID:| |
 > | 테 넌 트는 어떤 영역을 배포 하나요?| | |
 > | 이러한 테 넌 트 Office 365 다중 테 넌 트 또는 <br>전용? | <input type="checkbox">다중<br/> <input type="checkbox">전용 | |
 > | 현재 사용 중인 Microsoft Online 제품은 어디에 있나요? <br/>각 사용자의 수를 설정 합니다. <br>설명 열에 서비스를 추가 합니다. | <input type="checkbox">Microsoft 팀 <br/> <input type="checkbox">비즈니스용 Skype <br>&nbsp;&nbsp; &nbsp;온라인 상태 <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">비즈니스용 OneDrive <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">나머지| |
@@ -98,7 +98,7 @@ ms.locfileid: "42706928"
 > | 리콜 | 질문 | 메모 |
 > |---|---|---|
 > | 팀에 대해 어떤 사용자 유형을 사용할 수 있나요? | <input type="checkbox">조직의 모든 사용자 <br/> <input type="checkbox">특정 사용자/사용자 그룹 <br>&nbsp;&nbsp; (메모 열에서 &nbsp;지정) ||
-> | 사용 중인 팀 기능 및 형식을 | <input type="checkbox">채널 기반 대화 <br/> <input type="checkbox">개인 채팅 <br/> <input type="checkbox">게스트 액세스 <br/> <input type="checkbox">채널 모임 <br/> <input type="checkbox">비공개 모임 <br/> <input type="checkbox">비공개 통화 <br/> <input type="checkbox">Ad-hoc 채널 잔 <br/> <input type="checkbox">모임의 비디오 <br/> <input type="checkbox">모임에서 화면 공유 <br/> <input type="checkbox">오디오 회의 <br/><input type="checkbox">응용 프로그램 (앱)<br> &nbsp;&nbsp; 탭 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; 봇 &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; 연결선 &nbsp; <input type="checkbox"><br><input type="checkbox">사용자 지정 클라우드 저장소 통합 <br>&nbsp;&nbsp; (Box, Dropbox, sharefile, Google &nbsp; Drive) <br/> <input type="checkbox">채널 전자 메일 통합 <br/> <input type="checkbox">기타 (메모 열에서 지정) | |
+> | 사용 중인 팀 기능 및 형식을 | <input type="checkbox">채널 기반 대화 <br/> <input type="checkbox">개인 채팅 <br/> <input type="checkbox">게스트 액세스 <br/> <input type="checkbox">채널 모임 <br/> <input type="checkbox">비공개 모임 <br/> <input type="checkbox">비공개 통화 <br/> <input type="checkbox">Ad-hoc 채널 잔 <br/> <input type="checkbox">모임의 비디오 <br/> <input type="checkbox">모임에서 화면 공유 <br/> <input type="checkbox">오디오 회의 <br/><input type="checkbox">응용 프로그램 (앱)<br> &nbsp;&nbsp; 탭 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; 봇 &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; 연결선 &nbsp; <input type="checkbox"><br><input type="checkbox">사용자 지정 클라우드 저장소 통합 <br>&nbsp;&nbsp; (Dropbox, Box, sharefile, Google Drive, &nbsp; Egnyte) <br/> <input type="checkbox">채널 전자 메일 통합 <br/> <input type="checkbox">기타 (메모 열에서 지정) | |
 > | 팀에 배포 하는 응용 프로그램은 무엇 인가요? | | |
 > | 팀의 접근 권한 값을 구체적으로 차단 했습니까? <br/>예를 들어 메모 열의 세부 정보를 기록해 둡니다. | <input type="checkbox">' <br/> <input type="checkbox">아니요 ||
 > | 사용 중인 팀 클라이언트 | <input type="checkbox">웹 <br/> <input type="checkbox">창을 <br/> <input type="checkbox">Ac <br/> <input type="checkbox">Io <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |
@@ -161,7 +161,7 @@ ms.locfileid: "42706928"
 > | 모바일 장치를 어떻게 제공 하나요? <br/>적용 되는 모든 것을 선택 합니다. | <input type="checkbox">회사 장치 <br/> <input type="checkbox">나만의 장치 가져오기 | |
 > | 현재 사용자가 액세스 하는 데 사용 하는 장치 <br>음성 및 회의 서비스 <br>(송수화기, 헤드셋, 전화, 영상)? | | |
 
-## <a name="operations"></a>작업
+## <a name="operations"></a>운영
 
 다음 표를 사용 하 여 환경의 작업 측면에 대 한 세부 정보를 수집 합니다.
 

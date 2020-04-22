@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 Business Premium '
+title: 'Microsoft 365 비즈니스 표준 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,17 +18,17 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Office 365 Business Premium 요금제를 구입 하는 방법에 대 한 추가 기능 라이선스, 기능 및 방법에 대해 알아봅니다. '
-ms.openlocfilehash: b51724524f56fe534c95ede85bca7535ab1be396
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 'Microsoft 365 비즈니스 표준 요금제를 구입 하는 방법에 대 한 추가 기능 라이선스, 기능 및 방법에 대해 알아봅니다. '
+ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826566"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780507"
 ---
-# <a name="office-365-business-premium"></a>Office 365 Business Premium
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 비즈니스 표준
 
-[Office 365 비즈니스 Premium](https://products.office.com/en/business/office-365-business-premium)이 있는 경우 Microsoft 팀을 사용 하 여 구독 중인 비즈니스의 다른 사용자에 게 전화를 걸 수 있습니다. 예를 들어 비즈니스에 10 명의 사용자가 있는 경우 팀을 사용 하 여 서로 통화 하 고 인스턴트 메시지를 들을 수 있습니다.
+[Microsoft 365 비즈니스 표준이](https://products.office.com/en/business/office-365-business-premium)있는 경우 microsoft 팀을 사용 하 여 구독 중인 비즈니스의 다른 사용자에 게 전화를 걸 수 있습니다. 예를 들어 비즈니스에 10 명의 사용자가 있는 경우 팀을 사용 하 여 서로 통화 하 고 인스턴트 메시지를 들을 수 있습니다.
 
 
 **회사 외부의 사용자와 전화를 걸고 받으려면 다음 옵션을 사용할 수 있습니다**.
@@ -54,7 +54,7 @@ ms.locfileid: "41826566"
 
  **오디오 회의를 받으려면:**
 
-1. Microsoft 365 관리 센터에 로그인 합니다.
+1. Microsoft 365 관리 센터에 로그인합니다.
 
 2. **청구** > **구입 서비스** > **추가 기능 구독**으로 이동 합니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "41826566"
 
 **통신 크레딧을 얻으려면**
 
-1. Microsoft 365 관리 센터에 로그인 합니다.
+1. Microsoft 365 관리 센터에 로그인합니다.
 
 2. **청구** > **구입 서비스** > **추가 기능 구독**으로 이동 합니다.
 

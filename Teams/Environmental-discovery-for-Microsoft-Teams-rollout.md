@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: abe848e21ed245230edc1ebfbfd038af9eec9175
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 16e02d3a1948ece53fbb51189880bb3dbd737b23
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139317"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778744"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 팀 배포 환경 검색
 ===================================================
@@ -36,7 +36,7 @@ ms.locfileid: "43139317"
 
 아래 질문에 따라 팀에서 통화 계획 기능을 사용 하 여 오디오 회의 및 전화 시스템을 성공적으로 출시 하는 데 도움이 되는 일련의 질문이 확인 되었습니다.
 
-기존 공동 작업 인프라 및 Office 365 테 넌 트, 네트워킹, 끝점, 운영, 채택 및 준비와 관련 된 모든 문제가 환경 검색 질문의 일부로 포함 됩니다.
+기존 공동 작업 인프라 및 Office 365 조직, 네트워킹, 끝점, 운영, 채택 및 준비와 관련 된 모든 문제가 환경 검색 질문의 일부로 포함 됩니다.
 
 이 질문에 대 한 설문지는 여러 섹션으로 나뉘어 조직의 팀이 여러 주요 영역에서 배포에 대 한 준비가 되었는지 확인 합니다. 프로젝트 팀과 협력 하 여 필요한 정보를 최대한 자세하게 제공 하 여 계획 활동을 촉진 하세요.
 
@@ -67,16 +67,16 @@ ms.locfileid: "43139317"
 > | 영상 팀 리더 | | | |
 > | 사업부 리드 | | | |
 
-<a name="office-365-tenant-details"></a>Office 365 테 넌 트 정보
+<a name="office-365-organization-details"></a>Office 365 조직 세부 정보
 ---
 
-이 질문에 대 한 작업을 할 때 활성 Office 365 테 넌 트가 있는 것이 좋습니다. 아직 Office 365 테 넌 트를 활성화 하거나 구성 하지 않은 경우 [비즈니스용 office 365의 설정 계획](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)을 참조 하세요.
+이 질문에 대 한 작업을 하는 동안 활성 Office 365 조직을 사용 하는 것이 좋습니다. 아직 Office 365 조직을 활성화 하지 않았거나 구성 하지 않은 경우 [비즈니스용 office 365의 설정 계획](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)을 참조 하세요.
 
-다음 표를 사용 하 여 Office 365 테 넌 트에 대 한 정보를 수집 합니다.
+다음 표를 사용 하 여 Office 365 조직에 대 한 정보를 수집 합니다.
 
 > | 리콜 | 질문 | 메모 |
 > |---|---|---|
-> | 프로덕션 Office 365 테 넌 트 참고 <br>응답 열의 이름 및 ID <br/>테 넌 트가 두 개 이상 있는 경우 <br>조직과 연결 된 경우 <br>모든 Id를 기록해 둡니다. | 테 넌 트 이름: <br/>테 넌 트 ID:| |
+> | 프로덕션 Office 365 조직에 유의 하십시오. <br>응답 열의 이름 및 ID <br/>테 넌 트가 두 개 이상 있는 경우 <br>조직과 연결 된 경우 <br>모든 Id를 기록해 둡니다. | 테 넌 트 이름: <br/>테 넌 트 ID:| |
 > | 테 넌 트는 어떤 영역을 배포 하나요?| | |
 > | 이러한 테 넌 트 Office 365 다중 테 넌 트 또는 <br>전용? | <input type="checkbox">다중<br/> <input type="checkbox">전용 | |
 > | 현재 사용 중인 Microsoft Online 제품은 어디에 있나요? <br/>각 사용자의 수를 설정 합니다. <br>설명 열에 서비스를 추가 합니다. | <input type="checkbox">Microsoft 팀 <br/> <input type="checkbox">비즈니스용 Skype <br>&nbsp;&nbsp; &nbsp;온라인 상태 <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">비즈니스용 OneDrive <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">나머지| |
@@ -115,7 +115,7 @@ ms.locfileid: "43139317"
 > | 리콜 | 질문 | 메모 |
 > |---|---|---|
 > | 팀에 대해 어떤 사용자 유형을 사용할 수 있나요? | <input type="checkbox">조직의 모든 사용자 <br/> <input type="checkbox">특정 사용자/사용자 그룹 <br>&nbsp;&nbsp; (메모 열에서 &nbsp;지정) ||
-> | 사용 중인 팀 기능 및 형식을 | <input type="checkbox">채널 기반 대화 <br/> <input type="checkbox">개인 채팅 <br/> <input type="checkbox">게스트 액세스 <br/> <input type="checkbox">채널 모임 <br/> <input type="checkbox">비공개 모임 <br/> <input type="checkbox">비공개 통화 <br/> <input type="checkbox">Ad-hoc 채널 잔 <br/> <input type="checkbox">모임의 비디오 <br/> <input type="checkbox">모임에서 화면 공유 <br/> <input type="checkbox">오디오 회의 <br/><input type="checkbox">응용 프로그램 (앱)<br> &nbsp;&nbsp; 탭 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; 봇 &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; 연결선 &nbsp; <input type="checkbox"><br><input type="checkbox">사용자 지정 클라우드 저장소 통합 <br>&nbsp;&nbsp; (Box, Dropbox, sharefile, Google &nbsp; Drive) <br/> <input type="checkbox">채널 전자 메일 통합 <br/> <input type="checkbox">기타 (메모 열에서 지정) | |
+> | 사용 중인 팀 기능 및 형식을 | <input type="checkbox">채널 기반 대화 <br/> <input type="checkbox">개인 채팅 <br/> <input type="checkbox">게스트 액세스 <br/> <input type="checkbox">채널 모임 <br/> <input type="checkbox">비공개 모임 <br/> <input type="checkbox">비공개 통화 <br/> <input type="checkbox">Ad-hoc 채널 잔 <br/> <input type="checkbox">모임의 비디오 <br/> <input type="checkbox">모임에서 화면 공유 <br/> <input type="checkbox">오디오 회의 <br/><input type="checkbox">응용 프로그램 (앱)<br> &nbsp;&nbsp; 탭 &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; 봇 &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; 연결선 &nbsp; <input type="checkbox"><br><input type="checkbox">사용자 지정 클라우드 저장소 통합 <br>&nbsp;&nbsp; (Dropbox, Box, sharefile, Google Drive, &nbsp; Egnyte) <br/> <input type="checkbox">채널 전자 메일 통합 <br/> <input type="checkbox">기타 (메모 열에서 지정) | |
 > | 팀에 배포 하는 응용 프로그램은 무엇 인가요? | | |
 > | 팀의 접근 권한 값을 구체적으로 차단 했습니까? <br/>예를 들어 메모 열의 세부 정보를 기록해 둡니다. | <input type="checkbox">' <br/> <input type="checkbox">아니요 ||
 > | 사용 중인 팀 클라이언트 | <input type="checkbox">웹 <br/> <input type="checkbox">창을 <br/> <input type="checkbox">Ac <br/> <input type="checkbox">Linux <br/>  <input type="checkbox">Io <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |

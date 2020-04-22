@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 사용자 만들기와 지원 또는 지원 되지 않는 조합에 대 한 다양 한 조합에 대해 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8bdab33d6f1f009ce51afe999923f4f6f5d1905a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141081"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779997"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 연결이 포함된 하이브리드 환경의 사용자 계정
 
@@ -31,7 +31,7 @@ ms.locfileid: "43141081"
 이 문서는 다음이 모두 있는 환경에 적용 됩니다. 
  
 - 비즈니스용 Skype 서버 또는 Lync Server 2013 
-- Office 365 테 넌 트 
+- Office 365 조직 
 - 비즈니스용 Skype 서버와 비즈니스용 Skype Online 또는 Microsoft 팀 테 넌 트 간에 하이브리드 연결이 구성 되었습니다. 
 - 클라이언트와의 PSTN (공개 교환 네트워크) 전화를 걸고 받을 수 있는 사용자
 

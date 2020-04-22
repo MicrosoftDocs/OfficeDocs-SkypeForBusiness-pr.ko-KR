@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 팀 관리 센터에서 사용할 수 있는 팀 보고서에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1c4c142ff311debd3f96d08e386df68af953c2b
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 86003876bbbf4927886a8b260fad48f451a2d325
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240648"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778243"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft 팀 분석 및 보고
 
@@ -33,7 +33,7 @@ Microsoft 팀에 대 한 새로운 분석 및 보고 환경은 Microsoft 팀 관
 Microsoft 팀 관리 센터로 이동 하 고 왼쪽 탐색 창에서 **분석 & 보고서**를 선택한 다음 **보고서**에서 실행 하려는 보고서를 선택 합니다.
 
 > [!NOTE]
-> Microsoft 팀 관리 센터의 보고서는 Microsoft 365 관리 센터에서 Office 365 보고서의 일부인 팀에 대 한 활동 보고서와는 별개입니다. Microsoft 365 관리 센터의 활동 보고서에 대 한 자세한 내용은 [microsoft 365 관리 센터에서 팀 활동 보고서](../teams-activity-reports.md) 를 참조 하세요.
+> Microsoft 팀 관리 센터의 보고서는 microsoft 365 관리 센터에서 Microsoft 365 보고서의 일부인 팀에 대 한 활동 보고서와는 별개입니다. Microsoft 365 관리 센터의 활동 보고서에 대 한 자세한 내용은 [microsoft 365 관리 센터에서 팀 활동 보고서](../teams-activity-reports.md) 를 참조 하세요.
 
 ## <a name="teams-reporting-reference"></a>팀 보고 참조
 

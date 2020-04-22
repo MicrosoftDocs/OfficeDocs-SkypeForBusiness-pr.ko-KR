@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: c3d292eecb6173f98a2e95dbbd5a1097f5f785eb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9fffea969ea1448bdf8f2a076dbef6756765e20
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836758"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780027"
 ---
 <a name="use-the-network-testing-companion"></a>네트워크 테스트 비교 사용
 =================================
@@ -34,7 +34,7 @@ ms.locfileid: "41836758"
 이 도구는 비즈니스용 Skype 또는 Microsoft 팀 배포의 계획 단계에서 사용할 수 있습니다. 현재 팀 또는 비즈니스용 Skype Online을 사용 중인 경우에는이 도구를 사용 하 여 음성 품질 문제를 해결 하거나, 전화를 걸기 전에 네트워크 연결을 확인 하거나 품질이 좋지 않은 경우에만 할 수 있습니다.
 
 > [!NOTE]
-> 네트워크 테스트 도우미를 다운로드 하 고 설치 하는 데 Office 365 구독이 필요 하지 않습니다.
+> 네트워크 테스트 도우미를 다운로드 하 고 설치 하는 데 Microsoft 365 또는 Office 365 구독이 필요 하지 않습니다.
 
 ## <a name="download-the-tool-and-documentation"></a>도구 및 문서 다운로드
 

@@ -12,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 480e4a097a3faa8dc70d05ff72027fd6e65e5a76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b39c94b08da65e546fdf3ad01d42ada636ff371d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215854"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780757"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +59,7 @@ Lync Server 2013 hybrid environment는 일부 사용자가 온-프레미스 Lync
 
   - [AD FS를 사용 하 여 single sign-on 용 Windows PowerShell 설치](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - Microsoft Online Services 로그인 도우미 (msoidcli-)는 office 365 관리 포털에서 연결 된 다운로드 페이지에서 얻을 수 있는 Office 365 데스크톱 설치 프로그램에 포함 되어 있습니다.
+  - Microsoft Online Services 로그인 도우미 (msoidcli-)는 Microsoft 365 관리 센터에서 연결 된 다운로드 페이지에서 구할 수 있는 Office 365 데스크톱 설치 프로그램에 포함 되어 있습니다.
 
 </div>
 
@@ -67,7 +67,7 @@ Lync Server 2013 hybrid environment는 일부 사용자가 온-프레미스 Lync
 
 ## <a name="administrator-credentials"></a>관리자 자격 증명
 
-관리자 자격 증명을 입력 하 라는 메시지가 표시 되 면 Office 365 테 넌 트에 대 한 관리자 계정의 사용자 이름 및 암호를 사용 합니다. AD FS (Active Directory Federation Services) 2.0, 디렉터리 동기화, Single sign-on, 페더레이션 및 이동 사용자를 Lync Online으로 구성 하는 경우에도 이러한 자격 증명을 사용 합니다.
+관리자 자격 증명을 입력 하 라는 메시지가 표시 되 면 Office 365 조직의 관리자 계정에 대 한 사용자 이름 및 암호를 사용 합니다. AD FS (Active Directory Federation Services) 2.0, 디렉터리 동기화, Single sign-on, 페더레이션 및 이동 사용자를 Lync Online으로 구성 하는 경우에도 이러한 자격 증명을 사용 합니다.
 
 </div>
 

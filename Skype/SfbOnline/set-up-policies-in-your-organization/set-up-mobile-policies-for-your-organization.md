@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 사용자가 휴대폰 번호를 사용 하 여 휴대폰 전화를 걸고 받을 수 있는 기능 등 모바일 장치에서 비즈니스용 skype 앱에 대 한 skype Online에 연결 하는 방법을 설정할 수 있습니다. mber. 이동성 정책은 전화를 걸거나 받을 때 Wi-fi 연결이 필요한 경우에도 사용할 수 있습니다.
-ms.openlocfilehash: 2d608356e08ae989d0be79bd61f14a4d6ba3b9f0
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 사용자가 휴대 전화 번호 대신 회사 전화 번호를 사용 하 여 휴대폰으로 전화를 걸고 받을 수 있는 기능 등 모바일 장치에서 비즈니스용 skype Online에 연결 하는 방법을 설정할 수 있습니다. 이동성 정책은 전화를 걸거나 받을 때 Wi-fi 연결이 필요한 경우에도 사용할 수 있습니다.
+ms.openlocfilehash: ac8f94cb7203b3b0ee4698969db0b76cb1e31a49
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887857"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776263"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>조직의 모바일 정책 설정
 
-사용자가 휴대폰 번호를 사용 하 여 휴대폰 전화를 걸고 받을 수 있는 기능 등 모바일 장치에서 비즈니스용 skype 앱에 대 한 skype Online에 연결 하는 방법을 설정할 수 있습니다. mber. 이동성 정책은 전화를 걸거나 받을 때 Wi-fi 연결이 필요한 경우에도 사용할 수 있습니다.
+사용자가 휴대 전화 번호 대신 회사 전화 번호를 사용 하 여 휴대폰으로 전화를 걸고 받을 수 있는 기능 등 모바일 장치에서 비즈니스용 skype Online에 연결 하는 방법을 설정할 수 있습니다. 이동성 정책은 전화를 걸거나 받을 때 Wi-fi 연결이 필요한 경우에도 사용할 수 있습니다.
   
 정책을 만들 때 모바일 정책 설정을 구성 하거나, **Set-CsMobilityPolicy** cmdlet을 사용 하 여 기존 정책의 설정을 수정할 수 있습니다.
   
@@ -55,7 +55,7 @@ ms.locfileid: "41887857"
     
     1. **시작 메뉴** > 에서**Windows PowerShell**을 실행 합니다.
         
-    2. **Windows PowerShell** 창에서 다음을 실행 하 여 Office 365 조직에 연결 합니다.
+    2. **Windows PowerShell** 창에서 다음을 실행 하 여 Microsoft 365 또는 Office 365에 연결 합니다.
         
         > [!NOTE]
         > 비즈니스용 Skype Online Windows PowerShell 모듈을 처음 사용 하는 경우에만 **Import-Module** 명령을 실행 하면 됩니다.

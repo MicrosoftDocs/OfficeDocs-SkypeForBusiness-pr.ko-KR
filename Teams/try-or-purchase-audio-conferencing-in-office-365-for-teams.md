@@ -1,5 +1,5 @@
 ---
-title: Office 365 팀에서 오디오 회의 체험 또는 구매
+title: 팀 용 Microsoft 365에서 오디오 회의 체험 또는 구매
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Office 365 용 오디오 회의 (PSTN 회의) 라이선스를 구입 하거나 구매 하 여 사용자가 전화를 걸 수 있는 컨퍼런스 통화를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 6f30f59e20ee6fd8516bcfe420e2b936e9749a8e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 35d84c84f02c459af32aa764d877f4b8c64d4d63
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139697"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780167"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Microsoft 팀 용 Office 365에서 오디오 회의 체험 또는 구매
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft 팀을 위해 Microsoft 365에서 오디오 회의 체험 또는 구매
 
 경우에 따라 조직의 사용자가 전화를 사용하여 모임에 전화해야 하는 경우가 있습니다. Microsoft 팀에는 이러한 상황에 대 한 오디오 회의 기능이 포함 되어 있습니다. 사용자는 모바일 장치 또는 PC에서 Microsoft 팀 앱을 사용 하는 대신 휴대폰을 사용 하 여 Microsoft 팀 모임에서 전화를 걸 수 있습니다.
 

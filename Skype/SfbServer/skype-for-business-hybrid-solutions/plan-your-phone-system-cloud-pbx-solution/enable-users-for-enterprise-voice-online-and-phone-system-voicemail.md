@@ -19,18 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: 비즈니스용 Skype 사용자를 위해 Office 365 음성 서비스에서 전화 시스템을 사용 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: ae1443fa0f0725b6cbbe722703f24af02139c12d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050200"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780727"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Office 365 음성 사서함에서 사용자의 엔터프라이즈 음성 온라인 및 전화 시스템을 사용 하도록 설정
  
 비즈니스용 Skype 사용자를 위해 Office 365 음성 서비스에서 전화 시스템을 사용 하도록 설정 하는 방법을 알아봅니다.
   
-온-프레미스 PSTN 연결을 사용 하는 Office 365에서 전화 시스템을 배포 하는 마지막 단계는 Office 365 및 음성 메일에서 전화 시스템용 사용자를 사용 하도록 설정 하는 것입니다. 이러한 기능을 사용 하도록 설정 하려면 Office 365 전역 관리자 역할을 가진 사용자 여야 하며 원격 PowerShell을 실행할 수 있어야 합니다. 비즈니스용 Skype Online에 Enterprise Voice가 사용 하도록 설정 되어 있지 않은 모든 사용자 계정에 대해이 항목의 단계를 수행 해야 합니다.
+온-프레미스 PSTN 연결을 사용 하는 Office 365에서 전화 시스템을 배포 하는 마지막 단계는 Office 365 및 음성 메일에서 전화 시스템용 사용자를 사용 하도록 설정 하는 것입니다. 이러한 기능을 사용 하도록 설정 하려면 전역 관리자 역할을 가진 사용자 여야 하며 원격 PowerShell을 실행할 수 있어야 합니다. 비즈니스용 Skype Online에 Enterprise Voice가 사용 하도록 설정 되어 있지 않은 모든 사용자 계정에 대해이 항목의 단계를 수행 해야 합니다.
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>Office 365 음성 서비스에서 전화 시스템 사용
 
@@ -78,7 +78,7 @@ Office 365 음성 및 음성 메일에서 전화 시스템에 대해 사용자�
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    예:
+    예시:
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -122,7 +122,7 @@ Windows PowerShell 및 [부여-CsDialPlan 플랜](https://docs.microsoft.com/pow
 
 ### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a>여러 사용자에 게 사용자별 다이얼 플랜을 할당 하려면
 
-- 다음 명령은 Redmond의 도시에서 근무 하는 모든 사용자에 게 사용자별 다이얼 플랜 RedmondDialPlan를 할당 합니다. 이 명령에 사용 되는 LdapFilter 매개 변수에 대 한 자세한 내용은 다음을 참조 하십시오 [](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) .
+- 다음 명령은 Redmond의 도시에서 근무 하는 모든 사용자에 게 사용자별 다이얼 플랜 RedmondDialPlan를 할당 합니다. 이 명령에 사용 되는 LdapFilter 매개 변수에 대 한 자세한 내용은 다음을 참조 하십시오 [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) .
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"

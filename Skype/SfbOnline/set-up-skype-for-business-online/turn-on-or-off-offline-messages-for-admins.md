@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 연락처가 PowerShell을 사용 하 여 로그인 하지 않은 경우에도 비즈니스용 Skype 인스턴트 메시지를 보내는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2b9cea6e7a4bcb3f7fc34bdf67e77353412d9e13
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 03e92118fd915582030b5259654664121ca96c50
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706313"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777143"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>관리자의 오프라인 메시지 설정 또는 해제
 
@@ -62,7 +62,7 @@ ms.locfileid: "41706313"
 
 1. **시작 메뉴** > 에서**Windows PowerShell**을 실행 합니다.
 
-2. **Windows PowerShell** 창에서 다음을 실행 하 여 Office 365 조직에 연결 합니다.
+2. **Windows PowerShell** 창에서 다음을 실행 하 여 Microsoft 365 또는 Office 365에 연결 합니다.
 
     > [!NOTE]
     > 비즈니스용 Skype Online Windows PowerShell 모듈을 처음 사용 하는 경우에만 **Import-Module** 명령을 실행 하면 됩니다.
@@ -82,7 +82,7 @@ Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단�
 > [!NOTE]
 > 오프 라인 메시지는 최신 버전의 간편 실행 비즈니스용 Skype 클라이언트 **에서만** 사용할 수 있으며, 이전에 실행 중인 비즈니스용 skype를 사용 하는 경우에는 사용할 수 없으며 비즈니스용 skype 클라이언트를 설치 하는 데 * .msi 파일이 사용 되었습니다.
 
-오프 라인 메시지를 설정 하거나 해제 하려면 조직의 사용자에 게 오프 라인 메시지를 __ 보내려면 EnableIMAutoArchiving `True` 를 `False`또는으로 설정 합니다. 기본적으로이로 `True`설정 됩니다.
+오프 라인 메시지를 설정 하거나 해제 하려면 조직의 사용자에 게 오프 라인 메시지를 _EnableIMAutoArchiving_ 보내려면 EnableIMAutoArchiving `True` 를 `False`또는으로 설정 합니다. 기본적으로이로 `True`설정 됩니다.
 
 이 기능을 해제 하려면 **Set-CsClientPolicy** cmdlet을 사용 하 여 다음을 실행 합니다.
 
@@ -90,7 +90,7 @@ Windows PowerShell을 시작 하는 방법에 대 한 자세한 내용은 [단�
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-오프 라인 메시지를 설정 하거나 해제 하려면 사용자에 게 오프 라인 메시지 __ 를 보내려면 `True` EnableIMAutoArchiving `False`를 또는으로 설정 합니다. 기본적으로이로 `True`설정 됩니다. 기존 정책을 사용 하거나 아래 예제와 같은 항목을 만들 수 있습니다.
+오프 라인 메시지를 설정 하거나 해제 하려면 사용자에 게 오프 라인 메시지 _EnableIMAutoArchiving_ 를 보내려면 `True` EnableIMAutoArchiving `False`를 또는으로 설정 합니다. 기본적으로이로 `True`설정 됩니다. 기존 정책을 사용 하거나 아래 예제와 같은 항목을 만들 수 있습니다.
 
 
   ```PowerShell
@@ -115,7 +115,7 @@ Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 
   - [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업 수행](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 
 [비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용](let-skype-for-business-users-add-skype-contacts.md)

@@ -1,5 +1,5 @@
 ---
-title: Office 365 테 넌 트와 클라우드 커넥터 통합 구성
+title: Microsoft 365 또는 Office 365 조직과의 클라우드 커넥터 통합 구성
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
-description: Office 365 테 넌 트에서 클라우드 커넥터 통합을 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: cf683743064ec377c827fe0c52a59e464f65ae19
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Office 365 조직과의 클라우드 커넥터 통합을 구성 하는 방법을 알아봅니다.
+ms.openlocfilehash: 1fecf017f614fc8bdf0f38b5f51c29e4b2774357
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050210"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780647"
 ---
-# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Office 365 테 넌 트와 클라우드 커넥터 통합 구성
+# <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>Microsoft 365 또는 Office 365 조직과의 클라우드 커넥터 통합 구성
  
-Office 365 테 넌 트에서 클라우드 커넥터 통합을 구성 하는 방법을 알아봅니다.
+Office 365 조직과의 클라우드 커넥터 통합을 구성 하는 방법을 알아봅니다.
   
-비즈니스용 Skype 클라우드 커넥터 Edition 설치가 완료 되 면이 섹션의 단계를 수행 하 여 배포를 구성 하 고 Office 365 테 넌 트에 연결 합니다.
+비즈니스용 Skype 클라우드 커넥터 Edition 설치가 완료 되 면이 섹션의 단계를 수행 하 여 배포를 구성 하 고 Office 365 조직에 연결 합니다.
   
 ## <a name="configure-firewall-settings"></a>방화벽 설정 구성
 
@@ -57,7 +57,7 @@ Office 365에서 도메인을 업데이트 하는 단계를 완료 했으며 DNS
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>에 지에 대 한 Office 365의 DNS 레코드 추가
 
-다음 DNS 레코드를 Office 365 테 넌 트에 추가 합니다. Office 365 테 넌 트에 DNS 레코드를 추가 하는 방법에 대 한 자세한 내용은 [office 365에서 사용자 지정 dns 레코드 추가 또는 편집](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)을 참조 하십시오.
+Office 365 조직에 다음 DNS 레코드를 추가 합니다. Office 365 조직에 DNS 레코드를 추가 하는 방법에 대 한 자세한 내용은 [office 365에서 사용자 지정 dns 레코드 추가 또는 편집](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)을 참조 하십시오.
   
 1. 액세스에 지에 대 한 DNS A 레코드를 추가 합니다.
     
@@ -67,7 +67,7 @@ Office 365에서 도메인을 업데이트 하는 단계를 완료 했으며 DNS
   
 ## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>클라우드 커넥터 버전 및 Office 365 간 하이브리드 연결 설정
 
-비즈니스용 Skype 클라우드 커넥터 에디션 배포와 Office 365 테 넌 트 간의 하이브리드 연결을 구성 하려면 원격 PowerShell 세션에서 다음 cmdlet을 실행 합니다. 원격 PowerShell 세션을 설정 하는 방법에 [대 한 자세한 내용은 Windows PowerShell에 대 한 컴퓨터 설정](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)를 참조 하십시오.
+비즈니스용 Skype 클라우드 커넥터 에디션 배포와 Office 365 조 직 간에 하이브리드 연결을 구성 하려면 원격 PowerShell 세션에서 다음 cmdlet을 실행 합니다. 원격 PowerShell 세션을 설정 하는 방법에 [대 한 자세한 내용은 Windows PowerShell에 대 한 컴퓨터 설정](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)를 참조 하십시오.
   
 Cmdlet은 액세스에 지 외부 FQDN을 설정 합니다. 첫 번째 명령에서 외부 액세스에 지 \<FQDN\> 은 SIP 액세스에 지 역할에 대해 하나 여야 합니다. 기본적으로이 이름은 ap. 도메인 이름\<\>이어야 합니다.
   
@@ -101,11 +101,11 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
 ## <a name="set-up-your-users-in-office-365"></a>Office 365에서 사용자 설정
 
-Office 365 관리 포털에 로그인 하 고, 온라인 음성 서비스에 사용할 사용자를 추가 하 고,이 사용자에 게 E3 라이선스에 대 한 e 5 추가 기능 365에서 E5 라이선스 또는 전화 시스템을 할당 합니다. 사용자를 추가 하는 방법에 대 한 자세한 내용은 [비즈니스용 Office 365에 사용자 추가](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)를 참조 하세요.
+Microsoft 365 관리 센터에 로그인 하 고, 온라인 음성 서비스에 사용할 사용자를 추가 하 고, 다음 사용자에 게 E3 라이선스에 대 한 e 5 추가 기능 365에서 E5 라이선스 또는 전화 시스템을 할당 합니다. 사용자를 추가 하는 방법에 대 한 자세한 내용은 [비즈니스용 Office 365에 사용자 추가](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)를 참조 하세요.
   
 ## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Office 365 음성 및 음성 메일 서비스에서 전화 시스템에 대해 사용자를 사용 하도록 설정
 
-Office 365에 사용자를 추가한 후 음성 메일을 포함 하 여 Office 365 음성 서비스에서 전화 시스템용 계정을 사용 하도록 설정 합니다. 이러한 기능을 사용 하도록 설정 하려면 Office 365 전역 관리자 역할인 계정을 사용 하 여 Office 365 테 넌 트에 로그인 하 고 원격 PowerShell을 실행할 수 있어야 합니다. 원격 PowerShell 세션을 설정 하는 방법에 [대 한 자세한 내용은 Windows PowerShell에 대 한 컴퓨터 설정](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx) 를 참조 하세요.
+Office 365에 사용자를 추가한 후 음성 메일을 포함 하 여 Office 365 음성 서비스에서 전화 시스템용 계정을 사용 하도록 설정 합니다. 이러한 기능을 사용 하도록 설정 하려면 전역 관리자 역할인 계정을 사용 하 여 Office 365 조직에 로그인 하 고 원격 PowerShell을 실행할 수 있어야 합니다. 원격 PowerShell 세션을 설정 하는 방법에 [대 한 자세한 내용은 Windows PowerShell에 대 한 컴퓨터 설정](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx) 를 참조 하세요.
   
 - 사용자에 게 정책을 할당 하 고 **Identity** 매개 변수의 값으로 지정 하는 사용자의 비즈니스 음성 전화 번호를 구성 합니다.
     
@@ -158,18 +158,18 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
 ```
 
 > [!NOTE]
-> 사용자에 게 할당 된 PSTN 사이트가 없는 경우 비즈니스용 Skype 클라우드 커넥터 에디션 배포와 Office 365 테 넌 트 간의 하이브리드 연결이 다시 시도 하 여 전화를 완료할 수 있도록 테 넌 트 수준 기본 1 (피어 대상)을 사용 하 게 됩니다. 
+> 사용자에 게 할당 된 PSTN 사이트가 없는 경우 비즈니스용 Skype 클라우드 커넥터 에디션 배포와 Office 365 조직 간의 하이브리드 연결이 다시 시도 하 여 전화를 완료할 수 있도록 테 넌 트 수준 기본 1 (피어 대상)을 사용 하 게 됩니다. 
   
 ## <a name="configure-online-hybrid-mediation-server-settings"></a>온라인 하이브리드 중재 서버 설정 구성
 <a name="BKMK_ConfigureMediationServer"> </a>
 
 P2P 호출이 PSTN 회의로 에스컬레이션 되 면 비즈니스용 Skype 온라인 회의 서버에서 클라우드 커넥터 중재 서버에 대 한 초대를 보냅니다. Office 365에서이 초대를 라우팅할 수 있도록 하려면 각 클라우드 커넥터 중재 서버에 대해 다음과 같이 온라인 테 넌 트의 설정을 구성 해야 합니다. 
   
-1. Office 365 관리 포털에 사용자를 만듭니다. 원하는 사용자 이름 (예: "MediationServer1")을 사용 합니다.
+1. Microsoft 365 관리 센터에서 사용자를 만듭니다. 원하는 사용자 이름 (예: "MediationServer1")을 사용 합니다.
     
     사용자 도메인으로는 클라우드 커넥터의 기본 SIP 도메인 (.ini 파일의 첫 번째 SIP 도메인)을 사용 합니다.
     
-    라이선스 할당은 비즈니스용 Skype online 디렉터리로의 사용자 전파에만 필요 합니다. 만든 계정에 Office 365 라이선스 (예: E5)를 할당 하 고, 변경 내용을 전파할 최대 1 시간을 허용 하 고, 다음 cmdlet을 실행 하 여 사용자 계정이 비즈니스용 Skype 온라인 디렉터리에 올바르게 프로 비전 되었는지 확인 한 후에 다음을 제거 합니다. 이 계정의 라이선스
+    라이선스 할당은 비즈니스용 Skype online 디렉터리로의 사용자 전파에만 필요 합니다. 만든 계정에 Office 365 라이선스 (예: E5)를 할당 하 고, 변경 내용을 전파할 최대 1 시간을 허용 하 고, 다음 cmdlet을 실행 하 여 사용자 계정이 비즈니스용 Skype 온라인 디렉터리에 올바르게 프로 비전 되었는지 확인 한 후에이 계정에서 라이선스를 제거 합니다.
     ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
@@ -186,7 +186,7 @@ P2P 호출이 PSTN 회의로 에스컬레이션 되 면 비즈니스용 Skype �
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
    ```
 
-    Id의 경우이 중재 서버에 대해 만든 Office 365 사용자 계정의 표시 이름을 사용 합니다.
+    Id의 경우이 중재 서버에 대해 만든 사용자 계정의 표시 이름을 사용 합니다.
     
     *Mediationserverfqdn* 에 대해 중재 서버에 대해 정의 된 내부 FQDN을 사용 합니다.
     

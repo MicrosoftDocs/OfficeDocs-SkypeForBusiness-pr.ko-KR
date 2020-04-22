@@ -1,5 +1,5 @@
 ---
-title: 영국에 대 한 연습 코드 -Office 365 통화 요금제
+title: 영국에 대 한 연습 코드 -Microsoft 365 통화 요금제
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 비즈니스용 Skype 영국에 대 한 PSTN 통화 요금제의 연습 코드 (도움말을 얻을 수 있는 위치, 불만을 제출 하 고 분쟁를 해결 하는 방법 포함)에 대해 알아보세요.
-ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 064d6961289a7874e9e67843c0cf47339c64f896
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139047"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779634"
 ---
-# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365의 통화 요금제-영국 (영국)에 대 한 연습 코드
+# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Microsoft 365의 통화 요금제-영국 (영국)에 대 한 연습용 코드
 
 이 코드는 영국 통신 규정에 따라 Office 365 통화 계획 서비스 ("서비스")와 관련 하 여 소규모 비즈니스 고객 (영국)에 적용 됩니다 (미국 직원이 10 명 이하인 조직). 다른 비즈니스용 Skype 서비스는 Microsoft 및 특정 서비스 사용에 적용 되는 다른 약관의 서비스 계약에 따라 결정 됩니다.
 

@@ -15,12 +15,12 @@ f1.keywords:
 description: Microsoft 팀에서 모임 녹음/녹화를 설정 하 고 관리 하는 방법
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1098b1e316bb6ed747577183fc144bf2db7d0b9d
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: f358a0099da3f759e50f02b7bb7a5226069fcd28
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43751855"
+ms.locfileid: "43780337"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -51,7 +51,7 @@ Teams 사용자 모임을 녹음/녹화하려면 Microsoft Stream이 테넌트�
 
 ### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>조직의 사용자에 대해 Microsoft Stream 설정
 
-Microsoft Stream은 적격 Office 365 구독 또는 독립 실행형 서비스의 일부로 사용할 수 있습니다.  자세한 내용은 [Stream 라이선싱 개요](https://docs.microsoft.com/stream/license-overview)를 참조하세요.  Microsoft Stream이 이제 Microsoft 365 Business, Office 365 Business Premium 및 Office 365 Business Essentials에 포함되어 있습니다.
+Microsoft Stream은 적격 Microsoft 365 및 Office 365 구독의 일부로 또는 독립 실행형 서비스로 사용할 수 있습니다.  자세한 내용은 [Stream 라이선싱 개요](https://docs.microsoft.com/stream/license-overview)를 참조하세요.  Microsoft Stream이 이제 Microsoft 365 비즈니스, Microsoft 365 Business Standard 및 Microsoft 365 Business Basic에 포함 되어 있습니다.
 
 사용자가 Microsoft Stream에 액세스할 수 있도록 [Office 365에서 사용자에게 라이선스를 할당](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)하는 방법에 대해 자세히 알아보세요. [해당 문서](https://docs.microsoft.com/stream/disable-user-organization)에 정의된 대로 Microsoft Stream이 사용자에게 차단되지 않았는지 확인합니다.
 

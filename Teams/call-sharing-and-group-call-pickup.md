@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 통화 공유 및 그룹 통화 픽업 사용자는 사용자를 사용할 수 없는 경우 전화를 통해 들어오는 전화를 동료와 공유할 수 있습니다.
-ms.openlocfilehash: aa59166d32de49b9163209a4836c7024d697fa8f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 727e3a4c3627e38722182bc1d6ad1f4e435d95a4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141291"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780787"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft 팀에서 공유 및 그룹 통화 걸기
 
@@ -49,7 +49,7 @@ Microsoft 팀의 통화 공유 및 그룹 통화 픽업 기능을 통해 사용�
 
 그룹 통화 픽업을 설정 하려면 사용자가 먼저 통화 그룹 (보안 그룹 또는 Office 365 그룹과 동일 하지 않음)을 구성한 다음 통화를 공유할 사용자를 추가 합니다. 그런 다음 동시 링 또는 통화 전달 설정을 선택 합니다. 자세한 내용 및 단계별 절차는 [팀의 착신 전환 및 동시](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)연결을 참조 하세요.
 
-통화 그룹 만들기 및 알림 기본 설정은 사용자 구동 기능입니다. 관리자는 사용자를 위해 이러한 기능을 구성할 필요가 없습니다. 보안 그룹 또는 Office 365 그룹에서 통화 그룹을 만들 수 없습니다. 팀에서 만들어야 합니다.
+통화 그룹 만들기 및 알림 기본 설정은 사용자 구동 기능입니다. 관리자는 사용자를 위해 이러한 기능을 구성할 필요가 없습니다. 보안 그룹 또는 Microsoft 365 그룹에서 통화 그룹을 만들 수 없습니다. 팀에서 만들어야 합니다.
 
 관리자는 사용자에 대 한 **Teamscallingpolicy AllowCallGroups** 설정을 통해 통화 그룹을 사용 하도록 설정 해야 합니다. 관리자는 또한 팀 관리자 포털을 통해이를 활성화할 수 있습니다.  또한 구성 된 사용자는 클라이언트를 통해 직접 호출 그룹을 구성할 수 있습니다. 관리자 또는 최종 사용자는 서로에 대 한 구성을 차단할 수 없지만, 팀 관리자 포털 및 팀 클라이언트는이 관계를 두 위치에 정확 하 게 표시 해야 합니다. 
 

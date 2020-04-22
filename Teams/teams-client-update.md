@@ -15,12 +15,12 @@ f1.keywords:
 description: 팀 데스크톱 클라이언트가 업데이트 되는 방법에 대해 알아보세요.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8058fa1e79b7d415d03c08500213206579029042
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0a76fe4e0cfb896d1bd89a02acebc1c00dff8767
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832618"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776833"
 ---
 # <a name="teams-update-process"></a>팀 업데이트 프로세스
 
@@ -36,11 +36,11 @@ ms.locfileid: "41832618"
 
 2019 년 7 월 31 일에 팀 클라이언트 업데이트는 업데이트 중 매우 낮은 네트워크 대역폭을 사용 합니다. 이 기능은 기본적으로 설정 되어 있으며 관리자 또는 사용자의 작업이 필요 하지 않습니다.
 
-## <a name="what-about-updates-to-office-365-proplus"></a>Office 365 ProPlus 업데이트에 대 한 자세한 정보
+## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>엔터프라이즈 용 Microsoft 365 앱 업데이트에 대 한 자세한 정보
 
-팀은 [office 365 proplus를 사용 하 여 Microsoft 팀 배포](https://docs.microsoft.com/DeployOffice/teams-install)에 설명 된 대로 Office 365 ProPlus의 새 설치와 함께 기본적으로 설치 됩니다. 
+Enterprise 용 microsoft [365 앱을 사용 하 여 Microsoft 팀 배포](https://docs.microsoft.com/DeployOffice/teams-install)에 설명 된 대로 Enterprise 용 Microsoft 365 앱을 새로 설치 하 여 팀이 기본적으로 설치 됩니다. 
 
-팀은 위에 설명 된 대로 자체 업데이트 프로세스를 수행 하 고 Word 및 Excel과 같은 다른 Office 앱에 대 한 업데이트 프로세스를 수행 하지 않습니다. 자세한 내용은 [Office 365 ProPlus의 업데이트 채널에 대 한 개요](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) 를 읽어 보세요.
+팀은 위에 설명 된 대로 자체 업데이트 프로세스를 수행 하 고 Word 및 Excel과 같은 다른 Office 앱에 대 한 업데이트 프로세스를 수행 하지 않습니다. 자세한 내용은 [엔터프라이즈 용 Microsoft 365 앱 업데이트 채널에 대 한 개요](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) 를 읽어 보세요.
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>VDI에서 팀을 업데이트 하는 방법은 무엇 인가요?
 
@@ -56,7 +56,7 @@ VDI (가상 데스크톱 인프라)의 팀 클라이언트는 비 VDI 팀 클라
 
 데스크톱 클라이언트가 만료 되는 경우를 식별 하는 기능을 지원 하기 위해 사용자의 현재 버전이 1 개월 이상 이전이 고 사용할 수 있는 새 버전이 있으면 앱에서 경고가 표시 됩니다. 이 앱 내 메시지는 사용자가 최신 버전의 팀으로 업데이트 하거나 필요한 경우 IT 관리자에 게 연락 하 여이 작업을 수행할 수 있도록 합니다. 3 개월 이상 지난 팀 데스크톱 클라이언트의 사용자에 게는 지금 업데이트 하는 옵션을 제공 하는 차단 페이지 (IT 관리자에 게 연락 하거나 웹의 팀으로 계속)가 표시 됩니다.
 
-팀의 첫 번째 설치 및/또는 최초 실행 시 3 개월 이상의 데스크톱 클라이언트 버전이 앞에서 언급 한 서비스 정보를 시작 하기 전에 28 일 유예 기간을 보유 합니다. 이 기간 동안에는 자동 업데이트 프로세스가 팀 클라이언트를 업데이트 합니다. 업데이트 하지 않은 경우 사용자는 앱에서 최신 버전을 수동으로 업데이트 하거나 필요한 경우 IT 관리자에 게 연락 하 여이에 대 한 알림이 표시 됩니다. 여기에는 Office 365 ProPlus 번들의 일부로 팀 데스크톱 클라이언트를 사용 하는 사용자가 포함 됩니다.
+팀의 첫 번째 설치 및/또는 최초 실행 시 3 개월 이상의 데스크톱 클라이언트 버전이 앞에서 언급 한 서비스 정보를 시작 하기 전에 28 일 유예 기간을 보유 합니다. 이 기간 동안에는 자동 업데이트 프로세스가 팀 클라이언트를 업데이트 합니다. 업데이트 하지 않은 경우 사용자는 앱에서 최신 버전을 수동으로 업데이트 하거나 필요한 경우 IT 관리자에 게 연락 하 여이에 대 한 알림이 표시 됩니다. 여기에는 enterprise 번들 용 Microsoft 365 앱의 일부로 팀 데스크톱 클라이언트를 사용 하는 사용자가 포함 됩니다.
 
 현재 정부 클라우드의 팀 데스크톱 클라이언트는 추가 공지에 도달할 때까지이 서비스 계약에 대 한 예외를 발생 합니다.
 

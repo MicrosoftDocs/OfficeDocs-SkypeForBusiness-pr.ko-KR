@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Exchange Online을 사용 하 여 Microsoft 팀 회의실을 배포 하는 방법에 대 한 자세한 내용은이 항목을 참조 하세요.
-ms.openlocfilehash: d909174712ba27efdc5e4c5427c51c67049b8e92
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: fbf1057539f15d6de702909a1571c9e11fdf5de3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572886"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780557"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online을 사용 하 여 Microsoft 팀 대화방 배포
 
@@ -101,7 +101,7 @@ AD FS (Active Directory Federation Services)를 배포한 경우 다음 단계�
      ``` -->
 
 2. 사용자 계정에는 비즈니스용 Exchange 및 비즈니스용 Skype 서버를 사용할 수 있도록 유효한 Office 365 라이선스가 있어야 합니다. 라이선스가 있는 경우 사용 위치를 사용자 계정에 할당 해야 하며,이는 계정에 사용할 수 있는 라이선스 Sku를 결정 합니다. 다음 단계에서 과제를 만듭니다.
-3. 다음으로 다음을 사용 합니다.`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 테 넌 트에 대해 사용 가능한 Sku 목록을 검색 합니다.
+3. 다음으로 다음을 사용 합니다.`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 조직에서 사용할 수 있는 Sku 목록을 검색 합니다.
 4. Sku를 나열 하면 다음을 사용 하 여 라이선스를 추가할 수 있습니다.`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> 은. 이 경우 $strLicense는 사용자에 게 표시 되는 SKU 코드입니다 (예: contoso: STANDARDPACK). 
 
     ```PowerShell
@@ -145,7 +145,7 @@ AD FS (Active Directory Federation Services)를 배포한 경우 다음 단계�
 3. Microsoft 팀 대화방 계정을 클릭 한 다음 펜 아이콘을 클릭 하 여 계정 정보를 편집 합니다.
 4. **라이선스**를 클릭 합니다.
 5. 라이선스 **할당**에서 라이선스 및 엔터프라이즈 음성 요구 사항에 따라 비즈니스용 Skype (계획 2) 또는 비즈니스용 Skype (계획 3)를 선택 합니다. Microsoft 팀 방에 Enterprise 음성을 사용 하려면 요금제 3 라이선스를 사용 해야 합니다.
-6. **저장**을 클릭 합니다.
+6. **저장**을 클릭합니다.
 
 유효성 검사를 위해 비즈니스용 Skype 클라이언트를 사용 하 여이 계정에 로그인 할 수 있습니다.
 

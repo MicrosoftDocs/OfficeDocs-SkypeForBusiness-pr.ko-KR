@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: 이 문서에서는 Microsoft 팀에 대해 인증 되는 전화 목록과 Microsoft 팀을 위해 인증 된 전화에서 지원 되는 기능에 대해 설명 합니다.
-ms.openlocfilehash: b811a92977d10601aa601e1bae811ef73c34dce8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 94ee5e2dc1b55da190c4b6afa736fab2ced3e1d1
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836868"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780227"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft 팀 용 전화
 
@@ -141,7 +141,7 @@ Microsoft 팀 사용자가 보이스 **메일** 탭으로 이동할 때 자신�
 
 ## <a name="required-licenses"></a>필수 라이선스
 
-Microsoft 팀 라이선스는 [Office 365 구독의](Office-365-licensing.md)일부로 구매할 수 있습니다. 휴대폰에서 Microsoft 팀을 사용 하는 데 필요한 라이선스에 대해 자세히 알아보려면 사용 가능한 [전화 시스템 라이선스](https://products.office.com/microsoft-teams/voice-calling)를 참조 하세요.
+Microsoft 팀 라이선스는 [microsoft 365 및 Office 365 구독의](Office-365-licensing.md)일부로 구매할 수 있습니다. 휴대폰에서 Microsoft 팀을 사용 하는 데 필요한 라이선스에 대해 자세히 알아보려면 사용 가능한 [전화 시스템 라이선스](https://products.office.com/microsoft-teams/voice-calling)를 참조 하세요.
 
 팀을 가져오는 방법에 대 한 자세한 내용은 [Microsoft 팀에 대 한 액세스 권한을 얻는 방법](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) 확인을 참조 하세요.
 

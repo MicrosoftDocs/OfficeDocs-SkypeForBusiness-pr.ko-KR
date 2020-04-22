@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a3ee51fdbbda7c3d49ac5a7b2a65b977f8fb245
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 90ce02e773d20759b90ea090123823b6bf94d9ee
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137138"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779624"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Microsoft 팀과 Moodle 통합 설치
 
@@ -41,7 +41,7 @@ IT 관리자가이 통합을 쉽게 설정할 수 있도록 공개 원본 Office
 
 이 통합에서 제공 하는 기능에 대 한 자세한 내용은 [여기](https://education.microsoft.com/courses-and-resources/resources/microsoft-teams-moodle)를 참고 하세요.
 
-## <a name="prerequisites"></a>필요 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 이 응용 프로그램을 설치 하 고 구성 하려면 다음이 필요 합니다.
 
@@ -73,7 +73,7 @@ Microsoft 팀의 Moodle 통합은 개방형 원본 [Office 365 Moodle 플러그 
 
 > [!VIDEO https://www.youtube.com/embed/FpGEezaJ3SA]
 
-그런 다음 Moodle를 Azure Active Directory에 응용 프로그램으로 등록 해야 합니다. 이 프로세스를 완료 하는 데 도움이 되는 PowerShell 스크립트를 제공 했습니다. PowerShell 스크립트는 office 365 테 넌 트에 대 한 새 Azure AD 응용 프로그램 365을 프로 비전 합니다. 이 스크립트는 O365 테 넌 트에 대 한 앱을 프로 비전 하 고, 프로 비전 된 앱에 대해 필요한 모든 회신 Url 및 사용 권한을 설정 하 고, AppID 및 키를 반환 합니다. O365 Moodle 플러그 인 설정 페이지에서 생성 된 AppID 및 키를 사용 하 여 Azure AD를 사용 하 여 Moodle 서버를 구성할 수 있습니다. PowerShell 스크립트를 자동화 하는 자세한 수동 단계를 보려면 [플러그 인에 대 한 전체 설명서](https://docs.moodle.org/34/en/Office365#Register_your_Moodle_instance_as_an_Application)에서 해당 항목을 찾을 수 있습니다.
+그런 다음 Moodle를 Azure Active Directory에 응용 프로그램으로 등록 해야 합니다. 이 프로세스를 완료 하는 데 도움이 되는 PowerShell 스크립트를 제공 했습니다. PowerShell 스크립트는 office 365 조 직에 대 한 새 Azure AD 응용 프로그램을 제공 하며,이 앱은 Office 365 Moodle 플러그 인에 사용 됩니다. 이 스크립트는 O365 테 넌 트에 대 한 앱을 프로 비전 하 고, 프로 비전 된 앱에 대해 필요한 모든 회신 Url 및 사용 권한을 설정 하 고, AppID 및 키를 반환 합니다. O365 Moodle 플러그 인 설정 페이지에서 생성 된 AppID 및 키를 사용 하 여 Azure AD를 사용 하 여 Moodle 서버를 구성할 수 있습니다. PowerShell 스크립트를 자동화 하는 자세한 수동 단계를 보려면 [플러그 인에 대 한 전체 설명서](https://docs.moodle.org/34/en/Office365#Register_your_Moodle_instance_as_an_Application)에서 해당 항목을 찾을 수 있습니다.
 
 ### <a name="moodle-tab-for-microsoft-teams-information-flow"></a>Microsoft 팀 정보 흐름에 대 한 Moodle 탭
 

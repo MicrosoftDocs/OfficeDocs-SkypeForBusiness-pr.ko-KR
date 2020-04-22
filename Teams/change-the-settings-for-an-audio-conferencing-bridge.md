@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: 입력 및 종료 알림, 재생 이름 또는 전화 번호, 톤, 메시지 발신자 등의 오디오 회의 브리지 설정을 변경 하 여 자신의 이름을 기록 합니다.
-ms.openlocfilehash: aaff3518675e1db56340f9dc1568b994cf2ed6e6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 48028ccb3f2a0664f9fa724ec91e1dfc0177326f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139087"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780347"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>오디오 회의 브리지의 설정 변경
 
@@ -43,7 +43,7 @@ Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브�
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft 팀 로고를 표시 하는 아이콘](media/teams-logo-30x30.png) Microsoft 팀 관리 센터 사용
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams 로고를 보여주는 아이콘](media/teams-logo-30x30.png) Microsoft Teams 관리 센터 사용
 
 1. 왼쪽 탐색 창에서 **모임** > **회의 브리지로**이동 합니다. 
 
@@ -90,7 +90,7 @@ Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브�
     
 **모임의 PIN 길이 설정**
   
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
     
 2. **Microsoft 365 관리 센터** > **비즈니스용 Skype**로 이동 합니다.
     
@@ -103,7 +103,7 @@ Office 365에서 오디오 회의를 설정 하는 경우 오디오 회의 브�
   
 **사용자에 게 전자 메일을 보낼지 여부 선택**
   
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
     
 2. **Microsoft 365 관리 센터** > **비즈니스용 Skype**로 이동 합니다.
     

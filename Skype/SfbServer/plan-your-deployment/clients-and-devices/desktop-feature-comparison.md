@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '요약: 비즈니스용 Skype 서버 2015 또는 비즈니스용 Skype Online 관리자는 이러한 표를 사용 하 여 어떤 클라이언트에서 지원 되는 기능을 파악할 수 있습니다.'
-ms.openlocfilehash: 36583ab342daa68f87cffb8600fa54c1ce74d089
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c07955758f86e31eb947a99ce8ba0e8dc7a44b30
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013501"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777803"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>비즈니스용 Skype 서버 2015에 대 한 데스크톱 클라이언트 기능 비교
 
@@ -77,7 +77,7 @@ ms.locfileid: "42013501"
 |회사 주소록 검색 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Microsoft Outlook 연락처 검색 |&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |대화 상대 그룹 관리 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
-|메일 그룹 및 Office 365 그룹 확장 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||
+|메일 그룹 및 Microsoft 365 그룹 확장 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||
 |응답 그룹 검색  <br/> (비즈니스용 Skype Online에서는 사용할 수 없음) |&#x2714;||&#x2714;||&#x2714;|&#x2714;||||
 |최근 대화 상대 그룹 표시 |&#x2714;||&#x2714;||&#x2714;|&#x2714;||||
 |현재 대화 그룹 표시 |&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;|||

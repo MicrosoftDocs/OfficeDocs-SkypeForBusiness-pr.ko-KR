@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 회의 브리지에 새 서비스 전화 번호를 할당 하 여 사용자의 검사 범위를 확장 하는 데 필요한 단계에 대해 알아보세요.
-ms.openlocfilehash: 571b7a9c14db1601e0a4b94740395ad087808a49
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139077"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780357"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>오디오 회의 브리지에서 전화 번호 변경
 
@@ -69,7 +69,7 @@ ms.locfileid: "43139077"
 
 사용자의 기본 전화 번호는 모임 일정을 정할 때 모임 초대에 포함 됩니다. Defaul 전화 번호가 새 사용자에 게 할당 되는 방식을 비롯 한 자세한 내용은 [Microsoft 팀의 초대에 포함 된 전화 번호 설정](set-the-phone-numbers-included-on-invites-in-teams.md) 또는 비즈니스용 [Skype Online의 초대에 포함 된 전화 번호](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)설정을 참조 하세요.
   
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **Microsoft 365 관리 센터** > **관리** > 센터**팀** > 으로 이동 하 여 Skype**레거시 포털** > **오디오 회의** > **사용자**를 & 하 고 목록에서 사용자를 선택 합니다.
 
@@ -133,7 +133,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>3 단계-오디오 회의 브리지에서 이전 전화 번호 할당 취소
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **Microsoft 365 관리 센터** > **관리** > **팀**으로 이동 하 여 Skype > **레거시 포털** > **음성** > **전화 번호**를 &.
 
@@ -169,7 +169,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 1. **시작 메뉴** > 에서**Windows PowerShell**을 실행 합니다.
 
-2. **Windows PowerShell** 창에서 다음을 실행 하 여 Office 365 조직에 연결 합니다.
+2. **Windows PowerShell** 창에서 다음을 실행 하 여 Microsoft 365 또는 Office 365에 연결 합니다.
 
 >
   ```PowerShell

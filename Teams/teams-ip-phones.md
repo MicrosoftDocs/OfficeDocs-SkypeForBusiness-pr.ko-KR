@@ -19,12 +19,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Microsoft 팀에 대해 인증 된 IP 데스크 및 전화 회의 전화
-ms.openlocfilehash: a8b8b0f1763aba131fb7ecd242bc63a2de973f44
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
+ms.openlocfilehash: 238878831511175f5b7ec647da0ccd607fa1fddd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728947"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779977"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 팀에 대해 인증 된 IP 전화
 
@@ -70,7 +70,7 @@ Microsoft 팀에 대해 인증 된 전화는 다음과 같습니다.
 
 모바일 장치에서 디바이스 펌웨어 버전을 확인 하려면 [모바일 장치에서 펌웨어 버전 찾기를](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) 참조 하세요.
 
-Microsoft 팀 라이선스는 [Office 365 구독의](/MicrosoftTeams/Office-365-licensing.md)일부로 구매할 수 있습니다. 휴대폰에서 Microsoft 팀을 사용 하는 데 필요한 라이선스에 대해 자세히 알아보려면 사용 가능한 [전화 시스템 라이선스](https://products.office.com/microsoft-teams/voice-calling)를 참조 하세요.
+Microsoft 팀 라이선스는 [microsoft 365 또는 Office 365 구독의](/MicrosoftTeams/Office-365-licensing.md)일부로 구매할 수 있습니다. 휴대폰에서 Microsoft 팀을 사용 하는 데 필요한 라이선스에 대해 자세히 알아보려면 사용 가능한 [전화 시스템 라이선스](https://products.office.com/microsoft-teams/voice-calling)를 참조 하세요.
 
 팀을 가져오는 방법에 대 한 자세한 내용은 [Microsoft 팀에 대 한 액세스 권한을 얻는 방법](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) 확인을 참조 하세요.
 

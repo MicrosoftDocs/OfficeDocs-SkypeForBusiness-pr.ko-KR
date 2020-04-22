@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3c93e01624883d9db755479baf6e87c80feba2e1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6c57ebda3d23135beb46febf13529b903958df6b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139597"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780627"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft 팀에서 Microsoft StaffHub 팀을 교대으로 옮기기
 
@@ -78,7 +78,7 @@ StaffHub 팀을 팀으로 이동 하기 전에 다음을 확인 하세요.
 
 - 로그인 한 사용자는 전역 관리자입니다.
 - 팀은 테 넌 트의 모든 사용자에 대해 사용 하도록 설정 됩니다.
-- 테 넌 트에서 Office 365 그룹 만들기를 사용 하도록 설정 합니다.
+- 테 넌 트에서 Microsoft 365 그룹 만들기를 사용할 수 있습니다.
 - StaffHub teamId가 유효 합니다.
 - StaffHub 팀에 팀 소유자가 하나 이상 있습니다.
 - StaffHub 팀은 구성원을 포함 합니다.
@@ -140,7 +140,7 @@ $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation
 
 #### <a name="link-the-account"></a>계정 연결
 
-다음 중 하나를 수행 합니다.
+다음 중 하나를 수행합니다.
 
 - 계정을 변환 하 고 연결 합니다.
 

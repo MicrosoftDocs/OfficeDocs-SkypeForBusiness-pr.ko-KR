@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '사용자 및 조직에 대해 통신 크레딧 (PSTN 소비) 청구 라이선스를 설정 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: e1672c2d3c66690393e34b90fbeb1b2be4d54042
-ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+ms.openlocfilehash: 304c08568ee39f69f727d159a5599a3a3ac89ed4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41889417"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779745"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>조직에 사용할 통신 크레딧 설정
 
@@ -56,7 +56,7 @@ ms.locfileid: "41889417"
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>2 단계: 조직의 통신 크레딧을 설정
 
-1. 회사 또는 학교 계정으로 새 Office 365 포털에 로그인 합니다.
+1. 회사 또는 학교 계정으로 새 Microsoft 365 관리 센터에 로그인 합니다.
     
 2. Microsoft 365 관리 센터의 왼쪽 탐색 모음에서 **청구** > **구입 서비스로**이동 합니다. 아래로 스크롤하여 **추가 기능**을 선택 합니다.
 
@@ -89,7 +89,7 @@ ms.locfileid: "41889417"
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>3 단계: 사용자에 게 통신 크레딧 라이선스 할당
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
     
 2. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **사용자** > **활성 사용자**로 이동한 다음 목록에서 한 명 또는 몇 명의 사용자를 선택 합니다.
     
@@ -110,11 +110,11 @@ ms.locfileid: "41889417"
     
 - [전화 시스템 요금제](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-[Microsoft 365 관리 센터에 로그인](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) 하 여 정보를 볼 수 있으며, **결제** > **** > 플랜으로 진행 하 여**구독을 추가할**수도 있습니다.
+[Microsoft 365 관리 센터에 로그인](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) 하 여 정보를 볼 수 있으며, **결제** > **Subscriptions** > 플랜으로 진행 하 여**구독을 추가할**수도 있습니다.
   
 각 기능에 필요한 라이선스가 나 라이선스가 포함 된 테이블을 보려면 [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
@@ -122,7 +122,7 @@ ms.locfileid: "41889417"
     
 - [Office 365에 대 한](calling-plans-for-office-365.md) [통화 계획](set-up-calling-plans.md) 및 통화 계획 설정
     
-- [자금 추가 및 통신 크레딧 관리](add-funds-and-manage-communications-credits.md)
+- [자금 추가 및 커뮤니케이션 크레딧 관리](add-funds-and-manage-communications-credits.md)
     
   
  

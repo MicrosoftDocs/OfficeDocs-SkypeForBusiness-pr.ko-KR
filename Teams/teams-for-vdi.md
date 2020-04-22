@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee41f32ac2237e5e2c6e2e92fd18ea1c1952f7cd
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: 43adfb71c287677a6390d371a05bd1aea35ceda3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521614"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779987"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -106,27 +106,27 @@ VDI 환경에서 팀의 AV 최적화가 올바르게 작동 하려면 씬 클라
 - .txt 파일
 - 미디어 스택 폴더
 
-### <a name="office-365-proplus-considerations"></a>Office 365 ProPlus 고려 사항
+### <a name="microsoft-365-apps-for-enterprise-considerations"></a>엔터프라이즈 고려 사항에 대 한 Microsoft 365 앱
 
-VDI에서 Office 365 ProPlus를 사용 하 여 팀을 배포 하는 경우 다음 사항을 고려 하세요.
+VDI에서 엔터프라이즈 용 Microsoft 365 앱을 배포 하는 경우 다음 사항을 고려 하세요.
 
-#### <a name="new-deployments-of-teams-through-office-365-proplus"></a>Office 365 ProPlus를 통한 팀의 새로운 배포
+#### <a name="new-deployments-of-teams-through-microsoft-365-apps-for-enterprise"></a>엔터프라이즈 용 Microsoft 365 앱을 통한 팀의 새 배포
 
-Office 365 ProPlus를 통해 팀을 배포 하기 전에 먼저 컴퓨터별 설치를 사용 하 여 배포 된 기존 팀 앱을 제거 해야 합니다.
+엔터프라이즈 용 Microsoft 365 앱을 통해 팀을 배포 하기 전에 먼저 컴퓨터별 설치를 사용 하 여 배포 된 기존 팀 앱을 제거 해야 합니다.
 
-Office 365 ProPlus 팀은 사용자 단위로 설치 됩니다. 자세히 알아보려면 [VDI에서 팀 데스크톱 앱 설치 또는 업데이트](#install-or-update-the-teams-desktop-app-on-vdi) 섹션을 참조 하세요.
+엔터프라이즈 용 Microsoft 365 앱을 통한 팀은 사용자 단위로 설치 됩니다. 자세히 알아보려면 [VDI에서 팀 데스크톱 앱 설치 또는 업데이트](#install-or-update-the-teams-desktop-app-on-vdi) 섹션을 참조 하세요.
 
-#### <a name="teams-deployments-through-office-365-proplus-updates"></a>Office 365 ProPlus 업데이트를 통한 팀 배포
+#### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>엔터프라이즈 업데이트에 대 한 Microsoft 365 앱을 통한 팀 배포
 
-또한 팀은 Office 365 ProPlus의 기존 설치에 추가 됩니다. Office 365 ProPlus는 팀을 사용자별로 설치 하므로 [VDI에서 팀 데스크톱 앱 설치 또는 업데이트](#install-or-update-the-teams-desktop-app-on-vdi) 섹션을 참조 하세요.
+또한 enterprise 용 Microsoft 365 앱의 기존 설치에 팀이 추가 됩니다. Enterprise 용 Microsoft 365 앱은 사용자별로 팀을 설치 하므로 [VDI에서 팀 데스크톱 앱 설치 또는 업데이트](#install-or-update-the-teams-desktop-app-on-vdi) 섹션을 참조 하세요.
 
-#### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>시스템 단위 설치 및 Office 365 ProPlus와 함께 팀 사용
+#### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>시스템 단위 설치 및 엔터프라이즈 용 Microsoft 365 앱을 사용 하는 팀
 
-Office 365 ProPlus는 팀의 컴퓨터 단위 설치를 지원 하지 않습니다. 컴퓨터 단위 설치를 사용 하려면 Office 365 ProPlus에서 팀을 제외 해야 합니다. [VM에 팀 데스크톱 앱 배포](#deploy-the-teams-desktop-app-to-the-vm) 를 참조 하 고 [Office 365 ProPlus 섹션을 통해 팀 배포를 제외 하는 방법에 대해](#how-to-exclude-teams-deployment-through-office-365-proplus) 알아보세요.
+엔터프라이즈 용 Microsoft 365 앱이 팀 컴퓨터별 설치를 지원 하지 않습니다. 컴퓨터 단위 설치를 사용 하려면 enterprise 용 Microsoft 365 앱에서 팀을 제외 해야 합니다. [팀 데스크톱 앱을 VM에 배포](#deploy-the-teams-desktop-app-to-the-vm) 하는 [방법과 엔터프라이즈 섹션에 대 한 Microsoft 365 앱을 통해 팀 배포를 제외 하는 방법을](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise) 참조 하세요.
 
-#### <a name="how-to-exclude-teams-deployment-through-office-365-proplus"></a>Office 365 ProPlus를 통해 팀 배포를 제외 하는 방법
+#### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>엔터프라이즈 용 Microsoft 365 앱을 통해 팀 배포를 제외 하는 방법
 
-팀 및 Office 365 ProPlus에 대 한 자세한 내용은 [Office 365 ProPlus의 새 설치에서 팀을 제외](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) 하 고 [그룹 정책을 사용 하 여 팀 설치를 제어](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)하는 방법에 대해 알아보세요.
+Enterprise 용 microsoft 365 앱에 대 한 자세한 내용은 [엔터프라이즈의 새 365 설치에서 팀을 제외](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) 하 고 [그룹 정책을 사용 하 여 팀 설치를 제어](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)하는 방법에 대해 알아보세요.
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>VM에 팀 데스크톱 앱 배포
 

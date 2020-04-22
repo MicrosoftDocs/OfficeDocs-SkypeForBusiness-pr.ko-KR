@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: '오디오 및 비디오 회의, 통화 기록, 모임 기록과 같은 개별 사용자의 비즈니스용 Skype 설정을 변경 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 756de9829194139f39c7618e0c8bbd74f3418264
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5247d814429d8d1f62fe9ea963aa76b7aafe40df
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010891"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776323"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>관리자: 개별 사용자에 대해 비즈니스용 Skype 설정을 구성 합니다.
 
@@ -45,9 +45,9 @@ ms.locfileid: "42010891"
 
 이 단계를 수행 하려면 [관리자 권한이](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 있어야 합니다.
 
-![비즈니스용 skype](../images/sfb-logo-30x30.png) **관리 센터를 사용 하 여** 비즈니스용 skype 로고를 표시 하는 아이콘
+![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
   
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
     
 2. **관리 센터** > **비즈니스용 Skype를**선택 합니다.
     
@@ -63,7 +63,7 @@ ms.locfileid: "42010891"
   
 6. **일반** 옵션 페이지에서 변경 하려는 기능 옆에 있는 확인란을 선택 하거나 선택을 취소 한 다음 **저장**을 선택 합니다.
     
-|**방법을**|**세부적인**|
+|**방법을**|**세부 정보**|
 |:-----|:-----|
 |오디오 및 HD 비디오  <br/> |이 사람이 오디오 모임, 오디오 및 비디오 모임을 녹음/녹화할 수 있도록 허용 하거나 모임 예약을 허용 하지 않습니다 (없음).  <br/> |
 |대화 및 모임 기록  <br/> |이 사용자가 녹화할 수 있는 항목을 선택 합니다.  <br/> 이 옵션은 비즈니스용 Skype Basic에서 사용할 수 없습니다.  <br/> |
@@ -84,7 +84,7 @@ ms.locfileid: "42010891"
     
    - **외부 Skype 사용자**: freeSkype 앱을 사용 하는 사용자와 통신할 수 없도록 하려면이 확인란의 선택을 취소 합니다.
     
-3. **저장**을 클릭 합니다.
+3. **저장**을 클릭합니다.
     
 이러한 설정을 일괄적으로 구성 하려면 PowerShell을 사용 합니다. [Windows PowerShell에 대 한 컴퓨터 설정을](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)참조 하세요.
   
@@ -108,7 +108,7 @@ ms.locfileid: "42010891"
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
   
    
-## <a name="related-topics"></a>관련 주제 
+## <a name="related-topics"></a>관련 항목 
 
 [비즈니스용 Skype 온라인 설정](set-up-skype-for-business-online.md)
 

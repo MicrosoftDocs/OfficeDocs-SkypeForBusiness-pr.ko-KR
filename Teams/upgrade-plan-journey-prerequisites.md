@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec634105f87c548ed962bdf9f098298f01f1e93e
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: f340146225d7e386233e727bb8c5d181db7f15fb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706868"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776723"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>팀에 대 한 전제 조건 및 환경 종속성
 
@@ -38,7 +38,7 @@ ms.locfileid: "42706868"
 
 팀은 여러 개의 Office 365 서비스를 결합 하므로 이러한 서비스의 올바른 구현과 작동에 따라 달라 집니다. 이러한 서비스에는 SharePoint Online, Exchange Online, 비즈니스용 OneDrive 등이 포함 됩니다.
 
-모든 서비스가 필요 하지는 않지만 모두 구현 하는 것이 좋습니다. 특정 서비스를 구현 하지 않도록 선택 하는 경우 팀이 조직을 제공할 수 있는 기능에 영향을 줍니다. 예를 들어 SharePoint Online을 구현할 필요가 없지만, 팀은 그룹 대화의 파일 공유와 같은 특정 기능에 대해 SharePoint Online을 사용 하므로이 서비스를 구현 하지 않으면 다음을 통해 제공 되는 기능이 감소 됩니다. 클라이언트측.
+모든 서비스가 필요 하지는 않지만 모두 구현 하는 것이 좋습니다. 특정 서비스를 구현 하지 않도록 선택 하는 경우 팀이 조직을 제공할 수 있는 기능에 영향을 줍니다. 예를 들어 SharePoint Online을 구현할 필요가 없지만, 팀에서는 그룹 대화의 파일 공유 같은 특정 기능에 대해 SharePoint Online을 사용 하므로이 서비스를 구현 하지 않으면 클라이언트를 통해 제공 되는 기능을 줄일 수 있습니다.
 
 다음 문서를 참조 하 여 필수 구성 요소와 팀이 다른 기술과 상호 작용 하는 방식에 대해 알아보세요.
 
@@ -52,7 +52,7 @@ ms.locfileid: "42706868"
 
 - 조직에 SharePoint Online이 없는 경우 [Sharepoint online 및 비즈니스용 OneDrive For Business가 Microsoft 팀과 어떻게 상호 작용 하는지 이해](SharePoint-OneDrive-interact.md)를 참조 하세요.
 
-- [Office 365 그룹 및 Microsoft 팀의 상호 작용](Office-365-groups.md)방법에 대해 알아봅니다.
+- [Microsoft 365 그룹 및 Microsoft 팀의 상호 작용](Office-365-groups.md)방법에 대해 알아봅니다.
 
 - 조직이 교육 기관이 고 학생 정보 시스템을 사용 하는 경우 Microsoft 팀을 배포 하기 전에 [School Data Sync를 배포](https://docs.microsoft.com/schooldatasync) 합니다.
 

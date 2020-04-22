@@ -12,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 035d5c95452eebc48f81198fef5cbdf9d95732e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217494"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780247"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +57,7 @@ _**마지막으로 수정 된 항목:** 2015-09-21_
 
   - 보관 및 준수
 
-이러한 테이블은 Lync Server 2013의 온-프레미스 배포에서 Lync 사용자가 사용할 수 있는 기능을 나타냅니다. 또한 표 각주에 별도로 표시 된 경우가 아니면 비즈니스용 Skype Online 및 Microsoft Office 365 사용자가 동일한 기능을 사용할 수 있습니다.
+이러한 테이블은 Lync Server 2013의 온-프레미스 배포에서 Lync 사용자가 사용할 수 있는 기능을 나타냅니다. 또한 표 각주에 별도로 표시 된 경우가 아니면 비즈니스용 Skype Online 및 Microsoft 365 또는 Office 365 사용자 에게도 동일한 기능을 사용할 수 있습니다.
 
 <div>
 
@@ -412,7 +412,7 @@ IPhone 및 iPad에서 Lync는 다음과 같이 일정 기간 동안 응용 프�
 </table>
 
 
-1 비즈니스용 Skype 온라인 및/또는 Office 365 사용자가 사용할 수 없습니다.
+1 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자는 사용할 수 없습니다.
 
 </div>
 
@@ -757,11 +757,11 @@ IPhone 및 iPad에서 Lync는 다음과 같이 일정 기간 동안 응용 프�
 </table>
 
 
-1 Office 365 사용자의 경우 ACP (오디오 회의 공급자) 사용 모임에만이 기능을 사용할 수 있습니다.
+1 Microsoft 365 또는 Office 365 사용자의 경우 ACP (오디오 회의 공급자) 사용 모임에만이 기능을 사용할 수 있습니다.
 
-2 Office 365 사용자가 사용할 수 없습니다.
+2 Microsoft 365 또는 Office 365 사용자가 사용할 수 없습니다.
 
-3 비즈니스용 Skype 온라인 및/또는 Office 365 사용자의 경우 타사 오디오 회의 공급자가이 기능을 사용할 수 있습니다.
+3 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자의 경우 타사 오디오 회의 공급자에서이 기능을 사용할 수 있습니다.
 
 4A lync 웹 앱에서 공유 하는 a PowerPoint 프레젠테이션은 Lync Mobile 2013에서 볼 수 없습니다. Lync 2013 데스크톱 클라이언트에서 만든 주석은 모바일 장치에서 볼 수 없습니다.
 
@@ -894,11 +894,11 @@ IPhone 및 iPad에서 Lync는 다음과 같이 일정 기간 동안 응용 프�
 
 1 Lync Server 2013, 비즈니스용 Skype Online 및 Office 365 사용자는 아이콘을 눌러 다른 Lync 사용자 및 Skype 사용자에 게 전화를 걸 수 있습니다. Lync Server 2013 사용자는 아이콘을 눌러 PSTN 전화를 걸 수도 있습니다.
 
-2 온-프레미스 Lync Server 2013 사용자, Windows Phone, iPhone 및 iPad 장치에서는 사용자가 대화 상대 카드의 통화 아이콘을 탭 하 고 Lync Server 2013에서 콜백을 수락 합니다. Office 365 사용자에서 Windows Phone, iPhone 및 iPad 장치를 사용 하는 경우 사용자가 통화 단추를 누르면 사용자에 게 전화를 걸 지 묻는 대화 상자가 열립니다.
+2 온-프레미스 Lync Server 2013 사용자, Windows Phone, iPhone 및 iPad 장치에서는 사용자가 대화 상대 카드의 통화 아이콘을 탭 하 고 Lync Server 2013에서 콜백을 수락 합니다. Microsoft 365 또는 Office 365 사용자, Windows Phone, iPhone 및 iPad 장치에서 사용자가 통화 단추를 누르면 사용자에 게 전화를 걸 지 묻는 대화 상자가 열립니다.
 
-3 비즈니스용 Skype 온라인 및/또는 Office 365 사용자가 사용할 수 없습니다.
+3 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자는 사용할 수 없습니다.
 
-4 비즈니스용 Skype 온라인 및/또는 Office 365 사용자의 경우이 기능은 Microsoft 파트너가 지원 합니다.
+4 비즈니스용 Skype 온라인 및/또는 Microsoft 365 또는 Office 365 사용자의 경우이 기능은 Microsoft 파트너가 지원 합니다.
 
 </div>
 

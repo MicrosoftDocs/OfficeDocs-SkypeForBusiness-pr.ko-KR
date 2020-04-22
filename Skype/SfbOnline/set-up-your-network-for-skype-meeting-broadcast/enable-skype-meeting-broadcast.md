@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 조직의 사용자가 Skype 모임 브로드캐스트를 사용 하기 전에 먼저 사용 하도록 설정 해야 합니다. 이렇게 하려면 Windows PowerShell을 사용 하는 방법을 알고 있어야 합니다. Windows PowerShell을 모르는 경우 Microsoft 파트너를 고용 하 여이 단계를 수행 하는 것이 좋습니다.
-ms.openlocfilehash: 1b06f327fa59ec8e90c9b014db8a252ca7b40579
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4684f445dc004678bf978069c2430111e7961d0d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010611"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778123"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 모임 브로드캐스트 사용
 
@@ -33,9 +33,9 @@ ms.locfileid: "42010611"
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>비즈니스용 Skype 관리 센터를 사용 하 여 Skype 모임 브로드캐스트 사용
 
-![비즈니스용 skype](../images/sfb-logo-30x30.png) **관리 센터를 사용 하 여** 비즈니스용 skype 로고를 표시 하는 아이콘
+![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
 
-1. Office 365 전역 관리자 계정 또는에서 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)비즈니스용 Skype 관리자 계정을 사용 하 여 로그인 합니다.
+1. 전역 관리자 계정 또는에서 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)비즈니스용 Skype 관리자 계정을 사용 하 여 로그인 합니다.
     
 2. 관리 센터에서 **관리 센터** > **팀**으로 이동 합니다.
     
@@ -55,7 +55,7 @@ ms.locfileid: "42010611"
     
 6. **시작 메뉴**에서 **Windows PowerShell**을 선택 합니다.
     
-7. **Windows PowerShell** 창에서 다음을 실행 하 여 Office 365 조직에 연결 합니다.
+7. **Windows PowerShell** 창에서 다음을 실행 하 여 Microsoft 365 또는 Office 365에 연결 합니다.
     
    ```PowerShell
    $Credential = get-credential

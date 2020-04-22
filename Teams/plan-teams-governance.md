@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afd990c0a49b1f61bb5be717cc3bf2ad7bc70935
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7fd782df443504a20a6010f07ac15b9078e570a7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836190"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780207"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams에서 거버넌스 계획
 
@@ -45,7 +45,7 @@ ms.locfileid: "41836190"
 > [!TIP]
 > 조직의 요구 사항을 캡처하려면 다음 표를 사용 합니다.
 
-|성능 |세부적인 |Azure AD Premium <br> 라이선스 필요 |덕분 |
+|기능 |세부 정보 |Azure AD Premium <br> 라이선스 필요 |덕분 |
 |---------|---------|---------|---------|
 |팀 이름 지정 정책 | 접두사-접미사 기반, 사용자 지정 차단 된 단어를 사용 합니다. |P1 |TBD |
 |팀 분류 |팀에 분류를 할당 합니다. |P1 |TBD |
@@ -57,7 +57,7 @@ ms.locfileid: "41836190"
 > 미리 계획 하는 데 도움이 되도록 [이러한 정책 설정 및 필요한 라이선스에 대해 자세히 알아보세요](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
 > [!NOTE]
-> 그룹 및 팀 만들기를 제한 하면 많은 Office 365 서비스에서 서비스 기능을 위해 그룹을 만들어야 하기 때문에 사용자 생산성을 느리게 할 수 있습니다. 추가 정보를 보려면 [Office 365 그룹을 만드는 사용자를 제어 하는 이유](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)를 찾아 확장 합니다.
+> 그룹 및 팀 만들기를 제한 하면 많은 Office 365 서비스에서 서비스 기능을 위해 그룹을 만들어야 하기 때문에 사용자 생산성을 느리게 할 수 있습니다. 추가 정보를 보려면 [Microsoft 365 그룹을 만드는 사용자를 제어 하는 이유](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)를 찾아 확장 합니다.
 
 
 #### <a name="additional-information"></a>추가 정보
@@ -66,14 +66,14 @@ ms.locfileid: "41836190"
 
 - [그룹 설정 구성을 위한 Azure Active Directory cmdlet](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [Azure Active Directory에서 Office 365 그룹에 대 한 이름 지정 정책을 적용](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)합니다.
+- [Azure Active Directory에서 Microsoft 365 그룹에 대 한 이름 지정 정책을 적용](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)합니다.
 
-- [Office 365 그룹 이름 지정 정책](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
+- [Microsoft 365 그룹 이름 지정 정책](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>그룹 및 팀 만료, 보존 및 보관
 
-조직에 만료, 보존 및 보관 팀과 팀 데이터 (채널 메시지 및 채널 파일)에 대 한 정책을 설정 하는 데 필요한 추가 요구 사항이 있을 수 있습니다. 필요에 따라 정보를 보존 하거나 삭제 하기 위해 그룹 및 보존 정책의 수명 주기를 자동으로 관리 하 고 팀을 읽기 전용 모드로 설정 하 여 팀에 대 한 특정 시점 보기를 보존 하도록 그룹 만료 정책을 구성할 수 있습니다. 더 이상 활성화 되지 않습니다.
+조직에 만료, 보존 및 보관 팀과 팀 데이터 (채널 메시지 및 채널 파일)에 대 한 정책을 설정 하는 데 필요한 추가 요구 사항이 있을 수 있습니다. 필요에 따라 정보를 보존 하거나 삭제 하기 위해 그룹 및 보존 정책의 수명 주기를 자동으로 관리 하 고 팀을 읽기 전용 모드로 설정 하 여 더 이상 활성 상태가 아닌 팀의 특정 시점 보기를 유지 하도록 그룹 만료 정책을 구성할 수 있습니다.
 
 |           |            |
 |-----------|------------|
@@ -83,9 +83,9 @@ ms.locfileid: "41836190"
 > [!TIP]
 > 조직의 요구 사항을 캡처하려면 다음 표를 사용 합니다.
 
-|성능 |세부적인 |Azure AD Premium 라이선스 필요 |덕분 |
+|기능 |세부 정보 |Azure AD Premium 라이선스 필요 |덕분 |
 |---------|---------|---------|---------|
-|만료 정책 |만료 정책을 설정 하 여 Office 365 그룹의 수명 주기를 관리 합니다. |P1 |TBD|
+|만료 정책 |만료 정책을 설정 하 여 Microsoft 365 그룹의 수명 주기를 관리 합니다. |P1 |TBD|
 |보존 정책 |보안 & 준수 센터에서 팀에 대 한 보존 정책을 설정 하 여 특정 기간에 대 한 데이터를 보존 하거나 삭제 합니다. **참고**:이 기능을 사용 하려면 Office 365 Enterprise E3 이상 라이선스가 필요 합니다. |아니요 |TBD |
 |보관 및 복원 |더 이상 활성 상태가 아닌 팀을 보관 하 되 참조를 위해 유지 하거나 나중에 다시 활성화 하려는 경우 |아니요 |TBD |
 
@@ -96,7 +96,7 @@ ms.locfileid: "41836190"
 
 이러한 설정을 구현 하는 방법에 대 한 기술 지침은 다음을 참조 하세요.
 
-- [Office 365 그룹 만료를 설정](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)합니다.
+- [Microsoft 365 그룹 만료를 설정](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)합니다.
 
 - [팀 보존 정책을 설정](retention-policies.md)합니다.
 
@@ -105,7 +105,7 @@ ms.locfileid: "41836190"
 
 ## <a name="teams-feature-management"></a>팀 기능 관리
 
-팀에 대 한 관리 및 수명 주기 관리의 또 다른 중요 한 측면은 사용자가 액세스할 수 있는 기능을 제어 하는 기능입니다. Office 365 테 넌 트 수준 또는 사용자 단위로 메시지, 모임, 통화 기능을 관리할 수 있습니다. 
+팀에 대 한 관리 및 수명 주기 관리의 또 다른 중요 한 측면은 사용자가 액세스할 수 있는 기능을 제어 하는 기능입니다. Office 365 조직 수준 또는 사용자 기준으로 메시징, 모임, 통화 기능을 관리할 수 있습니다. 
 
 
 |         |         |

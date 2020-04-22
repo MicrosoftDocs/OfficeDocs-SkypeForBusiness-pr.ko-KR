@@ -17,12 +17,12 @@ description: 첫 번째 팀과 채널을 만들고, 초기 사용자를 미리 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 544dcb4ffd424512797d3791e2eda6b22439c084
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139247"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777843"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft 팀에서 게스트 액세스 관리
 ======================================
@@ -30,7 +30,7 @@ ms.locfileid: "43139247"
 > [!IMPORTANT]
 > 변경 내용이 적용되는 데 최대 24시간이 걸릴 수 있습니다. 
 
-**게스트** 는 모든 Office 365 Business Premium, Office 365 Enterprise, Office 365 비즈니스 Essentials 및 Office 365 교육 구독에 포함 된 Microsoft 팀의 사용자 유형입니다. 추가 Office 365 라이선스가 필요하지 않습니다. [게스트 액세스 라이선스](#guest-access-licensing-limits) 에 대 한 자세한 내용을 확인 하세요.
+**게스트** 는 모든 Microsoft 365 비즈니스 표준, Office 365 Enterprise, Microsoft 365 비즈니스 기본 및 Office 365 교육 구독에 포함 된 microsoft 팀의 사용자 유형입니다. 추가 Office 365 라이선스가 필요하지 않습니다. [게스트 액세스 라이선스](#guest-access-licensing-limits) 에 대 한 자세한 내용을 확인 하세요.
 
 팀 게스트 액세스는 테 넌 트 수준 설정 이므로 기본적으로 꺼져 있습니다. 게스트 액세스를 설정 하는 방법에 대 한 자세한 내용은 [팀에 대 한 게스트 액세스 설정 또는 해제](set-up-guests.md)또는 [게스트 액세스 검사 목록을](guest-access-checklist.md) 사용 하 여 설치를 안내 합니다.
 
@@ -64,7 +64,7 @@ Microsoft Enterprise Mobility + Security, E5에 포함 되어 있는 Azure AD의
 
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>게스트 액세스 설정이 적용 되기까지 지연 되는 시간
 
-Azure Active Directory의 게스트 액세스 설정의 경우 변경 내용이 Office 365 조직에 적용 되려면 2-24 시간이 소요 됩니다. 사용자가 팀에 게스트를 추가 하려고 할 때 "관리자에 게 문의" 라는 메시지가 표시 되는 경우 게스트 기능이 설정 되지 않았거나 설정이 아직 유효 하지 않을 수 있습니다. 게스트 액세스 설정 문제에 대 한 도움말은 [팀의 게스트 액세스 문제 해결](troubleshoot-guest-access.md)을 참조 하세요.
+Azure Active Directory의 게스트 액세스 설정의 경우 변경 내용이 Microsoft 365 또는 Office 365에 적용 되려면 2-24 시간이 소요 됩니다. 사용자가 팀에 게스트를 추가 하려고 할 때 "관리자에 게 문의" 라는 메시지가 표시 되는 경우 게스트 기능이 설정 되지 않았거나 설정이 아직 유효 하지 않을 수 있습니다. 게스트 액세스 설정 문제에 대 한 도움말은 [팀의 게스트 액세스 문제 해결](troubleshoot-guest-access.md)을 참조 하세요.
 
   
 ## <a name="external-access-federation-vs-guest-access"></a>외부 액세스(페더레이션) 대 게스트 액세스

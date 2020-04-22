@@ -19,13 +19,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
-description: 새 Office 365 보고서 대시보드는 조직의 Office 365 제품 전반에 걸친 활동 개요를 보여 줍니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 비즈니스용 Skype 장치 사용 현황 보고서를 사용 하 여 비즈니스용 Skype 앱이 설치 되어 있고 메신저 대화 및 모임에 사용 되는 Windows 기반 운영 체제 및 모바일 장치를 비롯 한 장치를 볼 수 있습니다. 자세한 내용은 관리 센터에서 활동 보고서를 확인 하세요.
-ms.openlocfilehash: 52503a90b2474460347effb676247fc3ffed9919
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 새로운 Microsoft 365 보고서 대시보드는 조직의 Office 365 제품 전반에 걸친 활동 개요를 보여 줍니다. 각 제품의 활동에 대 한 세부적인 통찰력을 제공 하기 위해 개별 제품 수준 보고서를 드릴스루할 수 있습니다. 예를 들어 비즈니스용 Skype 장치 사용 현황 보고서를 사용 하 여 비즈니스용 Skype 앱이 설치 되어 있고 메신저 대화 및 모임에 사용 되는 Windows 기반 운영 체제 및 모바일 장치를 비롯 한 장치를 볼 수 있습니다. 자세한 내용은 관리 센터에서 활동 보고서를 확인 하세요.
+ms.openlocfilehash: 9d12938fdbc495e1d95b8ed26500185f09f2b01b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769401"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776303"
 ---
 # <a name="device-usage-report"></a>디바이스 사용 현황 보고서
 
@@ -46,7 +46,7 @@ ms.locfileid: "41769401"
     
      ![비즈니스용 Skype 장치 사용 보고서 위젯](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
   
-    사용 중인 Office 365 구독에 따라 여기에 표시 된 모든 제품 및 활동 보고서가 표시 되지 않을 수 있습니다.
+    사용 중인 Microsoft 365 또는 Office 365 구독에 따라 여기에 표시 된 모든 제품 및 활동 보고서가 표시 되지 않을 수 있습니다.
     
 ## <a name="interpret-the-skype-for-business-device-usage-report"></a>비즈니스용 Skype 장치 사용 현황 보고서 해석
 

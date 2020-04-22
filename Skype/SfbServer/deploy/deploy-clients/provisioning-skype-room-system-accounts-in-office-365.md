@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 Skype 대화방 시스템 계정 프로 비전
+title: Microsoft 365 및 Office 365에서 Skype 대화방 시스템 계정 프로 비전
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: Office 365에서 Skype 대화방 시스템 계정을 프로 비전 하는 방법에 대 한 자세한 내용을 보려면이 항목을 읽어 보십시오.
-ms.openlocfilehash: 141c833bcbdd744a7577c0762cb8ba55dd3d5c54
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Microsoft 365 또는 Office 365에서 Skype 대화방 시스템 계정을 프로 비전 하는 방법에 대 한 자세한 내용을 보려면이 항목을 읽어 보십시오.
+ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037728"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779714"
 ---
-# <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Office 365에서 Skype 대화방 시스템 계정 프로 비전
+# <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Microsoft 365 및 Office 365에서 Skype 대화방 시스템 계정 프로 비전
  
 Office 365에서 Skype 대화방 시스템 계정을 프로 비전 하는 방법에 대 한 자세한 내용을 보려면이 항목을 읽어 보십시오.
   
-다음 섹션에서는 Office 365 테 넌 트에 대 한 Skype 대화방 시스템 계정 프로 비전에 대해 설명 합니다.
+다음 섹션에서는 Office 365 조 직에 대 한 Skype 대화방 시스템 계정 프로 비전에 대해 설명 합니다.
   
-## <a name="office-365-prerequisites"></a>Office 365 필수 구성 요소
+## <a name="microsoft-365-and-office-365-prerequisites"></a>Microsoft 365 및 Office 365 필수 구성 요소
 
 온라인 테 넌 트가 다음 요구 사항을 충족 해야 합니다.
   
-- Office 365 계획에는 비즈니스용 Skype Online 계획 2 또는 Office 365 E1, E3 또는 E5가 포함 되어야 합니다. <br/>비즈니스용 Skype Online 계획에 대 한 자세한 내용은 [비즈니스용 Skype Online 서비스 설명을](https://technet.microsoft.com/library/jj822172.aspx)참조 하세요.
+- Microsoft 365 또는 Office 365 요금제에는 비즈니스용 Skype Online 계획 2 또는 Office 365 E1, E3 또는 E5가 포함 되어야 합니다. <br/>비즈니스용 Skype Online 계획에 대 한 자세한 내용은 [비즈니스용 Skype Online 서비스 설명을](https://technet.microsoft.com/library/jj822172.aspx)참조 하세요.
     
 - 테 넌 트에 비즈니스용 Skype의 회의 기능이 사용 하도록 설정 되어 있어야 합니다.
     
@@ -99,7 +99,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
   
 ## <a name="skype-for-business-online-provisioning"></a>비즈니스용 Skype Online 프로 비전
 
-리소스 대화방 사서함 계정을 만들어 이전에 표시 된 대로 사용 하도록 설정 했으며 비즈니스용 Skype Online에 대 한 계정을 사용 하도록 허가 받은 후에는 다음을 통해 계정으로 Exchange Online 포리스트에서 비즈니스용 Skype Online 포리스트와 동기화 됩니다. Windows Azure Active Directory 포리스트 비즈니스용 Skype Online 풀에서 Skype 대화방 시스템 계정을 구축 하려면 다음 단계를 수행 해야 합니다. 이러한 단계는 Exchange Online에서 사용 하도록 설정 된 경우 동일한 방식으로 비즈니스용 Skype Online에 동기화 되는 기존 리소스 사서함 계정 또는 새로 만든 계정 (confrm1 또는 confrm2)에 대해 동일 합니다.
+리소스 대화방 사서함 계정을 만들어 이전에 표시 된 대로 사용 하도록 설정 했으며 비즈니스용 Skype 온라인에 대 한 계정을 사용 하도록 허가 받은 사용자는 Windows Azure Active Directory 포리스트를 통해 Exchange Online 포리스트와 비즈니스용 Skype Online 포리스트와 계정을 동기화 합니다. 비즈니스용 Skype Online 풀에서 Skype 대화방 시스템 계정을 구축 하려면 다음 단계를 수행 해야 합니다. 이러한 단계는 Exchange Online에서 사용 하도록 설정 된 경우 동일한 방식으로 비즈니스용 Skype Online에 동기화 되는 기존 리소스 사서함 계정 또는 새로 만든 계정 (confrm1 또는 confrm2)에 대해 동일 합니다.
   
 1. 원격 PowerShell 세션을 만듭니다. 비즈니스용 Skype 온라인 커넥터 모듈 및 Microsoft Online Services 로그인 도우미를 다운로드 하 고 컴퓨터가 구성 되어 있는지 확인 해야 합니다. 자세한 내용은 [Windows PowerShell을 사용할 컴퓨터 설정을](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)참조 하십시오.
     

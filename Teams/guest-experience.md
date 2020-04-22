@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160572"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776933"
 ---
 <a name="what-the-guest-experience-is-like"></a>게스트 환경의 모양
 =================================
@@ -51,7 +51,7 @@ ms.locfileid: "42160572"
 |모임 또는 액세스 일정 만들기  <br/> |&#x2713;||
 |비즈니스용 OneDrive 저장소 액세스  <br/> |&#x2713;||
 |테 넌 트 전체 및 팀/채널 게스트 액세스 정책 만들기  <br/> |&#x2713;||
-|Office 365 테 넌 트의 도메인 외부에 사용자 초대 <br/>  *팀 소유자는이 설정을 제어 합니다.*  <br/> <br/> |&#x2713;||
+|Office 365 조직의 도메인 외부에 사용자 초대 <br/>  *팀 소유자는이 설정을 제어 합니다.*  <br/> <br/> |&#x2713;||
 |팀 만들기  <br/> |&#x2713;||
 |공개 팀 검색 및 참가  <br/> |&#x2713;||
 |조직도 보기  <br/> |&#x2713;||
@@ -79,11 +79,11 @@ ms.locfileid: "42160572"
 | 통화를 즉시 착신 전환할 수 있습니다. | 아니요 | 아니요 | 예 |
 | 동시에 통화를 들을 수 있습니다. | 아니요 | 아니요 | 예 |
 | 응답 하지 않은 통화를 라우팅할 수 있습니다. | 아니요 | 아니요 | 예 |
-| 부재 중 통화는 보이스 메일로 이동할 수 있습니다. | 아니요 | 없음<sup>1</sup> |예 |
+| 부재 중 통화는 보이스 메일로 이동할 수 있습니다. | 아니요 | 아니요<sup>1</sup> |예 |
 | 통화를 받을 수 있는 전화 번호 사용 | 아니요 | 아니요 | 예 |
 | 전화 번호를 입력할 수 있음 | 아니요 | 아니요 | 예 |
 | 통화 설정에 액세스할 수 있음 | 아니요 | 아니요 | 예 |
-| 보이스 메일 인사말 변경 가능 | 아니요 | 없음<sup>1</sup> | 예 |
+| 보이스 메일 인사말 변경 가능 | 아니요 | 아니요<sup>1</sup> | 예 |
 | 벨 소리 변경 가능 | 아니요 | 아니요  | 예 |
 | TTY 지원 | 아니요 | 아니요 | 예 |
 | 대리인을 가질 수 있습니다. | 아니요 | 아니요 | 예 |

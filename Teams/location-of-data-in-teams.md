@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3908100a0270f9e72835e189a220ece6e54a27bd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 11d95858c39a2d555a4b1a7433b0a7dce0388293
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836538"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780267"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft 팀의 데이터 위치
 
-팀의 데이터는 Office 365 테 넌 트와 연결 된 지리적 영역에 위치 합니다. 현재, 팀은 오스트레일리아, 캐나다, 프랑스, 독일, 인도, 일본, 남아프리카, 대한민국, 스위스 (리히텐슈타인 포함), 미국, 호주, 영국, 미국, APAC, EMEA 지역 등을 지원 합니다. 
+팀의 데이터는 Office 365 조직과 연결 된 지리적 영역에 위치 합니다. 현재, 팀은 오스트레일리아, 캐나다, 프랑스, 독일, 인도, 일본, 남아프리카, 대한민국, 스위스 (리히텐슈타인 포함), 미국, 호주, 영국, 미국, APAC, EMEA 지역 등을 지원 합니다. 
 
 > [!IMPORTANT]
 > 현재 팀은 오스트레일리아, 캐나다, 프랑스, 독일, 인도, 일본, 미국 아랍, 영국, 대한민국, 남아프리카, 스위스 (리히텐슈타인 포함) 새 테 넌 트에만 데이터 영주권을 제공 합니다.
@@ -47,7 +47,7 @@ ms.locfileid: "41836538"
 
 ### <a name="core-teams-customer-data"></a>핵심 팀 고객 데이터
 
-테 넌 트가 오스트레일리아, 캐나다, 유럽 연합, 프랑스, 독일, 인도, 일본, 남아프리카, 대한민국, 스위스 (리히텐슈타인 포함), 미국, 영국 또는 미국, Microsoft 상점 해당 위치 내 에서만 남은 고객 데이터는 다음과 같습니다.
+테 넌 트가 오스트레일리아, 캐나다, 유럽어, 프랑스, 독일, 인도, 일본, 남아프리카, 대한민국, 스위스 (예: 리히텐슈타인), 미국, 영국 또는 미국 중에서 제공 되는 경우 Microsoft는 다음 고객 데이터를 해당 위치 내에 있는 다른 곳에만 저장 합니다.
 
 - 팀 채팅, 팀 및 채널 대화, 이미지, 보이스 메일 메시지, 연락처
 - SharePoint Online 사이트 콘텐츠 및 해당 사이트에 저장 된 파일
@@ -85,7 +85,7 @@ ms.locfileid: "41836538"
 |남아프리카 공화국     |요하네스버그 및 카보베르데         |
 |대한민국     |서울 및 Busan         |
 |스위스    |Geneva 및 Zurich       |
-|아랍 에미리트 연합국     |아부다비 및 두바이         |
+|아랍에미리트     |아부다비 및 두바이         |
 |영국     | Cardiff 및 런던        |
 |미주-북쪽 및 남부 (AMER) |베이, CA, Boydton, VA       |
 |아시아 태평양 (APAC)  |싱가포르 및 홍콩 특별 행정구        |

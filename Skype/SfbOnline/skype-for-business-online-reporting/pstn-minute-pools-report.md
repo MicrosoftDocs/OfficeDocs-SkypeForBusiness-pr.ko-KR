@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 새로운 비즈니스용 Skype 관리 센터 보고서 영역에 조직의 통화 및 오디오 회의 활동이 표시 됩니다. 이 기능을 사용 하면 보고서를 자세히 분석 하 여 각 사용자의 활동에 대 한 세부적인 통찰력을 제공할 수 있습니다. 예를 들어 비즈니스용 Skype PSTN 시간 수영장 보고서를 사용 하 여 조직 내 현재 달 중 사용 되는 시간 (분)을 확인할 수 있습니다.
-ms.openlocfilehash: 2777b4f32b99a086110b75ca527eda29b0842b6e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ac27e88b6e0f4945dde90f5e5f7bade31f20fe6a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692433"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776253"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 통화 시간 풀(분) 보고서
 
@@ -42,12 +42,12 @@ ms.locfileid: "41692433"
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>비즈니스용 Skype PSTN 시간 풀 보고서에 액세스 하는 방법
 
-![비즈니스용 skype](../images/sfb-logo-30x30.png) **관리 센터를 사용 하 여** 비즈니스용 skype 로고를 표시 하는 아이콘
+![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
 
 - 관리 센터로 이동 > **관리** > 센터**비즈니스용 Skype 관리 센터** > 에서는**PSTN 분 풀이****보고** > 됩니다.
     
 > [!NOTE]
-> 사용 중인 Office 365 구독에 따라 여기에 표시 된 것과 동일한 모든 정보가 표시 되지 않을 수 있습니다. 
+> 사용 중인 Microsoft 365 또는 Office 365 구독에 따라 여기에 표시 된 것과 동일한 모든 정보가 표시 되지 않을 수 있습니다. 
   
 ## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>비즈니스용 Skype PSTN 거래 시간 은행 보고서 해석
 
@@ -93,7 +93,7 @@ ms.locfileid: "41692433"
 
 - [비즈니스용 Skype 세션 정보 보고서](session-details-report.md) 개인 사용자의 통화 환경에 대 한 세부 정보를 확인할 수 있습니다.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

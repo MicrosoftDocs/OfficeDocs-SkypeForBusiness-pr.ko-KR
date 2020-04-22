@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '전화 접속 회의 라이선스 및 전화 회의 ID를 사용자와 여러 다른 전화 접속 회의 설정에 할당 하려면 비즈니스용 Skype Online 단계를 참조 하세요. '
-ms.openlocfilehash: 46f55ba256759d86e93e9436e949ee49ff337f7c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9567c8234c0ef7a5b65c5894666747eab3cff7a5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986523"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777983"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 조직의 오디오 회의 설정 관리
 
@@ -43,7 +43,7 @@ ms.locfileid: "41986523"
 
  **사용자에 게 라이선스를 할당 하려면**
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. 관리 센터의 왼쪽 탐색 창에서 **사용자** > **활성 사용자**로 이동한 다음 사용 가능한 사용자 목록에서 사용자를 선택 합니다.
 
@@ -59,15 +59,15 @@ ms.locfileid: "41986523"
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>오디오 회의 사용자에 게 전송 되는 전자 메일 사용 또는 사용 안 함
 
-![비즈니스용 skype](../images/sfb-logo-30x30.png) **관리 센터를 사용 하 여** 비즈니스용 skype 로고를 표시 하는 아이콘
+![비즈니스용 skype 로고를 나타내는 아이콘](../images/sfb-logo-30x30.png) **비즈니스용 Skype 관리 센터 사용**
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **비즈니스용 Skype** > 관리 센터로 이동 하 여 왼쪽 탐색 창에서 **오디오 회의**를 클릭 합니다.
 
 3. **Microsoft 브리지 설정** 페이지에서 **오디오 회의 설정이 변경 된 경우 사용자에 게 자동으로 전자 메일 보내기**를 선택 하거나 선택을 취소 합니다.
 
-4. **저장**을 클릭 합니다.
+4. **저장**을 클릭합니다.
 
     사용자의 오디오 회의 속성으로 이동한 다음 **전자 메일로 회의 정보 보내기를**클릭 하 여 오디오 회의 설정으로 사용자에 게 전자 메일을 보낼 수도 있습니다. 전화 회의 ID 및 기본 오디오 회의 전화 번호가 모임 초대에 포함 되지만 PIN이 아닙니다.
 
@@ -110,7 +110,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="reset-the-meeting-conference-id"></a>모임 전화 회의 ID 다시 설정
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **비즈니스용 Skype**> 관리 센터로 이동 합니다.
 
@@ -128,7 +128,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 사용자가 예약 하는 각 모임에는 고유한 전화 번호를 할당 받게 됩니다. 전화 회의 ID는 자동으로 만들어지고 사용자에 게 할당 되지만, 사용자가이를 사용 하지 않고 특정 번호로 설정 하려는 경우 또는 사용자가 자신의 전화 회의 ID를 분실 하거나 잃어 버릴 수도 있습니다. 비즈니스용 Skype 관리 센터 및 Windows PowerShell을 사용 하 여 전화 회의 ID를 보고 변경 하 고 다시 설정할 수 있습니다.
 
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **비즈니스용 Skype** > 관리 센터로 이동 하 여 왼쪽 탐색 창에서 **오디오 회의**를 클릭 합니다.
 
@@ -142,7 +142,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>오디오 회의 정보를 사용 하 여 사용자에 게 전자 메일 보내기
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **비즈니스용 Skype** > 관리 센터로 이동 하 여 왼쪽 탐색 창에서 **오디오 회의**를 클릭 합니다.
 
@@ -157,7 +157,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="setting-the-phone-numbers-included-on-invites"></a>초대에 포함 된 전화 번호 설정
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **비즈니스용 Skype**> 관리 센터로 이동 합니다.
 
@@ -165,7 +165,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 4. 작업 창에서 **유료** 번호를 설정 하 고, 허용 되는 경우 무료 **번호**를 설정할 수 있습니다.
 
-5. **저장**을 클릭 합니다.
+5. **저장**을 클릭합니다.
 
 [초대에 포함 된 전화 번호 설정을](set-the-phone-numbers-included-on-invites.md)참조 하세요.
 
@@ -175,7 +175,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 **발신자가 모임에 참가 하는 경우의 모임 환경 설정**
 
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **비즈니스용 Skype**> 관리 센터로 이동 합니다.
 
@@ -195,7 +195,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
   
  **모임의 PIN 길이 설정**
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **비즈니스용 Skype**> 관리 센터로 이동 합니다.
 
@@ -209,13 +209,13 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
   
  **오디오 사용자에 게 전자 메일을 보낼 수 있도록 설정 또는 해제**
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **비즈니스용 Skype** > 관리 센터로 이동 하 여 왼쪽 탐색 창에서 **오디오 회의**를 클릭 합니다.
 
 3. **Microsoft 브리지 설정** 페이지에서 **오디오 회의 설정이 변경 된 경우 사용자에 게 자동으로 전자 메일 보내기**를 선택 하거나 선택을 취소 합니다.
 
-4. **저장**을 클릭 합니다.
+4. **저장**을 클릭합니다.
 
     사용자의 오디오 회의 속성으로 이동한 다음 **전자 메일로 회의 정보 보내기를**클릭 하 여 오디오 회의 설정을 사용 하 여 사용자에 게 전자 메일을 보낼 수도 있습니다.
 
@@ -226,7 +226,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>오디오 회의 브리지의 기본 (기본) 및 보조 (대체) 언어를 표시 하 고 설정 합니다.
 
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **비즈니스용 Skype**> 관리 센터로 이동 합니다.
 
@@ -240,7 +240,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>오디오 회의 전화 접속 번호 보기
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **비즈니스용 Skype**> 관리 센터로 이동 합니다.
 
@@ -258,7 +258,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="see-a-list-of-users-that-are-enabled"></a>사용 하도록 설정 된 사용자 목록 보기
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
 
 2. **비즈니스용 Skype**> 관리 센터로 이동 합니다.
 

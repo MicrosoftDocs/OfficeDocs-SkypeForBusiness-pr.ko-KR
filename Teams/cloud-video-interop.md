@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddd8a0574899c13e03aae34915b8a342d1984feb
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: f9addb5dfe25f5d4906c0b4ab1d332a2ea70f72d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505645"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779644"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 팀을 위한 클라우드 비디오 Interop
 
@@ -46,7 +46,7 @@ Microsoft 팀에서는 오디오, 비디오, 콘텐츠 공유가 포함 된 모�
 
 ### <a name="office-365-us-government-and-third-party-services"></a>Office 365 미국 정부 및 타사 서비스
 
-Office 365는 타사 응용 프로그램을 SharePoint Online 사이트, 비즈니스용 Skype, 팀, Office 365 ProPlus에 포함 된 Office 응용 프로그램 (예: Word, Excel, PowerPoint, Outlook) 및 Outlook Web App에 통합할 수 있는 기능을 제공 합니다. 또한 Office 365는 타사 서비스 공급자와의 통합을 지원 합니다. 이러한 타사 응용 프로그램 및 서비스에는 Office 365 인프라 외부에 있는 타사 시스템에 조직의 고객 데이터를 저장, 전송, 처리 하는 작업이 포함 될 수 있으며, 따라서 Office 365 준수 및 데이터 보호 약정에서 다루지 않습니다. **조직에 대해 이러한 서비스의 적절 한 사용을 평가할 때는 제 3 자가 제공 하는 개인 정보 보호 및 규정 준수 문을 검토 하는 것이 좋습니다.**
+Office 365는 타사 응용 프로그램을 SharePoint Online 사이트, 비즈니스용 Skype, 팀, Office 응용 프로그램 (예: Word, Excel, PowerPoint, Outlook 등의 Microsoft 365 앱에 포함) 및 Outlook Web App에 통합할 수 있는 기능을 제공 합니다. 또한 Office 365는 타사 서비스 공급자와의 통합을 지원 합니다. 이러한 타사 응용 프로그램 및 서비스에는 Office 365 인프라 외부에 있는 타사 시스템에 조직의 고객 데이터를 저장, 전송, 처리 하는 작업이 포함 될 수 있으며, 따라서 Office 365 준수 및 데이터 보호 약정에서 다루지 않습니다. **조직에 대해 이러한 서비스의 적절 한 사용을 평가할 때는 제 3 자가 제공 하는 개인 정보 보호 및 규정 준수 문을 검토 하는 것이 좋습니다.**
 
 
 

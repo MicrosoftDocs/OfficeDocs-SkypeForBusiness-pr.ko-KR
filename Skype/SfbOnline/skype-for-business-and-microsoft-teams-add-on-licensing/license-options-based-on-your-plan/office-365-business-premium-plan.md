@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 Business Premium '
+title: 'Microsoft 365 비즈니스 표준 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Office 365 Business Premium 요금제에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 9ffc251fafb9c1304f78d215a2b5c26d17ae9aae
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'Microsoft 365 비즈니스 표준 요금제에 대 한 추가 기능 라이선스, 기능 및 구입 방법에 대해 알아봅니다. '
+ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706113"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777413"
 ---
-# <a name="office-365-business-premium"></a>Office 365 Business Premium
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 비즈니스 표준
 
-[Office 365 비즈니스 Premium](https://products.office.com/en/business/office-365-business-premium)이 있는 경우 비즈니스용 Skype를 사용 하 여 비즈니스에서 구독 중인 다른 사용자에 게 전화를 걸 수 있습니다. 예를 들어 비즈니스에 10 명의 사용자가 있는 경우 비즈니스용 Skype를 사용 하 여 서로 통화 하 고 메신저 대화를 할 수 있습니다.
+[Microsoft 365 비즈니스 표준이](https://products.office.com/en/business/office-365-business-premium)있는 경우 비즈니스용 Skype를 사용 하 여 구독 중인 비즈니스의 다른 사용자에 게 전화를 걸 수 있습니다. 예를 들어 비즈니스에 10 명의 사용자가 있는 경우 비즈니스용 Skype를 사용 하 여 서로 통화 하 고 메신저 대화를 할 수 있습니다.
 
  **회사 외부의 사용자와 전화를 걸고 받으려면 다음 두 가지 옵션을 사용할 수 있습니다**.
 
@@ -64,7 +64,7 @@ ms.locfileid: "41706113"
 
 1. 관리 센터에 로그인 합니다.
 
-2. **청구** > **** 구독 > **** 추가 > 기능으로 이동 하 여 추가 기능을**구매**하세요.
+2. **청구** > **Subscriptions**구독 > **Add-ons**추가 > 기능으로 이동 하 여 추가 기능을**구매**하세요.
 
    ![추가 기능 라이선스를 구입 하려면 추가 기능 구입을 선택 합니다.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 

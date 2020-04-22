@@ -13,15 +13,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anach
 search.appverid: MET150
-description: Office 365 감사 로그에서 Microsoft 팀 데이터를 검색 하는 방법에 대해 알아봅니다.
+description: 감사 로그에서 Microsoft 팀 데이터를 검색 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f53d1a0b5e600de9d38233b243dba3486b88bf1
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 9b1235dcd1a33800185eb005f5e309204790c5b1
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341626"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778894"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft 팀에서 이벤트 감사 로그 검색
 
@@ -41,11 +41,11 @@ ms.locfileid: "42341626"
 > [!NOTE]
 > 개인 채널의 감사 이벤트도 팀 및 표준 채널의 경우에도 기록 됩니다.
 
-Office 365에서 감사 되는 활동의 전체 목록을 보려면 [office 365 보안 & 준수 센터에서 감사 로그 검색](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)을 읽어보십시오.
+Microsoft 365에서 감사 되는 활동의 전체 목록을 보려면 [microsoft 365 준수 센터에서 감사 로그 검색](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)을 읽어보십시오.
 
 ## <a name="turn-on-auditing-in-teams"></a>팀에서 감사 설정
 
-감사 데이터를 보려면 먼저 [보안 & 준수 센터](https://protection.office.com)에서 감사를 설정 해야 합니다. 감사를 설정 하려면 [Office 365 감사 로그 검색 설정 또는 해제](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)를 참조 하세요.
+감사 데이터를 보려면 먼저 [보안 & 준수 센터](https://protection.office.com)에서 감사를 설정 해야 합니다. 감사 설정에 대 한 도움말은 [감사 로그 검색 설정 또는 해제](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)를 참조 하세요.
 
 > [!IMPORTANT]
 > 감사 데이터는 감사를 설정한 지점 에서만 사용할 수 있습니다.
@@ -65,7 +65,7 @@ Office 365에서 감사 되는 활동의 전체 목록을 보려면 [office 365 
 
 ![대량 삭제에 의해 트리거되는 이벤트 목록의 스크린샷](media/TeamsExternalUserAddPolicy.png)
 
-이 정책을 통해 외부 사용자 추가를 모니터링 하 고, 비즈니스 요구에 따라 심각도를 설정 하 고, (이 경우에는) 단일 활동으로 설정한 다음, 구체적 으로만 모니터링 하는 매개 변수를 설정 하는 것을 허용 합니다. 비 내부 사용자의 경우이 활동을 Microsoft 팀으로 제한 합니다.
+이 정책의 스크린샷을 사용 하 여 정책에 이름을 정하고, 비즈니스 요구 사항에 따라 심각도를 설정 하 고, (이 경우) 단일 활동으로 설정한 다음, 비 내부 사용자만 추가 하 여 구체적으로 모니터링 하는 매개 변수를 설정 하 고이 활동을 Microsoft 팀으로 제한할 수 있습니다.
 
 그런 다음 활동 로그에서이 정책의 결과를 볼 수 있습니다.
 

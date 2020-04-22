@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1dfd82cc10f90616dcdd557e9d1d70f36a9ae1f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2a8c154a0e3f1366327b37b22531541fde288db2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837818"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780487"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft 팀을 위한 관리 빠른 시작
 
@@ -36,7 +36,7 @@ ms.locfileid: "41837818"
 
 자세한 내용은 팀의 관리 [팀 및](plan-teams-governance.md) [수명 주기 관리 계획](plan-teams-lifecycle.md)을 참고 하세요.
 
-## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![결정 지점을 나타내는 아이콘](media/teams-adoption-decision-icon.png)사항이
+## <a name="an-icon-representing-a-decision-pointdecisions"></a>![결정 지점을 나타내는 아이콘](media/teams-adoption-decision-icon.png)사항이
 
 다음과 같은 결정을 내릴 수 있습니다 (이 단계에서는 이러한 결정 사항은 2 단계에만 적용).
 
@@ -62,7 +62,7 @@ ms.locfileid: "41837818"
 
 ### <a name="decision-6--data-security"></a>의사 결정 6: 데이터 보안
 
-광범위 한 배포를 준비 하기 위해 보안 레이블을 사용 하 여 환경에서 팀 유형을 분류 하도록 선택할 수 있습니다. 이 실험의 목적에 따라 [팀에서 관리 계획](plan-teams-governance.md) 을 참조 하 고 Office 365 조직의 팀 데이터에 대 한 기본 보존 정책이 설정 되어 있는지 확인 하는 것이 좋습니다. 이 작업을 완료 하는 데 Office 365 관리자 권한이 필요 하기 때문에이 작업을 기술 팀과 조정 해야 할 수 있습니다.
+광범위 한 배포를 준비 하기 위해 보안 레이블을 사용 하 여 환경에서 팀 유형을 분류 하도록 선택할 수 있습니다. 이 실험의 목적을 위해 [팀에서 관리 계획](plan-teams-governance.md) 을 참조 하 고 Microsoft 365 또는 Office 365의 팀 데이터에 대 한 기본 보존 정책이 설정 되어 있는지 확인 하는 것이 좋습니다. 이 작업을 완료 하는 데 Office 365 관리자 권한이 필요 하기 때문에이 작업을 기술 팀과 조정 해야 할 수 있습니다.
 
 ### <a name="decision-7-length-of-your-experiment"></a>의사 결정 7: 실험의 길이
 

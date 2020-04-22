@@ -17,12 +17,12 @@ f1.keywords:
 description: 다이렉트 라우팅 프로토콜
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b93ea469a1a27e796b5cc2016fd63c9cfd3acdd
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: a66213214457648ec0b699d77bdadc96113fba27
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888567"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780687"
 ---
 # <a name="direct-routing---sip-protocol"></a>다이렉트 라우팅-SIP 프로토콜
 
@@ -30,7 +30,7 @@ ms.locfileid: "41888567"
 
 ## <a name="processing-the-incoming-request-finding-the-tenant-and-user"></a>수신 요청 처리: 테 넌 트 및 사용자 찾기
 
-수신 전화에서 SIP 프록시는 통화가 전송 되는 테 넌 트를 찾아이 테 넌 트 내의 특정 사용자를 찾습니다. 테 넌 트 관리자는 여러 테 넌 트에 + 1001와 같이 숫자가 아닌 번호를 구성할 수 있습니다. 따라서 여러 Office 365 테 넌 트에서 숫자가 아닌 숫자가 동일할 수 있으므로 번호 조회를 수행할 특정 테 넌 트를 찾는 것이 중요 합니다.  
+수신 전화에서 SIP 프록시는 통화가 전송 되는 테 넌 트를 찾아이 테 넌 트 내의 특정 사용자를 찾습니다. 테 넌 트 관리자는 여러 테 넌 트에 + 1001와 같이 숫자가 아닌 번호를 구성할 수 있습니다. 따라서 여러 Office 365 조직에서 유효 하지 않은 번호를 사용할 경우에는 번호 조회를 수행할 특정 테 넌 트를 찾는 것이 중요 합니다.  
 
 이 섹션에서는 SIP 프록시에서 테 넌 트 및 사용자를 찾고, 들어오는 연결에 대 한 SBC의 인증을 수행 하는 방법을 설명 합니다.
 
@@ -56,11 +56,11 @@ ms.locfileid: "41888567"
 
 2. 연락처 머리글에 표시 된 전체 FQDN 이름을 사용 하 여 테 넌 트를 찾아 봅니다.  
 
-   Contact 헤더의 FQDN 이름 (sbc1.adatum.biz)이 Office 365 테 넌 트에서 DNS 이름으로 등록 되었는지 확인 합니다. 발견 되 면 사용자의 조회가 도메인 이름으로 등록 된 SBC FQDN이 있는 테 넌 트에서 수행 됩니다. 이를 찾을 수 없는 경우 3 단계가 적용 됩니다.   
+   Contact 헤더 (sbc1.adatum.biz)의 FQDN 이름이 모든 Office 365 조직에서 DNS 이름으로 등록 되었는지 확인 합니다. 발견 되 면 사용자의 조회가 도메인 이름으로 등록 된 SBC FQDN이 있는 테 넌 트에서 수행 됩니다. 이를 찾을 수 없는 경우 3 단계가 적용 됩니다.   
 
 3. 3 단계는 2 단계가 실패 한 경우에만 적용 됩니다. 
 
-   FQDN에서 호스트 부분 (호스트 부분: adatum.biz을 제거한 후에는 FQDN: sbc12.adatum.biz)을 제거 하 고이 이름이 Office 365 테 넌 트에서 DNS 이름으로 등록 되었는지 확인 합니다. 발견 되 면 사용자 조회가이 테 넌 트에서 수행 됩니다. 찾을 수 없는 경우에는 통화에 실패 합니다.
+   FQDN에서 호스트 부분 (호스트 부분: adatum.biz을 제거한 후에는 FQDN: sbc12.adatum.biz)을 제거 하 고이 이름이 모든 Office 365 조직에서 DNS 이름으로 등록 되었는지 확인 합니다. 발견 되 면 사용자 조회가이 테 넌 트에서 수행 됩니다. 찾을 수 없는 경우에는 통화에 실패 합니다.
 
 4. 요청 URI에 표시 된 전화 번호를 사용 하 여 2 단계 또는 3 단계의 테 넌 트 내에서 역 번호 조회를 수행 합니다. 제시 된 전화 번호를 이전 단계에서 찾은 테 넌 트 내의 사용자 SIP URI와 일치 시킵니다.
 

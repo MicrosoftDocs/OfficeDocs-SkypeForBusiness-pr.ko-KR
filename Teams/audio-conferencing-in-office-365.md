@@ -1,5 +1,5 @@
 ---
-title: Office 365의 오디오 회의
+title: Microsoft 365의 오디오 회의
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-mar2020
 description: 비용, 가용성, 전담 전화 번호를 포함 하 여 Office 365의 오디오 회의에 대해 알아봅니다.
-ms.openlocfilehash: 5fef21489bbbceb490a2b97d70ee9dbafd2a791c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fb61c9445358949677358220e881dbe318ff64b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139017"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780417"
 ---
-# <a name="audio-conferencing-in-office-365"></a>Office 365의 오디오 회의
+# <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365의 오디오 회의
 Office 365의 오디오 회의를 통해 사용자는 전화기에서 모임에 전화를 걸 수 있습니다. 오디오 회의를 통해 최대 250명의 전화 참석자가 참여할 수 있습니다.
 
 ## <a name="what-is-audio-conferencing"></a>오디오 회의는 무엇인가요?
@@ -68,7 +68,7 @@ Office 365의 오디오 회의를 통해 사용자는 전화기에서 모임에 
   
  **전용 전화 번호**는 조직 내 사용자만 사용할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 있습니다. 이에 대한 서비스 전화 번호를 받아야 합니다.
   
- **공유 전화 번호**는 다른 Office 365 조직과 공유할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 없습니다.
+ **공유 전화 번호** 는 다른 Microsoft 365 또는 Office 365s와 공유할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 없습니다.
   
 이끌이에게 할당된 기본 오디오 회의 번호는 모임 초대에만 포함되어 있지만 발신자는 회의 브리지에 할당된 모든 전화 번호를 사용하여 모임에 참가할 수 있습니다. 모임에 참여하는 데 사용할 수 있는 전화 번호 목록은 모든 모임 초대에 포함되는 **현지 번호 찾기** 링크에서 사용할 수 있습니다.
 

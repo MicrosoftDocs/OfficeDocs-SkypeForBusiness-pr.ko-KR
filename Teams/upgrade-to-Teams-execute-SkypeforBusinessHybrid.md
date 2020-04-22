@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa72c0d6a03ef89d0c04b0a70a0bbc918a508243
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ea18a755ccca9b3608cd1fddbf616a969b89140c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136978"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779835"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>비즈니스용 Skype 하이브리드 배포에서 팀으로 업그레이드
 
@@ -41,7 +41,7 @@ ms.locfileid: "43136978"
 - [조직 준비](https://aka.ms/SkypeToTeams-UserReadiness)
 - [파일럿 수행](https://aka.ms/SkypeToTeams-Pilot)
 
-비즈니스용 Skype 또는 Microsoft Lync 온-프레미스를 배포 하 고 Office 365 테 넌 트에서 하이브리드 배포에 구성한 경우이 문서의 지침에 따라 조직에서 여러 공존 모드를 사용 하 여 선택적으로 팀으로 업그레이드 하려고 합니다. 업그레이드 여행 중에는 사용자를 비즈니스용 Skype Online으로 이동 (아직 온라인 상태가 되지 않은 경우) 한 다음 적절 한 공존 및 업그레이드 모드를 할당 해야 합니다.
+비즈니스용 Skype 또는 Microsoft Lync 온-프레미스를 배포 하 고 Office 365 조직에 하이브리드 배포로 구성한 경우, 조직에서 여러 공존 모드를 사용 하 여 선택적으로 팀으로 업그레이드 하려는 경우이 문서의 지침을 따르세요. 업그레이드 여행 중에는 사용자를 비즈니스용 Skype Online으로 이동 (아직 온라인 상태가 되지 않은 경우) 한 다음 적절 한 공존 및 업그레이드 모드를 할당 해야 합니다.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

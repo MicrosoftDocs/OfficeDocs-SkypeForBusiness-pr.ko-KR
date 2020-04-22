@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d9bcc5e00b9892bf8405eddb2ac24291a485d19
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b5607e9405a777329efa6ad3bb58e204e03879a9
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706968"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776763"
 ---
 # <a name="operate-your-service"></a>서비스 운영
 
@@ -41,7 +41,7 @@ ms.locfileid: "42706968"
 
 대부분의 조직에 대 한 새로운 개념은 서비스 관리 라는 개념에 해당 하지 않을 수 있습니다. 기존 서비스와 연결 된 프로세스 및 작업을 이미 구현 했을 수 있습니다. 이는 향후에 팀을 지원 하기 위해 지금 서비스 관리 계획을 수립할 때 현재 프로세스를 확장할 수 있다는 사실입니다.
 
-서비스 관리에는 팀의 종단 간 관리에 관련 된 모든 활동과 프로세스가 포함 됩니다. 앞에서 언급 한 것 처럼, Microsoft는 Office 365 서비스 자체에 있는 인프라 인 서비스 관리의 일부 구성 요소 (예, 고객)는 사용자가 팀의 다양 한 측면을 관리 하기 위해 책임을 지는 반면, 네트워크 , 제공 하는 끝점.
+서비스 관리에는 팀의 종단 간 관리에 관련 된 모든 활동과 프로세스가 포함 됩니다. 앞에서 언급 한 것 처럼 Office 365 서비스 자체에 속하는 인프라 인 서비스 관리의 일부 구성 요소는 Microsoft의 역할을 하는 반면, 고객은 사용자에 게 팀, 네트워크, 제공 하는 끝점의 다양 한 측면을 관리 하는 데 책임이 있습니다.
 
 이 가이드의 작업 및 활동은 다음 다이어그램에 표시 된 대로 여덟 가지 범주로 그룹화 됩니다. 이러한 각 범주는 다음 섹션에 따라 확장 됩니다.
 
@@ -114,7 +114,7 @@ Microsoft 팀은 팀워크에 대 한 허브를 제공 하기 위해 Office 365�
 
 | 모니터링 도구 | 혜택도 | 사용 하는 경우 |
 |---|---|---|
-| Office 365 포털 | 지원 되는 브라우저가 있는 모든 장치에서 사용할 수 있습니다. | 실시간 알림이 필요 하지 않은 경우 사용 합니다. |
+| Microsoft 365 관리 센터 | 지원 되는 브라우저가 있는 모든 장치에서 사용할 수 있습니다. | 실시간 알림이 필요 하지 않은 경우 사용 합니다. |
 | Office 365 관리 앱 | 모바일 장치에 푸시 알림을 제공 합니다. | 이동 중에 서비스 사고에 대 한 알림을 받아야 하는 경우 사용 합니다. |
 | Microsoft System Center | Microsoft System Center와의 통합. | 고급 모니터링 기능 및 알림 지원이 필요한 경우 사용 합니다. |
 | Office 365 서비스 통신 API | Office 365 서비스 상태에 프로그래밍 방식으로 액세스할 수 있습니다. | 타사 모니터링 도구와 통합 해야 하거나 고유한 솔루션을 만들려는 경우 사용 합니다. |
@@ -122,9 +122,9 @@ Microsoft 팀은 팀워크에 대 한 허브를 제공 하기 위해 Office 365�
 > [!NOTE]
 > **전역 관리자** 또는 **서비스 관리자** 역할이 할당 된 사용자만 서비스 상태를 볼 수 있습니다.
 
-### <a name="monitoring-with-the-office-365-portal"></a>Office 365 포털을 사용 하 여 모니터링
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 사용 하 여 모니터링
 
-[Office 365 포털](https://portal.office.com/) 은 종속 서비스 외에도 팀 서비스의 현재 상태를 볼 수 있는 [서비스 상태 대시보드](https://portal.office.com/adminportal/home#/servicehealth) 를 제공 합니다.
+[Microsoft 365 관리 센터](https://portal.office.com/) 는 종속 서비스 외에도 팀 서비스의 현재 상태를 볼 수 있는 [서비스 상태 대시보드](https://portal.office.com/adminportal/home#/servicehealth) 를 제공 합니다.
 
 ### <a name="monitoring-with-the-mobile-app"></a>모바일 앱으로 모니터링
 
@@ -147,7 +147,7 @@ Office 365 서비스 통신 API를 사용 하 여 프로그래밍 방식으로 O
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
 
-| 작동이 | 설명 | 주기 | 팀 배정 |
+| 활동 | 설명 | 주기 | 팀 배정 |
 |---|---|---|---|
 | 서비스 상태 모니터링 | 제공 되는 도구를 사용 하 여 Microsoft 팀 서비스 상태 (및 종속 서비스)를 사전에 모니터링 합니다. 종속 서비스에는 Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Directory가 포함 됩니다. | 실시간 | |
 | 사고 알림 | 팀 서비스에 영향을 주는 이벤트를 내부 관련자에 게 알립니다. 내부 관련자는 사용자, helpdesks, 사건 관리자가 포함 될 수 있습니다. | 필요에 따라 | |
@@ -220,7 +220,7 @@ Microsoft 팀은 클라우드 기반 서비스입니다. 그러면 빠른 속도
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
 
-| 작동이| 설명| 주기| 팀 배정 |
+| 활동| 설명| 주기| 팀 배정 |
 |---|---|---|---|
 | 변경 모니터| Microsoft 팀 서비스에 대 한 예정 된 변경 사항 모니터링| Daily||
 | 변경 계획| 의사 소통 계획, 인식 캠페인, 교육 등의 새로운 기능과 기능을 평가 하 고 계획 합니다.| 필요에 따라 ||
@@ -275,7 +275,7 @@ Microsoft 팀은 클라우드 기반 서비스입니다. 그러면 빠른 속도
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
 
-| 작동이 | 설명 | 주기 | 팀 배정 |
+| 활동 | 설명 | 주기 | 팀 배정 |
 |---|---|---|---|
 | 사용량 측정 (사용 단계) | Onboarded는 사용 단계 중에 사이트가 계속 해 서 수 있으므로 팀 사용량을 측정 하 고 평가 합니다. 필요에 따라 주소 사용 문제가 발생 합니다. | 매주 | |
 | 측정값 사용 | 배포 완료 후 드라이브 값 단계에서 팀 사용량 측정 및 평가 필요에 따라 주소 사용 문제가 발생 합니다. | 격주로 | |
@@ -328,7 +328,7 @@ NPS는 – 100에서 100 까지의 인덱스 이며, 고객의 willingness을 �
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
 
-| 작동이 | 설명 | 주기 | 팀 배정 |
+| 활동 | 설명 | 주기 | 팀 배정 |
 |---|---|---|---|
 | 사용자 정서 평가 | 설문 조사 또는 인터뷰를 사용 하거나 팀 또는 Yammer의 피드백 채널을 통해 사용자 정서를 캡처하고 평가 합니다. | 필요에 따라 | |
 | 채택 계획 업데이트 | 사용자 의견을 바탕으로 조직의 드라이브 변경 여기에는 통신 계획, 교육 프로그램 또는 사용자에 게 지원을 제공 하는 방법에 대 한 변경 사항이 포함 될 수 있습니다. | 필요에 따라 | |
@@ -353,7 +353,7 @@ NPS는 – 100에서 100 까지의 인덱스 이며, 고객의 willingness을 �
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
 
-| 작동이 | 설명 | 주기 | 팀 배정 |
+| 활동 | 설명 | 주기 | 팀 배정 |
 |---|---|---|---|
 | Office 365 Ip 및 Url 모니터링 | 제공 된 [RSS 피드](https://go.microsoft.com/fwlink/p/?linkid=236301) 를 사용 하 여 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips) 에 대 한 변경 내용을 모니터링 하 고 해당 네트워킹 그룹에 대 한 변경 요청을 시작 합니다. | Daily | |
 | Office 365 Ip 및 Url에 대 한 변경 내용에 따라 네트워크 업데이트 | 해당 네트워크 구성 요소 (방화벽, 프록시 서버, Vpn, 클라이언트 쪽 방화벽 등)에 대 한 업데이트를 만들어 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips)에 대 한 변경 내용을 반영 합니다. | 필요에 따라 | |
@@ -386,7 +386,7 @@ NPS는 – 100에서 100 까지의 인덱스 이며, 고객의 willingness을 �
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
 
-| 작동이 | 설명 | 주기 | 팀 배정 |
+| 활동 | 설명 | 주기 | 팀 배정 |
 |---|---|---|---|
 | 품질 챔피언 지명할 및 교육 | 고품질 챔피언을 지명할 하 고 양성 하세요. | 필요에 따라 | |
 | 경력에 대 한 리뷰를 실시 합니다 (QERs). | QER을 수행 하 여 품질 및 안정성 추세를 식별 하 고 정의 된 대상을 검토 하 고 조직의 주요 관련자에 게 보고 합니다. | 월간 (배포 중 매주) | |
@@ -441,7 +441,7 @@ Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
 
-| 작동이 | 설명 | 주기 | 팀 배정 |
+| 활동 | 설명 | 주기 | 팀 배정 |
 |---|---|---|---|
 | 끝점 요구 사항 | 팀 끝점이 [Microsoft 팀 용 클라이언트 가져오기](get-clients.md)에 나열 된 팀의 모든 소프트웨어 요구 사항을 계속 충족 하는지 확인 합니다. | 월간 | |
 | 끝점 방화벽 | [Office 365 url 및 IP 주소 범위](https://aka.ms/o365ips)에 대 한 정보를 기반으로 끝점 방화벽에 대 한 적절 한 제외를 유지 합니다. 타사 공급 업체는 제외를 유지 하는 방법에 대 한 특정 지침을 제공 합니다. 자동으로 변경 내용을 알리도록 [RSS 피드에](https://support.office.com/o365ip/rss) 가입 합니다. | 필요에 따라 | |
@@ -453,7 +453,7 @@ Wi-fi 드라이버에 문제가 있을 수 있습니다. 예를 들어 드라이
 
 [Office 365 URL 및 IP 주소 범위](https://aka.ms/o365ips)
 
-[Microsoft 팀 용 클라이언트 가져오기](get-clients.md)
+[Microsoft Teams용 클라이언트 다운로드](get-clients.md)
 
 [Microsoft 팀 커뮤니티](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
@@ -488,13 +488,13 @@ Microsoft 팀 서비스를 배포한 후에는 관리와 관련 된 몇 가지 �
 
 ### <a name="team-creation-optional"></a>팀 만들기 (선택 사항)
 
-기본적으로 Exchange Online에서 사서함이 있는 모든 사용자는 Office 365 그룹을 만들 수 있는 권한을 가지 므로 Microsoft 팀의 팀입니다. 더 엄격 하 게 제어 하 고 [새 팀 만들기](assign-roles-permissions.md#permissions-to-create-teams) (그리고 새 Office 365 그룹 만들기)를 제한 하려는 경우 그룹 만들기 및 관리 권한을 관리자 집합에 위임할 수 있습니다. 조직에서이 옵션을 사용 하려는 경우이 문서에서 설명 하는 프로세스를 참조 하 여 사용자가 할당 된 팀이 처리 하는 요청을 제출 하도록 합니다.
+기본적으로 Exchange Online에서 사서함이 있는 모든 사용자는 Microsoft 365 그룹을 만들 수 있는 권한을 가지 므로 Microsoft 팀의 팀입니다. 더 엄격 하 게 제어 하 고 [새 팀 만들기](assign-roles-permissions.md#permissions-to-create-teams) (그리고 새 Microsoft 365 그룹 만들기)를 제한 하려는 경우 그룹 만들기 및 관리 권한을 관리자 집합에 위임할 수 있습니다. 조직에서이 옵션을 사용 하려는 경우이 문서에서 설명 하는 프로세스를 참조 하 여 사용자가 할당 된 팀이 처리 하는 요청을 제출 하도록 합니다.
 
 <!--ENDOFSECTION-->
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>매일/매주/매월/필요한 작업
 
-| 작동이 | 설명 | 주기 | 팀 배정 |
+| 활동 | 설명 | 주기 | 팀 배정 |
 |---|---|---|---|
 | 서비스 관리 | 테 넌 트 전체 팀 설정 관리. | 필요에 따라 | |
 | 사용자 관리 | 팀의 사용자 기반 설정 및 라이선스 관리 | 필요에 따라 | |

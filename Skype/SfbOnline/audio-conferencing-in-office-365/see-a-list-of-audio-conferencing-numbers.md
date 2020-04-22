@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '비즈니스용 Skype Online에서 전화 접속 회의 번호를 찾는 방법을 알아보세요. '
-ms.openlocfilehash: 6c9c9633f99edf42c3016b90f3b52c6c4c54b0d6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 065de84b3efa5303fbf3321b0087462c23c331fe
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42011021"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779414"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>비즈니스용 Skype Online의 오디오 회의 번호 목록 보기
 
@@ -38,7 +38,7 @@ ms.locfileid: "42011021"
  **가격을 찾으십니까?** [오디오 회의에 대 한 가격 산정을](https://products.office.com/skype-for-business/audio-conferencing#Requirements)참조 하세요.
   
 > [!IMPORTANT]
-> **오디오 회의에 대 한 모든 전화 접속 번호 목록이 포함 된 리소스가 없습니다.** 해당 지역 또는 국가/지역에서 전화 접속 전화 번호를 사용할 수 있는지 확인 하려면 **비즈니스용 Skype 관리 센터** > **음성** > **전화 번호로**이동 하 고 **추가**를 클릭 한 다음 **새 서비스 번호**를 클릭 합니다. **국가/지역**, **시/지역**, **구/군/시** 목록을 사용 하 여 검색을 필터링 합니다. 또한 무료 서비스 번호를 찾고 있는 경우에는 **상태/지역** 목록에서 무료 **통화** 를 선택 합니다.
+> **오디오 회의에 대한 모든 전화 접속 번호 목록을 포함하는 리소스는 없습니다.** 해당 지역 또는 국가/지역에서 전화 접속 전화 번호를 사용할 수 있는지 확인 하려면 **비즈니스용 Skype 관리 센터** > **음성** > **전화 번호로**이동 하 고 **추가**를 클릭 한 다음 **새 서비스 번호**를 클릭 합니다. **국가/지역**, **시/지역** 및 **도시** 목록을 사용하여 검색을 필터링합니다. 또한 무료 서비스 번호를 찾고 있는 경우에는 **상태/지역** 목록에서 무료 **통화** 를 선택 합니다.
   
 조직에서 사용할 수 있는 전화 번호가 하나뿐인 경우 모든 사용자의 기본 번호로 사용 됩니다. 여러 개의 전화 번호를 사용할 수 있는 경우 각 사용자의 기본 전화 번호를 선택할 수 있습니다. 이 기본 번호는 비즈니스용 Skype 모임 초대에 포함 됩니다.
   
@@ -52,7 +52,7 @@ ms.locfileid: "42011021"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>오디오 회의 전화 번호를 보려면
 
-1. 회사 또는 학교 계정으로 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정으로 로그인 합니다.
     
 2. **비즈니스용 Skype**> 관리 센터로 이동 합니다.
     

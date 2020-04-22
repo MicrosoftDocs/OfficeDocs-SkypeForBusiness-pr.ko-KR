@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef2f257934847f74466ff6f91890a667084b88d1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c3e3e9d3253fef62c93751367647399ca91febd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139667"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780607"
 ---
 # <a name="define-your-project-scope"></a>프로젝트 범위 정의
 
@@ -93,7 +93,7 @@ ms.locfileid: "43139667"
 |---|---|---|---|---|
 | **네트워크 및 품질** | 낮은 오디오 통화 백분율이 최소입니다. | [통화 품질 대시보드 (CQD)](https://aka.ms/sof-cqd) | \<팀과의 불량 통화 3% | 매주, 매월 |
 | **사용 및 인식** | 채팅, 모임, 통화 환경은 비즈니스용 Skype와 같거나 더 높습니다. | 조사가 | 80% 동의 또는 강력한 동의 | 주간 시험, 출시 후 |
-| **사용 및 채택** | 사용자가 솔루션을 능동적으로 사용 하는 경우 | Office 365 보고서 또는 CQD | 현재 솔루션 보다 나은 파일럿 사용자의 90% 참여 | 매주, 매월 |
+| **사용 및 채택** | 사용자가 솔루션을 능동적으로 사용 하는 경우 | Microsoft 365 보고서 또는 CQD | 현재 솔루션 보다 나은 파일럿 사용자의 90% 참여 | 매주, 매월 |
 | **사용 및 교육** | 팀을 사용할 수 있는 적절 한 교육/도움말 리소스가 있습니다. | 파일럿 이후 조사 | 80% 동의 또는 강력한 동의 | 파일럿 이후, 출시 후 |
 | **사용자 만족도** | 다른 사람에 게 팀 추천 | 파일럿 이후 조사 [를 통해 NPS (네트 Promoter 점수)](http://www.npscalculator.com/en) | NPS \> 0 | 파일럿 이후, 출시 후 |
 | **비즈니스 드라이버** | 비용 절감 | 지급 계정 | \$타사 솔루션의 X 백만 달러 비용 지출 | 6 개월, 1 년, 시행 후 5 년 |

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 비즈니스용 Skype Online에서 오디오 회의 번호에 대 한 오디오 회의 자동 전화 교환 언어를 선택 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 22c3ad1d2386dec07060548cd055a5d289db4364
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 34ed4ccee5239923f68b089ce14551fe43c32320
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680385"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776803"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>비즈니스용 Skype Online에서 오디오 회의를 위한 자동 전화 교환 언어 설정
 
@@ -45,7 +45,7 @@ ms.locfileid: "41680385"
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>회의 자동 전화 교환 언어 설정
 
-이 단계를 수행 하려면 [Office 365 전역 관리자](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 또는 [비즈니스용 Skype 관리자](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 여야 합니다.
+이 단계를 수행 하려면 [전역 관리자](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 또는 [비즈니스용 Skype 관리자](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 여야 합니다.
     
 1. **비즈니스용 Skype 관리 센터**의 왼쪽 탐색에서 **레거시 포털로**이동 합니다. 레거시 포털에서 **오디오 회의**를 선택한 다음 **Microsoft bridge**를 클릭 합니다.
     
@@ -56,7 +56,7 @@ ms.locfileid: "41680385"
     > [!NOTE]
     > 지원 되는 기본 및 보조 언어가 나열 됩니다. 목록에서 해당 항목을 선택 하는 순서는 호출자에 게 표시 되는 언어의 순서입니다. 
   
-4. **저장**을 클릭 합니다.
+4. **저장**을 클릭합니다.
     
 ## <a name="want-else-should-i-know"></a>기타 알아야 할 것
 
@@ -72,6 +72,6 @@ ms.locfileid: "41680385"
   
 자세히 알아보려면 [Windows PowerShell을 사용 하 여 일반적인 비즈니스용 Skype Online 관리 작업](https://go.microsoft.com/fwlink/?LinkId=525038) 을 참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365에서 오디오 회의 체험 또는 구매](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

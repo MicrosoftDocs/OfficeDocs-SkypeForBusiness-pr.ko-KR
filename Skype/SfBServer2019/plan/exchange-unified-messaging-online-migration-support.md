@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft는 2020 년 2 월 28 일부 터 ExchUMO (Exchange 통합 메시징 온라인) 서비스를 더 이상 중지 하 고 있습니다. 이 문서에서는 영향을 받는 고객이 비즈니스 연속성을 계획 하 고 수행 해야 하는 작업을 요약 하 여 설명 합니다.
-ms.openlocfilehash: c39485de1acceef0dc340f039a1586b3e6014522
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: ab0040887b41fc62786f21c889f7dd63aae011b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417623"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780777"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 통합 메시징 온라인 마이그레이션 지원
 
@@ -82,7 +82,7 @@ Microsoft는 ExchUMO의 기능을 소비 하는 다양 한 고객 배포를 파�
     사용자의 마이그레이션과 관련 된 추가 정보와 시간 표시 막대와 함께 관리자 알림 센터에서 공지를 확인 하세요. 알림은 마이그레이션 기간 보다 30 일 이상 전송 됩니다. 
 
     > [!Note]
-    > 사용자의 마이그레이션 시간 표시 막대에 대 한 알림을 받았으며 업무상 중요 한 이유로 마이그레이션을 연기 하려는 경우 Microsoft 지원에 문의 하 여이 작업을 수행할 수 있습니다. 만료 날짜 (2020 년 2 월 28 일)를 초과 하는 마이그레이션을 연기할 수는 없습니다. 추가 질문이 있는 고객은 계정 팀 또는 Microsoft 지원에 문의 하세요. 이미 Office 365을 사용 하는 고객은 Office 365 관리 포털을 통해 지원 사례를 제출할 수 있습니다. 
+    > 사용자의 마이그레이션 시간 표시 막대에 대 한 알림을 받았으며 업무상 중요 한 이유로 마이그레이션을 연기 하려는 경우 Microsoft 지원에 문의 하 여이 작업을 수행할 수 있습니다. 만료 날짜 (2020 년 2 월 28 일)를 초과 하는 마이그레이션을 연기할 수는 없습니다. 추가 질문이 있는 고객은 계정 팀 또는 Microsoft 지원에 문의 하세요. 이미 Office 365을 사용 하는 고객은 Microsoft 365 관리 센터를 통해 지원 사례를 제출할 수 있습니다. 
 
 6. **계획 된 마이그레이션을 위해 옵트인 고려**
 
@@ -104,7 +104,7 @@ Microsoft는 ExchUMO의 기능을 소비 하는 다양 한 고객 배포를 파�
 
 ## <a name="auto-attendant-migration-guidelines"></a>자동 전화 교환 마이그레이션 지침
 
-Office 365 테 넌 트 관리자는 Microsoft 클라우드 자동 전화 교환 서비스에서 Exchange UM Online 자동 전화 교환을 다시 만들고 Exchange UMO 서비스를 2020 년 2 월 28 일 전에 온-프레미스 전화 번호를 해당 사용자에 게 전환 해야 합니다. 퇴직. 새 클라우드 자동 전화 교환을 성공적으로 마이그레이션 및 테스트 하기 위한 권장 지침입니다. 자동 전화 교환 수가 많은 경우 [EXCHANGE UM 자동 전화 교환을](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) 사용 하 여 자동 전화 교환의 대량 마이그레이션을 간편 하 게 수행할 수 있습니다.
+Office 365 조직 관리자는 Microsoft 클라우드 자동 전화 교환 서비스에서 Exchange UM Online 자동 전화 교환을 다시 만들고 Exchange UMO 서비스를 사용 하지 않을 때 2020 년 2 월 28 일 이전에 온-프레미스 전화 번호를 해당 사용자에 게 전환 해야 합니다. 새 클라우드 자동 전화 교환을 성공적으로 마이그레이션 및 테스트 하기 위한 권장 지침입니다. 자동 전화 교환 수가 많은 경우 [EXCHANGE UM 자동 전화 교환을](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) 사용 하 여 자동 전화 교환의 대량 마이그레이션을 간편 하 게 수행할 수 있습니다.
 
 ### <a name="setup"></a>설정
 
@@ -127,7 +127,7 @@ Office 365 테 넌 트 관리자는 Microsoft 클라우드 자동 전화 교환 
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO 및 Azure 클라우드 기반 서비스 기능 매트릭스
 
-| 서비스 | 기능 수준 | 기능 | 노트  | 클라우드 VM/AA  | ExUMO |
+| 서비스 | 기능 수준 | 기능 | Notes  | 클라우드 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | V  | 서비스 기능| 타사 PBX 지원    | Exchange UM Online에서 SIP notify 메시지를 사용 하 여 MWI (메시지 대기 표시기)와 같은 타사 PBX에 제공 되는 모든 기능 포함 | Kn   | 피지    |
 | V | 서비스 기능  | 비즈니스용 Skype 서버 지원   |  | 피지 | 피지    |

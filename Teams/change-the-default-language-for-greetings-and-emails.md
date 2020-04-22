@@ -23,16 +23,16 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 비즈니스용 Skype를 설정 하 여 조직의 기본 음성 메일 인사말에 다른 언어를 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 5cff20da14dac942527b8b667731c24a47f0cf29
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43752345"
+ms.locfileid: "43780367"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>인사말 및 전자 메일의 기본 언어 변경
 
-[Office 365 전역 관리자](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)인 경우 비즈니스용 Skype를 설정 하 여 다른 언어로 기본 음성 메일 인사말을 재생할 수 있습니다. 기본 시스템 인사말은 "John Smith에 게 메시지를 남기기 주십시오." 라는 것입니다. 발신음을 확인 한 후 메시지를 기록 하세요. 녹화를 완료 하거나, 전화를 끊거나, 더 많은 옵션을 보려면 파운드 키를 누릅니다. " 
+[전역 관리자](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)인 경우 비즈니스용 Skype를 설정 하 여 다른 언어로 기본 음성 메일 인사말을 재생할 수 있습니다. 기본 시스템 인사말은 "John Smith에 게 메시지를 남기기 주십시오." 라는 것입니다. 발신음을 확인 한 후 메시지를 기록 하세요. 녹화를 완료 하거나, 전화를 끊거나, 더 많은 옵션을 보려면 파운드 키를 누릅니다. " 
   
  **먼저 다음과 같은 중요 한 정보를 읽어 보세요.**
   
@@ -49,7 +49,7 @@ ms.locfileid: "43752345"
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>조직의 모든 사용자에 대 한 시스템 언어 변경
 
-1. 에서 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) [Office 365 전역 관리자](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 계정으로 로그인 합니다. 
+1. 의 [전역 관리자](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 계정으로 로그인 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)합니다. 
     
 2. Microsoft 365 관리 센터에서 **설정** > **설정** > **조직 프로필**을 선택 합니다. 
     

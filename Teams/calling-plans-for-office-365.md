@@ -1,5 +1,5 @@
 ---
-title: Office 365의 통화 플랜
+title: Microsoft 365에 대 한 통화 요금제
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,14 +25,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Skype for business 옵션에 대 한 통화 요금제 (PSTN 통화 요금제)와 조직의 라이선스를 얻는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 7eb6b049761ed7575512b816ea31c86c35c17baf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825256"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779947"
 ---
-# <a name="calling-plans-for-office-365"></a>Office 365의 통화 플랜
+# <a name="calling-plans-for-microsoft-365"></a>Microsoft 365에 대 한 통화 요금제
 
 다른 비즈니스용 Skype 및 Microsoft 팀 사용자에 게 전화를 거는 것은 무료 이지만, 사용자가 일반 전화기로 전화를 걸 수 있고 음성 통화를 할 서비스 공급자가 없는 경우에는 통화 요금제를 구입 해야 합니다. 자세한 내용은 [전화 시스템 및 통화 계획](calling-plan-landing-page.md)을 참조 하세요.
   
@@ -75,9 +75,9 @@ ms.locfileid: "41825256"
 
 - [통화 요금제 가격](https://go.microsoft.com/fwlink/?LinkId=799761)
     
-- [전화 시스템의 가격 책정](https://go.microsoft.com/fwlink/?linkid=799763)
+- [전화 시스템 가격](https://go.microsoft.com/fwlink/?linkid=799763)
     
-- [오디오 회의에 대 한 가격](https://go.microsoft.com/fwlink/?linkid=799762)
+- [오디오 회의 가격](https://go.microsoft.com/fwlink/?linkid=799762)
     
 ## <a name="for-more-information"></a>자세한 내용은
 
@@ -85,12 +85,12 @@ ms.locfileid: "41825256"
   
 - [통화 플랜 설정](set-up-calling-plans.md)
     
-- [Microsoft 팀 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
 - [Office 365에서 전화 시스템을 사용 하 여 얻을 수 있는 기능](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [비즈니스용 Skype 온라인 설정](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
@@ -98,5 +98,5 @@ ms.locfileid: "41825256"
     
 - [통화 플랜 설정](set-up-calling-plans.md)
     
-- [자금 추가 및 통신 크레딧 관리](add-funds-and-manage-communications-credits.md)
+- [자금 추가 및 커뮤니케이션 크레딧 관리](add-funds-and-manage-communications-credits.md)
  

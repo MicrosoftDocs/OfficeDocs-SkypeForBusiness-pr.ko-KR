@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157896"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779805"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>비즈니스용 Skype에서 IT 관리자를 위한 &mdash; 팀으로 업그레이드
 
@@ -201,7 +201,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 사용자가 팀 전용 모드로 마이그레이션될 때 기본적으로 자신이 구성한 비즈니스용 Skype 모임이 팀으로 변환 됩니다. 사용자에 게 팀 전용 모드를 할당할 때 선택적으로 기본 동작을 사용 하지 않도록 설정할 수 있습니다. 온-프레미스에서 사용자를 이동 하는 경우 온라인 사용자 계정에 대 한 모임을 작동 하도록 클라우드로 마이그레이션해야 하지만,-MoveToTeams를 지정 하지 않으면 모임이 팀으로 변환 되지 않고 비즈니스용 Skype 모임으로 마이그레이션됩니다. 
 
-테 넌 트 수준에서 TeamsOnly 모드를 할당할 때 모임 마이그레이션은 사용자에 대해 트리거되지 않습니다. 테 넌 트 수준에서 TeamsOnly 모드를 할당 하 고 모임을 마이그레이션하면 PowerShell을 사용 하 여 테 넌 트의 사용자 목록을 가져올 수 있습니다 (예: 필요한 필터와 함께 CsOnlineUser 사용) 한 다음 이러한 각 사용자를 반복 하 여 모임을 트리거합니다. 시작-CsExMeetingMigration을 사용 하 여 마이그레이션. 자세한 내용은 [MMS (모임 마이그레이션 서비스) 사용](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)을 참조 하세요.
+테 넌 트 수준에서 TeamsOnly 모드를 할당할 때 모임 마이그레이션은 사용자에 대해 트리거되지 않습니다. 테 넌 트 수준에서 TeamsOnly 모드를 할당 하 고 모임을 마이그레이션하려면 PowerShell을 사용 하 여 테 넌 트의 사용자 목록을 가져올 수 있습니다 (예: 필요한 필터와 함께 CsOnlineUser 사용). 그런 다음 이러한 사용자 각각을 순환 하 여 Start-CsExMeetingMigration를 사용 하 여 모임 마이그레이션을 트리거합니다. 자세한 내용은 [MMS (모임 마이그레이션 서비스) 사용](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)을 참조 하세요.
 
 
 ### <a name="additional-considerations-for-organizations-with-skype-for-business-server-on-premises"></a>비즈니스용 Skype Server 온-프레미스를 사용 하는 조직에 대 한 추가 고려 사항
@@ -221,7 +221,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 - 온-프레미스 사용자 용 Skype for Business 클라이언트에 알림을 표시 하려는 경우 온-프레미스 도구 모음에서 TeamsUpgradePolicy를 사용 해야 합니다. NotifySfbUsers 매개 변수만 온-프레미스 사용자와 관련이 있습니다.  온-프레미스 사용자는 TeamsUpgradePolicy의 온라인 인스턴스에서 자신의 모드를 받습니다. [허용-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)의 메모를 참조 하세요. 
 
 >[!NOTE]
-> 9 월 3 2019 일 이후에 만들어진 모든 새 테 넌 트는 관리자가 다운 그레이드할 수 있는 기능 없이 팀만 테 넌 트에만 생성 됩니다. Skype for Business Server 온-프레미스를 사용 하 여 이전에 office 365 2019 구독이 설치 되어 있지 않은 경우에는 Office 365에 대 한 구독을 얻은 후 테 넌 트가 다운 그레이드 하도록 Microsoft 지원에 문의 해야 합니다. 
+> 2 월 3 일 이후에 만들어진 모든 새 테 넌 트는 조직에 비즈니스용 Skype 서버에 대 한 온-프레미스 배포가 이미 있는 경우 2019를 제외 하 고는 TeamsOnly 넌 트로만 생성 됩니다. Microsoft는 DNS 레코드를 사용 하 여 온-프레미스 비즈니스용 Skype 서버 조직을 식별 합니다. 조직에서 공용 DNS 항목이 없는 온-프레미스 비즈니스용 Skype 서버를 사용 하는 경우 Microsoft 지원에 전화를 걸어 새 테 넌 트가 다운 그레이드 되도록 해야 합니다. 
 
 
 ## <a name="perform-the-upgrade-for-your-organization"></a>조직에 대 한 업그레이드 수행
@@ -286,7 +286,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 1. 다음과 같이 팀에서 활성 상태인 사용자를 찾습니다.
 
-   1. Office 365 관리 포털의 왼쪽 탐색에서 보고서로 이동한 다음 사용 현황을 클릭 합니다. 
+   1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 보고서로 이동한 다음 사용 현황을 클릭 합니다. 
    2. "보고서 선택" 드롭다운에서 Microsoft 팀, 사용자 활동을 차례로 선택 합니다. 팀에서 활성화 된 내보낼 수 있는 사용자 테이블을 제공 합니다. 
    3. 내보내기, Excel 열기, 필터링을 차례로 클릭 하 여 팀에서 활성 상태인 사용자만 표시 합니다.
 
@@ -335,7 +335,7 @@ PSTN 호출 기능이 관련 되어 있으면 팀 전용 모드로 이동할 때
 
 - *비즈니스용 Skype 온-프레미스에서 엔터프라이즈 음성을 사용 하 여 온라인으로 전환 하 고 온-프레미스 PSTN 연결을 유지 하는 사용자*입니다.  이 사용자를 팀으로 마이그레이션하면 사용자의 온-프레미스 비즈니스용 Skype 계정을 클라우드로 이동 하 고 사용자의 직접 라우팅에 맞게 이동 하도록 조정 해야 합니다. 
 
-- Enterprise Voice를 사용 하는 *비즈니스용 Skype 온-프레미스 사용자*로 서, 온라인으로 이동 하 고 Microsoft의 통화 요금제를 사용 하 게 됩니다.  이 사용자를 팀으로 마이그레이션하면 사용자의 온-프레미스 비즈니스용 Skype 계정을 클라우드로 이동 하 고 해당 사용자의 전화 번호를 Microsoft 전화 플랜 또는 B로 이동 하는 것을 조정 해야 합니다 .의 새 구독자 번호 지정 사용 가능한 지역.
+- Enterprise Voice를 사용 하는 *비즈니스용 Skype 온-프레미스 사용자*로 서, 온라인으로 이동 하 고 Microsoft의 통화 요금제를 사용 하 게 됩니다.  이 사용자를 팀으로 마이그레이션하면 사용자의 온-프레미스 비즈니스용 Skype 계정을 클라우드로 이동 하 고 해당 사용자의 전화 번호를 Microsoft 통화 요금제 또는 B로 이동 하 여 사용 가능한 지역에서 새 구독자 번호를 할당 해야 합니다.
 
 이 문서에서는 상위 수준의 개요만 제공 합니다. 자세한 내용은 [전화 시스템 다이렉트 라우팅](direct-routing-landing-page.md) 및 [통화 계획](calling-plan-landing-page.md)을 참조 하세요. 또한, 팀에 전화 시스템을 사용 하는 것은 사용자가 TeamsOnly 모드에 있는 경우에만 지원 됨을 참고 하세요.  사용자가 군도 모드에 있는 경우, 전화 시스템은 비즈니스용 Skype 에서만 지원 됩니다. 
 
@@ -469,7 +469,7 @@ PSTN 호출 기능이 관련 되어 있으면 팀 전용 모드로 이동할 때
 | :------------------ | :---------------- |
 | TeamsOnly, SfbWithTeamsCollabAndMeetings |    팀에서 예약 된 모든 모임 Outlook에서는 비즈니스용 Skype 추가 기능을 사용할 수 없습니다. | 
 | SfbWithTeamsCollab, SfbOnly   | 비즈니스용 Skype에서 예약 된 모든 모임 Outlook에서는 팀 추가 기능을 사용할 수 없습니다. | 
-| 분리 |     회의는 비즈니스용 Skype 또는 팀에서 예약할 수 있습니다. 두 추가 기능은 모두 Outlook에서 사용할 수 있습니다. | 
+| 아일랜드 |     회의는 비즈니스용 Skype 또는 팀에서 예약할 수 있습니다. 두 추가 기능은 모두 Outlook에서 사용할 수 있습니다. | 
 
 
 ### <a name="interoperability"></a>운용할

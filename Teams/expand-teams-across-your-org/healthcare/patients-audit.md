@@ -15,16 +15,16 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 팀 용 환자 앱 관리자
-ms.openlocfilehash: 03aa421a72ab1402e0574a65117fa1eb182f1a47
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: fbbb3361968ae928638fedca09fbd8d4c2ff33b6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147711"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780407"
 ---
 # <a name="audit-logs-for-patients-app"></a>환자 앱에 대한 감사 로그
 
-환자 앱에 대 한 감사 로그 작업은 사고에 대 한 응답 팀이 환자의 전자 보험 레코드 (EMR) 또는 환자 의료 정보 (화이)에 대 한 변경 내용을 검토 하 고, 사용 하지 않는 경우에 대 한 정책 또는 절차의 변경 또는 개선 여부를 결정 합니다. 생산성 도구는 필요 합니다. 감사 로그 이벤트는 환자 앱 사용자 인터페이스를 통해 수행 되는 작업을 다룹니다.
+환자 앱에 대 한 감사 로그 작업은 사고에 대 한 응답 팀이 환자의 전자식 의료 기록 (EMR) 또는 환자 보험 정보 (화이)에 대 한 변경 내용을 검토 하 고 생산성 도구에서 사용 하지 않는 경우에 대 한 정책 또는 절차의 변경 또는 개선 사항이 필요한 지 여부를 결정할 수 있도록 합니다. 감사 로그 이벤트는 환자 앱 사용자 인터페이스를 통해 수행 되는 작업을 다룹니다.
 
 ## <a name="meet-hipaa-requirements"></a>HIPAA 요구 사항 충족
 
@@ -41,7 +41,7 @@ HIPAA 지침에 따라 건강 서비스 공급자는 변경 내용을 감사할 
 
 1. 관리자는 환자 앱에서 사용 되는 형식으로 EMR 서비스 공급자와 함께 작업 해야 합니다. [Microsoft 팀에 전자 의료 기록 통합을](patients-app.md)참조 하세요.
 2. 의료 제공자 관리자는 팀 관리 센터에서 환자 앱을 사용 하도록 설정 해야 합니다. 자세한 내용은 Microsoft 팀 및 관련 문서 [에서 앱 설정 정책 관리](../../teams-app-setup-policies.md) 를 참조 하세요.
-3. 관리자는 [office 365 감사 로그 검색](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)을 시작 하 고 설정 [하기 전에](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) 설명 된 대로 office 365의 활동 로그 감사를 사용 하도록 설정 하는 것과 동일한 방법으로 O365에서 작업 감사를 사용 하도록 설정 해야 합니다. 감사 로깅이 이미 설정 되어 있는 경우 환자 앱에는 특별 한 항목이 필요 하지 않습니다. 건강 보험 제공 자가 팀 내에서 앱을 설치 하 고 실행할 때마다 감사 로그는 해당 화이 활동을 기록 합니다.
+3. 관리자는 [감사 로그 검색](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)을 시작 하 고 설정 [하기 전에](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) 설명 된 대로 Office 365의 활동 로그 감사를 사용 하도록 설정 하는 것과 동일한 방법으로 O365에서 활동 감사를 사용 하도록 설정 해야 합니다. 감사 로깅이 이미 설정 되어 있는 경우 환자 앱에는 특별 한 항목이 필요 하지 않습니다. 건강 보험 제공 자가 팀 내에서 앱을 설치 하 고 실행할 때마다 감사 로그는 해당 화이 활동을 기록 합니다.
 4. 관리자는 환자 앱의 가용성을 알리기 위해 의료 관련 자가 감사에 포함할 활동을 생성 하기 시작 해야 합니다.
 
 <!-- add link out to client doc when available -->
@@ -78,8 +78,8 @@ HIPAA 지침에 따라 건강 서비스 공급자는 변경 내용을 감사할 
 
 Microsoft 팀에 대 한 기록 된 활동은 일반적으로 [Microsoft 팀 활동](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)에 설명 되어 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-[Office 365 감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+[감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 [Microsoft Teams에 전자 의료 레코드 통합](patients-app.md)

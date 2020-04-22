@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 여러 테 넌 트를 처리 하도록 한 SBC (세션 경계 컨트롤러)를 구성 하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 90bad0c87cef92a36dea392d98cfb66824c10113
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1419a42a6affa00bbeed35d328f91331ad5357ec
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141091"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779574"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -80,7 +80,7 @@ SBC 호스팅 시나리오의 SBCs를 배포 하 고 구성 하는 방법에 대
 
 전화가 Office 365 다이렉트 라우팅 인터페이스에 도달 하면 인터페이스는 Contact 헤더를 사용 하 여 사용자를 조회할 테 넌 트를 찾습니다. 일부 고객에 게는 여러 테 넌 트에서 중복 될 수 있는 숫자가 아닌 경우에도 다이렉트 라우팅이 전화 번호 조회를 사용 하지 않습니다. 따라서 전화 번호로 사용자를 조회할 정확한 테 넌 트를 식별 하는 데 Contact 헤더의 FQDN 이름이 필요 합니다.
 
-*Office 365 테 넌 트에서 도메인 이름을 만드는 방법에 대 한 자세한 내용은 [office 365 도메인 관련 도움말](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 을 검토 하세요.*
+*Office 365 조직에서 도메인 이름을 만드는 방법에 대 한 자세한 내용은 [office 365 도메인](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 에 대 한 도움말 보기를 검토 하세요.*
 
 다음 다이어그램에는 기본 도메인, 하위 도메인 및 연락처 머리글에 대 한 요구 사항이 요약 되어 있습니다.
 
@@ -138,7 +138,7 @@ SBC는 연결을 인증 하는 데 인증서가 필요 합니다. SBC 호스팅 
 
 도메인 이름을 등록 한 후에는 E1, E3 또는 E5 라이선스 사용자를 하나 이상 추가 하 고 생성 된 기본 도메인과 일치 하는 SIP 주소의 FQDN 부분으로 SIP 주소를 지정 하 여 정품 인증을 받아야 합니다. 
 
-*Office 365 테 넌 트에 사용자를 추가 하는 방법에 대 한 자세한 내용은 [office 365 도메인 관련 도움말](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 을 검토 하세요.*
+*Office 365 조직에서 사용자를 추가 하는 방법에 대 한 자세한 내용은 [office 365 도메인 관련 도움말](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 을 검토 하세요.*
 
 예: test@customers.adatum.biz
 
@@ -200,7 +200,7 @@ SBC는 연결을 인증 하는 데 인증서가 필요 합니다. SBC 호스팅 
 
 도메인 이름을 등록 한 후에는 사용자를 하나 이상 추가 하 고 sip 주소의 FQDN 부분을 사용 하 여 고객 테 넌 트의 만들어진 하위 도메인에 일치 하는 SIP 주소를 할당 해야 합니다.
 
-*Office 365 테 넌 트에 사용자를 추가 하는 방법에 대 한 자세한 내용은 [office 365 도메인 관련 도움말](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 을 검토 하세요.*
+*Office 365 조직에서 사용자를 추가 하는 방법에 대 한 자세한 내용은 [office 365 도메인 관련 도움말](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 을 검토 하세요.*
 
 예: test@sbc1.customers.adatum.biz
 

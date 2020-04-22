@@ -1,5 +1,5 @@
 ---
-title: 기존 Office 365 그룹 향상
+title: 기존 Microsoft 365 그룹 향상
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -8,7 +8,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
-description: 팀에 ditribution 목록을 초대 하 고 메일 사용이 가능한 보안 그룹을 추가 하 여 Office 365 그룹을 Microsoft 팀으로 향상 시키는 방법을 알아봅니다.
+description: 팀에 ditribution 목록을 초대 하 고 메일 사용이 가능한 보안 그룹을 추가 하는 등 microsoft 팀과 Microsoft 365 그룹을 개선 하는 방법을 알아봅니다.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,14 +18,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ad71a5d65eca924e7d73c157011ff12ce38bc9e4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 97164b6eeed1a626681cf320fc02c7dd0a74353a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136868"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776603"
 ---
-<a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Microsoft 팀과 기존 Office 365 그룹 향상
+<a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Microsoft 팀과 기존 Microsoft 365 그룹 향상
 =======================================================
 
 Microsoft 팀 사용자는 팀의 기능으로 기존 Office 365 그룹을 향상 시킬 수 있습니다. 공용 Office 365 그룹의 향상을 고려할 때 구성원 수가 5000 보다 작은 경우 사용자가이 작업을 수행할 수 있습니다.
@@ -43,7 +43,7 @@ Microsoft 팀 사용자는 팀의 기능으로 기존 Office 365 그룹을 향�
 
 메일 사용이 가능한 보안 그룹을 팀 구성원으로 추가할 수도 있습니다. 그러나 나중에 보안 그룹에 더 많은 구성원을 추가 하는 경우에는 해당 멤버가 팀에 자동으로 추가 되지 않습니다. 새 구성원을 개별적으로 추가 하거나 보안 그룹을 팀에 다시 추가 해야 합니다. (보안 그룹을 다시 추가 하는 경우 중복 제거를 통해 구성원을 한 번만 추가 해야 합니다.)
 
-Office 365 그룹에는 **공개 및 개인**의 두 가지 개인 정보 설정 유형이 있습니다. 팀에 대해 두 가지 그룹 유형을 모두 사용할 수 있지만 셀프 서비스의 경우에는 약간의 차이가 있습니다.
+Microsoft 365 그룹에는 **공개 및 개인**의 두 가지 개인 정보 설정이 있습니다. 팀에 대해 두 가지 그룹 유형을 모두 사용할 수 있지만 셀프 서비스의 경우에는 약간의 차이가 있습니다.
 
 -   사용자는 공용 그룹을 검색 하 고 팀 소유자의 승인을 필요 없이 자신에 게 참가할 수 있습니다.
 

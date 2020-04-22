@@ -16,12 +16,12 @@ MS.collection:
 description: Microsoft 팀 관리 센터에서 팀 PSTN 사용 보고서를 사용 하 여 조직의 통화 및 오디오 회의 사용에 대 한 개요를 확인 하는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3372bc77a4850da0690c2076c5858812e3e80452
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637195"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778254"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 팀 PSTN 사용 보고서
 
@@ -124,7 +124,7 @@ CSV의 첫 번째 행에 열 이름이 포함 됩니다. 모든 날짜는 UTC와
 | 16 | 연결 수수료 | `numeric(16, 2)` | 연결 수수료 금액 |
 | 17@@ | 부과 | `numeric(16, 2)` | 계좌에 부과 되는 통화 또는 비용의 금액입니다. |
 | awg | 통화 | `nvarchar(3)` | 통화 비용을 계산 하는 데 사용 되는 통화 유형입니다 ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)). |
-| 인치 | 성능 | `nvarchar(32)` | 통화에 사용 된 라이선스 |
+| 인치 | 기능 | `nvarchar(32)` | 통화에 사용 된 라이선스 |
 
 ### <a name="exported-direct-routing-usage-report"></a>내보낸 직접 라우팅 사용 보고서
 
@@ -134,7 +134,7 @@ CSV의 첫 번째 행에 열 이름이 포함 됩니다. 모든 날짜는 UTC와
 | :-: | :-: | :-: |:------------------- |
 | 0 | Legredir | `uniqueidentifier` | 고유한 통화 식별자 |
 | 1 | SIP 주소 | `nvarchar(128)` | 전화를 걸거나 받은 사용자 또는 봇의 주소입니다.<br/>이것은 실제로 SIP 주소와 같은 Azure Active Directory의 UserPrincipalName (UPN, 로그인 이름)입니다. |
-| 2 | 표시 이름 | `nvarchar(128)` | Office 365 포털에 설정 된 것 처럼 사용자 또는 통화 봇의 이름 (예: 통화 큐 또는 자동 전화 교환) |
+| 2 | 표시 이름 | `nvarchar(128)` | Microsoft 365 관리 센터에 설정 된 사용자 또는 통화 봇의 이름 (예: 전화 큐 또는 자동 전화 교환) |
 | 3 | 사용자 국가 | `nvarchar(2)` | 사용자의 국가 코드, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4(tcp/ipv4) | 초대 시간 | `datetimeoffset` | 초기 초대를 팀에서 발신으로 보내거나, sbc에 대 한 사용자 또는 인공 지능 통화를 호출 하거나, SBC에서 직접 라우팅의 SIP 프록시 구성 요소를 통해 수신 되는 인바운드 팀 또는 인공 전화 |
 | 5mb | 시작 시간 | `datetimeoffset` | 아웃 바운드 (팀/봇-PSTN 사용자에 대 한)의 SBC에서 최종 응답 (SIP 메시지 "200 OK")을 받은 경우 또는 SIP 프록시에서 인바운드 호출 (PSTN 사용자를 팀/Bot로 팀 백 엔드 내의 다음 홉으로 초대를 보내는 시간)<br/>실패 및 응답 하지 않은 통화의 경우이는 초대 또는 실패 시간과 같을 수 있습니다. |

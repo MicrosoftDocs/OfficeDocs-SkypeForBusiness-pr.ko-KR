@@ -19,22 +19,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ff198dcc7898f463c5b2c299ab9b9fb411f3382
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 52a3f29869320992840ab8aebd17453485eec662
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837728"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779594"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft 팀의 팀 및 채널 이해
 
 팀과 채널의 개념은 Microsoft 팀의 정상적인 생산성을 구현 하는 데 기본적으로 적합 합니다. 
 
-- 팀은 회사에 대 한 비즈니스 결과물을 생성 하기 위해 함께 작동 하는 사람, 콘텐츠, 도구 모음입니다. Teams는 Office 365 그룹에 기반하며 Office 365 그룹 멤버 자격 동기화에 대한 변경 사항이 소속 팀에 동기화됩니다. 
+- 팀은 회사에 대 한 비즈니스 결과물을 생성 하기 위해 함께 작동 하는 사람, 콘텐츠, 도구 모음입니다. 팀은 Microsoft 365 그룹을 기반으로 하며 팀에 대 한 Office 365 그룹 구성원 동기화가 변경 됩니다. 
 
 - 채널은 실제 작업 시간이 완료 된 팀 내의 공동 작업 공간입니다. 
 
-팀과 채널에 대 한 자세한 내용은 [Microsoft 팀의 팀 및 채널 개요](teams-channels-overview.md)를 참조 하세요. 종합적인 팀 채택을 안내 하는 경우 [팀 채택을 가이드](https://aka.ms/teamstoolkit)하세요. 팀 및 Office 365 그룹에 대 한 자세한 내용은 [office 365 그룹 및 Microsoft 팀](office-365-groups.md) 을 참조 하 고 [office 365 그룹에 대해 자세히 알아보세요](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+팀과 채널에 대 한 자세한 내용은 [Microsoft 팀의 팀 및 채널 개요](teams-channels-overview.md)를 참조 하세요. 종합적인 팀 채택을 안내 하는 경우 [팀 채택을 가이드](https://aka.ms/teamstoolkit)하세요. 팀 및 Microsoft 365 그룹에 대 한 자세한 내용은 [microsoft 365 그룹 및 Microsoft 팀](office-365-groups.md) 을 참조 하 고 [microsoft 365 그룹에 대 한 자세한](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)정보를 알아보세요.
 
 
 |  |  |

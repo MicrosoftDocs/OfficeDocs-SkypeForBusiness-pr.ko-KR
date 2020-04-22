@@ -18,21 +18,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 339353c1f4d7dc15b3cec69e275d0dd6111896eb
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b91045dae26d14ca1e902812a705e8fa99bdd164
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825096"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779194"
 ---
 # <a name="enhance-my-service"></a>내 서비스 개선
 
 이 문서에서는 조직에 대 한 클라우드 음성 서비스를 최대한 활용 하는 데 필요한 요구 사항에 대해 간략하게 설명 합니다. 클라우드 음성 서비스 기능을 지속적으로 모니터링 하 여 조직에 가장 적합 한 값을 제공 하 고 있는지 확인할 수 있습니다.
 
 ## <a name="enhance-my-service-overview"></a>내 서비스 개선 개요
-조직에 통화 계획 서비스를 사용 하 여 오디오 회의 또는 전화 시스템을 성공적으로 배포 하 고 서비스를 품질과 안정성으로 운영 하는 경우 다음 단계는 비즈니스에 대 한 영업 기회가 있는지 정기적으로 평가 하는 것입니다. 서비스를 개선 합니다. 이는 클라우드 서비스 관리에 대 한 최신 표준인 지속적인 서비스 향상 계획의 일부입니다. 
+조직에 통화 계획 서비스를 사용 하 여 오디오 회의 또는 전화 시스템을 성공적으로 배포 하 고 서비스를 품질과 안정성으로 운영 하는 경우, 다음 단계는 서비스를 개선할 수 있는 기회가 있는지 정기적으로 평가 하는 것입니다. 이는 클라우드 서비스 관리에 대 한 최신 표준인 지속적인 서비스 향상 계획의 일부입니다. 
 
-조직에 관심을 가질 수 있는 새로운 기능 향상을 위해 [팀 공용 로드맵](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) 를 모니터링 하 여 서비스를 항상 최대한 활용할 수 있도록 하는 좋은 방법입니다. Office 365 관리 포털에 액세스할 수 있는 경우에는 메시지 센터를 통해 새로운 기능과 변경 기능에 대해 microsoft에서 정기적으로 업데이트를 받을 수 있습니다. 
+조직에 관심을 가질 수 있는 새로운 기능 향상을 위해 [팀 공용 로드맵](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) 를 모니터링 하 여 서비스를 항상 최대한 활용할 수 있도록 하는 좋은 방법입니다. Microsoft 365 관리 센터에 액세스할 수 있는 경우에는 메시지 센터를 통해 새로운 기능과 변경 기능에 대 한 일반적인 업데이트를 받을 수 있습니다. 
 
 또한 조직이 증가 하 고 변경 되므로 정기적으로 비즈니스 사용 사례를 다시 방문 하 고 업데이트 하 여 조직의 현재 요구 사항에 맞게 서비스가 구성 되었는지 확인 해야 합니다.  조직의 피드백 채널을 설정 하 여 사용자와 내부 챔피언에서 실제 피드백을 받고 있는지 확인 합니다. 비공식적인 대화, 정기 모임 또는 팀 채널 또는 Yammer 커뮤니티를 통해 사용할 수 있습니다. 
 

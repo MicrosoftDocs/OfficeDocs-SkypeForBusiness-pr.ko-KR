@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e7e8effb58130a177e193db006ec6e0279f27309
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706998"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780597"
 ---
 # <a name="enlist-your-project-stakeholders"></a>프로젝트 관련자 참여
 
@@ -61,7 +61,7 @@ ms.locfileid: "42706998"
 | 전화 통신 리드 | 전화 통신 디자인 및 구현에 대 한 정보 제공 |
 | 서비스 소유자/품질 챔피언 | 사용자 환경의 품질을 비롯 하 여 팀의 모든 작업을 담당 합니다. |
 | 데스크톱 및 장치 리드 | 클라이언트, 장치 및 데스크톱 앱에 입력을 제공 합니다. |
-| IT Pro/테 넌 트 관리자 | 네트워크 준비 및 Office 365 포털 구성이 적절 한지 확인 합니다. |
+| IT Pro/테 넌 트 관리자 | 네트워크 준비와 Microsoft 365 관리 센터 구성이 적절 한지 확인 합니다. |
 | 지원/헬프 데스크 리드 | 지원 센터의 준비 상태를 관리 합니다. |
 | 변경 관리 리더 | 사용자 변경 관리 및 채택 프로그램 Oversees |
 | 마케팅 책임자 | 통신 캠페인 디자인 및 구현 |

@@ -12,12 +12,12 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a95f2fba2d65f0d25f1fa9b843dd7bb47240aa6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44d1f06fcbdbbba7400bf45857dad9ed57971363
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188398"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779724"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -103,7 +103,7 @@ X.509 인증서를 가져온 후에는 Microsoft Online Services 모듈 ( **시�
 
     Connect-MsolService
 
-Enter를 누르면 자격 증명 대화 상자가 표시됩니다. 대화 상자에 Office 365 사용자 이름 및 암호를 입력한 후 확인을 클릭합니다.
+Enter를 누르면 자격 증명 대화 상자가 표시됩니다. 대화 상자에 Microsoft 365 또는 Office 365 사용자 이름과 암호를 입력 한 다음 확인을 클릭 합니다.
 
 Office 365에 연결되는 즉시 서비스 계정에 대한 정보를 반환하기 위해 다음 명령을 실행할 수 있습니다.
 
