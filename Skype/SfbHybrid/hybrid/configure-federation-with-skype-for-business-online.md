@@ -18,33 +18,35 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 온-프레미스 배포와 비즈니스용 Skype Online 간의 상호 운용성을 구성 하는 방법을 알아봅니다.'
-ms.openlocfilehash: 1b36a25674c3d6690b7490d0cd0793f05131cc12
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bd8b3ee3e70cb3662a4eae68fdb5ae6149b55a84
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726788"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43750035"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>비즈니스용 Skype 하이브리드 구성하기
 
 비즈니스용 Skype 하이브리드를 구성하기 위해서는 다음 작업을 수행해야 합니다.
 
-- [Office 365와 페더레이션 할 온-프레미스 환경 서비스를 구성](#configure-your-on-premises-edge-service-to-federate-with-office-365)합니다.
+- [온-프레미스에 지 서비스를 Office 365 또는 다른 조직과 페더레이션 하도록 구성](#configure-your-on-premises-edge-service-to-federate-with-office-365-or-another-organization)합니다.
 - [Office 365을 신뢰 하도록 온-프레미스 환경을 구성 하 고 office 365와 공유 SIP 주소 공간을 사용 하도록 설정](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365)합니다.
 - [Office 365 테 넌 트에서 공유 SIP 주소 공간을 사용 하도록 설정](#enable-shared-sip-address-space-in-your-office-365-tenant)합니다.
 
 Exchange 온-프레미스를 사용 하는 경우 Exchange 온-프레미스 및 비즈니스용 Skype 온라인 환경 간에 OAuth를 구성할 수 있습니다. 자세한 내용은 [비즈니스용 Skype 서버에서 서버 간 인증 관리](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) 및 [비즈니스용 skype 및 Exchange 통합 계획](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support)을 참조 하세요. 
   
-## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365"></a>Office 365와 페더레이션 할 온-프레미스에 지 서비스 구성
+## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365-or-another-organization"></a>Office 365 또는 다른 조직과 페더레이션 하도록 온-프레미스에 지 서비스 구성
 
 페더레이션을 사용 하면 온-프레미스 배포의 사용자가 조직의 Office 365 사용자와 통신할 수 있습니다. 페더레이션을 구성 하려면 비즈니스용 Skype 서버 관리 셸에서 다음 cmdlet을 실행 합니다.
   
 ```PowerShell
-Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -EnablePartnerDiscovery 1 -UseDnsSrvRouting
+Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
 ```
 
-'-EnablePartnerDiscovery ' 값이 1로 설정 된 경우 비즈니스용 Skype 서버는 DNS 레코드를 사용 하 여 AllowedDomains 목록에 나열 되지 않은 파트너 도메인을 검색 합니다. 값이 0으로 설정 되 면 비즈니스용 Skype 서버가 AllowedDomains 목록에 있는 도메인과만 페더레이션 합니다. 이 매개 변수는 DNS 서비스 라우팅을 사용하는 경우에 필요합니다.
+'-EnablePartnerDiscovery ' 값이 $True 설정 된 경우 비즈니스용 Skype 서버는 DNS 레코드를 사용 하 여 AllowedDomains 목록에 나열 되지 않은 파트너 도메인을 검색 합니다. 값이 $False 설정 된 경우 비즈니스용 Skype 서버는 AllowedDomains 목록에 있는 도메인만 페더레이션 합니다. 이 매개 변수는 DNS 서비스 라우팅을 사용하는 경우에 필요합니다.
 
+> [!NOTE]
+> 온-프레미스 비즈니스용 Skype 배포 사용자와 비즈니스용 Skype Online 조직의 사용자 간 페더레이션을 사용 하는 방법에 대 한 자세한 내용은 [비즈니스용 Skype online 고객에 대 한 페더레이션 지원 구성을](https://docs.microsoft.com/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support)참조 하십시오.
 
 
 ## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365"></a>Office 365에서 공유 SIP 주소 공간을 사용 하도록 온-프레미스 환경을 구성 합니다.
@@ -92,4 +94,3 @@ Import-PSSession (New-CsOnlineSession -Credential $cred) -AllowClobber
 ## <a name="see-also"></a>참고 항목
 
 [새-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
-

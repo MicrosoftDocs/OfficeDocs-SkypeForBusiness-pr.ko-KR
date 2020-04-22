@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 비즈니스용 Skype를 설정 하 여 조직의 기본 음성 메일 인사말에 다른 언어를 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 829776be347f2453f3b87a150b19e2334e876f40
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139137"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43752345"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>인사말 및 전자 메일의 기본 언어 변경
 
@@ -49,9 +49,9 @@ ms.locfileid: "43139137"
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>조직의 모든 사용자에 대 한 시스템 언어 변경
 
-1. 에서[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) [Office 365 전역 관리자](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 계정으로 로그인 합니다. 
+1. 에서 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) [Office 365 전역 관리자](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 계정으로 로그인 합니다. 
     
-2. Microsoft 365 관리 센터에서 **설정** > **조직 프로필**을 선택 합니다. 
+2. Microsoft 365 관리 센터에서 **설정** > **설정** > **조직 프로필**을 선택 합니다. 
     
      ![설정 선택 및 조직 프로필을 보여 주는 스크린샷](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   

@@ -7,26 +7,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
-ms.reviewer: sonua
+ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft Teams에서 클라우드 음성 기능을 배포하기 위한 실질적인 지침입니다.
+description: Microsoft 팀에서 모임 녹음/녹화를 설정 하 고 관리 하는 방법
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 678e17ed92c0f269e134ac6c23dce29169c0d36d
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
-ms.translationtype: HT
+ms.openlocfilehash: 1098b1e316bb6ed747577183fc144bf2db7d0b9d
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583005"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43751855"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
-
-> [!IMPORTANT]
-> Microsoft Stream이 국내 데이터 보존 지역에서 제공되지 않는 경우에도 Teams 데이터가 국내에 저장된 고객을 위해 Teams 모임 녹음/녹화 기능이 설정될 수 있도록 **향후에 구성이 변경될 예정입니다.** 해당 변경 내용이 적용되면 기본적으로 모임 녹음/녹화는 가장 가까운 Microsoft Stream 지역에 저장됩니다. Teams 데이터가 국내에 저장되어 있고 모임 녹음/녹화를 국내에 저장하기를 선호하는 경우 모임 녹음/녹화를 해제하고 Microsoft Stream이 국내 지역에 배포된 이후에 설정하는 것이 좋습니다. 자세한 내용은 [모임 녹음/녹화가 저장된 위치](#where-your-meeting-recordings-are-stored)를 참조하세요.
 
 Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹화하여 오디오, 비디오 및 화면 공유 활동을 캡처할 수 있습니다. 사용자가 선택 캡션을 사용하여 모임을 녹음/녹화한 것을 재생하고 대화 내용에서 중요한 토론 항목을 검색할 수 있도록 녹음/녹화를 위한 자동 기록 옵션도 있습니다. 녹음/녹화는 클라우드에서 이루어지며 [Microsoft Stream](https://docs.microsoft.com/stream/)에 저장되므로 사용자는 조직 전체에서 녹음/녹화를 안전하게 공유할 수 있습니다.
 
@@ -53,13 +49,13 @@ Teams 사용자 모임을 녹음/녹화하려면 Microsoft Stream이 테넌트�
 
 해당 섹션에서는 Tema 모임 녹음/녹화를 설정하고 계획하는 방법을 설명합니다.
 
-### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>조직의 사용자에 대한 Microsoft Stream 사용
+### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>조직의 사용자에 대해 Microsoft Stream 설정
 
 Microsoft Stream은 적격 Office 365 구독 또는 독립 실행형 서비스의 일부로 사용할 수 있습니다.  자세한 내용은 [Stream 라이선싱 개요](https://docs.microsoft.com/stream/license-overview)를 참조하세요.  Microsoft Stream이 이제 Microsoft 365 Business, Office 365 Business Premium 및 Office 365 Business Essentials에 포함되어 있습니다.
 
 사용자가 Microsoft Stream에 액세스할 수 있도록 [Office 365에서 사용자에게 라이선스를 할당](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)하는 방법에 대해 자세히 알아보세요. [해당 문서](https://docs.microsoft.com/stream/disable-user-organization)에 정의된 대로 Microsoft Stream이 사용자에게 차단되지 않았는지 확인합니다.
 
-### <a name="ensure-that-users-have-upload-video-permissions-in-microsoft-stream"></a>사용자가 Microsoft Stream에서 비디오 업로드 권한을 보유하고 있는지 확인
+### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>사용자가 Microsoft Stream에서 비디오 업로드 권한이 있는지 확인
 
 기본적으로 Stream이 사용 가능하고 라이선스가 사용자에게 할당되면 회사의 모든 사용자가 Stream에서 콘텐츠를 만들 수 있습니다. Microsoft Stream 관리자는 Stream에서 [콘텐츠를 만들기 위해 직원을 제한](https://docs.microsoft.com/stream/restrict-uploaders)할 수 있습니다. 이 제한된 목록에 있는 사용자는 모임을 녹음/녹화할 수 없습니다.
 
@@ -93,22 +89,11 @@ PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowCloudRecording 설정�
 |                                    회사의 모든 사용자가 모임을 녹음/녹화할 수 있게 하려고 합니다.                                    |                                                                     <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = True인지 확인<li>모든 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나가 있습니다. </ol>                                                                     |
 | 대부분의 사용자가 모임을 녹음/녹화할 수 있게하고 녹음/녹화를 허용하지 않는 특정 사용자를 선택적으로 해제하려고 합니다. |        <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = True인지 확인<li>대부분의 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나가 있습니다.<li>다른 모든 사용자에게 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다.</ol>         |
 |                                                   녹음/녹화를 100% 사용하지 않도록 설정하려고 합니다.                                                   |                                                                <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인<li>모든 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다.                                                                 |
-|      대부분의 사용자에게 녹음/녹화를 사용하지 않도록 설정하고 선택적으로 특정 사용자에게 녹음/녹화를 사용하도록 설정하려고 합니다.       | <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인<li>대부분의 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다.<li>다른 모든 사용자에게 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. <ol> |
+|      대부분의 사용자에 대해 녹화를 해제 하 고 녹화할 수 있는 특정 사용자를 선택적으로 사용 하도록 설정 하 고 싶습니다.       | <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인<li>대부분의 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다.<li>다른 모든 사용자에게 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>모임 녹음/녹화가 저장된 위치
 
-모임 녹음/녹화는 Microsoft Stream 클라우드 저장소에 저장됩니다. Microsoft Stream이 데이터가 저장된 국내 데이터 보존 지역에서 제공되지 않는 경우 Teams 데이터가 국내에 저장된 고객을 위해 모임 녹음/녹화 기능이 현재 설정되어 있습니다. Microsoft Stream이 국내 데이터 보존 지역에서 제공되지 않는 경우 데이터가 국내에 저장된 고객을 위해 모임 녹음/녹화 기능이 향후 설정될 예정입니다.
-
-해당 변경 내용이 적용되면 기본적으로 모임 녹음/녹화는 지리적으로 가장 가까운 Microsoft Stream 지역에 저장됩니다. Teams 데이터가 국내에 저장되어 있고 모임 녹음/녹화를 국내에 저장하기를 선호하는 경우 기능을 해제하고 Microsoft Stream이 국내 데이터 보존 지역에 배포된 이후 설정하는 것이 좋습니다. 조직의 모든 사용자에 대해 기능을 해제하려면 Microsoft Teams 관리 센터에서 전역 Teams 모임 정책에서 **클라우드 녹음/녹화 허용** 설정을 해제합니다.
-
-다음은 해당 변경 내용이 적용될 때 모임 녹음/녹화를 설정하는 경우의 결과에 대한 요약입니다.
-
-|모임 녹음/녹화를 설정하는 경우... |모임 녹음/녹화는 저장됩니다...  |
-|---------|---------|
-|Microsoft Stream이 국내 데이터 보존 지역에서 제공되기 이전    |가장 가까운 Microsoft Stream 지역         |
-|Microsoft Stream이 국내 데이터 보존 지역에서 제공된 이후    | 사용자의 국내 데이터 보존 지역        |
-
-모임 녹음/녹화를 아직 설정하지 않은 신규 및 기존 테넌트의 경우 Microsoft Stream이 국내 데이터 보존 지역에서 제공된 이후 새 녹음/녹화는 국내에 저장됩니다. 그러나 Microsoft Stream이 국내 데이터 보존 지역에 제공되기 이전에 모임 녹음/녹화를 사용하는 모든 테넌트는 Microsoft Stream이 국내 데이터 보존 지역에 제공된 이후에도 기존 및 새 녹음/녹화에 대한 Microsoft Stream 저장소를 계속 사용할 수 있습니다.
+모임 녹음/녹화는 Microsoft Stream 클라우드 저장소에 저장됩니다. 모임을 녹화 하면 Microsoft Stream이 영구적으로 보존 됩니다 (또는 녹음/녹화할 때까지 삭제 될 때까지). 녹화가 업로드 되지 않는 경우에는 20 일 동안 다운로드할 수 있는 팀 클라우드 저장소에 저장 됩니다. Microsoft Stream이 데이터가 저장된 국내 데이터 보존 지역에서 제공되지 않는 경우 Teams 데이터가 국내에 저장된 고객을 위해 모임 녹음/녹화 기능이 현재 설정되어 있습니다.
 
 Microsoft Stream 데이터가 저장된 지역을 찾으려면 Microsoft Stream에서 오른쪽 상단 모서리의 **?** 를 클릭하고 **Microsoft Stream 정보**를 클릭한 다음 **사용자 데이터 저장 위치**를 클릭합니다.  Microsoft Stream이 데이터를 저장하는 지역에 대한 자세한 내용은 [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)를 참조하세요.
 

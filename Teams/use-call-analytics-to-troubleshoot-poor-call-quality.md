@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 장치, 네트워크 및 연결에 대 한 통화 분석 세부 정보를 사용 하 여 Microsoft 팀과 비즈니스용 Skype 통화 및 모임에서 발생 하는 사용자 문제를 해결할 수 있습니다.
-ms.openlocfilehash: a9ef3265fa86349ef92c6174c6f561b006af4d1a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 05af82a942d54e0f97f2be2b176091f19186cbf4
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836768"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749565"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>통화 분석을 사용하여 통화 품질 저하 문제 해결
 
@@ -68,7 +68,7 @@ ms.locfileid: "41836768"
   
 4. 목록에서 사용자를 선택 합니다.
 
-5. **통화 내역**을 선택한 다음 문제를 해결할 통화 또는 모임을 선택 합니다.
+5. **통화 내역**을 선택한 다음 문제를 해결할 통화 또는 모임을 선택 합니다.  최대 500 개의 레코드가 반환 됩니다.
     
     ![사용자의 통화 기록 페이지 스크린샷.](media/use-call-analytics-to-troubleshoot-image-2.png)
   

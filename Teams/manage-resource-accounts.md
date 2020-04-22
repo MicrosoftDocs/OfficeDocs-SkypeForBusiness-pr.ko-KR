@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Microsoft 팀에서 자원 계정 관리에 대 한 자세한 정보
-ms.openlocfilehash: 5d1558f027226845842923140f9f9e64c5f4eae1
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 9de381c1ba338c9ffc51153ac0fa1296ccb3f4a0
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190874"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43750005"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 
@@ -82,7 +82,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 2. 전화 시스템 가상 사용자 라이선스 또는 일반 전화 시스템 라이선스를 얻습니다.
 
    가상 사용자 라이선스를 얻으려면 Microsoft 365 관리 센터에서 **청구** > **구입 서비스** > **추가 기능 구독** 으로 이동 하 여 끝으로 스크롤합니다. "전화 시스템-가상 사용자" 라이선스가 표시 됩니다. **지금 구입**을 선택 합니다. 비용이 0 인 경우에도 다음 단계를 따라 라이선스를 취득 해야 합니다.
-3. 새 자원 계정을 만듭니다. [Microsoft 팀 관리 센터에서 자원 계정 만들기](#create-a-resource-account-in-microsoft-teams-admin-center) 또는 [Powershell에서 리소스 계정 만들기](#create-a-resource-account-in-powershell) 참조
+3. 새 자원 계정을 만듭니다. [Microsoft 팀 관리 센터에서 자원 계정 만들기](#create-a-resource-account-in-microsoft-teams-admin-center) 또는 [Powershell에서 리소스 계정 만들기](#create-a-resource-account-in-powershell)를 참조 하세요.
 4. 전화 시스템- [가상 사용자 라이선스](teams-add-on-licensing/virtual-user.md) 또는 전화 시스템 라이선스를 리소스 계정에 할당 합니다. [Microsoft 팀 라이선스 할당](assign-teams-licenses.md) 및 [한 명의 사용자에 게 라이선스 할당](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)을 참조 하세요.
 5. 서비스 번호를 리소스 계정에 할당 합니다. [전화 번호 및 서비스 할당/할당 취소를](#assignunassign-phone-numbers-and-services)참조 하세요.
 6. 다음 중 하나를 설정 합니다.
@@ -96,11 +96,11 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 중첩 된 자동 전화 교환 또는 통화 대기열에는 리소스 계정이 필요 하지만 대부분의 경우 해당 리소스 계정은 전화 번호와 전화 번호를 지 원하는 데 필요한 라이선스가 필요 하지 않습니다. 전화 번호가 필요 하지 않은 리소스 계정을 만들려면 다음 작업을 순서 대로 수행 해야 합니다.
 
-1. 새 자원 계정을 만듭니다. [Microsoft 팀 관리 센터에서 자원 계정 만들기](#create-a-resource-account-in-microsoft-teams-admin-center) 또는 [Powershell에서 리소스 계정 만들기](#create-a-resource-account-in-powershell) 참조
+1. 새 자원 계정을 만듭니다. [Microsoft 팀 관리 센터에서 자원 계정 만들기](#create-a-resource-account-in-microsoft-teams-admin-center) 또는 [Powershell에서 리소스 계정 만들기](#create-a-resource-account-in-powershell)를 참조 하세요.
 2. 다음 중 하나를 설정 합니다.
    - [클라우드 자동 전화 교환](create-a-phone-system-auto-attendant.md)
    - [클라우드 통화 대기열](create-a-phone-system-call-queue.md)
-3. 통화 대기열 또는 자동 전화 교환에 리소스 계정을 할당 합니다. [전화 번호 및 서비스 할당/할당 취소를](#assignunassign-phone-numbers-and-services) 참조 하세요.
+3. 통화 대기열 또는 자동 전화 교환에 리소스 계정을 할당 합니다. [전화 번호 및 서비스 할당/할당 취소를](#assignunassign-phone-numbers-and-services)참조 하세요.
 
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Microsoft 팀 관리 센터에서 자원 계정 만들기
@@ -115,7 +115,7 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 ![새 자원 계정 옵션 스크린샷](media/res-acct.png)
 
-다음으로 [Office 365의 비즈니스용 사용자에 게 라이선스 할당](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) 에서 설명한 대로 O365 관리 센터의 자원 계정에 라이선스를 적용 합니다.
+다음으로 [Office 365의 비즈니스용 사용자에 게 라이선스 할당](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)에서 설명한 대로 O365 관리 센터의 리소스 계정에 라이선스를 적용 합니다.
 
 ### <a name="edit-resource-account"></a>자원 계정 편집 
 
@@ -175,9 +175,9 @@ Microsoft 팀 또는 비즈니스용 Skype Online에서는 연결 된 리소스 
 
 1. 자동 전화 교환에 사용할 리소스 계정을 온라인으로 만들려면 다음 명령을 사용 합니다.
 
-``` Powershell
-New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
-```
+    ``` Powershell
+    New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
+    ```
 
 2. 라이선스를 적용 하기 전에는 리소스 계정을 사용할 수 없습니다. O365 관리 센터의 계정에 라이선스를 적용 하는 방법에 대 한 자세한 내용은 [Office 365에서 비즈니스용 사용자에](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user) 게 라이선스 할당 및 비즈니스용 [Skype 라이선스 할당](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)을 참고 하세요.
 
@@ -214,7 +214,7 @@ Microsoft 팀 관리 센터에서 자원 계정 설정을 관리 하려면 **조
 서비스 번호가 보류 모드에서 중지 되지 않도록 하려면 먼저 리소스 계정에서 전화 번호를 분리 하 여 삭제 해야 합니다. 다음 이상 기능을 사용 하 여이 작업을 수행할 수 있습니다.
 
 ``` Powershell
-Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -TelephoneNumber $null
+Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
 ```
 
 이렇게 하면 사용자 탭의 O365 관리 포털에서 리소스 계정을 삭제할 수 있습니다.

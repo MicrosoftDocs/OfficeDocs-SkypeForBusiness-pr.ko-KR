@@ -19,15 +19,15 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32cbbbc87e6447c3bc49b97b772e2aea4849550f
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: d3375abfbcd8319d104b4a2a657492c5105e240f
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209500"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749785"
 ---
 > [!IMPORTANT]
-> Teams 서비스는 고객 경험 개선을 위해 변경될 수 있습니다. 예를 들어, 기본 액세스 또는 새로 고침 토큰 만료 시간은 Teams를 사용하는 성능 및 인증 복원을 향상시키기 위해 수정될 수 있습니다. 그러한 변경 사항은 원칙적으로 Teams를 안전하고 신뢰할 수 있는 상태로 유지하는 것을 목표로 수행됩니다. 
+> Teams 서비스는 고객 경험 개선을 위해 변경될 수 있습니다. 예를 들어, 기본 액세스 또는 새로 고침 토큰 만료 시간은 Teams를 사용하는 성능 및 인증 복원을 향상시키기 위해 수정될 수 있습니다. 그러한 변경 사항은 원칙적으로 Teams를 안전하고 신뢰할 수 있는 상태로 유지하는 것을 목표로 수행됩니다.
 <p>
 
  # <a name="security-and-microsoft-teams"></a>보안 및 Microsoft Teams
