@@ -19,25 +19,25 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: c3d292eecb6173f98a2e95dbbd5a1097f5f785eb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9fffea969ea1448bdf8f2a076dbef6756765e20
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836758"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780027"
 ---
-<a name="use-the-network-testing-companion"></a><span data-ttu-id="fad2d-103">네트워크 테스트 비교 사용</span><span class="sxs-lookup"><span data-stu-id="fad2d-103">Use the Network Testing Companion</span></span>
+<a name="use-the-network-testing-companion"></a><span data-ttu-id="b2f0d-103">네트워크 테스트 비교 사용</span><span class="sxs-lookup"><span data-stu-id="b2f0d-103">Use the Network Testing Companion</span></span>
 =================================
 
-<span data-ttu-id="fad2d-104">비즈니스용 Skype 및 Microsoft 팀 [네트워크 테스트 도우미](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4) 는 네트워크 품질과 비즈니스용 skype Online 또는 Microsoft 팀에 대 한 연결을 쉽게 테스트할 수 있는 방법을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="fad2d-104">The Skype for Business and Microsoft Teams [Network Testing Companion](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4) gives you an easy way to test your network quality and your connection to Skype for Business Online or Microsoft Teams.</span></span> <span data-ttu-id="fad2d-105">결과를 쉽게 해석 하 고 네트워크 관리자와 공유 하 여 잠재적인 네트워크 문제에 대 한 정보를 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fad2d-105">You can easily interpret the results and share them with network administrators to gain insights into potential network issues.</span></span>
+<span data-ttu-id="b2f0d-104">비즈니스용 Skype 및 Microsoft 팀 [네트워크 테스트 도우미](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4) 는 네트워크 품질과 비즈니스용 skype Online 또는 Microsoft 팀에 대 한 연결을 쉽게 테스트할 수 있는 방법을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="b2f0d-104">The Skype for Business and Microsoft Teams [Network Testing Companion](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4) gives you an easy way to test your network quality and your connection to Skype for Business Online or Microsoft Teams.</span></span> <span data-ttu-id="b2f0d-105">결과를 쉽게 해석 하 고 네트워크 관리자와 공유 하 여 잠재적인 네트워크 문제에 대 한 정보를 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b2f0d-105">You can easily interpret the results and share them with network administrators to gain insights into potential network issues.</span></span>
 
-<span data-ttu-id="fad2d-106">이 도구는 비즈니스용 Skype 또는 Microsoft 팀 배포의 계획 단계에서 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fad2d-106">You can use this tool in the planning phase of a Skype for Business or Microsoft Teams deployment.</span></span> <span data-ttu-id="fad2d-107">현재 팀 또는 비즈니스용 Skype Online을 사용 중인 경우에는이 도구를 사용 하 여 음성 품질 문제를 해결 하거나, 전화를 걸기 전에 네트워크 연결을 확인 하거나 품질이 좋지 않은 경우에만 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fad2d-107">If you're currently using Teams or Skype for Business Online, you can use this tool to troubleshoot voice quality issues or simply to check your network connection before you make a call or after you’ve had a poor-quality experience.</span></span>
+<span data-ttu-id="b2f0d-106">이 도구는 비즈니스용 Skype 또는 Microsoft 팀 배포의 계획 단계에서 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b2f0d-106">You can use this tool in the planning phase of a Skype for Business or Microsoft Teams deployment.</span></span> <span data-ttu-id="b2f0d-107">현재 팀 또는 비즈니스용 Skype Online을 사용 중인 경우에는이 도구를 사용 하 여 음성 품질 문제를 해결 하거나, 전화를 걸기 전에 네트워크 연결을 확인 하거나 품질이 좋지 않은 경우에만 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b2f0d-107">If you're currently using Teams or Skype for Business Online, you can use this tool to troubleshoot voice quality issues or simply to check your network connection before you make a call or after you’ve had a poor-quality experience.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="fad2d-108">네트워크 테스트 도우미를 다운로드 하 고 설치 하는 데 Office 365 구독이 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="fad2d-108">You don't need an Office 365 subscription to download and install the Network Testing Companion.</span></span>
+> <span data-ttu-id="b2f0d-108">네트워크 테스트 도우미를 다운로드 하 고 설치 하는 데 Microsoft 365 또는 Office 365 구독이 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="b2f0d-108">You don't need a Microsoft 365 or Office 365 subscription to download and install the Network Testing Companion.</span></span>
 
-## <a name="download-the-tool-and-documentation"></a><span data-ttu-id="fad2d-109">도구 및 문서 다운로드</span><span class="sxs-lookup"><span data-stu-id="fad2d-109">Download the tool and documentation</span></span>
+## <a name="download-the-tool-and-documentation"></a><span data-ttu-id="b2f0d-109">도구 및 문서 다운로드</span><span class="sxs-lookup"><span data-stu-id="b2f0d-109">Download the tool and documentation</span></span>
 
-<span data-ttu-id="fad2d-110">[PowerShell 갤러리](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4)에서 네트워크 테스트 도우미를 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="fad2d-110">Download the Network Testing Companion from the [PowerShell Gallery](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4).</span></span>
+<span data-ttu-id="b2f0d-110">[PowerShell 갤러리](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4)에서 네트워크 테스트 도우미를 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="b2f0d-110">Download the Network Testing Companion from the [PowerShell Gallery](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4).</span></span>
 
-<span data-ttu-id="fad2d-111">[설치 가이드, 사용자 안내서, 결과 지침](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-testing-companion.zip?raw=true)을 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="fad2d-111">Download the [Installation Guide, User Guide, and Results Guidance](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-testing-companion.zip?raw=true).</span></span>
+<span data-ttu-id="b2f0d-111">[설치 가이드, 사용자 안내서, 결과 지침](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-testing-companion.zip?raw=true)을 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="b2f0d-111">Download the [Installation Guide, User Guide, and Results Guidance](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-testing-companion.zip?raw=true).</span></span>
