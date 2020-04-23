@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 비즈니스용 Skype 온라인 원격 분석 도구를 사용 하 여 하이브리드 시나리오에서 온-프레미스 구현을 모니터링 하는 방법에 대해 간략하게 설명 합니다.
-ms.openlocfilehash: 910bfe2a1af1f39976d0098aeb1fd23a7ef31490
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad4d7ddb270bc4e4227eea7d33c37411ea96fa8c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765236"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779664"
 ---
 # <a name="plan-call-data-connector"></a>통화 데이터 커넥터 계획
 
@@ -62,10 +62,10 @@ Call Data Connector를 사용 하는 경우 비즈니스용 Skype 서버는 다�
 
    자세한 내용은 비즈니스용 [Skype 서버 및 office 365의 하이브리드 연결 계획](plan-hybrid-connectivity.md) 및 [비즈니스용 Skype 서버 및 office 365 간의 하이브리드 연결 구성을](configure-hybrid-connectivity.md)참조 하세요.
 
-- Office 365 테 넌 트에 인증 하 고 다음 역할을 사용 하도록 설정 했는지 확인 합니다.
+- Office 365 조직에 인증 하 고 다음 역할을 사용 하도록 설정 했는지 확인 합니다.
 
   - 비즈니스용 Skype 서버 관리자
-  - Office 365 전역 관리자
+  - 전역 관리자
 
 - 아직 수행 하지 않은 경우 [Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용](/microsoftteams/turning-on-and-using-call-quality-dashboard)에 설명 된 대로 통화 품질 대시보드를 켜십시오.
 

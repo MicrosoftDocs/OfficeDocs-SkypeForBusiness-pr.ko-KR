@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 비즈니스용 Skype Online에서 온-프레미스로 사용자를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0b2143a1705aff3f0b74fb0194d3d10e3d55771b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0add74a2480f4caed493e6e448427aa2462db714
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726738"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779674"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>클라우드에서 사용자를 온-프레미스로 이동 
 
@@ -49,7 +49,7 @@ ms.locfileid: "41726738"
 
 ### <a name="move-users-with-move-csuser"></a>사용자를 이동 하는 사용자 이동
 
-이동-CsUser는 온-프레미스 비즈니스용 Skype 관리 셸 PowerShell 창에서 사용할 수 있습니다. [필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 Office 365 테 넌 트 뿐만 아니라 온-프레미스 환경 둘 다에도 충분 한 권한이 있어야 합니다. 두 환경 모두에서 권한이 있는 단일 계정을 사용 하거나 온-프레미스 자격 증명을 사용 하 여 온-프레미스 비즈니스용 Skype 서버 관리 셸 창을 시작 하 고 `-Credential` 매개 변수를 사용 하 여 필요한 office 365 관리 역할이 있는 office 365 계정에 대 한 자격 증명을 지정할 수 있습니다.
+이동-CsUser는 온-프레미스 비즈니스용 Skype 관리 셸 PowerShell 창에서 사용할 수 있습니다. [필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 Office 365 조직 뿐만 아니라 온-프레미스 환경 둘 다에도 충분 한 권한이 있어야 합니다. 두 환경 모두에서 권한이 있는 단일 계정을 사용 하거나 온-프레미스 자격 증명을 사용 하 여 온-프레미스 비즈니스용 Skype 서버 관리 셸 창을 시작 하 고 `-Credential` 매개 변수를 사용 하 여 필요한 office 365 관리 역할이 있는 office 365 계정에 대 한 자격 증명을 지정할 수 있습니다.
 
 CsUser를 사용 하 여 사용자를 온-프레미스로 이동 하려면 다음을 수행 합니다.
 

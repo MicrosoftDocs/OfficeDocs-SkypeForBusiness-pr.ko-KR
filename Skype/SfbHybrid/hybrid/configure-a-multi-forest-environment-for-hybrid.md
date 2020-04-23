@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 다음 섹션에서는 하이브리드 시나리오에서 비즈니스용 Skype 기능을 제공 하기 위해 리소스/사용자 포리스트 모델에 여러 포리스트가 포함 된 환경을 구성 하는 방법에 대 한 지침을 제공 합니다.
-ms.openlocfilehash: 33945b245009a221d709e13d587f435aa4c054d8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983043"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780127"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>리소스 포리스트 토폴로지 배포
  
@@ -52,7 +52,7 @@ ms.locfileid: "41983043"
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>비즈니스용 Skype를 호스트 하는 포리스트에서 계정 동기화
 
-비즈니스용 Skype 서버가 하나의 포리스트 (리소스 포리스트)에 배포 되었지만 하나 이상의 다른 포리스트 (계정 포리스트)에 있는 사용자에 게 기능을 제공 하는 경우에는 다른 포리스트의 사용자가 비즈니스용 Skype를 사용 하지 않도록 설정 된 사용자 개체로 표시 해야 합니다. 비즈니스 서버를 배포 합니다. 계정 포리스트에서 비즈니스용 Skype 서버가 배포 되는 포리스트로 프로 비전 하 고 사용자를 동기화 하기 위해 Microsoft Identity Manager와 같은 id 관리 제품을 배포 하 고 구성 해야 합니다. 사용자는 비즈니스용 Skype를 호스트 하는 포리스트에서 사용 하지 않도록 설정 된 사용자 개체로 동기화 해야 합니다. Azure Active Directory Connect가 Skype와 함께 사용할 수 있도록 azure AD에 연락처를 올바르게 동기화 하지 않으므로 Active Directory 연락처 개체로 동기화 할 수 없습니다.
+비즈니스용 Skype 서버가 하나의 포리스트 (리소스 포리스트)에 배포 되었지만 하나 이상의 다른 포리스트 (계정 포리스트)에 있는 사용자에 게 기능을 제공 하는 경우에는 다른 포리스트의 사용자가 비즈니스용 Skype 서버를 배포 하는 포리스트에서 사용 하지 않도록 설정 된 사용자 개체로 표시 되어야 합니다. 계정 포리스트에서 비즈니스용 Skype 서버가 배포 되는 포리스트로 프로 비전 하 고 사용자를 동기화 하기 위해 Microsoft Identity Manager와 같은 id 관리 제품을 배포 하 고 구성 해야 합니다. 사용자는 비즈니스용 Skype를 호스트 하는 포리스트에서 사용 하지 않도록 설정 된 사용자 개체로 동기화 해야 합니다. Azure Active Directory Connect가 Skype와 함께 사용할 수 있도록 azure AD에 연락처를 올바르게 동기화 하지 않으므로 Active Directory 연락처 개체로 동기화 할 수 없습니다.
   
 다중 포리스트 구성에 관계 없이 비즈니스용 Skype 서버를 호스트 하는 포리스트는 동일한 포리스트에 있는 사용 가능한 모든 사용자에 대 한 기능을 제공할 수도 있습니다.
   
@@ -73,9 +73,9 @@ ms.locfileid: "41983043"
     
 - 각 사용자 포리스트의 고유 UPN이 리소스 포리스트의 연결 된 비활성 개체와 동기화 된 경우 AD FS 인증이 실패 합니다. 일치 규칙은 리소스 포리스트에서 사용 하지 않도록 설정 되었으며 인증에 사용할 수 없는 개체에서 UPN을 찾습니다. 
     
-## <a name="create-an-office-365-tenant"></a>Office 365 테 넌 트 만들기
+## <a name="create-an-office-365-organization"></a>Office 365 조 직 만들기
 
-다음에는 배포에 사용할 Office 365 테 넌 트를 프로 비전 해야 합니다. 자세한 내용은 [구독, 라이선스, 계정 및 Microsoft 클라우드 서비스에 대 한 테 넌 트](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)를 참조 하세요. 
+다음에는 배포에서 사용할 Office 365 조 직을 프로 비전 해야 합니다. 자세한 내용은 [구독, 라이선스, 계정 및 Microsoft 클라우드 서비스에 대 한 테 넌 트](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)를 참조 하세요. 
   
 ## <a name="configure-active-directory-federation-services"></a>Active Directory Federation Services 구성
 

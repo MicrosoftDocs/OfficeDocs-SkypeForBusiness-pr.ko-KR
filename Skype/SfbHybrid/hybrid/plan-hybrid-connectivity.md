@@ -1,5 +1,5 @@
 ---
-title: 하이브리드 연결 계획 | 비즈니스용 Skype 서버 2019 Office 365 통합
+title: 하이브리드 연결 계획 | 비즈니스용 Skype 서버 2019 Microsoft 365 및 Office 365 통합
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,14 +17,14 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 비즈니스용 Skype 서버 및 비즈니스용 Skype Online 또는 팀 간의 하이브리드 연결을 구현 하기 위한 계획 시 고려 사항
-ms.openlocfilehash: 1a1513b307c6f55f6b403a0d5db85ac14d1f7a6f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ff0ac03d0f93eaa509badb4462d179b41f77ab21
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043380"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779755"
 ---
-# <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>비즈니스용 Skype 서버와 Office 365 간의 하이브리드 연결 플랜
+# <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>비즈니스용 Skype 서버와 Microsoft 365 또는 Office 365의 하이브리드 연결 계획
 
 ## <a name="overview"></a>개요
 
@@ -44,7 +44,7 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
 
  하이브리드 연결이 온-프레미스 비즈니스용 Skype 서버 및 팀 또는 비즈니스용 Skype Online 사이에 설정 된 경우 일부 사용자가 온-프레미스에 있고 일부 사용자는 온라인으로 로그인 할 수 있습니다.
 
-이 구성 유형은 공유 SIP 주소 공간 기능을 사용 하며, contoso.com 같은 도메인 사용자는 비즈니스용 Skype 서버에서 온-프레미스 및 팀 이나 비즈니스용 Skype를 사용할 때 구분 됩니다. 다음 다이어그램과 같이 온라인 상태입니다.
+이 구성 유형은 공유 SIP 주소 공간 기능을 사용 하며, contoso.com와 같은 도메인 사용자는 다음 다이어그램에 나와 있는 것 처럼 비즈니스용 Skype 서버에서 온-프레미스 및 팀 또는 비즈니스용 Skype Online을 사용할 수 있습니다.
 
 ![SfB 하이브리드 연결-분할 도메인](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
@@ -65,7 +65,7 @@ Teams를 함께 사용하는 온-프레미스 비즈니스용 Skype 사용자가
 온-프레미스 환경과 Office 365 통신 서비스 간에 하이브리드 연결을 구현 하려면 다음 인프라 요구 사항을 충족 해야 합니다.
 
 - 지원 되는 토폴로지에서 배포 되는 비즈니스용 Skype 서버 또는 Lync Server의 단일 온-프레미스 배포 이 항목의 [토폴로지 요구 사항](plan-hybrid-connectivity.md#BKMK_Topology) 참조
-- 비즈니스용 Skype Online을 사용 하는 Microsoft Office 365 테 넌 트입니다.
+- 비즈니스용 Skype Online을 사용 하는 Microsoft Office 365 조 직
     > [!NOTE]
     > 온-프레미스 배포의 경우 단일 테 넌 트만 하이브리드 구성에 사용할 수 있습니다.
 - Azure Active Directory Connect 온-프레미스 디렉터리를 Office 365와 동기화 합니다. 자세한 내용은 [AZURE AD Connect: 계정 및 사용 권한을](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)참조 하세요.
@@ -109,12 +109,12 @@ Microsoft는 다음과 같은 유형의 다중 포리스트 하이브리드 시�
   - 사용자가 비즈니스용 Skype를 호스트 하는 포리스트에서 제대로 동기화 됩니다. 하이브리드 구성에서이는 사용자를 사용 하지 않도록 설정 된 사용자 개체로 동기화 해야 함을 의미 합니다.
   - 비즈니스용 Skype를 호스트 하는 포리스트에서 사용자를 포함 하는 포리스트를 신뢰 해야 합니다.
     리소스 포리스트 하이브리드 시나리오에 대 한 자세한 내용은 [하이브리드 a resource forest topology for Hybrid 비즈니스용 Skype](configure-a-multi-forest-environment-for-hybrid.md)를 참조 하세요.
-- **여러 포리스트에 비즈니스용 Skype 서버를 여러 개 배포 합니다.** 이러한 구성은 합병 및 인식 시나리오의 결과로, 보다 복잡 한 엔터프라이즈에서 발생할 수 있습니다.  다음과 같은 주요 요구 사항을 충족 하는 경우 비즈니스용 Skype 배포가 여러 개인 조직에 대해 온-프레미스에서 365 클라우드로 모든 사용자를 통합 하는 방법을 사용할 수 있습니다.
+- **여러 포리스트에 비즈니스용 Skype 서버를 여러 개 배포 합니다.** 이러한 구성은 합병 및 인식 시나리오의 결과로, 보다 복잡 한 엔터프라이즈에서 발생할 수 있습니다.  단일 Office 365 조 직의 모든 사용자를 클라우드에서 클라우드로 통합 하는 경우 다음과 같은 주요 요구 사항이 충족 되는 경우 비즈니스용 Skype 배포가 여러 개인 모든 조직에 대해이를 달성할 수 있습니다.
 
-  - 관련 Office 365 테넌트가 최대 하나가 있어야 합니다. Office 365 테넌트가 두 개 이상 있는 시나리오의 통합 기능은 지원되지 않습니다.
+  - Office 365 조 직은 최대 1 개까지 포함 되어야 합니다. 두 개 이상의 Office 365 조직이 포함 된 시나리오의 통합은 지원 되지 않습니다.
   - 주어진 시간에 한 번에 온-프레미스 비즈니스용 Skype 포리스트가 하이브리드 모드 (공유 SIP 주소 공간) 일 수 있습니다. 다른 모든 온-프레미스 비즈니스용 Skype 포리스트는 완전히 온-프레미스에 유지 되 고 서로 연결 되어 있어야 합니다. [새로운 기능을 사용 하 여 온라인 SIP 도메인](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) 을 12 월 2018 일 때 사용할 수 없도록 설정 하는 경우 이러한 다른 온-프레미스 조직은 AAD와 동기화 할 수 있습니다.
 
-    여러 포리스트에서 비즈니스용 Skype를 배포 하는 고객은 분할 도메인 (공유 SIP 주소 공간) 기능을 사용 하 여 각 비즈니스용 Skype 포리스트를 Office 365 테 넌 트로 개별적으로 마이그레이션한 다음, 다음을 사용 하 여 하이브리드를 사용 하지 않도록 설정 해야 합니다. 온-프레미스 배포를 진행 하기 전에 다음 온-프레미스 비즈니스용 Skype 배포를 마이그레이션합니다. 또한 클라우드로 마이그레이션 되기 전에 온-프레미스 사용자는 동일한 사용자의 온-프레미스 디렉터리에 표시 되지 않는 모든 사용자와의 페더레이션 상태로 유지 됩니다. 자세한 내용은 [팀 및 비즈니스용 Skype에 대 한 클라우드 통합](cloud-consolidation.md)을 참조 하세요.
+    여러 포리스트에서 비즈니스용 Skype를 배포 하는 고객은 분할 도메인 (공유 SIP 주소 공간) 기능을 사용 하 여 각 비즈니스용 Skype 포리스트를 Office 365 조 직으로 개별적으로 마이그레이션한 다음 온-프레미스 배포와 하이브리드를 사용 하지 않도록 설정 해야 합니다 (다음 온-프레미스 비즈니스용 Skype 배포 마이그레이션). 또한 클라우드로 마이그레이션 되기 전에 온-프레미스 사용자는 동일한 사용자의 온-프레미스 디렉터리에 표시 되지 않는 모든 사용자와의 페더레이션 상태로 유지 됩니다. 자세한 내용은 [팀 및 비즈니스용 Skype에 대 한 클라우드 통합](cloud-consolidation.md)을 참조 하세요.
 
 ## <a name="federation-requirements"></a>페더레이션 요구 사항
 
@@ -124,7 +124,7 @@ Microsoft는 다음과 같은 유형의 다중 포리스트 하이브리드 시�
 
 하이브리드 배포를 성공적으로 구성 하려면 다음 요구 사항을 충족 해야 합니다.
 
-- 도메인 일치는 온-프레미스 배포 및 Office 365 테 넌 트에 대해서도 동일 하 게 구성 해야 합니다. 온-프레미스 배포에서 파트너 검색이 사용 되도록 설정 된 경우 온라인 테 넌 트에 대해 open 페더레이션이 구성 되어 있어야 합니다. 파트너 검색을 사용 하도록 설정 하지 않은 경우에는 온라인 테 넌 트에 대해 닫힌 페더레이션을 구성 해야 합니다.
+- 도메인 일치는 온-프레미스 배포 및 Office 365 조 직에 대해 동일 하 게 구성 해야 합니다. 온-프레미스 배포에서 파트너 검색이 사용 되도록 설정 된 경우 온라인 테 넌 트에 대해 open 페더레이션이 구성 되어 있어야 합니다. 파트너 검색을 사용 하도록 설정 하지 않은 경우에는 온라인 테 넌 트에 대해 닫힌 페더레이션을 구성 해야 합니다.
 - 온-프레미스 배포의 차단 된 도메인 목록은 온라인 테 넌 트에 대 한 차단 된 도메인 목록과 정확히 일치 해야 합니다.
 - 온-프레미스 배포의 허용 도메인 목록은 온라인 테 넌 트에 대해 허용 되는 도메인 목록과 정확히 일치 해야 합니다.
 - 온라인 테 넌 트에 대 한 외부 통신에 대해 페더레이션을 사용 하도록 설정 해야 합니다.

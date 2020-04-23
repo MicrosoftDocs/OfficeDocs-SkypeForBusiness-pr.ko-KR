@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 하이브리드를 사용할 수 있는 비즈니스용 Skype 서버의 온-프레미스 배포에서 온-프레미스 환경과 클라우드 간에 사용자를 이동할 수 있습니다 (Microsoft 팀 또는 비즈니스용 Skype Online)...'
-ms.openlocfilehash: 721352e1aa13cce8a9c03aa71c73f11e8c0d2452
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aea3bed7db6c7821d957aa0e6d56cbafd548edb7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008610"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780087"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>온-프레미스와 클라우드 간에 사용자 이동
 
@@ -52,7 +52,7 @@ ms.locfileid: "42008610"
 - 사용자는 클라우드에서 비즈니스용 Skype Online 서비스의 비즈니스용 Skype 기능을 사용하기 시작합니다.
 - Teams 사용자는 비즈니스용 Skype 사용자와의 상호 운용성을 사용할 수 있게 되고 다른 조직들과 연합할 수도 있습니다.
 - 온-프레미스의 연락처가 클라우드 (비즈니스용 Skype 또는 팀)로 이동 됩니다.
-- 앞으로 예약 된 기존 모임은 나중에 다시 온라인으로 마이그레이션됩니다. 사용자가 TeamsOnly (아래 참조)로 직접 이동 하는 경우 모임이 팀 모임으로 변환 되며, 그렇지 않으면 모임이 비즈니스용 Skype로 유지 되지만 마이그레이션 예정입니다. 온-프레미스 대신 호스트 되는 온라인 상태  모임의 마이그레이션은 비동기적으로 진행되며 사용자를 이동하고 약 90분 후에 시작됩니다.  모임의 마이그레이션 상태를 판단하려면 [가져오기-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms)를 사용할 수 있습니다. 모임 전에 업로드된 콘텐츠는 이동되지 않습니다.
+- 앞으로 예약 된 기존 모임은 나중에 다시 온라인으로 마이그레이션됩니다. 사용자가 TeamsOnly (아래 참조)로 직접 이동 하는 경우 모임이 팀 회의로 변환 되 고, 그렇지 않으면 모임이 비즈니스용 Skype로 유지 되지만,이 경우에는 온-프레미스 대신 온라인으로 호스트 될 수 있도록 마이그레이션됩니다.  모임의 마이그레이션은 비동기적으로 진행되며 사용자를 이동하고 약 90분 후에 시작됩니다.  모임의 마이그레이션 상태를 판단하려면 [가져오기-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms)를 사용할 수 있습니다. 모임 전에 업로드된 콘텐츠는 이동되지 않습니다.
 
 온-프레미스와 클라우드 간에 사용자를 이동 하려면 (팀에서 또는 비즈니스용 Skype Online) 두 가지 모두 온-프레미스 도구인 Move-CsUser cmdlet 또는 비즈니스용 Skype 관리 제어판을 사용 합니다. 이들 도구는 세 가지 다양한 이동 경로를 지원합니다.
 
@@ -62,14 +62,14 @@ ms.locfileid: "42008610"
 
 ## <a name="required-administrative-credentials"></a>필수 관리 자격 증명
 
-온-프레미스와 클라우드 간에 사용자를 이동 하려면 Office 365 테 넌 트 뿐만 아니라 온-프레미스 비즈니스용 Skype 서버 환경 둘 다에서 충분 한 권한이 있는 계정을 사용 해야 합니다. 모든 필수 권한이 있는 하나의 계정을 사용하거나 두 개의 계정을 사용할 수 있으며 이러한 경우 온-프레미스 도구에 온-프레미스 자격 증명을 사용하여 액세스한 후 이들 도구에서 Office 365 관리 계정에 대한 추가 자격 증명을 제공합니다.  
+온-프레미스와 클라우드 간에 사용자를 이동 하려면 Office 365 조직 뿐만 아니라 온-프레미스 비즈니스용 Skype 서버 환경 둘 다에서 충분 한 권한이 있는 계정을 사용 해야 합니다. 모든 필수 권한이 있는 하나의 계정을 사용하거나 두 개의 계정을 사용할 수 있으며 이러한 경우 온-프레미스 도구에 온-프레미스 자격 증명을 사용하여 액세스한 후 이들 도구에서 Office 365 관리 계정에 대한 추가 자격 증명을 제공합니다.  
 
 - 온-프레미스 환경에서 이동을 수행하는 사용자는 비즈니스용 Skype 서버에서 CSServerAdminstrator 역할이 있어야 합니다.
 - Office 365에서 이동을 수행하는 사용자는 전역 관리자이거나 비즈니스용 Skype 관리자와 사용자 관리자 역할이 모두 있어야 합니다.  
 
     > [!Important]
     > - 비즈니스용 Skype 관리 제어판을 사용 하는 경우에는 위에서 설명한 대로 적절 한 역할을 가진 Office 365 계정에 대 한 자격 증명을 제공 하 라는 메시지가 표시 됩니다. Onmicrosoft.com로 끝나는 계정을 제공 해야 합니다. 이것이 가능 하지 않으면 CsUser cmdlet을 사용 합니다.
-    >- PowerShell에서 CsUser User를 사용 하는 경우 cmdlet에 HostedMigrationOverrideUrl 매개 변수도 함께 지정 하는 경우에는 Azure AD로 동기화 되는 모든 온-프레미스 계정을 사용할 수 있습니다. . 호스팅된 마이그레이션 재정의 URL의 값은 다음 URL의 변형입니다.https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>위의 URL에서 XX를 다음의 두 문자로 바꾸거나 다음과 같이 결정 합니다.
+    >- PowerShell에서 CsUser User를 사용 하는 경우 cmdlet에 HostedMigrationOverrideUrl 매개 변수도 함께 지정 하는 경우에는 Azure AD로 동기화 되는 모든 온-프레미스 계정을 사용할 수 있습니다. 호스팅된 마이그레이션 재정의 URL의 값은 다음 URL의 변형입니다.https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>위의 URL에서 XX를 다음의 두 문자로 바꾸거나 다음과 같이 결정 합니다.
     >   - 비즈니스용 Skype 온라인 PowerShell 세션에서 다음 cmdlet을 실행 합니다.<br>`Get-CsTenant|ft identity`
     >    - 결과 값의 형식은 다음과 같습니다.<br>`OU=<guid>,OU=OCS Tenants,DC=lyncXX001,DC=local`
     >    - 두세 자리 코드는 DC = lyncXX001 섹션에 포함 된 XX입니다. 두 문자 코드를 사용 하는 경우에는 숫자가 뒤에 붙는 숫자 (예: 0a)가 됩니다. 이 코드가 3 자 코드 이면 두 개의 문자와 숫자 (예: jp1)가 차례로 이어집니다. 모든 경우에 XX 코드 바로 다음에 001이 표시 됩니다.
@@ -92,11 +92,11 @@ ms.locfileid: "42008610"
 
 ## <a name="see-also"></a>참고 항목
 
-[온-프레미스에서 비즈니스용 Skype Online으로 사용자 이동](move-users-from-on-premises-to-skype-for-business-online.md)
+[사용자를 온-프레미스에서 비즈니스용 Skype Online으로 이동](move-users-from-on-premises-to-skype-for-business-online.md)
 
-[온-프레미스에서 팀으로 사용자 이동](move-users-from-on-premises-to-teams.md)
+[사용자를 온-프레미스에서 Teams로 이동](move-users-from-on-premises-to-teams.md)
 
-[MMS (모임 마이그레이션 서비스) 설정](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
+[MMS(Meeting Migration Service) 설정](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
 
 [직접 라우팅 계획](/microsoftteams/direct-routing-plan)
 

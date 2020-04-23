@@ -18,14 +18,14 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '요약: 사용자 설정을 마이그레이션하고 사용자를 팀으로 이동 하는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: af5281faffa9bd9439e045dc40f67283bb740cb5
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 07d0657017d24acbbd3961c3528056debb927a5a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888777"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779684"
 ---
-# <a name="move-users-from-on-premises-to-teams"></a>온-프레미스에서 팀으로 사용자 이동
+# <a name="move-users-from-on-premises-to-teams"></a>사용자를 온-프레미스에서 Teams로 이동
 
 사용자가 온-프레미스에서 팀 전용으로 이동 하는 경우, 사용자의 비즈니스용 Skype 홈은 온-프레미스에서 온라인으로 이동 되며 사용자에 게는 mode = TeamsOnly TeamsUpgradePolicy가 할당 됩니다.  사용자가 온-프레미스에서 TeamsOnly 모드로 이동한 후에는 다음을 수행 합니다.
 
@@ -55,13 +55,13 @@ ms.locfileid: "41888777"
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>비즈니스용 Skype에서 직접 사용자를 팀으로 이동
 
-비즈니스용 skype 서버 2015의 온-프레미스 관리 도구 및 비즈니스용 skype 서버 2019을 사용 하 여 PowerShell 또는 비즈니스용 Skype의 Move-CsUser cmdlet을 사용 하 여 한 번에 사용자를 온-프레미스 전용 모드로 이동할 수 있습니다. 아래 설명 된 것 처럼 rver 제어판
+비즈니스용 skype 서버 2015의 온-프레미스 관리 도구 및 비즈니스용 Skype 서버 2019을 사용 하면 아래 설명 된 것 처럼 PowerShell 또는 비즈니스용 Skype 서버 제어판의 CsUser User cmdlet을 사용 하 여 사용자를 온-프레미스에서 팀 전용 모드로 이동할 수 있습니다.
 
 ### <a name="move-to-teams-using-move-csuser"></a>Move-CsUser를 사용 하 여 팀으로 이동
 
-이동-CsUser는 온-프레미스 비즈니스용 Skype 관리 셸 PowerShell 창에서 사용할 수 있습니다. 아래 단계 및 필요한 사용 권한은 사용자를 비즈니스용 Skype Online으로 이동 하는 것과 동일 하지만, MoveToTeams 스위치를 지정 해야 하 고 사용자에 게 팀에 대 한 라이선스도 부여 되었는지 확인 해야 합니다 (비즈니스용 Skype 추가). 온라인)
+이동-CsUser는 온-프레미스 비즈니스용 Skype 관리 셸 PowerShell 창에서 사용할 수 있습니다. 아래 단계 및 필요한 사용 권한은 사용자를 비즈니스용 Skype Online으로 이동 하는 것과 동일 하지만, MoveToTeams 스위치를 지정 해야 하 고 사용자에 게 팀에 대 한 라이선스가 있는지도 확인 해야 합니다 (비즈니스용 Skype Online 포함).
 
-[필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 온-프레미스 환경과 Office 365 테 넌 트 둘 다에 충분 한 권한이 있어야 합니다. 두 환경 모두에서 권한이 있는 단일 계정을 사용 하거나 온-프레미스 자격 증명을 사용 하 여 온-프레미스 비즈니스용 Skype 서버 관리 셸 창을 시작 하 고 `-Credential` 매개 변수를 사용 하 여 필요한 office 365 관리 역할이 있는 office 365 계정에 대 한 자격 증명을 지정할 수 있습니다.
+[필수 관리 자격 증명](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)에 설명 된 대로 온-프레미스 환경과 Office 365 조직 모두에 충분 한 권한이 있어야 합니다. 두 환경 모두에서 권한이 있는 단일 계정을 사용 하거나 온-프레미스 자격 증명을 사용 하 여 온-프레미스 비즈니스용 Skype 서버 관리 셸 창을 시작 하 고 `-Credential` 매개 변수를 사용 하 여 필요한 office 365 관리 역할이 있는 office 365 계정에 대 한 자격 증명을 지정할 수 있습니다.
 
 이동-CsUser를 사용 하 여 사용자를 팀 전용 모드로 이동 하려면 다음을 수행 합니다.
 
@@ -123,4 +123,4 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 
 [Team를 비즈니스용 Skype와 함께 사용하는 조직에 대한 마이그레이션 및 상호 운용성 가이드](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
-[비즈니스용 Skype와 동시 사용](/microsoftteams/coexistence-chat-calls-presence)
+[비즈니스용 Skype와 공존](/microsoftteams/coexistence-chat-calls-presence)

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 이 부록에는 팀 및 비즈니스용 Skype에 대 한 클라우드 통합의 일부로 서 하이브리드를 사용 하지 않도록 설정 하는 자세한 단계가 포함 되어 있습니다.
-ms.openlocfilehash: 8fc9745c75f9b449751164065f974ccd8088218f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 053d632b5a07b7ce7cca8ef7a1ddf45a673bcf59
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726978"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780147"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>클라우드로의 마이그레이션을 완료하기 위해 하이브리드를 비활성화
 
@@ -34,7 +34,7 @@ ms.locfileid: "41726978"
 
 1. Office 365를 가리키도록 DNS 레코드를 업데이트합니다.
 
-2. Office 365 테넌트에서 분할 도메인을 사용하지 않도록 설정합니다.
+2. Office 365 조 직에서 도메인 분할을 사용 하지 않도록 설정 합니다.
 
 3. 온-프레미스에서 Office 365와 통신 하는 기능을 사용 하지 않도록 설정 합니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "41726978"
     |CNAME| 조건|   3600|   webdir. s e t. <span>com|
     |CNAME| dialin  |3600|  webdir. s e t. <span>com|
 
-2.  *Office 365 테 넌 트에서 공유 SIP 주소 공간을 사용 하지 않도록 설정 합니다.*
+2.  *Office 365 조 직에서 공유 SIP 주소 공간을 사용 하지 않도록 설정 합니다.*
 아래 명령은 비즈니스용 Skype Online PowerShell 창에서 수행 해야 합니다.
 
     ```PowerShell
