@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 전화 시스템 다이렉트 라우팅이 지원 되는 고객 제공 세션 경계 컨트롤러 (SBC)를 Microsoft 전화 시스템에 연결할 수 있는 방법을 알아보세요.
-ms.openlocfilehash: 0140e4d2cfae95531602daec5a859a85888e9d15
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7d5a69ff3b0533d17d6582489fad6e156d8df1c7
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780697"
+ms.locfileid: "43785941"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -299,8 +299,8 @@ SBC는 DNS 쿼리를 사용 하 여 sip.pstnhub.microsoft.com를 해결 합니�
 
 |**통신량**|**보낸 사람**|**받는 사람**|**원본 포트**|**대상 포트**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|미디어 프로세서|하더라도|49152 – 53247|SBC에 정의 됨|
-|UDP/SRTP|하더라도|미디어 프로세서|SBC에 정의 됨|49152 – 53247|
+|UDP/SRTP|미디어 프로세서|하더라도|3478-3481 및 49152 – 53247|SBC에 정의 됨|
+|UDP/SRTP|하더라도|미디어 프로세서|SBC에 정의 됨|3478-3481 및 49152 – 53247|
 
   > [!NOTE]
   > Microsoft는 SBC에서 동시에 포트를 두 개 이상 사용할 것을 권장 합니다.

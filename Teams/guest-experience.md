@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2f118611d55fe9192f32402946d672901b0f66ee
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776933"
+ms.locfileid: "43785871"
 ---
 <a name="what-the-guest-experience-is-like"></a>게스트 환경의 모양
 =================================
@@ -34,6 +34,11 @@ ms.locfileid: "43776933"
 모든 팀 멤버가 팀 소유자가 게스트를 추가 하 고 게스트 이름을 제공 한다는 것을 알리기 위해 채널 스레드에서 메시지가 표시 됩니다. 팀의 모든 사용자가 쉽게 게스트를 식별할 수 있습니다. 샘플 팀의 다음 스크린샷은 "이 팀에 게스트 있음"이 표시 되 고 각 게스트 이름 옆에 **(게스트)** 레이블이 표시 됩니다.
     
 ![게스트 사용자에 게 배너 알림을 보여 주는 스크린샷](media/guest-experience-image2.png "스크린샷은 Northwind 배너의 마케팅 채널 중 일부를 보여 주며,이는 팀에 게스트와 게스트 사용자가 자신의 이름 옆에 있는 word 게스트로 식별 되었음을 나타내는 알림입니다.")
+
+팀의 게스트 환경에 대 한 다음 비디오를 확인 하세요.
+- [게스트로 팀 참가](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
+- [게스트와 팀 모임 참가](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>팀 구성원 및 게스트 기능 비교
 
