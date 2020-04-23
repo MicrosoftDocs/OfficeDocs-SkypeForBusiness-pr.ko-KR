@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: b08f747c6a26d0401095e5aa004b972e0428b830
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 43ecac8faedf5f98ce2634db85321eb363c19f20
+ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137058"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43579071"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
 ======================================================
@@ -52,6 +52,7 @@ ms.locfileid: "43137058"
 |전자 메일 통합     |보낸 사람 목록 허용         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |테 넌 트         |
 |사용자 지정 클라우드 저장소     |확인란이         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
 |사용자 지정 클라우드 저장소     |상자        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
+|사용자 지정 클라우드 저장소     |Egnyte         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
 |사용자 지정 클라우드 저장소     |Google Drive        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
 |사용자 지정 클라우드 저장소     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |테 넌 트         |
 |사용자/라이선스 유형별 설정     |모든 사용자에 대해 Microsoft 팀 설정 또는 해제          |사용 되지 않음<sup>1</sup>        |         |

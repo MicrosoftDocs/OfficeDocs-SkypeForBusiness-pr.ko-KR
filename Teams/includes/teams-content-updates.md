@@ -8,7 +8,7 @@
 
 | 게시 날짜 |주제 제목 | 바뀌지 |
 |------|------------|--------|
-| 3/17/2020 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/rooms/requirements) | 으 |
+| 3/17/2020 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 으 |
 | 3/17/2020 | [팀 용 전화 및 장치](/MicrosoftTeams/teams-ip-phones) | 으 |
 | 3/17/2020 | [Power BI를 사용 하 여 Microsoft 팀에 대 한 CQD 데이터 분석](/MicrosoftTeams/cqd-power-bi-query-templates) | 으 |
 | 3/17/2020 | [Microsoft Teams에서 팀을 구성하는 방법에 대한 모범 사례](/MicrosoftTeams/best-practices-organizing) | 으 |
@@ -86,7 +86,7 @@
 | 3/26/2020 | [Microsoft Teams의 라이브 이벤트 계획하기](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 으 |
 | 3/26/2020 | [사용자의 전화 번호 할당, 변경 또는 제거](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 으 |
 | 3/26/2020 | [사용자는 이러한 국가와 지역에 아웃바운드 통화를 할 수 있습니다.](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | 으 |
-| 3/26/2020 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/rooms/requirements) | 으 |
+| 3/26/2020 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 으 |
 | 3/26/2020 | [Microsoft Teams를 사용하여 원격 작업자 지원하기](/MicrosoftTeams/support-remote-work-with-teams) | 으 |
 | 3/26/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/resources-teams-edu) | 으 |
 | 3/27/2020 | [교육용 Microsoft Teams 리소스 관리](/MicrosoftTeams/resources-teams-edu) | 으 |
@@ -138,7 +138,7 @@
 | 4/1/2020 | [CQD 쿼리 서식 파일을 사용 하도록 Power BI 커넥터 설치](/MicrosoftTeams/cqd-power-bi-connector) | 으 |
 | 4/1/2020 | [Microsoft Teams에 대한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 으 |
 | 4/1/2020 | [알려진 문제](/MicrosoftTeams/rooms/known-issues) | 으 |
-| 4/1/2020 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/rooms/requirements) | 으 |
+| 4/1/2020 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 으 |
 | 4/1/2020 | [버전 지원](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 으 |
 | 4/1/2020 | [XML 구성 파일을 사용 하 여 원격으로 Microsoft 팀 대화방 콘솔 설정 관리](/MicrosoftTeams/rooms/xml-config-file) | 으 |
 | 4/1/2020 | [PowerShell을 사용 하 여 Microsoft 팀에서 실시간 이벤트 정책 설정](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 으 |
@@ -173,7 +173,7 @@
 | 4/3/2020 | [관리 교육 리소스-Microsoft 팀](/MicrosoftTeams/itadmin-readiness) | 으 |
 | 4/3/2020 | [Office 365 URL 및 IP 주소 범위](/MicrosoftTeams/office-365-urls-ip-address-ranges) | 으 |
 | 4/3/2020 | [Office 365 및 사용자 지정 커넥터 사용](/MicrosoftTeams/office-365-custom-connectors) | 으 |
-| 4/3/2020 | [Office 365 그룹 및 Microsoft 팀](/MicrosoftTeams/office-365-groups) | 으 |
+| 4/3/2020 | [Microsoft 365 그룹 및 Microsoft 365 또는 Office 365소프트 팀/office-365-그룹) | 으 |
 | 4/3/2020 | [Office 365 조직에서 팀 설정](/MicrosoftTeams/office-365-set-up) | 으 |
 | 4/3/2020 | [팀 클라이언트에서 서비스 품질 구현](/MicrosoftTeams/qos-in-teams-clients) | 으 |
 | 4/3/2020 | [Microsoft 팀에서 서비스 품질 구현](/MicrosoftTeams/qos-in-teams) | 으 |
@@ -225,7 +225,7 @@
 | 4/3/2020 | [조직에 대한 설정 관리](/MicrosoftTeams/enable-features-office-365) | 으 |
 | 4/3/2020 | [오디오 회의 설정이 변경 되는 경우 전자 메일 옵션](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | 으 |
 | 4/3/2020 | [사용자가 모임 이름을 녹음/녹화할 수 있도록 설정](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | 으 |
-| 4/3/2020 | [기존 Office 365 그룹 향상](/MicrosoftTeams/enhance-office-365-groups) | 으 |
+| 4/3/2020 | [기존 Microsoft 365 그룹 향상](/MicrosoftTeams/enhance-office-365-groups) | 으 |
 | 4/3/2020 | [클라우드 음성 배포를 위한 조종 위원회](/MicrosoftTeams/envision-steering-committee-complete-guide) | 으 |
 | 4/3/2020 | [조직에서 Microsoft 팀 확장](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | 으 |
 | 4/3/2020 | [환자 App 및 EHR integration DSTU2 인터페이스](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 으 |
@@ -270,7 +270,7 @@
 | 4/3/2020 | [발신 통화 제한-오디오 회의 & PSTN 통화](/MicrosoftTeams/outbound-calling-restriction-policies) | 으 |
 | 4/3/2020 | [Microsoft 팀에 전화 번호 전송](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | 으 |
 | 4/3/2020 | [오디오 회의의 전화 번호](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams) | 으 |
-| 4/3/2020 | [팀을 만들 때 Office 365 그룹에 대한 계획](/MicrosoftTeams/plan-office-365-groups) | 으 |
+| 4/3/2020 | [팀을 만들 때 Microsoft 365 그룹에 대 한 계획](/MicrosoftTeams/plan-office-365-groups) | 으 |
 | 4/3/2020 | [Microsoft 365 정부-DoD 배포](/MicrosoftTeams/plan-for-government-dod) | 으 |
 | 4/3/2020 | [Microsoft 365 정부-GCC 상위 배포](/MicrosoftTeams/plan-for-government-gcc-high) | 으 |
 | 4/3/2020 | [Microsoft 365 정부-GCC 배포](/MicrosoftTeams/plan-for-government-gcc) | 으 |
@@ -448,7 +448,7 @@
 | 4/14/2020 | [Teams에서 사용자 현재 상태 확인](/MicrosoftTeams/presence-admins) | 으 |
 | 4/14/2020 | [Microsoft 팀 대화방 장치 설정 원격 관리](/MicrosoftTeams/rooms/xml-config-file) | 으 |
 | 4/15/2020 | [Microsoft Teams에서 사용자에게 정책 할당](/MicrosoftTeams/assign-policies) | 으 |
-| 4/15/2020 | [Microsoft 팀 방에 대 한 요구 사항](/MicrosoftTeams/rooms/requirements) | 으 |
+| 4/15/2020 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 으 |
 | 4/15/2020 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 으 |
 | 4/15/2020 | [콘텐츠의 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 으 |
 | 4/15/2020 | [Outlook에서 Microsoft Teams 모임 추가 기능 사용](/MicrosoftTeams/teams-add-in-for-outlook) | 으 |

@@ -10,18 +10,19 @@ audience: admin
 description: 일반 바이러스 검사에서 특정 파일 및 폴더를 제외 하 여 팀의 성과를 향상 시킵니다.
 localization_priority: Normal
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1519038cb2393687a031e9b2c1ea828f999728
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+ms.openlocfilehash: a1e890509428b3bfba19f6bfb01916e8ea837147
+ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265623"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43579594"
 ---
 <a name="teams-files-and-folders-to-exclude-from-antivirus-scanning"></a>바이러스 백신 검색에서 제외할 Teams 파일 및 폴더
 =================================
@@ -43,11 +44,3 @@ ms.locfileid: "42265623"
 
 **%localappdata%\Microsoft\Teams\Update.exe**
 
-### <a name="folders"></a>폴더
-
-바이러스 백신 수신 허용 목록에 다음 팀 폴더를 추가 합니다.
-
-|범주만  |위치  |
-|---------|---------|
-|프로그램 파일  |%localappdata%\Microsoft\Teams|
-|데이터 파일     |%appdata%\Microsoft\Teams\ |

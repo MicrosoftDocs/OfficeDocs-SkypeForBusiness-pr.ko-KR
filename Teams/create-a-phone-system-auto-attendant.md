@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 팀에 대 한 클라우드 자동 전화 교환을 설정 하 고 테스트 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 05a70c578812ee5ecdd91214ab253843fe67471c
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: dee263c08751f21e1fde19965d23595d5da27e39
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43508626"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788998"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>클라우드 자동 전화 교환 설정
 
@@ -333,7 +333,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 **모든 온라인 사용자**를 선택 하면 디렉터리 검색에 모든 적격 사용자가 포함 됩니다.
 
-**사용자 지정 사용자 그룹** 이 옵션을 사용 하면 조직에서 이미 만든 Office 365 그룹, 메일 그룹 또는 보안 그룹을 검색 하 고 선택할 수 있습니다. 사용자가 선택 된 Office 365 그룹, 메일 그룹 또는 보안 그룹과 온라인 사용자이 고, **전화 시스템 라이선스가** 있거나, 비즈니스용 Skype Server를 사용 하 여 온-프레미스에 호스팅되는 경우 해당 디렉터리가 디렉터리에 추가 됩니다. 여러 개의 Office 365 그룹, 배포 목록, 보안 그룹을 디렉터리에 추가할 수 있습니다.
+**사용자 지정 사용자 그룹** 이 옵션을 사용 하면 조직에서 이미 만든 Office 365 그룹, 메일 그룹 또는 보안 그룹을 검색 하 고 선택할 수 있습니다. 사용자가 선택 된 Office 365 그룹, 메일 그룹 또는 보안 그룹과 온라인 사용자이 고, **전화 시스템 라이선스가** 있거나, 비즈니스용 Skype Server를 사용 하 여 온-프레미스에 호스팅되는 경우 해당 디렉터리가 디렉터리에 추가 됩니다. 여러 Microsoft 365 그룹, 배포 목록, 보안 그룹을 디렉터리에 추가할 수 있습니다.
 
 <a name="dialscope"> </a>
 
@@ -343,7 +343,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 **없음**을 선택 하면 모든 적합 한 사용자가 디렉터리 검색에 포함 됩니다.
 
-사용자 **지정 사용자 그룹** 조직에서 만든 Office 365 그룹, 메일 그룹 또는 보안 그룹을 검색할 수 있습니다. 해당 그룹의 사용자는 디렉터리 검색에서 제외 됩니다. 여러 개의 Office 365 그룹, 배포 목록, 보안 그룹을 추가할 수 있습니다.
+사용자 **지정 사용자 그룹** 조직에서 만든 Office 365 그룹, 메일 그룹 또는 보안 그룹을 검색할 수 있습니다. 해당 그룹의 사용자는 디렉터리 검색에서 제외 됩니다. 여러 Microsoft 365 그룹, 배포 목록, 보안 그룹을 추가할 수 있습니다.
 
 
 이름으로 전화 걸기를 사용할 때 설정을 기본값으로 두면 디렉터리 검색에 모든 적격 사용자가 포함 됩니다.

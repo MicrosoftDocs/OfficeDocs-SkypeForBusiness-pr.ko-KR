@@ -23,16 +23,16 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: '통화 품질 대시보드를 켜고 사용 하는 방법과 통화 품질에 대 한 요약 보고서를 참조 하세요. '
-ms.openlocfilehash: 7fafbebaa21a6bbd71ab0e253f226908d6787869
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 52bf3856ad5c737143d179525e5c2870748f3b46
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42983331"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788993"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft 팀 및 비즈니스용 Skype Online에 대 한 통화 품질 대시보드 켜기 및 사용
 
-통화 품질 대시보드를 사용 하 여 통화 품질을 모니터링 하도록 Office 365 조직을 구성 하는 방법을 알아봅니다.
+통화 품질 대시보드를 사용 하 여 통화 품질을 모니터링 하도록 Microsoft 365 또는 Office 365를 구성 하는 방법에 대해 알아봅니다.
   
 CQD (통화 품질 대시보드)는 Microsoft 팀과 비즈니스용 Skype Online 서비스를 사용 하 여 발생 하는 통화의 품질에 대 한 통찰력을 제공 합니다. 이 항목에서는 통화 품질 문제를 해결 하는 데 사용할 수 있는 데이터 수집을 시작 하는 단계에 대해 설명 합니다.
 
@@ -149,11 +149,11 @@ CQD v3은 SPD 보고서에서 드릴스루 또는 드릴 다운 필드 사용을
 
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>CQD (Microsoft 통화 품질 대시보드) 요약 보고서 활성화
 
-CQD 사용을 시작 하기 전에 다음과 같이 Office 365 조직에 대해 정품 인증을 활성화 합니다.
+CQD 사용을 시작 하기 전에 다음과 같이 Microsoft 365 또는 Office 365에 대해 정품 인증을 활성화 합니다.
 
 ![](media/teams-logo-30x30.png) **Microsoft 팀 관리 센터를 사용 하 여** microsoft 팀 로고를 표시 하는 아이콘
 
-1. Microsoft 팀 서비스 관리자 계정을 사용 하 여 Office 365 조직에 로그인 한 다음 **관리** 타일을 선택 하 여 관리 센터를 엽니다.
+1. Microsoft 팀 서비스 관리자 계정을 사용 하 여 Microsoft 365 또는 Office 365에 로그인 한 다음 **관리** 타일을 선택 하 여 관리 센터를 엽니다.
 2. 왼쪽 창의 **관리 센터**에서 **microsoft 팀을 선택 하** 여 microsoft 팀 관리 센터를 엽니다.
 3. Microsoft 팀 관리 센터의 왼쪽 창에서 **통화 품질 대시보드** 를 선택 합니다.
 4. Https:// \(<span><span/>cqd.teams.microsoft.com\)을 여는 페이지에서 **로그인** 을 클릭 하 고 전역 관리자 계정 또는 microsoft 팀 서비스 관리자 계정 정보를 입력 합니다.
@@ -166,7 +166,7 @@ CQD 사용을 시작 하기 전에 다음과 같이 Office 365 조직에 대해 
 
 ![비즈니스용 skype](media/sfb-logo-30x30.png) **레거시 포털을 사용 하** 는 비즈니스용 skype 로고 아이콘
 
-1. 관리자 계정을 사용 하 여 Office 365 조직에 로그인 한 다음 관리 타일을 선택 **하 여 관리** 센터를 엽니다.
+1. 관리자 계정을 사용 하 여 Microsoft 365 또는 Office 365에 로그인 한 다음 관리 타일을 선택 **하 여 관리** 센터를 엽니다.
 2. 왼쪽 창의 **관리 센터**에서 **microsoft 팀을 선택 하** 여 microsoft 팀 관리 센터를 엽니다.
 3. Microsoft 팀 관리 센터의 왼쪽 창에서 **레거시 포털** 을 선택 하 고 **도구**를 선택한 다음 비즈니스용 **Skype Online 통화 품질 대시보드**를 선택 합니다.
 
@@ -466,7 +466,7 @@ Cqd v2와 CQD v3에는 cqd v2에는 새로운 시나리오가 없기 때문에 C
 
 사용 시나리오에 비즈니스용 Skype 서버 2019 통화가 포함 된 경우 CQD v3 데이터에는 Skype Bot 통화 (자동 전화 교환, CVI, 가상 데스크톱 인터페이스), 라이브 이벤트, PSTN 통화가 포함 됩니다. CQD v2는이 데이터를 사용 하지 않습니다. (CQD v3에는 클라우드 데이터 커넥터가 구성 된 비즈니스용 Skype Server 2019이 필요 합니다.)
 
-예를 들어 CQD v2 요약 보고서에서 5000 오류가 있는 20만 오디오 스트림을 표시 하는 경우 5500 오류와 함께 30만 오디오 스트림을 표시 하는 것이 드문 경우입니다 (비즈니스용 Skype Server 2019 통화, CVI 통화, PSTN 통화 때문에 차이점). , 등)를 설정 합니다.
+예를 들어 CQD v2 요약 보고서에서 5000 오류가 있는 20만 오디오 스트림을 표시 하는 경우 5500 오류가 있는 30만 오디오 스트림을 표시 하는 것이 아니라 CQD v3 요약 보고서의 비즈니스용 Skype Server 2019 통화, CVI 통화, PSTN 통화 등으로 인해 발생 하는 문제가 발생할 수 있습니다.
 
 예기치 않은 차이를 명확 하 게 하려면 전체 데이터에 대 한 분석 결과를 두 개 이상 확인 합니다. 다음 매개 변수 중 하나 이상을 기준으로 데이터를 필터링 합니다.
 
@@ -496,7 +496,7 @@ Cqd v2와 CQD v3에는 cqd v2에는 새로운 시나리오가 없기 때문에 C
 ### <a name="why-cant-i-see-euii-in-cqd"></a>CQD에 EUII이 표시 되지 않는 이유는 무엇 인가요?
 
 이러한 관리자 역할은 CQD에 액세스할 수 있지만, EUII (최종 사용자 식별 가능 정보)는 볼 수 없습니다.
-- Office 365 보고서 읽기 프로그램
+- Microsoft 365 보고서 읽기 프로그램
 - 팀 의사 소통 지원 전문가
 
 EUII를 포함 하 여 CQD에 액세스할 수 있는 역할에 대 한 자세한 내용은 [CQD에 액세스 하기 위한 역할 할당](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd)을 참조 하세요.
