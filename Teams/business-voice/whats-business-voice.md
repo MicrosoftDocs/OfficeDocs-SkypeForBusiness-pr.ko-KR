@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 365 Business Voice의 개요 및 중소기업이 보다 효과적으로 통신을 하는 데 도움을 주는 방법.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecce1626a541c14c7175390c086acfa5eb0262f2
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: bffce01704402aac8fea90aee92d6bd854c5874f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096873"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780797"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Microsoft 365 Business Voice란 무엇인가요?
 
@@ -32,8 +32,8 @@ Business Voice는 Microsoft 365 전화 시스템 기능을 간단하고 관리�
 
 사용자의 조직에 직원이 300명 이하이고 다음의 Microsoft 365 구독 중 하나를 사용하고 있는 경우에는 Business Voice가 사용자에게 적합합니다.
 
-* Office 365 Business Essentials
-* Office 365 Business Premium
+* Microsoft 365 Business Basic
+* Microsoft 365 Business Standard
 * Office 365 E1
 * Office 365 E3
 * Office 365 F1

@@ -17,12 +17,12 @@ description: 외부 액세스 (페더레이션) 및 게스트 액세스를 사�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f7a18390841c6a62488c060b4279110a61dffb23
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824926"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43785931"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams에서 다른 조직의 사용자와 의사소통하기
 ======================================================
@@ -73,6 +73,7 @@ ms.locfileid: "41824926"
 | 개별 사용자를 차단할 수 있습니다. | 아니요 | 예 |
 | @멘션을 지원합니다. | 예<sup>4</sup> | 예 |
 | 개인 전화 걸기 | 예 | 예 |
+| 전화 접속 모임 참가자의 전화 번호 보기 | 아니오 | 예 |
 | IP 비디오 허용 | 예 | 예 |
 | 화면 공유 모드 | 예<sup>4</sup> | 예 |
 | 모임 시작 허용 | 아니요 | 예 |
