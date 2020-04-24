@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c2ef9f509f64e044567d9286704458b4dc91596
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: d47a14dd84a1ccbe73d07ea3cbd638b5ed6159db
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229903"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776623"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams의 앱, 봇 및 커넥터
 
@@ -62,11 +62,11 @@ Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 
 
 ### <a name="bots-for-private-chats-and-channels"></a>개인 채팅 및 채널을 위한 봇
 
-봇은 사용자가 흥미를 느끼거나 정보를 얻고자 하는 세부 정보에 대해 쿼리에 응답하거나 업데이트 및 알림을 제공하는 자동화된 프로그램입니다. 봇은 Teams 채팅을 통해 사용자가 클라우드 서비스(예: 작업 관리, 일정 관리 및 설문조사 등)와 상호 작용할 수 있도록 해줍니다. Teams는 개인 채팅 및 채널을 통해 봇을 지원합니다. 관리자는 Office 365 테넌트에서 봇의 사용을 제어할 수 있습니다.
+봇은 사용자가 흥미를 느끼거나 정보를 얻고자 하는 세부 정보에 대해 쿼리에 응답하거나 업데이트 및 알림을 제공하는 자동화된 프로그램입니다. 봇은 Teams 채팅을 통해 사용자가 클라우드 서비스(예: 작업 관리, 일정 관리 및 설문조사 등)와 상호 작용할 수 있도록 해줍니다. Teams는 개인 채팅 및 채널을 통해 봇을 지원합니다. 관리자는 Office 365 조직에서 봇의 사용을 제어할 수 있습니다.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-|Office 365 테넌트에 사용자 지정 봇을 허용하고 싶으세요?|봇 추가에 대한 자세한 내용은 [Microsoft Teams에서 개인 채팅 및 채널을 위한 봇 추가](add-bots.md)를 참조하세요. 사용자 지정 봇을 켜거나 끄는 방법에 대한 자세한 내용은 [Microsoft Teams에서 앱 관리 설정](admin-settings.md)을 참조하세요.|
+|Office 365 조직에서 사용자 지정 봇을 허용하고 싶으세요?|봇 추가에 대한 자세한 내용은 [Microsoft Teams에서 개인 채팅 및 채널을 위한 봇 추가](add-bots.md)를 참조하세요. 사용자 지정 봇을 켜거나 끄는 방법에 대한 자세한 내용은 [Microsoft Teams에서 앱 관리 설정](admin-settings.md)을 참조하세요.|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>기본 제공 및 사용자 지정 탭
@@ -75,7 +75,7 @@ Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-|Office 365 테넌트에 사용자 지정 탭을 허용하고 싶으세요?|자세한 내용은 [Teams에서 기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)을 참조하세요.|
+|Office 365 조직에서 사용자 지정 탭을 허용하고 싶으세요?|자세한 내용은 [Teams에서 기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)을 참조하세요.|
 |||
 
 ### <a name="office-365-and-custom-connectors"></a>Office 365 및 사용자 지정 커넥터

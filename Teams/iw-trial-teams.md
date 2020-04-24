@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: Microsoft Teams 라이선스가 없는 Office 365 사용자는 Teams 1년 평가판을 시작할 수 있습니다.
+description: Microsoft Teams 라이선스가 없는 Microsoft 365 또는 Office 365 사용자는 Teams 1년 평가판을 시작할 수 있습니다.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,17 +17,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6a0ad5cf058b8dcc5567cfc706ed3edb2cc09adf
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137158"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778354"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams 상용 클라우드 평가판 관리
 =======================================================
 
-Microsoft Teams 상용 클라우드 평가판은 조직에 속한 Microsoft Teams 라이선스가 없는 기존의 Office 365 사용자에게 제품의 1년 평가판을 시작할 수 있는 권한을 제공합니다. 관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다.
+Microsoft Teams 상용 클라우드 평가판은 Microsoft Teams 라이선스가 없는 조직의 기존 Microsoft 365 또는 Office 365 사용자에게 제품의 1년 평가판을 시작할 수 있는 권한을 제공합니다. 관리자는 조직의 사용자에 대해 이 기능을 설정 하거나 해제할 수 있습니다.
 
 > [!IMPORTANT]
 > Microsoft Teams Commercial 클라우드 평가판은 2020년 1월부터 Microsoft Teams Exploratory로 대체됩니다. 이 새로운 제품에 대해 알아보려면 [Teams Exploratory 라이센스 관리](teams-exploratory.md)를 읽어보세요.
@@ -55,7 +55,7 @@ Microsoft Teams 상용 클라우드 평가판은 조직에 속한 Microsoft Team
 
 (Microsoft 365 관리 센터에서) 사용자는 앱과 평가판을 사용할 수 있게 등록하도록 설정을 해야 합니다. 자세한 내용은 이 문서 뒷부분의 [평가판 관리](#manage-the-trial) 부분을 참조하십시오. 
 
-Teams를 포함하는 Office 365 라이선스가 없는 사용자는 Microsoft Teams 상용 클라우드 평가판을 시작할 수 있습니다. 예를 들어 사용자에게 Office 365 Business(Teams가 포함되지 않음)가 있는 경우 평가판을 사용할 수 있습니다.
+Teams를 포함하는 Office 365 라이선스가 없는 사용자는 Microsoft Teams 상용 클라우드 평가판을 시작할 수 있습니다. 예를 들어 사용자에게 비즈니스용 Microsoft 365 앱(Teams가 포함되지 않음)이 있는 경우 평가판을 사용할 수 있습니다.
 
 ## <a name="who-is-not-eligible"></a>사용할 수 없는 사용자
 

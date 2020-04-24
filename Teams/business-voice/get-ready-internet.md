@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 473c053036b766ef475c3aed5f0bba2d24dd9e6c
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d2a158f8b43b4cf58e2c5c6c4a4248488f41973d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824886"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780287"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>Business Voice에 대한 인터넷 연결 확인
 
@@ -32,8 +32,8 @@ Business Voice는 Microsoft 365에서 클라우드에 있습니다. Microsoft Te
 
 이 단계를 따르려면 다음의 구독 중 하나를 포함하는 테넌트가 있어야 합니다.
 
-* Office 365 Business Essentials
-* Office 365 Business Premium
+* Microsoft 365 Business Basic
+* Microsoft 365 Business Standard
 * Office 365 E1
 * Office 365 E3
 * Office 365 F1
