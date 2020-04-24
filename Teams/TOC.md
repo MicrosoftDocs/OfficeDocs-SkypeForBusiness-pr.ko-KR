@@ -58,7 +58,7 @@
 ### [Teams용 앱 관리](manage-apps.md)
 ### [Team에서 앱의 관리 설정](admin-settings.md)
 ### [기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)
-### [Office 365 및 사용자 지정 커넥터 사용](Office-365-custom-connectors.md)
+### [Microsoft 365 또는 Office 365, 그리고 사용자 지정 커넥터 사용](Office-365-custom-connectors.md)
 ### [사용자의 LOB(기간 업무) 앱 관리](manage-your-lob-apps.md)
 ### [앱 인증](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams용 앱 서식 파일](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -143,10 +143,10 @@
 ## 오디오 회의
 ### [배포 계획](deploy-audio-conferencing-teams-landing-page.md)
 
-### [Office 365의 오디오 회의](audio-conferencing-in-office-365.md)
+### [Microsoft 365의 오디오 회의](audio-conferencing-in-office-365.md)
 ### [오디오 회의 일반적인 질문](audio-conferencing-common-questions.md)
 ### [자습서: Teams의 오디오 회의](Tutorial-Audio-Conferencing.yml)
-### [Office 365에서 오디오 회의 체험 또는 구매](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+### [Microsoft 365에서 오디오 회의 체험 또는 구매](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [오디오 회의 무료 전화 걸기 기간](complimentary-dial-out-period.md)
 ### [오디오 회의 구독 "전화 걸기"/"전화 받기" 혜택](audio-conferencing-subscription-dial-out.md)
 
@@ -717,7 +717,7 @@
 ### [Teams에 Network Planner 사용](network-planner.md)
 ### [Network Planner 연습](tutorial-network-planner-example.yml)
 ### [Teams 또는 비즈니스용 Skype Online 용 프록시 서버](proxy-servers-for-skype-for-business-online.md)
-### [Teams에서 팀을 만들 때 Office 365 그룹 계획](plan-office-365-groups.md)
+### [Teams에서 팀을 만들 때 Microsoft 365 그룹에 대한 계획](plan-office-365-groups.md)
 ### [Teams에서 수명 주기 관리 계획](plan-teams-lifecycle.md)
 ### [Teams에서 거버넌스 계획](plan-teams-governance.md)
 ### [네트워크 테스트 비교 사용](use-network-testing-companion.md)
@@ -730,7 +730,7 @@
 ### [MSI를 사용하여 Teams 설치](msi-deployment.md)
 ### [조직에서 Teams 설정](Office-365-set-up.md)
 ### [Microsoft Teams에서 메모리를 사용하는 방법](teams-memory-usage-perf.md)
-### [Office 365 URL 및 IP 주소 범위](office-365-urls-ip-address-ranges.md)
+### [Microsoft 365 및 Office 365 URL과 IP 주소 범위](office-365-urls-ip-address-ranges.md)
 ### [VDI(Virtualized Desktop Infrastructure)용 Teams](teams-for-vdi.md)
 ### [Surface Hub용 Teams 배포](teams-surface-hub.md)
 ### [Teams 클라이언트 업데이트](teams-client-update.md)
@@ -738,12 +738,12 @@
 
 ## 라이선싱
 ### [Teams에 대한 사용자 액세스 관리](user-access.md)
-### [Teams용 Office 365 라이선싱](office-365-licensing.md)
+### [Teams용 Microsoft 365 및 Office 365 라이선싱](office-365-licensing.md)
 ### [Teams 라이선스 할당](assign-teams-licenses.md)
 ### [Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-#### 계획을 기반으로 한 라이선스 옵션
-##### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
-##### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
+#### 플랜에 따른 라이선스 옵션
+##### [Microsoft 365 Business Standard](teams-add-on-licensing/office-365-business-premium.md)
+##### [Microsoft Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
 ##### [Office 365 Enterprise E1 and E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
 ##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
 ##### [Office 365 Enterprise E5(오디오 회의 제외)](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
@@ -753,20 +753,20 @@
 ### [Teams 상업적 평가판 관리](iw-trial-teams.md)
 ### [Teams 예비 환경 관리](teams-exploratory.md)
 ### [무료 버전의 팀 관리](manage-freemium.md)
-### [Teams를 Office 365 구독 버전으로 무료 업그레이드](upgrade-freemium.md)
+### [Teams를 구독 버전으로 무료 업그레이드](upgrade-freemium.md)
 ### [메시징 정책 라이선스](teams-add-on-licensing/pri-message.md)
 ### [가상 사용자 라이선스](teams-add-on-licensing/virtual-user.md)
 
 
-## Office 365와의 상호 운용성
+## Microsoft 365 및 Office 365와의 상호 운용성
 
-### [Office 365 그룹 및 Teams](office-365-groups.md)
-### [Teams와 기존 Office 365 그룹 향상](enhance-office-365-groups.md)
-### [Exchange와 Teams의 상호 작용 방식](exchange-teams-interact.md)
+### [Microsoft 365 그룹 및 Microsoft Teams](office-365-groups.md)
+### [Teams와 기존 Microsoft 365 그룹 향상](enhance-office-365-groups.md)
+### [Exchange와 Teams의 상호 작용 방법](exchange-teams-interact.md)
 #### [Teams와 사용할 Exchange 하이브리드 조직 구성](exchange-hybrid-organization.md)
 #### [Exchange Online에서 Teams SMTP 도메인을 허용 도메인으로 추가](smtp-accepted-domain.md)
 ### [SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법](sharepoint-onedrive-interact.md)
-### [Office 365의 다중 지역 지원 테넌시의 Teams 환경](teams-experience-o365odb-spo-multi-geo.md)
+### [Microsoft 365 또는 Office 365의 다중 지역 지원 테넌시의 Teams 환경](teams-experience-o365odb-spo-multi-geo.md)
 
 
 ## 지원되는 장치
@@ -899,6 +899,6 @@
 ## 접근성 및 규정 준수
 ### [Microsoft Teams에서 프랑스의 규정 준수에 대한 접근성 선언](accessibility-declaration-of-conformance-in-france-for-teams.md)
 ### [비즈니스용 Skype Online 및 Microsoft Teams용 접근성 솔루션](accessibility-solutions-in-france.md)
-### [Office 365의 통화 플랜 - 영국의 직업 규약](code-of-practice-for-the-united-kingdom-u-k.md)
-### [Office 365의 통화 플랜 - 영국의 코드 호환 처리](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Microsoft 365의 통화 플랜 - 영국의 직업 규약](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Microsoft 365의 통화 플랜 - 영국의 코드 호환 처리](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [긴급 통화 사용 약관](emergency-calling-terms-and-conditions.md)
