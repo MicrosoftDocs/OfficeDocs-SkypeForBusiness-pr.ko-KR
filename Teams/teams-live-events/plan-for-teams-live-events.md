@@ -10,28 +10,32 @@ audience: admin
 ms.reviewer: sonua
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
 description: Microsoft Teams에서 라이브 이벤트를 설정하기 전에 고려해야 하는 요소에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: c4a7f60a199a342d69311467bffbc4607854a719
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505625"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43752365"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
-조직에서 대규모 모임을 개최하기 위해 Teams 라이브 이벤트를 계획하는 경우 모두 설정하기 전에 고려해야 할 몇 가지 요소가 있습니다. 
+조직에서 대규모 모임을 개최하기 위해 Teams 라이브 이벤트를 계획하는 경우 모두 설정하기 전에 고려해야 할 몇 가지 요소가 있습니다.
 
-## <a name="who-can-create-and-schedule-live-events"></a>누가 라이브 이벤트를 만들고 예약할 수 있나요? 
+## <a name="who-can-attend-create-and-schedule-live-events"></a>누가 라이브 이벤트를 참석하고 만들고 예약할 수 있나요?
+
+라이선스가 없어도 누구든지 라이브 이벤트에 참석할 수 있습니다. [관리자 빠른 시작 - 모임 및 라이브 이벤트](../quick-start-meetings-live-events.md)를 참조하세요.
+
 사용자가 Teams 라이브 이벤트를 예약하려면 다음과 같은 필수 구성 요소가 있어야 합니다.
 
 다음과 같은 라이선스가 할당되어야 합니다.  
+
 - Office 365 Enterprise E1, E3 또는 E5 라이선스 또는 Office 365 A3 또는 A5 라이선스
 - Microsoft Teams 라이선스
 - Microsoft Stream 라이선스
@@ -50,6 +54,7 @@ ms.locfileid: "43505625"
 라이선싱에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조하세요.
 
 사용자에게 다음이 필요합니다.
+
 - Teams에서 비공개 모임 예약 활성화(*TeamsMeetingPolicy -AllowPrivateMeetingScheduling 매개 변수 = True*)
 - Teams 모임에서 비디오 공유 기능 활성화(*TeamsMeetingPolicy -AllowIPVideo 매개 변수 = True*).
 - Teams 모임에서 화면 공유 기능 활성화(*TeamsMeetingPolicy -ScreenSharingMode 매개 변수 = EntireScreen*).
@@ -58,23 +63,23 @@ ms.locfileid: "43505625"
 - 팀 모임(*아일랜드, 모임 먼저 또는 Teams 전용*)를 예약할 수 있는 공존 모드가 구성되었습니다.
 
 > [!IMPORTANT]
-> 인증되지 않은 익명 사용자는 Teams 라이브 이벤트에서 프로듀서 또는 발표자로 초대를 받을 수 없습니다. 
- 
+> 인증되지 않은 익명 사용자는 Teams 라이브 이벤트에서 프로듀서 또는 발표자로 초대를 받을 수 없습니다.
+
 ## <a name="who-can-watch-live-events"></a>누가 라이브 이벤트를 볼 수 있나요?
 
 |**참석자 공개 여부**       |**Teams 프로덕션**  |**외부 앱 또는 장치 프로덕션**  |
 |------------------------------|-----------------|----------------------|
 |공개(익명 사용자)      |  예            |  아니요                  |
 |게스트 사용자                   |  예            |  아니요                  |
-|페더레이션된 회사의 모든 사용자 |  예<sup>1</sup>|  아니요                  |
+|외부 액세스(페더레이션) 회사의 모든 사용자 |  예<sup>1</sup>|  아니요                  |
 |회사의 모든 사용자           |  예            |  예                 |
 |특정 그룹/사용자      |  예            |  예                 |
 
-<sup>1</sup> 페더레이션 참석자는 사용자 및 그룹을 통해서만 초대 받을 수 있습니다. <br>
- 
+<sup>1</sup> 외부 액세스(페더레이션) 참석자는 사용자 및 그룹을 통해서만 초대받을 수 있습니다. <br>
+
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 라이브 이벤트 및 Skype 모임 브로드캐스트
 
-다음 표에는 라이브 이벤트에서 제공하는 핵심 기능과 특성 및 Skype 모임 브로드캐스트와의 차이점을 중점적으로 설명합니다. 
+다음 표에는 라이브 이벤트에서 제공하는 핵심 기능과 특성 및 Skype 모임 브로드캐스트와의 차이점을 중점적으로 설명합니다.
 
 |**기능**   |**Skype 모임 브로드캐스트** |**Teams에서 생성된 이벤트** |**외부 앱 또는 장치에서 생성된 이벤트** |
 |---------|---------|---------|---------|
@@ -91,7 +96,7 @@ ms.locfileid: "43505625"
 |여러 발표자 허용 |&#x2714;(비즈니스용 Skype) |&#x2714;(Teams) |해당 없음  |
 |모임 중에 발표자 초대 |&#x2714;(비즈니스용 Skype) |&#x274C; |해당 없음 |
 |웹과 모바일의 발표자 참여 |&#x2714;(비즈니스용 Skype)  |&#x274C; |해당 없음 |
-|페더레이션 및 게스트 발표자/참석자 |&#x2714;(비즈니스용 Skype)  |  &#x2714;(Teams) |해당 없음 |
+|외부 액세스(페더레이션) 및 게스트 발표자/참석자 |&#x2714;(비즈니스용 Skype)  |  &#x2714;(Teams) |해당 없음 |
 |발표자 – PSTN 액세스 |&#x274C; |&#x2714;(Teams) |해당 없음 |
 |화면 발표 |&#x274C; |&#x2714;(Teams) |해당 없음 |
 |PowerPoint 발표(PPT 공유) |&#x2714; |&#x274C; (화면 공유를 통해 완화됨) |해당 없음 |
@@ -107,27 +112,31 @@ ms.locfileid: "43505625"
 <sup>1</sup> 설정된 제한이 변경되었을 수 있습니다. [Teams의 제한과 사양](../limits-specifications-teams.md)을 확인하세요.<br/>
 <sup>2</sup> 라이브 이벤트에는 최대 250명의 발표자와 프로듀서가 있을 수 있지만, 마지막 10명만 목록에 나타납니다.
 
-
 ## <a name="regional-availability"></a>국가별 가용성
-전 세계 여러 지역에서 Teams 라이브 이벤트를 사용할 수 있습니다. 다음 정보는 이벤트 팀 구성원과 참석자의 가용성을 보여 줍니다. 
+
+전 세계 여러 지역에서 Teams 라이브 이벤트를 사용할 수 있습니다. 다음 정보는 이벤트 팀 구성원과 참석자의 가용성을 보여 줍니다.
 
 > [!IMPORTANT]
 > 이벤트 지역은 이끌이와 Office 365 조직에 따라 자동으로 선택됩니다.
 
 **다음 지역에서 사용 가능**
+
 - 아메리카
 - 유럽/아프리카
 - 아시아 태평양
-- Go Local 캐나다, 인도, 호주, 일본, 영국
+- 캐나다, 인도, 오스트레일리아, 일본, 영국의 데이터 위치
 
 **제외 사항 및 고려 사항**
-- **Go Local:** Teams Go Local은 현재 위에 나열된 지역 외에는 지원되지 않습니다.
+
+- **데이터 위치: ** 위에 나열된 지역 이외의 팀 데이터 위치는 현재 지원되지 않습니다.
 - **중국:** 중국에서 Azure CDN에 액세스할 수 없으므로 팀 구성원 및 참석자는 Teams 라이브 이벤트를 사용할 수 없습니다. 해결 방법은 회사 VPN 연결을 사용하여 고객의 회사 네트워크를 통해 CDN에 클라이언트를 연결하는 것입니다.
 
 ## <a name="next-steps"></a>다음 단계
+
 [Teams 라이브 이벤트 설정](set-up-for-teams-live-events.md)으로 이동하세요.
 
 ### <a name="related-topics"></a>관련 항목
+
 - [Teams 라이브 이벤트란?](what-are-teams-live-events.md)
 - [Teams 라이브 이벤트 설정하기](set-up-for-teams-live-events.md)
 - [Teams에서 라이브 이벤트 설정 구성하기](configure-teams-live-events.md)
