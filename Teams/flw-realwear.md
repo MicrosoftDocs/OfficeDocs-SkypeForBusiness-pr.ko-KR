@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e95440652111dbcd39b756ef942e7a974ef31de0
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: 6ec30e455a79ee37a107509e7c179dd859732b1e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131206"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780577"
 ---
 # <a name="microsoft-teams-for-realwear"></a>RealWear용 Microsoft Teams
 
@@ -43,7 +43,7 @@ RealWear 장치를 릴리스 10.5.0이상으로 업데이트했습니다. [여�
 
 ## <a name="required-licenses"></a>필수 라이선스
 
-Microsoft Teams 라이선스는 Office 365 구독의 일부입니다. RealWear용 Teams를 사용하는 데 별도의 라이선스가 필요하지 않습니다. 팀을 얻는 방법에 대한 자세한 내용은  [Microsoft Teams에 액세스하는 방법](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)을 참조하세요.
+Microsoft Teams 라이선스는 Microsoft 365 및 Office 365 구독의 일부입니다. RealWear용 Teams를 사용하는 데 별도의 라이선스가 필요하지 않습니다. 팀을 얻는 방법에 대한 자세한 내용은  [Microsoft Teams에 액세스하는 방법](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)을 참조하세요.
 
 ## <a name="managing-realwear-devices"></a>RealWear 장치 관리
 
