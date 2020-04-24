@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8cc942b1f249a78622d49f2880eed7282e900c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2604a0dd6aa662d807ae878dc31800736529833c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837058"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778444"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Microsoft Teams에서 사용 현황 및 피드백 모니터링
 사용자가 Teams를 사용하는 방법과 Teams와 함께 어떤 환경이 진행되고 있는지 알아야 합니다. 사용 현황 보고서는 사용 현황 패턴을 보다 잘 이해할 수 있도록 도와주고 사용자 피드백을 반영하여 더 광범위한 배포와 교육 및 통신 노력을 어디에 우선시해야 하는지에 대한 정보를 제공합니다.
@@ -54,7 +54,7 @@ Microsoft Teams 관리 센터의 Teams 보고서는 조직에서 Teams를 사용
 자세한 내용은 [Teams 분석 및 보고](teams-analytics-and-reports/teams-reporting-reference.md)를 참조하세요. 
 
 ### <a name="teams-activity-reports-microsoft-365-admin-center"></a>Teams 활동 보고서 (Microsoft 365 관리 센터)
-Microsoft 365 관리 센터에서 제공되는 보고서를 통해 Teams 활동을 볼 수도 있습니다. 이러한 보고서는 Microsoft 365 관리 센터의 Office 365 보고서에 포함되어 있으며 사용자 활동과 장치 사용 현황에 대한 정보를 제공합니다. 
+Microsoft 365 관리 센터에서 제공되는 보고서를 통해 Teams 활동을 볼 수도 있습니다. 이러한 보고서는 Microsoft 365 관리 센터의 Microsoft 365 보고서에 포함되어 있으며 사용자 활동과 장치 사용 현황에 대한 정보를 제공합니다. 
 
 이러한 보고서를 검토하려면 Microsoft 365 관리 센터로 이동하여 **보고서** > **사용 현황**을 클릭합니다. **보고서 선택** 아래에 **Microsoft Teams**를 클릭하세요. 여기에서 검토하려는 보고서를 선택합니다.
 
