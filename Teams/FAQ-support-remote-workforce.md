@@ -16,12 +16,12 @@ search.appverid: MET150
 description: COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우, 이 가이드를 사용하여 원격 작업자의 생산성을 지원할 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4df15c379d4232dafaea71114f68877dd7347989
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 7a94122550003bee5f98cc5e753aeae2353932f2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096963"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780317"
 ---
 # <a name="faq-support-your-remote-workforce"></a>자주 묻는 질문(FAQ) - 원격 작업자 지원
 
@@ -90,7 +90,7 @@ Microsoft 365이 있는 경우 Teams도 이미 설치되어 있습니다. 모든
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>Teams 시작에 대한 도움말을 얻으려면 어떻게 해야 하나요?
 
-Microsoft는 [Office 365용 FastTrack 센터 혜택](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365)을 제공합니다. 이를 통해 사용법을 계획, 배포 및 추진하고 모범 사례를 채택할 수 있습니다. 이 서비스는 최소 150명 이상의 사용자가 있을 경우 아무런 비용 없이 제공됩니다. 자세한 내용을 알아보려면 [Microsoft 365에 대해 FastTrack 지원 요청](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#)을 읽어 보세요. 모든 Office 365 테넌트 관리자는 Microsoft 365의 FastTrack 설정 지침을 사용할 수 있습니다. 이 지침에 액세스 하려면 관리자 자격 증명을 사용하여 [https://aka.ms/setupguidance](https://aka.ms/setupguidance)에 로그인 합니다.
+Microsoft는 [Office 365용 FastTrack 센터 혜택](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365)을 제공합니다. 이를 통해 사용법을 계획, 배포 및 추진하고 모범 사례를 채택할 수 있습니다. 이 서비스는 최소 150명 이상의 사용자가 있을 경우 아무런 비용 없이 제공됩니다. 자세한 내용을 알아보려면 [Microsoft 365에 대해 FastTrack 지원 요청](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#)을 읽어 보세요. 모든 Office 365 조직 관리자는 Microsoft 365의 FastTrack 설정 지침을 사용할 수 있습니다. 이 지침에 액세스 하려면 관리자 자격 증명을 사용하여 [https://aka.ms/setupguidance](https://aka.ms/setupguidance)에 로그인 합니다.
 
 직접 시작하려면 [Teams를 배포하는 방법](How-to-roll-out-teams.md)을 읽고 사용자가 30일 이내에 Teams를 시작하고 운영할 수 있도록 제작된 [30일 안에 Teams](https://aka.ms/Teamsin30) 웹 세미나 시리즈를 확인하세요.
 

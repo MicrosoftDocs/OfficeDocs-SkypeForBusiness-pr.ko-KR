@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ce58f292fd732c498880936c01d3e1b1343d2aa6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 29caa32b894c2a407a724f68c11c01cfe567c82e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137828"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780257"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams에서 수명 주기 관리 계획
 
@@ -40,7 +40,7 @@ Teams에서는 조직의 공동 작업 수명 주기 관리 프로세스를 구�
 
 **Teams**
 
-_팀_은 공동 작업을 지원하는 사용자, 콘텐츠 및 도구의 컬렉션입니다. 팀은 구성원을 정의하고 해당 구성원에게 적용되는 사용 권한 및 정책을 정의합니다. Teams는 Office 365 그룹에 기반하며 Office 365 그룹 멤버 자격 동기화에 대한 변경 사항이 소속 팀에 동기화됩니다. 다른 Office 365 그룹과 마찬가지로 Teams는 Exchange 사서함, SharePoint 사이트, OneNote 전자 필기장 및 Office 365 내의 다른 자산으로 자동 프로 비전을 제공합니다. [Office 365 그룹에 대해 자세히 알아보세요](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+_팀_은 공동 작업을 지원하는 사용자, 콘텐츠 및 도구의 컬렉션입니다. 팀은 구성원을 정의하고 해당 구성원에게 적용되는 사용 권한 및 정책을 정의합니다. Teams는 Microsoft 365 그룹에 기반하며 Office 365 그룹 멤버 변경 사항이 Teams에 동기화됩니다. 다른 Microsoft 365 그룹과 마찬가지로 Teams는 Exchange 사서함, SharePoint 사이트, OneNote 노트북 및 Office 365 내의 다른 자산으로 자동 프로 비전을 제공합니다. [Microsoft 365 그룹에 대해 자세히 알아보기.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 **채널**
 
@@ -57,7 +57,7 @@ _팀_은 공동 작업을 지원하는 사용자, 콘텐츠 및 도구의 컬렉
 
 팀 사용자 유형은 팀 구성원이 가진 제어 수준을 결정합니다.
 
--   _팀 생성자_는 디렉터리에서 그룹 또는 팀을 만들 수 있는 권한을 가집니다. 관리자는 이 사용자 유형을 관리자 또는 사용자의 하위 집합으로 제한할 수 있습니다. 자세한 내용은 [Office 365 그룹을 만들 수 있는 사용자 관리](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조하세요. 
+-   _팀 생성자_는 디렉터리에서 그룹 또는 팀을 만들 수 있는 권한을 가집니다. 관리자는 이 사용자 유형을 관리자 또는 사용자의 하위 집합으로 제한할 수 있습니다. 자세한 내용은 [Microsoft 365 그룹 생성 가능 사용자 관리](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조하세요. 
 -   _팀 소유자_는 팀에 대한 멤버 자격과 설정을 관리합니다. 팀마다 최대 100명의 팀 소유자가 있을 수 있습니다.
 -   _팀 구성원_은 팀에 참가하는 조직의 구성원입니다.
 -   _게스트_는 조직 외부의 사용자입니다. 조직에서 [게스트 액세스](guest-access.md)를 사용하도록 설정한 경우 전자 메일 주소를 가진 모든 사용자를 게스트로 초대할 수 있습니다.
@@ -79,7 +79,7 @@ Teams 관리자 역할이 각 관리자 역할 보유자의 기능을 결정합�
 <tbody>
    <tr>
     <td valign="top" colspan="2">Teams 서비스 관리자</td>
-    <td valign="top">Teams 서비스를 관리하며 Office 365 그룹을 만들고 관리</td>
+    <td valign="top">Teams 서비스 관리, 구독 및 Microsoft 365 그룹 관리</td>
     <td valign="top">모임 정책, 구성 및 회의 브리지 등의 모임을 관리<sup>1</sup><br><br>통화 정책, 전화번호 인벤토리 및 과제, 전화 큐 및 자동 전화 교환 등의 음성을 관리<sup>1</sup><br><br>메시지 정책 등의 메시지를 관리<sup>1</sup><br><br>페더레이션, Teams 업그레이드, Teams 클라이언트 설정을 포함하여 조직 전체 설정을 모두 관리<sup>1</sup><br><br>멤버 자격을 포함하여 조직의 팀과 관련 설정을 관리<sup>2</sup><br><br>고급 문제 해결 도구 집합을 사용하여 사용자 프로필 페이지를 확인하고 사용자 통화 품질 문제를 해결<sup>3</sup></td>
 </tr>
 <tr>
@@ -197,7 +197,7 @@ Teams는 다음과 같은 다양한 방법으로 시작할 수 있습니다.
 
 팀의 작업 과정이 모두 실행되었으면 작업이 종료되었음을 공식적으로 승인하는 것이 중요합니다. 그러면 팀 구성원은 종료를 인식하고, 다른 사용자가 오래된 부실 정보에 액세스하지 못하도록 차단할 수 있습니다. 팀만을 사용하여 사후 분석과 개요서와 같은 종료 절차를 수행할 수 있습니다.
 
-필요 없는 팀(예: 테스트 전용으로 만든 팀 또는 중요한 데이터가 포함된 팀)을 삭제할 수 있습니다. IT에서 최대 21일(Office 365 그룹의 경우 30일) 동안 복구할 수 있는 "일시 삭제"를 사용하여 팀을 정말로 삭제할 수 있습니다. 팀 삭제는 준수 정책에 따라 유지되는 채팅 또는 콘텐츠에 영향을 주지 않습니다. 채널에는 "일시 삭제"가 있으며 삭제 후 최대 21일 동안 복구할 수 있습니다.
+필요 없는 팀(예: 테스트 전용으로 만든 팀 또는 중요한 데이터가 포함된 팀)을 삭제할 수 있습니다. IT에서 최대 21일(Microsoft 365 그룹의 경우 30일) 동안 복구할 수 있는 "일시 삭제"를 사용하여 팀을 정말로 삭제할 수 있습니다. 팀 삭제는 준수 정책에 따라 유지되는 채팅 또는 콘텐츠에 영향을 주지 않습니다. 채널에는 "일시 삭제"가 있으며 삭제 후 최대 21일 동안 복구할 수 있습니다.
 
 보관 기능 외에도 만료 및 보존 정책을 사용하여 더 이상 활동하지 않거나 소유자가 조직을 떠난 팀의 노출을 줄일 수 있습니다.
 

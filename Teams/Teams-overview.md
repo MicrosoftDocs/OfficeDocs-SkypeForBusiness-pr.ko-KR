@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8fe24de92f46b5850edc9fe6631bb02a03be8bcb
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: fe9e0b5220466971749bd3a8fd12c0c854e42009
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928261"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778474"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams에 오신 것을 환영합니다.
 조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되면 [Teams 배포 방법](How-to-roll-out-teams.md)과 함께 시작해보겠습니다.
@@ -38,7 +38,7 @@ Teams 관리자를 위한 Teams에 오신 것을 환영합니다 비디오를 �
 
 ## <a name="teams-architecture"></a>Teams 아키텍처
 
-Teams는 Office 365 그룹, Microsoft Graph 그리고 Office 365의 나머지 구성 요소와 동일한 엔터프라이즈 수준의 보안, 규정 준수 및 관리 용이성을 기반으로 빌드됩니다. Teams는 Azure Active Directory(Azure AD)에 저장 된 ID를 활용합니다. Teams는 사용자가 오프라인 상태이거나 네트워크 상태가 불규칙해도 계속해서 작동합니다.
+Teams는 Microsoft 365 그룹, Microsoft Graph, 나머지 Office 365와 동일한 엔터프라이즈 수준의 보안, 규정 준수 및 관리 용이성을 기반으로 빌드됩니다. Teams는 Azure Active Directory(Azure AD)에 저장 된 ID를 활용합니다. Teams는 사용자가 오프라인 상태이거나 네트워크 상태가 불규칙해도 계속해서 작동합니다.
 
 Microsoft 365의 환경에서 Teams가 부합하는 위치를 확인하려면 이 아키텍처 포스터 [Microsoft 365의 일부로서의 Teams](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)를 확인하세요.
 
@@ -68,7 +68,7 @@ Teams를 사용자 지정하고 확장하려면 [앱, 봇 그리고 커넥터](d
 - [Teams 관리자 역할을 사용하여 Teams를 관리](using-admin-roles.md)
 - [Teams 관리 센터에서 Teams를 관리](manage-teams-skypeforbusiness-admin-center.md)
 - [새로운 Teams 관리 센터로 전환하는 동안 Teams를 관리](manage-teams-in-modern-portal.md)
-- [Office 365 조직에서 Teams 기능 관리](enable-features-office-365.md)
+- [Office 365 혹은 Microsoft 365에서 Teams 기능 관리](enable-features-office-365.md)
 
 조직에서 Teams와 다른 모든 Office 365 제품 및 서비스에 대한 최신 정보를 확인하려면 [메시지 센터](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) 및 [팀 로드맵](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)을 반드시 확인하세요. 사용자에게 계속해서 정보를 제공하고 준비된 상태로 유지를 시켜주는데 도움이 되는 새로운 기능과 업데이트된 기능, 계획된 변경 사항 그리고 문제에 대한 공지 사항을 확인할 수 있습니다. 
 

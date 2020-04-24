@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ad27eec186bec2fce915da0fc53f515f58ce8e9
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 4991945d47ecda85964068530118bcf3ef1f616a
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892318"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749795"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 =======================================================
@@ -156,8 +156,8 @@ Teams 예비 라이선스에서 사용자를 업그레이드하려면 다음을 
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams 예비 환경은 얼마나 오래 지속되나요?
 
-Microsoft Teams의 예비 환경은 다음 엔터프라이즈 계약 예정일 또는 2021년 1월 이후에 갱신될 때까지 추가 비용 없이 사용할 수 있습니다. 이 경우 Microsoft 예비 환경 라이선스의 최종 사용자는 Teams가 포함된 유료 라이선스로 전환해야 합니다. 그 이후에 시작된 모든 Microsoft 예비 환경 라이선스는 다음 예정일 또는 갱신 주기까지 추가 비용 없이 계속 사용할 수 있습니다. 
+Microsoft Teams의 예비 환경은 다음 엔터프라이즈 **계약 기념일** 또는 2021년 1월 이후에 **갱신**될 때까지 추가 비용 없이 사용할 수 있습니다. 이 경우 Microsoft 예비 환경 라이선스의 최종 사용자는 Teams가 포함된 유료 라이선스로 전환해야 합니다. 그 이후에 시작된 모든 Microsoft 예비 환경 라이선스는 다음 **기념일** 또는 **갱신** 주기까지 추가 비용 없이 계속 사용할 수 있습니다. 
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>최종 사용자가 기념일 또는 갱신 날짜 직전에 Microsoft Teams 예비 환경을 시작하는 경우 어떻게 되나요?
 
-엔터프라이즈 계약 예정일 또는 갱신 후 90일 이내에 시작된 Microsoft Teams 예비 환경 라이선스는 다음 예정일 또는 갱신 주기까지 유료 라이선스로 전환할 필요가 없습니다. 
+**계약 기념일** 또는 **갱신** 후 90일 이내에 시작된 Microsoft Teams 예비 환경 라이선스는 다음 기념일 또는 갱신 주기까지 유료 라이선스로 전환할 필요가 없습니다. 

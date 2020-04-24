@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c6cd94f5d7205b438396dcb09ebb047a49b8f2e
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: 082cde04ad29ba0d1af68bb02f851d87197d7407
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170596"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776573"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -46,7 +46,7 @@ Teams는 조직을 위해 즉시 사용 가능한 뛰어난 공동 작업 환경
 
 |본인에게 질의하기|작업 |
 |------------|-------|
-|조직에서 Teams를 배포할 준비가 되었는가?|이 질문에 답변하려면 다음의 사항을 참조하세요: <ul><li>[Teams에 대한 조직의 네트워크 준비](prepare-network.md)</li><li>[Office 365 URL 및 IP 주소 범위](office-365-urls-ip-address-ranges.md)</li><li>[팀을 만들 때 Office 365 그룹에 대한 계획](plan-office-365-groups.md)</li></ul>|
+|조직에서 Teams를 배포할 준비가 되었는가?|이 질문에 답변하려면 다음의 사항을 참조하세요: <ul><li>[Teams에 대한 조직의 네트워크 준비](prepare-network.md)</li><li>[Office 365 URL 및 IP 주소 범위](office-365-urls-ip-address-ranges.md)</li><li>[팀을 만들 때 Microsoft 365 그룹에 대한 계획](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>핵심 배포 결정사항
@@ -193,7 +193,7 @@ Teams의 엔터프라이즈 배포를 계획할 때 팀의 최대 구성원 수,
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
 |팀을 만들 수 있는 사용자에 대한 제어를 수행해야 하나요?| [Teams에서의 거버넌스 계획](plan-teams-governance.md)을 참조하세요.|
-|Teams의 명명 규칙 방식에 대한 제어를 수행해야 하나요?|[Azure AD에서 Office 365 그룹에 대한 명명 정책 적용](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)을 참조하세요.|
+|Teams의 명명 규칙 방식에 대한 제어를 수행해야 하나요?|[Azure AD에서 Microsoft 365 그룹에 대한 명명 정책 적용](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)을 참조하세요.|
 |||
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams 응용 프로그램 정책(측면 레일 제어)

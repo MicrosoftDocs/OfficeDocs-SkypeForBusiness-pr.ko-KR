@@ -18,24 +18,24 @@ f1.keywords:
 description: 네 가지 수준의 권한 부여를 통해 Microsoft Teams 게스트 액세스 기능을 관리합니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1743b8d2fea354716138800ffe2c1b50d9e71b6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 848db9ea517876d941e837eaff34e72e0cff9c2a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834808"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778484"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams에서 게스트 액세스 권한 부여
 ===========================================
 
-조직의 요구 사항을 충족시키기 위해, 네 가지 수준의 권한 부여를 통해 Microsoft Teams 게스트 액세스 기능을 관리할 수 있습니다. 모든 권한 수준은 Office 365 테넌트에 적용됩니다. 각 권한 수준은 아래와 같이 게스트 경험을 제어합니다.
+조직의 요구 사항을 충족시키기 위해, 네 가지 수준의 권한 부여를 통해 Microsoft Teams 게스트 액세스 기능을 관리할 수 있습니다. 모든 인증 수준은 Office 365 조직에 적용됩니다. 각 권한 수준은 아래와 같이 게스트 경험을 제어합니다.
 
 - **Azure Active Directory**: Microsoft Teams의 게스트 액세스는 Azure AD B2B (Business-to-Business) 플랫폼에 의존합니다. 이 권한 수준은 디렉터리, 테넌트 및 응용 프로그램 수준에서의 게스트 경험을 제어합니다.
 - **Microsoft Teams**: Microsoft Teams의 게스트 경험만 제어합니다.
-- **Office 365 그룹**: Office 365 그룹 및 Microsoft Teams에서 게스트 환경을 제어합니다.
-- **SharePoint Online 및 비즈니스용 OneDrive**: SharePoint Online, 비즈니스용 OneDrive, Office 365 그룹 및 Microsoft Teams에서 게스트 환경을 제어 합니다.
+- **Microsoft 365 그룹**: Microsoft 365 그룹 및 Microsoft Teams에서 게스트 환경을 제어합니다.
+- **SharePoint Online 및 비즈니스용 OneDrive**: SharePoint Online, 비즈니스용 OneDrive, Microsoft 365 그룹 및 Microsoft Teams에서 게스트 환경을 제어 합니다.
 
-이러한 서로 다른 권한 수준은 조직에 게스트 액세스를 설정하는 방법에 유연성을 제공합니다. 예를 들어 Microsoft Teams에서 게스트 사용자를 허용하지 않고 조직 전체에서 게스트 사용자를 허용하려면 Microsoft Teams에서 게스트 액세스를 해제하기만 하면 됩니다. 또 다른 예: Azure AD, Teams, 그룹 수준에서 게스트 액세스를 사용하도록 설정할 수 있지만, 선택한 팀에서 데이터 분류와 같은 하나 이상의 조건과 일치하는 게스트 사용자를 추가하는 기능을 사용하지 않도록 설정합니다. SharePoint Online 및 비즈니스용 OneDrive에는 Office 365 그룹에 의존하지 않는 자체 게스트 액세스 설정이 있습니다.
+이러한 서로 다른 권한 수준은 조직에 게스트 액세스를 설정하는 방법에 유연성을 제공합니다. 예를 들어 Microsoft Teams에서 게스트 사용자를 허용하지 않고 조직 전체에서 게스트 사용자를 허용하려면 Microsoft Teams에서 게스트 액세스를 해제하기만 하면 됩니다. 또 다른 예: Azure AD, Teams, 그룹 수준에서 게스트 액세스를 사용하도록 설정할 수 있지만, 선택한 팀에서 데이터 분류와 같은 하나 이상의 조건과 일치하는 게스트 사용자를 추가하는 기능을 사용하지 않도록 설정합니다. SharePoint Online 및 비즈니스용 OneDrive에는 Microsoft 365 그룹에 의존하지 않는 자체 게스트 액세스 설정이 있습니다.
 
 > [!NOTE]
 > 게스트는 [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) 및 [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) 서비스 제한에 영향을 받습니다. 
@@ -70,41 +70,41 @@ Azure AD에는 외부 사용자를 구성하기위한 다음 설정이 포함되
 게스트를 초대할 수 있는 사용자를 제어하는 방법에 대한 자세한 내용은 [Azure Active Directory B2B 공동 작업에 대한 초대 위임](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)을 참조합니다.
 
 > [!NOTE]
-> 또한 테넌트에 게스트로 초대되는 도메인을 관리할 수 있습니다. [Office 365 그룹에 대한 게스트 액세스 허용/차단](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)을 참조하세요.
+> 또한 테넌트에 게스트로 초대되는 도메인을 관리할 수 있습니다. [Microsoft 365 그룹에 대한 게스트 액세스 허용/차단](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)을 참조하세요.
 
 Teams에 게스트를 추가할 때 계정이 디렉터리에 자동으로 추가되므로 사용자 게스트 계정을 Azure AD B2B에 수동으로 추가할 필요가 없습니다.
 
 ### <a name="licensing-for-guest-access"></a>게스트 액세스에 대한 라이선스
-게스트 액세스 라이선스는 Azure AD 라이선스의 일부입니다. 모든 Office 365 Business Premium 및 Office 365 Enterprise 구독에는 게스트 액세스가 포함됩니다. 라이선스에 대한 자세한 내용은 [Azure Active Directory B2B 공동 작업 라이선스 지침](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)을 참조하세요.
+게스트 액세스 라이선스는 Azure AD 라이선스의 일부입니다. 게스트 액세스는 모든 Microsoft 365 Business Standard, Office 365 Enterprise 구독에 포함되어 있습니다. 라이선스에 대한 자세한 내용은 [Azure Active Directory B2B 공동 작업 라이선스 지침](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)을 참조하세요.
 
 
 > [!NOTE]
-> Exchange Online Plan 2와 같이 독립실행형 Office 365 구독 계획만 가진 조직의 사용자는 Teams에서 동일한 조직에 속한 것으로 간주하기 때문에 조직에 게스트로 초대될 수 없습니다. 사용자가 Teams를 사용하려면 Office 365 Business Premium, Office 365 Enterprise 또는 Office 365 Education 구독에 할당되어야 합니다. 
+> Exchange Online Plan 2와 같이 독립실행형 Office 365 구독 계획만 가진 조직의 사용자는 Teams에서 동일한 조직에 속한 것으로 간주하기 때문에 조직에 게스트로 초대될 수 없습니다. 사용자가 Teams를 사용하려면 Microsoft 365 Business Standard, Office 365 Enterprise 또는 Office 365 Education 구독에 할당되어야 합니다. 
 
 ## <a name="control-guest-access-in-teams"></a>Teams에서 게스트 액세스 제어
 
 Teams에서 게스트 액세스 기능은 기본적으로 꺼져있습니다. 게스트 액세스를 켜려면 [Microsoft Teams에서 게스트 액세스 설정 또는 해제](set-up-guests.md)를 참조하세요. 
 
 
-## <a name="control-guest-access-in-office-365-groups"></a>Office 365 그룹에서 게스트 액세스 제어
+## <a name="control-guest-access-in-microsoft-365-groups"></a>Microsoft 365 그룹에서 게스트 관리
 
-Office 365 그룹에서 조직의 모든 Office 365 그룹 및 Microsoft Teams 팀에 대한 게스트 사용자 및 게스트 액세스 추가를 제어할 수 있습니다.
+Microsoft 365 그룹에서 조직의 모든 Microsoft 365 그룹 및 Microsoft Teams 팀에 대한 게스트 사용자 및 게스트 액세스 추가를 제어할 수 있습니다.
 
-1. [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)에서 Office 365 전역 관리자 계정으로 로그인 합니다.
+1. [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)에서 전역 관리자 계정으로 로그인 합니다.
 
 2. 왼쪽에서**설정**을 선택한 다음 **서비스 &amp; 추가 기능**을 선택합니다.
 
-3. **Office 365 그룹**을 선택합니다.
+3. **Microsoft 365 그룹** 선택
 
-     ![설정에서 Office 365 그룹의 스크린샷](media/authorize-guest-image2.png)
+     ![설정에서 Microsoft 365 그룹의 스크린샷](media/authorize-guest-image2.png)
   
-4. Office 365 그룹 페이지에서 조직 외부의 팀 및 그룹 소유자가 Office 365 그룹에 액세스 할 수 있도록 허용할지에 따라 전환을 **설정** 또는 **해제**로 설정합니다. **그룹 소유자가 조직 외부의 사람들을 그룹에 추가하도록 허용** 옆의 토글을 **켬**으로 설정하거나 탭합니다. 이 토글을 **켬**으로 설정하면 그룹 및 팀 소유자가 조직 외부의 사용자를 Office 365 그룹 및 Microsoft Teams에 추가할 수 있도록 할지 여부를 제어하는 다른 옵션이 표시됩니다. 그룹 및 팀 소유자에게 게스트 사용자를 추가할 수 있도록 허용하려면 이 토글을 **켬**으로 설정합니다. 
+4. Microsoft 365 그룹 페이지에서 조직 외부의 팀 및 그룹 소유자가 Microsoft 365 그룹에 액세스 할 수 있도록 허용할지에 따라 전환을 **설정** 또는 **해제**로 설정합니다. **그룹 소유자가 조직 외부의 사람들을 그룹에 추가하도록 허용** 옆의 토글을 **켬**으로 설정하거나 탭합니다. 이 토글을 **켬**으로 설정하면 그룹 및 팀 소유자가 조직 외부의 사용자를 Microsoft 365 그룹 및 Microsoft Teams에 추가할 수 있도록 할지 여부를 제어하는 다른 옵션이 표시됩니다. 그룹 및 팀 소유자에게 게스트 사용자를 추가할 수 있도록 허용하려면 이 토글을 **켬**으로 설정합니다. 
  
-   ![옵션이 설정된 Office 365 그룹 패널의 스크린 샷](media/authorize-guest-image3.png)
+   ![옵션이 설정된 Microsoft 365 그룹 패널의 스크린 샷](media/authorize-guest-image3.png)
 
-이러한 설정은 테넌트 수준에서 적용되며 Office 365 그룹 및 팀에서 게스트 환경을 제어합니다.
+이러한 설정은 테넌트 수준에서 적용되며 Microsoft 365 그룹 및 Teams에서 게스트 환경을 제어합니다.
 
-게스트 액세스 작동 방식, 게스트 액세스 관리 방법, 자주 묻는 질문에 대한 답변 등 그룹의 게스트 액세스에 대한 자세한 내용은 [Office 365 그룹의 게스트 액세스](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)를 참조합니다.
+게스트 액세스 작동 방식, 게스트 액세스 관리 방법, 자주 묻는 질문에 대한 답변 등 그룹의 게스트 액세스에 대한 자세한 내용은 [Microsoft 365 그룹의 게스트 액세스](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)를 참조합니다.
 
 ## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>SharePoint Online 및 비즈니스용 OneDrive에 대한 게스트 액세스 제어
 
@@ -116,11 +116,11 @@ Teams는 SharePoint Online 및 비즈니스용 OneDrive를 사용하여 채널 �
 
     자세한 내용은 [외부 공유 설정 또는 해제](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off)를 참조하세요.
 
-- Office 365 그룹에서 **그룹 소유자가 조직 외부의 사람을 그룹에 추가하도록 허용** 설정
+- Microsoft 365 그룹에서 **그룹 소유자가 조직 외부의 사람을 그룹에 추가하도록 허용** 설정
 
-    자세한 내용은 위의 [Office 365 그룹에서 게스트 액세스 제어](#control-guest-access-in-office-365-groups)를 참조하세요.
+    자세한 내용은 위의 [Microsoft 365 그룹에서 게스트 액세스 제어](#control-guest-access-in-microsoft-365-groups)를 참조하세요.
   
-이러한 설정은 테넌트 수준에서 적용되며 SharePoint Online, 비즈니스용 OneDrive, Office 365 그룹 및 Teams에서 게스트 환경을 제어합니다.
+이러한 설정은 테넌트 수준에서 적용되며 SharePoint Online, 비즈니스용 OneDrive, Microsoft 365 그룹 및 Teams에서 게스트 환경을 제어합니다.
 
 Teams에 연결된 팀 사이트의 SharePoint Online 외부 사용자 설정을 관리할 수 있습니다. 자세한 내용은 [SharePoint 팀 사이트 설정 관리](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42)를 참조하세요.
 

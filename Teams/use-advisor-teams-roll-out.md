@@ -19,20 +19,20 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Advisor for Teams(공개 미리 보기)를 사용하여 Microsoft Teams 배포를 계획하고 완료할 수 있습니다.
-ms.openlocfilehash: 6e4f383983326333bcd8b821d2342872eb89ecd7
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 006ecf1563da153660902ac4c580253e50632867
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053621"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780807"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Advisor for Teams(공개 미리 보기)가 Microsoft Teams 배포 과정을 안내합니다. Office 365 테넌트 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다. 그런 다음 Advisor for Teams는 배포하려는 각 워크로드에 대한 채널로 배포 팀(Teams에서)을 만듭니다. 서비스 관리 팀의 각 워크로드에는 각 워크로드에 대한 모든 롤아웃 작업이 포함된 포괄적인 Planner 플랜이 함께 제공됩니다.  이 Planner 플랜을 사용하여 프로젝트 관리자, Teams 및 Office 365 관리자, 지원자, 채택 및 사용자 준비 상태 팀 등의 각 롤아웃 단계를 담당하는 사용자에게 작업을 할당합니다. 각 롤아웃 작업에는 해당 작업을 완료하는 데 필요한 모든 가이드 및 리소스가 포함됩니다.
+Advisor for Teams(공개 미리 보기)가 Microsoft Teams 배포 과정을 안내합니다. Office 365 조직 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트 또는 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다. 그런 다음 Advisor for Teams는 배포하려는 각 워크로드에 대한 채널로 배포 팀(Teams에서)을 만듭니다. 서비스 관리 팀의 각 워크로드에는 각 워크로드에 대한 모든 롤아웃 작업이 포함된 포괄적인 Planner 플랜이 함께 제공됩니다.  이 Planner 플랜을 사용하여 프로젝트 관리자, Teams 및 Office 365 관리자, 지원자, 채택 및 사용자 준비 상태 팀 등의 각 롤아웃 단계를 담당하는 사용자에게 작업을 할당합니다. 각 롤아웃 작업에는 해당 작업을 완료하는 데 필요한 모든 가이드 및 리소스가 포함됩니다.
 
-Advisor for Teams는 [Teams 관리 센터](https://admin.teams.microsoft.com)의 일부입니다. 적어도 Office 365 Business Essentials 라이선스가 있어야 하며 이를 통해 Teams용 어드바이저의 양식 및 플래너와의 통합을 활용할 수 있습니다. Teams용 어드바이저의 사용을 시작하려면 대시보드의 **Teams 워크로드 배포** 위젯에서 **시작** 단추를 클릭합니다. 또는 **계획** > **Teams Advisor**로 이동합니다.
+Advisor for Teams는 [Teams 관리 센터](https://admin.teams.microsoft.com)의 일부입니다. 적어도 Microsoft 365 Business Basics 라이선스가 있어야 하며 이를 통해 Teams용 어드바이저의 양식 및 플래너와의 통합을 활용할 수 있습니다. Teams용 어드바이저의 사용을 시작하려면 대시보드의 **Teams 워크로드 배포** 위젯에서 **시작** 단추를 클릭합니다. 또는 **계획** > **Teams Advisor**로 이동합니다.
 
 > [!IMPORTANT]
 > Advisor for Teams는 Microsoft 365 정부 기관, GCC High 또는 DoD 배포에는 사용할 수 없습니다.
@@ -96,8 +96,8 @@ Advisor for Teams가 공개 미리 보기에 있는 동안에는 다음과 같�
 
 |평가 테스트  |알리는 내용  |
 |---------|---------|
-|Office 365 그룹 명명 정책이 구성됨     |Office 365 그룹에 명명 표준이 구성되어 있는지 여부 Office 365 그룹 명명 정책을 사용하면 조직이 일관된 명명 전략을 사용자가 만든 팀에 적용하고 또한 Outlook, SharePoint, Planner 및 Yammer를 비롯한 다른 그룹 작업에도 적용할 수 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하여 Office 365 그룹에 적용되는 명명 정책의 존재 여부를 확인합니다. 자세한 내용은 [Office 365 그룹 명명 정책](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)을 참조하세요.    |
-|Office 365 그룹 만료 정책이 구성됨     |Office 365 그룹에 대한 그룹 만료 정책이 정의되어있는지 여부 이는 조직에서 자동으로 비활성 팀을 제거할 수 있도록 해줍니다. 이는 기본적으로 해제되어 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하고 기본값에서 값이 수정되었는지를 보고합니다. 자세한 내용은 [Office 365 그룹 만료 정책](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)을 참조하세요.    |
+|Office 365 그룹 명명 정책이 구성됨     |Microsoft 365 그룹에 명명 표준이 구성되어 있는지 여부 Microsoft 365 그룹 명명 정책을 사용하면 조직이 일관된 명명 전략을 사용자가 만든 팀에 적용하고 또한 Outlook, SharePoint, Planner 및 Yammer를 포함한 다른 그룹 작업에도 적용할 수 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하여 Microsoft 365 그룹에 적용되는 명명 정책의 존재 여부를 확인합니다. 자세한 내용은 [Office 365 그룹 명명 정책](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)을 참조하세요.    |
+|Office 365 그룹 만료 정책이 구성됨     |Microsoft 365 그룹에 대한 그룹 만료 정책이 정의되어있는지 여부 이는 조직에서 자동으로 비활성 팀을 제거할 수 있도록 해줍니다. 이는 기본적으로 해제되어 있습니다. 이 테스트에서는 Microsoft Graph를 통해 Azure AD를 쿼리하고 기본값에서 값이 수정되었는지를 보고합니다. 자세한 내용은 [Office 365 그룹 만료 정책](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)을 참조하세요.    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>모임 및 회의에 대한 평가
 
@@ -131,7 +131,7 @@ Teams용 어드바이저가 배포 팀을 만들면 어드바이저 봇에서 �
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Advisor for Teams에 대한 라이선스 요구 사항은 무엇인가요?
-적어도 Office 365 Business Essentials이 있어야 하며 이를 통해 Teams용 어드바이저의 양식 및 플래너와의 통합을 활용할 수 있습니다.
+적어도 Microsoft 365 Business Basics가 있어야 하며 이를 통해 Teams용 어드바이저의 양식 및 플래너와의 통합을 활용할 수 있습니다.
 
 ### <a name="can-i-delete-the-deployment-team"></a>배포 팀을 삭제할 수 있나요?
 Advisor for Teams에서 배포 팀을 만든 이후 삭제 기능을 포함해 다른 모든 팀과 같이 팀을 관리하십시오. Teams 관리 센터를 사용하여 팀을 삭제하지 않는 경우 Teams 관리 센터는 팀이 존재하는 것으로 표시합니다. 이는 일시적이며 Advisor for Teams가 공개 미리 보기 기간을 지나 정식 출시되면 수정됩니다.

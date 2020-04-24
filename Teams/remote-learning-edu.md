@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c264bba408205f8f00d1df20fffbc6242124220
-ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
+ms.openlocfilehash: 756059aaf7a707a824c75bd0306df04a70b66829
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237961"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780567"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -56,7 +56,7 @@ Teams에는 데스크톱(Windows, Mac, Linux), 웹, 모바일(Android 및 iOS)�
 
 Teams는 Microsoft 365 기능을 활용하여 사용자를 인증하고 서비스를 제공합니다. 직원, 강사 및 학생들은 공동 작업을 지원하기 위해 ID가 설정되어 있습니다. ID가 아직 없는 경우 이 프로세스에 따라 설정합니다.
 
-Teams 기능을 사용하려면 [사용자에 대해 Teams 라이선스를 사용할 수 있도록 설정](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2)하고 [l라이선스를 사용자에게 할당해야 합니다](teams-edu-licensing.md). Teams는 [Office 365 그룹](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint 및 OneDrive](SharePoint-OneDrive-interact.md)와 같은 추가 Microsoft 365 기능을 사용하여 공동 작업 시나리오를 지원합니다. 이러한 모든 서비스도 사용하도록 설정하면 사용자에게는 최상의 Teams 환경이 제공됩니다. [Teams는 Google에서 전자 메일이 호스트되는 사용자에 대해 지원됩니다.](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)
+Teams 기능을 사용하려면 [사용자에 대해 Teams 라이선스를 사용할 수 있도록 설정](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2)하고 [l라이선스를 사용자에게 할당해야 합니다](teams-edu-licensing.md). Teams는 [Microsoft 365 그룹](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint 및 OneDrive](SharePoint-OneDrive-interact.md)와 같은 추가 Microsoft 365 기능을 사용하여 공동 작업 시나리오를 지원합니다. 이러한 모든 서비스도 사용하도록 설정하면 사용자에게는 최상의 Teams 환경이 제공됩니다. [Teams는 Google에서 전자 메일이 호스트되는 사용자에 대해 지원됩니다.](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)
 
 Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 A1에 포함되어 있습니다. Office 365를 배포하고 전체 학교가 Teams를 시작하도록 하는 방법에 대한 IT 지침은 [이 페이지](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)에서 확인하세요. 지원이 필요한 경우 [여기](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)에서 티켓을 제출할 수 있으며 Teams의 교육은 해당 Microsoft 스토어를 방문하여 전문가와 대화할 수 있습니다.
 
@@ -69,7 +69,7 @@ Microsoft Teams는 교육용 교육 기관에 무료로 제공되는 Office 365 
 
 ### <a name="1-allow-users-to-create-teams"></a>1. 사용자가 Teams를 만들 수 있도록 허용
 
-학생과 교사는 문제를 최소화하면서 Teams를 사용하고, 필요에 맞게 유연하게 조정할 수 있습니다. Teams 환경을 조정하는 한 가지 방법은 본인의 요구에 맞는 팀을 만들 수 있도록 지원하는 것입니다. **기본적으로 모든 사용자는 Office 365 그룹 및 Teams를 만들 수 있습니다.** 경우에 따라 이 기능이 적절하지 않을 수도 있습니다. 예를 들어, 일부 고객은 초등 및 중학교 학생이 팀을 만들지 못하도록 제한하려고 할 수 있습니다. 필요한 경우 Office 365 그룹 및 팀 만들기는 해당 환경의 [특정 보안 그룹으로 제한](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)될 수 있습니다.
+학생과 교사는 문제를 최소화하면서 Teams를 사용하고, 필요에 맞게 유연하게 조정할 수 있습니다. Teams 환경을 조정하는 한 가지 방법은 본인의 요구에 맞는 팀을 만들 수 있도록 지원하는 것입니다. **기본적으로 모든 사용자는 Microsoft 365 그룹 및 Teams를 만들 수 있습니다.** 경우에 따라 이 기능이 적절하지 않을 수도 있습니다. 예를 들어, 일부 고객은 초등 및 중학교 학생이 팀을 만들지 못하도록 제한하려고 할 수 있습니다. 필요한 경우 Office 365 그룹 및 팀 만들기는 해당 환경의 [특정 보안 그룹으로 제한](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)될 수 있습니다.
 
 고등 교육 고객은 학생을 포함하는 모든 관계자가 수업, 연구, 그룹 프로젝트 및 연구 그룹을 위한 팀을 만들도록 하여 유용하게 작업할 수 있습니다. 초등 및 중학교는 학생들이 팀을 만들지 못하도록 제한하여 모든 학생 간 커뮤니케이션이 성인을 포함하는 포럼 내에서 진행되도록 할 수 있습니다. 이 경우 Office 365 그룹 및 팀 만들기는 모든 교사와 직원으로 제한될 수 있습니다.
 
