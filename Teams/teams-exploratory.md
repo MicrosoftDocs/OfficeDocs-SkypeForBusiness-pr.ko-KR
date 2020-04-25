@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: Microsoft Teams 라이선스가 없는 Office 365 사용자는 예비 Teams 라이선스를 시작할 수 있습니다.
+description: Microsoft Teams 라이선스가 없는 Microsoft 365 또는 Office 365 사용자는 예비 Teams 라이선스를 시작할 수 있습니다.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4991945d47ecda85964068530118bcf3ef1f616a
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4cc744b8cbe9942712857309f061b998957661b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749795"
+ms.locfileid: "43780387"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 =======================================================
@@ -54,7 +54,7 @@ Microsoft Teams 예비 환경을 통해 조직에서 AAD (Azure Active Directory
 
 ## <a name="whos-eligible"></a>사용 자격이 있는 사용자
 
-사용자에게 관리되는 AAD 도메인 전자 메일 주소가 있고 현재 Teams 라이선스가 할당되지 않은 경우 이 환경을 사용할 수 있습니다. 예를 들어 사용자에게 Office 365 Business(Teams가 포함되지 않음)가 있는 경우 Teams 예비 환경을 사용할 수 있습니다.
+사용자에게 관리되는 AAD 도메인 전자 메일 주소가 있고 현재 Teams 라이선스가 할당되지 않은 경우 이 환경을 사용할 수 있습니다. 예를 들어 사용자에게 Microsoft 365 앱(Teams가 포함되지 않음)이 있는 경우 Teams 예비 환경을 사용할 수 있습니다.
 
 (Microsoft 365 관리 센터에서) 사용자는 앱과 평가판을 사용할 수 있게 등록하도록 설정을 해야 합니다. 자세한 내용은 이 문서 뒷부분의 [Teams 예비 환경 관리](#manage-the-teams-exploratory-experience)를 참조하십시오. 
 
